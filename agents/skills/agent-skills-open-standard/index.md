@@ -25,7 +25,7 @@ Discovery is by directory convention: each harness scans its own skills paths (`
 
 **Active, and effectively the winner.**
 The agentskills.io client showcase lists Claude and Claude Code, ChatGPT and Codex, Gemini CLI, Cursor, GitHub Copilot and VS Code, OpenCode, Amp, Goose, Junie, Roo, Kiro, Trae, and dozens more.
-Vercel's skills CLI installs into 79 agents as of 2026-10-06 (its README table names exactly 79, OpenCode, Claude Code, Codex, Cursor, and 75 more).
+Vercel's skills CLI installs into 80 agents as of 2026-10-07 (its README table now names 80 targets, one ahead of its own headline's "75 more" count).
 Mintlify now auto-generates a skill at `.well-known/skills/default/skill.md` for every docs site it hosts and deprecated its January 2026 install.md convention in favor of skills.
 
 ## Strengths

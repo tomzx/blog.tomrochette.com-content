@@ -1,7 +1,7 @@
 ---
 title: Google Antigravity
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, google]
 readability: 3
@@ -28,7 +28,9 @@ Enterprise access went live through Google Cloud and Gemini Enterprise subscript
 
 ## Strengths
 
-- **The free individual tier is real**: unlimited tab completions and command requests against Gemini 3.8 Flash, Gemini 3.7 Flash, Gemini 3.6 Flash, Gemini 3.1 Pro, Claude Sonnet and Opus 4.6, and gpt-oss-120b, with weekly rate limits.
+- **The free individual tier is real**: unlimited tab completions and command requests with weekly rate limits, currently spanning Gemini 3.1 Pro and the Gemini 3.6 to 3.8 Flash line plus Claude Sonnet 4.6 and Opus 4.6 (thinking) and gpt-oss-120b, and the last three carry a November 2, 2026 removal date in the models docs.
+- Paid tiers pulled ahead of the free list: Claude Sonnet 5.5 and Opus 5.5 (thinking) are Pro and Ultra models, with Sonnet 5.5 also on non-trial Pro only.
+- The SDK runs agents on local models with no API key: on-device through LiteRT (Gemma 4 26B) or against OpenAI-compatible local servers such as Ollama, LM Studio, and vLLM.
 - Multi-agent parallel management in the 2.0 desktop app matches what Cursor and OpenChamber charge for.
 - The SDK makes the harness a platform primitive, not just a product.
 - Enterprise path runs on Google Cloud terms with consumption pricing, familiar territory for org buyers.
@@ -40,6 +42,7 @@ Enterprise access went live through Google Cloud and Gemini Enterprise subscript
 - Account bans lock the whole Google identity, not just the product.
 - The terms are exposure too: a September 2026 HN thread (338 points) discusses the clause covering use of the service in connection with products Google does not provide, under which third-party harness usage can get the whole Google account suspended.
 - The client is closed; trust rests on Google's incident response, which the bans thread suggests is blunt.
+- The plans state there is no BYOK or bring-your-own-endpoint support, so the product surfaces run only on Google's quotas and model list; the SDK's local-model support is the one escape hatch.
 
 ## Pricing
 
@@ -72,6 +75,7 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 - 2026-09-25 - Added the Price history table the pricing rule requires, seeded with the $0/month individuals baseline.
 - 2026-09-26 - Linked the Google AI plans note in the Model access category, where the paid Pro/Ultra ladder behind the credit pool is tracked.
 - 2026-10-05 - Recorded the org-side prices the pricing page now exposes: Gemini Enterprise Standard/Plus from $30/seat/month or pay-as-you-go at a $0 seat fee; the individual $0 tier unchanged.
+- 2026-10-07 - Recorded the models-docs lineup change: Claude Sonnet 5.5 and Opus 5.5 (thinking) joined as paid-tier models while the Claude Sonnet and Opus 4.6 pair and gpt-oss-120b carry a November 2, 2026 removal date, and added the SDK's local-model paths (LiteRT on-device or OpenAI-compatible servers) against the plans' explicit no-BYOK statement; prices unchanged.
 
 ## See also
 
@@ -84,6 +88,9 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 
 - https://antigravity.google/ - product family, 2.0 command center, IDE, CLI, SDK
 - https://antigravity.google/pricing - tiers, model lists, weekly limits, enterprise terms, as of 2026-10-06
+- https://antigravity.google/docs/models - the model availability table: Sonnet and Opus 5.5 on paid tiers, the 4.6 pair and gpt-oss-120b slated for removal on November 2, 2026, as of 2026-10-07
+- https://antigravity.google/docs/plans/ - the free tier's weekly quota, the five-hour refresh on paid tiers, and the explicit no-BYOK statement, as of 2026-10-07
+- https://antigravity.google/docs/sdk/local-models/ - the SDK's LiteRT on-device path and OpenAI-compatible local-server path, as of 2026-10-07
 - https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/ - the Gemini CLI transition and June 18, 2026 cutoff
 - https://news.ycombinator.com/item?id=45967814 - the November 2025 launch thread
 - https://news.ycombinator.com/item?id=46048996 - the exfiltration-via-prompt-injection finding

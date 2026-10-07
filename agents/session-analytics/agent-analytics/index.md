@@ -90,7 +90,7 @@ Not for observing coding-agent sessions, token cost, or provenance, despite livi
 
 ## References
 
-- https://agentanalytics.sh/ - the pricing tiers, the free and metered cloud plans, and the agent-first pitch
+- https://agentanalytics.sh/ - the pricing tiers, the free and metered cloud plans, and the agent-first pitch (the pricing section renders client-side as of 2026-10-07, so the tier figures stay dated 2026-09-27)
 - https://github.com/Agent-Analytics/agent-analytics - the open-source server repository, its activity, and the missing license file
 - https://raw.githubusercontent.com/Agent-Analytics/agent-analytics/main/README.md - the capability list, self-host routes, and CLI usage
 - https://docs.agentanalytics.sh/ - the docs home, the product-system model, and the list of access surfaces and integrations

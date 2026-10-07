@@ -16,13 +16,13 @@ LLM Gateway is a hosted model gateway from LLMGateway, Inc. (GitHub org theopenc
 ## What it is
 
 A hosted gateway with a self-host option: pay per token at each provider's own rates with no token markup, a 5% platform fee when you buy credits, and BYOK routing with no platform fee at all.
-The repo ships under a custom license with a commercial carve-out for the `ee/` directory, so "open-source" is the company's word, not an OSI license.
+The repo ships under AGPLv3 with a commercial carve-out for the `ee/` directory, so self-hosting is free and the enterprise features are the licensed part.
 DevPass claims every $1 converts into $3 of model usage metered at provider rates, works from Claude Code, OpenCode, Cline, Cursor, or any OpenAI-compatible tool, and gates premium models (roughly $5+ per 1M input) behind a weekly fair-use share of credits.
 The company reports SOC 2 Type II, a 30-day enterprise pilot with a 99.9% SLA, and site counters of 1T+ tokens and 80M+ requests routed, as of 2026-10-04.
 
 ## Status
 
-Active and young: the repo was created 2025-04-12 and shows 1,671 stars and 191 forks as of 2026-10-06, pushed the same day.
+Active and young: the repo was created 2025-04-12 and shows 1,674 stars and 191 forks as of 2026-10-07, pushed the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=theopenco/llmgateway&type=date&theme=dark&legend=top-left" />
@@ -50,9 +50,9 @@ On 2026-10-04 the DevPass page announced its first devaluation: from October 15,
 
 ## Pricing
 
-PAYG: free tier with 3 rate-limited free models, provider list prices, 5% fee on credit top-ups, BYOK free, non-US cards add 1.5%, and optional full payload retention costs $0.01 per 1M tokens, as of 2026-10-06.
-DevPass: Lite $29/month (about $87 of usage), Pro $79/month (about $237), Max $179/month (about $537), 14-day self-serve refund, weekly frontier fair-use at 12% of credits on Lite, 15% on Pro, and 18% on Max, worth 3x the plan price until October 15, 2026 and 2x after.
-Lounge chat plans: fast models from $9/month, flagship models from $19/month.
+PAYG: free tier with 3 rate-limited free models, provider list prices, 5% fee on credit top-ups, BYOK free, non-US cards add 1.5%, and optional full payload retention costs $0.01 per 1M tokens, as of 2026-10-07.
+DevPass: Lite $29/month (about $87 of usage), Pro $79/month (about $237), Max $179/month (about $537), 14-day self-serve refund, weekly frontier fair-use at 12% of credits on Lite, 15% on Pro, and 18% on Max, worth 3x the plan price until October 15, 2026 and 2x after; the cards now also publish Reset Passes (instant premium-allowance resets) at $9 each on Lite, 1 per month on Pro with extras at $29, and 2 per month on Max with extras at $79.
+Lounge chat plans: Starter $9/month, Plus $19/month, Pro $49/month.
 Enterprise: custom, 30-day pilot, SAML SSO and SCIM, 99.9% SLA.
 
 ## Price history
@@ -80,6 +80,8 @@ My disagreeable claim: DevPass at 3x (soon 2x) buys less leverage than OpenCode 
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 - 2026-10-06 - DevPass re-check ahead of the October 15 change: the notice now also adds daily caps and tighter premium weekly caps applying inside existing billing cycles, and the cards publish the frontier fair-use share per tier (Lite 12%, Pro 15%, Max 18% of credits); plan prices and the 3x-to-2x cut re-verified unchanged.
 - 2026-10-07 - Added the theopenco/llmgateway star history chart to the Status section.
+- 2026-10-07 - Corrected the license claim: the LICENSE file and the pricing page now state AGPLv3 with the commercial `ee/` carve-out, where this note had recorded a custom non-OSI license from the 2026-10-04 read.
+- 2026-10-07 - Pricing-page completeness: the Lounge lineup named precisely (Starter $9, Plus $19, Pro $49) and the DevPass cards now publish Reset Pass pricing ($9 Lite extras, 1 per month Pro with $29 extras, 2 per month Max with $79 extras); PAYG and DevPass plan prices and the October 15 3x-to-2x change notice re-verified unchanged.
 
 ## See also
 
@@ -96,6 +98,6 @@ My disagreeable claim: DevPass at 3x (soon 2x) buys less leverage than OpenCode 
 - https://devpass.llmgateway.io/ - DevPass $29/$79/$179, $1-to-$3 usage claim, frontier fair-use, 14-day refund, supported agents (200, fetched 2026-10-04).
 - https://devpass.llmgateway.io/pricing - per-plan usage values and the October 15, 2026 3x-to-2x change notice (200, fetched 2026-10-04).
 - https://llmgateway.io/blog/q2-2026-roundup - DevPass Q2 launch detail, SOC 2 Type II, top-routed models by tokens (200, fetched 2026-10-04).
-- https://api.github.com/repos/theopenco/llmgateway - 1,671 stars, 192 forks, created 2025-04-12, pushed 2026-10-03 (200, fetched 2026-10-04).
-- https://raw.githubusercontent.com/theopenco/llmgateway/main/LICENSE - custom license text with the ee/ commercial carve-out (200, fetched 2026-10-04).
+- https://api.github.com/repos/theopenco/llmgateway - 1,674 stars, 191 forks, created 2025-04-12, pushed 2026-10-07 (200, fetched 2026-10-07).
+- https://raw.githubusercontent.com/theopenco/llmgateway/main/LICENSE - AGPLv3 grant with the ee/ commercial carve-out (200, re-fetched 2026-10-07; the 2026-10-04 read had recorded it as a custom license).
 - https://llmgateway.io/blog/best-ai-coding-plans - the company's self-ranking comparison against Claude Max, OpenCode Go, and the GLM plan, cited as marketing positioning rather than measurement (200, fetched 2026-10-04).

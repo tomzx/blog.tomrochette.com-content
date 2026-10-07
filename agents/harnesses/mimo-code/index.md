@@ -24,7 +24,7 @@ Provider access follows the OpenCode approach: any of 75+ providers through the 
 ## Status
 
 **Active and pre-1.0.**
-The repository was created 2026-06-10 and lists about 13.6k stars and 1.4k forks under MIT as of 2026-10-04, with 1,369 commits and a push on 2026-10-03.
+The repository was created 2026-06-10 and lists about 13.6k stars and 1.4k forks under MIT as of 2026-10-07, with 1,369 commits and a push on 2026-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=XiaomiMiMo/MiMo-Code&type=date&theme=dark&legend=top-left" />

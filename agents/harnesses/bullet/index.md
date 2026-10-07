@@ -25,7 +25,7 @@ It is closed source: the npm package is marked UNLICENSED, its declared reposito
 ## Status
 
 v1.4.23 as of 2026-10-05, still the newest build on both the CLI registry and the desktop releases repository, published September 23, 2026.
-The CLI shipped on npm on August 7, 2026 and did 1,720 downloads in the last month (the API window covering September 4-October 3) and 107 in the week ending October 3 as of 2026-10-05, down from 1,883 and 178 in the prior windows, the first decline this note has recorded.
+The CLI shipped on npm on August 7, 2026 and did 1,719 downloads in the last month (the API window covering September 5-October 4) and 106 in the week ending October 4 as of 2026-10-07, flat against the prior windows after the first decline this note recorded a week earlier.
 Its Launch HN on August 13, 2026 reached 121 points (item 49283063), nine days after a quiet 9-point Show HN.
 Traction is early and now drifting down: thousands of installs, not millions, with YC backing as the deliberately stated signal behind it.
 
@@ -85,8 +85,8 @@ I think speed is the wrong axis for buying a coding agent, and a 119-second mean
 - https://www.codewithbullet.com - product surface, YC badge, CLI install, free access as of 2026-10-04
 - https://www.codewithbullet.com/blog/benchmark-results.html - the SWE-bench Verified run: 479/500, 119 s mean, $0.73 per instance
 - https://registry.npmjs.org/@trybullet%2Fcli - CLI version, UNLICENSED marker, and dead repository URL
-- https://api.npmjs.org/downloads/point/last-month/@trybullet/cli - 1,720 monthly downloads (window September 4 to October 3) as of 2026-10-05
-- https://api.npmjs.org/downloads/point/last-week/@trybullet/cli - 107 weekly downloads (window September 27 to October 3) as of 2026-10-05
+- https://api.npmjs.org/downloads/point/last-month/@trybullet/cli - 1,719 monthly downloads (window September 5 to October 4) as of 2026-10-07
+- https://api.npmjs.org/downloads/point/last-week/@trybullet/cli - 106 weekly downloads (window September 28 to October 4) as of 2026-10-07
 - https://github.com/trybullet/bullet-releases - desktop release channel, v1.4.23 still the newest, published September 23, 2026 (verified via the GitHub API, 2026-10-05)
 - https://news.ycombinator.com/item?id=49283063 - 121-point Launch HN with YC S26 in the title and community skepticism
 - https://news.ycombinator.com/item?id=49173799 - the earlier 9-point Show HN nine days prior

@@ -22,7 +22,7 @@ Unreal Labs says it was founded by engineers from CERN, Meta, Snap, Bloomberg, a
 ## Status
 
 Active and three days old at verification.
-The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 242 points with 122 comments, and the repo stood at 2,075 stars and 119 forks with the default branch pushed 2026-10-05 (GitHub, as of 2026-10-06).
+The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 242 points with 122 comments, and the repo stood at 2,128 stars and 121 forks with the default branch pushed 2026-10-06 (GitHub, as of 2026-10-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=unreallabsai/unreal-agent&type=date&theme=dark&legend=top-left" />
@@ -30,8 +30,8 @@ The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 242 poin
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=unreallabsai/unreal-agent&type=date&legend=top-left" />
 </picture>
 
-Three tagged releases exist, v0.1.0 and v0.1.1 on launch day and v0.2.0 on 2026-09-23.
-That traction at day three is exo-class: exo entered this index at 1,919 stars on a 169-point thread.
+Four tagged releases now exist: v0.1.0 and v0.1.1 on launch day, v0.2.0 on 2026-09-23, and v0.3.1 on 2026-10-06, which moved distribution to GoReleaser with a Homebrew tap and updated the README's runner and TUI documentation.
+That traction at day three was exo-class: exo entered this index at 1,919 stars on a 169-point thread.
 
 ## Strengths
 
@@ -69,6 +69,7 @@ The plain summary is that its one claim, async tool calls cut harness token over
 - 2026-09-25 - Created.
 - 2026-09-29 - Refreshed repository counters (2,018 stars, 113 forks); v0.2.0 remains the latest release.
 - 2026-10-07 - Added the unreallabsai/unreal-agent star history chart to the Status section.
+- 2026-10-07 - Recorded the v0.3.1 release (October 6), which moved distribution to GoReleaser with a Homebrew tap and refreshed the runner and TUI documentation, and refreshed repository counters.
 
 ## See also
 
@@ -80,7 +81,7 @@ The plain summary is that its one claim, async tool calls cut harness token over
 
 ## References
 
-- https://github.com/unreallabsai/unreal-agent - the repo, MIT license, releases, and star and fork counts as of 2026-10-06
+- https://github.com/unreallabsai/unreal-agent - the repo, MIT license, releases, and star and fork counts as of 2026-10-07
 - https://unreallabs.ai/blog/unreal-agent/ - the architecture, async tool-call model, Harbor-linked benchmark tables, and company backing
 - https://news.ycombinator.com/item?id=49805748 - the launch thread (242 points, 122 comments as of 2026-09-25) and the baseline-mismatch critique
 - https://unreallabs.ai/ - the company positioning and the Sequoia and First Round backing line

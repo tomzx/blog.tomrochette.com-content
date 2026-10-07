@@ -24,7 +24,7 @@ Made by matt1398, MIT-licensed, with docs at claude-dev.tools.
 
 ## Status
 
-Young: 3,960 stars, 305 forks, 53 open issues, created 2026-02-07, pushed 2026-09-26, as of 2026-10-06.
+Young: 3,966 stars, 305 forks, 53 open issues, created 2026-02-07, pushed 2026-09-26, as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=matt1398/claude-devtools&type=date&theme=dark&legend=top-left" />

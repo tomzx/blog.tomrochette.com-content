@@ -24,7 +24,7 @@ Dual Apache-2.0 or MIT, written almost entirely by one developer (1,090 of 1,368
 
 ## Status
 
-Fast and growing: 9,161 stars, 689 forks, 135 open issues and PRs as of 2026-10-06, created 2025-12-28, pushed 2026-10-06, v0.28.4 released 2026-10-05.
+Fast and growing: 9,188 stars, 691 forks, 137 open issues and PRs as of 2026-10-07, created 2025-12-28, pushed 2026-10-07, v0.28.6 released 2026-10-06.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=backnotprop/plannotator&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Fast and growing: 9,161 stars, 689 forks, 135 open issues and PRs as of 2026-10-
 </picture>
 
 **The 0.27.x line gave way to 0.28.x on 2026-10-05 (five releases that day alone), which says pre-1.0 churn, and the growth came through social channels rather than press; its Show HN thread drew 5 points.**
-The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (624 stars as of 2026-10-06), which applies the same annotate-and-send-feedback loop to terminal text.
+The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (632 stars as of 2026-10-07), which applies the same annotate-and-send-feedback loop to terminal text.
 
 ## Strengths
 
@@ -77,6 +77,7 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - 2026-09-29 - Recorded the v0.27.22 release (2026-09-29) and refreshed repository, contributor, and Herdr Annotate counts.
 - 2026-10-06 - Recorded the 0.28.x line (v0.28.0 through v0.28.4, all 2026-10-05) and refreshed repository, contributor, and Herdr Annotate counts.
 - 2026-10-07 - Added the backnotprop/plannotator star history chart to the Status section.
+- 2026-10-07 - Recorded the v0.28.5 and v0.28.6 releases (both 2026-10-06) and refreshed repository and Herdr Annotate counts.
 
 ## See also
 
@@ -87,10 +88,10 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 
 ## References
 
-- https://github.com/backnotprop/plannotator - repository, supported agents, mechanics, license, counts as of 2026-10-06
+- https://github.com/backnotprop/plannotator - repository, supported agents, mechanics, license, counts as of 2026-10-07
 - https://raw.githubusercontent.com/backnotprop/plannotator/HEAD/README.md - the privacy boundaries, including the unencrypted small-share caveat
 - https://plannotator.ai/ - product pitch and Workspaces framing
 - https://docs.plannotator.ai/open-source/start/installation - platforms and per-agent setup
 - https://github.com/backnotprop/plannotator/releases - release cadence evidence
 - https://news.ycombinator.com/item?id=48495970 - the Show HN thread with the encryption-claim discrepancy
-- https://github.com/plannotator/herdr-annotate - the terminal sibling project, 624 stars as of 2026-10-06
+- https://github.com/plannotator/herdr-annotate - the terminal sibling project, 632 stars as of 2026-10-07

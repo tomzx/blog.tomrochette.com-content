@@ -21,7 +21,7 @@ The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2
 
 ## Status
 
-Active and big-vendor backed, about 19.2k combined stars as of 2026-10-05: `kimi-code` at 7,771 stars, `kimi-cli` at 11,433 stars, with the older repository now archived by Moonshot (its last push was 2026-09-22).
+Active and big-vendor backed, about 19.2k combined stars as of 2026-10-07: `kimi-code` at 7,785 stars, `kimi-cli` at 11,426 stars, with the older repository now archived by Moonshot (its last push was 2026-09-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MoonshotAI/kimi-code&type=date&theme=dark&legend=top-left" />
@@ -48,7 +48,7 @@ The wind-down is now complete: GitHub shows the `kimi-cli` repository archived a
 ## Pricing
 
 The harness is free and open source.
-Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $0.83/$14.00 per million tokens (cache reads listed at $0.27) and kimi-k2.7-code at $0.67/$3.35 (cache hits $0.18) as of 2026-10-06 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09; among the endpoint hosts the kimi-k3 floor sat at $0.66/$13.00 on Relace as of 2026-10-06), with other OpenAI-compatible providers configurable.
+Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $0.62/$15.00 per million tokens (cache reads listed at $0.43) and kimi-k2.7-code at $0.67/$3.35 (cache hits $0.18) as of 2026-10-07 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09; among the endpoint hosts the kimi-k3 floor sat at $0.61/$13.00 on Relace as of 2026-10-07), with other OpenAI-compatible providers configurable.
 
 ## Price history
 
@@ -65,6 +65,7 @@ Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform AP
 | 2026-10-06 | API (OpenRouter) | kimi-k3 moved again to $0.95/$14.00 per million tokens (cache reads $0.31), with the cheapest endpoint host at $0.96/$13.00 on Relace; kimi-k2.7-code unchanged at $0.67/$3.35 (cache hits $0.18). | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 | 2026-10-06 | API (OpenRouter) | kimi-k3 moved again the same day to $0.83/$14.00 per million tokens (cache reads $0.27), with the endpoint floor at $0.82/$13.00 on Relace; kimi-k2.7-code unchanged at $0.67/$3.35 (cache hits $0.18). | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 | 2026-10-06 | API (OpenRouter) | the Relace endpoint floor dropped to $0.66/$13.00 per million tokens (input down from $0.82, output unchanged, endpoint cache read $0.30); the main listing re-verified unchanged at $0.83/$14.00 (cache reads $0.27). | [OpenRouter kimi-k3 endpoints](https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints) |
+| 2026-10-07 | API (OpenRouter) | kimi-k3 moved to $0.62/$15.00 per million tokens (cache reads $0.43), the seventh recorded move, with the endpoint floor at $0.61/$13.00 on Relace; kimi-k2.7-code unchanged at $0.67/$3.35 (cache hits $0.18). | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 
 ## Compared to
 
@@ -96,6 +97,8 @@ Not for teams that need local models, or anyone who needs more than one independ
 - 2026-10-06 - Recorded the kimi-k3 listing moving again the same day to $0.83/$14.00 per million tokens (cache reads $0.27) with the endpoint floor at $0.82/$13.00 on Relace, and appended the matching Price history row.
 - 2026-10-06 - Recorded the Relace endpoint floor dropping to $0.66/$13.00 per million tokens (input down from $0.82, output unchanged, endpoint cache read $0.30), with the main listing re-verified unchanged at $0.83/$14.00 on OpenRouter's endpoints API.
 - 2026-10-07 - Added the MoonshotAI/kimi-code star history chart to the Status section.
+- 2026-10-07 - Recorded the kimi-k3 price moving to $0.62/$15.00 per million tokens (cache reads $0.43), the seventh recorded move, with the endpoint floor at $0.61/$13.00 on Relace and kimi-k2.7-code unchanged, and appended the matching Price history row, and refreshed repository counters.
+- 2026-10-07 - Corrected the kimi-cli reference annotation, which had said archived since 2026-09-22: that was the last push, and the archive state (re-verified via the GitHub API today) is recorded in Status as noticed on 2026-10-02.
 
 ## See also
 
@@ -107,10 +110,10 @@ Not for teams that need local models, or anyone who needs more than one independ
 ## References
 
 - https://github.com/MoonshotAI/kimi-code - the canonical repository: license, features, subagents, ACP
-- https://github.com/MoonshotAI/kimi-cli - the original repository and its Apache-2.0 history, archived since 2026-09-22 (verified via the GitHub API)
+- https://github.com/MoonshotAI/kimi-cli - the original repository and its Apache-2.0 history, last pushed 2026-09-22 and shown archived by the GitHub API as of 2026-10-07
 - https://moonshotai.github.io/kimi-code/en/ - official documentation
 - https://www.kimi.com/code/docs/ - product docs, login paths, and the Node.js migration notice naming the old CLI as unmaintained
 - https://frontierharness.org - the independent pass-rate and cost-per-task numbers
 - https://hn.algolia.com/api/v1/items/45767884 - the largest HN thread, cited as the thin-footprint signal
-- https://openrouter.ai/api/v1/models - live per-token prices grounding the kimi-k3 and kimi-k2.7-code figures, as of 2026-10-05
-- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - live per-provider endpoint prices grounding the Relace floor, as of 2026-10-06
+- https://openrouter.ai/api/v1/models - live per-token prices grounding the kimi-k3 and kimi-k2.7-code figures, as of 2026-10-07
+- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - live per-provider endpoint prices grounding the Relace floor, as of 2026-10-07

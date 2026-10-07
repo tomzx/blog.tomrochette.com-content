@@ -23,7 +23,7 @@ It is made by OramaSearch Inc., written in TypeScript, and runs in Node, browser
 ## Status
 
 **Actively installed, slowly maintained: the npm firehose keeps flowing while the repository has gone quiet.**
-10,570 stars and 405 forks as of 2026-10-06; the latest release is v3.1.18, published 2025-12-19, the most recent main-branch commit landed 2026-07-03 (a community CJK plugin fix), and the default branch was last pushed 2026-10-03.
+10,573 stars and 405 forks as of 2026-10-07; the latest release is v3.1.18, published 2025-12-19, the most recent main-branch commit landed 2026-07-03 (a community CJK plugin fix), and the default branch was last pushed 2026-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=oramasearch/orama&type=date&theme=dark&legend=top-left" />
@@ -71,12 +71,12 @@ Not for code-aware retrieval (grep-first loops or a code index serve better) or 
 
 - [open-codebase-index](../open-codebase-index/index.md) - the code-specific self-hosted counterpart in this category
 - [Chonkie](../chonkie/index.md) - the chunking library that would feed it in a pipeline
-- [Retrieval Feature Matrix](../retrieval-feature-matrix/index.md) - the nine-column comparison this note joins
+- [Retrieval Feature Matrix](../retrieval-feature-matrix/index.md) - the fifteen-column comparison this note joins
 - [Context Management Patterns](../../context-management-patterns/index.md) - the size-threshold argument that demotes local indexes
 
 ## References
 
-- https://api.github.com/repos/oramasearch/orama - repository facts (10,570 stars, 405 forks, TypeScript, ~2kb core description, pushed 2026-10-03, as of 2026-10-06)
+- https://api.github.com/repos/oramasearch/orama - repository facts (10,573 stars, 405 forks, TypeScript, ~2kb core description, pushed 2026-10-03, as of 2026-10-07)
 - https://raw.githubusercontent.com/oramasearch/orama/main/README.md - features, ten data types, plugin list, Answer Engine, install targets
 - https://raw.githubusercontent.com/oramasearch/orama/main/LICENSE.md - the standard Apache-2.0 text, Copyright 2023 OramaSearch Inc.
 - https://api.npmjs.org/downloads/point/last-week/@orama/orama - 1,505,745 downloads/week, window 2026-09-28 to 2026-10-04

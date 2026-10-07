@@ -21,7 +21,7 @@ It is harness-agnostic and works with Claude Code, Cursor, Codex, or any MCP-cap
 
 ## Status
 
-Active and shipping fast: 97 stars and 12 forks since creation on 2026-06-28, v1.15.1 released 2026-09-28 (v1.0.0 landed 2026-08-28, ten releases in the first week of September alone, and none since), and the last main push on 2026-10-02 per the GitHub API as of 2026-10-06.
+Active and shipping fast: 98 stars and 12 forks since creation on 2026-06-28, v1.16.0 released 2026-10-07 (v1.0.0 landed 2026-08-28, ten releases in the first week of September alone), and the last main push on 2026-10-07 per the GitHub API as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=os-factory/har&type=date&theme=dark&legend=top-left" />
@@ -29,6 +29,7 @@ Active and shipping fast: 97 stars and 12 forks since creation on 2026-06-28, v1
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=os-factory/har&type=date&legend=top-left" />
 </picture>
 
+v1.16.0 adds a Cypress plugin, the first release since v1.15.1 on 2026-09-28.
 It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime code tester for coding agents), which is a steadier footprint than the category's usual single-commit repo.
 
 ## Strengths
@@ -49,7 +50,7 @@ It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime c
 
 Apache-2.0, free, installable from npm with no license cost.
 You bring the coding agents and their subscriptions, and Mission Control runs locally on your machine.
-HAR HQ, the hosted team layer, published its first pricing (as of 2026-09-18, re-verified 2026-10-06): Team at $400 per month for up to 50 users with $100 in monthly cloud credits included, and Enterprise custom with self-hosted or VPC deployment, SSO, SAML, SCIM, and SLAs.
+HAR HQ, the hosted team layer, published its first pricing (as of 2026-09-18, re-verified 2026-10-07): Team at $400 per month for up to 50 users with $100 in monthly cloud credits included, and Enterprise custom with self-hosted or VPC deployment, SSO, SAML, SCIM, and SLAs.
 
 ## Price history
 
@@ -79,6 +80,7 @@ Not for a solo developer doing one agent at a time, where the harness alone is s
 - 2026-09-27 - Recorded the v1.15.0 release (2026-09-26) and re-verified HAR HQ pricing unchanged.
 - 2026-09-29 - Recorded the v1.15.1 release (2026-09-28) and refreshed counts (96 stars, pushed 2026-09-28); HAR HQ pricing re-verified unchanged.
 - 2026-10-07 - Added the os-factory/har star history chart to the Status section.
+- 2026-10-07 - Recorded the v1.16.0 release (2026-10-07, Cypress plugin); HAR HQ pricing re-verified unchanged.
 
 ## See also
 
@@ -93,6 +95,6 @@ Not for a solo developer doing one agent at a time, where the harness alone is s
 - https://github.com/os-factory/har - the repo, the `.har/` contract, and the verify-and-evidence model
 - https://harproject.dev - the documentation covering concepts, verification, MCP tools, and Mission Control
 - https://youtu.be/XKl4ZzWy7mQ - the introductory demo of the harness
-- https://github.com/os-factory/har/releases - the release cadence, v1.0.0 through v1.15.0
+- https://github.com/os-factory/har/releases - the release cadence, v1.0.0 through v1.16.0
 - https://kerno.io - the sponsor that tests runtime code for coding agents, grounding the verification emphasis
 - https://harhq.com - the HAR HQ site, grounding the Team $400 per month and Enterprise custom tiers as of 2026-09-18

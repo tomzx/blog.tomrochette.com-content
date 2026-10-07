@@ -12,20 +12,20 @@ audience_notes: >
 
 Artificial Analysis is an independent benchmarking company whose site measures AI at four layers, agents, models, cloud inference providers, and chips, and publishes the results as leaderboards, price and speed comparisons, and a public changelog.
 
-**It is the closest thing the field has to a consumer reports for model inference: one place where quality, cost, and speed are measured the same way across 690 models.**
+**It is the closest thing the field has to a consumer reports for model inference: one place where quality, cost, and speed are measured the same way across 691 models.**
 
 ## What it is
 
 A website and data business covering models (proprietary and open weights), coding agents, inference providers, and accelerator hardware.
 The flagship Artificial Analysis Intelligence Index (v4.3.2 as of 2026-09-24) incorporates ten evaluations with published weights (agents 30%, coding 20%, scientific reasoning 20%, general 30%), and a separate Coding Agent Index (v1.5) combines DeepSWE, Terminal-Bench, and SWE-Atlas-QnA.
-The homepage compares 690 models on price per token, output speed, and latency (as of 2026-10-06), and its Endpoint Accuracy Index re-runs the same evals against 16 third-party providers of one model to measure how much accuracy each endpoint loses to quantization or configuration.
+The homepage compares 691 models on price per token, output speed, and latency (as of 2026-10-07), and its Endpoint Accuracy Index re-runs the same evals against 16 third-party providers of one model to measure how much accuracy each endpoint loses to quantization or configuration.
 A Cyber Index (v1) joined the catalog in late September 2026, combining three partner-contributed benchmarks on enterprise cyber defense and launching alongside an industry Alliance.
 Products around the data include Optima (build-your-own benchmarks), MicroEvals, a Model Recommender, and a Data Playground.
 Scale claims from the about page: 500+ models benchmarked, 100+ inference providers, 1,000+ endpoints, 1T+ evaluation tokens.
 
 ## Status
 
-Very active and heavily cited: the changelog had entries dated 5 October 2026 (Amazon Bedrock, Azure, OpenAI, and PrimaLabs provider results plus a GLM 5.3 Flash evaluation), one day before verification, and the Intelligence Index itself iterates weekly (v4.2 on September 5, v4.3 two days later, v4.3.2 by September 24).
+Very active and heavily cited: the changelog had entries dated 6 October 2026 (the Mistral Large 4 article and its model evaluation), one day before verification, and the Intelligence Index itself iterates weekly (v4.2 on September 5, v4.3 two days later, v4.3.2 by September 24).
 Its numbers are market-moving enough that HN threads are titled by its rankings ("GLM-5.2 is the new leading open weights model on Artificial Analysis", 916 points in June 2026), and providers market against its measurements (Baseten's "fastest Kimi K2.5" post).
 Founded by Micah Hill-Smith (CEO, ex-McKinsey) and George Cameron (CPO); started as a side project in 2023, launched January 2024, went viral after a Swyx retweet, and raised a seed from Nat Friedman and Daniel Gross's AI Grant with angels including Andrew Ng, Adam D'Angelo, Clem Delangue, Guillermo Rauch, and swyx.
 
@@ -76,7 +76,7 @@ My disagreeable claim: the Endpoint Accuracy Index is the most underrated page o
 
 ## References
 
-- https://artificialanalysis.ai/ - homepage: 690 models, Intelligence Index v4.3.2, Coding Agent Index v1.5, Endpoint Accuracy Index across 16 providers (re-fetched 200, 2026-10-06, still 690 models and v4.3.2)
+- https://artificialanalysis.ai/ - homepage: 691 models, Intelligence Index v4.3.2, Coding Agent Index v1.5, Endpoint Accuracy Index across 16 providers (re-fetched 200, 2026-10-07, now 691 models; v4.3.2 and v1.5 unchanged)
 - https://artificialanalysis.ai/about - founders, backers, scale claims, four-layer scope (fetched 200, 2026-09-24)
 - https://artificialanalysis.ai/methodology - methodology hub: scope, blended-price definition, benchmark inventory (fetched 200, 2026-09-24)
 - https://artificialanalysis.ai/methodology/intelligence-benchmarking - the ten evaluations, weights, and scoring detail (fetched 200, 2026-09-24)

@@ -24,7 +24,7 @@ Vercel initiated the proposal and refined it with AWS, Anysphere (Cursor), GitHu
 ## Status
 
 **Active and vendor-backed, and still under a year old.**
-The specification repository (agentplugins/agent-plugins-spec) shows 1,353 stars and 75 forks as of 2026-10-06, created 2026-04-03 and last pushed 2026-09-28, with the spec, JSON schemas, conformance suite, example plugin, and site in five public repos under one organization.
+The specification repository (agentplugins/agent-plugins-spec) shows 1,360 stars and 75 forks as of 2026-10-07, created 2026-04-03 and last pushed 2026-09-28, with the spec, JSON schemas, conformance suite, example plugin, and site in five public repos under one organization.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentplugins/agent-plugins-spec&type=date&theme=dark&legend=top-left" />
@@ -84,5 +84,5 @@ My disagreeable claim: the interesting question is no longer whether skills and 
 - https://agent-plugins.org/ - the spec site: package model, component types, open governance, and the five-vendor TSC (fetched 2026-10-06)
 - https://agent-plugins.org/specification - the normative v1.0.0 spec: the closed ten-field manifest, required `$schema` and `name`, report-and-ignore for unknown fields, MCP transports, and the `PLUGIN_ROOT`/`PLUGIN_DATA` environment contract (fetched 2026-10-06)
 - https://vercel.com/blog/introducing-agent-plugins - the launch announcement (2026-08-06): Vercel initiated, refined with AWS, Anysphere, GitHub, Microsoft, and OpenAI, and the launch client list (fetched 2026-10-06)
-- https://api.github.com/repos/agentplugins/agent-plugins-spec - the specification repo: 1,353 stars, 75 forks, created 2026-04-03, pushed 2026-09-28 (GitHub API, as of 2026-10-06)
+- https://api.github.com/repos/agentplugins/agent-plugins-spec - the specification repo: 1,360 stars, 75 forks, created 2026-04-03, pushed 2026-09-28 (GitHub API, as of 2026-10-07)
 - https://agenticskills.io/learn/what-are-agent-plugins - the critical reading: the `plugin.json` naming collision, the absent Anthropic and Google, the CLI-versus-native-support distinction, and what remains unsolved (fetched 2026-10-06)

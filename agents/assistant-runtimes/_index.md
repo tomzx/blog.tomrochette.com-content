@@ -16,6 +16,7 @@ Personal assistant runtimes outside the editor: the -claw family and its auditab
 - [Hermes](hermes/index.md) - Nous Research's self-improving agent with the learning loop, about 251k stars, paid tiers live, and the channels to match.
 - [Nanobot](nanobot/index.md) - HKUDS' readable Python agent runtime with the WebUI and channels bundled, 48k stars at alpha.
 - [NanoClaw](nanoclaw/index.md) - the auditable containerized OpenClaw rewrite, one process you can read in an afternoon.
+- [Octop](octop/index.md) - Tencent Cloud's MIT multi-user self-hosted assistant: expert teams per household member, eight IM channels, ACP in both directions, 7.6k stars in three months.
 - [Open WebUI](open-webui/index.md) - the maximal self-hosted AI interface for Ollama and OpenAI-compatible backends, with the ecosystem's most consequential license story.
 - [OpenClaw](openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 391k stars and the 2026 provider-restriction saga.
 - [OpenWork](openwork/index.md) - the MIT-core Cowork alternative built on OpenCode, whose MCP gateway makes skills portable across agents.
@@ -43,3 +44,4 @@ Its members are compared on shared rows in the [Assistant Runtimes Feature Matri
 - 2026-09-27 - Added PrivateGPT.
 - 2026-10-03 - Added OpenWorker.
 - 2026-10-06 - Added AstrBot.
+- 2026-10-07 - Added Octop.

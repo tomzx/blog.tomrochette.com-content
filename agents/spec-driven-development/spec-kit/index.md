@@ -23,7 +23,7 @@ Extensions, presets, and role-based bundles let an organization customize the pr
 ## Status
 
 **Active, and it just declared adulthood.**
-First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8, v1.0.6 followed on September 10, v1.0.7 shipped September 15, v1.0.8 followed on September 17, and v1.0.9, v1.0.10, and v1.0.11 closed out September 21, 22, and 24, v1.0.12 landed September 25, v1.0.13 followed on 2026-09-29, v1.1.0 shipped October 2, and the count stands at about 140k stars and about 12.5k forks as of 2026-10-06.
+First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8, v1.0.6 followed on September 10, v1.0.7 shipped September 15, v1.0.8 followed on September 17, and v1.0.9, v1.0.10, and v1.0.11 closed out September 21, 22, and 24, v1.0.12 landed September 25, v1.0.13 followed on 2026-09-29, v1.1.0 shipped October 2, v1.1.1 followed on October 6, and the count stands at about 140k stars and about 12.6k forks as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/spec-kit&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ Not for solo work where the ceremony exceeds the blast radius of a bad change.
 - 2026-10-02 - Recorded the v1.0.13 release of 2026-09-29 and refreshed the star and fork counts.
 - 2026-10-03 - Recorded the v1.1.0 release of 2026-10-02 and refreshed the star count to about 140k.
 - 2026-10-07 - Added the github/spec-kit star history chart to the Status section.
+- 2026-10-07 - Recorded the v1.1.1 release of 2026-10-06 and refreshed the star and fork counts.
 
 ## See also
 
@@ -84,7 +85,7 @@ Not for solo work where the ceremony exceeds the blast radius of a bad change.
 
 ## References
 
-- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, as of 2026-10-06
+- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, as of 2026-10-07
 - https://github.github.io/spec-kit/ - official docs, integrations reference, extensions and presets
 - https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/ - the GitHub launch post
 - https://www.manorrock.com/blog/2026/08/21/spec_kit_turns_one.html - the lead maintainer's first-year and 1.0.0 post

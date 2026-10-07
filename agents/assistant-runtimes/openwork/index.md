@@ -23,7 +23,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 23,880 stars, 2,405 forks, 622 open issues and PRs as of 2026-10-06, created 2026-01-14, pushed 2026-10-06.
+Alive and shipping hard: 23,925 stars, 2,411 forks, 636 open issues and PRs as of 2026-10-07, created 2026-01-14, pushed 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Alive and shipping hard: 23,880 stars, 2,405 forks, 622 open issues and PRs as o
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&legend=top-left" />
 </picture>
 
-v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause.
+v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause, and v0.18.57 on 2026-10-07.
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 
 ## Strengths
@@ -75,7 +75,7 @@ The Den control plane inside the repo stays free for organizations up to five us
 
 ## Compared to
 
-- Claude Cowork: polished, closed, subscription-tied with managed security, and as of 2026-09-16 merging into Claude chat itself, which narrows the workflow gap OpenWork was built for; choose OpenWork for parity workflows without vendor or model lock-in.
+- Claude Cowork: polished, closed, subscription-tied with managed security, and as of 2026-09-16 merging into Claude chat itself, which narrows the workflow gap OpenWork was built for (Anthropic's help center now bills the product as "Claude Cowork is now just Claude", rolling out gradually); choose OpenWork for parity workflows without vendor or model lock-in.
 - [Superset](../../orchestration/superset/index.md): the developer-IDE side of the same open wave; choose Superset for coding workflows, OpenWork for files-and-skills knowledge work beyond code.
 - [Eigent](../eigent/index.md): the multi-agent workforce desktop; choose OpenWork for the OpenCode ecosystem and MCP portability, Eigent for visual multi-agent teams.
 
@@ -104,6 +104,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - 2026-10-03 - Recorded releases resuming after a week: v0.18.55 and v0.18.56 (both 2026-10-03), ending v0.18.54's run as latest, with refreshed adoption numbers and pricing re-checked unchanged (Free $0, Team $10 per seat, Enterprise custom, both add-ons intact).
 - 2026-10-06 - Pricing churned a twelfth time: the grandfather clause returned to the Enterprise tier and the first-5-seats-free OpenWork Cloud offer moved from the Free tier to the Team tier, with the three main prices unchanged; refreshed adoption numbers.
 - 2026-10-07 - Added the different-ai/openwork star history chart to the Status section.
+- 2026-10-07 - Recorded v0.18.57 (2026-10-07) and Anthropic's rename of Claude Cowork to just Claude in the comparison baseline, with refreshed adoption numbers and pricing re-checked unchanged (the twelfth-churn state holds).
 
 ## See also
 
@@ -118,6 +119,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - https://raw.githubusercontent.com/different-ai/openwork/HEAD/README.md - the directory-split licensing terms and gateway
 - https://openworklabs.com - product scope and the built-on-OpenCode positioning
 - https://openworklabs.com/pricing - the tiers for the pricing rows
-- https://api.github.com/repos/different-ai/openwork/releases - the release tags through v0.18.56 (2026-10-03, still latest as of 2026-10-04)
+- https://api.github.com/repos/different-ai/openwork/releases - the release tags through v0.18.57 (2026-10-07, still latest as of 2026-10-07)
 - https://github.com/different-ai/openwork/releases/tag/v0.18.42 - release cadence and installer signing
 - https://news.ycombinator.com/item?id=46612494 - the launch thread with the security-boundary questions
+- https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork - Anthropic's help center stating Claude Cowork is now just Claude

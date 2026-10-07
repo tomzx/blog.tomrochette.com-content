@@ -15,9 +15,10 @@ Specification-first workflows: the movement's process layers and toolkits, sized
 - [cc-sdd](cc-sdd/index.md) - the Kiro-inspired installer that puts a 17-skill spec workflow inside eight agents, with per-task independent review in autonomous mode.
 - [GitHub Spec Kit](spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, about 140k stars.
 - [GSD](gsd/index.md) - the 64k-star get-shit-done workflow system for Claude Code, archived and continuing as open-gsd/gsd-core.
-- [OpenSpec](openspec/index.md) - the brownfield spec toolkit whose delta proposals archive into a living ledger, about 2M npm downloads a month.
+- [OpenSpec](openspec/index.md) - the brownfield spec toolkit whose delta proposals archive into a living ledger, about 2.5M npm downloads a month.
 - [Spec Kitty](spec-kitty/index.md) - the Spec Kit-derived governance CLI whose work packages run in isolated git worktrees behind review gates, about 1.7k stars.
 - [Tessl](tessl/index.md) - the $125M platform bet that spec-driven development is infrastructure you rent.
+- [Vibe Coding Prompt Template](vibe-coding-prompt-template/index.md) - the zero-install prompt pack that turns an idea into research, a PRD, and a tech design in any chat tool before an agent writes code, about 3.1k stars.
 
 Its members are compared on shared rows in the [Spec Driven Development Feature Matrix](spec-driven-development-feature-matrix/index.md).
 
@@ -31,3 +32,4 @@ Its members are compared on shared rows in the [Spec Driven Development Feature 
 - 2026-10-06 - Added AI-DLC.
 - 2026-10-06 - Added cc-sdd.
 - 2026-10-06 - Added Spec Kitty.
+- 2026-10-07 - Added Vibe Coding Prompt Template.

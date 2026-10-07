@@ -27,7 +27,7 @@ BYOK covers Anthropic, OpenAI, Google, xAI, OpenRouter, Copilot, and local model
 
 **Active.**
 Junie started as an IDE agent in January 2025 (53.6% on SWE-bench Verified at announcement), went GA in April 2025, and the LLM-agnostic CLI followed into beta and beyond.
-The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows 468 stars as of 2026-10-04.
+The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows 470 stars as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=JetBrains/junie&type=date&theme=dark&legend=top-left" />
@@ -95,7 +95,7 @@ Not for anyone who needs an open client or a large community ecosystem today.
 
 - https://junie.jetbrains.com/ - features, BYOK providers, and plan pricing, re-verified unchanged 2026-10-06 (the home page serves the plan prices; the standalone pricing page still 404s)
 - https://blog.jetbrains.com/junie/2026/08/junie-local-launch/ - the Junie Local on-device launch, free with no credits
-- https://github.com/JetBrains/junie - install channels, GitHub Action, license terms
+- https://github.com/JetBrains/junie - install channels, GitHub Action, license terms, 470 stars as of 2026-10-07
 - https://www.jetbrains.com/junie/ - the product entry point
 - https://blog.jetbrains.com/junie/2025/01/meet-junie-your-coding-agent-by-jetbrains/ - the January 2025 launch and original benchmark claim
 - https://www.devclass.com/ai-ml/2025/04/16/jetbrains-goes-live-with-junie-ai-agent-updates-ai-assistant-adds-free-tier/1620745 - independent GA coverage with reviewer sentiment

@@ -23,7 +23,7 @@ Every action an agent takes is governed and logged, approvals are configurable, 
 
 ## Status
 
-Early and moving fast: about 18,400 stars in its first twelve weeks as of 2026-10-06 (created 2026-07-20, pushed today), with v0.3.1 released 2026-10-05 and a public beta disclaimer on the README.
+Early and moving fast: about 18,500 stars in its first twelve weeks as of 2026-10-07 (created 2026-07-20, pushed 2026-10-06), with v0.3.1 released 2026-10-05 and a public beta disclaimer on the README.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=andrewyng/openworker&type=date&theme=dark&legend=top-left" />
@@ -84,8 +84,8 @@ Not for anyone needing a mature, broadly capable assistant today, or Windows-fir
 
 ## References
 
-- https://github.com/andrewyng/openworker - repository, MIT license, stars, beta disclaimer, use cases, and the governed-by-design section as of 2026-10-06
+- https://github.com/andrewyng/openworker - repository, MIT license, stars, beta disclaimer, use cases, and the governed-by-design section as of 2026-10-07
 - https://openworker.com/ - product positioning, download platforms, and the specialist-coworker framing
-- https://github.com/andrewyng/openworker/releases - the v0.3.0 release (2026-09-30) and v0.3.1 (2026-10-05, still latest as of 2026-10-06), the ghcr.io CLI image and the OpenShell 0.1.2 pin anchoring the version claims
+- https://github.com/andrewyng/openworker/releases - the v0.3.0 release (2026-09-30) and v0.3.1 (2026-10-05, still latest as of 2026-10-07), the ghcr.io CLI image and the OpenShell 0.1.2 pin anchoring the version claims
 - https://github.com/andrewyng/openworker/blob/main/docs/openshell.md - the NVIDIA OpenShell sandbox integration behind the isolation claims
 - https://github.com/andrewyng/openworker/blob/main/docs/approval-guidance.md - the approval model behind the governance claims

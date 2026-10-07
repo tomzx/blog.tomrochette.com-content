@@ -23,7 +23,7 @@ LangGraph shows up in eight other section articles (this category's feature matr
 
 ## Status
 
-Active and enormous: 42,752 stars, 7,268 forks, and 100+ contributors as of 2026-10-05, with the repository created in August 2023.
+Active and enormous: 42,805 stars, 7,268 forks, and 100+ contributors as of 2026-10-07, with the repository created in August 2023.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/langgraph&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Active and enormous: 42,752 stars, 7,268 forks, and 100+ contributors as of 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=langchain-ai/langgraph&type=date&legend=top-left" />
 </picture>
 
-Release 1.2.13 shipped 2026-10-05 on GitHub and PyPI alike, continuing a 1.2.x line that has run all year.
+Release 1.2.14 shipped 2026-10-06 on GitHub and PyPI alike, continuing a 1.2.x line that has run all year.
 npm `@langchain/langgraph` served 4,552,953 downloads in the week ending 2026-10-04.
 **For scale: that is more weekly installs than any other column in this matrix by a wide margin, and probably more than the rest of the table combined.**
 
@@ -82,7 +82,7 @@ Not for engineers who want a dashboard, worktrees, and a review flow around exis
 
 - https://api.github.com/repos/langchain-ai/langgraph - stars, forks, open issues, MIT license, and push date as of 2026-10-05
 - https://docs.langchain.com/oss/python/langgraph/ - durable execution, streaming, human-in-the-loop, persistence, and the LangSmith references throughout
-- https://api.github.com/repos/langchain-ai/langgraph/releases - release 1.2.13 (2026-10-05) and the cadence behind it
+- https://api.github.com/repos/langchain-ai/langgraph/releases - release 1.2.14 (2026-10-06) and the cadence behind it
 - https://api.npmjs.org/downloads/point/last-week/@langchain/langgraph - 4,552,953 downloads in the week ending 2026-10-04
-- https://pypi.org/pypi/langgraph/json - PyPI version 1.2.13
+- https://pypi.org/pypi/langgraph/json - PyPI version 1.2.14
 - https://news.ycombinator.com/item?id=43468435 - qodo's "We chose LangGraph to build our coding agent" at 83 points, the practitioner discussion

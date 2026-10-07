@@ -16,14 +16,14 @@ Brig is NOFire AI's Apache-2.0 Go tooling that runs coding agents such as Claude
 
 ## What it is
 
-A Go CLI (brig) plus an optional session daemon (brigd) that drive a microVM runtime: on Apple Silicon, hull's hvi backend drives Hypervisor.framework directly (six of eight built-in profiles), with Virtualization.framework and Linux nerdctl plus the urunc shim as the other paths, and a plain runc container available but labeled the weaker boundary.
+A Go CLI (brig) plus an optional session daemon (brigd) that drive a microVM runtime: on Apple Silicon, hull's hvi backend drives Hypervisor.framework directly (six of eight built-in profiles), with Virtualization.framework and Linux nerdctl plus the urunc shim as the other paths, and host-kernel-sharing runc or crun shims refused outright since v0.4.0 rather than merely discouraged.
 The agent gets its own kernel and home directory, the named project mounts read-write at /work/<name>, and nothing else on the host is reachable, with `brig doctor` checking the host and `brig info` printing the exact isolation envelope before a boot.
 Credentials never enter by default: runs read no host credential source, secrets live in a store backed by the macOS keychain or a Linux Secret Service keyring, and profiles name exactly what crosses, delivered as files on a tmpfs mount or as environment variables.
 Built by NOFire AI, the team behind urunc, a CNCF Sandbox project; images, boot assets, and release binaries are cosign keyless-verified against pinned GitHub workflows, and the macOS binaries are Apple notarized.
 
 ## Status
 
-Young but professionally built: 207 stars, 21 forks as of 2026-10-06, created 2026-08-12, pushed 2026-10-06, Apache-2.0.
+Young but professionally built: 211 stars, 21 forks as of 2026-10-07, created 2026-08-12, pushed 2026-10-06, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&theme=dark&legend=top-left" />
@@ -31,9 +31,9 @@ Young but professionally built: 207 stars, 21 forks as of 2026-10-06, created 20
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&legend=top-left" />
 </picture>
 
-v0.2.0 shipped 2026-09-15 and v0.3.0 on 2026-09-26, with channel-main 0.3.1 prereleases cutting almost daily since.
+v0.2.0 shipped 2026-09-15, v0.3.0 on 2026-09-26, and v0.4.0 on 2026-10-06, with channel-main 0.3.1 prereleases cutting almost daily in between.
 The Show HN launch on 2026-09-22 drew 9 points, and the maintainer's introduction is most of the thread's substance, so the community footprint is thin and the documentation is where the evidence lives.
-**A nine-point launch against 207 stars in eight weeks reads as quiet, deliberate adoption rather than a wave, and no independent audit or benchmark exists yet.**
+**A nine-point launch against 211 stars in eight weeks reads as quiet, deliberate adoption rather than a wave, and no independent audit or benchmark exists yet, while v0.4.0's breaking changes show the security defaults are still moving: new sandboxes now get isolated networks by default on hvi and Linux, and the runtime refuses shims that share the host kernel.**
 
 ## Strengths
 
@@ -44,9 +44,9 @@ The Show HN launch on 2026-09-22 drew 9 points, and the maintainer's introductio
 
 ## Cautions
 
-- Pre-1.0 (v0.3.0) with daily prerelease churn and no independent audit.
-- Egress policies enforce only on hull's hvi backend (macOS), Linux microVMs get isolated networks but no policy enforcement, and the default with no policy attached is open internet access.
-- Two sandboxes on a shared network can reach each other by the project's own measurements, so containment requires `--network isolated`, and the docs warn the shared-network answer is not a stable property.
+- Pre-1.0 (v0.4.0) with daily prerelease churn and no independent audit.
+- Egress policies enforce on hull's hvi backend and, since v0.4.0, on Linux through nftables on the sandbox's own bridge, while the vz, qemu, and docker backends have no policy enforcement, and the default with no policy attached is open internet access.
+- Two sandboxes on a shared network can reach each other by the project's own measurements, and v0.4.0 made isolated networks the default for new sandboxes on hvi and Linux (vz, qemu, and the claude-desktop profile stay shared), while the docs warn the shared-network answer is not a stable property.
 - The credential model has stated sharp edges: Brig's stored copy of a Claude refresh token is less protected than the original keychain item, and `files:` bindings bypass the denylist by design.
 - Intel Macs are unsupported, and macOS 14 needs fallback variables.
 
@@ -70,6 +70,7 @@ Not for Intel Macs, for anyone needing enforced egress policy on Linux today, or
 
 - 2026-10-06 - Created from the entrant-resolution run, profiling the actively maintained microVM workstation sandbox with the category's most detailed published security claims.
 - 2026-10-07 - Added the brig-sh/brig star history chart to the Status section.
+- 2026-10-07 - Recorded v0.4.0 (2026-10-06) with its breaking changes (new sandboxes isolated by default on hvi and Linux, host-kernel shims refused, exit 7 for unenforceable properties), corrected the Linux egress-enforcement caution against the current security docs (enforced in nftables), and refreshed counts (211 stars).
 
 ## See also
 

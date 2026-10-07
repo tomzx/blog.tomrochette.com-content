@@ -28,7 +28,7 @@ The repository publishes Apache-2.0 source, but as a two-commit dump with flatte
 The harness launched July 1, 2026 as the official harness for GLM-5.2 and drew a 511-point Hacker News thread the same day ([HN](https://hn.algolia.com/api/v1/items/48753715)).
 On September 18, 2026 a [wire-level analysis](https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/) showed the logged-in client packaging entire workspaces (about 87% .git content) and uploading them encrypted to Aliyun OSS with a server-held key, a behavior no UI toggle stopped and no privacy-policy line disclosed (333- and 261-point threads that day).
 Z.ai admitted the uploads, attributed them to a Repo Wiki indexing feature, shipped client 3.14.0 with the pipeline removed, and open-sourced the workbench on September 20-21 with CAICT and NSFOCUS audits reporting the OSS bucket deleted ([HN](https://hn.algolia.com/api/v1/items/49782440)).
-The repository shows 7,445 stars and 2,273 forks as of 2026-10-06, pushed 2026-09-29 (GitHub API); desktop installers are at v3.14.4.
+The repository shows 7,486 stars and 2,281 forks as of 2026-10-07, pushed 2026-09-29 (GitHub API); desktop installers are at v3.14.4.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zai-org/ZCode&type=date&theme=dark&legend=top-left" />
@@ -92,7 +92,7 @@ I would watch whether the open repository becomes a real project or stays a pres
 
 ## References
 
-- https://github.com/zai-org/ZCode - repository, license, 7,445 stars as of 2026-10-06 (GitHub API)
+- https://github.com/zai-org/ZCode - repository, license, 7,486 stars as of 2026-10-07 (GitHub API)
 - https://raw.githubusercontent.com/zai-org/ZCode/main/README.en.md - surfaces and monorepo layout
 - https://zcode.z.ai/ - product claims, GLM Coding Plan prices, v3.14.4 installers
 - https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/ - the wire-level analysis, Z.ai's response, and the open-source code verification

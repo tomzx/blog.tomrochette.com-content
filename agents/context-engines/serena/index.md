@@ -25,7 +25,7 @@ Distributed as `serena-agent` on PyPI; the application is GPL-3.0-or-later and t
 ## Status
 
 **Active and very large.**
-About 30.0k stars and 2,043 forks as of 2026-10-06, created 2025-03-23, pushed 2026-10-05, latest release v1.7.0 on 2026-08-09 (GitHub API), with the PyPI package at 1.7.0 across 15 releases and 147,731 downloads in the trailing month (as of 2026-10-06).
+About 30.1k stars and 2,044 forks as of 2026-10-07, created 2025-03-23, pushed 2026-10-06, latest release v1.7.0 on 2026-08-09 (GitHub API), with the PyPI package at 1.7.0 across 15 releases and 147,731 downloads in the trailing month (as of 2026-10-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=oraios/serena&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ About 30.0k stars and 2,043 forks as of 2026-10-06, created 2025-03-23, pushed 2
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=oraios/serena&type=date&legend=top-left" />
 </picture>
 
-The JetBrains plugin shows about 19.5k installs on the JetBrains marketplace.
+The JetBrains plugin shows about 19.6k installs on the JetBrains marketplace.
 There was no big launch moment: the tool accumulated stars through practitioner word of mouth, and its Hacker News presence is comment-level, not story-level, with users naming it the indexing layer in OpenCode and Cursor-exit setups.
 
 ## Strengths
@@ -83,11 +83,12 @@ My disagreeable claim: Serena's growth proves the embedding-index era of code co
 
 ## References
 
-- https://github.com/oraios/serena - repository, 30.0k stars and activity as of 2026-10-06, architecture, backend choice, installer warning
+- https://github.com/oraios/serena - repository surface: architecture, backend choice, installer warning
+- https://api.github.com/repos/oraios/serena - exact stars, forks, and activity as of 2026-10-07
 - https://raw.githubusercontent.com/oraios/serena/main/README.md - tool tables, language support count, memory system, the self-run agent evaluation, licensing overview
 - https://raw.githubusercontent.com/oraios/serena/main/LICENSE - the per-component licensing: SolidLSP MIT, application GPL-3.0-or-later, distributions GPL as a whole
 - https://oraios.github.io/serena/ - official documentation hub (tools, clients, configuration, evaluation pages)
-- https://plugins.jetbrains.com/api/plugins/28946 - the JetBrains plugin: Oraios Software (Munich), about 19.5k installs, 7-day trial, no published price, fetched 2026-10-04
+- https://plugins.jetbrains.com/api/plugins/28946 - the JetBrains plugin: Oraios Software (Munich), about 19.6k installs, 7-day trial, no published price, fetched 2026-10-07
 - https://pypi.org/pypi/serena-agent/json - the distribution, version 1.7.0, 15 releases
 - https://pypistats.org/api/packages/serena-agent/recent - 147,731 downloads in the trailing month as of 2026-10-06
 - https://hn.algolia.com/api/v1/search?query=serena+mcp&tags=comment - the comment-level HN footprint: OpenCode indexing setups and the symbolic-search recommendation

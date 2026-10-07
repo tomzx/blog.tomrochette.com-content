@@ -23,7 +23,7 @@ Made by an independent developer, MIT-licensed, with no cloud service in the def
 
 ## Status
 
-Active and quietly growing: created 2026-01-01, 243 stars, 33 forks, pushed 2026-10-06, as of 2026-10-06.
+Active and quietly growing: created 2026-01-01, 246 stars, 33 forks, pushed 2026-10-06, as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nicosuave/memex&type=date&theme=dark&legend=top-left" />
@@ -46,7 +46,7 @@ Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the 
 
 - Seventeen engines graded per capability means real unevenness: Cursor resume is CLI-only, Antigravity token counting is unsupported, and several engines have no resume at all.
 - Embeddings and token tracking are off by default, so the semantic-search headline requires opt-in setup, and since v0.26.0 that setup can point at a remote OpenAI-compatible API that receives transcript text, not only at local models.
-- The only community signal beyond 241 stars is an author-commented launch thread, so there is no independent verdict on reliability.
+- The only community signal beyond 246 stars is an author-commented launch thread, so there is no independent verdict on reliability.
 - Experimental session transfers and the announced object-storage sync are the roadmap promises most likely to churn.
 
 ## Pricing

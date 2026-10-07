@@ -24,7 +24,7 @@ Beta features push it toward an OS-level assistant: AI computer use and live doc
 
 ## Status
 
-Active and steadily shipped: 66,739 stars, 7,451 forks, and 321 open issues as of 2026-10-06, created 2023-06-04, pushed the same day.
+Active and steadily shipped: 66,777 stars, 7,452 forks, and 322 open issues as of 2026-10-07, created 2023-06-04, pushed the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&theme=dark&legend=top-left" />
@@ -87,7 +87,7 @@ The disagreeable claim I will defend: the layperson focus that made AnythingLLM 
 
 ## References
 
-- https://api.github.com/repos/Mintplex-Labs/anything-llm - stars, forks, issues, license, and dates as of 2026-10-06
+- https://api.github.com/repos/Mintplex-Labs/anything-llm - stars, forks, issues, license, and dates as of 2026-10-07
 - https://github.com/Mintplex-Labs/anything-llm - repository and positioning
 - https://api.github.com/repos/Mintplex-Labs/anything-llm/releases?per_page=4 - v1.17.0 released 2026-10-01
 - https://docs.anythingllm.com/ - features, agents, MCP compatibility, Docker self-hosting, Community Hub

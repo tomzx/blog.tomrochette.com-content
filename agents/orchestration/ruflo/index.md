@@ -23,8 +23,8 @@ It ships under MIT, installs from npm, and drives the Claude Code and Codex acco
 
 ## Status
 
-Active and shipping almost daily: v3.53.0 released 2026-10-06 (a version bump plus catalog entry, with the console, ruflo-protector, and mods plugins moving through the git marketplace), v3.52.1 and v3.52.0 the day before, with 40 contributors and an npm release feed that still carries claude-flow-named packages.
-73,951 stars, 8,795 forks, and 1,113 open issues as of 2026-10-06.
+Active and shipping almost daily: v3.54.0 released 2026-10-07, v3.53.0 the day before (a version bump plus catalog entry, with the console, ruflo-protector, and mods plugins moving through the git marketplace), with 40 contributors and an npm release feed that still carries claude-flow-named packages.
+74,021 stars, 8,795 forks, and 1,120 open issues as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ruvnet/ruflo&type=date&theme=dark&legend=top-left" />

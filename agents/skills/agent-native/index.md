@@ -24,7 +24,7 @@ Install is `npx @agent-native/skills@latest add`, which writes to the shared `.a
 ## Status
 
 **Active and fast-moving, with a thin independent footprint.**
-Both repos claim MIT in their READMEs: the skills catalog at 4.5k stars and 228 forks, the framework at 7.1k stars and 642 forks, as of 2026-10-06.
+Both repos claim MIT in their READMEs: the skills catalog at 4.5k stars and 227 forks, the framework at 7.1k stars and 644 forks, as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=BuilderIO/agent-native&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Both repos claim MIT in their READMEs: the skills catalog at 4.5k stars and 228 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=BuilderIO/agent-native&type=date&legend=top-left" />
 </picture>
 
-The npm package was created 2026-06-10, sits at 0.3.24 with builds shipping several times a day, and pulled 16,552 downloads in the week of 2026-09-28 to 2026-10-04 (fetched 2026-10-06).
+The npm package was created 2026-06-10, sits at 0.3.25 with builds shipping several times a day, and pulled 16,552 downloads in the week of 2026-09-28 to 2026-10-04 (fetched 2026-10-07).
 No Hacker News threads and no independent coverage surfaced in this run's searches, so the audience so far is GitHub and npm.
 
 ## Strengths
@@ -87,9 +87,9 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 
 ## References
 
-- https://github.com/BuilderIO/skills - the catalog repo: the fifteen skills, installer options, marketplace packaging, 4.5k stars as of 2026-10-06
-- https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, README says MIT but GitHub license detection still returns nothing (package.json says ISC), 7.1k stars as of 2026-10-06
+- https://github.com/BuilderIO/skills - the catalog repo: the fifteen skills, installer options, marketplace packaging, 4.5k stars as of 2026-10-07
+- https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, README says MIT but GitHub license detection still returns nothing (package.json says ISC), 7.1k stars as of 2026-10-07
 - https://www.agent-native.com/ - the framework landing
-- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.24, published from the monorepo, as of 2026-10-06
-- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 16,552 weekly downloads, window 2026-09-28 to 2026-10-04, fetched 2026-10-06
+- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.25, published from the monorepo, as of 2026-10-07
+- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 16,552 weekly downloads, window 2026-09-28 to 2026-10-04, fetched 2026-10-07
 - https://hn.algolia.com/api/v1/search?query=%22builder.io%22%20skills&tags=story - the zero-hit search behind the missing-footprint statement

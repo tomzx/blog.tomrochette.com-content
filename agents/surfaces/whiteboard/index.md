@@ -18,11 +18,11 @@ Whiteboard is an MIT-licensed desktop app (YC W26) where a coding agent draws it
 Whiteboard by /dev/fast is a beta desktop app for macOS, Windows, and Linux that plugs into the harnesses you already run (Claude Code and Codex named first) and hands the agent an SDK to draw on an in-app canvas as it works.
 The canvas holds Whiteboard-specific objects: Commits, Diffs, Traces, and a source tree, with diffs rendered semantically by the team's Rust diffr library, plus copy-for-agent selection that turns any highlighted region into a prompt-ready snippet.
 The public site is served by dev.fast (the GitHub homepage now points at whiteboard.dev.fast, which serves the same dev.fast-hosted page directly again as of 2026-10-06, after a stretch where it 301-redirected), and documents an open API proposal (diff search: parse, hydrate, postprocess) that pins agent-found evidence to exact Git blobs, so a diagram claim can be checked against source.
-It shipped v0.2.0 on 2026-10-02 after three releases in its first public week, and the repo shows 2,860 stars and 134 forks as of 2026-10-06.
+It shipped v0.2.0 on 2026-10-02 after three releases in its first public week, and the repo shows 2,894 stars and 141 forks as of 2026-10-07.
 
 ## Status
 
-New with real traction: the Show HN launch on 2026-09-24 drew 424 points, and the repository, created 2026-08-18, was pushed 2026-10-06.
+New with real traction: the Show HN launch on 2026-09-24 drew 424 points, and the repository, created 2026-08-18, was pushed 2026-10-07.
 The team is four (Sid, Alex, Ketan, and Milan), YC W26-backed, and built the app for themselves first.
 Distribution is free, open source, and local-only in beta; the product site now advertises a hosted Whiteboard as coming soon, though no plans or prices exist yet, so there is no revenue model today.
 The category question is unresolved even in its own launch thread, where commenters reached for orchestrator, control plane, and agent multiplexer before the authors placed it as deliberately not opinionated about where your agent runs.
@@ -46,6 +46,7 @@ The category question is unresolved even in its own launch thread, where comment
 - A skeptical comment called the animated hand-drawn diagrams a technique heading everywhere, which cuts both ways: the medium may age faster than the function.
 - No hosted plan and no pricing: the business is a stated maybe, and beta desktop apps churn.
 - Ten open issues and twenty-three open pull requests as of 2026-10-06 against seven weeks of life (the earlier fifty-issue reading included pull requests, and the queue has moved fast since), with every major OS build user-reported rather than vendor-certified.
+The counts keep moving: eleven open issues and twenty-four open pull requests as of 2026-10-07.
 
 ## Pricing
 
@@ -80,7 +81,7 @@ Not for teams that need a supported, priced, categorized tool, and not for anyon
 
 ## References
 
-- https://github.com/devdotfast/whiteboard - repository, MIT license, 2,860 stars, 134 forks, 10 open issues and 23 open pull requests, release cadence through v0.2.0 (2026-10-02), and the 2026-10-06 push, fetched 2026-10-06.
+- https://github.com/devdotfast/whiteboard - repository, MIT license, 2,894 stars, 141 forks, 11 open issues and 24 open pull requests, release cadence through v0.2.0 (2026-10-02), and the 2026-10-07 push, fetched 2026-10-07.
 - https://dev.fast/ - the host of the product site, which whiteboard.dev.fast also serves directly as of 2026-10-06 (fetched then, after the 301-redirect stretch recorded on 2026-10-05): canvas objects (Commits, Diff, Trace, source tree), the Rust diffr library, the diff-search API proposal with Git-blob hydration, copy-for-agent selection, downloads for three OSes, and the hosted-Whiteboard coming-soon notice.
 - https://news.ycombinator.com/item?id=49833867 - the 424-point Show HN launch (2026-09-24) with the team, the harness integrations, the free-local-only answer, and the categorization debate, fetched via the Algolia items API this run.
 - https://github.com/devdotfast/whiteboard/releases - the v0.1.3, v0.1.5, and v0.2.0 release train across the launch week, fetched 2026-10-04.

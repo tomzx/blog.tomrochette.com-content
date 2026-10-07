@@ -25,7 +25,7 @@ Scaffolding an app is one command (`npx create-ag-ui-app`), and the project ship
 ## Status
 
 Very active and already the de facto standard at its layer.
-The repository shows about 16,300 stars, a push on 2026-10-05, and dated releases landing near-daily (latest `release/2026-10-05`).
+The repository shows about 16,400 stars, a push on 2026-10-06, and dated releases landing near-daily (latest `release/2026-10-06`, all as of 2026-10-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ag-ui-protocol/ag-ui&type=date&theme=dark&legend=top-left" />
@@ -88,12 +88,12 @@ My disagreeable claim: AG-UI is the most adopted protocol in this index that nob
 
 ## References
 
-- https://github.com/ag-ui-protocol/ag-ui - repository: about 16,300 stars, MIT, created 2025-05-07, pushed 2026-10-05 (GitHub API, as of 2026-10-06)
+- https://github.com/ag-ui-protocol/ag-ui - repository: about 16,400 stars, MIT, created 2025-05-07, pushed 2026-10-06 (GitHub API, as of 2026-10-07)
 - https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/README.md - definition, around 16 event types, transport list, middleware, and the full integration tables
 - https://docs.ag-ui.com - official docs: TypeScript, Python, and .NET SDKs plus the community Kotlin, Go, Dart, Java, Rust, Ruby, and C++ libraries, concepts (state, interrupts, subagents, generative UI), the published 1.0 specification, production support offer
 - https://docs.ag-ui.com/spec/1.0 - the 1.0 specification page
 - https://docs.ag-ui.com/agentic-protocols - the MCP, A2A, and AG-UI complementarity page
-- https://github.com/ag-ui-protocol/ag-ui/releases - dated release series, latest `release/2026-10-05` published 2026-10-05 (GitHub API)
+- https://github.com/ag-ui-protocol/ag-ui/releases - dated release series, latest `release/2026-10-06` published 2026-10-06 (GitHub API)
 - https://api.npmjs.org/downloads/point/last-month/@ag-ui/core - 9,035,484 downloads 2026-09-05 to 2026-10-04, fetched 2026-10-06
 - https://api.npmjs.org/downloads/point/last-month/@ag-ui/client - 5,779,295 downloads 2026-09-05 to 2026-10-04, fetched 2026-10-06
 - https://registry.npmjs.org/@ag-ui/client - latest version 1.0.2, published 2026-10-05

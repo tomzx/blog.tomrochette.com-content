@@ -1,7 +1,7 @@
 ---
 title: "Trackers and Leaderboards Feature Matrix"
 created: 2026-09-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, trackers-and-leaderboards, benchmarks, leaderboards, open-data]
 readability: 3
@@ -25,7 +25,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Kind | release timeline plus flat-file corpus | independent benchmarking site and data business | research nonprofit with open datasets | rotated public benchmark with published ground truth | composite aggregator with agent-facing API | blind preference arena | gateway usage rankings |
 | The number measures | launch-day facts: what shipped, when, with which claimed scores | the operator's own controlled evals, prices, and speed runs | long-run trends: compute, cost, capability over time | objective ground-truth scoring of freshly rotated public questions | public benchmark evidence, normalized with uncertainty | blind human preference votes | tokens processed through one gateway |
 | Run by | To sider ApS, a Danish side project (one visible operator) | venture-backed independent company (AI Grant seed) | 501(c)(3) nonprofit, itemized donors, about 50 people | academic consortium (ICLR 2025 Spotlight), day-to-day work by Abacus.AI engineers | ZeroEval Inc. (self-displayed YC backing) | Arena Intelligence Inc. ($100M seed at $600M) | OpenRouter, a gateway acquired-by-Stripe (announced 2026-08-19) |
-| Coverage | 231 releases, 10 labs (as of 2026-08-26) | 690 models, 100+ providers, 1,000+ endpoints, chips | over 3,600 models since 1950, data centers, chips, companies | about 1,000 questions, 6 categories, 18 tasks, plus an agentic coding track | 400 canonical models, 50+ benchmarks claimed | text, image, video, vision, search, webdev, agent arenas | 500+ models via the gateway, 80+ providers |
+| Coverage | 231 releases, 10 labs (as of 2026-08-26) | 691 models (as of 2026-10-07), 100+ providers, 1,000+ endpoints, chips | over 3,600 models since 1950, data centers, chips, companies | about 1,000 questions, 6 categories, 18 tasks, plus an agentic coding track | 400 canonical models, 50+ benchmarks claimed | text, image, video, vision, search, webdev, agent arenas | 500+ models via the gateway, 80+ providers |
 | Update cadence | on each release; dataset last updated 2026-08-26 | daily changelog; index versions iterate weekly | near-daily data updates, page-stamped | monthly question releases in 2024, bursts since, newest set 2026-01-08; model configs still merged | continuously; "within hours of release" claimed | continuous votes; product posts within days | daily UTC buckets, about one day of lag |
 | Methodology published | ~ FAQ and data notes, no formal methodology | ✓ methodology hub with evaluation lists and weights | ✓ transparency page, papers, and data documentation | ✓ paper, changelog, datasheet, and every question with its ground truth | ~ score construction published, details gated | ✓ methodology repo (arena-rank) plus founding paper | ✓ on-page caveats plus Data API docs |
 | Data access | ✓ /models.json and llms-full.txt, free with attribution | ~ web charts free, data platform paid, no public API documented | ✓ CC BY datasets and a Python client | ✓ questions, model answers, and judgments on Hugging Face; run pipeline public | ✓ REST plus 11 MCP tools, free tier | ~ arenas open, methodology open, raw votes not re-offered | ✓ CC BY 4.0 JSON via Data API, history to 2025-01-01 |

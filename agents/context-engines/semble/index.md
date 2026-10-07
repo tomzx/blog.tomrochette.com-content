@@ -26,7 +26,7 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
 ## Status
 
 **Young, active, and unusually well received for a search tool.**
-6,183 stars and 273 forks since the repo appeared on 2026-04-06, with the last push 2026-10-06 and v0.6.2 released 2026-10-05 (GitHub API, as of 2026-10-06).
+6,186 stars and 274 forks since the repo appeared on 2026-04-06, with the last push 2026-10-07 and v0.6.2 released 2026-10-05 (GitHub API, as of 2026-10-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MinishLab/semble&type=date&theme=dark&legend=top-left" />
@@ -87,9 +87,9 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 
 ## References
 
-- https://github.com/MinishLab/semble - repo, README (architecture, installer, CLI, MCP, savings counter), stars and activity as of 2026-10-03
+- https://github.com/MinishLab/semble - repo, README (architecture, installer, CLI, MCP, savings counter), stars and activity as of 2026-10-07
 - https://news.ycombinator.com/item?id=48169874 - the 445-point launch thread, including the founders' no-agent-level-claim statement and the baseline criticisms (verified via the Algolia items API)
 - https://pypi.org/project/semble/ - the package surface, version 0.6.2 (fetched 2026-10-06)
-- https://pypistats.org/api/packages/semble/recent - 97,003 downloads in the trailing month as of 2026-10-06
+- https://pypistats.org/api/packages/semble/recent - 97,003 downloads in the trailing month as of 2026-10-07
 - https://huggingface.co/minishlab/potion-code-16M-v2 - the embedding model the index runs on
 - https://github.com/MinishLab/semble/blob/main/benchmarks/README.md - benchmark methodology, NDCG@10, and the token-efficiency setup

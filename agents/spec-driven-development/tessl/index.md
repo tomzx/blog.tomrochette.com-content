@@ -48,7 +48,7 @@ The CLI has not been pushed since 2026-03-05, which is consistent with a web-fir
 
 ## Pricing
 
-Platform tiers are now published on tessl.io (free since 2026-09-08, re-verified 2026-10-06): Free at $0 per month with 1,000 credits, Team at $100 per month with 5x the credits, and Enterprise custom.
+Platform tiers are now published on tessl.io (free since 2026-09-08, re-verified 2026-10-07): Free at $0 per month with 1,000 credits, Team at $100 per month with 5x the credits, and Enterprise custom.
 The credit model is subscription metering, not open source, as the raise implied.
 
 ## Price history
@@ -91,5 +91,5 @@ The disagreeable claim I will defend: Tessl will either prove specs are buyable 
 - https://tessl.io/blog/skills-are-software-and-they-need-a-lifecycle-introducing-skills-on-tessl - Skills on Tessl, January 2026
 - https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html - the third-party analysis of Kiro, Spec Kit, and Tessl
 - https://github.com/tesslio/cli - the thin open-source surface (70 stars, quiet since 2026-03-05)
-- https://tessl.io/pricing - the Free, Team, and Enterprise tiers re-verified on 2026-10-06
+- https://tessl.io/pricing - the Free, Team, and Enterprise tiers re-verified on 2026-10-07
 - https://news.ycombinator.com/item?id=42137464 - the 24-point Series A thread

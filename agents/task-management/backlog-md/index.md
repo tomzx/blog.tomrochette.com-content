@@ -24,7 +24,7 @@ It is maintained under the MrLesk identity, with conference talks ([Devoxx Belgi
 ## Status
 
 Active and healthy at mid-scale.
-As of 2026-10-06: 6,938 stars, 81 open issues, pushed 2026-09-28, MIT-licensed, latest release v1.53.0 on 2026-09-24, 76,873 npm downloads last month.
+As of 2026-10-07: 6,950 stars, 85 open issues, pushed 2026-09-28, MIT-licensed, latest release v1.53.0 on 2026-09-24, 76,873 npm downloads last month.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MrLesk/Backlog.md&type=date&theme=dark&legend=top-left" />
@@ -81,7 +81,7 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 ## References
 
 - https://github.com/MrLesk/Backlog.md - README: checkpoints, commands, agent integrations, dogfooding claim
-- https://api.github.com/repos/MrLesk/Backlog.md - stars, issues, push date, MIT license as of 2026-10-06
+- https://api.github.com/repos/MrLesk/Backlog.md - stars, issues, push date, MIT license as of 2026-10-07
 - https://news.ycombinator.com/item?id=44483530 - the 254-point launch thread
 - https://api.npmjs.org/downloads/point/last-month/backlog.md - 76,873 downloads last month
 - https://mrlesk.com/talks - conference talks demonstrating the method

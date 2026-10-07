@@ -1,7 +1,7 @@
 ---
 title: GitHub Copilot automations
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, executions, github-copilot, scheduling, llm=glm-5.3-flash]
 readability: 3
@@ -35,7 +35,7 @@ I found no independent benchmarking of automation quality; the community footpri
 
 ## Cautions
 
-- **An automation is private to its creator**: administrators cannot see, audit, or review other people's automations, only the sessions they start, so org-level governance is effectively blind.
+- **An automation is private to its creator**: administrators and teammates cannot see, audit, or review other people's automation definitions, though the sessions an automation starts are visible to everyone with repository access, so the blind spot covers the trigger and tool configuration rather than every run.
 - Automations are not committed to git, so they are not code-reviewed or versioned alongside the repository they act on.
 - Private or internal repositories only; public repositories are excluded entirely.
 - Billing lands on the creator (Actions minutes plus AI credits), and GitHub's own docs warn that approvals are "a workflow convenience, not a security control".
@@ -62,6 +62,7 @@ My disagreeable claim: creator-private automations are disqualifying for team ad
 
 - 2026-08-24 - Created in the Executions category during the research index seeding.
 - 2026-10-06 - Recorded the event-trigger filters (search query and files changed), linked the new Claude Code routines note as the Claude-side equivalent, and re-verified all five sources; the core claims hold unchanged.
+- 2026-10-07 - Corrected the visibility caution against the current docs: automation definitions are invisible to administrators and teammates, but the sessions an automation starts are visible to everyone with repository access, so the governance blind spot covers the configuration, not the runs.
 
 ## See also
 

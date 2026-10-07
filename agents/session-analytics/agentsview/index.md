@@ -24,7 +24,7 @@ Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop build
 
 ## Status
 
-Young and active: 6,056 stars, 677 forks, 137 open issues and PRs as of 2026-10-06, created 2026-02-19.
+Young and active: 6,065 stars, 679 forks, 144 open issues and PRs as of 2026-10-07, created 2026-02-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&theme=dark&legend=top-left" />
@@ -43,7 +43,7 @@ Latest release v0.44.0 on 2026-09-21 with steady releases since July; pre-1.0 wi
 
 ## Cautions
 
-- Pre-1.0 with breaking schema bumps (the docs' token-usage page documents schema version 6 again as of 2026-10-06, after carrying version 5 from 2026-09-27 through 2026-10-05, which was itself a flip from version 6), so scripts consuming its output churn either way.
+- Pre-1.0 with breaking schema bumps (the docs' token-usage page documents schema version 5 again as of 2026-10-07, after documenting version 6 on 2026-10-06, the fourth flip this section has recorded), so scripts consuming its output churn either way.
 - Token coverage is opportunistic: cost rows appear only when a transcript contains both token counts and a priceable model, and the docs admit known undercounts such as Claude WebSearch side-calls.
 - The 84-223x benchmark numbers the docs used to publish were vendor-supplied on vendor hardware, and their removal leaves no performance evidence in either direction.
 - The daemon, serve, DuckDB, and PostgreSQL surface is real operational weight if all you wanted was a cost report.
@@ -79,6 +79,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 - 2026-10-05 - Added ccusage to Compared to as the report-first comparator the docs name, and linked its new note at first mention; refreshed repository counts (6,044 to 6,055 stars, 151 to 138 open issues and PRs).
 - 2026-10-06 - The docs' token-usage page flipped back to schema version 6 (it carried version 5 from 2026-09-27 through 2026-10-05), so the schema caution now records the third flip; refreshed repository counts (6,055 to 6,056 stars, 683 to 677 forks).
 - 2026-10-07 - Added the kenn-io/agentsview star history chart to the Status section.
+- 2026-10-07 - The docs' token-usage page flipped back to schema version 5 (it had documented version 6 on 2026-10-06), the fourth flip this section has recorded; the schema caution and the matrix's schema sentence moved with it, and repository counts refreshed (6,056 to 6,065 stars, 677 to 679 forks).
 
 ## See also
 
@@ -91,7 +92,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 
 - https://github.com/kenn-io/agentsview - repository, supported agents, architecture, license
 - https://www.agentsview.io - docs, architecture, install, and the Kenn Software attribution
-- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the schema version 6 JSON contract (re-verified 2026-10-06, the page documenting version 6 again after carrying version 5 through 2026-10-05)
+- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the usage JSON contract (re-verified 2026-10-07, the page documenting version 5 again after carrying version 6 on 2026-10-06)
 - https://github.com/kenn-io/agentsview/releases - release cadence and current version
 - https://github.com/simple10/agents-observe - comparison data for the live-observability alternative
 - https://code.claude.com/docs/en/costs - the built-in cost tracking this category extends

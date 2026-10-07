@@ -24,8 +24,8 @@ A vision variant reuses the same head to score controller buttons from image pat
 
 ## Status
 
-Dormant since launch day by every number I can check, as of 2026-10-06.
-Created and last pushed 2026-09-16, 1,346 stars and 118 forks, seven open issues, a single contributor, and no tags or releases to pin.
+Dormant since launch day by every number I can check, as of 2026-10-07.
+Created and last pushed 2026-09-16, 1,351 stars and 119 forks, seven open issues, a single contributor, and no tags or releases to pin.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vinnylarouge/jevlike&type=date&theme=dark&legend=top-left" />
@@ -83,7 +83,7 @@ I would not route a real decision through this repo today, but I would make ever
 
 ## References
 
-- https://github.com/vinnylarouge/jevlike - repository: MIT, 1,346 stars, 118 forks, created and last pushed 2026-09-16 (GitHub API, as of 2026-10-06)
+- https://github.com/vinnylarouge/jevlike - repository: MIT, 1,351 stars, 119 forks, created and last pushed 2026-09-16 (GitHub API, as of 2026-10-07)
 - https://raw.githubusercontent.com/vinnylarouge/jevlike/main/README.md - the option-attention architecture, data format, eval design, and the expectations section with the no-equal-quality admission
 - https://news.ycombinator.com/item?id=49731282 - the 169-point launch thread (2026-09-16), including the satire and panel-disagreement criticisms (fetched via the Algolia items API)
 - https://raw.githubusercontent.com/vinnylarouge/jevlike/main/examples/doom/README.md - the vision variant: 12-option table, DAgger-before-PPO training order, early-checkpoint caveat

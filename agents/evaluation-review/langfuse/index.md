@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,420 stars, 3,931 forks, created 2023-05-18, pushed 2026-10-06, v4.51.0 released 2026-10-05 as of 2026-10-06.
+Mature and busy: 35,464 stars, 3,940 forks, created 2023-05-18, pushed 2026-10-07, v4.53.0 released 2026-10-06 as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 - 2026-10-03 - Recorded the v4.50.0 release (2026-10-02) and refreshed repository counts.
 - 2026-10-06 - Recorded the v4.51.0 release (2026-10-05) and refreshed repository counts.
 - 2026-10-07 - Added the langfuse/langfuse star history chart to the Status section.
+- 2026-10-07 - Recorded the v4.52.0 and v4.53.0 releases (both 2026-10-06) and refreshed repository counts.
 
 ## See also
 
@@ -89,7 +90,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 
 ## References
 
-- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-10-06
+- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-10-07
 - https://raw.githubusercontent.com/langfuse/langfuse/main/LICENSE - MIT core, the `ee/` carve-out, and the ClickHouse, Inc. copyright
 - https://raw.githubusercontent.com/langfuse/langfuse/main/README.md - feature set, self-hosting, integrations, and the January 2026 ClickHouse note
 - https://langfuse.com/docs - platform overview, OTel basis, evaluation methods, agent skill, CLI, and MCP server

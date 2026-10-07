@@ -24,7 +24,7 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 ## Status
 
 **Active under new ownership.**
-The repository shows about 27.5k stars under MIT as of 2026-10-04, most recently pushed within a day of verification; component tags ship on their own clocks (the newest tag is v7.8.3, published October 1, 2026, and it is the latest stable release, following the v7.8.2 prerelease earlier the same day).
+The repository shows about 27.5k stars under MIT as of 2026-10-07, most recently pushed within a day of verification; component tags ship on their own clocks (the newest stable is v7.8.3, published October 1, 2026, following the v7.8.2 prerelease earlier the same day, and a v7.8.7 prerelease appeared on October 7).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Kilo-Org/kilocode&type=date&theme=dark&legend=top-left" />
@@ -87,6 +87,7 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 - 2026-10-02 - Recorded releases moving to v7.8.3 (October 1), now the latest stable after the v7.8.2 prerelease, and refreshed repository state; pricing re-verified unchanged against the live pricing page.
 - 2026-10-06 - Corrected the stale harness count in the See-also matrix line.
 - 2026-10-07 - Added the Kilo-Org/kilocode star history chart to the Status section.
+- 2026-10-07 - Recorded the component-tag train moving to a v7.8.7 prerelease (published October 7), with v7.8.3 still the latest stable, and refreshed repository scale.
 
 ## See also
 
@@ -97,7 +98,7 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 
 ## References
 
-- https://github.com/Kilo-Org/kilocode - repository scale, license, description as of 2026-10-04
+- https://github.com/Kilo-Org/kilocode - repository scale, license, description as of 2026-10-07
 - https://kilo.ai/pricing - tiers, Kilo Pass, credit model, and the Anaconda acquisition banner, as of 2026-10-06 (re-verified unchanged)
 - https://www.anaconda.com/blog/anaconda-acquires-kilo-code - the acquisition announcement primary source
 - https://news.ycombinator.com/item?id=43483802 - the launch-era community record (98 points)

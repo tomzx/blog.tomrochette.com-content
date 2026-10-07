@@ -25,7 +25,7 @@ The ecosystem now includes a native desktop app, an Open Terminal sandboxed exec
 
 ## Status
 
-Very active and huge for the category: 154,047 stars, 22,515 forks, and 260 open issues as of 2026-10-06, created 2023-10-06, pushed 2026-10-05.
+Very active and huge for the category: 154,121 stars, 22,523 forks, and 277 open issues as of 2026-10-07, created 2023-10-06, pushed 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=open-webui/open-webui&type=date&theme=dark&legend=top-left" />
@@ -86,7 +86,7 @@ The disagreeable claim I will defend: most of the license outrage is disproporti
 ## References
 
 - https://github.com/open-webui/open-webui - README: features, ecosystem, install paths, license section
-- https://api.github.com/repos/open-webui/open-webui - stars, forks, issues, and dates as of 2026-10-06
+- https://api.github.com/repos/open-webui/open-webui - stars, forks, issues, and dates as of 2026-10-07
 - https://api.github.com/repos/open-webui/open-webui/releases?per_page=4 - v0.11.4 (2026-09-21) back to v0.11.1 (2026-08-25)
 - https://docs.openwebui.com/license/ - the branding clause, the 50-user threshold, the CLA, the fork-from-v0.6.5 path, and the non-OSI admission
 - https://news.ycombinator.com/item?id=43901575 - the BSD-3 to Open WebUI License thread (73 points, 59 comments), the critical source

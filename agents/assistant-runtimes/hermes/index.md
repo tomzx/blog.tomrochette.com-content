@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a cron scheduler and a model provider are.
 ---
 
-Hermes Agent is Nous Research's MIT-licensed self-improving personal agent: a Python gateway process that lives in your chat channels, builds skills from its own experience, and runs on everything from a $5 VPS to serverless sandboxes, at about 251k stars the biggest runtime launch since OpenClaw.
+Hermes Agent is Nous Research's MIT-licensed self-improving personal agent: a Python gateway process that lives in your chat channels, builds skills from its own experience, and runs on everything from a $5 VPS to serverless sandboxes, at about 252k stars the biggest runtime launch since OpenClaw.
 
 **Hermes' bet is that the runtime winner is decided by the learning loop, not the channel list: an agent that curates its own memory, writes its own skills, and models you across sessions compounds while the others merely answer.**
 
@@ -24,7 +24,7 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 ## Status
 
 Massive and fast-moving.
-As of 2026-10-06: 251,515 stars and 54,028 forks since creation on 2025-07-22, pushed today, MIT, and 48,046 open issues, a support surface bigger than most projects' users.
+As of 2026-10-07: 251,775 stars and 54,153 forks since creation on 2025-07-22, pushed today, MIT, and 47,710 open issues, a support surface bigger than most projects' users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&theme=dark&legend=top-left" />
@@ -32,8 +32,8 @@ As of 2026-10-06: 251,515 stars and 54,028 forks since creation on 2025-07-22, p
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&legend=top-left" />
 </picture>
 
-Releases ship as date-stamped tags, and September alone saw v2026.9.7, v2026.9.11, v2026.9.14, v2026.9.21, and v2026.9.24, though no tag had shipped in the first six days of October as of 2026-10-06.
-The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) landed June 2026, and a real tool ecosystem followed (a 28-point Grafana observability integration, a Fleet console for managing Dockerized Hermes agents, XMPP interop with OpenClaw).
+Releases ship as date-stamped tags, and September alone saw v2026.9.7, v2026.9.11, v2026.9.14, v2026.9.21, and v2026.9.24, though no tag had shipped in the first seven days of October as of 2026-10-07.
+The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) landed June 2026, and a real tool ecosystem followed (a 28-point Grafana observability integration, a Fleet console for managing Dockerized Hermes agents, XMPP interop with OpenClaw, and a community gadget SDK building ESP32 voice and text devices, 302 stars as of 2026-10-07).
 **The governance record is the caution: a May 2026 thread documents Nous editing a GitHub issue to remove plagiarism claims about Hermes Agent ([issue 10232](https://github.com/NousResearch/hermes-agent/issues/10232)), so origin claims around this project deserve independent reading.**
 
 ## Strengths
@@ -45,7 +45,7 @@ The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) land
 
 ## Cautions
 
-- 48,046 open issues is triage weather, not a queue; expect to read code when things break.
+- 47,710 open issues is triage weather, not a queue; expect to read code when things break.
 - The plagiarism-claim edit is a stewardship red flag worth weighing before making it your memory keeper.
 - A self-curating memory compounds errors as efficiently as insights; the loop needs supervision, not just trust.
 - Windows installs bundle a lot of machinery (uv, Node, Git Bash), which is surface area to audit.
@@ -83,6 +83,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 - 2026-09-22 - Recorded the near-daily release-tag cadence (v2026.9.7 through v2026.9.21 in September), with refreshed adoption numbers and portal tiers re-checked unchanged.
 - 2026-09-24 - Recorded v2026.9.24, the fifth September tag, with refreshed adoption numbers and the Portal tiers (Free, Plus $20, Super $100, Ultra $200) re-checked unchanged on the official site.
 - 2026-10-07 - Added the NousResearch/hermes-agent star history chart to the Status section.
+- 2026-10-07 - Added the community hermes-gadget-sdk (ESP32 voice and text devices for the agent, 302 stars) to the ecosystem record, with refreshed adoption numbers.
 
 ## See also
 
@@ -94,9 +95,10 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 ## References
 
 - https://github.com/NousResearch/hermes-agent - README: learning loop, backends, channels, install
-- https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-10-06
+- https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-10-07
 - https://api.github.com/repos/NousResearch/hermes-agent/releases - the date-stamped release tags through v2026.9.24 (2026-09-24)
 - https://hermes-agent.nousresearch.com - official site and docs, including the Hermes Free/Plus/Super/Ultra plan tiers
 - https://news.ycombinator.com/item?id=48419000 - the 52-point launch thread
 - https://github.com/NousResearch/hermes-agent/issues/10232 - the edited plagiarism-claims issue
 - https://news.ycombinator.com/item?id=49318128 - the 28-point Grafana observability integration
+- https://github.com/Adolanium/hermes-gadget-sdk - the community ESP32 voice-and-text gadget SDK (302 stars as of 2026-10-07)

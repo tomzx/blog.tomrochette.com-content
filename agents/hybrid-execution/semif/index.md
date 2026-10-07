@@ -37,7 +37,7 @@ By 2026-10-03 the repository itself is named TheoLeeCJ/SemIf-OpenJev, with the /
 The community footprint is large but lives under the old name: the "OpenJev" thread linking openjev.com reached 722 points as of 2026-10-06, the third-largest thread in the Jev wave after Jev's own launch and Laya's.
 Three community PRs merged on 2026-09-22: PyTorch/MPS scoring for Apple Silicon, a Qwen3.8-27B EXL3 bridge, and per-workload temperature calibration with calibrated prediction outputs.
 The headline numbers are self-run: on 102 aligned public rows, direct logit readout with Qwen3.5-4B agrees with TypeSafe's published values 0.845 of the time against Jev's published 0.883, with balanced accuracy of 0.813 on authored decisions and 0.766 under perturbation.
-The first third-party scoreboard of the category initially ranked SemIf (Qwen3.5-4B) second overall at 73.1 against Jev's 74.4, the wave's strongest independent showing, but that benchmark's sealed-decision v1.4 revision dropped it to 47.7, thirteenth on the current v1.4.2.2 board after the benchmark's additions, where Jev itself has slipped to fourth behind Imajev-4B (67.37), Plumb-4B (65.84), and decider-4b v2 (64.13), on a methodology contested in the benchmark's own thread.
+The first third-party scoreboard of the category initially ranked SemIf (Qwen3.5-4B) second overall at 73.1 against Jev's 74.4, the wave's strongest independent showing, but that benchmark's sealed-decision v1.4 revision dropped it to 47.7, and the October v1.6.1 re-run measures the same checkpoint at 15.5 on the new 1,500-decision protocol, with Jev kept as the unranked reference at 71.5 (as of 2026-10-07, on a methodology contested in the benchmark's own thread).
 
 ## Strengths
 
@@ -82,6 +82,7 @@ I run the browser demo before I believe any latency claim in this category, and 
 - 2026-09-29 - JevBench's v1.4.2.2 point release moved SemIf from twelfth to thirteenth at the same 47.7, with Jev now fourth behind Imajev-4B (67.37); refreshed stars (about 4,500) and forks (315).
 - 2026-10-03 - Recorded the repository's canonical name moving to TheoLeeCJ/SemIf-OpenJev (the /SemIf and /openjev URLs redirect to it); refreshed stars (about 4,660) and forks (333).
 - 2026-10-07 - Added the TheoLeeCJ/SemIf-OpenJev star history chart to the Status section.
+- 2026-10-07 - Moved the JevBench reading to the current v1.6.1 scale (SemIf's Qwen3.5-4B row at 15.5 on the 1,500-decision protocol, Jev now the unranked reference at 71.5), replacing the stale v1.4.2.2 standings the Status paragraph carried.
 
 ## See also
 

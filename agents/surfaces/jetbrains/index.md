@@ -1,7 +1,7 @@
 ---
 title: JetBrains IDEs
 created: 2026-08-23
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, jetbrains]
 readability: 3
@@ -26,6 +26,8 @@ Pricing runs through JetBrains AI Pro and AI Ultimate subscriptions metered in A
 **Active and shipping.**
 Junie went from IDE agent (January 2025) to GA (April 2025) to an LLM-agnostic CLI with plan files and CI integration; the harness side is profiled in the [Junie](../../harnesses/junie/index.md) note.
 On September 22, 2026 the vendor wrapped this stack into JetBrains Air, a system of products spanning Air in the IDEs, Air Teams for coordinating delivery workflows of developers and autonomous agents, and Air Governance (the former JetBrains Central) for organizational policy, cost, and audit, with Junie supported across all Air surfaces.
+**The vendor's 2025 statutory results surfaced on October 6, 2026 and show the AI race reaching its income statement: revenue for the Czech entity JetBrains s.r.o. rose 6.3% to a record CZK 16,008 million while the same filing recorded a net loss of CZK 315 million.**
+The figures are unconsolidated Czech GAAP statements from the business register, so they describe the home entity rather than the full group, and the story drew a 579-point Hacker News thread.
 The AI layer was unbundled into a separate, removable plugin in March 2024 after the backlash.
 
 ## Strengths
@@ -72,6 +74,7 @@ Not for anyone who needs an open editor or a large community ecosystem.
 - 2026-09-27 - Re-confirmed the AI Pro and AI Ultimate prices on junie.jetbrains.com; unchanged.
 - 2026-09-29 - Recorded the September 22, 2026 JetBrains Air announcement (Air in IDEs, Air Teams, Air Governance ex-Central) as the system-of-products layer above the AI stack.
 - 2026-10-04 - Recorded the junie.jetbrains.com redesign: the page no longer exposes plan prices and now leads with free-to-start Junie CLI and Local, and the new jetbrains.com/ai-ides/buy/ route is a JavaScript shell, so the $8.33 and $25 numbers stand as the 2026-09-27 observation.
+- 2026-10-07 - Added the vendor's 2025 statutory results to Status: the Czech entity's revenue up 6.3% to a record CZK 16,008 million against a net loss of CZK 315 million, published October 6, 2026.
 
 ## See also
 
@@ -85,6 +88,8 @@ Not for anyone who needs an open editor or a large community ecosystem.
 - https://www.jetbrains.com/ai/ - the AI product family entry point
 - https://junie.jetbrains.com/ - plans, credits, and BYOK through 2026-09-27; from 2026-10-04 the redesigned page leads with free-to-start Junie CLI and Local and no longer shows prices
 - https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/ - the Air announcement: Air in IDEs, Air Teams, Air Governance (formerly JetBrains Central), and the ACP Registry
+- https://www.helgilibrary.com/companies/jetbrains - the 2025 Czech statutory figures (revenue CZK 16,008 million, up 6.3%, net loss CZK 315 million), read from the business register and updated October 6, 2026
+- https://news.ycombinator.com/item?id=49977072 - the October 6, 2026 thread on the 2025 results, 579 points
 - https://blog.jetbrains.com/junie/2025/01/meet-junie-your-coding-agent-by-jetbrains/ - Junie's January 2025 launch
 - https://news.ycombinator.com/item?id=39238666 - the bundling outcry thread (February 2024)
 - https://news.ycombinator.com/item?id=39636060 - the March 2024 unbundling thread

@@ -24,7 +24,7 @@ The GitHub repo language reads Python; the Rust data plane claim comes from the 
 
 ## Status
 
-Very active and compounding fast: 9,303 stars and 231 forks as of 2026-10-06, pushed the same day, created 2026-06-24.
+Very active and compounding fast: 9,469 stars and 233 forks as of 2026-10-07, pushed the same day, created 2026-06-24.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=experientiallabs/experiential&type=date&theme=dark&legend=top-left" />
@@ -33,8 +33,8 @@ Very active and compounding fast: 9,303 stars and 231 forks as of 2026-10-06, pu
 </picture>
 
 The Show HN launch ("We built open OpenRouter that turns usage into a better model") reached 222 points on 2026-08-27 with 47 comments, and the star count has since grown roughly an order of magnitude past the ~820 the entrant data recorded around 2026-09-21.
-PyPI shows 166 releases since first upload on 2026-08-20, latest 0.7.157, requiring Python 3.12+ (as of 2026-10-06).
-One hundred eighteen open issues, a Discord, and YC backing as of 2026-10-06.
+PyPI shows 175 releases since first upload on 2026-08-20, latest 0.7.166, requiring Python 3.12+ (as of 2026-10-07).
+One hundred forty-three open issues, a Discord, and YC backing as of 2026-10-07.
 
 ## Strengths
 
@@ -57,9 +57,11 @@ One hundred eighteen open issues, a Discord, and YC backing as of 2026-10-06.
 
 Free plan: $0 per month, 500 hosted credits monthly after a one-time $1 card verification.
 Pro is a credit ladder from $20 to $199 per month (2,000 credits at the $20 floor, scalable to 1,000,000), and above it sit self-serve Max ($200 to $1,999 per month) and Ultra ($2,000 and up) tiers with higher rate limits (Free Tier 1, Pro Tier 2, Max Tier 3, Ultra Tier 4, Tier 5 by request).
-Model discounts (up to 100% off select models, for example 50% off DeepSeek V4 Flash) apply to the first 2,000 credits of usage each month, then list price.
+As of 2026-10-07 the pricing page presents these as Free, Pro, and Enterprise cards, with Pro carrying a segmented Pro/Max/Ultra selector over credit quantities from 2,000 to 1,000,000 per month; the higher-rung dollar figures no longer appear in the page's static HTML, so they stay dated to the 2026-10-02 verification.
+The per-tier rate limits are now enumerated on the page (Tier 1: 240 requests/min and 4M tokens/min, Tier 2: 1,500 and 25M, Tier 3: 6,000 and 100M, Tier 4: 10,000 and 150M, Tier 5 by request), SOC 1 is listed as available, and per-model discounts are published per model (for example Jev 100% off, DeepSeek V4 Flash 50% off, Kimi K3 11.25% off, GLM 5.3 7.5% off).
+Model discounts apply to the first 2,000 credits of usage each month, then list price.
 Enterprise: custom committed credits at the lowest rate, adding SSO/SAML/SCIM, advanced RBAC, private networking, data residency, security reviews, and a model trained on your traffic.
-Routed tokens stay at provider cost with 0% markup on every plan, and self-hosting the gateway is free, as of 2026-10-06.
+Routed tokens stay at provider cost with 0% markup on every plan, and self-hosting the gateway is free, as of 2026-10-07.
 
 ## Price history
 
@@ -67,6 +69,7 @@ Routed tokens stay at provider cost with 0% markup on every plan, and self-hosti
 | ---- | ---- | ------ | ------ |
 | 2026-09-27 | Free / Pro / Enterprise | Baseline: Free $0 (500 credits after $1 verification), Pro introduced at $20 per month (2,000 credits), Enterprise custom committed credits | https://www.experientiallabs.ai/pricing |
 | 2026-10-02 | Pro / Max / Ultra | Credit ladder documented from $20 to $199 per month (to 1,000,000 credits), with self-serve Max ($200 to $1,999) and Ultra ($2,000+) tiers and per-model discounts on the first 2,000 credits each month | https://www.experientiallabs.ai/pricing |
+| 2026-10-07 | Page structure | Page rebuilt into Free/Pro/Enterprise cards with Pro/Max/Ultra as a segmented credit selector (2,000 to 1,000,000 credits/month); Free $0 and the Pro $20 floor re-verified, higher-rung dollar figures no longer in the static page, rate-limit tiers enumerated and SOC 1 added | https://www.experientiallabs.ai/pricing |
 
 ## Compared to
 
@@ -86,6 +89,7 @@ My disagreeable claim: the traffic-trained router is the demo rather than the pr
 - 2026-10-02 - Pricing page expanded: Pro became a credit ladder from $20 to $199 per month and self-serve Max ($200 to $1,999) and Ultra ($2,000+) tiers appeared above it, with model discounts on the first 2,000 credits each month; price history row appended, plus refreshed adoption numbers (7,592 stars, PyPI 0.7.141).
 - 2026-10-03 - Adoption refresh: 8,032 stars, PyPI at 0.7.147 (156 releases), GitHub releases at v0.7.147, and pricing re-checked unchanged on the vendor page (Free $0, Pro $20-$199 ladder, Max $200-$1,999, Ultra $2,000+).
 - 2026-10-07 - Added the experientiallabs/experiential star history chart to the Status section.
+- 2026-10-07 - Pricing page restructured into Free/Pro/Enterprise cards with the Pro/Max/Ultra rungs as a segmented credit selector (2,000 to 1,000,000 credits/month), the higher-rung dollar figures no longer present in the static page (kept dated to the 2026-10-02 verification), per-tier rate limits enumerated, SOC 1 added, and per-model discounts published per model; price history row appended, plus refreshed adoption numbers (9,469 stars, PyPI 0.7.166 at 175 releases, 143 open issues).
 
 ## See also
 
@@ -97,9 +101,9 @@ My disagreeable claim: the traffic-trained router is the demo rather than the pr
 
 ## References
 
-- https://api.github.com/repos/experientiallabs/experiential - 9,303 stars, 231 forks, Apache-2.0, pushed 2026-10-06 (fetched via the GitHub API, 2026-10-06)
+- https://api.github.com/repos/experientiallabs/experiential - 9,469 stars, 233 forks, Apache-2.0, pushed 2026-10-07 (fetched via the GitHub API, 2026-10-07)
 - https://raw.githubusercontent.com/experientiallabs/experiential/main/README.md - architecture, capture mode, PostHog telemetry enabled by default, optimize workflow (200)
 - https://hn.algolia.com/api/v1/items/49471407 - Show HN thread, 222 points, created 2026-08-27, caching objection, telemetry contradiction, rug-pull accusation (200)
-- https://www.experientiallabs.ai/pricing - Free $0, Pro credit ladder $20 to $199, Max $200 to $1,999, Ultra $2,000+, 0% markup, YC backing (200, re-fetched unchanged 2026-10-06)
-- https://pypi.org/pypi/experiential/json - 0.7.157, first upload 2026-08-20, 166 releases, Python 3.12+ (200, re-checked 2026-10-06)
+- https://www.experientiallabs.ai/pricing - Free $0, Pro credit ladder $20 to $199, Max $200 to $1,999, Ultra $2,000+ (dated 2026-10-02), page restructured 2026-10-07 into Free/Pro/Enterprise cards with the rungs as a credit selector, 0% markup, YC backing (200, re-fetched 2026-10-07)
+- https://pypi.org/pypi/experiential/json - 0.7.166, first upload 2026-08-20, 175 releases, Python 3.12+ (200, re-checked 2026-10-07)
 - https://platform.experientiallabs.ai/docs - fetched with status 200 but renders as an empty JavaScript shell, so nothing citable was taken from it

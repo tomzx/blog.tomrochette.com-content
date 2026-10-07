@@ -23,7 +23,7 @@ Latency is the trade: about 0.3 s per request without thinking and a 3.3 s media
 ## Status
 
 **Days old and a research result, not a product.**
-The repository was created 2026-09-29 and pushed 2026-10-01, with 411 stars and 21 forks as of 2026-10-06.
+The repository was created 2026-09-29 and pushed 2026-10-01, with 414 stars and 21 forks as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PostHog/jeeves&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ The repository was created 2026-09-29 and pushed 2026-10-01, with 411 stars and 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=PostHog/jeeves&type=date&legend=top-left" />
 </picture>
 
-The launch thread (2026-09-29) reached 242 points, and Hugging Face shows 216 downloads and 5 likes.
+The launch thread (2026-09-29) reached 242 points, and Hugging Face shows 227 downloads and 5 likes.
 Every benchmark in the README is self-run: on its held-out test split Jeeves scores 0.889 against Kev-9B's published 0.822 and Jev's published 0.857, and 0.935 against Jev's 0.866 on JevBench's 231 public items, while Jev keeps the transfer lead (0.800 against 0.746 on MMLU-Pro and buried state) and the same checkpoint without thinking drops to 0.804.
 JevBench's own board does not list Jeeves, so the public-tier numbers remain author-run.
 
@@ -82,8 +82,8 @@ The disagreeable claim I will defend: if brief reasoning generalizes across the 
 
 ## References
 
-- https://github.com/PostHog/jeeves - repository: MIT, created 2026-09-29, 411 stars, 21 forks, pushed 2026-10-01 (GitHub API, as of 2026-10-06)
+- https://github.com/PostHog/jeeves - repository: MIT, created 2026-09-29, 414 stars, 21 forks, pushed 2026-10-01 (GitHub API, as of 2026-10-07)
 - https://raw.githubusercontent.com/PostHog/jeeves/master/README.md - the benchmark tables, the LoRA-plus-pointer-head-plus-drafter architecture, CISPO training, latency table, and the Kev acknowledgement
 - https://news.ycombinator.com/item?id=49891290 - the launch thread (242 points as of 2026-10-06, 2026-09-29), including the copycat and social-media skepticism
-- https://huggingface.co/PostHog/jeeves - weights: Apache-2.0, created 2026-09-29, 216 downloads and 5 likes as of 2026-10-06 (Hugging Face API)
+- https://huggingface.co/PostHog/jeeves - weights: Apache-2.0, created 2026-09-29, 227 downloads and 5 likes as of 2026-10-07 (Hugging Face API)
 - https://ollaya.dev/ - third-party adoption: jeeves:9b in the Ollaya library and its accuracy table

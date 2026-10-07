@@ -1,7 +1,7 @@
 ---
 title: "Code Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, code-review, ai-review, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 This matrix compares the nine AI code-review tools profiled in this section, feature by feature, so the shortlisting step does not require reading nine notes.
 
-**The deciding row is not review quality, which nobody has independently benchmarked, but where your code runs: five columns are vendor clouds, one runs in your VPC, three run entirely on your infrastructure with your keys, Graphite Diamond arrives already consolidated as a Cursor property, and the category's most-repeated outside fact is that the two biggest commercial reviewers both have Kudelski-disclosed exploit histories.**
+**The deciding row is still where your code runs, not review quality: public quality benchmarks only arrived this month (GitHub's ReviewBench on October 5 and Kodus's vendor-run CodeReviewBench), while five columns are vendor clouds, one runs in your VPC, three run entirely on your infrastructure with your keys, Graphite Diamond arrives already consolidated as a Cursor property, and the category's most-repeated outside fact is that the two biggest commercial reviewers both have Kudelski-disclosed exploit histories.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell traces to a source cited there or in the references.
@@ -23,14 +23,14 @@ Each column links to the full research note; every cell traces to a source cited
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Kind | commercial review service expanding into change management | agent cloud, review demoted to a use case | AI review inside the Graphite stacked-PR platform, now Cursor-owned | hosted reviewer over a whole-repo graph index | open-source BYOK reviewer (Kody) with a paid cloud | self-hosted hybrid rules-plus-LLM reviewer | open-core reviewer, MIT PR-Agent plus paid Qodo Merge | open-source commit-review daemon from Kenn Software (Wes McKinney), PR panels added | hosted reviewer from a static-analysis lineage, proprietary app over an MIT repo |
 | Object judged | pull requests (diff plus learned repo context) | pull requests, as one configurable agent use case | pull requests in the stacked-PR workflow | pull requests against the full codebase graph | pull requests on GitHub, GitLab, Bitbucket, and Azure Repos | git diffs and pull requests in CI | pull requests via /review and /improve commands | every commit through a post-commit hook, plus GitHub/GitLab PRs via a CI poller | pull requests on GitHub and GitLab, plus a security-scan layer |
-| Judge | LLM reviewers with team-learned rules | your chosen coding agent under its agents-as-code config | Graphite Agent (ex-Diamond) with custom rules | review agent swarm reading the team's comment history | your BYOK model with plain-language custom rules | deterministic rules first, LLM agent second, precision-first | LLM with configurable best-practices files | your own installed coding agents, eleven named, synthesized into one review per PR by subagent panels | LLM reviewers on OpenAI and Anthropic models |
+| Judge | LLM reviewers with team-learned rules | your chosen coding agent under its agents-as-code config | Graphite Agent (ex-Diamond) with custom rules | review agent swarm reading the team's comment history | your BYOK model with plain-language custom rules | deterministic rules first, LLM agent second, precision-first | LLM with configurable best-practices files, a specialized-agent swarm in Qodo 3.0 (2026-10) | your own installed coding agents, eleven named, synthesized into one review per PR by subagent panels | LLM reviewers on OpenAI and Anthropic models |
 | Deployment | GitHub/GitLab app, IDE, CLI, Enterprise self-host | cloud with BYOC into your AWS VPC, REST API with public Python and TypeScript SDK mirrors | graphite.com SaaS, GitHub-centric, GHES support on Enterprise | cloud, self-host in your own AWS or air-gapped VPC | self-hosted, Kodus Cloud, or CLI, on your own model keys | self-hosted CLI, CI, agent plugins, MCP, your model keys | self-host PR-Agent, buy Qodo cloud, or install the Agentic Toolbox skills inside Claude Code, Codex, and Kiro | local daemon with TUI and browser UI, gh-action generator, PostgreSQL sync, ACP adapters | GitHub/GitLab app and IDE plugins, Enterprise self-host |
 | CI gating | ✓ | ~ through its cloud runs | ? | ✓ | ✓ CLI in CI/CD | ✓ GitHub Action and GitLab CI | ✓ via CI recipes | ✓ gh-action generator and the daemon CI poller | ? |
 | Fixes or rewrites code | ~ Triage and Change Stack agents (2026 expansion) | ~ the agents it hosts fix what review finds | ~ one-click fixes | ~ handoff to Claude Code, Cursor, Codex, Devin, TREX tests beta | ✗ comments only | ✗ comments only | ~ /improve suggestions | ✓ roborev fix and the /roborev-refine loop | ~ agent-assisted fix path |
 | Learns team rules | ✓ learnings | ~ agents-as-code config you write | ~ custom rules | ✓ from review comments, isolated per organization | ✓ plain-language rules, workflow learning | ✗ fixed rule pipeline | ~ best-practices files you curate | ~ guidelines you write per repo (REVIEW.md fallback), nothing learned from comments | ? |
 | License | ✗ proprietary, free forever for public repos | ✗ closed core, small OSS tooling repos | ✗ proprietary, Cursor-owned | ✗ proprietary | ~ AGPL-3.0 core, ee/ paths commercial | ✓ Apache-2.0 | ~ PR-Agent MIT, Qodo Merge proprietary | ✓ MIT | ✗ reviewer proprietary, the MIT repo is the refactoring lineage |
 | Pricing anchor | Essentials (ex-Pro) $24, Team (ex-Pro Plus) $48 per user/mo annual, new Advanced $72 annual ($90 monthly) with variable-priced full scans, public repos free | tokens at cost plus a 10% fee, free for individuals on a Claude Code or Codex subscription, support packages from $5k/mo | Hobby free, Starter $20, Team $40 per user/mo | $30/seat plus credits, $1 per extra credit | Community free, Teams BYOK $10/dev/mo plus raw tokens, Enterprise custom with SOC 2, self-host free | free, your model tokens | $0.012 per credit packs, Pro Team $30, no permanent free tier | free, your own agents' tokens | Pro $12, Team $24 per user/mo, open source repos free |
-| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,449 stars, no verified funding (2026-10-06) | 43.9k stars, 136 releases in 5 months (2026-10-06) | 13,276 stars (2026-10-06), $50M raised | 1,745 stars, 120 releases in nine months (2026-10-06) | repo since 2019, 1,870 stars, no verified funding |
+| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,452 stars, no verified funding (2026-10-07) | 44.1k stars, 136 releases in 5 months (2026-10-07) | 13,291 stars (2026-10-07), $50M raised | 1,746 stars, 120 releases in nine months (2026-10-07) | repo since 2019, 1,872 stars, no verified funding (2026-10-07) |
 
 ## Reading the matrix
 
@@ -40,6 +40,10 @@ CodeRabbit still led cumulative 2025 volume, 632,256 to 561,382 distinct PRs, so
 **A reviewer holds privileged access, and the category's record proves it.**
 Kudelski Security turned a malicious RuboCop config into RCE and write access on one million CodeRabbit-connected repositories in January 2025, and found a PR-comment-to-AWS-admin-key chain in Qodo Merge Pro the same year, both fixed after disclosure.
 The caution is structural: whatever judges your code can execute in your CI context, so treat every column here as a privileged integration, not a linter.
+
+**Quality measurement arrived in October 2026, from interested parties.**
+GitHub launched ReviewBench on October 5, an open benchmark of 219 public PRs across 19 languages with a public leaderboard, self-serve submissions, and a published judge, built and run by the platform that sells Copilot code review, and Kodus's CodeReviewBench scores models on Kodus's own harness with best recall under 45 percent.
+Neither is independent of the vendor publishing it, so the row-level advice stands: ask where the benchmark's conflicts sit before trusting its ranking.
 
 **The license row is the cost row in disguise.**
 The four open paths, Apache-2.0, roborev's MIT, MIT PR-Agent, and Kodus's AGPL-3.0, trade turnkey convenience for wiring and model-token spend, and Kodus's badge is the narrowest of the four, since everything under its ee/ paths is commercially licensed.
@@ -77,6 +81,8 @@ Its pricing now leads with a free on-ramp for individuals who bring their own Cl
 - 2026-10-03 - Ellipsis's platform fee reverted to 10% of token cost (pricing cell and the Ellipsis paragraph updated); refreshed the Kodus (1,442), OpenCodeReview (43.4k), and Qodo (13,246) maturity cells to their 2026-10-03 repo numbers.
 - 2026-10-06 - Refreshed the Kodus (1,449), OpenCodeReview (43.9k stars, 136 releases), Qodo (13,274), and Sourcery (1,870) maturity cells to their 2026-10-06 repo numbers; all other cells re-verified unchanged, with every pricing page re-fetched.
 - 2026-10-06 - Added the roborev column (eight to nine members), with the Qodo maturity cell refreshed to 13,276 stars the same day; all cells re-verified against live sources fetched this run.
+- 2026-10-07 - Qualified the review-quality claim in the thesis and added a Reading-the-matrix paragraph: GitHub's ReviewBench (open 219-PR benchmark with a leaderboard, October 5) and Kodus's vendor-run CodeReviewBench now exist, both from interested parties; the Qodo judge cell records the Qodo 3.0 swarm.
+- 2026-10-07 - Refreshed the Kodus (1,452), OpenCodeReview (44.1k stars), Qodo (13,291), roborev (1,746), and Sourcery (1,872) maturity cells to their 2026-10-07 repo numbers; all other cells re-verified unchanged, with every pricing page re-fetched.
 
 ## See also
 
@@ -97,3 +103,5 @@ Its pricing now leads with a free on-ramp for individuals who bring their own Cl
 - https://ellipsis.dev/pricing - the Ellipsis pricing column
 - https://greptile.com/ - the Greptile product and pricing column
 - https://github.com/alibaba/open-code-review - the OpenCodeReview architecture and license
+- https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/ - the ReviewBench announcement grounding the quality-measurement paragraph
+- https://codereviewbench.com/ - Kodus's vendor-run model benchmark, the second half of that paragraph

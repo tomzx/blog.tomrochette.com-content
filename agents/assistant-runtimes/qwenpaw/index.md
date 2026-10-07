@@ -24,7 +24,7 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 
 ## Status
 
-Rapid and churny: 35,450 stars, 3,154 forks, 1,032 open issues and PRs as of 2026-10-06, created 2026-02-24, pushed 2026-09-30.
+Rapid and churny: 35,469 stars, 3,152 forks, 1,037 open issues and PRs as of 2026-10-07, created 2026-02-24, pushed 2026-09-30.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 
 - `qwenpaw init --defaults` auto-accepts the telemetry prompt, which privacy-conscious users must opt out of explicitly.
 - Young and heavily rewritten, with much of the roadmap (voice, computer use, multi-workspace) still in progress.
 - The macOS desktop app is beta and unnotarized, requiring a Gatekeeper bypass.
-- 1,032 open issues and PRs, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
+- 1,037 open issues and PRs, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
 
 ## Pricing
 
@@ -83,7 +83,7 @@ Not for stability-first adopters mid-rewrite, or users who will not read the tel
 
 - https://raw.githubusercontent.com/agentscope-ai/QwenPaw/HEAD/README.md - channels, security layers, install, roadmap
 - https://github.com/agentscope-ai/QwenPaw - stars, forks, dates, language
-- https://pypi.org/project/qwenpaw/ - package versions and cadence (re-checked 2026-10-06 via the registry API, 2.2.2b4 is the newest upload)
+- https://pypi.org/project/qwenpaw/ - package versions and cadence (re-checked 2026-10-07 via the registry API, 2.2.2b4 is the newest upload)
 - https://qwenpaw.agentscope.io/ - the docs site
 - https://github.com/agentscope-ai/agentscope - the parent framework behind the v2.0 rewrite
 - https://platform.agentscope.io/ - the free cloud deployment option

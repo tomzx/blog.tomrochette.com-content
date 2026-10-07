@@ -12,7 +12,7 @@ audience_notes: >
 
 RAGFlow is an Apache-2.0 open-source RAG engine from InfiniFlow that turns documents into a cited, agent-usable knowledge base through layout-aware parsing, template-based chunking, and an agentic retrieval workflow, deployable self-hosted over Docker or through its cloud.
 
-**RAGFlow is the largest bet that the retrieval engine itself is the product, and its 91.7k stars measure how badly DIY RAG teams wanted a deployable stack with inspectable chunks and grounded citations, but a disruptive 1.0 rewrite and an unpatched-RCE disclosure are the costs of adopting it.**
+**RAGFlow is the largest bet that the retrieval engine itself is the product, and its 91.8k stars measure how badly DIY RAG teams wanted a deployable stack with inspectable chunks and grounded citations, but a disruptive 1.0 rewrite and an unpatched-RCE disclosure are the costs of adopting it.**
 
 ## What it is
 
@@ -23,7 +23,7 @@ Made by InfiniFlow, with v1.0.0-rc1 (2026-09-29) rewriting the service layer in 
 
 ## Status
 
-Very active and very large: 91,710 stars, 10,893 forks since 2023-12-12, pushed 2026-10-05 (GitHub API, as of 2026-10-06), with 3.9M Docker pulls (ragflow-stats badge, as of 2026-10-06).
+Very active and very large: 91,756 stars, 10,903 forks since 2023-12-12, pushed 2026-10-06 (GitHub API, as of 2026-10-07), with 3.9M Docker pulls (ragflow-stats badge, re-verified 2026-10-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=infiniflow/ragflow&type=date&theme=dark&legend=top-left" />
@@ -51,7 +51,7 @@ The discussion footprint is front-loaded: a 230-point launch thread in April 202
 ## Pricing
 
 Self-hosted is free under Apache-2.0.
-Cloud, as of 2026-10-06: Free at $0 a month (5 apps, 1 member, 0.1 GB storage, 500 credits/month, no API key), Starter at $29 a month (shown struck through from $59; 50 apps, 5 members, 5 GB, 5,000 credits, API key), Pro at $129 a month (struck through from $259; unlimited apps, 20 members, 50 GB, 20,000 credits), Enterprise custom with BYOC, on-premises, and custom SLA.
+Cloud, as of 2026-10-07: Free at $0 a month (5 apps, 1 member, 0.1 GB storage, 500 credits/month, no API key), Starter at $29 a month (shown struck through from $59; 50 apps, 5 members, 5 GB, 5,000 credits, API key), Pro at $129 a month (struck through from $259; unlimited apps, 20 members, 50 GB, 20,000 credits), Enterprise custom with BYOC, on-premises, and custom SLA.
 
 ## Price history
 
@@ -85,11 +85,11 @@ My disagreeable claim: what RAGFlow actually sells is trust, and the star count 
 
 ## References
 
-- https://api.github.com/repos/infiniflow/ragflow - 91,710 stars, 10,893 forks, Apache-2.0, Go, created 2023-12-12, pushed 2026-10-05 (GitHub API, as of 2026-10-06)
+- https://api.github.com/repos/infiniflow/ragflow - 91,756 stars, 10,903 forks, Apache-2.0, Go, created 2023-12-12, pushed 2026-10-06 (GitHub API, as of 2026-10-07)
 - https://raw.githubusercontent.com/infiniflow/ragflow/main/README.md - DeepDoc, template-based chunking, knowledge compilation, agentic retrieval modes, Go-native architecture, deployment requirements
 - https://raw.githubusercontent.com/infiniflow/ragflow/main/docs/release_notes.md - the v1.0.0-rc1 Go rewrite, NATS and Kvrocks migration, irreversible v0.27.2 upgrade, known issues
 - https://api.github.com/repos/infiniflow/ragflow/releases/latest - v1.0.0-rc1 published 2026-09-29
-- https://ragflow.io/ - the pricing section: Free $0, Starter $29 (from $59), Pro $129 (from $259), Enterprise custom (as of 2026-10-06)
+- https://ragflow.io/ - the pricing section: Free $0, Starter $29 (from $59), Pro $129 (from $259), Enterprise custom (as of 2026-10-07)
 - https://ragflow.io/docs/ - official docs root (server-rendered; the /docs/dev/ path meta-refreshes here)
 - https://zeropath.com/blog/ragflow-rce-unpatched-vulnerability - the April 2026 post-auth RCE disclosure (GHSA-vw46-rrp3-c99v, Shodan-exposed instances), the critical source
 - https://api.github.com/advisories/GHSA-vw46-rrp3-c99v - 404 on 2026-10-06: the advisory was never published to GitHub's global database

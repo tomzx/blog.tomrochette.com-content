@@ -22,7 +22,7 @@ Search is BM25 by default with an opt-in semantic mode that embeds locally (the 
 
 ## Status
 
-Active: created 2026-02-23, about 1.1k stars (1,149) and 76 forks, pushed 2026-10-05, latest release v2.2.8 on 2026-10-05 (incremental-import and blame-worker fixes), after the v2.2.7 line of 2026-10-02 (incremental-import fixes, a day after v2.2.6 added `ctx import --all --incremental` for one-pass catch-up imports), after the v2.2.0 line of 2026-09-30 (opt-in history backup plus beta sharing through a self-hosted ctx server, with installer-recovery, history-import, and telemetry fixes through v2.2.5 on 2026-10-01), the v2.1.3 and v2.1.4 patches of 2026-09-29 and 2026-09-30, and the v2.1.0 line of 2026-09-28 (paged blame indexing that scales past 16,384 sources), as of 2026-10-06.
+Active: created 2026-02-23, about 1.1k stars (1,151) and 76 forks, pushed 2026-10-05, latest release v2.2.8 on 2026-10-05 (incremental-import and blame-worker fixes), after the v2.2.7 line of 2026-10-02 (incremental-import fixes, a day after v2.2.6 added `ctx import --all --incremental` for one-pass catch-up imports), after the v2.2.0 line of 2026-09-30 (opt-in history backup plus beta sharing through a self-hosted ctx server, with installer-recovery, history-import, and telemetry fixes through v2.2.5 on 2026-10-01), the v2.1.3 and v2.1.4 patches of 2026-09-29 and 2026-09-30, and the v2.1.0 line of 2026-09-28 (paged blame indexing that scales past 16,384 sources), as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ctxrs/ctx&type=date&theme=dark&legend=top-left" />
@@ -41,7 +41,7 @@ The docs site at ctx.rs is complete (concepts, about 40 supported agent harnesse
 
 ## Cautions
 
-- The 50x token-efficiency claim is self-reported (917 versus 45,734 tokens in its own example, still shown on the site's home page as of 2026-09-27), with no independent benchmark.
+- The 50x token-efficiency claim is self-reported (917 versus 45,734 tokens in its own example, still shown on the site's home page as of 2026-10-07), with no independent benchmark.
 - The pro subscription that once gated blame disappeared from the site with 2.0, so the business model behind a formerly paid capability is now unstated.
 - It reads whatever the agents wrote: transcripts are only as complete as the harnesses' logs, and deleted local history is gone.
 

@@ -23,7 +23,7 @@ The open-source docs are one of three product tabs on the documentation site, be
 
 ## Status
 
-Active and still shipping: 15,529 stars, 1,350 forks since 2022-09-26, pushed 2026-10-05 (GitHub API, as of 2026-10-06), with PyPI at 0.27.16 released 2026-10-05 and five releases between 2026-09-14 and 2026-10-05.
+Active and still shipping: 15,535 stars, 1,350 forks since 2022-09-26, pushed 2026-10-07 (GitHub API, as of 2026-10-07), with PyPI at 0.27.16 released 2026-10-05 and five releases between 2026-09-14 and 2026-10-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Unstructured-IO/unstructured&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and still shipping: 15,529 stars, 1,350 forks since 2022-09-26, pushed 20
 </picture>
 
 Adoption remains large: about 2M downloads a month (pepy badge, as of 2026-10-06).
-The displacement is the story: Docling, this category's current default, has 4.4x the stars (68.4k versus 15.5k) and roughly 1.5x the monthly downloads, and the largest dedicated Hacker News thread for Unstructured is 141 points from July 2023, with nothing comparable since.
+The displacement is the story: Docling, this category's current default, has 4.4x the stars (68.5k versus 15.5k) and roughly 1.5x the monthly downloads, and the largest dedicated Hacker News thread for Unstructured is 141 points from July 2023, with nothing comparable since.
 
 ## Strengths
 
@@ -79,12 +79,12 @@ My disagreeable claim: leading your README with the hosted MCP server is the uns
 
 ## References
 
-- https://api.github.com/repos/Unstructured-IO/unstructured - 15,529 stars, 1,350 forks, Apache-2.0, created 2022-09-26, pushed 2026-10-05 (GitHub API, as of 2026-10-06)
+- https://api.github.com/repos/Unstructured-IO/unstructured - 15,535 stars, 1,350 forks, Apache-2.0, created 2022-09-26, pushed 2026-10-07 (GitHub API, as of 2026-10-07)
 - https://raw.githubusercontent.com/Unstructured-IO/unstructured/main/README.md - library scope, the Transform MCP and Pipelines leads, container and conda install paths
 - https://docs.unstructured.io/open-source/introduction/overview - the vendor's own prototyping-grade framing of the library and the three-product docs split
 - https://api.github.com/repos/Unstructured-IO/unstructured/releases?per_page=5 - 0.27.16 (2026-10-05) and the September release cadence
 - https://pypi.org/pypi/unstructured/json - latest version 0.27.16
-- https://static.pepy.tech/badge/unstructured/month - about 2M downloads a month (as of 2026-10-06)
+- https://static.pepy.tech/badge/unstructured/month - about 2M downloads a month (as of 2026-10-07)
 - https://unstructured.io/enterprise - the Pipelines platform pitch and the demo-request pricing model
 - https://transform.unstructured.io/ - the Transform MCP entry, serving a Keycloak login wall (fetched 2026-10-06)
 - https://hn.algolia.com/api/v1/items/36616799 - the 141-point thread (2023-07-06) with the PDFMiner and Camelot quality critique

@@ -24,7 +24,7 @@ The agent-facing surface is first-class: `orx install-skills` installs a skill i
 
 ## Status
 
-Active and fast-moving: 6,642 stars, 420 forks, 66 open issues and pull requests, created 2026-06-07, last push 2026-10-06, with releases v0.2.13 through v0.2.16 landing between September 29 and October 5, as of 2026-10-06.
+Active and fast-moving: 6,687 stars, 427 forks, 69 open issues and pull requests, created 2026-06-07, last push 2026-10-07, with releases v0.2.13 through v0.2.17 landing between September 29 and October 7, as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alphaXiv/OpenResearch&type=date&theme=dark&legend=top-left" />

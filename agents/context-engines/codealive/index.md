@@ -40,14 +40,14 @@ Every performance claim (45 percent fewer tokens, about 25 times lower model cos
 
 ## Cautions
 
-- **No independent evidence exists as of 2026-10-06**: zero Hacker News footprint (re-checked 2026-10-06), no third-party evaluation, and RepoContextBench is the vendor's own benchmark.
+- **No independent evidence exists as of 2026-10-07**: zero Hacker News footprint (re-checked 2026-10-07), no third-party evaluation, and RepoContextBench is the vendor's own benchmark.
 - The published tiers cap repository size (25 MB free, 100 MB Hobby and Pro, 100-500 MB Team), which sits far below the 1M-plus-LOC pitch; large monorepos are a sales conversation, not a plan.
 - Your code indexes server-side by default on the cloud product; the self-hosted path avoids that but is demo-gated, ships with no SOC 2 badge yet by the vendor's own page, and gates SSO/SAML behind Enterprise.
 - A tiny single-product company is a durability risk for infrastructure you would wire into every agent session.
 
 ## Pricing
 
-Free ($0, 1 user, 1 workspace, 25 MB of repos, 100 chat requests per month, MCP access), Hobby ($15/month with a $15 usage balance, 1 developer, up to 100 MB), Pro ($50/month balance, 1-3 developers, deep analysis and AI code review), and Team (from $100/month balance, 5-15 developers, 100-500 MB), all as of 2026-10-05.
+Free ($0, 1 user, 1 workspace, 25 MB of repos, 100 chat requests per month, MCP access), Hobby ($15/month with a $15 usage balance, 1 developer, up to 100 MB), Pro ($50/month balance, 1-3 developers, deep analysis and AI code review), and Team (from $100/month balance, 5-15 developers, 100-500 MB), all as of 2026-10-07.
 Usage is metered per action: search $0.02, chat $0.15, deep analysis $0.30, code review $0.50.
 
 ## Price history
@@ -82,11 +82,11 @@ My disagreeable claim: CodeAlive's pricing model, the engine unbundled from the 
 
 ## References
 
-- https://codealive.ai/en - homepage: positioning, tier table, per-action rates, and the vendor-run efficiency claims (re-verified unchanged 2026-10-06)
+- https://codealive.ai/en - homepage: positioning, tier table, per-action rates, and the vendor-run efficiency claims (re-verified unchanged 2026-10-07)
 - https://codealive.ai/en/self-hosted - the self-hosted deployment surface: Docker Compose or Kubernetes/Helm, bring-your-own OpenAI-compatible LLM, demo-gated, no SOC 2 badge yet (fetched 2026-10-06)
 - https://codealive.ai/en/pricing - the pricing page (redirects to the homepage; content live 2026-10-05)
 - https://docs.codealive.ai/quickstart - installer, API keys, indexing flow, and example queries
 - https://docs.codealive.ai/integrations/mcp - MCP v3 tools, hosted endpoint, OAuth and Docker deployments, migration guide
 - https://codealive.ai/en/blog/codealive-3-context-engine-agent-repocontextbench - the 3.0 announcement: Tool API v3 (2026-07-11), ContextResearchAgent, RepoContextBench
 - https://registry.npmjs.org/@codealive%2Finstaller - the installer package, 1.0.8
-- https://hn.algolia.com/api/v1/search?query=CodeAlive&tags=story - the footprint scan: zero stories about the product (2026-10-05)
+- https://hn.algolia.com/api/v1/search?query=CodeAlive&tags=story - the footprint scan: zero stories about the product (re-run 2026-10-07, strict-phrase search included)

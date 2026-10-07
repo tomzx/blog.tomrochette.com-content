@@ -27,7 +27,7 @@ Made by Julian Storer (JUCE, Tracktion, Cmajor), distributed as signed installer
 
 **Young, active, and single-maintainer, with a strong launch.**
 The public Show HN on July 12, 2026 drew 280 points and 119 comments ([HN](https://news.ycombinator.com/item?id=48883305)).
-751 stars and 51 forks as of 2026-10-04 on a repo created June 19, 2026 (GitHub API); it had crossed 732 by October 3, over a hundred stars more than the day before, and stood at 768 stars and 52 forks as of 2026-10-06.
+751 stars and 51 forks as of 2026-10-04 on a repo created June 19, 2026 (GitHub API); it had crossed 732 by October 3, over a hundred stars more than the day before, and stood at 775 stars and 52 forks as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=juggler-ai/juggler&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ The public Show HN on July 12, 2026 drew 280 points and 119 comments ([HN](https
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=juggler-ai/juggler&type=date&legend=top-left" />
 </picture>
 
-Shipping is steady: v0.7.4 published October 2, 2026, adding per-provider toggles for Codex and Copilot subscriptions, thinking levels for Ollama models, a file viewer that plays video and audio and opens more image formats, and a fix for slow-starting WSL sessions on Windows; v0.7.3 (September 30) added a "Group" workspace type that organizes conversations without a worktree or copy, usage meters that redden by pace against the window rather than by quota consumed, touch-device fixes, and an LM Studio provider that reads each model's loaded context window.
+Shipping is steady: v0.7.5 published October 6, 2026, a large polish release (a friendlier file-attach flow with text snapshots for non-images, an image viewer with pinch and Ctrl-scroll zoom, CLI detection across nvm, fnm, bun, pnpm, volta, mise, and asdf installs, Ollama models honoring a raised max-output-tokens setting, selectable auto-approve reviewer policies, and a batch of undo, sidebar, and window fixes); before it, v0.7.4 (October 2) added per-provider toggles for Codex and Copilot subscriptions, thinking levels for Ollama models, a file viewer that plays video and audio and opens more image formats, and a fix for slow-starting WSL sessions on Windows; v0.7.3 (September 30) added a "Group" workspace type that organizes conversations without a worktree or copy, usage meters that redden by pace against the window rather than by quota consumed, touch-device fixes, and an LM Studio provider that reads each model's loaded context window.
 One person builds it, which is both the reason it ships fast and the project's single point of failure.
 
 ## Strengths
@@ -78,6 +78,7 @@ I think the harnesses that win the GUI layer will be the ones that treat convers
 - 2026-10-02 - Recorded the v0.7.3 release (September 30), which added a Group workspace type, pace-based usage meters, touch fixes, and an LM Studio provider reading each model's context window, and refreshed counters.
 - 2026-10-03 - Recorded the v0.7.4 release (October 2), which added per-provider Codex and Copilot subscription toggles, Ollama thinking levels, media playback in the file viewer, and a Windows WSL fix, and refreshed counters (732 stars, 51 forks), over a hundred new stars in a day.
 - 2026-10-07 - Added the juggler-ai/juggler star history chart to the Status section.
+- 2026-10-07 - Recorded the v0.7.5 release (October 6), a large polish pass covering the file-attach flow, image-viewer zoom and pan, CLI detection across version managers, Ollama max-output-tokens support, selectable auto-approve reviewer policies, and undo, sidebar, and window fixes, and refreshed counters.
 
 ## See also
 
@@ -88,8 +89,8 @@ I think the harnesses that win the GUI layer will be the ones that treat convers
 
 ## References
 
-- https://github.com/juggler-ai/juggler - repository, AGPL-3.0 app code with Apache-2.0 extensions, 768 stars as of 2026-10-06
+- https://github.com/juggler-ai/juggler - repository, AGPL-3.0 app code with Apache-2.0 extensions, 775 stars as of 2026-10-07
 - https://juggler.studio/ - product claims, provider list, session model
 - https://raw.githubusercontent.com/juggler-ai/juggler/main/README.md - architecture, licensing map, build model
 - https://news.ycombinator.com/item?id=48883305 - the July 12, 2026 launch thread, 280 points (verified via Algolia API)
-- https://github.com/juggler-ai/juggler/releases - v0.7.4, published 2026-10-02 (verified via GitHub API)
+- https://github.com/juggler-ai/juggler/releases - v0.7.5, published 2026-10-06 (verified via GitHub API)

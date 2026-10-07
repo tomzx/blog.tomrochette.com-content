@@ -26,7 +26,7 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
 
 ## Status
 
-**Quietly large: 14.5k stars rank it seventh of the fourteen members profiled here, while its discussion footprint is nearly empty.**
+**Quietly large: 14.5k stars rank it tenth of the seventeen members profiled here, while its discussion footprint is nearly empty.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&legend=top-left" />
 </picture>
 
-14,499 stars with the repository pushed 2026-10-01, created 2025-07-29, as of 2026-10-06 (GitHub API).
+14,511 stars with the repository pushed 2026-10-01, created 2025-07-29, as of 2026-10-07 (GitHub API).
 The Hacker News record is two threads: an 11-point Show HN in January 2026 (4 comments) and a 4-point story in July 2026 (0 comments), so the 14.5k stars rest on trend cycles and word of mouth, not public scrutiny.
 Development is active, with the README's host matrix and skill-extraction flow revised against current releases.
 The same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and Graphify.
@@ -62,7 +62,7 @@ No paid tier is published.
 ## Compared to
 
 - [File-based agent memory](../file-based-agent-memory/index.md): the convention memU automates; use the convention when you want memory in the repo, memU when you want it across agents and machines.
-- [claude-mem](../claude-mem/index.md): session-compression memory bound to coding-agent hooks; memU is cross-agent, wiki-shaped, and skill-producing instead of observation-compressing.
+- [claude-mem](../claude-mem/index.md): session-compression memory bound to coding-agent hooks; memU is cross-agent, wiki-style, and skill-producing instead of observation-compressing.
 - [Memoryfields](../memoryfields/index.md): both bet on markdown as the canonical store; Memoryfields is a portable format spec with minimal tooling, memU is a working service with the embedding and retrieval built.
 
 ## Bottom line
@@ -74,6 +74,8 @@ Not for teams needing multi-user memory APIs, contractual hosting terms, or any 
 
 - 2026-10-06 - Created from the 2026-10-06 entrant scan, with seven fetched sources and the thin-discussion footprint recorded as the critical signal.
 - 2026-10-07 - Added the NevaMind-AI/memU star history chart to the Status section.
+- 2026-10-07 - Membership grew to seventeen (GBrain, Hindsight, and OpenViking joined), moving memU's star rank from seventh to tenth; refreshed stars to 14,511.
+- 2026-10-07 - Reworded the pre-existing "wiki-shaped" compound to "wiki-style" in the claude-mem comparison to keep the banned-terms rule.
 
 ## See also
 

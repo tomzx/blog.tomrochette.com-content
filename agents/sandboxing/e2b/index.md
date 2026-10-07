@@ -23,7 +23,7 @@ The cloud is SOC 2 Type II compliant with US, EU, and APAC regions; enterprise t
 
 ## Status
 
-Active and well funded: the SDK repo stands at 14,190 stars and the runtime repo at 1,679 stars as of 2026-10-06, the SDK repo created 2023-03-04 and pushed 2026-10-05, with @e2b/python-sdk at 2.52.1 (2026-10-05).
+Active and well funded: the SDK repo stands at 14,209 stars and the runtime repo at 1,682 stars as of 2026-10-07, the SDK repo created 2023-03-04 and pushed 2026-10-06, with the e2b package on PyPI at 2.53.1 (as of 2026-10-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=e2b-dev/E2B&type=date&theme=dark&legend=top-left" />
@@ -53,7 +53,7 @@ A $21M Series A led by Insight Partners was announced 2025-07-28, $32M total, wi
 Hobby: free, one-time $100 usage credits, 20 concurrent sandboxes, 1-hour sessions, 10 GiB storage included.
 Pro: $150 per month plus usage, 100 concurrent, 24-hour sessions, 20 GiB storage; Pro+ and Pro++ add-ons at $650 and $1,150 per month raise concurrency to 600 and 1,100.
 Enterprise: custom, with a $3,000 monthly minimum and BYOC.
-Published usage rates as of 2026-10-06: $0.000014 per vCPU-second and $0.0000045 per GiB-second, storage included free; sandboxes configure 1 to 8 vCPU and 1 to 8 GiB, CPU-only.
+Published usage rates as of 2026-10-07: $0.000014 per vCPU-second and $0.0000045 per GiB-second, storage included free; sandboxes configure 1 to 8 vCPU and 1 to 8 GiB, CPU-only.
 
 ## Price history
 

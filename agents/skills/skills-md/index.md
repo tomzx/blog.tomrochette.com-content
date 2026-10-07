@@ -16,14 +16,14 @@ skills.md is Hasna's hosted-execution skills marketplace: an agent finds a skill
 
 ## What it is
 
-The client is an open-source Apache-2.0 CLI and SDK (`@hasna/skills` on npm, latest 0.10.43 with 165 published versions since 2026-02-14) that signs in through a browser flow and registers a stdio MCP server with the agent, documented for claude, codex, cursor, opencode, pi, and windsurf, with any MCP host supported by manual registration.
+The client is an open-source Apache-2.0 CLI and SDK (`@hasna/skills` on npm, latest 0.10.46 with 168 published versions since 2026-02-14) that signs in through a browser flow and registers a stdio MCP server with the agent, documented for claude, codex, cursor, opencode, pi, and windsurf, with any MCP host supported by manual registration.
 The catalog is curated rather than crawled: the marketplace page lists 250 entries (the homepage says 300 plus curated skills) across generation-style tasks like logo design, brand kits, pitch decks, and market research reports, each returning downloadable artifacts.
 Authors publish with `skills push`, where every push is a version, and companies can self-host, since the CLI, SDK, MCP server, and service code are public in the hasna/skills repository, made public on 2026-09-26.
 
 ## Status
 
 **Active product, near-zero community footprint.**
-The npm package has shipped 165 versions in roughly eight months, but the GitHub repository showed 0 stars and 0 forks as of 2026-10-06, ten days after it went public.
+The npm package has shipped 168 versions in roughly eight months, but the GitHub repository showed 0 stars and 0 forks as of 2026-10-07, eleven days after it went public.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hasna/skills&type=date&theme=dark&legend=top-left" />
@@ -89,6 +89,6 @@ My disagreeable claim: this is the first skills product that could actually sust
 
 - https://skills.md/ - the product surface: CLI and MCP flows, the plans (Free, Pro $10 per month, credit packs $1-$100), 300-plus curated skills, Apache-2.0, Hasna, Inc. (fetched 2026-10-06)
 - https://skills.md/marketplace - the catalog page: 250 of 250 entries, category filters, and every hosting status labeled unverified pending a live check (fetched 2026-10-06)
-- https://registry.npmjs.org/@hasna/skills - the CLI package: created 2026-02-14, latest 0.10.43, 165 versions (fetched 2026-10-06)
-- https://api.github.com/repos/hasna/skills - the Apache-2.0 CLI, SDK, MCP, and service repo: made public 2026-09-26, 0 stars, pushed 2026-10-06 (GitHub API, as of 2026-10-06)
+- https://registry.npmjs.org/@hasna/skills - the CLI package: created 2026-02-14, latest 0.10.46, 168 versions (fetched 2026-10-07)
+- https://api.github.com/repos/hasna/skills - the Apache-2.0 CLI, SDK, MCP, and service repo: made public 2026-09-26, 0 stars, pushed 2026-10-07 (GitHub API, as of 2026-10-07)
 - https://hn.algolia.com/api/v1/search?query=%22skills.md%22&tags=story - the footprint scan: no marketplace coverage, the nearest hits are 4-point items about the filename convention (fetched 2026-10-06)

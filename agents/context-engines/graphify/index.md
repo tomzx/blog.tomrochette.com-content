@@ -25,7 +25,7 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 
 ## Status
 
-Growing absurdly fast for its age: 124,118 stars and 2,132 commits in about six months since 2026-04-03, latest release v0.9.77 on 2026-10-05, all as of 2026-10-06, with 294 contributors as of 2026-10-06.
+Growing absurdly fast for its age: 124,473 stars and 2,148 commits in about six months since 2026-04-03, latest release v0.9.79 on 2026-10-06, all as of 2026-10-07, with 294 contributors as of 2026-10-06.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Graphify-Labs/graphify&type=date&theme=dark&legend=top-left" />
@@ -55,7 +55,7 @@ The ecosystem is growing too: a third-party C# port, graphify-csharp, launched S
 ## Pricing
 
 The core CLI is free, Apache-2.0, no account.
-The hosted side now publishes four plans (re-verified 2026-10-06): Free ($0, one developer, no card, with node, build, and review allowances), Pro ($10/month billed yearly or $15 billed monthly, one developer, uncapped graphs), Teams ($20 per seat/month billed yearly or $29 billed monthly, minimum 2 seats, rising to $28 yearly and $40 monthly after the first 100 teams), and Enterprise (early access, self-hosted, licensed per seat, with the price scoped on a call instead of published), plus free access for qualified MIT and Apache licensed OSS projects.
+The hosted side now publishes four plans (re-verified 2026-10-07): Free ($0, one developer, no card, with node, build, and review allowances), Pro ($10/month billed yearly or $15 billed monthly, one developer, uncapped graphs), Teams ($20 per seat/month billed yearly or $29 billed monthly, minimum 2 seats, rising to $28 yearly and $40 monthly after the first 100 teams), and Enterprise (early access, self-hosted, licensed per seat, with the price scoped on a call instead of published), plus free access for qualified MIT and Apache licensed OSS projects.
 
 ## Price history
 
@@ -94,6 +94,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - 2026-10-05 - Recorded release v0.9.76 (2026-10-04) and refreshed the volatile numbers (123,872 stars, 2,105 commits, 287 contributors, 1,522 open issues and PRs); hosted plans re-verified unchanged against the live pricing page.
 - 2026-10-06 - Recorded release v0.9.77 (2026-10-05) and refreshed the volatile numbers (124,118 stars, 2,132 commits, 294 contributors, 1,506 open issues and PRs); hosted plans re-verified unchanged against the live pricing page and the full plan index.
 - 2026-10-07 - Added the Graphify-Labs/graphify star history chart to the Status section.
+- 2026-10-07 - Recorded releases v0.9.78 and v0.9.79 (both 2026-10-06) and refreshed the volatile numbers (124,473 stars, 2,148 commits, 1,517 open issues and PRs); hosted plans re-verified unchanged against the live pricing page and the full plan index.
 
 ## See also
 
@@ -107,8 +108,8 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - https://github.com/Graphify-Labs/graphify - repository, README, architecture, license, adoption numbers
 - https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/BENCHMARKS.md - the self-published benchmarks, including the supermemory trade-off
 - https://graphify.com/ - positioning and the no-embeddings claim
-- https://graphify.com/pricing - the four hosted plans above the free core, re-verified unchanged 2026-10-06
-- https://graphify.com/llms-full.txt - the full plan table grounding the pricing section (monthly and annual billing), fetched 2026-10-06
+- https://graphify.com/pricing - the four hosted plans above the free core, re-verified unchanged 2026-10-07
+- https://graphify.com/llms-full.txt - the full plan table grounding the pricing section (monthly and annual billing), fetched 2026-10-07
 - https://pypi.org/project/graphifyy/ - the distribution and current version
 - https://www.ycombinator.com/companies/graphify-labs - the maker, batch, and self-reported adoption claims
 - https://github.com/zachsaw/graphify-csharp - the third-party C# port, 72 stars as of 2026-10-03

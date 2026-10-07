@@ -21,7 +21,7 @@ It is built on the `pi` coding agent plus `uv`, and there is a Vue-and-Bun visua
 
 ## Status
 
-Young, deliberately small, and quiet since launch: 945 stars and 246 forks since creation on 2026-08-02, with no push since 2026-08-04, two months before 2026-10-06.
+Young, deliberately small, and quiet since launch: 947 stars and 249 forks since creation on 2026-08-02, with no push since 2026-08-04, two months before 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=disler/super-simple-software-factory&type=date&theme=dark&legend=top-left" />

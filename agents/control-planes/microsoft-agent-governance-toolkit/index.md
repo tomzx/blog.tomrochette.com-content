@@ -23,7 +23,7 @@ It is published under the Microsoft organization, but the team states an intent 
 
 ## Status
 
-Active, wide, and fast-moving: 6,395 stars, 1,125 forks, and 76 open issues as of 2026-10-06, created 2026-03-02, last pushed 2026-10-05, latest release v4.1.0 on 2026-06-09.
+Active, wide, and fast-moving: 6,401 stars, 1,124 forks, and 77 open issues as of 2026-10-07, created 2026-03-02, last pushed 2026-10-07, latest release v4.1.0 on 2026-06-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-governance-toolkit&type=date&theme=dark&legend=top-left" />

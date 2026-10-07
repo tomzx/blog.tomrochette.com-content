@@ -24,7 +24,7 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 ## Status
 
 Active and independently credible.
-As of 2026-10-06: 30,879 stars and 12,777 forks since creation on 2026-01-31, pushed 2026-10-06, 1,035 open issues.
+As of 2026-10-07: 30,888 stars and 12,773 forks since creation on 2026-01-31, pushed 2026-10-06, 1,039 open issues.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nanocoai/nanoclaw&type=date&theme=dark&legend=top-left" />
@@ -82,7 +82,7 @@ My disagreeable claim: the container wall matters more than every permission sys
 ## References
 
 - https://github.com/nanocoai/nanoclaw - README: philosophy, channels, vault, isolation model
-- https://api.github.com/repos/nanocoai/nanoclaw - stars, forks, issues as of 2026-10-06
+- https://api.github.com/repos/nanocoai/nanoclaw - stars, forks, issues as of 2026-10-07
 - https://api.github.com/repos/nanocoai/nanoclaw/releases - v2.4.0 (2026-09-23, the last 2.x release) and the 2026.10.0 release candidates (2026-10-04 and 2026-10-05)
 - https://docs.nanoclaw.dev - official documentation
 - https://news.ycombinator.com/item?id=46850205 - the 533-point launch thread

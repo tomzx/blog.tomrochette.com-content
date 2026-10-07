@@ -21,7 +21,7 @@ BYOK covers OpenAI, Anthropic, Google Gemini, Vertex AI, Novita, and any OpenAI-
 
 ## Status
 
-**Active and small: commits this week, with 1,449 stars and 167 forks as of 2026-10-06.**
+**Active and small: commits this week, with 1,452 stars and 167 forks as of 2026-10-07.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kodustech/kodus-ai&type=date&theme=dark&legend=top-left" />
@@ -29,7 +29,7 @@ BYOK covers OpenAI, Anthropic, Google Gemini, Vertex AI, Novita, and any OpenAI-
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kodustech/kodus-ai&type=date&legend=top-left" />
 </picture>
 
-The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on October 5, 2026.
+The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on October 7, 2026.
 Funding: I could not verify any funding round from a primary source, so I record none.
 The community footprint is thin, and I state that as a finding: five HN launches between 1 and 5 points, the largest being a 5-point Show HN for the CLI (47248299, March 4, 2026) and a 4-point one for the AGPL/BYOK repositioning (48049508, May 7, 2026).
 A Discord community exists, but I found no independent reviews or benchmarks corroborating the quality claims.
@@ -39,13 +39,14 @@ A Discord community exists, but I found no independent reviews or benchmarks cor
 - **Model-agnostic BYOK with a published zero-markup price calculator, which no incumbent in this category offers.**
 - Forge breadth matches the category default: GitHub, GitLab, Bitbucket, and Azure Repos.
 - Real self-hosting, with a deploy guide and a documented one-heartbeat-per-day anonymous telemetry opt-out.
+- **The vendor now publishes measurements instead of only claims: CodeReviewBench scores models on real PR diffs (30 PRs, 95 confirmed bugs, best recall 44.2 percent, every scorecard versioned in a repo), and the State of AI Code Review report analyzes 180,739 production suggestions (71.8 percent of flagged PRs merge with a flag open), both under a stated single-harness, vendor-run disclosure.**
 - CLI plus CI/CD support puts review in the pipeline, not just in PR comments.
 
 ## Cautions
 
 - **The dual license has teeth: anything under ee/ paths is commercially licensed, so the AGPL guarantee is narrower than the badge suggests.**
 - No verifiable funding and a thin community footprint make bus factor and longevity open questions.
-- Quality claims ("reviews like your senior dev wrote them") are vendor marketing with no independent benchmark behind them.
+- Quality claims ("reviews like your senior dev wrote them") are vendor marketing; the new CodeReviewBench and the research report are vendor-run and single-harness by their own disclosure, so they do not fill the independent-benchmark gap.
 - Self-hosting transfers model cost and operations to you, which is the point, but it is a real cost.
 
 ## Pricing
@@ -81,6 +82,7 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-24 - Refreshed the repo numbers to 1,416 stars and 159 forks with a same-day push; tiers and prices unchanged.
 - 2026-10-07 - Added the kodustech/kodus-ai star history chart to the Status section.
+- 2026-10-07 - Recorded the vendor's new research surfaces (CodeReviewBench and the State of AI Code Review report) in Strengths and Cautions with the vendor-run caveat, and refreshed the repo to 1,452 stars pushed October 7.
 
 ## See also
 
@@ -92,9 +94,11 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 
 ## References
 
-- https://github.com/kodustech/kodus-ai - repo, 1,449 stars, 167 forks, AGPL-3.0 + EE dual license, pushed October 5, 2026 (GitHub API, as of 2026-10-06)
+- https://github.com/kodustech/kodus-ai - repo, 1,452 stars, 167 forks, AGPL-3.0 + EE dual license, pushed October 7, 2026 (GitHub API, as of 2026-10-07)
 - https://kodus.io/ - product page and positioning
-- https://kodus.io/pricing/ - Community free, Teams BYOK $10/dev, Enterprise custom, no-markup FAQ, as of 2026-10-02
+- https://kodus.io/pricing/ - Community free, Teams BYOK $10/dev, Enterprise custom, no-markup FAQ, as of 2026-10-02, re-verified unchanged 2026-10-07
+- https://codereviewbench.com/ - the vendor-run model benchmark: 30 PRs, 95 golden bugs, best recall 44.2 percent, single-harness disclosure, fetched 2026-10-07
+- https://kodus.io/data/ - the State of AI Code Review report: 180,739 suggestions, 71.8 percent of flagged PRs merged with a flag open, CC BY 4.0, fetched 2026-10-07
 - https://docs.kodus.io/ - documentation hub and self-host guide
 - https://docs.kodus.io/how_to_deploy/en/deploy_kodus/telemetry - self-hosted anonymous heartbeat and opt-out
 - https://hn.algolia.com/api/v1/items/43572816 - Show HN launch, 3 points, April 3, 2025

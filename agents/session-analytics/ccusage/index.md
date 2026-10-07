@@ -24,7 +24,7 @@ The repository is a monorepo created by ryoppippi (the project moved from his pe
 ## Status
 
 **The most-installed tool in this category by an order of magnitude, and until today the only one this section had never profiled.**
-About 18.9k stars and 862 forks as of 2026-10-06, created 2025-05-29, pushed 2026-10-06 (GitHub API).
+About 18.9k stars and 864 forks as of 2026-10-07, created 2025-05-29, pushed 2026-10-07 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&theme=dark&legend=top-left" />

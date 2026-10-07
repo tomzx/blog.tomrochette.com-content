@@ -1,7 +1,7 @@
 ---
 title: "Surface Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, surfaces, ai-editors]
 readability: 3
@@ -24,8 +24,8 @@ Each column links to the full research note; every cell traces to a source cited
 | Kind | platform, IDE, CLI, SDK | extensions and CLI | multiplayer agent environment over DeltaDB | VS Code fork | IDE suite | closed IDE | local session app | VS Code extension | VS Code fork | Windows IDE | VS Code fork | editor plus extensions | desktop canvas app where agents draw and humans review | VS Code fork | Rust editor |
 | Open source | ✗ | ✓ Apache-2.0 | ✗ | ✗ | ~ Community IDEs | ✗ | ✓ MIT | ✓ Apache-2.0 | ✗ | ✗ | ✓ Apache-2.0 | ~ MIT editor | ✓ MIT app and SDK | ✗ | ~ mixed licenses |
 | Free tier | ✓ unlimited completions | ✓ Hobby | ✓ beta free | ✓ Individuals $0 | ✓ 5 credits | ✓ 50 credits | ✓ | ✓ BYOK extension | ✓ | ✓ Community | ✓ | ✓ Copilot Free | ✓ free and local-only in beta | ✓ Devin account | ✓ |
-| BYOK | ✗ | ✓ | ✓ | ✓ | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ preview (Foundry, OpenAI, Anthropic, Ollama) | ✓ | ✓ | ✓ brings your own harness (Claude Code, Codex) | ✗ Devin key only | ✓ |
-| Local models | ✗ | ✗ not documented | ~ via external agents | ? | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ Ollama in BYOK preview | ? | ✓ | ✓ local-only today | ? | ✓ |
+| BYOK | ✗ | ✓ | ✓ | ~ SDK local servers only, no BYOK in plans | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ preview (Foundry, OpenAI, Anthropic, Ollama) | ✓ | ✓ | ✓ brings your own harness (Claude Code, Codex) | ✗ Devin key only | ✓ |
+| Local models | ✗ | ✗ not documented | ~ via external agents | ~ via the SDK (LiteRT or Ollama) | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ Ollama in BYOK preview | ? | ✓ | ✓ local-only today | ? | ✓ |
 | MCP | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ in agent mode | ? | ✓ | ? not verified | ✓ | ✓ |
 | AGENTS.md | ? | ✓ plus own rules | ? | ✓ | ✗ guidelines.md | ✓ | ✓ | ✓ if enabled | ✓ | ✗ copilot-instructions.md | ? | ✓ | ? not verified | ✓ | ✓ |
 | Cloud agents | ~ remote control | ✓ cloud agents | ~ web and cloud runners | ✓ | ~ | ✓ web and Crew | ✗ local machine only | ~ Cloud sunset 2026-05 | ✓ TraeWork | ✓ Copilot cloud since 18.1 | ✗ | ✓ Copilot agent | ✗ review surface, not a host | ✓ Devin | ✗ |
@@ -74,6 +74,7 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - 2026-10-04 - Extended from thirteen to fourteen columns with Whiteboard, the MIT agent-drawing review canvas, inserted in sorted position with every cell traced to the new note.
 - 2026-10-05 - Corrected six Cursor cells against the vendor's live docs and pricing page: AGENTS.md is supported alongside Cursor's own rules, cloud agents, automations, the iOS app, and parallel cloud agents are shipped, and local models are not documented (the old Ollama claim traced to nothing current); also fixed the death-records count, which still said thirteen after Delta and Whiteboard brought the matrix to fourteen columns, extended the neither-editor-nor-host reading to Whiteboard, and corrected the sovereignty pair's column list, which missed Roo Code's as-they-were cells and Whiteboard's harness-plus-local pair.
 - 2026-10-06 - Extended from fourteen to fifteen columns with Visual Studio 2026, Microsoft's Windows IDE whose Copilot stack (agent mode with MCP, cloud agents since 18.1, the 18.10 BYOK preview) ships inside the incumbent, inserted in sorted position between Trae and Void; updated the intro, reading, and choosing sections.
+- 2026-10-07 - Corrected the Google Antigravity cells against the vendor's docs: the SDK runs agents on local models through LiteRT or OpenAI-compatible local servers, where the cell read unverified, and BYOK moves to a partial because the plans page states BYOK and bring-your-own-endpoint are unsupported; no other cells moved.
 
 ## See also
 

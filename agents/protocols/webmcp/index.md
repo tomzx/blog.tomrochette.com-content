@@ -25,7 +25,7 @@ Chrome ships it behind a public origin trial (Chrome 149 through 156) plus a loc
 ## Status
 
 **Active and past the flag stage, with one browser shipping and one agent consuming.**
-The repository shows 4,469 stars and 120 open issues with a push on 2026-10-02, all as of 2026-10-06 (GitHub API).
+The repository shows 4,478 stars and 124 open issues with a push on 2026-10-07, all as of 2026-10-07 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&theme=dark&legend=top-left" />
@@ -83,7 +83,7 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 ## References
 
 - https://webmachinelearning.github.io/webmcp/ - the Draft Community Group Report (2026-10-02): `document.modelContext` API, declarative form variant, permissions policy, and the full security considerations section
-- https://github.com/webmachinelearning/webmcp - repository: 4,469 stars, 120 open issues, pushed 2026-10-02 (GitHub API, as of 2026-10-06)
+- https://github.com/webmachinelearning/webmcp - repository: 4,478 stars, 124 open issues, pushed 2026-10-07 (GitHub API, as of 2026-10-07)
 - https://developer.chrome.com/docs/ai/webmcp - Chrome implementation: origin trial from Chrome 149, imperative and declarative APIs, `tools` permissions policy defaults, Angular experimental support (page updated 2026-10-01)
 - https://nohacks.co/blog/what-is-webmcp - practitioner record: the 2026-02-10 announcement, the navigator-to-document rename, the August Shopify and Cloudflare default-on wave, and the browser-support table
 - https://zylos.ai/research/2026-04-30-webmcp-browser-native-ai-agent-interaction/ - independent analysis: Puppeteer v24.41.0 native support and the experimental state of the spec's security sections as of April 2026

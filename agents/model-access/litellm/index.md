@@ -24,7 +24,7 @@ The core is MIT licensed; the `enterprise/` directory ships under a separate com
 
 ## Status
 
-Very active: 60,198 stars as of 2026-10-06, repo pushed the same day, publicly released July 2023.
+Very active: 60,260 stars as of 2026-10-07, repo pushed the same day, publicly released July 2023.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=BerriAI/litellm&type=date&theme=dark&legend=top-left" />
@@ -88,7 +88,7 @@ My disagreeable claim: below three providers, self-hosting LiteLLM is negative v
 
 ## References
 
-- https://api.github.com/repos/BerriAI/litellm - 60,198 stars, Python, license metadata, pushed 2026-10-06 (fetched via the GitHub API, 2026-10-06).
+- https://api.github.com/repos/BerriAI/litellm - 60,260 stars, Python, license metadata, pushed 2026-10-07 (fetched via the GitHub API, 2026-10-07).
 - https://docs.litellm.ai/docs/ - SDK and proxy feature claims, 100+ providers, MCP/A2A gateway, Rust beta (200).
 - https://docs.litellm.ai/docs/enterprise - enterprise feature gates, SSO free to 5 users, four-line support window effective 2026-06-29 (200).
 - https://raw.githubusercontent.com/BerriAI/litellm/main/LICENSE - MIT text with the enterprise/ directory carve-out (200).

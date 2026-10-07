@@ -27,6 +27,7 @@ Profiles of the people and websites steering this domain as it evolves, and the 
 - [IndyDevDan](indydevdan/index.md) - the weekly agentic-engineering channel that names the frameworks and ships the harness repos, the worldview slot of the video band.
 - [Jesse Vincent](jesse-vincent/index.md) - the Superpowers builder who documents a sustained personal coding-agent practice and turns it into an installable, eval-measured methodology.
 - [Kent Beck](kent-beck/index.md) - the XP creator reframing TDD and software design discipline for coding agents, from augmented coding to the economics of programming deflation.
+- [Lars Faye](lars-faye/index.md) - the skill-formation skeptic whose "Agentic Coding Is a Trap" became the year's most-discussed case for keeping your hands on the keyboard, now teaching debugging discipline.
 - [Latent Space](latent-space/index.md) - the AI engineering newsletter-podcast-conference of record, by swyx and Alessio.
 - [Lilian Weng](lilian-weng/index.md) - the reference writer whose agent survey is the canonical map of planning, memory, and tool use.
 - [Mario Zechner](mario-zechner/index.md) - the creator of pi and libgdx, the minimalist contrarian of harness design who argues in long benchmarked posts that most agent features are baggage.
@@ -77,3 +78,4 @@ Its members are compared on shared rows in the [People and Publications Feature 
 - 2026-09-24 - Added Owain Lewis.
 - 2026-09-24 - Added Ray Amjad.
 - 2026-10-04 - Added Birgitta Böckeler.
+- 2026-10-07 - Added Lars Faye.

@@ -23,7 +23,7 @@ The commercial side is LangSmith: tracing, evaluation, deployment, sandboxes, an
 ## Status
 
 Active and dominant by footprint.
-The `langchain-ai/langchain` repository shows 147.5k stars and 24.7k forks as of 2026-10-06, with 16,922 commits as of 2026-10-06.
+The `langchain-ai/langchain` repository shows 147.5k stars and 24.7k forks as of 2026-10-07, with 16,952 commits as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/langchain&type=date&theme=dark&legend=top-left" />
@@ -50,7 +50,7 @@ The `langchain-ai/langchain` repository shows 147.5k stars and 24.7k forks as of
 ## Pricing
 
 OSS (LangChain, LangGraph, Deep Agents, dcode): free, MIT.
-LangSmith as of 2026-10-06: Developer $0 with 5k base traces/month, Plus $39/seat/month with 10k base traces, Enterprise custom, with usage metered in LangChain Standard Units at $1.00 per LSU across Deployment, Sandboxes, Engine, and Fleet.
+LangSmith as of 2026-10-07: Developer $0 with 5k base traces/month, Plus $39/seat/month with 10k base traces, Enterprise custom, with usage metered in LangChain Standard Units at $1.00 per LSU across Deployment, Sandboxes, Engine, and Fleet.
 **The framework is free forever; the operations layer around it is where the bill lives.**
 
 ## Price history
@@ -90,9 +90,9 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 
 ## References
 
-- https://github.com/langchain-ai/langchain - repository scale (147.5k stars), MIT license, platform positioning, as of 2026-10-06
+- https://github.com/langchain-ai/langchain - repository scale (147.5k stars), MIT license, platform positioning, as of 2026-10-07
 - https://docs.langchain.com/oss/deepagents/code/overview.md - dcode, the terminal coding agent built on Deep Agents
 - https://docs.langchain.com/oss/python/langchain/retrieval.md - RAG architectures: 2-step, agentic, hybrid, and the agentic-RAG-first framing
-- https://www.langchain.com/pricing - LangSmith tiers and LSU metering, as of 2026-10-06 (re-verified unchanged)
+- https://www.langchain.com/pricing - LangSmith tiers and LSU metering, as of 2026-10-07 (re-verified unchanged)
 - https://news.ycombinator.com/item?id=40739982 - the Octomind critique thread with the CEO's response acknowledging over-abstraction
 - https://python.langchain.com/api_reference/text_splitters/text_splitters/code_splitter.html - current text splitters catalog, showing separator-based code splitting only

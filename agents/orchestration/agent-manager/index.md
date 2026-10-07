@@ -23,7 +23,7 @@ It is distributed as brew, an install script, an AUR package, mise, go install, 
 
 ## Status
 
-Active and young: 570 stars and 58 forks as of 2026-10-05, created 2026-07-15, with 29 contributors.
+Active and young: 573 stars and 58 forks as of 2026-10-07, created 2026-07-15, with 29 contributors.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=YoanWai/agent-manager&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Active and young: 570 stars and 58 forks as of 2026-10-05, created 2026-07-15, w
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=YoanWai/agent-manager&type=date&legend=top-left" />
 </picture>
 
-Releases run roughly weekly: v0.39.0 shipped 2026-09-26 after five releases in September alone.
+Releases run roughly weekly: v0.40.0 shipped 2026-10-06, ten days after v0.39.0 capped a September with five releases.
 The Show HN thread from 2026-07-30 reached 98 points and about 80 comments, dominated by the genre question: one commenter argued submissions like it should be filtered automatically "since there are dozen of these and they are barely distinguishable except for couple of opinioned choices".
 
 ## Strengths

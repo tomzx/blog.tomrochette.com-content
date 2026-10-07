@@ -20,12 +20,12 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Command Code](command-code/index.md) - the ex-Langbase closed harness whose taste-1 model learns your conventions, credit plans from $1 a month built on open models.
 - [Copilot CLI](copilot-cli/index.md) - GitHub's proprietary terminal agent included in every Copilot plan, first-party GitHub.com reach, preview sandboxes, multi-model credits.
 - [Crush](crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
-- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 242k stars in its first two months, MIT, prerelease-only at v0.2.1-alpha.1.
+- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 245k stars in its first two months, MIT, prerelease-only at v0.2.1-alpha.1.
 - [Exo](exo/index.md) - the MIT self-modification bet, a harness the agent can rewrite at runtime, cheapest measured harness at $1.05 per task.
 - [fx](fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
 - [goose](goose/index.md) - Block's Rust agent turned Linux Foundation project, the field's first foundation-governed harness.
-- [Grok Build](grok-build/index.md) - SpaceXAI's Apache-2.0 Rust TUI agent, open-sourced to a 590-point thread, daily releases synced from the monorepo, the wire-level privacy analysis attached.
+- [Grok Build](grok-build/index.md) - SpaceXAI's Apache-2.0 Rust TUI agent, open-sourced to a 590-point thread, monorepo-synced releases, the wire-level privacy analysis attached.
 - [jcode](jcode/index.md) - Solo Systems' Rust harness for parallel agents, RAM floor, native memory and swarm, self-dev included.
 - [Juggler](juggler/index.md) - Julian Storer's AGPL Go GUI agent, conversations as branchable trees with every tool call inspectable.
 - [Junie](junie/index.md) - JetBrains' plan-first agent with BYOK, IDE-grade grounding, and a free on-device Local mode for Mac.

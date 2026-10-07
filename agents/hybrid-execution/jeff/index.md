@@ -24,8 +24,8 @@ Since 2026-10-05 the project has been organized around v1.3: an adapter-first ba
 
 ## Status
 
-Eight days old and shipping: the launch Show HN thread (2026-09-28) reached 575 points as of 2026-10-06.
-The repository was created 2026-09-28 and pushed 2026-10-05, with about 1,400 stars and 68 forks; the v1.2 checkpoints on Hugging Face now live under a jeff-legacy org that the README's original links redirect to, with about 2,100 downloads registered for the 0.8B as of 2026-10-06.
+Nine days old and shipping: the launch Show HN thread (2026-09-28) reached 575 points as of 2026-10-07.
+The repository was created 2026-09-28 and pushed 2026-10-06, with about 1,420 stars and 68 forks; the v1.2 checkpoints on Hugging Face now live under a jeff-legacy org that the README's original links redirect to, with about 2,260 downloads registered for the 0.8B as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=firelex/jeff&type=date&theme=dark&legend=top-left" />
@@ -88,8 +88,8 @@ The disagreeable claim I will defend: matching Jev's published overall while con
 
 ## References
 
-- https://github.com/firelex/jeff - repository: MIT, created 2026-09-28, about 1,400 stars, 68 forks, pushed 2026-10-05 (GitHub API, as of 2026-10-06)
+- https://github.com/firelex/jeff - repository: MIT, created 2026-09-28, about 1,420 stars, 68 forks, pushed 2026-10-06 (GitHub API, as of 2026-10-07)
 - https://raw.githubusercontent.com/firelex/jeff/main/README.md - the benchmark table, games, speed table, caveats, and the AutoJev lineage
-- https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B - the 0.8B checkpoint: Apache-2.0, created 2026-09-28, now redirecting to the jeff-legacy org, about 2,100 downloads as of 2026-10-06
+- https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B - the 0.8B checkpoint: Apache-2.0, created 2026-09-28, now redirecting to the jeff-legacy org, about 2,260 downloads as of 2026-10-07
 - https://news.ycombinator.com/item?id=49883844 - the launch thread (575 points as of 2026-10-06, 2026-09-28), including the negative reports from classification use outside the benchmark suites
 - https://github.com/denis-pplx/autojev - the parent recipe: MIT, 120 stars, fine-tunes Qwen3.8-27B for Jev-style decisions

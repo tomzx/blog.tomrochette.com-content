@@ -25,7 +25,7 @@ Install is `npx skills add Nanako0129/sepia -g` or a native plugin marketplace, 
 
 ## Status
 
-Active and early: 2,992 stars and 193 forks as of 2026-10-06, repo pushed 2026-09-23, eleven open issues, created 2026-08-28.
+Active and early: 3,007 stars and 193 forks as of 2026-10-07, repo pushed 2026-10-06 with release v0.12.3, seven open issues, created 2026-08-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nanako0129/sepia&type=date&theme=dark&legend=top-left" />
@@ -51,7 +51,7 @@ Maintenance is funded by a Patreon link, not a company.
 - The voice-skills interface rests on one blind review experiment on one specimen, which the README itself flags as a worked example, not measured evidence.
 - Applying every rule produces its own fingerprint, so calibration reduces to a 3-5 moves guideline with no enforcement.
 - Per-model fingerprint tables age fast, tied to named model versions that a new model generation stales.
-- Star velocity on a month-old repo is a distribution signal, not a quality verdict, and the zero-HN-footprint cuts both ways.
+- Star velocity on a weeks-old repo is a distribution signal, not a quality verdict, and the zero-HN-footprint cuts both ways.
 
 ## Pricing
 
@@ -74,6 +74,7 @@ My disagreeable claim: most humanizer installs, sepia included, are plausibly wa
 
 - 2026-09-27 - Created when the owner's GitHub-stars candidates were processed.
 - 2026-10-07 - Added the Nanako0129/sepia star history chart to the Status section.
+- 2026-10-07 - The repo resumed activity after the 09-23 quiet stretch: v0.12.3 shipped 2026-10-06 as the latest tag, and the Status figures moved to 3,007 stars and seven open issues.
 
 ## See also
 
@@ -85,7 +86,7 @@ My disagreeable claim: most humanizer installs, sepia included, are plausibly wa
 
 ## References
 
-- https://api.github.com/repos/Nanako0129/sepia - 2,992 stars, 193 forks, MIT, pushed 2026-09-23 (200, fetched 2026-10-06)
+- https://api.github.com/repos/Nanako0129/sepia - 3,007 stars, 193 forks, MIT, pushed 2026-10-06, latest tag v0.12.3 (200, fetched 2026-10-07)
 - https://raw.githubusercontent.com/Nanako0129/sepia/main/README.md - operations, three-pass protocol, research ledger, per-platform verification limits (200)
 - https://hysenlabs.com/en/projects/nanako0129-sepia - third-party editorial review (September 10, 2026) with critical sections on calibration and wrong-tool cases (200)
 - https://arxiv.org/abs/2604.03136 - StoryScope: 61,608 stories, 93.2% macro-F1 from narrative features alone, v6 revised 2026-08-10 (200)

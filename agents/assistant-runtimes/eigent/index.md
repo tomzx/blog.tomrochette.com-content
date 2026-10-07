@@ -24,7 +24,7 @@ By Eigent AI (EIGENT UK LTD), founded by Guohao Li, who also founded CAMEL-AI; f
 
 ## Status
 
-Active and maturing: 15,459 stars, 1,842 forks, 247 open issues as of 2026-10-06, created 2025-07-29, pushed 2026-10-06, v1.0.5 still the latest release (2026-09-25).
+Active and maturing: 15,465 stars, 1,842 forks, 247 open issues as of 2026-10-07, created 2025-07-29, pushed 2026-10-07, v1.0.5 still the latest release (2026-09-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eigent-ai/eigent&type=date&theme=dark&legend=top-left" />
@@ -64,7 +64,7 @@ Ten percent of subscriptions is pledged to CAMEL-AI.org.
 
 - [OpenWork](../openwork/index.md): the larger, OpenCode-based Cowork alternative with an MCP portability story; choose Eigent for true multi-agent workforces and the permissive license, OpenWork for ecosystem and skills portability.
 - [OpenClaw](../openclaw/index.md): the messaging-first always-on assistant; choose OpenClaw for phone-driven personal assistance, Eigent for desktop-supervised work on files and tasks.
-- Claude Cowork: polished, sandboxed, subscription-tied, and as of 2026-09-16 merging into Claude chat itself, so the baseline is now Claude the app; choose it for turnkey managed assistance, Eigent for model freedom, local deployment, and parallel agent teams.
+- Claude Cowork: polished, sandboxed, subscription-tied, and as of 2026-09-16 merging into Claude chat itself, so the baseline is now Claude the app (Anthropic's help center now bills the product as "Claude Cowork is now just Claude", rolling out gradually); choose it for turnkey managed assistance, Eigent for model freedom, local deployment, and parallel agent teams.
 
 ## Bottom line
 
@@ -79,6 +79,7 @@ Not for buyers who need vendor accountability history, and not for the quick-sta
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-27 - Recorded v1.0.5 (released 2026-09-25), the first release since v1.0.4, with refreshed adoption numbers.
 - 2026-10-07 - Added the eigent-ai/eigent star history chart to the Status section.
+- 2026-10-07 - Recorded Anthropic's rename of Claude Cowork to just Claude in the comparison baseline, with refreshed adoption numbers and the pricing tiers re-checked unchanged.
 
 ## See also
 
@@ -89,9 +90,10 @@ Not for buyers who need vendor accountability history, and not for the quick-sta
 
 ## References
 
-- https://github.com/eigent-ai/eigent - repository, stack, license, adoption numbers (re-checked 2026-10-06 via the repo API)
+- https://github.com/eigent-ai/eigent - repository, stack, license, adoption numbers (re-checked 2026-10-07 via the repo API)
 - https://raw.githubusercontent.com/eigent-ai/eigent/HEAD/README.md - features and deployment paths
 - https://www.eigent.ai/pricing - the tiers and credits for the pricing rows
 - https://www.eigent.ai/about - the company and CAMEL-AI relationship
 - https://news.ycombinator.com/item?id=44736010 - the corrected GAIA claim and astroturfing flag, the critical source
 - https://claude.com/product/cowork - the Cowork comparison baseline
+- https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork - Anthropic's help center stating Claude Cowork is now just Claude

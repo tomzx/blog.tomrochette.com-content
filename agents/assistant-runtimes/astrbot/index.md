@@ -24,7 +24,7 @@ The agent layer has sub-agents, tool calls, workflow orchestration, context comp
 
 ## Status
 
-Active and long-lived: 41,466 stars, 3,023 forks, and 1,612 open issues and pull requests as of 2026-10-06, created 2022-12-08, pushed 2026-10-06, AGPL-3.0.
+Active and long-lived: 41,500 stars, 3,024 forks, and 1,622 open issues and pull requests as of 2026-10-07, created 2022-12-08, pushed 2026-10-06, AGPL-3.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&theme=dark&legend=top-left" />
@@ -80,9 +80,9 @@ Not for anyone who needs permissive licensing for a hosted offering, or who cann
 
 ## References
 
-- https://github.com/AstrBotDevs/AstrBot - repository, description, license, adoption numbers as of 2026-10-06 (via the API)
+- https://github.com/AstrBotDevs/AstrBot - repository, description, license, adoption numbers as of 2026-10-07 (via the API)
 - https://raw.githubusercontent.com/AstrBotDevs/AstrBot/HEAD/README.md - features, platform and provider tables, deployment paths, community surfaces
-- https://api.github.com/repos/AstrBotDevs/AstrBot - stars, forks, issues, license, and dates as of 2026-10-06
+- https://api.github.com/repos/AstrBotDevs/AstrBot - stars, forks, issues, license, and dates as of 2026-10-07
 - https://api.github.com/repos/AstrBotDevs/AstrBot/releases?per_page=3 - v4.28.1 (2026-09-14), v4.28.2 (2026-09-27), v4.29.0-beta.1 (2026-10-01)
 - https://astrbot.app/ - the product landing, a thin page whose body renders client-side (the "Agentic AI 助手" tagline and the docs, blog, roadmap, and plugin portals serve in the HTML)
 - https://docs.astrbot.app/en/ - the English documentation entry

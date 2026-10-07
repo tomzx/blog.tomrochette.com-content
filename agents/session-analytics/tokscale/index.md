@@ -24,7 +24,7 @@ Made by junhoyeo, an independent developer, MIT-licensed.
 
 ## Status
 
-Young and fast: 5,630 stars, 465 forks, 77 open issues, created 2025-12-01, pushed 2026-10-05, as of 2026-10-06.
+Young and fast: 5,636 stars, 464 forks, 78 open issues, created 2025-12-01, pushed 2026-10-05, as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&theme=dark&legend=top-left" />

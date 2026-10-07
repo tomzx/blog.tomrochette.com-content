@@ -25,7 +25,7 @@ MCP servers were supported throughout, with [dedicated docs](https://roocodeinc.
 
 Dead, sunset on a published schedule.
 The [announcement](http://web.archive.org/web/20260508092828/https://roocode.com/blog/sunsetting-roo-code-extension-cloud-and-router) (2026-04-20, the live URL now serves the pivot product) committed to supporting everything through May 15, shutting down Roo Code Cloud and Router with refunds, and archiving the extension repo.
-The evidence matches: the last release (v3.54.0) and the last push both landed 2026-05-15, the repository now carries GitHub's archived flag, and the repo shows 24,287 stars and 1,033 open issues as of 2026-10-06.
+The evidence matches: the last release (v3.54.0) and the last push both landed 2026-05-15, the repository now carries GitHub's archived flag, and the repo shows 24,283 stars and 1,033 open issues as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=RooCodeInc/Roo-Code&type=date&theme=dark&legend=top-left" />
@@ -85,7 +85,7 @@ The disagreeable claim I will defend: Roo's death was not failure, its team corr
 
 - http://web.archive.org/web/20260508092828/https://roocode.com/blog/sunsetting-roo-code-extension-cloud-and-router - the sunset announcement, archived (live URL repurposed)
 - https://github.com/RooCodeInc/Roo-Code - repository state, license
-- https://api.github.com/repos/RooCodeInc/Roo-Code - last push 2026-05-15, archived flag, stars, forks, issues as of 2026-10-06
+- https://api.github.com/repos/RooCodeInc/Roo-Code - last push 2026-05-15, archived flag, stars, forks, issues as of 2026-10-07
 - https://github.com/RooCodeInc/Roo-Code/releases - v3.54.0, 2026-05-15, the final release
 - https://news.ycombinator.com/item?id=47851734 - the shutdown thread with the fork-economics critique
 - https://thenewstack.io/roo-code-cloud-ides-ai-coding/ - press coverage of the pivot

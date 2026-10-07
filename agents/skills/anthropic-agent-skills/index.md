@@ -25,7 +25,7 @@ The `anthropics/skills` repository ships the spec, a template, and example skill
 
 **Active and expanding.**
 Launched 2025-10-16; on 2025-12-18 Anthropic published the format as the open Agent Skills standard (agentskills.io), added organization-wide skill management, and opened a partner directory.
-The example repository shows 179.8k stars and 21.3k forks but only 58 commits as of 2026-10-06, which tells me it is a distribution artifact, not where the product is built.
+The example repository shows 180.0k stars and 21.3k forks but only 58 commits as of 2026-10-07, which tells me it is a distribution artifact, not where the product is built.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/skills&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,6 @@ The claim I will defend: for most teams skills matter more than plugins or MCP s
 - https://claude.com/blog/skills - launch announcement (2025-10-16) and the 2025-12-18 open-standard update
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - progressive disclosure architecture, code execution, security guidance
 - https://code.claude.com/docs/en/skills - Claude Code surfaces: locations, bundled skills, spec versus extension frontmatter
-- https://github.com/anthropics/skills - example repo scale and license split, 179,827 stars as of 2026-10-06
+- https://github.com/anthropics/skills - example repo scale and license split, 179,970 stars as of 2026-10-07
 - https://docs.claude.com/en/api/skills-guide - Skills API: container parameter, 20 skills per request, code execution requirement
 - https://agentskills.io/ - the extracted open standard and its client showcase

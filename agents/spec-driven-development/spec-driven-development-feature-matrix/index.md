@@ -1,7 +1,7 @@
 ---
 title: "Spec Driven Development Feature Matrix"
 created: 2026-08-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, spec-driven-development, process, llm=glm-5.3-flash]
 readability: 3
@@ -10,40 +10,41 @@ audience_notes: >
   Assumes you know what a review gate is, already run a coding agent, and can tell a repo-native toolkit from a hosted platform.
 ---
 
-This matrix compares the eight spec-driven development tools profiled in this section, feature by feature.
+This matrix compares the nine spec-driven development tools profiled in this section, feature by feature.
 
-**The category splits on two axes: who owns the specs (your repo or a platform) and whether the ceremony sizes itself to the change, and the waterfall critique is the standing judge of the second axis, while the GSD lineage adds a third question, whether the steward survives their own controversy, and the three October additions extend the field to a vendor-backed lifecycle engine, an installable skill set, and a company-born governance layer.**
+**The category splits on two axes: who owns the specs (your repo or a platform) and whether the ceremony sizes itself to the change, and the waterfall critique is the standing judge of the second axis, while the GSD lineage adds a third question, whether the steward survives their own controversy, and the three October additions extend the field to a vendor-backed lifecycle engine, an installable skill set, and a company-born governance layer, with the prompt-pack column that joined after them proving the floor is four markdown files and nothing installed.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
 
-| Feature | [AI-DLC](../ai-dlc/index.md) | [BMad Method](../bmad-method/index.md) | [cc-sdd](../cc-sdd/index.md) | [GitHub Spec Kit](../spec-kit/index.md) | [GSD](../gsd/index.md) | [OpenSpec](../openspec/index.md) | [Spec Kitty](../spec-kitty/index.md) | [Tessl](../tessl/index.md) |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kind | vendor methodology plus native CLI engine, installer per harness | method plus agent workflows, npm install | 17-skill SDD workflow installed into each agent's native skills, npm installer | Python CLI plus slash-command templates | npm command-and-prompt framework, multi-runtime, ecosystem growing around the loop | spec toolkit CLI, npm install | Python CLI, repo-native mission state with worktree lanes and a governance trail | hosted platform, thin CLI |
-| Steward | AWS Labs (methodology by Raja SP, AWS principal solutions architect) | BMad Code, LLC | solo (Gota, gotalab) | GitHub | original archived at TÂCHES (gsd-build), active as Open GSD community | Fission AI | Spec Kitty, Inc. (creator Robert Douglass) | Tessl (Podjarny), $125M raised |
-| License | ✓ MIT-0 | ✓ MIT | ✓ MIT | ✓ MIT | ✓ MIT | ✓ MIT | ✓ MIT | ✗ closed platform |
-| Artifact model | plans, units, and decisions in repo state, 113-event audit trail, learned team rules | briefs, specs, architecture carried forward | brief, roadmap, requirements/design/tasks per spec with `_Boundary:_` and `_Depends:_` annotations, per-task implementation notes | constitution, spec, plan, tasks files | milestone state persisted as STATE.md, CONTEXT.md, PLAN.md; heavy work in fresh-context subagents | delta proposals archived into a living ledger | specs, plans, work packages, review state, and merge decisions under `kitty-specs/`, retrospective per mission | specs live on the platform |
-| Workflow entry | `/aidlc <request>`, routed into one of 11 workflow profiles | `bmad-build` with right-sized depth | `/kiro-discovery` routes to spec, multi-spec batch, or direct implementation | `/speckit-constitution` then specify | `/gsd-new-project` or `/gsd-onboard`, then discuss-plan-execute-verify-ship per milestone | `/opsx:propose` then apply and archive | `spec-kitty dispatch`, then the spec, plan, tasks, next, review, accept, merge pipeline | web workflow |
-| Ceremony sizing | ~ Classic, Express, and focused profiles; all 33 stages remain available | ✓ right-sizes to the change | ✓ discovery can route to no-spec direct implementation | ✗ fixed ceremony | ~ same five-step loop each milestone, lighter quick-task mode | ~ fixed but light | ✗ fixed pipeline, and its own docs call it overkill for one-off edits | ? not verified |
-| Brownfield support | ~ bug-fix, infrastructure, and security profiles target existing systems; no explicit brownfield onboarding path | ✓ establish-context path | ✓ `/kiro-steering` captures existing project context; Kiro specs import | ~ not the primary case | ✓ `/gsd-onboard` for existing repos | ✓ explicit design goal | ~ repo-native so existing code is the default case, no dedicated onboarding path documented | ? not verified |
-| Convergence checking | ~ human approval gates plus source-bound review evidence at every stage | ✓ verify and learn loop | ✓ per-task independent reviewer plus `/kiro-validate-impl` GO/NO-GO verdict | ✓ converge step | ✓ verify phase walks the build before done | ~ archive keeps ledger current | ✓ review, accept, and merge gates with attached evidence | ? not verified |
-| Unattended execution | ✗ approval gates require human decisions by design | ✓ BMad Loop module | ~ autonomous `/kiro-impl` per task, humans hold the phase gates | ✗ | ~ parallel executor waves, human verify step, gsd-loop works a GitHub queue | ✗ | ~ agents implement in parallel worktrees, humans hold review, accept, and merge | ? not verified |
-| Adoption | about 5k stars (as of 2026-10-06) | about 53.8k stars (as of 2026-10-06) | about 3.7k stars, 24k npm downloads a month (as of 2026-10-06) | about 140k stars (as of 2026-10-06) | original archived at 64.4k stars; successor 10.2k stars, 43k npm downloads a month (as of 2026-10-06) | about 71k stars, 2.5M npm downloads a month (as of 2026-10-06) | about 1.7k stars, 3.3k PyPI downloads a month (as of 2026-10-06) | 24-point raise thread, thin OSS surface |
-| Pricing | free | free | free | free | free | free | free CLI; demo-booked platform, no published tiers | free tier plus Team at $100 per month, Enterprise custom |
+| Feature | [AI-DLC](../ai-dlc/index.md) | [BMad Method](../bmad-method/index.md) | [cc-sdd](../cc-sdd/index.md) | [GitHub Spec Kit](../spec-kit/index.md) | [GSD](../gsd/index.md) | [OpenSpec](../openspec/index.md) | [Spec Kitty](../spec-kitty/index.md) | [Tessl](../tessl/index.md) | [Vibe Coding Prompt Template](../vibe-coding-prompt-template/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | vendor methodology plus native CLI engine, installer per harness | method plus agent workflows, npm install | 17-skill SDD workflow installed into each agent's native skills, npm installer | Python CLI plus slash-command templates | npm command-and-prompt framework, multi-runtime, ecosystem growing around the loop | spec toolkit CLI, npm install | Python CLI, repo-native mission state with worktree lanes and a governance trail | hosted platform, thin CLI | copy-paste prompt pack, optional npm CLI |
+| Steward | AWS Labs (methodology by Raja SP, AWS principal solutions architect) | BMad Code, LLC | solo (Gota, gotalab) | GitHub | original archived at TÂCHES (gsd-build), active as Open GSD community | Fission AI | Spec Kitty, Inc. (creator Robert Douglass) | Tessl (Podjarny), $125M raised | solo (KhazP) |
+| License | ✓ MIT-0 | ✓ MIT | ✓ MIT | ✓ MIT | ✓ MIT | ✓ MIT | ✓ MIT | ✗ closed platform | ✓ MIT |
+| Artifact model | plans, units, and decisions in repo state, 113-event audit trail, learned team rules | briefs, specs, architecture carried forward | brief, roadmap, requirements/design/tasks per spec with `_Boundary:_` and `_Depends:_` annotations, per-task implementation notes | constitution, spec, plan, tasks files | milestone state persisted as STATE.md, CONTEXT.md, PLAN.md; heavy work in fresh-context subagents | delta proposals archived into a living ledger | specs, plans, work packages, review state, and merge decisions under `kitty-specs/`, retrospective per mission | specs live on the platform | research findings, PRD, and tech design saved as docs files, then AGENTS.md, MEMORY.md, a review checklist, and agent_docs/ briefs generated by Part 4 |
+| Workflow entry | `/aidlc <request>`, routed into one of 11 workflow profiles | `bmad-build` with right-sized depth | `/kiro-discovery` routes to spec, multi-spec batch, or direct implementation | `/speckit-constitution` then specify | `/gsd-new-project` or `/gsd-onboard`, then discuss-plan-execute-verify-ship per milestone | `/opsx:propose` then apply and archive | `spec-kitty dispatch`, then the spec, plan, tasks, next, review, accept, merge pipeline | web workflow | four prompts pasted into any chat tool, then a build prompt in the coding assistant |
+| Ceremony sizing | ~ Classic, Express, and focused profiles; all 33 stages remain available | ✓ right-sizes to the change | ✓ discovery can route to no-spec direct implementation | ✗ fixed ceremony | ~ same five-step loop each milestone, lighter quick-task mode | ~ fixed but light | ✗ fixed pipeline, and its own docs call it overkill for one-off edits | ? not verified | ~ fixed five-step sequence, research optional at the start |
+| Brownfield support | ~ bug-fix, infrastructure, and security profiles target existing systems; no explicit brownfield onboarding path | ✓ establish-context path | ✓ `/kiro-steering` captures existing project context; Kiro specs import | ~ not the primary case | ✓ `/gsd-onboard` for existing repos | ✓ explicit design goal | ~ repo-native so existing code is the default case, no dedicated onboarding path documented | ? not verified | ~ starts from an idea in a fresh folder, no existing-repo path |
+| Convergence checking | ~ human approval gates plus source-bound review evidence at every stage | ✓ verify and learn loop | ✓ per-task independent reviewer plus `/kiro-validate-impl` GO/NO-GO verdict | ✓ converge step | ✓ verify phase walks the build before done | ~ archive keeps ledger current | ✓ review, accept, and merge gates with attached evidence | ? not verified | ~ the build prompt demands code checked against the PRD and the saved checklist drives implementation checks, no verifier beyond the model |
+| Unattended execution | ✗ approval gates require human decisions by design | ✓ BMad Loop module | ~ autonomous `/kiro-impl` per task, humans hold the phase gates | ✗ | ~ parallel executor waves, human verify step, gsd-loop works a GitHub queue | ✗ | ~ agents implement in parallel worktrees, humans hold review, accept, and merge | ? not verified | ~ the optional npm CLI pitches agent-driven runs, the prompt flow itself is human-run |
+| Adoption | about 5k stars (as of 2026-10-06) | about 53.8k stars (as of 2026-10-06) | about 3.7k stars, 24k npm downloads a month (as of 2026-10-06) | about 140k stars (as of 2026-10-06) | original archived at 64.4k stars; successor 10.2k stars, 43k npm downloads a month (as of 2026-10-06) | about 71k stars, 2.5M npm downloads a month (as of 2026-10-06) | about 1.7k stars, 3.3k PyPI downloads a month (as of 2026-10-06) | 24-point raise thread, thin OSS surface | about 3.1k stars (as of 2026-10-07) |
+| Pricing | free | free | free | free | free | free | free CLI; demo-booked platform, no published tiers | free tier plus Team at $100 per month, Enterprise custom | free |
 
 ## Reading the matrix
 
-**The license and steward rows tell the ownership story: seven repo-native MIT-licensed toolkits against one closed, funded platform, and the free tools set the price anchor at zero while Tessl spends $125M betting specs are rentable.**
+**The license and steward rows tell the ownership story: eight repo-native MIT-licensed toolkits against one closed, funded platform, and the free tools set the price anchor at zero while Tessl spends $125M betting specs are rentable.**
 The adoption row inverts the funding row, which is the tension to watch.
 GSD adds the stewardship question the category had not faced: the archived original out-stars every column except Spec Kit, and its 10.2k-star successor is rebuilding trust in public.
 The three newest columns extend the steward axis: AI-DLC is the first column owned by a cloud vendor's methodology org, cc-sdd is the first owned by one person, and Spec Kitty is the first that began as a derivative of another member's workflow and now runs as a company product around it.
+The prompt pack is the first column with no machinery at all, four markdown files and a solo maintainer.
 
 **Ceremony sizing is the design axis the waterfall critique created: only BMad and cc-sdd let small changes skip the ceremony (BMad by design, cc-sdd by discovery routing), and the artifact-first tools pay for their simplicity with fixed ceremony (GSD at least ships a lighter quick-task mode, while Spec Kitty's docs just call the pipeline overkill for small work).**
 If your changes are mostly small, that row alone picks your column.
 
-**Brownfield is the sleeper row: OpenSpec is explicitly built for existing code, BMad has an establish-context path, GSD's onboard command covers it, Spec Kitty is repo-native by default without an onboarding path, and spec-kit's scaffolding still assumes a fresher repo than most of us have.**
+**Brownfield is the sleeper row: OpenSpec is explicitly built for existing code, BMad has an establish-context path, GSD's onboard command covers it, Spec Kitty is repo-native by default without an onboarding path, and spec-kit's scaffolding still assumes a fresher repo than most of us have, while the prompt pack is the only column that is greenfield by design.**
 
 ## Choosing from the matrix
 
@@ -55,6 +56,7 @@ If your changes are mostly small, that row alone picks your column.
 - Want a phase loop that quarantines heavy work in fresh-context subagents: GSD, accepting the young successor's governance.
 - Want parallel agent work in isolated worktrees behind review gates and an audit record: Spec Kitty, accepting the company gravity.
 - Want specs as a managed product and accept portability questions: Tessl.
+- Starting from a blank page with nothing installed: Vibe Coding Prompt Template, accepting that nothing enforces the steps.
 
 ## Changes
 
@@ -70,6 +72,7 @@ If your changes are mostly small, that row alone picks your column.
 - 2026-10-02 - Refreshed the BMad (about 53.7k stars) and GSD (successor 10.1k stars, 43k npm downloads a month) adoption cells; all other cells re-verified unchanged.
 - 2026-10-06 - Extended from five to seven columns with AI-DLC and cc-sdd (inserted alphabetically), every row gaining cells, the reading and choosing prose extended to the vendor-backed and skill-set columns, and the GSD (successor 10.2k stars) and OpenSpec (2.5M npm downloads) adoption cells refreshed.
 - 2026-10-06 - Extended from seven to eight columns with Spec Kitty (inserted alphabetically), every row gaining cells, the reading and choosing prose extended to the governance-and-worktrees column, and as-of qualifiers added to the adoption row.
+- 2026-10-07 - Extended from eight to nine columns with Vibe Coding Prompt Template (inserted alphabetically), every row gaining cells, and the reading and choosing prose extended to the zero-install prompt-pack column.
 
 ## See also
 
@@ -89,8 +92,9 @@ If your changes are mostly small, that row alone picks your column.
 - https://www.tessl.io/blog/announcing-our-series-a-for-ai-native-software-development - the raise grounding the Tessl column
 - https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - the OpenSpec install velocity
 - https://github.com/open-gsd/gsd-core - the successor loop, installer, and runtimes for the GSD column
-- https://api.github.com/repos/open-gsd/gsd-core - successor stars and dates as of 2026-09-21
-- https://api.github.com/repos/gsd-build/get-shit-done - the archived original, 64,411 stars
+- https://api.github.com/repos/open-gsd/gsd-core - successor stars and dates as of 2026-10-07
+- https://api.github.com/repos/gsd-build/get-shit-done - the archived original, 64,363 stars as of 2026-10-07
 - https://opengsd.net/origin - the origin credit acknowledging the broken chapter
 - https://blakewatson.com/journal/i-used-claude-code-and-gsd-to-build-the-accessibility-tool-ive-always-wanted/ - the 2026-07-31 update grounding the successor transition
 - https://api.npmjs.org/downloads/point/last-month/@opengsd/gsd-core - the successor's install velocity
+- https://github.com/KhazP/vibe-coding-prompt-template - the prompt pack: workflow table, artifact paths, and licensing for the new column

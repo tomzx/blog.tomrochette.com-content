@@ -25,7 +25,7 @@ The plugin line is the distribution strategy: official OpenClaw plugins (cloud a
 ## Status
 
 **Active and mid-scale.**
-11,713 stars with the repository pushed 2026-09-29, created 2025-07-06, as of 2026-10-06 (GitHub API).
+11,740 stars with the repository pushed 2026-09-29, created 2025-07-06, as of 2026-10-07 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MemTensor/MemOS&type=date&theme=dark&legend=top-left" />
@@ -47,14 +47,20 @@ The Hacker News footprint is nearly absent: a 2-point story in August 2025, no d
 ## Cautions
 
 - **Every benchmark number is the vendor's own run of its own framework**, the same self-published pattern this section flags on Supermemory and Mem0, with no independent replication found.
-- The hosted cloud API's endpoints sit on MemTensor's own infrastructure (memtensor.cn), a data-residency question for teams outside its jurisdiction, and no public price list exists.
+- The hosted cloud API's endpoints sit on MemTensor's own infrastructure (memtensor.cn), a data-residency question for teams outside its jurisdiction, and the newly published Starter and Pro tiers are launch-promo-free, so their real prices are the $19 and $286 list figures.
 - Self-hosting the full platform means operating Neo4j plus Qdrant, a heavier stack than the SQLite-only plugins suggest.
 - Independent discussion is thin (a 2-point HN thread), so failure reports and fixes skew toward the vendor's channels.
 
 ## Pricing
 
 Free and open: the engine, the PyPI package, and the local plugins are Apache-2.0.
-The hosted cloud API is registered through MemTensor's dashboard with no published price list as of 2026-10-06.
+The hosted cloud now publishes plans as of 2026-10-07: Free $0/month (50k add and 20k search calls, 3M input and 1M output chat tokens, up to 10 knowledge bases), Starter and Pro listed at $19 and $286/month and both currently flagged "Free Now" on an apply-to-join basis, and Enterprise custom.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-10-07 | Free, Starter, Pro, Enterprise | Baseline: Free $0/mo; Starter $19/mo and Pro $286/mo both temporarily free ("Free Now", apply now); Enterprise custom; OSS engine and local plugins free (Apache-2.0). | [memos.openmem.net](https://memos.openmem.net/) |
 
 ## Compared to
 
@@ -71,6 +77,7 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 
 - 2026-10-06 - Created from the 2026-10-06 entrant scan, with seven fetched sources and the vendor-run-benchmark caveat recorded as the critical angle.
 - 2026-10-07 - Added the MemTensor/MemOS star history chart to the Status section.
+- 2026-10-07 - The hosted cloud began publishing plans: Free $0/mo, Starter $19/mo and Pro $286/mo both flagged "Free Now" on apply-to-join, Enterprise custom (new Price history section with the baseline row); the no-public-price caution rewritten and the landing-page reference updated.
 
 ## See also
 
@@ -87,5 +94,5 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 - https://memos-docs.openmem.net/ - documentation root (the README's home/overview deep link returned 404 at fetch time, recorded here)
 - https://arxiv.org/abs/2507.03724 - the MemOS paper: a memory OS for AI systems
 - https://pypi.org/pypi/MemOS/json - the memos package at 0.37.0, Apache-2.0
-- https://memos.openmem.net/ - product landing for the hosted platform (client-rendered, loads)
+- https://memos.openmem.net/ - the hosted platform's landing page, now carrying the Free/Starter/Pro/Enterprise price table, as of 2026-10-07 (client-rendered on the 2026-10-06 fetch)
 - https://hn.algolia.com/api/v1/items/44945613 - the August 2025 story (2 points, 0 comments), the thin-discussion record

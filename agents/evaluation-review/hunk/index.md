@@ -24,7 +24,7 @@ The maker is Modem (modem.dev), the company credited in hunk.dev's footer.
 
 ## Status
 
-Fast-growing and young: 9,515 stars and 310 forks as of 2026-10-06, created 2026-03-17, pushed 2026-10-06, v0.23.0 (2026-09-30) with 741 merged pull requests.
+Fast-growing and young: 9,523 stars and 311 forks as of 2026-10-07, created 2026-03-17, pushed 2026-10-06, v0.23.0 (2026-09-30) with 741 merged pull requests.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=modem-dev/hunk&type=date&theme=dark&legend=top-left" />
@@ -78,7 +78,7 @@ Not for CI gating and not for anyone expecting a machine verdict; Hunk deliberat
 
 ## References
 
-- https://github.com/modem-dev/hunk - repository, counts, and topics as of 2026-10-06
+- https://github.com/modem-dev/hunk - repository, counts, and topics as of 2026-10-07
 - https://api.github.com/repos/modem-dev/hunk/readme - features, install paths, the agent workflow, and the comparison table
 - https://api.github.com/repos/modem-dev/hunk/releases - the v0.23.0 line and cadence
 - https://hunk.dev - the product pitch, endorsement quotes, and the Modem attribution

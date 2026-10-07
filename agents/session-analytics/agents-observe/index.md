@@ -23,7 +23,7 @@ Made by simple10, an independent developer, under MIT.
 
 ## Status
 
-Young and active: 690 stars, 70 forks, created 2026-03-26, pushed 2026-09-04, latest release v0.9.12 on 2026-07-22 as of 2026-10-06.
+Young and active: 693 stars, 70 forks, created 2026-03-26, pushed 2026-09-04, latest release v0.9.12 on 2026-07-22 as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=simple10/agents-observe&type=date&theme=dark&legend=top-left" />

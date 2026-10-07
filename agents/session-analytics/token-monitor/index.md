@@ -25,7 +25,7 @@ Made by Javis603, MIT-licensed.
 
 ## Status
 
-Young and shipping daily: 2,634 stars, 266 forks, 104 open issues, created 2026-05-19, pushed 2026-10-06, with v0.67.0 released 2026-10-06, v0.66.0 on 2026-10-04, and v0.65.0 on 2026-10-02, as of 2026-10-06.
+Young and shipping daily: 2,646 stars, 268 forks, 102 open issues, created 2026-05-19, pushed 2026-10-07, with v0.67.0 released 2026-10-06, v0.66.0 on 2026-10-04, and v0.65.0 on 2026-10-02, as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Javis603/token-monitor&type=date&theme=dark&legend=top-left" />

@@ -22,7 +22,7 @@ The registry curates quantizations of each model, and `ollama run <model>` is th
 
 ## Status
 
-Very active: 182,302 stars as of 2026-10-06, repo pushed the same day, among the largest repositories in the AI ecosystem.
+Very active: 182,429 stars as of 2026-10-07, repo pushed the same day, among the largest repositories in the AI ecosystem.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ollama/ollama&type=date&theme=dark&legend=top-left" />
@@ -94,7 +94,7 @@ My disagreeable claim: for coding agents on 16GB laptops, local quantized models
 
 ## References
 
-- https://api.github.com/repos/ollama/ollama - 182,302 stars, Go, MIT, pushed 2026-10-06 (fetched via the GitHub API, 2026-10-06).
+- https://api.github.com/repos/ollama/ollama - 182,429 stars, Go, MIT, pushed 2026-10-07 (fetched via the GitHub API, 2026-10-07).
 - https://ollama.com/ - current positioning: 9M developers, coding-agent integrations, Pro/Max teaser, cloud regions (200).
 - https://ollama.com/pricing - all tiers, included credits, per-token model table, off-peak terms, concurrency caps, FAQ (200, re-fetched unchanged 2026-10-06).
 - https://docs.ollama.com/ - local API surface: Ollama, OpenAI, and Anthropic-compatible clients, cloud vs local split (200).

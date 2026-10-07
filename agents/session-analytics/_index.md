@@ -16,6 +16,7 @@ Tools that turn what coding agents already record into searchable history, cost 
 - [AgentTrace](agenttrace/index.md) - the local Rust TUI and CLI that audits session cost, tokens, latency, failures, and health across about 15 coding-agent formats, with CI gates.
 - [ccusage](ccusage/index.md) - the zero-install CLI that turns eighteen coding agents' local usage files into daily-to-session cost reports, the incumbent every tool here benchmarks against.
 - [claude-devtools](claude-devtools/index.md) - the local desktop DevTools that reconstruct Claude Code sessions from ~/.claude logs, with per-turn token attribution across seven context categories, tool-call inspection, and subagent trees.
+- [claude-replay](claude-replay/index.md) - the zero-dependency CLI compiling sessions from seven harnesses into one self-contained interactive HTML replay with speed control, diffs, and secret redaction, the category's first shareable-artifact output, 843 stars.
 - [ClawTrace](clawtrace/index.md) - the hosted tracing and cost-attribution platform for OpenClaw runs, with full-payload traces and an AI analyst named Tracy, billed in credits.
 - [CodeBurn](codeburn/index.md) - the local desktop app and CLI that cuts AI coding spend by task, branch, and project, with plan-quota tracking, config optimization, and session spend guards.
 - [ctx](ctx/index.md) - local search over the sessions agents already recorded, with blame attribution from any line of code back to its transcript.
@@ -39,3 +40,4 @@ Its members are compared on shared rows in the [Session Analytics Feature Matrix
 - 2026-10-06 - Added claude-devtools.
 - 2026-10-06 - Added Token Monitor.
 - 2026-10-06 - Added Tokscale.
+- 2026-10-07 - Added claude-replay.

@@ -24,7 +24,7 @@ Security is pairing-based by default (unknown senders must be approved), and the
 ## Status
 
 The category's giant.
-As of 2026-10-06: 391,475 stars and 82,292 forks since creation on 2025-11-24, pushed daily, 9,408 open issues, npm-published.
+As of 2026-10-07: 391,542 stars and 82,291 forks since creation on 2025-11-24, pushed daily, 9,408 open issues, npm-published.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openclaw/openclaw&type=date&theme=dark&legend=top-left" />
@@ -98,7 +98,7 @@ The disagreeable claim I will defend: the restrictions saga, not the code, is Op
 ## References
 
 - https://github.com/openclaw/openclaw - README: Gateway model, channels, security posture, install
-- https://api.github.com/repos/openclaw/openclaw - stars, forks, issues, dates as of 2026-10-04
+- https://api.github.com/repos/openclaw/openclaw - stars, forks, issues, dates as of 2026-10-07
 - https://api.github.com/repos/openclaw/openclaw/releases - v2026.9.2 release notes, Swarm enabled by default (2026-09-05), through v2026.9.5 (2026-09-19), the v2026.7.33 July-line patch (2026-09-18), v2026.7.35 (2026-09-21), v2026.9.6 (2026-09-23), and v2026.8.33 (2026-09-29), the first gateway-only extended-stable release, plus v2026.9.7 (2026-09-30), the v2026.8.34 extended-stable patch (2026-10-02), v2026.9.8 (2026-10-03, current latest), the v2026.8.35 extended-stable patch (2026-10-02), and the v2026.10.1-beta.1 prerelease (2026-10-05), the October line's first tag
 - https://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap - the Trail of Bits audit recap (27 advisories, 23 confirmed vulnerabilities, all repaired)
 - https://openclaw.ai/blog/openclaw-2-accidentally - the OpenClaw 2.0 announcement (933 contributors, 16,000+ pull requests)

@@ -21,7 +21,7 @@ IDE surfaces cover PyCharm, VS Code, Sublime, and Vim, a wider editor spread tha
 
 ## Status
 
-**Old by category standards (repo since July 2019), active, and mid-size: 1,870 stars as of 2026-10-06, commits as recent as October 6, 2026.**
+**Old by category standards (repo since July 2019), active, and mid-size: 1,872 stars as of 2026-10-07, commits as recent as October 7, 2026.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sourcery-ai/sourcery&type=date&theme=dark&legend=top-left" />
@@ -90,7 +90,7 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 
 ## References
 
-- https://github.com/sourcery-ai/sourcery - repo, 1,870 stars, MIT, pushed October 6, 2026 (GitHub API, as of 2026-10-06)
+- https://github.com/sourcery-ai/sourcery - repo, 1,872 stars, MIT, pushed October 7, 2026 (GitHub API, as of 2026-10-07)
 - https://sourcery.ai/ - product page
 - https://sourcery.ai/pricing/ - tiers as of 2026-10-02
 - https://docs.sourcery.ai/reference/faq/ - docs FAQ covering plans, security scanning, BYO LLM, self-hosting (the former Product/Plans page redirects here)

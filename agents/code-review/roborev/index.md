@@ -24,7 +24,7 @@ It is a Go binary from Kenn Software LLC, the company led by Wes McKinney (the c
 ## Status
 
 **Active and unusually fast-moving, with adoption concentrated around its author's reputation.**
-The repo (kenn-io/roborev) was created January 5, 2026 and shows 1,745 stars, 165 forks, and 30 contributors as of 2026-10-06, pushed the same day.
+The repo (kenn-io/roborev) was created January 5, 2026 and shows 1,746 stars, 165 forks, and 30 contributors as of 2026-10-07, pushed the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/roborev&type=date&theme=dark&legend=top-left" />
@@ -81,7 +81,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 
 ## References
 
-- https://github.com/kenn-io/roborev - repo facts: 1,745 stars, 165 forks, 30 contributors, MIT, created 2026-01-05, pushed 2026-10-06 (GitHub API, as of 2026-10-06)
+- https://github.com/kenn-io/roborev - repo facts: 1,746 stars, 165 forks, 30 contributors, MIT, created 2026-01-05, pushed 2026-10-07 (GitHub API, as of 2026-10-07)
 - https://raw.githubusercontent.com/kenn-io/roborev/HEAD/README.md - the two automation layers, the refine skill, and install paths
 - https://roborev.io/docs/ - the ledger model, the agent hook, panels, PostgreSQL sync, and the ACP surface
 - https://roborev.io/docs/agents.md - the eleven supported agents and the auto-detection fallback order

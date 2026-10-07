@@ -1,7 +1,7 @@
 ---
 title: Ellipsis
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -20,7 +20,7 @@ Ellipsis AI Inc (New York, founded 2023, YC Winter 2024, founders Hunter Brooks 
 Sessions start from GitHub, Slack, Linear, or Sentry events, cron schedules, the `agent` CLI, or a REST API, and the platform fronts Claude Code, Codex, Copilot, Gemini, Cursor, Grok Code, Antigravity, OpenCode, and Pi.
 Code review survives as a configurable agent use case, not the fixed install-and-forget bot of 2024, and the platform deploys either in Ellipsis's cloud or into your own AWS VPC.
 The core product is proprietary: its GitHub org publishes only tooling, an agent CLI, a homebrew tap, a Python and TypeScript SDK mirror, and the blink codebase-search repo, five public repos in total as of 2026-10-02, down from six on 2026-09-21 because the AWS installer repo is no longer public.
-Blink (95 stars as of 2026-10-06) was created on September 16, 2026.
+Blink (99 stars as of 2026-10-07) was created on September 16, 2026.
 
 ## Status
 
@@ -50,9 +50,9 @@ The community footprint is one strong Show HN from May 9, 2024 (Algolia item 403
 
 ## Pricing
 
-Tokens are billed at cost with no markup, plus a 10% platform fee, with CPU at $0.142/vCPU-hour and memory at $0.024/GB-hour, as of 2026-10-04.
-There are no per-seat fees and no idle charges, and a $100 credit covers the start.
-Individuals on their own coding-agent subscription get the platform free, the on-ramp the homepage leads with, as of 2026-10-04 (the pricing page today again names Claude Code or Codex subscriptions for interactive sessions).
+Tokens are billed at cost with no markup, plus a 10% platform fee, with CPU at $0.142/vCPU-hour and memory at $0.024/GB-hour, as of 2026-10-04 (re-verified unchanged 2026-10-07, the docs pricing page quoting the unrounded $0.141912 and $0.024192).
+There are no per-seat fees and no idle charges, and a $100 credit covered the start when I first recorded the model, though the homepage, pricing page, and docs pricing page I fetched on 2026-10-07 no longer display it, so treat the credit as unverified until signup.
+Individuals on their own coding-agent subscription get the platform free, the on-ramp the homepage leads with, as of 2026-10-07 (the pricing page still names Claude Code or Codex subscriptions for interactive sessions).
 The subscription wording flip-flops: the hero badge titled the free tier "ChatGPT or Claude" when I first recorded it on 2026-09-13, "Claude Code or Codex" by 2026-09-18, and "ChatGPT or Claude" again on 2026-09-27, while by 2026-10-02 the badge read only "FREE FOR INDIVIDUALS" and the FAQ question has named Claude Code or Codex throughout.
 The same published pricing covers the managed SaaS and a BYOC deployment into your own AWS account.
 Optional enterprise support packages run $5,000 (Standard), $10,000 (Advanced), and $15,000 (Premier) per month as of 2026-10-04.
@@ -93,6 +93,7 @@ I will take the unpopular position that leaving review was the right call: a fix
 - 2026-10-02 - The platform fee doubled from 10% to 20% of token cost (CPU, memory, and support packages unchanged), with a price-history row added; the homepage badge now reads FREE FOR INDIVIDUALS with the FAQ keeping Claude Code or Codex, blink grew to 92 stars, and a banned-term word was reworded out of the Compared-to prose.
 - 2026-10-02 - Repaired the References section, which a previous run had left truncated mid-line, completing the Show HN citation, and re-fetched every cited URL, all 200 this run.
 - 2026-10-03 - The platform fee returned to 10% of token cost, reversing the 20% rate recorded the previous day, with a price-history row added, and blink grew from 92 to 93 stars while the CLI repo was pushed again on 2026-10-02.
+- 2026-10-07 - The $100 starting credit no longer appears on the homepage, pricing page, or docs pricing page (it last showed there on 2026-10-04), so the pricing sentence now dates the claim; every other price re-verified unchanged, blink at 99 stars.
 
 ## See also
 
@@ -103,9 +104,9 @@ I will take the unpopular position that leaving review was the right call: a fix
 
 ## References
 
-- https://www.ellipsis.dev/ - current product surface: agent cloud framing, $100 credit, SOC 2 status, supported agents, fetched 2026-10-02.
-- https://www.ellipsis.dev/pricing - the token-plus-10% model, compute rates, BYOC terms, and support package tiers, fetched 2026-10-02, re-verified unchanged 2026-10-06.
-- https://github.com/ellipsis-dev - the public GitHub org: five repos (TalkFormAI, homebrew-cli, the agent CLI at 3 stars pushed 2026-10-03, the SDK mirror, and blink at 95 stars), fetched 2026-10-06.
+- https://www.ellipsis.dev/ - current product surface: agent cloud framing, SOC 2 status, supported agents, fetched 2026-10-02, re-fetched 2026-10-07 (the $100 credit no longer displayed).
+- https://www.ellipsis.dev/pricing - the token-plus-10% model, compute rates, BYOC terms, and support package tiers, fetched 2026-10-02, re-verified unchanged 2026-10-07.
+- https://github.com/ellipsis-dev - the public GitHub org: five repos (TalkFormAI, homebrew-cli, the agent CLI at 3 stars pushed 2026-10-03, the SDK mirror, and blink at 99 stars), fetched 2026-10-07.
 - https://www.ellipsis.dev/docs - docs on environments, sandboxes, sessions, the CLI, and the API, fetched 2026-09-18.
 - https://www.ellipsis.dev/blog - publishing cadence and post dates, fetched 2026-09-18.
 - https://www.ellipsis.dev/blog/the-ellipsis-agent-cloud - the July 28, 2026 pivot announcement by the founder, fetched 2026-09-18.

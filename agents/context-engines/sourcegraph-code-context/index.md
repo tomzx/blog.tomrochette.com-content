@@ -49,7 +49,7 @@ I found little independent 2026 community discussion of the post-split platform;
 ## Pricing
 
 **The floor is $16K a year before any AI usage, which prices out every team the product's own data says it cannot help.**
-Enterprise plan starting at $16K per year as of 2026-10-06, scaling with team size, including pooled AI credits (no monthly expiry, rollover on renewal), with volume credit buckets as an add-on and 24x5 support.
+Enterprise plan starting at $16K per year as of 2026-10-07, scaling with team size, including pooled AI credits (no monthly expiry, rollover on renewal), with volume credit buckets as an add-on and 24x5 support.
 No self-serve or free private tier; the public code search is free.
 
 ## Price history

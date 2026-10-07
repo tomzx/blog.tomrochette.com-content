@@ -75,7 +75,7 @@ My disagreeable claim: the leaderboard is the least valuable thing the arenas pr
 ## References
 
 - https://lmarena.ai/ - homepage meta: blind comparison, vote-driven leaderboards across text, image, and code (fetched 200, 2026-09-24)
-- https://blog.lmarena.ai/ - Arena Intelligence Inc. identity, leaderboard families, and 2026 post dates including the 30 September judge self-preference post and the 2026-10-02 post-training research post (re-fetched 200, 2026-10-06, newest post still 2 October 2026)
+- https://blog.lmarena.ai/ - Arena Intelligence Inc. identity, leaderboard families, and 2026 post dates including the 30 September judge self-preference post and the 2026-10-02 post-training research post (re-fetched 200, 2026-10-07, newest post still 2 October 2026)
 - https://blog.lmarena.ai/how-it-works/ - the vote flow and identity reveal procedure (fetched 200, 2026-09-24)
 - https://arxiv.org/abs/2403.04132 - the founding paper: method and 240K+ votes (fetched 200, 2026-09-24)
 - https://arxiv.org/abs/2504.20879 - The Leaderboard Illusion: private testing, 27 Meta variants, sampling asymmetries (fetched 200, 2026-09-24)

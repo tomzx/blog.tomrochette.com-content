@@ -25,7 +25,7 @@ The npm scope and telemetry endpoint are NanoNets-branded, the product site attr
 
 ## Status
 
-Young and very hot: created 2026-07-03, 9,610 stars and 880 forks by 2026-10-06, last push 2026-10-06, 213 open issues and pull requests, v0.21.1 on npm (published 2026-09-29) with 102,247 downloads in the trailing month (window 2026-09-05 to 2026-10-04), all as of 2026-10-06 (GitHub and npm APIs).
+Young and very hot: created 2026-07-03, 9,649 stars and 881 forks by 2026-10-07, last push 2026-10-07, 217 open issues and pull requests, v0.21.1 on npm (published 2026-09-29) with 102,247 downloads in the trailing month (window 2026-09-05 to 2026-10-04), all as of 2026-10-07 (GitHub and npm APIs).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trailhq/Graft&type=date&theme=dark&legend=top-left" />
@@ -56,7 +56,7 @@ No independent benchmark or third-party evaluation exists as of 2026-09-13.
 ## Pricing
 
 Graft is free, MIT, no account; your only cost is the LLM usage the optional deep pass makes under your own key.
-The money is in Trail Brain (as of 2026-10-06): Free ($0, 100 rules, 1 editor, 10K agent reads/month), Small ($20k/year), Medium ($60k/year), and Large ($150k/year with in-VPC and HIPAA BAA), priced on rules, editors, and monthly agent reads.
+The money is in Trail Brain (as of 2026-10-07): Free ($0, 100 rules, 1 editor, 10K agent reads/month), Small ($20k/year), Medium ($60k/year), and Large ($150k/year with in-VPC and HIPAA BAA), priced on rules, editors, and monthly agent reads.
 
 ## Price history
 
@@ -99,12 +99,12 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 
 ## References
 
-- https://github.com/trailhq/Graft - canonical repository (NanoNets/Graft redirects here), stats and activity as of 2026-10-06
+- https://github.com/trailhq/Graft - canonical repository (NanoNets/Graft redirects here), stats and activity as of 2026-10-07
 - https://raw.githubusercontent.com/trailhq/Graft/main/README.md - architecture, benchmark tables, SWE-bench Verified numbers, delivery surfaces
 - https://graft.nanonets.ai - product site, Trail attribution, and marketing claims
 - https://raw.githubusercontent.com/trailhq/Graft/main/TELEMETRY.md - the telemetry allowlist contract (the original NanoNets/context-graph-engine path still redirects)
 - https://registry.npmjs.org/@nanonets/graft/latest - package version 0.21.1 and metadata
-- https://api.npmjs.org/downloads/point/last-month/@nanonets/graft - 102,247 downloads, window 2026-09-05 to 2026-10-04, fetched 2026-10-06
+- https://api.npmjs.org/downloads/point/last-month/@nanonets/graft - 102,247 downloads, window 2026-09-05 to 2026-10-04, fetched 2026-10-07
 - https://hn.algolia.com/api/v1/items/49197687 - the 3-point Show HN and the creator's tree-sitter-only clarification
 - https://hn.algolia.com/api/v1/items/49299985 - the 39-point thread: staleness, README register critique, and the vendor-run Graphify comparison
 - https://trailhq.com/pricing - Trail Brain plans as of 2026-10-06

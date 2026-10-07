@@ -24,7 +24,7 @@ The launch blog (March 11, 2026) frames the product against Forrester's agent co
 
 ## Status
 
-Active and young: 320 stars, 55 forks, 45 open issues, and 19 contributors as of 2026-10-06, created 2026-01-30, pushed 2026-10-06, with a fast release train (v8.8.0 on 2026-09-22, v8.9.0 and v8.10.0 on 2026-10-01, v8.11.0 on 2026-10-02, mirrored by agent-control-sdk 8.11.0 on PyPI and agent-control 3.3.0 on npm).
+Active and young: 322 stars, 55 forks, 45 open issues, and 19 contributors as of 2026-10-07, created 2026-01-30, pushed 2026-10-07, with a fast release train (v8.8.0 on 2026-09-22, v8.9.0 and v8.10.0 on 2026-10-01, v8.11.0 on 2026-10-02, mirrored by agent-control-sdk 8.11.0 on PyPI and agent-control 3.3.0 on npm).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentcontrol/agent-control&type=date&theme=dark&legend=top-left" />

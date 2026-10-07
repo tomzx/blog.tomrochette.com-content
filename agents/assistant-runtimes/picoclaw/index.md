@@ -23,7 +23,7 @@ It reached 20k stars in 17 days from a February 2026 start.
 ## Status
 
 Active, pre-1.0, and explicit about both.
-As of 2026-10-06: 30,011 stars and 4,453 forks since creation on 2026-02-04, pushed 2026-09-24, 51 open issues, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
+As of 2026-10-07: 30,008 stars and 4,451 forks since creation on 2026-02-04, pushed 2026-09-24, 51 open issues, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sipeed/picoclaw&type=date&theme=dark&legend=top-left" />
@@ -84,7 +84,7 @@ My disagreeable claim: the size race is now the category's main axis of progress
 ## References
 
 - https://github.com/sipeed/picoclaw - README: footprint, architectures, security banners, release news
-- https://api.github.com/repos/sipeed/picoclaw - stars, forks, issues as of 2026-10-06
+- https://api.github.com/repos/sipeed/picoclaw - stars, forks, issues as of 2026-10-07
 - https://picoclaw.io - official site (the only official domain per the scam notice); its TLS certificate expired 2026-09-10, was renewed by 2026-09-29 with validity through 2027-04-14, and the site serves normally
 - https://docs.picoclaw.io/ - official documentation
 - https://news.ycombinator.com/item?id=46955793 - the launch-era Show HN (11 points)

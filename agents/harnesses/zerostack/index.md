@@ -25,8 +25,8 @@ An ARCHITECTURE.md file complements AGENTS.md with shared core knowledge for age
 
 ## Status
 
-Active: the repository was pushed 2026-10-04, created May 12, 2026, with the latest release v1.8.4 on September 7, 2026.
-1,700 stars and 138 forks as of 2026-10-05.
+Active: the repository was pushed 2026-10-06, created May 12, 2026, with the latest release v1.8.4 on September 7, 2026.
+1,700 stars and 138 forks as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gi-dellav/zerostack&type=date&theme=dark&legend=top-left" />
@@ -36,7 +36,7 @@ Active: the repository was pushed 2026-10-04, created May 12, 2026, with the lat
 
 The May 16, 2026 launch thread reached 575 points (item 48164287), the highest-signal uncovered harness candidate of this cycle, with follow-up release threads through June and a Show HN in July.
 v1.8.0, "The Great Cleanup", landed September 3, 2026 after a six-week release quiet stretch and credited several external contributors with a large TUI refactoring.
-3,561 crate downloads on crates.io (916 recent) as of 2026-10-06.
+3,568 crate downloads on crates.io (908 recent) as of 2026-10-07.
 It is a one-person project with a ko-fi jar and a public call for company sponsors.
 
 ## Strengths
@@ -87,9 +87,9 @@ I think the Rust-rewrite wave confuses a small memory footprint with a good agen
 
 ## References
 
-- https://github.com/gi-dellav/zerostack - repository state, license, stars, and activity as of 2026-10-04
+- https://github.com/gi-dellav/zerostack - repository state, license, stars, and activity as of 2026-10-07
 - https://raw.githubusercontent.com/gi-dellav/zerostack/main/README.md - feature list, performance claims, and inspirations
 - https://gi-dellav.github.io/zerostack/ - docs site: permission modes, prompts, commands, sandbox mode
-- https://crates.io/api/v1/crates/zerostack - crate version and download counts as of 2026-10-06
+- https://crates.io/api/v1/crates/zerostack - crate version and download counts as of 2026-10-07
 - https://github.com/gi-dellav/zerostack/releases - release cadence through v1.8.4
 - https://news.ycombinator.com/item?id=48164287 - 575-point launch thread and the author's no-benchmark admission

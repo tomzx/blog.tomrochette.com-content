@@ -26,7 +26,7 @@ The npm install is deprecated in favor of a native installer; third-party provid
 ## Status
 
 **Active and dominant.**
-The `anthropics/claude-code` repository shows about 149.5k stars and about 14.4k open issues and pull requests as of 2026-10-06; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
+The `anthropics/claude-code` repository shows about 149.7k stars and about 14.4k open issues and pull requests as of 2026-10-07; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&theme=dark&legend=top-left" />
@@ -105,7 +105,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 
 - https://code.claude.com/docs/en/overview - surfaces, skills, hooks, subagents, routines, installation
 - https://claude.com/product/claude-code - pricing tiers and 2026 feature timeline
-- https://github.com/anthropics/claude-code - repository scale (about 149.5k stars) and npm deprecation, as of 2026-10-06
+- https://github.com/anthropics/claude-code - repository scale (about 149.7k stars) and npm deprecation, as of 2026-10-07
 - https://github.com/anthropics/claude-code/issues/95690 - the report that AGENTS.md support was gated behind a remote flag only fetched when telemetry was on
 - https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md - the 2.1.277 AGENTS.md addition and the 2.1.281 fix for telemetry-disabled sessions
 - https://news.ycombinator.com/item?id=49814947 - the 481-point September 23, 2026 thread that surfaced the telemetry gating

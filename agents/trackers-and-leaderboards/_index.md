@@ -12,7 +12,7 @@ Sites that watch the AI field itself and publish a continuously refreshed number
 The category's dividing line is what the number measures, since each member answers a different question about the same field.
 
 - [AI Release Tracker](ai-release-tracker/index.md) - a free, ad-free timeline of frontier releases since ChatGPT, with launch-day scores and flat-file exports for agents.
-- [Artificial Analysis](artificial-analysis/index.md) - independent quality, price, and speed measurement across 690 models, 100+ providers, and the chips underneath.
+- [Artificial Analysis](artificial-analysis/index.md) - independent quality, price, and speed measurement across 691 models, 100+ providers, and the chips underneath.
 - [Epoch AI](epoch-ai/index.md) - the research nonprofit's open datasets and trend series on models, compute, data centers, and AI's trajectory.
 - [LiveBench](livebench/index.md) - a contamination-limiting public benchmark that rotates questions and scores by objective ground truth, with questions, answers, and judgments downloadable.
 - [LLM Stats](llm-stats/index.md) - a conservative composite leaderboard over 400 models with the category's only MCP server for agents.

@@ -21,12 +21,13 @@ The open-source half is PR-Agent (now under the PR-Agent GitHub organization), a
 The commercial half is Qodo (the former Qodo Merge), a hosted review platform with a context engine, rules mined from PR history, cross-repo review, and dashboards.
 On September 9, 2026 it launched the Agentic Toolbox, a CLI-installed pack of skills (codebase wisdom, pre-PR local review, rules retrieval, review-issue resolution) that puts that commercial engine inside Claude Code, Codex, and Kiro sessions.
 On September 15, 2026 it launched the Software Map in beta, an automatically derived map of repos, service contracts, and blast radius that layers review findings over the architecture and feeds its review agents.
+On October 1, 2026 it shipped Qodo 3.0, repositioning the platform as quality control for the agentic software factory: PR Triage (research preview) groups cross-repo work packages with blast radius and review order, review runs as a swarm of specialized agents, PR Insights exposes what the system learned from the team's review decisions, and enterprise surfaces add Gerrit, on-prem, air-gapped, and NVIDIA Nemotron models.
 The repo description draws the line in one sentence: "This project is not the Qodo free tier."
 
 ## Status
 
 Active on both halves, and deliberately splitting apart.
-The repo counts 13,276 stars and 1,942 forks as of 2026-10-06, MIT-licensed, with v0.47.0 released October 2, 2026 (after v0.46.0 on September 21), and the former qodo-ai/pr-agent URL now redirects to the repo's new home in the standalone PR-Agent organization.
+The repo counts 13,291 stars and 1,947 forks as of 2026-10-07, MIT-licensed, with v0.47.0 released October 2, 2026 (after v0.46.0 on September 21), and the former qodo-ai/pr-agent URL now redirects to the repo's new home in the standalone PR-Agent organization.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=qodo-ai/pr-agent&type=date&theme=dark&legend=top-left" />
@@ -37,7 +38,7 @@ The repo counts 13,276 stars and 1,942 forks as of 2026-10-06, MIT-licensed, wit
 v0.47.0 hardens the tool: Gitea webhooks now fail closed without a configured secret, the GitHub Action fails on swallowed tool errors, GitLab and Bitbucket comment commands require a leading slash, extra_config_url became host-only, and model support added Claude Opus 5.5 and Bedrock Kimi K3.
 The company raised $11M in 2023, then $40M in September 2024 ($50M total), by which point TechCrunch already called it "Qodo, the startup previously known as CodiumAI".
 The README states Qodo donated PR-Agent to the community, the project has its first external maintainer, and it is being donated to an open-source foundation.
-The company's badges report 907.3K VS Code and 650K JetBrains extension installs plus roughly 13.2K Marketplace installs for the paid app, as of 2026-10-04.
+The company's badges report 908.1K VS Code and 650.3K JetBrains extension installs plus roughly 13.3K Marketplace installs for the paid app, as of 2026-10-07.
 On Hacker News the reviewer itself never caught fire (best thread 24 points, item 41500840), while company research posts reached 139 (item 44874736) and 87 points (item 41838348), and the Kudelski exploit write-up got 1 point (item 46824997).
 
 ## Strengths
@@ -94,6 +95,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 - 2026-09-24 - Refreshed the repo to 13,142 stars and 1,890 forks with v0.46.0 (September 21) as the latest release, and the VS Code badge to 905.7K; verified the qodo-ai/pr-agent redirect into The-PR-Agent/pr-agent.
 - 2026-10-03 - Recorded v0.47.0 (October 2): fail-closed Gitea webhook secrets, the GitHub Action failing on tool errors, leading-slash comment commands on GitLab and Bitbucket, host-only extra_config_url, and Claude Opus 5.5 plus Bedrock Kimi K3 model support.
 - 2026-10-07 - Added the qodo-ai/pr-agent star history chart to the Status section.
+- 2026-10-07 - Recorded Qodo 3.0 (October 1, 2026): PR Triage research preview, swarm review, PR Insights, and the quality-control-for-the-agentic-software-factory positioning; repo and install-badge counts refreshed.
 
 ## See also
 
@@ -109,9 +111,10 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 - https://github.com/qodo-ai/pr-agent - README: donation to the community, tools table, platforms, release notes, sponsor status, "legacy project" wording.
 - https://docs.pr-agent.ai/tools/ - the full OSS command surface, including the /help_docs disabling.
 - https://www.qodo.ai/ - positioning, context engine, rules system, self-reported benchmark claim, credit FAQ, install badges.
-- https://www.qodo.ai/pricing/ - Pro Team $30, $0.012 per credit, pack sizes, plan comparison, no permanent free tier, credits expiring monthly; the page HTML confirmed the $30 plan and the 30-user cap on 2026-10-06, while the $0.012 figure renders client-side and was last confirmed in page text 2026-09-21.
+- https://www.qodo.ai/pricing/ - Pro Team $30, $0.012 per credit, pack sizes, plan comparison, no permanent free tier, credits expiring monthly; the page text confirmed the $0.012 rate, the pack sizes, and the 30-user cap on 2026-10-07, while the $30 sticker did not appear in the text fetched that day (last seen in page HTML 2026-10-06).
 - https://www.qodo.ai/blog/introducing-qodos-agentic-toolbox/ - the Agentic Toolbox launch post, September 9, 2026, skills and plugin surface.
 - https://www.qodo.ai/blog/introducing-qodos-software-map/ - the Software Map beta launch post, September 15, 2026, blast radius and contracts as review-agent context.
+- https://www.qodo.ai/blog/what-every-software-factory-needs-that-no-model-will-provide/ - the Qodo 3.0 announcement essay, October 1, 2026: PR Triage research preview, swarm review, PR Insights, Gerrit and on-prem surfaces, the wisdom-base positioning.
 - https://www.qodo.ai/solutions/open-source/ - free commercial review for qualified OSS projects.
 - https://www.qodo.ai/blog/qodo-powered-by-testgpt-accounces-beta-and-raised-11m/ - the $11M seed and the original test-generation mission (the codium.ai URL now redirects here).
 - https://techcrunch.com/2024/09/30/qodo-raises-40m-series-a-to-bring-quality-first-code-generation-to-the-enterprise/ - the $40M Series A, $50M total, and the CodiumAI-to-Qodo rename.

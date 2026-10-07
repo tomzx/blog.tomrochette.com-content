@@ -24,8 +24,8 @@ The Launch HN title calls it an "OSS sandboxed agent harness for teams", and tha
 
 ## Status
 
-Very active: v2.7.0 released October 3, 2026, adding Salesforce and new app integrations, readable approval cards, `send_file`, and agent-to-agent messaging, five months after the v2.3-2.4 series, with v2.5.0 on September 3 and v2.6.0 five days after it.
-3,555 stars and 248 forks as of 2026-10-04, on a repository created March 8, 2026.
+Very active: v2.9.0 released October 6, 2026, the second of two releases that day (v2.8.0 added Google Drive folder permissions, Navan and Timeless apps, grouped Slack approvals, OAuth refresh hardening, and an egress guard; v2.9.0 added the Circleback integration, Navan paste cleaning, and agent API-docs hints), following v2.7.0 on October 3 and a v2.3-2.4 series five months ago, with v2.5.0 on September 3 and v2.6.0 five days after it.
+3,562 stars and 249 forks as of 2026-10-07, on a repository created March 8, 2026.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=onecli/onecli&type=date&theme=dark&legend=top-left" />
@@ -86,6 +86,7 @@ I think the prompt-based permission systems across every other harness in this s
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-04 - Recorded the v2.7.0 release (October 3), which added Salesforce and new app integrations, readable approval cards, send_file, and agent-to-agent messaging, and refreshed repository scale; pricing re-verified unchanged.
 - 2026-10-07 - Added the onecli/onecli star history chart to the Status section.
+- 2026-10-07 - Recorded the v2.8.0 and v2.9.0 releases (both October 6), which added Google Drive folder permissions, Navan and Timeless apps, grouped Slack approvals, OAuth refresh hardening, an egress guard, the Circleback integration, Navan paste cleaning, and agent API-docs hints, and refreshed repository counters.
 
 ## See also
 
@@ -97,8 +98,8 @@ I think the prompt-based permission systems across every other harness in this s
 
 ## References
 
-- https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-10-04
-- https://github.com/onecli/onecli/releases - release cadence through v2.7.0 on October 3, 2026
+- https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-10-07
+- https://github.com/onecli/onecli/releases - release cadence through v2.9.0 on October 6, 2026
 - https://onecli.sh - product positioning, gateway model, and free tier as of 2026-09-22
 - https://onecli.sh/pricing - tiers, BYOC versus hosted-model pricing, and seat limits as of 2026-10-06 (re-verified unchanged)
 - https://onecli.sh/docs - architecture: sandbox, gateway, policy, self-hosting

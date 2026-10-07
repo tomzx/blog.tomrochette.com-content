@@ -27,7 +27,7 @@ An embedded knowledge graph keeps decisions, constraints, bugs, and learnings qu
 
 ## Status
 
-Active and young: 110 stars, 4 forks, and 8 open issues as of 2026-10-06, created 2026-04-22, last pushed 2026-10-02, current PyPI version 0.3.3.
+Active and young: 110 stars, 4 forks, and 8 open issues as of 2026-10-07, created 2026-04-22, last pushed 2026-10-07, current PyPI version 0.3.3.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OktoLabsAI/okto-pulse&type=date&theme=dark&legend=top-left" />

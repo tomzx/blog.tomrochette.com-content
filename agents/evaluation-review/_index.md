@@ -15,9 +15,10 @@ Where quality control lives in the agent workflow: CI gates, dashboards, machine
 - [HarnessTax](harnesstax/index.md) - the UC Berkeley study that held seven models constant across three harnesses on SWE-bench Lite and Terminal-Bench, finding harness swaps cost up to 5x while success barely moves.
 - [Hunk](hunk/index.md) - Modem's MIT review-first terminal diff viewer, one annotated stream for the whole agent changeset, judging nothing itself.
 - [Jevals](jevals/index.md) - OpenLayer's MIT evals-and-guardrails library that swaps the LLM judge for typed Jev decision models, one calibrated request per trace.
-- [Langfuse](langfuse/index.md) - the MIT-core tracing and eval platform, 35.4k stars, inside ClickHouse since January with the proprietary ee/ split as the caution.
+- [Langfuse](langfuse/index.md) - the MIT-core tracing and eval platform, 35.5k stars, inside ClickHouse since January with the proprietary ee/ split as the caution.
 - [Phoenix](phoenix/index.md) - Arize's OTel-native observability and eval platform, self-hostable under an Elastic license.
 - [Plannotator](plannotator/index.md) - the local review surface that turns your annotations on agent plans and diffs into the agent's next instruction.
+- [ReviewBench](reviewbench/index.md) - GitHub's open AI-code-review benchmark: 219 public PRs, a multi-source golden set, Claude Sonnet 5 as judge, and a leaderboard whose scores publish only on maintainer approval.
 - [Workshop](workshop/index.md) - Raindrop's local debugger where the coding agent reads traces, writes evals, and fixes what fails.
 
 Its members are compared on shared rows in the [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md).
@@ -33,3 +34,4 @@ Its members are compared on shared rows in the [Evaluation and Review Feature Ma
 - 2026-09-18 - Added HarnessTax.
 - 2026-10-06 - Added Jevals.
 - 2026-10-06 - Added Hunk.
+- 2026-10-07 - Added ReviewBench.

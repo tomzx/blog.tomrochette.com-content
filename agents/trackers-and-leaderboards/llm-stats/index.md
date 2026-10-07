@@ -23,7 +23,7 @@ It is operated by ZeroEval Inc., which describes itself as building "the indepen
 
 ## Status
 
-Actively maintained: the methodology page was modified 2026-09-02, the docs repository was pushed 2026-09-08, and the news page is titled by the current month.
+Actively maintained: the methodology page was modified 2026-09-02, the docs repository was pushed 2026-09-08, and the news page is titled by the current day ("LLM News Today").
 Traction is modest but growing: two small Show HNs (3 and 7 points), 20 HN comments referencing the site, and a small GitHub org, with self-reported reach (people at OpenAI, Anthropic, Google, Meta, "400,000+ more") that cannot be verified.
 The corporate backing is self-displayed: a "Backed by" strip on zeroeval.com lists Y Combinator, Hugging Face, Harvard Medical, Google, and Datadog.
 
@@ -79,9 +79,9 @@ My disagreeable claim: the MCP server is the most consequential feature introduc
 
 ## References
 
-- https://llm-stats.com/ - homepage: 400 canonical models, composite score, task boards, newsletter (re-fetched 200, 2026-10-06, still 400 canonical models, leaderboard showing 1-15 of 400)
+- https://llm-stats.com/ - homepage: 400 canonical models, composite score, task boards, newsletter (re-fetched 200, 2026-10-07, still 400 canonical models, leaderboard showing 1-15 of 400)
 - https://llm-stats.com/methodology/llm-stats-score - score v3.1 construction, evidence policy, limitations, 2026-09-02 modification date (fetched 200, 2026-09-24)
-- https://llm-stats.com/developer - API and MCP endpoints, plan tiers and quotas, "updated within hours" claim (fetched 200, 2026-09-24)
+- https://llm-stats.com/developer - API and MCP endpoints, plan tiers and quotas, "updated within hours" claim (re-fetched 200, 2026-10-07, tiers and quotas unchanged)
 - https://llm-stats.com/about-us - founder Jonathan Chavez and the zeroeval relationship (fetched 200, 2026-09-24)
 - https://llm-stats.com/ai-news - the news feed and self-reported reach claim (fetched 200, 2026-09-24)
 - https://zeroeval.com - ZeroEval Inc. description, product list, self-displayed "Backed by" strip (fetched 200, 2026-09-24)

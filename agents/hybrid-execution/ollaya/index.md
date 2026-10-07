@@ -16,15 +16,15 @@ Ollaya is an Apache-2.0 local runtime and model hub, built in the image of Ollam
 
 ## What it is
 
-One binary (a desktop app, a CLI, and a Docker image) for macOS, Windows, and Linux that exposes `/v1/systemone`, `/v1/decisions`, and `/v1/models` with TypeSafe's request and response shapes, so the official TypeSafe Python SDK 0.7.1 runs unchanged against localhost.
+One binary (a desktop app, a CLI, and a Docker image) for macOS, Windows, and Linux that exposes `/v1/systemone`, `/v1/decisions`, and `/v1/models` with TypeSafe's request and response formats, so the official TypeSafe Python SDK 0.7.1 runs unchanged against localhost.
 The library spans encoder-based families (laya, nli, gliclass, von, qwen3guard) that answer in 10 to 20 milliseconds on a CPU, and decoder-based families (winnow, clef, kev, decider, nimble, jeb, jeeves, cygnet) up to 12B.
 Weights are pulled from each author's Hugging Face repository pinned to a commit and checked against sha256, never re-hosted.
 It runs on ONNX Runtime over the CPU or an NVIDIA GPU (CUDA 13 or 12, Vulkan), with MLX on Apple silicon for laya and nli, and it is an independent project by Mert Cobanov, not affiliated with Ollama or TypeSafe.
 
 ## Status
 
-**Thirteen days old, beta, and already the wave's default front door.**
-The repository was created 2026-09-23 and shows 1,209 stars and 69 forks as of 2026-10-06, pushed 2026-10-05.
+**Fourteen days old, beta, and already the wave's default front door.**
+The repository was created 2026-09-23 and shows 1,226 stars and 71 forks as of 2026-10-07, pushed 2026-10-06.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ollaya-dev/ollaya&type=date&theme=dark&legend=top-left" />
@@ -48,7 +48,7 @@ Its head-to-head numbers are self-run but use Bespoke Labs' public benchmark wit
 - **The accuracy and latency comparisons are self-run on two disclosed consumer machines, and the hosted-Jev comparison imports third-party benchmark numbers measured elsewhere, which the site itself says to read only as orders of magnitude.**
 - Beta software with one named developer carrying it, so bus factor is one.
 - The library mixes strong and weak models by design (its own table scores laya:en at 0.361 on typed decisions), so the runtime does not save you from model choice.
-- API compatibility is to the published shapes, not to the closed model: point the TypeSafe SDK at Ollaya and you get open-model quality, not Jev's.
+- API compatibility is to the published formats, not to the closed model: point the TypeSafe SDK at Ollaya and you get open-model quality, not Jev's.
 
 ## Pricing
 
@@ -72,6 +72,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 - 2026-10-06 - Created from the entrant scan after the 2026-09-25 Show HN thread cleared the bar (618 points, 1.2k stars in ten days, and a parity-checked results page).
 - 2026-10-06 - Corrected the age claim (created 2026-09-23, thirteen days old, not three weeks) and refreshed stars to 1,209.
 - 2026-10-07 - Added the ollaya-dev/ollaya star history chart to the Status section.
+- 2026-10-07 - Reworded two pre-existing "shapes" compounds to "formats" (the TypeSafe request and response formats, the published formats) to keep the banned-terms rule.
 
 ## See also
 
@@ -84,7 +85,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 ## References
 
 - https://ollaya.dev/ - product surface: endpoints, model families, platforms, the Ollama comparison table, Apache-2.0 licensing
-- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,209 stars, 69 forks, pushed 2026-10-05 (GitHub API, as of 2026-10-06)
+- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,226 stars, 71 forks, pushed 2026-10-06 (GitHub API, as of 2026-10-07)
 - https://ollaya.dev/results - the measurement page: 26 models, 73,720 benchmark answers, 41,352 parity checks, disclosed machines, newest measurement 2026-10-02
 - https://ollaya.dev/docs/typesafe-compatibility - the wire-identical TypeSafe API documentation, including SDK 0.7.1 compatibility
 - https://news.ycombinator.com/item?id=49848269 - the 618-point launch thread (2026-09-25)

@@ -23,7 +23,7 @@ The authors promise a public release of profiling traces, and the repository car
 
 ## Status
 
-New and already the most-discussed artifact in this category's week: the study surfaced on Hacker News on 2026-09-16 and drew 233 points and 98 comments as of 2026-10-06.
+New and already the most-discussed artifact in this category's week: the study surfaced on Hacker News on 2026-09-16 and drew 233 points and 99 comments as of 2026-10-07.
 The repository was created 2026-09-14 and pushed 2026-10-05 (a dashboard build republication; the profiling traces remain unpublished), with 1 star, because the study page is the artifact and the code is just its vehicle, and its GitHub description now brands it AgentBRANE, a benchmark dashboard for harness-and-model pairs.
 
 <picture>

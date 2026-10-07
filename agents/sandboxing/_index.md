@@ -18,7 +18,12 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 - [CubeSandbox](cubesandbox/index.md) - Tencent's E2B-compatible RustVMM/KVM microVM sandbox, sub-60ms boots, its traction built on launch announcements rather than community discussion.
 - [Drop](drop/index.md) - the rootless namespace sandbox that reuses your installed Linux distro instead of an image or VM, optional gVisor underneath.
 - [E2B](e2b/index.md) - the hosted Firecracker-microVM sandbox API the category's self-hosted members measure themselves against, with its runtime now open source.
+- [Fence](fence/index.md) - Tusk's container-free CLI wrapping any command or agent in sandbox-exec or bubblewrap, Landlock, and seccomp, one fence.json, deny-by-default network.
 - [Flue](flue/index.md) - the Astro team's agent framework whose contribution is a three-tier sandbox taxonomy and durable execution.
+- [Microsandbox](microsandbox/index.md) - the libkrun microVM runtime with container workflows, agent-created sandboxes via skills and MCP, and the category's largest HN launch.
+- [NemoClaw](nemoclaw/index.md) - NVIDIA's Apache-2.0 reference stack that installs, hardens, and operates OpenClaw, Hermes, and LangChain Deep Agents inside OpenShell sandboxes with managed inference and lifecycle ops.
+- [nono](nono/index.md) - the Sigstore team's kernel capability sandbox that brokers each delegated tool separately and proxies credentials scoped per endpoint.
+- [NVX](nvx/index.md) - Microsoft's OpenVMM research sandbox for agentic workloads with Windows hypervisor paths and limits docs that name what the ABI does not do.
 - [OpenSandbox](opensandbox/index.md) - the Apache-2.0 general sandbox platform (SDKs, CLI, MCP, K8s runtimes) that grew on GitHub trend charts, not Hacker News.
 - [OpenShell](openshell/index.md) - NVIDIA's container-and-MicroVM runtime where declarative policy and inference-proxy keys make the boundary credible.
 
@@ -37,3 +42,8 @@ Its members are compared on shared rows in the [Sandboxing Feature Matrix](sandb
 - 2026-09-29 - Added Drop.
 - 2026-10-06 - Added Brig.
 - 2026-10-06 - Added E2B.
+- 2026-10-07 - Added nono.
+- 2026-10-07 - Added Microsandbox.
+- 2026-10-07 - Added Fence.
+- 2026-10-07 - Added NVX.
+- 2026-10-07 - Added NemoClaw.

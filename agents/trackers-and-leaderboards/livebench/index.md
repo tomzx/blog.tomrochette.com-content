@@ -17,7 +17,7 @@ LiveBench is a public LLM benchmark and leaderboard that limits test-set contami
 
 ## What it is
 
-An open-source benchmark (github.com/LiveBench/LiveBench, 1,339 stars as of 2026-10-06) with a leaderboard at livebench.ai, created by Colin White and collaborators including Yann LeCun, Tom Goldstein, and Micah Goldblum, and maintained day to day by Abacus.AI engineers.
+An open-source benchmark (github.com/LiveBench/LiveBench, 1,339 stars as of 2026-10-07) with a leaderboard at livebench.ai, created by Colin White and collaborators including Yann LeCun, Tom Goldstein, and Micah Goldblum, and maintained day to day by Abacus.AI engineers.
 The design (an ICLR 2025 Spotlight paper) calls for monthly question releases drawn from recent sources (math competitions, arXiv papers, news articles, movie synopses), a verifiable ground-truth answer per question, and about 1,000 questions across 6 categories and 18 tasks.
 An agentic coding category joined in May 2025: models work through repository tasks in Docker containers using the Mini-SWE-Agent harness at a 250-step limit.
 The evaluation offer is unusually direct: open a GitHub issue or email the team, and they will run your model.
@@ -25,7 +25,7 @@ All questions, model answers, and model judgments are published on Hugging Face.
 
 ## Status
 
-Active, but its defining cadence has slipped: the repository was pushed 2026-09-29 (adding GPT-6.1 Sol and Grok 4.7 configurations under a config gate that requires dated pricing citations), yet the changelog's newest question release is 2026-01-08, and releases that came monthly through 2024 have arrived in bursts since.
+Active, but its defining cadence has slipped: the repository was pushed 2026-10-07 (adding Mistral Large 4 evaluation configurations, the latest entries in a config gate that requires dated pricing citations), yet the changelog's newest question release is 2026-01-08, and releases that came monthly through 2024 have arrived in bursts since.
 That gap matters because the September-October release wave (GPT-6, Claude Opus 5.5, Gemini 4 Argon) shipped onto a question set that has been frozen for nine months.
 Community footprint is thin on HN (the launch thread drew 6 points and 0 comments) even though model cards and release posts cite LiveBench scores routinely.
 The leaderboard site is a client-rendered app, so automated fetchers see only the title; the fetchable surfaces are the repository, the changelog, and the Hugging Face datasets.
@@ -80,10 +80,10 @@ My disagreeable claim: the rotation gap is the number that matters most in this 
 
 ## References
 
-- https://api.github.com/repos/LiveBench/LiveBench - repository metadata: 1,339 stars, pushed 2026-09-29, license listed as Other (fetched 200, 2026-10-06)
+- https://api.github.com/repos/LiveBench/LiveBench - repository metadata: 1,339 stars as of 2026-10-07, pushed 2026-10-07, license listed as Other (re-fetched 200, 2026-10-07)
 - https://raw.githubusercontent.com/LiveBench/LiveBench/main/README.md - design, 6 categories and 18 tasks, the evaluation offer, the stale release note, the unmaintained local-inference path, and the 150GB agentic warning (fetched 200, 2026-10-06)
 - https://raw.githubusercontent.com/LiveBench/LiveBench/main/changelog.md - release history: monthly through 2024, agentic category 2025-05-30, Mini-SWE-Agent switch 2025-10-03, newest question set 2026-01-08, and the 46% GPT-4-Turbo judge-error figure (fetched 200, 2026-10-06)
 - https://arxiv.org/abs/2406.19314 - the paper: ICLR 2025 Spotlight, the 18-author list including LeCun, and the Contamination-Free to Contamination-Limited title change (fetched 200, 2026-10-06)
-- https://api.github.com/repos/LiveBench/LiveBench/commits?per_page=6 - 2026 activity: GPT-6.1 Sol and Grok 4.7 configs merged with dated pricing citations under the config gate (fetched 200, 2026-10-06)
+- https://api.github.com/repos/LiveBench/LiveBench/commits?per_page=6 - 2026 activity: the late-September and October runs add GPT-6.1 Sol, Grok 4.7, and Mistral Large 4 configurations with dated pricing citations under the config gate (re-fetched 200, 2026-10-07)
 - https://hn.algolia.com/api/v1/search?query=livebench&tags=story - the thin HN footprint: launch thread at 6 points, 0 comments (fetched 200, 2026-10-06)
 - https://livebench.ai/ - the leaderboard surface, recorded as a client-rendered app that returned only its title to this fetch (fetched 200, 2026-10-06)

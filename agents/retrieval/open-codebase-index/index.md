@@ -24,7 +24,7 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
 ## Status
 
 **Active and shipping constantly, with almost no community footprint.**
-215 stars and 34 forks since 2026-01-13, 1,023 commits, pushed 2026-10-06 (GitHub API, as of 2026-10-06).
+216 stars and 34 forks since 2026-01-13, 1,023 commits, pushed 2026-10-06 (GitHub API, as of 2026-10-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&legend=top-left" />
 </picture>
 
-npm shows 27 versions since 2026-07-30, latest 0.35.2 published 2026-10-05, and 6,674 downloads in the month of 2026-09-05 to 2026-10-04, so installs run well ahead of stars.
+npm shows 28 versions since 2026-07-30, latest 0.35.3 published 2026-10-06, and 6,674 downloads in the month of 2026-09-05 to 2026-10-04, so installs run well ahead of stars.
 A search for its name on Hacker News returned zero hits as of 2026-10-05, so like graft and Knowhere in this section, adoption is quiet and distribution runs from README to install, not from launches.
 
 ## Strengths
@@ -70,6 +70,7 @@ My disagreeable claim: a 6,000-installs-a-month npm package with zero discussion
 
 - 2026-10-05 - Created in the daily refresh's retrieval entrant scan.
 - 2026-10-07 - Added the Helweg/open-codebase-index star history chart to the Status section.
+- 2026-10-07 - Recorded npm release 0.35.3 (published 2026-10-06, 28 versions total) and refreshed the repository numbers to 216 stars as of 2026-10-07; downloads and the zero-HN-footprint claim unchanged.
 
 ## See also
 
@@ -80,9 +81,9 @@ My disagreeable claim: a 6,000-installs-a-month npm package with zero discussion
 
 ## References
 
-- https://github.com/Helweg/open-codebase-index - repository: 215 stars, 34 forks, MIT, created 2026-01-13, pushed 2026-10-06, 1,023 commits (GitHub API, as of 2026-10-06)
+- https://github.com/Helweg/open-codebase-index - repository: 216 stars, 34 forks, MIT, created 2026-01-13, pushed 2026-10-06, 1,023 commits (GitHub API, as of 2026-10-07)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/README.md - hosts, highlights, pipeline, embedding providers, legacy package aliases (fetched 2026-10-05)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/docs/tools.md - the host surface matrix: 16 portable tools, 3 knowledge-base tools, 5 MCP prompts (fetched 2026-10-05)
-- https://registry.npmjs.org/open-codebase-index - latest 0.35.2 published 2026-10-05, 27 versions since 2026-07-30, MIT (re-verified unchanged 2026-10-06)
+- https://registry.npmjs.org/open-codebase-index - latest 0.35.3 published 2026-10-06, 28 versions since 2026-07-30, MIT (re-verified 2026-10-07)
 - https://api.npmjs.org/downloads/point/last-month/open-codebase-index - 6,674 downloads, window 2026-09-05 to 2026-10-04 (fetched 2026-10-06)
 - https://hn.algolia.com/api/v1/search?query=%22open-codebase-index%22&tags=story - the zero-hit footprint scan (fetched 2026-10-05)

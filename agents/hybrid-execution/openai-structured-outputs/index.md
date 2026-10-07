@@ -87,9 +87,9 @@ Not for schemas that genuinely need numeric ranges, pervasive optional keys, or 
 
 ## References
 
-- https://platform.openai.com/docs/guides/structured-outputs - primary guide: strict mode, text.format vs function calling, JSON mode comparison, model support
+- https://developers.openai.com/api/docs/guides/structured-outputs - primary guide: strict mode, text.format vs function calling, JSON mode comparison, model support (canonical after the platform.openai.com move; verified 200 on 2026-10-07)
 - https://cookbook.openai.com/examples/structured_outputs_intro - official cookbook: refusal handling and the Pydantic parse helper
-- https://platform.openai.com/docs/pricing - per-model token rates, no structured-outputs surcharge, batch discounts (fetched 2026-10-06, gpt-6-luna example unchanged)
+- https://platform.openai.com/docs/pricing - per-model token rates, no structured-outputs surcharge, batch discounts (fetched 2026-10-06 and re-fetched at the developers.openai.com canonical URL 2026-10-07, gpt-6-luna example unchanged)
 - https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/ - the DevDay 2026 report grounding the Decisions API announcement line (fetched 2026-10-06)
 - https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent launch analysis with schema-subset limits and OpenAI staff quotes on latency and loop failures
 - https://docs.claude.com/en/docs/build-with-claude/structured-outputs - cross-vendor comparison point for mechanism and schema limits

@@ -14,11 +14,13 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 - [AlphaProof](alphaproof/index.md) - DeepMind's Lean reinforcement-learning solver, from IMO silver in 2024 to officially graded IMO gold via Deep Think in 2025.
 - [Anthropic Claude mathematical research](anthropic-claude-math/index.md) - the Claude Code subagent loop that raised the zeta zero bound to 67.2 percent and formalized Fermat's Last Theorem in 11 days.
 - [FutureHouse Robin](futurehouse-robin/index.md) - the nonprofit's Nature-published wet-lab loop that proposed and validated ripasudil for dry AMD, with people at the bench and its own ablations as the critique, 730 stars as of 2026-10-06.
+- [GPT Researcher](gpt-researcher/index.md) - the Apache-2.0 open deep-research agent running the plan-search-filter-write loop on any LLM since 2023, cited in 150-plus papers as the baseline, 29.9k stars as of 2026-10-07.
 - [Harmonic Aristotle](harmonic-aristotle/index.md) - the free agentic theorem prover with a Lean-checked Erdős result, now aimed at software correctness, judged and contested on FormalQualBench.
+- [Local Deep Research](local-deep-research/index.md) - the community's MIT local-first research agent running an agentic search loop over arXiv, PubMed, and your own encrypted document index on local models, 9,159 stars as of 2026-10-07.
 - [Math Inc. Gauss](math-inc-gauss/index.md) - the autoformalization agent behind Strong PNT and the sphere-packing proof, with the comparator-audited OpenGauss harness, as of 2026-09-13.
 - [OpenAI Deep Research](openai-deep-research/index.md) - the productized web-research agent, the breadth-first loop with no machine judge behind it.
 - [OpenAI for Science](openai-for-science/index.md) - the lab program from FrontierMath's first open-problem solve to the disputed Navier-Stokes claim, as of 2026-09-13.
-- [OpenResearch](openresearch/index.md) - alphaXiv's MIT local-first workspace that turns Claude Code, Codex, OpenCode, Cursor, or Antigravity into research agents with an experiment tree and an autonomous loop, 6,642 stars as of 2026-10-06.
+- [OpenResearch](openresearch/index.md) - alphaXiv's MIT local-first workspace that turns Claude Code, Codex, OpenCode, Cursor, or Antigravity into research agents with an experiment tree and an autonomous loop, 6,687 stars as of 2026-10-07.
 - [Pion](pion/index.md) - Andon Labs' closed research preview where persistent agents run a real business with payment tools, the Vending-Bench lineage made product.
 
 Its members are compared on shared rows in the [Automated Research Feature Matrix](automated-research-feature-matrix/index.md).
@@ -35,3 +37,5 @@ Its members are compared on shared rows in the [Automated Research Feature Matri
 - 2026-09-27 - Added Agon.
 - 2026-10-05 - Added OpenResearch.
 - 2026-10-06 - Added FutureHouse Robin.
+- 2026-10-07 - Added Local Deep Research.
+- 2026-10-07 - Added GPT Researcher.

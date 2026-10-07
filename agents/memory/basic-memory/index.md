@@ -26,7 +26,7 @@ The cloud adds cross-device sync, browser and mobile access, and a shared Teams 
 ## Status
 
 **Active and mid-scale, with a thin public-discussion footprint.**
-4,104 stars with the repository pushed 2026-10-06, created 2024-12-02, as of 2026-10-06 (GitHub API).
+4,108 stars with the repository pushed 2026-10-07, created 2024-12-02, as of 2026-10-07 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ The Hacker News record is a 4-point Show HN in March 2025 (0 comments) and a 2-p
 ## Cautions
 
 - **AGPL-3.0 is the only non-permissive local license in this category**: fine to use, restrictive if you embed the server in a product.
-- The $15/month cloud rate is a "locked for life" beta offer, a sign-up-now deal that invites later repricing for anyone joining after the beta.
+- **The beta's locked-for-life cloud rate was retired within a day of this note's creation**: the ladder is now per-seat Team and Business tiers, which is exactly the repricing the beta language invited, so treat early rates here as non-binding.
 - PyPI lags the repository by weeks, so current fixes mean installing from source.
 - The knowledge graph is only as good as the agent's linking discipline, the same statistical-adherence problem the file conventions have, with a graph view added.
 - Public scrutiny is thin: two threads totaling 6 points, no independent reviews found.
@@ -55,13 +55,17 @@ The Hacker News record is a 4-point Show HN in March 2025 (0 comments) and a 2-p
 ## Pricing
 
 Local server: free, AGPL-3.0, all data on your disk.
-Cloud: $15/month (beta rate locked for life; $12.50/month billed yearly), 7-day free trial; Teams at the same per-user price with a shared workspace.
+Team: $15/seat/month (volume pricing $13/seat at 10 or more, $12 at 20 or more), 7-day trial, shared workspaces with roles and member management.
+Business: $30/seat/month, adding SSO, audit logs, admin controls, HIPAA-compliant hosting, and priority support.
+Agent Infrastructure: custom, credit-based pricing for agent fleets with on-premises options, as of 2026-10-07.
+The $15/month locked-for-life beta is gone.
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-10-06 | Cloud, Teams | Baseline: local free (AGPL-3.0), Cloud $15/mo beta locked ($12.50/mo yearly), 7-day trial, Teams same per-user price. | [basicmemory.com](https://basicmemory.com) |
+| 2026-10-07 | Team, Business, Agent Infrastructure | The locked-for-life beta retired: Team $15/seat/mo (volume $13/seat at 10+, $12 at 20+), Business $30/seat/mo (SSO, audit, HIPAA hosting), Agent Infrastructure custom credits. | [basicmemory.com/pricing](https://basicmemory.com/pricing) |
 
 ## Compared to
 
@@ -72,12 +76,13 @@ Cloud: $15/month (beta rate locked for life; $12.50/month billed yearly), 7-day 
 ## Bottom line
 
 **Recommended for solo Claude or Codex users who want durable, Obsidian-editable agent memory without running a graph stack.**
-Not for products embedding a memory engine (AGPL), or teams needing multi-user governance today (Teams is early and thin).
+Not for products embedding a memory engine (AGPL); teams get live shared workspaces with roles, though governance tooling (SSO, audit logs) starts at the $30 Business seat.
 
 ## Changes
 
 - 2026-10-06 - Created from the 2026-10-06 entrant scan, with six fetched sources and the thin-discussion footprint plus the beta-pricing terms recorded as the critical angles.
 - 2026-10-07 - Added the basicmachines-co/basic-memory star history chart to the Status section.
+- 2026-10-07 - The cloud pricing restructured: the $15/mo locked-for-life beta retired in favor of Team $15/seat/mo with volume tiers, a new Business $30/seat/mo tier, and a custom credit-based Agent Infrastructure tier (Price history row); Teams moved from early to live with roles; the beta-repricing caution rewritten.
 
 ## See also
 
@@ -88,9 +93,10 @@ Not for products embedding a memory engine (AGPL), or teams needing multi-user g
 
 ## References
 
-- https://github.com/basicmachines-co/basic-memory - repository, 4,104 stars, activity, AGPL-3.0, as of 2026-10-06
+- https://github.com/basicmachines-co/basic-memory - repository, 4,108 stars, activity, AGPL-3.0, as of 2026-10-07
 - https://raw.githubusercontent.com/basicmachines-co/basic-memory/main/README.md - architecture, features, the cloud pricing banner, and the Teams announcement
 - https://basicmemory.com - product site and cloud offering
+- https://basicmemory.com/pricing - the Team, Business, and Agent Infrastructure ladder, as of 2026-10-07
 - https://pypi.org/pypi/basic-memory/json - basic-memory 0.23.2 (2026-08-25), the registry lag record
 - https://hn.algolia.com/api/v1/items/43374258 - the March 2025 Show HN (4 points, 0 comments)
 - https://hn.algolia.com/api/v1/items/47091810 - the February 2026 third-party story (2 points), the thin-discussion record

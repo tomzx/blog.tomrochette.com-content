@@ -24,7 +24,7 @@ It also ships refineries, pipelines stored in a local SQLite database, a self-ho
 ## Status
 
 The open source library is active and widely used; the company around it has visibly moved on.
-The repository shows 4,783 stars, a push on 2026-10-03, and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,255,276 downloads in the last month (as of 2026-10-06); the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-10-03.
+The repository shows 4,784 stars and a push on 2026-10-03 as of 2026-10-07, and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,255,276 downloads in the last month (pypistats returned 429 on 2026-10-07, so the figure stands as of 2026-10-06); the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=feyninc/chonkie&type=date&theme=dark&legend=top-left" />
@@ -84,7 +84,7 @@ My disagreeable claim: Chonkie's real innovation was packaging, not algorithms, 
 
 ## References
 
-- https://github.com/feyninc/chonkie - repository: 4,783 stars, MIT, created 2025-03-29, pushed 2026-10-03 (GitHub API, as of 2026-10-06)
+- https://github.com/feyninc/chonkie - repository: 4,784 stars, MIT, created 2025-03-29, pushed 2026-10-03 (GitHub API, as of 2026-10-07)
 - https://raw.githubusercontent.com/feyninc/chonkie/main/README.md - chunker table, 505KB core, self-hosted API server, stale Cloud link
 - https://pypi.org/pypi/chonkie/json - version 1.7.0 (2026-07-07), 62 releases, Python >=3.10, MIT
 - https://pypistats.org/api/packages/chonkie/recent - 1,255,276 downloads last month, as of 2026-10-06

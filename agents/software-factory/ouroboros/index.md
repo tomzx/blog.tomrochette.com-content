@@ -23,7 +23,7 @@ MIT, by Ouro Labs (Q00), solo-maintained with around 80 contributors.
 
 ## Status
 
-Very young, very active: 6,184 stars, 622 forks, 91 open issues as of 2026-10-06, created 2026-01-14, pushed 2026-10-05.
+Very young, very active: 6,189 stars, 623 forks, 93 open issues as of 2026-10-07, created 2026-01-14, pushed 2026-10-06.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&theme=dark&legend=top-left" />
@@ -31,8 +31,9 @@ Very young, very active: 6,184 stars, 622 forks, 91 open issues as of 2026-10-06
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.55.4 on 2026-10-02, three patch bumps past the 0.55.0 minor release of 2026-09-28, with about 26 PyPI releases in the last seven weeks; PyPI self-labels it Beta.
-**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-10-06.**
+Latest release v0.55.6 on 2026-10-06, five patch bumps past the 0.55.0 minor release of 2026-09-28, with 21 PyPI releases in the seven weeks to 2026-10-07; PyPI self-labels it Beta.
+**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-10-07.**
+An unrelated arXiv paper shares the name (a self-developing coding agent, arXiv 2608.08311), which muddies coverage searches for this project.
 
 ## Strengths
 
@@ -45,7 +46,7 @@ Latest release v0.55.4 on 2026-10-02, three patch bumps past the 0.55.0 minor re
 
 - The semantic judge is an LLM, and consensus voting triggers only under six conditions, so a worker tuned to satisfy a predictable judge is not fully ruled out.
 - The ambiguity, drift, and similarity scores are LLM self-assessments and heuristics; the docs themselves call the thresholds defaults worth arguing with.
-- Beta churn: about 26 releases in seven weeks, documented breakage below specific versions, and an extras matrix with install warnings.
+- Beta churn: 21 releases in the seven weeks to 2026-10-07, documented breakage below specific versions, and an extras matrix with install warnings.
 - The loop spends real tokens on evaluation, which is the price of the gate.
 
 ## Pricing
@@ -74,6 +75,7 @@ Not for quick edits, for teams needing proven evaluation rigor, or for anyone wh
 - 2026-10-02 - Recorded the v0.55.3 release (2026-09-30) and refreshed counts (6,165 stars, 620 forks, 87 open issues).
 - 2026-10-03 - Recorded the v0.55.4 release (2026-10-02) and refreshed counts (6,174 stars, 622 forks, 88 open issues).
 - 2026-10-07 - Added the Q00/ouroboros star history chart to the Status section.
+- 2026-10-07 - Recorded the v0.55.5 and v0.55.6 releases (both 2026-10-06) and refreshed counts; noted the same-named arXiv project that muddies coverage searches.
 
 ## See also
 
@@ -90,4 +92,5 @@ Not for quick edits, for teams needing proven evaluation rigor, or for anyone wh
 - https://pypi.org/project/ouroboros-ai/ - release cadence and beta status
 - https://ouroboros.page/roadmap/ - claim-status policy and the conditional enterprise plans
 - https://ouroboros.page/ - official docs and Ouro Labs attribution
+- https://arxiv.org/abs/2608.08311 - the unrelated same-named coding-agent paper that complicates coverage searches
 - https://hn.algolia.com/api/v1/search?query=Q00%2Fouroboros&tags=story - the thin independent-discussion footprint this note records

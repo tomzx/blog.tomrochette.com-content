@@ -1,7 +1,7 @@
 ---
 title: Armin Ronacher
 created: 2026-09-24
-updated: 2026-09-30
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, skepticism, llm-tooling]
 readability: 3
@@ -23,7 +23,7 @@ He also ships agent tooling himself, including the agent-stuff repository of com
 ## Status
 
 Active and near the peak of his relevance.
-As of 2026-09-30 the homepage lists eleven essays between 4 July and 29 September 2026, led by "Deser: Rethinking Rust Serialization" (29 September), and including "Astra for Coding: Why Are We Doing This Again?" (7 September), "The Tower Keeps Rising" on vibecoding and team coordination (13 July), and "Better Models: Worse Tools" on Claude tool-call regressions (4 July).
+As of 2026-10-07 the homepage lists twelve essays between 4 July and 6 October 2026, led by "What is Codemode" (6 October), his explainer of the codemode extension layer behind pi 1.0's MCP support (sandboxed JavaScript in the harness that composes tool calls, exposes image-generation and classifier APIs, and mediates MCP servers), and including "Deser: Rethinking Rust Serialization" (29 September), "Astra for Coding: Why Are We Doing This Again?" (7 September), "The Tower Keeps Rising" on vibecoding and team coordination (13 July), and "Better Models: Worse Tools" on Claude tool-call regressions (4 July).
 He runs Earendil after a decade building Sentry, and is based in Vienna.
 The essays reliably reach the Hacker News front page: "996" drew 1,058 points, "Some things just take time" 853, "Before GitHub" 680, and "The Tower Keeps Rising" 558 points with 269 comments, while the Astra essay reached 456 points and 342 comments (all as of 2026-09-24).
 
@@ -64,6 +64,7 @@ Not for daily tool churn, model news, or anyone who wants enthusiasm without inv
 - 2026-09-24 - Created after two earlier runs deferred him as a duplicate voice; the owner commissioned this note to pin the skeptical senior-engineer slot.
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-09-30 - Newest-post check refreshed: the homepage now leads with "Deser: Rethinking Rust Serialization" (2026-09-29), bringing the July-to-September essay count to eleven.
+- 2026-10-07 - Newest-post check refreshed: "What is Codemode" (2026-10-06), his explainer of pi 1.0's MCP-via-codemode layer, makes twelve essays between July 4 and October 6, 2026; added to References (URL fetched this run).
 
 ## See also
 
@@ -80,6 +81,7 @@ Not for daily tool churn, model news, or anyone who wants enthusiasm without inv
 - https://lucumr.pocoo.org/2026/9/7/astra-why/ - the Astra essay: software-factory costs, the involution framing, why he does not trust long-horizon models for engineering
 - https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/ - the tool-call regression analysis and the Claude-Code-trained-prior hypothesis
 - https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/ - the vibecoding and shared-language essay
+- https://lucumr.pocoo.org/2026/10/6/codemode/ - the 2026-10-06 codemode explainer: sandboxed harness-side JavaScript, the brain-versus-hands split, and what MCP through codemode still gets wrong
 - https://github.com/mitsuhiko - profile: 26.2k followers, pinned Flask and Pi repositories, agent-stuff, Earendil affiliation
 - https://hn.algolia.com/api/v1/search?query=lucumr&tags=story&hitsPerPage=10 - the Hacker News record of his essays and their point counts
 - https://hn.algolia.com/api/v1/items/49654229 - the Astra essay's 456-point, 342-comment discussion thread

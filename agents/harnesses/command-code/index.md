@@ -25,8 +25,8 @@ The company raised a $5 million seed led by Tom Preston-Werner, with Amjad Masad
 ## Status
 
 **Active and fast-growing in distribution, with an evidence base that is mostly the vendor's own.**
-The npm package's latest build is 1.74.3 (published October 5, 2026), the site's changelog counts 390 releases, and the package did 219,535 downloads in the last month (the API window covering September 5 to October 4, as of 2026-10-06).
-The `CommandCodeAI/command-code` repository has 4,097 stars as of 2026-10-06 (GitHub API) but hosts issues only: no source, no license, the client is closed.
+The npm package's latest build is 1.77.0 (published October 7, 2026, after 1.75.1 on October 6 and 1.76.0 the same day), the site's changelog counts 390 releases, and the package did 219,535 downloads in the last month (the API window covering September 5 to October 4, as of 2026-10-07).
+The `CommandCodeAI/command-code` repository has 4,104 stars as of 2026-10-07 (GitHub API) but hosts issues only: no source, no license, the client is closed.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=CommandCodeAI/command-code&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for open-client mandates, and not for anyone who needs independent evaluatio
 
 - 2026-10-05 - Created from the same-day entrant scan, with the site, pricing page, npm registry, repository, third-party review, and Hacker News record fetched.
 - 2026-10-07 - Added the CommandCodeAI/command-code star history chart to the Status section.
+- 2026-10-07 - Recorded the npm build train moving to 1.75.1, 1.76.0, and 1.77.0 (October 6-7) and refreshed repository counters.
 
 ## See also
 
@@ -93,9 +94,9 @@ Not for open-client mandates, and not for anyone who needs independent evaluatio
 
 - https://commandcode.ai/ - product surface, taste-1 claims, company positioning, and the $5M seed line (fetched 2026-10-05)
 - https://commandcode.ai/pricing - plan ladder, credits, Provider API plan, and Teams pricing, as of 2026-10-06 (re-verified unchanged)
-- https://registry.npmjs.org/command-code - latest build 1.74.3 published 2026-10-05, package created 2025-08-07 (verified via the registry API)
-- https://api.npmjs.org/downloads/point/last-month/command-code - 219,535 downloads, window September 5 to October 4, as of 2026-10-06
-- https://github.com/CommandCodeAI/command-code - issues-only repository, 4,097 stars, no source or license, as of 2026-10-06 (verified via the GitHub API)
+- https://registry.npmjs.org/command-code - latest build 1.77.0 published 2026-10-07, package created 2025-08-07 (verified via the registry API)
+- https://api.npmjs.org/downloads/point/last-month/command-code - 219,535 downloads, window September 5 to October 4, as of 2026-10-07
+- https://github.com/CommandCodeAI/command-code - issues-only repository, 4,104 stars, no source or license, as of 2026-10-07 (verified via the GitHub API)
 - https://techstackups.com/comparisons/coding-agent-harness-comparison-2026/ - the critical source: closed-source classification, funding details, ex-Langbase history, and the 48-hour launch-issue record (fetched 2026-10-05)
 - https://hn.algolia.com/api/v1/items/48031887 - the May 6, 2026 Show HN, 3 points (verified via the Algolia API)
 - https://hn.algolia.com/api/v1/items/49188656 - the August 5, 2026 GOAT-plan Show HN, 6 points

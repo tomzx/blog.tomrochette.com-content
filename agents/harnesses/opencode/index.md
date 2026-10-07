@@ -24,7 +24,7 @@ Providers are configured by API key; OpenCode Zen is the team's curated, tested 
 ## Status
 
 **Very active.**
-The repository moved from `sst` to `anomalyco/opencode` and shows about 211.9k stars and 28.2k forks under MIT as of 2026-10-06.
+The repository moved from `sst` to `anomalyco/opencode` and shows about 212.1k stars and 28.2k forks under MIT as of 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anomalyco/opencode&type=date&theme=dark&legend=top-left" />
@@ -49,7 +49,7 @@ OpenCode is the continuation that kept the name, the domain, and the community.
 - Pin your version and read the config.
 - In March 2026 [Anthropic legal requests](https://github.com/anomalyco/opencode/pull/18186) removed the Claude Pro/Max OAuth login and Anthropic-branded defaults, so your Claude subscription will not drive OpenCode; use API keys or Zen.
 - Fast-moving config surface; the docs carry 'versions older than 0.1.x' style of breaking-change warnings.
-- The docs now carry a "v2 is now available" banner linking to a v2 page, while GitHub releases remain on the v1.18.x train (v1.18.34, 2026-09-30), so the v2 launch is a docs-and-marketing channel ahead of a tagged release.
+- The docs now carry a "v2 is now available" banner linking to a v2 page, while GitHub releases remain on the v1.18.x train (v1.18.35, 2026-10-06), so the v2 launch is a docs-and-marketing channel ahead of a tagged release.
 - Windows works best under WSL.
 
 ## Pricing
@@ -89,7 +89,7 @@ Not for teams that need subscription billing simplicity or cannot audit a fast-m
 ## References
 
 - https://opencode.ai/docs/ - features, install, providers, Zen
-- https://github.com/anomalyco/opencode - repository scale, MIT license, desktop builds, as of 2026-10-06
+- https://github.com/anomalyco/opencode - repository scale, MIT license, desktop builds, as of 2026-10-07
 - https://github.com/anomalyco/opencode/pull/18186 - the March 2026 Anthropic legal-request removals
 - https://cy.md/opencode-rce/ - CVE-2026-22812 disclosure with versions and mitigations
 - https://securitylabs.datadoghq.com/articles/opencode-upgrade-remote-code-execution/ - the GHSA-632h-h47v-g4x4 disclosure (2026-09-24): attack flow, the 1.18.22 fix, and Anomaly's no-CVE reasoning, fetched 2026-10-04
