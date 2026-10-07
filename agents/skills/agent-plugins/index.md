@@ -26,13 +26,11 @@ Vercel initiated the proposal and refined it with AWS, Anysphere (Cursor), GitHu
 **Active and vendor-backed, and still under a year old.**
 The specification repository (agentplugins/agent-plugins-spec) shows 1,353 stars and 75 forks as of 2026-10-06, created 2026-04-03 and last pushed 2026-09-28, with the spec, JSON schemas, conformance suite, example plugin, and site in five public repos under one organization.
 
-<a href="https://www.star-history.com/?repos=agentplugins%2Fagent-plugins-spec&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentplugins/agent-plugins-spec&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=agentplugins/agent-plugins-spec&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentplugins/agent-plugins-spec&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentplugins/agent-plugins-spec&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=agentplugins/agent-plugins-spec&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentplugins/agent-plugins-spec&type=date&legend=top-left" />
+</picture>
 
 At launch, ChatGPT and Codex, Cursor, GitHub Copilot, Kiro, and VS Code supported the format, while Anthropic and Google appeared on neither the partner list nor the steering committee.
 In practice the `plugins` CLI translates the format into Claude Code, Codex, Cursor, GitHub Copilot, VS Code, Grok Build, and Kimi Code, so plugins install into Claude Code today even though Claude Code does not natively parse `plugin.json`.

@@ -28,13 +28,11 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
 
 **Active and shipping weekly, with a striking mismatch between stars and discussion.**
 
-<a href="https://www.star-history.com/?repos=Ontos-AI%2Fknowhere&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
+</picture>
 
 3,674 stars since 2026-04-30, latest release v1.2.22 on 2026-10-05 (following v1.2.21 the same day, and v1.2.20 on 2026-09-30), pushed 2026-10-05 (GitHub API, as of 2026-10-06).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.

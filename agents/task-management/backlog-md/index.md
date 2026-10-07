@@ -26,13 +26,11 @@ It is maintained under the MrLesk identity, with conference talks ([Devoxx Belgi
 Active and healthy at mid-scale.
 As of 2026-10-06: 6,938 stars, 81 open issues, pushed 2026-09-28, MIT-licensed, latest release v1.53.0 on 2026-09-24, 76,873 npm downloads last month.
 
-<a href="https://www.star-history.com/?repos=MrLesk%2FBacklog.md&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MrLesk/Backlog.md&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MrLesk/Backlog.md&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MrLesk/Backlog.md&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MrLesk/Backlog.md&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MrLesk/Backlog.md&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MrLesk/Backlog.md&type=date&legend=top-left" />
+</picture>
 
 The July 2025 [launch thread](https://news.ycombinator.com/item?id=44483530) reached 254 points, the largest HN footprint of the task trackers profiled in this section.
 

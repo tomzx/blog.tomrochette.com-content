@@ -27,13 +27,11 @@ Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sd
 **Active, preview-stage, and growing fast for a five-month-old repo.**
 2,000 stars and 69 forks as of 2026-10-06, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise.
 
-<a href="https://www.star-history.com/?repos=AntigmaLabs%2Fante&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AntigmaLabs/ante&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AntigmaLabs/ante&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AntigmaLabs/ante&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AntigmaLabs/ante&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AntigmaLabs/ante&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AntigmaLabs/ante&type=date&legend=top-left" />
+</picture>
 
 The latest release is v0.2.9 (published October 5, 2026), which added a split-view option in the `/fork` picker, an opt-in `context-tokens` status line item, per-session `{session_id}` templating for provider headers, `/rewind` and `/fork` reaching prompts from before a resume, one shared transport-level timeout per provider call, a pruned catalog (GPT-5.4 Pro removed from direct OpenAI), an embedded llama.cpp bump to b11379, and recovery of Responses-API context overflows through compaction.
 Before it, v0.2.8 (release notes dated October 2, 2026, published October 3) added `/rewind` conversation rewinding and `/fork` session forking with parent links, and made `ante serve` print readable connection, session, tool-call, and turn-status transcripts.

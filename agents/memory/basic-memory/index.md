@@ -28,13 +28,11 @@ The cloud adds cross-device sync, browser and mobile access, and a shared Teams 
 **Active and mid-scale, with a thin public-discussion footprint.**
 4,104 stars with the repository pushed 2026-10-06, created 2024-12-02, as of 2026-10-06 (GitHub API).
 
-<a href="https://www.star-history.com/?repos=basicmachines-co%2Fbasic-memory&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&legend=top-left" />
+</picture>
 
 The PyPI release (0.23.2) dates to 2026-08-25, so the registry lags the active repository.
 The Hacker News record is a 4-point Show HN in March 2025 (0 comments) and a 2-point third-party story in February 2026, so the 4.1k stars came through the MCP-ecosystem channels (registry listings, Discord) rather than public debate.

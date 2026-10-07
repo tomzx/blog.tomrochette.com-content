@@ -27,13 +27,11 @@ State is local-first in SQLite, and the team kept a reserve pool of worktrees so
 Active and fast-moving.
 As of 2026-10-02 the repo shows about 5.9k stars and 622 forks; the site claims over 1M downloads.
 
-<a href="https://www.star-history.com/?repos=generalaction%2Femdash&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=generalaction/emdash&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=generalaction/emdash&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=generalaction/emdash&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=generalaction/emdash&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=generalaction/emdash&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=generalaction/emdash&type=date&legend=top-left" />
+</picture>
 
 The v1.2.7 release shipped 2026-09-27, six days after v1.2.6 (2026-09-21), which itself followed v1.2.5 (2026-09-18) by three days; v1.2.5 added multiple accounts per integration and custom agent executable selection.
 Its February 2026 Show HN reached 206 points with 71 comments.

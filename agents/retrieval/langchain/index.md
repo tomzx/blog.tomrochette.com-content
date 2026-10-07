@@ -25,13 +25,11 @@ The commercial side is LangSmith: tracing, evaluation, deployment, sandboxes, an
 Active and dominant by footprint.
 The `langchain-ai/langchain` repository shows 147.5k stars and 24.7k forks as of 2026-10-06, with 16,922 commits as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=langchain-ai%2Flangchain&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/langchain&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=langchain-ai/langchain&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=langchain-ai/langchain&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/langchain&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=langchain-ai/langchain&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=langchain-ai/langchain&type=date&legend=top-left" />
+</picture>
 
 **The telling history: after the 2024 "death by abstraction" wave, the company publicly moved to lower-level primitives (LangGraph, then create_agent), and is now climbing back up with Deep Agents, dcode, and OpenWiki, a CLI that writes agent wikis for coding agents.**
 

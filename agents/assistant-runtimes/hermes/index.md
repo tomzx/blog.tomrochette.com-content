@@ -26,13 +26,11 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 Massive and fast-moving.
 As of 2026-10-06: 251,515 stars and 54,028 forks since creation on 2025-07-22, pushed today, MIT, and 48,046 open issues, a support surface bigger than most projects' users.
 
-<a href="https://www.star-history.com/?repos=NousResearch%2Fhermes-agent&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&legend=top-left" />
+</picture>
 
 Releases ship as date-stamped tags, and September alone saw v2026.9.7, v2026.9.11, v2026.9.14, v2026.9.21, and v2026.9.24, though no tag had shipped in the first six days of October as of 2026-10-06.
 The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) landed June 2026, and a real tool ecosystem followed (a 28-point Grafana observability integration, a Fleet console for managing Dockerized Hermes agents, XMPP interop with OpenClaw).

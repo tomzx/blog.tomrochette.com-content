@@ -27,13 +27,11 @@ It connects to nearly any LLM, including local models.
 **Development stalled; the tool itself still works.**
 About 49.3k stars and 5.0k forks as of 2026-10-04, but the default branch has had no commits since May 22, 2026, and the last tagged release (v0.86.0) dates to August 2025.
 
-<a href="https://www.star-history.com/?repos=Aider-AI%2Faider&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Aider-AI/aider&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Aider-AI/aider&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Aider-AI/aider&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Aider-AI/aider&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Aider-AI/aider&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Aider-AI/aider&type=date&legend=top-left" />
+</picture>
 
 The polyglot leaderboard (225 Exercism exercises) is still published, but its headline results date to August 2025, and the site's "works best with" copy still names Claude 3.7 Sonnet-era models.
 

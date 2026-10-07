@@ -27,13 +27,11 @@ On May 19, 2026, Google announced it was unifying terminal agent work into Googl
 On June 18, 2026, Gemini CLI and the Gemini Code Assist IDE extensions stopped serving requests for Google AI Pro and Ultra subscribers and free individual users.
 Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 107.2k stars, 6,462 commits, nightly and preview release channels as of 2026-10-04.
 
-<a href="https://www.star-history.com/?repos=google-gemini%2Fgemini-cli&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=google-gemini/gemini-cli&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=google-gemini/gemini-cli&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=google-gemini/gemini-cli&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=google-gemini/gemini-cli&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=google-gemini/gemini-cli&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=google-gemini/gemini-cli&type=date&legend=top-left" />
+</picture>
 
 The README still advertises the free tier, which is stale for individuals; treat the README as the enterprise path's documentation.
 

@@ -25,13 +25,11 @@ Made by simple10, an independent developer, under MIT.
 
 Young and active: 690 stars, 70 forks, created 2026-03-26, pushed 2026-09-04, latest release v0.9.12 on 2026-07-22 as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=simple10%2Fagents-observe&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=simple10/agents-observe&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=simple10/agents-observe&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=simple10/agents-observe&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=simple10/agents-observe&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=simple10/agents-observe&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=simple10/agents-observe&type=date&legend=top-left" />
+</picture>
 
 Launched on Hacker News on 2026-04-01 with 77 points.
 **A single-maintainer project that found a real gap (live multi-agent visibility) and a real audience, but it is pre-1.0 with months between releases.**

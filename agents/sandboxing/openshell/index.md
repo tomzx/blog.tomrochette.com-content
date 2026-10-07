@@ -25,13 +25,11 @@ Linux, macOS (Apple Silicon), and Windows via WSL 2 (experimental); Apache-2.0, 
 
 Fast adoption, newly stable and surging: 15,029 stars, 1,711 forks, 533 open issues and PRs as of 2026-10-06, created 2026-02-24.
 
-<a href="https://www.star-history.com/?repos=NVIDIA%2FOpenShell&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/OpenShell&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=NVIDIA/OpenShell&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NVIDIA/OpenShell&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/OpenShell&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=NVIDIA/OpenShell&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NVIDIA/OpenShell&type=date&legend=top-left" />
+</picture>
 
 The v0.1.0 pre-release train graduated to stable v0.1.0 on 2026-09-25, with v0.1.1 following on 2026-09-26 and v0.1.2 on 2026-09-28, and the README now advertises a stable release cadence for the 0.1.x line and no longer carries the alpha badge, at about 1,600 commits (1,625) and 128 contributors.
 **Late September 2026 NVIDIA folded OpenShell into a branded Open Agent Safety Platform reference design alongside NVIDIA Sentry and BlueField-4 in-silicon enforcement on a dedicated product page, and stars jumped roughly 4,300 in the following three days, a vendor push rather than a Hacker News wave, whose debut threads drew only 2 or 3 points.**

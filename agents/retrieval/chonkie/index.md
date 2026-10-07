@@ -26,13 +26,11 @@ It also ships refineries, pipelines stored in a local SQLite database, a self-ho
 The open source library is active and widely used; the company around it has visibly moved on.
 The repository shows 4,783 stars, a push on 2026-10-03, and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,255,276 downloads in the last month (as of 2026-10-06); the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-10-03.
 
-<a href="https://www.star-history.com/?repos=feyninc%2Fchonkie&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=feyninc/chonkie&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=feyninc/chonkie&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=feyninc/chonkie&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=feyninc/chonkie&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=feyninc/chonkie&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=feyninc/chonkie&type=date&legend=top-left" />
+</picture>
 
 **The caution is the corporate trail: chonkie.ai, the domain in the Launch HN, now redirects to Feyn Labs, a venture whose founder letter is signed by Chonkie's co-founder Shreyash Nigam, the repository itself moved under the Feyn org (feyninc/chonkie, with the old chonkie-inc URL redirecting), the hosted endpoints (cloud.chonkie.ai, hub.chonkie.ai, labs.chonkie.ai) are dead or 404, and the README still links Cloud to the dead labs domain.**
 The community footprint earlier scans missed is real: two major HN threads (199 points in 2024, 151 in 2025) plus a 153-point technical post ("So, you want to chunk really fast?", December 2025) by co-founder Bhavnick Minhas on his delimiter-based memchunk approach.

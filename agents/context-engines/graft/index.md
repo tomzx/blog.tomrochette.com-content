@@ -27,13 +27,11 @@ The npm scope and telemetry endpoint are NanoNets-branded, the product site attr
 
 Young and very hot: created 2026-07-03, 9,610 stars and 880 forks by 2026-10-06, last push 2026-10-06, 213 open issues and pull requests, v0.21.1 on npm (published 2026-09-29) with 102,247 downloads in the trailing month (window 2026-09-05 to 2026-10-04), all as of 2026-10-06 (GitHub and npm APIs).
 
-<a href="https://www.star-history.com/?repos=trailhq%2FGraft&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trailhq/Graft&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=trailhq/Graft&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=trailhq/Graft&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trailhq/Graft&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=trailhq/Graft&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=trailhq/Graft&type=date&legend=top-left" />
+</picture>
 
 The GitHub organization itself has now completed the rename: the repository's canonical home is trailhq/Graft, and the old NanoNets/Graft URLs redirect.
 **The community footprint is thin for the star count: a third-party Show HN drew 3 points and 2 comments, the creator's own follow-up reached 39 points and 44 comments, and its most substantive comments were criticisms.**

@@ -29,13 +29,11 @@ Any provider works: Anthropic, OpenAI, Google, OpenRouter, Bedrock, Azure, Verte
 **Active and large.**
 The repository shows about 69.9k stars and 7.6k forks as of 2026-10-06, with 250+ contributors and an Apache-2.0 license held by Cline Bot Inc.
 
-<a href="https://www.star-history.com/?repos=cline%2Fcline&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cline/cline&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=cline/cline&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=cline/cline&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cline/cline&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=cline/cline&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=cline/cline&type=date&legend=top-left" />
+</picture>
 
 The VS Code Marketplace page shows 5,540,608 installs as of 2026-10-06 and a 4.1/5 average rating as of 2026-09-22; the product site claims 11M+ installs across the marketplace and Open VSX.
 The project started as the "Claude Dev" extension in late 2024 and has been renamed and corporatized since.

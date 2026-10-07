@@ -27,13 +27,11 @@ In February 2026 the same team also open-sourced [LiteParse](https://github.com/
 Active and heavily used.
 The `run-llama/llama_index` repository shows 52.4k stars, 8.3k forks, and 262 open issues (895 counting pull requests) as of 2026-10-06, with 7,954 commits as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=run-llama%2Fllama_index&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&legend=top-left" />
+</picture>
 
 **The strategic signal is the pivot: the repository now describes itself as "the leading document agent and OCR platform", and the docs split between the legacy `docs.llamaindex.ai` site and the new `developers.llamaindex.ai` home, where some legacy API pages (the code splitter reference among them) no longer resolve.**
 

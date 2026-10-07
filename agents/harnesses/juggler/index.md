@@ -29,13 +29,11 @@ Made by Julian Storer (JUCE, Tracktion, Cmajor), distributed as signed installer
 The public Show HN on July 12, 2026 drew 280 points and 119 comments ([HN](https://news.ycombinator.com/item?id=48883305)).
 751 stars and 51 forks as of 2026-10-04 on a repo created June 19, 2026 (GitHub API); it had crossed 732 by October 3, over a hundred stars more than the day before, and stood at 768 stars and 52 forks as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=juggler-ai%2Fjuggler&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=juggler-ai/juggler&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=juggler-ai/juggler&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=juggler-ai/juggler&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=juggler-ai/juggler&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=juggler-ai/juggler&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=juggler-ai/juggler&type=date&legend=top-left" />
+</picture>
 
 Shipping is steady: v0.7.4 published October 2, 2026, adding per-provider toggles for Codex and Copilot subscriptions, thinking levels for Ollama models, a file viewer that plays video and audio and opens more image formats, and a fix for slow-starting WSL sessions on Windows; v0.7.3 (September 30) added a "Group" workspace type that organizes conversations without a worktree or copy, usage meters that redden by pace against the window rather than by quota consumed, touch-device fixes, and an LM Studio provider that reads each model's loaded context window.
 One person builds it, which is both the reason it ships fast and the project's single point of failure.

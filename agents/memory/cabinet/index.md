@@ -25,13 +25,11 @@ Desktop downloads exist for Mac and Windows (Linux coming soon), with hosted Cab
 
 Popular but quiet: 2,879 stars and 302 forks as of 2026-10-03, created 2026-04-03, with the last release v0.6.0 on 2026-08-25 and no push since late August.
 
-<a href="https://www.star-history.com/?repos=cabinetai%2Fcabinet&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cabinetai/cabinet&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=cabinetai/cabinet&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=cabinetai/cabinet&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cabinetai/cabinet&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=cabinetai/cabinet&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=cabinetai/cabinet&type=date&legend=top-left" />
+</picture>
 
 The repository has moved from the founder's personal account to the cabinetai organization (the old hilash/cabinet URL redirects).
 **The star count outruns the community record: one founder-posted Show HN thread from April 2026 (16 points, 6 comments), which makes this one of the larger repos in the category whose adoption story rests on GitHub stars alone.**

@@ -27,13 +27,11 @@ Scaffolding an app is one command (`npx create-ag-ui-app`), and the project ship
 Very active and already the de facto standard at its layer.
 The repository shows about 16,300 stars, a push on 2026-10-05, and dated releases landing near-daily (latest `release/2026-10-05`).
 
-<a href="https://www.star-history.com/?repos=ag-ui-protocol%2Fag-ui&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ag-ui-protocol/ag-ui&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ag-ui-protocol/ag-ui&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ag-ui-protocol/ag-ui&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ag-ui-protocol/ag-ui&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ag-ui-protocol/ag-ui&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ag-ui-protocol/ag-ui&type=date&legend=top-left" />
+</picture>
 
 **The download signal is the strongest part: `@ag-ui/core` pulled 9.04M and `@ag-ui/client` 5.78M downloads in the month ending 2026-10-04, numbers that beat every editor- or agent-to-agent protocol in this index, and the packages graduated from 0.0.59 to 1.0.0 on 2026-09-17, to 1.0.1 on 2026-09-29, and to 1.0.2 on 2026-10-05.**
 Integration coverage per the docs: partnership integrations with LangChain/LangGraph and CrewAI, first-party integrations with Microsoft Agent Framework, Google ADK, Google ADK for JavaScript, Google Antigravity, AWS Strands Agents, AWS Bedrock AgentCore, Mastra, Pydantic AI, Agno, LlamaIndex, and AG2, community integrations for the Claude Agent SDK, Claude Managed Agents, and Langroid, with the OpenAI Agent SDK, AWS Bedrock Agents, and Cloudflare Agents marked in progress.

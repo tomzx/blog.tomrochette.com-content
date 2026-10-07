@@ -27,13 +27,11 @@ The app runs agents locally, never proxies model calls, and points sessions at w
 Active and iterating: version v0.49.5 shipped 2026-09-25, continuing the v0.49 line that shipped 2026-09-08, the macOS app is on Homebrew, and the changelog runs through September 2026.
 The public source repository, lanes-sh/app, shows about 273 stars as of 2026-10-06, created 2026-03-22, last pushed 2026-09-25; the product also spans the Apache-2.0 lanes-sh/link endpoint and the hosted Lanes Forms and Compute services.
 
-<a href="https://www.star-history.com/?repos=lanes-sh%2Fapp&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lanes-sh/app&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=lanes-sh/app&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=lanes-sh/app&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lanes-sh/app&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=lanes-sh/app&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=lanes-sh/app&type=date&legend=top-left" />
+</picture>
 
 **The open question is provenance: the site says "open source from day one" and links both repositories, but the app repository carries no license metadata on GitHub as of 2026-09-27, whereas the Link endpoint is explicitly Apache-2.0.**
 

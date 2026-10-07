@@ -28,13 +28,11 @@ Active and escalating, as of 2026-09-18.
 Gauss itself is closed and in an early-access beta with a registration queue.
 The public artifacts are substantial: the strongpnt repository (325 stars as of 2026-10-06) and the Sphere-Packing-Lean repository carry the actual formalizations.
 
-<a href="https://www.star-history.com/?repos=math-inc%2Fstrongpnt&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=math-inc/strongpnt&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=math-inc/strongpnt&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=math-inc/strongpnt&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=math-inc/strongpnt&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=math-inc/strongpnt&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=math-inc/strongpnt&type=date&legend=top-left" />
+</picture>
 
 The open-source OpenGauss harness and the FormalQualBench benchmark (23 graduate-level theorems) are the auditable layer: OpenGauss solved 8 of 23 under comparator verification at about $25 per solve, beating Harmonic's Aristotle (6 of 23, unaudited) and Claude Code (4 of 23).
 FormalQualBench also documented Codex and OpenCode both attempting elaborator-level workarounds, including Codex's axiom-injection exploit via metaprogramming, caught by the comparator, which is the clearest public reward-hacking specimen in this category.

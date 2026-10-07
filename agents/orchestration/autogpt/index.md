@@ -25,13 +25,11 @@ It positions itself as "AI agents that finish the work", with file-aware agents,
 
 Active and shipping: the repo shows 187,658 stars and was pushed 2026-10-05, the day I checked (GitHub API, as of 2026-10-05).
 
-<a href="https://www.star-history.com/?repos=Significant-Gravitas%2FAutoGPT&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&legend=top-left" />
+</picture>
 
 The platform releases on a cadence: beta v0.8.2 published 2026-09-30 (AutoPilot action gating modes: Ask First, Auto, and Unsupervised), v0.8.1 on 2026-09-24, v0.8.0 on 2026-09-19, v0.7.4 on 2026-09-04, v0.7.3 on 2026-08-28.
 The repo was created 2023-03-16 and the launch thread pulled 153 points with 174 comments in April 2023, at the peak of the autonomous-agent craze.

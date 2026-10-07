@@ -27,13 +27,11 @@ v3.1.0 added role-based access control to AgentOS (a role store, scope policies,
 v3.1.1 followed a day later with live progress and cancellation for knowledge page sync (typed `PageSyncProgress` snapshots and a terminal `SyncReport`).
 The GA announcement claimed 1M+ new agents created weekly and 22k stars at the time (company claim).
 
-<a href="https://www.star-history.com/?repos=agno-agi%2Fagno&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agno-agi/agno&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=agno-agi/agno&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agno-agi/agno&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agno-agi/agno&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=agno-agi/agno&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agno-agi/agno&type=date&legend=top-left" />
+</picture>
 
 The pricing page now positions the control plane as framework-agnostic, connecting to AgentOS from Agno, LangGraph, or Claude Code.
 No disclosed funding round surfaced in my search, which is unusual at this star scale and worth rechecking.

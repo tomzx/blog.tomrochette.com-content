@@ -25,13 +25,11 @@ macOS (Apple Silicon and Intel) and Windows x64 are the supported desktop platfo
 
 Active but cooling: about 1,306 stars and 120 forks as of 2026-10-04, created 2026-04-02, with 1,831 commits.
 
-<a href="https://www.star-history.com/?repos=dohooo%2Fhelmor&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dohooo/helmor&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=dohooo/helmor&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=dohooo/helmor&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dohooo/helmor&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=dohooo/helmor&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=dohooo/helmor&type=date&legend=top-left" />
+</picture>
 
 The latest release, v0.46.0 (which added Codex 1.0 and Claude Code 2.0 support), landed 2026-07-24, and the last default-branch commit was 2026-08-22, roughly six weeks before this check, so momentum has slowed even as the feature set matured.
 **For a tool still advertising forthcoming plan mode and Slack and GitHub context, a six-week quiet spell is the first data point to watch between now and the next release.**

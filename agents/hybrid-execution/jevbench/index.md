@@ -29,13 +29,11 @@ The v1.2 board holds 48 ranked rows spanning hosted APIs, the open replicas, rer
 Active and gaining traction, as of 2026-10-06.
 The repository was created 2026-09-19, pushed 2026-09-29, and shows 227 stars and 23 forks, with five scoring releases since my first check (v1.4.0 through v1.4.2.2, September 23-27).
 
-<a href="https://www.star-history.com/?repos=fstandhartinger%2Fjevbench&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fstandhartinger/jevbench&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=fstandhartinger/jevbench&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=fstandhartinger/jevbench&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fstandhartinger/jevbench&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=fstandhartinger/jevbench&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=fstandhartinger/jevbench&type=date&legend=top-left" />
+</picture>
 
 The Show HN thread (2026-09-22) climbed from 92 points when this note was created to 154 as of 2026-10-06, clearing the 100-point bar it originally sat under.
 The author has also opened a second front: an ImageJevBench v0.1.x image-modality track now lives in the repository under results/imagejevbench, with a frozen 228-public plus 456-sealed split, and its v0.1.3 candidate re-measured Imajev-4B first of 49 at 76.39 on a paid fast-serving GPU run, a separate board from the unchanged text ranking.

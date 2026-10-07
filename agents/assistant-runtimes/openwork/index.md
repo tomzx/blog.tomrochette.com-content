@@ -25,13 +25,11 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 Alive and shipping hard: 23,880 stars, 2,405 forks, 622 open issues and PRs as of 2026-10-06, created 2026-01-14, pushed 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=different-ai%2Fopenwork&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&legend=top-left" />
+</picture>
 
 v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause.
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**

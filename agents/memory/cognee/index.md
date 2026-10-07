@@ -25,13 +25,11 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 **Active and fast-moving.**
 About 31.4k GitHub stars as of 2026-10-05, repository pushed 2026-10-05 UTC, and v1.6.2 (September 29, 2026) the latest release per the PyPI JSON API.
 
-<a href="https://www.star-history.com/?repos=topoteretes%2Fcognee&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=topoteretes/cognee&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=topoteretes/cognee&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=topoteretes/cognee&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=topoteretes/cognee&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=topoteretes/cognee&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=topoteretes/cognee&type=date&legend=top-left" />
+</picture>
 
 v1.6.0 is the keyless-first release: many flows now run with no LLM key, pipelines stamp runs at start and recover after crashes, a cognee-mcp client/server package lands for integrations, and the default Docker image drops GLiNER, a breaking change self-hosters must patch around.
 v1.6.1 (September 24) adds Google Drive and Gmail ingestion with the Google connectors bundled into the SDK, chunked graph-visualization streaming for large subgraphs, and a GLiNER installer that defers the CPU Torch download to first use, and it promotes dlt to a core dependency, which breaks source installs that manage dependencies manually.

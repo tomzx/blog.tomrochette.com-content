@@ -27,13 +27,11 @@ The Launch HN title calls it an "OSS sandboxed agent harness for teams", and tha
 Very active: v2.7.0 released October 3, 2026, adding Salesforce and new app integrations, readable approval cards, `send_file`, and agent-to-agent messaging, five months after the v2.3-2.4 series, with v2.5.0 on September 3 and v2.6.0 five days after it.
 3,555 stars and 248 forks as of 2026-10-04, on a repository created March 8, 2026.
 
-<a href="https://www.star-history.com/?repos=onecli%2Fonecli&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=onecli/onecli&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=onecli/onecli&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=onecli/onecli&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=onecli/onecli&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=onecli/onecli&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=onecli/onecli&type=date&legend=top-left" />
+</picture>
 
 Three Hacker News threads of record: 161 points for the vault (March 12), 110 for the credential gateway (July 23), and 88 for the YC launch (August 19).
 YC S26, San Francisco, founded by Jonathan Fishner (CEO) and Guy Ben Aharon (CTO).

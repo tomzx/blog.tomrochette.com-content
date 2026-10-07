@@ -26,13 +26,11 @@ MIT, by Tobias Lütke (Shopify CEO), who authored about three quarters of the co
 
 Young with unusual traction: 30,222 stars, 1,891 forks, 210 open issues and PRs as of 2026-10-06, created 2025-12-08.
 
-<a href="https://www.star-history.com/?repos=tobi%2Fqmd&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tobi/qmd&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tobi/qmd&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tobi/qmd&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tobi/qmd&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tobi/qmd&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tobi/qmd&type=date&legend=top-left" />
+</picture>
 
 Latest release v2.8.3 on 2026-08-16, pushed 2026-10-02.
 **The maintainer concentration is the story: one high-profile author shipping v1 through v2.8 in nine months, with community PRs around the edge.**

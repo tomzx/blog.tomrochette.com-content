@@ -26,13 +26,11 @@ The vendor is LobeHub LLC, which grew the product from the LobeChat project crea
 
 Active and shipping fast: the repo shows 82,989 stars, about 16k forks, and a push on 2026-10-05 (GitHub API, as of 2026-10-05).
 
-<a href="https://www.star-history.com/?repos=lobehub%2Flobehub&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&legend=top-left" />
+</picture>
 
 The release train is canary-grade desktop builds published several times a day; v2.2.19-canary.35 landed 2026-10-01.
 The rebrand from LobeChat is visible in the license text itself, which reads "From 1.0, LobeChat is licensed under the LobeHub Community License".

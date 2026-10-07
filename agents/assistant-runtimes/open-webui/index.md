@@ -27,13 +27,11 @@ The ecosystem now includes a native desktop app, an Open Terminal sandboxed exec
 
 Very active and huge for the category: 154,047 stars, 22,515 forks, and 260 open issues as of 2026-10-06, created 2023-10-06, pushed 2026-10-05.
 
-<a href="https://www.star-history.com/?repos=open-webui%2Fopen-webui&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=open-webui/open-webui&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=open-webui/open-webui&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=open-webui/open-webui&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=open-webui/open-webui&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=open-webui/open-webui&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=open-webui/open-webui&type=date&legend=top-left" />
+</picture>
 
 Releases are frequent: v0.11.4 shipped 2026-09-21 (notably a much slimmer Docker image), v0.11.3 and v0.11.2 on 2026-08-31, and v0.11.1 on 2026-08-25.
 The README now markets it as "a home for AI" rather than a UI, which matches the expansion into the desktop app, Open Terminal, Computer, and knowledge base sync.

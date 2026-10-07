@@ -26,13 +26,11 @@ The same hook events fire in the terminal, IDE extensions, the desktop app, and 
 **Active and heavily invested in.**
 The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 149.5k stars and roughly 14.3k open issues as of 2026-10-06).
 
-<a href="https://www.star-history.com/?repos=anthropics%2Fclaude-code&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&legend=top-left" />
+</picture>
 
 A third-party ecosystem exists: an HN search surfaces roughly 500 stories mentioning Claude Code hooks, including dedicated tooling like Graft, whose August 2026 launch thread drew 44 comments.
 Anthropic's own security-guidance plugin is built entirely on hooks (SessionStart, UserPromptSubmit, PostToolUse, Stop), which signals production commitment.

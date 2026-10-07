@@ -27,13 +27,11 @@ Chrome ships it behind a public origin trial (Chrome 149 through 156) plus a loc
 **Active and past the flag stage, with one browser shipping and one agent consuming.**
 The repository shows 4,469 stars and 120 open issues with a push on 2026-10-02, all as of 2026-10-06 (GitHub API).
 
-<a href="https://www.star-history.com/?repos=webmachinelearning%2Fwebmcp&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&legend=top-left" />
+</picture>
 
 The Chrome origin trial opened with Chrome 149 (Intent to Experiment filed 2026-05-15), Puppeteer added native WebMCP support in v24.41.0, and Google's Chrome team presented the API alongside its agent browser work at I/O 2026.
 In August 2026 the supply side jumped: Shopify switched WebMCP on for every Liquid storefront (catalog, cart, checkout, and policy tools) and Cloudflare made it available to any Cloudflare-fronted site with no code change.

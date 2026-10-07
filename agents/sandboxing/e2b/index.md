@@ -25,13 +25,11 @@ The cloud is SOC 2 Type II compliant with US, EU, and APAC regions; enterprise t
 
 Active and well funded: the SDK repo stands at 14,190 stars and the runtime repo at 1,679 stars as of 2026-10-06, the SDK repo created 2023-03-04 and pushed 2026-10-05, with @e2b/python-sdk at 2.52.1 (2026-10-05).
 
-<a href="https://www.star-history.com/?repos=e2b-dev%2FE2B&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=e2b-dev/E2B&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=e2b-dev/E2B&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=e2b-dev/E2B&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=e2b-dev/E2B&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=e2b-dev/E2B&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=e2b-dev/E2B&type=date&legend=top-left" />
+</picture>
 
 A $21M Series A led by Insight Partners was announced 2025-07-28, $32M total, with company claims of 88 percent of the Fortune 100 signed up, hundreds of millions of sandbox sessions since October 2024, and named users including Hugging Face, LMArena, Perplexity, Groq, and Manus.
 **Hacker News never embraced it: the 2024 launch thread drew 2 points, the category's HN energy went to self-hosted challengers such as CubeSandbox's 7-point launch pitching itself as the open-source E2B, and every traction number above is the company's own.**

@@ -29,13 +29,11 @@ Active and freshly launched: announced August 4, 2026, with docs last updated Se
 The launch thread reached 111 points on Hacker News (item 49171766).
 Vendor traction is real: the terminal repository counts about 65.3k stars as of 2026-10-04, and Anthropic published a Warp engineering story on August 26, 2026.
 
-<a href="https://www.star-history.com/?repos=warpdotdev%2Fwarp&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=warpdotdev/warp&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=warpdotdev/warp&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=warpdotdev/warp&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=warpdotdev/warp&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=warpdotdev/warp&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=warpdotdev/warp&type=date&legend=top-left" />
+</picture>
 
 The CLI itself ships as a managed binary with no separate public repository.
 Warp has also opened a Factories line: factories-as-code cloud software factories (factory.yaml defining repos, agents, models, and approval gates) with evals, benchmarks, and self-improvement loops, now in early access with published pricing (pay-as-you-go factory usage at a 20% markup with no subscription, factory credits inside the Build, Max, and Business tiers) and up to $10,000 in free usage for select teams as of 2026-09-22.

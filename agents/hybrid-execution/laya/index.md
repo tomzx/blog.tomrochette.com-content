@@ -26,13 +26,11 @@ Community runtimes extend it past PyTorch: laya-mlx reports 7-14 ms decisions on
 Eighteen days old and compounding fast, as of 2026-10-06.
 The main repository was created 2026-09-18 and shows about 31,000 stars, laya-mlx about 6,800 since 2026-09-19, with a CoreML port, third-party demo endpoints, and roughly ten community quantizations appearing within days.
 
-<a href="https://www.star-history.com/?repos=NandhaKishorM%2Flaya&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NandhaKishorM/laya&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=NandhaKishorM/laya&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NandhaKishorM/laya&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NandhaKishorM/laya&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=NandhaKishorM/laya&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NandhaKishorM/laya&type=date&legend=top-left" />
+</picture>
 
 The author's launch story, "I built non-autoregressive decision models with RL a year ago" (2026-09-19), drew a 1,363-point Hacker News thread as of 2026-10-06, the largest community footprint of any Jev follow-up, and a follow-up gist thread on running Laya offline on an M4 Mac reached 178 points as of 2026-10-06.
 The first independent deployment account landed 2026-09-22: an engineer chose Laya over hosted Jev for local agent routing on a Mac Studio and measured 37 of 40 acceptable decisions on a frozen replay against 33 of 40 for his previous deterministic router, while stating plainly that it was not a Laya-versus-Jev head-to-head.

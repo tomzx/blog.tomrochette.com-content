@@ -23,13 +23,11 @@ It is built on the `pi` coding agent plus `uv`, and there is a Vue-and-Bun visua
 
 Young, deliberately small, and quiet since launch: 945 stars and 246 forks since creation on 2026-08-02, with no push since 2026-08-04, two months before 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=disler%2Fsuper-simple-software-factory&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=disler/super-simple-software-factory&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=disler/super-simple-software-factory&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=disler/super-simple-software-factory&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=disler/super-simple-software-factory&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=disler/super-simple-software-factory&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=disler/super-simple-software-factory&type=date&legend=top-left" />
+</picture>
 
 The repository has a single commit on `main`, no releases, and a separate `example` branch that holds a demo repo with the factory already stamped in and real traces.
 This is a one-author starting point ("nothing here is meant to survive contact with your codebase unchanged"), not an actively multiplying ecosystem.

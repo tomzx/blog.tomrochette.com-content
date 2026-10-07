@@ -26,13 +26,11 @@ The repository is a monorepo created by ryoppippi (the project moved from his pe
 **The most-installed tool in this category by an order of magnitude, and until today the only one this section had never profiled.**
 About 18.9k stars and 862 forks as of 2026-10-06, created 2025-05-29, pushed 2026-10-06 (GitHub API).
 
-<a href="https://www.star-history.com/?repos=ccusage%2Fccusage&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&legend=top-left" />
+</picture>
 
 The npm package pulled 556,660 downloads in the trailing month (2026-09-05 to 2026-10-04), roughly eight times the claude-mem plugin and far ahead of every session-analytics peer here.
 The release line is v20.x with rapid patches: v20.0.26 (2026-09-27) is the latest tagged release, after v20.0.24 (2026-09-21) and v20.0.23 (2026-09-18).

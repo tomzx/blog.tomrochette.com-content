@@ -26,13 +26,11 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
 **Active and shipping constantly, with almost no community footprint.**
 215 stars and 34 forks since 2026-01-13, 1,023 commits, pushed 2026-10-06 (GitHub API, as of 2026-10-06).
 
-<a href="https://www.star-history.com/?repos=Helweg%2Fopen-codebase-index&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&legend=top-left" />
+</picture>
 
 npm shows 27 versions since 2026-07-30, latest 0.35.2 published 2026-10-05, and 6,674 downloads in the month of 2026-09-05 to 2026-10-04, so installs run well ahead of stars.
 A search for its name on Hacker News returned zero hits as of 2026-10-05, so like graft and Knowhere in this section, adoption is quiet and distribution runs from README to install, not from launches.

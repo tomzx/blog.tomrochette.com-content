@@ -27,13 +27,11 @@ Anthropic created it (David Soria Parra and Justin Spahr-Summers), open-sourced 
 **Active and dominant.**
 The specification repository shows about 9.4k stars and roughly 4,800 commits as of 2026-10-02.
 
-<a href="https://www.star-history.com/?repos=modelcontextprotocol%2Fmodelcontextprotocol&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=modelcontextprotocol/modelcontextprotocol&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=modelcontextprotocol/modelcontextprotocol&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=modelcontextprotocol/modelcontextprotocol&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=modelcontextprotocol/modelcontextprotocol&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=modelcontextprotocol/modelcontextprotocol&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=modelcontextprotocol/modelcontextprotocol&type=date&legend=top-left" />
+</picture>
 
 The AAIF announcement claimed more than 10,000 published MCP servers and adoption by Claude, Cursor, Microsoft Copilot, Gemini, VS Code, and ChatGPT.
 In this index, [Claude Code](../../harnesses/claude-code/index.md), [Cursor](../../surfaces/cursor/index.md), [VS Code Copilot](../../surfaces/vscode-copilot/index.md), [Gemini CLI](../../harnesses/gemini-cli/index.md), and [Crush](../../harnesses/crush/index.md) all speak it.

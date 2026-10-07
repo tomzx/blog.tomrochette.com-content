@@ -30,13 +30,11 @@ Very active and widening, as of 2026-10-05: September alone brought the nine-loo
 The models are unreleased research versions, so the loop is not reproducible by outsiders today.
 The artifacts are public and machine-checkable: the formal-math repository (257 stars as of 2026-10-06) is Apache-2.0 with pinned toolchains and CI that builds with no `sorry` outside trusted statement files.
 
-<a href="https://www.star-history.com/?repos=anthropics%2Fformal-math&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/formal-math&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=anthropics/formal-math&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=anthropics/formal-math&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/formal-math&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=anthropics/formal-math&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=anthropics/formal-math&type=date&legend=top-left" />
+</picture>
 
 Community footprint is strong, with the zeta result drawing a 282-point Hacker News discussion.
 A three-person experiment formalized Vinogradov's three primes theorem in three days on consumer Claude Max plans, and the October 1 Claude-shaped science post documents the loop's most copyable instance yet: 36 manuscripts in 18 fields in three months, driven through Claude Code sessions on cloud VMs and an open-source harness (BootLoops), with human collaborators supplying taste and expert review.

@@ -27,13 +27,11 @@ Made by Javis603, MIT-licensed.
 
 Young and shipping daily: 2,634 stars, 266 forks, 104 open issues, created 2026-05-19, pushed 2026-10-06, with v0.67.0 released 2026-10-06, v0.66.0 on 2026-10-04, and v0.65.0 on 2026-10-02, as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=Javis603%2Ftoken-monitor&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Javis603/token-monitor&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Javis603/token-monitor&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Javis603/token-monitor&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Javis603/token-monitor&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Javis603/token-monitor&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Javis603/token-monitor&type=date&legend=top-left" />
+</picture>
 
 I found no Hacker News thread for the project; the only search hit for the name is an unrelated ESP32 desk display.
 **A four-month-old tool with a release cadence this category has never seen and zero independent discussion, which is exactly the profile to verify before trusting.**

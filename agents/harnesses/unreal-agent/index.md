@@ -24,13 +24,11 @@ Unreal Labs says it was founded by engineers from CERN, Meta, Snap, Bloomberg, a
 Active and three days old at verification.
 The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 242 points with 122 comments, and the repo stood at 2,075 stars and 119 forks with the default branch pushed 2026-10-05 (GitHub, as of 2026-10-06).
 
-<a href="https://www.star-history.com/?repos=unreallabsai%2Funreal-agent&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=unreallabsai/unreal-agent&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=unreallabsai/unreal-agent&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=unreallabsai/unreal-agent&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=unreallabsai/unreal-agent&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=unreallabsai/unreal-agent&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=unreallabsai/unreal-agent&type=date&legend=top-left" />
+</picture>
 
 Three tagged releases exist, v0.1.0 and v0.1.1 on launch day and v0.2.0 on 2026-09-23.
 That traction at day three is exo-class: exo entered this index at 1,919 stars on a 169-point thread.

@@ -27,13 +27,11 @@ Claude Code is the default runtime with Codex, Copilot, Gemini, and Cursor confi
 Per [Latent Space's AINews roundup](https://www.latent.space/p/ainews-reality-checks-on-ai-news) (2026-09-17), citing Dan Luu's 2026-09-15 post on X, Yegge shut Gas Town down despite spending many thousands a month on coding agent subscriptions.
 As of 2026-10-03: 18,240 stars, 1,678 forks, 502 open issues, created 2025-12-16, latest release v1.2.1 on 2026-06-06.
 
-<a href="https://www.star-history.com/?repos=gastownhall%2Fgastown&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gastownhall/gastown&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=gastownhall/gastown&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gastownhall/gastown&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gastownhall/gastown&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=gastownhall/gastown&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gastownhall/gastown&type=date&legend=top-left" />
+</picture>
 
 The repo remains public and unfixed: the default branch shows no commit since 2026-07-23 and no release since June, which reads differently now that the shutdown explains the silence.
 **Its HN footprint dwarfs every tool in this section: the announcement thread (354 points), Maggie Appleton's field analysis (403 points), the v1.0 post (113 points), and the governance controversy (253 points).**

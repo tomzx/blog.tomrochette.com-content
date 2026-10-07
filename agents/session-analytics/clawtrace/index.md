@@ -28,13 +28,11 @@ The repository is Apache-2.0, but the hosted cloud is the product and no self-ho
 
 Active but with the thinnest footprint in the category: 47 stars, 11 forks, 3 open issues, created 2026-04-10, last pushed 2026-08-15, with the npm plugin at version 0.1.23 published 2026-04-16, as of 2026-10-02.
 
-<a href="https://www.star-history.com/?repos=epsilla-cloud%2Fclawtrace&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=epsilla-cloud/clawtrace&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=epsilla-cloud/clawtrace&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=epsilla-cloud/clawtrace&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=epsilla-cloud/clawtrace&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=epsilla-cloud/clawtrace&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=epsilla-cloud/clawtrace&type=date&legend=top-left" />
+</picture>
 
 It launched on Hacker News twice in April 2026 (a 2-point post and a 1-point Show HN, neither with a comment beyond the author's own), and I found no Reddit discussion.
 It also carries a paper, "ClawTrace: Cost-Aware Tracing for LLM Agent Skill Distillation" (arXiv 2604.23853), which is unusually rigorous for a tool at this stage.

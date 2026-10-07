@@ -25,13 +25,11 @@ Latency is the trade: about 0.3 s per request without thinking and a 3.3 s media
 **Days old and a research result, not a product.**
 The repository was created 2026-09-29 and pushed 2026-10-01, with 411 stars and 21 forks as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=PostHog%2Fjeeves&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PostHog/jeeves&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=PostHog/jeeves&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=PostHog/jeeves&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PostHog/jeeves&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=PostHog/jeeves&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=PostHog/jeeves&type=date&legend=top-left" />
+</picture>
 
 The launch thread (2026-09-29) reached 242 points, and Hugging Face shows 216 downloads and 5 likes.
 Every benchmark in the README is self-run: on its held-out test split Jeeves scores 0.889 against Kev-9B's published 0.822 and Jev's published 0.857, and 0.935 against Jev's 0.866 on JevBench's 231 public items, while Jev keeps the transfer lead (0.800 against 0.746 on MMLU-Pro and buried state) and the same checkpoint without thinking drops to 0.804.

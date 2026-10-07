@@ -26,13 +26,11 @@ Security is pairing-based by default (unknown senders must be approved), and the
 The category's giant.
 As of 2026-10-06: 391,475 stars and 82,292 forks since creation on 2025-11-24, pushed daily, 9,408 open issues, npm-published.
 
-<a href="https://www.star-history.com/?repos=openclaw%2Fopenclaw&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openclaw/openclaw&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=openclaw/openclaw&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openclaw/openclaw&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openclaw/openclaw&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=openclaw/openclaw&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openclaw/openclaw&type=date&legend=top-left" />
+</picture>
 
 OpenClaw 2.0 shipped 2026-08-30 (v2026.8.1), by far the largest release in the project's history, roughly half of all pull requests ever merged in one drop from 933 contributors, rebuilding the browser app as a first-class surface and shortening the first-run install, and the cadence has held since, with v2026.9.1 released 2026-09-03, v2026.9.2 on 2026-09-05, v2026.9.3 on 2026-09-08, v2026.9.4 on 2026-09-11, v2026.9.5 on 2026-09-19, and v2026.9.6 on 2026-09-23 (its crashing macOS build was rebuilt and notarized on 2026-09-24), plus patches on the older lines, v2026.6.35 released 2026-09-10, v2026.7.33 on 2026-09-18, and v2026.7.35 on 2026-09-21, and on 2026-09-29 the project shipped v2026.8.33, a gateway-only extended-stable release it describes as its LTS equivalent, OpenClaw as of the end of August 2026 plus critical security updates, reliability and performance fixes, and new model support; the cadence has continued with v2026.9.7 released 2026-09-30 (518 direct commits, 334 contributors), a second extended-stable patch, v2026.8.34, released 2026-10-02, and v2026.9.8 released 2026-10-03 (58 commits, 43 pull requests, 21 contributors) as the current latest alongside a third extended-stable patch, v2026.8.35, released 2026-10-02, the same day as the second.
 The October line has opened as a prerelease: v2026.10.1-beta.1 shipped 2026-10-05 while stable remains v2026.9.8.

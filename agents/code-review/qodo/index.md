@@ -28,13 +28,11 @@ The repo description draws the line in one sentence: "This project is not the Qo
 Active on both halves, and deliberately splitting apart.
 The repo counts 13,276 stars and 1,942 forks as of 2026-10-06, MIT-licensed, with v0.47.0 released October 2, 2026 (after v0.46.0 on September 21), and the former qodo-ai/pr-agent URL now redirects to the repo's new home in the standalone PR-Agent organization.
 
-<a href="https://www.star-history.com/?repos=qodo-ai%2Fpr-agent&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=qodo-ai/pr-agent&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=qodo-ai/pr-agent&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=qodo-ai/pr-agent&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=qodo-ai/pr-agent&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=qodo-ai/pr-agent&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=qodo-ai/pr-agent&type=date&legend=top-left" />
+</picture>
 
 v0.47.0 hardens the tool: Gitea webhooks now fail closed without a configured secret, the GitHub Action fails on swallowed tool errors, GitLab and Bitbucket comment commands require a leading slash, extra_config_url became host-only, and model support added Claude Opus 5.5 and Bedrock Kimi K3.
 The company raised $11M in 2023, then $40M in September 2024 ($50M total), by which point TechCrunch already called it "Qodo, the startup previously known as CodiumAI".

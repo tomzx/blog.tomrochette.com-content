@@ -27,13 +27,11 @@ The `anthropics/skills` repository ships the spec, a template, and example skill
 Launched 2025-10-16; on 2025-12-18 Anthropic published the format as the open Agent Skills standard (agentskills.io), added organization-wide skill management, and opened a partner directory.
 The example repository shows 179.8k stars and 21.3k forks but only 58 commits as of 2026-10-06, which tells me it is a distribution artifact, not where the product is built.
 
-<a href="https://www.star-history.com/?repos=anthropics%2Fskills&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/skills&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=anthropics/skills&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=anthropics/skills&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/skills&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=anthropics/skills&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=anthropics/skills&type=date&legend=top-left" />
+</picture>
 
 Claude Code iterates fast on top: custom commands were merged into skills, and skill behavior changed across v2.1.196 through v2.1.218 (subagent execution, bundled-skill overrides, frontmatter parsing).
 

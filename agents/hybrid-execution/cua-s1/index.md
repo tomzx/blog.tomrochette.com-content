@@ -27,13 +27,11 @@ Early research artifact, days old, and unusually candid about it.
 The component README still describes a source-only release whose checkpoint table reads "weights not distributed", while the main README and the checkpoint metadata point at the `cua-ai/cua-s1-forms` weights created on Hugging Face on 2026-09-18, a documentation wrinkle worth knowing before you cite either.
 The launch Show HN thread (2026-09-19) reached 95 points as of 2026-10-06, and the host repository shows 28,292 stars as of 2026-10-06, though nearly all of that is the surrounding Cua computer-use project, created 2025-01-31, not the model.
 
-<a href="https://www.star-history.com/?repos=trycua%2Fcua&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trycua/cua&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=trycua/cua&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=trycua/cua&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trycua/cua&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=trycua/cua&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=trycua/cua&type=date&legend=top-left" />
+</picture>
 
 The original headline numbers remain vendor-run and synthetic-only: 99.94% top-1 on a held-out 22,054-example synthetic split, ECE 0.000148, and 2,589 rows per second, all from the checkpoint's own metadata.
 The Hugging Face model card was materially expanded on 2026-09-21: the checkpoint now ships as a safetensors pair (the loader rejects pickled files by design), a first real-world demo eval landed (100% top-1 over 196 decisions on three real forms and three real PDFs, plus a 37% shuffled-context control), and a zero-fine-tuning head-to-head against the hosted Jev API scored 99.7% for this model against 83.6% for Jev, with the card conceding Jev was never trained on this project's no-op labeling convention.

@@ -26,13 +26,11 @@ Notifications route to Discord, Slack, Telegram, or custom webhooks through an O
 
 Actively shipped and very popular: about 33,455 stars and 2,543 forks as of 2026-10-06, created 2026-02-02, with the latest release v0.21.8 on 2026-10-06 (a bugfix and compatibility release for the frozen v0.21.7 range: Windows binary path handling, session export, and legacy configuration support) and npm at the same version across 137 published versions.
 
-<a href="https://www.star-history.com/?repos=Yeachan-Heo%2Foh-my-codex&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Yeachan-Heo/oh-my-codex&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Yeachan-Heo/oh-my-codex&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Yeachan-Heo/oh-my-codex&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Yeachan-Heo/oh-my-codex&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Yeachan-Heo/oh-my-codex&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Yeachan-Heo/oh-my-codex&type=date&legend=top-left" />
+</picture>
 
 The 0.21 line was a consolidation: it retired legacy keywords behind a sunset-stub resolver (`$ralph` to `$ultragoal`, `$ultrawork` to `$team`) and removed writable MCP state tools.
 **The popularity is harness-specific: OMX is a Codex CLI layer, and the README itself warns that native Windows and the Codex App are not the default experience and may break, and that third-party "OMX v2" forks are not official.**

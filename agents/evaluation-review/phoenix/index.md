@@ -26,13 +26,11 @@ Core platform under Elastic License 2.0 with the client and OTel packages Apache
 
 Mature and busy: 11,721 stars, 1,186 forks, 1,099 open issues and PRs as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=Arize-ai%2Fphoenix&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Arize-ai/phoenix&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Arize-ai/phoenix&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Arize-ai/phoenix&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Arize-ai/phoenix&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Arize-ai/phoenix&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Arize-ai/phoenix&type=date&legend=top-left" />
+</picture>
 
 Created 2022-11-09, pushed 2026-10-06, platform release arize-phoenix 20.19.0 on 2026-10-01 (still the newest), about 626,000 PyPI downloads over the trailing 30 days ending 2026-10-06.
 **Four years in, it is the oldest and most production-proven column in this category, with near-daily commits and weekly releases.**

@@ -28,13 +28,11 @@ The author is Nick Woodhead, who built it as internal tooling at GPTree, a compa
 Active, young, and gaining traction fast.
 The repository was created 2026-08-21 and shows 525 stars and 22 forks as of 2026-10-06 (GitHub API).
 
-<a href="https://www.star-history.com/?repos=naw103%2Fforemerge&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=naw103/foremerge&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=naw103/foremerge&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=naw103/foremerge&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=naw103/foremerge&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=naw103/foremerge&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=naw103/foremerge&type=date&legend=top-left" />
+</picture>
 
 Its Show HN on 2026-09-21 drew 45 points and 16 comments, modest by this category's standards but substantive, with real pushback answered in the thread.
 v0.4.3 shipped 2026-09-18, v0.5.0 on 2026-09-23, and v0.5.1 became the latest published release on 2026-10-03, still pre-1.0 with public schemas that may change.

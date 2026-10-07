@@ -26,13 +26,11 @@ A Memory MCP Server and plugins for Claude Code, Codex, and Cursor push Zep memo
 **Active, enterprise-focused, post-open-core.**
 Graphiti shows about 31.4k stars and 998 commits as of 2026-10-02; its Show HN drew 142 points.
 
-<a href="https://www.star-history.com/?repos=getzep%2Fzep&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getzep/zep&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=getzep/zep&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=getzep/zep&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getzep/zep&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=getzep/zep&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=getzep/zep&type=date&legend=top-left" />
+</picture>
 
 Zep Community Edition, the self-hostable open-core server, was discontinued in April 2025, with the company saying the two-product split starved the OSS side.
 The site lists Samsung, Zscaler, Quorum, and HoneyBook among customers, and an S&P Global Market Intelligence report (April 2026) covers its temporal context graph.

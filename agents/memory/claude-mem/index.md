@@ -26,13 +26,11 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 Very large and fast: about 96.7k stars, 8.5k forks, and 87 open issues and pull requests as of 2026-10-06, with 69,573 npm downloads in the last month (2026-09-05 to 2026-10-04).
 
-<a href="https://www.star-history.com/?repos=thedotmack%2Fclaude-mem&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
+</picture>
 
 Created 2025-08-31, pushed 2026-10-06, latest tagged release v13.32.0 on 2026-10-06 with npm in sync at 13.32.0 as of 2026-10-06.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.

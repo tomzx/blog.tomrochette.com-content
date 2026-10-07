@@ -23,13 +23,11 @@ It drives Claude Code, Codex, and 25 more CLIs per the repo description (23 coun
 
 Active and shipping daily: 12,812 stars, 1,770 forks, 765 open issues and pull requests, and 30 contributors as of 2026-10-06, created 2026-02-13 (GitHub API, as of 2026-10-06).
 
-<a href="https://www.star-history.com/?repos=OrchestratorInc%2Fagent-orchestrator&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&legend=top-left" />
+</picture>
 
 The stable line sits at v0.13.3 (2026-10-01) with a nightly train publishing most days (v0.13.4 nightlies through 2026-10-06, GitHub releases API).
 **The identity record is the caution: the repository has lived under four organizations in eight months (ComposioHQ, AgentWrapper, Untrivial-ai, and now OrchestratorInc), each old URL a 301 today, which is the same rename churn this section flagged on Ruflo but repeated.**

@@ -27,13 +27,11 @@ Its research lineage is real: the framework came out of Microsoft Research and P
 Maintenance mode, by its own declaration: the README carries an orange maintenance-mode badge and a caution box stating AutoGen "will not receive new features or enhancements and is community managed going forward".
 New users are pointed to Microsoft Agent Framework (MAF), the enterprise successor that merged the AutoGen and Semantic Kernel lines; MAF shows 13,944 stars, MIT, and a push on 2026-10-04 (GitHub API, as of 2026-10-05).
 
-<a href="https://www.star-history.com/?repos=microsoft%2Fautogen&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/autogen&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=microsoft/autogen&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/autogen&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/autogen&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=microsoft/autogen&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/autogen&type=date&legend=top-left" />
+</picture>
 
 AutoGen's own repo was last pushed 2026-04-15 and its latest release is python-v0.7.5 from 2025-09-30, so the code is stable but frozen.
 Microsoft ships a migration guide on Learn, and the README also still carries the v0.2-to-v0.4 migration path, a reminder that this project already survived one breaking rewrite.

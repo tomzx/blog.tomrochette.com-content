@@ -26,13 +26,11 @@ It runs on ONNX Runtime over the CPU or an NVIDIA GPU (CUDA 13 or 12, Vulkan), w
 **Thirteen days old, beta, and already the wave's default front door.**
 The repository was created 2026-09-23 and shows 1,209 stars and 69 forks as of 2026-10-06, pushed 2026-10-05.
 
-<a href="https://www.star-history.com/?repos=ollaya-dev%2Follaya&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ollaya-dev/ollaya&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ollaya-dev/ollaya&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ollaya-dev/ollaya&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ollaya-dev/ollaya&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ollaya-dev/ollaya&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ollaya-dev/ollaya&type=date&legend=top-left" />
+</picture>
 
 The launch Show HN thread (2026-09-25) reached 618 points, the third-largest of the whole Jev wave.
 The results page reports 26 models measured, 73,720 benchmark answers scored against human labels, 41,352 parity checks against the authors' own code, and 2,015 timed requests, with the newest measurement dated 2026-10-02 on two disclosed machines (RTX 5090 and RTX 4090 desktops).

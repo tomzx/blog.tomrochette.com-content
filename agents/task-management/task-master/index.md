@@ -25,13 +25,11 @@ Since the commercialization it is also "Taskmaster", a [Hamster](https://tryhams
 Open-source repo quiet, commercial product alive, usage still enormous.
 As of 2026-10-06: 28,160 stars and 2,616 forks (the largest raw numbers in this category), but the last push landed 2026-04-28 and the last release (0.43.1) on 2026-03-31, while npm still records 67,732 downloads last month.
 
-<a href="https://www.star-history.com/?repos=eyaltoledano%2Fclaude-task-master&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eyaltoledano/claude-task-master&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=eyaltoledano/claude-task-master&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=eyaltoledano/claude-task-master&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eyaltoledano/claude-task-master&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=eyaltoledano/claude-task-master&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=eyaltoledano/claude-task-master&type=date&legend=top-left" />
+</picture>
 
 The [LICENSE](https://github.com/eyaltoledano/claude-task-master/blob/main/LICENSE) is now MIT with a Commons Clause Condition v1.0 covering the whole repo and package, which prohibits selling the software and makes it non-OSI.
 Hamster's own [product page](https://tryhamster.com/product/taskmaster) still markets Taskmaster as "MIT licensed" with an invitation to fork, a claim the repository's license file does not support as stated.

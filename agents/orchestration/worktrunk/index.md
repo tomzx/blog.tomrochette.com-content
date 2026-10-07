@@ -25,13 +25,11 @@ Dual MIT or Apache-2.0 license, Homebrew, cargo, winget, and Arch (pacman) distr
 
 The leading worktree manager of the agent wave: about 8.8k stars, 315 forks, 62 open issues and PRs as of 2026-10-05, created 2025-10-17, more than 5,000 commits on main, latest release v0.80.0 on 2026-09-27.
 
-<a href="https://www.star-history.com/?repos=max-sixty%2Fworktrunk&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=max-sixty/worktrunk&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=max-sixty/worktrunk&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=max-sixty/worktrunk&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=max-sixty/worktrunk&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=max-sixty/worktrunk&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=max-sixty/worktrunk&type=date&legend=top-left" />
+</picture>
 
 About 150 releases in eleven months; still pre-1.0 with breaking changes per release, and effectively a single-maintainer project.
 

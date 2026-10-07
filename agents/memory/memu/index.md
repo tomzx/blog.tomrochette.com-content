@@ -28,13 +28,11 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
 
 **Quietly large: 14.5k stars rank it seventh of the fourteen members profiled here, while its discussion footprint is nearly empty.**
 
-<a href="https://www.star-history.com/?repos=NevaMind-AI%2FmemU&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&legend=top-left" />
+</picture>
 
 14,499 stars with the repository pushed 2026-10-01, created 2025-07-29, as of 2026-10-06 (GitHub API).
 The Hacker News record is two threads: an 11-point Show HN in January 2026 (4 comments) and a 4-point story in July 2026 (0 comments), so the 14.5k stars rest on trend cycles and word of mouth, not public scrutiny.

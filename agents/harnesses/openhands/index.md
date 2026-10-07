@@ -27,13 +27,11 @@ Today's component map per the docs is Agent Canvas (the open-source browser clie
 Latest tagged release v1.25.0 shipped October 6, 2026, adding Model Router settings with a run-at-conversation-start toggle, bulk provider-model addition as LLM profiles, per-profile personas, Canvas App updates, automation templates with native git integrations, and optional voice dictation; the default branch was pushed within a day of verification.
 All Hands AI raised $18.8M in a Series A led by Madrona on November 18, 2025, alongside a collaboration with AMD on locally-run agents.
 
-<a href="https://www.star-history.com/?repos=OpenHands%2FOpenHands&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OpenHands/OpenHands&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=OpenHands/OpenHands&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=OpenHands/OpenHands&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OpenHands/OpenHands&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=OpenHands/OpenHands&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=OpenHands/OpenHands&type=date&legend=top-left" />
+</picture>
 
 ## Strengths
 

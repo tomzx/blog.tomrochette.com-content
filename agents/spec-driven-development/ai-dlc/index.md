@@ -26,13 +26,11 @@ Amazon's own docs position it as the successor to retrofitting AI onto human pro
 Large and fast-moving for an eighteen-month-old methodology repo.
 As of 2026-10-06: 5,002 stars, 910 forks, 334 open issues, created 2025-11-13, pushed 2026-10-06, stable release v2.10.0 with near-daily v2.10.1-preview builds, MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
 
-<a href="https://www.star-history.com/?repos=awslabs%2Faidlc-workflows&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&legend=top-left" />
+</picture>
 
 **Its Hacker News footprint is thin (the methodology's threads run 2 to 5 points), so adoption signals rest on the star count and AWS's institutional push rather than independent discussion.**
 

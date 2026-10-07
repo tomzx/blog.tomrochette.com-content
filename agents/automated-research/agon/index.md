@@ -26,13 +26,11 @@ It runs from a separate data workspace (commonly `agon-artifacts`) through the c
 
 Active and small: 54 stars, 5 forks, 1 open issue, 76 commits, created 2026-06-18, last push 2026-09-30, as of 2026-10-03.
 
-<a href="https://www.star-history.com/?repos=AutoResearch-Factory%2FAgon&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AutoResearch-Factory/Agon&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AutoResearch-Factory/Agon&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AutoResearch-Factory/Agon&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AutoResearch-Factory/Agon&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AutoResearch-Factory/Agon&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AutoResearch-Factory/Agon&type=date&legend=top-left" />
+</picture>
 
 The companion arXiv paper ([2606.24177](https://arxiv.org/abs/2606.24177)) was submitted 2026-06-23 and reports 444 iterations of Prompt Economy loops across more than ten scientific domains, thousands of scientist-coder-auditor iterations over three months, and a longest uninterrupted run the project page puts at 30 days.
 **That adoption record is self-reported by the authors with no independent replication, and the public community footprint is essentially absent: an HN Algolia search for Agon autonomous research returns zero hits as of 2026-10-02.**

@@ -26,13 +26,11 @@ The repository was created 2024-07-09 as IBM's ds4sd/docling and now lives under
 
 Very active and very large: 68,429 stars, 5,003 forks, 1,007 open issues, and a push on 2026-10-06 as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=docling-project%2Fdocling&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=docling-project/docling&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=docling-project/docling&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=docling-project/docling&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=docling-project/docling&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=docling-project/docling&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=docling-project/docling&type=date&legend=top-left" />
+</picture>
 
 PyPI shows version 2.134.0 released 2026-10-06 across 222 releases, with Python 3.9 support dropped at 2.70.0, and the pepy badge reports about 3M downloads in the last month as of 2026-10-06 (pypistats returned 429 this run; its last confirmed figure was 2,834,838 on 2026-10-05).
 The HN footprint is thin for that scale: the largest story thread I found is 13 points from 2024-11-03, which says adoption flows through framework integrations and tutorials rather than launch-driven attention.

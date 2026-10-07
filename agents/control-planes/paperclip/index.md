@@ -26,13 +26,11 @@ Any agent that can receive a heartbeat is hirable, OpenClaw, Claude Code, Codex,
 Active at extreme velocity.
 As of 2026-10-06: 97,802 stars and 16,525 forks since creation on 2026-03-02, 6,501 open issues, pushed 2026-10-06, latest release v2026.1001.0 on 2026-10-02, date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
 
-<a href="https://www.star-history.com/?repos=paperclipai%2Fpaperclip&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&legend=top-left" />
+</picture>
 
 **Its Hacker News footprint is nearly empty: the April 2026 Show HN got 3 points, so the growth ran through X and Discord instead, which tells you who the audience is.**
 The roadmap is public about what does not exist yet: memory and knowledge, work queues, self-organization, CEO chat, and one item called MAXIMIZER MODE, the joke made explicit.

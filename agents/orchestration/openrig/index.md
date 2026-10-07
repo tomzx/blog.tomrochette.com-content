@@ -27,13 +27,11 @@ It ships no model and holds no API keys: it drives the Claude Code and Codex log
 
 Active and early: about 5.3k stars and 366 forks as of 2026-10-06, created 2026-04-01, 24 contributors, 94 open issues and pull requests, and v0.6.5 published 2026-10-04, with npm `@openrig/cli` at 0.6.5 after 55 versions since 2026-04-06.
 
-<a href="https://www.star-history.com/?repos=mvschwarz%2Fopenrig&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mvschwarz/openrig&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=mvschwarz/openrig&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=mvschwarz/openrig&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mvschwarz/openrig&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=mvschwarz/openrig&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=mvschwarz/openrig&type=date&legend=top-left" />
+</picture>
 
 **The adoption signal is thin where it matters: GitHub traction is respectable, but the Hacker News footprint is a pair of Show HN threads at 8 and 6 points plus a 2-point repost, and the documentation index still names release 0.5.14 while npm ships 0.6.5.**
 The project describes itself as built by its own network of agent teams since March 2026, a self-reported claim that independent field reports do not yet corroborate.

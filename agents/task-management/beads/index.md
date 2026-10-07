@@ -27,13 +27,11 @@ It lives in the gastownhall organization (renamed from steveyegge, the old name 
 Active and moving fast.
 As of 2026-10-06: 27,658 stars, 1,878 forks, 1,373 open issues, created 2025-10-12, pushed 2026-10-06, latest stable release v1.3.1 on 2026-09-30 (after the v1.3.1-rc.1 and rc.2 prereleases of 2026-09-21 and 2026-09-29, which followed v1.3.0 of 2026-09-15, and with a v1.3.2-rc.1 prerelease on 2026-10-05), and 29,486 npm downloads last month.
 
-<a href="https://www.star-history.com/?repos=gastownhall%2Fbeads&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gastownhall/beads&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=gastownhall/beads&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gastownhall/beads&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gastownhall/beads&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=gastownhall/beads&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gastownhall/beads&type=date&legend=top-left" />
+</picture>
 
 The repository description now leads with the memory framing ("A memory upgrade for your coding agent") rather than "issue tracker", the positioning moving toward what the `bd remember` and memory-decay sentences below describe.
 **There is no Show HN launch thread; adoption ran through Yegge's audience and the ecosystem instead, which is itself the community signal.**

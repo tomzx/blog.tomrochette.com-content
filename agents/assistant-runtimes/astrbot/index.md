@@ -26,13 +26,11 @@ The agent layer has sub-agents, tool calls, workflow orchestration, context comp
 
 Active and long-lived: 41,466 stars, 3,023 forks, and 1,612 open issues and pull requests as of 2026-10-06, created 2022-12-08, pushed 2026-10-06, AGPL-3.0.
 
-<a href="https://www.star-history.com/?repos=AstrBotDevs%2FAstrBot&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&legend=top-left" />
+</picture>
 
 The cadence is steady: v4.28.1 (2026-09-14), v4.28.2 (2026-09-27), and a v4.29.0-beta.1 prerelease (2026-10-01).
 The community runs through 15-plus QQ groups, a Discord server, HelloGitHub, and Trendshift, not through HN or the Western blogosphere, and that shows in the record: an Algolia story search for AstrBot returns only astroturfing threads it typo-matches, no AstrBot story at all.

@@ -25,13 +25,11 @@ The code is MIT, by an individual developer signing as Tianyu (43 GitHub followe
 
 **Active, nineteen days old, mid-pack among the open replicas by stars, with the smallest community footprint.**
 
-<a href="https://www.star-history.com/?repos=TianyuCodings%2FNanoJev&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TianyuCodings/NanoJev&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TianyuCodings/NanoJev&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TianyuCodings/NanoJev&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TianyuCodings/NanoJev&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TianyuCodings/NanoJev&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TianyuCodings/NanoJev&type=date&legend=top-left" />
+</picture>
 
 The repository was created 2026-09-17, pushed 2026-09-21, and shows about 2,500 stars and 256 forks as of 2026-10-06.
 The weights show about 8,600 downloads and 85 likes, the dataset about 5,200 downloads, as of 2026-10-06.

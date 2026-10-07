@@ -28,13 +28,11 @@ Extras include lifecycle hooks (worktree create, pre-merge, post-merge), macOS n
 Quiet and on the watch list.
 The repository was created 2025-08-20, was last pushed 2026-08-16, fifty-one days before this check, and shows 747 commits, about 1,794 stars, and 138 forks as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=standardagents%2Fdmux&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=standardagents/dmux&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=standardagents/dmux&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=standardagents/dmux&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=standardagents/dmux&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=standardagents/dmux&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=standardagents/dmux&type=date&legend=top-left" />
+</picture>
 
 npm recorded 1,124 downloads in the month ending 2026-10-04, a slight uptick against the silent repo.
 **Fifty-one days without a push moves dmux from active to the watch list: the npm trickle says people still install it, but its own historical cadence (747 commits in roughly one year) makes a fifty-one-day gap stand out, and the next move to watch is either a release or an abandonment notice.**

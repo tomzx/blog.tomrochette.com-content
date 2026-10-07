@@ -25,13 +25,11 @@ Apache-2.0, self-hosted, by EverMind-AI, with a technical report released as its
 
 Active and very early: 5,213 stars and 149 forks as of 2026-10-05, created 2026-05-21, with 35 contributors and v0.2.4 out on 2026-10-03 after five releases in September.
 
-<a href="https://www.star-history.com/?repos=EverMind-AI%2FRaven&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/Raven&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/Raven&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=EverMind-AI/Raven&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/Raven&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/Raven&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=EverMind-AI/Raven&type=date&legend=top-left" />
+</picture>
 
 The Show HN thread from 2026-09-29 drew 55 points and about 51 comments, and it is where the launch went wrong: dang, Hacker News's moderator, asked the authors to stop posting AI-generated or AI-edited comments, which site rules prohibit.
 The same thread produced the sharpest one-line critique of the positioning: "it is loops", with no weight updates anywhere in the system.

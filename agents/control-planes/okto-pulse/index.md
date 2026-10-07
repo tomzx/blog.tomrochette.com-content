@@ -29,13 +29,11 @@ An embedded knowledge graph keeps decisions, constraints, bugs, and learnings qu
 
 Active and young: 110 stars, 4 forks, and 8 open issues as of 2026-10-06, created 2026-04-22, last pushed 2026-10-02, current PyPI version 0.3.3.
 
-<a href="https://www.star-history.com/?repos=OktoLabsAI%2Fokto-pulse&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OktoLabsAI/okto-pulse&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=OktoLabsAI/okto-pulse&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=OktoLabsAI/okto-pulse&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OktoLabsAI/okto-pulse&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=OktoLabsAI/okto-pulse&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=OktoLabsAI/okto-pulse&type=date&legend=top-left" />
+</picture>
 
 No GitHub releases are published, so the PyPI package is the release channel, and the website still advertises v0.2.6 while the repository README documents v0.3.3.
 **The internal numbers do not agree across surfaces: the README prose and the website both say 17 governance gates while the README's own platform table says 18, and the README says 340 core MCP tools while the product page says 215.**

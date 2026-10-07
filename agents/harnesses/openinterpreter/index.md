@@ -27,13 +27,11 @@ The fork is documented rather than hidden: FORK_BRANDING.md defines the distribu
 
 Active and fast-moving again after roughly nineteen quiet months: 68,500 stars, 5,886 forks, and a push on 2026-10-02 as of 2026-10-04, with only 13 open issues, which tells you issue intake is tightly curated.
 
-<a href="https://www.star-history.com/?repos=openinterpreter%2Fopeninterpreter&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&legend=top-left" />
+</picture>
 
 The latest releases are rust-v0.0.54 and rust-v0.0.55, both published 2026-09-30: 0.0.54 bundles the maintained Codex 0.156.1 client with GPT-6 Astra, Sol, and Luna metadata and refreshes the Kimi, Qwen, DeepSeek, and Anthropic model catalogs, and 0.0.55 fixes offline model listing for configured non-OpenAI providers, with the 0.0.43 notes still describing the "stable upstream Codex rust-v0.154.0 compatibility baseline" and presets for GLM, Gemini, Claude, and OpenAI IDs.
 The legacy Python line is stranded: PyPI shows open-interpreter 0.4.3, the last of 130 releases, uploaded 2024-10-26.

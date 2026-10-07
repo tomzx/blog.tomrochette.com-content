@@ -26,13 +26,11 @@ Open GSD has grown an ecosystem around the loop: gsd-pi (a standalone harness), 
 Split between a dead root and a live successor.
 The original gsd-build/get-shit-done is archived at 64,370 stars and 5,433 forks, last pushed 2026-05-31, with its README now a redirect notice to open-gsd/gsd-core.
 
-<a href="https://www.star-history.com/?repos=open-gsd%2Fgsd-core&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&legend=top-left" />
+</picture>
 
 The successor, created 2026-05-22, is actively developed: 10,215 stars, 733 forks, pushed 2026-10-06, release v1.16.0 on 2026-10-05 still the newest, and 43,409 npm downloads last month for @opengsd/gsd-core, while the legacy get-shit-done-cc package records 56,342.
 **The transition was not clean: Blake Watson's widely-linked build story added a 2026-07-31 update telling readers not to install the original, reporting that people say a crypto scam took place around the creator, and naming OpenGSD the consensus successor.**

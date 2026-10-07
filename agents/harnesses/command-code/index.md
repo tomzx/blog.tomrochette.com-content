@@ -28,13 +28,11 @@ The company raised a $5 million seed led by Tom Preston-Werner, with Amjad Masad
 The npm package's latest build is 1.74.3 (published October 5, 2026), the site's changelog counts 390 releases, and the package did 219,535 downloads in the last month (the API window covering September 5 to October 4, as of 2026-10-06).
 The `CommandCodeAI/command-code` repository has 4,097 stars as of 2026-10-06 (GitHub API) but hosts issues only: no source, no license, the client is closed.
 
-<a href="https://www.star-history.com/?repos=CommandCodeAI%2Fcommand-code&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=CommandCodeAI/command-code&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=CommandCodeAI/command-code&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=CommandCodeAI/command-code&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=CommandCodeAI/command-code&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=CommandCodeAI/command-code&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=CommandCodeAI/command-code&type=date&legend=top-left" />
+</picture>
 
 The first public release dates to about May 2026 (a 3-point Show HN on May 6), and the GOAT plan announcement drew 6 points in August; the site claims 100,000-plus developers and 40,000-plus paying customers, numbers I cannot verify from anywhere independent.
 I treat the install count as the one solid signal and the discussion vacuum as a warning: a genuinely adopted tool usually leaves more community trace than this.

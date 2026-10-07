@@ -27,13 +27,11 @@ It is local-first and BYOK: API keys stay in a local credentials file, with prov
 
 New and extremely loud: 244,191 stars and 29,255 forks as of 2026-10-06, about eight weeks after the repo was created on 2026-08-13.
 
-<a href="https://www.star-history.com/?repos=deepseek-ai%2Fdeepseek-harness&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=deepseek-ai/deepseek-harness&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=deepseek-ai/deepseek-harness&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=deepseek-ai/deepseek-harness&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=deepseek-ai/deepseek-harness&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=deepseek-ai/deepseek-harness&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=deepseek-ai/deepseek-harness&type=date&legend=top-left" />
+</picture>
 
 No stable release exists, only alpha and rc prereleases (latest: dsh-v0.2.1-alpha.1 on 2026-10-03, adding an experimental Claude Code Mods compatibility layer, an agent-driven plugin-creation entry in the plugin manager, prefilled unsent prompts in new sessions, and reverse-proxy support via `--public-url`, plus a batch of fixes), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.

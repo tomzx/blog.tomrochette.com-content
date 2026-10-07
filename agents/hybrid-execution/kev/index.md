@@ -26,13 +26,11 @@ The API tests run TypeSafe's own example requests against the local server, whic
 **Active and nineteen days old, with traction on every axis I can measure.**
 The repository was created 2026-09-17 and pushed 2026-10-05, with about 8,500 stars and 561 forks as of 2026-10-06, and three releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20, and kev-1.0 on 2026-10-01, which versions the four checkpoints as one family with `v1.0` tags on every Hub repo and pins cards, eval suites, and serving code for the next generation to be measured against, training nothing new).
 
-<a href="https://www.star-history.com/?repos=jaredpalmer%2Fkev&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=jaredpalmer/kev&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=jaredpalmer/kev&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=jaredpalmer/kev&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=jaredpalmer/kev&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=jaredpalmer/kev&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=jaredpalmer/kev&type=date&legend=top-left" />
+</picture>
 
 The family grew a flagship in the same window: Kev-9B v2 shipped 2026-09-30 (a refitted temperature, v1 kept at a Hub tag) and Kev-27B v2 joined it, with a 65,536-token validated context against 8,192 for the small family and README-claimed numbers within three points of Jev, or ahead of it, on 9 of 11 new-source categories while matching Jev's 0.90 MMLU, at the cost of needing an 80 GB GPU.
 The Hacker News thread (2026-09-21) exploded from about 30 points when I first checked to 463 points as of 2026-10-06, clearing the bar this note originally recorded it failing, with the substantive use-case discussion (coding-agent verifiers, spam filtering, knowledge-cutoff concerns) now carrying far more weight than drive-by upvotes.

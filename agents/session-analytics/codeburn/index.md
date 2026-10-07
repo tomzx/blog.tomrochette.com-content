@@ -27,13 +27,11 @@ Made by AgentSeal (the repository moved from the AgentSeal org to getagentseal, 
 
 Young and fast: 11,345 stars and 876 forks as of 2026-10-06, created 2026-04-13, pushed 2026-10-06 (GitHub API).
 
-<a href="https://www.star-history.com/?repos=getagentseal%2Fcodeburn&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&legend=top-left" />
+</picture>
 
 The npm package pulled 36,881 downloads in the trailing month (2026-09-05 to 2026-10-04).
 The current release line is desktop/CLI v0.9.25 (2026-09-21, tagged separately per platform), and the repository description still says 37 tools where the README says 41, a drift to read as the README being newer.

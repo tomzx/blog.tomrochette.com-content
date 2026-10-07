@@ -26,13 +26,11 @@ It is a Go binary from Kenn Software LLC, the company led by Wes McKinney (the c
 **Active and unusually fast-moving, with adoption concentrated around its author's reputation.**
 The repo (kenn-io/roborev) was created January 5, 2026 and shows 1,745 stars, 165 forks, and 30 contributors as of 2026-10-06, pushed the same day.
 
-<a href="https://www.star-history.com/?repos=kenn-io%2Froborev&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/roborev&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=kenn-io/roborev&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenn-io/roborev&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/roborev&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=kenn-io/roborev&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenn-io/roborev&type=date&legend=top-left" />
+</picture>
 
 The release train ran from v0.33 (2026-02-17) to v0.71.0 (2026-10-03), 120 releases in nine months.
 The project moved twice: both wesm/roborev and roborev-dev/roborev now redirect to kenn-io/roborev, and Kenn's site pairs it with the sibling tools AgentsView and msgvault.

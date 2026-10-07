@@ -31,13 +31,11 @@ In this index, [Codex](../../harnesses/codex/index.md) treats it as first-class,
 The last big holdout fell on 2026-09-18: Claude Code 2.1.277 added native AGENTS.md support, reading the file in any project without a CLAUDE.md, implemented as a built-in "mod" and not yet available on Bedrock, Vertex, or Foundry.
 The history matters: the support request only reached the HN front page in August 2026, was closed as completed on 2026-08-17 with only a community binary patch linked, and commenters quoted an Anthropic engineer promising easy AGENTS.md use, which arrived a month later in the changelog.
 
-<a href="https://www.star-history.com/?repos=agentsmd%2Fagents.md&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentsmd/agents.md&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=agentsmd/agents.md&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentsmd/agents.md&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentsmd/agents.md&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=agentsmd/agents.md&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentsmd/agents.md&type=date&legend=top-left" />
+</picture>
 
 ## Strengths
 

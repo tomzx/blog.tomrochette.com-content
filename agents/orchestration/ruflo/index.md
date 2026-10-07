@@ -26,13 +26,11 @@ It ships under MIT, installs from npm, and drives the Claude Code and Codex acco
 Active and shipping almost daily: v3.53.0 released 2026-10-06 (a version bump plus catalog entry, with the console, ruflo-protector, and mods plugins moving through the git marketplace), v3.52.1 and v3.52.0 the day before, with 40 contributors and an npm release feed that still carries claude-flow-named packages.
 73,951 stars, 8,795 forks, and 1,113 open issues as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=ruvnet%2Fruflo&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ruvnet/ruflo&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ruvnet/ruflo&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ruvnet/ruflo&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ruvnet/ruflo&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ruvnet/ruflo&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ruvnet/ruflo&type=date&legend=top-left" />
+</picture>
 
 npm `ruflo` served 60,190 downloads in the week ending 2026-10-04.
 **Those stars are inherited: `github.com/ruvnet/claude-flow` returns a 301 redirect to `ruvnet/ruflo`, and the README's star badge still points at the claude-flow shields URL, so the number measures the repository's history under the Claude Flow name plus a rename, not adoption of Ruflo the product.**

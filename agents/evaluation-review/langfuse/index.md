@@ -25,13 +25,11 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 Mature and busy: 35,420 stars, 3,931 forks, created 2023-05-18, pushed 2026-10-06, v4.51.0 released 2026-10-05 as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=langfuse%2Flangfuse&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&legend=top-left" />
+</picture>
 
 Announced ClickHouse acquisition landed on Hacker News on 2026-01-17 with 220 points, and the README says the team doubled in the six months before it.
 **Three years old, the largest community in this category, and now owned by a database vendor whose observability stack it slots into.**

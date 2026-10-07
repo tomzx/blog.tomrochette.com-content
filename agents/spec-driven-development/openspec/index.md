@@ -24,13 +24,11 @@ The docs live at [openspec.dev](https://openspec.dev/), with a Discord for suppo
 
 Half of spec-kit's stars in a third of the time.
 
-<a href="https://www.star-history.com/?repos=Fission-AI%2FOpenSpec&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&legend=top-left" />
+</picture>
 
 As of 2026-10-06: about 71k stars and about 4.9k forks since creation on 2025-08-05, 171 open issues and pull requests, MIT, and 2,453,826 npm downloads last month (the 2026-09-05 to 2026-10-04 window).
 **Its Hacker News footprint is effectively empty (no significant thread found this run), so adoption spread through X and Discord, and third-party verification is thinner than the install count implies.**

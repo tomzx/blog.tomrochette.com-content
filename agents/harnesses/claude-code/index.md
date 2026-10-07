@@ -28,13 +28,11 @@ The npm install is deprecated in favor of a native installer; third-party provid
 **Active and dominant.**
 The `anthropics/claude-code` repository shows about 149.5k stars and about 14.4k open issues and pull requests as of 2026-10-06; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
 
-<a href="https://www.star-history.com/?repos=anthropics%2Fclaude-code&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&legend=top-left" />
+</picture>
 
 Shipping pace in 2026 is high: projects for supervising groups of parallel agents (September 17), dynamic workflows across tens of parallel subagents (May 28), agent view (May 11), routines (April), computer use (March).
 

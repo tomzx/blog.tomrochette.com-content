@@ -28,13 +28,11 @@ It sits in the orchestration layer of this section's taxonomy (control plane and
 **Active, well-capitalized by YC standards, and shipping daily.**
 2,878 stars and 231 forks as of 2026-10-04 on a repo created July 9, 2025, with pushes landing within a day of verification (GitHub API).
 
-<a href="https://www.star-history.com/?repos=omnara-ai%2Fomnara&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=omnara-ai/omnara&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=omnara-ai/omnara&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=omnara-ai/omnara&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=omnara-ai/omnara&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=omnara-ai/omnara&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=omnara-ai/omnara&type=date&legend=top-left" />
+</picture>
 
 Two HN threads anchor its traction: a 310-point Show HN on August 12, 2025 ([HN](https://news.ycombinator.com/item?id=44878650)) and a 147-point Launch HN on February 12, 2026 ([HN](https://news.ycombinator.com/item?id=46991591)).
 The product's own framing moved between those dates, from "run Claude Code from anywhere" to "the API for production-grade agents" with managed-agent execution.

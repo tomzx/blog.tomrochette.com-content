@@ -28,13 +28,11 @@ It speaks OpenAI, Anthropic, Gemini, and Qwen APIs plus local models via Ollama 
 **Active and self-hosting in an unusual sense: the README states the project uses its own agent to file issues, submit PRs, review code, and run tests.**
 The repository shows about 28.3k stars as of 2026-10-04 and was pushed within a day of verification.
 
-<a href="https://www.star-history.com/?repos=QwenLM%2Fqwen-code&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=QwenLM/qwen-code&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=QwenLM/qwen-code&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=QwenLM/qwen-code&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=QwenLM/qwen-code&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=QwenLM/qwen-code&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=QwenLM/qwen-code&type=date&legend=top-left" />
+</picture>
 
 It launched in July 2025 as a Qwen3-Coder-optimized CLI; the Acknowledgments section records the Gemini CLI v0.8.2 origin and the split from upstream at v0.1.
 

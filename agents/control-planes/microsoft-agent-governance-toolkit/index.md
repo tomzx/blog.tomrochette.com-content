@@ -25,13 +25,11 @@ It is published under the Microsoft organization, but the team states an intent 
 
 Active, wide, and fast-moving: 6,395 stars, 1,125 forks, and 76 open issues as of 2026-10-06, created 2026-03-02, last pushed 2026-10-05, latest release v4.1.0 on 2026-06-09.
 
-<a href="https://www.star-history.com/?repos=microsoft%2Fagent-governance-toolkit&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-governance-toolkit&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-governance-toolkit&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/agent-governance-toolkit&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-governance-toolkit&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-governance-toolkit&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/agent-governance-toolkit&type=date&legend=top-left" />
+</picture>
 
 **The community footprint is thin relative to the star count: the Hacker News submissions I found top out at 6 points, and the most substantive third-party writeup is a security critique rather than a tutorial.**
 That critique (April 26, 2026) found a caller-controlled `X-Agent-ID` header flowing into audit, policy, and rate-limit consumers with no verification, six exported security primitives with zero production callers, and an in-memory audit log that breaks its own integrity check on overflow.

@@ -26,13 +26,11 @@ The memory side persists cross-session context per user and project (facts, pref
 Dormant-leaning: v0.4.1 released 2026-04-11 and no repository push since 2026-06-07 as of 2026-10-04, roughly four months quiet.
 **The attention record is unusual: first place on Hugging Face Daily Papers and 3,456 stars, but no Hacker News discussion at all, so the buzz came from the paper ranking rather than user adoption.**
 
-<a href="https://www.star-history.com/?repos=aiming-lab%2FMetaClaw&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aiming-lab/MetaClaw&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=aiming-lab/MetaClaw&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=aiming-lab/MetaClaw&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aiming-lab/MetaClaw&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=aiming-lab/MetaClaw&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=aiming-lab/MetaClaw&type=date&legend=top-left" />
+</picture>
 
 A research artifact with a real feature history through April, then silence; treat it as a promising experiment on pause, not maintained infrastructure.
 

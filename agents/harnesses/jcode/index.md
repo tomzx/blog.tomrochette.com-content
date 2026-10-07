@@ -27,13 +27,11 @@ Its three distinctive systems are an embedding-based memory graph with passive r
 **Active and rising fast, with a bus factor of one.**
 Created January 5, 2026, it shows 20,319 stars and 2,360 forks with a push on the day of verification (GitHub API, as of 2026-10-06), and a release cadence that ran near-daily until v0.84.0 on September 7, 2026, followed by a twelve-day pause that v0.85.0 ended on September 19, 2026, v0.86.0 a day later on September 20, the v0.87 pair starting September 22 (v0.87.0, which added Claude Opus 5.5 with independent Anthropic model discovery and Claude Code 2.1.280 OAuth compatibility, with v0.87.1 following within hours), and v0.88.0 on September 23, which made Claude Opus 5.5 the default Anthropic model and added multi-browser support and banked resets for exhausted OpenAI usage.
 
-<a href="https://www.star-history.com/?repos=1jehuang%2Fjcode&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=1jehuang/jcode&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=1jehuang/jcode&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=1jehuang/jcode&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=1jehuang/jcode&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=1jehuang/jcode&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=1jehuang/jcode&type=date&legend=top-left" />
+</picture>
 
 v0.89.0 followed on September 28, adding built-in voice input with native microphone capture, interactive agent applets, a pinned session status line, and cross-swarm messaging with unique labels, and v0.90.0 landed October 1, making web search provider-native (Anthropic and OpenAI server-side search by default instead of scraping from your machine, with an opt-out back to local search engines) and keeping mid-session skill installs from busting the prompt cache.
 v0.90.1 shipped October 5, auto-retrying OpenAI-compatible providers that answer 5xx heavy-usage errors, showing real quota windows for Kimi Code, Cursor, and the Z.ai Coding Plan in /usage, and keeping saved API keys in their env files so key edits no longer need a restart.

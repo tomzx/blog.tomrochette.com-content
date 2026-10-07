@@ -23,13 +23,11 @@ The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2
 
 Active and big-vendor backed, about 19.2k combined stars as of 2026-10-05: `kimi-code` at 7,771 stars, `kimi-cli` at 11,433 stars, with the older repository now archived by Moonshot (its last push was 2026-09-22).
 
-<a href="https://www.star-history.com/?repos=MoonshotAI%2Fkimi-code&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MoonshotAI/kimi-code&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MoonshotAI/kimi-code&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MoonshotAI/kimi-code&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MoonshotAI/kimi-code&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MoonshotAI/kimi-code&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MoonshotAI/kimi-code&type=date&legend=top-left" />
+</picture>
 
 **The independent FrontierHarness Eval pegs it mid-pack on quality and cheap on cost: 56.7 percent pass at a $3.65 median cost per task, with an 88 percent cache rate on Kimi K3.**
 The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 2026-01-27 one), which I read as distribution through Kimi's own channels rather than developer-mindshare gravity.

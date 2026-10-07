@@ -1518,3 +1518,5 @@ Changes to this section that do not appear here were made by a human and must be
 
 - Owner follow-up in chat: replaced the single-line markdown star history image on all 241 notes with the theme-aware picture block (a dark and a light source plus a default image, wrapped in the star-history.com link) so the chart follows the reader's color scheme; the target repository and the Status placement are unchanged [deepseek-v4.1-flash]
 - Verification: all 241 files carry exactly one picture block inside Status, 0 single-line markdown charts remain, front matter parses [deepseek-v4.1-flash]
+- Owner follow-up in chat: dropped the wrapping star-history.com link from every chart, leaving only the theme-aware picture block (dark and light sources plus the default image) on all 241 notes; the target repository and the Status placement are unchanged [deepseek-v4.1-flash]
+- Verification: 241 files carry exactly one picture block inside Status, 0 star-history.com anchor links remain, front matter parses [deepseek-v4.1-flash]

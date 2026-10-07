@@ -25,13 +25,11 @@ The license is Business Source License 1.1, source-available with a conversion d
 
 Active but maturing slowly: 2,361 stars as of 2026-10-06, created 2026-02-28, pushed 2026-09-23, with the last tagged release v0.44.7 on 2026-07-25 and development continuing on the default branch since.
 
-<a href="https://www.star-history.com/?repos=AgentsMesh%2FAgentsMesh&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AgentsMesh/AgentsMesh&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AgentsMesh/AgentsMesh&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AgentsMesh/AgentsMesh&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AgentsMesh/AgentsMesh&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AgentsMesh/AgentsMesh&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AgentsMesh/AgentsMesh&type=date&legend=top-left" />
+</picture>
 
 **The adoption record is thin: a 3-point Show HN thread in March 2026 is the only independent footprint, so the hundred-agent story rests on the vendor's demo, not field reports.**
 The docs are unusually complete for that traction (quick start through full API reference), which is the strongest credibility signal the project has.

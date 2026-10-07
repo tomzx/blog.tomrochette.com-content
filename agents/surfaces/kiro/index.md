@@ -31,13 +31,11 @@ On September 16, 2026 the Claude Fable 5.1 Preview began rolling out to Kiro Ent
 On September 28, 2026 Claude Opus 5.5 joined the model list across the IDE, CLI, Crew, and Web at a 2.0x credit multiplier, down from Opus 5's 2.2x.
 The public issue tracker (kirodotdev/Kiro, about 4.3k stars as of 2026-10-06) saw only README docs and Dependabot dependency commits on August 26-27, 2026, with no feature commits since June 22, 2026, so release evidence still lives on kiro.dev, not the repository.
 
-<a href="https://www.star-history.com/?repos=kirodotdev%2FKiro&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kirodotdev/Kiro&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=kirodotdev/Kiro&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kirodotdev/Kiro&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kirodotdev/Kiro&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=kirodotdev/Kiro&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kirodotdev/Kiro&type=date&legend=top-left" />
+</picture>
 
 Its spec workflow has been influential enough that community projects port it to other harnesses.
 

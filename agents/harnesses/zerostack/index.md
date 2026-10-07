@@ -28,13 +28,11 @@ An ARCHITECTURE.md file complements AGENTS.md with shared core knowledge for age
 Active: the repository was pushed 2026-10-04, created May 12, 2026, with the latest release v1.8.4 on September 7, 2026.
 1,700 stars and 138 forks as of 2026-10-05.
 
-<a href="https://www.star-history.com/?repos=gi-dellav%2Fzerostack&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gi-dellav/zerostack&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=gi-dellav/zerostack&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gi-dellav/zerostack&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gi-dellav/zerostack&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=gi-dellav/zerostack&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gi-dellav/zerostack&type=date&legend=top-left" />
+</picture>
 
 The May 16, 2026 launch thread reached 575 points (item 48164287), the highest-signal uncovered harness candidate of this cycle, with follow-up release threads through June and a Show HN in July.
 v1.8.0, "The Great Cleanup", landed September 3, 2026 after a six-week release quiet stretch and credited several external contributors with a large TUI refactoring.

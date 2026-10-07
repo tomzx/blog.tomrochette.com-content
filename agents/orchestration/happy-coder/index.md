@@ -24,13 +24,11 @@ The README describes the makers as a community of engineers building for themsel
 
 Active and second only to cmux among maintained session-multiplexing tools on stars: 24,018 GitHub stars as of 2026-10-05 (the Codex workflow layer oh-my-codex holds more, 33.5k, but it is a skills-and-workflows layer rather than a session multiplexer, and the orphaned Vibe Kanban repo holds about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-10-04.
 
-<a href="https://www.star-history.com/?repos=slopus%2Fhappy&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=slopus/happy&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=slopus/happy&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=slopus/happy&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=slopus/happy&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=slopus/happy&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=slopus/happy&type=date&legend=top-left" />
+</picture>
 
 cli-1.2.5 reached stable on 2026-09-22, following cli-1.2.4 (2026-09-13) and the 1.2.5 betas.
 Its August 2025 Show HN drew only 30 points, so the star count is bottom-up adoption rather than press traction.

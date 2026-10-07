@@ -26,13 +26,11 @@ Beta features push it toward an OS-level assistant: AI computer use and live doc
 
 Active and steadily shipped: 66,739 stars, 7,451 forks, and 321 open issues as of 2026-10-06, created 2023-06-04, pushed the same day.
 
-<a href="https://www.star-history.com/?repos=Mintplex-Labs%2Fanything-llm&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&legend=top-left" />
+</picture>
 
 v1.17.0 was released 2026-10-01, following v1.16.2 (2026-09-22), and the docs changelog shows an unbroken cadence back through v1.6.x.
 The founder Tim Carambat introduced the desktop app on Hacker News in September 2024 (368 points), framing the mission as layperson-accessible private AI, and the thread is a useful record of both praise and the first round of critiques.

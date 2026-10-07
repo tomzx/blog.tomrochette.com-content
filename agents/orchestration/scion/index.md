@@ -25,13 +25,11 @@ It ships Gemini CLI and Claude Code harnesses by default, with Codex, OpenCode, 
 
 Active and early: 1,730 stars and 272 forks as of 2026-10-06, created 2026-03-10, with 32 contributors and nightly releases.
 
-<a href="https://www.star-history.com/?repos=GoogleCloudPlatform%2Fscion&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=GoogleCloudPlatform/scion&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=GoogleCloudPlatform/scion&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=GoogleCloudPlatform/scion&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=GoogleCloudPlatform/scion&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=GoogleCloudPlatform/scion&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=GoogleCloudPlatform/scion&type=date&legend=top-left" />
+</picture>
 
 The README states plainly that Scion is not an officially supported Google product and is not eligible for Google's support programs.
 InfoQ's April 2026 coverage framed it as an experimental testbed with partial Codex and OpenCode support and documented its idiosyncratic lexicon (grove, hub, runtime broker).

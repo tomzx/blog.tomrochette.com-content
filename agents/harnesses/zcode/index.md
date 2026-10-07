@@ -30,13 +30,11 @@ On September 18, 2026 a [wire-level analysis](https://blog.ferstar.org/en/posts/
 Z.ai admitted the uploads, attributed them to a Repo Wiki indexing feature, shipped client 3.14.0 with the pipeline removed, and open-sourced the workbench on September 20-21 with CAICT and NSFOCUS audits reporting the OSS bucket deleted ([HN](https://hn.algolia.com/api/v1/items/49782440)).
 The repository shows 7,445 stars and 2,273 forks as of 2026-10-06, pushed 2026-09-29 (GitHub API); desktop installers are at v3.14.4.
 
-<a href="https://www.star-history.com/?repos=zai-org%2FZCode&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zai-org/ZCode&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=zai-org/ZCode&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=zai-org/ZCode&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zai-org/ZCode&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=zai-org/ZCode&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=zai-org/ZCode&type=date&legend=top-left" />
+</picture>
 
 Independent code review of the dump confirms the snapshot pipeline is gone and checkpoints run on purely local git, but deleting the bucket cannot answer what happened to data that left machines before September 18.
 

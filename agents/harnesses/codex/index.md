@@ -26,13 +26,11 @@ Default models are the GPT-6 family (Astra, Sol, and Luna) rolling out across pl
 **Active.**
 `openai/codex` shows about 128.0k stars, about 20.0k forks, and about 11.9k commits under Apache-2.0 as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=openai%2Fcodex&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openai/codex&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=openai/codex&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openai/codex&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openai/codex&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=openai/codex&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openai/codex&type=date&legend=top-left" />
+</picture>
 
 The CLI launched April 2025 and has been rewritten and rebuilt since; the current docs position it as an open agent harness platform.
 

@@ -27,13 +27,11 @@ It runs on macOS, Linux, Windows, Android, and the BSDs.
 **Active.**
 About 28.5k stars, 2.3k forks, and 4,268 commits as of 2026-10-06, launched July 30, 2025.
 
-<a href="https://www.star-history.com/?repos=charmbracelet%2Fcrush&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=charmbracelet/crush&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=charmbracelet/crush&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=charmbracelet/crush&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=charmbracelet/crush&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=charmbracelet/crush&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=charmbracelet/crush&type=date&legend=top-left" />
+</picture>
 
 It is the continuation of the original opencode-ai repository: creator Kujtim Hoxha joined Charm, and the repo moved with him.
 After the dispute that split the community, Charm renamed it Crush while the other developers kept the OpenCode name.

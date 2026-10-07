@@ -25,13 +25,11 @@ The third-party notices disclose in-tree source ports of openai/codex and sst/op
 
 Active and extremely fast-moving: 27,229 stars and 5,124 forks as of 2026-10-06, roughly twelve weeks after the repo was created on 2026-07-14, last pushed 2026-09-29.
 
-<a href="https://www.star-history.com/?repos=xai-org%2Fgrok-build&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=xai-org/grok-build&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=xai-org/grok-build&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=xai-org/grok-build&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=xai-org/grok-build&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=xai-org/grok-build&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=xai-org/grok-build&type=date&legend=top-left" />
+</picture>
 
 The changelog listed v1.0.30 as current as of 2026-09-11, with 138 releases logged between May 17 and September 9, and the npm distribution (@xai-official/grok, 271,488 downloads in the last month, window September 5 to October 4) carried the roughly one-per-day cadence through v1.0.46 stable (published 2026-09-30) and v1.0.49 alpha (published 2026-10-02), which both still stand as of 2026-10-06, stretching the first multi-day gap in the release train this note has recorded to four days.
 There are no GitHub releases or tags (both API endpoints return empty arrays), so binaries ship from the install script at x.ai/cli, which pulls versioned binaries from a Cloudflare-fronted URL with a Google Cloud Storage fallback across stable, alpha, and enterprise channels; the docs also document `npm install -g @xai-official/grok` as the alternative that needs neither host.

@@ -22,13 +22,11 @@ Scripts are deliberately opaque to the controller: no invented child runs, graph
 
 Active and early: created 2026-07-16, 487 stars and 92 forks, pushed 2026-10-04, releases v0.1.0 through v0.4.0 (v0.4.0 on 2026-08-31 still the newest, with 53 commits on main since), with the README labeling it early-access software, all per the GitHub API as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=owainlewis%2Fmachinist&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&legend=top-left" />
+</picture>
 
 **There is no Hacker News thread or independent coverage as of 2026-10-06, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
 The velocity (five releases in eight weeks) says maintained; the single-author commit history says bus-factor one.

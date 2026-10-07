@@ -27,13 +27,11 @@ Made by Gota (gotalab), an agentic-AI engineer in Japan; the project is Kiro-ins
 Established and mid-scale, with adoption that bypassed Hacker News entirely.
 As of 2026-10-06: 3,701 stars, 290 forks, created 2025-07-17, pushed 2026-09-23, release v3.1.0 (2026-09-23, the same day as the last push), 24,272 npm downloads last month, MIT.
 
-<a href="https://www.star-history.com/?repos=gotalab%2Fcc-sdd&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gotalab/cc-sdd&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=gotalab/cc-sdd&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gotalab/cc-sdd&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gotalab/cc-sdd&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=gotalab/cc-sdd&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gotalab/cc-sdd&type=date&legend=top-left" />
+</picture>
 
 The v3.0 rework (spring 2026) moved everything to Agent Skills and added the autonomous implementation loop; the older `/kiro:*` command modes still install but are deprecated.
 **No significant Hacker News thread exists, so like OpenSpec its traction is measured in installs, and its claims rest on its own documentation.**

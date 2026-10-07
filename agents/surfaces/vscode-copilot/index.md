@@ -26,13 +26,11 @@ Cloud agents run on GitHub, where assigning an issue to Copilot produces a pull 
 **Active and default.**
 The repository shows commits landing daily and about 193k stars as of 2026-10-06.
 
-<a href="https://www.star-history.com/?repos=microsoft%2Fvscode&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/vscode&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=microsoft/vscode&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/vscode&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/vscode&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=microsoft/vscode&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/vscode&type=date&legend=top-left" />
+</picture>
 
 Every Copilot plan now includes Copilot CLI and the Copilot desktop app, and the agent docs are the editor documentation's front door as of August 2026.
 One contraction is ending: new self-serve Copilot Business and Copilot Enterprise purchases were paused on April 22, 2026, and on September 3, 2026 GitHub announced it is gradually reopening self-serve sign-ups for card and PayPal payers over the following weeks.

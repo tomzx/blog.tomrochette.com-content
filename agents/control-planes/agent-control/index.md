@@ -26,13 +26,11 @@ The launch blog (March 11, 2026) frames the product against Forrester's agent co
 
 Active and young: 320 stars, 55 forks, 45 open issues, and 19 contributors as of 2026-10-06, created 2026-01-30, pushed 2026-10-06, with a fast release train (v8.8.0 on 2026-09-22, v8.9.0 and v8.10.0 on 2026-10-01, v8.11.0 on 2026-10-02, mirrored by agent-control-sdk 8.11.0 on PyPI and agent-control 3.3.0 on npm).
 
-<a href="https://www.star-history.com/?repos=agentcontrol%2Fagent-control&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentcontrol/agent-control&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=agentcontrol/agent-control&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentcontrol/agent-control&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentcontrol/agent-control&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=agentcontrol/agent-control&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentcontrol/agent-control&type=date&legend=top-left" />
+</picture>
 
 **The community footprint is thin for the backing it carries: the Hacker News launch thread drew 2 points and zero comments, so the adoption evidence is the release cadence, the contributor count, and the launch-partner list rather than organic discussion.**
 A version line already at v8 eight months in says the API moves; the README's own quickstart warns that the default compose file starts without API keys configured, which it calls dangerous for any real-world usage.

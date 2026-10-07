@@ -27,13 +27,11 @@ It talks to 15+ providers (Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure,
 **Active and foundation-governed.**
 The repository (moved from Block's org to `aaif-goose/goose`) shows about 54.9k stars as of 2026-10-04 and was last pushed within a day of verification.
 
-<a href="https://www.star-history.com/?repos=aaif-goose%2Fgoose&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aaif-goose/goose&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=aaif-goose/goose&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=aaif-goose/goose&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aaif-goose/goose&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=aaif-goose/goose&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=aaif-goose/goose&type=date&legend=top-left" />
+</picture>
 
 The January 2025 launch drew a 249-point Hacker News thread, and coverage through 2026 describes adoption scaling to a majority of Block's engineers, though that figure comes from a third-party course site, not a Block primary source.
 Block contributed goose at the AAIF's formation on December 9, 2025, alongside Anthropic's MCP and OpenAI's AGENTS.md, and the project completed its migration to the aaif-goose organization on April 7, 2026.

@@ -23,13 +23,11 @@ BYOK covers OpenAI, Anthropic, Google Gemini, Vertex AI, Novita, and any OpenAI-
 
 **Active and small: commits this week, with 1,449 stars and 167 forks as of 2026-10-06.**
 
-<a href="https://www.star-history.com/?repos=kodustech%2Fkodus-ai&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kodustech/kodus-ai&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=kodustech/kodus-ai&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kodustech/kodus-ai&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kodustech/kodus-ai&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=kodustech/kodus-ai&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kodustech/kodus-ai&type=date&legend=top-left" />
+</picture>
 
 The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on October 5, 2026.
 Funding: I could not verify any funding round from a primary source, so I record none.

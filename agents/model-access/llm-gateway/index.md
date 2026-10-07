@@ -24,13 +24,11 @@ The company reports SOC 2 Type II, a 30-day enterprise pilot with a 99.9% SLA, a
 
 Active and young: the repo was created 2025-04-12 and shows 1,671 stars and 191 forks as of 2026-10-06, pushed the same day.
 
-<a href="https://www.star-history.com/?repos=theopenco%2Fllmgateway&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=theopenco/llmgateway&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=theopenco/llmgateway&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=theopenco/llmgateway&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=theopenco/llmgateway&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=theopenco/llmgateway&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=theopenco/llmgateway&type=date&legend=top-left" />
+</picture>
 
 DevPass shipped across Q2 2026 with annual billing and integration guides, and the Q2 roundup puts deepseek-v4-pro at the top of its quarterly token table.
 A Hacker News search this run returned no stories about the product, so the footprint is SEO and docs, not community debate.

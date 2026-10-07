@@ -26,13 +26,11 @@ Slash commands or skills integrate Claude Code, Codex, Cursor, Gemini, Copilot, 
 Active, company-backed, and mid-adoption.
 As of 2026-10-06: 1,668 stars and 177 forks since creation on 2025-10-09, pushed 2026-10-06, MIT, stable PyPI release 3.2.7 (2026-09-09) and 3,251 PyPI downloads last month, with a 4.x release-candidate line in qualification (v4.0.0rc5, 2026-10-02) whose README says stable launch acceptance remains pending.
 
-<a href="https://www.star-history.com/?repos=spec-kitty%2Fspec-kitty&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&legend=top-left" />
+</picture>
 
 The repository moved from its original Priivacy-ai org to the spec-kitty org, which GitHub's redirect confirmed this run.
 **Its Hacker News footprint is one 5-point thread (January 2026), so its adoption case rests on stars, installs, and the company's own surfaces, not on independent discussion.**

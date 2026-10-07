@@ -26,13 +26,11 @@ The Series A announcement (November 2024) declared $125M for the platform; the f
 **The strongest third-party signal is Martin Fowler's October 2025 analysis naming Tessl one of the three SDD pillars alongside Kiro and Spec Kit (the 128-point thread), which treats it as a serious approach while noting it was then the least mature of the three.**
 The CLI has not been pushed since 2026-03-05, which is consistent with a web-first roadmap and worth re-checking before adopting (re-confirmed unchanged, now at 70 stars, on 2026-10-06).
 
-<a href="https://www.star-history.com/?repos=tesslio%2Fcli&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tesslio/cli&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tesslio/cli&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tesslio/cli&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tesslio/cli&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tesslio/cli&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tesslio/cli&type=date&legend=top-left" />
+</picture>
 
 ## Strengths
 

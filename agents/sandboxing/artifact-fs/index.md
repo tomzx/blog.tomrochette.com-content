@@ -26,13 +26,11 @@ Apache-2.0, Go 1.26+, source build only, no packaged releases.
 
 Early beta: 1,171 stars, 52 forks, 6 open issues as of 2026-10-06, created 2026-03-29, last push 2026-09-11.
 
-<a href="https://www.star-history.com/?repos=cloudflare%2Fartifact-fs&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cloudflare/artifact-fs&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=cloudflare/artifact-fs&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=cloudflare/artifact-fs&type=date&legend=top-left" />
- </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cloudflare/artifact-fs&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=cloudflare/artifact-fs&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=cloudflare/artifact-fs&type=date&legend=top-left" />
+</picture>
 
 Tags run `1.0.0-rc.1` through `rc.10` with no GitHub Releases; 57 commits concentrated in two Cloudflare engineers, and the repo ships its own AGENTS.md.
 **The launch drew a 217-point Hacker News thread, but "Used by" is empty and the parent Artifacts service is still in closed beta.**
