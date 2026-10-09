@@ -1,7 +1,7 @@
 ---
 title: Codex
 created: 2026-08-22
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, openai, developer-tools]
 readability: 3
@@ -19,7 +19,7 @@ Codex is OpenAI's coding agent: a Rust CLI, an IDE extension, a desktop app, and
 
 The `codex` CLI runs locally against your repository, with `/init` writing an AGENTS.md, sandboxed permissions, `/review` for local code review, skills and a plugin marketplace, subagents, and `codex exec` for scripts and CI.
 **Codex cloud runs the same agent** in cloud environments reachable from web, CLI, and GitHub (`@codex` on issues and PRs), and the SDK, app server, and MCP server expose the harness as a platform.
-Default models are the GPT-6 family (Astra, Sol, and Luna) rolling out across plans alongside the GPT-5.6 family (Sol, Terra, Luna), with GPT-5.5 retiring from ChatGPT on October 14, 2026.
+Default models are the GPT-6 family (Astra, Sol, and Luna) rolling out across plans alongside the GPT-5.6 family (Sol, Terra, Luna), with GPT-6.1 Sol now listed on Plus and Pro for Work and Codex and GPT-5.5 retiring from ChatGPT on October 14, 2026.
 
 ## Status
 
@@ -85,6 +85,7 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - 2026-09-26 - Linked the ChatGPT plans note in the new Model access category, where the subscription that carries this harness is tracked with its price history.
 - 2026-10-03 - Recorded the pricing page listing Pro as three tiers at $100, $200, and $500 per month (previously Pro 5x $100 and Pro 20x $200), with the $500 tier carrying Ultrafast Astra access, and appended the matching Price history row.
 - 2026-10-07 - Added the openai/codex star history chart to the Status section.
+- 2026-10-08 - Recorded the pricing page listing GPT-6.1 Sol on Plus and Pro for Work and Codex (its credit rate card added alongside), with the GPT-5.5 October 14 retirement reconfirmed.
 
 ## See also
 

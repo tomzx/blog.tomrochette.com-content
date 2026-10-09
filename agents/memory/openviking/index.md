@@ -1,7 +1,7 @@
 ---
 title: OpenViking
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, context-database, file-based, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint even more than this category's usual pattern.**
-39,335 stars with the repository pushed 2026-10-07, created 2026-01-05, as of 2026-10-07 (GitHub API).
+39,397 stars with the repository pushed 2026-10-08, created 2026-01-05, as of 2026-10-08 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&theme=dark&legend=top-left" />
@@ -80,7 +80,7 @@ Not for proprietary SaaS embedding, and not for buyers who need published hosted
 
 ## References
 
-- https://github.com/volcengine/OpenViking - repository, AGPL-3.0, 39,335 stars, activity, as of 2026-10-07
+- https://github.com/volcengine/OpenViking - repository, AGPL-3.0, 39,397 stars, activity, as of 2026-10-08
 - https://raw.githubusercontent.com/volcengine/OpenViking/main/README.md - the viking:// filesystem model, context types, Studio, and deployment paths
 - https://docs.openviking.ai/ - the L0/L1/L2 context layers, agent integrations, CLI, and the 108-page documentation map
 - https://blog.openviking.ai/ - the active project blog, latest post 2026-10-03

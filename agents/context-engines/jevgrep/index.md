@@ -1,7 +1,7 @@
 ---
 title: Jevgrep
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, cli, open-source]
 readability: 3
@@ -26,8 +26,8 @@ The MIT-licensed CLI ships from David Zhang (dzhng), the engineer behind deep-re
 
 ## Status
 
-**Eleven days old and the fastest start in this category, with a thin discussion footprint so far.**
-2,355 stars, 171 forks, and 25 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-10-02, all as of 2026-10-07 (GitHub API).
+**Twelve days old and the fastest start in this category, with a thin discussion footprint so far.**
+2,424 stars, 171 forks, and 25 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-10-02, all as of 2026-10-08 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dzhng/jevgrep&type=date&theme=dark&legend=top-left" />
@@ -52,7 +52,7 @@ The earlier run that rejected this repository as a harness candidate recorded it
 - Every query costs provider tokens, so a team that searches constantly may pay more than an index would charge after its one-time build, and the vendor-run benchmark covers ten tuned Python tasks from one repository.
 - Pre-1.0 with a v0.x CLI, one maintainer, and breaking changes already recorded (0.3.0 replaced environment-based credentials with `jg auth`).
 - Declaration-aware output is limited to four language families, and queries fall back to content previews elsewhere.
-- The star count is eleven days old; the same velocity that looks like momentum is also the easiest number to fake with a launch push, so the footprint deserves a re-read before this note's framing ages.
+- The star count is twelve days old; the same velocity that looks like momentum is also the easiest number to fake with a launch push, so the footprint deserves a re-read before this note's framing ages.
 
 ## Pricing
 

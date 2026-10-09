@@ -1,7 +1,7 @@
 ---
 title: Loki Mode
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, autonomous-agents, verification]
 readability: 3
@@ -21,7 +21,7 @@ Autonomi publishes it under BUSL-1.1, and the README documents outcomes and exit
 
 ## Status
 
-Active and shipping: 1,084 stars and 208 forks since creation on 2025-12-26, pushed 2026-10-05, npm at 11.0.3 (2026-10-04), and 173,811 Docker pulls, per GitHub, npm, and Docker Hub as of 2026-10-07.
+Active and shipping fast: 1,087 stars and 208 forks since creation on 2025-12-26, pushed 2026-10-08, npm at 11.3.0 (2026-10-08), and 174,997 Docker pulls, per GitHub, npm, and Docker Hub as of 2026-10-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=asklokesh/loki-mode&type=date&theme=dark&legend=top-left" />
@@ -30,7 +30,8 @@ Active and shipping: 1,084 stars and 208 forks since creation on 2025-12-26, pus
 </picture>
 
 **Its Hacker News footprint is self-submitted threads in the single digits, and the 99.67 percent SWE-Bench claim in one of them is self-reported, so no independent evaluation exists as of 2026-10-07.**
-The version line moves fast: the README describes a Loki 10 engine and npm already ships 11.0.3.
+The version line moves fast: five releases landed in the two days to 2026-10-08.
+v11.3.0 adds a model router escalation chain and plan-time routing shipped off by default, with the release notes claiming byte-identical behavior when LOKI_ROUTER is unset across a 156-scenario differential.
 
 ## Strengths
 
@@ -65,6 +66,7 @@ Not for teams that require OSI licensing, and not for anyone who needs independe
 ## Changes
 
 - 2026-10-07 - Created from the category's entrant scan as the receipt-gated member.
+- 2026-10-08 - Recorded the npm train's jump from 11.0.3 to 11.3.0 (five releases in the two days to 2026-10-08, led by the router escalation chain shipped off by default) and refreshed counts.
 
 ## See also
 
@@ -77,7 +79,8 @@ Not for teams that require OSI licensing, and not for anyone who needs independe
 
 - https://github.com/asklokesh/loki-mode - repository, delivery contract, review council, MCP server, and install methods
 - https://www.autonomi.dev - Autonomi's site and the issue-to-PR-with-signed-receipt positioning
-- https://www.npmjs.com/package/loki-mode - the npm package, 11.0.3 latest as of 2026-10-07
+- https://www.npmjs.com/package/loki-mode - the npm package, 11.3.0 latest as of 2026-10-08
+- https://github.com/asklokesh/loki-mode/releases/tag/v11.3.0 - the v11.3.0 release notes, router escalation chain off by default and skill-link healing hardening
 - https://hub.docker.com/r/asklokesh/loki-mode - the Docker image and its pull count
 - https://github.com/asklokesh/loki-mode/blob/main/LICENSE - Business Source License 1.1
 - https://news.ycombinator.com/item?id=46393705 - the Show HN thread, 4 points

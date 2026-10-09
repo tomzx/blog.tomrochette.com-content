@@ -32,6 +32,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Kilo Code](kilo-code/index.md) - the Cline-and-Roo feature-merge under MIT, subagents through cloud tasks bundled in, Anaconda's since July 2026.
 - [Kimi Code](kimi-code/index.md) - Moonshot AI's terminal agent tuned for its own challenger-priced models, subagents through ACP in one Node.js CLI.
 - [MiMo Code](mimo-code/index.md) - Xiaomi's MIT OpenCode fork, a terminal agent built around checkpointed memory and goal-verified long-horizon runs, priced on cheap MiMo tokens.
+- [Nanocoder](nanocoder/index.md) - the Nano Collective's community-built local-first agent, MIT via npm with the widest documented local-engine list, funded by sponsors instead of a company.
 - [Omnigent](omnigent/index.md) - Databricks' Apache-2.0 meta-harness wrapping Claude Code, Codex, Cursor, OpenCode, Pi, and custom YAML agents behind one API, with policies, sandboxes, and live session sharing.
 - [OneCLI](onecli/index.md) - the YC S26 Apache-2.0 team harness where a credential gateway injects secrets per request, so agents never hold them.
 - [Open Interpreter](openinterpreter/index.md) - a 2026 Rust fork of Codex CLI emulating provider harnesses for cheap open-weight models like Kimi K3 and GLM.
@@ -81,3 +82,4 @@ Its members are compared on shared rows in the [Harness Feature Matrix](harness-
 - 2026-10-05 - Added Command Code.
 - 2026-10-05 - Added Copilot CLI.
 - 2026-10-06 - Added Omnigent.
+- 2026-10-08 - Added Nanocoder.

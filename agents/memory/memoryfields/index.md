@@ -1,7 +1,7 @@
 ---
 title: Memoryfields
 created: 2026-09-04
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, file-format]
 readability: 3
@@ -19,12 +19,12 @@ Memoryfields is a portable file format for agent memory: a zip of flat Markdown 
 A memoryfield is a named collection of files (zip, directory, git repo, S3 bucket, HTTP) of Markdown pages with frontmatter (title, created, updated, uuid, summary, plus optional status and status_reason flags), and an optional derived vector index that can be deleted and regenerated at any time.
 The spec (draft version 0.3, 2026-09, RFC 2119 keywords) requires flat directories of `.md` pages and deliberately allows any embedding model, with version-pinned model codes so indexes never conflate.
 Pages carry a soft limit of about 8KB (roughly 2000 tokens), which the author defends as a feature: add another page instead of bloating one.
-Tooling is minimal: memoryfield-tool, a Python CLI (AGPL-3.0, 42 stars), and memoryfield-skill, an installable skill (MIT, 21 stars), both created 2026-08-24/25, plus a demo corpus (soapstones.memoryfield.zip), and the spec repository itself holds 39 stars, as of 2026-10-06.
+Tooling is minimal: memoryfield-tool, a Python CLI (AGPL-3.0, 42 stars), and memoryfield-skill, an installable skill (MIT, 21 stars), both created 2026-08-24/25, plus a demo corpus (soapstones.memoryfield.zip), and the spec repository itself holds 39 stars, as of 2026-10-08.
 
 ## Status
 
 **One high-traction essay, thin tooling adoption, draft spec.**
-The launch essay hit 191 points on Hacker News on 2026-08-31, while all three repositories together hold 102 stars as of 2026-10-06.
+The launch essay hit 191 points on Hacker News on 2026-08-31, while all three repositories together hold 102 stars as of 2026-10-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=calpaterson/memoryfield-spec&type=date&theme=dark&legend=top-left" />

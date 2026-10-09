@@ -1,7 +1,7 @@
 ---
 title: Hindsight
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, benchmarks, open-source]
 readability: 3
@@ -26,8 +26,8 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
 
 ## Status
 
-**Active and suddenly large: 46,441 stars rank it third in this category behind claude-mem and mem0, on a repository that is barely a year old.**
-46,441 stars with the repository pushed 2026-10-07, created 2025-10-30, as of 2026-10-07 (GitHub API).
+**Active and suddenly large: 47,004 stars rank it third in this category behind claude-mem and mem0, on a repository that is barely a year old.**
+47,004 stars with the repository pushed 2026-10-08, created 2025-10-30, as of 2026-10-08 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&theme=dark&legend=top-left" />
@@ -89,7 +89,7 @@ Not for solo coding-agent use, where local files or claude-mem cost nothing, or 
 
 ## References
 
-- https://github.com/vectorize-io/hindsight - repository, MIT license, 46,441 stars, activity, as of 2026-10-07
+- https://github.com/vectorize-io/hindsight - repository, MIT license, 47,004 stars, activity, as of 2026-10-08
 - https://raw.githubusercontent.com/vectorize-io/hindsight/main/README.md - architecture, memory types, benchmark claims, the independent-reproduction statement, and install paths
 - https://hindsight.vectorize.io/ - product documentation: retain/recall/reflect, multi-strategy retrieval, observation consolidation, knowledge pages, 18 coding-agent integrations
 - https://benchmarks.hindsight.vectorize.io/ - the live benchmark site and its downloadable run artifacts (LongMemEval-S 94.6, LoCoMo 92.0, BEAM-10M 64.1), as of 2026-10-07

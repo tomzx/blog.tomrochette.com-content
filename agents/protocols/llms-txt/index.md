@@ -1,7 +1,7 @@
 ---
 title: llms.txt
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, conventions, context-files, web]
 readability: 3
@@ -26,7 +26,7 @@ It is a convention, not a foundation standard: no required fields, no registry, 
 ## Status
 
 **Active and adopted exactly where it aimed, and ignored exactly where it did not.**
-The spec site reports that thousands of sites publish an llms.txt file, that documentation platforms generate one automatically, and that coding agents use them reliably, and this run fetched live files from Anthropic's developer docs (825 lines) and OpenAI's developer docs to confirm the served reality (2026-10-07).
+The spec site reports that thousands of sites publish an llms.txt file, that documentation platforms generate one automatically, and that coding agents use them reliably, and this run fetched live files from Anthropic's developer docs (830 lines, now served from platform.claude.com after a redirect) and OpenAI's developer docs to confirm the served reality (2026-10-08).
 
 The community footprint is substantial for a file convention: the launch thread drew 206 points and 175 comments on Hacker News (2024-09-03), a directory-of-files thread drew 106 points (2024-12-23), and generator tools have shipped steadily since.
 The skeptical record is equally firm: Google's John Mueller called the file "purely speculative for now" in June 2026 and pointed to WebMCP as the Google-backed alternative, and a 2025 industry piece reported that major AI platforms do not even request the file in their crawls.
@@ -78,7 +78,7 @@ My disagreeable claim: llms.txt succeeded by failing at its original goal, becau
 
 - https://llmstxt.org/ - the spec site: author (Jeremy Howard), published 2024-09-03, modified 2026-08-10, the v2 format and link relations
 - https://llmstxt.org/changes.html - the v2 changelog (August 2026): link relations, both `.md` URL forms, subpath scoping, and the adoption summary
-- https://docs.anthropic.com/llms.txt - Anthropic's served llms.txt, 825 lines, fetched 200 this run
+- https://docs.anthropic.com/llms.txt - Anthropic's served llms.txt, 830 lines, 301 redirect to platform.claude.com/llms.txt, fetched 200 after redirect this run
 - https://developers.openai.com/llms.txt - OpenAI's served llms.txt, fetched 200 this run
 - https://www.searchenginejournal.com/google-says-llms-txt-is-purely-speculative-for-now/577576/ - Google's John Mueller calling the file purely speculative (June 2, 2026) and favoring WebMCP
 - https://ppc.land/llms-txt-adoption-stalls-as-major-ai-platforms-ignore-proposed-standard/ - the adoption-stalls record: major AI platforms not requesting the file

@@ -1,7 +1,7 @@
 ---
 title: Agent Skills open standard
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, agent-extensions, open-standards, llm=glm-5.3-flash]
 readability: 3
@@ -25,7 +25,7 @@ Discovery is by directory convention: each harness scans its own skills paths (`
 
 **Active, and effectively the winner.**
 The agentskills.io client showcase lists Claude and Claude Code, ChatGPT and Codex, Gemini CLI, Cursor, GitHub Copilot and VS Code, OpenCode, Amp, Goose, Junie, Roo, Kiro, Trae, and dozens more.
-Vercel's skills CLI installs into 80 agents as of 2026-10-07 (its README table now names 80 targets, one ahead of its own headline's "75 more" count).
+Vercel's skills CLI installs into 79 agents as of 2026-10-08 (its README headline and table now agree: four named agents plus a "75 more" count matching the table's 79 targets).
 Mintlify now auto-generates a skill at `.well-known/skills/default/skill.md` for every docs site it hosts and deprecated its January 2026 install.md convention in favor of skills.
 
 ## Strengths
@@ -64,6 +64,7 @@ My disagreeable claim: SKILL.md is quietly becoming the interface between softwa
 - 2026-08-26 - Restored the mandatory not-for bottom-line clause and added Anthropic's untrusted-skills engineering post as its critical source.
 - 2026-10-05 - Cursor's own docs now document native Agent Skills support (`.agents/skills` plus `.cursor/`, `.claude/`, and `.codex/` paths, `paths` and `disable-model-invocation` frontmatter, `/skill` invocation, and a `/migrate-to-skills` built-in in 2.4), so the discovery sentence no longer treats Cursor as a Vercel-CLI-only adopter and the fragmentation caution reflects Cursor's beyond-spec fields.
 - 2026-10-06 - Added Agent Plugins to See also: the multi-vendor packaging standard that bundles this format with MCP servers into one installable plugin; the 79-agent README count re-verified.
+- 2026-10-08 - The Vercel CLI's agent-target count moved back to 79, with the README headline and table now agreeing, correcting the 80 recorded on 2026-10-07.
 
 ## See also
 

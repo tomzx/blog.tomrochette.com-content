@@ -10,6 +10,7 @@ readability: 3
 
 The editors and IDEs where agents meet your code, from AI-native platforms and agentic IDEs to the neutral defaults, with the acquisitions and sunsets recorded where they happened.
 
+- [Cate](cate/index.md) - the MIT infinite-canvas desktop workspace where agent terminals become colored worktree territories reporting working, waiting, or finished.
 - [Continue](continue/index.md) - the open-source Copilot alternative across VS Code, JetBrains, and CLI, acquired by Cursor in June 2026, now read-only.
 - [Cursor](cursor/index.md) - Anysphere's AI-native editor platform, acquired by SpaceX in August 2026, with OpenAI winding down its model access from November 12.
 - [Delta](delta/index.md) - Zed Industries' multiplayer agent environment on DeltaDB, thread plus worktree plus in-thread review, in public beta with PRs replaced.
@@ -45,3 +46,4 @@ Its members are compared on shared rows in the [Surface Feature Matrix](surface-
 - 2026-10-04 - Added Delta.
 - 2026-10-04 - Added Whiteboard.
 - 2026-10-06 - Added Visual Studio 2026.
+- 2026-10-08 - Added Cate.

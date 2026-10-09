@@ -1,7 +1,7 @@
 ---
 title: Warp Agent CLI
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, terminal, model-routing]
 readability: 3
@@ -56,17 +56,18 @@ Warp has also opened a Factories line: factories-as-code cloud software factorie
 ## Pricing
 
 Free at $0 with CLI access, pay-as-you-go credit reloads, and BYO inference.
-Build starts at $20/month ($18 annual) with 1,500 credits ($20 of included usage at API rates).
-Max starts at $200/month with 18,000 credits.
-Business is $50/user/month with per-seat credits, SAML SSO, and BYOK.
+Build starts at $20/month ($18 annual) and now denominates its included usage in dollars, $20 of agent usage at API rates, where the page previously showed 1,500 credits.
+Max starts at $200/month ($180 annual) with $200 of included agent usage, ten times Build, replacing the 18,000-credit display.
+Business is $45/user/month annual ($50 monthly) with $20 of included usage per seat, SAML SSO, and BYOK.
 Enterprise is custom, adding BYOLLM routing, self-hosted cloud agents, and cross-harness memory (research preview).
-All tiers as of 2026-09-26, re-verified unchanged against the live pricing page on 2026-10-06.
+All tiers as of 2026-10-08; the dollar-denominated display replaced the credit-count display on the live pricing page.
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09-13 | All tiers | Baseline: Free $0 with BYO inference, Build from $20/mo ($18 annual, 1,500 credits), Max from $200/mo (18,000 credits), Business $50/user/mo, Enterprise custom. | [warp.dev/pricing](https://www.warp.dev/pricing) |
+| 2026-10-08 | Build, Max, Business | The pricing page replaced credit counts with dollar-denominated included usage (Build $20, Max $200, Business $20 per seat) and displays annual-billing rates by default (Build $18/mo, Max $180/mo, Business $45/user/mo); the underlying monthly prices are unchanged from the baseline. | [warp.dev/pricing](https://www.warp.dev/pricing) |
 
 ## Compared to
 
@@ -88,6 +89,7 @@ I think the CLI exists to follow developers who fled Warp's AI-heavy terminal fo
 - 2026-09-18 - Factories moved from closed early access to published pricing: pay-as-you-go factory usage at a 20% markup, factory credits inside the Build, Max, and Business tiers, and the $10,000 early-access allotment.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-07 - Added the warpdotdev/warp star history chart to the Status section.
+- 2026-10-08 - Recorded the pricing page's restructure from credit counts to dollar-denominated included usage (Build $20, Max $200, Business $20 per seat, annual rates displayed by default) with monthly prices unchanged, and appended the matching Price history row.
 
 ## See also
 

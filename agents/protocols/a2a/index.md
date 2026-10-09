@@ -1,7 +1,7 @@
 ---
 title: Agent2Agent Protocol (A2A)
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, multi-agent]
 readability: 3
@@ -26,8 +26,8 @@ IBM's rival Agent Communication Protocol merged into A2A in August 2025, consoli
 ## Status
 
 **Active, spec-stable, unevenly adopted.**
-v1.0.0 shipped 2026-03-12 and v1.0.1 on 2026-05-28 (latest as of 2026-10-02), with breaking wire changes from 0.3 but backward-compatible Agent Cards.
-The repository shows about 26k stars as of 2026-10-07, and the launch coalition of 50+ partners passed 100 supporting companies by donation time.
+v1.0.0 shipped 2026-03-12 and v1.0.1 on 2026-05-28 (latest as of 2026-10-08), with breaking wire changes from 0.3 but backward-compatible Agent Cards.
+The repository shows 26,065 stars as of 2026-10-08, and the launch coalition of 50+ partners passed 100 supporting companies by donation time.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2aproject/A2A&type=date&theme=dark&legend=top-left" />
@@ -36,7 +36,7 @@ The repository shows about 26k stars as of 2026-10-07, and the launch coalition 
 </picture>
 
 Support concentrates in enterprise suites (Gemini Enterprise, Agentforce, watsonx Orchestrate, SAP Joule, Azure AI Foundry).
-On 2026-10-01 the project shipped an official A2A CLI (Apache-2.0, 152 stars as of 2026-10-06), a single command surface for discovering, messaging, and streaming from A2A agents, with a companion agent skill that teaches harnesses to drive it.
+On 2026-10-01 the project shipped an official A2A CLI (Apache-2.0, 152 stars as of 2026-10-08), a single command surface for discovering, messaging, and streaming from A2A agents, with a companion agent skill that teaches harnesses to drive it.
 No coding harness in this index speaks it natively; the closest touchpoint is [Gemini CLI](../../harnesses/gemini-cli/index.md), where community setups attach remote A2A agents, and the CLI-plus-skill pair is now the official bridge for the rest.
 
 ## Strengths
@@ -87,13 +87,13 @@ The disagreeable part: I expect A2A to stay an enterprise convention, and if aut
 ## References
 
 - https://a2a-protocol.org/latest/ - official site: Agent Cards, MCP complementarity, TSC membership, Apache-2.0
-- https://github.com/a2aproject/A2A - repository, stars as of 2026-10-02, SDK list
+- https://github.com/a2aproject/A2A - repository, stars as of 2026-10-08, SDK list
 - https://a2a-protocol.org/latest/blog/2026/08/27/a-new-chapter-for-a2a-joining-the-agentic-ai-foundation/ - AAIF acceptance (2026-08-27), Growth Stage, 150+ organizations
 - https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/ - launch announcement (2025-04-09), 50+ partners
 - https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/ - Linux Foundation donation (2025-06-23), founding members
 - https://github.com/a2aproject/A2A/releases - v1.0.0 (2026-03-12) and v1.0.1 (2026-05-28) release notes
 - https://a2a-protocol.org/latest/blog/2026/10/01/introducing-a2a-cli/ - the A2A CLI announcement: one command surface, streaming, JSON output, the harness-facing agent skill
-- https://github.com/a2aproject/a2a-cli - the CLI repository, 152 stars, Apache-2.0, latest release v0.3.0 (2026-09-24), as of 2026-10-06
+- https://github.com/a2aproject/a2a-cli - the CLI repository, 152 stars, Apache-2.0, latest release v0.3.0 (2026-09-24), as of 2026-10-08
 - https://lfaidata.foundation/communityblog/2025/08/29/acp-joins-forces-with-a2a-under-the-linux-foundations-lf-ai-data/ - IBM ACP merge and TSC composition
 - https://blog.fka.dev/blog/2025-04-15-why-googles-a2a-protocol-doesnt-make-sense/ - the MCP-redundancy critique
 - https://news.ycombinator.com/item?id=48582679 - Ask HN usage thread: thin startup adoption, the download-ratio report

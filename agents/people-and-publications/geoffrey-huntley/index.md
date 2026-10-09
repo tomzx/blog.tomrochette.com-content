@@ -1,7 +1,7 @@
 ---
 title: Geoffrey Huntley
 created: 2026-09-24
-updated: 2026-10-06
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, agentic-engineering, automation]
 readability: 3
@@ -23,7 +23,7 @@ He frames the same idea at civilization scale with the slogan "AGI = artificial 
 
 ## Status
 
-Active with the fastest pulse of the window: on 2026-10-05 he published "an application in lisp you grow by talking to it", arguing that programming languages will converge on something not yet defined and demonstrating an application grown through conversation with agents rather than assembled, following two essays in one day on 2026-10-02, "software doesn't need to be readable anymore. it needs to be explainable." and "the craft has been commoditized, but access has not", the September 2026 recap of his May 2026 AI Engineer Singapore talk ("the eighteen-month recap", posted 2026-09-27), and "engineer away the slop" (July 2026), after monthly-or-better output through the prior year, including "everything is a ralph loop" (2026-01-17) and "Software development now costs less than the wage of a minimum wage worker" (2026-02-27).
+Active with the fastest pulse of the window: five essays in the first eight days of October 2026, led by "to Kodak yourself out of business" (2026-10-08), which reads JetBrains's first recorded net loss as proof that domain expertise becomes the blind spot (his own 2025 IDEs-are-dead call made good, with the lesson generalized to labs that believe better models will solve verification), and "the world hasn't figured out yet that you can literally just fix everything with a Nix overlay" (2026-10-07), which argues Nix overlays and NixOS tests as the single source of truth for agent environments, including developing on NixOS with sudo granted to his agents because the system is rollback-safe and a public nix-demo repository that patches force-push out of git for agent sandboxes, following "an application in lisp you grow by talking to it" (2026-10-05), arguing that programming languages will converge on something not yet defined and demonstrating an application grown through conversation with agents rather than assembled, two essays in one day on 2026-10-02, "software doesn't need to be readable anymore. it needs to be explainable." and "the craft has been commoditized, but access has not", the September 2026 recap of his May 2026 AI Engineer Singapore talk ("the eighteen-month recap", posted 2026-09-27), and "engineer away the slop" (July 2026), after monthly-or-better output through the prior year, including "everything is a ralph loop" (2026-01-17) and "Software development now costs less than the wage of a minimum wage worker" (2026-02-27).
 The readable essay extends his loop thesis to the artifact itself: a codebase no longer needs to be optimized for humans to read cold, only for a model to explain on demand, with type systems as the verification back pressure that lets cheaper models keep the loop closed.
 He has been building The Weaving Loom (source on his GitHub), which he calls infrastructure for evolutionary software, and he reports running it under autonomous system-verification loops.
 Role: his August 2025 workshop post states he was tech lead for developer productivity at Canva before joining Sourcegraph to work on the Amp agent, and his disclosures page commits to no sponsored content, but the site names no current employer as of 2026-09-24.
@@ -69,6 +69,7 @@ Not for teams seeking a vetted brownfield process, and not for readers who canno
 - 2026-09-29 - Newest-post check refreshed: the homepage now leads with "the eighteen-month recap: AI Engineer, Singapore, May 2026" (posted September 2026), after the July 2026 essay noted previously.
 - 2026-10-02 - Newest-post check refreshed: two new essays on 2026-10-02 ("software doesn't need to be readable anymore. it needs to be explainable." and "the craft has been commoditized, but access has not") ended the slower pulse; both added to References.
 - 2026-10-06 - Newest-post check refreshed again: "an application in lisp you grow by talking to it" (2026-10-05) makes three essays in four days, arguing applications are now grown through conversation with agents rather than assembled; added to Status and References (URL fetched this run).
+- 2026-10-08 - Two more essays, making five in October's first eight days: "the world hasn't figured out yet that you can literally just fix everything with a Nix overlay" (2026-10-07, Nix overlays and NixOS tests as agent-environment single source of truth, with the nix-demo repo patching force-push out of git for agents) and "to Kodak yourself out of business" (2026-10-08, JetBrains's first recorded net loss as the domain-blindness lesson); both added to Status and References (URLs fetched this run).
 
 ## See also
 
@@ -92,3 +93,5 @@ Not for teams seeking a vetted brownfield process, and not for readers who canno
 - https://ghuntley.com/readable/ - the 2026-10-02 essay arguing artifacts need to be explainable by a model rather than readable by humans, with types as back pressure
 - https://ghuntley.com/access/ - the 2026-10-02 essay on the craft being commoditized while access has not
 - https://ghuntley.com/lisp/ - the 2026-10-05 essay demonstrating an application in Lisp grown through conversation with agents, and the argument that languages will converge on something not yet defined
+- https://ghuntley.com/nix/ - the 2026-10-07 essay on Nix overlays and NixOS tests as the single source of truth for agent environments, with sudo-in-loops and the nix-demo repo
+- https://ghuntley.com/kodak/ - the 2026-10-08 essay reading JetBrains's first recorded net loss as the domain-expertise-blindness lesson, generalized to the labs

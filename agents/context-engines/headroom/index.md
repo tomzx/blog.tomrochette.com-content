@@ -1,7 +1,7 @@
 ---
 title: Headroom
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, token-optimization]
 readability: 3
@@ -16,14 +16,14 @@ Headroom is the Apache-2.0 context compression layer that rewrites everything an
 
 ## What it is
 
-A Python and TypeScript library, a zero-code-change proxy (`headroom proxy --port 8787`), a one-command wrapper around fourteen coding agents (`headroom wrap claude|codex|grok|copilot|cursor|aider|opencode|cline|continue|goose|openhands|openclaw|vibe|omp|zcode`), and an MCP server, from headroomlabs-ai (74,551 stars, pushed 2026-10-07, as of 2026-10-07).
+A Python and TypeScript library, a zero-code-change proxy (`headroom proxy --port 8787`), a one-command wrapper around fourteen coding agents (`headroom wrap claude|codex|grok|copilot|cursor|aider|opencode|cline|continue|goose|openhands|openclaw|vibe|omp|zcode`), and an MCP server, from headroomlabs-ai (74,649 stars, pushed 2026-10-08, as of 2026-10-08).
 Compression runs locally: statistical analysis keeps errors, anomalies, and boundaries in JSON arrays, a ModernBERT token classifier squeezes plain text, AST-aware compression (opt-in) collapses function bodies to signatures, an ML router resizes images, and everything removed lands in a Compress-Cache-Retrieve store the model can query through `headroom_retrieve`.
 A shared cross-agent memory store deduplicates content across Claude, Codex, Gemini, and Grok sessions, and a `headroom learn` command tunes the compressor.
 The docs' reproducible benchmarks (seeded, generated from MCP output formats, gpt-5.6 tokenizer) show 57 percent savings on an SRE incident dump (55,957 to 24,340 tokens), 42 percent on codebase exploration, and 21 percent on code search, with an explicit warning that savings depend on how repetitive your content is.
 
 ## Status
 
-Active and compounding fast: created 2026-01-07, 74,551 stars and 5,770 forks in nine months, PyPI package at 0.40.0, about 39,200 npm downloads in the week to 2026-10-04, as of 2026-10-07.
+Active and compounding fast: created 2026-01-07, 74,649 stars and 5,782 forks in nine months, PyPI package at 0.40.0, about 39,200 npm downloads in the week to 2026-10-04, as of 2026-10-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=headroomlabs-ai/headroom&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ The HN footprint is modest for the star count (three submissions, the largest at
 
 - The benchmark corpus is generated and seeded rather than production telemetry, and the docs say so; treat the percentages as reproducible upper references, not guarantees for your workload.
 - AST-aware code compression is opt-in and off by default, so the default code path is less aggressive than the headline suggests.
-- 415 open issues against nine months of explosive growth signals support strain.
+- 389 open issues and pull requests against nine months of explosive growth signals support strain.
 - A compression layer in the hot path is one more thing that can be wrong subtly, and the correctness of what survives compression is exactly as good as the statistical heuristics.
 
 ## Pricing

@@ -20,6 +20,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 - [E2B](e2b/index.md) - the hosted Firecracker-microVM sandbox API the category's self-hosted members measure themselves against, with its runtime now open source.
 - [Fence](fence/index.md) - Tusk's container-free CLI wrapping any command or agent in sandbox-exec or bubblewrap, Landlock, and seccomp, one fence.json, deny-by-default network.
 - [Flue](flue/index.md) - the Astro team's agent framework whose contribution is a three-tier sandbox taxonomy and durable execution.
+- [Greywall](greywall/index.md) - the Fence fork that adds proxy-swapped credentials and an allow-by-default watch mode with a live dashboard, quiet since August 2026.
 - [Microsandbox](microsandbox/index.md) - the libkrun microVM runtime with container workflows, agent-created sandboxes via skills and MCP, and the category's largest HN launch.
 - [NemoClaw](nemoclaw/index.md) - NVIDIA's Apache-2.0 reference stack that installs, hardens, and operates OpenClaw, Hermes, and LangChain Deep Agents inside OpenShell sandboxes with managed inference and lifecycle ops.
 - [nono](nono/index.md) - the Sigstore team's kernel capability sandbox that brokers each delegated tool separately and proxies credentials scoped per endpoint.
@@ -47,3 +48,4 @@ Its members are compared on shared rows in the [Sandboxing Feature Matrix](sandb
 - 2026-10-07 - Added Fence.
 - 2026-10-07 - Added NVX.
 - 2026-10-07 - Added NemoClaw.
+- 2026-10-08 - Added Greywall.

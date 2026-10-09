@@ -1,7 +1,7 @@
 ---
 title: Agent Teams
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, kanban, multi-cli, agpl]
 readability: 3
@@ -21,7 +21,7 @@ It connects Claude Code, Codex, OpenCode, Cursor, SuperGrok, GitHub Copilot, Z.A
 
 ## Status
 
-Active and young: 2,234 stars, a push on 2026-10-07, and release v2.17.1 on 2026-09-28 as of 2026-10-07 (GitHub API), on a repository created 2026-02-21.
+Active and young: 2,237 stars, a push on 2026-10-08, and release v2.17.6 on 2026-10-08 as of 2026-10-08 (GitHub API), five releases after v2.17.1 (2026-09-28), on a repository created 2026-02-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=777genius/agent-teams-ai&type=date&theme=dark&legend=top-left" />
@@ -62,6 +62,7 @@ Not for teams that need vendor accountability or a permissive license.
 ## Changes
 
 - 2026-10-07 - Created.
+- 2026-10-08 - Recorded v2.17.6 (October 8), five releases after v2.17.1.
 
 ## See also
 

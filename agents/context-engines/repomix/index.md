@@ -1,7 +1,7 @@
 ---
 title: Repomix
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-packing, open-source, developer-tools]
 readability: 3
@@ -28,7 +28,7 @@ It is built by Kazuki Yamada (yamadashy), sponsored by Warp and CodeRabbit.
 ## Status
 
 **Active and quietly massive.**
-28k stars (28,734), 1.5k forks, and 4,619 commits on GitHub, plus 397,834 npm downloads in the last month (2026-09-05 to 2026-10-04), stars, forks, and downloads as of 2026-10-07, with v1.18.1 released 2026-09-21.
+28k stars (28,744), 1.5k forks, and 4,619 commits on GitHub, plus 397,834 npm downloads in the last month (2026-09-05 to 2026-10-04), stars, forks, and downloads as of 2026-10-08, with v1.18.1 released 2026-09-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=yamadashy/repomix&type=date&theme=dark&legend=top-left" />

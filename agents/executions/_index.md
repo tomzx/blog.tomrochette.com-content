@@ -10,6 +10,7 @@ readability: 3
 
 Event-driven agent execution: lifecycle hooks, scheduled and repository-triggered cloud agents, and the automation canvases where triggers start workflows.
 
+- [Aeon](aeon/index.md) - the MIT framework that turns a GitHub repo plus Actions into an unattended cron agent driving nine harnesses.
 - [Claude Code hooks](claude-code-hooks/index.md) - lifecycle triggers that turn the harness into an event-driven system.
 - [Claude Code routines](claude-code-routines/index.md) - hosted Claude Code sessions on schedules, API calls, and GitHub events.
 - [GitHub Agentic Workflows](github-agentic-workflows/index.md) - markdown-defined automation compiled into hardened Actions runs.
@@ -25,3 +26,4 @@ Its members are compared on shared rows in the [Executions Feature Matrix](execu
 - 2026-08-24 - Added GitHub Agentic Workflows.
 - 2026-08-24 - Added n8n.
 - 2026-10-06 - Added Claude Code routines.
+- 2026-10-08 - Added Aeon.

@@ -1,7 +1,7 @@
 ---
 title: cc-sdd
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, agent-skills, multi-agent, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Gota (gotalab), an agentic-AI engineer in Japan; the project is Kiro-ins
 ## Status
 
 Established and mid-scale, with adoption that bypassed Hacker News entirely.
-As of 2026-10-06: 3,701 stars, 290 forks, created 2025-07-17, pushed 2026-09-23, release v3.1.0 (2026-09-23, the same day as the last push), 24,272 npm downloads last month, MIT.
+As of 2026-10-08: 3,709 stars, 290 forks, created 2025-07-17, pushed 2026-09-23, release v3.1.0 (2026-09-23, the same day as the last push), 24,272 npm downloads last month, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gotalab/cc-sdd&type=date&theme=dark&legend=top-left" />
@@ -81,7 +81,7 @@ The disagreeable claim I will defend: a fresh-context reviewer per task is a str
 
 ## References
 
-- https://github.com/gotalab/cc-sdd - repository, README: workflow, hosts, languages, licensing (3,701 stars as of 2026-10-06)
+- https://github.com/gotalab/cc-sdd - repository, README: workflow, hosts, languages, licensing (3,709 stars as of 2026-10-08)
 - https://raw.githubusercontent.com/gotalab/cc-sdd/main/README.md - the v3.0 skills-mode scope and install surface
 - https://raw.githubusercontent.com/gotalab/cc-sdd/main/docs/guides/why-cc-sdd.md - the spec-as-contract philosophy and the when-not-to-use list
 - https://raw.githubusercontent.com/gotalab/cc-sdd/main/docs/guides/skill-reference.md - the 17-skill surface and the /kiro-impl dispatch internals

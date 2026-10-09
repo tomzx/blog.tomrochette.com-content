@@ -1,7 +1,7 @@
 ---
 title: MetaClaw
 created: 2026-10-02
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, meta-learning, skill-evolution, assistant-runtime]
 readability: 3
@@ -23,8 +23,8 @@ The memory side persists cross-session context per user and project (facts, pref
 
 ## Status
 
-Dormant-leaning: v0.4.1 released 2026-04-11 and no repository push since 2026-06-07 as of 2026-10-04, roughly four months quiet.
-**The attention record is unusual: first place on Hugging Face Daily Papers and 3,456 stars, but no Hacker News discussion at all, so the buzz came from the paper ranking rather than user adoption.**
+Dormant-leaning: v0.4.1 released 2026-04-11 and no repository push since 2026-06-07 as of 2026-10-08, roughly four months quiet.
+**The attention record is unusual: first place on Hugging Face Daily Papers and 3,458 stars, but no Hacker News discussion at all, so the buzz came from the paper ranking rather than user adoption.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aiming-lab/MetaClaw&type=date&theme=dark&legend=top-left" />
@@ -81,7 +81,7 @@ Not for production assistants (the project is dormant and unaudited), or anyone 
 
 ## References
 
-- https://github.com/aiming-lab/MetaClaw - repository, MIT license, modes, multi-claw support, memory layer, and the push record as of 2026-10-03
+- https://github.com/aiming-lab/MetaClaw - repository, MIT license, modes, multi-claw support, memory layer, and the push record as of 2026-10-08
 - https://arxiv.org/abs/2603.17187 - the technical report "MetaClaw: Just Talk" grounding the meta-learning and RL-scheduling claims
 - https://huggingface.co/papers/2603.17187 - the Hugging Face Daily Papers ranking (first place, March 2026) behind the attention claim
 - https://github.com/aiming-lab/MetaClaw/releases - the v0.4.1 release (2026-04-11) anchoring the version and dormancy timeline

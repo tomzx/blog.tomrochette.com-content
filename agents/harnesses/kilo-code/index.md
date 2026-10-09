@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -24,7 +24,7 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 ## Status
 
 **Active under new ownership.**
-The repository shows about 27.5k stars under MIT as of 2026-10-07, most recently pushed within a day of verification; component tags ship on their own clocks (the newest stable is v7.8.3, published October 1, 2026, following the v7.8.2 prerelease earlier the same day, and a v7.8.7 prerelease appeared on October 7).
+The repository shows about 27.5k stars under MIT as of 2026-10-08, most recently pushed within a day of verification; component tags ship on their own clocks (the newest stable is v7.8.8, published October 7, 2026, a day after the v7.8.7 prerelease, with the jetbrains/v7.1.9 component following its own train).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Kilo-Org/kilocode&type=date&theme=dark&legend=top-left" />
@@ -88,6 +88,7 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 - 2026-10-06 - Corrected the stale harness count in the See-also matrix line.
 - 2026-10-07 - Added the Kilo-Org/kilocode star history chart to the Status section.
 - 2026-10-07 - Recorded the component-tag train moving to a v7.8.7 prerelease (published October 7), with v7.8.3 still the latest stable, and refreshed repository scale.
+- 2026-10-08 - Recorded the v7.8.8 stable release (published October 7), now the newest stable after the v7.8.7 prerelease, with the jetbrains/v7.1.9 component on its own train, and refreshed repository scale.
 
 ## See also
 

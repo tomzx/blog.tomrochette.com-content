@@ -1,7 +1,7 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
 readability: 3
@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,464 stars, 3,940 forks, created 2023-05-18, pushed 2026-10-07, v4.53.0 released 2026-10-06 as of 2026-10-07.
+Mature and busy: 35,513 stars, 3,949 forks, created 2023-05-18, pushed 2026-10-08, v4.54.0 released 2026-10-07 as of 2026-10-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 - 2026-10-06 - Recorded the v4.51.0 release (2026-10-05) and refreshed repository counts.
 - 2026-10-07 - Added the langfuse/langfuse star history chart to the Status section.
 - 2026-10-07 - Recorded the v4.52.0 and v4.53.0 releases (both 2026-10-06) and refreshed repository counts.
+- 2026-10-08 - Recorded the v4.54.0 release (2026-10-07) and refreshed repository counts.
 
 ## See also
 

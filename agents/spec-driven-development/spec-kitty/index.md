@@ -1,7 +1,7 @@
 ---
 title: Spec Kitty
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, governance, worktrees, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Slash commands or skills integrate Claude Code, Codex, Cursor, Gemini, Copilot, 
 ## Status
 
 Active, company-backed, and mid-adoption.
-As of 2026-10-06: 1,668 stars and 177 forks since creation on 2025-10-09, pushed 2026-10-06, MIT, stable PyPI release 3.2.7 (2026-09-09) and 3,251 PyPI downloads last month, with a 4.x release-candidate line in qualification (v4.0.0rc5, 2026-10-02) whose README says stable launch acceptance remains pending.
+As of 2026-10-08: 1,678 stars and 177 forks since creation on 2025-10-09, pushed 2026-10-08, MIT, stable PyPI release 3.2.7 (2026-09-09) and 3,251 PyPI downloads last month, with the 4.x release-candidate line still at v4.0.0rc5 (2026-10-02), whose README says stable launch acceptance remains pending.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&theme=dark&legend=top-left" />
@@ -82,7 +82,7 @@ The disagreeable claim I will defend: two members reaching delta specs from oppo
 
 ## References
 
-- https://github.com/spec-kitty/spec-kitty - repository and README: pipeline, lanes, worktrees, governance layer (1,668 stars as of 2026-10-06)
+- https://github.com/spec-kitty/spec-kitty - repository and README: pipeline, lanes, worktrees, governance layer (1,678 stars as of 2026-10-08)
 - https://raw.githubusercontent.com/spec-kitty/spec-kitty/main/README.md - the supported agents, work-package model, and the 4.x prerelease notice
 - https://www.spec-kitty.ai/ - the company site: control-plane positioning, demo-booked platform, no published tiers
 - https://docs.spec-kitty.ai/ - the documentation site

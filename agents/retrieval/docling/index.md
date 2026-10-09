@@ -1,7 +1,7 @@
 ---
 title: Docling
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, document-parsing, rag]
 readability: 3
@@ -32,7 +32,7 @@ Very active and very large: 68,477 stars, 5,013 forks, 1,005 open issues, and a 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=docling-project/docling&type=date&legend=top-left" />
 </picture>
 
-PyPI shows version 2.134.0 released 2026-10-06 across 222 releases, with Python 3.9 support dropped at 2.70.0, and pypistats reports 2,909,751 downloads in the last month as of 2026-10-07 (the pepy badge reads about 3M, matching).
+PyPI shows version 2.135.0 released 2026-10-07 across 223 releases, with Python 3.9 support dropped at 2.70.0, and pypistats reports 2,909,751 downloads in the last month as of 2026-10-07 (the pepy badge reads about 3M, matching).
 The HN footprint is thin for that scale: the largest story thread I found is 13 points from 2024-11-03, which says adoption flows through framework integrations and tutorials rather than launch-driven attention.
 The project's docs now advertise a managed path, Docling for IBM watsonx, exposing the same REST API as the self-hosted server.
 
@@ -86,8 +86,8 @@ My disagreeable claim: Docling's dominance owes as much to IBM's distribution an
 - https://raw.githubusercontent.com/docling-project/docling/main/README.md - format list, DoclingDocument, exports, integrations, MCP server, docling-serve, LF AI & Data badge
 - https://arxiv.org/abs/2408.09869 - the technical report grounding the DocLayNet layout and TableFormer table models and the MIT, commodity-hardware claims
 - https://docling-project.github.io/docling/getting_started/installation/ - the PyTorch dependency, install extras, and the Python 3.9 cutoff at 2.70.0
-- https://pypi.org/pypi/docling/json - version 2.134.0 (2026-10-06), 222 releases, Python >=3.10
-- https://pypistats.org/api/packages/docling/recent - 2,909,751 downloads in the last month, as of 2026-10-07 (429 on 2026-10-06, answered 2026-10-07)
+- https://pypi.org/pypi/docling/json - version 2.135.0 (2026-10-07), 223 releases, Python >=3.10
+- https://pypistats.org/api/packages/docling/recent - 2,909,751 downloads in the last month, as of 2026-10-07, re-verified unchanged 2026-10-08 (429 on 2026-10-06, answered 2026-10-07)
 - https://static.pepy.tech/badge/docling/month - about 3M downloads a month, corroborating the pypistats figure (as of 2026-10-07)
 - https://api.github.com/search/issues?q=repo:docling-project/docling+install+size+OR+heavy+OR+torch+in:title - issues #3997, #4100, and #3793, the slim-install and lazy-import work
 - https://hn.algolia.com/api/v1/search?query=docling&tags=comment - practitioner comments: the GPU-heavy comparison, the marker-plus-forced-OCR preference, and the wrapper question

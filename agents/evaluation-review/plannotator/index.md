@@ -1,7 +1,7 @@
 ---
 title: Plannotator
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Dual Apache-2.0 or MIT, written almost entirely by one developer (1,090 of 1,368
 
 ## Status
 
-Fast and growing: 9,188 stars, 691 forks, 137 open issues and PRs as of 2026-10-07, created 2025-12-28, pushed 2026-10-07, v0.28.6 released 2026-10-06.
+Fast and growing: 9,209 stars, 697 forks, 137 open issues and PRs as of 2026-10-08, created 2025-12-28, pushed 2026-10-08, v0.28.8 released 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=backnotprop/plannotator&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Fast and growing: 9,188 stars, 691 forks, 137 open issues and PRs as of 2026-10-
 </picture>
 
 **The 0.27.x line gave way to 0.28.x on 2026-10-05 (five releases that day alone), which says pre-1.0 churn, and the growth came through social channels rather than press; its Show HN thread drew 5 points.**
-The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (632 stars as of 2026-10-07), which applies the same annotate-and-send-feedback loop to terminal text.
+The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (636 stars as of 2026-10-08), which applies the same annotate-and-send-feedback loop to terminal text.
 
 ## Strengths
 
@@ -78,6 +78,7 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - 2026-10-06 - Recorded the 0.28.x line (v0.28.0 through v0.28.4, all 2026-10-05) and refreshed repository, contributor, and Herdr Annotate counts.
 - 2026-10-07 - Added the backnotprop/plannotator star history chart to the Status section.
 - 2026-10-07 - Recorded the v0.28.5 and v0.28.6 releases (both 2026-10-06) and refreshed repository and Herdr Annotate counts.
+- 2026-10-08 - Recorded the v0.28.7 and v0.28.8 releases (both 2026-10-07) and refreshed repository and Herdr Annotate counts.
 
 ## See also
 

@@ -8,7 +8,7 @@ tags: [agents, hybrid-execution]
 readability: 3
 ---
 
-Small fast models handling typed decisions beside the large model: constrained decoding, validate-and-retry libraries, the decision-model wave, and the two benchmarks that measure them.
+Small fast models handling typed decisions beside the large model: constrained decoding, validate-and-retry libraries, the decision-model wave, and the three benchmarks that measure them.
 
 - [Anthropic structured outputs](anthropic-structured-outputs/index.md) - schema-constrained decoding for Claude responses and tool inputs.
 - [AnyJev](anyjev/index.md) - Nokia Applied Research's training-free readout turning any instruction-tuned LLM into a calibrated decision model with rotation-averaged logits and verified early-exit bounds, with an arXiv report and third-party benchmark coverage, 1,092 stars.
@@ -19,16 +19,17 @@ Small fast models handling typed decisions beside the large model: constrained d
 - [Jeeves](jeeves/index.md) - PostHog's 9B reasoning decision model that thinks before it answers typed questions, beating Jev's published numbers on its own tests at ten times the latency.
 - [Jeff](jeff/index.md) - the AutoJev-fork fine-tune family (0.8B and 2B Qwen3.5, Gemma 4 E2B) speaking Jev's request format at 22 ms locally, with the frankest self-run benchmark table in the wave.
 - [Jev](jev/index.md) - TypeSafe's System One model that skips text generation entirely, typed decisions with calibrated confidence at 70-500ms, early access since September 2026.
-- [JevBench](jevbench/index.md) - Benchmark Heaven's MIT scoreboard for Jev-class decision models, scored on intelligence, calibration, speed, and cost, whose boards keep getting rebuilt under the wave (Jev first through v1.4.2, the unranked reference above every open system since the October v1.6.1 redesign).
+- [JevBench](jevbench/index.md) - Benchmark Heaven's MIT scoreboard for Jev-class decision models, scored on intelligence, calibration, speed, and cost, whose boards keep getting rebuilt under the wave (Jev first through v1.4.2, the unranked reference on the October v1.6.1 redesign, with H2O-Lightning-4B now the open leader above it).
 - [Jevlike](jevlike/index.md) - the community's one-day reverse-engineering of the Jev contract, an MIT option-attention starter, dormant since launch day, its head lifted by CUA-S1.
 - [Kev](kev/index.md) - Jared Palmer's Apache-2.0 decision-model family (0.8B to a full-weights 27B, versioned together as Kev 1.0) speaking the Jev API locally, with the wave's strongest pre-registered eval discipline.
 - [Laya](laya/index.md) - the Apache-2.0 open-weights decision-model family answering typed questions in a single pass, the open rival to Jev's contract with its limits stated on its own model card.
 - [NanoJev](nanojev/index.md) - the 0.6B game-task replica with the most complete pipeline and the least verification, every benchmark unreplicated.
 - [Nimble](nimble/index.md) - Bespoke Labs' one-day open Jev with the category's only human-labeled head-to-head (Jev wins by 1.2 macro points) and an unlicensed repo.
-- [Ollaya](ollaya/index.md) - the Apache-2.0 local runtime serving sixteen open decision-model families behind a wire-identical Jev API, with parity checks against each author's own code.
+- [Ollaya](ollaya/index.md) - the Apache-2.0 local runtime serving nineteen open decision-model families behind a wire-identical Jev API, with parity checks against each author's own code.
 - [OpenAI Structured Outputs](openai-structured-outputs/index.md) - schema-guaranteed responses via constrained decoding.
 - [Outlines](outlines/index.md) - logit-masked generation following types, schemas, regexes, or grammars.
 - [SemIf](semif/index.md) - frozen open models reading typed option probabilities straight from the logits, with a client-side WebGPU demo, called OpenJev until 2026-09-18.
+- [tool-eval-bench](tool-eval-bench/index.md) - the MIT auditor for tool-calling quality on self-hosted serving stacks, 69 deterministic multi-turn scenarios with full traces plus a decision-model track over the same `/v1/systemone` surface.
 
 Its members are compared on shared rows in the [Hybrid Execution Feature Matrix](hybrid-execution-feature-matrix/index.md).
 
@@ -53,3 +54,4 @@ Its members are compared on shared rows in the [Hybrid Execution Feature Matrix]
 - 2026-10-07 - Added Decision Index.
 - 2026-10-07 - Added AnyJev.
 - 2026-10-07 - Added Atomic Agents.
+- 2026-10-08 - Added tool-eval-bench.

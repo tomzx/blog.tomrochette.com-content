@@ -1,7 +1,7 @@
 ---
 title: "Spec Driven Development Feature Matrix"
 created: 2026-08-27
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, spec-driven-development, process, llm=glm-5.3-flash]
 readability: 3
@@ -30,14 +30,14 @@ Each column links to the full research note; every cell below traces to a source
 | Brownfield support | ~ bug-fix, infrastructure, and security profiles target existing systems; no explicit brownfield onboarding path | ✓ establish-context path | ✓ `/kiro-steering` captures existing project context; Kiro specs import | ~ not the primary case | ✓ `/gsd-onboard` for existing repos | ✓ explicit design goal | ~ repo-native so existing code is the default case, no dedicated onboarding path documented | ? not verified | ~ starts from an idea in a fresh folder, no existing-repo path |
 | Convergence checking | ~ human approval gates plus source-bound review evidence at every stage | ✓ verify and learn loop | ✓ per-task independent reviewer plus `/kiro-validate-impl` GO/NO-GO verdict | ✓ converge step | ✓ verify phase walks the build before done | ~ archive keeps ledger current | ✓ review, accept, and merge gates with attached evidence | ? not verified | ~ the build prompt demands code checked against the PRD and the saved checklist drives implementation checks, no verifier beyond the model |
 | Unattended execution | ✗ approval gates require human decisions by design | ✓ BMad Loop module | ~ autonomous `/kiro-impl` per task, humans hold the phase gates | ✗ | ~ parallel executor waves, human verify step, gsd-loop works a GitHub queue | ✗ | ~ agents implement in parallel worktrees, humans hold review, accept, and merge | ? not verified | ~ the optional npm CLI pitches agent-driven runs, the prompt flow itself is human-run |
-| Adoption | about 5k stars (as of 2026-10-06) | about 53.8k stars (as of 2026-10-06) | about 3.7k stars, 24k npm downloads a month (as of 2026-10-06) | about 140k stars (as of 2026-10-06) | original archived at 64.4k stars; successor 10.2k stars, 43k npm downloads a month (as of 2026-10-06) | about 71k stars, 2.5M npm downloads a month (as of 2026-10-06) | about 1.7k stars, 3.3k PyPI downloads a month (as of 2026-10-06) | 24-point raise thread, thin OSS surface | about 3.1k stars (as of 2026-10-07) |
+| Adoption | about 5.1k stars (as of 2026-10-08) | about 53.9k stars (as of 2026-10-08) | about 3.7k stars, 24k npm downloads a month (as of 2026-10-08) | about 140k stars (as of 2026-10-08) | original archived at 64.4k stars; successor 10.3k stars, 43k npm downloads a month (as of 2026-10-08) | about 71k stars, 2.5M npm downloads a month (as of 2026-10-08) | about 1.7k stars, 3.3k PyPI downloads a month (as of 2026-10-08) | 24-point raise thread, thin OSS surface | about 3.1k stars (as of 2026-10-08) |
 | Pricing | free | free | free | free | free | free | free CLI; demo-booked platform, no published tiers | free tier plus Team at $100 per month, Enterprise custom | free |
 
 ## Reading the matrix
 
 **The license and steward rows tell the ownership story: eight repo-native MIT-licensed toolkits against one closed, funded platform, and the free tools set the price anchor at zero while Tessl spends $125M betting specs are rentable.**
 The adoption row inverts the funding row, which is the tension to watch.
-GSD adds the stewardship question the category had not faced: the archived original out-stars every column except Spec Kit, and its 10.2k-star successor is rebuilding trust in public.
+GSD adds the stewardship question the category had not faced: the archived original out-stars every column except Spec Kit, and its 10.3k-star successor is rebuilding trust in public.
 The three newest columns extend the steward axis: AI-DLC is the first column owned by a cloud vendor's methodology org, cc-sdd is the first owned by one person, and Spec Kitty is the first that began as a derivative of another member's workflow and now runs as a company product around it.
 The prompt pack is the first column with no machinery at all, four markdown files and a solo maintainer.
 
@@ -73,6 +73,7 @@ If your changes are mostly small, that row alone picks your column.
 - 2026-10-06 - Extended from five to seven columns with AI-DLC and cc-sdd (inserted alphabetically), every row gaining cells, the reading and choosing prose extended to the vendor-backed and skill-set columns, and the GSD (successor 10.2k stars) and OpenSpec (2.5M npm downloads) adoption cells refreshed.
 - 2026-10-06 - Extended from seven to eight columns with Spec Kitty (inserted alphabetically), every row gaining cells, the reading and choosing prose extended to the governance-and-worktrees column, and as-of qualifiers added to the adoption row.
 - 2026-10-07 - Extended from eight to nine columns with Vibe Coding Prompt Template (inserted alphabetically), every row gaining cells, and the reading and choosing prose extended to the zero-install prompt-pack column.
+- 2026-10-08 - Refreshed the adoption-row as-of dates to 2026-10-08 and the moved cells (AI-DLC about 5.1k, BMad about 53.9k, GSD successor 10.3k stars); all other cells re-verified unchanged.
 
 ## See also
 
@@ -92,8 +93,8 @@ If your changes are mostly small, that row alone picks your column.
 - https://www.tessl.io/blog/announcing-our-series-a-for-ai-native-software-development - the raise grounding the Tessl column
 - https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - the OpenSpec install velocity
 - https://github.com/open-gsd/gsd-core - the successor loop, installer, and runtimes for the GSD column
-- https://api.github.com/repos/open-gsd/gsd-core - successor stars and dates as of 2026-10-07
-- https://api.github.com/repos/gsd-build/get-shit-done - the archived original, 64,363 stars as of 2026-10-07
+- https://api.github.com/repos/open-gsd/gsd-core - successor stars and dates as of 2026-10-08
+- https://api.github.com/repos/gsd-build/get-shit-done - the archived original, 64,357 stars as of 2026-10-08
 - https://opengsd.net/origin - the origin credit acknowledging the broken chapter
 - https://blakewatson.com/journal/i-used-claude-code-and-gsd-to-build-the-accessibility-tool-ive-always-wanted/ - the 2026-07-31 update grounding the successor transition
 - https://api.npmjs.org/downloads/point/last-month/@opengsd/gsd-core - the successor's install velocity

@@ -1,7 +1,7 @@
 ---
 title: AGENTS.md
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, protocols, conventions, context-files]
 readability: 3
@@ -20,12 +20,12 @@ AGENTS.md is an open convention for a Markdown file at the repository root that 
 Plain Markdown with no required fields: build and test commands, code style, PR conventions, anything you would tell a new teammate.
 Nested AGENTS.md files scope instructions per package, the nearest file wins, and explicit chat prompts override everything.
 It emerged from collaboration across OpenAI Codex, Amp, Jules, Cursor, and Factory, went public on 2025-08-20, and **OpenAI donated it to the Linux Foundation's Agentic AI Foundation on 2025-12-09, where it is stewarded as an open format**.
-The reference repository (MIT, about 24.8k stars as of 2026-10-06) mostly holds the website; the format itself is the convention.
+The reference repository (MIT, about 24.8k stars as of 2026-10-08) mostly holds the website; the format itself is the convention.
 
 ## Status
 
 **Active and effectively the standard.**
-The official site counts more than 60,000 open-source projects carrying an AGENTS.md as of 2026-10-06.
+The official site counts more than 60,000 open-source projects carrying an AGENTS.md as of 2026-10-08.
 Adopters include Codex, Gemini CLI, Cursor, GitHub Copilot's coding agent, Amp, Jules, Factory, goose, opencode, Zed, Warp, VS Code, Devin, Junie, Windsurf, and Aider.
 In this index, [Codex](../../harnesses/codex/index.md) treats it as first-class, [OpenCode](../../harnesses/opencode/index.md) reads it alongside CLAUDE.md, and [Crush](../../harnesses/crush/index.md) initializes projects with one.
 The last big holdout fell on 2026-09-18: Claude Code 2.1.277 added native AGENTS.md support, reading the file in any project without a CLAUDE.md, implemented as a built-in "mod" and not yet available on Bedrock, Vertex, or Foundry.
@@ -85,7 +85,7 @@ The disagreeable part: I suspect most AGENTS.md prose is wasted tokens, and the 
 ## References
 
 - https://agents.md - official site: format, nested scoping, adopter list, AAIF stewardship
-- https://github.com/agentsmd/agents.md - MIT repository, stars as of 2026-10-06
+- https://github.com/agentsmd/agents.md - MIT repository, stars as of 2026-10-08
 - https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/ - OpenAI donation, 60,000+ project adoption
 - https://arxiv.org/abs/2602.11988 - empirical evaluation: no general success-rate gain, over 20% added inference cost
 - https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals - counter-evidence: 100% versus 53% with a compressed docs index

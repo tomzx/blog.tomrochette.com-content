@@ -1,7 +1,7 @@
 ---
 title: Pi
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, byok, extensibility]
 readability: 3
@@ -33,7 +33,7 @@ Active and ascending: 113,036 stars, 14,352 forks, 280 open issues and PRs as of
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=earendil-works/pi&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-09, pushed within a day of verification, releases roughly weekly, reaching v1.0.0 on October 1, 2026, then v1.0.1 (October 3: a Nix flake install, project-level MCP server overrides, MCP OAuth client-ID metadata documents, tool renderers for tools that are not registered yet, and Cloudflare Clef classifiers usable from codemode), v1.0.2 (October 4: sampling parameters configurable per thinking level on OpenAI-compatible APIs), v1.0.3 (October 5: the Azure provider renamed from `azure-openai-responses` to `azure` with Foundry Chat Completions deployments starting at `azure/deepseek-v4-pro`, codemode images saved to files, output files locked to the user), and v1.0.4 (October 5: `*` patterns for `--tools` and `--exclude-tools`, a per-run `--no-mcp` flag, and codemode image read-back); the v0.99 line (September 29-30) shipped the biggest capability change in the project's history, codemode, tool search, and MCP support as built-in extensions, and v1.0.0 made the TUI fullscreen by default, cut codemode prompt tokens by about 40 percent, and hardened MCP OAuth.
+Created 2025-08-09, pushed within a day of verification, releases roughly weekly, reaching v1.0.0 on October 1, 2026, then v1.0.1 (October 3: a Nix flake install, project-level MCP server overrides, MCP OAuth client-ID metadata documents, tool renderers for tools that are not registered yet, and Cloudflare Clef classifiers usable from codemode), v1.0.2 (October 4: sampling parameters configurable per thinking level on OpenAI-compatible APIs), v1.0.3 (October 5: the Azure provider renamed from `azure-openai-responses` to `azure` with Foundry Chat Completions deployments starting at `azure/deepseek-v4-pro`, codemode images saved to files, output files locked to the user), v1.0.4 (October 5: `*` patterns for `--tools` and `--exclude-tools`, a per-run `--no-mcp` flag, and codemode image read-back), and v1.1.0 (October 7: program status reporting over the OSC 7501 terminal sequence, Claude Haiku 5.5 with adaptive thinking, `+name`/`-name` entries that adjust the default tool selection, GPT-6 Luna image classification through the Decisions API, and native llama.cpp decision models); the v0.99 line (September 29-30) shipped the biggest capability change in the project's history, codemode, tool search, and MCP support as built-in extensions, and v1.0.0 made the TUI fullscreen by default, cut codemode prompt tokens by about 40 percent, and hardened MCP OAuth.
 **The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 34.5k stars as of 2026-10-07, exists precisely because some users want the features Pi refuses to ship.**
 
 ## Strengths
@@ -77,6 +77,7 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - 2026-10-04 - Recorded the v1.0.1 (October 3) and v1.0.2 (October 4) releases, which added a Nix flake, project-level MCP server overrides, MCP OAuth CIMD registration, tool renderers for unregistered tools, Cloudflare Clef classifier access from codemode, and per-thinking-level sampling parameters, and refreshed counters, including the oh-my-pi fork at about 34.2k stars.
 - 2026-10-06 - Recorded the v1.0.3 (October 5) and v1.0.4 (October 5) releases, which renamed the Azure provider to `azure` with Foundry Chat Completions deployments, saved codemode images to files, added `*` patterns for tool selection and a per-run `--no-mcp` flag, and locked output files to the user, and refreshed counters, including the oh-my-pi fork at about 34.4k stars.
 - 2026-10-07 - Added the earendil-works/pi star history chart to the Status section.
+- 2026-10-08 - Recorded the v1.1.0 release (October 7), which added program status reporting over OSC 7501, Claude Haiku 5.5 with adaptive thinking, `+name`/`-name` default-tool adjustments, GPT-6 Luna image classification through the Decisions API, and native llama.cpp decision models, and refreshed counters.
 
 ## See also
 

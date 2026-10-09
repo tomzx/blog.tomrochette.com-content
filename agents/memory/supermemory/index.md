@@ -1,7 +1,7 @@
 ---
 title: Supermemory
 created: 2026-10-04
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, context-engine, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The company describes itself as a research lab; the repository began under found
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint.**
-About 31.1k stars, 2,739 forks, and 94 open issues and pull requests as of 2026-10-07, created 2024-02-27, pushed 2026-10-06 (GitHub API).
+About 31.2k stars with the repository pushed 2026-10-08, created 2024-02-27 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&theme=dark&legend=top-left" />
@@ -53,7 +53,8 @@ The community record is thin for the star count: its largest Hacker News story t
 
 ## Pricing
 
-Hosted plans as of 2026-10-04: Free $0 per month with $5 of credits renewed monthly; Pro $19 per month with $20 of credits; Max $100 per month with $130 of credits; Scale $399 per month with $600 of credits, unlimited team seats, SOC 2 and HIPAA BAA, and a self-hosted option.
+Hosted plans as of 2026-10-08: Free $0 per month with $5 of credits renewed monthly; Pro $19 per month with $20 of credits; Max $100 per month with $130 of credits; Scale $399 per month with $600 of credits, unlimited team seats, SOC 2 and HIPAA BAA, and a self-hosted option; and an Enterprise custom tier above Scale with custom metering and billing, SSO, and a forward-deployed engineer.
+A startup and research program grants qualifying teams the Scale plan free for three months.
 Metering is in "SM tokens": plain text $5 per 1M, rich content $10 per 1M, SuperRAG retrieval $1 per 1M text tokens, queries $5 per 1M, and operations $100 per 1M.
 Supermemory local is free (MIT).
 
@@ -80,6 +81,7 @@ My disagreeable claim: Supermemory's local binary is strategically more interest
 - 2026-10-04 - Created from the 2026-10-04 entrant scan, after Graphify's own benchmark table surfaced it as the QA-accuracy rival and the citation bar was met with eight fetched sources.
 - 2026-10-07 - Added the supermemoryai/supermemory star history chart to the Status section.
 - 2026-10-07 - Recorded the SDK's 3.62.0 to 5.0.0 major jump (PyPI, after three release candidates on October 5 and 6; npm in sync at 5.0.1), six weeks after 3.62.0.
+- 2026-10-08 - The pricing page now lists an Enterprise custom tier above Scale (custom metering and billing, SSO, a forward-deployed engineer) and a startup/research program granting Scale free for three months; ladder prices and SM-token rates re-verified unchanged.
 
 ## See also
 
@@ -91,9 +93,9 @@ My disagreeable claim: Supermemory's local binary is strategically more interest
 
 ## References
 
-- https://github.com/supermemoryai/supermemory - repository, MIT license, 31.1k stars and activity as of 2026-10-05 (the Dhravya/supermemory URL redirects here)
+- https://github.com/supermemoryai/supermemory - repository, MIT license, 31.2k stars and activity as of 2026-10-08 (the Dhravya/supermemory URL redirects here)
 - https://raw.githubusercontent.com/supermemoryai/supermemory/main/README.md - engine architecture, local mode, benchmark claims, MemoryBench, plugin and MCP surfaces
-- https://supermemory.ai/pricing - the four hosted plans, SM-token metering rates, and the Scale-tier compliance stack, as of 2026-10-04
+- https://supermemory.ai/pricing - the four hosted plans, the Enterprise custom tier, the startup program, and SM-token metering rates, as of 2026-10-08
 - https://supermemory.ai - platform claims (1T+ tokens per month, 187ms median recall) and the benchmark figure positioning
 - https://api.npmjs.org/downloads/point/last-month/supermemory - 487,187 trailing-month SDK downloads (2026-09-05 to 2026-10-04), fetched 2026-10-06
 - https://pypi.org/pypi/supermemory/json - Python SDK 5.0.0 (2026-10-06), the record of the 3.62-to-5.0 jump

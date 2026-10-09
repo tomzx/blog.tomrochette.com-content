@@ -1,7 +1,7 @@
 ---
 title: GSD
 created: 2026-09-16
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, workflow, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Open GSD has grown an ecosystem around the loop: gsd-pi (a standalone harness), 
 ## Status
 
 Split between a dead root and a live successor.
-The original gsd-build/get-shit-done is archived at 64,370 stars and 5,433 forks, last pushed 2026-05-31, with its README now a redirect notice to open-gsd/gsd-core.
+The original gsd-build/get-shit-done is archived at 64,357 stars and 5,431 forks, last pushed 2026-05-31, with its README now a redirect notice to open-gsd/gsd-core.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ The original gsd-build/get-shit-done is archived at 64,370 stars and 5,433 forks
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&legend=top-left" />
 </picture>
 
-The successor, created 2026-05-22, is actively developed: 10,215 stars, 733 forks, pushed 2026-10-06, release v1.16.0 on 2026-10-05 still the newest, and 43,409 npm downloads last month for @opengsd/gsd-core, while the legacy get-shit-done-cc package records 56,342.
+The successor, created 2026-05-22, is actively developed: 10,293 stars, 740 forks, pushed 2026-10-08, release v1.16.0 on 2026-10-05 still the newest, and 43,409 npm downloads last month for @opengsd/gsd-core, while the legacy get-shit-done-cc package records 56,342 (both as of 2026-10-08).
 **The transition was not clean: Blake Watson's widely-linked build story added a 2026-07-31 update telling readers not to install the original, reporting that people say a crypto scam took place around the creator, and naming OpenGSD the consensus successor.**
 Open GSD's own origin page confirms the chapter without specifics, stating trust was damaged, people were hurt, public channels disappeared, and crediting Christopherson with the original idea.
 
@@ -45,7 +45,7 @@ Open GSD's own origin page confirms the chapter without specifics, stating trust
 
 ## Cautions
 
-- **The founder catastrophe is the caution: whatever the exact events, the category's most-starred workflow system is archived, its successor holds about 15 percent of the original's star count, and trust in the lineage is still being rebuilt by a steward months into the job.**
+- **The founder catastrophe is the caution: whatever the exact events, the category's most-starred workflow system is archived, its successor holds about 16 percent of the original's star count, and trust in the lineage is still being rebuilt by a steward months into the job.**
 - The Hacker News footprint is thin: the project's own submission drew 2 points in January 2026, the largest thread (a 24-point accessibility build story, February 2026) is a personal narrative, and I found no substantive skeptical discussion of the framework itself on HN, which means the community record neither damns nor validates the loop.
 - The five-step loop repeats per milestone whatever the change's size, so small changes pay full ceremony unless you drop to the lighter quick-task mode.
 - Core-loop verification is a human walk-through; the machine-checkable evidence lives in a separate product rather than the framework.
@@ -65,7 +65,7 @@ No paid tier exists today; the coming gsd-cloud is listed as a hosted surface wi
 
 **Recommended for engineers who want a disciplined phase loop that quarantines heavy work in fresh-context subagents, and who accept adopting a project whose governance is weeks old.**
 Not for anyone who needs the community's trust problems fully in the past, or who wants ceremony right-sized per change out of the box.
-The disagreeable claim I will defend: 64,370 stars is the strongest evidence the discuss-plan-execute-verify-ship loop works, and the same number is now the category's loudest warning that a workflow system dies with its steward's credibility, not with its code.
+The disagreeable claim I will defend: 64,357 stars is the strongest evidence the discuss-plan-execute-verify-ship loop works, and the same number is now the category's loudest warning that a workflow system dies with its steward's credibility, not with its code.
 
 ## Changes
 
@@ -87,8 +87,8 @@ The disagreeable claim I will defend: 64,370 stars is the strongest evidence the
 ## References
 
 - https://github.com/open-gsd/gsd-core - successor README: the loop, installer, runtimes, docs structure
-- https://api.github.com/repos/open-gsd/gsd-core - successor stars, forks, push date, MIT as of 2026-10-06
-- https://api.github.com/repos/gsd-build/get-shit-done - the archived original: 64,370 stars as of 2026-10-06, last push 2026-05-31
+- https://api.github.com/repos/open-gsd/gsd-core - successor stars, forks, push date, MIT as of 2026-10-08
+- https://api.github.com/repos/gsd-build/get-shit-done - the archived original: 64,357 stars as of 2026-10-08, last push 2026-05-31
 - https://github.com/gsd-build/get-shit-done - the redirect README naming gsd-core the continuation
 - https://opengsd.net - the ecosystem site and product family
 - https://opengsd.net/origin - the origin-credit page acknowledging the broken chapter

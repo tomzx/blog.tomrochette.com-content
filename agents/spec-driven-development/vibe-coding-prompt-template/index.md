@@ -1,7 +1,7 @@
 ---
 title: Vibe Coding Prompt Template
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, prompts, workflow, open-source]
 readability: 3
@@ -24,7 +24,7 @@ A small npm CLI (`npx vibeworkflow`, v0.3.0) wraps the same flow for people who 
 ## Status
 
 Active, solo-maintained, and adopted without the front page.
-As of 2026-10-07: 3,128 stars and 385 forks since creation on 2025-04-14, pushed 2026-10-04, MIT, solo author (the KhazP user account), with release v3.1.0 (2026-08-20) the newest of eight.
+As of 2026-10-08: 3,130 stars and 386 forks since creation on 2025-04-14, pushed 2026-10-04, MIT, solo author (the KhazP user account), with release v3.1.0 (2026-08-20) the newest of eight.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=KhazP/vibe-coding-prompt-template&type=date&theme=dark&legend=top-left" />
@@ -79,7 +79,7 @@ The disagreeable claim I will defend: four markdown files out-starring several e
 
 ## References
 
-- https://github.com/KhazP/vibe-coding-prompt-template - repository: stars, forks, dates, license, releases (3,128 stars as of 2026-10-07)
+- https://github.com/KhazP/vibe-coding-prompt-template - repository: stars, forks, dates, license, releases (3,130 stars as of 2026-10-08)
 - https://raw.githubusercontent.com/KhazP/vibe-coding-prompt-template/main/README.md - the five-step workflow table, artifact paths, and no-install framing
 - https://raw.githubusercontent.com/KhazP/vibe-coding-prompt-template/main/part2-prd-mvp.md - the PRD prompt: audience self-selection, Handoff Context, must-have boundaries
 - https://registry.npmjs.org/vibeworkflow - the CLI wrapper: v0.3.0, MIT, description

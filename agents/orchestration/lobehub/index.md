@@ -1,7 +1,7 @@
 ---
 title: LobeHub
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, source-available, self-hosted]
 readability: 3
@@ -24,7 +24,7 @@ The vendor is LobeHub LLC, which grew the product from the LobeChat project crea
 
 ## Status
 
-Active and shipping fast: the repo shows 82,989 stars, about 16k forks, and a push on 2026-10-05 (GitHub API, as of 2026-10-05).
+Active and shipping fast: the repo shows 83,049 stars, about 16k forks, and a push on 2026-10-08 (GitHub API, as of 2026-10-08).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and shipping fast: the repo shows 82,989 stars, about 16k forks, and a pu
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&legend=top-left" />
 </picture>
 
-The release train is canary-grade desktop builds published several times a day; v2.2.19-canary.35 landed 2026-10-01.
+The release train is canary-grade desktop builds published several times a day; the v2.2.19 line shipped stable on 2026-10-07 after canaries through 2026-10-01 (v2.2.19-canary.35 was the last one recorded here).
 The rebrand from LobeChat is visible in the license text itself, which reads "From 1.0, LobeChat is licensed under the LobeHub Community License".
 Community footprint outside its own channels is thin: the best HN thread about it (as LobeChat) reached 7 points in July 2024, and my HN search for the current name returned nothing above noise.
 A Product Hunt "top post" badge for the multi-agent-work launch and a Trendshift badge suggest its audience lives on Product Hunt and Chinese-language channels, not HN.
@@ -78,6 +78,7 @@ My disagreeable claim: the hire-and-schedule framing will not hold, because the 
 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-10-07 - Added the lobehub/lobehub star history chart to the Status section.
+- 2026-10-08 - Recorded the v2.2.19 line shipping stable on October 7 after the canary train.
 
 ## See also
 

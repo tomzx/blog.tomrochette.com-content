@@ -1,7 +1,7 @@
 ---
 title: TOON
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, serialization, token-optimization, specification]
 readability: 3
@@ -16,14 +16,14 @@ TOON (Token-Oriented Object Notation) is an MIT-licensed, spec-backed encoding o
 
 ## What it is
 
-A format specification (version 4.3, Working Draft, 2026-10-06) maintained in its own repository by Johann Schopplich, with the TypeScript reference implementation at `@toon-format/toon` and community ports across languages (25,461 stars, pushed 2026-10-06, as of 2026-10-07).
+A format specification (version 4.3, Working Draft, 2026-10-06) maintained in its own repository by Johann Schopplich, with the TypeScript reference implementation at `@toon-format/toon` and community ports across languages (25,467 stars, pushed 2026-10-06, as of 2026-10-08).
 The design combines YAML's indentation for nested objects with CSV-style tabular rows for arrays of uniform objects: each array declares its length and field list once, then one row per item, with a single active delimiter (comma, tab, or pipe) and strings quoted only when required.
 The sweet spot is uniform data, the same fields across many items, where it approaches CSV compactness while keeping structure explicit; the spec itself concedes that deeply nested or non-uniform data can be cheaper as plain JSON.
 The intended use is a translation layer: keep JSON in code, encode to TOON at the prompt boundary, decode back from the model's output.
 
 ## Status
 
-Active and widely adopted: created 2025-10-22, 25,461 stars, spec at v4.3, about 1,897,900 npm downloads in the week of 2026-09-28 to 2026-10-04, as of 2026-10-07.
+Active and widely adopted: created 2025-10-22, 25,467 stars, spec at v4.3, about 1,897,900 npm downloads in the week of 2026-09-28 to 2026-10-04, as of 2026-10-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=toon-format/toon&type=date&theme=dark&legend=top-left" />

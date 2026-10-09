@@ -19,12 +19,15 @@ Persistent memory for agents: the file conventions, the portable format, the cap
 - [GBrain](gbrain/index.md) - Garry Tan's MIT personal brain daemon: provenance-tagged markdown pages with corrections and withdrawal, MCP-served to any agent, with published eval receipts.
 - [Hindsight](hindsight/index.md) - Vectorize's MIT memory engine (facts, observations, knowledge pages) behind retain, recall, and reflect, 46.4k stars, with per-run benchmark artifacts and a pay-as-you-go cloud.
 - [Letta](letta/index.md) - the MemGPT creators' memory-first platform, agent plus cloud tier.
+- [LongMemory](longmemory/index.md) - CaviraOSS's Apache-2.0 temporal memory engine: immutable, provenance-carrying memories in SQLite with point-in-time recall and governed scopes, self-hosted with MCP and a dashboard.
 - [mem0](mem0/index.md) - the hosted and self-hostable memory layer across vector, graph, and key-value backends.
 - [Memoryfields](memoryfields/index.md) - Cal Paterson's portable memory-as-file-format spec, markdown pages plus a deletable vector index, the files-over-pipelines argument in RFC form.
 - [MemOS](memos/index.md) - MemTensor's Apache-2.0 memory OS with official OpenClaw, Hermes, and DeepSeek Harness plugins, a Neo4j-plus-Qdrant self-host, and a hosted API listing $19 and $286 tiers as launch-free.
 - [memU](memu/index.md) - the Apache-2.0 memory wiki that turns agent history into markdown skills shared across ChatGPT, Claude Code, Cursor, and OpenClaw, hosted free with a single-device self-host.
+- [Memvid](memvid/index.md) - Memvid's Apache-2.0 single-file memory engine: documents, embeddings, and indexes packed into one portable .mv2 file, the QR-in-video v1 now deprecated.
 - [MetaClaw](metaclaw/index.md) - the MIT meta-learning layer that evolves OpenClaw-family agents' skills and memory from conversations, dormant since June.
 - [OpenViking](openviking/index.md) - ByteDance's AGPL context database that unifies knowledge, memory, and skills as a viking:// filesystem with layered summaries, 39.3k stars.
+- [Screenpipe](screenpipe/index.md) - Negentropy Labs' source-available capture engine (YC S26): a local screen-and-audio timeline agents query over MCP, with paid commercial licensing.
 - [Supermemory](supermemory/index.md) - the benchmark-forward memory API (facts, profiles, and RAG in one engine) with an MIT one-binary local mode and a $19-$399/mo hosted ladder.
 - [Zep](zep/index.md) - temporal knowledge graphs where contradictions invalidate old facts.
 
@@ -49,3 +52,6 @@ Its members are compared on shared rows in the [Memory Feature Matrix](memory-fe
 - 2026-10-07 - Added GBrain.
 - 2026-10-07 - Added Hindsight.
 - 2026-10-07 - Added OpenViking.
+- 2026-10-08 - Added LongMemory.
+- 2026-10-08 - Added Memvid.
+- 2026-10-08 - Added Screenpipe.

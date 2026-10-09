@@ -1,7 +1,7 @@
 ---
 title: Engrim
 created: 2026-09-10
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, sqlite, local-first]
 readability: 3
@@ -25,7 +25,7 @@ Every record carries an origin_agent field (antigravity, claude-code, cursor, co
 ## Status
 
 **A fast mover, and one this section's own pass initially rejected.**
-The Show HN thread (2026-09-07) reached 93 points as of 2026-09-22, and the repo grew from 27 stars at launch to 294 as of 2026-10-03, pushed 2026-09-26.
+The Show HN thread (2026-09-07) reached 93 points as of 2026-09-22, and the repo grew from 27 stars at launch to 295 as of 2026-10-08, pushed 2026-09-26.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=timgordontg/engrim&type=date&theme=dark&legend=top-left" />
@@ -92,7 +92,7 @@ My disagreeable claim: the provenance tracking, not the local-first storage, is 
 
 ## References
 
-- https://github.com/timgordontg/engrim - the repo: description, 294 stars, 15 forks, MIT, pushed 2026-09-26, as of 2026-10-03
+- https://github.com/timgordontg/engrim - the repo: description, 295 stars, MIT, pushed 2026-09-26, as of 2026-10-08
 - https://hn.algolia.com/api/v1/items/49594008 - the Show HN thread (93 points, 64 comments as of 2026-09-22): launch claims, the in-repo-docs counterpoint, the moderator AI-content flag, and same-day fixes
 - https://news.ycombinator.com/item?id=49594008 - the thread's canonical page confirming 93 points as of 2026-09-22
 - https://raw.githubusercontent.com/timgordontg/engrim/main/README.md - architecture (FTS5 plus model2vec), provenance, CLI surface, the seven-CLI banner, security notes, and the 105-session case study

@@ -1,7 +1,7 @@
 ---
 title: Ruflo
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, meta-harness, claude-code, codex, swarms, agent-memory, federation]
 readability: 3
@@ -23,8 +23,8 @@ It ships under MIT, installs from npm, and drives the Claude Code and Codex acco
 
 ## Status
 
-Active and shipping almost daily: v3.54.0 released 2026-10-07, v3.53.0 the day before (a version bump plus catalog entry, with the console, ruflo-protector, and mods plugins moving through the git marketplace), with 40 contributors and an npm release feed that still carries claude-flow-named packages.
-74,021 stars, 8,795 forks, and 1,120 open issues as of 2026-10-07.
+Active and shipping almost daily: v3.55.0 released 2026-10-07, hours after v3.54.0 the same day (v3.53.0 the day before, a version bump plus catalog entry, with the console, ruflo-protector, and mods plugins moving through the git marketplace), with 40 contributors and an npm release feed that still carries claude-flow-named packages.
+74,098 stars, 8,795 forks, and 1,120 open issues as of 2026-10-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ruvnet/ruflo&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ Not for teams that need an independently verified adoption history, a stable API
 
 - 2026-10-06 - Created.
 - 2026-10-07 - Added the ruvnet/ruflo star history chart to the Status section.
+- 2026-10-08 - Recorded v3.55.0 (October 7, hours after v3.54.0) and 74.1k stars as of 2026-10-08.
 
 ## See also
 

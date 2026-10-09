@@ -1,7 +1,7 @@
 ---
 title: "Code Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, code-review, ai-review, developer-tools]
 readability: 3
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Learns team rules | ✓ learnings | ~ agents-as-code config you write | ~ custom rules | ✓ from review comments, isolated per organization | ✓ plain-language rules, workflow learning | ✗ fixed rule pipeline | ~ best-practices files you curate | ~ guidelines you write per repo (REVIEW.md fallback), nothing learned from comments | ? |
 | License | ✗ proprietary, free forever for public repos | ✗ closed core, small OSS tooling repos | ✗ proprietary, Cursor-owned | ✗ proprietary | ~ AGPL-3.0 core, ee/ paths commercial | ✓ Apache-2.0 | ~ PR-Agent MIT, Qodo Merge proprietary | ✓ MIT | ✗ reviewer proprietary, the MIT repo is the refactoring lineage |
 | Pricing anchor | Essentials (ex-Pro) $24, Team (ex-Pro Plus) $48 per user/mo annual, new Advanced $72 annual ($90 monthly) with variable-priced full scans, public repos free | tokens at cost plus a 10% fee, free for individuals on a Claude Code or Codex subscription, support packages from $5k/mo | Hobby free, Starter $20, Team $40 per user/mo | $30/seat plus credits, $1 per extra credit | Community free, Teams BYOK $10/dev/mo plus raw tokens, Enterprise custom with SOC 2, self-host free | free, your model tokens | $0.012 per credit packs, Pro Team $30, no permanent free tier | free, your own agents' tokens | Pro $12, Team $24 per user/mo, open source repos free |
-| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,452 stars, no verified funding (2026-10-07) | 44.1k stars, 136 releases in 5 months (2026-10-07) | 13,291 stars (2026-10-07), $50M raised | 1,746 stars, 120 releases in nine months (2026-10-07) | repo since 2019, 1,872 stars, no verified funding (2026-10-07) |
+| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,455 stars, no verified funding (2026-10-08) | 44.4k stars, 136 releases in 5 months (2026-10-08) | 13,303 stars (2026-10-08), $50M raised | 1,747 stars, 120 releases in nine months (2026-10-08) | repo since 2019, 1,872 stars, no verified funding (2026-10-08) |
 
 ## Reading the matrix
 
@@ -44,6 +44,11 @@ The caution is structural: whatever judges your code can execute in your CI cont
 **Quality measurement arrived in October 2026, from interested parties.**
 GitHub launched ReviewBench on October 5, an open benchmark of 219 public PRs across 19 languages with a public leaderboard, self-serve submissions, and a published judge, built and run by the platform that sells Copilot code review, and Kodus's CodeReviewBench scores models on Kodus's own harness with best recall under 45 percent.
 Neither is independent of the vendor publishing it, so the row-level advice stands: ask where the benchmark's conflicts sit before trusting its ranking.
+
+**Independent academic research landed the same week as the benchmarks.**
+A JetBrains Research and Lund University study presented at ESEIW 2026 (participatory design with 17 practitioners, then a 43-developer validation survey) concludes that reviewing LLM-generated multi-file changes is a trust-calibration problem rather than a diffing problem, because LLMs present every line with uniform confidence no matter how uncertain each line was.
+Its October 6, 2026 write-up names only partial counterparts among shipping tools (CodeRabbit's prose walkthroughs, Claude Code's severity-tagged reviewer agents, Graphite's stacked PRs) and states that no current tool imposes the overview-before-files-before-lines risk stratification its framework proposes.
+If that framing holds, the deciding row eventually moves from where your code runs to which column surfaces risk where it matters.
 
 **The license row is the cost row in disguise.**
 The four open paths, Apache-2.0, roborev's MIT, MIT PR-Agent, and Kodus's AGPL-3.0, trade turnkey convenience for wiring and model-token spend, and Kodus's badge is the narrowest of the four, since everything under its ee/ paths is commercially licensed.
@@ -83,6 +88,8 @@ Its pricing now leads with a free on-ramp for individuals who bring their own Cl
 - 2026-10-06 - Added the roborev column (eight to nine members), with the Qodo maturity cell refreshed to 13,276 stars the same day; all cells re-verified against live sources fetched this run.
 - 2026-10-07 - Qualified the review-quality claim in the thesis and added a Reading-the-matrix paragraph: GitHub's ReviewBench (open 219-PR benchmark with a leaderboard, October 5) and Kodus's vendor-run CodeReviewBench now exist, both from interested parties; the Qodo judge cell records the Qodo 3.0 swarm.
 - 2026-10-07 - Refreshed the Kodus (1,452), OpenCodeReview (44.1k stars), Qodo (13,291), roborev (1,746), and Sourcery (1,872) maturity cells to their 2026-10-07 repo numbers; all other cells re-verified unchanged, with every pricing page re-fetched.
+- 2026-10-08 - Added a Reading-the-matrix paragraph on the JetBrains Research and Lund University trust-calibration study (ESEIW 2026): reviewing AI-generated multi-file changes is a trust-calibration problem no current tool addresses, with the paper and the announcement post added to References.
+- 2026-10-08 - Refreshed the Kodus (1,455), OpenCodeReview (44.4k), Qodo (13,303), and roborev (1,747) maturity cells to their 2026-10-08 repo numbers; Sourcery held at 1,872 and all other cells re-verified unchanged.
 
 ## See also
 
@@ -105,3 +112,5 @@ Its pricing now leads with a free on-ramp for individuals who bring their own Cl
 - https://github.com/alibaba/open-code-review - the OpenCodeReview architecture and license
 - https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/ - the ReviewBench announcement grounding the quality-measurement paragraph
 - https://codereviewbench.com/ - Kodus's vendor-run model benchmark, the second half of that paragraph
+- https://blog.jetbrains.com/research/2026/10/review-ai-generated - the October 6, 2026 JetBrains Research post presenting the trust-calibration framework and its survey of current tools, fetched 2026-10-08
+- https://arxiv.org/abs/2606.01969 - the ESEM SEIP 2026 paper behind it: N=17 participatory design, N=43 validation survey, the three-level workflow and seven design constructs, fetched 2026-10-08

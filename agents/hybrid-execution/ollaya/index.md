@@ -1,7 +1,7 @@
 ---
 title: Ollaya
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, local-inference, model-hub]
 readability: 3
@@ -10,21 +10,21 @@ audience_notes: >
   Assumes you have read this category's Jev note and know what a fitted temperature is.
 ---
 
-Ollaya is an Apache-2.0 local runtime and model hub, built in the image of Ollama, that serves sixteen open decision-model families behind a wire-identical replica of TypeSafe's Jev API.
+Ollaya is an Apache-2.0 local runtime and model hub, built in the image of Ollama, that serves nineteen open decision-model families behind a wire-identical replica of TypeSafe's Jev API.
 
 **The decision-model wave just got its Ollama, and its verification discipline is the strongest the open side of this category has shown: 41,352 answers checked one by one against each author's own code, with the raw data published.**
 
 ## What it is
 
 One binary (a desktop app, a CLI, and a Docker image) for macOS, Windows, and Linux that exposes `/v1/systemone`, `/v1/decisions`, and `/v1/models` with TypeSafe's request and response formats, so the official TypeSafe Python SDK 0.7.1 runs unchanged against localhost.
-The library spans encoder-based families (laya, nli, gliclass, von, qwen3guard) that answer in 10 to 20 milliseconds on a CPU, and decoder-based families (winnow, clef, kev, decider, nimble, jeb, jeeves, cygnet) up to 12B.
+The library spans nineteen families as of 2026-10-08: encoder-based ones (laya, nli, gliclass, von, decima) that answer in 10 to 20 milliseconds on a CPU, and decoder-based ones (winnow, clef, kev, decider, nimble, jeb, jeeves, cygnet, snap, arbiter) up to 12B.
 Weights are pulled from each author's Hugging Face repository pinned to a commit and checked against sha256, never re-hosted.
 It runs on ONNX Runtime over the CPU or an NVIDIA GPU (CUDA 13 or 12, Vulkan), with MLX on Apple silicon for laya and nli, and it is an independent project by Mert Cobanov, not affiliated with Ollama or TypeSafe.
 
 ## Status
 
-**Fourteen days old, beta, and already the wave's default front door.**
-The repository was created 2026-09-23 and shows 1,226 stars and 71 forks as of 2026-10-07, pushed 2026-10-06.
+**Fifteen days old, beta, and already the wave's default front door.**
+The repository was created 2026-09-23 and shows 1,239 stars and 72 forks as of 2026-10-08, pushed 2026-10-06.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ollaya-dev/ollaya&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ The repository was created 2026-09-23 and shows 1,226 stars and 71 forks as of 2
 </picture>
 
 The launch Show HN thread (2026-09-25) reached 618 points, the third-largest of the whole Jev wave.
-The results page reports 26 models measured, 73,720 benchmark answers scored against human labels, 41,352 parity checks against the authors' own code, and 2,015 timed requests, with the newest measurement dated 2026-10-02 on two disclosed machines (RTX 5090 and RTX 4090 desktops).
+The results page reports 31 models measured, 73,720 benchmark answers scored against human labels, 41,352 parity checks against the authors' own code, and 2,184 timed requests, with the newest measurement dated 2026-10-06 on three disclosed machines (RTX 5090 and RTX 4090 desktops and an M4 Pro Mac mini) plus contributor-run community benches, under Ollaya 0.8.0.
 Its head-to-head numbers are self-run but use Bespoke Labs' public benchmark with Ollama on the same GPU: winnow:12b scores 0.773 against Ollama 0.35's best 0.749, and on the same Nimble weights Ollaya reports 5.5x lower calibration error (ECE 0.022 against 0.122) while conceding speed to Ollama's GGUF path (310 ms against 210 ms).
 
 ## Strengths
@@ -73,6 +73,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 - 2026-10-06 - Corrected the age claim (created 2026-09-23, thirteen days old, not three weeks) and refreshed stars to 1,209.
 - 2026-10-07 - Added the ollaya-dev/ollaya star history chart to the Status section.
 - 2026-10-07 - Reworded two pre-existing "shapes" compounds to "formats" (the TypeSafe request and response formats, the published formats) to keep the banned-terms rule.
+- 2026-10-08 - The library grew to nineteen families (decima, snap, and arbiter joining) and the results page moved to 31 models measured, 2,184 timed requests, a newest measurement of 2026-10-06, a third disclosed machine (M4 Pro Mac mini) beside the two desktops, and Ollaya 0.8.0; refreshed stars to 1,239.
 
 ## See also
 

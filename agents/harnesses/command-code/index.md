@@ -1,7 +1,7 @@
 ---
 title: Command Code
 created: 2026-10-05
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-models, personalization, closed-source]
 readability: 3
@@ -25,7 +25,7 @@ The company raised a $5 million seed led by Tom Preston-Werner, with Amjad Masad
 ## Status
 
 **Active and fast-growing in distribution, with an evidence base that is mostly the vendor's own.**
-The npm package's latest build is 1.77.0 (published October 7, 2026, after 1.75.1 on October 6 and 1.76.0 the same day), the site's changelog counts 390 releases, and the package did 219,535 downloads in the last month (the API window covering September 5 to October 4, as of 2026-10-07).
+The npm package's latest build is 1.79.1 (published October 7, 2026, after 1.77.0 the same morning and 1.78.0 and 1.79.0 that evening), the site's changelog counts 399 releases, and the package did 219,535 downloads in the last month (the API window covering September 5 to October 4, as of 2026-10-08).
 The `CommandCodeAI/command-code` repository has 4,104 stars as of 2026-10-07 (GitHub API) but hosts issues only: no source, no license, the client is closed.
 
 <picture>
@@ -82,6 +82,7 @@ Not for open-client mandates, and not for anyone who needs independent evaluatio
 - 2026-10-05 - Created from the same-day entrant scan, with the site, pricing page, npm registry, repository, third-party review, and Hacker News record fetched.
 - 2026-10-07 - Added the CommandCodeAI/command-code star history chart to the Status section.
 - 2026-10-07 - Recorded the npm build train moving to 1.75.1, 1.76.0, and 1.77.0 (October 6-7) and refreshed repository counters.
+- 2026-10-08 - Recorded the npm train reaching 1.79.1 (four builds on October 7) and the site changelog counting 399 releases, with pricing and download totals unchanged on the same API windows.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: MemOS
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The plugin line is the distribution strategy: official OpenClaw plugins (cloud a
 ## Status
 
 **Active and mid-scale.**
-11,740 stars with the repository pushed 2026-09-29, created 2025-07-06, as of 2026-10-07 (GitHub API).
+11,755 stars with the repository pushed 2026-09-29, created 2025-07-06, as of 2026-10-08 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MemTensor/MemOS&type=date&theme=dark&legend=top-left" />
@@ -54,7 +54,7 @@ The Hacker News footprint is nearly absent: a 2-point story in August 2025, no d
 ## Pricing
 
 Free and open: the engine, the PyPI package, and the local plugins are Apache-2.0.
-The hosted cloud now publishes plans as of 2026-10-07: Free $0/month (50k add and 20k search calls, 3M input and 1M output chat tokens, up to 10 knowledge bases), Starter and Pro listed at $19 and $286/month and both currently flagged "Free Now" on an apply-to-join basis, and Enterprise custom.
+The hosted cloud now publishes plans as of 2026-10-08: Free $0/month (50k add and 20k search calls, 3M input and 1M output chat tokens, up to 10 knowledge bases), Starter and Pro listed at $19 and $286/month and both currently flagged "Free Now" on an apply-to-join basis, and Enterprise custom.
 
 ## Price history
 
@@ -94,5 +94,5 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 - https://memos-docs.openmem.net/ - documentation root (the README's home/overview deep link returned 404 at fetch time, recorded here)
 - https://arxiv.org/abs/2507.03724 - the MemOS paper: a memory OS for AI systems
 - https://pypi.org/pypi/MemOS/json - the memos package at 0.37.0, Apache-2.0
-- https://memos.openmem.net/ - the hosted platform's landing page, now carrying the Free/Starter/Pro/Enterprise price table, as of 2026-10-07 (client-rendered on the 2026-10-06 fetch)
+- https://memos.openmem.net/ - the hosted platform's landing page, now carrying the Free/Starter/Pro/Enterprise price table, re-verified unchanged as of 2026-10-08 (client-rendered on the 2026-10-06 fetch)
 - https://hn.algolia.com/api/v1/items/44945613 - the August 2025 story (2 points, 0 comments), the thin-discussion record

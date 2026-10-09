@@ -1,7 +1,7 @@
 ---
 title: Agent Orchestrator
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, kanban, worktrees, multi-harness, desktop]
 readability: 3
@@ -21,7 +21,7 @@ It drives Claude Code, Codex, and 25 more CLIs per the repo description (23 coun
 
 ## Status
 
-Active and shipping daily: 12,812 stars, 1,770 forks, 765 open issues and pull requests, and 30 contributors as of 2026-10-06, created 2026-02-13 (GitHub API, as of 2026-10-06).
+Active and shipping daily: 12,888 stars, 1,770 forks, 765 open issues and pull requests, and 30 contributors as of 2026-10-08, created 2026-02-13 (GitHub API, as of 2026-10-08).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&theme=dark&legend=top-left" />
@@ -29,7 +29,7 @@ Active and shipping daily: 12,812 stars, 1,770 forks, 765 open issues and pull r
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&legend=top-left" />
 </picture>
 
-The stable line sits at v0.13.3 (2026-10-01) with a nightly train publishing most days (v0.13.4 nightlies through 2026-10-06, GitHub releases API).
+The stable line sits at v0.13.4 (2026-10-07), promoted from the nightly train that had carried the 0.13.4 name through 2026-10-06, with nightlies publishing most days after it (GitHub releases API).
 **The identity record is the caution: the repository has lived under four organizations in eight months (ComposioHQ, AgentWrapper, Untrivial-ai, and now OrchestratorInc), each old URL a 301 today, which is the same rename churn this section flagged on Ruflo but repeated.**
 The community footprint is thin for the star count: the Show HN launch drew only 15 points on 2026-03-29 (a text post with no external link, HN Algolia), so the 12.8k stars spread through GitHub, X, and Discord rather than press, and the only third-party coverage I found is a competitor's roundup (Tembo, June 2026) and one technical review (Starlog, July 2026, at 8.6k stars).
 
@@ -65,6 +65,7 @@ Not for anyone who needs a stable identity to standardize on (four renames and c
 
 - 2026-10-06 - Created after the entrant scan surfaced the OrchestratorInc repository at 12.8k stars with no note in the section.
 - 2026-10-07 - Added the OrchestratorInc/agent-orchestrator star history chart to the Status section.
+- 2026-10-08 - Recorded v0.13.4 promoted from the nightly train to the stable line (October 7) and 12.9k stars as of 2026-10-08.
 
 ## See also
 

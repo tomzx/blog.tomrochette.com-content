@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 82,580 stars, 5,251 forks, and 1,511 open issues and pull requests combined as of 2026-10-07, created 2026-01-22, pushed 2026-10-07.
+Young and hot: 82,655 stars, 5,252 forks, and 1,516 open issues and pull requests combined as of 2026-10-08, created 2026-01-22, pushed 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Young and hot: 82,580 stars, 5,251 forks, and 1,511 open issues and pull request
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&legend=top-left" />
 </picture>
 
-v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02, concluding that candidate train; a 0.51.1 candidate train is already running (rc.515 by 2026-10-07), and the project is pre-1.0.
+v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02, concluding that candidate train; a 0.51.1 candidate train is already running (rc.516 by 2026-10-08), and the project is pre-1.0.
 The site claims 18,000+ developers, a marketing figure, and the Show HN thread shows users posting their own measured savings.
 
 ## Strengths

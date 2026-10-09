@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: about 97.3k stars, 8.6k forks, and 107 open issues and pull requests as of 2026-10-07, with 69,573 npm downloads in the trailing month (2026-09-05 to 2026-10-04).
+Very large and fast: about 97.9k stars as of 2026-10-08, with 69,573 npm downloads in the trailing month (2026-09-05 to 2026-10-04, re-fetched unchanged).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Very large and fast: about 97.3k stars, 8.6k forks, and 107 open issues and pull
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-31, pushed 2026-10-07, latest tagged release v13.34.2 on 2026-10-06 with npm in sync at 13.34.2 as of 2026-10-07.
+Created 2025-08-31, pushed 2026-10-07, latest tagged release v13.34.2 on 2026-10-06 with npm in sync at 13.34.2 as of 2026-10-08.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.

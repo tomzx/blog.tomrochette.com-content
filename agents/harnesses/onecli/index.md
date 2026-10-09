@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -24,8 +24,8 @@ The Launch HN title calls it an "OSS sandboxed agent harness for teams", and tha
 
 ## Status
 
-Very active: v2.9.0 released October 6, 2026, the second of two releases that day (v2.8.0 added Google Drive folder permissions, Navan and Timeless apps, grouped Slack approvals, OAuth refresh hardening, and an egress guard; v2.9.0 added the Circleback integration, Navan paste cleaning, and agent API-docs hints), following v2.7.0 on October 3 and a v2.3-2.4 series five months ago, with v2.5.0 on September 3 and v2.6.0 five days after it.
-3,562 stars and 249 forks as of 2026-10-07, on a repository created March 8, 2026.
+Very active: v2.10.0 released October 7, 2026 (a Pylon integration, setup-guide links on every connect surface, and a two-image agent sandbox), one day after the v2.8.0/v2.9.0 pair (v2.8.0 added Google Drive folder permissions, Navan and Timeless apps, grouped Slack approvals, OAuth refresh hardening, and an egress guard; v2.9.0 added the Circleback integration, Navan paste cleaning, and agent API-docs hints), following v2.7.0 on October 3 and a v2.3-2.4 series five months ago, with v2.5.0 on September 3 and v2.6.0 five days after it.
+3,563 stars and 249 forks as of 2026-10-08, on a repository created March 8, 2026.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=onecli/onecli&type=date&theme=dark&legend=top-left" />
@@ -87,6 +87,7 @@ I think the prompt-based permission systems across every other harness in this s
 - 2026-10-04 - Recorded the v2.7.0 release (October 3), which added Salesforce and new app integrations, readable approval cards, send_file, and agent-to-agent messaging, and refreshed repository scale; pricing re-verified unchanged.
 - 2026-10-07 - Added the onecli/onecli star history chart to the Status section.
 - 2026-10-07 - Recorded the v2.8.0 and v2.9.0 releases (both October 6), which added Google Drive folder permissions, Navan and Timeless apps, grouped Slack approvals, OAuth refresh hardening, an egress guard, the Circleback integration, Navan paste cleaning, and agent API-docs hints, and refreshed repository counters.
+- 2026-10-08 - Recorded the v2.10.0 release (October 7), which added a Pylon integration, setup-guide links on every connect surface, and a two-image agent sandbox, and refreshed repository counters.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: JevBench
 created: 2026-09-22
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, benchmarking, model-evaluation]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 JevBench is Benchmark Heaven's MIT-licensed benchmark for Jev-class typed decision models: 534 English decisions per system in its v1.2 run plus 308 fresh sealed decisions in v1.4, 1,500 per system on the current v1.6 protocol, scored on chance-corrected intelligence, calibration, speed, and cost, with public items and frozen, hashed artifacts (per-task outcomes through v1.4.2.2, system-level aggregates since v1.6).
 
-**This is the first third-party scoreboard for this category, and its readings now frame the whole debate: on the public v1.2 board Jev led at 74.4 with SemIf's frozen-4B logit readout 1.3 points behind, the sealed-decision v1.4 revision kept Jev first (63.3) while the open replicas fell away, the v1.4.2 through v1.4.2.2 point releases then pushed Jev to fourth behind three fine-tune stacks, and October's v1.6.1 redesign rebuilt the board around open weights with Jev kept as the unranked reference at 71.5, a tenth of a point above the new open leader Quyet-1.0-Large, which is still the closest thing the category has to independent verification, arrived at by one runner's contested methodology and now split across two boards.**
+**This is the first third-party scoreboard for this category, and its readings now frame the whole debate: on the public v1.2 board Jev led at 74.4 with SemIf's frozen-4B logit readout 1.3 points behind, the sealed-decision v1.4 revision kept Jev first (63.3) while the open replicas fell away, the v1.4.2 through v1.4.2.2 point releases then pushed Jev to fourth behind three fine-tune stacks, and October's v1.6.1 redesign rebuilt the board around open weights with Jev kept as the unranked reference at 71.5, which the open field first matched (Quyet-1.0-Large, 71.4) and then passed, H2O-Lightning-4B v1.1 leading the composite at 72.5 as of 2026-10-08, which is still the closest thing the category has to independent verification, arrived at by one runner's contested methodology and now split across two boards.**
 
 ## What it is
 
@@ -23,12 +23,12 @@ Intelligence is measured above chance per tier (220 hard decisions written by Cl
 Calibration combines ECE on the hard tier with fidelity to exact gold distributions.
 Cost is priced in dollars per 1,000 decisions, not per 1,000 tokens, which is the unit that actually matters for this contract.
 The v1.2 board holds 48 ranked rows spanning hosted APIs, the open replicas, rerankers, and GLiNER-style classifiers, with classifier.dev listed as an honorable mention because its fast tier is Jev itself, and the v1.4.2 board held 93 measured systems, 89 of them ranked, before the v1.4.2.1 point release took it to 94 and 90 with the single addition of Plumb-4B and the v1.4.2.2 point release took it to 95 and 91 with the single addition of Imajev-4B.
-The October v1.6 restructure then rebuilt both boards (as of 2026-10-07): the main board now ranks open-weights systems only, run by Benchmark Heaven itself at 1,500 decisions per system, with Jev 1.13.0 the only API row kept on it as the unranked reference that defines the genre, hosted APIs split onto a separate API leaderboard (23 ranked, 600 equated items for the 19 rows re-run on 2026-10-06), and only system-level aggregate results published with a SHA-256, a retreat from the frozen per-task artifacts the v1.2 through v1.4.2.2 runs shipped.
+The October v1.6 restructure then rebuilt both boards (as of 2026-10-08): the main board now ranks open-weights systems only, run by Benchmark Heaven itself at 1,500 decisions per system, with Jev 1.13.0 the only API row kept on it as the unranked reference that defines the genre, hosted APIs split onto a separate API leaderboard (23 ranked, 600 equated items for the 19 rows re-run on 2026-10-06), and only system-level aggregate results published with a SHA-256, a retreat from the frozen per-task artifacts the v1.2 through v1.4.2.2 runs shipped.
 
 ## Status
 
-Active and gaining traction, as of 2026-10-07.
-The repository was created 2026-09-19, pushed 2026-09-29, and shows 235 stars and 24 forks, with five scoring releases since my first check (v1.4.0 through v1.4.2.2, September 23-27); the live board has since moved through the v1.5.x series (v1.5.5 through v1.5.7 selectable on the site) to v1.6.0 and the current v1.6.1, running on board revision v1.7.13 dated 2026-10-06, with 102 ranked open-weights systems on the main board.
+Active and gaining traction, as of 2026-10-08.
+The repository was created 2026-09-19, pushed 2026-09-29, and shows 238 stars and 24 forks, with five scoring releases since my first check (v1.4.0 through v1.4.2.2, September 23-27); the live board has since moved through the v1.5.x series (v1.5.5 through v1.5.7 selectable on the site) to v1.6.0 and the current v1.6.1, running on board revision v1.7.18 as of 2026-10-08, with 123 ranked open-weights systems on the main board (13 of them retaining separately dated v1.5.x scores).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fstandhartinger/jevbench&type=date&theme=dark&legend=top-left" />
@@ -43,7 +43,7 @@ The v1.4 sealed-decision revision is the significant event: re-scoring against 3
 The v1.4.2 point release (September 24) then added eleven new systems and completed swanOne's sealed run, and the new #1 was not Jev: decider-4b v2 (Mapika) took the top spot at 64.13 with Jev second at 63.29, JevK5 third (62.04), Cygnet fourth (61.76), and Hopper fifth (59.43), and the new leader's row carried its own caveats (34.7% sealed accuracy, an estimated price basis, and unaudited private stage-2 training rows).
 The v1.4.2.1 point release (2026-09-27) then added Plumb-4B, a JevK5 v0.2 plus LoRA rebuild by crh225, which took the top spot at 65.84 and pushed Jev to third, though Jev keeps the best intelligence (53.1) and calibration (76.3) of the new top five, and Plumb's row leans on an estimated price basis of its own (a bookable GPU rate, not a bill).
 The v1.4.2.2 point release (2026-09-27, with a 2026-09-28 text-only cost-basis correction) then added Imajev-4B by mohit67890, measured on the full v1.4 protocol and priced at a public DeepInfra Qwen3.5-4B rate estimate rather than a GPU bill, which took the top spot at 67.37 and pushed Jev to fourth; the release notes also record that Laya Vision stays out of the board under a separate author-confirmation hold.
-The v1.6.1 boards then re-ranked nearly everyone: on the open-weights main board Quyet-1.0-Large (a Gemma-4-31B decoder LoRA by chinhnc) leads at 71.4 with torchcast-decision-12b second (69.9) and Winnow-12B Q8 third (68.9), Jev 1.13.0 sits above all of them as the unranked reference at 71.5, and the v1.4.2.2-era point-release leaders collapsed under the new protocol (Plumb-4B twelfth at 48.3, decider-4b v2 nineteenth at 41.2, Imajev-4B at 28.7 on complete runs, all as of 2026-10-07).
+The v1.6.1 boards then re-ranked nearly everyone, and the wave's newest headline is H2O-Lightning-4B v1.1 (H2O.ai, a Qwen3.5-4B fine-tune served under stock vLLM with the author's open shim, measured on the runner's own RTX 5090 via GitHub add-request 181): it leads the open-weights composite at 72.5, the first open system above Jev's unranked reference (71.5), with Quyet-1.0-Large (a Gemma-4-31B decoder LoRA by chinhnc) second at 71.4, torchcast-decision-12b third (69.9), and Winnow-12B Q8 fourth (68.9), while the v1.4.2.2-era point-release leaders stay collapsed under the new protocol (Plumb-4B twelfth at 48.3, decider-4b v2 nineteenth at 41.2, Imajev-4B at 28.7 on complete runs, all as of 2026-10-08).
 On the split API leaderboard Sage 1.3.0 (Levanto Labs) ranks first at 74.0, Liquid AI's d1 second at 73.0, Jev third at 71.5, and OpenAI's Decisions API (gpt-6-luna) enters the measurement at fifth with 62.5, the first independent reading of the DevDay announcement.
 The site now also publishes chance-corrected competence across 22 item languages per system and moved ImageJevBench to v0.3.0.
 The author has 36 GitHub followers and no prior public footprint I could find, so I weight the methodology criticisms heavily.
@@ -94,6 +94,7 @@ The disagreeable claim I will defend: this benchmark's most important number is 
 - 2026-10-02 - Recorded the frozen v1.5 scoring method published 2026-09-29 (equal-axis, equal-type headline amendment, pricing addenda including a DeepInfra disclosure correction, SHA-256 manifest) with the v1.4.2.2 board still current and no v1.5 results out.
 - 2026-10-07 - Added the fstandhartinger/jevbench star history chart to the Status section.
 - 2026-10-07 - Recorded the board's move to v1.6.1 (board revision v1.7.13, 2026-10-06): the open-weights-only main board with Jev kept as the unranked reference (71.5, a tenth above the open leader Quyet-1.0-Large), the split hosted-API leaderboard (Sage 1.3.0 first at 74.0, Liquid AI's d1 second, Jev third, OpenAI's Decisions API measured fifth at 62.5), the collapse of the v1.4.2.2 point-release leaders under the new protocol (Plumb-4B 48.3, decider-4b v2 41.2, Imajev-4B 28.7), the 22-language competence view, ImageJevBench v0.3.0, and the retreat to system-level aggregate publication; refreshed stars to 235.
+- 2026-10-08 - The open-weights main board moved again (board revision v1.7.18, 123 ranked systems from 102): H2O-Lightning-4B v1.1 (H2O.ai, Qwen3.5-4B fine-tune, stock vLLM plus open shim, measured on the runner's RTX 5090) took the open composite lead at 72.5, the first open system above Jev's 71.5 unranked reference, with Quyet-1.0-Large second (71.4); the API leaderboard re-verified unchanged (Sage 74.0, d1 73.0, Jev 71.5, wity-1 fourth, OpenAI's Decisions API fifth); refreshed stars to 238.
 
 ## See also
 

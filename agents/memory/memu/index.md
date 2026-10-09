@@ -1,7 +1,7 @@
 ---
 title: memU
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, file-based, skills]
 readability: 3
@@ -26,7 +26,7 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
 
 ## Status
 
-**Quietly large: 14.5k stars rank it tenth of the seventeen members profiled here, while its discussion footprint is nearly empty.**
+**Quietly large: 14.5k stars rank it twelfth of the twenty members profiled here, while its discussion footprint is nearly empty.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&legend=top-left" />
 </picture>
 
-14,511 stars with the repository pushed 2026-10-01, created 2025-07-29, as of 2026-10-07 (GitHub API).
+14,516 stars with the repository pushed 2026-10-01, created 2025-07-29, as of 2026-10-08 (GitHub API).
 The Hacker News record is two threads: an 11-point Show HN in January 2026 (4 comments) and a 4-point story in July 2026 (0 comments), so the 14.5k stars rest on trend cycles and word of mouth, not public scrutiny.
 Development is active, with the README's host matrix and skill-extraction flow revised against current releases.
 The same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and Graphify.
@@ -76,6 +76,7 @@ Not for teams needing multi-user memory APIs, contractual hosting terms, or any 
 - 2026-10-07 - Added the NevaMind-AI/memU star history chart to the Status section.
 - 2026-10-07 - Membership grew to seventeen (GBrain, Hindsight, and OpenViking joined), moving memU's star rank from seventh to tenth; refreshed stars to 14,511.
 - 2026-10-07 - Reworded the pre-existing "wiki-shaped" compound to "wiki-style" in the claude-mem comparison to keep the banned-terms rule.
+- 2026-10-08 - Membership grew to twenty (LongMemory, Memvid, and Screenpipe joined), moving memU's star rank from tenth to twelfth; refreshed stars to 14,516.
 
 ## See also
 

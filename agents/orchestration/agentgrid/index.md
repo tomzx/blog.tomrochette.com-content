@@ -1,7 +1,7 @@
 ---
 title: AgentGrid
 created: 2026-10-02
-updated: 2026-10-05
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, canvas, closed-source]
 readability: 3
@@ -24,8 +24,8 @@ A built-in source-control view and an agent review bot put worktree state, pull 
 
 ## Status
 
-Active and fast-moving: v2.9.3 shipped 2026-10-04 (a guided canvas tour, self-serve @mentions project configuration, and Windows test builds that run side-by-side without replacing an install), two days after v2.9.2 added Coordinator history compaction and in-composer login commands, on top of near-daily releases through September and October.
-The vendor's pricing page, which returned HTTP 500 on 2026-10-03, serves again as of 2026-10-05 with the same Free $0 and Pro $16/month tiers, still serving on 2026-10-07, and the download page serves v2.9.4 as of 2026-10-07.
+Active and fast-moving: v2.9.5 shipped 2026-10-07 (Coordinator runs as a chosen account, PR attribution with a get_pr_cost MCP tool, shared request pricing and ledger types, and GitHub cost comments), hours after v2.9.4 added multi-account-per-harness support and an opt-in performance probe, on top of near-daily releases through September and October.
+The vendor's pricing page, which returned HTTP 500 on 2026-10-03, serves again as of 2026-10-05 with the same Free $0 and Pro $16/month tiers, still serving on 2026-10-07, and the changelog and download page carried v2.9.4 as of 2026-10-07 and v2.9.5 as of 2026-10-08.
 **The community footprint is the weakest part of the story: a Show HN thread from 2026-08-25 that sits at 1 point with 0 comments, no public repository, and a "5,000+ AI builders" community claim that only the vendor's own site corroborates.**
 Treat the traction numbers as marketing until an independent source confirms them.
 
@@ -72,6 +72,7 @@ Not for anyone who requires open source, an auditable supply chain, or pricing t
 
 - 2026-10-02 - Created.
 - 2026-10-05 - Recorded v2.9.3 (October 4) from the vendor changelog, and re-verified the pricing page serving again with unchanged tiers after the 2026-10-03 HTTP 500.
+- 2026-10-08 - Recorded v2.9.5 (October 7, PR attribution and a get_pr_cost MCP tool) and re-verified the pricing page tiers unchanged.
 
 ## See also
 

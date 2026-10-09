@@ -1,7 +1,7 @@
 ---
 title: qmd
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, retrieval, local-search, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, by Tobias Lütke (Shopify CEO), who authored about three quarters of the co
 
 ## Status
 
-Young with unusual traction: 30,238 stars, 1,894 forks, 194 open issues and PRs as of 2026-10-07, created 2025-12-08.
+Young with unusual traction: 30,262 stars, 1,897 forks, 194 open issues and PRs as of 2026-10-08, created 2025-12-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tobi/qmd&type=date&theme=dark&legend=top-left" />

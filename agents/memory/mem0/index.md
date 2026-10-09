@@ -1,7 +1,7 @@
 ---
 title: Mem0
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, developer-tools]
 readability: 3
@@ -25,7 +25,7 @@ The company (YC S24) was founded by Taranjeet Singh and Deshraj Yadav, previousl
 ## Status
 
 **Active and the adoption leader.**
-The repository shows about 66.6k stars and 2,667 commits as of 2026-10-05.
+The repository shows about 66.8k stars and 2,667 commits as of 2026-10-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mem0ai/mem0&type=date&theme=dark&legend=top-left" />
@@ -35,6 +35,8 @@ The repository shows about 66.6k stars and 2,667 commits as of 2026-10-05.
 
 TechCrunch reported a $24M round (a $3.9M seed plus a $20M Series A led by Basis Set Ventures, with Peak XV and the GitHub Fund) in October 2025, 186M API calls in Q3 2025, and exclusive-memory-provider status for AWS's Agent SDK.
 The site claims 150,000+ developers.
+**The company launched its own benchmark, DolphinBench** (September 2026): three knowledge-work personas with roughly 500k tokens of history each, 600 tasks graded on the action an agent takes rather than on recall, with cost and latency mandatory in every report.
+The harness is Apache-2.0 at mem0ai/dolphinbench (35 stars as of 2026-10-08), the paper (arXiv 2609.24971) carries Mem0's founders among its authors, and the leaderboard's results are client-rendered, so I could not verify any standings.
 The 2024 Show HN drew 201 points and 61 comments, though moderators flagged booster comments in that thread.
 
 ## Strengths
@@ -50,11 +52,12 @@ The 2024 Show HN drew 201 points and 61 comments, though moderators flagged boos
 - Zep published a detailed rebuttal of the Mem0 paper, showing a misconfigured competitor setup, a flawed benchmark (LoCoMo), and Mem0's own full-context baseline beating its memory system; Mem0's response did not resolve the dispute.
 - Community skepticism persists: HN threads question whether it learns user patterns or just stores sentences, and the launch thread raised GDPR gaps (since addressed with a trust center, per the site).
 - Memory quality claims move fast here; the algorithm was replaced wholesale in April 2026.
+- **DolphinBench extends the vendor-run-benchmark pattern this section flags on Hindsight, Supermemory, and MemOS**: the scoreboard's operator is the contestant's parent, and the action-grading framing has no independent replication yet.
 
 ## Pricing
 
 Hobby (free) tier: 10,000 add and 1,000 retrieval requests per month.
-Starter $19/month, Pro $249/month (graph memory and Dream land at Pro), Enterprise custom with on-prem and SSO, as of 2026-10-02.
+Starter $19/month, Pro $249/month (graph memory and Dream land at Pro), Enterprise custom with on-prem and SSO, as of 2026-10-08.
 **The OSS SDK is free but the benchmarked brain is the paid platform, which is the real price of the headline numbers.**
 
 ## Price history
@@ -80,6 +83,7 @@ I would not choose any memory vendor on benchmark leaderboards, this field's num
 - 2026-09-05 - Relabeled the free tier as Hobby on the pricing page's rename, quotas identical.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-07 - Added the mem0ai/mem0 star history chart to the Status section.
+- 2026-10-08 - Recorded DolphinBench, Mem0's own action-graded agent-memory benchmark (three personas, 600 tasks, cost and latency mandatory, Apache-2.0 harness, paper arXiv 2609.24971 with the founders as authors); the leaderboard is client-rendered and unverified, and the vendor-run-benchmark caution added; refreshed stars to about 66.8k and re-verified pricing unchanged.
 
 ## See also
 
@@ -90,8 +94,11 @@ I would not choose any memory vendor on benchmark leaderboards, this field's num
 ## References
 
 - https://mem0.ai/ - product surfaces, developer-count claim, deployment options
-- https://github.com/mem0ai/mem0 - stars and commits as of 2026-10-05, April 2026 algorithm, OSS-vs-platform disclaimer
-- https://mem0.ai/pricing - tier and quota structure as of 2026-10-02 (Hobby free, Starter $19, Pro $249)
+- https://github.com/mem0ai/mem0 - stars and commits as of 2026-10-08, April 2026 algorithm, OSS-vs-platform disclaimer
+- https://mem0.ai/pricing - tier and quota structure re-verified unchanged as of 2026-10-08 (Hobby free, Starter $19, Pro $249)
+- https://dolphinbench.ai/ - DolphinBench: the action-graded benchmark, its three personas and 600 tasks, and the client-rendered leaderboard
+- https://arxiv.org/abs/2609.24971 - the DolphinBench paper (submitted 2026-09-21) with Mem0's founders as authors
+- https://github.com/mem0ai/dolphinbench - the Apache-2.0 benchmark harness, 35 stars as of 2026-10-08
 - https://arxiv.org/abs/2504.19413 - the paper behind the SOTA claims
 - https://techcrunch.com/2025/10/28/mem0-raises-24m-from-yc-peak-xv-and-basis-set-to-build-the-memory-layer-for-ai-apps/ - funding, traction, AWS Agent SDK deal
 - https://blog.getzep.com/lies-damn-lies-statistics-is-mem0-really-sota-in-agent-memory/ - competitor rebuttal of the benchmark claims
