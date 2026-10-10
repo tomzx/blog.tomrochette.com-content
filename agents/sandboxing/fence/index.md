@@ -24,7 +24,7 @@ Built by Tusk, the AI testing-agents company; the repository moved from Use-Tusk
 
 ## Status
 
-Actively maintained with modest but durable traction: 986 stars, 37 open issues, pushed 2026-10-06 as of 2026-10-07, created 2025-12-18.
+Actively maintained with modest but durable traction: 988 stars, 38 open issues, pushed 2026-10-06 as of 2026-10-09, created 2025-12-18.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fencesandbox/fence&type=date&theme=dark&legend=top-left" />

@@ -16,6 +16,7 @@ Governance above the harness: policy, permissions, approvals, budgets, trust, se
 - [Cordum](cordum/index.md) - the BUSL-1.1 source-available control plane whose Go safety kernel returns ALLOW, DENY, or REQUIRE_APPROVAL before a worker runs, with a Claude Code hook firewall on the endpoint.
 - [CrowdStrike Falcon Guardian](crowdstrike-falcon-guardian/index.md) - the commercial AIDR layer that discovers shadow AI agents and turns AI usage policy into endpoint-enforced controls at agent execution time.
 - [Databricks Unity Gateway](databricks-unity-gateway/index.md) - the managed governance gateway inside Unity Catalog that routes every model and MCP request through permissions, guardrails, rate limits, and dollar-cost audit tables.
+- [HOL Guard](hol-guard/index.md) - the Apache-2.0 consortium-built runtime guard whose published per-harness coverage contract names what it can and cannot see, with approvals, local receipts, supply-chain inspection, and a freemium cloud.
 - [Jamf AI Governance](jamf-ai-governance/index.md) - the Mac-native capability that turns AI usage policy into enforced vendor configurations for Claude Code, Codex, and their neighbors through Apple device management.
 - [Microsoft Agent Governance Toolkit](microsoft-agent-governance-toolkit/index.md) - the MIT multi-language toolkit for deterministic policy, identity, sandboxing, SRE, and compliance, with a critical authentication writeup to read first.
 - [Okto Pulse](okto-pulse/index.md) - the Elastic-2.0 local-first SDLC workbench that blocks coding-agent status transitions until spec coverage and delivery evidence are met.
@@ -45,3 +46,4 @@ Its members are compared on shared rows in the [Control Planes Feature Matrix](c
 - 2026-10-07 - Added Cordum.
 - 2026-10-07 - Added OpenAPPA.
 - 2026-10-07 - Added CC Safety Net.
+- 2026-10-09 - Added HOL Guard.

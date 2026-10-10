@@ -22,7 +22,7 @@ An ingress gateway with per-sandbox egress controls handles network policy, a Cr
 ## Status
 
 **Very active and exceptionally fast-growing for a nine-month-old repo, with traction that is vendor-driven rather than organic Hacker News adoption.**
-15,705 stars and 1,445 forks as of 2026-10-07, repo created 2025-12-17, pushed 2026-10-01, latest stable release 1.1.0 on 2026-09-21, the first stable release of a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM, with a 1.1.1-rc.1 prerelease of 2026-09-28 opening the patch line to fix a broken 1.1.0 opensandbox-server wheel on PyPI.
+15,747 stars and 1,449 forks as of 2026-10-09, repo created 2025-12-17, pushed 2026-10-09, latest stable release 1.1.0 on 2026-09-21, the first stable release of a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM, with a 1.1.1-rc.1 prerelease of 2026-09-28 opening the patch line to fix a broken 1.1.0 opensandbox-server wheel on PyPI.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=opensandbox-group/OpenSandbox&type=date&theme=dark&legend=top-left" />

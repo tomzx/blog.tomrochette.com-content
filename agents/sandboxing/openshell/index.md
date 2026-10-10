@@ -23,7 +23,7 @@ Linux, macOS (Apple Silicon), and Windows via WSL 2 (experimental); Apache-2.0, 
 
 ## Status
 
-Fast adoption, newly stable and surging: 15,191 stars, 1,718 forks, 538 open issues and PRs as of 2026-10-07, created 2026-02-24.
+Fast adoption, newly stable and surging: 15,531 stars, 1,747 forks, 578 open issues and PRs as of 2026-10-09, created 2026-02-24.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/OpenShell&type=date&theme=dark&legend=top-left" />
@@ -48,7 +48,7 @@ In September 2026 the team also published a formal-methods discussion of encodin
 - Freshly stable (v0.1.0 on 2026-09-25), with breaking changes the base rate for a runtime this young and the Kubernetes path explicitly experimental.
 - Telemetry is on by default in a tool whose pitch is privacy; anonymous, but verify it against your threat model.
 - Effective security equals the YAML policies you write and maintain, which is real ongoing work.
-- 538 open issues and PRs as of 2026-10-07, now just above the 536 platform-launch peak and well above the 455 late-September level, on a seven-month-old codebase.
+- 578 open issues and PRs as of 2026-10-09, well above both the 536 platform-launch peak and the 455 late-September level, on a seven-month-old codebase.
 
 ## Pricing
 

@@ -21,12 +21,14 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 - [Fence](fence/index.md) - Tusk's container-free CLI wrapping any command or agent in sandbox-exec or bubblewrap, Landlock, and seccomp, one fence.json, deny-by-default network.
 - [Flue](flue/index.md) - the Astro team's agent framework whose contribution is a three-tier sandbox taxonomy and durable execution.
 - [Greywall](greywall/index.md) - the Fence fork that adds proxy-swapped credentials and an allow-by-default watch mode with a live dashboard, quiet since August 2026.
+- [Landrun](landrun/index.md) - the Landlock-only kernel CLI wrapper with the category's largest wrapper-class footprint and Ubuntu and Debian packages, quiet since July 2026.
 - [Microsandbox](microsandbox/index.md) - the libkrun microVM runtime with container workflows, agent-created sandboxes via skills and MCP, and the category's largest HN launch.
 - [NemoClaw](nemoclaw/index.md) - NVIDIA's Apache-2.0 reference stack that installs, hardens, and operates OpenClaw, Hermes, and LangChain Deep Agents inside OpenShell sandboxes with managed inference and lifecycle ops.
 - [nono](nono/index.md) - the Sigstore team's kernel capability sandbox that brokers each delegated tool separately and proxies credentials scoped per endpoint.
 - [NVX](nvx/index.md) - Microsoft's OpenVMM research sandbox for agentic workloads with Windows hypervisor paths and limits docs that name what the ABI does not do.
 - [OpenSandbox](opensandbox/index.md) - the Apache-2.0 general sandbox platform (SDKs, CLI, MCP, K8s runtimes) that grew on GitHub trend charts, not Hacker News.
 - [OpenShell](openshell/index.md) - NVIDIA's container-and-MicroVM runtime where declarative policy and inference-proxy keys make the boundary credible.
+- [Yolobox](yolobox/index.md) - the container wrapper that gives coding agents full sudo inside while the home directory stays unmounted, accidents fenced and attackers out of scope by its own docs.
 
 Its members are compared on shared rows in the [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md).
 
@@ -49,3 +51,5 @@ Its members are compared on shared rows in the [Sandboxing Feature Matrix](sandb
 - 2026-10-07 - Added NVX.
 - 2026-10-07 - Added NemoClaw.
 - 2026-10-08 - Added Greywall.
+- 2026-10-09 - Added Landrun.
+- 2026-10-09 - Added Yolobox.

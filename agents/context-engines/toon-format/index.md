@@ -1,7 +1,7 @@
 ---
 title: TOON
 created: 2026-10-07
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, serialization, token-optimization, specification]
 readability: 3
@@ -16,14 +16,14 @@ TOON (Token-Oriented Object Notation) is an MIT-licensed, spec-backed encoding o
 
 ## What it is
 
-A format specification (version 4.3, Working Draft, 2026-10-06) maintained in its own repository by Johann Schopplich, with the TypeScript reference implementation at `@toon-format/toon` and community ports across languages (25,467 stars, pushed 2026-10-06, as of 2026-10-08).
+A format specification (version 4.4, 2026-10-08) maintained in its own repository by Johann Schopplich, with the TypeScript reference implementation at `@toon-format/toon` and community ports across languages (25,478 stars, pushed 2026-10-09, as of 2026-10-09).
 The design combines YAML's indentation for nested objects with CSV-style tabular rows for arrays of uniform objects: each array declares its length and field list once, then one row per item, with a single active delimiter (comma, tab, or pipe) and strings quoted only when required.
 The sweet spot is uniform data, the same fields across many items, where it approaches CSV compactness while keeping structure explicit; the spec itself concedes that deeply nested or non-uniform data can be cheaper as plain JSON.
 The intended use is a translation layer: keep JSON in code, encode to TOON at the prompt boundary, decode back from the model's output.
 
 ## Status
 
-Active and widely adopted: created 2025-10-22, 25,467 stars, spec at v4.3, about 1,897,900 npm downloads in the week of 2026-09-28 to 2026-10-04, as of 2026-10-08.
+Active and widely adopted: created 2025-10-22, 25,478 stars, spec at v4.4, 1,658,827 npm downloads in the week of 2026-10-01 to 2026-10-07, as of 2026-10-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=toon-format/toon&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and widely adopted: created 2025-10-22, 25,467 stars, spec at v4.3, about
 </picture>
 
 The launch discussion reached 178 points and 58 comments on Hacker News in October 2025, where the standing objections were set: YAML already exists, and models fine-tuned on JSON might lose accuracy on a format absent from their training data.
-A third-party test comparing TOON against JSON and CSV on tabular data came out of that thread, and the spec continues to revise (4.1 to 4.3 across 2026), so the format is stable-but-moving by its own description.
+A third-party test comparing TOON against JSON and CSV on tabular data came out of that thread, and the spec continues to revise (4.1 to 4.4 across 2026), so the format is stable-but-moving by its own description.
 
 ## Strengths
 
@@ -66,6 +66,7 @@ Not for deeply nested or heterogeneous payloads, and not yet for contexts where 
 ## Changes
 
 - 2026-10-07 - Created.
+- 2026-10-09 - Recorded the specification moving to v4.4 (published 2026-10-08) and refreshed the volatile numbers (25,478 stars, 1,658,827 weekly npm downloads, window 2026-10-01 to 2026-10-07).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -24,8 +24,8 @@ The Launch HN title calls it an "OSS sandboxed agent harness for teams", and tha
 
 ## Status
 
-Very active: v2.10.0 released October 7, 2026 (a Pylon integration, setup-guide links on every connect surface, and a two-image agent sandbox), one day after the v2.8.0/v2.9.0 pair (v2.8.0 added Google Drive folder permissions, Navan and Timeless apps, grouped Slack approvals, OAuth refresh hardening, and an egress guard; v2.9.0 added the Circleback integration, Navan paste cleaning, and agent API-docs hints), following v2.7.0 on October 3 and a v2.3-2.4 series five months ago, with v2.5.0 on September 3 and v2.6.0 five days after it.
-3,563 stars and 249 forks as of 2026-10-08, on a repository created March 8, 2026.
+Very active: v2.11.0 shipped October 8, 2026 with a Helm chart for Kubernetes self-hosting, agent webhooks, and evals with run history (two same-day patches followed to fix the chart publish pipeline), one day after v2.10.0 (a Pylon integration, setup-guide links on every connect surface, and a two-image agent sandbox), one day after the v2.8.0/v2.9.0 pair (v2.8.0 added Google Drive folder permissions, Navan and Timeless apps, grouped Slack approvals, OAuth refresh hardening, and an egress guard; v2.9.0 added the Circleback integration, Navan paste cleaning, and agent API-docs hints), following v2.7.0 on October 3 and a v2.3-2.4 series five months ago, with v2.5.0 on September 3 and v2.6.0 five days after it.
+3,566 stars and 250 forks as of 2026-10-09, on a repository created March 8, 2026.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=onecli/onecli&type=date&theme=dark&legend=top-left" />
@@ -88,6 +88,7 @@ I think the prompt-based permission systems across every other harness in this s
 - 2026-10-07 - Added the onecli/onecli star history chart to the Status section.
 - 2026-10-07 - Recorded the v2.8.0 and v2.9.0 releases (both October 6), which added Google Drive folder permissions, Navan and Timeless apps, grouped Slack approvals, OAuth refresh hardening, an egress guard, the Circleback integration, Navan paste cleaning, and agent API-docs hints, and refreshed repository counters.
 - 2026-10-08 - Recorded the v2.10.0 release (October 7), which added a Pylon integration, setup-guide links on every connect surface, and a two-image agent sandbox, and refreshed repository counters.
+- 2026-10-09 - Recorded the v2.11 series (October 8): v2.11.0 added a Helm chart for Kubernetes self-hosting, agent webhooks, and evals with run history, with two same-day publish-pipeline patches, and refreshed repository counters.
 
 ## See also
 
@@ -99,8 +100,8 @@ I think the prompt-based permission systems across every other harness in this s
 
 ## References
 
-- https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-10-07
-- https://github.com/onecli/onecli/releases - release cadence through v2.9.0 on October 6, 2026
+- https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-10-09
+- https://github.com/onecli/onecli/releases - release cadence through v2.11.2 on October 8, 2026
 - https://onecli.sh - product positioning, gateway model, and free tier as of 2026-09-22
 - https://onecli.sh/pricing - tiers, BYOC versus hosted-model pricing, and seat limits as of 2026-10-06 (re-verified unchanged)
 - https://onecli.sh/docs - architecture: sandbox, gateway, policy, self-hosting

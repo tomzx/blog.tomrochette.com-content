@@ -24,7 +24,7 @@ Apache-2.0, from NVIDIA, which describes the project as alpha with best-effort m
 
 ## Status
 
-Large and fast for an alpha: 22,674 stars, 3,131 forks, 777 open issues and PRs as of 2026-10-07, created 2026-03-15, pushed 2026-10-07.
+Large and fast for an alpha: 22,686 stars, 3,132 forks, 763 open issues and PRs as of 2026-10-09, created 2026-03-15, pushed 2026-10-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ The launch carried it: a 385-point, 261-comment Hacker News thread on 2026-03-18
 - Self-declared alpha with best-effort support, and one prerelease tag as of 2026-10-07, so treat the API and blueprint format as moving.
 - Choosing NemoClaw means choosing OpenShell: the blueprint is bound to one boundary, and the docs route custom images or non-reference workloads back to OpenShell alone.
 - The primary install is `curl | bash`, and the headline onboarding flow asks a coding agent to drive system changes, a supply-chain-sensitive pattern whose digest pinning covers only the credential helper and form, not the installer.
-- 777 open issues and PRs on a seven-month-old repository as of 2026-10-07, a support load NVIDIA reviews on a best-effort basis.
+- 763 open issues and PRs on a seven-month-old repository as of 2026-10-09, a support load NVIDIA reviews on a best-effort basis.
 
 ## Pricing
 

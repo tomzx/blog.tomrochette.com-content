@@ -24,7 +24,7 @@ Made by the Astro Technology Company team under Fred Schott, acquired by Cloudfl
 
 ## Status
 
-Young and fast: 8,434 stars, 506 forks, 68 open issues and PRs as of 2026-10-07, created 2026-02-07, 1,134 commits.
+Young and fast: 8,445 stars, 509 forks, 70 open issues and PRs as of 2026-10-09, created 2026-02-07, 1,134 commits.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=withastro/flue&type=date&theme=dark&legend=top-left" />

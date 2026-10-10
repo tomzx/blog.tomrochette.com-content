@@ -1,7 +1,7 @@
 ---
 title: Mem0
 created: 2026-08-24
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, developer-tools]
 readability: 3
@@ -25,7 +25,7 @@ The company (YC S24) was founded by Taranjeet Singh and Deshraj Yadav, previousl
 ## Status
 
 **Active and the adoption leader.**
-The repository shows about 66.8k stars and 2,667 commits as of 2026-10-08.
+The repository shows about 66.9k stars and 2,671 commits as of 2026-10-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mem0ai/mem0&type=date&theme=dark&legend=top-left" />
@@ -98,7 +98,7 @@ I would not choose any memory vendor on benchmark leaderboards, this field's num
 - https://mem0.ai/pricing - tier and quota structure re-verified unchanged as of 2026-10-08 (Hobby free, Starter $19, Pro $249)
 - https://dolphinbench.ai/ - DolphinBench: the action-graded benchmark, its three personas and 600 tasks, and the client-rendered leaderboard
 - https://arxiv.org/abs/2609.24971 - the DolphinBench paper (submitted 2026-09-21) with Mem0's founders as authors
-- https://github.com/mem0ai/dolphinbench - the Apache-2.0 benchmark harness, 35 stars as of 2026-10-08
+- https://github.com/mem0ai/dolphinbench - the Apache-2.0 benchmark harness, 37 stars as of 2026-10-09
 - https://arxiv.org/abs/2504.19413 - the paper behind the SOTA claims
 - https://techcrunch.com/2025/10/28/mem0-raises-24m-from-yc-peak-xv-and-basis-set-to-build-the-memory-layer-for-ai-apps/ - funding, traction, AWS Agent SDK deal
 - https://blog.getzep.com/lies-damn-lies-statistics-is-mem0-really-sota-in-agent-memory/ - competitor rebuttal of the benchmark claims

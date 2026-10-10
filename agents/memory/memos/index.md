@@ -1,7 +1,7 @@
 ---
 title: MemOS
 created: 2026-10-06
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -25,7 +25,8 @@ The plugin line is the distribution strategy: official OpenClaw plugins (cloud a
 ## Status
 
 **Active and mid-scale.**
-11,755 stars with the repository pushed 2026-09-29, created 2025-07-06, as of 2026-10-08 (GitHub API).
+11,769 stars with the repository pushed 2026-10-09, created 2025-07-06, as of 2026-10-09 (GitHub API).
+The one independent common-framework datapoint: the academic Agent Memory Leaderboard's first cycle (August 2026) ranks MemOS second among commercial text-memory systems at 45.89, on that framework's scale, not the vendor table's.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MemTensor/MemOS&type=date&theme=dark&legend=top-left" />
@@ -46,7 +47,7 @@ The Hacker News footprint is nearly absent: a 2-point story in August 2025, no d
 
 ## Cautions
 
-- **Every benchmark number is the vendor's own run of its own framework**, the same self-published pattern this section flags on Supermemory and Mem0, with no independent replication found.
+- **Every number in the vendor's own benchmark table is its own run of its own framework**, the same self-published pattern this section flags on Supermemory and Mem0; the independent Agent Memory Leaderboard result (45.89, second among commercial systems) uses a different scale, so the two cannot be read against each other.
 - The hosted cloud API's endpoints sit on MemTensor's own infrastructure (memtensor.cn), a data-residency question for teams outside its jurisdiction, and the newly published Starter and Pro tiers are launch-promo-free, so their real prices are the $19 and $286 list figures.
 - Self-hosting the full platform means operating Neo4j plus Qdrant, a heavier stack than the SQLite-only plugins suggest.
 - Independent discussion is thin (a 2-point HN thread), so failure reports and fixes skew toward the vendor's channels.
@@ -78,6 +79,7 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 - 2026-10-06 - Created from the 2026-10-06 entrant scan, with seven fetched sources and the vendor-run-benchmark caveat recorded as the critical angle.
 - 2026-10-07 - Added the MemTensor/MemOS star history chart to the Status section.
 - 2026-10-07 - The hosted cloud began publishing plans: Free $0/mo, Starter $19/mo and Pro $286/mo both flagged "Free Now" on apply-to-join, Enterprise custom (new Price history section with the baseline row); the no-public-price caution rewritten and the landing-page reference updated.
+- 2026-10-09 - Added the first independent evaluation record: the academic Agent Memory Leaderboard's Cycle 1 (August 2026) ranks MemOS second among commercial text-memory systems at 45.89, on that framework's scale; refreshed stars to 11,769.
 
 ## See also
 
@@ -89,7 +91,7 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 
 ## References
 
-- https://github.com/MemTensor/MemOS - repository, 11,713 stars, push record, description, as of 2026-10-06
+- https://github.com/MemTensor/MemOS - repository, 11,769 stars, push record, description, as of 2026-10-09
 - https://raw.githubusercontent.com/MemTensor/MemOS/main/README.md - features, the four entry points, plugin news timeline, and the OmniMemEval benchmark table
 - https://memos-docs.openmem.net/ - documentation root (the README's home/overview deep link returned 404 at fetch time, recorded here)
 - https://arxiv.org/abs/2507.03724 - the MemOS paper: a memory OS for AI systems

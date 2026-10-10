@@ -1,7 +1,7 @@
 ---
 title: "Clawk"
 created: 2026-09-05
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, vm, security]
 readability: 3
@@ -20,7 +20,7 @@ There is no Dockerfile or devcontainer: the first boot builds a rootfs from any 
 
 ## Status
 
-Launched July 2026 with real traction and currently paused in a pre-1.0 state: 1,027 stars and 41 forks, last push 2026-08-13 at v0.4.0, with the README carrying its own "pre-1.0, expect breaking changes" banner.
+Launched July 2026 with real traction and currently paused in a pre-1.0 state: 1,028 stars and 41 forks, last push 2026-08-13 at v0.4.0, with the README carrying its own "pre-1.0, expect breaking changes" banner.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=clawkwork/clawk&type=date&theme=dark&legend=top-left" />
@@ -29,7 +29,7 @@ Launched July 2026 with real traction and currently paused in a pre-1.0 state: 1
 </picture>
 
 **The 226-point Show HN thread is the strongest community signal in the Sandboxing category's tail, and the discussion plus the README agree on the limits rather than hiding them.**
-Fifty-six days without a push after a fast launch cadence is worth watching, but it is not yet a stall at these timescales.
+Fifty-seven days without a push after a fast launch cadence is worth watching, but it is not yet a stall at these timescales.
 
 ## Strengths
 
@@ -40,7 +40,7 @@ Fifty-six days without a push after a fast launch cadence is worth watching, but
 ## Cautions
 
 - The sandbox is only as closed as its allow-list: github.com is pre-allowed, so exfiltration through the very forge you push to is in scope by design.
-- Pre-1.0 with fifty-six days of quiet as of 2026-10-08, on a single primary platform (macOS), from a small team.
+- Pre-1.0 with fifty-seven days of quiet as of 2026-10-09, on a single primary platform (macOS), from a small team.
 - The VM disk is lost on destroy by design; only host-side code and conversations survive.
 
 ## Pricing
@@ -74,6 +74,7 @@ Not for Linux-primary teams (yet), and not for anyone threat-modeling a determin
 - 2026-10-07 - Added the clawkwork/clawk star history chart to the Status section.
 - 2026-10-07 - Quiet window extended to fifty-five days (last push still 2026-08-13 at v0.4.0); stars refreshed (1,027), forks and the 226-point thread unchanged.
 - 2026-10-08 - Quiet window extended to fifty-six days (last push still 2026-08-13 at v0.4.0); the Status body's star figure corrected to the 1,027 the 2026-10-07 bullet had recorded (the body had lagged it); forks and the 226-point thread unchanged.
+- 2026-10-09 - Quiet window extended to fifty-seven days (last push still 2026-08-13 at v0.4.0); stars refreshed (1,028), forks and the 226-point thread unchanged.
 
 ## See also
 

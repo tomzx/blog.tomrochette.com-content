@@ -1,7 +1,7 @@
 ---
 title: Sim
 created: 2026-09-29
-updated: 2026-10-07
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -22,7 +22,8 @@ The repo sits at 29,765 stars with 3,851 forks, Apache-2.0, created 2025-01-05, 
 
 ## Status
 
-Active: last push 2026-10-05, release v0.9.14 on 2026-10-05 (GitHub API, as of 2026-10-06).
+Active: last push 2026-10-09, releases v0.9.15 and v0.9.16 on 2026-10-08 (GitHub API, as of 2026-10-09).
+v0.9.15 (October 8) added SSO administration and credential-sharing APIs, current frontier models, a Nebius Token Factory provider, and desktop background-executor chats bound to a device registry, and v0.9.16 (October 8) patched a sharp librsvg CVE and an MCP SDK OAuth issuer binding while adding GitHub MCP server library entries.
 v0.9.11 (October 2) tightened audit rules across console, helper, render-path, persist, and deployment-flag checks, v0.9.12 (October 3) added last-synced deployment comparison for forks and a You.com integration, v0.9.13 (October 4) added library templates while fixing webhook path-owner claims and hosted-key usage-limit enforcement, and v0.9.14 (October 5) preserved workflow identity in background confirmations and kept file lineage through binary exports and extraction.
 Three HN launches mark the trajectory: 196 points for the first Show HN (2025-04-28), 55 points for the YC Launch HN (2025-05-21), and 240 points for "Sim, Apache-2.0 n8n alternative" (2025-12-11).
 Pre-1.0 (v0.9.x) despite the scale, so the API surface is still moving.
@@ -80,6 +81,7 @@ Not for coding-agent orchestration, and not for anyone needing long-term API sta
 - 2026-10-02 - Recorded v0.9.9 (October 1) as the new latest release and refreshed star, fork, and push counts.
 - 2026-10-05 - Recorded v0.9.13 (October 4, library templates plus webhook path-owner and hosted-key usage-limit fixes) as the latest release.
 - 2026-10-07 - Added the simstudioai/sim star history chart to the Status section.
+- 2026-10-09 - Recorded v0.9.15 and v0.9.16 (both October 8, SSO administration and credential-sharing APIs, then a CVE and OAuth-issuer patch) as the new latest releases.
 
 ## See also
 

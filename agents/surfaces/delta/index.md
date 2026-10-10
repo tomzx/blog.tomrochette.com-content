@@ -1,7 +1,7 @@
 ---
 title: Delta
 created: 2026-10-04
-updated: 2026-10-06
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, agentic-development-environments, version-control, code-review, multiplayer]
 readability: 3
@@ -26,7 +26,7 @@ Zed disabled pull requests on Delta's own repository at launch and reports build
 
 **Active and early: public beta since 2026-09-16, free during beta, closed source.**
 The DeltaDB announcement (2026-06-11) drew a 529-point Hacker News thread, and the public-beta announcement (2026-09-16, "Replace PRs with Delta") drew 154 points with 102 comments as of 2026-10-04, a comment count that signals argument rather than drive-by attention.
-Shipping cadence is visible on the Delta blog: a harness-eval piece on 2026-09-24 and a planning-in-Delta piece on 2026-10-01.
+Shipping cadence is visible on the Delta blog: a harness-eval piece on 2026-09-24 and a planning-in-Delta piece on 2026-10-01, then three more in the first week of October, Escaping the tyranny of worktrees (October 6, arguing parallel agent work has outgrown Git worktrees), The Diff: September 2026 (October 7, more provider options and orchestrating threads with threads), and Please Stop Sending Me Google Docs (October 8).
 DeltaDB itself has no public release; the open-source release thread commenters ask about has not shipped.
 The beta requires signing in and accepting beta terms, and the product is the founder-led bet of one vendor whose editor is the adjacent product.
 
@@ -71,6 +71,7 @@ The disagreeable claim I will defend: the durable idea here is not replacing Git
 ## Changes
 
 - 2026-10-04 - Created from the entrant scan after the 2026-09-16 public beta cleared the bar (DeltaDB thread at 529 points, beta thread at 154 with 102 comments, six sources fetched including the vendor's own data-storage doc conceding the deletion caveats).
+- 2026-10-09 - Recorded the blog cadence through the first week of October: Escaping the tyranny of worktrees (October 6), The Diff: September 2026 with more provider options and orchestrating threads with threads (October 7), and Please Stop Sending Me Google Docs (October 8); pricing re-verified unchanged.
 
 ## See also
 
@@ -86,5 +87,6 @@ The disagreeable claim I will defend: the durable idea here is not replacing Git
 - https://zed.dev/blog/introducing-deltadb - the 2026-06-11 DeltaDB announcement: deltas with stable identities, message-and-edit pairing, CRDT worktrees
 - https://delta.dev/docs/concepts/core-concepts - threads, projects, and Delta worktrees, and the Git-compatibility guarantee
 - https://delta.dev/docs/privacy-and-security/data-storage - what is stored server-side, the Cloudflare backend, email-only deletion, and what Delete Locally does not remove
-- https://delta.dev/pricing - Personal $0 and Pro $10/month, accounts and credits shared with Zed, as of 2026-10-06
+- https://delta.dev/pricing - Personal $0 and Pro $10/month, accounts and credits shared with Zed, as of 2026-10-09
+- https://delta.dev/blog - the blog index dating the October posts: Escaping the tyranny of worktrees (October 6), The Diff: September 2026 (October 7), and Please Stop Sending Me Google Docs (October 8), fetched 2026-10-09
 - https://news.ycombinator.com/item?id=49727245 - the beta thread (154 points, 102 comments as of 2026-10-04): the merge-gating, privacy-upload, and why-not-a-PR criticisms, plus positive beta-user reports

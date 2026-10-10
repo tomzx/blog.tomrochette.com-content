@@ -1,7 +1,7 @@
 ---
 title: "Task Management Feature Matrix"
 created: 2026-08-27
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, task-management, task-tracking]
 readability: 3
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell below traces to a source
 | PRD ingestion | ✓ the pipeline is the PRD (`create-prd.md`, then `generate-tasks.md`) | ✗ manual task creation | ✗ manual task creation | ✗ none documented, docs and notes are human-authored | ✗ none documented | ~ opt-in PRD artifact inside the planner conversation | ✓ `parse-prd` pipeline |
 | Agent integrations | any assistant that reads a file (Cursor, Claude Code, Windsurf, Amp documented) | Claude Code, Codex, Gemini CLI, Kiro, Cursor, MCP | `bd init` for Codex, Claude, Factory, Cursor, plus AGENTS.md and MCP | internal agents on any keyed model (Mastra runtime), external agents via @itsaplan/runner (Claude Code, Codex, OpenCode, Antigravity, Copilot, custom), plus MCP and REST | operon-cli (typed requests, JSONL sessions), in-process Developer API, direct Markdown edits supported | runners Claude Code, Codex, OpenCode built in, plugins beyond; planner can be a coding agent or one of 25 API providers | MCP server and CLI, documented for Cursor, Claude Code, Windsurf, VS Code, Q CLI |
 | Pricing | free | free | free | free self-hosted, no per-seat fees; commercial license unlisted | free, GPL-3.0 | free | CLI free, Hamster $40 per creator per month |
-| Current status | dormant, last push 2025-11-05, about 7.8k stars | active, about 7.0k stars | active, about 27.7k stars, 1,389 open issues, v1.3.2-rc.1 prerelease 2026-10-05 after v1.3.1 stable 2026-09-30 | active, 905 stars, v1.3.0 (2026-10-04) | active, 250 stars, 3.12.0 (2026-10-06) | active, 187 stars, v0.7.2 (2026-10-07) | repo quiet since April 2026, product alive at Hamster |
+| Current status | dormant, last push 2025-11-05, about 7.8k stars | active, about 7.0k stars | active, about 27.7k stars, 1,389 open issues, v1.3.2-rc.1 prerelease 2026-10-05 after v1.3.1 stable 2026-09-30 | active, 913 stars, v1.4.0 (2026-10-08) | active, 250 stars, 3.12.0 (2026-10-06) | active, 187 stars, v0.7.2 (2026-10-07) | repo quiet since April 2026, product alive at Hamster |
 
 ## Reading the matrix
 
@@ -41,7 +41,7 @@ Task Master's file storage sits between the two but its concurrency story is unv
 Its 187 stars and v0.7.x release line make it the least proven column, and its note records the launch thread's AI-written-replies episode as a transparency caution.
 
 **It's a Plan is the platform column: a full team tracker where agents hold assignee slots, and the only member whose storage lives on a server outside your files.**
-Its 905 stars thirteen weeks in keep it the fastest-climbing young entrant here, and its note records the near-zero HN footprint as the open question.
+Its 913 stars in under thirteen weeks keep it the fastest-climbing young entrant here, and its note records the near-zero HN footprint as the open question.
 
 **Operon is the knowledge-vault column: tasks live in the notes the human already keeps, and its sealed preview-and-apply runtime with receipts is the strongest agent-write contract in this category, though the runtime needs a running Obsidian and nothing works headless.**
 Its 250 stars and 3.x release train make it young but steady, and its note records the zero-HN footprint as the open question.
@@ -78,6 +78,7 @@ It is the reminder that the stateful rows above are the whole product: a generat
 - 2026-10-06 - Refreshed the beads status cell (1,373 open issues, v1.3.2-rc.1 prerelease of 2026-10-05) and the Ordewell status cell (184 stars), plus the matching prose figure; all other cells re-verified unchanged.
 - 2026-10-07 - Extended from four to five columns with It's a Plan (inserted alphabetically), every row gaining a cell traced to the new note; refreshed the beads status cell (1,388 open issues) and the Ordewell status cell (187 stars, v0.7.1 of 2026-10-06), plus the matching prose figure.
 - 2026-10-08 - Extended from five to seven columns with AI Dev Tasks (the dormant prompt-file ancestor of the PRD pipeline) and Operon (the knowledge-vault entrant with the sealed-plan write path), inserted alphabetically, every row gaining cells traced to the new notes; refreshed the status cells (Backlog.md pushed 2026-10-07, beads 1,389 open issues, It's a Plan 905 stars, Ordewell v0.7.2 of 2026-10-07) and the reading and choosing prose.
+- 2026-10-09 - Refreshed the It's a Plan status cell (913 stars, v1.4.0 of 2026-10-08, which added state-change agent schedules and Linear import) and the matching prose figure; all other cells re-verified unchanged against their notes and live sources.
 
 ## See also
 

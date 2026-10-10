@@ -47,7 +47,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Hive](hive/index.md) - Aden's Apache-2.0 Python colony runtime where a Queen agent spawns worker clones of itself around a shared ledger, built for business-process automation, 11.1k stars with a release train quiet since May.
 - [JetBrains Air](jetbrains-air/index.md) - the standalone agentic environment running Codex, Claude Agent, Gemini CLI, and Junie in parallel, isolated per task and bundled with the AI subscription.
 - [Lanes](lanes/index.md) - the macOS board workspace running parallel PTY agent sessions on worktrees, with a self-hostable MCP access layer.
-- [LangGraph](langgraph/index.md) - LangChain's MIT graph runtime for stateful agents, 4.55M npm downloads a week, durable execution and interrupts with LangSmith as the separate commercial layer.
+- [LangGraph](langgraph/index.md) - LangChain's MIT graph runtime for stateful agents, 3.7M npm downloads a week, durable execution and interrupts with LangSmith as the separate commercial layer.
 - [LobeHub](lobehub/index.md) - LobeChat's pivot into a Chief Agent Operator that hires, schedules, and reports on agents around the clock.
 - [LoopTroop](looptroop/index.md) - the MIT local GUI orchestrator using multi-model council planning, atomic beads, and fresh-context Ralph loops over OpenCode.
 - [Mastra](mastra/index.md) - the TypeScript agent framework from the Gatsby team, 7.3M npm downloads a month and $35M raised, scarred by a June 2026 npm supply-chain attack.

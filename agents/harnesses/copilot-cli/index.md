@@ -1,7 +1,7 @@
 ---
 title: Copilot CLI
 created: 2026-10-05
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, github, microsoft, terminal]
 readability: 3
@@ -29,8 +29,8 @@ Distribution is npm (`@github/copilot`), a Homebrew cask, WinGet, an install scr
 
 **Active and enormous in distribution.**
 Public preview launched September 25, 2025, and general availability followed on February 25, 2026.
-The npm package's latest build is 1.0.93 (published October 7, 2026), and it did 7,045,866 downloads in the last month (the API window covering September 5 to October 4, as of 2026-10-08), among the largest npm install bases of any harness in this section.
-The `github/copilot-cli` repository shows 11,243 stars as of 2026-10-08 (GitHub API), and it is a distribution and issues repository, with no open-source license.
+The npm package's latest build is 1.0.94 (published October 8, 2026, with a 1.0.95 prerelease train publishing behind it), and it did 6,784,821 downloads in the last month (the API window covering September 8 to October 7, as of 2026-10-09), among the largest npm install bases of any harness in this section.
+The `github/copilot-cli` repository shows 11,249 stars as of 2026-10-09 (GitHub API), and it is a distribution and issues repository, with no open-source license.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/copilot-cli&type=date&theme=dark&legend=top-left" />
@@ -83,6 +83,7 @@ Not for teams with open-client mandates, and not for untrusted repositories unti
 - 2026-10-05 - Created from the same-day entrant scan, with the docs, plans page, npm registry, repository, and Hacker News record fetched.
 - 2026-10-07 - Added the github/copilot-cli star history chart to the Status section.
 - 2026-10-08 - Recorded the npm build moving to 1.0.93 (published October 7) and refreshed repository counters.
+- 2026-10-09 - Recorded the npm build train reaching 1.0.94 (October 8, with a 1.0.95 prerelease train publishing behind it) and refreshed download and repository counters.
 
 ## See also
 
@@ -97,9 +98,9 @@ Not for teams with open-client mandates, and not for untrusted repositories unti
 - https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli - modes, sandboxing, MCP, hooks, skills, memory, BYOK providers, and security guidance (fetched 2026-10-05)
 - https://docs.github.com/en/copilot/how-tos/set-up/install-copilot-cli - install paths, subscription prerequisite, and token authentication (fetched 2026-10-05)
 - https://github.com/features/copilot/plans - plan prices, AI Credits structure, model roster, and third-party delegation gating, as of 2026-10-05
-- https://github.com/github/copilot-cli - distribution repository, 11,240 stars, no open-source license, as of 2026-10-07 (verified via the GitHub API)
-- https://registry.npmjs.org/@github%2Fcopilot - latest build 1.0.92 published 2026-10-05, package created 2025-09-25 (verified via the registry API)
-- https://api.npmjs.org/downloads/point/last-month/@github/copilot - 7,045,866 downloads, window September 5 to October 4, as of 2026-10-06
+- https://github.com/github/copilot-cli - distribution repository, 11,249 stars, no open-source license, as of 2026-10-09 (verified via the GitHub API)
+- https://registry.npmjs.org/@github%2Fcopilot - latest build 1.0.94 published 2026-10-08, package created 2025-09-25 (verified via the registry API)
+- https://api.npmjs.org/downloads/point/last-month/@github/copilot - 6,784,821 downloads, window September 8 to October 7, as of 2026-10-09
 - https://hn.algolia.com/api/v1/items/47183940 - the February 27, 2026 malware-execution thread, 62 points (verified via the Algolia API)
 - https://hn.algolia.com/api/v1/items/45810658 - the November 2025 Docker-sandboxing guide thread, 59 points
 - https://hn.algolia.com/api/v1/items/45377734 - the September 25, 2025 public-preview launch thread, 24 points

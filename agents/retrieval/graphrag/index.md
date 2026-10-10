@@ -1,7 +1,7 @@
 ---
 title: GraphRAG
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, knowledge-graph, microsoft]
 readability: 3
@@ -25,7 +25,7 @@ Made by Microsoft Research, first released July 2024, optional Azure OpenAI or l
 ## Status
 
 **Active by the commit clock, retired by its own README.**
-36,241 stars and 3,834 forks since 2024-03-27, pushed 2026-10-05, 49 open issues (GitHub API, as of 2026-10-07).
+36,271 stars and 3,838 forks since 2024-03-27, pushed 2026-10-08, 52 open issues (GitHub API, as of 2026-10-09).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/graphrag&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Made by Microsoft Research, first released July 2024, optional Azure OpenAI or l
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/graphrag&type=date&legend=top-left" />
 </picture>
 
-PyPI shows version 3.2.0 released 2026-09-23 across 50 releases, so bugfix and dependency trains still run.
+PyPI shows version 3.3.0 released 2026-10-08 across 51 releases (a SQLite performance fix), so the bugfix train still runs under the maintenance declaration.
 The README's warning is the status fact that matters: the project is largely in maintenance mode, it will not accept new PRs or implement new features, and it names the dramatic change in frontier-model capabilities and a diversified research portfolio as the cause.
 The launch thread drew 282 points in July 2024, the largest graph-RAG footprint on Hacker News.
 
@@ -70,6 +70,7 @@ My disagreeable claim: the maintenance-mode declaration is graph RAG's candid st
 ## Changes
 
 - 2026-10-07 - Created in the daily refresh's retrieval entrant scan from the awesome-rag-production source.
+- 2026-10-09 - Recorded PyPI 3.3.0 (2026-10-08, a SQLite performance fix, 51 releases) and refreshed the repository numbers (36,271 stars, pushed 2026-10-08); the README's maintenance-mode declaration is unchanged.
 
 ## See also
 
@@ -80,10 +81,11 @@ My disagreeable claim: the maintenance-mode declaration is graph RAG's candid st
 
 ## References
 
-- https://api.github.com/repos/microsoft/graphrag - 36,241 stars, 3,834 forks, MIT, created 2024-03-27, pushed 2026-10-05, 49 open issues (GitHub API, as of 2026-10-07)
+- https://api.github.com/repos/microsoft/graphrag - 36,271 stars, 3,838 forks, MIT, created 2024-03-27, pushed 2026-10-08, 52 open issues (GitHub API, as of 2026-10-09)
+- https://api.github.com/repos/microsoft/graphrag/releases/latest - v3.3.0 published 2026-10-08, the SQLite performance-fix release
 - https://raw.githubusercontent.com/microsoft/graphrag/main/README.md - the maintenance-mode warning, the expensive-indexing warning, the init-between-versions rule
 - https://arxiv.org/abs/2404.16130 - the method paper: From Local to Global, graph RAG as query-focused summarization
 - https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/ - the Microsoft Research announcement grounding community summaries and the local/global query split
 - https://microsoft.github.io/graphrag/ - official docs root: local and global search, CLI quickstart
-- https://pypi.org/pypi/graphrag/json - version 3.2.0 (2026-09-23), 50 releases, MIT
+- https://pypi.org/pypi/graphrag/json - version 3.3.0 (2026-10-08), 51 releases, MIT
 - https://hn.algolia.com/api/v1/search?query=GraphRAG%20is%20now%20on%20GitHub&tags=story - the July 2024 launch thread, 282 points, 49 comments

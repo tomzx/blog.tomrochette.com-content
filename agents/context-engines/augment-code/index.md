@@ -1,7 +1,7 @@
 ---
 title: Augment Code
 created: 2026-08-24
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-engines, coding-agents, enterprise-tools]
 readability: 3
@@ -26,10 +26,10 @@ Everything is closed-source SaaS with SOC 2 Type II, ISO 42001, zero data retent
 
 ## Status
 
-**Active and shipping fast on the product side, with a trust deficit from the 2025 pricing reset and a blog that has gone quiet.**
-Blog cadence ran multiple posts per month through September 11, 2026 (Cosmos launch, GPT-5.6 Sol as default in July, the Auggie harness rebuild, further PR-to-merge loop optimization, and a Software Factory buildout post), with no new posts between September 11 and October 8 (blog index re-fetched 2026-10-08).
+**Absorbed into Harness: on October 8, 2026 the company announced the sale of Cosmos, Auggie CLI, the Code Context Engine, and related technology to Harness, with the team moving over to continue them there.**
+Blog cadence ran multiple posts per month through September 11, 2026 (Cosmos launch, GPT-5.6 Sol as default in July, the Auggie harness rebuild, further PR-to-merge loop optimization, and a Software Factory buildout post), then went quiet until the October 8 acquisition announcement.
 The October 20, 2025 pricing change triggered a community revolt; the company's own Reddit response admitted 22.5% of users were consuming 20x what they paid, and the HN thread documents broken grandfathering promises.
-There is no free tier as of 2026-10-08.
+The pricing page was still selling the current plans, with no free tier, as of 2026-10-09.
 I could not verify funding history from primary sources in this run (the company pages do not state it and Wikipedia has no article), which is itself a signal: the public record for this company is mostly its own marketing.
 
 ## Strengths
@@ -49,7 +49,7 @@ I could not verify funding history from primary sources in this run (the company
 ## Pricing
 
 **The flat plans are an entry point, not a ceiling: at their own published usage rates, a 50-seat team's real bill is dominated by tokens and the 40% service fee on them.**
-Standard is $20/month flat for up to 50 seats including $20/month of usage, and Business is $100/month flat with $100/month of usage (LLM at provider list price, 40% service fee on LLM usage, plus compute), with pooled top-ups valid 12 months (plan structure as of 2026-10-08).
+Standard is $20/month flat for up to 50 seats including $20/month of usage, and Business is $100/month flat with $100/month of usage (LLM at provider list price, 40% service fee on LLM usage, plus compute), with pooled top-ups valid 12 months (plan structure re-verified unchanged 2026-10-09).
 Enterprise is custom (unlimited users, data residency, CMEK, SIEM, dedicated support).
 No free tier; trials get community support only.
 
@@ -80,6 +80,7 @@ My disagreeable claim: if the Context Engine numbers are even half right, harnes
 - 2026-09-20 - Extended the blog-cadence claim to September 11, 2026 (the Software Factory buildout post) and re-dated the no-free-tier claim.
 - 2026-10-06 - Named the Intent product in What it is (coordinated agents, isolated workspaces, living specs).
 - 2026-10-07 - Recorded the blog going quiet (no new posts between September 11 and October 7, 2026) and re-verified the plan structure and the no-free-tier claim against the live pricing page.
+- 2026-10-09 - Recorded the October 8, 2026 sale of Cosmos, Auggie CLI, and the Context Engine to Harness (the "Augment Code's next chapter" announcement), replacing the blog-quiet status framing; the pricing page re-verified unchanged with no free tier.
 
 ## See also
 
@@ -98,4 +99,5 @@ My disagreeable claim: if the Context Engine numbers are even half right, harnes
 - https://docs.augmentcode.com/introduction - current product surfaces (Cosmos, Auggie CLI, IDE extensions)
 - https://www.augmentcode.com/product/intent - the Intent product page: tasks isolated in workspaces, Coordinator-written living specs, swappable CLI agents
 - https://www.augmentcode.com/blog - blog index, grounds the posting-cadence claim
+- https://www.augmentcode.com/blog/augment-code-next-chapter - the October 8, 2026 acquisition announcement: Cosmos, Auggie CLI, and the Context Engine joining Harness with the team
 - https://news.ycombinator.com/item?id=45586110 - October 2025 pricing backlash thread with the 22.5%/20x admission

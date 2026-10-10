@@ -23,7 +23,7 @@ The cloud is SOC 2 Type II compliant with US, EU, and APAC regions; enterprise t
 
 ## Status
 
-Active and well funded: the SDK repo stands at 14,209 stars and the runtime repo at 1,682 stars as of 2026-10-07, the SDK repo created 2023-03-04 and pushed 2026-10-06, with the e2b package on PyPI at 2.53.1 (as of 2026-10-07).
+Active and well funded: the SDK repo stands at 14,248 stars and the runtime repo at 1,689 stars as of 2026-10-09, the SDK repo created 2023-03-04 and pushed 2026-10-09, with the e2b package on PyPI at 2.53.1 (as of 2026-10-09).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=e2b-dev/E2B&type=date&theme=dark&legend=top-left" />

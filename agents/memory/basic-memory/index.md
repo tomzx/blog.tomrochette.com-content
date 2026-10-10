@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -26,7 +26,7 @@ The cloud adds cross-device sync, browser and mobile access, and a shared Teams 
 ## Status
 
 **Active and mid-scale, with a thin public-discussion footprint.**
-4,115 stars with the repository pushed 2026-10-07, created 2024-12-02, as of 2026-10-08 (GitHub API).
+4,124 stars with the repository pushed 2026-10-09, created 2024-12-02, as of 2026-10-09 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&theme=dark&legend=top-left" />
@@ -93,7 +93,7 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 
 ## References
 
-- https://github.com/basicmachines-co/basic-memory - repository, 4,115 stars, activity, AGPL-3.0, as of 2026-10-08
+- https://github.com/basicmachines-co/basic-memory - repository, 4,124 stars, activity, AGPL-3.0, as of 2026-10-09
 - https://raw.githubusercontent.com/basicmachines-co/basic-memory/main/README.md - architecture, features, the cloud pricing banner, and the Teams announcement
 - https://basicmemory.com - product site and cloud offering
 - https://basicmemory.com/pricing - the Team, Business, and Agent Infrastructure ladder, as of 2026-10-07

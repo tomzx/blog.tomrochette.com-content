@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-10-07
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -34,7 +34,7 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
 </picture>
 
-3,676 stars since 2026-04-30, latest release v1.2.22 on 2026-10-05 (following v1.2.21 the same day, and v1.2.20 on 2026-09-30), pushed 2026-10-05 (GitHub API, as of 2026-10-07).
+3,683 stars since 2026-04-30, latest release v1.2.23 on 2026-10-08 (following v1.2.21 and v1.2.22 on 2026-10-05, and v1.2.20 on 2026-09-30), pushed 2026-10-08 (GitHub API, as of 2026-10-09).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
 
@@ -87,6 +87,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 - 2026-10-02 - Recorded release v1.2.20 (2026-09-30, following v1.2.18 and v1.2.19 on 2026-09-29) and refreshed the volatile numbers (3,606 stars, pushed 2026-09-30); per-page pricing and the 14-day free trial unchanged.
 - 2026-10-05 - Recorded releases v1.2.21 and v1.2.22 (both 2026-10-05) and refreshed the volatile numbers (3,661 stars, pushed 2026-10-05); per-page pricing re-verified unchanged.
 - 2026-10-07 - Added the Ontos-AI/knowhere star history chart to the Status section.
+- 2026-10-09 - Recorded release v1.2.23 (2026-10-08) and refreshed the volatile numbers (3,683 stars, pushed 2026-10-08); per-page pricing re-verified unchanged.
 
 ## See also
 
@@ -97,8 +98,8 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,676 stars and activity as of 2026-10-07
-- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.22 on 2026-10-05
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,683 stars and activity as of 2026-10-09
+- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.23 on 2026-10-08
 - https://knowhereto.ai - hosted product surface, $5 free credit, and the self-reported comparison table
 - https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface
 - https://docs.knowhereto.ai/pricing - per-page pricing, billable-page counting, refund policy, rate-limit tiers

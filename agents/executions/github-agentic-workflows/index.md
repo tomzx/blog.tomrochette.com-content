@@ -1,7 +1,7 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
@@ -23,10 +23,10 @@ It is built by GitHub Next with Microsoft Research, MIT-licensed, in public prev
 ## Status
 
 **Active preview with real traction.**
-About 5.4k stars, 578 forks, and roughly 18,000 commits in `github/gh-aw` as of 2026-10-08.
+About 5.4k stars, 581 forks, and roughly 18,000 commits in `github/gh-aw` as of 2026-10-09.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
 The trust story has kept moving: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, a critical security advisory published August 27 forced the pre-emptive retirement of releases 0.83.3 through 0.85.3 (patched in 0.85.4), a notice that still sits in the README while the billing one was cleared, and a high-severity advisory published September 23 added an HTTPS egress allowlist bypass via TLS SNI domain fronting, affecting releases through 0.89.17 and patched in 0.89.17.
-The release line keeps churning (latest v0.91.5 on 2026-10-07 as a prerelease, with v0.89.21 still the newest stable-marked release since 2026-09-23), which shows how quickly this preview will break its users.
+The release line keeps churning (latest v0.91.6 on 2026-10-08 as a prerelease, with v0.89.21 still the newest stable-marked release since 2026-09-23), which shows how quickly this preview will break its users.
 
 ## Strengths
 
@@ -78,6 +78,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - 2026-10-06 - Release train refreshed again to v0.91.1 (2026-10-06, a prerelease), and the daily cost cap (`max-daily-ai-credits`, 5,000 AIC default) added to the cost-controls strength; the claude-code-action star count moved to about 9.4k as a routine refresh.
 - 2026-10-07 - Recorded the high-severity advisory published September 23 (GHSA-x78f-wrrj-4h24, an HTTPS egress allowlist bypass via TLS SNI domain fronting, patched in 0.89.17) as the newest entry in the advisory record, refreshed the release train to v0.91.4 (2026-10-06, a prerelease) with v0.89.21 still the newest stable-marked release, updated the imported-sample engine list to eight after DeepSeek Harness, Goose, and Pydantic AI joined, and refreshed growth to about 5.4k stars and 576 forks.
 - 2026-10-08 - Refreshed the release train to v0.91.5 (2026-10-07, a prerelease) with v0.89.21 still the newest stable-marked release, re-confirmed the security-advisory notice still live in the README and no new advisory published, and refreshed forks to 578.
+- 2026-10-09 - Refreshed the release train to v0.91.6 (2026-10-08, a prerelease) with v0.89.21 still the newest stable-marked release, re-confirmed the security-advisory notice still live in the README, and refreshed forks to 581.
 
 ## See also
 
@@ -89,7 +90,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 
 - https://docs.github.com/en/copilot/concepts/agents/about-github-agentic-workflows - product definition, security model, AIC billing
 - https://github.github.com/gh-aw/ - full reference: engines, guardrails, cost management
-- https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-10-08
+- https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-10-09
 - https://github.com/github/gh-aw/security/advisories/GHSA-8h78-hpm7-29gg - the critical advisory (safe-output artifacts may expose CI trigger tokens) behind the 0.83.3-0.85.3 retirement, patched in 0.85.4
 - https://github.com/github/gh-aw/security/advisories/GHSA-x78f-wrrj-4h24 - the high-severity September 23 advisory (HTTPS egress allowlist bypass via TLS SNI domain fronting), patched in 0.89.17
 - https://news.ycombinator.com/item?id=46934107 - February 2026 launch discussion (302 points) including dogfooding criticism

@@ -1,7 +1,7 @@
 ---
 title: LongMemory
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, temporal, sqlite, self-hosted, mcp]
 readability: 3
@@ -26,7 +26,7 @@ Surfaces include the npm library, a CLI, an HTTP API on port 7331, an MCP server
 ## Status
 
 **Young but shipping, with a strong independent launch record for its size.**
-4,523 stars with the repository pushed 2026-09-20, created 2025-10-19, as of 2026-10-08 (GitHub API).
+4,524 stars with the repository pushed 2026-09-20, created 2025-10-19, as of 2026-10-09 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=CaviraOSS/LongMemory&type=date&theme=dark&legend=top-left" />
@@ -36,7 +36,7 @@ Surfaces include the npm library, a CLI, an HTTP API on port 7331, an MCP server
 
 The Show HN thread (December 2025, as OpenMemory) drew 48 points and 16 comments, and the README lists 36 contributors.
 Its benchmark harness publishes manifests and fails closed on incomplete datasets or embedding fallback, covering LongMemEval, LoCoMo, and BEAM, though the published results are still the project's own runs.
-Two verification gaps from this run: the PyPI distribution the README instructs you to install (`longmemory-sdk`) returned 404 at fetch time on 2026-10-08, and the repository has not pushed since September 20.
+Two verification gaps carried into this run: the PyPI distribution the README instructs you to install (`longmemory-sdk`) returned 404 again on 2026-10-09 (as on 2026-10-08), and the repository has not pushed since September 20.
 
 ## Strengths
 
@@ -80,9 +80,9 @@ Not for anyone needing a hosted tier, a proven-at-scale engine, or a Python SDK 
 
 ## References
 
-- https://github.com/CaviraOSS/LongMemory - repository, 4,523 stars, activity, Apache-2.0, the OpenMemory rename, as of 2026-10-08
+- https://github.com/CaviraOSS/LongMemory - repository, 4,524 stars, activity, Apache-2.0, the OpenMemory rename, as of 2026-10-09
 - https://raw.githubusercontent.com/CaviraOSS/LongMemory/main/README.md - the Hydrograph memory model, recall modes, governance scopes, surfaces, and migration paths
 - https://raw.githubusercontent.com/CaviraOSS/LongMemory/main/LICENSE - the Apache-2.0 license text
 - https://registry.npmjs.org/longmemory - the official npm distribution at 1.3.3
-- https://pypi.org/simple/longmemory-sdk/ - the PyPI distribution returning 404 at fetch time (2026-10-08), the verification gap
+- https://pypi.org/simple/longmemory-sdk/ - the PyPI distribution returning 404 at fetch time (2026-10-08 and again 2026-10-09), the verification gap
 - https://news.ycombinator.com/item?id=46262294 - the Show HN thread (48 points, 16 comments, 2025-12-14), the launch record

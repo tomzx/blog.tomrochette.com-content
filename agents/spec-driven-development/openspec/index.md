@@ -1,7 +1,7 @@
 ---
 title: OpenSpec
 created: 2026-08-27
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, specs, open-source]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 OpenSpec is Fission AI's MIT-licensed spec-driven development toolkit for AI coding assistants: a lightweight CLI and slash-command workflow where every change is a delta proposal (proposal, specs, design, tasks) that implements, then archives into a living spec ledger under `openspec/`.
 
-**OpenSpec is the brownfield answer the spec movement was missing: instead of scaffolding a ceremony, it versions the spec itself as change proposals that accumulate, and about 71k stars plus 2.5 million npm downloads a month say the delta model is what iterative teams actually wanted.**
+**OpenSpec is the brownfield answer the spec movement was missing: instead of scaffolding a ceremony, it versions the spec itself as change proposals that accumulate, and about 71k stars plus 2.7 million npm downloads a month say the delta model is what iterative teams actually wanted.**
 
 ## What it is
 
@@ -30,7 +30,7 @@ Half of spec-kit's stars in a third of the time.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&legend=top-left" />
 </picture>
 
-As of 2026-10-08: about 71k stars and about 4.9k forks since creation on 2025-08-05, 182 open issues and pull requests, MIT, release v1.14.1 (2026-10-06) the newest, and 2,453,826 npm downloads last month (the 2026-09-05 to 2026-10-04 window).
+As of 2026-10-09: about 71k stars and about 4.9k forks since creation on 2025-08-05, 184 open issues and pull requests, MIT, release v1.14.1 (2026-10-06) the newest, and 2,688,375 npm downloads last month (the 2026-09-08 to 2026-10-07 window).
 **Its Hacker News footprint is effectively empty (no significant thread found this run), so adoption spread through X and Discord, and third-party verification is thinner than the install count implies.**
 The README's own superlative ("the most loved spec framework") is vendor framing, not a measured claim.
 
@@ -71,6 +71,7 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-07 - Added the Fission-AI/OpenSpec star history chart to the Status section.
 - 2026-10-08 - Recorded the release train's current head (v1.14.1, 2026-10-06) and refreshed counts.
+- 2026-10-09 - Refreshed counts (npm downloads 2,688,375 last month).
 
 ## See also
 
@@ -82,7 +83,7 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 ## References
 
 - https://github.com/Fission-AI/OpenSpec - README: philosophy, opsx workflow, artifact layout
-- https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues, releases through v1.14.1, as of 2026-10-08
+- https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues, releases through v1.14.1, as of 2026-10-09
 - https://openspec.dev/ - official documentation site
-- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 2,453,826 downloads last month
+- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 2,688,375 downloads last month, fetched 2026-10-09
 - https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md - the rebuilt artifact workflow

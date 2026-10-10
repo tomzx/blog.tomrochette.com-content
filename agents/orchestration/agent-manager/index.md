@@ -1,7 +1,7 @@
 ---
 title: Agent Manager
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, tmux, tui, multi-cli, worktrees]
 readability: 3
@@ -23,7 +23,7 @@ It is distributed as brew, an install script, an AUR package, mise, go install, 
 
 ## Status
 
-Active and young: 573 stars and 58 forks as of 2026-10-07, created 2026-07-15, with 29 contributors.
+Active and young: 578 stars and 58 forks as of 2026-10-09, created 2026-07-15, with 29 contributors.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=YoanWai/agent-manager&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Active and young: 573 stars and 58 forks as of 2026-10-07, created 2026-07-15, w
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=YoanWai/agent-manager&type=date&legend=top-left" />
 </picture>
 
-Releases run roughly weekly: v0.40.0 shipped 2026-10-06, ten days after v0.39.0 capped a September with five releases.
+Releases run roughly weekly: v0.41.0 shipped 2026-10-09, three days after v0.40.0 (2026-10-06), which itself capped a September with five releases.
 The Show HN thread from 2026-07-30 reached 98 points and about 80 comments, dominated by the genre question: one commenter argued submissions like it should be filtered automatically "since there are dozen of these and they are barely distinguishable except for couple of opinioned choices".
 
 ## Strengths
@@ -68,6 +68,7 @@ Not for teams that need cost tracking, per-task worktree defaults, or a GUI.
 
 - 2026-10-06 - Created.
 - 2026-10-07 - Added the YoanWai/agent-manager star history chart to the Status section.
+- 2026-10-09 - Recorded v0.41.0 (October 9) as the latest release and refreshed the star count to 578 as of 2026-10-09.
 
 ## See also
 

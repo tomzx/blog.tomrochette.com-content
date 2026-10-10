@@ -1,7 +1,7 @@
 ---
 title: Agno
 created: 2026-09-29
-updated: 2026-10-07
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -22,7 +22,8 @@ The repo sits at 42,559 stars with 6,100 forks, Apache-2.0, Python 3.9+ (GitHub 
 
 ## Status
 
-Active: last push 2026-10-05, latest release v3.1.1 on 2026-10-02, `agno` 3.1.1 on PyPI (GitHub API, PyPI, as of 2026-10-05).
+Active: last push 2026-10-09, latest release v3.1.2 on 2026-10-08, `agno` 3.1.2 on PyPI (GitHub API, PyPI, as of 2026-10-09).
+v3.1.2 added conversation compaction (`Agent(compaction=True)` folds older turns into a summary backed by a `CompactionRecord` table, so removing the record restores the full conversation), a Codex external-agent adapter beside the Claude Agent SDK, LangGraph, DSPy, and Antigravity adapters, a HyDE query transformer for knowledge retrieval, and a shared browser-origin policy for AgentOS.
 v3.1.0 added role-based access control to AgentOS (a role store, scope policies, and an audit log) and a database-backed AgentOS filesystem, with a breaking re-key of the filesystem table that requires a manual upgrade script.
 v3.1.1 followed a day later with live progress and cancellation for knowledge page sync (typed `PageSyncProgress` snapshots and a terminal `SyncReport`).
 The GA announcement claimed 1M+ new agents created weekly and 22k stars at the time (company claim).
@@ -80,6 +81,7 @@ Not for teams allergic to benchmark-driven marketing, or anyone needing a vendor
 - 2026-10-02 - Recorded v3.1.0 (October 1, RBAC authorization and an AgentOS filesystem, with a breaking filesystem-table re-key) as the new latest release and refreshed star, fork, and push counts.
 - 2026-10-03 - Recorded v3.1.1 (October 2, live progress and cancellation for knowledge page sync) as the new latest release on GitHub and PyPI, and refreshed star, fork, and push counts.
 - 2026-10-07 - Added the agno-agi/agno star history chart to the Status section.
+- 2026-10-09 - Recorded v3.1.2 (October 8, conversation compaction, a Codex external-agent adapter, a HyDE query transformer, and a shared browser-origin policy) as the new latest release on GitHub and PyPI.
 
 ## See also
 

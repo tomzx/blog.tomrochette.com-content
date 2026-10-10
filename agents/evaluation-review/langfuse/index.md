@@ -1,7 +1,7 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
 readability: 3
@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,513 stars, 3,949 forks, created 2023-05-18, pushed 2026-10-08, v4.54.0 released 2026-10-07 as of 2026-10-08.
+Mature and busy: 35,559 stars, 3,953 forks, created 2023-05-18, pushed 2026-10-09, v4.55.0 released 2026-10-08 as of 2026-10-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 - 2026-10-07 - Added the langfuse/langfuse star history chart to the Status section.
 - 2026-10-07 - Recorded the v4.52.0 and v4.53.0 releases (both 2026-10-06) and refreshed repository counts.
 - 2026-10-08 - Recorded the v4.54.0 release (2026-10-07) and refreshed repository counts.
+- 2026-10-09 - Recorded the v4.55.0 release (2026-10-08) and refreshed repository counts.
 
 ## See also
 
@@ -91,7 +92,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 
 ## References
 
-- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-10-07
+- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-10-09
 - https://raw.githubusercontent.com/langfuse/langfuse/main/LICENSE - MIT core, the `ee/` carve-out, and the ClickHouse, Inc. copyright
 - https://raw.githubusercontent.com/langfuse/langfuse/main/README.md - feature set, self-hosting, integrations, and the January 2026 ClickHouse note
 - https://langfuse.com/docs - platform overview, OTel basis, evaluation methods, agent skill, CLI, and MCP server

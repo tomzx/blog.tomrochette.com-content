@@ -1,7 +1,7 @@
 ---
 title: aigate
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -32,7 +32,7 @@ Tiny and quiet, and the numbers are the story: 14 stars, 1 fork, 0 issues as of 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AxeForging/aigate&type=date&legend=top-left" />
 </picture>
 
-v1.0.0 released 2026-07-19 with a few commits since, and no push since 2026-08-04, sixty-four days of quiet as of this refresh.
+v1.0.0 released 2026-07-19 with a few commits since, and no push since 2026-08-04, sixty-six days of quiet as of 2026-10-09.
 **A missing community footprint is itself a signal worth stating: no audits, no advisories, no external users visible, and no SECURITY.md.**
 
 ## Strengths
@@ -70,6 +70,7 @@ Not for anyone needing a security boundary they did not audit themselves; use [O
 - 2026-09-10 - Sandboxing reference canonicalized to learn.chatgpt.com/docs/sandboxing.
 - 2026-10-02 - Added the dormancy evidence: no push since 2026-08-04, fifty-nine days of quiet as of this refresh; counts unchanged (14 stars, 0 issues).
 - 2026-10-07 - Added the AxeForging/aigate star history chart to the Status section.
+- 2026-10-09 - Quiet window extended to sixty-six days (last push still 2026-08-04); stars, forks, and issues unchanged.
 
 ## See also
 

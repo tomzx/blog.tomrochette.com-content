@@ -10,7 +10,7 @@ readability: 3
 
 The tools that decide what enters the context window: semantic engines, code graphs, repo packers, output filters, and local search indexes.
 
-- [Augment Code](augment-code/index.md) - the coding platform whose core is a real-time semantic Context Engine feeding Auggie and Cosmos.
+- [Augment Code](augment-code/index.md) - the coding platform whose core is a real-time semantic Context Engine feeding Auggie and Cosmos, sold to Harness on 2026-10-08.
 - [CodeAlive](codealive/index.md) - the hosted context-engine API serving a code graph and hybrid retrieval to any MCP agent on metered per-action pricing, from a small London company with no independent coverage yet.
 - [Context7](context7/index.md) - Upstash's hosted docs-injection service pulling version-specific library documentation into the prompt at question time over MCP or a CLI skill, the category's only engine that indexes the world's libraries instead of your repo.
 - [Graft](graft/index.md) - Trail's MIT context layer feeding agents a code graph instead of grep, 9.8k stars in fourteen weeks with every benchmark still the vendor's own.

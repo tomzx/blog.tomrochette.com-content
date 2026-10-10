@@ -1,7 +1,7 @@
 ---
 title: Ouroboros
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, verification, self-improving-agents, open-source]
 readability: 3
@@ -19,6 +19,7 @@ Ouroboros is an MIT-licensed Python "Agent OS" that turns a vague brief into ver
 A local-first workflow layer around existing coding agents: Interview produces a Seed (an immutable spec with an ambiguity gate at 0.2 or lower before any code is written), Execute decomposes work through a Double Diamond process, Evaluate runs the gate, and Evolve refines specs and accumulates reusable assets across generations within a budgeted loop (30-generation cap, stagnation detection, a three-tier cost router).
 The verification gate runs outside the worker: mechanical checks first (lint, build, tests, coverage at a 70 percent default, no LLM), then a semantic LLM judge against acceptance criteria at a 0.8 threshold, then multi-model consensus voting triggered only by six conditions such as seed modification or drift above 0.3.
 It drives 14 runtimes including Claude Code, Codex CLI, Copilot CLI, OpenCode, Gemini, Goose, Kiro, Pi, OMP, and Antigravity, installs as `ouroboros-ai` on PyPI or a Claude Code plugin, and ships an MCP server.
+The README now frames a three-repo Agent OS stack around this core: Ouro-labs/ourocode (a terminal shell, 22 stars) and Ouro-labs/ouroboros-plugins (a plugin contract, MIT, 16 stars), per the PyPI page and the GitHub API as of 2026-10-09.
 MIT, by Ouro Labs (Q00), solo-maintained with around 80 contributors.
 
 ## Status
@@ -76,6 +77,7 @@ Not for quick edits, for teams needing proven evaluation rigor, or for anyone wh
 - 2026-10-03 - Recorded the v0.55.4 release (2026-10-02) and refreshed counts (6,174 stars, 622 forks, 88 open issues).
 - 2026-10-07 - Added the Q00/ouroboros star history chart to the Status section.
 - 2026-10-07 - Recorded the v0.55.5 and v0.55.6 releases (both 2026-10-06) and refreshed counts; noted the same-named arXiv project that muddies coverage searches.
+- 2026-10-09 - Recorded the three-repo Agent OS stack framing (Ouro-labs/ourocode shell and Ouro-labs/ouroboros-plugins around the Q00/ouroboros kernel); re-verified status otherwise unchanged, with v0.55.6 still the newest release and no PyPI movement since 2026-10-06.
 
 ## See also
 

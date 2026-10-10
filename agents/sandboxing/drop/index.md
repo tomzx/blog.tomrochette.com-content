@@ -25,7 +25,7 @@ Install is a curl of a release binary for amd64 or arm64 plus the passt/pasta pa
 
 ## Status
 
-Young tool, older project, one strong launch: 377 stars, 12 forks, 6 open issues as of 2026-10-07, created 2025-07-25, pushed 2026-10-06, latest release v0.3.0 on 2026-09-29.
+Young tool, older project, one strong launch: 379 stars, 12 forks, 7 open issues as of 2026-10-09, created 2025-07-25, pushed 2026-10-09, latest release v0.3.0 on 2026-09-29.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=wrr/drop&type=date&theme=dark&legend=top-left" />

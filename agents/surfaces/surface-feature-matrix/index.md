@@ -1,7 +1,7 @@
 ---
 title: "Surface Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, surfaces, ai-editors]
 readability: 3
@@ -23,7 +23,7 @@ Each column links to the full research note; every cell traces to a source cited
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Kind | infinite-canvas desktop workspace | platform, IDE, CLI, SDK | extensions and CLI | multiplayer agent environment over DeltaDB | VS Code fork | IDE suite | closed IDE | local session app | VS Code extension | VS Code fork | Windows IDE | VS Code fork | editor plus extensions | desktop canvas app where agents draw and humans review | VS Code fork | Rust editor |
 | Open source | ✓ MIT | ✗ | ✓ Apache-2.0 | ✗ | ✗ | ~ Community IDEs | ✗ | ✓ MIT | ✓ Apache-2.0 | ✗ | ✗ | ✓ Apache-2.0 | ~ MIT editor | ✓ MIT app and SDK | ✗ | ~ mixed licenses |
-| Free tier | ✓ free and open source | ✓ unlimited completions | ✓ Hobby | ✓ beta free | ✓ Individuals $0 | ✓ 5 credits | ✓ 50 credits | ✓ | ✓ BYOK extension | ✓ | ✓ Community | ✓ | ✓ Copilot Free | ✓ free and local-only in beta | ✓ Devin account | ✓ |
+| Free tier | ✓ free and open source | ✓ unlimited completions | ✓ Hobby | ✓ beta free | ✓ Individuals $0 | ✓ free to start (Junie Lite) | ✓ 50 credits | ✓ | ✓ BYOK extension | ✓ | ✓ Community | ✓ | ✓ Copilot Free | ✓ free and local-only in beta | ✓ Devin account | ✓ |
 | BYOK | ✓ via your agent CLIs and keys | ✗ | ✓ | ✓ | ~ SDK local servers only, no BYOK in plans | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ preview (Foundry, OpenAI, Anthropic, Ollama) | ✓ | ✓ | ✓ brings your own harness (Claude Code, Codex) | ✗ Devin key only | ✓ |
 | Local models | ~ via your agent CLIs | ✗ | ✗ not documented | ~ via external agents | ~ via the SDK (LiteRT or Ollama) | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ Ollama in BYOK preview | ? | ✓ | ✓ local-only today | ? | ✓ |
 | MCP | ? not verified | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ in agent mode | ? | ✓ | ? not verified | ✓ | ✓ |
@@ -76,6 +76,7 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - 2026-10-06 - Extended from fourteen to fifteen columns with Visual Studio 2026, Microsoft's Windows IDE whose Copilot stack (agent mode with MCP, cloud agents since 18.1, the 18.10 BYOK preview) ships inside the incumbent, inserted in sorted position between Trae and Void; updated the intro, reading, and choosing sections.
 - 2026-10-07 - Corrected the Google Antigravity cells against the vendor's docs: the SDK runs agents on local models through LiteRT or OpenAI-compatible local servers, where the cell read unverified, and BYOK moves to a partial because the plans page states BYOK and bring-your-own-endpoint are unsupported; no other cells moved.
 - 2026-10-08 - Extended from fifteen to sixteen columns with Cate, the MIT infinite-canvas desktop workspace whose agent-aware terminals report working, waiting, or finished, inserted in sorted position at the head of the row; updated the intro, reading, and choosing sections.
+- 2026-10-09 - Corrected the JetBrains IDEs free-tier cell against the vendor's redesigned plans page: the free start is now described as Junie Lite, a free model always on in every JetBrains account, where the cell carried the earlier 5-credit allotment; the two paid figures are exposed again on the same page ($8.33 and $25.00 per user/month, unchanged).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Hindsight
 created: 2026-10-07
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, benchmarks, open-source]
 readability: 3
@@ -26,8 +26,8 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
 
 ## Status
 
-**Active and suddenly large: 47,004 stars rank it third in this category behind claude-mem and mem0, on a repository that is barely a year old.**
-47,004 stars with the repository pushed 2026-10-08, created 2025-10-30, as of 2026-10-08 (GitHub API).
+**Active and suddenly large: 47,452 stars rank it third in this category behind claude-mem and mem0, on a repository that is barely a year old.**
+47,452 stars with the repository pushed 2026-10-08, created 2025-10-30, as of 2026-10-09 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,8 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.10.2 (2026-09-29) with PyPI (hindsight-api, hindsight-client) and npm in sync at 0.10.2 as of 2026-10-07, and 176,604 trailing-month npm client downloads (2026-09-05 to 2026-10-04).
+Latest release v0.10.3 (2026-10-08) with PyPI (hindsight-api, hindsight-client) and npm in sync at 0.10.3 as of 2026-10-09, and 195,348 trailing-month npm client downloads (2026-09-08 to 2026-10-07).
+v0.10.3 treats memory as a past record teams can annotate with their own guidance, adds a TraeCode (TRAE CN) harness adapter, filters non-conversation Codex content, and waits out rate limits during history deepening instead of dropping turns.
 The paper (arXiv 2512.12818, December 2025, with Virginia Tech's Naren Ramakrishnan among the authors) reports 91.4 percent on LongMemEval and 89.61 on LoCoMo; the live benchmark site claims 94.6 on LongMemEval-S, 92.0 on LoCoMo, and 64.1 on BEAM-10M as of 2026-10-07, and the README says Virginia Tech's Sanghani Center and The Washington Post independently reproduced the Hindsight numbers.
 The discussion footprint is thin for the size: a 4-point Show HN (December 2025), a self-posted 3-point star-milestone thread (April 2026), and a 2-point story (October 2026), so the 46k stars came through benchmark attention and ecosystem listings rather than public debate.
 
@@ -79,6 +80,7 @@ Not for solo coding-agent use, where local files or claude-mem cost nothing, or 
 ## Changes
 
 - 2026-10-07 - Created from the 2026-10-07 awesome-list entrant scan, with nine fetched sources and the vendor-operated-benchmark caveat recorded as the critical angle.
+- 2026-10-09 - Recorded v0.10.3 (memory as a past record with team-added guidance, a TRAE CN harness adapter, Codex content filtering, and 429 backoff during deepening) with PyPI and npm in sync at 0.10.3; refreshed stars to 47,452 and downloads to 195,348.
 
 ## See also
 
@@ -95,6 +97,6 @@ Not for solo coding-agent use, where local files or claude-mem cost nothing, or 
 - https://benchmarks.hindsight.vectorize.io/ - the live benchmark site and its downloadable run artifacts (LongMemEval-S 94.6, LoCoMo 92.0, BEAM-10M 64.1), as of 2026-10-07
 - https://arxiv.org/abs/2512.12818 - the paper (91.4 percent LongMemEval, 89.61 LoCoMo, December 2025) and the author list
 - https://vectorize.io/pricing - the self-host/Cloud/Enterprise ladder and the pay-as-you-go terms, as of 2026-10-07
-- https://pypi.org/pypi/hindsight-api/json - hindsight-api 0.10.2 (2026-09-29), the release-sync record
-- https://api.npmjs.org/downloads/point/last-month/@vectorize-io/hindsight-client - 176,604 trailing-month client downloads (2026-09-05 to 2026-10-04)
+- https://pypi.org/pypi/hindsight-api/json - hindsight-api 0.10.3 (2026-10-08), the release-sync record
+- https://api.npmjs.org/downloads/point/last-month/@vectorize-io/hindsight-client - 195,348 trailing-month client downloads (2026-09-08 to 2026-10-07)
 - https://hn.algolia.com/api/v1/search?query=%22hindsight%22%20agent%20memory&tags=story - the thin-discussion record (4-point Show HN 2025-12-16, 3-point milestone thread 2026-04-22, 2-point story 2026-10-05)

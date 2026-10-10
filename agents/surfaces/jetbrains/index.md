@@ -1,7 +1,7 @@
 ---
 title: JetBrains IDEs
 created: 2026-08-23
-updated: 2026-10-07
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, jetbrains]
 readability: 3
@@ -47,8 +47,8 @@ The AI layer was unbundled into a separate, removable plugin in March 2024 after
 ## Pricing
 
 AI Pro is $8.33 per user/month (annual) and AI Ultimate is $25 per user/month, metered in AI credits, re-observed on 2026-09-27 (the junie.jetbrains.com page again exposed both numbers to static fetch, as it also did on 2026-09-22 after briefly hiding them on 2026-09-20).
-By 2026-10-04 the junie.jetbrains.com page had been redesigned around a free-to-start Junie CLI and Junie Local pitch and no longer exposes either number, and the pricing route the AI pages now link (jetbrains.com/ai-ides/buy/) renders only through JavaScript, so the figures above stand as the 2026-09-27 observation rather than a fresh reading.
-**Junie BYOK bypasses metering at provider rates**, and the tier starts free with 5 credits and no card.
+The redesigned page hid both numbers from 2026-10-04 while pitching free-to-start Junie CLI and Junie Local, and the pricing route the AI pages linked (jetbrains.com/ai-ides/buy/) rendered only through JavaScript; as of 2026-10-09 the redesigned page exposes both figures again, unchanged, with the credit metering now stated per 30 days (AI Pro 10 AI Credits, AI Ultimate 35 AI Credits, both with anytime top-ups).
+**Junie BYOK bypasses metering at provider rates** (the page states provider-rate pricing with zero markup and support for locally running models), and the tier starts free: the page now describes that start as Junie Lite, a free model always on in every JetBrains account, where the 2026-09-27 reading recorded it as 5 credits with no card.
 
 ## Price history
 
@@ -75,6 +75,7 @@ Not for anyone who needs an open editor or a large community ecosystem.
 - 2026-09-29 - Recorded the September 22, 2026 JetBrains Air announcement (Air in IDEs, Air Teams, Air Governance ex-Central) as the system-of-products layer above the AI stack.
 - 2026-10-04 - Recorded the junie.jetbrains.com redesign: the page no longer exposes plan prices and now leads with free-to-start Junie CLI and Local, and the new jetbrains.com/ai-ides/buy/ route is a JavaScript shell, so the $8.33 and $25 numbers stand as the 2026-09-27 observation.
 - 2026-10-07 - Added the vendor's 2025 statutory results to Status: the Czech entity's revenue up 6.3% to a record CZK 16,008 million against a net loss of CZK 315 million, published October 6, 2026.
+- 2026-10-09 - Recorded the redesigned junie.jetbrains.com page exposing both figures again, unchanged ($8.33 and $25.00 per user/month), now with per-30-day credit allotments stated (AI Pro 10 AI Credits, AI Ultimate 35 AI Credits) and the free start described as Junie Lite rather than the earlier 5-credit allotment.
 
 ## See also
 
@@ -86,7 +87,7 @@ Not for anyone who needs an open editor or a large community ecosystem.
 ## References
 
 - https://www.jetbrains.com/ai/ - the AI product family entry point
-- https://junie.jetbrains.com/ - plans, credits, and BYOK through 2026-09-27; from 2026-10-04 the redesigned page leads with free-to-start Junie CLI and Local and no longer shows prices
+- https://junie.jetbrains.com/ - plans, credits, and BYOK through 2026-09-27; hidden on the redesigned page from 2026-10-04; both figures exposed again as of 2026-10-09 ($8.33 and $25.00 per user/month, 10 and 35 AI Credits per 30 days, Junie Lite as the free start, BYOK at provider rates with zero markup)
 - https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/ - the Air announcement: Air in IDEs, Air Teams, Air Governance (formerly JetBrains Central), and the ACP Registry
 - https://www.helgilibrary.com/companies/jetbrains - the 2025 Czech statutory figures (revenue CZK 16,008 million, up 6.3%, net loss CZK 315 million), read from the business register and updated October 6, 2026
 - https://news.ycombinator.com/item?id=49977072 - the October 6, 2026 thread on the 2025 results, 579 points

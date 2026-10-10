@@ -1,7 +1,7 @@
 ---
 title: GBrain
 created: 2026-10-07
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, provenance, mcp, personal-knowledge]
 readability: 3
@@ -27,7 +27,7 @@ A shared-brain skill catalog lets approved editors publish memory skills beside 
 ## Status
 
 **Active, single-author-plus-contributors, and unusually eval-disciplined for a personal project.**
-30,672 stars with the repository pushed 2026-10-08, created 2026-04-05, MIT, as of 2026-10-08 (GitHub API), with five or more contributors and a companion garrytan/gbrain-evals repository (431 stars, pushed 2026-10-07) holding dated benchmark reports.
+30,702 stars with the repository pushed 2026-10-09, created 2026-04-05, MIT, as of 2026-10-09 (GitHub API), with five or more contributors and a companion garrytan/gbrain-evals repository (432 stars, pushed 2026-10-09) holding dated benchmark reports.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=garrytan/gbrain&type=date&theme=dark&legend=top-left" />
@@ -81,9 +81,9 @@ Not for teams needing supported infrastructure, contractual isolation, or a mult
 
 ## References
 
-- https://github.com/garrytan/gbrain - repository, MIT license, 30,672 stars, activity, as of 2026-10-08
+- https://github.com/garrytan/gbrain - repository, MIT license, 30,702 stars, activity, as of 2026-10-09
 - https://raw.githubusercontent.com/garrytan/gbrain/master/README.md - the page model, corrections and withdrawal, MCP serving, the 155,795-page deployment claim, and the BrainBench comparison
-- https://github.com/garrytan/gbrain-evals - the companion evals repository (431 stars) with dated benchmark reports and verification records
+- https://github.com/garrytan/gbrain-evals - the companion evals repository (432 stars) with dated benchmark reports and verification records
 - https://raw.githubusercontent.com/garrytan/gbrain-evals/main/docs/benchmarks/2026-09-09-retrieval-refresh.md - the September 9 retrieval refresh: 95.53 percent all-evidence LongMemEval retrieval, the flagged 433-of-500 answer count, and the October 4 opaque-id re-count
 - https://hn.algolia.com/api/v1/search?query=gbrain&tags=story - the discussion record (9-point April thread, 5-point May commentary, 23-point June skill thread)
 - https://api.github.com/repos/garrytan/gbrain/license - the MIT LICENSE file, verified through the GitHub API

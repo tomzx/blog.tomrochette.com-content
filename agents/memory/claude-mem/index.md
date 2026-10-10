@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: about 97.9k stars as of 2026-10-08, with 69,573 npm downloads in the trailing month (2026-09-05 to 2026-10-04, re-fetched unchanged).
+Very large and fast: about 98.7k stars as of 2026-10-09, with 72,524 npm downloads in the trailing month (2026-09-08 to 2026-10-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Very large and fast: about 97.9k stars as of 2026-10-08, with 69,573 npm downloa
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-31, pushed 2026-10-07, latest tagged release v13.34.2 on 2026-10-06 with npm in sync at 13.34.2 as of 2026-10-08.
+Created 2025-08-31, pushed 2026-10-09, latest tagged release v13.35.0 on 2026-10-09 with npm in sync at 13.35.0 as of 2026-10-09.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.
@@ -94,6 +94,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-10-06 - The commercial arm restructured its pricing: CMEM Cloud $20/mo and Team $333/seat/mo replaced by CMEM Pro $30/mo, Heavy $70/mo, and CMEM Max $100/mo, with TeamBrain a design-partner pilot without a public price (Price history row); the pricing reference repointed to cmem.ai, which claude-mem.ai now redirects to.
 - 2026-10-07 - Added the thedotmack/claude-mem star history chart to the Status section.
 - 2026-10-07 - Recorded the v13.34.0 through v13.34.2 releases (first-party Pi and DeepSeek Harness integrations, the CMEM Pro trial restored to 30 days, and the observer prompt-cache regression fix) with npm in sync at 13.34.2 and appended the trial-terms Price history row.
+- 2026-10-09 - Recorded the v13.35.0 release (one guided mem_search tool replacing the multi-tool surface, curated text replies instead of raw JSON, an explicit save_memory note tool, a native-memory-lookup bridge for Claude Code and Codex, and an opt-in markdown-note watcher) with npm in sync at 13.35.0; refreshed stars to about 98.7k and downloads to 72,524.
 
 ## See also
 
@@ -110,5 +111,5 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - https://docs.claude-mem.ai/cloud-sync - the documented privacy trade-off of the cloud tier
 - https://claude-mem.ai - pricing tiers and adoption stats (now redirects to cmem.ai)
 - https://cmem.ai/pricing - the restructured CMEM ladder ($30/$70/$100) and the TeamBrain pilot terms, as of 2026-10-06
-- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 68,891 monthly downloads (2026-09-04 to 2026-10-03) as of 2026-10-05
+- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 72,524 monthly downloads (2026-09-08 to 2026-10-07) as of 2026-10-09
 - https://news.ycombinator.com/item?id=47422611 - the critical take from a competing memory author on the capture-everything approach

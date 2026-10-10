@@ -1,7 +1,7 @@
 ---
 title: Memoryfields
 created: 2026-09-04
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, file-format]
 readability: 3
@@ -24,7 +24,7 @@ Tooling is minimal: memoryfield-tool, a Python CLI (AGPL-3.0, 42 stars), and mem
 ## Status
 
 **One high-traction essay, thin tooling adoption, draft spec.**
-The launch essay hit 191 points on Hacker News on 2026-08-31, while all three repositories together hold 102 stars as of 2026-10-08.
+The launch essay hit 191 points on Hacker News on 2026-08-31, while all three repositories together hold 102 stars as of 2026-10-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=calpaterson/memoryfield-spec&type=date&theme=dark&legend=top-left" />

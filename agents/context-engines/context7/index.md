@@ -1,7 +1,7 @@
 ---
 title: Context7
 created: 2026-10-07
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, documentation, mcp, developer-tools]
 readability: 3
@@ -16,14 +16,14 @@ Context7 is Upstash's hosted service that pulls up-to-date, version-specific lib
 
 ## What it is
 
-A hosted documentation platform by Upstash, the Redis and QStash company, with the MCP server and CLI open source under MIT (62,787 stars, pushed 2026-10-08, as of 2026-10-08).
+A hosted documentation platform by Upstash, the Redis and QStash company, with the MCP server and CLI open source under MIT (62,822 stars, pushed 2026-10-08, as of 2026-10-09).
 The pipeline crawls and version-parses library documentation, scores repository organizations for trust, and runs an LLM-based injection check over stored chunks before serving them.
-Two install modes: an MCP server your agent calls natively (the `@upstash/context7-mcp` npm package, v4.2.0, around 485,800 downloads in the week to 2026-10-04), or a `ctx7` CLI plus an agent skill that needs no MCP at all.
+Two install modes: an MCP server your agent calls natively (the `@upstash/context7-mcp` npm package, v4.2.0, about 703,400 downloads in the week to 2026-10-07), or a `ctx7` CLI plus an agent skill that needs no MCP at all.
 A prompt trigger ("use context7") or the agent's own tool call fetches the docs; only the lookup query and library name leave your machine, not your code.
 
 ## Status
 
-Active and heavily adopted: created 2025-03-26, 62,787 stars, 485,755 npm downloads in the week of 2026-09-28 to 2026-10-04, as of 2026-10-08.
+Active and heavily adopted: created 2025-03-26, 62,822 stars, 703,440 npm downloads in the week of 2026-10-01 to 2026-10-07, as of 2026-10-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=upstash/context7&type=date&theme=dark&legend=top-left" />

@@ -21,7 +21,7 @@ Documentation, changelogs, and examples (code execution, browser automation, Ope
 
 ## Status
 
-**Five months from first release to v0.7.2 with 12,815 stars as of 2026-10-07, while the community discussion never escaped single digits on Hacker News.**
+**Five months from first release to v0.7.2 with 12,847 stars as of 2026-10-09, while the community discussion never escaped single digits on Hacker News.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/CubeSandbox&type=date&theme=dark&legend=top-left" />
@@ -29,7 +29,7 @@ Documentation, changelogs, and examples (code execution, browser automation, Ope
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TencentCloud/CubeSandbox&type=date&legend=top-left" />
 </picture>
 
-Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest v0.7.2 on 2026-09-24, pushed 2026-09-30, 1,174 forks, 170 open issues and PRs as of 2026-10-07.
+Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest v0.7.2 on 2026-09-24, pushed 2026-10-09, 1,180 forks, 166 open issues and PRs as of 2026-10-09.
 The team launched on HN themselves as "a less than 60ms, open-source alternative to E2B using RustVMM and KVM" (7 points), and the same project drew two more submissions from other accounts within four days at 5 and 3 points.
 The sub-60ms figure is single-concurrency on bare metal by the project's own benchmark, degrading to a 67ms average and 137ms P99 at 50 concurrent creations, and no independent benchmark, audit, or critical write-up exists that I could find.
 

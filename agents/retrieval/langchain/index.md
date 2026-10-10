@@ -1,7 +1,7 @@
 ---
 title: LangChain
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, agents, frameworks]
 readability: 3
@@ -23,7 +23,8 @@ The commercial side is LangSmith: tracing, evaluation, deployment, sandboxes, an
 ## Status
 
 Active and dominant by footprint.
-The `langchain-ai/langchain` repository shows 147.5k stars and 24.7k forks as of 2026-10-07, with 16,952 commits as of 2026-10-07.
+The `langchain-ai/langchain` repository shows 147.4k stars (147,424) and 24.7k forks as of 2026-10-09, a small decline from the 147.5k recorded 2026-10-07, with 16,952 commits as of 2026-10-07.
+A move this size is more likely GitHub's periodic removal of bulk-created accounts than an adoption signal, but it is the first downward move this note has recorded.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/langchain&type=date&theme=dark&legend=top-left" />
@@ -80,6 +81,7 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 - 2026-09-25 - Refreshed volatile facts: 147.0k stars, 24.6k forks, 16,852 commits as of 2026-09-25; LangSmith pricing re-confirmed unchanged.
 - 2026-10-02 - Recorded the LangSmith pricing page consolidating metering in LSUs at $1.00 with the LCU ($1.50) line item gone, appended the price history row, and refreshed the repository numbers (147.4k stars, 24.7k forks, 16,908 commits).
 - 2026-10-07 - Added the langchain-ai/langchain star history chart to the Status section.
+- 2026-10-09 - Recorded the first star-count decline in the note's tracking, 147.4k (147,424) as of 2026-10-09 against 147.5k recorded 2026-10-07, and re-verified LangSmith pricing unchanged.
 
 ## See also
 
@@ -90,9 +92,9 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 
 ## References
 
-- https://github.com/langchain-ai/langchain - repository scale (147.5k stars), MIT license, platform positioning, as of 2026-10-07
+- https://github.com/langchain-ai/langchain - repository scale (147.4k stars), MIT license, platform positioning, as of 2026-10-09
 - https://docs.langchain.com/oss/deepagents/code/overview.md - dcode, the terminal coding agent built on Deep Agents
 - https://docs.langchain.com/oss/python/langchain/retrieval.md - RAG architectures: 2-step, agentic, hybrid, and the agentic-RAG-first framing
-- https://www.langchain.com/pricing - LangSmith tiers and LSU metering, as of 2026-10-07 (re-verified unchanged)
+- https://www.langchain.com/pricing - LangSmith tiers and LSU metering, as of 2026-10-07 (re-verified unchanged 2026-10-09)
 - https://news.ycombinator.com/item?id=40739982 - the Octomind critique thread with the CEO's response acknowledging over-abstraction
 - https://python.langchain.com/api_reference/text_splitters/text_splitters/code_splitter.html - current text splitters catalog, showing separator-based code splitting only

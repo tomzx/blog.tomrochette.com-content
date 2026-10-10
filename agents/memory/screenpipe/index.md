@@ -1,7 +1,7 @@
 ---
 title: Screenpipe
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, screen-capture, timeline, mcp, source-available]
 readability: 3
@@ -25,8 +25,8 @@ Pipes are scheduled AI agents defined as markdown files, with YAML frontmatter p
 
 ## Status
 
-**Active and large: the category's second-largest repository by stars, on a YC-backed company.**
-21,860 stars with the repository pushed 2026-10-08, created 2024-06-19, as of 2026-10-08 (GitHub API).
+**Active and large, ranking eleventh of the twenty-two members by stars, on a YC-backed company.**
+21,884 stars with the repository pushed 2026-10-09, created 2024-06-19, as of 2026-10-09 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=screenpipe/screenpipe&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ Not for privacy-strict environments, commercial use without a license budget, or
 ## Changes
 
 - 2026-10-08 - Created from the 2026-10-08 awesome-list entrant scan, with eight fetched sources and the source-available-license-plus-capture-everything combination recorded as the critical angle.
+- 2026-10-09 - Corrected the Status rank claim: at 21,884 stars Screenpipe ranks eleventh of the twenty-two members, not the category's second-largest repository; refreshed stars and the as-of dates.
 
 ## See also
 
@@ -90,7 +91,7 @@ Not for privacy-strict environments, commercial use without a license budget, or
 
 ## References
 
-- https://github.com/screenpipe/screenpipe - repository, 21,860 stars, activity, as of 2026-10-08
+- https://github.com/screenpipe/screenpipe - repository, 21,884 stars, activity, as of 2026-10-09
 - https://raw.githubusercontent.com/screenpipe/screenpipe/main/README.md - capture model, pipes and their permission model, MCP and API surfaces, positioning
 - https://raw.githubusercontent.com/screenpipe/screenpipe/main/LICENSE.md - the Screenpipe Commercial License terms (personal free, 7-day organizational evaluation, commercial paid)
 - https://screenpipe.com/pricing - Free, Basic, Business, and Enterprise plans as of 2026-10-08

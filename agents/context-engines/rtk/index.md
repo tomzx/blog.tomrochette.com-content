@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 82,655 stars, 5,252 forks, and 1,516 open issues and pull requests combined as of 2026-10-08, created 2026-01-22, pushed 2026-10-07.
+Young and hot: 82,728 stars, 5,253 forks, and 1,518 open issues and pull requests combined as of 2026-10-09, created 2026-01-22, pushed 2026-10-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Young and hot: 82,655 stars, 5,252 forks, and 1,516 open issues and pull request
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&legend=top-left" />
 </picture>
 
-v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02, concluding that candidate train; a 0.51.1 candidate train is already running (rc.516 by 2026-10-08), and the project is pre-1.0.
+v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02, concluding that candidate train; a 0.51.1 candidate train is already running (rc.519 by 2026-10-09), and the project is pre-1.0.
 The site claims 18,000+ developers, a marketing figure, and the Show HN thread shows users posting their own measured savings.
 
 ## Strengths
@@ -48,7 +48,7 @@ The site claims 18,000+ developers, a marketing figure, and the Show HN thread s
 - Lossy output is the product: an agent reading a condensed diff or collapsed test list can misread state, and the changelog shows a steady stream of filter-correctness bugs.
 - The hook only rewrites Bash tool calls, so built-in Read/Grep/Glob tools bypass filtering entirely, and unmatched commands pass through at zero savings; one user's own log showed 39 percent on their busiest day.
 - All savings numbers trace to the project or its users; no independent benchmark exists as of 2026-09-02.
-- A crates.io name collision is documented in its own README, and the combined open issues and PRs total 1,506 as of 2026-10-06.
+- A crates.io name collision is documented in its own README, and the combined open issues and PRs total 1,518 as of 2026-10-09.
 
 ## Pricing
 

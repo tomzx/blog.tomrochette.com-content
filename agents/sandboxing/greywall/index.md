@@ -1,7 +1,7 @@
 ---
 title: Greywall
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Attribution is stated in the README: Greywall is a fork of Fence, created by JY 
 
 ## Status
 
-Launched in March 2026 and quiet since: 307 stars, 37 forks, 26 open issues as of 2026-10-08, created 2026-03-04, pushed 2026-08-13, with v0.3.7 (2026-06-01) the last of an April-through-June release train.
+Launched in March 2026 and quiet since: 309 stars, 37 forks, 26 open issues as of 2026-10-09, created 2026-03-04, pushed 2026-08-13, with v0.3.7 (2026-06-01) the last of an April-through-June release train.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=GreyhavenHQ/greywall&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Launched in March 2026 and quiet since: 307 stars, 37 forks, 26 open issues as o
 </picture>
 
 **The launch got no help from Hacker News: a 7-point Show HN on 2026-03-13, a 1-pointer and a 3-point greyscan submission four days later, and one independent review since.**
-Fifty-six days without a push as of 2026-10-08 leaves a small project with a complete docs site and a stalled train, and the companion greyproxy has been quiet since 2026-06-02.
+Fifty-seven days without a push as of 2026-10-09 leaves a small project with a complete docs site and a stalled train, and the companion greyproxy has been quiet since 2026-06-02.
 
 ## Strengths
 
@@ -43,7 +43,7 @@ Fifty-six days without a push as of 2026-10-08 leaves a small project with a com
 
 ## Cautions
 
-- Fifty-six days without a push as of 2026-10-08 and a release train that stopped at v0.3.7 on 2026-06-01; the fork inherits its parent's design but not its cadence, since Fence continued on its own org and reached v0.1.67 in September.
+- Fifty-seven days without a push as of 2026-10-09 and a release train that stopped at v0.3.7 on 2026-06-01; the fork inherits its parent's design but not its cadence, since Fence continued on its own org and reached v0.1.67 in September.
 - macOS enforcement rides sandbox-exec, which Apple deprecated, the same exposure Fence and aigate carry, and macOS gets no transparent traffic capture because the tun2socks path is Linux-only.
 - Kernel primitives only, no VM or gVisor tier, and no independent audit; greywall performs no domain filtering itself, delegating all of it to greyproxy.
 - The near-zero Hacker News footprint at 307 stars cuts both ways: little criticism, but also no field reports from users.
@@ -67,6 +67,7 @@ Not for containing actively malicious code (its own docs say so), and not as the
 ## Changes
 
 - 2026-10-08 - Created from the orchestration worker's cross-category flag, resolved this run: the Fence fork with proxy-held credential substitution and the watch-then-restrict workflow, its quiet-since-August state recorded.
+- 2026-10-09 - Quiet window extended to fifty-seven days (last push still 2026-08-13); stars refreshed (309), forks and issues unchanged.
 
 ## See also
 
