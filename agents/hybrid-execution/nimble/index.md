@@ -24,7 +24,7 @@ The authors are Bespoke Labs with Maheswaran Sathiamoorthy, whose earlier Bespok
 ## Status
 
 **Active and nineteen days old, with a near-zero HN footprint and the strongest verification artifacts of any project in the wave.**
-The repository was created 2026-09-18 and shows about 2,100 stars and 164 forks as of 2026-10-07, with two new default-branch commits on 2026-10-05 (a Requesty transport for curation runs and a Unicode-separator fix in the training records); the original weights were created 2026-09-18 and show about 5,900 downloads and 233 likes.
+The repository was created 2026-09-18 and shows about 2,100 stars and 165 forks as of 2026-10-10, with two new default-branch commits on 2026-10-05 (a Requesty transport for curation runs and a Unicode-separator fix in the training records); the original weights were created 2026-09-18 and show about 5,900 downloads and 233 likes.
 
 The project has shipped a second generation: Bespoke-Nimble-9B-v2 (created 2026-09-23) carries the fitted-temperature checkpoint this note records below, and Bespoke-Nimble-9B-v3 (created 2026-09-30, 126 downloads as of 2026-10-07) is a retrained LoRA on the same Qwen3.5-9B base released under CC BY-NC 4.0, non-commercial, unlike the Apache-2.0 v1 weights.
 Bespoke submitted v3 to the Decision Index the day it shipped, publishing a full 0.2.1 run (56.88) with raw results in its own dataset, and on JevBench's v1.6.1 open-weights board Nimble v3 ranks eleventh at 53.5 while the original 9B composites at 21.1 (as of 2026-10-07).
@@ -49,7 +49,7 @@ The project has kept shipping: the 2,676 training examples and the 324-example h
 ## Cautions
 
 - **The probabilities now ship with a fitted temperature (2026-09-22): the picked answers are unchanged, noul probabilities and score values shift, so thresholds must be retested, and the suite still showed Jev better calibrated on 11 of 13 subsets before the refit.**
-- The repository ships no license file as of 2026-10-07 (GitHub's API reports none, and no LICENSE exists at any conventional path), so the code and the curated data are technically all rights reserved, the v1 weights are Apache-2.0, and the newer v3 weights are CC BY-NC 4.0, so commercial reuse stops at the first generation.
+- The repository ships no license file as of 2026-10-10 (GitHub's API reports none, and no LICENSE exists at any conventional path), so the code and the curated data are technically all rights reserved, the v1 weights are Apache-2.0, and the newer v3 weights are CC BY-NC 4.0, so commercial reuse stops at the first generation.
 - The training coverage remains the binding limit: the model was trained on prompts of up to 2,048 tokens (the hosted limit is now 8,192, so longer prompts are less tested), enum fields cap at 26 single-token letter codes, and the checkpoint is one day of work across ten subject categories against Jev's advertised 32k-plus context.
 - Seven points and zero comments on HN means none of the suite's methodology has been publicly stress-tested yet; the German MASSIVE dip (3.5 points, p = 0.023) is exactly the kind of finding replication would probe.
 - On the third-party JevBench board Bespoke-Nimble-9B ranked mid-pack on the v1.2 board (60.5 overall), well behind Jev (74.4) and behind SemIf's frozen-4B readout (73.1), and then fell to 18.7 on the sealed v1.4 revision, the steepest drop JevBench measured among the named replicas, which tempers the checkpoint's standing even as the benchmark suite remains this note's crown jewel.
@@ -90,7 +90,7 @@ The disagreeable claim I will defend: this note's most valuable artifact is not 
 
 ## References
 
-- https://github.com/bespokelabsai/nimble - repository: created 2026-09-18, about 2,060 stars, 160 forks, no license file (GitHub API and contents listing, as of 2026-10-06)
+- https://github.com/bespokelabsai/nimble - repository: created 2026-09-18, about 2,100 stars, 165 forks, no license file (GitHub API, as of 2026-10-10)
 - https://raw.githubusercontent.com/bespokelabsai/nimble/main/README.md - capabilities, contrastive curation, the 90.1% versus 93.2% holdout, the updates log (temperature, dataset release, prompt limit), and the latency table
 - https://raw.githubusercontent.com/bespokelabsai/nimble/main/docs/PUBLIC_BENCHMARKS.md - the 13-subset human-labeled suite and its full results, caveats, and rejected-datasets list
 - https://huggingface.co/bespokelabs/Bespoke-Nimble-9B - weights: Apache-2.0, created 2026-09-18, about 5,900 downloads, 233 likes (as of 2026-10-07)

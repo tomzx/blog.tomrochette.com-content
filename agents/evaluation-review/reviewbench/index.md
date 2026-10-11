@@ -24,7 +24,7 @@ Submission is self-serve: sign in with GitHub, register a container image and yo
 
 ## Status
 
-A five-day-old research preview: the repository (review-bench/ReviewBench) was created 2026-09-04 and sits at 39 stars and 4 open issues as of 2026-10-09, last pushed 2026-10-08.
+A five-day-old research preview: the repository (review-bench/ReviewBench) was created 2026-09-04 and sits at 41 stars and 6 open issues as of 2026-10-10, last pushed 2026-10-10.
 The first independent entrants arrived through the self-service portal in the benchmark's first week: five third-party reviewers (Hermes Reviewer on 2026-10-07, then HeyDeer, mesrai, pr-review-agent, and DeepSeek Harness Reviewer on 2026-10-08) merged onboarding registrations, so the submission pipeline works beyond GitHub's own pre-ran entries, though none of their leaderboard scores had published as of 2026-10-09.
 
 <picture>
@@ -48,7 +48,7 @@ Validation is the strongest published number: senior engineers who did not build
 - **The publication gate cuts against the leaderboard's meaning: submissions stay private until a maintainer approves them, and scores publish only if they beat the agent's current leaderboard score (or on first entry), so the public board can only ratchet upward and losing runs stay invisible.**
 - GitHub's team generated the initial commercial entries itself by running the publicly available products, the vendors neither conducted nor verified those runs, and the test dates differ (Copilot on 2026-10-01, Greptile and Cubic back in June, per The New Stack).
 - 219 PRs is a small corpus, the augmented-recall denominator moves with each agent's own discoveries and is explicitly not cross-comparable, and the judge is a frontier model whose biases the rubric mitigates but does not remove.
-- Adoption is early: 39 repository stars as of 2026-10-09 and five third-party reviewers onboarded in the first week, but no independent replication of the leaderboard numbers has published yet.
+- Adoption is early: 41 repository stars as of 2026-10-10 and five third-party reviewers onboarded in the first week, but no independent replication of the leaderboard numbers has published yet.
 
 ## Pricing
 
@@ -83,7 +83,7 @@ Not for CI gating, and not as an unbiased tiebreaker while the publisher's own r
 - https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review - the announcement: corpus, golden set, judge, metrics, submission flow, and the publication gate
 - https://github.com/review-bench/ReviewBench - the repository: corpus, mirrors, agent contract, methodology, MIT license
 - https://raw.githubusercontent.com/review-bench/ReviewBench/main/README.md - corpus composition, test-set tables, mirrors, and the self-serve surface
-- https://api.github.com/repos/review-bench/ReviewBench - stars, issues, creation and push dates as of 2026-10-09
+- https://api.github.com/repos/review-bench/ReviewBench - stars, issues, creation and push dates as of 2026-10-10
 - https://github.com/review-bench/ReviewBench/pulls?q=is%3Apr+is%3Amerged+onboard - the five third-party onboarding PRs merged 2026-10-07 and 2026-10-08
 - https://review-bench.ai/ - the leaderboard site (a client-rendered shell to fetchers, so its content is grounded in the announcement and press coverage rather than quoted)
 - https://thenewstack.io/github-reviewbench-code-review - the critical read: GitHub pre-ran the rival entries, test dates differ, and Copilot's 40.1 grounded F1 leads

@@ -1,7 +1,7 @@
 ---
 title: Jev
 created: 2026-09-18
-updated: 2026-10-09
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models]
 readability: 3
@@ -20,7 +20,7 @@ A closed early-access API from TypeSafe AI, a two-years-in-stealth lab founded b
 You send a state and typed questions across three primitives, Choice (pick an option, cardinality up to 255), Score (grade against a rubric), and Noul (a 0-1 truth value), and one request evaluates every question in parallel against the same state, returning typed answers with probability distributions and confidence.
 The model was trained with a new method the lab calls Reinforcement Learning for Calibrated Decisions (RLCD), and the launch post claims 70-500ms end-to-end latency (40-200x faster than frontier LLM calls), $0.042 per million input tokens, and free output, with the workflow evals site claiming up to 193.6x faster and 444.6x cheaper than LLM reference calls.
 Those two multiples no longer appear in the evals site's served content as of 2026-10-06, which now leads with accuracy-versus-cost charts, so I read them as a past reading rather than a live claim.
-The only open artifact is the MIT [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) wrapper (about 380 stars as of 2026-10-06, created 2026-08-08) that gives competing LLMs the same structured-decision API for benchmarking.
+The only open artifact is the MIT [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) wrapper (about 390 stars as of 2026-10-10, created 2026-08-08) that gives competing LLMs the same structured-decision API for benchmarking.
 
 ## Status
 
@@ -33,7 +33,7 @@ A fifth arrived in the days to 2026-10-06 and it targets the contract itself: a 
 A sixth arrived this week and it is the scoreboard layer doubling: the [Decision Index](../decision-index/index.md), a 110,201-request public suite plus unpublished private tests, places Jev third at 60.11 on its 0.3 board behind Perplexity's open-weights Decider v1.1 (62.75) and Fastino's not-yet-open GLiDE (60.21), the first independent reading that puts two 27B-class systems above it.
 The fast-follow also landed: at DevDay on 2026-09-29 OpenAI announced a Decisions API in limited preview, a bounded-question endpoint on a GPT-6 Luna variant reported at about 150 ms.
 The ecosystem gained its runtime layer and a reasoning entrant: [Ollaya](../ollaya/index.md) (618 points) now serves sixteen open families behind this API locally, and PostHog's [Jeeves](../jeeves/index.md) (242 points) trains a 9B to think before deciding.
-The hosted-API board re-ranked around a new vendor entry on 2026-10-09: Inception's Mercury Decide (served free on OpenRouter) took second at 72.4, leaving Jev third at 71.5 behind Sage 1.3.0 (74.0), while Liquid AI's d1 and OpenAI's Decisions API stopped carrying current runs on the served board, and decisio v0.8.0 (71.7) entered the open composite second on its board revision v1.7.28.
+The hosted-API board re-ranked around a new vendor entry on 2026-10-09: Inception's Mercury Decide (served free on OpenRouter) took second at 72.4, leaving Jev third at 71.5 behind Sage 1.3.0 (74.0), while Liquid AI's d1 and OpenAI's Decisions API stopped carrying current runs on the served board, and decisio v0.8.0 (71.7) entered the open composite second on its board revision v1.7.28; on 2026-10-10 (revision v1.7.31) Microsoft-Decision-1 joined the API board at 69.1 after a native Azure Foundry run, still below Jev's third place.
 Active and brand new; the claims below are still mostly vendor-run.
 
 ## Strengths
@@ -49,7 +49,7 @@ Active and brand new; the claims below are still mostly vendor-run.
 - The lab explicitly declines public benchmarks ([antibenchmaxxing](https://typesafe.ai/blog/antibenchmaxxing)), which is a defensible position that nonetheless left no third-party verification of the 40-200x and cannot-hallucinate claims; the "can't hallucinate" figure is admitted to be non-empirical, schema-matching being mathematically guaranteed while factual correctness is not.
 - The vendor's own jaggedness page (last reviewed 2026-09-17) concedes nine failure modes for jev-1.13: literal reading, unreliable counting and math, dates read as text rather than ordered quantities, indirection, distractor-filled state, adversarial content, contradictory instructions, broken structural invariants (on one ticket P(yes) for a Noul is 0.22 while the equivalent Choice probability is 0.01), and no generation.
 - The pricing sustainability is self-admittedly unproven ("we can't prove it isn't subsidized"), and free output tokens is the kind of number that changes.
-- A community "Jev-like" model appeared within a day ([jevlike](https://github.com/vinnylarouge/jevlike), 164-point thread on 2026-09-16, about 1,100 stars by 2026-09-21), and the wave it started has become an ecosystem with its own notes in this category ([Jevlike](../jevlike/index.md), [SemIf](../semif/index.md), [Kev](../kev/index.md), [NanoJev](../nanojev/index.md), and [Nimble](../nimble/index.md), alongside [Laya](../laya/index.md), [Jeff](../jeff/index.md), the [Jeeves](../jeeves/index.md) reasoning entrant, and the [Ollaya](../ollaya/index.md) runtime layer), curated lists of Jev projects passed 700 stars, browser-use's jev-ultrafast agent built on the Jev API reached about 22,400 stars as of 2026-10-09, and on 2026-09-25 "Jev Plays Pokémon Red" carried the contract to a 282-point front-page thread (as of 2026-10-06), which reads two ways: the mechanism may be an efficient classification architecture others can copy, and the moat, if there is one, is calibration data rather than architecture.
+- A community "Jev-like" model appeared within a day ([jevlike](https://github.com/vinnylarouge/jevlike), 164-point thread on 2026-09-16, about 1,100 stars by 2026-09-21), and the wave it started has become an ecosystem with its own notes in this category ([Jevlike](../jevlike/index.md), [SemIf](../semif/index.md), [Kev](../kev/index.md), [NanoJev](../nanojev/index.md), and [Nimble](../nimble/index.md), alongside [Laya](../laya/index.md), [Jeff](../jeff/index.md), the [Jeeves](../jeeves/index.md) reasoning entrant, and the [Ollaya](../ollaya/index.md) runtime layer), curated lists of Jev projects passed 700 stars, browser-use's jev-ultrafast agent built on the Jev API reached about 22,500 stars as of 2026-10-10, and on 2026-09-25 "Jev Plays Pokémon Red" carried the contract to a 282-point front-page thread (as of 2026-10-06), which reads two ways: the mechanism may be an efficient classification architecture others can copy, and the moat, if there is one, is calibration data rather than architecture.
 - No text generation, no tool calls, no local weights: it cannot replace an LLM anywhere a string is needed, only the decision layer around one.
 
 ## Pricing
@@ -92,6 +92,7 @@ The disagreeable claim I will defend: this category's four existing members all 
 - 2026-10-07 - Recorded the scoreboard layer doubling: JevBench's v1.6.1 redesign (Jev the unranked reference at 71.5, third on the split hosted-API board behind Sage 1.3.0 and Liquid AI's d1, with OpenAI's Decisions API measured fifth at 62.5) and the new Decision Index 0.3 board (Jev third at 60.11 behind Perplexity's Decider v1.1 and Fastino's GLiDE, the first independent reading with two closed 27B-class systems above it); corrected the Red Hat thread count to 164 (one reference line still said 153) and refreshed jev-ultrafast to about 22,200 stars.
 - 2026-10-08 - JevBench's open-weights main board moved past the Jev reference for the first time: H2O-Lightning-4B v1.1 leads the open composite at 72.5 against Jev's unranked 71.5 (Quyet-1.0-Large second at 71.4), board revision v1.7.18 with 123 ranked open-weights systems; the hosted-API board re-verified unchanged.
 - 2026-10-09 - The hosted-API board re-ranked around Inception's Mercury Decide (72.4, second, served free on OpenRouter), leaving Jev third at 71.5 behind Sage 1.3.0 (74.0), with Liquid AI's d1 and OpenAI's Decisions API no longer carrying current runs on the served board; decisio v0.8.0 entered the open composite second at 71.7 on board revision v1.7.28 (128 ranked systems); refreshed jev-ultrafast to about 22,400 stars.
+- 2026-10-10 - JevBench's API board gained a second new vendor entry in two days, Microsoft-Decision-1 at 69.1 after a native Azure Foundry run (board revision v1.7.31), still below Jev's third place at 71.5; refreshed jev-ultrafast to about 22,500 and the adapter to about 390 stars.
 
 ## See also
 

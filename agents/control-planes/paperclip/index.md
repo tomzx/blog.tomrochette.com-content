@@ -1,7 +1,7 @@
 ---
 title: Paperclip
 created: 2026-08-27
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, control-planes, agent-operations, multi-agent, open-source, governance]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 Paperclip (paperclipai/paperclip) is an MIT-licensed, self-hostable control plane for a company of AI agents: a Node.js server and React UI where agents check work out of a ticket board via scheduled heartbeats, wrapped in org charts, budgets, approvals, skills, and an audit log.
 
-**The name is the thesis: an agent-company platform named after the paperclip maximizer is selling governance as the product (budgets that pause agents, approvals, chain of command, immutable audit trails), and about 98k stars in its first seven months say the market wants exactly that.**
+**The name is the thesis: an agent-company platform named after the paperclip maximizer is selling governance as the product (budgets that pause agents, approvals, chain of command, immutable audit trails), and about 99k stars in its first seven months say the market wants exactly that.**
 
 ## What it is
 
@@ -24,7 +24,7 @@ Any agent that can receive a heartbeat is hirable, OpenClaw, Claude Code, Codex,
 ## Status
 
 Active at extreme velocity.
-As of 2026-10-07: 98,205 stars and 16,594 forks since creation on 2026-03-02, 6,205 open issues, pushed 2026-10-07, latest release v2026.1005.0 published 2026-10-06, date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
+As of 2026-10-10: 99,414 stars and 16,779 forks since creation on 2026-03-02, 6,325 open issues, pushed 2026-10-10, latest release v2026.1005.0 published 2026-10-06 (a four-day pause in the near-daily train), date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ The roadmap is public about what does not exist yet: memory and knowledge, work 
 ## Cautions
 
 - The quickstart defaults to a trusted local loopback mode, and the README itself tells you to pick an authenticated bind preset for anything beyond the first run; read before you expose.
-- The open-issue backlog is enormous (6,205 as of 2026-10-07), though it has started shrinking: it fell from 6,501 on 2026-10-06 while stars climbed past 98k, so the question is whether triage keeps up, not only growth.
+- The open-issue backlog is enormous (6,325 as of 2026-10-10) and swings both ways: it fell from 6,501 on 2026-10-06 to 6,205 by 2026-10-07 and then regrew to 6,325, so the shrink was a moment rather than a trend, and triage is not keeping up.
 - Date-versioned near-daily releases mean you are always upgrading; pin deliberately.
 - The pitch says autonomous businesses while the memory, work-queue, and self-organization pillars are still roadmap items, so expect to supervise more than the landing page implies.
 - Name collisions: desktop Clippy-style tools also call themselves paperclip (agent-paperclip, clippyai-desktop); search carefully.
@@ -79,6 +79,7 @@ The disagreeable claim I will defend: "manage business goals, not pull requests"
 - 2026-10-02 - Release line moved to v2026.1001.0 (published 2026-10-02) and scale numbers refreshed (95,957 stars, 16,265 forks, 6,232 open issues).
 - 2026-10-07 - Added the paperclipai/paperclip star history chart to the Status section.
 - 2026-10-07 - Release line moved to v2026.1005.0 (published 2026-10-06) and scale numbers refreshed (98,205 stars, 16,594 forks, 6,205 open issues); the stale open-issues caution rewritten now that the backlog is shrinking.
+- 2026-10-10 - Scale refreshed (99,414 stars, 16,779 forks, 6,325 open issues, pushed 2026-10-10) with the release line unchanged at v2026.1005.0; the open-issues caution rewritten again now that the backlog regrew past its 2026-10-07 low.
 
 ## See also
 
@@ -90,7 +91,7 @@ The disagreeable claim I will defend: "manage business goals, not pull requests"
 ## References
 
 - https://github.com/paperclipai/paperclip - README: pillars, quickstart defaults, FAQ, roadmap
-- https://api.github.com/repos/paperclipai/paperclip - stars, forks, issues, push dates as of 2026-10-07
+- https://api.github.com/repos/paperclipai/paperclip - stars, forks, issues, push dates as of 2026-10-10
 - https://paperclip.ing - homepage, release line, testimonials
 - https://docs.paperclip.ing - official documentation
 - https://api.github.com/repos/paperclipai/paperclip/releases - v2026.1005.0, published 2026-10-06

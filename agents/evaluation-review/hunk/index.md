@@ -24,7 +24,7 @@ The maker is Modem (modem.dev), the company credited in hunk.dev's footer.
 
 ## Status
 
-Fast-growing and young: 9,523 stars and 311 forks as of 2026-10-07, created 2026-03-17, pushed 2026-10-06, v0.23.0 (2026-09-30) with 741 merged pull requests.
+Fast-growing and young: 9,566 stars and 311 forks as of 2026-10-10, created 2026-03-17, pushed 2026-10-07, v0.23.0 (2026-09-30) with 741 merged pull requests.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=modem-dev/hunk&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Fast-growing and young: 9,523 stars and 311 forks as of 2026-10-07, created 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=modem-dev/hunk&type=date&legend=top-left" />
 </picture>
 
-hunkdiff npm installs ran about 4.6k in the week of 2026-09-28 to 2026-10-04.
+hunkdiff npm installs ran about 4.2k in the week of 2026-10-02 to 2026-10-08.
 Endorsements from Mitchell Hashimoto and DHH are quoted on the site (the X posts themselves did not fetch this run), while the HN footprint is three stories totaling 7 points with almost no comments, the same social-channel growth pattern Plannotator recorded.
 
 ## Strengths
@@ -78,7 +78,7 @@ Not for CI gating and not for anyone expecting a machine verdict; Hunk deliberat
 
 ## References
 
-- https://github.com/modem-dev/hunk - repository, counts, and topics as of 2026-10-07
+- https://github.com/modem-dev/hunk - repository, counts, and topics as of 2026-10-10
 - https://api.github.com/repos/modem-dev/hunk/readme - features, install paths, the agent workflow, and the comparison table
 - https://api.github.com/repos/modem-dev/hunk/releases - the v0.23.0 line and cadence
 - https://hunk.dev - the product pitch, endorsement quotes, and the Modem attribution

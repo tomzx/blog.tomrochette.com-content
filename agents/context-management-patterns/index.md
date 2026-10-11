@@ -1,7 +1,7 @@
 ---
 title: "Context Management Patterns"
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-10
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a token budget is and have watched an agent degrade after its window filled.
 ---
 
-This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files; verified against harness documentation as of 2026-10-07.
+This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files; verified against harness documentation as of 2026-10-10.
 
 **Every working pattern does one thing, it keeps the window small and fresh, and in 2026 the harness-native features (compaction, subagents, memory files) deliver more of that value than any retrieval pipeline you can buy.**
 My disagreeable claim: below a few hundred thousand lines of code, a short memory file plus automatic compaction beats a bespoke RAG stack, and teams buying context engines before learning their harness's `/compact` are paying money to avoid learning a skill.
@@ -60,10 +60,11 @@ When you do cross the threshold, delivery is settled: an MCP server (Sourcegraph
 ## Compaction is a default you should steer
 
 **Summarize-and-restart has shipped as a harness default, and its lossiness is steerable if you bother steering it.**
-Claude Code auto-compacts as you approach the limit, and Anthropic now documents what survives: the summary keeps your requests and intent, key technical concepts, files touched with important snippets, errors and their fixes, and pending work, then Claude Code re-reads up to five of the most recently modified files and re-injects the bodies of any skills you invoked, while the skill listing itself does not reload.
+Claude Code auto-compacts as you approach the limit, and Anthropic now documents what survives: the summary keeps your requests and intent, key technical concepts, files touched with important snippets, errors and their fixes, and pending work, then Claude Code re-reads up to five of the most recently modified files and re-injects the bodies of any skills you invoked, capped at 5,000 tokens per skill and 25,000 in total, while the skill listing itself does not reload.
 All three major harnesses expose it manually: `/compact <instructions>` in Claude Code (for example, "focus on the API changes"), `/compact` in [Codex](../harnesses/codex/index.md) (with `/status` showing context usage), and `/compact`, aliased `/summarize`, in [OpenCode](../harnesses/opencode/index.md).
 Claude Code goes further than most: the rewind menu summarizes from or up to a chosen checkpoint, and `/btw` answers side questions that never enter history at all, the same idea as Codex's `/side`.
 The steering mechanism most engineers miss: put compaction directives in the memory file ("when compacting, always preserve the modified-file list and test commands"), which turns a lossy default into a controlled one.
+Claude Code also exposes the trigger itself now: run /autocompact with a token count, like /autocompact 500k, to set how full the window gets before the automatic pass runs.
 Augment's rebuild, recorded in its note, runs proactive compaction on a cheaper model and measured 53% lower cost per task, so compaction is also a cost lever, not only a capacity lever.
 The caution is real: Anthropic warns overly aggressive compaction loses subtle context whose importance shows up later, which is the argument for files.
 
@@ -110,6 +111,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - 2026-09-24 - Replaced the verification preamble with a single as-of clause in the intro on owner request.
 - 2026-09-29 - Link check: repointed the Codex slash-commands reference to learn.chatgpt.com/docs/reference/slash-commands after developers.openai.com began redirecting; every other cited page fetched 200.
 - 2026-10-04 - Updated the compaction-survival claim to Anthropic's current enumeration (most recently modified files plus re-injected invoked-skill bodies, replacing the older accessed-files list) and recorded Claude Code shipping auto memory on by default as the unreviewed counterpart to Gemini CLI's review-gated inbox, with a monthly /memory pruning step added to the workflow.
+- 2026-10-10 - Re-verified every pattern claim against the live harness docs with the four cited pages plus Anthropic's engineering post all fetching 200, and folded in two current-doc details: the re-injected skill bodies are capped (5,000 tokens per skill, 25,000 in total) and Claude Code's auto-compact threshold is now settable with /autocompact.
 
 ## See also
 

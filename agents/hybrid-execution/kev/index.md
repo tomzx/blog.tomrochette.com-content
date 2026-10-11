@@ -24,7 +24,7 @@ The API tests run TypeSafe's own example requests against the local server, whic
 ## Status
 
 **Active and twenty days old, with traction on every axis I can measure.**
-The repository was created 2026-09-17 and pushed 2026-10-06, with about 8,600 stars and 567 forks as of 2026-10-07, and three releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20, and kev-1.0 on 2026-10-01, which versions the four checkpoints as one family with `v1.0` tags on every Hub repo and pins cards, eval suites, and serving code for the next generation to be measured against, training nothing new).
+The repository was created 2026-09-17 and pushed 2026-10-10, with about 8,900 stars and 582 forks as of 2026-10-10, and three releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20, and kev-1.0 on 2026-10-01, which versions the four checkpoints as one family with `v1.0` tags on every Hub repo and pins cards, eval suites, and serving code for the next generation to be measured against, training nothing new).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=jaredpalmer/kev&type=date&theme=dark&legend=top-left" />
@@ -90,7 +90,7 @@ The disagreeable claim I will defend: the weights are the second-most valuable a
 
 ## References
 
-- https://github.com/jaredpalmer/kev - repository: Apache-2.0, created 2026-09-17, about 8,500 stars, 561 forks, pushed 2026-10-05 (GitHub API, as of 2026-10-06)
+- https://github.com/jaredpalmer/kev - repository: Apache-2.0, created 2026-09-17, about 8,900 stars, 582 forks, pushed 2026-10-10 (GitHub API, as of 2026-10-10)
 - https://github.com/jaredpalmer/kev/releases/tag/kev-1.0 - the Kev 1.0 family release (2026-10-01): four checkpoints, `v1.0` Hub tags, pinned weights revisions and validated-context table
 - https://raw.githubusercontent.com/jaredpalmer/kev/main/README.md - the LoRA-plus-pointer-head architecture, question isolation, eval tables against Jev, serving and training limits
 - https://raw.githubusercontent.com/jaredpalmer/kev/main/PLAN.md - the pre-registered research log: gap table to Jev, locked-test discipline, the $475-of-$500 budget

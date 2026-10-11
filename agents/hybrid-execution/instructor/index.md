@@ -25,7 +25,7 @@ It also streams partial objects, iterates lists, exposes hooks for logging and m
 ## Status
 
 **Active and mainstream.**
-The repository shows about 14.0k stars and 1,656 commits as of 2026-10-06, and PyPI shows release 1.17.0 uploaded September 9, 2026, following 1.16.0 on August 27, in a cadence of monthly-plus releases stretching back to 2023.
+The repository shows about 14.0k stars and 1,656 commits as of 2026-10-10, and PyPI shows release 1.17.0 uploaded September 9, 2026, following 1.16.0 on August 27, in a cadence of monthly-plus releases stretching back to 2023.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=567-labs/instructor&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ The repository shows about 14.0k stars and 1,656 commits as of 2026-10-06, and P
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=567-labs/instructor&type=date&legend=top-left" />
 </picture>
 
-The README claims 3M+ monthly downloads and use inside OpenAI, Google, Microsoft, and AWS teams; PyPI counters with roughly 8.5M downloads over the last month as of 2026-10-06, flat against the September 25 reading of roughly 8.4M after a steep September slide from roughly 22M, so the README claim remains conservative but the collapse has paused rather than continued.
+The README claims 3M+ monthly downloads and use inside OpenAI, Google, Microsoft, and AWS teams; PyPI counters with roughly 8.5M downloads over the last month as of 2026-10-10, flat against the September 25 reading of roughly 8.4M after a steep September slide from roughly 22M, so the README claim remains conservative but the collapse has paused rather than continued.
 OpenAI publicly credited Instructor as inspiration for its native SDK structured-output helpers at the August 2024 Structured Outputs launch, and the project's own README now steers agent use cases to PydanticAI, the Pydantic team's agent runtime.
 
 ## Strengths

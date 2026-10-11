@@ -1,7 +1,7 @@
 ---
 title: Drop
 created: 2026-09-29
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, linux, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Install is a curl of a release binary for amd64 or arm64 plus the passt/pasta pa
 
 ## Status
 
-Young tool, older project, one strong launch: 379 stars, 12 forks, 7 open issues as of 2026-10-09, created 2025-07-25, pushed 2026-10-09, latest release v0.3.0 on 2026-09-29.
+Young tool, older project, one strong launch: 382 stars, 12 forks, 4 open issues as of 2026-10-10, created 2025-07-25, pushed 2026-10-09, latest release v0.3.1 on 2026-10-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=wrr/drop&type=date&theme=dark&legend=top-left" />
@@ -35,6 +35,7 @@ Young tool, older project, one strong launch: 379 stars, 12 forks, 7 open issues
 
 The Show HN thread on 2026-09-22 drew 193 points with substantive comparisons to bubblewrap and proot in the top replies.
 v0.3.0 added a `drop edit` command for the TOML config, a reorganized documentation site at droprun.sh/docs/, and base.toml defaults for uv, pipx, go install, and Cargo that expose host-installed packages read-only while sandbox-only installs stay contained.
+v0.3.1 (2026-10-09) fixed the shell hanging after the sandboxed process ended, a false update-available report, and the opaque Ubuntu AppArmor error, which now names the missing capability instead of printing `permission denied`.
 **The repository sat for fourteen months before the launch found it its audience, so the traction is one good Hacker News day, not a community, and the maintainer list is one person.**
 
 ## Strengths
@@ -46,7 +47,7 @@ v0.3.0 added a `drop edit` command for the TOML config, a reorganized documentat
 
 ## Cautions
 
-- Pre-1.0 (v0.3.0), solo-maintained, and fourteen months old with a community measured in one launch thread.
+- Pre-1.0 (v0.3.1), solo-maintained, and fourteen months old with a community measured in one launch thread.
 - Namespace isolation shares the host kernel unless gVisor is enabled, which is the difference between containing a confused agent and containing a kernel exploit.
 - Distro hardening is on you: Ubuntu 24+ needs an AppArmor profile change and Fedora an SELinux one, and skipping either weakens the setup.
 - Linux-only (amd64 and arm64), with no macOS story at all, the opposite bet from Clawk.
@@ -72,6 +73,7 @@ Not for macOS, and not as a hardened boundary for hostile code until the solo-ma
 - 2026-09-29 - Created from the entrant-resolution run, profiling the rootless namespace sandbox that uses the host distribution.
 - 2026-10-02 - Recorded the v0.3.0 release of 2026-09-29 (drop edit command, reorganized docs site, package-manager base.toml defaults) and refreshed counts (350 stars, 5 open issues, pushed 2026-09-29).
 - 2026-10-07 - Added the wrr/drop star history chart to the Status section.
+- 2026-10-10 - Recorded v0.3.1 (2026-10-09, immediate exit after the sandboxed process ends, a corrected update check, and an actionable Ubuntu AppArmor error), and refreshed counts (382 stars, 4 open issues).
 
 ## See also
 
@@ -86,4 +88,5 @@ Not for macOS, and not as a hardened boundary for hostile code until the solo-ma
 - https://github.com/wrr/drop - repository, README, license, adoption numbers
 - https://raw.githubusercontent.com/wrr/drop/HEAD/README.md - the quick start, sandbox overview, and per-distro hardening requirements
 - https://droprun.sh/docs/sandbox-overview - the filesystem layout and isolation documentation
+- https://api.github.com/repos/wrr/drop/releases/tags/v0.3.1 - the v0.3.1 release of 2026-10-09 and its fix list
 - https://hn.algolia.com/api/v1/items/49801329 - the 193-point Show HN launch thread

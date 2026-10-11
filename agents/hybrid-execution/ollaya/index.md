@@ -23,8 +23,8 @@ It runs on ONNX Runtime over the CPU or an NVIDIA GPU (CUDA 13 or 12, Vulkan), w
 
 ## Status
 
-**Fifteen days old, beta, and already the wave's default front door.**
-The repository was created 2026-09-23 and shows 1,239 stars and 72 forks as of 2026-10-08, pushed 2026-10-06.
+**Seventeen days old, beta, and already the wave's default front door.**
+The repository was created 2026-09-23 and shows 1,277 stars and 73 forks as of 2026-10-10, pushed 2026-10-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ollaya-dev/ollaya&type=date&theme=dark&legend=top-left" />
@@ -86,7 +86,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 ## References
 
 - https://ollaya.dev/ - product surface: endpoints, model families, platforms, the Ollama comparison table, Apache-2.0 licensing
-- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,226 stars, 71 forks, pushed 2026-10-06 (GitHub API, as of 2026-10-07)
+- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,277 stars, 73 forks, pushed 2026-10-09 (GitHub API, as of 2026-10-10)
 - https://ollaya.dev/results - the measurement page: 26 models, 73,720 benchmark answers, 41,352 parity checks, disclosed machines, newest measurement 2026-10-02
 - https://ollaya.dev/docs/typesafe-compatibility - the wire-identical TypeSafe API documentation, including SDK 0.7.1 compatibility
 - https://news.ycombinator.com/item?id=49848269 - the 618-point launch thread (2026-09-25)

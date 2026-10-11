@@ -1,7 +1,7 @@
 ---
 title: LMArena
 created: 2026-09-24
-updated: 2026-10-06
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, evaluation, leaderboards, human-feedback]
 readability: 3
@@ -16,9 +16,10 @@ LMArena ranks AI models by blind human preference votes: two anonymous models an
 
 ## What it is
 
-A website (lmarena.ai), a family of leaderboards (Agent Overall, Text, WebDev, Image, Video, Vision, Document, Search), a WebDev arena (web.lmarena.ai), a blog, and open methodology repositories, run by Arena Intelligence Inc., the company that grew out of the UC Berkeley and LMSYS Chatbot Arena project.
+A website (lmarena.ai), a family of leaderboards (Agent Overall, Text, WebDev, Image, Video, Vision, Document, Search, Alignment), a WebDev arena (web.lmarena.ai), a blog, and open methodology repositories, run by Arena Intelligence Inc., the company that grew out of the UC Berkeley and LMSYS Chatbot Arena project.
 The founding paper (arXiv:2403.04132, March 2024) describes the pairwise crowdsourcing method and 240K+ votes at the time; the leaderboard methodology source is published as the `arena-rank` repository, pushed August 2026.
 The company raised $100M at a $600M valuation in May 2025, led by Andreessen Horowitz and UC Investments, and labs including OpenAI, Google, and Anthropic partner with it to put flagship models in front of voters.
+On 8 October 2026 it announced a $200M Series B at a $3.1B valuation, and launched the Arena Alignment Index with it, a leaderboard scoring 27 models across 90,000 real-world agent sessions on how well models act in line with human intent.
 Recent product motion includes AutoEval scores added to the leaderboards (to complement slowly collected human votes), agent leaderboard categories with task costs (August 2026), a HarnessTax research post (September 2026), a research post showing LLM judges prefer their own responses 70% more often than humans do (30 September 2026), and an October 2026 research post that post-trains a text-to-image model on 5 million Arena preference votes plus rubric rewards, which is direct evidence for the training-asset claim below.
 
 ## Status
@@ -63,6 +64,7 @@ My disagreeable claim: the leaderboard is the least valuable thing the arenas pr
 - 2026-09-26 - Removed the "Facts below verified as of" stamp per owner policy; the site is a client-rendered app, so vote and model counts beyond the founding paper's figures could not be read from its HTML.
 - 2026-10-04 - Added the 2026-10-02 research post on post-training text-to-image models with 5 million Arena preference votes to the product-motion record, the first documented case of the vote stream training a model.
 - 2026-10-06 - Added the company's June 2026 disclosure of a $100M annualized run rate (10M+ monthly users, 82M+ votes) and the 30 September 2026 research post finding LLM judges prefer their own responses 70% more often than humans do.
+- 2026-10-10 - Added the $200M Series B at a $3.1B valuation (announced 8 October 2026) and the Arena Alignment Index launched with it (27 models across 90,000 real-world agent sessions).
 
 ## See also
 
@@ -75,7 +77,7 @@ My disagreeable claim: the leaderboard is the least valuable thing the arenas pr
 ## References
 
 - https://lmarena.ai/ - homepage meta: blind comparison, vote-driven leaderboards across text, image, and code (fetched 200, 2026-09-24)
-- https://blog.lmarena.ai/ - Arena Intelligence Inc. identity, leaderboard families, and 2026 post dates including the 30 September judge self-preference post and the 2026-10-02 post-training research post (re-fetched 200, 2026-10-07, newest post still 2 October 2026)
+- https://blog.lmarena.ai/ - Arena Intelligence Inc. identity, leaderboard families, and 2026 post dates including the 8 October 2026 Series B and Arena Alignment Index announcement, the 30 September judge self-preference post, and the 2026-10-02 post-training research post (re-fetched 200, 2026-10-10, newest posts 8 October 2026)
 - https://blog.lmarena.ai/how-it-works/ - the vote flow and identity reveal procedure (fetched 200, 2026-09-24)
 - https://arxiv.org/abs/2403.04132 - the founding paper: method and 240K+ votes (fetched 200, 2026-09-24)
 - https://arxiv.org/abs/2504.20879 - The Leaderboard Illusion: private testing, 27 Meta variants, sampling asymmetries (fetched 200, 2026-09-24)

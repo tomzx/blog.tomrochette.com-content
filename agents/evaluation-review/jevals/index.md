@@ -23,8 +23,8 @@ It comes from OpenLayer (the openlayer-ai organization), is alpha, MIT, Python 3
 
 ## Status
 
-**Sixteen days old and already carrying more independent evidence than most month-old tools ever get.**
-102 stars and 9 forks as of 2026-10-06 (repository created 2026-09-20, last push 2026-10-01), PyPI 0.1.4 published 2026-09-20, and a 47-point Show HN with 6 comments the same day.
+**Twenty days old and already carrying more independent evidence than most month-old tools ever get.**
+102 stars and 10 forks as of 2026-10-10 (repository created 2026-09-20, last push 2026-10-01), PyPI 0.1.4 published 2026-09-20, and a 47-point Show HN with 6 comments the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openlayer-ai/jevals&type=date&theme=dark&legend=top-left" />
@@ -87,7 +87,7 @@ Not for judgments that need multi-step reasoning or a written critique (keep an 
 
 ## References
 
-- https://api.github.com/repos/openlayer-ai/jevals - repository facts (102 stars, 9 forks, MIT, Python, pushed 2026-10-01, as of 2026-10-06)
+- https://api.github.com/repos/openlayer-ai/jevals - repository facts (102 stars, 10 forks, MIT, Python, pushed 2026-10-01, as of 2026-10-10)
 - https://raw.githubusercontent.com/openlayer-ai/jevals/main/README.md - the eval catalog, gates, backends, self-run bench, and the $0.042/M Jev price
 - https://pypi.org/pypi/jevals/json - PyPI 0.1.4 (published 2026-09-20), MIT, alpha classifier
 - https://hn.algolia.com/api/v1/items/49780849 - the 47-point Show HN thread (2026-09-20) and the author's answers on backends

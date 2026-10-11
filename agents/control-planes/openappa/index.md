@@ -23,7 +23,7 @@ A Claude Code plugin (`appa plugin install claude-code`) is the fastest integrat
 
 ## Status
 
-Active and fast-growing for its age: 1,476 stars and 63 forks as of 2026-10-07 since creation on 2026-08-18, pushed 2026-10-06, latest release v0.31.1, positioned as a preview and an RFC where config and wire surfaces may break without shims.
+Active and fast-growing for its age: 1,521 stars and 65 forks as of 2026-10-10 since creation on 2026-08-18, pushed 2026-10-09, latest release v0.31.1, positioned as a preview and an RFC where config and wire surfaces may break without shims.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=archestra-ai/OpenAPPA&type=date&theme=dark&legend=top-left" />
@@ -78,7 +78,7 @@ Not for teams that need budgets, org models, or fleet approvals, because OpenAPP
 ## References
 
 - https://github.com/archestra-ai/OpenAPPA - README: the algebra, remedy plans, integrations, benchmarks summary, license
-- https://api.github.com/repos/archestra-ai/OpenAPPA - stars, forks, creation and push dates as of 2026-10-07
+- https://api.github.com/repos/archestra-ai/OpenAPPA - stars, forks, creation and push dates as of 2026-10-10
 - https://openappa.com/ - the flow-tracking argument, the label model, remedy plans
 - https://openappa.com/evaluation - the 1,320-episode results, the FIDES and auto-mode comparisons, token overhead, ablations
 - https://openappa.com/archestra - the sponsorship statement and the proxy-level integration

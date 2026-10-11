@@ -1,7 +1,7 @@
 ---
 title: LLM Gateway
 created: 2026-10-04
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, coding-subscription]
 readability: 3
@@ -22,7 +22,7 @@ The company reports SOC 2 Type II, a 30-day enterprise pilot with a 99.9% SLA, a
 
 ## Status
 
-Active and young: the repo was created 2025-04-12 and shows 1,674 stars and 191 forks as of 2026-10-07, pushed the same day.
+Active and young: the repo was created 2025-04-12 and shows 1,680 stars and 191 forks as of 2026-10-10, pushed the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=theopenco/llmgateway&type=date&theme=dark&legend=top-left" />
@@ -46,7 +46,7 @@ On 2026-10-04 the DevPass page announced its first devaluation: from October 15,
 - The community footprint is thin: no Hacker News stories, and the company's "best AI coding plans" post ranks DevPass first against Claude Max, OpenCode Go, and the GLM plan, which is marketing, not measurement.
 - DevPass value drops on October 15, 2026, from 3x to 2x the plan price at renewal, the first cut since launch, and the notice adds daily caps and tighter weekly premium caps that apply even inside existing billing cycles; the weekly frontier fair-use share means heavy premium-model users exhaust headroom before the allowance runs out.
 - The 5% is charged per top-up, so the small-purchase math that punishes OpenRouter's $0.80 minimum applies here too for frequent small reloads.
-- A one-year-old repo with 1,671 stars is early to hold custody of every provider key you own.
+- A one-year-old repo with 1,680 stars is early to hold custody of every provider key you own.
 
 ## Pricing
 

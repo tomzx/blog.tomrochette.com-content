@@ -24,7 +24,7 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: about 98.7k stars as of 2026-10-09, with 72,524 npm downloads in the trailing month (2026-09-08 to 2026-10-07).
+Very large and fast: about 99.0k stars as of 2026-10-10, with 75,172 npm downloads in the trailing month (2026-09-09 to 2026-10-08).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&theme=dark&legend=top-left" />
@@ -111,5 +111,5 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - https://docs.claude-mem.ai/cloud-sync - the documented privacy trade-off of the cloud tier
 - https://claude-mem.ai - pricing tiers and adoption stats (now redirects to cmem.ai)
 - https://cmem.ai/pricing - the restructured CMEM ladder ($30/$70/$100) and the TeamBrain pilot terms, as of 2026-10-06
-- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 72,524 monthly downloads (2026-09-08 to 2026-10-07) as of 2026-10-09
+- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 75,172 monthly downloads (2026-09-09 to 2026-10-08) as of 2026-10-10
 - https://news.ycombinator.com/item?id=47422611 - the critical take from a competing memory author on the capture-everything approach

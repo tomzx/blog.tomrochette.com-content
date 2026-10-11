@@ -1,7 +1,7 @@
 ---
 title: Caleb Writes Code
 created: 2026-08-29
-updated: 2026-10-04
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, ai-news, model-releases, explainer]
 readability: 3
@@ -24,7 +24,7 @@ He is active on X as calebfoundry, on LinkedIn, and runs a Patreon.
 ## Status
 
 Active and fast-growing as of 2026-10-04.
-The channel reports 120K subscribers and 124 videos as of 2026-10-04, the about page showed 9,290,137 total views as of 2026-10-02, and uploads run about twice a week, with the latest on 2026-10-02 ("Gemini 4 Argon explained in 5min..", same-week coverage of Google DeepMind's new model), following "Inference Engines explained in 10min.." (2026-09-30, covering llama.cpp, vLLM, SGLang, and TensorRT-LLM).
+The channel reports 120K subscribers and 124 videos as of 2026-10-04, the about page showed 9,290,137 total views as of 2026-10-02, and uploads run about twice a week, with the latest on 2026-10-08 ("Haiku 5.5 explained in 7min..", same-week coverage of Anthropic's new fast model and its GPT-6 Luna comparisons), following "Gemini 4 Argon explained in 5min.." (2026-10-02, same-week coverage of Google DeepMind's new model) and "Inference Engines explained in 10min.." (2026-09-30, covering llama.cpp, vLLM, SGLang, and TensorRT-LLM).
 All of that scale was reached in under 18 months from the 2025-03-16 start.
 
 ## Strengths
@@ -75,6 +75,7 @@ Not for someone who wants tool-tested practice, reference-grade depth, or an ad-
 - 2026-09-30 - Latest upload moved to 2026-09-30 ("Inference Engines explained in 10min..").
 - 2026-10-02 - Counts refreshed to 119K subscribers, 124 videos, and 9,290,137 total views; latest upload moved to 2026-10-02 ("Gemini 4 Argon explained in 5min..").
 - 2026-10-04 - Window recheck over the RSS feed (fetchable again after its brief 2026-10-04 outage) found nothing newer than the 2026-10-02 "Gemini 4 Argon" video, confirmed the 2026-09-24 "Opus 5.5 vs GPT-6" and 2026-09-30 "Inference Engines" videos as the rest of the window's output, and corrected the reference lines: the feed grounds the cadence, the uploads tab returns only a JavaScript shell.
+- 2026-10-10 - Latest upload moved to 2026-10-08 ("Haiku 5.5 explained in 7min..", 32k views already), making three uploads in the week of October 2 to 8; Status and the feed reference line updated (feed fetched this run).
 
 ## See also
 
@@ -88,5 +89,5 @@ Not for someone who wants tool-tested practice, reference-grade depth, or an ad-
 - https://www.youtube.com/@calebwritescode - the channel: identity, description, 120K subscribers, 124 videos
 - https://www.youtube.com/@calebwritescode/about - join date 2025-03-16, 9,290,137 total views as of 2026-10-02, and the LinkedIn, X, and Patreon links
 - https://www.youtube.com/@calebwritescode/videos - the uploads tab (a direct fetch on 2026-10-04 returned only a JavaScript shell, so the RSS feed grounds the cadence)
-- https://www.youtube.com/feeds/videos.xml?channel_id=UCuU9jE4MHHEIyYMbDfUPSew - the RSS feed grounding cadence, topics, and the newest entry ("Gemini 4 Argon explained in 5min..", published 2026-10-02); it 404ed briefly on 2026-10-04 and was serving again the same run
+- https://www.youtube.com/feeds/videos.xml?channel_id=UCuU9jE4MHHEIyYMbDfUPSew - the RSS feed grounding cadence, topics, and the newest entry ("Haiku 5.5 explained in 7min..", published 2026-10-08); it 404ed briefly on 2026-10-04 and serves again as of 2026-10-10
 - https://app.thoughtleaders.io/youtube/caleb-writes-code - third-party read on the AI niche and brand safety, plus the stale-prose discrepancy behind the analytics caution

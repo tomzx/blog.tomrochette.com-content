@@ -23,7 +23,7 @@ Desktop downloads exist for Mac and Windows (Linux coming soon), with hosted Cab
 
 ## Status
 
-Popular but quiet: 2,879 stars as of 2026-10-09 (302 forks as of 2026-10-03), created 2026-04-03, with the last release v0.6.0 on 2026-08-25 and no push since August 25.
+Popular but quiet: 2,879 stars as of 2026-10-10 (302 forks as of 2026-10-03), created 2026-04-03, with the last release v0.6.0 on 2026-08-25 and no push since August 25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cabinetai/cabinet&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ Cloud Pro and Cloud Max are waitlist stage, so the product today is the self-hos
 
 ## Cautions
 
-- Development has been quiet for about seven weeks as of 2026-10-09 with no release since v0.6.0, and the broad "startup OS" scope ages badly if the pace stays flat.
+- Development has been quiet for about seven weeks as of 2026-10-10 with no release since v0.6.0, and the broad "startup OS" scope ages badly if the pace stays flat.
 - No independent community footprint: one founder-posted Show HN thread at 16 points, no third-party writeups I could find, so the 2,879 stars are the entire social proof.
 - Hosted tiers are waitlist only, so teams wanting managed backups today must build their own.
 - Platform coverage is Mac and Windows, with Linux still "coming soon" despite a web UI that suggests otherwise.

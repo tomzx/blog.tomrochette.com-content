@@ -16,14 +16,14 @@ AnyJev is Nokia Applied Research's Apache-2.0 method that turns any instruction-
 
 ## What it is
 
-A pip-installable Python method plus a paper (arXiv 2610.00831, submitted 2026-09-30, authors from Nokia, Tencent Hunyuan, and Hong Kong Polytechnic University) from nokia-applied-research (1,092 stars, pushed 2026-10-07, as of 2026-10-07).
+A pip-installable Python method plus a paper (arXiv 2610.00831, submitted 2026-09-30, authors from Nokia, Tencent Hunyuan, and Hong Kong Polytechnic University) from nokia-applied-research (1,134 stars, pushed 2026-10-07, as of 2026-10-10).
 The raw readout restricts the next-token distribution at the answer position to the option tokens; AnyJev then corrects its two documented defects by dividing out a label prior estimated from unlabelled inputs and averaging log-probabilities over the K cyclic rotations of the option list, which lowers the order-flip rate from 0.33 to 0.14 and 0.18 on two 20-option tasks and raises accuracy on 11 of 11 models tested.
 A stopping rule selected on unlabelled splits cuts the rotation count: 10.6 of 18 rotations at a verified 0.008 disagreement bound on two of four cells, or 7.3 when selected on one split, which served 2.2 times as many decisions per second on vLLM.
 The same team publishes Tacit, a self-distilled 1.7B-to-9B model line on Hugging Face that compresses the method to one forward pass per decision, with an adaptive mode routing a capped share of low-confidence decisions back to the base model's reasoning.
 
 ## Status
 
-Active and freshly credible: created 2026-09-21, 1,092 stars, release v0.3.0 published 2026-10-07, as of 2026-10-07.
+Active and freshly credible: created 2026-09-21, 1,134 stars, release v0.3.0 published 2026-10-07, as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nokia-applied-research/AnyJev&type=date&theme=dark&legend=top-left" />

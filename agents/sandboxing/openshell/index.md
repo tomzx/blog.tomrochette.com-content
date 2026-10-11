@@ -1,7 +1,7 @@
 ---
 title: OpenShell
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, nvidia, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Linux, macOS (Apple Silicon), and Windows via WSL 2 (experimental); Apache-2.0, 
 
 ## Status
 
-Fast adoption, newly stable and surging: 15,531 stars, 1,747 forks, 578 open issues and PRs as of 2026-10-09, created 2026-02-24.
+Fast adoption, newly stable and surging: 15,646 stars, 1,751 forks, 588 open issues and PRs as of 2026-10-10, created 2026-02-24.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/OpenShell&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Fast adoption, newly stable and surging: 15,531 stars, 1,747 forks, 578 open iss
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NVIDIA/OpenShell&type=date&legend=top-left" />
 </picture>
 
-The v0.1.0 pre-release train graduated to stable v0.1.0 on 2026-09-25, with v0.1.1 following on 2026-09-26 and v0.1.2 on 2026-09-28, and the README now advertises a stable release cadence for the 0.1.x line and no longer carries the alpha badge, at about 1,600 commits (1,625) and 128 contributors.
+The v0.1.0 pre-release train graduated to stable v0.1.0 on 2026-09-25, with v0.1.1 following on 2026-09-26, v0.1.2 on 2026-09-28, and v0.1.3 on 2026-10-09 (an Oracle Cloud Infrastructure Generative AI provider profile, refusal of protocol upgrades on JSON-RPC and MCP endpoints, Ctrl-D session detach, optional cluster-scoped RBAC in Helm, corporate-proxy CA bundle support, and gateway OCSF events written to JSONL), and the README now advertises a stable release cadence for the 0.1.x line and no longer carries the alpha badge, at about 1,700 commits (1,687) and 128 contributors.
 **Late September 2026 NVIDIA folded OpenShell into a branded Open Agent Safety Platform reference design alongside NVIDIA Sentry and BlueField-4 in-silicon enforcement on a dedicated product page, and stars jumped roughly 4,300 in the following three days, a vendor push rather than a Hacker News wave, whose debut threads drew only 2 or 3 points.**
 NVIDIA's own blog still calls it an early preview, and a stable line three point releases deep plus experimental Kubernetes and GPU features say production use is a bet on the vendor staying in.
 In September 2026 the team also published a formal-methods discussion of encoding the full OpenShell policy as formal logic and proving containment queries with SAT, SMT, and Z3, which reached 40 points on Hacker News.
@@ -48,7 +48,7 @@ In September 2026 the team also published a formal-methods discussion of encodin
 - Freshly stable (v0.1.0 on 2026-09-25), with breaking changes the base rate for a runtime this young and the Kubernetes path explicitly experimental.
 - Telemetry is on by default in a tool whose pitch is privacy; anonymous, but verify it against your threat model.
 - Effective security equals the YAML policies you write and maintain, which is real ongoing work.
-- 578 open issues and PRs as of 2026-10-09, well above both the 536 platform-launch peak and the 455 late-September level, on a seven-month-old codebase.
+- 588 open issues and PRs as of 2026-10-10, well above both the 536 platform-launch peak and the 455 late-September level, on a seven-month-old codebase.
 
 ## Pricing
 
@@ -78,6 +78,7 @@ Not for production-critical paths this quarter, or shops that cannot run Docker 
 - 2026-09-29 - The stable line advanced to v0.1.2 (2026-09-28) and growth refreshed (9,707 stars, 1,358 forks, 455 open issues and PRs, 1,557 commits, 124 contributors), a roughly 900-star two-day jump with no corresponding front-page thread found.
 - 2026-10-02 - Recorded the NVIDIA Open Agent Safety Platform debut (OpenShell plus Sentry plus BlueField-4 on a dedicated product page) behind a roughly 4,300-star three-day surge, with growth refreshed (14,010 stars, 1,626 forks, 517 open issues and PRs, about 1,600 commits, 126 contributors) and the platform page added to References.
 - 2026-10-07 - Added the NVIDIA/OpenShell star history chart to the Status section.
+- 2026-10-10 - Recorded v0.1.3 (2026-10-09, OCI Generative AI provider profile, protocol-upgrade refusal on JSON-RPC and MCP endpoints, Ctrl-D detach, optional cluster-scoped RBAC, corporate-proxy CA bundles, gateway OCSF JSONL events), the commit count moving to 1,687, with growth refreshed (15,646 stars, 1,751 forks, 588 open issues and PRs).
 
 ## See also
 
@@ -95,4 +96,5 @@ Not for production-critical paths this quarter, or shops that cannot run Docker 
 - https://www.nvidia.com/en-us/ai/openshell/ - the NVIDIA Open Agent Safety Platform product page combining OpenShell, Sentry, and BlueField-4
 - https://code.claude.com/docs/en/sandboxing - the built-in sandboxing comparison
 - https://github.com/NVIDIA/OpenShell/releases/tag/v0.0.116 - release cadence evidence
+- https://api.github.com/repos/NVIDIA/OpenShell/releases/tags/v0.1.3 - the v0.1.3 release of 2026-10-09 and its change list
 - https://hn.algolia.com/api/v1/items/49713261 - the 33-point HN discussion of the team's formal-methods policy-prover post

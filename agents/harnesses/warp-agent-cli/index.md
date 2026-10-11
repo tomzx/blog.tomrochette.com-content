@@ -60,7 +60,7 @@ Build starts at $20/month ($18 annual) and now denominates its included usage in
 Max starts at $200/month ($180 annual) with $200 of included agent usage, ten times Build, replacing the 18,000-credit display.
 Business is $45/user/month annual ($50 monthly) with $20 of included usage per seat, SAML SSO, and BYOK.
 Enterprise is custom, adding BYOLLM routing, self-hosted cloud agents, and cross-harness memory (research preview).
-All tiers as of 2026-10-08; the dollar-denominated display replaced the credit-count display on the live pricing page.
+All tiers as of 2026-10-10 (re-verified unchanged against the live pricing page); the dollar-denominated display replaced the credit-count display on the live pricing page.
 
 ## Price history
 

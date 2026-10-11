@@ -25,7 +25,7 @@ The maker pitches it at financial reports, legal documents, filings, and technic
 ## Status
 
 **Actively developed and heavily starred for a two-year-old research bet.**
-38,836 stars and 3,363 forks since 2025-04-01, pushed 2026-10-06, 119 open issues (GitHub API, as of 2026-10-07).
+39,036 stars and 3,383 forks since 2025-04-01, pushed 2026-10-08, 122 open issues (GitHub API, as of 2026-10-10).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=VectifyAI/PageIndex&type=date&theme=dark&legend=top-left" />
@@ -80,7 +80,7 @@ My disagreeable claim: PageIndex is less a retrieval system than a claim that re
 
 ## References
 
-- https://api.github.com/repos/VectifyAI/PageIndex - 38,836 stars, 3,363 forks, MIT, created 2025-04-01, pushed 2026-10-06, 119 open issues (GitHub API, as of 2026-10-07)
+- https://api.github.com/repos/VectifyAI/PageIndex - 39,036 stars, 3,383 forks, MIT, created 2025-04-01, pushed 2026-10-08, 122 open issues (GitHub API, as of 2026-10-10)
 - https://raw.githubusercontent.com/VectifyAI/PageIndex/main/README.md - the tree-index method, local and cloud modes, Flash indexing, benchmark tables and cost curves
 - https://docs.pageindex.ai/ - developer docs: SDK client, documents, agent integrations, MCP tools
 - https://vectify.ai/blog/Mafin2.5 - the vendor's FinanceBench claim (98.7 percent, February 2025 blog)

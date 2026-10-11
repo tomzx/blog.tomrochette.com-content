@@ -8,11 +8,12 @@ tags: [agents, task-management]
 readability: 3
 ---
 
-Where agent work gets planned and tracked: markdown-native trackers, graph-backed issue databases, self-hosted team platforms, knowledge-vault systems, and the pipelines that turn PRDs into typed tasks.
+Where agent work gets planned and tracked: markdown-native trackers, graph-backed issue databases, event-sourced Git trackers, self-hosted team platforms, knowledge-vault systems, and the pipelines that turn PRDs into typed tasks.
 
 - [AI Dev Tasks](ai-dev-tasks/index.md) - the two-file PRD-to-checklist prompt pack that ran the pipeline before any of these tools existed, dormant since November 2025 at 7.8k stars.
 - [Backlog.md](backlog-md/index.md) - the markdown-native task manager whose three review gates, spec, plan, code, make it the first line of code review.
 - [beads](beads/index.md) - Steve Yegge's Dolt-backed graph issue tracker, dependency-aware with atomic claims, the agent-memory thesis in running code.
+- [Epiq](epiq/index.md) - the Git-native event-sourced issue tracker whose replayable log turns unattended agent sprints into auditable history, with MCP, a skill file, and per-agent identities.
 - [It's a Plan](its-a-plan/index.md) - the self-hosted AGPL tracker where agents hold assignee slots on the team board, with MCP, schedules, and an external runner for coding CLIs.
 - [Operon](operon/index.md) - the Obsidian plugin that makes the vault the task store, with agent writes landing only through receipted sealed plans.
 - [Ordewell](ordewell/index.md) - the CLI that turns one goal into typed plan artifacts with per-task runners and models, verified by completion markers rather than the model's word.
@@ -29,3 +30,4 @@ Its members are compared on shared rows in the [Task Management Feature Matrix](
 - 2026-10-07 - Added It's a Plan.
 - 2026-10-08 - Added AI Dev Tasks.
 - 2026-10-08 - Added Operon.
+- 2026-10-10 - Added Epiq.

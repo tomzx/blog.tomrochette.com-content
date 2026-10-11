@@ -24,7 +24,7 @@ Apache-2.0, maintained in the HarnessRouter repository under a maintainer-led, p
 
 ## Status
 
-**Active and shipping fast: 2,920 stars, 296 forks, created 2026-08-09, pushed 2026-10-08, all as of 2026-10-08 (GitHub API).**
+**Active and shipping fast: 2,951 stars, 301 forks, created 2026-08-09, pushed 2026-10-10, all as of 2026-10-10 (GitHub API).**
 
 The spec is at version 2026-10-04, its fourth version in roughly eight weeks (2026-08-11, 2026-09-12, 2026-09-28, 2026-10-04), with the conformance suite itself patched as recently as 2026-10-06.
 
@@ -34,8 +34,8 @@ The spec is at version 2026-10-04, its fourth version in roughly eight weeks (20
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=HarnessRouter/harnessrouter&type=date&legend=top-left" />
 </picture>
 
-The implementations page lists three servers and one client: HarnessRouter Community Edition (the 2,920-star open-source runner putting Codex, Claude Code, and Hermes behind the contract), the hosted HarnessRouter service (sixteen harness bases with a console and billing), and SuperQode (62 stars as of 2026-10-08), a harness-engineering framework that speaks UHP both as a server and as a client, which makes it the spec's one second implementation.
-The community footprint is the weak signal: the Show HN launch drew 10 points (2026-08-17) and a Hacker News search for the protocol's name returns zero stories (2026-10-08), so the 2,920 stars measure the implementing product, not the spec's reach.
+The implementations page lists three servers and one client: HarnessRouter Community Edition (the 2,951-star open-source runner putting Codex, Claude Code, and Hermes behind the contract), the hosted HarnessRouter service (sixteen harness bases with a console and billing), and SuperQode (62 stars as of 2026-10-10), a harness-engineering framework that speaks UHP both as a server and as a client, which makes it the spec's one second implementation.
+The community footprint is the weak signal: the Show HN launch drew 10 points (2026-08-17) and a Hacker News search for the protocol's name returns zero stories (2026-10-08), so the 2,951 stars measure the implementing product, not the spec's reach.
 
 ## Strengths
 
@@ -83,12 +83,12 @@ My disagreeable claim: the Responses API already owns this lane by gravity, so t
 
 - https://github.com/HarnessRouter/harnessrouter/tree/main/protocol - the spec home: current version 2026-10-04, draft-standard status, conformance suite, governance and versioning links
 - https://unifiedharnessprotocol.org/ - the official site: version history (2026-08-11, 2026-09-12, 2026-09-28, 2026-10-04) and the specification chapters
-- https://github.com/HarnessRouter/harnessrouter - repository facts: 2,920 stars, 296 forks, Apache-2.0, created 2026-08-09, pushed 2026-10-08 (GitHub API, as of 2026-10-08)
+- https://github.com/HarnessRouter/harnessrouter - repository facts: 2,951 stars, 301 forks, Apache-2.0, created 2026-08-09, pushed 2026-10-10 (GitHub API, as of 2026-10-10)
 - https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/protocol/IMPLEMENTATIONS.md - the implementations page: HarnessRouter CE and hosted servers, SuperQode server and client, listing criteria
 - https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/protocol/versions/2026-10-04/architecture.md - the Client/Server/Harness roles, the three conformance classes, and the configured-harness object model
 - https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/protocol/GOVERNANCE.md - the UEP proposal-first process and the three-artifact rule
 - https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/protocol/CHANGELOG.md - the spec-churn record: the 2026-10-04 same-day patch and the conformance-suite fixes through 2026-10-06
-- https://github.com/SuperagenticAI/superqode - the second implementation, 62 stars, Apache-2.0 (GitHub API, as of 2026-10-08)
+- https://github.com/SuperagenticAI/superqode - the second implementation, 62 stars, Apache-2.0 (GitHub API, as of 2026-10-10)
 - https://harnessrouter.ai - the hosted service: sixteen harness bases behind the UHP contract, commercial with a free tier
 - https://hn.algolia.com/api/v1/search?query=%22Unified%20Harness%20Protocol%22&tags=story - the footprint scan: zero stories naming the protocol, found 2026-10-08
 - https://hn.algolia.com/api/v1/search?query=%22HarnessRouter%22 - the Show HN launch thread at 10 points (2026-08-17)

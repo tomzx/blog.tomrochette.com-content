@@ -1,7 +1,7 @@
 ---
 title: Yolobox
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, containers, docker, isolation, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, solo author (Finbarr), docs at yolobox.dev.
 
 ## Status
 
-Young and shipping hard: 650 stars, pushed 2026-10-07 as of 2026-10-09, created 2026-01-09, with thirty releases on the train and v0.19.7 (2026-10-07) the latest.
+Young and shipping hard: 650 stars, pushed 2026-10-07 as of 2026-10-10, created 2026-01-09, with sixty-six releases on the train and v0.19.7 (2026-10-07) the latest.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=finbarr/yolobox&type=date&theme=dark&legend=top-left" />
@@ -67,6 +67,7 @@ Not for hostile code, by its own docs, and not on hosts where Docker is unavaila
 ## Changes
 
 - 2026-10-09 - Created from the arjan/awesome-agent-sandboxes re-scan, profiling the container wrapper for full-permission agent runs with the docs' accidents-not-attackers ceiling.
+- 2026-10-10 - Corrected the release-train count from thirty to sixty-six (the v0.1.0 through v0.19.7 releases list, fetched in full), the original figure having counted a single page; stars and the 122-point thread unchanged.
 
 ## See also
 
@@ -82,4 +83,4 @@ Not for hostile code, by its own docs, and not on hosts where Docker is unavaila
 - https://yolobox.dev - the docs site and the problem-and-solution framing
 - https://yolobox.dev/security - the Security Model page: trust boundary, protects and does-not-protect lists, trust-expanding flags
 - https://hn.algolia.com/api/v1/items/46592344 - the 122-point Show HN launch
-- https://api.github.com/repos/finbarr/yolobox/releases - the thirty-release train to v0.19.7 (2026-10-07)
+- https://api.github.com/repos/finbarr/yolobox/releases - the sixty-six-release train from v0.1.0 (2026-01-11) to v0.19.7 (2026-10-07)

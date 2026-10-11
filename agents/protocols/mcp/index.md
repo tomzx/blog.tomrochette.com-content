@@ -25,7 +25,7 @@ Anthropic created it (David Soria Parra and Justin Spahr-Summers), open-sourced 
 ## Status
 
 **Active and dominant.**
-The specification repository shows about 9.4k stars and roughly 4,850 commits as of 2026-10-08.
+The specification repository shows about 9.4k stars and roughly 4,900 commits as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=modelcontextprotocol/modelcontextprotocol&type=date&theme=dark&legend=top-left" />
@@ -85,7 +85,7 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 
 - https://modelcontextprotocol.io - official site: what MCP is, client ecosystem
 - https://modelcontextprotocol.io/specification/latest - current spec revision 2026-07-28, JSON-RPC core, extensions
-- https://github.com/modelcontextprotocol/modelcontextprotocol - spec repository, MIT license, stars and commits as of 2026-10-08
+- https://github.com/modelcontextprotocol/modelcontextprotocol - spec repository, MIT license, stars and commits as of 2026-10-10
 - https://www.anthropic.com/news/model-context-protocol - launch announcement (2024-11-25) and named creators
 - https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/ - Linux Foundation donation, member roster, 10,000+ server claim
 - https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks - the tool poisoning and rug pull critique

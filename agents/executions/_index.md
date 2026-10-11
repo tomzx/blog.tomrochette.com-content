@@ -8,7 +8,7 @@ tags: [agents, executions]
 readability: 3
 ---
 
-Event-driven agent execution: lifecycle hooks, scheduled and repository-triggered cloud agents, and the automation canvases where triggers start workflows.
+Event-driven agent execution: lifecycle hooks, scheduled and repository-triggered cloud agents, and the canvases and code-first platforms where triggers start agent work.
 
 - [Aeon](aeon/index.md) - the MIT framework that turns a GitHub repo plus Actions into an unattended cron agent driving nine harnesses.
 - [Claude Code hooks](claude-code-hooks/index.md) - lifecycle triggers that turn the harness into an event-driven system.
@@ -16,6 +16,7 @@ Event-driven agent execution: lifecycle hooks, scheduled and repository-triggere
 - [GitHub Agentic Workflows](github-agentic-workflows/index.md) - markdown-defined automation compiled into hardened Actions runs.
 - [GitHub Copilot automations](copilot-automations/index.md) - GitHub's cloud agent on schedules and repository events.
 - [n8n](n8n/index.md) - the fair-code automation canvas where triggers start workflows and agents.
+- [Trigger.dev](trigger-dev/index.md) - the Apache-2.0 code-first platform running TypeScript agent tasks on durable cron, SDK, and batch triggers.
 
 Its members are compared on shared rows in the [Executions Feature Matrix](executions-feature-matrix/index.md).
 
@@ -27,3 +28,4 @@ Its members are compared on shared rows in the [Executions Feature Matrix](execu
 - 2026-08-24 - Added n8n.
 - 2026-10-06 - Added Claude Code routines.
 - 2026-10-08 - Added Aeon.
+- 2026-10-10 - Added Trigger.dev.

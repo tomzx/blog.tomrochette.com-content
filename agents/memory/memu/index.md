@@ -26,7 +26,7 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
 
 ## Status
 
-**Quietly large: 14.5k stars rank it thirteenth of the twenty-two members profiled here, while its discussion footprint is nearly empty.**
+**Quietly large: 14.5k stars rank it thirteenth of the twenty-three members profiled here, while its discussion footprint is nearly empty.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&legend=top-left" />
 </picture>
 
-14,518 stars with the repository pushed 2026-10-09, created 2025-07-29, as of 2026-10-09 (GitHub API).
+14,519 stars with the repository pushed 2026-10-10, created 2025-07-29, as of 2026-10-10 (GitHub API).
 The Hacker News record is two threads: an 11-point Show HN in January 2026 (4 comments) and a 4-point story in July 2026 (0 comments), so the 14.5k stars rest on trend cycles and word of mouth, not public scrutiny.
 Development is active, with the README's host matrix and skill-extraction flow revised against current releases.
 The same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and Graphify.

@@ -1,7 +1,7 @@
 ---
 title: Unstructured
 created: 2026-10-06
-updated: 2026-10-09
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, document-parsing, rag, mcp]
 readability: 3
@@ -23,7 +23,7 @@ The open-source docs are one of three product tabs on the documentation site, be
 
 ## Status
 
-Active and still shipping: 15,550 stars, 1,351 forks since 2022-09-26, pushed 2026-10-09 (GitHub API, as of 2026-10-09), with PyPI at 0.27.22 released 2026-10-08 and eleven releases between 2026-09-14 and 2026-10-08.
+Active and still shipping: 15,557 stars, 1,351 forks since 2022-09-26, pushed 2026-10-10 (GitHub API, as of 2026-10-10), with PyPI at 0.27.25 released 2026-10-10, the first tagged release since 0.27.22 on 2026-10-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Unstructured-IO/unstructured&type=date&theme=dark&legend=top-left" />
@@ -31,8 +31,8 @@ Active and still shipping: 15,550 stars, 1,351 forks since 2022-09-26, pushed 20
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Unstructured-IO/unstructured&type=date&legend=top-left" />
 </picture>
 
-Adoption remains large: about 2M downloads a month (pepy badge, as of 2026-10-06).
-The displacement is the story: Docling, this category's current default, has 4.4x the stars (68.5k versus 15.5k) and roughly 1.5x the monthly downloads, and the largest dedicated Hacker News thread for Unstructured is 141 points from July 2023, with nothing comparable since.
+Adoption remains large: about 2M downloads a month (pepy badge, re-verified 2026-10-10).
+The displacement is the story: Docling, this category's current default, has 4.4x the stars (68.6k versus 15.6k) and roughly 1.5x the monthly downloads, and the largest dedicated Hacker News thread for Unstructured is 141 points from July 2023, with nothing comparable since.
 
 ## Strengths
 
@@ -70,6 +70,7 @@ My disagreeable claim: leading your README with the hosted MCP server is the uns
 - 2026-10-06 - Created in the daily refresh's retrieval entrant scan.
 - 2026-10-07 - Added the Unstructured-IO/unstructured star history chart to the Status section.
 - 2026-10-09 - Recorded the PyPI train moving to 0.27.22 (2026-10-08, six releases in three days after 0.27.16) and refreshed the repository numbers (15,550 stars, pushed 2026-10-09); downloads and the displacement figures are unchanged.
+- 2026-10-10 - Recorded PyPI 0.27.25 (2026-10-10, the first tagged release since 0.27.22) and refreshed the repository numbers (15,557 stars, pushed 2026-10-10); downloads unchanged and the Docling displacement ratio holds at 4.4x (68.6k versus 15.6k).
 
 ## See also
 
@@ -80,12 +81,12 @@ My disagreeable claim: leading your README with the hosted MCP server is the uns
 
 ## References
 
-- https://api.github.com/repos/Unstructured-IO/unstructured - 15,550 stars, 1,351 forks, Apache-2.0, created 2022-09-26, pushed 2026-10-09 (GitHub API, as of 2026-10-09)
+- https://api.github.com/repos/Unstructured-IO/unstructured - 15,557 stars, 1,351 forks, Apache-2.0, created 2022-09-26, pushed 2026-10-10 (GitHub API, as of 2026-10-10)
 - https://raw.githubusercontent.com/Unstructured-IO/unstructured/main/README.md - library scope, the Transform MCP and Pipelines leads, container and conda install paths
 - https://docs.unstructured.io/open-source/introduction/overview - the vendor's own prototyping-grade framing of the library and the three-product docs split
-- https://api.github.com/repos/Unstructured-IO/unstructured/releases?per_page=8 - the tagged releases 0.27.22 (2026-10-08) and 0.27.16 (2026-10-05) bracketing the six-version PyPI train
-- https://pypi.org/pypi/unstructured/json - latest version 0.27.22 (2026-10-08), 238 releases
-- https://static.pepy.tech/badge/unstructured/month - about 2M downloads a month (as of 2026-10-07)
+- https://api.github.com/repos/Unstructured-IO/unstructured/releases?per_page=8 - the tagged releases 0.27.25 (2026-10-10) and 0.27.22 (2026-10-08) bracketing the current PyPI train
+- https://pypi.org/pypi/unstructured/json - latest version 0.27.25 (2026-10-10), 239 releases
+- https://static.pepy.tech/badge/unstructured/month - about 2M downloads a month (re-verified 2026-10-10)
 - https://unstructured.io/enterprise - the Pipelines platform pitch and the demo-request pricing model
 - https://transform.unstructured.io/ - the Transform MCP entry, serving a Keycloak login wall (fetched 2026-10-06)
 - https://hn.algolia.com/api/v1/items/36616799 - the 141-point thread (2023-07-06) with the PDFMiner and Camelot quality critique

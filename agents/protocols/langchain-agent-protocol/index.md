@@ -26,7 +26,7 @@ MIT licensed, stewarded in the `langchain-ai` GitHub organization (repository cr
 ## Status
 
 **Active and implementation-backed, with a thin independent footprint.**
-The repository shows 684 stars, 65 forks, and a push on 2026-10-07, all as of 2026-10-08 (GitHub API).
+The repository shows 684 stars, 65 forks, and a push on 2026-10-07, all as of 2026-10-10 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/agent-protocol&type=date&theme=dark&legend=top-left" />
@@ -82,9 +82,9 @@ My disagreeable claim: this lane matters more than the protocol-sprawl critics a
 
 ## References
 
-- https://github.com/langchain-ai/agent-protocol - repository: 684 stars, 65 forks, MIT, created 2024-11-12, pushed 2026-10-07 (GitHub API, as of 2026-10-08)
+- https://github.com/langchain-ai/agent-protocol - repository: 684 stars, 65 forks, MIT, created 2024-11-12, pushed 2026-10-07 (GitHub API, as of 2026-10-10)
 - https://raw.githubusercontent.com/langchain-ai/agent-protocol/main/README.md - purpose, endpoint rationale, streaming spec, server stubs, implementations, and the LangGraph Platform superset claim
-- https://langchain-ai.github.io/agent-protocol/openapi.json - the OpenAPI document: title Agent Protocol, version 0.1.6, agents, threads, and runs endpoints as of 2026-10-07
+- https://langchain-ai.github.io/agent-protocol/openapi.json - the OpenAPI document: title Agent Protocol, version 0.1.6, agents, threads, and runs endpoints as of 2026-10-10
 - https://langchain-ai.github.io/agent-protocol/api.html - the docs home the repository lists as its homepage
 - https://www.langchain.com/pricing-langgraph-platform - the commercial LangGraph Platform page (fetches 200; renders client-side), the superset implementation
 - https://hn.algolia.com/api/v1/search?query=langchain%20agent%20protocol&hitsPerPage=6 - the footprint scan: no dedicated launch thread for the LangChain spec, found 2026-10-07

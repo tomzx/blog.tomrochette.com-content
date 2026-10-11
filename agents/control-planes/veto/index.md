@@ -1,7 +1,7 @@
 ---
 title: Veto
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-authorization, policy-enforcement, tool-calls, human-in-the-loop, open-source]
 readability: 3
@@ -24,8 +24,8 @@ It is made by Plaw, Inc. (US), which lists Veto as an EU AI Pact signatory.
 
 ## Status
 
-Active product, dormant open-source repository.
-The repository was created 2026-01-02 and sits at 14 stars, 2 forks, and 1 open issue as of 2026-10-06, with no source push since 2026-06-18 (110 days) and the latest published SDK release `veto-sdk@2.9.3` on 2026-05-07.
+Active product; the open-source repository woke up.
+The repository was created 2026-01-02 and sits at 14 stars, 2 forks, and 1 open issue as of 2026-10-10, and after 113 days of silence (no push since 2026-06-18) it received five release-engineering commits on 2026-10-09: CI moved to Depot, npm trusted publishing enabled, a first receipt package staged with provenance, and a Neon Postgres receipt persistence example, with no new tag (the latest published release remains `veto-sdk@2.9.3` on 2026-05-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PlawIO/veto&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ The repository was created 2026-01-02 and sits at 14 stars, 2 forks, and 1 open 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=PlawIO/veto&type=date&legend=top-left" />
 </picture>
 
-The website, docs, and pricing pages remain live with prices unchanged (verified 2026-10-06), and the company markets to agent vendors and regulated buyers, so the commercial product is clearly alive while the public source is not.
+The website, docs, and pricing pages remain live with prices unchanged (re-verified 2026-10-10), and the company markets to agent vendors and regulated buyers, so the commercial product is clearly alive while the public source has shipped nothing new yet.
 **The public footprint is small: a Hacker News search for Veto returns nothing relevant, and the starred count is in the low tens, so adoption evidence comes from the product surfaces rather than the community.**
 One operational wrinkle the README states plainly: Plaw does not yet control the unscoped `veto` npm name, so installs use the `veto-cli` package form until the transfer completes.
 
@@ -46,7 +46,7 @@ One operational wrinkle the README states plainly: Plaw does not yet control the
 
 ## Cautions
 
-- The open-source project is small (14 stars) and dormant since June 2026, so treat the community as nascent and the company as the real support channel.
+- The open-source project is small (14 stars) and its 2026-10-09 revival is so far release engineering rather than feature work, so treat the community as nascent and the company as the support channel.
 - The free tier caps at 5,000 checks per month with a hard stop, and hosted pricing scales by checks, so a high-volume internal agent can move from free to several hundred dollars quickly.
 - The README notes the unscoped `veto` npm name is not yet controlled by Plaw, which is a supply-chain detail to watch.
 - Benchmarks are self-published and the comparison against another toolkit uses that toolkit's own published numbers, not a reproduced head-to-head.
@@ -79,6 +79,7 @@ Enterprise is custom, covering cloud, BYOC, on-prem, or isolated networks with H
 - 2026-09-27 - Created.
 - 2026-10-02 - Moved the repository status to dormant (no source push since 2026-06-18) while re-verifying the commercial site and pricing as unchanged; added the missing llm=glm-5.3-flash tag.
 - 2026-10-07 - Added the PlawIO/veto star history chart to the Status section.
+- 2026-10-10 - Moved the repository status from dormant to revived: five release-engineering commits on 2026-10-09 (CI, npm trusted publishing, a provenance-staged receipt package, a Neon Postgres example) after 113 days of silence, with no new tag; prices re-verified unchanged.
 
 ## See also
 
@@ -93,6 +94,6 @@ Enterprise is custom, covering cloud, BYOC, on-prem, or isolated networks with H
 - https://veto.so/ - product framing, supported frameworks, EU AI Pact claim
 - https://veto.so/pricing - Developer, Hosted, and Enterprise plans with dollar amounts
 - https://github.com/PlawIO/veto - README: `protect()`, rules, adapter matrix, benchmarks, BYOC boundary
-- https://api.github.com/repos/PlawIO/veto - stars, forks, issues, push dates as of 2026-10-06
+- https://api.github.com/repos/PlawIO/veto - stars, forks, issues, push dates as of 2026-10-10
 - https://docs.veto.so - documentation: MAP artifacts, local runtime, receipts, adapters
 - https://api.github.com/repos/PlawIO/veto/releases - veto-sdk@2.9.3, 2026-05-07

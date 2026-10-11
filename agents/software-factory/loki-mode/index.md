@@ -21,7 +21,7 @@ Autonomi publishes it under BUSL-1.1, and the README documents outcomes and exit
 
 ## Status
 
-Active and shipping fast: 1,088 stars and 208 forks since creation on 2025-12-26, pushed 2026-10-09, npm at 11.3.9 (2026-10-09), and 176,688 Docker pulls, per GitHub, npm, and Docker Hub as of 2026-10-09.
+Active and shipping fast: 1,090 stars and 207 forks since creation on 2025-12-26, pushed 2026-10-09, npm at 11.3.9 (2026-10-09), and 177,097 Docker pulls, per GitHub, npm, and Docker Hub as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=asklokesh/loki-mode&type=date&theme=dark&legend=top-left" />

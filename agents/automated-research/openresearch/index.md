@@ -1,7 +1,7 @@
 ---
 title: OpenResearch
 created: 2026-10-05
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, autoresearch, multi-agent, alphaXiv]
 readability: 3
@@ -24,7 +24,7 @@ The agent-facing surface is first-class: `orx install-skills` installs a skill i
 
 ## Status
 
-Active and fast-moving: 6,687 stars, 427 forks, 69 open issues and pull requests, created 2026-06-07, last push 2026-10-07, with releases v0.2.13 through v0.2.17 landing between September 29 and October 7, as of 2026-10-07.
+Active and fast-moving: 6,823 stars, 441 forks, 91 open issues and pull requests, created 2026-06-07, last push 2026-10-10, with releases v0.2.13 through v0.2.18 landing between September 29 and October 9, as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alphaXiv/OpenResearch&type=date&theme=dark&legend=top-left" />
@@ -69,10 +69,12 @@ Not for anyone who needs a supported product, a security-reviewed remote deploym
 
 - 2026-10-05 - Created.
 - 2026-10-07 - Added the alphaXiv/OpenResearch star history chart to the Status section.
+- 2026-10-10 - Recorded the v0.2.18 release (October 9) and refreshed the volatile counts.
 
 ## See also
 
 - [Agon](../agon/index.md) - the paper-artifact loop OpenResearch turns into a runnable workspace
+- [Karpathy Autoresearch](../karpathy-autoresearch/index.md) - the founding loop this product industrializes
 - [OpenAI Deep Research](../openai-deep-research/index.md) - the productized, prose-only counterpart
 - [Pion](../pion/index.md) - the closed loop whose judge is a bank account
 - [Automated Research Feature Matrix](../automated-research-feature-matrix/index.md) - the category comparison this note joins

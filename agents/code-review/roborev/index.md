@@ -1,7 +1,7 @@
 ---
 title: roborev
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -24,7 +24,7 @@ It is a Go binary from Kenn Software LLC, the company led by Wes McKinney (the c
 ## Status
 
 **Active and unusually fast-moving, with adoption concentrated around its author's reputation.**
-The repo (kenn-io/roborev) was created January 5, 2026 and shows 1,746 stars, 165 forks, and 30 contributors as of 2026-10-07, pushed the same day.
+The repo (kenn-io/roborev) was created January 5, 2026 and shows 1,748 stars, 166 forks, and 54 contributors as of 2026-10-10, pushed the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/roborev&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 
 - 2026-10-06 - Created after the entrant scan resolved the owner's 2026-09-20 star of kenn-io/roborev, which no earlier run had resolved; twelve sources fetched this run, including the critical LinkedIn hallucination report.
 - 2026-10-07 - Added the kenn-io/roborev star history chart to the Status section.
+- 2026-10-10 - Corrected the contributor count from 30 to 54; the earlier figure was the GitHub API's default 30-per-page cap, not the full paginated total.
 
 ## See also
 
@@ -81,13 +82,13 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 
 ## References
 
-- https://github.com/kenn-io/roborev - repo facts: 1,746 stars, 165 forks, 30 contributors, MIT, created 2026-01-05, pushed 2026-10-07 (GitHub API, as of 2026-10-07)
+- https://github.com/kenn-io/roborev - repo facts: 1,748 stars, 166 forks, 54 contributors, MIT, created 2026-01-05, pushed 2026-10-10 (GitHub API, as of 2026-10-10)
 - https://raw.githubusercontent.com/kenn-io/roborev/HEAD/README.md - the two automation layers, the refine skill, and install paths
 - https://roborev.io/docs/ - the ledger model, the agent hook, panels, PostgreSQL sync, and the ACP surface
 - https://roborev.io/docs/agents.md - the eleven supported agents and the auto-detection fallback order
 - https://roborev.io/docs/integrations/github.md - the CI poller, subagent panels with synthesis (0.57+), and trusted-collaborator context
 - https://roborev.io/docs/changelog/ - the release train, the 0.33 false-positive work, and the gh-action generator
-- https://github.com/kenn-io/roborev/releases - v0.71.0 (2026-10-03), latest of 120 releases (GitHub API, as of 2026-10-06)
+- https://github.com/kenn-io/roborev/releases - v0.71.0 (2026-10-03), latest of 120 releases (GitHub API, as of 2026-10-10)
 - https://hn.algolia.com/api/v1/items/46515428 - the 4-point, zero-comment launch thread, the thin-footprint signal
 - https://wesmckinney.com/blog/agentic-engineering-aug-2026/ - the author's workflow grounding the design, roborev as the verification layer beside Superpowers
 - https://posit.co/blog/the-prolific-output-of-wes-mckinney-in-the-age-of-agentic-engineering/ - the independent profile of author and tool, and the source linking the pre-transfer roborev-dev org

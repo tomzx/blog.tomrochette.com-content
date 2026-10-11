@@ -26,7 +26,7 @@ It sits in the orchestration layer of this section's taxonomy (control plane and
 ## Status
 
 **Active, well-capitalized by YC standards, and shipping daily.**
-2,878 stars and 231 forks as of 2026-10-04 on a repo created July 9, 2025, with pushes landing within a day of verification (GitHub API).
+2,901 stars and 231 forks as of 2026-10-10 on a repo created July 9, 2025, with pushes landing within a day of verification (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=omnara-ai/omnara&type=date&theme=dark&legend=top-left" />

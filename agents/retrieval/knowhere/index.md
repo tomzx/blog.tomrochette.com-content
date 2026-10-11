@@ -34,7 +34,7 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
 </picture>
 
-3,683 stars since 2026-04-30, latest release v1.2.23 on 2026-10-08 (following v1.2.21 and v1.2.22 on 2026-10-05, and v1.2.20 on 2026-09-30), pushed 2026-10-08 (GitHub API, as of 2026-10-09).
+3,700 stars since 2026-04-30, latest release v1.2.23 on 2026-10-08 (following v1.2.21 and v1.2.22 on 2026-10-05, and v1.2.20 on 2026-09-30), pushed 2026-10-10 (GitHub API, as of 2026-10-10).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
 
@@ -98,7 +98,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,683 stars and activity as of 2026-10-09
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,700 stars and activity as of 2026-10-10
 - https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.23 on 2026-10-08
 - https://knowhereto.ai - hosted product surface, $5 free credit, and the self-reported comparison table
 - https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface

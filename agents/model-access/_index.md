@@ -8,10 +8,10 @@ tags: [agents, model-access]
 readability: 3
 ---
 
-The layer that sells access to models themselves: gateways and routers taking a percentage or, in Vercel's case, nothing on the token itself, vendor plans selling a quota (including the consumer subscriptions that carry Claude Code and Codex), flat subscriptions selling a ceiling, and the self-hosted software (LiteLLM, Bifrost, Ollama, Magnitude, Plano, llamafile) that routes, serves, or distributes the same access for free.
+The layer that sells access to models themselves: gateways and routers taking a percentage or, in Vercel's case, nothing on the token itself, vendor plans selling a quota (including the consumer subscriptions that carry Claude Code and Codex), flat subscriptions selling a ceiling, and the self-hosted software (LiteLLM, Bifrost, Ollama, LocalAI, Magnitude, Plano, llamafile) that routes, serves, or distributes the same access for free.
 Editors and harnesses live in their own categories; this is where the token bill gets paid.
 
-- [Bifrost](bifrost/index.md) - Maxim's self-hosted Apache-2.0 Go gateway unifying 20-plus providers with failover, budgets, and an MCP gateway, the performance challenger to LiteLLM, 8.6k stars.
+- [Bifrost](bifrost/index.md) - Maxim's self-hosted Apache-2.0 Go gateway unifying 20-plus providers with failover, budgets, and an MCP gateway, the performance challenger to LiteLLM, 8.7k stars.
 - [Cerebras Code](cerebras-code/index.md) - wafer-scale inference sold as speed, $50/$200 per month, currently sold out.
 - [ChatGPT plans](chatgpt-plans/index.md) - OpenAI's subscription ladder from Go $8 to Pro tiers up to $500 per month, every tier carrying Codex.
 - [Chutes](chutes/index.md) - decentralized inference with pay-as-you-go plus $10/$20 subscriptions capped at 5x pay-as-you-go value.
@@ -23,6 +23,7 @@ Editors and harnesses live in their own categories; this is where the token bill
 - [LiteLLM](litellm/index.md) - a self-hosted MIT gateway unifying 100+ provider APIs behind one OpenAI-compatible endpoint, with routing, budgets, and spend tracking.
 - [llamafile](llamafile/index.md) - Mozilla's single-file LLM distribution folding llama.cpp and Cosmopolitan Libc into one cross-platform executable, the family's distribute-instead-of-serve answer, 26.2k stars.
 - [LLM Gateway](llm-gateway/index.md) - an open-source gateway charging 5% on credit top-ups with free BYOK, plus DevPass flat-rate coding plans from $29.
+- [LocalAI](localai/index.md) - mudler's MIT self-hosted inference server serving a 1,255-model gallery behind OpenAI, Anthropic, Ollama, and ElevenLabs-compatible APIs with multi-user quotas, 49.5k stars.
 - [Magnitude](magnitude/index.md) - a self-optimizing local inference engine (YC S25) that tunes its kernels on your device, free under Apache-2.0.
 - [MiniMax Coding Plan](minimax-coding-plan/index.md) - token-quota subscriptions for the MiniMax line, $22 to $132 per month, born from a silent plan replacement.
 - [NanoGPT](nanogpt/index.md) - the community aggregator: hundreds of routes pay-as-you-go plus a $12 open-weight subscription.
@@ -66,3 +67,4 @@ Its members are compared on shared rows in the [Model Access Feature Matrix](mod
 - 2026-10-07 - Added Plano.
 - 2026-10-07 - Added Bifrost.
 - 2026-10-07 - Added llamafile.
+- 2026-10-10 - Added LocalAI.

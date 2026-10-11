@@ -26,7 +26,7 @@ Humans write the protocols, run every physical experiment, and review the ranked
 Published in Nature on May 19, 2026 (volume 655, pages 497 to 505, open access), first announced May 20, 2025, with concept to submission taking 2.5 months, as of 2026-10-06.
 The demo: pointed at dry age-related macular degeneration, Robin proposed enhancing RPE phagocytosis, and its rounds of candidates identified ripasudil, an approved glaucoma drug never before proposed for the disease, plus KL001, a circadian modulator, both confirmed in vitro and revalidated in primary human RPE stem cells from a donor over 60.
 Nature reports about 268,000 accesses and 117 citations in the five months since publication, as of 2026-10-06.
-The repository carries the loop and example trajectories: 730 stars, 122 forks, Apache-2.0, last push 2026-04-21, as of 2026-10-06.
+The repository carries the loop and example trajectories: 732 stars, 123 forks, Apache-2.0, last push 2026-04-21, as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Future-House/robin&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ The repository carries the loop and example trajectories: 730 stars, 122 forks, 
 </picture>
 
 A paper-configured workflow run costs about US$11 of API calls (45 Crow and 30 Falcon calls), and Robin read 551 papers in 30 minutes against an estimated 294 human hours.
-**The developer-community footprint is nearly absent: the announcement drew an 18-point Hacker News thread with 4 comments as of 2026-10-06, so adoption runs through academia and Nature readers rather than the harness ecosystem.**
+**The developer-community footprint is nearly absent: the announcement drew an 18-point Hacker News thread with 4 comments as of 2026-10-10, so adoption runs through academia and Nature readers rather than the harness ecosystem.**
 
 ## Strengths
 

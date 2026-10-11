@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Development Environment Landscape"
 created: 2026-07-04
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains]
 readability: 3
@@ -13,7 +13,7 @@ agent_sessions:
 
 The terminal coding agent answered the question of whether an AI can edit a real repository.
 The next problem is harder: how do you run several of them, watch what they are doing, and keep them from colliding on the same files.
-In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-10-07.
+In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-10-10.
 
 ## What an ADE is, and what it is not
 
@@ -59,7 +59,7 @@ It is also closed-source and tied to a JetBrains AI subscription or bring-your-o
 
 [Orca](https://github.com/stablyai/orca) is the open-source ADE with the most feature surface and the clearest mobile story.
 It runs any CLI agent on macOS, Windows, and Linux, ships an iOS and Android companion app for monitoring agents from your phone, and adds the kind of polish that comes from daily shipping: Ghostty-class terminals, a Design Mode that ships a clicked DOM element straight into an agent prompt, native GitHub and Linear boards, and SSH worktrees for running agents on a remote box.
-It is MIT-licensed and YC-backed, it carries the category's largest open-source community (about 86.7k GitHub stars as of 2026-10-07), and it is the reference implementation most people picture when they hear "ADE."
+It is MIT-licensed and YC-backed, it carries the category's largest open-source community (about 88.9k GitHub stars as of 2026-10-10), and it is the reference implementation most people picture when they hear "ADE."
 
 [Paseo](https://github.com/getpaseo/paseo) takes the privacy-first position to its logical end.
 It is AGPL-3.0, ships desktop, mobile, web, and CLI clients against a self-hosted daemon, supports Claude Code, Codex, Copilot, OpenCode, and Pi through one interface, and collects no telemetry.
@@ -142,6 +142,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - 2026-10-04 - Added the as-of clause to the intro and corrected three stale claims against the re-fetched JetBrains Air and OpenCode pages: Air now lists OpenCode and ACP connectivity among its supported agents (the old seam is closed), Air advertises IDE, web, CLI, and mobile surfaces with cloud runs in rollout (no longer desktop-only), and OpenCode has shipped its ACP adapter, resolving the protocol-axis question.
 - 2026-10-06 - Rewrote the Agent Orchestrator line against its new section note: the tool is a Go-daemon desktop kanban supervising 26-plus CLIs, not the tmux-driven runner this snapshot recorded, its repository moved to the OrchestratorInc org (fourth move in eight months), and the line now links the note; the ade-topic reference annotated with this run's 429 and the search-API re-check of Orca's lead.
 - 2026-10-07 - Corrected the leaderboard's largest-community claim: the snapshot credited Superset, but Orca has led the open-source field on GitHub stars throughout (about 86.7k against Superset's about 15.0k today), so the superlative moved to Orca's line with a dated count and was dropped from Superset's; every external link re-fetched 200, the Air supported-agents and surface claims re-verified against its live page, and the snapshot framing itself unchanged.
+- 2026-10-10 - Re-fetched all 17 URLs: fifteen fetched 200 and the two GitHub topic pages returned 429 on both attempts (recorded here honestly), Air's supported-agent and surface claims re-verified against its live page, Orca's dated count moved to about 88.9k with the largest-community superlative holding (GitHub API, against Superset's about 15.0k), and the Superset reference line's stale largest-community annotation corrected, a leftover from the 2026-10-07 body fix the reference section had missed.
 
 ## See also
 
@@ -156,7 +157,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 
 - [stablyai/orca](https://github.com/stablyai/orca) - open-source ADE; any CLI agent, desktop and mobile, the feature reference
 - [getpaseo/paseo](https://github.com/getpaseo/paseo) - AGPL self-hosted ADE; multi-provider, zero telemetry
-- [superset-sh/superset](https://github.com/superset-sh/superset) - largest open-source ADE by community
+- [superset-sh/superset](https://github.com/superset-sh/superset) - open-source ADE, Electron desktop app with a CLI companion (about 15.0k stars as of 2026-10-10)
 - [JetBrains Air](https://www.jetbrains.com/air/) - the incumbent's commercial ADE
 - [JetBrains, "Air Launches as Public Preview"](https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/) - Air's positioning, supported agents, and roadmap
 - [JetBrains + Zed, Agent Client Protocol](https://blog.jetbrains.com/ai/2025/10/jetbrains-zed-open-interoperability-for-ai-coding-agents-in-your-ide/) - the interop standard that makes vendor-neutral ADEs credible
@@ -168,6 +169,6 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - [automagik-dev/genie](https://github.com/automagik-dev/genie) - CLI agent that dispatches parallel worktrees and reviews
 - [lanes-sh/app](https://github.com/lanes-sh/app) - mission control for parallel agents
 - [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) - curated list for tracking the long tail
-- [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (fetched 200, 2026-10-07)
-- [GitHub topic: parallel-agents](https://github.com/topics/parallel-agents) - the broader orchestration topic (fetched 200, 2026-10-07)
+- [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (fetched 200, 2026-10-07; 429 on both 2026-10-10 attempts)
+- [GitHub topic: parallel-agents](https://github.com/topics/parallel-agents) - the broader orchestration topic (fetched 200, 2026-10-07; 429 on both 2026-10-10 attempts)
 - [OpenCode ACP documentation](https://opencode.ai/docs/acp/) - the shipped adapter that resolved the protocol-axis question (fetched 200, 2026-10-07)

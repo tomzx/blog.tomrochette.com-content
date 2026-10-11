@@ -28,7 +28,7 @@ EverMind also sells EverOS Cloud, a managed deployment of the same engine, and p
 ## Status
 
 **Young, fast-moving, and vendor-led, with the section's familiar thin public footprint.**
-13,371 stars and 927 forks, created 2025-10-28, pushed 2026-10-06, as of 2026-10-09 (GitHub API).
+13,393 stars and 927 forks, created 2025-10-28, pushed 2026-10-10, as of 2026-10-10 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/EverOS&type=date&theme=dark&legend=top-left" />
@@ -85,7 +85,7 @@ Not for teams needing published hosted pricing, independent benchmark evidence, 
 
 ## References
 
-- https://github.com/EverMind-AI/EverOS - repository, 13,371 stars, forks, activity, description, as of 2026-10-09
+- https://github.com/EverMind-AI/EverOS - repository, 13,393 stars, forks, activity, description, as of 2026-10-10
 - https://raw.githubusercontent.com/EverMind-AI/EverOS/main/README.md - the markdown-plus-SQLite-plus-LanceDB stack, the two tracks, scoping ids, reflection, and the integration table
 - https://api.github.com/repos/EverMind-AI/EverOS/license - the Apache-2.0 license file, verified through the GitHub API
 - https://api.github.com/repos/EverMind-AI/EverOS/releases - the v1.4.x release train, as of 2026-10-09

@@ -23,7 +23,7 @@ It is published under the Microsoft organization, but the team states an intent 
 
 ## Status
 
-Active, wide, and fast-moving: 6,401 stars, 1,124 forks, and 77 open issues as of 2026-10-07, created 2026-03-02, last pushed 2026-10-07, latest release v4.1.0 on 2026-06-09.
+Active, wide, and fast-moving: 6,415 stars, 1,128 forks, and 77 open issues as of 2026-10-10, created 2026-03-02, last pushed 2026-10-09, latest release v4.1.0 on 2026-06-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-governance-toolkit&type=date&theme=dark&legend=top-left" />
@@ -81,7 +81,7 @@ Deployment guides cover Azure, AWS, GCP, and Docker Compose.
 ## References
 
 - https://github.com/microsoft/agent-governance-toolkit - README: packages, quickstart, specs, preview notice, security boundaries
-- https://api.github.com/repos/microsoft/agent-governance-toolkit - stars, forks, issues, push date as of 2026-10-06
+- https://api.github.com/repos/microsoft/agent-governance-toolkit - stars, forks, issues, push date as of 2026-10-10
 - https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/ - launch post: seven packages, OWASP mapping, foundation intent
 - https://www.flyingpenguin.com/authentication-bypass-in-microsoft-agent-governance-toolkit-at-573f989/ - critical security review of identity wiring and audit durability
 - https://api.github.com/repos/microsoft/agent-governance-toolkit/releases - v4.1.0, 2026-06-09

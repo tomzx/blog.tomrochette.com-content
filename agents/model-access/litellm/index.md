@@ -1,7 +1,7 @@
 ---
 title: LiteLLM
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted]
 readability: 3
@@ -24,7 +24,7 @@ The core is MIT licensed; the `enterprise/` directory ships under a separate com
 
 ## Status
 
-Very active: 60,260 stars as of 2026-10-07, repo pushed the same day, publicly released July 2023.
+Very active: 60,804 stars as of 2026-10-10, repo pushed the same day, publicly released July 2023.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=BerriAI/litellm&type=date&theme=dark&legend=top-left" />

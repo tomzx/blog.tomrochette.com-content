@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-10-09
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 ## Status
 
 Massive and fast-moving.
-As of 2026-10-09: 252,133 stars and 54,409 forks since creation on 2025-07-22, pushed today, MIT, and 47,859 open issues, a support surface bigger than most projects' users.
+As of 2026-10-10: 252,377 stars and 54,527 forks since creation on 2025-07-22, pushed today, MIT, and 47,697 open issues, a support surface bigger than most projects' users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ As of 2026-10-09: 252,133 stars and 54,409 forks since creation on 2025-07-22, p
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&legend=top-left" />
 </picture>
 
-Releases ship as date-stamped tags, and September alone saw v2026.9.7, v2026.9.11, v2026.9.14, v2026.9.21, and v2026.9.24, though no tag had shipped in the first seven days of October as of 2026-10-07.
+Releases shipped as date-stamped tags through v2026.9.24 (2026-09-24), with September alone seeing five tags, and on 2026-10-08 the project cut v0.21.6, the first semver tag and the first release of a new stable release pipeline (one attempt ref, a tested Docker image, and a receipt tag at publish), rolling up about 2,100 pull requests since v0.21.5 with the curated notes deferred to v0.22.0.
 The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) landed June 2026, and a real tool ecosystem followed (a 28-point Grafana observability integration, a Fleet console for managing Dockerized Hermes agents, XMPP interop with OpenClaw, and a community gadget SDK building ESP32 voice and text devices, 302 stars as of 2026-10-07).
 **The governance record is the caution: a May 2026 thread documents Nous editing a GitHub issue to remove plagiarism claims about Hermes Agent ([issue 10232](https://github.com/NousResearch/hermes-agent/issues/10232)), so origin claims around this project deserve independent reading.**
 
@@ -45,7 +45,7 @@ The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) land
 
 ## Cautions
 
-- 47,710 open issues is triage weather, not a queue; expect to read code when things break.
+- Roughly 48,000 open issues is triage weather, not a queue; expect to read code when things break.
 - The plagiarism-claim edit is a stewardship red flag worth weighing before making it your memory keeper.
 - A self-curating memory compounds errors as efficiently as insights; the loop needs supervision, not just trust.
 - Windows installs bundle a lot of machinery (uv, Node, Git Bash), which is surface area to audit.
@@ -84,6 +84,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 - 2026-09-24 - Recorded v2026.9.24, the fifth September tag, with refreshed adoption numbers and the Portal tiers (Free, Plus $20, Super $100, Ultra $200) re-checked unchanged on the official site.
 - 2026-10-07 - Added the NousResearch/hermes-agent star history chart to the Status section.
 - 2026-10-07 - Added the community hermes-gadget-sdk (ESP32 voice and text devices for the agent, 302 stars) to the ecosystem record, with refreshed adoption numbers.
+- 2026-10-10 - Recorded the release-scheme change: v0.21.6 (2026-10-08) is the first semver tag and the first cut of a new stable release pipeline, ending the date-stamped scheme and the early-October tag gap, with refreshed adoption numbers and the Portal tiers re-checked unchanged.
 
 ## See also
 
@@ -95,8 +96,9 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 ## References
 
 - https://github.com/NousResearch/hermes-agent - README: learning loop, backends, channels, install
-- https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-10-07
-- https://api.github.com/repos/NousResearch/hermes-agent/releases - the date-stamped release tags through v2026.9.24 (2026-09-24)
+- https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-10-10
+- https://api.github.com/repos/NousResearch/hermes-agent/releases - the date-stamped tags through v2026.9.24 (2026-09-24), then v0.21.6 (2026-10-08), the first semver tag under the new stable release pipeline
+- https://api.github.com/repos/NousResearch/hermes-agent/releases/tags/v0.21.6 - the v0.21.6 release notes describing the new stable release pipeline (fetched 2026-10-10)
 - https://hermes-agent.nousresearch.com - official site and docs, including the Hermes Free/Plus/Super/Ultra plan tiers
 - https://news.ycombinator.com/item?id=48419000 - the 52-point launch thread
 - https://github.com/NousResearch/hermes-agent/issues/10232 - the edited plagiarism-claims issue

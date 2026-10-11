@@ -1,7 +1,7 @@
 ---
 title: "Surface Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-09
+updated: 2026-10-10
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, surfaces, ai-editors]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what MCP, AGENTS.md, cloud agents, and BYOK mean; each column links to a full note.
 ---
 
-This matrix compares the sixteen surfaces profiled in this section, feature by feature, from editors to agent platforms to session cockpits.
+This matrix compares the seventeen surfaces profiled in this section, feature by feature, from editors to agent platforms to session cockpits.
 
 **The surfaces differ less in whether they have an agent and more in what they are: an editor with an agent inside, a platform that treats the editor as one client, or a cockpit for many agents, and the row that matters most is the one nobody advertises, who runs where.**
 
@@ -19,19 +19,19 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## The matrix
 
-| Feature | [Cate](../cate/index.md) | [Continue](../continue/index.md) | [Cursor](../cursor/index.md) | [Delta](../delta/index.md) | [Google Antigravity](../antigravity/index.md) | [JetBrains IDEs](../jetbrains/index.md) | [Kiro](../kiro/index.md) | [OpenChamber](../openchamber/index.md) | [Roo Code](../roo-code/index.md) | [Trae](../trae/index.md) | [Visual Studio 2026](../visual-studio-2026/index.md) | [Void](../void/index.md) | [VS Code + Copilot](../vscode-copilot/index.md) | [Whiteboard](../whiteboard/index.md) | [Windsurf](../windsurf/index.md) | [Zed](../zed/index.md) |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kind | infinite-canvas desktop workspace | platform, IDE, CLI, SDK | extensions and CLI | multiplayer agent environment over DeltaDB | VS Code fork | IDE suite | closed IDE | local session app | VS Code extension | VS Code fork | Windows IDE | VS Code fork | editor plus extensions | desktop canvas app where agents draw and humans review | VS Code fork | Rust editor |
-| Open source | ✓ MIT | ✗ | ✓ Apache-2.0 | ✗ | ✗ | ~ Community IDEs | ✗ | ✓ MIT | ✓ Apache-2.0 | ✗ | ✗ | ✓ Apache-2.0 | ~ MIT editor | ✓ MIT app and SDK | ✗ | ~ mixed licenses |
-| Free tier | ✓ free and open source | ✓ unlimited completions | ✓ Hobby | ✓ beta free | ✓ Individuals $0 | ✓ free to start (Junie Lite) | ✓ 50 credits | ✓ | ✓ BYOK extension | ✓ | ✓ Community | ✓ | ✓ Copilot Free | ✓ free and local-only in beta | ✓ Devin account | ✓ |
-| BYOK | ✓ via your agent CLIs and keys | ✗ | ✓ | ✓ | ~ SDK local servers only, no BYOK in plans | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ preview (Foundry, OpenAI, Anthropic, Ollama) | ✓ | ✓ | ✓ brings your own harness (Claude Code, Codex) | ✗ Devin key only | ✓ |
-| Local models | ~ via your agent CLIs | ✗ | ✗ not documented | ~ via external agents | ~ via the SDK (LiteRT or Ollama) | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ Ollama in BYOK preview | ? | ✓ | ✓ local-only today | ? | ✓ |
-| MCP | ? not verified | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ in agent mode | ? | ✓ | ? not verified | ✓ | ✓ |
-| AGENTS.md | ? not verified | ? | ✓ plus own rules | ? | ✓ | ✗ guidelines.md | ✓ | ✓ | ✓ if enabled | ✓ | ✗ copilot-instructions.md | ? | ✓ | ? not verified | ✓ | ✓ |
-| Cloud agents | ✗ local and SSH only | ~ remote control | ✓ cloud agents | ~ web and cloud runners | ✓ | ~ | ✓ web and Crew | ✗ local machine only | ~ Cloud sunset 2026-05 | ✓ TraeWork | ✓ Copilot cloud since 18.1 | ✗ | ✓ Copilot agent | ✗ review surface, not a host | ✓ Devin | ✗ |
-| Parallel agent management | ✓ core loop | ✓ command center | ~ cloud agents | ✓ threads | ✓ fleets | ? | ✓ Crew | ✓ core loop | ~ orchestrator mode | ✓ concurrent tasks | ✗ none documented | ✗ | ✓ Agents window | ✗ none advertised | ✓ Command Center | ~ agent panel |
-| Scheduled work | ✗ none documented | ✓ scheduled messages | ✓ automations | ? | ✓ automations | ? | ✓ hooks | ✓ cron | ? | ? | ✗ none documented | ✗ | ~ via GitHub | ✗ none advertised | ? | ✗ |
-| Mobile surface | ✗ none documented | ✓ remote control | ✓ iOS app | ✓ mobile browser | ✓ | ✓ | ✓ | ✓ beta | ? | ? | ✗ | ✗ | ✓ Copilot app | ✗ desktop app only | ? | ✗ |
+| Feature | [Cate](../cate/index.md) | [Continue](../continue/index.md) | [Cursor](../cursor/index.md) | [Delta](../delta/index.md) | [Google Antigravity](../antigravity/index.md) | [JetBrains IDEs](../jetbrains/index.md) | [Kiro](../kiro/index.md) | [OpenChamber](../openchamber/index.md) | [Roo Code](../roo-code/index.md) | [Trae](../trae/index.md) | [Vibeyard](../vibeyard/index.md) | [Visual Studio 2026](../visual-studio-2026/index.md) | [Void](../void/index.md) | [VS Code + Copilot](../vscode-copilot/index.md) | [Whiteboard](../whiteboard/index.md) | [Windsurf](../windsurf/index.md) | [Zed](../zed/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | infinite-canvas desktop workspace | platform, IDE, CLI, SDK | extensions and CLI | multiplayer agent environment over DeltaDB | VS Code fork | IDE suite | closed IDE | local session app | VS Code extension | VS Code fork | Electron desktop IDE wrapping agent CLIs with a project dashboard, kanban, and session grid | Windows IDE | VS Code fork | editor plus extensions | desktop canvas app where agents draw and humans review | VS Code fork | Rust editor |
+| Open source | ✓ MIT | ✗ | ✓ Apache-2.0 | ✗ | ✗ | ~ Community IDEs | ✗ | ✓ MIT | ✓ Apache-2.0 | ✗ | ✓ MIT | ✗ | ✓ Apache-2.0 | ~ MIT editor | ✓ MIT app and SDK | ✗ | ~ mixed licenses |
+| Free tier | ✓ free and open source | ✓ unlimited completions | ✓ Hobby | ✓ beta free | ✓ Individuals $0 | ✓ free to start (Junie Lite) | ✓ 50 credits | ✓ | ✓ BYOK extension | ✓ | ✓ free and open source | ✓ Community | ✓ | ✓ Copilot Free | ✓ free and local-only in beta | ✓ Devin account | ✓ |
+| BYOK | ✓ via your agent CLIs and keys | ✗ | ✓ | ✓ | ~ SDK local servers only, no BYOK in plans | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ through the CLIs it hosts (multiple isolated Claude profiles) | ✓ preview (Foundry, OpenAI, Anthropic, Ollama) | ✓ | ✓ | ✓ brings your own harness (Claude Code, Codex) | ✗ Devin key only | ✓ |
+| Local models | ~ via your agent CLIs | ✗ | ✗ not documented | ~ via external agents | ~ via the SDK (LiteRT or Ollama) | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ~ via the wrapped CLIs | ✓ Ollama in BYOK preview | ? | ✓ | ✓ local-only today | ? | ✓ |
+| MCP | ? not verified | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ? not verified | ✓ in agent mode | ? | ✓ | ? not verified | ✓ | ✓ |
+| AGENTS.md | ? not verified | ? | ✓ plus own rules | ? | ✓ | ✗ guidelines.md | ✓ | ✓ | ✓ if enabled | ✓ | ? not verified | ✗ copilot-instructions.md | ? | ✓ | ? not verified | ✓ | ✓ |
+| Cloud agents | ✗ local and SSH only | ~ remote control | ✓ cloud agents | ~ web and cloud runners | ✓ | ~ | ✓ web and Crew | ✗ local machine only | ~ Cloud sunset 2026-05 | ✓ TraeWork | ✗ local sessions only | ✓ Copilot cloud since 18.1 | ✗ | ✓ Copilot agent | ✗ review surface, not a host | ✓ Devin | ✗ |
+| Parallel agent management | ✓ core loop | ✓ command center | ~ cloud agents | ✓ threads | ✓ fleets | ? | ✓ Crew | ✓ core loop | ~ orchestrator mode | ✓ concurrent tasks | ✓ core loop (swarm grid) | ✗ none documented | ✗ | ✓ Agents window | ✗ none advertised | ✓ Command Center | ~ agent panel |
+| Scheduled work | ✗ none documented | ✓ scheduled messages | ✓ automations | ? | ✓ automations | ? | ✓ hooks | ✓ cron | ? | ? | ✗ none documented | ✗ none documented | ✗ | ~ via GitHub | ✗ none advertised | ? | ✗ |
+| Mobile surface | ✗ none documented | ✓ remote control | ✓ iOS app | ✓ mobile browser | ✓ | ✓ | ✓ | ✓ beta | ? | ? | ✗ none documented | ✗ | ✗ | ✓ Copilot app | ✗ desktop app only | ? | ✗ |
 
 ## Reading the matrix
 
@@ -41,17 +41,18 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 
 **MCP support is table stakes and effectively universal**, which moves the differentiation to AGENTS.md, where JetBrains (guidelines.md) is now the lone vendor-convention holdout after Kiro added AGENTS.md support.
 
-**The cloud-agents row separates three philosophies:** platforms with their own cloud (Cursor, Delta, Kiro, Trae, Windsurf under Devin, VS Code via GitHub), tools that only reach your own machine (OpenChamber, Zed, Void, Cate), and Antigravity's remote-control middle path.
+**The cloud-agents row separates three philosophies:** platforms with their own cloud (Cursor, Delta, Kiro, Trae, Windsurf under Devin, VS Code via GitHub), tools that only reach your own machine (OpenChamber, Zed, Void, Cate, Vibeyard), and Antigravity's remote-control middle path.
 
 **Delta and Whiteboard are the columns that are neither editors nor hosts: Delta is a thread with its own worktree, recorded in a version-control layer that keeps the conversation beside the code, and Whiteboard is a canvas the agent draws onto while your own harness does the running, which is why both review rows work without the pull request every other column ends at.**
 
 **BYOK plus local models is the sovereignty column pair, and JetBrains (via Junie), OpenChamber (via OpenCode), Cate (via your agent CLIs), VS Code, Zed, Whiteboard (its own harnesses, local-only), Visual Studio 2026 (Ollama through the BYOK preview), and the departed Roo Code fill both cells today.**
 
-**Two of the fifteen columns are death records, Continue acquired by Cursor in June 2026 and Roo Code sunset by its own team in May 2026, so their cells read as as-they-were snapshots; both exits point at [Cline](../../harnesses/cline/index.md), which tells you where the extension generation's value consolidated.**
+**Two of the seventeen columns are death records, Continue acquired by Cursor in June 2026 and Roo Code sunset by its own team in May 2026, so their cells read as as-they-were snapshots; both exits point at [Cline](../../harnesses/cline/index.md), which tells you where the extension generation's value consolidated.**
 
 ## Choosing from the matrix
 
 - Want the editor to stay dumb and own the agents: OpenChamber, Cate, Zed, or VS Code with an ACP harness.
+- Want a task board that spawns and closes agent sessions off the board, and can accept a single maintainer who has been quiet since September 2026: Vibeyard.
 - Want the surface to also be the cloud: Cursor, Kiro, or Windsurf under Devin.
 - Want review fused into the work instead of filed afterward, and can accept hosted history: Delta, free while in beta, betting your team will read threads.
 - Want zero budget: Antigravity's free tier or Void, accepting the incident record or the stall respectively.
@@ -77,6 +78,7 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - 2026-10-07 - Corrected the Google Antigravity cells against the vendor's docs: the SDK runs agents on local models through LiteRT or OpenAI-compatible local servers, where the cell read unverified, and BYOK moves to a partial because the plans page states BYOK and bring-your-own-endpoint are unsupported; no other cells moved.
 - 2026-10-08 - Extended from fifteen to sixteen columns with Cate, the MIT infinite-canvas desktop workspace whose agent-aware terminals report working, waiting, or finished, inserted in sorted position at the head of the row; updated the intro, reading, and choosing sections.
 - 2026-10-09 - Corrected the JetBrains IDEs free-tier cell against the vendor's redesigned plans page: the free start is now described as Junie Lite, a free model always on in every JetBrains account, where the cell carried the earlier 5-credit allotment; the two paid figures are exposed again on the same page ($8.33 and $25.00 per user/month, unchanged).
+- 2026-10-10 - Extended from sixteen to seventeen columns with Vibeyard, the MIT desktop IDE wrapping Claude Code, Codex CLI, and Gemini CLI (kanban cards that spawn and close sessions, isolated Claude profiles, WebRTC session sharing), inserted in sorted position between Trae and Visual Studio 2026; updated the intro, reading, and choosing sections, and corrected the death-records line's stale column count (it still said fifteen after Cate joined).
 
 ## See also
 

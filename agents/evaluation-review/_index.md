@@ -15,10 +15,13 @@ Where quality control lives in the agent workflow: CI gates, dashboards, machine
 - [HarnessTax](harnesstax/index.md) - the UC Berkeley study that held seven models constant across three harnesses on SWE-bench Lite and Terminal-Bench, finding harness swaps cost up to 5x while success barely moves.
 - [Hunk](hunk/index.md) - Modem's MIT review-first terminal diff viewer, one annotated stream for the whole agent changeset, judging nothing itself.
 - [Jevals](jevals/index.md) - OpenLayer's MIT evals-and-guardrails library that swaps the LLM judge for typed Jev decision models, one calibrated request per trace.
-- [Langfuse](langfuse/index.md) - the MIT-core tracing and eval platform, 35.5k stars, inside ClickHouse since January with the proprietary ee/ split as the caution.
+- [Kiln](kiln/index.md) - Chesterfield Laboratories' local-first desktop eval workbench where non-engineers rate outputs and the ratings become judge metrics, fine-tuning sets, and optimization targets.
+- [Langfuse](langfuse/index.md) - the MIT-core tracing and eval platform, 35.6k stars, inside ClickHouse since January with the proprietary ee/ split as the caution.
 - [Phoenix](phoenix/index.md) - Arize's OTel-native observability and eval platform, self-hostable under an Elastic license.
 - [Plannotator](plannotator/index.md) - the local review surface that turns your annotations on agent plans and diffs into the agent's next instruction.
+- [PR Lens](pr-lens/index.md) - coldtea's MIT visualizer that draws every pull request as animated architecture and data-flow diagrams in a PR comment, judging nothing itself.
 - [ReviewBench](reviewbench/index.md) - GitHub's open AI-code-review benchmark: 219 public PRs, a multi-source golden set, Claude Sonnet 5 as judge, and a leaderboard whose scores publish only on maintainer approval.
+- [Verbatim Citation Gate](verbatim-citation-gate/index.md) - the MIT two-stage citation auditor: a zero-token deterministic gate for fabricated quotes, then a skeptical judge that fails closed.
 - [Workshop](workshop/index.md) - Raindrop's local debugger where the coding agent reads traces, writes evals, and fixes what fails.
 
 Its members are compared on shared rows in the [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md).
@@ -35,3 +38,6 @@ Its members are compared on shared rows in the [Evaluation and Review Feature Ma
 - 2026-10-06 - Added Jevals.
 - 2026-10-06 - Added Hunk.
 - 2026-10-07 - Added ReviewBench.
+- 2026-10-10 - Added Kiln.
+- 2026-10-10 - Added PR Lens.
+- 2026-10-10 - Added Verbatim Citation Gate.

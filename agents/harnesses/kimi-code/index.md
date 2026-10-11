@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code"
 created: 2026-09-05
-updated: 2026-10-09
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, moonshot, byok]
 readability: 3
@@ -21,7 +21,7 @@ The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2
 
 ## Status
 
-Active and big-vendor backed, about 19.2k combined stars as of 2026-10-09: `kimi-code` at 7,810 stars, `kimi-cli` at 11,426 stars, with the older repository now archived by Moonshot (its last push was 2026-09-22).
+Active and big-vendor backed, about 19.2k combined stars as of 2026-10-10: `kimi-code` at 7,816 stars, `kimi-cli` at 11,424 stars, with the older repository now archived by Moonshot (its last push was 2026-09-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MoonshotAI/kimi-code&type=date&theme=dark&legend=top-left" />
@@ -48,7 +48,7 @@ The wind-down is now complete: GitHub shows the `kimi-cli` repository archived a
 ## Pricing
 
 The harness is free and open source.
-Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $0.50/$12.00 per million tokens (cache reads listed at $0.35) and kimi-k2.7-code at $0.67/$3.35 (cache hits $0.18) as of 2026-10-09 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09; among the endpoint hosts the kimi-k3 floor sits at $0.49/$13.00 on Relace, with InferenceNet matching the main listing, as of 2026-10-09), with other OpenAI-compatible providers configurable.
+Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $0.64/$13.50 per million tokens (cache reads listed at $0.28) and kimi-k2.7-code at $0.67/$3.35 (cache hits $0.18) as of 2026-10-10 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09; among the endpoint hosts the kimi-k3 floor moved to $0.40/$15.00 on Wafer, with InferenceNet matching the main listing and Relace off the floor at $2.00/$14.00, as of 2026-10-10), with other OpenAI-compatible providers configurable.
 
 ## Price history
 
@@ -68,6 +68,7 @@ Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform AP
 | 2026-10-07 | API (OpenRouter) | kimi-k3 moved to $0.62/$15.00 per million tokens (cache reads $0.43), the seventh recorded move, with the endpoint floor at $0.61/$13.00 on Relace; kimi-k2.7-code unchanged at $0.67/$3.35 (cache hits $0.18). | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 | 2026-10-08 | API (OpenRouter) | kimi-k3 moved to $0.58/$12.30 per million tokens (cache reads $0.40), the eighth recorded move, with the endpoint floor at $0.58/$13.00 on Relace and InferenceNet at the same input but $12.30 output; kimi-k2.7-code unchanged at $0.67/$3.35 (cache hits $0.18). | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 | 2026-10-09 | API (OpenRouter) | kimi-k3 moved to $0.50/$12.00 per million tokens (cache reads $0.35), the ninth recorded move, with the endpoint floor at $0.49/$13.00 on Relace and InferenceNet matching the main listing; kimi-k2.7-code unchanged at $0.67/$3.35 (cache hits $0.18). | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
+| 2026-10-10 | API (OpenRouter) | kimi-k3 moved to $0.64/$13.50 per million tokens (cache reads $0.28), the tenth recorded move; the endpoint floor moved to a new host, $0.40/$15.00 on Wafer, with InferenceNet matching the main listing and Relace off the floor at $2.00/$14.00; kimi-k2.7-code unchanged at $0.67/$3.35 (cache hits $0.18). | [OpenRouter kimi-k3 endpoints](https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints) |
 
 ## Compared to
 
@@ -103,6 +104,7 @@ Not for teams that need local models, or anyone who needs more than one independ
 - 2026-10-07 - Corrected the kimi-cli reference annotation, which had said archived since 2026-09-22: that was the last push, and the archive state (re-verified via the GitHub API today) is recorded in Status as noticed on 2026-10-02.
 - 2026-10-08 - Recorded the kimi-k3 price moving to $0.58/$12.30 per million tokens (cache reads $0.40), the eighth recorded move, with the endpoint floor at $0.58/$13.00 on Relace and InferenceNet at $12.30 output, and appended the matching Price history row.
 - 2026-10-09 - Recorded the kimi-k3 price moving to $0.50/$12.00 per million tokens (cache reads $0.35), the ninth recorded move, with the endpoint floor at $0.49/$13.00 on Relace and InferenceNet matching the main listing, appended the matching Price history row, and refreshed repository counters.
+- 2026-10-10 - Recorded the kimi-k3 price moving to $0.64/$13.50 per million tokens (cache reads $0.28), the tenth recorded move, with the endpoint floor moving to $0.40/$15.00 on new host Wafer while Relace left the floor at $2.00/$14.00, appended the matching Price history row, and refreshed repository counters.
 
 ## See also
 
@@ -119,5 +121,5 @@ Not for teams that need local models, or anyone who needs more than one independ
 - https://www.kimi.com/code/docs/ - product docs, login paths, and the Node.js migration notice naming the old CLI as unmaintained
 - https://frontierharness.org - the independent pass-rate and cost-per-task numbers
 - https://hn.algolia.com/api/v1/items/45767884 - the largest HN thread, cited as the thin-footprint signal
-- https://openrouter.ai/api/v1/models - live per-token prices grounding the kimi-k3 and kimi-k2.7-code figures, as of 2026-10-07
-- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - live per-provider endpoint prices grounding the Relace floor, as of 2026-10-07
+- https://openrouter.ai/api/v1/models - live per-token prices grounding the kimi-k3 and kimi-k2.7-code figures, as of 2026-10-10
+- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - live per-provider endpoint prices grounding the endpoint floor, as of 2026-10-10

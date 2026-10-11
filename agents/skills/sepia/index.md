@@ -25,7 +25,7 @@ Install is `npx skills add Nanako0129/sepia -g` or a native plugin marketplace, 
 
 ## Status
 
-Active and early: 3,007 stars and 193 forks as of 2026-10-07, repo pushed 2026-10-06 with release v0.12.3, seven open issues, created 2026-08-28.
+Active and early: 3,071 stars and 195 forks as of 2026-10-10, repo pushed 2026-10-09 with release v0.12.3, five open issues, created 2026-08-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nanako0129/sepia&type=date&theme=dark&legend=top-left" />
@@ -86,7 +86,7 @@ My disagreeable claim: most humanizer installs, sepia included, are plausibly wa
 
 ## References
 
-- https://api.github.com/repos/Nanako0129/sepia - 3,007 stars, 193 forks, MIT, pushed 2026-10-06, latest tag v0.12.3 (200, fetched 2026-10-07)
+- https://api.github.com/repos/Nanako0129/sepia - 3,071 stars, 195 forks, MIT, pushed 2026-10-09, latest tag v0.12.3 (200, fetched 2026-10-10)
 - https://raw.githubusercontent.com/Nanako0129/sepia/main/README.md - operations, three-pass protocol, research ledger, per-platform verification limits (200)
 - https://hysenlabs.com/en/projects/nanako0129-sepia - third-party editorial review (September 10, 2026) with critical sections on calibration and wrong-tool cases (200)
 - https://arxiv.org/abs/2604.03136 - StoryScope: 61,608 stories, 93.2% macro-F1 from narrative features alone, v6 revised 2026-08-10 (200)

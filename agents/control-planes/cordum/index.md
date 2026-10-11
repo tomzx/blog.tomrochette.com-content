@@ -23,7 +23,7 @@ Enterprise features (SSO, SCIM, advanced RBAC, SIEM export, legal hold) ship in 
 
 ## Status
 
-Active and young: 509 stars, 34 forks, and 31 open issues as of 2026-10-07, created 2026-01-11, pushed 2026-10-06, latest tagged release v1.1.0 (2026-06-03), with the CAP SDKs versioned separately at 2.17.0 (2026-07-22).
+Active and young: 509 stars, 34 forks, and 31 open issues as of 2026-10-10, created 2026-01-11, pushed 2026-10-06, latest tagged release v1.1.0 (2026-06-03), with the CAP SDKs versioned separately at 2.17.0 (2026-07-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cordum-io/cordum&type=date&theme=dark&legend=top-left" />
@@ -86,7 +86,7 @@ Not for OSI-only shops, and not for anyone who needs an adopted project with ind
 ## References
 
 - https://github.com/cordum-io/cordum - README: quickstart, services, Edge path, feature table, CAP section, license terms
-- https://api.github.com/repos/cordum-io/cordum - stars, forks, issues, creation and push dates as of 2026-10-07
+- https://api.github.com/repos/cordum-io/cordum - stars, forks, issues, creation and push dates as of 2026-10-10
 - https://cordum.io - product framing, the Edge-to-Platform adoption path, availability statements
 - https://cordum.io/pricing - Community, Team, and Enterprise tiers with capacity caps
 - https://github.com/cordum-io/cap - the CAP protocol repository (Apache-2.0)

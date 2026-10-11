@@ -23,7 +23,7 @@ The memory side persists cross-session context per user and project (facts, pref
 
 ## Status
 
-Dormant-leaning: v0.4.1 released 2026-04-11 and no repository push since 2026-06-07 as of 2026-10-09, roughly four months quiet.
+Dormant-leaning: v0.4.1 released 2026-04-11 and no repository push since 2026-06-07 as of 2026-10-10, roughly four months quiet.
 **The attention record is unusual: first place on Hugging Face Daily Papers and 3,459 stars, but no Hacker News discussion at all, so the buzz came from the paper ranking rather than user adoption.**
 
 <picture>

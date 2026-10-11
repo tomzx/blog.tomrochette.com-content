@@ -21,7 +21,7 @@ IDE surfaces cover PyCharm, VS Code, Sublime, and Vim, a wider editor spread tha
 
 ## Status
 
-**Old by category standards (repo since July 2019), active, and mid-size: 1,872 stars as of 2026-10-07, commits as recent as October 7, 2026.**
+**Old by category standards (repo since July 2019), active, and mid-size: 1,874 stars as of 2026-10-10, commits as recent as October 7, 2026.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sourcery-ai/sourcery&type=date&theme=dark&legend=top-left" />
@@ -50,7 +50,7 @@ The community footprint is modest: a 15-point Show HN for the refactoring era (2
 
 ## Pricing
 
-**Freemium per-seat with open source free, as of 2026-10-02.**
+**Freemium per-seat with open source free, as of 2026-10-10.**
 Pro is $12 per seat per month for private repos ($15 monthly), Team is $24 ($30 monthly) adding codebase security with nightly scans of 50 repos, a full issues dashboard, on-demand scans, team analytics, and higher review limits, and Enterprise adds self-hosting, GitHub Enterprise Server, SSO, bring-your-own LLM keys, a dedicated success manager, and invoice billing at custom pricing.
 Open source repos are fully free.
 
@@ -90,9 +90,9 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 
 ## References
 
-- https://github.com/sourcery-ai/sourcery - repo, 1,872 stars, MIT, pushed October 7, 2026 (GitHub API, as of 2026-10-07)
+- https://github.com/sourcery-ai/sourcery - repo, 1,874 stars, MIT, pushed October 7, 2026 (GitHub API, as of 2026-10-10)
 - https://sourcery.ai/ - product page
-- https://sourcery.ai/pricing/ - tiers as of 2026-10-02
+- https://sourcery.ai/pricing/ - tiers as of 2026-10-10
 - https://docs.sourcery.ai/reference/faq/ - docs FAQ covering plans, security scanning, BYO LLM, self-hosting (the former Product/Plans page redirects here)
 - https://pypi.org/pypi/sourcery/json - the Python refactoring package, "Magically refactor Python", 23 releases
 - https://hn.algolia.com/api/v1/items/27760608 - Show HN for the refactoring era, 15 points, July 7, 2021

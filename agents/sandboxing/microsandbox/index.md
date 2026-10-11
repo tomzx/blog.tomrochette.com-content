@@ -1,7 +1,7 @@
 ---
 title: Microsandbox
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The project carries a Y Combinator badge and has moved organizations more than o
 
 ## Status
 
-Large by this category's standards and still shipping weekly: 8,617 stars, 105 open issues and PRs, pushed 2026-10-09 as of 2026-10-09, created 2024-10-03.
+Large by this category's standards and still shipping weekly: 8,628 stars, 95 open issues and PRs, pushed 2026-10-10 as of 2026-10-10, created 2024-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Large by this category's standards and still shipping weekly: 8,617 stars, 105 o
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&theme=dark&legend=top-left" />
 </picture>
 
-v0.7.5, v0.7.6, and v0.7.7 shipped within a week ending 2026-10-05, a fast pre-1.0 minor-version cadence.
+v0.7.5, v0.7.6, and v0.7.7 shipped within a week ending 2026-10-05, a fast pre-1.0 minor-version cadence, and v0.7.8 followed on 2026-10-09 (secret substitution scoped to specific header fields, runtime-owned detached jobs, port ranges in published ports, snapshot filesystem-state limits, and a fix that refuses disk restores which would silently drop host mounts).
 **Its Show HN of 2025-05-30 drew 402 points, the largest community thread of any member of this category, while a June 2026 resubmission drew 3 points, so the launch was a 2025 event and the current proof of life is the release train, not public debate.**
 
 ## Strengths
@@ -68,6 +68,7 @@ Not for anyone needing audited claims, a stable 1.0 API, or a hosted service.
 ## Changes
 
 - 2026-10-07 - Created from the entrant-resolution run, profiling the libkrun-based microVM runtime behind the category's largest HN thread, with its self-reported-claims and provenance cautions.
+- 2026-10-10 - Recorded v0.7.8 (2026-10-09, header-scoped secret substitution, detached jobs, port ranges, snapshot limits, and the refuse-unsafe-restore fix), and refreshed counts (8,628 stars, 95 open issues and PRs, pushed 2026-10-10).
 
 ## See also
 
@@ -80,6 +81,6 @@ Not for anyone needing audited claims, a stable 1.0 API, or a hosted service.
 
 - https://github.com/superradcompany/microsandbox - repository, feature list, libkrun acknowledgement, YC badge, organization moves
 - https://api.github.com/repos/superradcompany/microsandbox - stars, open issues, creation and push dates as of 2026-10-07
-- https://api.github.com/repos/superradcompany/microsandbox/releases - the v0.7.5 through v0.7.7 release record
+- https://api.github.com/repos/superradcompany/microsandbox/releases - the v0.7.5 through v0.7.8 release record
 - https://docs.microsandbox.dev/ - the documentation site
 - https://hn.algolia.com/api/v1/items/44135977 - the 402-point Show HN of 2025-05-30, including the isolation-tradeoff questions in the thread

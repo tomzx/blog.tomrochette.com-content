@@ -23,8 +23,8 @@ Community runtimes extend it past PyTorch: laya-mlx reports 7-14 ms decisions on
 
 ## Status
 
-Twenty-one days old and compounding fast, as of 2026-10-09.
-The main repository was created 2026-09-18 and shows about 31,800 stars, laya-mlx about 6,800 since 2026-09-19, with a CoreML port, third-party demo endpoints, and roughly ten community quantizations appearing within days.
+Twenty-two days old and compounding fast, as of 2026-10-10.
+The main repository was created 2026-09-18 and shows about 32,100 stars, laya-mlx about 6,900 since 2026-09-19, with a CoreML port, third-party demo endpoints, and roughly ten community quantizations appearing within days.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NandhaKishorM/laya&type=date&theme=dark&legend=top-left" />
@@ -94,11 +94,11 @@ The disagreeable claim I will defend: the priority fight is the least interestin
 
 ## References
 
-- https://github.com/NandhaKishorM/laya - repository: Apache-2.0, created 2026-09-18, about 31,800 stars, checkpoint table and Router docs (GitHub API, as of 2026-10-09)
+- https://github.com/NandhaKishorM/laya - repository: Apache-2.0, created 2026-09-18, about 32,100 stars, checkpoint table and Router docs (GitHub API, as of 2026-10-10)
 - https://laya.convaiinnovations.com/ - the launch site: 33 ms single-pass and 7.2 ms batched claims, benchmark framing
 - https://news.ycombinator.com/item?id=49765348 - the launch thread (1,363 points as of 2026-10-06, 2026-09-19): context-limit, novelty, and GLiNER criticisms
 - https://pypi.org/project/laya/ - the package: 0.4.1 as of 2026-10-09 (0.4.0 on 2026-10-07, 0.4.1 on 10-08, 0.3.29 on 10-07)
 - https://huggingface.co/convaiinnovations/laya - the primary checkpoint (ModernBERT-large, 421M parameters, 5,300 likes as of 2026-10-07)
-- https://github.com/mizorewww/laya-mlx - the MLX runtime: 7-14 ms on M3 Max, about 6,800 stars as of 2026-10-06
+- https://github.com/mizorewww/laya-mlx - the MLX runtime: 7-14 ms on M3 Max, about 6,900 stars as of 2026-10-10
 - https://news.ycombinator.com/item?id=49777106 - the 178-point offline-Mac thread (2026-09-20, 178 points as of 2026-10-06) grounding the local-runtimes claim
 - https://astgl.com/p/local-laya-vs-hosted-jev-typed-decisions - the independent deployment account: chose Laya for local routing on a Mac Studio, 37/40 versus 33/40 on a frozen replay, explicitly not a Jev head-to-head

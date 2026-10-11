@@ -24,7 +24,7 @@ By Eigent AI (EIGENT UK LTD), founded by Guohao Li, who also founded CAMEL-AI; f
 
 ## Status
 
-Active and maturing: 15,465 stars, 1,842 forks, 247 open issues as of 2026-10-07, created 2025-07-29, pushed 2026-10-07, v1.0.5 still the latest release (2026-09-25).
+Active and maturing: 15,485 stars, 1,845 forks, 250 open issues as of 2026-10-10, created 2025-07-29, pushed 2026-10-09, v1.0.5 still the latest release (2026-09-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eigent-ai/eigent&type=date&theme=dark&legend=top-left" />
@@ -90,7 +90,7 @@ Not for buyers who need vendor accountability history, and not for the quick-sta
 
 ## References
 
-- https://github.com/eigent-ai/eigent - repository, stack, license, adoption numbers (re-checked 2026-10-07 via the repo API)
+- https://github.com/eigent-ai/eigent - repository, stack, license, adoption numbers (re-checked 2026-10-10 via the repo API)
 - https://raw.githubusercontent.com/eigent-ai/eigent/HEAD/README.md - features and deployment paths
 - https://www.eigent.ai/pricing - the tiers and credits for the pricing rows
 - https://www.eigent.ai/about - the company and CAMEL-AI relationship

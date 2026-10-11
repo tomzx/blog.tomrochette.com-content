@@ -17,7 +17,7 @@ WebMCP is a W3C Community Group draft specification, edited by Microsoft and Goo
 
 ## What it is
 
-A Draft Community Group Report (dated 2026-10-08, revised from the 2026-10-02 draft) from the W3C Web Machine Learning Community Group, first announced 2026-02-10, with editors from Microsoft and Google.
+A Draft Community Group Report (dated 2026-10-09, following the 2026-10-08 revision that removed the declarative form-annotation path from the 2026-10-02 draft) from the W3C Web Machine Learning Community Group, first announced 2026-02-10, with editors from Microsoft and Google.
 The API surface is `document.modelContext` with `registerTool()`, `getTools()`, and `executeTool()`: a tool carries a name, a natural-language description, and a JSON Schema input, and pages register tools imperatively in JavaScript.
 **The spec's own framing places it in this index's stack: "Web pages that use WebMCP can be thought of as Model Context Protocol servers that implement tools in client-side script instead of on the backend", with the browser mediating every call under a `tools` Permissions Policy that defaults to same-origin only.**
 Chrome ships it behind a public origin trial (Chrome 149 through 156) plus a local flag, and Angular offers experimental support.
@@ -25,7 +25,7 @@ Chrome ships it behind a public origin trial (Chrome 149 through 156) plus a loc
 ## Status
 
 **Active and past the flag stage, with one browser shipping and one agent consuming.**
-The repository shows 4,499 stars and 123 open issues with a push on 2026-10-08, all as of 2026-10-09 (GitHub API).
+The repository shows 4,515 stars and 124 open issues with a push on 2026-10-09, all as of 2026-10-10 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&theme=dark&legend=top-left" />
@@ -83,8 +83,8 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 
 ## References
 
-- https://webmachinelearning.github.io/webmcp/ - the Draft Community Group Report (2026-10-08 revision): `document.modelContext` API, permissions policy, and the full security considerations section
-- https://github.com/webmachinelearning/webmcp - repository: 4,499 stars, 123 open issues, pushed 2026-10-08 (GitHub API, as of 2026-10-09)
+- https://webmachinelearning.github.io/webmcp/ - the Draft Community Group Report (2026-10-09 revision): `document.modelContext` API, permissions policy, and the full security considerations section
+- https://github.com/webmachinelearning/webmcp - repository: 4,515 stars, 124 open issues, pushed 2026-10-09 (GitHub API, as of 2026-10-10)
 - https://github.com/webmachinelearning/webmcp/commit/14ae813cc4e9 - the 2026-10-08 commit "Remove declarative API from the spec for now (#338)" behind the revision
 - https://developer.chrome.com/docs/ai/webmcp - Chrome implementation: origin trial from Chrome 149, imperative and declarative APIs, `tools` permissions policy defaults, Angular experimental support (page updated 2026-10-01)
 - https://nohacks.co/blog/what-is-webmcp - practitioner record: the 2026-02-10 announcement, the navigator-to-document rename, the August Shopify and Cloudflare default-on wave, and the browser-support table

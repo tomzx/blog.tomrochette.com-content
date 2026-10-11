@@ -1,7 +1,7 @@
 ---
 title: The Pragmatic Engineer
 created: 2026-08-29
-updated: 2026-10-04
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, newsletter, engineering-org]
 readability: 3
@@ -23,8 +23,8 @@ It consistently runs the data-gathering (AI tooling surveys) that individual too
 ## Status
 
 Active and heavily subscribed, with more than 1,100,000 subscribers as of 2026-09-22.
-As of 2026-10-04 it runs the AI tooling-for-2026 surveys and current agent-adoption coverage: The Pulse on the Ruby-on-Rails creator sparking a new "death of coding by hand" debate (2026-09-24), How will AI change operating systems? Part 2: Windows, on making the OS AI-agent-friendly (2026-09-22), AI Skills with Matt Pocock (2026-09-17), Inside OpenAI's agentic software factory (2026-09-15), Building Codex with Tibo Sottiaux (2026-09-09), and What is happening with code reviews? (2026-09-08).
-The three issues since then sit outside the agent beat: Why has Shopify dropped React Native? (2026-09-29), Distributed databases with Peter Mattis (2026-09-30), and The Pulse on Firebase's global outage and response (2026-10-01).
+As of 2026-10-10 it runs the AI tooling-for-2026 surveys and current agent-adoption coverage: The Pulse on the Ruby-on-Rails creator sparking a new "death of coding by hand" debate (2026-09-24), How will AI change operating systems? Part 2: Windows, on making the OS AI-agent-friendly (2026-09-22), AI Skills with Matt Pocock (2026-09-17), Inside OpenAI's agentic software factory (2026-09-15), Building Codex with Tibo Sottiaux (2026-09-09), and What is happening with code reviews? (2026-09-08).
+Issues since then sat outside the agent beat (Why has Shopify dropped React Native?, 2026-09-29, Distributed databases with Peter Mattis, 2026-09-30, and The Pulse on Firebase's global outage, 2026-10-01) until The Pulse returned to it on [2026-10-08](https://newsletter.pragmaticengineer.com/p/the-pulse-new-trend-of-building-internal) (paid): the new trend of "internal vibe-coding apps" at mid-sized companies, with Ramp and Stripe building platforms that let non-engineers build internal websites and tools with agents, and his prediction that more companies will follow.
 A large share of AI-specific content sits behind the paid tier, which funds the survey and interview work.
 
 ## Strengths
@@ -72,6 +72,7 @@ Not for someone chasing pure hands-on tool detail who resents a paywall.
 - 2026-09-18 - Added the "AI Skills with Matt Pocock" episode (2026-09-17) to the September agent-adoption coverage; subscriber count held at over 1,100,000.
 - 2026-09-22 - Added "How will AI change operating systems? Part 2: Windows" (2026-09-22) to the September agent-adoption coverage; subscriber count held at over 1,100,000.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-10-10 - Added The Pulse (2026-10-08, paid) on internal vibe-coding apps at Ramp and Stripe to Status, the first agent-beat issue since October 1 (URL and feed fetched this run).
 
 ## See also
 
@@ -84,6 +85,7 @@ Not for someone chasing pure hands-on tool detail who resents a paywall.
 
 - https://newsletter.pragmaticengineer.com/ - the newsletter home and AI tag archive
 - https://newsletter.pragmaticengineer.com/feed - the RSS feed grounding the latest issues and dates
+- https://newsletter.pragmaticengineer.com/p/the-pulse-new-trend-of-building-internal - The Pulse (2026-10-08, paid, teaser readable): the internal vibe-coding-apps trend at Ramp and Stripe
 - https://newsletter.pragmaticengineer.com/p/ai-tooling-2026 - the annual AI tooling survey for software engineers
 - https://newsletter.pragmaticengineer.com/p/steve-yegge-on-ai-agents-and-the - his interview with Steve Yegge on AI agents
 - https://newsletter.pragmaticengineer.com/p/the-ai-engineering-stack - his framing of the AI engineering stack

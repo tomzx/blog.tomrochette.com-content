@@ -1,7 +1,7 @@
 ---
 title: Backlog.md
 created: 2026-08-27
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, kanban, markdown, open-source, byok]
 readability: 3
@@ -24,7 +24,8 @@ It is maintained under the MrLesk identity, with conference talks ([Devoxx Belgi
 ## Status
 
 Active and healthy at mid-scale.
-As of 2026-10-07: 6,950 stars, 85 open issues, pushed 2026-09-28, MIT-licensed, latest release v1.53.0 on 2026-09-24, 76,873 npm downloads last month.
+As of 2026-10-10: 6,986 stars, 89 open issues, pushed 2026-10-07, MIT-licensed, latest release v1.53.0 on 2026-09-24, 84,452 npm downloads last month.
+The repo's quiet stretch since 2026-09-28 ended on 2026-10-07 with README commits adding a Backlog.md + Groma.md integration section, Groma.md being the same author's separate MIT architecture-map tool (188 stars as of 2026-10-10).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MrLesk/Backlog.md&type=date&theme=dark&legend=top-left" />
@@ -70,6 +71,7 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 - 2026-08-27 - Created in the Task management category seed with the three-checkpoint review model, dogfooding claim, and terminal kanban recorded.
 - 2026-09-27 - Refreshed scale numbers (6,862 stars, 73 open issues, 64,043 npm downloads) and recorded v1.53.0 (2026-09-24).
 - 2026-10-07 - Added the MrLesk/Backlog.md star history chart to the Status section.
+- 2026-10-10 - Recorded the README's Backlog.md + Groma.md integration section (2026-10-07, the same author's separate architecture-map tool) and refreshed counts (6,986 stars, 89 open issues, 84,452 npm downloads, pushed 2026-10-07).
 
 ## See also
 
@@ -81,7 +83,10 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 ## References
 
 - https://github.com/MrLesk/Backlog.md - README: checkpoints, commands, agent integrations, dogfooding claim
-- https://api.github.com/repos/MrLesk/Backlog.md - stars, issues, push date, MIT license as of 2026-10-07
+- https://api.github.com/repos/MrLesk/Backlog.md - stars, issues, push date, MIT license as of 2026-10-10
+- https://raw.githubusercontent.com/MrLesk/Backlog.md/main/README.md - the Backlog.md + Groma.md integration section
+- https://groma.md - the companion product the integration names (resolves to its GitHub repository)
+- https://api.github.com/repos/MrLesk/groma.md - the companion repo: 188 stars, MIT, as of 2026-10-10
 - https://news.ycombinator.com/item?id=44483530 - the 254-point launch thread
-- https://api.npmjs.org/downloads/point/last-month/backlog.md - 76,873 downloads last month
+- https://api.npmjs.org/downloads/point/last-month/backlog.md - 84,452 downloads last month
 - https://mrlesk.com/talks - conference talks demonstrating the method

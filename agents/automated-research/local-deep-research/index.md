@@ -24,7 +24,7 @@ Around the loop sit a journal-quality system scoring 212K-plus indexed sources w
 
 ## Status
 
-Active and heavily developed: 9,159 stars, 835 forks, created 2025-02-09, last push 2026-10-07, with the current release v1.10.7 published 2026-08-28 on GitHub and PyPI, as of 2026-10-07.
+Active and heavily developed: 9,179 stars, 837 forks, created 2025-02-09, last push 2026-10-10, with the current release v1.10.7 published 2026-08-28 on GitHub and PyPI, as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=LearningCircuit/local-deep-research&type=date&theme=dark&legend=top-left" />
@@ -46,7 +46,7 @@ The project's headline benchmark is self-reported through community channels: ab
 
 - The headline numbers are self-reported community benchmarks, and the README itself flags small samples, LLM-grader noise, and SimpleQA contamination risk on newer base models.
 - No machine judge sits inside the loop: the output is prose with citations, so the human stays the verifier, exactly as with Deep Research.
-- 1,161 open issues as of 2026-10-07 against a volunteer contributor base signals a project where support lags feature growth.
+- 1,146 open issues as of 2026-10-10 against a volunteer contributor base signals a project where support lags feature growth.
 - Attaching premium engines or cloud models reintroduces the external calls the privacy story avoids, one API key at a time.
 
 ## Pricing

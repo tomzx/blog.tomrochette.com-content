@@ -26,7 +26,7 @@ Made by an independent developer, with an enterprise support and services badge 
 ## Status
 
 **Actively shipping and early: 5.2k stars in sixteen months with almost no independent discussion.**
-5,233 stars and 699 forks since 2025-06-16, pushed 2026-10-07, with 587 open issues (GitHub API, as of 2026-10-07).
+5,240 stars and 699 forks since 2025-06-16, pushed 2026-10-10, with 739 open issues (GitHub API, as of 2026-10-10).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vitali87/code-graph-rag&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ Two Show HNs (February and March 2026) drew 1 point each, so the star count ran 
 
 ## Cautions
 
-- **Zero independent discussion and 587 open issues against 5.2k stars means the only quality evidence is the project's own demos and CI.**
+- **Zero independent discussion and 739 open issues against 5.2k stars means the only quality evidence is the project's own demos and CI.**
 - It brings a graph database: Memgraph is a separate dependency with its own licensing and operational cost, which the one-line install pitch understates.
 - 0.1.x with 27 releases means churn, and the Cypher-generation quality depends on the model you attach, which no benchmark here measures.
 - Indexing is per-repo work (`cgr start --update-graph`), so freshness after agent edits needs the incremental update path to actually hold.
@@ -80,7 +80,7 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 
 ## References
 
-- https://api.github.com/repos/vitali87/code-graph-rag - 5,233 stars, 699 forks, MIT, created 2025-06-16, pushed 2026-10-07, 587 open issues (GitHub API, as of 2026-10-07)
+- https://api.github.com/repos/vitali87/code-graph-rag - 5,240 stars, 699 forks, MIT, created 2025-06-16, pushed 2026-10-10, 739 open issues (GitHub API, as of 2026-10-10)
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/README.md - the two-component architecture, compiler frontends, runtime tracing, language support, Memgraph storage
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/NEWS.md - the feature-news ledger behind the active-maintenance claim
 - https://pypi.org/pypi/code-graph-rag/json - version 0.1.38 (2026-09-29), 27 releases

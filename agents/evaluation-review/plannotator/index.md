@@ -1,7 +1,7 @@
 ---
 title: Plannotator
 created: 2026-08-30
-updated: 2026-10-08
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -20,11 +20,11 @@ A TypeScript installer that wires into nine harnesses, Claude Code, Codex, Copil
 Three surfaces: plan review with inline comments and deletion marks, code review of uncommitted changes or any GitHub and GitLab PR URL with side-by-side diffs and staging, and annotation of markdown, folders, URLs, and rendered HTML artifacts.
 Approve lets the agent proceed; deny sends annotations back as the agent's next instruction, no copy-paste, and plan revisions are diffed against each other.
 Local-first with no telemetry, an optional TUI, a VS Code extension, and supply-chain hygiene (SLSA provenance, SBOMs, Grype gating).
-Dual Apache-2.0 or MIT, written almost entirely by one developer (1,090 of 1,368 commits as of 2026-10-06) with 151 total commit contributors as of 2026-10-06 and only 11 with five or more, with a hosted Workspaces product now on a public waitlist.
+Dual Apache-2.0 or MIT, written almost entirely by one developer (1,166 of 1,447 commits as of 2026-10-10) with 151 total commit contributors as of 2026-10-10 and only 11 with five or more, with a hosted Workspaces product now on a public waitlist.
 
 ## Status
 
-Fast and growing: 9,209 stars, 697 forks, 137 open issues and PRs as of 2026-10-08, created 2025-12-28, pushed 2026-10-08, v0.28.8 released 2026-10-07.
+Fast and growing: 9,298 stars, 699 forks, 140 open issues and PRs as of 2026-10-10, created 2025-12-28, pushed 2026-10-10, v0.28.10 released 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=backnotprop/plannotator&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Fast and growing: 9,209 stars, 697 forks, 137 open issues and PRs as of 2026-10-
 </picture>
 
 **The 0.27.x line gave way to 0.28.x on 2026-10-05 (five releases that day alone), which says pre-1.0 churn, and the growth came through social channels rather than press; its Show HN thread drew 5 points.**
-The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (636 stars as of 2026-10-08), which applies the same annotate-and-send-feedback loop to terminal text.
+The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (650 stars as of 2026-10-10), which applies the same annotate-and-send-feedback loop to terminal text.
 
 ## Strengths
 
@@ -79,6 +79,7 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - 2026-10-07 - Added the backnotprop/plannotator star history chart to the Status section.
 - 2026-10-07 - Recorded the v0.28.5 and v0.28.6 releases (both 2026-10-06) and refreshed repository and Herdr Annotate counts.
 - 2026-10-08 - Recorded the v0.28.7 and v0.28.8 releases (both 2026-10-07) and refreshed repository and Herdr Annotate counts.
+- 2026-10-10 - Recorded the v0.28.9 and v0.28.10 releases (2026-10-09 and 2026-10-10) and refreshed repository, commit, and Herdr Annotate counts.
 
 ## See also
 
@@ -89,10 +90,10 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 
 ## References
 
-- https://github.com/backnotprop/plannotator - repository, supported agents, mechanics, license, counts as of 2026-10-07
+- https://github.com/backnotprop/plannotator - repository, supported agents, mechanics, license, counts as of 2026-10-10
 - https://raw.githubusercontent.com/backnotprop/plannotator/HEAD/README.md - the privacy boundaries, including the unencrypted small-share caveat
 - https://plannotator.ai/ - product pitch and Workspaces framing
 - https://docs.plannotator.ai/open-source/start/installation - platforms and per-agent setup
 - https://github.com/backnotprop/plannotator/releases - release cadence evidence
 - https://news.ycombinator.com/item?id=48495970 - the Show HN thread with the encryption-claim discrepancy
-- https://github.com/plannotator/herdr-annotate - the terminal sibling project, 632 stars as of 2026-10-07
+- https://github.com/plannotator/herdr-annotate - the terminal sibling project, 650 stars as of 2026-10-10

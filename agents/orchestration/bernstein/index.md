@@ -1,7 +1,7 @@
 ---
 title: Bernstein
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, deterministic-scheduling, policy-as-code, worktrees, audit]
 readability: 3
@@ -21,7 +21,8 @@ It ships as a CLI, TUI, and web UI on PyPI (`bernstein`), drives 50-plus CLI age
 
 ## Status
 
-Active and fast-releasing: 1,404 stars, 30 contributors, and a push on 2026-10-06 as of 2026-10-06, created 2026-03-22, with v3.21.0 published 2026-10-05 (GitHub API, PyPI, as of 2026-10-06).
+Active and fast-releasing: 1,200 stars, 30 contributors, and a push on 2026-10-09 as of 2026-10-10, created 2026-03-22, with v3.21.0 published 2026-10-05 (GitHub API, PyPI, as of 2026-10-10).
+The star count fell from the 1,404 recorded on 2026-10-06 to about 1,200 by 2026-10-10, a roughly 200-star drop in four days that GitHub sometimes produces when it removes bot-starred accounts, and the note records it because a falling count on a governance tool is itself a signal.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sipyourdrink-ltd/bernstein&type=date&theme=dark&legend=top-left" />
@@ -64,6 +65,7 @@ Not for teams that want LLM-driven planning, a GUI-first experience, or a projec
 
 - 2026-10-06 - Created after the entrant scan surfaced the active v3.21.0 repository with no note in the section.
 - 2026-10-07 - Added the sipyourdrink-ltd/bernstein star history chart to the Status section.
+- 2026-10-10 - Corrected the star count from the 1,404 recorded on 2026-10-06 to 1,200 as of 2026-10-10 and recorded the roughly 200-star drop in the Status section.
 
 ## See also
 

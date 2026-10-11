@@ -25,7 +25,7 @@ The hasanyilmaz identity maintains it in ten interface languages.
 ## Status
 
 Active and shipping steadily.
-As of 2026-10-08: 250 stars, 24 forks, 4 watchers, 7 open issues, 1 open pull request, created 2026-05-19, pushed 2026-10-06, latest release 3.12.0 on 2026-10-06 (after 3.11.0 on 2026-10-01 and 3.10.2 on 2026-09-28), 362 npm downloads last month for `@stratejya/operon-cli`, GPL-3.0 on both plugin and CLI.
+As of 2026-10-10: 251 stars, 24 forks, 4 watchers, 8 open issues, 1 open pull request, created 2026-05-19, pushed 2026-10-06, latest release 3.12.0 on 2026-10-06 (after 3.11.0 on 2026-10-01 and 3.10.2 on 2026-09-28), 349 npm downloads last month for `@stratejya/operon-cli`, GPL-3.0 on both plugin and CLI.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hasanyilmaz/operon&type=date&theme=dark&legend=top-left" />
@@ -81,9 +81,9 @@ My disagreeable claim: receipted, previewed writes are a bigger agent-safety adv
 ## References
 
 - https://github.com/hasanyilmaz/operon - repository: README, surfaces, agent runtime introduction, topics (fetched 2026-10-08)
-- https://api.github.com/repos/hasanyilmaz/operon - stars, forks, dates, license as of 2026-10-08
+- https://api.github.com/repos/hasanyilmaz/operon - stars, forks, dates, license as of 2026-10-10
 - https://raw.githubusercontent.com/hasanyilmaz/operon/main/README.md - inline and file tasks, operonId, the CLI and JSONL sessions, the 133 guides
 - https://operon.cc/docs/docs-118-operon-agent-runtime-overview/ - the sealed preview-and-apply mutation gateway, receipts, Property Catalog, platform support
-- https://api.npmjs.org/downloads/point/last-month/@stratejya/operon-cli - 362 downloads last month
+- https://api.npmjs.org/downloads/point/last-month/@stratejya/operon-cli - 349 downloads last month
 - https://api.github.com/repos/hasanyilmaz/operon-cli - the official CLI repository, GPL-3.0
 - https://api.github.com/repos/hasanyilmaz/operon/releases - 3.12.0 (2026-10-06) and the release train

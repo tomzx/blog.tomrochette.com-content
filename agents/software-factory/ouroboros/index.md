@@ -24,7 +24,7 @@ MIT, by Ouro Labs (Q00), solo-maintained with around 80 contributors.
 
 ## Status
 
-Very young, very active: 6,189 stars, 623 forks, 93 open issues as of 2026-10-07, created 2026-01-14, pushed 2026-10-06.
+Very young, very active: 6,194 stars, 625 forks, 93 open issues as of 2026-10-10, created 2026-01-14, pushed 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&theme=dark&legend=top-left" />

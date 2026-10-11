@@ -1,7 +1,7 @@
 ---
 title: Claude plans
 created: 2026-09-26
-updated: 2026-10-06
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, subscriptions, claude-code, anthropic]
 readability: 3
@@ -17,7 +17,7 @@ Claude plans are Anthropic's consumer subscriptions, Free, Pro, and Max, and fro
 ## What it is
 
 Three consumer tiers from Anthropic (PBC): Free at $0 with no Claude Code, Pro at $20 per month ($17 per month billed annually at $200 up front), and Max from $100 per month in 5x and 20x versions.
-Pro carries Claude Code, Claude Science, Design, Slides, Docs, and Projects; Max adds priority access at high-traffic times, higher output limits, and early access.
+Pro carries Claude Code, Claude Science, Design, Slides, Docs, and Projects; Max adds priority access at high-traffic times, higher output limits, early access, and, in a row the page labels New, $100 to $200 per month in Claude Platform API credits (Max 5x and 20x respectively).
 Team seats run $25 per month ($20 annual) for Standard and $100 ($125 monthly, $100 annual) for Premium with 5x Standard usage; Enterprise is custom.
 
 ## Status
@@ -45,8 +45,8 @@ The 2026 record is lively: an April pricing-page test briefly removed Claude Cod
 
 Free: $0, no Claude Code.
 Pro: $20/month, $17/month billed annually ($200 up front), Claude Code included.
-Max 5x: $100/month, 5x Pro usage.
-Max 20x: $200/month, 20x Pro usage, monthly billing only.
+Max 5x: $100/month, 5x Pro usage, listed with $100 per month in Claude Platform API credits.
+Max 20x: $200/month, 20x Pro usage, listed with $200 per month in Claude Platform API credits, monthly billing only.
 Team Standard $25/seat/month ($20 annual), Team Premium $100/seat/month ($100 annual), Enterprise custom; usage credits extend any plan at API rates under a spending cap.
 
 ## Price history
@@ -58,6 +58,7 @@ Team Standard $25/seat/month ($20 annual), Team Premium $100/seat/month ($100 an
 | 2026-05-13 | Usage | Weekly limits raised 50% as a promotion, extended three times through 2026-08-19 | https://ccforeveryone.com/guides/claude-code-limits-and-pricing |
 | 2026-07-20 | Fable | Fable 5.1 added to Max, Team Premium, and Enterprise up to 50% of weekly limits; Pro and Team Standard only via usage credits, the year's first tightening | https://ccforeveryone.com/guides/claude-code-limits-and-pricing |
 | 2026-07-25 | Models | Opus 5 released on all paid plans at unchanged subscription prices, default on Max | https://ccforeveryone.com/guides/claude-code-limits-and-pricing |
+| 2026-10-10 | Max 5x / Max 20x | Pricing page lists included monthly Claude Platform API credits of $100 (Max 5x) and $200 (Max 20x) in a row labeled New, at unchanged subscription prices; effective date not stated on the page | https://claude.com/pricing |
 
 ## Compared to
 
@@ -74,6 +75,7 @@ My disagreeable claim: most Max subscribers are paying for a productivity feelin
 ## Changes
 
 - 2026-09-26 - Created when the owner asked why the Claude and OpenAI subscriptions were missing from this category.
+- 2026-10-10 - Pricing re-check: the Max cards now list included monthly Claude Platform API credits ($100 on Max 5x, $200 on Max 20x) in a row labeled New, with every plan price re-verified unchanged on the live page; price history row appended.
 
 ## See also
 
@@ -84,7 +86,7 @@ My disagreeable claim: most Max subscribers are paying for a productivity feelin
 
 ## References
 
-- https://claude.com/pricing - plan prices, annual discount, Claude Code inclusion matrix, Fable access rules (fetched 200, 2026-09-26)
+- https://claude.com/pricing - plan prices, annual discount, Claude Code inclusion matrix, Fable access rules (fetched 200, 2026-09-26, re-fetched 2026-10-10 with the Max monthly API credits row added)
 - https://ccforeveryone.com/guides/claude-code-limits-and-pricing - the 2026 change log (May 6 doubling, May 13 promotion, July 20 Fable tightening, paused Agent SDK split), limit mechanics, Team seat prices, the API-versus-subscription math (fetched 200, updated 2026-08-05)
 - https://www.ssdnodes.com/blog/claude-code-pricing-in-2026-every-plan-explained-pro-max-api-teams/ - independent plan walkthrough, the instrumented-usage cost comparison it cites (fetched via search extraction, 2026-09-26)
 - https://www.layer3labs.io/guides/claude-pro-vs-max-for-teams - the weekly-cap skepticism and the upgrade heuristics (fetched via search extraction, 2026-09-26)

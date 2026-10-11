@@ -1,7 +1,7 @@
 ---
 title: Token Monitor
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, desktop, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Javis603, MIT-licensed.
 
 ## Status
 
-Young and shipping daily: 2,646 stars, 268 forks, 102 open issues, created 2026-05-19, pushed 2026-10-07, with v0.67.0 released 2026-10-06, v0.66.0 on 2026-10-04, and v0.65.0 on 2026-10-02, as of 2026-10-07.
+Young and shipping daily: 2,714 stars, 269 forks, 101 open issues, created 2026-05-19, pushed 2026-10-10, with v0.68.0 released 2026-10-08, v0.67.0 on 2026-10-06, and v0.66.0 on 2026-10-04, as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Javis603/token-monitor&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ I found no Hacker News thread for the project; the only search hit for the name 
 
 ## Cautions
 
-- 104 open issues against 2,634 stars and v0.67 within four months is a fast, churny project; expect breaking changes in a widget you leave running.
+- 101 open issues against 2,714 stars and v0.68 within five months is a fast, churny project; expect breaking changes in a widget you leave running.
 - Coverage is graded and uneven by design, and several limit sources are account-level cookie reads (Ollama Cloud, Alibaba Cloud console) rather than file parsing, a different trust model than the local reads the rest of this category does.
 - Cursor account usage arrives through Tokscale's cache, so Cursor numbers inherit Tokscale's Cursor pipeline.
 - The community footprint is a Discord and a star graph, with no independent discussion, so treat the claims as unverified beyond the README.
@@ -70,6 +70,7 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 
 - 2026-10-06 - Created from the 2026-10-06 entrant scan: the category's first live multi-tool widget, with retention archiving and self-hosted sync, with five fetched sources.
 - 2026-10-07 - Added the Javis603/token-monitor star history chart to the Status section.
+- 2026-10-10 - Recorded v0.68.0 (2026-10-08): experimental Codex Dots local-task usage tracking (disabled by default), a manual Edge Dock refresh button, and Edge Dock size options; repository counts refreshed (2,646 to 2,714 stars, 268 to 269 forks).
 
 ## See also
 
@@ -81,8 +82,8 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 
 ## References
 
-- https://api.github.com/repos/Javis603/token-monitor - 2,634 stars, 266 forks, MIT license, created 2026-05-19, as of 2026-10-06
+- https://api.github.com/repos/Javis603/token-monitor - 2,714 stars, 269 forks, MIT license, created 2026-05-19, as of 2026-10-10
 - https://raw.githubusercontent.com/Javis603/token-monitor/main/README.md - the 43-plus-tool source table, live features, retention archive, hub sync options, and export formats
-- https://api.github.com/repos/Javis603/token-monitor/releases - v0.67.0 (2026-10-06), v0.66.0 (2026-10-04), v0.65.0 (2026-10-02)
+- https://api.github.com/repos/Javis603/token-monitor/releases - v0.68.0 (2026-10-08), v0.67.0 (2026-10-06), v0.66.0 (2026-10-04), v0.65.0 (2026-10-02)
 - https://formulae.brew.sh/cask/token-monitor - the Homebrew cask
 - https://hn.algolia.com/api/v1/search?query=%22token%20monitor%22%20coding - the empty HN footprint behind the thin-community claim (the only name hit is an unrelated ESP32 project)

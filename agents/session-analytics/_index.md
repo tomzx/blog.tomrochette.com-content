@@ -15,10 +15,12 @@ Tools that turn what coding agents already record into searchable history, cost 
 - [agentsview](agentsview/index.md) - the local-first indexer for roughly 60 agents' session files, retrospective search and token-cost reporting in one SQLite store.
 - [AgentTrace](agenttrace/index.md) - the local Rust TUI and CLI that audits session cost, tokens, latency, failures, and health across about 15 coding-agent formats, with CI gates.
 - [ccusage](ccusage/index.md) - the zero-install CLI that turns eighteen coding agents' local usage files into daily-to-session cost reports, the incumbent every tool here benchmarks against.
+- [Claude Code Agent Monitor](claude-code-agent-monitor/index.md) - the local live control room over Claude Code, Cursor, and Codex sessions, native hooks plus transcript discovery, with cost tracking, config inspection, and launch-and-resume control, 1,058 stars.
 - [claude-devtools](claude-devtools/index.md) - the local desktop DevTools that reconstruct Claude Code sessions from ~/.claude logs, with per-turn token attribution across seven context categories, tool-call inspection, and subagent trees.
 - [claude-replay](claude-replay/index.md) - the zero-dependency CLI compiling sessions from seven harnesses into one self-contained interactive HTML replay with speed control, diffs, and secret redaction, the category's first shareable-artifact output, 843 stars.
 - [ClawTrace](clawtrace/index.md) - the hosted tracing and cost-attribution platform for OpenClaw runs, with full-payload traces and an AI analyst named Tracy, billed in credits.
 - [CodeBurn](codeburn/index.md) - the local desktop app and CLI that cuts AI coding spend by task, branch, and project, with plan-quota tracking, config optimization, and session spend guards.
+- [Coucou](coucou/index.md) - the notch companion and iPhone app watching eleven agents live, answering Claude Code and Codex permission requests from the notch or the Lock Screen.
 - [ctx](ctx/index.md) - local search over the sessions agents already recorded, with blame attribution from any line of code back to its transcript.
 - [Memex](memex/index.md) - the Rust CLI that indexes multi-harness session transcripts locally with BM25 or embeddings and resumes the session you find.
 - [Token Monitor](token-monitor/index.md) - the live desktop usage widget across 43-plus AI coding tools, with provider-limit tracking, retention archiving, and self-hosted multi-device sync.
@@ -41,3 +43,5 @@ Its members are compared on shared rows in the [Session Analytics Feature Matrix
 - 2026-10-06 - Added Token Monitor.
 - 2026-10-06 - Added Tokscale.
 - 2026-10-07 - Added claude-replay.
+- 2026-10-10 - Added Claude Code Agent Monitor.
+- 2026-10-10 - Added Coucou.

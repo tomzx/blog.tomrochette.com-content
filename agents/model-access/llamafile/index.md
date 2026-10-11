@@ -1,7 +1,7 @@
 ---
 title: llamafile
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, single-file]
 readability: 3
@@ -16,14 +16,14 @@ llamafile is Mozilla's single-file LLM distribution format: it folds llama.cpp a
 
 ## What it is
 
-A Mozilla Builders project launched November 2023, built by Justine Tunney (the Cosmopolitan Libc author) and now revamped by Mozilla.ai, licensed Apache-2.0 with its llama.cpp changes MIT so they can move upstream (26,190 stars, pushed 2026-10-07, as of 2026-10-07).
+A Mozilla Builders project launched November 2023, built by Justine Tunney (the Cosmopolitan Libc author) and now revamped by Mozilla.ai, licensed Apache-2.0 with its llama.cpp changes MIT so they can move upstream (26,217 stars, pushed 2026-10-08, as of 2026-10-10).
 You point it at a GGUF weights file and get one cross-platform binary containing the weights, the inference engine, and a web UI, runnable on macOS, Linux, Windows, and the BSDs across six OS targets, on CPU or GPU, with no install step.
 The same packaging ships whisperfile, a single-file speech-to-text and translation tool on whisper.cpp.
 Release 0.10.6 (September 2026) moved to a new build system on the 0.10 line, and the project publishes pre-built llamafiles for popular models through Mozilla's docs.
 
 ## Status
 
-Active under Mozilla.ai stewardship: created 2023-09-10, 26,190 stars, release 0.10.6 published 2026-09-15, as of 2026-10-07.
+Active under Mozilla.ai stewardship: created 2023-09-10, 26,217 stars, release 0.10.6 published 2026-09-15 (still latest as of 2026-10-10), as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mozilla-ai/llamafile&type=date&theme=dark&legend=top-left" />

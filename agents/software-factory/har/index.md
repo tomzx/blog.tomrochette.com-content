@@ -21,7 +21,7 @@ It is harness-agnostic and works with Claude Code, Cursor, Codex, or any MCP-cap
 
 ## Status
 
-Active and shipping fast: 98 stars and 12 forks since creation on 2026-06-28, v1.16.0 released 2026-10-07 (v1.0.0 landed 2026-08-28, ten releases in the first week of September alone), and the last main push on 2026-10-07 per the GitHub API as of 2026-10-07.
+Active and shipping fast: 98 stars and 12 forks since creation on 2026-06-28, v1.16.0 released 2026-10-07 (v1.0.0 landed 2026-08-28, ten releases in the first week of September alone), and the last main push on 2026-10-07 per the GitHub API as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=os-factory/har&type=date&theme=dark&legend=top-left" />
@@ -50,7 +50,7 @@ It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime c
 
 Apache-2.0, free, installable from npm with no license cost.
 You bring the coding agents and their subscriptions, and Mission Control runs locally on your machine.
-HAR HQ, the hosted team layer, published its first pricing (as of 2026-09-18, re-verified 2026-10-07): Team at $400 per month for up to 50 users with $100 in monthly cloud credits included, and Enterprise custom with self-hosted or VPC deployment, SSO, SAML, SCIM, and SLAs.
+HAR HQ, the hosted team layer, published its first pricing (as of 2026-09-18, re-verified 2026-10-10): Team at $400 per month for up to 50 users with $100 in monthly cloud credits included, and Enterprise custom with self-hosted or VPC deployment, SSO, SAML, SCIM, and SLAs.
 
 ## Price history
 

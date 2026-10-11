@@ -16,7 +16,7 @@ SemIf, until 2026-09-18 called OpenJev, is an MIT research project that reproduc
 
 ## What it is
 
-An MIT repository by TheoLeeCJ (about 4,700 stars as of 2026-10-06) plus a WebGPU site at openjev.com whose tagline, "Wow! No waitlist", aims directly at Jev's early-access queue.
+An MIT repository by TheoLeeCJ (about 4,800 stars as of 2026-10-10) plus a WebGPU site at openjev.com whose tagline, "Wow! No waitlist", aims directly at Jev's early-access queue.
 The method needs no training: runtime criteria and typed options go into a frozen open model (Qwen3 0.6B, MiniCPM5 2B, or Qwen3.5 4B), one forward pass per question reads the declared option logits, and a shared state is prefilled once, then branched across many criteria in parallel.
 Every output row carries timing, the exact model revision, and a prompt hash, and the fixtures, runners, and raw results are committed to the repository.
 An Apple Silicon MLX backend landed as a community PR on 2026-09-19, and the browser demo runs the same comparison entirely client-side with weights cached in the browser.
@@ -24,8 +24,8 @@ The rename is part of the artifact: after its launch thread debated trademark ri
 
 ## Status
 
-Three weeks old and active, as of 2026-10-06.
-Created 2026-09-16, last push 2026-09-23, two contributors, no tags or releases, 341 forks, about 4,700 stars.
+24 days old and active, as of 2026-10-10.
+Created 2026-09-16, last push 2026-09-23, two contributors, no tags or releases, 347 forks, about 4,800 stars.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TheoLeeCJ/SemIf-OpenJev&type=date&theme=dark&legend=top-left" />
@@ -94,7 +94,7 @@ I run the browser demo before I believe any latency claim in this category, and 
 
 ## References
 
-- https://github.com/TheoLeeCJ/SemIf-OpenJev - repository: MIT, about 4,700 stars, 341 forks, created 2026-09-16, last push 2026-09-23 (GitHub API, as of 2026-10-06; the /SemIf and /openjev URLs redirect here)
+- https://github.com/TheoLeeCJ/SemIf-OpenJev - repository: MIT, about 4,800 stars, 347 forks, created 2026-09-16, last push 2026-09-23 (GitHub API, as of 2026-10-10; the /SemIf and /openjev URLs redirect here)
 - https://raw.githubusercontent.com/TheoLeeCJ/SemIf/master/README.md - the rename notice, speed tables, browser model ladder, MLX backend, and the 2026-09-22 PR log
 - https://openjev.com/ - the project site: WebGPU demo, quality table, and the independence notice
 - https://news.ycombinator.com/item?id=49752041 - the OpenJev thread (722 points as of 2026-09-26, 2026-09-18): the trademark debate, the hype and failure criticisms (fetched via the Algolia items API)

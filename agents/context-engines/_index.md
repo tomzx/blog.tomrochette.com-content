@@ -17,6 +17,7 @@ The tools that decide what enters the context window: semantic engines, code gra
 - [Graphify](graphify/index.md) - the local AST knowledge graph exposed as a `/graphify` skill and MCP server, structure over similarity, no vectors.
 - [Headroom](headroom/index.md) - the Apache-2.0 compression layer rewriting tool outputs, logs, files, and RAG chunks before they reach the LLM, reversible through a retrieve tool, 74.6k stars in nine months.
 - [Jevgrep](jevgrep/index.md) - the MIT CLI that answers a question about a repo with files, leads, and excerpts, Jev judging relevance per query with no index at all, 2,424 stars in twelve days.
+- [LLMLingua](llmlingua/index.md) - Microsoft Research's MIT prompt-compression library (perplexity token pruning plus a GPT-4-distilled BERT-class compressor), the peer-reviewed ancestor of this category's compression products, 6.7k stars.
 - [qmd](qmd/index.md) - Tobias Lütke's local hybrid search engine for notes, docs, and knowledge bases, BM25 plus vectors plus reranking.
 - [Repomix](repomix/index.md) - the MIT CLI that packs a whole repo into one AI-friendly file, retrieval-free by design.
 - [rtk](rtk/index.md) - the Rust CLI proxy that filters agent command output before it enters the context window.
@@ -24,6 +25,7 @@ The tools that decide what enters the context window: semantic engines, code gra
 - [Serena](serena/index.md) - the LSP-backed MCP toolkit giving agents IDE-grade symbol retrieval and editing for free, with a paid JetBrains backend, about 30k stars.
 - [Sourcegraph code context platform](sourcegraph-code-context/index.md) - code search repositioned as the retrieval layer for agents, with value showing up above roughly 400K lines.
 - [TOON](toon-format/index.md) - the MIT spec-backed Token-Oriented Object Notation that re-encodes JSON as indentation and table rows, about 1.9 million npm downloads a week, cutting the token cost of structured data in prompts.
+- [WrenAI](wrenai/index.md) - Canner's Apache-2.0 governed semantic layer and context engine for data, versioned MDL plus business definitions in your git serving agents governed SQL over MCP, the first column over business semantics instead of code, about 17.8k stars.
 
 Its members are compared on shared rows in the [Context Engines Feature Matrix](context-engines-feature-matrix/index.md).
 
@@ -43,3 +45,5 @@ Its members are compared on shared rows in the [Context Engines Feature Matrix](
 - 2026-10-07 - Added Context7.
 - 2026-10-07 - Added Headroom.
 - 2026-10-07 - Added TOON.
+- 2026-10-10 - Added LLMLingua.
+- 2026-10-10 - Added WrenAI.

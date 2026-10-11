@@ -25,7 +25,7 @@ The marketing site now sells an enterprise "knowledge layer" engagement around t
 ## Status
 
 **Large stars, young rewrite, paused shipping.**
-16,585 stars with the repository pushed 2026-07-14, created 2025-05-27, as of 2026-10-09 (GitHub API), nearly three months without a push.
+16,583 stars with the repository pushed 2026-07-14, created 2025-05-27, as of 2026-10-10 (GitHub API), nearly three months without a push.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=memvid/memvid&type=date&theme=dark&legend=top-left" />
@@ -80,7 +80,7 @@ Not for teams needing a maintained dependency today, multi-user memory, or any c
 
 ## References
 
-- https://github.com/memvid/memvid - repository, 16,585 stars, activity, Apache-2.0, as of 2026-10-09
+- https://github.com/memvid/memvid - repository, 16,583 stars, activity, Apache-2.0, as of 2026-10-10
 - https://raw.githubusercontent.com/memvid/memvid/master/README.md - the Smart Frames architecture, file layout, SDK table, feature flags, and the v1 deprecation notice
 - https://www.memvid.com - the enterprise positioning, MCP mention, and the <5ms and +35 percent claims, as of 2026-10-08
 - https://news.ycombinator.com/item?id=44125598 - the v1 viral Show HN (61 points, 23 comments, 2025-05-29)

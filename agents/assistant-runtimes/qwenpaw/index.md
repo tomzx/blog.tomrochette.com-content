@@ -24,7 +24,7 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 
 ## Status
 
-Rapid and churny: 35,469 stars, 3,152 forks, 1,037 open issues and PRs as of 2026-10-07, created 2026-02-24, pushed 2026-09-30.
+Rapid and churny: 35,549 stars, 3,167 forks, 1,034 open issues and PRs as of 2026-10-10, created 2026-02-24, pushed 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&theme=dark&legend=top-left" />
@@ -83,7 +83,7 @@ Not for stability-first adopters mid-rewrite, or users who will not read the tel
 
 - https://raw.githubusercontent.com/agentscope-ai/QwenPaw/HEAD/README.md - channels, security layers, install, roadmap
 - https://github.com/agentscope-ai/QwenPaw - stars, forks, dates, language
-- https://pypi.org/project/qwenpaw/ - package versions and cadence (re-checked 2026-10-07 via the registry API, 2.2.2b4 is the newest upload)
+- https://pypi.org/project/qwenpaw/ - package versions and cadence (re-checked 2026-10-10 via the registry API, 2.2.2b4 is the newest upload)
 - https://qwenpaw.agentscope.io/ - the docs site
 - https://github.com/agentscope-ai/agentscope - the parent framework behind the v2.0 rewrite
 - https://platform.agentscope.io/ - the free cloud deployment option

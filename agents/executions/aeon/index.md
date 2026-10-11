@@ -24,9 +24,9 @@ It is built by Aaron Elijah Mars (Aeon Inc), and deployment is a fork or templat
 ## Status
 
 **Active and single-maintainer.**
-767 stars, 278 forks, and 1,427 commits as of 2026-10-08, created 2026-03-04 and pushed the day of this check.
-The maintainer wrote about 88% of tracked contributor commits, and there is exactly one tagged release (v0.1.0, 2026-07-09), so development is trunk-based on main.
-A Hacker News search returned no coverage as of 2026-10-08, and the fork count is inflated as an adoption signal because every deployed instance is a fork by design.
+770 stars, 279 forks, and 1,428 commits as of 2026-10-10, created 2026-03-04 and pushed the day of this check.
+The maintainer wrote about 83% of tracked contributor commits, and there is exactly one tagged release (v0.1.0, 2026-07-09), so development is trunk-based on main.
+A Hacker News search returned no coverage as of 2026-10-10, and the fork count is inflated as an adoption signal because every deployed instance is a fork by design.
 The project's proof-of-work page self-reports 141 vulnerability findings across 105 repositories (4.8M stars secured, counts as of 2026-09-28) with a link per fix, substantial evidence that is curated by the project itself.
 
 <picture>
@@ -48,7 +48,7 @@ The project's proof-of-work page self-reports 141 vulnerability findings across 
 - Bus factor: one maintainer, one tagged release, and no third-party documentation.
 - "No approval loops" is the design stance: auto-merge merges green PRs up to three per run, and cross-repo skills want a classic PAT with repo and workflow scopes.
 - Skill blast radius is a self-declared frontmatter hint, not a sandbox; the docs say so, and nothing technical stops a mislabeled skill.
-- No independent coverage or benchmarking exists as of 2026-10-08, so every quality claim traces back to the project's own pages.
+- No independent coverage or benchmarking exists as of 2026-10-10, so every quality claim traces back to the project's own pages.
 
 ## Pricing
 
@@ -83,5 +83,5 @@ Not for teams that need a governed execution layer (gh-aw is the answer there) o
 - https://www.aeon.fun/docs - architecture, the 85-skill catalog, five-minute scheduler, reactive triggers, chains, harnesses, and gateways
 - https://www.aeon.fun/security - the self-reported vulnerability-disclosure record (141 findings, 105 repositories, counts as of 2026-09-28)
 - https://aaronjmars.com - the founder's own description of Aeon, MiroShark, and Hyperstitions
-- https://hn.algolia.com/api/v1/search?query=aeonfun&tags=story - the coverage search that returned no hits, as of 2026-10-08
-- https://api.github.com/repos/aeonfun/aeon - exact counters (created 2026-03-04, 767 stars, 278 forks, pushed 2026-10-08) and the single v0.1.0 release
+- https://hn.algolia.com/api/v1/search?query=aeonfun&tags=story - the coverage search that returned no hits, as of 2026-10-10
+- https://api.github.com/repos/aeonfun/aeon - exact counters (created 2026-03-04, 770 stars, 279 forks, pushed 2026-10-10) and the single v0.1.0 release

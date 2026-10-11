@@ -23,7 +23,7 @@ Latency is the trade: about 0.3 s per request without thinking and a 3.3 s media
 ## Status
 
 **Days old and a research result, not a product.**
-The repository was created 2026-09-29 and pushed 2026-10-01, with 414 stars and 21 forks as of 2026-10-07.
+The repository was created 2026-09-29 and pushed 2026-10-01, with 419 stars and 21 forks as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PostHog/jeeves&type=date&theme=dark&legend=top-left" />
@@ -82,7 +82,7 @@ The disagreeable claim I will defend: if brief reasoning generalizes across the 
 
 ## References
 
-- https://github.com/PostHog/jeeves - repository: MIT, created 2026-09-29, 414 stars, 21 forks, pushed 2026-10-01 (GitHub API, as of 2026-10-07)
+- https://github.com/PostHog/jeeves - repository: MIT, created 2026-09-29, 419 stars, 21 forks, pushed 2026-10-01 (GitHub API, as of 2026-10-10)
 - https://raw.githubusercontent.com/PostHog/jeeves/master/README.md - the benchmark tables, the LoRA-plus-pointer-head-plus-drafter architecture, CISPO training, latency table, and the Kev acknowledgement
 - https://news.ycombinator.com/item?id=49891290 - the launch thread (242 points as of 2026-10-06, 2026-09-29), including the copycat and social-media skepticism
 - https://huggingface.co/PostHog/jeeves - weights: Apache-2.0, created 2026-09-29, 227 downloads and 5 likes as of 2026-10-07 (Hugging Face API)

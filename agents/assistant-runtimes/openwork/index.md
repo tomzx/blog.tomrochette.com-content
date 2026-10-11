@@ -23,7 +23,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 23,925 stars, 2,411 forks, 636 open issues and PRs as of 2026-10-07, created 2026-01-14, pushed 2026-10-07.
+Alive and shipping hard: 23,987 stars, 2,413 forks, 600 open issues and PRs as of 2026-10-10, created 2026-01-14, pushed 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />
@@ -50,9 +50,9 @@ v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-2
 
 ## Pricing
 
-Free: $0, the MIT open-source desktop app with BYO keys, macOS, Windows, and Linux downloads, as of 2026-10-06.
-Team: $10 per seat per month, with the first 5 seats free on OpenWork Cloud (everything in Free, unlimited users, SSO/SAML, the extension marketplace, distributed LLM keys, Cloud automations, basic usage analytics, standard support), as of 2026-10-06.
-Enterprise: custom pricing on an annual contract with a 60-day opt-out (everything in Team plus SCIM provisioning, usage and adoption analytics, desktop policies and version controls, audit log and spend observability, internal white-labeling, and BYO inference self-hosted or private models), as of 2026-10-06, with the grandfather clause back on the page: existing organizations already using SCIM or desktop policies keep full access.
+Free: $0, the MIT open-source desktop app with BYO keys, macOS, Windows, and Linux downloads, as of 2026-10-10.
+Team: $10 per seat per month, with the first 5 seats free on OpenWork Cloud (everything in Free, unlimited users, SSO/SAML, the extension marketplace, distributed LLM keys, Cloud automations, basic usage analytics, standard support), as of 2026-10-10.
+Enterprise: custom pricing on an annual contract with a 60-day opt-out (everything in Team plus SCIM provisioning, usage and adoption analytics, desktop policies and version controls, audit log and spend observability, internal white-labeling, and BYO inference self-hosted or private models), as of 2026-10-10, with the grandfather clause back on the page: existing organizations already using SCIM or desktop policies keep full access.
 Two add-ons joined the page on 2026-09-29: OpenWork Cloud Computer at $50 per member per month, a browser-accessible cloud computer for each member, and OpenWork models at $10 per user per month, managed inference with no keys to bring, both available on Team and Enterprise.
 The Den control plane inside the repo stays free for organizations up to five users, free to evaluate for 30 days at any size, and each `ee/` release converts to MIT two years after publication.
 

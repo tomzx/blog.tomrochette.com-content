@@ -1,7 +1,7 @@
 ---
 title: "Task Management Feature Matrix"
 created: 2026-08-27
-updated: 2026-10-09
+updated: 2026-10-10
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, task-management, task-tracking]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you run at least one coding agent and know what a dependency graph is; each column links to a full note.
 ---
 
-This matrix compares the seven task systems profiled in this section, feature by feature, so choosing between them does not require reading seven notes.
+This matrix compares the eight task systems profiled in this section, feature by feature, so choosing between them does not require reading eight notes.
 
 **Files versus database is the row that decides everything else: it determines whether your board survives multiple agents racing on it, and the planner layer Ordewell adds sits above that choice rather than replacing it.**
 
@@ -19,18 +19,18 @@ Each column links to the full research note; every cell below traces to a source
 
 ## The matrix
 
-| Feature | [AI Dev Tasks](../ai-dev-tasks/index.md) | [Backlog.md](../backlog-md/index.md) | [beads](../beads/index.md) | [It's a Plan](../its-a-plan/index.md) | [Operon](../operon/index.md) | [Ordewell](../ordewell/index.md) | [Task Master](../task-master/index.md) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Kind | two markdown prompt files applied in any AI IDE or CLI | CLI, terminal and web kanban | Go CLI plus Dolt database | self-hosted team tracker platform (web, REST, MCP) | Obsidian plugin plus operon-cli agent runtime | planner-plus-runners CLI, TUI, and VS Code extension | CLI plus MCP server |
-| Storage | generated `tasks/<feature>.md` checklists in the repo, no runtime state | markdown task files in the repo | Dolt SQL in `.beads/`, JSONL export | PostgreSQL via Drizzle plus an S3-compatible object store | markdown tasks in the Obsidian vault, indexed by `operonId` | typed plan JSON per session, conversation persisted | files under `.taskmaster/` (tasks, config, state) |
-| License | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ~ AGPL-3.0 (runner package Apache-2.0) | ~ GPL-3.0 (plugin and CLI) | ✓ Apache-2.0 | ~ MIT with Commons Clause |
-| Task structure | numbered parent tasks and sub-tasks with checkboxes, Relevant Files sections, mandatory task 0.0 create-feature-branch | tasks with acceptance criteria, DoD, milestones | hash IDs, epics, sub-tasks, message type | issues with projects, teams, cycles, custom fields, initiatives, dashboards | durable `operonId` identity, inline and file tasks, subtasks, dependencies, recurrence, reminders, time tracking | ordered tasks, each with runner, model, thinking effort, mode, dependencies | tasks with subtasks and dependency chains |
-| Dependency graph | ~ linear order only, the list is worked top to bottom | ~ milestones, no claim graph | ✓ graph plus auto-ready queue | ~ subtasks and links, no dependency scheduler | ~ dependency links between tasks, no auto-ready scheduler | ✓ ordered plan, dependencies respected | ✓ dependency chains, move with them |
-| Multi-agent concurrency | ✗ a generated checklist, no claims or locking | ✗ no atomic claims | ✓ atomic claim, hash IDs | ~ agents hold assignee slots, runs start on mention, assignment, or schedule, no claims | ~ writes go through receipted sealed plans against one running Obsidian, no shared claims | ~ independent tasks run in parallel, no shared claims | ? not verified |
-| PRD ingestion | ✓ the pipeline is the PRD (`create-prd.md`, then `generate-tasks.md`) | ✗ manual task creation | ✗ manual task creation | ✗ none documented, docs and notes are human-authored | ✗ none documented | ~ opt-in PRD artifact inside the planner conversation | ✓ `parse-prd` pipeline |
-| Agent integrations | any assistant that reads a file (Cursor, Claude Code, Windsurf, Amp documented) | Claude Code, Codex, Gemini CLI, Kiro, Cursor, MCP | `bd init` for Codex, Claude, Factory, Cursor, plus AGENTS.md and MCP | internal agents on any keyed model (Mastra runtime), external agents via @itsaplan/runner (Claude Code, Codex, OpenCode, Antigravity, Copilot, custom), plus MCP and REST | operon-cli (typed requests, JSONL sessions), in-process Developer API, direct Markdown edits supported | runners Claude Code, Codex, OpenCode built in, plugins beyond; planner can be a coding agent or one of 25 API providers | MCP server and CLI, documented for Cursor, Claude Code, Windsurf, VS Code, Q CLI |
-| Pricing | free | free | free | free self-hosted, no per-seat fees; commercial license unlisted | free, GPL-3.0 | free | CLI free, Hamster $40 per creator per month |
-| Current status | dormant, last push 2025-11-05, about 7.8k stars | active, about 7.0k stars | active, about 27.7k stars, 1,389 open issues, v1.3.2-rc.1 prerelease 2026-10-05 after v1.3.1 stable 2026-09-30 | active, 913 stars, v1.4.0 (2026-10-08) | active, 250 stars, 3.12.0 (2026-10-06) | active, 187 stars, v0.7.2 (2026-10-07) | repo quiet since April 2026, product alive at Hamster |
+| Feature | [AI Dev Tasks](../ai-dev-tasks/index.md) | [Backlog.md](../backlog-md/index.md) | [beads](../beads/index.md) | [Epiq](../epiq/index.md) | [It's a Plan](../its-a-plan/index.md) | [Operon](../operon/index.md) | [Ordewell](../ordewell/index.md) | [Task Master](../task-master/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | two markdown prompt files applied in any AI IDE or CLI | CLI, terminal and web kanban | Go CLI plus Dolt database | Git-native event-sourced issue tracker (TUI, browser GUI, MCP server) | self-hosted team tracker platform (web, REST, MCP) | Obsidian plugin plus operon-cli agent runtime | planner-plus-runners CLI, TUI, and VS Code extension | CLI plus MCP server |
+| Storage | generated `tasks/<feature>.md` checklists in the repo, no runtime state | markdown task files in the repo | Dolt SQL in `.beads/`, JSONL export | append-only per-user event logs in a managed Git worktree, replayed deterministically; metadata in `.epiq/project.json` | PostgreSQL via Drizzle plus an S3-compatible object store | markdown tasks in the Obsidian vault, indexed by `operonId` | typed plan JSON per session, conversation persisted | files under `.taskmaster/` (tasks, config, state) |
+| License | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ MIT | ~ AGPL-3.0 (runner package Apache-2.0) | ~ GPL-3.0 (plugin and CLI) | ✓ Apache-2.0 | ~ MIT with Commons Clause |
+| Task structure | numbered parent tasks and sub-tasks with checkboxes, Relevant Files sections, mandatory task 0.0 create-feature-branch | tasks with acceptance criteria, DoD, milestones | hash IDs, epics, sub-tasks, message type | tickets with refs, boards, tags, comments; commit-subject ref linking into inline code diffs | issues with projects, teams, cycles, custom fields, initiatives, dashboards | durable `operonId` identity, inline and file tasks, subtasks, dependencies, recurrence, reminders, time tracking | ordered tasks, each with runner, model, thinking effort, mode, dependencies | tasks with subtasks and dependency chains |
+| Dependency graph | ~ linear order only, the list is worked top to bottom | ~ milestones, no claim graph | ✓ graph plus auto-ready queue | ✗ none documented | ~ subtasks and links, no dependency scheduler | ~ dependency links between tasks, no auto-ready scheduler | ✓ ordered plan, dependencies respected | ✓ dependency chains, move with them |
+| Multi-agent concurrency | ✗ a generated checklist, no claims or locking | ✗ no atomic claims | ✓ atomic claim, hash IDs | ✓ per-agent identities write separate append-only logs merged by replay; conflicting text blocks resolve last-event-wins | ~ agents hold assignee slots, runs start on mention, assignment, or schedule, no claims | ~ writes go through receipted sealed plans against one running Obsidian, no shared claims | ~ independent tasks run in parallel, no shared claims | ? not verified |
+| PRD ingestion | ✓ the pipeline is the PRD (`create-prd.md`, then `generate-tasks.md`) | ✗ manual task creation | ✗ manual task creation | ✗ none documented | ✗ none documented, docs and notes are human-authored | ✗ none documented | ~ opt-in PRD artifact inside the planner conversation | ✓ `parse-prd` pipeline |
+| Agent integrations | any assistant that reads a file (Cursor, Claude Code, Windsurf, Amp documented) | Claude Code, Codex, Gemini CLI, Kiro, Cursor, MCP | `bd init` for Codex, Claude, Factory, Cursor, plus AGENTS.md and MCP | MCP server (`epiq-mcp`, thirty-odd tools), installable SKILL.md, per-agent identities, Claude Code documented | internal agents on any keyed model (Mastra runtime), external agents via @itsaplan/runner (Claude Code, Codex, OpenCode, Antigravity, Copilot, custom), plus MCP and REST | operon-cli (typed requests, JSONL sessions), in-process Developer API, direct Markdown edits supported | runners Claude Code, Codex, OpenCode built in, plugins beyond; planner can be a coding agent or one of 25 API providers | MCP server and CLI, documented for Cursor, Claude Code, Windsurf, VS Code, Q CLI |
+| Pricing | free | free | free | free | free self-hosted, no per-seat fees; commercial license unlisted | free, GPL-3.0 | free | CLI free, Hamster $40 per creator per month |
+| Current status | dormant, last push 2025-11-05, about 7.8k stars | active, about 7.0k stars | active, about 27.8k stars, 1,415 open issues, v1.3.2-rc.2 prerelease 2026-10-10 after v1.3.1 stable 2026-09-30 | active, 538 stars, v1.12.4 (2026-10-08) | active, 920 stars, v1.4.0 (2026-10-08) | active, 251 stars, 3.12.0 (2026-10-06) | active, 193 stars, v0.7.2 (2026-10-07) | repo quiet since April 2026, product alive at Hamster |
 
 ## Reading the matrix
 
@@ -38,13 +38,16 @@ Each column links to the full research note; every cell below traces to a source
 Task Master's file storage sits between the two but its concurrency story is unverified, which is the cell I would resolve first before adopting it for shared queues.
 
 **Ordewell is the category's planner layer: where the others track work, it decomposes a goal into an editable plan with per-task model assignment and refuses to take the agent's word for done, completing tasks on markers instead.**
-Its 187 stars and v0.7.x release line make it the least proven column, and its note records the launch thread's AI-written-replies episode as a transparency caution.
+Its 193 stars and v0.7.x release line make it the least proven column, and its note records the launch thread's AI-written-replies episode as a transparency caution.
 
 **It's a Plan is the platform column: a full team tracker where agents hold assignee slots, and the only member whose storage lives on a server outside your files.**
-Its 913 stars in under thirteen weeks keep it the fastest-climbing young entrant here, and its note records the near-zero HN footprint as the open question.
+Its 920 stars in under thirteen weeks keep it the fastest-climbing young entrant here, and its note records the near-zero HN footprint as the open question.
 
 **Operon is the knowledge-vault column: tasks live in the notes the human already keeps, and its sealed preview-and-apply runtime with receipts is the strongest agent-write contract in this category, though the runtime needs a running Obsidian and nothing works headless.**
-Its 250 stars and 3.x release train make it young but steady, and its note records the zero-HN footprint as the open question.
+Its 251 stars and 3.x release train make it young but steady, and its note records the zero-HN footprint as the open question.
+
+**Epiq is the audit column: an event-sourced log kept in Git, replayed to reconstruct what unattended agents did, with per-agent identities and ref-linked code diffs, and its storage row is the only one that is append-only by design.**
+Its 538 stars and 91-point launch thread make it mid-scale here, and its note records the last-event-wins text-conflict limitation the maintainer confirmed.
 
 **AI Dev Tasks is the ancestor column: the two-file prompt pack that ran the PRD-to-checklist loop before any of these tools existed, dormant since November 2025 with 7.8k stars and 1.7k forks.**
 It is the reminder that the stateful rows above are the whole product: a generated checklist has none of them.
@@ -57,6 +60,7 @@ It is the reminder that the stateful rows above are the whole product: a generat
 
 - Multiple agents sharing one queue: beads, for the atomic claims.
 - Human review as the bottleneck: Backlog.md, for the three review gates.
+- Auditing what unattended agents did while you were away: Epiq, replay the event log.
 - Want a self-hosted team board where agents hold assignee slots: It's a Plan, the platform-style entrant, AGPL-3.0.
 - Want the tracker inside your Obsidian vault: Operon, the knowledge-base column with receipted agent writes, GPL-3.0.
 - Want the PRD pipeline and accept the vendor: Task Master, pinned to a version you control.
@@ -79,6 +83,7 @@ It is the reminder that the stateful rows above are the whole product: a generat
 - 2026-10-07 - Extended from four to five columns with It's a Plan (inserted alphabetically), every row gaining a cell traced to the new note; refreshed the beads status cell (1,388 open issues) and the Ordewell status cell (187 stars, v0.7.1 of 2026-10-06), plus the matching prose figure.
 - 2026-10-08 - Extended from five to seven columns with AI Dev Tasks (the dormant prompt-file ancestor of the PRD pipeline) and Operon (the knowledge-vault entrant with the sealed-plan write path), inserted alphabetically, every row gaining cells traced to the new notes; refreshed the status cells (Backlog.md pushed 2026-10-07, beads 1,389 open issues, It's a Plan 905 stars, Ordewell v0.7.2 of 2026-10-07) and the reading and choosing prose.
 - 2026-10-09 - Refreshed the It's a Plan status cell (913 stars, v1.4.0 of 2026-10-08, which added state-change agent schedules and Linear import) and the matching prose figure; all other cells re-verified unchanged against their notes and live sources.
+- 2026-10-10 - Extended from seven to eight columns with Epiq (the Git-native event-sourced tracker whose replayable log audits unattended agent sprints), inserted alphabetically, every row gaining a cell traced to the new note; refreshed the beads status cell (about 27.8k stars, 1,415 open issues, v1.3.2-rc.2 prerelease of 2026-10-10), the It's a Plan, Operon, and Ordewell counts, and the reading and choosing prose.
 
 ## See also
 
@@ -104,3 +109,7 @@ It is the reminder that the stateful rows above are the whole product: a generat
 - https://raw.githubusercontent.com/snarktank/ai-dev-tasks/main/generate-tasks.md - task-list structure for the AI Dev Tasks column
 - https://github.com/hasanyilmaz/operon - vault tasks and the agent runtime for the Operon column
 - https://operon.cc/docs/docs-118-operon-agent-runtime-overview/ - the sealed-plan write path for the Operon column
+- https://github.com/ljtn/epiq - the event-sourced model and MCP setup for the Epiq column
+- https://raw.githubusercontent.com/ljtn/epiq/main/readme.md - storage, conflict handling, and agent identities for the Epiq column
+- https://ljtn.github.io/epiq/ - the teams-and-agents positioning for the Epiq column
+- https://news.ycombinator.com/item?id=48155570 - the launch thread grounding the Epiq caution cell

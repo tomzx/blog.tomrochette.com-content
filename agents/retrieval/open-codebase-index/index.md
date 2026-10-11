@@ -24,7 +24,7 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
 ## Status
 
 **Active and shipping constantly, with almost no community footprint.**
-216 stars and 34 forks since 2026-01-13, pushed 2026-10-09 (GitHub API, as of 2026-10-09).
+217 stars and 34 forks since 2026-01-13, pushed 2026-10-09 (GitHub API, as of 2026-10-10).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&legend=top-left" />
 </picture>
 
-npm shows 32 versions since 2026-07-30, latest 0.36.3 published 2026-10-09 following 0.36.2 on 2026-10-08, and 6,807 downloads in the month of 2026-09-08 to 2026-10-07, so installs run well ahead of stars.
+npm shows 32 versions since 2026-07-30, latest 0.36.3 published 2026-10-09 following 0.36.2 on 2026-10-08, and 7,378 downloads in the month of 2026-09-09 to 2026-10-08, so installs run well ahead of stars.
 A search for its name on Hacker News returned zero hits as of 2026-10-05, so like graft and Knowhere in this section, adoption is quiet and distribution runs from README to install, not from launches.
 
 ## Strengths
@@ -83,9 +83,9 @@ My disagreeable claim: a 6,000-installs-a-month npm package with zero discussion
 
 ## References
 
-- https://github.com/Helweg/open-codebase-index - repository: 216 stars, 34 forks, MIT, created 2026-01-13, pushed 2026-10-09 (GitHub API, as of 2026-10-09)
+- https://github.com/Helweg/open-codebase-index - repository: 217 stars, 34 forks, MIT, created 2026-01-13, pushed 2026-10-09 (GitHub API, as of 2026-10-10)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/README.md - hosts, highlights, pipeline, embedding providers, legacy package aliases (fetched 2026-10-05)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/docs/tools.md - the host surface matrix: 16 portable tools, 3 knowledge-base tools, 5 MCP prompts (fetched 2026-10-05)
 - https://registry.npmjs.org/open-codebase-index - latest 0.36.3 published 2026-10-09 following 0.36.2 (2026-10-08), 32 versions since 2026-07-30, MIT (re-verified 2026-10-09)
-- https://api.npmjs.org/downloads/point/last-month/open-codebase-index - 6,807 downloads, window 2026-09-08 to 2026-10-07 (fetched 2026-10-09)
+- https://api.npmjs.org/downloads/point/last-month/open-codebase-index - 7,378 downloads, window 2026-09-09 to 2026-10-08 (fetched 2026-10-10)
 - https://hn.algolia.com/api/v1/search?query=%22open-codebase-index%22&tags=story - the zero-hit footprint scan (fetched 2026-10-05)

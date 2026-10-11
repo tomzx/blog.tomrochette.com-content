@@ -25,7 +25,7 @@ Made by Microsoft Research, first released July 2024, optional Azure OpenAI or l
 ## Status
 
 **Active by the commit clock, retired by its own README.**
-36,271 stars and 3,838 forks since 2024-03-27, pushed 2026-10-08, 52 open issues (GitHub API, as of 2026-10-09).
+36,281 stars and 3,841 forks since 2024-03-27, pushed 2026-10-08, 52 open issues (GitHub API, as of 2026-10-10).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/graphrag&type=date&theme=dark&legend=top-left" />
@@ -81,7 +81,7 @@ My disagreeable claim: the maintenance-mode declaration is graph RAG's candid st
 
 ## References
 
-- https://api.github.com/repos/microsoft/graphrag - 36,271 stars, 3,838 forks, MIT, created 2024-03-27, pushed 2026-10-08, 52 open issues (GitHub API, as of 2026-10-09)
+- https://api.github.com/repos/microsoft/graphrag - 36,281 stars, 3,841 forks, MIT, created 2024-03-27, pushed 2026-10-08, 52 open issues (GitHub API, as of 2026-10-10)
 - https://api.github.com/repos/microsoft/graphrag/releases/latest - v3.3.0 published 2026-10-08, the SQLite performance-fix release
 - https://raw.githubusercontent.com/microsoft/graphrag/main/README.md - the maintenance-mode warning, the expensive-indexing warning, the init-between-versions rule
 - https://arxiv.org/abs/2404.16130 - the method paper: From Local to Global, graph RAG as query-focused summarization

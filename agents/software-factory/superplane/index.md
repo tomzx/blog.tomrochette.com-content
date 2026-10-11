@@ -1,7 +1,7 @@
 ---
 title: SuperPlane
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The core is Apache-2.0 with integrations across source control, CI, cloud, obser
 
 ## Status
 
-Active and the category's largest member: 7,711 stars, 650 forks, and 439 open issues, pushed 2026-10-07, per the GitHub API as of 2026-10-07.
+Active and the category's largest member: 7,711 stars, 649 forks, and 454 open issues, pushed 2026-10-10, per the GitHub API as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&theme=dark&legend=top-left" />
@@ -48,8 +48,15 @@ The repository now carries the software-factory topic and the website and docs s
 
 ## Pricing
 
-The engine is open source and free to self-host; the website offers cloud and on-prem options without published prices as of 2026-10-07.
-There is no public per-seat tier to track yet.
+The engine is open source and free to self-host with community support.
+The website published its first plans (as of 2026-10-10): Business at $199 per organization per month with unlimited team members and $50 in shared monthly usage for machines and managed models, OSS Projects free for qualifying open source projects, and Enterprise custom with air-gapped installation and audit logs.
+Beyond the included usage, managed machines bill per minute ($0.00012 to $0.01 by size) and managed model usage bills at provider rate plus 10 percent, deducted from a prepaid balance.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-10-10 | Business | First published pricing: Business $199 per organization per month with $50 shared monthly usage and unlimited team members, OSS Projects free, Enterprise custom. | [superplane.com/pricing](https://superplane.com/pricing/) |
 
 ## Compared to
 
@@ -65,6 +72,7 @@ Not for local-first, single-repo loops, and not for anyone who needs tagged rele
 ## Changes
 
 - 2026-10-07 - Created from the category's entrant scan as the largest member.
+- 2026-10-10 - Recorded the website's first published pricing (Business $199 per organization per month with $50 shared monthly usage, OSS Projects free, Enterprise custom, machine and model usage rates), adding the Price history section; counts refreshed.
 
 ## See also
 

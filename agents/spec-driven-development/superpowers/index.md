@@ -1,7 +1,7 @@
 ---
 title: Superpowers
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, methodology, agent-skills, worktrees, open-source]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 Superpowers is Jesse Vincent and Prime Radiant's complete software development methodology for coding agents, distributed as composable skills that trigger automatically and walk every build from a teased-out spec through plan, TDD, per-task subagent review, and branch cleanup.
 
-**Superpowers carries the category's largest single adoption figure, about 296.7k stars, more than double Spec Kit's, and it bought that with the strictest position in the movement: the workflows are mandatory, not suggestions, and the cost is paid in tokens up front.**
+**Superpowers carries the category's largest single adoption figure, about 297k stars as of 2026-10-10 and by its steward's count about to cross 300k, more than double Spec Kit's, and it bought that by making the workflow mandatory from session start, a position 7.0 softened at the edges by rebuilding brainstorming to size the ceremony to the work.**
 
 ## What it is
 
@@ -25,7 +25,9 @@ Prime Radiant, the applied research lab behind it, sells commercial support, add
 ## Status
 
 Large, active, and distribution-backed in a way no other column is.
-As of 2026-10-09: 296,692 stars, 26,498 forks, 323 open issues and pull requests, created 2025-10-09, pushed 2026-10-09, MIT, newest release v6.4.2 (2026-09-25).
+As of 2026-10-10: 297,027 stars, 26,522 forks, 324 open issues and pull requests, created 2025-10-09, pushed 2026-10-10, MIT, newest release v7.0.0 (2026-10-09).
+v7.0.0 shipped on the project's first anniversary with a rebuilt brainstorming skill that sizes the process to the work, running a quick task immediately, agreeing a small change in chat, or writing a full design document, and it replaces the spec-document reviewer with a builder check that reads the design as the person who will build it.
+The steward's anniversary post reports the repo about to cross 300,000 stars (12th most starred project on GitHub by his count), the number-one third-party Claude Code plugin at more than 1.1M installs, and 50M clones every two weeks from 1.95M unique IPs.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=obra/superpowers&type=date&theme=dark&legend=top-left" />
@@ -47,7 +49,9 @@ It entered this category's scan as a Development Frameworks entry on the Enginee
 ## Cautions
 
 - **The steward's own 6.4 release concedes the trade: building without Superpowers is faster and cheaper, and the claim is only that builds with it are significantly buggier per their evals, so the price of the method is measured in tokens and hours.**
-- Ceremony sizing is absent by design; the brainstorm-plan-worktree loop fires on every build the way spec-kit's fixed ceremony does, with less negotiation than a profile system offers.
+- Ceremony sizing is the agent's call, not a mode you pick: brainstorming sizes the work as of 7.0, but you negotiate by overriding its judgment rather than by choosing a ceremony level up front, and the skills still fire on every build by default.
+- The coverage is the inner build loop, and the community's loudest ask (multi-agent team execution) is still not in the box, per the competitor-published three-way comparison.
+- The one controlled head-to-head published so far (a single task, competitor-adjacent) found it slower to first code but stronger on up-front reasoning, so the token premium buys thought before code rather than speed.
 - Company stewardship with support as the business model, plus a disclosed telemetry default (the visual companion's logo fetch reports the version in use, opt-out via `SUPERPOWERS_DISABLE_TELEMETRY`).
 - New skills from outside are generally not accepted, so the method's content is curated by one company even though the code is open.
 
@@ -65,12 +69,13 @@ Prime Radiant sells commercial support, additional tooling, and managed spending
 ## Bottom line
 
 **Recommended for engineers who want the process enforced rather than suggested, and who accept paying a measured token-and-time premium for the bug-rate reduction the evals claim.**
-Not for anyone who needs ceremony sized to the change, and not for anyone whose workflow cannot carry a company-curated skill set.
-The disagreeable claim I will defend: 296.7k stars for a mandatory methodology is evidence that most developers did not want to choose their process per task, they wanted it imposed, and every column in this category that negotiates ceremony is swimming against that finding.
+Not for anyone who wants to set the ceremony level themselves rather than override the agent's sizing, and not for anyone whose workflow cannot carry a company-curated skill set.
+The disagreeable claim I will defend: 297k stars for a mandatory methodology is evidence that most developers did not want to choose their process per task, they wanted it imposed, and every column in this category that negotiates ceremony is swimming against that finding.
 
 ## Changes
 
 - 2026-10-09 - Created from the Engineering4AI awesome-list entrant scan, profiling obra/superpowers as the category's mandatory-workflow skill suite and its largest single adoption figure.
+- 2026-10-10 - Recorded the v7.0.0 anniversary release (rebuilt brainstorming that sizes the process to the work, the builder check replacing the spec-document reviewer), the steward's 300k-star and 1.1M-install claims, the three-way comparison and its head-to-head, and refreshed counts.
 
 ## See also
 
@@ -81,9 +86,13 @@ The disagreeable claim I will defend: 296.7k stars for a mandatory methodology i
 
 ## References
 
-- https://github.com/obra/superpowers - repository: workflow, harness table, philosophy, licensing (296,692 stars as of 2026-10-09)
+- https://github.com/obra/superpowers - repository: workflow, harness table, philosophy, licensing (297,027 stars as of 2026-10-10)
 - https://raw.githubusercontent.com/obra/superpowers/main/README.md - the seven-skill core loop, 16 harness installs, contribution policy, and telemetry disclosure
-- https://api.github.com/repos/obra/superpowers - stars, forks, issues, dates, and MIT as of 2026-10-09
+- https://api.github.com/repos/obra/superpowers - stars, forks, issues, dates, and MIT as of 2026-10-10
+- https://raw.githubusercontent.com/obra/superpowers/main/RELEASE-NOTES.md - the v7.0.0 release notes grounding the rebuilt brainstorming and the builder check
+- https://blog.fsck.com/2026/10/09/what-a-year/ - the anniversary post grounding the 7.0 framing and the 300k-star, 1.1M-install, and clone-volume claims
+- https://primeradiant.com/claude-plugin-stats/ - the steward's tracker of Anthropic's plugin-stats feed behind the 1.1M-install figure
+- https://raw.githubusercontent.com/addyosmani/agent-skills/main/docs/comparison.md - the three-way comparison and its linked single-task head-to-head, the newest critical source
 - https://github.com/prime-radiant-inc/superpowers-evals - the public behavioral eval lab grading harness compliance
 - https://blog.fsck.com/2025/10/09/superpowers/ - the release announcement and the skills-are-mandatory philosophy
 - https://blog.fsck.com/2026/09/21/superpowers-6.4/ - the 6.4 release and the bare-metal faster-and-cheaper concession

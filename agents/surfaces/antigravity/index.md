@@ -1,7 +1,7 @@
 ---
 title: Google Antigravity
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, google]
 readability: 3
@@ -28,7 +28,7 @@ Enterprise access went live through Google Cloud and Gemini Enterprise subscript
 
 ## Strengths
 
-- **The free individual tier is real**: unlimited tab completions and command requests with weekly rate limits, currently spanning Gemini 3.1 Pro and the Gemini 3.6 to 3.8 Flash line plus Claude Sonnet 4.6 and Opus 4.6 (thinking) and gpt-oss-120b, and the last three carry a November 2, 2026 removal date in the models docs.
+- **The free individual tier is real**: unlimited tab completions and command requests with weekly rate limits, currently spanning Gemini 3.1 Pro and the Gemini 3.6 to 3.8 Flash line plus Claude Sonnet 4.6 and Opus 4.6 (thinking) and gpt-oss-120b, and the last three carry a November 2, 2026 removal date in the models docs (re-verified 2026-10-10).
 - Paid tiers pulled ahead of the free list: Claude Sonnet 5.5 and Opus 5.5 (thinking) are Pro and Ultra models, with Sonnet 5.5 also on non-trial Pro only.
 - The SDK runs agents on local models with no API key: on-device through LiteRT (Gemma 4 26B) or against OpenAI-compatible local servers such as Ollama, LM Studio, and vLLM.
 - Multi-agent parallel management in the 2.0 desktop app matches what Cursor and OpenChamber charge for.
@@ -48,7 +48,7 @@ Enterprise access went live through Google Cloud and Gemini Enterprise subscript
 
 Individuals: $0/month with basic weekly rate limits.
 Google AI Pro and AI Ultra raise limits and add a flexible AI credit pool.
-Organizations: Google Cloud terms with consumption-based API pricing via the Gemini Enterprise Agent Platform, included in select Gemini Enterprise subscriptions, Standard and Plus from $30/seat/month or pay-as-you-go with a $0 seat fee, as of 2026-10-06 (re-verified, unchanged).
+Organizations: Google Cloud terms with consumption-based API pricing via the Gemini Enterprise Agent Platform, included in select Gemini Enterprise subscriptions, Standard and Plus from $30/seat/month or pay-as-you-go with a $0 seat fee, as of 2026-10-10 (re-verified, unchanged).
 
 ## Price history
 
@@ -87,8 +87,8 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 ## References
 
 - https://antigravity.google/ - product family, 2.0 command center, IDE, CLI, SDK
-- https://antigravity.google/pricing - tiers, model lists, weekly limits, enterprise terms, as of 2026-10-06
-- https://antigravity.google/docs/models - the model availability table: Sonnet and Opus 5.5 on paid tiers, the 4.6 pair and gpt-oss-120b slated for removal on November 2, 2026, as of 2026-10-07
+- https://antigravity.google/pricing - tiers, model lists, weekly limits, enterprise terms, as of 2026-10-10 (unchanged from the 2026-10-06 reading)
+- https://antigravity.google/docs/models - the model availability table: Sonnet and Opus 5.5 on paid tiers, the 4.6 pair and gpt-oss-120b slated for removal on November 2, 2026, as of 2026-10-10
 - https://antigravity.google/docs/plans/ - the free tier's weekly quota, the five-hour refresh on paid tiers, and the explicit no-BYOK statement, as of 2026-10-07
 - https://antigravity.google/docs/sdk/local-models/ - the SDK's LiteRT on-device path and OpenAI-compatible local-server path, as of 2026-10-07
 - https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/ - the Gemini CLI transition and June 18, 2026 cutoff

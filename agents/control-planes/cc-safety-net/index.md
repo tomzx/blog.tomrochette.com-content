@@ -1,7 +1,7 @@
 ---
 title: CC Safety Net
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, guardrails, security, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, single-repo open source, with full documentation at ccsafetynet.com.
 
 ## Status
 
-Actively maintained with no Hacker News help: 1,579 stars, 84 forks, 9 open issues and PRs as of 2026-10-07, created 2025-12-25, pushed 2026-10-07.
+Actively maintained with no Hacker News help: 1,582 stars, 84 forks, and 1 open issue or PR as of 2026-10-10, created 2025-12-25, pushed 2026-10-10, the open count falling from 9 three days earlier.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Actively maintained with no Hacker News help: 1,579 stars, 84 forks, 9 open issu
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&theme=dark&legend=top-left" />
 </picture>
 
-The npm package (`cc-safety-net`) is at 2.6.0 as of 2026-10-07, first published 2026-01-03 and last published 2026-10-05, so the release cadence is measured in days.
+The npm package (`cc-safety-net`) is at 2.6.7 as of 2026-10-10, first published 2026-01-03 and last published 2026-10-10, seven releases in five days, so the release cadence is measured in days.
 **A Hacker News search returns zero threads as of 2026-10-07, so ten months of growth came through npm and GitHub alone, and the missing community footprint means the security claims have no public adversarial review I could find.**
 
 ## Strengths
@@ -67,6 +67,7 @@ Not for org-scale governance, audited enforcement, or anything where a silently 
 ## Changes
 
 - 2026-10-07 - Created from the daily-refresh entrant resolution, profiling the parse-then-decide pre-execution guard and its zero-HN footprint.
+- 2026-10-10 - Recorded the npm train at 2.6.7 (published 2026-10-10) and the open-issue count falling from 9 to 1; scale refreshed (1,582 stars, pushed 2026-10-10).
 
 ## See also
 
@@ -80,6 +81,6 @@ Not for org-scale governance, audited enforcement, or anything where a silently 
 - https://github.com/kenryu42/cc-safety-net - repository: mechanism, supported CLIs, features, license
 - https://raw.githubusercontent.com/kenryu42/cc-safety-net/main/README.md - the README whose mechanism and feature claims this note traces to
 - https://ccsafetynet.com/docs - the documentation site (a client-rendered shell to fetchers, so linked rather than quoted)
-- https://api.github.com/repos/kenryu42/cc-safety-net - stars, issues, creation and push dates as of 2026-10-07
-- https://registry.npmjs.org/cc-safety-net - the 2.6.0 latest tag, first-publish and last-publish dates as of 2026-10-07
+- https://api.github.com/repos/kenryu42/cc-safety-net - stars, issues, creation and push dates as of 2026-10-10
+- https://registry.npmjs.org/cc-safety-net - the 2.6.7 latest tag, first-publish and last-publish dates as of 2026-10-10
 - https://hn.algolia.com/api/v1/search?query=%22cc-safety-net%22&tags=story - the zero-thread footprint check as of 2026-10-07

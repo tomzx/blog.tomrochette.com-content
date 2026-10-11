@@ -12,7 +12,7 @@ audience_notes: >
 
 RAGFlow is an Apache-2.0 open-source RAG engine from InfiniFlow that turns documents into a cited, agent-usable knowledge base through layout-aware parsing, template-based chunking, and an agentic retrieval workflow, deployable self-hosted over Docker or through its cloud.
 
-**RAGFlow is the largest bet that the retrieval engine itself is the product, and its 91.8k stars measure how badly DIY RAG teams wanted a deployable stack with inspectable chunks and grounded citations, but a disruptive 1.0 rewrite and an unpatched-RCE disclosure are the costs of adopting it.**
+**RAGFlow is the largest bet that the retrieval engine itself is the product, and its 91.9k stars measure how badly DIY RAG teams wanted a deployable stack with inspectable chunks and grounded citations, but a disruptive 1.0 rewrite and an unpatched-RCE disclosure are the costs of adopting it.**
 
 ## What it is
 
@@ -23,7 +23,7 @@ Made by InfiniFlow, with v1.0.0-rc1 (2026-09-29) rewriting the service layer in 
 
 ## Status
 
-Very active and very large: 91,756 stars, 10,903 forks since 2023-12-12, pushed 2026-10-06 (GitHub API, as of 2026-10-07), with 3.9M Docker pulls (ragflow-stats badge, re-verified 2026-10-07).
+Very active and very large: 91,945 stars, 10,942 forks since 2023-12-12, pushed 2026-10-10 (GitHub API, as of 2026-10-10), with 3.9M Docker pulls (ragflow-stats badge, re-verified 2026-10-10).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=infiniflow/ragflow&type=date&theme=dark&legend=top-left" />
@@ -85,7 +85,7 @@ My disagreeable claim: what RAGFlow actually sells is trust, and the star count 
 
 ## References
 
-- https://api.github.com/repos/infiniflow/ragflow - 91,756 stars, 10,903 forks, Apache-2.0, Go, created 2023-12-12, pushed 2026-10-06 (GitHub API, as of 2026-10-07)
+- https://api.github.com/repos/infiniflow/ragflow - 91,945 stars, 10,942 forks, Apache-2.0, Go, created 2023-12-12, pushed 2026-10-10 (GitHub API, as of 2026-10-10)
 - https://raw.githubusercontent.com/infiniflow/ragflow/main/README.md - DeepDoc, template-based chunking, knowledge compilation, agentic retrieval modes, Go-native architecture, deployment requirements
 - https://raw.githubusercontent.com/infiniflow/ragflow/main/docs/release_notes.md - the v1.0.0-rc1 Go rewrite, NATS and Kvrocks migration, irreversible v0.27.2 upgrade, known issues
 - https://api.github.com/repos/infiniflow/ragflow/releases/latest - v1.0.0-rc1 published 2026-09-29
@@ -96,5 +96,5 @@ My disagreeable claim: what RAGFlow actually sells is trust, and the star count 
 - https://hn.algolia.com/api/v1/items/39896923 - the 230-point launch thread, 2024-04-01
 - https://hn.algolia.com/api/v1/search?query=ragflow&tags=story - the story-footprint scan behind the launch-thread claims
 - https://hn.algolia.com/api/v1/search?query=ragflow&tags=comment - the comment-footprint scans behind the 294-since-2025 and 2-in-2026 claims
-- https://raw.githubusercontent.com/infiniflow/ragflow-stats/main/badges/docker-pulls.json - 3.9M Docker pulls (as of 2026-10-06)
+- https://raw.githubusercontent.com/infiniflow/ragflow-stats/main/badges/docker-pulls.json - 3.9M Docker pulls (re-verified 2026-10-10)
 - https://cloud.ragflow.io/ - the cloud app (a client-rendered JS shell; tiers read from the marketing page instead)

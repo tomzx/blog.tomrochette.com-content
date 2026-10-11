@@ -1,7 +1,7 @@
 ---
 title: LlamaIndex
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, retrieval, frameworks]
 readability: 3
@@ -25,7 +25,7 @@ In February 2026 the same team also open-sourced [LiteParse](https://github.com/
 ## Status
 
 Active and heavily used.
-The `run-llama/llama_index` repository shows 52.4k stars, 8.3k forks, and 262 open issues (897 counting pull requests) as of 2026-10-07, with 7,955 commits as of 2026-10-07.
+The `run-llama/llama_index` repository shows 52.5k stars, 8.3k forks, and 270 open issues (904 counting pull requests) as of 2026-10-10, with 7,956 commits as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ The `run-llama/llama_index` repository shows 52.4k stars, 8.3k forks, and 262 op
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&legend=top-left" />
 </picture>
 
-**The strategic signal is the pivot: the repository now describes itself as "the leading document agent and OCR platform", and the docs split between the legacy `docs.llamaindex.ai` site and the new `developers.llamaindex.ai` home, where some legacy API pages (the code splitter reference among them) no longer resolve.**
+**The strategic signal is the pivot, and it deepened: the README's NOTE block now states the current focus is "the best AI-powered engine for document parsing and extraction", with LlamaParse the enterprise platform for agentic OCR and LiteParse the free parser, and ParseBench and ExtractBench added as the team's open parsing benchmarks.**
 
 ## Strengths
 
@@ -82,6 +82,7 @@ That claim is arguable, which is the point.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-25 - Refreshed volatile facts: 231 open issues (858 counting pull requests), 7,943 commits, and LiteParse at 12,611 stars; LlamaParse pricing re-confirmed unchanged.
 - 2026-10-07 - Added the run-llama/llama_index star history chart to the Status section.
+- 2026-10-10 - Corrected the pivot wording: the README's NOTE block now states the focus is an AI-powered document parsing and extraction engine with LlamaParse the enterprise platform, LiteParse the free parser, and ParseBench and ExtractBench as open parsing benchmarks, replacing the "document agent and OCR platform" phrasing, and refreshed the repository numbers (52.5k stars, 270 open issues, 7,956 commits).
 
 ## See also
 
@@ -92,8 +93,8 @@ That claim is arguable, which is the point.
 
 ## References
 
-- https://github.com/run-llama/llama_index - repository scale (52.4k stars), MIT license, pivot to "document agent and OCR platform", as of 2026-10-07
-- https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,795 stars, Apache-2.0, pushed 2026-10-05 (GitHub API, as of 2026-10-07)
+- https://github.com/run-llama/llama_index - repository scale (52.5k stars), MIT license, the README's parsing-engine focus note and ParseBench and ExtractBench benchmarks, as of 2026-10-10
+- https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,818 stars, Apache-2.0, pushed 2026-10-09 (GitHub API, as of 2026-10-10)
 - https://docs.llamaindex.ai/en/stable/ - framework documentation structure: RAG pipeline, agents, workflows, LlamaCloud
 - https://developers.llamaindex.ai/python/framework/module_guides/loading/node_parsers/modules/ - CodeSplitter (tree-sitter) and Chunker (Chonkie) node parsers
 - https://www.llamaindex.ai/pricing - LlamaParse tiers, credit pricing, VPC and compliance options, as of 2026-10-07 (re-verified unchanged)

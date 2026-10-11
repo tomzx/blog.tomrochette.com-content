@@ -20,7 +20,7 @@ Each run of a Work Item is an Attempt that a Writer, parallel Reviewers, a deter
 
 ## Status
 
-Active and shipping again: 111 stars and 7 forks since creation on 2026-07-10, 2,127 commits, and v0.5.0 released 2026-10-06, ending the roughly four-week quiet stretch that followed v0.4.0 (2026-09-08), per the GitHub API as of 2026-10-07.
+Active and shipping again: 111 stars and 7 forks since creation on 2026-07-10, 2,127 commits, and v0.5.0 released 2026-10-06, ending the roughly four-week quiet stretch that followed v0.4.0 (2026-09-08), per the GitHub API as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mrinalwadhwa/fluent&type=date&theme=dark&legend=top-left" />

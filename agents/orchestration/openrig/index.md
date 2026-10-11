@@ -25,7 +25,7 @@ It ships no model and holds no API keys: it drives the Claude Code and Codex log
 
 ## Status
 
-Active and early: about 6.2k stars as of 2026-10-09, up from 5.6k on 2026-10-07, created 2026-04-01, 24 contributors, 94 open issues and pull requests, and v0.6.8 published 2026-10-09 two days after v0.6.7 and v0.6.6, with npm `@openrig/cli` at 0.6.8 after 55 versions since 2026-04-06.
+Active and early: about 6.6k stars as of 2026-10-10, up from 6.2k on 2026-10-09, created 2026-04-01, 24 contributors, 94 open issues and pull requests, and v0.6.8 published 2026-10-09 two days after v0.6.7 and v0.6.6, with npm `@openrig/cli` at 0.6.8 after 55 versions since 2026-04-06.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mvschwarz/openrig&type=date&theme=dark&legend=top-left" />

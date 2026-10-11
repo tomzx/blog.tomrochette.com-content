@@ -23,7 +23,7 @@ Every action an agent takes is governed and logged, approvals are configurable, 
 
 ## Status
 
-Early and moving fast: about 18,500 stars in its first twelve weeks as of 2026-10-07 (created 2026-07-20, pushed 2026-10-06), with v0.3.1 released 2026-10-05 and a public beta disclaimer on the README.
+Early and moving fast: about 18,500 stars in its first twelve weeks as of 2026-10-10 (created 2026-07-20, pushed 2026-10-10), with v0.3.1 released 2026-10-05 and a public beta disclaimer on the README.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=andrewyng/openworker&type=date&theme=dark&legend=top-left" />

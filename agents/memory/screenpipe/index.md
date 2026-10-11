@@ -25,8 +25,8 @@ Pipes are scheduled AI agents defined as markdown files, with YAML frontmatter p
 
 ## Status
 
-**Active and large, ranking eleventh of the twenty-two members by stars, on a YC-backed company.**
-21,884 stars with the repository pushed 2026-10-09, created 2024-06-19, as of 2026-10-09 (GitHub API).
+**Active and large, ranking eleventh of the twenty-three members by stars, on a YC-backed company.**
+21,894 stars with the repository pushed 2026-10-10, created 2024-06-19, as of 2026-10-10 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=screenpipe/screenpipe&type=date&theme=dark&legend=top-left" />
@@ -57,7 +57,7 @@ Free: $0, one device, capture, search, and sharing context with AI tools.
 Basic: $21/month ($250/year billed annually), full searchable history and unlimited scheduled workflows.
 Business: $42/seat/month ($500/seat/year), personal device sync and managed seats, shared context across teammates not included.
 Enterprise: custom, scoped per deployment.
-A 50 percent first-month student discount applies, as of 2026-10-08.
+A 50 percent first-month student discount applies, as of 2026-10-10.
 Source builds follow the commercial license: personal, non-profit, and educational use free, organizational evaluation 7 days.
 
 ## Price history
@@ -91,10 +91,10 @@ Not for privacy-strict environments, commercial use without a license budget, or
 
 ## References
 
-- https://github.com/screenpipe/screenpipe - repository, 21,884 stars, activity, as of 2026-10-09
+- https://github.com/screenpipe/screenpipe - repository, 21,894 stars, activity, as of 2026-10-10
 - https://raw.githubusercontent.com/screenpipe/screenpipe/main/README.md - capture model, pipes and their permission model, MCP and API surfaces, positioning
 - https://raw.githubusercontent.com/screenpipe/screenpipe/main/LICENSE.md - the Screenpipe Commercial License terms (personal free, 7-day organizational evaluation, commercial paid)
-- https://screenpipe.com/pricing - Free, Basic, Business, and Enterprise plans as of 2026-10-08
+- https://screenpipe.com/pricing - Free, Basic, Business, and Enterprise plans as of 2026-10-10
 - https://news.ycombinator.com/item?id=49024620 - the YC S26 Launch HN thread (88 points, 67 comments, 2026-07-23)
 - https://news.ycombinator.com/item?id=41695840 - the 2024 Show HN (218 points, 125 comments), the category's largest community record
 - https://hn.algolia.com/api/v1/search?query=screenpipe&tags=story - the footprint scan, including the 2024 business-model skeptic thread

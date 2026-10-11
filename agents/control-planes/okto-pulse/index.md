@@ -1,7 +1,7 @@
 ---
 title: Okto Pulse
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, spec-driven-development, governance-gates, coding-agents, mcp, local-first]
 readability: 3
@@ -27,7 +27,8 @@ An embedded knowledge graph keeps decisions, constraints, bugs, and learnings qu
 
 ## Status
 
-Active and young: 110 stars, 4 forks, and 8 open issues as of 2026-10-07, created 2026-04-22, last pushed 2026-10-07, current PyPI version 0.3.3.
+Active and young: 52 stars, 3 forks, and 8 open issues as of 2026-10-10, created 2026-04-22, last pushed 2026-10-10, current PyPI version 0.3.3.
+**The star count halved in three days (110 on 2026-10-07 to 52 today) while the repository kept being pushed, the signature of a GitHub star purge rather than a user exodus, so treat every adoption number in this note as unstable.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OktoLabsAI/okto-pulse&type=date&theme=dark&legend=top-left" />
@@ -74,6 +75,7 @@ The README describes a possible SaaS edition and a core-and-community split, but
 - 2026-09-29 - Added Okto Nexus as the vendor's sibling product (a local-first MCP coordination hub, okto-nexus 0.1.10, served from one `okto-nexus serve` port, same Elastic license).
 - 2026-10-02 - Added Okto Neuron as the vendor's third product (formerly Marginalia, 0.3.1, Elastic-2.0, local-first knowledge-graph memory served over MCP with byte-range citations).
 - 2026-10-07 - Added the OktoLabsAI/okto-pulse star history chart to the Status section.
+- 2026-10-10 - Recorded the star count falling from 110 (2026-10-07) to 52 while pushes continued, with the caution that the adoption numbers are unstable.
 
 ## See also
 

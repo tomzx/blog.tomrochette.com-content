@@ -15,9 +15,10 @@ Specification-first workflows: the movement's process layers and toolkits, sized
 - [cc-sdd](cc-sdd/index.md) - the Kiro-inspired installer that puts a 17-skill spec workflow inside eight agents, with per-task independent review in autonomous mode.
 - [GitHub Spec Kit](spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, about 140k stars.
 - [GSD](gsd/index.md) - the 64k-star get-shit-done workflow system for Claude Code, archived and continuing as open-gsd/gsd-core.
-- [OpenSpec](openspec/index.md) - the brownfield spec toolkit whose delta proposals archive into a living ledger, about 2.7M npm downloads a month.
+- [Intent-Router](intent-router/index.md) - the MIT single skill that compiles a vague request into a typed IntentSpec contract and checks the delivered work against it one constraint at a time, 1,015 stars in three weeks.
+- [OpenSpec](openspec/index.md) - the brownfield spec toolkit whose delta proposals archive into a living ledger, about 2.9M npm downloads a month.
 - [Spec Kitty](spec-kitty/index.md) - the Spec Kit-derived governance CLI whose work packages run in isolated git worktrees behind review gates, about 1.7k stars.
-- [Superpowers](superpowers/index.md) - the mandatory-workflow skill suite installed in 16 harnesses behind the category's largest adoption figure, about 296.7k stars.
+- [Superpowers](superpowers/index.md) - the mandatory-workflow skill suite installed in 16 harnesses behind the category's largest adoption figure, about 297k stars, with 7.0's rebuilt brainstorming sizing the ceremony to the work.
 - [Tessl](tessl/index.md) - the $125M platform bet that spec-driven development is infrastructure you rent.
 - [Vibe Coding Prompt Template](vibe-coding-prompt-template/index.md) - the zero-install prompt pack that turns an idea into research, a PRD, and a tech design in any chat tool before an agent writes code, about 3.1k stars.
 
@@ -35,3 +36,4 @@ Its members are compared on shared rows in the [Spec Driven Development Feature 
 - 2026-10-06 - Added Spec Kitty.
 - 2026-10-07 - Added Vibe Coding Prompt Template.
 - 2026-10-09 - Added Superpowers.
+- 2026-10-10 - Added Intent-Router.

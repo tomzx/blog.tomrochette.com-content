@@ -14,7 +14,7 @@ audience_notes: >
 
 Octop is Tencent Cloud's MIT-licensed, self-hosted AI assistant platform: one Python process serves a web dashboard, a CLI, native desktop clients, and eight-plus IM channels for a multi-user household or team, and each member gets their own team of specialized "experts".
 
-**Octop is what the assistant-runtime wave looks like when an incumbent vendor builds it: multi-user by default, Tencent-enterprise-IM first, and composed from four small sub-repos (harness, gateway, memory, browser) instead of one monolith, at 7.6k stars within three months of launch.**
+**Octop is what the assistant-runtime wave looks like when an incumbent vendor builds it: multi-user by default, Tencent-enterprise-IM first, and composed from four small sub-repos (harness, gateway, memory, browser) instead of one monolith, at 8.4k stars within three months of launch.**
 
 ## What it is
 
@@ -26,7 +26,7 @@ It is published under the TencentCloud GitHub org and built from four focused su
 
 ## Status
 
-Fast out of the gate and young: 7,555 stars and 916 forks in its first three months as of 2026-10-07 (created 2026-07-08, pushed 2026-10-06), 736 open issues, MIT.
+Fast out of the gate and young: 8,385 stars and 1,024 forks in its first three months as of 2026-10-10 (created 2026-07-08, pushed 2026-10-10), 711 open issues, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/Octop&type=date&theme=dark&legend=top-left" />
@@ -81,7 +81,7 @@ The disagreeable claim I will defend: multi-user is the assistant category's nex
 
 ## References
 
-- https://github.com/TencentCloud/Octop - repository, license, and adoption numbers as of 2026-10-07
+- https://github.com/TencentCloud/Octop - repository, license, and adoption numbers as of 2026-10-10
 - https://raw.githubusercontent.com/TencentCloud/Octop/main/README.md - architecture, experts, channels, ACP, roadmap, install paths
 - https://api.github.com/repos/TencentCloud/Octop/releases?per_page=3 - the v1.0.2b4 through v1.0.2b6 beta line (2026-09-27 through 2026-10-04)
 - https://pypi.org/pypi/octop/json - the PyPI stable channel at 1.0.1 while GitHub runs v1.0.2b6

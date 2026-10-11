@@ -1,7 +1,7 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-10-09
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
 readability: 3
@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,559 stars, 3,953 forks, created 2023-05-18, pushed 2026-10-09, v4.55.0 released 2026-10-08 as of 2026-10-09.
+Mature and busy: 35,587 stars, 3,959 forks, created 2023-05-18, pushed 2026-10-10, v4.56.0 released 2026-10-09 as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />
@@ -51,7 +51,7 @@ Announced ClickHouse acquisition landed on Hacker News on 2026-01-17 with 220 po
 ## Pricing
 
 Self-hosted: free, MIT core, with the `ee/` directories under their separate license.
-Langfuse Cloud as of 2026-10-02: Hobby free (50k units/month, 30-day retention), Core $29/month, Pro $199/month (Teams add-on $300/month), Enterprise $2,499/month, plus graduated overage from $8 down to $6 per 100k units.
+Langfuse Cloud as of 2026-10-10: Hobby free (50k units/month, 30-day retention), Core $29/month, Pro $199/month (Teams add-on $300/month), Enterprise $2,499/month, plus graduated overage from $8 down to $6 per 100k units.
 
 ## Price history
 
@@ -82,6 +82,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 - 2026-10-07 - Recorded the v4.52.0 and v4.53.0 releases (both 2026-10-06) and refreshed repository counts.
 - 2026-10-08 - Recorded the v4.54.0 release (2026-10-07) and refreshed repository counts.
 - 2026-10-09 - Recorded the v4.55.0 release (2026-10-08) and refreshed repository counts.
+- 2026-10-10 - Recorded the v4.56.0 release (2026-10-09) and refreshed repository counts; cloud pricing re-verified unchanged.
 
 ## See also
 
@@ -92,12 +93,12 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 
 ## References
 
-- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-10-09
+- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-10-10
 - https://raw.githubusercontent.com/langfuse/langfuse/main/LICENSE - MIT core, the `ee/` carve-out, and the ClickHouse, Inc. copyright
 - https://raw.githubusercontent.com/langfuse/langfuse/main/README.md - feature set, self-hosting, integrations, and the January 2026 ClickHouse note
 - https://langfuse.com/docs - platform overview, OTel basis, evaluation methods, agent skill, CLI, and MCP server
 - https://langfuse.com/pricing - cloud tiers, billable units, graduated overage, self-host FAQ, named customers
-- https://github.com/langfuse/langfuse/releases - v4.51.0 release date
+- https://github.com/langfuse/langfuse/releases - release cadence evidence (v4.51.0 through v4.56.0)
 - https://news.ycombinator.com/item?id=46656552 - the acquisition thread, 220 points, with the open-core and consolidation concerns
 - https://news.ycombinator.com/item?id=42441258 - the 2024 Launch HN thread, 215 points, including the LangSmith comparison
 - https://news.ycombinator.com/item?id=37310070 - the 2023 Show HN thread, 143 points

@@ -23,7 +23,7 @@ This is a research artifact with a release train of daily `v0.1.0-dev` prereleas
 
 ## Status
 
-Young, institutional, and quiet in public: 369 stars, pushed 2026-10-09 as of 2026-10-09, created 2026-08-27.
+Young, institutional, and quiet in public: 373 stars, pushed 2026-10-10 as of 2026-10-10, created 2026-08-27.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&theme=dark&legend=top-left" />

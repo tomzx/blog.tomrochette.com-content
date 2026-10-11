@@ -1,7 +1,7 @@
 ---
 title: Jesse Vincent
 created: 2026-09-24
-updated: 2026-10-06
+updated: 2026-10-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, agentic-engineering, skills, tdd]
 readability: 3
@@ -27,6 +27,7 @@ His writeups say users' most common lament is that Superpowers burns many tokens
 A 2026-09-29 writeup, "I asked muse to tell me about updates to its skills", opens a new front: he is spelunking the Muse agent (muse.ai), finds it well put together and especially good at web browsing, and now publishes obra/muse-skills, a public repo where a scheduled job on a Hatch container snapshots Muse's shipped skill collection daily.
 The newest post, "A quick trip to the uncanny valley" (2026-10-02), opens yet another: Prime Radiant is building Sen, an "agentic" colleague platform that is not an agent on behalf of one human, and the post counts about 550 publicly shipped coding agents at alltheagents.org.
 "Today at work" (2026-10-05) continues the Sen thread from the inside, a first-person account of managing AI colleagues after one merged to main a little too quickly against his review advice.
+The newest post, "What a year" ([2026-10-09](https://blog.fsck.com/2026/10/09/what-a-year/), the one-year anniversary of his last hand-written line of code), releases Superpowers 7.0 with a rebuilt brainstorming experience, and reports the suite approaching 300,000 GitHub stars (12th most-starred project on GitHub, per that post), the number-one third-party Claude Code plugin with over 1.1 million installs, and 50 million clones every two weeks from 1.95 million unique IPs, all as of that post; his takeaway holds that process management still beats unsupervised models even as harnesses improved.
 Third-party pull is visible: HN threads recommend Superpowers as the fix for bad agent experiences, Willison cites it as the reference implementation of TDD-with-agents, OpenAI's Codex announcements were read as bundling it, and orchestration stacks like metaswarm declare it, alongside Yegge's beads, an essential foundation.
 
 ## Strengths
@@ -69,6 +70,7 @@ Not for token-budget-tight users, TDD-averse codebases, or readers who want mini
 - 2026-10-02 - Added his 2026-09-29 post "I asked muse to tell me about updates to its skills" and the obra/muse-skills repo it publishes to Status and References.
 - 2026-10-03 - Added his 2026-10-02 post "A quick trip to the uncanny valley" (Prime Radiant's Sen agentic-colleague platform and the ~550-agent census at alltheagents.org) to Status and References; both URLs fetched this run.
 - 2026-10-06 - Added his 2026-10-05 post "Today at work", a day-in-the-life account of managing Sen colleagues after one merged to main a little too quickly, to Status and References (URL fetched this run); blog count refreshed to 544 and Superpowers stars to 295.8k as of 2026-10-06.
+- 2026-10-10 - Added his 2026-10-09 anniversary post "What a year" (Superpowers 7.0's rebuilt brainstorming experience, plus the approaching-300k-stars, 1.1M-installs, and 50M-clones-per-fortnight claims) to Status and References (URL and blog homepage fetched this run); blog count refreshed to 545.
 
 ## See also
 
@@ -80,11 +82,12 @@ Not for token-budget-tight users, TDD-averse codebases, or readers who want mini
 
 ## References
 
-- https://blog.fsck.com/ - the blog homepage: cadence, recent posts, 543-post archive, and the Prime Radiant/Best Practical/Keyboardio work links
+- https://blog.fsck.com/ - the blog homepage: cadence, recent posts, 545-post archive, and the Prime Radiant/Best Practical/Keyboardio work links
 - https://blog.fsck.com/2025/10/05/how-im-using-coding-agents-in-september-2025/ - the September 2025 methodology writeup
 - https://blog.fsck.com/2025/10/09/superpowers/ - the Superpowers release announcement and skills philosophy
 - https://blog.fsck.com/2026/06/15/Superpowers-6/ - the Superpowers 6 release: eval-driven 50/60 percent improvements and the token-cost admission
 - https://blog.fsck.com/2026/09/21/superpowers-6.4/ - the 6.4 release: new harness support, bare-metal comparison, diagnosing-superpowers skill
+- https://blog.fsck.com/2026/10/09/what-a-year/ - the one-year anniversary post: Superpowers 7.0, the rebuilt brainstorming flow, and the star, install, and clone figures (as of 2026-10-09)
 - https://blog.fsck.com/2026/08/21/i-vibe-coded-a-c-compiler/ - the autonomous C-compiler experiment grounding his long-horizon loop practice
 - https://github.com/obra/superpowers - the repo: MIT license, 295.1k stars and 26.4k forks as of 2026-10-04, 683 commits, 16 documented harness installs, commercial support, and telemetry disclosure
 - https://en.wikipedia.org/wiki/Jesse_Vincent - biography: RT, Best Practical, Perl roles, K-9 Mail, Keyboardio, Prime Radiant CEO, and the SKILL.md-before-Anthropic timeline
