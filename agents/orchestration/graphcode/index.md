@@ -1,7 +1,7 @@
 ---
 title: GraphCode
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, macos, graph, loops]
 readability: 3
@@ -24,7 +24,7 @@ It bundles no agents and drives five backends (Claude Code, GitHub Copilot CLI, 
 
 ## Status
 
-New and fast-moving: about 139 stars and 19 forks as of 2026-10-11, created 2026-07-26, with v0.1.78 (2026-10-04) still the latest release and default-branch commits landing 2026-10-11, promoted from the October 3 beta line, following v0.1.77 (2026-09-29, loops come back after a codespace or remote-host restart) and the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
+New and fast-moving: about 139 stars and 19 forks as of 2026-10-11, created 2026-07-26, with v0.1.80 (2026-10-12, finished loops rename their Claude Code session) the latest release after v0.1.79 (2026-10-11, remote connections hold, busy loops are left alone), which followed v0.1.78 (2026-10-04, promoted from the October 3 beta line) and the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=scgopi/GraphCode&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for Intel Macs, Linux, or Windows, and not for anyone who requires an OSI op
 - 2026-10-04 - Added the 0.1.78 beta line (three prereleases on October 3) to the status, and refreshed star counts.
 - 2026-10-05 - Recorded v0.1.78 (October 4) as the latest release, promoted from the October 3 beta line, and refreshed star counts.
 - 2026-10-07 - Added the scgopi/GraphCode star history chart to the Status section.
+- 2026-10-12 - Recorded v0.1.79 (October 11, remote connections hold, busy loops left alone) and v0.1.80 (October 12, finished loops rename their Claude Code session) as the latest releases.
 
 ## See also
 

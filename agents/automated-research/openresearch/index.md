@@ -1,7 +1,7 @@
 ---
 title: OpenResearch
 created: 2026-10-05
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, autoresearch, multi-agent, alphaXiv]
 readability: 3
@@ -24,7 +24,7 @@ The agent-facing surface is first-class: `orx install-skills` installs a skill i
 
 ## Status
 
-Active and fast-moving: 6,866 stars, 443 forks, 97 open issues and pull requests, created 2026-06-07, last push 2026-10-10, with releases v0.2.13 through v0.2.18 landing between September 29 and October 9, as of 2026-10-11.
+Active and fast-moving: 6,899 stars, 445 forks, 98 open issues and pull requests, created 2026-06-07, last pushed 2026-10-12, with v0.2.18 (October 9) still the latest release, as of 2026-10-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alphaXiv/OpenResearch&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ Not for anyone who needs a supported product, a security-reviewed remote deploym
 - 2026-10-05 - Created.
 - 2026-10-07 - Added the alphaXiv/OpenResearch star history chart to the Status section.
 - 2026-10-10 - Recorded the v0.2.18 release (October 9) and refreshed the volatile counts.
+- 2026-10-12 - Refreshed the volatile counts; v0.2.18 remains the latest release.
 
 ## See also
 

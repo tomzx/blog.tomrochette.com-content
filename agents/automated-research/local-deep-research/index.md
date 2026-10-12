@@ -1,7 +1,7 @@
 ---
 title: Local Deep Research
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, deep-research, local-first]
 readability: 3
@@ -24,7 +24,7 @@ Around the loop sit a journal-quality system scoring 212K-plus indexed sources w
 
 ## Status
 
-Active and heavily developed: 9,181 stars, 839 forks, created 2025-02-09, last push 2026-10-11, with the current release v1.10.7 published 2026-08-28 on GitHub and PyPI, as of 2026-10-11.
+Active and heavily developed: 9,186 stars, 843 forks, created 2025-02-09, last pushed 2026-10-12, with the current release v1.10.7 published 2026-08-28 on GitHub and PyPI, as of 2026-10-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=LearningCircuit/local-deep-research&type=date&theme=dark&legend=top-left" />
@@ -46,7 +46,7 @@ The project's headline benchmark is self-reported through community channels: ab
 
 - The headline numbers are self-reported community benchmarks, and the README itself flags small samples, LLM-grader noise, and SimpleQA contamination risk on newer base models.
 - No machine judge sits inside the loop: the output is prose with citations, so the human stays the verifier, exactly as with Deep Research.
-- 1,132 open issues as of 2026-10-11 against a volunteer contributor base signals a project where support lags feature growth.
+- 1,072 open issues and pull requests as of 2026-10-12 against a volunteer contributor base signals a project where support lags feature growth.
 - Attaching premium engines or cloud models reintroduces the external calls the privacy story avoids, one API key at a time.
 
 ## Pricing
@@ -68,6 +68,7 @@ Not for anyone who needs machine-verified output or turnkey support: the loop en
 ## Changes
 
 - 2026-10-07 - Created.
+- 2026-10-12 - Refreshed the volatile counts (stars, forks, the October 12 push) and the open-issue count.
 
 ## See also
 

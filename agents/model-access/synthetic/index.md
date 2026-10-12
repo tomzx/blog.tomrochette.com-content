@@ -77,7 +77,7 @@ My most contestable claim: the "3x Claude limits" line is the weakest reason to 
 
 ## References
 
-- https://synthetic.new/pricing - current $30/month pack, 500 requests/5hr, 1 concurrent request per model, usage-based option (as of 2026-09-26; JS-rendered page, text extracted from fetched HTML; fetched empty twice on 2026-10-11, so the figures stand dated 2026-10-06)
+- https://synthetic.new/pricing - current $30/month pack, 500 requests/5hr, 1 concurrent request per model, usage-based option (as of 2026-09-26; JS-rendered page, text extracted from fetched HTML; fetched empty twice on 2026-10-11 and again on 2026-10-12, so the figures stand dated 2026-10-06)
 - https://web.archive.org/web/20251008095830id_/https://synthetic.new/pricing - October 2025 pricing: Standard $20/135 messages per 5h, Pro $60/1,350
 - https://hn.algolia.com/api/v1/items/45055763 - Show HN launch thread; founder on request counting, 14-day retention, and GLM-4.5 as flagship (2025-08-28)
 - https://dev.synthetic.new/docs/api/models - current always-on model list, syn: aliases, model-rotation warning (as of 2026-09-26)

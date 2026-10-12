@@ -1,7 +1,7 @@
 ---
 title: AutoGen
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, microsoft]
 readability: 3
@@ -25,7 +25,7 @@ Its research lineage is real: the framework came out of Microsoft Research and P
 ## Status
 
 Maintenance mode, by its own declaration: the README carries an orange maintenance-mode badge and a caution box stating AutoGen "will not receive new features or enhancements and is community managed going forward".
-New users are pointed to Microsoft Agent Framework (MAF), the enterprise successor that merged the AutoGen and Semantic Kernel lines; MAF shows 13,944 stars, MIT, and a push on 2026-10-04 (GitHub API, as of 2026-10-05).
+New users are pointed to Microsoft Agent Framework (MAF), the enterprise successor that merged the AutoGen and Semantic Kernel lines; MAF shows 14,066 stars, MIT, and a push on 2026-10-11 (GitHub API, as of 2026-10-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/autogen&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ My disagreeable claim: conversation-first multi-agent programming, the pattern A
 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-10-07 - Added the microsoft/autogen star history chart to the Status section.
+- 2026-10-12 - Refreshed the Microsoft Agent Framework successor counts (14,066 stars, pushed October 11).
 
 ## See also
 

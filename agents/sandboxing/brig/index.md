@@ -23,7 +23,7 @@ Built by NOFire AI, the team behind urunc, a CNCF Sandbox project; images, boot 
 
 ## Status
 
-Young but professionally built: 226 stars, 21 forks as of 2026-10-11, created 2026-08-12, pushed 2026-10-10, Apache-2.0.
+Young but professionally built: 228 stars, 21 forks as of 2026-10-12, created 2026-08-12, pushed 2026-10-12, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Young but professionally built: 226 stars, 21 forks as of 2026-10-11, created 20
 
 v0.2.0 shipped 2026-09-15, v0.3.0 on 2026-09-26, and v0.4.0 on 2026-10-06, with channel-main prereleases cutting almost daily from v0.2.0 through the 0.4.1 builds of 2026-10-08, which remain the newest.
 The Show HN launch on 2026-09-22 drew 9 points, and the maintainer's introduction is most of the thread's substance, so the community footprint is thin and the documentation is where the evidence lives.
-**A nine-point launch against 226 stars in nine weeks reads as quiet, deliberate adoption rather than a wave, and no independent audit or benchmark exists yet, while v0.4.0's breaking changes show the security defaults are still moving: new sandboxes now get isolated networks by default on hvi and Linux, and the runtime refuses shims that share the host kernel.**
+**A nine-point launch against 228 stars in nine weeks reads as quiet, deliberate adoption rather than a wave, and no independent audit or benchmark exists yet, while v0.4.0's breaking changes show the security defaults are still moving: new sandboxes now get isolated networks by default on hvi and Linux, and the runtime refuses shims that share the host kernel.**
 
 ## Strengths
 

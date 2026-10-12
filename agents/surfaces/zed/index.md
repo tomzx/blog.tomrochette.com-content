@@ -23,7 +23,7 @@ The AI stack supports Zed-hosted models, BYOK across Anthropic, OpenAI, Google, 
 ## Status
 
 **Active and fast-moving.**
-About 91k GitHub stars (91,566) as of 2026-10-11, with commits landing daily.
+About 91k GitHub stars (91,606) as of 2026-10-12, with commits landing daily.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zed-industries/zed&type=date&theme=dark&legend=top-left" />
@@ -88,7 +88,7 @@ Not for teams needing enterprise identity plumbing or a turnkey agentic platform
 ## References
 
 - https://zed.dev/pricing - tiers, edit prediction counts, list+10% hosting, SSO status, re-verified 2026-10-11 (SSO, SAML, and SCIM still planned)
-- https://github.com/zed-industries/zed - repository scale and license, as of 2026-10-11
+- https://github.com/zed-industries/zed - repository scale and license, as of 2026-10-12
 - https://zed.dev/docs/ai/llm-providers - the BYOK provider list
 - https://news.ycombinator.com/item?id=40902826 - the 2024 auto-download consent thread
 - https://news.ycombinator.com/item?id=47002825 - the 2026 graphics-stack switch thread

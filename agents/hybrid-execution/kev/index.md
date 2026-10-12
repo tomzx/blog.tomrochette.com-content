@@ -1,7 +1,7 @@
 ---
 title: Kev
 created: 2026-09-21
-updated: 2026-10-07
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
 readability: 3
@@ -23,8 +23,8 @@ The API tests run TypeSafe's own example requests against the local server, whic
 
 ## Status
 
-**Active and twenty days old, with traction on every axis I can measure.**
-The repository was created 2026-09-17 and pushed 2026-10-10, with about 8,900 stars and 582 forks as of 2026-10-10, and three releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20, and kev-1.0 on 2026-10-01, which versions the four checkpoints as one family with `v1.0` tags on every Hub repo and pins cards, eval suites, and serving code for the next generation to be measured against, training nothing new).
+**Active and twenty-five days old, with traction on every axis I can measure.**
+The repository was created 2026-09-17 and pushed 2026-10-11, with 8,964 stars and 582 forks as of 2026-10-12, and three releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20, and kev-1.0 on 2026-10-01, which versions the four checkpoints as one family with `v1.0` tags on every Hub repo and pins cards, eval suites, and serving code for the next generation to be measured against, training nothing new).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=jaredpalmer/kev&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ The repository was created 2026-09-17 and pushed 2026-10-10, with about 8,900 st
 The family grew a flagship in the same window: Kev-9B v2 shipped 2026-09-30 (a refitted temperature, v1 kept at a Hub tag) and Kev-27B v2 joined it, with a 65,536-token validated context against 8,192 for the small family and README-claimed numbers within three points of Jev, or ahead of it, on 9 of 11 new-source categories while matching Jev's 0.90 MMLU, at the cost of needing an 80 GB GPU.
 The Hacker News thread (2026-09-21) exploded from about 30 points when I first checked to 463 points as of 2026-10-06, clearing the bar this note originally recorded it failing, with the substantive use-case discussion (coding-agent verifiers, spam filtering, knowledge-cutoff concerns) now carrying far more weight than drive-by upvotes.
 A browser demo on Hugging Face Spaces (Kev-4B and Kev-0.8B, no install) and an MLX serving path for Apple Silicon landed in the same window, and kev-4b shows about 18,100 downloads as of 2026-10-07.
-The two independent boards now disagree sharply about the family, and both readings are current as of 2026-10-07: on the [Decision Index](../decision-index/index.md) 0.3 board Kev 27B ranks sixth of 112 configurations at 58.78, the highest-ranked checkpoint from this category's notes on that board apart from Jev itself, while on JevBench's v1.6.1 scale the same checkpoints composite near the bottom (kev-27b 5.8, kev-8b 10.6, kev-4b 6.6), a spread across protocols worth reading before citing either number.
+The two independent boards now disagree sharply about the family, and both readings are current as of 2026-10-12: on the [Decision Index](../decision-index/index.md) 0.3.1 board Kev 27B ranks seventeenth of 144 configurations at 58.78 (sixth of 117 before the 2026-10-12 regeneration crowded 27 systems in above it), the highest-ranked checkpoint from this category's notes on that board apart from Jev itself, while on JevBench's v1.6.1 scale the same checkpoints composite near the bottom (kev-27b 5.8, kev-8b 10.6, kev-4b 6.6), a spread across protocols worth reading before citing either number.
 What still carries the evidentiary weight: the README converts two independent third-party test sets, SemIf's 144 authored decisions and scienthoon's 900-ticket Jev calibration, and scores its models against those projects' own published live-Jev results.
 
 ## Strengths
@@ -79,6 +79,7 @@ The disagreeable claim I will defend: the weights are the second-most valuable a
 - 2026-10-02 - Recorded the family's growth and the Kev 1.0 release (2026-10-01, `v1.0` tags on every Hub repo pinning cards, suites, and serving code): Kev-9B v2 shipped 2026-09-30 and the new Kev-27B v2 flagship (full bf16 weights on Qwen3.8-27B, 65,536-token validated context, README-claimed within three points of Jev or ahead on 9 of 11 new-source categories, MMLU 0.90 matching Jev, an 80 GB GPU requirement); refreshed stars (8,196), forks (523), kev-4b downloads (about 14,100), and the release count to three.
 - 2026-10-07 - Added the jaredpalmer/kev star history chart to the Status section.
 - 2026-10-07 - Recorded the two-board disagreement: Kev 27B sixth of 112 on the Decision Index 0.3 board (58.78, the highest-ranked checkpoint from this category's notes there apart from Jev) against near-the-bottom composites for the whole family on JevBench's v1.6.1 scale (kev-27b 5.8, kev-8b 10.6, kev-4b 6.6); refreshed stars to about 8,600, forks to 567, kev-4b downloads to about 18,100, and the pushed date to 2026-10-06.
+- 2026-10-12 - The Decision Index 0.3.1 regeneration (144 configurations) moved Kev 27B from sixth to seventeenth at its unchanged 58.78 as 27 systems entered above it; refreshed stars to 8,964, forks to 582, and the pushed date to 2026-10-11.
 
 ## See also
 
@@ -90,7 +91,7 @@ The disagreeable claim I will defend: the weights are the second-most valuable a
 
 ## References
 
-- https://github.com/jaredpalmer/kev - repository: Apache-2.0, created 2026-09-17, about 8,900 stars, 582 forks, pushed 2026-10-10 (GitHub API, as of 2026-10-10)
+- https://github.com/jaredpalmer/kev - repository: Apache-2.0, created 2026-09-17, 8,964 stars, 582 forks, pushed 2026-10-11 (GitHub API, as of 2026-10-12)
 - https://github.com/jaredpalmer/kev/releases/tag/kev-1.0 - the Kev 1.0 family release (2026-10-01): four checkpoints, `v1.0` Hub tags, pinned weights revisions and validated-context table
 - https://raw.githubusercontent.com/jaredpalmer/kev/main/README.md - the LoRA-plus-pointer-head architecture, question isolation, eval tables against Jev, serving and training limits
 - https://raw.githubusercontent.com/jaredpalmer/kev/main/PLAN.md - the pre-registered research log: gap table to Jev, locked-test discipline, the $475-of-$500 budget
@@ -100,4 +101,4 @@ The disagreeable claim I will defend: the weights are the second-most valuable a
 - https://github.com/scienthoon/jev-ood-calibration - the independent 900-ticket Jev calibration whose test set appears in kev's external evals
 - https://archerhume.com/posts/jevs-architecture-unmasked - the architecture write-up kev credits for the design
 - https://github.com/jaredpalmer - the author's profile grounding the Turborepo and Cognition standing
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.3 Full-score data behind the Kev 27B sixth-place reading (generated 2026-10-06, fetched 2026-10-07)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.3.1 Full-score data behind the Kev 27B reading (seventeenth of 144 after the 2026-10-12 regeneration, generated 2026-10-12, fetched 2026-10-12)

@@ -1,7 +1,7 @@
 ---
 title: AlphaProof
 created: 2026-09-13
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deepmind, mathematics, formal-verification]
 readability: 3
@@ -29,6 +29,7 @@ At IMO 2025, Gemini Deep Think solved five of six problems perfectly for 35 of 4
 The IMO stated its review did not extend to validating the system, processes, or underlying model.
 DeepMind published the AlphaProof methodology in Nature on November 12, 2025, and says it believes agents combining natural-language fluency with verified formal reasoning are the path forward.
 In February 2026, Google shipped the updated Deep Think as Gemini 3 Deep Think, which again reached gold-medal level on the IMO 2025 problems and, for the first time, opened a Gemini API early-access path for select researchers, engineers, and enterprises.
+On October 8, 2026, the lineage's open-problems chapter landed in Science: AlphaProof Nexus (preprint arXiv 2605.22763, May 2026) pairs Gemini 3.1 Pro prover subagents with Lean compiler feedback, and its full-featured agent, which coordinates subagents evolutionarily and calls AlphaProof itself as a tool, resolved 9 of 353 attempted formalized Erdős problems (two open for 56 years) and proved 44 of 492 autoformalized OEIS conjectures, with every proof public in the alphaproof-nexus-results repository and a Science Perspective (Avigad and Ballard) declaring AI for research mathematics arrived.
 
 ## Strengths
 
@@ -43,6 +44,7 @@ In February 2026, Google shipped the updated Deep Think as Gemini 3 Deep Think, 
 - The 2025 result is a closed model behind a rollout to trusted testers and Google AI Ultra subscribers, with no API for the IMO configuration.
 - Mathematicians flagged caveats around what the gold-medal claims mean, and the IMO disclaimer matters.
 - Competition problems are verified and bounded; no Millennium-problem claim has been made.
+- The Nexus ablation cuts the architecture down to size: the basic generate-and-check agent solved the same nine Erdős problems, the cost figures count successful runs, and Lean verifies the encoded statement rather than that the encoding matches the intended problem.
 
 ## Pricing
 
@@ -58,12 +60,13 @@ Deep Think access ships through the Google AI Ultra subscription tier as it roll
 ## Bottom line
 
 **Recommended reading for anyone designing verification-gated agent systems: this is the reference implementation of "the judge is a kernel, the worker is trained on verdicts".**
-Not for practitioners who need a runnable tool today: nothing here is self-hostable, and the Deep Think API path is early-access gated rather than open, as of 2026-10-11.
+Not for practitioners who need a runnable tool today: nothing here is self-hostable, and the Deep Think API path is early-access gated rather than open, as of 2026-10-12.
 
 ## Changes
 
 - 2026-09-13 - Created as the DeepMind member of the new Automated research category.
 - 2026-10-02 - Recorded the February 2026 Gemini 3 Deep Think update: the lineage now has a first Gemini API early-access path, so the bottom line no longer calls it strictly non-API.
+- 2026-10-12 - Recorded AlphaProof Nexus's October 8 Science publication (nine formalized Erdős problems, 44 OEIS conjectures, public Lean artifacts) and the basic-agent ablation caveat.
 
 ## See also
 
@@ -79,3 +82,6 @@ Not for practitioners who need a runnable tool today: nothing here is self-hosta
 - https://en.wikipedia.org/wiki/AlphaGeometry - AlphaGeometry and AlphaGeometry 2 lineage, Gemini-based autoformalization, and the applicability caution
 - https://www.technologyreview.com/2026/01/26/1131728/inside-openais-big-play-for-science/ - independent framing of the IMO gold claims and their caveats in the landscape context
 - https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/ - the February 2026 Gemini 3 Deep Think update, its repeat IMO gold, and the first Gemini API early-access path
+- https://arxiv.org/abs/2605.22763 - the AlphaProof Nexus paper: the two agents, the 9 of 353 Erdős and 44 of 492 OEIS results (fetched 200, 2026-10-12)
+- https://github.com/google-deepmind/alphaproof-nexus-results - the public Apache-2.0 Lean proofs for the solved problems (fetched 200 via the API, 2026-10-12)
+- https://magica.com/news/alphaproof-nexus-nine-erdos-problems-44-oeis-conjectures - the critical read: the basic-agent ablation, the cost-accounting gaps, and the encoding caveat (fetched 200, 2026-10-12)

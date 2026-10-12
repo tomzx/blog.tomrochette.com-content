@@ -1,7 +1,7 @@
 ---
 title: WrenAI
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, semantic-layer, text-to-sql, genbi]
 readability: 3
@@ -52,7 +52,8 @@ The community footprint is lopsided: a Hacker News search returns over a thousan
 Free open-source core (Apache-2.0, self-hostable) and a free cloud tier with 20 monthly credits (about 55 questions a month on the named model), 2 projects, 2 members, and 10 tables per project.
 Essential Cloud is $179 per month billed annually (13,200 annual credits, extra credits at $0.10, rollover up to 2x).
 Enterprise Cloud is $559 per month billed annually (24,000 annual credits) adding MCP integration, row- and column-level data control, and audit.
-All as of 2026-10-10.
+A fourth tier, Enterprise Plus, is quoted by sales: self-hosted in your own cloud, on-prem, or air-gapped, licensed by concurrent sessions rather than credits, annual contract only, adding SSO and SCIM 2.0, the evaluation framework, and thread tracing.
+All as of 2026-10-12.
 
 ## Price history
 
@@ -78,6 +79,7 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 - 2026-10-10 - Created from the hybrid-execution and context-engines resolution pass, placed in this category as the first data-semantic context engine (business meaning rather than code).
 - 2026-10-11 - Re-checked the flagged docs-versus-README data-source discrepancy (docs 17+, README 22+, both unchanged) and refreshed the volatile numbers (17,841 stars); the credit tiers re-verified unchanged against the live pricing page.
 - 2026-10-11 - Added Vanna to See also, the archived text-to-SQL RAG ancestor admitted to the category the same day.
+- 2026-10-12 - Added the Enterprise Plus tier (self-hosted, concurrent-session licensed, quoted by sales) to the pricing section; the three credit tiers re-verified unchanged against the live pricing page, and the volatile numbers refreshed (17,848 stars).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: CubeSandbox
 created: 2026-09-16
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, security]
 readability: 3
@@ -21,7 +21,7 @@ Documentation, changelogs, and examples (code execution, browser automation, Ope
 
 ## Status
 
-**Five months from first release to v0.7.2 with 12,869 stars as of 2026-10-11, while the community discussion never escaped single digits on Hacker News.**
+**Five months from first release to v0.7.2 with 12,887 stars as of 2026-10-12, while the community discussion never escaped single digits on Hacker News.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/CubeSandbox&type=date&theme=dark&legend=top-left" />
@@ -29,7 +29,8 @@ Documentation, changelogs, and examples (code execution, browser automation, Ope
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TencentCloud/CubeSandbox&type=date&legend=top-left" />
 </picture>
 
-Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest v0.7.2 on 2026-09-24, pushed 2026-10-10, 1,185 forks, 171 open issues and PRs as of 2026-10-11.
+Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest stable v0.7.2 on 2026-09-24, pushed 2026-10-12, 1,190 forks, 177 open issues and PRs as of 2026-10-12.
+The train moved again on 2026-10-12: v0.7.3-rc1 and rc2 opened the next release cycle, and a dated `kernel-release-261012-1` tag shipped dedicated kernel assets for bare-metal and PVM guest and host, so the project now distributes its own guest kernels alongside the sandbox releases.
 The team launched on HN themselves as "a less than 60ms, open-source alternative to E2B using RustVMM and KVM" (7 points), and the same project drew two more submissions from other accounts within four days at 5 and 3 points.
 The sub-60ms figure is single-concurrency on bare metal by the project's own benchmark, degrading to a 67ms average and 137ms P99 at 50 concurrent creations, and no independent benchmark, audit, or critical write-up exists that I could find.
 
@@ -45,7 +46,7 @@ The sub-60ms figure is single-concurrency on bare metal by the project's own ben
 - **Every performance and density claim is self-reported, from the sub-60ms boot to the <5MB overhead, with no independent replication I could find.**
 - KVM on Linux servers is a hard requirement, which excludes macOS and constrained CI environments by design.
 - The license is Apache-2.0 "except for the third-party components listed below" (permissive items such as cilium/bpf under BSD-2-Clause), which is why GitHub detects NOASSERTION and compliance tooling will flag it.
-- The absence of any critical coverage is itself the risk: 171 open issues and PRs on a six-month-old codebase, and a "Cube 100 Program" recruiting its first 100 production teams, suggest operational evidence is still being collected.
+- The absence of any critical coverage is itself the risk: 177 open issues and PRs on a six-month-old codebase, and a "Cube 100 Program" recruiting its first 100 production teams, suggest operational evidence is still being collected.
 
 ## Pricing
 
@@ -71,6 +72,7 @@ Not for macOS or workstation use, and not for anyone who needs independently ver
 - 2026-09-27 - Refreshed the growth record (12,717 stars, 1,158 forks, 149 open issues and PRs); v0.7.2 remains the latest release.
 - 2026-10-07 - Added the TencentCloud/CubeSandbox star history chart to the Status section.
 - 2026-10-11 - Refreshed counts (12,869 stars, 171 open issues and PRs) and corrected the Cautions figure from a stale 166 and the codebase age from five to six months.
+- 2026-10-12 - Recorded the v0.7.3-rc1 and rc2 prereleases of 2026-10-12 opening the next release cycle, the dated kernel-release-261012-1 dedicated-kernel-assets release, and refreshed counts (12,887 stars, 177 open issues and PRs, pushed 2026-10-12).
 
 ## See also
 

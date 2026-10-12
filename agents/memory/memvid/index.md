@@ -1,7 +1,7 @@
 ---
 title: Memvid
 created: 2026-10-08
-updated: 2026-10-09
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, file-format, single-file, rust]
 readability: 3
@@ -35,6 +35,7 @@ The marketing site now sells an enterprise "knowledge layer" engagement around t
 
 The registry trains last moved before the quiet stretch: npm memvid-cli at 2.0.160 (May 27, 2026) and PyPI memvid-sdk 2.0.160.
 The history matters: the v1 approach (text as QR codes in MP4 frames) went viral with a 61-point Show HN in May 2025 and a 9-point follow-up, and the README now marks v1 deprecated, pointing QR references to a deprecation page.
+The Awesome-Agent-Memory list carries Memvid in its Archival section as disputed, citing a technical critique raised in GitHub issues that was later deleted from the live tracker and preserved in the Internet Archive.
 The benchmark claims (+35 percent over the field on LoCoMo, sub-5ms P50 search) are the vendor's own, with no independent run I could find.
 
 ## Strengths
@@ -48,6 +49,7 @@ The benchmark claims (+35 percent over the field on LoCoMo, sub-5ms P50 search) 
 
 - **The mechanism that made it famous is deprecated, and the v2 rewrite is quiet**: no push since mid-July and registry releases frozen since late May.
 - Every performance number is self-published, and the site's testimonial wall and comparison table against Pinecone, Chroma, Weaviate, and Qdrant are marketing.
+- **The dispute record is grounded, not rumored**: a June 2025 issue on the v1 repository, deleted from the live tracker and preserved in the Internet Archive, measured the v1 mechanism opposite to its README claims (3.4 GB of storage instead of the claimed 30 MB "10x smaller", 43 ms searches against "lightning fast", multi-hour setup); the critique predates the v2 rewrite, so it judges the deprecated QR approach, but it remains the only independent measurement of any Memvid version, and the curated Awesome-Agent-Memory list cites it to flag the project as disputed.
 - No contradiction or decay handling: an append-only timeline accrues, which is the exact problem the temporal members here exist to solve.
 - The agent-facing surface is thin: no harness adapters in the repo, and MCP appears in marketing copy rather than the README.
 
@@ -70,6 +72,7 @@ Not for teams needing a maintained dependency today, multi-user memory, or any c
 ## Changes
 
 - 2026-10-08 - Created from the 2026-10-08 awesome-list entrant scan, with seven fetched sources; the v1-QR-to-v2-frames pivot and the self-published-benchmark caution recorded as the critical angles.
+- 2026-10-12 - Added the dispute record: the Awesome-Agent-Memory list's Archival section flags Memvid as disputed on a deleted GitHub critique, and the archived June 2025 issue #49 (fetched this run) measured the deprecated v1 mechanism opposite to its README claims; both recorded as the note's critical sources.
 
 ## See also
 
@@ -84,6 +87,8 @@ Not for teams needing a maintained dependency today, multi-user memory, or any c
 - https://raw.githubusercontent.com/memvid/memvid/master/README.md - the Smart Frames architecture, file layout, SDK table, feature flags, and the v1 deprecation notice
 - https://www.memvid.com - the enterprise positioning, MCP mention, and the <5ms and +35 percent claims, as of 2026-10-08
 - https://news.ycombinator.com/item?id=44125598 - the v1 viral Show HN (61 points, 23 comments, 2025-05-29)
+- https://web.archive.org/web/20250807093442/https://github.com/Olow304/memvid/issues/49 - the archived issue #49 (June 8, 2025): the deleted third-party performance critique of the v1 mechanism (3.4 GB measured against a claimed 30 MB, 43 ms searches), fetched 2026-10-12
+- https://github.com/TeleAI-UAGI/Awesome-Agent-Memory - the curated list's Archival section, which carries Memvid as disputed citing that critique, as of 2026-10-12
 - https://news.ycombinator.com/item?id=44134122 - the v1 follow-up thread (9 points, 2025-05-30)
 - https://pypi.org/pypi/memvid-sdk/json - memvid-sdk 2.0.160, the frozen-train record
 - https://registry.npmjs.org/memvid-cli - memvid-cli 2.0.160 (2026-05-27)

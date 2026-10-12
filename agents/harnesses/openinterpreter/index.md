@@ -25,7 +25,7 @@ The fork is documented rather than hidden: FORK_BRANDING.md defines the distribu
 
 ## Status
 
-Active and fast-moving again after roughly nineteen quiet months: 68,541 stars, 5,891 forks, and a push on 2026-10-11 as of 2026-10-11, with only 14 open issues, which tells you issue intake is tightly curated.
+Active and fast-moving again after roughly nineteen quiet months: 68,554 stars, 5,892 forks, and a push on 2026-10-11 as of 2026-10-12, with only 14 open issues, which tells you issue intake is tightly curated.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&theme=dark&legend=top-left" />
@@ -87,7 +87,7 @@ My disagreeable claim: harness emulation is a configuration layer rather than ne
 
 ## References
 
-- https://api.github.com/repos/openinterpreter/openinterpreter - 68,541 stars, 5,891 forks, Apache-2.0, pushed 2026-10-11, 14 open issues, as of 2026-10-11
+- https://api.github.com/repos/openinterpreter/openinterpreter - 68,554 stars, 5,892 forks, Apache-2.0, pushed 2026-10-11, 14 open issues, as of 2026-10-12
 - https://raw.githubusercontent.com/openinterpreter/openinterpreter/main/README.md - the Kimi K3 note, the `/harness` list, ACP and Codex SDK compatibility, and the portability story
 - https://www.openinterpreter.com/blog/open-interpreter - the 2026-07-13 relaunch post: Apache-2.0, built on Codex CLI, and the harness-emulation rationale (the page is JS-rendered, so I extracted its text through a proxy; the direct fetch returned 200 with only the title)
 - https://raw.githubusercontent.com/openinterpreter/openinterpreter/main/RELEASE_NOTES.md - version 0.0.43 on the Codex rust-v0.154.0 baseline, with the Z.AI and other provider presets

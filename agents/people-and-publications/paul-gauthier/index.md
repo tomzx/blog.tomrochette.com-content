@@ -1,7 +1,7 @@
 ---
 title: Paul Gauthier
 created: 2026-09-24
-updated: 2026-10-02
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, open-source, pair-programming, cli-tools]
 readability: 3
@@ -24,7 +24,7 @@ He also built the field's independent yardstick: the polyglot leaderboard of 225
 ## Status
 
 **Development stalled; the writing and the tool still matter.**
-The repo shows 49.4k stars, 5.0k forks, and 13,138 commits as of 2026-10-04, and his site claims 6.8M installs and 15B tokens processed per week.
+The repo shows 49.5k stars, 5.0k forks, and 13,138 commits as of 2026-10-12, and his site claims 6.8M installs and 15B tokens processed per week.
 Per the section's aider note and the repo, the default branch has had no commits since May 22, 2026, and the last tagged release is v0.86.0 from August 2025.
 The release history tells the story: v0.86.0 notes that aider itself wrote 88% of its code (the usual share is 70 to 80 percent), and the main-branch notes (Claude 4.5/4.6 and GPT-5.x support) never shipped as a tagged release.
 The polyglot leaderboard is still published, but its newest dated submissions are from October 2025.

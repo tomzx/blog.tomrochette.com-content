@@ -28,7 +28,7 @@ The repository publishes Apache-2.0 source, but as a two-commit dump with flatte
 The harness launched July 1, 2026 as the official harness for GLM-5.2 and drew a 511-point Hacker News thread the same day ([HN](https://hn.algolia.com/api/v1/items/48753715)).
 On September 18, 2026 a [wire-level analysis](https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/) showed the logged-in client packaging entire workspaces (about 87% .git content) and uploading them encrypted to Aliyun OSS with a server-held key, a behavior no UI toggle stopped and no privacy-policy line disclosed (333- and 261-point threads that day).
 Z.ai admitted the uploads, attributed them to a Repo Wiki indexing feature, shipped client 3.14.0 with the pipeline removed, and open-sourced the workbench on September 20-21 with CAICT and NSFOCUS audits reporting the OSS bucket deleted ([HN](https://hn.algolia.com/api/v1/items/49782440)).
-The repository shows 7,659 stars and 2,338 forks as of 2026-10-11, pushed 2026-10-10 (GitHub API); desktop installers are at v3.14.5 (site verified 2026-10-11).
+The repository shows 7,699 stars and 2,354 forks as of 2026-10-12, pushed 2026-10-10 (GitHub API); desktop installers are at v3.14.5 (site verified 2026-10-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zai-org/ZCode&type=date&theme=dark&legend=top-left" />
@@ -54,7 +54,7 @@ Independent code review of the dump confirms the snapshot pipeline is gone and c
 
 ## Pricing
 
-The harness is free; usage goes through a GLM Coding Plan subscription: Lite $12.6/month with 10,000 weekly credits (listed against $18), Pro $56/month at 6x Lite usage (against $80), and Max $117.6/month at 14x (against $168), per the ZCode site as of 2026-09-22 (re-verified unchanged 2026-10-11).
+The harness is free; usage goes through a GLM Coding Plan subscription: Lite $12.6/month with 10,000 weekly credits (listed against $18), Pro $56/month at 6x Lite usage (against $80), and Max $117.6/month at 14x (against $168), per the ZCode site as of 2026-09-22 (re-verified unchanged 2026-10-12).
 The plans also cover 20+ third-party agent tools, so the subscription is not ZCode-locked.
 
 ## Price history
@@ -92,9 +92,9 @@ I would watch whether the open repository becomes a real project or stays a pres
 
 ## References
 
-- https://github.com/zai-org/ZCode - repository, license, 7,659 stars as of 2026-10-11 (GitHub API)
+- https://github.com/zai-org/ZCode - repository, license, 7,699 stars as of 2026-10-12 (GitHub API)
 - https://raw.githubusercontent.com/zai-org/ZCode/main/README.en.md - surfaces and monorepo layout
-- https://zcode.z.ai/ - product claims, GLM Coding Plan prices, v3.14.5 installers, re-verified 2026-10-11
+- https://zcode.z.ai/ - product claims, GLM Coding Plan prices, v3.14.5 installers, re-verified 2026-10-12
 - https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/ - the wire-level analysis, Z.ai's response, and the open-source code verification
 - https://hn.algolia.com/api/v1/items/48753715 - the July 1, 2026 launch thread, 511 points
 - https://hn.algolia.com/api/v1/items/49750694 - the 333-point disclosure thread, September 18

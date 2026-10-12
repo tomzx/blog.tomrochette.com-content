@@ -24,7 +24,7 @@ Apache-2.0, built by the Sigstore team, with an OpenSSF Best Practices badge and
 
 ## Status
 
-Fast-growing with no Hacker News help: 4,430 stars, 249 open issues and PRs, pushed 2026-10-11 as of 2026-10-11, created 2026-01-31.
+Fast-growing with no Hacker News help: 4,454 stars, 249 open issues and PRs, pushed 2026-10-11 as of 2026-10-12, created 2026-01-31.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&theme=dark&legend=top-left" />

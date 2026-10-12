@@ -1,7 +1,7 @@
 ---
 title: Peter Steinberger
 created: 2026-09-24
-updated: 2026-10-04
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, openclaw, developer-tools]
 readability: 3
@@ -25,7 +25,7 @@ The audience is builders: his Claude Code Anonymous meetups spread to at least s
 
 Active, but the venue shifted in 2026.
 The blog published more than thirty posts between June and December 2025, then one in 2026, the 15 February OpenAI announcement, which drew a 1,449-point Hacker News thread with 1,131 comments as of 2026-09-24.
-He had 53.1k GitHub followers as of 2026-10-02, a TED 2026 talk on OpenClaw, and a Pragmatic Engineer feature in his recognition list.
+He had 53.2k GitHub followers as of 2026-10-12, a TED 2026 talk on OpenClaw, and a Pragmatic Engineer feature in his recognition list.
 OpenClaw keeps shipping without his daily hand, and the section's note tracks its releases and its 2026 provider-restriction saga.
 
 ## Strengths

@@ -1,7 +1,7 @@
 ---
 title: Orca
 created: 2026-09-27
-updated: 2026-10-10
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, agent-ide, worktrees, mobile]
 readability: 3
@@ -24,7 +24,7 @@ MIT licensed, TypeScript and Electron, and the repo's README carries translation
 
 ## Status
 
-Fast and well-funded: about 89.3k stars as of 2026-10-11, up from 88.8k on 2026-10-10, created 2026-03-17, more than 11,900 commits, with v1.4.224 (2026-10-10) still the latest release.
+Fast and well-funded: about 90.1k stars (90,067) as of 2026-10-12, up from 85.2k on 2026-10-07, a sustained gain of roughly 1k per day, created 2026-03-17, more than 11,900 commits, with v1.4.224 (2026-10-10) still the latest release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stablyai/orca&type=date&theme=dark&legend=top-left" />
@@ -82,6 +82,7 @@ Not for teams that need a closed, vendor-supported enterprise product today, or 
 - 2026-10-07 - Added the stablyai/orca star history chart to the Status section.
 - 2026-10-09 - Recorded v1.4.223 (October 8) as the latest release and the star count at 88.1k as of 2026-10-09, a gain of about 1.4k in two days.
 - 2026-10-10 - Recorded v1.4.224 (October 10) as the latest release and the star count at about 88.8k as of 2026-10-10.
+- 2026-10-12 - Refreshed the star count to about 90.1k as of 2026-10-12, a sustained gain of roughly 1k per day, with v1.4.224 still the latest release.
 
 ## See also
 

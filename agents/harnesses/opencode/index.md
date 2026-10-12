@@ -24,7 +24,7 @@ Providers are configured by API key; OpenCode Zen is the team's curated, tested 
 ## Status
 
 **Very active.**
-The repository moved from `sst` to `anomalyco/opencode` and shows about 212.6k stars and 28.4k forks under MIT as of 2026-10-11.
+The repository moved from `sst` to `anomalyco/opencode` and shows about 212.8k stars and 28.5k forks under MIT as of 2026-10-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anomalyco/opencode&type=date&theme=dark&legend=top-left" />
@@ -89,7 +89,7 @@ Not for teams that need subscription billing simplicity or cannot audit a fast-m
 ## References
 
 - https://opencode.ai/docs/ - features, install, providers, Zen
-- https://github.com/anomalyco/opencode - repository scale, MIT license, desktop builds, as of 2026-10-11
+- https://github.com/anomalyco/opencode - repository scale, MIT license, desktop builds, as of 2026-10-12
 - https://github.com/anomalyco/opencode/pull/18186 - the March 2026 Anthropic legal-request removals
 - https://cy.md/opencode-rce/ - CVE-2026-22812 disclosure with versions and mitigations
 - https://securitylabs.datadoghq.com/articles/opencode-upgrade-remote-code-execution/ - the GHSA-632h-h47v-g4x4 disclosure (2026-09-24): attack flow, the 1.18.22 fix, and Anomaly's no-CVE reasoning, fetched 2026-10-04

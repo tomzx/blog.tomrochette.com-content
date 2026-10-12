@@ -23,7 +23,7 @@ This is a research artifact with a release train of daily `v0.1.0-dev` prereleas
 
 ## Status
 
-Young, institutional, and quiet in public: 382 stars, pushed 2026-10-10 as of 2026-10-11, created 2026-08-27.
+Young, institutional, and quiet in public: 387 stars, pushed 2026-10-11 as of 2026-10-12, created 2026-08-27.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Young, institutional, and quiet in public: 382 stars, pushed 2026-10-10 as of 20
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&theme=dark&legend=top-left" />
 </picture>
 
-Daily dev prereleases have cut continuously since late September 2026, the newest on 2026-10-10.
+Daily dev prereleases have cut continuously since late September 2026, the newest on 2026-10-11.
 **The single Hacker News thread drew 3 points on 2026-10-03, so this is a Microsoft research release being watched by almost nobody yet, and its substance lives in the design and limits documents rather than community debate.**
 
 ## Strengths

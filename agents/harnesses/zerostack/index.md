@@ -1,7 +1,7 @@
 ---
 title: Zerostack
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, terminal]
 readability: 3
@@ -19,14 +19,14 @@ Zerostack is a solo-maintained GPL-3.0 coding agent written in pure Rust that pi
 Written by Giuseppe Dellavedova and explicitly inspired by [pi](https://pi.dev/docs/latest/usage) and [OpenCode](https://opencode.ai), per the README.
 The core is about 30k lines of Rust with a 26 MB binary, about 16 MB average and 24 MB peak RAM, against roughly 300 to 700 MB for JS-based agents.
 It is BYOK across OpenRouter, OpenAI, Anthropic, Gemini, Ollama, and custom providers.
-The surface is unusually complete: 14 runtime-switchable system prompts, five permission modes with per-tool globs, session save/resume with auto-compaction, MCP (a compile-time feature), subagents, Ralph Wiggum loops, git worktrees, bubblewrap/zerobox sandbox mode, ACP editor integration, persistent Markdown memory, Claude Code-compatible hooks, a second-model advisor, and multimodal input.
+The surface is unusually complete: 14 runtime-switchable system prompts, five permission modes with per-tool globs, session save/resume with auto-compaction, MCP (a compile-time feature), subagents, Ralph Wiggum loops (deprecated in v1.8.5, kept until the next major), git worktrees, bubblewrap/zerobox sandbox mode, ACP editor integration, persistent Markdown memory, Claude Code-compatible hooks, a second-model advisor, and multimodal input.
 Several of those sit behind gated compile-time flags, so the shipped default is smaller than the feature list.
 An ARCHITECTURE.md file complements AGENTS.md with shared core knowledge for agents on the same codebase.
 
 ## Status
 
-Active: the repository was pushed 2026-10-06, created May 12, 2026, with the latest release v1.8.4 on September 7, 2026.
-1,702 stars and 139 forks as of 2026-10-11.
+Active: the repository was pushed 2026-10-11, created May 12, 2026, with the latest release v1.8.5 on October 10, 2026, which deprecated the Ralph Wiggum `/loop` (still available until the next major but dropped from the default compile-time features), switched the lite binary family to shipping default features, added permission-wait status signals over protocol v1.1, added opencode-zen and opencode-go provider recipes, and credited four first-time external contributors.
+1,703 stars and 140 forks as of 2026-10-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gi-dellav/zerostack&type=date&theme=dark&legend=top-left" />
@@ -36,7 +36,8 @@ Active: the repository was pushed 2026-10-06, created May 12, 2026, with the lat
 
 The May 16, 2026 launch thread reached 575 points (item 48164287), the highest-signal uncovered harness candidate of this cycle, with follow-up release threads through June and a Show HN in July.
 v1.8.0, "The Great Cleanup", landed September 3, 2026 after a six-week release quiet stretch and credited several external contributors with a large TUI refactoring.
-3,611 crate downloads on crates.io (900 recent) as of 2026-10-11.
+v1.8.5 followed on October 10 with outside contributors again, so the project has now shipped two community-credited releases since the solo stretch.
+3,624 crate downloads on crates.io (857 recent) as of 2026-10-12.
 It is a one-person project with a ko-fi jar and a public call for company sponsors.
 
 ## Strengths
@@ -76,6 +77,7 @@ I think the Rust-rewrite wave confuses a small memory footprint with a good agen
 - 2026-09-04 - Recorded v1.8.1 ending the six-week release quiet gap, with external contributors credited.
 - 2026-09-16 - Refreshed repository counters (1,672 stars, 135 forks, pushed 2026-09-14) and crates.io downloads (3,460 total, 1,342 recent).
 - 2026-10-07 - Added the gi-dellav/zerostack star history chart to the Status section.
+- 2026-10-12 - Recorded the v1.8.5 release (October 10), which deprecated the Ralph Wiggum /loop out of the default compile-time features, switched lite builds to default features, added permission-wait status signals over protocol v1.1, added opencode-zen and opencode-go provider recipes, and credited four first-time contributors, and refreshed repository and crates.io counters.
 
 ## See also
 
@@ -87,9 +89,9 @@ I think the Rust-rewrite wave confuses a small memory footprint with a good agen
 
 ## References
 
-- https://github.com/gi-dellav/zerostack - repository state, license, stars, and activity as of 2026-10-11
+- https://github.com/gi-dellav/zerostack - repository state, license, stars, and activity as of 2026-10-12
 - https://raw.githubusercontent.com/gi-dellav/zerostack/main/README.md - feature list, performance claims, and inspirations
 - https://gi-dellav.github.io/zerostack/ - docs site: permission modes, prompts, commands, sandbox mode
-- https://crates.io/api/v1/crates/zerostack - crate version and download counts as of 2026-10-11
-- https://github.com/gi-dellav/zerostack/releases - release cadence through v1.8.4
+- https://crates.io/api/v1/crates/zerostack - crate version and download counts as of 2026-10-12
+- https://github.com/gi-dellav/zerostack/releases - release cadence through v1.8.5 (October 10, 2026)
 - https://news.ycombinator.com/item?id=48164287 - 575-point launch thread and the author's no-benchmark admission

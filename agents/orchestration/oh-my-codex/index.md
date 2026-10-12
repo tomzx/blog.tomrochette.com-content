@@ -1,7 +1,7 @@
 ---
 title: oh-my-codex
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, codex, skills, workflows]
 readability: 3
@@ -24,7 +24,7 @@ Notifications route to Discord, Slack, Telegram, or custom webhooks through an O
 
 ## Status
 
-Actively shipped and very popular: about 33,510 stars and 2,540 forks as of 2026-10-11, created 2026-02-02, with v0.21.8 (2026-10-06) still the latest release (a bugfix and compatibility release for the frozen v0.21.7 range: Windows binary path handling, session export, and legacy configuration support) and npm at the same version across 137 published versions.
+Actively shipped and very popular: about 33,519 stars and 2,540 forks as of 2026-10-12, created 2026-02-02, with v0.21.9 (2026-10-12) the latest release, a patch on the frozen v0.21.8 range that added cumulative session token-usage reporting (`omx session usage`), native subagent completion evidence for doctor diagnostics, and an astra-defaults live evaluation collector, and npm at the same version across 137 published versions.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Yeachan-Heo/oh-my-codex&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ Not for Windows-first users, non-Codex harnesses, or anyone who needs a stable, 
 - 2026-09-27 - Created.
 - 2026-10-02 - Recorded v0.21.7 (October 1) as the new latest release and refreshed star, fork, and version counts.
 - 2026-10-07 - Added the Yeachan-Heo/oh-my-codex star history chart to the Status section.
+- 2026-10-12 - Recorded v0.21.9 (October 12, session token-usage reporting, native subagent completion evidence, and the astra-defaults evaluation collector) as the new latest release.
 
 ## See also
 

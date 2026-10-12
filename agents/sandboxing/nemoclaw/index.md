@@ -1,7 +1,7 @@
 ---
 title: NemoClaw
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, nvidia, openclaw, hermes, deep-agents, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, from NVIDIA, which describes the project as alpha with best-effort m
 
 ## Status
 
-Large and fast for an alpha: 22,706 stars, 3,135 forks, 767 open issues and PRs as of 2026-10-11, created 2026-03-15, pushed 2026-10-11.
+Large and fast for an alpha: 22,719 stars, 3,136 forks, 760 open issues and PRs as of 2026-10-12, created 2026-03-15, pushed 2026-10-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,8 @@ Large and fast for an alpha: 22,706 stars, 3,135 forks, 767 open issues and PRs 
 </picture>
 
 The launch carried it: a 385-point, 261-comment Hacker News thread on 2026-03-18, with the announcement submission the day before at 18 points.
-**The release story is thinner than the star count: the repository held a single prerelease tag (`ci-native-podman-e2e-2026-10-01`) as of 2026-10-11, and the README still says alpha, so the seven months of growth measure attention, not a shipped 1.0.**
+**The release story is thinner than the star count: the repository has published exactly one release, the `ci-native-podman-e2e-2026-10-01` prerelease, and the README still says alpha, so the seven months of growth measure attention, not a shipped 1.0.**
+The git tag list is no counter-evidence: it holds 138 tags, but most belong to a `v0.0.x` line whose commits are orphaned by the repository's May 2026 history rewrite (a `backup/v0.0.49-original-20260522032905` tag marks it), so none of them carries release notes, and a reader checking releases rather than tags sees the single prerelease.
 
 ## Strengths
 
@@ -44,7 +45,7 @@ The launch carried it: a 385-point, 261-comment Hacker News thread on 2026-03-18
 
 ## Cautions
 
-- Self-declared alpha with best-effort support, and one prerelease tag as of 2026-10-11, so treat the API and blueprint format as moving.
+- Self-declared alpha with best-effort support, and one published release as of 2026-10-12, so treat the API and blueprint format as moving.
 - Choosing NemoClaw means choosing OpenShell: the blueprint is bound to one boundary, and the docs route custom images or non-reference workloads back to OpenShell alone.
 - The primary install is `curl | bash`, and the headline onboarding flow asks a coding agent to drive system changes, a supply-chain-sensitive pattern whose digest pinning covers only the credential helper and form, not the installer.
 - 767 open issues and PRs on a seven-month-old repository as of 2026-10-11, a support load NVIDIA reviews on a best-effort basis.
@@ -68,6 +69,7 @@ Not for production-critical assistants while the project declares alpha, or for 
 ## Changes
 
 - 2026-10-07 - Created from the daily-refresh entrant resolution, profiling NVIDIA's OpenShell reference stack with its blueprint hardening, managed-inference credential custody, and the single-prerelease release story.
+- 2026-10-12 - Clarified the release story against the tag list (138 git tags, mostly an orphaned v0.0.x line from the May 2026 history rewrite, versus exactly one published release) and refreshed counts (22,719 stars, 760 open issues and PRs, pushed 2026-10-12).
 
 ## See also
 

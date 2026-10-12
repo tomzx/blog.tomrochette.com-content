@@ -1,7 +1,7 @@
 ---
 title: AnyJev
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, decision-models, training-free]
 readability: 3
@@ -23,7 +23,7 @@ The same team publishes Tacit, a self-distilled 1.7B-to-9B model line on Hugging
 
 ## Status
 
-Active and freshly credible: created 2026-09-21, 1,134 stars, release v0.3.0 published 2026-10-07, as of 2026-10-10.
+Active and freshly credible: created 2026-09-21, 1,202 stars, release v0.3.0 published 2026-10-07, as of 2026-10-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nokia-applied-research/AnyJev&type=date&theme=dark&legend=top-left" />
@@ -33,6 +33,7 @@ Active and freshly credible: created 2026-09-21, 1,134 stars, release v0.3.0 pub
 
 This note reverses this section's 2026-09-25 rejection of the same project, which then had 506 stars and no independent coverage; the promised re-review trigger, a second implementation, now exists in kind.
 The third-party local-jev-bench benchmark (2026-09-30, updated 2026-10-05) runs AnyJev against Kev, Winnow, Clef, Von, Jeff, Laya, and CLM on Apple Silicon and reports training-free AnyJev level with the trained engines on the six public transfer sources; community builds such as mesa-anyjev and a Tetris-playing AnyJev judge extend it.
+A third-party board reading arrived with the Decision Index's 2026-10-12 regeneration: an AnyJev L0 readout over Gemma-4-31B entered fifth of 144 configurations at 61.27, above hosted Jev's 60.11, the first board row the method has taken.
 The HN footprint remains thin (mentions inside decision-model threads, no thread of its own), which this note records as the standing signal.
 
 ## Strengths
@@ -68,6 +69,7 @@ Not for single-digit-millisecond budgets, where the trained single-pass models k
 ## Changes
 
 - 2026-10-07 - Created.
+- 2026-10-12 - Recorded the Decision Index 0.3.1 regeneration's AnyJev L0 row (fifth of 144 at 61.27, above Jev's 60.11, the method's first board reading) and refreshed stars to 1,202.
 
 ## See also
 
@@ -80,7 +82,7 @@ Not for single-digit-millisecond budgets, where the trained single-pass models k
 ## References
 
 - https://github.com/nokia-applied-research/AnyJev - repository, Apache-2.0 license, the readout and correction design, and the Tacit line (fetched 200, 2026-10-07)
-- https://api.github.com/repos/nokia-applied-research/AnyJev - stars, forks, created date, and push date for the as-of status (fetched 200, 2026-10-07)
+- https://api.github.com/repos/nokia-applied-research/AnyJev - stars, forks, created date, and push date for the as-of status (fetched 200, 2026-10-12; 1,202 stars)
 - https://arxiv.org/abs/2610.00831 - the technical report: rotation-averaging and prior-division results, the early-exit bounds, and the vLLM serving numbers (fetched 200, 2026-10-07)
 - https://api.github.com/repos/nokia-applied-research/AnyJev/releases - the v0.0.2 through v0.3.0 releases, v0.3.0 on 2026-10-07 (fetched 200, 2026-10-07)
 - https://raw.githubusercontent.com/tak-bro/local-jev-bench/HEAD/README.md - the third-party Apple Silicon benchmark running AnyJev against Kev, Winnow, Clef, Von, Jeff, Laya, and CLM (fetched 200, 2026-10-07)

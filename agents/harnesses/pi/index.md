@@ -25,7 +25,7 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 ## Status
 
-Active and ascending: 114,170 stars, 14,520 forks, 323 open issues and PRs as of 2026-10-11.
+Active and ascending: 114,420 stars, 14,573 forks, 321 open issues and PRs as of 2026-10-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=earendil-works/pi&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Active and ascending: 114,170 stars, 14,520 forks, 323 open issues and PRs as of
 </picture>
 
 Created 2025-08-09, pushed within a day of verification, releases roughly weekly, reaching v1.0.0 on October 1, 2026, then v1.0.1 (October 3: a Nix flake install, project-level MCP server overrides, MCP OAuth client-ID metadata documents, tool renderers for tools that are not registered yet, and Cloudflare Clef classifiers usable from codemode), v1.0.2 (October 4: sampling parameters configurable per thinking level on OpenAI-compatible APIs), v1.0.3 (October 5: the Azure provider renamed from `azure-openai-responses` to `azure` with Foundry Chat Completions deployments starting at `azure/deepseek-v4-pro`, codemode images saved to files, output files locked to the user), v1.0.4 (October 5: `*` patterns for `--tools` and `--exclude-tools`, a per-run `--no-mcp` flag, and codemode image read-back), and v1.1.0 (October 7: program status reporting over the OSC 7501 terminal sequence, Claude Haiku 5.5 with adaptive thinking, `+name`/`-name` entries that adjust the default tool selection, GPT-6 Luna image classification through the Decisions API, and native llama.cpp decision models); the v0.99 line (September 29-30) shipped the biggest capability change in the project's history, codemode, tool search, and MCP support as built-in extensions, and v1.0.0 made the TUI fullscreen by default, cut codemode prompt tokens by about 40 percent, and hardened MCP OAuth.
-**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 35.0k stars as of 2026-10-11, exists precisely because some users want the features Pi refuses to ship.**
+**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 35.1k stars as of 2026-10-12, exists precisely because some users want the features Pi refuses to ship.**
 
 ## Strengths
 
@@ -93,4 +93,4 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - https://pi.dev - positioning, extension model, and the list of features deliberately not built
 - https://mariozechner.at/posts/2025-11-30-pi-coding-agent/ - the author's rationale for the minimal prompt and YOLO default
 - https://news.ycombinator.com/item?id=46844822 - the 421-point thread with pushback on the security posture
-- https://github.com/can1357/oh-my-pi - the batteries-included fork at about 34.5k stars, the counterargument in running code
+- https://github.com/can1357/oh-my-pi - the batteries-included fork at about 35.1k stars, the counterargument in running code

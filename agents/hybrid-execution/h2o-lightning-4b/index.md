@@ -1,7 +1,7 @@
 ---
 title: H2O-Lightning-4B
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, multimodal]
 readability: 3
@@ -22,9 +22,10 @@ The model card documents the company's own headline (v1.1 number one on the JevB
 
 ## Status
 
-Active and eleven days old: the weights were created on Hugging Face 2026-10-02 and the card was last modified 2026-10-10, with v1.1 the current revision, 837 downloads and 46 likes as of 2026-10-11 (Hugging Face API).
-It entered the board the ordinary way, a 2026-10-02 add-request on the benchmark's repository requesting measurement on one H100 with pinned weights, and the maintainer ran it: the row that makes it the open leader is the benchmark's own measurement on its own protocol (add-request 181, JevBench aggregate, both fetched 2026-10-11).
-The company's card carries the claim and the screenshot, and the Decision Index does not carry the model at all, so its second-board reading does not exist yet.
+Active and ten days old: the weights were created on Hugging Face 2026-10-02 and the card was last modified 2026-10-12, with v1.1 the current revision, 1,254 downloads and 54 likes as of 2026-10-12 (Hugging Face API).
+It entered the board the ordinary way, a 2026-10-02 add-request on the benchmark's repository requesting measurement on one H100 with pinned weights, and the maintainer ran it: the row that makes it the open leader is the benchmark's own measurement on its own protocol (add-request 181, JevBench aggregate, both fetched 2026-10-12).
+The company's card carries the claim and the screenshot, and the 2026-10-12 card revision added a comparison section against Microsoft's Microsoft-Decision-1 announcement (Microsoft's accuracy numbers kept, latency corrected onto one H100 basis, both JevBench scores shown), which also explains the board's new Capability Score ordering as the Intelligence-plus-Calibration average that excludes speed and cost.
+The Decision Index still does not carry the model at all, so its second-board reading does not exist yet.
 
 ## Strengths
 
@@ -60,6 +61,7 @@ The disagreeable claim I will defend: a company checkpoint taking the open lead 
 ## Changes
 
 - 2026-10-11 - Created from the entrant scan (awesome-jev cross-check), accepted on the measured open-weights lead of the primary independent scoreboard with the single-protocol caveat recorded.
+- 2026-10-12 - Recorded the card's 2026-10-12 revision (a comparison section against Microsoft's Microsoft-Decision-1 announcement with both JevBench scores, plus the Capability Score explanation) and refreshed the checkpoint to 1,254 downloads and 54 likes.
 
 ## See also
 
@@ -72,7 +74,7 @@ The disagreeable claim I will defend: a company checkpoint taking the open lead 
 ## References
 
 - https://huggingface.co/h2oai/h2o-lightning-4b - the model card: Apache-2.0, Qwen3.5-4B fine-tune, the typed primitives, the vLLM-plus-shim serving path, and the vendor's own board claim (fetched 2026-10-11)
-- https://huggingface.co/api/models/h2oai/h2o-lightning-4b - created 2026-10-02, last modified 2026-10-10, 837 downloads, 46 likes, Apache-2.0 (fetched 2026-10-11)
+- https://huggingface.co/api/models/h2oai/h2o-lightning-4b - created 2026-10-02, last modified 2026-10-12, 1,254 downloads, 54 likes, Apache-2.0 (fetched 2026-10-12)
 - https://github.com/fstandhartinger/jevbench/issues/181 - the add-request that entered the model: pinned v1.1 weights, requested H100 hardware, the serving commands (fetched 2026-10-11)
-- https://benchmarkheaven.com/jev-models - the live open-weights board with H2O-Lightning-4B v1.1 first at 72.5 (board v1.7.44, fetched 2026-10-11)
+- https://benchmarkheaven.com/jev-models - the live open-weights board ordered by the Capability Score with H2O-Lightning-4B v1.1 the composite leader (official #1, 72.5; capability 75.0, eighth), board v1.7.46 (fetched 2026-10-12)
 - https://benchmarkheaven.com/api/jevbench/v1.6.1 - the board aggregate behind the row: composite 72.52, calibration 90.0, measured 2026-10-04, estimated $0.021 per 1,000 decisions (fetched 2026-10-11)

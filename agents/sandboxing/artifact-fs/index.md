@@ -24,7 +24,7 @@ Apache-2.0, Go 1.26+, source build only, no packaged releases.
 
 ## Status
 
-Early beta: 1,179 stars, 52 forks, 6 open issues as of 2026-10-11, created 2026-03-29, last push 2026-09-11.
+Early beta: 1,181 stars, 52 forks, 6 open issues as of 2026-10-12, created 2026-03-29, last push 2026-09-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cloudflare/artifact-fs&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: Latent Space
 created: 2026-08-29
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, newsletter, podcast, community]
 readability: 3
@@ -16,7 +16,7 @@ Latent Space is the AI engineering publication of record, a Substack newsletter 
 
 ## What it is
 
-A Substack with more than 202,000 subscribers as of 2026-10-02 combining a weekly newsletter, a 1-2 hour interview podcast with lab founders, researchers, and tool makers, and a growing event business (AI Engineer Summits across SF and Europe).
+A Substack with more than 203,000 subscribers as of 2026-10-12 combining a weekly newsletter, a 1-2 hour interview podcast with lab founders, researchers, and tool makers, and a growing event business (AI Engineer Summits across SF and Europe).
 The founding essay, [The Rise of the AI Engineer](https://www.latent.space/p/ai-engineer), defined the discipline as distinct from ML research, and the household has extended into AINews daily roundups and an AI-for-science show.
 It is also, critically, the place where the tools profiled in this section get their field interviews: Claude Code, coding agents, and synthetic data all feature heavily.
 

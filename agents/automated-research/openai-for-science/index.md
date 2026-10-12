@@ -1,7 +1,7 @@
 ---
 title: OpenAI for Science
 created: 2026-09-13
-updated: 2026-10-07
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, openai, mathematics, science]
 readability: 3
@@ -30,6 +30,8 @@ May 2026: OpenAI announced an internal model had disproved the Erdős unit dista
 August 2026: OpenAI announced ten results across mathematics and theoretical computer science from an unreleased internal version of Astra, each shipped with a machine-checkable Lean 4 certificate in the Apache-2.0 openai/ten-proofs repository plus a 249-page manuscript: the first construction of a non-sofic group (open since Gromov defined soficity in 1999), a disproof of Connes's rigidity conjecture, Erdős problems 146, 180, and 183, the first improvement to the general sphere-packing bound since 1978, and a circuit lower bound for the permanent, at a claimed token cost of about $2,000, with erdosproblems.com's Thomas Bloom calling the set "big news" and bigger than the unit-distance disproof.
 September 2026: OpenAI published a claimed proof of forced blow-up in R3 and T3 for the Navier-Stokes equations, a Millennium Prize Problem, attributed to an internal model "with very little human input", and shipped it with a public Lean 4 formalization (about 616,000 lines, no extra axioms per a third-party audit, formalized in 17 hours via GPT-6 Astra per OpenAI); NYU's Tristan Buckmaster and Anthropic's Levent Alpöge, who published their own Lean-verified forced Euler proofs hours earlier, disputed credit, OpenAI's Sébastien Bubeck denied trying to cut Alpöge from authorship and apologized for a remark about his career, Sam Altman backed Bubeck and confirmed OpenAI had started the project after rumors that Anthropic's models had solved Millennium problems, and no independent process has adjudicated either account, while Clay's September 11 statement says the problem "has apparently been settled", now badges it Active on its site, and calls verification "deliberately unhurried", and OpenAI says it will not claim the prize.
 At DevDay on September 29, research lead Tejal Patwardhan said OpenAI's models have already helped solve more than 100 mathematics problems that had been open for decades, and Altman confirmed the September "automated research intern" goal set a year earlier was met.
+October 2026: OpenAI published the openai/math repository (created October 6), 722 manuscripts in 372 result families claimed from roughly 4,000 posed problems at an average three hours of ChatGPT Pro thinking compute each, with a matrix-multiplication upper bound near n^2.25 among the headlines; a sign error invalidated one construction and two papers that depended on it, withdrawn on October 7 to leave 719, fourteen others were revised, and about 42 percent of top-line results (300 of 719) now carry Lean formalizations per the repository's history.
+October also produced the category's sharpest verification finding: a Cambridge and King's College London team posted (arXiv 2610.08144, October 6) that the Navier-Stokes Lean code does not match its written proof, proving a weaker Lemma 8.6 (a value below m + 5 where the paper states m + 4); the authors do not claim either proof wrong, New Scientist covered it as a mistranslation, OpenAI acknowledged the mismatch, and Kevin Buzzard separated the two, confident in the result and far less confident in the PDF.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openai/ten-proofs&type=date&theme=dark&legend=top-left" />
@@ -51,6 +53,7 @@ At DevDay on September 29, research lead Tejal Patwardhan said OpenAI's models h
 - OpenAI first wrote that it "cannot rule out" that the mathematicians' own Codex usage data helped improve the models involved, then said a follow-up investigation confirmed those Codex prompts "could not have influenced the system in any way, including through training", then extended the claim on September 13 to "no user inputs past July 3rd", and the period before July 3, when the use was heaviest, has not been addressed.
 - Twenty-eight Fields Medalists published "A Severe Misalignment of AI in Mathematics" on September 11, warning that treating unsolved problems as benchmarks is "detrimental to the science of mathematics", the strongest institutional criticism this program has drawn.
 - Independent scientists keep finding subtle errors in celebrated results, including a published paper whose core GPT-5-proposed idea tested the wrong property.
+- The certificate-prose gap is now documented: the Navier-Stokes Lean code proves a weaker Lemma 8.6 than the paper states, so a compiling artifact does not stand in for the written argument, and the released batch already took three withdrawals for a sign error.
 
 ## Pricing
 
@@ -66,7 +69,7 @@ The surrounding stack is plan-based: the case studies feature GPT-5 Pro at $200 
 ## Bottom line
 
 **Recommended watching for anyone who needs to calibrate how much a lab announcement is worth: this program is the case study in demanding artifacts, graders, and named reviewers before believing a research claim.**
-Not a source of settled results as of 2026-09-29; the Navier-Stokes certificate checks out against its own encoded statement, but leading fluid dynamicists dispute whether that statement is the problem anyone actually cared about.
+Not a source of settled results as of 2026-10-12; the Navier-Stokes certificate checks out against its own encoded statement, but that statement is provably weaker in Lean than the written lemma it claims to formalize, the formulation is contested, and three of the 719 released manuscripts were withdrawn for a sign error.
 
 ## Changes
 
@@ -77,6 +80,7 @@ Not a source of settled results as of 2026-09-29; the Navier-Stokes certificate 
 - 2026-10-05 - Corrected the Clay status (its September 11 statement says the problem has "apparently been settled", the problem page now reads Active, verification "deliberately unhurried"), recorded the 28-Fields-Medalist declaration of September 11, and the September 13 extension of OpenAI's data-influence claims to "no user inputs past July 3rd".
 - 2026-10-06 - Recorded the August 1 ten-results release (unreleased Astra, public Lean certificates in the openai/ten-proofs repository, Bloom's "big news" read, about $2,000 of claimed compute) and DevDay's September 29 claims (more than 100 long-open mathematics problems helped solved, the September "research intern" goal met).
 - 2026-10-07 - Added the openai/ten-proofs star history chart to the Status section.
+- 2026-10-12 - Recorded the October 6 openai/math release (722 manuscripts, three withdrawn over a sign error, about 42 percent formalized) and the lost-in-translation finding that the Navier-Stokes Lean code proves a weaker Lemma 8.6 than the written proof.
 
 ## See also
 
@@ -100,3 +104,6 @@ Not a source of settled results as of 2026-09-29; the Navier-Stokes certificate 
 - https://github.com/openai/ten-proofs - the Apache-2.0 repository of Lean certificates for the ten August results, created 2026-08-05 (fetched via GitHub API, 2026-10-06)
 - https://thenextweb.com/news/openai-astra-model-ten-math-proofs-non-sofic-groups - the ten-results release: non-sofic group, Connes rigidity disproof, Erdős 146/180/183, the sphere-packing bound, and Bloom's reaction (fetched 200, 2026-10-06)
 - https://thenextweb.com/news/sam-altman-openai-ai-research-intern-devday-keynote - DevDay September 29: the research-intern milestone and Patwardhan's more-than-100-problems claim (fetched 200, 2026-10-06)
+- https://github.com/openai/math - the manuscript catalogue: 719 after the withdrawals, the history with the sign-error retraction, and the 42 percent formalization count (fetched 200, 2026-10-12)
+- https://arxiv.org/abs/2610.08144 - "Navier-Stokes lost in translation": the mistranslation argument and its solvability-hierarchy framing (fetched 200, 2026-10-12)
+- https://www.newscientist.com/article/2592824-openai-mistranslated-mathematics-into-code-for-its-navier-stokes-proof/ - the Lemma 8.6 m+4 versus m+5 finding and OpenAI's response (fetched 200, 2026-10-12)

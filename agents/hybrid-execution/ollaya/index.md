@@ -1,7 +1,7 @@
 ---
 title: Ollaya
 created: 2026-10-06
-updated: 2026-10-08
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, local-inference, model-hub]
 readability: 3
@@ -24,7 +24,8 @@ It runs on ONNX Runtime over the CPU or an NVIDIA GPU (CUDA 13 or 12, Vulkan), w
 ## Status
 
 **Seventeen days old, beta, and already the wave's default front door.**
-The repository was created 2026-09-23 and shows 1,277 stars and 73 forks as of 2026-10-10, pushed 2026-10-09.
+The repository was created 2026-09-23 and shows 1,298 stars and 73 forks as of 2026-10-12, pushed 2026-10-09.
+The release train moved fast after the launch measurements: v0.9.0 (2026-10-02) packaged Cloudflare's Clef and a CPU fallback for GGUF models, v0.10.0 (2026-10-05) added Hugging Face mirror pulls and a DGX Spark CUDA pack, v0.11.0 (2026-10-06) added Decima's three small multilingual models and image reading for Winnow 12B, v0.12.0 (2026-10-06) shipped Vulkan-on-Windows GGUF support, and v0.12.1 (2026-10-09) added a new Credence family (a MiCA refinement of Winnow-E4B), while the site's library count still reads nineteen families and its results page still reports the 0.8.0-era measurements below.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ollaya-dev/ollaya&type=date&theme=dark&legend=top-left" />
@@ -74,6 +75,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 - 2026-10-07 - Added the ollaya-dev/ollaya star history chart to the Status section.
 - 2026-10-07 - Reworded two pre-existing "shapes" compounds to "formats" (the TypeSafe request and response formats, the published formats) to keep the banned-terms rule.
 - 2026-10-08 - The library grew to nineteen families (decima, snap, and arbiter joining) and the results page moved to 31 models measured, 2,184 timed requests, a newest measurement of 2026-10-06, a third disclosed machine (M4 Pro Mac mini) beside the two desktops, and Ollaya 0.8.0; refreshed stars to 1,239.
+- 2026-10-12 - Recorded the release train v0.9.0 through v0.12.1 (2026-10-02 to 10-09): Clef and a GGUF CPU fallback (0.9.0), Hugging Face mirror pulls and the DGX Spark CUDA pack (0.10.0), Decima's multilingual trio and Winnow 12B image reading (0.11.0), Vulkan-on-Windows GGUF (0.12.0), and the new Credence family (0.12.1), while the site's family count and results page still carry the 0.8.0-era state; refreshed stars to 1,298.
 
 ## See also
 
@@ -86,7 +88,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 ## References
 
 - https://ollaya.dev/ - product surface: endpoints, model families, platforms, the Ollama comparison table, Apache-2.0 licensing
-- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,277 stars, 73 forks, pushed 2026-10-09 (GitHub API, as of 2026-10-10)
+- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,298 stars, 73 forks, pushed 2026-10-09, releases v0.9.0 through v0.12.1 (GitHub API, as of 2026-10-12)
 - https://ollaya.dev/results - the measurement page: 26 models, 73,720 benchmark answers, 41,352 parity checks, disclosed machines, newest measurement 2026-10-02
 - https://ollaya.dev/docs/typesafe-compatibility - the wire-identical TypeSafe API documentation, including SDK 0.7.1 compatibility
 - https://news.ycombinator.com/item?id=49848269 - the 618-point launch thread (2026-09-25)

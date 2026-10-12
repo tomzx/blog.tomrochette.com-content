@@ -1,7 +1,7 @@
 ---
 title: Kimi Code
 created: 2026-09-26
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, moonshot-ai, pricing]
 readability: 3
@@ -21,7 +21,7 @@ Model access is tiered: K2.7 Code for every paying member, K3 at full 1M context
 
 ## Status
 
-Active and restructuring quickly: K3 shipped into Kimi Code on July 17, 2026, and by late September a restructure had renamed tiers and dropped the weekly quota window for new members.
+Active and restructuring quickly: K3 shipped into Kimi Code on July 17, 2026, by late September a restructure had renamed tiers and dropped the weekly quota window for new members, and in October 2026 a second restructure renamed both ladders (Plus/Pro/Max/Ultra internationally, Go/Plus/Pro/Max in China) with the musical tiers kept on as legacy plans.
 The CLI is published on GitHub under MoonshotAI, with third-party coverage putting it at 3.2k stars in July 2026.
 Independent guides multiplied through 2026, which I read as genuine adoption.
 
@@ -40,9 +40,9 @@ Independent guides multiplied through 2026, which I read as genuine adoption.
 
 ## Pricing
 
-On kimi.ai: Moderato $19, Allegretto $39, Allegro $99, Vivace $199 per month, annual effective $15/$31/$79/$159 (as of 2026-10-11).
-On kimi.com: Andante ¥49, Moderato ¥99, Allegretto ¥199, Allegro ¥699 per month (as of 2026-10-06).
-Under the new ladder, Go has no coding quota, Plus and above include Kimi Code, and Pro and above unlock K3 at 1M context.
+On kimi.ai (as of 2026-10-12): Plus $19, Pro $39, Max $99, Ultra $199 per month, annual effective $15/$31/$79/$159; the former musical tiers (Moderato, Allegretto, Allegro, Vivace) are legacy plans at unchanged prices.
+On kimi.com (as of 2026-10-12): Go ¥49, Plus ¥99, Pro ¥199, Max ¥699 per month, annual equivalents ¥39/¥79/¥159/¥559; the former musical tiers (Andante, Moderato, Allegretto, Allegro) are legacy plans at unchanged monthly prices, with annual billing added.
+On both ladders, Go has no coding quota, Plus and above include Kimi Code under a rolling 5-hour limit with no weekly limit, legacy plans keep both the 5-hour and weekly windows, and Pro and above unlock K3 at 1M context.
 The monthly pool is credits shared across every Kimi feature, and Kimi Code additionally runs under its own usage limit (a rolling 5-hour rate window for new members, the weekly window having been removed; the membership help page still phrases it as a 5-hour/weekly limit because legacy plans keep the weekly window, per the membership docs re-fetched 2026-10-11) that applies only to Kimi Code.
 Extra Usage is pay-as-you-go overflow with a ¥25 minimum top-up, generally non-refundable.
 
@@ -52,6 +52,7 @@ Extra Usage is pay-as-you-go overflow with a ¥25 minimum top-up, generally non-
 | ---- | ---- | ------ | ------ |
 | 2026-07-17 | Moderato to Vivace | Listed $19/$39/$99/$199 with time-limited promos at $15/$31/$79/$159; Kimi and Kimi Code separation announced | https://www.digitalapplied.com/blog/kimi-code-k3-hands-on-setup-plans-cache-2026 |
 | 2026-09-26 | Same tiers | Promos became standard annual pricing; new plans released at unchanged prices, weekly window dropped for new members | https://www.kimi.ai/help/membership/membership-pricing |
+| 2026-10-12 | Both ladders | Tier rename: international Moderato/Allegretto/Allegro/Vivace became Plus/Pro/Max/Ultra and China Andante/Moderato/Allegretto/Allegro became Go/Plus/Pro/Max at unchanged monthly prices, musical tiers designated legacy, annual billing added on both ladders | https://www.kimi.ai/help/membership/membership-pricing |
 
 ## Compared to
 
@@ -70,6 +71,7 @@ I will claim something arguable: the ¥49 China-market ladder proves this produc
 - 2026-09-26 - Created.
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 - 2026-10-06 - Pricing re-verified on both membership pages; the help docs now state that Kimi Code carries its own usage limit (a rolling 5-hour rate window, the weekly window removed for new members) on top of the shared monthly credit pool, and both ladder as-of dates moved to 2026-10-06.
+- 2026-10-12 - Second restructure of the year: both membership ladders renamed (international Moderato/Allegretto/Allegro/Vivace to Plus/Pro/Max/Ultra, China Andante/Moderato/Allegretto/Allegro to Go/Plus/Pro/Max) at unchanged monthly prices, the musical tiers designated legacy with their 5-hour-plus-weekly windows retained, annual billing added on both ladders, and the rolling-5-hour, no-weekly-limit rule confirmed for new Kimi Code plans; price history row appended.
 
 ## See also
 
@@ -82,8 +84,8 @@ I will claim something arguable: the ¥49 China-market ladder proves this produc
 
 - https://www.kimi.com/code/en - official product page; surfaces and the K3 1M-context claim.
 - https://www.kimi.com/code/docs/en/kimi-code/membership.html - membership docs; new ladder (Go/Plus/Pro), weekly window removal, Extra Usage terms.
-- https://www.kimi.ai/help/membership/membership-pricing - dollar pricing $19/$39/$99/$199 monthly, $15/$31/$79/$159 annual, as of 2026-09-26.
-- https://www.kimi.com/en/help/membership/membership-pricing - yen pricing ¥49/¥99/¥199/¥699 and shared credit pool rules, as of 2026-09-26.
+- https://www.kimi.ai/help/membership/membership-pricing - dollar pricing $19/$39/$99/$199 monthly, $15/$31/$79/$159 annual, as of 2026-10-12, when the ladder read Plus/Pro/Max/Ultra with the musical tiers designated legacy (fetched, HTTP 200).
+- https://www.kimi.com/en/help/membership/membership-pricing - yen pricing ¥49/¥99/¥199/¥699 monthly and shared credit pool rules, as of 2026-10-12, when the ladder read Go/Plus/Pro/Max at the same monthly prices with annual billing added (fetched, HTTP 200).
 - https://www.digitalapplied.com/blog/kimi-code-k3-hands-on-setup-plans-cache-2026 - July 17, 2026 snapshot of listed vs promo prices and the separation banner.
 - https://aihackers.net/value/deals/kimi-haggle/ - documented February 2026 first-month offers of $0.99 to $11.99, marked historical.
 - https://www.noemititarenco.com/blog/kimi-code-plan-after-4-months-of-use-honest-review/ - skeptical four-month user review and cancellation rationale.

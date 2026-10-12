@@ -24,7 +24,7 @@ The CodeNomad Server (`npx @neuralnomads/codenomad`) serves the same workspace f
 ## Status
 
 **Active on a daily train, young, and without independent coverage.**
-2,620 stars, 177 forks, and 21 open issues and pull requests, created 2025-11-01, pushed 2026-10-11, as of 2026-10-11 (GitHub API).
+2,620 stars, 177 forks, and 21 open issues and pull requests, created 2025-11-01, pushed 2026-10-12, as of 2026-10-12 (GitHub API).
 Stable v0.20.1 (2026-10-03) after v0.20.0 (2026-09-25), with a daily `v0.20.1-dev` release train running through the writing of this note.
 The server package drew 1,267 npm downloads in the month ending 2026-10-10.
 A Hacker News search returns no story about the project (2026-10-11), only substring matches, so the footprint is GitHub-side.
@@ -79,7 +79,7 @@ My disagreeable claim: two serious cockpits around one harness is the correct ma
 
 ## References
 
-- https://github.com/NeuralNomadsAI/CodeNomad - repository facts: 2,620 stars, 177 forks, MIT, created 2025-11-01, pushed 2026-10-11 (GitHub API, as of 2026-10-11)
+- https://github.com/NeuralNomadsAI/CodeNomad - repository facts: 2,620 stars, 177 forks, MIT, created 2025-11-01, pushed 2026-10-12 (GitHub API, as of 2026-10-12)
 - https://raw.githubusercontent.com/NeuralNomadsAI/CodeNomad/main/README.md - the feature set, OpenCode V2 version contract, SideCars, remote control, and install paths (fetched 2026-10-11)
 - https://raw.githubusercontent.com/NeuralNomadsAI/CodeNomad/main/packages/server/README.md - the server mode: remote access, authentication, prerequisites, deployment model
 - https://api.github.com/repos/NeuralNomadsAI/CodeNomad/releases - stable v0.20.1 (2026-10-03), v0.20.0 (2026-09-25), and the daily dev train

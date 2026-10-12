@@ -1,7 +1,7 @@
 ---
 title: Steve Yegge
 created: 2026-08-29
-updated: 2026-09-22
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, agent-pragmatist]
 readability: 3
@@ -27,7 +27,7 @@ As of 2026-09-22 the yegge.ai catalog still holds 165 essays, roughly 699,000 wo
 The site itself has not caught up with the shutdown: the homepage still presents Gas Town as "current work", a dark-factory orchestration system, and pitches AI-transformation consulting, keynotes, and workshops.
 It includes the "Future of Coding Agents" series, and he appears on The Pragmatic Engineer and other podcasts.
 Per Latent Space's AINews roundup (2026-09-17), citing Dan Luu's 2026-09-15 post on X, Yegge shut Gas Town down and admitted he never successfully built anything with it, despite spending many thousands a month on coding agent subscriptions.
-The gastownhall/gastown repository remains public (18.1k stars as of 2026-09-18), so the code survives even though the project is abandoned by its author.
+The gastownhall/gastown repository remains public (18.3k stars as of 2026-10-12), so the code survives even though the project is abandoned by its author.
 His Substack still exists and its about page reports hundreds of subscribers, but its sitemap listed no published posts as of 2026-09-13, so the essays live on yegge.ai rather than the newsletter.
 He also released the book Vibe Coding with Gene Kim (IT Revolution, 2025), a Gold Medal winner at the 2026 Axiom Book Awards.
 

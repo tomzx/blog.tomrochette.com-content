@@ -25,7 +25,7 @@ It is free and MIT end to end, installed as a macOS (Apple Silicon) desktop buil
 ## Status
 
 **Active, shipping weekly, and without independent coverage.**
-The repository was created 2026-02-24 and shows 4,232 stars and 625 forks as of 2026-10-11, with commits landing the same day.
+The repository was created 2026-02-24 and shows 4,241 stars and 628 forks as of 2026-10-12, with commits landing the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=get-bb/bb&type=date&theme=dark&legend=top-left" />
@@ -79,8 +79,8 @@ Not for Windows or Linux daily drivers, and not for anyone who needs independent
 
 ## References
 
-- https://github.com/get-bb/bb - repository, README (threads, self-customization, provider CLI drivers, plugin-first features, bb spawn), MIT license, 4,232 stars and 625 forks as of 2026-10-11
-- https://api.github.com/repos/get-bb/bb - creation date 2026-02-24, language TypeScript, push date 2026-10-11, stars and forks as of 2026-10-11
+- https://github.com/get-bb/bb - repository, README (threads, self-customization, provider CLI drivers, plugin-first features, bb spawn), MIT license, 4,241 stars and 628 forks as of 2026-10-12
+- https://api.github.com/repos/get-bb/bb - creation date 2026-02-24, language TypeScript, push date 2026-10-12, stars and forks as of 2026-10-12
 - https://getbb.app - the product site: the self-building pitch, the plugin list (GitHub integration, agent memory, scheduled jobs, remote access), the four surfaces, platform support, and the comparison links
 - https://github.com/get-bb/bb/releases - desktop-v0.46.0 (2026-10-09) as the latest stable, after v0.45.0 (October 2), with the nightly tag rolling
 - https://hn.algolia.com/api/v1/search?query=%22agent%20IDE%22%20builds%20itself&tags=story - the search that found no story about bb, the missing-footprint evidence, fetched 2026-10-11

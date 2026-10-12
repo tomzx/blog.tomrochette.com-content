@@ -1,7 +1,7 @@
 ---
 title: Hindsight
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, benchmarks, open-source]
 readability: 3
@@ -26,8 +26,8 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
 
 ## Status
 
-**Active and suddenly large: 48,166 stars rank it third in this category behind claude-mem and mem0, on a repository that is barely a year old.**
-48,166 stars with the repository pushed 2026-10-10, created 2025-10-30, as of 2026-10-11 (GitHub API).
+**Active and suddenly large: 48,555 stars rank it third in this category behind claude-mem and mem0, on a repository that is barely a year old.**
+48,555 stars with the repository pushed 2026-10-10, created 2025-10-30, as of 2026-10-12 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.10.3 (2026-10-08) with PyPI (hindsight-api, hindsight-client) and npm in sync at 0.10.3 as of 2026-10-11, and 215,770 trailing-month npm client downloads (2026-09-10 to 2026-10-09).
+Latest release v0.10.3 (2026-10-08) with PyPI (hindsight-api, hindsight-client) and npm in sync at 0.10.3 as of 2026-10-11, and 214,217 trailing-month npm client downloads (2026-09-11 to 2026-10-10).
 v0.10.3 treats memory as a past record teams can annotate with their own guidance, adds a TraeCode (TRAE CN) harness adapter, filters non-conversation Codex content, and waits out rate limits during history deepening instead of dropping turns.
 The paper (arXiv 2512.12818, December 2025, with Virginia Tech's Naren Ramakrishnan among the authors) reports 91.4 percent on LongMemEval and 89.61 on LoCoMo; the live benchmark site claims 94.6 on LongMemEval-S, 92.0 on LoCoMo, and 64.1 on BEAM-10M as of 2026-10-07, and the README says Virginia Tech's Sanghani Center and The Washington Post independently reproduced the Hindsight numbers.
 The discussion footprint is thin for the size: a 4-point Show HN (December 2025), a self-posted 3-point star-milestone thread (April 2026), and a 2-point story (October 2026), so the 46k stars came through benchmark attention and ecosystem listings rather than public debate.
@@ -57,7 +57,7 @@ The discussion footprint is thin for the size: a 4-point Show HN (December 2025)
 ## Pricing
 
 Self-hosted: free, MIT, no restrictions.
-Hindsight Cloud: pay as you go, billed on token usage with no fixed monthly fee and no seat pricing, with a free start at signup, 99.9 percent uptime target, as of 2026-10-11.
+Hindsight Cloud: pay as you go, billed per operation with no fixed monthly fee and no seat pricing, with free starting credits, a 99.9 percent uptime target, and, as of 2026-10-12, published per-operation rates: retain $10.00 per 1M tokens, recall $0.75 per 1M tokens, reflect $0.05 per call, Iris Extract $7.50 per 1M tokens, mental-model retrieve $0.25 per 1M tokens, mental-model refresh $0.05 per call, and storage $0.25 per 1M tokens per month past the first 30 days.
 Enterprise: custom, with BYO-cloud, on-premises, SSO and RBAC, and up to a 99.95 percent SLA.
 
 ## Price history
@@ -65,6 +65,7 @@ Enterprise: custom, with BYO-cloud, on-premises, SSO and RBAC, and up to a 99.95
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-10-07 | Self-hosted, Cloud, Enterprise | Baseline: self-host free (MIT), Cloud pay-as-you-go on token usage ($5 signup credit, no fixed fee), Enterprise custom. | [vectorize.io/pricing](https://vectorize.io/pricing) |
+| 2026-10-12 | Hindsight Cloud | First published per-operation rates: retain $10.00/1M tokens, recall $0.75/1M, reflect $0.05/call, Iris Extract $7.50/1M, mental-model retrieve $0.25/1M and refresh $0.05/call, storage $0.25/1M per month past 30 days; free starting credits, no fixed fee (the $5 credit line is gone). | [vectorize.io/pricing](https://vectorize.io/pricing) |
 
 ## Compared to
 
@@ -82,6 +83,7 @@ Not for solo coding-agent use, where local files or claude-mem cost nothing, or 
 - 2026-10-07 - Created from the 2026-10-07 awesome-list entrant scan, with nine fetched sources and the vendor-operated-benchmark caveat recorded as the critical angle.
 - 2026-10-09 - Recorded v0.10.3 (memory as a past record with team-added guidance, a TRAE CN harness adapter, Codex content filtering, and 429 backoff during deepening) with PyPI and npm in sync at 0.10.3; refreshed stars to 47,452 and downloads to 195,348.
 - 2026-10-11 - The pricing page no longer lists the $5 signup credit (the free start remains); refreshed stars to 48,166 and downloads to 215,770, and re-verified the three-tier ladder unchanged.
+- 2026-10-12 - The pricing page published its first per-operation rates (retain $10.00/1M tokens, recall $0.75/1M, reflect $0.05/call, storage $0.25/1M per month past 30 days, plus extraction and mental-model rates), replacing the token-billing-only description (Price history row); refreshed stars to 48,555.
 
 ## See also
 
@@ -97,7 +99,7 @@ Not for solo coding-agent use, where local files or claude-mem cost nothing, or 
 - https://hindsight.vectorize.io/ - product documentation: retain/recall/reflect, multi-strategy retrieval, observation consolidation, knowledge pages, 18 coding-agent integrations
 - https://benchmarks.hindsight.vectorize.io/ - the live benchmark site and its downloadable run artifacts (LongMemEval-S 94.6, LoCoMo 92.0, BEAM-10M 64.1), as of 2026-10-07
 - https://arxiv.org/abs/2512.12818 - the paper (91.4 percent LongMemEval, 89.61 LoCoMo, December 2025) and the author list
-- https://vectorize.io/pricing - the self-host/Cloud/Enterprise ladder and the pay-as-you-go terms, re-verified 2026-10-11 (the $5 credit line no longer shown)
+- https://vectorize.io/pricing - the self-host/Cloud/Enterprise ladder and the per-operation rates published in its FAQ (retain $10.00/1M, recall $0.75/1M), as of 2026-10-12
 - https://pypi.org/pypi/hindsight-api/json - hindsight-api 0.10.3 (2026-10-08), the release-sync record
-- https://api.npmjs.org/downloads/point/last-month/@vectorize-io/hindsight-client - 215,770 trailing-month client downloads (2026-09-10 to 2026-10-09)
+- https://api.npmjs.org/downloads/point/last-month/@vectorize-io/hindsight-client - 214,217 trailing-month client downloads (2026-09-11 to 2026-10-10)
 - https://hn.algolia.com/api/v1/search?query=%22hindsight%22%20agent%20memory&tags=story - the thin-discussion record (4-point Show HN 2025-12-16, 3-point milestone thread 2026-04-22, 2-point story 2026-10-05)

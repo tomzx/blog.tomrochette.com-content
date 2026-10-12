@@ -26,7 +26,7 @@ It is an independent one-maintainer project by elirantutia, distributed through 
 
 ## Status
 
-Quiet but shipped: 1,388 stars and 173 forks as of 2026-10-11, created 2026-03-19, released v0.3.4 (2026-07-22) through v0.3.8 (2026-09-03), and neither the repository nor the release train has moved since 2026-09-03, about five and a half weeks as of this verification.
+Quiet but shipped: 1,389 stars and 173 forks as of 2026-10-12, created 2026-03-19, released v0.3.4 (2026-07-22) through v0.3.8 (2026-09-03), and neither the repository nor the release train has moved since 2026-09-03, about five and a half weeks as of this verification.
 The only public launch trace is a self-submitted Show HN thread from 2026-04-23 that drew 2 points and zero comments, and no third-party coverage surfaced in this run's search.
 MIT throughout.
 
@@ -80,7 +80,7 @@ Not for anyone who needs a currently shipping cockpit (OpenChamber's train is mo
 
 ## References
 
-- https://api.github.com/repos/elirantutia/vibeyard - 1,388 stars, 173 forks, MIT license, created 2026-03-19, pushed 2026-09-03, as of 2026-10-11
+- https://api.github.com/repos/elirantutia/vibeyard - 1,389 stars, 173 forks, MIT license, created 2026-03-19, pushed 2026-09-03, as of 2026-10-12
 - https://raw.githubusercontent.com/elirantutia/vibeyard/main/README.md - the feature set (kanban-to-session loop, swarm grid, isolated Claude profiles, WebRTC sharing, inspector, embedded browser), install paths, and the not-affiliated notice
 - https://api.github.com/repos/elirantutia/vibeyard/releases - the v0.3.4 (2026-07-22) through v0.3.8 (2026-09-03) release train
 - https://hn.algolia.com/api/v1/search?query=vibeyard&tags=story - the search that found exactly one relevant thread

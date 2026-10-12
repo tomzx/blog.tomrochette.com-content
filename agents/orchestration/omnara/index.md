@@ -1,7 +1,7 @@
 ---
 title: Omnara
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-control-plane, mobile, self-hosted, yc]
 readability: 3
@@ -26,7 +26,8 @@ It sits in the orchestration layer of this section's taxonomy (control plane and
 ## Status
 
 **Active, well-capitalized by YC standards, and shipping daily.**
-2,905 stars and 233 forks as of 2026-10-11 on a repo created July 9, 2025, with pushes landing within a day of verification (GitHub API).
+2,907 stars and 233 forks as of 2026-10-12 on a repo created July 9, 2025, with pushes landing within a day of verification (GitHub API).
+The release train now runs two product lines recorded 2026-10-12: `omnarad`, the daemon line, at v0.2.2 (2026-10-10) after v0.2.1 (2026-10-08), and `cluster`, a separate line whose v0.2.2 tag published the same day (GitHub releases), both postdating the `cli` line's last tag (cli-v1.0.11, 2026-09-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=omnara-ai/omnara&type=date&theme=dark&legend=top-left" />
@@ -82,6 +83,7 @@ I believe every serious agent deployment eventually needs exactly what Omnara is
 - 2026-09-09 - Added the machine-retention line item, $0.20016 per GiB per 30 days.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-07 - Added the omnara-ai/omnara star history chart to the Status section.
+- 2026-10-12 - Recorded the two-line release train (omnarad v0.2.2 and cluster v0.2.2, both October 10) and refreshed star counts.
 
 ## See also
 

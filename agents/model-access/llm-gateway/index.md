@@ -33,7 +33,7 @@ Active and young: the repo was created 2025-04-12 and shows 1,680 stars and 191 
 DevPass shipped across Q2 2026 with annual billing and integration guides, and the Q2 roundup puts deepseek-v4-pro at the top of its quarterly token table.
 A Hacker News search this run returned no stories about the product, so the footprint is SEO and docs, not community debate.
 On 2026-10-04 the DevPass page announced its first devaluation: from October 15, 2026 the monthly allowance falls from 3x to 2x the plan price.
-The notice still stood at the 2026-10-11 re-check, with every plan card still reading 3x usage, so the cut has not landed early.
+The notice still stood at the 2026-10-12 re-check, with every plan card still reading 3x usage, so the cut has not landed early.
 
 ## Strengths
 
@@ -98,7 +98,7 @@ My disagreeable claim: DevPass at 3x (soon 2x) buys less leverage than OpenCode 
 - https://llmgateway.io/ - 250+ models from 40+ providers, 5% on top-ups, BYOK free, SOC 2 Type II, 1T+ tokens routed, self-host with licensed enterprise features (200, fetched 2026-10-04).
 - https://llmgateway.io/pricing - free tier, 5% platform fee, BYOK included, retention pricing, plan comparison table (200, fetched 2026-10-04).
 - https://devpass.llmgateway.io/ - DevPass $29/$79/$179, $1-to-$3 usage claim, frontier fair-use, 14-day refund, supported agents (200, fetched 2026-10-04).
-- https://devpass.llmgateway.io/pricing - per-plan usage values and the October 15, 2026 3x-to-2x change notice (200, fetched 2026-10-04, re-fetched 2026-10-11 with the cut still pending and the refund condition now stated)
+- https://devpass.llmgateway.io/pricing - per-plan usage values and the October 15, 2026 3x-to-2x change notice (200, fetched 2026-10-04, re-fetched 2026-10-11 and 2026-10-12 with the cut still pending and the refund condition now stated)
 - https://llmgateway.io/blog/q2-2026-roundup - DevPass Q2 launch detail, SOC 2 Type II, top-routed models by tokens (200, fetched 2026-10-04).
 - https://api.github.com/repos/theopenco/llmgateway - 1,674 stars, 191 forks, created 2025-04-12, pushed 2026-10-07 (200, fetched 2026-10-07).
 - https://raw.githubusercontent.com/theopenco/llmgateway/main/LICENSE - AGPLv3 grant with the ee/ commercial carve-out (200, re-fetched 2026-10-07; the 2026-10-04 read had recorded it as a custom license).

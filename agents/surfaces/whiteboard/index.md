@@ -18,7 +18,7 @@ Whiteboard is an MIT-licensed desktop app (YC W26) where a coding agent draws it
 Whiteboard by /dev/fast is a beta desktop app for macOS, Windows, and Linux that plugs into the harnesses you already run (Claude Code and Codex named first) and hands the agent an SDK to draw on an in-app canvas as it works.
 The canvas holds Whiteboard-specific objects: Commits, Diffs, Traces, and a source tree, with diffs rendered semantically by the team's Rust diffr library, plus copy-for-agent selection that turns any highlighted region into a prompt-ready snippet.
 The public site is served by dev.fast (the GitHub homepage now points at whiteboard.dev.fast, which serves the same dev.fast-hosted page directly again as of 2026-10-06, after a stretch where it 301-redirected), and documents an open API proposal (diff search: parse, hydrate, postprocess) that pins agent-found evidence to exact Git blobs, so a diagram claim can be checked against source.
-It shipped v0.2.0 on 2026-10-02 after three releases in its first public week and kept the train running: v0.2.1 and v0.2.2 on 2026-10-08, v0.2.3 later the same day (an Electron bump fixing wasm loading in software-rendered maps and a fix for lag when scrolling diffs), and v0.2.4 on 2026-10-09 (diffr imported into the whiteboard monorepo, with diff loading up to 8.5x faster per the team's benchmarks), and the repo shows 3,099 stars and 157 forks as of 2026-10-11.
+It shipped v0.2.0 on 2026-10-02 after three releases in its first public week and kept the train running: v0.2.1 and v0.2.2 on 2026-10-08, v0.2.3 later the same day (an Electron bump fixing wasm loading in software-rendered maps and a fix for lag when scrolling diffs), and v0.2.4 on 2026-10-09 (diffr imported into the whiteboard monorepo, with diff loading up to 8.5x faster per the team's benchmarks), and the repo shows 3,130 stars and 157 forks as of 2026-10-12.
 
 ## Status
 
@@ -46,7 +46,7 @@ The category question is unresolved even in its own launch thread, where comment
 - A skeptical comment called the animated hand-drawn diagrams a technique heading everywhere, which cuts both ways: the medium may age faster than the function.
 - No hosted plan and no pricing: the business is a stated maybe, and beta desktop apps churn.
 - Ten open issues and twenty-three open pull requests as of 2026-10-06 against seven weeks of life (the earlier fifty-issue reading included pull requests, and the queue has moved fast since), with every major OS build user-reported rather than vendor-certified.
-The counts keep moving: eight open issues and thirty-one open pull requests as of 2026-10-08, nine open issues and forty-one open pull requests as of 2026-10-09 as the pull-request queue grew as fast as the release train, then ten open issues and thirty-one open pull requests as of 2026-10-10 once the diffr imports merged and the queue drained, and eleven open issues and thirty-four open pull requests as of 2026-10-11.
+The counts keep moving: eight open issues and thirty-one open pull requests as of 2026-10-08, nine open issues and forty-one open pull requests as of 2026-10-09 as the pull-request queue grew as fast as the release train, then ten open issues and thirty-one open pull requests as of 2026-10-10 once the diffr imports merged and the queue drained, eleven open issues and thirty-four open pull requests as of 2026-10-11, and ten open issues and twenty-seven open pull requests as of 2026-10-12.
 
 ## Pricing
 
@@ -83,7 +83,7 @@ Not for teams that need a supported, priced, categorized tool, and not for anyon
 
 ## References
 
-- https://github.com/devdotfast/whiteboard - repository, MIT license, 3,099 stars, 157 forks, 11 open issues and 34 open pull requests, release cadence through v0.2.4 (2026-10-09) with only diffr library tags since, and the 2026-10-11 push, fetched 2026-10-11.
+- https://github.com/devdotfast/whiteboard - repository, MIT license, 3,130 stars, 157 forks, 10 open issues and 27 open pull requests, release cadence through v0.2.4 (2026-10-09) with only diffr library tags since, and the 2026-10-11 push, fetched 2026-10-12.
 - https://dev.fast/ - the host of the product site, which whiteboard.dev.fast also serves directly as of 2026-10-06 (fetched then, after the 301-redirect stretch recorded on 2026-10-05): canvas objects (Commits, Diff, Trace, source tree), the Rust diffr library, the diff-search API proposal with Git-blob hydration, copy-for-agent selection, downloads for three OSes, and the hosted-Whiteboard coming-soon notice.
 - https://news.ycombinator.com/item?id=49833867 - the 424-point Show HN launch (2026-09-24) with the team, the harness integrations, the free-local-only answer, and the categorization debate, fetched via the Algolia items API this run.
 - https://github.com/devdotfast/whiteboard/releases - the v0.1.3, v0.1.5, and v0.2.0 release train across the launch week (fetched 2026-10-04) and the v0.2.1 through v0.2.4 train of 2026-10-08 to 2026-10-09 (v0.2.3 the Electron wasm and diff-scroll fixes, v0.2.4 the diffr monorepo import with up to 8.5x faster diff loading), fetched 2026-10-09.

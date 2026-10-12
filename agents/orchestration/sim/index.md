@@ -1,7 +1,7 @@
 ---
 title: Sim
 created: 2026-09-29
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -22,9 +22,10 @@ The repo sits at 29,765 stars with 3,851 forks, Apache-2.0, created 2025-01-05, 
 
 ## Status
 
-Active: last push 2026-10-10, releases v0.9.15 through v0.9.17 on 2026-10-08 through 2026-10-10 (GitHub API, as of 2026-10-11).
+Active: last push 2026-10-10, releases v0.9.15 through v0.9.18 on 2026-10-08 through 2026-10-11 (GitHub API, as of 2026-10-12).
 v0.9.15 (October 8) added SSO administration and credential-sharing APIs, current frontier models, a Nebius Token Factory provider, and desktop background-executor chats bound to a device registry, and v0.9.16 (October 8) patched a sharp librsvg CVE and an MCP SDK OAuth issuer binding while adding GitHub MCP server library entries.
 v0.9.17 (October 10) added a workspace changelog of releases, workflow tests as a workspace resource, expanded Shopify operations, and a Checkr integration (GitHub releases).
+v0.9.18 (October 11) added library templates for HubSpot lead-enrichment and Pipedrive deal-follow-up agents, moved project membership to the workspace column, and shipped a performance pass (keyset table paging, non-blocking auth timestamp writes, concurrent Lucid page fetches) (GitHub releases).
 v0.9.11 (October 2) tightened audit rules across console, helper, render-path, persist, and deployment-flag checks, v0.9.12 (October 3) added last-synced deployment comparison for forks and a You.com integration, v0.9.13 (October 4) added library templates while fixing webhook path-owner claims and hosted-key usage-limit enforcement, and v0.9.14 (October 5) preserved workflow identity in background confirmations and kept file lineage through binary exports and extraction.
 Three HN launches mark the trajectory: 196 points for the first Show HN (2025-04-28), 55 points for the YC Launch HN (2025-05-21), and 240 points for "Sim, Apache-2.0 n8n alternative" (2025-12-11).
 Pre-1.0 (v0.9.x) despite the scale, so the API surface is still moving.
@@ -86,6 +87,7 @@ Not for coding-agent orchestration, and not for anyone needing long-term API sta
 - 2026-10-09 - Recorded v0.9.15 and v0.9.16 (both October 8, SSO administration and credential-sharing APIs, then a CVE and OAuth-issuer patch) as the new latest releases.
 
 - 2026-10-11 - Corrected the plan details against the live pricing page (rendered this run after the 2026-10-10 client-shell record): Free is one workspace with no weekly refresh, and SSO, SOC 2, self-hosting, and dedicated support are Enterprise-only; recorded the Pro and Max weekly-refresh allowances.
+- 2026-10-12 - Recorded v0.9.18 (October 11, library templates, workspace-column project membership, and a performance pass) as the new latest release.
 
 ## See also
 

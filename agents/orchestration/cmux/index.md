@@ -1,7 +1,7 @@
 ---
 title: cmux
 created: 2026-08-24
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, terminal, parallel-agents, macos]
 readability: 3
@@ -57,6 +57,7 @@ Max $200/month raises the shared pool to 80 vCPUs and 160 GB RAM across up to 5 
 Team $60/user/month gives each user the Pro allowance (5 VMs, 20 vCPUs and 40 GB RAM shared) plus centralized billing and priority support; Enterprise adds self-hosted, even air-gapped, cloud execution, SSO/SAML, audit logs, custom VM limits, and SOC 2 with an SLA, as of 2026-10-06.
 The dollar tiers are unchanged since 2026-09-18, but the cloud packaging has now moved three times in three weeks: the shared pools of up to 50 VMs gave way to per-user counts with per-VM resource caps on 2026-10-04, and on 2026-10-06 the per-VM caps gave way to shared pools again (Pro and Team 20 vCPUs/40 GB, Max 80 vCPUs/160 GB across up to 5 Cloud VMs, "your VMs draw from one pool"), while the FAQ still describes Cloud VMs as persistent rather than cattle.
 Yearly billing returned by 2026-10-11: Pro at $480/yr ($40/mo effective) and Max at $1,920/yr ($160/mo effective), with the monthly rates still $50 and $200.
+The plan table observed 2026-10-12 also differentiates the tiers by largest single VM again inside the shared pools: a Pro or Team VM caps at 16 GB RAM / 8 vCPU (the 24 GB / 12 vCPU and 32 GB / 16 vCPU sizes require Max), while Max runs up to 64 GB RAM / 32 vCPU on one VM, so "one large VM or five small ones" now has a tier ceiling per size.
 
 ## Price history
 
@@ -99,6 +100,7 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 - 2026-10-07 - Added the manaflow-ai/cmux star history chart to the Status section.
 
 - 2026-10-11 - Recorded yearly billing returning: Pro $480/yr ($40/mo effective) and Max $1,920/yr ($160/mo effective), monthly rates unchanged.
+- 2026-10-12 - Recorded the plan table's per-VM size ceilings inside the shared pools (Pro largest VM 16 GB/8 vCPU, Max up to 64 GB/32 vCPU) observed on the pricing page, dollar tiers unchanged.
 
 ## See also
 

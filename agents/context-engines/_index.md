@@ -14,6 +14,7 @@ The tools that decide what enters the context window: semantic engines, code gra
 - [code-review-graph](code-review-graph/index.md) - the local Tree-sitter code graph served over MCP as review context, blast radius and risk scores with the category's most self-critical benchmarks, 32k stars in eight months and a review-first name on a context engine.
 - [CodeAlive](codealive/index.md) - the hosted context-engine API serving a code graph and hybrid retrieval to any MCP agent on metered per-action pricing, from a small London company with no independent coverage yet.
 - [Context7](context7/index.md) - Upstash's hosted docs-injection service pulling version-specific library documentation into the prompt at question time over MCP or a CLI skill, the category's only engine that indexes the world's libraries instead of your repo.
+- [Entroly](entroly/index.md) - the Apache-2.0 receipt-backed compression layer that selects evidence within a token budget, records every omission, and recovers the exact original bytes on demand, the category's audit-first bet at 475 stars.
 - [Graft](graft/index.md) - Trail's MIT context layer feeding agents a code graph instead of grep, 9.8k stars in fourteen weeks with every benchmark still the vendor's own.
 - [Graphify](graphify/index.md) - the local AST knowledge graph exposed as a `/graphify` skill and MCP server, structure over similarity, no vectors.
 - [Headroom](headroom/index.md) - the Apache-2.0 compression layer rewriting tool outputs, logs, files, and RAG chunks before they reach the LLM, reversible through a retrieve tool, 75k stars in nine months.
@@ -51,3 +52,4 @@ Its members are compared on shared rows in the [Context Engines Feature Matrix](
 - 2026-10-10 - Added WrenAI.
 - 2026-10-11 - Added code-review-graph.
 - 2026-10-11 - Added Vanna.
+- 2026-10-12 - Added Entroly.

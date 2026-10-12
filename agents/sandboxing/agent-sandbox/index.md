@@ -23,7 +23,7 @@ Apache-2.0, developed under Kubernetes SIG Apps with Google Cloud backing, built
 
 ## Status
 
-Young but institutionally backed: 4,218 stars, 549 forks, 185 open issues and PRs as of 2026-10-11, created 2025-08-12, pushed 2026-10-09.
+Young but institutionally backed: 4,226 stars, 550 forks, 190 open issues and PRs as of 2026-10-12, created 2025-08-12, pushed 2026-10-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kubernetes-sigs/agent-sandbox&type=date&theme=dark&legend=top-left" />

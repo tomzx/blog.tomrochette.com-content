@@ -27,7 +27,7 @@ It is maintained by the gastownhall org, the same lineage as Steve Yegge's Gas T
 1,362 stars, 445 forks, 1,492 open issues, created 2026-02-22, pushed 2026-10-12, as of 2026-10-12 (GitHub API).
 Yegge announced the direction in the May 2026 "Welcome to Gas City" essay, and the 33-point Hacker News thread on it (2026-05-04) is the project's main independent record.
 Development continued after Gas Town itself was shut down in September 2026, and the migration doc maps every Town role, mechanism, and command onto City primitives.
-The release list is toolchain and edge tags rather than a semver application line, so there is no stable-release marker yet.
+The release list corrected this run: stable semver releases do exist, v1.4.2 (2026-09-18) and v1.5.0 (2026-10-05), which its own notes call "the new stable release and supersedes v1.4.2", tagged from `release/v1.5.0`, installable with `brew install gascity`, and requiring Beads (`bd`) v1.3.1, which now owns the Dolt process of every new city; the rolling `edge` and Bazel toolchain tags sit beside that line, so the earlier "no stable-release marker" read was wrong (GitHub releases API, as of 2026-10-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gastownhall/gascity&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ The release list is toolchain and edge tags rather than a semver application lin
 ## Cautions
 
 - **The lineage carries its own cautionary record**: Gas Town was shut down nine months in, with its author saying he never successfully built anything with it, and Gas City is the same org's second attempt at the same problem.
-- 1,492 open issues against 445 forks is the highest fork-to-star ratio in this batch and a lot of open work for an SDK with no stable release line.
+- 1,492 open issues against 445 forks is the highest fork-to-star ratio in this batch and a lot of open work for a stable-line SDK that is three weeks past its first stable release.
 - The v2 formula model is young and the docs say host-enabled defaults are still settling, so expect churn in the core abstraction.
 - The docs position Gas City as "the platform for building software factories", which makes it adjacent to the software-factory products tracked separately in this section; the SDK-versus-product difference is the reason it profiles here.
 
@@ -62,23 +62,25 @@ The costs are your agents' model tokens and whatever machines run the city.
 
 ## Bottom line
 
-**Recommended for engineers who want Gas Town's coordination as primitives, can carry a pre-stable SDK, and will read the migration doc before porting any Town habit.**
-Not for teams that need a maintained product with a stable release line today, or anyone unwilling to inherit a lineage whose first product its own author abandoned.
+**Recommended for engineers who want Gas Town's coordination as primitives, accept a stable line that is three weeks old, and will read the migration doc before porting any Town habit.**
+Not for teams that need a release line with months of seasoning, or anyone unwilling to inherit a lineage whose first product its own author abandoned.
 
 ## Changes
 
 - 2026-10-12 - Created from the 2026-10-12 candidate scan, with the lineage risk and the fork-and-issue load recorded as the critical angle.
+- 2026-10-12 - Corrected the release-record claim: stable semver releases exist (v1.4.2 on September 18, v1.5.0 on October 5, self-described as the new stable release), so the earlier no-stable-release read was wrong.
 
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins
 - [Gas Town](../gastown/index.md) - the shut-down predecessor whose mechanisms this extracts
 - [Bernstein](../bernstein/index.md) - the governance-first counterpoint in the same workflow-runner seat
-- [Archon](../archon/index.md) - the product-shaped workflow engine over the coding-agent SDKs
+- [Archon](../archon/index.md) - the workflow-as-committed-repo-files engine over the coding-agent SDKs
 
 ## References
 
 - https://github.com/gastownhall/gascity - repository, 1,362 stars, forks, issues, dates, MIT license, and the provider list, as of 2026-10-12 (fetched through the GitHub API)
+- https://github.com/gastownhall/gascity/releases - the v1.5.0 stable release notes (2026-10-05) and the v1.4.2 line, grounding the corrected stable-release record (fetched through the GitHub API)
 - https://github.com/gastownhall/gascity/blob/main/README.md - the extraction framing, city.toml model, dependency list, and the coming-from-Gas-Town pointer
 - https://docs.gascityhall.com - the six primitives (Agent, Bead, Formula, Rig, Pack, Event) and the software-factory positioning
 - https://docs.gascity.com/getting-started/coming-from-gastown - the role, mechanism, and command mapping tables grounding the extraction claims

@@ -25,7 +25,7 @@ It is made by the Nano Collective, a self-described home for privacy-first, loca
 ## Status
 
 **Active and healthy for its size, with a footprint that is easy to miss.**
-The repository shows 2,505 stars and 353 forks, was created July 30, 2025, and was pushed the day of verification (GitHub API, as of 2026-10-11).
+The repository shows 2,508 stars and 355 forks, was created July 30, 2025, and was pushed the day of verification (GitHub API, as of 2026-10-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nano-Collective/nanocoder&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ The repository shows 2,505 stars and 353 forks, was created July 30, 2025, and w
 </picture>
 
 Releases run monthly on the v1.x line: v1.29.0 (July 26, 2026), v1.30.0 (August 26), and v1.31.0 (September 26, which added Anthropic prompt caching, auto titles, retry caps, and `.nanocoderignore`).
-The npm package did 9,415 downloads in the last month (the API window covering September 10 to October 9, as of 2026-10-11).
+The npm package did 9,647 downloads in the last month (the API window covering September 11 to October 10, as of 2026-10-12).
 The Hacker News footprint is near zero: a 1-point Show HN in August 2025 and a 1-point thread for the VS Code sidebar in July 2026, so its growth is word-of-mouth and search, not launch-thread gravity.
 
 ## Strengths
@@ -81,7 +81,7 @@ My disagreeable claim: governance is currently Nanocoder's only hard moat, and a
 
 ## References
 
-- https://github.com/Nano-Collective/nanocoder - repository scale (2,505 stars, 353 forks), created 2025-07-30, pushed 2026-10-11, no LICENSE file detected (verified via the GitHub API, as of 2026-10-11)
+- https://github.com/Nano-Collective/nanocoder - repository scale (2,508 stars, 355 forks), created 2025-07-30, pushed 2026-10-12, no LICENSE file detected (verified via the GitHub API, as of 2026-10-12)
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/README.md - positioning, install paths, CLI flags, screen modes, and the review command
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/index.md - AGENTS.md via /init, the skills model, lifecycle hooks, and MCP servers
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/scheduler.md - the standalone scheduler's removal in favor of cron and file.changed skill subscriptions through the per-project daemon
@@ -89,7 +89,7 @@ My disagreeable claim: governance is currently Nanocoder's only hard moat, and a
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/vscode-extension.md - the native VS Code sidebar extension over ACP
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/configuration/providers/ollama.md - the local-engine provider documentation pattern (seven local engines listed in the providers index)
 - https://registry.npmjs.org/@nanocollective%2Fnanocoder - latest build 1.31.0 published 2026-09-26 and the MIT license declaration (verified via the registry API)
-- https://api.npmjs.org/downloads/point/last-month/@nanocollective/nanocoder - 9,415 downloads, window September 10 to October 9, as of 2026-10-11
+- https://api.npmjs.org/downloads/point/last-month/@nanocollective/nanocoder - 9,647 downloads, window September 11 to October 10, as of 2026-10-12
 - https://github.com/Nano-Collective/nanocoder/releases - v1.29.0, v1.30.0, and v1.31.0 with publication dates (verified via the GitHub API)
 - https://nanocollective.org - the collective's principles, sponsor list, project family, and contributor counts
 - https://hn.algolia.com/api/v1/search?query=nanocoder&tags=story - the near-zero HN footprint (1-point threads of 2025-08-08 and 2026-07-31), cited as the adoption signal

@@ -25,7 +25,7 @@ It talks to 15+ providers (Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure,
 ## Status
 
 **Active and foundation-governed.**
-The repository (moved from Block's org to `aaif-goose/goose`) shows about 55.1k stars as of 2026-10-11 and was last pushed within a day of verification.
+The repository (moved from Block's org to `aaif-goose/goose`) shows about 55.2k stars as of 2026-10-12 and was last pushed within a day of verification.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aaif-goose/goose&type=date&theme=dark&legend=top-left" />

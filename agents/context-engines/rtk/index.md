@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 82,908 stars, 5,260 forks, and 1,512 open issues and pull requests combined as of 2026-10-11, created 2026-01-22, pushed 2026-10-09.
+Young and hot: 83,002 stars, 5,270 forks, and 1,500 open issues and pull requests combined as of 2026-10-12, created 2026-01-22, pushed 2026-10-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Young and hot: 82,908 stars, 5,260 forks, and 1,512 open issues and pull request
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&legend=top-left" />
 </picture>
 
-v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02, concluding that candidate train; a 0.51.1 candidate train is already running (rc.522 by 2026-10-11), and the project is pre-1.0.
+v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02, concluding that candidate train; the short 0.51.1 train concluded at rc.523 and a 0.52.0 candidate train is already running (rc.525 by 2026-10-12), and the project is pre-1.0.
 The site claims 18,000+ developers, a marketing figure, and the Show HN thread shows users posting their own measured savings.
 
 ## Strengths
@@ -48,7 +48,7 @@ The site claims 18,000+ developers, a marketing figure, and the Show HN thread s
 - Lossy output is the product: an agent reading a condensed diff or collapsed test list can misread state, and the changelog shows a steady stream of filter-correctness bugs.
 - The hook only rewrites Bash tool calls, so built-in Read/Grep/Glob tools bypass filtering entirely, and unmatched commands pass through at zero savings; one user's own log showed 39 percent on their busiest day.
 - All savings numbers trace to the project or its users; no independent benchmark exists as of 2026-09-02.
-- A crates.io name collision is documented in its own README, and the combined open issues and PRs total 1,512 as of 2026-10-11.
+- A crates.io name collision is documented in its own README, and the combined open issues and PRs total 1,500 as of 2026-10-12.
 
 ## Pricing
 
@@ -78,6 +78,7 @@ Not for sessions driven by built-in Read/Grep tools, or anyone whose agents cann
 - 2026-09-27 - Refreshed the volatile numbers (81,785 stars, 5,185 forks, 1,543 open issues and PRs); stable remains v0.50.0 with the 0.51.0 candidate train at rc.468.
 - 2026-10-03 - Recorded v0.51.0 going stable (2026-10-02), the candidate train concluded, and refreshed the volatile numbers (82,266 stars, 5,223 forks, 1,579 open issues and PRs, pushed 2026-10-03); a 0.51.1 candidate train is already at rc.497.
 - 2026-10-07 - Added the rtk-ai/rtk star history chart to the Status section.
+- 2026-10-12 - Recorded the 0.51.1 candidate train concluding at rc.523 and the 0.52.0 train starting (rc.525), and refreshed the volatile numbers (83,002 stars, 1,500 open issues and PRs, pushed 2026-10-12); stable remains v0.51.0.
 
 ## See also
 

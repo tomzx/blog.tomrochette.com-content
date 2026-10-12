@@ -1,7 +1,7 @@
 ---
 title: Kapso
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, optimization, program-synthesis, self-improving]
 readability: 3
@@ -24,7 +24,8 @@ Leeroopedia, the project's hosted ML knowledge wiki, connects as an MCP server d
 
 ## Status
 
-Active and young: 121 stars, 14 forks, created 2025-12-07, last push 2026-10-10, with releases v0.6.0 through v0.6.3 landing between October 2 and October 6, 2026, as of 2026-10-11.
+Active and accelerating: 122 stars, 14 forks, created 2025-12-07, last pushed 2026-10-11, with six releases on October 11 alone taking the train from v0.6.3 to v0.7.5, as of 2026-10-12.
+The v0.7.0 release added cost-aware candidate selection, an estimator prices each finalized candidate before it runs, refusals and measured costs are recorded as campaign events, and the campaign stops when the next estimate would exhaust its budget, plus a `vertex_claude_code` agent that drives Claude Code on Vertex AI open-weight models; the checkpoint schema moved to version 3, so campaigns started before 0.7.0 cannot resume.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Leeroo-AI/kapso&type=date&theme=dark&legend=top-left" />
@@ -64,12 +65,13 @@ Costs are the coding-agent subscriptions the CLIs require (Claude Code, Codex), 
 ## Bottom line
 
 **Recommended for ML and data teams that want benchmark-scored optimization campaigns with a persistent, evidence-priced memory, and for researchers studying how loops learn across runs.**
-Not for anyone needing independently audited headline numbers or a large user community, both absent as of 2026-10-11.
+Not for anyone needing independently audited headline numbers or a large user community, both absent as of 2026-10-12.
 
 ## Changes
 
 - 2026-10-11 - Created.
 - 2026-10-11 - Added the star history chart.
+- 2026-10-12 - Recorded the October 11 release burst (v0.7.0 through v0.7.5): cost-aware candidate selection with budget caps and measured-cost ranking, the vertex_claude_code agent on Vertex AI open-weight models, and the schema-3 checkpoint break.
 
 ## See also
 
@@ -83,7 +85,7 @@ Not for anyone needing independently audited headline numbers or a large user co
 - https://github.com/Leeroo-AI/kapso - repository, MIT license, benchmark claims, and release train (as of 2026-10-11)
 - https://raw.githubusercontent.com/Leeroo-AI/kapso/main/README.md - the four pillars, CLI requirements, PyPI collision warning, and the IOAI and RelBench claims (fetched 200, 2026-10-11)
 - https://arxiv.org/abs/2601.21526 - the technical report: git-native experimentation engine, knowledge system, and cognitive memory layer (fetched 200, 2026-10-11)
-- https://pypi.org/pypi/leeroo-kapso/json - package version 0.6.3, MIT license, and Python requirement (fetched 200, 2026-10-11)
+- https://pypi.org/pypi/leeroo-kapso/json - package version 0.7.5, MIT license, and Python requirement (fetched 200, 2026-10-12)
 - https://ioai-official.org/what-happens-when-autonomous-ai-takes-on-the-same-tasks-as-the-worlds-top-young-ai-talents/ - IOAI's own account of the inaugural AI Model Track, September 29, 2026 (fetched 200, 2026-10-11)
 - https://star-project.stanford.edu/relbench/leaderboard/ - the official RelBench leaderboard and its self-reported-results disclaimer (fetched 200, 2026-10-11)
 - https://raw.githubusercontent.com/Leeroo-AI/kapso/main/benchmarks/ioai2026/README.md - the per-task IOAI numbers behind the 536.07 total and Grand Master Trophy (fetched 200, 2026-10-11)

@@ -19,7 +19,7 @@ Editors and harnesses live in their own categories; this is where the token bill
 - [Experiential](experiential/index.md) - a YC-backed Apache-2.0 gateway at zero markup that mines agent traces to train routers and, on enterprise, a model you own.
 - [GLM Coding Plan](glm-coding-plan/index.md) - Z.AI's flat monthly quota for the GLM line, from $18, restructured twice since launch.
 - [Google AI plans](google-ai-plans/index.md) - the Google Plus/Pro/Ultra ladder carrying Antigravity and Gemini CLI, with credits over rate limits.
-- [Kimi Code](kimi-code/index.md) - Moonshot's membership ladder for coding, $19 to $199 monthly with Code from the second tier.
+- [Kimi Code](kimi-code/index.md) - Moonshot's membership ladder for coding, $19 to $199 monthly on the Plus/Pro/Max/Ultra tiers.
 - [LiteLLM](litellm/index.md) - a self-hosted MIT gateway unifying 100+ provider APIs behind one OpenAI-compatible endpoint, with routing, budgets, and spend tracking.
 - [llamafile](llamafile/index.md) - Mozilla's single-file LLM distribution folding llama.cpp and Cosmopolitan Libc into one cross-platform executable, the family's distribute-instead-of-serve answer, 26.2k stars.
 - [LLM Gateway](llm-gateway/index.md) - an open-source gateway charging 5% on credit top-ups with free BYOK, plus DevPass flat-rate coding plans from $29.

@@ -36,7 +36,7 @@ Surfaces include the npm library, a CLI, an HTTP API on port 7331, an MCP server
 
 The Show HN thread (December 2025, as OpenMemory) drew 48 points and 16 comments, and the README lists 36 contributors.
 Its benchmark harness publishes manifests and fails closed on incomplete datasets or embedding fallback, covering LongMemEval, LoCoMo, and BEAM, though the published results are still the project's own runs.
-Two verification gaps carried into this run: the PyPI distribution the README instructs you to install (`longmemory-sdk`) returned 404 again on 2026-10-11 (as on 2026-10-08, 2026-10-09, and 2026-10-10), and the repository has not pushed since September 20.
+Two verification gaps carried into this run: the PyPI distribution the README instructs you to install (`longmemory-sdk`) returned 404 again on 2026-10-12 (as on 2026-10-08, 2026-10-09, 2026-10-10, and 2026-10-11), and the repository has not pushed since September 20.
 
 ## Strengths
 
@@ -84,5 +84,5 @@ Not for anyone needing a hosted tier, a proven-at-scale engine, or a Python SDK 
 - https://raw.githubusercontent.com/CaviraOSS/LongMemory/main/README.md - the Hydrograph memory model, recall modes, governance scopes, surfaces, and migration paths
 - https://raw.githubusercontent.com/CaviraOSS/LongMemory/main/LICENSE - the Apache-2.0 license text
 - https://registry.npmjs.org/longmemory - the official npm distribution at 1.3.3
-- https://pypi.org/simple/longmemory-sdk/ - the PyPI distribution returning 404 at fetch time (2026-10-08, 2026-10-09, 2026-10-10, and again 2026-10-11), the verification gap
+- https://pypi.org/simple/longmemory-sdk/ - the PyPI distribution returning 404 at fetch time (2026-10-08 through 2026-10-12, checked daily), the verification gap
 - https://news.ycombinator.com/item?id=46262294 - the Show HN thread (48 points, 16 comments, 2025-12-14), the launch record

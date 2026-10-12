@@ -24,7 +24,7 @@ The project carries a Y Combinator badge and has moved organizations more than o
 
 ## Status
 
-Large by this category's standards and still shipping weekly: 8,643 stars, 95 open issues and PRs, pushed 2026-10-11 as of 2026-10-11, created 2024-10-03.
+Large by this category's standards and still shipping weekly: 8,654 stars, 96 open issues and PRs, pushed 2026-10-12 as of 2026-10-12, created 2024-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&theme=dark&legend=top-left" />

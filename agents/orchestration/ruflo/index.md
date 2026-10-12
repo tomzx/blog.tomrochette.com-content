@@ -1,7 +1,7 @@
 ---
 title: Ruflo
 created: 2026-10-06
-updated: 2026-10-10
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, meta-harness, claude-code, codex, swarms, agent-memory, federation]
 readability: 3
@@ -23,8 +23,8 @@ It ships under MIT, installs from npm, and drives the Claude Code and Codex acco
 
 ## Status
 
-Active and shipping almost daily: v3.56.5 released 2026-10-11, two point releases after v3.56.3 (October 9), which followed v3.56.0 (October 8), v3.55.0, and v3.54.0 (both October 7, the latter a version bump plus catalog entry, with the console, ruflo-protector, and mods plugins moving through the git marketplace), with 40 contributors and an npm release feed that still carries claude-flow-named packages.
-74,309 stars as of 2026-10-11, with the GitHub repository now canonical at ruvnet/ruflo (the old ruvnet/claude-flow path redirects, GitHub API).
+Active and shipping almost daily: four releases landed on 2026-10-11 alone (v3.56.4 plugin-trust and helper security hardening, v3.56.5 a graph-header SQLite-lock fix, v3.56.6 a Windows hook launch fix plus a SessionStart risk scanner, and v3.56.7 TUI, MCP resources, auto-memory, and purge fixes with a safer `init --dual`), a point-release train after v3.56.3 (October 9), v3.56.0 (October 8), v3.55.0, and v3.54.0 (both October 7, the latter a version bump plus catalog entry, with the console, ruflo-protector, and mods plugins moving through the git marketplace), with 40 contributors and an npm release feed that still carries claude-flow-named packages.
+74,380 stars as of 2026-10-12, with the GitHub repository now canonical at ruvnet/ruflo (the old ruvnet/claude-flow path redirects, GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ruvnet/ruflo&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for teams that need an independently verified adoption history, a stable API
 - 2026-10-08 - Recorded v3.55.0 (October 7, hours after v3.54.0) and 74.1k stars as of 2026-10-08.
 - 2026-10-09 - Recorded v3.56.0 (October 8) and v3.56.1 (October 9) and refreshed the star count to 74,158 as of 2026-10-09.
 - 2026-10-10 - Recorded v3.56.3 (October 9) and refreshed the star count to 74,223 as of 2026-10-10.
+- 2026-10-12 - Recorded the four 2026-10-11 releases (v3.56.4 through v3.56.7, security hardening through TUI and MCP fixes) and refreshed the star count to 74,380.
 
 ## See also
 

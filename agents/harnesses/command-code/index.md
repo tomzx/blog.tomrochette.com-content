@@ -25,8 +25,8 @@ The company raised a $5 million seed led by Tom Preston-Werner, with Amjad Masad
 ## Status
 
 **Active and fast-growing in distribution, with an evidence base that is mostly the vendor's own.**
-The npm package's latest build is 1.79.2 (published October 8, 2026, after four builds on October 7), the site's changelog counts 431 releases (401 CLI), and the package did 232,466 downloads in the last month (the API window covering September 10 to October 9, as of 2026-10-11).
-The `CommandCodeAI/command-code` repository has 4,114 stars as of 2026-10-11 (GitHub API) but hosts issues only: no source, no license, the client is closed.
+The npm package's latest build is 1.79.2 (published October 8, 2026, after four builds on October 7), the site's changelog counts 431 releases (401 CLI), and the package did 223,797 downloads in the last month (the API window covering September 11 to October 10, as of 2026-10-12).
+The `CommandCodeAI/command-code` repository has 4,119 stars as of 2026-10-12 (GitHub API) but hosts issues only: no source, no license, the client is closed.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=CommandCodeAI/command-code&type=date&theme=dark&legend=top-left" />
@@ -99,8 +99,8 @@ Not for open-client mandates, and not for anyone who needs independent evaluatio
 - https://commandcode.ai/pricing - plan ladder, credits, Provider API plan, and Teams pricing, as of 2026-10-11 (re-verified unchanged)
 - https://commandcode.ai/changelog - the release train (431 releases, 401 CLI) and the 1.79.2 entries naming Claude Haiku 5.5 on the GOAT plan and Glyph Cluster as a free model, as of 2026-10-09
 - https://registry.npmjs.org/command-code - latest build 1.79.2 published 2026-10-08, package created 2025-08-07 (verified via the registry API)
-- https://api.npmjs.org/downloads/point/last-month/command-code - 232,466 downloads, window September 10 to October 9, as of 2026-10-11
-- https://github.com/CommandCodeAI/command-code - issues-only repository, 4,114 stars, no source or license, as of 2026-10-11 (verified via the GitHub API)
+- https://api.npmjs.org/downloads/point/last-month/command-code - 223,797 downloads, window September 11 to October 10, as of 2026-10-12
+- https://github.com/CommandCodeAI/command-code - issues-only repository, 4,119 stars, no source or license, as of 2026-10-12 (verified via the GitHub API)
 - https://techstackups.com/comparisons/coding-agent-harness-comparison-2026/ - the critical source: closed-source classification, funding details, ex-Langbase history, and the 48-hour launch-issue record (fetched 2026-10-05)
 - https://hn.algolia.com/api/v1/items/48031887 - the May 6, 2026 Show HN, 3 points (verified via the Algolia API)
 - https://hn.algolia.com/api/v1/items/49188656 - the August 5, 2026 GOAT-plan Show HN, 6 points

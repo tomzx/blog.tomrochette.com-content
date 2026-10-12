@@ -17,7 +17,7 @@ OpenHands is the open-source (MIT) AI software development platform from All Han
 ## What it is
 
 The project paper describes an open platform for AI software developers as generalist agents, built around conversations that can edit files, run commands, and drive a browser inside sandboxes.
-It began as OpenDevin in March 2024 and was renamed OpenHands mid-development; the repository now lives at the `OpenHands` organization with about 90.5k stars and 12.0k forks under MIT as of 2026-10-11.
+The project began as OpenDevin in March 2024 and was renamed OpenHands mid-development; the repository now lives at the `OpenHands` organization with about 90.7k stars and 12.0k forks under MIT as of 2026-10-12.
 Today's component map per the docs is Agent Canvas (the open-source browser client), an Agent Server backend plus Software Agent SDK, OpenHands Cloud, Enterprise, and a Sandbox Server.
 **The docs place the old Local GUI and CLI in their Legacy section, the Local GUI explicitly deprecated**, and one unusual flex stands out: Agent Canvas can host Claude Code, Codex, or Gemini CLI as ACP agents instead of its own loop.
 

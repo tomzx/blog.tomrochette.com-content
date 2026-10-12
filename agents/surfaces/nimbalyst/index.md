@@ -25,7 +25,7 @@ It is built by a four-person team and continues the lineage of Crystal, the orch
 ## Status
 
 **Active on a fast train, with a small independent footprint.**
-The repository was created 2025-10-30 and shows 1,866 stars and 297 forks as of 2026-10-11, with commits and the v0.81.0 release landing the same day (v0.80.6 on October 9, v0.80.5 and v0.80.4 on October 8).
+The repository was created 2025-10-30 and shows 1,871 stars and 299 forks as of 2026-10-12, with commits and the v0.81.0 release landing the same day (v0.80.6 on October 9, v0.80.5 and v0.80.4 on October 8).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nimbalyst/nimbalyst&type=date&theme=dark&legend=top-left" />
@@ -79,8 +79,8 @@ Not for terminal-first developers, and not for teams that need an independently 
 
 ## References
 
-- https://github.com/nimbalyst/nimbalyst - repository, README (visual editors, per-block diffs, session kanban with worktree isolation, task tracking, MCP widgets, extension SDK, iOS companion), MIT license, 1,866 stars and 297 forks as of 2026-10-11
-- https://api.github.com/repos/nimbalyst/nimbalyst - creation date 2025-10-30, language TypeScript, push date 2026-10-11, stars and forks as of 2026-10-11
+- https://github.com/nimbalyst/nimbalyst - repository, README (visual editors, per-block diffs, session kanban with worktree isolation, task tracking, MCP widgets, extension SDK, iOS companion), MIT license, 1,871 stars and 299 forks as of 2026-10-12
+- https://api.github.com/repos/nimbalyst/nimbalyst - creation date 2025-10-30, language TypeScript, push date 2026-10-11, stars and forks as of 2026-10-12
 - https://nimbalyst.com/ - the product site: the editor list, the extension-system description (agent-registered providers), Teams free during beta, and the platform list
 - https://github.com/nimbalyst/nimbalyst/releases - v0.81.0 (2026-10-11) as the latest release, after v0.80.6 (October 9) and the v0.80.4/v0.80.5 pair (October 8)
 - https://hn.algolia.com/api/v1/search?query=nimbalyst&tags=story - the six self-submitted threads (best: 29 points December 2025; the 2026-04-30 open-source launch at 8 points), the empty-footprint evidence, fetched 2026-10-11

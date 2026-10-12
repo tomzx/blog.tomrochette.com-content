@@ -1,7 +1,7 @@
 ---
 title: Anthropic Claude mathematical research
 created: 2026-09-13
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, anthropic, mathematics, formal-verification]
 readability: 3
@@ -38,6 +38,9 @@ The artifacts are public and machine-checkable: the formal-math repository (297 
 
 Community footprint is strong, with the zeta result drawing a 282-point Hacker News discussion.
 A three-person experiment formalized Vinogradov's three primes theorem in three days on consumer Claude Max plans, and the October 1 Claude-shaped science post documents the loop's most copyable instance yet: 36 manuscripts in 18 fields in three months, driven through Claude Code sessions on cloud VMs and an open-source harness (BootLoops), with human collaborators supplying taste and expert review.
+The widening continued on October 8 with the first complete UV map of the sky, built by Johns Hopkins astrophysicist and Anthropic researcher Brice Ménard with Claude Science: merged GALEX-era datasets, cross-wavelength inpainting for the never-observed third of the sky, and over 100 million Gaia-inferred stars.
+The loop has also escaped the vendor: Nobel laureate Giorgio Parisi and Francesco Zamponi proved the decade-old jamming identity a + b = 1 with Claude and published the full transcript alongside their paper (October 10), and Tom Verhoeff's proof of Lehmer's permutation conjecture (arXiv 2610.01240, submitted October 1) reports Claude Opus 5.5 autonomously finding two core concepts that cut a 150-page human-AI proof under 30 pages.
+Independent human follow-up has started too: Youness Lamzouri re-derived the 67.2 percent zeta bound with a simpler argument drawn from the same prior work, added a corollary (at most 11 percent of zeros neither simple nor on the line), and James Maynard held up the episode as the positive path for AI-assisted mathematics.
 
 ## Strengths
 
@@ -52,7 +55,7 @@ A three-person experiment formalized Vinogradov's three primes theorem in three 
 - The results are vendor-validated first and community-validated slowly, and the zeta bound's external review was two experts on short notice.
 - A counterexample-style disproof can be a weak result: mathematician Andrew Blumberg called the Jacobian counterexample unilluminating even while granting the achievement.
 - The encouraging-prompt detail (a non-mathematician telling Claude to keep going) is charming but also a reminder that the model's own calibration failed here.
-- Everything comes from the vendor's own write-ups; independent reproduction awaits the released models.
+- The program's own results still come from the vendor's write-ups, though independent follow-up has begun: Lamzouri re-derived and simplified the zeta bound, and Parisi and Zamponi published their full transcript.
 - The independent reads cut against the breakthrough framing: von Hippel's own takeaway is that Claude solved his challenge with known methods on more compute, and Song He's group matched most of the nine-loop result days later with GPT-6 assistance, so the low-hanging-fruit reading beats the new-capability reading.
 - The Claude-shaped science post is also a failure-mode catalog: the author documents Claude declaring victory with an unproven lemma, having no sense of time, and needing every result looked at by a human.
 
@@ -78,6 +81,7 @@ Not for anyone expecting to rerun the exact loops, since the models are unreleas
 - 2026-10-05 - Recorded the September-to-October widening: the nine-loop N=4 super Yang-Mills amplitude (September 25, Fable 5.1 in Claude Science, Dixon-validated), the life-sciences laboratory and its ART enzyme discovery (September 23), and the 36-manuscript BootLoops campaign (October 1); formal-math stars refreshed to 253.
 - 2026-10-07 - Added the anthropics/formal-math star history chart to the Status section.
 - 2026-10-11 - Recorded the formal-math repository's October 6 addition of a 3SUM/APSP algorithms-paper formalization and refreshed the star count to 297.
+- 2026-10-12 - Recorded the October 8 UV sky map, the first third-party Claude proofs (Parisi-Zamponi's jamming identity with full transcript, Verhoeff's Lehmer conjecture), and the independent zeta follow-up (Lamzouri's simpler re-derivation).
 
 ## See also
 
@@ -98,3 +102,7 @@ Not for anyone expecting to rerun the exact loops, since the models are unreleas
 - https://www.anthropic.com/research/yes-claude-can-do-nine-loops - the nine-loop challenge and solve: budgets, Dixon's validation, and the concurrent GPT-6-assisted human result (fetched 200, 2026-10-05)
 - https://www.anthropic.com/research/claude-shaped-science - the BootLoops campaign: 36 manuscripts in 18 fields, the coordination setup, and the failure-mode catalog (fetched 200, 2026-10-05)
 - https://www.anthropic.com/news/claude-discovers-novel-enzyme-system - the life-sciences lab and the ART discovery, about 950 agents over 21 hours (fetched 200, 2026-10-05)
+- https://www.anthropic.com/research/the-missing-map-of-the-sky - the October 8 UV map: GALEX-era merge, cross-wavelength inpainting, and the Gaia star layer (fetched 200, 2026-10-12)
+- https://www.livescience.com/technology/artificial-intelligence/this-is-what-happened-with-claude-and-me-ais-failed-attempt-to-crack-the-riemann-hypothesis-led-mathematician-to-a-breakthrough - Lamzouri's re-derivation of the zeta bound and Maynard's assessment (fetched 200, 2026-10-12)
+- https://hypothesiswire.com/articles/nobel-laureate-and-colleague-crack-10-year-jamming-proof-with-claude-9074d2a3 - the Parisi-Zamponi jamming identity proof and the published transcript (fetched 200, 2026-10-12)
+- https://arxiv.org/abs/2610.01240 - Verhoeff's proof of Lehmer's permutation conjecture (fetched 200, 2026-10-12)

@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-10-11
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -33,6 +33,7 @@ The repository shows about 27.6k stars under MIT as of 2026-10-11, most recently
 </picture>
 
 Anaconda announced the acquisition on July 15, 2026 and already lists Kilo among its products; kilocode.ai redirects to kilo.ai, where the vendor positions it as an all-in-one agentic engineering platform.
+On October 6, 2026 Anaconda announced new capabilities across its AI Dev Factory with Kilo as the primary AI workspace: agent swarms reaching VS Code through Kilo, a Kilo Desktop app for local AI development (500+ models, local model execution, live notebook sessions), Sign in with ChatGPT across every Kilo surface, and 13,000+ newly source-built packages ([press release](https://www.anaconda.com/press/agent-swarms-red-team-agents-ai-dev-factory)).
 
 ## Strengths
 
@@ -89,6 +90,7 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 - 2026-10-07 - Added the Kilo-Org/kilocode star history chart to the Status section.
 - 2026-10-07 - Recorded the component-tag train moving to a v7.8.7 prerelease (published October 7), with v7.8.3 still the latest stable, and refreshed repository scale.
 - 2026-10-08 - Recorded the v7.8.8 stable release (published October 7), now the newest stable after the v7.8.7 prerelease, with the jetbrains/v7.1.9 component on its own train, and refreshed repository scale.
+- 2026-10-12 - Recorded Anaconda's October 6 AI Dev Factory announcement, which names Kilo the primary AI workspace, launches Kilo Desktop for local development, brings agent swarms to VS Code through Kilo, and adds Sign in with ChatGPT across Kilo surfaces; pricing re-verified unchanged against the live page.
 
 ## See also
 
@@ -100,7 +102,8 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 ## References
 
 - https://github.com/Kilo-Org/kilocode - repository scale, license, description as of 2026-10-11
-- https://kilo.ai/pricing - tiers, Kilo Pass, credit model, and the Anaconda acquisition banner, as of 2026-10-11 (re-verified unchanged)
+- https://kilo.ai/pricing - tiers, Kilo Pass, credit model, and the Anaconda acquisition banner, as of 2026-10-12 (re-verified unchanged)
+- https://www.anaconda.com/press/agent-swarms-red-team-agents-ai-dev-factory - the October 6, 2026 AI Dev Factory announcement naming Kilo the primary AI workspace and launching Kilo Desktop
 - https://www.anaconda.com/blog/anaconda-acquires-kilo-code - the acquisition announcement primary source
 - https://news.ycombinator.com/item?id=43483802 - the launch-era community record (98 points)
 - https://news.ycombinator.com/item?id=43951329 - the feature-merge origin naming Cline and Roo

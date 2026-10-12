@@ -1,7 +1,7 @@
 ---
 title: Matt Pocock
 created: 2026-09-24
-updated: 2026-10-06
+updated: 2026-10-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, education, ai-coding]
 readability: 3
@@ -24,7 +24,7 @@ The skills are deliberately small, composable, and forkable: grill-me, grill-wit
 ## Status
 
 Active and at the center of the agent-skills wave.
-The AI Hero discovery index lists well over a hundred public items, including roughly two dozen documented skills with per-skill pages and a changelog, and the skills repo shows 503 commits as of 2026-10-06.
+The AI Hero discovery index lists well over a hundred public items, including roughly two dozen documented skills with per-skill pages and a changelog, and the skills repo shows about 545 commits and roughly 287,000 stars as of 2026-10-12.
 The repo merged its release/v1.3 branch on 2026-09-29, capping the September 24 batch that graduated implement-spec, pr, and retro to the engineering set and renamed the CONTEXT.md convention to GLOSSARY.md, and shipped that work as tagged releases v1.3.0 and v1.3.1 on 2026-10-04 (per the repo's releases), with the site's own skills changelog catching up on 2026-10-06 to list v1.3 as its newest entry.
 His /grill-me skill went viral by his own account (his post on it was last updated 2026-03-23), and an Ask HN thread from 2026-09-08 names it as the one skill a respondent "found gets regular mileage".
 Scale is real: in a May 2026 video he said his AI-coding cohort starting June 1 had around 4,000 to 4,500 students, his most subscribed course ever.
@@ -70,6 +70,7 @@ Not for anyone seeking model research, benchmarks, or vendor-neutral evaluation 
 - 2026-10-04 - Window audit: added the skills repo's release/v1.3 merge (2026-09-29) and the September 24 graduation of implement-spec, pr, and retro with the CONTEXT.md-to-GLOSSARY.md rename; commit count refreshed to 493 and skills stars to 275.6k as of 2026-10-04.
 - 2026-10-05 - Window check: the v1.3 work shipped as tagged releases v1.3.0 and v1.3.1 on 2026-10-04 while the site's skills changelog still lists v1.2 as newest; commits refreshed to 499 and skills stars to 276.4k as of 2026-10-05.
 - 2026-10-06 - The site's skills changelog caught up and now lists v1.3 as its newest entry, closing the repo-versus-site lag recorded yesterday; commits refreshed to 503 and skills stars to 277.3k as of 2026-10-06.
+- 2026-10-12 - Commits refreshed to about 545 and skills stars to about 287k as of 2026-10-12, with the repo scale now stated in the Status sentence itself.
 
 ## See also
 

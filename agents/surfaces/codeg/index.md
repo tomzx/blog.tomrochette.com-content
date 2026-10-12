@@ -24,7 +24,7 @@ It is written in Rust, licensed Apache-2.0, and deployed as a desktop app, a sel
 ## Status
 
 **Active on a fast release train.**
-The repository was created 2026-02-09 and shows 3,887 stars and 505 forks as of 2026-10-11, with commits landing the same day.
+The repository was created 2026-02-09 and shows 3,913 stars and 508 forks as of 2026-10-12, with commits landing the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=spacering-net/codeg&type=date&theme=dark&legend=top-left" />
@@ -78,8 +78,8 @@ Not for anyone who needs an independently reviewed tool, a 1.0 release, or an ed
 
 ## References
 
-- https://github.com/spacering-net/codeg - repository, README (fifteen built-in agents, structured conversation rendering, session import and handoff), Apache-2.0 license, 3,887 stars and 505 forks as of 2026-10-11
-- https://api.github.com/repos/spacering-net/codeg - creation date 2026-02-09, language Rust, push date 2026-10-11, stars and forks as of 2026-10-11
+- https://github.com/spacering-net/codeg - repository, README (fifteen built-in agents, structured conversation rendering, session import and handoff), Apache-2.0 license, 3,913 stars and 508 forks as of 2026-10-12
+- https://api.github.com/repos/spacering-net/codeg - creation date 2026-02-09, language Rust, push date 2026-10-11, stars and forks as of 2026-10-12
 - https://docs.codeg.app - the feature set: conversation aggregation, multi-agent delegation, project boot, chat channels over Telegram, Lark, and iLink, office documents, research skills, cron automations, and the open-source iOS and Android clients
 - https://github.com/spacering-net/codeg/releases - v0.35.1 (2026-10-11) as the latest release, after v0.35.0 (October 10), v0.34.0 (October 7), and v0.33.0 (October 2)
 - https://hn.algolia.com/api/v1/search?query=codeg&tags=story - the search that found no story about this project (only codegen substring noise), the missing-footprint evidence, fetched 2026-10-11
