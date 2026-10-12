@@ -1,13 +1,13 @@
 ---
 title: GitHub Spec Kit
 created: 2026-08-26
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, github, ai-agents]
 readability: 3
 audience_notes: >
   Engineers deciding whether to adopt a spec-first workflow before letting agents write code.
-  Assumes you have used a coding agent on a real feature and know what a review gate is.
+  Assumes you have used a coding agent on an actual feature and know what a review gate is.
 ---
 
 Spec Kit is GitHub's open-source toolkit for spec-driven development: a CLI that scaffolds constitution, spec, plan, and tasks files, then drives any of 30+ coding agents through implementing them.
@@ -23,7 +23,7 @@ Extensions, presets, and role-based bundles let an organization customize the pr
 ## Status
 
 **Active, and it just declared adulthood.**
-First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8, v1.0.6 followed on September 10, v1.0.7 shipped September 15, v1.0.8 followed on September 17, and v1.0.9, v1.0.10, and v1.0.11 closed out September 21, 22, and 24, v1.0.12 landed September 25, v1.0.13 followed on 2026-09-29, v1.1.0 shipped October 2, v1.1.1 followed on October 6, v1.1.2 closed out October 7, v1.1.3 landed October 9 with a unified workflow execution tree, catalog-installed external agent adapters, and the deprecation of the core taskstoissues command, and the count stands at about 140k stars and about 12.6k forks as of 2026-10-10.
+First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8, v1.0.6 followed on September 10, v1.0.7 shipped September 15, v1.0.8 followed on September 17, and v1.0.9, v1.0.10, and v1.0.11 closed out September 21, 22, and 24, v1.0.12 landed September 25, v1.0.13 followed on 2026-09-29, v1.1.0 shipped October 2, v1.1.1 followed on October 6, v1.1.2 closed out October 7, v1.1.3 landed October 9 with a unified workflow execution tree, catalog-installed external agent adapters, and the deprecation of the core taskstoissues command, and the count stands at about 140k stars and about 12.6k forks as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/spec-kit&type=date&theme=dark&legend=top-left" />
@@ -42,7 +42,7 @@ The lead maintainer's anniversary post says the original creators have moved on 
 
 ## Cautions
 
-- **The waterfall critique is the real one**: a 225-point November 2025 essay argues SDD revives heavy up-front documentation and buries agility under markdown layers, and it is partly right about the failure mode (spec theater nobody reads).
+- **The waterfall critique is the substantive one**: a 225-point November 2025 essay argues SDD revives heavy up-front documentation and buries agility under markdown layers, and it is partly right about the failure mode (spec theater nobody reads).
 - Specs are only as good as the human reviewing them; the toolkit enforces the ceremony, not the quality.
 - Original creators gone at year one and the release philosophy explicitly de-emphasizes stability, so pin your version and expect the process vocabulary to drift.
 - Star velocity reflects the movement's hype as much as the tool; the ecosystem it anchors (Kiro ports, Tessl, a dozen SDD CLIs) is bigger than what any one of them commands.
@@ -77,6 +77,7 @@ Not for solo work where the ceremony exceeds the blast radius of a bad change.
 - 2026-10-07 - Recorded the v1.1.1 release of 2026-10-06 and refreshed the star and fork counts.
 - 2026-10-08 - Recorded the v1.1.2 release of 2026-10-07 and refreshed the star and fork counts.
 - 2026-10-10 - Recorded the v1.1.3 release of 2026-10-09 and refreshed the star and fork counts.
+- 2026-10-11 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 
@@ -87,7 +88,7 @@ Not for solo work where the ceremony exceeds the blast radius of a bad change.
 
 ## References
 
-- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, releases through v1.1.3, as of 2026-10-10
+- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, releases through v1.1.3, as of 2026-10-11
 - https://github.github.io/spec-kit/ - official docs, integrations reference, extensions and presets
 - https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/ - the GitHub launch post
 - https://www.manorrock.com/blog/2026/08/21/spec_kit_turns_one.html - the lead maintainer's first-year and 1.0.0 post

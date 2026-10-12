@@ -26,7 +26,7 @@ Made by an independent developer, with an enterprise support and services badge 
 ## Status
 
 **Actively shipping and early: 5.2k stars in sixteen months with almost no independent discussion.**
-5,240 stars and 699 forks since 2025-06-16, pushed 2026-10-10, with 739 open issues (GitHub API, as of 2026-10-10).
+5,240 stars and 699 forks since 2025-06-16, pushed 2026-10-10, with 739 open issues (GitHub API, as of 2026-10-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vitali87/code-graph-rag&type=date&theme=dark&legend=top-left" />
@@ -80,7 +80,7 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 
 ## References
 
-- https://api.github.com/repos/vitali87/code-graph-rag - 5,240 stars, 699 forks, MIT, created 2025-06-16, pushed 2026-10-10, 739 open issues (GitHub API, as of 2026-10-10)
+- https://api.github.com/repos/vitali87/code-graph-rag - 5,240 stars, 699 forks, MIT, created 2025-06-16, pushed 2026-10-10, 739 open issues (GitHub API, as of 2026-10-11)
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/README.md - the two-component architecture, compiler frontends, runtime tracing, language support, Memgraph storage
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/NEWS.md - the feature-news ledger behind the active-maintenance claim
 - https://pypi.org/pypi/code-graph-rag/json - version 0.1.38 (2026-09-29), 27 releases

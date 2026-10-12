@@ -22,7 +22,7 @@ The repo sits at 42,559 stars with 6,100 forks, Apache-2.0, Python 3.9+ (GitHub 
 
 ## Status
 
-Active: last push 2026-10-09, latest release v3.1.2 on 2026-10-08, `agno` 3.1.2 on PyPI (GitHub API, PyPI, as of 2026-10-09).
+Active: last push 2026-10-11, latest release v3.1.2 on 2026-10-08, `agno` 3.1.2 on PyPI, 42,655 stars (GitHub API, PyPI, as of 2026-10-11).
 v3.1.2 added conversation compaction (`Agent(compaction=True)` folds older turns into a summary backed by a `CompactionRecord` table, so removing the record restores the full conversation), a Codex external-agent adapter beside the Claude Agent SDK, LangGraph, DSPy, and Antigravity adapters, a HyDE query transformer for knowledge retrieval, and a shared browser-origin policy for AgentOS.
 v3.1.0 added role-based access control to AgentOS (a role store, scope policies, and an audit log) and a database-backed AgentOS filesystem, with a breaking re-key of the filesystem table that requires a manual upgrade script.
 v3.1.1 followed a day later with live progress and cancellation for knowledge page sync (typed `PageSyncProgress` snapshots and a terminal `SyncReport`).

@@ -1,7 +1,7 @@
 ---
 title: CodeBurn
 created: 2026-10-05
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, open-source]
 readability: 3
@@ -16,16 +16,16 @@ CodeBurn is a free, MIT-licensed local desktop app and CLI that reads the sessio
 
 ## What it is
 
-`npx codeburn` (or `npm install -g`, brew; Node 22.13+) opens a terminal dashboard, and a desktop app (0.9.25, signed and notarized on macOS, on the Microsoft Store for Windows, deb/rpm/AppImage on Linux) adds a menu bar or tray popover, a Capacity Dock of per-provider plan rings, and a `codeburn web` view, all reading the same local files.
+`npx codeburn` (or `npm install -g`, brew; Node 22.13+) opens a terminal dashboard, and a desktop app (0.9.27, signed and notarized on macOS, on the Microsoft Store for Windows, deb/rpm/AppImage on Linux) adds a menu bar or tray popover, a Capacity Dock of per-provider plan rings, a `codeburn web` view, and, since v0.9.26, a VS Code extension (status-bar spend plus the dashboard in an editor tab, working in Cursor, Windsurf, Antigravity, and VSCodium), all reading the same local files.
 The spend cuts run four ways: by project, by git branch, by model, and by task, where task (coding, debugging, planning) is worked out from the session itself, and each session drills down to its turns.
 `codeburn optimize` lists what costs tokens without earning it (re-read files, idle MCP servers, an oversized CLAUDE.md), applies fixes with backup and undo, and later reports what each fix actually saved.
 Plan tracking (`codeburn plan set claude-max`, `codeburn quota`) reads live limit state from signed-in tools, and `codeburn guard install` adds Claude Code hooks that warn at $5 and stop a session at $15, both configurable.
 A local MCP server (`codeburn mcp`) lets an agent answer spend questions inside the conversation, with project names pseudonymized until asked for.
-Made by AgentSeal (the repository moved from the AgentSeal org to getagentseal, and the old URL redirects), which claims 41 supported integrations including Claude Code, Codex, Cursor, and Gemini.
+Made by AgentSeal (the repository moved from the AgentSeal org to getagentseal, and the old URL redirects), which claims 42 supported integrations including Claude Code, Codex, Cursor, Gemini, Amp, and Command Code (the last two added in v0.9.26).
 
 ## Status
 
-Young and fast: 11,347 stars and 877 forks as of 2026-10-07, created 2026-04-13, pushed 2026-10-07 (GitHub API).
+Young and fast: 11,377 stars and 879 forks as of 2026-10-11, created 2026-04-13, pushed 2026-10-11 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&theme=dark&legend=top-left" />
@@ -33,8 +33,11 @@ Young and fast: 11,347 stars and 877 forks as of 2026-10-07, created 2026-04-13,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&legend=top-left" />
 </picture>
 
-The npm package pulled 36,881 downloads in the trailing month (2026-09-05 to 2026-10-04).
-The current release line is desktop/CLI v0.9.25 (2026-09-21, tagged separately per platform), and the repository description still says 37 tools where the README says 41, a drift to read as the README being newer.
+The npm package pulled 38,579 downloads in the trailing month (2026-09-10 to 2026-10-09).
+The current release line is desktop/CLI v0.9.27 (2026-10-11, tagged separately per platform).
+v0.9.26 (2026-10-10) added Amp and Command Code as providers, the VS Code extension, a pull-request view with per-review cost, `--why` explanations for Claude Code sessions, Cursor usage synced from cursor.com with an app login, a tilde prefix on every estimated dollar, a long list of money-accuracy fixes, and removed Roo Code as an archived project.
+v0.9.27 added one-click updates across the CLI, menu bar, and desktop app.
+The repository description still says 37 tools where the README says 42, a drift to read as the README being newer.
 Its Show HN launch reached 112 points and 15 top-level comments on 2026-04-13, and it also launched on Product Hunt.
 
 ## Strengths
@@ -46,9 +49,9 @@ Its Show HN launch reached 112 points and 15 top-level comments on 2026-04-13, a
 
 ## Cautions
 
-- **The headline dollars are API-equivalent estimates computed from session tokens, and the launch thread's sharpest exchange was exactly this**, a "$1,400/week" framing that a commenter called misleading for a user on the $200 plan.
+- **The headline dollars are API-equivalent estimates computed from session tokens, and the launch thread's sharpest exchange was exactly this**, a "$1,400/week" framing that a commenter called misleading for a user on the $200 plan; since v0.9.26 every estimated dollar carries a visible `~`.
 - Task labels are CodeBurn's own classification of each session, with no published methodology to check them against.
-- Cursor coverage reads the IDE's state database only, per the launch thread, so Cursor Agent CLI transcripts are missed.
+- Cursor usage synced from cursor.com with an app login (or a CSV import) since v0.9.26, closing the IDE-only gap the launch thread criticized but making Cursor numbers ride a vendor sync instead of local files.
 - `optimize --apply` asks you to trust a tool with your config; backups and undo exist, and the report step is how to verify it earned that trust.
 
 ## Pricing
@@ -71,6 +74,7 @@ Not for anyone who wants plain unclassified numbers (ccusage is the simpler inst
 
 - 2026-10-05 - Created from the 2026-10-05 entrant scan: a 112-point launch, 11.3k stars in six months, and a by-task cost angle the category lacked, with six fetched sources.
 - 2026-10-07 - Added the getagentseal/codeburn star history chart to the Status section.
+- 2026-10-11 - Recorded the v0.9.26 (2026-10-10) and v0.9.27 (2026-10-11) releases: Amp and Command Code providers, the VS Code extension, a pull-request view, `--why` session explanations, Cursor usage synced from cursor.com replacing local estimates, a tilde on estimated dollars, Roo Code removed, and one-click updates; the README's integration claim moved to 42 while the repository description still says 37, and repository counts and trailing-month downloads refreshed (36,881 to 38,579).
 
 ## See also
 
@@ -81,9 +85,9 @@ Not for anyone who wants plain unclassified numbers (ccusage is the simpler inst
 
 ## References
 
-- https://github.com/getagentseal/codeburn - repository, 11,345 stars and 876 forks as of 2026-10-06, MIT license, created 2026-04-13 (the AgentSeal/codeburn URL redirects here)
-- https://raw.githubusercontent.com/getagentseal/codeburn/main/README.md - surfaces, the four spend cuts, optimize/quota/guard behavior, the MCP server, the 41-tool claim, and the desktop install matrix
-- https://api.npmjs.org/downloads/point/last-month/codeburn - 36,881 trailing-month downloads (2026-09-05 to 2026-10-04), fetched 2026-10-06
-- https://registry.npmjs.org/codeburn - npm latest 0.9.25
-- https://api.github.com/repos/getagentseal/codeburn/releases - the v0.9.25, windows-v0.9.25, mac-v0.9.25, and desktop-v0.9.25 tags of 2026-09-21
+- https://github.com/getagentseal/codeburn - repository, 11,377 stars and 879 forks as of 2026-10-11, MIT license, created 2026-04-13 (the AgentSeal/codeburn URL redirects here)
+- https://raw.githubusercontent.com/getagentseal/codeburn/main/README.md - surfaces, the four spend cuts, optimize/quota/guard behavior, the MCP server, the 42-tool claim, and the desktop install matrix
+- https://api.npmjs.org/downloads/point/last-month/codeburn - 38,579 trailing-month downloads (2026-09-10 to 2026-10-09), fetched 2026-10-11
+- https://registry.npmjs.org/codeburn - npm latest 0.9.27
+- https://api.github.com/repos/getagentseal/codeburn/releases - the v0.9.27, windows-v0.9.27, and mac-v0.9.27 tags of 2026-10-11 and v0.9.26 of 2026-10-10, after the v0.9.25 line of 2026-09-21
 - https://hn.algolia.com/api/v1/items/47759035 - the 112-point launch thread: the API-equivalent-cost fight, the Cursor Agent CLI gap, and the author's answers

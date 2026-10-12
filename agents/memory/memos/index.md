@@ -1,7 +1,7 @@
 ---
 title: MemOS
 created: 2026-10-06
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The plugin line is the distribution strategy: official OpenClaw plugins (cloud a
 ## Status
 
 **Active and mid-scale.**
-11,786 stars with the repository pushed 2026-10-10, created 2025-07-06, as of 2026-10-10 (GitHub API).
+11,800 stars with the repository pushed 2026-10-10, created 2025-07-06, as of 2026-10-11 (GitHub API).
 The one independent common-framework datapoint: the academic Agent Memory Leaderboard's first cycle (August 2026) ranks MemOS second among commercial text-memory systems at 45.89, on that framework's scale, not the vendor table's.
 
 <picture>
@@ -91,10 +91,10 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 
 ## References
 
-- https://github.com/MemTensor/MemOS - repository, 11,786 stars, push record, description, as of 2026-10-10
+- https://github.com/MemTensor/MemOS - repository, 11,800 stars, push record, description, as of 2026-10-11
 - https://raw.githubusercontent.com/MemTensor/MemOS/main/README.md - features, the four entry points, plugin news timeline, and the OmniMemEval benchmark table
 - https://memos-docs.openmem.net/ - documentation root (the README's home/overview deep link returned 404 at fetch time, recorded here)
 - https://arxiv.org/abs/2507.03724 - the MemOS paper: a memory OS for AI systems
 - https://pypi.org/pypi/MemOS/json - the memos package at 0.37.0, Apache-2.0
-- https://memos.openmem.net/ - the hosted platform's landing page, now carrying the Free/Starter/Pro/Enterprise price table, re-verified unchanged as of 2026-10-10 (client-rendered on the 2026-10-06 fetch)
+- https://memos.openmem.net/ - the hosted platform's landing page, now carrying the Free/Starter/Pro/Enterprise price table, re-verified unchanged as of 2026-10-11 (client-rendered on the 2026-10-06 fetch)
 - https://hn.algolia.com/api/v1/items/44945613 - the August 2025 story (2 points, 0 comments), the thin-discussion record

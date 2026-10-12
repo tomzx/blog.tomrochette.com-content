@@ -1,7 +1,7 @@
 ---
 title: claude-devtools
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, claude-code, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by matt1398, MIT-licensed, with docs at claude-dev.tools.
 
 ## Status
 
-Young: 3,966 stars, 305 forks, 53 open issues, created 2026-02-07, pushed 2026-09-26, as of 2026-10-07.
+Young: 3,971 stars, 306 forks, 53 open issues, created 2026-02-07, pushed 2026-09-26, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=matt1398/claude-devtools&type=date&theme=dark&legend=top-left" />

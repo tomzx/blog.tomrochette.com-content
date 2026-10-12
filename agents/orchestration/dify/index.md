@@ -23,7 +23,7 @@ The repo sits at 157,786 stars with 24,900 forks, created 2023-04-12 (GitHub API
 
 ## Status
 
-Active: last push 2026-10-05, latest release 1.17.1 on 2026-09-10 (GitHub API, as of 2026-10-05).
+Active: last push 2026-10-11, latest release 1.17.1 on 2026-09-10 (GitHub API, as of 2026-10-11).
 Its 2024 HN launch drew 185 points, and the community has kept growing since.
 The category context is the risk: Flowise's shutdown discussion argued that capable coding agents are eroding the rigid low-code workflow approach, and that argument applies to every member of the genre, Dify included.
 

@@ -11,10 +11,14 @@ readability: 3
 Small fast models handling typed decisions beside the large model: constrained decoding, validate-and-retry libraries, the decision-model wave, and the three benchmarks that measure them.
 
 - [Anthropic structured outputs](anthropic-structured-outputs/index.md) - schema-constrained decoding for Claude responses and tool inputs.
-- [AnyJev](anyjev/index.md) - Nokia Applied Research's training-free readout turning any instruction-tuned LLM into a calibrated decision model with rotation-averaged logits and verified early-exit bounds, with an arXiv report and third-party benchmark coverage, 1,092 stars.
+- [AnyJev](anyjev/index.md) - Nokia Applied Research's training-free readout turning any instruction-tuned LLM into a calibrated decision model with rotation-averaged logits and verified early-exit bounds, with an arXiv report and third-party benchmark coverage, 1,155 stars.
 - [Atomic Agents](atomic-agents/index.md) - the MIT Python framework assembling agents, tools, and context providers as schema-validated components on Instructor and Pydantic, the validate-and-retry family's framework layer, 6.3k stars.
+- [BAML](baml/index.md) - Boundary's Apache-2.0 typed language for agent code, where LLM calls are functions with schema return types and the error-correcting parser from its structured-output era, 9.4k stars.
+- [CLM](clm/index.md) - the Apache-2.0 contrastive state-action encoder (a Qwen3-8B embedding model plus a 75 MB head) behind the wave's first architectural dissent, whose Jev-parity claims both independent boards answer with near-zero scores, 2.9k stars.
 - [CUA-S1](cua-s1/index.md) - Cua's open-weights 706k-parameter System One checkpoint that scores form actions without generating text, the verifiable counterpart to Jev's closed contract.
+- [Decider](decider/index.md) - Mapika's Apache-2.0 one-pass family from 2B to 35B-A3B on Qwen3.5 decoders, JevBench's first open number one and the category's clearest sealed-protocol collapse record.
 - [Decision Index](decision-index/index.md) - the second independent scoreboard for Jev-class models, 110,201 public requests over 42 benchmarks plus private tests, where two 27B-class systems sit above Jev (third) and the boards disagree by tens of points.
+- [H2O-Lightning-4B](h2o-lightning-4b/index.md) - H2O.ai's Apache-2.0 Qwen3.5-4B decision fine-tune with vision, the first open-weights system measured above hosted Jev on an independent composite.
 - [Instructor](instructor/index.md) - Pydantic in, validated objects out, with a re-ask when validation fails.
 - [Jeeves](jeeves/index.md) - PostHog's 9B reasoning decision model that thinks before it answers typed questions, beating Jev's published numbers on its own tests at ten times the latency.
 - [Jeff](jeff/index.md) - the AutoJev-fork fine-tune family (0.8B and 2B Qwen3.5, Gemma 4 E2B) speaking Jev's request format at 22 ms locally, with the frankest self-run benchmark table in the wave.
@@ -30,6 +34,8 @@ Small fast models handling typed decisions beside the large model: constrained d
 - [Outlines](outlines/index.md) - logit-masked generation following types, schemas, regexes, or grammars.
 - [SemIf](semif/index.md) - frozen open models reading typed option probabilities straight from the logits, with a client-side WebGPU demo, called OpenJev until 2026-09-18.
 - [tool-eval-bench](tool-eval-bench/index.md) - the MIT auditor for tool-calling quality on self-hosted serving stacks, 69 deterministic multi-turn scenarios with full traces plus a decision-model track over the same `/v1/systemone` surface.
+- [Von](von/index.md) - the Apache-2.0 395M ModernBERT encoder answering typed questions on CPUs through Python and TypeScript SDKs and a Docker image, the wave's smallest credible generalist, near the bottom of the accuracy tables by third-party reading.
+- [Winnow](winnow/index.md) - EldanRing's Apache-2.0 Gemma 4 family (E2B to 12B, GGUF, vision) matching Jev answer-for-answer on public subsets, the community checkpoint that three independent readers rank at the top.
 
 Its members are compared on shared rows in the [Hybrid Execution Feature Matrix](hybrid-execution-feature-matrix/index.md).
 
@@ -55,3 +61,9 @@ Its members are compared on shared rows in the [Hybrid Execution Feature Matrix]
 - 2026-10-07 - Added AnyJev.
 - 2026-10-07 - Added Atomic Agents.
 - 2026-10-08 - Added tool-eval-bench.
+- 2026-10-11 - Added CLM.
+- 2026-10-11 - Added Decider.
+- 2026-10-11 - Added H2O-Lightning-4B.
+- 2026-10-11 - Added Von.
+- 2026-10-11 - Added Winnow.
+- 2026-10-11 - Added BAML.

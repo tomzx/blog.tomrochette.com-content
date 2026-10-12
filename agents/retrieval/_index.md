@@ -8,7 +8,7 @@ tags: [agents, retrieval]
 readability: 3
 ---
 
-Feeding agents the right slices of large corpora: chunking libraries, parsing pipelines, search-engine libraries, a full RAG engine, the two big frameworks, graph-RAG systems, a vectorless reasoning engine, code knowledge-graph retrieval, and the patterns built on them.
+Feeding agents the right slices of large corpora: chunking libraries, parsing pipelines, search-engine libraries, full RAG engines, the two big frameworks, graph-RAG systems, a vectorless reasoning engine, code knowledge-graph retrieval, and the patterns built on them.
 
 - [Chonkie](chonkie/index.md) - the MIT chunking library (token, semantic, and neural chunkers) for RAG pipelines, its commercial arm dead and its maker pivoted to Feyn Labs.
 - [Code-Graph-RAG](code-graph-rag/index.md) - the MIT monorepo code-RAG system storing tree-sitter plus compiler facts in a Memgraph graph queried by an agent writing Cypher.
@@ -21,6 +21,7 @@ Feeding agents the right slices of large corpora: chunking libraries, parsing pi
 - [open-codebase-index](open-codebase-index/index.md) - the MIT self-hosted semantic code index (embeddings, BM25, call graph) served to OpenCode, Claude Code, Codex, Pi, and MCP clients.
 - [Orama](orama/index.md) - the Apache-2.0 embeddable search engine and RAG pipeline for JS/TS, 1.3M weekly installs on a stalled release train.
 - [PageIndex](pageindex/index.md) - Vectify AI's vectorless reasoning-RAG engine (tree index per document, LLM tree search), the largest bet that the vector layer is skippable.
+- [R2R](r2r/index.md) - SciPhi's MIT agentic-RAG engine (multimodal ingestion, hybrid search, knowledge graphs, Deep Research API), two large Show HNs in 2024, dormant since late 2025 with its docs and company site gone.
 - [RAGFlow](ragflow/index.md) - InfiniFlow's Apache-2.0 RAG engine (DeepDoc parsing, template chunking, citations, agentic retrieval), 91.9k stars, self-hosted or clouded, with a disruptive 1.0 Go rewrite.
 - [Semantic code search](semantic-code-search/index.md) - retrieval by meaning over embedded chunks, shipped as a workspace index.
 - [Tree-sitter chunking](tree-sitter-chunking/index.md) - cutting files along syntax boundaries instead of fixed line counts.
@@ -45,3 +46,4 @@ Its members are compared on shared rows in the [Retrieval Feature Matrix](retrie
 - 2026-10-07 - Added GraphRAG.
 - 2026-10-07 - Added LightRAG.
 - 2026-10-07 - Added PageIndex.
+- 2026-10-11 - Added R2R.

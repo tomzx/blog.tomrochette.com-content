@@ -1,7 +1,7 @@
 ---
 title: LMArena
 created: 2026-09-24
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, evaluation, leaderboards, human-feedback]
 readability: 3
@@ -77,7 +77,7 @@ My disagreeable claim: the leaderboard is the least valuable thing the arenas pr
 ## References
 
 - https://lmarena.ai/ - homepage meta: blind comparison, vote-driven leaderboards across text, image, and code (fetched 200, 2026-09-24)
-- https://blog.lmarena.ai/ - Arena Intelligence Inc. identity, leaderboard families, and 2026 post dates including the 8 October 2026 Series B and Arena Alignment Index announcement, the 30 September judge self-preference post, and the 2026-10-02 post-training research post (re-fetched 200, 2026-10-10, newest posts 8 October 2026)
+- https://blog.lmarena.ai/ - Arena Intelligence Inc. identity, leaderboard families, and 2026 post dates including the 8 October 2026 Series B and Arena Alignment Index announcement, the 30 September judge self-preference post, and the 2026-10-02 post-training research post (re-fetched 200, 2026-10-11 via curl after two fetch-tool failures, newest posts still 8 October 2026)
 - https://blog.lmarena.ai/how-it-works/ - the vote flow and identity reveal procedure (fetched 200, 2026-09-24)
 - https://arxiv.org/abs/2403.04132 - the founding paper: method and 240K+ votes (fetched 200, 2026-09-24)
 - https://arxiv.org/abs/2504.20879 - The Leaderboard Illusion: private testing, 27 Meta variants, sampling asymmetries (fetched 200, 2026-09-24)

@@ -1,7 +1,7 @@
 ---
 title: Yolobox
 created: 2026-10-09
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, containers, docker, isolation, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, solo author (Finbarr), docs at yolobox.dev.
 
 ## Status
 
-Young and shipping hard: 650 stars, pushed 2026-10-07 as of 2026-10-10, created 2026-01-09, with sixty-six releases on the train and v0.19.7 (2026-10-07) the latest.
+Young and shipping hard: 650 stars, pushed 2026-10-07 as of 2026-10-11, created 2026-01-09, with sixty-six releases on the train and v0.19.7 (2026-10-07) the latest.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=finbarr/yolobox&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: AI Release Tracker
 created: 2026-09-24
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, ai, releases, open-data]
 readability: 3
@@ -26,7 +26,7 @@ Surfaces: the timeline, per-benchmark ranking pages, model compare pages, analyt
 
 Alive and observable again: the Wayback gap closed, with an archived homepage dated 2026-10-07 showing a newest tracked release of Claude Haiku 5.5 (October 7, 2026), per-lab "expected next release" cards, and the September-October release wave confirmed recorded (the archived timeline lists GPT-6 Astra through GPT-6.1 Sol, Claude Opus 5.5 and Haiku 5.5, Gemini 4 Argon, Mistral Large 4, Grok 4.7, and DeepSeek-V4.1-Flash).
 The archived homepage also claims a Business Insider citation ("As featured in Business Insider"), so the Show HN thread (2 points, 6 comments, 2025-12-02) is no longer the site's entire public footprint, though that citation remains self-claimed, and no GitHub repository exists.
-The corpus flat files still have no archive captures after 2026-08-26 (CDX checked through 2026-10-10), and the live site 429'd this run's fetch, so the machine-readable exports remain pinned to the August snapshot.
+The corpus flat files still have no archive captures after 2026-08-26 (CDX checked through 2026-10-11), and the live site 429'd again on this run's one fetch, so the machine-readable exports remain pinned to the August snapshot.
 The footer reads "© 2026 To sider ApS · CVR DK42753491", a Danish private limited company, so it is a side-project-grade operation with corporate paperwork.
 **Treat it as alive, current through its rendered pages, useful, and one person away from dormant.**
 
@@ -84,5 +84,6 @@ My disagreeable claim: this is the most valuable site in the category for agents
 - https://hn.algolia.com/api/v1/search?query=aireleasetracker&tags=story - the single-story footprint evidence (fetched 200, 2026-09-24)
 - https://web.archive.org/cdx/search/cdx?url=aireleasetracker.com&matchType=domain - snapshot cadence and subpage inventory through 2026-08-26 (fetched 200, 2026-09-24)
 - https://web.archive.org/cdx/search/cdx?url=aireleasetracker.com&matchType=domain&from=20260827&to=20261010&fl=timestamp,original,statuscode&limit=40 - site pages captured again from 2026-10-07: homepage, /about, /sitemap.xml, model pages (Claude Haiku 5.5), and compare pages (GPT-6.1 Sol, Claude Opus 5.5) (re-fetched 200, 2026-10-10, non-empty)
-- https://web.archive.org/cdx/search/cdx?url=aireleasetracker.com/llms-full.txt&from=20260801&to=20261010&fl=timestamp,statuscode&limit=40 - corpus file captured only 2026-08-25 and 2026-08-26 (re-fetched 200, 2026-10-10, still two captures)
+- https://web.archive.org/cdx/search/cdx?url=aireleasetracker.com&matchType=domain&from=20261010&to=20261011&fl=timestamp,original,statuscode&limit=40 - empty body: no site captures after 2026-10-09, newest content page /contact at 2026-10-09 (fetched 200, empty, 2026-10-11)
+- https://web.archive.org/cdx/search/cdx?url=aireleasetracker.com/llms-full.txt&from=20260801&to=20261011&fl=timestamp,statuscode&limit=40 - corpus file captured only 2026-08-25 and 2026-08-26 (re-fetched 200, 2026-10-11, still two captures)
 - https://web.archive.org/web/20261007193910/https://aireleasetracker.com/ - archived homepage: 258 models from 11 companies, newest tracked release Claude Haiku 5.5 (Oct 7, 2026), expected-next-release cards, the Business Insider mention, and per-company model lists (fetched 200, 2026-10-10)

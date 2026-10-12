@@ -1,7 +1,7 @@
 ---
 title: Nanobot
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 ## Status
 
-One of the fastest adoption curves in the category: 48,919 stars, 8,620 forks, 814 open issues as of 2026-10-10, created 2026-02-01, pushed 2026-10-10.
+One of the fastest adoption curves in the category: 48,946 stars, 8,618 forks, 821 open issues as of 2026-10-11, created 2026-02-01, pushed 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/nanobot&type=date&theme=dark&legend=top-left" />

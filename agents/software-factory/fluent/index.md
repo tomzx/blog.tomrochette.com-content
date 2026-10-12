@@ -1,7 +1,7 @@
 ---
 title: "Fluent"
 created: 2026-08-29
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, self-improving, autonomous-agents]
 readability: 3
@@ -20,7 +20,7 @@ Each run of a Work Item is an Attempt that a Writer, parallel Reviewers, a deter
 
 ## Status
 
-Active and shipping again: 111 stars and 7 forks since creation on 2026-07-10, 2,127 commits, and v0.5.0 released 2026-10-06, ending the roughly four-week quiet stretch that followed v0.4.0 (2026-09-08), per the GitHub API as of 2026-10-10.
+Active and shipping: 111 stars and 7 forks since creation on 2026-07-10, v0.6.0 released 2026-10-11 five days after v0.5.0 (2026-10-06), per the GitHub API as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mrinalwadhwa/fluent&type=date&theme=dark&legend=top-left" />
@@ -28,6 +28,7 @@ Active and shipping again: 111 stars and 7 forks since creation on 2026-07-10, 2
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=mrinalwadhwa/fluent&type=date&legend=top-left" />
 </picture>
 
+v0.6.0 (2026-10-11) is a source-only release candidate preparing the move from local Work to a shared service: it binds Writer inputs to the exact bytes a provider read, binds Tester, review, and landing evidence to the current candidate and its accepted baseline, and its notes state there is no rehearsed rollback to v0.5.0 once the newer binary writes Work or publication state.
 v0.5.0 tightens the evidence a candidate needs to advance: verification now tracks each required command and its accepted proof through correction, targeted review, and the final Tester, and interrupted Writer and recovery paths preserve their original evidence across retries.
 v0.4.0 had clarified which role owns each required action, and v0.3.0 (2026-08-31) added durable Slack collaboration for planning, approvals, and candidate handoff.
 It is a focused single-author project with a Discord community behind it, and v0.5.0 keeps the verified workflow local-macOS-only, with Fargate execution outside the release's readiness claim.
@@ -71,6 +72,7 @@ Not for the one-off feature, which a simpler pipeline or a single agent handles 
 - 2026-10-06 - Recorded fluent.computer now redirecting to the GitHub repository and the quiet window since v0.4.0 (no release or push since 2026-09-08); counts refreshed.
 - 2026-10-07 - Added the mrinalwadhwa/fluent star history chart to the Status section.
 - 2026-10-07 - Recorded the v0.5.0 release (2026-10-06), which ends the quiet stretch the previous status described, with counts refreshed and the v0.5.0 release notes added to References.
+- 2026-10-11 - Recorded the v0.6.0 release (2026-10-11), a source-only release candidate for the shared-service transition with candidate-bound evidence and no rollback to v0.5.0; counts refreshed.
 
 ## See also
 
@@ -83,6 +85,7 @@ Not for the one-off feature, which a simpler pipeline or a single agent handles 
 ## References
 
 - https://github.com/mrinalwadhwa/fluent - the repo, the Observer-to-Merge-Candidate loop, and the expertise model
+- https://github.com/mrinalwadhwa/fluent/blob/main/documentation/releases/v0.6.0.md - the v0.6.0 release notes, the shared-service transition candidate, evidence binding, and the no-rollback state
 - https://github.com/mrinalwadhwa/fluent/blob/main/documentation/releases/v0.5.0.md - the v0.5.0 release notes, evidence-based candidate advancement and recovery
 - https://github.com/mrinalwadhwa/fluent/blob/main/documentation/releases/v0.4.0.md - the v0.4.0 release notes, action ownership and safer resumes
 - https://github.com/mrinalwadhwa/fluent/blob/main/documentation/releases/v0.3.0.md - the v0.3.0 release notes, Slack collaboration and recovery changes

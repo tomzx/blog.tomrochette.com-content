@@ -1,7 +1,7 @@
 ---
 title: Supermemory
 created: 2026-10-04
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, context-engine, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The company describes itself as a research lab; the repository began under found
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint.**
-About 31.2k stars with the repository pushed 2026-10-10, created 2024-02-27 (GitHub API).
+About 31.2k stars with the repository pushed 2026-10-11, created 2024-02-27 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ About 31.2k stars with the repository pushed 2026-10-10, created 2024-02-27 (Git
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&legend=top-left" />
 </picture>
 
-The npm SDK pulled 510,290 downloads in the trailing month (2026-09-09 to 2026-10-08) and the SDK lines moved to a 5.x major in one day: npm at 5.0.1 and PyPI at 5.0.0 (uploaded 2026-10-06, after three release candidates), up from 3.62.0.
+The npm SDK pulled 510,440 downloads in the trailing month (2026-09-10 to 2026-10-09) and the SDK lines moved to a 5.x major in one day: npm at 5.0.1 and PyPI at 5.0.0 (uploaded 2026-10-06, after three release candidates), up from 3.62.0.
 The hosted platform claims 1T+ tokens processed per month and tens of millions of end users (vendor figures).
 The community record is thin for the star count: its largest Hacker News story threads sit at 5 points or fewer, and the README's three first-place benchmark claims have not been independently replicated in any source I could verify, though a competing project's preliminary run (below) tested it and published a worse-than-claimed number.
 
@@ -53,7 +53,7 @@ The community record is thin for the star count: its largest Hacker News story t
 
 ## Pricing
 
-Hosted plans as of 2026-10-10: Free $0 per month with $5 of credits renewed monthly; Pro $19 per month with $20 of credits; Max $100 per month with $130 of credits; Scale $399 per month with $600 of credits, unlimited team seats, SOC 2 and HIPAA BAA, and a self-hosted option; and an Enterprise custom tier above Scale with custom metering and billing, SSO, and a forward-deployed engineer.
+Hosted plans as of 2026-10-11: Free $0 per month with $5 of credits renewed monthly; Pro $19 per month with $20 of credits; Max $100 per month with $130 of credits; Scale $399 per month with $600 of credits, unlimited team seats, SOC 2 and HIPAA BAA, and a self-hosted option; and an Enterprise custom tier above Scale with custom metering and billing, SSO, and a forward-deployed engineer.
 A startup and research program grants qualifying teams the Scale plan free for three months.
 Metering is in "SM tokens": plain text $5 per 1M, rich content $10 per 1M, SuperRAG retrieval $1 per 1M text tokens, queries $5 per 1M, and operations $100 per 1M.
 Supermemory local is free (MIT).
@@ -95,9 +95,9 @@ My disagreeable claim: Supermemory's local binary is strategically more interest
 
 - https://github.com/supermemoryai/supermemory - repository, MIT license, 31.2k stars and activity as of 2026-10-09 (the Dhravya/supermemory URL redirects here)
 - https://raw.githubusercontent.com/supermemoryai/supermemory/main/README.md - engine architecture, local mode, benchmark claims, MemoryBench, plugin and MCP surfaces
-- https://supermemory.ai/pricing - the four hosted plans, the Enterprise custom tier, the startup program, and SM-token metering rates, as of 2026-10-08
+- https://supermemory.ai/pricing - the four hosted plans, the Enterprise custom tier, the startup program, and SM-token metering rates, re-verified unchanged 2026-10-11
 - https://supermemory.ai - platform claims (1T+ tokens per month, 187ms median recall) and the benchmark figure positioning
-- https://api.npmjs.org/downloads/point/last-month/supermemory - 510,290 trailing-month SDK downloads (2026-09-09 to 2026-10-08), fetched 2026-10-10
+- https://api.npmjs.org/downloads/point/last-month/supermemory - 510,440 trailing-month SDK downloads (2026-09-10 to 2026-10-09), fetched 2026-10-11
 - https://pypi.org/pypi/supermemory/json - Python SDK 5.0.0 (2026-10-06), the record of the 3.62-to-5.0 jump
 - https://news.ycombinator.com/item?id=48995181 - the CodeAlmanac thread carrying the one independent LoCoMo datapoint (Supermemory 47.6 percent at a 2k budget)
 - https://hn.algolia.com/api/v1/search?query=supermemory&tags=story - the footprint scan grounding the thin-HN observation (top tool-related thread 5 points, 2024)

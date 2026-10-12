@@ -1,7 +1,7 @@
 ---
 title: Omnigent
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, meta-harness, orchestration, policies, sandboxing]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, Python 3.12+, installed via installer, uv, pip, or Homebrew; built b
 ## Status
 
 **Active, well-resourced, and young, with traction that far outruns its independent discussion.**
-10,635 stars and 1,701 forks as of 2026-10-07 (repository created 2026-06-11), PyPI 0.17.0 published 2026-10-06 after 40+ releases, and the default branch was pushed the same day.
+10,737 stars and 1,733 forks as of 2026-10-11 (repository created 2026-06-11), PyPI 0.17.0 published 2026-10-06 after 40+ releases, and the default branch was pushed the day of verification.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=omnigent-ai/omnigent&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Apache-2.0, Python 3.12+, installed via installer, uv, pip, or Homebrew; built b
 </picture>
 
 The HN footprint is thin: the top thread (the Databricks announcement, June 2026) reached 15 points with 4 comments, and resubmits stayed at 1 to 6 points.
-The 1,814 open issues against 10.6k stars read as heavy use plus heavy traffic, under an alpha badge the README still wears.
+The 1,828 open issues against 10.7k stars read as heavy use plus heavy traffic, under an alpha badge the README still wears.
 
 ## Strengths
 
@@ -78,7 +78,7 @@ Not for developers happy inside one harness, and not for Windows-first setups th
 
 ## References
 
-- https://api.github.com/repos/omnigent-ai/omnigent - repository facts (10,635 stars, 1,701 forks, Apache-2.0, Python, pushed 2026-10-07, as of 2026-10-07)
+- https://api.github.com/repos/omnigent-ai/omnigent - repository facts (10,737 stars, 1,733 forks, Apache-2.0, Python, pushed 2026-10-11, as of 2026-10-11)
 - https://raw.githubusercontent.com/omnigent-ai/omnigent/main/README.md - harness list, agent YAML, policies, sandboxes, install, Windows limits, collaboration
 - https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents - Databricks origin (Zaharia, Uhlenhuth, Zumar, June 13, 2026), architecture, Apache-2.0 open-sourcing
 - https://omnigent.ai - product site (alpha status, "Built by the Databricks AI team, Neon and the Omnigent Contributors")

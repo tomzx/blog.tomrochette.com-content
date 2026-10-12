@@ -1,7 +1,7 @@
 ---
 title: TOON
 created: 2026-10-07
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, serialization, token-optimization, specification]
 readability: 3
@@ -12,18 +12,18 @@ audience_notes: >
 
 TOON (Token-Oriented Object Notation) is an MIT-licensed, spec-backed encoding of the JSON data model that replaces braces and repeated keys with indentation and CSV-style table rows, cutting the token cost of structured data handed to LLMs while staying lossless and human-readable.
 
-**TOON is the packing convention for the structured slice of the context window: it changes nothing about which data enters the window, only how many tokens the same data costs, and its 1.9 million weekly npm downloads make it the most-adopted encoding standard this category holds.**
+**TOON is the packing convention for the structured slice of the context window: it changes nothing about which data enters the window, only how many tokens the same data costs, and its 1.8 million weekly npm downloads make it the most-adopted encoding standard this category holds.**
 
 ## What it is
 
-A format specification (version 4.4, 2026-10-08) maintained in its own repository by Johann Schopplich, with the TypeScript reference implementation at `@toon-format/toon` and community ports across languages (25,478 stars, pushed 2026-10-09, as of 2026-10-09).
+A format specification (version 4.4, 2026-10-08) maintained in its own repository by Johann Schopplich, with the TypeScript reference implementation at `@toon-format/toon` and community ports across languages (25,485 stars, pushed 2026-10-09, as of 2026-10-11).
 The design combines YAML's indentation for nested objects with CSV-style tabular rows for arrays of uniform objects: each array declares its length and field list once, then one row per item, with a single active delimiter (comma, tab, or pipe) and strings quoted only when required.
 The sweet spot is uniform data, the same fields across many items, where it approaches CSV compactness while keeping structure explicit; the spec itself concedes that deeply nested or non-uniform data can be cheaper as plain JSON.
 The intended use is a translation layer: keep JSON in code, encode to TOON at the prompt boundary, decode back from the model's output.
 
 ## Status
 
-Active and widely adopted: created 2025-10-22, 25,478 stars, spec at v4.4, 1,658,827 npm downloads in the week of 2026-10-01 to 2026-10-07, as of 2026-10-09.
+Active and widely adopted: created 2025-10-22, 25,485 stars, spec at v4.4, 1,761,487 npm downloads in the week of 2026-10-03 to 2026-10-09, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=toon-format/toon&type=date&theme=dark&legend=top-left" />
@@ -39,7 +39,7 @@ A third-party test comparing TOON against JSON and CSV on tabular data came out 
 - The token savings on uniform arrays are mechanical and measurable, and the format stays lossless, so it drops into an existing JSON pipeline as a prompt-boundary codec.
 - Explicit array lengths and per-row field elision make structure easy for models to validate, which is the argument against just using CSV.
 - A specification with conformance requirements and multiple independent implementations, not a single library's output format.
-- Adoption at the 1.9-million-downloads-a-week level means tooling and precedent exist when something goes wrong.
+- Adoption at the 1.8-million-downloads-a-week level means tooling and precedent exist when something goes wrong.
 
 ## Cautions
 

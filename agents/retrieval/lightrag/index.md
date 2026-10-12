@@ -25,7 +25,7 @@ Made by HKUDS, the lab that also ships RAG-Anything, VideoRAG, and MiniRAG.
 ## Status
 
 **Actively maintained with a large, fast-moving community.**
-40,051 stars and 5,677 forks since 2024-10-02, pushed 2026-10-08, with 329 open issues (GitHub API, as of 2026-10-10).
+40,060 stars and 5,680 forks since 2024-10-02, pushed 2026-10-08, with 331 open issues (GitHub API, as of 2026-10-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/LightRAG&type=date&theme=dark&legend=top-left" />
@@ -80,8 +80,8 @@ My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appea
 
 ## References
 
-- https://api.github.com/repos/HKUDS/LightRAG - 40,051 stars, 5,677 forks, MIT, created 2024-10-02, pushed 2026-10-08, 329 open issues (GitHub API, as of 2026-10-10)
-- https://raw.githubusercontent.com/HKUDS/LightRAG/main/README.md - dual-level retrieval, storage backends, chunking strategies, the RAG-Anything merge, the news timeline
+- https://api.github.com/repos/HKUDS/LightRAG - 40,060 stars, 5,680 forks, MIT, created 2024-10-02, pushed 2026-10-08, 331 open issues (GitHub API, as of 2026-10-11)
+- https://raw.githubusercontent.com/HKUDS/LightRAG/main/README.md - dual-level retrieval, storage backends, chunking strategies, the RAG-Anything merge, the news timeline (re-verified unchanged 2026-10-11)
 - https://arxiv.org/abs/2410.05779 - the EMNLP 2025 paper: LightRAG, simple and fast retrieval-augmented generation
 - https://pypi.org/pypi/lightrag-hku/json - version 1.5.7 (2026-09-02), 94 releases, MIT
 - https://learnopencv.com/lightrag/ - the widely-cited third-party guide grounding the tutorial-driven adoption pattern

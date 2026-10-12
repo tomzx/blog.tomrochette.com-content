@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-10-08
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -24,7 +24,7 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 ## Status
 
 **Active under new ownership.**
-The repository shows about 27.5k stars under MIT as of 2026-10-08, most recently pushed within a day of verification; component tags ship on their own clocks (the newest stable is v7.8.8, published October 7, 2026, a day after the v7.8.7 prerelease, with the jetbrains/v7.1.9 component following its own train).
+The repository shows about 27.6k stars under MIT as of 2026-10-11, most recently pushed within a day of verification; component tags ship on their own clocks (the newest stable is v7.8.8, published October 7, 2026, a day after the v7.8.7 prerelease, with the jetbrains/v7.1.9 component following its own train).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Kilo-Org/kilocode&type=date&theme=dark&legend=top-left" />
@@ -54,7 +54,7 @@ Free and open source for individuals; model usage is billed separately via your 
 Teams: $15/user/month adding shared agent modes, analytics, centralized billing, and shared BYOK.
 Enterprise: custom SSO/OIDC/SCIM, audit logs, private gateway, SLAs.
 Costs split three ways (platform plan, AI inference, cloud compute), quoted separately.
-Kilo Pass, an optional monthly credit subscription (Starter $19, Pro $49, Expert $199) with up to 50% bonus credits, now sits alongside pay-as-you-go Kilo Gateway on the pricing page, as of 2026-10-06 (re-verified unchanged).
+Kilo Pass, an optional monthly credit subscription (Starter $19, Pro $49, Expert $199) with up to 50% bonus credits, now sits alongside pay-as-you-go Kilo Gateway on the pricing page, as of 2026-10-11 (re-verified unchanged).
 
 ## Price history
 
@@ -99,8 +99,8 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 
 ## References
 
-- https://github.com/Kilo-Org/kilocode - repository scale, license, description as of 2026-10-07
-- https://kilo.ai/pricing - tiers, Kilo Pass, credit model, and the Anaconda acquisition banner, as of 2026-10-06 (re-verified unchanged)
+- https://github.com/Kilo-Org/kilocode - repository scale, license, description as of 2026-10-11
+- https://kilo.ai/pricing - tiers, Kilo Pass, credit model, and the Anaconda acquisition banner, as of 2026-10-11 (re-verified unchanged)
 - https://www.anaconda.com/blog/anaconda-acquires-kilo-code - the acquisition announcement primary source
 - https://news.ycombinator.com/item?id=43483802 - the launch-era community record (98 points)
 - https://news.ycombinator.com/item?id=43951329 - the feature-merge origin naming Cline and Roo

@@ -1,7 +1,7 @@
 ---
 title: ZeroClaw
 created: 2026-08-27
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, rust, open-source]
 readability: 3
@@ -23,7 +23,7 @@ An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android),
 ## Status
 
 Active and large, but quietly so.
-As of 2026-10-10: 32,949 stars and 4,959 forks since creation on 2026-02-13, pushed 2026-10-10, 950 open issues, Apache-2.0/MIT dual licensed.
+As of 2026-10-11: 32,954 stars and 4,964 forks since creation on 2026-02-13, pushed 2026-10-11, 951 open issues, Apache-2.0/MIT dual licensed.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ v0.8.5 (2026-09-05) is still the latest release, so the tagged-release train run
 
 - Thin independent coverage: almost no third-party writing or discussion to check claims against.
 - Hardware tools are a foot-gun by design; the trust question moves from the codebase to the tool grant.
-- 950 open issues against a labs team you cannot size from outside.
+- 951 open issues against a labs team you cannot size from outside.
 - The security suite ecosystem (clawsec) names OpenClaw, PicoClaw, and NanoClaw but not ZeroClaw, so the audit tooling has not caught up.
 
 ## Pricing

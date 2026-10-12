@@ -11,14 +11,14 @@ readability: 3
 Personal assistant runtimes outside the editor: the -claw family and its auditable rewrites, the self-improving agents, the compile targets down to RISC-V boards, and the local-first platforms assistants run on.
 
 - [AnythingLLM](anything-llm/index.md) - the one-click local-first desktop workspace: RAG workspaces, agents, MCP, and multi-user Docker.
-- [AstrBot](astrbot/index.md) - the AGPL-3.0 IM-platform veteran from 2022: 14-plus official chat platforms, a 1,000-plus-plugin marketplace, and an agent sandbox at 41.6k stars.
+- [AstrBot](astrbot/index.md) - the AGPL-3.0 IM-platform veteran from 2022: 14-plus official chat platforms, a 1,000-plus-plugin marketplace, and an agent sandbox at 41.7k stars.
 - [Eigent](eigent/index.md) - the Apache-2.0 Cowork desktop with CAMEL-based multi-agent workforces and a corrected-benchmark history.
-- [Hermes](hermes/index.md) - Nous Research's self-improving agent with the learning loop, about 252k stars, paid tiers live, and the channels to match.
+- [Hermes](hermes/index.md) - Nous Research's self-improving agent with the learning loop, about 253k stars, paid tiers live, and the channels to match.
 - [Nanobot](nanobot/index.md) - HKUDS' readable Python agent runtime with the WebUI and channels bundled, 49k stars at alpha.
 - [NanoClaw](nanoclaw/index.md) - the auditable containerized OpenClaw rewrite, one process you can read in an afternoon.
-- [Octop](octop/index.md) - Tencent Cloud's MIT multi-user self-hosted assistant: expert teams per household member, eight IM channels, ACP in both directions, 8.4k stars in three months.
+- [Octop](octop/index.md) - Tencent Cloud's MIT multi-user self-hosted assistant: expert teams per household member, eight IM channels, ACP in both directions, 8.6k stars in three months.
 - [Open WebUI](open-webui/index.md) - the maximal self-hosted AI interface for Ollama and OpenAI-compatible backends, with the ecosystem's most consequential license story.
-- [OpenClaw](openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 391k stars and the 2026 provider-restriction saga.
+- [OpenClaw](openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 392k stars and the 2026 provider-restriction saga.
 - [OpenWork](openwork/index.md) - the MIT-core Cowork alternative built on OpenCode, whose MCP gateway makes skills portable across agents.
 - [OpenWorker](openworker/index.md) - the Andrew Ng team's governed MIT desktop coworker for security-review tasks, sandboxed through NVIDIA OpenShell, in open beta.
 - [PicoClaw](picoclaw/index.md) - Sipeed's Go assistant on $10 RISC-V boards in 10-20MB of RAM, the category as a compile target.

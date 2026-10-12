@@ -1,7 +1,7 @@
 ---
 title: Fabro
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, workflow-graphs, rust]
 readability: 3
@@ -21,7 +21,7 @@ Execution runs on your laptop or in Daytona cloud sandboxes with SSH and preview
 
 ## Status
 
-Active: 1,690 stars since creation on 2026-03-13, pushed 2026-10-10, per the GitHub API as of 2026-10-10.
+Active: 1,691 stars since creation on 2026-03-13, pushed 2026-10-10, per the GitHub API as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fabro-sh/fabro&type=date&theme=dark&legend=top-left" />
@@ -29,7 +29,7 @@ Active: 1,690 stars since creation on 2026-03-13, pushed 2026-10-10, per the Git
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=fabro-sh/fabro&type=date&theme=dark&legend=top-left" />
 </picture>
 
-**Every tagged release is a nightly prerelease (v0.381.0-nightly.0 of 2026-10-09 the newest), the Homebrew tap serves fabro-nightly, and no stable release exists.**
+**Every tagged release is a nightly prerelease (v0.382.0-nightly.0 of 2026-10-10 the newest), the Homebrew tap serves fabro-nightly, and no stable release exists.**
 The independent footprint is two self-submitted Show HN threads at 7 and 6 points, where the author names Stripe's Minions and Factory.ai Droids as the analogs and positions Fabro as the open, own-your-toolchain alternative.
 
 ## Strengths
@@ -78,6 +78,6 @@ Not for anyone needing stable tagged releases, proven scale, or a factory that a
 - https://github.com/fabro-sh/fabro - repository, feature table, example workflow, install methods, and license
 - https://docs.fabro.sh/getting-started/why-fabro - the problem framing, the DOT-graph model, and the verification layers
 - https://news.ycombinator.com/item?id=47652404 - the author's launch thread, analogs, and positioning
-- https://api.github.com/repos/fabro-sh/fabro/releases - the nightly-only release train, v0.381.0-nightly.0 newest as of 2026-10-10
+- https://api.github.com/repos/fabro-sh/fabro/releases - the nightly-only release train, v0.382.0-nightly.0 newest as of 2026-10-11
 - https://hn.algolia.com/api/v1/search?query=fabro&tags=story - the thin independent-discussion footprint this note records
 - https://github.com/varun1505/awesome-software-factories - the third-party curated list that surfaced this note

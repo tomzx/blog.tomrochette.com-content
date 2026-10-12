@@ -1,7 +1,7 @@
 ---
 title: OpenResearch
 created: 2026-10-05
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, autoresearch, multi-agent, alphaXiv]
 readability: 3
@@ -24,7 +24,7 @@ The agent-facing surface is first-class: `orx install-skills` installs a skill i
 
 ## Status
 
-Active and fast-moving: 6,823 stars, 441 forks, 91 open issues and pull requests, created 2026-06-07, last push 2026-10-10, with releases v0.2.13 through v0.2.18 landing between September 29 and October 9, as of 2026-10-10.
+Active and fast-moving: 6,866 stars, 443 forks, 97 open issues and pull requests, created 2026-06-07, last push 2026-10-10, with releases v0.2.13 through v0.2.18 landing between September 29 and October 9, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alphaXiv/OpenResearch&type=date&theme=dark&legend=top-left" />
@@ -82,8 +82,8 @@ Not for anyone who needs a supported product, a security-reviewed remote deploym
 ## References
 
 - https://github.com/alphaXiv/OpenResearch - README: harness support, the autoresearch loop, worktrees, experiment tree, run-anywhere list, telemetry policy, local-first store, and the remote no-auth admission (fetched 200, 2026-10-05)
-- https://api.github.com/repos/alphaXiv/OpenResearch - stars, forks, open issues, created and push dates, and the MIT license (fetched 200, 2026-10-05)
-- https://api.github.com/repos/alphaXiv/OpenResearch/releases - v0.2.15 (2026-10-02) and the release cadence across late September (fetched 200, 2026-10-05)
+- https://api.github.com/repos/alphaXiv/OpenResearch - stars, forks, open issues, created and push dates, and the MIT license (fetched 200, 2026-10-11)
+- https://api.github.com/repos/alphaXiv/OpenResearch/releases - v0.2.18 (2026-10-09) still latest and the release cadence across late September (fetched 200, 2026-10-11)
 - https://openresearch.sh/ - positioning ("autoresearch on your machine"), the alphaXiv project attribution, and the compute marketplace (fetched 200, 2026-10-05)
 - https://openresearch.sh/docs - the compute marketplace overview: provider comparison, provisioning, and the orx CLI (fetched 200, 2026-10-05)
 - https://openresearch.sh/docs/billing - provider-rate pass-through with no markup, prepaid balances, and zero-balance termination (fetched 200, 2026-10-05)

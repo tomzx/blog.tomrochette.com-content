@@ -13,7 +13,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [1Code](1code/index.md) - the Apache-2.0 Cursor-like agent client that pulled 5.6k stars in two months, went silent in March 2026, and was archived by its owner in July, kept as a death record.
 - [AG2](ag2/index.md) - the Apache-2.0 community fork continuing AutoGen's line as an open-source AgentOS while Microsoft's successor absorbs the upstream.
 - [Agent Manager](agent-manager/index.md) - the Apache-2.0 Go tmux TUI running nine coding CLIs with per-CLI status detection and review comments that reach the agent.
-- [Agent Orchestrator](agent-orchestrator/index.md) - the Apache-2.0 Electron kanban workspace over a Go daemon supervising 26-plus coding CLIs, at 13.0k stars under its fourth organization name.
+- [Agent Orchestrator](agent-orchestrator/index.md) - the Apache-2.0 Electron kanban workspace over a Go daemon supervising 26-plus coding CLIs, at 13.1k stars under its fourth organization name.
 - [Agent Swarm](agent-swarm/index.md) - the MIT self-hosted lead/worker platform turning Slack, GitHub, GitLab, Linear, and email intake into pull requests from Docker-isolated workers.
 - [Agent Teams](agent-teams/index.md) - the free AGPL desktop app running boss-and-team coding-agent hierarchies across nine CLIs with file- and hunk-level review controls.
 - [AgentBox](agentbox/index.md) - the MIT CLI that teleports whole projects into sandboxed VM boxes on Docker or five clouds, with sub-second warm checkpoints and host-held credentials.
@@ -21,7 +21,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Agentlas OS](agentlas-os/index.md) - the Apache-2.0 local-first hub keeping specialist agents on hand and spinning up a temporary orchestrator per task inside Claude Code, Codex, Cursor, Gemini, and Antigravity.
 - [AgentsMesh](agentsmesh/index.md) - the BSL-1.1 self-hosted fleet console turning registered machines into AgentPods with tickets, channels, and automated loops.
 - [Agno](agno/index.md) - the Apache-2.0 Python agent platform, formerly Phidata, pairing a self-hosted AgentOS runtime with a $150-per-month control plane.
-- [Archon](archon/index.md) - Cole Medin's MIT workflow engine turning development processes into repo-committed YAML with deterministic gates around AI nodes, one worktree per run, and Slack, Telegram, GitHub, and Discord triggers, 23.6k stars.
+- [Archon](archon/index.md) - Cole Medin's MIT workflow engine turning development processes into repo-committed YAML with deterministic gates around AI nodes, one worktree per run, and Slack, Telegram, GitHub, and Discord triggers, 23.7k stars.
 - [Atlas](atlas/index.md) - the Apache-2.0 Rust desktop app that treats source control as the product, turning every agent run into a checkpoint linking commits to prompts, tool calls, and reasoning.
 - [AutoGen](autogen/index.md) - Microsoft's conversational multi-agent framework, now in maintenance mode with Microsoft Agent Framework as the designated successor.
 - [AutoGPT](autogpt/index.md) - the 2023 autonomous-agent phenomenon rebuilt as an active hosted-plus-self-host workflow platform with a visual builder and marketplace.
@@ -41,6 +41,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [EvoAgentX](evoagentx/index.md) - the MIT Python framework that generates multi-agent workflows from a goal and evolves them with TextGrad, AFlow, MIPRO, and EvoPrompt, quiet since August 2026.
 - [Flowise](flowise/index.md) - the Workday-acquired visual LLM builder archived in August 2026, kept here as the genre's clearest post-mortem.
 - [Foremerge](foremerge/index.md) - the Apache-2.0 protocol where parallel agents publish what they are about to change before they change it, catching the plan collisions Git merges without complaint, from GPTree's internal tooling.
+- [Gas City](gascity/index.md) - the MIT orchestration-builder SDK extracted from the shut-down Gas Town, six primitives and zero hardcoded roles, the category's first build-your-own-orchestrator toolkit and its living lineage record.
 - [Gas Town](gastown/index.md) - Steve Yegge's tmux town of 20-30 supervised agents, shut down in September 2026 after Yegge admitted he never successfully built anything with it, kept as the category's cautionary record.
 - [GraphCode](graphcode/index.md) - the FSL-licensed native macOS workspace arranging live agent loops into a graph with hand-off, message, and spawn edges.
 - [Happy Coder](happy-coder/index.md) - the MIT encrypted mobile client wrapping Claude Code and Codex sessions, 24.1k stars, second only to cmux among the category's session multiplexers.
@@ -48,30 +49,32 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Helmor](helmor/index.md) - the Apache-2.0 local-first desktop workbench running agents across worktrees through review, test, merge, and one-click PR.
 - [herdr](herdr/index.md) - the Apache-2.0 Rust terminal-multiplexer daemon that owns coding agents' terminals, restores layouts and conversations across restarts for 18 CLIs, and lets agents prompt each other over a CLI and socket API, 43.3k stars, YC F26 with a $6M seed.
 - [Hive](hive/index.md) - Aden's Apache-2.0 Python colony runtime where a Queen agent spawns worker clones of itself around a shared ledger, built for business-process automation, 11.1k stars with a release train quiet since May.
+- [Jean](jean/index.md) - the Coolify team's Apache-2.0 Tauri dev environment giving every task its own worktree across nine coding CLIs, with local and jean-server projects in one sidebar and a token-authenticated web UI.
 - [JetBrains Air](jetbrains-air/index.md) - the standalone agentic environment running Codex, Claude Agent, Gemini CLI, and Junie in parallel, isolated per task and bundled with the AI subscription.
 - [Lanes](lanes/index.md) - the macOS board workspace running parallel PTY agent sessions on worktrees, with a self-hostable MCP access layer.
-- [LangGraph](langgraph/index.md) - LangChain's MIT graph runtime for stateful agents, 3.7M npm downloads a week, durable execution and interrupts with LangSmith as the separate commercial layer.
+- [LangGraph](langgraph/index.md) - LangChain's MIT graph runtime for stateful agents, 3.8M npm downloads a week, durable execution and interrupts with LangSmith as the separate commercial layer.
 - [LobeHub](lobehub/index.md) - LobeChat's pivot into a Chief Agent Operator that hires, schedules, and reports on agents around the clock.
 - [LoopTroop](looptroop/index.md) - the MIT local GUI orchestrator using multi-model council planning, atomic beads, and fresh-context Ralph loops over OpenCode.
-- [Mastra](mastra/index.md) - the TypeScript agent framework from the Gatsby team, 7.3M npm downloads a month and $35M raised, scarred by a June 2026 npm supply-chain attack.
+- [Mastra](mastra/index.md) - the TypeScript agent framework from the Gatsby team, 8.3M npm downloads a month and $35M raised, scarred by a June 2026 npm supply-chain attack.
 - [MetaGPT](metagpt/index.md) - FoundationAgents' software-company-as-multi-agent framework, quiet since v0.8.2 with the energy moved to OpenManus.
 - [Multica](multica/index.md) - the source-available, self-hostable workspace that assigns issues to coding agents as teammates, 52.4k stars as of 2026-10-10.
 - [oh-my-codex](oh-my-codex/index.md) - the MIT workflow layer for OpenAI Codex CLI adding skills, hooks, HUD, memory, and worktree team execution.
 - [Omnara](omnara/index.md) - the YC S25 Apache-2.0 Go control plane where agents are YAML and supervision happens from dashboard, phone, CLI, API, or Slack.
-- [Open Swarm](open-swarm/index.md) - the AGPL-3.0 local mission-control canvas for launching and approving several Claude agents with per-session cost tracking.
+- [Open Swarm](open-swarm/index.md) - the former AGPL-3.0 local mission-control canvas, pivoted in October 2026 to a proprietary Open Swarm Inc. consumer assistant with the repo left as a signed-builds shell, kept as the category's second pivot record.
 - [OpenRig](openrig/index.md) - the Apache-2.0 local control plane turning Claude Code, Codex, and Pi sessions into a YAML-defined, snapshot-restorable team.
 - [Orca](orca/index.md) - the MIT agent development environment running 27+ coding agents in worktrees across desktop, mobile, and remote.
+- [Orkas](orkas/index.md) - the MIT local-first commander-and-specialist desktop whose nine specialists ship installed, driving five coding CLIs as local sessions with reflection-based self-evolution and a credits-priced managed-models tier still in sandbox checkout.
 - [Paseo](paseo/index.md) - the open-source daemon driving coding agents from desktop, web, and native mobile apps, self-hosted and solo-maintained.
 - [PraisonAI](praisonai/index.md) - the MIT Python low-code framework assembling self-reflecting multi-agent workforces with a dashboard, MCP support, and Docker isolation.
 - [Raven](raven/index.md) - the Apache-2.0 DAG-planning host agent over its own Research, Code, Design, and Oncall agents plus Claude Code and Codex, with trajectory replay and an AI-comments launch caution.
-- [Ruflo](ruflo/index.md) - the MIT meta-harness over Claude Code and Codex with 100+ agents, swarms, memory, and federation, 74.2k stars inherited from the claude-flow rename.
+- [Ruflo](ruflo/index.md) - the MIT meta-harness over Claude Code and Codex with 100+ agents, swarms, memory, and federation, 74.3k stars inherited from the claude-flow rename.
 - [Sandcastle](sandcastle/index.md) - the MIT TypeScript library and CLI orchestrating agents in Docker, Podman, or Vercel sandboxes with merge-back.
 - [Scion](scion/index.md) - GoogleCloudPlatform's Apache-2.0 container hypervisor giving each agent a container, worktree, and credentials, from laptop to HA, an experimental unsupported testbed.
 - [Sim](sim/index.md) - the Apache-2.0 YC X25 visual agent-workflow builder positioned to inherit Flowise's stranded users.
 - [Squad](squad/index.md) - Brady Gaster's MIT CLI that runs a persistent, human-led agent team as versioned repo files inside GitHub Copilot CLI.
 - [Superset](superset/index.md) - the YC-backed, source-available agentic IDE running parallel CLI agents in worktrees on your own subscriptions.
 - [Symphony](symphony/index.md) - OpenAI's Apache-2.0 spec-first scheduler turning tracker issues into isolated autonomous implementation runs, 27.6k stars on a preview whose train stopped in mid-September.
-- [T3 Code](t3code/index.md) - Ping.gg's MIT control surface driving Claude Code, Codex, Cursor, Grok Build, OpenCode, and Antigravity from native iOS, Android, web, and Electron clients on the subscriptions you already pay, 26.7k stars in eight months.
+- [T3 Code](t3code/index.md) - Ping.gg's MIT control surface driving Claude Code, Codex, Cursor, Grok Build, OpenCode, and Antigravity from native iOS, Android, web, and Electron clients on the subscriptions you already pay, 26.9k stars in eight months.
 - [The Perfect Orchestrator](the-perfect-orchestrator/index.md) - the MIT bash and tmux harness where one lead Claude Code session adversarially verifies N worker sessions.
 - [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown, community commits resumed in September 2026 but only a v0.1.45 tag, npm still at 0.1.44.
 - [Worktrunk](worktrunk/index.md) - the Rust `wt` CLI making worktrees as easy as branches, with lifecycle hooks and a one-command merge.
@@ -147,3 +150,6 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-10-10 - Added AgentBox.
 - 2026-10-10 - Added EvoAgentX.
 - 2026-10-10 - Added herdr.
+- 2026-10-12 - Added Gas City.
+- 2026-10-12 - Added Jean.
+- 2026-10-12 - Added Orkas.

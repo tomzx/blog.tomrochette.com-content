@@ -1,7 +1,7 @@
 ---
 title: Memex
 created: 2026-09-20
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Made by an independent developer, MIT-licensed, with no cloud service in the def
 
 ## Status
 
-Active and quietly growing: created 2026-01-01, 246 stars, 33 forks, pushed 2026-10-06, as of 2026-10-07.
+Active and quietly growing: created 2026-01-01, 251 stars, 35 forks, pushed 2026-10-07, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nicosuave/memex&type=date&theme=dark&legend=top-left" />
@@ -85,7 +85,7 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 ## References
 
 - https://github.com/nicosuave/memex - repository, description, engine support table, surfaces
-- https://api.github.com/repos/nicosuave/memex - stars, forks, dates, MIT license as of 2026-10-06
+- https://api.github.com/repos/nicosuave/memex - stars, forks, dates, MIT license as of 2026-10-11
 - https://raw.githubusercontent.com/nicosuave/memex/main/README.md - features, engine matrix, install, MCP server, herdr plugin, and the remote-embeddings warning that transcript text and memory documents are sent to the configured API (fetched 2026-10-04)
 - https://github.com/nicosuave/memex/releases - v0.25.0 (2026-10-02), the v0.26.0, v0.26.1, v0.27.0 releases of 2026-10-03, and v0.27.1 (2026-10-04, no notes published)
 - https://raw.githubusercontent.com/nicosuave/memex/main/docs/installation.md - brew, AUR, Nix, and cargo install paths

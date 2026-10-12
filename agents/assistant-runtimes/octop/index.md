@@ -1,7 +1,7 @@
 ---
 title: Octop
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, python, self-hosted, open-source]
 readability: 3
@@ -26,7 +26,7 @@ It is published under the TencentCloud GitHub org and built from four focused su
 
 ## Status
 
-Fast out of the gate and young: 8,385 stars and 1,024 forks in its first three months as of 2026-10-10 (created 2026-07-08, pushed 2026-10-10), 711 open issues, MIT.
+Fast out of the gate and young: 8,579 stars and 1,051 forks in its first three months as of 2026-10-11 (created 2026-07-08, pushed 2026-10-10), 722 open issues, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/Octop&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ GitHub releases run a beta line (v1.0.2b4 on 2026-09-27 through v1.0.2b6 on 2026
 ## Cautions
 
 - Zero English-language technical scrutiny: the only independent trace this run found is a 1-point Hacker News thread from 2026-10-06.
-- The release line is beta-tagged (v1.0.2b6) and PyPI lags GitHub, so pin versions deliberately.
+- The release line is beta-tagged (v1.0.2b6, now also published on PyPI while the stable channel stays at 1.0.1), so pin versions deliberately.
 - The one-line installer pulls its script from a Tencent Cloud COS bucket, and the docs, community, and channel gravity are China-first like AstrBot and QwenPaw.
 - The runtime sub-repo (octop-harness) stands at 39 stars, which says the ecosystem is the org's own code rather than a community.
 
@@ -71,6 +71,7 @@ The disagreeable claim I will defend: multi-user is the assistant category's nex
 ## Changes
 
 - 2026-10-07 - Created from the entrant scan as the category's fifteenth member.
+- 2026-10-11 - Corrected the PyPI claim (v1.0.2b6 is now published there while the stable channel stays at 1.0.1), with refreshed adoption numbers.
 
 ## See also
 

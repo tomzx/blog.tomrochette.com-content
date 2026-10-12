@@ -1,7 +1,7 @@
 ---
 title: Agent Analytics
 created: 2026-09-27
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, session-analytics, analytics, mcp, open-source]
 readability: 3
@@ -19,13 +19,13 @@ Agent Analytics is an agent-readable web analytics platform: one tracker script 
 The open-source server accepts a single `tracker.js` tag that captures page views, paths, referrers, UTM sources, sessions, device and browser, country, and first-touch attribution, with optional custom events, consent mode, click tracking, errors, performance, vitals, SPA tracking, and opt-in session replay.
 Analytics are exposed to agents rather than humans: an operating skill and an autoresearch skill, an MCP server, an official CLI, and an HTTP API, backed by an OpenAPI 3.1 spec and LLM-readable `llms.txt` and `llms-full.txt` exports.
 The self-hosted server runs on Cloudflare Workers plus D1, on Docker or Kubernetes with SQLite, or as a plain Node process you point the CLI at.
-Documented integrations cover Claude Code, Claude Desktop and Cowork, Codex, Cursor, OpenClaw, Paperclip, Hermes, Instinct, and OpenWork.
+Documented integrations cover Claude Code, Claude Desktop and Cowork, Codex, ChatGPT (through the hosted MCP server in OpenAI developer mode, with local plugin testing only and no public plugins-directory listing yet), Cursor, OpenClaw, Paperclip, Hermes, Instinct, and OpenWork.
 Made by Agent Analytics, the same maintainer behind the Awesome Multi-Agent Orchestrators directory.
 The README claims MIT, but I could not find a LICENSE file on the default branch.
 
 ## Status
 
-The hosted product has moved faster than the open-source server: the main repository has 17 stars, was created 2026-02-06, and went five months quiet before a single 2026-10-09 commit ("Update Core to 0.2.3 and CLI release examples"), while the CLI is a published npm package (@agent-analytics/cli, latest 0.5.37, published 2026-10-09) and sibling repos in the org were pushed through September 2026, as of 2026-10-10.
+The hosted product has moved faster than the open-source server: the main repository has 17 stars, was created 2026-02-06, and went five months quiet before a single 2026-10-09 commit ("Update Core to 0.2.3 and CLI release examples"), while the CLI is a published npm package (@agent-analytics/cli, latest 0.5.37, published 2026-10-09) and sibling repos in the org were pushed through September 2026, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Agent-Analytics/agent-analytics&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for observing coding-agent sessions, token cost, or provenance, despite livi
 - 2026-09-27 - Created.
 - 2026-10-07 - Added the Agent-Analytics/agent-analytics star history chart to the Status section.
 - 2026-10-10 - Recorded the main repository's first push since May (the 2026-10-09 Core 0.2.3 and CLI-release-examples commit, with the npm CLI at 0.5.37 published the same day); star count unchanged at 17.
+- 2026-10-11 - Added the documented ChatGPT integration (hosted MCP through OpenAI developer mode, local plugin testing only, not yet in the public plugins directory); repository counts re-verified unchanged.
 
 ## See also
 
@@ -91,7 +92,7 @@ Not for observing coding-agent sessions, token cost, or provenance, despite livi
 
 ## References
 
-- https://agentanalytics.sh/ - the pricing tiers, the free and metered cloud plans, and the agent-first pitch (the pricing section renders client-side as of 2026-10-07, so the tier figures stay dated 2026-09-27)
+- https://agentanalytics.sh/ - the pricing tiers, the free and metered cloud plans, and the agent-first pitch (the pricing section rendered client-side again on 2026-10-11, so the tier figures stay dated 2026-09-27)
 - https://github.com/Agent-Analytics/agent-analytics - the open-source server repository, its activity, and the missing license file
 - https://raw.githubusercontent.com/Agent-Analytics/agent-analytics/main/README.md - the capability list, self-host routes, and CLI usage
 - https://docs.agentanalytics.sh/ - the docs home, the product-system model, and the list of access surfaces and integrations

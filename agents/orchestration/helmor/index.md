@@ -23,7 +23,7 @@ macOS (Apple Silicon and Intel) and Windows x64 are the supported desktop platfo
 
 ## Status
 
-Active but cooling: about 1,306 stars and 120 forks as of 2026-10-04, created 2026-04-02, with 1,831 commits.
+Active but cooling: about 1,310 stars and 119 forks as of 2026-10-11, created 2026-04-02, with 1,831 commits.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dohooo/helmor&type=date&theme=dark&legend=top-left" />

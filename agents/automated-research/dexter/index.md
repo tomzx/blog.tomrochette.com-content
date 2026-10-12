@@ -1,7 +1,7 @@
 ---
 title: Dexter
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, autonomous-agent, financial-research, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Every run lands in a JSONL scratchpad (`.dexter/scratchpad/`) recording the quer
 
 ## Status
 
-Active: 27,652 stars, 3,410 forks, created 2025-10-14, last push 2026-09-23, latest release v1.1.0 the same day, as of 2026-10-10.
+Active: 27,652 stars, 3,410 forks, created 2025-10-14, last push 2026-09-23, latest release v1.1.0 the same day, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=virattt/dexter&type=date&theme=dark&legend=top-left" />
@@ -80,7 +80,7 @@ Not for investment decisions, and not for anyone who needs a licensed repository
 ## References
 
 - https://github.com/virattt/dexter - repository, README: overview, capabilities, disclaimer, prerequisites, eval suite, WhatsApp gateway, and the MIT license claim (fetched 200, 2026-10-10)
-- https://api.github.com/repos/virattt/dexter - stars, forks, created and pushed dates, TypeScript language, and the null detected license for the as-of status (fetched 200, 2026-10-10)
+- https://api.github.com/repos/virattt/dexter - stars, forks, created and pushed dates, TypeScript language, and the null detected license for the as-of status (fetched 200, 2026-10-11)
 - https://raw.githubusercontent.com/virattt/dexter/main/README.md - the README source: tool surface, model and data keys, scratchpad layout, and eval runner (fetched 200, 2026-10-10)
 - https://api.github.com/repos/virattt/dexter/releases?per_page=5 - the release train through v1.1.0 (2026-09-23) (fetched 200, 2026-10-10)
 - https://hn.algolia.com/api/v1/search?query=Dexter%20financial&tags=story - the two one-point, zero-comment Hacker News stories behind the discussion-footprint claim (fetched 200, 2026-10-10)

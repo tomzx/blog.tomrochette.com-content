@@ -1,7 +1,7 @@
 ---
 title: Ante
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, single-binary, local-models]
 readability: 3
@@ -25,7 +25,7 @@ Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sd
 ## Status
 
 **Active, preview-stage, and growing fast for a five-month-old repo.**
-2,003 stars and 69 forks as of 2026-10-07, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise.
+2,010 stars and 70 forks as of 2026-10-11, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise that has since carried patch releases through v0.2.10 (October 11, 2026).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AntigmaLabs/ante&type=date&theme=dark&legend=top-left" />
@@ -98,7 +98,7 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 
 ## References
 
-- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 2,003 stars as of 2026-10-07
+- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 2,010 stars as of 2026-10-11
 - https://docs.antigma.ai/ - architecture, offline mode, providers, footprint claims
 - https://antigma.ai/eval - self-reported Terminal-Bench 2.1 results, pinned builds and Harbor runs
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/README.md - feature surface and provider list

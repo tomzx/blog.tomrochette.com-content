@@ -1,7 +1,7 @@
 ---
 title: LangChain
 created: 2026-08-24
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, agents, frameworks]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 LangChain is the largest open source LLM application framework, repositioned in 2026 as an "agent engineering platform" spanning the create_agent harness, LangGraph orchestration, Deep Agents, and a terminal coding agent called dcode.
 
-**The coding-agent angle is now real and first-party: LangChain ships its own terminal coding agent, which moves it from "tooling you might build on" to "competitor in your harness choice".**
+**The coding-agent angle is now concrete and first-party: LangChain ships its own terminal coding agent, which moves it from "tooling you might build on" to "competitor in your harness choice".**
 
 ## What it is
 
@@ -23,7 +23,7 @@ The commercial side is LangSmith: tracing, evaluation, deployment, sandboxes, an
 ## Status
 
 Active and dominant by footprint.
-The `langchain-ai/langchain` repository shows 147.5k stars (147,536) and 24.8k forks as of 2026-10-10, recovering above the 147.4k recorded 2026-10-09, with 16,965 commits as of 2026-10-10.
+The `langchain-ai/langchain` repository shows 147.6k stars (147,579) and 24.8k forks as of 2026-10-11, extending the recovery above the 147.4k recorded 2026-10-09, with 16,965 commits as of 2026-10-10.
 The next-day recovery supports the reading that the dip was GitHub's periodic removal of bulk-created accounts, not an adoption signal.
 
 <picture>
@@ -51,7 +51,7 @@ The next-day recovery supports the reading that the dip was GitHub's periodic re
 ## Pricing
 
 OSS (LangChain, LangGraph, Deep Agents, dcode): free, MIT.
-LangSmith as of 2026-10-07: Developer $0 with 5k base traces/month, Plus $39/seat/month with 10k base traces, Enterprise custom, with usage metered in LangChain Standard Units at $1.00 per LSU across Deployment, Sandboxes, Engine, and Fleet.
+LangSmith as of 2026-10-11: Developer $0 with 5k base traces/month, Plus $39/seat/month with 10k base traces, Enterprise custom, with usage metered in LangChain Standard Units at $1.00 per LSU across Deployment, Sandboxes, Engine, and Fleet.
 **The framework is free forever; the operations layer around it is where the bill lives.**
 
 ## Price history
@@ -83,6 +83,7 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 - 2026-10-07 - Added the langchain-ai/langchain star history chart to the Status section.
 - 2026-10-09 - Recorded the first star-count decline in the note's tracking, 147.4k (147,424) as of 2026-10-09 against 147.5k recorded 2026-10-07, and re-verified LangSmith pricing unchanged.
 - 2026-10-10 - Recorded the star count recovering to 147.5k (147,536) one day after the first recorded decline, supporting the bulk-account-removal reading, with commits refreshed to 16,965.
+- 2026-10-11 - Reworded a banned-term word out of the thesis and refreshed the volatile numbers (147.6k stars, 147,579, as of 2026-10-11); LangSmith pricing re-verified unchanged.
 
 ## See also
 
@@ -93,9 +94,9 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 
 ## References
 
-- https://github.com/langchain-ai/langchain - repository scale (147.5k stars), MIT license, platform positioning, as of 2026-10-10
+- https://github.com/langchain-ai/langchain - repository scale (147.6k stars), MIT license, platform positioning, as of 2026-10-11
 - https://docs.langchain.com/oss/deepagents/code/overview.md - dcode, the terminal coding agent built on Deep Agents
 - https://docs.langchain.com/oss/python/langchain/retrieval.md - RAG architectures: 2-step, agentic, hybrid, and the agentic-RAG-first framing
-- https://www.langchain.com/pricing - LangSmith tiers and LSU metering, as of 2026-10-07 (re-verified unchanged 2026-10-09)
+- https://www.langchain.com/pricing - LangSmith tiers and LSU metering, as of 2026-10-11 (re-verified unchanged; previously recorded 2026-10-07 and 2026-10-09)
 - https://news.ycombinator.com/item?id=40739982 - the Octomind critique thread with the CEO's response acknowledging over-abstraction
 - https://python.langchain.com/api_reference/text_splitters/text_splitters/code_splitter.html - current text splitters catalog, showing separator-based code splitting only

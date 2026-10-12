@@ -23,7 +23,7 @@ It self-describes as supporting 26 agent CLIs (Claude Code, Codex, Cursor, Copil
 
 ## Status
 
-Actively shipped and unusually high-profile: about 51,967 stars and 6,751 forks as of 2026-10-05, created 2026-01-13, with 1,780 open issues and pull requests and a latest release of v0.6.1 on 2026-10-01.
+Actively shipped and unusually high-profile: about 52,445 stars and 6,832 forks as of 2026-10-11, created 2026-01-13, with 1,858 open issues and pull requests and a latest release of v0.6.1 on 2026-10-01.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=multica-ai/multica&type=date&theme=dark&legend=top-left" />

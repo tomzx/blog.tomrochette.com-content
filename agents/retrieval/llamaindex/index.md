@@ -1,7 +1,7 @@
 ---
 title: LlamaIndex
 created: 2026-08-24
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, retrieval, frameworks]
 readability: 3
@@ -25,7 +25,7 @@ In February 2026 the same team also open-sourced [LiteParse](https://github.com/
 ## Status
 
 Active and heavily used.
-The `run-llama/llama_index` repository shows 52.5k stars, 8.3k forks, and 270 open issues (904 counting pull requests) as of 2026-10-10, with 7,956 commits as of 2026-10-10.
+The `run-llama/llama_index` repository shows 52.5k stars, 8.3k forks, and 271 open issues (902 counting pull requests) as of 2026-10-11, with 7,956 commits as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&theme=dark&legend=top-left" />
@@ -52,7 +52,7 @@ The `run-llama/llama_index` repository shows 52.5k stars, 8.3k forks, and 270 op
 ## Pricing
 
 Framework: free, MIT.
-LlamaParse as of 2026-10-07: Free at 10k credits/month, Starter $50/month with 40k credits, Pro $500/month with 400k credits, Enterprise custom, with 1,000 credits = $1.25 and pay-as-you-go above plan inclusion.
+LlamaParse as of 2026-10-11: Free at 10k credits/month, Starter $50/month with 40k credits, Pro $500/month with 400k credits, Enterprise custom, with 1,000 credits = $1.25 and pay-as-you-go above plan inclusion.
 **You can use the OSS framework forever without LlamaParse; you just stop receiving the maintained parsing and managed index parts.**
 
 ## Price history
@@ -65,7 +65,7 @@ LlamaParse as of 2026-10-07: Free at 10k credits/month, Starter $50/month with 4
 
 - [LangChain](../langchain/index.md): wider agent platform with its own coding agent; choose it for orchestration-heavy systems, LlamaIndex for retrieval-heavy ones.
 - A hand-rolled stack: Continue's custom code RAG guide (LanceDB plus a code embedding model plus an MCP server) replaces most of what a framework buys, in a few hundred lines you fully control.
-- Raw provider SDKs: for a single-provider, single-corpus app, the abstraction tax is real and the HN thread above documents it.
+- Raw provider SDKs: for a single-provider, single-corpus app, the abstraction tax is genuine and the HN thread above documents it.
 
 ## Bottom line
 
@@ -83,20 +83,21 @@ That claim is arguable, which is the point.
 - 2026-09-25 - Refreshed volatile facts: 231 open issues (858 counting pull requests), 7,943 commits, and LiteParse at 12,611 stars; LlamaParse pricing re-confirmed unchanged.
 - 2026-10-07 - Added the run-llama/llama_index star history chart to the Status section.
 - 2026-10-10 - Corrected the pivot wording: the README's NOTE block now states the focus is an AI-powered document parsing and extraction engine with LlamaParse the enterprise platform, LiteParse the free parser, and ParseBench and ExtractBench as open parsing benchmarks, replacing the "document agent and OCR platform" phrasing, and refreshed the repository numbers (52.5k stars, 270 open issues, 7,956 commits).
+- 2026-10-11 - Reworded banned-term words out of the prose and refreshed the volatile numbers (271 open issues, 902 counting pull requests, LiteParse 12,824 stars); LlamaParse pricing re-verified unchanged.
 
 ## See also
 
-- [LangChain](../langchain/index.md) - the other giant framework, now with a real coding-agent entry
+- [LangChain](../langchain/index.md) - the other giant framework, now with a shipped coding-agent entry
 - [Aider](../../harnesses/aider/index.md) - shipping retrieval without embeddings, via a graph-ranked repo map
 - [VS Code Copilot](../../surfaces/vscode-copilot/index.md) - semantic code indexing as shipped by a mainstream tool
 - [The Importance of Context When Interacting with LLMs](../../../the-importance-of-context-when-interacting-with-llms/index.md) - why retrieval quality dominates raw model choice
 
 ## References
 
-- https://github.com/run-llama/llama_index - repository scale (52.5k stars), MIT license, the README's parsing-engine focus note and ParseBench and ExtractBench benchmarks, as of 2026-10-10
-- https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,818 stars, Apache-2.0, pushed 2026-10-09 (GitHub API, as of 2026-10-10)
+- https://github.com/run-llama/llama_index - repository scale (52.5k stars), MIT license, the README's parsing-engine focus note and ParseBench and ExtractBench benchmarks, as of 2026-10-11 (README re-verified unchanged)
+- https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,824 stars, Apache-2.0, pushed 2026-10-09 (GitHub API, as of 2026-10-11)
 - https://docs.llamaindex.ai/en/stable/ - framework documentation structure: RAG pipeline, agents, workflows, LlamaCloud
 - https://developers.llamaindex.ai/python/framework/module_guides/loading/node_parsers/modules/ - CodeSplitter (tree-sitter) and Chunker (Chonkie) node parsers
-- https://www.llamaindex.ai/pricing - LlamaParse tiers, credit pricing, VPC and compliance options, as of 2026-10-07 (re-verified unchanged)
+- https://www.llamaindex.ai/pricing - LlamaParse tiers, credit pricing, VPC and compliance options, as of 2026-10-11 (re-verified unchanged)
 - https://news.ycombinator.com/item?id=40739982 - critical framework-RAG discussion naming LlamaIndex, with the LangChain CEO response
 - https://news.ycombinator.com/item?id=44225930 - Chonkie launch with benchmark claims against LlamaIndex and LangChain chunking

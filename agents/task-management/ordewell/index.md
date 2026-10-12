@@ -1,7 +1,7 @@
 ---
 title: Ordewell
 created: 2026-09-16
-updated: 2026-10-08
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, planner, multi-agent, open-source]
 readability: 3
@@ -10,22 +10,22 @@ audience_notes: >
   Assumes you run at least one coding agent CLI and know what a dependency graph is.
 ---
 
-Ordewell is an Apache-2.0 TypeScript CLI, terminal UI, and VS Code extension that turns one goal into an ordered plan of coding-agent tasks, each with its own runner, model, thinking effort and mode, then executes the plan and completes a task only when that task's marker appears in the runner output.
+Ordewell is an Apache-2.0 TypeScript CLI, terminal UI, and VS Code extension that turns one goal into an ordered plan of coding-agent tasks, each with its own runner, model, thinking effort and mode, then executes the plan and completes a task only on that task's explicit `task_complete` tool call, evidence a runner cannot produce by accident.
 
-**The plan as a typed artifact you can rewrite before a token is spent, plus completion decided by markers rather than the model's own verdict, is the design worth stealing, and the launch thread's AI-written-replies episode is the caution this section exists to record.**
+**The plan as a typed artifact you can rewrite before a token is spent, plus completion decided by an explicit tool call rather than the model's own verdict, is the design worth stealing, and the launch thread's AI-written-replies episode is the caution this section exists to record.**
 
 ## What it is
 
-An npm package (`ordewell`, also published scoped as `@ordewell/cli`, Node 20+, tmux for the TUI) with three surfaces over one core: a CLI, a chat-left-plan-right terminal UI, and a VS Code extension that bundles its own core.
+An npm package (`ordewell`, also published scoped as `@ordewell/cli`, Node 20+) with three surfaces over one core: a CLI, a chat-left-plan-right terminal UI, and a VS Code extension that bundles its own core.
 A planner researches the repo read-only, interrogates a vague goal in conversation instead of guessing, and commits the plan as JSON; planning is one continuous message loop (ADR-0002) with no approve buttons.
 Every task then runs as a real coding-agent session in a fresh context, handed its predecessors' results, with independent tasks running in parallel and the dependency graph always respected.
-Runners are pluggable: Claude Code, Codex, and OpenCode ship built in, anything else is a plugin manifest, the planner can itself be one of those agents on a subscription you already hold, and 25 API-key providers are recognized for standalone use.
+Runners are the three built-in coding agents, Claude Code, Codex, and OpenCode, driven only through their structured protocols since v0.8.0 removed the terminal transport and plugin runners; the planner can itself be one of those agents on a subscription you already hold, and 25 API-key providers are recognized for standalone use.
 The planner's permissions are unusually explicit (ADR-0008): commands classify into auto, ask, and refuse tiers, refuse is not promptable, paths are confined to the workspace, and its docs concede this is a denylist over a real shell rather than an OS sandbox.
 
 ## Status
 
 Active, young, and small.
-As of 2026-10-10: 193 stars, 16 forks, 43 open issues, created 2026-07-31, pushed 2026-10-10, latest release v0.7.2 on 2026-10-07, and roughly 7,100 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+As of 2026-10-11: 196 stars, 17 forks, 45 open issues, created 2026-07-31, pushed 2026-10-10, latest release v0.9.0 on 2026-10-10, and roughly 7,100 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ordewell/ordewell&type=date&theme=dark&legend=top-left" />
@@ -33,15 +33,14 @@ As of 2026-10-10: 193 stars, 16 forks, 43 open issues, created 2026-07-31, pushe
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ordewell/ordewell&type=date&legend=top-left" />
 </picture>
 
-v0.7.0 moved completion and planning onto Ordewell's own tools: a task reports done with `task_complete` and asks with `checkpoint` instead of printing markers, the planner reads the live runner catalog and submits the plan through tools, and the printed marker stays as the fallback for the terminal transport, plugin runners, and sessions where the server did not attach; it landed a day after the three 0.6.x fix releases of 2026-10-04, which completed a five-release v0.6.x line begun by the 2026-10-02 pair that made the structured transport the default with Codex and OpenCode connectors and added ops tasks and merge gates (ADR-0020), so a task that acts on the world runs once the work it depends on is merged.
-v0.7.1 (2026-10-06) made messages reach a running task between tool calls instead of at the turn's end (ADR-0023), added force send (ctrl-s in the TUI, Send now in VS Code), and let checkpoints be answered from the TUI and the CLI.
-v0.7.2 (2026-10-07) is a security release: whole classes of planner shell commands that should have been refused were slipping past the refusal tier (shell negation prefixes, substitutions past the first 32, interpreters fed through stdin, every spelling of an inline-code flag, quoting and escaping that hid a command inside a substitution, re-cased command names, and Windows cmd forms), and each is now refused, continuing the security pairs of the 0.6.x line.
+The 0.6.x line (2026-10-02 to 2026-10-04) made the structured transport the default with Codex and OpenCode connectors, added ops tasks and merge gates (ADR-0020), and shipped two security releases, and v0.7.x continued the pattern: v0.7.0 moved completion and planning onto Ordewell's own tools with the printed marker as a fallback, v0.7.1 delivered messages between tool calls (ADR-0023), and v0.7.2 (2026-10-07) closed refusal-tier bypass classes (shell negation, hidden substitutions, interpreter spellings, Windows cmd forms).
+Three releases landed on 2026-10-10: v0.8.0 removed the terminal transport, plugin runners, and the printed completion marker, making an attempt-bound `task_complete` call the only completion path and the `checkpoint` tool the only question path (ADR-0025), unified planner and task skills as Agent-Skills-format folders that can live committed in the workspace, and closed two escapes, a Claude Code planner writing through its native plan file and a runner inheriting another Ordewell's MCP credentials; v0.8.1 raised the default parallel task count from three to five; v0.9.0 put harness planners under the same research envelope as the API planner (ADR-0026), with a shared read-only allowlist for commands and MCP tools, repository-supplied approval settings refused, and path-named programs always asking.
 The Show HN launch thread reached 56 points and 30 comments on 2026-09-15.
 
 ## Strengths
 
 - The plan is editable structured data: change a task's runner, model, effort, or mode without losing completed work or round-tripping the AI.
-- Marker-based completion is a verification primitive this category mostly lacks; a task completes on evidence, exit codes are kept as diagnostics, and manual marks can be reversed.
+- Tool-call completion is a verification primitive this category mostly lacks; a task completes on an explicit `task_complete` call from its own attempt, not on the model's prose, and exit codes are kept as diagnostics.
 - Per-task model assignment is a portfolio decision made in the open, so a security refactor and a README update do not get the same model.
 - The exploration envelope (ADR-0008) is the most explicit read-only planner discipline profiled in this section, including the admission of its own limits.
 
@@ -50,8 +49,8 @@ The Show HN launch thread reached 56 points and 30 comments on 2026-09-15.
 - **The launch thread's defining exchange is the transparency record: a commenter observed that everything about the project, including author replies in the comments, is AI-written, and the maintainer confirmed heavy AI use for the docs and code while standing behind the design.**
 - Replying to people with AI-generated text drew a specific objection in the same thread, so treat the repo's discourse hygiene as part of the adoption decision.
 - The same thread carried the standing structural objection to meta-frameworks: any advance gets absorbed into Claude and Codex within months, and this tool's planner-plus-runners surface is exactly the kind that absorption targets.
-- The v0.7.x line and a star count under 200 mean churn is likely; ADR-0002 records saved sessions being wiped without migration on that rewrite.
-- The planner's shell control is a denylist classifier over a real shell, not a sandbox (ADR-0011 tracks that gap), and v0.7.2's release notes read like an inventory of the bypasses that classification invites, after the 0.6.x security pairs; treat the refusal tiers as hardening in progress, not a settled defense.
+- The v0.8.0 boundary release removed transports, plugins, and the completion marker outright, and a star count under 200 means churn is likely; ADR-0002 records saved sessions being wiped without migration on an earlier rewrite.
+- The planner's shell control is a denylist classifier over a real shell, not a sandbox (ADR-0011 tracks that gap), v0.7.2's release notes read like an inventory of the bypasses that classification invites, and v0.9.0's one-envelope rewrite shows the harness planners needed their own pass; treat the refusal tiers as hardening in progress, not a settled defense.
 
 ## Pricing
 
@@ -83,6 +82,7 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - 2026-10-07 - Added the ordewell/ordewell star history chart to the Status section.
 - 2026-10-07 - Recorded the v0.7.1 release (2026-10-06, mid-turn message delivery per ADR-0023, force send, checkpoint answering from the TUI and CLI) and refreshed counts (187 stars, 15 forks).
 - 2026-10-08 - Recorded the v0.7.2 security release (2026-10-07, refusal-tier bypass classes closed after the 0.6.x security pairs) and refreshed counts (pushed 2026-10-07).
+- 2026-10-11 - Recorded the 2026-10-10 release triple: v0.8.0's removals (terminal transport, plugin runners, the completion marker; tool-call-only completion per ADR-0025, unified skills, the Claude Code plan-file and MCP-credential escapes closed), v0.8.1's parallel default of five, and v0.9.0's one-envelope planner research (ADR-0026); refreshed counts (196 stars, 17 forks, 45 open issues).
 
 ## See also
 
@@ -97,9 +97,11 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - https://github.com/ordewell/ordewell - README: plan artifact, runners, marker verification, plugin manifests
 - https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-10-10
 - https://github.com/ordewell/ordewell/blob/main/CHANGELOG.md - the v0.7.0 entry: `task_complete` and `checkpoint` tools, tool-based planning, the marker fallback scope
+- https://raw.githubusercontent.com/ordewell/ordewell/main/CHANGELOG.md - the v0.8.0, v0.8.1, and v0.9.0 entries: the removals, unified skills, the escape closures, and the one-envelope planner research
 - https://ordewell.ai - the product site: surfaces, the plan-execute-verify loop, marker wording
 - https://ordewell.ai/docs.html - install, requirements, headless usage
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0002-planner-as-conversation-loop.md - the conversation-loop decision and the session wipe
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0008-planner-exploration-envelope.md - the auto/ask/refuse tiers and path confinement
 - https://news.ycombinator.com/item?id=49712276 - the launch thread: the AI-written exchange, the absorption objection, 56 points and 30 comments
-- https://api.npmjs.org/downloads/point/last-month/@ordewell/cli - 3,677 downloads last month for the scoped package
+- https://api.npmjs.org/downloads/point/last-month/@ordewell/cli - 3,694 downloads last month for the scoped package
+- https://api.npmjs.org/downloads/point/last-month/ordewell - 3,452 downloads last month for the unscoped package

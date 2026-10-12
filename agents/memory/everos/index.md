@@ -1,7 +1,7 @@
 ---
 title: EverOS
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, markdown, local-first]
 readability: 3
@@ -28,7 +28,7 @@ EverMind also sells EverOS Cloud, a managed deployment of the same engine, and p
 ## Status
 
 **Young, fast-moving, and vendor-led, with the section's familiar thin public footprint.**
-13,393 stars and 927 forks, created 2025-10-28, pushed 2026-10-10, as of 2026-10-10 (GitHub API).
+13,400 stars and 927 forks, created 2025-10-28, pushed 2026-10-10, as of 2026-10-11 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/EverOS&type=date&theme=dark&legend=top-left" />
@@ -85,7 +85,7 @@ Not for teams needing published hosted pricing, independent benchmark evidence, 
 
 ## References
 
-- https://github.com/EverMind-AI/EverOS - repository, 13,393 stars, forks, activity, description, as of 2026-10-10
+- https://github.com/EverMind-AI/EverOS - repository, 13,400 stars, forks, activity, description, as of 2026-10-11
 - https://raw.githubusercontent.com/EverMind-AI/EverOS/main/README.md - the markdown-plus-SQLite-plus-LanceDB stack, the two tracks, scoping ids, reflection, and the integration table
 - https://api.github.com/repos/EverMind-AI/EverOS/license - the Apache-2.0 license file, verified through the GitHub API
 - https://api.github.com/repos/EverMind-AI/EverOS/releases - the v1.4.x release train, as of 2026-10-09
@@ -93,4 +93,4 @@ Not for teams needing published hosted pricing, independent benchmark evidence, 
 - https://docs.evermind.ai - the documentation root: EverOS Cloud, open-source, and API reference surfaces
 - https://evermind.ai - the vendor site: SOTA claims, the EverCore research line, the product family, and the missing published pricing
 - https://hn.algolia.com/api/v1/search?query=everos&tags=story - the footprint scan finding no thread (2026-10-09), the thin-discussion record
-- https://agentmemoryleaderboard.ai/ - the independent academic-consortium leaderboard whose published first-cycle commercial leaders do not include this system
+- https://agentmemoryleaderboard.ai/ - the independent academic-consortium leaderboard whose published first-cycle commercial leaders do not include this system (the site returned 522, origin unreachable, at fetch time on 2026-10-11)

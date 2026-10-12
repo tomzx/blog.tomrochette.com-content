@@ -1,7 +1,7 @@
 ---
 title: Tree-sitter code chunking
 created: 2026-08-24
-updated: 2026-09-26
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-retrieval, chunking, rag, llm=glm-5.3-flash]
 readability: 3
@@ -39,12 +39,12 @@ Aider documents repo-map support across dozens of languages with a per-language 
 
 - **The best-documented practitioner ranks it last**: Continue's custom code RAG guide lists truncation and fixed-length chunking first, notes that a 16k-token embedding model (voyage-code-3) fits most whole files, and calls the recursive AST strategy "most exact, but most complex".
 - AST chunkers degrade silently to line chunking when parsing fails, and almost nobody measures the quality difference on their own corpus.
-- Dependency weight is a real complaint: Chonkie's launch markets 15MB installs against 80-170MB framework rivals, with speed claims (up to 33x token chunking) that are vendor benchmarks, not verified.
+- Dependency weight is a genuine complaint: Chonkie's launch markets 15MB installs against 80-170MB framework rivals, with speed claims (up to 33x token chunking) that are vendor benchmarks, not verified.
 - Chunks stay lexical: embeddings encode names and comments more than behavior, so cleaner boundaries improve recall without fixing semantics.
 
 ## Pricing
 
-Not applicable as a product: tree-sitter is MIT-licensed (grammars typically MIT as well), and the real costs are integration time plus the embedding API bill for whatever you index.
+Not applicable as a product: tree-sitter is MIT-licensed (grammars typically MIT as well), and the actual costs are integration time plus the embedding API bill for whatever you index.
 Continue's guide makes the cost structure explicit: one embedding model, one vector store, a cron-driven re-index at most daily.
 
 ## Compared to
@@ -64,6 +64,7 @@ Continue's own guide, written by people who shipped this at scale, effectively a
 - 2026-08-24 - Created in the Retrieval category seed.
 - 2026-09-16 - Linked the new Chonkie note at the existing dedicated-chunker mention.
 - 2026-09-26 - Corrected the Chonkie mention from "sells" to "ships", since the chunker is a free library feature and the hosted API it once sold is dead.
+- 2026-10-11 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 

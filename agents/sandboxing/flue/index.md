@@ -1,7 +1,7 @@
 ---
 title: Flue
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, agent-frameworks, typescript, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by the Astro Technology Company team under Fred Schott, acquired by Cloudfl
 
 ## Status
 
-Young and fast: 8,443 stars, 508 forks, 70 open issues and PRs as of 2026-10-10, created 2026-02-07, 1,134 commits.
+Young and fast: 8,443 stars, 507 forks, 70 open issues and PRs as of 2026-10-11, created 2026-02-07, 1,134 commits.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=withastro/flue&type=date&theme=dark&legend=top-left" />

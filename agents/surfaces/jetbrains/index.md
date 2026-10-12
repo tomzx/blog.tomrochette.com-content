@@ -1,7 +1,7 @@
 ---
 title: JetBrains IDEs
 created: 2026-08-23
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, jetbrains]
 readability: 3
@@ -49,6 +49,7 @@ The AI layer was unbundled into a separate, removable plugin in March 2024 after
 AI Pro is $8.33 per user/month (annual) and AI Ultimate is $25 per user/month, metered in AI credits, re-observed on 2026-09-27 (the junie.jetbrains.com page again exposed both numbers to static fetch, as it also did on 2026-09-22 after briefly hiding them on 2026-09-20).
 The redesigned page hid both numbers from 2026-10-04 while pitching free-to-start Junie CLI and Junie Local, and the pricing route the AI pages linked (jetbrains.com/ai-ides/buy/) rendered only through JavaScript; as of 2026-10-09 the redesigned page exposes both figures again, unchanged, with the credit metering now stated per 30 days (AI Pro 10 AI Credits, AI Ultimate 35 AI Credits, both with anytime top-ups).
 **Junie BYOK bypasses metering at provider rates** (the page states provider-rate pricing with zero markup and support for locally running models), and the tier starts free: the page now describes that start as Junie Lite, a free model always on in every JetBrains account, where the 2026-09-27 reading recorded it as 5 credits with no card.
+A static fetch on 2026-10-11 rendered the page as a client shell again, so both figures stand as the 2026-10-09 observation, dated.
 
 ## Price history
 
@@ -87,7 +88,7 @@ Not for anyone who needs an open editor or a large community ecosystem.
 ## References
 
 - https://www.jetbrains.com/ai/ - the AI product family entry point
-- https://junie.jetbrains.com/ - plans, credits, and BYOK through 2026-09-27; hidden on the redesigned page from 2026-10-04; both figures exposed again as of 2026-10-09 ($8.33 and $25.00 per user/month, 10 and 35 AI Credits per 30 days, Junie Lite as the free start, BYOK at provider rates with zero markup)
+- https://junie.jetbrains.com/ - plans, credits, and BYOK through 2026-09-27; hidden on the redesigned page from 2026-10-04; both figures exposed again as of 2026-10-09 ($8.33 and $25.00 per user/month, 10 and 35 AI Credits per 30 days, Junie Lite as the free start, BYOK at provider rates with zero markup); a static fetch on 2026-10-11 rendered a client shell again, figures standing as the 2026-10-09 observation
 - https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/ - the Air announcement: Air in IDEs, Air Teams, Air Governance (formerly JetBrains Central), and the ACP Registry
 - https://www.helgilibrary.com/companies/jetbrains - the 2025 Czech statutory figures (revenue CZK 16,008 million, up 6.3%, net loss CZK 315 million), read from the business register and updated October 6, 2026
 - https://news.ycombinator.com/item?id=49977072 - the October 6, 2026 thread on the 2025 results, 579 points

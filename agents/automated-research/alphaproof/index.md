@@ -1,7 +1,7 @@
 ---
 title: AlphaProof
 created: 2026-09-13
-updated: 2026-10-02
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deepmind, mathematics, formal-verification]
 readability: 3
@@ -58,7 +58,7 @@ Deep Think access ships through the Google AI Ultra subscription tier as it roll
 ## Bottom line
 
 **Recommended reading for anyone designing verification-gated agent systems: this is the reference implementation of "the judge is a kernel, the worker is trained on verdicts".**
-Not for practitioners who need a runnable tool today: nothing here is self-hostable, and the Deep Think API path is early-access gated rather than open, as of 2026-10-02.
+Not for practitioners who need a runnable tool today: nothing here is self-hostable, and the Deep Think API path is early-access gated rather than open, as of 2026-10-11.
 
 ## Changes
 

@@ -23,7 +23,7 @@ Around that core it layers a dashboard UI, DAG workflows with human-in-the-loop 
 
 ## Status
 
-Active and shipping fast: 872 stars as of 2026-10-09, created 2025-12-19, with the default branch pushed that day and v1.167.0 published 2026-10-09, one day after v1.166.0 and two after v1.165.0 (GitHub API, releases, as of 2026-10-09).
+Active and shipping fast: 873 stars as of 2026-10-11, created 2025-12-19, with the default branch pushed that day and v1.169.0 published 2026-10-11, two days after v1.167.0 (2026-10-09) (GitHub API, releases, as of 2026-10-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=desplega-ai/agent-swarm&type=date&theme=dark&legend=top-left" />

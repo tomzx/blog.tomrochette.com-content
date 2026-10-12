@@ -23,7 +23,7 @@ It is made by OpenAI, works best in codebases that have adopted its harness-engi
 
 ## Status
 
-Quiet preview: 27,619 stars as of 2026-10-10 on a repository created 2026-02-26 (GitHub API), with both the default branch and the release line last touched 2026-09-15, 25 days before this check.
+Quiet preview: 27,630 stars as of 2026-10-11 on a repository created 2026-02-26 (GitHub API), with both the default branch and the release line last touched 2026-09-15, 26 days before this check.
 The GitHub release line holds four tags: v0.0.2 (2026-07-24), v0.0.3 and a nightly (both 2026-09-15), and nothing since.
 The Elixir reference implementation carries its own warning that it is prototype software for evaluation only.
 

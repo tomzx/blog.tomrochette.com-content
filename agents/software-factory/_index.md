@@ -12,6 +12,7 @@ End-to-end agent factories: stamped pipelines, learning loops, fleet harnesses, 
 
 - [Fabro](fabro/index.md) - the MIT Rust server that runs work as version-controlled Graphviz graphs with human gates and model-routing stylesheets, nightly-only releases.
 - [Fluent](fluent/index.md) - the self-improving factory with a deterministic final Tester and a learning loop, for teams that accept pre-1.0 ceremony.
+- [Fusion](fusion/index.md) - the MIT board-first factory built on Pi that runs every task through plan, review, execute, review steps in worktrees, with multi-node mesh, phone control, and auto-merge on green gates.
 - [HAR](har/index.md) - the open harness that isolates a fleet of coding agents in worktrees with deterministic verification and an evidence trail.
 - [Loki Mode](loki-mode/index.md) - Autonomi's source-available local factory that derives a delivery contract from a brief and closes with a signed, offline-checkable Evidence Receipt.
 - [Machinist](machinist/index.md) - the Go control plane whose named-command entrypoint is the category's strictest agent boundary, early access, zero independent coverage.
@@ -33,3 +34,4 @@ Its members are compared on shared rows in the [Software Factory Feature Matrix]
 - 2026-10-07 - Added SuperPlane.
 - 2026-10-10 - Added Fabro.
 - 2026-10-10 - Added Zeroshot.
+- 2026-10-11 - Added Fusion.

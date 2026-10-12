@@ -1,7 +1,7 @@
 ---
 title: "FrontierHarness Eval"
 created: 2026-09-05
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, coding-agents]
 readability: 3

@@ -1,7 +1,7 @@
 ---
 title: skills.sh
 created: 2026-08-24
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, skills, registries, vercel, agent-extensions]
 readability: 3
@@ -10,13 +10,13 @@ audience_notes: >
   Assumes familiarity with the Agent Skills format and npm-style CLIs.
 ---
 
-skills.sh is Vercel's directory and leaderboard for the open skills ecosystem: it ranks SKILL.md packages by install telemetry from its open-source CLI (`npx skills add <owner>/<repo>`), which installs into 79 agent harnesses as of 2026-10-10.
+skills.sh is Vercel's directory and leaderboard for the open skills ecosystem: it ranks SKILL.md packages by install telemetry from its open-source CLI (`npx skills add <owner>/<repo>`), which installs into 79 agent harnesses as of 2026-10-11.
 
 **It won the registry slot not through curation but by wrapping git: any repository is already a package, the CLI symlinks it into every harness, and the resulting install counts became the ecosystem's ranking, with security review still catching up.**
 
 ## What it is
 
-Launched 2026-01-20 by Vercel's labs team; the CLI is MIT-licensed with 33.6k stars, 2.9k forks, and 570 commits as of 2026-10-10.
+Launched 2026-01-20 by Vercel's labs team; the CLI is MIT-licensed with 33.7k stars, 2.9k forks, and 570 commits as of 2026-10-11.
 The CLI resolves GitHub shorthand and URLs, GitLab, any git URL, local paths, and direct archive URLs (downloads capped at 10 MiB by default), then symlinks or copies skills into per-agent directories.
 The site adds the leaderboard, per-agent and per-topic pages, badges, and packs (one install command bundling public and private skills).
 **Ranking comes from anonymous CLI telemetry (opt-out via `DISABLE_TELEMETRY`), not from vetting or ratings.**
@@ -24,7 +24,7 @@ The site adds the leaderboard, per-agent and per-topic pages, badges, and packs 
 ## Status
 
 **Active and dominant among third-party registries.**
-Top of the all-time leaderboard as of 2026-10-10: find-skills (vercel-labs) at 3.8M installs, grill-me (mattpocock/skills) at 1.3M, followed by mattpocock/skills entries grill-with-docs and improve-codebase-architecture at 1.1M each, then agent-browser (vercel-labs/agent-browser) at 1.1M in fifth, past tdd (1.1M) in sixth, with setup-matt-pocock-skills (mattpocock/skills) seventh at 974.2K and frontend-design (anthropics/skills) eighth at 969.7K, holding the order set by their 2026-10-08 swap.
+Top of the all-time leaderboard as of 2026-10-11: find-skills (vercel-labs) at 3.8M installs, grill-me (mattpocock/skills) at 1.3M, followed by mattpocock/skills entries grill-with-docs and improve-codebase-architecture at 1.1M each, then agent-browser (vercel-labs/agent-browser) at 1.1M in fifth, past tdd (1.1M) in sixth, with setup-matt-pocock-skills (mattpocock/skills) seventh at 978.6K and frontend-design (anthropics/skills) eighth at 972.9K holding the order set by their 2026-10-08 swap, and handoff (mattpocock/skills) ninth at 959.0K.
 Official publisher entries include microsoft/azure-skills, supabase, prisma, and heygen-com/hyperframes.
 The publisher mix has gone enterprise: open.feishu.cn (Lark) is the largest publisher (chips reading 4.4M and 11.8M on one page), larksuite/cli and microsoft/azure-skills both sit in the millions (7.3M and 5.5M), and prime-skills/runcomfy-agent-skills adds several million more (4.4M), all as of 2026-10-02.
 **Treat those publisher totals with suspicion: the page showed prime-skills with two different totals (4.2M and 2.9M) at the same moment, and azure-skills swung from 7.1M to 2.4M to 7.7M across the three days after the downward recompute first seen 2026-09-20, so the chips are view-scoped sums of whatever rows the leaderboard currently renders, not stable per-publisher aggregates.**
@@ -34,6 +34,7 @@ On 2026-10-06 the azure-skills chip read 8.1M, open.feishu.cn still a single 16.
 On 2026-10-08 the azure-skills chip read 7.6M, open.feishu.cn a single 16.4M total, and larksuite/cli and runcomfy one total each (6.9M and 4.7M), so the two-totals render is intermittent rather than stable.
 On 2026-10-09 azure-skills held at 7.6M, open.feishu.cn read a single 16.5M total, and the single totals swung again (larksuite/cli 8.7M, runcomfy 3.3M).
 On 2026-10-10 azure-skills read 7.7M, open.feishu.cn was back to two totals on one page (11.3M and 5.3M), larksuite/cli held a single 8.7M total, and runcomfy showed two again (4.3M and 4.4M).
+On 2026-10-11 azure-skills read 7.1M, open.feishu.cn a single 14.4M total, and larksuite/cli a single 7.3M total, with runcomfy showing two totals again (1.7M and 2.6M).
 The nearest standalone competitor I had verified, skillregistry.io, listed 61 skills as of 2026-09-08, went dark by 2026-09-09, and is back online as of 2026-09-12 (still up as of 2026-10-10, last measured at 61 skills and 17,768 total downloads on 2026-10-05), with 18 contributors, still orders of magnitude behind skills.sh on installs.
 
 ## Strengths
@@ -45,7 +46,7 @@ The nearest standalone competitor I had verified, skillregistry.io, listed 61 sk
 ## Cautions
 
 - **Install counts measure fashion, not fitness: telemetry counts CLI runs, anyone can drive their own numbers, and the docs state plainly that the quality and security of listed skills are not guaranteed.**
-- The audit page shows the gap: as of 2026-10-10 the open.feishu.cn fleet still sat Pending across all three scanners (24 of the first 50 rows) with no remediation history; the window's active warnings are two new flags, Snyk Med Risk on find-skills, the leaderboard's all-time number one, and Snyk High Risk on design-mobile-apps (designed-by-ai/skills, row 48), alongside Gen Med Risk on improve-codebase-architecture (row 4) and triage (row 10), both carrying Snyk Med Risk as well, plus two Socket alerts on media-use (row 18); mattpocock's code-review, the Gen Med Risk and Snyk High Risk flag first seen 2026-10-04, stays outside the window entirely (leaderboard row 56, 704.2K installs) and the 101-skills ai-video Socket entry slipped out beside it at leaderboard row 51; the Snyk-Critical entry from September (genmedia-labs/skills' image-to-video, Safe on Gen and clean on Socket but Critical on Snyk) stays out of the window, while azure-validate, Snyk-flagged Critical in early September and remediated to Pass by 2026-09-18, remains below the window, its Pass status visible only on its own skill page (re-verified there 2026-10-06).
+- The audit page shows the gap: as of 2026-10-11 the open.feishu.cn fleet still sat Pending across all three scanners (23 of the first 50 rows) with no remediation history; the window's active warnings are Snyk Med Risk on find-skills, the leaderboard's all-time number one, and Snyk High Risk on design-mobile-apps (designed-by-ai/skills, now row 47), alongside Gen Med Risk on improve-codebase-architecture (row 4) and triage (row 11), both carrying Snyk Med Risk as well, two Socket alerts on media-use (row 16), and the two 101-skills entries back inside at rows 49 and 50 with one Socket alert each; the leaderboard's tenth-place entry, hyperframes-cli, carries Snyk Med Risk while ninth-place handoff reads clean (Safe, 0 alerts, Low Risk); mattpocock's code-review, the Gen Med Risk and Snyk High Risk flag first seen 2026-10-04, stays outside the window entirely (leaderboard row 56, 709.0K installs); the Snyk-Critical entry from September (genmedia-labs/skills' image-to-video, Safe on Gen and clean on Socket but Critical on Snyk) stays out of the window, while azure-validate, Snyk-flagged Critical in early September and remediated to Pass by 2026-09-18, remains below the window, its Pass status visible only on its own skill page (re-verified there 2026-10-06).
 - Skills are instructions and scripts that agents execute, a risk Anthropic's engineering post calls out for skills generally, so a leaderboard install is a supply-chain decision.
 - **PromptArmor's published research (fetched 2026-10-07) makes the risk concrete: backdoored skills passed Anthropic's own scanner and exfiltrated files in production, and the same report calls skill marketplaces minimally scanned and ranked by gameable metrics like install counts.**
 - Telemetry is opt-out rather than opt-in, and one company controls the ranking surface of a nominally open ecosystem.
@@ -88,6 +89,7 @@ My disagreeable claim: marketplaces are the least interesting part of this ecosy
 - 2026-10-08 - The CLI's agent-target count moved back to 79 and the README's headline and table now agree (four named agents plus "75 more"); the leaderboard, publisher chips, and audits window were refreshed (frontend-design 962.1K and setup-matt-pocock-skills 960.7K at seventh and eighth, azure-skills chip down to 7.6M, the feishu fleet Pending in 23 of the first 50 rows, media-use at two Socket alerts, the 101-skills ai-image entry out of the window).
 - 2026-10-09 - Leaderboard refresh: find-skills crossed to 3.8M and the seventh/eighth pair swapped (setup-matt-pocock-skills 968.3K now ahead of frontend-design 966.0K); the feishu fleet moved to Pending in 24 of the audits window's first 50 rows with code-review still outside at row 55 (697.5K installs); the publisher chips swung again (open.feishu.cn 16.5M single total, larksuite/cli 8.7M single, runcomfy 3.3M single, azure-skills holding 7.6M); the CLI moved to 33.5k stars and 563 commits with the 79-agent README count re-verified.
 - 2026-10-10 - The audits window gained two flags: Snyk Med Risk on find-skills, the all-time number one, and Snyk High Risk on design-mobile-apps (row 48), while the 101-skills ai-video Socket entry slipped out with code-review still outside at row 56 (704.2K installs) and the feishu fleet steady at Pending in 24 of 50; the leaderboard's seventh/eighth order held (setup-matt-pocock-skills 974.2K, frontend-design 969.7K), the publisher chips swung again (azure-skills 7.7M, open.feishu.cn back to two totals, 11.3M and 5.3M, runcomfy two totals, 4.3M and 4.4M), and the CLI moved to 33.6k stars and 570 commits with the 79-agent README count re-verified.
+- 2026-10-11 - The leaderboard record gained a ninth-place line, handoff (mattpocock/skills) at 959.0K installs, while the seventh/eighth order held; the audits window moved to the feishu fleet Pending in 23 of 50, the two 101-skills Socket entries back inside at rows 49 and 50, design-mobile-apps up to row 47 still Snyk High Risk, and tenth-place hyperframes-cli carrying Snyk Med Risk beside clean ninth-place handoff; the publisher chips read azure-skills 7.1M, open.feishu.cn 14.4M, and larksuite/cli 7.3M single totals with runcomfy back to two; the CLI moved to 33.7k stars with the 79-agent README count re-verified.
 
 ## See also
 
@@ -99,11 +101,11 @@ My disagreeable claim: marketplaces are the least interesting part of this ecosy
 ## References
 
 - https://vercel.com/blog/introducing-skills - launch announcement (2026-01-20)
-- https://skills.sh/ - leaderboard, install counts, supported agents, as of 2026-10-10
+- https://skills.sh/ - leaderboard, install counts, supported agents, as of 2026-10-11
 - https://skills.sh/docs - ranking method (CLI telemetry) and the security disclaimer
-- https://skills.sh/audits - Gen/Socket/Snyk audit columns, open.feishu.cn fleet Pending in 24 of the first 50 rows, Snyk Med Risk on find-skills and Snyk High Risk on design-mobile-apps in the window, code-review outside at row 56 (704.2K installs), as of 2026-10-10
+- https://skills.sh/audits - Gen/Socket/Snyk audit columns, open.feishu.cn fleet Pending in 23 of the first 50 rows, Snyk Med Risk on find-skills and Snyk High Risk on design-mobile-apps (row 47) in the window, the 101-skills pair back at rows 49 and 50, code-review outside at leaderboard row 56 (709.0K installs), as of 2026-10-11
 - https://www.skills.sh/microsoft/azure-skills/azure-validate - azure-validate still Pass on all three scanners via its detail page, as of 2026-10-06
-- https://github.com/vercel-labs/skills - CLI source, agent path table, telemetry opt-out, 33,598 stars as of 2026-10-10
+- https://github.com/vercel-labs/skills - CLI source, agent path table, telemetry opt-out, 33,712 stars as of 2026-10-11
 - https://skillregistry.io/ - nearest standalone competitor, back online 2026-09-12 and still up as of 2026-10-10, last measured at 61 skills and 17,768 downloads on 2026-10-05, with 18 contributors
 - https://github.com/Fcmam5/skilleton - lockfile-style, no-telemetry alternative
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - the underlying untrusted-skill risk

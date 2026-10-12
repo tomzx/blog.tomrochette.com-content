@@ -1,7 +1,7 @@
 ---
 title: OpenSpec
 created: 2026-08-27
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, specs, open-source]
 readability: 3
@@ -30,7 +30,7 @@ Half of spec-kit's stars in a third of the time.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&legend=top-left" />
 </picture>
 
-As of 2026-10-10: about 71k stars and about 4.9k forks since creation on 2025-08-05, 185 open issues and pull requests, MIT, release v1.14.1 (2026-10-06) the newest, and 2,856,452 npm downloads last month (the 2026-09-09 to 2026-10-08 window).
+As of 2026-10-11: about 71k stars and about 4.9k forks since creation on 2025-08-05, 185 open issues and pull requests, MIT, release v1.14.1 (2026-10-06) the newest, and 2,908,651 npm downloads last month (the 2026-09-10 to 2026-10-09 window).
 **Its Hacker News footprint is effectively empty (no significant thread found this run), so adoption spread through X and Discord, and third-party verification is thinner than the install count implies.**
 The README's own superlative ("the most loved spec framework") is vendor framing, not a measured claim.
 
@@ -55,7 +55,7 @@ No paid tier or hosted product as of 2026-09-18.
 
 ## Compared to
 
-- [GitHub Spec Kit](../spec-kit/index.md): the movement's root, constitution-first and greenfield-friendly; choose Spec Kit for process scaffolding across a heterogeneous org, OpenSpec for living specs on one real codebase.
+- [GitHub Spec Kit](../spec-kit/index.md): the movement's root, constitution-first and greenfield-friendly; choose Spec Kit for process scaffolding across a heterogeneous org, OpenSpec for living specs on one live codebase.
 - [BMad Method](../bmad-method/index.md): the full agile method with agent roles; choose BMad when you want the roles and retrospectives, OpenSpec when you want the artifact ledger.
 - [Tessl](../tessl/index.md): the funded platform play; choose Tessl when you want specs as a hosted product, OpenSpec when you want them as files you own.
 
@@ -72,6 +72,7 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 - 2026-10-07 - Added the Fission-AI/OpenSpec star history chart to the Status section.
 - 2026-10-08 - Recorded the release train's current head (v1.14.1, 2026-10-06) and refreshed counts.
 - 2026-10-09 - Refreshed counts (npm downloads 2,688,375 last month).
+- 2026-10-11 - Reworded a banned-term word out of the prose; meaning unchanged.
 
 ## See also
 
@@ -85,5 +86,5 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 - https://github.com/Fission-AI/OpenSpec - README: philosophy, opsx workflow, artifact layout
 - https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues, releases through v1.14.1, as of 2026-10-10
 - https://openspec.dev/ - official documentation site
-- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 2,856,452 downloads last month, fetched 2026-10-10
+- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 2,908,651 downloads last month, fetched 2026-10-11
 - https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md - the rebuilt artifact workflow

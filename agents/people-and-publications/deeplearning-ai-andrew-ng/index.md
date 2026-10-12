@@ -1,7 +1,7 @@
 ---
 title: Andrew Ng (The Batch, DeepLearning.AI)
 created: 2026-08-29
-updated: 2026-10-03
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, education, agents, agentic-ai]
 readability: 3
@@ -22,8 +22,8 @@ His [agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai) and [A
 
 ## Status
 
-Active and highly influential as of 2026-10-03.
-The Batch publishes weekly, with the latest numbered issue (373, "GLM-5.3's ExploitBench Score is Good News for Cybersecurity") on 2026-10-02, and the AI Engineering Skills Map letter is dated 2026-08-14.
+Active and highly influential as of 2026-10-11.
+The Batch publishes weekly, with the latest numbered issue (374, "OpenAI's DevDay, Google's First Gemini 4 Model, Black Forest Labs Dives Into Robots") on [2026-10-09](https://www.deeplearning.ai/the-batch/issue-374), his letter arguing agents are about to drive transaction volumes and data-center build-outs across the economy (his paperreview.ai agent alone makes 5,000 to 10,000 web-search calls a day, and tool calls rather than tokens are often the bottleneck), after issue 373 (2026-10-02, whose letter covers the open-weight cybersecurity-capability debate), and the AI Engineering Skills Map letter is dated 2026-08-14.
 DeepLearning.AI reports courses taught to millions of learners and positions itself as the canonical AI education path.
 
 ## Strengths
@@ -79,6 +79,7 @@ Not for a practitioner who wants deep technical detail, frontier-labs nuance, or
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-09-27 - Batch recency refreshed to issue 372 (2026-09-25); replaced the dead zenvanriel.com review link with the Ask HN Coursera thread after the original page 404'd with no archive.
 - 2026-10-03 - Batch recency refreshed to issue 373 (2026-10-02, "GLM-5.3's ExploitBench Score is Good News for Cybersecurity"); issue URL fetched this run.
+- 2026-10-11 - Batch recency refreshed to issue 374 (2026-10-09, "OpenAI's DevDay, Google's First Gemini 4 Model, Black Forest Labs Dives Into Robots", the letter on agents driving data-center build-outs and transaction volumes); issue URL fetched this run.
 
 ## See also
 
@@ -90,6 +91,7 @@ Not for a practitioner who wants deep technical detail, frontier-labs nuance, or
 ## References
 
 - https://www.deeplearning.ai/the-batch - the weekly newsletter and his letters
+- https://www.deeplearning.ai/the-batch/issue-374 - issue 374 (2026-10-09): the DevDay, Gemini 4 Argon, and robotics news items with the letter on agents driving compute and transaction-volume growth
 - https://learn.deeplearning.ai/courses/agentic-ai - the Agentic AI course and its four design patterns
 - https://www.deeplearning.ai/the-batch/tag/deeplearning-ai-news - the AI Engineering Skills Map announcement
 - https://www.coursera.org/specializations/deep-learning - Coursera's page for the DeepLearning.AI specialization, grounding that the specializations and certificates are paid (the $49/month or $399/year figure keeps its 2026-06 as-of date, since Coursera renders prices client-side)

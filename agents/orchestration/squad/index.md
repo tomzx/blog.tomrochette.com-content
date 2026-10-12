@@ -23,9 +23,9 @@ It entered this pile from the Awesome Multi-Agent Orchestrators directory's new 
 
 ## Status
 
-Active: last push 2026-10-05, latest release v1.0.1 on 2026-10-04, a release-packaging fix for the Homebrew and WinGet publish credentials, one day after v1.0.0 promoted the dev line to main (GitHub API, as of 2026-10-05).
+Active: last push 2026-10-10, latest release v1.0.1 on 2026-10-04, a release-packaging fix for the Homebrew and WinGet publish credentials, one day after v1.0.0 promoted the dev line to main (GitHub API, as of 2026-10-11).
 The 1.0.0 wave caps the alpha period: the README no longer carries the alpha badge that earlier releases warned about, though the project is still a solo-maintainer CLI and the API caveats deserve re-reading before you script against it.
-Traction is real but concentrated: npm recorded 13,452 downloads of `@bradygaster/squad-cli` in the month ending 2026-10-03, up from 9,823 in the window ending 2026-10-01.
+Traction is real but concentrated: npm recorded 14,360 downloads of `@bradygaster/squad-cli` in the month ending 2026-10-09, up from 13,452 in the window ending 2026-10-03.
 Independent discussion is nearly absent: the largest HN thread I found has 2 points, so the footprint is GitHub plus npm alone, which is itself a signal.
 
 <picture>

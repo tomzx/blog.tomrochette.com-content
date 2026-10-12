@@ -1,7 +1,7 @@
 ---
 title: ReviewBench
 created: 2026-10-07
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, code-review, ai-review-agents]
 readability: 3
@@ -24,8 +24,10 @@ Submission is self-serve: sign in with GitHub, register a container image and yo
 
 ## Status
 
-A five-day-old research preview: the repository (review-bench/ReviewBench) was created 2026-09-04 and sits at 41 stars and 6 open issues as of 2026-10-10, last pushed 2026-10-10.
-The first independent entrants arrived through the self-service portal in the benchmark's first week: five third-party reviewers (Hermes Reviewer on 2026-10-07, then HeyDeer, mesrai, pr-review-agent, and DeepSeek Harness Reviewer on 2026-10-08) merged onboarding registrations, so the submission pipeline works beyond GitHub's own pre-ran entries, though none of their leaderboard scores had published as of 2026-10-09.
+A six-day-old research preview: the repository (review-bench/ReviewBench) was created 2026-09-04 and sits at 42 stars and 7 open issues as of 2026-10-11, last pushed 2026-10-11.
+The first independent entrants arrived through the self-service portal in the benchmark's first week: five third-party reviewers (Hermes Reviewer on 2026-10-07, then HeyDeer, mesrai, pr-review-agent, and DeepSeek Harness Reviewer on 2026-10-08) merged onboarding registrations, so the submission pipeline works beyond GitHub's own pre-ran entries, though none of their leaderboard scores had published as of 2026-10-11.
+The repository documented an offline evaluation path on 2026-10-10: run the reviewer image with try-agent.sh, then judge the findings locally, no registration required.
+Its guide discloses the answer-leakage test behind the container boundary: golden findings come partly from public review threads, one test reviewer fetched them through the unauthenticated GitHub API, and a Codex reviewer restricted to its model host still read upstream review comments through the hosted GitHub connector on about half the pull requests, a path an egress allowlist cannot block.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=review-bench/ReviewBench&type=date&theme=dark&legend=top-left" />
@@ -48,7 +50,8 @@ Validation is the strongest published number: senior engineers who did not build
 - **The publication gate cuts against the leaderboard's meaning: submissions stay private until a maintainer approves them, and scores publish only if they beat the agent's current leaderboard score (or on first entry), so the public board can only ratchet upward and losing runs stay invisible.**
 - GitHub's team generated the initial commercial entries itself by running the publicly available products, the vendors neither conducted nor verified those runs, and the test dates differ (Copilot on 2026-10-01, Greptile and Cubic back in June, per The New Stack).
 - 219 PRs is a small corpus, the augmented-recall denominator moves with each agent's own discoveries and is explicitly not cross-comparable, and the judge is a frontier model whose biases the rubric mitigates but does not remove.
-- Adoption is early: 41 repository stars as of 2026-10-10 and five third-party reviewers onboarded in the first week, but no independent replication of the leaderboard numbers has published yet.
+- Adoption is early: 42 repository stars as of 2026-10-11 and five third-party reviewers onboarded in the first week, but no independent replication of the leaderboard numbers has published yet.
+- The offline-evaluation guide discloses that review threads are part of the answer key and reachable, so any score from a reviewer with GitHub access or hosted connectors needs a leakage check before it means anything.
 
 ## Pricing
 
@@ -70,6 +73,7 @@ Not for CI gating, and not as an unbiased tiebreaker while the publisher's own r
 
 - 2026-10-07 - Created from the daily-refresh entrant resolution, profiling GitHub's open code-review benchmark with the publication-gate and vendor-conflict cautions.
 - 2026-10-09 - Recorded the first five third-party reviewer onboardings through the self-service portal (2026-10-07 and 2026-10-08) and refreshed repository counts.
+- 2026-10-11 - Recorded the offline-evaluation path (try-agent.sh plus the judging CLI, documented 2026-10-10), the answer-leakage disclosure in its guide, and refreshed repository counts.
 
 ## See also
 
@@ -83,7 +87,8 @@ Not for CI gating, and not as an unbiased tiebreaker while the publisher's own r
 - https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review - the announcement: corpus, golden set, judge, metrics, submission flow, and the publication gate
 - https://github.com/review-bench/ReviewBench - the repository: corpus, mirrors, agent contract, methodology, MIT license
 - https://raw.githubusercontent.com/review-bench/ReviewBench/main/README.md - corpus composition, test-set tables, mirrors, and the self-serve surface
-- https://api.github.com/repos/review-bench/ReviewBench - stars, issues, creation and push dates as of 2026-10-10
+- https://api.github.com/repos/review-bench/ReviewBench - stars, issues, creation and push dates as of 2026-10-11
+- https://raw.githubusercontent.com/review-bench/ReviewBench/main/docs/OFFLINE_EVAL.md - the offline-evaluation guide and its answer-leakage limits section
 - https://github.com/review-bench/ReviewBench/pulls?q=is%3Apr+is%3Amerged+onboard - the five third-party onboarding PRs merged 2026-10-07 and 2026-10-08
 - https://review-bench.ai/ - the leaderboard site (a client-rendered shell to fetchers, so its content is grounded in the announcement and press coverage rather than quoted)
 - https://thenewstack.io/github-reviewbench-code-review - the critical read: GitHub pre-ran the rival entries, test dates differ, and Copilot's 40.1 grounded F1 leads

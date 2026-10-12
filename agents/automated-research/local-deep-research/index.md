@@ -1,7 +1,7 @@
 ---
 title: Local Deep Research
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, deep-research, local-first]
 readability: 3
@@ -24,7 +24,7 @@ Around the loop sit a journal-quality system scoring 212K-plus indexed sources w
 
 ## Status
 
-Active and heavily developed: 9,179 stars, 837 forks, created 2025-02-09, last push 2026-10-10, with the current release v1.10.7 published 2026-08-28 on GitHub and PyPI, as of 2026-10-10.
+Active and heavily developed: 9,181 stars, 839 forks, created 2025-02-09, last push 2026-10-11, with the current release v1.10.7 published 2026-08-28 on GitHub and PyPI, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=LearningCircuit/local-deep-research&type=date&theme=dark&legend=top-left" />
@@ -46,7 +46,7 @@ The project's headline benchmark is self-reported through community channels: ab
 
 - The headline numbers are self-reported community benchmarks, and the README itself flags small samples, LLM-grader noise, and SimpleQA contamination risk on newer base models.
 - No machine judge sits inside the loop: the output is prose with citations, so the human stays the verifier, exactly as with Deep Research.
-- 1,146 open issues as of 2026-10-10 against a volunteer contributor base signals a project where support lags feature growth.
+- 1,132 open issues as of 2026-10-11 against a volunteer contributor base signals a project where support lags feature growth.
 - Attaching premium engines or cloud models reintroduces the external calls the privacy story avoids, one API key at a time.
 
 ## Pricing
@@ -80,8 +80,8 @@ Not for anyone who needs machine-verified output or turnkey support: the loop en
 
 - https://github.com/LearningCircuit/local-deep-research - repository, description, and MIT license (fetched 200, 2026-10-07)
 - https://raw.githubusercontent.com/LearningCircuit/local-deep-research/main/README.md - the loop, strategies, engines, the benchmark table with its own caveats, the journal-quality system, and the MCP server (fetched 200, 2026-10-07)
-- https://api.github.com/repos/LearningCircuit/local-deep-research - stars, forks, created and push dates, and license for the as-of status (fetched 200, 2026-10-07)
-- https://api.github.com/repos/LearningCircuit/local-deep-research/releases - v1.10.7 (2026-08-28) and the release cadence (fetched 200, 2026-10-07)
-- https://pypi.org/pypi/local-deep-research/json - the published version, license metadata, and Python requirement (fetched 200, 2026-10-07)
+- https://api.github.com/repos/LearningCircuit/local-deep-research - stars, forks, created and push dates, and license for the as-of status (fetched 200, 2026-10-11)
+- https://api.github.com/repos/LearningCircuit/local-deep-research/releases - v1.10.7 (2026-08-28) and the release cadence (fetched 200, 2026-10-11)
+- https://pypi.org/pypi/local-deep-research/json - the published version, license metadata, and Python requirement (fetched 200, 2026-10-11)
 - https://huggingface.co/datasets/local-deep-research/ldr-benchmarks - the community benchmark dataset behind the SimpleQA and xbench-DeepSearch numbers (fetched 200, 2026-10-07)
 - https://hn.algolia.com/api/v1/items/43330164 - the 190-point, 34-comment launch thread from March 2025 (fetched 200, 2026-10-07)

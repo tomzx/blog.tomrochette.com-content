@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -25,7 +25,7 @@ The Launch HN title calls it an "OSS sandboxed agent harness for teams", and tha
 ## Status
 
 Very active: v2.12.0 shipped October 9, 2026 with a tunnel lane for browsers, Runs, and Network tabs in the Activity view, one day after the v2.11 series (v2.11.0 added a Helm chart for Kubernetes self-hosting, agent webhooks, and evals with run history, with two same-day publish-pipeline patches), one day after v2.10.0 (a Pylon integration, setup-guide links on every connect surface, and a two-image agent sandbox), one day after the v2.8.0/v2.9.0 pair (v2.8.0 added Google Drive folder permissions, Navan and Timeless apps, grouped Slack approvals, OAuth refresh hardening, and an egress guard; v2.9.0 added the Circleback integration, Navan paste cleaning, and agent API-docs hints), following v2.7.0 on October 3 and a v2.3-2.4 series five months ago, with v2.5.0 on September 3 and v2.6.0 five days after it.
-3,566 stars and 250 forks as of 2026-10-09, on a repository created March 8, 2026.
+3,567 stars and 251 forks as of 2026-10-11, on a repository created March 8, 2026.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=onecli/onecli&type=date&theme=dark&legend=top-left" />
@@ -58,7 +58,7 @@ Scale is $499/month for 10 users and 20 agents BYOC, or $1,999/month with hosted
 Extra seats are $49/user/month with your own key or $199 with hosted models.
 Enterprise custom, and platform self-hosting (your cloud, VPC, or on-prem) is quoted there.
 The Apache-2.0 core remains self-hostable from source without a commercial license per the README.
-All as of 2026-09-26, re-verified unchanged against the live pricing page on 2026-10-06.
+All as of 2026-09-26, re-verified unchanged against the live pricing page on 2026-10-11.
 
 ## Price history
 
@@ -101,10 +101,10 @@ I think the prompt-based permission systems across every other harness in this s
 
 ## References
 
-- https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-10-09
+- https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-10-11
 - https://github.com/onecli/onecli/releases - release cadence through v2.11.2 on October 8, 2026
 - https://onecli.sh - product positioning, gateway model, and free tier as of 2026-09-22
-- https://onecli.sh/pricing - tiers, BYOC versus hosted-model pricing, and seat limits as of 2026-10-06 (re-verified unchanged)
+- https://onecli.sh/pricing - tiers, BYOC versus hosted-model pricing, and seat limits as of 2026-10-11 (re-verified unchanged)
 - https://onecli.sh/docs - architecture: sandbox, gateway, policy, self-hosting
 - https://www.ycombinator.com/companies/onecli - YC S26 batch, founders, and launch description
 - https://news.ycombinator.com/item?id=49363710 - 88-point Launch HN, August 19, 2026

@@ -1,7 +1,7 @@
 ---
 title: Trigger.dev
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, scheduling, durable-execution, workflow-automation]
 readability: 3
@@ -20,12 +20,12 @@ Trigger.dev is an Apache-2.0 developer platform where you write agent and workfl
 You write tasks in a `trigger` folder of your codebase, deploy them with the CLI, and Trigger.dev runs them with no timeouts, automatic retries, queues, and per-run observability.
 Triggering comes from your backend code (`tasks.trigger()`), from other tasks (`triggerAndWait`), from batches of up to 1,000 runs, or from durable cron schedules with IANA timezones.
 The agents story is code, not canvas: documented guides cover the Vercel AI SDK and the Claude Agent SDK, and chat agents stream to your frontend with human-in-the-loop tool approvals.
-It is built by API Hero Ltd (YC W23), deploys to Trigger.dev Cloud or self-hosted containers (a webapp plus a worker), and the current version is v4.7.3 (October 6).
+It is built by API Hero Ltd (YC W23), deploys to Trigger.dev Cloud or self-hosted containers (a webapp plus a worker), and the current version is v4.7.3 (October 6, still current as of 2026-10-11).
 
 ## Status
 
 **Active and mature, on its fourth major version.**
-16,510 stars and 1,486 forks as of 2026-10-10, pushed the day of this check, with the repository created 2022-11-30.
+16,516 stars and 1,489 forks as of 2026-10-11, pushed 2026-10-10, with the repository created 2022-11-30.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=triggerdotdev/trigger.dev&type=date&theme=dark&legend=top-left" />
@@ -52,7 +52,7 @@ The v3-to-v4 transition shows the churn risk: v3 is end of life, 4.5.0 is the la
 
 ## Pricing
 
-Cloud plans bill a monthly base plus usage: Free at $0 with $5 monthly credits, 20 concurrent runs, and 10 schedules; Hobby at $10/month with $10 credits and 50 concurrent runs; Pro at $50/month with $50 credits, 200+ concurrent runs, and 1,000+ schedules; Enterprise custom (as of 2026-10-10).
+Cloud plans bill a monthly base plus usage: Free at $0 with $5 monthly credits, 20 concurrent runs, and 10 schedules; Hobby at $10/month with $10 credits and 50 concurrent runs; Pro at $50/month with $50 credits, 200+ concurrent runs, and 1,000+ schedules; Enterprise custom (as of 2026-10-11).
 Usage bills per second of compute by machine size (Micro at $0.0000169 per second to Large 2x at $0.00068) plus $0.000025 per run invocation, and checkpointed waits do not count toward compute.
 Self-hosting the Apache-2.0 platform is free but unsupported and, per the caution above, without checkpoints.
 
@@ -77,6 +77,7 @@ My disagreeable claim: calling Trigger.dev open source and self-hostable is only
 ## Changes
 
 - 2026-10-10 - Created.
+- 2026-10-11 - Refreshed the repository counters (16,510 to 16,516 stars, 1,486 to 1,489 forks) and re-confirmed v4.7.3 current and the pricing tiers unchanged.
 
 ## See also
 
@@ -87,10 +88,10 @@ My disagreeable claim: calling Trigger.dev open source and self-hostable is only
 
 ## References
 
-- https://github.com/triggerdotdev/trigger.dev - repository scale, Apache-2.0 license, deployment model, as of 2026-10-10 (counters verified via the GitHub API the same run)
-- https://api.github.com/repos/triggerdotdev/trigger.dev - exact counters (16,510 stars, 1,486 forks, pushed 2026-10-10, created 2022-11-30)
-- https://trigger.dev/ - product surface, the v4.7.3 changelog line, the agents pitch, and the API Hero Ltd company footer, as of 2026-10-10
-- https://trigger.dev/pricing - plan tiers, per-second machine rates, and the per-run invocation fee, as of 2026-10-10
+- https://github.com/triggerdotdev/trigger.dev - repository scale, Apache-2.0 license, deployment model, as of 2026-10-11 (counters verified via the GitHub API the same run)
+- https://api.github.com/repos/triggerdotdev/trigger.dev - exact counters (16,516 stars, 1,489 forks, pushed 2026-10-10, created 2022-11-30)
+- https://trigger.dev/ - product surface, the v4.7.3 changelog line, the agents pitch, and the API Hero Ltd company footer, as of 2026-10-11
+- https://trigger.dev/pricing - plan tiers, per-second machine rates, and the per-run invocation fee, as of 2026-10-11
 - https://trigger.dev/docs/triggering - trigger functions, batches, delays, TTLs, idempotency keys, and debounce
 - https://trigger.dev/docs/tasks/scheduled - cron schedules, IANA timezones, load-spreading windows, and the free-plan hourly floor
 - https://trigger.dev/docs/self-hosting/overview - the self-hosted feature gap (no checkpoints, warm starts, or auto-scaling) and v3 end of life, the vendor's own table (critical source)

@@ -1,7 +1,7 @@
 ---
 title: Epiq
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, event-sourcing, git, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Commits prefixed with a ticket's ref land in the ticket's inline code diff, wher
 ## Status
 
 Active and shipping fast.
-As of 2026-10-10: 538 stars, 21 forks, 5 watchers, 3 open issues, created 2025-06-22, pushed 2026-10-10, latest release v1.12.4 on 2026-10-08 (the v1.12.x line shipped four releases in twelve days), and 2,825 npm downloads last month.
+As of 2026-10-11: 539 stars, 21 forks, 5 watchers, 3 open issues, created 2025-06-22, pushed 2026-10-10, latest release v1.12.4 on 2026-10-08 (the v1.12.x line shipped four releases in twelve days), and 2,860 npm downloads last month.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ljtn/epiq&type=date&theme=dark&legend=top-left" />
@@ -46,7 +46,7 @@ The Show HN launch thread reached 91 points and 48 comments on 2026-05-16, the s
 - Conflicting updates to the same text block resolve last-event-wins with no character-level merge, a limitation the maintainer confirmed in the launch thread, recoverable only through time-travel peeks.
 - The launch thread's historical objection stands: distributed git issue trackers have repeatedly died on design problems of exactly this class, and Epiq is one maintainer's answer.
 - Global npm install drew the thread's loudest resistance, and the npx-based MCP startup resolves against the registry on every start, which hangs in network-restricted agent sandboxes unless you install globally and point at the binary.
-- The web UI arrived after launch and the project is single-maintainer at 538 stars, so bus risk and community footprint are both thin for a system of record.
+- The web UI arrived after launch and the project is single-maintainer at 539 stars, so bus risk and community footprint are both thin for a system of record.
 
 ## Pricing
 
@@ -79,9 +79,9 @@ My disagreeable claim: the append-only event log is a better memory format for a
 ## References
 
 - https://github.com/ljtn/epiq - repository: README, MCP setup, agent identities, install paths (fetched 2026-10-10)
-- https://api.github.com/repos/ljtn/epiq - stars, forks, watchers, dates, MIT license as of 2026-10-10
+- https://api.github.com/repos/ljtn/epiq - stars, forks, watchers, dates, MIT license as of 2026-10-11
 - https://raw.githubusercontent.com/ljtn/epiq/main/readme.md - the event-sourced model, conflict handling, MCP and skill setup, worktree sync
 - https://ljtn.github.io/epiq/ - the site: teams-and-agents positioning, live monitoring and replay wording, the MCP tool count
 - https://news.ycombinator.com/item?id=48155570 - the 91-point launch thread: the distributed-tracker history objection, the last-event-wins exchange, the MCP-versus-skill debate
 - https://api.github.com/repos/ljtn/epiq/releases - v1.12.4 (2026-10-08) and the v1.12.x release train
-- https://api.npmjs.org/downloads/point/last-month/epiq - 2,825 downloads last month
+- https://api.npmjs.org/downloads/point/last-month/epiq - 2,860 downloads last month

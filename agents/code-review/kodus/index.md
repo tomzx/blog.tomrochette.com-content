@@ -1,7 +1,7 @@
 ---
 title: Kodus
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -21,7 +21,7 @@ BYOK covers OpenAI, Anthropic, Google Gemini, Vertex AI, Novita, and any OpenAI-
 
 ## Status
 
-**Active and small: commits this week, with 1,459 stars and 171 forks as of 2026-10-10.**
+**Active and small: commits this week, with 1,461 stars and 172 forks as of 2026-10-11.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kodustech/kodus-ai&type=date&theme=dark&legend=top-left" />
@@ -39,19 +39,19 @@ A Discord community exists, but I found no independent reviews or benchmarks cor
 - **Model-agnostic BYOK with a published zero-markup price calculator, which no incumbent in this category offers.**
 - Forge breadth matches the category default: GitHub, GitLab, Bitbucket, and Azure Repos.
 - Real self-hosting, with a deploy guide and a documented one-heartbeat-per-day anonymous telemetry opt-out.
-- **The vendor now publishes measurements instead of only claims: CodeReviewBench scores models on real PR diffs (30 PRs, 95 confirmed bugs, best recall 44.2 percent, every scorecard versioned in a repo), and the State of AI Code Review report analyzes 180,739 production suggestions (71.8 percent of flagged PRs merge with a flag open), both under a stated single-harness, vendor-run disclosure.**
+- **The vendor now publishes measurements instead of only claims: CodeReviewBench scores models on actual PR diffs (30 PRs, 95 confirmed bugs, best recall 44.2 percent, every scorecard versioned in a repo), the State of AI Code Review report analyzes 180,739 production suggestions (71.8 percent of flagged PRs merge with a flag open), and a tools benchmark runs Kody against CodeRabbit, GitHub Copilot, and Cursor on the same 38 known-issue PRs with Kody first at 30 of 38 and every run's PR public, all under a stated vendor-run disclosure.**
 - CLI plus CI/CD support puts review in the pipeline, not just in PR comments.
 
 ## Cautions
 
 - **The dual license has teeth: anything under ee/ paths is commercially licensed, so the AGPL guarantee is narrower than the badge suggests.**
 - No verifiable funding and a thin community footprint make bus factor and longevity open questions.
-- Quality claims ("reviews like your senior dev wrote them") are vendor marketing; the new CodeReviewBench and the research report are vendor-run and single-harness by their own disclosure, so they do not fill the independent-benchmark gap.
+- Quality claims ("reviews like your senior dev wrote them") are vendor marketing; CodeReviewBench is vendor-run and single-harness by its own disclosure, the tools benchmark is vendor-run and self-favoring (Kody leads every severity band, and its methodology text contradicts itself, nine selected PRs in one paragraph, 38 analyzed in the results), so none of it fills the independent-benchmark gap.
 - Self-hosting transfers model cost and operations to you, which is the point, but it is a real cost.
 
 ## Pricing
 
-**Open core with a free tier, a BYOK developer fee, and a transparent no-markup pledge, as of 2026-10-10.**
+**Open core with a free tier, a BYOK developer fee, and a transparent no-markup pledge, as of 2026-10-11.**
 The tiers changed in early September 2026: Community is free for indie devs and small teams (self-hosted or hosted, up to 10 Kody rules), Teams BYOK is $10 per developer per month ($8 effective when billed annually) plus your raw token costs with unlimited rules and plugins, and Enterprise is custom with SSO, RBAC, SOC 2, and dedicated support.
 The BYOK calculator keeps the no-markup FAQ commitment and prices example stacks (for example $450 per month for 30 developers on Gemini Pro or ChatGPT 5.1).
 Self-hosting under AGPL-3.0 is free, minus your own model bills.
@@ -83,6 +83,7 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 - 2026-09-24 - Refreshed the repo numbers to 1,416 stars and 159 forks with a same-day push; tiers and prices unchanged.
 - 2026-10-07 - Added the kodustech/kodus-ai star history chart to the Status section.
 - 2026-10-07 - Recorded the vendor's new research surfaces (CodeReviewBench and the State of AI Code Review report) in Strengths and Cautions with the vendor-run caveat, and refreshed the repo to 1,452 stars pushed October 7.
+- 2026-10-11 - Recorded the vendor's third research surface, the tools benchmark against CodeRabbit, GitHub Copilot, and Cursor (Kody first at 30 of 38 known issues), noted its self-favoring design and self-contradictory methodology text in Cautions, and refreshed repo counts.
 
 ## See also
 
@@ -94,10 +95,11 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 
 ## References
 
-- https://github.com/kodustech/kodus-ai - repo, 1,459 stars, 171 forks, AGPL-3.0 + EE dual license, pushed October 9, 2026 (GitHub API, as of 2026-10-10)
+- https://github.com/kodustech/kodus-ai - repo, 1,461 stars, 172 forks, AGPL-3.0 + EE dual license, pushed October 9, 2026 (GitHub API, as of 2026-10-11)
 - https://kodus.io/ - product page and positioning
-- https://kodus.io/pricing/ - Community free, Teams BYOK $10/dev, Enterprise custom, no-markup FAQ, as of 2026-10-02, re-verified unchanged 2026-10-10
-- https://codereviewbench.com/ - the vendor-run model benchmark: 30 PRs, 95 golden bugs, best recall 44.2 percent, single-harness disclosure, fetched 2026-10-07
+- https://kodus.io/pricing/ - Community free, Teams BYOK $10/dev, Enterprise custom, no-markup FAQ, as of 2026-10-02, re-verified unchanged 2026-10-11
+- https://codereviewbench.com/ - the vendor-run model benchmark: 30 PRs, 95 golden bugs, best recall 44.2 percent, single-harness disclosure, fetched 2026-10-07, re-verified 2026-10-11
+- https://kodus.io/benchmark-ai-code-review/ - the vendor-run tools benchmark: Kody 30 of 38 known issues, Cursor 22, Copilot 20, CodeRabbit 15, per-run PRs public, methodology text internally inconsistent, fetched 2026-10-11
 - https://kodus.io/data/ - the State of AI Code Review report: 180,739 suggestions, 71.8 percent of flagged PRs merged with a flag open, CC BY 4.0, fetched 2026-10-07
 - https://docs.kodus.io/ - documentation hub and self-host guide
 - https://docs.kodus.io/how_to_deploy/en/deploy_kodus/telemetry - self-hosted anonymous heartbeat and opt-out

@@ -1,7 +1,7 @@
 ---
 title: OpenCode Go
 created: 2026-09-26
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, open-models]
 readability: 3
@@ -16,12 +16,12 @@ OpenCode Go is a subscription from the OpenCode (Anomaly) team that bundles acce
 
 Go sells model access, not an editor or a harness.
 You subscribe, copy an API key, and point any agent at OpenAI-compatible, Anthropic-compatible, or Responses endpoints under `opencode.ai/zen/go/v1`.
-The lineup is 32 curated coding models on the docs page as of 2026-10-10 (Grok 4.7/4.6, GLM-5.3 family, Kimi K3, Claude Haiku 5.5, Qwen3.8, DeepSeek V4, MiniMax M3, MiMo, GPT 6 Luna, LongCat, Hy3, Hy4 preview, Space Bunny), while the product page says "View all 31 models", and only one member per workspace can hold a subscription.
+The lineup is 32 curated coding models on the docs page as of 2026-10-11 (Grok 4.7/4.6, GLM-5.3 family, Kimi K3, Claude Haiku 5.5, Qwen3.8, DeepSeek V4, MiniMax M3, MiMo, GPT 6 Luna, LongCat, Hy3, Hy4 preview, Space Bunny), while the product page says "View all 31 models", and only one member per workspace can hold a subscription.
 
 ## Status
 
 Active and changing fast.
-The OpenCode repo shows about 208K GitHub stars on the product page footer as of 2026-10-10, the Go docs were republished 2026-10-08, and the plan has grown from a three-model Beta in March 2026 to 32 docs-listed models plus a $40 Go Plus tier.
+The OpenCode repo shows about 208K GitHub stars on the product page footer as of 2026-10-11, the Go docs were last updated 2026-10-10, and the plan has grown from a three-model Beta in March 2026 to 32 docs-listed models plus a $40 Go Plus tier.
 Churn is constant: GPT 6 Luna arrived 2026-09-22 and Space Bunny Free appeared as a limited-time unlimited model.
 **Go converts $10 into up to $60 of metered usage per month, Go Plus converts $40 into up to $180, and that ratio is the entire value proposition.**
 
@@ -29,22 +29,23 @@ Churn is constant: GPT 6 Luna arrived 2026-09-22 and Space Bunny Free appeared a
 
 - The $60 monthly usage value costs $10, up to 6x leverage if you max it.
 - Models are benchmarked for agentic coding before inclusion, per the team.
-- Works with any agent; Claude Code, Codex, Pi, jcode, and Kilo Code CLI are validated clients.
+- Works with any agent; Claude Code, Codex, Hermes, Pi, jcode, ZCode, and Kilo Code CLI are validated clients.
 - Dollar-denominated windows make the bill predictable, free models stay available after limits, and "Use balance" falls back to your Zen balance instead of hard-stopping requests.
 - Most models run with zero retention and no training on your data.
 
 ## Cautions
 
 - **This is no longer general API access.**
-- Since September 2026, clients must send coding-agent traffic, a real user agent, and an `x-opencode-session` header, which the community reads as whitelisting non-agent use.
+- Since September 2026, clients must send coding-agent traffic, a genuine user agent, and an `x-opencode-session` header, which the community reads as whitelisting non-agent use.
 - Limits are dollar-value, so flagship tiers (Grok, Kimi K3, GLM-5.3, GPT 6 Luna) include only $15/month, with a $3 5-hour window.
-- The catalog and limits change monthly, the $5 first-month promo is gone, and usage estimates assume heavy prompt caching, so your real request counts will not match.
+- The catalog and limits change monthly, the $5 first-month promo is gone, and usage estimates assume heavy prompt caching, so your actual request counts will not match.
 - Muse Spark Contributor models train on your prompts and are region-limited.
 
 ## Pricing
 
 Go: $10/month, cancel any time, as of 2026-10-06.
-Claude Haiku 5.5 joined the catalog at $0.10/$0.50 per 1M tokens under 100K context ($0.50/$2.50 above) with the standard $15 monthly limit, the first Anthropic model on Go, and Step 5 Preview Free joined LongCat 2.5 Preview Free as a limited-time free model (both per the docs fetched 2026-10-10, last updated 2026-10-08).
+Claude Haiku 5.5 joined the catalog at $0.10/$0.50 per 1M tokens under 100K context ($0.50/$2.50 above) with the standard $15 monthly limit, the first Anthropic model on Go, and Step 5 Preview Free joined LongCat 2.5 Preview Free as a limited-time free model (both per the docs fetched 2026-10-11, last updated 2026-10-10).
+The docs also state DeepSeek's zero-retention agreement renews monthly and currently runs through October 31, 2026.
 Go Plus: $40/month, same models with 2x to 4x the per-model monthly dollar limits (Kimi K3 and GPT 6 Luna $15 to $60, GLM-5.3-Flash and Kimi K2.7 Code $60 to $180, DeepSeek V4.1 Flash $60 to $120).
 The DeepSeek V4-family models now bill at peak and off-peak token rates, off-peak half price, with peak at 01:00-04:00 and 06:00-10:00 UTC Monday to Friday and the dollar limits unchanged.
 Each model carries a monthly dollar limit on Go (mostly $60, some $30, $15 for flagships), with windows at 20% per rolling 5 hours (so $12 on a $60 model) and 50% weekly ($30).
@@ -85,6 +86,7 @@ My disagreeable claim: at roughly 50% usage Go is about break-even with direct A
 - 2026-10-06 - Docs check (republished 2026-10-06): the DeepSeek V4 family gained peak and off-peak token pricing (off-peak half price, peak 01:00-04:00 and 06:00-10:00 UTC Mon-Fri), while the $10/$40 tiers, the 29-model product-page count, and the per-model dollar limits re-verified unchanged.
 - 2026-10-07 - Catalog check: the docs model list moved to 30 entries with Space Bunny newly priced ($0.15/$0.60 per 1M tokens, $30 monthly limit on Go), while the product page still says "View all 29 models"; the $10/$40 tiers and the per-model dollar windows re-verified unchanged, and the repo star figure moved to about 208K on the product page footer.
 - 2026-10-10 - Catalog check: Claude Haiku 5.5 joined as the first Anthropic model on Go ($0.10/$0.50 per 1M under 100K context, $15 monthly limit) and Step 5 Preview Free joined the limited-time free roster, taking the docs list to 32 while the product page says 31; the $10/$40 tiers and all per-model dollar windows re-verified unchanged.
+- 2026-10-11 - Docs re-check (last updated 2026-10-10): the 32-docs-versus-31-product-page mismatch and the $10/$40 tiers hold, Hermes and ZCode joined the validated-clients table, and the docs state DeepSeek's zero-retention agreement renews monthly (currently through October 31, 2026).
 
 ## See also
 
@@ -96,7 +98,7 @@ My disagreeable claim: at roughly 50% usage Go is about break-even with direct A
 ## References
 
 - https://opencode.ai/go - product page, two-tier $10/$40 framing, model snapshot, GitHub star count (200, 2026-09-29).
-- https://opencode.ai/docs/go - full model/limit table for both tiers, 20%/50%/100% windows, validated clients, header requirements (200, 2026-09-29, last updated 2026-09-28).
+- https://opencode.ai/docs/go - full model/limit table for both tiers, 20%/50%/100% windows, validated clients, header requirements (200, 2026-09-29, last updated 2026-10-10, re-fetched 2026-10-11).
 - https://codingplan.org/en/plans/opencode-go - $5 first-month promo removal on 2026-08-24, catalog churn timeline (200).
 - https://help.apiyi.com/en/opencode-go-subscription-worth-it-review-en.html - March 2026 Beta state, dollar-window mechanics, critical take (200).
 - https://www.reddit.com/r/opencode/comments/1w9pyvq/opencode_go_is_no_longer_general_api_access/ - community reaction to session-header requirement (direct fetch 403; content read via search).

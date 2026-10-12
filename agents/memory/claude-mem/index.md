@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: about 99.0k stars as of 2026-10-10, with 75,172 npm downloads in the trailing month (2026-09-09 to 2026-10-08).
+Very large and fast: about 99.4k stars as of 2026-10-11, with 75,703 npm downloads in the trailing month (2026-09-10 to 2026-10-09).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Very large and fast: about 99.0k stars as of 2026-10-10, with 75,172 npm downloa
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-31, pushed 2026-10-09, latest tagged release v13.35.0 on 2026-10-09 with npm in sync at 13.35.0 as of 2026-10-09.
+Created 2025-08-31, pushed 2026-10-09, latest tagged release v13.35.0 on 2026-10-09 with npm in sync at 13.35.0 as of 2026-10-11.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.
@@ -110,6 +110,6 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - https://docs.claude-mem.ai/architecture/overview - hook architecture and the compression flow behind the token-cost caution
 - https://docs.claude-mem.ai/cloud-sync - the documented privacy trade-off of the cloud tier
 - https://claude-mem.ai - pricing tiers and adoption stats (now redirects to cmem.ai)
-- https://cmem.ai/pricing - the restructured CMEM ladder ($30/$70/$100) and the TeamBrain pilot terms, as of 2026-10-06
-- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 75,172 monthly downloads (2026-09-09 to 2026-10-08) as of 2026-10-10
+- https://cmem.ai/pricing - the restructured CMEM ladder ($30/$70/$100) and the TeamBrain pilot terms, re-verified unchanged 2026-10-11
+- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 75,703 monthly downloads (2026-09-10 to 2026-10-09) as of 2026-10-11
 - https://news.ycombinator.com/item?id=47422611 - the critical take from a competing memory author on the capture-everything approach

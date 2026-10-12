@@ -1,7 +1,7 @@
 ---
 title: Plannotator
 created: 2026-08-30
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Dual Apache-2.0 or MIT, written almost entirely by one developer (1,166 of 1,447
 
 ## Status
 
-Fast and growing: 9,298 stars, 699 forks, 140 open issues and PRs as of 2026-10-10, created 2025-12-28, pushed 2026-10-10, v0.28.10 released 2026-10-10.
+Fast and growing: 9,335 stars, 701 forks, 139 open issues and PRs as of 2026-10-11, created 2025-12-28, pushed 2026-10-11, v0.28.12 released 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=backnotprop/plannotator&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Fast and growing: 9,298 stars, 699 forks, 140 open issues and PRs as of 2026-10-
 </picture>
 
 **The 0.27.x line gave way to 0.28.x on 2026-10-05 (five releases that day alone), which says pre-1.0 churn, and the growth came through social channels rather than press; its Show HN thread drew 5 points.**
-The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (650 stars as of 2026-10-10), which applies the same annotate-and-send-feedback loop to terminal text.
+The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (653 stars as of 2026-10-11), which applies the same annotate-and-send-feedback loop to terminal text.
 
 ## Strengths
 
@@ -80,6 +80,7 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - 2026-10-07 - Recorded the v0.28.5 and v0.28.6 releases (both 2026-10-06) and refreshed repository and Herdr Annotate counts.
 - 2026-10-08 - Recorded the v0.28.7 and v0.28.8 releases (both 2026-10-07) and refreshed repository and Herdr Annotate counts.
 - 2026-10-10 - Recorded the v0.28.9 and v0.28.10 releases (2026-10-09 and 2026-10-10) and refreshed repository, commit, and Herdr Annotate counts.
+- 2026-10-11 - Recorded the v0.28.11 and v0.28.12 releases (2026-10-10 and 2026-10-11) and refreshed repository and Herdr Annotate counts.
 
 ## See also
 
@@ -90,10 +91,10 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 
 ## References
 
-- https://github.com/backnotprop/plannotator - repository, supported agents, mechanics, license, counts as of 2026-10-10
+- https://github.com/backnotprop/plannotator - repository, supported agents, mechanics, license, counts as of 2026-10-11
 - https://raw.githubusercontent.com/backnotprop/plannotator/HEAD/README.md - the privacy boundaries, including the unencrypted small-share caveat
 - https://plannotator.ai/ - product pitch and Workspaces framing
 - https://docs.plannotator.ai/open-source/start/installation - platforms and per-agent setup
 - https://github.com/backnotprop/plannotator/releases - release cadence evidence
 - https://news.ycombinator.com/item?id=48495970 - the Show HN thread with the encryption-claim discrepancy
-- https://github.com/plannotator/herdr-annotate - the terminal sibling project, 650 stars as of 2026-10-10
+- https://github.com/plannotator/herdr-annotate - the terminal sibling project, 653 stars as of 2026-10-11

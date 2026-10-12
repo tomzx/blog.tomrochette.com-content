@@ -1,7 +1,7 @@
 ---
 title: Mini-SWE-agent
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, research, swe-bench, minimalism]
 readability: 3
@@ -21,7 +21,7 @@ This is version 2, a rewrite documented in a migration guide from the v1 that fi
 
 ## Status
 
-Active and heavily used, mostly out of sight: 8,355 stars, pushed 2026-10-06, on a repository created 2025-06-28 (GitHub API, as of 2026-10-10), with v2.4.6 (2026-07-23) the latest release.
+Active and heavily used, mostly out of sight: 8,381 stars, pushed 2026-10-06, on a repository created 2025-06-28 (GitHub API, as of 2026-10-11), with v2.4.6 (2026-07-23) still the latest release (verified 2026-10-11).
 PyPI counted 11,605,679 downloads in the last month as of 2026-10-10, which is batch-evaluation traffic, not desktop installs.
 The parent `SWE-agent` repository (20,514 stars, last release v1.1.0 in May 2025, default branch last pushed 2026-07-16) carries a README notice saying most development effort has moved to mini-swe-agent and recommending it going forward, so the lineage has formally superseded its ancestor.
 
@@ -78,7 +78,7 @@ Not for daily driving, and not for anyone who needs subagents, MCP, or editor in
 - https://mini-swe-agent.com/latest/ - the overview: hundred-line pitch, v2, adoption claims, and the over-74-percent SWE-bench Verified claim
 - https://mini-swe-agent.com/latest/faq/ - model support through litellm and OpenRouter, API key handling, and the FAQ frame for mini versus SWE-agent
 - https://mini-swe-agent.com/latest/models/local_models/ - local models through litellm `api_base` with the vLLM and Ollama examples
-- https://api.github.com/repos/SWE-agent/mini-swe-agent - 8,355 stars, MIT, created 2025-06-28, pushed 2026-10-06, as of 2026-10-10
+- https://api.github.com/repos/SWE-agent/mini-swe-agent - 8,381 stars, MIT, created 2025-06-28, pushed 2026-10-06, as of 2026-10-11
 - https://api.github.com/repos/SWE-agent/mini-swe-agent/contents/src/minisweagent/agents/default.py - the v2 core agent file at 190 lines, grounding the pitch-drift caution
 - https://api.github.com/repos/SWE-agent/SWE-agent - the ancestor's 20,514 stars and v1.1.0 last release
 - https://api.github.com/repos/SWE-agent/SWE-agent/readme - the supersession notice pointing development effort to mini-swe-agent

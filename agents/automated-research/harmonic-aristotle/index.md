@@ -1,7 +1,7 @@
 ---
 title: Harmonic Aristotle
 created: 2026-09-13
-updated: 2026-10-02
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, harmonic, mathematics, formal-verification]
 readability: 3
@@ -56,7 +56,7 @@ Harmonic's $1,000,000 Mathematician Sponsorships program takes applications; no 
 ## Bottom line
 
 **Recommended for engineers who want to feel what a proof agent is like this week, for free, with artifacts you can check.**
-Not for audit-sensitive verification work as of 2026-09-18, where the comparator-audited open harness is the defensible choice.
+Not for audit-sensitive verification work as of 2026-10-11, where the comparator-audited open harness is the defensible choice.
 
 ## Changes
 

@@ -23,7 +23,7 @@ It is distributed as brew, an install script, an AUR package, mise, go install, 
 
 ## Status
 
-Active and young: 578 stars and 58 forks as of 2026-10-09, created 2026-07-15, with 29 contributors.
+Active and young: 582 stars and 59 forks as of 2026-10-11, created 2026-07-15, with 29 contributors.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=YoanWai/agent-manager&type=date&theme=dark&legend=top-left" />

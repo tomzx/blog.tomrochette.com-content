@@ -1,7 +1,7 @@
 ---
 title: DeepSeek Harness
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, plugins, open-source]
 readability: 3
@@ -25,7 +25,7 @@ It is local-first and BYOK: API keys stay in a local credentials file, with prov
 
 ## Status
 
-New and extremely loud: 244,798 stars and 29,332 forks as of 2026-10-07, about eight weeks after the repo was created on 2026-08-13.
+New and extremely loud: 247,172 stars and 29,687 forks as of 2026-10-11, about eight weeks after the repo was created on 2026-08-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=deepseek-ai/deepseek-harness&type=date&theme=dark&legend=top-left" />
@@ -33,9 +33,9 @@ New and extremely loud: 244,798 stars and 29,332 forks as of 2026-10-07, about e
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=deepseek-ai/deepseek-harness&type=date&legend=top-left" />
 </picture>
 
-No stable release exists, only alpha and rc prereleases (latest: dsh-v0.2.1-alpha.1 on 2026-10-03, adding an experimental Claude Code Mods compatibility layer, an agent-driven plugin-creation entry in the plugin manager, prefilled unsent prompts in new sessions, and reverse-proxy support via `--public-url`, plus a batch of fixes), and the README warns there will be compatibility-breaking changes.
+No stable release exists, only alpha and rc prereleases (latest: dsh-v0.2.1-alpha.2 on 2026-10-09, adding experimental Git Worktrees and thinking-translation plugins, a session-state API for plugins, global instructions read from a shared agents directory via `DSH_AGENTS_HOME`, a `working_directory` tool with SDK support, an SSH helper runtime for remote file, process, terminal, and sandbox operations, and on-demand Claude Code and Codex combo-pack installs, plus a batch of fixes), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.
-An ecosystem is already forming: a Tauri desktop port with 3,064 stars as of 2026-10-07, a plugin directory site, and an MCP plugin catalog.
+An ecosystem is already forming: a Tauri desktop port with 3,149 stars as of 2026-10-11 (its repository moved from the dsh-tauri-desk org to dsh-tauri, old links redirect), a plugin directory site, and an MCP plugin catalog.
 **I read the star count as attention, not adoption, and the safest status label is developer preview.**
 
 ## Strengths
@@ -79,6 +79,7 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 - 2026-10-02 - Recorded the dsh-v0.2.0-rc.2 prerelease (September 29), which added desktop menu-bar management of the dsh command and plugins without a separate Node or pnpm install, and refreshed repository scale; the project remains prerelease-only.
 - 2026-10-03 - Recorded the dsh-v0.2.1-alpha.1 prerelease (October 3), which added an experimental Claude Code Mods compatibility layer, an agent-driven plugin-creation entry in the plugin manager, prefilled unsent prompts, and reverse-proxy support via `--public-url`, and refreshed repository scale; the project remains prerelease-only.
 - 2026-10-07 - Added the deepseek-ai/deepseek-harness star history chart to the Status section.
+- 2026-10-11 - Recorded the dsh-v0.2.1-alpha.2 prerelease (October 9), which added experimental Git Worktrees and thinking-translation plugins, a plugin session-state API, shared-directory AGENTS.md loading via DSH_AGENTS_HOME, a working_directory tool, an SSH helper runtime, and on-demand Claude Code and Codex combo installs; refreshed repository scale; and updated the desktop-port reference to the renamed dsh-tauri org.
 
 ## See also
 
@@ -89,9 +90,9 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 
 ## References
 
-- https://github.com/deepseek-ai/deepseek-harness - repository, README, install, MIT license, 244,798 stars as of 2026-10-07
+- https://github.com/deepseek-ai/deepseek-harness - repository, README, install, MIT license, 247,172 stars as of 2026-10-11
 - https://www.deepseek.com/harness/en/ - runtime modes and plugin architecture claims
 - https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/HEAD/SAFETY.md - the project's own security warnings
 - https://news.ycombinator.com/item?id=49285244 - the 747-point launch thread, including critical takes on plugins and the Cordis paper
 - https://arxiv.org/abs/2608.25512 - the Cordis composability paper behind the architecture
-- https://github.com/dsh-tauri-desk/deepseek-harness-desktop - the community desktop port, evidence of early ecosystem pull
+- https://github.com/dsh-tauri/deepseek-harness-desktop - the community desktop port, evidence of early ecosystem pull (org renamed from dsh-tauri-desk, old links redirect)

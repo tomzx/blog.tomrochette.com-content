@@ -1,7 +1,7 @@
 ---
 title: AI Dev Tasks
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, prd, prompt-pack, open-source, dormant]
 readability: 3
@@ -24,7 +24,7 @@ It is maintained by the snarktank identity under Apache-2.0, with 65 commits in 
 ## Status
 
 Dormant.
-As of 2026-10-10: 7,798 stars, 1,707 forks, 218 watchers, 3 open issues, 7 open pull requests, created 2025-04-19, last push 2025-11-05, no release ever published, Apache-2.0 throughout.
+As of 2026-10-11: 7,799 stars, 1,707 forks, 218 watchers, 3 open issues, 7 open pull requests, created 2025-04-19, last push 2025-11-05, no release ever published, Apache-2.0 throughout.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=snarktank/ai-dev-tasks&type=date&theme=dark&legend=top-left" />
@@ -80,7 +80,7 @@ My disagreeable claim: ai-dev-tasks was never a tool at all, and its 7.8k stars 
 ## References
 
 - https://github.com/snarktank/ai-dev-tasks - repository: README, the two prompt files, scale, the About link to the podcast demonstration (fetched 2026-10-08)
-- https://api.github.com/repos/snarktank/ai-dev-tasks - stars, forks, dates, license, push date as of 2026-10-10
+- https://api.github.com/repos/snarktank/ai-dev-tasks - stars, forks, dates, license, push date as of 2026-10-11
 - https://raw.githubusercontent.com/snarktank/ai-dev-tasks/main/README.md - the five-step workflow and the How I AI demonstration link
 - https://raw.githubusercontent.com/snarktank/ai-dev-tasks/main/generate-tasks.md - parent tasks, sub-tasks, task 0.0, and the /tasks/ output contract
 - https://www.youtube.com/watch?v=fD4ktSkNCw4 - the How I AI demonstration (consent shell on fetch 2026-10-08; the claim is grounded in the repository's own README link)

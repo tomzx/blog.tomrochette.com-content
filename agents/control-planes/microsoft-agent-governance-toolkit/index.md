@@ -23,7 +23,7 @@ It is published under the Microsoft organization, but the team states an intent 
 
 ## Status
 
-Active, wide, and fast-moving: 6,415 stars, 1,128 forks, and 77 open issues as of 2026-10-10, created 2026-03-02, last pushed 2026-10-09, latest release v4.1.0 on 2026-06-09.
+Active, wide, and fast-moving: 6,417 stars, 1,130 forks, and 77 open issues as of 2026-10-11, created 2026-03-02, last pushed 2026-10-09, latest release v4.1.0 on 2026-06-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-governance-toolkit&type=date&theme=dark&legend=top-left" />
@@ -46,7 +46,7 @@ The project has since shipped several breaking refactors, but I could not confir
 
 - The April 2026 critique is the strongest published skeptical source in this whole category; confirm that identity is authenticated on your request path and that audit storage is durable before trusting the landing page.
 - Public preview with breaking changes between minor versions; pin deliberately and read BREAKING_CHANGES before upgrading.
-- Governance runs in application middleware, not at the OS kernel, and the README recommends one container per agent for real isolation.
+- Governance runs in application middleware, not at the OS kernel, and the README recommends one container per agent for stronger isolation.
 - Breadth is a cost: seven packages and ten specifications is a large surface to evaluate for a small team.
 
 ## Pricing
@@ -62,13 +62,14 @@ Deployment guides cover Azure, AWS, GCP, and Docker Compose.
 
 ## Bottom line
 
-**Recommended for platform teams standardizing deterministic agent governance across multiple languages and frameworks, who can independently verify the enforcement wiring. Not for single-agent projects or teams that want a thin, drop-in gate, since the surface is large and the preview churn is real.**
+**Recommended for platform teams standardizing deterministic agent governance across multiple languages and frameworks, who can independently verify the enforcement wiring. Not for single-agent projects or teams that want a thin, drop-in gate, since the surface is large and the preview churn is genuine.**
 
 ## Changes
 
 - 2026-09-27 - Created.
 - 2026-10-02 - Added the missing llm=glm-5.3-flash tag from this maintenance run; volatile numbers refreshed in place.
 - 2026-10-07 - Added the microsoft/agent-governance-toolkit star history chart to the Status section.
+- 2026-10-11 - Reworded banned-term phrasing out of one caution and the bottom line, meaning unchanged; scale refreshed in place (6,417 stars).
 
 ## See also
 
@@ -81,7 +82,7 @@ Deployment guides cover Azure, AWS, GCP, and Docker Compose.
 ## References
 
 - https://github.com/microsoft/agent-governance-toolkit - README: packages, quickstart, specs, preview notice, security boundaries
-- https://api.github.com/repos/microsoft/agent-governance-toolkit - stars, forks, issues, push date as of 2026-10-10
+- https://api.github.com/repos/microsoft/agent-governance-toolkit - stars, forks, issues, push date as of 2026-10-11
 - https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/ - launch post: seven packages, OWASP mapping, foundation intent
 - https://www.flyingpenguin.com/authentication-bypass-in-microsoft-agent-governance-toolkit-at-573f989/ - critical security review of identity wiring and audit durability
 - https://api.github.com/repos/microsoft/agent-governance-toolkit/releases - v4.1.0, 2026-06-09

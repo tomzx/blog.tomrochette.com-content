@@ -21,7 +21,7 @@ It drives Claude Code, Codex, and 25 more CLIs per the repo description (23 coun
 
 ## Status
 
-Active and shipping daily: 13,014 stars, 1,770 forks, 765 open issues and pull requests, and 30 contributors as of 2026-10-10, created 2026-02-13 (GitHub API, as of 2026-10-10).
+Active and shipping daily: 13,061 stars, 1,788 forks, 821 open issues and pull requests, and 30 contributors as of 2026-10-11, created 2026-02-13 (GitHub API, as of 2026-10-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&theme=dark&legend=top-left" />
@@ -29,7 +29,7 @@ Active and shipping daily: 13,014 stars, 1,770 forks, 765 open issues and pull r
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&legend=top-left" />
 </picture>
 
-The stable line sits at v0.13.6 (2026-10-09), promoted from the nightly train after v0.13.5 (2026-10-08), with nightlies publishing most days (GitHub releases API).
+The stable line sits at v0.13.7 (2026-10-10), promoted from the nightly train after v0.13.6 (2026-10-09), with nightlies publishing most days (GitHub releases API).
 **The identity record is the caution: the repository has lived under four organizations in eight months (ComposioHQ, AgentWrapper, Untrivial-ai, and now OrchestratorInc), each old URL a 301 today, which is the same rename churn this section flagged on Ruflo but repeated.**
 The community footprint is thin for the star count: the Show HN launch drew only 15 points on 2026-03-29 (a text post with no external link, HN Algolia), so the 12.8k stars spread through GitHub, X, and Discord rather than press, and the only third-party coverage I found is a competitor's roundup (Tembo, June 2026) and one technical review (Starlog, July 2026, at 8.6k stars).
 

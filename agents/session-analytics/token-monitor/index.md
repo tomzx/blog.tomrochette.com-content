@@ -1,7 +1,7 @@
 ---
 title: Token Monitor
 created: 2026-10-06
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, desktop, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Javis603, MIT-licensed.
 
 ## Status
 
-Young and shipping daily: 2,714 stars, 269 forks, 101 open issues, created 2026-05-19, pushed 2026-10-10, with v0.68.0 released 2026-10-08, v0.67.0 on 2026-10-06, and v0.66.0 on 2026-10-04, as of 2026-10-10.
+Young and shipping daily: 2,765 stars, 273 forks, 107 open issues, created 2026-05-19, pushed 2026-10-11, with v0.68.0 released 2026-10-08, v0.67.0 on 2026-10-06, and v0.66.0 on 2026-10-04, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Javis603/token-monitor&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ I found no Hacker News thread for the project; the only search hit for the name 
 
 ## Cautions
 
-- 101 open issues against 2,714 stars and v0.68 within five months is a fast, churny project; expect breaking changes in a widget you leave running.
+- 101 open issues against 2,765 stars and v0.68 within five months is a fast, churny project; expect breaking changes in a widget you leave running.
 - Coverage is graded and uneven by design, and several limit sources are account-level cookie reads (Ollama Cloud, Alibaba Cloud console) rather than file parsing, a different trust model than the local reads the rest of this category does.
 - Cursor account usage arrives through Tokscale's cache, so Cursor numbers inherit Tokscale's Cursor pipeline.
 - The community footprint is a Discord and a star graph, with no independent discussion, so treat the claims as unverified beyond the README.
@@ -82,7 +82,7 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 
 ## References
 
-- https://api.github.com/repos/Javis603/token-monitor - 2,714 stars, 269 forks, MIT license, created 2026-05-19, as of 2026-10-10
+- https://api.github.com/repos/Javis603/token-monitor - 2,765 stars, 273 forks, MIT license, created 2026-05-19, as of 2026-10-11
 - https://raw.githubusercontent.com/Javis603/token-monitor/main/README.md - the 43-plus-tool source table, live features, retention archive, hub sync options, and export formats
 - https://api.github.com/repos/Javis603/token-monitor/releases - v0.68.0 (2026-10-08), v0.67.0 (2026-10-06), v0.66.0 (2026-10-04), v0.65.0 (2026-10-02)
 - https://formulae.brew.sh/cask/token-monitor - the Homebrew cask

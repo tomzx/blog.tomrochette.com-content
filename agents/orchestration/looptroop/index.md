@@ -23,7 +23,7 @@ A human approval gate sits before any code is committed, and the README and docs
 
 ## Status
 
-Active and early: about 160 stars and 14 forks as of 2026-10-06, created 2026-03-03, with commits through 2026-10-01 and a latest release of v0.6.0 (2026-10-01), a major update (80 commits since v0.5.9) that added OpenCode v2 support, traceable skip reasons and decision history, and more than doubled the passing test count to 8,099.
+Active and early: about 161 stars and 14 forks as of 2026-10-11, created 2026-03-03, with commits through 2026-10-10 and a latest release of v0.6.0 (2026-10-01), a major update (80 commits since v0.5.9) that added OpenCode v2 support, traceable skip reasons and decision history, and more than doubled the passing test count to 8,099.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=looptroop-ai/LoopTroop&type=date&theme=dark&legend=top-left" />

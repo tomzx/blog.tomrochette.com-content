@@ -24,7 +24,7 @@ Notifications route to Discord, Slack, Telegram, or custom webhooks through an O
 
 ## Status
 
-Actively shipped and very popular: about 33,455 stars and 2,543 forks as of 2026-10-06, created 2026-02-02, with the latest release v0.21.8 on 2026-10-06 (a bugfix and compatibility release for the frozen v0.21.7 range: Windows binary path handling, session export, and legacy configuration support) and npm at the same version across 137 published versions.
+Actively shipped and very popular: about 33,510 stars and 2,540 forks as of 2026-10-11, created 2026-02-02, with v0.21.8 (2026-10-06) still the latest release (a bugfix and compatibility release for the frozen v0.21.7 range: Windows binary path handling, session export, and legacy configuration support) and npm at the same version across 137 published versions.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Yeachan-Heo/oh-my-codex&type=date&theme=dark&legend=top-left" />

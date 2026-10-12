@@ -1,7 +1,7 @@
 ---
 title: WrenAI
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, semantic-layer, text-to-sql, genbi]
 readability: 3
@@ -23,8 +23,8 @@ Everything Wren writes is plain YAML and Markdown in a repo you own, and Git Syn
 
 ## Status
 
-Established and active: 17,839 stars, 2,043 forks, and 278 open issues as of 2026-10-10, created 2024-03-13, pushed 2026-10-09, with the wren-v0.15.0 release on 2026-09-21 and PyPI tracking the same 0.15.0.
-The docs page claims SOC 2 Type II certification and 15k+ GitHub stars (conservative against the live count), though it says 17+ data sources where the README says 22+, a small inconsistency to re-check next refresh.
+Established and active: 17,841 stars, 2,043 forks, and 278 open issues as of 2026-10-11, created 2024-03-13, pushed 2026-10-09, with the wren-v0.15.0 release on 2026-09-21 and PyPI tracking the same 0.15.0.
+The docs page claims SOC 2 Type II certification and 15k+ GitHub stars (conservative against the live count), though it says 17+ data sources where the README says 22+ (both figures re-checked unchanged 2026-10-11).
 The community footprint is lopsided: a Hacker News search returns over a thousand matches but every thread is small (the largest found carries 6 points), so nearly five figures of stars have produced no front-page discussion.
 
 <picture>
@@ -76,11 +76,14 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 ## Changes
 
 - 2026-10-10 - Created from the hybrid-execution and context-engines resolution pass, placed in this category as the first data-semantic context engine (business meaning rather than code).
+- 2026-10-11 - Re-checked the flagged docs-versus-README data-source discrepancy (docs 17+, README 22+, both unchanged) and refreshed the volatile numbers (17,841 stars); the credit tiers re-verified unchanged against the live pricing page.
+- 2026-10-11 - Added Vanna to See also, the archived text-to-SQL RAG ancestor admitted to the category the same day.
 
 ## See also
 
 - [Context7](../context7/index.md) - the docs-injection sibling on the same delivery axis
 - [qmd](../qmd/index.md) - the local-search contrast for knowledge bases
+- [Vanna](../vanna/index.md) - the archived text-to-SQL RAG ancestor of the data-semantics column
 - [Context Engines Feature Matrix](../context-engines-feature-matrix/index.md) - the category comparison this note joins
 - [MCP](../../protocols/mcp/index.md) - the protocol behind its agent delivery
 

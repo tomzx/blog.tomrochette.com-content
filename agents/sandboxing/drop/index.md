@@ -1,7 +1,7 @@
 ---
 title: Drop
 created: 2026-09-29
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, linux, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Install is a curl of a release binary for amd64 or arm64 plus the passt/pasta pa
 
 ## Status
 
-Young tool, older project, one strong launch: 382 stars, 12 forks, 4 open issues as of 2026-10-10, created 2025-07-25, pushed 2026-10-09, latest release v0.3.1 on 2026-10-09.
+Young tool, older project, one strong launch: 384 stars, 12 forks, 4 open issues as of 2026-10-11, created 2025-07-25, pushed 2026-10-09, latest release v0.3.1 on 2026-10-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=wrr/drop&type=date&theme=dark&legend=top-left" />

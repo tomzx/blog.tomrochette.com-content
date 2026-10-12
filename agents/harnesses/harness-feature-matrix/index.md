@@ -1,7 +1,7 @@
 ---
 title: "Harness Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-10
+updated: 2026-10-12
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, harnesses, coding-agents]
 readability: 3
@@ -77,6 +77,8 @@ Atomic Agent joins the subscription side from the opposite direction: it drives 
 **Oh My Pi is the fork bet:** Pi's frozen-core philosophy inverted, with LSP and a real debugger wired into the agent loop, eight rules formats inherited natively, and a star count (34.8k) that has passed its parent, paid for with a permanently diverging codebase and the subscription terms-of-service question its launch thread raised.
 **Atomic Agent is the small-model bet:** the only column that maintains its own llama.cpp fork (TurboQuant quantization and speculative decoding) and engineers the loop around what small models survive, grammar-constrained tool calls, a cache-stable prompt prefix, a bounded tail, and externalized state, with Fusion as its subagent story and a vendor-run GAIA benchmark whose artifacts are published but unreplicated.
 
+**The out-of-category flags from the 2026-10-12 resolutions both fail the harness test on kind, not quality.** rea.tools (morluto/rea, REA Reverse Engineer Anything, 109,906 stars and a 768-point Hacker News thread as of 2026-10-12, MIT, last push 2026-10-12) gives coding agents a reverse-engineering tool server through one MCP server, a CLI, and an installable skill: binaries, Electron apps, packaged and firmware targets, and runtime behavior, wired to Ghidra, Hopper, and IDA-class engines. It equips harnesses but never carries the model into your repository, so it is rejected here and returned for the skills category (its skill-first distribution) with protocols (its MCP surface) as the alternate fit. langchain-ai/deepagents (30,140 stars as of 2026-10-12, MIT, active) resolves the orchestration flag negative: it calls itself the batteries-included agent harness, but it is a Python and TypeScript agent-building SDK layered on LangGraph's create_agent for general tasks, with no terminal, no BYOK, no AGENTS.md, and no IDE row to answer; its terminal coding derivative dcode is already covered in the retrieval category's LangChain note, and admitting the SDK would preempt the owner-pending single-vendor SDK family question, so the flag closes as not harnesses-kind.
+
 ## Choosing from the matrix
 
 - Need an auditable client plus a subscription: Codex or Juggler, with Ante close if you build its Apache-2.0 source.
@@ -132,6 +134,8 @@ Atomic Agent joins the subscription side from the opposite direction: it drives 
 - 2026-10-10 - Added the Mini-SWE-agent column (thirty-four to thirty-five members), sorted between MiMo Code and Nanocoder, with all twelve cells traced to the new note, added it to the auditable-client list, and added the baseline-bet paragraph to the reading prose.
 - 2026-10-10 - Added the Oh My Pi column (thirty-five to thirty-six members), sorted between Nanocoder and Omnigent, with all twelve cells traced to the new note, added it to the auditable-client, local-models, local-models-plus-MCP, rules-portability, and subscription-axis lists, and added the fork-bet paragraph to the reading prose.
 - 2026-10-10 - Added the Atomic Agent column (thirty-six to thirty-seven members), sorted between Ante and Bullet, with all twelve cells traced to the new note, added it to the auditable-client, local-models, and local-models-plus-MCP lists, added a subscription-axis sentence for its Claude Code and Codex CLI reuse, and added the small-model-bet paragraph to the reading prose.
+- 2026-10-12 - Recorded the rea.tools rejection in the long tail: morluto/rea is an MCP server plus skill pack for reverse engineering (109,906 stars as of 2026-10-12, 768-point thread on 2026-10-10), not a harness; returned for the skills and protocols categories.
+- 2026-10-12 - Resolved the orchestration deepagents flag in the long tail as not harnesses-kind: an agent-building SDK over LangGraph (30,140 stars as of 2026-10-12) whose terminal derivative dcode the retrieval LangChain note already covers, held under the owner-pending single-vendor SDK family question.
 
 ## See also
 

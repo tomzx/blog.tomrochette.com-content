@@ -12,7 +12,7 @@ audience_notes: >
 
 Mastra is the TypeScript agent framework built by the team behind Gatsby, now a platform with Studio, Server, and Memory Gateway layered over the open-source core.
 
-**Mastra has the fastest commercial trajectory in this note set, 6.1 million npm downloads a month and $35M raised in 18 months, and it has already survived one supply-chain attack.**
+**Mastra has the fastest commercial trajectory in this note set, 8.3 million npm downloads a month and $35M raised in 18 months, and it has already survived one supply-chain attack.**
 
 ## What it is
 
@@ -22,8 +22,8 @@ The repo sits at 28,407 stars with 2,879 forks, created 2024-08-06; the core is 
 
 ## Status
 
-Active and shipping fast: last push 2026-10-08, `@mastra/core` 1.75.0 published to npm 2026-10-07 (GitHub API, npm, as of 2026-10-08), one release after 1.74.0 (2026-10-01).
-npm recorded 7,250,377 downloads of `@mastra/core` in the month ending 2026-10-04, the largest install base in this note set.
+Active and shipping fast: last push 2026-10-11, `@mastra/core` 1.75.0 published to npm 2026-10-07 (GitHub API, npm, as of 2026-10-11), one release after 1.74.0 (2026-10-01).
+npm recorded 8,345,899 downloads of `@mastra/core` in the month ending 2026-10-09, the largest install base in this note set (npm API, as of 2026-10-11, after 7,250,377 for the month ending 2026-10-04).
 Funding: $13M seed announced 2025-10-08 from 120+ investors including YC, Paul Graham, Gradient, and Guillermo Rauch, then a $22M Series A led by Spark Capital on 2026-04-09, totaling $35M (mastra.ai blog).
 On 2026-06-16 Mastra disclosed a supply-chain attack that compromised multiple npm packages, with an incident report and fixes.
 

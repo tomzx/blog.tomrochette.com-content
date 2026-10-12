@@ -1,7 +1,7 @@
 ---
 title: Qwen Coding Plan
 created: 2026-09-26
-updated: 2026-10-06
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, qwen, subscriptions, alibaba]
 readability: 3
@@ -18,18 +18,18 @@ The Qwen Coding Plan is Alibaba Cloud Model Studio's flat-rate subscription that
 A subscription from Alibaba Cloud (Model Studio, the international DashScope platform) now sold in two generations.
 The older request-based Coding Plan charges $50/month for Pro and deducts per request; the newer credits-based Token Plan (Singapore region) deducts from a shared Credits pool spanning text, image, video, and speech models.
 Both expose OpenAI-compatible and Anthropic-compatible endpoints and require a plan-specific `sk-sp-` key with a dedicated base URL, so one subscription feeds Claude Code, OpenCode, Codex, Cursor, Cline, Qwen Code, Qoder, Kilo CLI, and OpenClaw.
-The Pro roster includes third-party flagships (kimi-k2.5, glm-5, MiniMax-M2.5) alongside qwen3.7-plus, qwen3.6-plus, and the qwen3-coder line.
+The Pro roster pins exact model snapshots (qwen3.7-plus, qwen3.6-plus, qwen3.5-plus, kimi-k2.5, glm-5, MiniMax-M2.5), and the docs page updated 2026-10-11 no longer lists the qwen3-coder line, stating that models not listed are not supported.
 
 ## Status
 
 Actively sold but mid-transition, and the transition is not cosmetic.
 Coding Plan Lite closed to new subscriptions on 2026-03-20 and to renewals and upgrades on 2026-04-13.
 The official Token Plan FAQ states that Coding Plan Pro was a limited-quantity offering that is "no longer available once sold out", recommends Token Plan instead, and provides no migration or upgrade path between the two products.
-As of 2026-09-26 the coding-plan docs (updated 2026-09-11) still headline the $50 Pro plan while the Token Plan guide (updated 2026-09-25) sits above it in the docs nav, and Token Plan is Singapore-region only.
+As of 2026-10-11 the coding-plan docs (updated the same day) still headline the $50 Pro plan while the Token Plan guide (updated 2026-10-11) sits above it in the docs nav, and Token Plan is Singapore-region only.
 
 ## Strengths
 
-- **The multi-vendor roster is the real product.** One key routes to Qwen, Kimi-K2.5, GLM-5, MiniMax-M2.5, and on Token Plan DeepSeek-V4-Pro plus the image, audio, and video families.
+- **The multi-vendor roster is the actual product.** One key routes to Qwen, Kimi-K2.5, GLM-5, MiniMax-M2.5, and on Token Plan DeepSeek-V4-Pro plus the image, audio, and video families.
 - Token Plan entry is the cheapest on-ramp I verified in this category: $6/month limited-time ($8 list) for 11,500 Credits.
 - $50 Coding Pro bought up to 90,000 requests per month, 6,000 per 5 hours, 45,000 per week, which undercuts pay-as-you-go for anyone spending over $100/month on these APIs.
 - Fixed monthly billing with hard caps: when a window empties, calls pause instead of drawing on your account balance.
@@ -46,7 +46,7 @@ As of 2026-09-26 the coding-plan docs (updated 2026-09-11) still headline the $5
 ## Pricing
 
 As of 2026-10-06 two price sheets coexist.
-Coding Plan Pro: $50/month, capped at 6,000 requests per 5 hours, 45,000 per week, and 90,000 per month, whichever hits first (official docs, page updated 2026-09-28, re-verified 2026-10-06 with slots still first-come, first-served).
+Coding Plan Pro: $50/month, capped at 6,000 requests per 5 hours, 45,000 per week, and 90,000 per month, whichever hits first (official docs, page updated 2026-10-11, with slots still first-come, first-served).
 Token Plan Personal (Singapore region): Lite $6 (list $8), Essential $10 (list $16), Standard $18 (list $25), Pro $68 (list $80) per month for 11,500/25,500/45,000/180,000 Credits, with team seats at $20/$75/$200 and extra bundles at $15 per 20,000 Credits.
 A third-party tracker (data updated 2026-09-24) reports China-side early-bird pricing of ¥39/¥139/¥499 per month, a limited-time night rate of 40% of normal Credits from 22:00, and 88% over-limit billing.
 
@@ -76,6 +76,7 @@ Claim to disagree with: the $50 Coding Plan Pro that Alibaba's docs still headli
 
 - 2026-09-26 - Created when the owner asked for any remaining subscription providers.
 - 2026-10-06 - Cleaned the Compared-to and See also link labels (stray leading dashes inside the link text), and the Coding Plan Pro quota terms re-verified on the official docs.
+- 2026-10-11 - Roster check: the docs (updated the same day) dropped the qwen3-coder line from the Pro plan's supported-models list, which now pins qwen3.7-plus, qwen3.6-plus, qwen3.5-plus, kimi-k2.5, glm-5, and MiniMax-M2.5 and states that unlisted models are not supported; every stated price re-verified unchanged.
 
 ## See also
 
@@ -87,7 +88,7 @@ Claim to disagree with: the $50 Coding Plan Pro that Alibaba's docs still headli
 
 ## References
 
-- https://www.alibabacloud.com/help/en/model-studio/coding-plan - official Coding Plan docs: $50 Pro, 6,000/45,000/90,000 request caps, Lite dates of 2026-03-20 and 2026-04-13, automation ban, snapshot-pinned roster, `sk-sp-` key rules (fetched, HTTP 200).
+- https://www.alibabacloud.com/help/en/model-studio/coding-plan - official Coding Plan docs: $50 Pro, 6,000/45,000/90,000 request caps, Lite dates of 2026-03-20 and 2026-04-13, automation ban, snapshot-pinned roster, `sk-sp-` key rules (fetched, HTTP 200; re-fetched 2026-10-11 with the page updated the same day and the qwen3-coder line gone from the roster)
 - https://www.alibabacloud.com/help/en/model-studio/token-plan-overview - official Token Plan overview: USD tiers and Credits, Singapore-only availability, and the FAQ stating Coding Plan Pro was limited-quantity with no migration path (fetched, HTTP 200).
 - https://www.alibabacloud.com/en/campaign/ai-scene-coding - official campaign and purchase page: limited-time USD prices, 2X credit promotion, Qwen3.8-Max positioning (fetched, HTTP 200).
 - https://www.alibabacloud.com/help/en/model-studio/token-plan-guide - official docs hub placing Token Plan above Coding Plan in the product nav as of 2026-09-25 (fetched, HTTP 200).

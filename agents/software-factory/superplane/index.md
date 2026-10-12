@@ -1,7 +1,7 @@
 ---
 title: SuperPlane
 created: 2026-10-07
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The core is Apache-2.0 with integrations across source control, CI, cloud, obser
 
 ## Status
 
-Active and the category's largest member: 7,711 stars, 649 forks, and 454 open issues, pushed 2026-10-10, per the GitHub API as of 2026-10-10.
+Active and the category's largest member: 7,708 stars, 648 forks, and 455 open issues, pushed 2026-10-10, per the GitHub API as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&theme=dark&legend=top-left" />
@@ -43,13 +43,13 @@ The repository now carries the software-factory topic and the website and docs s
 
 - **Release tags lag main by months**: v0.30.0 on 2026-07-27 against daily main pushes as of 2026-10-07, so tag-tracking self-hosters run old code.
 - **Open-core split**: the /ee directory sits under a separate Enterprise Edition license, and GitHub cannot classify the result.
-- **Young platform surface**: 439 open issues and a January control-plane-to-factory pivot mean the docs story is still settling.
+- **Young platform surface**: 455 open issues and a January control-plane-to-factory pivot mean the docs story is still settling.
 - **It is broader than a factory**: workflow automation across observability and incidents puts it in workflow-platform territory too, which dilutes the factory comparison.
 
 ## Pricing
 
 The engine is open source and free to self-host with community support.
-The website published its first plans (as of 2026-10-10): Business at $199 per organization per month with unlimited team members and $50 in shared monthly usage for machines and managed models, OSS Projects free for qualifying open source projects, and Enterprise custom with air-gapped installation and audit logs.
+The website published its first plans (as of 2026-10-10, re-verified 2026-10-11): Business at $199 per organization per month with unlimited team members and $50 in shared monthly usage for machines and managed models, OSS Projects free for qualifying open source projects, and Enterprise custom with air-gapped installation and audit logs.
 Beyond the included usage, managed machines bill per minute ($0.00012 to $0.01 by size) and managed model usage bills at provider rate plus 10 percent, deducted from a prepaid balance.
 
 ## Price history

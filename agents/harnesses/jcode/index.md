@@ -1,7 +1,7 @@
 ---
 title: jcode
 created: 2026-08-30
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, yc, memory, multi-agent]
 readability: 3
@@ -25,7 +25,7 @@ Its three distinctive systems are an embedding-based memory graph with passive r
 ## Status
 
 **Active and rising fast, with a bus factor of one.**
-Created January 5, 2026, it shows 20,376 stars and 2,370 forks with a push on the day of verification (GitHub API, as of 2026-10-10), and a release cadence that ran near-daily until v0.84.0 on September 7, 2026, followed by a twelve-day pause that v0.85.0 ended on September 19, 2026, v0.86.0 a day later on September 20, the v0.87 pair starting September 22 (v0.87.0, which added Claude Opus 5.5 with independent Anthropic model discovery and Claude Code 2.1.280 OAuth compatibility, with v0.87.1 following within hours), v0.88.0 on September 23, which made Claude Opus 5.5 the default Anthropic model and added multi-browser support and banked resets for exhausted OpenAI usage, and a near-daily train still running as of 2026-10-10 (v0.89.0 on September 28 added voice input and agent applets, v0.90.0 on October 1 moved web search to the provider's own server-side search with a config opt-out, v0.91.0 on October 6 added a Google Calendar tool, guided OAuth app setup, Alt-based speed-tier cycling, and a /desktop handoff to Jcode Desktop, v0.92.0 on October 7 added opt-in codemode over an embedded QuickJS sandbox, and v0.93.0 on October 9 cut first-frame startup to about 20 ms and added the post_tool_feedback hook).
+Created January 5, 2026, it shows 20,391 stars and 2,376 forks with a push on the day of verification (GitHub API, as of 2026-10-11), and a release cadence that ran near-daily until v0.84.0 on September 7, 2026, followed by a twelve-day pause that v0.85.0 ended on September 19, 2026, v0.86.0 a day later on September 20, the v0.87 pair starting September 22 (v0.87.0, which added Claude Opus 5.5 with independent Anthropic model discovery and Claude Code 2.1.280 OAuth compatibility, with v0.87.1 following within hours), v0.88.0 on September 23, which made Claude Opus 5.5 the default Anthropic model and added multi-browser support and banked resets for exhausted OpenAI usage, and a near-daily train still running as of 2026-10-11 (v0.89.0 on September 28 added voice input and agent applets, v0.90.0 on October 1 moved web search to the provider's own server-side search with a config opt-out, v0.91.0 on October 6 added a Google Calendar tool, guided OAuth app setup, Alt-based speed-tier cycling, and a /desktop handoff to Jcode Desktop, v0.92.0 on October 7 added opt-in codemode over an embedded QuickJS sandbox, v0.93.0 on October 9 cut first-frame startup to about 20 ms and added the post_tool_feedback hook, and v0.94.0 on October 10 added queued commands, an Alt+G git-commit-log view, and mid-turn message observation and cancellation for API clients).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=1jehuang/jcode&type=date&theme=dark&legend=top-left" />
@@ -38,7 +38,7 @@ v0.90.1 shipped October 5, auto-retrying OpenAI-compatible providers that answer
 v0.91.0 shipped October 6, adding a Google login flow with per-service consent and a built-in calendar tool (view, create, update, delete events), guided Google OAuth app setup that imports existing gcloud credentials, Alt+Up/Down cycling of the speed tier among Standard, Fast, and Ultrafast, a `/desktop` command that opens the current session in Jcode Desktop, MCP tool results and mcp_search output fitted to token budgets, and a batch of coordinator and swarm fixes, and v0.92.0 followed on October 7, adding opt-in codemode (an embedded QuickJS sandbox that composes tool calls), browser-bridge auto-update, Gmail Cc and Bcc support, math-aware copy in the TUI, a promoted background-task widget, and per-provider default models that track each provider's newest flagship.
 v0.93.0 shipped October 9, 2026, the instant-startup release: new sessions paint their first frame in about 20 milliseconds instead of about 135, resuming large sessions is about three times quicker, a new post_tool_feedback hook feeds a script's output back to the model after each tool call, and builds now cover FreeBSD.
 It is Y Combinator-backed (S26), and the author reports 11,977 contributions in the last year ([about page](https://jcode.sh/about)).
-The independent footprint is thin so far: two Hacker News threads at 3 and 5 points with zero comments (April 30 and August 10, 2026) and one favorable third-party comparison; 20,134 stars against that little discussion is unusual and worth watching.
+The independent footprint is thin so far: two Hacker News threads at 3 and 5 points with zero comments (April 30 and August 10, 2026) and one favorable third-party comparison; 20,391 stars against that little discussion is unusual and worth watching.
 
 ## Strengths
 
@@ -102,6 +102,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 - 2026-10-07 - Recorded v0.92.0 (tagged October 7), which added opt-in codemode over an embedded QuickJS sandbox, browser-bridge auto-update, Gmail Cc and Bcc, math-aware TUI copy, a promoted background-task widget, and per-provider flagship defaults, and refreshed repository counters.
 - 2026-10-09 - Recorded v0.93.0 (October 9), the instant-startup release (about 20 ms first frames, three-times-faster large-session resume, a post_tool_feedback hook that feeds script output back to the model, FreeBSD builds), and refreshed repository counters.
 - 2026-10-10 - Synced the Status release-train summary, which had lagged at v0.88.0 behind the already-recorded bullets, through v0.93.0, and refreshed repository counters to 20,376 stars.
+- 2026-10-11 - Recorded v0.94.0 (October 10), which added queued commands, an Alt+G git-commit-log view with diff cycling on /diff, and mid-turn message observation and cancellation for Harness API clients, and refreshed repository counters.
 
 ## See also
 
@@ -112,11 +113,11 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 
 ## References
 
-- https://github.com/1jehuang/jcode - repository, MIT license, Rust, scale, release cadence, feature README, as of 2026-10-04
+- https://github.com/1jehuang/jcode - repository, MIT license, Rust, scale, release cadence, feature README, as of 2026-10-11
 - https://jcode.sh/ - mission, RAM and startup benchmarks, memory, swarm, self-dev, prompt-size study, changelog
 - https://jcode.sh/docs - AGENTS.md loading, hooks, skills, stdio-only MCP, remote daemon, ambient config
 - https://jcode.sh/about - Solo Systems, Jeremy Huang, solo founder, YC S26
-- https://jcode.sh/pricing - hosted inference plans, credit doubling, Jcode Cloud hours, and enterprise terms, as of 2026-10-04
+- https://jcode.sh/pricing - hosted inference plans, credit doubling, Jcode Cloud hours, and enterprise terms, as of 2026-10-11 (re-verified unchanged)
 - https://grigio.org/jcode-the-coding-agent-that-raises-the-skill-ceiling-vs-opencode-and-pi/ - independent three-way comparison and the ambient-mode caveat
 - https://news.ycombinator.com/item?id=49249151 - the August 10, 2026 thread, 5 points, zero comments
 - https://news.ycombinator.com/item?id=47961940 - the April 30, 2026 Show HN, 3 points, zero comments

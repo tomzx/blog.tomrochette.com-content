@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 OpenWork is a free, MIT-licensed desktop app for macOS, Windows, and Linux that runs AI agent sessions on local files with shared skills, MCP connections, browser automation, and scheduled tasks, positioned as the open alternative to Anthropic's Claude Cowork and built on top of OpenCode.
 
-**OpenWork is the Cowork clone that outlived the clone jokes: seven and a half months of signed, weekly releases to 23.7k stars, an MCP gateway that makes its skills portable to any agent, and a license split that is the first thing a serious adopter should read.**
+**OpenWork is the Cowork clone that outlived the clone jokes: seven and a half months of signed, weekly releases to about 24k stars, an MCP gateway that makes its skills portable to any agent, and a license split that is the first thing a serious adopter should read.**
 
 ## What it is
 
@@ -23,7 +23,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 23,987 stars, 2,413 forks, 600 open issues and PRs as of 2026-10-10, created 2026-01-14, pushed 2026-10-10.
+Alive and shipping hard: 23,993 stars, 2,418 forks, 600 open issues and PRs as of 2026-10-11, created 2026-01-14, pushed 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />
@@ -50,11 +50,10 @@ v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-2
 
 ## Pricing
 
-Free: $0, the MIT open-source desktop app with BYO keys, macOS, Windows, and Linux downloads, as of 2026-10-10.
-Team: $10 per seat per month, with the first 5 seats free on OpenWork Cloud (everything in Free, unlimited users, SSO/SAML, the extension marketplace, distributed LLM keys, Cloud automations, basic usage analytics, standard support), as of 2026-10-10.
-Enterprise: custom pricing on an annual contract with a 60-day opt-out (everything in Team plus SCIM provisioning, usage and adoption analytics, desktop policies and version controls, audit log and spend observability, internal white-labeling, and BYO inference self-hosted or private models), as of 2026-10-10, with the grandfather clause back on the page: existing organizations already using SCIM or desktop policies keep full access.
-Two add-ons joined the page on 2026-09-29: OpenWork Cloud Computer at $50 per member per month, a browser-accessible cloud computer for each member, and OpenWork models at $10 per user per month, managed inference with no keys to bring, both available on Team and Enterprise.
-The Den control plane inside the repo stays free for organizations up to five users, free to evaluate for 30 days at any size, and each `ee/` release converts to MIT two years after publication.
+Free: $0, the MIT open-source desktop app with BYO keys, macOS, Windows, and Linux downloads, free forever, as of 2026-10-11.
+Team: $10 per seat per month, with the first 5 seats free on OpenWork Cloud (API access, SSO/SAML, the extension marketplace, and distributed LLM keys), as of 2026-10-11.
+Enterprise: custom pricing (everything in Team plus SCIM provisioning, BYO inference self-hosted or private models, desktop policies and version controls, managed deployment, custom skill development and MCP consulting, rollout support, and the grandfather clause: existing organizations already using SCIM or desktop policies keep full access), as of 2026-10-11.
+The pricing page now lists three tiers only: the two add-ons introduced on 2026-09-29 (OpenWork Cloud Computer at $50 per member per month, managed OpenWork models at $10 per user per month) no longer appear, and self-hosting stays free for organizations up to five users.
 
 ## Price history
 
@@ -72,6 +71,7 @@ The Den control plane inside the repo stays free for organizations up to five us
 | 2026-09-29 | Team, add-ons | Tenth churn: SSO/SAML moved from Enterprise into Team, and two add-ons introduced, Cloud Computer at $50 per member per month and managed OpenWork models at $10 per user per month; the three main tier prices unchanged | https://openworklabs.com/pricing |
 | 2026-10-02 | Enterprise | Eleventh churn: Enterprise returned to custom pricing on an annual contract with a 60-day opt-out (the fixed $20 per user per month gone after three days); Free, Team, and both add-ons unchanged | https://openworklabs.com/pricing |
 | 2026-10-06 | All tiers | Twelfth churn: the grandfather clause returned (existing organizations using SCIM or desktop policies keep full access), and the first-5-seats-free OpenWork Cloud offer moved from the Free tier to the Team tier; Free $0, Team $10 per seat, Enterprise custom unchanged | https://openworklabs.com/pricing |
+| 2026-10-11 | All tiers | Thirteenth churn: the two add-ons (Cloud Computer at $50 per member per month, OpenWork models at $10 per user per month) left the pricing page and it now lists three tiers only, with API access joining Team and managed deployment, custom skill development, MCP consulting, and rollout support joining Enterprise; the three main prices and the grandfather clause unchanged | https://openworklabs.com/pricing |
 
 ## Compared to
 
@@ -105,6 +105,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - 2026-10-06 - Pricing churned a twelfth time: the grandfather clause returned to the Enterprise tier and the first-5-seats-free OpenWork Cloud offer moved from the Free tier to the Team tier, with the three main prices unchanged; refreshed adoption numbers.
 - 2026-10-07 - Added the different-ai/openwork star history chart to the Status section.
 - 2026-10-07 - Recorded v0.18.57 (2026-10-07) and Anthropic's rename of Claude Cowork to just Claude in the comparison baseline, with refreshed adoption numbers and pricing re-checked unchanged (the twelfth-churn state holds).
+- 2026-10-11 - Pricing churned a thirteenth time: the two add-ons (Cloud Computer, OpenWork models) left the pricing page, which now lists three tiers only, while the three main prices and the grandfather clause held; API access, managed deployment, custom skill development, MCP consulting, and rollout support joined the tier lists, with refreshed adoption numbers.
 
 ## See also
 

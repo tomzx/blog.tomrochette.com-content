@@ -1,7 +1,7 @@
 ---
 title: Graft
 created: 2026-09-12
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graphs, claude-code, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The npm scope and telemetry endpoint are NanoNets-branded, the product site attr
 
 ## Status
 
-Young and very hot: created 2026-07-03, 9,812 stars and 885 forks by 2026-10-09, last push 2026-10-08, 232 open issues and pull requests, v0.21.1 on npm (published 2026-09-29) with 108,897 downloads in the trailing month (window 2026-09-08 to 2026-10-07), all as of 2026-10-09 (GitHub and npm APIs).
+Young and very hot: created 2026-07-03, 9,839 stars and 872 forks by 2026-10-11, last push 2026-10-10, 238 open issues and pull requests, v0.21.1 on npm (published 2026-09-29) with 112,977 downloads in the trailing month (window 2026-09-10 to 2026-10-09), all as of 2026-10-11 (GitHub and npm APIs).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trailhq/Graft&type=date&theme=dark&legend=top-left" />
@@ -56,7 +56,7 @@ No independent benchmark or third-party evaluation exists as of 2026-09-13.
 ## Pricing
 
 Graft is free, MIT, no account; your only cost is the LLM usage the optional deep pass makes under your own key.
-The money is in Trail Brain (as of 2026-10-07): Free ($0, 100 rules, 1 editor, 10K agent reads/month), Small ($20k/year), Medium ($60k/year), and Large ($150k/year with in-VPC and HIPAA BAA), priced on rules, editors, and monthly agent reads.
+The money is in Trail Brain (as of 2026-10-11): Free ($0, 100 rules, 1 editor, 10K agent reads/month), Small ($20k/year), Medium ($60k/year), and Large ($150k/year with in-VPC and HIPAA BAA), priced on rules, editors, and monthly agent reads.
 
 ## Price history
 

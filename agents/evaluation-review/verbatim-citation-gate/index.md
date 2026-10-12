@@ -1,7 +1,7 @@
 ---
 title: Verbatim Citation Gate
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, citations, hallucination, guardrails, rag]
 readability: 3
@@ -20,12 +20,12 @@ A pip-installable Python package (from the repository, not yet on PyPI) with sta
 Stage two in `judge.py` takes any `(system, user) -> str` callable, so it wires to Claude, GPT, Gemini, Mistral, Cohere, or a local Qwen without adapters, and returns `supports`, `partial`, `unrelated`, or `contradicts`.
 The judge's prompt encodes three rules: default-refute (the verdict starts at unsupported and ties break against the claim), outside knowledge is inadmissible (a claim can be true and still unsupported by this source), and full-strength support or the verdict caps at `partial`.
 Each named failure mode has its own test, including `test_audit_fabrication_never_calls_judge`, which proves a fabricated quote costs zero model calls.
-The docs page describes the maintainer as the Palo Alto AI Research Lab, a self-styled name; the repository itself belongs to a personal GitHub account (tonydzi), and no GitHub organization of that lab name exists as of 2026-10-10.
+The docs page describes the maintainer as the Palo Alto AI Research Lab, a self-styled name; the repository itself belongs to a personal GitHub account (tonydzi), and no GitHub organization of that lab name exists as of 2026-10-11.
 
 ## Status
 
-Active but barely adopted: 4 stars, 2 forks, and 4 open issues as of 2026-10-10, created 2026-07-24, pushed 2026-10-09, with two releases (v0.2.0 on 2026-08-25, v0.1.0 on 2026-08-04) and CI running a tests workflow.
-A Hacker News search returns zero threads as of 2026-10-10, which is the adoption signal here: this is a solo project with a clean mechanism and no independent users on record yet.
+Active but barely adopted: 4 stars, 2 forks, and 4 open issues as of 2026-10-11, created 2026-07-24, pushed 2026-10-09, with two releases (v0.2.0 on 2026-08-25, v0.1.0 on 2026-08-04) and CI running a tests workflow.
+A Hacker News search returns zero threads as of 2026-10-11, which is the adoption signal here: this is a solo project with a clean mechanism and no independent users on record yet.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tonydzi/verbatim-citation-gate&type=date&theme=dark&legend=top-left" />
@@ -42,7 +42,7 @@ A Hacker News search returns zero threads as of 2026-10-10, which is the adoptio
 
 ## Cautions
 
-- Near-zero adoption: 4 stars and zero discussion as of 2026-10-10 means nobody has independently validated the approach, so treat it as a promising pattern to copy, not a dependency to trust.
+- Near-zero adoption: 4 stars and zero discussion as of 2026-10-11 means nobody has independently validated the approach, so treat it as a promising pattern to copy, not a dependency to trust.
 - Exact-verbatim matching misses legitimate paraphrase and cross-sentence citations by design, so it fits quote-style citation systems only.
 - The distribution is a git URL install with no PyPI package, and the two releases stopped in August 2026 even though pushes continue.
 - The "Palo Alto AI Research Lab" branding on the docs is uncorroborated by any organization, funding, or publication record a reader can check.
@@ -76,7 +76,7 @@ Not for paraphrase-tolerant citation systems, and not as a battle-tested depende
 ## References
 
 - https://github.com/tonydzi/verbatim-citation-gate - repository: README, two-stage design, test names, license
-- https://api.github.com/repos/tonydzi/verbatim-citation-gate - stars, forks, issues, creation and push dates as of 2026-10-10
+- https://api.github.com/repos/tonydzi/verbatim-citation-gate - stars, forks, issues, creation and push dates as of 2026-10-11
 - https://api.github.com/repos/tonydzi/verbatim-citation-gate/releases - v0.2.0 (2026-08-25) and v0.1.0 (2026-08-04)
 - https://tonydzi.github.io/verbatim-citation-gate/ - the docs page: two-stage diagram, known limits, and the self-styled lab attribution
-- https://hn.algolia.com/api/v1/search?query=verbatim-citation-gate&hitsPerPage=3 - the zero-thread community-footprint check as of 2026-10-10
+- https://hn.algolia.com/api/v1/search?query=verbatim-citation-gate&hitsPerPage=3 - the zero-thread community-footprint check as of 2026-10-11

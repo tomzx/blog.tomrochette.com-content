@@ -1,7 +1,7 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
@@ -17,13 +17,14 @@ GitHub Agentic Workflows (gh-aw) define repository automation in Markdown with Y
 ## What it is
 
 You write a Markdown file whose frontmatter declares triggers, permissions, tools, safe outputs, and an engine, and the `gh-aw` CLI extension compiles it into a `.lock.yml` Actions workflow.
-Five engines are built in (Copilot as default, Claude Code, Codex, Gemini, Pi), with importable sample definitions for OpenCode, Cursor, Kiro, Aider, Crush, DeepSeek Harness, Goose, and Pydantic AI.
+Six engines are built in (Copilot as default, Claude Code, Codex, Gemini, experimental Agy, and Pi), with importable sample definitions for OpenCode, Cursor, Kiro, Aider, Crush, DeepSeek Harness, Goose, and Pydantic AI.
+Gemini is deprecated in favor of Agy but stays selectable.
 It is built by GitHub Next with Microsoft Research, MIT-licensed, in public preview.
 
 ## Status
 
 **Active preview with real traction.**
-About 5.4k stars, 582 forks, and roughly 18,500 commits in `github/gh-aw` as of 2026-10-10.
+About 5.4k stars, 584 forks, and roughly 18,500 commits in `github/gh-aw` as of 2026-10-11.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
 The trust story has kept moving: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, a critical security advisory published August 27 forced the pre-emptive retirement of releases 0.83.3 through 0.85.3 (patched in 0.85.4), a notice that still sits in the README while the billing one was cleared, and a high-severity advisory published September 23 added an HTTPS egress allowlist bypass via TLS SNI domain fronting, affecting releases through 0.89.17 and patched in 0.89.17.
 The release line keeps churning (latest v0.91.7 on 2026-10-09 as a prerelease, with v0.89.21 still the newest stable-marked release since 2026-09-23), which shows how quickly this preview will break its users.
@@ -50,7 +51,7 @@ Self-hosted and ARC runners are supported, which can zero out the Actions-minute
 
 ## Compared to
 
-- [Claude Code Action](https://github.com/anthropics/claude-code-action): the mature single-agent incumbent on the same platform (about 9.5k stars as of 2026-10-10), better for @claude PR review, weaker on multi-engine guardrails.
+- [Claude Code Action](../claude-code-action/index.md): the official single-agent incumbent on the same platform (9,478 stars as of 2026-10-11), better for the @claude mention workflow, weaker on multi-engine guardrails.
 - [Copilot automations](../copilot-automations/index.md): GitHub's hosted scheduled and event triggers, no files in your repo, Copilot-only.
 - [Claude Code hooks](../claude-code-hooks/index.md): event triggers inside one harness session, versus repository-level automation across engines.
 
@@ -80,6 +81,8 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - 2026-10-08 - Refreshed the release train to v0.91.5 (2026-10-07, a prerelease) with v0.89.21 still the newest stable-marked release, re-confirmed the security-advisory notice still live in the README and no new advisory published, and refreshed forks to 578.
 - 2026-10-09 - Refreshed the release train to v0.91.6 (2026-10-08, a prerelease) with v0.89.21 still the newest stable-marked release, re-confirmed the security-advisory notice still live in the README, and refreshed forks to 581.
 - 2026-10-10 - Refreshed the release train to v0.91.7 (2026-10-09, a prerelease) with v0.89.21 still the newest stable-marked release, re-confirmed the security-advisory notice still live in the README and no new advisory published since September 23, refreshed forks to 582, and moved the claude-code-action count to about 9.5k as a routine refresh.
+- 2026-10-11 - Recorded the sixth built-in engine (experimental Agy, with Gemini deprecated in its favor) against the current engines reference, re-confirmed the release train unchanged (v0.91.7 still newest, v0.89.21 still the newest stable-marked) and no new advisory, and refreshed forks to 584.
+- 2026-10-11 - Repointed the Claude Code Action comparison to its new research note in this category after the official-Actions family admission.
 
 ## See also
 
@@ -91,7 +94,8 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 
 - https://docs.github.com/en/copilot/concepts/agents/about-github-agentic-workflows - product definition, security model, AIC billing
 - https://github.github.com/gh-aw/ - full reference: engines, guardrails, cost management
-- https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-10-10
+- https://github.github.com/gh-aw/reference/engines/ - the built-in engine list (six, with Agy experimental and Gemini deprecated) and the eight imported samples, as of 2026-10-11
+- https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-10-11
 - https://github.com/github/gh-aw/security/advisories/GHSA-8h78-hpm7-29gg - the critical advisory (safe-output artifacts may expose CI trigger tokens) behind the 0.83.3-0.85.3 retirement, patched in 0.85.4
 - https://github.com/github/gh-aw/security/advisories/GHSA-x78f-wrrj-4h24 - the high-severity September 23 advisory (HTTPS egress allowlist bypass via TLS SNI domain fronting), patched in 0.89.17
 - https://news.ycombinator.com/item?id=46934107 - February 2026 launch discussion (302 points) including dogfooding criticism

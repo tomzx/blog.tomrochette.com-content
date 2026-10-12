@@ -1,7 +1,7 @@
 ---
 title: Karpathy Autoresearch
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, autoresearch, machine-learning, open-source]
 readability: 3
@@ -18,12 +18,12 @@ Karpathy Autoresearch is Andrej Karpathy's three-file open-source loop in which 
 
 A GitHub repository whose working surface is deliberately three files: `prepare.py` (fixed data preparation and evaluation, not modifiable), `train.py` (the single file the agent edits, holding the GPT model, the Muon plus AdamW optimizers, and the training loop), and `program.md` (the instructions the human edits, which Karpathy calls the research-org code).
 A run works like this: the agent agrees a run tag, branches `autoresearch/<tag>`, reads the repository, then experiments autonomously, each experiment training for a fixed five minutes on one GPU, with every result appended to a `results.tsv` ledger and kept or reverted on the numbers.
-The training target is a simplified single-GPU implementation of Karpathy's nanochat (58,537 stars as of 2026-10-10).
+The training target is a simplified single-GPU implementation of Karpathy's nanochat (58,552 stars as of 2026-10-11).
 Karpathy announced it in March 2026 with a deliberately mythologizing framing: the repo is "the story of how it all began" for a future where agent swarms run research.
 
 ## Status
 
-Dormant as a repository, dominant as an influence: 97,621 stars, 13,564 forks, created 2026-03-06, last push 2026-03-26, no releases and no license file, as of 2026-10-10.
+Dormant as a repository, dominant as an influence: 97,661 stars, 13,566 forks, created 2026-03-06, last push 2026-03-26, no releases and no license file, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=karpathy/autoresearch&type=date&theme=dark&legend=top-left" />
@@ -79,9 +79,9 @@ Not for anyone who needs a maintained tool, a license that permits reuse, or res
 ## References
 
 - https://github.com/karpathy/autoresearch - the repository: three-file design, keep-or-revert loop, nanochat base, and the March 2026 framing (fetched 200, 2026-10-10)
-- https://api.github.com/repos/karpathy/autoresearch - stars, forks, created and pushed dates, and the no-license status for the as-of line (fetched 200, 2026-10-10)
+- https://api.github.com/repos/karpathy/autoresearch - stars, forks, created and pushed dates, and the no-license status for the as-of line (fetched 200, 2026-10-11)
 - https://raw.githubusercontent.com/karpathy/autoresearch/master/program.md - the agent-facing loop definition: branch per run, results.tsv ledger, fixed five-minute budget (fetched 200, 2026-10-10)
 - https://blog.skypilot.co/scaling-autoresearch/ - the independent 16-GPU scaling test: about 910 experiments in 8 hours, the H100-screen and H200-validate strategy, 1.003 to 0.974 validation loss (fetched 200, 2026-10-10)
 - https://hn.algolia.com/api/v1/items/47442435 - the 237-point, 94-comment scaling thread and its hyperparameter-tuning and brute-force critiques (fetched 200, 2026-10-10)
-- https://raw.githubusercontent.com/webfuse-com/awesome-autoresearch/main/README.md - the dedicated descendant list the loop spawned (fetched 200, 2026-10-10)
-- https://api.github.com/repos/karpathy/nanochat - the nanochat base and its star count (fetched 200, 2026-10-10)
+- https://raw.githubusercontent.com/webfuse-com/awesome-autoresearch/main/README.md - the dedicated descendant list the loop spawned (fetched 200, 2026-10-11)
+- https://api.github.com/repos/karpathy/nanochat - the nanochat base and its star count (fetched 200, 2026-10-11)

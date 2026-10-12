@@ -8,25 +8,34 @@ tags: [agents, automated-research]
 readability: 3
 ---
 
-Where the research loop itself runs autonomously: the labs' science programs, the productized research agent, the community-built loops from markdown skills and idea-to-paper pipelines to financial data, and the formal-proof engines pointed at the hardest open problems.
+Where the research loop itself runs autonomously: the labs' science programs, the productized research agent, and the community-built loops from markdown skills and idea-to-paper pipelines to multi-agent evolution, metric-judged tree search, and financial data, plus the formal-proof engines pointed at the hardest open problems.
 
+- [Agent Laboratory](agent-laboratory/index.md) - Samuel Schmidgall's human-piloted idea-to-report framework whose own evaluation scored its papers 4 of 10 against the accepted-NeurIPS average, with AgentRxiv as the shared preprint server, dormant since 2025-08-20, 5,900 stars as of 2026-10-11.
 - [Agon](agon/index.md) - the MIT Claude Code plugin running adversarial producer-critic factories from a one-line topic to experiments and a paper draft, with a candid failure-mode taxonomy.
+- [AI-Researcher](ai-researcher/index.md) - HKU Data Intelligence Lab's NeurIPS 2025 idea-to-paper system with its own Scientist-Bench, the sub-family's largest community and no license file, dormant since 2025-10-16, 5,802 stars as of 2026-10-11.
+- [AIDE ML](aide-ml/index.md) - Weco AI's MIT reference build of the AIDE tree-search agent that drafts, debugs, and benchmarks ML code toward a user metric, the mechanism's published ancestor, 1,568 stars as of 2026-10-11.
+- [AiScientist](aiscientist/index.md) - AweAI's File-as-Bus research lab whose paper track reproduces published work on PaperBench and whose MLE track pushes a metric across 24-hour runs, dormant since 2026-07-21, 146 stars as of 2026-10-11.
 - [AlphaProof](alphaproof/index.md) - DeepMind's Lean reinforcement-learning solver, from IMO silver in 2024 to officially graded IMO gold via Deep Think in 2025.
 - [Anthropic Claude mathematical research](anthropic-claude-math/index.md) - the Claude Code subagent loop that raised the zeta zero bound to 67.2 percent and formalized Fermat's Last Theorem in 11 days.
-- [ARIS](aris/index.md) - wanshuiyin's MIT markdown-skill research loop where the executor drives and a reviewer from a different model family judges every artifact across eight harnesses, 17,250 stars as of 2026-10-10.
-- [AutoResearchClaw](autoresearchclaw/index.md) - the aiming-lab 23-stage idea-to-paper pipeline with multi-agent debate, four-layer citation verification, and seven human-in-the-loop modes, dormant since 2026-08-19, 14,618 stars as of 2026-10-10.
-- [DeepAnalyze](deepanalyze/index.md) - RUC DataLab and Tsinghua's trained 8B agentic model that runs the data-science loop from raw files to analyst-grade reports with no external judge, 4,678 stars as of 2026-10-10.
-- [Dexter](dexter/index.md) - Virattt's open-source autonomous financial research agent that plans, executes, and self-validates tool runs over live financial statements with a JSONL audit trail, 27,652 stars as of 2026-10-10.
-- [FutureHouse Robin](futurehouse-robin/index.md) - the nonprofit's Nature-published wet-lab loop that proposed and validated ripasudil for dry AMD, with people at the bench and its own ablations as the critique, 732 stars as of 2026-10-10.
-- [GPT Researcher](gpt-researcher/index.md) - the Apache-2.0 open deep-research agent running the plan-search-filter-write loop on any LLM since 2023, cited in 150-plus papers as the baseline, 29,992 stars as of 2026-10-10.
+- [ARIS](aris/index.md) - wanshuiyin's MIT markdown-skill research loop where the executor drives and a reviewer from a different model family judges every artifact across eight harnesses, 17,252 stars as of 2026-10-11.
+- [AutoResearchClaw](autoresearchclaw/index.md) - the aiming-lab 23-stage idea-to-paper pipeline with multi-agent debate, four-layer citation verification, and seven human-in-the-loop modes, dormant since 2026-08-19, 14,618 stars as of 2026-10-11.
+- [AutoSci](autosci/index.md) - the memory-centric full-lifecycle research platform with SciMem, SciFlow, SciDAG, and SciEvolve, stable on Claude Code with Codex and OpenCode previews, 1,698 stars as of 2026-10-11.
+- [CORAL](coral/index.md) - the Human-Agent Society multi-agent evolution framework where a manager partitions coding agents into grader-isolated worktree islands and shares wins through persistent memory, COLM 2026, 1,063 stars as of 2026-10-11.
+- [DeepAnalyze](deepanalyze/index.md) - RUC DataLab and Tsinghua's trained 8B agentic model that runs the data-science loop from raw files to analyst-grade reports with no external judge, 4,678 stars as of 2026-10-11.
+- [Dexter](dexter/index.md) - Virattt's open-source autonomous financial research agent that plans, executes, and self-validates tool runs over live financial statements with a JSONL audit trail, 27,652 stars as of 2026-10-11.
+- [FutureHouse Robin](futurehouse-robin/index.md) - the nonprofit's Nature-published wet-lab loop that proposed and validated ripasudil for dry AMD, with people at the bench and its own ablations as the critique, 733 stars as of 2026-10-11.
+- [GPT Researcher](gpt-researcher/index.md) - the Apache-2.0 open deep-research agent running the plan-search-filter-write loop on any LLM since 2023, cited in 150-plus papers as the baseline, 30,011 stars as of 2026-10-11.
 - [Harmonic Aristotle](harmonic-aristotle/index.md) - the free agentic theorem prover with a Lean-checked Erdős result, now aimed at software correctness, judged and contested on FormalQualBench.
-- [Karpathy Autoresearch](karpathy-autoresearch/index.md) - Karpathy's three-file keep-or-revert loop where an agent edits a nanochat training script overnight and the validation curve judges every experiment, the family's founding artifact, 97,621 stars as of 2026-10-10.
-- [Local Deep Research](local-deep-research/index.md) - the community's MIT local-first research agent running an agentic search loop over arXiv, PubMed, and your own encrypted document index on local models, 9,179 stars as of 2026-10-10.
+- [Kapso](kapso/index.md) - Leeroo's MIT campaign framework where long-running agents optimize AI and data systems toward a declared evaluator, banking evidence-priced lessons between campaigns, with results on MLE-Bench, ALE-Bench, RelBench, and the IOAI 2026 AI Model Track, 121 stars as of 2026-10-11.
+- [Karpathy Autoresearch](karpathy-autoresearch/index.md) - Karpathy's three-file keep-or-revert loop where an agent edits a nanochat training script overnight and the validation curve judges every experiment, the family's founding artifact, 97,661 stars as of 2026-10-11.
+- [Local Deep Research](local-deep-research/index.md) - the community's MIT local-first research agent running an agentic search loop over arXiv, PubMed, and your own encrypted document index on local models, 9,181 stars as of 2026-10-11.
 - [Math Inc. Gauss](math-inc-gauss/index.md) - the autoformalization agent behind Strong PNT and the sphere-packing proof, with the comparator-audited OpenGauss harness, as of 2026-09-13.
+- [NanoResearch](nanoresearch/index.md) - OpenRaiser's nine-stage idea-to-paper engine that submits experiments to local or SLURM GPU clusters and writes the paper from the logs those runs return, 1,340 stars as of 2026-10-11.
 - [OpenAI Deep Research](openai-deep-research/index.md) - the productized web-research agent, the breadth-first loop with no machine judge behind it.
 - [OpenAI for Science](openai-for-science/index.md) - the lab program from FrontierMath's first open-problem solve to the disputed Navier-Stokes claim, as of 2026-09-13.
-- [OpenResearch](openresearch/index.md) - alphaXiv's MIT local-first workspace that turns Claude Code, Codex, OpenCode, Cursor, or Antigravity into research agents with an experiment tree and an autonomous loop, 6,823 stars as of 2026-10-10.
+- [OpenResearch](openresearch/index.md) - alphaXiv's MIT local-first workspace that turns Claude Code, Codex, OpenCode, Cursor, or Antigravity into research agents with an experiment tree and an autonomous loop, 6,866 stars as of 2026-10-11.
 - [Pion](pion/index.md) - Andon Labs' closed research preview where persistent agents run a real business with payment tools, the Vending-Bench lineage made product.
+- [Sakana AI Scientist](sakana-ai-scientist/index.md) - the idea-to-paper ancestor whose v2 produced the first fully AI-generated paper to pass a workshop peer review, withdrawn from publication by design, dormant since 2026-12-19, 7,294 stars as of 2026-10-11.
 
 Its members are compared on shared rows in the [Automated Research Feature Matrix](automated-research-feature-matrix/index.md).
 
@@ -49,3 +58,12 @@ Its members are compared on shared rows in the [Automated Research Feature Matri
 - 2026-10-10 - Added ARIS.
 - 2026-10-10 - Added AutoResearchClaw.
 - 2026-10-10 - Added Dexter.
+- 2026-10-11 - Added Kapso.
+- 2026-10-11 - Added Sakana AI Scientist.
+- 2026-10-11 - Added Agent Laboratory.
+- 2026-10-11 - Added AIDE ML.
+- 2026-10-11 - Added AI-Researcher.
+- 2026-10-11 - Added AiScientist.
+- 2026-10-11 - Added AutoSci.
+- 2026-10-11 - Added CORAL.
+- 2026-10-11 - Added NanoResearch.

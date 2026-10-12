@@ -25,7 +25,7 @@ Claude Code is the default runtime with Codex, Copilot, Gemini, and Cursor confi
 
 **Shut down: Yegge killed the project in September 2026 and admitted he never successfully built anything with it, so the category's most famous experiment is now a death record that stays because deaths are information.**
 Per [Latent Space's AINews roundup](https://www.latent.space/p/ainews-reality-checks-on-ai-news) (2026-09-17), citing Dan Luu's 2026-09-15 post on X, Yegge shut Gas Town down despite spending many thousands a month on coding agent subscriptions.
-As of 2026-10-03: 18,240 stars, 1,678 forks, 502 open issues, created 2025-12-16, latest release v1.2.1 on 2026-06-06.
+As of 2026-10-11: 18,323 stars, 1,686 forks, 507 open issues, created 2025-12-16, latest release v1.2.1 on 2026-06-06.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gastownhall/gastown&type=date&theme=dark&legend=top-left" />

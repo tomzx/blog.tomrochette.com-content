@@ -26,7 +26,7 @@ Prerequisites are just tmux and the GitHub CLI.
 ## Status
 
 Active but slow-burning.
-The repository was created in March 2025, was last pushed to on 2026-08-20, and shows 222 commits, 8,570 stars, and 627 forks as of 2026-10-05.
+The repository was created in March 2025, was last pushed to on 2026-08-20, and shows 222 commits, 8,588 stars, and 626 forks as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=smtg-ai/claude-squad&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: BMad Method
 created: 2026-08-27
-updated: 2026-10-08
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, agile, multi-agent, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The ecosystem is modular: BMad Builder, a Creative Intelligence Suite, an enterp
 ## Status
 
 Large, active, and quietly adopted.
-As of 2026-10-08: about 53.9k stars and about 6.1k forks since creation on 2025-04-13, 68 open issues and pull requests, with release v6.12.1 (published 2026-10-04) now the newest.
+As of 2026-10-11: about 54k stars and about 6.1k forks since creation on 2025-04-13, 49 open issues and pull requests, with release v6.12.2 (published 2026-10-11) now the newest.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bmad-code-org/BMAD-METHOD&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ As of 2026-10-08: about 53.9k stars and about 6.1k forks since creation on 2025-
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=bmad-code-org/BMAD-METHOD&type=date&legend=top-left" />
 </picture>
 
-The derivative community is real (third-party skill packs and hybrids like boss-skill and bmalph, the latter at 406 stars), but its HN threads run 2 to 4 points, so the method spread through the ecosystem rather than the front page.
+The derivative community exists (third-party skill packs and hybrids like boss-skill and bmalph, the latter at 406 stars), but its HN threads run 2 to 4 points, so the method spread through the ecosystem rather than the front page.
 
 ## Strengths
 
@@ -70,6 +70,8 @@ The disagreeable claim I will defend: within a year the waterfall critique will 
 - 2026-08-27 - Created in the Spec-driven development category after the owner asked for the alternatives, recording the agile right-sizing thesis.
 - 2026-10-06 - Recorded the v6.12.1 release (2026-10-04) and refreshed counts.
 - 2026-10-07 - Added the bmad-code-org/BMAD-METHOD star history chart to the Status section.
+- 2026-10-11 - Recorded the v6.12.2 release (published 2026-10-11) and refreshed counts.
+- 2026-10-11 - Reworded a banned-term word out of the prose; meaning unchanged.
 
 ## See also
 
@@ -81,7 +83,7 @@ The disagreeable claim I will defend: within a year the waterfall critique will 
 ## References
 
 - https://github.com/bmad-code-org/BMAD-METHOD - README: loop, modules, prerequisites, licensing
-- https://api.github.com/repos/bmad-code-org/BMAD-METHOD - stars, forks, issues as of 2026-10-08
+- https://api.github.com/repos/bmad-code-org/BMAD-METHOD - stars, forks, issues as of 2026-10-11
 - https://docs.bmad-method.org/ - the documentation map
 - https://github.com/bmad-code-org/bmad-loop - the unattended epic module
 - https://news.ycombinator.com/item?id=44879862 - the 4-point launch-era thread, the thin-footprint evidence

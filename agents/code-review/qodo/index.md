@@ -1,7 +1,7 @@
 ---
 title: Qodo
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -27,7 +27,7 @@ The repo description draws the line in one sentence: "This project is not the Qo
 ## Status
 
 Active on both halves, and deliberately splitting apart.
-The repo counts 13,326 stars and 1,950 forks as of 2026-10-10, MIT-licensed, with v0.47.0 released October 2, 2026 (after v0.46.0 on September 21), and the former qodo-ai/pr-agent URL now redirects to the repo's new home in the standalone PR-Agent organization.
+The repo counts 13,339 stars and 1,951 forks as of 2026-10-11, MIT-licensed, with v0.47.0 released October 2, 2026 (after v0.46.0 on September 21), and the former qodo-ai/pr-agent URL now redirects to the repo's new home in the standalone PR-Agent organization.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=qodo-ai/pr-agent&type=date&theme=dark&legend=top-left" />
@@ -38,7 +38,7 @@ The repo counts 13,326 stars and 1,950 forks as of 2026-10-10, MIT-licensed, wit
 v0.47.0 hardens the tool: Gitea webhooks now fail closed without a configured secret, the GitHub Action fails on swallowed tool errors, GitLab and Bitbucket comment commands require a leading slash, extra_config_url became host-only, and model support added Claude Opus 5.5 and Bedrock Kimi K3.
 The company raised $11M in 2023, then $40M in September 2024 ($50M total), by which point TechCrunch already called it "Qodo, the startup previously known as CodiumAI".
 The README states Qodo donated PR-Agent to the community, the project has its first external maintainer, and it is being donated to an open-source foundation.
-The company's badges report 908.6K VS Code and 650.6K JetBrains extension installs plus roughly 13.3K Marketplace installs for the paid app, as of 2026-10-10.
+The company's badges report 908.6K VS Code and 650.6K JetBrains extension installs plus roughly 13.3K Marketplace installs for the paid app, as of 2026-10-11.
 On Hacker News the reviewer itself never caught fire (best thread 24 points, item 41500840), while company research posts reached 139 (item 44874736) and 87 points (item 41838348), and the Kudelski exploit write-up got 1 point (item 46824997).
 
 ## Strengths
@@ -54,7 +54,7 @@ On Hacker News the reviewer itself never caught fire (best thread 24 points, ite
 - The README now calls the OSS project a "community-maintained legacy project" and contrasts it with the "feature-rich, context-aware" commercial offering, which is the vendor telling you where the real product lives.
 - Kudelski Security walked from a PR comment to RCE and an AWS admin key on Qodo Merge Pro (all fixed as of October 2025), and the root cause, config overrides injected through PR comments and repo config files, is a design decision in the open tool too.
 - A developer reported leaving the JetBrains plugin over near-zero public activity and piled-up issues (HN comment 45880645, November 2025).
-- The "highest F1-score" claim on the homepage is measured on the company's own benchmark, not a neutral one.
+- The "highest F1-score" claim on the homepage is measured on the company's own benchmark, not a neutral one: Qodo published that benchmark (PR-Review-Bench) on February 4, 2026, injecting 580 issues into 100 merged PRs, comparing against seven rival tools, and reporting 60.1 percent F1 for itself, with the dataset public and every advantage on the vendor's side of the harness.
 - There is no permanent free tier for the commercial product, credits expire monthly, and the historical $19/month PR-Agent Pro plan is gone.
 - /help_docs sits disabled in the OSS tool since v0.36.1 over a credential-exposure bug (issue #2445), a window into community-maintenance pace.
 - The company renamed itself from CodiumAI and retro-edited old blog posts to insert "(now Qodo (formerly Codium))", which muddies citations of its own history.
@@ -96,6 +96,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 - 2026-10-03 - Recorded v0.47.0 (October 2): fail-closed Gitea webhook secrets, the GitHub Action failing on tool errors, leading-slash comment commands on GitLab and Bitbucket, host-only extra_config_url, and Claude Opus 5.5 plus Bedrock Kimi K3 model support.
 - 2026-10-07 - Added the qodo-ai/pr-agent star history chart to the Status section.
 - 2026-10-07 - Recorded Qodo 3.0 (October 1, 2026): PR Triage research preview, swarm review, PR Insights, and the quality-control-for-the-agentic-software-factory positioning; repo and install-badge counts refreshed.
+- 2026-10-11 - Recorded the vendor's own public benchmark behind the homepage F1 claim (PR-Review-Bench, February 4, 2026: 100 PRs, 580 injected issues, seven rivals, 60.1 percent F1), added its two URLs to References, and refreshed repo counts.
 
 ## See also
 
@@ -107,7 +108,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 
 ## References
 
-- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-10-10.
+- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-10-11.
 - https://github.com/qodo-ai/pr-agent - README: donation to the community, tools table, platforms, release notes, sponsor status, "legacy project" wording.
 - https://docs.pr-agent.ai/tools/ - the full OSS command surface, including the /help_docs disabling.
 - https://www.qodo.ai/ - positioning, context engine, rules system, self-reported benchmark claim, credit FAQ, install badges.
@@ -122,4 +123,6 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 - https://hn.algolia.com/api/v1/search?query=pr-agent&tags=story - PR-Agent's thin HN footprint (18 stories, best 24 points) and the 2024 $19/month pricing quote.
 - https://hn.algolia.com/api/v1/items/45880645 - critical developer comment on Qodo plugin maintenance, November 2025.
 - https://www.qodo.ai/blog/codiumai-or-codeium-which-are-you-looking-for/ - the Codeium name confusion and the retro-edited "formerly Codium" branding.
+- https://www.qodo.ai/ai-code-review-benchmark/ - the vendor benchmark page behind the F1 claim: precision, recall, F1, "strongest overall performance", dataset links, fetched 2026-10-11.
+- https://www.qodo.ai/blog/how-we-built-a-real-world-benchmark-for-ai-code-review - the February 4, 2026 methodology post: 100 merged PRs, 580 injected issues, seven rival tools, 60.1 percent F1, fetched 2026-10-11.
 - https://docs.qodo.ai/ - commercial surface: code review, governance, cross-repo review, rule miner (the former /qodo-documentation path redirects here).

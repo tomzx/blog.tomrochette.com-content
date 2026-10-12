@@ -1,7 +1,7 @@
 ---
 title: ccusage
 created: 2026-10-05
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The repository is a monorepo created by ryoppippi (the project moved from his pe
 ## Status
 
 **The most-installed tool in this category by an order of magnitude, and until today the only one this section had never profiled.**
-About 18.9k stars and 869 forks as of 2026-10-10, created 2025-05-29, pushed 2026-10-10 (GitHub API).
+About 19k stars (18,957) and 871 forks as of 2026-10-11, created 2025-05-29, pushed 2026-10-11 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&theme=dark&legend=top-left" />
@@ -32,8 +32,8 @@ About 18.9k stars and 869 forks as of 2026-10-10, created 2025-05-29, pushed 202
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&legend=top-left" />
 </picture>
 
-The npm package pulled 663,188 downloads in the trailing month (2026-09-09 to 2026-10-08), roughly nine times the claude-mem plugin and far ahead of every session-analytics peer here.
-The release line is v20.x with rapid patches: v20.0.28 (2026-10-10) is the latest tagged release, after v20.0.26 (2026-09-27) and v20.0.24 (2026-09-21).
+The npm package pulled 701,209 downloads in the trailing month (2026-09-10 to 2026-10-09), roughly nine times the claude-mem plugin and far ahead of every session-analytics peer here.
+The release line is v20.x with rapid patches: v20.0.29 (2026-10-10) is the latest tagged release, after v20.0.28 (2026-10-10) and v20.0.26 (2026-09-27).
 Its Show HN launch thread reached 75 points in July 2025, and the README carries an Awesome Claude Code mention badge.
 
 ## Strengths
@@ -70,6 +70,7 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 
 - 2026-10-05 - Created from the 2026-10-05 entrant scan: the category's most-installed tool, previously known here only as the comparator named in agentsview's note, profiled with seven fetched sources.
 - 2026-10-07 - Added the ccusage/ccusage star history chart to the Status section.
+- 2026-10-11 - Recorded v20.0.29 (2026-10-10): Antigravity ACP conversations discovered by default, GPT-6 fast-multiplier and OpenAI Flex usage fixes, and a Copilot OTel cache-write pricing fix; repository counts and trailing-month downloads refreshed (663,188 to 701,209).
 
 ## See also
 
@@ -84,8 +85,8 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 - https://github.com/ccusage/ccusage - repository, 18.9k stars and 864 forks as of 2026-10-05, created 2025-05-29, the ryoppippi origin and ccusage-org move (the ryoppippi/ccusage URL redirects here)
 - https://raw.githubusercontent.com/ccusage/ccusage/main/apps/ccusage/README.md - the eighteen-source table, report types, blocks and statusline features, offline mode, and pricing overrides
 - https://raw.githubusercontent.com/ccusage/ccusage/main/apps/ccusage/LICENSE - the MIT license text, copyright ryoppippi
-- https://api.npmjs.org/downloads/point/last-month/ccusage - 663,188 trailing-month downloads (2026-09-09 to 2026-10-08), fetched 2026-10-10
-- https://registry.npmjs.org/ccusage - npm latest 20.0.28, matching the v20.0.28 GitHub tag
-- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.28 (2026-10-10), v20.0.26 (2026-09-27), and v20.0.24 (2026-09-21) release dates
+- https://api.npmjs.org/downloads/point/last-month/ccusage - 701,209 trailing-month downloads (2026-09-10 to 2026-10-09), fetched 2026-10-11
+- https://registry.npmjs.org/ccusage - npm latest 20.0.29, matching the v20.0.29 GitHub tag
+- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.29 and v20.0.28 (both 2026-10-10), v20.0.26 (2026-09-27), and v20.0.24 (2026-09-21) release dates
 - https://news.ycombinator.com/item?id=44610925 - the 75-point launch thread (2025-07-18), carrying the npx-security critique and the estimate-versus-bill debates
 - https://ccusage.com - the docs site, a client-rendered VitePress shell this run, with the title and description verified in the served HTML

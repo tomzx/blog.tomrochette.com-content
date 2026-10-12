@@ -23,7 +23,7 @@ Apache-2.0, self-hosted, by EverMind-AI, with a technical report released as its
 
 ## Status
 
-Active and very early: 5,213 stars and 149 forks as of 2026-10-05, created 2026-05-21, with 35 contributors and v0.2.4 out on 2026-10-03 after five releases in September.
+Active and very early: 5,371 stars and 160 forks as of 2026-10-11, created 2026-05-21, with 35 contributors and v0.2.4 (2026-10-03) still the latest release after five releases in September.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/Raven&type=date&theme=dark&legend=top-left" />

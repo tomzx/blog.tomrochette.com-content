@@ -1,7 +1,7 @@
 ---
 title: Loki Mode
 created: 2026-10-07
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, autonomous-agents, verification]
 readability: 3
@@ -21,7 +21,7 @@ Autonomi publishes it under BUSL-1.1, and the README documents outcomes and exit
 
 ## Status
 
-Active and shipping fast: 1,090 stars and 207 forks since creation on 2025-12-26, pushed 2026-10-09, npm at 11.3.9 (2026-10-09), and 177,097 Docker pulls, per GitHub, npm, and Docker Hub as of 2026-10-10.
+Active and shipping fast: 1,090 stars and 206 forks since creation on 2025-12-26, pushed 2026-10-09, npm at 11.3.9 (2026-10-09), and 177,508 Docker pulls, per GitHub, npm, and Docker Hub as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=asklokesh/loki-mode&type=date&theme=dark&legend=top-left" />
@@ -49,7 +49,8 @@ v11.3.1 shipped the 11.3 program's ten v1 features (cost preview, mutation proof
 
 ## Pricing
 
-Free as a source-available CLI; you bring your own model keys, and Autonomi's site describes a live control plane without published prices as of 2026-10-09.
+Free as a source-available CLI: the BUSL-1.1 grant covers personal, internal, academic, and non-commercial use, converts the code to Apache-2.0 on 2030-03-19, and names founder@autonomi.dev for other arrangements.
+You bring your own model keys, and Autonomi's site describes a live control plane without published prices as of 2026-10-09, a page this run could not re-fetch (empty on both 2026-10-11 attempts).
 There is no public tier to track yet.
 
 ## Compared to
@@ -68,6 +69,7 @@ Not for teams that require OSI licensing, and not for anyone who needs independe
 - 2026-10-07 - Created from the category's entrant scan as the receipt-gated member.
 - 2026-10-08 - Recorded the npm train's jump from 11.0.3 to 11.3.0 (five releases in the two days to 2026-10-08, led by the router escalation chain shipped off by default) and refreshed counts.
 - 2026-10-09 - Recorded the train to 11.3.9 (eight published releases since 11.3.0, v11.3.3 never published after a failed release run), the v11.3.1 ship of the 11.3 program's ten v1 features, the v11.3.4-v11.3.9 credential-hardening arc with its "hardening, not a sandbox" wording, the provider roster's Cline and Aider additions as experimental, and refreshed counts.
+- 2026-10-11 - Added the BUSL-1.1 use grant and its 2030-03-19 Apache-2.0 conversion date to Pricing, recorded the autonomi.dev fetch failure (empty on two attempts), and refreshed counts.
 
 ## See also
 

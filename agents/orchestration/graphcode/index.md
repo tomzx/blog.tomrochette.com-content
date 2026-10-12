@@ -24,7 +24,7 @@ It bundles no agents and drives five backends (Claude Code, GitHub Copilot CLI, 
 
 ## Status
 
-New and fast-moving: about 136 stars and 19 forks as of 2026-10-06, created 2026-07-26, with v0.1.78 (2026-10-04) the latest release, promoted from the October 3 beta line, following v0.1.77 (2026-09-29, loops come back after a codespace or remote-host restart) and the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
+New and fast-moving: about 139 stars and 19 forks as of 2026-10-11, created 2026-07-26, with v0.1.78 (2026-10-04) still the latest release and default-branch commits landing 2026-10-11, promoted from the October 3 beta line, following v0.1.77 (2026-09-29, loops come back after a codespace or remote-host restart) and the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=scgopi/GraphCode&type=date&theme=dark&legend=top-left" />

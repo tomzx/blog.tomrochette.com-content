@@ -24,7 +24,7 @@ A built-in source-control view and an agent review bot put worktree state, pull 
 
 ## Status
 
-Active and fast-moving: v2.9.5 shipped 2026-10-07 (Coordinator runs as a chosen account, PR attribution with a get_pr_cost MCP tool, shared request pricing and ledger types, and GitHub cost comments), hours after v2.9.4 added multi-account-per-harness support and an opt-in performance probe, on top of near-daily releases through September and October.
+Active and fast-moving: v2.9.6 shipped 2026-10-10 (Remote Control from an idle Coordinator over a browser-signed-in Claude account, a second Claude subscription account per setup token, multiple Antigravity accounts, and the browser QA worker retired), after v2.9.5 (2026-10-07, Coordinator runs as a chosen account, PR attribution with a get_pr_cost MCP tool, shared request pricing and ledger types) and v2.9.4 (multi-account-per-harness support and an opt-in performance probe), on top of near-daily releases through September and October.
 The vendor's pricing page, which returned HTTP 500 on 2026-10-03, serves again as of 2026-10-05 with the same Free $0 and Pro $16/month tiers, still serving on 2026-10-07, and the changelog and download page carried v2.9.4 as of 2026-10-07 and v2.9.5 as of 2026-10-08.
 **The community footprint is the weakest part of the story: a Show HN thread from 2026-08-25 that sits at 1 point with 0 comments, no public repository, and a "5,000+ AI builders" community claim that only the vendor's own site corroborates.**
 Treat the traction numbers as marketing until an independent source confirms them.

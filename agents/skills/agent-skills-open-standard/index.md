@@ -1,7 +1,7 @@
 ---
 title: Agent Skills open standard
 created: 2026-08-24
-updated: 2026-10-08
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, agent-extensions, open-standards, llm=glm-5.3-flash]
 readability: 3
@@ -25,7 +25,7 @@ Discovery is by directory convention: each harness scans its own skills paths (`
 
 **Active, and effectively the winner.**
 The agentskills.io client showcase lists Claude and Claude Code, ChatGPT and Codex, Gemini CLI, Cursor, GitHub Copilot and VS Code, OpenCode, Amp, Goose, Junie, Roo, Kiro, Trae, and dozens more.
-Vercel's skills CLI installs into 79 agents as of 2026-10-10 (headline and table agree: four named agents plus a "75 more" count matching the table's 79 targets).
+Vercel's skills CLI installs into 79 agents as of 2026-10-11 (headline and table agree: four named agents plus a "75 more" count matching the table's 79 targets).
 Mintlify now auto-generates a skill at `.well-known/skills/default/skill.md` for every docs site it hosts and deprecated its January 2026 install.md convention in favor of skills.
 
 ## Strengths

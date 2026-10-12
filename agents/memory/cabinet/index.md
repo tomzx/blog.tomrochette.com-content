@@ -1,7 +1,7 @@
 ---
 title: Cabinet
 created: 2026-10-02
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, knowledge-base, file-based, self-hosted]
 readability: 3
@@ -23,7 +23,7 @@ Desktop downloads exist for Mac and Windows (Linux coming soon), with hosted Cab
 
 ## Status
 
-Popular but quiet: 2,879 stars as of 2026-10-10 (302 forks as of 2026-10-03), created 2026-04-03, with the last release v0.6.0 on 2026-08-25 and no push since August 25.
+Popular but quiet: 2,881 stars as of 2026-10-11 (302 forks as of 2026-10-03), created 2026-04-03, with the last release v0.6.0 on 2026-08-25 and no push since August 25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cabinetai/cabinet&type=date&theme=dark&legend=top-left" />
@@ -45,8 +45,8 @@ Cloud Pro and Cloud Max are waitlist stage, so the product today is the self-hos
 
 ## Cautions
 
-- Development has been quiet for about seven weeks as of 2026-10-10 with no release since v0.6.0, and the broad "startup OS" scope ages badly if the pace stays flat.
-- No independent community footprint: one founder-posted Show HN thread at 16 points, no third-party writeups I could find, so the 2,879 stars are the entire social proof.
+- Development has been quiet for about seven weeks as of 2026-10-11 with no release since v0.6.0, and the broad "startup OS" scope ages badly if the pace stays flat.
+- No independent community footprint: one founder-posted Show HN thread at 16 points, no third-party writeups I could find, so the 2,881 stars are the entire social proof.
 - Hosted tiers are waitlist only, so teams wanting managed backups today must build their own.
 - Platform coverage is Mac and Windows, with Linux still "coming soon" despite a web UI that suggests otherwise.
 - The agent team runs on your connected accounts (Drive, Gmail, Slack), which concentrates real access in a young codebase.
@@ -92,8 +92,8 @@ Not for Linux-first teams, or anyone who needs an actively shipping dependency, 
 
 ## References
 
-- https://github.com/cabinetai/cabinet - repository, MIT license, stars, forks, release history, and the quiet-since-August push record as of 2026-10-03 (the hilash/cabinet URL redirects here)
+- https://github.com/cabinetai/cabinet - repository, MIT license, 2,881 stars, forks, release history, and the quiet-since-August push record as of 2026-10-11 (the hilash/cabinet URL redirects here)
 - https://runcabinet.com/ - product positioning, the ready-made AI team roles, the scheduled-work surface, and the download platforms
-- https://runcabinet.com/pricing - the four plans, the waitlist status of the cloud tiers, and the bring-your-own-AI FAQ, re-verified unchanged 2026-10-03
+- https://runcabinet.com/pricing - the four plans, the waitlist status of the cloud tiers, and the bring-your-own-AI FAQ, re-verified unchanged 2026-10-11
 - https://www.npmjs.com/package/create-cabinet - the create-cabinet bootstrap package, version 0.5.0 verified through the npm registry API (the npm site itself 403s to curl)
 - https://news.ycombinator.com/item?id=47649336 - the founder's Show HN thread (2026-04-05, 16 points, 6 comments), the one piece of independent-community record found on re-verification

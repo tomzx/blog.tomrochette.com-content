@@ -1,7 +1,7 @@
 ---
 title: FutureHouse Robin
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, futurehouse, biology, drug-discovery, multi-agent]
 readability: 3
@@ -26,7 +26,7 @@ Humans write the protocols, run every physical experiment, and review the ranked
 Published in Nature on May 19, 2026 (volume 655, pages 497 to 505, open access), first announced May 20, 2025, with concept to submission taking 2.5 months, as of 2026-10-06.
 The demo: pointed at dry age-related macular degeneration, Robin proposed enhancing RPE phagocytosis, and its rounds of candidates identified ripasudil, an approved glaucoma drug never before proposed for the disease, plus KL001, a circadian modulator, both confirmed in vitro and revalidated in primary human RPE stem cells from a donor over 60.
 Nature reports about 268,000 accesses and 117 citations in the five months since publication, as of 2026-10-06.
-The repository carries the loop and example trajectories: 732 stars, 123 forks, Apache-2.0, last push 2026-04-21, as of 2026-10-10.
+The repository carries the loop and example trajectories: 733 stars, 123 forks, Apache-2.0, last push 2026-04-21, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Future-House/robin&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ The repository carries the loop and example trajectories: 732 stars, 123 forks, 
 </picture>
 
 A paper-configured workflow run costs about US$11 of API calls (45 Crow and 30 Falcon calls), and Robin read 551 papers in 30 minutes against an estimated 294 human hours.
-**The developer-community footprint is nearly absent: the announcement drew an 18-point Hacker News thread with 4 comments as of 2026-10-10, so adoption runs through academia and Nature readers rather than the harness ecosystem.**
+**The announcement drew real forum attention that faded fast: a 151-point, 20-comment thread on the arXiv preprint and an 18-point, 4-comment thread on the writeup in the same week (as of 2026-10-11), while the repository has been quiet since April 2026, so the loop lives in academia's attention rather than as a maintained developer tool.**
 
 ## Strengths
 
@@ -73,6 +73,7 @@ Not for anyone expecting autonomous laboratories; the loop plans and analyzes, a
 
 - 2026-10-06 - Created.
 - 2026-10-07 - Added the Future-House/robin star history chart to the Status section.
+- 2026-10-11 - Corrected the discussion-footprint claim: the announcement week also drew a 151-point, 20-comment Hacker News thread on the arXiv preprint that the earlier note missed, and refreshed the repository counts.
 
 ## See also
 
@@ -88,4 +89,4 @@ Not for anyone expecting autonomous laboratories; the loop plans and analyzes, a
 - https://github.com/Future-House/robin - repository license, stars, forks, and last push date for the status line (fetched via GitHub API, 2026-10-06)
 - https://www.futurehouse.org/about - org structure: nonprofit, philanthropic funding, the Edison Scientific spinout, and the Kosmos 80-percent self-estimate (fetched 200, 2026-10-06)
 - https://www.asimov.press/p/futurehouse - the independent profile: founders on evaluation limits and on engineering, not AI, being the hard part (fetched 200, 2026-10-06)
-- https://hn.algolia.com/api/v1/search?query=FutureHouse&tags=story&hitsPerPage=10 - the thin developer-community footprint: an 18-point announcement thread and a 71-point team profile (fetched 200, 2026-10-06)
+- https://hn.algolia.com/api/v1/search?query=FutureHouse&tags=story&hitsPerPage=10 - the announcement footprint: a 151-point preprint thread and an 18-point writeup thread in the same week, re-verified 2026-10-11 (fetched 200, 2026-10-11)

@@ -1,7 +1,7 @@
 ---
 title: Intent-Router
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, intent-specs, clarification, skills]
 readability: 3
@@ -23,8 +23,8 @@ The README positions it against plan modes (which prefer looking up over verifyi
 
 ## Status
 
-Young and fast-rising: 1,015 stars and 121 forks as of 2026-10-10, created 2026-09-22, pushed 2026-10-09, with four releases in its first three weeks (v1.3.0 on 2026-10-09, v1.0.0 on 2026-09-23).
-A thousand stars in nineteen days is the steepest adoption curve in this category's recent additions, but the independent footprint has not caught up: a Hacker News search returns no thread about it as of 2026-10-10.
+Young and fast-rising: 1,017 stars and 124 forks as of 2026-10-11, created 2026-09-22, pushed 2026-10-11, with four releases in its first three weeks (v1.3.0 on 2026-10-09, v1.0.0 on 2026-09-23).
+A thousand stars in nineteen days is the steepest adoption curve in this category's recent additions, but the independent footprint has not caught up: a Hacker News search returns no thread about it as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=angel291592/Intent-Router&type=date&theme=dark&legend=top-left" />
@@ -43,7 +43,7 @@ A thousand stars in nineteen days is the steepest adoption curve in this categor
 
 - The evidence is self-published and small: the delivery report of 2026-09-24 compares 5 bare runs against 3 skill runs (mean 5.0 versus 6.0 of 6) in one harness on one model, and the report discloses that the bare arm needed the skill explicitly denied because an installer test had left a copy in user-level skills.
 - Three weeks old with a solo maintainer: the IntentSpec format and the four-state model can still move under you.
-- The star curve (1,015 in nineteen days) is social momentum, not validation; there is no independent replication of the delivery numbers as of 2026-10-10.
+- The star curve (1,017 in nineteen days) is social momentum, not validation; there is no independent replication of the delivery numbers as of 2026-10-11.
 - It is upstream of typed decision models (Jev, Laya), so teams already running those need to decide which layer owns the clarification step.
 
 ## Pricing
@@ -75,8 +75,8 @@ Not for teams needing enforced process (that is Superpowers), and not for anyone
 ## References
 
 - https://github.com/angel291592/Intent-Router - repository: README, pipeline, comparison table, license
-- https://api.github.com/repos/angel291592/Intent-Router - stars, forks, issues, creation and push dates as of 2026-10-10
+- https://api.github.com/repos/angel291592/Intent-Router - stars, forks, issues, creation and push dates as of 2026-10-11
 - https://api.github.com/repos/angel291592/Intent-Router/releases - v1.3.0 published 2026-10-09 and the release train
 - https://raw.githubusercontent.com/angel291592/Intent-Router/main/README.md - the convergence design, artifact model, and prior-art comparison
 - https://raw.githubusercontent.com/angel291592/Intent-Router/main/evals/reports/2026-09-24-delivery-opencode.md - the self-published delivery report behind the numbers and the contamination check
-- https://hn.algolia.com/api/v1/search?query=Intent-Router&hitsPerPage=5 - the no-thread community-footprint check as of 2026-10-10
+- https://hn.algolia.com/api/v1/search?query=Intent-Router&hitsPerPage=5 - the no-thread community-footprint check as of 2026-10-11

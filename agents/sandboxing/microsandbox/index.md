@@ -1,7 +1,7 @@
 ---
 title: Microsandbox
 created: 2026-10-07
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The project carries a Y Combinator badge and has moved organizations more than o
 
 ## Status
 
-Large by this category's standards and still shipping weekly: 8,628 stars, 95 open issues and PRs, pushed 2026-10-10 as of 2026-10-10, created 2024-10-03.
+Large by this category's standards and still shipping weekly: 8,643 stars, 95 open issues and PRs, pushed 2026-10-11 as of 2026-10-11, created 2024-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&theme=dark&legend=top-left" />

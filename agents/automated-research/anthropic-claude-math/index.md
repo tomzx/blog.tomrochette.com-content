@@ -1,7 +1,7 @@
 ---
 title: Anthropic Claude mathematical research
 created: 2026-09-13
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, anthropic, mathematics, formal-verification]
 readability: 3
@@ -26,9 +26,9 @@ Anthropic's own zeta post footnote also credits a Claude model with disproving t
 
 ## Status
 
-Very active and widening, as of 2026-10-05: September alone brought the nine-loop amplitude in N=4 super Yang-Mills (September 25, guest-posted by the physicist who issued the challenge) and, beyond mathematics, a new life-sciences laboratory whose agents discovered a novel CRISPR-like enzyme system (September 23).
+Very active and widening, as of 2026-10-11: September alone brought the nine-loop amplitude in N=4 super Yang-Mills (September 25, guest-posted by the physicist who issued the challenge) and, beyond mathematics, a new life-sciences laboratory whose agents discovered a novel CRISPR-like enzyme system (September 23).
 The models are unreleased research versions, so the loop is not reproducible by outsiders today.
-The artifacts are public and machine-checkable: the formal-math repository (296 stars as of 2026-10-10) is Apache-2.0 with pinned toolchains and CI that builds with no `sorry` outside trusted statement files.
+The artifacts are public and machine-checkable: the formal-math repository (297 stars as of 2026-10-11) is Apache-2.0 with pinned toolchains and CI that builds with no `sorry` outside trusted statement files, and on October 6 it absorbed a new formalization of a 3SUM/APSP algorithms-paper result (truly subquadratic 3SUM via triangles in sparse lopsided graphs), widening the artifact chain beyond pure mathematics.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/formal-math&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ Not for anyone expecting to rerun the exact loops, since the models are unreleas
 - 2026-09-13 - Created as the Anthropic member of the new Automated research category.
 - 2026-10-05 - Recorded the September-to-October widening: the nine-loop N=4 super Yang-Mills amplitude (September 25, Fable 5.1 in Claude Science, Dixon-validated), the life-sciences laboratory and its ART enzyme discovery (September 23), and the 36-manuscript BootLoops campaign (October 1); formal-math stars refreshed to 253.
 - 2026-10-07 - Added the anthropics/formal-math star history chart to the Status section.
+- 2026-10-11 - Recorded the formal-math repository's October 6 addition of a 3SUM/APSP algorithms-paper formalization and refreshed the star count to 297.
 
 ## See also
 
@@ -91,6 +92,7 @@ Not for anyone expecting to rerun the exact loops, since the models are unreleas
 - https://www.anthropic.com/research/riemann-zeta - the zeta zero bound result, subagent methodology, validation chain, and the Jacobian footnote
 - https://www.anthropic.com/research/formalizing-fermats-last-theorem - the FLT formalization, Prove2Me DAG platform, token costs, and Buzzard review
 - https://github.com/anthropics/formal-math - the public Apache-2.0 Lean formalizations, Palomar/comparator CI, and the Alpoge-Furman arXiv reference
+- https://api.github.com/repos/anthropics/formal-math - the star count and the October 6 3sum-apsp commit behind the status line (fetched 200, 2026-10-11)
 - https://mashable.com/tech/anthropic-fable-5-disproves-jacobian-conjecture - press account of the Jacobian disproof and the skeptical expert read
 - https://hn.algolia.com/api/v1/search?query=Anthropic%20mathematics&tags=story&hitsPerPage=20 - the community footprint, including the 282-point zeta discussion
 - https://www.anthropic.com/research/yes-claude-can-do-nine-loops - the nine-loop challenge and solve: budgets, Dixon's validation, and the concurrent GPT-6-assisted human result (fetched 200, 2026-10-05)

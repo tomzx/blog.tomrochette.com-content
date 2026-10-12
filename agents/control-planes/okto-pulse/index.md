@@ -92,6 +92,6 @@ The README describes a possible SaaS edition and a core-and-community split, but
 - https://pypi.org/pypi/okto-pulse/json - current version 0.3.3 and Elastic-2.0 license metadata (re-checked 2026-10-02)
 - https://oktolabs.ai/platform/pulse/ - product site: workflow, gate and tool counts, value proposition (re-fetched 2026-10-06, still advertising v0.2.6 and 17 gates)
 - https://oktolabs.ai/platform/neuron/ - the Neuron product page: Marginalia rename, 0.3.1, ELv2, byte-range provenance, five MCP tools
-- https://github.com/OktoLabsAI/okto-nexus - the sibling product's README: serve ports, tool counts, SQLite/WAL storage, dashboard, licensing (69 stars, pushed 2026-10-04, as of 2026-10-04)
+- https://github.com/OktoLabsAI/okto-nexus - the sibling product's README: serve ports, tool counts, SQLite/WAL storage, dashboard, licensing (37 stars after the same purge, pushed 2026-10-10, as of 2026-10-11)
 - https://pypi.org/pypi/okto-nexus/json - okto-nexus 0.1.10 under Elastic License 2.0 plus the SaaS/Branding Addendum
 - https://docs.oktolabs.ai - documentation index: install, quickstart, MCP setup, knowledge graph

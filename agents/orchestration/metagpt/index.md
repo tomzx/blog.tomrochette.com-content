@@ -24,7 +24,7 @@ The framework itself is free software; MGX is the hosted product.
 
 ## Status
 
-Dormant in everything but stars: the repo shows 70,748 stars, about 9k forks, and a last push of 2026-01-21, roughly eight and a half months before this check (GitHub API, as of 2026-10-05).
+Dormant in everything but stars: the repo shows 70,796 stars, about 9k forks, and a last push of 2026-01-21, nearly nine months before this check (GitHub API, as of 2026-10-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=FoundationAgents/MetaGPT&type=date&theme=dark&legend=top-left" />

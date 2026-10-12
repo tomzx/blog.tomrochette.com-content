@@ -21,7 +21,7 @@ It connects Claude Code, Codex, OpenCode, Cursor, SuperGrok, GitHub Copilot, Z.A
 
 ## Status
 
-Active and young: 2,251 stars, a push on 2026-10-10, and release v2.17.10 on 2026-10-09 as of 2026-10-10 (GitHub API), nine releases after v2.17.1 (2026-09-28), on a repository created 2026-02-21.
+Active and young: 2,254 stars, a push on 2026-10-11, and release v2.17.10 on 2026-10-09 as of 2026-10-11 (GitHub API), nine releases after v2.17.1 (2026-09-28), on a repository created 2026-02-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=777genius/agent-teams-ai&type=date&theme=dark&legend=top-left" />

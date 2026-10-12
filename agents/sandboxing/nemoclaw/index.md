@@ -1,7 +1,7 @@
 ---
 title: NemoClaw
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, nvidia, openclaw, hermes, deep-agents, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, from NVIDIA, which describes the project as alpha with best-effort m
 
 ## Status
 
-Large and fast for an alpha: 22,692 stars, 3,133 forks, 767 open issues and PRs as of 2026-10-10, created 2026-03-15, pushed 2026-10-10.
+Large and fast for an alpha: 22,706 stars, 3,135 forks, 767 open issues and PRs as of 2026-10-11, created 2026-03-15, pushed 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Large and fast for an alpha: 22,692 stars, 3,133 forks, 767 open issues and PRs 
 </picture>
 
 The launch carried it: a 385-point, 261-comment Hacker News thread on 2026-03-18, with the announcement submission the day before at 18 points.
-**The release story is thinner than the star count: the repository held a single prerelease tag (`ci-native-podman-e2e-2026-10-01`) as of 2026-10-10, and the README still says alpha, so the seven months of growth measure attention, not a shipped 1.0.**
+**The release story is thinner than the star count: the repository held a single prerelease tag (`ci-native-podman-e2e-2026-10-01`) as of 2026-10-11, and the README still says alpha, so the seven months of growth measure attention, not a shipped 1.0.**
 
 ## Strengths
 
@@ -44,10 +44,10 @@ The launch carried it: a 385-point, 261-comment Hacker News thread on 2026-03-18
 
 ## Cautions
 
-- Self-declared alpha with best-effort support, and one prerelease tag as of 2026-10-10, so treat the API and blueprint format as moving.
+- Self-declared alpha with best-effort support, and one prerelease tag as of 2026-10-11, so treat the API and blueprint format as moving.
 - Choosing NemoClaw means choosing OpenShell: the blueprint is bound to one boundary, and the docs route custom images or non-reference workloads back to OpenShell alone.
 - The primary install is `curl | bash`, and the headline onboarding flow asks a coding agent to drive system changes, a supply-chain-sensitive pattern whose digest pinning covers only the credential helper and form, not the installer.
-- 767 open issues and PRs on a seven-month-old repository as of 2026-10-10, a support load NVIDIA reviews on a best-effort basis.
+- 767 open issues and PRs on a seven-month-old repository as of 2026-10-11, a support load NVIDIA reviews on a best-effort basis.
 
 ## Pricing
 

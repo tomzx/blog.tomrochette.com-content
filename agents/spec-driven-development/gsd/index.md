@@ -1,7 +1,7 @@
 ---
 title: GSD
 created: 2026-09-16
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, workflow, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Open GSD has grown an ecosystem around the loop: gsd-pi (a standalone harness), 
 ## Status
 
 Split between a dead root and a live successor.
-The original gsd-build/get-shit-done is archived at 64,331 stars and 5,430 forks, last pushed 2026-05-31, with its README now a redirect notice to open-gsd/gsd-core.
+The original gsd-build/get-shit-done is archived at 64,325 stars and 5,426 forks, last pushed 2026-05-31, with its README now a redirect notice to open-gsd/gsd-core.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ The original gsd-build/get-shit-done is archived at 64,331 stars and 5,430 forks
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&legend=top-left" />
 </picture>
 
-The successor, created 2026-05-22, is actively developed: 10,358 stars, 744 forks, pushed 2026-10-10, release v1.16.0 on 2026-10-05 still the newest, and 47,600 npm downloads last month for @opengsd/gsd-core, while the legacy get-shit-done-cc package records 63,612 (both as of 2026-10-10).
+The successor, created 2026-05-22, is actively developed: 10,394 stars, 743 forks, pushed 2026-10-11, release v1.16.0 on 2026-10-05 still the newest, and 46,594 npm downloads last month for @opengsd/gsd-core, while the legacy get-shit-done-cc package records 63,710 (both as of 2026-10-11).
 **The transition was not clean: Blake Watson's widely-linked build story added a 2026-07-31 update telling readers not to install the original, reporting that people say a crypto scam took place around the creator, and naming OpenGSD the consensus successor.**
 Open GSD's own origin page confirms the chapter without specifics, stating trust was damaged, people were hurt, public channels disappeared, and crediting Christopherson with the original idea.
 
@@ -88,8 +88,8 @@ The disagreeable claim I will defend: 64,331 stars is the strongest evidence the
 ## References
 
 - https://github.com/open-gsd/gsd-core - successor README: the loop, installer, runtimes, docs structure
-- https://api.github.com/repos/open-gsd/gsd-core - successor stars, forks, push date, MIT as of 2026-10-10
-- https://api.github.com/repos/gsd-build/get-shit-done - the archived original: 64,331 stars as of 2026-10-10, last push 2026-05-31
+- https://api.github.com/repos/open-gsd/gsd-core - successor stars, forks, push date, MIT as of 2026-10-11
+- https://api.github.com/repos/gsd-build/get-shit-done - the archived original: 64,325 stars as of 2026-10-11, last push 2026-05-31
 - https://github.com/gsd-build/get-shit-done - the redirect README naming gsd-core the continuation
 - https://opengsd.net - the ecosystem site and product family
 - https://opengsd.net/origin - the origin-credit page acknowledging the broken chapter
@@ -97,4 +97,5 @@ The disagreeable claim I will defend: 64,331 stars is the strongest evidence the
 - https://docs.opengsd.net/ - the documentation: three tools, 65-plus commands
 - https://blakewatson.com/journal/i-used-claude-code-and-gsd-to-build-the-accessibility-tool-ive-always-wanted/ - the firsthand account and its 2026-07-31 do-not-install update, the critical source
 - https://news.ycombinator.com/item?id=47086847 - the largest GSD thread, 24 points, February 2026
-- https://api.npmjs.org/downloads/point/last-month/@opengsd/gsd-core - 47,600 downloads last month, fetched 2026-10-10
+- https://api.npmjs.org/downloads/point/last-month/@opengsd/gsd-core - 46,594 downloads last month, fetched 2026-10-11
+- https://api.npmjs.org/downloads/point/last-month/get-shit-done-cc - the legacy package's install velocity, 63,710 last month as of 2026-10-11

@@ -23,7 +23,7 @@ Install is a curl script or brew cask, with nightly releases (v0.0.46-nightly li
 
 ## Status
 
-Active and shipping daily: created 2026-02-08, 25,979 stars in eight months, nightly releases, as of 2026-10-07.
+Active and shipping daily: created 2026-02-08, 26,857 stars in eight months, nightly releases, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=pingdotgg/t3code&type=date&theme=dark&legend=top-left" />

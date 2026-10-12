@@ -1,7 +1,7 @@
 ---
 title: Sim
 created: 2026-09-29
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -22,8 +22,9 @@ The repo sits at 29,765 stars with 3,851 forks, Apache-2.0, created 2025-01-05, 
 
 ## Status
 
-Active: last push 2026-10-09, releases v0.9.15 and v0.9.16 on 2026-10-08 (GitHub API, as of 2026-10-09).
+Active: last push 2026-10-10, releases v0.9.15 through v0.9.17 on 2026-10-08 through 2026-10-10 (GitHub API, as of 2026-10-11).
 v0.9.15 (October 8) added SSO administration and credential-sharing APIs, current frontier models, a Nebius Token Factory provider, and desktop background-executor chats bound to a device registry, and v0.9.16 (October 8) patched a sharp librsvg CVE and an MCP SDK OAuth issuer binding while adding GitHub MCP server library entries.
+v0.9.17 (October 10) added a workspace changelog of releases, workflow tests as a workspace resource, expanded Shopify operations, and a Checkr integration (GitHub releases).
 v0.9.11 (October 2) tightened audit rules across console, helper, render-path, persist, and deployment-flag checks, v0.9.12 (October 3) added last-synced deployment comparison for forks and a You.com integration, v0.9.13 (October 4) added library templates while fixing webhook path-owner claims and hosted-key usage-limit enforcement, and v0.9.14 (October 5) preserved workflow identity in background confirmations and kept file lineage through binary exports and extraction.
 Three HN launches mark the trajectory: 196 points for the first Show HN (2025-04-28), 55 points for the YC Launch HN (2025-05-21), and 240 points for "Sim, Apache-2.0 n8n alternative" (2025-12-11).
 Pre-1.0 (v0.9.x) despite the scale, so the API surface is still moving.
@@ -50,8 +51,9 @@ Pre-1.0 (v0.9.x) despite the scale, so the API surface is still moving.
 
 ## Pricing
 
-Free tier at $0 (1,000 one-time credits, weekly refresh, up to 3 seats).
-Pro at $25 per user per month (6,000 credits per month, more workspace capacity), Max at $100 per user per month (25,000 credits per month, SSO, SOC2 compliance, self-hosting options, dedicated support).
+Free tier at $0 (1,000 one-time credits, one workspace, no teammate invites, no weekly refresh).
+Pro at $25 per user per month (6,000 credits per month plus a 2,000-credit weekly refresh, three workspaces, 50 concurrent executions), Max at $100 per user per month (25,000 credits per month plus a 4,000-credit weekly refresh, unlimited workspaces, Sim Mailer, sandboxes, and Slack Connect).
+SSO, SOC 2 compliance, self-hosting, and dedicated support sit on the custom Enterprise tier.
 Annual billing saves 15 percent.
 
 ## Price history
@@ -82,6 +84,8 @@ Not for coding-agent orchestration, and not for anyone needing long-term API sta
 - 2026-10-05 - Recorded v0.9.13 (October 4, library templates plus webhook path-owner and hosted-key usage-limit fixes) as the latest release.
 - 2026-10-07 - Added the simstudioai/sim star history chart to the Status section.
 - 2026-10-09 - Recorded v0.9.15 and v0.9.16 (both October 8, SSO administration and credential-sharing APIs, then a CVE and OAuth-issuer patch) as the new latest releases.
+
+- 2026-10-11 - Corrected the plan details against the live pricing page (rendered this run after the 2026-10-10 client-shell record): Free is one workspace with no weekly refresh, and SSO, SOC 2, self-hosting, and dedicated support are Enterprise-only; recorded the Pro and Max weekly-refresh allowances.
 
 ## See also
 

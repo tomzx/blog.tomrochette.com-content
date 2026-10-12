@@ -24,7 +24,7 @@ Hooks are declared per location (`host` and `sandbox`, for example `onWorktreeRe
 
 ## Status
 
-Small but well-known: about 8,237 stars and 889 forks as of 2026-10-03, created 2026-03-17, and more than 1,193 commits.
+Small but well-known: about 8,366 stars and 894 forks as of 2026-10-11, created 2026-03-17, and more than 1,193 commits.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mattpocock/sandcastle&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: AutoResearchClaw
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, agentic-llm, open-source, paper-generation]
 readability: 3
@@ -24,7 +24,7 @@ The companion ARC-Bench dataset ships on Hugging Face under the AIMING-Lab-UNC a
 
 ## Status
 
-Dormant since August: 14,618 stars, 1,706 forks, created 2026-03-15, last push 2026-08-19, latest release v0.5.0 on 2026-05-20, as of 2026-10-10.
+Dormant since August: 14,618 stars, 1,706 forks, created 2026-03-15, last push 2026-08-19, latest release v0.5.0 on 2026-05-20, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aiming-lab/AutoResearchClaw&type=date&legend=top-left" />
@@ -78,7 +78,7 @@ Not for anyone who needs an actively maintained tool (eight weeks without a comm
 ## References
 
 - https://github.com/aiming-lab/AutoResearchClaw - repository and README: 23-stage pipeline, deliverables, OpenClaw and ACP-backend support, release news (fetched 200, 2026-10-10)
-- https://api.github.com/repos/aiming-lab/AutoResearchClaw - stars, forks, created and pushed dates, MIT license, and topics for the as-of status (fetched 200, 2026-10-10)
+- https://api.github.com/repos/aiming-lab/AutoResearchClaw - stars, forks, created and pushed dates, MIT license, and topics for the as-of status (fetched 200, 2026-10-11)
 - https://raw.githubusercontent.com/aiming-lab/AutoResearchClaw/main/README.md - the README source: stage outputs, citation-verification layers, HITL system, ARC-Bench v0.5.0 widening (fetched 200, 2026-10-10)
 - https://arxiv.org/abs/2605.20025 - the paper: five mechanisms, the 54.7 percent AI Scientist v2 comparison on ARC-Bench, and the seven intervention modes (fetched 200, 2026-10-10)
 - https://api.github.com/repos/aiming-lab/AutoResearchClaw/releases?per_page=5 - the release train through v0.5.0 (2026-05-20) (fetched 200, 2026-10-10)

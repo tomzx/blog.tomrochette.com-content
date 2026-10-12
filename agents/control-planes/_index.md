@@ -17,11 +17,12 @@ Governance above the harness: policy, permissions, approvals, budgets, trust, se
 - [CrowdStrike Falcon Guardian](crowdstrike-falcon-guardian/index.md) - the commercial AIDR layer that discovers shadow AI agents and turns AI usage policy into endpoint-enforced controls at agent execution time.
 - [Databricks Unity Gateway](databricks-unity-gateway/index.md) - the managed governance gateway inside Unity Catalog that routes every model and MCP request through permissions, guardrails, rate limits, and dollar-cost audit tables.
 - [HOL Guard](hol-guard/index.md) - the Apache-2.0 consortium-built runtime guard whose published per-harness coverage contract names what it can and cannot see, with approvals, local receipts, supply-chain inspection, and a freemium cloud.
+- [IBM ContextForge](ibm-contextforge/index.md) - the Apache-2.0 gateway that federates MCP, A2A, and REST/gRPC traffic behind one authenticated, rate-limited, audited endpoint, with RBAC, teams, SSO, and plugin guardrails.
 - [Jamf AI Governance](jamf-ai-governance/index.md) - the Mac-native capability that turns AI usage policy into enforced vendor configurations for Claude Code, Codex, and their neighbors through Apple device management.
 - [Microsoft Agent Governance Toolkit](microsoft-agent-governance-toolkit/index.md) - the MIT multi-language toolkit for deterministic policy, identity, sandboxing, SRE, and compliance, with a critical authentication writeup to read first.
 - [Okto Pulse](okto-pulse/index.md) - the Elastic-2.0 local-first SDLC workbench that blocks coding-agent status transitions until spec coverage and delivery evidence are met.
 - [OpenAPPA](openappa/index.md) - the MIT Rust engine that labels everything an agent reads with an audience and trust level and checks every tool call against TOML information-flow policy before it runs.
-- [Paperclip](paperclip/index.md) - the MIT self-hosted control plane for a company of agents, heartbeats, budgets, and governance, about 99.4k stars in seven months.
+- [Paperclip](paperclip/index.md) - the MIT self-hosted control plane for a company of agents, heartbeats, budgets, and governance, nearly 100k stars in seven months.
 - [SettleBridge](settlebridge/index.md) - the trust and policy gateway for agent-to-agent settlement, with escrow, reputation, and Merkle audit trails, and unresolved license metadata.
 - [SIDJUA](sidjua/index.md) - the governance-first orchestrator with a five-stage pre-action pipeline, frozen since April 2026 with its announced reopening date missed.
 - [TinyAGI](tinyagi/index.md) - the one-person-company orchestrator that stalled in March 2026, kept as the category's first consolidation record.
@@ -47,3 +48,4 @@ Its members are compared on shared rows in the [Control Planes Feature Matrix](c
 - 2026-10-07 - Added OpenAPPA.
 - 2026-10-07 - Added CC Safety Net.
 - 2026-10-09 - Added HOL Guard.
+- 2026-10-11 - Added IBM ContextForge.

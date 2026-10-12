@@ -86,6 +86,6 @@ Not for local-first or latency-critical enforcement, and not for anyone who need
 - https://agentcontrol.dev/ - project site: Control Store, audit logs, and the Galileo maintenance commitment
 - https://api.github.com/repos/agentcontrol/agent-control - stars, forks, issues, contributors, creation and push dates as of 2026-10-10
 - https://api.github.com/repos/agentcontrol/agent-control/releases - the v8.8.0 through v8.12.0 release train
-- https://pypi.org/pypi/agent-control-sdk/json - agent-control-sdk 8.11.0, Apache-2.0
+- https://pypi.org/pypi/agent-control-sdk/json - agent-control-sdk 8.12.0, Apache-2.0
 - https://thenewstack.io/galileo-agent-control-open-source/ - independent coverage of the launch
 - https://news.ycombinator.com/item?id=47355862 - the 2-point, zero-comment launch thread, the thin community footprint this note records

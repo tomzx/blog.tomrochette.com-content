@@ -1,7 +1,7 @@
 ---
 title: Artificial Analysis
 created: 2026-09-24
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, ai, benchmarks, evaluation]
 readability: 3
@@ -18,7 +18,7 @@ Artificial Analysis is an independent benchmarking company whose site measures A
 
 A website and data business covering models (proprietary and open weights), coding agents, inference providers, and accelerator hardware.
 The flagship Artificial Analysis Intelligence Index (v4.3.2 as of 2026-09-24) incorporates ten evaluations with published weights (agents 30%, coding 20%, scientific reasoning 20%, general 30%), and a separate Coding Agent Index (v1.5) combines DeepSWE, Terminal-Bench, and SWE-Atlas-QnA.
-The homepage compares 696 models on price per token, output speed, and latency (as of 2026-10-10), and its Endpoint Accuracy Index re-runs the same evals against 16 third-party providers of one model to measure how much accuracy each endpoint loses to quantization or configuration.
+The homepage compares 696 models on price per token, output speed, and latency (as of 2026-10-11), and its Endpoint Accuracy Index re-runs the same evals against 16 third-party providers of one model to measure how much accuracy each endpoint loses to quantization or configuration.
 A Cyber Index (v1) joined the catalog in late September 2026, combining three partner-contributed benchmarks on enterprise cyber defense and launching alongside an industry Alliance, and an 8 October update added trusted-access models to it (GPT-6 Sol Daybreak Blue now leads that board).
 Products around the data include Optima (build-your-own benchmarks), MicroEvals, a Model Recommender, and a Data Playground.
 Scale claims from the about page: 500+ models benchmarked, 100+ inference providers, 1,000+ endpoints, 1T+ evaluation tokens.
@@ -77,7 +77,7 @@ My disagreeable claim: the Endpoint Accuracy Index is the most underrated page o
 
 ## References
 
-- https://artificialanalysis.ai/ - homepage: 696 models, Intelligence Index v4.3.2, Coding Agent Index v1.5, Endpoint Accuracy Index across 16 providers (re-fetched 200, 2026-10-10, now 696 models; v4.3.2 and v1.5 unchanged)
+- https://artificialanalysis.ai/ - homepage: 696 models, Intelligence Index v4.3.2, Coding Agent Index v1.5, Endpoint Accuracy Index across 16 providers (re-fetched 200, 2026-10-11, unchanged: 696 models, v4.3.2 and v1.5, newest changelog entries still 8 October)
 - https://artificialanalysis.ai/about - founders, backers, scale claims, four-layer scope (fetched 200, 2026-09-24)
 - https://artificialanalysis.ai/methodology - methodology hub: scope, blended-price definition, benchmark inventory (fetched 200, 2026-09-24)
 - https://artificialanalysis.ai/methodology/intelligence-benchmarking - the ten evaluations, weights, and scoring detail (fetched 200, 2026-09-24)

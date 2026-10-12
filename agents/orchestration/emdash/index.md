@@ -25,7 +25,7 @@ State is local-first in SQLite, and the team kept a reserve pool of worktrees so
 ## Status
 
 Active and fast-moving.
-As of 2026-10-02 the repo shows about 5.9k stars and 622 forks; the site claims over 1M downloads.
+As of 2026-10-11 the repo shows about 5.9k stars and 626 forks; the site claims over 1M downloads.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=generalaction/emdash&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ As of 2026-10-02 the repo shows about 5.9k stars and 622 forks; the site claims 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=generalaction/emdash&type=date&legend=top-left" />
 </picture>
 
-The v1.2.7 release shipped 2026-09-27, six days after v1.2.6 (2026-09-21), which itself followed v1.2.5 (2026-09-18) by three days; v1.2.5 added multiple accounts per integration and custom agent executable selection.
+The v1.2.8 release shipped 2026-10-10, following v1.2.7 (2026-09-27), six days after v1.2.6 (2026-09-21), which itself followed v1.2.5 (2026-09-18) by three days; v1.2.5 added multiple accounts per integration and custom agent executable selection.
 Its February 2026 Show HN reached 206 points with 71 comments.
 Founders Arne and Raban described the business model as a possible bundled agent subscription plus enterprise, funded by YC W26; cloud workspaces and enterprise tiers are contact-sales today.
 

@@ -1,7 +1,7 @@
 ---
 title: Claude Code Agent Monitor
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, claude-code, codex, cursor, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by hoangsonww under MIT, listed under Session Monitors in the awesome-claud
 
 ## Status
 
-Young and active: 1,058 stars, 245 forks, created 2026-03-05, pushed 2026-10-10, latest release v2.3.0 on 2026-10-10 after v2.2.6 and v2.2.5 on 2026-10-04, as of 2026-10-10.
+Young and active: 1,061 stars, 248 forks, created 2026-03-05, pushed 2026-10-11, latest release v2.3.0 on 2026-10-10 after v2.2.6 and v2.2.5 on 2026-10-04, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hoangsonww/Claude-Code-Agent-Monitor&type=date&theme=dark&legend=top-left" />

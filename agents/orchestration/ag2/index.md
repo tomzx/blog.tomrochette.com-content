@@ -21,7 +21,7 @@ For this category it fills the successor slot on the community side of the AutoG
 
 ## Status
 
-Active and shipping: 4,979 stars, a push on 2026-10-06, release v1.1.2 on 2026-10-03, and `ag2` 1.1.2 on PyPI as of 2026-10-07 (GitHub API, PyPI), on a repository created 2024-11-11.
+Active and shipping: 4,988 stars, a push on 2026-10-11, release v1.1.2 on 2026-10-03, and `ag2` 1.1.2 on PyPI as of 2026-10-11 (GitHub API, PyPI), on a repository created 2024-11-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ag2ai/ag2&type=date&theme=dark&legend=top-left" />

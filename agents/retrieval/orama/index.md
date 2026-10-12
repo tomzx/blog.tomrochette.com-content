@@ -23,7 +23,7 @@ It is made by OramaSearch Inc., written in TypeScript, and runs in Node, browser
 ## Status
 
 **Actively installed, slowly maintained: the npm firehose keeps flowing while the repository has gone quiet.**
-10,575 stars and 406 forks as of 2026-10-10; the latest release is still v3.1.18, published 2025-12-19, the most recent main-branch commit is still the 2026-07-03 community CJK plugin fix (re-verified 2026-10-10), and the repository shows push activity on 2026-10-08 without a main-branch commit since July.
+10,575 stars and 406 forks as of 2026-10-11; the latest release is still v3.1.18, published 2025-12-19, the most recent main-branch commit is still the 2026-07-03 community CJK plugin fix (re-verified 2026-10-11), and the repository shows push activity on 2026-10-08 without a main-branch commit since July.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=oramasearch/orama&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ It is made by OramaSearch Inc., written in TypeScript, and runs in Node, browser
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=oramasearch/orama&type=date&legend=top-left" />
 </picture>
 
-npm reports 1,327,401 downloads/week for `@orama/orama` (window 2026-10-02 to 2026-10-08).
+npm reports 1,348,225 downloads/week for `@orama/orama` (window 2026-10-03 to 2026-10-09).
 The discussion footprint is nearly empty for that scale: the only HN story dedicated to Orama is a 1-point 2023 post, with demos and integration posts at 2 to 5 points.
 
 ## Strengths
@@ -76,12 +76,12 @@ Not for code-aware retrieval (grep-first loops or a code index serve better) or 
 
 ## References
 
-- https://api.github.com/repos/oramasearch/orama - repository facts (10,575 stars, 406 forks, TypeScript, ~2kb core description, pushed 2026-10-08, as of 2026-10-10)
+- https://api.github.com/repos/oramasearch/orama - repository facts (10,575 stars, 406 forks, TypeScript, ~2kb core description, pushed 2026-10-08, as of 2026-10-11)
 - https://raw.githubusercontent.com/oramasearch/orama/main/README.md - features, ten data types, plugin list, Answer Engine, install targets
 - https://raw.githubusercontent.com/oramasearch/orama/main/LICENSE.md - the standard Apache-2.0 text, Copyright 2023 OramaSearch Inc.
-- https://api.npmjs.org/downloads/point/last-week/@orama/orama - 1,327,401 downloads/week, window 2026-10-02 to 2026-10-08
-- https://api.github.com/repos/oramasearch/orama/releases/latest - v3.1.18 published 2025-12-19
-- https://api.github.com/repos/oramasearch/orama/commits?per_page=1 - latest main-branch commit 2026-07-03 (CJK plugin fix by a community contributor, re-verified 2026-10-10)
+- https://api.npmjs.org/downloads/point/last-week/@orama/orama - 1,348,225 downloads/week, window 2026-10-03 to 2026-10-09
+- https://api.github.com/repos/oramasearch/orama/releases/latest - v3.1.18 published 2025-12-19 (re-verified still latest 2026-10-11)
+- https://api.github.com/repos/oramasearch/orama/commits?per_page=1 - latest main-branch commit 2026-07-03 (CJK plugin fix by a community contributor, re-verified 2026-10-11)
 - https://hn.algolia.com/api/v1/search?query=orama - the near-empty HN footprint (1-point 2023 story; demos at 2 to 5 points)
 - https://registry.npmjs.org/orama - the unrelated stale "Plug and play React charts" package (latest 2.0.6)
 - https://api.npmjs.org/downloads/point/last-week/orama - 521 downloads/week for the stale package, window 2026-09-28 to 2026-10-04

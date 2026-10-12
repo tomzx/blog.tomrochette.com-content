@@ -1,7 +1,7 @@
 ---
 title: Warp Agent CLI
 created: 2026-08-30
-updated: 2026-10-08
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, terminal, model-routing]
 readability: 3
@@ -21,13 +21,13 @@ A Warp account is required, but the app is not.
 It installs through a self-updating script or a Homebrew cask (`warp-agent-cli`).
 Model routing is built in: frontier and US-hosted open-weight models from OpenAI, Anthropic, z.ai, and others, plus custom routers and bring-your-own inference.
 Because it sits on Warp's terminal infrastructure, it muxes agent sessions natively, and cloud agents and multi-agent orchestration are first-class features.
-Warp's Rust codebase is public under AGPL-3.0 at [warpdotdev/warp](https://github.com/warpdotdev/warp), about 65.3k stars as of 2026-10-04.
+Warp's Rust codebase is public under AGPL-3.0 at [warpdotdev/warp](https://github.com/warpdotdev/warp), about 65.4k stars as of 2026-10-11.
 
 ## Status
 
 Active and freshly launched: announced August 4, 2026, with docs last updated September 2, 2026.
 The launch thread reached 111 points on Hacker News (item 49171766).
-Vendor traction is real: the terminal repository counts about 65.4k stars as of 2026-10-07, and Anthropic published a Warp engineering story on August 26, 2026.
+Vendor traction is real: the terminal repository counts about 65.4k stars as of 2026-10-11, and Anthropic published a Warp engineering story on August 26, 2026.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=warpdotdev/warp&type=date&theme=dark&legend=top-left" />
@@ -105,7 +105,7 @@ I think the CLI exists to follow developers who fled Warp's AI-heavy terminal fo
 - https://www.warp.dev/pricing - tiers, credits, and enterprise features, re-verified 2026-10-06
 - https://docs.warp.dev/agents/cli - CLI overview and documentation structure
 - https://docs.warp.dev/agents/cli/quickstart.md - install methods, account requirement, self-update behavior
-- https://github.com/warpdotdev/warp - codebase state, AGPL-3.0 license, stars as of 2026-10-07
+- https://github.com/warpdotdev/warp - codebase state, AGPL-3.0 license, stars as of 2026-10-11
 - https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude - Anthropic's account of Warp's agent engineering
 - https://news.ycombinator.com/item?id=49171766 - launch thread, 111 points, community reception
 - https://www.warp.dev/factories - the Factories product line: factory.yaml, evals and self-improvement, early access pricing

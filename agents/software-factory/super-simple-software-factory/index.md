@@ -1,7 +1,7 @@
 ---
 title: "Super Simple Software Factory"
 created: 2026-08-29
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, agentic-workflows, sdlc]
 readability: 3
@@ -21,7 +21,7 @@ It is built on the `pi` coding agent plus `uv`, and there is a Vue-and-Bun visua
 
 ## Status
 
-Young, deliberately small, and quiet since launch: 960 stars and 251 forks since creation on 2026-08-02, with no push since 2026-08-04, more than two months before 2026-10-10.
+Young, deliberately small, and quiet since launch: 964 stars and 252 forks since creation on 2026-08-02, with no push since 2026-08-04, more than two months before 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=disler/super-simple-software-factory&type=date&theme=dark&legend=top-left" />

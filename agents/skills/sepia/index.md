@@ -1,7 +1,7 @@
 ---
 title: Sepia
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, writing, humanizer, fiction]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes familiarity with SKILL.md packaging and at least one coding agent.
 ---
 
-Sepia is an MIT-licensed de-AI writing skill for Claude Code, Codex, Grok Build, Antigravity, and the 77+ agents the Skills CLI reaches, built on the finding that the durable AI tells are structural rather than stylistic.
+Sepia is an MIT-licensed de-AI writing skill for Claude Code, Codex, Grok Build, Antigravity, QwenPaw, and the 77+ agents the Skills CLI reaches, built on the finding that the durable AI tells are structural rather than stylistic.
 
 **Its bet is that repairing narrative architecture (themes explained by the narrator, tidy single-track plots, emotion rendered only as bodily sensation) beats word swaps, because in the study it cites, human surface editing moved detection only from 95.5% to 93.9% macro-F1.**
 
@@ -25,7 +25,7 @@ Install is `npx skills add Nanako0129/sepia -g` or a native plugin marketplace, 
 
 ## Status
 
-Active and early: 3,071 stars and 195 forks as of 2026-10-10, repo pushed 2026-10-09 with release v0.12.3, five open issues, created 2026-08-28.
+Active and early: 3,079 stars and 194 forks as of 2026-10-11, repo pushed 2026-10-09 with release v0.12.3 still the latest, five open issues, created 2026-08-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nanako0129/sepia&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ My disagreeable claim: most humanizer installs, sepia included, are plausibly wa
 - 2026-09-27 - Created when the owner's GitHub-stars candidates were processed.
 - 2026-10-07 - Added the Nanako0129/sepia star history chart to the Status section.
 - 2026-10-07 - The repo resumed activity after the 09-23 quiet stretch: v0.12.3 shipped 2026-10-06 as the latest tag, and the Status figures moved to 3,007 stars and seven open issues.
+- 2026-10-11 - The README's native plugin packaging list gained QwenPaw (Claude Code, Codex, Grok Build, Antigravity, and QwenPaw now ship native packaging); v0.12.3 is still the latest release and the figures refreshed to 3,079 stars.
 
 ## See also
 
@@ -86,8 +87,8 @@ My disagreeable claim: most humanizer installs, sepia included, are plausibly wa
 
 ## References
 
-- https://api.github.com/repos/Nanako0129/sepia - 3,071 stars, 195 forks, MIT, pushed 2026-10-09, latest tag v0.12.3 (200, fetched 2026-10-10)
-- https://raw.githubusercontent.com/Nanako0129/sepia/main/README.md - operations, three-pass protocol, research ledger, per-platform verification limits (200)
+- https://api.github.com/repos/Nanako0129/sepia - 3,079 stars, 194 forks, MIT, pushed 2026-10-09, latest tag v0.12.3 (200, fetched 2026-10-11)
+- https://raw.githubusercontent.com/Nanako0129/sepia/main/README.md - operations, three-pass protocol, research ledger, per-platform verification limits (200, QwenPaw packaging line re-verified 2026-10-11)
 - https://hysenlabs.com/en/projects/nanako0129-sepia - third-party editorial review (September 10, 2026) with critical sections on calibration and wrong-tool cases (200)
 - https://arxiv.org/abs/2604.03136 - StoryScope: 61,608 stories, 93.2% macro-F1 from narrative features alone, v6 revised 2026-08-10 (200)
 - https://hn.algolia.com/api/v1/search?query=sepia&tags=story - the zero-hit search behind the missing-footprint statement (200, fetched 2026-09-27)

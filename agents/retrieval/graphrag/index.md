@@ -1,7 +1,7 @@
 ---
 title: GraphRAG
 created: 2026-10-07
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, knowledge-graph, microsoft]
 readability: 3
@@ -25,7 +25,7 @@ Made by Microsoft Research, first released July 2024, optional Azure OpenAI or l
 ## Status
 
 **Active by the commit clock, retired by its own README.**
-36,281 stars and 3,841 forks since 2024-03-27, pushed 2026-10-08, 52 open issues (GitHub API, as of 2026-10-10).
+36,288 stars and 3,840 forks since 2024-03-27, pushed 2026-10-08, 52 open issues (GitHub API, as of 2026-10-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/graphrag&type=date&theme=dark&legend=top-left" />
@@ -71,19 +71,20 @@ My disagreeable claim: the maintenance-mode declaration is graph RAG's candid st
 
 - 2026-10-07 - Created in the daily refresh's retrieval entrant scan from the awesome-rag-production source.
 - 2026-10-09 - Recorded PyPI 3.3.0 (2026-10-08, a SQLite performance fix, 51 releases) and refreshed the repository numbers (36,271 stars, pushed 2026-10-08); the README's maintenance-mode declaration is unchanged.
+- 2026-10-11 - Reworded a banned-term word out of a See also line and refreshed the repository numbers (36,288 stars); the maintenance-mode declaration is unchanged on re-read.
 
 ## See also
 
 - [LightRAG](../lightrag/index.md) - the maintained graph-RAG implementation this project's pattern spawned
-- [RAGFlow](../ragflow/index.md) - the full RAG engine that packages graph-shaped artifacts as one output among several
+- [RAGFlow](../ragflow/index.md) - the full RAG engine that packages graph-structured artifacts as one output among several
 - [Graphify](../../context-engines/graphify/index.md) - the context-engine sibling building agent-usable graph structure
 - [The Importance of Context When Interacting with LLMs](../../../the-importance-of-context-when-interacting-with-llms/index.md) - why retrieval structure beats raw model choice
 
 ## References
 
-- https://api.github.com/repos/microsoft/graphrag - 36,281 stars, 3,841 forks, MIT, created 2024-03-27, pushed 2026-10-08, 52 open issues (GitHub API, as of 2026-10-10)
+- https://api.github.com/repos/microsoft/graphrag - 36,288 stars, 3,840 forks, MIT, created 2024-03-27, pushed 2026-10-08, 52 open issues (GitHub API, as of 2026-10-11)
 - https://api.github.com/repos/microsoft/graphrag/releases/latest - v3.3.0 published 2026-10-08, the SQLite performance-fix release
-- https://raw.githubusercontent.com/microsoft/graphrag/main/README.md - the maintenance-mode warning, the expensive-indexing warning, the init-between-versions rule
+- https://raw.githubusercontent.com/microsoft/graphrag/main/README.md - the maintenance-mode warning, the expensive-indexing warning, the init-between-versions rule (re-verified unchanged 2026-10-11)
 - https://arxiv.org/abs/2404.16130 - the method paper: From Local to Global, graph RAG as query-focused summarization
 - https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/ - the Microsoft Research announcement grounding community summaries and the local/global query split
 - https://microsoft.github.io/graphrag/ - official docs root: local and global search, CLI quickstart

@@ -1,7 +1,7 @@
 ---
 title: deepeval
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, llm-as-judge, testing, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Made by Confident AI, a seed-stage San Francisco company, Apache-2.0.
 
 ## Status
 
-The volume leader of Python eval frameworks: 18,728 stars, 2,039 forks, 710 open issues and PRs as of 2026-10-10.
+The volume leader of Python eval frameworks: 18,736 stars, 2,046 forks, 717 open issues and PRs as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=confident-ai/deepeval&type=date&theme=dark&legend=top-left" />
@@ -31,8 +31,8 @@ The volume leader of Python eval frameworks: 18,728 stars, 2,039 forks, 710 open
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=confident-ai/deepeval&type=date&legend=top-left" />
 </picture>
 
-Created 2023-08-10, pushed 2026-10-10, Python 4.2.8 released 2026-10-02 (still the newest), about 2.6 million PyPI downloads a month as of 2026-10-10.
-**Three years old and commercially backed, it is the most mature column in this category, and the 711-item backlog reads as heavy usage rather than neglect.**
+Created 2023-08-10, pushed 2026-10-10, Python 4.2.8 released 2026-10-02 (still the newest), about 2.6 million PyPI downloads a month as of 2026-10-11.
+**Three years old and commercially backed, it is the most mature column in this category, and the 717-item backlog reads as heavy usage rather than neglect.**
 
 ## Strengths
 
@@ -46,7 +46,7 @@ Created 2023-08-10, pushed 2026-10-10, Python 4.2.8 released 2026-10-02 (still t
 - Most flagship metrics are LLM-as-judge: non-deterministic, prompt-sensitive, and billed to your judge key on every run.
 - The open-core split is real: comparisons, regression tracking, datasets, and online evals live in the paid Confident AI platform, and `deepeval login` is "highly recommended" while auto-logging test cases to their cloud unless you opt out.
 - The TypeScript SDK is explicitly not score-parity-verified against Python.
-- Docs-quality criticism at launch has been addressed but 707 open issues and PRs signal friction.
+- Docs-quality criticism at launch has been addressed but 717 open issues and PRs signal friction.
 
 ## Pricing
 
@@ -95,6 +95,6 @@ Not for teams that cannot tolerate LLM-judge variance, or that need score parity
 - https://deepeval.com/ - the docs and metric taxonomy (docs.confident-ai.com now redirects here)
 - https://www.confident-ai.com/pricing - the platform tiers behind the open-core split
 - https://deepeval.com/blog/introducing-deepeval-typescript - the TypeScript beta scope and parity caveat
-- https://pypistats.org/api/packages/deepeval/recent - the download figures as of 2026-10-10
+- https://pypistats.org/api/packages/deepeval/recent - the download figures as of 2026-10-11
 - https://pypi.org/project/deepeval/ - the current Python version and its release date
 - https://news.ycombinator.com/item?id=37157323 - the launch thread with early criticism and maintainer response

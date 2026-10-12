@@ -1,7 +1,7 @@
 ---
 title: Landrun
 created: 2026-10-09
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, landlock, linux, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, by Zouuup (Zoup on Hacker News), with no agent-specific features: it is a g
 
 ## Status
 
-Large footprint, quiet months: 2,315 stars, 55 forks, 7 open issues, pushed 2026-07-23 as of 2026-10-10, created 2025-03-21, with v0.1.17 (2026-07-22, the ABI v9 release) the latest of a long 0.1.x train.
+Large footprint, quiet months: 2,315 stars, 55 forks, 8 open issues, pushed 2026-07-23 as of 2026-10-11, created 2025-03-21, with v0.1.17 (2026-07-22, the ABI v9 release) the latest of a long 0.1.x train.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Zouuup/landrun&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Large footprint, quiet months: 2,315 stars, 55 forks, 7 open issues, pushed 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Zouuup/landrun&type=date&legend=top-left" />
 </picture>
 The Show HN of 2025-03-22, submitted by the author, drew 518 points, the largest community thread of any wrapper-class member of this category, and the same author publishes the project's sharpest caution himself.
-**Seventy-nine days without a push as of 2026-10-10 reads as a stable utility rather than a stalled project, but the wrapper slot around it is now crowded with maintained, agent-specific members, so the footprint is a 2025 event the repo has not yet had to repeat.**
+**Eighty days without a push as of 2026-10-11 reads as a stable utility rather than a stalled project, but the wrapper slot around it is now crowded with maintained, agent-specific members, so the footprint is a 2025 event the repo has not yet had to repeat.**
 
 ## Strengths
 
@@ -47,7 +47,7 @@ The Show HN of 2025-03-22, submitted by the author, drew 518 points, the largest
 - No namespaces and no user separation: the sandboxed process runs as the invoking user against the same kernel, so a kernel exploit is out of scope, the same ceiling Fence and nono carry.
 - The author's own post states binaries are not trustworthy and frames the tool as the answer to supply-chain authority; no independent audit or adversarial review exists.
 - Flag-only policy with no config file, no agent profiles, and no audit trail of its own beyond Landlock's denial logs, so adopting it for agents means hand-writing every invocation.
-- Seventy-nine days quiet as of 2026-10-10, and the top launch reply's question, why not bubblewrap and mount namespaces, remains the comparison Landrun still has to answer.
+- Eighty days quiet as of 2026-10-11, and the top launch reply's question, why not bubblewrap and mount namespaces, remains the comparison Landrun still has to answer.
 
 ## Pricing
 
@@ -69,6 +69,7 @@ Not as an agent boundary by itself: no egress policy, no audit trail, no profile
 
 - 2026-10-09 - Created from the arjan/awesome-agent-sandboxes re-scan, profiling the Landlock-only kernel wrapper with the category's largest wrapper-class footprint and the author's own supply-chain caution.
 - 2026-10-10 - Quiet window extended to seventy-nine days (last push still 2026-07-23); stars refreshed (2,315) and open issues to seven.
+- 2026-10-11 - Quiet window extended to eighty days (last push still 2026-07-23); open issues moved from seven to eight, stars and forks unchanged.
 
 ## See also
 

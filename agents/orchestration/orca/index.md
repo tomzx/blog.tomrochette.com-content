@@ -24,7 +24,7 @@ MIT licensed, TypeScript and Electron, and the repo's README carries translation
 
 ## Status
 
-Fast and well-funded: about 88.8k stars as of 2026-10-10, up from 88.1k on 2026-10-09, created 2026-03-17, more than 11,900 commits, with v1.4.224 (2026-10-10) the latest release following v1.4.223 (2026-10-08).
+Fast and well-funded: about 89.3k stars as of 2026-10-11, up from 88.8k on 2026-10-10, created 2026-03-17, more than 11,900 commits, with v1.4.224 (2026-10-10) still the latest release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stablyai/orca&type=date&theme=dark&legend=top-left" />

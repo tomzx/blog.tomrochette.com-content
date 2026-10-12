@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -26,7 +26,7 @@ The cloud adds cross-device sync, browser and mobile access, and a shared Teams 
 ## Status
 
 **Active and mid-scale, with a thin public-discussion footprint.**
-4,127 stars with the repository pushed 2026-10-10, created 2024-12-02, as of 2026-10-10 (GitHub API).
+4,132 stars with the repository pushed 2026-10-11, created 2024-12-02, as of 2026-10-11 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&theme=dark&legend=top-left" />
@@ -57,7 +57,7 @@ The Hacker News record is a 4-point Show HN in March 2025 (0 comments) and a 2-p
 Local server: free, AGPL-3.0, all data on your disk.
 Team: $15/seat/month (volume pricing $13/seat at 10 or more, $12 at 20 or more), 7-day trial, shared workspaces with roles and member management.
 Business: $30/seat/month, adding SSO, audit logs, admin controls, HIPAA-compliant hosting, and priority support.
-Agent Infrastructure: custom, credit-based pricing for agent fleets with on-premises options, as of 2026-10-10.
+Agent Infrastructure: custom, credit-based pricing for agent fleets with on-premises options, as of 2026-10-11.
 The $15/month locked-for-life beta is gone.
 
 ## Price history
@@ -93,10 +93,10 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 
 ## References
 
-- https://github.com/basicmachines-co/basic-memory - repository, 4,127 stars, activity, AGPL-3.0, as of 2026-10-10
+- https://github.com/basicmachines-co/basic-memory - repository, 4,132 stars, activity, AGPL-3.0, as of 2026-10-11
 - https://raw.githubusercontent.com/basicmachines-co/basic-memory/main/README.md - architecture, features, the cloud pricing banner, and the Teams announcement
 - https://basicmemory.com - product site and cloud offering
-- https://basicmemory.com/pricing - the Team, Business, and Agent Infrastructure ladder, as of 2026-10-07
+- https://basicmemory.com/pricing - the Team, Business, and Agent Infrastructure ladder, re-verified unchanged 2026-10-11
 - https://pypi.org/pypi/basic-memory/json - basic-memory 0.23.2 (2026-08-25), the registry lag record
 - https://hn.algolia.com/api/v1/items/43374258 - the March 2025 Show HN (4 points, 0 comments)
 - https://hn.algolia.com/api/v1/items/47091810 - the February 2026 third-party story (2 points), the thin-discussion record

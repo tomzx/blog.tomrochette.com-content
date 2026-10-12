@@ -1,7 +1,7 @@
 ---
 title: Ellipsis
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -19,14 +19,14 @@ Ellipsis (ellipsis.dev) is a YC-backed company that launched in 2023 as an autom
 Ellipsis AI Inc (New York, founded 2023, YC Winter 2024, founders Hunter Brooks and Nick Bradford) sells a platform where every coding agent is a YAML file in your repo, and each session runs in its own sandbox with scoped credentials, hard budget caps, and searchable transcripts.
 Sessions start from GitHub, Slack, Linear, or Sentry events, cron schedules, the `agent` CLI, or a REST API, and the platform fronts Claude Code, Codex, Copilot, Gemini, Cursor, Grok Code, Antigravity, OpenCode, and Pi.
 Code review survives as a configurable agent use case, not the fixed install-and-forget bot of 2024, and the platform deploys either in Ellipsis's cloud or into your own AWS VPC.
-The core product is proprietary: its GitHub org publishes only tooling, an agent CLI, a homebrew tap, a Python and TypeScript SDK mirror, and the blink codebase-search repo, five public repos in total as of 2026-10-02, down from six on 2026-09-21 because the AWS installer repo is no longer public.
-Blink (100 stars as of 2026-10-10) was created on September 16, 2026.
+The core product is proprietary: its GitHub org publishes only tooling, an agent CLI, a homebrew tap, a Python and TypeScript SDK mirror, and the blink codebase-search repo, five public repos in total as of 2026-10-11, down from six on 2026-09-21 because the AWS installer repo is no longer public.
+Blink (100 stars as of 2026-10-11) was created on September 16, 2026.
 
 ## Status
 
 **Active and pivoted.**
 The July 28, 2026 post "Introducing the Ellipsis Agent Cloud" says it plainly: Ellipsis "launched in 2023 as one of the first AI Code Review bots", but teams no longer want a product that "just worked", so the company rebuilt itself as agent infrastructure and released the `agent` CLI.
-The homepage, docs, and pricing all describe the agent cloud as of 2026-10-03 (pricing re-verified 2026-10-10), and the GitHub org pushed to its CLI repo on 2026-10-09.
+The homepage, docs, and pricing all describe the agent cloud as of 2026-10-03 (pricing re-verified 2026-10-11), and the GitHub org pushed to its CLI repo on 2026-10-09.
 Funding is a $2M seed announced June 19, 2024, with YC partners and the Pioneer Fund among the investors; I found no later round on any page I fetched.
 The blog is thin, three original posts since January 2025 and a gap from April 2025 to July 2026, so public cadence evidence is sparse even though the product is clearly alive.
 The community footprint is one strong Show HN from May 9, 2024 (Algolia item 40309719, 121 points, 64 comments) and a quieter February 2024 one (item 39526616, 18 points, 11 comments).
@@ -50,9 +50,9 @@ The community footprint is one strong Show HN from May 9, 2024 (Algolia item 403
 
 ## Pricing
 
-Tokens are billed at cost with no markup, plus a 10% platform fee, with CPU at $0.142/vCPU-hour and memory at $0.024/GB-hour, as of 2026-10-04 (re-verified unchanged 2026-10-10, the docs pricing page quoting the unrounded $0.141912 and $0.024192).
-There are no per-seat fees and no idle charges, and a $100 credit covered the start when I first recorded the model, though the homepage, pricing page, and docs pricing page I fetched on 2026-10-07 no longer display it, so treat the credit as unverified until signup.
-Individuals on their own coding-agent subscription get the platform free, the on-ramp the homepage leads with, as of 2026-10-07 (the pricing page still names Claude Code or Codex subscriptions for interactive sessions).
+Tokens are billed at cost with no markup, plus a 10% platform fee, with CPU at $0.142/vCPU-hour and memory at $0.024/GB-hour, as of 2026-10-04 (re-verified unchanged 2026-10-11).
+There are no per-seat fees and no idle charges, and a $100 credit covered the start when I first recorded the model, though the homepage and pricing page I re-fetched on 2026-10-11 still do not display it (last seen 2026-10-04), so treat the credit as unverified until signup.
+Individuals on their own coding-agent subscription get the platform free, the on-ramp the homepage leads with, as of 2026-10-11 (the homepage badge reads FREE FOR INDIVIDUALS and the pricing page names Claude Code or Codex subscriptions for interactive sessions).
 The subscription wording flip-flops: the hero badge titled the free tier "ChatGPT or Claude" when I first recorded it on 2026-09-13, "Claude Code or Codex" by 2026-09-18, and "ChatGPT or Claude" again on 2026-09-27, while by 2026-10-02 the badge read only "FREE FOR INDIVIDUALS" and the FAQ question has named Claude Code or Codex throughout.
 The same published pricing covers the managed SaaS and a BYOC deployment into your own AWS account.
 Optional enterprise support packages run $5,000 (Standard), $10,000 (Advanced), and $15,000 (Premier) per month as of 2026-10-04.
@@ -104,9 +104,9 @@ I will take the unpopular position that leaving review was the right call: a fix
 
 ## References
 
-- https://www.ellipsis.dev/ - current product surface: agent cloud framing, SOC 2 status, supported agents, fetched 2026-10-02, re-fetched 2026-10-07 (the $100 credit no longer displayed).
-- https://www.ellipsis.dev/pricing - the token-plus-10% model, compute rates, BYOC terms, and support package tiers, fetched 2026-10-02, re-verified unchanged 2026-10-10.
-- https://github.com/ellipsis-dev - the public GitHub org: five repos (TalkFormAI, homebrew-cli, the agent CLI at 3 stars pushed 2026-10-09, the SDK mirror, and blink at 100 stars), fetched 2026-10-10.
+- https://www.ellipsis.dev/ - current product surface: agent cloud framing, SOC 2 status, supported agents, fetched 2026-10-02, re-fetched 2026-10-11 (the $100 credit still not displayed).
+- https://www.ellipsis.dev/pricing - the token-plus-10% model, compute rates, BYOC terms, and support package tiers, fetched 2026-10-02, re-verified unchanged 2026-10-11.
+- https://github.com/ellipsis-dev - the public GitHub org: five repos (TalkFormAI, homebrew-cli, the agent CLI at 3 stars pushed 2026-10-09, the SDK mirror, and blink at 100 stars), fetched 2026-10-11.
 - https://www.ellipsis.dev/docs - docs on environments, sandboxes, sessions, the CLI, and the API, fetched 2026-09-18.
 - https://www.ellipsis.dev/blog - publishing cadence and post dates, fetched 2026-09-18.
 - https://www.ellipsis.dev/blog/the-ellipsis-agent-cloud - the July 28, 2026 pivot announcement by the founder, fetched 2026-09-18.

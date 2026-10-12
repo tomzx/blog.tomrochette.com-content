@@ -1,7 +1,7 @@
 ---
 title: Agent-Native
 created: 2026-09-13
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, agent-extensions, builder-io, app-frameworks]
 readability: 3
@@ -10,21 +10,21 @@ audience_notes: >
   Assumes familiarity with SKILL.md packaging and at least one coding agent.
 ---
 
-Agent-Native is Builder.io's two-piece ecosystem: an MIT TypeScript framework (github.com/BuilderIO/agent-native) for apps where the agent and the UI call the same actions, and a curated pack of fifteen skills (github.com/BuilderIO/skills) that wires coding agents into those apps and adds workflow disciplines.
+Agent-Native is Builder.io's two-piece ecosystem: an MIT TypeScript framework (github.com/BuilderIO/agent-native) for apps where the agent and the UI call the same actions, and a curated pack of 24 skills (github.com/BuilderIO/skills) that wires coding agents into those apps and adds workflow disciplines.
 
-**The pack is the half harness users meet first: fifteen SKILL.md directories that install anywhere the Agent Skills standard reaches, part workflow doctrine, part on-ramp to Builder.io's stack.**
+**The pack is the half harness users meet first: 24 SKILL.md directories that install anywhere the Agent Skills standard reaches, part workflow doctrine, part on-ramp to Builder.io's stack.**
 
 ## What it is
 
 The framework defines each capability once as an action with a schema: the agent calls it as a tool, the UI calls it from code, and both paths get the same validation and permissions, exposed over HTTP, MCP, A2A, and a CLI.
 The apps built on it (Slides, Plans, Mail, and a wider gallery) are what the bridge skills drive: `/an` opens a granted app beside the conversation, `/webmcp` prefers a page's MCP tools over browser automation.
-The rest of the pack is portable doctrine: `/agent-watchdog` audits another agent's work, `/plan-arbiter` chooses between competing plans, `/read-the-damn-docs` forces a docs pass before guessing, `/stay-within-limits` pauses execution at 95% usage, with `/visual-plan` and `/visual-recap` as human review surfaces.
+The rest of the pack is portable doctrine: `/agent-watchdog` audits another agent's work, `/plan-arbiter` chooses between competing plans, `/read-the-damn-docs` forces a docs pass before guessing, `/stay-within-limits` pauses execution at 95% usage, with `/visual-plan` and `/visual-recap` as human review surfaces, and a nine-entry "factory" family (added by 2026-10-09) experiments with autonomous delivery, turning product and maintenance signals into gated, reviewed changes.
 Install is `npx @agent-native/skills@latest add`, which writes to the shared `.agents` path (Codex, Pi, Cursor, OpenCode, Copilot) plus Claude Code's native path, and the catalog repo doubles as a Claude Code and Cowork plugin marketplace; the npm package itself publishes from the framework monorepo.
 
 ## Status
 
 **Active and fast-moving, with a thin independent footprint.**
-Both repos claim MIT in their READMEs: the skills catalog at 4,552 stars and 230 forks, the framework at 7,113 stars and 646 forks, as of 2026-10-10.
+The catalog repo now ships a root MIT LICENSE file (its README no longer states a license) while the framework repo's README still says MIT: the catalog at 4,554 stars and 230 forks, the framework at 7,121 stars and 646 forks, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=BuilderIO/agent-native&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,8 @@ Both repos claim MIT in their READMEs: the skills catalog at 4,552 stars and 230
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=BuilderIO/agent-native&type=date&legend=top-left" />
 </picture>
 
-The npm package was created 2026-06-10, sits at 0.3.30 with nightly builds publishing several times a day, and pulled 10,164 downloads in the week of 2026-10-02 to 2026-10-08 (fetched 2026-10-10), down from 11,418 the prior week.
+The npm package was created 2026-06-10, sits at 0.3.30 with nightly builds publishing several times a day, and pulled 10,332 downloads in the week of 2026-10-03 to 2026-10-09 (fetched 2026-10-11), up from 10,164 the prior week.
+The catalog itself keeps growing: it held 24 skill directories as of 2026-10-11, up from the fifteen recorded at this note's creation, with the new entries concentrated in the factory family and orchestration helpers (efficient-fable, efficient-frontier, quick-recap, turn-into-app, visual-edit).
 No Hacker News threads and no independent coverage surfaced in this run's searches, so the audience so far is GitHub and npm.
 
 ## Strengths
@@ -52,7 +53,7 @@ No Hacker News threads and no independent coverage surfaced in this run's search
 ## Pricing
 
 Free.
-Both READMEs say MIT (though the framework repo's GitHub license detection and package.json now disagree, see Cautions), the hosted Dispatch endpoint and plans hosting cost nothing today, and I found no paid tier as of 2026-09-22.
+The catalog repo ships an MIT LICENSE file and its package.json agrees, the framework README says MIT (though that repo's GitHub license detection and package.json still disagree, see Cautions), the hosted Dispatch endpoint and plans hosting cost nothing today, and I found no paid tier as of 2026-10-11.
 
 ## Compared to
 
@@ -77,6 +78,7 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 - 2026-10-03 - Recorded the npm package crossing to 0.3.22 with weekly downloads at 27,350 and refreshed the volatile numbers (catalog 4,511 stars and 227 forks, framework 7,043 stars and 636 forks); the framework repo's GitHub license detection is still absent and its package.json still says ISC.
 - 2026-10-07 - Added the BuilderIO/agent-native star history chart to the Status section.
 - 2026-10-09 - The npm package crossed to 0.3.29 and weekly downloads fell to 11,418 (window 2026-10-01 to 10-07) from 16,552; the catalog moved to 4,551 stars and the framework to 7,103, with GitHub license detection still absent and package.json still saying ISC.
+- 2026-10-11 - The catalog grew from fifteen to 24 skills (a nine-entry experimental factory family for autonomous delivery plus efficient-fable, efficient-frontier, quick-recap, turn-into-app, and visual-edit) and gained a root MIT LICENSE file while its README dropped the explicit license claim; the framework's mixed signal persists (README MIT, package.json ISC, GitHub detection absent), and the volatile figures refreshed (catalog 4,554 stars, framework 7,121, npm still 0.3.30 with weekly downloads back up to 10,332).
 
 ## See also
 
@@ -88,9 +90,9 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 
 ## References
 
-- https://github.com/BuilderIO/skills - the catalog repo: the fifteen skills, installer options, marketplace packaging, 4,552 stars as of 2026-10-10
-- https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, README says MIT but GitHub license detection still returns nothing (package.json says ISC), 7,113 stars as of 2026-10-10
+- https://github.com/BuilderIO/skills - the catalog repo: 24 skills, installer options, marketplace packaging, root MIT LICENSE file, 4,554 stars as of 2026-10-11
+- https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, README says MIT but GitHub license detection still returns nothing (package.json says ISC), 7,121 stars as of 2026-10-11
 - https://www.agent-native.com/ - the framework landing
-- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.30, published from the monorepo, as of 2026-10-10
-- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 10,164 weekly downloads, window 2026-10-02 to 2026-10-08, fetched 2026-10-10
-- https://hn.algolia.com/api/v1/search?query=%22builder.io%22%20skills&tags=story - the zero-hit search behind the missing-footprint statement
+- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.30, published from the monorepo, as of 2026-10-11
+- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 10,332 weekly downloads, window 2026-10-03 to 2026-10-09, fetched 2026-10-11
+- https://hn.algolia.com/api/v1/search?query=%22builder.io%22%20skills&tags=story - the zero-hit search behind the missing-footprint statement (re-run 2026-10-11, still zero hits)

@@ -1,7 +1,7 @@
 ---
 title: Lanes
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, macos, worktrees, issue-board]
 readability: 3
@@ -54,7 +54,7 @@ The public source repository, lanes-sh/app, shows about 273 stars as of 2026-10-
 ## Pricing
 
 Free ($0) for one user and unlimited local sessions with the full desktop app.
-Pro at $19/month covers up to 10 members, collaboration, higher Forms limits, and security features.
+Pro at $19/month covers up to 10 members, collaboration, and higher Forms limits (1,000 forms and 50,000 submissions per month, against Free's 3 forms and 100); the security features (SSO/SAML, audit log, IP restrictions, data residency) sit on Enterprise.
 Enterprise is custom for SSO/SAML, audit log, IP restrictions, and data residency.
 Lanes Compute is separate and billed per second per GPU; agents run on your own provider subscriptions.
 
@@ -80,6 +80,8 @@ Not for Windows or Linux shops, and not for anyone who needs a verifiably open l
 - 2026-09-27 - Created.
 - 2026-09-29 - Recorded v0.49.5 (September 25) on the v0.49 line.
 - 2026-10-07 - Added the lanes-sh/app star history chart to the Status section.
+
+- 2026-10-11 - Corrected the tier split against the live pricing page: security features (SSO/SAML, audit log, IP restrictions, data residency) sit on Enterprise, not Pro, and recorded the Forms quotas (Free 3 forms and 100 submissions monthly, Pro 1,000 and 50,000).
 
 ## See also
 

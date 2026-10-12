@@ -1,7 +1,7 @@
 ---
 title: Atomic Agent
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, local-first, llama-cpp, open-source]
 readability: 3
@@ -24,7 +24,7 @@ It imports skills, memory, sessions, and (opt-in) keys from Claude Code, Codex, 
 
 ## Status
 
-Active and quick-growing: 3,230 stars and 265 forks as of 2026-10-10, created 2026-04-21, pushed 2026-10-09, with a steady weekly release train and a developer-preview warning that APIs and behavior are still moving.
+Active and quick-growing: 3,232 stars and 265 forks as of 2026-10-11, created 2026-04-21, pushed 2026-10-09, with a steady weekly release train and a developer-preview warning that APIs and behavior are still moving.
 The headline benchmark is self-run: on the public GAIA validation Level 1 split (53 tasks), Atomic Agent scored 69.8% (37/53) against Hermes at 58.5%, both driving the same local `qwen-3.6-35b-a3b` on one M4 Max with the same step budget, with per-task matrices, NDJSON traces, and logs published on the release tag; a model-scaling table shows 52.8% at 9B and 45.3% at 12B on the same split.
 No independent reproduction exists, and a Hacker News search finds no thread about the project as of 2026-10-10, so the adoption evidence is the star curve and the published artifacts, not independent technical discussion.
 
@@ -78,7 +78,7 @@ Not for anyone needing a stable API contract today (developer preview), and not 
 ## References
 
 - https://github.com/AtomicBot-ai/atomic-agent - repository: README, architecture, tool surface, license
-- https://api.github.com/repos/AtomicBot-ai/atomic-agent - stars, forks, issues, creation and push dates as of 2026-10-10
+- https://api.github.com/repos/AtomicBot-ai/atomic-agent - stars, forks, issues, creation and push dates as of 2026-10-11
 - https://api.github.com/repos/AtomicBot-ai/atomic-agent/releases - v0.6.7 and desktop-v0.0.1 published 2026-10-07
 - https://atomicagent.io - product site: installer, benchmark banner, and the consumer-ecosystem surface
 - https://raw.githubusercontent.com/AtomicBot-ai/atomic-agent/main/eval-agents/docs/GAIA-L1-EXPERIMENT.md - the benchmark write-up: environment, dataset, and artifact publication

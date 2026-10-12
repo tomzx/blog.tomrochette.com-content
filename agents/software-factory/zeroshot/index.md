@@ -1,7 +1,7 @@
 ---
 title: Zeroshot
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, review-loop, multi-agent]
 readability: 3
@@ -21,7 +21,7 @@ Delivery is a ladder you opt into, from keep-it-local through --push, --pr, and 
 
 ## Status
 
-Active and shipping: 1,935 stars since creation on 2025-12-25, pushed 2026-10-10, v10.10.1 released 2026-10-06 with npm in sync, per the GitHub API and the npm registry as of 2026-10-10.
+Active and shipping: 1,948 stars since creation on 2025-12-25, pushed 2026-10-11, v10.10.1 released 2026-10-06 with npm in sync, per the GitHub API and the npm registry as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=the-open-engine/zeroshot&type=date&theme=dark&legend=top-left" />
@@ -44,12 +44,12 @@ v8 was a hard interface cutover that replaced a Node.js runtime with the native 
 - **Acceptance is LLM judgment, not a deterministic gate**: the README states coverage depends on the requirements, reviewers, tests, and environment you provide, a weaker guarantee than Fluent's final Tester or Ouroboros' mechanical first stage.
 - Local runs edit the current git worktree with no isolation, so isolation means standing up the Docker target.
 - Thin independent evaluation, and the v8 cutover shows interface stability is not a promise.
-- Zeroshot Cloud has no published prices, so the managed path's cost is unknown as of 2026-10-10.
+- Zeroshot Cloud has no published prices, so the managed path's cost is unknown as of 2026-10-11.
 
 ## Pricing
 
 The core is MIT, free, and self-hosted on your harness logins and keys.
-Zeroshot Cloud is a managed target whose docs cover accounts, organization policy, and queue behavior, without published prices as of 2026-10-10.
+Zeroshot Cloud is a managed target whose docs cover accounts, organization policy, and queue behavior, without published prices as of 2026-10-11.
 
 ## Compared to
 

@@ -1,7 +1,7 @@
 ---
 title: Screenpipe
 created: 2026-10-08
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, screen-capture, timeline, mcp, source-available]
 readability: 3
@@ -25,8 +25,8 @@ Pipes are scheduled AI agents defined as markdown files, with YAML frontmatter p
 
 ## Status
 
-**Active and large, ranking eleventh of the twenty-three members by stars, on a YC-backed company.**
-21,894 stars with the repository pushed 2026-10-10, created 2024-06-19, as of 2026-10-10 (GitHub API).
+**Active and large, ranking eleventh of the twenty-seven members by stars, on a YC-backed company.**
+21,903 stars with the repository pushed 2026-10-11, created 2024-06-19, as of 2026-10-11 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=screenpipe/screenpipe&type=date&theme=dark&legend=top-left" />
@@ -57,7 +57,7 @@ Free: $0, one device, capture, search, and sharing context with AI tools.
 Basic: $21/month ($250/year billed annually), full searchable history and unlimited scheduled workflows.
 Business: $42/seat/month ($500/seat/year), personal device sync and managed seats, shared context across teammates not included.
 Enterprise: custom, scoped per deployment.
-A 50 percent first-month student discount applies, as of 2026-10-10.
+A 50 percent first-month student discount applies, as of 2026-10-11.
 Source builds follow the commercial license: personal, non-profit, and educational use free, organizational evaluation 7 days.
 
 ## Price history
@@ -81,6 +81,9 @@ Not for privacy-strict environments, commercial use without a license budget, or
 
 - 2026-10-08 - Created from the 2026-10-08 awesome-list entrant scan, with eight fetched sources and the source-available-license-plus-capture-everything combination recorded as the critical angle.
 - 2026-10-09 - Corrected the Status rank claim: at 21,884 stars Screenpipe ranks eleventh of the twenty-two members, not the category's second-largest repository; refreshed stars and the as-of dates.
+- 2026-10-11 - Recomputed the rank on the each-member's-own-repository basis (Zep's Graphiti engine no longer carries Zep's rank): tenth of the twenty-three members at 21,903 stars; pricing page re-fetched with all four plan prices unchanged.
+- 2026-10-11 - Membership grew to twenty-six (TencentDB Agent Memory, Memanto, and MemMachine joined), moving the rank from tenth of the twenty-three to eleventh of the twenty-six members at 21,903 stars, on the each-member's-own-repository basis (Zep's Graphiti engine and the file convention carry no rank).
+- 2026-10-11 - Emulo joined as the twenty-seventh member, moving the rank denominator only (Emulo's 294 stars rank below screenpipe).
 
 ## See also
 
@@ -91,10 +94,10 @@ Not for privacy-strict environments, commercial use without a license budget, or
 
 ## References
 
-- https://github.com/screenpipe/screenpipe - repository, 21,894 stars, activity, as of 2026-10-10
+- https://github.com/screenpipe/screenpipe - repository, 21,903 stars, activity, as of 2026-10-11
 - https://raw.githubusercontent.com/screenpipe/screenpipe/main/README.md - capture model, pipes and their permission model, MCP and API surfaces, positioning
 - https://raw.githubusercontent.com/screenpipe/screenpipe/main/LICENSE.md - the Screenpipe Commercial License terms (personal free, 7-day organizational evaluation, commercial paid)
-- https://screenpipe.com/pricing - Free, Basic, Business, and Enterprise plans as of 2026-10-10
+- https://screenpipe.com/pricing - Free, Basic, Business, and Enterprise plans as of 2026-10-11, re-verified unchanged
 - https://news.ycombinator.com/item?id=49024620 - the YC S26 Launch HN thread (88 points, 67 comments, 2026-07-23)
 - https://news.ycombinator.com/item?id=41695840 - the 2024 Show HN (218 points, 125 comments), the category's largest community record
 - https://hn.algolia.com/api/v1/search?query=screenpipe&tags=story - the footprint scan, including the 2024 business-model skeptic thread

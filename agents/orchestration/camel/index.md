@@ -22,7 +22,7 @@ This is the fourth member of the 2023 conversational and role-play family this s
 
 ## Status
 
-Active and researched: 17,817 stars, a push on 2026-10-05, and continuous PyPI releases with `camel-ai` at 0.2.90 as of 2026-10-07 (GitHub API, PyPI), on a repository created 2023-03-17.
+Active and researched: 17,860 stars, a push on 2026-10-05, and continuous PyPI releases with `camel-ai` at 0.2.90 as of 2026-10-11 (GitHub API, PyPI), on a repository created 2023-03-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=camel-ai/camel&type=date&theme=dark&legend=top-left" />

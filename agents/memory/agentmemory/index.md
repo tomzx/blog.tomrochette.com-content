@@ -1,7 +1,7 @@
 ---
 title: agentmemory
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The design doc extends Karpathy's LLM-wiki pattern with confidence scores, lifec
 ## Status
 
 **Large and active, with adoption that outruns its discussion footprint.**
-29,273 stars, 2,562 forks, and 559 open issues and pull requests, created 2026-02-25, pushed 2026-10-10, as of 2026-10-10 (GitHub API).
+29,296 stars, 2,569 forks, and 548 open issues and pull requests, created 2026-02-25, pushed 2026-10-10, as of 2026-10-11 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ The design doc extends Karpathy's LLM-wiki pattern with confidence scores, lifec
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.9.30 (2026-10-06) with npm in sync at 0.9.30, and 33,974 trailing-month npm downloads (2026-09-09 to 2026-10-08).
+Latest release v0.9.30 (2026-10-06) with npm in sync at 0.9.30, and 35,107 trailing-month npm downloads (2026-09-10 to 2026-10-09).
 The release train runs roughly monthly (v0.9.27 in June, v0.9.28 in July, v0.9.29 in August, v0.9.30 in October).
 I found no dedicated Hacker News thread through 2026-10-09 searches, so the stars came through awesome-list placement and agent registries rather than public debate, the same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and memU.
 
@@ -81,11 +81,11 @@ Not for single-harness users (claude-mem is simpler and battle-tested), privacy-
 
 ## References
 
-- https://github.com/rohitg00/agentmemory - repository, 29,273 stars, forks, open-issue count, activity, description, as of 2026-10-10
+- https://github.com/rohitg00/agentmemory - repository, 29,296 stars, forks, open-issue count, activity, description, as of 2026-10-11
 - https://raw.githubusercontent.com/rohitg00/agentmemory/main/README.md - architecture, the pinned iii engine, adapters, 54 tools, keyless mode, benchmark tables, the self-critical scorecard note, and the compression-spend measurement
 - https://api.github.com/repos/rohitg00/agentmemory/license - the Apache-2.0 license file, verified through the GitHub API
 - https://api.github.com/repos/rohitg00/agentmemory/releases - the release train (v0.9.27 through v0.9.30), as of 2026-10-09
 - https://registry.npmjs.org/@agentmemory/agentmemory - npm at 0.9.30, in sync with the GitHub release
-- https://api.npmjs.org/downloads/point/last-month/@agentmemory/agentmemory - 33,974 trailing-month downloads (2026-09-09 to 2026-10-08)
+- https://api.npmjs.org/downloads/point/last-month/@agentmemory/agentmemory - 35,107 trailing-month downloads (2026-09-10 to 2026-10-09)
 - https://hn.algolia.com/api/v1/search?query=agentmemory&tags=story - the footprint scan finding no dedicated thread (2026-10-09), the stars-ahead-of-discussion record
-- https://agentmemoryleaderboard.ai/ - the independent academic-consortium leaderboard whose published first-cycle commercial leaders do not include this system
+- https://agentmemoryleaderboard.ai/ - the independent academic-consortium leaderboard whose published first-cycle commercial leaders do not include this system (the site returned 522, origin unreachable, at fetch time on 2026-10-11)

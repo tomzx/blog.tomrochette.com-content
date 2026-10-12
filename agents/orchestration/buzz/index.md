@@ -23,7 +23,7 @@ Block positions it as infrastructure, the event store and delivery pipe, not the
 
 ## Status
 
-Active and heavily starred: about 35,800 stars since 2026-03-06 as of 2026-10-10, pushed 2026-10-10, with desktop releases at v0.5.28 (2026-10-09) following v0.5.27 (2026-10-06) on a steady cadence.
+Active and heavily starred: about 35,800 stars since 2026-03-06 as of 2026-10-11, pushed 2026-10-11, with desktop releases at v0.5.28 (2026-10-09) following v0.5.27 (2026-10-06) on a steady cadence.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=block/buzz&type=date&theme=dark&legend=top-left" />

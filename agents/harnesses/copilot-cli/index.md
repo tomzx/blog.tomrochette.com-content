@@ -1,7 +1,7 @@
 ---
 title: Copilot CLI
 created: 2026-10-05
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, github, microsoft, terminal]
 readability: 3
@@ -29,8 +29,8 @@ Distribution is npm (`@github/copilot`), a Homebrew cask, WinGet, an install scr
 
 **Active and enormous in distribution.**
 Public preview launched September 25, 2025, and general availability followed on February 25, 2026.
-The npm package's latest stable build is 1.0.95 (published October 9, 2026, with a 1.0.96 prerelease train publishing behind it on October 10), and it did 6,784,821 downloads in the last month (the API window covering September 8 to October 7, as of 2026-10-09), among the largest npm install bases of any harness in this section.
-The `github/copilot-cli` repository shows 11,249 stars as of 2026-10-09 (GitHub API), and it is a distribution and issues repository, with no open-source license.
+The npm package's latest stable build is 1.0.95 (published October 9, 2026, with a 1.0.96 prerelease train publishing behind it on October 10), and it did 6,903,048 downloads in the last month (the API window covering September 10 to October 9, as of 2026-10-11), among the largest npm install bases of any harness in this section.
+The `github/copilot-cli` repository shows 11,248 stars as of 2026-10-11 (GitHub API), and it is a distribution and issues repository, with no open-source license.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/copilot-cli&type=date&theme=dark&legend=top-left" />
@@ -57,7 +57,7 @@ Community discussion is thinner than the install count would suggest: the public
 
 ## Pricing
 
-Included in GitHub Copilot plans as of 2026-10-05: Free $0 with limited usage, Pro $10/month, Pro+ $39/month, and Max $100/month, all including Copilot CLI and metered through GitHub AI Credits (a base credit allotment plus a flex allotment per plan).
+Included in GitHub Copilot plans as of 2026-10-11 (re-verified unchanged): Free $0 with limited usage, Pro $10/month, Pro+ $39/month, and Max $100/month, all including Copilot CLI and metered through GitHub AI Credits (a base credit allotment plus a flex allotment per plan).
 Organizations have Business and Enterprise tiers, which the docs reference for content exclusion and policy controls, though the fetched plans page prices only the individual ladder.
 Bringing your own provider through the environment variables bypasses GitHub's model billing for those requests.
 
@@ -98,10 +98,10 @@ Not for teams with open-client mandates, and not for untrusted repositories unti
 
 - https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli - modes, sandboxing, MCP, hooks, skills, memory, BYOK providers, and security guidance (fetched 2026-10-05)
 - https://docs.github.com/en/copilot/how-tos/set-up/install-copilot-cli - install paths, subscription prerequisite, and token authentication (fetched 2026-10-05)
-- https://github.com/features/copilot/plans - plan prices, AI Credits structure, model roster, and third-party delegation gating, as of 2026-10-05
-- https://github.com/github/copilot-cli - distribution repository, 11,249 stars, no open-source license, as of 2026-10-09 (verified via the GitHub API)
+- https://github.com/features/copilot/plans - plan prices, AI Credits structure, model roster, and third-party delegation gating, as of 2026-10-11 (re-verified unchanged)
+- https://github.com/github/copilot-cli - distribution repository, 11,248 stars, no open-source license, as of 2026-10-11 (verified via the GitHub API)
 - https://registry.npmjs.org/@github%2Fcopilot - latest build 1.0.94 published 2026-10-08, package created 2025-09-25 (verified via the registry API)
-- https://api.npmjs.org/downloads/point/last-month/@github/copilot - 6,784,821 downloads, window September 8 to October 7, as of 2026-10-09
+- https://api.npmjs.org/downloads/point/last-month/@github/copilot - 6,903,048 downloads, window September 10 to October 9, as of 2026-10-11
 - https://hn.algolia.com/api/v1/items/47183940 - the February 27, 2026 malware-execution thread, 62 points (verified via the Algolia API)
 - https://hn.algolia.com/api/v1/items/45810658 - the November 2025 Docker-sandboxing guide thread, 59 points
 - https://hn.algolia.com/api/v1/items/45377734 - the September 25, 2025 public-preview launch thread, 24 points

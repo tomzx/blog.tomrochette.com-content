@@ -23,7 +23,7 @@ It surfaced as an entrant from the owner's GitHub stars.
 
 ## Status
 
-Active and growing fast: 9,154 stars in five months, last push 2026-10-04, latest release alpha-0.3.4 on 2026-09-27 (GitHub API, as of 2026-10-06).
+Active and growing fast: 9,586 stars in five months, last push 2026-10-10, latest release alpha-0.3.4 on 2026-09-27 (GitHub API, as of 2026-10-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=pacifio/atlas&type=date&theme=dark&legend=top-left" />

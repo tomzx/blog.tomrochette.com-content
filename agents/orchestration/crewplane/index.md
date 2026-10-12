@@ -24,7 +24,7 @@ Optional features include a tmux dashboard, Git-backed workspace isolation, revi
 
 ## Status
 
-Very early but shipping: about 41 stars and 6 forks as of 2026-10-06, created 2026-06-24, and active development through v0.3.6 on 2026-10-05 (bug-fix and change-review example workflows, review loops resuming from completed phase checkpoints) with default-branch commits through October 5.
+Very early but shipping: about 43 stars and 6 forks as of 2026-10-11, created 2026-06-24, and active development through v0.3.7 on 2026-10-10 with default-branch commits through October 10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=crewplaneai/crewplane&type=date&theme=dark&legend=top-left" />

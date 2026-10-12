@@ -1,7 +1,7 @@
 ---
 title: Eigent
 created: 2026-08-30
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, multi-agent, open-source]
 readability: 3
@@ -24,7 +24,7 @@ By Eigent AI (EIGENT UK LTD), founded by Guohao Li, who also founded CAMEL-AI; f
 
 ## Status
 
-Active and maturing: 15,485 stars, 1,845 forks, 250 open issues as of 2026-10-10, created 2025-07-29, pushed 2026-10-09, v1.0.5 still the latest release (2026-09-25).
+Active and maturing: 15,494 stars, 1,848 forks, 250 open issues as of 2026-10-11, created 2025-07-29, pushed 2026-10-09, v1.0.5 still the latest release (2026-09-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eigent-ai/eigent&type=date&theme=dark&legend=top-left" />

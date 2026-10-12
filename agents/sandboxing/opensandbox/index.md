@@ -1,7 +1,7 @@
 ---
 title: OpenSandbox
 created: 2026-09-16
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, kubernetes]
 readability: 3
@@ -22,7 +22,7 @@ An ingress gateway with per-sandbox egress controls handles network policy, a Cr
 ## Status
 
 **Very active and exceptionally fast-growing for a nine-month-old repo, with traction that is vendor-driven rather than organic Hacker News adoption.**
-15,768 stars and 1,451 forks as of 2026-10-10, repo created 2025-12-17, pushed 2026-10-10, on a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM, with latest stable release 1.1.1 on 2026-10-09, the stable cut of the patch line the 1.1.1-rc.1 prerelease of 2026-09-28 opened.
+15,777 stars and 1,452 forks as of 2026-10-11, repo created 2025-12-17, pushed 2026-10-11, on a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM, with latest stable release 1.1.1 on 2026-10-09, the stable cut of the patch line the 1.1.1-rc.1 prerelease of 2026-09-28 opened.
 The 1.1.1 cut fixes the broken 1.1.0 opensandbox-server wheel (the committed FastPath gRPC stubs now ship in the package, and PyPI is immutable so the fix lives on this line) and adds identity-bound filesystem operations across all five SDKs, multi-tenant isolation in a shared Kubernetes namespace, a typed upstream-proxy egress configuration, and pause/resume bridged to the kubernetes-sigs/agent-sandbox CRD's operating mode.
 
 <picture>

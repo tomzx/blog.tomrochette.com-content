@@ -1,7 +1,7 @@
 ---
 title: AutoGPT
 created: 2026-09-27
-updated: 2026-10-08
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, workflows, source-available]
 readability: 3
@@ -23,7 +23,7 @@ It positions itself as "AI agents that finish the work", with file-aware agents,
 
 ## Status
 
-Active and shipping: the repo shows 187,694 stars and was pushed 2026-10-08, the day I checked (GitHub API, as of 2026-10-08).
+Active and shipping: the repo shows 187,514 stars and was pushed 2026-10-11, the day I checked (GitHub API, as of 2026-10-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&theme=dark&legend=top-left" />
@@ -52,7 +52,8 @@ A Team plan is marked "coming soon", which tells you the company is still mid-pi
 
 ## Pricing
 
-Hosted plans are credit-based: Pro at $42.50 per month billed annually (1x usage) and Max at $272.00 per month billed annually (8.5x usage), with yearly billing saving 15 percent versus monthly (as of 2026-09-27).
+Hosted plans restructured around monthly billing as of 2026-10-11: Pro at $50.00 per month (1x usage, 7-day free trial) and Max at $320.00 per month (8.5x usage), with a yearly toggle saving 15 percent (the annual-effective rates return to $42.50 and $272.00).
+The billing model now reads: the subscription covers Otto and Expert chat, while workflow runs are pay-as-you-go through the credit wallet on every plan, with a per-Expert spending cap.
 A Team plan is contact-sales and marked coming soon; self-hosting the platform is free under the licenses above.
 An instant demo with no signup is offered.
 
@@ -61,6 +62,7 @@ An instant demo with no signup is offered.
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09-27 | Pro / Max | Baseline recorded: $42.50 / $272.00 per month billed annually | https://agpt.co/pricing |
+| 2026-10-11 | Pro / Max | Monthly billing now leads at $50.00 / $320.00; yearly billing (15 percent off, $42.50 / $272.00 effective) became the toggle; subscription reframed as covering Otto and Expert chat with workflow runs pay-as-you-go | https://agpt.co/pricing |
 
 ## Compared to
 
@@ -80,6 +82,8 @@ My disagreeable claim: the 187k stars are a liability now, because they attract 
 - 2026-09-30 - Recorded beta v0.8.2 (September 30, AutoPilot action gating modes) as the new latest release and refreshed star and push counts.
 - 2026-10-07 - Added the Significant-Gravitas/AutoGPT star history chart to the Status section.
 - 2026-10-08 - Recorded platform beta v0.8.3 (October 8) and the star count as of 2026-10-08.
+
+- 2026-10-11 - Recorded the hosted-pricing restructure: monthly billing now leads at $50 and $320 per month, yearly (15 percent off, $42.50 and $272 effective) became the toggle, and the subscription covers Otto and Expert chat while workflow runs are pay-as-you-go.
 
 ## See also
 

@@ -21,7 +21,7 @@ It occupies a niche none of this category's boards and platforms fill: coordinat
 
 ## Status
 
-Active and early: 559 stars, a push on 2026-10-06, release v0.7.28 on 2026-10-06, and `hcom` 0.7.28 on PyPI as of 2026-10-07 (GitHub API, PyPI), installable with uv or Homebrew, on a repository created 2025-07-21.
+Active and early: 566 stars, a push on 2026-10-10, release v0.7.28 on 2026-10-06, and `hcom` 0.7.28 on PyPI as of 2026-10-11 (GitHub API, PyPI), installable with uv or Homebrew, on a repository created 2025-07-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aannoo/hcom&type=date&theme=dark&legend=top-left" />

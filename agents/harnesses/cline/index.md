@@ -1,7 +1,7 @@
 ---
 title: Cline
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, byok]
 readability: 3
@@ -27,7 +27,7 @@ Any provider works: Anthropic, OpenAI, Google, OpenRouter, Bedrock, Azure, Verte
 ## Status
 
 **Active and large.**
-The repository shows about 69.9k stars and 7.6k forks as of 2026-10-06, with 250+ contributors and an Apache-2.0 license held by Cline Bot Inc.
+The repository shows about 70.1k stars and 7.6k forks as of 2026-10-11, with 250+ contributors and an Apache-2.0 license held by Cline Bot Inc.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cline/cline&type=date&theme=dark&legend=top-left" />
@@ -97,7 +97,7 @@ Not for teams that require every client binary open or a coding-agnostic automat
 
 ## References
 
-- https://github.com/cline/cline - surfaces, rules, SDK, license, repository scale as of 2026-10-04
+- https://github.com/cline/cline - surfaces, rules, SDK, license, repository scale as of 2026-10-11
 - https://cline.bot/ - product overview, install and star claims
 - https://cline.bot/pricing - free core, usage billing, enterprise tiers
 - https://cline.bot/cline-pass - the open-weights subscription and its labs

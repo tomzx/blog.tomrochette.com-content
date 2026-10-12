@@ -1,7 +1,7 @@
 ---
 title: Visual Studio 2026
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, microsoft, windows]
 readability: 3
@@ -46,8 +46,8 @@ Microsoft reports over 5,000 reported bugs fixed and 300 feature requests shippe
 ## Pricing
 
 Community: $0 for individuals, open source, and academic use; in enterprise organizations (over 250 PCs or over $1 million annual revenue) use beyond those scenarios is not permitted, with up to five users otherwise.
-Professional: $45/user/month monthly, or standard at $99.99/user/month billed annually and renewing at $66.59, as of 2026-10-06.
-Enterprise: $250/user/month monthly, or standard at $499.92/user/month billed annually and renewing at $214.09, as of 2026-10-06.
+Professional: $45/user/month monthly, or standard at $99.99/user/month billed annually and renewing at $66.59, re-verified 2026-10-11.
+Enterprise: $250/user/month monthly, or standard at $499.92/user/month billed annually and renewing at $214.09, re-verified 2026-10-11.
 GitHub Copilot plans bill separately on top of the IDE.
 
 ## Price history
@@ -83,6 +83,6 @@ Not for cross-platform teams, and not for anyone who wants an open client or pre
 - https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes - version 18.10.3 (September 29, 2026), the 18.8 to 18.10 AI feature train, and the BYOK preview with its providers and breaking changes
 - https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-get-started - agent mode, MCP, the Plan agent, cloud agents since 18.1, custom instructions and agents, and built-in skills
 - https://learn.microsoft.com/en-us/visualstudio/ide/ai-assisted-development-visual-studio - the Copilot and IntelliCode overview and the April 20, 2026 Copilot Pro trial pause
-- https://visualstudio.microsoft.com/vs/pricing/ - Community license terms and subscription prices, as of 2026-10-06
+- https://visualstudio.microsoft.com/vs/pricing/ - Community license terms and subscription prices, re-verified 2026-10-11 (ladder unchanged)
 - https://devblogs.microsoft.com/visualstudio/visual-studio-2026-is-here-faster-smarter-and-a-hit-with-early-adopters/ - the November 11, 2025 GA announcement, the Intelligent Developer Environment framing, and the decoupled monthly update model
 - https://news.ycombinator.com/item?id=45229239 - the RAM-requirements thread carrying David Kean's GC-settings comment, this run's critical source

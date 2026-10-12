@@ -1,7 +1,7 @@
 ---
 title: Plano
 created: 2026-10-07
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted]
 readability: 3
@@ -24,7 +24,7 @@ Katanemo Labs was acquired by DigitalOcean on April 2, 2026, with co-founder and
 
 ## Status
 
-Active and well resourced: 7,082 stars and 488 forks as of 2026-10-10, Apache-2.0, with release 0.4.37 published 2026-09-28 as the latest release and the repo pushed 2026-10-07.
+Active and well resourced: 7,084 stars and 488 forks as of 2026-10-11, Apache-2.0, with release 0.4.37 published 2026-09-28 as the latest release and the repo pushed 2026-10-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=katanemo/plano&type=date&theme=dark&legend=top-left" />

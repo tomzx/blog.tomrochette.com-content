@@ -23,7 +23,7 @@ It ships Gemini CLI and Claude Code harnesses by default, with Codex, OpenCode, 
 
 ## Status
 
-Active and early: 1,730 stars and 272 forks as of 2026-10-06, created 2026-03-10, with 32 contributors and nightly releases.
+Active and early: 1,737 stars and 272 forks as of 2026-10-11, created 2026-03-10, with 32 contributors and nightly releases.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=GoogleCloudPlatform/scion&type=date&theme=dark&legend=top-left" />

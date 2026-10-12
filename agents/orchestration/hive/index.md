@@ -23,7 +23,7 @@ It is made by Aden, a five-person San Francisco company from Y Combinator's Wint
 
 ## Status
 
-Active but uneven: 11,086 stars as of 2026-10-08 on a repository created 2026-01-12, with branches pushed the day before this check (GitHub API).
+Active but uneven: 11,092 stars as of 2026-10-11 on a repository created 2026-01-12, with branches pushed the day before this check (GitHub API).
 The default branch's last commit is 2026-09-14 and the GitHub release line stopped at v0.11.0 on 2026-05-02, five months before this check, so the code ships without tagged releases.
 Three contributors dominate the history (about 1,179, 868, and 451 contributions), which matches a five-person company rather than a community.
 

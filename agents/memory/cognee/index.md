@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 31.9k GitHub stars as of 2026-10-10, repository pushed 2026-10-09 UTC, and v1.6.3 (October 7, 2026) the latest release with PyPI in sync at 1.6.3.
+About 32.0k GitHub stars as of 2026-10-11, repository pushed 2026-10-09 UTC, and v1.6.3 (October 7, 2026) the latest release with PyPI in sync at 1.6.3.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=topoteretes/cognee&type=date&theme=dark&legend=top-left" />
@@ -97,10 +97,10 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 
 ## References
 
-- https://github.com/topoteretes/cognee - source, Apache-2.0, about 31.9k stars, as of 2026-10-10
+- https://github.com/topoteretes/cognee - source, Apache-2.0, about 32.0k stars, as of 2026-10-11
 - https://github.com/topoteretes/cognee/releases/tag/v1.6.3 - the v1.6.3 release notes: temporal-search boundaries, ingestion validation, and the four breaking changes
 - https://www.cognee.ai/ - v1 announcement, integration list, Berkeley Xcelerator, 5M+ SDK runs claim
-- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, Enterprise bi-temporal memory listing, as of 2026-10-02 (the $1.00 Standard rate held since the 2026-09-09 cut)
+- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, Enterprise bi-temporal memory listing, re-verified unchanged 2026-10-11 (the $1.00 Standard rate held since the 2026-09-09 cut)
 - https://docs.cognee.ai/ - architecture, multi-user mode, SDK and integration surfaces
 - https://pypi.org/pypi/cognee/json - v1.6.3 released October 7, 2026, in sync with the GitHub tag
 - https://news.ycombinator.com/item?id=44169594 - Show HN, June 2025, the 9-point thread

@@ -1,7 +1,7 @@
 ---
 title: claude-replay
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, replay, shareable-artifacts]
 readability: 3
@@ -16,14 +16,14 @@ claude-replay is the MIT CLI that converts coding-agent session transcripts from
 
 ## What it is
 
-A zero-dependency Node CLI (npm install -g claude-replay) by es617, MIT licensed, not affiliated with Anthropic (843 stars, pushed 2026-09-18, as of 2026-10-07).
+A zero-dependency Node CLI (npm install -g claude-replay) by es617, MIT licensed, not affiliated with Anthropic (844 stars, pushed 2026-09-18, as of 2026-10-11).
 It auto-detects and reads Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode, Kimi Code, and Hermes Agent transcripts from their on-disk locations, including OpenCode's export path and Hermes's SQLite store read live.
 The output is a single HTML file with an interactive player (playback speed, keyboard shortcuts, diff views, chapters), collapsible tool-call and thinking blocks, six themes with full CSS override, and automatic redaction of API keys and tokens.
 A built-in web editor lets you exclude turns, add bookmarks, and edit prompts before export, `--serve --watch` follows a session as it runs, and a Docker mode mounts sessions read-only for sandboxed conversion; a browser version converts uploaded files entirely client-side.
 
 ## Status
 
-Active with a quiet recent month: created 2026-03-02, 843 stars, 66 forks, last push 2026-09-18, as of 2026-10-07.
+Active with a quiet recent month: created 2026-03-02, 844 stars, 67 forks, last push 2026-09-18, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=es617/claude-replay&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active with a quiet recent month: created 2026-03-02, 843 stars, 66 forks, last 
 </picture>
 
 The project carries an explicit endorsement listing in the awesome-claude-code directory, which calls the output "fantastic".
-Its own traction numbers are modest: about 400 npm downloads in the week to 2026-10-04 and no Hacker News thread of its own, so adoption evidence is the star curve and the directory listing, not download volume.
+Its own traction numbers are modest: 420 npm downloads in the week to 2026-10-09 and no Hacker News thread of its own, so adoption evidence is the star curve and the directory listing, not download volume.
 
 ## Strengths
 
@@ -46,7 +46,7 @@ Its own traction numbers are modest: about 400 npm downloads in the week to 2026
 - Smaller scale than the category's spend-auditors and indexers, with modest npm adoption and a one-maintainer bus factor.
 - The conversion targets the harnesses' current log formats, and every format change breaks it until patched; the seven-harness list needs re-verification each harness release.
 - Replays are for humans: nothing here feeds analytics, cost audits, or search back into your workflow.
-- Development paused for the month to 2026-09-18, worth watching before depending on it.
+- Development has been quiet since 2026-09-18, three-plus weeks as of 2026-10-11, worth watching before depending on it.
 
 ## Pricing
 

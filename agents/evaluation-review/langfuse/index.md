@@ -1,7 +1,7 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
 readability: 3
@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,587 stars, 3,959 forks, created 2023-05-18, pushed 2026-10-10, v4.56.0 released 2026-10-09 as of 2026-10-10.
+Mature and busy: 35,630 stars, 3,962 forks, created 2023-05-18, pushed 2026-10-11, v4.56.0 released 2026-10-09 as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />
@@ -51,7 +51,7 @@ Announced ClickHouse acquisition landed on Hacker News on 2026-01-17 with 220 po
 ## Pricing
 
 Self-hosted: free, MIT core, with the `ee/` directories under their separate license.
-Langfuse Cloud as of 2026-10-10: Hobby free (50k units/month, 30-day retention), Core $29/month, Pro $199/month (Teams add-on $300/month), Enterprise $2,499/month, plus graduated overage from $8 down to $6 per 100k units.
+Langfuse Cloud as of 2026-10-11: Hobby free (50k units/month, 30-day retention), Core $29/month, Pro $199/month (Teams add-on $300/month), Enterprise $2,499/month, plus graduated overage from $8 down to $6 per 100k units.
 
 ## Price history
 
@@ -93,7 +93,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 
 ## References
 
-- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-10-10
+- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-10-11
 - https://raw.githubusercontent.com/langfuse/langfuse/main/LICENSE - MIT core, the `ee/` carve-out, and the ClickHouse, Inc. copyright
 - https://raw.githubusercontent.com/langfuse/langfuse/main/README.md - feature set, self-hosting, integrations, and the January 2026 ClickHouse note
 - https://langfuse.com/docs - platform overview, OTel basis, evaluation methods, agent skill, CLI, and MCP server

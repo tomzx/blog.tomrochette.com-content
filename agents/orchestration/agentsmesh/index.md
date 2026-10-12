@@ -23,7 +23,7 @@ The license is Business Source License 1.1, source-available with a conversion d
 
 ## Status
 
-Active but maturing slowly: 2,361 stars as of 2026-10-06, created 2026-02-28, pushed 2026-09-23, with the last tagged release v0.44.7 on 2026-07-25 and development continuing on the default branch since.
+Active but maturing slowly: 2,366 stars as of 2026-10-11, created 2026-02-28, pushed 2026-09-23, with the last tagged release v0.44.7 on 2026-07-25 and development continuing on the default branch since.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AgentsMesh/AgentsMesh&type=date&theme=dark&legend=top-left" />

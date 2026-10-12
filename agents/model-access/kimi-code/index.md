@@ -1,7 +1,7 @@
 ---
 title: Kimi Code
 created: 2026-09-26
-updated: 2026-10-06
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, moonshot-ai, pricing]
 readability: 3
@@ -23,7 +23,7 @@ Model access is tiered: K2.7 Code for every paying member, K3 at full 1M context
 
 Active and restructuring quickly: K3 shipped into Kimi Code on July 17, 2026, and by late September a restructure had renamed tiers and dropped the weekly quota window for new members.
 The CLI is published on GitHub under MoonshotAI, with third-party coverage putting it at 3.2k stars in July 2026.
-Independent guides multiplied through 2026, which I read as real adoption.
+Independent guides multiplied through 2026, which I read as genuine adoption.
 
 ## Strengths
 
@@ -40,10 +40,10 @@ Independent guides multiplied through 2026, which I read as real adoption.
 
 ## Pricing
 
-On kimi.ai: Moderato $19, Allegretto $39, Allegro $99, Vivace $199 per month, annual effective $15/$31/$79/$159 (as of 2026-10-06).
+On kimi.ai: Moderato $19, Allegretto $39, Allegro $99, Vivace $199 per month, annual effective $15/$31/$79/$159 (as of 2026-10-11).
 On kimi.com: Andante ¥49, Moderato ¥99, Allegretto ¥199, Allegro ¥699 per month (as of 2026-10-06).
 Under the new ladder, Go has no coding quota, Plus and above include Kimi Code, and Pro and above unlock K3 at 1M context.
-The monthly pool is credits shared across every Kimi feature, and Kimi Code additionally runs under its own usage limit (a rolling 5-hour rate window for new members, the weekly window having been removed) that applies only to Kimi Code.
+The monthly pool is credits shared across every Kimi feature, and Kimi Code additionally runs under its own usage limit (a rolling 5-hour rate window for new members, the weekly window having been removed; the membership help page still phrases it as a 5-hour/weekly limit because legacy plans keep the weekly window, per the membership docs re-fetched 2026-10-11) that applies only to Kimi Code.
 Extra Usage is pay-as-you-go overflow with a ¥25 minimum top-up, generally non-refundable.
 
 ## Price history

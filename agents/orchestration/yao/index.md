@@ -23,7 +23,7 @@ The license is a modified Apache-2.0 that GitHub reports as NOASSERTION.
 
 ## Status
 
-Active on the product side and old on the clock: the repository was created 2021-09-06 and shows 8,079 stars and 721 forks as of 2026-10-06, pushed 2026-10-05.
+Active on the product side and old on the clock: the repository was created 2021-09-06 and shows 8,116 stars and 722 forks as of 2026-10-11, pushed 2026-10-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=YaoApp/yao&type=date&theme=dark&legend=top-left" />

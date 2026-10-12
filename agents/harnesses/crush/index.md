@@ -1,7 +1,7 @@
 ---
 title: Crush
 created: 2026-08-22
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, terminal, go]
 readability: 3
@@ -25,7 +25,7 @@ It runs on macOS, Linux, Windows, Android, and the BSDs.
 ## Status
 
 **Active.**
-About 28.5k stars, 2.3k forks, and 4,268 commits as of 2026-10-06, launched July 30, 2025.
+About 28.6k stars, 2.3k forks, and 4,277 commits as of 2026-10-11, launched July 30, 2025.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=charmbracelet/crush&type=date&theme=dark&legend=top-left" />
@@ -86,7 +86,7 @@ Not for license-restricted organizations or communities that relitigate 2025.
 
 ## References
 
-- https://github.com/charmbracelet/crush - features, license, provider matrix, as of 2026-10-06
+- https://github.com/charmbracelet/crush - features, license, provider matrix, as of 2026-10-11
 - https://news.ycombinator.com/item?id=44736176 - launch thread with the full origin story and early comparisons
 - https://fsl.software/ - what FSL-1.1-MIT permits and when it converts
 - https://charm.land/blog/crush-comes-home/ - Charm's account of the project joining the company

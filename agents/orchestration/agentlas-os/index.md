@@ -21,7 +21,7 @@ Beside the hub it ships Agent Mail (an inbox and draft-review flow for the orche
 
 ## Status
 
-Active and young: 1,575 stars, a push on 2026-10-10, and release v1.2.61 on 2026-10-10 as of 2026-10-10 (GitHub API, releases), on a repository created 2026-06-04, two days after v1.2.59.
+Active and young: 1,576 stars, a push on 2026-10-10, and release v1.2.62 on 2026-10-10 as of 2026-10-11 (GitHub API, releases), on a repository created 2026-06-04.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentlas-ai/Agentlas-OS&type=date&theme=dark&legend=top-left" />

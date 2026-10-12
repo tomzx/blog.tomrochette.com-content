@@ -11,10 +11,13 @@ readability: 3
 Where agent isolation should live: the workstation, the cluster, the wrapper, the framework, or the provisioning layer.
 
 - [Agent Sandbox](agent-sandbox/index.md) - the Kubernetes SIG Apps CRD for declarative sandbox fleets, delegating isolation to gVisor or Kata.
+- [aicontainer](aicontainer/index.md) - the twenty-star devcontainer-spec sandbox, auto-approve CLIs behind a digest-pinned Docker socket proxy with sanitized host config, the footprint carried by its boundary documentation.
 - [aigate](aigate/index.md) - the fourteen-star kernel-enforced wrapper, kept as the reference design for small-scale OS-level agent sandboxing.
 - [ArtifactFS](artifact-fs/index.md) - Cloudflare's FUSE driver that mounts big repos in seconds, the provisioning layer sandboxes need before isolation matters.
 - [Brig](brig/index.md) - NOFire AI's per-agent microVM sandbox for Apple Silicon and Linux, the category's most detailed published security claims and cosign-verified boot assets.
+- [Brood Box](brood-box/index.md) - Stacklok's review-gated libkrun microVM runner, changes land only after a per-file diff of a copy-on-write snapshot.
 - [Clawk](clawk/index.md) - the disposable-VM workstation tool, the agent gets its own Linux machine instead of yours, pre-1.0 on macOS.
+- [Container Use](container-use/index.md) - Dagger's MCP server giving each agent a container on its own git branch, the parallel-workflow entry whose release train stopped in August 2025.
 - [CubeSandbox](cubesandbox/index.md) - Tencent's E2B-compatible RustVMM/KVM microVM sandbox, sub-60ms boots, its traction built on launch announcements rather than community discussion.
 - [Drop](drop/index.md) - the rootless namespace sandbox that reuses your installed Linux distro instead of an image or VM, optional gVisor underneath.
 - [E2B](e2b/index.md) - the hosted Firecracker-microVM sandbox API the category's self-hosted members measure themselves against, with its runtime now open source.
@@ -53,3 +56,6 @@ Its members are compared on shared rows in the [Sandboxing Feature Matrix](sandb
 - 2026-10-08 - Added Greywall.
 - 2026-10-09 - Added Landrun.
 - 2026-10-09 - Added Yolobox.
+- 2026-10-12 - Added aicontainer.
+- 2026-10-12 - Added Brood Box.
+- 2026-10-12 - Added Container Use.

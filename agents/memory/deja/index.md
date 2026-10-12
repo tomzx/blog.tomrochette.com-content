@@ -1,7 +1,7 @@
 ---
 title: deja
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, transcripts, retrieval, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Beyond search it adds `deja promote` (curated notes with accepted and rejected l
 ## Status
 
 **Young, fast-moving, and single-maintainer, with adoption ahead of any public discussion.**
-1,161 stars, 112 forks, and 16 open issues and pull requests, created 2026-07-14, pushed 2026-10-09, MIT, as of 2026-10-10 (GitHub API).
+1,169 stars, 112 forks, and 11 open issues and pull requests, created 2026-07-14, pushed 2026-10-10, MIT, as of 2026-10-11 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&theme=dark&legend=top-left" />
@@ -80,7 +80,7 @@ Not for teams needing multi-user memory, audited third-party evaluation, or reca
 
 ## References
 
-- https://github.com/vshulcz/deja-vu - repository, MIT, 1,161 stars, 112 forks, 16 open issues and PRs, created 2026-07-14, pushed 2026-10-09, as of 2026-10-10
+- https://github.com/vshulcz/deja-vu - repository, MIT, 1,169 stars, 112 forks, 11 open issues and PRs, created 2026-07-14, pushed 2026-10-10, as of 2026-10-11
 - https://raw.githubusercontent.com/vshulcz/deja-vu/main/README.md - architecture, the 41-harness support matrix, the single-tool MCP surface, redaction, promote lifecycle, sync, install paths, and the comparison table
 - https://api.github.com/repos/vshulcz/deja-vu/releases - the release train through v0.22.0 (2026-10-09)
 - https://api.github.com/repos/vshulcz/deja-vu/license - the MIT license file, verified through the GitHub API

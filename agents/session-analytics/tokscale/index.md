@@ -1,7 +1,7 @@
 ---
 title: Tokscale
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by junhoyeo, an independent developer, MIT-licensed.
 
 ## Status
 
-Young and fast: 5,636 stars, 464 forks, 78 open issues, created 2025-12-01, pushed 2026-10-05, as of 2026-10-07.
+Young and fast: 5,656 stars, 472 forks, 100 open issues, created 2025-12-01, pushed 2026-10-10, as of 2026-10-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Young and fast: 5,636 stars, 464 forks, 78 open issues, created 2025-12-01, push
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&legend=top-left" />
 </picture>
 
-npm shows 153,501 downloads in the trailing month (2026-09-05 to 2026-10-04), second in this category only to ccusage, and the release line is v4.18.0 (2026-10-05) after v4.17.0 (2026-09-15).
+npm shows 173,488 downloads in the trailing month (2026-09-10 to 2026-10-09), second in this category only to ccusage, and the release line is v4.18.0 (2026-10-05) after v4.17.0 (2026-09-15).
 Its Show HN reached 2 points and zero comments in December 2025, so the audience arrived without a forum argument.
 **The star and download numbers say adoption, the empty Hacker News footprint says no independent scrutiny yet, and both are true at once.**
 
@@ -81,10 +81,10 @@ Not for teams needing shared dashboards (agentsview) or spend management (CodeBu
 
 ## References
 
-- https://github.com/junhoyeo/tokscale - repository, 5,630 stars and 465 forks as of 2026-10-06, MIT license, created 2025-12-01
+- https://github.com/junhoyeo/tokscale - repository, 5,656 stars and 472 forks as of 2026-10-11, MIT license, created 2025-12-01
 - https://raw.githubusercontent.com/junhoyeo/tokscale/main/README.md - the about-50-client data-path table, LiteLLM pricing, sync subcommands, and the submit-to-leaderboard flow
 - https://registry.npmjs.org/tokscale - npm latest 4.18.0
-- https://api.npmjs.org/downloads/point/last-month/tokscale - 153,501 trailing-month downloads (2026-09-05 to 2026-10-04), fetched 2026-10-06
+- https://api.npmjs.org/downloads/point/last-month/tokscale - 173,488 trailing-month downloads (2026-09-10 to 2026-10-09), fetched 2026-10-11
 - https://api.github.com/repos/junhoyeo/tokscale/releases - v4.18.0 (2026-10-05), v4.17.0 (2026-09-15), v4.16.0 (2026-09-12)
 - https://tokscale.ai - the hosted leaderboard and Wrapped pages
 - https://hn.algolia.com/api/v1/items/46365999 - the 2-point, zero-comment Show HN of 2025-12-23, cited as the thin-discussion signal

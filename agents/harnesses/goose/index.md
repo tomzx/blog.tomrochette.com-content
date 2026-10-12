@@ -1,7 +1,7 @@
 ---
 title: goose
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, linux-foundation]
 readability: 3
@@ -25,7 +25,7 @@ It talks to 15+ providers (Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure,
 ## Status
 
 **Active and foundation-governed.**
-The repository (moved from Block's org to `aaif-goose/goose`) shows about 55.0k stars as of 2026-10-07 and was last pushed within a day of verification.
+The repository (moved from Block's org to `aaif-goose/goose`) shows about 55.1k stars as of 2026-10-11 and was last pushed within a day of verification.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aaif-goose/goose&type=date&theme=dark&legend=top-left" />
@@ -83,7 +83,7 @@ Not for teams that want a coding-specialized harness or a single vendor's suppor
 
 ## References
 
-- https://github.com/aaif-goose/goose - README, license, surfaces, repository scale as of 2026-10-07
+- https://github.com/aaif-goose/goose - README, license, surfaces, repository scale as of 2026-10-11
 - https://goose-docs.ai/docs/getting-started/installation - install paths, desktop and CLI, AAIF banner
 - https://goose-docs.ai/blog/2026/04/07/goose-moves-to-aaif - the April 7, 2026 migration-completion announcement
 - https://aaif.io/news/linux-foundation-announces-formation-of-aaif - the December 9, 2025 formation announcement listing goose as a founding contribution

@@ -1,7 +1,7 @@
 ---
 title: Coucou
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, live-observation, approvals, macos, ios, open-source]
 readability: 3
@@ -26,8 +26,8 @@ It is built by Louis Raillé (the Louis-CFM account), with the project's own con
 
 ## Status
 
-Two weeks old and shipping hard: created 2026-09-27 with v0.1.0 the same day, at v0.3.0 on 2026-10-10 after near-daily releases, with Windows and Linux tags trailing the Mac by days, as of 2026-10-10.
-4,717 stars and 781 forks in that window, 250 open issues, MIT.
+Two weeks old and shipping hard: created 2026-09-27 with v0.1.0 the same day, at v0.3.0 on 2026-10-10 after near-daily releases, with Windows and Linux tags trailing the Mac by days, as of 2026-10-11.
+4,736 stars and 785 forks in that window, 252 open issues, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Louis-CFM/coucou&type=date&theme=dark&legend=top-left" />

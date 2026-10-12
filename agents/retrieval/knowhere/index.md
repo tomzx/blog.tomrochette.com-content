@@ -1,12 +1,12 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-10-09
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
 audience_notes: >
-  Engineers building RAG over messy real-world documents (PDFs, decks, spreadsheets) who are
+  Engineers building RAG over messy documents (PDFs, decks, spreadsheets) who are
   choosing a parser and chunker, and weighing a hosted per-page API against self-hosting.
   Assumes familiarity with chunks, embeddings, and MCP.
 ---
@@ -14,7 +14,7 @@ audience_notes: >
 Knowhere is a document parsing and retrieval system from Ontos AI that turns messy files (PDFs, decks, spreadsheets, images) into a persistent, navigable memory structure for agents, shipped as an Apache-2.0 open-source engine, a hosted per-page API, and an MCP server.
 
 **Knowhere's bet is that chunking should preserve document structure (hierarchy, tables, cross-references) instead of throwing it away, and that agents should traverse that structure like a map rather than re-parse files every session.**
-The bet is real and shipping, but the public discussion footprint is nearly invisible for the star count.
+The bet is genuine and shipping, but the public discussion footprint is nearly invisible for the star count.
 
 ## What it is
 
@@ -34,7 +34,7 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
 </picture>
 
-3,700 stars since 2026-04-30, latest release v1.2.23 on 2026-10-08 (following v1.2.21 and v1.2.22 on 2026-10-05, and v1.2.20 on 2026-09-30), pushed 2026-10-10 (GitHub API, as of 2026-10-10).
+3,705 stars since 2026-04-30, latest release v1.2.24 on 2026-10-10 (following v1.2.23 on 2026-10-08 and v1.2.21 and v1.2.22 on 2026-10-05), pushed 2026-10-10 (GitHub API, as of 2026-10-11).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
 
@@ -49,12 +49,12 @@ The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the s
 
 - **The benchmark comparison on the marketing site is entirely self-reported**: "50 retrieval tasks across 500+ curated documents" with no published methodology and no third-party replication I could find.
 - The Vision track sends your pages to frontier vision models, so the local-and-offline pitch only holds for the Text track and the self-hosted deployment.
-- The PyPI name `knowhere` is an unrelated 2017 package (the real SDK is `knowhere-python-sdk`), the same name-collision trap graphify documented.
+- The PyPI name `knowhere` is an unrelated 2017 package (the actual SDK is `knowhere-python-sdk`), the same name-collision trap graphify documented.
 - Two Show HNs with almost no comments is a missing-community-footprint signal: nobody independent has argued about this tool in public yet.
 
 ## Pricing
 
-**The hosted API bills per page: $0.015 per billable page ($1.50 per 100 pages), with rate-limit tiers unlocked by lifetime spend (re-verified unchanged 2026-10-07).**
+**The hosted API bills per page: $0.015 per billable page ($1.50 per 100 pages), with rate-limit tiers unlocked by lifetime spend (re-verified unchanged 2026-10-11).**
 The $5 signup credit the site showed on 2026-09-22 no longer appears; the current signup offer is a 14-day free trial (re-verified 2026-09-26).
 Billable pages count physical PDF pages, slide counts, one page per image, and size-derived units for text and spreadsheets; jobs that fail after billing are refunded.
 The open-source engine and the self-hosted stack are free under Apache-2.0.
@@ -88,6 +88,8 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 - 2026-10-05 - Recorded releases v1.2.21 and v1.2.22 (both 2026-10-05) and refreshed the volatile numbers (3,661 stars, pushed 2026-10-05); per-page pricing re-verified unchanged.
 - 2026-10-07 - Added the Ontos-AI/knowhere star history chart to the Status section.
 - 2026-10-09 - Recorded release v1.2.23 (2026-10-08) and refreshed the volatile numbers (3,683 stars, pushed 2026-10-08); per-page pricing re-verified unchanged.
+- 2026-10-11 - Recorded release v1.2.24 (2026-10-10) and refreshed the volatile numbers (3,705 stars, pushed 2026-10-10); per-page pricing re-verified unchanged.
+- 2026-10-11 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 
@@ -98,8 +100,8 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,700 stars and activity as of 2026-10-10
-- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.23 on 2026-10-08
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,705 stars and activity as of 2026-10-11
+- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.24 on 2026-10-10
 - https://knowhereto.ai - hosted product surface, $5 free credit, and the self-reported comparison table
 - https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface
 - https://docs.knowhereto.ai/pricing - per-page pricing, billable-page counting, refund policy, rate-limit tiers

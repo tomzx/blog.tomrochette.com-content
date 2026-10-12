@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -10,13 +10,13 @@ audience_notes: >
   Assumes you know what a cron scheduler and a model provider are.
 ---
 
-Hermes Agent is Nous Research's MIT-licensed self-improving personal agent: a Python gateway process that lives in your chat channels, builds skills from its own experience, and runs on everything from a $5 VPS to serverless sandboxes, at about 252k stars the biggest runtime launch since OpenClaw.
+Hermes Agent is Nous Research's MIT-licensed self-improving personal agent: a Python gateway process that lives in your chat channels, builds skills from its own experience, and runs on everything from a $5 VPS to serverless sandboxes, at about 253k stars the biggest runtime launch since OpenClaw.
 
 **Hermes' bet is that the runtime winner is decided by the learning loop, not the channel list: an agent that curates its own memory, writes its own skills, and models you across sessions compounds while the others merely answer.**
 
 ## What it is
 
-Install with a curl script (the installer bundles uv, Python 3.11, Node.js, ripgrep, ffmpeg, and an isolated Git Bash on Windows), and one gateway process serves Telegram, Discord, Slack, WhatsApp, Signal, and a CLI, with voice-memo transcription and conversation continuity across platforms.
+Install with a curl script (the installer bundles uv, Python 3.11, Node.js, ripgrep, ffmpeg, and an isolated Git Bash on Windows; the official site now also ships desktop installers for macOS 12+ and Windows 10/11), and one gateway process serves Telegram, Discord, Slack, WhatsApp, Signal, Email, and a CLI, with voice-memo transcription and conversation continuity across platforms.
 **The learning loop is the differentiator: it creates skills autonomously after complex tasks, improves them during use, nudges itself to persist knowledge, searches its own past sessions (FTS5 with LLM summarization), and builds a user model through Honcho, compatible with the agentskills.io open standard.**
 Any model goes in (Nous Portal, OpenRouter, OpenAI, custom endpoints) and switching is a `hermes model` command with no code changes.
 Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona, Vercel Sandbox), with serverless persistence that hibernates when idle, and a built-in cron scheduler delivers reports to any platform.
@@ -24,7 +24,7 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 ## Status
 
 Massive and fast-moving.
-As of 2026-10-10: 252,377 stars and 54,527 forks since creation on 2025-07-22, pushed today, MIT, and 47,697 open issues, a support surface bigger than most projects' users.
+As of 2026-10-11: 252,641 stars and 54,646 forks since creation on 2025-07-22, pushed today, MIT, and 47,784 open issues, a support surface bigger than most projects' users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&theme=dark&legend=top-left" />
@@ -85,6 +85,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 - 2026-10-07 - Added the NousResearch/hermes-agent star history chart to the Status section.
 - 2026-10-07 - Added the community hermes-gadget-sdk (ESP32 voice and text devices for the agent, 302 stars) to the ecosystem record, with refreshed adoption numbers.
 - 2026-10-10 - Recorded the release-scheme change: v0.21.6 (2026-10-08) is the first semver tag and the first cut of a new stable release pipeline, ending the date-stamped scheme and the early-October tag gap, with refreshed adoption numbers and the Portal tiers re-checked unchanged.
+- 2026-10-11 - Recorded the official desktop installers (macOS 12+, Windows 10/11) joining the curl install path and Email joining the official channel list, with refreshed adoption numbers and the Portal tiers (Free $0, Plus $20, Super $100, Ultra $200) re-checked unchanged on the official site.
 
 ## See also
 

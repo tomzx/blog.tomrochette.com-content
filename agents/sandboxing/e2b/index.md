@@ -1,7 +1,7 @@
 ---
 title: E2B
 created: 2026-10-06
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, firecracker, hosted-api, isolation, security]
 readability: 3
@@ -23,7 +23,7 @@ The cloud is SOC 2 Type II compliant with US, EU, and APAC regions; enterprise t
 
 ## Status
 
-Active and well funded: the SDK repo stands at 14,265 stars and the runtime repo at 1,702 stars as of 2026-10-10, the SDK repo created 2023-03-04 and pushed 2026-10-09, with the e2b package on PyPI at 2.55.1 (as of 2026-10-10) after the 2.55.x train cut on 2026-10-09.
+Active and well funded: the SDK repo stands at 14,274 stars and the runtime repo at 1,707 stars as of 2026-10-11, the SDK repo created 2023-03-04 and pushed 2026-10-09, with the e2b package on PyPI at 2.55.1 (as of 2026-10-11) after the 2.55.x train cut on 2026-10-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=e2b-dev/E2B&type=date&theme=dark&legend=top-left" />
@@ -53,7 +53,7 @@ A $21M Series A led by Insight Partners was announced 2025-07-28, $32M total, wi
 Hobby: free, one-time $100 usage credits, 20 concurrent sandboxes, 1-hour sessions, 10 GiB storage included.
 Pro: $150 per month plus usage, 100 concurrent, 24-hour sessions, 20 GiB storage; Pro+ and Pro++ add-ons at $650 and $1,150 per month raise concurrency to 600 and 1,100.
 Enterprise: custom, with a $3,000 monthly minimum and BYOC.
-Published usage rates as of 2026-10-10: $0.000014 per vCPU-second and $0.0000045 per GiB-second, storage included free; sandboxes configure 1 to 8 vCPU and 1 to 8 GiB, CPU-only.
+Published usage rates as of 2026-10-11: $0.000014 per vCPU-second and $0.0000045 per GiB-second, storage included free; sandboxes configure 1 to 8 vCPU and 1 to 8 GiB, CPU-only.
 
 ## Price history
 
@@ -92,7 +92,7 @@ Not for GPU workloads, for $0-marginal-cost fleet scale, or for anyone unwilling
 - https://e2b.dev/pricing - plans, concurrency tiers, published usage rates as of 2026-10-06
 - https://github.com/e2b-dev/E2B - SDK repository, growth, license
 - https://github.com/e2b-dev/runtime - the open-source runtime and the Embed single-node package
-- https://pypi.org/pypi/e2b/json - the e2b package's current version, 2.55.1 as of 2026-10-10
+- https://pypi.org/pypi/e2b/json - the e2b package's current version, 2.55.1 as of 2026-10-11
 - https://e2b.dev/blog/series-a - the $21M Series A and the enterprise traction claims
 - https://hn.algolia.com/api/v1/items/41860413 - the 2-point 2024 launch thread
 - https://hn.algolia.com/api/v1/items/47863430 - CubeSandbox's open-source-alternative launch, the competitive counterpoint

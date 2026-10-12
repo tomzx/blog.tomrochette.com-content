@@ -1,7 +1,7 @@
 ---
 title: CrewAI
 created: 2026-09-29
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -25,7 +25,7 @@ The repo sits at 59,273 stars with 8,620 forks, MIT licensed, created 2023-10-27
 
 Active and heavily maintained: last push 2026-10-10, latest release 1.15.27 on 2026-10-09, and `crewai` 1.15.27 on PyPI (GitHub API, PyPI, as of 2026-10-10), four releases after 1.15.23 (2026-09-28).
 The company raised $18M across seed and Series A in October 2024, led by Insight Partners and boldstart ventures, with Andrew Ng and HubSpot co-founder Dharmesh Shah as angels (SiliconANGLE).
-Company claims include roughly half the Fortune 500 using the open source and 10 million+ agents executed monthly; I could not independently verify either number.
+Company claims include 65 percent of the Fortune 500 using the platform (the pricing page as of 2026-10-11, up from roughly half at the September baseline) and 10 million+ agents executed monthly; I could not independently verify either number.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=crewAIInc/crewAI&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,8 @@ Not for coordinating parallel coding agents (that is the rest of this category),
 - 2026-10-08 - Recorded 1.15.25 (October 7) as the new latest release on GitHub and PyPI.
 - 2026-10-09 - Recorded 1.15.26 (October 8) as the new latest release on GitHub and PyPI.
 - 2026-10-10 - Recorded 1.15.27 (October 9) as the new latest release on GitHub and PyPI.
+
+- 2026-10-11 - Recorded the vendor's adoption claim moving to 65 percent of the Fortune 500 on the pricing page, up from roughly half at the September baseline.
 
 ## See also
 

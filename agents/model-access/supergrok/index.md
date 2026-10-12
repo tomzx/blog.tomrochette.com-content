@@ -1,7 +1,7 @@
 ---
 title: SuperGrok
 created: 2026-09-26
-updated: 2026-10-06
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, grok, subscriptions, xai]
 readability: 3
@@ -87,7 +87,7 @@ My disagreeable claim: SuperGrok Plus at $100 is a media-creator tier wearing an
 
 ## References
 
-- https://x.ai/pricing - official plan cards (Free $0, SuperGrok $30, Plus $100) and the plan comparison carrying Lite, Heavy, and Grok Build rows (fetched 200, re-verified 2026-10-06; Lite and Heavy still carry no dollar figures on the card)
+- https://x.ai/pricing - official plan cards (Free $0, SuperGrok $30, Plus $100) and the plan comparison carrying Lite, Heavy, and Grok Build rows (fetched 200, re-verified 2026-10-06 and 2026-10-11; Lite and Heavy still carry no dollar figures on the card)
 - https://docs.warp.dev/agents/inference/grok-subscription - the one weekly pool shared across Grok chat, Grok Build, and API access, pause-on-empty behavior, third-party-harness ZDR caveat (fetched 200, page updated 2026-09-24)
 - https://docs.x.ai/developers/pricing - API escape hatch: grok-4.6/4.7 at $2/$6 under 200k prompt, $0.50 cached, $4/$12 above, grok-build-0.1 at $1/$2, Grok 4.7 Fast exclusivity (fetched 200, re-verified 2026-10-06)
 - https://www.businesstoday.in/technology/story/xai-makes-grok-affordable-with-new-supergrok-lite-plan-check-price-and-what-it-offers-522462-2026-03-26 - Lite announcement: $10/month, testing phase with selected users, 480p 6-second video, 2x chats, one agent (fetched 200, 2026-09-26)

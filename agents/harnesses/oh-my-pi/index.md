@@ -1,7 +1,7 @@
 ---
 title: Oh My Pi
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, lsp, fork]
 readability: 3
@@ -20,7 +20,7 @@ The hook is the name of the design: everything your IDE knows, the agent knows.
 
 ## Status
 
-Very active and past its parent in stars: 34,842 stars and 3,791 forks as of 2026-10-10 (GitHub API), on a repository created 2025-12-31 and pushed the day of verification.
+Very active and past its parent in stars: 34,965 stars and 3,802 forks as of 2026-10-11 (GitHub API), on a repository created 2025-12-31 and pushed the day of verification.
 The npm latest is 18.8.7 (published 2026-10-09), and the changelog logs a near-daily train with pull requests numbered past 15,000.
 Contribution policy loosened from a vouch requirement to temporarily-open PRs while the maintainers evaluate how open contributions go.
 The Hacker News footprint is modest for the star count: a 42-point launch thread on July 21, 2026, and a 35-point "Harness Playbook" thread in September, which reads as adoption spreading through practitioners rather than through tech-media coverage.
@@ -73,7 +73,7 @@ Not for anyone who needs a small core they can fully audit, and not for ToS-caut
 ## References
 
 - https://omp.sh - the product site, install script, and the "IDE wired in" positioning
-- https://api.github.com/repos/can1357/oh-my-pi - 34,842 stars, 3,791 forks, MIT, created 2025-12-31, pushed 2026-10-10, as of 2026-10-10
+- https://api.github.com/repos/can1357/oh-my-pi - 34,965 stars, 3,802 forks, MIT, created 2025-12-31, pushed 2026-10-11, as of 2026-10-11
 - https://api.github.com/repos/can1357/oh-my-pi/readme - the feature surface: 60-plus providers, LSP and DAP wiring, subagents, advisor, rules-format inheritance, local engines, and the provider list
 - https://raw.githubusercontent.com/can1357/oh-my-pi/main/packages/coding-agent/CHANGELOG.md - the 18.8.7 release (2026-10-09) and the near-daily train behind the Status section
 - https://registry.npmjs.org/@oh-my-pi/pi-coding-agent - npm distribution and the 18.8.7 latest tag

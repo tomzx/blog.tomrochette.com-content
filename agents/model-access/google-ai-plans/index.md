@@ -1,7 +1,7 @@
 ---
 title: Google AI plans
 created: 2026-09-26
-updated: 2026-10-06
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, google, subscriptions, gemini]
 readability: 3
@@ -23,14 +23,14 @@ The FAQ confirms the ladder's churn: the old Google AI Premium plan was renamed 
 
 ## Status
 
-Active and restructured repeatedly, with the tiers, multipliers, and storage allotments verified from Google's own pages on 2026-09-26 and re-verified unchanged on 2026-10-06.
+Active and restructured repeatedly, with the tiers, multipliers, and storage allotments verified from Google's own pages on 2026-09-26 and re-verified unchanged on 2026-10-06 and 2026-10-11.
 Plus is available in over 160 countries, Pro and Ultra in over 150.
 The 2026 record shows a rename (AI Premium to Plus) and an Ultra split into 5x and 20x columns, both visible on the current comparison table.
 **Prices are the weak point of the product surface: the marketing pages render the dollar figure client-side per region, so my US and Canada fetches returned the ladder with the price stripped, and third-party guides are the only place the US numbers appear in text.**
 
 ## Strengths
 
-- The free Antigravity tier it upgrades is real: unlimited tab completions and command requests, a weekly baseline quota, and access to Gemini, Claude, and open-weight models.
+- The free Antigravity tier it upgrades is substantive: unlimited tab completions and command requests, a weekly baseline quota, and access to Gemini, Claude, and open-weight models.
 - The flexible AI credit pool converts a hard wall into metered overage at documented consumption pricing, with a Never/Always overage setting instead of a surprise bill.
 - Ultra refreshes its quota every five hours against the free tier's weekly clock, the difference that matters for daily-driver agent work.
 - The bundled Google Cloud credits ($10, $40, $100 monthly by tier) partially self-fund Ultra for anyone who also calls the Gemini API.
@@ -67,7 +67,7 @@ Credits bill at standard Gemini Enterprise consumption rates, anchored by the Ge
 
 ## Bottom line
 
-Recommended for engineers who have actually hit the free Antigravity weekly wall and want metered overage at known API rates; start at Pro, and only after two real capped weeks.
+Recommended for engineers who have actually hit the free Antigravity weekly wall and want metered overage at known API rates; start at Pro, and only after two genuinely capped weeks.
 Not for light users, who should stay on the free tier, and not for automation-heavy workloads, which belong on the API.
 My disagreeable claim: Ultra is priced for video generation more than for coding, because the 25,000 monthly Flow credits are its most concrete differentiator, so engineers buying Ultra 20x for Antigravity are mostly buying Flow.
 
@@ -84,7 +84,7 @@ My disagreeable claim: Ultra is priced for video generation more than for coding
 
 ## References
 
-- https://one.google.com/about/google-ai-plans - the plan ladder, comparison table (multipliers, Flow credit quotas, Antigravity and Jules rows), AI Premium rename, country counts (fetched 200, 2026-09-26)
+- https://one.google.com/about/google-ai-plans - the plan ladder, comparison table (multipliers, Flow credit quotas, Antigravity and Jules rows), AI Premium rename, country counts (fetched 200, 2026-09-26, re-fetched 2026-10-11 with prices still stripped client-side)
 - https://one.google.com/intl/en_us/about/google-ai-plans/ - US variant: $10/$40/$100 monthly Google Cloud credits by tier, Home Premium bundle values, Ultra 5x and 20x storage tiers (fetched 200, 2026-09-26)
 - https://one.google.com/about/plans - Canadian storefront prices, CA$13.99 Plus and CA$26.99 Pro, no Ultra listed (fetched 200, 2026-09-26)
 - https://antigravity.google/pricing - the $0 individual tier, Pro/Ultra as the paid paths adding rate limits and the AI credit pool, Google Cloud consumption terms for organizations (fetched 200, 2026-09-26)

@@ -1,7 +1,7 @@
 ---
 title: Decision Index
 created: 2026-10-07
-updated: 2026-10-10
+updated: 2026-10-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, benchmarking, model-evaluation, leaderboard]
 readability: 3
@@ -24,7 +24,7 @@ Editions 0.1 through 0.3 shipped between 2026-09-22 and 2026-10-06, 0.3 rebuildi
 
 ## Status
 
-Active and current, with a near-zero independent discussion footprint, as of 2026-10-10.
+Active and current, with a near-zero independent discussion footprint, as of 2026-10-11.
 The 0.3 board, labeled 0.3.1 on the Space, was regenerated 2026-10-10 (from the 2026-10-07 build): 117 configurations, jev-1.13.0 as the reference row, a 21-entrant vision board beside the text suite, and a reasoning board announced for 0.3.x, with the top of the board unchanged since the 2026-10-07 build.
 
 <picture>
@@ -33,7 +33,7 @@ The 0.3 board, labeled 0.3.1 on the Space, was regenerated 2026-10-10 (from the 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=apolinario/decision-index&type=date&theme=dark&legend=top-left" />
 </picture>
 
-The kit repository shows 36 stars and 72 forks as of 2026-10-10 (pushed 2026-10-07), and the board's HN submissions sit between 1 and 6 points, so unlike JevBench's contested 154-point thread this one has barely been stress-tested in public.
+The kit repository shows 39 stars and 77 forks as of 2026-10-11 (pushed 2026-10-07), and the board's HN submissions sit between 1 and 6 points, so unlike JevBench's contested 154-point thread this one has barely been stress-tested in public.
 On the 0.3 board Perplexity's Decider v1.1 leads at 62.75 (a 27B full fine-tune whose weights Perplexity published Apache-2.0 on the Hub on 2026-10-05, 25 likes as of 2026-10-07), Fastino's GLiDE no-thinking (28B) sits at 60.21 with its weights promised but not shipped, hosted Jev holds third at 60.11, Torchcast Decision 27B is fourth at 59.91, the regeneration's best new entrant deck31b (a frozen Gemma-4-31B) took fifth at 59.03, and Kev 27B holds sixth at 58.78, just ahead of the open Quyet-1.0-Large LoRA (58.71); the top four scores are unchanged from the 2026-10-06 build.
 Bespoke Labs exercised the submission flow the day its v3 shipped: Bespoke-Nimble-9B-v3 carries a full published 0.2.1 run (56.88) with the raw results in its own dataset, the first author-submitted run of this suite I can find.
 
@@ -89,7 +89,7 @@ The disagreeable claim I will defend: the most important number on this board is
 - https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/index.json - the 0.3 board data (generated 2026-10-10T07:54:16Z, fetched 2026-10-10): 116 configurations plus the Jev reference row, per-model scores, the 42-benchmark suite header
 - https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the 0.3 Full-score components (generated 2026-10-10T07:54:16Z, label 0.3.1, fetched 2026-10-10): the 20/50/30 weights, per-model ranks across 117 rows including the Jev reference, and the vision board's 21 entrants
 - https://raw.githubusercontent.com/apolinario/decision-index/main/README.md - the kit: editions, scoring, submission flow, parity tests, the latency gate, licensing
-- https://api.github.com/repos/apolinario/decision-index - kit repository: MIT, created 2026-09-22, 36 stars, 72 forks, pushed 2026-10-07 (as of 2026-10-10)
+- https://api.github.com/repos/apolinario/decision-index - kit repository: MIT, created 2026-09-22, 39 stars, 77 forks, pushed 2026-10-07 (as of 2026-10-11)
 - https://raw.githubusercontent.com/apolinario/decision-index/main/docs/suite.md - the frozen suite: pinned sources, the GSM8K rebuild, subset and exclusion rules
 - https://huggingface.co/bespokelabs/Bespoke-Nimble-9B-v3 - the first author-submitted 0.2.1 run (56.88) and the CC BY-NC 4.0 license on it
 - https://huggingface.co/perplexity-ai/pplx-decider-v1.1-27b - the board leader's weights: Apache-2.0, published 2026-10-05, 25 likes (as of 2026-10-07)
