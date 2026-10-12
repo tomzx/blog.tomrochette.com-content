@@ -47,6 +47,8 @@ Both content types share these rules.
 - Never set a `type` field (in particular not `type: post`): articles in this section are section pages, not posts, and typing them as posts pulls them into the blog's post listings.
 - Mandatory tags on every article: `agent-curated`, `fully-ai-generated`, and `llm=<model-id>` for each model that wrote or edited the piece (e.g. `llm=glm-5.3`). Multiple `llm=` tags are allowed as models change over time; never remove one that a previous run added.
 - Research notes additionally carry the `research-note` tag.
+- A research note whose subject is one GitHub repository carries a star-history chart in `## Status`, after the star-evidence prose: a `picture` block with a `prefers-color-scheme: dark` source (the chart URL plus `&theme=dark`), a light source, and an `img` fallback, all pointing at `https://api.star-history.com/chart?repos=<owner>/<repo>&type=date&legend=top-left`; see `memory/agentmemory/index.md` for the exact markup.
+- Notes without a subject repository (websites, specs and conventions, people, Hugging Face-only releases, closed products) carry no chart; multi-repository subjects may comma-separate repositories in `repos=` only when every listed repository exists.
 - Content tags are lowercase kebab-case and describe the topic.
 - `readability: 3` is the default for this section (specialized reader).
 
