@@ -1,6 +1,23 @@
 <svg viewBox="0 0 720 432" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
   <title id="t">Judgment calls demanded of one human as parallel agents grow, by supervision style</title>
   <desc id="d">A line chart. Approving every agent step demands about 200 judgment calls per agent per hour and crosses a human's sustainable rate of about 100 per hour at half of one agent. Reviewing outcomes only demands about 4 calls per agent-hour and stays under the human capacity line even at ten parallel agents.</desc>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      [fill="#0f172a"] { fill: #e2e8f0; }
+      [fill="#2563eb"] { fill: #60a5fa; }
+      rect[fill="#2563eb"],circle[fill="#2563eb"],ellipse[fill="#2563eb"],path[fill="#2563eb"],polygon[fill="#2563eb"] { fill: #3b82f6; }  /* keep white foreground */
+      [fill="#334155"] { fill: #cbd5e1; }
+      [fill="#64748b"] { fill: #94a3b8; }
+      [fill="#b45309"] { fill: #fcd34d; }
+      rect[fill="#b45309"],circle[fill="#b45309"],ellipse[fill="#b45309"],path[fill="#b45309"],polygon[fill="#b45309"] { fill: #b45309; }  /* keep white foreground */
+      [fill="#d97706"] { fill: #fbbf24; }
+      rect[fill="#d97706"],circle[fill="#d97706"],ellipse[fill="#d97706"],path[fill="#d97706"],polygon[fill="#d97706"] { fill: #c07a10; }  /* keep white foreground */
+      [stroke="#2563eb"] { stroke: #60a5fa; }
+      [stroke="#cbd5e1"] { stroke: #475569; }
+      [stroke="#d97706"] { stroke: #fbbf24; }
+      [stroke="#e2e8f0"] { stroke: #334155; }
+    }
+  </style>
 
   <!-- Title and subtitle -->
   <text x="360" y="36" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#0f172a" text-anchor="middle">Judgment calls one human faces as parallel agents grow</text>

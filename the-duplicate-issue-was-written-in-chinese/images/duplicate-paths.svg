@@ -1,6 +1,29 @@
 <svg viewBox="0 0 720 372" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
   <title id="t">Two paths after a bug report: keyword search versus agent search</title>
   <desc id="d">Two horizontal flows. The top flow shows an English bug report going through a keyword search for "search provider save", which surfaces a Chinese-language report through its English identifiers, a match the reporter cannot confirm, and a duplicate issue that a maintainer merges weeks later. The bottom flow shows the same report going through an agent that reads the hit, confirms the match, and files no duplicate.</desc>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      [fill="#0f172a"] { fill: #e2e8f0; }
+      [fill="#15803d"] { fill: #6ee7a0; }
+      rect[fill="#15803d"],circle[fill="#15803d"],ellipse[fill="#15803d"],path[fill="#15803d"],polygon[fill="#15803d"] { fill: #2f8a52; }  /* keep white foreground */
+      [fill="#16a34a"] { fill: #4ade80; }
+      rect[fill="#16a34a"],circle[fill="#16a34a"],ellipse[fill="#16a34a"],path[fill="#16a34a"],polygon[fill="#16a34a"] { fill: #22a55a; }  /* keep white foreground */
+      [fill="#1d4ed8"] { fill: #7cb0ff; }
+      rect[fill="#1d4ed8"],circle[fill="#1d4ed8"],ellipse[fill="#1d4ed8"],path[fill="#1d4ed8"],polygon[fill="#1d4ed8"] { fill: #3b82f6; }  /* keep white foreground */
+      [fill="#2563eb"] { fill: #60a5fa; }
+      rect[fill="#2563eb"],circle[fill="#2563eb"],ellipse[fill="#2563eb"],path[fill="#2563eb"],polygon[fill="#2563eb"] { fill: #3b82f6; }  /* keep white foreground */
+      [fill="#475569"] { fill: #94a3b8; }
+      [fill="#64748b"] { fill: #94a3b8; }
+      [fill="#b45309"] { fill: #fcd34d; }
+      rect[fill="#b45309"],circle[fill="#b45309"],ellipse[fill="#b45309"],path[fill="#b45309"],polygon[fill="#b45309"] { fill: #b45309; }  /* keep white foreground */
+      [fill="#cbd5e1"] { fill: #475569; }
+      [fill="#d97706"] { fill: #fbbf24; }
+      rect[fill="#d97706"],circle[fill="#d97706"],ellipse[fill="#d97706"],path[fill="#d97706"],polygon[fill="#d97706"] { fill: #c07a10; }  /* keep white foreground */
+      [stroke="#16a34a"] { stroke: #4ade80; }
+      [stroke="#2563eb"] { stroke: #60a5fa; }
+      [stroke="#d97706"] { stroke: #fbbf24; }
+    }
+  </style>
 
   <defs>
     <marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">

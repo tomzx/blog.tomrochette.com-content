@@ -6,8 +6,32 @@
     Right card, on-call less often, every six weeks over the whole system: pros are long uninterrupted project stretches, more recovery time after each shift, fewer lost nights per quarter; cons are five weeks of decay before every shift, every shift opens with a full relearn, responders act rusty at 3 a.m., one heavy shift costs days of reentry.
     A bottom band names the deciding variable: how heavy a single shift is, which territory size sets.
   </desc>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      rect[fill="#ffffff"] { fill: #1b2029; }  /* cards, boxes */
+      rect.svg-canvas { fill: #14191f; }  /* full canvas */
+      [fill="#111"] { fill: #e2e8f0; }
+      [fill="#14532d"] { fill: #86efac; }
+      rect[fill="#14532d"],circle[fill="#14532d"],ellipse[fill="#14532d"],path[fill="#14532d"],polygon[fill="#14532d"] { fill: #2f8a52; }  /* keep white foreground */
+      [fill="#1e7d46"] { fill: #5fcf8b; }
+      rect[fill="#1e7d46"],circle[fill="#1e7d46"],ellipse[fill="#1e7d46"],path[fill="#1e7d46"],polygon[fill="#1e7d46"] { fill: #2f8a52; }  /* keep white foreground */
+      [fill="#333"] { fill: #d1d5db; }
+      [fill="#555"] { fill: #a8aeb5; }
+      [fill="#7f1d1d"] { fill: #fca5a5; }
+      rect[fill="#7f1d1d"],circle[fill="#7f1d1d"],ellipse[fill="#7f1d1d"],path[fill="#7f1d1d"],polygon[fill="#7f1d1d"] { fill: #c0524a; }  /* keep white foreground */
+      [fill="#a12622"] { fill: #f29a94; }
+      rect[fill="#a12622"],circle[fill="#a12622"],ellipse[fill="#a12622"],path[fill="#a12622"],polygon[fill="#a12622"] { fill: #c0524a; }  /* keep white foreground */
+      [fill="#e8f4ec"] { fill: #122419; }
+      [fill="#f0f4f9"] { fill: #20262f; }
+      [fill="#f9ecea"] { fill: #2a1a1a; }
+      [stroke="#1e7d46"] { stroke: #5fcf8b; }
+      [stroke="#5b6b7c"] { stroke: #94a3b8; }
+      [stroke="#a12622"] { stroke: #f29a94; }
+      [stroke="#dddddd"] { stroke: #3a3f47; }
+    }
+  </style>
 
-  <rect x="0" y="0" width="920" height="490" fill="#ffffff"/>
+  <rect class="svg-canvas" x="0" y="0" width="920" height="490" fill="#ffffff"/>
 
   <text x="460" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">On-call cadence: what you gain and what you pay</text>
 

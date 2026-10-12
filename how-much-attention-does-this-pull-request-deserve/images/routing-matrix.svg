@@ -1,6 +1,36 @@
 <svg viewBox="0 0 720 432" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
   <title id="t">Routing table: risk by confidence decides the next action for a pull request</title>
   <desc id="d">A three by three grid. Rows are risk (low, medium, high) and columns are confidence (low, medium, high). Each cell names the next action: investigate, confirm, fast-track, decide, hold, or block.</desc>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      [fill="#0f172a"] { fill: #e2e8f0; }
+      [fill="#15803d"] { fill: #6ee7a0; }
+      rect[fill="#15803d"],circle[fill="#15803d"],ellipse[fill="#15803d"],path[fill="#15803d"],polygon[fill="#15803d"] { fill: #2f8a52; }  /* keep white foreground */
+      [fill="#16a34a"] { fill: #4ade80; }
+      rect[fill="#16a34a"],circle[fill="#16a34a"],ellipse[fill="#16a34a"],path[fill="#16a34a"],polygon[fill="#16a34a"] { fill: #22a55a; }  /* keep white foreground */
+      [fill="#1d4ed8"] { fill: #7cb0ff; }
+      rect[fill="#1d4ed8"],circle[fill="#1d4ed8"],ellipse[fill="#1d4ed8"],path[fill="#1d4ed8"],polygon[fill="#1d4ed8"] { fill: #3b82f6; }  /* keep white foreground */
+      [fill="#2563eb"] { fill: #60a5fa; }
+      rect[fill="#2563eb"],circle[fill="#2563eb"],ellipse[fill="#2563eb"],path[fill="#2563eb"],polygon[fill="#2563eb"] { fill: #3b82f6; }  /* keep white foreground */
+      [fill="#334155"] { fill: #cbd5e1; }
+      [fill="#475569"] { fill: #94a3b8; }
+      [fill="#64748b"] { fill: #94a3b8; }
+      [fill="#b45309"] { fill: #fcd34d; }
+      rect[fill="#b45309"],circle[fill="#b45309"],ellipse[fill="#b45309"],path[fill="#b45309"],polygon[fill="#b45309"] { fill: #b45309; }  /* keep white foreground */
+      [fill="#b91c1c"] { fill: #f87171; }
+      rect[fill="#b91c1c"],circle[fill="#b91c1c"],ellipse[fill="#b91c1c"],path[fill="#b91c1c"],polygon[fill="#b91c1c"] { fill: #c0524a; }  /* keep white foreground */
+      [fill="#cbd5e1"] { fill: #475569; }
+      [fill="#d97706"] { fill: #fbbf24; }
+      rect[fill="#d97706"],circle[fill="#d97706"],ellipse[fill="#d97706"],path[fill="#d97706"],polygon[fill="#d97706"] { fill: #c07a10; }  /* keep white foreground */
+      [fill="#dc2626"] { fill: #f87171; }
+      rect[fill="#dc2626"],circle[fill="#dc2626"],ellipse[fill="#dc2626"],path[fill="#dc2626"],polygon[fill="#dc2626"] { fill: #d94f4f; }  /* keep white foreground */
+      [stroke="#16a34a"] { stroke: #4ade80; }
+      [stroke="#2563eb"] { stroke: #60a5fa; }
+      [stroke="#cbd5e1"] { stroke: #475569; }
+      [stroke="#d97706"] { stroke: #fbbf24; }
+      [stroke="#dc2626"] { stroke: #f87171; }
+    }
+  </style>
 
   <!-- Title and axis labels -->
   <text x="360" y="36" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#0f172a" text-anchor="middle">How the two scores route a pull request</text>

@@ -1,12 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" font-family="Helvetica, Arial, sans-serif">
   <title>Stages of parallel LLM work on a single codebase</title>
   <desc>An ascending sequence of four schematic stages. Stage 1: one branch with one session. Stage 2: one branch with several sessions whose dashed edit lines converge on one shared file and spark a silent collision. Stage 3: one worktree folder per task, all connected to one shared .git repository bar. Stage 4: an orchestrator fed by a queue of four task cards fanning work out to a pool of three worktree folders, more tasks than worktrees.</desc>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      rect[fill="#ffffff"] { fill: #1b2029; }  /* cards, boxes */
+      rect.svg-canvas { fill: #14191f; }  /* full canvas */
+      [fill="#1e7d46"] { fill: #5fcf8b; }
+      rect[fill="#1e7d46"],circle[fill="#1e7d46"],ellipse[fill="#1e7d46"],path[fill="#1e7d46"],polygon[fill="#1e7d46"] { fill: #2f8a52; }  /* keep white foreground */
+      [fill="#1f2937"] { fill: #e2e8f0; }
+      [fill="#33506e"] { fill: #9db8d9; }
+      rect[fill="#33506e"],circle[fill="#33506e"],ellipse[fill="#33506e"],path[fill="#33506e"],polygon[fill="#33506e"] { fill: #446284; }  /* keep white foreground */
+      [fill="#6b7280"] { fill: #9ca3af; }
+      [fill="#8a939e"] { fill: #a2abb8; }
+      [fill="#b5471f"] { fill: #f2a488; }
+      rect[fill="#b5471f"],circle[fill="#b5471f"],ellipse[fill="#b5471f"],path[fill="#b5471f"],polygon[fill="#b5471f"] { fill: #c05a3a; }  /* keep white foreground */
+      [fill="#eef2f7"] { fill: #20262f; }
+      [fill="#eef7f1"] { fill: #122419; }
+      [fill="#f0f4f9"] { fill: #20262f; }
+      [fill="#fdeee7"] { fill: #2a1c14; }
+      [stroke="#1e7d46"] { stroke: #5fcf8b; }
+      [stroke="#33506e"] { stroke: #9db8d9; }
+      [stroke="#8a939e"] { stroke: #a2abb8; }
+      [stroke="#b5471f"] { stroke: #f2a488; }
+    }
+  </style>
   <defs>
     <marker id="arrSlate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33506e"/></marker>
     <marker id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1e7d46"/></marker>
     <marker id="arrGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8a939e"/></marker>
   </defs>
-  <rect x="0" y="0" width="1000" height="460" fill="#ffffff"/>
+  <rect class="svg-canvas" x="0" y="0" width="1000" height="460" fill="#ffffff"/>
 
   <text x="40" y="42" font-size="15" font-weight="bold" fill="#1f2937">Four stages of parallel work on one codebase</text>
   <text x="40" y="63" font-size="12" font-style="italic" fill="#6b7280">each stage absorbs the failure that ended the previous one</text>

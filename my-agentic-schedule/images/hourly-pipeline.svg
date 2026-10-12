@@ -1,6 +1,23 @@
 <svg viewBox="0 0 800 424" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
   <title id="t">The pipeline the three hourly runs share</title>
   <desc id="d">An every-hour clock fans into three lanes, review-requested-prs, handle-failing-pr-ci, and triage-pr-feedback. Each lane runs a discovery script, then one agent per pull request, then produces an output: verdict reports, green CI, or recommendations. All three outputs converge on a decision node labeled Me.</desc>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      rect[fill="#ffffff"] { fill: #1b2029; }  /* cards, boxes */
+      [fill="#0f172a"] { fill: #e2e8f0; }
+      [fill="#1d4ed8"] { fill: #7cb0ff; }
+      rect[fill="#1d4ed8"],circle[fill="#1d4ed8"],ellipse[fill="#1d4ed8"],path[fill="#1d4ed8"],polygon[fill="#1d4ed8"] { fill: #3b82f6; }  /* keep white foreground */
+      [fill="#2563eb"] { fill: #60a5fa; }
+      rect[fill="#2563eb"],circle[fill="#2563eb"],ellipse[fill="#2563eb"],path[fill="#2563eb"],polygon[fill="#2563eb"] { fill: #3b82f6; }  /* keep white foreground */
+      [fill="#334155"] { fill: #cbd5e1; }
+      [fill="#475569"] { fill: #94a3b8; }
+      [fill="#64748b"] { fill: #94a3b8; }
+      [fill="#cbd5e1"] { fill: #475569; }
+      [stroke="#2563eb"] { stroke: #60a5fa; }
+      [stroke="#64748b"] { stroke: #94a3b8; }
+      [stroke="#cbd5e1"] { stroke: #475569; }
+    }
+  </style>
 
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto-start-reverse">

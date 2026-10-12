@@ -1,6 +1,19 @@
 <svg viewBox="0 0 720 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
   <title id="t">Each form of definition recovers less of the program than the one above it</title>
   <desc id="d">Six horizontal bars of equal total length. From top to bottom they are the code, an executable specification, a checked specification, a property test, an example test, and a prose requirement. The solid blue part of each bar is what the definition brings back and it shrinks toward the bottom. The light gray remainder is the information the implementer has to supply.</desc>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      [fill="#0f172a"] { fill: #e2e8f0; }
+      [fill="#2563eb"] { fill: #60a5fa; }
+      rect[fill="#2563eb"],circle[fill="#2563eb"],ellipse[fill="#2563eb"],path[fill="#2563eb"],polygon[fill="#2563eb"] { fill: #3b82f6; }  /* keep white foreground */
+      [fill="#334155"] { fill: #cbd5e1; }
+      [fill="#475569"] { fill: #94a3b8; }
+      [fill="#64748b"] { fill: #94a3b8; }
+      [fill="#cbd5e1"] { fill: #475569; }
+      [stroke="#2563eb"] { stroke: #60a5fa; }
+      [stroke="#cbd5e1"] { stroke: #475569; }
+    }
+  </style>
 
   <text x="360" y="34" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#0f172a" text-anchor="middle">Each definition recovers less of the program than the last</text>
   <text x="360" y="56" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">The bar is the whole program; the solid part is what the definition brings back</text>

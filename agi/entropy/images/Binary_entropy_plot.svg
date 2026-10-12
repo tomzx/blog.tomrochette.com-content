@@ -1,6 +1,14 @@
 <svg width="300px" height="300px" version="1.1" viewBox="-18 -105 120 120"
 	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Binary entropy plot</title>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      [fill="black"] { fill: #e2e8f0; }
+      [stroke="#aaa"] { stroke: #6b7280; }
+      [stroke="black"] { stroke: #e2e8f0; }
+      [stroke="blue"] { stroke: #60a5fa; }
+    }
+  </style>
 <defs>
 	<pattern id="grid" width="10" height="10" x="0" y="0" patternUnits="userSpaceOnUse">
 		<path d="M0,0 H10 M0,10 V0" stroke="#aaa"/>

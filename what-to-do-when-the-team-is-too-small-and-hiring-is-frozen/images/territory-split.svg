@@ -5,6 +5,34 @@
     Right: the same six engineers are split into two three-person rotations, rotation A covering area A with four services and rotation B covering area B with the other four, with a dashed cross-area escalation path between the two areas.
     The left side is annotated primary every six weeks, must know all of it; the right side is annotated primary every three weeks, half the system.
   </desc>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      rect[fill="#ffffff"] { fill: #1b2029; }  /* cards, boxes */
+      g[fill="#ffffff"] { fill: #1b2029; }  /* engineer circles */
+      rect.svg-canvas { fill: #14191f; }  /* full canvas */
+      [fill="#111"] { fill: #e2e8f0; }
+      [fill="#1e7d46"] { fill: #5fcf8b; }
+      rect[fill="#1e7d46"],circle[fill="#1e7d46"],ellipse[fill="#1e7d46"],path[fill="#1e7d46"],polygon[fill="#1e7d46"] { fill: #2f8a52; }  /* keep white foreground */
+      [fill="#222"] { fill: #e2e8f0; }
+      [fill="#333"] { fill: #d1d5db; }
+      [fill="#33506e"] { fill: #9db8d9; }
+      rect[fill="#33506e"],circle[fill="#33506e"],ellipse[fill="#33506e"],path[fill="#33506e"],polygon[fill="#33506e"] { fill: #446284; }  /* keep white foreground */
+      [fill="#4a4a4a"] { fill: #b0b6bd; }
+      [fill="#555"] { fill: #a8aeb5; }
+      [fill="#a12622"] { fill: #f29a94; }
+      rect[fill="#a12622"],circle[fill="#a12622"],ellipse[fill="#a12622"],path[fill="#a12622"],polygon[fill="#a12622"] { fill: #c0524a; }  /* keep white foreground */
+      [fill="#b5471f"] { fill: #f2a488; }
+      rect[fill="#b5471f"],circle[fill="#b5471f"],ellipse[fill="#b5471f"],path[fill="#b5471f"],polygon[fill="#b5471f"] { fill: #c05a3a; }  /* keep white foreground */
+      [fill="#e3eaf3"] { fill: #2a333f; }
+      [fill="#f0f4f9"] { fill: #20262f; }
+      [stroke="#2f2f2f"] { stroke: #d1d5db; }
+      [stroke="#4a4a4a"] { stroke: #b0b6bd; }
+      [stroke="#5b6b7c"] { stroke: #94a3b8; }
+      [stroke="#9fb2c8"] { stroke: #b6c2d2; }
+      [stroke="#b5471f"] { stroke: #f2a488; }
+      [stroke="#c9c9c9"] { stroke: #3a3f47; }
+    }
+  </style>
 
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
@@ -15,7 +43,7 @@
     </marker>
   </defs>
 
-  <rect x="0" y="0" width="920" height="400" fill="#ffffff"/>
+  <rect class="svg-canvas" x="0" y="0" width="920" height="400" fill="#ffffff"/>
 
   <text x="240" y="48" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">Today: one shared rotation</text>
   <text x="675" y="48" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">Proposed: a rotation per area</text>

@@ -1,12 +1,25 @@
 <svg aria-labelledby="t" role="img" xmlns="http://www.w3.org/2000/svg" width="920" height="400" viewBox="0 0 920 400" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
   <title id="t">Focus on a chosen task versus an assigned one</title>
   <desc>Stylized chart of attention on the same task over its first hours. Chosen work holds a high, flat line because friction reads as a puzzle and pings get deflected. Assigned work decays in a sawtooth because every notification becomes a permission slip to leave, and attention that leaves is not pulled back, so hours stretch into days.</desc>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      rect[fill="#ffffff"] { fill: #1b2029; }  /* cards, boxes */
+      rect.svg-canvas { fill: #14191f; }  /* full canvas */
+      [fill="#16a34a"] { fill: #4ade80; }
+      rect[fill="#16a34a"],circle[fill="#16a34a"],ellipse[fill="#16a34a"],path[fill="#16a34a"],polygon[fill="#16a34a"] { fill: #22a55a; }  /* keep white foreground */
+      [fill="#64748b"] { fill: #94a3b8; }
+      [fill="#dc2626"] { fill: #f87171; }
+      rect[fill="#dc2626"],circle[fill="#dc2626"],ellipse[fill="#dc2626"],path[fill="#dc2626"],polygon[fill="#dc2626"] { fill: #d94f4f; }  /* keep white foreground */
+      [stroke="#16a34a"] { stroke: #4ade80; }
+      [stroke="#dc2626"] { stroke: #f87171; }
+    }
+  </style>
   <defs>
     <marker markerUnits="userSpaceOnUse" id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/></marker>
     <marker markerUnits="userSpaceOnUse" id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/></marker>
     <marker markerUnits="userSpaceOnUse" id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#16a34a"/></marker>
   </defs>
-  <rect x="0" y="0" width="920" height="400" fill="#ffffff"/>
+  <rect class="svg-canvas" x="0" y="0" width="920" height="400" fill="#ffffff"/>
 <line x1="90" y1="60" x2="90" y2="300" stroke="#94a3b8" stroke-width="1.5"/>
 <line x1="90" y1="300" x2="850" y2="300" stroke="#94a3b8" stroke-width="1.5"/>
 <text x="98" y="52" font-size="12" fill="#64748b">attention on the task</text>

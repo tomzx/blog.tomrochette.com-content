@@ -1,6 +1,28 @@
 <svg viewBox="0 0 880 744" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mt md">
   <title id="mt">The metric layers of a software factory</title>
   <desc id="md">Four metric layers under one objective. The objective is autonomous work that survives its guardrails. Two primary metrics move autonomy and yield; two supporting metrics move throughput and unit cost; a dashed band holds the guardrails flat; a bottom row lists the leading indicators that steer the rest.</desc>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      rect[fill="#ffffff"] { fill: #1b2029; }  /* cards, boxes */
+      [fill="#0f172a"] { fill: #e2e8f0; }
+      [fill="#1d4ed8"] { fill: #7cb0ff; }
+      rect[fill="#1d4ed8"],circle[fill="#1d4ed8"],ellipse[fill="#1d4ed8"],path[fill="#1d4ed8"],polygon[fill="#1d4ed8"] { fill: #3b82f6; }  /* keep white foreground */
+      [fill="#2563eb"] { fill: #60a5fa; }
+      rect[fill="#2563eb"],circle[fill="#2563eb"],ellipse[fill="#2563eb"],path[fill="#2563eb"],polygon[fill="#2563eb"] { fill: #3b82f6; }  /* keep white foreground */
+      [fill="#334155"] { fill: #cbd5e1; }
+      [fill="#475569"] { fill: #94a3b8; }
+      [fill="#64748b"] { fill: #94a3b8; }
+      [fill="#b45309"] { fill: #fcd34d; }
+      rect[fill="#b45309"],circle[fill="#b45309"],ellipse[fill="#b45309"],path[fill="#b45309"],polygon[fill="#b45309"] { fill: #b45309; }  /* keep white foreground */
+      [fill="#d97706"] { fill: #fbbf24; }
+      rect[fill="#d97706"],circle[fill="#d97706"],ellipse[fill="#d97706"],path[fill="#d97706"],polygon[fill="#d97706"] { fill: #c07a10; }  /* keep white foreground */
+      [fill="#f8fafc"] { fill: #20262f; }
+      [stroke="#2563eb"] { stroke: #60a5fa; }
+      [stroke="#cbd5e1"] { stroke: #475569; }
+      [stroke="#d97706"] { stroke: #fbbf24; }
+      [stroke="#e2e8f0"] { stroke: #334155; }
+    }
+  </style>
   <defs>
     <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
       <path d="M0 0 L10 5 L0 10 Z" fill="#94a3b8"/>

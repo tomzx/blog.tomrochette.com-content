@@ -1,6 +1,23 @@
 <svg viewBox="0 0 720 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
   <title id="t">A grid placing forms of definition by who decides meaning and whether the definition describes or produces the code</title>
   <desc id="d">A two by two grid. The horizontal axis runs from interpreted by a reader on the left to decided by a machine on the right. The vertical axis runs from describes the code at the bottom to produces the code at the top. Requirements and BDD scenarios sit in the interpreted, describes quadrant. A prompt without a checker sits in the interpreted, produces quadrant. Types, checked specifications, and property tests sit in the machine, describes quadrant. An executable DSL and synthesis sit in the machine, produces quadrant. Only the machine column is lossless.</desc>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      [fill="#0f172a"] { fill: #e2e8f0; }
+      [fill="#1d4ed8"] { fill: #7cb0ff; }
+      rect[fill="#1d4ed8"],circle[fill="#1d4ed8"],ellipse[fill="#1d4ed8"],path[fill="#1d4ed8"],polygon[fill="#1d4ed8"] { fill: #3b82f6; }  /* keep white foreground */
+      [fill="#2563eb"] { fill: #60a5fa; }
+      rect[fill="#2563eb"],circle[fill="#2563eb"],ellipse[fill="#2563eb"],path[fill="#2563eb"],polygon[fill="#2563eb"] { fill: #3b82f6; }  /* keep white foreground */
+      [fill="#475569"] { fill: #94a3b8; }
+      [fill="#64748b"] { fill: #94a3b8; }
+      [fill="#b45309"] { fill: #fcd34d; }
+      rect[fill="#b45309"],circle[fill="#b45309"],ellipse[fill="#b45309"],path[fill="#b45309"],polygon[fill="#b45309"] { fill: #b45309; }  /* keep white foreground */
+      [fill="#d97706"] { fill: #fbbf24; }
+      rect[fill="#d97706"],circle[fill="#d97706"],ellipse[fill="#d97706"],path[fill="#d97706"],polygon[fill="#d97706"] { fill: #c07a10; }  /* keep white foreground */
+      [stroke="#2563eb"] { stroke: #60a5fa; }
+      [stroke="#d97706"] { stroke: #fbbf24; }
+    }
+  </style>
 
   <text x="360" y="34" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#0f172a" text-anchor="middle">Only the machine column is lossless</text>
   <text x="360" y="56" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Horizontal: who decides meaning. Vertical: describe the code or produce it.</text>

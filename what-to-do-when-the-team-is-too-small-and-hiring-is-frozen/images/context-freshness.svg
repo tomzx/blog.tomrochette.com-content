@@ -6,6 +6,25 @@
     The green line is the split: a three-week rotation over half the system, freshness is refreshed before it reaches the threshold, so each refresh covers only four services.
     Red shaded bands mark the relearning zones where the whole-system rotation spends its last three weeks below the threshold.
   </desc>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      rect[fill="#ffffff"] { fill: #1b2029; }  /* cards, boxes */
+      rect.svg-canvas { fill: #14191f; }  /* full canvas */
+      [fill="#111"] { fill: #e2e8f0; }
+      [fill="#1e7d46"] { fill: #5fcf8b; }
+      rect[fill="#1e7d46"],circle[fill="#1e7d46"],ellipse[fill="#1e7d46"],path[fill="#1e7d46"],polygon[fill="#1e7d46"] { fill: #2f8a52; }  /* keep white foreground */
+      [fill="#333333"] { fill: #d1d5db; }
+      [fill="#444444"] { fill: #b0b6bd; }
+      [fill="#777777"] { fill: #8a939e; }
+      [fill="#a12622"] { fill: #f29a94; }
+      rect[fill="#a12622"],circle[fill="#a12622"],ellipse[fill="#a12622"],path[fill="#a12622"],polygon[fill="#a12622"] { fill: #c0524a; }  /* keep white foreground */
+      [stroke="#1e7d46"] { stroke: #5fcf8b; }
+      [stroke="#444444"] { stroke: #b0b6bd; }
+      [stroke="#888888"] { stroke: #9aa0a6; }
+      [stroke="#a12622"] { stroke: #f29a94; }
+      [stroke="#cccccc"] { stroke: #3a3f47; }
+    }
+  </style>
 
   <defs>
     <marker id="axArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
@@ -19,7 +38,7 @@
     </marker>
   </defs>
 
-  <rect x="0" y="0" width="920" height="420" fill="#ffffff"/>
+  <rect class="svg-canvas" x="0" y="0" width="920" height="420" fill="#ffffff"/>
 
   <text x="475" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">Why splitting the territory keeps responders effective</text>
 
