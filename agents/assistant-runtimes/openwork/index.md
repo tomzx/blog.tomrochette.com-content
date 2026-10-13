@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -23,7 +23,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 23,993 stars, 2,418 forks, 600 open issues and PRs as of 2026-10-11, created 2026-01-14, pushed 2026-10-11.
+Alive and shipping hard: 24,055 stars, 2,428 forks, 606 open issues and PRs as of 2026-10-13, created 2026-01-14, pushed 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Alive and shipping hard: 23,993 stars, 2,418 forks, 600 open issues and PRs as o
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&legend=top-left" />
 </picture>
 
-v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause, and v0.18.57 on 2026-10-07.
+v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause, v0.18.57 on 2026-10-07, and v0.18.58 on 2026-10-13.
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 
 ## Strengths
@@ -106,6 +106,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - 2026-10-07 - Added the different-ai/openwork star history chart to the Status section.
 - 2026-10-07 - Recorded v0.18.57 (2026-10-07) and Anthropic's rename of Claude Cowork to just Claude in the comparison baseline, with refreshed adoption numbers and pricing re-checked unchanged (the twelfth-churn state holds).
 - 2026-10-11 - Pricing churned a thirteenth time: the two add-ons (Cloud Computer, OpenWork models) left the pricing page, which now lists three tiers only, while the three main prices and the grandfather clause held; API access, managed deployment, custom skill development, MCP consulting, and rollout support joined the tier lists, with refreshed adoption numbers.
+- 2026-10-13 - Recorded v0.18.58 (2026-10-13), with pricing re-checked unchanged (the thirteenth-churn state holds) and refreshed adoption numbers.
 
 ## See also
 

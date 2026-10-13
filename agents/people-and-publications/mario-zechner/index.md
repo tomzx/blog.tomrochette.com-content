@@ -1,7 +1,7 @@
 ---
 title: Mario Zechner
 created: 2026-09-24
-updated: 2026-10-12
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents, open-source]
 readability: 3
@@ -39,7 +39,7 @@ The Earendil arrangement is the open question: the MIT core is pledged as non-ne
 ## Cautions
 
 - He is an openly dictatorial maintainer: contributor issues and pull requests are auto-closed by default, and he wrote in April 2026 that he still does not trust outside contributions because everyone "is just slinging their clanker".
-- The YOLO-by-default security posture is the most contested thing he ships; the Hacker News thread on his pi post became a long sandboxing argument, with commenters countering that data can be sandboxed and that anything running outside the sandbox executes with your full permissions.
+- The YOLO-by-default security stance is the most contested thing he ships; the Hacker News thread on his pi post became a long sandboxing argument, with commenters countering that data can be sandboxed and that anything running outside the sandbox executes with your full permissions.
 - Personal-blog cadence has dropped to a few posts a year in 2026, so there is little new argument to follow beyond release notes.
 - pi's independence ended in April 2026, and readers must now weigh pledged MIT-forever commitments against Earendil's unbuilt commercial tiers, a bet he himself frames through his RoboVM experience.
 
@@ -70,6 +70,7 @@ Not for teams that want turnkey guardrails, MCP-centric stacks, or a maintainer 
 - 2026-10-04 - Window audit: added the v0.99.0 codemode-plus-MCP launch (2026-09-29), which turns the MCP refusal into MCP-behind-codemode mediation, and the post-1.0 releases v1.0.1 (2026-10-03) and v1.0.2 (2026-10-04); star count re-verified at about 112k as of 2026-10-04.
 - 2026-10-06 - Added the post-1.0 releases v1.0.3 and v1.0.4 (both 2026-10-05, per the repo's releases fetched this run), keeping the nearly-daily claim current; stars refreshed to about 112.8k and forks to 14.3k as of 2026-10-06.
 - 2026-10-08 - Added v1.1.0 (released 2026-10-07, per the repo's releases fetched this run) as the first post-1.0 minor after the sprint; stars refreshed to about 113.4k and forks to 14.4k as of 2026-10-08.
+- 2026-10-13 - Reworded a Cautions line off a banned term (YOLO-by-default security stance); meaning unchanged.
 
 ## See also
 

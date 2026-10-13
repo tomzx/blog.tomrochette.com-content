@@ -1,7 +1,7 @@
 ---
 title: Token Monitor
 created: 2026-10-06
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, desktop, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Javis603, MIT-licensed.
 
 ## Status
 
-Young and shipping daily: 2,765 stars, 273 forks, 107 open issues, created 2026-05-19, pushed 2026-10-11, with v0.68.0 released 2026-10-08, v0.67.0 on 2026-10-06, and v0.66.0 on 2026-10-04, as of 2026-10-11.
+Young and shipping daily: 2,988 stars, 281 forks, 119 open issues, created 2026-05-19, pushed 2026-10-13, with v0.69.0 released 2026-10-11, v0.68.0 on 2026-10-08, and v0.67.0 on 2026-10-06, as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Javis603/token-monitor&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 - 2026-10-06 - Created from the 2026-10-06 entrant scan: the category's first live multi-tool widget, with retention archiving and self-hosted sync, with five fetched sources.
 - 2026-10-07 - Added the Javis603/token-monitor star history chart to the Status section.
 - 2026-10-10 - Recorded v0.68.0 (2026-10-08): experimental Codex Dots local-task usage tracking (disabled by default), a manual Edge Dock refresh button, and Edge Dock size options; repository counts refreshed (2,646 to 2,714 stars, 268 to 269 forks).
+- 2026-10-13 - Recorded v0.69.0 (2026-10-11): Claude Code and Codex waiting states shown before token usage arrives, Codex subagents grouped under their parent with combined usage, T3 Code session grouping, Cursor Grok Bot grouping, Antigravity session titles and native generation-speed readings, and Antigravity reasoning tokens included in usage totals; repository counts refreshed (2,765 to 2,988 stars, 107 to 119 open issues).
 
 ## See also
 

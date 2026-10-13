@@ -1,7 +1,7 @@
 ---
 title: Paperclip
 created: 2026-08-27
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, control-planes, agent-operations, multi-agent, open-source, governance]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 Paperclip (paperclipai/paperclip) is an MIT-licensed, self-hostable control plane for a company of AI agents: a Node.js server and React UI where agents check work out of a ticket board via scheduled heartbeats, wrapped in org charts, budgets, approvals, skills, and an audit log.
 
-**The name is the thesis: an agent-company platform named after the paperclip maximizer is selling governance as the product (budgets that pause agents, approvals, chain of command, immutable audit trails), and nearly 100k stars in its first seven months say the market wants exactly that.**
+**The name is the thesis: an agent-company platform named after the paperclip maximizer is selling governance as the product (budgets that pause agents, approvals, chain of command, immutable audit trails), and past 100k stars in its first seven months say the market wants exactly that.**
 
 ## What it is
 
@@ -24,7 +24,7 @@ Any agent that can receive a heartbeat is hirable, OpenClaw, Claude Code, Codex,
 ## Status
 
 Active at extreme velocity.
-As of 2026-10-11: 99,922 stars and 16,851 forks since creation on 2026-03-02, 5,888 open issues, pushed 2026-10-11, latest release v2026.1005.0 published 2026-10-06 (five days and counting without a release in the near-daily train), date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
+As of 2026-10-13: 101,051 stars and 16,981 forks since creation on 2026-03-02, 6,015 open issues, pushed 2026-10-13, latest release v2026.1012.0 published 2026-10-12 (ending a five-day pause in the near-daily train), date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ The roadmap is public about what does not exist yet: memory and knowledge, work 
 ## Cautions
 
 - The quickstart defaults to a trusted local loopback mode, and the README itself tells you to pick an authenticated bind preset for anything beyond the first run; read before you expose.
-- The open-issue backlog is enormous and unstable: 6,501 on 2026-10-06 fell to 6,205 on 2026-10-07, regrew to 6,325 by 2026-10-10, then fell to 5,888 on 2026-10-11, so no direction has held for more than a day and triage throughput swings with the release train.
+- The open-issue backlog is enormous and unstable: 6,501 on 2026-10-06 fell to 6,205 on 2026-10-07, regrew to 6,325 by 2026-10-10, fell to 5,888 on 2026-10-11, then regrew again to 6,015 by 2026-10-13, so no direction has held for more than a day and triage throughput swings with the release train.
 - Date-versioned near-daily releases mean you are always upgrading; pin deliberately.
 - The pitch says autonomous businesses while the memory, work-queue, and self-organization pillars are still roadmap items, so expect to supervise more than the landing page implies.
 - Name collisions: desktop Clippy-style tools also call themselves paperclip (agent-paperclip, clippyai-desktop); search carefully.
@@ -81,6 +81,7 @@ The disagreeable claim I will defend: "manage business goals, not pull requests"
 - 2026-10-07 - Release line moved to v2026.1005.0 (published 2026-10-06) and scale numbers refreshed (98,205 stars, 16,594 forks, 6,205 open issues); the stale open-issues caution rewritten now that the backlog is shrinking.
 - 2026-10-10 - Scale refreshed (99,414 stars, 16,779 forks, 6,325 open issues, pushed 2026-10-10) with the release line unchanged at v2026.1005.0; the open-issues caution rewritten again now that the backlog regrew past its 2026-10-07 low.
 - 2026-10-11 - Scale refreshed (99,922 stars, 16,851 forks, pushed 2026-10-11) with the backlog falling to 5,888 and reversing the 2026-10-10 regrowth, and the release pause stretching to five days; the caution rewritten to match, plus two banned-term rewords in the prose, meaning unchanged.
+- 2026-10-13 - Release line moved to v2026.1012.0 (2026-10-12) after a five-day pause, scale refreshed (101,051 stars, 16,981 forks, 6,015 open issues, pushed 2026-10-13), the intro claim moved from nearly 100k to past 100k stars, and the backlog caution extended with the 2026-10-13 regrowth.
 
 ## See also
 

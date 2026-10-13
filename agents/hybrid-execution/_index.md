@@ -35,6 +35,7 @@ Small fast models handling typed decisions beside the large model: constrained d
 - [SemIf](semif/index.md) - frozen open models reading typed option probabilities straight from the logits, with a client-side WebGPU demo, called OpenJev until 2026-09-18.
 - [Strands Decider 2B](strands-decider-2b/index.md) - the Strands Agents team's Apache-2.0 2B decision model with the wave's best-published training discipline (seed tables, a soup, a calibration contract) and the weakest third-party reading so far, 585 stars.
 - [tool-eval-bench](tool-eval-bench/index.md) - the MIT auditor for tool-calling quality on self-hosted serving stacks, 69 deterministic multi-turn scenarios with full traces plus a decision-model track over the same `/v1/systemone` surface.
+- [Valen](valen/index.md) - the Apache-2.0 open-weights Jev-family decision model with vision (0.8B/2B/4B, ONNX and GGUF exports, training code and benchmarks published), three weeks old with a 2-point HN footprint.
 - [Von](von/index.md) - the Apache-2.0 395M ModernBERT encoder answering typed questions on CPUs through Python and TypeScript SDKs and a Docker image, the wave's smallest credible generalist, near the bottom of the accuracy tables by third-party reading.
 - [Winnow](winnow/index.md) - EldanRing's Apache-2.0 Gemma 4 family (E2B to 12B, GGUF, vision) matching Jev answer-for-answer on public subsets, the community checkpoint that three independent readers rank at the top.
 
@@ -69,3 +70,4 @@ Its members are compared on shared rows in the [Hybrid Execution Feature Matrix]
 - 2026-10-11 - Added Winnow.
 - 2026-10-11 - Added BAML.
 - 2026-10-12 - Added Strands Decider 2B.
+- 2026-10-13 - Added Valen.

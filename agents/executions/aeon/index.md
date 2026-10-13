@@ -1,7 +1,7 @@
 ---
 title: Aeon
 created: 2026-10-08
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, github-actions, scheduling, autonomous-agents]
 readability: 3
@@ -16,7 +16,7 @@ Aeon is an MIT-licensed framework that turns a GitHub repository plus Actions in
 
 ## What it is
 
-An instance is a template copy of the aeon repo: skills (one SKILL.md prompt file each, 85 bundled), memory as committed Markdown, and an aeon.yml holding cron schedules.
+An instance is a template copy of the aeon repo: skills (one SKILL.md prompt file each, 86 bundled), memory as committed Markdown, and an aeon.yml holding cron schedules.
 A scheduler workflow ticks every five minutes and dispatches due skills to GitHub Actions, where they run through a harness adapter (Claude Code by default, plus Grok, Codex, Pi, Vibe, Kimi, fx, Cursor, and Hermes) against ten model gateways including a Claude subscription token.
 Every run gets a Haiku quality score, failures file structured issues in the repo, and three consecutive failures auto-open a repair PR, which is the self-healing loop.
 It is built by Aaron Elijah Mars (Aeon Inc), and deployment is a fork or template copy, so your repo is the runtime and your secrets stay in your repo's encrypted store.
@@ -70,6 +70,7 @@ Not for teams that need a governed execution layer (gh-aw is the answer there) o
 
 - 2026-10-08 - Created.
 - 2026-10-11 - Refreshed the repository counters (forks 279 to 280) and re-dated the as-of claims after the docs, security page, founder page, and coverage search all re-verified unchanged.
+- 2026-10-13 - Corrected the bundled-skill count from 85 to 86 against the current docs; the remaining doc claims and all counters re-verified unchanged.
 
 ## See also
 
@@ -81,7 +82,7 @@ Not for teams that need a governed execution layer (gh-aw is the answer there) o
 ## References
 
 - https://github.com/aeonfun/aeon - repository scale, template deployment model, MIT license, single release, founder line, as of 2026-10-08
-- https://www.aeon.fun/docs - architecture, the 85-skill catalog, five-minute scheduler, reactive triggers, chains, harnesses, and gateways
+- https://www.aeon.fun/docs - architecture, the 86-skill catalog, five-minute scheduler, reactive triggers, chains, harnesses, and gateways
 - https://www.aeon.fun/security - the self-reported vulnerability-disclosure record (141 findings, 105 repositories, counts as of 2026-09-28)
 - https://aaronjmars.com - the founder's own description of Aeon, MiroShark, and Hyperstitions
 - https://hn.algolia.com/api/v1/search?query=aeonfun&tags=story - the coverage search that returned no hits on the project, as of 2026-10-11

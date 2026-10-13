@@ -1,7 +1,7 @@
 ---
 title: Coucou
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, live-observation, approvals, macos, ios, open-source]
 readability: 3
@@ -21,13 +21,14 @@ A native Swift 6 and SwiftUI macOS app with zero third-party dependencies (Windo
 The mechanism is hook-and-relay: an `nb-hook` script receives Claude Code hook events over a Unix socket, waits for your click on the Allow, Deny, or Always card, then answers the hook, and if Coucou is not running the hook exits immediately so Claude Code is never blocked.
 Coverage beyond Claude Code comes through hooks (Gemini CLI, Antigravity), `--agent` flags (Codex, Copilot CLI, Muse Code, any agent), and plugins installed into OpenCode, Amp, and Hermes config directories; any agent can tag a hook payload `coucou_agent` for its own pill.
 The iPhone app (iOS 18, TestFlight) reads sessions, turns, and service state from a private CloudKit zone in your iCloud with sensitive fields encrypted under your iCloud keys, and writes back decisions the Mac only applies when they match the exact pending request, Face ID required on every Allow; Live Activities update through APNs pushes from a stateless Cloudflare Worker relay that sees only the agent's name and state.
+A companion Android app (Android 11 or later), built by Rhytam Biswas as the project's first outside contribution, pairs over your local network with Coucou 0.4.0 for Windows or Linux, answers approvals with a fingerprint, and the link is off by default with a pairing code that re-pairing replaces.
 Around that core sit service pills (GitHub, Stripe, Vercel, n8n, Notion, Resend, Cal.com), chat with Claude, Gemini, OpenAI, or local Ollama and LM Studio models, plan-usage pills for Claude and Codex limits, a weekly recap image, and voice control through an "OK Coucou" command.
 It is built by Louis Raillé (the Louis-CFM account), with the project's own contributors table listing Claude Code itself as the second-largest contributor.
 
 ## Status
 
-Two weeks old and shipping hard: created 2026-09-27 with v0.1.0 the same day, at v0.3.0 on 2026-10-10 after near-daily releases, with Windows and Linux tags trailing the Mac by days, as of 2026-10-11.
-4,736 stars and 785 forks in that window, 252 open issues, MIT.
+Two weeks old and shipping hard: created 2026-09-27 with v0.1.0 the same day, at v0.3.0 on 2026-10-10 after near-daily releases, with Windows and Linux moving to v0.4.0 on 2026-10-11 to carry the Android phone link while the Mac release line stays at v0.3.0, as of 2026-10-13.
+4,993 stars and 838 forks in that window, 314 open issues, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Louis-CFM/coucou&type=date&theme=dark&legend=top-left" />
@@ -51,7 +52,7 @@ Two weeks old and shipping hard: created 2026-09-27 with v0.1.0 the same day, at
 - The 0.x line moves so fast that documented behavior can change within days, and first-run setup modifies `~/.claude/settings.json` (backed up with a diff shown first, but still an agent-config mutation).
 - The Windows installer is unsigned and trips SmartScreen, and the future App Store build will drop the plan-usage, Apple Music, and window-attach features.
 - Feature gravity pulls away from analytics: the wardrobe, music, Stripe, and voice make it a personal companion that watches agents, not an audit tool, and there is no token-cost accounting anywhere.
-- One maintainer plus an AI co-author wrote essentially all of it.
+- One maintainer plus an AI co-author wrote essentially all of it; the Android app and its phone link are the first outside contribution (Rhytam Biswas).
 
 ## Pricing
 
@@ -72,6 +73,7 @@ Not for token-cost audits (ccusage and agentsview stay the tools for that), and 
 ## Changes
 
 - 2026-10-10 - Created from the category entrant scan, admitted on its eleven-agent live coverage and notch-and-Lock-Screen approval mechanism with the empty independent footprint recorded.
+- 2026-10-13 - Recorded Coucou for Android 0.1.0 (Rhytam Biswas, Android 11 or later, pairing over the local network with the Windows and Linux apps) and the v0.4.0 Windows and Linux builds that carry the phone link, while the Mac release line stays at v0.3.0; repository counts refreshed (4,736 to 4,993 stars, 785 to 838 forks, 252 to 314 open issues).
 
 ## See also
 
@@ -87,4 +89,6 @@ Not for token-cost audits (ccusage and agentsview stay the tools for that), and 
 - https://api.github.com/repos/Louis-CFM/coucou/releases - v0.1.0 (2026-09-27) through v0.3.0 (2026-10-10) plus the windows-v* and linux-v* tag trains
 - https://api.github.com/repos/Louis-CFM/coucou/contributors - the Louis-CFM 192 and claude 156 commit split behind the AI-co-author caution
 - https://louis-cfm.github.io/coucou/ - the homepage grounding the product summary, downloads, and the 0.3 voice announcement
+- https://github.com/Louis-CFM/coucou/releases/tag/android-v0.1.0 - the Android 0.1.0 release, its pairing steps, and the Windows-or-Linux requirement (fetched 2026-10-13)
+- https://github.com/Louis-CFM/coucou/releases/tag/windows-v0.4.0 - the Windows 0.4.0 build note, still unsigned with the SmartScreen warning (fetched 2026-10-13)
 - https://hn.algolia.com/api/v1/search?query=coucou%20notch&tags=story - zero hits, the empty independent footprint this note states

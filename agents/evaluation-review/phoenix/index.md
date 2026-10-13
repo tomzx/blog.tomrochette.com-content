@@ -1,7 +1,7 @@
 ---
 title: Phoenix
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, opentelemetry, tracing]
 readability: 3
@@ -32,7 +32,7 @@ Mature and busy: 11,784 stars, 1,200 forks, 1,091 open issues and PRs as of 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Arize-ai/phoenix&type=date&legend=top-left" />
 </picture>
 
-Created 2022-11-09, pushed 2026-10-11, platform release arize-phoenix 20.20.0 on 2026-10-09 (still the newest), about 626,000 PyPI downloads over the trailing 30 days ending 2026-10-11.
+Created 2022-11-09, pushed 2026-10-13, platform release arize-phoenix 20.21.1 on 2026-10-12 (still the newest), about 626,000 PyPI downloads over the trailing 30 days ending 2026-10-11.
 **Four years in, it is the oldest and most production-proven column in this category, with near-daily commits and weekly releases.**
 
 ## Strengths
@@ -84,6 +84,7 @@ Not for anyone resampling hosted observability on top of it, or strictly open-so
 - 2026-10-03 - Refreshed repository counts and corrected the Status open-issues figure, which had drifted from the Cautions line (both now the same 1,091 count as of 2026-10-03).
 - 2026-10-07 - Added the Arize-ai/phoenix star history chart to the Status section.
 - 2026-10-09 - Recorded the arize-phoenix 20.20.0 release (2026-10-09) and refreshed repository counts.
+- 2026-10-13 - Recorded the arize-phoenix 20.21.1 release (2026-10-12), which superseded the 20.20.0-still-newest claim.
 
 ## See also
 

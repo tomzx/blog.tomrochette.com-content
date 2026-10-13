@@ -20,7 +20,7 @@ Tools that turn what coding agents already record into searchable history, cost 
 - [claude-replay](claude-replay/index.md) - the zero-dependency CLI compiling sessions from seven harnesses into one self-contained interactive HTML replay with speed control, diffs, and secret redaction, the category's first shareable-artifact output, 844 stars.
 - [ClawTrace](clawtrace/index.md) - the hosted tracing and cost-attribution platform for OpenClaw runs, with full-payload traces and an AI analyst named Tracy, billed in credits.
 - [CodeBurn](codeburn/index.md) - the local desktop app and CLI that cuts AI coding spend by task, branch, and project, with plan-quota tracking, config optimization, and session spend guards.
-- [Coucou](coucou/index.md) - the notch companion and iPhone app watching eleven agents live, answering Claude Code and Codex permission requests from the notch or the Lock Screen.
+- [Coucou](coucou/index.md) - the notch companion with iPhone and Android apps watching eleven agents live, answering Claude Code and Codex permission requests from the notch, the Lock Screen, or a linked Android phone.
 - [ctx](ctx/index.md) - local search over the sessions agents already recorded, with blame attribution from any line of code back to its transcript.
 - [git-ai](git-ai/index.md) - the git-layer provenance recorder that links every line of AI code to the agent, model, and prompt that wrote it, stored in Git Notes so attribution survives every rebase, now part of OpenAI's Codex team, 2,829 stars.
 - [Memex](memex/index.md) - the Rust CLI that indexes multi-harness session transcripts locally with BM25 or embeddings and resumes the session you find.

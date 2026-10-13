@@ -1,7 +1,7 @@
 ---
 title: Intent-Router
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, intent-specs, clarification, skills]
 readability: 3
@@ -23,8 +23,9 @@ The README positions it against plan modes (which prefer looking up over verifyi
 
 ## Status
 
-Young and fast-rising: 1,017 stars and 124 forks as of 2026-10-11, created 2026-09-22, pushed 2026-10-11, with four releases in its first three weeks (v1.3.0 on 2026-10-09, v1.0.0 on 2026-09-23).
-A thousand stars in nineteen days is the steepest adoption curve in this category's recent additions, but the independent footprint has not caught up: a Hacker News search returns no thread about it as of 2026-10-11.
+Fast-rising, then deflated: 158 stars and 46 forks as of 2026-10-13, created 2026-09-22, pushed 2026-10-11, with four releases in its first three weeks (v1.3.0 on 2026-10-09, v1.0.0 on 2026-09-23).
+**The GitHub API read 1,017 stars and 124 forks on 2026-10-11 and 158 and 46 on 2026-10-13, a collapse fork counts cannot take organically, which reads as a platform purge of inauthentic engagement, and the nineteen-day adoption-curve claim this note published is retracted.**
+Engagement from freshly created accounts is still arriving (a fork and a star land on 2026-10-13 alone), so the inflation appears ongoing, and the independent footprint is still empty: a Hacker News search returns no thread about it as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=angel291592/Intent-Router&type=date&theme=dark&legend=top-left" />
@@ -43,7 +44,7 @@ A thousand stars in nineteen days is the steepest adoption curve in this categor
 
 - The evidence is self-published and small: the delivery report of 2026-09-24 compares 5 bare runs against 3 skill runs (mean 5.0 versus 6.0 of 6) in one harness on one model, and the report discloses that the bare arm needed the skill explicitly denied because an installer test had left a copy in user-level skills.
 - Three weeks old with a solo maintainer: the IntentSpec format and the four-state model can still move under you.
-- The star curve (1,017 in nineteen days) is social momentum, not validation; there is no independent replication of the delivery numbers as of 2026-10-11.
+- The star story inverted: the 1,017 stars of 2026-10-11 fell to 158 by 2026-10-13 in an apparent purge of inauthentic engagement, so the social signal is now evidence against the project, and there is no independent replication of the delivery numbers.
 - It is upstream of typed decision models (Jev, Laya), so teams already running those need to decide which layer owns the clarification step.
 
 ## Pricing
@@ -64,6 +65,7 @@ Not for teams needing enforced process (that is Superpowers), and not for anyone
 ## Changes
 
 - 2026-10-10 - Created from the spec-driven-development resolution pass, choosing this category over task management because the artifact is a spec contract with a delivery check, not a task record.
+- 2026-10-13 - Recorded the engagement collapse (1,017 stars and 124 forks on 2026-10-11 to 158 and 46 on 2026-10-13, a drop forks cannot take organically), retracted the nineteen-day adoption-curve claim, and moved the caution from momentum to deflation.
 
 ## See also
 

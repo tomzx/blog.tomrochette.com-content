@@ -1,7 +1,7 @@
 ---
 title: Ouroboros
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, verification, self-improving-agents, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, by Ouro Labs (Q00), solo-maintained with around 80 contributors.
 
 ## Status
 
-Very young, very active: 6,199 stars, 627 forks, 96 open issues as of 2026-10-11, created 2026-01-14, pushed 2026-10-07.
+Very young, very active: 6,211 stars, 627 forks, 100 open issues as of 2026-10-13, created 2026-01-14, pushed 2026-10-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Very young, very active: 6,199 stars, 627 forks, 96 open issues as of 2026-10-11
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.55.6 on 2026-10-06, five patch bumps past the 0.55.0 minor release of 2026-09-28, with 21 PyPI releases in the seven weeks to 2026-10-07; PyPI self-labels it Beta.
+Latest release v0.55.7 on 2026-10-12, six patch bumps past the 0.55.0 minor release of 2026-09-28, with 22 PyPI releases in the seven weeks to 2026-10-12; PyPI self-labels it Beta.
 **Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-10-07.**
 An unrelated arXiv paper shares the name (a self-developing coding agent, arXiv 2608.08311), which muddies coverage searches for this project.
 
@@ -78,6 +78,7 @@ Not for quick edits, for teams needing proven evaluation rigor, or for anyone wh
 - 2026-10-07 - Added the Q00/ouroboros star history chart to the Status section.
 - 2026-10-07 - Recorded the v0.55.5 and v0.55.6 releases (both 2026-10-06) and refreshed counts; noted the same-named arXiv project that muddies coverage searches.
 - 2026-10-09 - Recorded the three-repo Agent OS stack framing (Ouro-labs/ourocode shell and Ouro-labs/ouroboros-plugins around the Q00/ouroboros kernel); re-verified status otherwise unchanged, with v0.55.6 still the newest release and no PyPI movement since 2026-10-06.
+- 2026-10-13 - Recorded the v0.55.7 release (2026-10-12, GitHub and PyPI) and refreshed counts (6,211 stars, 100 open issues, pushed 2026-10-12).
 
 ## See also
 

@@ -21,6 +21,7 @@ The category's dividing line is what the number measures, since each member answ
 - [LMArena](lmarena/index.md) - blind human-vote arenas ranking models by preference, the field's most cited and most gamed signal.
 - [Margin Lab](margin-lab/index.md) - daily degradation trackers running Claude Code and Codex against a fixed SWE-Bench Pro subset with 95% confidence intervals, plus an open-source eval runtime.
 - [OpenRouter Rankings](openrouter-rankings/index.md) - real token spend through the OpenRouter gateway, CC BY licensed, the category's only revealed-preference number.
+- [Vectara Hallucination Leaderboard](vectara-hallucination-leaderboard/index.md) - Vectara's HHEM-judged ranking of how often models hallucinate when summarizing short documents, with the judge model downloadable.
 
 Its members are compared on shared rows in the [Trackers and Leaderboards Feature Matrix](trackers-and-leaderboards-feature-matrix/index.md).
 
@@ -36,3 +37,4 @@ Its members are compared on shared rows in the [Trackers and Leaderboards Featur
 - 2026-10-10 - Added Benchmark Radar.
 - 2026-10-11 - Added BenchLM.
 - 2026-10-11 - Added Margin Lab.
+- 2026-10-13 - Added Vectara Hallucination Leaderboard.

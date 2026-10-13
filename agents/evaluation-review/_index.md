@@ -10,6 +10,7 @@ readability: 3
 
 Where quality control lives in the agent workflow: CI gates, dashboards, machine review, human annotation, and the academic studies that benchmark the harnesses themselves.
 
+- [Better Harness](better-harness/index.md) - Qoder's MIT harness-engineering platform that judges the agent work loop itself (goals, steps, validation, safeguards, lessons) from project and session evidence, findings carrying acceptance checks, 2.4k stars and no independent footprint yet.
 - [Crit](crit/index.md) - Tomasz Tomczyk's MIT local-first browser surface where agent plans, diffs, running apps, and static HTML get line comments that flow back through a review file any agent can read.
 - [deepeval](deepeval/index.md) - the pytest-style eval framework with roughly fifty judge metrics that gates merges in CI.
 - [FrontierHarness Eval](frontierharness-eval/index.md) - the public benchmark that held the model constant and varied nine harnesses in twelve configurations, cost spread 17.5x, vendor-run caveat attached.
@@ -43,3 +44,4 @@ Its members are compared on shared rows in the [Evaluation and Review Feature Ma
 - 2026-10-10 - Added PR Lens.
 - 2026-10-10 - Added Verbatim Citation Gate.
 - 2026-10-12 - Added Crit.
+- 2026-10-13 - Added Better Harness.

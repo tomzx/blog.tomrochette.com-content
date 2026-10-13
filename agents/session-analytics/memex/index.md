@@ -1,7 +1,7 @@
 ---
 title: Memex
 created: 2026-09-20
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Made by an independent developer, MIT-licensed, with no cloud service in the def
 
 ## Status
 
-Active and quietly growing: created 2026-01-01, 251 stars, 35 forks, pushed 2026-10-07, as of 2026-10-11.
+Active and quietly growing: created 2026-01-01, 259 stars, 36 forks, pushed 2026-10-13, as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nicosuave/memex&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Active and quietly growing: created 2026-01-01, 251 stars, 35 forks, pushed 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nicosuave/memex&type=date&legend=top-left" />
 </picture>
 
-Releases ship in bursts: v0.25.0 (2026-10-02) added the Hermes and KiloCode CLI engines (fifteen to seventeen harnesses), then v0.26.0, v0.26.1, and v0.27.0 all landed 2026-10-03 (OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, and conversation-search relevance improvements), and v0.27.1 followed on 2026-10-04 without release notes.
+Releases ship in bursts: v0.25.0 (2026-10-02) added the Hermes and KiloCode CLI engines (fifteen to seventeen harnesses), then v0.26.0, v0.26.1, and v0.27.0 all landed 2026-10-03 (OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, and conversation-search relevance improvements), v0.27.1 followed on 2026-10-04 without release notes, and v0.27.2 and v0.28.0 landed 2026-10-12 (Homebrew as the update source for Homebrew installs, remembered phrases prioritized in search results, relevance ranking shared across the search interfaces, and OpenCode v1 session indexing when the v2 projection is empty).
 Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the author.
 **The launch footprint is nearly empty, which I read as adoption through word of mouth and through agents rather than through launches, the same reading this category applied to ctx, and as thin independent verification.**
 
@@ -74,6 +74,7 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 - 2026-10-04 - Recorded the v0.26.0, v0.26.1, and v0.27.0 releases (all 2026-10-03: opt-in OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, conversation-search relevance improvements), qualified the local-embeddings claims in What it is, Cautions, and Pricing accordingly, and refreshed repository counts (241 stars, pushed 2026-10-04).
 - 2026-10-05 - Recorded v0.27.1 (2026-10-04, released without notes); refreshed stars to 243 and the push date to 2026-10-05.
 - 2026-10-07 - Added the nicosuave/memex star history chart to the Status section.
+- 2026-10-13 - Recorded the v0.27.2 and v0.28.0 releases (2026-10-12): Homebrew as the update source for brew installs, remembered phrases prioritized and relevance ranking shared across the search interfaces, and OpenCode v1 session indexing when the v2 projection is empty; repository counts refreshed (251 to 259 stars, pushed 2026-10-13).
 
 ## See also
 

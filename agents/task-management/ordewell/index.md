@@ -1,7 +1,7 @@
 ---
 title: Ordewell
 created: 2026-09-16
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, planner, multi-agent, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 ## Status
 
 Active, young, and small.
-As of 2026-10-11: 196 stars, 17 forks, 45 open issues, created 2026-07-31, pushed 2026-10-10, latest release v0.9.0 on 2026-10-10, and roughly 7,100 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+As of 2026-10-13: 202 stars, 19 forks, 44 open issues, created 2026-07-31, pushed 2026-10-12, latest release v0.9.1 on 2026-10-11, and roughly 8,200 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ordewell/ordewell&type=date&theme=dark&legend=top-left" />
@@ -36,6 +36,7 @@ As of 2026-10-11: 196 stars, 17 forks, 45 open issues, created 2026-07-31, pushe
 The 0.6.x line (2026-10-02 to 2026-10-04) made the structured transport the default with Codex and OpenCode connectors, added ops tasks and merge gates (ADR-0020), and shipped two security releases, and v0.7.x continued the pattern: v0.7.0 moved completion and planning onto Ordewell's own tools with the printed marker as a fallback, v0.7.1 delivered messages between tool calls (ADR-0023), and v0.7.2 (2026-10-07) closed refusal-tier bypass classes (shell negation, hidden substitutions, interpreter spellings, Windows cmd forms).
 Three releases landed on 2026-10-10: v0.8.0 removed the terminal transport, plugin runners, and the printed completion marker, making an attempt-bound `task_complete` call the only completion path and the `checkpoint` tool the only question path (ADR-0025), unified planner and task skills as Agent-Skills-format folders that can live committed in the workspace, and closed two escapes, a Claude Code planner writing through its native plan file and a runner inheriting another Ordewell's MCP credentials; v0.8.1 raised the default parallel task count from three to five; v0.9.0 put harness planners under the same research envelope as the API planner (ADR-0026), with a shared read-only allowlist for commands and MCP tools, repository-supplied approval settings refused, and path-named programs always asking.
 The Show HN launch thread reached 56 points and 30 comments on 2026-09-15.
+v0.9.1 (2026-10-11) closed the next class: planners no longer run a repository's own config, so project hooks, env blocks, plugins, and project MCP servers start only after explicit approval, and a Codex planner treats the repository it researches as untrusted (ADR-0028).
 
 ## Strengths
 
@@ -83,6 +84,7 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - 2026-10-07 - Recorded the v0.7.1 release (2026-10-06, mid-turn message delivery per ADR-0023, force send, checkpoint answering from the TUI and CLI) and refreshed counts (187 stars, 15 forks).
 - 2026-10-08 - Recorded the v0.7.2 security release (2026-10-07, refusal-tier bypass classes closed after the 0.6.x security pairs) and refreshed counts (pushed 2026-10-07).
 - 2026-10-11 - Recorded the 2026-10-10 release triple: v0.8.0's removals (terminal transport, plugin runners, the completion marker; tool-call-only completion per ADR-0025, unified skills, the Claude Code plan-file and MCP-credential escapes closed), v0.8.1's parallel default of five, and v0.9.0's one-envelope planner research (ADR-0026); refreshed counts (196 stars, 17 forks, 45 open issues).
+- 2026-10-13 - Recorded the v0.9.1 security release (2026-10-11: planners no longer run a repository's own config per ADR-0028, project MCP servers gated on approval, Codex planners treat the repository as untrusted) and refreshed counts (202 stars, 19 forks, 44 open issues, roughly 8,200 npm downloads).
 
 ## See also
 
@@ -97,7 +99,7 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - https://github.com/ordewell/ordewell - README: plan artifact, runners, marker verification, plugin manifests
 - https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-10-10
 - https://github.com/ordewell/ordewell/blob/main/CHANGELOG.md - the v0.7.0 entry: `task_complete` and `checkpoint` tools, tool-based planning, the marker fallback scope
-- https://raw.githubusercontent.com/ordewell/ordewell/main/CHANGELOG.md - the v0.8.0, v0.8.1, and v0.9.0 entries: the removals, unified skills, the escape closures, and the one-envelope planner research
+- https://raw.githubusercontent.com/ordewell/ordewell/main/CHANGELOG.md - the v0.8.0, v0.8.1, v0.9.0, and v0.9.1 entries: the removals, unified skills, the escape closures, the one-envelope planner research, and the repository-config security release
 - https://ordewell.ai - the product site: surfaces, the plan-execute-verify loop, marker wording
 - https://ordewell.ai/docs.html - install, requirements, headless usage
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0002-planner-as-conversation-loop.md - the conversation-loop decision and the session wipe

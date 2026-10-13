@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 ## Status
 
 Massive and fast-moving.
-As of 2026-10-11: 252,641 stars and 54,646 forks since creation on 2025-07-22, pushed today, MIT, and 47,784 open issues, a support surface bigger than most projects' users.
+As of 2026-10-13: 253,193 stars and 54,879 forks since creation on 2025-07-22, pushed today, MIT, and 48,162 open issues, a support surface bigger than most projects' users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ As of 2026-10-11: 252,641 stars and 54,646 forks since creation on 2025-07-22, p
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&legend=top-left" />
 </picture>
 
-Releases shipped as date-stamped tags through v2026.9.24 (2026-09-24), with September alone seeing five tags, and on 2026-10-08 the project cut v0.21.6, the first semver tag and the first release of a new stable release pipeline (one attempt ref, a tested Docker image, and a receipt tag at publish), rolling up about 2,100 pull requests since v0.21.5 with the curated notes deferred to v0.22.0.
+Releases shipped as date-stamped tags through v2026.9.24 (2026-09-24), with September alone seeing five tags, and on 2026-10-08 the project cut v0.21.6, the first semver tag and the first release of a new stable release pipeline (one attempt ref, a tested Docker image, and a receipt tag at publish), rolling up about 2,100 pull requests since v0.21.5 with the curated notes deferred to v0.22.0, and v0.21.7 followed on 2026-10-12 as the line's second tag.
 The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) landed June 2026, and a real tool ecosystem followed (a 28-point Grafana observability integration, a Fleet console for managing Dockerized Hermes agents, XMPP interop with OpenClaw, and a community gadget SDK building ESP32 voice and text devices, 302 stars as of 2026-10-07).
 **The governance record is the caution: a May 2026 thread documents Nous editing a GitHub issue to remove plagiarism claims about Hermes Agent ([issue 10232](https://github.com/NousResearch/hermes-agent/issues/10232)), so origin claims around this project deserve independent reading.**
 
@@ -86,6 +86,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 - 2026-10-07 - Added the community hermes-gadget-sdk (ESP32 voice and text devices for the agent, 302 stars) to the ecosystem record, with refreshed adoption numbers.
 - 2026-10-10 - Recorded the release-scheme change: v0.21.6 (2026-10-08) is the first semver tag and the first cut of a new stable release pipeline, ending the date-stamped scheme and the early-October tag gap, with refreshed adoption numbers and the Portal tiers re-checked unchanged.
 - 2026-10-11 - Recorded the official desktop installers (macOS 12+, Windows 10/11) joining the curl install path and Email joining the official channel list, with refreshed adoption numbers and the Portal tiers (Free $0, Plus $20, Super $100, Ultra $200) re-checked unchanged on the official site.
+- 2026-10-13 - Recorded v0.21.7 (2026-10-12), the second tag on the new stable release line, with refreshed adoption numbers and the Portal tiers re-checked unchanged on the official site.
 
 ## See also
 

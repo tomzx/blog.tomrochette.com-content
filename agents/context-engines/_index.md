@@ -25,6 +25,7 @@ The tools that decide what enters the context window: semantic engines, code gra
 - [rtk](rtk/index.md) - the Rust CLI proxy that filters agent command output before it enters the context window.
 - [Semble](semble/index.md) - the local static-embedding-plus-BM25 code search index that indexes in under a second on any CPU, snippets instead of grep-and-read.
 - [Serena](serena/index.md) - the LSP-backed MCP toolkit giving agents IDE-grade symbol retrieval and editing for free, with a paid JetBrains backend, about 30k stars.
+- [SoL-Pi](sol-pi/index.md) - NV Labs' MIT Pi-harness extension (Action Fusion, paged recall, verified reducer, online compaction) keeping long auto-research loops flat in token cost, about 3.4k stars with a three-post HN footprint.
 - [Sourcegraph code context platform](sourcegraph-code-context/index.md) - code search repositioned as the retrieval layer for agents, with value showing up above roughly 400K lines.
 - [TOON](toon-format/index.md) - the MIT spec-backed Token-Oriented Object Notation that re-encodes JSON as indentation and table rows, about 1.8 million npm downloads a week, cutting the token cost of structured data in prompts.
 - [Vanna](vanna/index.md) - the archived MIT text-to-SQL RAG framework whose DDL-docs-past-queries retrieval founded the data-semantics half of this category, 23.8k stars, the open-source core read-only since 2026-03-29 while the company sells Cloud and Enterprise.
@@ -53,3 +54,4 @@ Its members are compared on shared rows in the [Context Engines Feature Matrix](
 - 2026-10-11 - Added code-review-graph.
 - 2026-10-11 - Added Vanna.
 - 2026-10-12 - Added Entroly.
+- 2026-10-13 - Added SoL-Pi.

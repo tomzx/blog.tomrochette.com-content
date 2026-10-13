@@ -1,7 +1,7 @@
 ---
 title: "Protocols Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, protocols, interoperability]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what JSON-RPC, stdio, and a repository instruction file are; each column links to a full note with sources.
 ---
 
-This matrix compares the twelve protocols profiled in this section, A2UI, ACP, Agent Host Protocol, ANP, Agent Protocol (LangChain), AG-UI, A2A, AGENTS.md, llms.txt, MCP, Unified Harness Protocol (UHP), and WebMCP, so the whole interoperability stack can be read in one table.
+This matrix compares the thirteen protocols profiled in this section, A2A, A2UI, ACP, AG-UI, Agent Host Protocol, Agent Protocol (LangChain), AGENTS.md, ANP, llms.txt, MCP, PIC Standard, Unified Harness Protocol (UHP), and WebMCP, so the whole interoperability stack can be read in one table.
 
 **The thirteen do not compete, they stack (repo-to-agent, editor-to-agent, agent-to-frontend, agent-to-tool, agent-to-agent, client-to-session, app-to-agent serving, open-web identity and discovery, site content discovery, UI payload, browser tool exposure, tool-call verification), and adoption falls with every step up that stack, which is why I call AGENTS.md and MCP defaults, ACP a rising bet, AG-UI the quiet winner by raw download volume, AHP a bet underwritten by VS Code's own distribution, A2UI the payload format the frontend layer is converging on, the Agent Protocol the serving API waiting for a second implementation, UHP the Responses-compatible draft claiming the harness side of that same serving lane, PIC Standard the fail-closed verification gate at the tool boundary, llms.txt the docs-side convention search refuses to honor, WebMCP the browser bet only one browser ships, A2A an enterprise convention the coding-agent world can keep ignoring, and ANP the decentralized open-web bet the market has not bought yet.**
 
@@ -79,8 +79,6 @@ The mature protocols get attacked for their risks, the young ones for their reas
 
 ## Changes
 
-- 2026-10-11 - Extended from twelve to thirteen columns with PIC Standard (the Apache-2.0 pre-execution action-gating protocol with an anchored RFC, a conformance corpus, and a TypeScript verifier passing it), inserted alphabetically between MCP and Unified Harness Protocol (UHP), every row gaining a cell traced to the new note; the stack thesis, governance counts, adoption, and criticism paragraphs updated, and the choosing section gained a PIC bullet.
-
 - 2026-08-24 - Created with the stacking thesis and recorded protocol consolidations.
 - 2026-09-16 - Extended from five to six columns with AG-UI, re-sorted alphabetically, and updated the governance, adoption, criticism, and choosing prose for the agent-to-frontend layer.
 - 2026-09-18 - AG-UI maturity cell updated to 1.0.0 packages and a published 1.0 specification, and stars and download figures refreshed in the AG-UI and AHP prose.
@@ -100,7 +98,9 @@ The mature protocols get attacked for their risks, the young ones for their reas
 - 2026-10-09 - Re-sorted the columns alphabetically by member title, case-insensitive, moving A2A from the founding first position to its title-sorted place; no cell content changed.
 - 2026-10-09 - WebMCP's maturity cell moved to the draft revision of 2026-10-08 and its criticism cell records the same-day removal of the declarative path; the intro's protocol-name list was brought to the column order and its eleven count corrected to twelve; figures refreshed in the prose (AG-UI about 15.9M combined downloads in the month ending 2026-10-07, AHP 396 stars and roughly 878k combined downloads, WebMCP 4,499 stars, HarnessRouter 2,941 stars); no membership change.
 - 2026-10-10 - Figures refreshed in the prose (AG-UI about 16.8M combined downloads in the month ending 2026-10-08, AHP 398 stars and roughly 904k combined downloads, WebMCP 4,515 stars, HarnessRouter 2,951 stars); the WebMCP maturity cell moved to the draft revision of 2026-10-09 (an editorial pass on top of the 10-08 declarative removal) and the A2UI SDKs cell records the Markdown renderer; no membership change.
+- 2026-10-11 - Extended from twelve to thirteen columns with PIC Standard (the Apache-2.0 pre-execution action-gating protocol with an anchored RFC, a conformance corpus, and a TypeScript verifier passing it), inserted alphabetically between MCP and Unified Harness Protocol (UHP), every row gaining a cell traced to the new note; the stack thesis, governance counts, adoption, and criticism paragraphs updated, and the choosing section gained a PIC bullet.
 - 2026-10-11 - Re-verification: refreshed the prose figures (AG-UI about 16.9M combined downloads in the month ending 2026-10-09, AHP roughly 921k combined downloads, WebMCP 4,535 stars, HarnessRouter 2,959 stars); the A2A-versus-MCP download ratio, the UHP fourth-version draft, the A2UI v1.0 candidate, the llms.txt and MCP spec revisions, the AG-UI 1.0.2 packages, and the ACP SDK train all re-verified unchanged; no membership change.
+- 2026-10-13 - Re-verification: the intro's protocol-name list still said twelve and omitted PIC Standard after the 2026-10-11 extension, so the count moved to thirteen and the list was brought to column order; the misplaced 2026-10-11 extension bullet returned to its date order; every maturity cell re-verified against live sources (A2A v1.0.1, A2UI v0.9.1 production plus the v1.0 candidate, ACP SDKs at 3.3.0 and 1.8.0, AG-UI packages 1.0.2, AHP v1.0.0, Agent Protocol OpenAPI 0.1.6, ANP 1.2, llms.txt v2, MCP revision 2026-07-28, PIC v0.9.0, UHP 2026-10-04 as its fourth version, WebMCP draft 2026-10-09) and no cell changed.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: HOL Guard
 created: 2026-10-09
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, guardrails, receipts, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The vendor is HOL, a consortium (its site lists 34 ecosystem partners and 65 pub
 
 ## Status
 
-Active and shipping fast: 845 stars, 149 forks, and 132 open issues as of 2026-10-11, created 2026-03-28, pushed 2026-10-11, with v3.42.0 published 2026-10-10 (three stable releases that day, 3.40.0 through 3.42.0) and PyPI caught up at 3.42.0.
+Active and shipping fast: 865 stars, 151 forks, and 116 open issues as of 2026-10-13, created 2026-03-28, pushed 2026-10-13, with v3.43.0 and v3.43.1 published 2026-10-12 (PyPI caught up at 3.43.1) and alpha pre-releases for v3.44.0 already on the train.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hashgraph-online/hol-guard&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for org-scale governance (that is a control plane, not a workstation guard),
 - 2026-10-09 - Created from the awesome-ai-governance entrant scan, profiling the consortium-backed coverage-contract guard with its freemium cloud.
 - 2026-10-10 - Recorded the release train at v3.39.0 (2026-10-10) with PyPI trailing at 3.38.0, the coverage contract passing its 2026-10-09 expiry without a re-verification, and the product page's download claim moved to 2M+, a total the measured monthly rate cannot back.
 - 2026-10-11 - Release train moved to v3.42.0 (2026-10-10, three stable releases that day, PyPI caught up), the coverage contract re-checked still expired and now pinned to version 3.0.1, and the 2M+ claim re-checked against the pypistats figure that stayed bit-for-bit identical across two re-fetches.
+- 2026-10-13 - Release train moved to v3.43.1 (2026-10-12, PyPI caught up) with v3.44.0 alphas staging; scale refreshed (865 stars, 116 open issues, pushed 2026-10-13).
 
 ## See also
 
