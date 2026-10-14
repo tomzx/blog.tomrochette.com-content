@@ -22,7 +22,7 @@ The README reports results on VisualDecisionBench and a game-evaluation set, wit
 
 ## Status
 
-Very young and actively shipping: 774 stars, 70 forks, and 0 open issues as of 2026-10-13, created 2026-09-23 and pushed the day of this check, with the weights, datasets, demo, and export builds all public.
+Very young and actively shipping: 777 stars, 70 forks, and 1 open issue as of 2026-10-13, created 2026-09-23 and pushed the day of this check, with the weights, datasets, demo, and export builds all public.
 **The footprint is the thinnest in its family: a single 2-point Hacker News post and no third-party coverage found, so every quality claim is currently the team's own.**
 The 0-open-issue count reflects age, not maturity.
 

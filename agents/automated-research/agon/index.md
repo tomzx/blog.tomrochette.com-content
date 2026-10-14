@@ -1,7 +1,7 @@
 ---
 title: Agon
 created: 2026-09-27
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, automated-research, multi-agent, autonomous-research, claude-code]
 readability: 3
@@ -46,7 +46,7 @@ The companion arXiv paper ([2606.24177](https://arxiv.org/abs/2606.24177)) was s
 ## Cautions
 
 - It runs on Claude Code with permissions disabled; treat it as untrusted autonomous code and isolate it accordingly.
-- 53 stars, one main repository, and no independent evaluation; the 444-iteration and ten-domain claims rest on the authors' word.
+- 54 stars as of 2026-10-11, one main repository, and no independent evaluation; the 444-iteration and ten-domain claims rest on the authors' word.
 - The paper's own taxonomy concedes invisible failures (anomaly blindness, plausible false attribution, premature abandonment) that no loop catches and only a human scientist can.
 - It is a research artifact, not a maintained product: no releases, no support commitment, and a plugin that tracks Claude Code's moving extension points.
 - Novelty collisions are an explicit risk it manages through a deep-literature loop, which the paper concedes can still miss the 101st paper.
@@ -72,6 +72,7 @@ Not for anyone who needs a supported product, formal guarantees, or verified ben
 
 - 2026-09-27 - Created.
 - 2026-10-07 - Added the AutoResearch-Factory/Agon star history chart to the Status section.
+- 2026-10-13 - Harmonized the cautions' star count with the Status line (54, as of 2026-10-11).
 
 ## See also
 

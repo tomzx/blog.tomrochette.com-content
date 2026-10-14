@@ -1,7 +1,7 @@
 ---
 title: Headroom
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, token-optimization]
 readability: 3
@@ -16,14 +16,14 @@ Headroom is the Apache-2.0 context compression layer that rewrites everything an
 
 ## What it is
 
-A Python and TypeScript library, a zero-code-change proxy (`headroom proxy --port 8787`), a one-command wrapper around fourteen coding agents (`headroom wrap claude|codex|grok|copilot|cursor|aider|opencode|cline|continue|goose|openhands|openclaw|vibe|omp|zcode`), and an MCP server, from headroomlabs-ai (74,981 stars, pushed 2026-10-11, as of 2026-10-11).
+A Python and TypeScript library, a zero-code-change proxy (`headroom proxy --port 8787`), a one-command wrapper around fourteen coding agents (`headroom wrap claude|codex|grok|copilot|cursor|aider|opencode|cline|continue|goose|openhands|openclaw|vibe|omp|zcode`), and an MCP server, from headroomlabs-ai (75,164 stars, pushed 2026-10-13, as of 2026-10-13).
 Compression runs locally: statistical analysis keeps errors, anomalies, and boundaries in JSON arrays, a ModernBERT token classifier squeezes plain text, AST-aware compression (opt-in) collapses function bodies to signatures, an ML router resizes images, and everything removed lands in a Compress-Cache-Retrieve store the model can query through `headroom_retrieve`.
 A shared cross-agent memory store deduplicates content across Claude, Codex, Gemini, and Grok sessions, and a `headroom learn` command tunes the compressor.
 The docs' reproducible benchmarks (seeded, generated from MCP output formats, gpt-5.6 tokenizer) show 57 percent savings on an SRE incident dump (55,957 to 24,340 tokens), 42 percent on codebase exploration, and 21 percent on code search, with an explicit warning that savings depend on how repetitive your content is.
 
 ## Status
 
-Active and compounding fast: created 2026-01-07, 74,981 stars and 5,816 forks in nine months, PyPI package at 0.40.0, 45,886 npm downloads in the week to 2026-10-09, as of 2026-10-11.
+Active and compounding fast: created 2026-01-07, 75,164 stars and 5,833 forks in nine months, PyPI package at 0.40.0, 62,319 npm downloads in the week of 2026-10-05 to 2026-10-11, as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=headroomlabs-ai/headroom&type=date&theme=dark&legend=top-left" />

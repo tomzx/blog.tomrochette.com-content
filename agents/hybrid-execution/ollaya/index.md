@@ -1,7 +1,7 @@
 ---
 title: Ollaya
 created: 2026-10-06
-updated: 2026-10-12
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, local-inference, model-hub]
 readability: 3
@@ -10,22 +10,22 @@ audience_notes: >
   Assumes you have read this category's Jev note and know what a fitted temperature is.
 ---
 
-Ollaya is an Apache-2.0 local runtime and model hub, built in the image of Ollama, that serves nineteen open decision-model families behind a wire-identical replica of TypeSafe's Jev API.
+Ollaya is an Apache-2.0 local runtime and model hub, built in the image of Ollama, that serves twenty-one open decision-model families behind a wire-identical replica of TypeSafe's Jev API.
 
 **The decision-model wave just got its Ollama, and its verification discipline is the strongest the open side of this category has shown: 41,352 answers checked one by one against each author's own code, with the raw data published.**
 
 ## What it is
 
 One binary (a desktop app, a CLI, and a Docker image) for macOS, Windows, and Linux that exposes `/v1/systemone`, `/v1/decisions`, and `/v1/models` with TypeSafe's request and response formats, so the official TypeSafe Python SDK 0.7.1 runs unchanged against localhost.
-The library spans nineteen families as of 2026-10-08: encoder-based ones (laya, nli, gliclass, von, decima) that answer in 10 to 20 milliseconds on a CPU, and decoder-based ones (winnow, clef, kev, decider, nimble, jeb, jeeves, cygnet, snap, arbiter) up to 12B.
+The library spans twenty-one families as of 2026-10-13: encoder-based ones (laya, nli, gliclass, von, decima) that answer in 10 to 20 milliseconds on a CPU, and decoder-based ones (winnow, clef, kev, decider, nimble, jeb, jeeves, cygnet, snap, arbiter, and Liquid AI's d1) up to 12B.
 Weights are pulled from each author's Hugging Face repository pinned to a commit and checked against sha256, never re-hosted.
 It runs on ONNX Runtime over the CPU or an NVIDIA GPU (CUDA 13 or 12, Vulkan), with MLX on Apple silicon for laya and nli, and it is an independent project by Mert Cobanov, not affiliated with Ollama or TypeSafe.
 
 ## Status
 
-**Seventeen days old, beta, and already the wave's default front door.**
-The repository was created 2026-09-23 and shows 1,298 stars and 73 forks as of 2026-10-12, pushed 2026-10-09.
-The release train moved fast after the launch measurements: v0.9.0 (2026-10-02) packaged Cloudflare's Clef and a CPU fallback for GGUF models, v0.10.0 (2026-10-05) added Hugging Face mirror pulls and a DGX Spark CUDA pack, v0.11.0 (2026-10-06) added Decima's three small multilingual models and image reading for Winnow 12B, v0.12.0 (2026-10-06) shipped Vulkan-on-Windows GGUF support, and v0.12.1 (2026-10-09) added a new Credence family (a MiCA refinement of Winnow-E4B), while the site's library count still reads nineteen families and its results page still reports the 0.8.0-era measurements below.
+**Twenty days old, beta, and already the wave's default front door.**
+The repository was created 2026-09-23 and shows 1,301 stars and 79 forks as of 2026-10-13, pushed 2026-10-13.
+The release train moved fast after the launch measurements: v0.9.0 (2026-10-02) packaged Cloudflare's Clef and a CPU fallback for GGUF models, v0.10.0 (2026-10-05) added Hugging Face mirror pulls and a DGX Spark CUDA pack, v0.11.0 (2026-10-06) added Decima's three small multilingual models and image reading for Winnow 12B, v0.12.0 (2026-10-06) shipped Vulkan-on-Windows GGUF support, v0.12.1 (2026-10-09) added a new Credence family (a MiCA refinement of Winnow-E4B), and v0.13.0 (2026-10-13) added Liquid AI's d1 family (a 3B LFM2.5-VL decision model with a vision variant and the library's first revenue-threshold license, the LFM Open License v1.0), moved Decima's agent tag to 2.2, added digest-pinned pulls, and fixed the CUDA idle-pause crash that hit ONNX decoder models, while the site's family count now reads twenty-one and its results page still reports the 0.8.0-era measurements below.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ollaya-dev/ollaya&type=date&theme=dark&legend=top-left" />
@@ -58,7 +58,7 @@ The cost is your hardware and the model downloads.
 
 ## Compared to
 
-- [Jev](../jev/index.md): the closed, hosted original Ollaya's API copies; choose Jev for frontier accuracy behind an SLA, Ollaya for local, private, unmetered decisions across sixteen families.
+- [Jev](../jev/index.md): the closed, hosted original Ollaya's API copies; choose Jev for frontier accuracy behind an SLA, Ollaya for local, private, unmetered decisions across twenty-one families.
 - [Kev](../kev/index.md): a single-family server for the same contract; Ollaya is the multi-family hub that ships kev:9b among its models.
 - Ollama 0.35: the incumbent runtime, which serves two decision-model families (Nimble and Tev1) as raw-softmax GGUF conversions; Ollaya covers more families with author calibration but loses the same-weights latency race.
 
@@ -76,6 +76,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 - 2026-10-07 - Reworded two pre-existing "shapes" compounds to "formats" (the TypeSafe request and response formats, the published formats) to keep the banned-terms rule.
 - 2026-10-08 - The library grew to nineteen families (decima, snap, and arbiter joining) and the results page moved to 31 models measured, 2,184 timed requests, a newest measurement of 2026-10-06, a third disclosed machine (M4 Pro Mac mini) beside the two desktops, and Ollaya 0.8.0; refreshed stars to 1,239.
 - 2026-10-12 - Recorded the release train v0.9.0 through v0.12.1 (2026-10-02 to 10-09): Clef and a GGUF CPU fallback (0.9.0), Hugging Face mirror pulls and the DGX Spark CUDA pack (0.10.0), Decima's multilingual trio and Winnow 12B image reading (0.11.0), Vulkan-on-Windows GGUF (0.12.0), and the new Credence family (0.12.1), while the site's family count and results page still carry the 0.8.0-era state; refreshed stars to 1,298.
+- 2026-10-13 - Recorded v0.13.0 (2026-10-13): Liquid AI's d1 family joined (a 3B LFM2.5-VL decision model with a vision variant, the library's first revenue-threshold license in the LFM Open License v1.0, and Ollaya's own parity-and-accuracy measurements), Decima's agent tag moved to 2.2, pulls can pin a manifest digest, and the CUDA idle-pause crash affecting ONNX decoders (kev, decider, decision, nimble, jeeves, clef) is fixed; the site's family count moved to twenty-one; refreshed stars to 1,301 and the pushed date to 2026-10-13.
 
 ## See also
 
@@ -88,7 +89,8 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 ## References
 
 - https://ollaya.dev/ - product surface: endpoints, model families, platforms, the Ollama comparison table, Apache-2.0 licensing
-- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,298 stars, 73 forks, pushed 2026-10-09, releases v0.9.0 through v0.12.1 (GitHub API, as of 2026-10-12)
+- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,301 stars, 79 forks, pushed 2026-10-13, releases v0.9.0 through v0.13.0 (GitHub API, as of 2026-10-13)
+- https://github.com/ollaya-dev/ollaya/releases/tag/v0.13.0 - the v0.13.0 release notes: the d1 family, its license, the digest-pinned pulls, the Decima 2.2 move, and the CUDA fix (fetched 2026-10-13)
 - https://ollaya.dev/results - the measurement page: 26 models, 73,720 benchmark answers, 41,352 parity checks, disclosed machines, newest measurement 2026-10-02
 - https://ollaya.dev/docs/typesafe-compatibility - the wire-identical TypeSafe API documentation, including SDK 0.7.1 compatibility
 - https://news.ycombinator.com/item?id=49848269 - the 618-point launch thread (2026-09-25)

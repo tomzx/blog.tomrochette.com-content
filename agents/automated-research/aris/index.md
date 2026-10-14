@@ -24,7 +24,7 @@ Beyond the skills, the project ships a standalone Rust CLI (ARIS-Code, v0.4.28 o
 
 ## Status
 
-Active: 17,252 stars, 1,447 forks, created 2026-03-10, last push 2026-10-07, as of 2026-10-11.
+Active: 17,367 stars, 1,456 forks, created 2026-03-10, last push 2026-10-07, as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=wanshuiyin/Auto-claude-code-research-in-sleep&type=date&theme=dark&legend=top-left" />

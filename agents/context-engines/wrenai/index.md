@@ -1,7 +1,7 @@
 ---
 title: WrenAI
 created: 2026-10-10
-updated: 2026-10-12
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, semantic-layer, text-to-sql, genbi]
 readability: 3
@@ -23,7 +23,7 @@ Everything Wren writes is plain YAML and Markdown in a repo you own, and Git Syn
 
 ## Status
 
-Established and active: 17,841 stars, 2,043 forks, and 278 open issues as of 2026-10-11, created 2024-03-13, pushed 2026-10-09, with the wren-v0.15.0 release on 2026-09-21 and PyPI tracking the same 0.15.0.
+Established and active: 17,858 stars, 2,047 forks, and 276 open issues as of 2026-10-13, created 2024-03-13, pushed 2026-10-13, with the wren-v0.15.0 release on 2026-09-21 and PyPI tracking the same 0.15.0.
 The docs page claims SOC 2 Type II certification and 15k+ GitHub stars (conservative against the live count), though it says 17+ data sources where the README says 22+ (both figures re-checked unchanged 2026-10-11).
 The community footprint is lopsided: a Hacker News search returns over a thousand matches but every thread is small (the largest found carries 6 points), so nearly five figures of stars have produced no front-page discussion.
 
@@ -53,7 +53,7 @@ Free open-source core (Apache-2.0, self-hostable) and a free cloud tier with 20 
 Essential Cloud is $179 per month billed annually (13,200 annual credits, extra credits at $0.10, rollover up to 2x).
 Enterprise Cloud is $559 per month billed annually (24,000 annual credits) adding MCP integration, row- and column-level data control, and audit.
 A fourth tier, Enterprise Plus, is quoted by sales: self-hosted in your own cloud, on-prem, or air-gapped, licensed by concurrent sessions rather than credits, annual contract only, adding SSO and SCIM 2.0, the evaluation framework, and thread tracing.
-All as of 2026-10-12.
+All as of 2026-10-13, the credit tiers re-verified unchanged against the live pricing page.
 
 ## Price history
 

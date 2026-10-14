@@ -24,7 +24,7 @@ The decision-model track (`--decision`) measures how accurate a `/v1/systemone` 
 
 ## Status
 
-Active, six months old, and steadily released: created 2026-04-17, v2.8.0 published 2026-10-10, the project's first release also on PyPI (v2.5.0 and v2.6.0 in August, v2.7.0 on 2026-09-21), pushed 2026-10-10, with 382 stars and 50 forks as of 2026-10-10.
+Active, six months old, and steadily released: created 2026-04-17, v2.8.0 published 2026-10-10, the project's first release also on PyPI (v2.5.0 and v2.6.0 in August, v2.7.0 on 2026-09-21), pushed 2026-10-10, with 387 stars and 53 forks as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=SeraphimSerapis/tool-eval-bench&type=date&theme=dark&legend=top-left" />
@@ -81,7 +81,7 @@ The disagreeable claim I will defend: this category spent September learning to 
 
 ## References
 
-- https://github.com/SeraphimSerapis/tool-eval-bench - repository: MIT, created 2026-04-17, 382 stars, 50 forks, pushed 2026-10-10 (GitHub API, as of 2026-10-10)
+- https://github.com/SeraphimSerapis/tool-eval-bench - repository: MIT, created 2026-04-17, 387 stars, 53 forks, pushed 2026-10-10 (GitHub API, as of 2026-10-13)
 - https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/README.md - the 69-plus-28 scenario design, backend list including Strata and TabbyAPI, pass/partial/fail scoring, install paths, and the stated limitations (fetched 2026-10-10)
 - https://github.com/SeraphimSerapis/tool-eval-bench/releases/tag/v2.8.0 - the v2.8.0 release notes: the 97-scenario total, the decision-track additions, the new backends, the test and coverage gate, and the not-like-for-like warning (fetched 2026-10-10 via the releases API)
 - https://pypi.org/project/tool-eval-bench/ - the project's first PyPI publication, 2.8.0 (fetched 2026-10-10)

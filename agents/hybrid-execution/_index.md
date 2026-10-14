@@ -11,13 +11,14 @@ readability: 3
 Small fast models handling typed decisions beside the large model: constrained decoding, validate-and-retry libraries, the decision-model wave, and the three benchmarks that measure them.
 
 - [Anthropic structured outputs](anthropic-structured-outputs/index.md) - schema-constrained decoding for Claude responses and tool inputs.
-- [AnyJev](anyjev/index.md) - Nokia Applied Research's training-free readout turning any instruction-tuned LLM into a calibrated decision model with rotation-averaged logits and verified early-exit bounds, with an arXiv report, third-party benchmark coverage, and a fifth-place Decision Index row, 1,202 stars.
+- [AnyJev](anyjev/index.md) - Nokia Applied Research's training-free readout turning any instruction-tuned LLM into a calibrated decision model with rotation-averaged logits and verified early-exit bounds, with an arXiv report, third-party benchmark coverage, and a fifth-place Decision Index row, 1,242 stars.
 - [Atomic Agents](atomic-agents/index.md) - the MIT Python framework assembling agents, tools, and context providers as schema-validated components on Instructor and Pydantic, the validate-and-retry family's framework layer, 6.3k stars.
 - [BAML](baml/index.md) - Boundary's Apache-2.0 typed language for agent code, where LLM calls are functions with schema return types and the error-correcting parser from its structured-output era, 9.4k stars.
 - [CLM](clm/index.md) - the Apache-2.0 contrastive state-action encoder (a Qwen3-8B embedding model plus a 75 MB head) behind the wave's first architectural dissent, whose Jev-parity claims both independent boards answer with near-zero scores, 2.9k stars.
 - [CUA-S1](cua-s1/index.md) - Cua's open-weights 706k-parameter System One checkpoint that scores form actions without generating text, the verifiable counterpart to Jev's closed contract.
 - [Decider](decider/index.md) - Mapika's Apache-2.0 one-pass family from 2B to 35B-A3B on Qwen3.5 decoders, JevBench's first open number one and the category's clearest sealed-protocol collapse record.
-- [Decision Index](decision-index/index.md) - the second independent scoreboard for Jev-class models, 110,201 public requests over 42 benchmarks plus private tests, where two 27B-class systems sit above Jev (third) and the boards disagree by tens of points.
+- [Decision Index](decision-index/index.md) - the second independent scoreboard for Jev-class models, 110,201 public requests over 42 benchmarks plus private tests, where seven systems sit above Jev (eighth) and the boards disagree by tens of points.
+- [Guardrails](guardrails/index.md) - the Apache-2.0 validator-hub framework composing Input and Output Guards from 65 installable risk validators around 100-plus LiteLLM-reachable providers, with validate-and-reask structured generation, now under Harvey after its September acquisition.
 - [H2O-Lightning-4B](h2o-lightning-4b/index.md) - H2O.ai's Apache-2.0 Qwen3.5-4B decision fine-tune with vision, the first open-weights system measured above hosted Jev on an independent composite.
 - [Instructor](instructor/index.md) - Pydantic in, validated objects out, with a re-ask when validation fails.
 - [Jeeves](jeeves/index.md) - PostHog's 9B reasoning decision model that thinks before it answers typed questions, beating Jev's published numbers on its own tests at ten times the latency.
@@ -29,7 +30,7 @@ Small fast models handling typed decisions beside the large model: constrained d
 - [Laya](laya/index.md) - the Apache-2.0 open-weights decision-model family answering typed questions in a single pass, the open rival to Jev's contract with its limits stated on its own model card.
 - [NanoJev](nanojev/index.md) - the 0.6B game-task replica with the most complete pipeline and the least verification, every benchmark unreplicated.
 - [Nimble](nimble/index.md) - Bespoke Labs' one-day open Jev with the category's only human-labeled head-to-head (Jev wins by 1.2 macro points) and an unlicensed repo.
-- [Ollaya](ollaya/index.md) - the Apache-2.0 local runtime serving nineteen open decision-model families behind a wire-identical Jev API, with parity checks against each author's own code.
+- [Ollaya](ollaya/index.md) - the Apache-2.0 local runtime serving twenty-one open decision-model families behind a wire-identical Jev API, with parity checks against each author's own code.
 - [OpenAI Structured Outputs](openai-structured-outputs/index.md) - schema-guaranteed responses via constrained decoding.
 - [Outlines](outlines/index.md) - logit-masked generation following types, schemas, regexes, or grammars.
 - [SemIf](semif/index.md) - frozen open models reading typed option probabilities straight from the logits, with a client-side WebGPU demo, called OpenJev until 2026-09-18.
@@ -71,3 +72,4 @@ Its members are compared on shared rows in the [Hybrid Execution Feature Matrix]
 - 2026-10-11 - Added BAML.
 - 2026-10-12 - Added Strands Decider 2B.
 - 2026-10-13 - Added Valen.
+- 2026-10-13 - Added Guardrails.

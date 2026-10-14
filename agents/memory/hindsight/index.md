@@ -26,8 +26,8 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
 
 ## Status
 
-**Active and suddenly large: 48,555 stars rank it third in this category behind claude-mem and mem0, on a repository that is barely a year old.**
-48,555 stars with the repository pushed 2026-10-10, created 2025-10-30, as of 2026-10-12 (GitHub API).
+**Active and suddenly large: 48,949 stars rank it third in this category behind claude-mem and mem0, on a repository that is barely a year old.**
+48,949 stars with the repository pushed 2026-10-12, created 2025-10-30, as of 2026-10-13 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&theme=dark&legend=top-left" />
@@ -94,7 +94,7 @@ Not for solo coding-agent use, where local files or claude-mem cost nothing, or 
 
 ## References
 
-- https://github.com/vectorize-io/hindsight - repository, MIT license, 48,166 stars, activity, as of 2026-10-11
+- https://github.com/vectorize-io/hindsight - repository, MIT license, 48,949 stars, activity, as of 2026-10-13
 - https://raw.githubusercontent.com/vectorize-io/hindsight/main/README.md - architecture, memory types, benchmark claims, the independent-reproduction statement, and install paths
 - https://hindsight.vectorize.io/ - product documentation: retain/recall/reflect, multi-strategy retrieval, observation consolidation, knowledge pages, 18 coding-agent integrations
 - https://benchmarks.hindsight.vectorize.io/ - the live benchmark site and its downloadable run artifacts (LongMemEval-S 94.6, LoCoMo 92.0, BEAM-10M 64.1), as of 2026-10-07

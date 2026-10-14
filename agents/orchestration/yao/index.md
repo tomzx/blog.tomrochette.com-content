@@ -1,7 +1,7 @@
 ---
 title: Yao
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-workspaces, self-hosted]
 readability: 3
@@ -23,7 +23,7 @@ The license is a modified Apache-2.0 that GitHub reports as NOASSERTION.
 
 ## Status
 
-Active on the product side and old on the clock: the repository was created 2021-09-06 and shows 8,116 stars and 722 forks as of 2026-10-11, pushed 2026-10-08.
+Active on the product side and old on the clock: the repository was created 2021-09-06 and shows 8,122 stars and 722 forks as of 2026-10-13, pushed the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=YaoApp/yao&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Active on the product side and old on the clock: the repository was created 2021
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=YaoApp/yao&type=date&legend=top-left" />
 </picture>
 
-The release line sits at v1.0.0-rc26 (2026-10-05), moving roughly weekly since summer 2026, which means five years without a stable 1.0.
+The release line reached v1.0.0 on 2026-10-13, the engine's first stable major: the train had moved roughly weekly since summer 2026 through v1.0.0-rc26 (2026-10-05) after five years of pre-1.0 releases, so the stable gate fell to a routine two-pull changelog rather than a launch.
 The only HN story remains the 2-point, zero-comment 2022 launch of the low-code era, and I found no independent coverage of the agent pivot this run, which is the adoption signal to weigh against the star count.
 
 ## Strengths
@@ -44,7 +44,7 @@ The only HN story remains the 2-point, zero-comment 2022 launch of the low-code 
 
 - The star count measures the 2021-2022 low-code engine, not the agent workspace.
 - The modified license requires preserving the logo and the certificate-verification logic, and it requires a commercial license for organizations with 50 or more employees or over $1M annual revenue, so this is not plain open source.
-- Five years of releases still short of 1.0, plus a rebrand from yaoapps.com to yaoagents.com, is pivot churn to price in.
+- Five years to reach 1.0, plus a rebrand from yaoapps.com to yaoagents.com, is pivot churn to price in.
 - The repository ships a "Guide for AI Agents" issue instructing AI assistants how to research and describe it, which I read as marketing aimed at the agent-research channel rather than at developers.
 
 ## Pricing
@@ -67,6 +67,7 @@ Not for anyone reading the 8k stars as agent-era adoption, and not for pure open
 
 - 2026-10-06 - Created.
 - 2026-10-07 - Added the YaoApp/yao star history chart to the Status section.
+- 2026-10-13 - Recorded v1.0.0 (2026-10-13), the engine's first stable major after the five-year pre-1.0 line, and refreshed the star count to 8,122.
 
 ## See also
 

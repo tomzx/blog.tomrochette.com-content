@@ -14,14 +14,15 @@ The tools that decide what enters the context window: semantic engines, code gra
 - [code-review-graph](code-review-graph/index.md) - the local Tree-sitter code graph served over MCP as review context, blast radius and risk scores with the category's most self-critical benchmarks, 32k stars in eight months and a review-first name on a context engine.
 - [CodeAlive](codealive/index.md) - the hosted context-engine API serving a code graph and hybrid retrieval to any MCP agent on metered per-action pricing, from a small London company with no independent coverage yet.
 - [Context7](context7/index.md) - Upstash's hosted docs-injection service pulling version-specific library documentation into the prompt at question time over MCP or a CLI skill, the category's only engine that indexes the world's libraries instead of your repo.
-- [Entroly](entroly/index.md) - the Apache-2.0 receipt-backed compression layer that selects evidence within a token budget, records every omission, and recovers the exact original bytes on demand, the category's audit-first bet at 475 stars.
-- [Graft](graft/index.md) - Trail's MIT context layer feeding agents a code graph instead of grep, 9.8k stars in fourteen weeks with every benchmark still the vendor's own.
+- [Entroly](entroly/index.md) - the Apache-2.0 receipt-backed compression layer that selects evidence within a token budget, records every omission, and recovers the exact original bytes on demand, the category's audit-first bet at 476 stars.
+- [Graft](graft/index.md) - Trail's MIT context layer feeding agents a code graph instead of grep, 9.9k stars in fourteen weeks with every benchmark still the vendor's own.
 - [Graphify](graphify/index.md) - the local AST knowledge graph exposed as a `/graphify` skill and MCP server, structure over similarity, no vectors.
 - [Headroom](headroom/index.md) - the Apache-2.0 compression layer rewriting tool outputs, logs, files, and RAG chunks before they reach the LLM, reversible through a retrieve tool, 75k stars in nine months.
-- [Jevgrep](jevgrep/index.md) - the MIT CLI that answers a question about a repo with files, leads, and excerpts, Jev judging relevance per query with no index at all, 2,556 stars in fifteen days.
+- [Jevgrep](jevgrep/index.md) - the MIT CLI that answers a question about a repo with files, leads, and excerpts, Jev judging relevance per query with no index at all, 2,645 stars in seventeen days.
 - [LLMLingua](llmlingua/index.md) - Microsoft Research's MIT prompt-compression library (perplexity token pruning plus a GPT-4-distilled BERT-class compressor), the peer-reviewed ancestor of this category's compression products, 6.7k stars.
 - [qmd](qmd/index.md) - Tobias Lütke's local hybrid search engine for notes, docs, and knowledge bases, BM25 plus vectors plus reranking.
 - [Repomix](repomix/index.md) - the MIT CLI that packs a whole repo into one AI-friendly file, retrieval-free by design.
+- [Repowise](repowise/index.md) - the AGPL-3.0 local index of call graph, git history, tests, and decisions served to agents over ten task-shaped MCP tools, with code-health analytics and self-run context-tool benchmarks on the same index.
 - [rtk](rtk/index.md) - the Rust CLI proxy that filters agent command output before it enters the context window.
 - [Semble](semble/index.md) - the local static-embedding-plus-BM25 code search index that indexes in under a second on any CPU, snippets instead of grep-and-read.
 - [Serena](serena/index.md) - the LSP-backed MCP toolkit giving agents IDE-grade symbol retrieval and editing for free, with a paid JetBrains backend, about 30k stars.
@@ -55,3 +56,4 @@ Its members are compared on shared rows in the [Context Engines Feature Matrix](
 - 2026-10-11 - Added Vanna.
 - 2026-10-12 - Added Entroly.
 - 2026-10-13 - Added SoL-Pi.
+- 2026-10-13 - Added Repowise.

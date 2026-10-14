@@ -1,7 +1,7 @@
 ---
 title: LLMLingua
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, prompt-compression, research]
 readability: 3
@@ -24,7 +24,7 @@ MIT-licensed, built by the Microsoft Research group behind the papers (Huiqiang 
 
 ## Status
 
-Research-mature and in maintenance: 6,745 stars and 436 forks since 2023-07-07, pushed 2026-09-10, 124 open issues, as of 2026-10-11 (GitHub API).
+Research-mature and in maintenance: 6,746 stars and 437 forks since 2023-07-07, pushed 2026-09-10, 124 open issues, as of 2026-10-13 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/LLMLingua&type=date&theme=dark&legend=top-left" />

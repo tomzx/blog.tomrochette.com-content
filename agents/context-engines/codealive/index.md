@@ -1,7 +1,7 @@
 ---
 title: CodeAlive
 created: 2026-10-05
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, code-graphs, mcp, saas]
 readability: 3
@@ -47,7 +47,7 @@ Every performance claim (45 percent fewer tokens, about 25 times lower model cos
 
 ## Pricing
 
-Free ($0, 1 user, 1 workspace, 25 MB of repos, 100 chat requests per month, MCP access), Hobby ($15/month with a $15 usage balance, 1 developer, up to 100 MB), Pro ($50/month balance, 1-3 developers, deep analysis and AI code review), and Team (from $100/month balance, 5-15 developers, 100-500 MB), all as of 2026-10-11.
+Free ($0, 1 user, 1 workspace, 25 MB of repos, 100 chat requests per month, MCP access), Hobby ($15/month with a $15 usage balance, 1 developer, up to 100 MB), Pro ($50/month balance, 1-3 developers, deep analysis and AI code review), and Team (from $100/month balance, 5-15 developers, 100-500 MB), all as of 2026-10-13.
 Usage is metered per action: search $0.02, chat $0.15, deep analysis $0.30, code review $0.50.
 
 ## Price history

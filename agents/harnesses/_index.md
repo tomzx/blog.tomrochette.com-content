@@ -14,6 +14,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Amp](amp/index.md) - Sourcegraph-spun-out agent whose orbs keep working after you close the laptop, free on your own compute, subscriptions, or keys since September 13.
 - [Ante](ante/index.md) - Antigma Labs' ~15MB Rust harness with an embedded llama.cpp engine, offline GGUF or 12+ cloud providers, footprint as the product.
 - [Atomic Agent](atomic-agent/index.md) - AtomicBot-ai's MIT local-first harness over its own TurboQuant llama.cpp fork, grammar-constrained tool calls and Fusion worker pool built so small models survive long runs.
+- [AutoDev](auto-dev/index.md) - Phodal's MPL-2.0 Kotlin Multiplatform agent platform, five agents and nine subagents across IDEA, VS Code, CLI, web, and mobile, Xiuper 3.0 still alpha under a one-person bus factor.
 - [Avante.nvim](avante-nvim/index.md) - the Apache-2.0 Neovim plugin running a Cursor-style agentic loop in the editor with bring-your-own providers, 18.2k stars and a 300-point launch thread behind it.
 - [Bullet](bullet/index.md) - TryBullet's closed-source YC S26 latency bet, free today, with a published 479-of-500 SWE-bench run.
 - [Claude Code](claude-code/index.md) - Anthropic's everywhere-at-once harness, the platform benchmark and the token-cost cautionary tale.
@@ -27,16 +28,18 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [fx](fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
 - [goose](goose/index.md) - Block's Rust agent turned Linux Foundation project, the field's first foundation-governed harness.
+- [gptme](gptme/index.md) - the 2023-vintage MIT terminal agent, the category's oldest codebase, whose git-based persistent-agent layer and cross-harness memory make it the autonomous-coworker bet.
 - [Grok Build](grok-build/index.md) - SpaceXAI's Apache-2.0 Rust TUI agent, open-sourced to a 590-point thread, monorepo-synced releases, the wire-level privacy analysis attached.
 - [jcode](jcode/index.md) - Solo Systems' Rust harness for parallel agents, RAM floor, native memory and swarm, self-dev included.
 - [Juggler](juggler/index.md) - Julian Storer's AGPL Go GUI agent, conversations as branchable trees with every tool call inspectable.
 - [Junie](junie/index.md) - JetBrains' plan-first agent with BYOK, IDE-grade grounding, and a free on-device Local mode for Mac.
 - [Kilo Code](kilo-code/index.md) - the Cline-and-Roo feature-merge under MIT, subagents through cloud tasks bundled in, Anaconda's since July 2026.
 - [Kimi Code](kimi-code/index.md) - Moonshot AI's terminal agent tuned for its own challenger-priced models, subagents through ACP in one Node.js CLI.
+- [LongHorizon-Harness](longhorizon-harness/index.md) - Alibaba DreamX's MIT audited computer-use loop wrapping Claude Code, Codex, OpenCode, and DeepSeek Harness as backends, quiet since its August paper.
 - [MiMo Code](mimo-code/index.md) - Xiaomi's MIT OpenCode fork, a terminal agent built around checkpointed memory and goal-verified long-horizon runs, priced on cheap MiMo tokens.
 - [Mini-SWE-agent](mini-swe-agent/index.md) - the SWE-bench team's roughly-100-line Python baseline harness, 11.6 million PyPI downloads a month, the project its own parent repository now supersedes SWE-agent with.
 - [Nanocoder](nanocoder/index.md) - the Nano Collective's community-built local-first agent, MIT via npm with the widest documented local-engine list, funded by sponsors instead of a company.
-- [Oh My Pi](oh-my-pi/index.md) - Stencil Labs' batteries-included Pi fork with LSP and a real debugger wired into the loop, 35.1k stars past its frozen-core parent.
+- [Oh My Pi](oh-my-pi/index.md) - Stencil Labs' batteries-included Pi fork with LSP and a real debugger wired into the loop, 35.2k stars past its frozen-core parent.
 - [Omnigent](omnigent/index.md) - Databricks' Apache-2.0 meta-harness wrapping Claude Code, Codex, Cursor, OpenCode, Pi, and custom YAML agents behind one API, with policies, sandboxes, and live session sharing.
 - [OmO](om-o/index.md) - the source-available 70k-star terminal agent on its senpi Pi fork (memory, CodeMode, ultracode, Herdr DAG side pane), the scale-versus-trust test case with a custom per-portion license and an AI-persona maintainer.
 - [OneCLI](onecli/index.md) - the YC S26 Apache-2.0 team harness where a credential gateway injects secrets per request, so agents never hold them.
@@ -93,3 +96,6 @@ Its members are compared on shared rows in the [Harness Feature Matrix](harness-
 - 2026-10-10 - Added Atomic Agent.
 - 2026-10-13 - Added Avante.nvim.
 - 2026-10-13 - Added OmO.
+- 2026-10-13 - Added AutoDev.
+- 2026-10-13 - Added gptme.
+- 2026-10-13 - Added LongHorizon-Harness.

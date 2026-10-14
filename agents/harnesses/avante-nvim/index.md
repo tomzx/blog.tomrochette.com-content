@@ -28,8 +28,8 @@ The repository moved from the author's personal account to the avante-corp organ
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=avante-corp/avante.nvim&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=avante-corp/avante.nvim&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=avante-corp/avante.nvim&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=avante-corp/avante.nvim&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=avante-corp/avante.nvim&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -67,6 +67,7 @@ Not for team governance needs, scheduled or cloud execution, or anyone unwilling
 ## Changes
 
 - 2026-10-13 - Created.
+- 2026-10-13 - Corrected the star-history chart markup: the light source and fallback image dropped the dark-theme parameter to match the canonical chart block.
 
 ## See also
 

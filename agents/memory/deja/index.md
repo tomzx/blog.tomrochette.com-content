@@ -1,7 +1,7 @@
 ---
 title: deja
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, transcripts, retrieval, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Beyond search it adds `deja promote` (curated notes with accepted and rejected l
 ## Status
 
 **Young, fast-moving, and single-maintainer, with adoption ahead of any public discussion.**
-1,169 stars, 112 forks, and 11 open issues and pull requests, created 2026-07-14, pushed 2026-10-10, MIT, as of 2026-10-11 (GitHub API).
+1,183 stars, 114 forks, and 23 open issues and pull requests, created 2026-07-14, pushed 2026-10-12, MIT, as of 2026-10-13 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,8 @@ Beyond search it adds `deja promote` (curated notes with accepted and rejected l
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&theme=dark&legend=top-left" />
 </picture>
 
-Latest release v0.22.0 (2026-10-09) after a six-release October train (v0.21.4 through v0.22.0 in twelve days).
+Latest release v0.22.1 (2026-10-12) after a seven-release October train (v0.21.4 through v0.22.1 in fourteen days).
+v0.22.1 makes session playback show the code each edit changed, line by line, for Claude Code, Codex, and every harness whose transcript holds its edit calls, adds `deja resume <id> --app` to open a Codex session in the ChatGPT desktop app, cuts session start to 0.38 seconds and the per-prompt hook to 0.59 seconds on a 19,000-session index (from 1.46 and 1.65), masks secrets that slipped past redaction, and moves the index version to 70, so the store rebuilds once on the first run after upgrading.
 I found no Hacker News thread for the tool through 2026-10-10 searches (the name collides with two decades of unrelated deja vu stories), so the 1.2k stars in three months rest on package managers, MCP registries, and its Awesome-Agent-Memory placement, the stars-ahead-of-discussion pattern this section has flagged across the category.
 
 ## Strengths
@@ -69,6 +70,7 @@ Not for teams needing multi-user memory, audited third-party evaluation, or reca
 ## Changes
 
 - 2026-10-10 - Created from the 2026-10-10 Awesome-Agent-Memory entrant scan, with seven fetched sources and the self-run-benchmark-plus-no-discussion-footprint combination recorded as the critical angle.
+- 2026-10-13 - Recorded the v0.22.1 release (session playback showing each edit's removed and added lines, `deja resume <id> --app` opening Codex sessions in the ChatGPT desktop app, session start cut to 0.38 seconds and the per-prompt hook to 0.59 seconds on a 19,000-session index, post-redaction secret masking, and the index-version-70 one-time rebuild), extending the October train to seven releases; refreshed stars to 1,183 and the push date to 2026-10-12.
 
 ## See also
 
@@ -82,7 +84,7 @@ Not for teams needing multi-user memory, audited third-party evaluation, or reca
 
 - https://github.com/vshulcz/deja-vu - repository, MIT, 1,169 stars, 112 forks, 11 open issues and PRs, created 2026-07-14, pushed 2026-10-10, as of 2026-10-11
 - https://raw.githubusercontent.com/vshulcz/deja-vu/main/README.md - architecture, the 41-harness support matrix, the single-tool MCP surface, redaction, promote lifecycle, sync, install paths, and the comparison table
-- https://api.github.com/repos/vshulcz/deja-vu/releases - the release train through v0.22.0 (2026-10-09)
+- https://api.github.com/repos/vshulcz/deja-vu/releases - the release train through v0.22.1 (2026-10-12)
 - https://api.github.com/repos/vshulcz/deja-vu/license - the MIT license file, verified through the GitHub API
 - https://vshulcz.github.io/deja-vu/ - the docs site: the 41-harness list, the no-capture positioning, and the per-harness memory guides
 - https://vshulcz.github.io/deja-vu/guide/benchmarks.html - LongMemEval-S 88.1 percent cleaned-set hit@1, LoCoMo 70.5 percent retrieval-only hit@1, the committed run artifacts, the rival-submission format, and the self-critical readings

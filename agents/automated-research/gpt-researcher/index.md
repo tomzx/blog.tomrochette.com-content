@@ -16,14 +16,14 @@ GPT Researcher is the Apache-2.0 open-source research agent that plans a questio
 
 ## What it is
 
-A Python package (pip install gpt-researcher), a REST API stack, and a Docker image by Assaf Elovic, installable from PyPI or Docker Hub (30,011 stars, pushed 2026-10-10, as of 2026-10-11).
+A Python package (pip install gpt-researcher), a REST API stack, and a Docker image by Assaf Elovic, installable from PyPI or Docker Hub (30,060 stars, pushed 2026-10-10, as of 2026-10-13).
 The loop runs in four stages: plan the sub-questions, search each in parallel across 20-plus sources per report, keep only passages that answer the question, and write the cited report in Markdown, PDF, or Word.
 Around the core sit a recursive deep-research mode that branches until a topic is exhausted, LangGraph and AG2 multi-agent teams that plan, research, review, and publish together, MCP servers as sources, and your own PDFs, Word files, spreadsheets, and Markdown joined with the web.
 Since v3.7.0 the context filter runs Jev by default with a local keyword-ranking fallback, so no embeddings provider or key is required.
 
 ## Status
 
-Active: created 2023-05-12, 30,011 stars, release v3.7.0 published 2026-09-26, PyPI package at 0.16.1, as of 2026-10-11.
+Active: created 2023-05-12, 30,060 stars, release v3.7.0 published 2026-09-26, PyPI package at 0.16.1, as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=assafelovic/gpt-researcher&type=date&theme=dark&legend=top-left" />

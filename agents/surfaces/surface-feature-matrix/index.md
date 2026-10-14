@@ -1,7 +1,7 @@
 ---
 title: "Surface Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, surfaces, ai-editors]
 readability: 3
@@ -23,7 +23,7 @@ Each column links to the full research note; every cell traces to a source cited
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Kind | self-building agent IDE over desktop, web, CLI, and HTTP API | infinite-canvas desktop workspace | Claude Code desktop workbench with Agent Teams and IM remote access | multi-agent coding workspace aggregating sessions over desktop, server, and Docker | OpenCode cockpit over desktop (Electron and Tauri) and browser, with a self-host server mode | platform, IDE, CLI, SDK | extensions and CLI | multiplayer agent environment over DeltaDB | VS Code fork | IDE suite | closed IDE | visual workspace where humans and agents co-edit files with per-block diffs | local session app | browser IDE for reviewing AI-generated code, one static Go binary served over HTTP, read-first with harness handoff | VS Code extension | VS Code fork | Electron desktop IDE wrapping agent CLIs with a project dashboard, kanban, and session grid | Windows IDE | VS Code fork | editor plus extensions | desktop canvas app where agents draw and humans review | VS Code fork | Rust editor |
 | Open source | ✓ MIT | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✗ | ✓ Apache-2.0 | ✗ | ✗ | ~ Community IDEs | ✗ | ✓ MIT apps, AGPL server | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✗ | ✓ MIT | ✗ | ✓ Apache-2.0 | ~ MIT editor | ✓ MIT app and SDK | ✗ | ~ mixed licenses |
-| Free tier | ✓ free and open source | ✓ free and open source | ✓ free and open source | ✓ free and open source | ✓ free and open source | ✓ unlimited completions | ✓ Hobby | ✓ beta free | ✓ Individuals $0 | ✓ free to start (Junie Lite) | ✓ 50 credits | ✓ free for individuals, Teams free in beta | ✓ | ✓ free and open source | ✓ BYOK extension | ✓ | ✓ free and open source | ✓ Community | ✓ | ✓ Copilot Free | ✓ free and local-only in beta | ✓ Devin account | ✓ |
+| Free tier | ✓ free and open source | ✓ free and open source | ✓ free and open source | ✓ free and open source | ✓ free and open source | ✓ unlimited completions | ✓ Free (X-fused ladder, 2026-10-13) | ✓ beta free | ✓ Individuals $0 | ✓ free to start (Junie Lite) | ✓ 50 credits | ✓ free for individuals, Teams free in beta | ✓ | ✓ free and open source | ✓ BYOK extension | ✓ | ✓ free and open source | ✓ Community | ✓ | ✓ Copilot Free | ✓ free and local-only in beta | ✓ Devin account | ✓ |
 | BYOK | ✓ drives the provider CLIs you authenticated | ✓ via your agent CLIs and keys | ✓ model picker with custom and local endpoints | ✓ drives the agents you already run | ✓ via OpenCode's configured providers | ✗ | ✓ | ✓ | ~ SDK local servers only, no BYOK in plans | ✓ Junie | ✗ | ✓ your Claude Code or Codex subscription or key | ✓ via OpenCode | ✓ via the harnesses it dispatches to (Claude Code, Cursor Agent, Antigravity, OpenCode), no model access of its own | ✓ | ? | ✓ through the CLIs it hosts (multiple isolated Claude profiles) | ✓ preview (Foundry, OpenAI, Anthropic, Ollama) | ✓ | ✓ | ✓ brings your own harness (Claude Code, Codex) | ✗ Devin key only | ✓ |
 | Local models | ? not verified | ~ via your agent CLIs | ✓ local endpoints documented | ? not verified | ✓ via OpenCode | ✗ | ✗ not documented | ~ via external agents | ~ via the SDK (LiteRT or Ollama) | ✓ Junie | ✗ | ~ via hosted agents (OpenCode in alpha) | ✓ via OpenCode | ~ via the harnesses it dispatches to | ✓ | ? | ~ via the wrapped CLIs | ✓ Ollama in BYOK preview | ? | ✓ | ✓ local-only today | ? | ✓ |
 | MCP | ? not verified | ? not verified | ✓ visual management | ✓ | ✓ connection and plugin management | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ client and servers, results as widgets | ✓ | ? not verified | ✓ | ✓ | ? not verified | ✓ in agent mode | ? | ✓ | ? not verified | ✓ | ✓ |
@@ -67,10 +67,6 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 
 ## Changes
 
-- 2026-10-11 - Extended from twenty-two to twenty-three columns with px0 (the MIT browser IDE for reviewing AI-generated code, one static Go binary with PR review and harness handoff), inserted in case-insensitive sorted position between OpenChamber and Roo Code and traced to the new note; the intro, the cloud-agents reading, the death-records count, and the choosing section updated, and the px0 references added.
-
-- 2026-10-11 - Extended from twenty-one to twenty-two columns with CodeNomad (the MIT desktop-and-browser OpenCode cockpit with a self-host server mode and OpenTunnel phone pairing), inserted alphabetically between Codeg and Continue, every row gaining a cell traced to the new note; updated the intro, the cloud-agents reading, and the choosing section, and added its references.
-
 - 2026-08-24 - Created in the owner-requested matrix run, ten surfaces by eleven feature rows.
 - 2026-08-26 - Added a first-person reading line per the writing rules.
 - 2026-08-26 - Extended from ten to twelve columns with Continue and Roo Code, adding the death-records paragraph.
@@ -90,6 +86,9 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - 2026-10-09 - Corrected the JetBrains IDEs free-tier cell against the vendor's redesigned plans page: the free start is now described as Junie Lite, a free model always on in every JetBrains account, where the cell carried the earlier 5-credit allotment; the two paid figures are exposed again on the same page ($8.33 and $25.00 per user/month, unchanged).
 - 2026-10-10 - Extended from sixteen to seventeen columns with Vibeyard, the MIT desktop IDE wrapping Claude Code, Codex CLI, and Gemini CLI (kanban cards that spawn and close sessions, isolated Claude profiles, WebRTC session sharing), inserted in sorted position between Trae and Visual Studio 2026; updated the intro, reading, and choosing sections, and corrected the death-records line's stale column count (it still said fifteen after Cate joined).
 - 2026-10-11 - Extended from seventeen to twenty-one columns with bb (the self-building agent IDE, at the head of the sorted row), cc-haha (the Claude Code desktop workbench) and Codeg (the session-aggregating workspace with native mobile clients) between Cate and Continue, and Nimbalyst (the human-and-agent co-editing workspace) between Kiro and OpenChamber; updated the intro, reading, and choosing sections.
+- 2026-10-11 - Extended from twenty-one to twenty-two columns with CodeNomad (the MIT desktop-and-browser OpenCode cockpit with a self-host server mode and OpenTunnel phone pairing), inserted alphabetically between Codeg and Continue, every row gaining a cell traced to the new note; updated the intro, the cloud-agents reading, and the choosing section, and added its references.
+- 2026-10-11 - Extended from twenty-two to twenty-three columns with px0 (the MIT browser IDE for reviewing AI-generated code, one static Go binary with PR review and harness handoff), inserted in case-insensitive sorted position between OpenChamber and Roo Code and traced to the new note; the intro, the cloud-agents reading, the death-records count, and the choosing section updated, and the px0 references added.
+- 2026-10-13 - Corrected the Cursor free-tier cell after the vendor's pricing restructure: the Hobby tier name is gone and the page now sells Free, Plus, Premium, Super, and Ultra under X Subscription Corp, so the cell reads Free with the date; returned the two misplaced 2026-10-11 extension bullets to date order while appending this one.
 
 ## See also
 

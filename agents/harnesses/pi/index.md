@@ -1,7 +1,7 @@
 ---
 title: Pi
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, byok, extensibility]
 readability: 3
@@ -25,7 +25,7 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 ## Status
 
-Active and ascending: 114,420 stars, 14,573 forks, 321 open issues and PRs as of 2026-10-12.
+Active and ascending: 114,732 stars, 14,573 forks, 321 open issues and PRs as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=earendil-works/pi&type=date&theme=dark&legend=top-left" />
@@ -33,8 +33,8 @@ Active and ascending: 114,420 stars, 14,573 forks, 321 open issues and PRs as of
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=earendil-works/pi&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-09, pushed within a day of verification, releases roughly weekly, reaching v1.0.0 on October 1, 2026, then v1.0.1 (October 3: a Nix flake install, project-level MCP server overrides, MCP OAuth client-ID metadata documents, tool renderers for tools that are not registered yet, and Cloudflare Clef classifiers usable from codemode), v1.0.2 (October 4: sampling parameters configurable per thinking level on OpenAI-compatible APIs), v1.0.3 (October 5: the Azure provider renamed from `azure-openai-responses` to `azure` with Foundry Chat Completions deployments starting at `azure/deepseek-v4-pro`, codemode images saved to files, output files locked to the user), v1.0.4 (October 5: `*` patterns for `--tools` and `--exclude-tools`, a per-run `--no-mcp` flag, and codemode image read-back), and v1.1.0 (October 7: program status reporting over the OSC 7501 terminal sequence, Claude Haiku 5.5 with adaptive thinking, `+name`/`-name` entries that adjust the default tool selection, GPT-6 Luna image classification through the Decisions API, and native llama.cpp decision models); the v0.99 line (September 29-30) shipped the biggest capability change in the project's history, codemode, tool search, and MCP support as built-in extensions, and v1.0.0 made the TUI fullscreen by default, cut codemode prompt tokens by about 40 percent, and hardened MCP OAuth.
-**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 35.1k stars as of 2026-10-12, exists precisely because some users want the features Pi refuses to ship.**
+Created 2025-08-09, pushed within a day of verification, releases roughly weekly, reaching v1.0.0 on October 1, 2026, then v1.0.1 (October 3: a Nix flake install, project-level MCP server overrides, MCP OAuth client-ID metadata documents, tool renderers for tools that are not registered yet, and Cloudflare Clef classifiers usable from codemode), v1.0.2 (October 4: sampling parameters configurable per thinking level on OpenAI-compatible APIs), v1.0.3 (October 5: the Azure provider renamed from `azure-openai-responses` to `azure` with Foundry Chat Completions deployments starting at `azure/deepseek-v4-pro`, codemode images saved to files, output files locked to the user), v1.0.4 (October 5: `*` patterns for `--tools` and `--exclude-tools`, a per-run `--no-mcp` flag, and codemode image read-back), and v1.1.0 (October 7: program status reporting over the OSC 7501 terminal sequence, Claude Haiku 5.5 with adaptive thinking, `+name`/`-name` entries that adjust the default tool selection, GPT-6 Luna image classification through the Decisions API, and native llama.cpp decision models), and v1.2.0 (October 12: per-key OpenRouter model lists, so an OpenRouter key lists only the models it may use, with the key's context sizes, output limits, and prices, including regional endpoints set in `models.json`); the v0.99 line (September 29-30) shipped the biggest capability change in the project's history, codemode, tool search, and MCP support as built-in extensions, and v1.0.0 made the TUI fullscreen by default, cut codemode prompt tokens by about 40 percent, and hardened MCP OAuth.
+**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 35.2k stars as of 2026-10-13, exists precisely because some users want the features Pi refuses to ship.**
 
 ## Strengths
 
@@ -78,6 +78,7 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - 2026-10-06 - Recorded the v1.0.3 (October 5) and v1.0.4 (October 5) releases, which renamed the Azure provider to `azure` with Foundry Chat Completions deployments, saved codemode images to files, added `*` patterns for tool selection and a per-run `--no-mcp` flag, and locked output files to the user, and refreshed counters, including the oh-my-pi fork at about 34.4k stars.
 - 2026-10-07 - Added the earendil-works/pi star history chart to the Status section.
 - 2026-10-08 - Recorded the v1.1.0 release (October 7), which added program status reporting over OSC 7501, Claude Haiku 5.5 with adaptive thinking, `+name`/`-name` default-tool adjustments, GPT-6 Luna image classification through the Decisions API, and native llama.cpp decision models, and refreshed counters.
+- 2026-10-13 - Recorded the v1.2.0 release (October 12), which made OpenRouter model lists per-key, so a key lists only the models it may use with its context sizes, output limits, and prices, and refreshed counters.
 
 ## See also
 
@@ -89,8 +90,9 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 ## References
 
 - https://github.com/earendil-works/pi - repository, packages, license, contribution policy
+- https://github.com/earendil-works/pi/releases - the release train behind the Status section (verified via the GitHub API)
 - https://raw.githubusercontent.com/earendil-works/pi/HEAD/packages/coding-agent/README.md - install, providers, four modes, philosophy
 - https://pi.dev - positioning, extension model, and the list of features deliberately not built
 - https://mariozechner.at/posts/2025-11-30-pi-coding-agent/ - the author's rationale for the minimal prompt and YOLO default
 - https://news.ycombinator.com/item?id=46844822 - the 421-point thread with pushback on the security posture
-- https://github.com/can1357/oh-my-pi - the batteries-included fork at about 35.1k stars, the counterargument in running code
+- https://github.com/can1357/oh-my-pi - the batteries-included fork at about 35.2k stars, the counterargument in running code

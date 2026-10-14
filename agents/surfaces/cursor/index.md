@@ -1,7 +1,7 @@
 ---
 title: Cursor
 created: 2026-08-23
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, surfaces, ai-editors, anysphere]
 readability: 3
@@ -26,7 +26,8 @@ OpenAI notified Anysphere on August 28, 2026 that it is winding down Cursor's di
 SpaceX completed the acquisition on August 14, 2026, closing a process that started with the SpaceXAI training partnership announced in April 2026, and the June 2026 announcement thread carried a $60 billion price.
 The vendor-announced 2026 record includes a Gartner Magic Quadrant Leader placement (May) and an agent-security certification (August).
 On August 31, 2026 the OpenAI split went public: OpenAI cited terms-of-service confidence after the acquisition, Cursor's CEO put OpenAI models at about 5% of user traffic, and Anthropic publicly committed to keep serving Claude models in Cursor.
-As of 2026-10-11 the November 12, 2026 shutoff stands unrevised: OpenAI's own announcement still frames the date as proposed and no later reporting moves it, and the models docs still list the OpenAI models without a removal notice (re-verified 2026-10-11).
+As of 2026-10-13 the November 12, 2026 shutoff stands unrevised: OpenAI's own announcement still frames the date as proposed and no later reporting moves it, and the models docs still list the OpenAI models without a removal notice, GPT-5.6 Sol even carrying promotional pricing through November 21, 2026 (re-verified 2026-10-13).
+By 2026-10-13 the consumer plans had been restructured into X's subscription ladder (Plus, Premium, Super, Ultra), with Cursor subscriptions sold only through X Subscription Corp, the deepest merge yet of the editor into the acquirer's stack.
 
 ## Strengths
 
@@ -44,10 +45,11 @@ As of 2026-10-11 the November 12, 2026 shutoff stands unrevised: OpenAI's own an
 
 ## Pricing
 
-Hobby is free with limited agent requests and access to Composer.
-Individual plans are $20/month (Pro, with Pro+ at 3x and Ultra at 20x agent limits).
-Teams Standard is $40/user/month and Teams Premium is $120/user/month with 5x the Standard agent limits, Enterprise is custom, and on-demand usage bills in arrears on the paid tiers, as of 2026-10-11 (re-verified, unchanged).
-A Start plan for developers in India costs ₹649/month, tax inclusive, covering the first-party model pool and cloud agents.
+The pricing page was restructured by 2026-10-13 into an X-fused ladder: Free $0 (limited AI usage, agent and chat), Plus $8/month (Grok models only, with the social-creator feature set), Premium $30/month (4x Plus usage, cloud agents and automations, Bugbot, third-party models at API list price), Super $100/month (15x Plus), and Ultra $200/month (50x Plus), with Teams from $30/user/month and Enterprise custom, as of 2026-10-13.
+The usage pool is shared across the Cursor and Grok products and refreshes weekly rather than monthly, and third-party models bill at API list price on top of the subscription from Premium up.
+Subscriptions are sold only through X Subscription Corp under the SpaceXAI bundled-subscription terms.
+The docs still document the earlier request-based ladder as legacy: Pro $20/month, Pro+ $60/month, Ultra $200/month, Start (India only) at ₹649/month, and Teams Standard $40 and Premium $120 per user/month, with Max Mode marked legacy-only.
+On Teams and Enterprise, third-party model usage carries a new Cursor Token Rate of $0.25 per million tokens on top of model API pricing.
 
 ## Price history
 
@@ -55,6 +57,7 @@ A Start plan for developers in India costs ₹649/month, tax inclusive, covering
 | ---- | ---- | ------ | ------ |
 | 2026-09-18 | All tiers | Baseline: Hobby free with limited agent requests, Individual Pro $20/mo (Pro+ at 3x, Ultra at 20x limits), Teams Standard and Premium $40/user/mo, Enterprise custom, on-demand usage billed in arrears. | [cursor.com/pricing](https://cursor.com/pricing) |
 | 2026-10-05 | Teams Premium | Corrected: Teams Premium is $120/user/mo with 5x the Standard agent limits, where the baseline row carried it at $40 alongside Standard; Standard stays $40/user/mo. A Start plan for India (₹649/mo) sits outside the listed ladder. | [cursor.com/docs/models-and-pricing](https://cursor.com/docs/models-and-pricing) |
+| 2026-10-13 | Consumer ladder | The pricing page was restructured into an X-fused ladder: Free $0, Plus $8 (Grok models only), Premium $30, Super $100, Ultra $200, Teams from $30/user/month, Enterprise custom, with the usage pool shared across Cursor and Grok and refreshed weekly, and sales routed through X Subscription Corp; the docs now mark the $20 Pro / $60 Pro+ / $200 Ultra request-based ladder (Start ₹649, Teams $40/$120) as legacy. | [cursor.com/pricing](https://cursor.com/pricing) |
 
 ## Compared to
 
@@ -76,6 +79,7 @@ Not for anyone who needs an open, auditable toolchain or a predictable bill.
 - 2026-09-27 - Re-confirmed the November 12, 2026 OpenAI shutoff unrevised and the plan prices unchanged.
 - 2026-10-05 - Corrected the Teams pricing (Premium is $120/user/mo with 5x Standard limits, not $40) per the models-and-pricing docs, added the India-only Start plan (₹649/mo), and recorded AGENTS.md support alongside Cursor's own rules; the November 12 OpenAI shutoff stands unrevised.
 - 2026-10-10 - Re-verified the plan prices unchanged and the November 12, 2026 OpenAI shutoff unrevised (the models-and-pricing docs still list the OpenAI models without a removal notice).
+- 2026-10-13 - Recorded the pricing page's restructure into the X-fused ladder (Free, Plus $8 Grok-only, Premium $30, Super $100, Ultra $200, Teams from $30/user) with the shared weekly usage pool and X Subscription Corp as the sole seller, the docs marking the $20/$60/$200 request-based ladder and the $40/$120 Teams prices as legacy, and the new $0.25/M Cursor Token Rate on Teams and Enterprise third-party usage (Price history row); the November 12 OpenAI shutoff stands unrevised with the OpenAI models still listed.
 
 ## See also
 
@@ -86,8 +90,8 @@ Not for anyone who needs an open, auditable toolchain or a predictable bill.
 
 ## References
 
-- https://cursor.com/pricing - tiers, limits language, privacy mode, re-verified 2026-10-11
-- https://cursor.com/docs/models-and-pricing - plan ladder including Teams Premium $120 and the India Start plan, cloud agents, automations, and Cursor for iOS, re-verified 2026-10-11 (OpenAI models still listed without a removal notice)
+- https://cursor.com/pricing - the pricing page, restructured by 2026-10-13 into the X-fused ladder (Free, Plus $8, Premium $30, Super $100, Ultra $200, Teams from $30/user, Enterprise custom) with the weekly shared usage pool and the X Subscription Corp seller statement
+- https://cursor.com/docs/models-and-pricing - the legacy plan ladder (Pro $20, Pro+ $60, Ultra $200, Start ₹649, Teams Standard $40 and Premium $120), the per-model rate card, and the Cursor Token Rate, with the OpenAI models still listed without a removal notice as of 2026-10-13
 - https://cursor.com/docs/rules - the rules system and AGENTS.md support in project root and subdirectories, as of 2026-10-05
 - https://cursor.com/blog/joining-spacex - the August 14, 2026 acquisition completion post
 - https://devops.com/openai-cuts-off-cursors-model-access-after-spacex-acquisition/ - the OpenAI wind-down, the November 12, 2026 shutoff, and the 5% traffic claim, September 2026

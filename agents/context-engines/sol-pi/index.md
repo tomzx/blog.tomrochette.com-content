@@ -22,14 +22,14 @@ The project page reports the efficiency results from the paper's auto-research b
 
 ## Status
 
-Young and active: 3,443 stars, 273 forks, and 78 open issues as of 2026-10-13, created 2026-09-02 and pushed the day of this check, MIT licensed, with work continuing toward a Pi v1 baseline.
+Young and active: 3,444 stars, 273 forks, and 78 open issues as of 2026-10-13, created 2026-09-02 and pushed the day of this check, MIT licensed, with work continuing toward a Pi v1 baseline.
 **The attention record is thin for the star count: three small Hacker News posts between September and October 2026 (3, 2, and 2 points), so the stars ride the NV Labs name and the awesome-list circuit rather than debate.**
 It extends unmodified Pi rather than forking it, which distinguishes it from the rejected third-Pi-derivative family in the harnesses category.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVlabs/SoL-Pi&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=NVlabs/SoL-Pi&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NVlabs/SoL-Pi&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=NVlabs/SoL-Pi&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NVlabs/SoL-Pi&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -67,6 +67,7 @@ Not for other harnesses (port the ideas instead), or for teams needing independe
 ## Changes
 
 - 2026-10-13 - Created.
+- 2026-10-13 - Corrected the chart markup: the light-scheme source and the img fallback now point at the un-themed chart URL, matching the section convention (only the dark source carries the theme parameter).
 
 ## See also
 

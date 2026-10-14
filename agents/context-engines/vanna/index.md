@@ -1,7 +1,7 @@
 ---
 title: Vanna
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, text-to-sql, rag]
 readability: 3
@@ -21,7 +21,7 @@ The context mechanism is Tool Memory: every successful interaction is saved, and
 
 ## Status
 
-Archived upstream, alive commercially: the repository banner reads "This repository was archived by the owner on Mar 29, 2026. It is now read-only", and the API reports archived true with 23,822 stars, 2,537 forks, and 289 open issues as of 2026-10-11, last pushed 2026-02-02.
+Archived upstream, alive commercially: the repository banner reads "This repository was archived by the owner on Mar 29, 2026. It is now read-only", and the API reports archived true with 23,823 stars, 2,539 forks, and 289 open issues as of 2026-10-13, last pushed 2026-02-02.
 The last PyPI release is 2.0.2 on 2026-02-02 (2.0.0 shipped 2025-11-20; 78 releases total), and issues and discussions are frozen, so bug reports route through the docs and support channels.
 The company side is active: vanna.ai, the docs portal, and a three-tier pricing page all fetched unchanged this run, selling hosted admin features (access control, hosted vector memory, observability, audit logs) on top of the frozen core.
 The community footprint is dated but large: a 547-point launch thread on 2024-01-14 and 232 comments made it the reference text-to-SQL-RAG project, and nothing since.

@@ -1,7 +1,7 @@
 ---
 title: Nanocoder
 created: 2026-10-08
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, local-first, community-governance]
 readability: 3
@@ -29,8 +29,8 @@ The repository shows 2,508 stars and 355 forks, was created July 30, 2025, and w
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nano-Collective/nanocoder&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Nano-Collective/nanocoder&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Nano-Collective/nanocoder&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Nano-Collective/nanocoder&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Nano-Collective/nanocoder&type=date&legend=top-left" />
 </picture>
 
 Releases run monthly on the v1.x line: v1.29.0 (July 26, 2026), v1.30.0 (August 26), and v1.31.0 (September 26, which added Anthropic prompt caching, auto titles, retry caps, and `.nanocoderignore`).
@@ -71,6 +71,7 @@ My disagreeable claim: governance is currently Nanocoder's only hard moat, and a
 ## Changes
 
 - 2026-10-08 - Created from the harness entrant sweep, with the repository, README, docs, scheduler and ACP pages, npm registry and downloads, the collective site, and the Hacker News record fetched.
+- 2026-10-13 - Corrected the star-history chart markup: the light source and fallback image dropped the dark-theme parameter to match the canonical chart block.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-10-12
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 83,002 stars, 5,270 forks, and 1,500 open issues and pull requests combined as of 2026-10-12, created 2026-01-22, pushed 2026-10-12.
+Young and hot: 83,148 stars, 5,276 forks, and 1,512 open issues and pull requests combined as of 2026-10-13, created 2026-01-22, pushed 2026-10-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&theme=dark&legend=top-left" />
@@ -48,7 +48,7 @@ The site claims 18,000+ developers, a marketing figure, and the Show HN thread s
 - Lossy output is the product: an agent reading a condensed diff or collapsed test list can misread state, and the changelog shows a steady stream of filter-correctness bugs.
 - The hook only rewrites Bash tool calls, so built-in Read/Grep/Glob tools bypass filtering entirely, and unmatched commands pass through at zero savings; one user's own log showed 39 percent on their busiest day.
 - All savings numbers trace to the project or its users; no independent benchmark exists as of 2026-09-02.
-- A crates.io name collision is documented in its own README, and the combined open issues and PRs total 1,500 as of 2026-10-12.
+- A crates.io name collision is documented in its own README, and the combined open issues and PRs total 1,512 as of 2026-10-13.
 
 ## Pricing
 

@@ -1,7 +1,7 @@
 ---
 title: Serena
 created: 2026-10-04
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, lsp, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Distributed as `serena-agent` on PyPI; the application is GPL-3.0-or-later and t
 ## Status
 
 **Active and very large.**
-About 30.2k stars and 2,053 forks as of 2026-10-11, created 2025-03-23, pushed 2026-10-09, latest release v1.7.0 on 2026-08-09 (GitHub API), with the PyPI package at 1.7.0 across 15 releases and 147,731 downloads in the trailing month (unchanged as of 2026-10-11).
+About 30.2k stars and 2,062 forks as of 2026-10-13, created 2025-03-23, pushed 2026-10-12, latest release v1.7.0 on 2026-08-09 (GitHub API), with the PyPI package at 1.7.0 across 15 releases and 147,731 downloads in the trailing month (unchanged as of 2026-10-13).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=oraios/serena&type=date&theme=dark&legend=top-left" />

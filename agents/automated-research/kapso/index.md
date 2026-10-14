@@ -1,7 +1,7 @@
 ---
 title: Kapso
 created: 2026-10-11
-updated: 2026-10-12
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, optimization, program-synthesis, self-improving]
 readability: 3
@@ -24,7 +24,7 @@ Leeroopedia, the project's hosted ML knowledge wiki, connects as an MCP server d
 
 ## Status
 
-Active and accelerating: 122 stars, 14 forks, created 2025-12-07, last pushed 2026-10-11, with six releases on October 11 alone taking the train from v0.6.3 to v0.7.5, as of 2026-10-12.
+Active and accelerating: 123 stars, 15 forks, created 2025-12-07, last pushed 2026-10-12, with six releases on October 11 alone taking the train from v0.6.3 to v0.7.5 (the October 12 pushes are Leeroopedia documentation commits), as of 2026-10-13.
 The v0.7.0 release added cost-aware candidate selection, an estimator prices each finalized candidate before it runs, refusals and measured costs are recorded as campaign events, and the campaign stops when the next estimate would exhaust its budget, plus a `vertex_claude_code` agent that drives Claude Code on Vertex AI open-weight models; the checkpoint schema moved to version 3, so campaigns started before 0.7.0 cannot resume.
 
 <picture>
@@ -34,7 +34,7 @@ The v0.7.0 release added cost-aware candidate selection, an estimator prices eac
 </picture>
 
 The claimed results are concrete: #1 open-source on MLE-Bench, top ranking on ALE-Bench (1909 Elo against ALE Agent's 1879), RelBench wins over KumoRFM-v2 on Stanford's official leaderboard, and the IOAI 2026 AI Model Track, where the project reports a 536.07 total above all 471 human contestants and a Grand Master Trophy among the 14 founding AI participants, with IOAI's own account of the inaugural track published September 29, 2026.
-**The community footprint is nearly absent: a Hacker News search for the project returns zero stories as of 2026-10-11, the 121 stars are small for the claims, and the PyPI package named `kapso` is an unrelated WhatsApp tool that shadows this one in installs, a collision the README itself warns about.**
+**The community footprint is nearly absent: a Hacker News search for the project returns zero stories as of 2026-10-11, the 123 stars are small for the claims, and the PyPI package named `kapso` is an unrelated WhatsApp tool that shadows this one in installs, a collision the README itself warns about.**
 
 ## Strengths
 
@@ -72,6 +72,7 @@ Not for anyone needing independently audited headline numbers or a large user co
 - 2026-10-11 - Created.
 - 2026-10-11 - Added the star history chart.
 - 2026-10-12 - Recorded the October 11 release burst (v0.7.0 through v0.7.5): cost-aware candidate selection with budget caps and measured-cost ranking, the vertex_claude_code agent on Vertex AI open-weight models, and the schema-3 checkpoint break.
+- 2026-10-13 - Harmonized the star count (the status line and the footprint line disagreed, 122 versus 121) to 123 as of 2026-10-13, and identified the October 12 pushes as Leeroopedia documentation commits.
 
 ## See also
 

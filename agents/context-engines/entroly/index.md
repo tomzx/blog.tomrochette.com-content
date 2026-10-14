@@ -1,7 +1,7 @@
 ---
 title: Entroly
 created: 2026-10-12
-updated: 2026-10-12
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, receipts, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Two offline commands are the trust surface: `entroly verify-claims` runs twelve 
 
 ## Status
 
-Young, active, and barely discovered: 475 stars, 72 forks, created 2026-03-07, pushed 2026-10-12, PyPI and npm both at 1.0.86 across 104 releases, as of 2026-10-12 (GitHub, PyPI, and npm APIs).
+Young, active, and barely discovered: 476 stars, 72 forks, created 2026-03-07, pushed 2026-10-13, PyPI and npm both at 1.0.86 across 104 releases, as of 2026-10-13 (GitHub, PyPI, and npm APIs).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=juyterman1000/entroly&type=date&theme=dark&legend=top-left" />

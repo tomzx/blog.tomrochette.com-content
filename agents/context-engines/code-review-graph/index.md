@@ -1,7 +1,7 @@
 ---
 title: code-review-graph
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graph, mcp, static-analysis]
 readability: 3
@@ -23,7 +23,7 @@ A composite GitHub Action posts risk-scored PR comments updated in place, with a
 
 ## Status
 
-Active and unusually fast-growing: 32,046 stars, 2,936 forks, and 182 open issues as of 2026-10-11, created 2026-02-26, pushed 2026-10-06, so five figures of stars arrived in under eight months.
+Active and unusually fast-growing: 32,096 stars, 2,937 forks, and 184 open issues as of 2026-10-13, created 2026-02-26, pushed 2026-10-06, so five figures of stars arrived in under eight months.
 PyPI carries 2.3.9 (uploaded 2026-09-18) across 37 releases on a roughly monthly cadence, and the repo runs a documented staging to testing to main promotion flow.
 The community footprint is lopsided: a Hacker News search returns three story hits, the largest a 12-point launch thread with two comments (one an install failure), so the star count arrived without front-page discussion, the Trendshift-badge pattern this section has seen before.
 Every number below is the author's own; no independent benchmark exists.

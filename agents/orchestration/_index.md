@@ -57,7 +57,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [LoopTroop](looptroop/index.md) - the MIT local GUI orchestrator using multi-model council planning, atomic beads, and fresh-context Ralph loops over OpenCode.
 - [Mastra](mastra/index.md) - the TypeScript agent framework from the Gatsby team, 8.3M npm downloads a month and $35M raised, scarred by a June 2026 npm supply-chain attack.
 - [MetaGPT](metagpt/index.md) - FoundationAgents' software-company-as-multi-agent framework, quiet since v0.8.2 with the energy moved to OpenManus.
-- [Multica](multica/index.md) - the source-available, self-hostable workspace that assigns issues to coding agents as teammates, 52.4k stars as of 2026-10-10.
+- [Multica](multica/index.md) - the source-available, self-hostable workspace that assigns issues to coding agents as teammates, 52.6k stars as of 2026-10-13.
 - [oh-my-codex](oh-my-codex/index.md) - the MIT workflow layer for OpenAI Codex CLI adding skills, hooks, HUD, memory, and worktree team execution.
 - [Omnara](omnara/index.md) - the YC S25 Apache-2.0 Go control plane where agents are YAML and supervision happens from dashboard, phone, CLI, API, or Slack.
 - [Open Swarm](open-swarm/index.md) - the former AGPL-3.0 local mission-control canvas, pivoted in October 2026 to a proprietary Open Swarm Inc. consumer assistant with the repo left as a signed-builds shell, kept as the category's second pivot record.

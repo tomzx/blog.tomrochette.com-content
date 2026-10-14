@@ -24,7 +24,7 @@ Around the loop sit a journal-quality system scoring 212K-plus indexed sources w
 
 ## Status
 
-Active and heavily developed: 9,186 stars, 843 forks, created 2025-02-09, last pushed 2026-10-12, with the current release v1.10.7 published 2026-08-28 on GitHub and PyPI, as of 2026-10-12.
+Active and heavily developed: 9,187 stars, 843 forks, created 2025-02-09, last pushed 2026-10-13, with the current release v1.10.7 published 2026-08-28 on GitHub and PyPI, as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=LearningCircuit/local-deep-research&type=date&theme=dark&legend=top-left" />

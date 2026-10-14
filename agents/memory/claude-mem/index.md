@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: about 99.8k stars as of 2026-10-12, with 75,274 npm downloads in the trailing month (2026-09-11 to 2026-10-10).
+Very large and fast: about 100.2k stars as of 2026-10-13, with 66,625 npm downloads in the trailing month (2026-09-12 to 2026-10-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&theme=dark&legend=top-left" />
@@ -32,12 +32,13 @@ Very large and fast: about 99.8k stars as of 2026-10-12, with 75,274 npm downloa
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-31, pushed 2026-10-09, latest tagged release v13.35.0 on 2026-10-09 with npm in sync at 13.35.0 as of 2026-10-11.
+Created 2025-08-31, pushed 2026-10-13, latest tagged release v13.37.0 on 2026-10-13 with npm in sync at 13.37.0 as of 2026-10-13.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.
 v13.31.1 (2026-10-06) fixed cloud sync stalling behind Supabase's firewall (uploads are now compressed before forwarding, and HTML blocks are retried instead of read as bad tokens), and v13.32.0 (2026-10-06) restored the File Read Gate on by default: full-file Reads of observed code files are blocked and served the observation timeline plus outline tools instead, with partial reads exempt so edits never deadlock.
 Same-day follow-ups: v13.34.0 added first-party Pi and DeepSeek Harness integrations (a self-contained ESM extension under ~/.pi/agent/extensions and a bundled @claude-mem/dsh plugin installed through DSH's own profile commands), v13.34.1 restored the CMEM Pro public trial to 30 days from the shorter "up to 14 days" wording, and v13.34.2 fixed a worker regression that had broken prompt-cache reuse on OpenAI-compatible observers (OpenRouter, Gemini) since v13.29.0.
+The 2026-10-12-to-13 train (v13.36.0, v13.36.1, v13.37.0) is the first recorded privacy regression and capture outage in the same week: v13.36.0, a mostly community release, made the observer pause and keep the work instead of dropping memories when the provider refuses (an empty Anthropic credit balance, a blocked organization, or a local model server down) and fixed non-ASCII Windows home folders; v13.36.1 fixed a server-runtime leak where `<private>` sections still left the hook and were stored in the server's raw event record until prompt build (the default worker runtime was not affected); and v13.37.0 repaired the marketplace update of v13.36.1 itself, which had shipped built plugin files containing leftover `git stash` conflict markers, so auto-updated installs failed to start the worker and MCP search and memory capture stopped until upgrade (the npm package was published before the bad change and was unaffected).
 
 ## Strengths
 
@@ -95,6 +96,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-10-07 - Added the thedotmack/claude-mem star history chart to the Status section.
 - 2026-10-07 - Recorded the v13.34.0 through v13.34.2 releases (first-party Pi and DeepSeek Harness integrations, the CMEM Pro trial restored to 30 days, and the observer prompt-cache regression fix) with npm in sync at 13.34.2 and appended the trial-terms Price history row.
 - 2026-10-09 - Recorded the v13.35.0 release (one guided mem_search tool replacing the multi-tool surface, curated text replies instead of raw JSON, an explicit save_memory note tool, a native-memory-lookup bridge for Claude Code and Codex, and an opt-in markdown-note watcher) with npm in sync at 13.35.0; refreshed stars to about 98.7k and downloads to 72,524.
+- 2026-10-13 - Recorded the v13.36.0, v13.36.1, and v13.37.0 releases (the observer pausing instead of dropping memories when the provider refuses, the server-runtime `<private>` leak fixed, and the broken 13.36.1 marketplace update repaired after it stopped memory capture on auto-updated installs) with npm in sync at 13.37.0; refreshed stars to about 100.2k (past 100k) and trailing-month downloads to 66,625.
 
 ## See also
 

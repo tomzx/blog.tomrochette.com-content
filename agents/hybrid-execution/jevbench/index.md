@@ -1,7 +1,7 @@
 ---
 title: JevBench
 created: 2026-09-22
-updated: 2026-10-12
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, benchmarking, model-evaluation]
 readability: 3
@@ -27,8 +27,8 @@ The October v1.6 restructure then rebuilt both boards (as of 2026-10-08): the ma
 
 ## Status
 
-Active and gaining traction, as of 2026-10-12.
-The repository was created 2026-09-19, pushed 2026-10-10, and shows 257 stars and 25 forks, with five scoring releases since my first check (v1.4.0 through v1.4.2.2, September 23-27); the live board has since moved through the v1.5.x series (v1.5.5 through v1.5.7 selectable on the site) to v1.6.0 and the current v1.6.1, running on board revision v1.7.46 as of 2026-10-12, with 152 ranked open-weights systems on the main board (24 newer rows tagged with their draw, 13 older rows dated separately) and 27 ranked rows on the hosted-API board, up from 8 two days before 2026-10-10.
+Active and gaining traction, as of 2026-10-13.
+The repository was created 2026-09-19, pushed 2026-10-10, and shows 266 stars and 27 forks, with five scoring releases since my first check (v1.4.0 through v1.4.2.2, September 23-27); the live board has since moved through the v1.5.x series (v1.5.5 through v1.5.7 selectable on the site) to v1.6.0 and the current v1.6.1, running on board revision v1.7.46 as of 2026-10-13, with 155 ranked open-weights systems on the main board (27 newer rows tagged with their draw, 13 older rows dated separately) and 28 ranked rows on the hosted-API board, up from 8 two days before 2026-10-10.
 The v1.7.46 revision also changed the main board's headline: rows now order by a Capability Score that averages Intelligence and Calibration and applies Jev-class caps (at most twice Jev's cost and median latency on the v1.5 reference), with the four-axis composite demoted to a secondary "official" rank shown per row, so Quyet-1.0-Large leads the page at 81.7 capability and Jeff-1.0-Large (81.5) and decisio v0.8.0 on Gemma-4-31B (79.6) follow, while composite leader H2O-Lightning-4B v1.1 sits eighth by capability at 75.0 and Jev stays the unranked reference at 77.1.
 
 <picture>
@@ -101,6 +101,7 @@ The disagreeable claim I will defend: this benchmark's most important number is 
 - 2026-10-10 - The boards moved to revision v1.7.31: Microsoft-Decision-1 joined the hosted API board fifth at 69.1 (a native Azure Foundry run over the full 1,500-item set, 459 ms median, 21 context-limit failures scored), decisio v0.8.0, Mercury Decide, and GLiNER 2.5 Small completed language and topic coverage supplements with headline scores unchanged, and the maintainer's October 7 addenda (a6 through a8) cross-measured the systems around the Decision Index's top 20 on the same sealed pool (Perplexity's Decider v1.1 at 20.62 here against 62.75 there, Kev 27B at 5.77 against 58.78, decider-chat on Gemma-4-31B keeping 66.08); refreshed stars to 249 and the pushed date to 2026-10-09.
 - 2026-10-11 - The boards moved to revision v1.7.44 (updated 2026-10-10): the main board grew to 148 ranked open-weights systems with the open podium unchanged (H2O-Lightning-4B v1.1 72.5, decisio v0.8.0 71.7, Quyet-1.0-Large 71.4, Jev the unranked reference at 71.5), and the hosted-API board grew from 8 to 27 ranked rows (Instinct ninth at 62.2, Vansa-3.4, Instinct Dual 4B, decision-machine-1, JevAct, Fastino's GLiNER-2.5-Decide, and SimpleJev and openjev-sglang demo endpoints joining, Jev now fourth behind Sage, d1, and Mercury Decide), with Microsoft-Decision-1's base since disclosed as a post-trained Qwen3.5-9B; refreshed stars to 253 and the pushed date to 2026-10-10.
 - 2026-10-12 - The boards moved to revision v1.7.46 (updated 2026-10-12): the main board grew to 152 ranked open-weights systems and its headline re-based on a new Capability Score (the Intelligence-plus-Calibration average under Jev-class cost and latency caps), where Quyet-1.0-Large leads at 81.7 ahead of Jeff-1.0-Large (81.5) and decisio v0.8.0 on Gemma-4-31B (79.6), composite leader H2O-Lightning-4B v1.1 falls to eighth by capability at 75.0 while keeping official #1, and Jev stays the unranked reference at 77.1; on the API board the same capability ordering moved Jev to second behind Sage 1.3.0, with Liquid AI's d1 (74.4) and OpenAI's Decisions API (73.5) carrying current runs again; refreshed stars to 257.
+- 2026-10-13 - The v1.7.46 boards kept the revision and the headline ordering while three new open-weights entrants completed ranked runs (the main board now 155 ranked) and a 28th ranked row joined the hosted-API board, where Microsoft-Decision-1 now also carries a separate A2 re-run row; refreshed stars to 266 and forks to 27.
 
 ## See also
 
@@ -112,7 +113,7 @@ The disagreeable claim I will defend: this benchmark's most important number is 
 
 ## References
 
-- https://github.com/fstandhartinger/jevbench - repository: MIT, created 2026-09-19, 257 stars, 25 forks, pushed 2026-10-10 (GitHub API, as of 2026-10-12)
+- https://github.com/fstandhartinger/jevbench - repository: MIT, created 2026-09-19, 266 stars, 27 forks, pushed 2026-10-10 (GitHub API, as of 2026-10-13)
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/results/imagejevbench/v0.1.3/README.md - the ImageJevBench v0.1.x candidate: 228-public plus 456-sealed image split, Imajev-4B re-measured first of 49 at 76.39
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/docs/METHOD-v1.5-README.md - the frozen v1.5 method index: the byte-identical frozen method, the equal-axis equal-type headline amendment, the pricing addenda, and the SHA-256 manifest
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/README.md - the v1.4.1 score design, the 220 hard decisions frozen and hashed, the honorable-mention rule, and the option-order finding
@@ -121,6 +122,6 @@ The disagreeable claim I will defend: this benchmark's most important number is 
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/RESULTS-v1.2.md - the full 48-row v1.2 board with per-axis scores, endpoints, and the times-two adjustment note
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/results/v1.2/jevbench-v1.2-results.json - the frozen results artifact behind the board
 - https://news.ycombinator.com/item?id=49800574 - the launch thread (154 points as of 2026-10-06, 2026-09-22, 22 comments at creation), its methodology and model-set objections the critical source (fetched via the Algolia items API)
-- https://benchmarkheaven.com/jev-models - the live v1.6.1 main board: the open-weights-only ranking (152 ranked on v1.7.46, ordered by the Capability Score), Jev as the unranked reference, per-language competence, and the aggregate-publication note (fetched 2026-10-12, board revision v1.7.46)
-- https://benchmarkheaven.com/jev-models/api - the live v1.6.1 API leaderboard: 27 ranked rows on v1.7.46, Sage 1.3.0 first and Jev second by capability, Microsoft-Decision-1 and the Instinct and Vansa entries behind (fetched 2026-10-12)
-- https://benchmarkheaven.com/api/jevbench/v1.6.1 - the system-level aggregate JSON behind both boards, with per-system run status, validity, and the October addenda (fetched 2026-10-12; the served snapshot is the 2026-10-11 scheduled refresh and predates the v1.7.46 board moves)
+- https://benchmarkheaven.com/jev-models - the live v1.6.1 main board: the open-weights-only ranking (155 ranked on v1.7.46, ordered by the Capability Score), Jev as the unranked reference, per-language competence, and the aggregate-publication note (fetched 2026-10-13, board revision v1.7.46)
+- https://benchmarkheaven.com/jev-models/api - the live v1.6.1 API leaderboard: 28 ranked rows on v1.7.46, Sage 1.3.0 first and Jev second by capability, Microsoft-Decision-1 and the Instinct and Vansa entries behind (fetched 2026-10-13)
+- https://benchmarkheaven.com/api/jevbench/v1.6.1 - the system-level aggregate JSON behind both boards, with per-system run status, validity, and the October addenda (fetched 2026-10-13; the served snapshot remains the 2026-10-11 scheduled refresh and predates the site's v1.7.46 board moves)

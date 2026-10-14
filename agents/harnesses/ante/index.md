@@ -1,7 +1,7 @@
 ---
 title: Ante
 created: 2026-08-30
-updated: 2026-10-12
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, single-binary, local-models]
 readability: 3
@@ -25,7 +25,7 @@ Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sd
 ## Status
 
 **Active, preview-stage, and growing fast for a five-month-old repo.**
-2,010 stars and 70 forks as of 2026-10-11, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise that has since carried patch releases through v0.2.10 (October 11, 2026).
+2,011 stars and 70 forks as of 2026-10-13, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise that has since carried patch releases through v0.2.11 (October 12, 2026).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AntigmaLabs/ante&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,8 @@ Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sd
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AntigmaLabs/ante&type=date&legend=top-left" />
 </picture>
 
-The latest release is v0.2.10 (release notes dated October 10, 2026, published October 11), which added opt-in attention cues (a turn that finishes, fails, pauses for approval, or asks a question rings the terminal bell and posts a desktop notification while the terminal reports itself unfocused), session sizes in the `/resume` picker, Claude Haiku 5.5 replacing Haiku 4.5 across Anthropic, OpenRouter, and Antix, faster session-log reads on resume, and a fix keeping failed compaction from removing earlier inputs from `/rewind` and `/fork`.
+The latest release is v0.2.11 (published October 12, 2026), which added headless offline setup (`ante offline status`, `ante offline list`, and `ante offline use <MODEL>`, plus a `--offline-model` flag for TUI, headless, and `serve` launches), an offline router that survives exit and is reused on the next launch, a skills list sized to the model's context window and resized at every compaction, uniform subagent prompt construction, and Claude Sonnet 5.5 on Antix.
+Before it, v0.2.10 (release notes dated October 10, 2026, published October 11) added opt-in attention cues (a turn that finishes, fails, pauses for approval, or asks a question rings the terminal bell and posts a desktop notification while the terminal reports itself unfocused), session sizes in the `/resume` picker, Claude Haiku 5.5 replacing Haiku 4.5 across Anthropic, OpenRouter, and Antix, faster session-log reads on resume, and a fix keeping failed compaction from removing earlier inputs from `/rewind` and `/fork`.
 Before it, v0.2.9 (published October 5, 2026) added a split-view option in the `/fork` picker, an opt-in `context-tokens` status line item, per-session `{session_id}` templating for provider headers, `/rewind` and `/fork` reaching prompts from before a resume, one shared transport-level timeout per provider call, a pruned catalog (GPT-5.4 Pro removed from direct OpenAI), an embedded llama.cpp bump to b11379, and recovery of Responses-API context overflows through compaction.
 Before it, v0.2.8 (release notes dated October 2, 2026, published October 3) added `/rewind` conversation rewinding and `/fork` session forking with parent links, and made `ante serve` print readable connection, session, tool-call, and turn-status transcripts.
 Before that, v0.2.7 (published September 30) added Claude Sonnet 5.5 on Anthropic and OpenRouter, Qwen 3.8 Max and GLM 5.3 FlashX on its catalog, moved xAI to Grok 4.7, made resumed sessions keep the system prompts they started with, and bumped the embedded llama.cpp engine.
@@ -90,6 +91,7 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 - 2026-10-06 - Recorded the v0.2.9 release (published October 5), which added the `/fork` split-view option, an opt-in `context-tokens` status line item, per-session provider header templating, pre-resume reach for `/rewind` and `/fork`, one transport timeout per provider call, a pruned catalog, an embedded llama.cpp bump, and Responses-API overflow recovery, and refreshed repository scale.
 - 2026-10-07 - Added the AntigmaLabs/ante star history chart to the Status section.
 - 2026-10-12 - Recorded the v0.2.10 release (notes dated October 10, published October 11), which added opt-in attention cues with desktop notifications, session sizes in the resume picker, Claude Haiku 5.5 replacing 4.5 across Anthropic, OpenRouter, and Antix, and a failed-compaction rewind fix, and corrected the Status paragraph, which had lagged at v0.2.9 behind the train the intro already recorded.
+- 2026-10-13 - Recorded the v0.2.11 release (published October 12), which added headless offline setup commands and a `--offline-model` flag, offline-router reuse across launches, a skills list sized to the model's context window and resized at every compaction, uniform subagent prompt construction, and Claude Sonnet 5.5 on Antix, and refreshed repository scale.
 
 ## See also
 
@@ -106,4 +108,4 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/README.md - feature surface and provider list
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/BINARY-TERMS.md - the separate preview license for prebuilt binaries
 - https://news.ycombinator.com/item?id=49245437 - the August 10, 2026 launch thread, 169 points (verified via Algolia API)
-- https://github.com/AntigmaLabs/ante/releases - v0.2.10, notes dated 2026-10-10, published 2026-10-11 (verified via GitHub API)
+- https://github.com/AntigmaLabs/ante/releases - v0.2.11, published 2026-10-12 (verified via GitHub API)

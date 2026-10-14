@@ -1,7 +1,7 @@
 ---
 title: Atomic Agent
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, local-first, llama-cpp, open-source]
 readability: 3
@@ -30,8 +30,8 @@ No independent reproduction exists, and a Hacker News search finds no thread abo
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AtomicBot-ai/atomic-agent&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AtomicBot-ai/atomic-agent&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AtomicBot-ai/atomic-agent&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AtomicBot-ai/atomic-agent&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AtomicBot-ai/atomic-agent&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -66,6 +66,7 @@ Not for anyone needing a stable API contract today (developer preview), and not 
 ## Changes
 
 - 2026-10-10 - Created from the harnesses resolution pass (two of three category workers placed it here); the assistant-runtimes adjacency (chat channels, ClawHub skills) is recorded in the cautions.
+- 2026-10-13 - Corrected the star-history chart markup: the light source and fallback image dropped the dark-theme parameter to match the canonical chart block.
 
 ## See also
 

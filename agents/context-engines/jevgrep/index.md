@@ -1,7 +1,7 @@
 ---
 title: Jevgrep
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, cli, open-source]
 readability: 3
@@ -27,7 +27,7 @@ The MIT-licensed CLI ships from David Zhang (dzhng), the engineer behind deep-re
 ## Status
 
 **Not yet three weeks old and the fastest start in this category, with a thin discussion footprint so far.**
-2,556 stars, 187 forks, and 29 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-10-02, all as of 2026-10-11 (GitHub API).
+2,645 stars, 194 forks, and 29 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-10-12, all as of 2026-10-13 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dzhng/jevgrep&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ The MIT-licensed CLI ships from David Zhang (dzhng), the engineer behind deep-re
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=dzhng/jevgrep&type=date&legend=top-left" />
 </picture>
 
-The npm package `@dzhng/jevgrep` sits at v0.8.0 (published 2026-10-01) across 16 releases in its first week, with 7,317 trailing-month downloads (window 2026-09-10 to 2026-10-09).
+The npm package `@dzhng/jevgrep` sits at v0.8.0 (published 2026-10-01) across 16 releases in its first week, with 7,861 trailing-month downloads (window 2026-09-12 to 2026-10-11).
 Its Show HN (2026-09-28) drew 5 points and zero comments, so adoption is running on the author's reputation and the skill distribution rather than discussion.
 The earlier run that rejected this repository as a harness candidate recorded it three days into its life; the star count and a proper category fit resolved it as a note this run.
 

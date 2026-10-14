@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-10-12
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -24,7 +24,7 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 ## Status
 
 **Active under new ownership.**
-The repository shows about 27.6k stars under MIT as of 2026-10-11, most recently pushed within a day of verification; component tags ship on their own clocks (the newest stable is v7.8.8, published October 7, 2026, a day after the v7.8.7 prerelease, with the jetbrains/v7.1.9 component following its own train).
+The repository shows about 27.6k stars under MIT as of 2026-10-13, most recently pushed within a day of verification; component tags ship on their own clocks (the newest stable is v7.8.8, published October 7, 2026, a day after the v7.8.7 prerelease, with a v7.8.9 prerelease following on October 13 and the jetbrains/v7.1.9 component on its own train).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Kilo-Org/kilocode&type=date&theme=dark&legend=top-left" />
@@ -91,6 +91,7 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 - 2026-10-07 - Recorded the component-tag train moving to a v7.8.7 prerelease (published October 7), with v7.8.3 still the latest stable, and refreshed repository scale.
 - 2026-10-08 - Recorded the v7.8.8 stable release (published October 7), now the newest stable after the v7.8.7 prerelease, with the jetbrains/v7.1.9 component on its own train, and refreshed repository scale.
 - 2026-10-12 - Recorded Anaconda's October 6 AI Dev Factory announcement, which names Kilo the primary AI workspace, launches Kilo Desktop for local development, brings agent swarms to VS Code through Kilo, and adds Sign in with ChatGPT across Kilo surfaces; pricing re-verified unchanged against the live page.
+- 2026-10-13 - Recorded the v7.8.9 prerelease (published October 13) following the v7.8.8 stable, and refreshed repository scale.
 
 ## See also
 

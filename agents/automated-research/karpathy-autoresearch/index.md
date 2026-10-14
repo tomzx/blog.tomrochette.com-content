@@ -23,7 +23,7 @@ Karpathy announced it in March 2026 with a deliberately mythologizing framing: t
 
 ## Status
 
-Dormant as a repository, dominant as an influence: 97,661 stars, 13,566 forks, created 2026-03-06, last push 2026-03-26, no releases and no license file, as of 2026-10-11.
+Dormant as a repository, dominant as an influence: 97,798 stars, 13,568 forks, created 2026-03-06, last push 2026-03-26, no releases and no license file, as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=karpathy/autoresearch&type=date&theme=dark&legend=top-left" />

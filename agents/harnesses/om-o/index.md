@@ -28,8 +28,8 @@ Independent discussion exists but is thin for the scale: two 4-point Hacker News
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=code-yeongyu/oh-my-openagent&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=code-yeongyu/oh-my-openagent&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=code-yeongyu/oh-my-openagent&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=code-yeongyu/oh-my-openagent&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=code-yeongyu/oh-my-openagent&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -67,6 +67,7 @@ Not for commercial use without legal review, for teams needing standard licensin
 ## Changes
 
 - 2026-10-13 - Created.
+- 2026-10-13 - Corrected the star-history chart markup (the light source and fallback image dropped the dark-theme parameter to match the canonical chart block) and replaced the bare news.ycombinator.com reference with the fetched Algolia search URL grounding the two 4-point threads.
 
 ## See also
 
@@ -82,4 +83,4 @@ Not for commercial use without legal review, for teams needing standard licensin
 - https://github.com/code-yeongyu/oh-my-openagent/blob/dev/README.md - the README: memory, CodeMode, Anthropic subscriptions, ultracode, sponsors, and the maintainer persona statement
 - https://github.com/jc01rho/omo-herdr-dag - the companion workflow-DAG side-pane project
 - https://get.omo.dev/install.sh - the install endpoint behind the curl one-liner
-- https://news.ycombinator.com/ - Algolia search returned two 4-point threads (May and September 2026) as the recorded thin independent footprint
+- https://hn.algolia.com/api/v1/search?query=oh-my-openagent&tags=story - the Algolia search returning the two 4-point threads (2026-05-04 and 2026-09-02) as the recorded thin independent footprint

@@ -25,7 +25,7 @@ Since April 2026 pi is owned by Earendil with him at the helm, planned as three 
 ## Status
 
 Active, well-resourced, and newly commercial as of 2026-10-08.
-The pi repository shows about 114.4k stars and 14.6k forks as of 2026-10-12, and the release cadence tightened from roughly weekly to nearly daily through the 1.0 sprint: v0.99.0 and v0.99.1 on 2026-09-29 (codemode plus MCP landed in v0.99.0), v0.99.2 on 2026-09-30, v1.0.0 on 2026-10-01 (per the repo's releases; our [Harnesses note](../../harnesses/pi/index.md) tracks the detail), v1.0.1 on 2026-10-03, v1.0.2 on 2026-10-04, v1.0.3 plus v1.0.4 on 2026-10-05, and v1.1.0 on 2026-10-07, and OpenClaw, the breakout assistant runtime, is built on it, which is exactly the attention he says drove acquisition offers and 3-5 calls a day before he sold to Earendil.
+The pi repository shows about 114.7k stars and 14.6k forks as of 2026-10-13, and the release cadence tightened from roughly weekly to nearly daily through the 1.0 sprint: v0.99.0 and v0.99.1 on 2026-09-29 (codemode plus MCP landed in v0.99.0), v0.99.2 on 2026-09-30, v1.0.0 on 2026-10-01 (per the repo's releases; our [Harnesses note](../../harnesses/pi/index.md) tracks the detail), v1.0.1 on 2026-10-03, v1.0.2 on 2026-10-04, v1.0.3 plus v1.0.4 on 2026-10-05, v1.1.0 on 2026-10-07, then v1.2.0 on 2026-10-12 (per-key OpenRouter model lists and published configuration schemas), and OpenClaw, the breakout assistant runtime, is built on it, which is exactly the attention he says drove acquisition offers and 3-5 calls a day before he sold to Earendil.
 His blog slowed after the 2025 agent-post burst (eight agent-era posts between June and November 2025, then three in 2026 through the May 30 robot post), so the repository and release notes now carry more signal than the blog.
 The Earendil arrangement is the open question: the MIT core is pledged as non-negotiable, but tiers two and three existed only as promises when he wrote about them in April 2026.
 
@@ -71,6 +71,7 @@ Not for teams that want turnkey guardrails, MCP-centric stacks, or a maintainer 
 - 2026-10-06 - Added the post-1.0 releases v1.0.3 and v1.0.4 (both 2026-10-05, per the repo's releases fetched this run), keeping the nearly-daily claim current; stars refreshed to about 112.8k and forks to 14.3k as of 2026-10-06.
 - 2026-10-08 - Added v1.1.0 (released 2026-10-07, per the repo's releases fetched this run) as the first post-1.0 minor after the sprint; stars refreshed to about 113.4k and forks to 14.4k as of 2026-10-08.
 - 2026-10-13 - Reworded a Cautions line off a banned term (YOLO-by-default security stance); meaning unchanged.
+- 2026-10-13 - Added v1.2.0 (released 2026-10-12, per the repo's releases fetched this run) as the second post-1.0 minor, five days after v1.1.0; stars refreshed to about 114.7k and forks re-verified at 14.6k as of 2026-10-13.
 
 ## See also
 
