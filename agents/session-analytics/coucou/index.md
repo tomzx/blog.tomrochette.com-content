@@ -27,8 +27,8 @@ It is built by Louis Raillé (the Louis-CFM account), with the project's own con
 
 ## Status
 
-Two weeks old and shipping hard: created 2026-09-27 with v0.1.0 the same day, at v0.3.0 on 2026-10-10 after near-daily releases, with Windows and Linux moving to v0.4.0 on 2026-10-11 to carry the Android phone link while the Mac release line stays at v0.3.0, as of 2026-10-13.
-4,993 stars and 838 forks in that window, 314 open issues, MIT.
+In its third week and shipping hard: created 2026-09-27 with v0.1.0 the same day, at v0.3.0 on 2026-10-10 after near-daily releases, with Windows and Linux moving to v0.4.0 on 2026-10-11 to carry the Android phone link while the Mac release line stays at v0.3.0, and Coucou for Android following at 0.2.0 on 2026-10-13 two days after its first release, as of 2026-10-13.
+5,119 stars and 853 forks in that window, 321 open issues, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Louis-CFM/coucou&type=date&theme=dark&legend=top-left" />
@@ -48,7 +48,7 @@ Two weeks old and shipping hard: created 2026-09-27 with v0.1.0 the same day, at
 
 ## Cautions
 
-- **Zero independent footprint at 4.7k stars is the caution: two weeks of stars with no thread and no review is distribution, not verification.**
+- **Zero independent footprint at 5.1k stars is the caution: two-plus weeks of stars with no thread and no review is distribution, not verification.**
 - The 0.x line moves so fast that documented behavior can change within days, and first-run setup modifies `~/.claude/settings.json` (backed up with a diff shown first, but still an agent-config mutation).
 - The Windows installer is unsigned and trips SmartScreen, and the future App Store build will drop the plan-usage, Apple Music, and window-attach features.
 - Feature gravity pulls away from analytics: the wardrobe, music, Stripe, and voice make it a personal companion that watches agents, not an audit tool, and there is no token-cost accounting anywhere.
@@ -67,13 +67,14 @@ App Store versions for Mac and iPhone are announced but not published as of 2026
 
 ## Bottom line
 
-**Recommended for Mac users of Claude Code or Codex who want permission requests answered from the notch or a locked iPhone, and who accept a two-week-old 0.x dependency that rewrites its own docs weekly.**
+**Recommended for Mac users of Claude Code or Codex who want permission requests answered from the notch or a locked iPhone, and who accept a weeks-old 0.x dependency that rewrites its own docs weekly.**
 Not for token-cost audits (ccusage and agentsview stay the tools for that), and not for Windows-first users unwilling to run an unsigned installer today.
 
 ## Changes
 
 - 2026-10-10 - Created from the category entrant scan, admitted on its eleven-agent live coverage and notch-and-Lock-Screen approval mechanism with the empty independent footprint recorded.
 - 2026-10-13 - Recorded Coucou for Android 0.1.0 (Rhytam Biswas, Android 11 or later, pairing over the local network with the Windows and Linux apps) and the v0.4.0 Windows and Linux builds that carry the phone link, while the Mac release line stays at v0.3.0; repository counts refreshed (4,736 to 4,993 stars, 785 to 838 forks, 252 to 314 open issues).
+- 2026-10-13 - Recorded Coucou for Android 0.2.0 (2026-10-13, two days after 0.1.0, with the release note describing the same pairing flow and no feature list); repository counts refreshed (4,993 to 5,119 stars, 838 to 853 forks, 314 to 321 open issues), and the thin-footprint caution's star figure moved with them.
 
 ## See also
 
@@ -84,11 +85,12 @@ Not for token-cost audits (ccusage and agentsview stay the tools for that), and 
 
 ## References
 
-- https://api.github.com/repos/Louis-CFM/coucou - 4,717 stars, 781 forks, MIT license, created 2026-09-27, pushed 2026-10-10, as of 2026-10-10
+- https://api.github.com/repos/Louis-CFM/coucou - 5,119 stars, 853 forks, MIT license, created 2026-09-27, pushed 2026-10-13, as of 2026-10-13
 - https://raw.githubusercontent.com/Louis-CFM/coucou/main/README.md - the agents table, hook and plugin mechanisms, CloudKit sync and relay design, privacy statements, and the versions table
-- https://api.github.com/repos/Louis-CFM/coucou/releases - v0.1.0 (2026-09-27) through v0.3.0 (2026-10-10) plus the windows-v* and linux-v* tag trains
+- https://api.github.com/repos/Louis-CFM/coucou/releases - v0.1.0 (2026-09-27) through v0.3.0 (2026-10-10), the windows-v* and linux-v* tag trains, and android-v0.1.0 (2026-10-11) through android-v0.2.0 (2026-10-13)
 - https://api.github.com/repos/Louis-CFM/coucou/contributors - the Louis-CFM 192 and claude 156 commit split behind the AI-co-author caution
 - https://louis-cfm.github.io/coucou/ - the homepage grounding the product summary, downloads, and the 0.3 voice announcement
+- https://github.com/Louis-CFM/coucou/releases/tag/android-v0.2.0 - the Android 0.2.0 release note: download, pairing steps, and checksum verification (fetched 2026-10-13)
 - https://github.com/Louis-CFM/coucou/releases/tag/android-v0.1.0 - the Android 0.1.0 release, its pairing steps, and the Windows-or-Linux requirement (fetched 2026-10-13)
 - https://github.com/Louis-CFM/coucou/releases/tag/windows-v0.4.0 - the Windows 0.4.0 build note, still unsigned with the SmartScreen warning (fetched 2026-10-13)
 - https://hn.algolia.com/api/v1/search?query=coucou%20notch&tags=story - zero hits, the empty independent footprint this note states

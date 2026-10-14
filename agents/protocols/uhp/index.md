@@ -1,7 +1,7 @@
 ---
 title: Unified Harness Protocol (UHP)
 created: 2026-10-08
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, agent-serving, harnesses]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, maintained in the HarnessRouter repository under a maintainer-led, p
 
 ## Status
 
-**Active and shipping fast: 2,959 stars, 304 forks, created 2026-08-09, pushed 2026-10-11, all as of 2026-10-11 (GitHub API).**
+**Active and shipping fast: 2,994 stars, 314 forks, created 2026-08-09, pushed 2026-10-14, all as of 2026-10-13 (GitHub API).**
 
 The spec is at version 2026-10-04, its fourth version in roughly eight weeks (2026-08-11, 2026-09-12, 2026-09-28, 2026-10-04), with the conformance suite itself patched as recently as 2026-10-06.
 
@@ -84,7 +84,7 @@ My disagreeable claim: the Responses API already owns this lane by gravity, so t
 
 - https://github.com/HarnessRouter/harnessrouter/tree/main/protocol - the spec home: current version 2026-10-04, draft-standard status, conformance suite, governance and versioning links
 - https://unifiedharnessprotocol.org/ - the official site: version history (2026-08-11, 2026-09-12, 2026-09-28, 2026-10-04) and the specification chapters
-- https://github.com/HarnessRouter/harnessrouter - repository facts: 2,959 stars, 304 forks, Apache-2.0, created 2026-08-09, pushed 2026-10-11 (GitHub API, as of 2026-10-11)
+- https://github.com/HarnessRouter/harnessrouter - repository facts: 2,994 stars, 314 forks, Apache-2.0, created 2026-08-09, pushed 2026-10-14 (GitHub API, as of 2026-10-13)
 - https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/protocol/IMPLEMENTATIONS.md - the implementations page: HarnessRouter CE and hosted servers, SuperQode server and client, listing criteria
 - https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/protocol/versions/2026-10-04/architecture.md - the Client/Server/Harness roles, the three conformance classes, and the configured-harness object model
 - https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/protocol/GOVERNANCE.md - the UEP proposal-first process and the three-artifact rule

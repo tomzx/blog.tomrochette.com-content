@@ -1,7 +1,7 @@
 ---
 title: Fence
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Built by Tusk, the AI testing-agents company; the repository moved from Use-Tusk
 
 ## Status
 
-Actively maintained with modest but durable traction: 989 stars, 40 open issues, pushed 2026-10-06 as of 2026-10-11, created 2025-12-18.
+Actively maintained with modest but durable traction: 991 stars, 40 open issues, pushed 2026-10-06 as of 2026-10-13, created 2025-12-18.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fencesandbox/fence&type=date&theme=dark&legend=top-left" />

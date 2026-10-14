@@ -18,7 +18,7 @@ Where quality control lives in the agent workflow: CI gates, dashboards, machine
 - [Hunk](hunk/index.md) - Modem's MIT review-first terminal diff viewer, one annotated stream for the whole agent changeset, judging nothing itself.
 - [Jevals](jevals/index.md) - OpenLayer's MIT evals-and-guardrails library that swaps the LLM judge for typed Jev decision models, one calibrated request per trace.
 - [Kiln](kiln/index.md) - Chesterfield Laboratories' local-first desktop eval workbench where non-engineers rate outputs and the ratings become judge metrics, fine-tuning sets, and optimization targets.
-- [Langfuse](langfuse/index.md) - the MIT-core tracing and eval platform, 35.6k stars, inside ClickHouse since January with the proprietary ee/ split as the caution.
+- [Langfuse](langfuse/index.md) - the MIT-core tracing and eval platform, 35.8k stars, inside ClickHouse since January with the proprietary ee/ split as the caution.
 - [Phoenix](phoenix/index.md) - Arize's OTel-native observability and eval platform, self-hostable under an Elastic license.
 - [Plannotator](plannotator/index.md) - the local review surface that turns your annotations on agent plans and diffs into the agent's next instruction.
 - [PR Lens](pr-lens/index.md) - coldtea's MIT visualizer that draws every pull request as animated architecture and data-flow diagrams in a PR comment, judging nothing itself.

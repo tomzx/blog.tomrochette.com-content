@@ -1,7 +1,7 @@
 ---
 title: "Fluent"
 created: 2026-08-29
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, self-improving, autonomous-agents]
 readability: 3
@@ -20,7 +20,7 @@ Each run of a Work Item is an Attempt that a Writer, parallel Reviewers, a deter
 
 ## Status
 
-Active and shipping: 111 stars and 7 forks since creation on 2026-07-10, v0.6.0 released 2026-10-11 five days after v0.5.0 (2026-10-06), per the GitHub API as of 2026-10-11.
+Active and shipping: 112 stars and 7 forks since creation on 2026-07-10, v0.6.0 released 2026-10-11 five days after v0.5.0 (2026-10-06), per the GitHub API as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mrinalwadhwa/fluent&type=date&theme=dark&legend=top-left" />

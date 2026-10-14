@@ -1,7 +1,7 @@
 ---
 title: Experiential
 created: 2026-09-27
-updated: 2026-10-11
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted, model-routing]
 readability: 3
@@ -33,9 +33,9 @@ Very active and compounding fast: 9,469 stars and 233 forks as of 2026-10-07, pu
 </picture>
 
 The Show HN launch ("We built open OpenRouter that turns usage into a better model") reached 222 points on 2026-08-27 with 47 comments, and the star count has since grown roughly an order of magnitude past the ~820 the entrant data recorded around 2026-09-21.
-PyPI shows 186 releases since first upload on 2026-08-20, latest 0.7.178 (uploaded 2026-10-10), requiring Python 3.12+ (as of 2026-10-11).
+PyPI shows 189 releases since first upload on 2026-08-20, latest 0.7.185 (uploaded 2026-10-13), requiring Python 3.12+ (as of 2026-10-14).
 One hundred forty-three open issues, a Discord, and YC backing as of 2026-10-07.
-On 2026-10-10 the GitHub repository and the experientiallabs org both return 404 on the API and the web while the product site, its pricing page, and the PyPI package stay live (the package README still links the dead repo paths), so the repository is private, renamed, or removed as of this date; the 404 state persisted through the 2026-10-12 re-check with the site and package still live; the star count above stands at its last verification, and the site's own badge reads 9.9k.
+On 2026-10-10 the GitHub repository and the experientiallabs org both return 404 on the API and the web while the product site, its pricing page, and the PyPI package stay live (the package README still links the dead repo paths), so the repository is private, renamed, or removed as of this date; the 404 state persisted through the 2026-10-12 and 2026-10-14 re-checks with the site and package still live; the star count above stands at its last verification, and the site's own badge reads 9.9k.
 
 ## Strengths
 
@@ -59,7 +59,7 @@ On 2026-10-10 the GitHub repository and the experientiallabs org both return 404
 Free plan: $0 per month, 500 hosted credits monthly after a one-time $1 card verification.
 Pro is a credit ladder from $20 to $199 per month (2,000 credits at the $20 floor, scalable to 1,000,000), and above it sit self-serve Max ($200 to $1,999 per month) and Ultra ($2,000 and up) tiers with higher rate limits (Free Tier 1, Pro Tier 2, Max Tier 3, Ultra Tier 4, Tier 5 by request).
 As of 2026-10-07 the pricing page presents these as Free, Pro, and Enterprise cards, with Pro carrying a segmented Pro/Max/Ultra selector over credit quantities from 2,000 to 1,000,000 per month; the higher-rung dollar figures no longer appear in the page's static HTML, so they stay dated to the 2026-10-02 verification.
-The per-tier rate limits are enumerated on the page (Tier 1: 240 requests/min and 4M tokens/min, Tier 2: 1,500 and 25M, Tier 3: 6,000 and 100M, Tier 4: 10,000 and 150M, Tier 5 by request), SOC 1 is listed as available, and per-model discounts are published per model, revised again by 2026-10-11: the first-2,000-credit free-usage set is named as unlimited DeepSeek V4.1 Flash, GPT-6 Luna, Claude Haiku 5.5, and Jev, DeepSeek V4 Flash and Qwen3.8 27B sit at 50% off, Kimi K3 at 11.25%, a new 5% band covers the GPT-4.1 family, GPT-4o, and the GPT-5 line, Qwen3.8 Max sits at 3.75%, a 2.5% band covers Claude Fable 5 and 5.1, Claude Sonnet 5, GLM-5.3 Flash, Qwen3.8 2.4T A95B, Qwen3.8 Flash, and Tencent Hy4 Preview, a 1.25% band covers the older Claude models, and the flat 1¢-per-credit statement now appears in the plan table (GLM-5.3 Flash read 7.5% on 2026-10-07 and 2.5% on 2026-10-10).
+The per-tier rate limits are enumerated on the page (Tier 1: 240 requests/min and 4M tokens/min, Tier 2: 1,500 and 25M, Tier 3: 6,000 and 100M, Tier 4: 10,000 and 150M, Tier 5 by request), SOC 1 is listed as available, and per-model discounts are published per model, revised again by 2026-10-11: the first-2,000-credit free-usage set is named as unlimited DeepSeek V4.1 Flash, GPT-6 Luna, Claude Haiku 5.5, and Jev, DeepSeek V4 Flash and Qwen3.8 27B sit at 50% off, Kimi K3 at 11.25%, a new 5% band covers the GPT-4.1 family, GPT-4o, and the GPT-5 line, Qwen3.8 Max sits at 3.75%, a 2.5% band covers Claude Fable 5 and 5.1, Claude Sonnet 5, GLM-5.3 Flash, Qwen3.8 2.4T A95B, Qwen3.8 Flash, and Tencent Hy4 Preview, a 1.25% band covers the older Claude models, and the flat 1¢-per-credit statement now appears in the plan table (GLM-5.3 Flash read 7.5% on 2026-10-07 and 2.5% on 2026-10-10), and revised once more by 2026-10-14: GLM-5.3 moved to its own 7.5% line, GPT-4o left the 5% band (which now covers the GPT-4.1 family plus GPT-5 through GPT-5.4 Nano), and the plan table caps discounts at up to 25% on Free and up to 50%/75%/45% on Pro/Max/Ultra.
 Model discounts apply to the first 2,000 credits of usage each month, then list price.
 Enterprise: custom committed credits at the lowest rate, adding SSO/SAML/SCIM, advanced RBAC, private networking, data residency, security reviews, and a model trained on your traffic.
 Routed tokens stay at provider cost with 0% markup on every plan, and self-hosting the gateway is free, as of 2026-10-07.
@@ -73,6 +73,7 @@ Routed tokens stay at provider cost with 0% markup on every plan, and self-hosti
 | 2026-10-07 | Page structure | Page rebuilt into Free/Pro/Enterprise cards with Pro/Max/Ultra as a segmented credit selector (2,000 to 1,000,000 credits/month); Free $0 and the Pro $20 floor re-verified, higher-rung dollar figures no longer in the static page, rate-limit tiers enumerated and SOC 1 added | https://www.experientiallabs.ai/pricing |
 | 2026-10-10 | Per-model discounts | Discount schedule revised: GLM-5.3 Flash moved from 7.5% to 2.5% off, the first-2,000-credit free-usage set named as unlimited DeepSeek V4.1 Flash, GPT-6 Luna, Claude Haiku 5.5, and Jev, Kimi K3 11.25% and DeepSeek V4 Flash 50% unchanged, and a flat 1¢-per-credit statement added; plan prices unchanged | https://www.experientiallabs.ai/pricing |
 | 2026-10-11 | Per-model discounts | Discount schedule expanded again: new 5% band for the GPT-4.1 family, GPT-4o, and the GPT-5 line, Qwen3.8 Max at 3.75%, the 2.5% band widened beyond GLM-5.3 Flash to Claude Fable 5 and 5.1, Claude Sonnet 5, Qwen3.8 2.4T A95B, Qwen3.8 Flash, and Tencent Hy4 Preview, a 1.25% band added for the older Claude models, and the flat 1¢-per-credit row added to the plan comparison table; plan prices unchanged | https://www.experientiallabs.ai/pricing |
+| 2026-10-14 | Per-model discounts | Discount schedule revised again: GLM-5.3 moved to its own 7.5% line, GPT-4o dropped from the 5% band (now the GPT-4.1 family plus GPT-5 through GPT-5.4 Nano), and the plan table caps discounts at up to 25% (Free) and 50%/75%/45% (Pro/Max/Ultra); plan prices unchanged | https://www.experientiallabs.ai/pricing |
 
 ## Compared to
 
@@ -95,6 +96,7 @@ My disagreeable claim: the traffic-trained router is the demo rather than the pr
 - 2026-10-07 - Pricing page restructured into Free/Pro/Enterprise cards with the Pro/Max/Ultra rungs as a segmented credit selector (2,000 to 1,000,000 credits/month), the higher-rung dollar figures no longer present in the static page (kept dated to the 2026-10-02 verification), per-tier rate limits enumerated, SOC 1 added, and per-model discounts published per model; price history row appended, plus refreshed adoption numbers (9,469 stars, PyPI 0.7.166 at 175 releases, 143 open issues).
 - 2026-10-10 - Pricing re-check: the per-model discount schedule moved (GLM-5.3 Flash 7.5% to 2.5% off, the first-2,000-credit free set now named, a flat 1¢-per-credit statement added) with plan prices unchanged, and the GitHub repository and org found returning 404 while the product site and the PyPI package stay live; price history row appended.
 - 2026-10-11 - Pricing re-check: the per-model discount schedule expanded again (new 5% band for the GPT-4.1 family and GPT-5 line, 3.75% Qwen3.8 Max, the 2.5% band widened to five more models, a 1.25% band for older Claude models, and the 1¢-per-credit row added to the plan table) with plan prices unchanged, the repository and org 404 state persisted through this re-check, and PyPI advanced to 0.7.178 at 186 releases; price history row appended.
+- 2026-10-14 - Pricing re-check: the per-model discount schedule revised again (GLM-5.3 to its own 7.5% line, GPT-4o out of the 5% band, tier discount caps of 25%/50%/75%/45% added to the plan table) with plan prices unchanged, the repository and org 404 persisted through a fourth re-check, and PyPI advanced to 0.7.185 at 189 releases; price history row appended.
 
 ## See also
 
@@ -109,6 +111,6 @@ My disagreeable claim: the traffic-trained router is the demo rather than the pr
 - https://api.github.com/repos/experientiallabs/experiential - 9,469 stars, 233 forks, Apache-2.0, pushed 2026-10-07 (fetched via the GitHub API, 2026-10-07)
 - https://raw.githubusercontent.com/experientiallabs/experiential/main/README.md - architecture, capture mode, PostHog telemetry enabled by default, optimize workflow (200)
 - https://hn.algolia.com/api/v1/items/49471407 - Show HN thread, 222 points, created 2026-08-27, caching objection, telemetry contradiction, rug-pull accusation (200)
-- https://www.experientiallabs.ai/pricing - Free $0, Pro credit ladder $20 to $199, Max $200 to $1,999, Ultra $2,000+ (dated 2026-10-02), page restructured 2026-10-07 into Free/Pro/Enterprise cards with the rungs as a credit selector, 0% markup, YC backing (200, re-fetched 2026-10-07 and 2026-10-11)
-- https://pypi.org/pypi/experiential/json - 0.7.166, first upload 2026-08-20, 175 releases, Python 3.12+ (200, re-checked 2026-10-07, 2026-10-11, and 2026-10-12, reading 0.7.178 at 186 releases on the last two)
+- https://www.experientiallabs.ai/pricing - Free $0, Pro credit ladder $20 to $199, Max $200 to $1,999, Ultra $2,000+ (dated 2026-10-02), page restructured 2026-10-07 into Free/Pro/Enterprise cards with the rungs as a credit selector, 0% markup, YC backing (200, re-fetched 2026-10-07, 2026-10-11, and 2026-10-14 with the discount schedule revised on the last two)
+- https://pypi.org/pypi/experiential/json - 0.7.166, first upload 2026-08-20, 175 releases, Python 3.12+ (200, re-checked 2026-10-07, 2026-10-11, 2026-10-12, and 2026-10-14, reading 0.7.178 at 186 releases on 10-11/10-12 and 0.7.185 at 189 releases on 10-14)
 - https://platform.experientiallabs.ai/docs - fetched with status 200 but renders as an empty JavaScript shell, so nothing citable was taken from it

@@ -22,7 +22,7 @@ A companion Chrome extension carries the board into the browser, and a Discord c
 
 ## Status
 
-Active and modest: 1,150 stars, 85 forks, and 5 open issues as of 2026-10-13, created 2026-03-24 and pushed the day of this check, AGPL-3.0 throughout.
+Active and modest: 1,152 stars, 85 forks, and 5 open issues as of 2026-10-14, created 2026-03-24 and pushed the day of this check, AGPL-3.0 throughout.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentrq/agentrq&type=date&theme=dark&legend=top-left" />

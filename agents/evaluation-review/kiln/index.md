@@ -23,7 +23,7 @@ The maker is Chesterfield Laboratories Inc, and the desktop app is source-availa
 
 ## Status
 
-Active and mature for this category: 5,186 stars, 392 forks, and 64 open issues as of 2026-10-11, created 2024-07-23, pushed 2026-10-09, with the v1.2.0 release published 2026-09-29.
+Active and mature for this category: 5,191 stars, 394 forks, and 56 open issues as of 2026-10-13, created 2024-07-23, pushed 2026-10-14, with the v1.2.0 release published 2026-09-29.
 The release train is steady (v1.1.3 on 2026-09-16, v1.1.1 on 2026-08-20), and PyPI tracks the same 1.2.0 version.
 The community footprint is thin for the star count: a Hacker News search returns four hits about Kiln, all small (10, 6, 3, and 2 points, the newest from 2025-08-06), so adoption evidence rests on the stars and the installer base rather than independent technical discussion.
 

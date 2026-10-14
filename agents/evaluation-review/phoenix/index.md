@@ -24,7 +24,7 @@ Core platform under Elastic License 2.0 with the client and OTel packages Apache
 
 ## Status
 
-Mature and busy: 11,784 stars, 1,200 forks, 1,091 open issues and PRs as of 2026-10-11.
+Mature and busy: 11,824 stars, 1,201 forks, 1,142 open issues and PRs as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Arize-ai/phoenix&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Mature and busy: 11,784 stars, 1,200 forks, 1,091 open issues and PRs as of 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Arize-ai/phoenix&type=date&legend=top-left" />
 </picture>
 
-Created 2022-11-09, pushed 2026-10-13, platform release arize-phoenix 20.21.1 on 2026-10-12 (still the newest), about 626,000 PyPI downloads over the trailing 30 days ending 2026-10-11.
+Created 2022-11-09, pushed 2026-10-13, platform release arize-phoenix 20.21.2 on 2026-10-13 (still the newest), about 626,000 PyPI downloads over the trailing 30 days ending 2026-10-11.
 **Four years in, it is the oldest and most production-proven column in this category, with near-daily commits and weekly releases.**
 
 ## Strengths
@@ -47,7 +47,7 @@ Created 2022-11-09, pushed 2026-10-13, platform release arize-phoenix 20.21.1 on
 - Not truly open source: ELv2 bars offering Phoenix as a managed service, and a community issue calls the license overly restrictive for OSS compatibility.
 - Production monitoring (dashboards, alerting, issue grouping) lives in Arize AX, not the OSS project.
 - The Azure quick-deploy template serves plain HTTP and the Google Cloud button builds from source, per the README's own notes.
-- 1,091 open issues and PRs is a large queue even for a project this size.
+- 1,142 open issues and PRs is a large queue even for a project this size.
 
 ## Pricing
 
@@ -85,6 +85,7 @@ Not for anyone resampling hosted observability on top of it, or strictly open-so
 - 2026-10-07 - Added the Arize-ai/phoenix star history chart to the Status section.
 - 2026-10-09 - Recorded the arize-phoenix 20.20.0 release (2026-10-09) and refreshed repository counts.
 - 2026-10-13 - Recorded the arize-phoenix 20.21.1 release (2026-10-12), which superseded the 20.20.0-still-newest claim.
+- 2026-10-13 - Recorded the arize-phoenix 20.21.2 release (2026-10-13), a day after 20.21.1, and refreshed repository counts.
 
 ## See also
 
@@ -95,7 +96,7 @@ Not for anyone resampling hosted observability on top of it, or strictly open-so
 
 ## References
 
-- https://github.com/Arize-ai/phoenix - repository, README, license, adoption numbers as of 2026-10-11
+- https://github.com/Arize-ai/phoenix - repository, README, license, adoption numbers as of 2026-10-13
 - https://arize.com/docs/phoenix - the OTel and OpenInference basis, features
 - https://arize.com/docs/phoenix/resources/frequently-asked-questions/what-is-the-difference-between-phoenix-and-arize - the Phoenix versus AX split
 - https://arize.com/pricing/ - the AX tiers for the pricing rows

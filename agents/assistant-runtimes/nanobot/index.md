@@ -23,7 +23,7 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 ## Status
 
-One of the fastest adoption curves in the category: 48,946 stars, 8,618 forks, 821 open issues as of 2026-10-11, created 2026-02-01, pushed 2026-10-11.
+One of the fastest adoption curves in the category: 48,998 stars, 8,633 forks, 843 open issues as of 2026-10-14, created 2026-02-01, pushed 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/nanobot&type=date&theme=dark&legend=top-left" />
@@ -43,7 +43,7 @@ Sixteen PyPI releases since February 2026, with v0.3.0 on 2026-07-25 followed by
 
 ## Cautions
 
-- Alpha maturity: seven months old, breaking-speed releases, and an 836-issue backlog large for its age.
+- Alpha maturity: eight months old, breaking-speed releases, and an 843-issue backlog large for its age.
 - Single-maintainer concentration on PyPI.
 - The category-level security problem applies in full: shell access plus chat channels plus prompt injection is the surface HN called a security nightmare, and a sibling runtime had an RCE exploit.
 - Lineage questions from the community about NanoClaw inspiration were never clearly addressed.

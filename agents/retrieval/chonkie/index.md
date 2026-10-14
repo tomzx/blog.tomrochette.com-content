@@ -1,7 +1,7 @@
 ---
 title: Chonkie
 created: 2026-09-16
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, chunking, rag, retrieval]
 readability: 3
@@ -24,7 +24,7 @@ It also ships refineries, pipelines stored in a local SQLite database, a self-ho
 ## Status
 
 The open source library is active and widely used; the company around it has visibly moved on.
-The repository shows 4,787 stars and a push on 2026-10-03 as of 2026-10-11, and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,255,276 downloads in the last month (the same figure recorded 2026-10-06, re-verified 2026-10-11); the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-10-03.
+The repository shows 4,790 stars and a push on 2026-10-03 as of 2026-10-13, and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,255,276 downloads in the last month (the same figure recorded 2026-10-06, re-verified 2026-10-11); the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=feyninc/chonkie&type=date&theme=dark&legend=top-left" />
@@ -85,7 +85,7 @@ My disagreeable claim: Chonkie's actual innovation was packaging, not algorithms
 
 ## References
 
-- https://github.com/feyninc/chonkie - repository: 4,787 stars, MIT, created 2025-03-29, pushed 2026-10-03 (GitHub API, as of 2026-10-11)
+- https://github.com/feyninc/chonkie - repository: 4,790 stars, MIT, created 2025-03-29, pushed 2026-10-03 (GitHub API, as of 2026-10-13)
 - https://raw.githubusercontent.com/feyninc/chonkie/main/README.md - chunker table, 505KB core, self-hosted API server, stale Cloud link
 - https://pypi.org/pypi/chonkie/json - version 1.7.0 (2026-07-07), 62 releases, Python >=3.10, MIT
 - https://pypistats.org/api/packages/chonkie/recent - 1,255,276 downloads last month, unchanged and re-verified 2026-10-11

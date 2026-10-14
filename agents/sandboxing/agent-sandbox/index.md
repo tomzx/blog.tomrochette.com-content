@@ -1,7 +1,7 @@
 ---
 title: Agent Sandbox
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, kubernetes, isolation, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Apache-2.0, developed under Kubernetes SIG Apps with Google Cloud backing, built
 
 ## Status
 
-Young but institutionally backed: 4,226 stars, 550 forks, 190 open issues and PRs as of 2026-10-12, created 2025-08-12, pushed 2026-10-09.
+Young but institutionally backed: 4,242 stars, 558 forks, 179 open issues and PRs as of 2026-10-13, created 2025-08-12, pushed 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kubernetes-sigs/agent-sandbox&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Young but institutionally backed: 4,226 stars, 550 forks, 190 open issues and PR
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kubernetes-sigs/agent-sandbox&type=date&legend=top-left" />
 </picture>
 
-v1.0.0 released 2026-08-28 with v1.0.1 on 2026-09-03, v1.0.2 on 2026-09-11, v1.0.3 on 2026-09-17, v1.0.4 on 2026-09-24, v1.0.5 on 2026-10-01 (a runtime connectivity layer for the TypeScript SDK, native in-cluster sandboxd transport, streaming file transfers, and an OpenAI Agents integration), and v1.0.6 on 2026-10-08 (the first part of a multi-cluster warm-pool fleet planner, interactive processes via `commands.start()` in the TypeScript SDK, and Go and Python SDK parity, with a name-length CEL rule that fails updates of pre-existing over-length `spec.service` sandboxes), twenty-six releases since October 2025, 1,131 commits.
+v1.0.0 released 2026-08-28 with v1.0.1 on 2026-09-03, v1.0.2 on 2026-09-11, v1.0.3 on 2026-09-17, v1.0.4 on 2026-09-24, v1.0.5 on 2026-10-01 (a runtime connectivity layer for the TypeScript SDK, native in-cluster sandboxd transport, streaming file transfers, and an OpenAI Agents integration), and v1.0.6 on 2026-10-08 (the first part of a multi-cluster warm-pool fleet planner, interactive processes via `commands.start()` in the TypeScript SDK, and Go and Python SDK parity, with a name-length CEL rule that fails updates of pre-existing over-length `spec.service` sandboxes), twenty-six releases since October 2025, 1,148 commits.
 **The v1.0.0 tag is not API stability: the API is `v1beta1`, v1alpha1 was removed in the same release, and upgrades from older versions require a documented four-step migration.**
 
 ## Strengths

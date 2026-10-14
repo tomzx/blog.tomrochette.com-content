@@ -25,7 +25,7 @@ Commercially, Zylon builds the enterprise platform on top: an on-premise, air-ga
 
 ## Status
 
-Alive again after a long quiet stretch: 57,566 stars, 7,619 forks, and 12 open issues as of 2026-10-11, created 2023-05-02, pushed 2026-10-09.
+Alive again after a long quiet stretch: 57,577 stars, 7,619 forks, and 4 open issues and pull requests as of 2026-10-14, created 2023-05-02, pushed 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zylon-ai/private-gpt&type=date&theme=dark&legend=top-left" />
@@ -36,7 +36,7 @@ Alive again after a long quiet stretch: 57,566 stars, 7,619 forks, and 12 open i
 The project went viral in May 2023 with a 520-point Hacker News thread as the original offline document chat.
 **Then came the fork gap: the v1.0.0 release notes state the release merges two years of work from a private fork, which is a direct admission that the public repo lagged while Zylon built commercially.**
 v1.0.0 shipped 2026-06-03 with a breaking API change, v1.0.1 followed on 2026-06-18, and no release has shipped since, though main is active.
-Twelve open issues on a project this size is unusually low, which I read as issue hygiene rather than an absence of bugs.
+Four open issues and pull requests on a project this size is unusually low, which I read as issue hygiene rather than an absence of bugs.
 The same notes say Zylon closed its private fork and now develops against the open repository, which is the commitment to watch.
 
 ## Strengths

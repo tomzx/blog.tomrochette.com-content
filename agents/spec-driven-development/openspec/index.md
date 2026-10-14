@@ -1,7 +1,7 @@
 ---
 title: OpenSpec
 created: 2026-08-27
-updated: 2026-10-11
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, specs, open-source]
 readability: 3
@@ -30,7 +30,7 @@ Half of spec-kit's stars in a third of the time.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&legend=top-left" />
 </picture>
 
-As of 2026-10-11: about 71k stars and about 4.9k forks since creation on 2025-08-05, 185 open issues and pull requests, MIT, release v1.14.1 (2026-10-06) the newest, and 2,908,651 npm downloads last month (the 2026-09-10 to 2026-10-09 window).
+As of 2026-10-14: about 71k stars (71,842) and about 4.9k forks since creation on 2025-08-05, 185 open issues and pull requests, MIT, release v1.14.1 (2026-10-06) the newest, and 2,919,226 npm downloads last month (the 2026-09-13 to 2026-10-12 window).
 **Its Hacker News footprint is effectively empty (no significant thread found this run), so adoption spread through X and Discord, and third-party verification is thinner than the install count implies.**
 The README's own superlative ("the most loved spec framework") is vendor framing, not a measured claim.
 
@@ -84,7 +84,7 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 ## References
 
 - https://github.com/Fission-AI/OpenSpec - README: philosophy, opsx workflow, artifact layout
-- https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues, releases through v1.14.1, as of 2026-10-10
+- https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues, releases through v1.14.1, as of 2026-10-14
 - https://openspec.dev/ - official documentation site
-- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 2,908,651 downloads last month, fetched 2026-10-11
+- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 2,919,226 downloads last month, fetched 2026-10-14
 - https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md - the rebuilt artifact workflow

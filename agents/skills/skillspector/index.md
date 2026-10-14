@@ -25,7 +25,7 @@ It is the security tier inside NVIDIA's SkillEvaluator and part of the Verified 
 
 ## Status
 
-Active and large: 19,966 stars, 1,753 forks, and 148 open issues as of 2026-10-12, created 2026-03-21, pushed 2026-10-10 (GitHub API).
+Active and large: 20,139 stars, 1,770 forks, and 149 open issues as of 2026-10-13, created 2026-03-21, pushed 2026-10-13 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/SkillSpector&type=date&theme=dark&legend=top-left" />
@@ -82,7 +82,7 @@ Not for runtime policy enforcement (that is the harness or a control plane), for
 
 ## References
 
-- https://api.github.com/repos/NVIDIA/SkillSpector - 19,966 stars, 1,753 forks, 148 open issues, Apache-2.0, created 2026-03-21, pushed 2026-10-10, docs homepage (fetched 2026-10-12)
+- https://api.github.com/repos/NVIDIA/SkillSpector - 20,139 stars, 1,770 forks, 149 open issues, Apache-2.0, created 2026-03-21, pushed 2026-10-13, docs homepage (fetched 2026-10-13)
 - https://raw.githubusercontent.com/NVIDIA/SkillSpector/main/README.md - the 71-pattern taxonomy, two-stage pipeline, MCP mode, install paths, risk scoring, and the 31,132-skill research numbers (fetched 2026-10-12)
 - https://docs.nvidia.com/skills/scanning-agent-skills - the hosted guide with its 68-pattern count, the triage policy, and the SkillEvaluator security-tier framing (fetched 2026-10-12)
 - https://api.github.com/repos/NVIDIA/SkillSpector/releases/latest - v2.12.0 published 2026-09-23 with sha256-digested wheel and sdist assets, and the Codex-prepared release notes (fetched 2026-10-12)

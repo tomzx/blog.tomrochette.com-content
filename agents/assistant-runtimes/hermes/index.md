@@ -24,7 +24,7 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 ## Status
 
 Massive and fast-moving.
-As of 2026-10-13: 253,193 stars and 54,879 forks since creation on 2025-07-22, pushed today, MIT, and 48,162 open issues, a support surface bigger than most projects' users.
+As of 2026-10-14: 253,488 stars and 54,982 forks since creation on 2025-07-22, pushed today, MIT, and 48,476 open issues, a support surface bigger than most projects' users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&theme=dark&legend=top-left" />

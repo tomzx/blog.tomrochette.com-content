@@ -24,7 +24,7 @@ MIT, from Microsoft Research Asia with university collaborators, Python 3.10+.
 
 ## Status
 
-Research code with unusually strong product trappings: 18.2k stars, 1.7k forks, 50 open issues and pull requests, and 575 commits on main as of 2026-10-11, created 2026-05-08.
+Research code with unusually strong product trappings: 18.3k stars, 1.7k forks, and 53 open issues and pull requests as of 2026-10-13, created 2026-05-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/SkillOpt&type=date&theme=dark&legend=top-left" />

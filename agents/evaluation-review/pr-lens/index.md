@@ -23,7 +23,7 @@ The README documents GitLab and Bitbucket support alongside GitHub.
 
 ## Status
 
-New and moving fast: 1,923 stars and 71 forks as of 2026-10-11, created 2026-08-20, pushed 2026-10-04, with v0.13.0 published 2026-10-04 and three releases across four days in early October.
+New and moving fast: 1,954 stars and 71 forks as of 2026-10-13, created 2026-08-20, pushed 2026-10-04, with v0.13.0 published 2026-10-04 and three releases across four days in early October.
 Reaching 1.9k stars in seven weeks is strong adoption for a review tool, though the independent footprint is small: a Hacker News search finds three Show HN threads (6 points on 2026-08-27, 4 points on 2026-10-05, 4 points on 2026-09-17), none above single digits.
 
 <picture>

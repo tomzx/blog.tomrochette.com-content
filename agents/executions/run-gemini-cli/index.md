@@ -25,9 +25,9 @@ It is Apache-2.0, published by the google-github-actions organization, and set u
 ## Status
 
 **Shipped and widely starred, with a stalled action repo and a fast product behind it.**
-2,104 stars, 288 forks, and 85 open issues and pull requests as of 2026-10-11 (GitHub API), created 2025-07-11, but the last push was 2026-08-21, fifty-one days before this check.
+2,105 stars, 287 forks, and 85 open issues and pull requests as of 2026-10-13 (GitHub API), created 2025-07-11, but the last push was 2026-08-21, fifty-three days before this check.
 The release train stopped at v0.1.22 (2026-04-24), five and a half months before this check, after monthly releases through the winter.
-The wrapped product, google-gemini/gemini-cli, is enormous and active (about 107.3k stars as of 2026-10-11, pushed 2026-10-12 UTC), so the CLI keeps moving while the action layer it powers on GitHub has gone quiet, and no dedicated Hacker News thread exists as of 2026-10-11 searches.
+The wrapped product, google-gemini/gemini-cli, is enormous and active (about 107.3k stars as of 2026-10-13, pushed 2026-10-13 UTC), so the CLI keeps moving while the action layer it powers on GitHub has gone quiet, and no dedicated Hacker News thread exists as of 2026-10-11 searches.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=google-github-actions/run-gemini-cli&type=date&theme=dark&legend=top-left" />
@@ -44,7 +44,7 @@ The wrapped product, google-gemini/gemini-cli, is enormous and active (about 107
 
 ## Cautions
 
-- **The action layer is going stale in public**: last push 2026-08-21, no release since v0.1.22 on 2026-04-24, as of 2026-10-11.
+- **The action layer is going stale in public**: last push 2026-08-21, no release since v0.1.22 on 2026-04-24, as of 2026-10-13.
 - There is no runtime sandbox; the workflow token's declared permissions are the boundary, and the best-practices doc leans on version pinning, branch protection, and restricted approvers.
 - Google's own agentic-workflows product (GitHub Agentic Workflows) deprecated its built-in Gemini engine in favor of its Agy engine, so Google's bet inside the compiler layer has moved off the CLI this action runs.
 - The settings JSON, extensions, and CLI-version inputs inherit Gemini CLI's fast churn, and a stalled action repo is a slow responder to that churn.
@@ -79,9 +79,9 @@ My disagreeable claim: this is the README I would copy from among the three offi
 
 ## References
 
-- https://github.com/google-github-actions/run-gemini-cli - repository, 2,104 stars, Apache-2.0 license, as of 2026-10-11
-- https://api.github.com/repos/google-github-actions/run-gemini-cli - exact counters (2,104 stars, 288 forks, 85 open issues and pull requests, pushed 2026-08-21, created 2025-07-11)
+- https://github.com/google-github-actions/run-gemini-cli - repository, 2,105 stars, Apache-2.0 license, as of 2026-10-13
+- https://api.github.com/repos/google-github-actions/run-gemini-cli - exact counters (2,105 stars, 287 forks, 85 open issues and pull requests, pushed 2026-08-21, created 2025-07-11)
 - https://raw.githubusercontent.com/google-github-actions/run-gemini-cli/main/README.md - the workflow suite, mention commands, GEMINI.md context, auth options, and observability
 - https://api.github.com/repos/google-github-actions/run-gemini-cli/releases?per_page=5 - the release train stopping at v0.1.22 (2026-04-24)
-- https://api.github.com/repos/google-gemini/gemini-cli - the wrapped product's scale and activity (about 107.3k stars, pushed 2026-10-12 UTC)
+- https://api.github.com/repos/google-gemini/gemini-cli - the wrapped product's scale and activity (about 107.3k stars, pushed 2026-10-13 UTC)
 - https://hn.algolia.com/api/v1/search?query=run-gemini-cli - the coverage scan finding no dedicated thread (2026-10-11), the missing-footprint record

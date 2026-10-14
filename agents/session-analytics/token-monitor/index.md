@@ -25,7 +25,7 @@ Made by Javis603, MIT-licensed.
 
 ## Status
 
-Young and shipping daily: 2,988 stars, 281 forks, 119 open issues, created 2026-05-19, pushed 2026-10-13, with v0.69.0 released 2026-10-11, v0.68.0 on 2026-10-08, and v0.67.0 on 2026-10-06, as of 2026-10-13.
+Young and shipping daily: 3,038 stars, 286 forks, 120 open issues, created 2026-05-19, pushed 2026-10-13, with v0.70.0 released 2026-10-13, v0.69.0 on 2026-10-11, and v0.68.0 on 2026-10-08, as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Javis603/token-monitor&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ I found no Hacker News thread for the project; the only search hit for the name 
 
 ## Cautions
 
-- 101 open issues against 2,765 stars and v0.68 within five months is a fast, churny project; expect breaking changes in a widget you leave running.
+- 120 open issues against 3,038 stars and v0.70 within five months is a fast, churny project; expect breaking changes in a widget you leave running.
 - Coverage is graded and uneven by design, and several limit sources are account-level cookie reads (Ollama Cloud, Alibaba Cloud console) rather than file parsing, a different trust model than the local reads the rest of this category does.
 - Cursor account usage arrives through Tokscale's cache, so Cursor numbers inherit Tokscale's Cursor pipeline.
 - The community footprint is a Discord and a star graph, with no independent discussion, so treat the claims as unverified beyond the README.
@@ -72,6 +72,7 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 - 2026-10-07 - Added the Javis603/token-monitor star history chart to the Status section.
 - 2026-10-10 - Recorded v0.68.0 (2026-10-08): experimental Codex Dots local-task usage tracking (disabled by default), a manual Edge Dock refresh button, and Edge Dock size options; repository counts refreshed (2,646 to 2,714 stars, 268 to 269 forks).
 - 2026-10-13 - Recorded v0.69.0 (2026-10-11): Claude Code and Codex waiting states shown before token usage arrives, Codex subagents grouped under their parent with combined usage, T3 Code session grouping, Cursor Grok Bot grouping, Antigravity session titles and native generation-speed readings, and Antigravity reasoning tokens included in usage totals; repository counts refreshed (2,765 to 2,988 stars, 107 to 119 open issues).
+- 2026-10-13 - Recorded v0.70.0 (2026-10-13): CatPaw local-assistant usage tracking for the domestic and overseas editions on macOS and Windows (disabled by default), MiniMax pay-as-you-go API balance display in CNY or USD in Limits and Edge Dock, the digit-roll token animation, and usage fixes for Codex compressed sessions and Hermes double-charged reasoning tokens; repository counts refreshed (2,988 to 3,038 stars, 281 to 286 forks, 119 to 120 open issues).
 
 ## See also
 
@@ -83,8 +84,8 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 
 ## References
 
-- https://api.github.com/repos/Javis603/token-monitor - 2,765 stars, 273 forks, MIT license, created 2026-05-19, as of 2026-10-11
+- https://api.github.com/repos/Javis603/token-monitor - 3,038 stars, 286 forks, MIT license, created 2026-05-19, as of 2026-10-13
 - https://raw.githubusercontent.com/Javis603/token-monitor/main/README.md - the 43-plus-tool source table, live features, retention archive, hub sync options, and export formats
-- https://api.github.com/repos/Javis603/token-monitor/releases - v0.68.0 (2026-10-08), v0.67.0 (2026-10-06), v0.66.0 (2026-10-04), v0.65.0 (2026-10-02)
+- https://api.github.com/repos/Javis603/token-monitor/releases - v0.70.0 (2026-10-13), v0.69.0 (2026-10-11), v0.68.0 (2026-10-08), v0.67.0 (2026-10-06)
 - https://formulae.brew.sh/cask/token-monitor - the Homebrew cask
 - https://hn.algolia.com/api/v1/search?query=%22token%20monitor%22%20coding - the empty HN footprint behind the thin-community claim (the only name hit is an unrelated ESP32 project)

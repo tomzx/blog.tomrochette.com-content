@@ -1,7 +1,7 @@
 ---
 title: Chutes
 created: 2026-09-26
-updated: 2026-10-11
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, inference, pay-as-you-go, bittensor]
 readability: 3
@@ -41,7 +41,7 @@ I could not verify funding or traffic figures.
 
 ## Pricing
 
-PAYG is the default as of 2026-10-11: GLM-5.2 $1.25 in / $3.95 out per 1M, Kimi-K3 $3.00/$15.00, Qwen3-235B-A22B-Thinking $0.2989/$1.1957, DeepSeek-V3.2 $1.00/$1.00.
+PAYG is the default as of 2026-10-14: GLM-5.2 $1.25 in / $3.95 out per 1M, Kimi-K3 $1.85/$9.50, Qwen3-235B-A22B-Thinking $0.2989/$1.1957, DeepSeek-V3.2 $1.00/$1.00.
 Plus costs $10/month for a bundled daily quota plus 6% off PAYG beyond it, and Pro costs $20/month for a larger quota plus 10% off.
 Since February 27, 2026, every subscription is capped at 5x the equivalent PAYG value, with overflow billing at standard PAYG.
 Private chutes run on an RTX Pro 6000 at $1.80/hour plus a $5.40 one-time deployment fee (3x the hourly rate).
@@ -55,6 +55,7 @@ Private chutes run on an RTX Pro 6000 at $1.80/hour plus a $5.40 one-time deploy
 | 2026-02-27 | Early Access | Free 200-requests/day perk cut off from TEE models, fully retired March 15, 2026 | same announcement |
 | 2026-02-27 | All subscriptions | Value capped at 5x PAYG equivalent; GLM-5, Kimi K2.5, Qwen 3.5, MiniMax M2.5 removed from Base | same announcement |
 | 2026-09-26 | Base | No longer listed on the pricing page, which shows only Plus $10, Pro $20, and Enterprise | chutes.ai/pricing |
+| 2026-10-14 | PAYG (Kimi-K3) | Kimi-K3 listed at $1.85/$9.50 per 1M tokens, down from the $3.00/$15.00 read of 2026-10-11; GLM-5.2, Qwen3-235B, and DeepSeek-V3.2 rates, Plus $10, Pro $20, and private GPU pricing unchanged | https://chutes.ai/pricing |
 
 ## Compared to
 
@@ -71,6 +72,7 @@ Claim to disagree with: after the 5x cap, Plus and Pro make little sense for cod
 
 - 2026-09-26 - Created.
 - 2026-10-06 - Cleaned the Compared-to and See also link labels (stray leading dashes inside the link text), with the pricing page re-verified unchanged.
+- 2026-10-14 - PAYG re-check: Kimi-K3 moved to $1.85/$9.50 per 1M tokens from $3.00/$15.00, with the subscription tiers and the other verified PAYG rates unchanged; price history row appended.
 
 ## See also
 
@@ -81,7 +83,7 @@ Claim to disagree with: after the 5x cap, Plus and Pro make little sense for cod
 
 ## References
 
-- https://chutes.ai/pricing - current PAYG model rates, Plus $10 / Pro $20 with 6%/10% PAYG discounts, private GPU pricing (fetched, HTTP 200, re-verified unchanged 2026-10-11).
+- https://chutes.ai/pricing - current PAYG model rates, Plus $10 / Pro $20 with 6%/10% PAYG discounts, private GPU pricing (fetched, HTTP 200, re-verified unchanged 2026-10-11; re-fetched 2026-10-14 with the Kimi-K3 rate at $1.85/$9.50).
 - https://chutes.ai/news/community-announcement-february - February 27, 2026 changes: Early Access retirement, 5x subscription cap, Base tier model removals, abuse tables (fetched, HTTP 200).
 - https://chutes.ai/news/from-volume-to-value-building-a-sustainable-ai-inference-platform-2 - March 20, 2026 economics: tokens down 45%, revenue per token up 37.7%, free-tier costs (fetched, HTTP 200).
 - https://chutes.ai/news/coming-soon - July 31, 2025 post announcing the first pricing tiers (fetched, HTTP 200).

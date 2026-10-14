@@ -23,7 +23,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 24,055 stars, 2,428 forks, 606 open issues and PRs as of 2026-10-13, created 2026-01-14, pushed 2026-10-13.
+Alive and shipping hard: 24,080 stars, 2,434 forks, 613 open issues and PRs as of 2026-10-14, created 2026-01-14, pushed 2026-10-14.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />
@@ -50,9 +50,9 @@ v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-2
 
 ## Pricing
 
-Free: $0, the MIT open-source desktop app with BYO keys, macOS, Windows, and Linux downloads, free forever, as of 2026-10-11.
-Team: $10 per seat per month, with the first 5 seats free on OpenWork Cloud (API access, SSO/SAML, the extension marketplace, and distributed LLM keys), as of 2026-10-11.
-Enterprise: custom pricing (everything in Team plus SCIM provisioning, BYO inference self-hosted or private models, desktop policies and version controls, managed deployment, custom skill development and MCP consulting, rollout support, and the grandfather clause: existing organizations already using SCIM or desktop policies keep full access), as of 2026-10-11.
+Free: $0, the MIT open-source desktop app with BYO keys, macOS, Windows, and Linux downloads, free forever, as of 2026-10-14.
+Team: $10 per seat per month, with the first 5 seats free on OpenWork Cloud (API access, SSO/SAML, the extension marketplace, and distributed LLM keys), as of 2026-10-14.
+Enterprise: custom pricing (everything in Team plus SCIM provisioning, BYO inference self-hosted or private models, desktop policies and version controls, managed deployment, custom skill development and MCP consulting, rollout support, and the grandfather clause: existing organizations already using SCIM or desktop policies keep full access), as of 2026-10-14.
 The pricing page now lists three tiers only: the two add-ons introduced on 2026-09-29 (OpenWork Cloud Computer at $50 per member per month, managed OpenWork models at $10 per user per month) no longer appear, and self-hosting stays free for organizations up to five users.
 
 ## Price history

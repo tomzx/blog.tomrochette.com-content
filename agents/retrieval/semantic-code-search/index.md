@@ -1,7 +1,7 @@
 ---
 title: Semantic code search in coding tools
 created: 2026-08-24
-updated: 2026-10-05
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, code-retrieval, embeddings, rag, llm=glm-5.3-flash]
 readability: 3
@@ -79,7 +79,7 @@ The Devin and VS Code platform bets are the counterargument, and they may well w
 
 ## References
 
-- https://cursor.com/docs/context/codebase-indexing - retitled Search: Instant Grep, the Explore subagent, and the statement that Cursor does not store codebase embeddings for search (fetched 2026-10-05, re-verified unchanged 2026-10-11)
+- https://cursor.com/docs/context/codebase-indexing - retitled Search: Instant Grep, the Explore subagent, and the statement that Cursor does not store codebase embeddings for search (fetched 2026-10-05, re-verified unchanged 2026-10-13)
 - https://code.visualstudio.com/docs/agents/reference/workspace-context - Copilot's search tool set, the GitHub, Azure DevOps, and local index sources, and the no-index fallback (page updated 2026-09-30, fetched 2026-10-05)
 - https://docs.continue.dev/reference/deprecated-codebase - the deprecated local embeddings pipeline (transformers.js, hybrid retrieval, LLM reranking), re-verified unchanged 2026-10-11
 - https://docs.continue.dev/guides/codebase-documentation-awareness - the replacement model: agent tools, rules, and MCP servers

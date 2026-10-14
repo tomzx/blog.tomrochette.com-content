@@ -24,7 +24,7 @@ It comes from OpenLayer (the openlayer-ai organization), is alpha, MIT, Python 3
 ## Status
 
 **Twenty-one days old and already carrying more independent evidence than most month-old tools ever get.**
-103 stars and 10 forks as of 2026-10-11 (repository created 2026-09-20, last push 2026-10-01), PyPI 0.1.4 published 2026-09-20, and a 47-point Show HN with 6 comments the same day.
+105 stars and 10 forks as of 2026-10-13 (repository created 2026-09-20, last push 2026-10-01), PyPI 0.1.4 published 2026-09-20, and a 47-point Show HN with 6 comments the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openlayer-ai/jevals&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: open-codebase-index
 created: 2026-10-05
-updated: 2026-10-09
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, rag, embeddings, mcp]
 readability: 3
@@ -24,7 +24,7 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
 ## Status
 
 **Active and shipping constantly, with almost no community footprint.**
-218 stars and 35 forks since 2026-01-13, pushed 2026-10-10 (GitHub API, as of 2026-10-11).
+221 stars and 37 forks since 2026-01-13, pushed 2026-10-13 (GitHub API, as of 2026-10-13).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&legend=top-left" />
 </picture>
 
-npm shows 33 versions since 2026-07-30, latest 0.36.3 published 2026-10-09 following 0.36.2 on 2026-10-08, and 7,610 downloads in the month of 2026-09-10 to 2026-10-09, so installs run well ahead of stars.
+npm shows 32 versions since 2026-07-30, latest 0.36.3 published 2026-10-09 with the train paused since, and 7,613 downloads in the month of 2026-09-13 to 2026-10-12, so installs run well ahead of stars.
 A search for its name on Hacker News returned zero hits as of 2026-10-11, so like graft and Knowhere in this section, adoption is quiet and distribution runs from README to install, not from launches.
 
 ## Strengths
@@ -73,6 +73,7 @@ My disagreeable claim: a 6,000-installs-a-month npm package with zero discussion
 - 2026-10-07 - Recorded npm release 0.35.3 (published 2026-10-06, 28 versions total) and refreshed the repository numbers to 216 stars as of 2026-10-07; downloads and the zero-HN-footprint claim unchanged.
 - 2026-10-08 - Recorded the npm train moving to 0.36.0 (2026-10-07) and 0.36.1 (2026-10-08), 30 versions total, and refreshed the repository numbers to 217 stars pushed 2026-10-08; downloads and the zero-HN-footprint claim unchanged.
 - 2026-10-09 - Recorded the npm train moving to 0.36.2 (2026-10-08) and 0.36.3 (2026-10-09), 32 versions total, refreshed downloads to 6,807 for the month of 2026-09-08 to 2026-10-07, and the repository numbers to 216 stars pushed 2026-10-09; the zero-HN-footprint claim unchanged.
+- 2026-10-13 - Refreshed the repository numbers (221 stars, pushed 2026-10-13), the npm figures (7,613 downloads for the month to 2026-10-12, the train paused at 0.36.3), and corrected the version count to 32 against the registry, where the Status line had drifted to 33.
 
 ## See also
 
@@ -83,9 +84,9 @@ My disagreeable claim: a 6,000-installs-a-month npm package with zero discussion
 
 ## References
 
-- https://github.com/Helweg/open-codebase-index - repository: 218 stars, 35 forks, MIT, created 2026-01-13, pushed 2026-10-10 (GitHub API, as of 2026-10-11)
+- https://github.com/Helweg/open-codebase-index - repository: 221 stars, 37 forks, MIT, created 2026-01-13, pushed 2026-10-13 (GitHub API, as of 2026-10-13)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/README.md - hosts, highlights, pipeline, embedding providers, legacy package aliases (fetched 2026-10-05, re-verified unchanged 2026-10-11)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/docs/tools.md - the host surface matrix: 16 portable tools, 3 knowledge-base tools, 5 MCP prompts (fetched 2026-10-05)
-- https://registry.npmjs.org/open-codebase-index - latest 0.36.3 published 2026-10-09 following 0.36.2 (2026-10-08), 33 versions since 2026-07-30, MIT (re-verified 2026-10-11)
-- https://api.npmjs.org/downloads/point/last-month/open-codebase-index - 7,610 downloads, window 2026-09-10 to 2026-10-09 (fetched 2026-10-11)
+- https://registry.npmjs.org/open-codebase-index - latest 0.36.3 published 2026-10-09, 32 versions since 2026-07-30, train paused since (re-verified 2026-10-13)
+- https://api.npmjs.org/downloads/point/last-month/open-codebase-index - 7,613 downloads, window 2026-09-13 to 2026-10-12 (fetched 2026-10-13)
 - https://hn.algolia.com/api/v1/search?query=%22open-codebase-index%22&tags=story - the zero-hit footprint scan (fetched 2026-10-05, re-verified zero hits 2026-10-11)

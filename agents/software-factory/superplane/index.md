@@ -1,7 +1,7 @@
 ---
 title: SuperPlane
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The core is Apache-2.0 with integrations across source control, CI, cloud, obser
 
 ## Status
 
-Active and the category's largest member: 7,708 stars, 648 forks, and 455 open issues, pushed 2026-10-10, per the GitHub API as of 2026-10-11.
+Active and the category's largest member: 7,709 stars, 649 forks, and 419 open issues, pushed 2026-10-14, per the GitHub API as of 2026-10-14.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&theme=dark&legend=top-left" />
@@ -29,7 +29,7 @@ Active and the category's largest member: 7,708 stars, 648 forks, and 455 open i
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&legend=top-left" />
 </picture>
 
-**The positioning pivoted and the tags lag main: the January 2026 Show HN launched it as an open source DevOps control plane (21 points), and the newest tag v0.30.0 dates to 2026-07-27 while main is pushed daily.**
+**The positioning pivoted and the release story split in two: the January 2026 Show HN launched it as an open source DevOps control plane (21 points), the newest stable tag is still v0.30.0 (2026-07-27), and the first releases since it shipped on 2026-10-13 and 2026-10-14 as a component prerelease train, runner v0.1.0-rc.1 through rc.4 and fleet-manager v0.1.0-rc.4 and rc.5, published as container images.**
 The repository now carries the software-factory topic and the website and docs sell one-shot routine engineering, which is the frame this note reads it under.
 
 ## Strengths
@@ -41,7 +41,7 @@ The repository now carries the software-factory topic and the website and docs s
 
 ## Cautions
 
-- **Release tags lag main by months**: v0.30.0 on 2026-07-27 against daily main pushes as of 2026-10-07, so tag-tracking self-hosters run old code.
+- **Stable tags still lag main by months**: v0.30.0 on 2026-07-27 against daily main pushes, so tag-tracking self-hosters run old code, and the new component RC train (fleet manager and runner container images) is prerelease-only.
 - **Open-core split**: the /ee directory sits under a separate Enterprise Edition license, and GitHub cannot classify the result.
 - **Young platform surface**: 455 open issues and a January control-plane-to-factory pivot mean the docs story is still settling.
 - **It is broader than a factory**: workflow automation across observability and incidents puts it in workflow-platform territory too, which dilutes the factory comparison.
@@ -73,6 +73,7 @@ Not for local-first, single-repo loops, and not for anyone who needs tagged rele
 
 - 2026-10-07 - Created from the category's entrant scan as the largest member.
 - 2026-10-10 - Recorded the website's first published pricing (Business $199 per organization per month with $50 shared monthly usage, OSS Projects free, Enterprise custom, machine and model usage rates), adding the Price history section; counts refreshed.
+- 2026-10-13 - Recorded the first releases since the July stable tag: a component prerelease train (runner v0.1.0-rc.1 through rc.4, fleet-manager v0.1.0-rc.4 and rc.5, published as container images) on 2026-10-13 and 2026-10-14, which softens the release-lag caution while v0.30.0 remains the newest stable tag; counts refreshed.
 
 ## See also
 
@@ -89,5 +90,5 @@ Not for local-first, single-repo loops, and not for anyone who needs tagged rele
 - https://docs.superplane.com/get-started/overview - the factory docs overview
 - https://github.com/superplanehq/superplane/blob/main/LICENSE - Apache-2.0 core with the /ee Enterprise Edition license
 - https://news.ycombinator.com/item?id=46793814 - the January 2026 Show HN as an open source DevOps control plane, 21 points
-- https://api.github.com/repos/superplanehq/superplane/releases - the release tags, v0.30.0 newest as of 2026-10-07
+- https://api.github.com/repos/superplanehq/superplane/releases - the release train: v0.30.0 the newest stable tag, with the runner and fleet-manager RC train newest as of 2026-10-14
 - https://github.com/markoa - Marko Anastasov, SuperPlaneHQ and Semaphore cofounder

@@ -24,7 +24,7 @@ Dual Apache-2.0 or MIT, written almost entirely by one developer (1,166 of 1,447
 
 ## Status
 
-Fast and growing: 9,382 stars, 705 forks, 140 open issues and PRs as of 2026-10-13, created 2025-12-28, pushed 2026-10-13, v0.28.17 released 2026-10-12.
+Fast and growing: 9,398 stars, 707 forks, 141 open issues and PRs as of 2026-10-13, created 2025-12-28, pushed 2026-10-13, v0.28.19 released 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=backnotprop/plannotator&type=date&theme=dark&legend=top-left" />
@@ -82,6 +82,7 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - 2026-10-10 - Recorded the v0.28.9 and v0.28.10 releases (2026-10-09 and 2026-10-10) and refreshed repository, commit, and Herdr Annotate counts.
 - 2026-10-11 - Recorded the v0.28.11 and v0.28.12 releases (2026-10-10 and 2026-10-11) and refreshed repository and Herdr Annotate counts.
 - 2026-10-13 - Recorded the v0.28.13 through v0.28.17 releases (2026-10-11 to 2026-10-12) and refreshed repository and Herdr Annotate counts.
+- 2026-10-13 - Recorded the v0.28.18 and v0.28.19 releases (both 2026-10-13) and refreshed repository counts.
 
 ## See also
 

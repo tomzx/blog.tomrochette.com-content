@@ -1,7 +1,7 @@
 ---
 title: llamafile
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, single-file]
 readability: 3
@@ -16,14 +16,14 @@ llamafile is Mozilla's single-file LLM distribution format: it folds llama.cpp a
 
 ## What it is
 
-A Mozilla Builders project launched November 2023, built by Justine Tunney (the Cosmopolitan Libc author) and now revamped by Mozilla.ai, licensed Apache-2.0 with its llama.cpp changes MIT so they can move upstream (26,220 stars, pushed 2026-10-08, as of 2026-10-11).
+A Mozilla Builders project launched November 2023, built by Justine Tunney (the Cosmopolitan Libc author) and now revamped by Mozilla.ai, licensed Apache-2.0 with its llama.cpp changes MIT so they can move upstream (26,232 stars, pushed 2026-10-12, as of 2026-10-14).
 You point it at a GGUF weights file and get one cross-platform binary containing the weights, the inference engine, and a web UI, runnable on macOS, Linux, Windows, and the BSDs across six OS targets, on CPU or GPU, with no install step.
 The same packaging ships whisperfile, a single-file speech-to-text and translation tool on whisper.cpp.
 Release 0.10.6 (September 2026) moved to a new build system on the 0.10 line, and the project publishes pre-built llamafiles for popular models through Mozilla's docs.
 
 ## Status
 
-Active under Mozilla.ai stewardship: created 2023-09-10, 26,220 stars, release 0.10.6 published 2026-09-15 (still latest as of 2026-10-11), as of 2026-10-11.
+Active under Mozilla.ai stewardship: created 2023-09-10, 26,232 stars, release 0.10.6 published 2026-09-15 (still latest as of 2026-10-14), as of 2026-10-14.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mozilla-ai/llamafile&type=date&theme=dark&legend=top-left" />
@@ -78,7 +78,7 @@ Not as a daily driver for people who churn models weekly, and not for serving ag
 ## References
 
 - https://github.com/mozilla-ai/llamafile - repository, README, licensing badge, whisperfile, and the 0.10 build-system note (fetched 200, 2026-10-07)
-- https://api.github.com/repos/mozilla-ai/llamafile - stars, created date, push date, and the NOASSERTION license field (fetched 200, 2026-10-07)
+- https://api.github.com/repos/mozilla-ai/llamafile - stars, created date, push date, and the NOASSERTION license field (fetched 200, 2026-10-07; re-fetched 2026-10-14 at 26,232 stars, pushed 2026-10-12).
 - https://hacks.mozilla.org/2023/11/introducing-llamafile/ - Mozilla's launch announcement: the six-OS goal, Justine Tunney's authorship, and the Apache-2.0 plus MIT split (fetched 200, 2026-10-07)
 - https://docs.mozilla.ai/llamafile - the Mozilla.ai docs hub, pre-built llamafiles, and whisperfile surface (fetched 200, 2026-10-07)
 - https://api.github.com/repos/mozilla-ai/llamafile/releases - the 0.10.6 release of 2026-09-15 and the 2026 cadence (fetched 200, 2026-10-07)

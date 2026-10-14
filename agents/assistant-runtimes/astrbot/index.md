@@ -1,7 +1,7 @@
 ---
 title: AstrBot
 created: 2026-10-06
-updated: 2026-10-11
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, chat-channels, plugins, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The agent layer has sub-agents, tool calls, workflow orchestration, context comp
 
 ## Status
 
-Active and long-lived: 41,703 stars, 3,040 forks, and 1,630 open issues and pull requests as of 2026-10-11, created 2022-12-08, pushed 2026-10-11, AGPL-3.0.
+Active and long-lived: 41,837 stars, 3,058 forks, and 1,052 open issues and pull requests as of 2026-10-14, created 2022-12-08, pushed 2026-10-13, AGPL-3.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&theme=dark&legend=top-left" />
@@ -33,6 +33,7 @@ Active and long-lived: 41,703 stars, 3,040 forks, and 1,630 open issues and pull
 </picture>
 
 The cadence is steady: v4.28.1 (2026-09-14), v4.28.2 (2026-09-27), and the v4.29.0 prerelease line (beta.1 on 2026-10-01, beta.2 on 2026-10-10).
+On the morning of 2026-10-12 the maintainers ran a tracker triage sweep, batch-closing old issues in same-second runs (the search API attributes 334 issues and 29 pull requests to that day), the largest single move behind the open issues-and-PRs count falling from the 1,630 recorded on 2026-10-11 to 1,052, a gap closes alone do not fully cover.
 The community runs through 15-plus QQ groups, a Discord server, HelloGitHub, and Trendshift, not through HN or the Western blogosphere, and that shows in the record: an Algolia story search for AstrBot returns only astroturfing threads it typo-matches, no AstrBot story at all.
 **The missing independent footprint is the signal to weigh before trusting it: adoption this size with zero English-language technical scrutiny means the vetting has happened in QQ groups you are probably not reading.**
 
@@ -71,6 +72,7 @@ Not for anyone who needs permissive licensing for a hosted offering, or who cann
 - 2026-10-06 - Created from the entrant scan as the category's fourteenth member.
 - 2026-10-07 - Added the AstrBotDevs/AstrBot star history chart to the Status section.
 - 2026-10-11 - Recorded v4.29.0-beta.2 (2026-10-10) on the prerelease line, with refreshed adoption numbers.
+- 2026-10-14 - Recorded the maintainer triage sweep of 2026-10-12 (old issues batch-closed in same-second runs, 334 issues and 29 pull requests closed that day) as the largest move behind the open issues-and-PRs count falling from 1,630 to 1,052, with refreshed adoption numbers.
 
 ## See also
 

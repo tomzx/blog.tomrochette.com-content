@@ -24,7 +24,7 @@ MIT, single-repo open source, with full documentation at ccsafetynet.com.
 
 ## Status
 
-Actively maintained with no Hacker News help: 1,606 stars, 84 forks, and 1 open issue or PR as of 2026-10-13, created 2025-12-25, pushed 2026-10-13.
+Actively maintained with no Hacker News help: 1,615 stars, 84 forks, and 2 open issues or PRs as of 2026-10-14, created 2025-12-25, pushed 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&theme=dark&legend=top-left" />

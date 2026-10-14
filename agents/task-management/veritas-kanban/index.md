@@ -1,7 +1,7 @@
 ---
 title: Veritas Kanban
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, governance, local-first, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Around the board: subtasks, bidirectional depends_on and blocks dependencies wit
 ## Status
 
 **Active, six versions deep in one year, single-maintainer.**
-839 stars, 100 forks, and 43 open issues and pull requests, created 2026-01-26, pushed 2026-10-06, as of 2026-10-11 (GitHub API).
+840 stars, 100 forks, and 43 open issues and pull requests, created 2026-01-26, pushed 2026-10-06, as of 2026-10-14 (GitHub API).
 The newest tagged release is v6.2.1 (2026-09-10); the dependency model landed in v3.3.0, team rosters in v5.2, and the run-scoped tool control plane in v6, all inside the project's first year.
 A Hacker News search returns no story about it (2026-10-11), so adoption evidence is the repository curve plus the docs' own governance records.
 
@@ -79,7 +79,7 @@ My disagreeable claim: the run-scoped tool catalog belongs at the MCP layer, not
 
 ## References
 
-- https://github.com/BradGroux/veritas-kanban - repository facts: 839 stars, 100 forks, MIT, created 2026-01-26, pushed 2026-10-06 (GitHub API, as of 2026-10-11)
+- https://github.com/BradGroux/veritas-kanban - repository facts: 840 stars, 100 forks, MIT, created 2026-01-26, pushed 2026-10-06 (GitHub API, as of 2026-10-14)
 - https://raw.githubusercontent.com/BradGroux/veritas-kanban/main/README.md - the board-first pitch, setup layers, documentation map, provider list, and maintainer background
 - https://raw.githubusercontent.com/BradGroux/veritas-kanban/main/docs/FEATURES.md - the feature reference: markdown storage, dependencies with cycle detection, run-scoped tools v6, team rosters, PRD-driven development, release provenance of v3.3.0/v5.2/v6
 - https://raw.githubusercontent.com/BradGroux/veritas-kanban/main/docs/SETUP-PATHS.md - the layered readiness ladder and the board-only quick start

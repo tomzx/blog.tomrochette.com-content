@@ -1,7 +1,7 @@
 ---
 title: Loki Mode
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, autonomous-agents, verification]
 readability: 3
@@ -21,7 +21,7 @@ Autonomi publishes it under BUSL-1.1, and the README documents outcomes and exit
 
 ## Status
 
-Active and shipping fast: 1,090 stars and 206 forks since creation on 2025-12-26, pushed 2026-10-09, npm at 11.3.9 (2026-10-09), and 177,508 Docker pulls, per GitHub, npm, and Docker Hub as of 2026-10-11.
+Active and shipping fast: 1,093 stars and 206 forks since creation on 2025-12-26, pushed 2026-10-12, npm at 11.3.9 (2026-10-09), and 177,894 Docker pulls, per GitHub, npm, and Docker Hub as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=asklokesh/loki-mode&type=date&theme=dark&legend=top-left" />

@@ -25,7 +25,7 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 ## Status
 
 Active, young, and small.
-As of 2026-10-13: 202 stars, 19 forks, 44 open issues, created 2026-07-31, pushed 2026-10-12, latest release v0.9.1 on 2026-10-11, and roughly 8,200 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+As of 2026-10-14: 202 stars, 19 forks, 52 open issues and one pull request, created 2026-07-31, pushed 2026-10-13, latest release v0.9.1 on 2026-10-11, and roughly 8,200 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ordewell/ordewell&type=date&theme=dark&legend=top-left" />

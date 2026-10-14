@@ -24,7 +24,7 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 
 ## Status
 
-Rapid and churny: 35,581 stars, 3,168 forks, 1,036 open issues and PRs as of 2026-10-11, created 2026-02-24, pushed 2026-10-10.
+Rapid and churny: 35,651 stars, 3,181 forks, 1,068 open issues and PRs as of 2026-10-14, created 2026-02-24, pushed 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&theme=dark&legend=top-left" />

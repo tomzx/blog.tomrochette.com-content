@@ -1,7 +1,7 @@
 ---
 title: Spec-Driven Develop
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, github-issues, workflow, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Release v1.15 made execution orchestrator-centric with tiered subagent dispatch 
 ## Status
 
 Quiet since late July.
-As of 2026-10-11: 987 stars and 100 forks since creation on 2026-03-21, pushed 2026-07-26, MIT, solo author (the zhu1090093659 account).
+As of 2026-10-14: 986 stars and 101 forks since creation on 2026-03-21, pushed 2026-07-26, MIT, solo author (the zhu1090093659 account).
 All five GitHub releases landed in July 2026, three of them on July 1, and nothing has shipped since v1.15.0 (2026-07-26).
 
 <picture>
@@ -79,7 +79,7 @@ Not for small changes, not for repos outside GitHub's tracker model, and not for
 
 ## References
 
-- https://github.com/zhu1090093659/spec_driven_develop - repository: stars, forks, dates, license (987 stars as of 2026-10-11)
+- https://github.com/zhu1090093659/spec_driven_develop - repository: stars, forks, dates, license (986 stars as of 2026-10-14)
 - https://raw.githubusercontent.com/zhu1090093659/spec_driven_develop/main/README.md - the seven-phase pipeline, the S.U.P.E.R table, the drift thresholds, and the platform install surface
 - https://raw.githubusercontent.com/zhu1090093659/spec_driven_develop/main/README.zh-CN.md - the Chinese README grounding the bilingual distribution claim
 - https://github.com/zhu1090093659/spec_driven_develop/releases.atom - the release history: five releases, all July 2026, through v1.15.0 (2026-07-26)

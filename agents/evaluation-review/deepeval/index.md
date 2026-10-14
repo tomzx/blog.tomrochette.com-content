@@ -23,7 +23,7 @@ Made by Confident AI, a seed-stage San Francisco company, Apache-2.0.
 
 ## Status
 
-The volume leader of Python eval frameworks: 18,736 stars, 2,046 forks, 717 open issues and PRs as of 2026-10-11.
+The volume leader of Python eval frameworks: 18,830 stars, 2,062 forks, 723 open issues and PRs as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=confident-ai/deepeval&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ The volume leader of Python eval frameworks: 18,736 stars, 2,046 forks, 717 open
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=confident-ai/deepeval&type=date&legend=top-left" />
 </picture>
 
-Created 2023-08-10, pushed 2026-10-10, Python 4.2.8 released 2026-10-02 (still the newest), about 2.6 million PyPI downloads a month as of 2026-10-11.
+Created 2023-08-10, pushed 2026-10-12, Python 4.2.8 released 2026-10-02 (still the newest), about 2.6 million PyPI downloads a month as of 2026-10-11.
 **Three years old and commercially backed, it is the most mature column in this category, and the 717-item backlog reads as heavy usage rather than neglect.**
 
 ## Strengths

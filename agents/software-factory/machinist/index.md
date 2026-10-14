@@ -1,7 +1,7 @@
 ---
 title: "Machinist"
 created: 2026-09-05
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, go]
 readability: 3
@@ -20,7 +20,7 @@ Scripts are deliberately opaque to the controller: no invented child runs, graph
 
 ## Status
 
-Active and early: created 2026-07-16, 499 stars and 95 forks, pushed 2026-10-06, releases v0.1.0 through v0.4.0 (v0.4.0 on 2026-08-31 still the newest, with 53 commits on main since), with the README labeling it early-access software, all per the GitHub API as of 2026-10-11.
+Active and early: created 2026-07-16, 502 stars and 96 forks, pushed 2026-10-12, releases v0.1.0 through v0.4.0 (v0.4.0 on 2026-08-31 still the newest, with 53 commits on main since), with the README labeling it early-access software, all per the GitHub API as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&theme=dark&legend=top-left" />
@@ -28,7 +28,7 @@ Active and early: created 2026-07-16, 499 stars and 95 forks, pushed 2026-10-06,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&legend=top-left" />
 </picture>
 
-**There is no Hacker News thread or independent coverage as of 2026-10-07, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
+**There is no Hacker News thread or independent coverage as of 2026-10-13, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
 The velocity (five releases in eight weeks) says maintained; the single-author commit history says bus-factor one.
 
 ## Strengths

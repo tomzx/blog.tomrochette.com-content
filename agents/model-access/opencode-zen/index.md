@@ -1,7 +1,7 @@
 ---
 title: OpenCode Zen
 created: 2026-09-26
-updated: 2026-10-11
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, ai-gateway, pay-per-use]
 readability: 3
@@ -27,7 +27,7 @@ The Reddit thread "Opencode Zen is astoundingly more expensive than OpenRouter" 
 ## Strengths
 
 - Every endpoint is benchmarked for coding-agent use, so you avoid badly served providers.
-- A stable of free models (Big Pickle, Space Bunny Free, MiMo-V2.6-Flash Free, Nemotron 3 Ultra Free, among thirteen free rows as of 2026-10-11) with documented data caveats.
+- A stable of free models (Big Pickle, Space Bunny Free, MiMo-V2.6-Flash Free, Nemotron 3 Ultra Free, among fourteen free rows as of 2026-10-14) with documented data caveats.
 - Markups are claimed to be zero beyond pass-through processing fees (4.4% + $0.30 per card transaction).
 - US- and EU-hosted per the docs as of 2026-10-11, with zero-retention on most models and exceptions listed per model.
 - Same balance backs the Go subscription's overflow, and the key works from any agent.
@@ -43,8 +43,8 @@ The Reddit thread "Opencode Zen is astoundingly more expensive than OpenRouter" 
 
 Pay-as-you-go per 1M tokens, as of 2026-10-11: GLM-5.3 $1.40/$4.40, GLM-5.3-Flash $0.15/$0.50, Kimi K3 $3/$15, Qwen3.7 Plus $0.40/$1.60, DeepSeek V4.1 Flash $0.30/$1.20, MiniMax M3 $0.30/$1.20.
 Frontier lines: Claude Sonnet 5 $2/$10, Claude Opus 5.5 $4/$20, Claude Fable 5.1 $10/$50, GPT 5.5 $5/$30, GPT 6 Astra $10/$50, GPT 6 Sol $2/$10, GPT 6.1 Sol $2/$10, Gemini 3.8 Flash $1.50/$7.50, Grok 4.7 $2/$6, with long-context surcharge tiers documented per model.
-Mistral Large 4 currently carries a 50%-off promo row ($0.68/$2.09, struck from $1.36/$4.18), and Jev 1.13 charges $0.042 per input with free output.
-Thirteen models are free as of 2026-10-11, including the Big Pickle and Space Bunny stealth models and a Jev 1.13 Free row, all for a limited time.
+Mistral Large 4 currently carries a 50%-off promo row ($0.68/$2.09, struck from $1.36/$4.18), Gemini 4 Argon carries a second one ($2.00/$10.00, struck from $4.00/$20.00, through November 30, 2026), and Jev 1.13 charges $0.042 per input with free output.
+Fourteen models are free as of 2026-10-14, including the Big Pickle, Space Bunny, and Cat Jam stealth models and a Jev 1.13 Free row, all for a limited time.
 Auto-reload charges $20 when the balance falls below $5, and OpenCode itself uses low-cost models to generate session titles on your bill.
 
 ## Price history
@@ -72,6 +72,7 @@ My disagreeable claim: the curation premium is worth paying only when a mis-serv
 - 2026-10-04 - Free roster moved from ten to twelve models on the live price table (Fledge Alpha Free newly listed as limited-time); every per-token rate re-verified unchanged.
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 - 2026-10-07 - Catalog check: the price table's free rows count thirteen (from twelve recorded 2026-10-04, with Nemotron 3.5 Lightning Free and Muse Spark 1.3 Contributor Free now on the table), Mistral Large 4 gained a 50%-off promo row, and the docs now state US and EU hosting where the note said US-hosted; every per-token rate re-verified unchanged.
+- 2026-10-14 - Catalog check: the free roster moved to fourteen rows with Cat Jam Free joining as a third stealth free model, and Gemini 4 Argon gained a 50%-off promo row (through November 30, 2026) beside Mistral Large 4's; every previously listed per-token rate re-verified unchanged.
 
 ## See also
 
@@ -82,7 +83,7 @@ My disagreeable claim: the curation premium is worth paying only when a mis-serv
 
 ## References
 
-- https://opencode.ai/docs/zen/ - per-model price table, free models, auto-reload, deprecations, privacy (200, last updated 2026-10-10, re-fetched 2026-10-11).
+- https://opencode.ai/docs/zen/ - per-model price table, free models, auto-reload, deprecations, privacy (200, last updated 2026-10-10, re-fetched 2026-10-11 and 2026-10-14 with the Gemini 4 Argon promo row and Cat Jam Free present).
 - https://docs.docker.com/ai/docker-agent/providers/opencode-zen/ - third-party integration doc, Zen vs Go billing table (200).
 - https://www.reddit.com/r/opencodeCLI/comments/1syog9v/opencode_zen_is_astoundingly_more_expensive_than/ - critical 4x price claim vs OpenRouter (direct fetch 403; content read via search).
 - https://costgoat.com/pricing/openrouter/ - OpenRouter per-model prices used for the GLM-5.3-Flash comparison (200, as of 2026-09-25).

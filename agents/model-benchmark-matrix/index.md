@@ -1,7 +1,7 @@
 ---
 title: "Model Benchmark Matrix"
 created: 2026-09-24
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, comparison, benchmarks, evaluation, model-selection]
 readability: 3
@@ -129,7 +129,7 @@ When two boards rank the same models differently, the gap tells you where the mo
 - https://github.com/multi-swe-bench/multi-swe-bench - Multi-SWE-bench's seven languages, 1,632 instances, 68 annotators, Apache-2.0 license, NeurIPS 2025 acceptance (fetched 2026-09-24)
 - https://programbench.com/ - ProgramBench's binary-plus-docs task design, 200 tasks, 248,000 behavioral tests, 4.5 percent top resolution (fetched 2026-09-24)
 - https://arxiv.org/abs/2502.12115 - SWE-Lancer's 1,488 Upwork tasks, $1M payout mapping, IC and managerial splits, Diamond public split (fetched 2026-09-24)
-- https://openai.com/index/paperbench/ - PaperBench's 20 ICML 2024 papers, 8,316 rubric tasks, 21.0 percent best agent score, human baseline (fetched 2026-09-24 via search snapshot, direct page blocks fetches; 403 on both the curl and fetch-tool attempts 2026-10-11)
+- https://openai.com/index/paperbench/ - PaperBench's 20 ICML 2024 papers, 8,316 rubric tasks, 21.0 percent best agent score, human baseline (fetched 2026-09-24 via search snapshot, direct page blocks fetches; 403 on both the curl and fetch-tool attempts 2026-10-11 and again 2026-10-13)
 - https://swe-rebench.com/ - the SWE-rebench task stream (fetched 2026-09-24, page returned an oversize body, existence confirmed)
 - https://www.tbench.ai/ - Terminal-Bench 4.0, resolution rate with 95 percent confidence intervals, Stanford and Laude Institute hosting (fetched 2026-09-24)
 - https://aider.chat/docs/leaderboards/ - the polyglot benchmark's 225 Exercism exercises across six languages, edit-format scoring, frozen 2025 leaderboard (fetched 2026-09-24)

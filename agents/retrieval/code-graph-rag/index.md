@@ -1,7 +1,7 @@
 ---
 title: Code-Graph-RAG
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, knowledge-graph, rag]
 readability: 3
@@ -26,7 +26,7 @@ Made by an independent developer, with an enterprise support and services badge 
 ## Status
 
 **Actively shipping and early: 5.2k stars in sixteen months with almost no independent discussion.**
-5,240 stars and 699 forks since 2025-06-16, pushed 2026-10-10, with 739 open issues (GitHub API, as of 2026-10-11).
+5,252 stars and 699 forks since 2025-06-16, pushed 2026-10-14, with the open-issue count down to 591 from the 739 recorded 2026-10-11 (GitHub API, as of 2026-10-14).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vitali87/code-graph-rag&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ Two Show HNs (February and March 2026) drew 1 point each, so the star count ran 
 
 ## Cautions
 
-- **Zero independent discussion and 739 open issues against 5.2k stars means the only quality evidence is the project's own demos and CI.**
+- **Zero independent discussion and roughly 600 open issues against 5.2k stars means the only quality evidence is the project's own demos and CI.**
 - It brings a graph database: Memgraph is a separate dependency with its own licensing and operational cost, which the one-line install pitch understates.
 - 0.1.x with 27 releases means churn, and the Cypher-generation quality depends on the model you attach, which no benchmark here measures.
 - Indexing is per-repo work (`cgr start --update-graph`), so freshness after agent edits needs the incremental update path to actually hold.
@@ -70,6 +70,7 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 ## Changes
 
 - 2026-10-07 - Created in the daily refresh's retrieval entrant scan from the awesome-rag-production source.
+- 2026-10-13 - Refreshed the volatile numbers (5,252 stars, pushed 2026-10-14) and recorded the open-issue count falling from 739 to 591 in two days, with the Cautions line aligned.
 
 ## See also
 
@@ -80,7 +81,7 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 
 ## References
 
-- https://api.github.com/repos/vitali87/code-graph-rag - 5,240 stars, 699 forks, MIT, created 2025-06-16, pushed 2026-10-10, 739 open issues (GitHub API, as of 2026-10-11)
+- https://api.github.com/repos/vitali87/code-graph-rag - 5,252 stars, 699 forks, MIT, created 2025-06-16, pushed 2026-10-14, 591 open issues (GitHub API, as of 2026-10-14)
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/README.md - the two-component architecture, compiler frontends, runtime tracing, language support, Memgraph storage
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/NEWS.md - the feature-news ledger behind the active-maintenance claim
 - https://pypi.org/pypi/code-graph-rag/json - version 0.1.38 (2026-09-29), 27 releases

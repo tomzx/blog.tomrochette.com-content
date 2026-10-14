@@ -1,7 +1,7 @@
 ---
 title: Agent2Agent Protocol (A2A)
 created: 2026-08-24
-updated: 2026-10-08
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, multi-agent]
 readability: 3
@@ -26,8 +26,8 @@ IBM's rival Agent Communication Protocol merged into A2A in August 2025, consoli
 ## Status
 
 **Active, spec-stable, unevenly adopted.**
-v1.0.0 shipped 2026-03-12 and v1.0.1 on 2026-05-28 (latest as of 2026-10-10), with breaking wire changes from 0.3 but backward-compatible Agent Cards.
-The repository shows 26,096 stars as of 2026-10-10, and the launch coalition of 50+ partners passed 100 supporting companies by donation time.
+v1.0.0 shipped 2026-03-12 and v1.0.1 on 2026-05-28 (latest as of 2026-10-13), with breaking wire changes from 0.3 but backward-compatible Agent Cards.
+The repository shows 26,138 stars as of 2026-10-13, and the launch coalition of 50+ partners passed 100 supporting companies by donation time.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2aproject/A2A&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: nono
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, kernel, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, built by the Sigstore team, with an OpenSSF Best Practices badge and
 
 ## Status
 
-Fast-growing with no Hacker News help: 4,454 stars, 249 open issues and PRs, pushed 2026-10-11 as of 2026-10-12, created 2026-01-31.
+Fast-growing with no Hacker News help: 4,481 stars, 248 open issues and PRs, pushed 2026-10-13 as of 2026-10-13, created 2026-01-31.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Fast-growing with no Hacker News help: 4,454 stars, 249 open issues and PRs, pus
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&theme=dark&legend=top-left" />
 </picture>
 
-The release train is active and pre-1.0: v0.77.0 on 2026-09-11, v0.78.0 on 2026-09-16, and v0.79.0 on 2026-09-30, with the README carrying an APIs-are-stabilizing note ahead of a 1.0.
+The release train is active and pre-1.0: v0.77.0 on 2026-09-11, v0.78.0 on 2026-09-16, v0.79.0 on 2026-09-30, and v0.80.0 on 2026-10-13 (SHA-256 executable pinning in command policies, per-command aws_auth, command-level macOS keychain grants, and NEPs for a Windows enforcement backend and for invocation-scoped commands), with the README carrying an APIs-are-stabilizing note ahead of a 1.0.
 **Hacker News never embraced it: four submissions between 2026-02-01 and 2026-02-04 drew 4, 1, and 2 points, an August resubmission drew 3, and the stars grew without a front-page thread, so the evidence base is the repo, the docs, and named enterprise testimonials rather than public debate.**
 
 ## Strengths
@@ -67,6 +67,7 @@ Not for anyone who needs VM-grade boundaries today or an externally audited 1.0.
 ## Changes
 
 - 2026-10-07 - Created from the entrant-resolution run, profiling the Sigstore team's per-command sandbox broker with its credential proxy and the no-HN-growth finding.
+- 2026-10-13 - Recorded v0.80.0 (2026-10-13, SHA-256 executable pinning in command policies, per-command aws_auth, command-level macOS keychain grants, and NEPs for a Windows enforcement backend and invocation-scoped commands), with counts refreshed (4,481 stars, pushed 2026-10-13).
 
 ## See also
 

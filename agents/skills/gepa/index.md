@@ -23,14 +23,14 @@ Distribution is PyPI (`pip install gepa`, v0.1.4, release-tagged July 2026) with
 
 ## Status
 
-Active with an established research record: 6,959 stars, 575 forks, and 142 open issues as of 2026-10-13, created 2025-08-05, pushed 2026-10-12, PyPI at 0.1.4.
+Active with an established research record: 6,973 stars, 576 forks, and 142 open issues as of 2026-10-13, created 2025-08-05, pushed 2026-10-13, PyPI at 0.1.4.
 The launch reached a 92-point Hacker News thread in July 2025, and Databricks' adoption of GEPA for agent prompt optimization is documented by the vendor's own engineering blog.
 **The contested part is the evidence: a "Contra DSPy and GEPA" thread and the DSPy community's methodological argument over GEPA's comparison baselines are the standing critical sources, so the headline claims deserve a re-run on your own metric before adoption.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gepa-ai/gepa&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=gepa-ai/gepa&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gepa-ai/gepa&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=gepa-ai/gepa&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gepa-ai/gepa&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -68,6 +68,8 @@ Not for anyone without an evaluator (GEPA amplifies whatever the metric measures
 ## Changes
 
 - 2026-10-13 - Created.
+- 2026-10-13 - Fixed the star-history chart markup from the creation run: the light source and the img fallback had carried the dark theme parameter.
+- 2026-10-13 - Refreshed the volatile numbers (6,973 stars, 576 forks).
 
 ## See also
 

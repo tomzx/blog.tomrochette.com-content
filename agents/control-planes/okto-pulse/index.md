@@ -27,7 +27,7 @@ An embedded knowledge graph keeps decisions, constraints, bugs, and learnings qu
 
 ## Status
 
-Active and young: 52 stars, 3 forks, and 8 open issues as of 2026-10-10, created 2026-04-22, last pushed 2026-10-10, current PyPI version 0.3.3.
+Active and young: 52 stars, 3 forks, and 8 open issues as of 2026-10-14, created 2026-04-22, last pushed 2026-10-14, current PyPI version 0.3.3.
 **The star count halved in three days (110 on 2026-10-07 to 52 today) while the repository kept being pushed, the signature of a GitHub star purge rather than a user exodus, so treat every adoption number in this note as unstable.**
 
 <picture>

@@ -23,7 +23,7 @@ An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android),
 ## Status
 
 Active and large, but quietly so.
-As of 2026-10-11: 32,954 stars and 4,964 forks since creation on 2026-02-13, pushed 2026-10-11, 951 open issues, Apache-2.0/MIT dual licensed.
+As of 2026-10-14: 32,977 stars and 4,976 forks since creation on 2026-02-13, pushed 2026-10-14, 985 open issues, Apache-2.0/MIT dual licensed.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />

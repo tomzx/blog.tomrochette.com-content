@@ -24,7 +24,7 @@ The repository was created 2024-07-09 as IBM's ds4sd/docling and now lives under
 
 ## Status
 
-Very active and very large: 68,781 stars, 5,060 forks, 1,047 open issues, and a push on 2026-10-12 as of 2026-10-13.
+Very active and very large: 68,825 stars, 5,070 forks, 1,056 open issues, and a push on 2026-10-13 as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=docling-project/docling&type=date&theme=dark&legend=top-left" />
@@ -85,7 +85,7 @@ My disagreeable claim: Docling's dominance owes as much to IBM's distribution an
 
 ## References
 
-- https://api.github.com/repos/docling-project/docling - 68,781 stars, 5,060 forks, MIT, created 2024-07-09, pushed 2026-10-12, 1,047 open issues, as of 2026-10-13
+- https://api.github.com/repos/docling-project/docling - 68,825 stars, 5,070 forks, MIT, created 2024-07-09, pushed 2026-10-13, 1,056 open issues, as of 2026-10-13
 - https://raw.githubusercontent.com/docling-project/docling/main/README.md - format list, DoclingDocument, exports, integrations, MCP server, docling-serve, LF AI & Data badge
 - https://arxiv.org/abs/2408.09869 - the technical report grounding the DocLayNet layout and TableFormer table models and the MIT, commodity-hardware claims
 - https://docling-project.github.io/docling/getting_started/installation/ - the PyTorch dependency, install extras, and the Python 3.9 cutoff at 2.70.0

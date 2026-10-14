@@ -1,7 +1,7 @@
 ---
 title: Agent Protocol (LangChain)
 created: 2026-10-07
-updated: 2026-10-08
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, agent-serving, rest-apis]
 readability: 3
@@ -26,7 +26,7 @@ MIT licensed, stewarded in the `langchain-ai` GitHub organization (repository cr
 ## Status
 
 **Active and implementation-backed, with a thin independent footprint.**
-The repository shows 684 stars, 65 forks, and a push on 2026-10-07, all as of 2026-10-10 (GitHub API).
+The repository shows 687 stars, 65 forks, and a push on 2026-10-13 (dependency-security bumps; the spec stays at OpenAPI 0.1.6), all as of 2026-10-13 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/agent-protocol&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ The repository shows 684 stars, 65 forks, and a push on 2026-10-07, all as of 20
 </picture>
 
 The spec is exercised by shipping software: LangGraph Platform implements a superset of it commercially, and the open-source LangGraph.js API and deepagents example servers implement it directly.
-The community footprint is the weak signal: an Algolia scan found no dedicated Hacker News launch thread for this spec (2026-10-07), and its 684 stars sit far below every wire protocol in this index.
+The community footprint is the weak signal: an Algolia scan found no dedicated Hacker News launch thread for this spec (2026-10-07), and its 687 stars sit far below every wire protocol in this index.
 The name is a collision hazard: a different "Agent Protocol" (agentprotocol.ai, from the 2023 e2b and AI Engineer Foundation effort, Show HN July 2023) standardized CLI agent invocation and shows up in the same search results.
 
 ## Strengths
@@ -82,7 +82,7 @@ My disagreeable claim: this lane matters more than the protocol-sprawl critics a
 
 ## References
 
-- https://github.com/langchain-ai/agent-protocol - repository: 684 stars, 65 forks, MIT, created 2024-11-12, pushed 2026-10-07 (GitHub API, as of 2026-10-10)
+- https://github.com/langchain-ai/agent-protocol - repository: 687 stars, 65 forks, MIT, created 2024-11-12, pushed 2026-10-13 (GitHub API, as of 2026-10-13)
 - https://raw.githubusercontent.com/langchain-ai/agent-protocol/main/README.md - purpose, endpoint rationale, streaming spec, server stubs, implementations, and the LangGraph Platform superset claim
 - https://langchain-ai.github.io/agent-protocol/openapi.json - the OpenAPI document: title Agent Protocol, version 0.1.6, agents, threads, and runs endpoints as of 2026-10-10
 - https://langchain-ai.github.io/agent-protocol/api.html - the docs home the repository lists as its homepage

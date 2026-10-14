@@ -1,7 +1,7 @@
 ---
 title: A2UI
 created: 2026-10-06
-updated: 2026-10-10
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, generative-ui, frontend, google]
 readability: 3
@@ -24,7 +24,7 @@ Google created it and opened it on 2025-12-15, and the repository now lives in i
 ## Status
 
 **Active and adopted ahead of its spec maturity.**
-The repository shows about 16,650 stars and 1,327 forks with a push on 2026-10-10, roughly ten months after launch, all as of 2026-10-10 (GitHub API).
+The repository shows about 16,690 stars and 1,328 forks with a push on 2026-10-14, roughly ten months after launch, all as of 2026-10-13 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2ui-project/a2ui&type=date&theme=dark&legend=top-left" />
@@ -82,7 +82,7 @@ My disagreeable claim: A2UI will matter more to what end users see than AG-UI do
 
 ## References
 
-- https://github.com/a2ui-project/a2ui - repository: 16,653 stars, 1,327 forks, Apache-2.0, pushed 2026-10-10 (GitHub API, as of 2026-10-10)
+- https://github.com/a2ui-project/a2ui - repository: 16,688 stars, 1,328 forks, Apache-2.0, pushed 2026-10-14 (GitHub API, as of 2026-10-13)
 - https://raw.githubusercontent.com/google/A2UI/main/README.md - early-stage status, v0.9.1 production and v1.0 release candidate, the catalog security model, renderer list
 - https://a2ui.org/ - spec hub: version table (v1.0 Candidate, v0.9.1 Current, v0.9 Stable, v0.8 Legacy), Google and CopilotKit contribution note
 - https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/ - launch announcement (2025-12-15): Opal, Gemini Enterprise, Flutter GenUI, and CopilotKit collaborators, and the MCP Apps and ChatKit positioning

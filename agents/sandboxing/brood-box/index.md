@@ -1,7 +1,7 @@
 ---
 title: Brood Box
 created: 2026-10-12
-updated: 2026-10-12
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, kvm, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Built by Stacklok, the supply-chain security company behind ToolHive and Minder;
 
 ## Status
 
-Small and steady: 77 stars, 8 contributors including its dependency bot, as of 2026-10-12, created 2026-02-13, pushed 2026-10-09, Apache-2.0.
+Small and steady: 77 stars, 8 contributors including its dependency bot, as of 2026-10-13, created 2026-02-13, pushed 2026-10-13, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stacklok/brood-box&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Small and steady: 77 stars, 8 contributors including its dependency bot, as of 2
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=stacklok/brood-box&type=date&legend=top-left" />
 </picture>
 
-The release train ran from v0.0.18 (2026-05-04) through v0.0.25 (2026-09-14), roughly monthly, with the last commits on 2026-09-16.
+The release train ran from v0.0.18 (2026-05-04) through v0.0.25 (2026-09-14), roughly monthly, with commits resuming 2026-10-13 after a month quiet (a ToolHive v0.52.0 dependency bump).
 I found no Hacker News thread for the project (the Algolia query for "brood box" returns zero stories), so the 77 stars arrived without any launch moment.
 **A vendor-owned project with six months of monthly releases is the reliable kind of small, but the footprint is too thin for community security review, the boundary is self-described, and no audit exists.**
 
@@ -70,6 +70,7 @@ Not for Windows or Intel Macs, for parallel multi-agent fleets (the job Brig doe
 ## Changes
 
 - 2026-10-12 - Created from the 2026-10-12 awesome-claude-code scan, profiling Stacklok's review-gated microVM runner with the review gate recorded as the distinguishing mechanism.
+- 2026-10-13 - Recorded commits resuming 2026-10-13 after a month quiet (a ToolHive v0.52.0 dependency bump); v0.0.25 remains the latest release and counts are unchanged.
 
 ## See also
 

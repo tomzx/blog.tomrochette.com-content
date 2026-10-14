@@ -1,7 +1,7 @@
 ---
 title: Arc Kit
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, governance, enterprise-architecture]
 readability: 3
@@ -23,7 +23,7 @@ A plugin system composes regional and sector overlays (EU, UK NHS, UAE, TOGAF AD
 
 ## Status
 
-Active and growing: 2,253 stars, 283 forks, and 23 open issues as of 2026-10-13, created 2025-10-14 and pushed 2026-10-12, effectively solo (95 of the last 100 commits).
+Active and growing: 2,255 stars, 283 forks, and 23 open issues as of 2026-10-14, created 2025-10-14 and pushed 2026-10-13, effectively solo (95 of the last 100 commits), with release v6.18.2 (2026-10-12) the newest of a train that shipped v6.18.0 and v6.18.1 on October 10 and 12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tractorjuice/arc-kit&type=date&theme=dark&legend=top-left" />
@@ -69,6 +69,7 @@ Not for pure software spec work (Spec Kit and peers are lighter), multi-maintain
 ## Changes
 
 - 2026-10-13 - Created.
+- 2026-10-14 - Added the release train (v6.18.0 through v6.18.2, October 10 to 12) and refreshed counts.
 
 ## See also
 

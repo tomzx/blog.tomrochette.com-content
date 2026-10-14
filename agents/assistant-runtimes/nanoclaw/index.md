@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a Linux container is and run at least one model provider.
 ---
 
-NanoClaw is a MIT-licensed Node.js personal agent (nanocoai) that runs each agent in its own Linux container, born as a 500-line rewrite of the OpenClaw idea that now stands at about 30.8k stars.
+NanoClaw is a MIT-licensed Node.js personal agent (nanocoai) that runs each agent in its own Linux container, born as a 500-line rewrite of the OpenClaw idea that now stands at about 30.9k stars.
 
 **NanoClaw's product is auditability: a codebase small enough to hold in your head and a container wall between the agent and your life, a direct rebuttal of the half-million-line root it responds to.**
 
@@ -24,7 +24,7 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 ## Status
 
 Active and independently credible.
-As of 2026-10-11: 30,917 stars and 12,755 forks since creation on 2026-01-31, pushed 2026-10-10, 1,042 open issues.
+As of 2026-10-14: 30,940 stars and 12,759 forks since creation on 2026-01-31, pushed 2026-10-13, 1,047 open issues.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nanocoai/nanoclaw&type=date&theme=dark&legend=top-left" />

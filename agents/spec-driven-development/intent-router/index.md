@@ -1,7 +1,7 @@
 ---
 title: Intent-Router
 created: 2026-10-10
-updated: 2026-10-13
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, intent-specs, clarification, skills]
 readability: 3
@@ -23,8 +23,8 @@ The README positions it against plan modes (which prefer looking up over verifyi
 
 ## Status
 
-Fast-rising, then deflated: 158 stars and 46 forks as of 2026-10-13, created 2026-09-22, pushed 2026-10-11, with four releases in its first three weeks (v1.3.0 on 2026-10-09, v1.0.0 on 2026-09-23).
-**The GitHub API read 1,017 stars and 124 forks on 2026-10-11 and 158 and 46 on 2026-10-13, a collapse fork counts cannot take organically, which reads as a platform purge of inauthentic engagement, and the nineteen-day adoption-curve claim this note published is retracted.**
+Climbing back after the collapse: 239 stars and 51 forks as of 2026-10-14, created 2026-09-22, pushed 2026-10-11, with four releases in its first three weeks (v1.3.0 on 2026-10-09, v1.0.0 on 2026-09-23).
+**The GitHub API read 1,017 stars and 124 forks on 2026-10-11, 158 and 46 on 2026-10-13, and 239 and 51 on 2026-10-14: the collapse fork counts cannot take organically was followed by a one-day climb the same kind of engagement produces, which reads as a purge of inauthentic stars followed by continued re-inflation, and the nineteen-day adoption-curve claim this note published stays retracted.**
 Engagement from freshly created accounts is still arriving (a fork and a star land on 2026-10-13 alone), so the inflation appears ongoing, and the independent footprint is still empty: a Hacker News search returns no thread about it as of 2026-10-13.
 
 <picture>
@@ -44,7 +44,7 @@ Engagement from freshly created accounts is still arriving (a fork and a star la
 
 - The evidence is self-published and small: the delivery report of 2026-09-24 compares 5 bare runs against 3 skill runs (mean 5.0 versus 6.0 of 6) in one harness on one model, and the report discloses that the bare arm needed the skill explicitly denied because an installer test had left a copy in user-level skills.
 - Three weeks old with a solo maintainer: the IntentSpec format and the four-state model can still move under you.
-- The star story inverted: the 1,017 stars of 2026-10-11 fell to 158 by 2026-10-13 in an apparent purge of inauthentic engagement, so the social signal is now evidence against the project, and there is no independent replication of the delivery numbers.
+- The star story inverted: the 1,017 stars of 2026-10-11 fell to 158 by 2026-10-13 and climbed back to 239 by 2026-10-14 in an apparent purge-then-refill of inauthentic engagement, so the social signal is now evidence against the project, and there is no independent replication of the delivery numbers.
 - It is upstream of typed decision models (Jev, Laya), so teams already running those need to decide which layer owns the clarification step.
 
 ## Pricing
@@ -66,6 +66,7 @@ Not for teams needing enforced process (that is Superpowers), and not for anyone
 
 - 2026-10-10 - Created from the spec-driven-development resolution pass, choosing this category over task management because the artifact is a spec contract with a delivery check, not a task record.
 - 2026-10-13 - Recorded the engagement collapse (1,017 stars and 124 forks on 2026-10-11 to 158 and 46 on 2026-10-13, a drop forks cannot take organically), retracted the nineteen-day adoption-curve claim, and moved the caution from momentum to deflation.
+- 2026-10-14 - Recorded the re-inflation (158 to 239 stars and 46 to 51 forks in one day, fresh-account engagement continuing), extending the 10-13 collapse reading from a one-time purge to a purge-then-refill pattern.
 
 ## See also
 
@@ -77,7 +78,7 @@ Not for teams needing enforced process (that is Superpowers), and not for anyone
 ## References
 
 - https://github.com/angel291592/Intent-Router - repository: README, pipeline, comparison table, license
-- https://api.github.com/repos/angel291592/Intent-Router - stars, forks, issues, creation and push dates as of 2026-10-11
+- https://api.github.com/repos/angel291592/Intent-Router - stars, forks, issues, creation and push dates, the 1,017-to-158-to-239 readings, as of 2026-10-14
 - https://api.github.com/repos/angel291592/Intent-Router/releases - v1.3.0 published 2026-10-09 and the release train
 - https://raw.githubusercontent.com/angel291592/Intent-Router/main/README.md - the convergence design, artifact model, and prior-art comparison
 - https://raw.githubusercontent.com/angel291592/Intent-Router/main/evals/reports/2026-09-24-delivery-opencode.md - the self-published delivery report behind the numbers and the contamination check

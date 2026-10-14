@@ -1,7 +1,7 @@
 ---
 title: Pad
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, project-management, local-first, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Perpetual Software LLC maintains it; every change is versioned per item with the
 ## Status
 
 Active and pre-1.0.
-As of 2026-10-11: 190 stars, 24 forks, created 2026-03-26, pushed 2026-10-11, on a roughly weekly release cadence with v0.18.0-rc.10 (2026-10-09) the newest tag, and the changelog delegated to signed GitHub Releases carrying SBOMs and SLSA provenance.
+As of 2026-10-14: 193 stars, 24 forks, created 2026-03-26, pushed 2026-10-14, on a roughly weekly release cadence with v0.18.0-rc.10 (2026-10-09) the newest tag, and the changelog delegated to signed GitHub Releases carrying SBOMs and SLSA provenance.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PerpetualSoftware/pad&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ As of 2026-10-11: 190 stars, 24 forks, created 2026-03-26, pushed 2026-10-11, on
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=PerpetualSoftware/pad&type=date&legend=top-left" />
 </picture>
 
-An HN search for the project returns zero story hits as of 2026-10-11; the community gathers on the project's own r/getpad subreddit instead, so adoption evidence is the repository curve and the dogfooded workspace the site shows (3,205 items, with 40 pull requests merged in one September day all traced to items).
+An HN search for the project returns zero story hits as of 2026-10-14; the community gathers on the project's own r/getpad subreddit instead, so adoption evidence is the repository curve and the dogfooded workspace the site shows (3,205 items, with 40 pull requests merged in one September day all traced to items).
 
 ## Strengths
 
@@ -52,7 +52,7 @@ An HN search for the project returns zero story hits as of 2026-10-11; the commu
 ## Pricing
 
 Self-hosted: free under Apache-2.0, with no feature gates between the binary and the cloud product.
-Pad Cloud: free tier with 10 workspaces, 1,000 items per workspace, 3 collaborators, and 500 MB of storage; a paid plan lifts the limits, with no listed price as of 2026-10-11.
+Pad Cloud: free tier with 10 workspaces, 1,000 items per workspace, 3 collaborators, and 500 MB of storage; a paid plan lifts the limits, with no listed price as of 2026-10-14.
 
 ## Compared to
 
@@ -83,6 +83,6 @@ My disagreeable claim: conventions-as-items is a bigger idea than the task board
 - https://github.com/PerpetualSoftware/pad - README: architecture, CLI, MCP catalog, claims and leases, session pushes, upgrade model (fetched 2026-10-11)
 - https://getpad.dev - the site: the three-surface pitch, conventions and playbooks, the dogfooded workspace figures, Pad Cloud tiers
 - https://getpad.dev/changelog - the changelog policy: signed GitHub Releases as the source of truth
-- https://api.github.com/repos/PerpetualSoftware/pad - stars, forks, dates, Apache-2.0 as of 2026-10-11
+- https://api.github.com/repos/PerpetualSoftware/pad - stars, forks, dates, Apache-2.0 as of 2026-10-14
 - https://api.github.com/repos/PerpetualSoftware/pad/releases - v0.18.0-rc.10 (2026-10-09) and the weekly cadence
-- https://hn.algolia.com/api/v1/search?query=%22pad%22%20%22getpad%22&tags=story - zero story hits as of 2026-10-11, the missing HN footprint
+- https://hn.algolia.com/api/v1/search?query=%22pad%22%20%22getpad%22&tags=story - zero story hits as of 2026-10-14, the missing HN footprint

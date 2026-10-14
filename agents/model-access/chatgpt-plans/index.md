@@ -1,7 +1,7 @@
 ---
 title: ChatGPT plans
 created: 2026-09-26
-updated: 2026-10-11
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, subscriptions, codex, openai]
 readability: 3
@@ -22,7 +22,7 @@ The GPT-6 lineup (Astra, Sol, Luna) carries the plans, with GPT-6.1 Sol added to
 
 ## Status
 
-Active, with the developer pricing page fetched and current as of 2026-10-11, and the widest subscription reach of any vendor here.
+Active, with the developer pricing page fetched and current as of 2026-10-14, and the widest subscription reach of any vendor here.
 The 2026 lineup changed materially: Business replaced the Team plan on April 2, the same day Codex billing moved from per-message to token-based credits, and the Go tier appeared below Plus.
 The current GPT-6 lineup (Astra, Sol, Luna) carries the plans, with Sol and Luna launched 2026-09-22 per the [Model Selection guide](../../model-selection-for-coding-tasks/index.md) and already listed as included on Plus and Pro in the fetched plan documentation.
 By 2026-10-02 the Pro plan lists three price points ($100, $200, $500) and the page states Pro plans currently have no five-hour limit, with the published message-range tables now covering Plus and Standard Business only.
@@ -89,7 +89,7 @@ My disagreeable claim: the published message ranges are more concrete than Anthr
 
 ## References
 
-- https://developers.openai.com/codex/pricing - plan prices including the $500 Pro tier, per-model message ranges, credit rates, GPT-5.5 retirement, feature availability matrix (fetched 200, 2026-10-02, re-fetched 2026-10-11 unchanged)
+- https://developers.openai.com/codex/pricing - plan prices including the $500 Pro tier, per-model message ranges, credit rates, GPT-5.5 retirement, feature availability matrix (fetched 200, 2026-10-02, re-fetched 2026-10-11 and 2026-10-14, the latter on the retirement date itself with the notice live and plan prices unchanged)
 - https://automationatlas.io/answers/chatgpt-codex-pricing-explained-2026 - the April 2 Business replacement, the credit-billing switch, Business seat pricing, the practical cost range and shared-window practitioner note (fetched 200, updated 2026-07-31)
 - https://www.simplemetrics.xyz/chatgpt-codex-limits-2026 - independent limit analysis, the ranges-vs-fixed-caps framing, GPT-5.6 family tables (fetched via search extraction, updated 2026-09-09)
 - https://help.openai.com/en/articles/11481834-chatgpt-rate-card-business-enterpriseedu - the business credit rate card and the August 31 GPT-5.4 retirement note (linked from the fetched developer pricing page; not separately fetched)

@@ -1,7 +1,7 @@
 ---
 title: Bifrost
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, gateway, self-hosted]
 readability: 3
@@ -16,14 +16,14 @@ Bifrost is Maxim's high-performance open-source AI gateway: one Go service unify
 
 ## What it is
 
-An Apache-2.0 Go gateway by Maxim (the LLM-evaluation company), deployable with npx, Docker, or Kubernetes Helm charts, with a built-in web UI for configuration and monitoring (8,693 stars, pushed 2026-10-11, as of 2026-10-11).
+An Apache-2.0 Go gateway by Maxim (the LLM-evaluation company), deployable with npx, Docker, or Kubernetes Helm charts, with a built-in web UI for configuration and monitoring (8,762 stars, pushed 2026-10-13, as of 2026-10-14).
 The core routes across 20-plus providers (OpenAI, Anthropic, Bedrock, Vertex, Azure, and more) with weighted key distribution, automatic fallbacks, and semantic caching; governance layers virtual keys, budgets, and rate limits per consumer, team, or customer.
 Around the core sit an MCP gateway that is both client and server (with OAuth, tool filtering, and an agent mode), a plugin system in Go or WASM, Prometheus and OpenTelemetry instrumentation, and SDK drop-in replacements for the OpenAI, Anthropic, Bedrock, and Google GenAI SDKs.
 The enterprise tier adds clustering with gossip-based sync, RBAC with Okta and Entra identity providers, guardrails through Bedrock and Model Armor, in-VPC deployment, and audit logs aimed at SOC 2, GDPR, and HIPAA.
 
 ## Status
 
-Active and fast-releasing: created 2025-03-19, 8,693 stars, component-tagged releases shipping through 2026-10-06 (transports v2.2.6, telemetry v1.8.5, semanticcache v1.6.9, still latest as of 2026-10-11), as of 2026-10-11.
+Active and fast-releasing: created 2025-03-19, 8,762 stars, component-tagged releases shipping through 2026-10-06 (transports v2.2.6, telemetry v1.8.5, semanticcache v1.6.9, still latest as of 2026-10-11), as of 2026-10-14.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=maximhq/bifrost&type=date&theme=dark&legend=top-left" />
@@ -77,7 +77,7 @@ Not for the broadest provider matrix or the largest community, where LiteLLM sti
 ## References
 
 - https://github.com/maximhq/bifrost - repository, Apache-2.0 license, the 23-plus-provider README, and the 50x-LiteLLM positioning (fetched 200, 2026-10-07)
-- https://api.github.com/repos/maximhq/bifrost - stars, created date, push date, and license for the as-of status (fetched 200, 2026-10-07)
+- https://api.github.com/repos/maximhq/bifrost - stars, created date, push date, and license for the as-of status (fetched 200, 2026-10-07; re-fetched 2026-10-14 at 8,762 stars, pushed 2026-10-13).
 - https://docs.getbifrost.ai - the feature surface: failover, virtual keys, budgets, semantic caching, the MCP gateway, plugins, the 11-microsecond benchmark claim, and the enterprise tier (fetched 200, 2026-10-07)
 - https://api.github.com/repos/maximhq/bifrost/releases - the component-tagged release line through 2026-10-06 (fetched 200, 2026-10-07)
 - https://hn.algolia.com/api/v1/items/46203228 - the December 2025 Show HN thread, 3 points, grounding the small-HN-footprint observation (fetched 200, 2026-10-07)

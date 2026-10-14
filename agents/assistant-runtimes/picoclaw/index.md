@@ -23,7 +23,7 @@ It reached 20k stars in 17 days from a February 2026 start.
 ## Status
 
 Active, pre-1.0, and explicit about both.
-As of 2026-10-11: 30,016 stars and 4,447 forks since creation on 2026-02-04, pushed 2026-10-09, 44 open issues, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
+As of 2026-10-14: 30,020 stars and 4,449 forks since creation on 2026-02-04, pushed 2026-10-09, 41 open issues, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sipeed/picoclaw&type=date&theme=dark&legend=top-left" />
@@ -40,7 +40,7 @@ The naming ladder keeps extending below it (SmolClaw microvm, FemtoClaw for ESP3
 - The footprint claim is real enough to change deployment thinking: 10-20MB RAM puts an assistant on hardware nothing else in the family can touch.
 - Hardware vendor stewardship means the software and the board ship as one story, including Android.
 - MCP support and a Web UI at this size is more surface than the memory number suggests.
-- 51 open issues at 30k stars is still the tidiest tracker in the category.
+- 41 open issues at 30k stars is still the tidiest tracker in the category.
 
 ## Cautions
 

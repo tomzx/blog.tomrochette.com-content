@@ -1,7 +1,7 @@
 ---
 title: cc-sdd
 created: 2026-10-06
-updated: 2026-10-11
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, agent-skills, multi-agent, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Gota (gotalab), an agentic-AI engineer in Japan; the project is Kiro-ins
 ## Status
 
 Established and mid-scale, with adoption that bypassed Hacker News entirely.
-As of 2026-10-11: 3,710 stars, 290 forks, created 2025-07-17, pushed 2026-09-23, release v3.1.0 (2026-09-23, the same day as the last push), 28,761 npm downloads last month, MIT.
+As of 2026-10-14: 3,711 stars, 288 forks, created 2025-07-17, pushed 2026-10-13 with development continuing past the last tagged release, v3.1.0 (2026-09-23), 27,029 npm downloads last month, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gotalab/cc-sdd&type=date&theme=dark&legend=top-left" />
@@ -82,10 +82,10 @@ The disagreeable claim I will defend: a fresh-context reviewer per task is a str
 
 ## References
 
-- https://github.com/gotalab/cc-sdd - repository, README: workflow, hosts, languages, licensing (3,710 stars as of 2026-10-11)
+- https://github.com/gotalab/cc-sdd - repository, README: workflow, hosts, languages, licensing (3,711 stars as of 2026-10-14)
 - https://raw.githubusercontent.com/gotalab/cc-sdd/main/README.md - the v3.0 skills-mode scope and install surface
 - https://raw.githubusercontent.com/gotalab/cc-sdd/main/docs/guides/why-cc-sdd.md - the spec-as-contract philosophy and the when-not-to-use list
 - https://raw.githubusercontent.com/gotalab/cc-sdd/main/docs/guides/skill-reference.md - the 17-skill surface and the /kiro-impl dispatch internals
-- https://api.npmjs.org/downloads/point/last-month/cc-sdd - 28,761 downloads last month, fetched 2026-10-11
+- https://api.npmjs.org/downloads/point/last-month/cc-sdd - 27,029 downloads last month, fetched 2026-10-14
 - https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html - the category-level critique, the critical source
 - https://hn.algolia.com/api/v1/search?query=cc-sdd&tags=story - the missing HN footprint, checked 2026-10-06

@@ -1,7 +1,7 @@
 ---
 title: Kata
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, local-first, cli, mcp, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Kenn Software LLC maintains it under MIT, with documentation at katatracker.com.
 ## Status
 
 Active and on a steady release cadence.
-As of 2026-10-11: 459 stars, 46 forks, created 2026-04-30, pushed 2026-10-10, latest release v0.18.0 on 2026-09-17 (teammate attention requests, issue-scoped worker credentials, search status filters), with backward compatibility promised since v0.14.0.
+As of 2026-10-14: 464 stars, 46 forks, created 2026-04-30, pushed 2026-10-14, latest release v0.18.0 on 2026-09-17 (teammate attention requests, issue-scoped worker credentials, search status filters), with backward compatibility promised since v0.14.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/kata&type=date&theme=dark&legend=top-left" />
@@ -36,7 +36,7 @@ As of 2026-10-11: 459 stars, 46 forks, created 2026-04-30, pushed 2026-10-10, la
 
 The unreleased changelog section is already large: an `agent-hook` rename covering 18 native harness targets, MCP coordination tools, a `kata doctor` diagnostic, and opt-out anonymous telemetry.
 
-An HN search for the project returns zero story hits as of 2026-10-11, so the adoption evidence is the repository curve and the changelog's external contributor roster (Wes McKinney, Marius van Niekerk), not independent discussion.
+An HN search for the project returns zero story hits as of 2026-10-14, so the adoption evidence is the repository curve and the changelog's external contributor roster (Wes McKinney, Marius van Niekerk), not independent discussion.
 
 ## Strengths
 
@@ -87,6 +87,6 @@ My disagreeable claim: a tracker 250 milliseconds away is a different species fr
 - https://katatracker.com/ - the site: the 4-millisecond measurements, event stream, federation, evidence-based closes, the layer argument against SaaS trackers
 - https://raw.githubusercontent.com/kenn-io/kata/main/docs/changelog.md - release history: v0.18.0 (2026-09-17) and the unreleased agent-hook, telemetry, and MCP coordination lines
 - https://raw.githubusercontent.com/kenn-io/kata/main/docs/workflows/agents.md - the agent contract, the 18-harness hook coverage table, teammate and inbox workflows, MCP setup
-- https://api.github.com/repos/kenn-io/kata - stars, forks, dates, MIT license as of 2026-10-11
+- https://api.github.com/repos/kenn-io/kata - stars, forks, dates, MIT license as of 2026-10-14
 - https://api.github.com/repos/kenn-io/kata/releases - v0.18.0 (2026-09-17) and the release cadence
-- https://hn.algolia.com/api/v1/search?query=katatracker&tags=story - zero story hits as of 2026-10-11, the missing HN footprint
+- https://hn.algolia.com/api/v1/search?query=katatracker&tags=story - zero story hits as of 2026-10-14, the missing HN footprint

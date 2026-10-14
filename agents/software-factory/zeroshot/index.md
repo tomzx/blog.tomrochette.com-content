@@ -1,7 +1,7 @@
 ---
 title: Zeroshot
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, review-loop, multi-agent]
 readability: 3
@@ -21,7 +21,7 @@ Delivery is a ladder you opt into, from keep-it-local through --push, --pr, and 
 
 ## Status
 
-Active and shipping: 1,948 stars since creation on 2025-12-25, pushed 2026-10-11, v10.10.1 released 2026-10-06 with npm in sync, per the GitHub API and the npm registry as of 2026-10-11.
+Active and shipping: 1,969 stars since creation on 2025-12-25, pushed 2026-10-13, v10.10.1 released 2026-10-06 with npm in sync, per the GitHub API and the npm registry as of 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=the-open-engine/zeroshot&type=date&theme=dark&legend=top-left" />

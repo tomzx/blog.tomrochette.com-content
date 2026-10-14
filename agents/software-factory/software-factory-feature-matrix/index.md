@@ -1,7 +1,7 @@
 ---
 title: "Software Factory Feature Matrix"
 created: 2026-08-29
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, comparison, software-factory, agentic-workflows]
 readability: 3
@@ -34,7 +34,7 @@ Each column links to the full research note; every cell below traces to a source
 | License | MIT | Apache-2.0 | MIT | Apache-2.0 | BUSL-1.1 (source-available) | MIT | MIT | MIT | Apache-2.0 core, Enterprise Edition license for /ee | MIT |
 | Pricing | free, MIT, self-hosted; one-click Railway deploy; no hosted tier | free, no paid tier, no hosted cloud | free, MIT, self-hosted on your nodes; no hosted tier; early preview | core free; HAR HQ Team $400 per month up to 50 users with $100 monthly cloud credits, Enterprise custom (self-hosted or VPC, SSO/SAML/SCIM) | free source-available CLI, your keys; no published hosted prices as of 2026-10-09 | free, early access | free, GitHub Sponsors funded, enterprise offerings conditional | free, self-hosted | free open-source engine to self-host; Business $199 per organization per month with $50 shared monthly usage, OSS Projects free, Enterprise custom (as of 2026-10-10) | free MIT core on your harness logins; Zeroshot Cloud managed target without published prices as of 2026-10-10 |
 | Born | 2026-03-13 | 2026-07-10 | 2026-04-13 | 2026-06-28 | 2025-12-26 | 2026-07-16 | 2026-01-14 | 2026-08-02 | 2025-05-07 | 2025-12-25 |
-| Stars | about 1.7k | about 110 | about 1.3k | about 110 | about 1.1k | about 500 | about 6.2k | about 950 | about 7.7k | about 1.9k |
+| Stars | about 1.7k | about 110 | about 1.3k | about 120 | about 1.1k | about 500 | about 6.2k | about 950 | about 7.7k | about 2.0k |
 
 ## Reading the matrix
 
@@ -72,6 +72,9 @@ VisionForge-OU/foreman (443 stars, no standard license, dormant since 2026-06-29
 coleam00/ai-software-factory (365 stars, active, no license) is a setup template whose factory logic lives in Archon's SDLC pack, the same platform-template pattern as the rejected eve and Mastra templates.
 Orbi (213 stars, AGPL-3.0, active, label-an-issue-get-a-merged-PR with independent review) has zero independent discussion and stays below the admitted cohort's footprint.
 ramure (224, no license, dormant since 2026-06-30), squid (203), inkwell (161, the member SSSF's sandbox companion, dormant since 2026-08-09), dark-factory-experiment (168, no license), claude-lane-stack (122), sgai (137, no standard license), and the sub-100 remainder close the tail.
+The list's 2026-10-12 weekly sweep added sixteen entries, four of them already resolved (tuios and Markus by their 2026-10-10 rejections, desplega-ai's agent-swarm and GraphCode as orchestration members), and the other twelve are parallel-workspace surfaces and terminal multiplexers rather than loop-owning factories (Synara at 2,099 stars the largest, then wmux, Calyx, Aizen, Intent, Roamgate, Rovai, Rove, CliDeck, Dray, tlbx, and ReevesAgents), flagged to the surfaces and orchestration workers rather than admitted here.
+Helmor (1,309 stars, Apache-2.0, dormant since 2026-08-22), an earlier list entry the prior sweeps never named, is a local-first workbench for orchestrating coding agents, a worktree-per-task workbench the human drives with no phase-owning engine of its own, flagged to orchestration beside its peers rather than admitted here.
+The sweep's factory-section additions resolved below the bar: patchmill (15 stars), smile-software-factory (53, no license), nicolasmelo1's software-factory (34), stratonext's software-factory (11), and sjarmak's reliability-patterns companion repository (8).
 
 ## Choosing from the matrix
 
@@ -106,6 +109,7 @@ ramure (224, no license, dormant since 2026-06-30), squid (203), inkwell (161, t
 - 2026-10-09 - Moved three Loki Mode cells on the v11.3.1-v11.3.9 release evidence: self-improvement from none to partial (memory with proof learns lessons from merged PR review comments), isolation from unverified to partial (--attempts N scored worktree attempts), and the coding-agent roster updated to Claude default with Cline, Codex, Aider, and OpenCode experimental; all other cells, including HAR HQ pricing and the star row, re-verified unchanged.
 - 2026-10-10 - Extended from seven to nine columns with Fabro and Zeroshot, re-sorted alphabetically; moved the SuperPlane pricing cell to the website's first published plans (Business $199 per organization per month with $50 shared monthly usage); recorded the awesome-software-factories scan resolutions in the long-tail paragraph; graph-authored-loop, isolation, self-improvement, and hidden-grading prose updated for the new columns.
 - 2026-10-11 - Refreshed the HAR (about 110) and Machinist (about 500) star cells and recorded the 2026-10-11 awesome-list cross-check resolutions in the long-tail paragraph (gstack, Gas City, and Kapso flagged to skills, orchestration, and automated research; CodeMachine CLI, VisionForge's foreman, the Cole Medin template, Orbi, and the small tail rejected); all other cells re-verified unchanged.
+- 2026-10-13 - Refreshed the HAR (about 120) and Zeroshot (about 2.0k) star cells; recorded the awesome-software-factories 2026-10-12 weekly-sweep resolutions in the long-tail paragraph (twelve new parallel-workspace entries flagged cross-category, Helmor flagged to orchestration as an unresolved prior entry, the factory-section additions rejected below the bar); all other cells re-verified unchanged.
 
 ## See also
 

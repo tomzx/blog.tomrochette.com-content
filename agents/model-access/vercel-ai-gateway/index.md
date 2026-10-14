@@ -1,7 +1,7 @@
 ---
 title: Vercel AI Gateway
 created: 2026-10-06
-updated: 2026-10-11
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, ai-gateway, pay-per-token, byok]
 readability: 3
@@ -43,7 +43,7 @@ Its Hacker News footprint is thin (only 2-to-5-point stories in an Algolia searc
 
 ## Pricing
 
-Tokens bill at each provider's list price with no markup and no platform fee; payment-processing fees on top-ups are yours, as of 2026-10-11.
+Tokens bill at each provider's list price with no markup and no platform fee; payment-processing fees on top-ups are yours, as of 2026-10-14.
 Free tier: $5 of credits every 30 days per the GA announcement, a free-tier model subset, and per-model rate limits.
 Paid tier: AI Gateway Credits top-ups (manual or auto), BYOK free but paid-tier only, volume discounts on request, and Enterprise invoicing without processing fees.
 Add-on surcharges, deducted from credits: team-wide provider allowlist $0.10 per 1,000 successful requests and team-wide ZDR $0.10 per 1,000 requests (per-request ZDR free, both Pro and up), custom reporting at $0.075 per 1,000 writes plus $5 per 1,000 queries, and trace drains at $0.05 per 1,000 traces plus $0.50 per GB billed on the plan rather than credits.
@@ -81,7 +81,7 @@ My disagreeable claim: zero markup here prices the gateway, not the product, bec
 ## References
 
 - https://vercel.com/docs/ai-gateway - gateway overview, zero-markup claim, BYOK, budgets, fallback (200, page last updated 2026-09-14)
-- https://vercel.com/docs/ai-gateway/pricing - no markup, free and paid tiers, credits, add-on surcharge tables (200, page last updated 2026-09-08, re-fetched 2026-10-11 unchanged)
+- https://vercel.com/docs/ai-gateway/pricing - no markup, free and paid tiers, credits, add-on surcharge tables (200, page last updated 2026-09-08, re-fetched 2026-10-11 and 2026-10-14 unchanged)
 - https://vercel.com/docs/ai-gateway/coding-agents - the 29-agent setup table, the one-command CLI, per-agent endpoints (200, page last updated 2026-09-13)
 - https://vercel.com/blog/ai-gateway-is-now-generally-available - GA announcement of August 21, 2025: $5 free credits per 30 days, hundreds of models, v0 pedigree, AI SDK at 2M weekly downloads (200)
 - https://vercel.com/changelog/set-up-coding-agents-in-one-command-with-ai-gateway - the August 12, 2026 coding-agent setup launch, 200+ models, budgets on agent keys (200)

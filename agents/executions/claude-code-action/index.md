@@ -24,7 +24,7 @@ It is MIT-licensed, built by Anthropic, and versioned v1 since 2025-08-26, with 
 ## Status
 
 **Active, official, and large.**
-9,478 stars, 2,205 forks, and 823 open issues and pull requests as of 2026-10-11 (GitHub API), created 2025-05-19 and pushed 2026-10-09.
+9,497 stars, 2,207 forks, and 828 open issues and pull requests as of 2026-10-13 (GitHub API), created 2025-05-19 and pushed 2026-10-09.
 The v1 line has held since the v1 tag on 2025-08-26, an unusually long stable window for this section's tooling.
 Hacker News has no dedicated launch thread; the most substantive coverage is a July 2025 post describing an accidental prompt injection through the action (8 points, zero comments), which is the representative failure mode for every mention-triggered agent.
 
@@ -46,7 +46,7 @@ Hacker News has no dedicated launch thread; the most substantive coverage is a J
 - **The security docs flag their own sharp edges in capitals**: `allowed_non_write_users` is marked RISKY, and `allowed_bots: '*'` on a public repository lets any external GitHub App trigger the action with a prompt it controls.
 - Prompt injection through untrusted issue and comment content stays the documented residual risk; secret scrubbing and optional bubblewrap PID-namespace isolation "reduces but does not eliminate" it, in the docs' own words, so workflow permissions must be minimized by hand.
 - Claude Code only: no engine choice and no safe-outputs compilation, which is the gap GitHub Agentic Workflows sells against.
-- 823 open issues and pull requests is a heavy backlog for an official action at this scale (as of 2026-10-11).
+- 828 open issues and pull requests is a heavy backlog for an official action at this scale (as of 2026-10-13).
 
 ## Pricing
 
@@ -78,8 +78,8 @@ My disagreeable claim: the mention workflow is the best default in this category
 
 ## References
 
-- https://github.com/anthropics/claude-code-action - repository, 9,478 stars, MIT license, as of 2026-10-11
-- https://api.github.com/repos/anthropics/claude-code-action - exact counters (9,478 stars, 2,205 forks, 823 open issues and pull requests, pushed 2026-10-09, created 2025-05-19)
+- https://github.com/anthropics/claude-code-action - repository, 9,497 stars, MIT license, as of 2026-10-13
+- https://api.github.com/repos/anthropics/claude-code-action - exact counters (9,497 stars, 2,207 forks, 828 open issues and pull requests, pushed 2026-10-09, created 2025-05-19)
 - https://raw.githubusercontent.com/anthropics/claude-code-action/main/README.md - trigger detection, provider paths, v1.0 migration note, solutions catalog
 - https://raw.githubusercontent.com/anthropics/claude-code-action/main/docs/security.md - the RISKY flags, secret scrubbing, bubblewrap PID-namespace isolation, and bot-allowlist warnings
 - https://raw.githubusercontent.com/anthropics/claude-code-action/main/docs/usage.md - label and phrase triggers, automation prompts, plugin inputs

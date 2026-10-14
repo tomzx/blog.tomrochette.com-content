@@ -1,7 +1,7 @@
 ---
 title: Kimi Code
 created: 2026-09-26
-updated: 2026-10-12
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, moonshot-ai, pricing]
 readability: 3
@@ -40,8 +40,8 @@ Independent guides multiplied through 2026, which I read as genuine adoption.
 
 ## Pricing
 
-On kimi.ai (as of 2026-10-12): Plus $19, Pro $39, Max $99, Ultra $199 per month, annual effective $15/$31/$79/$159; the former musical tiers (Moderato, Allegretto, Allegro, Vivace) are legacy plans at unchanged prices.
-On kimi.com (as of 2026-10-12): Go ¥49, Plus ¥99, Pro ¥199, Max ¥699 per month, annual equivalents ¥39/¥79/¥159/¥559; the former musical tiers (Andante, Moderato, Allegretto, Allegro) are legacy plans at unchanged monthly prices, with annual billing added.
+On kimi.ai (as of 2026-10-14, re-verified unchanged from the 2026-10-12 read): Plus $19, Pro $39, Max $99, Ultra $199 per month, annual effective $15/$31/$79/$159; the former musical tiers (Moderato, Allegretto, Allegro, Vivace) are legacy plans at unchanged prices.
+On kimi.com (as of 2026-10-14, re-verified unchanged): Go ¥49, Plus ¥99, Pro ¥199, Max ¥699 per month, annual equivalents ¥39/¥79/¥159/¥559; the former musical tiers (Andante, Moderato, Allegretto, Allegro) are legacy plans at unchanged monthly prices, with annual billing added.
 On both ladders, Go has no coding quota, Plus and above include Kimi Code under a rolling 5-hour limit with no weekly limit, legacy plans keep both the 5-hour and weekly windows, and Pro and above unlock K3 at 1M context.
 The monthly pool is credits shared across every Kimi feature, and Kimi Code additionally runs under its own usage limit (a rolling 5-hour rate window for new members, the weekly window having been removed; the membership help page still phrases it as a 5-hour/weekly limit because legacy plans keep the weekly window, per the membership docs re-fetched 2026-10-11) that applies only to Kimi Code.
 Extra Usage is pay-as-you-go overflow with a ¥25 minimum top-up, generally non-refundable.
@@ -72,6 +72,7 @@ I will claim something arguable: the ¥49 China-market ladder proves this produc
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 - 2026-10-06 - Pricing re-verified on both membership pages; the help docs now state that Kimi Code carries its own usage limit (a rolling 5-hour rate window, the weekly window removed for new members) on top of the shared monthly credit pool, and both ladder as-of dates moved to 2026-10-06.
 - 2026-10-12 - Second restructure of the year: both membership ladders renamed (international Moderato/Allegretto/Allegro/Vivace to Plus/Pro/Max/Ultra, China Andante/Moderato/Allegretto/Allegro to Go/Plus/Pro/Max) at unchanged monthly prices, the musical tiers designated legacy with their 5-hour-plus-weekly windows retained, annual billing added on both ladders, and the rolling-5-hour, no-weekly-limit rule confirmed for new Kimi Code plans; price history row appended.
+- 2026-10-14 - Both ladders re-verified unchanged two days after the rename, and the pay-per-token API listing for kimi-k3 recorded in the references for the first time (InferenceNet $0.73/$10.00, Wafer $0.72/$24.00, Morph $0.75/$14.90, official $3/$15), with the day-by-day API price history kept in the harnesses note.
 
 ## See also
 
@@ -84,8 +85,9 @@ I will claim something arguable: the ¥49 China-market ladder proves this produc
 
 - https://www.kimi.com/code/en - official product page; surfaces and the K3 1M-context claim.
 - https://www.kimi.com/code/docs/en/kimi-code/membership.html - membership docs; new ladder (Go/Plus/Pro), weekly window removal, Extra Usage terms.
-- https://www.kimi.ai/help/membership/membership-pricing - dollar pricing $19/$39/$99/$199 monthly, $15/$31/$79/$159 annual, as of 2026-10-12, when the ladder read Plus/Pro/Max/Ultra with the musical tiers designated legacy (fetched, HTTP 200).
-- https://www.kimi.com/en/help/membership/membership-pricing - yen pricing ¥49/¥99/¥199/¥699 monthly and shared credit pool rules, as of 2026-10-12, when the ladder read Go/Plus/Pro/Max at the same monthly prices with annual billing added (fetched, HTTP 200).
+- https://www.kimi.ai/help/membership/membership-pricing - dollar pricing $19/$39/$99/$199 monthly, $15/$31/$79/$159 annual, as of 2026-10-12, when the ladder read Plus/Pro/Max/Ultra with the musical tiers designated legacy (fetched, HTTP 200; re-fetched 2026-10-14 unchanged).
+- https://www.kimi.com/en/help/membership/membership-pricing - yen pricing ¥49/¥99/¥199/¥699 monthly and shared credit pool rules, as of 2026-10-12, when the ladder read Go/Plus/Pro/Max at the same monthly prices with annual billing added (fetched, HTTP 200; re-fetched 2026-10-14 unchanged).
 - https://www.digitalapplied.com/blog/kimi-code-k3-hands-on-setup-plans-cache-2026 - July 17, 2026 snapshot of listed vs promo prices and the separation banner.
 - https://aihackers.net/value/deals/kimi-haggle/ - documented February 2026 first-month offers of $0.99 to $11.99, marked historical.
 - https://www.noemititarenco.com/blog/kimi-code-plan-after-4-months-of-use-honest-review/ - skeptical four-month user review and cancellation rationale.
+- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - the pay-per-token API listing for the K3 model the ladder gates: read $0.73/$10.00 per million tokens on InferenceNet (cache reads $0.55) with a Wafer endpoint at $0.72/$24.00, Morph at $0.75/$14.90, and Moonshot's own endpoint at $3/$15 (fetched 2026-10-14; the per-move history of this churning listing is tracked in the harnesses note for the CLI).

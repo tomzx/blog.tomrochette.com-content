@@ -24,7 +24,7 @@ Made by Raindrop, an agent-observability startup; Workshop is the free local tie
 
 ## Status
 
-Young with a strong launch: 1,109 stars, 70 forks, 9 open issues as of 2026-10-11, created 2026-05-01, last pushed 2026-08-22, latest release v0.1.21 on 2026-08-22.
+Young with a strong launch: 1,111 stars, 70 forks, 9 open issues as of 2026-10-13, created 2026-05-01, last pushed 2026-08-22, latest release v0.1.21 on 2026-08-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=raindrop-ai/workshop&type=date&theme=dark&legend=top-left" />

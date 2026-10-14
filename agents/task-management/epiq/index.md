@@ -1,7 +1,7 @@
 ---
 title: Epiq
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, event-sourcing, git, open-source]
 readability: 3
@@ -24,7 +24,8 @@ Commits prefixed with a ticket's ref land in the ticket's inline code diff, wher
 ## Status
 
 Active and shipping fast.
-As of 2026-10-11: 539 stars, 21 forks, 5 watchers, 3 open issues, created 2025-06-22, pushed 2026-10-10, latest release v1.12.4 on 2026-10-08 (the v1.12.x line shipped four releases in twelve days), and 2,860 npm downloads last month.
+As of 2026-10-14: 542 stars, 21 forks, 1 open issue, created 2025-06-22, pushed 2026-10-13, latest release v1.13.0 on 2026-10-13, and 2,751 npm downloads last month.
+The v1.12.x line shipped four releases in twelve days, and v1.13.0 followed five days later with cross-repository commit linking: a board can connect other repos, commits in them land on the tickets they name and in the timeline, and read-only clones fetched on sync (capped at 2 GB each, self-recovering) make the linked diffs work outside the board's own checkout.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ljtn/epiq&type=date&theme=dark&legend=top-left" />
@@ -68,6 +69,7 @@ My disagreeable claim: the append-only event log is a better memory format for a
 ## Changes
 
 - 2026-10-10 - Created after the broad-list and GitHub search scan surfaced the 91-point launch thread the category had not resolved.
+- 2026-10-13 - Recorded the v1.13.0 release (2026-10-13: cross-repository commit linking, so commits in connected repos land on the tickets they name and in the timeline, with read-only clones fetched on sync and capped at 2 GB) and refreshed counts (542 stars, 1 open issue, pushed 2026-10-13, 2,751 npm downloads).
 
 ## See also
 
@@ -79,9 +81,9 @@ My disagreeable claim: the append-only event log is a better memory format for a
 ## References
 
 - https://github.com/ljtn/epiq - repository: README, MCP setup, agent identities, install paths (fetched 2026-10-10)
-- https://api.github.com/repos/ljtn/epiq - stars, forks, watchers, dates, MIT license as of 2026-10-11
+- https://api.github.com/repos/ljtn/epiq - stars, forks, dates, MIT license as of 2026-10-14
 - https://raw.githubusercontent.com/ljtn/epiq/main/readme.md - the event-sourced model, conflict handling, MCP and skill setup, worktree sync
 - https://ljtn.github.io/epiq/ - the site: teams-and-agents positioning, live monitoring and replay wording, the MCP tool count
 - https://news.ycombinator.com/item?id=48155570 - the 91-point launch thread: the distributed-tracker history objection, the last-event-wins exchange, the MCP-versus-skill debate
-- https://api.github.com/repos/ljtn/epiq/releases - v1.12.4 (2026-10-08) and the v1.12.x release train
-- https://api.npmjs.org/downloads/point/last-month/epiq - 2,860 downloads last month
+- https://api.github.com/repos/ljtn/epiq/releases - v1.13.0 (2026-10-13) and the release train through v1.12.4
+- https://api.npmjs.org/downloads/point/last-month/epiq - 2,751 downloads last month

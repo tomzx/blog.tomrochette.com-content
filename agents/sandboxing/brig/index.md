@@ -1,7 +1,7 @@
 ---
 title: Brig
 created: 2026-10-06
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, macos, linux, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Built by NOFire AI, the team behind urunc, a CNCF Sandbox project; images, boot 
 
 ## Status
 
-Young but professionally built: 228 stars, 21 forks as of 2026-10-12, created 2026-08-12, pushed 2026-10-12, Apache-2.0.
+Young but professionally built: 229 stars, 21 forks as of 2026-10-13, created 2026-08-12, pushed 2026-10-13, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&theme=dark&legend=top-left" />

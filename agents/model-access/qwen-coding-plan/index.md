@@ -1,7 +1,7 @@
 ---
 title: Qwen Coding Plan
 created: 2026-09-26
-updated: 2026-10-11
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, qwen, subscriptions, alibaba]
 readability: 3
@@ -25,7 +25,7 @@ The Pro roster pins exact model snapshots (qwen3.7-plus, qwen3.6-plus, qwen3.5-p
 Actively sold but mid-transition, and the transition is not cosmetic.
 Coding Plan Lite closed to new subscriptions on 2026-03-20 and to renewals and upgrades on 2026-04-13.
 The official Token Plan FAQ states that Coding Plan Pro was a limited-quantity offering that is "no longer available once sold out", recommends Token Plan instead, and provides no migration or upgrade path between the two products.
-As of 2026-10-11 the coding-plan docs (updated the same day) still headline the $50 Pro plan while the Token Plan guide (updated 2026-10-11) sits above it in the docs nav, and Token Plan is Singapore-region only.
+As of 2026-10-14 the coding-plan docs (updated 2026-10-11) still headline the $50 Pro plan while the Token Plan guide (updated 2026-10-11) sits above it in the docs nav, and Token Plan is Singapore-region only.
 
 ## Strengths
 
@@ -45,8 +45,8 @@ As of 2026-10-11 the coding-plan docs (updated the same day) still headline the 
 
 ## Pricing
 
-As of 2026-10-06 two price sheets coexist.
-Coding Plan Pro: $50/month, capped at 6,000 requests per 5 hours, 45,000 per week, and 90,000 per month, whichever hits first (official docs, page updated 2026-10-11, with slots still first-come, first-served).
+As of 2026-10-14 two price sheets coexist.
+Coding Plan Pro: $50/month, capped at 6,000 requests per 5 hours, 45,000 per week, and 90,000 per month, whichever hits first (official docs, page updated 2026-10-11 and re-fetched 2026-10-14, with slots still first-come, first-served).
 Token Plan Personal (Singapore region): Lite $6 (list $8), Essential $10 (list $16), Standard $18 (list $25), Pro $68 (list $80) per month for 11,500/25,500/45,000/180,000 Credits, with team seats at $20/$75/$200 and extra bundles at $15 per 20,000 Credits.
 A third-party tracker (data updated 2026-09-24) reports China-side early-bird pricing of ¥39/¥139/¥499 per month, a limited-time night rate of 40% of normal Credits from 22:00, and 88% over-limit billing.
 
@@ -88,7 +88,7 @@ Claim to disagree with: the $50 Coding Plan Pro that Alibaba's docs still headli
 
 ## References
 
-- https://www.alibabacloud.com/help/en/model-studio/coding-plan - official Coding Plan docs: $50 Pro, 6,000/45,000/90,000 request caps, Lite dates of 2026-03-20 and 2026-04-13, automation ban, snapshot-pinned roster, `sk-sp-` key rules (fetched, HTTP 200; re-fetched 2026-10-11 with the page updated the same day and the qwen3-coder line gone from the roster)
+- https://www.alibabacloud.com/help/en/model-studio/coding-plan - official Coding Plan docs: $50 Pro, 6,000/45,000/90,000 request caps, Lite dates of 2026-03-20 and 2026-04-13, automation ban, snapshot-pinned roster, `sk-sp-` key rules (fetched, HTTP 200; re-fetched 2026-10-14 with the page still dated 2026-10-11 and the roster and prices unchanged)
 - https://www.alibabacloud.com/help/en/model-studio/token-plan-overview - official Token Plan overview: USD tiers and Credits, Singapore-only availability, and the FAQ stating Coding Plan Pro was limited-quantity with no migration path (fetched, HTTP 200).
 - https://www.alibabacloud.com/en/campaign/ai-scene-coding - official campaign and purchase page: limited-time USD prices, 2X credit promotion, Qwen3.8-Max positioning (fetched, HTTP 200).
 - https://www.alibabacloud.com/help/en/model-studio/token-plan-guide - official docs hub placing Token Plan above Coding Plan in the product nav as of 2026-09-25 (fetched, HTTP 200).

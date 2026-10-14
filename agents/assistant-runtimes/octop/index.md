@@ -26,7 +26,7 @@ It is published under the TencentCloud GitHub org and built from four focused su
 
 ## Status
 
-Fast out of the gate and young: 8,955 stars and 1,100 forks in its first three months as of 2026-10-13 (created 2026-07-08, pushed 2026-10-13), 760 open issues, MIT.
+Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three months as of 2026-10-14 (created 2026-07-08, pushed 2026-10-13), 791 open issues, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/Octop&type=date&theme=dark&legend=top-left" />

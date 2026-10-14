@@ -34,7 +34,7 @@ Editors and harnesses live in their own categories; this is where the token bill
 - [Plano](plano/index.md) - the Envoy-based self-hosted LLM gateway and agent data plane behind the Arch-Router routers, acquired by DigitalOcean in April 2026.
 - [Qwen Coding Plan](qwen-coding-plan/index.md) - Alibaba Cloud's flat quota for the Qwen line plus bundled rivals, in transition to a Token Plan.
 - [Requesty](requesty/index.md) - EU-residency gateway charging a flat 5% markup on upstream spend.
-- [SuperGrok](supergrok/index.md) - xAI's subscription ladder from $30 to $300, one shared weekly pool across Grok chat, Grok Build, and API.
+- [SuperGrok](supergrok/index.md) - xAI's subscription ladder, rebuilt in mid-October 2026 from the $30-to-$300 SuperGrok tiers into Plus $8 to Ultra $200 with X Premium and Cursor bundled and one shared weekly pool.
 - [Synthetic](synthetic/index.md) - a flat $30/month subscription for open-weight coding LLMs aimed at agent users.
 - [Vercel AI Gateway](vercel-ai-gateway/index.md) - Vercel's hosted gateway at provider list prices with 0% token markup, one-command setup for 29 coding agents, and no flat tier.
 

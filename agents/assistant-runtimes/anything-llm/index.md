@@ -1,7 +1,7 @@
 ---
 title: AnythingLLM
 created: 2026-09-27
-updated: 2026-10-11
+updated: 2026-10-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, local-first, rag, desktop-apps]
 readability: 3
@@ -24,7 +24,7 @@ Beta features push it toward an OS-level assistant: AI computer use and live doc
 
 ## Status
 
-Active and steadily shipped: 66,920 stars, 7,469 forks, and 332 open issues as of 2026-10-11, created 2023-06-04, pushed 2026-10-09.
+Active and steadily shipped: 67,036 stars, 7,489 forks, and 336 open issues as of 2026-10-14, created 2023-06-04, pushed 2026-10-14.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and steadily shipped: 66,920 stars, 7,469 forks, and 332 open issues as o
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&legend=top-left" />
 </picture>
 
-v1.17.0 was released 2026-10-01, following v1.16.2 (2026-09-22), and the docs changelog shows an unbroken cadence back through v1.6.x.
+v1.18.0 was released 2026-10-13 (a fixes train: Kubernetes probes, attachment handling, and an embed-allowlist origin comparison), following v1.17.0 (2026-10-01), and the docs changelog shows an unbroken cadence back through v1.6.x.
 The founder Tim Carambat introduced the desktop app on Hacker News in September 2024 (368 points), framing the mission as layperson-accessible private AI, and the thread is a useful record of both praise and the first round of critiques.
 The repo's own topics now include computer use and agent harness terms, which tells you the center of gravity has moved from document chat to agents.
 
@@ -77,6 +77,7 @@ The disagreeable claim I will defend: the layperson focus that made AnythingLLM 
 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-10-07 - Added the Mintplex-Labs/anything-llm star history chart to the Status section.
+- 2026-10-14 - Recorded v1.18.0 (released 2026-10-13, a fixes train) on the release line, with refreshed adoption numbers.
 
 ## See also
 
@@ -89,7 +90,7 @@ The disagreeable claim I will defend: the layperson focus that made AnythingLLM 
 
 - https://api.github.com/repos/Mintplex-Labs/anything-llm - stars, forks, issues, license, and dates as of 2026-10-10
 - https://github.com/Mintplex-Labs/anything-llm - repository and positioning
-- https://api.github.com/repos/Mintplex-Labs/anything-llm/releases?per_page=4 - v1.17.0 released 2026-10-01
+- https://api.github.com/repos/Mintplex-Labs/anything-llm/releases?per_page=4 - v1.18.0 released 2026-10-13, following v1.17.0 (2026-10-01)
 - https://docs.anythingllm.com/ - features, agents, MCP compatibility, Docker self-hosting, Community Hub
 - https://docs.anythingllm.com/pro/overview - the Pro tier scope and the free-tier commitment
 - https://anythingllm.com/pricing - hosted tiers and enterprise contact as of 2026-09-27

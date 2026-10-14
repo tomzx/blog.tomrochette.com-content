@@ -1,7 +1,7 @@
 ---
 title: Fusion
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, kanban, multi-agent, worktrees, open-source]
 readability: 3
@@ -24,9 +24,9 @@ The dashboard is built on dustinbyrne/kb; the docs are in-repo and unusually com
 ## Status
 
 **Active and heavily pushed, but early preview, and the stable npm channel lags the repository.**
-1,265 stars, 160 forks, and 95 open issues and pull requests, created 2026-04-13, pushed 2026-10-11, as of 2026-10-11 (GitHub API).
+1,270 stars, 162 forks, and 86 open issues and pull requests, created 2026-04-13, pushed 2026-10-13, as of 2026-10-13 (GitHub API).
 The newest GitHub release and npm beta is v0.78.0-beta.7 (2026-09-25); npm `latest` is still 0.77.0 (2026-09-02), so the stable channel ran six weeks behind a repository that pushes near-daily.
-The package drew 2,811 npm downloads in the month ending 2026-10-10, and a Hacker News search returns no story about it (2026-10-11).
+The package drew 2,629 npm downloads in the month ending 2026-10-12, and a Hacker News search returns no story about it (2026-10-13).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Runfusion/Fusion&type=date&theme=dark&legend=top-left" />
@@ -78,11 +78,11 @@ My disagreeable claim: auto-merge on green gates is where this category is going
 
 ## References
 
-- https://github.com/Runfusion/Fusion - repository facts: 1,265 stars, 160 forks, MIT, created 2026-04-13, pushed 2026-10-11 (GitHub API, as of 2026-10-11)
+- https://github.com/Runfusion/Fusion - repository facts: 1,270 stars, 162 forks, MIT, created 2026-04-13, pushed 2026-10-13 (GitHub API, as of 2026-10-13)
 - https://raw.githubusercontent.com/Runfusion/Fusion/main/README.md - the loop description, PROMPT.md planning, worktree flow, install paths, and the dustinbyrne/kb credit
 - https://raw.githubusercontent.com/Runfusion/Fusion/main/docs/README.md - the documentation map: oversight levels, workflow steps, missions, storage, mesh protocol, sandbox backends, plugins
 - https://runfusion.ai - the product site: board and Command Center tours, model lanes, mesh nodes, mobile apps, Paperclip compatibility, and the autonomy claims recorded as cautions
 - https://api.github.com/repos/Runfusion/Fusion/releases - v0.78.0-beta.7 (2026-09-25) newest release
 - https://registry.npmjs.org/@runfusion/fusion - dist-tags: latest 0.77.0 (2026-09-02), beta 0.78.0-beta.7
-- https://api.npmjs.org/downloads/point/last-month/@runfusion/fusion - 2,811 downloads in the month ending 2026-10-10
+- https://api.npmjs.org/downloads/point/last-month/@runfusion/fusion - 2,629 downloads in the month ending 2026-10-12
 - https://hn.algolia.com/api/v1/search?query=runfusion&tags=story - the footprint scan finding no story (2026-10-11)

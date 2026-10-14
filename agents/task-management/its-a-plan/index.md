@@ -1,7 +1,7 @@
 ---
 title: It's a Plan
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, self-hosted, multi-agent, agpl]
 readability: 3
@@ -24,7 +24,8 @@ Andrii Poluosmak (the croffasia identity) maintains it under AGPL-3.0, except th
 ## Status
 
 Young, active, and climbing fast for its age.
-As of 2026-10-11: 926 stars, 153 forks, 36 open issues and pull requests, 32 contributors, created 2026-07-14, pushed 2026-10-11, 24 releases, with v1.0.0 on 2026-09-15 and v1.4.0 (agent schedules that also trigger when an issue enters a chosen state, plus Linear import) on 2026-10-08, and 778 npm downloads last month for @itsaplan/runner.
+As of 2026-10-14: 963 stars, 159 forks, 42 open issues and pull requests, 32 contributors, created 2026-07-14, pushed 2026-10-13, 25 releases on a steady train, and 797 npm downloads last month for @itsaplan/runner.
+v1.4.0 (2026-10-08) added agent schedules that also trigger when an issue enters a chosen state, plus Linear import, and v1.5.0 (2026-10-13) added agent usage accounting (cost, tokens, and runs by model, agent, project, and day, with admin-set prices for models the built-in table lacks), account deactivation, an api-on-subpath deployment mode, and the better-auth 1.7.7 fix for the critical OIDC sign-in advisory GHSA-965c-763c-88jm.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=croffasia/itsaplan&type=date&theme=dark&legend=top-left" />
@@ -45,7 +46,7 @@ The README warns to expect breaking changes before the first stable release.
 
 ## Cautions
 
-- **The community footprint is near zero: the only HN thread got 1 point and no comments, so 926 stars in under thirteen weeks is uncorroborated by any independent discussion.**
+- **The community footprint is near zero: the only HN thread got 1 point and no comments, so 963 stars in thirteen weeks is uncorroborated by any independent discussion.**
 - AGPL-3.0 triggers corporate policy reviews, and the escape hatch is a commercial license with no listed price.
 - Pre-1.0 churn is declared in the README, and a multi-service self-hosted stack (Postgres, object store, api, worker, bot, web) is heavier than every repo-local tracker here.
 - One maintainer identity (croffasia), donations, and a Telegram roadmap channel concentrate bus risk.
@@ -71,6 +72,7 @@ My disagreeable claim: an assignee slot is a sharper agent interface than an MCP
 
 - 2026-10-07 - Created after the HN by-date scan surfaced the launch thread, recording the agents-as-assignees design, the license split, and the near-zero HN footprint.
 - 2026-10-09 - Recorded the v1.4.0 release (2026-10-08: agent schedules that also run the agent when an issue enters a chosen state, Linear import, cross-project issue moves through the move_issue MCP tool) and refreshed counts (913 stars, 150 forks, 31 contributors, 24 releases, 758 npm downloads).
+- 2026-10-13 - Recorded the v1.5.0 release (2026-10-13: agent usage accounting with cost, tokens, and runs by model, agent, project, and day plus admin-set model prices, account deactivation, an api-on-subpath deployment mode, an installable web app, and the better-auth 1.7.7 fix for the critical OIDC sign-in advisory GHSA-965c-763c-88jm) and refreshed counts (963 stars, 159 forks, 42 open issues and pull requests, 25 releases, 797 npm downloads).
 
 ## See also
 
@@ -84,8 +86,9 @@ My disagreeable claim: an assignee slot is a sharper agent interface than an MCP
 
 - https://itsaplan.dev - the product site: agents as teammates, views, deployment paths, the Product Hunt badge
 - https://github.com/croffasia/itsaplan - README: features, stack, license split, deployment options, the breaking-changes warning
-- https://api.github.com/repos/croffasia/itsaplan - stars, forks, contributors, dates, AGPL-3.0 as of 2026-10-11
-- https://itsaplan.dev/changelog - the release train: v1.0.0 2026-09-15 through v1.4.0 2026-10-08, Plane import, Linear import, OIDC and SCIM
+- https://api.github.com/repos/croffasia/itsaplan - stars, forks, contributors, dates, AGPL-3.0 as of 2026-10-14
+- https://itsaplan.dev/changelog - the release train: v1.0.0 2026-09-15 through v1.5.0 2026-10-13, Plane import, Linear import, OIDC and SCIM
+- https://github.com/croffasia/itsaplan/releases/tag/v1.5.0 - the v1.5.0 notes: usage accounting, account deactivation, the subpath deployment mode, the better-auth security fix
 - https://news.ycombinator.com/item?id=49971516 - the 1-point, comment-free throwaway thread, the missing-community-footprint signal
-- https://api.npmjs.org/downloads/point/last-month/@itsaplan/runner - 778 downloads last month for the external-runner package
+- https://api.npmjs.org/downloads/point/last-month/@itsaplan/runner - 797 downloads last month for the external-runner package
 - https://registry.npmjs.org/@itsaplan/runner/latest - the runner package at 0.5.2

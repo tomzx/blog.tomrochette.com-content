@@ -24,7 +24,7 @@ IBM announced it as the ContextForge MCP Gateway 1.0.0 Beta on December 15, 2025
 
 ## Status
 
-Active and heavily adopted: 4,597 stars, 916 forks, and 971 open issues as of 2026-10-11, created 2025-05-08, pushed 2026-10-09, with v1.0.11 published 2026-09-28 on GitHub and PyPI in step.
+Active and heavily adopted: 4,623 stars, 924 forks, and 965 open issues as of 2026-10-14, created 2025-05-08, pushed 2026-10-13, with v1.0.11 published 2026-09-28 on GitHub and PyPI in step.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ibm/mcp-context-forge&type=date&theme=dark&legend=top-left" />
@@ -32,8 +32,8 @@ Active and heavily adopted: 4,597 stars, 916 forks, and 971 open issues as of 20
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ibm/mcp-context-forge&type=date&legend=top-left" />
 </picture>
 
-**The adoption is unusually organic for this category: 4,597 stars and 916 forks put it third here behind Paperclip and the Microsoft toolkit, and fetched third-party comparisons already treat it as the standing self-hosted MCP gateway rather than a curiosity.**
-The open-issue backlog is the largest in this category by an order of magnitude (971), which reads as day-to-day use at scale colliding with limited maintainer triage, not as abandonment.
+**The adoption is unusually organic for this category: 4,623 stars and 924 forks put it third here behind Paperclip and the Microsoft toolkit, and fetched third-party comparisons already treat it as the standing self-hosted MCP gateway rather than a curiosity.**
+The open-issue backlog is the largest in this category by an order of magnitude (965), which reads as day-to-day use at scale colliding with limited maintainer triage, not as abandonment.
 
 ## Strengths
 

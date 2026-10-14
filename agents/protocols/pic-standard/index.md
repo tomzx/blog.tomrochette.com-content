@@ -1,7 +1,7 @@
 ---
 title: PIC Standard
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, agent-security, verification, provenance, open-standard]
 readability: 3
@@ -26,7 +26,7 @@ The author positions it against identity and delegation work explicitly: PIC dec
 ## Status
 
 **Pre-1.0, actively hardened, with the thinnest adoption footprint of any protocol in this category.**
-67 stars, 47 forks, and 19 open issues and pull requests, created 2026-01-08, pushed 2026-10-10, as of 2026-10-11 (GitHub API).
+69 stars, 48 forks, and 22 open issues and pull requests, created 2026-01-08, pushed 2026-10-13, as of 2026-10-13 (GitHub API).
 PyPI shows v0.9.0 (uploaded 2026-09-21) with 697 downloads in the month ending 2026-10-10.
 The public thread count is one: a Show HN at 1 point (2026-01-13).
 Depth signals offset the reach signals: an independent public-material-only stress test of v0.8.3 by HERMETICUM B.C.E. S.r.l. is recorded with its findings adapted into attributed conformance vectors, external contributors landed conformance vectors and Windows CI, and the project publicly calls for co-maintainers.
@@ -80,7 +80,7 @@ My disagreeable claim: this is the protocol layer agent security actually needs,
 
 ## References
 
-- https://github.com/pic-standard/pic-standard - repository facts: 67 stars, 47 forks, Apache-2.0, created 2026-01-08, pushed 2026-10-10 (GitHub API, as of 2026-10-11)
+- https://github.com/pic-standard/pic-standard - repository facts: 69 stars, 48 forks, Apache-2.0, created 2026-01-08, pushed 2026-10-13 (GitHub API, as of 2026-10-13)
 - https://raw.githubusercontent.com/pic-standard/pic-standard/main/README.md - the contract fields, the Slack payment example, evidence semantics, and the v0.9.0 milestone (fetched 2026-10-11)
 - https://raw.githubusercontent.com/pic-standard/pic-standard/main/docs/spec-status.md - the version table from RFC-0001 through v0.9.0, the wire-format stability record, and the spec-track statuses
 - https://raw.githubusercontent.com/pic-standard/pic-standard/main/docs/independent-reviews/hermeticum-v0.8.3.md - the HERMETICUM stress-test provenance note: scope, non-certification statement, and attribution

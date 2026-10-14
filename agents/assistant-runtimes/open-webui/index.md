@@ -25,7 +25,7 @@ The ecosystem now includes a native desktop app, an Open Terminal sandboxed exec
 
 ## Status
 
-Very active and huge for the category: 154,256 stars, 22,565 forks, and 165 open issues as of 2026-10-11, created 2023-10-06, pushed 2026-10-10.
+Very active and huge for the category: 155,578 stars, 22,676 forks, and 201 open issues as of 2026-10-14, created 2023-10-06, pushed 2026-10-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=open-webui/open-webui&type=date&theme=dark&legend=top-left" />

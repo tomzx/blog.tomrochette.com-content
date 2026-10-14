@@ -25,8 +25,8 @@ A companion `airut-sandbox` CLI and `airutorg/sandbox-action` extend the same co
 ## Status
 
 **Young, active, and nearly invisible.**
-84 stars, 3 forks, and 2 open issues as of 2026-10-11 (GitHub API), created 2026-02-03 and pushed 2026-10-10.
-PyPI carries 0.26.0, with 287 downloads in the trailing month (2026-09-11 to 2026-10-10).
+84 stars, 3 forks, and 1 open issue as of 2026-10-13 (GitHub API), created 2026-02-03 and pushed 2026-10-13.
+PyPI carries 0.27.0, with 287 downloads in the trailing month (2026-09-11 to 2026-10-10).
 The community footprint is three self-posted Show HN threads (2, 1, and 2 points, zero comments, February through March 2026), so there is no independent coverage or adoption evidence, and that absence is itself the signal for a project with this much documentation depth.
 
 <picture>
@@ -45,7 +45,7 @@ The community footprint is three self-posted Show HN threads (2, 1, and 2 points
 
 ## Cautions
 
-- **One maintainer and no visible adoption**: 84 stars, single-digit forks, and a self-reported community footprint of three zero-comment Show HN threads as of 2026-10-11.
+- **One maintainer and no visible adoption**: 84 stars, single-digit forks, and a self-reported community footprint of three zero-comment Show HN threads as of 2026-10-13.
 - Self-hosting is the only mode, and the prerequisites (Linux, rootless Podman, a dedicated IMAP/SMTP account or Slack app per repository) put the operations burden on you.
 - Claude Code only, and the autonomy pitch (a full-permission agent inside the container) presumes the boundary holds; the security-model documentation is the audit artifact you must read yourself.
 - The email channel inherits email's failure modes: DMARC-verified senders plus per-repo authorization are all that stands between a stranger and an agent task on your code.
@@ -81,9 +81,9 @@ My disagreeable claim: at 84 stars this is the least proven member of the catego
 ## References
 
 - https://github.com/airutorg/airut - repository, 84 stars, MIT license, description, as of 2026-10-11
-- https://api.github.com/repos/airutorg/airut - exact counters (84 stars, 3 forks, 2 open issues, pushed 2026-10-10, created 2026-02-03)
+- https://api.github.com/repos/airutorg/airut - exact counters (84 stars, 3 forks, 1 open issue, pushed 2026-10-13, created 2026-02-03)
 - https://raw.githubusercontent.com/airutorg/airut/main/README.md - the channel model, sandbox architecture, scheduled tasks, dashboard, CI sandbox action, and the dogfooding claim
-- https://pypi.org/pypi/airut/json - the PyPI package at 0.26.0, "Sandboxed Claude Code over email and Slack"
+- https://pypi.org/pypi/airut/json - the PyPI package at 0.27.0, "Sandboxed Claude Code over email and Slack"
 - https://pypistats.org/api/packages/airut/recent - 287 trailing-month downloads (2026-09-11 to 2026-10-10)
 - https://airut.org - the project site: the message-to-deploy pitch and the surrogate-credential walkthrough
 - https://hn.algolia.com/api/v1/search?query=airut&tags=story - the three self-posted Show HN threads (2, 1, and 2 points, zero comments), the footprint record as of 2026-10-11
