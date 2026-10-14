@@ -33,6 +33,7 @@ Persistent memory for agents: the file conventions, the portable format, the cap
 - [Memvid](memvid/index.md) - Memvid's Apache-2.0 single-file memory engine: documents, embeddings, and indexes packed into one portable .mv2 file, the QR-in-video v1 now deprecated.
 - [MetaClaw](metaclaw/index.md) - the MIT meta-learning layer that evolves OpenClaw-family agents' skills and memory from conversations, dormant since June.
 - [OpenViking](openviking/index.md) - ByteDance's AGPL context database that unifies knowledge, memory, and skills as a viking:// filesystem with layered summaries, 39.8k stars.
+- [PLUR](plur/index.md) - the Apache-2.0 local-first engine giving every wired harness one shared store of plain-text YAML engrams, with auto-injection adapters for eight coding agents.
 - [Screenpipe](screenpipe/index.md) - Negentropy Labs' source-available capture engine (YC S26): a local screen-and-audio timeline agents query over MCP, with paid commercial licensing.
 - [Supermemory](supermemory/index.md) - the benchmark-forward memory API (facts, profiles, and RAG in one engine) with an MIT one-binary local mode and a $19-$399/mo hosted ladder.
 - [TencentDB Agent Memory](tencentdb-agent-memory/index.md) - Tencent's MIT plugin giving OpenClaw and Hermes reversible compression into node_id drill-down Mermaid canvases over a local persona pyramid.
@@ -69,3 +70,4 @@ Its members are compared on shared rows in the [Memory Feature Matrix](memory-fe
 - 2026-10-11 - Added MemMachine.
 - 2026-10-11 - Added TencentDB Agent Memory.
 - 2026-10-11 - Added Emulo.
+- 2026-10-14 - Added PLUR.
