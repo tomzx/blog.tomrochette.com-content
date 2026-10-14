@@ -19,6 +19,7 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 - [Anthropic Claude mathematical research](anthropic-claude-math/index.md) - the Claude Code subagent loop that raised the zeta zero bound to 67.2 percent and formalized Fermat's Last Theorem in 11 days.
 - [Arbor](arbor/index.md) - the RUC NLPIR hypothesis-tree framework where a long-lived coordinator dispatches short-lived executors across git worktrees and only merges gains that clear a margin on held-out data, 1,106 stars as of 2026-10-12.
 - [ARIS](aris/index.md) - wanshuiyin's MIT markdown-skill research loop where the executor drives and a reviewer from a different model family judges every artifact across eight harnesses, 17,367 stars as of 2026-10-13.
+- [AutoContext](autocontext/index.md) - Grey Haven's Apache-2.0 recursive self-improvement harness whose promotion gate keeps only context and training changes that beat the incumbent on matched, replayed trials, 1,308 stars as of 2026-10-14.
 - [AutoResearchClaw](autoresearchclaw/index.md) - the aiming-lab 23-stage idea-to-paper pipeline with multi-agent debate, four-layer citation verification, and seven human-in-the-loop modes, dormant since 2026-08-19, 14,618 stars as of 2026-10-11.
 - [AutoSci](autosci/index.md) - the memory-centric full-lifecycle research platform with SciMem, SciFlow, SciDAG, and SciEvolve, stable on Claude Code with Codex and OpenCode previews, 1,698 stars as of 2026-10-11.
 - [CORAL](coral/index.md) - the Human-Agent Society multi-agent evolution framework where a manager partitions coding agents into grader-isolated worktree islands and shares wins through persistent memory, COLM 2026, 1,063 stars as of 2026-10-11.
@@ -73,3 +74,4 @@ Its members are compared on shared rows in the [Automated Research Feature Matri
 - 2026-10-12 - Added Arbor.
 - 2026-10-12 - Added EvoMap AutoResearch.
 - 2026-10-12 - Added Mole.
+- 2026-10-14 - Added AutoContext.

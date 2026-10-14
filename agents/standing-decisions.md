@@ -80,6 +80,8 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - q#21 (2026-10-11) | code-review | wire the vendor-run, stale kodustech/awesome-ai-code-review list or stay on broad sources
 - q#22 (2026-10-11) | harnesses | if a harnesses list gets wired, is the target stale walkinglabs or active ai-boost (name collision)
 - q#24 (2026-10-12) | task-management | owner-tools exception (disclosed ownership, bar still applied) or the TomzxCode/agentic rejection stands
+- q#25 (2026-10-14) | cross-category | leave the browser-automation family (browser-use and peers) out of scope or open a browser-automation family
+- q#26 (2026-10-14) | automated-research | wire either, both, or neither of the two autoresearch lists (webfuse-com, WecoAI)
 
 ## Re-review triggers
 

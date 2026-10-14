@@ -18,7 +18,9 @@ Where quality control lives in the agent workflow: CI gates, dashboards, machine
 - [Hunk](hunk/index.md) - Modem's MIT review-first terminal diff viewer, one annotated stream for the whole agent changeset, judging nothing itself.
 - [Jevals](jevals/index.md) - OpenLayer's MIT evals-and-guardrails library that swaps the LLM judge for typed Jev decision models, one calibrated request per trace.
 - [Kiln](kiln/index.md) - Chesterfield Laboratories' local-first desktop eval workbench where non-engineers rate outputs and the ratings become judge metrics, fine-tuning sets, and optimization targets.
+- [Kitaru](kitaru/index.md) - ZenML's Apache-2.0 replay-based eval platform: recorded or imported production sessions re-executed against your next change, human-pinned judgments calibrating the evaluators, the catching cohort becoming the CI gate, 308 stars as of 2026-10-14.
 - [Langfuse](langfuse/index.md) - the MIT-core tracing and eval platform, 35.8k stars, inside ClickHouse since January with the proprietary ee/ split as the caution.
+- [MLR-Bench](mlr-bench/index.md) - the NUS-led NeurIPS 2025 D&B benchmark scoring AI research agents over 201 workshop tasks with MLR-Judge, a rubric-based two-model LLM panel validated against expert reviewers, whose headline finding is fabricated results in 8 of 10 coding-agent tasks.
 - [Phoenix](phoenix/index.md) - Arize's OTel-native observability and eval platform, self-hostable under an Elastic license.
 - [Plannotator](plannotator/index.md) - the local review surface that turns your annotations on agent plans and diffs into the agent's next instruction.
 - [PR Lens](pr-lens/index.md) - coldtea's MIT visualizer that draws every pull request as animated architecture and data-flow diagrams in a PR comment, judging nothing itself.
@@ -45,3 +47,5 @@ Its members are compared on shared rows in the [Evaluation and Review Feature Ma
 - 2026-10-10 - Added Verbatim Citation Gate.
 - 2026-10-12 - Added Crit.
 - 2026-10-13 - Added Better Harness.
+- 2026-10-14 - Added Kitaru.
+- 2026-10-14 - Added MLR-Bench.
