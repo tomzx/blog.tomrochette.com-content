@@ -1,7 +1,7 @@
 ---
 title: Oh My Pi
 created: 2026-10-10
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, lsp, fork]
 readability: 3
@@ -20,8 +20,8 @@ The hook is the name of the design: everything your IDE knows, the agent knows.
 
 ## Status
 
-Very active and past its parent in stars: 35,242 stars and 3,822 forks as of 2026-10-13 (GitHub API), on a repository created 2025-12-31 and pushed the day of verification.
-The npm latest is 18.10.3 (published 2026-10-12), and the changelog logs a near-daily train with pull requests numbered past 15,000: 18.9.0 through 18.9.2 landed October 11 (fixes across apply_patch, local-model discovery, and fork spending inheritance), 18.10.0 landed October 12 (a `/fork` that opens a new Tern pane while a turn streams, `omp session pack`, `unpack`, and `moved` for carrying a session with its artifacts to another machine, `omp auth export` and `import` for model sign-ins, and a native owner-only transport for every local IPC endpoint including Windows named pipes), 18.10.1 followed the same day (a per-answer copy button in Tern), and 18.10.2 and 18.10.3 landed that evening (late tool-update frames from background jobs now reach `onDetachedToolUpdate` subscribers instead of being dropped, and a breaking cleanup removing `estimateImageContentTokens()` in favor of `Tokenizer.imageTokens(size, detail)`).
+Very active and past its parent in stars: 35,472 stars and 3,876 forks as of 2026-10-15 (GitHub API), on a repository created 2025-12-31 and pushed the day of verification.
+The npm latest is 18.11.0 (published 2026-10-14), and the changelog logs a near-daily train with pull requests numbered past 15,000: 18.9.0 through 18.9.2 landed October 11 (fixes across apply_patch, local-model discovery, and fork spending inheritance), 18.10.0 landed October 12 (a `/fork` that opens a new Tern pane while a turn streams, `omp session pack`, `unpack`, and `moved` for carrying a session with its artifacts to another machine, `omp auth export` and `import` for model sign-ins, and a native owner-only transport for every local IPC endpoint including Windows named pipes), 18.10.1 followed the same day (a per-answer copy button in Tern), and 18.10.2 and 18.10.3 landed that evening (late tool-update frames from background jobs now reach `onDetachedToolUpdate` subscribers instead of being dropped, and a breaking cleanup removing `estimateImageContentTokens()` in favor of `Tokenizer.imageTokens(size, detail)`).
 Contribution policy loosened from a vouch requirement to temporarily-open PRs while the maintainers evaluate how open contributions go.
 The Hacker News footprint is modest for the star count: a 42-point launch thread on July 21, 2026, and a 35-point "Harness Playbook" thread in September, which reads as adoption spreading through practitioners rather than through tech-media coverage.
 

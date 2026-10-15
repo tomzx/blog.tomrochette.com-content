@@ -1,7 +1,7 @@
 ---
 title: AX
 created: 2026-09-21
-updated: 2026-10-07
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, kubernetes, multi-agent, open-source, google]
 readability: 3
@@ -23,7 +23,7 @@ It runs on top of Agent Substrate (also Apache-2.0), a compute runtime built for
 ## Status
 
 Active and newly prominent: the repo was created 2026-03-30, but its public arrival was the launch HN thread, 664 points as of 2026-09-26 (662 on 2026-09-24, 657 on 2026-09-22, 414 on launch day 2026-09-20), and v0.3.0 shipped the same day.
-About 13.4k stars as of 2026-10-11 (13,427 per the GitHub API), up from 11,652 on 2026-09-26, about 8,000 on 2026-09-22, and 3,940 on 2026-09-21, with the README carrying an explicit warning that core concepts, protocols, and specifications will see major breaking changes before a stable release.
+About 13.6k stars as of 2026-10-15 (13,647 per the GitHub API), up from 11,652 on 2026-09-26, about 8,000 on 2026-09-22, and 3,940 on 2026-09-21, with the README carrying an explicit warning that core concepts, protocols, and specifications will see major breaking changes before a stable release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=google/ax&type=date&theme=dark&legend=top-left" />

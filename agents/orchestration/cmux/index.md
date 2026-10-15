@@ -1,7 +1,7 @@
 ---
 title: cmux
 created: 2026-08-24
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, terminal, parallel-agents, macos]
 readability: 3
@@ -23,7 +23,7 @@ A paid subscription (Pro or Max) adds Cloud VM agents and the iOS app; the CodeR
 ## Status
 
 **Active and remarkably fast.**
-About 28.1k stars and 2.5k forks as of 2026-10-13, created January 28, 2026, with commits landing the day of verification.
+About 28.2k stars and 2.5k forks as of 2026-10-15, created January 28, 2026, with commits landing the day of verification.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=manaflow-ai/cmux&type=date&theme=dark&legend=top-left" />

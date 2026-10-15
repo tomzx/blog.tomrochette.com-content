@@ -11,7 +11,7 @@ readability: 3
 Small fast models handling typed decisions beside the large model: constrained decoding, validate-and-retry libraries, the decision-model wave, and the three benchmarks that measure them.
 
 - [Anthropic structured outputs](anthropic-structured-outputs/index.md) - schema-constrained decoding for Claude responses and tool inputs.
-- [AnyJev](anyjev/index.md) - Nokia Applied Research's training-free readout turning any instruction-tuned LLM into a calibrated decision model with rotation-averaged logits and verified early-exit bounds, with an arXiv report, third-party benchmark coverage, and a fifth-place Decision Index row, 1,242 stars.
+- [AnyJev](anyjev/index.md) - Nokia Applied Research's training-free readout turning any instruction-tuned LLM into a calibrated decision model with rotation-averaged logits and verified early-exit bounds, with an arXiv report, third-party benchmark coverage, and a ninth-place Decision Index row, 1,271 stars.
 - [Atomic Agents](atomic-agents/index.md) - the MIT Python framework assembling agents, tools, and context providers as schema-validated components on Instructor and Pydantic, the validate-and-retry family's framework layer, 6.3k stars.
 - [BAML](baml/index.md) - Boundary's Apache-2.0 typed language for agent code, where LLM calls are functions with schema return types and the error-correcting parser from its structured-output era, 9.4k stars.
 - [CLM](clm/index.md) - the Apache-2.0 contrastive state-action encoder (a Qwen3-8B embedding model plus a 75 MB head) behind the wave's first architectural dissent, whose Jev-parity claims both independent boards answer with near-zero scores, 2.9k stars.
@@ -28,6 +28,7 @@ Small fast models handling typed decisions beside the large model: constrained d
 - [Jevlike](jevlike/index.md) - the community's one-day reverse-engineering of the Jev contract, an MIT option-attention starter, dormant since launch day, its head lifted by CUA-S1.
 - [Kev](kev/index.md) - Jared Palmer's Apache-2.0 decision-model family (0.8B to a full-weights 27B, versioned together as Kev 1.0) speaking the Jev API locally, with the wave's strongest pre-registered eval discipline.
 - [Laya](laya/index.md) - the Apache-2.0 open-weights decision-model family answering typed questions in a single pass, the open rival to Jev's contract with its limits stated on its own model card.
+- [Marvin](marvin/index.md) - Prefect's Apache-2.0 AI-functions toolkit, the validate-and-retry family's smallest API (extract, cast, classify, generate over Pydantic types) with a ControlFlow-derived task-agent-thread layer, twice rebuilt and quiet on releases since March 2026, 6.2k stars.
 - [NanoJev](nanojev/index.md) - the 0.6B game-task replica with the most complete pipeline and the least verification, every benchmark unreplicated.
 - [Nimble](nimble/index.md) - Bespoke Labs' one-day open Jev with the category's only human-labeled head-to-head (Jev wins by 1.2 macro points) and an unlicensed repo.
 - [Ollaya](ollaya/index.md) - the Apache-2.0 local runtime serving twenty-one open decision-model families behind a wire-identical Jev API, with parity checks against each author's own code.
@@ -73,3 +74,4 @@ Its members are compared on shared rows in the [Hybrid Execution Feature Matrix]
 - 2026-10-12 - Added Strands Decider 2B.
 - 2026-10-13 - Added Valen.
 - 2026-10-13 - Added Guardrails.
+- 2026-10-15 - Added Marvin.

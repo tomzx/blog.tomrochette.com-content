@@ -1,7 +1,7 @@
 ---
 title: Emdash
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, open-source, desktop-app]
 readability: 3
@@ -25,7 +25,7 @@ State is local-first in SQLite, and the team kept a reserve pool of worktrees so
 ## Status
 
 Active and fast-moving.
-As of 2026-10-11 the repo shows about 5.9k stars and 626 forks; the site claims over 1M downloads.
+As of 2026-10-15 the repo shows about 6.0k stars (5,988) and 631 forks; the site claims over 1M downloads.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=generalaction/emdash&type=date&theme=dark&legend=top-left" />

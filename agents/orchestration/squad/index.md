@@ -1,7 +1,7 @@
 ---
 title: Squad
 created: 2026-09-29
-updated: 2026-10-07
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, copilot]
 readability: 3
@@ -18,7 +18,7 @@ Squad is Brady Gaster's MIT-licensed CLI that assembles persistent, human-led AI
 
 A CLI (`npm install -g @bradygaster/squad-cli`) whose `squad init` creates a `.squad/` directory holding `team.md`, member files, charters, and routing rules; each member runs in its own context, reads only its own knowledge, and writes back what it learned so the work stays inspectable (README).
 Sessions run inside GitHub Copilot CLI (`copilot --agent squad`), with GitHub authentication wired for issues, PRs, and a workflow the README calls Ralph; a `--preset default` flag gives a configured team instantly.
-The repo sits at 3,249 stars with 502 forks, MIT, created 2026-02-06, TypeScript (GitHub API, as of 2026-10-02).
+The repo sits at 3,282 stars with 507 forks, MIT, created 2026-02-06, TypeScript (GitHub API, as of 2026-10-15).
 It entered this pile from the Awesome Multi-Agent Orchestrators directory's new entries.
 
 ## Status

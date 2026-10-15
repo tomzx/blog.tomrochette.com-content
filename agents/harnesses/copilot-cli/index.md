@@ -1,7 +1,7 @@
 ---
 title: Copilot CLI
 created: 2026-10-05
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, github, microsoft, terminal]
 readability: 3
@@ -29,8 +29,8 @@ Distribution is npm (`@github/copilot`), a Homebrew cask, WinGet, an install scr
 
 **Active and enormous in distribution.**
 Public preview launched September 25, 2025, and general availability followed on February 25, 2026.
-The npm package's latest stable build is 1.0.96 (published October 12, 2026, the promotion of the prerelease train, three days after 1.0.95 published October 9), and it did 6,414,634 downloads in the last month (the API window covering September 12 to October 11, as of 2026-10-13), among the largest npm install bases of any harness in this section.
-The `github/copilot-cli` repository shows 11,249 stars as of 2026-10-13 (GitHub API), and it is a distribution and issues repository, with no open-source license.
+The npm package's latest stable build is 1.0.98 (published October 14, 2026, two days after 1.0.96 on October 12), and it did 6,414,634 downloads in the last month (the API window covering September 12 to October 11, as of 2026-10-13), among the largest npm install bases of any harness in this section.
+The `github/copilot-cli` repository shows 11,252 stars as of 2026-10-15 (GitHub API), and it is a distribution and issues repository, with no open-source license.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/copilot-cli&type=date&theme=dark&legend=top-left" />

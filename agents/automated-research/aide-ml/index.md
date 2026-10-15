@@ -1,7 +1,7 @@
 ---
 title: AIDE ML
 created: 2026-10-11
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, machine-learning-engineering, tree-search, open-source]
 readability: 3
@@ -23,7 +23,7 @@ The repository description notes AIDE is referenced in OpenAI's MLE-bench.
 
 ## Status
 
-Active-adjacent and widely forked: 1,572 stars, 237 forks, created 2024-04-03, last pushed 2026-10-12 (a depth-limit fix in the search loop, its first commit since September 3), as of 2026-10-13.
+Active-adjacent and widely forked: 1,576 stars, 238 forks, created 2024-04-03, last pushed 2026-10-13 (configurable provider models, a feature commit on top of the October 12 depth-limit fix), as of 2026-10-15.
 The Hacker News footprint is nearly absent: the April 2024 launch thread drew 1 point and zero comments, as of 2026-10-11.
 
 <picture>
@@ -76,7 +76,7 @@ Not for production ML engineering: the README itself routes that to the Weco pro
 
 ## References
 
-- https://github.com/WecoAI/aideml - repository, MIT license, 1,568 stars, last push 2026-09-03, MLE-bench reference (as of 2026-10-11)
+- https://github.com/WecoAI/aideml - repository, MIT license, 1,576 stars, last push 2026-10-13, MLE-bench reference (as of 2026-10-15)
 - https://raw.githubusercontent.com/WecoAI/aideml/main/README.md - the three-layer split (algorithm, reference build, Weco product) and the tree-search description (fetched 200, 2026-10-11)
 - https://arxiv.org/abs/2502.13138 - the AIDE paper: authors and the tree-search formulation (fetched 200 via the arXiv API, 2026-10-11)
 - https://pypi.org/pypi/aideml/json - the aideml package at version 0.2.2 (fetched 200, 2026-10-11)

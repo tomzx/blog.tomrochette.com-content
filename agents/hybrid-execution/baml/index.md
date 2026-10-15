@@ -1,7 +1,7 @@
 ---
 title: BAML
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, dsl, validation, agents]
 readability: 3
@@ -25,8 +25,8 @@ Boundary, a Seattle company, also runs Agent Tries BAML, thousands of simulated 
 ## Status
 
 **Large, very active, and mid-pivot: the structured-output library that launched in 2023 is now a language, and the docs churn of that pivot is visible.**
-9,392 stars, 498 forks, and 398 open issues, created 2023-10-06, pushed 2026-10-12, as of 2026-10-11 (GitHub API).
-The `baml-language` release train runs nightlies on a 0.21.1 alpha after 0.21.0 (2026-10-08), and the project is pre-1.0 by its own statement.
+9,408 stars, 498 forks, and 398 open issues, created 2023-10-06, pushed 2026-10-15, as of 2026-10-15 (GitHub API).
+The `baml-language` release train moved to 0.22.2 (2026-10-13) with 0.22.3 nightlies after the 0.21.0 release of 2026-10-08, and the project is pre-1.0 by its own statement.
 The npm runtime moved 1,053,321 downloads in the month ending 2026-10-10, the category's largest distribution after the vendor APIs themselves.
 The community footprint is thinner than the numbers suggest: the 2024 Show HN drew 18 points, a July 2026 thread on the language repositioning drew 8, and the former clients documentation path (docs.boundaryml.com/clients) returns 404 as of 2026-10-11, a casualty of the pivot.
 
@@ -70,6 +70,7 @@ My disagreeable claim: BAML is the strongest bet in this category that the struc
 ## Changes
 
 - 2026-10-11 - Created after the resolution scan flagged it as the structured-output peer of Instructor and Outlines, with the post-hoc parser guarantee and the pivot's documentation churn recorded as the central cautions.
+- 2026-10-15 - The baml-language release train moved from the 0.21.x series to 0.22.2 (2026-10-13) with 0.22.3 nightlies; refreshed stars to 9,408 and the pushed date to 2026-10-15.
 
 ## See also
 
@@ -80,10 +81,10 @@ My disagreeable claim: BAML is the strongest bet in this category that the struc
 
 ## References
 
-- https://github.com/BoundaryML/baml - repository facts: 9,392 stars, 498 forks, Apache-2.0, Rust, created 2023-10-06, pushed 2026-10-12 (GitHub API, as of 2026-10-11)
+- https://github.com/BoundaryML/baml - repository facts: 9,408 stars, 498 forks, Apache-2.0, Rust, created 2023-10-06, pushed 2026-10-15 (GitHub API, as of 2026-10-15)
 - https://raw.githubusercontent.com/BoundaryML/baml/main/README.md - the positioning, runtime types, toolchain list, and install commands (fetched 2026-10-11)
 - https://boundaryml.com/explore.md - the language tour: runtime types, typed errors, green threads, LLM calls as functions, the error-correcting parser, testsets and quorums, the supply-chain statement, and the Agent Tries BAML arena
 - https://boundaryml.com/quickstart - the toolchain walkthrough: brew install, baml init, agent skill install for Claude Code and Codex, LSP and playground
-- https://api.github.com/repos/BoundaryML/baml/releases - baml-language 0.21.0 (2026-10-08) and the nightly train
+- https://api.github.com/repos/BoundaryML/baml/releases - baml-language 0.21.0 (2026-10-08), 0.22.2 (2026-10-13), and the nightly train (fetched 2026-10-15)
 - https://api.npmjs.org/downloads/point/last-month/@boundaryml/baml - 1,053,321 downloads in the month ending 2026-10-10
 - https://hn.algolia.com/api/v1/search?query=BAML%20boundary&tags=story - the footprint scan: an 18-point 2024 Show HN and an 8-point July 2026 repositioning thread

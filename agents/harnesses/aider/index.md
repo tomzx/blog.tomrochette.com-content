@@ -1,7 +1,7 @@
 ---
 title: aider
 created: 2026-08-22
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, pair-programming, open-source]
 readability: 3
@@ -25,7 +25,7 @@ It connects to nearly any LLM, including local models.
 ## Status
 
 **Development stalled; the tool itself still works.**
-About 49.5k stars and 5.0k forks as of 2026-10-11, but the default branch has had no commits since May 22, 2026, and the last tagged release (v0.86.0) dates to August 2025.
+About 49.6k stars and 5.1k forks as of 2026-10-15, but the default branch has had no commits since May 22, 2026, and the last tagged release (v0.86.0) dates to August 2025.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Aider-AI/aider&type=date&theme=dark&legend=top-left" />

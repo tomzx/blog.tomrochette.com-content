@@ -1,7 +1,7 @@
 ---
 title: Qwen Code
 created: 2026-08-24
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, alibaba]
 readability: 3
@@ -26,7 +26,7 @@ It speaks OpenAI, Anthropic, Gemini, and Qwen APIs plus local models via Ollama 
 ## Status
 
 **Active and self-hosting in an unusual sense: the README states the project uses its own agent to file issues, submit PRs, review code, and run tests.**
-The repository shows about 28.4k stars as of 2026-10-11 and was pushed within a day of verification.
+The repository shows about 28.5k stars as of 2026-10-15 and was pushed on the day of verification.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=QwenLM/qwen-code&type=date&theme=dark&legend=top-left" />

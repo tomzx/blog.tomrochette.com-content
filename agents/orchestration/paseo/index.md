@@ -1,7 +1,7 @@
 ---
 title: Paseo
 created: 2026-08-30
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, mobile, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: about 20.7k stars (20,697) as of 2026-10-13, 2.4k forks, and 1,177 open issues and PRs as of 2026-10-11, created 2025-10-13, with more than 5,300 commits on main.
+Young and fast: about 20.9k stars (20,928) as of 2026-10-15, 2.5k forks, and 1,291 open issues and PRs, created 2025-10-13, with more than 5,300 commits on main (GitHub API, as of 2026-10-15).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getpaseo/paseo&type=date&theme=dark&legend=top-left" />

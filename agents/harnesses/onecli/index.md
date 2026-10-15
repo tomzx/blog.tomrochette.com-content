@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -24,8 +24,8 @@ The Launch HN title calls it an "OSS sandboxed agent harness for teams", and tha
 
 ## Status
 
-Very active: v2.12.0 shipped October 9, 2026 with a tunnel lane for browsers, Runs, and Network tabs in the Activity view, one day after the v2.11 series (v2.11.0 added a Helm chart for Kubernetes self-hosting, agent webhooks, and evals with run history, with two same-day publish-pipeline patches), one day after v2.10.0 (a Pylon integration, setup-guide links on every connect surface, and a two-image agent sandbox), one day after the v2.8.0/v2.9.0 pair (v2.8.0 added Google Drive folder permissions, Navan and Timeless apps, grouped Slack approvals, OAuth refresh hardening, and an egress guard; v2.9.0 added the Circleback integration, Navan paste cleaning, and agent API-docs hints), following v2.7.0 on October 3 and a v2.3-2.4 series five months ago, with v2.5.0 on September 3 and v2.6.0 five days after it.
-3,567 stars and 251 forks as of 2026-10-11, on a repository created March 8, 2026.
+Very active: v2.14.0 shipped October 14, 2026 with missing-OAuth-permission warnings, Drive "Shared with me", and Slack on Kubernetes, hours after v2.13.0 the same day (send now, live replies, workspace timezone, a desktop browser surface, and shared connections), following v2.12.0 on October 9 with a tunnel lane for browsers, Runs, and Network tabs in the Activity view, one day after the v2.11 series (v2.11.0 added a Helm chart for Kubernetes self-hosting, agent webhooks, and evals with run history, with two same-day publish-pipeline patches), one day after v2.10.0 (a Pylon integration, setup-guide links on every connect surface, and a two-image agent sandbox), one day after the v2.8.0/v2.9.0 pair (v2.8.0 added Google Drive folder permissions, Navan and Timeless apps, grouped Slack approvals, OAuth refresh hardening, and an egress guard; v2.9.0 added the Circleback integration, Navan paste cleaning, and agent API-docs hints), following v2.7.0 on October 3 and a v2.3-2.4 series five months ago, with v2.5.0 on September 3 and v2.6.0 five days after it.
+3,571 stars and 253 forks as of 2026-10-15, on a repository created March 8, 2026.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=onecli/onecli&type=date&theme=dark&legend=top-left" />

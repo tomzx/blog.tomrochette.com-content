@@ -1,7 +1,7 @@
 ---
 title: OpenRig
 created: 2026-10-02
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, control-plane, cross-harness, tmux, persistent-agents]
 readability: 3
@@ -25,7 +25,7 @@ It ships no model and holds no API keys: it drives the Claude Code and Codex log
 
 ## Status
 
-Active and early: about 7.3k stars (7,329) as of 2026-10-13, up from about 7.0k on 2026-10-12 and 5.0k on 2026-10-07, created 2026-04-01, 24 contributors, 167 open issues and pull requests, and v0.6.10 published 2026-10-12 one day after v0.6.9, with npm `@openrig/cli` last verified at 0.6.8 on 2026-10-10 after 55 versions since 2026-04-06.
+Active and early: about 7.5k stars (7,480) as of 2026-10-15, up from about 7.0k on 2026-10-12 and 5.0k on 2026-10-07, created 2026-04-01, 24 contributors, 167 open issues and pull requests, and v0.6.10 published 2026-10-12 one day after v0.6.9, with npm `@openrig/cli` last verified at 0.6.8 on 2026-10-10 after 55 versions since 2026-04-06.
 v0.6.10 is a community fix release: 38 of its 56 changes came from ten outside contributors, setup can now be told which agent harnesses you use, a resumed Claude seat whose session ID changed proves and restores, and upgrading requires a daemon restart that runs two no-op-data database migrations (release notes).
 
 <picture>

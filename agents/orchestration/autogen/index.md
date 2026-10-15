@@ -1,7 +1,7 @@
 ---
 title: AutoGen
 created: 2026-09-27
-updated: 2026-10-12
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, microsoft]
 readability: 3
@@ -18,7 +18,7 @@ AutoGen is Microsoft's Python framework for applications where multiple agents, 
 
 A framework where AssistantAgent and UserProxyAgent converse, execute code, and iterate, with the v0.4+ architecture splitting an AgentChat high-level API from a Core event-driven runtime and shipping extensions per model provider.
 It is Python (3.10+), installable as `autogen-agentchat` plus `autogen-ext`, with AutoGen Studio as the no-code GUI on top.
-The repo sits at 61,253 stars with about 9.3k forks, created 2023-08-18 (GitHub API, as of 2026-10-02).
+The repo sits at 61,411 stars with about 9.3k forks, created 2023-08-18 (GitHub API, as of 2026-10-15).
 The published packages remain MIT (autogen-agentchat 0.7.5 on PyPI), while GitHub's license detection on the repo root now reports CC-BY-4.0, a quirk worth knowing before you vendor anything.
 Its research lineage is real: the framework came out of Microsoft Research and Pennsylvania State University work on multi-agent conversations.
 

@@ -1,7 +1,7 @@
 ---
 title: Agno
 created: 2026-09-29
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -22,7 +22,7 @@ The repo sits at 42,559 stars with 6,100 forks, Apache-2.0, Python 3.9+ (GitHub 
 
 ## Status
 
-Active: last push 2026-10-13, latest release v3.1.3 on 2026-10-12, `agno` 3.1.3 on PyPI, 42,696 stars (GitHub API, PyPI, as of 2026-10-13).
+Active: last push 2026-10-15, latest release v3.1.3 on 2026-10-12, `agno` 3.1.3 on PyPI, 42,739 stars (GitHub API, PyPI, as of 2026-10-15).
 v3.1.3 made ClaudeAgent sessions durable across replicas: the Claude SDK session id is stored on the Agno session and, with a transcript-capable database, every transcript line is mirrored into an `agno_transcripts` table so a later turn on another machine resumes from the database instead of a local file.
 v3.1.2 added conversation compaction (`Agent(compaction=True)` folds older turns into a summary backed by a `CompactionRecord` table, so removing the record restores the full conversation), a Codex external-agent adapter beside the Claude Agent SDK, LangGraph, DSPy, and Antigravity adapters, a HyDE query transformer for knowledge retrieval, and a shared browser-origin policy for AgentOS.
 v3.1.0 added role-based access control to AgentOS (a role store, scope policies, and an audit log) and a database-backed AgentOS filesystem, with a breaking re-key of the filesystem table that requires a manual upgrade script.

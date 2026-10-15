@@ -1,7 +1,7 @@
 ---
 title: OpenResearch
 created: 2026-10-05
-updated: 2026-10-12
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, autoresearch, multi-agent, alphaXiv]
 readability: 3
@@ -24,7 +24,7 @@ The agent-facing surface is first-class: `orx install-skills` installs a skill i
 
 ## Status
 
-Active and fast-moving: 6,937 stars, 451 forks, 98 open issues and pull requests, created 2026-06-07, last pushed 2026-10-12, with v0.2.18 (October 9) still the latest release, as of 2026-10-13.
+Active and fast-moving: 7,234 stars, 478 forks, 111 open issues and pull requests, created 2026-06-07, last pushed 2026-10-15, with v0.2.18 (October 9) still the latest release, as of 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alphaXiv/OpenResearch&type=date&theme=dark&legend=top-left" />
@@ -33,6 +33,7 @@ Active and fast-moving: 6,937 stars, 451 forks, 98 open issues and pull requests
 </picture>
 
 Traction is GitHub-native rather than press-driven: Trendshift records the repository reaching #1 on GitHub Trending on September 11, then #1 Repository of the Day and #2 Repository of the Week in week 38, with 33 contributors.
+The pattern continues on its own: the star count rose about 300 in the two days after October 13 with no new Hacker News story and no press, as of 2026-10-15.
 **The Hacker News footprint is nearly absent, and that is itself the signal: a 6-point June story and a 1-point September 30 story with zero comments, as of 2026-10-05, so adoption is spreading through GitHub without any critical public debate yet.**
 
 ## Strengths
@@ -83,7 +84,7 @@ Not for anyone who needs a supported product, a security-reviewed remote deploym
 ## References
 
 - https://github.com/alphaXiv/OpenResearch - README: harness support, the autoresearch loop, worktrees, experiment tree, run-anywhere list, telemetry policy, local-first store, and the remote no-auth admission (fetched 200, 2026-10-05)
-- https://api.github.com/repos/alphaXiv/OpenResearch - stars, forks, open issues, created and push dates, and the MIT license (fetched 200, 2026-10-11)
+- https://api.github.com/repos/alphaXiv/OpenResearch - stars, forks, open issues, created and push dates, and the MIT license (fetched 200, 2026-10-15)
 - https://api.github.com/repos/alphaXiv/OpenResearch/releases - v0.2.18 (2026-10-09) still latest and the release cadence across late September (fetched 200, 2026-10-11)
 - https://openresearch.sh/ - positioning ("autoresearch on your machine"), the alphaXiv project attribution, and the compute marketplace (fetched 200, 2026-10-05)
 - https://openresearch.sh/docs - the compute marketplace overview: provider comparison, provisioning, and the orx CLI (fetched 200, 2026-10-05)

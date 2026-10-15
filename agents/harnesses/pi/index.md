@@ -1,7 +1,7 @@
 ---
 title: Pi
 created: 2026-08-30
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, byok, extensibility]
 readability: 3
@@ -25,7 +25,7 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 ## Status
 
-Active and ascending: 114,732 stars, 14,573 forks, 321 open issues and PRs as of 2026-10-13.
+Active and ascending: 115,267 stars, 14,681 forks, 335 open issues and PRs as of 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=earendil-works/pi&type=date&theme=dark&legend=top-left" />

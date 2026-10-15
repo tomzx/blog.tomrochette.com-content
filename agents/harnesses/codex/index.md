@@ -1,7 +1,7 @@
 ---
 title: Codex
 created: 2026-08-22
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, openai, developer-tools]
 readability: 3
@@ -24,7 +24,7 @@ Default models are the GPT-6 family (Astra, Sol, and Luna) rolling out across pl
 ## Status
 
 **Active.**
-`openai/codex` shows about 128.7k stars, about 20.2k forks, and about 12.1k commits under Apache-2.0 as of 2026-10-12.
+`openai/codex` shows about 129.3k stars, about 20.3k forks, and about 12.3k commits under Apache-2.0 as of 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openai/codex&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: "Harness Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, harnesses, coding-agents]
 readability: 3
@@ -75,7 +75,7 @@ The three columns this run adds split the same way again: gptme reuses your Chat
 **Omnigent is the meta-harness bet:** it does not carry a model into your repository at all, it wraps the harnesses already in this table (Claude Code, Codex, Cursor, OpenCode, Pi) behind one uniform API with policies, sandboxes, and shared sessions, which makes its feature cells descriptions of the wrapper while the wrapped columns answer for the model.
 **Nanocoder is the governance bet:** a sponsor-funded community collective rather than a company or a foundation, with the widest documented local-engine list in the table and a skills-plus-hooks surface that mirrors the commercial harnesses, against an adoption record (2.5k stars, near-zero discussion) that leaves its ownership thesis untested and a license paper trail (MIT on npm, no LICENSE file in the repository) that embedders must check themselves.
 **Mini-SWE-agent is the baseline bet:** the SWE-bench team's shell loop with no subagents, MCP, rules files, or IDE surface by design, which makes it the reference point the other columns are measured against rather than a daily driver, backed by 11.6 million PyPI downloads a month of mostly batch-evaluation traffic.
-**Oh My Pi is the fork bet:** Pi's frozen-core philosophy inverted, with LSP and a real debugger wired into the agent loop, eight rules formats inherited natively, and a star count (34.8k) that has passed its parent, paid for with a permanently diverging codebase and the subscription terms-of-service question its launch thread raised.
+**Oh My Pi is the fork bet:** Pi's frozen-core philosophy inverted, with LSP and a real debugger wired into the agent loop, eight rules formats inherited natively, and a star count (35.5k as of 2026-10-15) that has passed its parent, paid for with a permanently diverging codebase and the subscription terms-of-service question its launch thread raised.
 **Atomic Agent is the small-model bet:** the only column that maintains its own llama.cpp fork (TurboQuant quantization and speculative decoding) and engineers the loop around what small models survive, grammar-constrained tool calls, a cache-stable prompt prefix, a bounded tail, and externalized state, with Fusion as its subagent story and a vendor-run GAIA benchmark whose artifacts are published but unreplicated.
 **gptme is the seniority bet:** the oldest codebase in the table (first commit March 2023, eleven days before aider), the only column whose largest contributor is its own autonomous agent, and the one whose persistent-agent layer (git-as-brain workspaces, cross-harness memory in Claude Code's format) treats the harness as a long-lived coworker rather than a session, against the thinnest independent-discussion record of any four-year-old member.
 **AutoDev is the one-codebase bet:** a Kotlin Multiplatform agent engine compiled to IDEA, VS Code, CLI, web, desktop, and mobile targets, with five top-level agents and nine subagents, still alpha-only at Xiuper 3.0, carried by a maintainer who wrote about 98 percent of the code, and searchable under a name Microsoft's research framework owns.

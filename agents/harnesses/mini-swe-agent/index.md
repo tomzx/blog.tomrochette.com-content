@@ -1,7 +1,7 @@
 ---
 title: Mini-SWE-agent
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, research, swe-bench, minimalism]
 readability: 3
@@ -21,9 +21,9 @@ This is version 2, a rewrite documented in a migration guide from the v1 that fi
 
 ## Status
 
-Active and heavily used, mostly out of sight: 8,411 stars, pushed 2026-10-06, on a repository created 2025-06-28 (GitHub API, as of 2026-10-12), with v2.4.6 (2026-07-23) still the latest release (verified 2026-10-12).
+Active and heavily used, mostly out of sight: 8,529 stars, pushed 2026-10-12, on a repository created 2025-06-28 (GitHub API, as of 2026-10-15), with v2.4.6 (2026-07-23) still the latest release (verified 2026-10-15).
 PyPI counted 11,605,679 downloads in the last month as of 2026-10-12, which is batch-evaluation traffic, not desktop installs.
-The parent `SWE-agent` repository (20,526 stars, last release v1.1.0 in May 2025, default branch last pushed 2026-07-16) carries a README notice saying most development effort has moved to mini-swe-agent and recommending it going forward, so the lineage has formally superseded its ancestor.
+The parent `SWE-agent` repository (20,565 stars, last release v1.1.0 in May 2025, default branch last pushed 2026-07-16) carries a README notice saying most development effort has moved to mini-swe-agent and recommending it going forward, so the lineage has formally superseded its ancestor.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=SWE-agent/mini-swe-agent&type=date&theme=dark&legend=top-left" />

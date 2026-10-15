@@ -1,7 +1,7 @@
 ---
 title: Junie
 created: 2026-08-22
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, jetbrains, byok]
 readability: 3
@@ -27,7 +27,7 @@ BYOK covers Anthropic, OpenAI, Google, xAI, OpenRouter, Copilot, and local model
 
 **Active.**
 Junie started as an IDE agent in January 2025 (53.6% on SWE-bench Verified at announcement), went GA in April 2025, and the LLM-agnostic CLI followed into beta and beyond.
-The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows 475 stars as of 2026-10-11.
+The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows 478 stars as of 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=JetBrains/junie&type=date&theme=dark&legend=top-left" />

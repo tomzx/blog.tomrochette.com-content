@@ -1,7 +1,7 @@
 ---
 title: Archon
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflow-engine, worktrees]
 readability: 3
@@ -23,7 +23,7 @@ Setup runs through Claude Code itself (the guided wizard is a Claude Code sessio
 
 ## Status
 
-Active: created 2025-02-07, 23,661 stars, release v0.11.1 published 2026-09-25, as of 2026-10-11.
+Active: created 2025-02-07, 23,687 stars, release v0.11.1 published 2026-09-25, as of 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=coleam00/Archon&type=date&theme=dark&legend=top-left" />

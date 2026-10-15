@@ -1,7 +1,7 @@
 ---
 title: Outlines
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, structured-outputs, constrained-decoding, open-source, llm=glm-5.3-flash]
 readability: 3
@@ -25,7 +25,7 @@ It began at Normal Computing (Brandon Willard and Remi Louf) and is maintained b
 ## Status
 
 **Active, with an asterisk on where its own engine still runs.**
-The repository shows about 15.9k stars and 1,325 commits as of 2026-10-06, and the docs claim adoption by the major serving frameworks and by companies from Amazon to Shopify (self-reported where not public).
+The repository shows about 15.9k stars and 1,325 commits as of 2026-10-15, and the docs claim adoption by the major serving frameworks and by companies from Amazon to Shopify (self-reported where not public).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dottxt-ai/outlines&type=date&theme=dark&legend=top-left" />
@@ -80,10 +80,10 @@ Not for teams that only ever call OpenAI or Anthropic and never serve their own 
 
 ## References
 
-- https://github.com/dottxt-ai/outlines - repo: stars, license, output types, integrations, .txt stewardship (as of 2026-09-25)
-- https://dottxt-ai.github.io/outlines/latest/ - docs: features, pluggable backends, Normal Computing origin, Dottxt API
-- https://arxiv.org/abs/2307.09702 - the 2023 paper introducing the FSM-vocabulary index behind guided generation
-- https://docs.vllm.ai/en/latest/features/structured_outputs.html - vLLM backends (xgrammar, guidance) and removal of guided_* fields in v0.12.0
-- https://blog.mlc.ai/2024/11/22/achieving-efficient-flexible-portable-structured-generation-with-xgrammar - competitor benchmarks vs Outlines and engine integration history
-- https://github.com/mlc-ai/xgrammar - adoption timeline and XGrammar-2 release in May 2026
-- https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent context on constrained-output failure modes (looping until max_tokens)
+- https://github.com/dottxt-ai/outlines - repo: stars, license, output types, integrations, .txt stewardship (as of 2026-10-15)
+- https://dottxt-ai.github.io/outlines/latest/ - docs: features, pluggable backends, Normal Computing origin, Dottxt API (fetched 200, 2026-10-15)
+- https://arxiv.org/abs/2307.09702 - the 2023 paper introducing the FSM-vocabulary index behind guided generation (fetched 200, 2026-10-15)
+- https://docs.vllm.ai/en/latest/features/structured_outputs.html - vLLM backends (xgrammar, guidance) and removal of guided_* fields in v0.12.0 (fetched 200, 2026-10-15)
+- https://blog.mlc.ai/2024/11/22/achieving-efficient-flexible-portable-structured-generation-with-xgrammar - competitor benchmarks vs Outlines and engine integration history (fetched 200, 2026-10-15)
+- https://github.com/mlc-ai/xgrammar - adoption timeline and XGrammar-2 release in May 2026 (fetched 200, 2026-10-15)
+- https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent context on constrained-output failure modes (looping until max_tokens) (fetched 200, 2026-10-15)

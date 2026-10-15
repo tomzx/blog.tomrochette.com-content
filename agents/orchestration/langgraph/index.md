@@ -1,7 +1,7 @@
 ---
 title: LangGraph
 created: 2026-10-06
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-framework, graph-runtime, durable-execution, python, typescript]
 readability: 3
@@ -23,7 +23,7 @@ LangGraph shows up in eight other section articles (this category's feature matr
 
 ## Status
 
-Active and enormous: 43,170 stars, 7,337 forks, and 100+ contributors as of 2026-10-13, with the repository created in August 2023.
+Active and enormous: 43,293 stars, 7,364 forks, and 100+ contributors as of 2026-10-15, with the repository created in August 2023.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/langgraph&type=date&theme=dark&legend=top-left" />

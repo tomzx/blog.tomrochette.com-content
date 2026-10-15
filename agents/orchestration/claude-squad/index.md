@@ -1,7 +1,7 @@
 ---
 title: Claude Squad
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, orchestration, git-worktrees, terminal]
 readability: 3
@@ -26,7 +26,7 @@ Prerequisites are just tmux and the GitHub CLI.
 ## Status
 
 Active but slow-burning.
-The repository was created in March 2025, was last pushed to on 2026-08-20, and shows 222 commits, 8,588 stars, and 626 forks as of 2026-10-11.
+The repository was created in March 2025, was last pushed to on 2026-08-20, and shows 222 commits, 8,607 stars, and 625 forks as of 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=smtg-ai/claude-squad&type=date&theme=dark&legend=top-left" />

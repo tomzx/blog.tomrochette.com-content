@@ -1,7 +1,7 @@
 ---
 title: Kapso
 created: 2026-10-11
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, optimization, program-synthesis, self-improving]
 readability: 3
@@ -24,7 +24,7 @@ Leeroopedia, the project's hosted ML knowledge wiki, connects as an MCP server d
 
 ## Status
 
-Active and accelerating: 123 stars, 15 forks, created 2025-12-07, last pushed 2026-10-12, with six releases on October 11 alone taking the train from v0.6.3 to v0.7.5 (the October 12 pushes are Leeroopedia documentation commits), as of 2026-10-13.
+Active and accelerating: 125 stars, 16 forks, created 2025-12-07, last pushed 2026-10-13, with six releases on October 11 taking the train from v0.6.3 to v0.7.5 and v0.7.6 (October 13) following with a bank-connect probe fix, as of 2026-10-15.
 The v0.7.0 release added cost-aware candidate selection, an estimator prices each finalized candidate before it runs, refusals and measured costs are recorded as campaign events, and the campaign stops when the next estimate would exhaust its budget, plus a `vertex_claude_code` agent that drives Claude Code on Vertex AI open-weight models; the checkpoint schema moved to version 3, so campaigns started before 0.7.0 cannot resume.
 
 <picture>
@@ -34,7 +34,7 @@ The v0.7.0 release added cost-aware candidate selection, an estimator prices eac
 </picture>
 
 The claimed results are concrete: #1 open-source on MLE-Bench, top ranking on ALE-Bench (1909 Elo against ALE Agent's 1879), RelBench wins over KumoRFM-v2 on Stanford's official leaderboard, and the IOAI 2026 AI Model Track, where the project reports a 536.07 total above all 471 human contestants and a Grand Master Trophy among the 14 founding AI participants, with IOAI's own account of the inaugural track published September 29, 2026.
-**The community footprint is nearly absent: a Hacker News search for the project returns zero stories as of 2026-10-11, the 123 stars are small for the claims, and the PyPI package named `kapso` is an unrelated WhatsApp tool that shadows this one in installs, a collision the README itself warns about.**
+**The community footprint is nearly absent: a Hacker News search for the project returns zero stories as of 2026-10-11, the 125 stars are small for the claims, and the PyPI package named `kapso` is an unrelated WhatsApp tool that shadows this one in installs, a collision the README itself warns about.**
 
 ## Strengths
 
@@ -83,10 +83,10 @@ Not for anyone needing independently audited headline numbers or a large user co
 
 ## References
 
-- https://github.com/Leeroo-AI/kapso - repository, MIT license, benchmark claims, and release train (as of 2026-10-11)
+- https://github.com/Leeroo-AI/kapso - repository, MIT license, benchmark claims, and release train (as of 2026-10-15)
 - https://raw.githubusercontent.com/Leeroo-AI/kapso/main/README.md - the four pillars, CLI requirements, PyPI collision warning, and the IOAI and RelBench claims (fetched 200, 2026-10-11)
 - https://arxiv.org/abs/2601.21526 - the technical report: git-native experimentation engine, knowledge system, and cognitive memory layer (fetched 200, 2026-10-11)
-- https://pypi.org/pypi/leeroo-kapso/json - package version 0.7.5, MIT license, and Python requirement (fetched 200, 2026-10-12)
+- https://pypi.org/pypi/leeroo-kapso/json - package version 0.7.6, MIT license, and Python requirement (fetched 200, 2026-10-15)
 - https://ioai-official.org/what-happens-when-autonomous-ai-takes-on-the-same-tasks-as-the-worlds-top-young-ai-talents/ - IOAI's own account of the inaugural AI Model Track, September 29, 2026 (fetched 200, 2026-10-11)
 - https://star-project.stanford.edu/relbench/leaderboard/ - the official RelBench leaderboard and its self-reported-results disclaimer (fetched 200, 2026-10-11)
 - https://raw.githubusercontent.com/Leeroo-AI/kapso/main/benchmarks/ioai2026/README.md - the per-task IOAI numbers behind the 536.07 total and Grand Master Trophy (fetched 200, 2026-10-11)

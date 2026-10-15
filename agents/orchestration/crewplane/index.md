@@ -1,7 +1,7 @@
 ---
 title: Crewplane
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, workflows, cli, markdown]
 readability: 3
@@ -24,7 +24,7 @@ Optional features include a tmux dashboard, Git-backed workspace isolation, revi
 
 ## Status
 
-Very early but shipping: about 43 stars and 6 forks as of 2026-10-11, created 2026-06-24, and active development through v0.3.7 on 2026-10-10 with default-branch commits through October 10.
+Very early but shipping: about 43 stars and 6 forks as of 2026-10-15, created 2026-06-24, and active development through v0.3.7 on 2026-10-10 with default-branch commits through October 14.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=crewplaneai/crewplane&type=date&theme=dark&legend=top-left" />

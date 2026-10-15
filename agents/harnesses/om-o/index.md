@@ -1,7 +1,7 @@
 ---
 title: OmO
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, cli, pi-fork]
 readability: 3
@@ -22,7 +22,7 @@ The README is sponsor-supported (OpenGateway, an OpenAI-compatible gateway, is t
 
 ## Status
 
-Massively starred and fast-moving: 69,986 stars, 5,750 forks, and 1,272 open issues as of 2026-10-13, pushed the day of this check, with release v5.1.32 published 2026-10-13.
+Massively starred and fast-moving: 70,047 stars, 5,763 forks, and 1,345 open issues and pull requests as of 2026-10-15, pushed the day of this check, with release v5.1.33 published 2026-10-13.
 **The governance record is the caution: the repository moved from an organization that now 404s, the license is a custom per-portion document GitHub reports as NOASSERTION rather than any standard license, and the README names an AI assistant as the maintainer beside its sponsor, so the usual signals a 70,000-star project carries are absent or inverted.**
 Independent discussion exists but is thin for the scale: two 4-point Hacker News threads (May and September 2026) and no sustained third-party coverage found.
 

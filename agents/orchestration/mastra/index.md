@@ -1,7 +1,7 @@
 ---
 title: Mastra
 created: 2026-09-29
-updated: 2026-10-08
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, typescript]
 readability: 3
@@ -18,11 +18,11 @@ Mastra is the TypeScript agent framework built by the team behind Gatsby, now a 
 
 A TypeScript framework providing agents, workflows, tools, memory, evals, and tracing, with the Mastra platform (launched 2026-04-09) adding Studio for evaluation and observability, Server for deployment, and Memory Gateway for cross-framework agent memory.
 It was founded by Sam Bhagwat, Shane Thomas, and Abhi Aiyer, the Gatsby leadership, went through YC, and launched in early 2025.
-The repo sits at 28,407 stars with 2,879 forks, created 2024-08-06; the core is Apache-2.0 with `ee/` directories under a commercial license (GitHub API, LICENSE, as of 2026-09-29).
+The repo sits at 28,829 stars with 2,984 forks, created 2024-08-06; the core is Apache-2.0 with `ee/` directories under a commercial license (GitHub API, LICENSE, as of 2026-10-15).
 
 ## Status
 
-Active and shipping fast: last push 2026-10-11, `@mastra/core` 1.75.0 published to npm 2026-10-07 (GitHub API, npm, as of 2026-10-11), one release after 1.74.0 (2026-10-01).
+Active and shipping fast: last push 2026-10-15, `@mastra/core` 1.77.0 published to npm 2026-10-14 (GitHub API, npm, as of 2026-10-15), two releases after 1.75.0 (2026-10-07).
 npm recorded 8,345,899 downloads of `@mastra/core` in the month ending 2026-10-09, the largest install base in this note set (npm API, as of 2026-10-11, after 7,250,377 for the month ending 2026-10-04).
 Funding: $13M seed announced 2025-10-08 from 120+ investors including YC, Paul Graham, Gradient, and Guillermo Rauch, then a $22M Series A led by Spark Capital on 2026-04-09, totaling $35M (mastra.ai blog).
 On 2026-06-16 Mastra disclosed a supply-chain attack that compromised multiple npm packages, with an incident report and fixes.

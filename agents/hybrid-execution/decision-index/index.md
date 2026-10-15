@@ -1,7 +1,7 @@
 ---
 title: Decision Index
 created: 2026-10-07
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, benchmarking, model-evaluation, leaderboard]
 readability: 3
@@ -10,9 +10,9 @@ audience_notes: >
   Assumes you know what a chance-corrected score and a held-out test split are, and have read this category's Jev and JevBench notes.
 ---
 
-The Decision Index is an independent leaderboard for typed decision engines: a frozen public suite of 110,201 requests over 42 benchmarks that anyone can rebuild from pinned sources with an MIT kit, combined with unpublished private tests into a Full score that ranks 149 configurations with hosted Jev eighth.
+The Decision Index is an independent leaderboard for typed decision engines: a frozen public suite of 110,201 requests over 42 benchmarks that anyone can rebuild from pinned sources with an MIT kit, combined with unpublished private tests into a Full score that ranks 166 configurations with hosted Jev twelfth.
 
-**The category's evidence layer just doubled: JevBench measures decision models deeply on 1,500 decisions per system, the Decision Index measures them broadly across 110,201 requests in five areas, and on the 0.3.2 board's 2026-10-12 regeneration seven systems sit above hosted Jev (eighth at 60.11), led by vLLM-SR d3 at 66.26, after two 27B-class systems (Perplexity's open-weights Decider v1.1 and Fastino's not-yet-open GLiDE) had been the first to pass it on any independent reading.**
+**The category's evidence layer just doubled: JevBench measures decision models deeply on 1,500 decisions per system, the Decision Index measures them broadly across 110,201 requests in five areas, and on the 0.3.2 board's 2026-10-14 regeneration eleven systems sit above hosted Jev (twelfth at 60.11), led by vLLM-SR d3 at 66.26 with linne-oak 1.0 the new second at 65.61, after two 27B-class systems (Perplexity's open-weights Decider v1.1 and Fastino's not-yet-open GLiDE) had been the first to pass it on any independent reading.**
 
 ## What it is
 
@@ -24,9 +24,9 @@ Editions 0.1 through 0.3 shipped between 2026-09-22 and 2026-10-06, 0.3 rebuildi
 
 ## Status
 
-Active and current, with a near-zero independent discussion footprint, as of 2026-10-13.
-The board was relabeled 0.3.2 and regenerated again later on 2026-10-12 (from the morning's 0.3.1 build): 149 configurations, jev-1.13.0 as the reference row, a 28-entrant vision board beside the text suite, and a reasoning board announced for 0.3.x.
-That regeneration moved the top only slightly and widened the band above Jev's reference by one: vLLM-SR d3 (a 27B) leads at 66.26, Mapika's Decider 31B (NVFP4) holds second at 64.62, Darwin-27B-ZTC fourth at 62.46, Perplexity's Decider v1.1 third at its unchanged 62.75, an AnyJev L0 readout over Gemma-4-31B fifth at 60.22, new entrant Sieve 27B seventh at 60.17, and hosted Jev eighth at its unchanged 60.11, where the 0.3.1 build had it ninth of 144.
+Active and current, with a near-zero independent discussion footprint, as of 2026-10-15.
+The board was relabeled 0.3.2 and regenerated twice more, on 2026-10-12 and again on 2026-10-14 (from the morning's 0.3.1 build): 166 configurations, jev-1.13.0 as the reference row, a 34-entrant vision board beside the text suite, and a reasoning board announced for 0.3.x.
+The 2026-10-14 regeneration widened the band above Jev's reference from seven to eleven: vLLM-SR d3 (a 27B) still leads at 66.26, new entrant linne-oak 1.0 (a 31B) took second at 65.61, Mapika's Decider 31B (NVFP4) holds third at its unchanged 64.62, Sieve's new 31B row fourth at 63.81 (Sieve 27B eleventh at its unchanged 60.17), Bobcat 1.3 (31B) fifth at 62.83, Perplexity's Decider v1.1 sixth at its unchanged 62.75, Darwin-27B-ZTC seventh at 62.46, MORJ 1.0.1 (Gemma 4 31B) eighth at 60.96, and hosted Jev twelfth at its unchanged 60.11, where the 0.3.1 build had it ninth of 144.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=apolinario/decision-index&type=date&theme=dark&legend=top-left" />
@@ -34,8 +34,8 @@ That regeneration moved the top only slightly and widened the band above Jev's r
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=apolinario/decision-index&type=date&theme=dark&legend=top-left" />
 </picture>
 
-The kit repository shows 49 stars and 83 forks as of 2026-10-13 (pushed 2026-10-12), and the board's HN submissions sit between 1 and 6 points, so unlike JevBench's contested 154-point thread this one has barely been stress-tested in public.
-On the 0.3.2 board Perplexity's Decider v1.1 ranks third at 62.75 (a 27B full fine-tune whose weights Perplexity published Apache-2.0 on the Hub on 2026-10-05, 25 likes as of 2026-10-07), Fastino's GLiDE no-thinking (28B) sixth at 60.21 with its weights promised but not shipped, hosted Jev eighth at 60.11, Torchcast Decision 27B ninth at 59.91, and Kev 27B thirteenth at its unchanged 58.78; the Space shows 592 likes as of 2026-10-12.
+The kit repository shows 52 stars and 88 forks as of 2026-10-15 (pushed 2026-10-14), and the board's HN submissions sit between 1 and 6 points, so unlike JevBench's contested 154-point thread this one has barely been stress-tested in public.
+On the 0.3.2 board Perplexity's Decider v1.1 ranks sixth at 62.75 (a 27B full fine-tune whose weights Perplexity published Apache-2.0 on the Hub on 2026-10-05, 25 likes as of 2026-10-07), Fastino's GLiDE no-thinking (28B) tenth at 60.21 with its weights promised but not shipped, hosted Jev twelfth at 60.11, Torchcast Decision 27B thirteenth at its unchanged 59.91, and Kev 27B eighteenth at its unchanged 58.78; the Space shows 667 likes as of 2026-10-15.
 Bespoke Labs exercised the submission flow the day its v3 shipped: Bespoke-Nimble-9B-v3 carries a full published 0.2.1 run (56.88) with the raw results in its own dataset, the first author-submitted run of this suite I can find.
 
 ## Strengths
@@ -48,8 +48,8 @@ Bespoke Labs exercised the submission flow the day its v3 shipped: Bespoke-Nimbl
 ## Cautions
 
 - **The headline is one maintainer's private measurement: 80 percent of the Full score is unpublished and unrunnable by anyone else, so the number at the top of the board is the part you cannot check, and even Decider v1.1's Apache-2.0 weights do not let you re-run its 62.75.**
-- The systems above Jev are barely documented: Decider v1.1 shipped its weights only on 2026-10-05 with no training recipe, GLiDE's weights are promised but not shipped, and neither team has published how its board run was served.
-- The two boards disagree violently about the same checkpoints, and the disagreement is now measured in both directions: Kev 27B is thirteenth here after the 0.3.2 regeneration (58.78) and composites at 5.77 on JevBench's v1.6.1 scale, and that benchmark's October 7 addenda measured the systems around this board's top 20 on its own sealed pool, where the previous leader Perplexity Decider v1.1 scores 20.62 against its 62.75 here while decider-chat on Gemma-4-31B keeps a Jev-class 66.08 (as of 2026-10-10), which says more about protocol sensitivity than about either scoreboard.
+- The systems above Jev are barely documented: Decider v1.1 shipped its weights only on 2026-10-05 with no training recipe, GLiDE's weights are promised but not shipped, the 2026-10-14 entrants above it (linne-oak 1.0, Bobcat 1.3, MORJ 1.0.1, Sieve's 31B) carry no weights or recipes I could find, and no team has published how its board run was served.
+- The two boards disagree violently about the same checkpoints, and the disagreement is now measured in both directions: Kev 27B is eighteenth here after the 2026-10-14 regeneration (58.78) and composites at 5.77 on JevBench's v1.6.1 scale, and that benchmark's October 7 addenda measured the systems around this board's top 20 on its own sealed pool, where the previous leader Perplexity Decider v1.1 scores 20.62 against its 62.75 here while decider-chat on Gemma-4-31B keeps a Jev-class 66.08 (as of 2026-10-10), which says more about protocol sensitivity than about either scoreboard.
 - The Space's own Jev reproductions tracker states the boundary plainly: no open artifact has Jev's weights, the RLCD algorithm, or its calibration, and the best open scorers reach about 90 percent agreement while confidence does not reliably flag their errors.
 
 ## Pricing
@@ -67,7 +67,7 @@ Running the public suite costs your own GPU time (or one Hugging Face Job at tha
 
 **Recommended as the breadth scoreboard and as the reproducible public suite to re-run any checkpoint against, read with the private-80-percent caveat attached to every Full score.**
 Not for per-decision cost and calibration comparisons, which is JevBench's axis, and not as a verdict on Jev: a third-place rank whose 80 percent is unpublished is a reading, not a conclusion.
-The disagreeable claim I will defend: the most important number on this board is not Jev's rank but the spread between the boards about identical checkpoints (Kev 27B, thirteenth here after the 0.3.2 regeneration, near the bottom of JevBench), because it means the category still has no measurement strong enough to settle its central argument, and everyone citing a board is citing a protocol.
+The disagreeable claim I will defend: the most important number on this board is not Jev's rank but the spread between the boards about identical checkpoints (Kev 27B, eighteenth here after the 2026-10-14 regeneration, near the bottom of JevBench), because it means the category still has no measurement strong enough to settle its central argument, and everyone citing a board is citing a protocol.
 
 ## Changes
 
@@ -76,6 +76,7 @@ The disagreeable claim I will defend: the most important number on this board is
 - 2026-10-10 - The 0.3 board was relabeled 0.3.1 and regenerated 2026-10-10 with three more configurations (117, the top seven rows and scores unchanged), JevBench's October 7 addenda cross-measured the systems around this board's top 20 on its own sealed pool (Perplexity's Decider v1.1 at 20.62 there against 62.75 here, Kev 27B at 5.77 against 58.78), and the kit moved to 36 stars and 72 forks.
 - 2026-10-12 - The 0.3.1 board regenerated 2026-10-12 with 27 more configurations (144) and a rebuilt top: vLLM-SR d3 the new leader at 65.65 ahead of Mapika's new Decider 31B (65.56), Darwin-27B-ZTC (63.21), Perplexity's Decider v1.1 (fourth, 62.75 unchanged), and an AnyJev L0 readout over Gemma-4-31B fifth at 61.27, pushing hosted Jev from third to ninth at its unchanged 60.11 and Kev 27B from sixth to seventeenth at 58.78; the vision board grew to 28 entrants and the kit to 41 stars and 81 forks.
 - 2026-10-13 - The board was relabeled 0.3.2 and regenerated again later on 2026-10-12 with five more configurations (149): new entrant Sieve 27B took seventh at 60.17, narrowing the band above hosted Jev to seven and moving it from ninth to eighth at its unchanged 60.11, while vLLM-SR d3 was rescored to 66.26, Decider 31B to 64.62, Darwin-27B-ZTC to 62.46, and AnyJev L0 to 60.22, Kev 27B rose from seventeenth to thirteenth at its unchanged 58.78, and the kit moved to 49 stars and 83 forks (pushed 2026-10-12).
+- 2026-10-15 - The 0.3.2 board regenerated 2026-10-14 with seventeen more configurations (166): new entrant linne-oak 1.0 (31B) took second at 65.61, Sieve added a 31B row in fourth at 63.81 (Sieve 27B to eleventh at its unchanged 60.17), Bobcat 1.3 (31B) entered fifth at 62.83, and MORJ 1.0.1 (Gemma 4 31B) eighth at 60.96, widening the band above hosted Jev from seven to eleven and moving it from eighth to twelfth at its unchanged 60.11, while Kev 27B fell from thirteenth to eighteenth at its unchanged 58.78; refreshed the kit to 52 stars and 88 forks (pushed 2026-10-14), the Space to 667 likes, and the vision board to 34 entrants.
 
 ## See also
 
@@ -88,11 +89,11 @@ The disagreeable claim I will defend: the most important number on this board is
 ## References
 
 - https://huggingface.co/spaces/multimodalart/jev-decision-index - the board (client-rendered Space; the data files below carry its content)
-- https://huggingface.co/api/spaces/multimodalart/jev-decision-index - Hub API: created 2026-09-17, 592 likes, static SDK (as of 2026-10-12)
+- https://huggingface.co/api/spaces/multimodalart/jev-decision-index - Hub API: created 2026-09-17, 667 likes, static SDK (as of 2026-10-15)
 - https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/index.json - the 0.3.2 board data (generated 2026-10-12, fetched 2026-10-13): per-model scores, the 42-benchmark suite header
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the 0.3.2 Full-score components (generated 2026-10-12T13:25:35Z, label 0.3.2, fetched 2026-10-13): the 20/50/30 weights, per-model ranks across 149 rows including the Jev reference, and the vision board's 28 entrants
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the 0.3.2 Full-score components (generated 2026-10-14T09:16:12Z, label 0.3.2, fetched 2026-10-15): the 20/50/30 weights, per-model ranks across 166 rows including the Jev reference, and the vision board's 34 entrants
 - https://raw.githubusercontent.com/apolinario/decision-index/main/README.md - the kit: editions, scoring, submission flow, parity tests, the latency gate, licensing
-- https://api.github.com/repos/apolinario/decision-index - kit repository: MIT, created 2026-09-22, 49 stars, 83 forks, pushed 2026-10-12 (as of 2026-10-13)
+- https://api.github.com/repos/apolinario/decision-index - kit repository: MIT, created 2026-09-22, 52 stars, 88 forks, pushed 2026-10-14 (as of 2026-10-15)
 - https://raw.githubusercontent.com/apolinario/decision-index/main/docs/suite.md - the frozen suite: pinned sources, the GSM8K rebuild, subset and exclusion rules
 - https://huggingface.co/bespokelabs/Bespoke-Nimble-9B-v3 - the first author-submitted 0.2.1 run (56.88) and the CC BY-NC 4.0 license on it
 - https://huggingface.co/perplexity-ai/pplx-decider-v1.1-27b - the board leader's weights: Apache-2.0, published 2026-10-05, 25 likes (as of 2026-10-07)

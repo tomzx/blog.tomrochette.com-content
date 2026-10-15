@@ -1,7 +1,7 @@
 ---
 title: Decider
 created: 2026-10-11
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
 readability: 3
@@ -22,7 +22,7 @@ The README leads with game demos (Tetris, Breakout, Pong, Snake, Connect Four at
 
 ## Status
 
-Active and scoreboard-native: the repository was created 2026-09-16 and pushed 2026-10-12, with 1,135 stars as of 2026-10-13 (GitHub API).
+Active and scoreboard-native: the repository was created 2026-09-16 and pushed 2026-10-12, with 1,143 stars as of 2026-10-15 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Mapika/decider&type=date&theme=dark&legend=top-left" />
@@ -31,12 +31,12 @@ Active and scoreboard-native: the repository was created 2026-09-16 and pushed 2
 </picture>
 
 The family's scoreboard record is the deepest of any entrant's: decider-4b v2 took JevBench's top spot at 64.13 on the sealed v1.4.2 board (2026-09-26), the first system to end Jev's first-place run, and on the current v1.6 protocol decider-12b v2 ranks fourth among open weights at 70.88 with decider chat on Gemma-4-31B at 66.08, while decider-4b v2 collapsed to 41.24 and decider-2b to 7.67 (JevBench aggregate, as of 2026-10-12).
-On the Decision Index 0.3.2 board the family now spans the whole range: the Decider 31B (NVFP4) holds second of 149 at 64.62 (rescored from 65.56 on the 0.3.1 build) after the board's two 2026-10-12 regenerations, while decider-4b scores 40.33, decider-35b-nvfp4 48.53, decider chat on Gemma-4-31B 57.62, and decider-2b 25.8, against Jev's 60.11.
+On the Decision Index 0.3.2 board the family now spans the whole range: the Decider 31B (NVFP4) holds third of 166 at 64.62 (second on the 2026-10-12 build at 64.62, itself rescored from 65.56 on the 0.3.1 build) after the board's 2026-10-12 and 10-14 regenerations, with new entrant linne-oak 1.0 (65.61) now between it and the leader, while decider-4b scores 40.33, decider-35b-nvfp4 48.53, decider chat on Gemma-4-31B 57.62, and decider-2b 25.8, against Jev's 60.11.
 The third-party local-jev-bench suite (measured 2026-10-10) calls Decider-4B a strong generalist, level with Kev-4B and Kev-9B on transfer and ahead of Winnow on transfer and BANKING77, and Ollaya packages decider:2b and decider:4b with author calibration.
 
 ## Strengths
 
-- **The checkpoint range is the widest in the wave, 2B to 35B-A3B, so one family covers laptop CPU to data-centre GPU budgets with the same wire format, and the 31B entry now holds second place on the Decision Index.**
+- **The checkpoint range is the widest in the wave, 2B to 35B-A3B, so one family covers laptop CPU to data-centre GPU budgets with the same wire format, and the 31B entry holds third place on the Decision Index.**
 - The scoreboard record is long enough to show its own fragility: first on one protocol, fourth-and-collapsing on the next, which is more decision-useful information than a single good row.
 - Per-question distributions ship for every question type (not just argmax), and the local-jev-bench third-party reading places the 4B at the top group on transfer, the one axis most replicas fail.
 - Pip, server, and GGUF paths make it the easiest family to try across runtimes, and Ollaya's packaging inherits the author's calibration.
@@ -71,6 +71,7 @@ The disagreeable claim I will defend: decider-4b v2's fall from first to 41.24 i
 - 2026-10-11 - Added the star history chart.
 - 2026-10-12 - Recorded the Decision Index 0.3.1 regeneration (144 configurations) where a new Decider 31B (NVFP4) took second at 65.56, the family's first top-two board position, beside the unchanged lower rows; refreshed stars to 1,128.
 - 2026-10-13 - The 0.3.2 relabel and second same-day regeneration (149 configurations) rescored the 31B's second place to 64.62 with the lower rows unchanged; refreshed stars to 1,135 and the pushed date to 2026-10-12.
+- 2026-10-15 - The Decision Index's 2026-10-14 regeneration (166 configurations) moved the 31B from second to third at its unchanged 64.62 as new entrant linne-oak 1.0 (65.61) passed it, with the family's lower rows unchanged; refreshed stars to 1,143.
 
 ## See also
 
@@ -82,10 +83,10 @@ The disagreeable claim I will defend: decider-4b v2's fall from first to 41.24 i
 
 ## References
 
-- https://github.com/Mapika/decider - repository: Apache-2.0, created 2026-09-16, 1,135 stars, pushed 2026-10-12, the family design, pip and server surfaces, and the game demos (GitHub API and README, as of 2026-10-13)
+- https://github.com/Mapika/decider - repository: Apache-2.0, created 2026-09-16, 1,143 stars, pushed 2026-10-12, the family design, pip and server surfaces, and the game demos (GitHub API and README, as of 2026-10-15)
 - https://huggingface.co/Mapika/decider-2b - the 2B checkpoint: Apache-2.0, created 2026-09-16, 331,214 downloads and 105 likes (Hugging Face API, as of 2026-10-11)
 - https://huggingface.co/Mapika/decider-12b - the 12B checkpoint: Apache-2.0, created 2026-09-29 (Hugging Face API, as of 2026-10-11)
 - https://benchmarkheaven.com/api/jevbench/v1.6.1 - the JevBench aggregate: decider-12b v2 at 70.88 (fourth open), decider-4b v2 at 41.24, decider-2b at 7.67, decider-35b-a3b at 24.77 (fetched 2026-10-11)
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.3.2 rows for the family, including the 31B holding second of 149 at 64.62 (generated 2026-10-12, fetched 2026-10-13)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.3.2 rows for the family, including the 31B holding third of 166 at 64.62 (generated 2026-10-14, fetched 2026-10-15)
 - https://raw.githubusercontent.com/tak-bro/local-jev-bench/HEAD/README.md - the third-party Apple Silicon reading of Decider-4B and Decider-2B (measured 2026-10-10, fetched 2026-10-11)
 - https://ollaya.dev/ - Ollaya's packaged decider:2b and decider:4b rows in the accuracy and comparison tables (fetched 2026-10-11)

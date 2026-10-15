@@ -1,7 +1,7 @@
 ---
 title: Superset
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, ide, worktrees]
 readability: 3
@@ -24,7 +24,7 @@ Elastic License 2.0 (source-available, not OSI open source), by Superset Inc., t
 
 ## Status
 
-Fast and funded: about 15.1k stars, 1.3k forks, 923 open issues and PRs as of 2026-10-11, created 2025-10-21, more than 4,290 commits, latest desktop release v1.37.0 on 2026-10-08, following v1.36.0 on 2026-10-06 (PR state refresh after a merge from the PR pane, an automations failure badge linked to failed runs, and cloud workspace archive-and-rename held to its own org), following v1.35.0 on 2026-10-02 (a visible host-connection banner, fixed cloud-wake copy, and a task_imports table), v1.34.0 the same day (per-screen headers that keep window controls in the collapsed sidebar band, and a privacy disclosure of Google user data handling) and v1.33.0 on 2026-09-30 (shared cloud-workspace records with presence, comments, labels, and mentions, plus Claude Sonnet 5.5 in model pickers), following v1.32.0 on 2026-09-29, which let coworkers set up their own cloud environment from the CLI, and v1.31.0 on 2026-09-28, after the v1.30.x line (v1.30.0 on 2026-09-19, which added explicit local workspaces on shared checkouts and clearer automation-creation options, v1.30.1 on September 21, and v1.30.2 on September 22).
+Fast and funded: about 15.2k stars (15,206), 1.4k forks, and 966 open issues and PRs as of 2026-10-15, created 2025-10-21, more than 4,290 commits, latest desktop release desktop-v1.38.0 on 2026-10-14 (cli-v1.38.0 the same day), following v1.37.0 on 2026-10-08, following v1.36.0 on 2026-10-06 (PR state refresh after a merge from the PR pane, an automations failure badge linked to failed runs, and cloud workspace archive-and-rename held to its own org), following v1.35.0 on 2026-10-02 (a visible host-connection banner, fixed cloud-wake copy, and a task_imports table), v1.34.0 the same day (per-screen headers that keep window controls in the collapsed sidebar band, and a privacy disclosure of Google user data handling) and v1.33.0 on 2026-09-30 (shared cloud-workspace records with presence, comments, labels, and mentions, plus Claude Sonnet 5.5 in model pickers), following v1.32.0 on 2026-09-29, which let coworkers set up their own cloud environment from the CLI, and v1.31.0 on 2026-09-28, after the v1.30.x line (v1.30.0 on 2026-09-19, which added explicit local workspaces on shared checkouts and clearer automation-creation options, v1.30.1 on September 21, and v1.30.2 on September 22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superset-sh/superset&type=date&theme=dark&legend=top-left" />

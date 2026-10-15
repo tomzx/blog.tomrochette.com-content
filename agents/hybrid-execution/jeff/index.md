@@ -1,7 +1,7 @@
 ---
 title: Jeff
 created: 2026-09-29
-updated: 2026-10-07
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
 readability: 3
@@ -37,7 +37,7 @@ Latency is the headline: about 22 ms per decision on an RTX PRO 6000, 28 ms on a
 The self-run benchmarks cover 4,599 questions from five public suites (BBH, Financial PhraseBank, JudgeBench, RAGTruth, WinoGrande) plus JevBench's public hard tier scored separately: Jeff-2B posts 83.1 overall against Jev's published 83.0 and AutoJev-27B's 84.9, winning Financial PhraseBank (96.3 versus 77.0) and RAGTruth (88.9 versus 77.3) while staying well below Jev on BBH (68.0 versus 94.3), JudgeBench, WinoGrande, and the JevBench hard tier (53.3 versus 73.3).
 The v1.3 Jeff-Code claim is the agent-facing headline: paired-equal quality (62.4 percent against 62.8 percent pass rate over 1,242 paired tasks) at 47 percent less task time, with no clear speed-up on Terminal-Bench 2.0 or SkillsBench, all self-run.
 Zero-shot games back the generality claim: Jeff-0.8B took 57.0 of 98 Pac-Man pellets against 11.2 for random moves, and Doom kills matching a hand-coded rule bot.
-None of it has been checked by a third party, and JevBench's board does not yet list any Jeff checkpoint.
+None of it has been checked by a third party, and JevBench's board, which listed no Jeff checkpoint when this note was written, now carries Jeff-1.0-Large at official rank ten of 162 (composite 68.6, capability 81.5 second behind Quyet-1.0-Large, as of 2026-10-15), so the family's accuracy claim has a first outside reading even though the board's methodology remains the contested one-runner design.
 
 ## Strengths
 
@@ -77,6 +77,7 @@ The disagreeable claim I will defend: matching Jev's published overall while con
 - 2026-10-06 - Recorded the v1.3 restructure (adapter-first base, fifteen adapters with GGUF exports, Jeff-Code's paired-equal-quality-at-47-percent-less-time claim, the v1.2 checkpoints' move to a jeff-legacy Hugging Face org) and refreshed traction (about 1,400 stars, 575-point thread, pushed 2026-10-05).
 - 2026-10-06 - Corrected the age claim (created 2026-09-28, eight days old, not three weeks).
 - 2026-10-07 - Added the firelex/jeff star history chart to the Status section.
+- 2026-10-15 - JevBench's board, which listed no Jeff checkpoint at the last verification, now carries Jeff-1.0-Large at official rank ten of 162 (composite 68.6, capability 81.5 second), the family's first third-party board reading; the note's no-board claim corrected.
 
 ## See also
 
@@ -93,3 +94,4 @@ The disagreeable claim I will defend: matching Jev's published overall while con
 - https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B - the 0.8B checkpoint: Apache-2.0, created 2026-09-28, now redirecting to the jeff-legacy org, about 2,260 downloads as of 2026-10-07
 - https://news.ycombinator.com/item?id=49883844 - the launch thread (575 points as of 2026-10-06, 2026-09-28), including the negative reports from classification use outside the benchmark suites
 - https://github.com/denis-pplx/autojev - the parent recipe: MIT, 120 stars, fine-tunes Qwen3.8-27B for Jev-style decisions
+- https://benchmarkheaven.com/jev-models - the live board whose 2026-10-14 refresh carries Jeff-1.0-Large at official rank ten of 162, composite 68.6 (capability 81.5, second), the family's first third-party board row (fetched 2026-10-15)

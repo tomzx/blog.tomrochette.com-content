@@ -19,6 +19,7 @@ Profiles of the people and websites steering this domain as it evolves, and the 
 - [Boris Cherny](boris-cherny/index.md) - the creator of Claude Code at Anthropic, a primary source on how the dominant harness is built, published in rare interviews and posts rather than a feed.
 - [Caleb Writes Code](caleb-writes-code/index.md) - the video explainer that turns model releases and agentic-engineering concepts into same-week, illustrated shorts.
 - [Chip Huyen](chip-huyen/index.md) - the systems-design author of the most-read O'Reilly AI book of 2025.
+- [Cole Medin](cole-medin/index.md) - the build-your-own-agent video educator who ships the Archon workflow engine in public and teaches agent construction around it.
 - [Dax Raad](dax-raad/index.md) - the SST and OpenCode creator at Anomaly, a terse harness author whose record lives in repos, HN defenses, and scattered X posts rather than publications.
 - [Dex Horthy](dex-horthy/index.md) - the HumanLayer founder whose 12-Factor Agents repo and weekly show codified owning your context window, now funneling into a paid coding-agent workspace.
 - [Geoffrey Huntley](geoffrey-huntley/index.md) - the Ralph-loop methodologist who reduces agentic coding to a bash while-loop plus prompt discipline and then forecasts what that does to the industry.
@@ -79,3 +80,4 @@ Its members are compared on shared rows in the [People and Publications Feature 
 - 2026-09-24 - Added Ray Amjad.
 - 2026-10-04 - Added Birgitta Böckeler.
 - 2026-10-07 - Added Lars Faye.
+- 2026-10-15 - Added Cole Medin.

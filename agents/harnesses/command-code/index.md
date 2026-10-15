@@ -1,7 +1,7 @@
 ---
 title: Command Code
 created: 2026-10-05
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-models, personalization, closed-source]
 readability: 3
@@ -25,8 +25,8 @@ The company raised a $5 million seed led by Tom Preston-Werner, with Amjad Masad
 ## Status
 
 **Active and fast-growing in distribution, with an evidence base that is mostly the vendor's own.**
-The npm package's latest build is 1.81.0 (published October 12, 2026, after 1.80.0 earlier the same day and 1.79.2 on October 8), the site's changelog counts 431 releases (401 CLI), and the package did 218,801 downloads in the last month (the API window covering September 12 to October 11, as of 2026-10-13).
-The `CommandCodeAI/command-code` repository has 4,121 stars as of 2026-10-13 (GitHub API) but hosts issues only: no source, no license, the client is closed.
+The npm package's latest build is 1.82.3 (published October 15, 2026, after the 1.81.0/1.80.0 pair on October 12 and 1.79.2 on October 8), the site's changelog counts 431 releases (401 CLI), and the package did 218,801 downloads in the last month (the API window covering September 12 to October 11, as of 2026-10-13).
+The `CommandCodeAI/command-code` repository has 4,132 stars as of 2026-10-15 (GitHub API) but hosts issues only: no source, no license, the client is closed.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=CommandCodeAI/command-code&type=date&theme=dark&legend=top-left" />

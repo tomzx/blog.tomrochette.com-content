@@ -1,7 +1,7 @@
 ---
 title: AgentBox
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, sandboxing, docker, cloud, checkpoints]
 readability: 3
@@ -23,7 +23,7 @@ MIT, solo-maintained by Marco D'Alia, distributed as the npm package @madarco/ag
 
 ## Status
 
-Active and early: 526 stars and 51 forks as of 2026-10-10 on a repository created 2026-05-12, last push 2026-10-07, npm latest 0.33.0, and the tray app at 0.4.3 (2026-09-21).
+Active and early: 538 stars and 51 forks as of 2026-10-15 on a repository created 2026-05-12, last push 2026-10-07, npm latest 0.33.0, and the tray app at 0.4.3 (2026-09-21).
 The Show HN thread from 2026-09-16, posted by the author, drew 4 points and one comment, so the independent footprint outside GitHub and npm is close to zero; the docs site at agent-box.sh returned 503 on both fetch attempts during this check.
 
 <picture>

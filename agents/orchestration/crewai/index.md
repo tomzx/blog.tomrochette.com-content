@@ -1,7 +1,7 @@
 ---
 title: CrewAI
 created: 2026-09-29
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you have used at least one agent framework and know what a role-based crew looks like.
 ---
 
-CrewAI is the MIT-licensed Python framework for orchestrating role-playing autonomous AI agents, and at 59,273 stars it is now the most-starred multi-agent framework of the post-AutoGen generation (GitHub API, as of 2026-10-02).
+CrewAI is the MIT-licensed Python framework for orchestrating role-playing autonomous AI agents, and at 59,709 stars it is now the most-starred multi-agent framework of the post-AutoGen generation (GitHub API, as of 2026-10-15).
 
 **CrewAI is the rare framework whose community outgrew its launch wave: it kept shipping while AutoGen froze, and a real enterprise platform now funds the open source.**
 
@@ -19,11 +19,11 @@ CrewAI is the MIT-licensed Python framework for orchestrating role-playing auton
 A Python (3.10 to 3.13) framework where you compose agents with roles, goals, and backstories into crews that run tasks sequentially or in parallel.
 It is built by CrewAI Inc, a San Francisco and Brazil company founded by João Moura, with the open source framework launched in late 2023.
 The platform side adds a visual editor, an AI copilot, GitHub integration, and enterprise governance (SSO, RBAC, PII redaction).
-The repo sits at 59,273 stars with 8,620 forks, MIT licensed, created 2023-10-27 (GitHub API, as of 2026-10-02).
+The repo sits at 59,709 stars with 8,729 forks, MIT licensed, created 2023-10-27 (GitHub API, as of 2026-10-15).
 
 ## Status
 
-Active and heavily maintained: last push 2026-10-10, latest release 1.15.27 on 2026-10-09, and `crewai` 1.15.27 on PyPI (GitHub API, PyPI, as of 2026-10-10), four releases after 1.15.23 (2026-09-28).
+Active and heavily maintained: last push 2026-10-15, latest release 1.15.28 on 2026-10-14, and `crewai` 1.15.28 on PyPI (GitHub API, PyPI, as of 2026-10-15), five releases after 1.15.23 (2026-09-28).
 The company raised $18M across seed and Series A in October 2024, led by Insight Partners and boldstart ventures, with Andrew Ng and HubSpot co-founder Dharmesh Shah as angels (SiliconANGLE).
 Company claims include 65 percent of the Fortune 500 using the platform (the pricing page as of 2026-10-11, up from roughly half at the September baseline) and 10 million+ agents executed monthly; I could not independently verify either number.
 

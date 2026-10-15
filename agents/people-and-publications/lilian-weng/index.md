@@ -1,7 +1,7 @@
 ---
 title: Lilian Weng (Lil'Log)
 created: 2026-08-29
-updated: 2026-09-22
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, research, agents, reference]
 readability: 3
@@ -22,7 +22,7 @@ The famous [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/20
 
 ## Status
 
-Active, though at a low and variable frequency as of 2026-09-22.
+Active, though at a low and variable frequency as of 2026-10-15.
 The most recent post, "Harness Engineering for Self-Improvement" (2026-07-04), is directly on-topic for this section, discussing recursive self-improvement and the harnesses that let a model improve its own pipeline.
 Two posts have landed so far in 2026, "Scaling Laws, Carefully" (2026-06-24) and the harness post, so the cadence stays at a few long surveys per year.
 The blog moved to the lilianweng.github.io repo; the older lilianweng/lil-log repo is marked deprecated.

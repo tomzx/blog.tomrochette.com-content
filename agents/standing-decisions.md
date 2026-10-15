@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-10-15
 status: finished
 tags: [agents]
 readability: 0
@@ -93,6 +93,7 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-08-30 | cross-category | concord and huzzah reopen only on new independent coverage | closest below-bar calls of the 2026-08-30 candidate pile
 - 2026-10-07 (ruled 2026-09-21) | cross-category | coverage-triggered holds reopen on independent coverage | thruwire/foreman, magpie, golive-skill, traycer, brooks-lint
 - 2026-09-25 | hybrid-execution | MoJev reopens on independent traction | uncategorized at 29 stars, self-published
+- 2026-10-15 | hybrid-execution | TypeChat reopens on a first tagged release or npm publication | 2026-10-15 re-confirmed rejection (zero releases ever), but the 10-13 push added three named TypeScript-team maintainer commits and a Programs blog post
 - 2026-09-25 | trackers-and-leaderboards | bestvaluemodel reopens on sustained operation and a license | one-day-old derivative of member Artificial Analysis
 - 2026-09-25 | trackers-and-leaderboards | llm-list.com reopens on independent coverage | fully derivative of models.dev, OpenRouter, Arena, Artificial Analysis, and Hugging Face
 - 2026-09-27 | harnesses | drawgent reopens on a primary mirror | license and stars unverifiable from tangled.org-only hosting

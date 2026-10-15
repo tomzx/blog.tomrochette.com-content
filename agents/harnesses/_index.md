@@ -23,7 +23,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Command Code](command-code/index.md) - the ex-Langbase closed harness whose taste-1 model learns your conventions, credit plans from $1 a month built on open models.
 - [Copilot CLI](copilot-cli/index.md) - GitHub's proprietary terminal agent included in every Copilot plan, first-party GitHub.com reach, preview sandboxes, multi-model credits.
 - [Crush](crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
-- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 247.8k stars as of 2026-10-12, MIT, prerelease-only at dsh-v0.2.1-alpha.2.
+- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 250.0k stars as of 2026-10-15, MIT, prerelease-only at dsh-v0.2.1-alpha.3.
 - [Exo](exo/index.md) - the MIT self-modification bet, a harness the agent can rewrite at runtime, cheapest measured harness at $1.05 per task.
 - [fx](fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
@@ -39,7 +39,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [MiMo Code](mimo-code/index.md) - Xiaomi's MIT OpenCode fork, a terminal agent built around checkpointed memory and goal-verified long-horizon runs, priced on cheap MiMo tokens.
 - [Mini-SWE-agent](mini-swe-agent/index.md) - the SWE-bench team's roughly-100-line Python baseline harness, 11.6 million PyPI downloads a month, the project its own parent repository now supersedes SWE-agent with.
 - [Nanocoder](nanocoder/index.md) - the Nano Collective's community-built local-first agent, MIT via npm with the widest documented local-engine list, funded by sponsors instead of a company.
-- [Oh My Pi](oh-my-pi/index.md) - Stencil Labs' batteries-included Pi fork with LSP and a real debugger wired into the loop, 35.2k stars past its frozen-core parent.
+- [Oh My Pi](oh-my-pi/index.md) - Stencil Labs' batteries-included Pi fork with LSP and a real debugger wired into the loop, 35.5k stars past its frozen-core parent.
 - [Omnigent](omnigent/index.md) - Databricks' Apache-2.0 meta-harness wrapping Claude Code, Codex, Cursor, OpenCode, Pi, and custom YAML agents behind one API, with policies, sandboxes, and live session sharing.
 - [OmO](om-o/index.md) - the source-available 70k-star terminal agent on its senpi Pi fork (memory, CodeMode, ultracode, Herdr DAG side pane), the scale-versus-trust test case with a custom per-portion license and an AI-persona maintainer.
 - [OneCLI](onecli/index.md) - the YC S26 Apache-2.0 team harness where a credential gateway injects secrets per request, so agents never hold them.

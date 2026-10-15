@@ -1,7 +1,7 @@
 ---
 title: Von
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, cpu-inference]
 readability: 3
@@ -30,7 +30,7 @@ Active and community-scale: the repository was created 2026-09-18 and pushed 202
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=wfzyx/von&type=date&legend=top-left" />
 </picture>
 
-The scoreboard readings are humbling: von-1.3 scores 8.17 on the Decision Index 0.3.1 board against Jev's 60.11, and Von does not carry a JevBench composite row.
+The scoreboard readings are humbling: von-1.3 scores 8.17, rank 151 of 166, on the Decision Index 0.3.2 board against Jev's 60.11, and Von does not carry a JevBench composite row.
 The third-party local-jev-bench suite (measured 2026-10-05) states the model card's own boundary in its findings: English-only, 15 percent on a Korean set, near the bottom of its accuracy tables on every set but the small English one, at 32 to 411 ms first-call p50; Ollaya's table scores von at 0.447 on typed decisions with 8,192-token states at 23 ms.
 
 ## Strengths
@@ -68,6 +68,7 @@ The disagreeable claim I will defend: Von's near-bottom accuracy and six-figure 
 
 - 2026-10-11 - Created from the entrant scan (awesome-jev cross-check), accepted on the CPU-first niche (880 stars, 103k checkpoint downloads) with the near-bottom third-party accuracy readings recorded as the governing caution.
 - 2026-10-11 - Added the star history chart.
+- 2026-10-15 - The Decision Index citation moved from the stale 0.3.1 label to the current 0.3.2 board at the unchanged 8.17, now rank 151 of 166.
 
 ## See also
 
@@ -81,6 +82,6 @@ The disagreeable claim I will defend: Von's near-bottom accuracy and six-figure 
 - https://github.com/wfzyx/von - repository: Apache-2.0, created 2026-09-18, 880 stars, pushed 2026-10-08, the 395M ModernBERT design, SDK and Docker surfaces, and the runtime matrix (GitHub API and README, as of 2026-10-11)
 - https://huggingface.co/wfzyx/von - the checkpoint: Apache-2.0, created 2026-09-19, 103,556 downloads and 57 likes, training data and benchmark record on the card (Hugging Face API, as of 2026-10-11)
 - https://pypi.org/project/von-sdk/ - the Python SDK, version 1.3.7 uploaded 2026-10-02 (fetched 2026-10-11)
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.3.1 row scoring von-1.3 at 8.17 against Jev's 60.11 (generated 2026-10-10, fetched 2026-10-11)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.3.2 row scoring von-1.3 at 8.17, rank 151 of 166, against Jev's 60.11 (generated 2026-10-14, fetched 2026-10-15; the score unchanged since the 0.3.1 build)
 - https://raw.githubusercontent.com/tak-bro/local-jev-bench/HEAD/README.md - the third-party Apple Silicon reading: English-only, 32 to 411 ms first-call p50, near the bottom of the accuracy tables (measured 2026-10-05, fetched 2026-10-11)
 - https://ollaya.dev/ - Ollaya's packaged von row: 0.447 on typed decisions at 23 ms with 8,192-token states (fetched 2026-10-11)

@@ -1,7 +1,7 @@
 ---
 title: Ollaya
 created: 2026-10-06
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, local-inference, model-hub]
 readability: 3
@@ -23,8 +23,8 @@ It runs on ONNX Runtime over the CPU or an NVIDIA GPU (CUDA 13 or 12, Vulkan), w
 
 ## Status
 
-**Twenty days old, beta, and already the wave's default front door.**
-The repository was created 2026-09-23 and shows 1,301 stars and 79 forks as of 2026-10-13, pushed 2026-10-13.
+**Twenty-two days old, beta, and already the wave's default front door.**
+The repository was created 2026-09-23 and shows 1,313 stars and 79 forks as of 2026-10-15, pushed 2026-10-14.
 The release train moved fast after the launch measurements: v0.9.0 (2026-10-02) packaged Cloudflare's Clef and a CPU fallback for GGUF models, v0.10.0 (2026-10-05) added Hugging Face mirror pulls and a DGX Spark CUDA pack, v0.11.0 (2026-10-06) added Decima's three small multilingual models and image reading for Winnow 12B, v0.12.0 (2026-10-06) shipped Vulkan-on-Windows GGUF support, v0.12.1 (2026-10-09) added a new Credence family (a MiCA refinement of Winnow-E4B), and v0.13.0 (2026-10-13) added Liquid AI's d1 family (a 3B LFM2.5-VL decision model with a vision variant and the library's first revenue-threshold license, the LFM Open License v1.0), moved Decima's agent tag to 2.2, added digest-pinned pulls, and fixed the CUDA idle-pause crash that hit ONNX decoder models, while the site's family count now reads twenty-one and its results page still reports the 0.8.0-era measurements below.
 
 <picture>
@@ -89,7 +89,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 ## References
 
 - https://ollaya.dev/ - product surface: endpoints, model families, platforms, the Ollama comparison table, Apache-2.0 licensing
-- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,301 stars, 79 forks, pushed 2026-10-13, releases v0.9.0 through v0.13.0 (GitHub API, as of 2026-10-13)
+- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,313 stars, 79 forks, pushed 2026-10-14, releases v0.9.0 through v0.13.0 (GitHub API, as of 2026-10-15)
 - https://github.com/ollaya-dev/ollaya/releases/tag/v0.13.0 - the v0.13.0 release notes: the d1 family, its license, the digest-pinned pulls, the Decima 2.2 move, and the CUDA fix (fetched 2026-10-13)
 - https://ollaya.dev/results - the measurement page: 26 models, 73,720 benchmark answers, 41,352 parity checks, disclosed machines, newest measurement 2026-10-02
 - https://ollaya.dev/docs/typesafe-compatibility - the wire-identical TypeSafe API documentation, including SDK 0.7.1 compatibility

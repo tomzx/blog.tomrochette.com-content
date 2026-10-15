@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -24,7 +24,7 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 ## Status
 
 **Active under new ownership.**
-The repository shows about 27.6k stars under MIT as of 2026-10-13, most recently pushed within a day of verification; component tags ship on their own clocks (the newest stable is v7.8.8, published October 7, 2026, a day after the v7.8.7 prerelease, with a v7.8.9 prerelease following on October 13 and the jetbrains/v7.1.9 component on its own train).
+The repository shows about 27.6k stars under MIT as of 2026-10-15, most recently pushed on the day of verification; component tags ship on their own clocks (the newest stable is v7.8.8, published October 7, 2026, with v7.8.9 (October 13) and v7.8.10 (October 14) prereleases following, and the jetbrains component riding its own train at v7.1.10 release candidates).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Kilo-Org/kilocode&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: Jean
 created: 2026-10-12
-updated: 2026-10-12
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, worktrees, dev-environment, self-hosted]
 readability: 3
@@ -24,8 +24,8 @@ It comes from coolLabs Solutions Kft., the team behind the 62.9k-star self-hosti
 ## Status
 
 **Active and shipping weekly from an established self-hosting vendor.**
-1,323 stars, 161 forks, 131 open issues, created 2026-01-23, pushed 2026-10-12, latest release v1.0.9 (2026-10-07), as of 2026-10-12 (GitHub API).
-The release train runs roughly weekly through October (v1.0.6 on September 24, v1.0.7 on September 29, v1.0.9 on October 7).
+1,328 stars, 162 forks, 130 open issues, created 2026-01-23, pushed 2026-10-14, latest release v1.0.11 (2026-10-14), as of 2026-10-15 (GitHub API).
+The release train runs roughly weekly through October (v1.0.6 on September 24, v1.0.7 on September 29, v1.0.9 on October 7, v1.0.10 on October 13, and v1.0.11 on October 14).
 I found no Hacker News thread through 2026-10-12 searches, so its early traction rides the Coolify community (jean.build claims a 20,000-plus Discord) rather than independent coverage.
 
 <picture>
@@ -78,7 +78,7 @@ Not for Windows or Linux desktop users who need a proven build today, or for any
 
 ## References
 
-- https://github.com/coollabsio/jean - repository, 1,323 stars, forks, issues, dates, Apache-2.0 license, and the nine-backend list, as of 2026-10-12 (fetched through the GitHub API)
+- https://github.com/coollabsio/jean - repository, 1,328 stars, forks, issues, dates, Apache-2.0 license, and the nine-backend list, as of 2026-10-15 (fetched through the GitHub API)
 - https://github.com/coollabsio/jean/blob/main/README.md - architecture (Tauri, React, Rust), jean-server model, integrations, Mr. Robot, and the opinionated plugins
 - https://jean.build - product site, "free forever" positioning, macOS-tested caveat, 20k-plus community claim, and the coolLabs Solutions Kft. ownership
 - https://api.github.com/repos/coollabsio/jean/releases - the release train v1.0.6 through v1.0.9, as of 2026-10-12

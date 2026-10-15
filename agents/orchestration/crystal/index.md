@@ -1,7 +1,7 @@
 ---
 title: Crystal
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, desktop-app]
 readability: 3
@@ -26,7 +26,7 @@ Nimbalyst's desktop and iOS apps are MIT-licensed and free for individuals.
 
 Dead, superseded by design.
 The repository README says "Deprecated: February 2026", and the last push landed 2026-02-26, which matches.
-As of 2026-10-02 the repo shows 3,123 stars, 196 forks, and 672 commits, with 68 open issues that will not be worked on.
+As of 2026-10-02 the repo showed 3,123 stars, 196 forks, and 672 commits, with 68 open issues that will not be worked on; 3,130 stars as of 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stravu/crystal&type=date&theme=dark&legend=top-left" />

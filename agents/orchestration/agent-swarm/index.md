@@ -1,7 +1,7 @@
 ---
 title: Agent Swarm
 created: 2026-10-02
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, lead-worker, docker, slack, multi-agent]
 readability: 3
@@ -23,7 +23,7 @@ Around that core it layers a dashboard UI, DAG workflows with human-in-the-loop 
 
 ## Status
 
-Active and shipping fast: 878 stars as of 2026-10-13, created 2025-12-19, with the default branch pushed that day and v1.171.1 published 2026-10-13, a day after v1.171.0 and two days after v1.169.0 (2026-10-11) (GitHub API, releases, as of 2026-10-13).
+Active and shipping fast: 885 stars as of 2026-10-15, created 2025-12-19, with the default branch pushed that day and v1.173.0 published 2026-10-15, a day after v1.172.0 and two days after v1.171.1 (2026-10-13) (GitHub API, releases, as of 2026-10-15).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=desplega-ai/agent-swarm&type=date&theme=dark&legend=top-left" />

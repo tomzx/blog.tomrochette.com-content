@@ -1,7 +1,7 @@
 ---
 title: Ante
 created: 2026-08-30
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, single-binary, local-models]
 readability: 3
@@ -25,7 +25,7 @@ Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sd
 ## Status
 
 **Active, preview-stage, and growing fast for a five-month-old repo.**
-2,011 stars and 70 forks as of 2026-10-13, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise that has since carried patch releases through v0.2.11 (October 12, 2026).
+2,008 stars and 71 forks as of 2026-10-15, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise that has since carried patch releases through v0.2.11 (October 12, 2026).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AntigmaLabs/ante&type=date&theme=dark&legend=top-left" />

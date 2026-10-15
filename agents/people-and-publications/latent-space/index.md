@@ -1,7 +1,7 @@
 ---
 title: Latent Space
 created: 2026-08-29
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, newsletter, podcast, community]
 readability: 3
@@ -16,7 +16,7 @@ Latent Space is the AI engineering publication of record, a Substack newsletter 
 
 ## What it is
 
-A Substack with more than 203,000 subscribers as of 2026-10-13 combining a weekly newsletter, a 1-2 hour interview podcast with lab founders, researchers, and tool makers, and a growing event business (AI Engineer Summits across SF and Europe).
+A Substack with more than 203,000 subscribers as of 2026-10-15 combining a weekly newsletter, a 1-2 hour interview podcast with lab founders, researchers, and tool makers, and a growing event business (AI Engineer Summits across SF and Europe).
 The founding essay, [The Rise of the AI Engineer](https://www.latent.space/p/ai-engineer), defined the discipline as distinct from ML research, and the household has extended into AINews daily roundups and an AI-for-science show.
 It is also, critically, the place where the tools profiled in this section get their field interviews: Claude Code, coding agents, and synthetic data all feature heavily.
 
@@ -24,7 +24,7 @@ It is also, critically, the place where the tools profiled in this section get t
 
 Active and expanding.
 As of 2026-10-13 the announcement month ran "The State of Latent Space" for 2026, adding shows, hosts, and more interview formats; the AI Engineer conference network grew to events in New York, San Francisco, Paris, and Europe.
-The newest issue is "How Anthropic's Dynamic Workflows Coordinate Claude Agents" ([2026-10-12](https://www.latent.space/p/claude-dynamic-workflows)), after the two 2026-10-10 issues "Building AI for Reliable Execution: Lessons From Industrial Robotics" and "Why AlphaFold Didn't Solve Protein Folding" with Google DeepMind's Pushmeet Kohli and Sal Candido, and "Synthesis Superintelligence" with Periodic Labs' Liam Fedus and Ekin Dogus Cubuk (2026-10-08), the Airbnb interview "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience" ([2026-10-02](https://www.latent.space/p/airbnb)), "Academia is for Ambition" with MIT's Alex Zhang ([2026-10-02](https://www.latent.space/p/rlm)), and "Claude Code's Next Era" with Anthropic's Thariq Shihipar (2026-09-29, ninety minutes on Opus/Sonnet 5.5, Mods, Plugins, and Projects), and the near-daily AINews roundups run through 2026-10-10, after the Pi 1.0, Gemini 4 Argon, and OpenAI DevDay 2026 runs; a subscriber-exclusive note previewed the New York subscriber meetups on 2026-10-10.
+The newest issues are the AI Engineer New York pair posted 2026-10-15, "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents" and the Leash Bio interview "Lab-in-the-Loop at Compute Speed", after the Dyna-2 robotics pod with Dyna's Jason Ma and the Meta Muse Wonder AINews (both 2026-10-13), "How Anthropic's Dynamic Workflows Coordinate Claude Agents" ([2026-10-12](https://www.latent.space/p/claude-dynamic-workflows)), and the two 2026-10-10 issues "Building AI for Reliable Execution: Lessons From Industrial Robotics" and "Why AlphaFold Didn't Solve Protein Folding" with Google DeepMind's Pushmeet Kohli and Sal Candido, and "Synthesis Superintelligence" with Periodic Labs' Liam Fedus and Ekin Dogus Cubuk (2026-10-08), the Airbnb interview "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience" ([2026-10-02](https://www.latent.space/p/airbnb)), "Academia is for Ambition" with MIT's Alex Zhang ([2026-10-02](https://www.latent.space/p/rlm)), and "Claude Code's Next Era" with Anthropic's Thariq Shihipar (2026-09-29, ninety minutes on Opus/Sonnet 5.5, Mods, Plugins, and Projects), and the near-daily AINews roundups run through 2026-10-14 (the AI Engineer NYC issue with Gemini 4 Argon's general availability), after the Pi 1.0, Gemini 4 Argon, and OpenAI DevDay 2026 runs; a subscriber-exclusive note previewed the New York subscriber meetups on 2026-10-10.
 Between those interviews sits the DevDay episode "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week" ([2026-09-30](https://www.latent.space/p/devday-2026)), the first pod on the DevDay lineup, where OpenAI's Ari Weinstein argues computer use is "180 degrees different" and Nikunj Handa walks through the Jev-inspired Decisions API.
 The podcast regularly lands the people behind the harnesses this section tracks, and swyx's own notes continue to set trends (memory, filesystems, agent-eats-agent).
 
@@ -80,6 +80,7 @@ Not for people who want only hands-on tool notes and who will not filter past th
 - 2026-10-04 - Window audit added the missed DevDay podcast episode "Why Dwarkesh is Wrong about Computer Use" with OpenAI's Ari Weinstein and Nikunj Handa (2026-09-30) to Status; the rest of the window (issues and AINews through 2026-10-03) verified current against the archive.
 - 2026-10-11 - Latest-issue pointer refreshed: the two October 10 issues (the industrial-robotics reliability piece and the AlphaFold conversation with Google DeepMind's Pushmeet Kohli and Sal Candido) now lead, after Periodic Labs (October 8), with AINews running through October 10 and a subscriber-exclusive New York meetup note; feed fetched this run.
 - 2026-10-13 - Latest-issue pointer refreshed: "How Anthropic's Dynamic Workflows Coordinate Claude Agents" (2026-10-12) now leads, with AINews holding through October 10; subscriber count re-verified at over 203,000; feed and issue URL fetched this run.
+- 2026-10-15 - Latest-issue pointer refreshed: the two AI Engineer New York pieces posted 2026-10-15 (the financial-agents autonomy piece and the Leash Bio interview) now lead, after the Dyna-2 pod and the Meta Muse Wonder AINews (October 13), with AINews running through October 14; subscriber count held at over 203,000; archive fetched this run.
 
 ## See also
 

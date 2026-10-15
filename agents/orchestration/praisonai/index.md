@@ -1,7 +1,7 @@
 ---
 title: PraisonAI
 created: 2026-10-07
-updated: 2026-10-09
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, low-code]
 readability: 3
@@ -21,7 +21,7 @@ It sits in this category's low-code family beside Dify and Sim, closer to the co
 
 ## Status
 
-Active and shipping fast: 9,220 stars, a push on 2026-10-10, release v4.7.13 on 2026-10-07 (GitHub API, as of 2026-10-11), with `praisonaiagents` 1.7.11 on PyPI as of 2026-10-11 (PyPI), on a repository created 2024-03-19.
+Active and shipping fast: 9,238 stars, a push on 2026-10-15, release v4.7.14 on 2026-10-13 (GitHub API, as of 2026-10-15), with `praisonaiagents` 1.7.12 on PyPI as of 2026-10-15 (PyPI), on a repository created 2024-03-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MervinPraison/PraisonAI&type=date&theme=dark&legend=top-left" />

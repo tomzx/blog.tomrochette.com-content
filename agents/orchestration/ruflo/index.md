@@ -1,7 +1,7 @@
 ---
 title: Ruflo
 created: 2026-10-06
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, meta-harness, claude-code, codex, swarms, agent-memory, federation]
 readability: 3
@@ -23,8 +23,8 @@ It ships under MIT, installs from npm, and drives the Claude Code and Codex acco
 
 ## Status
 
-Active and shipping almost daily: four releases landed on 2026-10-11 alone (v3.56.4 plugin-trust and helper security hardening, v3.56.5 a graph-header SQLite-lock fix, v3.56.6 a Windows hook launch fix plus a SessionStart risk scanner, and v3.56.7 TUI, MCP resources, auto-memory, and purge fixes with a safer `init --dual`), then two more on the evening of 2026-10-12 (v3.56.8 pinning `@claude-flow/shared` 3.0.4 with an RVF event-log tail repair before append and declared zod and express dependencies, and v3.56.9 pinning `@claude-flow/security` and `@claude-flow/codex` 3.0.5 with policy-envelope metering ceilings and a re-signed `hook-handler.cjs`), alongside a `ruflo-console-v0.43.0` plugin tag, a point-release train after v3.56.3 (October 9), v3.56.0 (October 8), v3.55.0, and v3.54.0 (both October 7, the latter a version bump plus catalog entry, with the console, ruflo-protector, and mods plugins moving through the git marketplace), with 40 contributors and an npm release feed that still carries claude-flow-named packages.
-74,475 stars as of 2026-10-13, with the GitHub repository now canonical at ruvnet/ruflo (the old ruvnet/claude-flow path redirects, GitHub API).
+Active and shipping almost daily: four releases landed on 2026-10-11 alone (v3.56.4 plugin-trust and helper security hardening, v3.56.5 a graph-header SQLite-lock fix, v3.56.6 a Windows hook launch fix plus a SessionStart risk scanner, and v3.56.7 TUI, MCP resources, auto-memory, and purge fixes with a safer `init --dual`), then two more on the evening of 2026-10-12 (v3.56.8 pinning `@claude-flow/shared` 3.0.4 with an RVF event-log tail repair before append and declared zod and express dependencies, and v3.56.9 pinning `@claude-flow/security` and `@claude-flow/codex` 3.0.5 with policy-envelope metering ceilings and a re-signed `hook-handler.cjs`), then v3.56.10 on 2026-10-14, alongside a `ruflo-console-v0.43.0` plugin tag, a point-release train after v3.56.3 (October 9), v3.56.0 (October 8), v3.55.0, and v3.54.0 (both October 7, the latter a version bump plus catalog entry, with the console, ruflo-protector, and mods plugins moving through the git marketplace), with 40 contributors and an npm release feed that still carries claude-flow-named packages.
+74,717 stars as of 2026-10-15, with the GitHub repository now canonical at ruvnet/ruflo (the old ruvnet/claude-flow path redirects, GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ruvnet/ruflo&type=date&theme=dark&legend=top-left" />

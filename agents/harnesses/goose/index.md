@@ -1,7 +1,7 @@
 ---
 title: goose
 created: 2026-08-24
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, linux-foundation]
 readability: 3
@@ -25,7 +25,7 @@ It talks to 15+ providers (Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure,
 ## Status
 
 **Active and foundation-governed.**
-The repository (moved from Block's org to `aaif-goose/goose`) shows about 55.2k stars as of 2026-10-12 and was last pushed within a day of verification.
+The repository (moved from Block's org to `aaif-goose/goose`) shows about 55.3k stars as of 2026-10-15 and was last pushed on the day of verification.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aaif-goose/goose&type=date&theme=dark&legend=top-left" />

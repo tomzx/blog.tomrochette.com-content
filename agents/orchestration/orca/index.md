@@ -1,7 +1,7 @@
 ---
 title: Orca
 created: 2026-09-27
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, agent-ide, worktrees, mobile]
 readability: 3
@@ -24,7 +24,7 @@ MIT licensed, TypeScript and Electron, and the repo's README carries translation
 
 ## Status
 
-Fast and well-funded: about 90.9k stars (90,941) as of 2026-10-13, up from 85.2k on 2026-10-07, a sustained gain of roughly 1k per day, created 2026-03-17, more than 11,900 commits, with v1.4.224 (2026-10-10) still the latest desktop release after the Android track's mobile-android-v0.0.55 (2026-10-13).
+Fast and well-funded: about 92.8k stars (92,765) as of 2026-10-15, up from 85.2k on 2026-10-07, a sustained gain of roughly 1k per day, created 2026-03-17, more than 11,900 commits, with v1.4.226 (2026-10-15) the latest desktop release after v1.4.225 (2026-10-14) and the Android track's mobile-android-v0.0.55 (2026-10-13).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stablyai/orca&type=date&theme=dark&legend=top-left" />

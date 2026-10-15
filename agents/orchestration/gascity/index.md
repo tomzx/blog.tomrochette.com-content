@@ -1,7 +1,7 @@
 ---
 title: Gas City
 created: 2026-10-12
-updated: 2026-10-12
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, sdk, multi-agent, formulas, worktrees]
 readability: 3
@@ -24,7 +24,7 @@ It is maintained by the gastownhall org, the same lineage as Steve Yegge's Gas T
 ## Status
 
 **Active, and the only living branch of the Gas Town lineage.**
-1,362 stars, 445 forks, 1,492 open issues, created 2026-02-22, pushed 2026-10-12, as of 2026-10-12 (GitHub API).
+1,390 stars, 446 forks, 1,538 open issues, created 2026-02-22, pushed 2026-10-15, as of 2026-10-15 (GitHub API).
 Yegge announced the direction in the May 2026 "Welcome to Gas City" essay, and the 33-point Hacker News thread on it (2026-05-04) is the project's main independent record.
 Development continued after Gas Town itself was shut down in September 2026, and the migration doc maps every Town role, mechanism, and command onto City primitives.
 The release list corrected this run: stable semver releases do exist, v1.4.2 (2026-09-18) and v1.5.0 (2026-10-05), which its own notes call "the new stable release and supersedes v1.4.2", tagged from `release/v1.5.0`, installable with `brew install gascity`, and requiring Beads (`bd`) v1.3.1, which now owns the Dolt process of every new city; the rolling `edge` and Bazel toolchain tags sit beside that line, so the earlier "no stable-release marker" read was wrong (GitHub releases API, as of 2026-10-12).
@@ -79,7 +79,7 @@ Not for teams that need a release line with months of seasoning, or anyone unwil
 
 ## References
 
-- https://github.com/gastownhall/gascity - repository, 1,362 stars, forks, issues, dates, MIT license, and the provider list, as of 2026-10-12 (fetched through the GitHub API)
+- https://github.com/gastownhall/gascity - repository, 1,390 stars, forks, issues, dates, MIT license, and the provider list, as of 2026-10-15 (fetched through the GitHub API)
 - https://github.com/gastownhall/gascity/releases - the v1.5.0 stable release notes (2026-10-05) and the v1.4.2 line, grounding the corrected stable-release record (fetched through the GitHub API)
 - https://github.com/gastownhall/gascity/blob/main/README.md - the extraction framing, city.toml model, dependency list, and the coming-from-Gas-Town pointer
 - https://docs.gascityhall.com - the six primitives (Agent, Bead, Formula, Rig, Pack, Event) and the software-factory positioning

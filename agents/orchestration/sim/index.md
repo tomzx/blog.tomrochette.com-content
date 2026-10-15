@@ -1,7 +1,7 @@
 ---
 title: Sim
 created: 2026-09-29
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -22,7 +22,7 @@ The repo sits at 29,812 stars with 3,853 forks, Apache-2.0, created 2025-01-05, 
 
 ## Status
 
-Active: last push 2026-10-13, releases v0.9.15 through v0.9.19 on 2026-10-08 through 2026-10-12 (GitHub API, as of 2026-10-13).
+Active: last push 2026-10-15, releases v0.9.15 through v0.9.22 on 2026-10-08 through 2026-10-15 (GitHub API, as of 2026-10-15).
 v0.9.15 (October 8) added SSO administration and credential-sharing APIs, current frontier models, a Nebius Token Factory provider, and desktop background-executor chats bound to a device registry, and v0.9.16 (October 8) patched a sharp librsvg CVE and an MCP SDK OAuth issuer binding while adding GitHub MCP server library entries.
 v0.9.17 (October 10) added a workspace changelog of releases, workflow tests as a workspace resource, expanded Shopify operations, and a Checkr integration (GitHub releases).
 v0.9.18 (October 11) added library templates for HubSpot lead-enrichment and Pipedrive deal-follow-up agents, moved project membership to the workspace column, and shipped a performance pass (keyset table paging, non-blocking auth timestamp writes, concurrent Lucid page fetches) (GitHub releases).

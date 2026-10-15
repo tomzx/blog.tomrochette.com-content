@@ -1,7 +1,7 @@
 ---
 title: Instructor
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, pydantic, validation]
 readability: 3
@@ -25,7 +25,7 @@ It also streams partial objects, iterates lists, exposes hooks for logging and m
 ## Status
 
 **Active and mainstream.**
-The repository shows about 14.0k stars and 1,656 commits as of 2026-10-10, and PyPI shows release 1.17.0 uploaded September 9, 2026, following 1.16.0 on August 27, in a cadence of monthly-plus releases stretching back to 2023.
+The repository shows about 14.0k stars and 1,672 commits as of 2026-10-15, and PyPI shows release 1.17.0 uploaded September 9, 2026, following 1.16.0 on August 27, in a cadence of monthly-plus releases stretching back to 2023.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=567-labs/instructor&type=date&theme=dark&legend=top-left" />
@@ -87,8 +87,8 @@ Not for teams that need agents, evals, or hard latency budgets.
 
 ## References
 
-- https://github.com/567-labs/instructor - repo: stars, license, retry and streaming features, PydanticAI positioning (as of 2026-10-02)
-- https://python.useinstructor.com/ - official docs: from_provider interface, reasking, hooks, provider list
-- https://pypi.org/project/instructor/ - release cadence (1.17.0, September 2026), maintainer and authorship
-- https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent record that OpenAI credited Instructor as inspiration for its SDK helpers
-- https://platform.openai.com/docs/guides/structured-outputs - the native strict mode that changed Instructor's niche
+- https://github.com/567-labs/instructor - repo: stars, license, retry and streaming features, PydanticAI positioning (as of 2026-10-15)
+- https://python.useinstructor.com/ - official docs: from_provider interface, reasking, hooks, provider list (fetched 200, 2026-10-15)
+- https://pypi.org/project/instructor/ - release cadence (1.17.0, September 2026, the latest as of 2026-10-15), maintainer and authorship
+- https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent record that OpenAI credited Instructor as inspiration for its SDK helpers (fetched 200, 2026-10-15)
+- https://platform.openai.com/docs/guides/structured-outputs - the native strict mode that changed Instructor's niche (fetched 200, 2026-10-15)

@@ -1,7 +1,7 @@
 ---
 title: Chip Huyen
 created: 2026-08-29
-updated: 2026-09-22
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, ai-engineering, systems, llm]
 readability: 3
@@ -21,7 +21,7 @@ A personal site, blog, newsletter, and a pair of O'Reilly books by Chip Huyen, a
 
 ## Status
 
-Active and highly visible as of 2026-09-22.
+Active and highly visible as of 2026-10-15.
 Her own site states "AI Engineering" was the most read book on the O'Reilly platform in 2025 and has been the most read since its release.
 It is being translated into Chinese, French, Japanese, Korean, Polish, and Russian.
 Her prior book "Designing Machine Learning Systems" (2022) is an Amazon #1 bestseller in AI.

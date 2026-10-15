@@ -1,7 +1,7 @@
 ---
 title: Guardrails
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, structured-outputs, validation, guardrails, python]
 readability: 3
@@ -23,7 +23,7 @@ It is made by Guardrails AI, the San Francisco company founded by Shreya Rajpal 
 
 ## Status
 
-Active but in transition: 7,511 stars, pushed 2026-10-09, release v0.11.0 (2026-08-14) the latest on a train that ran v0.9.x through v0.11.0 across 2026, and 101,253 PyPI downloads of the core package in the last month as of 2026-10-13 (GitHub and PyPI APIs; the vendor's own claim of 250,000-plus monthly downloads counts the separate validator packages too).
+Active but in transition: 7,524 stars, pushed 2026-10-15, release v0.11.0 (2026-08-14) the latest on a train that ran v0.9.x through v0.11.0 across 2026, and 101,253 PyPI downloads of the core package in the last month as of 2026-10-13 (GitHub and PyPI APIs; the vendor's own claim of 250,000-plus monthly downloads counts the separate validator packages too).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=guardrails-ai/guardrails&type=date&theme=dark&legend=top-left" />
@@ -78,7 +78,7 @@ The disagreeable claim I will defend: the validator-hub kind is the most durable
 
 ## References
 
-- https://github.com/guardrails-ai/guardrails - repository: Apache-2.0, created 2023-01-29, 7,511 stars, pushed 2026-10-09 (GitHub API, as of 2026-10-13)
+- https://github.com/guardrails-ai/guardrails - repository: Apache-2.0, created 2023-01-29, 7,524 stars, pushed 2026-10-15 (GitHub API, as of 2026-10-15)
 - https://raw.githubusercontent.com/guardrails-ai/guardrails/main/README.md - the two functions, Guard and OnFailAction composition, the for_pydantic generation path, the Guardrails Server, and the July 2026 migration notice
 - https://guardrailsai.com/hub - the Guardrails Hub: 65 validators with risk categories and infrastructure requirements (fetched 2026-10-13)
 - https://www.guardrailsai.com/docs - the documentation introduction: the Input/Output Guards and structured-data functions

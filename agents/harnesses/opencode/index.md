@@ -1,7 +1,7 @@
 ---
 title: OpenCode
 created: 2026-08-22
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, developer-tools]
 readability: 3
@@ -24,7 +24,7 @@ Providers are configured by API key; OpenCode Zen is the team's curated, tested 
 ## Status
 
 **Very active.**
-The repository moved from `sst` to `anomalyco/opencode` and shows about 212.8k stars and 28.5k forks under MIT as of 2026-10-12.
+The repository moved from `sst` to `anomalyco/opencode` and shows about 213.6k stars and 28.7k forks under MIT as of 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anomalyco/opencode&type=date&theme=dark&legend=top-left" />

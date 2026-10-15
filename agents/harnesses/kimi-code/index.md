@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code"
 created: 2026-09-05
-updated: 2026-10-14
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, moonshot, byok]
 readability: 3
@@ -21,7 +21,7 @@ The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2
 
 ## Status
 
-Active and big-vendor backed, about 19.3k combined stars as of 2026-10-12: `kimi-code` at 7,839 stars, `kimi-cli` at 11,420 stars, with the older repository now archived by Moonshot (its last push was 2026-09-22).
+Active and big-vendor backed, about 19.3k combined stars as of 2026-10-15: `kimi-code` at 7,873 stars, `kimi-cli` at 11,423 stars, with the older repository now archived by Moonshot (its last push was 2026-09-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MoonshotAI/kimi-code&type=date&theme=dark&legend=top-left" />
@@ -48,7 +48,7 @@ The wind-down is now complete: GitHub shows the `kimi-cli` repository archived a
 ## Pricing
 
 The harness is free and open source.
-Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $0.70/$15.00 per million tokens (cache reads listed at $0.32) and kimi-k2.7-code at $0.67/$3.35 (cache hits $0.18) as of 2026-10-14 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09; among the endpoint hosts the floor moved to $0.56/$14.00 on Relace (input down from $2.00), with InferenceNet matching the new main listing at $0.70/$15.00, Wafer holding $0.72/$24.00 (cache reads $0.30), Morph back up to $1.00/$14.90, Sail Research at $0.84/$13.50, and Moonshot's official endpoint at $3/$15, as of 2026-10-14), with other OpenAI-compatible providers configurable.
+Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $0.45/$15.00 per million tokens (cache reads listed at $0.28) and kimi-k2.7-code at $0.67/$3.35 (cache hits $0.18) as of 2026-10-15 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09; among the endpoint hosts the floor moved to $0.30/$14.00 on Relace (input down from $0.56), with InferenceNet matching the main listing at $0.45/$15.00, Wafer split across a $0.29/$24.00 and a $0.37/$14.90 endpoint, Morph at $0.80/$14.90, Sail Research at $0.84/$13.50, and Moonshot's official endpoint at $3/$15, as of 2026-10-15), with other OpenAI-compatible providers configurable.
 
 ## Price history
 
@@ -73,6 +73,7 @@ Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform AP
 | 2026-10-12 | API (OpenRouter) | kimi-k3 moved to $0.73/$10.00 per million tokens (cache reads $0.55), the twelfth recorded move; the endpoint floor moved to a returning Wafer endpoint at $0.65/$20.00, with InferenceNet matching the main listing, Morph up to $1.00/$14.90, Sail Research at $0.84/$13.50, and Relace unchanged at $2.00/$14.00; kimi-k2.7-code unchanged at $0.67/$3.35 (cache hits $0.18). | [OpenRouter kimi-k3 endpoints](https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints) |
 | 2026-10-14 | API (OpenRouter) | the main kimi-k3 listing held at $0.73/$10.00 per million tokens (cache reads $0.55) while the endpoints reconfigured: the 2026-10-12 Wafer floor at $0.65/$20.00 is gone (Wafer now $0.72/$24.00, cache reads $0.30), Morph dropped to $0.75/$14.90, Sail Research holds $0.84/$13.50, Relace holds $2.00/$14.00, and Moonshot's official endpoint holds $3/$15 (cache reads $0.30); kimi-k2.7-code unchanged at $0.67/$3.35 (cache hits $0.18). | [OpenRouter kimi-k3 endpoints](https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints) |
 | 2026-10-14 | API (OpenRouter) | kimi-k3 moved to $0.70/$15.00 per million tokens (cache reads $0.32), the thirteenth recorded move; the endpoint floor moved to Relace at $0.56/$14.00 (input down from $2.00), with InferenceNet matching the new main listing at $0.70/$15.00, Morph back up to $1.00/$14.90, Wafer holding $0.72/$24.00, Sail Research at $0.84/$13.50, and Moonshot's official endpoint at $3/$15; kimi-k2.7-code unchanged at $0.67/$3.35 (cache hits $0.18). | [OpenRouter kimi-k3 endpoints](https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints) |
+| 2026-10-15 | API (OpenRouter) | kimi-k3 moved to $0.45/$15.00 per million tokens (cache reads $0.28), the fourteenth recorded move; the endpoint floor dropped to Relace at $0.30/$14.00 (input down from $0.56), with InferenceNet matching the main listing at $0.45/$15.00, Wafer split into a $0.29/$24.00 and a $0.37/$14.90 endpoint, Morph down to $0.80/$14.90, Sail Research holding $0.84/$13.50, and Moonshot's official endpoint at $3/$15; kimi-k2.7-code unchanged at $0.67/$3.35 (cache hits $0.18). | [OpenRouter kimi-k3 endpoints](https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints) |
 
 ## Compared to
 
@@ -113,6 +114,7 @@ Not for teams that need local models, or anyone who needs more than one independ
 - 2026-10-12 - Recorded the kimi-k3 price moving to $0.73/$10.00 per million tokens (cache reads $0.55), the twelfth recorded move, with the endpoint floor moving to a returning Wafer endpoint at $0.65/$20.00 while Morph rose to $1.00/$14.90 and Relace held at $2.00/$14.00, appended the matching Price history row, and refreshed repository counters.
 - 2026-10-14 - Recorded the endpoint reconfiguration with the main listing holding at $0.73/$10.00 per million tokens: the 2026-10-12 Wafer floor at $0.65/$20.00 disappeared (Wafer now $0.72/$24.00), Morph dropped to $0.75/$14.90, and Sail Research and Relace held, and appended the matching Price history row; the subscription ladders stay in the model-access note.
 - 2026-10-14 - Recorded the kimi-k3 price moving to $0.70/$15.00 per million tokens (cache reads $0.32), the thirteenth recorded move, with the endpoint floor moving to Relace at $0.56/$14.00 while InferenceNet matched the new main listing and Morph rose back to $1.00/$14.90, appended the matching Price history row, and refreshed the usage sentence.
+- 2026-10-15 - Recorded the kimi-k3 listing's fourteenth move to $0.45/$15.00 (cache reads $0.28) with the endpoint floor dropping to Relace at $0.30/$14.00, appended the matching Price history row, and refreshed the usage sentence and star figures.
 
 ## See also
 
@@ -129,5 +131,5 @@ Not for teams that need local models, or anyone who needs more than one independ
 - https://www.kimi.com/code/docs/ - product docs, login paths, and the Node.js migration notice naming the old CLI as unmaintained
 - https://frontierharness.org - the independent pass-rate and cost-per-task numbers
 - https://hn.algolia.com/api/v1/items/45767884 - the largest HN thread, cited as the thin-footprint signal
-- https://openrouter.ai/api/v1/models - live per-token prices grounding the kimi-k3 and kimi-k2.7-code figures, as of 2026-10-12
-- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - live per-provider endpoint prices grounding the endpoint floor, as of 2026-10-12
+- https://openrouter.ai/api/v1/models - live per-token prices grounding the kimi-k3 and kimi-k2.7-code figures, as of 2026-10-15
+- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - live per-provider endpoint prices grounding the endpoint floor, as of 2026-10-15

@@ -1,7 +1,7 @@
 ---
 title: Juggler
 created: 2026-08-30
-updated: 2026-10-12
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, gui, go]
 readability: 3
@@ -27,7 +27,7 @@ Made by Julian Storer (JUCE, Tracktion, Cmajor), distributed as signed installer
 
 **Young, active, and single-maintainer, with a strong launch.**
 The public Show HN on July 12, 2026 drew 280 points and 119 comments ([HN](https://news.ycombinator.com/item?id=48883305)).
-751 stars and 51 forks as of 2026-10-04 on a repo created June 19, 2026 (GitHub API); it had crossed 732 by October 3, over a hundred stars more than the day before, stood at 775 stars and 52 forks as of 2026-10-07, and stands at 785 stars and 52 forks as of 2026-10-12.
+751 stars and 51 forks as of 2026-10-04 on a repo created June 19, 2026 (GitHub API); it had crossed 732 by October 3, over a hundred stars more than the day before, stood at 775 stars and 52 forks as of 2026-10-07, and stands at 789 stars and 52 forks as of 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=juggler-ai/juggler&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: Strands Decider 2B
 created: 2026-10-12
-updated: 2026-10-13
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 Strands Decider 2B is the Strands Agents team's Apache-2.0 decision model, a 2B LoRA-plus-pointer readout on Qwen3.5 that answers choice, score, and yes/no questions with calibrated confidence in one pass, shipped with a pip CLI and positioned as the decision component for agentic workflows built on the Strands Agents SDK.
 
-**This is the wave's second company-built open checkpoint, and the first from a hyperscaler's agent team, and it arrives with the strongest self-run evaluation culture in the category and the weakest third-party result: the seed tables and calibration contract are published to a standard nobody else matches, while the one independent board that has measured it ranks it 111th of 149.**
+**This is the wave's second company-built open checkpoint, and the first from a hyperscaler's agent team, and it arrives with the strongest self-run evaluation culture in the category and the weakest third-party result: the seed tables and calibration contract are published to a standard nobody else matches, while the one independent board that has measured it ranks it 127th of 166.**
 
 ## What it is
 
@@ -24,7 +24,7 @@ It comes from strands-labs, the org behind the Strands Agents SDK, an AWS-backed
 
 ## Status
 
-Active and fresh: the repository was created 2026-09-29 and pushed 2026-10-12, with 600 stars and 79 forks, and the Hugging Face checkpoint was published 2026-10-09, too recently for the Hub's download counter, with 5 likes (GitHub and Hugging Face APIs, as of 2026-10-13).
+Active and fresh: the repository was created 2026-09-29 and pushed 2026-10-14, with 636 stars and 85 forks, and the Hugging Face checkpoint was published 2026-10-09, too recently for the Hub's download counter, with 5 likes (GitHub and Hugging Face APIs, as of 2026-10-15).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=strands-labs/strands-decider&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ Active and fresh: the repository was created 2026-09-29 and pushed 2026-10-12, w
 The launch post (2026-10-07) drew a 285-point Show HN thread, above the bar most of this wave cleared, and the tone was warmer than most decision-model threads: early commenters reported on-device deployments rather than methodology fights, one running it in a browser extension to filter email.
 The self-run evidence is unusually disciplined: evaluation/results.md publishes per-seed tables next to the soup's numbers (JevBench public items 180 of 231 tasks right, Brier 0.280, ECE 0.072, HotpotQA 0.832 never trained on), states that the training-data builders are not yet on `main` so the data cannot be rebuilt from the repository, and dates every measurement.
 The headline reliability claim is a confidence contract: on short classification tasks it has never seen, answers at confidence 0.9 or higher are right about 95 percent of the time, with "confirm or ask a person" below that, which is the deployment logic the calibrated-probability columns all promise.
-The one independent reading so far is adverse: the Decision Index 0.3.2 board (regenerated 2026-10-12, 149 configurations) scores strands-decider-2b at 21.34, rank 111, against hosted Jev's 60.11 at eighth, while the project's own balanced-skill self-run reads 30.82, and JevBench carries no row for it yet.
+The one independent reading so far is adverse: the Decision Index 0.3.2 board (regenerated 2026-10-14, 166 configurations) scores strands-decider-2b at 21.34, rank 127, against hosted Jev's 60.11 at twelfth, while the project's own balanced-skill self-run reads 30.82, and JevBench carries no row for it yet.
 
 ## Strengths
 
@@ -59,7 +59,7 @@ The cost is your own hardware, and the 2B size keeps that small.
 ## Compared to
 
 - [Jev](../jev/index.md): the closed original whose published numbers this model's self-run tables use as yardsticks; Jev keeps the latency and the SLA, Strands Decider ships inspectable weights with a calibration contract.
-- [Decider](../decider/index.md): the open family with the widest checkpoint range, whose new 31B ranks second on the Decision Index where Strands' 2B ranks 111th; choose Decider for measured accuracy across budgets, Strands Decider for the eval discipline and the SDK tie-in.
+- [Decider](../decider/index.md): the open family with the widest checkpoint range, whose 31B ranks third on the Decision Index where Strands' 2B ranks 127th; choose Decider for measured accuracy across budgets, Strands Decider for the eval discipline and the SDK tie-in.
 - [H2O-Lightning-4B](../h2o-lightning-4b/index.md): the other company-built open checkpoint, measured first on the board that has not measured this one; the two are the test case for whether vendors or individuals populate this category.
 
 ## Bottom line
@@ -72,6 +72,7 @@ The disagreeable claim I will defend: the fair comparison is not with the commun
 
 - 2026-10-12 - Created from the entrant scan (HN and release-feed sweep), accepted on the 285-point thread, AWS Strands team standing, and the published seed-level evaluation culture, with the adverse Decision Index reading recorded as the governing caution.
 - 2026-10-13 - The Decision Index 0.3.2 relabel and second same-day regeneration (149 configurations) moved the adverse reading from 21.75, rank 107, to 21.34, rank 111; refreshed stars to 600 and the pushed date to 2026-10-12.
+- 2026-10-15 - The Decision Index's 2026-10-14 regeneration (166 configurations) held the score at 21.34 while moving the rank from 111 to 127; refreshed stars to 636, forks to 85, and the pushed date to 2026-10-14.
 
 ## See also
 
@@ -83,10 +84,10 @@ The disagreeable claim I will defend: the fair comparison is not with the commun
 
 ## References
 
-- https://github.com/strands-labs/strands-decider - repository: Apache-2.0, created 2026-09-29, 600 stars, 79 forks, pushed 2026-10-12, the CLI surfaces and device extras (GitHub API and README, as of 2026-10-13)
+- https://github.com/strands-labs/strands-decider - repository: Apache-2.0, created 2026-09-29, 636 stars, 85 forks, pushed 2026-10-14, the CLI surfaces and device extras (GitHub API and README, as of 2026-10-15)
 - https://strandsagents.com/blog/introducing-strands-decider/ - the launch post: the decision-model positioning, the confidence contract, and the SDK tie-in (fetched 2026-10-12)
 - https://raw.githubusercontent.com/strands-labs/strands-decider/main/evaluation/results.md - the seed tables, the soup design, the KL anchor, the data-mix disclosure, and the not-yet-rebuilt-data statement (fetched 2026-10-12)
 - https://huggingface.co/StrandsAgents/strands-decider-2B-qwen3.5-v1-2610 - the checkpoint: Apache-2.0, published 2026-10-09, 5 likes, downloads not yet tracked (Hugging Face API, as of 2026-10-12)
 - https://news.ycombinator.com/item?id=49987076 - the 285-point launch thread (2026-10-07, fetched via the Algolia items API), its on-device deployment reports the early traction evidence
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.3.2 board scoring strands-decider-2b at 21.34, rank 111 of 149 (generated 2026-10-12, fetched 2026-10-13)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.3.2 board scoring strands-decider-2b at 21.34, rank 127 of 166 (generated 2026-10-14, fetched 2026-10-15)
 - https://pypi.org/project/strands-decider/ - the package, 0.1.0, self-described as an experimental typed classifier (fetched 2026-10-12)

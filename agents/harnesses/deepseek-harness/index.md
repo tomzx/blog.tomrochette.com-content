@@ -1,7 +1,7 @@
 ---
 title: DeepSeek Harness
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, plugins, open-source]
 readability: 3
@@ -25,7 +25,7 @@ It is local-first and BYOK: API keys stay in a local credentials file, with prov
 
 ## Status
 
-New and extremely loud: 247,775 stars and 29,783 forks as of 2026-10-12, about eight weeks after the repo was created on 2026-08-13.
+New and extremely loud: 249,954 stars and 30,059 forks as of 2026-10-15, about nine weeks after the repo was created on 2026-08-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=deepseek-ai/deepseek-harness&type=date&theme=dark&legend=top-left" />
@@ -33,9 +33,9 @@ New and extremely loud: 247,775 stars and 29,783 forks as of 2026-10-12, about e
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=deepseek-ai/deepseek-harness&type=date&legend=top-left" />
 </picture>
 
-No stable release exists, only alpha and rc prereleases (latest: dsh-v0.2.1-alpha.2 on 2026-10-09, adding experimental Git Worktrees and thinking-translation plugins, a session-state API for plugins, global instructions read from a shared agents directory via `DSH_AGENTS_HOME`, a `working_directory` tool with SDK support, an SSH helper runtime for remote file, process, terminal, and sandbox operations, and on-demand Claude Code and Codex combo-pack installs, plus a batch of fixes), and the README warns there will be compatibility-breaking changes.
+No stable release exists, only alpha and rc prereleases, with dsh-v0.2.1-alpha.3 the newest tag after the alpha.2 train of 2026-10-09 (alpha.2 added experimental Git Worktrees and thinking-translation plugins, a session-state API for plugins, global instructions read from a shared agents directory via `DSH_AGENTS_HOME`, a `working_directory` tool with SDK support, an SSH helper runtime for remote file, process, terminal, and sandbox operations, and on-demand Claude Code and Codex combo-pack installs, plus a batch of fixes), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.
-An ecosystem is already forming: a Tauri desktop port with 3,050 stars as of 2026-10-12, down from 3,149 a day earlier (its repository moved from the dsh-tauri-desk org to dsh-tauri, old links redirect), a plugin directory site, and an MCP plugin catalog.
+An ecosystem is already forming: a Tauri desktop port with 2,992 stars as of 2026-10-15, down from 3,149 on 2026-10-11 (its repository moved from the dsh-tauri-desk org to dsh-tauri, old links redirect), a plugin directory site, and an MCP plugin catalog.
 **I read the star count as attention, not adoption, and the safest status label is developer preview.**
 
 ## Strengths

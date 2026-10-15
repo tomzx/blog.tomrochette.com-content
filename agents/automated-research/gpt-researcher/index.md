@@ -1,7 +1,7 @@
 ---
 title: GPT Researcher
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deep-research, open-source]
 readability: 3
@@ -16,14 +16,14 @@ GPT Researcher is the Apache-2.0 open-source research agent that plans a questio
 
 ## What it is
 
-A Python package (pip install gpt-researcher), a REST API stack, and a Docker image by Assaf Elovic, installable from PyPI or Docker Hub (30,060 stars, pushed 2026-10-10, as of 2026-10-13).
+A Python package (pip install gpt-researcher), a REST API stack, and a Docker image by Assaf Elovic, installable from PyPI or Docker Hub (30,102 stars, pushed 2026-10-10, as of 2026-10-15).
 The loop runs in four stages: plan the sub-questions, search each in parallel across 20-plus sources per report, keep only passages that answer the question, and write the cited report in Markdown, PDF, or Word.
 Around the core sit a recursive deep-research mode that branches until a topic is exhausted, LangGraph and AG2 multi-agent teams that plan, research, review, and publish together, MCP servers as sources, and your own PDFs, Word files, spreadsheets, and Markdown joined with the web.
 Since v3.7.0 the context filter runs Jev by default with a local keyword-ranking fallback, so no embeddings provider or key is required.
 
 ## Status
 
-Active: created 2023-05-12, 30,060 stars, release v3.7.0 published 2026-09-26, PyPI package at 0.16.1, as of 2026-10-13.
+Active: created 2023-05-12, 30,102 stars, release v3.7.0 published 2026-09-26, PyPI package at 0.16.1, as of 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=assafelovic/gpt-researcher&type=date&theme=dark&legend=top-left" />
@@ -78,9 +78,9 @@ Not for machine-verified conclusions, and not for anyone who needs a vendor SLA 
 
 ## References
 
-- https://github.com/assafelovic/gpt-researcher - repository, Apache-2.0 license, architecture, and the plan-and-solve and RAG paper lineage (fetched 200, 2026-10-07)
-- https://api.github.com/repos/assafelovic/gpt-researcher - stars, created date, push date, and license for the as-of status (fetched 200, 2026-10-11)
-- https://docs.gptr.dev - the four-stage loop, deep-research mode, multi-agent teams, MCP sources, the Jev default filter, and the 150-paper citation claim (fetched 200, 2026-10-07)
-- https://pypi.org/pypi/gpt-researcher/json - the published package version 0.16.1 and Python requirement (fetched 200, 2026-10-11)
-- https://api.github.com/repos/assafelovic/gpt-researcher/releases - the v3.7.0 release of 2026-09-26 and the cadence before it (fetched 200, 2026-10-07)
-- https://hn.algolia.com/api/v1/items/41234914 - the August 2024 Show HN thread, 4 points, grounding the small-HN-footprint observation (fetched 200, 2026-10-07)
+- https://github.com/assafelovic/gpt-researcher - repository, Apache-2.0 license, architecture, and the plan-and-solve and RAG paper lineage (fetched 200, 2026-10-15)
+- https://api.github.com/repos/assafelovic/gpt-researcher - stars, created date, push date, and license for the as-of status (fetched 200, 2026-10-15)
+- https://docs.gptr.dev - the four-stage loop, deep-research mode, multi-agent teams, MCP sources, the Jev default filter, and the 150-paper citation claim (fetched 200, 2026-10-15)
+- https://pypi.org/pypi/gpt-researcher/json - the published package version 0.16.1 and Python requirement (fetched 200, 2026-10-15)
+- https://api.github.com/repos/assafelovic/gpt-researcher/releases - the v3.7.0 release of 2026-09-26 and the cadence before it (fetched 200, 2026-10-15)
+- https://hn.algolia.com/api/v1/items/41234914 - the August 2024 Show HN thread, 4 points, grounding the small-HN-footprint observation (fetched 200, 2026-10-15)
