@@ -1,7 +1,7 @@
 ---
 title: AgentRQ
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, mcp, human-in-the-loop, self-hosted]
 readability: 3
@@ -22,7 +22,7 @@ A companion Chrome extension carries the board into the browser, and a Discord c
 
 ## Status
 
-Active and modest: 1,152 stars, 85 forks, and 5 open issues as of 2026-10-14, created 2026-03-24 and pushed the day of this check, AGPL-3.0 throughout.
+Active and modest: 1,152 stars as of 2026-10-14, 85 forks, and 2 open issues as of 2026-10-16, created 2026-03-24, pushed 2026-10-16, AGPL-3.0 throughout, on a three-release train in two days (v0.11.1 to v0.11.3, 2026-10-15 and 2026-10-16) that added a native-ACP reasoning-level picker and refactored the ACP link layer into a protocol-neutral agentlink package.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentrq/agentrq&type=date&theme=dark&legend=top-left" />
@@ -68,6 +68,7 @@ Not for AGPL-constrained teams, or anyone needing repository-native task storage
 ## Changes
 
 - 2026-10-13 - Created.
+- 2026-10-16 - Recorded the v0.11.1 to v0.11.3 release train (2026-10-15 and 2026-10-16: the native-ACP reasoning-level picker, the protocol-neutral agentlink package, and task-save and publish fixes) and refreshed counts (2 open issues, pushed 2026-10-16).
 
 ## See also
 
@@ -83,4 +84,5 @@ Not for AGPL-constrained teams, or anyone needing repository-native task storage
 - https://agentrq.com/ - the product site and self-hosted positioning
 - https://github.com/agentrq/agentrq/blob/main/README.md - the feature set, realtime capture claims, and harness support statement
 - https://chromewebstore.google.com/detail/agentrq/iadkenmjgjoilnioldgchgjpdnbaghbj - the published Chrome extension backing the browser surface
+- https://api.github.com/repos/agentrq/agentrq/releases - v0.11.1 to v0.11.3 (2026-10-15 and 2026-10-16) and the release train
 - https://news.ycombinator.com/item?id=47958608 - the April 2026 Show HN (6 points), the project's main independent footprint

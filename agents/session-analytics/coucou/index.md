@@ -1,7 +1,7 @@
 ---
 title: Coucou
 created: 2026-10-10
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, live-observation, approvals, macos, ios, open-source]
 readability: 3
@@ -18,6 +18,7 @@ Coucou is an MIT-licensed Mac notch companion (a top-edge island on Windows and 
 ## What it is
 
 A native Swift 6 and SwiftUI macOS app with zero third-party dependencies (Windows and Linux ride a Tauri 2 build), fronted by Mochi, a character that pops out of the notch, waves, and jumps when a session finishes.
+Since Mac v0.4.0 (2026-10-15) it is also a windowed Dock app: Flow hold-a-key dictation with an optional offline Parakeet model on Apple silicon, call recording with a speaker-split transcript and summary, and one window gathering the notch settings, all free and open source.
 The mechanism is hook-and-relay: an `nb-hook` script receives Claude Code hook events over a Unix socket, waits for your click on the Allow, Deny, or Always card, then answers the hook, and if Coucou is not running the hook exits immediately so Claude Code is never blocked.
 Coverage beyond Claude Code comes through hooks (Gemini CLI, Antigravity), `--agent` flags (Codex, Copilot CLI, Muse Code, any agent), and plugins installed into OpenCode, Amp, and Hermes config directories; any agent can tag a hook payload `coucou_agent` for its own pill.
 The iPhone app (iOS 18, TestFlight) reads sessions, turns, and service state from a private CloudKit zone in your iCloud with sensitive fields encrypted under your iCloud keys, and writes back decisions the Mac only applies when they match the exact pending request, Face ID required on every Allow; Live Activities update through APNs pushes from a stateless Cloudflare Worker relay that sees only the agent's name and state.
@@ -27,7 +28,7 @@ It is built by Louis Raillé (the Louis-CFM account), with the project's own con
 
 ## Status
 
-In its third week and shipping hard: created 2026-09-27 with v0.1.0 the same day, at v0.3.0 on 2026-10-10 after near-daily releases, with Windows and Linux moving to v0.4.0 on 2026-10-11 to carry the Android phone link while the Mac release line stays at v0.3.0, and Coucou for Android following at 0.2.0 on 2026-10-13 two days after its first release, as of 2026-10-13.
+In its third week and shipping hard: created 2026-09-27 with v0.1.0 the same day, with the Mac release line moving to v0.4.0 on 2026-10-15 (the windowed app with dictation and call recording), Windows and Linux moving to v0.5.0 the same day, and Coucou for Android at 0.2.0 since 2026-10-13, as of 2026-10-16.
 5,119 stars and 853 forks in that window, 321 open issues, MIT.
 
 <picture>
@@ -51,7 +52,7 @@ In its third week and shipping hard: created 2026-09-27 with v0.1.0 the same day
 - **Zero independent footprint at 5.1k stars is the caution: two-plus weeks of stars with no thread and no review is distribution, not verification.**
 - The 0.x line moves so fast that documented behavior can change within days, and first-run setup modifies `~/.claude/settings.json` (backed up with a diff shown first, but still an agent-config mutation).
 - The Windows installer is unsigned and trips SmartScreen, and the future App Store build will drop the plan-usage, Apple Music, and window-attach features.
-- Feature gravity pulls away from analytics: the wardrobe, music, Stripe, and voice make it a personal companion that watches agents, not an audit tool, and there is no token-cost accounting anywhere.
+- Feature gravity pulls away from analytics: the wardrobe, music, Stripe, voice, dictation, and call recording make it a personal companion that watches agents, not an audit tool, and there is no token-cost accounting anywhere.
 - One maintainer plus an AI co-author wrote essentially all of it; the Android app and its phone link are the first outside contribution (Rhytam Biswas).
 
 ## Pricing
@@ -75,6 +76,7 @@ Not for token-cost audits (ccusage and agentsview stay the tools for that), and 
 - 2026-10-10 - Created from the category entrant scan, admitted on its eleven-agent live coverage and notch-and-Lock-Screen approval mechanism with the empty independent footprint recorded.
 - 2026-10-13 - Recorded Coucou for Android 0.1.0 (Rhytam Biswas, Android 11 or later, pairing over the local network with the Windows and Linux apps) and the v0.4.0 Windows and Linux builds that carry the phone link, while the Mac release line stays at v0.3.0; repository counts refreshed (4,736 to 4,993 stars, 785 to 838 forks, 252 to 314 open issues).
 - 2026-10-13 - Recorded Coucou for Android 0.2.0 (2026-10-13, two days after 0.1.0, with the release note describing the same pairing flow and no feature list); repository counts refreshed (4,993 to 5,119 stars, 838 to 853 forks, 314 to 321 open issues), and the thin-footprint caution's star figure moved with them.
+- 2026-10-16 - Recorded Mac v0.4.0 (2026-10-15): Coucou became a windowed Dock app with Flow hold-a-key dictation, an optional offline Parakeet model on Apple silicon, and call recording with a speaker-split transcript, signed and notarized; Windows and Linux moved to v0.5.0 the same day (still unsigned), and the feature-gravity caution gained the dictation and call-recording evidence.
 
 ## See also
 
@@ -87,7 +89,8 @@ Not for token-cost audits (ccusage and agentsview stay the tools for that), and 
 
 - https://api.github.com/repos/Louis-CFM/coucou - 5,119 stars, 853 forks, MIT license, created 2026-09-27, pushed 2026-10-13, as of 2026-10-13
 - https://raw.githubusercontent.com/Louis-CFM/coucou/main/README.md - the agents table, hook and plugin mechanisms, CloudKit sync and relay design, privacy statements, and the versions table
-- https://api.github.com/repos/Louis-CFM/coucou/releases - v0.1.0 (2026-09-27) through v0.3.0 (2026-10-10), the windows-v* and linux-v* tag trains, and android-v0.1.0 (2026-10-11) through android-v0.2.0 (2026-10-13)
+- https://api.github.com/repos/Louis-CFM/coucou/releases - v0.1.0 (2026-09-27) through the Mac v0.4.0 and Windows/Linux v0.5.0 trains of 2026-10-15, and android-v0.1.0 (2026-10-11) through android-v0.2.0 (2026-10-13)
+- https://api.github.com/repos/Louis-CFM/coucou/releases/tags/v0.4.0 - the Mac 0.4.0 release note: the Dock window, Flow dictation, Parakeet, and the notetaker
 - https://api.github.com/repos/Louis-CFM/coucou/contributors - the Louis-CFM 192 and claude 156 commit split behind the AI-co-author caution
 - https://louis-cfm.github.io/coucou/ - the homepage grounding the product summary, downloads, and the 0.3 voice announcement
 - https://github.com/Louis-CFM/coucou/releases/tag/android-v0.2.0 - the Android 0.2.0 release note: download, pairing steps, and checksum verification (fetched 2026-10-13)

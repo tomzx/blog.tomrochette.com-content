@@ -1,7 +1,7 @@
 ---
 title: Epiq
 created: 2026-10-10
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, event-sourcing, git, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Commits prefixed with a ticket's ref land in the ticket's inline code diff, wher
 ## Status
 
 Active and shipping fast.
-As of 2026-10-14: 542 stars, 21 forks, 1 open issue, created 2025-06-22, pushed 2026-10-13, latest release v1.13.0 on 2026-10-13, and 2,751 npm downloads last month.
+As of 2026-10-16: 542 stars (as of 2026-10-14), 21 forks, 0 open issues, created 2025-06-22, pushed 2026-10-15, latest release v1.13.0 on 2026-10-13, and 2,751 npm downloads last month.
 The v1.12.x line shipped four releases in twelve days, and v1.13.0 followed five days later with cross-repository commit linking: a board can connect other repos, commits in them land on the tickets they name and in the timeline, and read-only clones fetched on sync (capped at 2 GB each, self-recovering) make the linked diffs work outside the board's own checkout.
 
 <picture>

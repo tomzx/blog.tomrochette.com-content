@@ -1,7 +1,7 @@
 ---
 title: "FrontierHarness Eval"
 created: 2026-09-05
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, coding-agents]
 readability: 3
@@ -22,7 +22,7 @@ Task definitions, difficulty metadata, harness versions, and normalized results 
 
 New and gaining traction: the repository was created 2026-08-31 and pushed 2026-09-08, and the launch drew an 82-point Hacker News thread with substantive methodological discussion.
 **The benchmark is vendor-run: Runta sells an execution layer for AI agents and announced a $20M seed led by a16z, so the neutrality that makes the numbers useful is asserted, not structural.**
-The repository carries no license as of 2026-09-25, which limits reuse of the task definitions themselves.
+The repository carries no license as of 2026-10-16, which limits reuse of the task definitions themselves.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=frontier-harness-eval/eval&type=date&theme=dark&legend=top-left" />

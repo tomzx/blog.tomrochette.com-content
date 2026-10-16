@@ -15,11 +15,12 @@ Where quality control lives in the agent workflow: CI gates, dashboards, machine
 - [deepeval](deepeval/index.md) - the pytest-style eval framework with roughly fifty judge metrics that gates merges in CI.
 - [FrontierHarness Eval](frontierharness-eval/index.md) - the public benchmark that held the model constant and varied nine harnesses in twelve configurations, cost spread 17.5x, vendor-run caveat attached.
 - [HarnessTax](harnesstax/index.md) - the UC Berkeley study that held seven models constant across three harnesses on SWE-bench Lite and Terminal-Bench, finding harness swaps cost up to 5x while success barely moves.
+- [HermesGate](hermes-gate/index.md) - Hermes Labs' Apache-2.0 receipt-bound gate that runs a repository's own checks and reuses a PASS only while the checked bytes still match, judging completion claims rather than code.
 - [Hunk](hunk/index.md) - Modem's MIT review-first terminal diff viewer, one annotated stream for the whole agent changeset, judging nothing itself.
 - [Jevals](jevals/index.md) - OpenLayer's MIT evals-and-guardrails library that swaps the LLM judge for typed Jev decision models, one calibrated request per trace.
 - [Kiln](kiln/index.md) - Chesterfield Laboratories' local-first desktop eval workbench where non-engineers rate outputs and the ratings become judge metrics, fine-tuning sets, and optimization targets.
 - [Kitaru](kitaru/index.md) - ZenML's Apache-2.0 replay-based eval platform: recorded or imported production sessions re-executed against your next change, human-pinned judgments calibrating the evaluators, the catching cohort becoming the CI gate, 308 stars as of 2026-10-14.
-- [Langfuse](langfuse/index.md) - the MIT-core tracing and eval platform, 35.8k stars, inside ClickHouse since January with the proprietary ee/ split as the caution.
+- [Langfuse](langfuse/index.md) - the MIT-core tracing and eval platform, 35.8k stars as of 2026-10-13, inside ClickHouse since January with the proprietary ee/ split as the caution.
 - [MLR-Bench](mlr-bench/index.md) - the NUS-led NeurIPS 2025 D&B benchmark scoring AI research agents over 201 workshop tasks with MLR-Judge, a rubric-based two-model LLM panel validated against expert reviewers, whose headline finding is fabricated results in 8 of 10 coding-agent tasks.
 - [Phoenix](phoenix/index.md) - Arize's OTel-native observability and eval platform, self-hostable under an Elastic license.
 - [Plannotator](plannotator/index.md) - the local review surface that turns your annotations on agent plans and diffs into the agent's next instruction.
@@ -49,3 +50,4 @@ Its members are compared on shared rows in the [Evaluation and Review Feature Ma
 - 2026-10-13 - Added Better Harness.
 - 2026-10-14 - Added Kitaru.
 - 2026-10-14 - Added MLR-Bench.
+- 2026-10-16 - Added HermesGate.

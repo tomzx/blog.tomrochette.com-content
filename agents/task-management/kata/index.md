@@ -1,7 +1,7 @@
 ---
 title: Kata
 created: 2026-10-11
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, local-first, cli, mcp, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Kenn Software LLC maintains it under MIT, with documentation at katatracker.com.
 ## Status
 
 Active and on a steady release cadence.
-As of 2026-10-14: 464 stars, 46 forks, created 2026-04-30, pushed 2026-10-14, latest release v0.18.0 on 2026-09-17 (teammate attention requests, issue-scoped worker credentials, search status filters), with backward compatibility promised since v0.14.0.
+As of 2026-10-16: 464 stars (as of 2026-10-14), 48 forks, created 2026-04-30, pushed 2026-10-16, latest release v0.18.0 on 2026-09-17 (teammate attention requests, issue-scoped worker credentials, search status filters), with backward compatibility promised since v0.14.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/kata&type=date&theme=dark&legend=top-left" />

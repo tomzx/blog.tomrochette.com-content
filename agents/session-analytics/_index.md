@@ -11,6 +11,7 @@ readability: 3
 Tools that turn what coding agents already record into searchable history, cost reports, and audits, plus the ones that watch the sessions as they happen.
 
 - [Agent Analytics](agent-analytics/index.md) - the agent-readable web analytics layer, tracker events in your own D1 or SQLite (or its cloud), queried through skill, MCP, CLI, or HTTP.
+- [AgentMeasure](agentmeasure/index.md) - the local evidence-discipline auditor that checks Codex and Claude Code session records for duplicates, retry chains, and response conflicts, marks what the logs cannot decide as UNPROVABLE, and re-counts AI support-billing exports against published vendor rules, 218 stars.
 - [agents-observe](agents-observe/index.md) - the live dashboard for Claude Code and Codex sessions, hooks feeding a local server, multi-agent trees and cost breakdowns in real time.
 - [agentsview](agentsview/index.md) - the local-first indexer for roughly 60 agents' session files, retrospective search and token-cost reporting in one SQLite store.
 - [AgentTrace](agenttrace/index.md) - the local Rust TUI and CLI that audits session cost, tokens, latency, failures, and health across about 15 coding-agent formats, with CI gates.
@@ -47,3 +48,4 @@ Its members are compared on shared rows in the [Session Analytics Feature Matrix
 - 2026-10-10 - Added Claude Code Agent Monitor.
 - 2026-10-10 - Added Coucou.
 - 2026-10-11 - Added git-ai.
+- 2026-10-16 - Added AgentMeasure.

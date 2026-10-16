@@ -1,7 +1,7 @@
 ---
 title: Crit
 created: 2026-10-12
-updated: 2026-10-12
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Beyond the local loop it syncs both ways with GitHub PRs and GitLab MRs (pull re
 
 ## Status
 
-Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-10-12, with v0.22.0 released 2026-10-07 and the author claiming a weekly release cadence.
+Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-10-15, with v0.22.0 released 2026-10-07 and the author claiming a weekly release cadence.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tomasz-tomczyk/crit&type=date&theme=dark&legend=top-left" />

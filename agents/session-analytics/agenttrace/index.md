@@ -1,7 +1,7 @@
 ---
 title: AgentTrace
 created: 2026-09-27
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, tui, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by an independent developer (luoyuctl) under MIT.
 
 ## Status
 
-Young and active: 143 stars, 9 forks, 5 open issues, created 2026-05-01, last pushed 2026-10-06, latest release v0.10.1 on 2026-10-05 after v0.10.0 and v0.9.1 on 2026-10-04, as of 2026-10-11.
+Young and active: 143 stars, 9 forks, 5 open issues, created 2026-05-01, last pushed 2026-10-12 on side branches, latest release v0.10.1 on 2026-10-05 after v0.10.0 and v0.9.1 on 2026-10-04, as of 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=luoyuctl/agenttrace&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: Pad
 created: 2026-10-11
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, project-management, local-first, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Perpetual Software LLC maintains it; every change is versioned per item with the
 ## Status
 
 Active and pre-1.0.
-As of 2026-10-14: 193 stars, 24 forks, created 2026-03-26, pushed 2026-10-14, on a roughly weekly release cadence with v0.18.0-rc.10 (2026-10-09) the newest tag, and the changelog delegated to signed GitHub Releases carrying SBOMs and SLSA provenance.
+As of 2026-10-16: 193 stars (as of 2026-10-14), 24 forks, created 2026-03-26, pushed 2026-10-16, on a roughly weekly release cadence with v0.18.0-rc.11 (2026-10-15) the newest tag, and the changelog delegated to signed GitHub Releases carrying SBOMs and SLSA provenance.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PerpetualSoftware/pad&type=date&theme=dark&legend=top-left" />

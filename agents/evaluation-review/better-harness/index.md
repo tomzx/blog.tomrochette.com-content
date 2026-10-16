@@ -1,7 +1,7 @@
 ---
 title: Better Harness
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, harness-engineering, workflow-quality]
 readability: 3
@@ -23,7 +23,7 @@ Ten hosts are documented, including Claude Code, Codex, Cursor, Copilot CLI, Qwe
 
 ## Status
 
-Active, early, and vendor-backed: 2,374 stars, 192 forks, and 12 open issues as of 2026-10-13, created 2026-07-21 and pushed the same day it was verified, with npm at 0.6.6 (2026-08-31, eleven versions).
+Active, early, and vendor-backed: 2,374 stars, 192 forks, and 12 open issues as of 2026-10-13, created 2026-07-21 and pushed 2026-10-15, with npm at 0.6.6 (2026-08-31, eleven versions).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=QoderAI/better-harness&type=date&theme=dark&legend=top-left" />
@@ -81,7 +81,7 @@ Not for anyone needing an independent referee (the vendor grades its own categor
 ## References
 
 - https://github.com/QoderAI/better-harness - repository, MIT license, stars, forks, push activity, and the three-layer structure as of 2026-10-13
-- https://qoderai.github.io/better-harness/docs/introduction - the five work-loop dimensions, the evidence-and-findings model, and the deliberately-honest epistemics
+- https://qoderai.github.io/better-harness/docs/introduction - the five work-loop dimensions, the evidence-and-findings model, and the deliberately candid epistemics
 - https://qoderai.github.io/better-harness/demo/better-harness-report/ - the rendered example report showing findings with evidence, outcomes, repair boundaries, and validation routes
 - https://www.npmjs.com/package/@qoder-ai/better-harness - package version 0.6.6 (2026-08-31) and the eleven-version history (the npm site 403s to curl, verified through the registry API)
 - https://martinfowler.com/articles/harness-engineering.html - the harness-engineering framing the README builds its feedforward-and-feedback model on

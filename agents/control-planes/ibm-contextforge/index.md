@@ -1,7 +1,7 @@
 ---
 title: IBM ContextForge
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, gateway, mcp, governance, open-source, ibm]
 readability: 3
@@ -24,7 +24,7 @@ IBM announced it as the ContextForge MCP Gateway 1.0.0 Beta on December 15, 2025
 
 ## Status
 
-Active and heavily adopted: 4,623 stars, 924 forks, and 965 open issues as of 2026-10-14, created 2025-05-08, pushed 2026-10-13, with v1.0.11 published 2026-09-28 on GitHub and PyPI in step.
+Active and heavily adopted: 4,623 stars, 924 forks, and 965 open issues as of 2026-10-14, created 2025-05-08, pushed 2026-10-15, with v1.0.11 published 2026-09-28 on GitHub and PyPI in step.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ibm/mcp-context-forge&type=date&theme=dark&legend=top-left" />

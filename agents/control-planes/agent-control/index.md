@@ -1,7 +1,7 @@
 ---
 title: Agent Control
 created: 2026-10-05
-updated: 2026-10-10
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, runtime-governance, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The launch blog (March 11, 2026) frames the product against Forrester's agent co
 
 ## Status
 
-Active and young: 327 stars, 55 forks, 44 open issues, and 20 contributors as of 2026-10-14, created 2026-01-30, pushed 2026-10-13, with a fast release train (v8.8.0 on 2026-09-22, v8.9.0 and v8.10.0 on 2026-10-01, v8.11.0 on 2026-10-02, v8.12.0 on 2026-10-09, v8.13.0 on 2026-10-13, mirrored by agent-control-sdk 8.13.0 on PyPI while agent-control 3.3.0 holds on npm).
+Active and young: 327 stars, 55 forks, 44 open issues, and 20 contributors as of 2026-10-14, created 2026-01-30, pushed 2026-10-14, with a fast release train (v8.8.0 on 2026-09-22, v8.9.0 and v8.10.0 on 2026-10-01, v8.11.0 on 2026-10-02, v8.12.0 on 2026-10-09, v8.13.0 on 2026-10-13, mirrored by agent-control-sdk 8.13.0 on PyPI while agent-control 3.3.0 holds on npm).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentcontrol/agent-control&type=date&theme=dark&legend=top-left" />

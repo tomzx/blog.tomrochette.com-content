@@ -1,7 +1,7 @@
 ---
 title: It's a Plan
 created: 2026-10-07
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, self-hosted, multi-agent, agpl]
 readability: 3
@@ -24,7 +24,7 @@ Andrii Poluosmak (the croffasia identity) maintains it under AGPL-3.0, except th
 ## Status
 
 Young, active, and climbing fast for its age.
-As of 2026-10-14: 963 stars, 159 forks, 42 open issues and pull requests, 32 contributors, created 2026-07-14, pushed 2026-10-13, 25 releases on a steady train, and 797 npm downloads last month for @itsaplan/runner.
+As of 2026-10-16: 963 stars (as of 2026-10-14), 159 forks, 46 open issues and pull requests, 35 contributors, created 2026-07-14, pushed 2026-10-15, 25 releases on a steady train, and 797 npm downloads last month for @itsaplan/runner.
 v1.4.0 (2026-10-08) added agent schedules that also trigger when an issue enters a chosen state, plus Linear import, and v1.5.0 (2026-10-13) added agent usage accounting (cost, tokens, and runs by model, agent, project, and day, with admin-set prices for models the built-in table lacks), account deactivation, an api-on-subpath deployment mode, and the better-auth 1.7.7 fix for the critical OIDC sign-in advisory GHSA-965c-763c-88jm.
 
 <picture>

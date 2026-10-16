@@ -1,7 +1,7 @@
 ---
 title: OpenAPPA
 created: 2026-10-07
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, information-flow-control, policy-enforcement, prompt-injection, rust]
 readability: 3
@@ -23,7 +23,7 @@ A Claude Code plugin (`appa plugin install claude-code`) is the fastest integrat
 
 ## Status
 
-Active and fast-growing for its age: 1,561 stars and 66 forks as of 2026-10-14 since creation on 2026-08-18, pushed 2026-10-13, latest release v0.32.0 (2026-10-13), positioned as a preview and an RFC where config and wire surfaces may break without shims.
+Active and fast-growing for its age: 1,561 stars and 66 forks as of 2026-10-14 since creation on 2026-08-18, pushed 2026-10-16, latest release v0.34.0 (2026-10-14), positioned as a preview and an RFC where config and wire surfaces may break without shims.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=archestra-ai/OpenAPPA&type=date&theme=dark&legend=top-left" />
@@ -68,6 +68,7 @@ Not for teams that need budgets, org models, or fleet approvals, because OpenAPP
 
 - 2026-10-07 - Created from the entrant scan (an HN surfacing cross-checked against the awesome-ai-governance list), profiling the APPA information-flow engine.
 - 2026-10-13 - Release train moved to v0.32.0 (2026-10-13); scale refreshed (1,554 stars, pushed 2026-10-13).
+- 2026-10-16 - Release train moved to v0.34.0 (2026-10-14) and the stale v0.31.1 release reference corrected.
 
 ## See also
 
@@ -84,5 +85,5 @@ Not for teams that need budgets, org models, or fleet approvals, because OpenAPP
 - https://openappa.com/evaluation - the 1,320-episode results, the FIDES and auto-mode comparisons, token overhead, ablations
 - https://openappa.com/archestra - the sponsorship statement and the proxy-level integration
 - https://arxiv.org/abs/2607.24625 - the APPA paper: invariants, recovery containment, 6,600 episodes, NeurIPS workshop acceptance
-- https://api.github.com/repos/archestra-ai/OpenAPPA/releases - v0.31.1, the latest release
+- https://api.github.com/repos/archestra-ai/OpenAPPA/releases - v0.34.0 (2026-10-14), the latest release
 - https://news.ycombinator.com/item?id=49918330 - the 2-point, zero-comment thread, the thin community signal

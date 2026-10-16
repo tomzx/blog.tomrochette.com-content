@@ -1,7 +1,7 @@
 ---
 title: claude-replay
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, replay, shareable-artifacts]
 readability: 3
@@ -32,7 +32,7 @@ Active with a quiet recent month: created 2026-03-02, 844 stars, 67 forks, last 
 </picture>
 
 The project carries an explicit endorsement listing in the awesome-claude-code directory, which calls the output "fantastic".
-Its own traction numbers are modest: 420 npm downloads in the week to 2026-10-09 and no Hacker News thread of its own, so adoption evidence is the star curve and the directory listing, not download volume.
+Its own traction numbers are modest: 506 npm downloads in the week to 2026-10-12 and no Hacker News thread of its own, so adoption evidence is the star curve and the directory listing, not download volume.
 
 ## Strengths
 
@@ -46,7 +46,7 @@ Its own traction numbers are modest: 420 npm downloads in the week to 2026-10-09
 - Smaller scale than the category's spend-auditors and indexers, with modest npm adoption and a one-maintainer bus factor.
 - The conversion targets the harnesses' current log formats, and every format change breaks it until patched; the seven-harness list needs re-verification each harness release.
 - Replays are for humans: nothing here feeds analytics, cost audits, or search back into your workflow.
-- Development has been quiet since 2026-09-18, three-plus weeks as of 2026-10-11, worth watching before depending on it.
+- Development has been quiet since 2026-09-18, four weeks as of 2026-10-16, worth watching before depending on it.
 
 ## Pricing
 
@@ -79,5 +79,5 @@ Not for cost auditing, search, or analytics, and not for teams needing many acti
 - https://github.com/es617/claude-replay - repository, MIT license, the seven-harness table with transcript locations, and the feature list (fetched 200, 2026-10-07)
 - https://api.github.com/repos/es617/claude-replay - stars, forks, created date, and push date for the as-of status (fetched 200, 2026-10-07)
 - https://es617.dev/claude-replay/ - the web conversion surface, themes, export options, redaction, and Docker mode (fetched 200, 2026-10-07)
-- https://api.npmjs.org/downloads/point/last-week/claude-replay - weekly download volume for the adoption claim (fetched 200, 2026-10-07)
+- https://api.npmjs.org/downloads/point/last-week/claude-replay - weekly download volume for the adoption claim (506 in the week to 2026-10-12, fetched 2026-10-16)
 - https://raw.githubusercontent.com/hesreallyhim/awesome-claude-code/HEAD/README.md - the directory endorsement grounding the community-recognition claim (fetched 200, 2026-10-07)

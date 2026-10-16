@@ -1,7 +1,7 @@
 ---
 title: beads
 created: 2026-08-27
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, issue-tracking, open-source, byok]
 readability: 3
@@ -25,7 +25,7 @@ It lives in the gastownhall organization (renamed from steveyegge, the old name 
 ## Status
 
 Active and moving fast.
-As of 2026-10-14: 27,853 stars, 1,883 forks, 1,453 open issues, created 2025-10-12, pushed 2026-10-14, latest stable release v1.3.1 on 2026-09-30 (after the v1.3.1-rc.1 and rc.2 prereleases of 2026-09-21 and 2026-09-29, which followed v1.3.0 of 2026-09-15, and with v1.3.2-rc.1 and rc.2 prereleases on 2026-10-05 and 2026-10-10), and 34,233 npm downloads last month.
+As of 2026-10-16: 27,853 stars (as of 2026-10-14), 1,883 forks, 1,475 open issues, created 2025-10-12, pushed 2026-10-16, latest stable release v1.3.1 on 2026-09-30 (after the v1.3.1-rc.1 and rc.2 prereleases of 2026-09-21 and 2026-09-29, which followed v1.3.0 of 2026-09-15, and with v1.3.2-rc.1 and rc.2 prereleases on 2026-10-05 and 2026-10-10), and 34,233 npm downloads last month.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gastownhall/beads&type=date&theme=dark&legend=top-left" />
@@ -49,7 +49,7 @@ That ecosystem is real: a community Rust port ([beads_rust](https://github.com/D
 - The architecture churned twice in a year, and the beads_rust fork exists precisely because early adopters needed to freeze it.
 - A SQL database inside your repo is a bigger bet than markdown files; schema-version guards and migration steps now exist for a reason.
 - The simplicity camp defected publicly: the top replacement thread ("faster, simpler Markdown-based task tracker", 84 points) is the standing rebuttal.
-- Roughly 1,400 open issues against a fast-moving core means the tracker itself gets triaged by attention, not process.
+- Roughly 1,500 open issues against a fast-moving core means the tracker itself gets triaged by attention, not process.
 
 ## Pricing
 

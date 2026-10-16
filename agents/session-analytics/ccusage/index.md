@@ -1,7 +1,7 @@
 ---
 title: ccusage
 created: 2026-10-05
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -33,7 +33,7 @@ About 19k stars (19,001) and 876 forks as of 2026-10-13, created 2025-05-29, pus
 </picture>
 
 The npm package pulled 877,566 downloads in the trailing month (2026-09-13 to 2026-10-12), roughly nine times the claude-mem plugin and far ahead of every session-analytics peer here.
-The release line is v20.x with rapid patches: v20.0.31 (2026-10-13) is the latest tagged release, after v20.0.30 (2026-10-11, no significant changes) and v20.0.29 (2026-10-10).
+The release line is v20.x with rapid patches: v20.0.34 (2026-10-15) is the latest tagged release, after v20.0.33 (2026-10-14, reading Zstandard-compressed Codex rollouts) and v20.0.32 (2026-10-14), as of 2026-10-16.
 Its Show HN launch thread reached 75 points in July 2025, and the README carries an Awesome Claude Code mention badge.
 
 ## Strengths
@@ -72,6 +72,7 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 - 2026-10-07 - Added the ccusage/ccusage star history chart to the Status section.
 - 2026-10-11 - Recorded v20.0.29 (2026-10-10): Antigravity ACP conversations discovered by default, GPT-6 fast-multiplier and OpenAI Flex usage fixes, and a Copilot OTel cache-write pricing fix; repository counts and trailing-month downloads refreshed (663,188 to 701,209).
 - 2026-10-13 - Recorded v20.0.30 (2026-10-11, no significant changes) and v20.0.31 (2026-10-13): the Antigravity empty-report fix when no conversations directory exists plus CI and Nix housekeeping; repository counts and trailing-month downloads refreshed (18,957 to 19,001 stars, 701,209 to 877,566 downloads).
+- 2026-10-16 - Recorded v20.0.32 through v20.0.34 (2026-10-14 and 2026-10-15): Zstandard-compressed Codex rollout reads, the Antigravity model-ID mapping to gemini-4-argon, and an OpenCode fallback-cost tolerance fix; the trailing-month download snapshot returned byte-identical to 2026-10-13 and stands.
 
 ## See also
 
@@ -88,6 +89,6 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 - https://raw.githubusercontent.com/ccusage/ccusage/main/apps/ccusage/LICENSE - the MIT license text, copyright ryoppippi
 - https://api.npmjs.org/downloads/point/last-month/ccusage - 877,566 trailing-month downloads (2026-09-13 to 2026-10-12), fetched 2026-10-13
 - https://registry.npmjs.org/ccusage - npm latest 20.0.31, matching the v20.0.31 GitHub tag
-- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.31 (2026-10-13), v20.0.30 (2026-10-11), v20.0.29 and v20.0.28 (both 2026-10-10), and v20.0.26 (2026-09-27) release dates
+- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.34 (2026-10-15), v20.0.33 and v20.0.32 (2026-10-14), and v20.0.31 (2026-10-13) release dates
 - https://news.ycombinator.com/item?id=44610925 - the 75-point launch thread (2025-07-18), carrying the npx-security critique and the estimate-versus-bill debates
 - https://ccusage.com - the docs site, a client-rendered VitePress shell this run, with the title and description verified in the served HTML

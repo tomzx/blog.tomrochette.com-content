@@ -12,6 +12,7 @@ Governance above the harness: policy, permissions, approvals, budgets, trust, se
 
 - [Agent Control](agent-control/index.md) - Galileo's Apache-2.0 control plane that turns any Python or TypeScript function into a governed decision point with a @control() decorator and remotely managed policy.
 - [AgentField](agentfield/index.md) - the Apache-2.0 agent-backend control plane that turns Python, Go, and TypeScript functions into governed REST endpoints, with DID identity, tag policy, approvals, cost caps, and offline-verifiable receipts in the free build.
+- [arifOS](arifos/index.md) - the AGPL-3.0 governance kernel that judges MCP agent proposals against thirteen constitutional floors before execution, answering with seven wire verdicts, recording each in a hash-chained ledger, and publishing a self-audit that names its own broken floors.
 - [CC Safety Net](cc-safety-net/index.md) - the MIT pre-execution guard that parses commands across sixteen coding-agent CLIs and blocks destructive git and filesystem operations plus secret reads before they run.
 - [Code Atelier Governance SDK](code-atelier-governance-sdk/index.md) - the MIT Python SDK that puts scope, budget, approval, and loop gates in front of LLM calls and writes an HMAC audit chain to your existing Postgres.
 - [Cordum](cordum/index.md) - the BUSL-1.1 source-available control plane whose Go safety kernel returns ALLOW, DENY, or REQUIRE_APPROVAL before a worker runs, with a Claude Code hook firewall on the endpoint.
@@ -51,3 +52,4 @@ Its members are compared on shared rows in the [Control Planes Feature Matrix](c
 - 2026-10-09 - Added HOL Guard.
 - 2026-10-11 - Added IBM ContextForge.
 - 2026-10-13 - Added AgentField.
+- 2026-10-16 - Added arifOS.

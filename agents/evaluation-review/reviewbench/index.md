@@ -1,7 +1,7 @@
 ---
 title: ReviewBench
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, code-review, ai-review-agents]
 readability: 3
@@ -24,9 +24,9 @@ Submission is self-serve: sign in with GitHub, register a container image and yo
 
 ## Status
 
-A research preview launched 2026-10-05: the repository (review-bench/ReviewBench) was created 2026-09-04 and sits at 52 stars and 5 open issues as of 2026-10-13, last pushed 2026-10-13.
-The first independent entrants arrived through the self-service portal in the benchmark's first week: five third-party reviewers (Hermes Reviewer on 2026-10-07, then HeyDeer, mesrai, pr-review-agent, and DeepSeek Harness Reviewer on 2026-10-08) merged onboarding registrations, so the submission pipeline works beyond GitHub's own pre-ran entries, though none of their leaderboard scores had published as of 2026-10-11.
-The repository documented an offline evaluation path on 2026-10-10: run the reviewer image with try-agent.sh, then judge the findings locally, no registration required.
+A research preview launched 2026-10-05: the repository (review-bench/ReviewBench) was created 2026-09-04 and sits at 52 stars and 5 open issues as of 2026-10-13, last pushed 2026-10-16.
+The first independent entrants arrived through the self-service portal in the benchmark's first week: five third-party reviewers (Hermes Reviewer on 2026-10-07, then HeyDeer, mesrai, pr-review-agent, and DeepSeek Harness Reviewer on 2026-10-08) merged onboarding registrations, and four more followed (block/review and Laude RevEngine Prime on 2026-10-13, intent-review-agent on 2026-10-14, and diffox on 2026-10-15), so nine have onboarded and the submission pipeline works well beyond GitHub's own pre-ran entries, though none of their leaderboard scores had published as of 2026-10-11.
+The repository documented an offline evaluation path on 2026-10-10: run the reviewer image with try-agent.sh, then judge the findings locally, no registration required, and a 2026-10-13 commit additionally discloses the golden set's composition by producer while registration now documents its per-PR timeout (default 1,800 seconds).
 Its guide discloses the answer-leakage test behind the container boundary: golden findings come partly from public review threads, one test reviewer fetched them through the unauthenticated GitHub API, and a Codex reviewer restricted to its model host still read upstream review comments through the hosted GitHub connector on about half the pull requests, a path an egress allowlist cannot block.
 
 <picture>
@@ -74,6 +74,7 @@ Not for CI gating, and not as an unbiased tiebreaker while the publisher's own r
 - 2026-10-07 - Created from the daily-refresh entrant resolution, profiling GitHub's open code-review benchmark with the publication-gate and vendor-conflict cautions.
 - 2026-10-09 - Recorded the first five third-party reviewer onboardings through the self-service portal (2026-10-07 and 2026-10-08) and refreshed repository counts.
 - 2026-10-11 - Recorded the offline-evaluation path (try-agent.sh plus the judging CLI, documented 2026-10-10), the answer-leakage disclosure in its guide, and refreshed repository counts.
+- 2026-10-16 - Recorded four more third-party onboardings (block/review and Laude RevEngine Prime on 2026-10-13, intent-review-agent on 2026-10-14, diffox on 2026-10-15, nine total), the golden-set-composition disclosure (2026-10-13), and the per-PR-timeout documentation.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Jamf AI Governance
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, endpoint, macos, commercial]
 readability: 3
@@ -61,6 +61,7 @@ Not for Linux or Windows fleets, for teams needing per-action runtime authorizat
 ## Changes
 
 - 2026-10-05 - Created from the entrant-resolution run, profiling the Mac-native endpoint configuration governance capability as the second endpoint-anchored commercial entrant after CrowdStrike Falcon Guardian.
+- 2026-10-16 - Rotation re-verification: all six references re-fetched, the June 30 GA press release confirming the date, the 78,000-organization and 35-million-device figures, the Claude Code, Claude Desktop, and Codex coverage list, and the Okta integration unchanged; the Business Wire mirror now blocks scripted fetches and its reference records that.
 
 ## See also
 
@@ -76,4 +77,4 @@ Not for Linux or Windows fleets, for teams needing per-action runtime authorizat
 - https://www.jamf.com/solutions/ai-governance/ - product page: shadow-AI framing and the Anthropic and AWS control validation
 - https://community.jamf.com/from-jamf-179/ai-governance-for-mac-launches-today-58538 - the launch post listing the prerequisites (SSO/OIDC, blueprints, Jamf Protect agent)
 - https://learn.jamf.com/r/en-US/jamf-account-documentation/AI_Governance - official Jamf Account documentation
-- https://www.businesswire.com/news/home/20260630510591/en/Jamf-launches-AI-Governance-a-first-of-its-kind-native-AI-control-plane-for-Mac - the wire release confirming the date, plan bundling, and vendor control tracking engine
+- https://www.businesswire.com/news/home/20260630510591/en/Jamf-launches-AI-Governance-a-first-of-its-kind-native-AI-control-plane-for-Mac - the wire release confirming the date, plan bundling, and vendor control tracking engine (a mirror of the Jamf press release above; it returned 403 to scripted fetch on 2026-10-16)

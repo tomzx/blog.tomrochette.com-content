@@ -1,7 +1,7 @@
 ---
 title: AI Dev Tasks
 created: 2026-10-08
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, prd, prompt-pack, open-source, dormant]
 readability: 3
@@ -69,6 +69,7 @@ My disagreeable claim: ai-dev-tasks was never a tool at all, and its 7.8k stars 
 ## Changes
 
 - 2026-10-08 - Created after the entrant sweep surfaced the dormant prompt-file original of the PRD pipeline this category tracks.
+- 2026-10-16 - Rotation re-verification: every cited URL re-fetched live (repository, API, both prompt files, the podcast link, the HN story search still at zero hits); the repository is unchanged and still dormant with its last push at 2025-11-05.
 
 ## See also
 

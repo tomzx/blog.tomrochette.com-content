@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -34,7 +34,7 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
 </picture>
 
-3,721 stars since 2026-04-30, latest release v1.2.25 on 2026-10-13 (a QStash token-region fix, following v1.2.24 on 2026-10-10), pushed 2026-10-13 (GitHub API, as of 2026-10-13).
+3,721 stars since 2026-04-30, latest release v1.2.25 on 2026-10-13 (a QStash token-region fix, following v1.2.24 on 2026-10-10), pushed 2026-10-16 (GitHub API, as of 2026-10-16).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
 

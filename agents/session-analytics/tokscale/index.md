@@ -1,7 +1,7 @@
 ---
 title: Tokscale
 created: 2026-10-06
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by junhoyeo, an independent developer, MIT-licensed.
 
 ## Status
 
-Young and fast: 5,656 stars, 472 forks, 100 open issues, created 2025-12-01, pushed 2026-10-10, as of 2026-10-11.
+Young and fast: 5,656 stars, 472 forks, 100 open issues, created 2025-12-01, pushed 2026-10-15, as of 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,8 @@ Young and fast: 5,656 stars, 472 forks, 100 open issues, created 2025-12-01, pus
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&legend=top-left" />
 </picture>
 
-npm shows 173,488 downloads in the trailing month (2026-09-10 to 2026-10-09), second in this category only to ccusage, and the release line is v4.18.0 (2026-10-05) after v4.17.0 (2026-09-15).
+npm shows 182,342 downloads in the trailing month (2026-09-13 to 2026-10-12), second in this category only to ccusage, and the release line is v4.19.1 (2026-10-15) after v4.19.0 (2026-10-14, which added Zstandard-compressed Codex transcript reads, OmO agent-session discovery, a session-detail TUI inspector, and single-billing for Hermes reasoning tokens) and v4.18.0 (2026-10-05).
+Its parsers have also been externally probed: the September 2026 AgentMeasure audit filed that forked and continued Pi sessions double-counted (issue 1306), fixed the same day via PR 1323.
 Its Show HN reached 2 points and zero comments in December 2025, so the audience arrived without a forum argument.
 **The star and download numbers say adoption, the empty Hacker News footprint says no independent scrutiny yet, and both are true at once.**
 
@@ -70,6 +71,7 @@ Not for teams needing shared dashboards (agentsview) or spend management (CodeBu
 
 - 2026-10-06 - Created from the 2026-10-06 entrant scan: the widest declared source table in the category after agentsview, 5.6k stars, and the first opt-in public leaderboard, with seven fetched sources.
 - 2026-10-07 - Added the junhoyeo/tokscale star history chart to the Status section.
+- 2026-10-16 - Recorded v4.19.0 and v4.19.1 (2026-10-14 and 10-15), the external AgentMeasure audit's Pi fork double-count finding with its same-day fix (issue 1306, PR 1323), and trailing-month downloads refreshed (173,488 to 182,342).
 
 ## See also
 
@@ -84,7 +86,9 @@ Not for teams needing shared dashboards (agentsview) or spend management (CodeBu
 - https://github.com/junhoyeo/tokscale - repository, 5,656 stars and 472 forks as of 2026-10-11, MIT license, created 2025-12-01
 - https://raw.githubusercontent.com/junhoyeo/tokscale/main/README.md - the about-50-client data-path table, LiteLLM pricing, sync subcommands, and the submit-to-leaderboard flow
 - https://registry.npmjs.org/tokscale - npm latest 4.18.0
-- https://api.npmjs.org/downloads/point/last-month/tokscale - 173,488 trailing-month downloads (2026-09-10 to 2026-10-09), fetched 2026-10-11
-- https://api.github.com/repos/junhoyeo/tokscale/releases - v4.18.0 (2026-10-05), v4.17.0 (2026-09-15), v4.16.0 (2026-09-12)
+- https://api.npmjs.org/downloads/point/last-month/tokscale - 182,342 trailing-month downloads (2026-09-13 to 2026-10-12), fetched 2026-10-16
+- https://api.github.com/repos/junhoyeo/tokscale/releases - v4.19.1 (2026-10-15), v4.19.0 (2026-10-14), v4.18.0 (2026-10-05), v4.17.0 (2026-09-15)
+- https://github.com/junhoyeo/tokscale/issues/1306 - the external audit's Pi fork double-count finding, closed completed via PR 1323 the same day
+- https://raw.githubusercontent.com/roy-tong/AgentMeasure/main/campaigns/audit-report-2026-09.md - the audit behind the external-probe sentence
 - https://tokscale.ai - the hosted leaderboard and Wrapped pages
 - https://hn.algolia.com/api/v1/items/46365999 - the 2-point, zero-comment Show HN of 2025-12-23, cited as the thin-discussion signal

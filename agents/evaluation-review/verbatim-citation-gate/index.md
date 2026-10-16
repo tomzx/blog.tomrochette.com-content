@@ -1,7 +1,7 @@
 ---
 title: Verbatim Citation Gate
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, citations, hallucination, guardrails, rag]
 readability: 3
@@ -24,7 +24,7 @@ The docs page describes the maintainer as the Palo Alto AI Research Lab, a self-
 
 ## Status
 
-Active but barely adopted: 4 stars, 3 forks, and 5 open issues as of 2026-10-13, created 2026-07-24, pushed 2026-10-11, with two releases (v0.2.0 on 2026-08-25, v0.1.0 on 2026-08-04) and CI running a tests workflow.
+Active but barely adopted: 4 stars, 3 forks, and 5 open issues as of 2026-10-13, created 2026-07-24, pushed 2026-10-14, with two releases (v0.2.0 on 2026-08-25, v0.1.0 on 2026-08-04) and CI running a tests workflow.
 A Hacker News search returns zero threads as of 2026-10-11, which is the adoption signal here: this is a solo project with a clean mechanism and no independent users on record yet.
 
 <picture>

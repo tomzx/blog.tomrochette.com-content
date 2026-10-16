@@ -1,7 +1,7 @@
 ---
 title: git-ai
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, provenance, git, open-source]
 readability: 3
@@ -26,7 +26,7 @@ A vendor product, the Git AI Platform from Next Element, Inc., adds team rollout
 ## Status
 
 Acquired and active: the founders announced Git AI joining OpenAI's Codex team on 2026-09-11, with continued investment in the open-source CLI and the standard.
-2,829 stars, 312 forks, 261 open issues, created 2025-07-02, pushed 2026-10-07, newest tag v1.7.5 with no GitHub releases (distribution is the install script), as of 2026-10-11.
+2,829 stars, 312 forks, 261 open issues, created 2025-07-02, pushed 2026-10-14, newest tag v1.7.5 with no GitHub releases (distribution is the install script), as of 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=git-ai-project/git-ai&type=date&theme=dark&legend=top-left" />

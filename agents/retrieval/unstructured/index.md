@@ -1,7 +1,7 @@
 ---
 title: Unstructured
 created: 2026-10-06
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, document-parsing, rag, mcp]
 readability: 3
@@ -23,7 +23,7 @@ The open-source docs are one of three product tabs on the documentation site, be
 
 ## Status
 
-Active and still shipping: 15,563 stars, 1,349 forks since 2022-09-26, pushed 2026-10-13 (GitHub API, as of 2026-10-13), with PyPI at 0.27.25 released 2026-10-10, the first tagged release since 0.27.22 on 2026-10-08.
+Active and still shipping: 15,563 stars and 1,349 forks as of 2026-10-13, pushed 2026-10-15 (GitHub API, as of 2026-10-16), with PyPI at 0.27.27 released 2026-10-15, the first tagged release since 0.27.25 on 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Unstructured-IO/unstructured&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ My disagreeable claim: leading your README with the hosted MCP server is the uns
 - 2026-10-07 - Added the Unstructured-IO/unstructured star history chart to the Status section.
 - 2026-10-09 - Recorded the PyPI train moving to 0.27.22 (2026-10-08, six releases in three days after 0.27.16) and refreshed the repository numbers (15,550 stars, pushed 2026-10-09); downloads and the displacement figures are unchanged.
 - 2026-10-10 - Recorded PyPI 0.27.25 (2026-10-10, the first tagged release since 0.27.22) and refreshed the repository numbers (15,557 stars, pushed 2026-10-10); downloads unchanged and the Docling displacement ratio holds at 4.4x (68.6k versus 15.6k).
+- 2026-10-16 - Recorded PyPI 0.27.27 (2026-10-15, 240 releases total, the first tagged release since 0.27.25) and refreshed the repository activity (pushed 2026-10-15).
 
 ## See also
 
@@ -81,11 +82,11 @@ My disagreeable claim: leading your README with the hosted MCP server is the uns
 
 ## References
 
-- https://api.github.com/repos/Unstructured-IO/unstructured - 15,563 stars, 1,349 forks, Apache-2.0, created 2022-09-26, pushed 2026-10-13 (GitHub API, as of 2026-10-13)
+- https://api.github.com/repos/Unstructured-IO/unstructured - 15,563 stars and 1,349 forks (as of 2026-10-13), Apache-2.0, created 2022-09-26, pushed 2026-10-15 (GitHub API, as of 2026-10-16)
 - https://raw.githubusercontent.com/Unstructured-IO/unstructured/main/README.md - library scope, the Transform MCP and Pipelines leads, container and conda install paths
 - https://docs.unstructured.io/open-source/introduction/overview - the vendor's own prototyping-grade framing of the library and the three-product docs split
-- https://api.github.com/repos/Unstructured-IO/unstructured/releases?per_page=8 - the tagged releases 0.27.25 (2026-10-10) and 0.27.22 (2026-10-08) bracketing the current PyPI train
-- https://pypi.org/pypi/unstructured/json - latest version 0.27.25 (2026-10-10), 239 releases
+- https://api.github.com/repos/Unstructured-IO/unstructured/releases?per_page=8 - the tagged releases 0.27.27 (2026-10-15) and 0.27.25 (2026-10-10) bracketing the current PyPI train
+- https://pypi.org/pypi/unstructured/json - latest version 0.27.27 (2026-10-15), 240 releases
 - https://static.pepy.tech/badge/unstructured/month - about 2M downloads a month (re-verified 2026-10-11)
 - https://unstructured.io/enterprise - the Pipelines platform pitch and the demo-request pricing model
 - https://transform.unstructured.io/ - the Transform MCP entry, serving a Keycloak login wall (fetched 2026-10-06)

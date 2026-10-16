@@ -1,7 +1,7 @@
 ---
 title: Paperclip
 created: 2026-08-27
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, control-planes, agent-operations, multi-agent, open-source, governance]
 readability: 3
@@ -24,7 +24,7 @@ Any agent that can receive a heartbeat is hirable, OpenClaw, Claude Code, Codex,
 ## Status
 
 Active at extreme velocity.
-As of 2026-10-14: 101,570 stars and 17,038 forks since creation on 2026-03-02, 6,078 open issues, pushed 2026-10-14, latest release v2026.1012.0 published 2026-10-12 with no release in the two days since, date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
+As of 2026-10-14: 101,570 stars and 17,038 forks since creation on 2026-03-02, 6,078 open issues, pushed 2026-10-16, latest release v2026.1012.0 published 2026-10-12 with no release in the four days since, date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&theme=dark&legend=top-left" />

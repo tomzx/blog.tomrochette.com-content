@@ -1,7 +1,7 @@
 ---
 title: LightRAG
 created: 2026-10-07
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, knowledge-graph]
 readability: 3
@@ -25,7 +25,7 @@ Made by HKUDS, the lab that also ships RAG-Anything, VideoRAG, and MiniRAG.
 ## Status
 
 **Actively maintained with a large, fast-moving community.**
-40,119 stars and 5,687 forks since 2024-10-02, pushed 2026-10-12, with 345 open issues (GitHub API, as of 2026-10-13).
+40,119 stars and 5,687 forks as of 2026-10-13, pushed 2026-10-15, with 383 open issues (GitHub API, as of 2026-10-16).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/LightRAG&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ The launch thread drew 82 points in July 2024 and little HN activity since, so t
 
 ## Cautions
 
-- **The lab's breadth is the roadmap risk: RAG-Anything, VideoRAG, and MiniRAG share one maintainership, and 345 open issues say the core absorbs more than it resolves.**
+- **The lab's breadth is the roadmap risk: RAG-Anything, VideoRAG, and MiniRAG share one maintainership, and 383 open issues say the core absorbs more than it resolves.**
 - The accuracy story is self-run; I found no independent benchmark replicating the paper's numbers on a different corpus.
 - The feature surface churns (chunking strategies, merged multimodal parsing, role-specific models), so pin versions and re-test on upgrades.
 - Setup is a stack: an embedding model, an LLM, a graph or unified store, and optionally parsing services.
@@ -65,7 +65,7 @@ The costs are your own model bills for extraction and querying plus the storage 
 
 **Recommended as the default graph-RAG framework when the graph layer genuinely earns its indexing cost, which for most corpora means theme and multi-hop questions, not lookup.**
 Not for teams that need a frozen dependency or independent accuracy evidence, because it offers neither.
-My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appeal, not adoption depth, and the 345 open issues are the truer count of how much work the pattern still demands.
+My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appeal, not adoption depth, and the 383 open issues are the truer count of how much work the pattern still demands.
 
 ## Changes
 

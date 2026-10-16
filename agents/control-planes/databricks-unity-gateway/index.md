@@ -1,7 +1,7 @@
 ---
 title: Databricks Unity Gateway
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-plane, governance, mcp, enterprise]
 readability: 3
@@ -61,6 +61,7 @@ Not for multi-cloud agent fleets, for batch-inference-heavy workloads that need 
 ## Changes
 
 - 2026-10-02 - Created.
+- 2026-10-16 - Rotation re-verification: all seven references re-fetched live and every claim confirmed, including the announcement's Unity Catalog naming, the on-behalf-of MCP execution, and the vendor-forum confirmation on ai_query batch inference; the forum reference's fetch caveat corrected now that the page serves a browser user agent.
 
 ## See also
 
@@ -77,5 +78,5 @@ Not for multi-cloud agent fleets, for batch-inference-heavy workloads that need 
 - https://docs.databricks.com/aws/en/ai-gateway/ai-governance - the setup guide: routing, service policies, and rate limits across model and MCP services
 - https://docs.databricks.com/aws/en/ai-gateway/rate-limits - the endpoint, user, and group rate-limit mechanics in QPM and TPM
 - https://learn.microsoft.com/en-us/azure/databricks/ai-gateway/ - the Azure Databricks mirror confirming cross-cloud documentation
-- https://community.databricks.com/t5/generative-ai/ai-query-not-affected-by-ai-gateway-s-rate-limits/td-p/134257 - the vendor-forum confirmation that ai_query batch inference gets usage tracking only (the page 403s to curl, verified through the search excerpt)
+- https://community.databricks.com/t5/generative-ai/ai-query-not-affected-by-ai-gateway-s-rate-limits/td-p/134257 - the vendor-forum confirmation that ai_query batch inference gets usage tracking only, fetched 2026-10-16 with a Databricks employee's answer on record (the page 403s to plain curl but serves a full browser user agent)
 - https://datapao.com/databricks-unity-ai-gateway/ - the third-party 2026 guide grounding the regional limits, the GovCloud absence, and the contextual service policies

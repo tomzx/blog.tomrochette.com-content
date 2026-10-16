@@ -1,7 +1,7 @@
 ---
 title: ClawTrace
 created: 2026-09-27
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, session-analytics, observability, openclaw, cost-tracking]
 readability: 3
@@ -26,7 +26,7 @@ The repository is Apache-2.0, but the hosted cloud is the product and no self-ho
 
 ## Status
 
-Active but with the thinnest footprint in the category: 47 stars, 11 forks, 3 open issues, created 2026-04-10, last pushed 2026-08-15, with the npm plugin at version 0.1.23 published 2026-04-16, unchanged and re-verified as of 2026-10-11.
+Active but with the thinnest footprint in the category: 47 stars, 11 forks, 3 open issues, created 2026-04-10, last pushed 2026-08-15, with the npm plugin at version 0.1.23 published 2026-04-16, unchanged and re-verified as of 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=epsilla-cloud/clawtrace&type=date&theme=dark&legend=top-left" />
@@ -60,7 +60,7 @@ Consumption-based credits, with no monthly seat fee.
 New users get 100 free credits, and credit packages run $10 for 1,000 credits, $50 for 5,000, $90 for 10,000 (listed as 10% off), and $400 for 50,000, with all packages expiring one year after purchase.
 Usage is metered per feature: storage 1.35 credits per MB per day, listing trajectories 0.5 credits per query, trajectory detail 0.2 credits per query, Tracy input 0.5 credits per 1k tokens, and Tracy output 2.5 credits per 1k tokens.
 Reaching zero credits puts the account into a deficit state that blocks ingestion and queries until it is topped up.
-All of the above re-verified unchanged on 2026-10-11.
+All of the above re-verified unchanged on 2026-10-16.
 
 ## Price history
 

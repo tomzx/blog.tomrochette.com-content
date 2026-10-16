@@ -54,7 +54,7 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-12 (ruled 2026-09-27) | cross-category | the owner's own tools stay out at zero third-party adoption | llm-conversations-viewer, tps-viewer, TomzxCode/agentic; owner-tools exception asked in queue q#24
 - 2026-10-07 | cross-category | model-modification tooling fits no category and stays out pending the owner's ruling | p-e-w/heretic (33.8k) logged out-of-scope, queue q#8 open
 - 2026-10-10 (ruled 2026-10-06) | control-planes | closed commercial governance products stay out | Autoheal precedent holds the awesome-ai-governance closed tier at zero admissions
-- 2026-10-14 | control-planes | the awesome-ai-governance open-source thin tail stays below the admission bar | conarium, verax, cedulon, quilzo, and sunglasses at 0-10 stars each with no coverage, reopen on traction or independent coverage
+- 2026-10-16 | control-planes | the awesome-ai-governance open-source thin tail stays below the admission bar | conarium, verax, cedulon, quilzo, sunglasses, and Mandare (0 stars, 3 weeks old) at 0-10 stars each with no coverage, reopen on traction or independent coverage; arifOS resolved above the bar 2026-10-16
 - 2026-10-12 (ruled 2026-09-21) | hybrid-execution | applications, runtime bridges, and name-alike tooling on a category member stay ecosystem evidence inside its note | jev-ultrafast folded into jev; jev-chat, vllm-jev, LLM2Jev held
 - 2026-09-21 (ruled 2026-09-18) | skills | session-portability tools are out of the skills scope | Skillsync rejected by four category runs
 

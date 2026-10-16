@@ -1,7 +1,7 @@
 ---
 title: Hunk
 created: 2026-10-06
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, terminal, diff, human-in-the-loop]
 readability: 3
@@ -24,7 +24,7 @@ The maker is Modem (modem.dev), the company credited in hunk.dev's footer.
 
 ## Status
 
-Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026-03-17, pushed 2026-10-14, with v0.24.0-beta.0 (2026-10-13) opening the 0.24 line and stable still v0.23.0 (2026-09-30, 741 merged pull requests).
+Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026-03-17, pushed 2026-10-16, with v0.24.0-beta.1 (2026-10-15) carrying the 0.24 line and stable still v0.23.0 (2026-09-30, 741 merged pull requests).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=modem-dev/hunk&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=modem-dev/hunk&type=date&legend=top-left" />
 </picture>
 
-hunkdiff npm installs ran about 4.5k in the week of 2026-10-03 to 2026-10-09.
+hunkdiff npm installs ran about 5.4k in the week of 2026-10-06 to 2026-10-12.
 Endorsements from Mitchell Hashimoto and DHH are quoted on the site (the X posts themselves did not fetch this run), while the HN footprint is three stories totaling 7 points with almost no comments, the same social-channel growth pattern Plannotator recorded.
 
 ## Strengths
@@ -70,6 +70,7 @@ Not for CI gating and not for anyone expecting a machine verdict; Hunk deliberat
 - 2026-10-06 - Created.
 - 2026-10-07 - Added the modem-dev/hunk star history chart to the Status section.
 - 2026-10-13 - Recorded the v0.24.0-beta.0 prerelease (2026-10-13) opening the 0.24 line, stable unchanged at v0.23.0, and refreshed repository counts.
+- 2026-10-16 - Recorded the v0.24.0-beta.1 prerelease (2026-10-15), stable unchanged at v0.23.0, and the npm weekly count (about 5.4k).
 
 ## See also
 

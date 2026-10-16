@@ -1,7 +1,7 @@
 ---
 title: Backlog.md
 created: 2026-08-27
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, kanban, markdown, open-source, byok]
 readability: 3
@@ -24,7 +24,7 @@ It is maintained under the MrLesk identity, with conference talks ([Devoxx Belgi
 ## Status
 
 Active and healthy at mid-scale.
-As of 2026-10-14: 7,024 stars, 118 open issues and pull requests, pushed 2026-10-13, MIT-licensed, latest release v1.53.0 on 2026-09-24, 87,203 npm downloads last month.
+As of 2026-10-16: 7,024 stars (as of 2026-10-14), 90 open issues and pull requests, pushed 2026-10-15, MIT-licensed, latest release v1.53.0 on 2026-09-24, 87,203 npm downloads last month.
 The repo's quiet stretch since 2026-09-28 ended on 2026-10-07 with README commits adding a Backlog.md + Groma.md integration section, Groma.md being the same author's separate MIT architecture-map tool (188 stars as of 2026-10-10).
 
 <picture>
