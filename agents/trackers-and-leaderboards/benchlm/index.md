@@ -1,7 +1,7 @@
 ---
 title: BenchLM
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, benchmarks, leaderboards, open-data]
 readability: 3
@@ -16,15 +16,15 @@ BenchLM is a solo-maintained composite leaderboard that blends public benchmark 
 
 ## What it is
 
-A website, a downloadable dataset, and a query API covering 889 model profiles and 625 canonical benchmark pages, with 218 ranked entries (83 Supported, 135 Estimated) across 8 weighted categories (as of 2026-10-10).
+A website, a downloadable dataset, and a query API covering 950 model profiles and 638 canonical benchmark pages, with 224 ranked entries (89 Supported, 135 Estimated) across 8 weighted categories (as of 2026-10-16).
 The BenchAlign score (v5.8) starts from independent external leaderboards, benchmark composites and preference boards, each weighted by uncertainty, with preference leaderboards capped at a quarter of the external part and direct benchmark results adding a correction of at most 3 points.
-Missing tests stay missing, generated rows never enter the boards, and the confidence page cuts the 218 into four levels: 27 Full, 60 Good, 67 Limited, 64 Estimated, with sourced-versus-generated row counts per model.
+Missing tests stay missing, generated rows never enter the boards, and the confidence page cuts the 224 into four levels: 27 Full, 62 Good, 69 Limited, 66 Estimated, with sourced-versus-generated row counts per model.
 Data access is unusually complete for the genre: eight static JSON downloads with a SHA-256 manifest and content versions, plus a free Data account exposing REST and MCP endpoints under a CC BY-NC 4.0 license for BenchLM's own outputs.
 It is built and maintained by one person publishing as Glevd, with an email contact and an X handle as the only disclosed identities.
 
 ## Status
 
-Active and fresh: the dataset, leaderboard, and comparison files were last updated 2026-10-10, pricing and speed files a day or two before, and the scoring policy iterates in dated steps (BenchAlign v5.8 with a September 30, 2026 retrospective).
+Active and fresh: the site states "Last verified: October 15, 2026", with 950 tracked models and 37 October releases recorded, and the scoring policy iterates in dated steps (BenchAlign v5.8 with a September 30, 2026 retrospective).
 The community footprint is close to zero: an HN search finds no BenchLM story of its own as of 2026-10-11, and the one independent sighting is a June 2026 Show HN (Models Pie, 4 points) that names BenchLM as one of its three data sources.
 No company, funding, or team is disclosed, so treat it as a one-person project with institutional-scale coverage and no institutional ballast.
 **Treat it as a working cross-check layer, not a source of record.**
@@ -38,7 +38,7 @@ No company, funding, or team is disclosed, so treat it as a one-person project w
 ## Cautions
 
 - It runs nothing itself, so every number is another board's measurement twice removed, and the errors inherit: a distorted input leaderboard distorts the blend.
-- The headline breadth overstates the depth: 889 tracked profiles reduce to 218 ranked entries, and only 83 carry exact-source support.
+- The headline breadth overstates the depth: 950 tracked profiles reduce to 224 ranked entries, and only 89 carry exact-source support.
 - The Estimated intervals carry the operator's own warning that they do not establish confidence in a rank or future performance, and the category intervals are unvalidated after the latest prior changes.
 - CC BY-NC 4.0 blocks commercial republication without a separate agreement, a sharper restriction than this category's other open datasets.
 - One pseudonymous operator, no repository, no funding disclosure, and no second pair of eyes on the pipeline.
@@ -63,6 +63,7 @@ My disagreeable claim: the most valuable writing on BenchLM is not the leaderboa
 ## Changes
 
 - 2026-10-11 - Created.
+- 2026-10-16 - Coverage refreshed from re-fetched homepage and confidence pages: 950 tracked models (from 889), 638 benchmark pages (from 625), 224 ranked entries (from 218) with 89 Supported (from 83), the confidence split now 27/62/69/66, the board's own verification stamp moved to October 15, and the BenchAlign leader reading 86.49.
 
 ## See also
 
@@ -74,9 +75,9 @@ My disagreeable claim: the most valuable writing on BenchLM is not the leaderboa
 
 ## References
 
-- https://benchlm.ai/ - homepage: 889 tracked, 218 ranked, 83 verified, BenchAlign leader Claude Opus 5.5 at 86.43, last verified 2026-10-10 (fetched 200, 2026-10-11)
+- https://benchlm.ai/ - homepage: 950 tracked, 224 ranked, 89 verified, BenchAlign leader Claude Opus 5.5 at 86.49, last verified 2026-10-15 (fetched 200, 2026-10-11; re-fetched 200, 2026-10-16, counts up from 889/218/83 and the leader score from 86.43)
 - https://benchlm.ai/about - operator identity (Glevd), data sources, Supported/Estimated policy, what the site does not track (fetched 200, 2026-10-11)
 - https://benchlm.ai/methodology - BenchAlign v5.8 rules, the preference cap and peer constraints, and the three failed validation checks (fetched 200, 2026-10-11)
 - https://benchlm.ai/data - CC BY-NC 4.0 terms, free Data account, REST and MCP endpoints, eight static JSON downloads with a SHA-256 manifest (fetched 200, 2026-10-11)
-- https://benchlm.ai/benchmark-confidence - the confidence distribution (27 Full, 60 Good, 67 Limited, 64 Estimated) and sourced-versus-generated coverage (fetched 200, 2026-10-11)
+- https://benchlm.ai/benchmark-confidence - the confidence distribution (27 Full, 62 Good, 69 Limited, 66 Estimated as of 2026-10-16, up from 27/60/67/64 over 218) and sourced-versus-generated coverage (fetched 200, 2026-10-11; re-fetched 200, 2026-10-16)
 - https://hn.algolia.com/api/v1/search?query=benchlm&tags=story - no BenchLM story of its own; the June 2026 Models Pie Show HN names BenchLM as a data source (fetched 200, 2026-10-11)

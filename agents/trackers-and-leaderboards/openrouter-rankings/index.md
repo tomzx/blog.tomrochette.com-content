@@ -1,7 +1,7 @@
 ---
 title: OpenRouter Rankings
 created: 2026-09-24
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, usage, market-share, open-data]
 readability: 3
@@ -23,8 +23,8 @@ Data access is unusually open: rankings are CC BY 4.0 with a required citation f
 
 ## Status
 
-Fresh and commercially central: the page showed "Usage data through Oct 10, 2026" as of 2026-10-11, a one-day lag, and updates flow live as traffic arrives.
-The 2026-10-11 snapshot still shows how anonymous demand on the gateway can be: an unnamed Stealth author holds 10.5% of the week's requests (up 296% week over week), while its Space Bunny Alpha slid to fourth on the weekly token board at 10.9T tokens (down 70 percent), behind DeepSeek V4.1 Flash at 38.7T (up 51 percent), GLM 5.3 Flash at 11.6T, and MiMo-V2.6-Flash at 11.3T.
+Fresh and commercially central: the page showed "Usage data through Oct 15, 2026" as of 2026-10-16, a one-day lag, and updates flow live as traffic arrives.
+The 2026-10-16 snapshot closes the anonymous-demand episode this note has been tracking: Space Bunny Alpha and its unnamed Stealth author have dropped out of the weekly token leaders entirely, leaving DeepSeek V4.1 Flash first at 37.1T weekly tokens (up 51 percent week over week on the 10-11 reading), Step 5 Preview second at 19.5T, GLM 5.3 Flash third at 12.9T, and MiMo-V2.6-Flash fourth at 11.2T.
 The underlying gateway is a top-of-category business: $113M Series B led by CapitalG in May 2026 at a reported $1.3B valuation, then an announced acquisition by Stripe on August 19, 2026 at a reported price above $7B, with the company claiming 10T+ tokens per day.
 Its numbers are routinely quoted as market signal in press and on HN, and OpenRouter itself turned the dataset into research (a 100T-token empirical study that drew 207 points on HN).
 
@@ -65,6 +65,7 @@ My disagreeable claim: this is the most misused ranking in the category, cited a
 - 2026-10-06 - Recorded the anonymized Stealth author's surge (10.5% of weekly request share, with Space Bunny Alpha topping the weekly token board at 38.5T tokens) and refreshed the volatile coverage line (data through Oct 5, Claude Code moved to second among top apps).
 - 2026-10-10 - Recorded the reversal of the Stealth surge (Space Bunny Alpha from first to second on the weekly board at 16.9T tokens, down 49 percent, behind DeepSeek V4.1 Flash at 37.6T) and refreshed the volatile coverage line (data through Oct 9; Codex moved to third among top apps, Kilo Code to fourth).
 - 2026-10-11 - Recorded the unwind continuing (Space Bunny Alpha from second to fourth on the weekly board at 10.9T tokens, down 70 percent, behind DeepSeek V4.1 Flash at 38.7T, GLM 5.3 Flash at 11.6T, and MiMo-V2.6-Flash at 11.3T, while its author held 10.5 percent of weekly requests) and refreshed the volatile coverage line (data through Oct 10; Kilo Code moved to third among top apps, Codex to sixth).
+- 2026-10-16 - Recorded the unwind completing: Space Bunny Alpha and its unnamed Stealth author are out of the weekly token leaders, with DeepSeek V4.1 Flash first at 37.1T, Step 5 Preview second at 19.5T, GLM 5.3 Flash third at 12.9T, and MiMo-V2.6-Flash fourth at 11.2T (data through Oct 15); the Stealth author's request share was not readable this run because the market-share view renders client-side.
 
 ## See also
 
@@ -77,7 +78,7 @@ My disagreeable claim: this is the most misused ranking in the category, cited a
 
 ## References
 
-- https://openrouter.ai/rankings - methodology, caveats, windows, top apps, CC BY 4.0 note, data-through date (re-fetched 200, 2026-10-11, data through Oct 10, DeepSeek V4.1 Flash at 38.7T weekly tokens ahead of GLM 5.3 Flash at 11.6T and Space Bunny Alpha at 10.9T, top apps led by Hermes Agent, Claude Code, and Kilo Code)
+- https://openrouter.ai/rankings - methodology, caveats, windows, top apps, CC BY 4.0 note, data-through date (fetched 200, 2026-09-24; re-fetched 200, 2026-10-16, data through Oct 15, weekly tokens led by DeepSeek V4.1 Flash at 37.1T, Step 5 Preview 19.5T, GLM 5.3 Flash 12.9T, MiMo-V2.6-Flash 11.2T, Space Bunny Alpha out of the leading names; the market-share figures render client-side and were not readable this run)
 - https://openrouter.ai/docs/cookbook/administration/data-api - Data API endpoints, limits, citation format, dataset history from 2025-01-01 (fetched 200, 2026-09-24)
 - https://openrouter.ai/about - company scale claims and founding date (fetched 200, 2026-09-24)
 - https://openrouter.ai/blog/announcements/series-b/ - $113M Series B and investors, May 2026 (fetched 200, 2026-09-24)

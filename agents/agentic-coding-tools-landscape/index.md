@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-10-13.
+Everything here was verified against live sources on 2026-10-16.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -57,7 +57,7 @@ The independent tail matters more than its market share suggests.
 [Kimi Code](../harnesses/kimi-code/index.md) (Moonshot AI, MIT) is the challenger-vendor bet: a big-model vendor shipping the harness tuned for its own cheap models, with subagents, hooks, marketplace skills, and ACP in a single Node.js CLI, at about 19.3k combined stars across its two repositories.
 [Exo](../harnesses/exo/index.md) (Exo Labs, MIT) is the self-modification bet: a Rust-and-TypeScript harness with full visibility into its own code and logs, able to edit its prompts, tooling, and policy at runtime, cheapest measured harness in the FrontierHarness run at $1.05 per task.
 [ZCode](../harnesses/zcode/index.md) (Z.ai, Apache-2.0) is the trust bet turned public exhibit: the official GLM workbench was caught silently uploading whole workspaces to cloud storage on September 18, 2026, and was open-sourced three days later as a flattened, process-free dump.
-[DeepSeek Harness](../harnesses/deepseek-harness/index.md) (DeepSeek, MIT) is the plugin-kernel bet at impossible scale: an everything-is-a-plugin design where the model, tools, UI, and agent loop are hot-swappable, at about 249.0k GitHub stars and still prerelease-only (the newest is dsh-v0.2.1-alpha.2) in its second month, the loudest launch this layer has seen.
+[DeepSeek Harness](../harnesses/deepseek-harness/index.md) (DeepSeek, MIT) is the plugin-kernel bet at impossible scale: an everything-is-a-plugin design where the model, tools, UI, and agent loop are hot-swappable, at about 249.0k GitHub stars and still prerelease-only (the newest is dsh-v0.2.1-alpha.4, published October 15, 2026) in its second month, the loudest launch this layer has seen.
 [Unreal Agent](../harnesses/unreal-agent/index.md) (Unreal Labs, MIT, Sequoia and First Round backed) is the async bet: tool calls run as background operations so the model never manages waits or polls, the vendor's Harbor-linked runs claim up to 40 percent cost savings against Codex, and the launch hit 242 points with 1,879 stars in its first three days.
 
 **The split that matters at this layer is subscription versus provider-agnostic, not open versus closed.**
@@ -155,6 +155,7 @@ A harness that adopts the open conventions is making a promise about your exit; 
 - 2026-10-10 - Refreshed the verification chain, with the Orca ade-topic lead moved to about 88.9k (GitHub API, the topic page rate-limited this run), DeepSeek Harness to about 246.7k with its newest prerelease at dsh-v0.2.1-alpha.2 (2026-10-09), Claude Code to about 150.0k, OpenCode to about 212.5k, Gemini CLI to about 107.3k, OpenHands to about 90.5k, Crush to about 28.6k, and Cline installs to about 5.6 million; Kimi Code combined (about 19.2k) re-verified unchanged.
 - 2026-10-11 - Refreshed the verification chain, with the Orca ade-topic lead moved to about 89.8k, DeepSeek Harness to about 247.6k with its newest prerelease still dsh-v0.2.1-alpha.2, Claude Code to about 150.2k, OpenCode to about 212.8k, OpenHands to about 90.6k, and Kimi Code combined to about 19.3k; Gemini CLI (about 107.3k), Crush (about 28.6k), and Cline installs (about 5.6 million) re-verified unchanged.
 - 2026-10-13 - Refreshed the verification chain, with the Orca ade-topic lead moved to about 91.6k, DeepSeek Harness to about 249.0k with its newest prerelease still dsh-v0.2.1-alpha.2, Claude Code to about 150.7k, OpenCode to about 213.2k, and OpenHands to about 90.8k; Gemini CLI (about 107.3k), Crush (about 28.6k), Kimi Code combined (about 19.3k), and Cline installs (about 5.6 million) re-verified unchanged, and the Cursor line gained its subscription restructure: the plans are now an X bundle (Free, Plus $8 Grok-only, Premium $30, Super $100, Ultra $200) sold only through X Subscription Corp, with third-party models billed at API list price, per the pricing page re-checked this run.
+- 2026-10-16 - Moved the DeepSeek Harness line's newest prerelease to dsh-v0.2.1-alpha.4 (published 2026-10-15) per the repository's release list, and re-fetched every external link: fourteen of sixteen returned 200, with the devops.com and Bloomberg pages returning 403 to scripted fetches (bot protection on pages that fetched 200 on earlier passes).
 
 ## See also
 

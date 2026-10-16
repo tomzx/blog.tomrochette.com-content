@@ -1,7 +1,7 @@
 ---
 title: Epoch AI
 created: 2026-09-24
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, ai, datasets, trends]
 readability: 3
@@ -16,15 +16,16 @@ Epoch AI is a 501(c)(3) research nonprofit that maintains open datasets on AI mo
 
 ## What it is
 
-A research organization, roughly 50 people, whose public products are data explorers (AI Models with over 3,600 entries from 1950 to today, AI Data Centers, Chip owners, Companies, Polling), benchmarks (the Epoch Capabilities Index, FrontierMath, MirrorCode, EBR-bench), papers and reports, short Data Insights, the Gradient Updates newsletter, and the Epoch After Hours podcast.
+A research organization of roughly 60 people (57 listed on the team page as of 2026-10-16), whose public products are data explorers (AI Models with over 3,600 entries from 1950 to today, AI Data Centers, Chip sales, Chip owners, Companies, Polling, plus newer sets on cyber vulnerabilities, frontier-lab hiring, and ChatGPT usage), benchmarks (the Epoch Capabilities Index, FrontierMath, MirrorCode, EBR-bench, Epoch Automation Reports), papers and reports, short Data Insights, the Gradient Updates newsletter, and the Epoch After Hours podcast.
+FrontierMath itself has grown into a three-part program: Tiers 1-4, Open Problems, and FrontierMath Erdős, a set of Erdős problems formalized in Lean that opened in August 2026.
 Data is free to use with attribution under Creative Commons (CC BY), and a Python client library and data repositories live on its GitHub org.
 Its numbers are the citation of record for AI trend claims, used by Our World in Data, government AI-safety reports, and the financial press.
 
 ## Status
 
-Actively maintained at near-daily granularity: the data page's dataset stamps ran through Oct. 11, 2026 as of 2026-10-11 (the capabilities and benchmarking ZIP refreshed that day, the models explorer card Oct. 8), and its GitHub repositories show pushes as recent as 2026-10-09.
+Actively maintained at near-daily granularity: the data page's dataset stamps ran through Oct. 16, 2026 as of 2026-10-16 (the capabilities-and-benchmarking and AI-models ZIPs refreshed that day, the data centers card Oct. 15), its GitHub repositories show pushes as recent as 2026-10-15, and the site keeps publishing (the "Can AI automate Epoch?" report landed Oct. 8, a Slay the Spire capability report Oct. 14).
 HN traction is substantial and recurring: the FrontierMath launch drew 185 points in 2024, "FrontierMath was funded by OpenAI" drew 483 points in January 2025, and "Epoch confirms GPT5.4 Pro solved a frontier math open problem" drew 480 points in March 2026.
-Founded by Jaime Sevilla and collaborators; funding is donations (Coefficient Giving grants of $8.5M in 2025, $4.13M in 2024, and more, plus the Survival and Flourishing Fund, Jaan Tallinn, and Schmidt Sciences), with paid consultations disclosed on the transparency page.
+Founded by Jaime Sevilla and collaborators; funding is donations (Coefficient Giving grants of $8.5M in April 2025, $4.13M in 2024, and $2.74M in March 2026 for the Public Data Center Tracker, plus the Survival and Flourishing Fund, Jaan Tallinn, Schmidt Sciences, Sentinel Bio, and others), with paid consultations disclosed on the transparency page.
 
 ## Strengths
 
@@ -60,6 +61,7 @@ My disagreeable claim: the FrontierMath episode made Epoch more trustworthy, not
 - 2026-09-24 - Created.
 - 2026-09-27 - Data-page stamp refreshed to "Updated Sep. 27, 2026".
 - 2026-09-29 - Data-page stamp refreshed to "Updated Sep. 29, 2026".
+- 2026-10-16 - Rotation re-verification with every cited URL re-fetched live: recorded the 2026 Coefficient Giving grants ($2.74M in March for the Public Data Center Tracker, $600k in July), the team's growth to 57 listed people, FrontierMath's expansion into a three-part program (Tiers 1-4, Open Problems, and the Lean-formalized Erdős set), the newer datasets (cyber vulnerabilities, frontier-lab hiring, ChatGPT usage), and data-page stamps through Oct. 16.
 
 ## See also
 
@@ -70,13 +72,13 @@ My disagreeable claim: the FrontierMath episode made Epoch more trustworthy, not
 
 ## References
 
-- https://epoch.ai/ - homepage: tagline, 3,200+ model dataset, product map, update stamps (fetched 200, 2026-09-24)
-- https://epoch.ai/about - "data-first research nonprofit" self-description and mission (fetched 200, 2026-09-24)
-- https://epoch.ai/about/transparency - 501(c)(3) status, itemized funders, disclosed OpenAI and DeepMind consultations, the 2026 FrontierMath data audit (fetched 200, 2026-09-24)
-- https://epoch.ai/data - data explorers, CC BY licensing, dataset stamps through Oct. 11, 2026, and the models explorer's "over 3600" count (re-fetched 200, 2026-10-11, capabilities ZIP stamped Oct. 11, models explorer card Oct. 8)
-- https://epoch.ai/data/ai-models - the AI models explorer: "over 3600 models" database claim and per-dataset download stamps (fetched 200, 2026-10-05)
-- https://epoch.ai/team - team size and leadership including Jaime Sevilla (fetched 200, 2026-09-24)
-- https://epoch.ai/frontiermath - the FrontierMath benchmark surface (fetched 200, 2026-09-24)
-- https://techcrunch.com/2025/01/19/ai-benchmarking-organization-criticized-for-waiting-to-disclose-funding-from-openai/ - the funding-disclosure controversy (fetched 200, 2026-09-24)
-- https://github.com/epoch-research - active data and benchmark repositories, pushes on 2026-10-09 (re-fetched 200, 2026-10-11, most recent repo update still Oct. 9)
-- https://epochai.substack.com/ - the Gradient Updates newsletter (fetched 200, 2026-09-24)
+- https://epoch.ai/ - homepage: tagline, 3,200+ model dataset, product map, update stamps (fetched 200, 2026-09-24; re-fetched 200, 2026-10-16, unchanged claims, newest reports Oct. 14)
+- https://epoch.ai/about - "data-first research nonprofit" self-description and mission (fetched 200, 2026-09-24; re-fetched 200, 2026-10-16, unchanged)
+- https://epoch.ai/about/transparency - 501(c)(3) status, itemized funders, disclosed OpenAI and DeepMind consultations, the 2026 FrontierMath data audit (fetched 200, 2026-09-24; re-fetched 200, 2026-10-16, now listing the March 2026 $2.74M and July 2026 $600k Coefficient Giving grants)
+- https://epoch.ai/data - data explorers, CC BY licensing, dataset stamps (re-fetched 200, 2026-10-16, stamps through Oct. 16, capabilities and AI-models ZIPs refreshed that day)
+- https://epoch.ai/data/ai-models - the AI models explorer: "over 3600 models" database claim and per-dataset download stamps (fetched 200, 2026-10-05; re-fetched 200, 2026-10-16, still over 3,600, CSVs stamped Oct. 15-16)
+- https://epoch.ai/team - team size and leadership including Jaime Sevilla (fetched 200, 2026-09-24; re-fetched 200, 2026-10-16, 57 people listed)
+- https://epoch.ai/frontiermath - the FrontierMath benchmark surface (fetched 200, 2026-09-24; re-fetched 200, 2026-10-16, now a three-part program: Tiers 1-4, Open Problems, Erdős)
+- https://techcrunch.com/2025/01/19/ai-benchmarking-organization-criticized-for-waiting-to-disclose-funding-from-openai/ - the funding-disclosure controversy (fetched 200, 2026-09-24; re-fetched 200, 2026-10-16, live)
+- https://github.com/epoch-research - active data and benchmark repositories (re-fetched 200, 2026-10-16, pushes through Oct. 15, 39 repositories)
+- https://epochai.substack.com/ - the Gradient Updates newsletter (fetched 200, 2026-09-24; re-fetched 200, 2026-10-16, live)

@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-10-15
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
@@ -27,6 +27,7 @@ The npm install is deprecated in favor of a native installer; third-party provid
 
 **Active and dominant.**
 The `anthropics/claude-code` repository shows about 150.9k stars and about 15.0k open issues and pull requests as of 2026-10-15; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
+The vendor's official Code Review plugin had about 438,525 installs as of 2026-10-16 and runs five parallel reviewers, an in-product sibling recorded here as ecosystem evidence rather than profiled on its own.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&theme=dark&legend=top-left" />
@@ -78,6 +79,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 
 ## Changes
 
+- 2026-10-16 - Recorded the official Code Review plugin (about 438,525 installs, five parallel reviewers) as ecosystem evidence in Status per the vendor-sibling fold precedent.
 - 2026-08-22 - Created in the Harnesses category seed with the prompt-steganography and token-overhead findings recorded.
 - 2026-08-22 - Removed the type field per the section-wide owner rules change.
 - 2026-08-23 - Style conformance pass: bolded section key insights, split the longest sentences, named the proxy-study referent, and set the updated field.

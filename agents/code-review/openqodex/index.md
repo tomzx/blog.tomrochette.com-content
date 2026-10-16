@@ -1,7 +1,7 @@
 ---
 title: OpenQodex
 created: 2026-10-11
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -24,6 +24,7 @@ It is open source under Apache-2.0 from Qodex.ai, a San Francisco company whose 
 
 **Twelve days old and moving fast: adoption numbers up, and the first independent eval is now in.**
 The repo (openqodex/openqodex) was created October 2, 2026 and shows 653 stars, 51 forks, and 15 npm releases (v0.12.0, October 10, 2026, is latest) as of 2026-10-13, pushed the same day.
+The train continued on October 15 with v0.13.0 (16 npm versions now): repository owners choose convention files (review.instructions_files) that get quoted into the review brief and bound to their original content, every correction round is saved in rounds.json beside the report, report.json gains per-phase timings, the reviewer time cap rose from 10 to 30 minutes per change, and usage.json records each round's model, tokens, and cost.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openqodex/openqodex&type=date&theme=dark&legend=top-left" />
@@ -73,6 +74,7 @@ My disagreeable take: the completeness contract is the actual invention here, be
 - 2026-10-11 - Created after the entrant scan resolved the openqodex/openqodex candidate from the GitHub topic search; seven sources fetched this run, including the absent-HN-footprint search as the coverage signal.
 - 2026-10-11 - Added the star history chart.
 - 2026-10-13 - Recorded the first independent coverage: the October 11 Hacker News eval (OpenQodex found 31 percent of known bugs, last of four configurations, with 86 percent of its findings judged real) and the reported CodeRabbit-killer X advertising, with repo and npm counts refreshed (653 stars, 4,533 weekly downloads).
+- 2026-10-16 - Recorded v0.13.0 (October 15): owner-chosen convention files bound into the review brief, correction-round receipts in rounds.json, per-phase timings, the reviewer cap raised from 10 to 30 minutes per change, and per-round token and cost records in usage.json.
 
 ## See also
 
@@ -89,7 +91,7 @@ My disagreeable take: the completeness contract is the actual invention here, be
 - https://qodex.ai/openqodex - the product page: the separate-reviewer thesis, the hosted-Qodex split, the no-telemetry and nothing-open-becomes-paid pledges, San Francisco address, fetched 2026-10-11
 - https://registry.npmjs.org/openqodex - 15 versions, v0.12.0 latest, package created 2026-10-02 (npm registry, fetched 2026-10-11)
 - https://api.npmjs.org/downloads/point/last-week/openqodex - 2,744 downloads, week of 2026-10-03 to 2026-10-09 (fetched 2026-10-11)
-- https://api.github.com/repos/openqodex/openqodex/releases - the release train: v0.9.0 through v0.12.0 in the four days to October 10, plus a benchmark-data release (fetched 2026-10-11, re-fetched 2026-10-13)
+- https://api.github.com/repos/openqodex/openqodex/releases - the release train: v0.9.0 through v0.12.0 in the four days to October 10, plus a benchmark-data release, then v0.13.0 on October 15 (fetched 2026-10-11, re-fetched 2026-10-13 and 2026-10-16)
 - https://hn.algolia.com/api/v1/search?query=openqodex&tags=story - the HN search that first surfaced independent coverage: the October 11 slop-software post naming the tool (queried 2026-10-13)
 - https://hn.algolia.com/api/v1/items/50043719 - the first independent eval thread, October 11, 2026: OpenQodex at 31 percent recall and 86 percent of findings judged real, last of four configurations (fetched 2026-10-13)
 - https://github.com/theonly1me/shadowclone/tree/main/evals/code-review - the poster's public eval harness and results behind the comparison (fetched 2026-10-13)

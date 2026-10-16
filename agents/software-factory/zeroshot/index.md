@@ -1,7 +1,7 @@
 ---
 title: Zeroshot
 created: 2026-10-10
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, review-loop, multi-agent]
 readability: 3
@@ -21,7 +21,9 @@ Delivery is a ladder you opt into, from keep-it-local through --push, --pr, and 
 
 ## Status
 
-Active and shipping: 1,969 stars since creation on 2025-12-25, pushed 2026-10-13, v10.10.1 released 2026-10-06 with npm in sync, per the GitHub API and the npm registry as of 2026-10-13.
+Active and shipping: 1,969 stars since creation on 2025-12-25, per the GitHub API as of 2026-10-13.
+Pushed 2026-10-16, with v10.12.0 (2026-10-15) the newest release after v10.11.0 (2026-10-14), npm in sync at 10.12.0, and a Python SDK release train (zeroshot-python tags) riding each release since 2026-10-14, per the GitHub API and the npm registry as of 2026-10-16.
+v10.11.0 added planner-led archived exploration with three independent scouts, and v10.12.0 lets local runs take a `--cwd` folder without Git and adds generic Git transport.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=the-open-engine/zeroshot&type=date&theme=dark&legend=top-left" />
@@ -65,6 +67,7 @@ Not for teams that require a deterministic final gate, third-party validation fi
 ## Changes
 
 - 2026-10-10 - Created from the awesome-software-factories scan as the independent-review-loop member.
+- 2026-10-16 - Recorded the train to v10.12.0 (2026-10-15, npm in sync), the new Python SDK release train, and the two features (planner-led archived exploration with three independent scouts in v10.11.0, local-folder and generic-Git-transport runs in v10.12.0).
 
 ## See also
 

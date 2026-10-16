@@ -12,9 +12,9 @@ Sites that watch the AI field itself and publish a continuously refreshed number
 The category's dividing line is what the number measures, since each member answers a different question about the same field.
 
 - [AI Release Tracker](ai-release-tracker/index.md) - a free, ad-free timeline of frontier releases since ChatGPT, with launch-day scores and flat-file exports for agents.
-- [Artificial Analysis](artificial-analysis/index.md) - independent quality, price, and speed measurement across 696 models, 100+ providers, and the chips underneath.
-- [BenchLM](benchlm/index.md) - a solo-built composite re-ranking 889 tracked models into one evidence-labeled score, with its own failed validation checks published.
-- [Benchmark Radar](benchmark-radar/index.md) - an open benchmark catalog and search engine crawling 39 sources daily, with every record's evidence linked, the category's only member whose subject is the benchmarks themselves.
+- [Artificial Analysis](artificial-analysis/index.md) - independent quality, price, and speed measurement across 702 models, 100+ providers, and the chips underneath.
+- [BenchLM](benchlm/index.md) - a solo-built composite re-ranking 950 tracked models into one evidence-labeled score, with its own failed validation checks published.
+- [Benchmark Radar](benchmark-radar/index.md) - an open benchmark catalog and search engine crawling 40 sources daily, with every record's evidence linked, the category's only member whose subject is the benchmarks themselves.
 - [Epoch AI](epoch-ai/index.md) - the research nonprofit's open datasets and trend series on models, compute, data centers, and AI's trajectory.
 - [LiveBench](livebench/index.md) - a contamination-limiting public benchmark that rotates questions and scores by objective ground truth, with questions, answers, and judgments downloadable.
 - [LLM Stats](llm-stats/index.md) - a conservative composite leaderboard over 408 models with the category's only MCP server for agents.

@@ -1,7 +1,7 @@
 ---
 title: "Machinist"
 created: 2026-09-05
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, go]
 readability: 3
@@ -15,12 +15,14 @@ audience_notes: >
 ## What it is
 
 A MIT-licensed Go control plane that runs coding-agent workflows on your own machine: a config file maps named commands to executors (Codex, Claude Code, any agent CLI, a test runner, a shell script), sends prompts on standard input, streams output, and records durable events, artifacts, terminal outcomes, duration, and reported token use.
+Since the 2026-10-15 app release it also runs as a local web application: connect a GitHub App, add repositories as projects, and launch a standard pipeline (triage, optional spec, build, independent review) or single-agent jobs, with saved automations run manually or on a schedule.
 Repositories, credentials, model aliases, and executor configuration stay on the worker; the human gate is explicit, since Machinist hands back a pull request and does not decide what ships.
 Scripts are deliberately opaque to the controller: no invented child runs, graphs, or checkpoints, and a killed script restarts from the beginning unless the script owns its own checkpointing.
 
 ## Status
 
-Active and early: created 2026-07-16, 502 stars and 96 forks, pushed 2026-10-12, releases v0.1.0 through v0.4.0 (v0.4.0 on 2026-08-31 still the newest, with 53 commits on main since), with the README labeling it early-access software, all per the GitHub API as of 2026-10-13.
+Active and early: created 2026-07-16, 502 stars and 96 forks as of 2026-10-13, releases v0.1.0 through v0.4.0 with v0.4.0 (2026-08-31) still the newest, and the README labeling it early-access software.
+**The 2026-10-15 push is a step change, not routine churn: 80 commits past v0.4.0 in one day added a GitHub App onboarding flow, the local web app's standard pipeline (triage, optional spec approval, build, independent review, up to three repair rounds before a human merge), scheduled automations, multi-repository projects, and a gVisor Kubernetes runner target, per the GitHub API and the repository docs as of 2026-10-16.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&theme=dark&legend=top-left" />
@@ -28,7 +30,7 @@ Active and early: created 2026-07-16, 502 stars and 96 forks, pushed 2026-10-12,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&legend=top-left" />
 </picture>
 
-**There is no Hacker News thread or independent coverage as of 2026-10-13, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
+**There is no Hacker News thread or independent coverage as of 2026-10-16, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
 The velocity (five releases in eight weeks) says maintained; the single-author commit history says bus-factor one.
 
 ## Strengths
@@ -40,7 +42,7 @@ The velocity (five releases in eight weeks) says maintained; the single-author c
 ## Cautions
 
 - Solo-maintainer risk on an early-access product, with no independent evaluation of the execution model yet.
-- No resumable stages or built-in isolation in the controller: the note-level worktree story depends on the executors you configure.
+- Isolation is opt-in and narrow: the gVisor Kubernetes runner target exists but supports only Codex subscription authentication at launch, and local and VM runs still depend on the executors you configure.
 - The missing HN footprint cuts both ways: no drama, but also no second opinion.
 
 ## Pricing
@@ -66,6 +68,7 @@ Not for teams needing proven scale, resumable pipelines, or a community to escal
 - 2026-09-25 - Re-verified the zero-coverage claim and refreshed counts (458 stars, pushed 2026-09-24, 53 commits past v0.4.0, no new release).
 - 2026-09-27 - Re-verified the zero-coverage claim and refreshed counts (463 stars, no new release).
 - 2026-10-07 - Added the owainlewis/machinist star history chart to the Status section.
+- 2026-10-16 - Recorded the 2026-10-15 step-change push (GitHub App onboarding, the local app's standard pipeline with triage, spec approval, independent review, and up to three repair rounds before human merge, scheduled automations, multi-repository projects, and the gVisor Kubernetes runner target) with 80 commits past v0.4.0 and still no release past v0.4.0; the isolation caution corrected and the zero-coverage claim re-verified to 2026-10-16.
 
 ## See also
 
@@ -81,3 +84,4 @@ Not for teams needing proven scale, resumable pipelines, or a community to escal
 - https://github.com/owainlewis/machinist/blob/main/docs/configuration.md - commands, executors, workers, and repositories
 - https://github.com/owainlewis/machinist/releases - the release cadence grounding the status section
 - https://github.com/owainlewis/machinist/blob/main/examples/workflows/README.md - repository-owned orchestration examples
+- https://raw.githubusercontent.com/owainlewis/machinist/main/docs/local-factory/kubernetes.md - the gVisor Kubernetes runner target, its restricted egress, and its Codex-only launch support

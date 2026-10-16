@@ -1,7 +1,7 @@
 ---
 title: Greptile
 created: 2026-08-24
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, code-review, code-retrieval, developer-tools]
 readability: 3
@@ -20,14 +20,14 @@ Greptile is an AI code review service that indexes your repositories into a grap
 **It is a validation layer, deliberately not a code generator.**
 The product indexes repos, then parallel agents review PRs for bugs, security issues, and multi-file logic errors, learning each team's conventions by reading GitHub/GitLab comments (learnings isolated per organization).
 TREX (beta) extends review with sandboxed execution, writing and running tests per PR.
-Integrations point both ways: one-click handoff of each finding to Claude Code, Cursor, Codex, or Devin, a Greptile MCP server so agents can pull learned rules and resolve comments, a CLI, auto-detection of CLAUDE.md and .cursorrules, and Jira/Notion context.
+Integrations point both ways: one-click handoff of each finding to Claude Code, Cursor, Codex, or Devin, a Greptile MCP server so agents can pull learned rules and resolve comments, a Claude Code plugin that reads and resolves Greptile comments on its own, /greploop, which lets any coding agent iterate with Greptile until its issues resolve, a CLI, auto-detection of CLAUDE.md and .cursorrules, and Jira/Notion context.
 Self-hosted in your own AWS or air-gapped VPC is supported, with SOC 2 and GitHub plus GitLab coverage, plus a bulk API for building your own tools on the index.
 Behind it is Tabnam, Inc., a YC W24 company founded in 2023 by three Georgia Tech graduates (Daksh Gupta, Soohoon Choi, Vaishant Kameswaran).
 
 ## Status
 
 **Active, well-funded, and shipping.**
-The homepage claims 22,000+ teams and names Nvidia, Brex, Substack, PostHog, Zapier, and Retool as users (vendor claim as of 2026-10-11).
+The homepage claims 22,000+ teams and names Nvidia, Brex, Substack, PostHog, Zapier, and Retool as users (vendor claim as of 2026-10-16).
 Funding: $4M seed led by Initialized Capital (June 2024), then a $25M Series A led by Benchmark Capital (September 23, 2025) alongside YC and Initialized; the YC directory lists a team of about 35.
 Release cadence is real: v3 rewrite (September 2025), TREX (June 2026), v5 (August 5, 2026), with the Series A post citing 500M+ lines reviewed that September month.
 
@@ -48,7 +48,8 @@ Release cadence is real: v3 rewrite (September 2025), TREX (June 2026), v5 (Augu
 ## Pricing
 
 **Metered credits mean the reviewer's bill scales with your PR velocity, not your headcount, which is either alignment or a tax depending on your merge rate.**
-Starter is free for one active developer with 50 credits per month; Pro is $30 per seat per month including 50 credits per seat, with extra credits at $1 each and TREX reviews costing 3 credits (as of 2026-10-11).
+Starter is free for one active developer with 50 credits per month; Pro is $30 per seat per month including 50 credits per seat, with extra credits at $1 each (as of 2026-10-16).
+Since September 25, 2026, reviews come in three depth tiers, Base at 1 credit, Plus at 3, and Apex at 10, selectable per review or by rule for large or high-risk PRs, and the pricing page's FAQ now prices reviews this way and no longer names TREX, whose 3-credit price the plans carried before; plan prices are unchanged.
 Free usage for qualified open source projects and discounts for pre-Series A startups are advertised but, per the caution above, community reports dispute how this lands in practice.
 Self-hosted enterprise and bulk API pricing are custom.
 
@@ -57,6 +58,7 @@ Self-hosted enterprise and bulk API pricing are custom.
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09-18 | Starter, Pro | Baseline: Starter free for one active developer (50 credits/mo), Pro $30/seat/mo with 50 credits included, extra credits $1 each, TREX reviews 3 credits; re-verified unchanged 2026-10-10. | [greptile.com](https://greptile.com/) |
+| 2026-09-25 | Review depth tiers | Introduced Base (1 credit), Plus (3), and Apex (10) credits per review; Starter and Pro plan prices unchanged. | [greptile.com/blog/introducing-plus-and-apex](https://www.greptile.com/blog/introducing-plus-and-apex) |
 
 ## Compared to
 
@@ -75,6 +77,7 @@ My disagreeable claim: the graph index everyone credits Greptile for is the leas
 - 2026-08-24 - Created among the seed notes of the Context engines category.
 - 2026-08-30 - Moved into the new Code review category on category-fit grounds, with see-also links updated to its new siblings.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-16 - Rotation re-verification: recorded the Plus and Apex review-depth tiers (September 25, 2026, Base 1 credit, Plus 3, Apex 10) in Pricing with a Price history row, and the Claude Code plugin plus /greploop agent-iteration integration from the homepage; every cited URL re-fetched live, plan prices unchanged.
 
 ## See also
 
@@ -87,6 +90,8 @@ My disagreeable claim: the graph index everyone credits Greptile for is the leas
 ## References
 
 - https://greptile.com/ - product surface, customer list, team count, and pricing FAQ as claimed by the vendor
+- https://www.greptile.com/pricing - the Starter/Pro/Enterprise table and the Base (1), Plus (3), Apex (10) credit FAQ, fetched 2026-10-16
+- https://www.greptile.com/blog/introducing-plus-and-apex - the September 25, 2026 review-depth-tier launch post, fetched 2026-10-16
 - https://www.greptile.com/blog/series-a - $25M Series A led by Benchmark, v3 claims, 500M+ lines reviewed
 - https://www.ycombinator.com/companies/greptile - YC W24 batch, founding year, founders, team size
 - https://techcrunch.com/2024/06/06/greptile-raises-4m-to-build-an-ai-code-base-expert/ - $4M seed, API-first origin, customer counts at seed

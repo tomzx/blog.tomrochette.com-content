@@ -1,7 +1,7 @@
 ---
 title: Loki Mode
 created: 2026-10-07
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, autonomous-agents, verification]
 readability: 3
@@ -21,7 +21,8 @@ Autonomi publishes it under BUSL-1.1, and the README documents outcomes and exit
 
 ## Status
 
-Active and shipping fast: 1,093 stars and 206 forks since creation on 2025-12-26, pushed 2026-10-12, npm at 11.3.9 (2026-10-09), and 177,894 Docker pulls, per GitHub, npm, and Docker Hub as of 2026-10-13.
+Active and shipping fast: 1,093 stars and 206 forks since creation on 2025-12-26 (as of 2026-10-13), 179,996 Docker pulls as of 2026-10-16, per GitHub and Docker Hub.
+Pushed 2026-10-16, and the npm train moved from 11.3.9 (2026-10-09) to v11.15.0 (2026-10-16), published under the `next` tag while `latest` holds 11.10.1, per the GitHub API and the npm registry as of 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=asklokesh/loki-mode&type=date&theme=dark&legend=top-left" />
@@ -31,6 +32,7 @@ Active and shipping fast: 1,093 stars and 206 forks since creation on 2025-12-26
 
 **Its Hacker News footprint is self-submitted threads in the single digits, and the 99.67 percent SWE-Bench claim in one of them is self-reported, so no independent evaluation exists as of 2026-10-07.**
 The version line moves faster still: eight published releases in the two days to 2026-10-09, after the five that closed 2026-10-08, with v11.3.3 never published because its release run failed.
+The 11.4-to-11.15 burst added a publish pattern the release notes state plainly: most tagged versions in the run (v11.4.0 through v11.14.0) failed required CI and reached npm only through fix-forward patches, and v11.6.0 was a consolidation release that merged or deleted every duplicate module under an "extend existing code, never duplicate" rule.
 v11.3.1 shipped the 11.3 program's ten v1 features (cost preview, mutation proof, intent card, reviewer brief, scored worktree attempts, memory with proof, overnight queue, before/after proof, provider failover, and a supply-chain guard), the router escalation chain and plan-time routing from v11.3.0 stay off by default, and the v11.3.4 through v11.3.9 security arc hardened credential reach, with the release notes now stating plainly that this is default-path hardening, not a sandbox.
 
 ## Strengths
@@ -70,6 +72,7 @@ Not for teams that require OSI licensing, and not for anyone who needs independe
 - 2026-10-08 - Recorded the npm train's jump from 11.0.3 to 11.3.0 (five releases in the two days to 2026-10-08, led by the router escalation chain shipped off by default) and refreshed counts.
 - 2026-10-09 - Recorded the train to 11.3.9 (eight published releases since 11.3.0, v11.3.3 never published after a failed release run), the v11.3.1 ship of the 11.3 program's ten v1 features, the v11.3.4-v11.3.9 credential-hardening arc with its "hardening, not a sandbox" wording, the provider roster's Cline and Aider additions as experimental, and refreshed counts.
 - 2026-10-11 - Added the BUSL-1.1 use grant and its 2030-03-19 Apache-2.0 conversion date to Pricing, recorded the autonomi.dev fetch failure (empty on two attempts), and refreshed counts.
+- 2026-10-16 - Recorded the train from 11.3.9 to v11.15.0 (2026-10-16, `next` tag while `latest` holds 11.10.1), the fix-forward publish pattern where CI-failed tags reached npm only through patches, and the v11.6.0 consolidation release.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: CodeRabbit
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -16,7 +16,7 @@ CodeRabbit is a commercial AI code review service (the coderabbitai GitHub and G
 
 **It is the category's default install: the most-installed AI app on GitHub and GitLab, positioned as the independent verifier for code that agents write.**
 Reviews run on PRs using a codegraph, dozens of context sources, and a learning loop ("Learnings") that picks up each team's conventions, then loops with coding agents like Claude Code, Codex, Cursor, and Gemini to fix what it flags.
-Surfaces cover the pull request (GitHub/GitLab), the IDE (VS Code, Cursor, Windsurf since May 2025), and the terminal (CLI since September 16, 2025), and August 2026 added Triage for prioritizing the PR queue, Change Stack for explaining massive diffs, and Security for post-merge monitoring.
+Surfaces cover the pull request (GitHub/GitLab), the IDE (VS Code, Cursor, Windsurf since May 2025), and the terminal (CLI since September 16, 2025), August 2026 added Triage for prioritizing the PR queue, Change Stack for explaining massive diffs, and Security for post-merge monitoring, and the pricing page now also lists Engineer as an on-demand product (assign coding tasks and automations through Slack).
 It is proprietary SaaS from CodeRabbit, Inc., founded by Harjot Gill and Gur Singh, with self-hosting reserved for Enterprise and free reviews forever for public repositories.
 
 ## Status
@@ -77,6 +77,7 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 - 2026-09-04 - Slack agent price cut from $0.50 to $0.40 per agent minute.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
+- 2026-10-16 - Rotation re-verification: added the Engineer on-demand product (Slack-driven coding tasks and automations) to the surface inventory; every cited URL re-fetched live, all prices unchanged.
 
 ## See also
 

@@ -16,6 +16,7 @@ Where machines judge pull requests: the review bots, the open-source reviewers, 
 - [Graphite Diamond](graphite-diamond/index.md) - the deprecated Diamond reviewer, now Graphite Agent inside Cursor since the December 2025 acquisition.
 - [Greptile](greptile/index.md) - AI code review running a swarm of agents over a graph index of your repositories, learned house rules included.
 - [Kodus](kodus/index.md) - the AGPL-3.0 open-source reviewer with BYOK and zero token markup, self-hosted or on Kodus Cloud.
+- [multi](multi/index.md) - the solo MIT plugin that runs one review through several model backends and sorts the findings by how many model families corroborated them.
 - [OpenCodeReview](open-code-review/index.md) - Alibaba's hybrid reviewer where deterministic pipelines pick and rule-check what the LLM agent judges, precision over recall.
 - [OpenQodex](openqodex/index.md) - Qodex.ai's Apache-2.0 pre-push reviewer: pinned scanners plus a separate Claude Code or Codex process, free on your own agent subscription.
 - [OpenReview](openreview/index.md) - Vercel Labs' dormant beta: a self-hosted @mention review bot on Vercel Sandbox, unlicensed and quiet since March 2026.
@@ -39,3 +40,4 @@ Its members are compared on shared rows in the [Code Review Feature Matrix](code
 - 2026-10-10 - Added git-lrc.
 - 2026-10-11 - Added OpenQodex.
 - 2026-10-11 - Added OpenReview.
+- 2026-10-16 - Added multi.

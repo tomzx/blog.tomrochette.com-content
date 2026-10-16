@@ -83,6 +83,8 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - q#24 (2026-10-12) | task-management | owner-tools exception (disclosed ownership, bar still applied) or the TomzxCode/agentic rejection stands
 - q#25 (2026-10-14) | cross-category | leave the browser-automation family (browser-use and peers) out of scope or open a browser-automation family
 - q#26 (2026-10-14) | automated-research | wire either, both, or neither of the two autoresearch lists (webfuse-com, WecoAI)
+- q#27 (2026-10-16) | executions | wire serenakeyitan/awesome-agent-loops (214 stars, stale since 2026-06-22, recipe collection) into the category-source list or stay on broad sources
+- q#28 (2026-10-16) | trackers-and-leaderboards | wire onejune2018/Awesome-LLM-Eval (659 stars, stale since 2025-11-24, academic-eval focus) into the category-source list or stay on broad sources
 
 ## Re-review triggers
 
@@ -95,6 +97,7 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-09-25 | hybrid-execution | MoJev reopens on independent traction | uncategorized at 29 stars, self-published
 - 2026-10-15 | hybrid-execution | TypeChat reopens on a first tagged release or npm publication | 2026-10-15 re-confirmed rejection (zero releases ever), but the 10-13 push added three named TypeScript-team maintainer commits and a Programs blog post
 - 2026-10-16 | assistant-runtimes | OpenAgent reopens on independent coverage or crossing the member floor | 5,698 stars but below the category floor (smallest member Octop about 9.2k), zero independent coverage, keyword-stuffed topics
+- 2026-10-16 | software-factory | uzi (vtmocanu) reopens on independent coverage or a stable release | 91 stars, MIT, alpha, nightly RC train, only a self-authored write-up, below the Orbi precedent (213 stars rejected 2026-10-11)
 - 2026-09-25 | trackers-and-leaderboards | bestvaluemodel reopens on sustained operation and a license | one-day-old derivative of member Artificial Analysis
 - 2026-09-25 | trackers-and-leaderboards | llm-list.com reopens on independent coverage | fully derivative of models.dev, OpenRouter, Arena, Artificial Analysis, and Hugging Face
 - 2026-09-27 | hybrid-execution | drawgent reopens on a primary mirror | license and stars unverifiable from tangled.org-only hosting
