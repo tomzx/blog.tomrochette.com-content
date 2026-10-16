@@ -1,7 +1,7 @@
 ---
 title: Letta
 created: 2026-08-24
-updated: 2026-10-09
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, agent-frameworks]
 readability: 3
@@ -24,7 +24,7 @@ Surfaces now include the CLI, desktop app, chat.letta.com, messaging channels, a
 ## Status
 
 **Active, research-first, mid-pivot.**
-The `letta-ai/letta` repository (25.1k stars as of 2026-10-10) is now a landing page; the retired V1 API server lives on an unsupported archive branch with no security fixes, which strands self-hosters.
+The `letta-ai/letta` repository (25.2k stars as of 2026-10-16) is now a landing page; the retired V1 API server lives on an unsupported archive branch with no security fixes, which strands self-hosters.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=letta-ai/letta&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ The `letta-ai/letta` repository (25.1k stars as of 2026-10-10) is now a landing 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=letta-ai/letta&type=date&legend=top-left" />
 </picture>
 
-Real development moved to `letta-ai/letta-code` (3.6k stars as of 2026-10-10, 3,689 commits as of 2026-10-04).
+Real development moved to `letta-ai/letta-code` (3.6k stars as of 2026-10-16, 3,780 commits as of 2026-10-16, latest tagged release v0.34.15 on 2026-10-15).
 The company raised a $10M seed led by Felicis at a $70M post-money valuation in September 2024.
 Letta Code launched December 2025 claiming the #1 model-agnostic OSS harness on TerminalBench; its HN thread drew 83 points and 37 comments, respect, not adoption-scale buzz.
 
@@ -53,7 +53,7 @@ Letta Code launched December 2025 claiming the #1 model-agnostic OSS harness on 
 ## Pricing
 
 Free: BYOK plus 3 stateful agents.
-Pro $20/month (up to 20 stateful agents), Teams Pro for shared team resources, Enterprise custom, and usage-based Developer plans for API workloads (the published per-agent metering, $0.10 per active agent per month plus $0.00015 per second of tool execution, dates to the 2026-09-18 baseline), as of 2026-10-10.
+Pro $20/month (up to 20 stateful agents), Teams Pro for shared team resources, Enterprise custom, and usage-based Developer plans for API workloads (the published per-agent metering, $0.10 per active agent per month plus $0.00015 per second of tool execution, dates to the 2026-09-18 baseline), as of 2026-10-16.
 **The free tier is genuinely usable because the expensive part (models) is yours.**
 
 ## Price history
@@ -79,6 +79,7 @@ Not for teams wanting stable infrastructure: the V1 server burial proves the roa
 - 2026-09-05 - Reconciled an internal star count inconsistency across the note.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-07 - Added the letta-ai/letta star history chart to the Status section.
+- 2026-10-16 - Rotation re-verification: every cited URL re-fetched live and the pricing ladder re-verified unchanged; letta-code's commit count refreshed to 3,780 and its latest tagged release recorded (v0.34.15, 2026-10-15), and the landing-page repository refreshed to 25.2k stars.
 
 ## See also
 
@@ -90,10 +91,10 @@ Not for teams wanting stable infrastructure: the V1 server burial proves the roa
 ## References
 
 - https://www.letta.com/ - company surface, research timeline, backers
-- https://github.com/letta-ai/letta - landing-page status and archived V1 server, stars as of 2026-10-10
+- https://github.com/letta-ai/letta - landing-page status and archived V1 server, stars as of 2026-10-16
 - https://github.com/letta-ai/letta-code - the active harness, features, license
 - https://www.letta.com/blog/letta-code - the memory-first launch post and TerminalBench claim
 - https://arxiv.org/abs/2310.08560 - MemGPT: the paper the field cites
 - https://techcrunch.com/2024/09/23/letta-one-of-uc-berkeleys-most-anticipated-ai-startups-has-just-come-out-of-stealth/ - seed round and origin
-- https://docs.letta.com/pricing - plan structure, re-verified 2026-10-02 (Free 3 agents, Pro $20); the API-plan per-agent rates date from the 2026-09-18 baseline
+- https://docs.letta.com/pricing - plan structure, re-verified 2026-10-16 (Free 3 agents, Pro $20); the API-plan per-agent rates date from the 2026-09-18 baseline
 - https://news.ycombinator.com/item?id=46294274 - launch thread with founder answers and skeptic pushback

@@ -1,7 +1,7 @@
 ---
 title: Zep
 created: 2026-08-24
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, knowledge-graphs]
 readability: 3
@@ -24,7 +24,7 @@ A Memory MCP Server and plugins for Claude Code, Codex, and Cursor push Zep memo
 ## Status
 
 **Active, enterprise-focused, post-open-core.**
-Graphiti shows about 31.6k stars as of 2026-10-11 (998 commits as of 2026-10-02); its Show HN drew 142 points.
+Graphiti shows about 31.8k stars as of 2026-10-16 (1,026 commits as of 2026-10-16); its Show HN drew 142 points.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getzep/zep&type=date&theme=dark&legend=top-left" />
@@ -53,7 +53,7 @@ I found no announced venture funding, which is itself a signal: it is bootstrapp
 ## Pricing
 
 Free: 10,000 credits per month, no rollover.
-Flex $104/month billed annually ($125 monthly) with 50,000 credits; Flex Plus $312/month annually ($375 monthly) with 200,000; Enterprise custom, as of 2026-10-10.
+Flex $104/month billed annually ($125 monthly) with 50,000 credits; Flex Plus $312/month annually ($375 monthly) with 200,000; Enterprise custom, as of 2026-10-16 (the pricing page now leads with monthly billing behind a Save-17-percent annual toggle).
 A credit covers one episode up to 350 bytes; retrieval, storage, and users are unmetered.
 
 ## Price history
@@ -78,6 +78,7 @@ Not for solo builders or small budgets, and my disagreeable claim is that Mem0's
 - 2026-08-24 - Created in the Memory category seed.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-07 - Added the getzep/zep star history chart to the Status section.
+- 2026-10-16 - Rotation re-verification: every cited URL re-fetched live, the ladder re-verified unchanged (Flex $125 monthly, annual saving 17 percent, overage $25 per 10,000 credits), and Graphiti refreshed to about 31.8k stars and 1,026 commits.
 
 ## See also
 
@@ -89,9 +90,9 @@ Not for solo builders or small budgets, and my disagreeable claim is that Mem0's
 ## References
 
 - https://www.getzep.com/ - product claims, retrieval latency, customer list, deployment models
-- https://github.com/getzep/graphiti - engine architecture, stars as of 2026-10-10 (commits as of 2026-10-02), self-host requirements
+- https://github.com/getzep/graphiti - engine architecture, stars as of 2026-10-16 (commits as of 2026-10-16), self-host requirements
 - https://github.com/getzep/zep - Community Edition deprecation and current repo role
 - https://arxiv.org/abs/2501.13956 - the Zep paper (temporal knowledge graph for agent memory)
-- https://www.getzep.com/pricing - plans and credit metering as of 2026-10-11, re-verified unchanged (Flex $104 annual / $125 monthly)
+- https://www.getzep.com/pricing - plans and credit metering as of 2026-10-16, re-verified unchanged (Flex $104 annual / $125 monthly, overage $25 per 10,000 credits)
 - https://blog.getzep.com/announcing-a-new-direction-for-zeps-open-source-strategy/ - the open-core retreat, April 2025
 - https://blog.getzep.com/lies-damn-lies-statistics-is-mem0-really-sota-in-agent-memory/ - the benchmark rebuttal, with its own correction

@@ -1,7 +1,7 @@
 ---
 title: Requesty
 created: 2026-09-26
-updated: 2026-10-14
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, ai-gateway, llm-routing, eu-data-residency]
 readability: 3
@@ -74,8 +74,8 @@ My most contestable claim: without repetitive traffic that actually hits the cac
 
 ## References
 
-- https://requesty.ai/pricing - 5% markup quote, tier table, 200 requests/day free tier, EU residency (re-verified unchanged 2026-10-06, 2026-10-11, and 2026-10-14)
+- https://requesty.ai/pricing - 5% markup quote, tier table, 200 requests/day free tier, EU residency (re-verified unchanged 2026-10-06, 2026-10-11, 2026-10-14, and 2026-10-16)
 - https://www.requesty.ai/blog/requesty-raises-3m - $3M seed led by 20VC, investor list, EU positioning (published 2025-09-26)
 - https://www.requesty.ai/blog/best-llm-routing-platforms-compared-2026-requesty-portkey-litellm-openrouter - their own marketing comparison; Rust, 8ms P50 claim, OpenRouter's 5.5% credit fee (published 2026-06-23)
 - https://www.truefoundry.com/blog/requesty-ai-pricing - competitor-authored critical guide; BYOK 0%, 30-day prompt retention, SOC 2 in progress (published 2026-09-11)
-- https://hn.algolia.com/api/v1/search?query=requesty.ai&tags=story - no meaningful Hacker News footprint found (queried 2026-09-26)
+- https://hn.algolia.com/api/v1/search?query=requesty.ai&tags=story - no meaningful Hacker News footprint found (queried 2026-09-26; re-queried 2026-10-16, still no story about the company)

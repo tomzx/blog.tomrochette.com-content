@@ -1,7 +1,7 @@
 ---
 title: Context7
 created: 2026-10-07
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, documentation, mcp, developer-tools]
 readability: 3
@@ -16,14 +16,14 @@ Context7 is Upstash's hosted service that pulls up-to-date, version-specific lib
 
 ## What it is
 
-A hosted documentation platform by Upstash, the Redis and QStash company, with the MCP server and CLI open source under MIT (62,962 stars, pushed 2026-10-12, as of 2026-10-13).
+A hosted documentation platform by Upstash, the Redis and QStash company, with the MCP server and CLI open source under MIT (63,119 stars, pushed 2026-10-16, as of 2026-10-16).
 The pipeline crawls and version-parses library documentation, scores repository organizations for trust, and runs an LLM-based injection check over stored chunks before serving them.
 Two install modes: an MCP server your agent calls natively (the `@upstash/context7-mcp` npm package, v4.3.0, about 1,027,200 downloads in the week to 2026-10-09), or a `ctx7` CLI plus an agent skill that needs no MCP at all.
 A prompt trigger ("use context7") or the agent's own tool call fetches the docs; only the lookup query and library name leave your machine, not your code.
 
 ## Status
 
-Active and heavily adopted: created 2025-03-26, 62,962 stars, 1,138,735 npm downloads in the week of 2026-10-05 to 2026-10-11, as of 2026-10-13.
+Active and heavily adopted: created 2025-03-26, 63,119 stars, 1,212,373 npm downloads in the week of 2026-10-06 to 2026-10-12, as of 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=upstash/context7&type=date&theme=dark&legend=top-left" />
@@ -83,9 +83,9 @@ Not for private-code context (that is what the repo-indexing members sell), and 
 ## References
 
 - https://github.com/upstash/context7 - repository, MIT license, install modes, and the two-mode delivery story (fetched 200, 2026-10-07)
-- https://api.github.com/repos/upstash/context7 - stars, created date, and push date for the as-of status (fetched 200, 2026-10-07)
+- https://api.github.com/repos/upstash/context7 - stars, created date, and push date for the as-of status (fetched 200, 2026-10-16)
 - https://context7.com - the platform site, Upstash attribution, and product surface (fetched 200, 2026-10-07)
 - https://context7.com/plans - the Free/Pro/Enterprise tier table, call quotas, overage rates, privacy and trust documentation, and the Enterprise seat-price range (fetched 200, 2026-10-07)
-- https://registry.npmjs.org/@upstash/context7-mcp/latest - the published MCP server version 4.3.0 and MIT license (fetched 200, 2026-10-11)
-- https://api.npmjs.org/downloads/point/last-week/@upstash/context7-mcp - weekly download volume for the adoption claim, 1,027,217 for the week to 2026-10-09 (fetched 200, 2026-10-11)
+- https://registry.npmjs.org/@upstash/context7-mcp/latest - the published MCP server version 4.4.2 and MIT license (fetched 200, 2026-10-16)
+- https://api.npmjs.org/downloads/point/last-week/@upstash/context7-mcp - weekly download volume for the adoption claim, 1,212,373 for the week to 2026-10-12 (fetched 200, 2026-10-16)
 - https://upstash.com/blog/context7-vs-web-search-benchmark - the vendor's own head-to-head against Claude Code web search (May 2026): the 34.56 percent cost and 36.81 percent token reductions with their caching caveat, the only published comparison (fetched 200, 2026-10-07)

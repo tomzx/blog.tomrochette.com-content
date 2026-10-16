@@ -1,7 +1,7 @@
 ---
 title: NemoClaw
 created: 2026-10-07
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, nvidia, openclaw, hermes, deep-agents, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, from NVIDIA, which describes the project as alpha with best-effort m
 
 ## Status
 
-Large and fast for an alpha: 22,736 stars, 3,139 forks, 766 open issues and PRs as of 2026-10-13, created 2026-03-15, pushed 2026-10-14.
+Large and fast for an alpha: 22,754 stars, 3,142 forks, 796 open issues and PRs as of 2026-10-16, created 2026-03-15, pushed 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />

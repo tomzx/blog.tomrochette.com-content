@@ -1,7 +1,7 @@
 ---
 title: Cate
 created: 2026-10-08
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source, canvas]
 readability: 3
@@ -27,8 +27,8 @@ It is built by the 0-AI-UG organization, with the v1.0 launch shared on Hacker N
 
 **Active and young: a six-month-old project with a steady release train.**
 The repository was created 2026-03-29, and v1.0 landed May 25, 2026 behind a 65-point Show HN thread (66 comments), preceded by a smaller spatial-workspace thread in May.
-The v2 line carries it now: v2.0.5 (2026-09-30, T3 Connect startup fixes in packaged builds, false agent-ready notification fixes during automatic approval, a hooks-settings rework) is the latest release after v2.0.4 and v2.0.3 in the two weeks before it, and the repository was pushed 2026-10-11.
-About 2.2k stars (2,180) and 141 forks as of 2026-10-12.
+The v2 line carries it now: v2.0.5 (2026-09-30, T3 Connect startup fixes in packaged builds, false agent-ready notification fixes during automatic approval, a hooks-settings rework) is the latest release after v2.0.4 and v2.0.3 in the two weeks before it, and the repository was pushed 2026-10-15.
+About 2.2k stars (2,187) and 141 forks as of 2026-10-16.
 Installs go through prebuilt DMG, NSIS, AppImage, DEB, and tar archives plus a Homebrew cask, and the README tells daily users not to build from source.
 
 <picture>
@@ -80,7 +80,7 @@ Not for keyboard-first minimalists, and not for anyone whose window manager alre
 
 ## References
 
-- https://github.com/0-AI-UG/cate - repository and README (T3 Code chats, agent-aware terminals, worktree territories, the cate CLI, SSH and WSL), MIT license, 2,180 stars and 141 forks as of 2026-10-12
+- https://github.com/0-AI-UG/cate - repository and README (T3 Code chats, agent-aware terminals, worktree territories, the cate CLI, SSH and WSL), MIT license, 2,187 stars and 141 forks as of 2026-10-16
 - https://github.com/0-AI-UG/cate/releases - v2.0.5 (2026-09-30) as the latest release on the v2 train, after v2.0.4 and v2.0.3
 - https://cate.cero-ai.com - the product homepage, a client-rendered shell this run (title only, no server-rendered content)
 - https://news.ycombinator.com/item?id=48265470 - the 65-point v1.0 Show HN thread (66 comments): the window-manager, cognitive-overload, Electron, and Haystack-editor critiques

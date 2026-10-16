@@ -1,7 +1,7 @@
 ---
 title: ArtifactFS
 created: 2026-08-30
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, workspace-provisioning, git, cloudflare, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, Go 1.26+, source build only, no packaged releases.
 
 ## Status
 
-Early beta: 1,184 stars, 52 forks, 6 open issues as of 2026-10-13, created 2026-03-29, last push 2026-09-11.
+Early beta: 1,190 stars, 52 forks, 6 open issues as of 2026-10-16, created 2026-03-29, last push 2026-09-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cloudflare/artifact-fs&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Early beta: 1,184 stars, 52 forks, 6 open issues as of 2026-10-13, created 2026-
 </picture>
 
 Tags run `1.0.0-rc.1` through `rc.10` with no GitHub Releases; 57 commits concentrated in two Cloudflare engineers, and the repo ships its own AGENTS.md.
-**The launch drew a 217-point Hacker News thread, but "Used by" is empty and the parent Artifacts service is still in closed beta.**
+**The launch drew a 217-point Hacker News thread, but "Used by" is empty and the parent Artifacts service is still Workers Paid only per its pricing page, with no sign of the public beta the launch post aimed to open by early May 2026.**
 
 ## Strengths
 
@@ -53,7 +53,7 @@ Tags run `1.0.0-rc.1` through `rc.10` with no GitHub Releases; 57 commits concen
 
 The driver is free, Apache-2.0.
 The Cloudflare Artifacts service it complements is usage-based on Workers Paid: 10,000 operations and 1 GB-month included, then $0.15 per additional 1,000 operations and $0.50 per GB-month, still in closed beta.
-Cloudflare will begin billing for Artifacts operations and storage on 2026-10-14, per its pricing page (page updated 2026-10-01).
+The pricing page (updated 2026-10-01, unchanged when re-fetched 2026-10-16) states billing for Artifacts operations and storage begins on 2026-10-14, a date now past, at the baseline rates below.
 
 ## Price history
 
@@ -79,6 +79,7 @@ Not for small or medium repos, Windows or locked-down CI environments, or anyone
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-04 - Recorded the dated billing start for Artifacts operations and storage (2026-10-14, prices unchanged) from the pricing page, and refreshed counts (1,164 stars, 51 forks).
 - 2026-10-07 - Added the cloudflare/artifact-fs star history chart to the Status section.
+- 2026-10-16 - Rotation re-verification: every cited URL re-fetched live, and the closed-beta claim rewritten to what the pages state today (Artifacts is Workers Paid only per its pricing page, and the launch post's early-May public-beta target has not visibly opened).
 
 ## See also
 

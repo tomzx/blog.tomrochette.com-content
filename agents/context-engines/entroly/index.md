@@ -1,7 +1,7 @@
 ---
 title: Entroly
 created: 2026-10-12
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, receipts, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Two offline commands are the trust surface: `entroly verify-claims` runs twelve 
 
 ## Status
 
-Young, active, and barely discovered: 476 stars, 72 forks, created 2026-03-07, pushed 2026-10-13, PyPI and npm both at 1.0.86 across 104 releases, as of 2026-10-13 (GitHub, PyPI, and npm APIs).
+Young, active, and barely discovered: 476 stars, 72 forks, created 2026-03-07, pushed 2026-10-16, PyPI and npm both at 1.0.87 across 105 releases, as of 2026-10-16 (GitHub, PyPI, and npm APIs).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=juyterman1000/entroly&type=date&theme=dark&legend=top-left" />
@@ -81,11 +81,11 @@ My disagreeable claim: this category's arms race measures the wrong thing, and a
 
 ## References
 
-- https://api.github.com/repos/juyterman1000/entroly - stars, forks, created and pushed dates, Apache-2.0 license, and topics as of 2026-10-12
+- https://api.github.com/repos/juyterman1000/entroly - stars, forks, created and pushed dates, Apache-2.0 license, and topics as of 2026-10-16
 - https://raw.githubusercontent.com/juyterman1000/entroly/main/README.md - mechanism, install surfaces, receipt and recovery model, the README benchmark table with the disclosed SQuAD regression, and the activation-status honesty notes (fetched 200, 2026-10-12)
 - https://raw.githubusercontent.com/juyterman1000/entroly/main/docs/BENCHMARKS.md - full benchmark protocols, sample sizes, the 24/24 versus 18/24 model-recovery holdout, and the WITNESS hallucination-detection numbers (fetched 200, 2026-10-12)
-- https://pypi.org/pypi/entroly/json - version 1.0.86 (uploaded 2026-10-04) and the 104-release train
-- https://registry.npmjs.org/entroly - the npm distribution at 1.0.86
+- https://pypi.org/pypi/entroly/json - version 1.0.87 and the 105-release train (fetched 2026-10-16)
+- https://registry.npmjs.org/entroly - the npm distribution at 1.0.87 (fetched 2026-10-16)
 - https://api.npmjs.org/downloads/point/last-month/entroly - 1,044 downloads in the month to 2026-10-10
 - https://pypistats.org/api/packages/entroly/recent - 1,455 downloads in the trailing month as of 2026-10-12
 - https://hn.algolia.com/api/v1/search?query=entroly&hitsPerPage=5 - the footprint check: no story about the product, all hits unrelated (fetched 2026-10-12)

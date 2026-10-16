@@ -1,7 +1,7 @@
 ---
 title: OpenViking
 created: 2026-10-07
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, context-database, file-based, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint even more than this category's usual pattern.**
-39,625 stars with the repository pushed 2026-10-11, created 2026-01-05, as of 2026-10-11 (GitHub API).
+40,037 stars with the repository pushed 2026-10-16, created 2026-01-05, as of 2026-10-16 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&theme=dark&legend=top-left" />

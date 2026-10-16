@@ -1,7 +1,7 @@
 ---
 title: cc-haha
 created: 2026-10-11
-updated: 2026-10-12
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source, claude-code]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 cc-haha is an MIT-licensed open-source desktop workbench for Claude Code and other agents, packing sessions, worktree launches, diff review, MCP and subagent management, a skills marketplace, and scheduled tasks into one macOS, Windows, and Linux app.
 
-**cc-haha is the broadest Claude Code GUI in this category, and its 8,609 forks against 14,970 stars say its audience lives in an ecosystem this section's other evidence channels barely reach.**
+**cc-haha is the broadest Claude Code GUI in this category, and its 8,609 forks against 15,023 stars say its audience lives in an ecosystem this section's other evidence channels barely reach.**
 
 ## What it is
 
@@ -24,7 +24,7 @@ It is built by NanmiCoder in TypeScript, documented first in Chinese with an Eng
 ## Status
 
 **Active and growing fast outside the English-language channels.**
-The repository was created 2026-03-31 and shows 14,970 stars and 8,609 forks as of 2026-10-12, with commits landing the same day.
+The repository was created 2026-03-31 and shows 15,023 stars and 8,609 forks as of 2026-10-16, with commits landing the same week.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NanmiCoder/cc-haha&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ The repository was created 2026-03-31 and shows 14,970 stars and 8,609 forks as 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NanmiCoder/cc-haha&type=date&legend=top-left" />
 </picture>
 
-The release train runs roughly weekly: v0.6.6 (September 22), v0.6.7 (September 27), v0.6.8 (October 1), v0.7.0 (October 8), and v0.7.1 (October 11) as the latest.
+The release train runs roughly weekly: v0.6.6 (September 22), v0.6.7 (September 27), v0.6.8 (October 1), v0.7.0 (October 8), v0.7.1 (October 11), and v0.7.2 with v0.7.3 (both October 15, DeepSeek account sign-in without an API key, a session-tab count limit, and an urgent fix for a Windows bug that popped black terminal windows on open or resume) as the latest.
 An Algolia search of Hacker News returned zero stories for the project as of 2026-10-11, and this run's search found no third-party coverage in English.
 
 ## Strengths
@@ -69,6 +69,7 @@ Not for teams that need an English-first project, a 1.0 stability guarantee, or 
 - 2026-10-11 - Created from the category entrant scan, admitted on its differentiated whole-control-plane GUI and IM remote access, with the zero-footprint caution recorded.
 - 2026-10-11 - Added the star history chart.
 - 2026-10-12 - Recorded v0.7.1 (October 11, ChatGPT OAuth Fast mode, a regular-subagent concurrency cap, a voice-dictation shortcut, and CSV/TSV preview) as the new latest release; counts refreshed.
+- 2026-10-16 - Recorded v0.7.2 and v0.7.3 (October 15, DeepSeek account sign-in without an API key, a session-tab count limit, and the Windows black-terminal-popup fix) as the new latest releases; counts refreshed.
 
 ## See also
 
@@ -79,8 +80,8 @@ Not for teams that need an English-first project, a 1.0 stability guarantee, or 
 
 ## References
 
-- https://github.com/NanmiCoder/cc-haha - repository, README feature list (sessions, worktrees, diff review, MCP and subagent management, Agent Teams, Computer Use, skills marketplace, IM access, scheduled tasks), MIT license, 14,970 stars and 8,609 forks as of 2026-10-12
-- https://api.github.com/repos/NanmiCoder/cc-haha - creation date 2026-03-31, language TypeScript, push date 2026-10-12, stars and forks as of 2026-10-12
-- https://github.com/NanmiCoder/cc-haha/releases - v0.7.1 (2026-10-11) as the latest release, after v0.7.0 (October 8), v0.6.8 (October 1), and v0.6.7 (September 27)
+- https://github.com/NanmiCoder/cc-haha - repository, README feature list (sessions, worktrees, diff review, MCP and subagent management, Agent Teams, Computer Use, skills marketplace, IM access, scheduled tasks), MIT license, 15,023 stars and 8,609 forks as of 2026-10-16
+- https://api.github.com/repos/NanmiCoder/cc-haha - creation date 2026-03-31, language TypeScript, push date 2026-10-15, stars and forks as of 2026-10-16
+- https://github.com/NanmiCoder/cc-haha/releases - v0.7.3 (2026-10-15) as the latest release, after v0.7.2 (October 15), v0.7.1 (October 11), v0.7.0 (October 8), and v0.6.8 (October 1)
 - https://cchaha.ai - the docs-site domain, which rendered only its title to this run's fetch (client-rendered shell)
 - https://hn.algolia.com/api/v1/search?query=cc-haha&tags=story - the exhaustive search that returned zero stories, the missing-footprint evidence, fetched 2026-10-11

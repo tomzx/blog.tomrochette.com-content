@@ -1,7 +1,7 @@
 ---
 title: LocalAI
 created: 2026-10-10
-updated: 2026-10-14
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The team also publishes its own native C/C++ engines (parakeet.cpp, vllm.cpp, mo
 
 ## Status
 
-Active and shipping monthly: v4.9.0 (2026-08-20), v4.10.0 (2026-09-17), and v4.11.0 (2026-10-02), pushed 2026-10-14 (as of 2026-10-14).
+Active and shipping monthly: v4.9.0 (2026-08-20), v4.10.0 (2026-09-17), and v4.11.0 (2026-10-02), pushed 2026-10-15 (as of 2026-10-16).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mudler/LocalAI&type=date&theme=dark&legend=top-left" />

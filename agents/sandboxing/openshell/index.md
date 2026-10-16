@@ -1,7 +1,7 @@
 ---
 title: OpenShell
 created: 2026-08-30
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, nvidia, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Linux, macOS (Apple Silicon), and Windows via WSL 2 (experimental); Apache-2.0, 
 
 ## Status
 
-Fast adoption, newly stable and surging: 16,112 stars, 1,776 forks, 529 open issues and PRs as of 2026-10-13, created 2026-02-24.
+Fast adoption, newly stable and surging: 16,365 stars, 1,796 forks, 556 open issues and PRs as of 2026-10-16, created 2026-02-24.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/OpenShell&type=date&theme=dark&legend=top-left" />

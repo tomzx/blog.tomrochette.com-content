@@ -24,7 +24,7 @@ Enterprise sales run through BytePlus, ByteDance's enterprise arm.
 
 **Active.**
 Launched January 2025, shipping continuously since, with a free tier plus a three-run paid ladder after the September 2026 repricing and enterprise availability via BytePlus, as of 2026-10-11 (re-verified, unchanged).
-The open-source sidecar went quiet: trae-agent's last commit landed February 5, 2026, with no tagged release ever published, as of 2026-10-11 (about 12.1k stars).
+The open-source sidecar went quiet: trae-agent's last commit landed February 5, 2026, with no tagged release ever published, as of 2026-10-16 (12,143 stars).
 The July 2025 telemetry analysis thread kept it in the discussion, not always favorably.
 
 <picture>
@@ -90,6 +90,6 @@ Not for proprietary or regulated codebases, full stop.
 
 - https://www.trae.ai/ - product and download entry point
 - https://www.trae.ai/pricing - tiers, usage dollars, cloud task concurrency, as of 2026-10-11
-- https://github.com/bytedance/trae-agent - the MIT-licensed agent framework, last commit February 5, 2026, about 12.1k stars as of 2026-10-11
+- https://github.com/bytedance/trae-agent - the MIT-licensed agent framework, last commit February 5, 2026, 12,143 stars as of 2026-10-16
 - https://news.ycombinator.com/item?id=44703164 - the independent performance and telemetry analysis
 - https://news.ycombinator.com/item?id=42811502 - the January 2025 launch thread

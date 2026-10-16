@@ -1,7 +1,7 @@
 ---
 title: nono
 created: 2026-10-07
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, kernel, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, built by the Sigstore team, with an OpenSSF Best Practices badge and
 
 ## Status
 
-Fast-growing with no Hacker News help: 4,481 stars, 248 open issues and PRs, pushed 2026-10-13 as of 2026-10-13, created 2026-01-31.
+Fast-growing with no Hacker News help: 4,519 stars, 249 open issues and PRs, pushed 2026-10-15 as of 2026-10-16, created 2026-01-31.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&theme=dark&legend=top-left" />

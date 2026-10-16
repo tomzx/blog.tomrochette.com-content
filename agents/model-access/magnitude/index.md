@@ -1,7 +1,7 @@
 ---
 title: Magnitude
 created: 2026-10-06
-updated: 2026-10-14
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, inference-engine]
 readability: 3
@@ -23,7 +23,7 @@ One-click connectors target Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, 
 
 ## Status
 
-Active and young: 6,717 stars, 464 forks, repo pushed 2026-10-13 (as of 2026-10-14).
+Active and young: 6,886 stars, 464 forks, repo pushed 2026-10-15 (as of 2026-10-16).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=magnitudedev/magnitude&type=date&theme=dark&legend=top-left" />

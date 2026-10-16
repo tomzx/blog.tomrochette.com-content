@@ -1,7 +1,7 @@
 ---
 title: EverOS
 created: 2026-10-09
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, markdown, local-first]
 readability: 3
@@ -28,7 +28,7 @@ EverMind also sells EverOS Cloud, a managed deployment of the same engine, and p
 ## Status
 
 **Young, fast-moving, and vendor-led, with the section's familiar thin public footprint.**
-13,400 stars and 927 forks, created 2025-10-28, pushed 2026-10-10, as of 2026-10-11 (GitHub API).
+13,444 stars and 941 forks, created 2025-10-28, pushed 2026-10-15, as of 2026-10-16 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/EverOS&type=date&theme=dark&legend=top-left" />
@@ -36,7 +36,7 @@ EverMind also sells EverOS Cloud, a managed deployment of the same engine, and p
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=EverMind-AI/EverOS&type=date&legend=top-left" />
 </picture>
 
-Latest release v1.4.1 (2026-09-24) with PyPI in sync at 1.4.1, a 1.x line that reached 1.4 within a year of creation.
+Latest release v1.4.2 (2026-10-14) with PyPI in sync at 1.4.2, a 1.x line that reached 1.4 within a year of creation; v1.4.2 is a durability patch for the longest-running deployments, fixing a file-descriptor leak in the long-lived index, interactive searches queuing behind the background-embedding cascade, and multi-project index rows overwriting each other.
 The vendor's site claims SOTA numbers (LoCoMo 93.05, LongMemEval 83.00, HaluMem 93.04) from its own reproducible benchmark harness, and the system does not appear among the published commercial leaders of the independent Agent Memory Leaderboard's first cycle (August 2026).
 I found no Hacker News thread through 2026-10-09 searches, so the 13k stars rest on the vendor's channels and plugin ecosystems, the same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and memU.
 
@@ -74,6 +74,7 @@ Not for teams needing published hosted pricing, independent benchmark evidence, 
 ## Changes
 
 - 2026-10-09 - Created from the 2026-10-09 awesome-list entrant scan, with nine fetched sources and the self-published-benchmark-plus-thin-footprint combination recorded as the critical angle.
+- 2026-10-16 - Recorded v1.4.2 (October 14), the durability patch for file-descriptor leaks, search queueing behind the embedding cascade, and multi-project index overwrites, with PyPI in sync at 1.4.2; refreshed stars to 13,444.
 
 ## See also
 

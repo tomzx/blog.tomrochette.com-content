@@ -1,7 +1,7 @@
 ---
 title: Experiential
 created: 2026-09-27
-updated: 2026-10-14
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted, model-routing]
 readability: 3
@@ -33,9 +33,9 @@ Very active and compounding fast: 9,469 stars and 233 forks as of 2026-10-07, pu
 </picture>
 
 The Show HN launch ("We built open OpenRouter that turns usage into a better model") reached 222 points on 2026-08-27 with 47 comments, and the star count has since grown roughly an order of magnitude past the ~820 the entrant data recorded around 2026-09-21.
-PyPI shows 189 releases since first upload on 2026-08-20, latest 0.7.185 (uploaded 2026-10-13), requiring Python 3.12+ (as of 2026-10-14).
+PyPI shows 189 releases since first upload on 2026-08-20, latest 0.7.185 (uploaded 2026-10-13), requiring Python 3.12+ (as of 2026-10-16).
 One hundred forty-three open issues, a Discord, and YC backing as of 2026-10-07.
-On 2026-10-10 the GitHub repository and the experientiallabs org both return 404 on the API and the web while the product site, its pricing page, and the PyPI package stay live (the package README still links the dead repo paths), so the repository is private, renamed, or removed as of this date; the 404 state persisted through the 2026-10-12 and 2026-10-14 re-checks with the site and package still live; the star count above stands at its last verification, and the site's own badge reads 9.9k.
+On 2026-10-10 the GitHub repository and the experientiallabs org both return 404 on the API and the web while the product site, its pricing page, and the PyPI package stay live (the package README still links the dead repo paths), so the repository is private, renamed, or removed as of this date; the 404 state persisted through the 2026-10-12, 2026-10-14, and 2026-10-16 re-checks with the site and package still live; the star count above stands at its last verification, and the site's own badge reads 9.9k.
 
 ## Strengths
 

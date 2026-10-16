@@ -1,7 +1,7 @@
 ---
 title: Memanto
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, memory-agent, typed-memory, mcp, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Made by Moorcheh AI, with the April 2026 paper (arXiv 2604.22085) behind the ret
 ## Status
 
 **Active, young, and vendor-led.**
-2,311 stars and 734 forks, created 2026-03-23, pushed 2026-10-09, MIT, as of 2026-10-11 (GitHub API).
+2,326 stars and 741 forks, created 2026-03-23, pushed 2026-10-15, MIT, as of 2026-10-16 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=moorcheh-ai/memanto&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Made by Moorcheh AI, with the April 2026 paper (arXiv 2604.22085) behind the ret
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=moorcheh-ai/memanto&type=date&theme=dark&legend=top-left" />
 </picture>
 
-PyPI is at 0.2.27 (2026-10-07) with about 40 releases since spring, and npm is in sync at 0.2.27.
+PyPI is at 0.2.28 with about 40 releases since spring, and npm is in sync at 0.2.28 under the scoped @moorcheh-ai/memanto package.
 The paper claims 89.8 percent on LongMemEval and 87.1 percent on LoCoMo through Moorcheh's Information Theoretic Search engine, with datasets and a harness published on Hugging Face.
 The Hacker News record is modest: a 14-point thread in June 2026 (11 comments) and a 3-point Mem0-migration story in September.
 **The fork-to-star ratio (about one fork per three stars as of 2026-10-11) is far above every peer in this category, which makes the raw engagement numbers harder to read than the star count suggests.**

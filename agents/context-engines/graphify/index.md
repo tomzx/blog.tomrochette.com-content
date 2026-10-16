@@ -1,7 +1,7 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 
 ## Status
 
-Growing absurdly fast for its age: 125,962 stars and 2,324 commits in about six months since 2026-04-03, latest release v0.9.88 on 2026-10-12, all as of 2026-10-13, with 317 contributors as of 2026-10-10.
+Growing absurdly fast for its age: 126,981 stars as of 2026-10-16 and 2,324 commits in about six months since 2026-04-03, latest release v0.9.91 on 2026-10-14, with 317 contributors as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Graphify-Labs/graphify&type=date&theme=dark&legend=top-left" />
@@ -49,7 +49,7 @@ The ecosystem is growing too: a third-party C# port, graphify-csharp, launched S
 
 - The benchmarks are self-published, and on the headline QA-accuracy metric graphify trails supermemory while winning on cost and recall, per its own BENCHMARKS.md.
 - Only code is local: docs, PDFs, and images are sent to whatever LLM backend is configured.
-- Pre-1.0 with 1,493 open issues and PRs as of 2026-10-13, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
+- Pre-1.0 with 1,519 open issues and PRs as of 2026-10-16, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
 - The free CLI is the top of an open-core funnel into a hosted product whose plans only recently gained public prices, so expect the monetization strategy to keep moving.
 
 ## Pricing

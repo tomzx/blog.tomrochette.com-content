@@ -1,7 +1,7 @@
 ---
 title: Delta
 created: 2026-10-04
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, agentic-development-environments, version-control, code-review, multiplayer]
 readability: 3
@@ -26,8 +26,8 @@ Zed disabled pull requests on Delta's own repository at launch and reports build
 
 **Active and early: public beta since 2026-09-16, free during beta, closed source.**
 The DeltaDB announcement (2026-06-11) drew a 529-point Hacker News thread, and the public-beta announcement (2026-09-16, "Replace PRs with Delta") drew 154 points with 102 comments as of 2026-10-04, a comment count that signals argument rather than drive-by attention.
-Shipping cadence is visible on the Delta blog: a harness-eval piece on 2026-09-24 and a planning-in-Delta piece on 2026-10-01, then three more in the first week of October, Escaping the tyranny of worktrees (October 6, arguing parallel agent work has outgrown Git worktrees), The Diff: September 2026 (October 7, more provider options and orchestrating threads with threads), and Please Stop Sending Me Google Docs (October 8).
-DeltaDB itself has no public release; the open-source release thread commenters ask about has not shipped.
+Shipping cadence is visible on the Delta blog: a harness-eval piece on 2026-09-24 and a planning-in-Delta piece on 2026-10-01, then three more in the first week of October, Escaping the tyranny of worktrees (October 6, arguing parallel agent work has outgrown Git worktrees), The Diff: September 2026 (October 7, more provider options and orchestrating threads with threads), and Please Stop Sending Me Google Docs (October 8), then a DeltaDB engineering deep-dive (October 15, Conrad Irwin, built on a 22-minute talk: the diamond-types-based CRDT design, the fragment index, structural sharing, and per-character authorship down to which agent or prompt wrote it).
+DeltaDB itself has no public release; the open-source release thread commenters ask about has not shipped, and the October 15 post announces none.
 The beta requires signing in and accepting beta terms, and the product is the founder-led bet of one vendor whose editor is the adjacent product.
 
 ## Strengths
@@ -48,7 +48,7 @@ The beta requires signing in and accepting beta terms, and the product is the fo
 ## Pricing
 
 Free during the public beta, with paid plans promised for individuals and teams and a stated permanent free version.
-The published ladder shares accounts and credits with Zed: Personal at $0/month (bring your own keys or external agents) and Pro at $10/month ($5 of tokens included, Zed-hosted models, usage-based beyond), as of 2026-10-11 (re-verified, unchanged).
+The published ladder shares accounts and credits with Zed: Personal at $0/month (bring your own keys or external agents) and Pro at $10/month ($5 of tokens included, Zed-hosted models, usage-based beyond), as of 2026-10-16 (re-verified, unchanged).
 
 ## Price history
 
@@ -72,6 +72,7 @@ The disagreeable claim I will defend: the durable idea here is not replacing Git
 
 - 2026-10-04 - Created from the entrant scan after the 2026-09-16 public beta cleared the bar (DeltaDB thread at 529 points, beta thread at 154 with 102 comments, six sources fetched including the vendor's own data-storage doc conceding the deletion caveats).
 - 2026-10-09 - Recorded the blog cadence through the first week of October: Escaping the tyranny of worktrees (October 6), The Diff: September 2026 with more provider options and orchestrating threads with threads (October 7), and Please Stop Sending Me Google Docs (October 8); pricing re-verified unchanged.
+- 2026-10-16 - Recorded the DeltaDB engineering deep-dive post (October 15, Conrad Irwin, on the CRDT design, the fragment index, and structural sharing, no release announced, leaving the open-source question open); pricing re-verified unchanged.
 
 ## See also
 
@@ -87,6 +88,7 @@ The disagreeable claim I will defend: the durable idea here is not replacing Git
 - https://zed.dev/blog/introducing-deltadb - the 2026-06-11 DeltaDB announcement: deltas with stable identities, message-and-edit pairing, CRDT worktrees
 - https://delta.dev/docs/concepts/core-concepts - threads, projects, and Delta worktrees, and the Git-compatibility guarantee
 - https://delta.dev/docs/privacy-and-security/data-storage - what is stored server-side, the Cloudflare backend, email-only deletion, and what Delete Locally does not remove
-- https://delta.dev/pricing - Personal $0 and Pro $10/month, accounts and credits shared with Zed, re-verified 2026-10-11
-- https://delta.dev/blog - the blog index dating the October posts: Escaping the tyranny of worktrees (October 6), The Diff: September 2026 (October 7), and Please Stop Sending Me Google Docs (October 8), re-fetched 2026-10-11 (no posts since)
+- https://delta.dev/pricing - Personal $0 and Pro $10/month, accounts and credits shared with Zed, re-verified 2026-10-16
+- https://delta.dev/blog - the blog index dating the October posts: Escaping the tyranny of worktrees (October 6), The Diff: September 2026 (October 7), Please Stop Sending Me Google Docs (October 8), and DeltaDB: The Future of Version Control (October 15), re-fetched 2026-10-16 (no posts since)
+- https://delta.dev/blog/future-of-version-control - the October 15, 2026 DeltaDB deep-dive: the diamond-types-based CRDT scheme, the fragment index, structural sharing, Git interop, and per-character authorship, with no release announced
 - https://news.ycombinator.com/item?id=49727245 - the beta thread (154 points, 102 comments as of 2026-10-04): the merge-gating, privacy-upload, and why-not-a-PR criticisms, plus positive beta-user reports

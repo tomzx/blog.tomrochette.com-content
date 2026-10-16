@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 32.0k GitHub stars as of 2026-10-11, repository pushed 2026-10-09 UTC, and v1.6.3 (October 7, 2026) the latest release with PyPI in sync at 1.6.3.
+About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-10-16 UTC, and v1.6.4 (October 13, 2026) the latest release with PyPI in sync at 1.6.4.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=topoteretes/cognee&type=date&theme=dark&legend=top-left" />
@@ -87,6 +87,7 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 - 2026-10-02 - Recorded v1.6.2 (September 29): explicit embedding failures instead of silent truncation, model-token-limit chunk sizing, Slack import and sync, and the skills move to .agents/skills; refreshed stars to about 31.3k.
 - 2026-10-07 - Added the topoteretes/cognee star history chart to the Status section.
 - 2026-10-08 - Recorded v1.6.3 (October 7): temporal-search windows include their boundaries, natural-language searches return matching rows, ingestion validation tightened, and four breaking changes (dlt pinned below 1.31, temporal_cognify removed, nested agents refused, parent-setting dropped from public sign-ups); refreshed stars to about 31.6k.
+- 2026-10-16 - Recorded v1.6.4 (October 13): vector-search adapter and Turso database reliability fixes, and removal of an unwanted background pruning task for LanceDB-backed stores; refreshed stars to about 32.4k.
 
 ## See also
 

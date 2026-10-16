@@ -1,7 +1,7 @@
 ---
 title: Ollama
 created: 2026-09-27
-updated: 2026-10-14
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, model-registry]
 readability: 3
@@ -22,7 +22,7 @@ The registry curates quantizations of each model, and `ollama run <model>` is th
 
 ## Status
 
-Very active: 183,051 stars as of 2026-10-14, repo pushed the same day, among the largest repositories in the AI ecosystem.
+Very active: 183,371 stars as of 2026-10-16, repo pushed the same day, among the largest repositories in the AI ecosystem.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ollama/ollama&type=date&theme=dark&legend=top-left" />

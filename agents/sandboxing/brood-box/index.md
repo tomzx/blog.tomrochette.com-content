@@ -1,7 +1,7 @@
 ---
 title: Brood Box
 created: 2026-10-12
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, kvm, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Built by Stacklok, the supply-chain security company behind ToolHive and Minder;
 
 ## Status
 
-Small and steady: 77 stars, 8 contributors including its dependency bot, as of 2026-10-13, created 2026-02-13, pushed 2026-10-13, Apache-2.0.
+Small and steady: 78 stars, 8 contributors including its dependency bot, as of 2026-10-16, created 2026-02-13, pushed 2026-10-15, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stacklok/brood-box&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Small and steady: 77 stars, 8 contributors including its dependency bot, as of 2
 </picture>
 
 The release train ran from v0.0.18 (2026-05-04) through v0.0.25 (2026-09-14), roughly monthly, with commits resuming 2026-10-13 after a month quiet (a ToolHive v0.52.0 dependency bump).
-I found no Hacker News thread for the project (the Algolia query for "brood box" returns zero stories), so the 77 stars arrived without any launch moment.
+I found no Hacker News thread for the project (the Algolia query for "brood box" returns zero stories), so the 78 stars arrived without any launch moment.
 **A vendor-owned project with six months of monthly releases is the reliable kind of small, but the footprint is too thin for community security review, the boundary is self-described, and no audit exists.**
 
 ## Strengths
@@ -49,7 +49,7 @@ I found no Hacker News thread for the project (the Algolia query for "brood box"
 - Pre-1.0 (v0.0.25) with a self-declared experimental badge and no independent audit.
 - The isolation mechanism is libkrun, the same runtime family as Microsandbox; the novelty is the workflow, not a new boundary primitive.
 - Apple Silicon only on macOS, KVM required on Linux, and the firmware download path is a runtime dependency (disableable with --no-firmware-download).
-- No public discussion footprint: 77 stars and zero HN threads mean nobody has stress-tested the claims in public.
+- No public discussion footprint: 78 stars and zero HN threads mean nobody has stress-tested the claims in public.
 
 ## Pricing
 
@@ -81,7 +81,7 @@ Not for Windows or Intel Macs, for parallel multi-agent fleets (the job Brig doe
 
 ## References
 
-- https://github.com/stacklok/brood-box - repository, README (mechanism, workspace modes, egress firewall, security model), 77 stars, dates, license, as of 2026-10-12
+- https://github.com/stacklok/brood-box - repository, README (mechanism, workspace modes, egress firewall, security model), 78 stars, dates, license, as of 2026-10-16
 - https://api.github.com/repos/stacklok/brood-box/releases - the v0.0.18 through v0.0.25 release train
 - https://github.com/stacklok/toolhive - the ToolHive MCP platform the VM proxy integrates, Stacklok's other product
 - https://hn.algolia.com/api/v1/search?query=%22brood%20box%22&tags=story - zero story hits (2026-10-12), the missing-launch-footprint record

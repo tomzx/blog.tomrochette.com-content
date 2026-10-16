@@ -1,7 +1,7 @@
 ---
 title: aicontainer
 created: 2026-10-12
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, devcontainer, containers, isolation, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Solo author (Stefano Ginella), first published 2026-05-22, positioned by its own
 
 ## Status
 
-The thinnest footprint in the category's admitted set after aigate: 20 stars as of 2026-10-13, solo author, created 2026-05-22, pushed 2026-10-13, MIT.
+The thinnest footprint in the category's admitted set after aigate: 21 stars as of 2026-10-16, solo author, created 2026-05-22, pushed 2026-10-14, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stefanoginella/aicontainer&type=date&theme=dark&legend=top-left" />
@@ -32,9 +32,10 @@ The thinnest footprint in the category's admitted set after aigate: 20 stars as 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=stefanoginella/aicontainer&type=date&legend=top-left" />
 </picture>
 
-npm carries 0.11.0 (2026-10-13) after 0.10.0 the day before, ending six weeks at 0.9.1, with 505 downloads in the trailing month (2026-09-13 to 2026-10-12), and I found no Hacker News thread for the project.
+npm carries 0.12.1 (2026-10-14) after 0.12.0 and 0.11.0 the two days before, ending six weeks at 0.9.1, with 505 downloads in the trailing month (2026-09-13 to 2026-10-12), and I found no Hacker News thread for the project.
+The 0.12 pair hardens the boundary further (root processes inside the container no longer search agent-writable PATH directories or write history to the shared volume) and fixes the agent-status relay behind the firewall.
 Development is active to a degree the star count hides: commits landed through 2026-10-11, and the messages document threat-model reasoning (a probe that fails closed against Node-manager shims, an npm 12 packaging fix) in unusual detail.
-**Twenty stars is a missing-community-footprint signal by the category's own standard, carried here by boundary documentation that reads like an audit candidate rather than by adoption.**
+**Twenty-one stars is a missing-community-footprint signal by the category's own standard, carried here by boundary documentation that reads like an audit candidate rather than by adoption.**
 
 ## Strengths
 
@@ -45,7 +46,7 @@ Development is active to a degree the star count hides: commits landed through 2
 
 ## Cautions
 
-- Twenty stars and 401 npm downloads a month: no community review has happened, and the solo maintainer is a bus factor of one.
+- Twenty-one stars and 505 npm downloads a month: no community review has happened, and the solo maintainer is a bus factor of one.
 - Outbound network is mostly open by default; the allowlist that restricts it is opt-in, which the README itself flags as the row most worth your attention.
 - The `.env` block is a tool-layer hook, defense-in-depth rather than a filesystem guarantee, and a bypass-mode CLI that ignores hooks defeats it.
 - The container boundary shares the host kernel, with no audit and no independent discussion of the claims.
@@ -70,6 +71,7 @@ Not for anyone needing a kernel or VM boundary, an audited isolation claim, or a
 
 - 2026-10-12 - Created from the 2026-10-12 awesome-claude-code scan, profiling the devcontainer-spec entrant with the socket-proxy boundary recorded as the distinguishing mechanism and the thin footprint recorded as the signal.
 - 2026-10-13 - Recorded the release train resuming: npm 0.10.0 (2026-10-12) and 0.11.0 (2026-10-13) after six weeks at 0.9.1, with trailing-month downloads moving from 401 to 505.
+- 2026-10-16 - Recorded 0.12.0 and 0.12.1 (both 2026-10-14), the root-PATH and root-history hardening fixes and the firewalled agent-status relay repair, with the star count refreshed to twenty-one.
 
 ## See also
 
@@ -81,7 +83,7 @@ Not for anyone needing a kernel or VM boundary, an audited isolation claim, or a
 ## References
 
 - https://github.com/stefanoginella/aicontainer - repository, README boundary table, threat model references, Docker-access modes, 20 stars, dates, license, as of 2026-10-12
-- https://registry.npmjs.org/aicontainer - the npm package record, 0.9.1 (2026-10-05)
+- https://registry.npmjs.org/aicontainer - the npm package record, latest 0.12.1 (2026-10-14)
 - https://api.npmjs.org/downloads/point/last-month/aicontainer - 401 trailing-month downloads (2026-09-11 to 2026-10-10)
 - https://containers.dev/ - the devcontainer specification the project implements
 - https://github.com/trailofbits/claude-code-devcontainer - the Trail of Bits devcontainer the README names as adjacent work, 951 stars

@@ -1,7 +1,7 @@
 ---
 title: OpenRouter
 created: 2026-09-26
-updated: 2026-10-14
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, pay-per-token]
 readability: 3
@@ -88,8 +88,8 @@ My disagreeable claim: I would pay the 5.5% rather than run the same multi-provi
 
 ## References
 
-- https://openrouter.ai/docs/faq - official fee statement (5.5%, $0.80 minimum, crypto 5%), BYOK dollar thresholds, no-markup position, free-tier limits (200, re-fetched 2026-10-11 and 2026-10-14 unchanged).
-- https://openrouter.ai/pricing - tier names and fee rows (200, JS-rendered shell; content corroborated via the sources below).
+- https://openrouter.ai/docs/faq - official fee statement (5.5%, $0.80 minimum, crypto 5%), BYOK dollar thresholds, no-markup position, free-tier limits (200, re-fetched 2026-10-11, 2026-10-14, and 2026-10-16 unchanged).
+- https://openrouter.ai/pricing - tier names and fee rows (200, JS-rendered shell on earlier fetches; the 2026-10-16 fetch carried the Standard, Business, and Enterprise tier names and the 5.5% fee rows in the HTML, fee content unchanged; corroborated by the FAQ).
 - https://www.usagepricing.com/blueprint/openrouter - funding history, tier timeline, workspace limits, dated pricing changes (403 to automated fetch as of 2026-09-27, facts carried from the 2026-09-24 check).
 - https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/ - the joining-Stripe announcement, 2026-08-19: continuity commitments, 10+ trillion tokens per day, 400+ models, 10M+ developers (fetched 200, 2026-09-26).
 - https://ofox.ai/blog/openrouter-pricing-hidden-markup-breakdown-2026/ - independent fee-stack verification, $0.80-minimum math, BYOK metering change (200).

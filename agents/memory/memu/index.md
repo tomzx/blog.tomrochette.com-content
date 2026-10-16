@@ -1,7 +1,7 @@
 ---
 title: memU
 created: 2026-10-06
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, file-based, skills]
 readability: 3
@@ -26,7 +26,7 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
 
 ## Status
 
-**Quietly large: 14.5k stars rank it thirteenth of the twenty-seven members profiled here, while its discussion footprint is nearly empty.**
+**Quietly large: 14.5k stars rank it thirteenth of the twenty-eight members profiled here, while its discussion footprint is nearly empty.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&legend=top-left" />
 </picture>
 
-14,525 stars with the repository pushed 2026-10-09, created 2025-07-29, as of 2026-10-11 (GitHub API).
+14,546 stars with the repository pushed 2026-10-16, created 2025-07-29, as of 2026-10-16 (GitHub API).
 The Hacker News record is two threads: an 11-point Show HN in January 2026 (4 comments) and a 4-point story in July 2026 (0 comments), so the 14.5k stars rest on trend cycles and word of mouth, not public scrutiny.
 Development is active, with the README's host matrix and skill-extraction flow revised against current releases.
 The same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and Graphify.
@@ -81,6 +81,7 @@ Not for teams needing multi-user memory APIs, contractual hosting terms, or any 
 - 2026-10-11 - Corrected the star rank to twelfth of twenty-three: the rank counts each member's own repository, so Zep's Graphiti engine (the earlier count included it) and the file convention carry no product-repo rank; refreshed stars to 14,525 and re-verified the free hosted tier via the product site (memu.so itself failed to fetch twice this run).
 - 2026-10-11 - Membership grew to twenty-six (TencentDB Agent Memory, Memanto, and MemMachine joined), moving memU's star rank from twelfth of the twenty-three to thirteenth of the twenty-six; the rank counts each member's own repository, so Zep's Graphiti engine and the file convention carry no product-repo rank.
 - 2026-10-11 - Emulo joined as the twenty-seventh member, moving the rank denominator only (Emulo's 294 stars rank below memU).
+- 2026-10-16 - Corrected the rank denominator to twenty-eight after PLUR's 2026-10-14 admission (PLUR's 304 stars rank below memU, so the position holds), and refreshed stars to 14,546.
 
 ## See also
 

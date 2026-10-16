@@ -96,7 +96,9 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-15 | hybrid-execution | TypeChat reopens on a first tagged release or npm publication | 2026-10-15 re-confirmed rejection (zero releases ever), but the 10-13 push added three named TypeScript-team maintainer commits and a Programs blog post
 - 2026-09-25 | trackers-and-leaderboards | bestvaluemodel reopens on sustained operation and a license | one-day-old derivative of member Artificial Analysis
 - 2026-09-25 | trackers-and-leaderboards | llm-list.com reopens on independent coverage | fully derivative of models.dev, OpenRouter, Arena, Artificial Analysis, and Hugging Face
+- 2026-09-27 | hybrid-execution | drawgent reopens on a primary mirror | license and stars unverifiable from tangled.org-only hosting
 - 2026-09-27 | harnesses | drawgent reopens on a primary mirror | license and stars unverifiable from tangled.org-only hosting
+- 2026-10-16 | memory | Mnemoverse reopens on traction or independent coverage | 27 stars, 4 forks, hosted-first thin record far below the category floor (smallest member Emulo at 294)
 - 2026-09-27 | skills | dotskills reopens on sustained traction | curated pack overlapping the Agent-Native column
 - 2026-09-27 | executions | octopool reopens on traction | weeks-old ecosystem utility, thin docs
 - 2026-09-27 | memory | library-mcp reopens if a writeup ships | dormant five months, thin documentation

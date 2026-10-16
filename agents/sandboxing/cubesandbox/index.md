@@ -1,7 +1,7 @@
 ---
 title: CubeSandbox
 created: 2026-09-16
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, security]
 readability: 3
@@ -21,7 +21,7 @@ Documentation, changelogs, and examples (code execution, browser automation, Ope
 
 ## Status
 
-**Six months from first release to v0.7.3 with 12,917 stars as of 2026-10-13, while the community discussion never escaped single digits on Hacker News.**
+**Six months from first release to v0.7.3 with 12,950 stars as of 2026-10-16, while the community discussion never escaped single digits on Hacker News.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/CubeSandbox&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: px0
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, code-review, browser-ide, go, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Navigation targets the reading case: fuzzy file and symbol search, workspace reg
 ## Status
 
 **Young, fast-moving, and thin on independent validation.**
-1,852 stars, MIT, written in Go, created 2026-06-24, pushed 2026-10-08, as of 2026-10-12 (GitHub API).
+1,869 stars, MIT, written in Go, created 2026-06-24, pushed 2026-10-08, as of 2026-10-16 (GitHub API).
 The release train is active: v0.1.11 through v0.1.16 landed between 2026-09-28 and 2026-10-03.
 The Show HN thread (2026-09-13, submitted by the author) drew 7 points and 0 comments, and no third-party coverage surfaced this run, so the footprint is GitHub-side; the site's "engineers at" logo wall (Google, Meta, Stripe, and a dozen more) is unverifiable social proof, and a design-partner program is recruiting teams of ten plus.
 
@@ -80,7 +80,7 @@ My disagreeable claim: the read-only IDE is the correct end state for the agent 
 
 ## References
 
-- https://github.com/px0-ai/px0 - repository, MIT, Go, 1,852 stars, created 2026-06-24, pushed 2026-10-08 (GitHub API, as of 2026-10-12)
+- https://github.com/px0-ai/px0 - repository, MIT, Go, 1,869 stars, created 2026-06-24, pushed 2026-10-08 (GitHub API, as of 2026-10-16)
 - https://raw.githubusercontent.com/px0-ai/px0/HEAD/README.md - the feature set: PR review, harness handoff list, virtual rendering, remote mode, sandboxing, and the memory accounting
 - https://px0.ai/ - the product site: the performance claims, the four-harness headline, the logo wall, and the design-partner program
 - https://api.github.com/repos/px0-ai/px0/releases - the release train v0.1.11 through v0.1.16 (2026-09-28 to 2026-10-03)

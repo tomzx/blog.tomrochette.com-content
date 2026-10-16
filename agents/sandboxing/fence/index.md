@@ -1,7 +1,7 @@
 ---
 title: Fence
 created: 2026-10-07
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Built by Tusk, the AI testing-agents company; the repository moved from Use-Tusk
 
 ## Status
 
-Actively maintained with modest but durable traction: 991 stars, 40 open issues, pushed 2026-10-06 as of 2026-10-13, created 2025-12-18.
+Actively maintained with modest but durable traction: 992 stars, 40 open issues, pushed 2026-10-14 as of 2026-10-16, created 2025-12-18, with v0.1.67 (2026-09-01) still the newest of thirty releases.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fencesandbox/fence&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Actively maintained with modest but durable traction: 991 stars, 40 open issues,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=fencesandbox/fence&type=date&theme=dark&legend=top-left" />
 </picture>
 
-The 78-point Show HN of 2026-01-20 is the community anchor, with the maintainer answering limit questions in the thread, and the 0.x release train continues (v0.1.67 on 2026-09-01).
+The 78-point Show HN of 2026-01-20 is the community anchor, with the maintainer answering limit questions in the thread.
 **A steady 0.1.x cadence with no 1.0 after ten months says the project is alive but pre-stability, and the organization rename is a second churn event early adopters had to follow.**
 
 ## Strengths

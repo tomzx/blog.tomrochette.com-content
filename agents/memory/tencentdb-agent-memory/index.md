@@ -1,7 +1,7 @@
 ---
 title: TencentDB Agent Memory
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, openclaw, hermes, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Published by Tencent (the repository moved from the Tencent org to TencentCloud)
 ## Status
 
 **Large and fast-rising, with a license detector footnote.**
-27,909 stars and 2,713 forks, created 2026-04-07, pushed 2026-10-10, as of 2026-10-11 (GitHub API).
+29,264 stars and 2,852 forks, created 2026-04-07, pushed 2026-10-15, as of 2026-10-16 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/TencentDB-Agent-Memory&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ Published by Tencent (the repository moved from the Tencent org to TencentCloud)
 </picture>
 
 The LICENSE wraps standard MIT terms in a Tencent notice, which is why GitHub's detector marks it unclassifiable; the 2026-10-07 entrant rejection (missing license) reversed once the file was read this run.
-The Hacker News footprint is one 2-point thread (August 2026), so a 27.9k-star rise in six months ran on Trendshift placement and awesome-list channels, the category's familiar stars-ahead-of-discussion pattern at Tencent scale.
+The Hacker News footprint is one 2-point thread (August 2026), so a 29.3k-star rise in six months ran on Trendshift placement and awesome-list channels, the category's familiar stars-ahead-of-discussion pattern at Tencent scale.
 
 ## Strengths
 
@@ -71,6 +71,7 @@ My disagreeable claim: reversible compression, not recall quality, is the featur
 ## Changes
 
 - 2026-10-11 - Created after the 2026-10-07 rejection's missing-license trigger fired (the repository now carries MIT terms under a Tencent notice), with six fetched sources and the self-run-benchmark-plus-Tencent-funnel profile recorded as the critical angle.
+- 2026-10-16 - Recorded the v2.0.3-beta.1 pre-release (October 13: a pluggable decision service, on-demand skill selection, and session trajectory recording, all default-off with unchanged behavior on old configs); refreshed stars to 29,264.
 
 ## See also
 

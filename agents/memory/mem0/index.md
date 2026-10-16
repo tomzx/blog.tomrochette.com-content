@@ -1,7 +1,7 @@
 ---
 title: Mem0
 created: 2026-08-24
-updated: 2026-10-09
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, developer-tools]
 readability: 3
@@ -25,7 +25,7 @@ The company (YC S24) was founded by Taranjeet Singh and Deshraj Yadav, previousl
 ## Status
 
 **Active and the adoption leader.**
-The repository shows about 66.9k stars as of 2026-10-10 and 2,671 commits as of 2026-10-08.
+The repository shows about 67.3k stars as of 2026-10-16 and 2,673 commits as of 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mem0ai/mem0&type=date&theme=dark&legend=top-left" />

@@ -15,10 +15,10 @@ The tools that decide what enters the context window: semantic engines, code gra
 - [CodeAlive](codealive/index.md) - the hosted context-engine API serving a code graph and hybrid retrieval to any MCP agent on metered per-action pricing, from a small London company with no independent coverage yet.
 - [Context7](context7/index.md) - Upstash's hosted docs-injection service pulling version-specific library documentation into the prompt at question time over MCP or a CLI skill, the category's only engine that indexes the world's libraries instead of your repo.
 - [Entroly](entroly/index.md) - the Apache-2.0 receipt-backed compression layer that selects evidence within a token budget, records every omission, and recovers the exact original bytes on demand, the category's audit-first bet at 476 stars.
-- [Graft](graft/index.md) - Trail's MIT context layer feeding agents a code graph instead of grep, 9.9k stars in fourteen weeks with every benchmark still the vendor's own.
+- [Graft](graft/index.md) - Trail's MIT context layer (renamed Trail-code) feeding agents a code map plus shared team learnings instead of grep, 10.1k stars with every benchmark still the vendor's own.
 - [Graphify](graphify/index.md) - the local AST knowledge graph exposed as a `/graphify` skill and MCP server, structure over similarity, no vectors.
 - [Headroom](headroom/index.md) - the Apache-2.0 compression layer rewriting tool outputs, logs, files, and RAG chunks before they reach the LLM, reversible through a retrieve tool, 75k stars in nine months.
-- [Jevgrep](jevgrep/index.md) - the MIT CLI that answers a question about a repo with files, leads, and excerpts, Jev judging relevance per query with no index at all, 2,645 stars in seventeen days.
+- [Jevgrep](jevgrep/index.md) - the MIT CLI that answers a question about a repo with files, leads, and excerpts, Jev judging relevance per query with no index at all, about 2.7k stars in three weeks.
 - [LLMLingua](llmlingua/index.md) - Microsoft Research's MIT prompt-compression library (perplexity token pruning plus a GPT-4-distilled BERT-class compressor), the peer-reviewed ancestor of this category's compression products, 6.7k stars.
 - [qmd](qmd/index.md) - Tobias Lütke's local hybrid search engine for notes, docs, and knowledge bases, BM25 plus vectors plus reranking.
 - [Repomix](repomix/index.md) - the MIT CLI that packs a whole repo into one AI-friendly file, retrieval-free by design.

@@ -1,7 +1,7 @@
 ---
 title: Emulo
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-mining, personalization, mcp, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Install targets put the profile where each host looks: a project AGENTS.md (the 
 ## Status
 
 **Maintained rather than developed, with the self-published failure as the headline.**
-294 stars, MIT, created 2026-07-08, pushed 2026-10-02, as of 2026-10-11 (GitHub API), with PyPI at 0.6.7 (2026-09-25) and the README scoping future work to security and redaction fixes, broken install or loading paths, and reproducible bugs.
+295 stars, MIT, created 2026-07-08, pushed 2026-10-12, as of 2026-10-16 (GitHub API), with PyPI at 0.6.7 (2026-09-25) and the README scoping future work to security and redaction fixes, broken install or loading paths, and reproducible bugs.
 An HN search finds no thread of its own as of 2026-10-11, only a 2013 product named Emulos, so the footprint is the repository and the author's own channels.
 
 <picture>

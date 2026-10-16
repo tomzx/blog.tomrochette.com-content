@@ -1,7 +1,7 @@
 ---
 title: Semble
 created: 2026-08-30
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-search, context-engines, local-first, developer-tools]
 readability: 3
@@ -26,7 +26,7 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
 ## Status
 
 **Young, active, and unusually well received for a search tool.**
-6,199 stars and 274 forks since the repo appeared on 2026-04-06, with the last push 2026-10-11 and v0.6.2 released 2026-10-05 (GitHub API, as of 2026-10-13).
+6,212 stars and 280 forks since the repo appeared on 2026-04-06, with the last push 2026-10-15 and v0.6.2 released 2026-10-05 (GitHub API, as of 2026-10-16).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MinishLab/semble&type=date&theme=dark&legend=top-left" />

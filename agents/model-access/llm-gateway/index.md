@@ -1,7 +1,7 @@
 ---
 title: LLM Gateway
 created: 2026-10-04
-updated: 2026-10-14
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, coding-subscription]
 readability: 3
@@ -17,12 +17,12 @@ LLM Gateway is a hosted model gateway from LLMGateway, Inc. (GitHub org theopenc
 
 A hosted gateway with a self-host option: pay per token at each provider's own rates with no token markup, a 5% platform fee when you buy credits, and BYOK routing with no platform fee at all.
 The repo ships under AGPLv3 with a commercial carve-out for the `ee/` directory, so self-hosting is free and the enterprise features are the licensed part.
-DevPass claims every $1 converts into $3 of model usage metered at provider rates, works from DevPass Code, Claude Code, OpenCode, Empryo, SoulForge, or any OpenAI-compatible tool, and gates premium models (roughly $5+ per 1M input) behind a weekly fair-use share of credits.
+DevPass claims every $1 converts into $2 of model usage metered at provider rates, works from DevPass Code, Claude Code, OpenCode, Empryo, SoulForge, or any OpenAI-compatible tool, and gates premium models (roughly $5+ per 1M input) behind a weekly fair-use share of credits.
 The company reports SOC 2 Type II, a 30-day enterprise pilot with a 99.9% SLA, and site counters of 1T+ tokens and 80M+ requests routed, as of 2026-10-04.
 
 ## Status
 
-Active and young: the repo was created 2025-04-12 and shows 1,685 stars and 193 forks as of 2026-10-14, pushed 2026-10-13.
+Active and young: the repo was created 2025-04-12 and shows 1,687 stars and 193 forks as of 2026-10-16, pushed 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=theopenco/llmgateway&type=date&theme=dark&legend=top-left" />
@@ -33,26 +33,26 @@ Active and young: the repo was created 2025-04-12 and shows 1,685 stars and 193 
 DevPass shipped across Q2 2026 with annual billing and integration guides, and the Q2 roundup puts deepseek-v4-pro at the top of its quarterly token table.
 A Hacker News search this run returned no stories about the product, so the footprint is SEO and docs, not community debate.
 On 2026-10-04 the DevPass page announced its first devaluation: from October 15, 2026 the monthly allowance falls from 3x to 2x the plan price.
-The notice still stood at the 2026-10-12 and 2026-10-14 re-checks, with every plan card still reading 3x usage, so the cut has not landed early.
+The cut landed on schedule: at the 2026-10-12 and 2026-10-14 re-checks every plan card still read 3x usage, and on 2026-10-16 every card reads 2x, with the page's Plan-changes section stating the new daily caps, tighter premium weekly caps, and updated Reset Pass benefits apply from October 15 even inside existing billing cycles.
 
 ## Strengths
 
 - The fee undercuts OpenRouter's 5.5% credit fee and drops the $0.80 minimum entirely, while BYOK routing costs nothing at all.
-- DevPass is the only flat-rate plan here spanning every frontier family (Claude, GPT-5, Gemini) plus the open-weight coders under one key, with a 14-day self-serve refund on the first month (under 20% of the allowance used).
+- DevPass is the only flat-rate plan here spanning every frontier family (Claude, GPT-5, Gemini) plus the open-weight coders under one key, with a 14-day self-serve refund on the first month (under 10% of the allowance used).
 - Spend controls, prompt caching, per-project ceilings, and provider-compliance routing (SOC 2, ISO 27001, and GDPR providers only) are documented on the public pricing page.
 - Self-hosting exists if the hosted fee is unacceptable, though enterprise features need a license.
 
 ## Cautions
 
 - The community footprint is thin: no Hacker News stories, and the company's "best AI coding plans" post ranks DevPass first against Claude Max, OpenCode Go, and the GLM plan, which is marketing, not measurement.
-- DevPass value drops on October 15, 2026, from 3x to 2x the plan price at renewal, the first cut since launch, and the notice adds daily caps and tighter weekly premium caps that apply even inside existing billing cycles; the weekly frontier fair-use share means heavy premium-model users exhaust headroom before the allowance runs out.
+- DevPass value fell on October 15, 2026, from 3x to 2x the plan price at renewal, the first cut since launch, and the same change tightened the daily caps, the weekly premium caps, and the Reset Pass prices inside existing billing cycles; the weekly frontier fair-use share means heavy premium-model users exhaust headroom before the allowance runs out.
 - The 5% is charged per top-up, so the small-purchase math that punishes OpenRouter's $0.80 minimum applies here too for frequent small reloads.
-- A one-year-old repo with 1,680 stars is early to hold custody of every provider key you own.
+- A young repo (1,687 stars as of 2026-10-16) is early to hold custody of every provider key you own.
 
 ## Pricing
 
 PAYG: free tier with 3 rate-limited free models, provider list prices, 5% fee on credit top-ups, BYOK free, non-US cards add 1.5%, and optional full payload retention costs $0.01 per 1M tokens, as of 2026-10-07 and re-verified 2026-10-14 (top-ups run $10 minimum to $5,000 maximum per the pricing page).
-DevPass: Lite $29/month (about $87 of usage), Pro $79/month (about $237), Max $179/month (about $537), 14-day self-serve refund on the first month with under 20% of the allowance used, weekly frontier fair-use at 12% of credits on Lite, 15% on Pro, and 18% on Max, worth 3x the plan price until October 15, 2026 and 2x after; the cards now also publish Reset Passes (instant premium-allowance resets) at $9 each on Lite, 1 per month on Pro with extras at $29, and 2 per month on Max with extras at $79.
+DevPass (as of 2026-10-16, the first devaluation landed): Lite $29/month (about $58 of usage), Pro $79/month (about $158), Max $179/month (about $358), worth 2x the plan price since October 15, 2026 (3x before), 14-day self-serve refund on the first month with under 10% of the allowance used, daily pacing of 8%/9%/10% of credits per rolling 24 hours, and weekly frontier fair-use at 10% of credits on Lite, 12% on Pro, and 15% on Max; the cards publish Reset Passes (instant premium-allowance resets) at $5 each on Lite, 1 per month on Pro with extras at $15, and 2 per month on Max with extras at $45.
 Lounge chat plans: Starter $9/month, Plus $19/month, Pro $49/month.
 Enterprise: custom, 30-day pilot, SAML SSO and SCIM, 99.9% SLA.
 
@@ -62,6 +62,7 @@ Enterprise: custom, 30-day pilot, SAML SSO and SCIM, 99.9% SLA.
 | ---- | ---- | ------ | ------ |
 | 2026-10-04 | PAYG / DevPass | Baseline: PAYG at provider rates with 5% on credit top-ups and free BYOK; DevPass Lite $29, Pro $79, Max $179 per month at 3x usage value | https://llmgateway.io/pricing |
 | 2026-10-15 | DevPass | Announced: included usage falls from 3x to 2x the plan price at first renewal on or after this date (new subscriptions start at 2x), prices unchanged | https://devpass.llmgateway.io/pricing |
+| 2026-10-15 | DevPass | Landed as announced (observed 2026-10-16): every card reads 2x, and the same change tightened daily pacing to 8%/9%/10% of credits per day, weekly frontier fair-use to 10%/12%/15%, Reset Pass prices to $5/$15 extras/$45 extras, and the refund threshold to under 10% of the allowance | https://devpass.llmgateway.io/pricing |
 
 ## Compared to
 
@@ -73,7 +74,7 @@ Enterprise: custom, 30-day pilot, SAML SSO and SCIM, 99.9% SLA.
 
 Recommended for multi-model developers who want hosted gateway routing at a fee matching or beating every competitor here, and for flat-rate coding across all frontier families at DevPass prices.
 Not for teams that need community scrutiny and a battle-tested gateway, or for premium-model-heavy users who would blow through the fair-use caps.
-My disagreeable claim: DevPass at 3x (soon 2x) buys less leverage than OpenCode Go's 6x on open models, so its whole case rests on needing frontier families under one flat bill.
+My disagreeable claim: DevPass at 2x buys less leverage than OpenCode Go's 6x on open models, so its whole case rests on needing frontier families under one flat bill.
 
 ## Changes
 
@@ -84,6 +85,7 @@ My disagreeable claim: DevPass at 3x (soon 2x) buys less leverage than OpenCode 
 - 2026-10-07 - Corrected the license claim: the LICENSE file and the pricing page now state AGPLv3 with the commercial `ee/` carve-out, where this note had recorded a custom non-OSI license from the 2026-10-04 read.
 - 2026-10-07 - Pricing-page completeness: the Lounge lineup named precisely (Starter $9, Plus $19, Pro $49) and the DevPass cards now publish Reset Pass pricing ($9 Lite extras, 1 per month Pro with $29 extras, 2 per month Max with $79 extras); PAYG and DevPass plan prices and the October 15 3x-to-2x change notice re-verified unchanged.
 - 2026-10-11 - DevPass re-check four days before the announced cut: the October 15 3x-to-2x devaluation is still pending with every card reading 3x usage, the refund policy is detailed as first-month-only and void past 20% of the allowance used, and the named client list moved to DevPass Code, Claude Code, OpenCode, Empryo, and SoulForge; plan prices re-verified unchanged.
+- 2026-10-16 - The devaluation landed on schedule: every card reads 2x usage (Lite $58, Pro $158, Max $358), and the same October 15 change tightened daily pacing to 8%/9%/10% of credits per day, weekly frontier fair-use to 10%/12%/15% (from 12%/15%/18%), Reset Pass prices to $5/$15 extras/$45 extras (from $9/$29/$79), and the refund threshold to under 10% of the allowance (from 20%); price history row appended and the usage-claim sentence moved to $2 per $1.
 
 ## See also
 
@@ -99,7 +101,7 @@ My disagreeable claim: DevPass at 3x (soon 2x) buys less leverage than OpenCode 
 - https://llmgateway.io/pricing - free tier, 5% platform fee, BYOK included, retention pricing, plan comparison table (200, fetched 2026-10-04).
 - https://llmgateway.io/pricing - free tier, 5% platform fee, BYOK included, retention pricing, plan comparison table (200, fetched 2026-10-04; re-fetched 2026-10-14 with the $10-to-$5,000 top-up bounds and the DevPass/Lounge lineups unchanged).
 - https://devpass.llmgateway.io/ - DevPass $29/$79/$179, $1-to-$3 usage claim, frontier fair-use, 14-day refund, supported agents (200, fetched 2026-10-04).
-- https://devpass.llmgateway.io/pricing - per-plan usage values and the October 15, 2026 3x-to-2x change notice (200, fetched 2026-10-04, re-fetched 2026-10-11, 2026-10-12, and 2026-10-14 with the cut still pending and every card reading 3x)
+- https://devpass.llmgateway.io/pricing - per-plan usage values and the October 15, 2026 3x-to-2x change notice (200, fetched 2026-10-04, re-fetched 2026-10-11, 2026-10-12, and 2026-10-14 with the cut still pending and every card reading 3x; fetched 2026-10-16 with the cut landed, every card reading 2x, and the tightened daily pacing, fair-use, Reset Pass, and refund terms live)
 - https://llmgateway.io/blog/q2-2026-roundup - DevPass Q2 launch detail, SOC 2 Type II, top-routed models by tokens (200, fetched 2026-10-04).
 - https://api.github.com/repos/theopenco/llmgateway - 1,674 stars, 191 forks, created 2025-04-12, pushed 2026-10-07 (200, fetched 2026-10-07; re-fetched 2026-10-14 at 1,685 stars, 193 forks, pushed 2026-10-13).
 - https://raw.githubusercontent.com/theopenco/llmgateway/main/LICENSE - AGPLv3 grant with the ee/ commercial carve-out (200, re-fetched 2026-10-07; the 2026-10-04 read had recorded it as a custom license).

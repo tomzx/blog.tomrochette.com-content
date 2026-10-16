@@ -1,7 +1,7 @@
 ---
 title: Supermemory
 created: 2026-10-04
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, context-engine, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The company describes itself as a research lab; the repository began under found
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint.**
-About 31.2k stars with the repository pushed 2026-10-11, created 2024-02-27 (GitHub API).
+About 31.2k stars with the repository pushed 2026-10-16, created 2024-02-27 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ About 31.2k stars with the repository pushed 2026-10-11, created 2024-02-27 (Git
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&legend=top-left" />
 </picture>
 
-The npm SDK pulled 510,440 downloads in the trailing month (2026-09-10 to 2026-10-09) and the SDK lines moved to a 5.x major in one day: npm at 5.0.1 and PyPI at 5.0.0 (uploaded 2026-10-06, after three release candidates), up from 3.62.0.
+The npm SDK pulled 505,179 downloads in the trailing month (2026-09-13 to 2026-10-12) and the SDK lines moved to a 5.x major in one day: npm at 5.0.2 and PyPI at 5.0.0 (uploaded 2026-10-06, after three release candidates), up from 3.62.0, and the self-host server line published server-v0.0.9 on 2026-10-12.
 The hosted platform claims 1T+ tokens processed per month and tens of millions of end users (vendor figures).
 The community record is thin for the star count: its largest Hacker News story threads sit at 5 points or fewer, and the README's three first-place benchmark claims have not been independently replicated in any source I could verify, though a competing project's preliminary run (below) tested it and published a worse-than-claimed number.
 

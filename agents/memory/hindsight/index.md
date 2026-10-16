@@ -1,7 +1,7 @@
 ---
 title: Hindsight
 created: 2026-10-07
-updated: 2026-10-12
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, benchmarks, open-source]
 readability: 3
@@ -26,8 +26,8 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
 
 ## Status
 
-**Active and suddenly large: 48,949 stars rank it third in this category behind claude-mem and mem0, on a repository that is barely a year old.**
-48,949 stars with the repository pushed 2026-10-12, created 2025-10-30, as of 2026-10-13 (GitHub API).
+**Active and suddenly large: 50,146 stars rank it third in this category behind claude-mem and mem0, on a repository that is barely a year old.**
+50,146 stars with the repository pushed 2026-10-15, created 2025-10-30, as of 2026-10-16 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.10.3 (2026-10-08) with PyPI (hindsight-api, hindsight-client) and npm in sync at 0.10.3 as of 2026-10-11, and 214,217 trailing-month npm client downloads (2026-09-11 to 2026-10-10).
+Latest release v1.0.0 (2026-10-13), the project's first stable major, with PyPI (hindsight-api, hindsight-client) and npm in sync at 1.0.0 as of 2026-10-16, and 218,746 trailing-month npm client downloads (2026-09-13 to 2026-10-12).
 v0.10.3 treats memory as a past record teams can annotate with their own guidance, adds a TraeCode (TRAE CN) harness adapter, filters non-conversation Codex content, and waits out rate limits during history deepening instead of dropping turns.
 The paper (arXiv 2512.12818, December 2025, with Virginia Tech's Naren Ramakrishnan among the authors) reports 91.4 percent on LongMemEval and 89.61 on LoCoMo; the live benchmark site claims 94.6 on LongMemEval-S, 92.0 on LoCoMo, and 64.1 on BEAM-10M as of 2026-10-07, and the README says Virginia Tech's Sanghani Center and The Washington Post independently reproduced the Hindsight numbers.
 The discussion footprint is thin for the size: a 4-point Show HN (December 2025), a self-posted 3-point star-milestone thread (April 2026), and a 2-point story (October 2026), so the 46k stars came through benchmark attention and ecosystem listings rather than public debate.
@@ -84,6 +84,7 @@ Not for solo coding-agent use, where local files or claude-mem cost nothing, or 
 - 2026-10-09 - Recorded v0.10.3 (memory as a past record with team-added guidance, a TRAE CN harness adapter, Codex content filtering, and 429 backoff during deepening) with PyPI and npm in sync at 0.10.3; refreshed stars to 47,452 and downloads to 195,348.
 - 2026-10-11 - The pricing page no longer lists the $5 signup credit (the free start remains); refreshed stars to 48,166 and downloads to 215,770, and re-verified the three-tier ladder unchanged.
 - 2026-10-12 - The pricing page published its first per-operation rates (retain $10.00/1M tokens, recall $0.75/1M, reflect $0.05/call, storage $0.25/1M per month past 30 days, plus extraction and mental-model rates), replacing the token-billing-only description (Price history row); refreshed stars to 48,555.
+- 2026-10-16 - Recorded the v1.0.0 release (October 13, the first stable major) with PyPI and npm in sync at 1.0.0; refreshed stars to 50,146 and trailing-month npm client downloads to 218,746.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Serena
 created: 2026-10-04
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, lsp, mcp, open-source]
 readability: 3
@@ -17,7 +17,7 @@ Serena is an open-source MCP toolkit that gives coding agents IDE-grade semantic
 
 ## What it is
 
-A Python application (`uv tool install serena-agent`) that runs as an MCP server (stdio or HTTP) and exposes symbol-level tools: `find_symbol`, symbol overview, `find_referencing_symbols`, rename, and symbolic edits (replace body, insert before or after) that are token-cheap because they target definitions instead of line ranges.
+A Python application (`uv tool install serena-agent`) that runs as an MCP server (stdio or HTTP), or since v2.0.0 as a REPL that reduces the tool set to a minimum, and exposes symbol-level tools: `find_symbol`, symbol overview, `find_referencing_symbols`, rename, and symbolic edits (replace body, insert before or after) that are token-cheap because they target definitions instead of line ranges.
 The default backend is language servers implementing the LSP, free and covering more than 40 languages; a paid Serena JetBrains plugin backend swaps in the IDE's deeper analysis (type hierarchy, move and inline refactorings, interactive debugging).
 It carries a per-project memory system (markdown memories the agent writes and reads across sessions), YAML configuration at global, project, and per-client levels, and it deliberately disables its basic file and shell tools inside harnesses like Claude Code that already ship them.
 Distributed as `serena-agent` on PyPI; the application is GPL-3.0-or-later and the SolidLSP component MIT, with a contributor license agreement required.
@@ -25,7 +25,7 @@ Distributed as `serena-agent` on PyPI; the application is GPL-3.0-or-later and t
 ## Status
 
 **Active and very large.**
-About 30.2k stars and 2,062 forks as of 2026-10-13, created 2025-03-23, pushed 2026-10-12, latest release v1.7.0 on 2026-08-09 (GitHub API), with the PyPI package at 1.7.0 across 15 releases and 147,731 downloads in the trailing month (unchanged as of 2026-10-13).
+About 30.3k stars and 2,083 forks as of 2026-10-16, created 2025-03-23, pushed 2026-10-15, latest release v2.0.0 on 2026-10-13, the release that added the Serena REPL, a new agent interface reducing the tool set to a minimum and running all Serena operations from a general code-execution environment (GitHub API and release notes), with the PyPI package at 2.0.0 across 16 releases and 147,731 downloads in the trailing month (downloads as of 2026-10-06).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=oraios/serena&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ My disagreeable claim: Serena's growth proves the embedding-index era of code co
 
 - 2026-10-04 - Created from the 2026-10-04 entrant scan, the largest uncovered tool in the category at about 30k stars, with seven fetched sources.
 - 2026-10-07 - Added the oraios/serena star history chart to the Status section.
+- 2026-10-16 - Recorded v2.0.0 (2026-10-13), the release that added the Serena REPL agent interface and formalized the GPL-3.0-or-later application licensing with the CLA, with the PyPI package at 2.0.0 across 16 releases; volatile numbers refreshed (about 30.3k stars, 2,083 forks, pushed 2026-10-15).
 
 ## See also
 
@@ -84,7 +85,7 @@ My disagreeable claim: Serena's growth proves the embedding-index era of code co
 ## References
 
 - https://github.com/oraios/serena - repository surface: architecture, backend choice, installer warning
-- https://api.github.com/repos/oraios/serena - exact stars, forks, and activity as of 2026-10-07
+- https://api.github.com/repos/oraios/serena - exact stars, forks, and activity as of 2026-10-16
 - https://raw.githubusercontent.com/oraios/serena/main/README.md - tool tables, language support count, memory system, the self-run agent evaluation, licensing overview
 - https://raw.githubusercontent.com/oraios/serena/main/LICENSE - the per-component licensing: SolidLSP MIT, application GPL-3.0-or-later, distributions GPL as a whole
 - https://oraios.github.io/serena/ - official documentation hub (tools, clients, configuration, evaluation pages)

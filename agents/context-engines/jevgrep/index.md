@@ -1,7 +1,7 @@
 ---
 title: Jevgrep
 created: 2026-10-07
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, cli, open-source]
 readability: 3
@@ -27,7 +27,7 @@ The MIT-licensed CLI ships from David Zhang (dzhng), the engineer behind deep-re
 ## Status
 
 **Not yet three weeks old and the fastest start in this category, with a thin discussion footprint so far.**
-2,645 stars, 194 forks, and 29 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-10-12, all as of 2026-10-13 (GitHub API).
+2,726 stars, 203 forks, and 30 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-10-15, all as of 2026-10-16 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dzhng/jevgrep&type=date&theme=dark&legend=top-left" />
@@ -86,7 +86,7 @@ My disagreeable claim: every index in this category is a cache standing in front
 
 ## References
 
-- https://api.github.com/repos/dzhng/jevgrep - repository stats: 2,355 stars, 171 forks, created 2026-09-26, pushed 2026-10-02, as of 2026-10-07
+- https://api.github.com/repos/dzhng/jevgrep - repository stats: 2,726 stars, 203 forks, created 2026-09-26, pushed 2026-10-15, as of 2026-10-16
 - https://raw.githubusercontent.com/dzhng/jevgrep/main/README.md - architecture, benchmark tables with per-run caveats, privacy and caching notes
 - https://raw.githubusercontent.com/dzhng/jevgrep/main/skills/jevgrep/SKILL.md - the agent skill surface and the grep-for-exact-symbols division of labor
 - https://raw.githubusercontent.com/dzhng/jevgrep/main/apps/cli/README.md - auth flow, supported providers, `jg doctor`, cache controls

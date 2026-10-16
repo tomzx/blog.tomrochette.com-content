@@ -1,7 +1,7 @@
 ---
 title: ChatGPT plans
 created: 2026-09-26
-updated: 2026-10-14
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, subscriptions, codex, openai]
 readability: 3
@@ -40,7 +40,7 @@ By 2026-10-02 the Pro plan lists three price points ($100, $200, $500) and the p
 - A practitioner's note from live engagements: two engineers on one shared window exhausted it by early afternoon, the April switch to credits changed budgeting for everyone.
 - Practical cost lands near $100-$200 per active developer per month once usage is heavy, which is Pro territory, not Plus.
 - Speed configurations and fast mode multiply credit burn, so the same prompt costs differently depending on settings you may not remember touching.
-- The consumer pricing page returned 200 to automated fetches this run but still renders its dollar figures client-side per region, so plan verification runs through the developer docs.
+- The consumer pricing page returned 403 to automated fetches again on 2026-10-16 (it answered 200 once on 2026-10-04) and still renders its dollar figures client-side per region, so plan verification runs through the developer docs.
 
 ## Pricing
 
@@ -79,6 +79,7 @@ My disagreeable claim: the published message ranges are more concrete than Anthr
 - 2026-09-26 - Created when the owner asked why the Claude and OpenAI subscriptions were missing from this category.
 - 2026-10-02 - Pro gained a third tier at $500/month with GPT-6 Astra Ultrafast access, the page now states Pro plans have no five-hour limit (message ranges published for Plus and Standard Business only), and GPT-6.1 Sol joined the credit rate table; price history row appended.
 - 2026-10-04 - Consumer pricing page re-check: it now returns 200 to automated fetches (403 in earlier runs) while still rendering prices client-side; every plan price re-verified unchanged on the developer docs.
+- 2026-10-16 - Rotation re-verification: every plan price re-verified unchanged on the developer pricing page ($8/$20/$100-$500, Business $25 per user), the GPT-5.5 retirement notice still displayed after the October 14 date with API-key sessions unaffected, and the consumer pricing page back to 403 after its single 200.
 
 ## See also
 
@@ -89,8 +90,8 @@ My disagreeable claim: the published message ranges are more concrete than Anthr
 
 ## References
 
-- https://developers.openai.com/codex/pricing - plan prices including the $500 Pro tier, per-model message ranges, credit rates, GPT-5.5 retirement, feature availability matrix (fetched 200, 2026-10-02, re-fetched 2026-10-11 and 2026-10-14, the latter on the retirement date itself with the notice live and plan prices unchanged)
+- https://developers.openai.com/codex/pricing - plan prices including the $500 Pro tier, per-model message ranges, credit rates, GPT-5.5 retirement, feature availability matrix (fetched 200, 2026-10-02, re-fetched 2026-10-11, 2026-10-14, and 2026-10-16, plan prices unchanged each time and the retirement notice still live after the October 14 date)
 - https://automationatlas.io/answers/chatgpt-codex-pricing-explained-2026 - the April 2 Business replacement, the credit-billing switch, Business seat pricing, the practical cost range and shared-window practitioner note (fetched 200, updated 2026-07-31)
 - https://www.simplemetrics.xyz/chatgpt-codex-limits-2026 - independent limit analysis, the ranges-vs-fixed-caps framing, GPT-5.6 family tables (fetched via search extraction, updated 2026-09-09)
-- https://help.openai.com/en/articles/11481834-chatgpt-rate-card-business-enterpriseedu - the business credit rate card and the August 31 GPT-5.4 retirement note (linked from the fetched developer pricing page; not separately fetched)
-- https://chatgpt.com/pricing - the consumer plan page (200 as of 2026-10-04, client-side rendered; plan prices verified through the developer docs)
+- https://help.openai.com/en/articles/11481834-chatgpt-rate-card-business-enterpriseedu - the business credit rate card and the August 31 GPT-5.4 retirement note (linked from the fetched developer pricing page; the 2026-10-16 automated fetch returned 403, facts carried from the page's own linked text)
+- https://chatgpt.com/pricing - the consumer plan page (403 again on 2026-10-16 after the single 200 on 2026-10-04; client-side rendered when reachable, plan prices verified through the developer docs)
