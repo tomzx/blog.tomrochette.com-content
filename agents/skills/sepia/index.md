@@ -1,7 +1,7 @@
 ---
 title: Sepia
 created: 2026-09-27
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, writing, humanizer, fiction]
 readability: 3
@@ -25,7 +25,7 @@ Install is `npx skills add Nanako0129/sepia -g` or a native plugin marketplace, 
 
 ## Status
 
-Active and early: 3,155 stars and 198 forks as of 2026-10-13, repo pushed 2026-10-09 with release v0.12.3 still the latest, five open issues, created 2026-08-28.
+Active and early: 3,155 stars and 198 forks as of 2026-10-13, repo pushed 2026-10-15 with v0.12.4 (2026-10-15) the latest release, five open issues, created 2026-08-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nanako0129/sepia&type=date&theme=dark&legend=top-left" />
@@ -76,6 +76,7 @@ My disagreeable claim: most humanizer installs, sepia included, are plausibly wa
 - 2026-10-07 - Added the Nanako0129/sepia star history chart to the Status section.
 - 2026-10-07 - The repo resumed activity after the 09-23 quiet stretch: v0.12.3 shipped 2026-10-06 as the latest tag, and the Status figures moved to 3,007 stars and seven open issues.
 - 2026-10-11 - The README's native plugin packaging list gained QwenPaw (Claude Code, Codex, Grok Build, Antigravity, and QwenPaw now ship native packaging); v0.12.3 is still the latest release and the figures refreshed to 3,079 stars.
+- 2026-10-16 - v0.12.4 shipped 2026-10-15 (a professional-recreate stance fix and QwenPaw `/sepia` dispatch changes) and is now the latest release; the Status and reference lines re-dated.
 
 ## See also
 
@@ -87,7 +88,7 @@ My disagreeable claim: most humanizer installs, sepia included, are plausibly wa
 
 ## References
 
-- https://api.github.com/repos/Nanako0129/sepia - 3,155 stars, 198 forks, MIT, pushed 2026-10-09, latest tag v0.12.3 (200, fetched 2026-10-13)
+- https://api.github.com/repos/Nanako0129/sepia - 3,155 stars and 198 forks as of 2026-10-13, MIT, pushed 2026-10-15 with latest tag v0.12.4 as of 2026-10-16 (200, fetched 2026-10-16)
 - https://raw.githubusercontent.com/Nanako0129/sepia/main/README.md - operations, three-pass protocol, research ledger, per-platform verification limits (200, QwenPaw packaging line re-verified 2026-10-11)
 - https://hysenlabs.com/en/projects/nanako0129-sepia - third-party editorial review (September 10, 2026) with critical sections on calibration and wrong-tool cases (200)
 - https://arxiv.org/abs/2604.03136 - StoryScope: 61,608 stories, 93.2% macro-F1 from narrative features alone, v6 revised 2026-08-10 (200)

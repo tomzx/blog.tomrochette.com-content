@@ -1,7 +1,7 @@
 ---
 title: "Assistant Runtimes Feature Matrix"
 created: 2026-08-27
-updated: 2026-10-14
+updated: 2026-10-16
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, assistant-runtimes, personal-assistants]
 readability: 3
@@ -32,7 +32,7 @@ Each column links to the full research note; every cell below traces to a source
 | Edge and mobile | ✓ Android app | ✗ server and desktop only | ✗ desktop only | ~ $5 VPS, serverless idle on Modal, Daytona | ~ server deploys (Render) | ✗ Docker host only | ✗ desktop clients, mobile in closed beta | ~ responsive web and PWA | companion apps | ✗ desktop only | ✗ macOS and Windows desktop only | ✓ Android APK, $10 RISC-V boards | ✗ server only | ~ beta Tauri desktop | ~ Raspberry Pi |
 | Credentials | your keys | your keys, providers set in the panel | your keys or cloud credits | per-provider keys or Nous Portal | your keys on host | ✓ OneCLI Agent Vault | your keys, per-expert providers | your keys | your keys on host | your keys BYO | your keys | your keys in workspace | your keys, local by default | your keys, or none offline | your keys in workspace |
 | Security record | clean so far | silent-drop adapter bug fixed 2026-06, thin English-language scrutiny | GAIA claim corrected, astroturf flag | edited plagiarism-claim issue, 48k open issues | clean so far, category-skepticism thread | clean so far | clean so far, zero English-language scrutiny | clean so far, license controversy | provider saga, 514-point vuln report, Trail of Bits audit completed (23 confirmed vulnerabilities, all fixed) | HN boundary questions unresolved | open beta, macOS builds signed and notarized while Windows builds are unsigned, thin independent footprint | pre-1.0 banner, scam-token notice, picoclaw.io cert renewed after its 2026-09-10 expiry | clean so far | telemetry auto-accept default | clean so far, thin coverage |
-| Status | active, v1.18.0 | active, v4.28.2 with two v4.29.0 betas, 1.1k open issues and PRs | active, v1.0.5 | active, v0.21.7 on the semver release line, 48k open issues | active, PyPI alpha | active, v2026.10.0, 1.0k open issues | active, v1.0.2b7 beta line, 791 open issues | active, v0.12.0 | active, v2026.10.3 stable, 9.6k open issues | active, v0.18.58 | active, v0.3.1, open beta | active, 41 open issues, pre-1.0 | active, v1.0.1, pushed 2026-10-13 | active, v2.2.1, post-rewrite churn | active, v0.8.5, 985 open issues |
+| Status | active, v1.18.0 | active, v4.29.0, 945 open issues and PRs | active, v1.0.6 | active, v0.22.2 on the semver release line, 49k open issues | active, PyPI alpha | active, v2026.10.0, 1.0k open issues | active, v1.0.2b8 beta line, 846 open issues | active, v0.12.2 | active, v2026.10.4 stable, 9.4k open issues | active, v0.18.58 | active, v0.3.1, open beta | active, 46 open issues, pre-1.0 | active, v1.0.1, pushed 2026-10-15 | active, v2.2.2, post-rewrite churn | active, v0.8.5, 995 open issues |
 
 ## Reading the matrix
 
@@ -83,6 +83,7 @@ QwenPaw is the only column with a real offline path through its own trained smal
 - 2026-10-11 - Re-verification: moved cells (OpenClaw status to v2026.10.1 stable, the October line going stable on 2026-10-10, with 9.5k open issues, Open WebUI status to v0.12.0, AstrBot status to two v4.29.0 betas with 1.6k open issues and PRs, Octop to 722 open issues, PicoClaw to 44, ZeroClaw to 951) and refreshed the stars row to 2026-10-11 counts (Hermes about 253k, OpenClaw about 392k, AstrBot about 41.7k, Octop about 8.6k, QwenPaw about 35.6k), with matching prose counts.
 - 2026-10-13 - Re-verification: moved cells (Hermes status to v0.21.7 on the semver line, OpenClaw status to v2026.10.2 stable with 9.6k open issues, OpenWork status to v0.18.58, Octop status to v1.0.2b7 with 760 open issues and stars about 9.0k), with matching prose counts.
 - 2026-10-14 - Re-verification: moved cells (AnythingLLM status to v1.18.0, OpenClaw status to v2026.10.3 stable, AstrBot to 1.1k open issues and PRs after the maintainer triage sweep of 2026-10-12, PrivateGPT pushed to 2026-10-13, and drifted issue counts on Octop, PicoClaw, and ZeroClaw) and refreshed the stars row to 2026-10-14 counts (AnythingLLM about 67.0k, AstrBot about 41.8k, Octop about 9.2k, Open WebUI about 156k, QwenPaw about 35.7k), with matching prose counts.
+- 2026-10-16 - Re-verification: moved status cells (AstrBot to stable v4.29.0 with 945 open issues and PRs, Eigent to v1.0.6, Hermes to the v0.22.2 semver line with 49k open issues, Octop to the v1.0.2b8 beta line with 846 open issues, Open WebUI to v0.12.2, OpenClaw to v2026.10.4 stable with 9.4k open issues, QwenPaw to v2.2.2, PrivateGPT pushed 2026-10-15, and drifted issue counts on PicoClaw and ZeroClaw), with the stars row left at its 2026-10-14 counts.
 
 ## See also
 

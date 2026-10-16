@@ -1,7 +1,7 @@
 ---
 title: PIC Standard
 created: 2026-10-11
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, agent-security, verification, provenance, open-standard]
 readability: 3
@@ -17,17 +17,18 @@ PIC Standard is an Apache-2.0 protocol for pre-execution action gating: before a
 
 ## What it is
 
-A protocol plus a Python reference implementation (`pip install pic-standard`, `pic-cli verify`), with a TypeScript verifier (`pic-standard-ts`) that passes the same conformance corpus for canonicalization, core, and trust sanitization as of v0.9.0 (2026-09-21).
+A protocol plus a Python reference implementation (`pip install pic-standard`, `pic-cli verify`), with a TypeScript verifier (`pic-standard-ts`) that passes the same conformance corpus for canonicalization, core, and trust sanitization as of v0.9.1 (2026-10-14).
 The contract: a proposal carries intent, an impact class (money, privacy, irreversible, compute), provenance entries with trust levels, claims backed by evidence, and the bound tool call; for high-impact actions at least one claim must cite evidence from trusted provenance or the verifier returns block.
+v0.9.1 completed tool binding at the enforcement boundary: the MCP guard and HTTP bridge now bind the sanitized live tool arguments to the verified `action.args` under canonical digest equality, fail-closed, so a call whose arguments diverge from what was verified blocks instead of running.
 The evidence model distinguishes hash evidence (integrity only, never a trust upgrade) from signature evidence (authority-bearing through the configured keyring), a rule tightened in v0.8.3 after issue 133.
-Specification discipline is unusually formal for the footprint: RFC-0001 as a defensive publication with a SHA-256 anchored artifact, a frozen Canonical JSON v1 spec, PIC-Core and PIC-Evidence drafts in BCP 14 normative language, 84-plus conformance vectors with an eight-token diagnostic taxonomy, differential CI comparing the Python and TypeScript envelopes, an OpenAPI bridge contract, and signed releases.
+Specification discipline is unusually formal for the footprint: RFC-0001 as a defensive publication with a SHA-256 anchored artifact, a frozen Canonical JSON v1 spec, PIC-Core and PIC-Evidence drafts in BCP 14 normative language, 91 conformance vectors with an eight-token diagnostic taxonomy, differential CI comparing the Python and TypeScript envelopes, an OpenAPI bridge contract, and signed releases.
 The author positions it against identity and delegation work explicitly: PIC decides whether a call is justified to execute now, not who the agent is.
 
 ## Status
 
 **Pre-1.0, actively hardened, with the thinnest adoption footprint of any protocol in this category.**
-69 stars, 48 forks, and 22 open issues and pull requests, created 2026-01-08, pushed 2026-10-13, as of 2026-10-13 (GitHub API).
-PyPI shows v0.9.0 (uploaded 2026-09-21) with 697 downloads in the month ending 2026-10-10.
+69 stars (2026-10-13), 48 forks, and 21 open issues and pull requests, created 2026-01-08, pushed 2026-10-14, as of 2026-10-16 (GitHub API).
+PyPI shows v0.9.1 (uploaded 2026-10-14); pypistats still serves 697 downloads in the month ending 2026-10-10, its newest window as of 2026-10-16.
 The public thread count is one: a Show HN at 1 point (2026-01-13).
 Depth signals offset the reach signals: an independent public-material-only stress test of v0.8.3 by HERMETICUM B.C.E. S.r.l. is recorded with its findings adapted into attributed conformance vectors, external contributors landed conformance vectors and Windows CI, and the project publicly calls for co-maintainers.
 
@@ -46,8 +47,9 @@ Depth signals offset the reach signals: an independent public-material-only stre
 
 ## Cautions
 
-- **Adoption has not started**: 67 stars, a 1-point Show HN, and under a thousand monthly PyPI installs mean no independent deployment record speaks for the protocol.
+- **Adoption has not started**: 69 stars, a 1-point Show HN, and under a thousand monthly PyPI installs mean no independent deployment record speaks for the protocol.
 - v0.9.0 was a breaking release for conformant producers (the semi_trusted trust value now fails validation), and the strict_trust default flipped to secure in the same cycle, so early embedders absorb churn.
+v0.9.1 continued the pattern at the boundary: a proposal-backed call whose live arguments diverge from the verified action.args now blocks (PIC_ARG_BINDING_MISMATCH) where it previously ran.
 - One contributor accounts for 141 of roughly 177 commits, the evidence-mode TypeScript parity is still open, and the specs themselves are drafts that become normative only at v1.0.
 - The gate only binds callers that opt in; an agent framework that skips the verifier is outside the contract entirely.
 
@@ -70,6 +72,7 @@ My disagreeable claim: this is the protocol layer agent security actually needs,
 ## Changes
 
 - 2026-10-11 - Created after the control-planes resolution routed the protocol here, with the thin-footprint-versus-formal-discipline gap recorded as the critical angle.
+- 2026-10-16 - The v0.9.1 release (2026-10-14) landed after the last verification, so the maturity record moved from v0.9.0 to v0.9.1: structured `pic-cli verify --json` output, an optional MCP guard `on_allow` hook, and live-argument binding at the guard and bridge boundary (fail-closed via PIC_ARG_BINDING_MISMATCH), with the conformance corpus grown additively from 84 to 91 vectors and the wire format unchanged; the stale 67-star figure in Cautions was aligned to the recorded 69 baseline.
 
 ## See also
 
@@ -82,9 +85,10 @@ My disagreeable claim: this is the protocol layer agent security actually needs,
 
 - https://github.com/pic-standard/pic-standard - repository facts: 69 stars, 48 forks, Apache-2.0, created 2026-01-08, pushed 2026-10-13 (GitHub API, as of 2026-10-13)
 - https://raw.githubusercontent.com/pic-standard/pic-standard/main/README.md - the contract fields, the Slack payment example, evidence semantics, and the v0.9.0 milestone (fetched 2026-10-11)
-- https://raw.githubusercontent.com/pic-standard/pic-standard/main/docs/spec-status.md - the version table from RFC-0001 through v0.9.0, the wire-format stability record, and the spec-track statuses
+- https://raw.githubusercontent.com/pic-standard/pic-standard/main/docs/spec-status.md - the version table from RFC-0001 through v0.9.1, the wire-format stability record, and the spec-track statuses
+- https://github.com/pic-standard/pic-standard/releases/tag/v0.9.1 - the v0.9.1 release notes: the on_allow hook, live-argument binding, and the 84-to-91 conformance expansion (fetched 2026-10-16)
 - https://raw.githubusercontent.com/pic-standard/pic-standard/main/docs/independent-reviews/hermeticum-v0.8.3.md - the HERMETICUM stress-test provenance note: scope, non-certification statement, and attribution
 - https://github.com/pic-standard/pic-standard-ts - the TypeScript verifier: corpus coverage for canonicalization, core, and trust sanitization, evidence mode open (GitHub API, as of 2026-10-11)
-- https://pypi.org/pypi/pic-standard/json - version 0.9.0 uploaded 2026-09-21
+- https://pypi.org/pypi/pic-standard/json - version 0.9.1 uploaded 2026-10-14
 - https://pypistats.org/api/packages/pic-standard/recent - 697 downloads in the month ending 2026-10-10
 - https://hn.algolia.com/api/v1/search?query=%22PIC%20Standard%22%20agent&tags=story - the footprint scan: one 1-point Show HN (2026-01-13)

@@ -20,7 +20,7 @@ The open standards that let agents, editors, tools, and frontends interoperate, 
 - [ANP](anp/index.md) - the community DID-based agent-interop suite betting on open-web agent discovery, specs at 1.2 with almost no adoption yet.
 - [llms.txt](llms-txt/index.md) - the Answer.AI site-content-index convention for agents, at v2 since August 2026 with link-relation discovery, adopted by docs platforms and coding agents while search crawlers ignore it.
 - [MCP](mcp/index.md) - the open protocol standardizing how AI applications connect to tools and data.
-- [PIC Standard](pic-standard/index.md) - the Apache-2.0 pre-execution gating contract: agents prove intent, provenance, and evidence in signed proposals before high-impact tool calls, verified fail-closed locally, v0.9.0 with two implementations.
+- [PIC Standard](pic-standard/index.md) - the Apache-2.0 pre-execution gating contract: agents prove intent, provenance, and evidence in signed proposals before high-impact tool calls, verified fail-closed locally, v0.9.1 with two implementations.
 - [Unified Harness Protocol (UHP)](uhp/index.md) - the Responses-compatible HTTP draft for driving coding-agent harnesses as shared infrastructure, at its fourth version since August 2026 with HarnessRouter and SuperQode as the recorded implementations.
 - [WebMCP](webmcp/index.md) - the W3C Community Group draft that turns a web page into an MCP-style tool provider through `document.modelContext`, in Chrome origin trial with Shopify and Cloudflare default-on.
 

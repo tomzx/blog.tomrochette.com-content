@@ -1,7 +1,7 @@
 ---
 title: Model Context Protocol (MCP)
 created: 2026-08-24
-updated: 2026-10-08
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, agent-tools]
 readability: 3
@@ -25,7 +25,7 @@ Anthropic created it (David Soria Parra and Justin Spahr-Summers), open-sourced 
 ## Status
 
 **Active and dominant.**
-The specification repository shows about 9.4k stars and roughly 4,900 commits as of 2026-10-10.
+The specification repository shows about 9.4k stars (2026-10-10) and roughly 4,900 commits as of 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=modelcontextprotocol/modelcontextprotocol&type=date&theme=dark&legend=top-left" />

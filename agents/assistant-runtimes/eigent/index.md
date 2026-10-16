@@ -1,7 +1,7 @@
 ---
 title: Eigent
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, multi-agent, open-source]
 readability: 3
@@ -24,7 +24,7 @@ By Eigent AI (EIGENT UK LTD), founded by Guohao Li, who also founded CAMEL-AI; f
 
 ## Status
 
-Active and maturing: 15,523 stars, 1,855 forks, 238 open issues as of 2026-10-14, created 2025-07-29, pushed 2026-10-13, v1.0.5 still the latest release (2026-09-25).
+Active and maturing: 15,523 stars and 1,855 forks as of 2026-10-14, created 2025-07-29, 246 open issues with the last push on 2026-10-16 as of 2026-10-16, v1.0.6 (2026-10-16) the latest release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eigent-ai/eigent&type=date&theme=dark&legend=top-left" />
@@ -51,7 +51,7 @@ Active and maturing: 15,523 stars, 1,855 forks, 238 open issues as of 2026-10-14
 ## Pricing
 
 Free: BYOK and local models, 1,000 registration credits.
-Plus $19.99/month (2,000 task credits) and Pro $99.99/month (10,000 credits), each after a 7-day free trial shown on the pricing page, Teams coming soon, Enterprise custom with local deployment.
+Plus $19.99/month (2,000 task credits) and Pro $99.99/month (10,000 credits), each after a 7-day free trial shown on the pricing page, with annual billing options now shown (Plus $199.90/year, Pro $999.90/year, both marked 2 months free), Teams coming soon, Enterprise custom with local deployment.
 Ten percent of subscriptions is pledged to CAMEL-AI.org.
 
 ## Price history
@@ -59,6 +59,7 @@ Ten percent of subscriptions is pledged to CAMEL-AI.org.
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09 | Plus, Pro | Baseline: Free (BYOK, 1,000 registration credits), Plus $19.99/mo (2,000 task credits), Pro $99.99/mo (10,000 credits), Teams coming soon, Enterprise custom. | [eigent.ai/pricing](https://www.eigent.ai/pricing) |
+| 2026-10-16 | Plus, Pro | Annual billing options appeared on the pricing page (Plus $199.90/year, Pro $999.90/year, both marked 2 months free); the monthly prices, the 7-day trial, and the Teams-coming-soon state unchanged. | [eigent.ai/pricing](https://www.eigent.ai/pricing) |
 
 ## Compared to
 
@@ -80,6 +81,7 @@ Not for buyers who need vendor accountability history, and not for the quick-sta
 - 2026-09-27 - Recorded v1.0.5 (released 2026-09-25), the first release since v1.0.4, with refreshed adoption numbers.
 - 2026-10-07 - Added the eigent-ai/eigent star history chart to the Status section.
 - 2026-10-07 - Recorded Anthropic's rename of Claude Cowork to just Claude in the comparison baseline, with refreshed adoption numbers and the pricing tiers re-checked unchanged.
+- 2026-10-16 - Rotation re-verification: recorded v1.0.6 (2026-10-16) as the latest release and the annual billing options on the pricing page (Price history row), with every cited URL re-fetched live and the monthly tiers unchanged.
 
 ## See also
 
@@ -90,7 +92,7 @@ Not for buyers who need vendor accountability history, and not for the quick-sta
 
 ## References
 
-- https://github.com/eigent-ai/eigent - repository, stack, license, adoption numbers (re-checked 2026-10-10 via the repo API)
+- https://github.com/eigent-ai/eigent - repository, stack, license, adoption numbers (re-checked 2026-10-16 via the repo API)
 - https://raw.githubusercontent.com/eigent-ai/eigent/HEAD/README.md - features and deployment paths
 - https://www.eigent.ai/pricing - the tiers and credits for the pricing rows
 - https://www.eigent.ai/about - the company and CAMEL-AI relationship

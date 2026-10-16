@@ -1,7 +1,7 @@
 ---
 title: Trigger.dev
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, scheduling, durable-execution, workflow-automation]
 readability: 3
@@ -20,7 +20,7 @@ Trigger.dev is an Apache-2.0 developer platform where you write agent and workfl
 You write tasks in a `trigger` folder of your codebase, deploy them with the CLI, and Trigger.dev runs them with no timeouts, automatic retries, queues, and per-run observability.
 Triggering comes from your backend code (`tasks.trigger()`), from other tasks (`triggerAndWait`), from batches of up to 1,000 runs, or from durable cron schedules with IANA timezones.
 The agents story is code, not canvas: documented guides cover the Vercel AI SDK and the Claude Agent SDK, and chat agents stream to your frontend with human-in-the-loop tool approvals.
-It is built by API Hero Ltd (YC W23), deploys to Trigger.dev Cloud or self-hosted containers (a webapp plus a worker), and the current version is v4.7.3 (October 6, still current as of 2026-10-13).
+It is built by API Hero Ltd (YC W23), deploys to Trigger.dev Cloud or self-hosted containers (a webapp plus a worker), and the current version is v4.7.4 (October 14, still current as of 2026-10-16).
 
 ## Status
 
@@ -78,6 +78,7 @@ My disagreeable claim: calling Trigger.dev open source and self-hostable is only
 
 - 2026-10-10 - Created.
 - 2026-10-11 - Refreshed the repository counters (16,510 to 16,516 stars, 1,486 to 1,489 forks) and re-confirmed v4.7.3 current and the pricing tiers unchanged.
+- 2026-10-16 - Recorded the v4.7.4 release (2026-10-14); the pricing tiers re-verified unchanged against the pricing page.
 
 ## See also
 

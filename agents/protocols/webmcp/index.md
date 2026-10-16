@@ -1,7 +1,7 @@
 ---
 title: WebMCP
 created: 2026-10-06
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, browser, w3c, agent-tools]
 readability: 3
@@ -17,7 +17,7 @@ WebMCP is a W3C Community Group draft specification, edited by Microsoft and Goo
 
 ## What it is
 
-A Draft Community Group Report (dated 2026-10-13, following the 2026-10-08 revision that removed the declarative form-annotation path from the 2026-10-02 draft) from the W3C Web Machine Learning Community Group, first announced 2026-02-10, with editors from Microsoft and Google.
+A Draft Community Group Report (dated 2026-10-15, following the 2026-10-08 revision that removed the declarative form-annotation path from the 2026-10-02 draft) from the W3C Web Machine Learning Community Group, first announced 2026-02-10, with editors from Microsoft and Google.
 The API surface is `document.modelContext` with `registerTool()`, `getTools()`, and `executeTool()`: a tool carries a name, a natural-language description, and a JSON Schema input, and pages register tools imperatively in JavaScript.
 **The spec's own framing places it in this index's stack: "Web pages that use WebMCP can be thought of as Model Context Protocol servers that implement tools in client-side script instead of on the backend", with the browser mediating every call under a `tools` Permissions Policy that defaults to same-origin only.**
 Chrome ships it behind a public origin trial (Chrome 149 through 156) plus a local flag, and Angular offers experimental support.
@@ -25,7 +25,7 @@ Chrome ships it behind a public origin trial (Chrome 149 through 156) plus a loc
 ## Status
 
 **Active and past the flag stage, with one browser shipping and one agent consuming.**
-The repository shows 4,621 stars and 122 open issues with a push on 2026-10-13, all as of 2026-10-13 (GitHub API).
+The repository shows 4,621 stars (2026-10-13), 124 open issues, and a push on 2026-10-16, as of 2026-10-16 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 - 2026-10-09 - The draft report was revised on 2026-10-08 and removed the declarative form-annotation API "for now" (issue #338), so the API description moved to the imperative-only path, the declarative on-ramp bullet became the imperative-path bullet, the browser-mediation bullet was re-grounded in the permissions policy and tool events after `SubmitEvent.agentInvoked` left the draft, and the removal joined the churn caution; stars and open issues refreshed as of 2026-10-09.
 - 2026-10-11 - Re-verification: stars refreshed to 4,535 as of 2026-10-11; the draft remains at its 2026-10-09 revision with no newer report, and open issues hold at 124.
 - 2026-10-13 - The draft report moved to its 2026-10-13 revision (fixes to the concurrency, detached-document, and permissions checks in the algorithms, no API surface change); stars and open issues refreshed as of 2026-10-13.
+- 2026-10-16 - The draft report moved to its 2026-10-15 revision (an inactive-document unregistration notification fix and re-registration handling during input serialization, both algorithm-level with no API surface change); open issues and the push date refreshed as of 2026-10-16, with the star figure left at its dated baseline.
 
 ## See also
 
@@ -85,7 +86,7 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 
 ## References
 
-- https://webmachinelearning.github.io/webmcp/ - the Draft Community Group Report (2026-10-13 revision): `document.modelContext` API, permissions policy, and the full security considerations section
+- https://webmachinelearning.github.io/webmcp/ - the Draft Community Group Report (2026-10-15 revision): `document.modelContext` API, permissions policy, and the full security considerations section
 - https://github.com/webmachinelearning/webmcp - repository: 4,621 stars, 122 open issues, pushed 2026-10-13 (GitHub API, as of 2026-10-13)
 - https://github.com/webmachinelearning/webmcp/commit/14ae813cc4e9 - the 2026-10-08 commit "Remove declarative API from the spec for now (#338)" behind the revision
 - https://developer.chrome.com/docs/ai/webmcp - Chrome implementation: origin trial from Chrome 149, imperative and declarative APIs, `tools` permissions policy defaults, Angular experimental support (page updated 2026-10-01)

@@ -1,7 +1,7 @@
 ---
 title: BMad Method
 created: 2026-08-27
-updated: 2026-10-14
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, agile, multi-agent, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The ecosystem is modular: BMad Builder, a Creative Intelligence Suite, an enterp
 ## Status
 
 Large, active, and quietly adopted.
-As of 2026-10-14: about 54k stars (54,105) and about 6.1k forks since creation on 2025-04-13, 49 open issues and pull requests, with release v6.12.2 (published 2026-10-11) now the newest.
+As of 2026-10-14: about 54k stars (54,105) and about 6.1k forks since creation on 2025-04-13, 49 open issues and pull requests; as of 2026-10-16, release v6.12.4 (published 2026-10-14) is the newest, the two 10-14 patches fixing how registry-pinned modules (TEA at v1.27.2) interact with the installer's channel picker and dropping the `next` channel from the picker while `--next=CODE` stays headless-only.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bmad-code-org/BMAD-METHOD&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ The disagreeable claim I will defend: within a year the waterfall critique will 
 - 2026-10-07 - Added the bmad-code-org/BMAD-METHOD star history chart to the Status section.
 - 2026-10-11 - Recorded the v6.12.2 release (published 2026-10-11) and refreshed counts.
 - 2026-10-11 - Reworded a banned-term word out of the prose; meaning unchanged.
+- 2026-10-16 - Recorded the v6.12.3 and v6.12.4 releases (both 2026-10-14, the registry-pin channel-picker fixes and the `next` channel's removal from the picker).
 
 ## See also
 

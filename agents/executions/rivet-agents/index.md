@@ -1,7 +1,7 @@
 ---
 title: Rivet Agents
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, durable-execution, scheduling, actor-model]
 readability: 3
@@ -19,13 +19,13 @@ Rivet Agents is the Apache-2.0 runtime from Rivet that runs a coding agent as on
 You define the agent once in your backend with rivetkit, and every key you call it with gets its own Actor, conversations, and files.
 File tools work on the Actor's SQLite database with no sandbox; add one (E2B or Daytona through the sandbox adapter) and shell tools run there, with provider keys staying in your backend and never entering the sandbox.
 The agent harness is Pi (Earendil's Pi Durable package, beta), with your own model, your own keys, or your users' own subscriptions.
-It is built by Rivet Gaming, Inc. (YC, a16z Speedrun), the company behind the rivet-dev/rivet control plane, and the repository is a monorepo renamed from sandbox-agent that carries Rivet Agents plus the Sandbox Agent HTTP control layer on one version line, v0.5.2 newest (2026-10-08).
+It is built by Rivet Gaming, Inc. (YC, a16z Speedrun), the company behind the rivet-dev/rivet control plane, and the repository is a monorepo renamed from sandbox-agent that carries Rivet Agents plus the Sandbox Agent HTTP control layer on one version line, v0.5.3 newest (2026-10-14).
 
 ## Status
 
 **Active, young, and moving fast.**
 1,604 stars, 134 forks, and 87 open issues and pull requests as of 2026-10-13 (GitHub API), created 2026-01-25 and pushed 2026-10-14 UTC.
-The release train reached a stable v0.5.0 only on 2026-10-07 after release candidates that began in March, with v0.5.1 and v0.5.2 following within two days, and the company changelog shipped agentOS 0.4 with Hosted VMs on 2026-10-12.
+The release train reached a stable v0.5.0 only on 2026-10-07 after release candidates that began in March, with v0.5.1 through v0.5.3 following within a week (v0.5.3 on 2026-10-14), and the company changelog shipped agentOS 0.4 with Hosted VMs on 2026-10-12.
 The community footprint sits under the prior names: the Sandbox Agent SDK Show HN drew 41 points in January 2026, the Gigacode OpenCode-UI experiment 27 points in February, and SQLite for Rivet Actors 45 points, but no dedicated launch thread exists for the Agents product itself as of 2026-10-13, and a product line that has already carried the Sandbox Agent SDK and agentOS names beside the Actors platform carries identity churn a reader should price in.
 
 <picture>
@@ -75,6 +75,7 @@ My disagreeable claim: for the durable-agent use case this is a better fit than 
 ## Changes
 
 - 2026-10-13 - Created from the cross-category scan, resolved to the durable-execution slot beside Trigger.dev after the kind call (durable execution for agent runs, not a general workflow engine under the kestra precedent).
+- 2026-10-16 - Recorded the v0.5.3 release (2026-10-14); the pricing page re-verified unchanged and all other claims held.
 
 ## See also
 

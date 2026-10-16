@@ -1,7 +1,7 @@
 ---
 title: Octop
 created: 2026-10-07
-updated: 2026-10-13
+updated: 2026-10-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, python, self-hosted, open-source]
 readability: 3
@@ -26,7 +26,7 @@ It is published under the TencentCloud GitHub org and built from four focused su
 
 ## Status
 
-Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three months as of 2026-10-14 (created 2026-07-08, pushed 2026-10-13), 791 open issues, MIT.
+Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three months as of 2026-10-14 (created 2026-07-08), 846 open issues with the last push on 2026-10-16 as of 2026-10-16, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/Octop&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three m
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TencentCloud/Octop&type=date&legend=top-left" />
 </picture>
 
-GitHub releases run a beta line (v1.0.2b4 on 2026-09-27 through v1.0.2b7 on 2026-10-12, now also published on PyPI) while PyPI's stable `octop` package sits at 1.0.1, and the README carries a Trendshift trending badge.
+GitHub releases run a beta line (v1.0.2b4 on 2026-09-27 through v1.0.2b8 on 2026-10-14, now also published on PyPI) while PyPI's stable `octop` package sits at 1.0.1, and the README carries a Trendshift trending badge.
 **The adoption curve is the fastest first quarter in this category after the 2026 wave, and the scrutiny record is the exact AstrBot profile at a third of the age: one 1-point Hacker News thread, zero English-language technical coverage, so the vetting so far has happened in Chinese-language channels you are probably not reading.**
 
 ## Strengths
@@ -47,7 +47,7 @@ GitHub releases run a beta line (v1.0.2b4 on 2026-09-27 through v1.0.2b7 on 2026
 ## Cautions
 
 - Zero English-language technical scrutiny: the only independent trace this run found is a 1-point Hacker News thread from 2026-10-06.
-- The release line is beta-tagged (v1.0.2b7, now also published on PyPI while the stable channel stays at 1.0.1), so pin versions deliberately.
+- The release line is beta-tagged (v1.0.2b8, now also published on PyPI while the stable channel stays at 1.0.1), so pin versions deliberately.
 - The one-line installer pulls its script from a Tencent Cloud COS bucket, and the docs, community, and channel gravity are China-first like AstrBot and QwenPaw.
 - The runtime sub-repo (octop-harness) stands at 39 stars, which says the ecosystem is the org's own code rather than a community.
 
@@ -73,6 +73,7 @@ The disagreeable claim I will defend: multi-user is the assistant category's nex
 - 2026-10-07 - Created from the entrant scan as the category's fifteenth member.
 - 2026-10-11 - Corrected the PyPI claim (v1.0.2b6 is now published there while the stable channel stays at 1.0.1), with refreshed adoption numbers.
 - 2026-10-13 - Recorded v1.0.2b7 (2026-10-12) extending the beta line on GitHub and PyPI, with refreshed adoption numbers.
+- 2026-10-16 - Recorded v1.0.2b8 (2026-10-14, on PyPI the same day) extending the beta line, with refreshed adoption numbers.
 
 ## See also
 
@@ -85,8 +86,8 @@ The disagreeable claim I will defend: multi-user is the assistant category's nex
 
 - https://github.com/TencentCloud/Octop - repository, license, and adoption numbers as of 2026-10-10
 - https://raw.githubusercontent.com/TencentCloud/Octop/main/README.md - architecture, experts, channels, ACP, roadmap, install paths
-- https://api.github.com/repos/TencentCloud/Octop/releases?per_page=3 - the v1.0.2b4 through v1.0.2b6 beta line (2026-09-27 through 2026-10-04)
-- https://pypi.org/pypi/octop/json - the PyPI stable channel at 1.0.1 while GitHub runs v1.0.2b6
+- https://api.github.com/repos/TencentCloud/Octop/releases?per_page=3 - the v1.0.2b6 through v1.0.2b8 beta line (2026-10-04 through 2026-10-14)
+- https://pypi.org/pypi/octop/json - the PyPI stable channel at 1.0.1 while GitHub runs v1.0.2b8
 - https://github.com/TencentCloud/octop-harness - the agent-runtime sub-repo and its 39-star footprint
 - https://hn.algolia.com/api/v1/items/49976872 - the single 1-point Hacker News thread (2026-10-06), the zero-scrutiny evidence
 - https://trendshift.io/repositories/95504 - the Trendshift trending badge the README carries
