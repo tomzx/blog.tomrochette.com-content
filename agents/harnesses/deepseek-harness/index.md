@@ -35,7 +35,7 @@ New and extremely loud: 249,954 stars and 30,059 forks as of 2026-10-15, about n
 
 No stable release exists, only alpha and rc prereleases, with dsh-v0.2.1-rc.1 the newest tag (published 2026-10-17, the first release candidate of the 0.2.1 series, aggregating the alpha.3 through alpha.5 train: plugin discovery and installation from custom plugin index sources, a plugin-management entry that lets the Agent create plugins from a drafted request, and the earlier alpha.2 additions of experimental Git Worktrees and thinking-translation plugins, a session-state API for plugins, global instructions read from a shared agents directory via `DSH_AGENTS_HOME`, a `working_directory` tool with SDK support, an SSH helper runtime for remote file, process, terminal, and sandbox operations, and on-demand Claude Code and Codex combo-pack installs), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.
-An ecosystem is already forming: a Tauri desktop port with 2,992 stars as of 2026-10-15, down from 3,149 on 2026-10-11 (its repository moved from the dsh-tauri-desk org to dsh-tauri, old links redirect), a plugin directory site, and an MCP plugin catalog.
+An ecosystem is already forming: a Tauri desktop port with 2,992 stars as of 2026-10-15, down from 3,149 on 2026-10-11 (its repository moved from the dsh-tauri-desk org to dsh-tauri, old links redirect), a plugin directory site, and an MCP plugin catalog; two curated plugin-list repositories also appeared within minutes of the harness itself on 2026-08-13, awesome-dsh-plugin (19,084 stars as of 2026-10-17, the registry feeding the in-harness dsh-market marketplace and the dsh-find-plugin discovery tool) and a generated ecosystem index at 385 stars.
 **I read the star count as attention, not adoption, and the safest status label is developer preview.**
 
 ## Strengths
@@ -81,6 +81,7 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 - 2026-10-07 - Added the deepseek-ai/deepseek-harness star history chart to the Status section.
 - 2026-10-11 - Recorded the dsh-v0.2.1-alpha.2 prerelease (October 9), which added experimental Git Worktrees and thinking-translation plugins, a plugin session-state API, shared-directory AGENTS.md loading via DSH_AGENTS_HOME, a working_directory tool, an SSH helper runtime, and on-demand Claude Code and Codex combo installs; refreshed repository scale; and updated the desktop-port reference to the renamed dsh-tauri org.
 - 2026-10-17 - Recorded the 0.2.1 train reaching its first release candidate, dsh-v0.2.1-rc.1 (October 17), which aggregates the alpha.3 through alpha.5 changes, including plugin discovery from custom index sources and an agent-driven plugin-creation entry in the plugin manager; the project remains prerelease-only.
+- 2026-10-17 - Added the curated plugin-list cluster (awesome-dsh-plugin at 19,084 stars, the registry behind dsh-market and dsh-find-plugin, plus a 385-star generated index) to the ecosystem sentence and references, both repositories created minutes after the harness on 2026-08-13, per the cross-category scan's ecosystem-evidence resolution.
 
 ## See also
 
@@ -97,3 +98,5 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 - https://news.ycombinator.com/item?id=49285244 - the 747-point launch thread, including critical takes on plugins and the Cordis paper
 - https://arxiv.org/abs/2608.25512 - the Cordis composability paper behind the architecture
 - https://github.com/dsh-tauri/deepseek-harness-desktop - the community desktop port, evidence of early ecosystem pull (org renamed from dsh-tauri-desk, old links redirect)
+- https://github.com/awesome-dsh-plugin/awesome-dsh-plugin - the curated plugin registry behind dsh-market and dsh-find-plugin (19,084 stars as of 2026-10-17), the ecosystem's delivery layer
+- https://github.com/Dominic789654/awesome-deepseek-harness - the generated ecosystem index (385 stars as of 2026-10-17), further evidence of community pull

@@ -1,7 +1,7 @@
 ---
 title: Vectara Hallucination Leaderboard
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, benchmarks, hallucination, leaderboards]
 readability: 3
@@ -17,16 +17,16 @@ The Vectara Hallucination Leaderboard ranks LLMs by how often they hallucinate w
 ## What it is
 
 A GitHub repository carrying the ranked table, a Hugging Face Space rendering it interactively, and the HHEM-2.1-Open judge model behind the scores.
-Each refresh runs a fixed set of short-document summarization tasks per model and reports hallucination rate, factual consistency rate, answer rate, and average summary length; the README table is stamped "Last updated on September 22, 2026", and the Space's files were last modified 2026-10-06.
+Each refresh runs a fixed set of short-document summarization tasks per model and reports hallucination rate, factual consistency rate, answer rate, and average summary length; the README table is stamped "Last updated on October 16, 2026" (as of 2026-10-17; the previous stamp read September 22, 2026), and the Space's files were last modified 2026-10-06.
 HHEM judges whether a summary is supported by its source, and it targets the case the model card calls "factual but hallucinated": an answer that is true in the world but contradicts the retrieved context.
 The work began at Vectara under Simon Hughes, who died in November 2023; the repository and model card both carry a memorial line, and Vectara has kept the leaderboard and the model updated since.
 
 ## Status
 
-Active and notably adopted for its size: the repository holds 3,318 stars and 107 forks as of 2026-10-13, pushed 2026-09-23, and the Hugging Face Space shows 203 likes with files modified 2026-10-06.
+Active and notably adopted for its size: the repository holds 3,318 stars and 107 forks as of 2026-10-13, pushed 2026-10-17, and the Hugging Face Space shows 203 likes with files modified 2026-10-06.
 The judge model itself shows roughly 135,000 downloads on Hugging Face with a live demo Space, so the leaderboard's engine has outlived the leaderboard thread that launched it (Hugging Face, as of 2026-10-13).
 The 2023 launch footprint was substantial: the leaderboard thread drew 107 points on Hacker News in November 2023, and the author pointed to a New York Times feature the same month in the Show HN thread.
-The current leader is antgroup/finix_s1_32b at a 1.8 percent hallucination rate (README table, stamped 2026-09-22).
+The current leader is antgroup/finix_s1_32b at a 1.8 percent hallucination rate (README table, stamped 2026-10-16, unchanged leader across the September 22 and October 16 stamps).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vectara/hallucination-leaderboard&type=date&theme=dark&legend=top-left" />
@@ -67,6 +67,7 @@ My disagreeable claim: the Answer Rate column is the most interesting number on 
 ## Changes
 
 - 2026-10-13 - Created from the 2026-10-13 entrant scan, with the model-judged-scores caution and the answer-rate trade as the critical angles.
+- 2026-10-17 - Volatile re-verification after the repository's 2026-10-17 push: the README table stamp moved to October 16, 2026 (from September 22), with the leader unchanged (antgroup/finix_s1_32b at 1.8 percent).
 
 ## See also
 
@@ -77,9 +78,9 @@ My disagreeable claim: the Answer Rate column is the most interesting number on 
 
 ## References
 
-- https://github.com/vectara/hallucination-leaderboard - repository and table: task definition, table columns, "Last updated on September 22, 2026" stamp, top rows, memorial line (fetched 200, 2026-10-13)
-- https://api.github.com/repos/vectara/hallucination-leaderboard - exact counters (3,318 stars, 107 forks, Apache-2.0, created 2023-10-31, pushed 2026-09-23) (fetched 200, 2026-10-13)
-- https://huggingface.co/spaces/vectara/leaderboard - the interactive Space: 203 likes, files last modified 2026-10-06 (fetched 200, 2026-10-13)
+- https://github.com/vectara/hallucination-leaderboard - repository and table: task definition, table columns, "Last updated on October 16, 2026" stamp, top rows, memorial line (re-fetched 200, 2026-10-17, stamp moved from September 22, leader unchanged)
+- https://api.github.com/repos/vectara/hallucination-leaderboard - exact counters (3,318 stars, 107 forks, Apache-2.0, created 2023-10-31, pushed 2026-10-17 as of 2026-10-17; star figure unchanged by policy) (re-fetched 200, 2026-10-17)
+- https://huggingface.co/spaces/vectara/leaderboard - the interactive Space: 203 likes, files last modified 2026-10-06 (re-fetched 200, 2026-10-17, likes unchanged at 203)
 - https://huggingface.co/vectara/hallucination_evaluation_model - HHEM-2.1-Open model card: the factual-but-hallucinated definition, asymmetry, identity-gated download, roughly 135k downloads, memorial (fetched 200, 2026-10-13)
 - https://news.ycombinator.com/item?id=38167310 - the Show HN thread (65 points): the methodology exchange (model-judged, no human verification, a paper deferred), the New York Times mention, author participation (fetched 200, 2026-10-13)
 - https://news.ycombinator.com/item?id=38286761 - the November 2023 leaderboard thread (107 points), the launch footprint (fetched 200, 2026-10-13)

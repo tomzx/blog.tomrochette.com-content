@@ -1,7 +1,7 @@
 ---
 title: Sourcery
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -21,7 +21,7 @@ IDE surfaces cover PyCharm, VS Code, Sublime, and Vim, a wider editor spread tha
 
 ## Status
 
-**Old by category standards (repo since July 2019), active, and mid-size: 1,875 stars as of 2026-10-11, commits as recent as October 7, 2026.**
+**Old by category standards (repo since July 2019), active, and mid-size: 1,875 stars as of 2026-10-11, commits as recent as October 16, 2026.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sourcery-ai/sourcery&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-24 - Recorded the tier-content reshuffle at unchanged prices: Team's security scans now cover 50 repos nightly (was 200+), the rate-limit wording became "higher review limits" (was 3x), and BYO LLM keys moved from Team to Enterprise.
 - 2026-10-07 - Added the sourcery-ai/sourcery star history chart to the Status section.
+- 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, all prices and tier contents unchanged, and the repo's latest push moved to October 16.
 
 ## See also
 
@@ -90,11 +91,11 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 
 ## References
 
-- https://github.com/sourcery-ai/sourcery - repo, 1,875 stars, MIT, pushed October 7, 2026 (GitHub API, as of 2026-10-11)
-- https://sourcery.ai/ - product page
-- https://sourcery.ai/pricing/ - tiers as of 2026-10-11
-- https://docs.sourcery.ai/reference/faq/ - docs FAQ covering plans, security scanning, BYO LLM, self-hosting (the former Product/Plans page redirects here)
-- https://pypi.org/pypi/sourcery/json - the Python refactoring package, "Magically refactor Python", 23 releases
-- https://hn.algolia.com/api/v1/items/27760608 - Show HN for the refactoring era, 15 points, July 7, 2021
-- https://hn.algolia.com/api/v1/items/43944576 - user comparison of Sourcery vs Copilot, 3 points, May 10, 2025
-- https://hn.algolia.com/api/v1/items/44224690 - critical thread, 1 point, June 9, 2025
+- https://github.com/sourcery-ai/sourcery - repo, 1,875 stars, MIT, pushed October 16, 2026 (GitHub API, as of 2026-10-11; push date re-checked 2026-10-17)
+- https://sourcery.ai/ - product page, re-fetched 2026-10-17
+- https://sourcery.ai/pricing/ - tiers as of 2026-10-11, re-fetched unchanged 2026-10-17
+- https://docs.sourcery.ai/reference/faq/ - docs FAQ covering plans, security scanning, BYO LLM, self-hosting (the former Product/Plans page redirects here), re-fetched 2026-10-17
+- https://pypi.org/pypi/sourcery/json - the Python refactoring package, "Magically refactor Python", 23 releases, re-fetched 2026-10-17
+- https://hn.algolia.com/api/v1/items/27760608 - Show HN for the refactoring era, 15 points, July 7, 2021, re-fetched 2026-10-17
+- https://hn.algolia.com/api/v1/items/43944576 - user comparison of Sourcery vs Copilot, 3 points, May 10, 2025, re-fetched 2026-10-17
+- https://hn.algolia.com/api/v1/items/44224690 - critical thread, 1 point, June 9, 2025, re-fetched 2026-10-17

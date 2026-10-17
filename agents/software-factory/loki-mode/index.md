@@ -1,7 +1,7 @@
 ---
 title: Loki Mode
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, autonomous-agents, verification]
 readability: 3
@@ -22,7 +22,8 @@ Autonomi publishes it under BUSL-1.1, and the README documents outcomes and exit
 ## Status
 
 Active and shipping fast: 1,093 stars and 206 forks since creation on 2025-12-26 (as of 2026-10-13), 179,996 Docker pulls as of 2026-10-16, per GitHub and Docker Hub.
-Pushed 2026-10-16, and the npm train moved from 11.3.9 (2026-10-09) to v11.15.0 (2026-10-16), published under the `next` tag while `latest` holds 11.10.1, per the GitHub API and the npm registry as of 2026-10-16.
+Pushed 2026-10-17, and the train has moved from v11.15.0 (2026-10-16) to v11.17.40 on GitHub, with eight stable-tagged releases on 2026-10-17 alone and npm `latest` catching up to the train at 11.17.39 (`next` alongside it), per the GitHub API and the npm registry as of 2026-10-17.
+The catch-up release run changed the acceptance story: seal VERIFIED now requires at least one agent-independent (exogenous) proof by default, `loki verify --explain` classifies each gate as exogenous or agent-influenced, and the burst shipped a deploy path (`loki deploy` with Fly, Netlify, and Cloudflare verbs, custom-domain TLS proof, and a rollback command), per the v11.17.33 through v11.17.40 release notes.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=asklokesh/loki-mode&type=date&theme=dark&legend=top-left" />
@@ -73,6 +74,7 @@ Not for teams that require OSI licensing, and not for anyone who needs independe
 - 2026-10-09 - Recorded the train to 11.3.9 (eight published releases since 11.3.0, v11.3.3 never published after a failed release run), the v11.3.1 ship of the 11.3 program's ten v1 features, the v11.3.4-v11.3.9 credential-hardening arc with its "hardening, not a sandbox" wording, the provider roster's Cline and Aider additions as experimental, and refreshed counts.
 - 2026-10-11 - Added the BUSL-1.1 use grant and its 2030-03-19 Apache-2.0 conversion date to Pricing, recorded the autonomi.dev fetch failure (empty on two attempts), and refreshed counts.
 - 2026-10-16 - Recorded the train from 11.3.9 to v11.15.0 (2026-10-16, `next` tag while `latest` holds 11.10.1), the fix-forward publish pattern where CI-failed tags reached npm only through patches, and the v11.6.0 consolidation release.
+- 2026-10-17 - Recorded the npm `latest` tag catching up to the train at 11.17.39 (GitHub train at v11.17.40 after eight stable-tagged releases on 2026-10-17) and the acceptance change behind it: seal VERIFIED requires one agent-independent proof by default, with `loki verify --explain` naming each gate's class; the deploy path (Fly, Netlify, and Cloudflare verbs, custom-domain TLS proof, rollback) landed in the same burst.
 
 ## See also
 
@@ -85,7 +87,8 @@ Not for teams that require OSI licensing, and not for anyone who needs independe
 
 - https://github.com/asklokesh/loki-mode - repository, delivery contract, review council, MCP server, and install methods
 - https://www.autonomi.dev - Autonomi's site and the issue-to-PR-with-signed-receipt positioning
-- https://www.npmjs.com/package/loki-mode - the npm package, 11.3.9 latest as of 2026-10-09
+- https://www.npmjs.com/package/loki-mode - the npm package, 11.17.39 latest as of 2026-10-17
+- https://github.com/asklokesh/loki-mode/releases - the release train, v11.17.40 newest as of 2026-10-17, and the seal VERIFIED exogenous-proof default in the v11.17.33 notes
 - https://github.com/asklokesh/loki-mode/releases/tag/v11.3.1 - the v11.3.1 release notes, the 11.3 program's ten v1 features including scored attempts and memory with proof
 - https://github.com/asklokesh/loki-mode/releases/tag/v11.3.9 - the v11.3.9 release notes, credential-isolation follow-ups and backstop-triggered promotion
 - https://hub.docker.com/r/asklokesh/loki-mode - the Docker image and its pull count

@@ -1,7 +1,7 @@
 ---
 title: "HAR"
 created: 2026-08-29
-updated: 2026-10-13
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, harness, multi-agent, worktrees]
 readability: 3
@@ -50,7 +50,7 @@ It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime c
 
 Apache-2.0, free, installable from npm with no license cost.
 You bring the coding agents and their subscriptions, and Mission Control runs locally on your machine.
-HAR HQ, the hosted team layer, published its first pricing (as of 2026-09-18, re-verified 2026-10-11): Team at $400 per month for up to 50 users with $100 in monthly cloud credits included, and Enterprise custom with self-hosted or VPC deployment, SSO, SAML, SCIM, and SLAs.
+HAR HQ, the hosted team layer, published its first pricing (as of 2026-09-18, re-verified 2026-10-17): Team at $400 per month for up to 50 users with $100 in monthly cloud credits included, and Enterprise custom with self-hosted or VPC deployment, SSO, SAML, SCIM, and SLAs.
 
 ## Price history
 
@@ -81,6 +81,7 @@ Not for a solo developer doing one agent at a time, where the harness alone is s
 - 2026-09-29 - Recorded the v1.15.1 release (2026-09-28) and refreshed counts (96 stars, pushed 2026-09-28); HAR HQ pricing re-verified unchanged.
 - 2026-10-07 - Added the os-factory/har star history chart to the Status section.
 - 2026-10-07 - Recorded the v1.16.0 release (2026-10-07, Cypress plugin); HAR HQ pricing re-verified unchanged.
+- 2026-10-17 - Rotation re-verification: repository, releases (v1.16.0 still newest, no push since 2026-10-07), the docs site (plugin marketplace and iOS profile now advertised), the Kerno sponsorship (Kerno v1 live), the demo video, and HAR HQ pricing (Team $400 unchanged) all re-fetched; no material change.
 
 ## See also
 

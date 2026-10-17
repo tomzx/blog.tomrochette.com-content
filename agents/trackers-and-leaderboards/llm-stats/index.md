@@ -1,7 +1,7 @@
 ---
 title: LLM Stats
 created: 2026-09-24
-updated: 2026-10-11
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, llm, benchmarks, api]
 readability: 3
@@ -19,12 +19,12 @@ LLM Stats is a model-comparison platform that ranks 408 canonical models on a co
 A website and data service: a composite leaderboard ("Rankings for 300+ Top AI Models by Intelligence, Speed & Price"), category boards for reasoning, coding, agents, math, long context, vision, and more, model compare and pricing pages, an AI news feed, a weekly newsletter, and arena products hosted under its sibling brand huggle.ai.
 The methodology (score v3.1, updated 2026-09-02) is more careful than the aggregator genre demands: scores normalize within each benchmark, missing results are treated as missing rather than as failures, models with less evidence carry wider uncertainty, and lab-reported numbers are labeled separately from independently verified ones.
 The developer surface lists endpoints for models, benchmarks, scores, rankings, and updates, plus "11 MCP tools" with one-click OAuth for Cursor, Claude Code, and Windsurf.
-It is operated by ZeroEval Inc., which describes itself as building "the independent measurement layer for AI" and names LLM Stats as its first product; the founder is Jonathan Chavez, who Show HN'd earlier versions in November 2024 and January 2025.
+It is operated by ZeroEval Inc., which describes itself as building "the independent measurement layer for AI" and names LLM Stats as its first product; the about page calls the operation "two people" and links co-founders Sebastian Crossa and Jonathan Chatab, and Jonathan Chavez (HN: JonathanChavez) Show HN'd earlier versions in November 2024 and January 2025.
 
 ## Status
 
-Actively maintained: the methodology page was modified 2026-09-02, the docs repository was pushed 2026-09-08, and the news page is titled by the current day ("LLM News Today").
-Traction is modest but growing: two small Show HNs (3 and 7 points), 20 HN comments referencing the site, and a small GitHub org, with self-reported reach (people at OpenAI, Anthropic, Google, Meta, "400,000+ more") that cannot be verified.
+Actively maintained as of this 2026-10-17 re-check: the methodology page still reads score v3.1, updated 2026-09-02, and the news page is still titled by the current day ("LLM News Today"), while the leaderboard holds at 408 canonical models ("1-15 of 408").
+Traction is modest but growing: two small Show HNs (3 and 7 points), 20 HN comments referencing the site, a small GitHub org (8 public repositories), and self-reported reach (people at OpenAI, Anthropic, Google, Meta, "400,000+ more") that cannot be verified.
 The corporate backing is self-displayed: a "Backed by" strip on zeroeval.com lists Y Combinator, Hugging Face, Harvard Medical, Google, and Datadog.
 
 ## Strengths
@@ -69,6 +69,7 @@ My disagreeable claim: the MCP server is the most consequential feature introduc
 - 2026-09-24 - Created.
 - 2026-09-29 - Coverage refreshed: the homepage now ranks 399 canonical models (from 398); API tiers and prices unchanged.
 - 2026-10-10 - Coverage refreshed: the homepage now ranks 408 canonical models (from 400); API tiers and prices unchanged (Community free, Builder $99/month, Commercial contract re-verified).
+- 2026-10-17 - Rotation re-verification with every cited URL re-fetched live: coverage unchanged at 408 canonical models and API tiers unchanged (Community free 250/day, Builder $99/month, Commercial contract), and the operator record corrected to the about page's "two people" self-description naming co-founders Sebastian Crossa and Jonathan Chatab, with the HN launch identity (JonathanChavez) unchanged.
 
 ## See also
 
@@ -80,12 +81,12 @@ My disagreeable claim: the MCP server is the most consequential feature introduc
 
 ## References
 
-- https://llm-stats.com/ - homepage: 408 canonical models, composite score, task boards, newsletter (re-fetched 200, 2026-10-11, unchanged at 408 canonical models, leaderboard showing 1-15 of 408)
-- https://llm-stats.com/methodology/llm-stats-score - score v3.1 construction, evidence policy, limitations, 2026-09-02 modification date (fetched 200, 2026-09-24)
-- https://llm-stats.com/developer - API and MCP endpoints, plan tiers and quotas, "updated within hours" claim (re-fetched 200, 2026-10-11, tiers and quotas unchanged)
-- https://llm-stats.com/about-us - founder Jonathan Chavez and the zeroeval relationship (fetched 200, 2026-09-24)
-- https://llm-stats.com/ai-news - the news feed and self-reported reach claim (fetched 200, 2026-09-24)
-- https://zeroeval.com - ZeroEval Inc. description, product list, self-displayed "Backed by" strip (fetched 200, 2026-09-24)
-- https://api.github.com/orgs/zeroeval - org metadata and docs-repo activity (fetched 200, 2026-09-24)
-- https://news.ycombinator.com/item?id=42590841 - the January 2025 Show HN and authorship evidence (fetched 200, 2026-09-24)
-- https://news.ycombinator.com/item?id=42231372 - the November 2024 launch thread with the Cerebras coverage-gap criticism (fetched 200, 2026-09-24)
+- https://llm-stats.com/ - homepage: 408 canonical models, composite score, task boards, newsletter (re-fetched 200, 2026-10-11, unchanged at 408 canonical models, leaderboard showing 1-15 of 408; re-fetched 200, 2026-10-17, still 408)
+- https://llm-stats.com/methodology/llm-stats-score - score v3.1 construction, evidence policy, limitations, 2026-09-02 modification date (re-fetched 200, 2026-10-17, still v3.1 dated 2026-09-02)
+- https://llm-stats.com/developer - API and MCP endpoints, plan tiers and quotas, "updated within hours" claim (re-fetched 200, 2026-10-11, tiers and quotas unchanged; re-fetched 200, 2026-10-17, tiers and quotas unchanged, 11 MCP tools)
+- https://llm-stats.com/about-us - the two-person self-description with co-founders Sebastian Crossa and Jonathan Chatab linked via LinkedIn (fetched 200, 2026-09-24; re-fetched 200, 2026-10-17, now "We're two people" with both co-founders named)
+- https://llm-stats.com/ai-news - the news feed and self-reported reach claim (re-fetched 200, 2026-10-17, "LLM News Today" and the 400,000+ claim unchanged)
+- https://zeroeval.com - ZeroEval Inc. description, product list, self-displayed "Backed by" strip (re-fetched 200, 2026-10-17, unchanged)
+- https://api.github.com/orgs/zeroeval - org metadata and docs-repo activity (re-fetched 200, 2026-10-17, 8 public repositories)
+- https://news.ycombinator.com/item?id=42590841 - the January 2025 Show HN and authorship evidence (re-fetched 200, 2026-10-17, unchanged, JonathanChavez author)
+- https://news.ycombinator.com/item?id=42231372 - the November 2024 launch thread with the Cerebras coverage-gap criticism (re-fetched 200, 2026-10-17, unchanged, JonathanChavez author)

@@ -101,7 +101,7 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-15 | hybrid-execution | TypeChat reopens on a first tagged release or npm publication | 2026-10-15 re-confirmed rejection (zero releases ever), but the 10-13 push added three named TypeScript-team maintainer commits and a Programs blog post
 - 2026-10-16 | assistant-runtimes | OpenAgent reopens on independent coverage or crossing the member floor | 5,698 stars but below the category floor (smallest member Octop about 9.2k), zero independent coverage, keyword-stuffed topics
 - 2026-10-16 | software-factory | uzi (vtmocanu) reopens on independent coverage or a stable release | 91 stars, MIT, alpha, nightly RC train, only a self-authored write-up, below the Orbi precedent (213 stars rejected 2026-10-11)
-- 2026-09-25 | trackers-and-leaderboards | bestvaluemodel reopens on sustained operation and a license | one-day-old derivative of member Artificial Analysis
+- 2026-09-25 | trackers-and-leaderboards | bestvaluemodel reopens on a license (sustained operation demonstrated: pushed 2026-10-16 with weeks of daily refreshes) | one-day-old derivative of member Artificial Analysis at rejection
 - 2026-09-25 | trackers-and-leaderboards | llm-list.com reopens on independent coverage | fully derivative of models.dev, OpenRouter, Arena, Artificial Analysis, and Hugging Face
 - 2026-09-27 | hybrid-execution | drawgent reopens on a primary mirror | license and stars unverifiable from tangled.org-only hosting
 - 2026-09-27 | harnesses | drawgent reopens on a primary mirror | license and stars unverifiable from tangled.org-only hosting

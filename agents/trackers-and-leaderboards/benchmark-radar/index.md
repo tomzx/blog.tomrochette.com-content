@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a benchmark leaderboard is.
 ---
 
-Benchmark Radar is an open benchmark catalog and search engine that crawls 39 public sources daily, indexes AI benchmark records with their evidence, and tracks reported model scores over time, and it is the only member of its category whose subject is the benchmarks themselves rather than the models.
+Benchmark Radar is an open benchmark catalog and search engine that crawls 40 public sources daily, indexes AI benchmark records with their evidence, and tracks reported model scores over time, and it is the only member of its category whose subject is the benchmarks themselves rather than the models.
 
 **Every other site in this category measures models; Benchmark Radar measures the measurement landscape, answering "which benchmarks exist, who ran them, and what did they report" from a corpus where every record keeps its source.**
 

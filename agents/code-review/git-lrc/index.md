@@ -1,7 +1,7 @@
 ---
 title: git-lrc
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -23,7 +23,7 @@ It is a Go binary from Hexmos (the company behind the LiveReview platform), sour
 ## Status
 
 **Young, fast-moving, and adoption-evidenced mostly through its own surfaces.**
-The repo (HexmosTech/git-lrc) was created February 8, 2026 and shows 1,470 stars, 191 forks, and 53 releases (v0.6.15, October 5, 2026, is latest) as of 2026-10-11, pushed October 10.
+The repo (HexmosTech/git-lrc) was created February 8, 2026 and shows 1,470 stars, 191 forks, and 53 releases (v0.6.15, October 5, 2026, is latest) as of 2026-10-11, pushed October 11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HexmosTech/git-lrc&type=date&theme=dark&legend=top-left" />
@@ -84,7 +84,7 @@ My disagreeable take: recording review attestations in commit messages is the mo
 
 ## References
 
-- https://github.com/HexmosTech/git-lrc - repo facts: 1,470 stars, 191 forks, created 2026-02-08, pushed 2026-10-10, NOASSERTION license (GitHub API, as of 2026-10-11)
+- https://github.com/HexmosTech/git-lrc - repo facts: 1,470 stars, 191 forks, created 2026-02-08, pushed 2026-10-11, NOASSERTION license (GitHub API, as of 2026-10-11, push date re-checked 2026-10-17)
 - https://raw.githubusercontent.com/HexmosTech/git-lrc/HEAD/README.md - the commit-hook mechanism, agent mode, claude-lrc companion, BYOK connectors, and the repository-rules surface
 - https://hexmos.com/livereview/git-lrc/pricing/ - the LOC pricing bands and tier contents, fetched 2026-10-11
 - https://hexmos.com/livereview/git-lrc/ - the product page: install flow, the vouch-skip table, and the LiveReview platform relationship, fetched 2026-10-10

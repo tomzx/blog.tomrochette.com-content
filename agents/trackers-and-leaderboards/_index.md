@@ -11,7 +11,7 @@ readability: 3
 Sites that watch the AI field itself and publish a continuously refreshed number from that watching: release timelines, independent benchmarks, open datasets, composite rankings, preference arenas, and usage statistics.
 The category's dividing line is what the number measures, since each member answers a different question about the same field.
 
-- [AI Release Tracker](ai-release-tracker/index.md) - a free, ad-free timeline of frontier releases since ChatGPT, with launch-day scores and flat-file exports for agents.
+- [AI Release Tracker](ai-release-tracker/index.md) - a free, single-operator timeline of frontier releases since ChatGPT, with launch-day scores and flat-file exports for agents.
 - [Artificial Analysis](artificial-analysis/index.md) - independent quality, price, and speed measurement across 702 models, 100+ providers, and the chips underneath.
 - [BenchLM](benchlm/index.md) - a solo-built composite re-ranking 950 tracked models into one evidence-labeled score, with its own failed validation checks published.
 - [Benchmark Radar](benchmark-radar/index.md) - an open benchmark catalog and search engine crawling 40 sources daily, with every record's evidence linked, the category's only member whose subject is the benchmarks themselves.
@@ -22,6 +22,7 @@ The category's dividing line is what the number measures, since each member answ
 - [Margin Lab](margin-lab/index.md) - daily degradation trackers running Claude Code and Codex against a fixed SWE-Bench Pro subset with 95% confidence intervals, plus an open-source eval runtime.
 - [OpenRouter Rankings](openrouter-rankings/index.md) - real token spend through the OpenRouter gateway, CC BY licensed, the category's only revealed-preference number.
 - [Vectara Hallucination Leaderboard](vectara-hallucination-leaderboard/index.md) - Vectara's HHEM-judged ranking of how often models hallucinate when summarizing short documents, with the judge model downloadable.
+- [whatmodel.sh](whatmodel-sh/index.md) - a curl-first composite that fits public results onto one IRT scale and filters to what your machine can run, afford, and download raw.
 
 Its members are compared on shared rows in the [Trackers and Leaderboards Feature Matrix](trackers-and-leaderboards-feature-matrix/index.md).
 
@@ -38,3 +39,4 @@ Its members are compared on shared rows in the [Trackers and Leaderboards Featur
 - 2026-10-11 - Added BenchLM.
 - 2026-10-11 - Added Margin Lab.
 - 2026-10-13 - Added Vectara Hallucination Leaderboard.
+- 2026-10-17 - Added whatmodel.sh.

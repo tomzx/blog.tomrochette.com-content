@@ -1,7 +1,7 @@
 ---
 title: roborev
 created: 2026-10-06
-updated: 2026-10-11
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -32,9 +32,10 @@ The repo (kenn-io/roborev) was created January 5, 2026 and shows 1,749 stars, 16
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenn-io/roborev&type=date&legend=top-left" />
 </picture>
 
-The release train ran from v0.33 (2026-02-17) to v0.71.0 (2026-10-03), 120 releases in nine months.
+The release train ran from v0.33 (2026-02-17) to v0.72.0 (2026-10-16), 121-plus releases in nine months.
 The project moved twice: both wesm/roborev and roborev-dev/roborev now redirect to kenn-io/roborev, and Kenn's site pairs it with the sibling tools AgentsView and msgvault.
 The HN record is thin, and I state that as a finding: a 4-point, zero-comment launch thread (46515428, January 2026) and two 1-point resubmits since, so the visible validation lives in the author's blog, a Posit profile, and podcast appearances rather than in independent discussion.
+v0.72.0 (October 16, 2026) adds a rebuttal flow (`comment --rebuttal --finding` asks the original reviewer to reassess a finding as confirmed, refuted, or superseded), planning before fixes (`fix --plan`, `refine --plan`, with a plan-only mode), a goal review type for specifications, linked plans, and open Kata tasks (with a `roborev-superpowers` skill and an optional artifact watcher), and remote review history over HTTPS with repository-scoped signing keys.
 
 ## Strengths
 
@@ -71,6 +72,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 - 2026-10-06 - Created after the entrant scan resolved the owner's 2026-09-20 star of kenn-io/roborev, which no earlier run had resolved; twelve sources fetched this run, including the critical LinkedIn hallucination report.
 - 2026-10-07 - Added the kenn-io/roborev star history chart to the Status section.
 - 2026-10-10 - Corrected the contributor count from 30 to 54; the earlier figure was the GitHub API's default 30-per-page cap, not the full paginated total.
+- 2026-10-17 - Recorded v0.72.0 (October 16): the reviewer rebuttal flow with confirmed, refuted, or superseded verdicts, fix planning with `--plan`, goal review for specs, plans, and Kata tasks (plus the roborev-superpowers skill), and remote review history over HTTPS with signing keys.
 
 ## See also
 
@@ -82,13 +84,13 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 
 ## References
 
-- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05, pushed 2026-10-11 (GitHub API, as of 2026-10-11)
+- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05 (GitHub API, as of 2026-10-11; re-queried 2026-10-17, pushed 2026-10-17)
 - https://raw.githubusercontent.com/kenn-io/roborev/HEAD/README.md - the two automation layers, the refine skill, and install paths
 - https://roborev.io/docs/ - the ledger model, the agent hook, panels, PostgreSQL sync, and the ACP surface
 - https://roborev.io/docs/agents.md - the eleven supported agents and the auto-detection fallback order
 - https://roborev.io/docs/integrations/github.md - the CI poller, subagent panels with synthesis (0.57+), and trusted-collaborator context
 - https://roborev.io/docs/changelog/ - the release train, the 0.33 false-positive work, and the gh-action generator
-- https://github.com/kenn-io/roborev/releases - v0.71.0 (2026-10-03), latest of 120 releases (GitHub API, as of 2026-10-11)
+- https://github.com/kenn-io/roborev/releases - v0.72.0 (2026-10-16), latest; the release list spans 13 pages, so 121-plus releases (GitHub API and releases page, as of 2026-10-17)
 - https://hn.algolia.com/api/v1/items/46515428 - the 4-point, zero-comment launch thread, the thin-footprint signal
 - https://wesmckinney.com/blog/agentic-engineering-aug-2026/ - the author's workflow grounding the design, roborev as the verification layer beside Superpowers
 - https://posit.co/blog/the-prolific-output-of-wes-mckinney-in-the-age-of-agentic-engineering/ - the independent profile of author and tool, and the source linking the pre-transfer roborev-dev org

@@ -1,7 +1,7 @@
 ---
 title: OpenCodeReview
 created: 2026-08-30
-updated: 2026-10-13
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, ci, open-source]
 readability: 3
@@ -32,7 +32,7 @@ High-velocity young: 46,915 stars, 3,406 forks, 306 open issues and PRs as of 20
 </picture>
 
 That is up from 23,041 stars on 2026-09-13, 29,564 on 2026-09-16, 35,673 on 2026-09-18, 37,926 on 2026-09-20, 38,670 on 2026-09-21, 40,800 on 2026-09-24, 41,702 on 2026-09-27, 42,421 on 2026-09-29, 43,189 on 2026-10-02, 43,411 on 2026-10-03, 43,529 on 2026-10-04, 43,886 on 2026-10-06, 44,113 on 2026-10-07, 44,730 on 2026-10-09, 45,649 on 2026-10-10, 45,964 on 2026-10-11, and 46,915 on 2026-10-13, roughly doubling in the month after mid-September, still with no new HN catalyst on the launch thread, which sits at the same 284 points (re-checked 2026-10-13).
-At least 138 releases in five months (v1.13.0 on 2026-10-13 is latest, after v1.12.13 on October 8), a 284-point Hacker News front-page thread in June.
+At least 139 releases in five months (v1.13.1 on 2026-10-17 is latest, a bug-fix patch after v1.13.0 on October 13), a 284-point Hacker News front-page thread in June.
 v1.13.0 moved to a minor bump for two integrations: reviews on the ChatGPT plan through the public Responses API, and an ACP service so coding agents can drive OpenCodeReview over the agent protocol.
 **Adoption outran polish visibly: GPT-5.x compatibility broke at launch and was fixed, and the lead has said parts of the codebase are not yet fully polished.**
 

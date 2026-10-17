@@ -1,7 +1,7 @@
 ---
 title: Ouroboros
 created: 2026-08-30
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, verification, self-improving-agents, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, by Ouro Labs (Q00), solo-maintained with around 80 contributors.
 
 ## Status
 
-Very young, very active: 6,214 stars, 627 forks, 104 open issues as of 2026-10-13, created 2026-01-14, pushed 2026-10-15.
+Very young, very active: 6,214 stars, 627 forks, 104 open issues as of 2026-10-13, created 2026-01-14, pushed 2026-10-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Very young, very active: 6,214 stars, 627 forks, 104 open issues as of 2026-10-1
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.56.0 on 2026-10-15, the first minor past the 0.55 line, landing deciding gates that record by default after the v0.55.8 and v0.55.9 patches of 2026-10-14; PyPI self-labels it Beta.
+Latest release v0.57.1 on 2026-10-17, after the v0.57.0 minor of 2026-10-16 (brownfield registry reads with BM25 repo ranking, an opt-in ask-the-requester command, and compressed onboarding skills) and the v0.56.x patches; PyPI self-labels it Beta.
 **Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-10-07.**
 An unrelated arXiv paper shares the name (a self-developing coding agent, arXiv 2608.08311), which muddies coverage searches for this project.
 
@@ -80,6 +80,7 @@ Not for quick edits, for teams needing proven evaluation rigor, or for anyone wh
 - 2026-10-09 - Recorded the three-repo Agent OS stack framing (Ouro-labs/ourocode shell and Ouro-labs/ouroboros-plugins around the Q00/ouroboros kernel); re-verified status otherwise unchanged, with v0.55.6 still the newest release and no PyPI movement since 2026-10-06.
 - 2026-10-13 - Recorded the v0.55.7 release (2026-10-12, GitHub and PyPI) and refreshed counts (6,211 stars, 100 open issues, pushed 2026-10-12).
 - 2026-10-16 - Recorded the v0.56.0 minor release (2026-10-15, deciding gates record by default) after the v0.55.8 and v0.55.9 patches (2026-10-14).
+- 2026-10-17 - Recorded the v0.57.0 minor (2026-10-16, brownfield registry reads with BM25 repo ranking, opt-in requester command, compressed onboarding skills) and the v0.57.1 patch (2026-10-17, both on GitHub and PyPI, still Beta); pushed date refreshed.
 
 ## See also
 
