@@ -21,7 +21,7 @@ The reusable capability format and its ecosystem: the open skill format spec, th
 - [Sepia](sepia/index.md) - Nanako0129's research-grounded de-AI writing skill, repairing narrative structure instead of word choice, portable across 77+ agents.
 - [SkillMD](skillmd/index.md) - the verification-first open registry, publishing lint and scanner verdicts per skill, 1,948 of its about 1.13M listed skills safety-reviewed.
 - [SkillOpt](skillopt/index.md) - Microsoft Research's optimizer that trains skill markdown against held-out validation, skills as trainable parameters.
-- [skills.md](skills-md/index.md) - Hasna's hosted-execution marketplace, skills that run server-side with quoted per-run credits and a $10-per-month Pro plan.
+- [skills.md](skills-md/index.md) - Hasna's hosted-execution marketplace, skills that run server-side with quoted per-run credits and a $12-per-month Pro plan.
 - [skills.sh](skills-sh/index.md) - Vercel's directory and leaderboard for the open skills ecosystem.
 - [SkillSpector](skillspector/index.md) - NVIDIA's Apache-2.0 scanner for agent skills, 71 patterns plus an optional LLM pass scoring each skill SAFE, CAUTION, or DO NOT INSTALL before you install it.
 

@@ -1,7 +1,7 @@
 ---
 title: A2UI
 created: 2026-10-06
-updated: 2026-10-13
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, generative-ui, frontend, google]
 readability: 3
@@ -24,7 +24,7 @@ Google created it and opened it on 2025-12-15, and the repository now lives in i
 ## Status
 
 **Active and adopted ahead of its spec maturity.**
-The repository shows about 16,690 stars and 1,328 forks with a push on 2026-10-14, roughly ten months after launch, all as of 2026-10-13 (GitHub API).
+The repository shows about 16,690 stars and 1,328 forks (as of 2026-10-13) with a push on 2026-10-17, roughly ten months after launch (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2ui-project/a2ui&type=date&theme=dark&legend=top-left" />
@@ -35,6 +35,7 @@ The repository shows about 16,690 stars and 1,328 forks with a push on 2026-10-1
 The adoption is product-anchored: Google's Opal team is a core contributor and uses A2UI in its mini-app builder, Gemini Enterprise is integrating it, and Flutter's GenUI SDK (about 1,780 stars) uses A2UI as its declaration format between server-side agents and the app.
 At the protocol layer, AG-UI documents A2UI as a supported generative-UI spec it natively carries, and A2A is a listed transport, so the two protocols above it in this index both move it.
 The launch Show HN drew 164 points and 75 comments (2025-12-16), and the v1.0 specification is a release candidate that adds client-to-server action responses.
+The implementation train is active on its own schedule: on 2026-10-17 the Python family split into separately versioned packages, with a2ui-core at v0.4.0 (cross-catalog `$ref` resolution), the agent SDK at v0.9.0 (breaking dependency bump), and the ADK and A2A bindings extracted into first releases (a2ui-adk v0.1.0, a2ui-a2a v0.1.0), so the agent SDK no longer depends on google-adk or the A2A SDK.
 
 ## Strengths
 
@@ -72,6 +73,7 @@ My disagreeable claim: A2UI will matter more to what end users see than AG-UI do
 - 2026-10-06 - Created from the 2026-10-06 entrant scan (the generative-UI payload slot), with the four-version spec churn and the single-org stewardship recorded as the central cautions.
 - 2026-10-07 - Added the a2ui-project/a2ui star history chart to the Status section.
 - 2026-10-10 - Recorded the Markdown renderer joining the official renderer list on the spec hub (v1.0 still candidate, v0.9.1 still current) and refreshed stars and forks as of 2026-10-10.
+- 2026-10-17 - Recorded the 2026-10-17 Python package wave: a2ui-core v0.4.0 with cross-catalog `$ref` resolution, the agent SDK's breaking move to v0.9.0, and the ADK and A2A bindings extracted into first releases (a2ui-adk v0.1.0, a2ui-a2a v0.1.0); the spec hub's version table re-verified unchanged (v0.9.1 current, v1.0 candidate).
 
 ## See also
 
@@ -84,7 +86,8 @@ My disagreeable claim: A2UI will matter more to what end users see than AG-UI do
 
 - https://github.com/a2ui-project/a2ui - repository: 16,688 stars, 1,328 forks, Apache-2.0, pushed 2026-10-14 (GitHub API, as of 2026-10-13)
 - https://raw.githubusercontent.com/google/A2UI/main/README.md - early-stage status, v0.9.1 production and v1.0 release candidate, the catalog security model, renderer list
-- https://a2ui.org/ - spec hub: version table (v1.0 Candidate, v0.9.1 Current, v0.9 Stable, v0.8 Legacy), Google and CopilotKit contribution note
+- https://a2ui.org/ - spec hub: version table (v1.0 Candidate, v0.9.1 Current, v0.9 Stable, v0.8 Legacy), Google and CopilotKit contribution note, re-fetched 2026-10-17
+- https://api.github.com/repos/a2ui-project/a2ui/releases - the release train: the 2026-10-17 Python wave (a2ui-core v0.4.0, agent SDK v0.9.0, a2ui-adk v0.1.0, a2ui-a2a v0.1.0)
 - https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/ - launch announcement (2025-12-15): Opal, Gemini Enterprise, Flutter GenUI, and CopilotKit collaborators, and the MCP Apps and ChatKit positioning
 - https://hn.algolia.com/api/v1/items/46286407 - launch thread, 164 points and 75 comments (2025-12-16), the injection and hallucination skepticism
 - https://docs.ag-ui.com/concepts/generative-ui-specs - the generative-UI spec landscape (A2UI, Open-JSON-UI, MCP-UI) and AG-UI's native support for all three

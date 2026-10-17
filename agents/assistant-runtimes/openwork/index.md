@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -23,7 +23,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 638 open issues and PRs with the last push on 2026-10-16 as of 2026-10-16.
+Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 633 open issues and PRs with the last push on 2026-10-17 as of 2026-10-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />
@@ -53,7 +53,7 @@ v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-2
 Free: $0, the MIT open-source desktop app with BYO keys, macOS, Windows, and Linux downloads, free forever, as of 2026-10-14.
 Team: $10 per seat per month, with the first 5 seats free on OpenWork Cloud (API access, SSO/SAML, the extension marketplace, and distributed LLM keys), as of 2026-10-14.
 Enterprise: custom pricing (everything in Team plus SCIM provisioning, BYO inference self-hosted or private models, desktop policies and version controls, managed deployment, custom skill development and MCP consulting, rollout support, and the grandfather clause: existing organizations already using SCIM or desktop policies keep full access), as of 2026-10-14.
-The pricing page churned a fourteenth time by 2026-10-16: the two add-ons are back (OpenWork Cloud Computer at $50 per member per month, managed OpenWork models at $10 per user per month, both marked available on Team and Enterprise), the grandfather clause left the page again, and the three main prices and the Enterprise custom annual tier with its 60-day opt-out are unchanged.
+The pricing page churned a fifteenth time by 2026-10-17: the two add-ons left the page again and the grandfather clause returned, both reversing the fourteenth churn from the day before, and the three main prices and the Enterprise custom annual tier with its 60-day opt-out are unchanged.
 
 ## Price history
 
@@ -73,6 +73,7 @@ The pricing page churned a fourteenth time by 2026-10-16: the two add-ons are ba
 | 2026-10-06 | All tiers | Twelfth churn: the grandfather clause returned (existing organizations using SCIM or desktop policies keep full access), and the first-5-seats-free OpenWork Cloud offer moved from the Free tier to the Team tier; Free $0, Team $10 per seat, Enterprise custom unchanged | https://openworklabs.com/pricing |
 | 2026-10-11 | All tiers | Thirteenth churn: the two add-ons (Cloud Computer at $50 per member per month, OpenWork models at $10 per user per month) left the pricing page and it now lists three tiers only, with API access joining Team and managed deployment, custom skill development, MCP consulting, and rollout support joining Enterprise; the three main prices and the grandfather clause unchanged | https://openworklabs.com/pricing |
 | 2026-10-16 | All tiers, add-ons | Fourteenth churn: the two add-ons returned to the pricing page (Cloud Computer $50 per member per month, OpenWork models $10 per user per month, both marked available on Team and Enterprise) and the grandfather clause left the page again; Free $0, Team $10 per seat, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
+| 2026-10-17 | All tiers, add-ons | Fifteenth churn: the two add-ons left the page again and the grandfather clause returned, both reversing the fourteenth churn; Free $0, Team $10 per seat, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
 
 ## Compared to
 
@@ -109,6 +110,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - 2026-10-11 - Pricing churned a thirteenth time: the two add-ons (Cloud Computer, OpenWork models) left the pricing page, which now lists three tiers only, while the three main prices and the grandfather clause held; API access, managed deployment, custom skill development, MCP consulting, and rollout support joined the tier lists, with refreshed adoption numbers.
 - 2026-10-13 - Recorded v0.18.58 (2026-10-13), with pricing re-checked unchanged (the thirteenth-churn state holds) and refreshed adoption numbers.
 - 2026-10-16 - Pricing churned a fourteenth time: the two add-ons returned to the page (available on Team and Enterprise) and the grandfather clause left again, with the three main prices unchanged (Price history row); refreshed adoption numbers.
+- 2026-10-17 - Pricing churned a fifteenth time: the two add-ons left the page again and the grandfather clause returned, both reversing the fourteenth churn, with the three main prices unchanged (Price history row); refreshed adoption numbers.
 
 ## See also
 

@@ -10,6 +10,7 @@ readability: 3
 
 Specification-first workflows: the movement's process layers and toolkits, sized from brownfield delta proposals to platform bets you rent.
 
+- [AI Unified Process](ai-unified-process/index.md) - the requirements-first RUP revival that keeps use cases as the living source of truth and generates, reconciles, and audits code against them, 146 stars and an Apress book behind it.
 - [AI-DLC](ai-dlc/index.md) - AWS Labs' harness-neutral lifecycle engine, 5 phases and 33 stages with approval gates and an audit trail, one methodology across seven agents.
 - [Arc Kit](arc-kit/index.md) - the solo-maintained 76-command enterprise-architecture governance harness (strategy through assurance, HM Treasury documents, Wardley Maps, citation-marked drafts) across seven agent formats, about 2.3k stars.
 - [BMad Method](bmad-method/index.md) - the agile method that sizes ceremony to the change, roles and retrospectives included.
@@ -43,3 +44,4 @@ Its members are compared on shared rows in the [Spec Driven Development Feature 
 - 2026-10-11 - Added Spec-Driven Develop.
 - 2026-10-13 - Added Arc Kit.
 - 2026-10-16 - Added Mycelium.
+- 2026-10-17 - Added AI Unified Process.

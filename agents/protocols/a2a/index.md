@@ -1,7 +1,7 @@
 ---
 title: Agent2Agent Protocol (A2A)
 created: 2026-08-24
-updated: 2026-10-13
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, multi-agent]
 readability: 3
@@ -49,7 +49,7 @@ No coding harness in this index speaks it natively; the closest touchpoint is [G
 ## Cautions
 
 - **The usage gap with MCP is the signal**: pypistats records about 11.4M monthly a2a-sdk downloads versus about 235M for the MCP SDK as of 2026-10-07 (the mid-June 2026 report an ecosystem developer shared read 10.9M versus 257M).
-- Critics argue MCP already covers the ground by treating agents as tools, and a June 2026 Ask HN thread (46 comments) found thin startup usage plus concrete complaints about identity assumptions and gRPC friction.
+- Critics argue MCP already covers the ground by treating agents as tools, and a June 2026 Ask HN thread (45 comments as of 2026-10-17) found thin startup usage plus concrete complaints about identity assumptions and gRPC friction.
 - v1.0 broke wire compatibility with v0.3, so early adopters are mid-migration.
 - Prompt injection across agent boundaries remains unsolved at the protocol level.
 
@@ -75,6 +75,7 @@ The disagreeable part: I expect A2A to stay an enterprise convention, and if aut
 - 2026-09-05 - Corrected the v1.0.1 release date to 2026-05-28 per the GitHub API.
 - 2026-10-06 - Recorded the official A2A CLI (2026-10-01) and its harness-facing agent skill as the protocol's official bridge to coding agents, and refreshed stars to as of 2026-10-06.
 - 2026-10-07 - Added the a2aproject/A2A star history chart to the Status section.
+- 2026-10-17 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the spec stays at v1.0.1 with the repository pushed 2026-10-16, the official CLI's release train moved to v0.3.1 (2026-10-16), and the Ask HN thread's comment count was corrected from 46 to 45.
 
 ## See also
 
@@ -93,7 +94,7 @@ The disagreeable part: I expect A2A to stay an enterprise convention, and if aut
 - https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/ - Linux Foundation donation (2025-06-23), founding members
 - https://github.com/a2aproject/A2A/releases - v1.0.0 (2026-03-12) and v1.0.1 (2026-05-28) release notes
 - https://a2a-protocol.org/latest/blog/2026/10/01/introducing-a2a-cli/ - the A2A CLI announcement: one command surface, streaming, JSON output, the harness-facing agent skill
-- https://github.com/a2aproject/a2a-cli - the CLI repository, 154 stars, Apache-2.0, latest release v0.3.0 (2026-09-24), as of 2026-10-10
+- https://github.com/a2aproject/a2a-cli - the CLI repository, 154 stars as of 2026-10-10, Apache-2.0, latest release v0.3.1 (2026-10-16), as of 2026-10-17
 - https://lfaidata.foundation/communityblog/2025/08/29/acp-joins-forces-with-a2a-under-the-linux-foundations-lf-ai-data/ - IBM ACP merge and TSC composition
 - https://blog.fka.dev/blog/2025-04-15-why-googles-a2a-protocol-doesnt-make-sense/ - the MCP-redundancy critique
 - https://news.ycombinator.com/item?id=48582679 - Ask HN usage thread: thin startup adoption, the download-ratio report

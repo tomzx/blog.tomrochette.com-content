@@ -1,7 +1,7 @@
 ---
 title: GitHub Spec Kit
 created: 2026-08-26
-updated: 2026-10-14
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, github, ai-agents]
 readability: 3
@@ -23,7 +23,7 @@ Extensions, presets, and role-based bundles let an organization customize the pr
 ## Status
 
 **Active, and it just declared adulthood.**
-First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8, v1.0.6 followed on September 10, v1.0.7 shipped September 15, v1.0.8 followed on September 17, and v1.0.9, v1.0.10, and v1.0.11 closed out September 21, 22, and 24, v1.0.12 landed September 25, v1.0.13 followed on 2026-09-29, v1.1.0 shipped October 2, v1.1.1 followed on October 6, v1.1.2 closed out October 7, v1.1.3 landed October 9 with a unified workflow execution tree, catalog-installed external agent adapters, and the deprecation of the core taskstoissues command, v1.2.0 followed on October 13 with a built-in GitHub workflow step, workflow-catalog cache confinement, and a round of extension updates, and the count stands at about 141k stars and about 12.6k forks as of 2026-10-14.
+First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8, v1.0.6 followed on September 10, v1.0.7 shipped September 15, v1.0.8 followed on September 17, and v1.0.9, v1.0.10, and v1.0.11 closed out September 21, 22, and 24, v1.0.12 landed September 25, v1.0.13 followed on 2026-09-29, v1.1.0 shipped October 2, v1.1.1 followed on October 6, v1.1.2 closed out October 7, v1.1.3 landed October 9 with a unified workflow execution tree, catalog-installed external agent adapters, and the deprecation of the core taskstoissues command, v1.2.0 followed on October 13 with a built-in GitHub workflow step, workflow-catalog cache confinement, and a round of extension updates, v1.2.1 landed October 16 with further extension updates (Applied Epistemic Engineering v1.5.0 among them), opt-in output capture for workflow steps, and a Korean README, and the count stands at about 141k stars and about 12.6k forks as of 2026-10-14.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/spec-kit&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ Not for solo work where the ceremony exceeds the blast radius of a bad change.
 - 2026-10-10 - Recorded the v1.1.3 release of 2026-10-09 and refreshed the star and fork counts.
 - 2026-10-11 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-14 - Recorded the v1.2.0 release of 2026-10-13 and refreshed the star and fork counts.
+- 2026-10-17 - Recorded the v1.2.1 release of 2026-10-16 (extension updates, opt-in output capture for workflow steps, a Korean README).
 
 ## See also
 
@@ -89,7 +90,7 @@ Not for solo work where the ceremony exceeds the blast radius of a bad change.
 
 ## References
 
-- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, releases through v1.2.0, as of 2026-10-14
+- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, releases through v1.2.1, as of 2026-10-17
 - https://github.github.io/spec-kit/ - official docs, integrations reference, extensions and presets
 - https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/ - the GitHub launch post
 - https://www.manorrock.com/blog/2026/08/21/spec_kit_turns_one.html - the lead maintainer's first-year and 1.0.0 post

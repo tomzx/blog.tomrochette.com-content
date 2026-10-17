@@ -1,7 +1,7 @@
 ---
 title: Agent-Native
 created: 2026-09-13
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, agent-extensions, builder-io, app-frameworks]
 readability: 3
@@ -32,7 +32,7 @@ The catalog repo now ships a root MIT LICENSE file (its README no longer states 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=BuilderIO/agent-native&type=date&legend=top-left" />
 </picture>
 
-The npm package was created 2026-06-10, sits at 0.3.35 with nightly builds publishing several times a day, and pulled 10,267 downloads in the week of 2026-10-06 to 2026-10-12 (the API returned the same window and count on 2026-10-16), down slightly from 10,332 the prior week.
+The npm package was created 2026-06-10, sits at 0.3.36 with nightly builds publishing several times a day, and pulled 10,267 downloads in the week of 2026-10-06 to 2026-10-12 (the API still returned that same window and count on 2026-10-17), down slightly from 10,332 the prior week.
 The catalog itself keeps growing: it held 24 skill directories as of 2026-10-16 (re-counted, unchanged), up from the fifteen recorded at this note's creation, with the new entries concentrated in the factory family and orchestration helpers (efficient-fable, efficient-frontier, quick-recap, turn-into-app, visual-edit).
 No Hacker News threads and no independent coverage surfaced in this run's searches, so the audience so far is GitHub and npm.
 
@@ -79,6 +79,7 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 - 2026-10-07 - Added the BuilderIO/agent-native star history chart to the Status section.
 - 2026-10-09 - The npm package crossed to 0.3.29 and weekly downloads fell to 11,418 (window 2026-10-01 to 10-07) from 16,552; the catalog moved to 4,551 stars and the framework to 7,103, with GitHub license detection still absent and package.json still saying ISC.
 - 2026-10-11 - The catalog grew from fifteen to 24 skills (a nine-entry experimental factory family for autonomous delivery plus efficient-fable, efficient-frontier, quick-recap, turn-into-app, and visual-edit) and gained a root MIT LICENSE file while its README dropped the explicit license claim; the framework's mixed signal persists (README MIT, package.json ISC, GitHub detection absent), and the volatile figures refreshed (catalog 4,554 stars, framework 7,121, npm still 0.3.30 with weekly downloads back up to 10,332).
+- 2026-10-17 - The npm package crossed to 0.3.36 with the nightly cadence continuing; the catalog re-counted at 24 skills, unchanged, and the downloads API still serves the 2026-10-06 to 10-12 window (10,267).
 
 ## See also
 
@@ -93,6 +94,6 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 - https://github.com/BuilderIO/skills - the catalog repo: 24 skills, installer options, marketplace packaging, root MIT LICENSE file, 4,571 stars as of 2026-10-13
 - https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, README says MIT but GitHub license detection still returns nothing (package.json says ISC), 7,143 stars as of 2026-10-13
 - https://www.agent-native.com/ - the framework landing
-- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.35, published from the monorepo, as of 2026-10-16
-- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 10,267 weekly downloads, window 2026-10-06 to 2026-10-12, re-fetched 2026-10-16 with the same window and count
+- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.36, published from the monorepo, as of 2026-10-17
+- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 10,267 weekly downloads, window 2026-10-06 to 2026-10-12, re-fetched 2026-10-16 and again 2026-10-17 with the same window and count
 - https://hn.algolia.com/api/v1/search?query=%22builder.io%22%20skills&tags=story - the zero-hit search behind the missing-footprint statement (re-run 2026-10-11, still zero hits)

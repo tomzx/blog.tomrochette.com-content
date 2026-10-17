@@ -1,7 +1,7 @@
 ---
 title: Agent Plugins
 created: 2026-10-06
-updated: 2026-10-11
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, plugins, open-standards, packaging]
 readability: 3
@@ -70,6 +70,7 @@ My disagreeable claim: the interesting question is no longer whether skills and 
 
 - 2026-10-06 - Created in the daily refresh's skills entrant scan.
 - 2026-10-07 - Added the agentplugins/agent-plugins-spec star history chart to the Status section.
+- 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, all claims held (spec still v1.0.0 published, the ten-field closed manifest and report-and-ignore rule unchanged, the TSC and launch-client lists unchanged, the repo still pushed 2026-09-28); no cells or figures moved.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Claude Code routines
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, claude-code, scheduling]
 readability: 3
@@ -18,7 +18,7 @@ Claude Code routines are saved prompt, repository, and connector configurations 
 
 A routine packages a prompt, one or more GitHub repositories, and a set of MCP connectors, then runs as a full Claude Code session on Anthropic-managed cloud infrastructure (or a routed self-hosted environment), so nothing depends on your laptop being open.
 One routine can combine three trigger types: a schedule (hourly minimum, presets, custom cron, and one-offs), an API endpoint that fires on an authenticated POST, and GitHub repository events (pull request and release events, with author, label, branch, draft, and regex filters).
-It shipped in research preview on 2026-04-14, is available on Pro, Max, Team, and Enterprise plans, and is managed at claude.ai/code/routines or conversationally from the CLI with `/schedule`.
+It shipped in research preview on 2026-04-14, is available on Pro, Max, Team, and Enterprise plans, and is managed at claude.ai/code/routines, from the Desktop app's Code tab, or conversationally from the CLI with `/schedule` (the CLI path creates the scheduled kind; API and GitHub triggers are added from the web).
 
 ## Status
 
@@ -39,7 +39,7 @@ Anthropic published free routine templates around it and third parties already s
 - **There is no permission-mode picker**: a routine runs shell commands and calls every tool of every included connector without approval, and all of your account's connectors are included by default, write scopes included.
 - A run is creator-private, like Copilot automations: routines belong to the individual claude.ai account, teammates cannot see them, and admins get only the on/off toggle.
 - Green run status means the session started and exited without an infrastructure error, not that the task succeeded, and independent practitioners document silent-failure modes (unreadable sources rendered as empty results, delayed fires, dropped GitHub events at the caps).
-- Caps are hard: 100 scheduled runs per account-hour, 30 fires per routine-hour shared with Run now, GitHub events beyond the caps dropped until the window resets, and no overage without usage credits.
+- Caps are hard: 100 scheduled runs per account-hour, 30 fires per routine-hour shared with Run now, GitHub events beyond the caps dropped until the window resets, and no overage without usage credits. A stale GitHub connection is a hard stop too: runs skip for up to 72 hours and then the routine switches itself off.
 - Scheduled intervals bottom out at one hour, and an exactly-on-the-hour start can slip several minutes late (Anthropic suggests 9:07 over 9:00).
 
 ## Pricing
@@ -62,6 +62,7 @@ My disagreeable claim: shipping every account connector into an unattended run b
 ## Changes
 
 - 2026-10-06 - Created.
+- 2026-10-17 - Fully re-verified in rotation with every cited URL re-fetched: the research-preview status, the trust-model versions (v2.1.213, v2.1.225, v2.1.227), the caps, the autonomy default, and plan availability all re-confirmed; added the Desktop app as a creation surface and the 72-hour GitHub-disconnect auto-disable.
 
 ## See also
 

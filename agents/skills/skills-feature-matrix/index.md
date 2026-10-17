@@ -1,7 +1,7 @@
 ---
 title: "Skills Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, skills, agent-extensions]
 readability: 3
@@ -32,7 +32,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Versioning and pinning | ~ $schema pins the spec version, SemVer optional, git tags as history | ✗ none | ~ npm dist-tags and git refs, no lockfile | ~ Skills API versions | ~ tagged releases (v1.3.0, 2026-06-16), frontier configurations pinned as git branches | PyPI 0.1.4 (2026-07-15), release-tagged | ~ git refs | ✗ none | ~ git refs | ~ skills pinned to commits | ✗ none | ~ every push is a listed version | ~ git refs, no lockfile | ~ tagged releases and git refs |
 | Explicit invocation | n/a (packaging spec) | ~ explicit or implicit | ✓ slash commands for every skill | ~ slash commands in Code | ~ explicit CLI run (evoskill init, evoskill run), no in-agent invocation | ~ you point it at seed prompts and an evaluator, no in-agent invocation | ~ department-routed | ~ opt-in `/<name>` slash commands via `metadata`, else model-judgment | ~ invoked as a writing-repair pass | n/a (registry) | ~ trained skill invokes like any skill | ✓ explicit CLI run per skill | n/a (registry) | ✓ explicit CLI scan or MCP tool call per skill |
 | Vendor neutrality | ✓ five-vendor TSC, Anthropic and Google absent | ~ Anthropic-origin, public | ✗ pack runs anywhere, gravity is Builder.io's stack | ✗ Claude-coupled | ✓ six harnesses and any model provider | ✓ model-agnostic and metric-agnostic | ~ Claude Code and ChatGPT first | ✗ OpenCode-only, portable files | ✓ portable, agent-agnostic | ~ indexes public GitHub, one team runs it | ✓ model-agnostic | ~ any MCP host claimed, one company runs execution | ~ all vendors, one ranker | ~ open scanner over any skill it can read, one vendor's pattern set and nv_build default |
-| Cost | free, openly licensed | free | free (hosted surfaces free as of the date) | ~ included on plans, tokens on API | free Apache-2.0; evolution runs bill your own model API | free MIT; optimization runs bill your own model API | free | free (pay tokens) | free (maintainer costs on Patreon) | free, no account needed | free, training tokens on your bill | freemium, Pro $10 per month, per-run credit packs $1-$100 | free | free, LLM-stage scans bill your own provider tokens |
+| Cost | free, openly licensed | free | free (hosted surfaces free as of the date) | ~ included on plans, tokens on API | free Apache-2.0; evolution runs bill your own model API | free MIT; optimization runs bill your own model API | free | free (pay tokens) | free (maintainer costs on Patreon) | free, no account needed | free, training tokens on your bill | freemium, Pro $12 per month with 1,500 credits bundled, per-run credit packs $1-$100 | free | free, LLM-stage scans bill your own provider tokens |
 
 ## Reading the matrix
 
@@ -57,7 +57,7 @@ The standard needs no registry at all, skills.sh won the distribution slot by wr
 The cell to watch is stewardship: the pack has grown to 24 skills with a new experimental factory family, the catalog ships an MIT LICENSE file while the framework's README says MIT and GitHub still detects no license there (catalog 4.6k and framework 7.1k stars, npm now 0.3.35), and there is still no independent coverage as of 2026-10-11, so the pack is one company's opinion on a multiple-releases-a-day cadence.
 
 **Thirteen of the fourteen columns cost nothing, and the missing row is still versioning.**
-skills.md is the first paid column (Pro $10 per month plus per-run credits as of 2026-10-16), the spec has no version or dependency story, OpenCode has none, Anthropic versions only through its Skills API, and pinning is left to git discipline or third parties like Skilleton.
+skills.md is the first paid column (Pro $12 per month with 1,500 credits bundled, repriced from $10 on 2026-10-17, plus per-run credits), the spec has no version or dependency story, OpenCode has none, Anthropic versions only through its Skills API, and pinning is left to git discipline or third parties like Skilleton.
 
 ## Choosing from the matrix
 
@@ -95,6 +95,7 @@ skills.md is the first paid column (Pro $10 per month plus per-run credits as of
 - 2026-10-13 - Corrected the prose GEPA's admission had left at the twelve-column state: the stack paragraph still said twelve competitors, and the cost paragraph still said eleven of twelve columns cost nothing.
 - 2026-10-13 - Extended from thirteen to fourteen columns with EvoSkill (Sentient Labs' skill-discovery and evolution toolkit), sorted between Anthropic Agent Skills and GEPA, all twelve cells traced to the new note, the stack prose naming the optimizer family of three, and the volatile figures refreshed (Agent-Native npm to 0.3.33, SkillMD review coverage re-verified at 1,948 of about 1.13M as of 2026-10-13, skills.md pricing re-verified unchanged).
 - 2026-10-16 - The OpenCode explicit-invocation cell moved from unsupported to partial (opt-in `/<name>` slash commands via `metadata`) after the rotation re-verification of its note found the documented TUI command path, and the SkillMD review-coverage and skills.md pricing as-of dates moved to 2026-10-16 after re-verification; no other cells moved.
+- 2026-10-17 - The skills.md Cost cell and reading prose moved to the repriced Pro plan ($12 per month with 1,500 bundled credits, previously $10); no other cells moved.
 
 ## See also
 

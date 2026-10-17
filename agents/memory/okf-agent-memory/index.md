@@ -49,7 +49,7 @@ The launch thread's engagement is measurable but shallow per comment (81 points,
 - **Every performance claim is latency-side and self-published**: sub-300-microsecond search says nothing about retrieval quality, and the thread's direct question about recall benchmarks drew no answer, so there is zero evidence the bundle surfaces the right knowledge.
 - The ripgrep-equivalence objection stands unanswered: an agent that reads markdown and greps it, plus an index it maintains, reproduces much of this design with no new tool, so the delta over [File-based agent memory](../file-based-agent-memory/index.md) is the format and the tooling, not the capability.
 - Adherence is the open risk the thread named: a third-party store competes with harness-native memory features (Codex's Astra, Claude Code's auto memory) that the model may prefer, and nothing published measures which one the agent actually uses.
-- Young org (created 2026-09-05) with the OKF ecosystem still nascent: the two sibling implementations (mcp-memory, dormant since 2026-08-30 at 218 stars; Kage, 3-to-4-point threads) show the format has traction and no second healthy implementation.
+- Young org (created 2026-09-05) with the OKF ecosystem still nascent: the two sibling implementations (mcp-memory, dormant since 2026-08-30 at 218 stars; Kage, 3-to-4-point threads) show the format has traction and no second healthy implementation, and the first delivery-side adoption is authoring tooling, not memory (scaccogatto/okf-skills, 417 stars as of 2026-10-17, the OKF toolkit that authors, validates, and visualizes bundles as Claude Code skills).
 
 ## Pricing
 
@@ -69,6 +69,7 @@ Not for cross-user or cross-app memory (one repo bundle, no multi-user API), and
 ## Changes
 
 - 2026-10-17 - Created when the standing re-review trigger fired on both arms (independent citations in the 392-point documentation-over-recall thread, and a second OKF implementation in fellowgeek/mcp-memory), with ten fetched sources, the unanswered recall-question and ripgrep-equivalence objections recorded as the critical angles, and mcp-memory plus Kage folded in as ecosystem evidence below the admission bar.
+- 2026-10-17 - Added the scaccogatto/okf-skills toolkit to the ecosystem caution and references as the OKF format's first delivery-side adoption, routed here from the skills category's entrant scan.
 
 ## See also
 
@@ -89,3 +90,4 @@ Not for cross-user or cross-app memory (one repo bundle, no multi-user API), and
 - https://news.ycombinator.com/item?id=49945933 - the 392-point documentation-over-recall thread whose comments cite this repository three times, the independent coverage that fired the trigger
 - https://api.github.com/repos/fellowgeek/mcp-memory - the second OKF implementation (218 stars, MIT, pushed 2026-08-30), the trigger's other arm, folded here as ecosystem evidence
 - https://hn.algolia.com/api/v1/items/49286073 - the second implementation's own 70-point Show HN thread, the OKF family's other data point
+- https://github.com/scaccogatto/okf-skills - the first delivery-side OKF adoption (417 stars, MIT, pushed 2026-10-13), routed here from the skills category's entrant scan

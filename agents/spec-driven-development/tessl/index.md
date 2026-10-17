@@ -1,7 +1,7 @@
 ---
 title: Tessl
 created: 2026-08-27
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, platform, venture-backed]
 readability: 3
@@ -17,14 +17,15 @@ Tessl is Guy Podjarny's (Snyk founder) spec-centric AI-native development platfo
 ## What it is
 
 A hosted platform positioned around zero-maintenance, spec-centric development: you express intent as specs, the platform manages the loop around them, and since January 2026 [Skills on Tessl](https://tessl.io/blog/skills-are-software-and-they-need-a-lifecycle-introducing-skills-on-tessl/) treats agent skills as software with a lifecycle and a package manager.
+Its positioning has widened since the spec-centric launch: the site now leads with a control plane for agent context, selling a registry, review loops, and "software factories" built from skills.
 Its open-source surface is deliberately thin: the [tesslio/cli](https://github.com/tesslio/cli) helper (70 stars) exists mainly as an enablement tool, and the substance lives on tessl.io.
 
 ## Status
 
 Funded and building, quiet on GitHub.
 The Series A announcement (November 2024) declared $125M for the platform; the founding announcement (October 2024) frames Podjarny's pivot from Snyk's security mission to AI-native development.
-**The strongest third-party signal is Martin Fowler's October 2025 analysis naming Tessl one of the three SDD pillars alongside Kiro and Spec Kit (the 128-point thread), which treats it as a serious approach while noting it was then the least mature of the three.**
-The CLI has not been pushed since 2026-03-05, which is consistent with a web-first roadmap and worth re-checking before adopting (re-confirmed unchanged, now at 70 stars, on 2026-10-06).
+**The strongest third-party signal is Birgitta Böckeler's October 2025 analysis on Martin Fowler's site, which names Tessl one of the three SDD pillars alongside Kiro and Spec Kit (the 128-point thread), notes it was then the least mature of the three, and credits it as the only one of the three explicitly aspiring to spec-anchored specs and exploring spec-as-source.**
+The CLI has not been pushed since 2026-03-05, which is consistent with a web-first roadmap and worth re-checking before adopting (re-confirmed unchanged, now at 70 stars, on 2026-10-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tesslio/cli&type=date&theme=dark&legend=top-left" />
@@ -48,7 +49,7 @@ The CLI has not been pushed since 2026-03-05, which is consistent with a web-fir
 
 ## Pricing
 
-Platform tiers are now published on tessl.io (free since 2026-09-08, re-verified 2026-10-16): Free at $0 per month with 1,000 credits, Team at $100 per month with 5x the credits, and Enterprise custom.
+Platform tiers are now published on tessl.io (free since 2026-09-08, re-verified 2026-10-17): Free at $0 per month with 1,000 credits, Team at $100 per month with 5x the credits, and Enterprise custom.
 The credit model is subscription metering, not open source, as the raise implied.
 
 ## Price history
@@ -76,6 +77,7 @@ The disagreeable claim I will defend: Tessl will either prove specs are buyable 
 - 2026-09-12 - Recorded the Tessl Code Review launch, with pricing tiers unchanged.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-07 - Added the tesslio/cli star history chart to the Status section.
+- 2026-10-17 - Rotation re-verification of every cited source: corrected the third-party analysis attribution to Birgitta Böckeler writing on Martin Fowler's site and added its spec-anchored and spec-as-source credit for Tessl, recorded the widened registry-and-loops positioning, and re-confirmed the CLI quiet (70 stars, untouched since 2026-03-05) and the pricing tiers unchanged.
 
 ## See also
 
@@ -91,5 +93,5 @@ The disagreeable claim I will defend: Tessl will either prove specs are buyable 
 - https://tessl.io/blog/skills-are-software-and-they-need-a-lifecycle-introducing-skills-on-tessl - Skills on Tessl, January 2026
 - https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html - the third-party analysis of Kiro, Spec Kit, and Tessl
 - https://github.com/tesslio/cli - the thin open-source surface (70 stars, quiet since 2026-03-05)
-- https://tessl.io/pricing - the Free, Team, and Enterprise tiers re-verified on 2026-10-16
+- https://tessl.io/pricing - the Free, Team, and Enterprise tiers re-verified on 2026-10-17
 - https://news.ycombinator.com/item?id=42137464 - the 24-point Series A thread

@@ -1,7 +1,7 @@
 ---
 title: Intent-Router
 created: 2026-10-10
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, intent-specs, clarification, skills]
 readability: 3
@@ -23,7 +23,7 @@ The README positions it against plan modes (which prefer looking up over verifyi
 
 ## Status
 
-Climbing back after the collapse: 239 stars and 51 forks as of 2026-10-14, created 2026-09-22, pushed 2026-10-15 (two documentation commits, the install command moved to the top of the site entry point), with four releases in its first three weeks (v1.3.0 on 2026-10-09, v1.0.0 on 2026-09-23).
+Climbing back after the collapse: 239 stars and 51 forks as of 2026-10-14, created 2026-09-22, pushed 2026-10-16, with five releases (v1.4.0 on 2026-10-16, v1.3.0 on 2026-10-09, v1.0.0 on 2026-09-23); v1.4.0 trimmed the skill description to fit a 500-character harness cap after its second half, including the negative predicates that keep auto-invocation off unnecessary work, was being truncated in at least one harness, and added a DeepSeek Harness eval channel plus a cross-session contract test case.
 **The GitHub API read 1,017 stars and 124 forks on 2026-10-11, 158 and 46 on 2026-10-13, and 239 and 51 on 2026-10-14: the collapse fork counts cannot take organically was followed by a one-day climb the same kind of engagement produces, which reads as a purge of inauthentic stars followed by continued re-inflation, and the nineteen-day adoption-curve claim this note published stays retracted.**
 Engagement from freshly created accounts is still arriving (a fork and a star land on 2026-10-13 alone), so the inflation appears ongoing, and the independent footprint is still empty: a Hacker News search returns no thread about it as of 2026-10-13.
 
@@ -67,6 +67,7 @@ Not for teams needing enforced process (that is Superpowers), and not for anyone
 - 2026-10-10 - Created from the spec-driven-development resolution pass, choosing this category over task management because the artifact is a spec contract with a delivery check, not a task record.
 - 2026-10-13 - Recorded the engagement collapse (1,017 stars and 124 forks on 2026-10-11 to 158 and 46 on 2026-10-13, a drop forks cannot take organically), retracted the nineteen-day adoption-curve claim, and moved the caution from momentum to deflation.
 - 2026-10-14 - Recorded the re-inflation (158 to 239 stars and 46 to 51 forks in one day, fresh-account engagement continuing), extending the 10-13 collapse reading from a one-time purge to a purge-then-refill pattern.
+- 2026-10-17 - Recorded the v1.4.0 release (2026-10-16: the description trimmed to fit a 500-character harness cap whose truncation was dropping the skill's negative predicates, a DeepSeek Harness eval channel, and a cross-session contract test case).
 
 ## See also
 
@@ -79,7 +80,7 @@ Not for teams needing enforced process (that is Superpowers), and not for anyone
 
 - https://github.com/angel291592/Intent-Router - repository: README, pipeline, comparison table, license
 - https://api.github.com/repos/angel291592/Intent-Router - stars, forks, issues, creation and push dates, the 1,017-to-158-to-239 readings, as of 2026-10-14
-- https://api.github.com/repos/angel291592/Intent-Router/releases - v1.3.0 published 2026-10-09 and the release train
+- https://api.github.com/repos/angel291592/Intent-Router/releases - v1.4.0 published 2026-10-16 and the release train
 - https://raw.githubusercontent.com/angel291592/Intent-Router/main/README.md - the convergence design, artifact model, and prior-art comparison
 - https://raw.githubusercontent.com/angel291592/Intent-Router/main/evals/reports/2026-09-24-delivery-opencode.md - the self-published delivery report behind the numbers and the contamination check
 - https://hn.algolia.com/api/v1/search?query=Intent-Router&hitsPerPage=5 - the no-thread community-footprint check as of 2026-10-11

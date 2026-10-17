@@ -1,7 +1,7 @@
 ---
 title: Headcount
 created: 2026-09-27
-updated: 2026-10-11
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, claude-code, agent-organization, plugin-marketplace]
 readability: 3
@@ -74,6 +74,7 @@ My disagreeable claim: the sixteen-department metaphor is mostly packaging, the 
 
 - 2026-09-27 - Created when the owner's GitHub-stars candidates were processed.
 - 2026-10-07 - Added the cbrock84/headcount star history chart to the Status section.
+- 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, all claims held (README still 16 departments, 172 skills, 184 sources with 125 quotable, the Zentor critical review still live and updated 2026-09-24, the repo still pushed 2026-09-17); no figures moved.
 
 ## See also
 

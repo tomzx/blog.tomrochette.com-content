@@ -1,7 +1,7 @@
 ---
 title: skills.md
 created: 2026-10-06
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, registries, marketplaces, hosted-execution]
 readability: 3
@@ -16,7 +16,7 @@ skills.md is Hasna's hosted-execution skills marketplace: an agent finds a skill
 
 ## What it is
 
-The client is an open-source Apache-2.0 CLI and SDK (`@hasna/skills` on npm, latest 0.10.70 with 192 published versions since 2026-02-14) that signs in through a browser flow and registers a stdio MCP server with the agent, documented for claude, codex, cursor, opencode, pi, and windsurf, with any MCP host supported by manual registration.
+The client is an open-source Apache-2.0 CLI and SDK (`@hasna/skills` on npm, latest 0.10.78 with 200 published versions since 2026-02-14) that signs in through a browser flow and registers a stdio MCP server with the agent, documented for claude, codex, cursor, opencode, pi, and windsurf, with any MCP host supported by manual registration.
 The catalog is curated rather than crawled: the marketplace page listed 250 entries before it moved behind sign-in (the homepage says 300 plus curated skills), across generation-style tasks like logo design, brand kits, pitch decks, and market research reports, each returning downloadable artifacts.
 Authors publish with `skills push`, where every push is a version, and companies can self-host, since the CLI, SDK, MCP server, and service code are public in the hasna/skills repository, made public on 2026-09-26.
 
@@ -54,7 +54,7 @@ The site is candid in ways that help evaluation: its marketplace labels every ho
 
 Freemium with metered execution.
 Free: $0, public skills on all agents, trial credits for new accounts.
-Pro: $10 per month, billed monthly, cancel any time.
+Pro: $12 per month, billed monthly, cancel any time, bundling 1,500 credits per month (20% off), extra credits at the normal pack price.
 Credits: pay per run, packs of $1, $5, $20, $50, or $100, purchased credits expire after 365 days, and hosted runs are quoted first with a per-run credit limit you approve.
 
 ## Price history
@@ -62,6 +62,7 @@ Credits: pay per run, packs of $1, $5, $20, $50, or $100, purchased credits expi
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-10-06 | Free, Pro, credits | First recorded: Free $0, Pro $10 per month, credit packs $1-$100 with 365-day expiry | https://skills.md/ |
+| 2026-10-17 | Pro | $10 -> $12 per month, now bundling 1,500 monthly credits (20% off) | https://skills.md/ |
 
 ## Compared to
 
@@ -83,6 +84,7 @@ My disagreeable claim: this is the first skills product that could actually sust
 - 2026-10-11 - The npm CLI crossed to 0.10.67 (189 versions); the marketplace gate re-verified, now served as a 200 redirect notice rather than an HTTP redirect but still landing signed-out visits on the sign-in-gated dashboard; the hasna/apps footer link still 404s; pricing re-verified unchanged.
 - 2026-10-16 - The marketplace page now states the public marketplace has closed outright, with the catalog reachable only in the sign-in dashboard (previously a redirect notice).
 - 2026-10-16 - The site footer's GitHub link, 404 in the 10-09 and 10-11 readings, now resolves at the hasna/skills apps/skills subpath; the Status 404 claim corrected.
+- 2026-10-17 - Pro moved from $10 to $12 per month and now bundles 1,500 monthly credits (20% off, extra credits at pack price); the npm CLI crossed to 0.10.78 (200 versions) and the repo push moved to 2026-10-17 with stars still zero.
 
 ## See also
 
@@ -93,8 +95,8 @@ My disagreeable claim: this is the first skills product that could actually sust
 
 ## References
 
-- https://skills.md/ - the product surface: CLI and MCP flows, the plans (Free, Pro $10 per month, credit packs $1-$100), 300-plus curated skills, Apache-2.0, Hasna, Inc. (fetched 2026-10-16, plans unchanged)
+- https://skills.md/ - the product surface: CLI and MCP flows, the plans (Free $0 plus per-run credits, Pro $12 per month with 1,500 bundled credits, credit packs $1-$100), 300-plus curated skills, Apache-2.0, Hasna, Inc. (fetched 2026-10-17, Pro repriced from $10)
 - https://skills.md/marketplace - the catalog page: 250 of 250 entries with every hosting status labeled unverified when fetched 2026-10-06; since 2026-10-09 it keeps signed-out visits away from the catalog (HTTP redirect, then a 200 redirect notice on 2026-10-11, then an explicit closure notice on 2026-10-16)
-- https://registry.npmjs.org/@hasna/skills - the CLI package: created 2026-02-14, latest 0.10.76, 198 versions (fetched 2026-10-16)
-- https://api.github.com/repos/hasna/skills - the Apache-2.0 CLI, SDK, MCP, and service repo: made public 2026-09-26, 0 stars, pushed 2026-10-16 (GitHub API, as of 2026-10-16)
+- https://registry.npmjs.org/@hasna/skills - the CLI package: created 2026-02-14, latest 0.10.78, 200 versions (fetched 2026-10-17)
+- https://api.github.com/repos/hasna/skills - the Apache-2.0 CLI, SDK, MCP, and service repo: made public 2026-09-26, 0 stars, pushed 2026-10-17 (GitHub API, as of 2026-10-17)
 - https://hn.algolia.com/api/v1/search?query=%22skills.md%22&tags=story - the footprint scan: no marketplace coverage, the nearest hits are items about the filename convention (fetched 2026-10-06, re-run 2026-10-11 with the same result)

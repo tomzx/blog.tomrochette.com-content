@@ -1,7 +1,7 @@
 ---
 title: OpenSpec
 created: 2026-08-27
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, specs, open-source]
 readability: 3
@@ -30,7 +30,7 @@ Half of spec-kit's stars in a third of the time.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&legend=top-left" />
 </picture>
 
-As of 2026-10-14: about 71k stars (71,842) and about 4.9k forks since creation on 2025-08-05, 185 open issues and pull requests, MIT; as of 2026-10-16, release v1.14.2 (2026-10-15) is the newest (user-defined `x-` extension keys in `.openspec.yaml`, faster Tab completion, and archive/verify content-loss fixes), with 2,919,226 npm downloads last month (the 2026-09-13 to 2026-10-12 window).
+As of 2026-10-14: about 71k stars (71,842) and about 4.9k forks since creation on 2025-08-05, 185 open issues and pull requests, MIT; as of 2026-10-17, release v1.14.3 (2026-10-17) is the newest (linked spec files, so a capability's spec.md can be a symlink beside the product docs it belongs to, the audit-failing braces dependency dropped, and a validate hang fix in pre-commit hooks), with 2,919,226 npm downloads last month (the 2026-09-13 to 2026-10-12 window, re-read byte-identical on 2026-10-17).
 **Its Hacker News footprint is effectively empty (no significant thread found this run), so adoption spread through X and Discord, and third-party verification is thinner than the install count implies.**
 The README's own superlative ("the most loved spec framework") is vendor framing, not a measured claim.
 
@@ -74,6 +74,7 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 - 2026-10-09 - Refreshed counts (npm downloads 2,688,375 last month).
 - 2026-10-11 - Reworded a banned-term word out of the prose; meaning unchanged.
 - 2026-10-16 - Recorded the v1.14.2 release (2026-10-15, extension metadata keys, faster completion, archive/verify fixes).
+- 2026-10-17 - Recorded the v1.14.3 release (2026-10-17, linked spec files via symlink, the audit-failing braces dependency dropped, and a validate hang fix in hooks) and re-read the npm download figure byte-identical.
 
 ## See also
 

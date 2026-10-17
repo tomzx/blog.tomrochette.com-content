@@ -1,7 +1,7 @@
 ---
 title: OpenWorker
 created: 2026-10-02
-updated: 2026-10-11
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtime, desktop, security, sandboxing]
 readability: 3
@@ -19,11 +19,11 @@ OpenWorker is an MIT-licensed, open-source desktop AI coworker from Andrew Ng's 
 A desktop app (macOS Apple Silicon, signed and notarized; Windows x64 builds not yet code-signed) in open beta, self-updating, from the DeepLearning.AI orbit.
 It runs on your machine, takes a bring-your-own key for OpenAI, Anthropic, Google, or an open-weight provider, or runs fully local through Ollama, and ships specialist coworkers whose tools, working style, and check-ins come preconfigured for one job.
 The launch cohort is security work: codebase and dependency review where findings combine deterministic scanners (semgrep) with model reasoning and proposed fixes are re-scanned and diff-reviewed before approval, plus cloud-posture audit and incident triage.
-Every action an agent takes is governed and logged, approvals are configurable, and commands can run inside an NVIDIA OpenShell sandbox.
+Every action an agent takes is governed and logged, approvals are configurable, and commands can run inside sandboxes: NVIDIA OpenShell on Linux and Mac, the macOS built-in sandbox with nothing to install, or a Windows hidden local account, each with its own doc in the repo.
 
 ## Status
 
-Early and moving fast: about 18,500 stars in its first twelve weeks as of 2026-10-11 (created 2026-07-20, pushed 2026-10-10), with v0.3.1 released 2026-10-05 and a public beta disclaimer on the README.
+Early and moving fast: about 18,500 stars in its first thirteen weeks as of 2026-10-17 (created 2026-07-20, pushed 2026-10-10), with v0.3.1 released 2026-10-05 and a public beta disclaimer on the README.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=andrewyng/openworker&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ Not for anyone needing a mature, broadly capable assistant today, or Windows-fir
 - 2026-10-03 - Corrected the Hacker News footprint claim to one 5-point thread plus a pair of 2-point follow-ups (the Algolia search returned a third thread the creation run missed), and refreshed the as-of numbers (about 18,400 stars, pushed 2026-10-02, v0.3.0 still latest).
 - 2026-10-06 - Recorded v0.3.1 (2026-10-05), which publishes the CLI as a ghcr.io image so a coworker runs inside an OpenShell sandbox with one command and requires OpenShell 0.1.2, with refreshed adoption numbers.
 - 2026-10-07 - Added the andrewyng/openworker star history chart to the Status section.
+- 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, v0.3.1 confirmed still latest and the beta disclaimer intact, and the sandbox story recorded as extending beyond OpenShell (the README now documents a macOS built-in sandbox and a Windows hidden-local-account sandbox beside it, plus OpenRouter key and account sign-in paths).
 
 ## See also
 

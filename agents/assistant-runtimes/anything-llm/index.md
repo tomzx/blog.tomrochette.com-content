@@ -1,7 +1,7 @@
 ---
 title: AnythingLLM
 created: 2026-09-27
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, local-first, rag, desktop-apps]
 readability: 3
@@ -24,7 +24,7 @@ Beta features push it toward an OS-level assistant: AI computer use and live doc
 
 ## Status
 
-Active and steadily shipped: 67,036 stars and 7,489 forks as of 2026-10-14, created 2023-06-04, 326 open issues with the last push on 2026-10-16 as of 2026-10-16.
+Active and steadily shipped: 67,036 stars and 7,489 forks as of 2026-10-14, created 2023-06-04, 329 open issues with the last push on 2026-10-17 as of 2026-10-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&theme=dark&legend=top-left" />

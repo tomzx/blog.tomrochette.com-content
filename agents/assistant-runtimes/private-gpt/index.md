@@ -1,7 +1,7 @@
 ---
 title: PrivateGPT
 created: 2026-09-27
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, self-hosting, api-first, rag]
 readability: 3
@@ -25,7 +25,7 @@ Commercially, Zylon builds the enterprise platform on top: an on-premise, air-ga
 
 ## Status
 
-Alive again after a long quiet stretch: 57,577 stars and 7,619 forks as of 2026-10-14, created 2023-05-02, pushed 2026-10-15 with 4 open issues and pull requests as of 2026-10-16.
+Alive again after a long quiet stretch: 57,577 stars and 7,619 forks as of 2026-10-14, created 2023-05-02, pushed 2026-10-16 with 5 open issues and pull requests as of 2026-10-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zylon-ai/private-gpt&type=date&theme=dark&legend=top-left" />

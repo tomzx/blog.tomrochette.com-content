@@ -1,7 +1,7 @@
 ---
 title: Agent Network Protocol (ANP)
 created: 2026-10-05
-updated: 2026-10-13
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, decentralized-identity, multi-agent]
 readability: 3
@@ -25,7 +25,7 @@ Working code exists around the spec: the `anp` implementation repository, an ope
 ## Status
 
 **Active but unanswered by the market.**
-The main repository (created 2024-10-23) shows 1,448 stars, 106 forks, and a push on 2026-10-09 as of 2026-10-13 (GitHub API), with the companion `anp` repo at 352 stars and the spec hub serving ANP 1.2 as of 2026-10-10.
+The main repository (created 2024-10-23) shows 1,448 stars and 106 forks (as of 2026-10-13) with a push on 2026-10-15 as of 2026-10-17 (GitHub API), with the companion `anp` repo at 352 stars and the spec hub serving ANP 1.2 as of 2026-10-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agent-network-protocol/AgentNetworkProtocol&type=date&theme=dark&legend=top-left" />

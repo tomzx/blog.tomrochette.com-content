@@ -1,7 +1,7 @@
 ---
 title: GitHub Copilot automations
 created: 2026-08-24
-updated: 2026-10-07
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, executions, github-copilot, scheduling, llm=glm-5.3-flash]
 readability: 3
@@ -63,6 +63,7 @@ My disagreeable claim: creator-private automations are disqualifying for team ad
 - 2026-08-24 - Created in the Executions category during the research index seeding.
 - 2026-10-06 - Recorded the event-trigger filters (search query and files changed), linked the new Claude Code routines note as the Claude-side equivalent, and re-verified all five sources; the core claims hold unchanged.
 - 2026-10-07 - Corrected the visibility caution against the current docs: automation definitions are invisible to administrators and teammates, but the sessions an automation starts are visible to everyone with repository access, so the governance blind spot covers the configuration, not the runs.
+- 2026-10-17 - Fully re-verified in rotation with all five sources re-fetched: the creator-private definition model with visible sessions, the write-access defaults, the public-preview rationale layer, the 59-minute cap, and the approvals caveat all re-confirmed unchanged.
 
 ## See also
 

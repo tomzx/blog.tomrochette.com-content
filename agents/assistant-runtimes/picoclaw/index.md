@@ -1,7 +1,7 @@
 ---
 title: PicoClaw
 created: 2026-08-27
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, golang, edge, risc-v, open-source]
 readability: 3
@@ -23,7 +23,7 @@ It reached 20k stars in 17 days from a February 2026 start.
 ## Status
 
 Active, pre-1.0, and explicit about both.
-30,020 stars and 4,449 forks as of 2026-10-14 since creation on 2026-02-04, pushed 2026-10-15 with 46 open issues as of 2026-10-16, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
+30,020 stars and 4,449 forks as of 2026-10-14 since creation on 2026-02-04, pushed 2026-10-15 with 44 open issues as of 2026-10-17, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sipeed/picoclaw&type=date&theme=dark&legend=top-left" />
