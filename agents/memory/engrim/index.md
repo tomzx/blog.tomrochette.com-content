@@ -1,7 +1,7 @@
 ---
 title: Engrim
 created: 2026-09-10
-updated: 2026-10-09
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, sqlite, local-first]
 readability: 3
@@ -81,6 +81,7 @@ My disagreeable claim: the provenance tracking, not the local-first storage, is 
 - 2026-09-22 - Recorded three same-day releases: v1.4.9 added GitHub Copilot CLI as a seventh supported CLI (first outside contribution), v1.4.10 hardened Windows CI, and v1.4.11 added managed Codex guidance plus optional MCP registration with codex provenance; refreshed stars to 283 and PyPI releases to 26.
 - 2026-09-27 - Refreshed the volatile facts: 291 stars, pushed 2026-09-26; no PyPI release since v1.4.11 (2026-09-22), and the 26-release count unchanged.
 - 2026-10-07 - Added the timgordontg/engrim star history chart to the Status section.
+- 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still last pushed 2026-09-26 with no release after v1.4.11, PyPI and the GitHub releases API still at 1.4.11, the Show HN thread steady at 93 points).
 
 ## See also
 

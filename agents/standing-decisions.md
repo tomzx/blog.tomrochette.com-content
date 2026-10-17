@@ -38,6 +38,8 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-10 | executions | data-engineering-first platforms stay out | kestra (29.5k) rejected and re-confirmed as data-engineering-first
 - 2026-10-13 (named 2026-10-05) | people-and-publications | a voice is admissible only when their breakout first surfaces inside the section's coverage window; long-established and interview-only voices fail | applied in every weekly voice scan
 - 2026-10-06 | trackers-and-leaderboards | single trend series are not trackers and evals nonprofits are people-category candidates | METR's time-horizon series rejected as a tracker, queue q#5 open
+- 2026-10-17 | memory | the OKF-implementation family folds into the okf-agent-memory note as ecosystem evidence | mcp-memory (218 stars, dormant since 2026-08-30) and Kage held on it
+- 2026-10-17 | memory | Vestige pivoted from queryless memory to a fail-closed action firewall and routes out of memory on the primary-artifact reading (control-planes or sandboxing territory if ever admitted) | 4-point Show HN, the pivot July 2026
 
 ## Standing family rejections
 
@@ -88,7 +90,7 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 
 ## Re-review triggers
 
-- 2026-10-07 (ruled 2026-09-06) | memory | okf-agent-memory reopens on a second implementation or independent coverage | re-rejected at 757 stars with grounds unchanged
+- 2026-10-17 (ruled 2026-09-06) | memory | okf-agent-memory trigger fired and resolved: admitted at 814 stars on both trigger arms, three independent citations in the 392-point documentation-over-recall thread plus a second implementation (fellowgeek/mcp-memory) | supersedes the 2026-10-07 re-rejection
 - 2026-10-12 | task-management | TomzxCode/agentic reopens on independent adoption or third-party coverage | rejected on the citation bar, owner's own tool
 - 2026-10-13 | assistant-runtimes | the rafska chat-UI set reopens on renewed adoption (inferred) | the final rejection carries a recorded trigger the log does not name
 - 2026-09-24 | people-and-publications | the humanlayer (dex-horthy) rejection is closed: overridden by owner admission, no trigger remains | the 2026-09-08 no-sustained-publication rejection was overridden 2026-09-24

@@ -1,7 +1,7 @@
 ---
 title: Fence
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -28,8 +28,8 @@ Actively maintained with modest but durable traction: 992 stars, 40 open issues,
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fencesandbox/fence&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=fencesandbox/fence&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=fencesandbox/fence&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=fencesandbox/fence&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=fencesandbox/fence&type=date&legend=top-left" />
 </picture>
 
 The 78-point Show HN of 2026-01-20 is the community anchor, with the maintainer answering limit questions in the thread.
@@ -68,6 +68,7 @@ Not for containing actively malicious processes, and not on hosts where deprecat
 ## Changes
 
 - 2026-10-07 - Created from the entrant-resolution run, profiling Tusk's OS-native command sandbox with the maintainer's allow-by-default-reads limitation as the anchor caution.
+- 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (rotation re-verification; every cited URL re-fetched, v0.1.67 still the newest release).
 
 ## See also
 

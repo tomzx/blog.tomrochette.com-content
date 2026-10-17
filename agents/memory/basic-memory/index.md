@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -83,6 +83,7 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 - 2026-10-06 - Created from the 2026-10-06 entrant scan, with six fetched sources and the thin-discussion footprint plus the beta-pricing terms recorded as the critical angles.
 - 2026-10-07 - Added the basicmachines-co/basic-memory star history chart to the Status section.
 - 2026-10-07 - The cloud pricing restructured: the $15/mo locked-for-life beta retired in favor of Team $15/seat/mo with volume tiers, a new Business $30/seat/mo tier, and a custom credit-based Agent Infrastructure tier (Price history row); Teams moved from early to live with roles; the beta-repricing caution rewritten.
+- 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the pricing page's schema.org data still lists Local $0, Team $15/seat, Business $30/seat; PyPI still 0.23.2 from 2026-08-25; the repository pushed 2026-10-16 as recorded).
 
 ## See also
 

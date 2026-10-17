@@ -1,7 +1,7 @@
 ---
 title: Magnitude
 created: 2026-10-06
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, inference-engine]
 readability: 3
@@ -19,11 +19,11 @@ Magnitude is a free open-source inference engine for agents that compiles and tu
 An Apache-2.0 inference engine written in Rust by magnitudedev, a two-person YC S25 team (Anders and Tom) whose previous project was an open-source browser agent that reached 4k+ stars and 100k+ downloads.
 It installs as a desktop app on macOS, Windows, and Linux, serves open models from a curated catalog of 15 (as of 2026-10-06) over an OpenAI-compatible API, and tunes its kernels on your device in about one minute per downloaded model.
 The kernels are hand-written with tunable parameters and then fitted to your chip: Metal on Apple silicon, CUDA on NVIDIA, Vulkan on AMD and Strix Halo, or plain CPU, and the KV cache is quantized to 8-bit keys and 4-bit values to cut long-context memory.
-One-click connectors target Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.
+One-click connectors target Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline, and a `@magnitudedev/cli` package (0.2.9 as of 2026-10-17) installs the app and can connect Claude Code to the loaded local model without a Claude login.
 
 ## Status
 
-Active and young: 6,886 stars, 464 forks, repo pushed 2026-10-15 (as of 2026-10-16).
+Active and young: 6,886 stars, 464 forks, repo pushed 2026-10-17 (as of 2026-10-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=magnitudedev/magnitude&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ My disagreeable claim: on current evidence the 2x marketing is narrower than the
 - 2026-10-06 - Created.
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 - 2026-10-07 - Added the magnitudedev/magnitude star history chart to the Status section.
+- 2026-10-17 - Recorded the `@magnitudedev/cli` package (0.2.9, published 2026-10-15), which installs the app and connects Claude Code to the loaded local model without a Claude login; the release listing re-fetched the same day.
 
 ## See also
 
@@ -83,7 +84,8 @@ My disagreeable claim: on current evidence the 2x marketing is narrower than the
 
 ## References
 
-- https://api.github.com/repos/magnitudedev/magnitude - 6,474 stars, 442 forks, Rust, Apache-2.0, pushed 2026-10-07, homepage (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 6,717 stars, 464 forks, pushed 2026-10-13).
+- https://api.github.com/repos/magnitudedev/magnitude - 6,474 stars, 442 forks, Rust, Apache-2.0, pushed 2026-10-07, homepage (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 6,717 stars, 464 forks, pushed 2026-10-13; re-fetched 2026-10-17, pushed 2026-10-17).
+- https://api.github.com/repos/magnitudedev/magnitude/releases - the `@magnitudedev/cli` train (0.2.9 on 2026-10-15) and the desktop-update-acceptance pre-releases (fetched 200, 2026-10-17).
 - https://magnitude.dev/ - positioning, benchmark table (Metal 92% faster decode, CUDA 19%), memory and connector claims, FAQ (200, fetched 2026-10-06).
 - https://hn.algolia.com/api/v1/items/49911995 - launch thread: founders, tuning time, benchmark methodology, critical speed measurements, planned per-token cloud (200, fetched 2026-10-06).
 - https://hn.algolia.com/api/v1/search?query=magnitude&tags=story&numericFilters=created_at_i%3E1758900000 - launch points and date, plus the June 2026 coding-agent pivot story (200, fetched 2026-10-06).

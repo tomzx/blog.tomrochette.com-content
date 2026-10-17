@@ -1,7 +1,7 @@
 ---
 title: NVX
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, microsoft, research, open-source]
 readability: 3
@@ -27,8 +27,8 @@ Young, institutional, and quiet in public: 400 stars, pushed 2026-10-16 as of 20
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&legend=top-left" />
 </picture>
 
 Daily dev prereleases have cut continuously since late September 2026, the newest on 2026-10-16.
@@ -68,6 +68,7 @@ Not for running agents today, which is what Brig, OpenShell, or the hosted APIs 
 
 - 2026-10-07 - Created from the entrant-resolution run, profiling Microsoft's OpenVMM-based research sandbox with its current-limits honesty and Windows-only-in-category coverage.
 - 2026-10-16 - Rotation re-verification: Microsoft's 2026-10-14 doc restructure replaced doc/design.md and the current-limits page with the architecture guide, so both dead sources were replaced with the guide index and its non-goals section (the exclusions list, now the cited critical source), the Azure Linux guest option recorded, and the prerelease train and HN point count refreshed.
+- 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (push of 2026-10-17 checked: routine commits on the documented daily dev-prerelease cadence, nothing material).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Model Access Feature Matrix"
 created: 2026-09-26
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, model-access, llm-pricing]
 readability: 3
@@ -74,6 +74,7 @@ The catches cluster into two kinds: mechanical limits you can engineer around (c
 - 2026-10-12 - Re-verification: the Kimi Code cells moved for the ladder rename (Plus/Pro/Max/Ultra internationally, Go/Plus/Pro/Max in China, musical tiers legacy at unchanged monthly prices); every other pricing cell re-checked unchanged against the live vendor pages, including the DevPass 3x-to-2x cut still pending for October 15.
 - 2026-10-14 - Re-verification: the SuperGrok cells moved for the mid-October ladder restructure (Plus $8, Premium $30, Super $100, Ultra $200, X and Cursor bundled into the shared weekly pool, every dollar figure now published), the Experiential price-trajectory cell moved for the repository and org 404 and the October discount-schedule revisions, and every other pricing cell re-checked unchanged against the live vendor pages (the DevPass 3x-to-2x cut still pending for October 15, the Chutes Kimi-K3 PAYG move recorded only in its note and price table).
 - 2026-10-16 - Re-verification: the LLM Gateway cells moved for the DevPass 3x-to-2x cut landing on 2026-10-15 (billing mechanics, limit form, catch, and price trajectory now record the landed state with the same-day fair-use, Reset Pass, and refund tightenings), and the MiniMax cells moved for the product's second restructure (Token Plan closed to new purchases, tiers renamed Plus/Max/Ultra to Go/Explore/Build at unchanged $22/$55/$132 monthly); the OpenRouter fee, ChatGPT plan prices, Google ladder, and Requesty markup re-fetched unchanged this run, and the other pricing cells carry their 2026-10-14 verification with no repricing signals since.
+- 2026-10-17 - Re-verification: the Requesty, Cerebras Code, NanoGPT, and OpenRouter pricing cells re-checked unchanged against their live pages (Cerebras Code still sold out, NanoGPT still $12 with the 60M weekly cap, OpenRouter's fee state re-confirmed on the FAQ and the usagepricing blueprint, fetchable again this run), and no other repricing signals since the 2026-10-16 pass.
 
 ## See also
 

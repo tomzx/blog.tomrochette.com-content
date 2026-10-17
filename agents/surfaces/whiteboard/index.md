@@ -1,7 +1,7 @@
 ---
 title: Whiteboard
 created: 2026-10-04
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surface, review, open-source]
 readability: 3
@@ -18,13 +18,14 @@ Whiteboard is an MIT-licensed desktop app (YC W26) where a coding agent draws it
 Whiteboard by /dev/fast is a beta desktop app for macOS, Windows, and Linux that plugs into the harnesses you already run (Claude Code and Codex named first) and hands the agent an SDK to draw on an in-app canvas as it works.
 The canvas holds Whiteboard-specific objects: Commits, Diffs, Traces, and a source tree, with diffs rendered semantically by the team's Rust diffr library, plus copy-for-agent selection that turns any highlighted region into a prompt-ready snippet.
 The public site is served by dev.fast (the GitHub homepage now points at whiteboard.dev.fast, which serves the same dev.fast-hosted page directly again as of 2026-10-06, after a stretch where it 301-redirected), and documents an open API proposal (diff search: parse, hydrate, postprocess) that pins agent-found evidence to exact Git blobs, so a diagram claim can be checked against source.
-It shipped v0.2.0 on 2026-10-02 after three releases in its first public week and kept the train running: v0.2.1 and v0.2.2 on 2026-10-08, v0.2.3 later the same day (an Electron bump fixing wasm loading in software-rendered maps and a fix for lag when scrolling diffs), and v0.2.4 on 2026-10-09 (diffr imported into the whiteboard monorepo, with diff loading up to 8.5x faster per the team's benchmarks), and the repo shows 3,217 stars and 158 forks as of 2026-10-16, with only diffr library tags since (the latest, diffr 0.1.20, on 2026-10-13).
+It shipped v0.2.0 on 2026-10-02 after three releases in its first public week and kept the train running: v0.2.1 and v0.2.2 on 2026-10-08, v0.2.3 later the same day (an Electron bump fixing wasm loading in software-rendered maps and a fix for lag when scrolling diffs), and v0.2.4 on 2026-10-09 (diffr imported into the whiteboard monorepo, with diff loading up to 8.5x faster per the team's benchmarks), and the repo shows 3,217 stars and 158 forks as of 2026-10-16.
+The v0.3 train landed on 2026-10-16: v0.3.0, the team's "big one", added experimental SSH remote hosts, so review can run against code that lives on a Linux dev server or cloud VM, with the desktop app installing and updating a Whiteboard server on the host, Ask Agent, LSP, and source windows running remotely, and a trust model following CodeOSS; v0.3.1 added open-in-editor handoffs (VS Code, Cursor, Zed, or any application) and telemetry covering the 0.3.0 features; v0.3.2, Windows only, stops the MCP server before a Windows update so auto-update works.
 
 ## Status
 
-New with real traction: the Show HN launch on 2026-09-24 drew 424 points, and the repository, created 2026-08-18, was pushed 2026-10-16.
+New with real traction: the Show HN launch on 2026-09-24 drew 424 points, and the repository, created 2026-08-18, was pushed 2026-10-17.
 The team is four (Sid, Alex, Ketan, and Milan), YC W26-backed, and built the app for themselves first.
-Distribution is free, open source, and local-only in beta; the product site now advertises a hosted Whiteboard as coming soon, though no plans or prices exist yet, so there is no revenue model today.
+Distribution is free and open source in beta, local-first with the v0.3.0 SSH remote hosts extending review to your own machines; the product site now advertises a hosted Whiteboard as coming soon, though no plans or prices exist yet, so there is no revenue model today.
 The category question is unresolved even in its own launch thread, where commenters reached for orchestrator, control plane, and agent multiplexer before the authors placed it as deliberately not opinionated about where your agent runs.
 
 <picture>
@@ -47,6 +48,7 @@ The category question is unresolved even in its own launch thread, where comment
 - No hosted plan and no pricing: the business is a stated maybe, and beta desktop apps churn.
 - Ten open issues and twenty-three open pull requests as of 2026-10-06 against seven weeks of life (the earlier fifty-issue reading included pull requests, and the queue has moved fast since), with every major OS build user-reported rather than vendor-certified.
 The counts keep moving: eight open issues and thirty-one open pull requests as of 2026-10-08, nine open issues and forty-one open pull requests as of 2026-10-09 as the pull-request queue grew as fast as the release train, then ten open issues and thirty-one open pull requests as of 2026-10-10 once the diffr imports merged and the queue drained, eleven open issues and thirty-four open pull requests as of 2026-10-11, ten open issues and twenty-seven open pull requests as of 2026-10-12, and ten open issues and twenty open pull requests as of 2026-10-16.
+- v0.3.1 added telemetry covering the 0.3.0 features, the first data-out signal in a product whose launch story leaned on staying local; nothing in the release notes says what is collected or how to turn it off.
 
 ## Pricing
 
@@ -73,6 +75,7 @@ Not for teams that need a supported, priced, categorized tool, and not for anyon
 - 2026-10-07 - Added the devdotfast/whiteboard star history chart to the Status section.
 - 2026-10-08 - Recorded v0.2.1 and v0.2.2 (both 2026-10-08: the diffr 0.1.16 bump with a roughly 50 MB smaller binary and better folding, several Asks kept open at once, and folding plus code-peek fixes) as the new latest releases, and refreshed the moving counts to 2,942 stars, 147 forks, 8 open issues, and 31 open pull requests.
 - 2026-10-09 - Recorded v0.2.3 (2026-10-08, an Electron bump fixing wasm loading in software-rendered maps and a diff-scrolling lag fix) and v0.2.4 (2026-10-09, diffr imported into the monorepo with diff loading up to 8.5x faster on the team's benchmarks) as the new latest releases, and refreshed the moving counts to 3,031 stars, 151 forks, 9 open issues, and 41 open pull requests.
+- 2026-10-17 - Recorded the v0.3.0 to v0.3.2 train (all 2026-10-16: experimental SSH remote hosts with a host-installed, self-updating Whiteboard server under the CodeOSS trust model, open-in-editor handoffs, telemetry for the 0.3.0 features, and a Windows auto-update fix) as the new latest releases, ending the local-only framing, and added the telemetry caution.
 
 ## See also
 
@@ -83,8 +86,11 @@ Not for teams that need a supported, priced, categorized tool, and not for anyon
 
 ## References
 
-- https://github.com/devdotfast/whiteboard - repository, MIT license, 3,217 stars, 158 forks, 10 open issues and 20 open pull requests, release cadence through v0.2.4 (2026-10-09) with only diffr library tags since (diffr 0.1.20 on 2026-10-13), and the 2026-10-16 push, fetched 2026-10-16.
+- https://github.com/devdotfast/whiteboard - repository, MIT license, 3,217 stars, 158 forks, pushed through the v0.3.0 to v0.3.2 train of 2026-10-16 (stars and forks as of 2026-10-16, repository re-fetched 2026-10-17)
 - https://dev.fast/ - the host of the product site, which whiteboard.dev.fast also serves directly as of 2026-10-06 (fetched then, after the 301-redirect stretch recorded on 2026-10-05): canvas objects (Commits, Diff, Trace, source tree), the Rust diffr library, the diff-search API proposal with Git-blob hydration, copy-for-agent selection, downloads for three OSes, and the hosted-Whiteboard coming-soon notice.
 - https://news.ycombinator.com/item?id=49833867 - the 424-point Show HN launch (2026-09-24) with the team, the harness integrations, the free-local-only answer, and the categorization debate, fetched via the Algolia items API this run.
 - https://github.com/devdotfast/whiteboard/releases - the v0.1.3, v0.1.5, and v0.2.0 release train across the launch week (fetched 2026-10-04) and the v0.2.1 through v0.2.4 train of 2026-10-08 to 2026-10-09 (v0.2.3 the Electron wasm and diff-scroll fixes, v0.2.4 the diffr monorepo import with up to 8.5x faster diff loading), fetched 2026-10-09.
 - https://hn.algolia.com/api/v1/items/49833867 - the thread text and comment tree grounding the skeptical and categorical commentary, fetched 2026-10-04.
+- https://api.github.com/repos/devdotfast/whiteboard/releases/tags/v0.3.0 - the October 16 "big one": experimental SSH remote hosts, the host-installed and self-updating Whiteboard server, remote Ask Agent, LSP, and source windows, and the CodeOSS trust model, fetched 2026-10-17
+- https://api.github.com/repos/devdotfast/whiteboard/releases/tags/v0.3.1 - open-in-editor handoffs and the telemetry addition for the 0.3.0 features, fetched 2026-10-17
+- https://api.github.com/repos/devdotfast/whiteboard/releases/tags/v0.3.2 - the Windows-only auto-update fix (stop the MCP server before a Windows update), fetched 2026-10-17

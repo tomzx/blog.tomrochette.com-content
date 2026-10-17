@@ -1,7 +1,7 @@
 ---
 title: Microsandbox
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, open-source]
 readability: 3
@@ -20,16 +20,17 @@ A runtime binary plus an embeddable library: you pull standard OCI images from D
 The README claims average boot times under 100 milliseconds, a self-reported figure footnoted to guest boot on an M1 machine, and the state model goes beyond containers: pause and resume, snapshots, and forking a live sandbox.
 Credentials are advertised as "secret keys that never enter the VM", the project's own unverified claim of unexploitable secret handling.
 It embeds in application code (no long-running daemon required), runs sandboxes in detached mode for long-lived sessions, and ships a companion Agent Skills repository and MCP server so agents can create and manage their own sandboxes.
+The same SDK and CLI surface can also select a hosted backend, microsandbox cloud, which runs the sandboxes on the company's infrastructure with an API key.
 The project carries a Y Combinator badge and has moved organizations more than once since its 2024 launch, landing at superradcompany/microsandbox.
 
 ## Status
 
-Large by this category's standards and still shipping weekly: 8,704 stars, 106 open issues and PRs, pushed 2026-10-16 as of 2026-10-16, created 2024-10-03.
+Large by this category's standards and still shipping weekly: 8,704 stars, 106 open issues and PRs, pushed 2026-10-17 as of 2026-10-17, created 2024-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&legend=top-left" />
 </picture>
 
 v0.7.5, v0.7.6, and v0.7.7 shipped within a week ending 2026-10-05, a fast pre-1.0 minor-version cadence, and v0.7.8 followed on 2026-10-09 (secret substitution scoped to specific header fields, runtime-owned detached jobs, port ranges in published ports, snapshot filesystem-state limits, and a fix that refuses disk restores which would silently drop host mounts).
@@ -45,14 +46,15 @@ v0.7.5, v0.7.6, and v0.7.7 shipped within a week ending 2026-10-05, a fast pre-1
 ## Cautions
 
 - Every performance and security claim is self-reported: the sub-100ms boot figure, the unexploitable-secrets claim, none independently audited or benchmarked.
+- The hosted backend is private beta with unpublished pricing, so the cost story beyond self-hosting is not yet judgeable.
 - Pre-1.0 with rapid minor-version churn and three organization homes since 2024 (the launch linked microsandbox/microsandbox, later zerocore-ai, now superradcompany), a provenance trail adopters should watch.
 - The 402-point launch is a 2025 memory; the 2026 resubmission's 3 points mean the project must be judged on its repo, not its HN history.
 - libkrun shares the virtualization story with its upstream: capable, but the isolation claims ride on a dependency this project does not control.
 
 ## Pricing
 
-Free and open source under Apache-2.0, self-hosted, no hosted offering or pricing page found as of 2026-10-07.
-Costs are the local or fleet hardware you run it on.
+Free and open source under Apache-2.0, self-hosted; the costs are the local or fleet hardware you run it on.
+The docs also advertise microsandbox cloud, a hosted backend running the same sandboxes, in private beta with API-key billing where plans, usage, and invoices live in a dashboard; no prices are published as of 2026-10-17.
 
 ## Compared to
 
@@ -63,12 +65,13 @@ Costs are the local or fleet hardware you run it on.
 ## Bottom line
 
 **Recommended for engineers who want VM isolation with container workflows on their own hardware, and for agent-framework authors who want the agent itself to spawn isolated environments.**
-Not for anyone needing audited claims, a stable 1.0 API, or a hosted service.
+Not for anyone needing audited claims or a stable 1.0 API, and not for teams that want a generally available hosted tier today (the cloud is private beta).
 
 ## Changes
 
 - 2026-10-07 - Created from the entrant-resolution run, profiling the libkrun-based microVM runtime behind the category's largest HN thread, with its self-reported-claims and provenance cautions.
 - 2026-10-10 - Recorded v0.7.8 (2026-10-09, header-scoped secret substitution, detached jobs, port ranges, snapshot limits, and the refuse-unsafe-restore fix), and refreshed counts (8,628 stars, 95 open issues and PRs, pushed 2026-10-10).
+- 2026-10-17 - Recorded the microsandbox cloud hosted backend (private beta, API-key billing, no published prices) in What it is, Cautions, Pricing, and the Bottom line, and fixed the star-history picture block (rotation re-verification; every cited URL re-fetched, v0.7.8 still the newest release).
 
 ## See also
 
@@ -83,4 +86,5 @@ Not for anyone needing audited claims, a stable 1.0 API, or a hosted service.
 - https://api.github.com/repos/superradcompany/microsandbox - stars, open issues, creation and push dates as of 2026-10-07
 - https://api.github.com/repos/superradcompany/microsandbox/releases - the v0.7.5 through v0.7.8 release record
 - https://docs.microsandbox.dev/ - the documentation site
+- https://docs.microsandbox.dev/cloud/overview - the cloud overview: private beta, same SDK and CLI surface, billing in the dashboard
 - https://hn.algolia.com/api/v1/items/44135977 - the 402-point Show HN of 2025-05-30, including the isolation-tradeoff questions in the thread

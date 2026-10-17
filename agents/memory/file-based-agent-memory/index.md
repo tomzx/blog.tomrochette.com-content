@@ -1,7 +1,7 @@
 ---
 title: File-based agent memory
 created: 2026-08-24
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, agent-memory, context-engineering]
 readability: 3
@@ -53,7 +53,7 @@ Products layered on it vary: memU is Apache 2.0 with a hosted option, and harnes
 - [Mem0](../mem0/index.md): choose it over files when memory must span applications and thousands of users.
 - [Zep](../zep/index.md): choose it when facts change over time and require audit; files have no validity windows.
 - [Letta](../letta/index.md): its memory blocks are file-based ideas with an editing discipline bolted on, a middle point worth studying.
-- Kevin Liao's essay ([Agents Don't Need Memory. They Need Documentation.](https://liao.gg/blog/agents-dont-need-memory), 2026-10-03): the public, sharper-tipped form of this note's thesis, every recall-based memory plugin is a RAG lottery over transcripts so agents need an agent-maintained documentation brain, shipped as [Operator Memory](https://github.com/aerovato/operator-memory), with the [392-point HN thread](https://news.ycombinator.com/item?id=49945933) as the best critical set on the position ("docs rot too", "the code is the documentation", "agents need both") that this note's pruning caution already answers.
+- Kevin Liao's essay ([Agents Don't Need Memory. They Need Documentation.](https://liao.gg/blog/agents-dont-need-memory), 2026-10-03): the public, sharper-tipped form of this note's thesis, every recall-based memory plugin is a RAG lottery over transcripts so agents need an agent-maintained documentation brain, shipped as [Operator Memory](../operator-memory/index.md), with the [392-point HN thread](https://news.ycombinator.com/item?id=49945933) as the best critical set on the position ("docs rot too", "the code is the documentation", "agents need both") that this note's pruning caution already answers.
 
 ## Bottom line
 
@@ -66,6 +66,7 @@ Reach for a memory service only for cross-user or cross-app memory; my disagreea
 - 2026-08-26 - Corrected the HN thread label to the Letta Code launch and replaced the trimming analogy with a grounded pruning sentence.
 - 2026-10-06 - Linked the new memU note in place of the plain-text memU mention and refreshed its star count (14.5k as of 2026-10-06); the AGENTS.md 60k adoption figure and the Claude Code auto-memory limits re-verified unchanged this run.
 - 2026-10-06 - Folded the liao.gg documentation-over-recall essay (373-point HN thread, grounded in aerovato/operator-memory) into Compared to and References as the public counterpart to this note's thesis.
+- 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, no facts changed (agents.md still reports 60k projects, the Claude Code auto-memory limits and Cursor rules behavior unchanged, the essay thread steady at 392 points), and the Operator Memory mention in Compared to repointed at its new note.
 
 ## See also
 

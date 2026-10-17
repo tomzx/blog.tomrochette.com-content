@@ -1,7 +1,7 @@
 ---
 title: Semble
 created: 2026-08-30
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-search, context-engines, local-first, developer-tools]
 readability: 3
@@ -26,7 +26,7 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
 ## Status
 
 **Young, active, and unusually well received for a search tool.**
-6,212 stars and 280 forks since the repo appeared on 2026-04-06, with the last push 2026-10-15 and v0.6.2 released 2026-10-05 (GitHub API, as of 2026-10-16).
+6,212 stars and 285 forks since the repo appeared on 2026-04-06, with the last push 2026-10-16 and v0.7.0 released 2026-10-16 (GitHub API, as of 2026-10-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MinishLab/semble&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 - 2026-09-29 - Recorded release v0.6.1 (2026-09-25) and refreshed the GitHub numbers (6,157 stars); the trailing-month PyPI figure re-read at the same 85,062, and the no-paid-plan claim is unchanged.
 - 2026-10-06 - Recorded release v0.6.2 (2026-10-05) and refreshed the numbers (6,183 stars, 273 forks, pushed 2026-10-06, 97,003 trailing-month PyPI downloads); the no-paid-plan claim is unchanged.
 - 2026-10-07 - Added the MinishLab/semble star history chart to the Status section.
+- 2026-10-17 - Recorded release v0.7.0 (2026-10-16: BM25 postings stored as numpy arrays, faster warm queries, parallelized chunking and batched embeddings, an MCP SDK 2.x upgrade, and a new `semble file-types` command), pushed 2026-10-16; the no-paid-plan claim unchanged.
 
 ## See also
 

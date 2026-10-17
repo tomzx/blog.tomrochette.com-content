@@ -1,7 +1,7 @@
 ---
 title: CodeAlive
 created: 2026-10-05
-updated: 2026-10-13
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, code-graphs, mcp, saas]
 readability: 3
@@ -27,8 +27,8 @@ A sales-assisted self-hosted deployment (Docker Compose or Kubernetes/Helm insid
 ## Status
 
 **Active and shipping, with an unverifiable user base.**
-The public surfaces are current (docs, changelog, MCP v3 with a v1/v2 migration guide, all fetched 2026-10-05), and the `@codealive/installer` package sits at 1.0.8 on npm.
-The adoption record is the problem: a Hacker News search returns zero stories about the product, I found no practitioner threads, no reviews, and no customer evidence beyond the site's own testimonials, and the company's headcount is not published anywhere I could fetch.
+The public surfaces are current (docs, changelog, MCP v3 with a v1/v2 migration guide, all re-fetched 2026-10-17), the `@codealive/installer` package sits at 1.0.8 on npm (unchanged since February), and the site now fronts a no-signup Playground over pre-indexed open-source repositories alongside the pricing calculator.
+The adoption record is the problem: a Hacker News search re-run 2026-10-17 returns zero stories about the product, I found no practitioner threads, no reviews, and no customer evidence beyond the site's own testimonials, and the company's headcount is not published anywhere I could fetch.
 Every performance claim (45 percent fewer tokens, about 25 times lower model cost, plus 6.5 points of claimed answer quality, on RepoContextBench and the vendor's named RepoQA run) is vendor-run.
 
 ## Strengths
@@ -47,7 +47,7 @@ Every performance claim (45 percent fewer tokens, about 25 times lower model cos
 
 ## Pricing
 
-Free ($0, 1 user, 1 workspace, 25 MB of repos, 100 chat requests per month, MCP access), Hobby ($15/month with a $15 usage balance, 1 developer, up to 100 MB), Pro ($50/month balance, 1-3 developers, deep analysis and AI code review), and Team (from $100/month balance, 5-15 developers, 100-500 MB), all as of 2026-10-13.
+Free ($0, 1 user, 1 workspace, 25 MB of repos, 100 chat requests per month, MCP access), Hobby ($15/month with a $15 usage balance, 1 developer, up to 100 MB), Pro ($50/month balance, 1-3 developers, deep analysis and AI code review), and Team (from $100/month balance, 5-15 developers, 100-500 MB), all as of 2026-10-17, re-verified unchanged against the live tier table.
 Usage is metered per action: search $0.02, chat $0.15, deep analysis $0.30, code review $0.50.
 
 ## Price history
@@ -72,6 +72,7 @@ My disagreeable claim: CodeAlive's pricing model, the engine unbundled from the 
 
 - 2026-10-05 - Created from the 2026-10-05 entrant scan (the hosted agent-agnostic context-engine slot), with the vendor-only-evidence caveat recorded.
 - 2026-10-06 - Recorded the sales-assisted self-hosted deployment (Docker Compose or Kubernetes/Helm, bring-your-own LLM, demo-gated, no SOC 2 badge yet), correcting the cloud-only reading; the tier table and per-action rates re-verified unchanged.
+- 2026-10-17 - Full rotation re-verification: every cited URL re-fetched; the tier table, per-action rates, self-hosted page (still no SOC 2 badge by its own text), MCP v3 docs, and installer package (1.0.8) all unchanged; the zero-HN-story footprint re-confirmed and the new no-signup Playground and pricing-calculator surfaces recorded.
 
 ## See also
 
@@ -89,4 +90,4 @@ My disagreeable claim: CodeAlive's pricing model, the engine unbundled from the 
 - https://docs.codealive.ai/integrations/mcp - MCP v3 tools, hosted endpoint, OAuth and Docker deployments, migration guide
 - https://codealive.ai/en/blog/codealive-3-context-engine-agent-repocontextbench - the 3.0 announcement: Tool API v3 (2026-07-11), ContextResearchAgent, RepoContextBench
 - https://registry.npmjs.org/@codealive%2Finstaller - the installer package, 1.0.8
-- https://hn.algolia.com/api/v1/search?query=CodeAlive&tags=story - the footprint scan: zero stories about the product, all matches unrelated (re-run 2026-10-11, strict-phrase search included)
+- https://hn.algolia.com/api/v1/search?query=CodeAlive&tags=story - the footprint scan: zero stories about the product, all matches unrelated (re-run 2026-10-17, strict-phrase search included)

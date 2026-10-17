@@ -1,7 +1,7 @@
 ---
 title: Brig
 created: 2026-10-06
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, macos, linux, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Built by NOFire AI, the team behind urunc, a CNCF Sandbox project; images, boot 
 
 ## Status
 
-Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 2026-08-12, pushed 2026-10-15, Apache-2.0.
+Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 2026-08-12, pushed 2026-10-16 as of 2026-10-17, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 20
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&legend=top-left" />
 </picture>
 
-v0.2.0 shipped 2026-09-15, v0.3.0 on 2026-09-26, and v0.4.0 on 2026-10-06, with channel-main prereleases cutting almost daily from v0.2.0 through the 0.4.1 builds of 2026-10-08, which remain the newest.
+v0.2.0 shipped 2026-09-15, v0.3.0 on 2026-09-26, v0.4.0 on 2026-10-06, and v0.4.1 on 2026-10-16, which pins the Linux runtime bundle at rc17 and reopens the remote-and-Kubernetes non-goals in the docs (issues #482 through #485), with the channel-main prerelease train cutting two more builds on 2026-10-16.
 The Show HN launch on 2026-09-22 drew 9 points, and the maintainer's introduction is most of the thread's substance, so the community footprint is thin and the documentation is where the evidence lives.
 **A nine-point launch against 228 stars in nine weeks reads as quiet, deliberate adoption rather than a wave, and no independent audit or benchmark exists yet, while v0.4.0's breaking changes show the security defaults are still moving: new sandboxes now get isolated networks by default on hvi and Linux, and the runtime refuses shims that share the host kernel.**
 
@@ -44,7 +44,7 @@ The Show HN launch on 2026-09-22 drew 9 points, and the maintainer's introductio
 
 ## Cautions
 
-- Pre-1.0 (v0.4.0) with daily prerelease churn and no independent audit.
+- Pre-1.0 (v0.4.1) with channel-build churn and no independent audit.
 - Egress policies enforce on hull's hvi backend and, since v0.4.0, on Linux through nftables on the sandbox's own bridge, while the vz, qemu, and docker backends have no policy enforcement, and the default with no policy attached is open internet access.
 - Two sandboxes on a shared network can reach each other by the project's own measurements, and v0.4.0 made isolated networks the default for new sandboxes on hvi and Linux (vz, qemu, and the claude-desktop profile stay shared), while the docs warn the shared-network answer is not a stable property.
 - The credential model has stated sharp edges: Brig's stored copy of a Claude refresh token is less protected than the original keychain item, and `files:` bindings bypass the denylist by design.
@@ -64,7 +64,7 @@ No hosted tier or pricing page exists as of 2026-10-06.
 ## Bottom line
 
 **Recommended for engineers on Apple Silicon or Linux who want a coding agent fenced by a microVM on their own machine and will read the unusually detailed security docs.**
-Not for Intel Macs, for anyone needing enforced egress policy on Linux today, or for teams that require an audited boundary.
+Not for Intel Macs, for vz or qemu users who need enforced egress policy, or for teams that require an audited boundary.
 
 ## Changes
 
@@ -72,6 +72,7 @@ Not for Intel Macs, for anyone needing enforced egress policy on Linux today, or
 - 2026-10-07 - Added the brig-sh/brig star history chart to the Status section.
 - 2026-10-07 - Recorded v0.4.0 (2026-10-06) with its breaking changes (new sandboxes isolated by default on hvi and Linux, host-kernel shims refused, exit 7 for unenforceable properties), corrected the Linux egress-enforcement caution against the current security docs (enforced in nftables), and refreshed counts (211 stars).
 - 2026-10-11 - Corrected the prerelease window (channel-main builds end at the 0.4.1 cuts of 2026-10-08, none since) and refreshed counts (226 stars).
+- 2026-10-17 - Recorded v0.4.1 (2026-10-16, the runtime bundle pinned at rc17, the remote-and-Kubernetes non-goals reopened in the docs) and the channel-main train resuming on 2026-10-16, and corrected the Bottom line's egress wording (vz and qemu lack enforcement; Linux enforces in nftables since v0.4.0, as the Cautions already state).
 
 ## See also
 

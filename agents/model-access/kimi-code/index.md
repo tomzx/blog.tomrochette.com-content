@@ -1,7 +1,7 @@
 ---
 title: Kimi Code
 created: 2026-09-26
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, moonshot-ai, pricing]
 readability: 3
@@ -75,6 +75,7 @@ I will claim something arguable: the ¥49 China-market ladder proves this produc
 - 2026-10-14 - Both ladders re-verified unchanged two days after the rename, and the pay-per-token API listing for kimi-k3 recorded in the references for the first time (InferenceNet $0.73/$10.00, Wafer $0.72/$24.00, Morph $0.75/$14.90, official $3/$15), with the day-by-day API price history kept in the harnesses note.
 - 2026-10-14 - Re-recorded the pay-per-token reference after the listing churned within the day: the main listing moved to $0.70/$15.00 (cache reads $0.32) and the endpoint floor to $0.56/$14.00 on Relace, with InferenceNet matching the main listing; the move-by-move history stays in the harnesses note.
 - 2026-10-16 - Re-recorded the pay-per-token reference after the listing's fifteenth recorded move: the main listing closed the day at $0.304/$11.936 (cache reads $0.21) after the output leg rose intraday from an earlier $11.588 reading, with InferenceNet matching, Relace's endpoint at $0.35/$14.00, Morph at $1.00/$14.90, and Wafer's two endpoints at $0.294/$28.00 and $0.36/$17.50; the move-by-move history stays in the harnesses note.
+- 2026-10-17 - Re-recorded the pay-per-token reference after the listing churned again within the day: the main listing held at $0.304/$11.936 (cache reads $0.21) on InferenceNet, the input floor moved to Relace at $0.27/$14.23 (cache reads $0.05), and Sail Research's new fp4 endpoint took the output floor at $0.504/$8.10 as the roster widened to 26 endpoints; the move-by-move history stays in the harnesses note.
 
 ## See also
 
@@ -92,4 +93,4 @@ I will claim something arguable: the ¥49 China-market ladder proves this produc
 - https://www.digitalapplied.com/blog/kimi-code-k3-hands-on-setup-plans-cache-2026 - July 17, 2026 snapshot of listed vs promo prices and the separation banner.
 - https://aihackers.net/value/deals/kimi-haggle/ - documented February 2026 first-month offers of $0.99 to $11.99, marked historical.
 - https://www.noemititarenco.com/blog/kimi-code-plan-after-4-months-of-use-honest-review/ - skeptical four-month user review and cancellation rationale.
-- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - the pay-per-token API listing for the K3 model the ladder gates: main listing $0.304/$11.936 per million tokens (cache reads $0.21) with InferenceNet matching it, the cheapest input endpoint at $0.294/$28.00 on Wafer (its US endpoint $0.36/$17.50), Relace at $0.35/$14.00, Morph at $1.00/$14.90, Sail Research at $0.84/$13.50, and Moonshot's own endpoint at $3/$15 (fetched 2026-10-16; the per-move history of this churning listing is tracked in the harnesses note for the CLI).
+- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - the pay-per-token API listing for the K3 model the ladder gates, now 26 endpoints: main listing $0.304/$11.936 per million tokens (cache reads $0.21) on InferenceNet, cheapest input $0.27/$14.23 on Relace (cache reads $0.05), cheapest output $0.504/$8.10 on Sail Research's fp4 endpoint, Morph at $0.30/$14.90 (fp8), Wafer at $0.28/$24.00 and $0.50/$14.90, and Moonshot's own endpoint at $3/$15 (fetched 2026-10-17; the per-move history of this churning listing is tracked in the harnesses note for the CLI).

@@ -1,7 +1,7 @@
 ---
 title: OpenSandbox
 created: 2026-09-16
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, kubernetes]
 readability: 3
@@ -22,8 +22,9 @@ An ingress gateway with per-sandbox egress controls handles network policy, a Cr
 ## Status
 
 **Very active and exceptionally fast-growing for a nine-month-old repo, with traction that is vendor-driven rather than organic Hacker News adoption.**
-15,883 stars and 1,472 forks as of 2026-10-16, repo created 2025-12-17, pushed 2026-10-16, on a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM, with latest stable release 1.1.1 on 2026-10-09, the stable cut of the patch line the 1.1.1-rc.1 prerelease of 2026-09-28 opened.
+15,883 stars and 1,472 forks as of 2026-10-16, repo created 2025-12-17, pushed 2026-10-17 as of 2026-10-17, on a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM, with latest stable release 1.1.1 on 2026-10-09, the stable cut of the patch line the 1.1.1-rc.1 prerelease of 2026-09-28 opened.
 The 1.1.1 cut fixes the broken 1.1.0 opensandbox-server wheel (the committed FastPath gRPC stubs now ship in the package, and PyPI is immutable so the fix lives on this line) and adds identity-bound filesystem operations across all five SDKs, multi-tenant isolation in a shared Kubernetes namespace, a typed upstream-proxy egress configuration, and pause/resume bridged to the kubernetes-sigs/agent-sandbox CRD's operating mode.
+The 1.2.0 line opened with release-1.2.0-rc.1 on 2026-10-15, carrying OSEP-0024 auto-pause and wake-on-access for fast sandboxes end to end (the opt-in lifecycle.idlePolicy field, the server-side idle sweeper, and the SDK wake-retry contract), an opt-in experimental egress-sidecar revision with live credential-bound Vault admission, an SDK fix that stops capping file transfers at the 30-second request timeout, and a first optional web console slice; SDK and CLI packages publish only at the stable bump.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=opensandbox-group/OpenSandbox&type=date&theme=dark&legend=top-left" />
@@ -72,6 +73,7 @@ Not for anyone who needs hardened isolation by default, an independently audited
 - 2026-10-02 - Recorded the 1.1.1-rc.1 prerelease (2026-09-28), cut to fix the broken 1.1.0 opensandbox-server wheel on PyPI, added that fact to Cautions, and refreshed growth (15,641 stars, 1,443 forks, pushed 2026-10-01).
 - 2026-10-07 - Added the opensandbox-group/OpenSandbox star history chart to the Status section.
 - 2026-10-10 - Recorded the stable 1.1.1 cut of 2026-10-09 (the wheel fix shipped, identity-bound filesystem operations in all five SDKs, multi-tenant namespace isolation, typed upstream-proxy config, and pause/resume bridged to the agent-sandbox CRD), and refreshed counts (15,768 stars, 1,451 forks, pushed 2026-10-10).
+- 2026-10-17 - Recorded release-1.2.0-rc.1 (2026-10-15, OSEP-0024 auto-pause and wake-on-access end to end, the experimental egress-sidecar revision with credential-bound Vault admission, the file-transfer timeout fix, and the first web console slice; rotation re-verification, every cited URL re-fetched).
 
 ## See also
 
@@ -87,6 +89,7 @@ Not for anyone who needs hardened isolation by default, an independently audited
 - https://api.github.com/repos/opensandbox-group/OpenSandbox - stars, forks, license, creation and push dates as of 2026-09-25
 - https://api.github.com/repos/opensandbox-group/OpenSandbox/releases/latest - the latest stable release record, now the 1.1.1 cut of 2026-10-09
 - https://api.github.com/repos/opensandbox-group/OpenSandbox/releases/tags/release-1.1.1 - the 1.1.1 release notes: the wheel fix and the server and SDK changes
+- https://api.github.com/repos/opensandbox-group/OpenSandbox/releases/tags/release-1.2.0-rc.1 - the 1.2.0-rc.1 release notes: OSEP-0024 auto-pause, the egress-sidecar revision, and the SDK timeout fix
 - https://raw.githubusercontent.com/opensandbox-group/OpenSandbox/main/docs/guides/secure-container.md - the runc default plus gVisor, Kata, Firecracker, and Cloud Hypervisor runtimes
 - https://open-sandbox.ai - the live project site
 - https://hn.algolia.com/api/v1/items/47464648 - chenhunghan's local-sandbox comparison rating OpenSandbox container yes, VM no, network yes (March 2026)

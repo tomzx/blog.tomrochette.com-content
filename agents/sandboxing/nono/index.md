@@ -1,7 +1,7 @@
 ---
 title: nono
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, kernel, open-source]
 readability: 3
@@ -28,8 +28,8 @@ Fast-growing with no Hacker News help: 4,519 stars, 249 open issues and PRs, pus
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&legend=top-left" />
 </picture>
 
 The release train is active and pre-1.0: v0.77.0 on 2026-09-11, v0.78.0 on 2026-09-16, v0.79.0 on 2026-09-30, and v0.80.0 on 2026-10-13 (SHA-256 executable pinning in command policies, per-command aws_auth, command-level macOS keychain grants, and NEPs for a Windows enforcement backend and for invocation-scoped commands), with the README carrying an APIs-are-stabilizing note ahead of a 1.0.
@@ -68,6 +68,7 @@ Not for anyone who needs VM-grade boundaries today or an externally audited 1.0.
 
 - 2026-10-07 - Created from the entrant-resolution run, profiling the Sigstore team's per-command sandbox broker with its credential proxy and the no-HN-growth finding.
 - 2026-10-13 - Recorded v0.80.0 (2026-10-13, SHA-256 executable pinning in command policies, per-command aws_auth, command-level macOS keychain grants, and NEPs for a Windows enforcement backend and invocation-scoped commands), with counts refreshed (4,481 stars, pushed 2026-10-13).
+- 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (push of 2026-10-16 checked: no release since v0.80.0, nothing material).
 
 ## See also
 

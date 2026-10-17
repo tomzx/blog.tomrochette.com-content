@@ -1,7 +1,7 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 
 ## Status
 
-Growing absurdly fast for its age: 126,981 stars as of 2026-10-16 and 2,324 commits in about six months since 2026-04-03, latest release v0.9.91 on 2026-10-14, with 317 contributors as of 2026-10-10.
+Growing absurdly fast for its age: 126,981 stars as of 2026-10-16 and 2,324 commits in about six months since 2026-04-03, latest release v0.9.92 on 2026-10-16, with 317 contributors as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Graphify-Labs/graphify&type=date&theme=dark&legend=top-left" />
@@ -101,6 +101,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - 2026-10-11 - Recorded release v0.9.85 (October 10) and refreshed the volatile numbers (125,367 stars, 1,542 open issues and PRs); hosted plans re-verified unchanged against the live pricing page and the full plan index.
 - 2026-10-12 - Recorded release v0.9.86 (October 11) and refreshed the volatile numbers (125,646 stars); hosted plans re-verified unchanged against the live pricing page.
 - 2026-10-13 - Recorded releases v0.9.87 and v0.9.88 (both October 12) and refreshed the volatile numbers (125,962 stars, 2,324 commits, 1,493 open issues and PRs); hosted plans re-verified unchanged against the live pricing page.
+- 2026-10-17 - Recorded release v0.9.92 (2026-10-16, twenty-three community pull requests across call-resolution and skill fixes, with the AST cache schema bumped so the first build after upgrading re-extracts); hosted plans unchanged.
 
 ## See also
 

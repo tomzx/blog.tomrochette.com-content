@@ -1,7 +1,7 @@
 ---
 title: Greywall
 created: 2026-10-08
-updated: 2026-10-13
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -27,8 +27,8 @@ Launched in March 2026 and quiet since: 309 stars, 37 forks, 26 open issues as o
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=GreyhavenHQ/greywall&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=GreyhavenHQ/greywall&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=GreyhavenHQ/greywall&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=GreyhavenHQ/greywall&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=GreyhavenHQ/greywall&type=date&legend=top-left" />
 </picture>
 
 **The launch got no help from Hacker News: a 7-point Show HN on 2026-03-13, a 1-pointer and a 3-point greyscan submission four days later, and one independent review since.**
@@ -73,6 +73,7 @@ Not for containing actively malicious code (its own docs say so), and not as the
 - 2026-10-11 - Quiet window extended to fifty-nine days (last push still 2026-08-13); stars, forks, and issues unchanged.
 - 2026-10-12 - Quiet window extended to sixty days (last push still 2026-08-13); stars, forks, and issues unchanged.
 - 2026-10-13 - Quiet window extended to sixty-one days (last push still 2026-08-13); stars, forks, and issues unchanged.
+- 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (the 2026-10-17 activity checked: a pull request and an issue, no commits to main, so the quiet-since-August reading holds).
 
 ## See also
 

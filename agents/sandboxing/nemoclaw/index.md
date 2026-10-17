@@ -1,7 +1,7 @@
 ---
 title: NemoClaw
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, nvidia, openclaw, hermes, deep-agents, open-source]
 readability: 3
@@ -28,8 +28,8 @@ Large and fast for an alpha: 22,754 stars, 3,142 forks, 796 open issues and PRs 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&legend=top-left" />
 </picture>
 
 The launch carried it: a 385-point, 261-comment Hacker News thread on 2026-03-18, with the announcement submission the day before at 18 points.
@@ -70,6 +70,7 @@ Not for production-critical assistants while the project declares alpha, or for 
 
 - 2026-10-07 - Created from the daily-refresh entrant resolution, profiling NVIDIA's OpenShell reference stack with its blueprint hardening, managed-inference credential custody, and the single-prerelease release story.
 - 2026-10-12 - Clarified the release story against the tag list (138 git tags, mostly an orphaned v0.0.x line from the May 2026 history rewrite, versus exactly one published release) and refreshed counts (22,719 stars, 760 open issues and PRs, pushed 2026-10-12).
+- 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (push of 2026-10-17 checked: still prerelease-only, nothing material).
 
 ## See also
 
