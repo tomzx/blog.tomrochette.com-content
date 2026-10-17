@@ -1,7 +1,7 @@
 ---
 title: Amp
 created: 2026-08-22
-updated: 2026-10-11
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, remote-execution, developer-tools]
 readability: 3
@@ -28,6 +28,7 @@ Amp was built inside Sourcegraph, was made free in October 2025, launched subscr
 Shipping cadence in August and September 2026 is weekly (voice control via Puck and an iOS and macOS app in late August, a desktop orb client and Fable 5.1 powering ultra in early September, a customizable Dial and sooner steering on September 8-10, runners that serve many directories on September 17, runner-created worktrees and workspace-shared runners on September 22-24, and the Mac app acting as a runner on September 24, as of 2026-09-26).
 On September 13, 2026 the [Free Agent announcement](https://ampcode.com/news/free-agent) made Amp free to use with your own compute, subscriptions, or keys, removed BYOK token fees for everyone outside Enterprise, and opened early access to nine more BYOK providers (OpenRouter, Bedrock, Google Cloud Agent Platform, Azure Foundry, Vercel AI Gateway, Cloudflare AI Gateway, Ollama Cloud, OpenCode Go, custom endpoints).
 The cadence ran through September's end and into October: Opus 5.5 took over the medium setting on September 28, Plaid Speed claimed 6x faster inference for GPT-6 Astra on September 29, multiple separate Puck conversations arrived on October 6, and on October 10 the [Use Your Claude Plan announcement](https://ampcode.com/news/use-your-claude-plan) made Claude Pro and Max plans usable in Amp for everyone at no extra cost, a mode that runs the Claude Agent SDK under the hood rather than Amp's own agent ([news index](https://ampcode.com/news)), the newest items as of 2026-10-10, with the pricing page re-verified unchanged on 2026-10-11.
+October's train has kept running since: Amp now follows up on your GitHub pull requests and orders files intelligently for faster reviews (both October 12), Puck works in other agents via MCP (October 13), and a runner's macOS desktop is visible and usable from your session (October 16), the newest items as of 2026-10-17.
 
 ## Strengths
 
@@ -85,6 +86,7 @@ Not for open-source-only teams or anyone metering their own tokens.
 - 2026-10-02 - Recorded the September 28-29 news (Opus 5.5 powering medium, Plaid Speed 6x inference for GPT-6 Astra) and re-verified the pricing page unchanged.
 - 2026-10-08 - Recorded the October 6 Many, Many Pucks news (multiple separate Puck conversations), re-verified the pricing page unchanged, and moved the newest-item as-of date.
 - 2026-10-10 - Recorded the October 10 Use Your Claude Plan announcement, which made Claude Pro and Max plans usable in Amp for everyone at no extra cost through a mode running the Claude Agent SDK under the hood.
+- 2026-10-17 - Recorded the October 12-16 news: GitHub pull-request follow-ups, Jev-powered intelligent file ordering, Puck in other agents via MCP, and runner desktop viewing, and moved the newest-item as-of date.
 
 ## See also
 
@@ -95,7 +97,7 @@ Not for open-source-only teams or anyone metering their own tokens.
 
 ## References
 
-- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-10-04
+- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-10-17
 - https://ampcode.com/pricing/ - Hobby, Megawatt, Gigawatt, teams, enterprise, linked subscriptions, as of 2026-10-11 (re-verified unchanged)
 - https://ampcode.com/news/free-agent - the September 13, 2026 free-with-your-own-compute and expanded-BYOK announcement
 - https://ampcode.com/news/use-your-claude-plan - the October 10, 2026 Claude Plan mode announcement and its Claude Agent SDK note

@@ -1,7 +1,7 @@
 ---
 title: OpenAI Structured Outputs
 created: 2026-08-24
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, openai, json-schema]
 readability: 3
@@ -19,7 +19,7 @@ OpenAI Structured Outputs is an API capability that guarantees model responses a
 
 **Two API surfaces expose the same constraint mechanism.**
 You can pass `text.format` with `type: json_schema` and `strict: true` on the Responses API (or `response_format` on Chat Completions) to structure the model's reply, or you can set `strict: true` on function and tool definitions to guarantee tool-call arguments match their schemas.
-The SDKs wrap both with Pydantic (Python) and Zod (TypeScript) helpers, so `client.responses.parse()` returns a typed, parsed object directly.
+The SDKs wrap both with typed parse helpers (Pydantic for Python, Zod for TypeScript, Sorbet `T::Struct` for the Ruby SDK), so `client.responses.parse()` returns a typed, parsed object directly.
 The feature shipped in August 2024 with gpt-4o-2024-08-06 and later models; the older JSON mode (`json_object`) only guarantees valid JSON, not schema adherence, and the docs recommend Structured Outputs over it wherever possible.
 
 ## Status
@@ -76,6 +76,7 @@ Not for schemas that genuinely need numeric ranges, pervasive optional keys, or 
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-26 - The pricing example moved from gpt-5.6-luna, delisted from the pricing page, to gpt-6-luna at $0.10/$0.50 per 1M input/output (standard tier); the no-surcharge rule and the Batch discount are unchanged.
 - 2026-10-06 - Recorded the DevDay 2026 Decisions API announcement (2026-09-29, limited preview, GPT-6 Luna variant, about 150 ms per decision), the vendor's entry into the bounded-decision space; pricing example re-verified unchanged on the pricing page.
+- 2026-10-17 - Full re-verification: all six references re-fetched and live; noted the guide's new Ruby SDK Sorbet schema helper, canonicalized the Anthropic docs reference to platform.claude.com, and re-verified the gpt-6-luna pricing example unchanged at $0.10/$0.50 (Batch still half price).
 
 ## See also
 
@@ -87,9 +88,9 @@ Not for schemas that genuinely need numeric ranges, pervasive optional keys, or 
 
 ## References
 
-- https://developers.openai.com/api/docs/guides/structured-outputs - primary guide: strict mode, text.format vs function calling, JSON mode comparison, model support (canonical after the platform.openai.com move; verified 200 on 2026-10-15)
-- https://cookbook.openai.com/examples/structured_outputs_intro - official cookbook: refusal handling and the Pydantic parse helper (fetched 200, 2026-10-15)
-- https://platform.openai.com/docs/pricing - per-model token rates, no structured-outputs surcharge, batch discounts (fetched 2026-10-06 and re-fetched at the developers.openai.com canonical URL 2026-10-07; gpt-6-luna example re-verified unchanged at $0.10/$0.50 on the pricing page 2026-10-15)
-- https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/ - the DevDay 2026 report grounding the Decisions API announcement line (fetched 2026-10-06, re-fetched 200 2026-10-15)
-- https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent launch analysis with schema-subset limits and OpenAI staff quotes on latency and loop failures (fetched 200, 2026-10-15)
-- https://docs.claude.com/en/docs/build-with-claude/structured-outputs - cross-vendor comparison point for mechanism and schema limits (fetched 200, 2026-10-15)
+- https://developers.openai.com/api/docs/guides/structured-outputs - primary guide: strict mode, text.format vs function calling, JSON mode comparison, model support (canonical after the platform.openai.com move; verified 200 on 2026-10-17)
+- https://cookbook.openai.com/examples/structured_outputs_intro - official cookbook: refusal handling and the Pydantic parse helper (fetched 200, 2026-10-17)
+- https://platform.openai.com/docs/pricing - per-model token rates, no structured-outputs surcharge, batch discounts (fetched 2026-10-06 and re-fetched at the developers.openai.com canonical URL 2026-10-07; gpt-6-luna example re-verified unchanged at $0.10/$0.50 on the pricing page 2026-10-17)
+- https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/ - the DevDay 2026 report grounding the Decisions API announcement line (fetched 2026-10-06, re-fetched 200 2026-10-17)
+- https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent launch analysis with schema-subset limits and OpenAI staff quotes on latency and loop failures (fetched 200, 2026-10-17)
+- https://platform.claude.com/docs/en/build-with-claude/structured-outputs - cross-vendor comparison point for mechanism and schema limits (canonical after the docs.claude.com move; fetched 200, 2026-10-17)

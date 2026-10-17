@@ -1,7 +1,7 @@
 ---
 title: Multica
 created: 2026-09-27
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, self-hosted, issue-tracking, agents-as-teammates]
 readability: 3
@@ -23,7 +23,7 @@ It self-describes as supporting 26 agent CLIs (Claude Code, Codex, Cursor, Copil
 
 ## Status
 
-Actively shipped and unusually high-profile: about 52,857 stars and 6,913 forks as of 2026-10-15, created 2026-01-13, with 1,873 open issues and pull requests and a latest release of v0.6.2 on 2026-10-13 (GitHub API, as of 2026-10-15).
+Actively shipped and unusually high-profile: about 52,857 stars and 6,913 forks as of 2026-10-15, created 2026-01-13, with 1,873 open issues and pull requests and a latest release of v0.6.3 on 2026-10-16 (GitHub API, as of 2026-10-17), which added project-workflow columns and handoffs and fixed Git-content preservation during artifact cleanup.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=multica-ai/multica&type=date&theme=dark&legend=top-left" />

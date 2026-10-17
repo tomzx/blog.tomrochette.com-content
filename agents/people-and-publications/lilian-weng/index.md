@@ -1,7 +1,7 @@
 ---
 title: Lilian Weng (Lil'Log)
 created: 2026-08-29
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, research, agents, reference]
 readability: 3
@@ -70,6 +70,7 @@ Not for practitioners who want current tooling guidance or a daily feed.
 - 2026-08-29 - Created as the durable research-reference band of the people and publications category expansion.
 - 2026-09-13 - Documented the 2026 cadence with the second post of the year, "Scaling Laws, Carefully" (2026-06-24).
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-10-17 - Rotation re-verification, every cited URL re-fetched and all live: the homepage still ends at "Harness Engineering for Self-Improvement" (2026-07-04), so the two-2026-posts cadence and every dated claim hold unchanged.
 
 ## See also
 

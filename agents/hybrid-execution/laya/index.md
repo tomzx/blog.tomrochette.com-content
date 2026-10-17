@@ -1,7 +1,7 @@
 ---
 title: Laya
 created: 2026-09-21
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, multilingual]
 readability: 3
@@ -18,12 +18,12 @@ Laya is an Apache-2.0 family of open-weights "System 1" decision models from Con
 
 Three checkpoints on Hugging Face under the convaiinnovations org: `laya` (ModernBERT-large, 421M parameters, 512-token context, English), `laya-multilingual` (mmBERT-base, 322M parameters, 1024-token context, 100+ languages), and `laya-typed-decisions` (421M, 1024 context, the Jev-style workflows), plus a built-in Router that detects language in sub-milliseconds and dispatches each request to the right checkpoint.
 The question vocabulary mirrors Jev's primitives: `choice` over enumerated criteria, `score` against a rubric, and `noul`, a 0-1 truth value, all answered with calibrated probabilities in one non-autoregressive pass.
-Training uses reinforcement learning against strictly proper scoring rules, the method both this lab and TypeSafe call RLCD, and the models ship as a `pip install laya` package (0.4.7 as of 2026-10-15, after 0.4.6's router batch-path guard and ONNX load contract, 0.4.5's TypeScript fixes matching the multilingual routing default and clearing a stale low-confidence marker at min_confidence 0.0 plus a ragged-pool calibration fix, 0.4.4's CLI sort-note and batch-control and marker fixes, 0.4.3's TypeScript confidence-contract alignment and elimination-based answering for large choices behind `LAYA_TOURNAMENT_GROUP`, 0.4.2's Compose passthrough of the extra-models and idle-unload and batch-token knobs, and 0.4.1's `LAYA_EXTRA_MODELS` registry for serving your own checkpoints) rather than a hosted API.
+Training uses reinforcement learning against strictly proper scoring rules, the method both this lab and TypeSafe call RLCD, and the models ship as a `pip install laya` package (0.4.9 as of 2026-10-17, after 0.4.8's dependency bumps, 0.4.7's TypeScript act_probability normalization and option_order permutation contract, 0.4.6's router batch-path guard and ONNX load contract, 0.4.5's TypeScript fixes matching the multilingual routing default and clearing a stale low-confidence marker at min_confidence 0.0 plus a ragged-pool calibration fix, 0.4.4's CLI sort-note and batch-control and marker fixes, 0.4.3's TypeScript confidence-contract alignment and elimination-based answering for large choices behind `LAYA_TOURNAMENT_GROUP`, 0.4.2's Compose passthrough of the extra-models and idle-unload and batch-token knobs, and 0.4.1's `LAYA_EXTRA_MODELS` registry for serving your own checkpoints; 0.4.9 itself refuses an eval tolerance that cannot fail its gate, a boolean abstention target, and boolean-control door collapses) rather than a hosted API.
 Community runtimes extend it past PyTorch: laya-mlx reports 7-14 ms decisions on an M3 Max, and a CoreML port runs offline on Apple Neural Engine.
 
 ## Status
 
-Twenty-seven days old and compounding fast, as of 2026-10-15.
+Twenty-nine days old and compounding fast, as of 2026-10-17.
 The main repository was created 2026-09-18 and shows 32,957 stars, laya-mlx about 6,900 since 2026-09-19, with a CoreML port, third-party demo endpoints, and roughly ten community quantizations appearing within days.
 
 <picture>
@@ -88,6 +88,7 @@ The disagreeable claim I will defend: the priority fight is the least interestin
 - 2026-10-12 - Recorded the 0.4.3 and 0.4.4 packages (2026-10-11 and 10-12): 0.4.3 aligns the TypeScript confidence contract with the HTTP responses and adds elimination-based answering for large choices behind `LAYA_TOURNAMENT_GROUP`, and 0.4.4 fixes the CLI's per-checkpoint-group sort note, the MCP batch-control drop, and a stale low-confidence marker; refreshed stars to 32,424 and the HF card to 5,504 likes.
 - 2026-10-13 - Recorded the 0.4.5 and 0.4.6 packages (both 2026-10-12): 0.4.5 matches the TypeScript client's multilingual routing default to the server's, clears a stale low-confidence marker at min_confidence 0.0, and keeps a ragged calibration pool's fit from vanishing into 1.0, and 0.4.6 guards the router's batch path against a None state and makes ONNX-backend `load()` return a documented ONNXAgent; refreshed stars to 32,622.
 - 2026-10-15 - Recorded the 0.4.7 package (2026-10-14): the TypeScript port's `act_probability` is normalized the way Python's is (the port softmaxed the action row a second time), `option_order` is honored end to end as a validated permutation, temperature parsing and email-body Unicode cleanup match Python's semantics, calibration diagnostics report clamped values instead of silently accepting a `true` temperature, version-1.9 calibration JSON is refused rather than truncated, and large choices gained two more tournament routes; refreshed stars to 32,957.
+- 2026-10-17 - Recorded the 0.4.8 and 0.4.9 packages (2026-10-15 and 10-17): 0.4.8 is a dependency-and-chore pass, and 0.4.9 refuses an eval tolerance that cannot fail its gate, a boolean `target_error` in abstention-threshold fitting, and boolean-control door collapses, and qualifies a Windows bf16 CPU autocast fault in CI.
 
 ## See also
 

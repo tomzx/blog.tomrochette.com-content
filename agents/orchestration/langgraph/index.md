@@ -1,7 +1,7 @@
 ---
 title: LangGraph
 created: 2026-10-06
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-framework, graph-runtime, durable-execution, python, typescript]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 LangGraph is LangChain's MIT-licensed, low-level orchestration runtime for building stateful agents as graphs, with durable execution, streaming, human-in-the-loop interrupts, and persistence as the core primitives.
 
-**LangGraph is the most-installed orchestration option in this category at 4.55 million npm downloads a week, and the least orchestration-like: it hands you a state machine instead of a team, and its own documentation treats LangSmith, the commercial layer, as the place where a serious deployment ends up.**
+**LangGraph is the most-installed orchestration option in this category at about 3.7 million npm downloads a week, and the least orchestration-like: it hands you a state machine instead of a team, and its own documentation treats LangSmith, the commercial layer, as the place where a serious deployment ends up.**
 
 ## What it is
 
@@ -31,8 +31,8 @@ Active and enormous: 43,293 stars, 7,364 forks, and 100+ contributors as of 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=langchain-ai/langgraph&type=date&legend=top-left" />
 </picture>
 
-Release 1.2.15 shipped 2026-10-12 on GitHub and PyPI alike after 1.2.14 (2026-10-06), continuing a 1.2.x line that has run all year.
-npm `@langchain/langgraph` served 3,725,541 downloads in the week ending 2026-10-07, down from 4,552,953 the week before, 3,765,811 in the week ending 2026-10-08, 3,789,072 in the week ending 2026-10-09, 3,802,787 in the week ending 2026-10-10, and 3,795,517 in the week ending 2026-10-11, so the dip held roughly flat rather than deepening (npm API, as of 2026-10-13).
+Release 1.2.16 shipped 2026-10-16 on GitHub and PyPI alike after 1.2.15 (2026-10-12), continuing a 1.2.x line that has run all year.
+npm `@langchain/langgraph` served 3,725,541 downloads in the week ending 2026-10-07, down from 4,552,953 the week before, 3,765,811 in the week ending 2026-10-08, 3,789,072 in the week ending 2026-10-09, 3,802,787 in the week ending 2026-10-10, 3,795,517 in the week ending 2026-10-11, and 3,741,572 in the week ending 2026-10-12, so the dip held roughly flat in the 3.7 to 3.8 million band rather than deepening (npm API, as of 2026-10-17).
 **For scale: that is more weekly installs than any other column in this matrix by a wide margin, and probably more than the rest of the table combined.**
 
 ## Strengths

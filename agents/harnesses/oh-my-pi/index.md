@@ -1,7 +1,7 @@
 ---
 title: Oh My Pi
 created: 2026-10-10
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, lsp, fork]
 readability: 3
@@ -21,7 +21,7 @@ The hook is the name of the design: everything your IDE knows, the agent knows.
 ## Status
 
 Very active and past its parent in stars: 35,472 stars and 3,876 forks as of 2026-10-15 (GitHub API), on a repository created 2025-12-31 and pushed the day of verification.
-The npm latest is 18.11.0 (published 2026-10-14), and the changelog logs a near-daily train with pull requests numbered past 15,000: 18.9.0 through 18.9.2 landed October 11 (fixes across apply_patch, local-model discovery, and fork spending inheritance), 18.10.0 landed October 12 (a `/fork` that opens a new Tern pane while a turn streams, `omp session pack`, `unpack`, and `moved` for carrying a session with its artifacts to another machine, `omp auth export` and `import` for model sign-ins, and a native owner-only transport for every local IPC endpoint including Windows named pipes), 18.10.1 followed the same day (a per-answer copy button in Tern), and 18.10.2 and 18.10.3 landed that evening (late tool-update frames from background jobs now reach `onDetachedToolUpdate` subscribers instead of being dropped, and a breaking cleanup removing `estimateImageContentTokens()` in favor of `Tokenizer.imageTokens(size, detail)`).
+The npm latest is 18.11.3 (published 2026-10-16), and the changelog logs a near-daily train with pull requests numbered past 16,000: 18.9.0 through 18.9.2 landed October 11 (fixes across apply_patch, local-model discovery, and fork spending inheritance), 18.10.0 landed October 12 (a `/fork` that opens a new Tern pane while a turn streams, `omp session pack`, `unpack`, and `moved` for carrying a session with its artifacts to another machine, `omp auth export` and `import` for model sign-ins, and a native owner-only transport for every local IPC endpoint including Windows named pipes), 18.10.1 followed the same day (a per-answer copy button in Tern), 18.10.2 and 18.10.3 landed that evening (late tool-update frames from background jobs now reach `onDetachedToolUpdate` subscribers instead of being dropped, and a breaking cleanup removing `estimateImageContentTokens()` in favor of `Tokenizer.imageTokens(size, detail)`), and the 18.11.x train ran October 14 through 16 (18.11.0 added `AgentTool.delegationGuidance` for same-name extension replacements and dropped `ApprovalDetailsOptions` in a breaking cleanup, 18.11.3 tagged queued-message batches with their queue so `prepareQueuedMessages` can tell steering from follow-ups, and the pi-ai JSON Schema dereferencer stopped rewriting literal values in `const`, `enum`, and `default` positions).
 Contribution policy loosened from a vouch requirement to temporarily-open PRs while the maintainers evaluate how open contributions go.
 The Hacker News footprint is modest for the star count: a 42-point launch thread on July 21, 2026, and a 35-point "Harness Playbook" thread in September, which reads as adoption spreading through practitioners rather than through tech-media coverage.
 
@@ -64,6 +64,7 @@ Not for anyone who needs a small core they can fully audit, and not for ToS-caut
 - 2026-10-10 - Created from the awesome-claude-code and GitHub topic scan, admitted as the batteries-included fork counterargument to the Pi column.
 - 2026-10-12 - Recorded the npm train reaching 18.10.1 (October 12) after 18.9.x on October 11, with 18.10.0 adding session pack and unpack across machines, auth export and import, streaming-turn /fork panes, and a native owner-only local IPC transport, and refreshed repository counters.
 - 2026-10-13 - Recorded the npm train reaching 18.10.3 (October 12 evening): 18.10.2 added `onDetachedToolUpdate` so late background tool-update frames reach subscribers, and 18.10.3 removed `estimateImageContentTokens()` in a breaking cleanup in favor of `Tokenizer.imageTokens(size, detail)`, and refreshed repository counters.
+- 2026-10-17 - Recorded the npm train reaching 18.11.3 (October 16): the 18.11.x releases added `AgentTool.delegationGuidance`, broke out `ApprovalDetailsOptions`, tagged queued-message batches by queue in `prepareQueuedMessages`, and fixed the JSON Schema dereferencer rewriting literals in `const` and `enum` positions.
 
 ## See also
 
@@ -77,6 +78,6 @@ Not for anyone who needs a small core they can fully audit, and not for ToS-caut
 - https://omp.sh - the product site, install script, and the "IDE wired in" positioning
 - https://api.github.com/repos/can1357/oh-my-pi - 35,122 stars, 3,822 forks, MIT, created 2025-12-31, pushed 2026-10-12, as of 2026-10-12
 - https://api.github.com/repos/can1357/oh-my-pi/readme - the feature surface: 60-plus providers, LSP and DAP wiring, subagents, advisor, rules-format inheritance, local engines, and the provider list
-- https://raw.githubusercontent.com/can1357/oh-my-pi/main/packages/coding-agent/CHANGELOG.md - the 18.10.x train of October 12 (18.10.0 through 18.10.3), the 18.9.x train of October 11, and the near-daily train behind the Status section
-- https://registry.npmjs.org/@oh-my-pi/pi-coding-agent - npm distribution and the 18.10.3 latest tag
+- https://raw.githubusercontent.com/can1357/oh-my-pi/main/packages/coding-agent/CHANGELOG.md - the 18.11.x train of October 14 through 16, the 18.10.x train of October 12, the 18.9.x train of October 11, and the near-daily train behind the Status section
+- https://registry.npmjs.org/@oh-my-pi/pi-coding-agent - npm distribution and the 18.11.3 latest tag
 - https://hn.algolia.com/api/v1/items/48994611 - the 42-point launch thread, cited for the OAuth terms-of-service caution and the benchmark-rigor skepticism

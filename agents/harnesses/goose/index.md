@@ -1,7 +1,7 @@
 ---
 title: goose
 created: 2026-08-24
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, linux-foundation]
 readability: 3
@@ -25,7 +25,7 @@ It talks to 15+ providers (Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure,
 ## Status
 
 **Active and foundation-governed.**
-The repository (moved from Block's org to `aaif-goose/goose`) shows about 55.3k stars as of 2026-10-15 and was last pushed on the day of verification.
+The repository (moved from Block's org to `aaif-goose/goose`) shows about 55.3k stars as of 2026-10-15, was last pushed on the day of this re-verification, and ships a steady train: v1.54.0 (October 8, 2026) and v1.55.0 (October 16, 2026, adding a declarative AIgateway provider, W3C trace-context propagation from ACP prompts into MCP tool calls, live OpenAI model metadata with a Responses API preference, and a 225k-token default cap on auto-compaction).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aaif-goose/goose&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ Not for teams that want a coding-specialized harness or a single vendor's suppor
 - 2026-08-27 - Canonicalized the aaif.io formation-announcement reference.
 - 2026-09-16 - Refreshed repository scale to about 54.3k stars.
 - 2026-10-07 - Added the aaif-goose/goose star history chart to the Status section.
+- 2026-10-17 - Recorded the v1.54.0 and v1.55.0 releases (October 8 and 16), the latter adding a declarative AIgateway provider, ACP-to-MCP trace-context propagation, a Responses API preference, and the 225k auto-compaction cap, and re-fetched every cited reference in the rotation pass.
 
 ## See also
 

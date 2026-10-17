@@ -1,7 +1,7 @@
 ---
 title: Atomic Agents
 created: 2026-10-07
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, python-framework]
 readability: 3
@@ -16,14 +16,15 @@ Atomic Agents is the MIT Python framework that assembles agents, tools, and cont
 
 ## What it is
 
-A pip-installable Python framework by Kenny Vaneetvelde and Eigenwise, MIT licensed, with Sphinx documentation, a cookbook, and an Atomic Assembler CLI that downloads community tools (6,283 stars, pushed 2026-10-14, as of 2026-10-15).
+A pip-installable Python framework by Kenny Vaneetvelde and Eigenwise, MIT licensed, with Sphinx documentation, a cookbook, and an Atomic Assembler CLI that downloads community tools (6,283 stars as of 2026-10-15, pushed 2026-10-15).
 Components are single-purpose and composable: an `AtomicAgent` is generic over its input and output schemas, chat history and context providers are injected, and providers arrive through Instructor's integrations (OpenAI, Anthropic, Groq, Gemini, Ollama for local models).
 All control flow is plain Python, deliberately: no graphs, no runtime DSL, the framework's stated bet being that familiar software-engineering practice beats orchestration frameworks for most pipelines.
 Example projects ship for RAG chatbots, web search, deep research, orchestration agents, and MCP, and a Reddit community (r/AtomicAgents) has grown around the framework.
 
 ## Status
 
-Active: created 2024-06-03, 6,283 stars, release v2.10.3 published 2026-09-27, PyPI package at 2.10.3, as of 2026-10-15.
+Active: created 2024-06-03, 6,283 stars as of 2026-10-15, v2.11.0 and v2.12.0 both released 2026-10-15, PyPI at 2.12.0, as of 2026-10-17.
+The 2.11.0 release added an optional OpenInference instrumentor (`atomic-agents[observability]`) that emits AGENT and TOOL spans for Arize Phoenix, and 2.12.0 hardened the MCP surface (tool pagination, schema-reference resolution, error-result propagation) alongside new Firecrawl Search and FXMacroData tools.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Eigenwise/atomic-agents&type=date&theme=dark&legend=top-left" />
@@ -67,6 +68,7 @@ Not for anyone who can stay on one provider's native strict mode, and not for gu
 ## Changes
 
 - 2026-10-07 - Created.
+- 2026-10-17 - Volatile re-verification after the 2026-10-15 pushes: recorded the same-day v2.11.0 (Arize Phoenix / OpenInference tracing, an observability extra with a new docs guide and example) and v2.12.0 (MCP hardening plus Firecrawl Search and FXMacroData tools) releases, PyPI now at 2.12.0, repository pushed 2026-10-15.
 
 ## See also
 
@@ -77,8 +79,8 @@ Not for anyone who can stay on one provider's native strict mode, and not for gu
 
 ## References
 
-- https://github.com/Eigenwise/atomic-agents - repository, MIT license, component model, and the Instructor-plus-Pydantic foundation (fetched 200, 2026-10-15)
-- https://api.github.com/repos/Eigenwise/atomic-agents - stars, created date, and push date for the as-of status (fetched 200, 2026-10-15)
-- https://eigenwise.github.io/atomic-agents/ - the framework documentation: schema-bounded components, provider integrations, the Atomic Assembler CLI, and example projects (fetched 200, 2026-10-15)
-- https://pypi.org/pypi/atomic-agents/json - the published package version 2.10.3 (fetched 200, 2026-10-15)
-- https://api.github.com/repos/Eigenwise/atomic-agents/releases - the v2.10.3 release of 2026-09-27 and the release cadence (fetched 200, 2026-10-15)
+- https://github.com/Eigenwise/atomic-agents - repository, MIT license, component model, and the Instructor-plus-Pydantic foundation (fetched 200, 2026-10-17)
+- https://api.github.com/repos/Eigenwise/atomic-agents - stars, created date, and push date for the as-of status (fetched 200, 2026-10-17)
+- https://eigenwise.github.io/atomic-agents/ - the framework documentation: schema-bounded components, provider integrations, the Atomic Assembler CLI, and example projects (fetched 200, 2026-10-17)
+- https://pypi.org/pypi/atomic-agents/json - the published package version 2.12.0 (fetched 200, 2026-10-17)
+- https://api.github.com/repos/Eigenwise/atomic-agents/releases - the v2.11.0 and v2.12.0 releases of 2026-10-15 and the release cadence (fetched 200, 2026-10-17)

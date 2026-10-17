@@ -1,7 +1,7 @@
 ---
 title: Agent Swarm
 created: 2026-10-02
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, lead-worker, docker, slack, multi-agent]
 readability: 3
@@ -23,7 +23,7 @@ Around that core it layers a dashboard UI, DAG workflows with human-in-the-loop 
 
 ## Status
 
-Active and shipping fast: 885 stars as of 2026-10-15, created 2025-12-19, with the default branch pushed that day and v1.173.0 published 2026-10-15, a day after v1.172.0 and two days after v1.171.1 (2026-10-13) (GitHub API, releases, as of 2026-10-15).
+Active and shipping fast: 885 stars as of 2026-10-15, created 2025-12-19, daily releases through v1.173.0 (2026-10-15, a day after v1.172.0 and two after v1.171.1), then a version-line reset: v2.0.0 landed 2026-10-16 and v2.1.0 2026-10-17, a jump to a v2 major one day after the v1.173.0 tag, with the release bodies carrying install tags and no breaking-change notes (GitHub API, releases, as of 2026-10-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=desplega-ai/agent-swarm&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for solo local parallelism (a worktree manager is lighter) or for anyone who
 - 2026-10-08 - Recorded v1.166.0 (October 8) and 867 stars as of 2026-10-08.
 - 2026-10-09 - Recorded v1.167.0 (October 9) and refreshed the star count to 872 as of 2026-10-09.
 - 2026-10-13 - Recorded v1.171.0 and v1.171.1 (2026-10-12 and 2026-10-13) on the release train and refreshed the star count to 878.
+- 2026-10-17 - Recorded the release line's reset to a v2 major (v2.0.0 on October 16, v2.1.0 on October 17) one day after v1.173.0, with no breaking-change notes in the release bodies.
 
 ## See also
 

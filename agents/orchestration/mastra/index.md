@@ -1,7 +1,7 @@
 ---
 title: Mastra
 created: 2026-09-29
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, typescript]
 readability: 3
@@ -22,7 +22,7 @@ The repo sits at 28,829 stars with 2,984 forks, created 2024-08-06; the core is 
 
 ## Status
 
-Active and shipping fast: last push 2026-10-15, `@mastra/core` 1.77.0 published to npm 2026-10-14 (GitHub API, npm, as of 2026-10-15), two releases after 1.75.0 (2026-10-07).
+Active and shipping fast: last push 2026-10-17, `@mastra/core` 1.78.0 published to npm 2026-10-16 (GitHub API, npm, as of 2026-10-17), three releases after 1.75.0 (2026-10-07).
 npm recorded 8,345,899 downloads of `@mastra/core` in the month ending 2026-10-09, the largest install base in this note set (npm API, as of 2026-10-11, after 7,250,377 for the month ending 2026-10-04).
 Funding: $13M seed announced 2025-10-08 from 120+ investors including YC, Paul Graham, Gradient, and Guillermo Rauch, then a $22M Series A led by Spark Capital on 2026-04-09, totaling $35M (mastra.ai blog).
 On 2026-06-16 Mastra disclosed a supply-chain attack that compromised multiple npm packages, with an incident report and fixes.

@@ -1,7 +1,7 @@
 ---
 title: Ollaya
 created: 2026-10-06
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, local-inference, model-hub]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 Ollaya is an Apache-2.0 local runtime and model hub, built in the image of Ollama, that serves twenty-one open decision-model families behind a wire-identical replica of TypeSafe's Jev API.
 
-**The decision-model wave just got its Ollama, and its verification discipline is the strongest the open side of this category has shown: 41,352 answers checked one by one against each author's own code, with the raw data published.**
+**The decision-model wave just got its Ollama, and its verification discipline is the strongest the open side of this category has shown: every shipped model measured on the released runtime and checked answer by answer against its author's own code, with the raw data published.**
 
 ## What it is
 
@@ -24,8 +24,8 @@ It runs on ONNX Runtime over the CPU or an NVIDIA GPU (CUDA 13 or 12, Vulkan), w
 ## Status
 
 **Twenty-two days old, beta, and already the wave's default front door.**
-The repository was created 2026-09-23 and shows 1,313 stars and 79 forks as of 2026-10-15, pushed 2026-10-14.
-The release train moved fast after the launch measurements: v0.9.0 (2026-10-02) packaged Cloudflare's Clef and a CPU fallback for GGUF models, v0.10.0 (2026-10-05) added Hugging Face mirror pulls and a DGX Spark CUDA pack, v0.11.0 (2026-10-06) added Decima's three small multilingual models and image reading for Winnow 12B, v0.12.0 (2026-10-06) shipped Vulkan-on-Windows GGUF support, v0.12.1 (2026-10-09) added a new Credence family (a MiCA refinement of Winnow-E4B), and v0.13.0 (2026-10-13) added Liquid AI's d1 family (a 3B LFM2.5-VL decision model with a vision variant and the library's first revenue-threshold license, the LFM Open License v1.0), moved Decima's agent tag to 2.2, added digest-pinned pulls, and fixed the CUDA idle-pause crash that hit ONNX decoder models, while the site's family count now reads twenty-one and its results page still reports the 0.8.0-era measurements below.
+The repository was created 2026-09-23 and shows 1,313 stars and 79 forks as of 2026-10-15, pushed 2026-10-17.
+The release train moved fast after the launch measurements: v0.9.0 (2026-10-02) packaged Cloudflare's Clef and a CPU fallback for GGUF models, v0.10.0 (2026-10-05) added Hugging Face mirror pulls and a DGX Spark CUDA pack, v0.11.0 (2026-10-06) added Decima's three small multilingual models and image reading for Winnow 12B, v0.12.0 (2026-10-06) shipped Vulkan-on-Windows GGUF support, v0.12.1 (2026-10-09) added a new Credence family (a MiCA refinement of Winnow-E4B), and v0.13.0 (2026-10-13) added Liquid AI's d1 family (a 3B LFM2.5-VL decision model with a vision variant and the library's first revenue-threshold license, the LFM Open License v1.0), moved Decima's agent tag to 2.2, added digest-pinned pulls, and fixed the CUDA idle-pause crash that hit ONNX decoder models, while the site's family count reads twenty-one.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ollaya-dev/ollaya&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ The release train moved fast after the launch measurements: v0.9.0 (2026-10-02) 
 </picture>
 
 The launch Show HN thread (2026-09-25) reached 618 points, the third-largest of the whole Jev wave.
-The results page reports 31 models measured, 73,720 benchmark answers scored against human labels, 41,352 parity checks against the authors' own code, and 2,184 timed requests, with the newest measurement dated 2026-10-06 on three disclosed machines (RTX 5090 and RTX 4090 desktops and an M4 Pro Mac mini) plus contributor-run community benches, under Ollaya 0.8.0.
+The measurement story moved on 2026-10-14: Ollaya Bench (bench.ollaya.dev, Edition 2026.10, built on Ollaya 0.13.0) supersedes the 0.8.0-era results page, scoring 36 models over 14 tasks (13 public datasets plus a 2,000-question typed-decisions set, 5,880 questions per model, now issued over HTTP with memory recorded beside latency) on two disclosed devices (an RTX 5090 and a Threadripper 3960X CPU board), with chance-corrected scores, ECE, median latency, VRAM, and license per model; jeb:27b leads at 67.8 (253 ms, 16.2 GB), jeb:4b is the sub-100-ms pick at 63.9, and the superseded page's 0.8.0-era counters (31 models, 73,720 benchmark answers, 41,352 parity checks) remain its historical record.
 Its head-to-head numbers are self-run but use Bespoke Labs' public benchmark with Ollama on the same GPU: winnow:12b scores 0.773 against Ollama 0.35's best 0.749, and on the same Nimble weights Ollaya reports 5.5x lower calibration error (ECE 0.022 against 0.122) while conceding speed to Ollama's GGUF path (310 ms against 210 ms).
 
 ## Strengths
@@ -77,6 +77,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 - 2026-10-08 - The library grew to nineteen families (decima, snap, and arbiter joining) and the results page moved to 31 models measured, 2,184 timed requests, a newest measurement of 2026-10-06, a third disclosed machine (M4 Pro Mac mini) beside the two desktops, and Ollaya 0.8.0; refreshed stars to 1,239.
 - 2026-10-12 - Recorded the release train v0.9.0 through v0.12.1 (2026-10-02 to 10-09): Clef and a GGUF CPU fallback (0.9.0), Hugging Face mirror pulls and the DGX Spark CUDA pack (0.10.0), Decima's multilingual trio and Winnow 12B image reading (0.11.0), Vulkan-on-Windows GGUF (0.12.0), and the new Credence family (0.12.1), while the site's family count and results page still carry the 0.8.0-era state; refreshed stars to 1,298.
 - 2026-10-13 - Recorded v0.13.0 (2026-10-13): Liquid AI's d1 family joined (a 3B LFM2.5-VL decision model with a vision variant, the library's first revenue-threshold license in the LFM Open License v1.0, and Ollaya's own parity-and-accuracy measurements), Decima's agent tag moved to 2.2, pulls can pin a manifest digest, and the CUDA idle-pause crash affecting ONNX decoders (kev, decider, decision, nimble, jeeves, clef) is fixed; the site's family count moved to twenty-one; refreshed stars to 1,301 and the pushed date to 2026-10-13.
+- 2026-10-17 - Volatile re-verification after the 2026-10-14 and 10-17 pushes: recorded Ollaya Bench (bench.ollaya.dev, Edition 2026.10, 2026-10-14, on 0.13.0), the new measurement site superseding the 0.8.0-era results page (36 models, 14 tasks, 5,880 questions per model over HTTP, two disclosed devices, jeb:27b the leader at 67.8), and reworked the thesis and status around it; pushed date refreshed to 2026-10-17.
 
 ## See also
 
@@ -91,7 +92,8 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 - https://ollaya.dev/ - product surface: endpoints, model families, platforms, the Ollama comparison table, Apache-2.0 licensing
 - https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,313 stars, 79 forks, pushed 2026-10-14, releases v0.9.0 through v0.13.0 (GitHub API, as of 2026-10-15)
 - https://github.com/ollaya-dev/ollaya/releases/tag/v0.13.0 - the v0.13.0 release notes: the d1 family, its license, the digest-pinned pulls, the Decima 2.2 move, and the CUDA fix (fetched 2026-10-13)
-- https://ollaya.dev/results - the measurement page: 26 models, 73,720 benchmark answers, 41,352 parity checks, disclosed machines, newest measurement 2026-10-02
+- https://ollaya.dev/results - the superseded 0.8.0-era measurement page: 31 models, 73,720 benchmark answers, 41,352 parity checks, disclosed machines, newest measurement 2026-10-06 (kept as the historical record)
+- https://bench.ollaya.dev/ - Ollaya Bench, Edition 2026.10 (2026-10-14, on Ollaya 0.13.0): 36 models over 14 tasks, 5,880 questions per model, RTX 5090 and Threadripper 3960X devices, jeb:27b the leader at 67.8 (fetched 2026-10-17)
 - https://ollaya.dev/docs/typesafe-compatibility - the wire-identical TypeSafe API documentation, including SDK 0.7.1 compatibility
 - https://news.ycombinator.com/item?id=49848269 - the 618-point launch thread (2026-09-25)
 - https://huggingface.co/ollaya-dev - the pinned model mirrors (15 repositories listed via the Hugging Face API, as of 2026-10-06)

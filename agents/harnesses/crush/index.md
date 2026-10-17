@@ -1,7 +1,7 @@
 ---
 title: Crush
 created: 2026-08-22
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, terminal, go]
 readability: 3
@@ -25,7 +25,7 @@ It runs on macOS, Linux, Windows, Android, and the BSDs.
 ## Status
 
 **Active.**
-About 28.6k stars, 2.3k forks, and 4,277 commits as of 2026-10-11, launched July 30, 2025.
+About 28.6k stars, 2.3k forks, and 4,310 commits as of 2026-10-17, launched July 30, 2025, with v0.98.1 (October 9, 2026) the latest release, a patch routing newer Copilot models through the Responses API after v0.98.0 the day before.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=charmbracelet/crush&type=date&theme=dark&legend=top-left" />
@@ -76,6 +76,7 @@ Not for license-restricted organizations or communities that relitigate 2025.
 - 2026-08-23 - Style conformance pass: sources hyperlinked, per-section insights bolded, sentences split, showy wording replaced.
 - 2026-09-16 - Refreshed repository scale to about 28.1k stars and 4,181 commits.
 - 2026-10-07 - Added the charmbracelet/crush star history chart to the Status section.
+- 2026-10-17 - Recorded the v0.98.0 and v0.98.1 releases (October 8 and 9, the latter routing newer Copilot models through the Responses API), refreshed the commit count, and re-fetched every cited reference in the rotation pass.
 
 ## See also
 
@@ -86,7 +87,7 @@ Not for license-restricted organizations or communities that relitigate 2025.
 
 ## References
 
-- https://github.com/charmbracelet/crush - features, license, provider matrix, as of 2026-10-11
+- https://github.com/charmbracelet/crush - features, license, provider matrix, as of 2026-10-17
 - https://news.ycombinator.com/item?id=44736176 - launch thread with the full origin story and early comparisons
 - https://fsl.software/ - what FSL-1.1-MIT permits and when it converts
 - https://charm.land/blog/crush-comes-home/ - Charm's account of the project joining the company

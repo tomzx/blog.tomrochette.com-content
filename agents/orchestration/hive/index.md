@@ -1,7 +1,7 @@
 ---
 title: Hive
 created: 2026-10-08
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -24,7 +24,7 @@ It is made by Aden, a five-person San Francisco company from Y Combinator's Wint
 ## Status
 
 Active and newly stable: 11,107 stars as of 2026-10-15 on a repository created 2026-01-12, with branches pushed the day before this check (GitHub API).
-The default branch woke on 2026-10-12 with a README documentation merge after a quiet stretch that had run since mid-September, and on 2026-10-14 the release line returned from its five-month stop with v1.0.0, the first stable major, followed the same hour by v1.0.1, v1.0.2, and v1.0.3 (GitHub releases).
+The default branch woke on 2026-10-12 with a README documentation merge after a quiet stretch that had run since mid-September, and on 2026-10-14 the release line returned from its five-month stop with v1.0.0, the first stable major, followed the same hour by v1.0.1, v1.0.2, and v1.0.3, with v1.0.4 continuing the train on 2026-10-16 (GitHub releases).
 Three contributors dominate the history (about 1,179, 868, and 451 contributions), which matches a five-person company rather than a community.
 
 <picture>

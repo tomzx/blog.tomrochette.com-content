@@ -79,17 +79,16 @@ Not for Windows or Linux-primary teams, and not for anyone who needs coordinated
 - 2026-09-12 - Updated the agent preset count to 21 per the README, up from the 12 cited.
 - 2026-09-16 - Recorded the v1.29.0 desktop and CLI release (September 13) and refreshed star and tracker counts.
 - 2026-09-20 - Recorded the desktop v1.30.0 release (September 19), which added explicit local workspaces on shared checkouts and clearer automation-creation options.
-- 2026-09-21 - Recorded the desktop v1.30.1 release (September 21), a fix release following v1.30.0, and refreshed star and tracker counts.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-21 - Recorded the desktop v1.30.1 release (September 21), a fix release following v1.30.0, and refreshed star and tracker counts.
 - 2026-09-22 - Recorded the desktop v1.30.2 release (September 22), the pricing page listing a mobile app among Pro features, and refreshed star and tracker counts.
-- 2026-10-03 - Recorded desktop v1.34.0 and v1.35.0 (both October 2: per-screen headers plus a Google user-data privacy disclosure, then the host-connection banner, cloud-wake copy, and a task_imports table) as the new latest releases and refreshed star and tracker counts.
 - 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Superset a leader.
 - 2026-09-29 - Recorded the desktop v1.31.0 release (September 28) and refreshed star and tracker counts.
 - 2026-09-30 - Recorded the desktop v1.32.0 release (September 29, CLI setup for coworker cloud environments).
 - 2026-10-02 - Recorded the desktop v1.33.0 release (September 30, shared cloud-workspace records with presence, comments, labels, and mentions, plus Claude Sonnet 5.5 in model pickers) and refreshed star and tracker counts.
+- 2026-10-03 - Recorded desktop v1.34.0 and v1.35.0 (both October 2: per-screen headers plus a Google user-data privacy disclosure, then the host-connection banner, cloud-wake copy, and a task_imports table) as the new latest releases and refreshed star and tracker counts.
 - 2026-10-07 - Added the superset-sh/superset star history chart to the Status section.
 - 2026-10-08 - Recorded desktop v1.37.0 (October 8) and 15.0k stars as of 2026-10-08.
-
 - 2026-10-11 - Corrected the Pro feature list against the live pricing page: automations and the mobile app are listed, remote access is no longer marked beta, and priority support is no longer a Pro feature.
 
 ## See also

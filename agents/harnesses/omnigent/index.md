@@ -1,7 +1,7 @@
 ---
 title: Omnigent
 created: 2026-10-06
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, meta-harness, orchestration, policies, sandboxing]
 readability: 3
@@ -68,6 +68,7 @@ Not for developers happy inside one harness, and not for Windows-first setups th
 
 - 2026-10-06 - Created.
 - 2026-10-07 - Added the omnigent-ai/omnigent star history chart to the Status section.
+- 2026-10-17 - Recorded the v0.18.0 release (October 13), which added GitLab merge-request and Azure DevOps pull-request review beside GitHub in the session panel, with checks, comments, diffs, and automatic tracking of agent-created requests, and refreshed the PyPI reference to 0.18.0.
 
 ## See also
 
@@ -83,4 +84,4 @@ Not for developers happy inside one harness, and not for Windows-first setups th
 - https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents - Databricks origin (Zaharia, Uhlenhuth, Zumar, June 13, 2026), architecture, Apache-2.0 open-sourcing
 - https://omnigent.ai - product site (alpha status, "Built by the Databricks AI team, Neon and the Omnigent Contributors")
 - https://hn.algolia.com/api/v1/search?query=omnigent - the thin HN footprint (15-point top thread of June 2026; resubmits at 1 to 6 points)
-- https://pypi.org/pypi/omnigent/json - PyPI 0.17.0 published 2026-10-06, Python 3.12+, release history
+- https://pypi.org/pypi/omnigent/json - PyPI 0.18.0 published 2026-10-13, Python 3.12+, release history

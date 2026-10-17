@@ -1,7 +1,7 @@
 ---
 title: Qwen Code
 created: 2026-08-24
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, alibaba]
 readability: 3
@@ -35,6 +35,7 @@ The repository shows about 28.5k stars as of 2026-10-15 and was pushed on the da
 </picture>
 
 It launched in July 2025 as a Qwen3-Coder-optimized CLI; the Acknowledgments section records the Gemini CLI v0.8.2 origin and the split from upstream at v0.1.
+The release train stays busy: v0.25.2 (October 15, 2026) is the latest stable, adding managed-agent mailbox traffic over Session messages and a private extension that imports Vitest 3.2 JSON reports, with a v0.25.3 preview following on October 16.
 
 ## Strengths
 
@@ -74,6 +75,7 @@ Not for workflows where model behavior provenance or data residency is tightly g
 - 2026-09-09 - Recorded the Qwen OAuth free tier's 2026-04-15 discontinuation, rewriting the pricing section and setting the thesis to past tense.
 - 2026-09-26 - Linked the Qwen Coding Plan note in the Model access category, where the flat-rate plan for these models is tracked.
 - 2026-10-07 - Added the QwenLM/qwen-code star history chart to the Status section.
+- 2026-10-17 - Recorded the stable train reaching v0.25.2 (October 15, managed-agent mailbox traffic over Session messages and a Vitest 3.2 JSON-report import extension) with a v0.25.3 preview following, and re-fetched every cited reference.
 
 ## See also
 
@@ -85,7 +87,7 @@ Not for workflows where model behavior provenance or data residency is tightly g
 
 ## References
 
-- https://github.com/QwenLM/qwen-code - README capabilities, fork acknowledgment, repository scale as of 2026-10-11
+- https://github.com/QwenLM/qwen-code - README capabilities, fork acknowledgment, repository scale as of 2026-10-17
 - https://qwenlm.github.io/qwen-code-docs/en/users/overview - modes, surfaces, and configuration documentation
 - https://qwenlm.github.io/qwen-code-docs/en/users/configuration/auth/ - the Qwen OAuth free-tier discontinuation (2026-04-15) and the current first-party plans
 - https://news.ycombinator.com/item?id=44653981 - the July 2025 launch thread

@@ -1,7 +1,7 @@
 ---
 title: Jevlike
 created: 2026-09-21
-updated: 2026-10-07
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights]
 readability: 3
@@ -34,7 +34,7 @@ Created and last pushed 2026-09-16, 1,351 stars and 119 forks, seven open issues
 </picture>
 
 The Show HN thread ("Reverse-engineered Jev-like model", 2026-09-16) reached 169 points as of 2026-10-06.
-The afterlife is elsewhere: Cua's CUA-S1 form-filling checkpoint documents that its option-attention head is lifted from jevlike's `AttentionHead`, so the code's real legacy is inside other projects rather than in this one, and the JevBench board ranks no jevlike checkpoint because the starter ships game demos rather than a served decision model.
+The afterlife is elsewhere: Cua's CUA-S1 form-filling checkpoint documents that its option-attention head is adapted from jevlike, now with a formal `THIRD_PARTY_NOTICES.md` in the trycua/cua repository pinning jevlike commit 94f5fd1 (the Hugging Face card itself no longer carries the credit), so the code's real legacy is inside other projects rather than in this one, and the JevBench board ranks no jevlike checkpoint because the starter ships game demos rather than a served decision model.
 
 ## Strengths
 
@@ -72,6 +72,7 @@ I would not route a real decision through this repo today, but I would make ever
 - 2026-09-21 - Created from the owner-prompted open-source alternatives sub-run.
 - 2026-09-22 - Refreshed traction counts (1,243 stars, 110 forks, 168 thread points) and noted the repository remains frozen at launch day.
 - 2026-10-07 - Added the vinnylarouge/jevlike star history chart to the Status section.
+- 2026-10-17 - Full re-verification: all five references re-fetched and live (repository still frozen at 2026-09-16, launch thread still 169 points); the CUA-S1 credit re-grounded in trycua/cua's THIRD_PARTY_NOTICES.md, which pins the adapted primitives to jevlike commit 94f5fd1.
 
 ## See also
 
@@ -87,4 +88,4 @@ I would not route a real decision through this repo today, but I would make ever
 - https://raw.githubusercontent.com/vinnylarouge/jevlike/main/README.md - the option-attention architecture, data format, eval design, and the expectations section with the no-equal-quality admission
 - https://news.ycombinator.com/item?id=49731282 - the 169-point launch thread (2026-09-16), including the satire and panel-disagreement criticisms (fetched via the Algolia items API)
 - https://raw.githubusercontent.com/vinnylarouge/jevlike/main/examples/doom/README.md - the vision variant: 12-option table, DAgger-before-PPO training order, early-checkpoint caveat
-- https://huggingface.co/cua-ai/cua-s1-forms - downstream adoption: its README credits "jevlike's `AttentionHead`" as the lifted component
+- https://huggingface.co/cua-ai/cua-s1-forms - downstream adoption: the checkpoint card and its Cua-S1 docs (the credit now formalized in trycua/cua's libs/cua-s1/THIRD_PARTY_NOTICES.md, adapted material limited to byte-collation and attention-model primitives, pinned to jevlike commit 94f5fd1; both fetched 2026-10-17)

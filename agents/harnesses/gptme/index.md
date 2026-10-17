@@ -1,7 +1,7 @@
 ---
 title: gptme
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, cli, terminal, local-first, autonomous-agents]
 readability: 3
@@ -23,7 +23,7 @@ Providers are your choice: Anthropic, OpenAI, Google, Grok, DeepSeek, OpenRouter
 
 ## Status
 
-Active and steadily shipped: 4,448 stars, 451 forks, and 38 open issues as of 2026-10-13, pushed the day of this check, with weekly dev pre-releases (v0.34.1.dev20261008 on 2026-10-08) and stable v0.34.0 (September 2026) adding cross-harness memory and skills as slash commands.
+Active and steadily shipped: 4,448 stars, 451 forks, and 38 open issues as of 2026-10-13, pushed the day of this check, with weekly dev pre-releases and stable v0.35.1 (October 15, 2026) on top of v0.35.0 the same day, a 61-feature release adding a memory guard that kills the agent's largest command when system memory runs low, queued prompts that steer the running turn, Ctrl+C tool stops in the TUI, and an IPython kernel-process split (v0.35.1); stable v0.34.0 (September 2026) added cross-harness memory and skills as slash commands.
 Bootstrap-funded by its author, with a managed cloud (gptme.ai, early access) that bills usage-based credits.
 PyPI downloads run about 32,000 per month as of 2026-10-13, modest next to this category's mass-market members.
 **The governance curiosity is the contributor table: the top contributor is TimeToBuildBob, the project's own autonomous agent, at 2,506 contributions against the author's 1,915.**
@@ -70,6 +70,7 @@ Not for teams needing a large independent community, published hosted pricing, o
 ## Changes
 
 - 2026-10-13 - Created.
+- 2026-10-17 - Recorded the stable train reaching v0.35.1 (October 15) on top of the 61-feature v0.35.0 the same day (memory guard, steerable queued prompts, Ctrl+C tool stops, Jupyter kernel-process split), and re-fetched every cited reference in the rotation-adjacent volatile pass.
 
 ## See also
 
@@ -86,7 +87,7 @@ Not for teams needing a large independent community, published hosted pricing, o
 - https://gptme.org/docs/alternatives.html - the project's own positioning: coding-agent and persistent-agent comparison tables, bootstrap funding, first-commit dates for gptme and aider, and the Bob track-record claim
 - https://gptme.org/docs/arewetiny.html - the small-by-design policy with startup-time and lines-of-code benchmarks
 - https://gptme.org/docs/cloud.html - the gptme.ai managed service: early access, usage-based credits, GitHub integration
-- https://api.github.com/repos/gptme/gptme/releases?per_page=5 - the weekly dev pre-release train and the v0.34.1.dev20261008 stamp
+- https://api.github.com/repos/gptme/gptme/releases?per_page=5 - the weekly dev pre-release train and the stable v0.35.1 stamp (October 15, 2026)
 - https://pypistats.org/api/packages/gptme/recent - the 32,174 downloads in the last month as of 2026-10-13
 - https://api.github.com/repos/gptme/gptme/contributors?per_page=5 - the contributor table with TimeToBuildBob (the autonomous agent) first at 2,506
 - https://hn.algolia.com/api/v1/search?query=gptme&tags=story - the thin independent-discussion record: Show HN threads at 5 (2023), 5 (2024), and 1 (2025) points

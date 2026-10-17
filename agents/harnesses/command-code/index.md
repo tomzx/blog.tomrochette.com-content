@@ -1,7 +1,7 @@
 ---
 title: Command Code
 created: 2026-10-05
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-models, personalization, closed-source]
 readability: 3
@@ -25,7 +25,7 @@ The company raised a $5 million seed led by Tom Preston-Werner, with Amjad Masad
 ## Status
 
 **Active and fast-growing in distribution, with an evidence base that is mostly the vendor's own.**
-The npm package's latest build is 1.82.3 (published October 15, 2026, after the 1.81.0/1.80.0 pair on October 12 and 1.79.2 on October 8), the site's changelog counts 431 releases (401 CLI), and the package did 218,801 downloads in the last month (the API window covering September 12 to October 11, as of 2026-10-13).
+The npm package's latest build is 1.84.0 (published October 16, 2026, after 1.82.3 on October 15 and the 1.81.0/1.80.0 pair on October 12), the site's changelog counts 431 releases (401 CLI), and the package did 219,334 downloads in the last month (the API window covering September 13 to October 12, as of 2026-10-17).
 The `CommandCodeAI/command-code` repository has 4,132 stars as of 2026-10-15 (GitHub API) but hosts issues only: no source, no license, the client is closed.
 
 <picture>
@@ -86,6 +86,7 @@ Not for open-client mandates, and not for anyone who needs independent evaluatio
 - 2026-10-08 - Recorded the npm train reaching 1.79.1 (four builds on October 7) and the site changelog counting 399 releases, with pricing and download totals unchanged on the same API windows.
 - 2026-10-09 - Recorded the npm train reaching 1.79.2 (published October 8), the changelog counting 431 releases with the 1.79.2 entry naming Claude Haiku 5.5 on the GOAT plan at the $20 default and Glyph Cluster as a free model, the plan ladder re-verified unchanged, and download and repository counters refreshed.
 - 2026-10-13 - Recorded the npm train reaching 1.81.0 (published October 12) after 1.80.0 the same day, and refreshed download and repository counters.
+- 2026-10-17 - Recorded the npm train reaching 1.84.0 (published October 16) after 1.82.3 (October 15), and refreshed download counters.
 
 ## See also
 
@@ -99,8 +100,8 @@ Not for open-client mandates, and not for anyone who needs independent evaluatio
 - https://commandcode.ai/ - product surface, taste-1 claims, company positioning, and the $5M seed line (fetched 2026-10-05)
 - https://commandcode.ai/pricing - plan ladder, credits, Provider API plan, and Teams pricing, as of 2026-10-11 (re-verified unchanged)
 - https://commandcode.ai/changelog - the release train (431 releases, 401 CLI) and the 1.79.2 entries naming Claude Haiku 5.5 on the GOAT plan and Glyph Cluster as a free model, as of 2026-10-09
-- https://registry.npmjs.org/command-code - latest build 1.81.0 published 2026-10-12, package created 2025-08-07 (verified via the registry API)
-- https://api.npmjs.org/downloads/point/last-month/command-code - 218,801 downloads, window September 12 to October 11, as of 2026-10-13
+- https://registry.npmjs.org/command-code - latest build 1.84.0 published 2026-10-16, package created 2025-08-07 (verified via the registry API, 2026-10-17)
+- https://api.npmjs.org/downloads/point/last-month/command-code - 219,334 downloads, window September 13 to October 12, as of 2026-10-17
 - https://github.com/CommandCodeAI/command-code - issues-only repository, 4,121 stars, no source or license, as of 2026-10-13 (verified via the GitHub API)
 - https://techstackups.com/comparisons/coding-agent-harness-comparison-2026/ - the critical source: closed-source classification, funding details, ex-Langbase history, and the 48-hour launch-issue record (fetched 2026-10-05)
 - https://hn.algolia.com/api/v1/items/48031887 - the May 6, 2026 Show HN, 3 points (verified via the Algolia API)

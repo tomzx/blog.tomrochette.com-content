@@ -1,7 +1,7 @@
 ---
 title: "Exo"
 created: 2026-09-05
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agent, self-improvement, rust]
 readability: 3
@@ -21,7 +21,7 @@ The design philosophy is documented in the repository's RSI.md, "A Systems View 
 
 ## Status
 
-Active: created 2026-05-20, 1,505 stars and 114 forks, pushed 2026-10-14 (GitHub API, as of 2026-10-15).
+Active: created 2026-05-20, 1,505 stars and 114 forks, pushed 2026-10-16 (GitHub API, as of 2026-10-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=exoharness/exo&type=date&theme=dark&legend=top-left" />
@@ -69,6 +69,7 @@ Not for production work or anyone who cannot tolerate a harness changing its own
 - 2026-10-06 - Refreshed repository counters (1,486 stars) and corrected the stale harness count in the See-also matrix line.
 - 2026-10-06 - Moved the FrontierHarness dollar figure out of the Pricing section, leaving it in Status where the benchmark is cited, so the note conforms to the price-history rule.
 - 2026-10-07 - Added the exoharness/exo star history chart to the Status section.
+- 2026-10-17 - Repaired the RSI.md reference in the rotation pass: the repository restructure moved the document from docs/ to examples/self-improving-agent/docs/ (the old URL 404s), and refreshed the push date.
 
 ## See also
 
@@ -81,6 +82,6 @@ Not for production work or anyone who cannot tolerate a harness changing its own
 
 - https://github.com/exoharness/exo - repository, license, architecture, and setup requirements
 - https://exoharness.ai/docs - official documentation
-- https://github.com/exoharness/exo/blob/main/docs/RSI.md - the recursive self improvement design document
+- https://github.com/exoharness/exo/blob/main/examples/self-improving-agent/docs/RSI.md - the recursive self improvement design document (moved from docs/ in the repository restructure)
 - https://frontierharness.org - the independent cost and pass-rate measurements
 - https://hn.algolia.com/api/v1/items/49430143 - the larger of the two HN threads, cited as the thin-footprint signal

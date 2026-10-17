@@ -1,7 +1,7 @@
 ---
 title: Instructor
 created: 2026-08-24
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, pydantic, validation]
 readability: 3
@@ -33,8 +33,9 @@ The repository shows about 14.0k stars and 1,672 commits as of 2026-10-15, and P
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=567-labs/instructor&type=date&legend=top-left" />
 </picture>
 
-The README claims 3M+ monthly downloads and use inside OpenAI, Google, Microsoft, and AWS teams; PyPI counters with roughly 8.5M downloads over the last month as of 2026-10-10, flat against the September 25 reading of roughly 8.4M after a steep September slide from roughly 22M, so the README claim remains conservative but the collapse has paused rather than continued.
+The README claims 3M+ monthly downloads and use inside OpenAI, Google, Microsoft, and AWS teams; PyPI counters with roughly 8.5M downloads over the last month as of 2026-10-17, flat against the September 25 reading of roughly 8.4M after a steep September slide from roughly 22M, so the README claim remains conservative but the collapse has paused rather than continued.
 OpenAI publicly credited Instructor as inspiration for its native SDK structured-output helpers at the August 2024 Structured Outputs launch, and the project's own README now steers agent use cases to PydanticAI, the Pydantic team's agent runtime.
+An unreleased 1.18 consolidating on the main branch since 2026-10-10 adds OpenAI Decisions support under shared provider contracts, extending the validate-and-retry layer to the vendor's bounded-decision endpoint alongside the structured-output surfaces.
 
 ## Strengths
 
@@ -77,6 +78,7 @@ Not for teams that need agents, evals, or hard latency budgets.
 - 2026-09-25 - Refreshed the monthly PyPI download count from roughly 10.0M to roughly 8.4M, continuing the decline.
 - 2026-10-02 - Revised the download-trend claim: monthly PyPI downloads read roughly 8.4M for a second consecutive check, flat against September 25, so the steep September decline has paused.
 - 2026-10-07 - Added the 567-labs/instructor star history chart to the Status section.
+- 2026-10-17 - Volatile re-verification after the 2026-10-14 push: recorded the unreleased 1.18 line adding OpenAI Decisions support under shared provider contracts (consolidated on main 2026-10-10, release 1.17.0 still latest); monthly PyPI downloads re-read at roughly 8.5M, flat.
 
 ## See also
 

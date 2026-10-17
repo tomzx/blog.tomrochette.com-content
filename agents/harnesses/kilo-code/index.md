@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -24,7 +24,7 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 ## Status
 
 **Active under new ownership.**
-The repository shows about 27.6k stars under MIT as of 2026-10-15, most recently pushed on the day of verification; component tags ship on their own clocks (the newest stable is v7.8.8, published October 7, 2026, with v7.8.9 (October 13) and v7.8.10 (October 14) prereleases following, and the jetbrains component riding its own train at v7.1.10 release candidates).
+The repository shows about 27.6k stars under MIT as of 2026-10-15, most recently pushed on the day of verification; component tags ship on their own clocks (the newest stable is v7.8.12, published October 15, 2026, routing Kilo Gateway traffic through `ai-gateway.kilo.ai` by default with a `KILO_AI_GATEWAY_URL` override, with v7.8.13 and v7.8.14 prereleases following on October 16, and the jetbrains component riding its own train at v7.1.11, published October 16).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Kilo-Org/kilocode&type=date&theme=dark&legend=top-left" />
@@ -92,6 +92,7 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 - 2026-10-08 - Recorded the v7.8.8 stable release (published October 7), now the newest stable after the v7.8.7 prerelease, with the jetbrains/v7.1.9 component on its own train, and refreshed repository scale.
 - 2026-10-12 - Recorded Anaconda's October 6 AI Dev Factory announcement, which names Kilo the primary AI workspace, launches Kilo Desktop for local development, brings agent swarms to VS Code through Kilo, and adds Sign in with ChatGPT across Kilo surfaces; pricing re-verified unchanged against the live page.
 - 2026-10-13 - Recorded the v7.8.9 prerelease (published October 13) following the v7.8.8 stable, and refreshed repository scale.
+- 2026-10-17 - Recorded the stable train reaching v7.8.12 (published October 15, routing Kilo Gateway traffic through ai-gateway.kilo.ai by default with a KILO_AI_GATEWAY_URL override), the v7.8.13 and v7.8.14 prereleases (October 16), and the jetbrains component reaching v7.1.11 (October 16).
 
 ## See also
 
@@ -102,7 +103,7 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 
 ## References
 
-- https://github.com/Kilo-Org/kilocode - repository scale, license, description as of 2026-10-11
+- https://github.com/Kilo-Org/kilocode - repository scale, license, description as of 2026-10-17
 - https://kilo.ai/pricing - tiers, Kilo Pass, credit model, and the Anaconda acquisition banner, as of 2026-10-12 (re-verified unchanged)
 - https://www.anaconda.com/press/agent-swarms-red-team-agents-ai-dev-factory - the October 6, 2026 AI Dev Factory announcement naming Kilo the primary AI workspace and launching Kilo Desktop
 - https://www.anaconda.com/blog/anaconda-acquires-kilo-code - the acquisition announcement primary source

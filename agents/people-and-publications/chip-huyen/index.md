@@ -1,7 +1,7 @@
 ---
 title: Chip Huyen
 created: 2026-08-29
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, ai-engineering, systems, llm]
 readability: 3
@@ -21,9 +21,9 @@ A personal site, blog, newsletter, and a pair of O'Reilly books by Chip Huyen, a
 
 ## Status
 
-Active and highly visible as of 2026-10-15.
+Active and highly visible as of 2026-10-17.
 Her own site states "AI Engineering" was the most read book on the O'Reilly platform in 2025 and has been the most read since its release.
-It is being translated into Chinese, French, Japanese, Korean, Polish, and Russian.
+Her site lists Chinese, French, Japanese, Korean, Polish, and Russian translations in progress, and the book repo lists published editions in thirteen languages, adding Vietnamese, Spanish, Italian, German, Portuguese, Thai, and both Chinese scripts, with Greek, Ukrainian, and Uzbek announced.
 Her prior book "Designing Machine Learning Systems" (2022) is an Amazon #1 bestseller in AI.
 
 ## Strengths
@@ -68,6 +68,7 @@ Not for the practitioner who wants current, hands-on tool walkthroughs.
 
 - 2026-08-29 - Created as the systems-survey note on the most-read O'Reilly AI book of 2025.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-10-17 - Rotation re-verification, every cited URL re-fetched: the O'Reilly page began returning 403 to automated fetches, so its reference now points at the 2026-06-20 Internet Archive snapshot, and the Status translation line was expanded to the book repo's thirteen published languages plus the three announced ones.
 
 ## See also
 
@@ -80,6 +81,6 @@ Not for the practitioner who wants current, hands-on tool walkthroughs.
 
 - https://huyenchip.com/ - her site, background, and the most-read claim for the book
 - https://huyenchip.com/books/ - the books page with AI Engineering details and translations
-- https://www.oreilly.com/library/view/ai-engineering/9781098166298/ - the O'Reilly page for the book
+- https://web.archive.org/web/20260620122907/https://www.oreilly.com/library/view/ai-engineering/9781098166298/ - the O'Reilly page for the book (Internet Archive snapshot; the live page returns 403 to automated fetches as of 2026-10-17)
 - https://github.com/chiphuyen/aie-book - the book's repo with endorsements and scope
 - https://www.amazon.com/AI-Engineering-Building-Applications-Foundation/dp/1098166302/ - the book listing with reader reviews, including the critical ones

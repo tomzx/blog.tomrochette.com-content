@@ -1,7 +1,7 @@
 ---
 title: OpenCode
 created: 2026-08-22
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, developer-tools]
 readability: 3
@@ -49,7 +49,7 @@ OpenCode is the continuation that kept the name, the domain, and the community.
 - Pin your version and read the config.
 - In March 2026 [Anthropic legal requests](https://github.com/anomalyco/opencode/pull/18186) removed the Claude Pro/Max OAuth login and Anthropic-branded defaults, so your Claude subscription will not drive OpenCode; use API keys or Zen.
 - Fast-moving config surface; the docs carry 'versions older than 0.1.x' style of breaking-change warnings.
-- The docs now carry a "v2 is now available" banner linking to a v2 page, while GitHub releases remain on the v1.x train (v1.19.0, 2026-10-11), so the v2 launch is a docs-and-marketing channel ahead of a tagged release.
+- The docs now carry a "v2 is now available" banner linking to a v2 page, while GitHub releases remain on the v1.x train (v1.19.3, 2026-10-16, whose configurable model reasoning options generate reasoning variants while preserving configured overrides), so the v2 launch is a docs-and-marketing channel ahead of a tagged release.
 - Windows works best under WSL.
 
 ## Pricing
@@ -76,6 +76,7 @@ Not for teams that need subscription billing simplicity or cannot audit a fast-m
 - 2026-09-26 - Linked the new Model access notes for Zen and Go, where the gateway's billing and the token pack now have their own profiles.
 - 2026-10-04 - Added the GHSA-632h-h47v-g4x4 upgrade-path RCE from Datadog's September 24 disclosure (fixed in 1.18.22, no CVE requested) and the v2-banner-versus-v1.18.x-releases versioning fact.
 - 2026-10-07 - Added the anomalyco/opencode star history chart to the Status section.
+- 2026-10-17 - Recorded the v1.x train reaching v1.19.3 (October 16), which made model reasoning options configurable into generated reasoning variants while preserving configured overrides, keeping the v2-tagged-release gap open.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: jcode
 created: 2026-08-30
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, yc, memory, multi-agent]
 readability: 3
@@ -75,7 +75,7 @@ Enterprise is custom.
 
 - [OpenCode](../opencode/index.md): the TypeScript full-environment harness with the broadest plugin ecosystem and ACP story; pick OpenCode for ecosystem breadth, jcode when parallel session density and built-in memory matter more.
 - [Claude Code](../claude-code/index.md): the platform benchmark with the deepest IDE and web surface; jcode is the counter-bet that the terminal daemon wins on resources and coordination.
-- pi (no note yet): the minimalism pole of the same terminal-first triangle the independent comparisons draw; jcode is its maximalist opposite, with everything pi refuses built in.
+- [Pi](../pi/index.md): the minimalism pole of the same terminal-first triangle the independent comparisons draw; jcode is its maximalist opposite, with everything Pi refuses built in.
 
 ## Bottom line
 
@@ -104,6 +104,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 - 2026-10-10 - Synced the Status release-train summary, which had lagged at v0.88.0 behind the already-recorded bullets, through v0.93.0, and refreshed repository counters to 20,376 stars.
 - 2026-10-11 - Recorded v0.94.0 (October 10), which added queued commands, an Alt+G git-commit-log view with diff cycling on /diff, and mid-turn message observation and cancellation for Harness API clients, and refreshed repository counters.
 - 2026-10-12 - Recorded v0.95.0 (October 12), which routes OpenCode Go models including grok-4.7 and gpt-6-luna over the Responses API, exposes turn-end token usage to hooks, adds per-session worker model overrides in /agents and a stalled-worker watchdog for swarms, refreshed repository counters, and noted the pricing page's justrust remote-build allotment (500 builds per $10 of plan monthly, then $0.10 per build).
+- 2026-10-17 - Recorded the v0.96.0, v0.97.0, and v0.98.1 releases (October 14 and 15): remote MCP over HTTP and SSE with OAuth sign-in, per-session saved-OAuth account picking, custom JSON search providers, native command invocation for SDK clients, idle CPU and disk-read reductions in untracked-heavy repositories, shared model-catalog processing across equivalent clients, and a user_response tool delivering Markdown to Desktop-capable clients.
 
 ## See also
 
@@ -114,7 +115,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 
 ## References
 
-- https://github.com/1jehuang/jcode - repository, MIT license, Rust, scale, release cadence, feature README, as of 2026-10-12
+- https://github.com/1jehuang/jcode - repository, MIT license, Rust, scale, release cadence, feature README, as of 2026-10-17
 - https://jcode.sh/ - mission, RAM and startup benchmarks, memory, swarm, self-dev, prompt-size study, changelog
 - https://jcode.sh/docs - AGENTS.md loading, hooks, skills, stdio-only MCP, remote daemon, ambient config
 - https://jcode.sh/about - Solo Systems, Jeremy Huang, solo founder, YC S26

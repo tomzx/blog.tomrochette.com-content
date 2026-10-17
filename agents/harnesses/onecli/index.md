@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -90,6 +90,7 @@ I think the prompt-based permission systems across every other harness in this s
 - 2026-10-08 - Recorded the v2.10.0 release (October 7), which added a Pylon integration, setup-guide links on every connect surface, and a two-image agent sandbox, and refreshed repository counters.
 - 2026-10-09 - Recorded the v2.11 series (October 8): v2.11.0 added a Helm chart for Kubernetes self-hosting, agent webhooks, and evals with run history, with two same-day publish-pipeline patches, and refreshed repository counters.
 - 2026-10-10 - Recorded the v2.12.0 release (published October 9), which opened a tunnel lane for browsers, Runs, and Network tabs in the Activity view.
+- 2026-10-17 - Recorded the v2.13.0 and v2.14.0 releases (both October 14): send-now prompts with live replies, workspace timezone, a desktop browser surface, and shared connections (v2.13.0), then missing-OAuth-permission warnings, Drive "Shared with me", and Slack on Kubernetes (v2.14.0).
 
 ## See also
 
@@ -102,7 +103,7 @@ I think the prompt-based permission systems across every other harness in this s
 ## References
 
 - https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-10-11
-- https://github.com/onecli/onecli/releases - release cadence through v2.11.2 on October 8, 2026
+- https://github.com/onecli/onecli/releases - release cadence through v2.14.0 on October 14, 2026
 - https://onecli.sh - product positioning, gateway model, and free tier as of 2026-09-22
 - https://onecli.sh/pricing - tiers, BYOC versus hosted-model pricing, and seat limits as of 2026-10-11 (re-verified unchanged)
 - https://onecli.sh/docs - architecture: sandbox, gateway, policy, self-hosting

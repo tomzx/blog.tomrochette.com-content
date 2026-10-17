@@ -1,7 +1,7 @@
 ---
 title: DeepSeek Harness
 created: 2026-08-30
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, plugins, open-source]
 readability: 3
@@ -33,7 +33,7 @@ New and extremely loud: 249,954 stars and 30,059 forks as of 2026-10-15, about n
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=deepseek-ai/deepseek-harness&type=date&legend=top-left" />
 </picture>
 
-No stable release exists, only alpha and rc prereleases, with dsh-v0.2.1-alpha.3 the newest tag after the alpha.2 train of 2026-10-09 (alpha.2 added experimental Git Worktrees and thinking-translation plugins, a session-state API for plugins, global instructions read from a shared agents directory via `DSH_AGENTS_HOME`, a `working_directory` tool with SDK support, an SSH helper runtime for remote file, process, terminal, and sandbox operations, and on-demand Claude Code and Codex combo-pack installs, plus a batch of fixes), and the README warns there will be compatibility-breaking changes.
+No stable release exists, only alpha and rc prereleases, with dsh-v0.2.1-rc.1 the newest tag (published 2026-10-17, the first release candidate of the 0.2.1 series, aggregating the alpha.3 through alpha.5 train: plugin discovery and installation from custom plugin index sources, a plugin-management entry that lets the Agent create plugins from a drafted request, and the earlier alpha.2 additions of experimental Git Worktrees and thinking-translation plugins, a session-state API for plugins, global instructions read from a shared agents directory via `DSH_AGENTS_HOME`, a `working_directory` tool with SDK support, an SSH helper runtime for remote file, process, terminal, and sandbox operations, and on-demand Claude Code and Codex combo-pack installs), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.
 An ecosystem is already forming: a Tauri desktop port with 2,992 stars as of 2026-10-15, down from 3,149 on 2026-10-11 (its repository moved from the dsh-tauri-desk org to dsh-tauri, old links redirect), a plugin directory site, and an MCP plugin catalog.
 **I read the star count as attention, not adoption, and the safest status label is developer preview.**
@@ -80,6 +80,7 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 - 2026-10-03 - Recorded the dsh-v0.2.1-alpha.1 prerelease (October 3), which added an experimental Claude Code Mods compatibility layer, an agent-driven plugin-creation entry in the plugin manager, prefilled unsent prompts, and reverse-proxy support via `--public-url`, and refreshed repository scale; the project remains prerelease-only.
 - 2026-10-07 - Added the deepseek-ai/deepseek-harness star history chart to the Status section.
 - 2026-10-11 - Recorded the dsh-v0.2.1-alpha.2 prerelease (October 9), which added experimental Git Worktrees and thinking-translation plugins, a plugin session-state API, shared-directory AGENTS.md loading via DSH_AGENTS_HOME, a working_directory tool, an SSH helper runtime, and on-demand Claude Code and Codex combo installs; refreshed repository scale; and updated the desktop-port reference to the renamed dsh-tauri org.
+- 2026-10-17 - Recorded the 0.2.1 train reaching its first release candidate, dsh-v0.2.1-rc.1 (October 17), which aggregates the alpha.3 through alpha.5 changes, including plugin discovery from custom index sources and an agent-driven plugin-creation entry in the plugin manager; the project remains prerelease-only.
 
 ## See also
 

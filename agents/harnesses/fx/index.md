@@ -1,7 +1,7 @@
 ---
 title: fx
 created: 2026-08-29
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zig, vercel, embedding]
 readability: 3
@@ -23,7 +23,7 @@ Feature surface: native [AGENTS.md](https://fx.sh/docs/configure-fx/project-inst
 ## Status
 
 **Active and very young.**
-The repository was created August 11, 2026 and shows 3,446 stars and 380 forks as of 2026-10-15, with v0.0.13 the latest release (published October 4, 2026; Ultrafast inference on supported OpenAI models through the AI Gateway at a higher-priced tier, launch up to 23x faster, shell calls up to 8.6x faster, `/mcp add slack` one-step setup, a configurable `auto_compact_percent`, and ACP clients that can steer running turns and host MCP servers over the connection, plus a breaking libfx checkpoint-format change) and pushes landing on the day of verification (GitHub API).
+The repository was created August 11, 2026 and shows 3,446 stars and 380 forks as of 2026-10-15, with v0.0.14 the latest release (published October 16, 2026; durable libfx sessions that survive crashes, redeploys, and function timeouts with idempotent-marked tool reruns, multiple named libfx agents per app, `wakeHandler()` as one HTTP route for every agent, ChatGPT and Grok subscription sign-in for server-side agents, libfx custom OpenAI-compatible endpoints including local model servers, and a move to Zig 0.17) and pushes landing on the day of verification (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vercel-labs/fx&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ Not for anyone who needs local models, provider-key BYOK, or a stable release li
 - 2026-10-05 - Recorded the v0.0.13 release (October 4), which added Ultrafast inference on supported OpenAI models through the AI Gateway, up to 23x faster launch, one-step Slack MCP setup, configurable auto-compaction, and ACP turn steering and MCP hosting, with a breaking libfx checkpoint format, and refreshed repository scale.
 - 2026-10-06 - Refreshed repository counters (3,302 stars) and corrected the stale harness count in the See-also matrix line.
 - 2026-10-07 - Added the vercel-labs/fx star history chart to the Status section.
+- 2026-10-17 - Recorded the v0.0.14 release (October 16), which made libfx sessions durable out of the box (surviving crashes, redeploys, and timeouts with idempotent tool reruns), added multiple named libfx agents and `wakeHandler()`, brought ChatGPT and Grok subscription sign-in to server-side agents, and moved fx to Zig 0.17, and re-fetched every cited reference in the rotation pass.
 
 ## See also
 
@@ -88,7 +89,7 @@ Not for anyone who needs local models, provider-key BYOK, or a stable release li
 
 ## References
 
-- https://github.com/vercel-labs/fx - repository, Apache-2.0, scale and releases, as of 2026-10-15
+- https://github.com/vercel-labs/fx - repository, Apache-2.0, scale and releases, as of 2026-10-17
 - https://fx.sh/ - product claims, 6.17 MiB binary size, Wasm demo
 - https://fx.sh/docs/getting-started/authentication - the three-credential provider model and local token storage
 - https://fx.sh/docs/configure-fx/project-instructions - native AGENTS.md loading

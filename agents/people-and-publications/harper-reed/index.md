@@ -1,7 +1,7 @@
 ---
 title: Harper Reed
 created: 2026-09-24
-updated: 2026-10-04
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, llm-codegen, spec-first, agentic-coding, workflows]
 readability: 3
@@ -16,7 +16,7 @@ Harper Reed is a Chicago technologist and entrepreneur (CTO of Obama's 2012 camp
 
 ## What it is
 
-A personal blog running about 24 years, roughly 1444 posts at about 1.04 posts per week on average, split into long-form posts, near-daily short notes, and a Now page.
+A personal blog running about 24 years, roughly 1444 posts at about 1.03 posts per week on average, split into long-form posts, near-daily short notes, and a Now page.
 The signature piece (2025-02-16) lays out a three-file greenfield workflow: brainstorm a spec with a one-question-at-a-time prompt, have a reasoning model turn spec.md into a prompt_plan.md and todo.md, then execute prompt by prompt with Claude or Aider while tests gate each step, plus a repomix-based context loop for existing codebases.
 The follow-ups generalize it: "An LLM Codegen Hero's Journey" maps the nine-step adoption ladder from autocomplete to full agents, and "Basic Claude Code" ports the workflow to Claude Code with TDD as the anti-hallucination device ("The robots LOVE TDD").
 Everything ships with the actual prompts inline, and posts carry his "written 98% by a human" disclosure.
@@ -65,6 +65,7 @@ Not for readers wanting evaluation methodology, organization-level platform stra
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-10-17 - Rotation re-verification, every cited URL re-fetched and all live: the homepage still leads with the 2026-09-22 containment essay as the newest long-form post, with notes through 2026-10-03, and the about page's rolling average moved from about 1.04 to about 1.03 posts per week (corrected in What it is).
 
 ## See also
 
@@ -78,7 +79,7 @@ Not for readers wanting evaluation methodology, organization-level platform stra
 
 - https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/ - the reference workflow post: spec.md, prompt_plan.md, todo.md, and both execution loops
 - https://harper.blog/ - the blog home: current posts (through 2026-09-22), the notes stream, RSS, and translations
-- https://harper.blog/about/ - the blogging record: about 24 years, about 1444 posts, about 1.04 posts per week
+- https://harper.blog/about/ - the blogging record: about 24 years, about 1444 posts, about 1.03 posts per week
 - https://harperreed.com/ - credentials and timeline: Obama 2012 campaign CTO, Threadless, Modest to PayPal, 2389.ai
 - https://harper.blog/2025/04/17/an-llm-codegen-heros-journey/ - the adoption-ladder follow-up
 - https://harper.blog/2025/05/08/basic-claude-code/ - the Claude Code port and team adoption

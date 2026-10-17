@@ -1,7 +1,7 @@
 ---
 title: Peter Steinberger
 created: 2026-09-24
-updated: 2026-10-12
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, openclaw, developer-tools]
 readability: 3
@@ -64,6 +64,7 @@ Not for neutral analysis or anyone allergic to hype; his incentives follow his p
 
 - 2026-09-24 - Created.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-10-17 - Rotation re-verification, every cited URL re-fetched and all live: the post archive still shows one 2026 post (the February 15 OpenAI announcement), the announcement thread holds at 1,449 points with 1,131 comments, and CodexBar remains under active development (pushed 2026-10-17).
 
 ## See also
 

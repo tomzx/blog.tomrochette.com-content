@@ -1,7 +1,7 @@
 ---
 title: tool-eval-bench
 created: 2026-10-08
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, tool-calling, benchmarking, structured-outputs, open-source]
 readability: 3
@@ -20,6 +20,7 @@ A Python CLI (installed from PyPI, from git with `uv tool install`, or Docker) t
 Each scenario observes one assistant conversation with mock tools, 12 universal tools or 52 in the large-toolset scenarios, and payloads carry deliberate noise so a model that can only read clean fixtures does not pass.
 Every scenario is scored by a deterministic evaluator as PASS (2), PARTIAL (1), or FAIL (0), the loop runs to an 8-turn default limit, and multi-trial runs report Pass@k and Pass^k; throughput, long-context retrieval, and accuracy benchmarks run against the same endpoint.
 The lineage is a credited extension of ToolCall-15, positioned by the project's own related-work table against BFCL, ToolBench, API-Bank, and PinchBench as the local-first, multi-turn, deterministic option.
+An optional local web UI (`tool-eval-bench serve`, added 2026-10-14) reports runs in a browser behind a strict CSP, with performance presets, session ids, and a shareable results card.
 The decision-model track (`--decision`) measures how accurate a `/v1/systemone` endpoint's probabilities are, scoring accuracy, KL and Brier distance against the soft gold distributions of the vendored Typed Decisions test split (served through llama.cpp's `/v1/systemone`), with an optional `--decision-judge` answer audit and a `decision-live` canary monitor that do not change official scores, and it aborts with a message rather than scoring zeros when the surface is missing.
 
 ## Status
@@ -70,6 +71,7 @@ The disagreeable claim I will defend: this category spent September learning to 
 
 - 2026-10-08 - Created from the entrant scan (the structured-output and tool-calling sweep), the category's third benchmark member.
 - 2026-10-10 - Recorded v2.8.0 (2026-10-10, the first release also published on PyPI): Hard Mode grew from 23 to 28 scenarios (97 total, the default run unchanged at 69) with per-capability report breakdown, the decision track gained the Typed Decisions test split served through llama.cpp's `/v1/systemone`, an optional `--decision-judge` audit, and a `decision-live` canary monitor, Strata and TabbyAPI joined the backend set, the test gate moved to 8,739 tests at 93.27 percent branch coverage, and the release notes state 2.7.0 baselines are not like-for-like comparisons; refreshed stars to 382.
+- 2026-10-17 - Volatile re-verification after the 2026-10-13/14 pushes (no release since v2.8.0): recorded the optional `tool-eval-bench serve` web UI (performance presets, session ids, shareable results card, strict CSP).
 
 ## See also
 

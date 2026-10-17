@@ -1,7 +1,7 @@
 ---
 title: Paul Gauthier
 created: 2026-09-24
-updated: 2026-10-12
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, open-source, pair-programming, cli-tools]
 readability: 3
@@ -66,6 +66,7 @@ Not for teams that need an actively maintained tool or current-model guidance, a
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-10-17 - Rotation re-verification, every cited URL re-fetched and all live: the repo API still shows the default branch's last push on 2026-05-22, the leaderboard's newest dated submissions remain the October 2025 DeepSeek entries, and the HN record holds at 97 hits with the critical thread at 139 points and 105 comments.
 
 ## See also
 

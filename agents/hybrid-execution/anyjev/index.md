@@ -1,7 +1,7 @@
 ---
 title: AnyJev
 created: 2026-10-07
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, decision-models, training-free]
 readability: 3
@@ -33,7 +33,7 @@ Active and freshly credible: created 2026-09-21, 1,271 stars, release v0.3.0 pub
 
 This note reverses this section's 2026-09-25 rejection of the same project, which then had 506 stars and no independent coverage; the promised re-review trigger, a second implementation, now exists in kind.
 The third-party local-jev-bench benchmark (2026-09-30, updated 2026-10-05) runs AnyJev against Kev, Winnow, Clef, Von, Jeff, Laya, and CLM on Apple Silicon and reports training-free AnyJev level with the trained engines on the six public transfer sources; community builds such as mesa-anyjev and a Tetris-playing AnyJev judge extend it.
-A third-party board reading arrived with the Decision Index's regenerations: an AnyJev L0 readout over Gemma-4-31B held fifth of 149 configurations on the 2026-10-12 builds at 60.22 (61.27 on the first same-day build), above hosted Jev's 60.11, the method's first board rows, and the 2026-10-14 regeneration (166 configurations) held its score at 60.22 while dropping it to ninth as four new entrants passed it.
+A third-party board reading arrived with the Decision Index's regenerations: an AnyJev L0 readout over Gemma-4-31B held fifth of 149 configurations on the 2026-10-12 builds at 60.22 (61.27 on the first same-day build), above hosted Jev's 60.11, the method's first board rows, and the 2026-10-14 regeneration (166 configurations) held its score at 60.22 while dropping it to ninth as four new entrants passed it, and the 2026-10-16 regeneration (174 configurations, a new StartLux leader) dropped the unchanged 60.22 to fifteenth.
 The HN footprint remains thin (mentions inside decision-model threads, no thread of its own), which this note records as the standing signal.
 
 ## Strengths
@@ -72,6 +72,7 @@ Not for single-digit-millisecond budgets, where the trained single-pass models k
 - 2026-10-12 - Recorded the Decision Index 0.3.1 regeneration's AnyJev L0 row (fifth of 144 at 61.27, above Jev's 60.11, the method's first board reading) and refreshed stars to 1,202.
 - 2026-10-13 - The 0.3.2 relabel and second same-day regeneration (149 configurations) held the L0 row's fifth place while rescoring it to 60.22; refreshed stars to 1,242 and the pushed date to 2026-10-12.
 - 2026-10-15 - The Decision Index's 2026-10-14 regeneration (166 configurations) held the L0 row's score at 60.22 while dropping it from fifth to ninth as four new entrants passed it; refreshed stars to 1,271.
+- 2026-10-17 - The Decision Index's 2026-10-16 regeneration (174 configurations) dropped the L0 row's unchanged 60.22 from ninth to fifteenth behind the new StartLux leader and seven other entrants; no other claims changed.
 
 ## See also
 

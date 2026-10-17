@@ -1,7 +1,7 @@
 ---
 title: Decision Index
 created: 2026-10-07
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, benchmarking, model-evaluation, leaderboard]
 readability: 3
@@ -10,9 +10,9 @@ audience_notes: >
   Assumes you know what a chance-corrected score and a held-out test split are, and have read this category's Jev and JevBench notes.
 ---
 
-The Decision Index is an independent leaderboard for typed decision engines: a frozen public suite of 110,201 requests over 42 benchmarks that anyone can rebuild from pinned sources with an MIT kit, combined with unpublished private tests into a Full score that ranks 166 configurations with hosted Jev twelfth.
+The Decision Index is an independent leaderboard for typed decision engines: a frozen public suite of 110,201 requests over 42 benchmarks that anyone can rebuild from pinned sources with an MIT kit, combined with unpublished private tests into a Full score that ranks 174 configurations with the vendor's new Jev 1.14 thirteenth and the 1.13 reference row eighteenth.
 
-**The category's evidence layer just doubled: JevBench measures decision models deeply on 1,500 decisions per system, the Decision Index measures them broadly across 110,201 requests in five areas, and on the 0.3.2 board's 2026-10-14 regeneration eleven systems sit above hosted Jev (twelfth at 60.11), led by vLLM-SR d3 at 66.26 with linne-oak 1.0 the new second at 65.61, after two 27B-class systems (Perplexity's open-weights Decider v1.1 and Fastino's not-yet-open GLiDE) had been the first to pass it on any independent reading.**
+**The category's evidence layer just doubled: JevBench measures decision models deeply on 1,500 decisions per system, the Decision Index measures them broadly across 110,201 requests in five areas, and on the 0.3.2 board's 2026-10-16 regeneration a new StartLux-Decision v1.1 27B leads at 69.12 with vLLM-SR d3 (66.26) and linne-oak 1.0 (65.61) behind it, the vendor's new Jev 1.14 entered thirteenth at 61.53, and the 1.13 reference row fell to eighteenth at its unchanged 60.11, after two 27B-class systems (Perplexity's open-weights Decider v1.1 and Fastino's not-yet-open GLiDE) had been the first to pass it on any independent reading.**
 
 ## What it is
 
@@ -25,7 +25,7 @@ Editions 0.1 through 0.3 shipped between 2026-09-22 and 2026-10-06, 0.3 rebuildi
 ## Status
 
 Active and current, with a near-zero independent discussion footprint, as of 2026-10-15.
-The board was relabeled 0.3.2 and regenerated twice more, on 2026-10-12 and again on 2026-10-14 (from the morning's 0.3.1 build): 166 configurations, jev-1.13.0 as the reference row, a 34-entrant vision board beside the text suite, and a reasoning board announced for 0.3.x.
+The board was relabeled 0.3.2 and regenerated three more times, on 2026-10-12, 2026-10-14, and 2026-10-16 (from the morning's 0.3.1 build): 174 configurations as of the latest, jev-1.13.0 as the reference row now joined by a Jev 1.14 row, a 34-entrant vision board beside the text suite, and a reasoning board announced for 0.3.x.
 The 2026-10-14 regeneration widened the band above Jev's reference from seven to eleven: vLLM-SR d3 (a 27B) still leads at 66.26, new entrant linne-oak 1.0 (a 31B) took second at 65.61, Mapika's Decider 31B (NVFP4) holds third at its unchanged 64.62, Sieve's new 31B row fourth at 63.81 (Sieve 27B eleventh at its unchanged 60.17), Bobcat 1.3 (31B) fifth at 62.83, Perplexity's Decider v1.1 sixth at its unchanged 62.75, Darwin-27B-ZTC seventh at 62.46, MORJ 1.0.1 (Gemma 4 31B) eighth at 60.96, and hosted Jev twelfth at its unchanged 60.11, where the 0.3.1 build had it ninth of 144.
 
 <picture>
@@ -35,7 +35,7 @@ The 2026-10-14 regeneration widened the band above Jev's reference from seven to
 </picture>
 
 The kit repository shows 52 stars and 88 forks as of 2026-10-15 (pushed 2026-10-14), and the board's HN submissions sit between 1 and 6 points, so unlike JevBench's contested 154-point thread this one has barely been stress-tested in public.
-On the 0.3.2 board Perplexity's Decider v1.1 ranks sixth at 62.75 (a 27B full fine-tune whose weights Perplexity published Apache-2.0 on the Hub on 2026-10-05, 25 likes as of 2026-10-07), Fastino's GLiDE no-thinking (28B) tenth at 60.21 with its weights promised but not shipped, hosted Jev twelfth at 60.11, Torchcast Decision 27B thirteenth at its unchanged 59.91, and Kev 27B eighteenth at its unchanged 58.78; the Space shows 667 likes as of 2026-10-15.
+On the 0.3.2 board Perplexity's Decider (now a v1.2 row) ranks fourth at 65.55 (the v1.1 27B full fine-tune whose weights Perplexity published Apache-2.0 on the Hub on 2026-10-05, 25 likes as of 2026-10-07), Fastino's GLiDE no-thinking (28B) sixteenth at its unchanged 60.21 with its weights promised but not shipped, Jev 1.13 eighteenth at its unchanged 60.11, Torchcast Decision 27B nineteenth at its unchanged 59.91, and Kev 27B twenty-fourth at its unchanged 58.78; the Space shows 667 likes as of 2026-10-15.
 Bespoke Labs exercised the submission flow the day its v3 shipped: Bespoke-Nimble-9B-v3 carries a full published 0.2.1 run (56.88) with the raw results in its own dataset, the first author-submitted run of this suite I can find.
 
 ## Strengths
@@ -77,6 +77,7 @@ The disagreeable claim I will defend: the most important number on this board is
 - 2026-10-12 - The 0.3.1 board regenerated 2026-10-12 with 27 more configurations (144) and a rebuilt top: vLLM-SR d3 the new leader at 65.65 ahead of Mapika's new Decider 31B (65.56), Darwin-27B-ZTC (63.21), Perplexity's Decider v1.1 (fourth, 62.75 unchanged), and an AnyJev L0 readout over Gemma-4-31B fifth at 61.27, pushing hosted Jev from third to ninth at its unchanged 60.11 and Kev 27B from sixth to seventeenth at 58.78; the vision board grew to 28 entrants and the kit to 41 stars and 81 forks.
 - 2026-10-13 - The board was relabeled 0.3.2 and regenerated again later on 2026-10-12 with five more configurations (149): new entrant Sieve 27B took seventh at 60.17, narrowing the band above hosted Jev to seven and moving it from ninth to eighth at its unchanged 60.11, while vLLM-SR d3 was rescored to 66.26, Decider 31B to 64.62, Darwin-27B-ZTC to 62.46, and AnyJev L0 to 60.22, Kev 27B rose from seventeenth to thirteenth at its unchanged 58.78, and the kit moved to 49 stars and 83 forks (pushed 2026-10-12).
 - 2026-10-15 - The 0.3.2 board regenerated 2026-10-14 with seventeen more configurations (166): new entrant linne-oak 1.0 (31B) took second at 65.61, Sieve added a 31B row in fourth at 63.81 (Sieve 27B to eleventh at its unchanged 60.17), Bobcat 1.3 (31B) entered fifth at 62.83, and MORJ 1.0.1 (Gemma 4 31B) eighth at 60.96, widening the band above hosted Jev from seven to eleven and moving it from eighth to twelfth at its unchanged 60.11, while Kev 27B fell from thirteenth to eighteenth at its unchanged 58.78; refreshed the kit to 52 stars and 88 forks (pushed 2026-10-14), the Space to 667 likes, and the vision board to 34 entrants.
+- 2026-10-17 - The 0.3.2 board regenerated 2026-10-16 with eight more configurations (174) and a rebuilt top: new entrant StartLux-Decision v1.1 27B took first at 69.12 (vLLM-SR d3 to second at its unchanged 66.26, linne-oak 1.0 to third), Perplexity's Decider returned as a v1.2 row in fourth at 65.55 (from the v1.1's sixth at 62.75), the vendor's new Jev 1.14 entered thirteenth at 61.53 pushing the 1.13 reference row from twelfth to eighteenth at its unchanged 60.11, Kev 27B fell from eighteenth to twenty-fourth at its unchanged 58.78, and Amos 1 Large, Lychee-27B, KnowLine 35B-A3B Gen1, Bobcat 1.3, and span-02 filled the band between.
 
 ## See also
 
@@ -91,7 +92,7 @@ The disagreeable claim I will defend: the most important number on this board is
 - https://huggingface.co/spaces/multimodalart/jev-decision-index - the board (client-rendered Space; the data files below carry its content)
 - https://huggingface.co/api/spaces/multimodalart/jev-decision-index - Hub API: created 2026-09-17, 667 likes, static SDK (as of 2026-10-15)
 - https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/index.json - the 0.3.2 board data (generated 2026-10-12, fetched 2026-10-13): per-model scores, the 42-benchmark suite header
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the 0.3.2 Full-score components (generated 2026-10-14T09:16:12Z, label 0.3.2, fetched 2026-10-15): the 20/50/30 weights, per-model ranks across 166 rows including the Jev reference, and the vision board's 34 entrants
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the 0.3.2 Full-score components (generated 2026-10-16T19:00:10Z, label 0.3.2, fetched 2026-10-17): the 20/50/30 weights, per-model ranks across 174 rows including both Jev rows, and the vision board's 34 entrants
 - https://raw.githubusercontent.com/apolinario/decision-index/main/README.md - the kit: editions, scoring, submission flow, parity tests, the latency gate, licensing
 - https://api.github.com/repos/apolinario/decision-index - kit repository: MIT, created 2026-09-22, 52 stars, 88 forks, pushed 2026-10-14 (as of 2026-10-15)
 - https://raw.githubusercontent.com/apolinario/decision-index/main/docs/suite.md - the frozen suite: pinned sources, the GSM8K rebuild, subset and exclusion rules

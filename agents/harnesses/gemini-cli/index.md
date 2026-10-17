@@ -1,7 +1,7 @@
 ---
 title: Gemini CLI
 created: 2026-08-22
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, google, developer-tools]
 readability: 3
@@ -25,7 +25,7 @@ It authenticated three ways: **Google OAuth (the famous free tier of 60 requests
 **Superseded for consumers, alive for enterprises.**
 On May 19, 2026, Google announced it was unifying terminal agent work into Google Antigravity, whose Antigravity CLI (written in Go, multi-agent, sharing a harness with the Antigravity 2.0 desktop app) carries over skills, hooks, subagents, and extensions.
 On June 18, 2026, Gemini CLI and the Gemini Code Assist IDE extensions stopped serving requests for Google AI Pro and Ultra subscribers and free individual users.
-Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 107.4k stars, 6,497 commits, nightly and preview release channels as of 2026-10-15.
+Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 107.4k stars, about 6,509 commits, nightly and preview release channels as of 2026-10-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=google-gemini/gemini-cli&type=date&theme=dark&legend=top-left" />
@@ -81,8 +81,8 @@ Not for individuals, whatever the 2025 blog posts (several of which I believed a
 
 ## References
 
-- https://github.com/google-gemini/gemini-cli - repository, README free-tier claims, release channels, as of 2026-10-11
-- https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/ - the May 19, 2026 transition and June 18, 2026 consumer cutoff (re-fetched 2026-09-22)
+- https://github.com/google-gemini/gemini-cli - repository, README free-tier claims, release channels, as of 2026-10-17
+- https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/ - the May 19, 2026 transition and June 18, 2026 consumer cutoff (re-fetched 2026-10-17)
 - https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/ - the June 25, 2025 launch announcement
 - https://developers.google.com/gemini-code-assist/docs/gemini-cli - current enterprise documentation and quota model
 - https://news.ycombinator.com/item?id=44376919 - launch-day discussion, enthusiasm and failures side by side

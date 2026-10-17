@@ -1,7 +1,7 @@
 ---
 title: CUA-S1
 created: 2026-09-20
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, computer-use, system-one-models, open-weights]
 readability: 3
@@ -35,6 +35,7 @@ The launch Show HN thread (2026-09-19) reached 95 points as of 2026-10-07, and t
 
 The original headline numbers remain vendor-run and synthetic-only: 99.94% top-1 on a held-out 22,054-example synthetic split, ECE 0.000148, and 2,589 rows per second, all from the checkpoint's own metadata.
 The Hugging Face model card was materially expanded on 2026-09-21: the checkpoint now ships as a safetensors pair (the loader rejects pickled files by design), a first real-world demo eval landed (100% top-1 over 196 decisions on three real forms and three real PDFs, plus a 37% shuffled-context control), and a zero-fine-tuning head-to-head against the hosted Jev API scored 99.7% for this model against 83.6% for Jev, with the card conceding Jev was never trained on this project's no-op labeling convention.
+The repository no longer ships the original pickle checkpoint at all: it was removed (tracked as trycua/cua#3977, where loading the published .pt failed the loader's own format gate and unpickling is arbitrary code execution), the safetensors pair is the only supported format, and the card now warns against loading any .pt copy, with the component README's pinned-artifacts table carrying the removal note.
 The family has since grown to four checkpoints: cua-s1-nano-0.1, an 855K-parameter from-scratch option-attention scorer for general element/action decisions, and a 4B line, cua-s1-4b-0.1 and cua-s1-4b-0.2, LoRA adapters on a frozen Qwen3.5-4B covering text and multimodal modalities, each trained with its own supervised stage and its own reinforcement-learning stage against live GUI environments.
 The weight pins were refreshed on 2026-09-26 to revisions that add model cards and licenses, and the model card now discloses the forms checkpoint's own boundary: on 41 held-out decisions over out-of-catalogue forms it scored 29.3 percent, defaulting to high-confidence skips.
 The first independent artifacts appeared the days after launch: three community quantizations on Hugging Face and a browser-demo Space built on the checkpoint, with card likes at 116 as of 2026-10-07.
@@ -77,6 +78,7 @@ The disagreeable claim I will defend: a 706k-parameter model trained in public o
 - 2026-09-22 - Recorded the first independent artifacts (three community quantizations and a browser-demo Space), and refreshed thread (92 points), repository (about 26,000 stars), and card (107 likes) counts.
 - 2026-10-06 - Recorded the family's growth to four checkpoints (nano-0.1, an 855K from-scratch element/action scorer; the 4B-0.1 and 4B-0.2 LoRA line on Qwen3.5-4B with supervised plus RL stages), the 2026-09-26 pinned licensed weight revisions, and the model card's 29.3 percent out-of-catalogue form disclosure; refreshed the host repository count to about 28,200 stars.
 - 2026-10-07 - Added the trycua/cua star history chart to the Status section.
+- 2026-10-17 - Volatile re-verification after the host repository's pushes: recorded the removal of the legacy pickle checkpoint from the Hugging Face repository (trycua/cua#3977), leaving the safetensors pair as the only supported format; checkpoint metrics, thread standing (95 points), and card likes re-verified unchanged.
 
 ## See also
 
@@ -90,7 +92,7 @@ The disagreeable claim I will defend: a 706k-parameter model trained in public o
 - https://github.com/trycua/cua - host repository: 29,785 stars, MIT, created 2025-01-31, CUA-S1 announced in the main README (GitHub API, as of 2026-10-15)
 - https://github.com/trycua/cua/tree/main/libs/cua-s1 - component README: the four-checkpoint family (forms, nano-0.1, 4B-0.1/0.2), pinned licensed revisions, safety boundary, MCP server caveats
 - https://github.com/trycua/cua/blob/main/libs/cua-s1/MODEL_CARD.md - model card: tinyx byte-level encoder, option-attention head, the 29.3 percent out-of-catalogue form result, synthetic-only evaluation, licensing caveat
-- https://huggingface.co/cua-ai/cua-s1-forms - weights: MIT, created 2026-09-18, 706,048 parameters, 116 likes as of 2026-10-07, downloads not tracked, now shipping a safetensors pair alongside the original pickle
+- https://huggingface.co/cua-ai/cua-s1-forms - weights: MIT, created 2026-09-18, 706,048 parameters, 116 likes as of 2026-10-07, downloads not tracked, safetensors-only since the pickle checkpoint was removed (trycua/cua#3977; card and removal note re-fetched 2026-10-17)
 - https://huggingface.co/cua-ai/cua-s1-forms/raw/main/cua-s1-forms.json - checkpoint config and best-validation metrics (top1 0.9994, ECE 0.000148, 2,589 rows/s, source checkpoint jevform-best.pt)
 - https://news.ycombinator.com/item?id=49767564 - the Show HN thread (95 points as of 2026-10-03, 5 top-level comments, 2026-09-19), including the unanswered RLCD question
 - https://github.com/trycua/cua/blob/main/libs/cua-s1/SECURITY.md - deployment threat model and least-privilege guidance

@@ -1,7 +1,7 @@
 ---
 title: T3 Code
 created: 2026-10-07
-updated: 2026-10-15
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, mobile-client, control-surface]
 readability: 3
@@ -19,11 +19,11 @@ T3 Code is Ping.gg's MIT-licensed control surface for agent harnesses: one serve
 A local server plus four client surfaces (an iOS app, an Android app, the app.t3.codes web app, and an Electron desktop build) by T3 Tools Inc, Theo Browne's company, MIT licensed with a fork-first policy (25,979 stars, pushed 2026-10-07, as of 2026-10-07).
 The server controls whichever harnesses are installed and authenticated on your machine, across your existing subscriptions, with no key resale and no quota caps, and it can switch models mid-thread.
 Every agent thread writes to its own branch, and one button turns a finished thread into a GitHub pull request with a generated title, body, and changelog, with inline diff review and draft, stack, and amend flows.
-Install is a curl script or brew cask, with nightly releases (v0.0.46-nightly line, multiple builds a day) and an explicit "very early, expect bugs" notice that also says contributions are mostly not accepted yet.
+Install is a curl script or brew cask, with nightly releases (v0.0.46-nightly line, multiple builds a day) plus v0.1.0, the first stable release of the rebuilt Orchestrator V2, published 2026-10-15, and an explicit "very early, expect bugs" notice that also says contributions are mostly not accepted yet.
 
 ## Status
 
-Active and shipping daily: created 2026-02-08, 27,671 stars in eight months, nightly releases, as of 2026-10-15.
+Active and shipping daily: created 2026-02-08, 27,671 stars in eight months, nightly releases with v0.1.0 (2026-10-15) the first stable release of Orchestrator V2, as of 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=pingdotgg/t3code&type=date&theme=dark&legend=top-left" />
@@ -43,7 +43,7 @@ Its Hacker News footprint is small (three submissions in March 2026, the largest
 
 ## Cautions
 
-- Self-described as very early with nightly-only releases and a closed-to-contributors main repo, so the bus factor is one company.
+- Self-described as very early with nightly releases plus a single stable V2 tag and a closed-to-contributors main repo, so the bus factor is one company.
 - The 400,000-developer claim is unaudited marketing.
 - Nothing in the model is exclusive: every harness here ships or partners toward its own remote surface, so the moat is UX and harness breadth, both copyable.
 - Remote access to a machine that runs authenticated agents is a high-value target; the security policy exists but the surface is young.
@@ -67,6 +67,7 @@ Not for teams needing audited remote access today, and not for anyone who wants 
 ## Changes
 
 - 2026-10-07 - Created.
+- 2026-10-17 - Recorded v0.1.0 (October 15) as the first stable release of Orchestrator V2 after the nightly-only line.
 
 ## See also
 
