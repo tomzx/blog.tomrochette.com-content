@@ -1,7 +1,7 @@
 ---
 title: claude-replay
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, replay, shareable-artifacts]
 readability: 3
@@ -23,7 +23,7 @@ A built-in web editor lets you exclude turns, add bookmarks, and edit prompts be
 
 ## Status
 
-Active with a quiet recent month: created 2026-03-02, 844 stars, 67 forks, last push 2026-09-18, as of 2026-10-11.
+Active with a quiet recent month: created 2026-03-02, 844 stars, 67 forks, last push 2026-10-16 (a GitHub Actions dependency bump, the only commit since 2026-09-18), as of 2026-10-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=es617/claude-replay&type=date&theme=dark&legend=top-left" />
@@ -46,7 +46,7 @@ Its own traction numbers are modest: 506 npm downloads in the week to 2026-10-12
 - Smaller scale than the category's spend-auditors and indexers, with modest npm adoption and a one-maintainer bus factor.
 - The conversion targets the harnesses' current log formats, and every format change breaks it until patched; the seven-harness list needs re-verification each harness release.
 - Replays are for humans: nothing here feeds analytics, cost audits, or search back into your workflow.
-- Development has been quiet since 2026-09-18, four weeks as of 2026-10-16, worth watching before depending on it.
+- Development has been quiet since 2026-09-18 (the only commit since is a 2026-10-16 GitHub Actions dependency bump), worth watching before depending on it.
 
 ## Pricing
 
@@ -66,6 +66,7 @@ Not for cost auditing, search, or analytics, and not for teams needing many acti
 ## Changes
 
 - 2026-10-07 - Created.
+- 2026-10-17 - Re-verified on the 2026-10-16 push signal: the only commit since 2026-09-18 is a GitHub Actions dependency bump, so the quiet-development caution stands with that precision; every cited URL re-fetched and live, release line unchanged at v0.11.0.
 
 ## See also
 

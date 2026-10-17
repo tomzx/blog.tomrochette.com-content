@@ -1,7 +1,7 @@
 ---
 title: Cordum
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, safety-kernel, approvals, claude-code]
 readability: 3
@@ -19,6 +19,7 @@ Cordum (cordum-io/cordum) is a BUSL-1.1 source-available agent control plane fro
 A Docker Compose or Helm deployment of six services (API gateway, scheduler, safety kernel, workflow engine, context engine, React dashboard) connected over NATS and Redis, with workers joining through CAP (Cordum Agent Protocol) SDKs for Go, Python, and Node.
 Declarative YAML policies map risk to verdicts, a policy simulator replays rules against historical jobs, and a built-in MCP server adds tenant-scoped tool discovery with an opt-in policy gate before tool calls.
 Cordum Edge is the developer entry point: `cordumctl edge claude` installs a command hook and a local agent daemon so Claude Code shell and file actions are allowed, denied, or held for approval, and a destructive retry must match a resolved approval audit event for the same tenant, approval reference, and action hash.
+The site now headlines the same model as the Action Firewall, and the vendor sibling CordClaw extends it to OpenClaw: an Apache-2.0 plugin and localhost daemon that hook the OpenClaw gateway at four points (agent start, prompt build, tool call, message write) and return one of five typed decisions (ALLOW, DENY, THROTTLE, REQUIRE_HUMAN, CONSTRAIN), with connected-mode routing through Cordum policy still marked in progress and result gating roadmap.
 Enterprise features (SSO, SCIM, advanced RBAC, SIEM export, legal hold) ship in the core and unlock by license entitlement.
 
 ## Status
@@ -74,6 +75,7 @@ Not for OSI-only shops, and not for anyone who needs an adopted project with ind
 ## Changes
 
 - 2026-10-07 - Created from the awesome-ai-governance entrant scan, profiling the source-available dispatch-time control plane and its Claude Code Edge firewall.
+- 2026-10-17 - Full rotation re-verification: every cited URL re-fetched and live, pricing unchanged, the CAP repo re-checked (Apache-2.0, pushed 2026-10-12, SDKs still 2.17.0), the vendor's new CordClaw OpenClaw adapter recorded per the sibling fold, and the site's Action-Firewall framing noted.
 
 ## See also
 
@@ -89,6 +91,7 @@ Not for OSI-only shops, and not for anyone who needs an adopted project with ind
 - https://api.github.com/repos/cordum-io/cordum - stars, forks, issues, creation and push dates as of 2026-10-10
 - https://cordum.io - product framing, the Edge-to-Platform adoption path, availability statements
 - https://cordum.io/pricing - Community, Team, and Enterprise tiers with capacity caps
+- https://cordum.io/cordclaw - the CordClaw OpenClaw adapter: hook points, five decision types, threat model, connected-mode status
 - https://github.com/cordum-io/cap - the CAP protocol repository (Apache-2.0)
 - https://api.github.com/repos/cordum-io/cordum/releases - v1.1.0, 2026-06-03, the latest tagged release
 - https://pypi.org/pypi/cap-sdk-python/json - cap-sdk-python 2.17.0, uploaded 2026-07-22

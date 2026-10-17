@@ -1,7 +1,7 @@
 ---
 title: beads
 created: 2026-08-27
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, issue-tracking, open-source, byok]
 readability: 3
@@ -25,7 +25,7 @@ It lives in the gastownhall organization (renamed from steveyegge, the old name 
 ## Status
 
 Active and moving fast.
-As of 2026-10-16: 27,853 stars (as of 2026-10-14), 1,883 forks, 1,475 open issues, created 2025-10-12, pushed 2026-10-16, latest stable release v1.3.1 on 2026-09-30 (after the v1.3.1-rc.1 and rc.2 prereleases of 2026-09-21 and 2026-09-29, which followed v1.3.0 of 2026-09-15, and with v1.3.2-rc.1 and rc.2 prereleases on 2026-10-05 and 2026-10-10), and 34,233 npm downloads last month.
+As of 2026-10-17: 27,853 stars (as of 2026-10-14), 1,893 forks, 1,487 open issues, created 2025-10-12, pushed 2026-10-17, latest stable release v1.3.1 on 2026-09-30 (after the v1.3.1-rc.1 and rc.2 prereleases of 2026-09-21 and 2026-09-29, which followed v1.3.0 of 2026-09-15, and with v1.3.2-rc.1 and rc.2 prereleases on 2026-10-05 and 2026-10-10), and 34,233 npm downloads last month.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gastownhall/beads&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ The disagreeable claim I will defend: every markdown task file is a beads databa
 - 2026-10-06 - Recorded the v1.3.2-rc.1 prerelease (2026-10-05), refreshed counts (27,658 stars, 1,373 open issues), and noted the repository description now leading with the memory framing.
 - 2026-10-07 - Added the gastownhall/beads star history chart to the Status section.
 - 2026-10-10 - Recorded the v1.3.2-rc.2 prerelease (2026-10-10) and refreshed counts (27,777 stars, 1,879 forks, 1,415 open issues, 33,707 npm downloads).
+- 2026-10-17 - Rotation re-verification with every cited URL re-fetched live (repository, API, docs site, the Rust port, the replacement thread, npm); refreshed counts (1,487 open issues, 1,893 forks, pushed 2026-10-17), with v1.3.2-rc.2 still the newest tag after the v1.3.1 stable.
 
 ## See also
 
@@ -91,7 +92,7 @@ The disagreeable claim I will defend: every markdown task file is a beads databa
 ## References
 
 - https://github.com/gastownhall/beads - README: commands, Dolt modes, setup, git-free usage
-- https://api.github.com/repos/gastownhall/beads - stars, forks, push dates, MIT license as of 2026-10-14
+- https://api.github.com/repos/gastownhall/beads - stars, forks, push dates, MIT license as of 2026-10-17
 - https://beads.gascity.com/ - official documentation site
 - https://github.com/Dicklesworthstone/beads_rust - the community Rust port freezing classic beads, and the Gas Town evolution note
 - https://news.ycombinator.com/item?id=46487580 - the 84-point replacement thread, the critical source

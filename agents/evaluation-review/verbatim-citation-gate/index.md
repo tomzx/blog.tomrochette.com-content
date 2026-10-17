@@ -1,7 +1,7 @@
 ---
 title: Verbatim Citation Gate
 created: 2026-10-10
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, citations, hallucination, guardrails, rag]
 readability: 3
@@ -24,8 +24,9 @@ The docs page describes the maintainer as the Palo Alto AI Research Lab, a self-
 
 ## Status
 
-Active but barely adopted: 4 stars, 3 forks, and 5 open issues as of 2026-10-13, created 2026-07-24, pushed 2026-10-14, with two releases (v0.2.0 on 2026-08-25, v0.1.0 on 2026-08-04) and CI running a tests workflow.
-A Hacker News search returns zero threads as of 2026-10-11, which is the adoption signal here: this is a solo project with a clean mechanism and no independent users on record yet.
+Active but barely adopted: 4 stars, 3 forks, and 5 open issues as of 2026-10-13, created 2026-07-24, pushed 2026-10-16, with three releases (v0.3.0 on 2026-10-16, v0.2.0 on 2026-08-25, v0.1.0 on 2026-08-04) and CI running a tests workflow.
+v0.3.0 adds a `span_gate` that applies the same fail-closed treatment to citations given as character offsets, rejecting unresolvable spans instead of silently clipping them, and it is the project's first outside contribution (PR 12, closing issue 9).
+A Hacker News search returns zero threads as of 2026-10-11, so the adoption signal here is still thin: a solo project with a clean mechanism whose first independent involvement arrived through that October contribution.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tonydzi/verbatim-citation-gate&type=date&theme=dark&legend=top-left" />
@@ -42,9 +43,9 @@ A Hacker News search returns zero threads as of 2026-10-11, which is the adoptio
 
 ## Cautions
 
-- Near-zero adoption: 4 stars and zero discussion as of 2026-10-11 means nobody has independently validated the approach, so treat it as a promising pattern to copy, not a dependency to trust.
+- Near-zero adoption: 4 stars and zero discussion as of 2026-10-11, with the October v0.3.0 contribution the only outside involvement on record, so treat it as a promising pattern to copy, not a dependency to trust.
 - Exact-verbatim matching misses legitimate paraphrase and cross-sentence citations by design, so it fits quote-style citation systems only.
-- The distribution is a git URL install with no PyPI package, and the two releases stopped in August 2026 even though pushes continue.
+- The distribution is a git URL install with no PyPI package (still absent as of 2026-10-17), and the release train ran twice in August then paused until v0.3.0.
 - The "Palo Alto AI Research Lab" branding on the docs is uncorroborated by any organization, funding, or publication record a reader can check.
 
 ## Pricing
@@ -65,6 +66,7 @@ Not for paraphrase-tolerant citation systems, and not as a battle-tested depende
 ## Changes
 
 - 2026-10-10 - Created from the evaluation-review resolution pass as the differentiated judge mechanism: the deterministic zero-token citation-fabrication gate ahead of an LLM judge.
+- 2026-10-17 - Recorded the v0.3.0 release (2026-10-16): offset-span citations under the same fail-closed gate, and the project's first outside contribution (PR 12), with the release-pause caution updated.
 
 ## See also
 
@@ -78,5 +80,6 @@ Not for paraphrase-tolerant citation systems, and not as a battle-tested depende
 - https://github.com/tonydzi/verbatim-citation-gate - repository: README, two-stage design, test names, license
 - https://api.github.com/repos/tonydzi/verbatim-citation-gate - stars, forks, issues, creation and push dates as of 2026-10-11
 - https://api.github.com/repos/tonydzi/verbatim-citation-gate/releases - v0.2.0 (2026-08-25) and v0.1.0 (2026-08-04)
+- https://api.github.com/repos/tonydzi/verbatim-citation-gate/releases/tags/v0.3.0 - v0.3.0 (2026-10-16): the span_gate release notes and the first outside contribution (PR 12)
 - https://tonydzi.github.io/verbatim-citation-gate/ - the docs page: two-stage diagram, known limits, and the self-styled lab attribution
 - https://hn.algolia.com/api/v1/search?query=verbatim-citation-gate&hitsPerPage=3 - the zero-thread community-footprint check as of 2026-10-11

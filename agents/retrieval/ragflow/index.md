@@ -1,7 +1,7 @@
 ---
 title: RAGFlow
 created: 2026-10-06
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, document-parsing, agents]
 readability: 3
@@ -17,13 +17,13 @@ RAGFlow is an Apache-2.0 open-source RAG engine from InfiniFlow that turns docum
 ## What it is
 
 A full engine, not a library: DeepDoc handles layout analysis, OCR, and table recognition, chunking is template-based per document kind (Word, slides, Excel, images, scanned copies, structured data, web pages, and more), and every answer ships with traceable citations plus a chunk view you can correct by hand.
-Since August 2026 it compiles datasets into agent-usable knowledge artifacts (wikis, graphs, trees, page indexes, mind maps, timelines, skills) and runs agentic retrieval with Low, Medium, High, and Ultra thinking modes.
+Since August 2026 it compiles datasets into agent-usable knowledge artifacts (wikis, graphs, trees, page indexes, mind maps, timelines, skills) and runs agentic retrieval, whose v1.0 release candidates replaced the Low, Medium, High, and Ultra thinking levels with a single Agentic chat mode.
 Surfaces: a web UI, REST API and Python SDK, an optional MCP server and sandbox executor, Docker deployment, and a hosted cloud.
 Made by InfiniFlow, with v1.0.0-rc1 (2026-09-29) rewriting the service layer in Go: API, Admin, Ingestor, and Syncer as one Go service, NATS for messaging, Kvrocks for cache and checkpoints.
 
 ## Status
 
-Very active and very large: 92,158 stars and 10,979 forks as of 2026-10-13, pushed 2026-10-16 (GitHub API, as of 2026-10-16), with 3.9M Docker pulls (ragflow-stats badge, re-verified 2026-10-16).
+Very active and very large: 92,158 stars and 10,979 forks as of 2026-10-13, pushed 2026-10-17 (GitHub API, as of 2026-10-17), with 3.9M Docker pulls (ragflow-stats badge, re-verified 2026-10-16).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=infiniflow/ragflow&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Very active and very large: 92,158 stars and 10,979 forks as of 2026-10-13, push
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=infiniflow/ragflow&type=date&legend=top-left" />
 </picture>
 
-The latest release is v1.0.0-rc1 (2026-09-29), a preview of the comprehensive Go rewrite, and its release notes warn that the data upgrade from v0.27.2 is irreversible (re-verified still latest 2026-10-16).
+The latest release is v1.0.0-rc2 (2026-10-16), the second release candidate of the comprehensive Go rewrite: it keeps rc1 data compatible for direct upgrades, and the one-way migration warning now applies to upgrades from the pre-1.0 v0.27.2 line.
 The discussion footprint is front-loaded: a 230-point launch thread in April 2024 with 53 comments, 294 comment mentions on Hacker News since the start of 2025 (as of 2026-10-06), and only 2 of those in 2026 itself, a quieting worth weighing against the star count.
 
 ## Strengths
@@ -45,7 +45,7 @@ The discussion footprint is front-loaded: a 230-point launch thread in April 202
 
 - **ZeroPath disclosed a post-auth RCE in RAGFlow 0.24 (April 2026) affecting instances that use Infinity for chunk storage, reported to the project on 2026-03-03 as GHSA-vw46-rrp3-c99v and unpatched as of the article, with about 1,918 instances exposed on the public internet; the advisory remains absent from GitHub's global advisory database (re-checked 2026-10-16).**
 - **The repository's own security-advisories page carries a published record the global database lacks: six advisories as of 2026-10-16, including two 2026 criticals with no patched version listed, a Jinja2 template-injection RCE in the Agent Text Processing and Message components (CVE-2026-28797, published 2026-04-01) and a Zip Slip RCE in the MinerU parser (CVE-2026-24770, published 2026-01-27), alongside 2025's CodeExec eval RCE, a predictable-token authentication bypass, and a critical SQL injection.**
-- The 1.0 rewrite is disruptive by its own release notes: a one-way data migration from v0.27.2, the local sandbox dropped, DeepDoc CPU-only, and the Team/Me permission model not yet supported.
+- The 1.0 rewrite is disruptive for pre-1.0 installs by its own release notes: the v0.27.2 data upgrade is irreversible, the local sandbox is dropped, and DeepDoc is CPU-only; rc2 restored Team/Me sharing and keeps rc1 data compatible, so the break lands between v0.27.x and the 1.0 line.
 - Self-hosting is a stack, not a binary: the README recommends 4 CPU cores, 16 GB RAM, and 50 GB disk, and the compose file carries MySQL plus a document engine (Elasticsearch, with kernel tuning, or Infinity) alongside the new NATS and Kvrocks services.
 - The cloud free tier is deliberately tiny (0.1 GB storage, 500 credits a month, no API key), and the cloud app itself is a login-walled client-side application, so the tiers are only readable on the marketing page.
 
@@ -77,6 +77,7 @@ My disagreeable claim: what RAGFlow actually sells is trust, and the star count 
 - 2026-10-06 - Created in the daily refresh's retrieval entrant scan.
 - 2026-10-07 - Added the infiniflow/ragflow star history chart to the Status section.
 - 2026-10-16 - Rotation re-verification re-fetched every cited URL live (cloud tiers and Docker pulls unchanged, v1.0.0-rc1 still latest, the ZeroPath advisory still absent from the global database), and the Cautions section gained the repository's own published advisory record: six advisories including two 2026 critical RCEs (CVE-2026-28797 template injection, CVE-2026-24770 Zip Slip) each listing no patched version.
+- 2026-10-17 - Recorded v1.0.0-rc2 (2026-10-16): a single Agentic chat mode replacing the Low/Medium/High/Ultra thinking levels, Team/Me sharing support, and rc1 data compatibility, with the repository activity refreshed (pushed 2026-10-17); the Cautions line now dates the one-way migration break to the v0.27.x-to-1.0 upgrade.
 
 ## See also
 
@@ -87,10 +88,10 @@ My disagreeable claim: what RAGFlow actually sells is trust, and the star count 
 
 ## References
 
-- https://api.github.com/repos/infiniflow/ragflow - 92,158 stars and 10,979 forks (as of 2026-10-13), Apache-2.0, Go, created 2023-12-12, pushed 2026-10-16 (GitHub API, as of 2026-10-16)
+- https://api.github.com/repos/infiniflow/ragflow - 92,158 stars and 10,979 forks (as of 2026-10-13), Apache-2.0, Go, created 2023-12-12, pushed 2026-10-17, 1,340 open issues (GitHub API, as of 2026-10-17)
 - https://raw.githubusercontent.com/infiniflow/ragflow/main/README.md - DeepDoc, template-based chunking, knowledge compilation, agentic retrieval modes, Go-native architecture, deployment requirements (re-verified unchanged 2026-10-16)
 - https://raw.githubusercontent.com/infiniflow/ragflow/main/docs/release_notes.md - the v1.0.0-rc1 Go rewrite, NATS and Kvrocks migration, irreversible v0.27.2 upgrade, known issues (re-verified unchanged 2026-10-16)
-- https://api.github.com/repos/infiniflow/ragflow/releases/latest - v1.0.0-rc1 published 2026-09-29 (re-verified still latest 2026-10-16)
+- https://api.github.com/repos/infiniflow/ragflow/releases/latest - v1.0.0-rc2 published 2026-10-16: Agentic chat mode, Team/Me sharing, rc1 data compatibility (fetched 2026-10-17)
 - https://ragflow.io/ - the pricing section: Free $0, Starter $29 (from $59), Pro $129 (from $259), Enterprise custom (re-verified unchanged 2026-10-16)
 - https://ragflow.io/docs/ - official docs root, HTTP 200 on 2026-10-16 (server-rendered; the /docs/dev/ path meta-refreshes here)
 - https://zeropath.com/blog/ragflow-rce-unpatched-vulnerability - the April 2026 post-auth RCE disclosure (GHSA-vw46-rrp3-c99v, Shodan-exposed instances), the critical source (re-verified live and unchanged 2026-10-16)

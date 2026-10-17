@@ -1,7 +1,7 @@
 ---
 title: It's a Plan
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, self-hosted, multi-agent, agpl]
 readability: 3
@@ -24,7 +24,7 @@ Andrii Poluosmak (the croffasia identity) maintains it under AGPL-3.0, except th
 ## Status
 
 Young, active, and climbing fast for its age.
-As of 2026-10-16: 963 stars (as of 2026-10-14), 159 forks, 46 open issues and pull requests, 35 contributors, created 2026-07-14, pushed 2026-10-15, 25 releases on a steady train, and 797 npm downloads last month for @itsaplan/runner.
+As of 2026-10-17: 963 stars (as of 2026-10-14), 169 forks, 50 open issues and pull requests, 35 contributors, created 2026-07-14, pushed 2026-10-16, 25 releases on a steady train, and 797 npm downloads last month for @itsaplan/runner.
 v1.4.0 (2026-10-08) added agent schedules that also trigger when an issue enters a chosen state, plus Linear import, and v1.5.0 (2026-10-13) added agent usage accounting (cost, tokens, and runs by model, agent, project, and day, with admin-set prices for models the built-in table lacks), account deactivation, an api-on-subpath deployment mode, and the better-auth 1.7.7 fix for the critical OIDC sign-in advisory GHSA-965c-763c-88jm.
 
 <picture>
@@ -86,7 +86,7 @@ My disagreeable claim: an assignee slot is a sharper agent interface than an MCP
 
 - https://itsaplan.dev - the product site: agents as teammates, views, deployment paths, the Product Hunt badge
 - https://github.com/croffasia/itsaplan - README: features, stack, license split, deployment options, the breaking-changes warning
-- https://api.github.com/repos/croffasia/itsaplan - stars, forks, contributors, dates, AGPL-3.0 as of 2026-10-14
+- https://api.github.com/repos/croffasia/itsaplan - stars, forks, contributors, dates, AGPL-3.0 as of 2026-10-17
 - https://itsaplan.dev/changelog - the release train: v1.0.0 2026-09-15 through v1.5.0 2026-10-13, Plane import, Linear import, OIDC and SCIM
 - https://github.com/croffasia/itsaplan/releases/tag/v1.5.0 - the v1.5.0 notes: usage accounting, account deactivation, the subpath deployment mode, the better-auth security fix
 - https://news.ycombinator.com/item?id=49971516 - the 1-point, comment-free throwaway thread, the missing-community-footprint signal

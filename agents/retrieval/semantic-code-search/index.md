@@ -1,7 +1,7 @@
 ---
 title: Semantic code search in coding tools
 created: 2026-08-24
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, code-retrieval, embeddings, rag, llm=glm-5.3-flash]
 readability: 3
@@ -79,9 +79,9 @@ The Devin and VS Code platform bets are the counterargument, and they may well w
 
 ## References
 
-- https://cursor.com/docs/context/codebase-indexing - retitled Search: Instant Grep, the Explore subagent, and the statement that Cursor does not store codebase embeddings for search (re-verified unchanged 2026-10-16)
-- https://code.visualstudio.com/docs/agents/reference/workspace-context - Copilot's search tool set, the GitHub, Azure DevOps, and local index sources, and the no-index fallback (page updated 2026-10-14, re-verified unchanged in the checked claims 2026-10-16)
-- https://docs.continue.dev/reference/deprecated-codebase - the deprecated local embeddings pipeline (transformers.js, hybrid retrieval, LLM reranking), re-verified unchanged 2026-10-16
-- https://docs.continue.dev/guides/codebase-documentation-awareness - the replacement model: agent tools, rules, and MCP servers (re-verified unchanged 2026-10-16)
-- https://docs.devin.ai/desktop/context-awareness/windsurf-overview - the RAG context engine and plan-gated indexing in Devin Desktop (re-verified unchanged 2026-10-16)
-- https://aider.chat/docs/repomap.html - graph-ranked repo maps as retrieval without embeddings (re-verified unchanged 2026-10-16)
+- https://cursor.com/docs/context/codebase-indexing - retitled Search: Instant Grep, the Explore subagent, and the statement that Cursor does not store codebase embeddings for search (re-verified unchanged 2026-10-17)
+- https://code.visualstudio.com/docs/agents/reference/workspace-context - Copilot's search tool set, the GitHub, Azure DevOps, and local index sources, and the no-index fallback (page updated 2026-10-14, re-verified unchanged in the checked claims 2026-10-17)
+- https://docs.continue.dev/reference/deprecated-codebase - the deprecated local embeddings pipeline (transformers.js, hybrid retrieval, LLM reranking), re-verified unchanged 2026-10-17
+- https://docs.continue.dev/guides/codebase-documentation-awareness - the replacement model: agent tools, rules, and MCP servers (re-verified unchanged 2026-10-17)
+- https://docs.devin.ai/desktop/context-awareness/windsurf-overview - the RAG context engine and plan-gated indexing in Devin Desktop (re-verified unchanged 2026-10-17)
+- https://aider.chat/docs/repomap.html - graph-ranked repo maps as retrieval without embeddings (re-verified unchanged 2026-10-17)

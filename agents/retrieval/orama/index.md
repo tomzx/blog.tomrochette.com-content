@@ -1,7 +1,7 @@
 ---
 title: Orama
 created: 2026-10-06
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, search-engine, rag, typescript]
 readability: 3
@@ -23,7 +23,7 @@ It is made by OramaSearch Inc., written in TypeScript, and runs in Node, browser
 ## Status
 
 **Actively installed, slowly maintained: the npm firehose keeps flowing while the repository has gone quiet.**
-10,574 stars and 407 forks as of 2026-10-13; the latest release is still v3.1.18, published 2025-12-19, the most recent main-branch commit is still the 2026-07-03 community CJK plugin fix (re-verified 2026-10-16), and the repository shows push activity on 2026-10-08 without a main-branch commit since July.
+10,574 stars and 407 forks as of 2026-10-13; the latest release is still v3.1.18, published 2025-12-19, the most recent main-branch commit is still the 2026-07-03 community CJK plugin fix (re-verified 2026-10-17), and the repository shows push activity on 2026-10-08 without a main-branch commit since July.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=oramasearch/orama&type=date&theme=dark&legend=top-left" />
@@ -77,12 +77,12 @@ Not for code-aware retrieval (grep-first loops or a code index serve better) or 
 ## References
 
 - https://api.github.com/repos/oramasearch/orama - repository facts (10,574 stars, 407 forks, TypeScript, ~2kb core description, pushed 2026-10-08, as of 2026-10-13)
-- https://raw.githubusercontent.com/oramasearch/orama/main/README.md - features, ten data types, plugin list, Answer Engine, install targets (re-verified unchanged 2026-10-16)
-- https://raw.githubusercontent.com/oramasearch/orama/main/LICENSE.md - the standard Apache-2.0 text, Copyright 2023 OramaSearch Inc. (re-verified 2026-10-16)
-- https://api.npmjs.org/downloads/point/last-week/@orama/orama - 1,440,525 downloads/week, window 2026-10-06 to 2026-10-12 (re-verified unchanged 2026-10-16)
-- https://api.github.com/repos/oramasearch/orama/releases/latest - v3.1.18 published 2025-12-19 (re-verified still latest 2026-10-16)
-- https://api.github.com/repos/oramasearch/orama/commits?per_page=1 - latest main-branch commit 2026-07-03 (CJK plugin fix by a community contributor, re-verified 2026-10-16)
-- https://hn.algolia.com/api/v1/search?query=orama - the near-empty HN footprint (1-point 2023 story; demos at 2 to 5 points, re-verified 2026-10-16)
-- https://registry.npmjs.org/orama - the unrelated stale "Plug and play React charts" package (latest 2.0.6, re-verified 2026-10-16)
-- https://api.npmjs.org/downloads/point/last-week/orama - 158 downloads/week for the stale package, window 2026-10-06 to 2026-10-12 (fetched 2026-10-16)
-- https://docs.orama.com/open-source - official docs root, including the Chinese and Japanese guides (fetched 2026-10-16)
+- https://raw.githubusercontent.com/oramasearch/orama/main/README.md - features, ten data types, plugin list, Answer Engine, install targets (re-verified unchanged 2026-10-17)
+- https://raw.githubusercontent.com/oramasearch/orama/main/LICENSE.md - the standard Apache-2.0 text, Copyright 2023 OramaSearch Inc. (re-verified 2026-10-17)
+- https://api.npmjs.org/downloads/point/last-week/@orama/orama - 1,440,525 downloads/week, window 2026-10-06 to 2026-10-12 (re-verified unchanged 2026-10-17)
+- https://api.github.com/repos/oramasearch/orama/releases/latest - v3.1.18 published 2025-12-19 (re-verified still latest 2026-10-17)
+- https://api.github.com/repos/oramasearch/orama/commits?per_page=1 - latest main-branch commit 2026-07-03 (CJK plugin fix by a community contributor, re-verified 2026-10-17)
+- https://hn.algolia.com/api/v1/search?query=orama - the near-empty HN footprint (1-point 2023 story; demos at 2 to 5 points, re-verified 2026-10-17)
+- https://registry.npmjs.org/orama - the unrelated stale "Plug and play React charts" package (latest 2.0.6, re-verified 2026-10-17)
+- https://api.npmjs.org/downloads/point/last-week/orama - 158 downloads/week for the stale package, window 2026-10-06 to 2026-10-12 (fetched 2026-10-17)
+- https://docs.orama.com/open-source - official docs root, including the Chinese and Japanese guides (fetched 2026-10-17)

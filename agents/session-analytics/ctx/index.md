@@ -1,7 +1,7 @@
 ---
 title: "ctx"
 created: 2026-09-05
-updated: 2026-10-11
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, cli]
 readability: 3
@@ -85,6 +85,7 @@ Not for anyone needing audited cost reporting (agentsview's job) or provenance g
 - 2026-10-03 - Release line moved to v2.2.7 (2026-10-02): v2.2.6 added `ctx import --all --incremental` for one-pass catch-up imports and v2.2.7 fixed incremental Codex-rollout imports and Sift output-hook telemetry; repository counts refreshed (1,145 to 1,147 stars).
 - 2026-10-06 - Release line moved to v2.2.8 (2026-10-05, incremental-import and blame-worker fixes); repository counts refreshed (1,148 to 1,149 stars, 74 to 76 forks).
 - 2026-10-07 - Added the ctxrs/ctx star history chart to the Status section.
+- 2026-10-17 - Rotation re-verification: all seven cited URLs re-fetched and live; release line (v2.2.8, 2026-10-05), repository state, the home-page efficiency claim, and the no-paid-tier reading all unchanged.
 
 ## See also
 

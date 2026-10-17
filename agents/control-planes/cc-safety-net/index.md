@@ -1,7 +1,7 @@
 ---
 title: CC Safety Net
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, guardrails, security, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, single-repo open source, with full documentation at ccsafetynet.com.
 
 ## Status
 
-Actively maintained with no Hacker News help: 1,615 stars, 84 forks, and 2 open issues or PRs as of 2026-10-14, created 2025-12-25, pushed 2026-10-15.
+Actively maintained with no Hacker News help: 1,615 stars, 84 forks, and 1 open issue or PR as of 2026-10-17, created 2025-12-25, pushed 2026-10-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Actively maintained with no Hacker News help: 1,615 stars, 84 forks, and 2 open 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&theme=dark&legend=top-left" />
 </picture>
 
-The npm package (`cc-safety-net`) is at 2.6.12 as of 2026-10-16, first published 2026-01-03 and last published 2026-10-15, so the release cadence is measured in days.
+The npm package (`cc-safety-net`) is at 2.6.13 as of 2026-10-17, first published 2026-01-03 and last published 2026-10-17, so the release cadence is measured in days.
 **A Hacker News search returns zero threads as of 2026-10-07, so ten months of growth came through npm and GitHub alone, and the missing community footprint means the security claims have no public adversarial review I could find.**
 
 ## Strengths
@@ -71,6 +71,7 @@ Not for org-scale governance, audited enforcement, or anything where a silently 
 - 2026-10-11 - npm train moved to 2.6.8 (published 2026-10-11); scale refreshed (1,583 stars, pushed 2026-10-11).
 - 2026-10-13 - npm train moved to 2.6.10 (published 2026-10-12); scale refreshed (1,606 stars, pushed 2026-10-13).
 - 2026-10-16 - npm train moved to 2.6.12 (published 2026-10-15).
+- 2026-10-17 - npm train moved to 2.6.13 (published 2026-10-17).
 
 ## See also
 

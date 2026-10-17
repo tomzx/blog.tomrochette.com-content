@@ -1,7 +1,7 @@
 ---
 title: AgentTrace
 created: 2026-09-27
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, tui, open-source]
 readability: 3
@@ -41,7 +41,7 @@ v0.10.1 (2026-10-05) corrected token accounting across agents (Claude Code and C
 
 ## Strengths
 
-- Breadth of local parsing is unusually wide for its age: about 15 named harness formats plus generic JSON and JSONL behind one binary.
+- Breadth of local parsing is unusually wide for its age: about 13 named harness formats plus generic JSON and JSONL behind one binary.
 - Slow-run diagnosis is the differentiator: it surfaces long gaps, hanging sessions, retry loops, slow tool calls, large parameters, and context pressure, which the cost-first tools in this category do not.
 - Governance reports are deliberate about evidence quality, labeling cost and delivery numbers as estimates or heuristics and reporting parse and pricing confidence instead of hiding gaps.
 - CI integration is first class: `--overview` exits with code 2 on a failed health, critical-session, or tool-failure gate, and it can keep JSON on stdout while writing a Markdown or HTML artifact.
@@ -78,6 +78,7 @@ Not for live observation, transcript search, or line-level provenance.
 - 2026-10-05 - Recorded v0.9.1 and v0.10.0 (2026-10-04): the schema-v24 cache rebuild, the Qwen-misclassification fix, subagent cost attribution to parent sessions, timezone-aware period reports and 5-hour blocks, and the self-updater with winget dropped; refreshed repository counts.
 - 2026-10-06 - Recorded v0.10.1 (2026-10-05): cross-agent token-accounting corrections (lower Claude Code and Codex totals), the schema-v26 cache rebuild, and Gemini CLI support removed as discontinued upstream, with Antigravity sessions still read; the format count and the matrix's agents-covered cell updated, repository counts refreshed, and the ROADMAP reference repointed to docs/ROADMAP.md after the file moved from the repository root.
 - 2026-10-07 - Added the luoyuctl/agenttrace star history chart to the Status section.
+- 2026-10-17 - Corrected the Strengths coverage line from about 15 to about 13 named formats, stale since v0.10.1 removed Gemini CLI; releases (still v0.10.1) and repository state re-verified unchanged since 2026-10-16.
 
 ## See also
 

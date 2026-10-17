@@ -1,7 +1,7 @@
 ---
 title: ClawTrace
 created: 2026-09-27
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, session-analytics, observability, openclaw, cost-tracking]
 readability: 3
@@ -84,6 +84,7 @@ Not for anyone who needs traces to stay local, multi-harness coverage, or a self
 - 2026-09-27 - Created.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-07 - Added the epsilla-cloud/clawtrace star history chart to the Status section.
+- 2026-10-17 - Rotation re-verification: all eight cited URLs re-fetched and live; repository state (pushed 2026-08-15), the eight-hook README, the credit packages and rates (100 free credits on sign-up still; the 200-credit figure is the referral bonus), and the paper page all unchanged.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Code Atelier Governance SDK
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-governance, policy-enforcement, audit-trail, postgres, human-in-the-loop]
 readability: 3
@@ -36,7 +36,7 @@ The repository has 0 stars, 0 forks, and no description or topics, which is unus
 
 **The community footprint is absent: a Hacker News search for Code Atelier governance returns nothing, so every claim here rests on the vendor's own pages and the repository.**
 **What earns the note despite the silence is the threat model, which states plainly what the SDK does not protect against instead of implying it is a complete security boundary.**
-The vendor also publishes a scaffolder that wires a Microsoft Agent Governance Toolkit agent through these gates, which is a rare, concrete interoperability gesture in this category.
+The vendor also publishes a scaffolder (`codeatelier-governance recipe agt`) that wires a Microsoft Agent Framework agent through these gates, which is a rare, concrete interoperability gesture in this category.
 
 ## Strengths
 
@@ -73,6 +73,7 @@ A hosted platform exists through an opt-in bridge that dual-writes audit events 
 - 2026-09-27 - Created.
 - 2026-10-02 - Moved the status to dormant (no source push since 2026-07-23) and added the missing llm=glm-5.3-flash tag; version 0.7.3 re-verified as current on PyPI.
 - 2026-10-07 - Added the imleopereira/agentic-governance star history chart to the Status section.
+- 2026-10-17 - Full rotation re-verification: every cited URL re-fetched and live, the repository and PyPI both unchanged (0 stars, v0.7.3, still dormant since 2026-07-23), and the scaffolder target corrected from the Governance Toolkit to Microsoft Agent Framework, which is what the recipe's own docs and changelog name.
 
 ## See also
 

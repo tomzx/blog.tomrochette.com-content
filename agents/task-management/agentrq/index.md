@@ -1,7 +1,7 @@
 ---
 title: AgentRQ
 created: 2026-10-13
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, mcp, human-in-the-loop, self-hosted]
 readability: 3
@@ -18,11 +18,11 @@ AgentRQ is an AGPL-3.0, self-hosted human-in-the-loop task platform where agents
 
 A self-hosted platform (web, desktop, and a Chrome extension) that exposes a task management workspace to AI models over MCP and accepts work from any harness with ACP support, designed around the Claude subscription you already have.
 Humans break goals into tasks and delegate; agents pull assignments, update statuses, and request permissions for sensitive actions in realtime; the board renders captures of the running app rather than mockups, per its own README.
-A companion Chrome extension carries the board into the browser, and a Discord community backs the install.
+A companion Chrome extension carries the board into the browser; the README carried a Discord link until v0.12.0 removed it, so the community channel is currently undocumented.
 
 ## Status
 
-Active and modest: 1,152 stars as of 2026-10-14, 85 forks, and 2 open issues as of 2026-10-16, created 2026-03-24, pushed 2026-10-16, AGPL-3.0 throughout, on a three-release train in two days (v0.11.1 to v0.11.3, 2026-10-15 and 2026-10-16) that added a native-ACP reasoning-level picker and refactored the ACP link layer into a protocol-neutral agentlink package.
+Active and modest: 1,152 stars as of 2026-10-14, 85 forks, and 2 open issues and pull requests as of 2026-10-17, created 2026-03-24, pushed 2026-10-17, AGPL-3.0 throughout, on a three-release train in two days (v0.11.1 to v0.11.3, 2026-10-15 and 2026-10-16) that added a native-ACP reasoning-level picker and refactored the ACP link layer into a protocol-neutral agentlink package, then v0.12.0 (2026-10-17), a security-and-ops minor that fixed SQL-injection and tool-spoofing holes in the ACP tool-call path, made the acp-gateway speak only native ACP v1, and added health and readiness probes with S3-shared TLS certificates.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentrq/agentrq&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Active and modest: 1,152 stars as of 2026-10-14, 85 forks, and 2 open issues as 
 </picture>
 
 **The independent record exists but is small: a 6-point Show HN from April 2026, a 2-point follow-up discussion, and little third-party coverage since, so the realtime claim rests on the README's own captures rather than field reports.**
-Five open issues against an active branch suggests either a quiet user base or fast triage; the README does not say which.
+Two open issues and pull requests against an active branch suggests either a quiet user base or fast triage; the README does not say which.
 
 ## Strengths
 
@@ -69,6 +69,7 @@ Not for AGPL-constrained teams, or anyone needing repository-native task storage
 
 - 2026-10-13 - Created.
 - 2026-10-16 - Recorded the v0.11.1 to v0.11.3 release train (2026-10-15 and 2026-10-16: the native-ACP reasoning-level picker, the protocol-neutral agentlink package, and task-save and publish fixes) and refreshed counts (2 open issues, pushed 2026-10-16).
+- 2026-10-17 - Recorded v0.12.0 (2026-10-17: SQL-injection and tool-spoofing fixes in the ACP tool-call path, the acp-gateway speaking only native ACP v1, health and readiness probes, S3-shared TLS certificates, and the README's Discord link removed) and refreshed counts (pushed 2026-10-17).
 
 ## See also
 
@@ -84,5 +85,5 @@ Not for AGPL-constrained teams, or anyone needing repository-native task storage
 - https://agentrq.com/ - the product site and self-hosted positioning
 - https://github.com/agentrq/agentrq/blob/main/README.md - the feature set, realtime capture claims, and harness support statement
 - https://chromewebstore.google.com/detail/agentrq/iadkenmjgjoilnioldgchgjpdnbaghbj - the published Chrome extension backing the browser surface
-- https://api.github.com/repos/agentrq/agentrq/releases - v0.11.1 to v0.11.3 (2026-10-15 and 2026-10-16) and the release train
+- https://api.github.com/repos/agentrq/agentrq/releases - v0.11.1 to v0.11.3 (2026-10-15 and 2026-10-16) and v0.12.0 (2026-10-17): the release train and the security fixes
 - https://news.ycombinator.com/item?id=47958608 - the April 2026 Show HN (6 points), the project's main independent footprint

@@ -1,7 +1,7 @@
 ---
 title: arifOS
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, governance-kernel, mcp, open-source]
 readability: 3
@@ -16,7 +16,7 @@ arifOS (ariffazil/arifOS) is an AGPL-3.0 governance kernel for MCP agents that e
 
 ## What it is
 
-A single-maintainer kernel you self-host or reach as the maintainer's public MCP endpoint (streamable HTTP, eight canonical verbs, published schemas), installable with `pip install arifos` and calendar-versioned (PyPI 1!2026.10.11).
+A single-maintainer kernel you self-host or reach as the maintainer's public MCP endpoint (streamable HTTP, eight canonical verbs, published schemas), installable with `pip install arifos` and calendar-versioned (PyPI 1!2026.10.17).
 The federation assigns roles so no component holds all the power: AAA does discovery and attention, arifOS judges, A-FORGE executes (file, service, and git mutations gated by per-action-class budgets, HMAC-signed requests, and a receipt per run), FRAME witnesses, and VAULT999 remembers, with proposer-judge-executor-witness separation stated as an invariant.
 The thirteen floors are the policy gates, the README naming F2, F11, F12, and F13 as the ones currently failing, and the wire contract answers with seven verdicts rather than a boolean.
 Verdicts land in VAULT999 (457,000-plus append-only records per the repository's own manifest) with decision context, evidence references, and provenance hashes, and an A2A v1.0 agent card exposes the kernel to agent-to-agent discovery.
@@ -24,7 +24,7 @@ The maintainer positions it as the layer between "agent wants to act" and "actio
 
 ## Status
 
-Active and early: 54 stars, 9 forks, and 21 open issues as of 2026-10-16, created 2025-11-17, pushed 2026-10-15, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
+Active and early: 54 stars, 9 forks, and 19 open issues as of 2026-10-17, created 2025-11-17, pushed 2026-10-17, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ariffazil/arifOS&type=date&theme=dark&legend=top-left" />
@@ -81,7 +81,7 @@ Not for anyone who needs verified actor identity, measured floors, or a communit
 
 - https://github.com/ariffazil/arifOS - README: floors, verdicts, federation roles, verified-state block, A2A card, CI gates
 - https://github.com/ariffazil/A-FORGE - the sibling executor: per-action-class budgets, HMAC-signed requests, receipt per run, never self-authorizes
-- https://pypi.org/pypi/arifos/json - the calendar-versioned PyPI package, 1!2026.10.11
+- https://pypi.org/pypi/arifos/json - the calendar-versioned PyPI package, 1!2026.10.17
 - https://arifos.arif-fazil.com/ - the kernel's documentation and deployment surface
 - https://arifos.arif-fazil.com/health - the live endpoint answering healthy as of 2026-10-16
 - https://github.com/agentrust-io/awesome-ai-governance - the directory listing that surfaced both repositories (PR #148, 2026-10-16)

@@ -1,7 +1,7 @@
 ---
 title: Token Monitor
 created: 2026-10-06
-updated: 2026-10-16
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, desktop, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Javis603, MIT-licensed.
 
 ## Status
 
-Young and shipping daily: 3,038 stars, 286 forks, 120 open issues, created 2026-05-19, pushed 2026-10-16, with v0.72.0 released 2026-10-15 (The X Subscription Cursor plans with included-usage quotas and prepaid balances, in-app update controls and checks, and OpenCode 2.x session-record repairs), v0.71.0 on 2026-10-14 (Goose local usage tracking, WorkBuddy account sign-in and quota totals, Notion AI allowances, Pi session details), v0.70.0 on 2026-10-13, and v0.69.0 on 2026-10-11, as of 2026-10-16.
+Young and shipping daily: 3,038 stars, 286 forks, 120 open issues, created 2026-05-19, pushed 2026-10-17, with v0.73.0 released 2026-10-16 (Oh My Pi session details, Claude Desktop usage across Chat, Code, and Cowork, Goose on Windows, and Cursor Included-usage quota fixes), v0.72.0 released 2026-10-15 (The X Subscription Cursor plans with included-usage quotas and prepaid balances, in-app update controls and checks, and OpenCode 2.x session-record repairs), v0.71.0 on 2026-10-14 (Goose local usage tracking, WorkBuddy account sign-in and quota totals, Notion AI allowances, Pi session details), v0.70.0 on 2026-10-13, and v0.69.0 on 2026-10-11, as of 2026-10-17.
 Its fork accounting was externally probed: the September 2026 AgentMeasure audit filed that Pi forks copied prior assistant records into new session files without cross-session dedup (issue 627), closed completed on 2026-09-12.
 
 <picture>
@@ -75,6 +75,7 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 - 2026-10-13 - Recorded v0.69.0 (2026-10-11): Claude Code and Codex waiting states shown before token usage arrives, Codex subagents grouped under their parent with combined usage, T3 Code session grouping, Cursor Grok Bot grouping, Antigravity session titles and native generation-speed readings, and Antigravity reasoning tokens included in usage totals; repository counts refreshed (2,765 to 2,988 stars, 107 to 119 open issues).
 - 2026-10-13 - Recorded v0.70.0 (2026-10-13): CatPaw local-assistant usage tracking for the domestic and overseas editions on macOS and Windows (disabled by default), MiniMax pay-as-you-go API balance display in CNY or USD in Limits and Edge Dock, the digit-roll token animation, and usage fixes for Codex compressed sessions and Hermes double-charged reasoning tokens; repository counts refreshed (2,988 to 3,038 stars, 281 to 286 forks, 119 to 120 open issues).
 - 2026-10-16 - Recorded v0.71.0 and v0.72.0 (2026-10-14 and 10-15) and the external AgentMeasure audit's Pi fork dedup finding closed completed on 2026-09-12 (issue 627); the pushed date moved to 2026-10-16.
+- 2026-10-17 - Recorded v0.73.0 (2026-10-16): Oh My Pi session details, Claude Desktop usage across Chat, Code, and Cowork, Goose on Windows, and Cursor Included-usage quota fixes; the pushed date moved to 2026-10-17.
 
 ## See also
 
@@ -88,7 +89,7 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 
 - https://api.github.com/repos/Javis603/token-monitor - 3,038 stars, 286 forks, MIT license, created 2026-05-19, as of 2026-10-13
 - https://raw.githubusercontent.com/Javis603/token-monitor/main/README.md - the 43-plus-tool source table, live features, retention archive, hub sync options, and export formats
-- https://api.github.com/repos/Javis603/token-monitor/releases - v0.72.0 (2026-10-15), v0.71.0 (2026-10-14), v0.70.0 (2026-10-13), v0.69.0 (2026-10-11), v0.68.0 (2026-10-08)
+- https://api.github.com/repos/Javis603/token-monitor/releases - v0.73.0 (2026-10-16), v0.72.0 (2026-10-15), v0.71.0 (2026-10-14), v0.70.0 (2026-10-13), v0.69.0 (2026-10-11), v0.68.0 (2026-10-08)
 - https://github.com/Javis603/token-monitor/issues/627 - the external audit's Pi fork dedup finding, closed completed 2026-09-12
 - https://raw.githubusercontent.com/roy-tong/AgentMeasure/main/campaigns/audit-report-2026-09.md - the audit behind the external-probe sentence
 - https://formulae.brew.sh/cask/token-monitor - the Homebrew cask

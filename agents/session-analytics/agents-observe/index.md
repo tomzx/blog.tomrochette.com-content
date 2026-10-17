@@ -1,7 +1,7 @@
 ---
 title: agents-observe
 created: 2026-09-16
-updated: 2026-10-11
+updated: 2026-10-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, claude-code]
 readability: 3
@@ -69,6 +69,7 @@ Not for multi-harness archive analytics, code provenance, or anyone unwilling to
 - 2026-09-16 - Created.
 - 2026-09-27 - Re-verified: repository counts refreshed (682 to 684 stars), releases, launch thread, and README all unchanged.
 - 2026-10-07 - Added the simple10/agents-observe star history chart to the Status section.
+- 2026-10-17 - Rotation re-verification: every cited URL re-fetched and live; repository state (pushed 2026-09-04), release line (v0.9.12), README, and the launch thread all unchanged.
 
 ## See also
 
