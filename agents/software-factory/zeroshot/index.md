@@ -1,7 +1,7 @@
 ---
 title: Zeroshot
 created: 2026-10-10
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, review-loop, multi-agent]
 readability: 3
@@ -22,7 +22,7 @@ Delivery is a ladder you opt into, from keep-it-local through --push, --pr, and 
 ## Status
 
 Active and shipping: 1,969 stars since creation on 2025-12-25, per the GitHub API as of 2026-10-13.
-Pushed 2026-10-16, with v10.12.0 (2026-10-15) the newest release after v10.11.0 (2026-10-14), npm in sync at 10.12.0, and a Python SDK release train (zeroshot-python tags) riding each release since 2026-10-14, per the GitHub API and the npm registry as of 2026-10-16.
+Pushed 2026-10-17, with v10.12.0 (2026-10-15) the newest release after v10.11.0 (2026-10-14), npm in sync at 10.12.0, and a Python SDK release train (zeroshot-python tags) riding each release since 2026-10-14, per the GitHub API and the npm registry as of 2026-10-18.
 v10.11.0 added planner-led archived exploration with three independent scouts, and v10.12.0 lets local runs take a `--cwd` folder without Git and adds generic Git transport.
 
 <picture>

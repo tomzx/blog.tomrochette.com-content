@@ -1,7 +1,7 @@
 ---
 title: git-lrc
 created: 2026-10-10
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -16,8 +16,9 @@ git-lrc is a free commit-time AI code review CLI from Hexmos that hooks `git com
 
 **The bet is that the commit, not the pull request, is the last moment where fixing agent-written code is cheap.**
 A one-command install sets up a global git hook: every commit first opens a browser review UI with inline LLM comments over the staged diff, and the developer chooses commit, commit and push, or skip.
+Newer surfaces round out the loop: an Issue Navigator filters findings by severity and risk category and can hand them straight to your coding agent, and every completed review also generates a short Summary Deck slide summary.
 Each decision is written into the commit message (`ran (iter:3, coverage:85%)`, `vouched`, or `skipped`), so review behavior becomes part of repository history.
-Reviews run on Gemini by default through the LiveReview cloud, with bring-your-own keys for OpenAI, Claude, DeepSeek, and OpenRouter, and a bundled claude-lrc plugin exposes the same loop as Claude Code slash commands.
+Reviews run on Gemini by default through the LiveReview cloud, with bring-your-own keys for OpenAI, Claude, DeepSeek, OpenRouter, Atlas Cloud, and Anthropic-compatible endpoints, and a bundled claude-lrc plugin exposes the same loop as Claude Code slash commands.
 It is a Go binary from Hexmos (the company behind the LiveReview platform), source-available under a modified Sustainable Use License: no resale, no commercial redistribution of modified versions.
 
 ## Status
@@ -44,12 +45,12 @@ The Show HN launch (June 16, 2026) drew 9 points and no surviving comment thread
 
 - **The reviews leave your machine by default: diffs go to Hexmos's LiveReview cloud for coordination even on the free tier, and self-hosting waits for Enterprise.**
 - The license is not open source: a modified Sustainable Use License forbids resale and commercial redistribution of modified versions, so "completely free" describes price, not freedom.
-- Quality evidence is vendor-supplied; no independent benchmark or third-party assessment of its finding quality exists as of 2026-10-11.
+- Quality evidence is vendor-supplied; no independent benchmark or third-party assessment of its finding quality exists as of 2026-10-18, and an October 2026 third-party eval could not test it at all because it sends the diff to a LiveReview server.
 - The Premium ladder is per reviewed LOC ($32 per 100k per month, doubling with each band), so heavy committers pay on a usage curve roborev, which bills your existing agent subscriptions instead, does not have.
 
 ## Pricing
 
-**LOC-banded subscriptions with a free BYOK tier, as of 2026-10-11.**
+**LOC-banded subscriptions with a free BYOK tier, as of 2026-10-18.**
 Free Individual covers 30,000 reviewed LOC per month with your own AI keys; Premium starts at $32 per month for 100k LOC and doubles in fixed bands ($64 per 200k, $128 per 400k, $256 per 800k, $512 per 1.6M, $1,024 per 3.2M) with unlimited users; Enterprise adds self-hosting, SSO, and custom deployment at contact pricing.
 Only diff lines count against the LOC budget, not repository size.
 
@@ -74,6 +75,7 @@ My disagreeable take: recording review attestations in commit messages is the mo
 ## Changes
 
 - 2026-10-10 - Created after the entrant scan resolved the HexmosTech/git-lrc candidate from the GitHub topic scan; six sources fetched this run, including the thin Show HN thread as the footprint signal.
+- 2026-10-18 - Rotation re-verification: every cited URL re-fetched live, prices and release state unchanged (v0.6.15 still latest); recorded the Issue Navigator and Summary Deck surfaces, the added Atlas Cloud and Anthropic-compatible BYOK connectors, and a third-party eval's failed local run that confirms the cloud-routed default.
 
 ## See also
 
@@ -84,9 +86,10 @@ My disagreeable take: recording review attestations in commit messages is the mo
 
 ## References
 
-- https://github.com/HexmosTech/git-lrc - repo facts: 1,470 stars, 191 forks, created 2026-02-08, pushed 2026-10-11, NOASSERTION license (GitHub API, as of 2026-10-11, push date re-checked 2026-10-17)
-- https://raw.githubusercontent.com/HexmosTech/git-lrc/HEAD/README.md - the commit-hook mechanism, agent mode, claude-lrc companion, BYOK connectors, and the repository-rules surface
-- https://hexmos.com/livereview/git-lrc/pricing/ - the LOC pricing bands and tier contents, fetched 2026-10-11
-- https://hexmos.com/livereview/git-lrc/ - the product page: install flow, the vouch-skip table, and the LiveReview platform relationship, fetched 2026-10-10
-- https://api.github.com/repos/HexmosTech/git-lrc/releases - 53 releases, v0.6.15 (2026-10-05) latest (GitHub API, as of 2026-10-11)
+- https://github.com/HexmosTech/git-lrc - repo facts: 1,470 stars, 191 forks, created 2026-02-08, pushed 2026-10-11, NOASSERTION license (GitHub API, as of 2026-10-11, push date re-checked 2026-10-18)
+- https://raw.githubusercontent.com/HexmosTech/git-lrc/HEAD/README.md - the commit-hook mechanism, agent mode, claude-lrc companion, BYOK connectors (now including Atlas Cloud and Anthropic-compatible endpoints), the Issue Navigator and Summary Deck surfaces, and the repository-rules surface, re-fetched 2026-10-18
+- https://hexmos.com/livereview/git-lrc/pricing/ - the LOC pricing bands and tier contents, fetched 2026-10-11, re-fetched unchanged 2026-10-18
+- https://hexmos.com/livereview/git-lrc/ - the product page: install flow, the vouch-skip table, and the LiveReview platform relationship, fetched 2026-10-10, re-fetched 2026-10-18
+- https://api.github.com/repos/HexmosTech/git-lrc/releases - 53 releases, v0.6.15 (2026-10-05) latest (GitHub API, as of 2026-10-11, re-fetched 2026-10-18, unchanged)
 - https://hn.algolia.com/api/v1/items/48555511 - the Show HN launch, 9 points, June 16, 2026, the thin-footprint signal
+- https://raw.githubusercontent.com/zhuyansen/agent-skills-hub/main/ops/review-runs/RESULTS.md - the independent end-to-end eval that could not run git-lrc locally because it sends the diff to a LiveReview server, fetched 2026-10-18

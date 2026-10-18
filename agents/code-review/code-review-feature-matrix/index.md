@@ -1,7 +1,7 @@
 ---
 title: "Code Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, code-review, ai-review, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 This matrix compares the thirteen AI code-review tools profiled in this section, feature by feature, so the shortlisting step does not require reading thirteen notes.
 
-**The deciding row is still where your code runs, not review quality: public quality benchmarks are new to 2026 and every one is vendor-run (Qodo's own PR-Review-Bench in February, GitHub's ReviewBench on October 5, Kodus's CodeReviewBench), while five columns are vendor clouds, one is a local hook whose reviews still ride a vendor cloud (git-lrc), one runs in your VPC, four run entirely on your machine with your own keys or agent logins, one is a dormant unlicensed Vercel Labs beta you deploy yourself (OpenReview), Graphite Diamond arrives already consolidated as a Cursor property, and the category's most-repeated outside fact is that the two biggest commercial reviewers both have Kudelski-disclosed exploit histories.**
+**The deciding row is still where your code runs, not review quality: public quality benchmarks are new to 2026 and every one is run by an interested party (Qodo's own PR-Review-Bench in February, GitHub's ReviewBench on October 5, Kodus's CodeReviewBench, Agent Skills Hub's third-party eval on October 10), while five columns are vendor clouds, one is a local hook whose reviews still ride a vendor cloud (git-lrc), one runs in your VPC, four run entirely on your machine with your own keys or agent logins, one is a dormant unlicensed Vercel Labs beta you deploy yourself (OpenReview), Graphite Diamond arrives already consolidated as a Cursor property, and the category's most-repeated outside fact is that the two biggest commercial reviewers both have Kudelski-disclosed exploit histories.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell traces to a source cited there or in the references.
@@ -44,7 +44,8 @@ The caution is structural: whatever judges your code can execute in your CI cont
 **Quality measurement arrived in 2026, and every benchmark is run by an interested party.**
 Qodo published the first vendor-run one in February (PR-Review-Bench: 580 injected issues across 100 merged PRs, seven rival tools compared, Qodo first at 60.1 percent F1, dataset public).
 GitHub launched ReviewBench on October 5, an open benchmark of 219 public PRs across 19 languages with a public leaderboard, self-serve submissions, and a published judge, built and run by the platform that sells Copilot code review, and Kodus runs two surfaces: CodeReviewBench, which scores models on Kodus's own harness with best recall under 45 percent, and a tools benchmark where Kody beats CodeRabbit, GitHub Copilot, and Cursor on every severity band.
-None is independent of the vendor publishing it, and the tools benchmark's own methodology text disagrees with its results (nine selected PRs in one paragraph, 38 analyzed in the tables), so the row-level advice stands: ask where the benchmark's conflicts sit before trusting its ranking.
+A fourth arrived on October 10 from outside the reviewed tools' vendor row entirely: Agent Skills Hub, a skill-discovery site, ran sixteen of these instruments end to end on twelve small PRs with eight planted defects and found that none beat its bare Claude Code control, which matched the top score of 8 of 8 alongside four review skills, roborev, and spencermarx's open-code-review, while git-lrc could not run at all because its reviews ride a vendor server.
+None is independent of the party publishing it, and the tools benchmark's own methodology text disagrees with its results (nine selected PRs in one paragraph, 38 analyzed in the tables), so the row-level advice stands: ask where the benchmark's conflicts sit before trusting its ranking.
 
 **Independent academic research landed the same week as the benchmarks.**
 A JetBrains Research and Lund University study presented at ESEIW 2026 (participatory design with 17 practitioners, then a 43-developer validation survey) concludes that reviewing LLM-generated multi-file changes is a trust-calibration problem rather than a diffing problem, because LLMs present every line with uniform confidence no matter how uncertain each line was.
@@ -99,6 +100,7 @@ Its pricing now leads with a free on-ramp for individuals who bring their own Cl
 - 2026-10-11 - Refreshed the git-lrc (1,470), Kodus (1,461), OpenCodeReview (46.0k stars), Qodo (13,339), roborev (1,749), and Sourcery (1,875) maturity cells to their 2026-10-11 repo numbers; all other cells re-verified unchanged, with every pricing page re-fetched.
 - 2026-10-13 - Recorded OpenCodeReview's v1.13.0 (ChatGPT-plan reviews through the public Responses API, a new ACP service) in its deployment and maturity cells, and refreshed the OpenQodex maturity cell to 653 stars and 4,533 weekly npm downloads; all other cells re-verified unchanged, with every pricing page re-fetched.
 - 2026-10-16 - Added the multi column (twelve to thirteen members, inserted in its case-insensitive sorted position after Kodus); all existing cells re-verified unchanged this run.
+- 2026-10-18 - Added Agent Skills Hub's third-party end-to-end eval (October 10: sixteen tools, none beating the bare-agent control, git-lrc unrunnable) to the quality-measurement story, and broadened the thesis's vendor-run wording to run-by-an-interested-party; no cell values changed.
 
 ## See also
 
@@ -125,3 +127,4 @@ Its pricing now leads with a free on-ramp for individuals who bring their own Cl
 - https://arxiv.org/abs/2606.01969 - the ESEM SEIP 2026 paper behind it: N=17 participatory design, N=43 validation survey, the three-level workflow and seven design constructs, fetched 2026-10-08
 - https://www.qodo.ai/ai-code-review-benchmark/ - the Qodo benchmark page grounding the February qualification: F1 framing, dataset links, fetched 2026-10-11
 - https://www.qodo.ai/blog/how-we-built-a-real-world-benchmark-for-ai-code-review - the February 4, 2026 methodology post: 100 PRs, 580 injected issues, seven rivals, 60.1 percent F1, fetched 2026-10-11
+- https://raw.githubusercontent.com/zhuyansen/agent-skills-hub/main/ops/review-runs/RESULTS.md - the Agent Skills Hub end-to-end eval table behind the fourth benchmark: sixteen tools on twelve PRs, no tool beating the bare-agent control, git-lrc unrunnable locally, fetched 2026-10-18

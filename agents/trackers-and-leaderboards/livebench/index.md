@@ -1,7 +1,7 @@
 ---
 title: LiveBench
 created: 2026-10-06
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, benchmarks, open-data]
 readability: 3
@@ -25,7 +25,7 @@ All questions, model answers, and model judgments are published on Hugging Face.
 
 ## Status
 
-Active, but its defining cadence has slipped: the repository was pushed 2026-10-15 (adding Nemotron 3.5 Super VL, Step 5 Preview, MiMo-V2.6-Pro-Max, Gemma 4, and Muse Wonder evaluation configurations, the latest entries in a config gate that requires dated pricing citations), yet the changelog's newest question release is 2026-01-08, and releases that came monthly through 2024 have arrived in bursts since.
+Active, but its defining cadence has slipped: the repository was pushed 2026-10-18 (adding a beam-1.0-501b-a23b-max configuration pinned to an OpenRouter Nebius endpoint and a deepseek-v4.1-flash-1017-max configuration with peak and off-peak rate rows, the latest entries in a config gate that requires dated pricing citations), yet the changelog's newest question release is 2026-01-08, and releases that came monthly through 2024 have arrived in bursts since.
 That gap matters because the September-October release wave (GPT-6, Claude Opus 5.5, Gemini 4 Argon) shipped onto a question set that has been frozen for over nine months.
 Community footprint is thin on HN (the launch thread drew 6 points and 0 comments) even though model cards and release posts cite LiveBench scores routinely.
 The leaderboard site is a client-rendered app, so automated fetchers see only the title; the fetchable surfaces are the repository, the changelog, and the Hugging Face datasets.
@@ -81,10 +81,10 @@ My disagreeable claim: the rotation gap is the number that matters most in this 
 
 ## References
 
-- https://api.github.com/repos/LiveBench/LiveBench - repository metadata: 1,342 stars as of 2026-10-11, pushed 2026-10-15 as of 2026-10-16, license listed as Other (re-fetched 200, 2026-10-16, star figure unchanged by policy)
+- https://api.github.com/repos/LiveBench/LiveBench - repository metadata: 1,342 stars as of 2026-10-11, pushed 2026-10-18 as of 2026-10-18, license listed as Other (re-fetched 200, 2026-10-18, star figure unchanged by policy)
 - https://raw.githubusercontent.com/LiveBench/LiveBench/main/README.md - design, 6 categories and 18 tasks, the evaluation offer, the stale release note, the unmaintained local-inference path, and the 150GB agentic warning (fetched 200, 2026-10-06; re-fetched 200, 2026-10-16, unchanged)
-- https://raw.githubusercontent.com/LiveBench/LiveBench/main/changelog.md - release history: monthly through 2024, agentic category 2025-05-30, Mini-SWE-Agent switch 2025-10-03, newest question set 2026-01-08, and the 46% GPT-4-Turbo judge-error figure (re-fetched 200, 2026-10-16, newest set still 2026-01-08)
+- https://raw.githubusercontent.com/LiveBench/LiveBench/main/changelog.md - release history: monthly through 2024, agentic category 2025-05-30, Mini-SWE-Agent switch 2025-10-03, newest question set 2026-01-08, and the 46% GPT-4-Turbo judge-error figure (re-fetched 200, 2026-10-18, newest set still 2026-01-08)
 - https://arxiv.org/abs/2406.19314 - the paper: ICLR 2025 Spotlight, the 18-author list including LeCun, and the Contamination-Free to Contamination-Limited title change (fetched 200, 2026-10-06; re-fetched 200, 2026-10-16, unchanged)
-- https://api.github.com/repos/LiveBench/LiveBench/commits?per_page=6 - 2026 activity: late-September and October runs add model configurations under the config gate (re-fetched 200, 2026-10-16; the Oct. 12-15 commits add Muse Wonder, Step 5 Preview, MiMo-V2.6-Pro-Max, Gemma 4, and Nemotron 3.5 Super VL configs plus litellm streaming and Gemini continuation fixes)
+- https://api.github.com/repos/LiveBench/LiveBench/commits?per_page=6 - 2026 activity: late-September and October runs add model configurations under the config gate (re-fetched 200, 2026-10-18; the Oct. 16-18 commits add the beam-1.0-501b-a23b-max config (OpenRouter pinned to Nebius) and the deepseek-v4.1-flash-1017-max config with peak and off-peak rate rows)
 - https://hn.algolia.com/api/v1/search?query=livebench&tags=story - the thin HN footprint: launch thread at 6 points, 0 comments (fetched 200, 2026-10-06; re-fetched 200, 2026-10-16, unchanged)
 - https://livebench.ai/ - the leaderboard surface, recorded as a client-rendered app that returned only its title to this fetch (fetched 200, 2026-10-06; re-fetched 2026-10-16, still an empty client-rendered shell)

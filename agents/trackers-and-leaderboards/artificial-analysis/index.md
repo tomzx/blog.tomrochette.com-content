@@ -1,7 +1,7 @@
 ---
 title: Artificial Analysis
 created: 2026-09-24
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, ai, benchmarks, evaluation]
 readability: 3
@@ -12,13 +12,13 @@ audience_notes: >
 
 Artificial Analysis is an independent benchmarking company whose site measures AI at four layers, agents, models, cloud inference providers, and chips, and publishes the results as leaderboards, price and speed comparisons, and a public changelog.
 
-**It is the closest thing the field has to a consumer reports for model inference: one place where quality, cost, and speed are measured the same way across 702 models.**
+**It is the closest thing the field has to a consumer reports for model inference: one place where quality, cost, and speed are measured the same way across 703 models.**
 
 ## What it is
 
 A website and data business covering models (proprietary and open weights), coding agents, inference providers, and accelerator hardware.
 The flagship Artificial Analysis Intelligence Index (v4.3.2 as of 2026-09-24) incorporates ten evaluations with published weights (agents 30%, coding 20%, scientific reasoning 20%, general 30%), and a separate Coding Agent Index (v1.5) combines DeepSWE, Terminal-Bench, and SWE-Atlas-QnA.
-The homepage compares 702 models on price per token, output speed, and latency (as of 2026-10-16), and its Endpoint Accuracy Index re-runs the same evals against 16 third-party providers of one model to measure how much accuracy each endpoint loses to quantization or configuration.
+The homepage compares 703 models on price per token, output speed, and latency (as of 2026-10-18), and its Endpoint Accuracy Index re-runs the same evals against 16 third-party providers of one model to measure how much accuracy each endpoint loses to quantization or configuration.
 A Cyber Index (v1) joined the catalog in late September 2026, combining three partner-contributed benchmarks on enterprise cyber defense and launching alongside an industry Alliance, and an 8 October update added trusted-access models to it (GPT-6 Sol Daybreak Blue now leads that board).
 The index families kept widening in October: AA-3D ranks interactive 3D builds by blind panel votes, AA-Robotics v0.1 extends measurement to embodied models, the Decision Index v1.0 scores routing-style decisions, and FrontierCode 1.1 grades agentic contributions to open-source repositories (all announced 12-14 October 2026).
 Products around the data include Optima (build-your-own benchmarks), MicroEvals, a Model Recommender, and a Data Playground.
@@ -26,7 +26,7 @@ Scale claims from the about page: 500+ models benchmarked, 100+ inference provid
 
 ## Status
 
-Very active and heavily cited: the changelog had entries dated 8 October 2026 (the Cyber Index trusted-access article and the Harvey LAB-AA v1.1 legal evaluation), 9 October 2026 (provider performance results), and 12-15 October 2026 (AA-3D, FrontierCode, the Decision Index, AA-Robotics, and Nemotron 3.5, Solar Pro 4, and Muse Spark evaluations), one to seven days before this re-check, and the Intelligence Index itself iterates weekly (v4.2 on September 5, v4.3 two days later, v4.3.2 by September 24).
+Very active and heavily cited: the changelog had entries dated 8 October 2026 (the Cyber Index trusted-access article and the Harvey LAB-AA v1.1 legal evaluation), 9 October 2026 (provider performance results), 12-15 October 2026 (AA-3D, FrontierCode, the Decision Index, AA-Robotics, and Nemotron 3.5, Solar Pro 4, and Muse Spark evaluations), and 15-16 October 2026 (the Nemotron 3.5 Super VL release article, Solar Pro 4 and Muse Spark Open evaluations, and Reflection's first model launch, Beam 1.0, debuting at 30 on the Intelligence Index as the #2 US open weights model with provider performance results from Together AI, Nebius, CoreWeave, Baseten, and PrimaLabs), one to ten days before this re-check, and the Intelligence Index itself iterates weekly (v4.2 on September 5, v4.3 two days later, v4.3.2 by September 24).
 Its numbers are market-moving enough that HN threads are titled by its rankings ("GLM-5.2 is the new leading open weights model on Artificial Analysis", 916 points in June 2026), and providers market against its measurements (Baseten's "fastest Kimi K2.5" post).
 Founded by Micah Hill-Smith (CEO, ex-McKinsey) and George Cameron (CPO); started as a side project in 2023, launched January 2024, went viral after a Swyx retweet, and raised a seed from Nat Friedman and Daniel Gross's AI Grant with angels including Andrew Ng, Adam D'Angelo, Clem Delangue, Guillermo Rauch, and swyx.
 
@@ -68,6 +68,7 @@ My disagreeable claim: the Endpoint Accuracy Index is the most underrated page o
 - 2026-10-02 - Added the Cyber Index (v1), the three-benchmark enterprise cyber defense index launched in late September 2026 alongside an industry Alliance, and corrected two dead Hacker News reference URLs (the astra-blunder comment moved to item 49571632, the benchmarks-are-bunk comment to item 45702363; neither previously cited item resolves).
 - 2026-10-10 - Coverage refreshed: the homepage now compares 696 models (from 691), and the changelog's newest entries (8 October 2026) add trusted-access models to the Cyber Index and the Harvey LAB-AA v1.1 legal evaluation.
 - 2026-10-16 - Coverage and catalog refreshed from a 2026-10-16 homepage fetch: 702 models (from 696), Intelligence Index still v4.3.2, and four new index families recorded from the 12-14 October announcements (AA-3D for interactive 3D builds, AA-Robotics v0.1 for embodied models, the Decision Index v1.0, and FrontierCode 1.1 for agentic open-source contributions).
+- 2026-10-18 - Rotation re-verification with every cited URL re-fetched live: coverage refreshed to 703 models (from 702), Intelligence Index still v4.3.2, and the changelog's newest entries (15-16 October) record the Nemotron 3.5 Super VL release article, Solar Pro 4 and Muse Spark Open evaluations, and Reflection's first model launch, Beam 1.0, debuting at 30 on the Intelligence Index as the #2 US open weights model; methodology pages, the data-platform terms, and both HN critical comments re-verified unchanged.
 
 ## See also
 
@@ -79,13 +80,13 @@ My disagreeable claim: the Endpoint Accuracy Index is the most underrated page o
 
 ## References
 
-- https://artificialanalysis.ai/ - homepage: model count, Intelligence Index v4.3.2, Coding Agent Index v1.5, Endpoint Accuracy Index across 16 providers (fetched 200, 2026-09-24; re-fetched 200, 2026-10-16, now 702 models, Intelligence Index still v4.3.2, newest changelog entries 12-15 October: AA-3D, FrontierCode, Decision Index v1.0, AA-Robotics v0.1)
-- https://artificialanalysis.ai/about - founders, backers, scale claims, four-layer scope (fetched 200, 2026-09-24)
-- https://artificialanalysis.ai/methodology - methodology hub: scope, blended-price definition, benchmark inventory (fetched 200, 2026-09-24)
-- https://artificialanalysis.ai/methodology/intelligence-benchmarking - the ten evaluations, weights, and scoring detail (fetched 200, 2026-09-24)
-- https://artificialanalysis.ai/changelog - update cadence, newest entries dated 9 October 2026, the 8 October trusted-access and Harvey LAB-AA v1.1 announcements, and the Cyber Index Alliance announcement from late September 2026 (re-fetched 200, 2026-10-10)
-- https://www.latent.space/p/artificialanalysis - founding story, seed round, revenue model, mystery-shopper policy (fetched 200, 2026-09-24)
-- https://news.ycombinator.com/item?id=48567759 - 916-point HN thread showing citation scale (points re-verified 2026-10-02 via hn.algolia.com/api/v1/items/48567759; the site itself bot-walls this client with 419)
-- https://news.ycombinator.com/item?id=49571632 - the "astra blunder" criticism on the v4.2 thread (found via Algolia comment search and re-verified 2026-10-02; the previously cited item 49586403 does not resolve)
-- https://news.ycombinator.com/item?id=45702363 - the "benchmarks are bunk" skeptical comment and its thread (found via Algolia comment search and re-verified 2026-10-02; the previously cited item 45706969 does not resolve)
-- https://artificialanalysiscdn.com/legal/ProDataPlatformTerms.pdf - existence of the paid data platform terms (fetched 200, 2026-09-24)
+- https://artificialanalysis.ai/ - homepage: model count, Intelligence Index v4.3.2, Coding Agent Index v1.5, Endpoint Accuracy Index across 16 providers (fetched 200, 2026-09-24; re-fetched 200, 2026-10-18, now 703 models, Intelligence Index still v4.3.2)
+- https://artificialanalysis.ai/about - founders, backers, scale claims, four-layer scope (fetched 200, 2026-09-24; re-fetched 200, 2026-10-18, unchanged)
+- https://artificialanalysis.ai/methodology - methodology hub: scope, blended-price definition, benchmark inventory (fetched 200, 2026-09-24; re-fetched 200, 2026-10-18, unchanged)
+- https://artificialanalysis.ai/methodology/intelligence-benchmarking - the ten evaluations, weights, and scoring detail (fetched 200, 2026-09-24; re-fetched 200, 2026-10-18, unchanged)
+- https://artificialanalysis.ai/changelog - update cadence and newest entries: 16 October 2026 (Beam 1.0 debut at 30 on the Intelligence Index, provider performance results from Together AI, Nebius, CoreWeave, Baseten, and PrimaLabs, DeepSeek V4.1 Flash Max and Non-reasoning evaluations), 15 October 2026 (the Nemotron 3.5 Super VL article and Solar Pro 4 evaluations), and the 8-14 October entries behind earlier bullets (re-fetched 200, 2026-10-18)
+- https://www.latent.space/p/artificialanalysis - founding story, seed round, revenue model, mystery-shopper policy (fetched 200, 2026-09-24; re-fetched 200, 2026-10-18, live)
+- https://news.ycombinator.com/item?id=48567759 - 916-point HN thread showing citation scale (points re-verified 2026-10-18 via hn.algolia.com/api/v1/items/48567759; the site itself bot-walls this client with 419)
+- https://news.ycombinator.com/item?id=49571632 - the "astra blunder" criticism on the v4.2 thread (found via Algolia comment search; comment re-verified inside the item 2026-10-18; the previously cited item 49586403 does not resolve)
+- https://news.ycombinator.com/item?id=45702363 - the "benchmarks are bunk" skeptical comment and its thread (found via Algolia comment search; comment re-verified inside the item 2026-10-18; the previously cited item 45706969 does not resolve)
+- https://artificialanalysiscdn.com/legal/ProDataPlatformTerms.pdf - existence of the paid data platform terms (fetched 200, 2026-09-24; re-fetched 200, 2026-10-18)

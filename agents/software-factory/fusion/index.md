@@ -1,7 +1,7 @@
 ---
 title: Fusion
 created: 2026-10-11
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, kanban, multi-agent, worktrees, open-source]
 readability: 3
@@ -24,8 +24,8 @@ The dashboard is built on dustinbyrne/kb; the docs are in-repo and unusually com
 ## Status
 
 **Active and heavily pushed, but early preview, and the stable npm channel lags the repository.**
-1,270 stars, 162 forks, and 86 open issues and pull requests as of 2026-10-13, created 2026-04-13, pushed 2026-10-15 (GitHub API).
-The newest GitHub release and npm beta is still v0.78.0-beta.7 (2026-09-25, re-verified 2026-10-17); npm `latest` is still 0.77.0 (2026-09-02), so the stable channel ran six weeks behind a repository that pushes near-daily.
+1,270 stars, 162 forks, and 86 open issues and pull requests as of 2026-10-13, created 2026-04-13, pushed 2026-10-18 (GitHub API).
+The newest GitHub release and npm beta is still v0.78.0-beta.7 (2026-09-25, re-verified 2026-10-18); npm `latest` is still 0.77.0 (2026-09-02), so the stable channel ran six weeks behind a repository that pushes near-daily.
 The package drew 2,629 npm downloads in the month ending 2026-10-12, and a Hacker News search returns no story about it (2026-10-13).
 
 <picture>

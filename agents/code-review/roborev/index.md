@@ -1,7 +1,7 @@
 ---
 title: roborev
 created: 2026-10-06
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -35,6 +35,7 @@ The repo (kenn-io/roborev) was created January 5, 2026 and shows 1,749 stars, 16
 The release train ran from v0.33 (2026-02-17) to v0.72.0 (2026-10-16), 121-plus releases in nine months.
 The project moved twice: both wesm/roborev and roborev-dev/roborev now redirect to kenn-io/roborev, and Kenn's site pairs it with the sibling tools AgentsView and msgvault.
 The HN record is thin, and I state that as a finding: a 4-point, zero-comment launch thread (46515428, January 2026) and two 1-point resubmits since, so the visible validation lives in the author's blog, a Posit profile, and podcast appearances rather than in independent discussion.
+The first independent end-to-end eval to include it (Agent Skills Hub, October 10, 2026) reports roborev finding all eight planted defects across twelve small PRs with zero false alarms at 0.9 findings per PR in 13 minutes, reviewing with a gpt-6-astra model through OpenCode, though that eval's headline cuts the other way: bare Claude Code with no tool installed matched the 8-of-8 score, so roborev separates on noise and workflow, not on detection.
 v0.72.0 (October 16, 2026) adds a rebuttal flow (`comment --rebuttal --finding` asks the original reviewer to reassess a finding as confirmed, refuted, or superseded), planning before fixes (`fix --plan`, `refine --plan`, with a plan-only mode), a goal review type for specifications, linked plans, and open Kata tasks (with a `roborev-superpowers` skill and an optional artifact watcher), and remote review history over HTTPS with repository-scoped signing keys.
 
 ## Strengths
@@ -73,6 +74,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 - 2026-10-07 - Added the kenn-io/roborev star history chart to the Status section.
 - 2026-10-10 - Corrected the contributor count from 30 to 54; the earlier figure was the GitHub API's default 30-per-page cap, not the full paginated total.
 - 2026-10-17 - Recorded v0.72.0 (October 16): the reviewer rebuttal flow with confirmed, refuted, or superseded verdicts, fix planning with `--plan`, goal review for specs, plans, and Kata tasks (plus the roborev-superpowers skill), and remote review history over HTTPS with signing keys.
+- 2026-10-18 - Recorded the first independent end-to-end eval result (Agent Skills Hub, October 10): all eight planted defects found with zero false alarms at 0.9 findings per PR, matching the bare-agent control on detection while beating it on noise; nothing else changed.
 
 ## See also
 
@@ -96,3 +98,4 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 - https://posit.co/blog/the-prolific-output-of-wes-mckinney-in-the-age-of-agentic-engineering/ - the independent profile of author and tool, and the source linking the pre-transfer roborev-dev org
 - https://kenn.io/ - Kenn Software LLC, the author, and the sibling AgentsView and msgvault projects
 - https://www.linkedin.com/posts/semyon-a-sinchenko_why-i-still-use-aider-in-2026-code-ownership-activity-7437170160362340352--SNB - the critical user report of hallucinated findings
+- https://raw.githubusercontent.com/zhuyansen/agent-skills-hub/main/ops/review-runs/RESULTS.md - the independent end-to-end eval (October 10, 2026): roborev 8 of 8 planted defects, zero false alarms, 0.9 findings per PR, 13 minutes, gpt-6-astra reviewer, fetched 2026-10-18
