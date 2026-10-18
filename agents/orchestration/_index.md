@@ -23,7 +23,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Agno](agno/index.md) - the Apache-2.0 Python agent platform, formerly Phidata, pairing a self-hosted AgentOS runtime with a $150-per-month control plane.
 - [Archon](archon/index.md) - Cole Medin's MIT workflow engine turning development processes into repo-committed YAML with deterministic gates around AI nodes, one worktree per run, and Slack, Telegram, GitHub, and Discord triggers, 23.7k stars.
 - [Atlas](atlas/index.md) - the Apache-2.0 Rust desktop app that treats source control as the product, turning every agent run into a checkpoint linking commits to prompts, tool calls, and reasoning.
-- [AutoGen](autogen/index.md) - Microsoft's conversational multi-agent framework, now in maintenance mode with Microsoft Agent Framework as the designated successor.
+- [AutoGen](autogen/index.md) - Microsoft's conversational multi-agent framework, archived by its own declaration in October 2026 with Microsoft Agent Framework as the designated successor.
 - [AutoGPT](autogpt/index.md) - the 2023 autonomous-agent phenomenon rebuilt as an active hosted-plus-self-host workflow platform with a visual builder and marketplace.
 - [AX](ax/index.md) - Google's Kubernetes-native orchestrator that runs agent tasks, workspaces, and network gates as declarative cluster manifests, the category's first datacenter-scale control plane.
 - [Bernstein](bernstein/index.md) - the Apache-2.0 Python governance layer running parallel agents in worktrees behind merge gates on a deterministic, replayable, offline-auditable scheduler.

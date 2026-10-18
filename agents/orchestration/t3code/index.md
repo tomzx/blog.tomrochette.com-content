@@ -1,7 +1,7 @@
 ---
 title: T3 Code
 created: 2026-10-07
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, mobile-client, control-surface]
 readability: 3
@@ -23,7 +23,7 @@ Install is a curl script or brew cask, with nightly releases (v0.0.46-nightly li
 
 ## Status
 
-Active and shipping daily: created 2026-02-08, 27,671 stars in eight months, nightly releases with v0.1.0 (2026-10-15) the first stable release of Orchestrator V2, as of 2026-10-15.
+Active and shipping daily: created 2026-02-08, 27,671 stars in eight months, nightly releases with v0.1.0 (2026-10-15) the first stable release of Orchestrator V2, pushed 2026-10-18, as of 2026-10-18 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=pingdotgg/t3code&type=date&theme=dark&legend=top-left" />

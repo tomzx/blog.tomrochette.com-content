@@ -1,7 +1,7 @@
 ---
 title: Scion
 created: 2026-10-06
-updated: 2026-10-15
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, containers, isolation, control-plane, google]
 readability: 3
@@ -23,7 +23,7 @@ It ships Gemini CLI and Claude Code harnesses by default, with Codex, OpenCode, 
 
 ## Status
 
-Active and early: 1,859 stars and 280 forks as of 2026-10-15, created 2026-03-10, with 32 contributors and nightly releases.
+Active and early: 1,859 stars and 280 forks as of 2026-10-15, created 2026-03-10, with 32 contributors, nightly releases, and a push on 2026-10-18 (GitHub API, as of 2026-10-18).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=GoogleCloudPlatform/scion&type=date&theme=dark&legend=top-left" />

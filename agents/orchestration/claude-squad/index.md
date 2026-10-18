@@ -1,7 +1,7 @@
 ---
 title: Claude Squad
 created: 2026-08-24
-updated: 2026-10-15
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, orchestration, git-worktrees, terminal]
 readability: 3
@@ -73,6 +73,7 @@ For most engineers, Claude Squad plus a small setup script covers 90 percent of 
 - 2026-08-24 - Created in the Orchestration category seed.
 - 2026-08-26 - Converted Compared-to paths to markdown links, rewrote two unsourced ecosystem claims as sourced facts, and added the updated field.
 - 2026-10-07 - Added the smtg-ai/claude-squad star history chart to the Status section.
+- 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository, docs site, Homebrew formula at 1.0.20, the 5-point launch thread); no factual drift, still quiet since the 2026-08-20 push.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: AgentsMesh
 created: 2026-10-02
-updated: 2026-10-15
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-fleet, self-hosted, bsl]
 readability: 3
@@ -23,7 +23,7 @@ The license is Business Source License 1.1, source-available with a conversion d
 
 ## Status
 
-Active but maturing slowly: 2,360 stars as of 2026-10-15, created 2026-02-28, pushed 2026-09-23, with the last tagged release v0.44.7 on 2026-07-25 and development continuing on the default branch since.
+Active but maturing slowly: 2,360 stars as of 2026-10-15, created 2026-02-28, pushed 2026-09-23, with the last tagged release v0.44.7 on 2026-07-25 and development continuing on the default branch since; re-checked 2026-10-18 with nothing newer than the v0.44.8 nightly tag of the same push day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AgentsMesh/AgentsMesh&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for open-source-license purists, solo users (a worktree manager is lighter),
 - 2026-10-02 - Created.
 - 2026-10-03 - Reworded a banned-term compound out of the Compared-to prose; meaning unchanged.
 - 2026-10-07 - Added the AgentsMesh/AgentsMesh star history chart to the Status section.
+- 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository, docs, releases, Docker Hub, the 3-point Show HN thread); no factual drift, still quiet since the 2026-09-23 push with v0.44.7 the last stable tag.
 
 ## See also
 

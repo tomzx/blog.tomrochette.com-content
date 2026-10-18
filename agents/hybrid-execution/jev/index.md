@@ -1,7 +1,7 @@
 ---
 title: Jev
 created: 2026-09-18
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models]
 readability: 3
@@ -98,11 +98,11 @@ The disagreeable claim I will defend: this category's four existing members all 
 - 2026-10-13 - The Decision Index 0.3.2 relabel and second same-day regeneration (149 configurations) moved Jev from ninth to eighth at its unchanged 60.11, seven systems above it now with Sieve 27B the new seventh at 60.17 and d3 rescored to 66.26; JevBench's v1.7.46 boards grew to 155 ranked open-weights systems and 28 API rows without moving Jev's reference standing or second-place capability rank.
 - 2026-10-15 - The Decision Index's 2026-10-14 regeneration (166 configurations) widened the band above Jev's unchanged 60.11 to eleven systems and moved it to twelfth, with new entrant linne-oak 1.0 the new second at 65.61; JevBench's 2026-10-14 refresh of the same v1.7.46 revision grew the main board to 162 ranked open-weights systems and the API board to 30 rows, where the official composite ordering puts Jev fourth behind Sage 1.3.0, d1, and Mercury Decide while the capability view keeps it second.
 - 2026-10-17 - The Decision Index's 2026-10-16 regeneration (174 configurations) rebuilt the top around new leader StartLux-Decision v1.1 27B (69.12) and added the vendor's own Jev 1.14 row (thirteenth at 61.53), dropping the 1.13 reference row from twelfth to eighteenth at its unchanged 60.11; JevBench's same-revision 2026-10-16 refresh grew the boards to 181 ranked open-weights systems and 39 API rows with Jev still the unranked reference.
+- 2026-10-18 - Trimmed the See also list to its five items after a format check found it at six, dropping the Instructor line (Outlines carries the decoding-time contrast).
 
 ## See also
 
 - [Hybrid Execution Feature Matrix](../hybrid-execution-feature-matrix/index.md) - the category compared, where Jev's column makes the guarantee-mechanism row three-way
-- [Instructor](../instructor/index.md) - the validate-and-retry incumbent for the same decision workloads
 - [Outlines](../outlines/index.md) - the self-hosted path to the same no-invalid-token guarantee
 - [Laya](../laya/index.md) - the open-weights rival that answers the same typed questions on your own hardware
 - [JevBench](../jevbench/index.md) - the third-party benchmark whose board now ranks Jev fourth, with the caveats attached

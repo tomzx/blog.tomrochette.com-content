@@ -1,7 +1,7 @@
 ---
 title: Buzz
 created: 2026-10-02
-updated: 2026-10-15
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, communication, nostr, self-hosted]
 readability: 3
@@ -23,7 +23,7 @@ Block positions it as infrastructure, the event store and delivery pipe, not the
 
 ## Status
 
-Active and heavily starred: about 35,981 stars since 2026-03-06 as of 2026-10-15, pushed 2026-10-15, with desktop releases at v0.5.28 (2026-10-09) following v0.5.27 (2026-10-06) on a steady cadence.
+Active and heavily starred: about 35,981 stars since 2026-03-06 as of 2026-10-15, pushed 2026-10-18, with desktop releases at v0.5.28 (2026-10-09) following v0.5.27 (2026-10-06) on a steady cadence.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=block/buzz&type=date&theme=dark&legend=top-left" />

@@ -32,7 +32,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Grok Build](grok-build/index.md) - SpaceXAI's Apache-2.0 Rust TUI agent, open-sourced to a 590-point thread, monorepo-synced releases, the wire-level privacy analysis attached.
 - [jcode](jcode/index.md) - Solo Systems' Rust harness for parallel agents, RAM floor, native memory and swarm, self-dev included.
 - [Juggler](juggler/index.md) - Julian Storer's AGPL Go GUI agent, conversations as branchable trees with every tool call inspectable.
-- [Junie](junie/index.md) - JetBrains' plan-first agent with BYOK, IDE-grade grounding, and a free on-device Local mode for Mac.
+- [Junie](junie/index.md) - JetBrains' plan-first agent with BYOK, IDE-grade grounding, and a free on-device Local mode that now reaches Mac, RTX Spark, and Windows.
 - [Kilo Code](kilo-code/index.md) - the Cline-and-Roo feature-merge under MIT, subagents through cloud tasks bundled in, Anaconda's since July 2026.
 - [Kimi Code](kimi-code/index.md) - Moonshot AI's terminal agent tuned for its own challenger-priced models, subagents through ACP in one Node.js CLI.
 - [LongHorizon-Harness](longhorizon-harness/index.md) - Alibaba DreamX's MIT audited computer-use loop wrapping Claude Code, Codex, OpenCode, and DeepSeek Harness as backends, quiet since its August paper.

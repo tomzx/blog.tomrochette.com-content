@@ -1,7 +1,7 @@
 ---
 title: LobeHub
 created: 2026-09-27
-updated: 2026-10-15
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, source-available, self-hosted]
 readability: 3
@@ -32,7 +32,7 @@ Active and shipping fast: the repo shows 83,237 stars, about 16k forks, and a pu
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&legend=top-left" />
 </picture>
 
-The release train is canary-grade desktop builds published several times a day; the v2.2.19 line shipped stable on 2026-10-07 after canaries through 2026-10-01 (v2.2.19-canary.35 was the last one recorded here).
+The release train is canary-grade desktop builds published several times a day; the v2.2.19 line shipped stable on 2026-10-07, and v2.2.20 followed on 2026-10-18 after canaries through 2026-10-17 (GitHub releases, as of 2026-10-18).
 The rebrand from LobeChat is visible in the license text itself, which reads "From 1.0, LobeChat is licensed under the LobeHub Community License".
 Community footprint outside its own channels is thin: the best HN thread about it (as LobeChat) reached 7 points in July 2024, and my HN search for the current name returned nothing above noise.
 A Product Hunt "top post" badge for the multi-agent-work launch and a Trendshift badge suggest its audience lives on Product Hunt and Chinese-language channels, not HN.

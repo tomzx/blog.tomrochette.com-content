@@ -1,7 +1,7 @@
 ---
 title: Agentlas OS
 created: 2026-10-07
-updated: 2026-10-15
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, hub, orchestrator, local-first, host-embedded]
 readability: 3
@@ -21,7 +21,7 @@ Beside the hub it ships Agent Mail (an inbox and draft-review flow for the orche
 
 ## Status
 
-Active and young: 1,583 stars, a push on 2026-10-14, and release v1.2.63 on 2026-10-14 as of 2026-10-15 (GitHub API, releases), on a repository created 2026-06-04.
+Active and young: 1,583 stars, a push on 2026-10-17, and release v1.2.66 on 2026-10-17 (v1.2.63 was October 14) as of 2026-10-18 (GitHub API, releases), on a repository created 2026-06-04.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentlas-ai/Agentlas-OS&type=date&theme=dark&legend=top-left" />

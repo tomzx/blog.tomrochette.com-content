@@ -45,7 +45,7 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 ## Standing family rejections
 
 - 2026-10-12 (ruled 2026-10-07) | orchestration | single-vendor agent-building SDKs rejected as SDKs, not multi-agent orchestration systems | openai-agents-python, smolagents, adk-python, semantic-kernel, strands, claude-agent-sdk; microsoft/agent-framework and deepagents held under it, queue q#7 open
-- 2026-10-14 (ruled 2026-10-07) | orchestration | mission-control dashboards and tails rejected against the absorbed canonical family | claudecodeui, open-multi-agent, background-agents, RunMaestro, agent-office, clodfarm, zeron held; openai/symphony the flagged carve-out, queue q#12 open
+- 2026-10-18 (ruled 2026-10-07) | orchestration | mission-control dashboards and tails rejected against the absorbed canonical family | claudecodeui, open-multi-agent, background-agents, RunMaestro, agent-office, clodfarm, zeron, OpenAgents Workspace held; openai/symphony the flagged carve-out, queue q#12 open
 - 2026-10-14 (ruled 2026-10-07) | assistant-runtimes | the absorbed runtime family holds: cowork desktops and claw successors resolve into existing notes, no new columns | rowboat, leon, cloudflare-os, nullclaw, LobsterAI, jev-chat-jarvis, openfang, xiryn, orkas, openpaw held; openhuman scale call open, queue q#13
 - 2026-10-12 | orchestration | the 2023 dormant wave of agent repositories stays rejected | re-confirmed with fresh counts in the kaushikb11/awesome-llm-agents scan
 - 2026-09-27 | cross-category | browser automation stays out of scope and no browser-agents category opens; final, not open to re-review | owner ruling on the browser-use question (116k stars declined)

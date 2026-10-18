@@ -1,7 +1,7 @@
 ---
 title: Avante.nvim
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, neovim, editor-agent]
 readability: 3
@@ -22,7 +22,7 @@ Development is active with CI on both Lua and Rust, a Discord community, and rap
 
 ## Status
 
-Established and maintained: 18,183 stars, 858 forks, and 53 open issues as of 2026-10-13, with the default branch pushed 2026-10-06 and the newest tagged release v0.4.0 (2026-09-26), plugin installs generally tracking the branch.
+Established and maintained: 18,183 stars, 858 forks, and 53 open issues as of 2026-10-13, with the default branch pushed 2026-10-17 (GitHub API, re-checked 2026-10-18) and the newest tagged release v0.4.0 (2026-09-26), plugin installs generally tracking the branch.
 **Its adoption is the oldest story in this wave: a 300-point Hacker News launch thread in August 2024, sustained directory and community coverage since, which makes it one of the few editor-extension harnesses with a proven multi-year footprint.**
 The repository moved from the author's personal account to the avante-corp organization, the ordinary sign of a project outgrowing one maintainer.
 

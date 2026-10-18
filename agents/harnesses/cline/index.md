@@ -1,7 +1,7 @@
 ---
 title: Cline
 created: 2026-08-24
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, byok]
 readability: 3
@@ -35,8 +35,9 @@ The repository shows about 70.3k stars and 7.7k forks as of 2026-10-15, with 250
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=cline/cline&type=date&legend=top-left" />
 </picture>
 
-The VS Code Marketplace page shows 5,649,038 installs as of 2026-10-17 and a 4.1/5 average rating as of 2026-09-22; the product site claims 11M+ installs across the marketplace and Open VSX.
+The VS Code Marketplace page shows 5,657,214 installs as of 2026-10-18 and a 4.1/5 average rating as of 2026-09-22; the product site claims 11M+ installs across the marketplace and Open VSX.
 The project started as the "Claude Dev" extension in late 2024 and has been renamed and corporatized since.
+v4.1.25 (October 16, 2026) began rolling out Cline Cloud sessions: a task runs in a hosted sandbox on a GitHub repo and branch you pick, shows up in Recent and History with its status, notifies you when it finishes, and keeps running after you close your editor ([release notes](https://github.com/cline/cline/releases), rolling out gradually).
 Beyond the open harness, the vendor now sells Cline Spec Driven, an enterprise agent platform built with LG CNS that runs a specialized-agent pipeline over a licensed, self-hostable deployment, listed on the product site as of 2026-10-06.
 
 ## Strengths
@@ -56,7 +57,7 @@ Beyond the open harness, the vendor now sells Cline Spec Driven, an enterprise a
 ## Pricing
 
 Free and open source for individuals; you pay inference per use or bring keys.
-ClinePass ($9.99/month, currently sold at a promotional rate) bundles access to open-weight labs: Z.ai, Moonshot AI, DeepSeek, MiniMax, MiMo, and Qwen.
+ClinePass is $9.99/month flat (the docs now describe it that way, offering 2-5x the standard-API usage on popular open coding models; the promotional-rate wording that marked earlier reads has retired from the docs), bundling access to open-weight labs: Z.ai, Moonshot AI, DeepSeek, MiniMax, MiMo, and Qwen.
 Enterprise is custom (SSO, SLA, dedicated support).
 
 ## Price history
@@ -64,6 +65,7 @@ Enterprise is custom (SSO, SLA, dedicated support).
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09 | ClinePass | Baseline: core free and open source; ClinePass $9.99/mo at a promotional rate bundling open-weight labs (Z.ai, Moonshot AI, DeepSeek, MiniMax, MiMo, Qwen); Enterprise custom. | [cline.bot/pricing](https://cline.bot/pricing) |
+| 2026-10-18 | ClinePass | The docs now describe the subscription as a flat $9.99/month offering 2-5x standard-API usage on popular open coding models; the promotional-rate wording retired, the $9.99 headline unchanged. | [docs.cline.bot](https://docs.cline.bot/) |
 
 ## Compared to
 
@@ -87,6 +89,8 @@ Not for teams that require every client binary open or a coding-agnostic automat
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-06 - Recorded the native Cline Desktop app as a fifth delivery surface, the Cline Spec Driven enterprise platform built with LG CNS, and refreshed repository and marketplace counters.
 - 2026-10-07 - Added the cline/cline star history chart to the Status section.
+- 2026-10-18 - Recorded Cline Cloud sessions rolling out gradually in v4.1.25 (October 16, 2026): hosted sandbox tasks on a picked repo and branch that keep running after the editor closes, and refreshed the marketplace install count.
+- 2026-10-18 - Recorded the ClinePass pricing wording settling at a flat $9.99/month in the docs (promotional-rate wording retired, headline unchanged), and appended the matching Price history row.
 
 ## See also
 

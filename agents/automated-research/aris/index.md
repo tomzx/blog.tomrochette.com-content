@@ -1,7 +1,7 @@
 ---
 title: ARIS
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, agentic-llm, machine-learning, open-source, skills]
 readability: 3
@@ -24,7 +24,7 @@ Beyond the skills, the project ships a standalone Rust CLI (ARIS-Code, v0.4.28 o
 
 ## Status
 
-Active: 17,367 stars, 1,456 forks, created 2026-03-10, last push 2026-10-07, as of 2026-10-13.
+Active: 17,367 stars, 1,456 forks, created 2026-03-10, last push 2026-10-17 (a WeChat community QR-code refresh, the only commit since October 7), as of 2026-10-18.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=wanshuiyin/Auto-claude-code-research-in-sleep&type=date&theme=dark&legend=top-left" />
@@ -79,8 +79,8 @@ Not for anyone who needs a machine verifier behind results, a small inspectable 
 ## References
 
 - https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep - repository and README: skill set, harness adapters, executor-reviewer split, release train (fetched 200, 2026-10-10)
-- https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep - stars, forks, created and pushed dates, MIT license, and topics for the as-of status (fetched 200, 2026-10-11)
+- https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep - stars, forks, created and pushed dates, MIT license, and topics for the as-of status (fetched 200, 2026-10-18)
 - https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/main/README.md - the README source: 82 skills, adapter list, ARIS-Code v0.4.28 details, and the codex-cli 0.154 bridge note (fetched 200, 2026-10-10)
 - https://arxiv.org/abs/2605.03042 - the technical report: cross-model adversarial collaboration, the plausible-unsupported-success failure mode, and the three-layer architecture (fetched 200, 2026-10-10)
-- https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/releases?per_page=5 - the release train through v0.4.28 (2026-09-28) (fetched 200, 2026-10-10)
+- https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/releases?per_page=5 - the release train through v0.4.28 (2026-09-28), still the latest (fetched 200, 2026-10-18)
 - https://hn.algolia.com/api/v1/search?query=claude-code-research-in-sleep - the zero-story Hacker News footprint (fetched 200, 2026-10-10)

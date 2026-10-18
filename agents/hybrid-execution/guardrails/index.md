@@ -1,7 +1,7 @@
 ---
 title: Guardrails
 created: 2026-10-13
-updated: 2026-10-15
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, structured-outputs, validation, guardrails, python]
 readability: 3
@@ -68,6 +68,7 @@ The disagreeable claim I will defend: the validator-hub kind is the most durable
 ## Changes
 
 - 2026-10-13 - Created from the cross-category candidate resolution, admitted as the validate-and-retry family's validator-hub kind, with the July 2026 hub-to-PyPI migration, the August hosted-inference cutoff, and the September Harvey acquisition recorded as the governing cautions.
+- 2026-10-18 - Rotation re-verification: every cited URL re-fetched and holding (hub, docs, LiteLLM guide, sunset issue 1560, the Harvey announcement, Snowglobe, the TechCrunch story, and the Algolia footprint with its 15-point and 2-point hits), the docs llms.txt pointer still 404s, PyPI holds 0.11.0 and 101,253 last-month downloads, the release train still tops out at v0.11.0 (2026-08-14), and no default-branch commit has landed since 2026-10-12.
 
 ## See also
 

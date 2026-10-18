@@ -1,7 +1,7 @@
 ---
 title: Juggler
 created: 2026-08-30
-updated: 2026-10-15
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, gui, go]
 readability: 3
@@ -35,8 +35,9 @@ The public Show HN on July 12, 2026 drew 280 points and 119 comments ([HN](https
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=juggler-ai/juggler&type=date&legend=top-left" />
 </picture>
 
-Shipping is steady: v0.7.6 published October 9, 2026, which added tool hooks (deny, hold, or annotate any tool call, from extensions or `~/.juggler/hooks`) plus a batch of selection, undo, and MCP fixes; before it, v0.7.5 (October 6) was a large polish release (a friendlier file-attach flow with text snapshots for non-images, an image viewer with pinch and Ctrl-scroll zoom, CLI detection across nvm, fnm, bun, pnpm, volta, mise, and asdf installs, Ollama models honoring a raised max-output-tokens setting, selectable auto-approve reviewer policies, and a batch of undo, sidebar, and window fixes); before that, v0.7.4 (October 2) added per-provider toggles for Codex and Copilot subscriptions, thinking levels for Ollama models, a file viewer that plays video and audio and opens more image formats, and a fix for slow-starting WSL sessions on Windows; v0.7.3 (September 30) added a "Group" workspace type that organizes conversations without a worktree or copy, usage meters that redden by pace against the window rather than by quota consumed, touch-device fixes, and an LM Studio provider that reads each model's loaded context window.
+Shipping is steady: v0.7.7 published October 17, 2026, which added a mutating `run_code` tool (the write-side pair to `query_code`, completing its code-mode surface), a self-contained HTML conversation export, a `--allow-host` flag for serving Juggler behind a reverse proxy such as tailscale, and a sub-agent run budget settable in Settings with a 1M-token default; before it, v0.7.6 published October 9, 2026, which added tool hooks (deny, hold, or annotate any tool call, from extensions or `~/.juggler/hooks`) plus a batch of selection, undo, and MCP fixes; before that, v0.7.5 (October 6) was a large polish release (a friendlier file-attach flow with text snapshots for non-images, an image viewer with pinch and Ctrl-scroll zoom, CLI detection across nvm, fnm, bun, pnpm, volta, mise, and asdf installs, Ollama models honoring a raised max-output-tokens setting, selectable auto-approve reviewer policies, and a batch of undo, sidebar, and window fixes); before that, v0.7.4 (October 2) added per-provider toggles for Codex and Copilot subscriptions, thinking levels for Ollama models, a file viewer that plays video and audio and opens more image formats, and a fix for slow-starting WSL sessions on Windows; v0.7.3 (September 30) added a "Group" workspace type that organizes conversations without a worktree or copy, usage meters that redden by pace against the window rather than by quota consumed, touch-device fixes, and an LM Studio provider that reads each model's loaded context window.
 One person builds it, which is both the reason it ships fast and the project's single point of failure.
+Re-checked 2026-10-18 with v0.7.7 the newest release (GitHub API).
 
 ## Strengths
 
@@ -80,6 +81,7 @@ I think the harnesses that win the GUI layer will be the ones that treat convers
 - 2026-10-07 - Added the juggler-ai/juggler star history chart to the Status section.
 - 2026-10-07 - Recorded the v0.7.5 release (October 6), a large polish pass covering the file-attach flow, image-viewer zoom and pan, CLI detection across version managers, Ollama max-output-tokens support, selectable auto-approve reviewer policies, and undo, sidebar, and window fixes, and refreshed counters.
 - 2026-10-12 - Recorded the v0.7.6 release (October 9), which added tool hooks that deny, hold, or annotate any tool call from extensions or ~/.juggler/hooks, and refreshed counters.
+- 2026-10-18 - Recorded the v0.7.7 release (October 17): a mutating run_code tool completing the code-mode pair beside query_code, a self-contained HTML conversation export, --allow-host reverse-proxy hosting, and a sub-agent run budget settable in Settings with a 1M-token default.
 
 ## See also
 

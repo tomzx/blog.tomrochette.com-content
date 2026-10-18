@@ -1,7 +1,7 @@
 ---
 title: AutoGen
 created: 2026-09-27
-updated: 2026-10-15
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, microsoft]
 readability: 3
@@ -10,9 +10,9 @@ audience_notes: >
   Assumes you know Python packaging and have used at least one agent framework.
 ---
 
-AutoGen is Microsoft's Python framework for applications where multiple agents, and humans, talk to each other in conversations to finish tasks, and as of its own README it is in maintenance mode: no new features, community managed, with Microsoft Agent Framework as the designated successor.
+AutoGen is Microsoft's Python framework for applications where multiple agents, and humans, talk to each other in conversations to finish tasks, and as of its own README it is archived: Microsoft provides no bug fixes, security fixes, new features, or support, and routes users to Microsoft Agent Framework.
 
-**The most instructive fact in this note is that the best-known corporate multi-agent framework reached maintenance mode within three years of launch, and Microsoft's own README now routes new users elsewhere.**
+**The most instructive fact in this note is that the best-known corporate multi-agent framework reached maintenance mode within three years of launch and archived itself within four, and Microsoft's own README now routes new users elsewhere.**
 
 ## What it is
 
@@ -24,8 +24,8 @@ Its research lineage is real: the framework came out of Microsoft Research and P
 
 ## Status
 
-Maintenance mode, by its own declaration: the README carries an orange maintenance-mode badge and a caution box stating AutoGen "will not receive new features or enhancements and is community managed going forward".
-New users are pointed to Microsoft Agent Framework (MAF), the enterprise successor that merged the AutoGen and Semantic Kernel lines; MAF shows 14,066 stars, MIT, and a push on 2026-10-11 (GitHub API, as of 2026-10-12).
+Archived, by its own declaration: on 2026-10-16 the README moved from the orange maintenance-mode badge to a red status-archived badge and a caution box stating "Project archived and no longer maintained", that "Microsoft is not providing bug fixes, security fixes, new features, or support", and that the repository remains available for historical and reference purposes only (the repo is not GitHub-formally archived, so issues and pulls stay open).
+New users are pointed to Microsoft Agent Framework (MAF), the enterprise successor that merged the AutoGen and Semantic Kernel lines; MAF shows 14,066 stars as of 2026-10-12, MIT, with a push on 2026-10-16 (GitHub API, as of 2026-10-18).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/autogen&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ New users are pointed to Microsoft Agent Framework (MAF), the enterprise success
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/autogen&type=date&legend=top-left" />
 </picture>
 
-AutoGen's own repo was last pushed 2026-04-15 and its latest release is python-v0.7.5 from 2025-09-30, so the code is stable but frozen.
+AutoGen's own repo was last pushed 2026-10-16, the commit that re-labeled the project archived, and its latest release is python-v0.7.5 from 2025-09-30, so the code is stable and now formally abandoned.
 Microsoft ships a migration guide on Learn, and the README also still carries the v0.2-to-v0.4 migration path, a reminder that this project already survived one breaking rewrite.
 The successor is production-ready per the README, which calls MAF 1.0 stable with long-term support and A2A plus MCP interoperability.
 
@@ -46,7 +46,7 @@ The successor is production-ready per the README, which calls MAF 1.0 stable wit
 
 ## Cautions
 
-- **Frozen by its maintainer**: no new features, community management only, and a successor with a different API, so new projects here are dead ends.
+- **Archived**: no fixes of any kind, security included, so anything you vendor from it is yours to patch; new projects here are dead ends.
 - Migration is a rewrite, not an upgrade; the AutoGen-to-MAF guide exists precisely because the abstractions do not map one to one.
 - The original launch drew a plagiarism accusation from the CAMEL authors in a small HN thread, which the discussion contested but never cleanly resolved.
 - Corporate framework churn is the real lesson: AutoGen users were already migration veterans by the time Microsoft asked them to migrate again, this time to MAF.
@@ -73,6 +73,7 @@ My disagreeable claim: conversation-first multi-agent programming, the pattern A
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-10-07 - Added the microsoft/autogen star history chart to the Status section.
 - 2026-10-12 - Refreshed the Microsoft Agent Framework successor counts (14,066 stars, pushed October 11).
+- 2026-10-18 - Status moved from maintenance mode to archived: the 2026-10-16 README commit added a red archived badge and states Microsoft provides no bug, security, or feature fixes; the repository stays public and not GitHub-formally archived.
 
 ## See also
 
@@ -84,7 +85,7 @@ My disagreeable claim: conversation-first multi-agent programming, the pattern A
 ## References
 
 - https://api.github.com/repos/microsoft/autogen - GitHub API (200): 61,179 stars, pushed 2026-04-15, created 2023-08-18, license detection CC-BY-4.0 (as of 2026-09-27)
-- https://raw.githubusercontent.com/microsoft/autogen/main/README.md - maintenance-mode badge, successor pointer, install and migration text (200) (critical source)
+- https://raw.githubusercontent.com/microsoft/autogen/main/README.md - archived badge and caution box, successor pointer, install and migration text (200, re-fetched 2026-10-18) (critical source)
 - https://github.com/microsoft/autogen/releases - releases (200): python-v0.7.5 latest, published 2025-09-30
 - https://microsoft.github.io/autogen/stable/ - official documentation, live (200)
 - https://pypi.org/pypi/autogen-agentchat/json - PyPI metadata (200): autogen-agentchat 0.7.5, MIT, Python 3.10+

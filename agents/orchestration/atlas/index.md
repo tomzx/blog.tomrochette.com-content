@@ -1,7 +1,7 @@
 ---
 title: Atlas
 created: 2026-09-29
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, source-control, rust]
 readability: 3
@@ -23,7 +23,7 @@ It surfaced as an entrant from the owner's GitHub stars.
 
 ## Status
 
-Active and growing fast: 9,601 stars in five months (as of 2026-10-15), last push 2026-10-17, latest release alpha-0.3.4 on 2026-09-27 (GitHub API, as of 2026-10-17).
+Active and growing fast: 9,601 stars in five months (as of 2026-10-15), last push 2026-10-18, latest release alpha-0.3.4 on 2026-09-27 (GitHub API, as of 2026-10-18).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=pacifio/atlas&type=date&theme=dark&legend=top-left" />
@@ -51,7 +51,14 @@ I found no HN launch thread and no third-party coverage: the community footprint
 
 ## Pricing
 
-None: Atlas is free and open source under Apache-2.0, with no pricing page, paid tier, or hosted offering as of 2026-09-29.
+The app is still free in the alpha with bring-your-own keys, but the site now lists paid plans: Free $0 (3 members), Pro $20 per month (5 members, 10 GB session storage, $8 of included AI, 20M vectorization tokens), Team $100 per month (25 members, 50 synced projects, 100 GB, $40 AI, 100M tokens), and Business $200 per month (100 members, unlimited synced projects, 500 GB, $80 AI, 300M tokens), with Pro and above adding Remote Runs (tryatlas.cc, as of 2026-10-18).
+The Apache-2.0 repository itself is unchanged.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-10-18 | Free, Pro, Team, Business | Paid tiers first observed: no pricing page existed at creation (2026-09-29) or at the 2026-10-15 verification; site now lists Pro $20, Team $100, Business $200 per month beside the free tier | https://www.tryatlas.cc |
 
 ## Compared to
 
@@ -68,6 +75,7 @@ Not for teams needing a stable 1.0, Linux desktop installers, or a tool with ind
 
 - 2026-09-29 - Created when the owner's GitHub-stars entrant resolved in the carried candidate pile.
 - 2026-10-07 - Added the pacifio/atlas star history chart to the Status section.
+- 2026-10-18 - Re-verified in rotation (all cited URLs re-fetched, none dead); pricing moved from none to a four-tier page (Pro $20, Team $100, Business $200 per month, app still free in alpha with BYO keys), price history table seeded.
 
 ## See also
 

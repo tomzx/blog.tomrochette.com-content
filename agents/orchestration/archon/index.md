@@ -1,7 +1,7 @@
 ---
 title: Archon
 created: 2026-10-07
-updated: 2026-10-15
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflow-engine, worktrees]
 readability: 3
@@ -23,7 +23,8 @@ Setup runs through Claude Code itself (the guided wizard is a Claude Code sessio
 
 ## Status
 
-Active: created 2025-02-07, 23,687 stars, release v0.11.1 published 2026-09-25, as of 2026-10-15.
+Active: created 2025-02-07, 23,687 stars as of 2026-10-15, pushed 2026-10-18, and the release line woke on 2026-10-17 with v0.12.0 and v0.12.1 after three weeks on v0.11.1 (GitHub API, as of 2026-10-18).
+The v0.12.0 release notes name providers becoming separate installs for release binaries, SDLC-pack intake, build, and merge queues, runs that wait out usage and rate limits, and workflows that run without a database while keeping durable state.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=coleam00/Archon&type=date&theme=dark&legend=top-left" />
@@ -67,6 +68,7 @@ Not for teams outside the Claude Code ecosystem today, and not for anyone who ne
 ## Changes
 
 - 2026-10-07 - Created.
+- 2026-10-18 - Re-verified in rotation (all cited URLs re-fetched, none dead); recorded the release line waking: v0.12.0 and v0.12.1 on 2026-10-17, provider installs split from release binaries, SDLC-pack queues, rate-limit-aware runs, and database-optional durable workflows.
 
 ## See also
 
@@ -77,8 +79,8 @@ Not for teams outside the Claude Code ecosystem today, and not for anyone who ne
 
 ## References
 
-- https://github.com/coleam00/Archon - repository, MIT license, the workflow YAML model, worktree isolation, and the trigger list (fetched 200, 2026-10-07)
-- https://api.github.com/repos/coleam00/Archon - stars, created date, and push date for the as-of status (fetched 200, 2026-10-07)
-- https://archon.diy/docs/ - the docs hub: workflow engine definition, portability claims, multi-provider support (Claude Code SDK, Codex SDK, Pi), and install paths (fetched 200, 2026-10-07)
-- https://api.github.com/repos/coleam00/Archon/releases - the v0.11.1 release of 2026-09-25 (fetched 200, 2026-10-07)
-- https://raw.githubusercontent.com/coleam00/Archon/HEAD/README.md - the setup flow through Claude Code, the CLAUDE_BIN_PATH requirement, and the deterministic-versus-mood argument (fetched 200, 2026-10-07)
+- https://github.com/coleam00/Archon - repository, MIT license, the workflow YAML model, worktree isolation, and the trigger list (fetched 200, 2026-10-07 and 2026-10-18)
+- https://api.github.com/repos/coleam00/Archon - stars, created date, and push date for the as-of status (fetched 200, 2026-10-07 and 2026-10-18)
+- https://archon.diy/docs/ - the docs hub: workflow engine definition, portability claims, multi-provider support (Claude Code SDK, Codex SDK, Pi), and install paths (fetched 200, 2026-10-07 and 2026-10-18)
+- https://api.github.com/repos/coleam00/Archon/releases - the v0.11.1 release of 2026-09-25 (fetched 2026-10-07); v0.12.0 and v0.12.1 of 2026-10-17 (re-fetched 2026-10-18)
+- https://raw.githubusercontent.com/coleam00/Archon/HEAD/README.md - the setup flow through Claude Code, the CLAUDE_BIN_PATH requirement, and the deterministic-versus-mood argument (fetched 200, 2026-10-07 and 2026-10-18)

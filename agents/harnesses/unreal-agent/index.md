@@ -1,7 +1,7 @@
 ---
 title: Unreal Agent
 created: 2026-09-25
-updated: 2026-10-11
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, coding-agent, go, async]
 readability: 3
@@ -22,7 +22,7 @@ Unreal Labs says it was founded by engineers from CERN, Meta, Snap, Bloomberg, a
 ## Status
 
 Active and three days old at verification.
-The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 242 points with 122 comments, and the repo stood at 2,187 stars and 125 forks with the default branch pushed 2026-10-06 (GitHub, as of 2026-10-11).
+The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 247 points as of 2026-10-18 (122 comments as of 2026-09-25), and the repo stood at 2,187 stars and 125 forks with the default branch pushed 2026-10-06 (GitHub, as of 2026-10-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=unreallabsai/unreal-agent&type=date&theme=dark&legend=top-left" />

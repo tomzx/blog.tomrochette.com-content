@@ -1,7 +1,7 @@
 ---
 title: JevBench
 created: 2026-09-22
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, benchmarking, model-evaluation]
 readability: 3
@@ -102,8 +102,9 @@ The disagreeable claim I will defend: this benchmark's most important number is 
 - 2026-10-11 - The boards moved to revision v1.7.44 (updated 2026-10-10): the main board grew to 148 ranked open-weights systems with the open podium unchanged (H2O-Lightning-4B v1.1 72.5, decisio v0.8.0 71.7, Quyet-1.0-Large 71.4, Jev the unranked reference at 71.5), and the hosted-API board grew from 8 to 27 ranked rows (Instinct ninth at 62.2, Vansa-3.4, Instinct Dual 4B, decision-machine-1, JevAct, Fastino's GLiNER-2.5-Decide, and SimpleJev and openjev-sglang demo endpoints joining, Jev now fourth behind Sage, d1, and Mercury Decide), with Microsoft-Decision-1's base since disclosed as a post-trained Qwen3.5-9B; refreshed stars to 253 and the pushed date to 2026-10-10.
 - 2026-10-12 - The boards moved to revision v1.7.46 (updated 2026-10-12): the main board grew to 152 ranked open-weights systems and its headline re-based on a new Capability Score (the Intelligence-plus-Calibration average under Jev-class cost and latency caps), where Quyet-1.0-Large leads at 81.7 ahead of Jeff-1.0-Large (81.5) and decisio v0.8.0 on Gemma-4-31B (79.6), composite leader H2O-Lightning-4B v1.1 falls to eighth by capability at 75.0 while keeping official #1, and Jev stays the unranked reference at 77.1; on the API board the same capability ordering moved Jev to second behind Sage 1.3.0, with Liquid AI's d1 (74.4) and OpenAI's Decisions API (73.5) carrying current runs again; refreshed stars to 257.
 - 2026-10-13 - The v1.7.46 boards kept the revision and the headline ordering while three new open-weights entrants completed ranked runs (the main board now 155 ranked) and a 28th ranked row joined the hosted-API board, where Microsoft-Decision-1 now also carries a separate A2 re-run row; refreshed stars to 266 and forks to 27.
-- 2026-10-17 - The v1.7.46 boards refreshed again on 2026-10-16 with the revision unchanged: the main board grew from 162 to 181 ranked open-weights systems, the hosted-API board from 30 to 39 ranked rows, and the capability axis re-ranked the podium's surroundings (Quyet-1.0-Large still first at 81.7, Jeff-1.0-Large still second, composite leader H2O-Lightning-4B v1.1 from eighth to ninth by capability at 75.0); board meta now names the reference row Jev 1.13.0.
 - 2026-10-15 - The v1.7.46 boards took a 2026-10-14 refresh that grew the main board to 162 ranked open-weights systems and the hosted-API board to 30 ranked rows; on the API board the official composite ordering returned to the v1.7.44 trio ahead of Jev (Sage 1.3.0 at 74.05, Liquid AI's d1, Inception's Mercury Decide at 72.37, Jev fourth at 71.5) while the capability view keeps Jev second at 77.1; refreshed stars to 272 and the pushed date to 2026-10-15.
+- 2026-10-17 - The v1.7.46 boards refreshed again on 2026-10-16 with the revision unchanged: the main board grew from 162 to 181 ranked open-weights systems, the hosted-API board from 30 to 39 ranked rows, and the capability axis re-ranked the podium's surroundings (Quyet-1.0-Large still first at 81.7, Jeff-1.0-Large still second, composite leader H2O-Lightning-4B v1.1 from eighth to ninth by capability at 75.0); board meta now names the reference row Jev 1.13.0.
+- 2026-10-18 - Restored the Changes list to oldest-first order after a format check found the 2026-10-15 bullet sitting after the 2026-10-17 one; no bullet content changed.
 
 ## See also
 

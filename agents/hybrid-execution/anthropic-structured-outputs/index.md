@@ -1,7 +1,7 @@
 ---
 title: Anthropic structured outputs
 created: 2026-08-24
-updated: 2026-10-08
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, anthropic, tool-calling]
 readability: 3
@@ -71,6 +71,7 @@ Not for schemas that lean on numeric constraints, recursion, or dozens of option
 - 2026-09-22 - Recorded the docs leading with Opus 5.5 and the supported list adding Opus 5.5, Opus 4.6, and Sonnet 4.6.
 - 2026-09-29 - Recorded Sonnet 5.5 joining the supported-model list.
 - 2026-10-08 - Recorded Haiku 5.5 joining the supported-model list (the list had held unchanged since 2026-09-29); the docs' supportedPlatforms and schema-subset text re-verified unchanged.
+- 2026-10-18 - Rotation re-verification: all five cited URLs re-fetched (both platform.claude.com docs pages, the launch blog, the tool-use overview, and the Willison post), and the supported-model list held unchanged since 2026-10-11 with no new model families.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: CAMEL
 created: 2026-10-07
-updated: 2026-10-15
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, research, role-playing]
 readability: 3
@@ -64,6 +64,7 @@ Not for engineers who need a session orchestrator around external coding CLIs; e
 ## Changes
 
 - 2026-10-07 - Created.
+- 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository, arXiv paper, site, docs, PyPI at 0.2.90, the GitHub blog top-10 post); no factual drift, push and PyPI line unchanged since 2026-10-12.
 
 ## See also
 
