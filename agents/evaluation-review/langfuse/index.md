@@ -1,7 +1,7 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
 readability: 3
@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-10-16, with v4.61.0, v4.62.0, and v4.63.0 all released 2026-10-16 as of 2026-10-17.
+Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-10-18, with v4.61.0, v4.62.0, and v4.63.0 all released 2026-10-16 as of 2026-10-18.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />
@@ -46,7 +46,7 @@ Announced ClickHouse acquisition landed on Hacker News on 2026-01-17 with 220 po
 - The `ee/` split is structural: SSO, RBAC depth, and other enterprise features live in proprietary modules, so "MIT" describes the core, not the edges.
 - Ownership changed hands, and the acquisition thread carries the standard open-core worries ("fine as long as all these open source projects stay open source") alongside consolidation takes about data vendors absorbing observability.
 - Cloud billing counts every trace, observation, and score as a unit, then charges $8 per 100k beyond the plan allowance, so high-volume tracing bills creep.
-- OTel-ingested cost aggregates had a cache-accounting bug: the generic GenAI usage extractor missed the official `gen_ai.usage.cache_write.input_tokens` alias, so cache-write tokens were double-counted into input sums and priced at zero until the fix closed issue 17117 on 2026-09-14; pre-fix builds and traces backfilled across that date carry the skew.
+- OTel-ingested cost aggregates had a cache-accounting bug: the generic GenAI usage extractor missed the official `gen_ai.usage.cache_write.input_tokens` alias, so cache-write tokens were double-counted into input sums and priced at zero; the fix merged on 2026-09-07 (PR 17129) and first shipped in v4.34.0 (2026-09-11), the issue itself closed 2026-09-14, so only builds older than v4.34.0, and traces backfilled across that window, carry the skew.
 - It observes applications you instrument, not coding sessions a harness already wrote, so it does not answer this blog's session-analytics questions.
 
 ## Pricing
@@ -88,6 +88,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 - 2026-10-13 - Recorded the v4.58.0 release (2026-10-13) and refreshed repository counts.
 - 2026-10-16 - Recorded the v4.59.0 (2026-10-14) and v4.60.0 (2026-10-15) releases and refreshed the activity line.
 - 2026-10-17 - Recorded the v4.61.0, v4.62.0, and v4.63.0 releases (all 2026-10-16), and added the OTel cache-write accounting caution from the flagged issue 17117 (reported 2026-09-07, closed by the fix 2026-09-14).
+- 2026-10-18 - Sharpened the cache-accounting caution with the fix's landing: merged 2026-09-07 (PR 17129), first shipped in v4.34.0 (2026-09-11), issue closed 2026-09-14, so the caution now names the exact safe build.
 
 ## See also
 
@@ -104,7 +105,9 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 - https://langfuse.com/docs - platform overview, OTel basis, evaluation methods, agent skill, CLI, and MCP server
 - https://langfuse.com/pricing - cloud tiers, billable units, graduated overage, self-host FAQ, named customers
 - https://github.com/langfuse/langfuse/releases - release cadence evidence (v4.51.0 through v4.56.0)
-- https://github.com/langfuse/langfuse/issues/17117 - the OTel cache-write token accounting bug (reported 2026-09-07, closed by the fix 2026-09-14) behind the new caution
+- https://github.com/langfuse/langfuse/issues/17117 - the OTel cache-write token accounting bug (reported 2026-09-07, closed 2026-09-14) behind the caution
+- https://github.com/langfuse/langfuse/pull/17129 - the cache-write normalization fix (merged 2026-09-07)
+- https://github.com/langfuse/langfuse/releases/tag/v4.34.0 - the first release carrying the fix (2026-09-11), confirmed by tag containment
 - https://news.ycombinator.com/item?id=46656552 - the acquisition thread, 220 points, with the open-core and consolidation concerns
 - https://news.ycombinator.com/item?id=42441258 - the 2024 Launch HN thread, 215 points, including the LangSmith comparison
 - https://news.ycombinator.com/item?id=37310070 - the 2023 Show HN thread, 143 points

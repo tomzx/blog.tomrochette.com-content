@@ -1,7 +1,7 @@
 ---
 title: Kata
 created: 2026-10-11
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, local-first, cli, mcp, open-source]
 readability: 3
@@ -17,16 +17,16 @@ Kata is an MIT-licensed, local-first issue ledger for coding agents: a single Go
 ## What it is
 
 A Go daemon (auto-started on first use, idle-shutdown opt-in) holding issues in SQLite under `KATA_HOME`, with PostgreSQL as the production option, so the repository carries only a small `.kata.toml` binding file.
-Surfaces: a CLI with `--agent` and `--json` modes, a terminal TUI, a daemon-served browser workspace, a native MCP server with sixteen on-demand section loaders, a versioned HTTP API, and a Go package for in-process embedding.
+Surfaces: a CLI with `--agent` and `--json` modes, a terminal TUI, a daemon-served browser workspace, a native MCP server with seventeen on-demand section loaders, a versioned HTTP API, and a Go package for in-process embedding.
 Issues carry short refs, parent and child links, blocks and blocked-by ordering, labels, durable cursor-addressable events, and closes that must cite evidence (`--commit`, `--test`, `--evidence`).
-The coordination primitives are the draw: atomic claims (`kata claim --if-unowned` with TTL leases), revision-guarded writes (`--if-match`), idempotent creates and closes, teammate identities with per-recipient inboxes, and `kata notify` attention requests.
-Beyond one machine: a remote daemon, GitHub and Notion and Plane and Linear and Twenty and Todoist sync, and daemon-to-daemon federation, with a `kata import --source-format beads` path off beads.
+The coordination primitives are the draw: atomic claims (`kata claim --if-unowned`, with user-set TTL leases of one minute to 24 hours since v0.19.0), revision-guarded writes (`--if-match`), idempotent creates and closes, teammate identities with per-recipient inboxes, and `kata notify` attention requests.
+Beyond one machine: a remote daemon, import and optional two-way status sync with GitHub, Notion, Plane, Linear, Twenty, Todoist, and TickTick plus a Forgejo connector, project sharing between federation hubs, and daemon-to-daemon federation, with a `kata import --source-format beads` path off beads.
 Kenn Software LLC maintains it under MIT, with documentation at katatracker.com.
 
 ## Status
 
 Active and on a steady release cadence.
-As of 2026-10-16: 464 stars (as of 2026-10-14), 48 forks, created 2026-04-30, pushed 2026-10-16, latest release v0.18.0 on 2026-09-17 (teammate attention requests, issue-scoped worker credentials, search status filters), with backward compatibility promised since v0.14.0.
+As of 2026-10-18: 464 stars (as of 2026-10-14), 48 forks, created 2026-04-30, pushed 2026-10-18, latest release v0.19.0 on 2026-10-17, with backward compatibility promised since v0.14.0 (v0.19.0's command rename is the declared exception).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/kata&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ As of 2026-10-16: 464 stars (as of 2026-10-14), 48 forks, created 2026-04-30, pu
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenn-io/kata&type=date&legend=top-left" />
 </picture>
 
-The unreleased changelog section is already large: an `agent-hook` rename covering 18 native harness targets, MCP coordination tools, a `kata doctor` diagnostic, and opt-out anonymous telemetry.
+v0.19.0 shipped the changelog's long-standing unreleased block in one drop: the `agent-hook` rename covering the native harness targets (attention hooks now install on by default), new MCP coordination tools with paginated exhaustive issue discovery, `kata doctor`, and opt-out anonymous telemetry, alongside TickTick and Forgejo sync, federation project sharing, native cron, recurring child issues, comment replies, and TUI undo.
 
 An HN search for the project returns zero story hits as of 2026-10-14, so the adoption evidence is the repository curve and the changelog's external contributor roster (Wes McKinney, Marius van Niekerk), not independent discussion.
 
@@ -48,9 +48,9 @@ An HN search for the project returns zero story hits as of 2026-10-14, so the ad
 ## Cautions
 
 - State outside git means history does not ride commits the way beads, Epiq, or Backlog.md state does; federation and remote daemons are the sync paths, and both are more moving parts than a push.
-- The unreleased line adds anonymous telemetry (daily install events, session duration buckets, screen views), opt-out only, a default worth checking before adopting a tool pitched as local-first.
+- v0.19.0 ships anonymous telemetry (daily install events, session-duration buckets, screen views, daily agent activity from hooks and MCP), opt-out via `KATA_TELEMETRY_ENABLED=0`, a default worth checking before adopting a tool pitched as local-first.
 - 459 stars in under six months, a company behind a free MIT product, and an unstated business model make the long-term bet unclear.
-- The most interesting surfaces (the agent-hook rewrite, MCP coordination tools) sit in the unreleased section, so the documented state is ahead of the tagged releases.
+- The v0.19.0 upgrade carries real breaking changes: the `agent-hook` command rename (old spellings rejected, hooks must be reinstalled), attention hooks on by default, a PostgreSQL migration requiring schema-owner credentials, and federated hubs that must upgrade before their connected devices.
 
 ## Pricing
 
@@ -73,6 +73,7 @@ My disagreeable claim: a tracker 250 milliseconds away is a different species fr
 
 - 2026-10-11 - Created after the entrant sweep surfaced its beads-alternative positioning and import path.
 - 2026-10-11 - Added the star history chart.
+- 2026-10-18 - Recorded the v0.19.0 release (2026-10-17: the agent-hook rename with attention hooks on by default, MCP coordination tools with paginated exhaustive issue discovery, kata doctor, TickTick and Forgejo sync, federation project sharing, native cron, recurring child issues, comment replies, TUI undo, and the telemetry line shipped) and refreshed counts (pushed 2026-10-18).
 
 ## See also
 
@@ -85,8 +86,9 @@ My disagreeable claim: a tracker 250 milliseconds away is a different species fr
 
 - https://github.com/kenn-io/kata - README: storage, surfaces, sharing models, the beads comparison and import path (fetched 2026-10-11)
 - https://katatracker.com/ - the site: the 4-millisecond measurements, event stream, federation, evidence-based closes, the layer argument against SaaS trackers
-- https://raw.githubusercontent.com/kenn-io/kata/main/docs/changelog.md - release history: v0.18.0 (2026-09-17) and the unreleased agent-hook, telemetry, and MCP coordination lines
+- https://raw.githubusercontent.com/kenn-io/kata/main/docs/changelog.md - release history: v0.19.0 (2026-10-17) and the line before it, with the upgrade notes
+- https://api.github.com/repos/kenn-io/kata/releases/tags/v0.19.0 - the v0.19.0 notes: sync targets, federation sharing, claims with TTL, MCP tools, upgrade requirements
 - https://raw.githubusercontent.com/kenn-io/kata/main/docs/workflows/agents.md - the agent contract, the 18-harness hook coverage table, teammate and inbox workflows, MCP setup
-- https://api.github.com/repos/kenn-io/kata - stars, forks, dates, MIT license as of 2026-10-14
-- https://api.github.com/repos/kenn-io/kata/releases - v0.18.0 (2026-09-17) and the release cadence
+- https://api.github.com/repos/kenn-io/kata - stars, forks, dates, MIT license as of 2026-10-18
+- https://api.github.com/repos/kenn-io/kata/releases - v0.19.0 (2026-10-17) and the release cadence
 - https://hn.algolia.com/api/v1/search?query=katatracker&tags=story - zero story hits as of 2026-10-14, the missing HN footprint

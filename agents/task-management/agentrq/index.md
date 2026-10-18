@@ -1,7 +1,7 @@
 ---
 title: AgentRQ
 created: 2026-10-13
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, mcp, human-in-the-loop, self-hosted]
 readability: 3
@@ -22,7 +22,8 @@ A companion Chrome extension carries the board into the browser; the README carr
 
 ## Status
 
-Active and modest: 1,152 stars as of 2026-10-14, 85 forks, and 2 open issues and pull requests as of 2026-10-17, created 2026-03-24, pushed 2026-10-17, AGPL-3.0 throughout, on a three-release train in two days (v0.11.1 to v0.11.3, 2026-10-15 and 2026-10-16) that added a native-ACP reasoning-level picker and refactored the ACP link layer into a protocol-neutral agentlink package, then v0.12.0 (2026-10-17), a security-and-ops minor that fixed SQL-injection and tool-spoofing holes in the ACP tool-call path, made the acp-gateway speak only native ACP v1, and added health and readiness probes with S3-shared TLS certificates.
+Active and modest: 1,152 stars as of 2026-10-14, 85 forks, and 2 open issues and pull requests as of 2026-10-18, created 2026-03-24, pushed 2026-10-18, AGPL-3.0 throughout, on a three-release train in two days (v0.11.1 to v0.11.3, 2026-10-15 and 2026-10-16) that added a native-ACP reasoning-level picker and refactored the ACP link layer into a protocol-neutral agentlink package, then v0.12.0 (2026-10-17), a security-and-ops minor that fixed SQL-injection and tool-spoofing holes in the ACP tool-call path, made the acp-gateway speak only native ACP v1, and added health and readiness probes with S3-shared TLS certificates.
+Post-release commits keep landing on the main branch: per-task plan rows pinned above the chat, native-ACP resource links and notice toasts, and Claude plugin manifest fixes.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentrq/agentrq&type=date&theme=dark&legend=top-left" />

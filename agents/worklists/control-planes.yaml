@@ -3,7 +3,7 @@ category: control-planes
 generated: 2026-10-18
 mapped_sources:
   - repo: agentrust-io/awesome-ai-governance
-    last_checked: 2026-10-14
+    last_checked: 2026-10-18
 notes:
   - slug: agent-control
     title: Agent Control

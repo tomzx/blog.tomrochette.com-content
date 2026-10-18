@@ -1,7 +1,7 @@
 ---
 title: SettleBridge
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-settlement, trust, escrow, policy-enforcement, audit]
 readability: 3
@@ -25,7 +25,7 @@ The vendor is Truthsetter LLC.
 ## Status
 
 Early and low-traffic but actively maintained.
-The gateway repository was created 2026-03-08 and sits at 1 star, 0 forks, and 1 open issue as of 2026-10-10, with 76 commits and a last push on 2026-09-25; the A2A-SE standard repository has 2 stars.
+The gateway repository was created 2026-03-08 and sits at 1 star, 0 forks, and 1 open issue as of 2026-10-18, with 76 commits and a last push on 2026-09-25; the A2A-SE standard repository has 2 stars.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2a-settlement/settlebridge-ai&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ The Exchange charges 0.25% of each settled transaction as an ATE treasury fee.
 - 2026-09-27 - Created.
 - 2026-10-02 - Added the missing llm=glm-5.3-flash tag from this maintenance run; license metadata re-checked and still unresolved (GitHub reports none, the LICENSE path still returns 404).
 - 2026-10-07 - Added the a2a-settlement/settlebridge-ai star history chart to the Status section.
+- 2026-10-18 - Rotation re-verification: every cited URL re-fetched, all facts unchanged (1 star, 0 forks, 1 open issue, 76 commits, last push 2026-09-25), pricing unchanged, and the license metadata still unresolved (site says Apache-2.0, GitHub API reports none, LICENSE still 404).
 
 ## See also
 
@@ -94,7 +95,7 @@ The Exchange charges 0.25% of each settled transaction as an ATE treasury fee.
 - https://settlebridge.ai/ - product framing, gateway components, open-core claim
 - https://settlebridge.ai/pricing - Community, Enterprise, and Exchange pricing with dollar and percentage amounts
 - https://github.com/a2a-settlement/settlebridge-ai - README: architecture, configuration, bounty marketplace, license statement
-- https://api.github.com/repos/a2a-settlement/settlebridge-ai - stars, forks, issues, push dates, and the null license field as of 2026-10-10
+- https://api.github.com/repos/a2a-settlement/settlebridge-ai - stars, forks, issues, push dates, and the null license field as of 2026-10-18
 - https://docs.a2a-settlement.org/docs/agent-settlement/ - A2A-SE: settlement lifecycle, three-layer model, interoperability
 - https://api.github.com/repos/a2a-settlement/a2a-settlement - the MIT-licensed standard repository behind the gateway
 - https://raw.githubusercontent.com/Agent-Analytics/awesome-multi-agent-orchestrators/main/README.md - the curated directory that flags the license metadata as inconsistent

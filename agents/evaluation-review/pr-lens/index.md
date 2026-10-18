@@ -1,7 +1,7 @@
 ---
 title: PR Lens
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, visualization, pull-requests]
 readability: 3
@@ -16,14 +16,14 @@ PR Lens draws every pull request as animated architecture and data-flow diagrams
 
 ## What it is
 
-An MIT tool from the coldtea organization (prlens.dev) with four delivery surfaces: a GitHub App that comments on every push, a GitHub Action, an npm CLI (`@coldtea/pr-lens-cli`, 0.13.0 published 2026-10-04) that renders a diff into a schema-valid graph with your own model key, and an agent skill installed with `npx skills add coldteadotai/pr-lens`.
+An MIT tool from the coldtea organization (prlens.dev) with four delivery surfaces: a GitHub App that comments on every push, a GitHub Action, an npm CLI (`@coldtea/pr-lens-cli`, 0.13.2 published 2026-10-17) that renders a diff into a schema-valid graph with your own model key, and an agent skill installed with `npx skills add coldteadotai/pr-lens`.
 The renderer is custom rather than Mermaid, and draws a blast-radius view (green new, amber changed, red removed components against the surrounding system), step-by-step data-flow animations, payload panels on every arrow, folding sections for zoom, and a full-size interactive canvas with walkthroughs.
 Your coding agent can also connect to the canvas live: questions in the terminal come back as annotated diagram steps.
 The README documents GitLab and Bitbucket support alongside GitHub.
 
 ## Status
 
-New and moving fast: 1,954 stars and 71 forks as of 2026-10-13, created 2026-08-20, pushed 2026-10-04, with v0.13.0 published 2026-10-04 and three releases across four days in early October.
+New and moving fast: 1,954 stars and 71 forks as of 2026-10-13, created 2026-08-20, pushed 2026-10-17, with v0.13.1 published 2026-10-17 as the newest release and the v0.13 train now two deep.
 Reaching 1.9k stars in seven weeks is strong adoption for a review tool, though the independent footprint is small: a Hacker News search finds three Show HN threads (6 points on 2026-08-27, 4 points on 2026-10-05, 4 points on 2026-09-17), none above single digits.
 
 <picture>
@@ -65,6 +65,7 @@ Not for defect detection (it renders, not judges), and not where diagram accurac
 ## Changes
 
 - 2026-10-10 - Created from the code-review resolution pass and placed in this category rather than code review, because the diagrams judge nothing: it joins Hunk and Plannotator as a human-review surface.
+- 2026-10-18 - Recorded the v0.13.1 release (2026-10-17), the npm CLI at 0.13.2, and the refreshed activity line.
 
 ## See also
 
@@ -77,7 +78,7 @@ Not for defect detection (it renders, not judges), and not where diagram accurac
 
 - https://github.com/coldteadotai/pr-lens - repository: README, surfaces, license, renderer claims
 - https://api.github.com/repos/coldteadotai/pr-lens - stars, forks, issues, creation and push dates as of 2026-10-11
-- https://api.github.com/repos/coldteadotai/pr-lens/releases - v0.13.0 published 2026-10-04 and the release train
+- https://api.github.com/repos/coldteadotai/pr-lens/releases - v0.13.1 published 2026-10-17 and the release train
 - https://prlens.dev - product site: the worked example, canvas, and open-source positioning
-- https://registry.npmjs.org/@coldtea/pr-lens-cli - CLI version 0.13.0 published 2026-10-04 and its own-model-key description
+- https://registry.npmjs.org/@coldtea/pr-lens-cli - CLI version 0.13.2 published 2026-10-17 and its own-model-key description
 - https://hn.algolia.com/api/v1/search?query=prlens&hitsPerPage=5 - the three Show HN threads and their point counts, as of 2026-10-11

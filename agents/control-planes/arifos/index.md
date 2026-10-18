@@ -1,7 +1,7 @@
 ---
 title: arifOS
 created: 2026-10-16
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, governance-kernel, mcp, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The maintainer positions it as the layer between "agent wants to act" and "actio
 
 ## Status
 
-Active and early: 54 stars, 9 forks, and 19 open issues as of 2026-10-17, created 2025-11-17, pushed 2026-10-17, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
+Active and early: 54 stars, 9 forks, and 12 open issues as of 2026-10-18, created 2025-11-17, pushed 2026-10-18, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ariffazil/arifOS&type=date&theme=dark&legend=top-left" />

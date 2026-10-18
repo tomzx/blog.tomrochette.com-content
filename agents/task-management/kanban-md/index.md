@@ -1,7 +1,7 @@
 ---
 title: kanban-md
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, markdown, multi-agent, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The antopolskiy identity maintains it under MIT, and two installable skills ship
 ## Status
 
 Active and young.
-As of 2026-10-11: 224 stars, 33 forks, created 2026-02-07, pushed 2026-10-05, latest release v0.39.0 on 2026-10-05.
+As of 2026-10-18: 224 stars (unchanged since 2026-10-11), 34 forks, created 2026-02-07, pushed 2026-10-05, latest release v0.39.0 on 2026-10-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=antopolskiy/kanban-md&type=date&theme=dark&legend=top-left" />
@@ -82,6 +82,6 @@ My disagreeable claim: markdown files plus expiring leases cover the small-team 
 
 - https://github.com/antopolskiy/kanban-md - README: storage, claims, classes of service, TUI, skills, design principles (fetched 2026-10-11)
 - https://raw.githubusercontent.com/antopolskiy/kanban-md/main/.agents/skills/kanban-based-development/SKILL.md - the bundled development-loop skill: worktrees, board-home discipline, handoffs, defer-to-user rules
-- https://api.github.com/repos/antopolskiy/kanban-md - stars, forks, dates, MIT license as of 2026-10-11
-- https://api.github.com/repos/antopolskiy/kanban-md/releases - v0.39.0 (2026-10-05) and the release history
+- https://api.github.com/repos/antopolskiy/kanban-md - stars, forks, dates, MIT license as of 2026-10-18
+- https://api.github.com/repos/antopolskiy/kanban-md/releases - v0.39.0 (2026-10-05) still newest as of 2026-10-18, and the release history
 - https://hn.algolia.com/api/v1/search?query=%22kanban-md%22&tags=story - the 19-point Show HN thread (2026-02-10), the main independent footprint

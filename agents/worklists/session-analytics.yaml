@@ -3,7 +3,7 @@ category: session-analytics
 generated: 2026-10-18
 mapped_sources:
   - repo: anhermon/awesome-agent-observability
-    last_checked: 2026-10-14
+    last_checked: 2026-10-18
 notes:
   - slug: agent-analytics
     title: Agent Analytics

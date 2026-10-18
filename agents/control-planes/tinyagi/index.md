@@ -1,7 +1,7 @@
 ---
 title: TinyAGI
 created: 2026-08-27
-updated: 2026-10-07
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, control-planes, one-person-company, open-source, stall-record]
 readability: 3
@@ -23,7 +23,7 @@ It began life as jlia0's TinyClaw, a tiny Claude Code wrapper for a 24/7 persona
 ## Status
 
 Stalled, kept here as the record.
-Created 2026-02-09, last release v0.0.20 on 2026-03-26, last push 2026-03-30, with 3,621 stars, 505 forks, and 72 open issues accumulating since (stall unchanged when re-checked 2026-10-10).
+Created 2026-02-09, last release v0.0.20 on 2026-03-26, last push 2026-03-30, with 3,621 stars, 503 forks, and 72 open issues accumulating since (stall unchanged when re-checked 2026-10-18).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TinyAGI/tinyagi&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Created 2026-02-09, last release v0.0.20 on 2026-03-26, last push 2026-03-30, wi
 </picture>
 
 The original TinyClaw launch thread got 1 point on HN, so its growth was pure word of mouth in the one-person-company wave.
-**Five months of silence while Paperclip reached 80k stars in the same window is the whole story: the audience consolidated on the bigger, faster-moving control plane.**
+**Six months of silence while Paperclip reached 80k stars in the same window is the whole story: the audience consolidated on the bigger, faster-moving control plane.**
 
 ## Strengths
 
@@ -62,7 +62,7 @@ No paid tier existed.
 ## Bottom line
 
 **Recommended only as a case study and a codebase to read, the SQLite queue and team model are worth an afternoon.**
-Not as a tool to adopt; the stall is five months old with no handoff.
+Not as a tool to adopt; the stall is more than six months old with no handoff.
 The disagreeable claim I will defend: TinyAGI's death was not failure of execution but evidence the control-plane market fits exactly one open-source flagship, and every entrant below Paperclip's gravity should now expect this entry's fate.
 
 ## Changes
@@ -71,6 +71,7 @@ The disagreeable claim I will defend: TinyAGI's death was not failure of executi
 - 2026-09-27 - Re-confirmed the stall and refreshed counts (3,621 stars, 505 forks, 75 open issues).
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-07 - Added the TinyAGI/tinyagi star history chart to the Status section.
+- 2026-10-18 - Rotation re-verification: the stall re-confirmed (last push 2026-03-30, v0.0.20 still the final release, TinyOffice portal still live) and forks moved to 503.
 
 ## See also
 

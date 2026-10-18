@@ -3,7 +3,7 @@ category: sandboxing
 generated: 2026-10-18
 mapped_sources:
   - repo: arjan/awesome-agent-sandboxes
-    last_checked: 2026-10-14
+    last_checked: 2026-10-18
 governing_questions:
   - id: q2
     summary: does E2B become a note of its own or stay comparison-only

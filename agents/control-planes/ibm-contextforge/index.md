@@ -1,7 +1,7 @@
 ---
 title: IBM ContextForge
 created: 2026-10-11
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, gateway, mcp, governance, open-source, ibm]
 readability: 3
@@ -24,7 +24,7 @@ IBM announced it as the ContextForge MCP Gateway 1.0.0 Beta on December 15, 2025
 
 ## Status
 
-Active and heavily adopted: 4,623 stars, 924 forks, and 944 open issues as of 2026-10-17, created 2025-05-08, pushed 2026-10-16, with v1.0.11 published 2026-09-28 on GitHub and PyPI in step.
+Active and heavily adopted: 4,623 stars, 924 forks, and 943 open issues as of 2026-10-18, created 2025-05-08, pushed 2026-10-17, with v1.0.11 published 2026-09-28 on GitHub and PyPI in step.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ibm/mcp-context-forge&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Active and heavily adopted: 4,623 stars, 924 forks, and 944 open issues as of 20
 </picture>
 
 **The adoption is unusually organic for this category: 4,623 stars and 924 forks put it third here behind Paperclip and the Microsoft toolkit, and fetched third-party comparisons already treat it as the standing self-hosted MCP gateway rather than a curiosity.**
-The open-issue backlog is the largest of any gateway in this category by an order of magnitude (944, against a next-largest in the dozens), which reads as day-to-day use at scale colliding with limited maintainer triage, not as abandonment.
+The open-issue backlog is the largest of any gateway in this category by an order of magnitude (943, against a next-largest in the dozens), which reads as day-to-day use at scale colliding with limited maintainer triage, not as abandonment.
 
 ## Strengths
 
@@ -46,7 +46,7 @@ The open-issue backlog is the largest of any gateway in this category by an orde
 
 - Guardrails are plugins, not built-in policy verdicts: the launch blog counts 35-plus security plugins, and a third-party comparison states plainly that guardrails are not built in, so out of the box this is an authenticated door, not a policy engine.
 - It governs tools and agent traffic, not models: there is no LLM routing, cost attribution, or model policy, unlike the managed Unity Gateway, so most deployments still need a second gateway for model traffic.
-- The 944-open-issue backlog and self-hosted everything (Kubernetes, Redis, and your own Phoenix or Jaeger) add up to a platform-team commitment, not an install.
+- The 943-open-issue backlog and self-hosted everything (Kubernetes, Redis, and your own Phoenix or Jaeger) add up to a platform-team commitment, not an install.
 - Container images do not support arm64 in production, an Apple Silicon footnote that matters more every year.
 - Competitor comparisons (TrueFoundry's is the most detailed) frame it as operationally heavy and under-supported; IBM's own Elite Support announcement contradicts the support half, but read every comparison in this space as positioning.
 

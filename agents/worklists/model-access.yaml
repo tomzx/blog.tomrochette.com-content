@@ -3,7 +3,7 @@ category: model-access
 generated: 2026-10-18
 mapped_sources:
   - repo: rafska/awesome-local-llm
-    last_checked: 2026-10-14
+    last_checked: 2026-10-18
 notes:
   - slug: bifrost
     title: Bifrost

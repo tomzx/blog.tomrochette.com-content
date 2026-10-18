@@ -1,7 +1,7 @@
 ---
 title: Veritas Kanban
 created: 2026-10-11
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, governance, local-first, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Around the board: subtasks, bidirectional depends_on and blocks dependencies wit
 ## Status
 
 **Active, six versions deep in one year, single-maintainer.**
-840 stars as of 2026-10-14 (GitHub API), 100 forks, and 46 open issues and pull requests with a 2026-10-14 push as of 2026-10-16, created 2026-01-26.
+840 stars as of 2026-10-14 (GitHub API), 100 forks, and 47 open issues and pull requests with a 2026-10-17 push (side branches; the main branch has been quiet since the v6.2.1 release commit) as of 2026-10-18, created 2026-01-26.
 The newest tagged release is v6.2.1 (2026-09-10); the dependency model landed in v3.3.0, team rosters in v5.2, and the run-scoped tool control plane in v6, all inside the project's first year.
 A Hacker News search returns no story about it (2026-10-11), so adoption evidence is the repository curve plus the docs' own governance records.
 

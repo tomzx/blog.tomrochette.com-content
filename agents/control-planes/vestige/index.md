@@ -1,7 +1,7 @@
 ---
 title: Vestige
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, memory, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The single-maintainer paid tier, Vestige Operator, is a closed archive sold once
 
 ## Status
 
-Active and fast-moving: 651 stars, 72 forks, and 49 open issues and pull requests as of 2026-10-17, created 2026-01-25, pushed 2026-10-16, with 1,155 commits on main and v4.2.0 (2026-10-06) the latest tagged release.
+Active and fast-moving: 651 stars, 72 forks, and 50 open issues and pull requests as of 2026-10-18, created 2026-01-25, pushed 2026-10-18, with 1,159 commits on main and v4.2.0 (2026-10-06) the latest tagged release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=samvallad33/vestige&type=date&theme=dark&legend=top-left" />

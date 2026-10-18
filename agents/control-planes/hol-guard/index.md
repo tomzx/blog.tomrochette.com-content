@@ -1,7 +1,7 @@
 ---
 title: HOL Guard
 created: 2026-10-09
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, guardrails, receipts, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The vendor is HOL, a consortium (its site lists 34 ecosystem partners and 65 pub
 
 ## Status
 
-Active and shipping fast: 879 stars, 153 forks, and 100 open issues as of 2026-10-17, created 2026-03-28, pushed 2026-10-17, with v3.49.0 (2026-10-17) the latest version tag, PyPI in step at 3.49.0, and an automated extension-artifacts release train running beside the version tags.
+Active and shipping fast: 879 stars, 153 forks, and 109 open issues and pull requests as of 2026-10-18, created 2026-03-28, pushed 2026-10-18, with v3.49.0 (2026-10-17) the latest version tag, PyPI in step at 3.49.0, and an automated extension-artifacts release train running beside the version tags.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hashgraph-online/hol-guard&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Active and shipping fast: 879 stars, 153 forks, and 100 open issues as of 2026-1
 
 PyPI downloads are 76,527 over the last month as of 2026-10-09 (pypistats, unchanged when re-fetched 2026-10-10 and again 2026-10-11), and the product page still claims 2M+ Guard PyPI downloads plus "5.4K+ HOL GitHub stars", an org-wide figure across all HOL repositories rather than the Guard repo's own count.
 The 2M+ total sits awkwardly against the measured rate: 76,527 in the month ending 2026-10-09 would need roughly two years at this pace to reach it inside a seven-month-old project, and the tracker figure staying bit-for-bit identical across two re-fetches suggests a lagging source, so treat the headline as self-reported marketing until either number moves.
-The coverage assertions on the site still carry their 2026-09-09 verification with an expiry of 2026-10-09, and a re-fetch on 2026-10-17 found the page and its change history unchanged eight days past that expiry, still asserting version 3.0.1 while the release train sits at v3.49.0, so the project is shipping faster than its own verification contract renews and every published coverage cell is lapsed until a re-review lands.
+The coverage assertions on the site still carry their 2026-09-09 verification with an expiry of 2026-10-09, and a re-fetch on 2026-10-18 found the page and its change history unchanged nine days past that expiry, still asserting version 3.0.1 while the release train sits at v3.49.0, so the project is shipping faster than its own verification contract renews and every published coverage cell is lapsed until a re-review lands.
 A Hacker News search returns no threads about Guard (the single loose query match is an unrelated project), so the adoption evidence is the download count, the release cadence, and Product Hunt testimonials rather than independent technical discussion.
 
 ## Strengths
@@ -47,7 +47,7 @@ A Hacker News search returns no threads about Guard (the single loose query matc
 ## Cautions
 
 - Depth varies by harness and the gaps are the story: Kimi Code, Grok Build, and ZCode fail open, Cursor terminal commands outside agent sessions bypass it, and Claude Code background sessions surface no hook events at all.
-- The published assertions expired on 2026-10-09 and remained unrenewed when re-checked on 2026-10-17, still pinned to version 3.0.1 against a v3.49.0 train, so treat any specific coverage cell as lapsed rather than a standing guarantee.
+- The published assertions expired on 2026-10-09 and remained unrenewed when re-checked on 2026-10-18, still pinned to version 3.0.1 against a v3.49.0 train, so treat any specific coverage cell as lapsed rather than a standing guarantee.
 - No independent audit or adversarial review exists; a Hacker News footprint of zero six months in means the security claims rest on the project's own evidence links.
 - The freemium ladder (Solo $4.99, Pro $15, Team $30 per month) puts receipt sync and org policy behind payment, and the latest release page still carries an unresolved "attribution for this release is being verified" notice, a small but odd provenance wrinkle for a security product.
 
@@ -85,6 +85,7 @@ Not for org-scale governance (that is a control plane, not a workstation guard),
 - 2026-10-14 - The coverage contract re-checked five days past its 2026-10-09 expiry and still unrenewed (page and change history unchanged, assertions pinned to 3.0.1 against the v3.43.1 train), the release references corrected from the v3.42.0 record to v3.43.1, and scale refreshed (879 stars, 124 open issues, pushed 2026-10-14).
 - 2026-10-16 - Release train moved to v3.46.0 (2026-10-15, PyPI in step) and the coverage contract re-checked still unrenewed seven days past its expiry.
 - 2026-10-17 - Release train moved to v3.49.0 (2026-10-17, PyPI in step) and the coverage contract re-checked still unrenewed eight days past its expiry.
+- 2026-10-18 - Coverage contract re-checked still unrenewed nine days past its expiry, still pinned to 3.0.1 against the v3.49.0 train.
 
 ## See also
 
