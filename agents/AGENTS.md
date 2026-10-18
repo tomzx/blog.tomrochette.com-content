@@ -284,6 +284,8 @@ Workers consult the digest first so the same rejections are not re-derived from 
 ## Log
 
 `agents/logs/` holds one log file per day, named `<YYYY-MM-DD>.md`; the day's file is created on that day's first run and append-only thereafter.
-Every commit appends one entry, written before the commit: date, articles touched, one line per change, model id (a long run appends one entry per wave commit, so the log and the history move together).
+Every commit appends one entry, written before the commit: articles touched, one line per change, model id (a long run appends one entry per wave commit, so the log and the history move together).
+Entries are terse outcomes, not run reports: one line per article change, one line per entrant decision or price, status, or membership change, and nothing about the run itself.
+Leave out scan results, re-verification lists, link and URL checks, worker and wave mechanics, commit attribution, and process notes.
 The log is the audit trail that distinguishes agent changes from human edits; keep it accurate.
 Workers consult the log on demand, when the digest and work lists lack needed history; no run requires them to read it.

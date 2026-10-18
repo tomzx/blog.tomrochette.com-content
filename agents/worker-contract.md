@@ -90,7 +90,7 @@ Set `updated:` to the run date on any revision.
 
 ## Report
 
-Reply with: every file changed or created (one line each), the proposed log lines, each entrant candidate resolved or rejected with a one-line reason, cross-category flags (report only), and anything you could not finish and why.
+Reply with: every file changed or created (one line each), the proposed log lines (terse outcomes only, one line per change), each entrant candidate resolved or rejected with a one-line reason, cross-category flags (report only), and anything you could not finish and why.
 
 ## Variants
 
