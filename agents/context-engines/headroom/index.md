@@ -1,7 +1,7 @@
 ---
 title: Headroom
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, token-optimization]
 readability: 3
@@ -16,14 +16,15 @@ Headroom is the Apache-2.0 context compression layer that rewrites everything an
 
 ## What it is
 
-A Python and TypeScript library, a zero-code-change proxy (`headroom proxy --port 8787`), a one-command wrapper around fourteen coding agents (`headroom wrap claude|codex|grok|copilot|cursor|aider|opencode|cline|continue|goose|openhands|openclaw|vibe|omp|zcode`), and an MCP server, from headroomlabs-ai (75,468 stars, pushed 2026-10-16, as of 2026-10-16).
+A Python and TypeScript library, a zero-code-change proxy (`headroom proxy --port 8787`), a one-command wrapper around fifteen coding agents (`headroom wrap claude|codex|grok|copilot|cursor|aider|opencode|cline|continue|goose|openhands|openclaw|vibe|omp|zcode`), and an MCP server, from headroomlabs-ai (75,468 stars, pushed 2026-10-17, as of 2026-10-18).
 Compression runs locally: statistical analysis keeps errors, anomalies, and boundaries in JSON arrays, a ModernBERT token classifier squeezes plain text, AST-aware compression (opt-in) collapses function bodies to signatures, an ML router resizes images, and everything removed lands in a Compress-Cache-Retrieve store the model can query through `headroom_retrieve`.
 A shared cross-agent memory store deduplicates content across Claude, Codex, Gemini, and Grok sessions, and a `headroom learn` command tunes the compressor.
 The docs' reproducible benchmarks (seeded, generated from MCP output formats, gpt-5.6 tokenizer) show 57 percent savings on an SRE incident dump (55,957 to 24,340 tokens), 42 percent on codebase exploration, and 21 percent on code search, with an explicit warning that savings depend on how repetitive your content is.
 
 ## Status
 
-Active and compounding fast: created 2026-01-07, 75,468 stars and 5,862 forks in nine months, PyPI package at 0.41.0, 72,407 npm downloads in the week of 2026-10-06 to 2026-10-12, as of 2026-10-16.
+Active and compounding fast: created 2026-01-07, 75,468 stars and 5,872 forks in nine months, PyPI package at 0.41.0, 49,633 npm downloads in the week of 2026-10-10 to 2026-10-16, as of 2026-10-18.
+Release v0.41.0 (2026-10-14) added a native Google Antigravity IDE integration, OpenCode 2.x plugin-API support, and the headroom-snip Claude Code mod, and the proxy gained turn hooks that rewrite OpenAI Responses requests on HTTP and WebSocket (2026-10-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=headroomlabs-ai/headroom&type=date&theme=dark&legend=top-left" />
@@ -45,7 +46,7 @@ The HN footprint is modest for the star count (three submissions, the largest at
 
 - The benchmark corpus is generated and seeded rather than production telemetry, and the docs say so; treat the percentages as reproducible upper references, not guarantees for your workload.
 - AST-aware code compression is opt-in and off by default, so the default code path is less aggressive than the headline suggests.
-- 373 open issues and pull requests against nine months of explosive growth signals support strain.
+- 445 open issues and pull requests against nine months of explosive growth signals support strain.
 - A compression layer in the hot path is one more thing that can be wrong subtly, and the correctness of what survives compression is exactly as good as the statistical heuristics.
 
 ## Pricing
@@ -67,6 +68,7 @@ Not as a substitute for retrieval quality (compressing bad context makes bad con
 ## Changes
 
 - 2026-10-07 - Created.
+- 2026-10-18 - Recorded release v0.41.0 (native Antigravity IDE integration, OpenCode 2.x plugin support, the headroom-snip Claude Code mod) and the proxy turn-hook work, corrected the wrap count from fourteen to fifteen agents per the README, and refreshed the activity figures.
 
 ## See also
 
@@ -77,9 +79,9 @@ Not as a substitute for retrieval quality (compressing bad context makes bad con
 
 ## References
 
-- https://github.com/headroomlabs-ai/headroom - repository, Apache-2.0 license, deployment surfaces, the agent wrap list, and the CCR store (fetched 200, 2026-10-07)
-- https://api.github.com/repos/headroomlabs-ai/headroom - stars, forks, open issues, created date, and push date for the as-of status (fetched 200, 2026-10-16)
-- https://docs.headroomlabs.ai/docs - the compression table by content type, the seeded benchmark table with its own caveats, and the framework integrations (fetched 200, 2026-10-07)
-- https://pypi.org/pypi/headroom-ai/json - the published package version 0.40.0 (fetched 200, 2026-10-07)
-- https://api.npmjs.org/downloads/point/last-week/headroom-ai - weekly npm download volume for the adoption claim (fetched 200, 2026-10-07)
-- https://hn.algolia.com/api/v1/items/48999841 - the largest Headroom thread, 10 points, July 2026, grounding the modest-HN-footprint observation (fetched 200, 2026-10-07)
+- https://github.com/headroomlabs-ai/headroom - repository, Apache-2.0 license, deployment surfaces, the agent wrap list, and the CCR store (fetched 200, 2026-10-18)
+- https://api.github.com/repos/headroomlabs-ai/headroom - stars, forks, open issues, created date, and push date for the as-of status (fetched 200, 2026-10-18)
+- https://docs.headroomlabs.ai/docs - the compression table by content type, the seeded benchmark table with its own caveats, and the framework integrations (fetched 200, 2026-10-18)
+- https://pypi.org/pypi/headroom-ai/json - the published package version 0.41.0 (fetched 200, 2026-10-18)
+- https://api.npmjs.org/downloads/point/last-week/headroom-ai - weekly npm download volume for the adoption claim: 49,633 for 2026-10-10 to 2026-10-16 (fetched 200, 2026-10-18)
+- https://hn.algolia.com/api/v1/items/48999841 - the largest Headroom thread, 10 points, July 2026, grounding the modest-HN-footprint observation (fetched 200, 2026-10-18)

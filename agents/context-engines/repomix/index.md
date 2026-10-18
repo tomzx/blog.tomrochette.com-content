@@ -1,7 +1,7 @@
 ---
 title: Repomix
 created: 2026-08-24
-updated: 2026-10-13
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-packing, open-source, developer-tools]
 readability: 3
@@ -28,7 +28,7 @@ It is built by Kazuki Yamada (yamadashy), sponsored by Warp and CodeRabbit.
 ## Status
 
 **Active and quietly massive.**
-28k stars (28,814), 1.6k forks, and 4,629 commits on GitHub (commits as of 2026-10-11), plus 430,663 npm downloads in the last month (2026-09-12 to 2026-10-11), stars, forks, and downloads as of 2026-10-13, with v1.18.1 released 2026-09-21.
+28k stars (28,814), 1.6k forks, and 4,639 commits on GitHub (commits as of 2026-10-18), plus 411,572 npm downloads in the last month (2026-09-17 to 2026-10-16), stars, forks, and downloads as of 2026-10-18, with v1.18.1 released 2026-09-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=yamadashy/repomix&type=date&theme=dark&legend=top-left" />
@@ -92,7 +92,7 @@ My disagreeable claim: for small and mid repos, a Repomix pack plus a good model
 
 - https://repomix.com/ - feature overview, output formats, awards nomination, sponsors
 - https://github.com/yamadashy/repomix - stars, commits, CLI reference including --token-budget, --mcp --sandbox, watch mode
-- https://api.npmjs.org/downloads/point/last-month/repomix - 397,834 downloads for 2026-09-05 to 2026-10-04, fetched 2026-10-07
+- https://api.npmjs.org/downloads/point/last-month/repomix - 411,572 downloads for 2026-09-17 to 2026-10-16, fetched 2026-10-18
 - https://repomix.com/guide/code-compress - tree-sitter compression semantics and its experimental status
 - https://repomix.com/guide/mcp-server - MCP tools (pack_codebase, grep_repomix_output) and sandbox confinement
 - https://news.ycombinator.com/item?id=42028494 - representative HN footprint: 4 points, zero comments

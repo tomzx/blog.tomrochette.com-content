@@ -1,7 +1,7 @@
 ---
 title: SoL-Pi
 created: 2026-10-13
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, context-compression, harness-efficiency]
 readability: 3
@@ -22,7 +22,8 @@ The project page reports the efficiency results from the paper's auto-research b
 
 ## Status
 
-Young and active: 3,479 stars, 280 forks, and 79 open issues as of 2026-10-16, created 2026-09-02 and pushed 2026-10-16, MIT licensed, with work continuing toward a Pi v1 baseline.
+Young and active: 3,479 stars, 283 forks, and 81 open issues as of 2026-10-18, created 2026-09-02 and pushed 2026-10-18, MIT licensed, with work continuing toward a Pi v1 baseline.
+On 2026-10-14 the repository gained an official SoL-Pi skill packaging a Claude Code and Codex hand-off, with a News section of visual examples; it hands the ideas to other agents' sessions rather than porting the mechanisms off Pi.
 **The attention record is thin for the star count: three small Hacker News posts between September and October 2026 (3, 2, and 2 points), so the stars ride the NV Labs name and the awesome-list circuit rather than debate.**
 It extends unmodified Pi rather than forking it, which distinguishes it from the rejected third-Pi-derivative family in the harnesses category.
 
@@ -68,6 +69,7 @@ Not for other harnesses (port the ideas instead), or for teams needing independe
 
 - 2026-10-13 - Created.
 - 2026-10-13 - Corrected the chart markup: the light-scheme source and the img fallback now point at the un-themed chart URL, matching the section convention (only the dark source carries the theme parameter).
+- 2026-10-18 - Recorded the official SoL-Pi skill for Claude Code and Codex hand-off (added 2026-10-14 with the News section of visual examples) and refreshed the activity figures.
 
 ## See also
 
@@ -79,7 +81,7 @@ Not for other harnesses (port the ideas instead), or for teams needing independe
 
 ## References
 
-- https://github.com/NVlabs/SoL-Pi - repository, MIT license, stars, forks, push activity, and the four-mechanism structure as of 2026-10-13
+- https://github.com/NVlabs/SoL-Pi - repository, MIT license, stars, forks, push activity, and the four-mechanism structure as of 2026-10-18
 - https://arxiv.org/abs/2609.20519 - the paper grounding the four mechanisms and the auto-research benchmark claims
 - https://nvlabs.github.io/SoL-Pi/ - the NVIDIA project page with the reported efficiency results
 - https://github.com/earendil-works/pi - the Pi harness SoL-Pi extends without forking

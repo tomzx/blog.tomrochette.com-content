@@ -1,7 +1,7 @@
 ---
 title: Landrun
 created: 2026-10-09
-updated: 2026-10-13
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, landlock, linux, open-source]
 readability: 3
@@ -18,13 +18,13 @@ Landrun is a MIT-licensed Go CLI that sandboxes any Linux command with the kerne
 
 `landrun --rox /usr --rw . -- <command>` starts the command inside a Landlock domain with everything denied except what the flags grant: `--ro`, `--rox`, `--rw`, and `--rwx` paths, `--bind-tcp` and `--connect-tcp` ports, and, on the newest ABI, IPC scoping for abstract UNIX sockets and signals plus per-path UNIX socket grants.
 With no rules given it applies maximum restrictions, and no environment variable crosses unless `--env` names it, so secret-bearing variables stay behind the boundary by default.
-It targets Landlock ABI v9 as of v0.1.17 (filesystem, TCP since ABI v4 on kernel 6.7+, IPC scoping since v6, denial audit logging since v7), with `--best-effort` degrading gracefully on older kernels.
+The released v0.1.17 targets Landlock ABI v9 (filesystem, TCP since ABI v4 on kernel 6.7+, IPC scoping since v6, denial audit logging since v7), with `--best-effort` degrading gracefully on older kernels, and the main branch now targets ABI v10, adding UDP bind and connect restrictions with port ranges on kernels 7.2+, none of it released yet.
 Installation is go install, and the project is packaged in the Arch AUR, Slackware, Ubuntu 26.04, and Debian forky.
 MIT, by Zouuup (Zoup on Hacker News), with no agent-specific features: it is a general-purpose command sandbox.
 
 ## Status
 
-Large footprint, quiet months: 2,316 stars, 55 forks, 8 open issues, pushed 2026-07-23 as of 2026-10-13, created 2025-03-21, with v0.1.17 (2026-07-22, the ABI v9 release) the latest of a long 0.1.x train.
+Large footprint, development resumed: 2,316 stars as of 2026-10-13, 3 open issues as of 2026-10-18, created 2025-03-21, with v0.1.17 (2026-07-22, the ABI v9 release) the latest of a long 0.1.x train.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Zouuup/landrun&type=date&theme=dark&legend=top-left" />
@@ -32,8 +32,8 @@ Large footprint, quiet months: 2,316 stars, 55 forks, 8 open issues, pushed 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Zouuup/landrun&type=date&legend=top-left" />
 </picture>
 The Show HN of 2025-03-22, submitted by the author, drew 518 points, the largest community thread of any wrapper-class member of this category, and the same author publishes the project's sharpest caution himself.
-**Eighty days without a push as of 2026-10-11 reads as a stable utility rather than a stalled project, but the wrapper slot around it is now crowded with maintained, agent-specific members, so the footprint is a 2025 event the repo has not yet had to repeat.**
-At eighty-two days of quiet as of 2026-10-13 the stable-utility reading still holds.
+**After eighty-five quiet days the train resumed: a merged community pull request targeting Landlock ABI 10 with UDP network restrictions committed 2026-10-10, followed by TCP and UDP port-range flags and a go-landlock v0.10.1 bump on 2026-10-16, none of it released past v0.1.17.**
+The quiet stretch read as a stable utility rather than a stalled project, and the resumed work supports that reading, but the wrapper slot around it stays crowded with maintained, agent-specific members, so the footprint remains a 2025 event the repo is only now following up.
 
 ## Strengths
 
@@ -48,7 +48,7 @@ At eighty-two days of quiet as of 2026-10-13 the stable-utility reading still ho
 - No namespaces and no user separation: the sandboxed process runs as the invoking user against the same kernel, so a kernel exploit is out of scope, the same ceiling Fence and nono carry.
 - The author's own post states binaries are not trustworthy and frames the tool as the answer to supply-chain authority; no independent audit or adversarial review exists.
 - Flag-only policy with no config file, no agent profiles, and no audit trail of its own beyond Landlock's denial logs, so adopting it for agents means hand-writing every invocation.
-- Eighty-two days quiet as of 2026-10-13, and the top launch reply's question, why not bubblewrap and mount namespaces, remains the comparison Landrun still has to answer.
+- The latest release still dates to July 2026 while main already targets ABI 10, and the top launch reply's question, why not bubblewrap and mount namespaces, remains the comparison Landrun still has to answer.
 
 ## Pricing
 
@@ -73,6 +73,7 @@ Not as an agent boundary by itself: no egress policy, no audit trail, no profile
 - 2026-10-11 - Quiet window extended to eighty days (last push still 2026-07-23); open issues moved from seven to eight, stars and forks unchanged.
 - 2026-10-12 - Quiet window extended to eighty-one days (last push still 2026-07-23); stars refreshed (2,318), forks and issues unchanged.
 - 2026-10-13 - Quiet window extended to eighty-two days (last push still 2026-07-23); stars refreshed (2,316), forks and issues unchanged.
+- 2026-10-18 - Recorded the quiet window ending: a merged community pull request targeting Landlock ABI 10 with UDP network restrictions (committed 2026-10-10), then TCP and UDP port-range flags and a go-landlock v0.10.1 bump (2026-10-16), none released past v0.1.17, with open issues moving from eight to three.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Zed
 created: 2026-08-23
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, surfaces, ai-editors, zed-industries]
 readability: 3
@@ -36,7 +36,7 @@ The engineering runs deep enough to swap graphics libraries mid-flight (the blad
 ## Strengths
 
 - **The fastest editing experience in the category, by design**: Rust, GPU rendering, and a team that treats latency as the product.
-- The free tier includes 2,000 edit predictions and unlimited use with your own keys or external agents.
+- The free tier is unlimited with your own keys or external agents, and the paid tiers now list edit predictions as unlimited rather than counted.
 - Pro model hosting bills at API list price plus 10%, the cheapest transparent markup among the major editors.
 - ACP support (Zed co-created the protocol) makes it a host for any ACP-compatible agent, keeping the editor out of the vendor-marriage business.
 
@@ -49,9 +49,9 @@ The engineering runs deep enough to swap graphics libraries mid-flight (the blad
 
 ## Pricing
 
-Personal is $0 forever, with 2,000 accepted edit predictions and unlimited use with your own keys or external agents.
-Pro is $10/month including $5 of tokens, with usage beyond at API list price plus 10%.
-Business is $30/seat/month for org model policies, data governance, and spend visibility, as of 2026-10-11 (re-verified, unchanged; SSO, SAML, and SCIM still documented as planned).
+Personal is $0 forever, with unlimited use through your own keys or external agents (the page no longer states a free-tier edit-prediction count, where 2,000 accepted predictions stood on the 2026-09-18 reading).
+Pro is $10/month with unlimited edit predictions and $5 of tokens included, with usage beyond at API list price plus 10%.
+Business is $30/seat/month for org model policies, data governance, and spend visibility, as of 2026-10-18 (re-verified, prices unchanged; SSO, SAML, and SCIM still documented as planned).
 
 ## Price history
 
@@ -76,6 +76,7 @@ Not for teams needing enterprise identity plumbing or a turnkey agentic platform
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-04 - Linked the new Delta note, Zed Industries' thread-based agentic environment.
 - 2026-10-07 - Added the zed-industries/zed star history chart to the Status section.
+- 2026-10-18 - Re-verified prices unchanged and corrected the edit-prediction terms: the pricing page no longer states a free-tier count (2,000 accepted predictions stood on 2026-09-18) and now lists edit predictions as unlimited on Pro and Business.
 
 ## See also
 
@@ -87,7 +88,7 @@ Not for teams needing enterprise identity plumbing or a turnkey agentic platform
 
 ## References
 
-- https://zed.dev/pricing - tiers, edit prediction counts, list+10% hosting, SSO status, re-verified 2026-10-11 (SSO, SAML, and SCIM still planned)
+- https://zed.dev/pricing - tiers, list+10% hosting, SSO status, re-verified 2026-10-18 (SSO, SAML, and SCIM still planned; the page no longer states a free-tier prediction count and lists edit predictions as unlimited on Pro and Business)
 - https://github.com/zed-industries/zed - repository scale and license, as of 2026-10-16
 - https://zed.dev/docs/ai/llm-providers - the BYOK provider list
 - https://news.ycombinator.com/item?id=40902826 - the 2024 auto-download consent thread

@@ -1,7 +1,7 @@
 ---
 title: Roo Code
 created: 2026-08-26
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source, byok]
 readability: 3
@@ -16,7 +16,7 @@ Roo Code was an Apache-2.0 VS Code extension coding agent forked from Cline, wit
 
 ## What it is
 
-A VS Code extension (marketplace id RooVeterinaryInc.roo-cline, 2,080,881 installs as of 2026-10-16) forked from Cline in early 2025, initially as "Roo Cline".
+A VS Code extension (marketplace id RooVeterinaryInc.roo-cline, 2,085,591 installs as of 2026-10-18) forked from Cline in early 2025, initially as "Roo Cline".
 **Its differentiator was modes**: built-in code, architect, ask, and debug personas plus fully custom modes, each with its own rules, and an orchestrator mode that delegated subtasks to child modes.
 Rules came from `.roorules` files and directories, and the [custom instructions docs](https://roocodeinc.github.io/Roo-Code/features/custom-instructions) show it also read AGENTS.md from the workspace root when present and enabled.
 MCP servers were supported throughout, with [dedicated docs](https://roocodeinc.github.io/Roo-Code/features/mcp/overview), and BYOK to any provider including [Ollama](https://roocodeinc.github.io/Roo-Code/providers/ollama) for local models.
@@ -90,4 +90,4 @@ The disagreeable claim I will defend: Roo's death was not failure, its team corr
 - https://news.ycombinator.com/item?id=47851734 - the shutdown thread with the fork-economics critique, re-verified 2026-10-16
 - https://thenewstack.io/roo-code-cloud-ides-ai-coding/ - press coverage of the pivot, re-fetched 2026-10-16
 - https://roomote.dev/ - where the team went, re-fetched 2026-10-16
-- https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline - install count and rating, as of 2026-10-16 (2,080,881 installs; 4.7 average rating as of 2026-10-12; the listing itself now carries the shutdown notice pointing to ZooCode and Cline)
+- https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline - install count and rating, as of 2026-10-18 (2,085,591 installs; 4.7 average rating as of 2026-10-12; the listing itself now carries the shutdown notice pointing to ZooCode and Cline)

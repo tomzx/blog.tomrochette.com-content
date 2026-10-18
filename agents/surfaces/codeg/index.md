@@ -1,7 +1,7 @@
 ---
 title: Codeg
 created: 2026-10-11
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, agentic-development-environments, open-source]
 readability: 3
@@ -10,13 +10,13 @@ audience_notes: >
   Assumes you know what ACP is and what an agent's local session history is.
 ---
 
-Codeg is an Apache-2.0 multi-agent coding workspace, in Rust, that aggregates sessions from fifteen built-in agents plus any ACP agent into one searchable conversation layer, with a desktop app, a self-hosted server or Docker deployment, and native iOS and Android clients.
+Codeg is an Apache-2.0 multi-agent coding workspace, in Rust, that aggregates sessions from nineteen built-in agents plus any ACP agent into one searchable conversation layer, with a desktop app, a self-hosted server or Docker deployment, and native iOS and Android clients.
 
 **Codeg's bet is that the session history your agents already write to disk is the durable asset, and that any surface which can import, search, resume, and hand those sessions between agents owns the workflow.**
 
 ## What it is
 
-A workspace that renders every supported agent as the same structured conversation instead of a terminal: Claude Code, Codex, OpenCode, Pi, Grok Build, and thirteen more built in, plus any ACP-speaking agent.
+A workspace that renders every supported agent as the same structured conversation instead of a terminal: Claude Code, Codex, OpenCode, Pi, Grok Build, and fourteen more built in (nineteen total as of 2026-10-18), plus any ACP-speaking agent.
 The session layer is the differentiator: Codeg imports, searches, and resumes the history each agent keeps on disk, and hands a session to a different agent to continue.
 On top of that sit a main-agent delegation model (Claude Code calling Codex or Gemini as its own subagent session), Project Boot scaffolding, chat channels over Telegram, Lark (Feishu), and iLink (Weixin), office document work through a bundled officecli, research skills, and cron automations.
 It is written in Rust, licensed Apache-2.0, and deployed as a desktop app, a self-hosted server, or Docker.
@@ -32,14 +32,14 @@ The repository was created 2026-02-09 and shows 3,980 stars and 517 forks as of 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=spacering-net/codeg&type=date&legend=top-left" />
 </picture>
 
-The train has quickened through October: v0.33.0 (October 2), v0.34.0 (October 7), v0.35.0 (October 10), v0.35.1 (October 11), and v0.35.2 (October 15, PDF files opening in a file tab, the repository panel turning issues and pull requests into to-dos on its own, taskbar and Dock attention flashes, token-cost estimation at API list prices, and bundled-agent version bumps) as the latest.
+The train has quickened through October: v0.33.0 (October 2), v0.34.0 (October 7), v0.35.0 (October 10), v0.35.1 (October 11), and v0.35.2 (October 15, PDF files opening in a file tab, the repository panel turning issues and pull requests into to-dos on its own, taskbar and Dock attention flashes, token-cost estimation at API list prices, and bundled-agent version bumps), then v0.36.0 (October 16, Kiro CLI and ZCode as built-in agents, Assistants as ready-made delegation setups with their own agent and standing instructions that you @-mention, PlantUML blocks drawn as diagrams, and the side panel's tabs moved to a reorderable vertical rail), and v0.37.0 (October 18, TRAE CLI and Command Code as built-in agents, Remote Control continuing a Claude Code session on your phone, Claude Code suggesting your next prompt, and the side panel gaining Automations, To-dos, and Issues-and-Pull-requests tabs) as the latest.
 An Algolia search of Hacker News returned no story about this project as of 2026-10-11, only substring matches on "codegen", so the footprint is GitHub-side.
 
 ## Strengths
 
 - **Session portability is the mechanism nobody else ships: your agent history stops being a private format per tool and becomes one searchable, transferable corpus.**
 - The surface list is the category's widest: desktop, self-hosted server, Docker, iOS, and Android, with the mobile clients open source alongside the app.
-- ACP support means the built-in fifteen never become the ceiling.
+- ACP support means the built-in nineteen never become the ceiling.
 - Apache-2.0 and self-hostable, so the aggregation layer stays on machines you control.
 
 ## Cautions
@@ -69,6 +69,7 @@ Not for anyone who needs an independently reviewed tool, a 1.0 release, or an ed
 - 2026-10-11 - Created from the category entrant scan, admitted on its differentiated session-aggregation-and-handoff mechanism, with the zero-coverage caution recorded.
 - 2026-10-11 - Added the star history chart.
 - 2026-10-16 - Recorded v0.35.2 (October 15, in-tab PDFs, issues-and-PRs to-dos from the repository panel, attention flashes, and token-cost estimation) as the new latest release; counts refreshed.
+- 2026-10-18 - Recorded v0.36.0 (October 16, Kiro CLI and ZCode built in, @-mentionable Assistants, PlantUML diagrams, the vertical side-panel rail) and v0.37.0 (October 18, TRAE CLI and Command Code built in, phone-side continuation of Claude Code sessions through Remote Control, next-prompt suggestions, and the Automations, To-dos, and Issues-and-PRs tabs) as the new latest releases, and corrected the built-in agent count to nineteen per the README, where the note carried fifteen.
 
 ## See also
 
@@ -83,4 +84,6 @@ Not for anyone who needs an independently reviewed tool, a 1.0 release, or an ed
 - https://api.github.com/repos/spacering-net/codeg - creation date 2026-02-09, language Rust, push date 2026-10-16, stars and forks as of 2026-10-16
 - https://docs.codeg.app - the feature set: conversation aggregation, multi-agent delegation, project boot, chat channels over Telegram, Lark, and iLink, office documents, research skills, cron automations, and the open-source iOS and Android clients
 - https://github.com/spacering-net/codeg/releases - v0.35.2 (2026-10-15) as the latest release, after v0.35.1 (October 11), v0.35.0 (October 10), and v0.34.0 (October 7)
+- https://api.github.com/repos/spacering-net/codeg/releases - v0.37.0 (2026-10-18) and v0.36.0 (2026-10-16) with their release notes (TRAE CLI and Command Code, Remote Control phone continuation, Assistants, Kiro CLI and ZCode, the side-panel tabs), fetched 2026-10-18
+- https://raw.githubusercontent.com/spacering-net/codeg/main/README.md - nineteen agents built in with any ACP agent welcome, the sessions-that-travel pitch, and the platform list, fetched 2026-10-18
 - https://hn.algolia.com/api/v1/search?query=codeg&tags=story - the search that found no story about this project (only codegen substring noise), the missing-footprint evidence, fetched 2026-10-11

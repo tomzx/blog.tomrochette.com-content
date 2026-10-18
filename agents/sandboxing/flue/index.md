@@ -1,7 +1,7 @@
 ---
 title: Flue
 created: 2026-08-30
-updated: 2026-10-13
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, agent-frameworks, typescript, open-source]
 readability: 3
@@ -32,7 +32,7 @@ Young and fast: 8,459 stars, 508 forks, 49 open issues and PRs as of 2026-10-13,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=withastro/flue&type=date&legend=top-left" />
 </picture>
 
-Flue 2.0 (2026-07-31) is the first stable release after a ground-up hooks rewrite; the 2.2.0-next prerelease wave graduated to stable, npm `@flue/runtime` moved to 2.3.0 (2026-10-12), while the GitHub release latest holds at @flue/cli@2.2.2 (2026-09-28) and git tags remain at v2.0.6, so the three release surfaces now disagree.
+Flue 2.0 (2026-07-31) is the first stable release after a ground-up hooks rewrite; the 2.2.0-next prerelease wave graduated to stable, npm `@flue/runtime` moved to 2.3.0 (2026-10-12), the git tags caught up to v2.3.0, and the GitHub release latest alone still holds at @flue/cli@2.2.2 (2026-09-28), so two of the three release surfaces now agree.
 **The single-author concentration is stark, about 98 percent of commits, and the API was rebuilt within six months of going public.**
 
 ## Strengths
@@ -76,6 +76,7 @@ Not for anyone needing the framework itself to be the security boundary, or bett
 - 2026-09-29 - Release train moved again: the 2.2.0-next prerelease wave graduated to stable 2.2.x, npm @flue/runtime and the GitHub releases latest both at 2.2.2 (2026-09-28), git tags still at v2.0.6; growth refreshed (8,392 stars, 47 open issues and PRs, 1,134 commits).
 - 2026-10-07 - Added the withastro/flue star history chart to the Status section.
 - 2026-10-13 - Recorded the npm train moving to 2.3.0 (2026-10-12) while the GitHub releases latest holds at @flue/cli@2.2.2 (2026-09-28) and git tags remain at v2.0.6, and refreshed counts (8,459 stars, 49 open issues and PRs).
+- 2026-10-18 - Recorded the git tags catching up to v2.3.0, so the npm train and the tag list now agree while the GitHub releases latest still holds at @flue/cli@2.2.2 (2026-09-28).
 
 ## See also
 

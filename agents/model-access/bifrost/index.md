@@ -1,7 +1,7 @@
 ---
 title: Bifrost
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, gateway, self-hosted]
 readability: 3
@@ -23,7 +23,7 @@ The enterprise tier adds clustering with gossip-based sync, RBAC with Okta and E
 
 ## Status
 
-Active and fast-releasing: created 2025-03-19, 8,842 stars, component-tagged releases shipping through 2026-10-13 (transports v2.3.0, telemetry v1.9.0, semanticcache v1.7.0, routing v1.2.0, prompts v1.1.10), as of 2026-10-16.
+Active and fast-releasing: created 2025-03-19, 8,842 stars as of 2026-10-16, component-tagged releases shipping through 2026-10-13 (transports v2.3.0, telemetry v1.9.0, semanticcache v1.7.0, routing v1.2.0, prompts v1.1.10), repo pushed 2026-10-18, as of 2026-10-18.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=maximhq/bifrost&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Active and fast-releasing: created 2025-03-19, 8,842 stars, component-tagged rel
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=maximhq/bifrost&type=date&legend=top-left" />
 </picture>
 
-The repo description positions it as "50x faster than LiteLLM", a vendor claim whose published support is the docs' own 11-microsecond overhead benchmark; its Show HN threads stayed small (3 points in December 2025), so the adoption case is stars, Docker pulls, and the Trendshift badge rather than independent load-testing.
+The repo description no longer carries the "50x faster than LiteLLM" comparison it had at creation: re-fetched 2026-10-18 it sells "10,000+ models", "under 200µs of overhead at 5k RPS", and MCP Code Mode, while the docs and README still carry the 11-microsecond vendor benchmark; its Show HN threads stayed small (3 points in December 2025), so the adoption case is stars, Docker pulls, and the Trendshift badge rather than independent load-testing.
 
 ## Strengths
 
@@ -42,7 +42,7 @@ The repo description positions it as "50x faster than LiteLLM", a vendor claim w
 
 ## Cautions
 
-- The performance and 50x claims are vendor-published; no independent replication exists, as of 2026-10-07.
+- The performance claims are vendor-published with no independent replication (the docs' 11-microsecond benchmark, plus the description's looser under-200µs line), as of 2026-10-18; the 50x-faster-than-LiteLLM comparison left the description by this date.
 - Smaller ecosystem than LiteLLM: fewer providers, fewer integrations, and a shorter community track record.
 - Enterprise governance (clustering, RBAC, SSO) sits behind contact-sales, so the open core alone may not carry a large production deployment.
 - A young project from a company whose main product is an evaluation platform, so the gateway's long-term priority is an inference about Maxim's roadmap, not a fact.
@@ -67,6 +67,7 @@ Not for the broadest provider matrix or the largest community, where LiteLLM sti
 
 - 2026-10-07 - Created.
 - 2026-10-16 - Release train refresh: five component releases landed 2026-10-13 (transports v2.3.0, telemetry v1.9.0, semanticcache v1.7.0, routing v1.2.0, prompts v1.1.10) after the previous set had held since 2026-10-06, and the API re-fetch moved stars to 8,842 with the repo pushed 2026-10-16.
+- 2026-10-18 - Repo-description refresh: the 50x-faster-than-LiteLLM comparison left the repository description (now "10,000+ models", "under 200µs of overhead at 5k RPS", and MCP Code Mode), the docs and README still carry the 11-microsecond vendor benchmark, and the repo pushed 2026-10-18; the Status and Cautions prose moved with it.
 
 ## See also
 
@@ -77,9 +78,9 @@ Not for the broadest provider matrix or the largest community, where LiteLLM sti
 
 ## References
 
-- https://github.com/maximhq/bifrost - repository, Apache-2.0 license, the 23-plus-provider README, and the 50x-LiteLLM positioning (fetched 200, 2026-10-07)
-- https://api.github.com/repos/maximhq/bifrost - stars, created date, push date, and license for the as-of status (fetched 200, 2026-10-07; re-fetched 2026-10-16 at 8,842 stars, pushed 2026-10-16).
-- https://docs.getbifrost.ai - the feature surface: failover, virtual keys, budgets, semantic caching, the MCP gateway, plugins, the 11-microsecond benchmark claim, and the enterprise tier (fetched 200, 2026-10-07)
+- https://github.com/maximhq/bifrost - repository, Apache-2.0 license, the 23-plus-provider README, and (at the 2026-10-07 fetch) the description's 50x-LiteLLM positioning, since removed (fetched 200, 2026-10-07)
+- https://api.github.com/repos/maximhq/bifrost - stars, created date, push date, and license for the as-of status (fetched 200, 2026-10-07; re-fetched 2026-10-16 at 8,842 stars, pushed 2026-10-16; re-fetched 2026-10-18 with the description no longer carrying the 50x claim and pushed 2026-10-18).
+- https://docs.getbifrost.ai - the feature surface: failover, virtual keys, budgets, semantic caching, the MCP gateway, plugins, the 11-microsecond benchmark claim, and the enterprise tier (fetched 200, 2026-10-07; re-fetched 2026-10-18 with the 11µs claim and the 20-plus-provider framing unchanged)
 - https://api.github.com/repos/maximhq/bifrost/releases - the component-tagged release line through 2026-10-06 (fetched 200, 2026-10-07)
 - https://hn.algolia.com/api/v1/items/46203228 - the December 2025 Show HN thread, 3 points, grounding the small-HN-footprint observation (fetched 200, 2026-10-07)
-- https://raw.githubusercontent.com/maximhq/bifrost/HEAD/README.md - the quickstart surfaces (npx, Docker) and the provider list behind the gateway cells (fetched 200, 2026-10-07)
+- https://raw.githubusercontent.com/maximhq/bifrost/HEAD/README.md - the quickstart surfaces (npx, Docker) and the provider list behind the gateway cells (fetched 200, 2026-10-07; re-fetched 2026-10-18 on the dev branch with the 23-plus-provider framing and the 11µs benchmark table unchanged)

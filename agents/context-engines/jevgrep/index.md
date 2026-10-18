@@ -1,7 +1,7 @@
 ---
 title: Jevgrep
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, cli, open-source]
 readability: 3
@@ -27,7 +27,7 @@ The MIT-licensed CLI ships from David Zhang (dzhng), the engineer behind deep-re
 ## Status
 
 **Not yet three weeks old and the fastest start in this category, with a thin discussion footprint so far.**
-2,726 stars, 203 forks, and 30 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-10-15, all as of 2026-10-16 (GitHub API).
+2,726 stars, 210 forks, and 5 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-10-18, all as of 2026-10-18 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dzhng/jevgrep&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ The MIT-licensed CLI ships from David Zhang (dzhng), the engineer behind deep-re
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=dzhng/jevgrep&type=date&legend=top-left" />
 </picture>
 
-The npm package `@dzhng/jevgrep` sits at v0.8.0 (published 2026-10-01) across 16 releases in its first week, with 7,861 trailing-month downloads (window 2026-09-12 to 2026-10-11).
+The npm package `@dzhng/jevgrep` sits at v0.8.4 (published 2026-10-18) across 19 releases, with 11,686 trailing-month downloads (window 2026-09-17 to 2026-10-16); the 0.8.1-to-0.8.4 train streamed discovery scoring, made repeated searches reproducible, added a `--no-locations` output flag, and fixed quadratic parser paths.
 Its Show HN (2026-09-28) drew 5 points and zero comments, so adoption is running on the author's reputation and the skill distribution rather than discussion.
 The earlier run that rejected this repository as a harness candidate recorded it three days into its life; the star count and a proper category fit resolved it as a note this run.
 
@@ -75,6 +75,7 @@ My disagreeable claim: every index in this category is a cache standing in front
 ## Changes
 
 - 2026-10-07 - Created from the 2026-10-07 entrant scan (the GitHub created-after search), superseding the 2026-09-29 harnesses-routed rejection after the repository reached 2,355 stars, with the no-index framing and the vendor-run-benchmark caveat recorded.
+- 2026-10-18 - Recorded the 0.8.x train reaching v0.8.4 (streamed discovery scoring, reproducible repeated searches, the --no-locations flag, linear-time parser fixes) and refreshed the activity figures.
 
 ## See also
 
@@ -86,13 +87,13 @@ My disagreeable claim: every index in this category is a cache standing in front
 
 ## References
 
-- https://api.github.com/repos/dzhng/jevgrep - repository stats: 2,726 stars, 203 forks, created 2026-09-26, pushed 2026-10-15, as of 2026-10-16
+- https://api.github.com/repos/dzhng/jevgrep - repository stats: 2,726 stars, 210 forks, created 2026-09-26, pushed 2026-10-18, as of 2026-10-18
 - https://raw.githubusercontent.com/dzhng/jevgrep/main/README.md - architecture, benchmark tables with per-run caveats, privacy and caching notes
 - https://raw.githubusercontent.com/dzhng/jevgrep/main/skills/jevgrep/SKILL.md - the agent skill surface and the grep-for-exact-symbols division of labor
 - https://raw.githubusercontent.com/dzhng/jevgrep/main/apps/cli/README.md - auth flow, supported providers, `jg doctor`, cache controls
-- https://registry.npmjs.org/@dzhng%2Fjevgrep - the package, v0.8.0 latest, 16 versions since 2026-09-26
-- https://api.npmjs.org/downloads/point/last-month/@dzhng/jevgrep - 5,869 downloads, window 2026-09-05 to 2026-10-04, fetched 2026-10-07
-- https://github.com/dzhng/jevgrep/releases - the release train from v0.4.4 to v0.8.0 (2026-09-28 through 2026-10-01)
-- https://news.ycombinator.com/item?id=49880146 - the Show HN: 5 points, zero comments, 2026-09-28 (verified via the Algolia items API)
+- https://registry.npmjs.org/@dzhng%2Fjevgrep - the package, v0.8.4 latest, 19 versions since 2026-09-26
+- https://api.npmjs.org/downloads/point/last-month/@dzhng/jevgrep - 11,686 downloads, window 2026-09-17 to 2026-10-16, fetched 2026-10-18
+- https://github.com/dzhng/jevgrep/releases - the release train from v0.4.4 to v0.8.4 (2026-09-28 through 2026-10-18)
+- https://news.ycombinator.com/item?id=49880146 - the Show HN: 5 points, zero comments, 2026-09-28 (verified via the Algolia items API, re-fetched 2026-10-18)
 - https://api.github.com/repos/dzhng/deep-research - the author's track record: 19,764 stars on deep-research as of 2026-10-07
 - https://api.github.com/users/dzhng - the author's profile: David Zhang

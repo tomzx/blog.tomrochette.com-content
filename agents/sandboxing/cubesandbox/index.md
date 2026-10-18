@@ -1,7 +1,7 @@
 ---
 title: CubeSandbox
 created: 2026-09-16
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, security]
 readability: 3
@@ -29,7 +29,7 @@ Documentation, changelogs, and examples (code execution, browser automation, Ope
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TencentCloud/CubeSandbox&type=date&legend=top-left" />
 </picture>
 
-Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest stable v0.7.3 on 2026-10-12, pushed 2026-10-13, 1,191 forks, 183 open issues and PRs as of 2026-10-13.
+Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest stable v0.7.3 on 2026-10-12, pushed 2026-10-16, 1,194 forks, 193 open issues and PRs as of 2026-10-18.
 The train moved twice on 2026-10-12: v0.7.3-rc1 and rc2 opened the next release cycle in the morning, and v0.7.3 itself shipped the same day, adding E2B-compatible MCP support (an in-sandbox MCP gateway option returned by the Python, Node, and Go SDKs, with a reference implementation under examples/mcp-gateway), faster cross-node restore that lazy-loads instead of copying the disk, an S3lvol hot upgrade cutting upgrade I/O pause from about 40 seconds to about 8, and a roughly 41 percent faster pause, alongside a dated `kernel-release-261012-1` tag shipping dedicated kernel assets for bare-metal and PVM guest and host, so the project now distributes its own guest kernels alongside the sandbox releases.
 The team launched on HN themselves as "a less than 60ms, open-source alternative to E2B using RustVMM and KVM" (7 points), and the same project drew two more submissions from other accounts within four days at 5 and 3 points.
 The sub-60ms figure is single-concurrency on bare metal by the project's own benchmark, degrading to a 67ms average and 137ms P99 at 50 concurrent creations, and no independent benchmark, audit, or critical write-up exists that I could find.

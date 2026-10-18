@@ -1,7 +1,7 @@
 ---
 title: CodeNomad
 created: 2026-10-11
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, opencode, desktop, session-cockpit, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The CodeNomad Server (`npx @neuralnomads/codenomad`) serves the same workspace f
 
 **Active on a daily train, young, and without independent coverage.**
 2,625 stars, 176 forks, and 15 open issues and pull requests, created 2025-11-01, pushed 2026-10-16, as of 2026-10-16 (GitHub API).
-Stable v0.20.1 (2026-10-03) after v0.20.0 (2026-09-25), with a daily `v0.20.1-dev` release train running through 2026-10-15.
+Stable v0.20.1 (2026-10-03) after v0.20.0 (2026-09-25), with a daily `v0.20.1-dev` release train running through 2026-10-18.
 The server package drew 1,267 npm downloads in the month ending 2026-10-10.
 A Hacker News search returns no story about the project (2026-10-11), only substring matches, so the footprint is GitHub-side.
 

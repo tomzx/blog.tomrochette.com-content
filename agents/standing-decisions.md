@@ -39,6 +39,7 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-13 (named 2026-10-05) | people-and-publications | a voice is admissible only when their breakout first surfaces inside the section's coverage window; long-established and interview-only voices fail | applied in every weekly voice scan
 - 2026-10-06 | trackers-and-leaderboards | single trend series are not trackers and evals nonprofits are people-category candidates | METR's time-horizon series rejected as a tracker, queue q#5 open
 - 2026-10-17 | memory | the OKF-implementation family folds into the okf-agent-memory note as ecosystem evidence | mcp-memory (218 stars, dormant since 2026-08-30) and Kage held on it
+- 2026-10-18 | memory | positional star ranks ("Nth of M members") are no longer maintained in note prose; the claim churned five correction rounds in two notes and went stale at every admission | memU and screenpipe rank lines dropped
 - 2026-10-17 | memory | Vestige pivoted from queryless memory to a fail-closed action firewall (Strata log v4.0.0 landing 2026-09-30, the Operator gate and $149 tier v4.2.0 2026-10-06) and routes out of memory on the primary-artifact reading | admitted to control-planes the same run, 4-point Show HN July 2026 pre-pivot
 - 2026-10-17 | skills | the OKF delivery-toolkit kind routes to the memory category's okf-agent-memory ecosystem family, not to skills (the skills are the delivery mechanism, and OKF packages knowledge about systems, not agent capabilities) | scaccogatto/okf-skills (417 stars) folded there 2026-10-17
 

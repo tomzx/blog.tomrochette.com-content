@@ -1,7 +1,7 @@
 ---
 title: Screenpipe
 created: 2026-10-08
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, screen-capture, timeline, mcp, source-available]
 readability: 3
@@ -25,7 +25,7 @@ Pipes are scheduled AI agents defined as markdown files, with YAML frontmatter p
 
 ## Status
 
-**Active and large, ranking eleventh of the twenty-eight members by stars, on a YC-backed company.**
+**Active and large, on a YC-backed company.**
 21,954 stars with the repository pushed 2026-10-16, created 2024-06-19, as of 2026-10-16 (GitHub API).
 
 <picture>
@@ -85,6 +85,7 @@ Not for privacy-strict environments, commercial use without a license budget, or
 - 2026-10-11 - Membership grew to twenty-six (TencentDB Agent Memory, Memanto, and MemMachine joined), moving the rank from tenth of the twenty-three to eleventh of the twenty-six members at 21,903 stars, on the each-member's-own-repository basis (Zep's Graphiti engine and the file convention carry no rank).
 - 2026-10-11 - Emulo joined as the twenty-seventh member, moving the rank denominator only (Emulo's 294 stars rank below screenpipe).
 - 2026-10-16 - Corrected the rank denominator to twenty-eight after PLUR's 2026-10-14 admission (PLUR's 304 stars rank below screenpipe, so the position holds), and refreshed stars to 21,954.
+- 2026-10-18 - Dropped the positional star rank entirely: the denominator went stale again at the category's thirty-two members (OKF Agent Memory and Operator Memory joined 2026-10-17), and the repeated rank-correction rounds showed the claim costs more maintenance than its one line of value; the substance (21.9k stars, YC-backed, strong HN record) is unchanged.
 
 ## See also
 

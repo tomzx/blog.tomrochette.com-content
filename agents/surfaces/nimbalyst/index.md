@@ -1,7 +1,7 @@
 ---
 title: Nimbalyst
 created: 2026-10-11
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -25,7 +25,7 @@ It is built by a four-person team and continues the lineage of Crystal, the orch
 ## Status
 
 **Active on a fast train, with a small independent footprint.**
-The repository was created 2025-10-30 and shows 1,908 stars and 304 forks as of 2026-10-16, with v0.81.6 (October 15, the wiki plugin telling the agent at session start which local wiki pages cover the code and which cover uncommitted changes, plus new wikiDoctor and listMarks tools) as the latest release after the v0.81.4 and v0.81.5 pair of October 14 (local-wiki fixes and team moves, and interactive HTML pages embedded live in documents as a new wiki page type).
+The repository was created 2025-10-30 and shows 1,908 stars and 304 forks as of 2026-10-16, with v0.81.7 (October 16, Claude Code sessions suggesting your next prompt with Tab to fill, Claude Agent sessions auto-resuming when a usage limit resets, and new editor blocks: charts, callouts, columns, tabs, a table of contents, transclusions, @ mentions, and link previews) as the latest release after v0.81.6 (October 15, the wiki plugin telling the agent at session start which local wiki pages cover the code and which cover uncommitted changes, plus new wikiDoctor and listMarks tools) and the v0.81.4 and v0.81.5 pair of October 14 (local-wiki fixes and team moves, and interactive HTML pages embedded live in documents as a new wiki page type).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nimbalyst/nimbalyst&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for terminal-first developers, and not for teams that need an independently 
 - 2026-10-11 - Added the star history chart.
 - 2026-10-13 - Recorded v0.81.1 (October 13, the nimbalyst-wiki plugin for the Codex CLI, wiki attachments, and usage-limit auto-resume for stopped Claude sessions) as the new latest release; counts refreshed.
 - 2026-10-16 - Recorded the v0.81.4 and v0.81.5 pair of October 14 (local-wiki fixes, interactive HTML pages as a wiki page type) and v0.81.6 (October 15, wiki coverage context at session start, wikiDoctor and listMarks tools) as the new latest releases; counts refreshed.
+- 2026-10-18 - Recorded v0.81.7 (October 16, next-prompt suggestions with Tab to fill, usage-limit auto-resume for Claude Agent sessions, and the new editor blocks from charts and callouts to columns, tabs, and link previews) as the new latest release.
 
 ## See also
 
@@ -84,6 +85,6 @@ Not for terminal-first developers, and not for teams that need an independently 
 - https://github.com/nimbalyst/nimbalyst - repository, README (visual editors, per-block diffs, session kanban with worktree isolation, task tracking, MCP widgets, extension SDK, iOS companion), MIT license, 1,908 stars and 304 forks as of 2026-10-16
 - https://api.github.com/repos/nimbalyst/nimbalyst - creation date 2025-10-30, language TypeScript, push date 2026-10-16, stars and forks as of 2026-10-16
 - https://nimbalyst.com/ - the product site: the editor list, the extension-system description (agent-registered providers), Teams free during beta, and the platform list
-- https://api.github.com/repos/nimbalyst/nimbalyst/releases - v0.81.6 (2026-10-15) as the latest release, after v0.81.5 and v0.81.4 (October 14), v0.81.3 (October 14), and v0.81.1 (October 13)
+- https://api.github.com/repos/nimbalyst/nimbalyst/releases - v0.81.7 (2026-10-16) as the latest release, after v0.81.6 (October 15), v0.81.5 and v0.81.4 (October 14), and v0.81.3 (October 14), re-fetched 2026-10-18
 - https://hn.algolia.com/api/v1/search?query=nimbalyst&tags=story - the six self-submitted threads (best: 29 points December 2025; the 2026-04-30 open-source launch at 8 points), the empty-footprint evidence, fetched 2026-10-11
 - https://docs.nimbalyst.com/ - the documentation index: the three modes (Files, Agent, Task), the MCP setup page, agent teams, worktrees, automations, and the Teams collaboration architecture (Cloudflare sync, per-team isolation), fetched 2026-10-11

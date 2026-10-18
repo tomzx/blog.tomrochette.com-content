@@ -1,7 +1,7 @@
 ---
 title: Graft
 created: 2026-09-12
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graphs, claude-code, open-source]
 readability: 3
@@ -26,7 +26,7 @@ In October 2026 the product renamed to Trail-code: the repository moved from tra
 
 ## Status
 
-Young and very hot: created 2026-07-03, 10,084 stars and 891 forks by 2026-10-16, last push 2026-10-15, 250 open issues and pull requests, with the repository renamed trailhq/Graft to trailhq/Trail-Code and the npm package `@trailhq/trail-code` at v0.23.0 ("Formerly graft") beside the still-published `@nanonets/graft` v0.23.0, which drew 114,056 downloads in the trailing month (window 2026-09-13 to 2026-10-12), all as of 2026-10-16 (GitHub and npm APIs).
+Young and very hot: created 2026-07-03, 10,084 stars and 906 forks by 2026-10-18, last push 2026-10-17, 259 open issues and pull requests, with the repository renamed trailhq/Graft to trailhq/Trail-Code and the npm package `@trailhq/trail-code` at v0.23.0 ("Formerly graft") beside the still-published `@nanonets/graft` v0.23.0, which drew 102,046 downloads in the trailing month (window 2026-09-17 to 2026-10-16), all as of 2026-10-18 (GitHub and npm APIs).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trailhq/Trail-Code&type=date&theme=dark&legend=top-left" />
@@ -101,14 +101,14 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 
 ## References
 
-- https://github.com/trailhq/Trail-Code - canonical repository (trailhq/Graft and NanoNets/Graft redirect here), stats and activity as of 2026-10-16
+- https://github.com/trailhq/Trail-Code - canonical repository (trailhq/Graft and NanoNets/Graft redirect here), stats and activity as of 2026-10-18
 - https://raw.githubusercontent.com/trailhq/Trail-Code/main/README.md - architecture, benchmark tables, SWE-bench Verified numbers, delivery surfaces, and the rename banner ("Trail-code (previously graft)")
 - https://graft.nanonets.ai - product site, Trail attribution, and marketing claims
 - https://trailhq.com/trail-code - the product page carrying the rename and the Learnings framing, fetched 2026-10-16
 - https://raw.githubusercontent.com/trailhq/Trail-Code/main/TELEMETRY.md - the telemetry allowlist contract (the original NanoNets/context-graph-engine path still redirects)
 - https://registry.npmjs.org/@trailhq/trail-code/latest - the renamed package, v0.23.0, described as "Formerly graft"
 - https://registry.npmjs.org/@nanonets/graft/latest - the old package, still published at v0.23.0
-- https://api.npmjs.org/downloads/point/last-month/@nanonets/graft - 114,056 downloads, window 2026-09-13 to 2026-10-12, fetched 2026-10-16
+- https://api.npmjs.org/downloads/point/last-month/@nanonets/graft - 102,046 downloads, window 2026-09-17 to 2026-10-16, fetched 2026-10-18
 - https://hn.algolia.com/api/v1/items/49197687 - the 3-point Show HN and the creator's tree-sitter-only clarification
 - https://hn.algolia.com/api/v1/items/49299985 - the 39-point thread: staleness, README register critique, and the vendor-run Graphify comparison
 - https://trailhq.com/pricing - Trail Brain plans as of 2026-10-06

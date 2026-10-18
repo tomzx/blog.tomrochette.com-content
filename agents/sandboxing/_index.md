@@ -24,7 +24,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 - [Fence](fence/index.md) - Tusk's container-free CLI wrapping any command or agent in sandbox-exec or bubblewrap, Landlock, and seccomp, one fence.json, deny-by-default network.
 - [Flue](flue/index.md) - the Astro team's agent framework whose contribution is a three-tier sandbox taxonomy and durable execution.
 - [Greywall](greywall/index.md) - the Fence fork that adds proxy-swapped credentials and an allow-by-default watch mode with a live dashboard, quiet since August 2026.
-- [Landrun](landrun/index.md) - the Landlock-only kernel CLI wrapper with the category's largest wrapper-class footprint and Ubuntu and Debian packages, quiet since July 2026.
+- [Landrun](landrun/index.md) - the Landlock-only kernel CLI wrapper with the category's largest wrapper-class footprint and Ubuntu and Debian packages, commit train resumed October 2026 with unreleased ABI 10 and UDP work.
 - [Microsandbox](microsandbox/index.md) - the libkrun microVM runtime with container workflows, agent-created sandboxes via skills and MCP, and the category's largest HN launch.
 - [NemoClaw](nemoclaw/index.md) - NVIDIA's Apache-2.0 reference stack that installs, hardens, and operates OpenClaw, Hermes, and LangChain Deep Agents inside OpenShell sandboxes with managed inference and lifecycle ops.
 - [nono](nono/index.md) - the Sigstore team's kernel capability sandbox that brokers each delegated tool separately and proxies credentials scoped per endpoint.

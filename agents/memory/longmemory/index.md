@@ -1,7 +1,7 @@
 ---
 title: LongMemory
 created: 2026-10-08
-updated: 2026-10-11
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, temporal, sqlite, self-hosted, mcp]
 readability: 3
@@ -26,7 +26,7 @@ Surfaces include the npm library, a CLI, an HTTP API on port 7331, an MCP server
 ## Status
 
 **Young but shipping, with a strong independent launch record for its size.**
-4,527 stars with the repository pushed 2026-09-20, created 2025-10-19, as of 2026-10-11 (GitHub API).
+4,527 stars as of 2026-10-11 (GitHub API), with the repository pushed 2026-10-17, created 2025-10-19, as of 2026-10-18 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=CaviraOSS/LongMemory&type=date&theme=dark&legend=top-left" />
@@ -34,9 +34,9 @@ Surfaces include the npm library, a CLI, an HTTP API on port 7331, an MCP server
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=CaviraOSS/LongMemory&type=date&theme=dark&legend=top-left" />
 </picture>
 
-The Show HN thread (December 2025, as OpenMemory) drew 48 points and 16 comments, and the README lists 36 contributors.
+The Show HN thread (December 2025, as OpenMemory) drew 48 points and 16 comments, and the contributor count stands at 45 by GitHub API pagination as of 2026-10-18 (the README no longer carries a listing).
 Its benchmark harness publishes manifests and fails closed on incomplete datasets or embedding fallback, covering LongMemEval, LoCoMo, and BEAM, though the published results are still the project's own runs.
-Two verification gaps carried into this run: the PyPI distribution the README instructs you to install (`longmemory-sdk`) returned 404 again on 2026-10-13 (as on 2026-10-08, 2026-10-09, 2026-10-10, 2026-10-11, and 2026-10-12), and the repository has not pushed since September 20.
+Two verification gaps carried into this run: the PyPI distribution the README instructs you to install (`longmemory-sdk`) returned 404 again on 2026-10-18 (as on every check since 2026-10-08), and the repository went quiet after September 20 until one community pull request (a project-ingest embeddings fix) merged on 2026-10-17.
 
 ## Strengths
 
@@ -47,7 +47,7 @@ Two verification gaps carried into this run: the PyPI distribution the README in
 
 ## Cautions
 
-- **Young and quiet**: no push since September 20, an npm train at 1.3.3, and a core team small enough that bus factor is a fair question.
+- **Young and quiet**: one push in the month to 2026-10-17 (a community embeddings fix), an npm train at 1.3.3, and a core team small enough that bus factor is a fair question.
 - The Python SDK distribution 404'd on both the JSON API and the simple index this run, so the multi-language story is uneven in practice.
 - The rich engine wants operations: embeddings need provider keys, and the server, dashboard, and extension paths add surface the in-process library hides.
 - All published benchmark results are self-run; no independent replication exists yet.
@@ -70,6 +70,7 @@ Not for anyone needing a hosted tier, a proven-at-scale engine, or a Python SDK 
 ## Changes
 
 - 2026-10-08 - Created from the 2026-10-08 awesome-list entrant scan, with six fetched sources; the unresolvable PyPI SDK distribution recorded as the run's verification gap.
+- 2026-10-18 - Rotation re-verification: the push drought ended with a community project-ingest embeddings fix merged 2026-10-17, so the quiet caution was revised; the contributor count moved to 45 by GitHub API after the README dropped its listing; the PyPI SDK 404 re-confirmed through 2026-10-18.
 
 ## See also
 
@@ -84,5 +85,5 @@ Not for anyone needing a hosted tier, a proven-at-scale engine, or a Python SDK 
 - https://raw.githubusercontent.com/CaviraOSS/LongMemory/main/README.md - the Hydrograph memory model, recall modes, governance scopes, surfaces, and migration paths
 - https://raw.githubusercontent.com/CaviraOSS/LongMemory/main/LICENSE - the Apache-2.0 license text
 - https://registry.npmjs.org/longmemory - the official npm distribution at 1.3.3
-- https://pypi.org/simple/longmemory-sdk/ - the PyPI distribution returning 404 at fetch time (2026-10-08 through 2026-10-13, checked daily), the verification gap
+- https://pypi.org/simple/longmemory-sdk/ - the PyPI distribution returning 404 at fetch time (2026-10-08 through 2026-10-18, checked across runs), the verification gap
 - https://news.ycombinator.com/item?id=46262294 - the Show HN thread (48 points, 16 comments, 2025-12-14), the launch record

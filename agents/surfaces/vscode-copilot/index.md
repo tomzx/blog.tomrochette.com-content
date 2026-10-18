@@ -1,7 +1,7 @@
 ---
 title: VS Code + Copilot
 created: 2026-08-23
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, microsoft, github]
 readability: 3
@@ -52,7 +52,7 @@ The same changelog moved card and PayPal Business and Enterprise customers to pr
 
 ## Pricing
 
-Copilot Free ($0), Student (free), Pro $10/month, Pro+ $39/month, Max $100/month, Business $19/seat, Enterprise $39/seat, as of 2026-09-27, re-verified 2026-10-11.
+Copilot Free ($0), Student (free), Pro $10/month, Pro+ $39/month, Max $100/month, Business $19/seat, Enterprise $39/seat, as of 2026-09-27, re-verified 2026-10-18.
 Paid individual plans carry 1,500 (Pro), 7,000 (Pro+), or 20,000 (Max) monthly AI credits.
 
 ## Price history
@@ -92,7 +92,7 @@ Not for teams that want the editor itself to come with strong opinions.
 ## References
 
 - https://code.visualstudio.com/docs/agents/overview - the agent-centric docs, harness and session model (formerly /docs/copilot/overview, moved in the 2026 docs reorg)
-- https://docs.github.com/en/copilot/get-started/plans - plan prices and AI credit allotments, re-verified 2026-10-11 (credit totals 1,500/7,000/20,000 unchanged)
+- https://docs.github.com/en/copilot/get-started/plans - plan prices and AI credit allotments, re-verified 2026-10-18 (credit totals 1,500/7,000/20,000 unchanged)
 - https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent - the cloud agent and issue assignment (formerly /concepts/about-copilot-coding-agent, moved)
 - https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups - the September 3, 2026 reopening announcement for self-serve Business and Enterprise sign-ups, and the prepaid-seat billing it introduced effective October 1, 2026
 - https://github.com/microsoft/vscode - MIT license and repository scale, as of 2026-10-16

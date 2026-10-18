@@ -1,7 +1,7 @@
 ---
 title: px0
 created: 2026-10-11
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, code-review, browser-ide, go, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Navigation targets the reading case: fuzzy file and symbol search, workspace reg
 
 **Young, fast-moving, and thin on independent validation.**
 1,869 stars, MIT, written in Go, created 2026-06-24, pushed 2026-10-08, as of 2026-10-16 (GitHub API).
-The release train is active: v0.1.11 through v0.1.16 landed between 2026-09-28 and 2026-10-03.
+The release train is active: v0.1.11 through v0.1.16 landed between 2026-09-28 and 2026-10-03, and v0.1.17 (October 18, a hardened LSP client lifecycle fixing deadlocks and races, a committed-changes diff view, and a status-bar flicker fix) is the latest.
 The Show HN thread (2026-09-13, submitted by the author) drew 7 points and 0 comments, and no third-party coverage surfaced this run, so the footprint is GitHub-side; the site's "engineers at" logo wall (Google, Meta, Stripe, and a dozen more) is unverifiable social proof, and a design-partner program is recruiting teams of ten plus.
 
 <picture>
@@ -69,6 +69,7 @@ My disagreeable claim: the read-only IDE is the correct end state for the agent 
 ## Changes
 
 - 2026-10-11 - Created after the evaluation-review resolution routed the px0-ai/px0 candidate here as surfaces-kind, with the zero-coverage footprint recorded as the governing caution.
+- 2026-10-18 - Recorded v0.1.17 (October 18, the LSP client-lifecycle hardening, a committed-changes diff view, and the status-bar flicker fix) as the new latest release.
 
 ## See also
 
@@ -83,5 +84,5 @@ My disagreeable claim: the read-only IDE is the correct end state for the agent 
 - https://github.com/px0-ai/px0 - repository, MIT, Go, 1,869 stars, created 2026-06-24, pushed 2026-10-08 (GitHub API, as of 2026-10-16)
 - https://raw.githubusercontent.com/px0-ai/px0/HEAD/README.md - the feature set: PR review, harness handoff list, virtual rendering, remote mode, sandboxing, and the memory accounting
 - https://px0.ai/ - the product site: the performance claims, the four-harness headline, the logo wall, and the design-partner program
-- https://api.github.com/repos/px0-ai/px0/releases - the release train v0.1.11 through v0.1.16 (2026-09-28 to 2026-10-03)
+- https://api.github.com/repos/px0-ai/px0/releases - the release train v0.1.11 through v0.1.16 (2026-09-28 to 2026-10-03), with v0.1.17 (2026-10-18, LSP lifecycle hardening and the committed-changes diff view) as the latest, re-fetched 2026-10-18
 - https://hn.algolia.com/api/v1/items/49683668 - the Show HN thread: 7 points, 0 comments, 2026-09-13, the thin-footprint record

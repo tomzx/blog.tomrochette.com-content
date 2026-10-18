@@ -1,7 +1,7 @@
 ---
 title: WrenAI
 created: 2026-10-10
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, semantic-layer, text-to-sql, genbi]
 readability: 3
@@ -23,7 +23,7 @@ Everything Wren writes is plain YAML and Markdown in a repo you own, and Git Syn
 
 ## Status
 
-Established and active: 17,877 stars, 2,062 forks, and 266 open issues as of 2026-10-16, created 2024-03-13, pushed 2026-10-16, with the wren-v0.16.0 release on 2026-10-16 and PyPI (wrenai) tracking the same 0.16.0.
+Established and active: 17,877 stars, 2,160 forks, and 273 open issues as of 2026-10-18, created 2024-03-13, pushed 2026-10-16, with the wren-v0.16.0 release on 2026-10-16 and PyPI (wrenai) tracking the same 0.16.0.
 The docs page claims SOC 2 Type II certification and 15k+ GitHub stars (conservative against the live count), though it says 17+ data sources where the README says 22+ (both figures re-checked unchanged 2026-10-11).
 The community footprint is lopsided: a Hacker News search returns over a thousand matches but every thread is small (the largest found carries 6 points), so nearly five figures of stars have produced no front-page discussion.
 
@@ -92,7 +92,7 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 ## References
 
 - https://github.com/Canner/WrenAI - repository: README, architecture, open-core split, license badge
-- https://api.github.com/repos/Canner/WrenAI - stars, forks, issues, creation and push dates as of 2026-10-16
+- https://api.github.com/repos/Canner/WrenAI - stars, forks, issues, creation and push dates as of 2026-10-18
 - https://api.github.com/repos/Canner/WrenAI/releases - wren-v0.16.0 published 2026-10-16 and the component release train (fetched 2026-10-16)
 - https://www.getwren.ai/pricing - the credit tiers, quotas, and Enterprise feature gates as of 2026-10-10
 - https://docs.getwren.ai/ - the docs portal: editions, SOC 2 claim, and the 15k-plus star line

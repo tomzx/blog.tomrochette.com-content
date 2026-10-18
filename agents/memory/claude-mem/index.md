@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -32,7 +32,7 @@ Very large and fast: about 101.1k stars as of 2026-10-16, with 68,478 npm downlo
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-31, pushed 2026-10-17, latest tagged release v13.41.0 on 2026-10-17 with npm in sync at 13.41.0 as of 2026-10-17.
+Created 2025-08-31, pushed 2026-10-18, latest tagged release v14.0.1 on 2026-10-17 with npm in sync at 14.0.1 as of 2026-10-18.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.
@@ -40,6 +40,7 @@ v13.31.1 (2026-10-06) fixed cloud sync stalling behind Supabase's firewall (uplo
 Same-day follow-ups: v13.34.0 added first-party Pi and DeepSeek Harness integrations (a self-contained ESM extension under ~/.pi/agent/extensions and a bundled @claude-mem/dsh plugin installed through DSH's own profile commands), v13.34.1 restored the CMEM Pro public trial to 30 days from the shorter "up to 14 days" wording, and v13.34.2 fixed a worker regression that had broken prompt-cache reuse on OpenAI-compatible observers (OpenRouter, Gemini) since v13.29.0.
 The 2026-10-12-to-13 train (v13.36.0, v13.36.1, v13.37.0) is the first recorded privacy regression and capture outage in the same week: v13.36.0, a mostly community release, made the observer pause and keep the work instead of dropping memories when the provider refuses (an empty Anthropic credit balance, a blocked organization, or a local model server down) and fixed non-ASCII Windows home folders; v13.36.1 fixed a server-runtime leak where `<private>` sections still left the hook and were stored in the server's raw event record until prompt build (the default worker runtime was not affected); and v13.37.0 repaired the marketplace update of v13.36.1 itself, which had shipped built plugin files containing leftover `git stash` conflict markers, so auto-updated installs failed to start the worker and MCP search and memory capture stopped until upgrade (the npm package was published before the bad change and was unaffected).
 The 2026-10-13-to-17 train continued at the same clip: v13.38.0 stopped the Windows console-window flashing by having every hook launch claude-mem directly in exec form with 16 community fixes from five contributors, v13.39.0 restored the memory timeline to Codex subagent threads after compaction through a new PostCompact hook, v13.40.0 brought TeamBrain team joins to the terminal (`npx claude-mem teambrain join` with device-code sign-in and per-project sharing), and v13.41.0 added build, release, and work-state visibility workflow skills that delegate through make-plan, do, and babysit.
+The same day closed the v13 line: v14.0.0 shipped My Work, a free local dashboard that lists the requests you gave your agents as cards with plain-language summaries, live statuses, and a human review step so an agent's "done" is never mistaken for a person's confirmation, and it moved TeamBrain from design-partner pilot to self-serve at $50 per seat per month; v14.0.1 followed within the hour, while cmem.ai/pricing still described TeamBrain as an unpriced pilot when fetched 2026-10-18.
 
 ## Strengths
 
@@ -59,7 +60,7 @@ The 2026-10-13-to-17 train continued at the same clip: v13.38.0 stopped the Wind
 
 The engine is free and Apache-2.0, fully local.
 The commercial arm restructured on 2026-10-06: CMEM Pro is $30/month for hosted observation and cloud sync (private MCP link, memory generation on the hosted observer) after a 30-day free trial, Heavy is $70/month with more included usage, and CMEM Max is $100/month with the largest allowance plus billed overages, each with a usage allowance and automatic upgrade settings.
-The former CMEM Cloud $20/month plan and the $333/seat/month Team tier are gone; the team product (TeamBrain) is a design-partner pilot whose price is set on a fit call, with no public price.
+The former CMEM Cloud $20/month plan and the $333/seat/month Team tier are gone; the team product (TeamBrain) moved to self-serve at $50/seat/month with v14.0.0 on 2026-10-17, though cmem.ai/pricing still listed it as a design-partner pilot with pricing unannounced when fetched 2026-10-18.
 The hidden cost is compression: those LLM calls draw on your own model subscription or API budget, and no official per-session figure is published.
 
 ## Price history
@@ -69,6 +70,7 @@ The hidden cost is compression: those LLM calls draw on your own model subscript
 | 2026-09 | CMEM Cloud | Baseline: engine free (Apache-2.0); CMEM Cloud $20/mo for sync and one private MCP link, Team $333/seat/mo for 3-50 seats. | [claude-mem.ai](https://claude-mem.ai) |
 | 2026-10-06 | CMEM Pro, Heavy, CMEM Max | CMEM Cloud $20/mo and Team $333/seat/mo replaced: CMEM Pro $30/mo, Heavy $70/mo, CMEM Max $100/mo (allowance tiers with billed overages); TeamBrain pilot has no public price. | [cmem.ai/pricing](https://cmem.ai/pricing) |
 | 2026-10-06 | CMEM Pro | 30-day free trial restored as the public offer, from the shorter "up to 14 days" wording; $30/mo unchanged. | [cmem.ai/pricing](https://cmem.ai/pricing) |
+| 2026-10-17 | TeamBrain | Self-serve at $50/seat/mo, from a design-partner pilot with no public price; announced in the v14.0.0 release notes, with the pricing page still showing the pilot at fetch. | [v14.0.0 release](https://github.com/thedotmack/claude-mem/releases/tag/v14.0.0) |
 
 ## Compared to
 
@@ -100,6 +102,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-10-13 - Recorded the v13.36.0, v13.36.1, and v13.37.0 releases (the observer pausing instead of dropping memories when the provider refuses, the server-runtime `<private>` leak fixed, and the broken 13.36.1 marketplace update repaired after it stopped memory capture on auto-updated installs) with npm in sync at 13.37.0; refreshed stars to about 100.2k (past 100k) and trailing-month downloads to 66,625.
 - 2026-10-16 - Recorded the v13.38.0 and v13.39.0 releases (hooks calling claude-mem directly instead of through bash to stop the Windows console flash, sixteen community fixes, and the Codex memory timeline returning to subagent threads after compaction) with npm in sync at 13.39.0; refreshed stars to about 101.1k and trailing-month downloads to 68,478.
 - 2026-10-17 - Recorded the v13.40.0 and v13.41.0 releases (TeamBrain team joins from the terminal with device-code sign-in and per-project sharing, and build, release, and work-state workflow skills delegating through make-plan, do, and babysit) with the Status train narrative extended to the full 10-13-to-17 run and npm re-verified in sync at 13.41.0.
+- 2026-10-18 - Recorded the v14.0.0 and v14.0.1 releases (the free local My Work request dashboard with summaries, live statuses, and a human review step, and TeamBrain moving from design-partner pilot to self-serve at $50/seat/month, Price history row) with npm in sync at 14.0.1 and the pricing page's remaining pilot wording noted at fetch time.
 
 ## See also
 
@@ -115,6 +118,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - https://docs.claude-mem.ai/architecture/overview - hook architecture and the compression flow behind the token-cost caution
 - https://docs.claude-mem.ai/cloud-sync - the documented privacy trade-off of the cloud tier
 - https://claude-mem.ai - pricing tiers and adoption stats (now redirects to cmem.ai)
-- https://cmem.ai/pricing - the restructured CMEM ladder ($30/$70/$100) and the TeamBrain pilot terms, re-verified unchanged 2026-10-11
+- https://cmem.ai/pricing - the restructured CMEM ladder ($30/$70/$100); TeamBrain still described as an unpriced design-partner pilot at the 2026-10-18 fetch
+- https://github.com/thedotmack/claude-mem/releases/tag/v14.0.0 - the My Work dashboard announcement and the TeamBrain self-serve $50/seat/month pricing (2026-10-17)
 - https://api.npmjs.org/downloads/point/last-month/claude-mem - the 75,274 monthly downloads (2026-09-11 to 2026-10-10) as of 2026-10-12
 - https://news.ycombinator.com/item?id=47422611 - the critical take from a competing memory author on the capture-everything approach

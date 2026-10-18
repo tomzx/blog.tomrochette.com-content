@@ -1,7 +1,7 @@
 ---
 title: Yolobox
 created: 2026-10-09
-updated: 2026-10-13
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, containers, docker, isolation, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, solo author (Finbarr), docs at yolobox.dev.
 
 ## Status
 
-Young and shipping hard: 649 stars, pushed 2026-10-07 as of 2026-10-13, created 2026-01-09, with sixty-six releases on the train and v0.19.7 (2026-10-07) the latest.
+Young and shipping hard: 649 stars as of 2026-10-13, pushed 2026-10-18, created 2026-01-09, with sixty-seven releases on the train and v0.19.8 (2026-10-18) the latest.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=finbarr/yolobox&type=date&theme=dark&legend=top-left" />
@@ -68,6 +68,7 @@ Not for hostile code, by its own docs, and not on hosts where Docker is unavaila
 
 - 2026-10-09 - Created from the arjan/awesome-agent-sandboxes re-scan, profiling the container wrapper for full-permission agent runs with the docs' accidents-not-attackers ceiling.
 - 2026-10-10 - Corrected the release-train count from thirty to sixty-six (the v0.1.0 through v0.19.7 releases list, fetched in full), the original figure having counted a single page; stars and the 122-point thread unchanged.
+- 2026-10-18 - Recorded v0.19.8 (2026-10-18, OpenCode launch fixes in the base image and smoke tests), the release train moving from sixty-six to sixty-seven, with the repository pushed 2026-10-18; stars untouched per the exemption.
 
 ## See also
 

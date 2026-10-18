@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 83,540 stars, 5,305 forks, and 1,528 open issues and pull requests combined as of 2026-10-16, created 2026-01-22, pushed 2026-10-15.
+Young and hot: 83,540 stars, 5,327 forks, and 1,564 open issues and pull requests combined as of 2026-10-18, created 2026-01-22, pushed 2026-10-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Young and hot: 83,540 stars, 5,305 forks, and 1,528 open issues and pull request
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&legend=top-left" />
 </picture>
 
-v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02; v0.52.0 went stable on 2026-10-13 and **v1.0.0 shipped the same day**, with v1.0.1 on 2026-10-14 and a dev-1.0.2 candidate train already running (rc.549 by 2026-10-15), so the project is no longer pre-1.0.
+v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02; v0.52.0 went stable on 2026-10-13 and **v1.0.0 shipped the same day**, with v1.0.1 on 2026-10-14 and a dev-1.0.2 candidate train already running (rc.552 by 2026-10-18), so the project is no longer pre-1.0.
 The site claims 18,000+ developers, a marketing figure, and the Show HN thread shows users posting their own measured savings.
 
 ## Strengths
@@ -48,7 +48,7 @@ The site claims 18,000+ developers, a marketing figure, and the Show HN thread s
 - Lossy output is the product: an agent reading a condensed diff or collapsed test list can misread state, and the changelog shows a steady stream of filter-correctness bugs.
 - The hook only rewrites Bash tool calls, so built-in Read/Grep/Glob tools bypass filtering entirely, and unmatched commands pass through at zero savings; one user's own log showed 39 percent on their busiest day.
 - All savings numbers trace to the project or its users; no independent benchmark exists as of 2026-09-02.
-- A crates.io name collision is documented in its own README, and the combined open issues and PRs total 1,528 as of 2026-10-16.
+- A crates.io name collision is documented in its own README, and the combined open issues and PRs total 1,564 as of 2026-10-18.
 
 ## Pricing
 
