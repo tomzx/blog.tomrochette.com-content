@@ -1,7 +1,7 @@
 ---
 title: GSD
 created: 2026-09-16
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, workflow, open-source]
 readability: 3
@@ -32,7 +32,7 @@ The original gsd-build/get-shit-done is archived at 64,303 stars and 5,431 forks
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&legend=top-left" />
 </picture>
 
-The successor, created 2026-05-22, is actively developed: 10,491 stars and 748 forks as of 2026-10-14, pushed 2026-10-16, release v1.17.0 (2026-10-14) the newest (a StateWriteIntent verifying executor with a bounded-mutation check, plus an OpenCode 2.x plugin entrypoint), with 46,977 npm downloads last month for @opengsd/gsd-core and 57,258 for the legacy get-shit-done-cc package (both as of 2026-10-14).
+The successor, created 2026-05-22, is actively developed: 10,491 stars and 748 forks as of 2026-10-14, pushed 2026-10-18, release v1.17.0 (2026-10-14) the newest (a StateWriteIntent verifying executor with a bounded-mutation check, plus an OpenCode 2.x plugin entrypoint), with 46,977 npm downloads last month for @opengsd/gsd-core and 57,258 for the legacy get-shit-done-cc package (both as of 2026-10-14).
 **The transition was not clean: Blake Watson's widely-linked build story added a 2026-07-31 update telling readers not to install the original, reporting that people say a crypto scam took place around the creator, and naming OpenGSD the consensus successor.**
 Open GSD's own origin page confirms the chapter without specifics, stating trust was damaged, people were hurt, public channels disappeared, and crediting Christopherson with the original idea.
 

@@ -37,6 +37,7 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-07 | sandboxing | hosted-only services and environment images without an isolation boundary stay out | Deno Sandbox under the Modal precedent; AIO Sandbox an environment image, not a boundary
 - 2026-10-10 | executions | data-engineering-first platforms stay out | kestra (29.5k) rejected and re-confirmed as data-engineering-first
 - 2026-10-13 (named 2026-10-05) | people-and-publications | a voice is admissible only when their breakout first surfaces inside the section's coverage window; long-established and interview-only voices fail | applied in every weekly voice scan
+- 2026-10-18 | spec-driven-development | the thin-tail precedent (0-10 stars, no independent coverage, reopen on traction or coverage) applies to spec-standard and blueprint kinds | ANSS (6 stars), internal-tool-blueprints (0 stars), one-man-startup (9 stars) rejected on it
 - 2026-10-06 | trackers-and-leaderboards | single trend series are not trackers and evals nonprofits are people-category candidates | METR's time-horizon series rejected as a tracker, queue q#5 open
 - 2026-10-17 | memory | the OKF-implementation family folds into the okf-agent-memory note as ecosystem evidence | mcp-memory (218 stars, dormant since 2026-08-30) and Kage held on it
 - 2026-10-18 | memory | positional star ranks ("Nth of M members") are no longer maintained in note prose; the claim churned five correction rounds in two notes and went stale at every admission | memU and screenpipe rank lines dropped

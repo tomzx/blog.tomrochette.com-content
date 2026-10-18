@@ -1,7 +1,7 @@
 ---
 title: "Protocols Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, protocols, interoperability]
 readability: 3
@@ -46,7 +46,7 @@ The Agent Protocol sits with the young serving specs: 687 stars, active through 
 UHP is the newest serving bet: the spec ships inside HarnessRouter's 2,994-star repository (as of 2026-10-13), the hosted service and SuperQode's 62-star framework are the recorded implementations, and its discussion footprint is one 10-point Show HN thread with zero stories naming the protocol itself.
 PIC Standard sits below even UHP on reach while overmatching it on specification form: 69 stars, a 1-point Show HN, and 697 PyPI downloads in the month ending 2026-10-10, against an anchored RFC, a frozen canonicalization spec, a 91-vector conformance corpus, and a second implementation passing it, with differential CI keeping the two verifiers aligned.
 llms.txt splits the file-convention lane with AGENTS.md: thousands of sites and the docs of tools in this index serve it (Anthropic's and OpenAI's developer docs confirmed live this run), coding agents fetch it, and the search crawlers its SEO adopters hoped for still ignore it.
-AG-UI is the anomaly that proves the rule: none of this index's harnesses or surfaces speak it natively, yet its SDKs moved about 17.0M combined npm downloads in the month ending 2026-10-12, because the frontend layer is where end-user products live even though coding tools never touch it.
+AG-UI is the anomaly that proves the rule: none of this index's harnesses or surfaces speak it natively, yet its SDKs moved about 16.3M combined npm downloads in the month ending 2026-10-16, because the frontend layer is where end-user products live even though coding tools never touch it.
 A2UI is the newest layer to fill in: launched in December 2025, it passed 16,600 stars in ten months and is carried by Google's own Opal and Gemini Enterprise plus Flutter's GenUI SDK, adoption that outruns its release-candidate spec.
 WebMCP sits at the browser edge: 4,621 stars, a Chrome origin trial, and Shopify and Cloudflare turning it default-on across much of commerce in August 2026, while Gemini in Chrome remains the only agent consuming those tools at scale.
 ANP sits below even A2A: 1.4k stars after two years and Hacker News stories at 2 and 1 points are the footprint of a protocol whose network effect has not started.
@@ -104,6 +104,7 @@ The mature protocols get attacked for their risks, the young ones for their reas
 - 2026-10-13 - Re-verification: WebMCP's maturity cell moved to the draft revision of 2026-10-13 (algorithm fixes to the concurrency, detached-document, and permissions checks, no API surface change) and the PIC criticism cell's star figure moved to 69; volatile figures refreshed in the prose (AG-UI about 17.0M combined downloads in the month ending 2026-10-12, AHP 400 stars and roughly 951k combined downloads, WebMCP 4,621 stars, HarnessRouter 2,994 stars, the Agent Protocol 687 stars); no membership change.
 - 2026-10-16 - The PIC maturity cell moved to v0.9.1 (2026-10-14), which completed tool-argument binding at the MCP guard and bridge boundary and grew the conformance corpus from 84 to 91 vectors with the wire format unchanged; the WebMCP maturity cell moved to the draft revision of 2026-10-15 (two more algorithm-level fixes, no API surface change); no membership change.
 - 2026-10-17 - Re-verification: the WebMCP maturity cell moved to the draft revision of 2026-10-16 (an editorial explainer sync, no API surface change), and the MCP revision (2026-07-28), the UHP draft (2026-10-04), the ANP 1.2 suite, the PIC v0.9.1 release, and the A2A v1.0.1 release all re-verified unchanged; no membership change.
+- 2026-10-18 - Re-verification: the AG-UI prose figure refreshed to about 16.3M combined downloads in the month ending 2026-10-16, the UHP implementing product's release train recorded at v0.35.1 (2026-10-18) with its draft unchanged at 2026-10-04, and the MCP revision (2026-07-28), the WebMCP draft (2026-10-16), the ANP 1.2 suite, the Agent Protocol OpenAPI 0.1.6, the AG-UI 1.0.3 packages, and the PIC v0.9.1 release re-verified unchanged; no membership change.
 
 ## See also
 

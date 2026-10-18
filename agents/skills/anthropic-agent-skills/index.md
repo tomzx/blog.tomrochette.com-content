@@ -1,7 +1,7 @@
 ---
 title: Anthropic Agent Skills
 created: 2026-08-24
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, skills, anthropic, agent-extensions]
 readability: 3
@@ -25,7 +25,7 @@ The `anthropics/skills` repository ships the spec, a template, and example skill
 
 **Active and expanding.**
 Launched 2025-10-16; on 2025-12-18 Anthropic published the format as the open Agent Skills standard (agentskills.io), added organization-wide skill management, and opened a partner directory.
-The example repository shows 180.9k stars and 21.4k forks but only 60 commits as of 2026-10-16 (the count unchanged since the 10-13 reading; the last push, 2026-10-09, updated a claude-api skill), which tells me it is a distribution artifact, not where the product is built.
+The example repository shows 180.9k stars and 21.4k forks as of 2026-10-16 but only 60 commits as of 2026-10-18 (the count unchanged since the 10-13 reading; the last push, 2026-10-09, updated a claude-api skill), which tells me it is a distribution artifact, not where the product is built.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/skills&type=date&theme=dark&legend=top-left" />

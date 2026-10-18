@@ -1,7 +1,7 @@
 ---
 title: skills.md
 created: 2026-10-06
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, registries, marketplaces, hosted-execution]
 readability: 3
@@ -85,6 +85,7 @@ My disagreeable claim: this is the first skills product that could actually sust
 - 2026-10-16 - The marketplace page now states the public marketplace has closed outright, with the catalog reachable only in the sign-in dashboard (previously a redirect notice).
 - 2026-10-16 - The site footer's GitHub link, 404 in the 10-09 and 10-11 readings, now resolves at the hasna/skills apps/skills subpath; the Status 404 claim corrected.
 - 2026-10-17 - Pro moved from $10 to $12 per month and now bundles 1,500 monthly credits (20% off, extra credits at pack price); the npm CLI crossed to 0.10.78 (200 versions) and the repo push moved to 2026-10-17 with stars still zero.
+- 2026-10-18 - The npm CLI crossed to 0.10.81 (203 versions) and the repo push moved to 2026-10-18; pricing re-verified unchanged at the repriced levels, and the homepage now pitches the product as one API over the 300-plus catalog.
 
 ## See also
 
@@ -97,6 +98,6 @@ My disagreeable claim: this is the first skills product that could actually sust
 
 - https://skills.md/ - the product surface: CLI and MCP flows, the plans (Free $0 plus per-run credits, Pro $12 per month with 1,500 bundled credits, credit packs $1-$100), 300-plus curated skills, Apache-2.0, Hasna, Inc. (fetched 2026-10-17, Pro repriced from $10)
 - https://skills.md/marketplace - the catalog page: 250 of 250 entries with every hosting status labeled unverified when fetched 2026-10-06; since 2026-10-09 it keeps signed-out visits away from the catalog (HTTP redirect, then a 200 redirect notice on 2026-10-11, then an explicit closure notice on 2026-10-16)
-- https://registry.npmjs.org/@hasna/skills - the CLI package: created 2026-02-14, latest 0.10.78, 200 versions (fetched 2026-10-17)
-- https://api.github.com/repos/hasna/skills - the Apache-2.0 CLI, SDK, MCP, and service repo: made public 2026-09-26, 0 stars, pushed 2026-10-17 (GitHub API, as of 2026-10-17)
+- https://registry.npmjs.org/@hasna/skills - the CLI package: created 2026-02-14, latest 0.10.81, 203 versions (fetched 2026-10-18)
+- https://api.github.com/repos/hasna/skills - the Apache-2.0 CLI, SDK, MCP, and service repo: made public 2026-09-26, pushed 2026-10-18 (GitHub API, as of 2026-10-18)
 - https://hn.algolia.com/api/v1/search?query=%22skills.md%22&tags=story - the footprint scan: no marketplace coverage, the nearest hits are items about the filename convention (fetched 2026-10-06, re-run 2026-10-11 with the same result)

@@ -1,7 +1,7 @@
 ---
 title: Vibe Coding Prompt Template
 created: 2026-10-07
-updated: 2026-10-14
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, prompts, workflow, open-source]
 readability: 3
@@ -16,15 +16,15 @@ Vibe Coding Prompt Template (KhazP) is an MIT-licensed pack of four copy-paste p
 
 ## What it is
 
-Four self-contained markdown prompts, branded Vibe Workflow: Part 1 drafts a research request, Part 2 interviews you into a PRD with must-have boundaries and a Handoff Context block, Part 3 produces a technical design with stack and structure, and Part 4 generates the agent instruction files (`AGENTS.md`, `MEMORY.md`, `REVIEW-CHECKLIST.md`, plus `agent_docs/` briefs) that carry the plan into Claude Code, Cursor, Gemini, ChatGPT, or VS Code.
+Four self-contained markdown prompts, branded Vibe Workflow and created by Alp Yalay (the KhazP account): Part 1 drafts a research request, Part 2 interviews you into a PRD with must-have boundaries and a Handoff Context block, Part 3 produces a technical design with stack and structure, and Part 4 generates the agent instruction files (`AGENTS.md`, `MEMORY.md`, `REVIEW-CHECKLIST.md`, plus `agent_docs/` briefs) that carry the plan into Claude Code, Cursor, Gemini, ChatGPT, or VS Code.
 You paste each prompt into a fresh chat, attach the previous document, and save the result under `docs/` in your project folder.
 The Part 2 prompt asks you to self-select your level, vibe-coder, developer, or in between, and tunes its questions accordingly, so the intended reader is explicitly not a staff engineer.
-A small npm CLI (`npx vibeworkflow`, v0.3.0) wraps the same flow for people who want it scripted, but the README is direct that no installation is required.
+A small npm CLI (`npx vibeworkflow`, v0.3.0) wraps the same flow for people who want it scripted, the repository also bundles optional workflow skills for coding assistants, and the README is direct that no installation is required.
 
 ## Status
 
 Active, solo-maintained, and adopted without the front page.
-As of 2026-10-14: 3,139 stars and 386 forks since creation on 2025-04-14, pushed 2026-10-04, MIT, solo author (the KhazP user account), with release v3.1.0 (2026-08-20) the newest of eight.
+As of 2026-10-14: 3,139 stars and 386 forks since creation on 2025-04-14, pushed 2026-10-04, MIT, solo author (Alp Yalay, the KhazP account), with release v3.1.0 (2026-08-20) the newest of eight.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=KhazP/vibe-coding-prompt-template&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ As of 2026-10-14: 3,139 stars and 386 forks since creation on 2025-04-14, pushed
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=KhazP/vibe-coding-prompt-template&type=date&legend=top-left" />
 </picture>
 
-**Its Hacker News footprint is two tiny threads (6 points in April 2025, 2 points in January 2026), so the 3.1k stars accumulated without any front-page moment, and the npm CLI it grew into records only 184 downloads last month (the 2026-09-13 to 2026-10-12 window), which says almost everyone uses the raw prompts.**
+**Its Hacker News footprint is two tiny threads (6 points in April 2025, 2 points in January 2026), so the 3.1k stars accumulated without any front-page moment, and the npm CLI it grew into records only 165 downloads last month (the 2026-09-17 to 2026-10-16 window, re-read 2026-10-18), which says almost everyone uses the raw prompts.**
 It entered this category's scan as a Specification Tools entry on the Engineering4AI awesome list.
 
 ## Strengths
@@ -70,6 +70,7 @@ The disagreeable claim I will defend: four markdown files out-starring several e
 
 - 2026-10-07 - Created from the awesome-list entrant scan, profiling KhazP/vibe-coding-prompt-template as the category's zero-install prompt-pack column.
 - 2026-10-09 - Refreshed counts (npm CLI downloads down to 230 last month); the everyone-uses-the-raw-prompts conclusion stands.
+- 2026-10-18 - Rotation re-verification of every cited source: corrected the author attribution (Alp Yalay, the KhazP account), recorded the optional bundled workflow skills beside the CLI, and refreshed the npm figure (165 last month).
 
 ## See also
 
@@ -81,9 +82,9 @@ The disagreeable claim I will defend: four markdown files out-starring several e
 ## References
 
 - https://github.com/KhazP/vibe-coding-prompt-template - repository: stars, forks, dates, license, releases (3,139 stars as of 2026-10-14)
-- https://raw.githubusercontent.com/KhazP/vibe-coding-prompt-template/main/README.md - the five-step workflow table, artifact paths, and no-install framing
+- https://raw.githubusercontent.com/KhazP/vibe-coding-prompt-template/main/README.md - the five-step workflow table, artifact paths, the Alp Yalay creator credit, the optional bundled skills, and the no-install framing
 - https://raw.githubusercontent.com/KhazP/vibe-coding-prompt-template/main/part2-prd-mvp.md - the PRD prompt: audience self-selection, Handoff Context, must-have boundaries
 - https://registry.npmjs.org/vibeworkflow - the CLI wrapper: v0.3.0, MIT, description
-- https://api.npmjs.org/downloads/point/last-month/vibeworkflow - 184 downloads last month, fetched 2026-10-14
-- https://hn.algolia.com/api/v1/search?query=vibe-coding-prompt-template&tags=story - the thin HN footprint, checked 2026-10-07
+- https://api.npmjs.org/downloads/point/last-month/vibeworkflow - 165 downloads last month, fetched 2026-10-18
+- https://hn.algolia.com/api/v1/search?query=vibe-coding-prompt-template&tags=story - the thin HN footprint, re-checked 2026-10-18
 - https://github.com/Engineering4AI/awesome-spec-driven-development - the curated source that surfaced the candidate

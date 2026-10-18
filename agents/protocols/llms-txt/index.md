@@ -1,7 +1,7 @@
 ---
 title: llms.txt
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, conventions, context-files, web]
 readability: 3
@@ -26,7 +26,8 @@ It is a convention, not a foundation standard: no required fields, no registry, 
 ## Status
 
 **Active and adopted exactly where it aimed, and ignored exactly where it did not.**
-The spec site reports that thousands of sites publish an llms.txt file, that documentation platforms generate one automatically, and that coding agents use them reliably, and this run fetched live files from Anthropic's developer docs (856 lines, still served from platform.claude.com after a redirect) and OpenAI's developer docs to confirm the served reality (2026-10-16).
+The spec site reports that thousands of sites publish an llms.txt file, that documentation platforms generate one automatically, and that coding agents use them reliably, and this run fetched live files from Anthropic's developer docs (857 lines, still served from platform.claude.com after a redirect) and OpenAI's developer docs to confirm the served reality (2026-10-18).
+The spec site's newest adoption citation is Google's own tooling: Chrome's Lighthouse audits sites for an llms.txt file under its agentic-browsing category (a soft check, a missing file reads as not-applicable rather than a failing score), a Google-owned signal on the docs side while Google Search's John Mueller keeps calling the file speculative.
 
 The community footprint is substantial for a file convention: the launch thread drew 206 points and 175 comments on Hacker News (2024-09-03), a directory-of-files thread drew 106 points (2024-12-23), and generator tools have shipped steadily since.
 The skeptical record is equally firm: Google's John Mueller called the file "purely speculative for now" in June 2026 and pointed to WebMCP as the Google-backed alternative, and a 2025 industry piece reported that major AI platforms do not even request the file in their crawls.
@@ -66,6 +67,7 @@ My disagreeable claim: llms.txt succeeded by failing at its original goal, becau
 ## Changes
 
 - 2026-10-07 - Created from the 2026-10-07 entrant scan (the site-content-discovery slot), with the docs-side adoption versus search-side rejection split recorded as the central tension.
+- 2026-10-18 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the served reality re-confirmed (Anthropic's file now 857 lines), and Chrome's Lighthouse llms.txt audit recorded as the docs side's newest adoption signal.
 
 ## See also
 
@@ -78,8 +80,9 @@ My disagreeable claim: llms.txt succeeded by failing at its original goal, becau
 
 - https://llmstxt.org/ - the spec site: author (Jeremy Howard), published 2024-09-03, modified 2026-08-10, the v2 format and link relations
 - https://llmstxt.org/changes.html - the v2 changelog (August 2026): link relations, both `.md` URL forms, subpath scoping, and the adoption summary
-- https://docs.anthropic.com/llms.txt - Anthropic's served llms.txt, 856 lines, 301 redirect to platform.claude.com/llms.txt, fetched 200 after redirect 2026-10-16
+- https://docs.anthropic.com/llms.txt - Anthropic's served llms.txt, 857 lines, 301 redirect to platform.claude.com/llms.txt, fetched 200 after redirect (re-fetched 2026-10-18)
 - https://developers.openai.com/llms.txt - OpenAI's served llms.txt, fetched 200 this run
+- https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt - Chrome's Lighthouse agentic-browsing audit for an llms.txt file (page updated 2026-05-05), the docs-side signal added this run
 - https://www.searchenginejournal.com/google-says-llms-txt-is-purely-speculative-for-now/577576/ - Google's John Mueller calling the file purely speculative (June 2, 2026) and favoring WebMCP
 - https://ppc.land/llms-txt-adoption-stalls-as-major-ai-platforms-ignore-proposed-standard/ - the adoption-stalls record: major AI platforms not requesting the file
 - https://hn.algolia.com/api/v1/search?query=%22llms.txt%22&tags=story - the footprint scan: launch thread 206 points and 175 comments (2024-09-03), directory thread 106 points (2024-12-23), generator tools since

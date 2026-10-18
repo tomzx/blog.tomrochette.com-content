@@ -1,7 +1,7 @@
 ---
 title: NanoClaw
 created: 2026-08-27
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, containers, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 ## Status
 
 Active and independently credible.
-30,940 stars and 12,759 forks as of 2026-10-14 since creation on 2026-01-31, pushed 2026-10-16 with 1,008 open issues as of 2026-10-17.
+30,940 stars and 12,759 forks as of 2026-10-14 since creation on 2026-01-31, pushed 2026-10-18 with 1,013 open issues as of 2026-10-18.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nanocoai/nanoclaw&type=date&theme=dark&legend=top-left" />

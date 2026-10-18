@@ -3,13 +3,13 @@ category: skills
 generated: 2026-10-18
 mapped_sources:
   - repo: VoltAgent/awesome-agent-skills
-    last_checked: 2026-10-14
+    last_checked: 2026-10-18
 mapped_sources:
   - repo: ComposioHQ/awesome-claude-skills
-    last_checked: 2026-10-14
+    last_checked: 2026-10-18
 mapped_sources:
   - repo: VoltAgent/awesome-claude-code-subagents
-    last_checked: 2026-10-14
+    last_checked: 2026-10-18
 governing_questions:
   - id: q11
     summary: do the skills-scale records change the pack policy

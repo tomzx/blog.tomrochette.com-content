@@ -3,13 +3,13 @@ category: protocols
 generated: 2026-10-18
 mapped_sources:
   - repo: punkpeye/awesome-mcp-servers
-    last_checked: 2026-10-14
+    last_checked: 2026-10-18
 mapped_sources:
   - repo: punkpeye/awesome-mcp-clients
-    last_checked: 2026-10-14
+    last_checked: 2026-10-18
 mapped_sources:
   - repo: insodimension/awesome-agent-protocols
-    last_checked: 2026-10-14
+    last_checked: 2026-10-18
 notes:
   - slug: a2a
     title: Agent2Agent Protocol (A2A)

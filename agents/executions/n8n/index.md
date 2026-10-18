@@ -1,7 +1,7 @@
 ---
 title: n8n
 created: 2026-08-24
-updated: 2026-10-11
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, executions, webhooks, workflow-automation]
 readability: 3
@@ -23,7 +23,7 @@ Deployment is self-hosted (free Community Edition) or n8n Cloud; the Webhook nod
 ## Status
 
 **Very active and heavily funded.**
-About 207.3k stars and 61.1k forks on GitHub as of 2026-10-13, with 24,000+ commits.
+About 207.3k stars as of 2026-10-13 and 61.2k forks as of 2026-10-18 on GitHub, with 24,000+ commits.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=n8n-io/n8n&type=date&theme=dark&legend=top-left" />

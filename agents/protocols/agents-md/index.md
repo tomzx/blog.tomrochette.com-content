@@ -1,7 +1,7 @@
 ---
 title: AGENTS.md
 created: 2026-08-24
-updated: 2026-10-13
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, protocols, conventions, context-files]
 readability: 3
@@ -25,10 +25,11 @@ The reference repository (MIT, about 24.9k stars as of 2026-10-13) mostly holds 
 ## Status
 
 **Active and effectively the standard.**
-The official site counts more than 60,000 open-source projects carrying an AGENTS.md as of 2026-10-13.
+The official site counts more than 60,000 open-source projects carrying an AGENTS.md as of 2026-10-18.
 Adopters include Codex, Gemini CLI, Cursor, GitHub Copilot's coding agent, Amp, Jules, Factory, goose, opencode, Zed, Warp, VS Code, Devin, Junie, Windsurf, and Aider.
 In this index, [Codex](../../harnesses/codex/index.md) treats it as first-class, [OpenCode](../../harnesses/opencode/index.md) reads it alongside CLAUDE.md, and [Crush](../../harnesses/crush/index.md) initializes projects with one.
-The last big holdout fell on 2026-09-18: Claude Code 2.1.277 added native AGENTS.md support, reading the file in any project without a CLAUDE.md, implemented as a built-in "mod" and not yet available on Bedrock, Vertex, or Foundry.
+The last big holdout fell on 2026-09-18: Claude Code 2.1.277 added native AGENTS.md support, reading the file in any project without a CLAUDE.md, implemented as a built-in "mod".
+The first cut was limited to first-party sessions, a gap the community hit within a week, and 2.1.281 (2026-09-23) closed it: support now also works on Amazon Bedrock, Google Vertex AI, Microsoft Foundry, LLM gateways, and sessions with telemetry disabled.
 The history matters: the support request only reached the HN front page in August 2026, was closed as completed on 2026-08-17 with only a community binary patch linked, and commenters quoted an Anthropic engineer promising easy AGENTS.md use, which arrived a month later in the changelog.
 
 <picture>
@@ -74,6 +75,7 @@ The disagreeable part: I suspect most AGENTS.md prose is wasted tokens, and the 
 - 2026-08-26 - Fixed the our-note antecedent to name the July 2026 proxy study and the Claude Code note, indented the ETH Zurich continuation, and added the updated field.
 - 2026-09-21 - Claude Code shipped native AGENTS.md support in 2.1.277 (2026-09-18), so the holdout record moved from "no native support" to shipped-as-of-this-date, with the changelog and announcement added as references.
 - 2026-10-07 - Added the agentsmd/agents.md star history chart to the Status section.
+- 2026-10-18 - Rotation re-verification: every cited URL re-fetched live with no dead sources, and the Claude Code record corrected, 2.1.281 (2026-09-23) extended AGENTS.md support to Bedrock, Vertex, Foundry, LLM gateways, and telemetry-disabled sessions, so the "not yet available on Bedrock, Vertex, or Foundry" state this note recorded no longer holds.
 
 ## See also
 
@@ -90,6 +92,6 @@ The disagreeable part: I suspect most AGENTS.md prose is wasted tokens, and the 
 - https://arxiv.org/abs/2602.11988 - empirical evaluation: no general success-rate gain, over 20% added inference cost
 - https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals - counter-evidence: 100% versus 53% with a compressed docs index
 - https://github.com/anthropics/claude-code/issues/6235 - Claude Code support request, front-page traction in August 2026, closed 2026-08-17 as completed via a community patch
-- https://code.claude.com/docs/en/changelog - Claude Code changelog: 2.1.277 (2026-09-18) "Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead"
+- https://code.claude.com/docs/en/changelog - Claude Code changelog: 2.1.277 (2026-09-18) "Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead" and 2.1.281 (2026-09-23) "Changed AGENTS.md support to also work on Amazon Bedrock, Google Vertex AI, Microsoft Foundry, LLM gateways, and sessions with telemetry disabled"
 - https://simonwillison.net/2026/Sep/18/thariq-shihipar/ - the announcement quote: support built on Claude Code mods
 - https://github.com/anthropics/claude-code/tree/main/mods/agents-md - the built-in agents-md mod in the Claude Code repository

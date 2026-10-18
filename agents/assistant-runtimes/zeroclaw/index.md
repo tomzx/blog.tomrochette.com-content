@@ -1,7 +1,7 @@
 ---
 title: ZeroClaw
 created: 2026-08-27
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, rust, open-source]
 readability: 3
@@ -23,7 +23,7 @@ An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android),
 ## Status
 
 Active and large, but quietly so.
-32,977 stars and 4,976 forks as of 2026-10-14 since creation on 2026-02-13, pushed 2026-10-17 with 987 open issues as of 2026-10-17, Apache-2.0/MIT dual licensed.
+32,977 stars and 4,976 forks as of 2026-10-14 since creation on 2026-02-13, pushed 2026-10-18 with 1,004 open issues as of 2026-10-18, Apache-2.0/MIT dual licensed.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Active and large, but quietly so.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
 </picture>
 
-v0.8.5 (2026-09-05) is still the latest release, so the tagged-release train runs slower than the near-daily pushes.
+v0.8.6 (2026-10-18) ended the v0.8.5 hold from 2026-09-05: 573 commits whose headline is a WebAssembly plugin host (the 64-bit binaries grow about 24 percent) alongside a batch of fail-closed security defaults, longer admin-gated pairing codes, authenticated remote connections, browser automation becoming a separate opt-in, and filesystem and Git tools confined to allowed roots.
 **Its HN footprint is nearly empty (threads at 2 to 8 points), so the star growth ran through Discord and word of mouth, a missing community discussion record that is itself the signal to verify before relying on it.**
 
 ## Strengths
@@ -45,7 +45,7 @@ v0.8.5 (2026-09-05) is still the latest release, so the tagged-release train run
 
 - Thin independent coverage: almost no third-party writing or discussion to check claims against.
 - Hardware tools are a foot-gun by design; the trust question moves from the codebase to the tool grant.
-- 995 open issues against a labs team you cannot size from outside.
+- 1,004 open issues against a labs team you cannot size from outside.
 - The security suite ecosystem (clawsec) names OpenClaw, PicoClaw, and NanoClaw but not ZeroClaw, so the audit tooling has not caught up.
 
 ## Pricing
@@ -71,6 +71,7 @@ The disagreeable claim I will defend: an assistant you cannot read is safer as a
 - 2026-09-12 - Recorded that the Android port was archived read-only in March, so it is no longer an active strength.
 - 2026-10-06 - Recorded the release line (v0.8.5, 2026-09-05, still latest) and refreshed adoption numbers.
 - 2026-10-07 - Added the zeroclaw-labs/zeroclaw star history chart to the Status section.
+- 2026-10-18 - Recorded v0.8.6 (2026-10-18), ending the v0.8.5 hold: a WebAssembly plugin host (binaries about 24 percent larger), fail-closed security defaults (admin-gated pairing codes, authenticated remote connections, opt-in browser automation, allowed-roots confinement for filesystem and Git tools), and refreshed adoption numbers.
 
 ## See also
 
@@ -83,7 +84,7 @@ The disagreeable claim I will defend: an assistant you cannot read is safer as a
 
 - https://github.com/zeroclaw-labs/zeroclaw - README: runtime model, providers, channels, tools
 - https://api.github.com/repos/zeroclaw-labs/zeroclaw - stars, forks, issues as of 2026-10-10
-- https://api.github.com/repos/zeroclaw-labs/zeroclaw/releases - v0.8.5 (2026-09-05, still latest as of 2026-10-07)
+- https://api.github.com/repos/zeroclaw-labs/zeroclaw/releases - v0.8.6 (2026-10-18) and v0.8.5 (2026-09-05, the 43-day hold it ended)
 - https://docs.zeroclaw.com/master/en/introduction.html - the documentation book
 - https://github.com/Natfii/ZeroClaw-Android - the Android port, archived read-only in March 2026 (305 stars)
 - https://news.ycombinator.com/item?id=47047192 - the launch-era thread (6 points, the thin-footprint evidence)

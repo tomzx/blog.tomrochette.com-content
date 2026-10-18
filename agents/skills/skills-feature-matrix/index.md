@@ -1,7 +1,7 @@
 ---
 title: "Skills Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, skills, agent-extensions]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you have written a SKILL.md or configured at least one harness; each column links to a full note with sources.
 ---
 
-This matrix compares the fourteen Skills-category notes in this section, Agent Plugins' packaging envelope, the open skill format standard, Builder.io's curated pack, Anthropic's vendor format, the EvoSkill toolkit that induces skills from failed agent runs, the GEPA reflective optimizer that trains prompts and skills mechanically, Chris Brock's departmental skills org chart, OpenCode's native mechanism, Nanako0129's de-AI writing skill, Microsoft's skill optimizer, NVIDIA's skills security scanner, Vercel's skills.sh registry, SkillMD's verification-first registry, and Hasna's hosted-execution marketplace, feature by feature, so choosing an extension path does not require reading thirteen notes.
+This matrix compares the fourteen Skills-category notes in this section, Agent Plugins' packaging envelope, the open skill format standard, Builder.io's curated pack, Anthropic's vendor format, the EvoSkill toolkit that induces skills from failed agent runs, the GEPA reflective optimizer that trains prompts and skills mechanically, Chris Brock's departmental skills org chart, OpenCode's native mechanism, Nanako0129's de-AI writing skill, Microsoft's skill optimizer, NVIDIA's skills security scanner, Vercel's skills.sh registry, SkillMD's verification-first registry, and Hasna's hosted-execution marketplace, feature by feature, so choosing an extension path does not require reading fourteen notes.
 
 **The format war is already over and SKILL.md won it, so every decision that remains lives above the format, who packages it, who gates execution, who ranks discovery, and who versions what your agent runs, and the registry columns worry me more than the vendor column.**
 
@@ -54,7 +54,7 @@ The permissions row tells the story: SkillMD's published verdicts cover 1,948 of
 The standard needs no registry at all, skills.sh won the distribution slot by wrapping git and symlinking into 79 harnesses, its leaderboard counts opt-out CLI telemetry rather than ratings, one company controls the ranking surface of a nominally open ecosystem, which is the cell I would watch, and skills.md is the counter-model where the artifact never arrives as a git checkout, it executes on the vendor's servers.
 
 **The Agent-Native column is the first pack in the matrix, and it reads differently from the nine infrastructure columns and from the two content columns that joined after it: it consumes the spec's portable core, adds no enforcement of its own, and its pull is toward Builder.io's own stack, the hosted Dispatch MCP endpoint and the hosted plans app its flagship skills default to.**
-The cell to watch is stewardship: the pack has grown to 24 skills with a new experimental factory family, the catalog ships an MIT LICENSE file while the framework's README says MIT and GitHub still detects no license there (catalog 4.6k and framework 7.1k stars, npm now 0.3.35), and there is still no independent coverage as of 2026-10-11, so the pack is one company's opinion on a multiple-releases-a-day cadence.
+The cell to watch is stewardship: the pack has grown to 24 skills with a new experimental factory family, the catalog ships an MIT LICENSE file while the framework's README says MIT and GitHub still detects no license there (catalog 4.6k and framework 7.1k stars, npm now 0.3.36), and there is still no independent coverage as of 2026-10-18, so the pack is one company's opinion on a multiple-releases-a-day cadence.
 
 **Thirteen of the fourteen columns cost nothing, and the missing row is still versioning.**
 skills.md is the first paid column (Pro $12 per month with 1,500 credits bundled, repriced from $10 on 2026-10-17, plus per-run credits), the spec has no version or dependency story, OpenCode has none, Anthropic versions only through its Skills API, and pinning is left to git discipline or third parties like Skilleton.
@@ -96,6 +96,7 @@ skills.md is the first paid column (Pro $12 per month with 1,500 credits bundled
 - 2026-10-13 - Extended from thirteen to fourteen columns with EvoSkill (Sentient Labs' skill-discovery and evolution toolkit), sorted between Anthropic Agent Skills and GEPA, all twelve cells traced to the new note, the stack prose naming the optimizer family of three, and the volatile figures refreshed (Agent-Native npm to 0.3.33, SkillMD review coverage re-verified at 1,948 of about 1.13M as of 2026-10-13, skills.md pricing re-verified unchanged).
 - 2026-10-16 - The OpenCode explicit-invocation cell moved from unsupported to partial (opt-in `/<name>` slash commands via `metadata`) after the rotation re-verification of its note found the documented TUI command path, and the SkillMD review-coverage and skills.md pricing as-of dates moved to 2026-10-16 after re-verification; no other cells moved.
 - 2026-10-17 - The skills.md Cost cell and reading prose moved to the repriced Pro plan ($12 per month with 1,500 bundled credits, previously $10); no other cells moved.
+- 2026-10-18 - Corrected the intro count (said thirteen notes with fourteen columns), the reading prose's stale Agent-Native npm figure (0.3.35 to 0.3.36), and the skills.md reference annotation still quoting the pre-reprice Pro $10; no cells moved.
 
 ## See also
 
@@ -113,7 +114,7 @@ skills.md is the first paid column (Pro $12 per month with 1,500 credits bundled
 - https://opencode.ai/docs/plugins/ - the plugin half of the OpenCode column
 - https://skills.sh/docs - telemetry ranking method and the security disclaimer
 - https://skillmd.com/ - the SkillMD column: the registry surface, its 1,948-of-about-1.13M review coverage, and the agent-facing API and MCP endpoints
-- https://skills.md/ - the skills.md column: the hosted-execution marketplace, its plans (Free, Pro $10 per month, credit packs), and its CLI and MCP client
+- https://skills.md/ - the skills.md column: the hosted-execution marketplace, its plans (Free, Pro $12 per month with 1,500 bundled credits, credit packs), and its CLI and MCP client
 - https://agent-plugins.org/ - the Agent Plugins column: the package model, the closed manifest, and the five-vendor governance
 - https://github.com/vercel-labs/skills - agent path table, 70+ install targets, telemetry opt-out
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - the untrusted-skill security framing behind the permissions row

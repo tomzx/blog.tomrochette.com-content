@@ -1,7 +1,7 @@
 ---
 title: Claude Code hooks
 created: 2026-08-24
-updated: 2026-10-11
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, claude-code, hooks]
 readability: 3
@@ -24,7 +24,7 @@ The same hook events fire in the terminal, IDE extensions, the desktop app, and 
 ## Status
 
 **Active and heavily invested in.**
-The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 150.7k stars and roughly 14.8k open issues as of 2026-10-13).
+The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 150.7k stars as of 2026-10-13, roughly 15.2k open issues as of 2026-10-18).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ The feature ships in the proprietary CLI tracked by the `anthropics/claude-code`
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&legend=top-left" />
 </picture>
 
-A third-party ecosystem exists: an HN search surfaces roughly 450 stories mentioning Claude Code hooks as of 2026-10-11, including dedicated tooling like Graft, whose August 2026 launch thread drew 44 comments.
+A third-party ecosystem exists: an HN search surfaces several hundred stories mentioning Claude Code hooks as of 2026-10-18, including dedicated tooling like Graft, whose August 2026 launch thread drew 44 comments.
 Anthropic's own security-guidance plugin is built entirely on hooks (SessionStart, UserPromptSubmit, PostToolUse, Stop), which signals production commitment.
 
 ## Strengths
@@ -75,6 +75,7 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 - 2026-10-06 - Refreshed the event count to 33 per the current reference table, re-grounded the matcher version-gating caution on the current docs after the older version claims left the page, and linked the new Claude Code routines note.
 - 2026-10-07 - Added the anthropics/claude-code star history chart to the Status section.
 - 2026-10-11 - Refreshed the repository counters (about 150.0k to about 150.1k stars) and corrected the HN story count from roughly 500 to roughly 450 against the current search; the 33-event count and all doc claims re-verified unchanged.
+- 2026-10-18 - Replaced the churning HN story count with "several hundred" (the same query moved between about 450 and about 500 within the month) and refreshed the open-issue count to roughly 15.2k; the 33-event surface and the five handler types re-verified against the live reference after the 2026-10-17 push.
 
 ## See also
 
@@ -88,5 +89,5 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 - https://code.claude.com/docs/en/hooks - event reference, handler types, matcher semantics, fail-open caution
 - https://code.claude.com/docs/en/hooks-guide - quickstart, deterministic-control framing, usage costs of model-backed hooks
 - https://code.claude.com/docs/en/security-guidance - the official plugin built entirely on hooks
-- https://github.com/anthropics/claude-code - repository scale, as of 2026-10-13
+- https://github.com/anthropics/claude-code - repository scale, as of 2026-10-18
 - https://news.ycombinator.com/item?id=49299985 - third-party hooks tooling (Graft) and community scrutiny of its benchmark claims

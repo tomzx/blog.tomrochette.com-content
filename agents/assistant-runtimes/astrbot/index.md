@@ -1,7 +1,7 @@
 ---
 title: AstrBot
 created: 2026-10-06
-updated: 2026-10-17
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, chat-channels, plugins, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The agent layer has sub-agents, tool calls, workflow orchestration, context comp
 
 ## Status
 
-Active and long-lived: 41,837 stars and 3,058 forks as of 2026-10-14, created 2022-12-08, 945 open issues and pull requests with the last push on 2026-10-17 as of 2026-10-17, AGPL-3.0.
+Active and long-lived: 41,837 stars and 3,058 forks as of 2026-10-14, created 2022-12-08, 948 open issues and pull requests with the last push on 2026-10-18 as of 2026-10-18, AGPL-3.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and long-lived: 41,837 stars and 3,058 forks as of 2026-10-14, created 20
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&legend=top-left" />
 </picture>
 
-The cadence is steady: v4.28.1 (2026-09-14), v4.28.2 (2026-09-27), the v4.29.0 prerelease line (beta.1 on 2026-10-01, beta.2 on 2026-10-10), and v4.29.0 stable, published 2026-10-14.
+The cadence is steady: v4.28.1 (2026-09-14), v4.28.2 (2026-09-27), the v4.29.0 prerelease line (beta.1 on 2026-10-01, beta.2 on 2026-10-10), v4.29.0 stable, published 2026-10-14, and v4.29.1, published 2026-10-17 as the line's first patch.
 On the morning of 2026-10-12 the maintainers ran a tracker triage sweep, batch-closing old issues in same-second runs (the search API attributes 334 issues and 29 pull requests to that day), the largest single move behind the open issues-and-PRs count falling from the 1,630 recorded on 2026-10-11 to 1,052, a gap closes alone do not fully cover.
 The community runs through 15-plus QQ groups, a Discord server, HelloGitHub, and Trendshift, not through HN or the Western blogosphere, and that shows in the record: an Algolia story search for AstrBot returns only astroturfing threads it typo-matches, no AstrBot story at all.
 **The missing independent footprint is the signal to weigh before trusting it: adoption this size with zero English-language technical scrutiny means the vetting has happened in QQ groups you are probably not reading.**
@@ -74,6 +74,7 @@ Not for anyone who needs permissive licensing for a hosted offering, or who cann
 - 2026-10-11 - Recorded v4.29.0-beta.2 (2026-10-10) on the prerelease line, with refreshed adoption numbers.
 - 2026-10-14 - Recorded the maintainer triage sweep of 2026-10-12 (old issues batch-closed in same-second runs, 334 issues and 29 pull requests closed that day) as the largest move behind the open issues-and-PRs count falling from 1,630 to 1,052, with refreshed adoption numbers.
 - 2026-10-16 - Recorded v4.29.0 stable (published 2026-10-14), graduating the prerelease line, with refreshed adoption numbers.
+- 2026-10-18 - Recorded v4.29.1 (published 2026-10-17), the first patch on the stable v4.29 line, with refreshed adoption numbers.
 
 ## See also
 
@@ -87,7 +88,7 @@ Not for anyone who needs permissive licensing for a hosted offering, or who cann
 - https://github.com/AstrBotDevs/AstrBot - repository, description, license, adoption numbers as of 2026-10-07 (via the API)
 - https://raw.githubusercontent.com/AstrBotDevs/AstrBot/HEAD/README.md - features, platform and provider tables, deployment paths, community surfaces
 - https://api.github.com/repos/AstrBotDevs/AstrBot - stars, forks, issues, license, and dates as of 2026-10-10
-- https://api.github.com/repos/AstrBotDevs/AstrBot/releases?per_page=3 - v4.29.0 stable (2026-10-14), v4.29.0-beta.2 (2026-10-10), v4.29.0-beta.1 (2026-10-01)
+- https://api.github.com/repos/AstrBotDevs/AstrBot/releases?per_page=3 - v4.29.1 (2026-10-17), v4.29.0 stable (2026-10-14), v4.29.0-beta.2 (2026-10-10), and v4.29.0-beta.1 (2026-10-01)
 - https://astrbot.app/ - the product landing, a thin page whose body renders client-side (the "Agentic AI 助手" tagline and the docs, blog, roadmap, and plugin portals serve in the HTML)
 - https://docs.astrbot.app/en/ - the English documentation entry
 - https://github.com/AstrBotDevs/AstrBot/issues/8131 - the QQ official adapter's silent drop of non-@ group messages, fixed by PR 8838 in June 2026, the critical source (via the API)

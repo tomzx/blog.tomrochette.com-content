@@ -1,7 +1,7 @@
 ---
 title: Codex Action
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, github-actions, codex, security]
 readability: 3
@@ -25,7 +25,7 @@ It is Apache-2.0, built by OpenAI, and tag-versioned (v1.13 the newest) rather t
 ## Status
 
 **Active and current, with a small footprint.**
-1,266 stars, 180 forks, and 82 open issues and pull requests as of 2026-10-13 (GitHub API), created 2025-10-01 and pushed 2026-10-09.
+1,266 stars as of 2026-10-13, 180 forks and 83 open issues and pull requests as of 2026-10-18 (GitHub API), created 2025-10-01 and pushed 2026-10-14.
 The tag train is at v1.13 with changelog commits the same week, so maintenance is steady, but the distribution choice (tags, no GitHub releases) keeps the version history low-visibility.
 Hacker News has no dedicated thread as of 2026-10-11 searches; the README, the security guide, and the Codex permissions docs are the whole record.
 
@@ -80,7 +80,7 @@ My disagreeable claim: OpenAI shipped the security model the other vendors shoul
 ## References
 
 - https://github.com/openai/codex-action - repository, 1,266 stars, Apache-2.0 license, as of 2026-10-13
-- https://api.github.com/repos/openai/codex-action - exact counters (1,266 stars, 180 forks, 82 open issues and pull requests, pushed 2026-10-09, created 2025-10-01)
+- https://api.github.com/repos/openai/codex-action - exact counters (1,266 stars as of 2026-10-13, 180 forks, 83 open issues and pull requests, pushed 2026-10-14, created 2025-10-01)
 - https://raw.githubusercontent.com/openai/codex-action/main/README.md - the proxy architecture, safety strategies, permission profiles, trigger allowlists, and Azure setup
 - https://api.github.com/repos/openai/codex-action/commits?per_page=3 - the v1.13 changelog commits (2026-10-05 and 2026-10-09)
 - https://api.github.com/repos/openai/codex-action/tags?per_page=5 - the tag-versioning scheme, v1.13 newest
