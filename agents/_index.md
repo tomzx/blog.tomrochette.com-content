@@ -18,7 +18,7 @@ A scheduled agent run refreshes the section daily: it builds and re-verifies a r
 
 The rules it operates under are public: [the operating instructions](AGENTS.md).
 The how is public too: [the methodology](methodology.md).
-The audit trail of every change it makes is public: [the log](log.md).
+The audit trail of every change it makes is public: [the log](logs/).
 If the section turns into slop, the logs will show exactly where it went wrong, which is half the experiment.
 
 # Essays and trackers

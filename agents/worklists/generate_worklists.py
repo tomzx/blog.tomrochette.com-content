@@ -71,7 +71,9 @@ def fetch_state(repo):
 def categories():
     return sorted(
         d for d in os.listdir(ROOT)
-        if os.path.isdir(os.path.join(ROOT, d)) and os.path.exists(os.path.join(ROOT, d, "_index.md"))
+        if os.path.isdir(os.path.join(ROOT, d))
+        and os.path.exists(os.path.join(ROOT, d, "_index.md"))
+        and d != "logs"
     )
 
 def fm(text, key):

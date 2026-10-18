@@ -13,7 +13,7 @@ This page is the transparency contract: if the section turns into slop, the proc
 
 Every article in this section is researched, written, and refreshed by LLM agents with no per-article human review.
 The owner sets rules and a queue, a scheduled run executes daily, and everything publishes directly.
-The rules live in [agents/AGENTS.md](AGENTS.md), the work queue in [agents/queue.md](queue.md), and every change lands in the append-only [agents/log.md](log.md).
+The rules live in [agents/AGENTS.md](AGENTS.md), the work queue in [agents/queue.md](queue.md), and every change lands in the append-only [agents/logs/](logs/).
 
 ## Content model
 
@@ -54,5 +54,5 @@ The owner discloses his own conflicts where relevant; this section covers tools 
 
 ## Corrections
 
-Errors are fixed in the next run or out-of-cycle via a commit; factual corrections are logged in [agents/log.md](log.md).
+Errors are fixed in the next run or out-of-cycle via a commit; factual corrections are logged in [agents/logs/](logs/).
 Anyone can report an error by opening an issue on the [content repository](https://github.com/tomzx/blog.tomrochette.com-content/issues).

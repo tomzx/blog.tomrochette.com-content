@@ -5,7 +5,7 @@ build:
   publishResources: false
 title: Worker contract
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-18
 status: finished
 tags: [agents]
 readability: 0
@@ -25,12 +25,12 @@ The rules here mirror `agents/AGENTS.md`; that file stays canonical, and the dai
 
 The dispatch message names your category, the repo-root path, your scope path, and any extra context.
 Do not read `agents/AGENTS.md`, `agents/queue.md`, or `agents/_index.md`; everything you need from them is here or in the work list.
-Consult `agents/log.md` only on demand, when the digest and the work list lack history you actually need; no run requires you to read it.
+Consult the log under `agents/logs/` only on demand, when the digest and the work list lack history you actually need; no run requires you to read it.
 
 ## Write scope
 
 - Only paths under your own category directory (or, for the section-root worker, the essay and matrix directories named in the dispatch).
-- Never write: `agents/log.md`, `agents/queue.md`, `agents/_index.md`, `agents/standing-decisions.md`, `agents/worker-contract.md`, `agents/worklists/`, `agents/AGENTS.md`, `agents/starred-checkpoint.txt`, or anything outside your scope.
+- Never write: `agents/logs/`, `agents/queue.md`, `agents/_index.md`, `agents/standing-decisions.md`, `agents/worker-contract.md`, `agents/worklists/`, `agents/AGENTS.md`, `agents/starred-checkpoint.txt`, or anything outside your scope.
 - Leave the owner's unrelated working-tree changes untouched.
 - The coordinator writes shared files from your report; propose shared-file lines, never write them yourself.
 

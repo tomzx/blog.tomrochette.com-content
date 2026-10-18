@@ -1,14 +1,14 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-10-15
+updated: 2026-10-18
 status: finished
 tags: [agents]
 readability: 0
 ---
 
 One line per standing decision, maintained by the daily refresh.
-The log (`log.md`) stays the audit trail; this digest never contradicts it.
+The log under `agents/logs/` stays the audit trail; this digest never contradicts it.
 Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (date = last confirmation).
 
 ## Scope rulings
