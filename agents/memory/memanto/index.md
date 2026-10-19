@@ -1,7 +1,7 @@
 ---
 title: Memanto
 created: 2026-10-11
-updated: 2026-10-16
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, memory-agent, typed-memory, mcp, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Made by Moorcheh AI, with the April 2026 paper (arXiv 2604.22085) behind the ret
 ## Status
 
 **Active, young, and vendor-led.**
-2,326 stars and 741 forks, created 2026-03-23, pushed 2026-10-15, MIT, as of 2026-10-16 (GitHub API).
+2,326 stars and 741 forks, created 2026-03-23, pushed 2026-10-17, MIT, as of 2026-10-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=moorcheh-ai/memanto&type=date&theme=dark&legend=top-left" />

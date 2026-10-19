@@ -1,7 +1,7 @@
 ---
 title: Hive
 created: 2026-10-08
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -24,7 +24,7 @@ It is made by Aden, a five-person San Francisco company from Y Combinator's Wint
 ## Status
 
 Active and newly stable: 11,107 stars as of 2026-10-15 on a repository created 2026-01-12, with branches pushed the day before this check (GitHub API).
-The default branch woke on 2026-10-12 with a README documentation merge after a quiet stretch that had run since mid-September, and on 2026-10-14 the release line returned from its five-month stop with v1.0.0, the first stable major, followed the same hour by v1.0.1, v1.0.2, and v1.0.3, with v1.0.4 on 2026-10-16 and v1.0.5 through v1.0.7 on 2026-10-17 and 2026-10-18 continuing the train (GitHub releases, as of 2026-10-18).
+The default branch woke on 2026-10-12 with a README documentation merge after a quiet stretch that had run since mid-September, and on 2026-10-14 the release line returned from its five-month stop with v1.0.0, the first stable major, followed the same hour by v1.0.1, v1.0.2, and v1.0.3, with v1.0.4 on 2026-10-16, v1.0.5 through v1.0.8 on 2026-10-17 and 2026-10-18, and v1.0.9 and v1.0.10 on 2026-10-19 continuing the train (GitHub releases, as of 2026-10-19).
 Three contributors dominate the history (about 1,179, 868, and 451 contributions), which matches a five-person company rather than a community.
 
 <picture>
@@ -71,6 +71,7 @@ My disagreeable claim: **the 11.1k stars measure the colony pitch, not the artif
 - 2026-10-08 - Created from the kaushikb11/awesome-llm-agents entrant scan.
 - 2026-10-13 - Corrected the trunk record: the default branch's last commit moved to 2026-10-12 (a README documentation merge) after the mid-September quiet stretch, and refreshed the star count to 11,098.
 - 2026-10-15 - Recorded the release line returning on 2026-10-14: v1.0.0, the first stable major, followed the same hour by v1.0.1 through v1.0.3, ending the five-month stop at v0.11.0 (2026-05-02); the no-tagged-releases claim is retired.
+- 2026-10-19 - Recorded v1.0.10 (2026-10-19) on the release train.
 
 ## See also
 

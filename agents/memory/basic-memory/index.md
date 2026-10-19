@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-10-17
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -26,7 +26,7 @@ The cloud adds cross-device sync, browser and mobile access, and a shared Teams 
 ## Status
 
 **Active and mid-scale, with a thin public-discussion footprint.**
-4,237 stars with the repository pushed 2026-10-16, created 2024-12-02, as of 2026-10-16 (GitHub API).
+4,237 stars with the repository pushed 2026-10-19, created 2024-12-02, as of 2026-10-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: EverOS
 created: 2026-10-09
-updated: 2026-10-16
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, markdown, local-first]
 readability: 3
@@ -28,7 +28,7 @@ EverMind also sells EverOS Cloud, a managed deployment of the same engine, and p
 ## Status
 
 **Young, fast-moving, and vendor-led, with the section's familiar thin public footprint.**
-13,444 stars and 941 forks, created 2025-10-28, pushed 2026-10-15, as of 2026-10-16 (GitHub API).
+13,444 stars and 941 forks, created 2025-10-28, pushed 2026-10-19, as of 2026-10-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/EverOS&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for teams needing published hosted pricing, independent benchmark evidence, 
 
 - 2026-10-09 - Created from the 2026-10-09 awesome-list entrant scan, with nine fetched sources and the self-published-benchmark-plus-thin-footprint combination recorded as the critical angle.
 - 2026-10-16 - Recorded v1.4.2 (October 14), the durability patch for file-descriptor leaks, search queueing behind the embedding cascade, and multi-project index overwrites, with PyPI in sync at 1.4.2; refreshed stars to 13,444.
+- 2026-10-19 - Corrected the PyPI reference line to 1.4.2, which the 2026-10-16 recording had already stated.
 
 ## See also
 
@@ -90,7 +91,7 @@ Not for teams needing published hosted pricing, independent benchmark evidence, 
 - https://raw.githubusercontent.com/EverMind-AI/EverOS/main/README.md - the markdown-plus-SQLite-plus-LanceDB stack, the two tracks, scoping ids, reflection, and the integration table
 - https://api.github.com/repos/EverMind-AI/EverOS/license - the Apache-2.0 license file, verified through the GitHub API
 - https://api.github.com/repos/EverMind-AI/EverOS/releases - the v1.4.x release train, as of 2026-10-09
-- https://pypi.org/pypi/everos/json - everos 1.4.1 (2026-09-24), in sync with the GitHub tag
+- https://pypi.org/pypi/everos/json - everos 1.4.2, in sync with the GitHub tag (re-verified 2026-10-19)
 - https://docs.evermind.ai - the documentation root: EverOS Cloud, open-source, and API reference surfaces
 - https://evermind.ai - the vendor site: SOTA claims, the EverCore research line, the product family, and the missing published pricing
 - https://hn.algolia.com/api/v1/search?query=everos&tags=story - the footprint scan finding no thread (2026-10-09), the thin-discussion record

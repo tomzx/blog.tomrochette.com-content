@@ -1,7 +1,7 @@
 ---
 title: PLUR
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, mcp, local-first, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Sync is git over your own remotes, with scope-filtered pushes (shared remotes ne
 ## Status
 
 **Active and shipping, young, with self-published benchmarks and no independent coverage yet.**
-304 stars, 37 forks, created 2026-03-19, pushed 2026-10-07, Apache-2.0, as of 2026-10-14 (GitHub API).
+304 stars, 37 forks, created 2026-03-19, pushed 2026-10-19, Apache-2.0, as of 2026-10-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=plur-ai/plur&type=date&theme=dark&legend=top-left" />

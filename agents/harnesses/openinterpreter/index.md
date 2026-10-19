@@ -1,7 +1,7 @@
 ---
 title: Open Interpreter
 created: 2026-09-27
-updated: 2026-10-11
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, harness-emulation]
 readability: 3
@@ -17,7 +17,7 @@ Open Interpreter is an Apache-2.0 terminal coding agent relaunched in July 2026 
 ## What it is
 
 A terminal agent installed by a curl script and run as `interpreter` or `i`, built on the Codex CLI core and inheriting its interface, app-server protocol, and cross-platform sandboxing.
-Its distinguishing feature is `/harness`, which switches the active emulation among native, claude-code, kimi-code, qwen-code, deepseek-tui, swe-agent, and minimal profiles.
+Its distinguishing feature is `/harness`, which switches the active emulation among native, claude-code, claude-code-bare, zcode, kimi-code, kimi-cli, qwen-code, deepseek-tui, swe-agent, and minimal profiles (the zcode and kimi-code entries mirror sibling harnesses this section profiles).
 The pitch is that Claude drives a Claude Code-like harness, GPT drives the Codex harness, and Kimi, Qwen, and DeepSeek drive emulations of their provider-recommended harnesses instead of one generic tool set.
 The portability story is explicit: repository `AGENTS.md`, shared `.agents/skills` directories, MCP, ACP for editors, and a one-line `codexPathOverride` for existing Codex SDK users.
 A separate Open Interpreter Desktop app covers cross-app knowledge work (spreadsheets, PDFs, email, browsers) with profiles, voice mode, approvals, and subagents.
@@ -77,6 +77,7 @@ My disagreeable claim: harness emulation is a configuration layer rather than ne
 - 2026-10-02 - Recorded the rust-v0.0.54 and rust-v0.0.55 releases (both September 30), which bundled the maintained Codex 0.156.1 client with GPT-6 model metadata, refreshed the provider model catalogs, and fixed offline model listing, and refreshed repository counters.
 - 2026-10-07 - Added the openinterpreter/openinterpreter star history chart to the Status section.
 - 2026-10-07 - Recorded the rust-v0.0.56 release (October 7), which added GPT-6.1 Sol metadata and the claude-sonnet-5-5 catalog choice and fixed shell-environment rebinding on idle-thread resume, and refreshed repository counters.
+- 2026-10-19 - Updated the `/harness` emulation list to the README's current ten profiles, which added claude-code-bare, zcode, and kimi-cli since the last check; all cited URLs re-fetched and live.
 
 ## See also
 

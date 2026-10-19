@@ -1,7 +1,7 @@
 ---
 title: Letta
 created: 2026-08-24
-updated: 2026-10-16
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, agent-frameworks]
 readability: 3
@@ -32,7 +32,7 @@ The `letta-ai/letta` repository (25.2k stars as of 2026-10-16) is now a landing 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=letta-ai/letta&type=date&legend=top-left" />
 </picture>
 
-Real development moved to `letta-ai/letta-code` (3.6k stars as of 2026-10-16, 3,780 commits as of 2026-10-16, latest tagged release v0.34.15 on 2026-10-15).
+Real development moved to `letta-ai/letta-code` (3.6k stars as of 2026-10-16, 3,780 commits as of 2026-10-16, latest tagged release v0.34.17 on 2026-10-18).
 The company raised a $10M seed led by Felicis at a $70M post-money valuation in September 2024.
 Letta Code launched December 2025 claiming the #1 model-agnostic OSS harness on TerminalBench; its HN thread drew 83 points and 37 comments, respect, not adoption-scale buzz.
 
@@ -80,6 +80,7 @@ Not for teams wanting stable infrastructure: the V1 server burial proves the roa
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-07 - Added the letta-ai/letta star history chart to the Status section.
 - 2026-10-16 - Rotation re-verification: every cited URL re-fetched live and the pricing ladder re-verified unchanged; letta-code's commit count refreshed to 3,780 and its latest tagged release recorded (v0.34.15, 2026-10-15), and the landing-page repository refreshed to 25.2k stars.
+- 2026-10-19 - Recorded letta-code v0.34.17 (2026-10-18) in the Status release line.
 
 ## See also
 

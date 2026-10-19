@@ -1,7 +1,7 @@
 ---
 title: OpenViking
 created: 2026-10-07
-updated: 2026-10-16
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, context-database, file-based, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint even more than this category's usual pattern.**
-40,037 stars with the repository pushed 2026-10-16, created 2026-01-05, as of 2026-10-16 (GitHub API).
+40,037 stars with the repository pushed 2026-10-19, created 2026-01-05, as of 2026-10-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&theme=dark&legend=top-left" />
 </picture>
 
-Latest release v0.5.0 (2026-10-09) alongside python-sdk 0.1.14 and go sdk v0.0.5, per the GitHub releases API.
+Latest release v0.5.0 (2026-10-09) alongside python-sdk 0.1.15 (2026-10-13, adding BatchWriteOptions.skip_conflicts and grep(level_limit)) and go sdk v0.0.5, per the GitHub releases API.
 v0.5.0 adds the OpenViking Gateway (beta): a standalone proxy process on port 1935 that any model client with a configurable base URL can point at, injecting profile, memory, and skill context without plugins or prompt changes, supporting the Anthropic Messages, OpenAI Chat Completions, and OpenAI Responses protocols, and replaying injected content byte-for-byte so provider prompt caches and thinking signatures stay valid.
 Development and writing are both active: the 108-page documentation site and the project blog are current (the latest post, a three-minute evaluation test, dates to 2026-10-03).
 The Hacker News record is a single 2-point thread from March 2026, so a 39k-star repository in nine months ran on trend cycles and ByteDance's ecosystem rather than public scrutiny.

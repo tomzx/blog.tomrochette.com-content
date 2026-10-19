@@ -1,7 +1,7 @@
 ---
 title: Crewplane
 created: 2026-09-27
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, workflows, cli, markdown]
 readability: 3
@@ -24,7 +24,7 @@ Optional features include a tmux dashboard, Git-backed workspace isolation, revi
 
 ## Status
 
-Very early but shipping: about 43 stars and 6 forks as of 2026-10-15, created 2026-06-24, and active development through v0.3.7 on 2026-10-10 with default-branch commits through October 18 (GitHub API, as of 2026-10-18).
+Very early but shipping: about 43 stars and 6 forks as of 2026-10-15, created 2026-06-24, and active development through v0.3.8 on 2026-10-19 with default-branch commits through October 18 (GitHub API, as of 2026-10-19).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=crewplaneai/crewplane&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ Not for anyone who wants a visual board, and not for shops that need a mature, m
 - 2026-09-27 - Created.
 - 2026-10-07 - Added the crewplaneai/crewplane star history chart to the Status section.
 - 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository, docs, the lab repo, its openorchestrators.org player page, PyPI at 0.3.7); v0.3.7 remains the latest release with default-branch commits through October 18.
+- 2026-10-19 - Recorded v0.3.8 (2026-10-19) on the release train.
 
 ## See also
 

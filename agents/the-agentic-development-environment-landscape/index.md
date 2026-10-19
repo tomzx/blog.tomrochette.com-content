@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Development Environment Landscape"
 created: 2026-07-04
-updated: 2026-10-13
+updated: 2026-10-19
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains]
 readability: 3
@@ -13,7 +13,7 @@ agent_sessions:
 
 The terminal coding agent answered the question of whether an AI can edit a real repository.
 The next problem is harder: how do you run several of them, watch what they are doing, and keep them from colliding on the same files.
-In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-10-13.
+In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-10-19.
 
 ## What an ADE is, and what it is not
 
@@ -145,6 +145,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - 2026-10-10 - Re-fetched all 17 URLs: fifteen fetched 200 and the two GitHub topic pages returned 429 on both attempts (recorded here honestly), Air's supported-agent and surface claims re-verified against its live page, Orca's dated count moved to about 88.9k with the largest-community superlative holding (GitHub API, against Superset's about 15.0k), and the Superset reference line's stale largest-community annotation corrected, a leftover from the 2026-10-07 body fix the reference section had missed.
 - 2026-10-11 - Re-fetched all 17 URLs, every one 200 this run (the two GitHub topic pages cleared their 2026-10-10 429s), Air's supported-agent and surface claims re-verified against its live page, Orca's dated count moved to about 89.8k with the largest-community superlative holding (GitHub API, against Superset's about 15.1k), and the topic-page and Superset reference annotations re-dated to this run's fetches.
 - 2026-10-13 - Re-fetched all 17 URLs, every one 200 this run, Air's supported-agent and surface claims re-verified against its live page, and Orca's dated count moved to about 91.6k with the largest-community superlative holding (GitHub API, against Superset's about 15.1k); the reference annotations re-dated to this run's fetches.
+- 2026-10-19 - Rotation re-verification: re-fetched all 17 URLs, fifteen fetched 200 and the two GitHub topic pages returned 429 on both attempts (as on 2026-10-10), and Air's supported-agent, surface, and cloud-run claims re-verified against its live page.
 
 ## See also
 
@@ -171,6 +172,6 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - [automagik-dev/genie](https://github.com/automagik-dev/genie) - CLI agent that dispatches parallel worktrees and reviews
 - [lanes-sh/app](https://github.com/lanes-sh/app) - mission control for parallel agents
 - [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) - curated list for tracking the long tail
-- [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (fetched 200, 2026-10-13)
-- [GitHub topic: parallel-agents](https://github.com/topics/parallel-agents) - the broader orchestration topic (fetched 200, 2026-10-13)
-- [OpenCode ACP documentation](https://opencode.ai/docs/acp/) - the shipped adapter that resolved the protocol-axis question (fetched 200, 2026-10-13)
+- [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (429 to the scripted fetch, 2026-10-19)
+- [GitHub topic: parallel-agents](https://github.com/topics/parallel-agents) - the broader orchestration topic (429 to the scripted fetch, 2026-10-19)
+- [OpenCode ACP documentation](https://opencode.ai/docs/acp/) - the shipped adapter that resolved the protocol-axis question (fetched 200, 2026-10-19)

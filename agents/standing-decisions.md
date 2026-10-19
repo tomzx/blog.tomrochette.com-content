@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [agents]
 readability: 0
@@ -54,14 +54,15 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-13 (ruled 2026-10-07) | retrieval | data infrastructure, document parsers, vector stores, and crawlers stay out of the category | pathway, CocoIndex, Omnigraph on the data-infrastructure precedent; Crawl4AI on the Firecrawl crawler rejection; DSPy under the framework family; the parser slot (kreuzberg, opendataloader-pdf, marker family) held, queue q#17 open
 - 2026-10-13 (ruled 2026-09-07) | skills | the standing exclusion covers single skills, packs, community waves, and vendor in-product directories; scope is formats, registries, and marketplaces, plus optimizer and discovery tooling | scale records K-Dense 47.8k, rea.tools 109.9k, mattpocock/skills 286k escalate via queue q#11 and q#20
 - 2026-10-13 | assistant-runtimes | the rafska chat-UI set (LM Studio, jan, ChatBox, text-generation-webui, SillyTavern, Page Assist) finally rejected on category kind | trigger recorded, see re-review triggers
-- 2026-10-05 (ruled 2026-09-29) | orchestration | the AMO thin-record tail stays rejected | Wave, Culture, SwarmClaw, NarraNexus, Bunkhouse, handoff, Companies.sh, zachealy1/orchestrator, RustyClaw held on the handoff thin-record profile
-- 2026-10-13 (ruled 2026-10-07) | cross-category | personal bundles and viral novelty repositories stay unprofiled pending the owner's ruling | gstack, caveman, Agent-Reach logged out-of-scope; ECC (278k) held on the same question, queue q#9 open
+- 2026-10-19 (ruled 2026-09-29) | orchestration | the AMO thin-record tail stays rejected | Wave, Culture, SwarmClaw, NarraNexus, Bunkhouse, handoff, Companies.sh, zachealy1/orchestrator, RustyClaw held on the handoff thin-record profile; the 2026-10-19 AMO wave adds STARK OS, AIWorks, Coterie, SpaceApp, Alchemist Coder, SuperAgent, Sqwakie, and Brow
+- 2026-10-19 (ruled 2026-10-07) | cross-category | personal bundles and viral novelty repositories stay unprofiled pending the owner's ruling | gstack, caveman, Agent-Reach logged out-of-scope; ECC (278k) and Cubicle Crew (29 stars, pixel-art agent-office visualization) held on the same question, queue q#9 open
 - 2026-10-12 (ruled 2026-09-27) | cross-category | the owner's own tools stay out at zero third-party adoption | llm-conversations-viewer, tps-viewer, TomzxCode/agentic; owner-tools exception asked in queue q#24
 - 2026-10-07 | cross-category | model-modification tooling fits no category and stays out pending the owner's ruling | p-e-w/heretic (33.8k) logged out-of-scope, queue q#8 open
 - 2026-10-18 (ruled 2026-10-06) | control-planes | closed commercial governance products stay out | Autoheal precedent holds the awesome-ai-governance closed tier at zero admissions; Aident Loadout (aident.ai hosted MCP credential vault, no public repository) rejected on it 2026-10-18, also not an evaluation instrument (eval worker concurrence)
 - 2026-10-16 | control-planes | the awesome-ai-governance open-source thin tail stays below the admission bar | conarium, verax, cedulon, quilzo, sunglasses, and Mandare (0 stars, 3 weeks old) at 0-10 stars each with no coverage, reopen on traction or independent coverage; arifOS resolved above the bar 2026-10-16
 - 2026-10-12 (ruled 2026-09-21) | hybrid-execution | applications, runtime bridges, and name-alike tooling on a category member stay ecosystem evidence inside its note | jev-ultrafast folded into jev; jev-chat, vllm-jev, LLM2Jev held
 - 2026-09-21 (ruled 2026-09-18) | skills | session-portability tools are out of the skills scope | Skillsync rejected by four category runs
+- 2026-10-19 | cross-category | terminal-output theming mods for member tools are appearance edits with no category kind | prismantis (134 stars) rejected on it; the claude-code list's new Mods section is where future additions will land
 
 ## Owner questions governing scope
 

@@ -1,7 +1,7 @@
 ---
 title: deja
 created: 2026-10-10
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, transcripts, retrieval, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Beyond search it adds `deja promote` (curated notes with accepted and rejected l
 ## Status
 
 **Young, fast-moving, and single-maintainer, with adoption ahead of any public discussion.**
-1,206 stars and 120 forks as of 2026-10-16 (GitHub API), created 2026-07-14, pushed 2026-10-18, MIT, with 74 open issues and pull requests as of 2026-10-18 (GitHub API).
+1,206 stars and 120 forks as of 2026-10-16 (GitHub API), created 2026-07-14, pushed 2026-10-19, MIT, with 77 open issues and pull requests as of 2026-10-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&theme=dark&legend=top-left" />

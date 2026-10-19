@@ -1,7 +1,7 @@
 ---
 title: GBrain
 created: 2026-10-07
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, provenance, mcp, personal-knowledge]
 readability: 3
@@ -27,7 +27,7 @@ A shared-brain skill catalog lets approved editors publish memory skills beside 
 ## Status
 
 **Active, single-author-plus-contributors, and unusually eval-disciplined for a personal project.**
-30,910 stars as of 2026-10-16 (GitHub API), with the repository pushed 2026-10-18, created 2026-04-05, MIT, as of 2026-10-18 (GitHub API), with five or more contributors and a companion garrytan/gbrain-evals repository (439 stars as of 2026-10-16, pushed 2026-10-18) holding dated benchmark reports.
+30,910 stars as of 2026-10-16 (GitHub API), with the repository pushed 2026-10-19, created 2026-04-05, MIT, as of 2026-10-19 (GitHub API), with five or more contributors and a companion garrytan/gbrain-evals repository (439 stars as of 2026-10-16, pushed 2026-10-18) holding dated benchmark reports.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=garrytan/gbrain&type=date&theme=dark&legend=top-left" />

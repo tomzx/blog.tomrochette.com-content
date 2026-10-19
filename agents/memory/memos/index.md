@@ -1,7 +1,7 @@
 ---
 title: MemOS
 created: 2026-10-06
-updated: 2026-10-11
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The plugin line is the distribution strategy: official OpenClaw plugins (cloud a
 ## Status
 
 **Active and mid-scale.**
-11,800 stars with the repository pushed 2026-10-10, created 2025-07-06, as of 2026-10-11 (GitHub API).
+11,800 stars with the repository pushed 2026-10-17, created 2025-07-06, as of 2026-10-19 (GitHub API).
 The one independent common-framework datapoint: the academic Agent Memory Leaderboard's first cycle (August 2026) ranks MemOS second among commercial text-memory systems at 45.89, on that framework's scale, not the vendor table's.
 
 <picture>

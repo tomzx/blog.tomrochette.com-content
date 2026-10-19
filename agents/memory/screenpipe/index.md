@@ -1,7 +1,7 @@
 ---
 title: Screenpipe
 created: 2026-10-08
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, screen-capture, timeline, mcp, source-available]
 readability: 3
@@ -26,7 +26,7 @@ Pipes are scheduled AI agents defined as markdown files, with YAML frontmatter p
 ## Status
 
 **Active and large, on a YC-backed company.**
-21,954 stars with the repository pushed 2026-10-16, created 2024-06-19, as of 2026-10-16 (GitHub API).
+21,954 stars with the repository pushed 2026-10-19, created 2024-06-19, as of 2026-10-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=screenpipe/screenpipe&type=date&theme=dark&legend=top-left" />
