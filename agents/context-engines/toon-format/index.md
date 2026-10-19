@@ -1,7 +1,7 @@
 ---
 title: TOON
 created: 2026-10-07
-updated: 2026-10-13
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, serialization, token-optimization, specification]
 readability: 3
@@ -67,6 +67,7 @@ Not for deeply nested or heterogeneous payloads, and not yet for contexts where 
 
 - 2026-10-07 - Created.
 - 2026-10-09 - Recorded the specification moving to v4.4 (published 2026-10-08) and refreshed the volatile numbers (25,478 stars, 1,658,827 weekly npm downloads, window 2026-10-01 to 2026-10-07).
+- 2026-10-19 - Corrected the SPEC.md reference annotation to the v4.4 version the note already records; full re-verification, every cited URL re-fetched and intact.
 
 ## See also
 
@@ -79,6 +80,6 @@ Not for deeply nested or heterogeneous payloads, and not yet for contexts where 
 
 - https://github.com/toon-format/toon - repository, MIT license, README design rationale, and the benchmark framing (fetched 200, 2026-10-07)
 - https://api.github.com/repos/toon-format/toon - stars, created date, and push date for the as-of status (fetched 200, 2026-10-07)
-- https://raw.githubusercontent.com/toon-format/spec/HEAD/SPEC.md - the v4.3 specification: syntax, canonical number formatting, delimiter scoping, strict-mode validation, and conformance requirements (fetched 200, 2026-10-07)
+- https://raw.githubusercontent.com/toon-format/spec/HEAD/SPEC.md - the v4.4 specification: syntax, canonical number formatting, delimiter scoping, strict-mode validation, and conformance requirements (fetched 200, 2026-10-19)
 - https://api.npmjs.org/downloads/point/last-week/@toon-format/toon - weekly download volume for the adoption claim (fetched 200, 2026-10-07)
 - https://hn.algolia.com/api/v1/items/45715632 - the 178-point launch thread with the YAML and training-data-accuracy objections (fetched 200, 2026-10-07)

@@ -1,14 +1,14 @@
 ---
 title: Container Use
 created: 2026-10-12
-updated: 2026-10-12
-status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, containers, mcp, isolation, git, open-source]
+updated: 2026-10-19
 readability: 3
 audience_notes: >
   Engineers running several coding agents against one repository who want each agent
   in its own environment and each environment reviewable with git.
   Assumes you know what Docker containers, git worktrees, and MCP are.
+status: finished
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, containers, mcp, isolation, git, open-source]
 ---
 
 Container Use is Dagger's Apache-2.0 Go MCP server and CLI that gives each coding agent its own containerized environment on its own git branch, so several agents work in parallel and their changes are reviewed with plain git.
@@ -71,6 +71,7 @@ Not for untrusted-code isolation (the kernel is shared and no egress policy exis
 ## Changes
 
 - 2026-10-12 - Created from the 2026-10-12 entrant-resolution scan (two sources), profiling the category's container-workflow entrant with the stalled release train recorded as the central caution.
+- 2026-10-19 - Rotation re-verification: every cited URL re-fetched (repository, release record, the four documentation pages, the 82-point launch thread, all alive); no release after v0.4.2 and the push date holds at 2026-09-21, so the stalled-train reading stands.
 
 ## See also
 

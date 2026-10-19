@@ -1,7 +1,7 @@
 ---
 title: Trae
 created: 2026-08-24
-updated: 2026-10-11
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, bytedance]
 readability: 3
@@ -24,7 +24,7 @@ Enterprise sales run through BytePlus, ByteDance's enterprise arm.
 
 **Active.**
 Launched January 2025, shipping continuously since, with a free tier plus a three-run paid ladder after the September 2026 repricing and enterprise availability via BytePlus, as of 2026-10-11 (re-verified, unchanged).
-The open-source sidecar went quiet: trae-agent's last commit landed February 5, 2026, with no tagged release ever published, as of 2026-10-16 (12,143 stars).
+The open-source sidecar went quiet: trae-agent's last commit landed February 5, 2026, with no tagged release ever published, as of 2026-10-19 (12,143 stars).
 The July 2025 telemetry analysis thread kept it in the discussion, not always favorably.
 
 <picture>
@@ -79,6 +79,7 @@ Not for proprietary or regulated codebases, full stop.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-27 - Re-confirmed the $20/$60/$200 ladder and the trae-agent stall; unchanged.
 - 2026-10-07 - Added the bytedance/trae-agent star history chart to the Status section.
+- 2026-10-19 - Rotation re-verification, all cited URLs re-fetched live: the $20/$60/$200 ladder, the free tier's 5,000 completions and 2 concurrent tasks, and the trae-agent stall (last push February 5, 2026) stand unchanged.
 
 ## See also
 

@@ -1,13 +1,13 @@
 ---
 title: Brig
 created: 2026-10-06
-updated: 2026-10-17
-status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, macos, linux, open-source]
+updated: 2026-10-19
 readability: 3
 audience_notes: >
   Engineers who want a maintained microVM around coding agents on their own Apple Silicon or Linux workstation.
   Assumes you know what a microVM, Hypervisor.framework, and cosign image verification are.
+status: finished
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, macos, linux, open-source]
 ---
 
 Brig is NOFire AI's Apache-2.0 Go tooling that runs coding agents such as Claude Code, Codex, Gemini CLI, OpenCode, or Grok inside a per-agent microVM on your own machine, with the project directory mounted read-write, no host credential reach, and cosign-verified guest images.
@@ -23,7 +23,7 @@ Built by NOFire AI, the team behind urunc, a CNCF Sandbox project; images, boot 
 
 ## Status
 
-Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 2026-08-12, pushed 2026-10-16 as of 2026-10-17, Apache-2.0.
+Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 2026-08-12, pushed 2026-10-19, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&theme=dark&legend=top-left" />

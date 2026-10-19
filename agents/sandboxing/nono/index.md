@@ -1,13 +1,13 @@
 ---
 title: nono
 created: 2026-10-07
-updated: 2026-10-17
-status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, kernel, open-source]
+updated: 2026-10-19
 readability: 3
 audience_notes: >
   Engineers who want an agent fenced at the kernel level and care most about what happens when the agent calls git, gh, curl, or kubectl.
   Assumes you know what Landlock, seccomp, and an L7 proxy are.
+status: finished
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, kernel, open-source]
 ---
 
 nono is a capability-based sandbox CLI and SDK family from nolabs-ai, the team behind Sigstore, that sandboxes an AI agent session at the kernel level and, distinctively, launches each delegated tool the agent calls under its own command sandbox with separate filesystem, network, and credential policy.
@@ -24,7 +24,7 @@ Apache-2.0, built by the Sigstore team, with an OpenSSF Best Practices badge and
 
 ## Status
 
-Fast-growing with no Hacker News help: 4,519 stars, 249 open issues and PRs, pushed 2026-10-15 as of 2026-10-16, created 2026-01-31.
+Fast-growing with no Hacker News help: 4,519 stars, 249 open issues and PRs, pushed 2026-10-18, created 2026-01-31.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&theme=dark&legend=top-left" />

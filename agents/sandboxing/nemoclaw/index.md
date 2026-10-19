@@ -1,13 +1,13 @@
 ---
 title: NemoClaw
 created: 2026-10-07
-updated: 2026-10-17
-status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, nvidia, openclaw, hermes, deep-agents, open-source]
+updated: 2026-10-19
 readability: 3
 audience_notes: >
   Engineers who want to run an always-on assistant (OpenClaw, Hermes, or LangChain Deep Agents) inside an OpenShell sandbox without assembling the integration themselves.
   Assumes you know what an inference proxy and a sandbox policy blueprint are.
+status: finished
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, nvidia, openclaw, hermes, deep-agents, open-source]
 ---
 
 NemoClaw is NVIDIA's Apache-2.0 reference stack that installs, hardens, and operates supported AI assistants (OpenClaw by default, plus Hermes and LangChain Deep Agents Code) inside OpenShell sandboxes, adding guided onboarding, managed inference, network policy, and lifecycle operations on top of the isolation boundary OpenShell enforces.
@@ -24,7 +24,7 @@ Apache-2.0, from NVIDIA, which describes the project as alpha with best-effort m
 
 ## Status
 
-Large and fast for an alpha: 22,754 stars, 3,142 forks, 796 open issues and PRs as of 2026-10-16, created 2026-03-15, pushed 2026-10-16.
+Large and fast for an alpha: 22,754 stars, 3,142 forks, 796 open issues and PRs as of 2026-10-16, created 2026-03-15, pushed 2026-10-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />

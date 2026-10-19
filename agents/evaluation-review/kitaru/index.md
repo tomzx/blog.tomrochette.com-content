@@ -1,7 +1,7 @@
 ---
 title: Kitaru
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, replay-evals, regression-testing]
 readability: 3
@@ -23,8 +23,8 @@ Evaluations start from you: an investigation has your coding assistant interview
 
 ## Status
 
-Active and vendor-backed: 308 stars, 26 forks, last push 2026-10-12, as of 2026-10-14, with the repository created 2026-03-05.
-The release train is fast and coordinated: PyPI 0.27.2 (2026-10-08) out of 55 releases, TypeScript SDK 0.6.0 the same day, and roughly 9,900 PyPI downloads in the last month (pypistats, as of 2026-10-14), the one adoption receipt here that is not self-reported.
+Active and vendor-backed: 308 stars, 26 forks as of 2026-10-14, last push 2026-10-19, with the repository created 2026-03-05.
+The release train is fast and coordinated: PyPI 0.27.2 (2026-10-08) out of 55 releases, TypeScript SDK 0.6.0 the same day, and roughly 9,900 PyPI downloads in the last month (pypistats, as of 2026-10-19), the one adoption receipt here that is not self-reported.
 It has already pivoted once: launched March 2026 as open-source infrastructure for async agents, carried a durable-runtime framing through July, and relaunched on 2026-08-18 around replay-based evals with Workers replacing the old Stacks concept, and parts of the docs still describe the older flows-and-checkpoints framing.
 
 <picture>
@@ -94,6 +94,6 @@ Not for prototypes (its own docs say it will feel like more machinery than you n
 - https://kitaru.ai/blog/introducing-the-new-kitaru - the 2026-08-18 relaunch: cohorts, evaluator calibration against expert verdicts, tool policies, the Stacks-to-Workers pivot, and the positioning against Langfuse, Braintrust, and LangSmith
 - https://kitaru.ai/pricing - Open Source free, Cloud $39/month with 3 agents, 2 seats, and 90-day retention, Enterprise custom
 - https://pypi.org/project/kitaru/ - package record: 0.27.2 (2026-10-08), 55 releases, Python >=3.11 (verified through the PyPI JSON API, the HTML page is client-rendered)
-- https://pypistats.org/api/packages/kitaru/recent - roughly 9,900 downloads in the last month as of 2026-10-14
+- https://pypistats.org/api/packages/kitaru/recent - roughly 9,900 downloads in the last month as of 2026-10-19
 - https://news.ycombinator.com/item?id=48807786 - the July 2026 Show HN under the current positioning, 2 points, no comments, the thin-reception evidence (verified through the HN Algolia item API, with the 2026-03-25 and 2026-04-22 submissions at items 47520115 and 47863502)
 - https://github.com/zenml-io/kitaru-skills - companion agent-skills repository, 6 stars, last push 2026-09-21

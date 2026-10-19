@@ -1,7 +1,7 @@
 ---
 title: AnythingLLM
 created: 2026-09-27
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, local-first, rag, desktop-apps]
 readability: 3
@@ -24,7 +24,7 @@ Beta features push it toward an OS-level assistant: AI computer use and live doc
 
 ## Status
 
-Active and steadily shipped: 67,036 stars and 7,489 forks as of 2026-10-14, created 2023-06-04, 337 open issues with the last push on 2026-10-17 as of 2026-10-18.
+Active and steadily shipped: 67,036 stars and 7,489 forks as of 2026-10-14, created 2023-06-04, 353 open issues with the last push on 2026-10-17 as of 2026-10-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ The disagreeable claim I will defend: the layperson focus that made AnythingLLM 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-10-07 - Added the Mintplex-Labs/anything-llm star history chart to the Status section.
 - 2026-10-14 - Recorded v1.18.0 (released 2026-10-13, a fixes train) on the release line, with refreshed adoption numbers.
+- 2026-10-19 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, docs, the Pro overview, the pricing page, the Show HN thread), v1.18.0 (2026-10-13) confirmed still the latest release and the Cloud tiers (Basic $50, Pro $99, Enterprise custom) unchanged.
 
 ## See also
 

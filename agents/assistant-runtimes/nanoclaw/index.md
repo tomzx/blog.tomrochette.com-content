@@ -1,7 +1,7 @@
 ---
 title: NanoClaw
 created: 2026-08-27
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, containers, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 ## Status
 
 Active and independently credible.
-30,940 stars and 12,759 forks as of 2026-10-14 since creation on 2026-01-31, pushed 2026-10-18 with 1,013 open issues as of 2026-10-18.
+30,940 stars and 12,759 forks as of 2026-10-14 since creation on 2026-01-31, pushed 2026-10-18 with 1,018 open issues as of 2026-10-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nanocoai/nanoclaw&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,8 @@ The family is real: microclaw (734 stars) describes itself as inspired by NanoCl
 
 - Container requirement means no native Windows and a Docker dependency the single-binary variants skip.
 - The fork-and-modify philosophy means your install drifts from trunk by design; updates become your problem.
-- The 12.8k forks against a small core team is a lot of divergence for one codebase to carry.- It inherits the family's provider politics (see the OpenClaw saga) while standardizing on Anthropic's SDK.
+- The 12.8k forks against a small core team is a lot of divergence for one codebase to carry.
+- It inherits the family's provider politics (see the OpenClaw saga) while standardizing on Anthropic's SDK.
 
 ## Pricing
 
@@ -72,6 +73,7 @@ My disagreeable claim: the container wall matters more than every permission sys
 - 2026-10-06 - Recorded the move to calendar versioning: v2.4.0 (2026-09-23) is the last 2.x release, 2026.10.0 is in release candidates, and updates now follow published releases instead of the tip of main, with refreshed adoption numbers.
 - 2026-10-07 - Added the nanocoai/nanoclaw star history chart to the Status section.
 - 2026-10-10 - Recorded 2026.10.0 publishing on 2026-10-09, ending the release-candidate period and the 2.4.0 stable hold, with refreshed adoption numbers.
+- 2026-10-19 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, docs.nanoclaw.dev, both HN threads, clawsec), v2026.10.0 confirmed still the latest release, and clawsec (now 1.1k stars) confirmed still covering NanoClaw beside OpenClaw, Hermes, and PicoClaw.
 
 ## See also
 

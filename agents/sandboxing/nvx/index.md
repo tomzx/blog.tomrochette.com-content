@@ -1,13 +1,13 @@
 ---
 title: NVX
 created: 2026-10-07
-updated: 2026-10-17
-status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, microsoft, research, open-source]
+updated: 2026-10-19
 readability: 3
 audience_notes: >
   Platform engineers tracking where Microsoft research is taking microVM isolation for agentic workloads, especially on Windows hypervisors.
   Assumes you know what a microVM, OpenVMM, and a snapshot ABI are.
+status: finished
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, microsoft, research, open-source]
 ---
 
 NVX is Microsoft's MIT-licensed microVM sandbox for agentic workloads, built on OpenVMM by the MSR Systems Research Group and Azure Research with a guest derived from the Nanvix research system, running Linux guests on Linux/KVM, Linux/MSHV, and Windows/WHP behind a Python harness.
@@ -23,7 +23,7 @@ This is a research artifact with a release train of daily `v0.1.0-dev` prereleas
 
 ## Status
 
-Young, institutional, and quiet in public: 400 stars, pushed 2026-10-16 as of 2026-10-16, created 2026-08-27.
+Young, institutional, and quiet in public: 400 stars, pushed 2026-10-18, created 2026-08-27.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&theme=dark&legend=top-left" />
