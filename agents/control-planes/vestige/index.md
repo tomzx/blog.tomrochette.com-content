@@ -1,7 +1,7 @@
 ---
 title: Vestige
 created: 2026-10-17
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, memory, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The single-maintainer paid tier, Vestige Operator, is a closed archive sold once
 
 ## Status
 
-Active and fast-moving: 651 stars, 72 forks, and 50 open issues and pull requests as of 2026-10-18, created 2026-01-25, pushed 2026-10-18, with 1,159 commits on main and v4.2.0 (2026-10-06) the latest tagged release.
+Active and fast-moving: 651 stars, 72 forks, and 50 open issues and pull requests as of 2026-10-18, created 2026-01-25, pushed 2026-10-19, with 1,159 commits on main and v5.0.0 (2026-10-18) the latest tagged release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=samvallad33/vestige&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ Not for org-scale governance (that is a control plane, not a workstation gate), 
 ## Changes
 
 - 2026-10-17 - Created from the memory routing resolution, profiling the fail-closed Operator gate and the Strata receipt log after the pivot from queryless memory, with the changelog pivot timeline as the critical angle.
+- 2026-10-19 - Release train moved to v5.0.0 (2026-10-18), the PRECEDENT release: a read-only `precedent` tool over the gate's stop receipts, a `gather` issue hunt, a WebGPU dashboard rebuild, and two maintainer-found hook security fixes (a command-injection path in a hook script and hooks running Python without isolated mode).
 
 ## See also
 
@@ -92,7 +93,8 @@ Not for org-scale governance (that is a control plane, not a workstation gate), 
 
 - https://github.com/samvallad33/vestige - README: the firewall framing, Operator Lite install and rules, Operator tier, memory server, integrations, license
 - https://api.github.com/repos/samvallad33/vestige - stars, forks, issues, creation and push dates as of 2026-10-17
-- https://api.github.com/repos/samvallad33/vestige/releases - v4.2.0 (2026-10-06), the latest tagged release
+- https://api.github.com/repos/samvallad33/vestige/releases - v5.0.0 (2026-10-18), the latest tagged release
+- https://github.com/samvallad33/vestige/releases/tag/v5.0.0 - the PRECEDENT release notes: precedent tool, gather, dashboard rebuild, hook security fixes
 - https://raw.githubusercontent.com/samvallad33/vestige/main/CHANGELOG.md - the pivot timeline (memory to Strata to Operator Lite), the $149 Operator pricing change, and the project's own fixed-vulnerability history
 - https://raw.githubusercontent.com/samvallad33/vestige/main/operator-lite/README.md - the gate's rule table, replay command, parser claims, platforms, and the receipts-are-digests admission
 - https://hn.algolia.com/api/v1/search?query=vestige&tags=story - the community-footprint check as of 2026-10-17

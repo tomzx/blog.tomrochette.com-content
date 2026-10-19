@@ -1,7 +1,7 @@
 ---
 title: Local Deep Research
 created: 2026-10-07
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, deep-research, local-first]
 readability: 3
@@ -24,7 +24,7 @@ Around the loop sit a journal-quality system scoring 212K-plus indexed sources w
 
 ## Status
 
-Active and heavily developed: 9,192 stars, 861 forks, created 2025-02-09, last pushed 2026-10-18 on a many-commit daily cadence (the October 18 batch bumped the version to 2.0.0 on main, the project's first major-version cut, alongside Wayback snapshot fetching by URL and library fixes), with the release train still published at v1.10.7, 2026-08-28 on GitHub and PyPI, as of 2026-10-18.
+Active and heavily developed: 9,192 stars, 861 forks, created 2025-02-09, last pushed 2026-10-19 on a many-commit daily cadence (October 19 brought a citation-label parsing fix, a queue-cleanup fix that leaves other users' rows alone, and a fix skipping non-text content blocks, following the October 18 batch that bumped the version to 2.0.0 on main, the project's first major-version cut), with the release train still published at v1.10.7, 2026-08-28 on GitHub and PyPI, as of 2026-10-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=LearningCircuit/local-deep-research&type=date&theme=dark&legend=top-left" />

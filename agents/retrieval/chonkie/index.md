@@ -1,7 +1,7 @@
 ---
 title: Chonkie
 created: 2026-09-16
-updated: 2026-10-13
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, chunking, rag, retrieval]
 readability: 3
@@ -17,9 +17,9 @@ Chonkie is an MIT-licensed Python (with a TypeScript port) chunking library for 
 
 ## What it is
 
-The README's chunker table covers `TokenChunker`, `FastChunker` (SIMD-accelerated byte chunking), `SentenceChunker`, `RecursiveChunker`, `SemanticChunker` (embedding-similarity boundaries, in the Greg Kamradt lineage), `LateChunker` (embeds before splitting, per the late-chunking paper), `CodeChunker` (AST-based code splits), and `NeuralChunker` (model-based segmentation), with a `pip install chonkie` core the repo badges at 505KB and optional extras for semantic, code, and API dependencies.
+The README's chunker table covers `TokenChunker`, `FastChunker` (SIMD-accelerated byte chunking, the memchunk engine), `SentenceChunker`, `RecursiveChunker`, `SemanticChunker` (embedding-similarity boundaries, in the Greg Kamradt lineage), `LateChunker` (embeds before splitting, per the late-chunking paper), `CodeChunker` (AST-based code splits), `NeuralChunker` (model-based segmentation), `SlumberChunker` (LLM-verified split points), `TableChunker` (markdown tables), and `TeraflopAIChunker` (a vendor segmentation API), with a `pip install chonkie` core the repo badges at 505KB and optional extras for semantic, code, and API dependencies.
 It also ships refineries, pipelines stored in a local SQLite database, a self-hosted REST API server (`uvicorn chonkie.api.main:app`), works with transformers, tokenizers, and tiktoken tokenizers, and publishes its own agent skills (`npx skills add chonkie-inc/skills`).
-**The project began as bhavnicksm/chonkie (Show HN, 199 points, November 2024), became the YC X25 company Chonkie with a 151-point Launch HN in June 2025, and the repository now lives under the Feyn Labs org as feyninc/chonkie, though the original author repository now 404s.**
+**The project began as bhavnicksm/chonkie (Show HN, 199 points, November 2024), became a YC-backed company with a 151-point Launch HN in June 2025 (the YC directory lists Feyn, Spring 2025 batch, same founders), and the repository now lives under the Feyn Labs org as feyninc/chonkie, though the original author repository now 404s.**
 
 ## Status
 
@@ -75,6 +75,7 @@ My disagreeable claim: Chonkie's actual innovation was packaging, not algorithms
 - 2026-09-25 - Refreshed the volatile facts: 4,770 stars and 1,138,639 trailing-month PyPI downloads as of 2026-09-25; version 1.7.0, the push date, and the JS port unchanged.
 - 2026-10-07 - Added the feyninc/chonkie star history chart to the Status section.
 - 2026-10-11 - Reworded banned-term words out of the prose and refreshed the volatile figures for the 2026-10-11 verification; meaning unchanged.
+- 2026-10-19 - Rotation re-verification re-fetched every cited URL live (PyPI 1.7.0, downloads, and repo numbers all unchanged); corrected the chunker-table list to the README's full eleven chunkers (adding Slumber, Table, and TeraflopAI, present since before the last verification) and corrected the YC batch claim to the YC directory's Spring 2025 listing for Feyn, since the launch title's own label has read both X25 (Algolia crawl) and P25 (live page).
 
 ## See also
 
@@ -86,13 +87,14 @@ My disagreeable claim: Chonkie's actual innovation was packaging, not algorithms
 ## References
 
 - https://github.com/feyninc/chonkie - repository: 4,790 stars, MIT, created 2025-03-29, pushed 2026-10-03 (GitHub API, as of 2026-10-13)
-- https://raw.githubusercontent.com/feyninc/chonkie/main/README.md - chunker table, 505KB core, self-hosted API server, stale Cloud link
-- https://pypi.org/pypi/chonkie/json - version 1.7.0 (2026-07-07), 62 releases, Python >=3.10, MIT
-- https://pypistats.org/api/packages/chonkie/recent - 1,255,276 downloads last month, unchanged and re-verified 2026-10-11
-- https://docs.chonkie.ai - official docs, Python and JavaScript support, agent skills distribution
-- https://news.ycombinator.com/item?id=44225930 - Launch HN (YC X25), 151 points, 2025-06-09: founders, 15MB versus 80-170MB, 33x token chunking claims (vendor tests)
+- https://raw.githubusercontent.com/feyninc/chonkie/main/README.md - chunker table (11 chunkers), 505KB core, self-hosted API server, stale Cloud link (re-verified unchanged 2026-10-19; the file last changed 2026-06-05)
+- https://pypi.org/pypi/chonkie/json - version 1.7.0 (2026-07-07), 62 releases, Python >=3.10, MIT (re-verified unchanged 2026-10-19)
+- https://pypistats.org/api/packages/chonkie/recent - 1,255,276 downloads last month, unchanged and re-verified 2026-10-19
+- https://docs.chonkie.ai - official docs, Python and JavaScript support, agent skills distribution (re-verified 2026-10-19)
+- https://news.ycombinator.com/item?id=44225930 - Launch HN, 151 points, 2025-06-09: founders, 15MB versus 80-170MB, 33x token chunking claims (vendor tests); the title's batch label has read both X25 (Algolia crawl) and P25 (live page)
 - https://news.ycombinator.com/item?id=42100819 - original Show HN, 199 points, 2024-11-10, under the now-deleted bhavnicksm/chonkie
 - https://news.ycombinator.com/item?id=46501665 - "So, you want to chunk really fast?", 153 points, 2026-01-05
 - https://minha.sh/posts/so,-you-want-to-chunk-really-fast - co-founder's memchunk post (delimiter-based SIMD chunking), December 2025
 - https://usefeyn.com - Feyn Labs founder letter signed by Shreyash Nigam, the redirect target of chonkie.ai
+- https://www.ycombinator.com/companies/chonkie - the YC directory entry (redirects to /companies/feyn): Feyn, Spring 2025 batch, founders Shreyash Nigam and Bhavnick Minhas
 - https://hn.algolia.com/api/v1/search?query=chonkie - the footprint scan: launch threads, JS port, Cloud, and code-chunking Show HNs

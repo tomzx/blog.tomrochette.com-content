@@ -1,7 +1,7 @@
 ---
 title: agentsview
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, token-usage, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop build
 
 ## Status
 
-Young and active: 6,094 stars, 689 forks, 164 open issues and PRs as of 2026-10-11, created 2026-02-19.
+Young and active: 6,094 stars, 699 forks, 107 open issues and PRs as of 2026-10-19, created 2026-02-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&theme=dark&legend=top-left" />
@@ -43,7 +43,7 @@ Latest release v0.45.0 on 2026-10-09 with steady releases since July; pre-1.0 wi
 
 ## Cautions
 
-- Pre-1.0 with breaking schema bumps (the docs' token-usage page documents schema version 6 again as of 2026-10-11, re-verified this run, after documenting version 5 on 2026-10-07, the fifth flip this section has recorded), so scripts consuming its output churn either way.
+- Pre-1.0 with breaking schema bumps (the docs' token-usage page documents schema version 6 again, re-verified 2026-10-19, after documenting version 5 on 2026-10-07, the fifth flip this section has recorded), so scripts consuming its output churn either way.
 - Token coverage is opportunistic: cost rows appear only when a transcript contains both token counts and a priceable model, and the docs admit known undercounts such as Claude WebSearch side-calls.
 - The 84-223x benchmark numbers the docs used to publish were vendor-supplied on vendor hardware, and their removal leaves no performance evidence in either direction.
 - The daemon, serve, DuckDB, and PostgreSQL surface is real operational weight if all you wanted was a cost report.
@@ -81,6 +81,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 - 2026-10-07 - Added the kenn-io/agentsview star history chart to the Status section.
 - 2026-10-07 - The docs' token-usage page flipped back to schema version 5 (it had documented version 6 on 2026-10-06), the fourth flip this section has recorded; the schema caution and the matrix's schema sentence moved with it, and repository counts refreshed (6,056 to 6,065 stars, 677 to 679 forks).
 - 2026-10-10 - Recorded the v0.45.0 release (2026-10-09): Junie CLI, OMO, and StepCode session formats, Antigravity plaintext-transcript reads without a decryption key, dashboard git and pull-request stats, and the Usage page's input card relabeled to Total Input with cache reads folded in; the docs' token-usage JSON contract flipped back to schema version 6 (the fifth recorded flip), and repository counts refreshed (6,065 to 6,093 stars).
+- 2026-10-19 - Rotation re-verification: every cited URL re-fetched and live, no release after v0.45.0 with main-branch fixes landing unreleased, the schema caution re-verified unchanged at version 6, and repository counts refreshed (forks 689 to 699, open issues and PRs 164 to 107).
 
 ## See also
 
@@ -93,7 +94,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 
 - https://github.com/kenn-io/agentsview - repository, supported agents, architecture, license
 - https://www.agentsview.io - docs, architecture, install, and the Kenn Software attribution
-- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the usage JSON contract (re-verified 2026-10-11, the page still documenting version 6 after carrying version 5 on 2026-10-07)
+- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the usage JSON contract (re-verified 2026-10-19, the page still documenting version 6 after carrying version 5 on 2026-10-07)
 - https://github.com/kenn-io/agentsview/releases - release cadence and current version
 - https://github.com/simple10/agents-observe - comparison data for the live-observability alternative
 - https://code.claude.com/docs/en/costs - the built-in cost tracking this category extends

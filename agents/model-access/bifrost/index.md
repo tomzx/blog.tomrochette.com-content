@@ -1,7 +1,7 @@
 ---
 title: Bifrost
 created: 2026-10-07
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, gateway, self-hosted]
 readability: 3
@@ -23,7 +23,7 @@ The enterprise tier adds clustering with gossip-based sync, RBAC with Okta and E
 
 ## Status
 
-Active and fast-releasing: created 2025-03-19, 8,842 stars as of 2026-10-16, component-tagged releases shipping through 2026-10-13 (transports v2.3.0, telemetry v1.9.0, semanticcache v1.7.0, routing v1.2.0, prompts v1.1.10), repo pushed 2026-10-18, as of 2026-10-18.
+Active and fast-releasing: created 2025-03-19, 8,842 stars as of 2026-10-16, component-tagged releases shipping through 2026-10-13 (transports v2.3.0, telemetry v1.9.0, semanticcache v1.7.0, routing v1.2.0, prompts v1.1.10), repo pushed 2026-10-19, as of 2026-10-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=maximhq/bifrost&type=date&theme=dark&legend=top-left" />
@@ -79,7 +79,7 @@ Not for the broadest provider matrix or the largest community, where LiteLLM sti
 ## References
 
 - https://github.com/maximhq/bifrost - repository, Apache-2.0 license, the 23-plus-provider README, and (at the 2026-10-07 fetch) the description's 50x-LiteLLM positioning, since removed (fetched 200, 2026-10-07)
-- https://api.github.com/repos/maximhq/bifrost - stars, created date, push date, and license for the as-of status (fetched 200, 2026-10-07; re-fetched 2026-10-16 at 8,842 stars, pushed 2026-10-16; re-fetched 2026-10-18 with the description no longer carrying the 50x claim and pushed 2026-10-18).
+- https://api.github.com/repos/maximhq/bifrost - stars, created date, push date, and license for the as-of status (fetched 200, 2026-10-07; re-fetched 2026-10-16 at 8,842 stars, pushed 2026-10-16; re-fetched 2026-10-18 with the description no longer carrying the 50x claim and pushed 2026-10-18; re-fetched 2026-10-19, pushed 2026-10-19, description unchanged).
 - https://docs.getbifrost.ai - the feature surface: failover, virtual keys, budgets, semantic caching, the MCP gateway, plugins, the 11-microsecond benchmark claim, and the enterprise tier (fetched 200, 2026-10-07; re-fetched 2026-10-18 with the 11µs claim and the 20-plus-provider framing unchanged)
 - https://api.github.com/repos/maximhq/bifrost/releases - the component-tagged release line through 2026-10-06 (fetched 200, 2026-10-07)
 - https://hn.algolia.com/api/v1/items/46203228 - the December 2025 Show HN thread, 3 points, grounding the small-HN-footprint observation (fetched 200, 2026-10-07)

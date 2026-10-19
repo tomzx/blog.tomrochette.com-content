@@ -1,7 +1,7 @@
 ---
 title: OpenResearch
 created: 2026-10-05
-updated: 2026-10-17
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, autoresearch, multi-agent, alphaXiv]
 readability: 3
@@ -24,7 +24,7 @@ The agent-facing surface is first-class: `orx install-skills` installs a skill i
 
 ## Status
 
-Active and fast-moving: 7,234 stars, 489 forks, 123 open issues and pull requests, created 2026-06-07, last pushed 2026-10-16 (TensorBoard and Trackio integration landing after the release), with v0.2.19 (October 15, a bugfix batch covering Slurm submissions that require an explicit task count, IME text input, and dropped-connection error handling) the latest release, as of 2026-10-17.
+Active and fast-moving: 7,234 stars, 489 forks, 123 open issues and pull requests, created 2026-06-07, last pushed 2026-10-19 (configurable ACP harnesses landing after the TensorBoard and Trackio integration of October 16, plus experiment-tree lineage navigation in the UI), with v0.2.19 (October 15, a bugfix batch covering Slurm submissions that require an explicit task count, IME text input, and dropped-connection error handling) the latest release, as of 2026-10-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alphaXiv/OpenResearch&type=date&theme=dark&legend=top-left" />

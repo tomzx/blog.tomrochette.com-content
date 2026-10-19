@@ -1,7 +1,7 @@
 ---
 title: LocalAI
 created: 2026-10-10
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The team also publishes its own native C/C++ engines (parakeet.cpp, vllm.cpp, mo
 
 ## Status
 
-Active and shipping monthly: v4.9.0 (2026-08-20), v4.10.0 (2026-09-17), and v4.11.0 (2026-10-02), pushed 2026-10-17 (as of 2026-10-18).
+Active and shipping monthly: v4.9.0 (2026-08-20), v4.10.0 (2026-09-17), and v4.11.0 (2026-10-02), pushed 2026-10-19 (as of 2026-10-19).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mudler/LocalAI&type=date&theme=dark&legend=top-left" />
@@ -75,7 +75,7 @@ Not for a single developer who wants one command and a registry (Ollama's slot),
 
 ## References
 
-- https://api.github.com/repos/mudler/LocalAI - 49,453 stars, 4,491 forks, MIT, created 2023-03-18, pushed 2026-10-10, homepage localai.io (fetched via the GitHub API, 2026-10-10; re-fetched 2026-10-14 at 49,513 stars, pushed 2026-10-14; re-fetched 2026-10-18, pushed 2026-10-17).
+- https://api.github.com/repos/mudler/LocalAI - 49,453 stars, 4,491 forks, MIT, created 2023-03-18, pushed 2026-10-10, homepage localai.io (fetched via the GitHub API, 2026-10-10; re-fetched 2026-10-14 at 49,513 stars, pushed 2026-10-14; re-fetched 2026-10-18, pushed 2026-10-17; re-fetched 2026-10-19, pushed 2026-10-19, v4.11.0 still latest).
 - https://raw.githubusercontent.com/mudler/LocalAI/master/README.md - backend architecture, the 4.11.0 release news, the native engine list, MIT license, and team (fetched 200, 2026-10-10)
 - https://localai.io/ - the OpenAI, Anthropic, Ollama, and ElevenLabs compatibility claim, the 1,255-model gallery, APEX quantization tables with the perplexity trade, and the 252-contributor and Discord counts (fetched 200, 2026-10-10)
 - https://api.github.com/repos/mudler/LocalAI/releases - v4.9.0 (2026-08-20), v4.10.0 (2026-09-17), v4.11.0 (2026-10-02), the monthly cadence (fetched 200, 2026-10-10)

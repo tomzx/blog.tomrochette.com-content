@@ -1,7 +1,7 @@
 ---
 title: Harmonic Aristotle
 created: 2026-09-13
-updated: 2026-10-11
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, harmonic, mathematics, formal-verification]
 readability: 3
@@ -62,6 +62,7 @@ Not for audit-sensitive verification work as of 2026-10-11, where the comparator
 
 - 2026-09-13 - Created as the Harmonic member of the new Automated research category.
 - 2026-10-02 - Named the $1,000,000 program (Mathematician Sponsorships, announced 2026-01-22) and added the funding and leadership facts the note previously lacked (Series C, Achim and Tenev).
+- 2026-10-19 - Full re-verification pass: all seven references re-fetched and current (the sponsorship and Series C pages are client-rendered, confirmed via their page metadata), with the OpenATP comparison, the FormalQualBench exclusion, and the Erdős record unchanged.
 
 ## See also
 

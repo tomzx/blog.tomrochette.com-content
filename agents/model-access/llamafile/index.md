@@ -1,7 +1,7 @@
 ---
 title: llamafile
 created: 2026-10-07
-updated: 2026-10-14
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, single-file]
 readability: 3
@@ -78,7 +78,7 @@ Not as a daily driver for people who churn models weekly, and not for serving ag
 ## References
 
 - https://github.com/mozilla-ai/llamafile - repository, README, licensing badge, whisperfile, and the 0.10 build-system note (fetched 200, 2026-10-07)
-- https://api.github.com/repos/mozilla-ai/llamafile - stars, created date, push date, and the NOASSERTION license field (fetched 200, 2026-10-07; re-fetched 2026-10-14 at 26,232 stars, pushed 2026-10-12).
+- https://api.github.com/repos/mozilla-ai/llamafile - stars, created date, push date, and the NOASSERTION license field (fetched 200, 2026-10-07; re-fetched 2026-10-14 at 26,232 stars, pushed 2026-10-12; re-fetched 2026-10-19, pushed 2026-10-12 and 0.10.6 still latest).
 - https://hacks.mozilla.org/2023/11/introducing-llamafile/ - Mozilla's launch announcement: the six-OS goal, Justine Tunney's authorship, and the Apache-2.0 plus MIT split (fetched 200, 2026-10-07)
 - https://docs.mozilla.ai/llamafile - the Mozilla.ai docs hub, pre-built llamafiles, and whisperfile surface (fetched 200, 2026-10-07)
 - https://api.github.com/repos/mozilla-ai/llamafile/releases - the 0.10.6 release of 2026-09-15 and the 2026 cadence (fetched 200, 2026-10-07)

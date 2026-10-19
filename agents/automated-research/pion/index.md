@@ -1,7 +1,7 @@
 ---
 title: Pion
 created: 2026-09-16
-updated: 2026-10-11
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, autonomous-agents, real-world-eval, proprietary]
 readability: 3
@@ -63,6 +63,7 @@ The disagreeable claim I will defend: whatever you think of the ethics, judging 
 ## Changes
 
 - 2026-09-16 - Created.
+- 2026-10-19 - Full re-verification pass: all six references re-fetched and current, the launch thread still at 497 points, the Vending-Bench 2 leaderboard figure unchanged, and the Market and Café still unprofitable per the launch post.
 
 ## See also
 

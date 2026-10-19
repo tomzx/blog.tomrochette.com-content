@@ -1,7 +1,7 @@
 ---
 title: OpenAI Deep Research
 created: 2026-09-13
-updated: 2026-10-02
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, openai, research-agent]
 readability: 3
@@ -71,6 +71,7 @@ Not as a source of established fact: treat every report as a hypothesis list wit
 - 2026-09-13 - Created as the productized-loop member of the new Automated research category.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-02 - Pointed the Wikipedia references at the article's canonical title (ChatGPT Deep Research) after the page was renamed; plan and quota facts re-verified unchanged against the article's Usage limit section.
+- 2026-10-19 - Full re-verification pass: all five references re-fetched and current, with plan gating, quota history, the GPT-5.2 rebase, and the 26.6 percent launch benchmark unchanged.
 
 ## See also
 

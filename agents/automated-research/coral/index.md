@@ -1,7 +1,7 @@
 ---
 title: CORAL
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, multi-agent, evolution, self-evolving, open-source]
 readability: 3
@@ -23,7 +23,8 @@ v0.6.0 added multi-island runs with migration between islands, April 2026 added 
 
 ## Status
 
-Active through early September: 1,063 stars, 133 forks, created 2026-03-16, last pushed 2026-09-08, with releases v0.7.19 through v0.7.21 landing between August 20 and September 6, 2026, as of 2026-10-11.
+Active through early September on main: 1,063 stars, 133 forks, created 2026-03-16, with releases v0.7.19 through v0.7.21 landing between August 20 and September 6, 2026, as of 2026-10-11.
+Development resumed on the dev branch after the pause: pull requests #276 and #282 merged there on 2026-10-19, while main's newest commit and the release train still date to September 6, as of 2026-10-19.
 No relevant Hacker News threads surfaced in this run's search; the footprint is GitHub-native plus the project's docs and blog site.
 
 <picture>
@@ -41,7 +42,7 @@ No relevant Hacker News threads surfaced in this run's search; the footprint is 
 
 ## Cautions
 
-- The last push was 2026-09-08 and the release train has paused since v0.7.21, about a month before this run; nothing alarming, but worth watching.
+- The release train has been paused since v0.7.21 (September 6, 2026), and main has not moved since; the October 19 merges landed on the dev branch, so the pause on releases is now six weeks, worth watching.
 - The state-of-the-art claims are the paper's own evaluations on its chosen tasks; no independent replication surfaced in this run's searches.
 - The loop's ceiling is your grader: rubric judges reintroduce LLM judgment wherever metrics stop, so the isolation guarantee protects the metric, not the rubric.
 - Running an agent organization multiplies cost: one worktree, one agent session, and one grader invocation per island, paid in your coding-agent subscriptions.
@@ -65,6 +66,7 @@ Not for open-ended work without a rubric you trust, and not for anyone needing a
 ## Changes
 
 - 2026-10-11 - Created.
+- 2026-10-19 - Recorded development resuming on the dev branch (PRs #276 and #282 merged 2026-10-19) while main and the release train stay at September 6.
 
 ## See also
 
@@ -80,4 +82,5 @@ Not for open-ended work without a rubric you trust, and not for anyone needing a
 - https://coral.compounding-intelligence.ai/ - the loop diagram, the .coral/public and .coral/private layout, manager and grader daemon architecture, example domains (fetched 200, 2026-10-11)
 - https://arxiv.org/abs/2604.01658 - the paper: authors, autonomous multi-agent evolution framing, heartbeat interventions, evaluator separation (fetched 200 via the arXiv API, 2026-10-11)
 - https://api.github.com/repos/Human-Agent-Society/CORAL/releases?per_page=3 - the v0.7.19 through v0.7.21 release dates (fetched 200, 2026-10-11)
+- https://api.github.com/repos/Human-Agent-Society/CORAL/events?per_page=30 - the October 19 merges of PRs #276 and #282 into the dev branch (fetched 200, 2026-10-19)
 - https://hn.algolia.com/api/v1/search?query=CORAL%20agents%20evolution - the search returning no relevant threads (fetched 200, 2026-10-11)

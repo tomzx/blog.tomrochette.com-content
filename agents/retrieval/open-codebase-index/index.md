@@ -1,7 +1,7 @@
 ---
 title: open-codebase-index
 created: 2026-10-05
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, rag, embeddings, mcp]
 readability: 3
@@ -24,7 +24,7 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
 ## Status
 
 **Active and shipping constantly, with almost no community footprint.**
-221 stars and 38 forks as of 2026-10-13, pushed 2026-10-16 (GitHub API, as of 2026-10-18).
+221 stars and 38 forks as of 2026-10-13, pushed 2026-10-19 (GitHub API, as of 2026-10-19).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&theme=dark&legend=top-left" />
@@ -84,7 +84,7 @@ My disagreeable claim: a 6,000-installs-a-month npm package with zero discussion
 
 ## References
 
-- https://github.com/Helweg/open-codebase-index - repository: 221 stars (as of 2026-10-13), 38 forks, MIT, created 2026-01-13, pushed 2026-10-16 (GitHub API, as of 2026-10-18)
+- https://github.com/Helweg/open-codebase-index - repository: 221 stars (as of 2026-10-13), 38 forks, MIT, created 2026-01-13, pushed 2026-10-19 (GitHub API, as of 2026-10-19)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/README.md - hosts, highlights, pipeline, embedding providers, legacy package aliases (fetched 2026-10-05, re-verified unchanged 2026-10-11)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/docs/tools.md - the host surface matrix: 16 portable tools, 3 knowledge-base tools, 5 MCP prompts (fetched 2026-10-05)
 - https://registry.npmjs.org/open-codebase-index - latest 0.36.3 published 2026-10-09, 32 versions since 2026-07-30, train paused since (re-verified 2026-10-13)

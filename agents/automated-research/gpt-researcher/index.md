@@ -1,7 +1,7 @@
 ---
 title: GPT Researcher
 created: 2026-10-07
-updated: 2026-10-15
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deep-research, open-source]
 readability: 3
@@ -67,6 +67,7 @@ Not for machine-verified conclusions, and not for anyone who needs a vendor SLA 
 ## Changes
 
 - 2026-10-07 - Created.
+- 2026-10-19 - Full re-verification pass: all six references re-fetched and current, with v3.7.0 still the latest release, PyPI at 0.16.1, the Jev default filter unchanged, and the four-point Show HN thread unchanged.
 
 ## See also
 

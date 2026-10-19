@@ -1,7 +1,7 @@
 ---
 title: Claude Code Agent Monitor
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, claude-code, codex, cursor, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by hoangsonww under MIT, listed under Session Monitors in the awesome-claud
 
 ## Status
 
-Young and active: 1,061 stars, 248 forks, created 2026-03-05, pushed 2026-10-11, latest release v2.3.0 on 2026-10-10 after v2.2.6 and v2.2.5 on 2026-10-04, as of 2026-10-11.
+Young and active: 1,061 stars, 251 forks, created 2026-03-05, pushed 2026-10-18, latest release v2.3.0 on 2026-10-10 after v2.2.6 and v2.2.5 on 2026-10-04, as of 2026-10-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hoangsonww/Claude-Code-Agent-Monitor&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Young and active: 1,061 stars, 248 forks, created 2026-03-05, pushed 2026-10-11,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=hoangsonww/Claude-Code-Agent-Monitor&type=date&legend=top-left" />
 </picture>
 
-One maintainer writes almost all of it: hoangsonww has 962 commits against 36 for the next contributor, as of 2026-10-10.
+One maintainer writes almost all of it: hoangsonww has 963 commits against 36 for the next contributor, as of 2026-10-19.
 The community footprint is nearly empty: a single 1-point Hacker News thread from 2026-05-05 and no Reddit discussion I could find, so distribution runs through the directory listing and the star curve rather than through public argument.
 **A single-maintainer control room with genuine adoption signals and no independent scrutiny, so read its docs and issue tracker rather than its README claims before depending on it.**
 
@@ -72,6 +72,7 @@ Not for minimal-footprint audit tooling (ccusage and AgentTrace stay far smaller
 ## Changes
 
 - 2026-10-10 - Created.
+- 2026-10-19 - Rotation re-verification: every cited URL re-fetched and live, no release after v2.3.0 with one outside-contributor fix merged unreleased on 2026-10-17 (a custom title equal to the folder name no longer overwritten), the one-point Hacker News footprint unchanged, and repository and contributor counts refreshed (forks 248 to 251, hoangsonww 962 to 963 commits).
 
 ## See also
 

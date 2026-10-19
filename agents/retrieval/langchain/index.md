@@ -1,7 +1,7 @@
 ---
 title: LangChain
 created: 2026-08-24
-updated: 2026-10-13
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, agents, frameworks]
 readability: 3
@@ -51,7 +51,7 @@ The next-day recovery supports the reading that the dip was GitHub's periodic re
 ## Pricing
 
 OSS (LangChain, LangGraph, Deep Agents, dcode): free, MIT.
-LangSmith as of 2026-10-13: Developer $0 with 5k base traces/month, Plus $39/seat/month with 10k base traces, Enterprise custom, with usage metered in LangChain Standard Units at $1.00 per LSU across Deployment, Sandboxes, Engine, and Fleet.
+LangSmith as of 2026-10-19: Developer $0 with 5k base traces/month, Plus $39/seat/month with 10k base traces, Enterprise custom, with usage metered in LangChain Standard Units at $1.00 per LSU across Deployment, Sandboxes, Engine, and Fleet.
 **The framework is free forever; the operations layer around it is where the bill lives.**
 
 ## Price history
@@ -97,6 +97,6 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 - https://github.com/langchain-ai/langchain - repository scale (147.8k stars), MIT license, platform positioning, as of 2026-10-13
 - https://docs.langchain.com/oss/deepagents/code/overview.md - dcode, the terminal coding agent built on Deep Agents
 - https://docs.langchain.com/oss/python/langchain/retrieval.md - RAG architectures: 2-step, agentic, hybrid, and the agentic-RAG-first framing
-- https://www.langchain.com/pricing - LangSmith tiers and LSU metering, as of 2026-10-13 (re-verified unchanged; previously recorded 2026-10-07, 2026-10-09, and 2026-10-11)
+- https://www.langchain.com/pricing - LangSmith tiers and LSU metering, as of 2026-10-19 (re-verified unchanged; previously recorded 2026-10-07, 2026-10-09, 2026-10-11, and 2026-10-13)
 - https://news.ycombinator.com/item?id=40739982 - the Octomind critique thread with the CEO's response acknowledging over-abstraction
 - https://python.langchain.com/api_reference/text_splitters/text_splitters/code_splitter.html - current text splitters catalog, showing separator-based code splitting only

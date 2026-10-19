@@ -1,7 +1,7 @@
 ---
 title: claude-devtools
 created: 2026-10-06
-updated: 2026-10-11
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, claude-code, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by matt1398, MIT-licensed, with docs at claude-dev.tools.
 
 ## Status
 
-Young: 3,971 stars, 306 forks, 53 open issues, created 2026-02-07, pushed 2026-09-26, as of 2026-10-11.
+Young: 3,971 stars, 306 forks, 56 open issues, created 2026-02-07, pushed 2026-09-26, as of 2026-10-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=matt1398/claude-devtools&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ Not for multi-harness coverage, live observation, or anyone who needs a maintain
 
 - 2026-10-06 - Created from the 2026-10-06 entrant scan: the deepest single-harness session inspector in the category, born from the v2.1.20 dumbing-down backlash, with seven fetched sources.
 - 2026-10-07 - Added the matt1398/claude-devtools star history chart to the Status section.
+- 2026-10-19 - Rotation re-verification: every cited URL re-fetched and live, the release line still quiet at v0.5.0 (2026-05-13) with no default-branch push since 2026-09-26, the docs site's $0 offer and both Hacker News threads unchanged, and open issues refreshed 53 to 56.
 
 ## See also
 

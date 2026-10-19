@@ -1,7 +1,7 @@
 ---
 title: Ollama
 created: 2026-09-27
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, model-registry]
 readability: 3
@@ -94,7 +94,7 @@ My disagreeable claim: for coding agents on 16GB laptops, local quantized models
 
 ## References
 
-- https://api.github.com/repos/ollama/ollama - 182,429 stars, Go, MIT, pushed 2026-10-07 (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 183,051 stars; re-fetched 2026-10-18, pushed 2026-10-18).
+- https://api.github.com/repos/ollama/ollama - 182,429 stars, Go, MIT, pushed 2026-10-07 (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 183,051 stars; re-fetched 2026-10-18, pushed 2026-10-18; re-fetched 2026-10-19, pushed 2026-10-18 unchanged).
 - https://ollama.com/ - current positioning: 9M developers, coding-agent integrations, Pro/Max teaser, cloud regions (200).
 - https://ollama.com/pricing - all tiers, included credits, per-token model table, off-peak terms, concurrency caps, FAQ (200, re-fetched unchanged 2026-10-06 and 2026-10-14).
 - https://docs.ollama.com/ - local API surface: Ollama, OpenAI, and Anthropic-compatible clients, cloud vs local split (200).
