@@ -1,7 +1,7 @@
 ---
 title: BMad Method
 created: 2026-08-27
-updated: 2026-10-18
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, agile, multi-agent, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The ecosystem is modular: BMad Builder, a Creative Intelligence Suite, an enterp
 ## Status
 
 Large, active, and quietly adopted.
-As of 2026-10-14: about 54k stars (54,105) and about 6.1k forks since creation on 2025-04-13, 49 open issues and pull requests; as of 2026-10-18, pushed 2026-10-18, and release v6.12.4 (published 2026-10-14) remains the newest, the two 10-14 patches having fixed how registry-pinned modules (TEA at v1.27.2) interact with the installer's channel picker and dropped the `next` channel from the picker while `--next=CODE` stays headless-only.
+As of 2026-10-14: about 54k stars (54,105) and about 6.1k forks since creation on 2025-04-13, 49 open issues and pull requests; as of 2026-10-19, pushed 2026-10-19, and release v6.12.4 (published 2026-10-14) remains the newest, the two 10-14 patches having fixed how registry-pinned modules (TEA at v1.27.2) interact with the installer's channel picker and dropped the `next` channel from the picker while `--next=CODE` stays headless-only.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bmad-code-org/BMAD-METHOD&type=date&theme=dark&legend=top-left" />

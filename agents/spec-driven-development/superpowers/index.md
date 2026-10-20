@@ -1,7 +1,7 @@
 ---
 title: Superpowers
 created: 2026-10-09
-updated: 2026-10-14
+updated: 2026-10-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, methodology, agent-skills, worktrees, open-source]
 readability: 3
@@ -35,7 +35,7 @@ The steward's anniversary post reports the repo about to cross 300,000 stars (12
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=obra/superpowers&type=date&theme=dark&legend=top-left" />
 </picture>
 
-**Its launch thread is the largest independent discussion in this category: 435 points and 219 comments in October 2025, with substantive skepticism about the cost of the ceremony alongside the recommendations.**
+**Its launch thread is the largest independent discussion in this category: 435 points and 231 comments since October 2025, with substantive skepticism about the cost of the ceremony alongside the recommendations.**
 Unlike every other column here, it reached that scale through harness marketplaces (Anthropic's official plugin marketplace among them) rather than a standalone CLI.
 It entered this category's scan as a Development Frameworks entry on the Engineering4AI awesome list.
 
