@@ -1,7 +1,7 @@
 ---
 title: GEPA
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, prompt-optimization, meta-learning]
 readability: 3
@@ -23,7 +23,7 @@ Distribution is PyPI (`pip install gepa`, v0.1.4, release-tagged July 2026) with
 
 ## Status
 
-Active with an established research record: 6,973 stars, 576 forks, and 142 open issues as of 2026-10-13, created 2025-08-05, pushed 2026-10-13, PyPI at 0.1.4.
+Active with an established research record: 6,973 stars and 576 forks as of 2026-10-13, 135 open issues as of 2026-10-20, created 2025-08-05, pushed 2026-10-20, PyPI at 0.1.4.
 The launch reached a 92-point Hacker News thread in July 2025, and Databricks' adoption of GEPA for agent prompt optimization is documented by the vendor's own engineering blog.
 **The contested part is the evidence: a "Contra DSPy and GEPA" thread and the DSPy community's methodological argument over GEPA's comparison baselines are the standing critical sources, so the headline claims deserve a re-run on your own metric before adoption.**
 

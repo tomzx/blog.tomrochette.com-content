@@ -8,13 +8,13 @@ tags: [agents, skills]
 readability: 3
 ---
 
-The reusable capability format and its ecosystem: the open skill format spec, the vendor-neutral packaging envelope over it, the vendor implementations, the harness mechanisms, the optimizers, the security scanner, the registries and curated packs, and the hosted-execution marketplace.
+The reusable capability format and its ecosystem: the open skill format spec, the vendor-neutral packaging envelope over it, the vendor implementations, the harness mechanisms, the optimizers, the security scanners, the registries and curated packs, and the hosted-execution marketplace.
 
 - [Agent Plugins](agent-plugins/index.md) - the vendor-neutral packaging standard bundling Agent Skills and MCP servers into one portable plugin.json folder, from a Vercel-proposed five-vendor TSC.
 - [Agent Skills open standard](agent-skills-open-standard/index.md) - the agentskills.io spec for SKILL.md capability directories.
 - [Agent-Native](agent-native/index.md) - Builder.io's curated pack of 24 skills plus the app framework they bridge to, the discipline skills portable to any harness.
 - [Anthropic Agent Skills](anthropic-agent-skills/index.md) - Anthropic's SKILL.md folder format for reusable agent capabilities.
-- [EvoSkill](evoskill/index.md) - Sentient Labs' Apache-2.0 toolkit that induces SKILL.md skills from a coding agent's failed benchmark runs, keeping only held-out improvements on a git-branch Pareto frontier, quiet since August.
+- [EvoSkill](evoskill/index.md) - Sentient Labs' Apache-2.0 toolkit that induces SKILL.md skills from a coding agent's failed benchmark runs, keeping only held-out improvements on a git-branch Pareto frontier, with a v2 redesign and tech report living on an unreleased branch.
 - [GEPA](gepa/index.md) - the MIT reflective prompt optimizer from the Databricks research lineage that mechanically evolves prompts, code, and agent skills against any metric, about 7k stars.
 - [Headcount](headcount/index.md) - Chris Brock's 16-department plugin marketplace for Claude Code and ChatGPT, skills owned by write surface and reviewer-class departments that can block.
 - [OpenCode skills and plugins](opencode-skills-and-plugins/index.md) - OpenCode's two extension mechanisms: skills for the model, plugins for the harness.
@@ -24,6 +24,7 @@ The reusable capability format and its ecosystem: the open skill format spec, th
 - [skills.md](skills-md/index.md) - Hasna's hosted-execution marketplace, skills that run server-side with quoted per-run credits and a $12-per-month Pro plan.
 - [skills.sh](skills-sh/index.md) - Vercel's directory and leaderboard for the open skills ecosystem.
 - [SkillSpector](skillspector/index.md) - NVIDIA's Apache-2.0 scanner for agent skills, 71 patterns plus an optional LLM pass scoring each skill SAFE, CAUTION, or DO NOT INSTALL before you install it.
+- [Snyk Agent Scan](snyk-agent-scan/index.md) - Snyk's Apache-2.0 machine-wide auditor, discovering every installed harness, MCP server, and skill and scoring each for prompt injection and malware risk.
 
 Its members are compared on shared rows in the [Skills Feature Matrix](skills-feature-matrix/index.md).
 
@@ -43,3 +44,4 @@ Its members are compared on shared rows in the [Skills Feature Matrix](skills-fe
 - 2026-10-12 - Added SkillSpector.
 - 2026-10-13 - Added GEPA.
 - 2026-10-13 - Added EvoSkill.
+- 2026-10-20 - Added Snyk Agent Scan.

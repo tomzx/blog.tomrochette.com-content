@@ -17,7 +17,7 @@ Small fast models handling typed decisions beside the large model: constrained d
 - [CLM](clm/index.md) - the Apache-2.0 contrastive state-action encoder (a Qwen3-8B embedding model plus a 75 MB head) behind the wave's first architectural dissent, whose Jev-parity claims both independent boards answer with near-zero scores, 2.9k stars.
 - [CUA-S1](cua-s1/index.md) - Cua's open-weights 706k-parameter System One checkpoint that scores form actions without generating text, the verifiable counterpart to Jev's closed contract.
 - [Decider](decider/index.md) - Mapika's Apache-2.0 one-pass family from 2B to 35B-A3B on Qwen3.5 decoders, JevBench's first open number one and the category's clearest sealed-protocol collapse record.
-- [Decision Index](decision-index/index.md) - the second independent scoreboard for Jev-class models, 110,201 public requests over 42 benchmarks plus private tests, where seven systems sit above Jev (eighth) and the boards disagree by tens of points.
+- [Decision Index](decision-index/index.md) - the second independent scoreboard for Jev-class models, 110,201 public requests over 42 benchmarks plus private tests, where twelve systems sit above Jev 1.14 (thirteenth) on the 0.3.2 board.
 - [Guardrails](guardrails/index.md) - the Apache-2.0 validator-hub framework composing Input and Output Guards from 65 installable risk validators around 100-plus LiteLLM-reachable providers, with validate-and-reask structured generation, now under Harvey after its September acquisition.
 - [H2O-Lightning-4B](h2o-lightning-4b/index.md) - H2O.ai's Apache-2.0 Qwen3.5-4B decision fine-tune with vision, the first open-weights system measured above hosted Jev on an independent composite.
 - [Instructor](instructor/index.md) - Pydantic in, validated objects out, with a re-ask when validation fails.
@@ -31,7 +31,7 @@ Small fast models handling typed decisions beside the large model: constrained d
 - [Marvin](marvin/index.md) - Prefect's Apache-2.0 AI-functions toolkit, the validate-and-retry family's smallest API (extract, cast, classify, generate over Pydantic types) with a ControlFlow-derived task-agent-thread layer, twice rebuilt and quiet on releases since March 2026, 6.2k stars.
 - [NanoJev](nanojev/index.md) - the 0.6B game-task replica with the most complete pipeline and the least verification, every benchmark unreplicated.
 - [Nimble](nimble/index.md) - Bespoke Labs' one-day open Jev with the category's only human-labeled head-to-head (Jev wins by 1.2 macro points) and an unlicensed repo.
-- [Ollaya](ollaya/index.md) - the Apache-2.0 local runtime serving twenty-one open decision-model families behind a wire-identical Jev API, with parity checks against each author's own code.
+- [Ollaya](ollaya/index.md) - the Apache-2.0 local runtime serving twenty-three open decision-model families behind a wire-identical Jev API, with parity checks against each author's own code.
 - [OpenAI Structured Outputs](openai-structured-outputs/index.md) - schema-guaranteed responses via constrained decoding.
 - [Outlines](outlines/index.md) - logit-masked generation following types, schemas, regexes, or grammars.
 - [SemIf](semif/index.md) - frozen open models reading typed option probabilities straight from the logits, with a client-side WebGPU demo, called OpenJev until 2026-09-18.

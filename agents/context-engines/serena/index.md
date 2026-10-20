@@ -1,7 +1,7 @@
 ---
 title: Serena
 created: 2026-10-04
-updated: 2026-10-16
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, lsp, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Distributed as `serena-agent` on PyPI; the application is GPL-3.0-or-later and t
 ## Status
 
 **Active and very large.**
-About 30.3k stars and 2,083 forks as of 2026-10-16, created 2025-03-23, pushed 2026-10-15, latest release v2.0.0 on 2026-10-13, the release that added the Serena REPL, a new agent interface reducing the tool set to a minimum and running all Serena operations from a general code-execution environment (GitHub API and release notes), with the PyPI package at 2.0.0 across 16 releases and 147,731 downloads in the trailing month (downloads as of 2026-10-06).
+About 30.3k stars and 2,083 forks as of 2026-10-16, created 2025-03-23, pushed 2026-10-19, latest release v2.1.0 on 2026-10-19 (Claude Desktop chat-mode compatibility restored, the TypeScript language server pinned to Serena's own install in untrusted projects, VB.NET and native TypeScript 7 language-server support, a dashboard welcome pane for the auto-open preference), following v2.0.0 on 2026-10-13, the release that added the Serena REPL, a new agent interface reducing the tool set to a minimum and running all Serena operations from a general code-execution environment (GitHub API and release notes), with the PyPI package at 2.1.0 across 17 releases and 147,731 downloads in the trailing month (downloads as of 2026-10-06).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=oraios/serena&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ My disagreeable claim: Serena's growth proves the embedding-index era of code co
 - 2026-10-04 - Created from the 2026-10-04 entrant scan, the largest uncovered tool in the category at about 30k stars, with seven fetched sources.
 - 2026-10-07 - Added the oraios/serena star history chart to the Status section.
 - 2026-10-16 - Recorded v2.0.0 (2026-10-13), the release that added the Serena REPL agent interface and formalized the GPL-3.0-or-later application licensing with the CLA, with the PyPI package at 2.0.0 across 16 releases; volatile numbers refreshed (about 30.3k stars, 2,083 forks, pushed 2026-10-15).
+- 2026-10-20 - Recorded v2.1.0 (2026-10-19: Claude Desktop chat-mode fix, tsserver trust-gating, VB.NET and native TypeScript 7 language servers, dashboard welcome pane), with the PyPI package at 2.1.0 across 17 releases.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: LLMLingua
 created: 2026-10-10
-updated: 2026-10-13
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, prompt-compression, research]
 readability: 3
@@ -70,6 +70,7 @@ My disagreeable claim: the newer compression products in this category are selli
 ## Changes
 
 - 2026-10-10 - Created from the 2026-10-10 Meirtz/Awesome-Context-Engineering scan (the list's LongLLMLingua entry), with the April 2026 independent evaluation recorded as the critical source.
+- 2026-10-20 - Full rotation re-verification: every cited URL re-fetched and intact; the package remains frozen at 0.2.2 and the repository's last push remains 2026-09-10.
 
 ## See also
 

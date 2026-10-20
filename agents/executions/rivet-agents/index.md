@@ -1,7 +1,7 @@
 ---
 title: Rivet Agents
 created: 2026-10-13
-updated: 2026-10-16
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, durable-execution, scheduling, actor-model]
 readability: 3
@@ -24,7 +24,7 @@ It is built by Rivet Gaming, Inc. (YC, a16z Speedrun), the company behind the ri
 ## Status
 
 **Active, young, and moving fast.**
-1,604 stars, 134 forks, and 87 open issues and pull requests as of 2026-10-13 (GitHub API), created 2026-01-25 and pushed 2026-10-14 UTC.
+1,604 stars as of 2026-10-13, 135 forks and 89 open issues and pull requests as of 2026-10-20 (GitHub API), created 2026-01-25 and pushed 2026-10-20 UTC.
 The release train reached a stable v0.5.0 only on 2026-10-07 after release candidates that began in March, with v0.5.1 through v0.5.3 following within a week (v0.5.3 on 2026-10-14), and the company changelog shipped agentOS 0.4 with Hosted VMs on 2026-10-12.
 The community footprint sits under the prior names: the Sandbox Agent SDK Show HN drew 41 points in January 2026, the Gigacode OpenCode-UI experiment 27 points in February, and SQLite for Rivet Actors 45 points, but no dedicated launch thread exists for the Agents product itself as of 2026-10-13, and a product line that has already carried the Sandbox Agent SDK and agentOS names beside the Actors platform carries identity churn a reader should price in.
 
@@ -51,7 +51,7 @@ The community footprint sits under the prior names: the Sandbox Agent SDK Show H
 ## Pricing
 
 The repository is free under Apache-2.0, and full self-hosting is free.
-Rivet Cloud bills a monthly base plus usage: Free at $0 with 100,000 awake Actor hours, a $5 compute cap, 1 vCPU, and 5 GB storage; Hobby from $20/month plus usage; Team from $200/month plus usage; Enterprise BYOC by quote (as of 2026-10-13).
+Rivet Cloud bills a monthly base plus usage: Free at $0 with 100,000 awake Actor hours, a $5 compute cap, 1 vCPU, and 5 GB storage; Hobby from $20/month plus usage; Team from $200/month plus usage; Enterprise BYOC by quote (as of 2026-10-20).
 Usage meters include $0.05 per 1,000 awake Actor hours, $0.40 per GB-month of state storage, and compute from $0.0000330 per vCPU-second plus $0.0000029 per GiB-second, with sleeping Actors billed nothing.
 
 ## Price history
@@ -87,7 +87,7 @@ My disagreeable claim: for the durable-agent use case this is a better fit than 
 ## References
 
 - https://github.com/rivet-dev/agents - repository, 1,604 stars, Apache-2.0, monorepo layout, one version line, as of 2026-10-13
-- https://api.github.com/repos/rivet-dev/agents - exact counters (1,604 stars, 134 forks, 87 open issues and pull requests, pushed 2026-10-14 UTC, created 2026-01-25)
+- https://api.github.com/repos/rivet-dev/agents - exact counters (1,604 stars pinned at their 2026-10-13 fetch, 135 forks, 89 open issues and pull requests, pushed 2026-10-20 UTC, created 2026-01-25)
 - https://rivet.dev/agents/docs - the actor-per-agent model, SQLite files, sandbox adapters, harness and model choice, and the company backing
 - https://rivet.dev/agents/docs/schedules/ - cron and one-shot scheduling that continues one conversation
 - https://rivet.dev/agents/docs/pi/ - Pi Durable beta status and the documented limitations list (critical source)

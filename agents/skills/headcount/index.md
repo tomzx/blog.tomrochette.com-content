@@ -1,7 +1,7 @@
 ---
 title: Headcount
 created: 2026-09-27
-updated: 2026-10-17
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, claude-code, agent-organization, plugin-marketplace]
 readability: 3
@@ -24,7 +24,7 @@ Each department also ships an agent charter in `.claude/agents/`, so a departmen
 
 ## Status
 
-Active: 2,048 stars and 318 forks as of 2026-10-13, created 2026-08-28, repo pushed 2026-09-17, no releases or version tags yet.
+Active: 2,048 stars and 318 forks as of 2026-10-13, created 2026-08-28, repo pushed 2026-10-18, no releases or version tags yet.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cbrock84/headcount&type=date&theme=dark&legend=top-left" />
@@ -50,7 +50,7 @@ One external contribution (ChatGPT and Codex manifests) is credited in the READM
 - The counted numbers drift between the GitHub description (15+ departments, 125+ skills), the badges (16 and 172), and third-party counts, so quote the README tables, not the description.
 - The value is unproven without the boring test: run a task with and without a department installed and diff the transcripts; several skills may restate what the model already does.
 - Installing all sixteen departments rebuilds the context bloat the per-department design was meant to avoid.
-- Single maintainer, no releases, twenty-six days without a push as of 2026-10-13, so treat it as a snapshot, not a product.
+- Single maintainer, no releases, and the only motion in the month to 2026-10-18 was a GitHub Sponsors and further-reading links commit, so treat it as a snapshot, not a product.
 
 ## Pricing
 
@@ -75,6 +75,7 @@ My disagreeable claim: the sixteen-department metaphor is mostly packaging, the 
 - 2026-09-27 - Created when the owner's GitHub-stars candidates were processed.
 - 2026-10-07 - Added the cbrock84/headcount star history chart to the Status section.
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, all claims held (README still 16 departments, 172 skills, 184 sources with 125 quotable, the Zentor critical review still live and updated 2026-09-24, the repo still pushed 2026-09-17); no figures moved.
+- 2026-10-20 - Volatile refresh: the repo pushed again 2026-10-18 after a month quiet, the commit being GitHub Sponsors and further-reading links only (no skill, source, or department changes); the snapshot caution updated.
 
 ## See also
 

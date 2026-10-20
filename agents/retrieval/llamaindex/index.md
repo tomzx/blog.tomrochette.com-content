@@ -1,7 +1,7 @@
 ---
 title: LlamaIndex
 created: 2026-08-24
-updated: 2026-10-18
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, retrieval, frameworks]
 readability: 3
@@ -25,7 +25,7 @@ In February 2026 the same team also open-sourced [LiteParse](https://github.com/
 ## Status
 
 Active and heavily used.
-The `run-llama/llama_index` repository shows 52.5k stars, 8.3k forks, and 292 open issues (963 counting pull requests) as of 2026-10-18, with 7,956 commits as of 2026-10-10.
+The `run-llama/llama_index` repository shows 52.5k stars, 8.3k forks, and 306 open issues (995 counting pull requests) as of 2026-10-20, with 7,956 commits as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&theme=dark&legend=top-left" />

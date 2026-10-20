@@ -1,7 +1,7 @@
 ---
 title: SkillMD
 created: 2026-10-05
-updated: 2026-10-18
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, registries, skill-verification]
 readability: 3
@@ -16,7 +16,7 @@ SkillMD is an open skills registry at skillmd.com that indexes public SKILL.md f
 
 ## What it is
 
-The registry (skillmd.com) crawls and accepts SKILL.md files and reports 1,132,714 skills as of 2026-10-18, its 1,948 reviewed count unchanged (the homepage hero stat now labels that figure "verified publishers").
+The registry (skillmd.com) crawls and accepts SKILL.md files and reports 1,132,718 skills as of 2026-10-20, its 1,948 reviewed count unchanged (the homepage hero stat now labels that figure "verified publishers").
 The toolchain (github.com/skillmds/skillmd, MIT) is what runs on your machine: a `skillmd` CLI (npm `skillmds`, v1.3.3, 1,969 downloads in the month to 2026-10-16), an MCP server (`npx -y skillmds`), a Claude Code plugin marketplace, and a GitHub Action, plus a JSON search API and OAuth-protected endpoints aimed at agents.
 Skills land in each detected agent's own directory (`.claude/skills/`, `.cursor/skills/`, `.agents/skills/`), and every listed skill is pinned to a commit.
 The maintainer also publishes the ecosystem's most self-critical data: their directory-landscape post estimates 83.4 percent of indexed skills declare no license and roughly 47 percent of public SKILL.md files are byte-identical copies of another file.
@@ -24,7 +24,7 @@ The maintainer also publishes the ecosystem's most self-critical data: their dir
 ## Status
 
 **Active and growing, with a thin independent footprint.**
-The toolchain repo was created 2026-08-25 and shows 200 stars as of 2026-10-13 with 9 open issues, pushed 2026-10-14; the npm CLI has shipped 33 versions since 2026-06-29.
+The toolchain repo was created 2026-08-25 and shows 200 stars as of 2026-10-13 with 8 open issues, pushed 2026-10-20; the npm CLI has shipped 33 versions since 2026-06-29.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=skillmds/skillmd&type=date&theme=dark&legend=top-left" />
@@ -87,11 +87,11 @@ My disagreeable claim: SkillMD's 1,948 reviewed skills matter more than either r
 
 ## References
 
-- https://skillmd.com/ - the registry surface: 1,132,714 skills, 1,948 verified publishers (the reviewed count), API and MCP endpoints (fetched 2026-10-18)
-- https://github.com/skillmds/skillmd - the toolchain repo: MIT, 200 stars as of 2026-10-13, 9 open issues, created 2026-08-25, pushed 2026-10-14 (GitHub API, as of 2026-10-18)
+- https://skillmd.com/ - the registry surface: 1,132,718 skills, 1,948 verified publishers (the reviewed count), API and MCP endpoints (fetched 2026-10-20)
+- https://github.com/skillmds/skillmd - the toolchain repo: MIT, 200 stars as of 2026-10-13, 8 open issues, created 2026-08-25, pushed 2026-10-20 (GitHub API, as of 2026-10-20)
 - https://raw.githubusercontent.com/skillmds/skillmd/main/README.md - CLI, MCP server, plugin marketplace, GitHub Action, per-agent install directories
 - https://skillmd.com/blog/agent-skills-directories-compared - the self-critical directory landscape post: 47 percent byte-identical duplication, 83.4 percent license gaps, counts-as-claims disclaimer (September 19, 2026, fetched 2026-10-05)
 - https://registry.npmjs.org/skillmds - CLI package: latest 1.3.3, 33 versions, created 2026-06-29 (fetched 2026-10-18)
-- https://api.npmjs.org/downloads/point/last-month/skillmds - 1,969 downloads, window 2026-09-17 to 2026-10-16 (fetched 2026-10-18)
+- https://api.npmjs.org/downloads/point/last-month/skillmds - 2,017 downloads, window 2026-09-19 to 2026-10-18 (fetched 2026-10-20)
 - https://hn.algolia.com/api/v1/search?query=skillmd&tags=story - the footprint scan behind the missing-footprint statement (fetched 2026-10-05)
 - https://www.promptarmor.com/resources/anthropics-skill-scanner-defeated-by-backdoored-skills - the backdoored-skill bypass behind the scanner-verdict caution: skills that passed Anthropic's scanner by fetching payloads at runtime, and exfiltrated files in production (fetched 2026-10-07, re-verified live 2026-10-11)

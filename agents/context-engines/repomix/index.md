@@ -1,7 +1,7 @@
 ---
 title: Repomix
 created: 2026-08-24
-updated: 2026-10-18
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-packing, open-source, developer-tools]
 readability: 3
@@ -28,7 +28,7 @@ It is built by Kazuki Yamada (yamadashy), sponsored by Warp and CodeRabbit.
 ## Status
 
 **Active and quietly massive.**
-28k stars (28,814), 1.6k forks, and 4,639 commits on GitHub (commits as of 2026-10-18), plus 411,572 npm downloads in the last month (2026-09-17 to 2026-10-16), stars, forks, and downloads as of 2026-10-18, with v1.18.1 released 2026-09-21.
+28k stars (28,814), 1.6k forks, and 4,639 commits on GitHub (stars, forks, and commits as of 2026-10-18), plus 397,507 npm downloads in the last month (2026-09-19 to 2026-10-18, fetched 2026-10-20), with v1.18.1 released 2026-09-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=yamadashy/repomix&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ My disagreeable claim: for small and mid repos, a Repomix pack plus a good model
 - 2026-09-27 - Refreshed the volatile numbers (28,503 stars, 341,825 trailing-month npm downloads); release remains v1.18.1 and the commit count is unchanged at 4,599.
 - 2026-09-29 - Refreshed the volatile numbers (28,546 stars, 354,371 trailing-month npm downloads); release remains v1.18.1.
 - 2026-10-07 - Added the yamadashy/repomix star history chart to the Status section.
+- 2026-10-20 - Full rotation re-verification: every cited URL re-fetched and intact; v1.18.1 remains the latest release and the trailing-month npm figure refreshed (397,507).
 
 ## See also
 
@@ -92,7 +93,7 @@ My disagreeable claim: for small and mid repos, a Repomix pack plus a good model
 
 - https://repomix.com/ - feature overview, output formats, awards nomination, sponsors
 - https://github.com/yamadashy/repomix - stars, commits, CLI reference including --token-budget, --mcp --sandbox, watch mode
-- https://api.npmjs.org/downloads/point/last-month/repomix - 411,572 downloads for 2026-09-17 to 2026-10-16, fetched 2026-10-18
+- https://api.npmjs.org/downloads/point/last-month/repomix - 397,507 downloads for 2026-09-19 to 2026-10-18, fetched 2026-10-20
 - https://repomix.com/guide/code-compress - tree-sitter compression semantics and its experimental status
 - https://repomix.com/guide/mcp-server - MCP tools (pack_codebase, grep_repomix_output) and sandbox confinement
 - https://news.ycombinator.com/item?id=42028494 - representative HN footprint: 4 points, zero comments

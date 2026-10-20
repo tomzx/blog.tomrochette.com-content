@@ -1,7 +1,7 @@
 ---
 title: PageIndex
 created: 2026-10-07
-updated: 2026-10-19
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, document-parsing]
 readability: 3
@@ -25,7 +25,7 @@ The maker pitches it at financial reports, legal documents, filings, and technic
 ## Status
 
 **Actively developed and heavily starred for a two-year-old research bet.**
-39,111 stars and 3,408 forks as of 2026-10-13, pushed 2026-10-19, 145 open issues (GitHub API, as of 2026-10-19).
+39,111 stars and 3,408 forks as of 2026-10-13, pushed 2026-10-20, 145 open issues (GitHub API, as of 2026-10-20).
 PyPI shows the `pageindex` SDK at 0.4.4 released 2026-10-19 across 50 releases, three releases in the three days after 0.4.1 (2026-10-16), so the SDK train is moving as fast as the repository.
 
 <picture>
@@ -84,7 +84,7 @@ My disagreeable claim: PageIndex is less a retrieval system than a claim that re
 
 ## References
 
-- https://api.github.com/repos/VectifyAI/PageIndex - 39,111 stars (as of 2026-10-13), 3,408 forks, MIT, created 2025-04-01, pushed 2026-10-19, 145 open issues (GitHub API, as of 2026-10-19)
+- https://api.github.com/repos/VectifyAI/PageIndex - 39,111 stars (as of 2026-10-13), 3,408 forks, MIT, created 2025-04-01, pushed 2026-10-20, 145 open issues (GitHub API, as of 2026-10-20)
 - https://pypi.org/pypi/pageindex/json - the SDK at version 0.4.4 (2026-10-19), 50 releases
 - https://raw.githubusercontent.com/VectifyAI/PageIndex/main/README.md - the tree-index method, local and cloud modes, Flash indexing, benchmark tables and cost curves (re-verified unchanged 2026-10-11)
 - https://docs.pageindex.ai/ - developer docs: SDK client, documents, agent integrations, MCP tools

@@ -1,7 +1,7 @@
 ---
 title: Anthropic Agent Skills
 created: 2026-08-24
-updated: 2026-10-18
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, skills, anthropic, agent-extensions]
 readability: 3
@@ -72,6 +72,7 @@ The claim I will defend: for most teams skills matter more than plugins or MCP s
 - 2026-08-24 - Created in the Skills category seed.
 - 2026-09-25 - Refreshed the volatile numbers (177,988 stars, 21,087 forks, 56 commits as of 2026-09-25).
 - 2026-10-07 - Added the anthropics/skills star history chart to the Status section.
+- 2026-10-20 - Rotation re-verification: every cited URL re-fetched live (the example repository via the GitHub API), all claims held; the repo state re-verified unchanged (last push still 2026-10-09, the claude-api skill update already recorded here).
 
 ## See also
 

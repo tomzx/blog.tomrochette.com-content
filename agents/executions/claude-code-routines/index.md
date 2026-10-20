@@ -1,7 +1,7 @@
 ---
 title: Claude Code routines
 created: 2026-10-06
-updated: 2026-10-17
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, claude-code, scheduling]
 readability: 3
@@ -63,6 +63,7 @@ My disagreeable claim: shipping every account connector into an unattended run b
 
 - 2026-10-06 - Created.
 - 2026-10-17 - Fully re-verified in rotation with every cited URL re-fetched: the research-preview status, the trust-model versions (v2.1.213, v2.1.225, v2.1.227), the caps, the autonomy default, and plan availability all re-confirmed; added the Desktop app as a creation surface and the 72-hour GitHub-disconnect auto-disable.
+- 2026-10-20 - Repointed the launch-announcement reference to its current claude.com/resources path after the claude.com/blog path began redirecting; the new target re-fetched and live.
 
 ## See also
 
@@ -75,7 +76,7 @@ My disagreeable claim: shipping every account connector into an unattended run b
 ## References
 
 - https://code.claude.com/docs/en/routines - triggers, autonomy model, limits, plan availability, as of 2026-10-06
-- https://claude.com/blog/introducing-routines-in-claude-code - the April 2026 announcement and launch limits
+- https://claude.com/resources/articles/introducing-routines-in-claude-code - the April 2026 announcement and launch limits (the former claude.com/blog path now redirects here)
 - https://news.ycombinator.com/item?id=47768133 - the 720-point launch discussion
 - https://platform.claude.com/docs/en/api/claude-code/routines-fire - the /fire endpoint contract, token scoping, and rate limits
 - https://runbook.scosovan.com/claude-code-routine-reported-success-did-nothing/ - independent post-mortem on silent failures and the connector default (critical source)

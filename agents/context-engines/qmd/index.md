@@ -1,7 +1,7 @@
 ---
 title: qmd
 created: 2026-08-30
-updated: 2026-10-18
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, retrieval, local-search, open-source]
 readability: 3
@@ -32,7 +32,7 @@ Young with unusual traction: 30,421 stars, 1,914 forks, 227 open issues and PRs 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tobi/qmd&type=date&legend=top-left" />
 </picture>
 
-Latest release v2.8.3 on 2026-08-16, pushed 2026-10-15.
+Latest release v2.8.3 on 2026-08-16, pushed 2026-10-15, with a large unreleased train accumulating on main: document metadata with a shared recursive filter AST across every search surface, metadata discovery, a collection-partitioned vector index, and a stream of community performance fixes, none of it released yet as of 2026-10-20.
 **The maintainer concentration is the story: one high-profile author shipping v1 through v2.8 in nine months, with community PRs around the edge.**
 
 ## Strengths
@@ -72,6 +72,7 @@ Not for code-symbol search (use grep-class tools), constrained machines, or team
 - 2026-09-25 - Refreshed the growth numbers (30,010 stars, 1,873 forks, 163 open issues and PRs); latest release remains v2.8.3, with no push since 2026-09-09.
 - 2026-09-27 - Refreshed the growth numbers (30,063 stars, 1,878 forks, 185 open issues and PRs); latest release remains v2.8.3, with no push since 2026-09-09.
 - 2026-10-07 - Added the tobi/qmd star history chart to the Status section.
+- 2026-10-20 - Full rotation re-verification: every cited URL re-fetched and intact; v2.8.3 remains the latest release with the unreleased train (metadata filtering and discovery, collection-partitioned vectors) recorded in Status.
 
 ## See also
 

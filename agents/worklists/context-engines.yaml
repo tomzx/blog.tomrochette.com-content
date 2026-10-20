@@ -3,7 +3,7 @@ category: context-engines
 generated: 2026-10-20
 mapped_sources:
   - repo: Meirtz/Awesome-Context-Engineering
-    last_checked: 2026-10-18
+    last_checked: 2026-10-20
 notes:
   - slug: augment-code
     title: Augment Code

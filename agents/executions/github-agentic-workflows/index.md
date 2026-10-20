@@ -1,7 +1,7 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-10-16
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
@@ -86,6 +86,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - 2026-10-11 - Repointed the Claude Code Action comparison to its new research note in this category after the official-Actions family admission.
 - 2026-10-13 - Refreshed the release train to v0.91.11 (2026-10-13, a prerelease, the fourth in the three days since October 11) with v0.89.21 still the newest stable-marked release, re-confirmed the security-advisory notice still live in the README and no new advisory, and refreshed growth (about 5.4k stars, 585 forks, roughly 18,700 commits).
 - 2026-10-16 - Recorded the four critical advisories published October 14 (the sandbox job-token exfiltration through the credential sidecar, CVSS 9.2, patched in v0.91.12, plus three MCP-surface flaws) and refreshed the release train to v0.92.2 with the stable line moved to v0.91.12 and v0.92.0, the first stable-marked releases since September 23; the full note was re-verified out of rotation with every cited URL re-fetched and the six-engine, eight-import, cost-cap, and README-notice claims confirmed against the live docs.
+- 2026-10-20 - Repointed the two GitHub docs references to their current paths after a docs reorganization (the old paths now redirect); each new target re-fetched and its claim re-confirmed (AIC billing, the rationale and approvals layer).
 
 ## See also
 
@@ -95,7 +96,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 
 ## References
 
-- https://docs.github.com/en/copilot/concepts/agents/about-github-agentic-workflows - product definition, security model, AIC billing
+- https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-github-agentic-workflows - product definition, security model, AIC billing
 - https://github.github.com/gh-aw/ - full reference: engines, guardrails, cost management
 - https://github.github.com/gh-aw/reference/engines/ - the built-in engine list (six, with Agy experimental and Gemini deprecated) and the eight imported samples, as of 2026-10-11
 - https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-10-13
@@ -104,4 +105,4 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - https://github.com/github/gh-aw/security/advisories/GHSA-9jxf-w4wc-5g93 - the 2026-10-14 critical job-token exfiltration advisory (CVSS 9.2, affected below v0.91.13, patched in v0.91.12)
 - https://news.ycombinator.com/item?id=46934107 - February 2026 launch discussion (302 points) including dogfooding criticism
 - https://github.com/anthropics/claude-code-action - the single-agent alternative on the same platform
-- https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-automation-rationale-and-approvals - shared rationale and approvals layer, including its limits
+- https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automation-rationale-and-approvals - shared rationale and approvals layer, including its limits
