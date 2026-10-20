@@ -1,7 +1,7 @@
 ---
 title: OpenHands
 created: 2026-08-27
-updated: 2026-10-13
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, agent-platforms]
 readability: 3
@@ -24,7 +24,7 @@ Today's component map per the docs is Agent Canvas (the open-source browser clie
 ## Status
 
 **Active and venture-funded.**
-Latest tagged release v1.27.1 shipped October 12, 2026, fixing a Docker web-bridge module copy and making warning feedback theme-aware, hours after v1.27.0 drove the verify-openhands mock-LLM end-to-end behaviors on DeepSeek and added `browser record` video capture, which followed v1.26.0 (October 8) adding a verify-openhands skill with a control-openhands CLI and a daily pass mode, a suspended-workspace explanation with a switch offer, a narrowed needs-review status in automations, and a large accessibility and tablet batch, two days after v1.25.0's Model Router settings and automation templates; the default branch was pushed within a day of verification.
+Latest tagged release v1.28.1 shipped October 19, 2026 (an agent-server maintenance bump), hours after v1.28.0 added executable known-bugs entries and a repeatable fix proof to verify-openhands, an in-conversation modal letting the agent request a secret, a close control for the getting-started checklist, and a Bahasa Indonesia locale, which followed v1.27.1 (October 12) fixing a Docker web-bridge module copy and making warning feedback theme-aware and v1.27.0 driving the verify-openhands mock-LLM end-to-end behaviors on DeepSeek and adding `browser record` video capture, after v1.26.0 (October 8) added a verify-openhands skill with a control-openhands CLI and a daily pass mode, a suspended-workspace explanation with a switch offer, a narrowed needs-review status in automations, and a large accessibility and tablet batch; the default branch was pushed within a day of verification.
 All Hands AI raised $18.8M in a Series A led by Madrona on November 18, 2025, alongside a collaboration with AMD on locally-run agents.
 
 <picture>
@@ -75,6 +75,7 @@ Not for someone who wants a zero-migration, opinionated coding workflow today, b
 - 2026-10-07 - Added the OpenHands/OpenHands star history chart to the Status section.
 - 2026-10-09 - Recorded v1.26.0 (October 8), which added the verify-openhands skill with a control-openhands CLI and a daily pass mode, a suspended-workspace explanation, a narrowed needs-review automation status, and an accessibility batch.
 - 2026-10-13 - Recorded the v1.27.0 and v1.27.1 releases (both October 12), which drove the verify-openhands mock-LLM end-to-end behaviors on DeepSeek, added `browser record` video capture, and fixed a Docker web-bridge copy with theme-aware warning feedback.
+- 2026-10-20 - Recorded the v1.28.0 and v1.28.1 releases (October 19): executable known-bugs entries with a repeatable fix proof in verify-openhands, an in-conversation secret-request modal, a Bahasa Indonesia locale, and an agent-server bump.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Agno
 created: 2026-09-29
-updated: 2026-10-18
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -22,8 +22,8 @@ The repo sits at 42,559 stars with 6,100 forks, Apache-2.0, Python 3.9+ (GitHub 
 
 ## Status
 
-Active: last push 2026-10-18, latest release v3.1.4 on 2026-10-16, `agno` 3.1.4 on PyPI, 42,739 stars as of 2026-10-15 (GitHub API, PyPI, as of 2026-10-18).
-v3.1.4 sandboxed the harness agents: `ClaudeAgent` and `CodexAgent` take a `sandbox=` parameter and run the whole harness process in an isolated per-session container, with session state that survives losing the container, host, or replica that ran the last turn.
+Active: last push 2026-10-19, latest release v3.1.6 on 2026-10-19 (v3.1.5 the same day), `agno` 3.1.6 on PyPI, 42,739 stars as of 2026-10-15 (GitHub API, PyPI, as of 2026-10-20).
+v3.1.5 gave sandboxed agents repositories (`repository=Repository(url, branch=...)` starts every session inside that checkout) and v3.1.6 let eval `Case`s carry run arguments (`session_id`, `user_id`, `session_state`, `dependencies`, `metadata`, and knowledge filters forwarded into the run). v3.1.4 sandboxed the harness agents: `ClaudeAgent` and `CodexAgent` take a `sandbox=` parameter and run the whole harness process in an isolated per-session container, with session state that survives losing the container, host, or replica that ran the last turn.
 v3.1.3 made ClaudeAgent sessions durable across replicas: the Claude SDK session id is stored on the Agno session and, with a transcript-capable database, every transcript line is mirrored into an `agno_transcripts` table so a later turn on another machine resumes from the database instead of a local file.
 v3.1.2 added conversation compaction (`Agent(compaction=True)` folds older turns into a summary backed by a `CompactionRecord` table, so removing the record restores the full conversation), a Codex external-agent adapter beside the Claude Agent SDK, LangGraph, DSPy, and Antigravity adapters, a HyDE query transformer for knowledge retrieval, and a shared browser-origin policy for AgentOS.
 v3.1.0 added role-based access control to AgentOS (a role store, scope policies, and an audit log) and a database-backed AgentOS filesystem, with a breaking re-key of the filesystem table that requires a manual upgrade script.
@@ -85,6 +85,8 @@ Not for teams allergic to benchmark-driven marketing, or anyone needing a vendor
 - 2026-10-07 - Added the agno-agi/agno star history chart to the Status section.
 - 2026-10-09 - Recorded v3.1.2 (October 8, conversation compaction, a Codex external-agent adapter, a HyDE query transformer, and a shared browser-origin policy) as the new latest release on GitHub and PyPI.
 - 2026-10-13 - Recorded v3.1.3 (October 12, durable ClaudeAgent sessions that resume on any replica from a mirrored `agno_transcripts` table) as the new latest release on GitHub and PyPI.
+
+- 2026-10-20 - Recorded v3.1.5 and v3.1.6 (both 2026-10-19, sandboxed-agent repositories and eval case run arguments) on the release train, PyPI tracking at 3.1.6.
 
 ## See also
 

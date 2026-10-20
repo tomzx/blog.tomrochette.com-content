@@ -1,7 +1,7 @@
 ---
 title: TencentDB Agent Memory
 created: 2026-10-11
-updated: 2026-10-16
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, openclaw, hermes, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Published by Tencent (the repository moved from the Tencent org to TencentCloud)
 ## Status
 
 **Large and fast-rising, with a license detector footnote.**
-29,264 stars and 2,852 forks, created 2026-04-07, pushed 2026-10-15, as of 2026-10-16 (GitHub API).
+29,264 stars and 2,852 forks, created 2026-04-07, pushed 2026-10-19, as of 2026-10-20 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/TencentDB-Agent-Memory&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: agentmemory
 created: 2026-10-09
-updated: 2026-10-19
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The design doc extends Karpathy's LLM-wiki pattern with confidence scores, lifec
 ## Status
 
 **Large and active, with adoption that outruns its discussion footprint.**
-29,558 stars, 2,607 forks, and 572 open issues and pull requests, created 2026-02-25, pushed 2026-10-19, as of 2026-10-19 (GitHub API).
+29,558 stars, 2,607 forks, and 572 open issues and pull requests, created 2026-02-25, pushed 2026-10-20, as of 2026-10-20 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&theme=dark&legend=top-left" />

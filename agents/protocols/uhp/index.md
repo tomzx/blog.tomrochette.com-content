@@ -1,7 +1,7 @@
 ---
 title: Unified Harness Protocol (UHP)
 created: 2026-10-08
-updated: 2026-10-19
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, agent-serving, harnesses]
 readability: 3
@@ -46,7 +46,7 @@ The community footprint is the weak signal: the Show HN launch drew 10 points (2
 
 ## Cautions
 
-- **Four spec versions in eight weeks and a same-day patch to the latest one mean the draft churn this category penalizes elsewhere is present here at full intensity, so pinning is a real cost.**
+- **Five spec versions in roughly ten weeks, with a same-day patch to the fourth, mean the draft churn this category penalizes elsewhere is present here at full intensity, so pinning is a real cost.**
 - The spec lives in the repo of the company that sells the hosted HarnessRouter service, with no foundation above the maintainer's UEP process, so the steward and the commercial winner are the same party.
 - The community footprint is thin: one 10-point Show HN thread, no independent coverage found, and the one second implementation sits at 62 stars.
 - The lane is contested: the LangChain Agent Protocol, every cloud provider's agent-serving API, and the Responses API itself all compete for the same integration surface.
@@ -76,6 +76,7 @@ My disagreeable claim: the Responses API already owns this lane by gravity, so t
 - 2026-10-17 - Re-verification: the implementing product's release train moved again to v0.34.2 (2026-10-16) while the spec stays at its 2026-10-04 fourth version with no fifth version.
 - 2026-10-18 - The implementing product's release train moved to v0.35.0 and v0.35.1 (both 2026-10-18) while the spec stays at its 2026-10-04 fourth version with no fifth version, the suite's newest entry still the protocol-neutral 2026.10.4.post11 (2026-10-15).
 - 2026-10-19 - The spec moved to its 2026-10-19 fifth version (the harness models view's `fallback` deprecated), its fifth in roughly ten weeks, and the conformance suite was repackaged for it (2026.10.19.post1 at the implementing product's latest tag, spec-matching again).
+- 2026-10-20 - The Cautions lead moved to the five-versions-in-ten-weeks count the Status section records, aligning the churn statement with the 2026-10-19 fifth version.
 
 ## See also
 

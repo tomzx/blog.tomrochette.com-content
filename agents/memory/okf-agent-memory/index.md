@@ -1,7 +1,7 @@
 ---
 title: OKF Agent Memory
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, agent-memory, okf, git-native, go, mcp]
 readability: 3
@@ -25,7 +25,7 @@ It implements, rather than defines, the format: the normative spec lives in Goog
 ## Status
 
 **Active and growing, admitted this run when its standing re-review trigger fired on both arms.**
-814 stars with the repository pushed 2026-10-12, created 2026-09-05, MIT, as of 2026-10-17 (GitHub API), with v0.6.1 released 2026-10-12.
+814 stars with the repository pushed 2026-10-19, created 2026-09-05, MIT, as of 2026-10-20 (GitHub API), with v0.6.2 released 2026-10-19, a patch fixing hub-sync index bookkeeping collisions and per-bundle IDF distortion in layered BM25 search.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=okf-memory/okf-agent-memory&type=date&theme=dark&legend=top-left" />

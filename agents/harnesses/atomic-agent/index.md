@@ -1,7 +1,7 @@
 ---
 title: Atomic Agent
 created: 2026-10-10
-updated: 2026-10-17
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, local-first, llama-cpp, open-source]
 readability: 3
@@ -24,7 +24,7 @@ It imports skills, memory, sessions, and (opt-in) keys from Claude Code, Codex, 
 
 ## Status
 
-Active and quick-growing: 3,328 stars and 273 forks as of 2026-10-15, created 2026-04-21, pushed 2026-10-16, with a release train that has accelerated from weekly to near-daily (v0.6.8 on October 13, and v0.6.9 on October 15 with desktop-v0.0.3, which merged the two surfaces onto one setup: the desktop app now shares the terminal agent's `~/.atomic-agent` folder for chats, memory, skills, keys, and settings, both can run at once without killing each other's local model, scheduled tasks fire once whichever app started first, and `atomic-agent import atomic-desktop` migrates old desktop data) and a developer-preview warning that APIs and behavior are still moving.
+Active and quick-growing: 3,328 stars and 273 forks as of 2026-10-15, created 2026-04-21, pushed 2026-10-19 (GitHub API, as of 2026-10-20), with a release train that has accelerated from weekly to near-daily (v0.6.8 on October 13, and v0.6.9 on October 15 with desktop-v0.0.3, which merged the two surfaces onto one setup: the desktop app now shares the terminal agent's `~/.atomic-agent` folder for chats, memory, skills, keys, and settings, both can run at once without killing each other's local model, scheduled tasks fire once whichever app started first, and `atomic-agent import atomic-desktop` migrates old desktop data) and a developer-preview warning that APIs and behavior are still moving.
 The headline benchmark is self-run: on the public GAIA validation Level 1 split (53 tasks), Atomic Agent scored 69.8% (37/53) against Hermes at 58.5%, both driving the same local `qwen-3.6-35b-a3b` on one M4 Max with the same step budget, with per-task matrices, NDJSON traces, and logs published on the release tag; a model-scaling table shows 52.8% at 9B and 45.3% at 12B on the same split.
 No independent reproduction exists, and a Hacker News search finds no thread about the project as of 2026-10-10, so the adoption evidence is the star curve and the published artifacts, not independent technical discussion.
 

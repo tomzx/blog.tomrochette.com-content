@@ -1,7 +1,7 @@
 ---
 title: Omnara
 created: 2026-08-30
-updated: 2026-10-17
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-control-plane, mobile, self-hosted, yc]
 readability: 3
@@ -27,7 +27,7 @@ It sits in the orchestration layer of this section's taxonomy (control plane and
 
 **Active, well-capitalized by YC standards, and shipping daily.**
 2,917 stars and 237 forks as of 2026-10-15 on a repo created July 9, 2025, with pushes landing within a day of verification (GitHub API).
-The release train runs two product lines recorded 2026-10-17: `omnarad`, the daemon line, at v0.2.7 (2026-10-16, after v0.2.5 on October 15 and v0.2.6 the next day), and `cluster`, a separate line that also reached v0.2.7 on 2026-10-16, both lines having moved on from the v0.2.2 tags they shared on 2026-10-10 (GitHub releases), and all postdating the `cli` line's last tag (cli-v1.0.11, 2026-09-12).
+The release train runs two product lines recorded 2026-10-20: `omnarad`, the daemon line, at v0.2.8 (2026-10-19, after v0.2.7 on October 16), and `cluster`, a separate line that reached v0.2.8 the same day, both lines having moved on from the v0.2.2 tags they shared on 2026-10-10 (GitHub releases), and all postdating the `cli` line's last tag (cli-v1.0.11, 2026-09-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=omnara-ai/omnara&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,8 @@ I believe every serious agent deployment eventually needs exactly what Omnara is
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-07 - Added the omnara-ai/omnara star history chart to the Status section.
 - 2026-10-12 - Recorded the two-line release train (omnarad v0.2.2 and cluster v0.2.2, both October 10) and refreshed star counts.
+
+- 2026-10-20 - Recorded v0.2.8 (2026-10-19) on both the omnarad and cluster release lines.
 
 ## See also
 

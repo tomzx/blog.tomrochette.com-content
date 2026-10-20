@@ -1,7 +1,7 @@
 ---
 title: Agent Orchestrator
 created: 2026-10-06
-updated: 2026-10-18
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, kanban, worktrees, multi-harness, desktop]
 readability: 3
@@ -22,7 +22,7 @@ It drives Claude Code, Codex, and 25 more CLIs per the repo description (23 coun
 ## Status
 
 Active and shipping daily: 13,193 stars as of 2026-10-15 (1,788 forks, 821 open issues and pull requests, and 30 contributors as of 2026-10-11), created 2026-02-13 (GitHub API, as of 2026-10-15).
-Stable releases ride the nightly train, v0.14.2 (2026-10-15) the latest, with a push on 2026-10-18 (GitHub API, as of 2026-10-18).
+Stable releases ride the nightly train, v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts) the latest, with a push on 2026-10-20 (GitHub API, as of 2026-10-20).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&theme=dark&legend=top-left" />
@@ -30,7 +30,7 @@ Stable releases ride the nightly train, v0.14.2 (2026-10-15) the latest, with a 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&legend=top-left" />
 </picture>
 
-The stable line sits at v0.13.7 (2026-10-10), promoted from the nightly train after v0.13.6 (2026-10-09), with nightlies publishing most days (GitHub releases API).
+The stable line has moved to v0.14.x, with v0.14.3 (2026-10-19) the newest stable promoted from the nightly train, which publishes most days (GitHub releases API).
 **The identity record is the caution: the repository has lived under four organizations in eight months (ComposioHQ, AgentWrapper, Untrivial-ai, and now OrchestratorInc), each old URL a 301 today, which is the same rename churn this section flagged on Ruflo but repeated.**
 The community footprint is thin for the star count: the Show HN launch drew only 15 points on 2026-03-29 (a text post with no external link, HN Algolia), so the 12.8k stars spread through GitHub, X, and Discord rather than press, and the only third-party coverage I found is a competitor's roundup (Tembo, June 2026) and one technical review (Starlog, July 2026, at 8.6k stars).
 
@@ -69,6 +69,8 @@ Not for anyone who needs a stable identity to standardize on (four renames and c
 - 2026-10-08 - Recorded v0.13.4 promoted from the nightly train to the stable line (October 7) and 12.9k stars as of 2026-10-08.
 - 2026-10-09 - Recorded v0.13.5 (October 8) as the stable release and refreshed the star count to 12,970 as of 2026-10-09.
 - 2026-10-10 - Recorded v0.13.6 (October 9) as the stable release and refreshed the star count to 13,014 as of 2026-10-10.
+
+- 2026-10-20 - Recorded v0.14.3 (2026-10-19, full-screen artifact viewer and copyable workspace paths) on the nightly-to-stable train.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: OpenRig
 created: 2026-10-02
-updated: 2026-10-18
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, control-plane, cross-harness, tmux, persistent-agents]
 readability: 3
@@ -25,8 +25,8 @@ It ships no model and holds no API keys: it drives the Claude Code and Codex log
 
 ## Status
 
-Active and early: about 7.5k stars (7,480) as of 2026-10-15, up from about 7.0k on 2026-10-12 and 5.0k on 2026-10-07, created 2026-04-01, 24 contributors, 167 open issues and pull requests, and v0.6.11 published 2026-10-17 after v0.6.10 (2026-10-12) one day after v0.6.9, with npm `@openrig/cli` last verified at 0.6.8 on 2026-10-10 after 55 versions since 2026-04-06.
-v0.6.10 is a community fix release: 38 of its 56 changes came from ten outside contributors, setup can now be told which agent harnesses you use, a resumed Claude seat whose session ID changed proves and restores, and upgrading requires a daemon restart that runs two no-op-data database migrations (release notes).
+Active and early: about 7.5k stars (7,480) as of 2026-10-15, up from about 7.0k on 2026-10-12 and 5.0k on 2026-10-07, created 2026-04-01, 24 contributors, 167 open issues and pull requests, and v0.6.13 published 2026-10-20 after v0.6.12 (2026-10-19) and v0.6.11 (2026-10-17), which followed v0.6.10 (2026-10-12) one day after v0.6.9, with npm `@openrig/cli` last verified at 0.6.8 on 2026-10-10 after 55 versions since 2026-04-06.
+v0.6.12 and v0.6.13 are community recovery-and-everyday-operation fix releases (121 of 0.6.12's 206 changes from 23 outside contributors, 15 of 0.6.13's 46 from 10), with restore bringing back what you left running. v0.6.10 is a community fix release: 38 of its 56 changes came from ten outside contributors, setup can now be told which agent harnesses you use, a resumed Claude seat whose session ID changed proves and restores, and upgrading requires a daemon restart that runs two no-op-data database migrations (release notes).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mvschwarz/openrig&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,8 @@ Not for anyone who needs agent sandboxing, a Windows desktop, or a managed cloud
 - 2026-10-07 - Added the mvschwarz/openrig star history chart to the Status section.
 - 2026-10-09 - Recorded v0.6.7 (October 8) and v0.6.8 (October 9, mostly community fixes with TUI key and workflow-validate behavior changes), the star jump to about 6.2k, and corrected the docs-lag claim: the documentation now tracks v0.6.8.
 - 2026-10-12 - Recorded v0.6.10 (October 12, a community fix release with 38 of 56 changes from outside contributors and harness selection in setup), the star jump to about 7.0k, and the daemon-restart upgrade requirement.
+
+- 2026-10-20 - Recorded v0.6.12 (2026-10-19) and v0.6.13 (2026-10-20) on the release train.
 
 ## See also
 

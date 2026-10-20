@@ -1,7 +1,7 @@
 ---
 title: Agent Client Protocol (ACP)
 created: 2026-08-24
-updated: 2026-10-17
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, editor-integration]
 readability: 3
@@ -20,7 +20,7 @@ ACP is an open protocol that standardizes communication between code editors and
 Agents run as editor subprocesses speaking JSON-RPC over stdio, with message types for the coding UX that matters (session lifecycle, permission requests, diffs).
 The protocol reuses MCP's JSON representations where it can and keeps user-readable text in Markdown.
 **Zed originated it, JetBrains co-developed it after merging its own internal Junie protocol effort, and the repository now lives under the vendor-neutral `agentclientprotocol` organization, Apache-2.0.**
-The current stable protocol version is 1, with a v2 draft and a migration guide already published, and official Kotlin, Java, Python, Rust, and TypeScript SDKs: both flagship SDKs crossed 1.0.0 in June 2026 and have kept moving, with the Rust crate at 3.4.0 (2026-10-16) and the TypeScript package at 1.9.0 (2026-10-16) as of 2026-10-17.
+The current stable protocol version is 1, with a v2 draft and a migration guide already published, and official Kotlin, Java, Python, Rust, and TypeScript SDKs: both flagship SDKs crossed 1.0.0 in June 2026 and have kept moving, with the Rust crate at 3.4.0 (2026-10-16) and the TypeScript package at 2.0.0 (2026-10-19) as of 2026-10-20.
 
 ## Status
 
@@ -80,6 +80,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 - 2026-10-10 - Both SDKs moved again on 2026-10-09, the Rust crate to 3.3.0 and the TypeScript package to 1.8.0, while the stable protocol stays at version 1 and the v2 draft stays open; agents list re-counted at 41 as of 2026-10-10.
 - 2026-10-13 - The official agents list re-counted at 43 entries, up from 41 on 2026-10-10; the Rust crate (3.3.0), the TypeScript package (1.8.0), the stable protocol at version 1 with the v2 draft open, and the roughly 2,400-commit count re-verified unchanged.
 - 2026-10-17 - Both SDKs moved again on 2026-10-16, the Rust crate to 3.4.0 and the TypeScript package to 1.9.0, while the stable protocol stays at version 1 and the v2 alpha train reached schema-v2.0.0-alpha.9 (2026-10-16); agents list re-counted at 43 as of 2026-10-17.
+- 2026-10-20 - The TypeScript SDK moved to a breaking 2.0.0 (2026-10-19): the legacy connection classes and connector helper were removed in favor of agent()/client() apps and stable protocol bindings became the default import surface, while the SDK's default protocol stays ACP v1 and both v2 entrypoints stay experimental; the Rust crate (3.4.0), the stable protocol at version 1 with the v1.12.0 / schema-v1.26.0 train of 2026-10-16, and the v2 alpha train at schema-v2.0.0-alpha.9 re-verified unchanged; agents list re-counted at 43 as of 2026-10-20.
 
 ## See also
 
@@ -97,6 +98,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 - https://github.com/agentclientprotocol/agent-client-protocol - Apache-2.0 repository, SDKs, stars as of 2026-10-13
 - https://agentclientprotocol.com/announcements/sdk-1-0-releases - the Rust and TypeScript SDKs at 1.0.0 (June 2026), fetched via the site's markdown mirror
 - https://crates.io/api/v1/crates/agent-client-protocol - the Rust SDK: latest 3.4.0, published 2026-10-16, as of 2026-10-17
-- https://registry.npmjs.org/@agentclientprotocol/sdk - the TypeScript SDK: latest 1.9.0, published 2026-10-16, as of 2026-10-17
+- https://registry.npmjs.org/@agentclientprotocol/sdk - the TypeScript SDK: latest 2.0.0, published 2026-10-19, as of 2026-10-20
+- https://raw.githubusercontent.com/agentclientprotocol/typescript-sdk/main/CHANGELOG.md - the TypeScript SDK 2.0.0 changelog: the removed connection classes, the stable-bindings default, and the unchanged v1 default protocol (fetched 2026-10-20)
 - https://blog.jetbrains.com/ai/2025/12/bring-your-own-ai-agent-to-jetbrains-ides/ - co-creation story, 25.3 beta, the UX trade-off admission
 - https://news.ycombinator.com/item?id=45074147 - launch thread criticism (LSP and MCP comparisons, protocol proliferation, name collision)

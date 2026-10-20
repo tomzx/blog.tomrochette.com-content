@@ -1,7 +1,7 @@
 ---
 title: Funes
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, local-first, mcp, hugging-face]
 readability: 3
@@ -25,7 +25,7 @@ Beyond the four maintained integrations the surfaces are a read-only MCP server 
 ## Status
 
 **Active, young, and moving fast, with adoption that is still mostly repository stars.**
-569 stars, 48 forks, and 12 open issues and pull requests on a repository created 2026-06-18 and pushed 2026-10-16, Apache-2.0, as of 2026-10-16 (GitHub API).
+569 stars, 48 forks, and 12 open issues and pull requests on a repository created 2026-06-18 and pushed 2026-10-19, Apache-2.0, as of 2026-10-20 (GitHub API).
 The release train runs weekly: v1.7.0 memories compaction (2026-10-07), v1.8.0 multilingual embedder (2026-10-08), and v1.9.0 GPU indexing and host binding (2026-10-14), with dacorvo holding 841 of the 891 recorded contributions.
 
 <picture>

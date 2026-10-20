@@ -1,7 +1,7 @@
 ---
 title: GBrain
 created: 2026-10-07
-updated: 2026-10-19
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, provenance, mcp, personal-knowledge]
 readability: 3
@@ -17,7 +17,7 @@ GBrain is Garry Tan's MIT-licensed personal agent-memory daemon: it stores expli
 
 ## What it is
 
-A local-first daemon ("your hardware, your DB, your keys") published under garrytan on GitHub, built in public to run the author's own OpenClaw and Hermes deployments.
+A local-first daemon ("your hardware, your DB, your keys") published under garrytan on GitHub, built in public to run the author's own OpenClaw and Hermes deployments, with a hosted team-workspace service at gbrain.io beside it.
 Pages are explicit markdown with sources; durable preferences and facts can be shared across agents while transient task state stays local.
 Retrieval starts keyless with keyword search, then layers semantic search, a typed knowledge graph with no-LLM auto-linking, and a synthesis layer that returns cited answers plus an explicit account of what the brain does not know yet.
 Remote access ships as one command: `gbrain mcp expose` publishes the brain over MCP on a Tailscale tailnet (with a funnel mode for cloud agents such as Grok Bot and ChatGPT).
@@ -27,7 +27,9 @@ A shared-brain skill catalog lets approved editors publish memory skills beside 
 ## Status
 
 **Active, single-author-plus-contributors, and unusually eval-disciplined for a personal project.**
-30,910 stars as of 2026-10-16 (GitHub API), with the repository pushed 2026-10-19, created 2026-04-05, MIT, as of 2026-10-19 (GitHub API), with five or more contributors and a companion garrytan/gbrain-evals repository (439 stars as of 2026-10-16, pushed 2026-10-18) holding dated benchmark reports.
+30,910 stars as of 2026-10-16 (GitHub API), with the repository pushed 2026-10-20, created 2026-04-05, MIT, as of 2026-10-20 (GitHub API), with five or more contributors and a companion garrytan/gbrain-evals repository (439 stars as of 2026-10-16, pushed 2026-10-20) holding dated benchmark reports.
+The README now fronts a hosted service, gbrain.io, a YC-backed team workspace ("Built by Garry Tan") that sells the same brain as a subscription, so the deployment model is no longer self-host-only.
+The release train has continued past the September refresh to v0.60.322.0 (2026-10-20), whose notes cover CI gate load rather than memory behavior.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=garrytan/gbrain&type=date&theme=dark&legend=top-left" />
@@ -55,7 +57,14 @@ The Hacker News record is modest: a 9-point memex launch thread (April 2026), a 
 
 ## Pricing
 
-Pricing does not apply: free and open under MIT, with the costs being your hardware, database, keys, and any configured cloud providers.
+The MIT daemon stays free, with the costs being your hardware, database, keys, and any configured cloud providers.
+The hosted service, gbrain.io, sells two plans as of 2026-10-20: Personal $49/month and Teams $199/month (the whole team in one workspace at no extra seat cost, with $100 of AI credit per month).
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-10-20 | Personal, Teams | Baseline: Personal $49/mo, Teams $199/mo (unlimited team seats, $100/mo AI credit); MIT daemon free. | [gbrain.io/pricing](https://gbrain.io/pricing) |
 
 ## Compared to
 
@@ -71,6 +80,7 @@ Not for teams needing supported infrastructure, contractual isolation, or a mult
 ## Changes
 
 - 2026-10-07 - Created from the 2026-10-07 awesome-list entrant scan, with seven fetched sources and the self-published-benchmark-plus-single-famous-user profile recorded as the critical angle.
+- 2026-10-20 - Recorded the hosted gbrain.io service the README now fronts (Personal $49/mo, Teams $199/mo, new Price history baseline) and the release train's continuation to v0.60.322.0.
 
 ## See also
 
@@ -88,3 +98,5 @@ Not for teams needing supported infrastructure, contractual isolation, or a mult
 - https://hn.algolia.com/api/v1/search?query=gbrain&tags=story - the discussion record (9-point April thread, 5-point May commentary, 23-point June skill thread)
 - https://api.github.com/repos/garrytan/gbrain/license - the MIT LICENSE file, verified through the GitHub API
 - https://hn.algolia.com/api/v1/items/48514124 - the 23-point third-party visualization-skill thread (2026-06-13), the largest community record
+- https://gbrain.io/?ref=readme - the hosted service's landing page: team workspaces, YC backing, and the plain-file memory positioning
+- https://gbrain.io/pricing - the hosted Personal $49/mo and Teams $199/mo plans and the $100/mo AI credit, as of 2026-10-20

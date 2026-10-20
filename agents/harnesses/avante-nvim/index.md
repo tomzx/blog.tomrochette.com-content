@@ -1,7 +1,7 @@
 ---
 title: Avante.nvim
 created: 2026-10-13
-updated: 2026-10-18
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, neovim, editor-agent]
 readability: 3
@@ -22,7 +22,7 @@ Development is active with CI on both Lua and Rust, a Discord community, and rap
 
 ## Status
 
-Established and maintained: 18,183 stars, 858 forks, and 53 open issues as of 2026-10-13, with the default branch pushed 2026-10-17 (GitHub API, re-checked 2026-10-18) and the newest tagged release v0.4.0 (2026-09-26), plugin installs generally tracking the branch.
+Established and maintained: 18,183 stars, 858 forks, and 53 open issues as of 2026-10-13, with the default branch pushed 2026-10-19 (GitHub API, re-checked 2026-10-20) and the newest tagged release v0.4.2 (2026-10-19, hours after v0.4.1 the same morning), which added GPT-6 model family support, an ACP session list for listing and resuming agent sessions from `:Avante`, and provider-switcher filters, and dropped out-of-repository templates in a breaking change, plugin installs generally tracking the branch.
 **Its adoption is the oldest story in this wave: a 300-point Hacker News launch thread in August 2024, sustained directory and community coverage since, which makes it one of the few editor-extension harnesses with a proven multi-year footprint.**
 The repository moved from the author's personal account to the avante-corp organization, the ordinary sign of a project outgrowing one maintainer.
 
@@ -68,6 +68,7 @@ Not for team governance needs, scheduled or cloud execution, or anyone unwilling
 
 - 2026-10-13 - Created.
 - 2026-10-13 - Corrected the star-history chart markup: the light source and fallback image dropped the dark-theme parameter to match the canonical chart block.
+- 2026-10-20 - Recorded the v0.4.1 and v0.4.2 releases (both October 19): GPT-6 model family support, ACP session list and resume, provider-switcher filters, and a breaking removal of out-of-repository templates.
 
 ## See also
 

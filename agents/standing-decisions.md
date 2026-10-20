@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-10-19
+updated: 2026-10-20
 status: finished
 tags: [agents]
 readability: 0
@@ -63,6 +63,7 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-12 (ruled 2026-09-21) | hybrid-execution | applications, runtime bridges, and name-alike tooling on a category member stay ecosystem evidence inside its note | jev-ultrafast folded into jev; jev-chat, vllm-jev, LLM2Jev held
 - 2026-09-21 (ruled 2026-09-18) | skills | session-portability tools are out of the skills scope | Skillsync rejected by four category runs
 - 2026-10-19 | cross-category | terminal-output theming mods for member tools are appearance edits with no category kind | prismantis (134 stars) rejected on it; the claude-code list's new Mods section is where future additions will land
+- 2026-10-20 | memory | the TeleAI list's thin-tail and closed-hosted new entries stay below the bar | Fraise (8 stars vs the 294 floor, no persistence, 1-point self-published Show HN) and MemorySync (closed hosted-only API, no open engine, 22-point self-published Show HN) rejected, reopen on traction, coverage, or an OSS engine
 
 ## Owner questions governing scope
 

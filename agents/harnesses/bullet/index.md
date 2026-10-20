@@ -1,7 +1,7 @@
 ---
 title: Bullet
 created: 2026-08-30
-updated: 2026-10-11
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, model-routing, benchmarks]
 readability: 3
@@ -18,16 +18,17 @@ Bullet is a closed-source coding agent (desktop app plus npm CLI) from a YC S26 
 
 Built by a YC S26 team (the site says "Backed by Y Combinator") whose founders' note describes the origin as frustration waiting on Claude Code at their previous company.
 The loop has three moves: route straightforward work to fast models and escalate only hard tasks, acquire context through targeted file reads (08% of the repo, by its own example) instead of embedding it, and execute independent tool calls in parallel while intercepting duplicates and stuck loops.
-It runs GPT-5.6 Sol underneath, per its benchmark page.
+It runs GPT-5.6 Sol underneath, per its benchmark page, with an optional Jev Mode since September 22, 2026 that hands loop decisions (inspect, edit, test, done) to the Jev decision model.
 Distribution is a desktop app (macOS, Linux, Windows) plus a Node 18+ CLI (`@trybullet/cli`, `npm install -g`, then `bullet`).
 It is closed source: the npm package is marked UNLICENSED, its declared repository URL is dead, and only a releases-only GitHub repository is public.
 
 ## Status
 
-v1.4.23 as of 2026-10-05, still the newest build on both the CLI registry and the desktop releases repository, published September 23, 2026.
-The CLI shipped on npm on August 7, 2026 and did 1,521 downloads in the last month (the API window covering September 11-October 10) and 13 in the week ending October 10 as of 2026-10-12, a steep drop from the prior windows after the first decline this note recorded two weeks earlier.
+v1.4.23 as of 2026-10-20, still the newest build on both the CLI registry and the desktop releases repository, published September 23, 2026.
+The CLI shipped on npm on August 7, 2026 and did 936 downloads in the last month (the API window covering September 19 to October 18) and 45 in the week ending October 18 as of 2026-10-20, so the monthly count keeps falling but the weekly count rebounded from the 13 recorded two weeks earlier.
 Its Launch HN on August 13, 2026 reached 121 points (item 49283063), nine days after a quiet 9-point Show HN.
-Traction is early and now drifting down: thousands of installs, not millions, with YC backing as the deliberately stated signal behind it.
+Traction is early and drifting: thousands of installs, not millions, with YC backing as the deliberately stated signal behind it.
+Since September 22, 2026 the app also carries a Jev Mode, free: the Jev decision model runs the agent loop (what to inspect, what to edit, what to test, and whether the task is done) so the coding model can focus on writing code.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trybullet/bullet-releases&type=date&theme=dark&legend=top-left" />
@@ -50,7 +51,7 @@ Traction is early and now drifting down: thousands of installs, not millions, wi
 
 ## Pricing
 
-Free access today, explicitly with no subscriptions, as of 2026-09-18.
+Free access today, explicitly with no subscriptions, re-verified unchanged against the site as of 2026-10-20.
 
 ## Compared to
 
@@ -73,6 +74,7 @@ I think speed is the wrong axis for buying a coding agent, and a 119-second mean
 - 2026-09-24 - Moved the current build to v1.4.23 (published September 23, 2026); npm download counts are unchanged on the same API windows.
 - 2026-10-07 - Added the trybullet/bullet-releases star history chart to the Status section.
 - 2026-10-11 - Refreshed the npm download windows and recorded the weekly count dropping from 106 to 14, ending the flat stretch the note had recorded.
+- 2026-10-20 - Rotation re-verification: refreshed the npm download windows (monthly 1,521 to 936, weekly rebounding 13 to 45), recorded the September 22 Jev Mode integration, and re-verified every cited URL.
 
 ## See also
 
@@ -83,8 +85,9 @@ I think speed is the wrong axis for buying a coding agent, and a 119-second mean
 
 ## References
 
-- https://www.codewithbullet.com - product surface, YC badge, CLI install, free access as of 2026-10-04
+- https://www.codewithbullet.com - product surface, YC badge, CLI install, free access as of 2026-10-20
 - https://www.codewithbullet.com/blog/benchmark-results.html - the SWE-bench Verified run: 479/500, 119 s mean, $0.73 per instance
+- https://www.codewithbullet.com/blog/jev-in-bullet.html - the September 22, 2026 Jev Mode announcement: the decision model runs the agent loop, free
 - https://registry.npmjs.org/@trybullet%2Fcli - CLI version, UNLICENSED marker, and dead repository URL
 - https://api.npmjs.org/downloads/point/last-month/@trybullet/cli - 1,521 monthly downloads (window September 11 to October 10) as of 2026-10-12
 - https://api.npmjs.org/downloads/point/last-week/@trybullet/cli - 13 weekly downloads (window October 4 to October 10) as of 2026-10-12

@@ -1,7 +1,7 @@
 ---
 title: OpenViking
 created: 2026-10-07
-updated: 2026-10-19
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, context-database, file-based, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint even more than this category's usual pattern.**
-40,037 stars with the repository pushed 2026-10-19, created 2026-01-05, as of 2026-10-19 (GitHub API).
+40,037 stars with the repository pushed 2026-10-20, created 2026-01-05, as of 2026-10-20 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&theme=dark&legend=top-left" />
@@ -34,8 +34,8 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&theme=dark&legend=top-left" />
 </picture>
 
-Latest release v0.5.0 (2026-10-09) alongside python-sdk 0.1.15 (2026-10-13, adding BatchWriteOptions.skip_conflicts and grep(level_limit)) and go sdk v0.0.5, per the GitHub releases API.
-v0.5.0 adds the OpenViking Gateway (beta): a standalone proxy process on port 1935 that any model client with a configurable base URL can point at, injecting profile, memory, and skill context without plugins or prompt changes, supporting the Anthropic Messages, OpenAI Chat Completions, and OpenAI Responses protocols, and replaying injected content byte-for-byte so provider prompt caches and thinking signatures stay valid.
+Latest release v0.5.1 (2026-10-19, 151 commits after v0.5.0, with API deletions and storage-format changes called out in the notes) alongside python-sdk 0.1.15 (2026-10-13, adding BatchWriteOptions.skip_conflicts and grep(level_limit)) and go sdk v0.0.5, per the GitHub releases API.
+v0.5.0 adds the OpenViking Gateway (beta): a standalone proxy process on port 1935 that any model client with a configurable base URL can point at, injecting profile, memory, and skill context without plugins or prompt changes, supporting the Anthropic Messages, OpenAI Chat Completions, and OpenAI Responses protocols, and replaying injected content byte-for-byte so provider prompt caches and thinking signatures stay valid; v0.5.1 can run that gateway inside the OpenViking server itself and adds field-level privacy references, expanded batch-write options, and multimodal retrieval.
 Development and writing are both active: the 108-page documentation site and the project blog are current (the latest post, a three-minute evaluation test, dates to 2026-10-03).
 The Hacker News record is a single 2-point thread from March 2026, so a 39k-star repository in nine months ran on trend cycles and ByteDance's ecosystem rather than public scrutiny.
 
@@ -72,6 +72,7 @@ Not for proprietary SaaS embedding, and not for buyers who need published hosted
 
 - 2026-10-07 - Created from the 2026-10-07 awesome-list entrant scan, with seven fetched sources and the AGPL-plus-no-independent-benchmark combination recorded as the critical angle.
 - 2026-10-10 - Recorded v0.5.0 (October 9) with the OpenViking Gateway beta (a base-URL proxy that injects memory without plugins while preserving provider prompt caches) and python-sdk 0.1.14; refreshed stars to 39,565.
+- 2026-10-20 - Recorded v0.5.1 (October 19, 151 commits after v0.5.0): the gateway can now run inside the OpenViking server, with field-level privacy references, expanded batch-write options, and multimodal retrieval, and the release notes call out API deletions and storage-format changes.
 
 ## See also
 

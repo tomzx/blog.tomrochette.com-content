@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-10-17
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -24,7 +24,7 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 ## Status
 
 **Active under new ownership.**
-The repository shows about 27.6k stars under MIT as of 2026-10-15, most recently pushed on the day of verification; component tags ship on their own clocks (the newest stable is v7.8.12, published October 15, 2026, routing Kilo Gateway traffic through `ai-gateway.kilo.ai` by default with a `KILO_AI_GATEWAY_URL` override, with v7.8.13 and v7.8.14 prereleases following on October 16, and the jetbrains component riding its own train at v7.1.11, published October 16).
+The repository shows about 27.6k stars under MIT as of 2026-10-15, most recently pushed on the day of verification; component tags ship on their own clocks (the newest stable is v7.8.15, published October 19, 2026, which made the `browser_open` permission prompt able to remember a choice as an always-allow rule for the current or all origins and listed `browser_open` in Auto-Approve settings, after v7.8.12 routed Kilo Gateway traffic through `ai-gateway.kilo.ai` by default with a `KILO_AI_GATEWAY_URL` override, and the jetbrains component riding its own train at v7.1.11, published October 16).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Kilo-Org/kilocode&type=date&theme=dark&legend=top-left" />
@@ -93,6 +93,7 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 - 2026-10-12 - Recorded Anaconda's October 6 AI Dev Factory announcement, which names Kilo the primary AI workspace, launches Kilo Desktop for local development, brings agent swarms to VS Code through Kilo, and adds Sign in with ChatGPT across Kilo surfaces; pricing re-verified unchanged against the live page.
 - 2026-10-13 - Recorded the v7.8.9 prerelease (published October 13) following the v7.8.8 stable, and refreshed repository scale.
 - 2026-10-17 - Recorded the stable train reaching v7.8.12 (published October 15, routing Kilo Gateway traffic through ai-gateway.kilo.ai by default with a KILO_AI_GATEWAY_URL override), the v7.8.13 and v7.8.14 prereleases (October 16), and the jetbrains component reaching v7.1.11 (October 16).
+- 2026-10-20 - Recorded v7.8.15 as the newest stable (October 19), which added always-allow choices and an Auto-Approve listing for the browser_open permission prompt.
 
 ## See also
 

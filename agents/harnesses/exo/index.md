@@ -1,7 +1,7 @@
 ---
 title: "Exo"
 created: 2026-09-05
-updated: 2026-10-17
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agent, self-improvement, rust]
 readability: 3
@@ -21,7 +21,7 @@ The design philosophy is documented in the repository's RSI.md, "A Systems View 
 
 ## Status
 
-Active: created 2026-05-20, 1,505 stars and 114 forks, pushed 2026-10-16 (GitHub API, as of 2026-10-17).
+Active: created 2026-05-20, 1,505 stars and 114 forks, pushed 2026-10-20 (GitHub API, as of 2026-10-20).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=exoharness/exo&type=date&theme=dark&legend=top-left" />

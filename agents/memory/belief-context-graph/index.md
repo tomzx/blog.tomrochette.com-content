@@ -1,7 +1,7 @@
 ---
 title: Belief Context Graph
 created: 2026-10-16
-updated: 2026-10-19
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, belief, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The docs state the project boundaries plainly: no production graph-database adap
 ## Status
 
 **Active, young, and research-institute-led, with adoption still near zero.**
-224 stars, 2 forks, 0 tagged releases, and 8 contributors on a repository created 2026-06-03 and pushed 2026-10-19, MIT, as of 2026-10-19 (GitHub API); the repository was renamed from `bigai-nlco/bcg`, which still resolves.
+224 stars, 2 forks, 0 tagged releases, and 8 contributors on a repository created 2026-06-03 and pushed 2026-10-20, MIT, as of 2026-10-20 (GitHub API); the repository was renamed from `bigai-nlco/bcg`, which still resolves.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bigai-nlco/belief-context-graph&type=date&theme=dark&legend=top-left" />

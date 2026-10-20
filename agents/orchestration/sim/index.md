@@ -1,7 +1,7 @@
 ---
 title: Sim
 created: 2026-09-29
-updated: 2026-10-18
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -22,7 +22,7 @@ The repo sits at 29,812 stars with 3,853 forks, Apache-2.0, created 2025-01-05, 
 
 ## Status
 
-Active: last push 2026-10-17, releases v0.9.15 through v0.9.25 on 2026-10-08 through 2026-10-16 plus v0.9.26 on 2026-10-17 (library templates and expanded Databricks API coverage) (GitHub API, as of 2026-10-18), the newest three of the earlier run adding project-files public sharing and cross-owner transfers, scoped note-access authorization, and library guides.
+Active: last push 2026-10-20, releases v0.9.15 through v0.9.25 on 2026-10-08 through 2026-10-16 plus v0.9.26 on 2026-10-17 (library templates and expanded Databricks API coverage), v0.9.27 on 2026-10-19 (a Harvest connection over a customer-owned API credential), and v0.9.28 on 2026-10-20 (comparison-guide library entries naming Retool, Dust, and Flowise alternatives) (GitHub API, as of 2026-10-20), the newest three of the earlier run adding project-files public sharing and cross-owner transfers, scoped note-access authorization, and library guides.
 v0.9.15 (October 8) added SSO administration and credential-sharing APIs, current frontier models, a Nebius Token Factory provider, and desktop background-executor chats bound to a device registry, and v0.9.16 (October 8) patched a sharp librsvg CVE and an MCP SDK OAuth issuer binding while adding GitHub MCP server library entries.
 v0.9.17 (October 10) added a workspace changelog of releases, workflow tests as a workspace resource, expanded Shopify operations, and a Checkr integration (GitHub releases).
 v0.9.18 (October 11) added library templates for HubSpot lead-enrichment and Pipedrive deal-follow-up agents, moved project membership to the workspace column, and shipped a performance pass (keyset table paging, non-blocking auth timestamp writes, concurrent Lucid page fetches) (GitHub releases).
@@ -89,6 +89,8 @@ Not for coding-agent orchestration, and not for anyone needing long-term API sta
 - 2026-10-11 - Corrected the plan details against the live pricing page (rendered this run after the 2026-10-10 client-shell record): Free is one workspace with no weekly refresh, and SSO, SOC 2, self-hosting, and dedicated support are Enterprise-only; recorded the Pro and Max weekly-refresh allowances.
 - 2026-10-12 - Recorded v0.9.18 (October 11, library templates, workspace-column project membership, and a performance pass) as the new latest release.
 - 2026-10-13 - Recorded v0.9.19 (October 12, the Nebius changelog publish and Stripe, HubSpot, Confluence, and version-control library templates) as the new latest release.
+
+- 2026-10-20 - Recorded v0.9.27 (2026-10-19) and v0.9.28 (2026-10-20) on the release train.
 
 ## See also
 

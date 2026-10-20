@@ -22,7 +22,7 @@ Persistent memory for agents: the file conventions, the portable format, the cap
 - [EverOS](everos/index.md) - EverMind's Apache-2.0 local-first runtime where markdown files stay the source of truth with SQLite and LanceDB indexes beside them, separate user and agent tracks, and an unpublished-price managed cloud.
 - [File-based agent memory](file-based-agent-memory/index.md) - the CLAUDE.md and AGENTS.md conventions, memory as plain markdown files.
 - [Funes](funes/index.md) - Hugging Face's Apache-2.0 verbatim session-memory index: one local Lance dataset under Claude Code, Codex, pi, and Hermes, pull-only recall with exact provenance, and publication of the memory as your own Hub dataset.
-- [GBrain](gbrain/index.md) - Garry Tan's MIT personal brain daemon: provenance-tagged markdown pages with corrections and withdrawal, MCP-served to any agent, with published eval receipts.
+- [GBrain](gbrain/index.md) - Garry Tan's MIT personal brain daemon: provenance-tagged markdown pages with corrections and withdrawal, MCP-served to any agent, with published eval receipts and a hosted team-workspace tier.
 - [Hindsight](hindsight/index.md) - Vectorize's MIT memory engine (facts, observations, knowledge pages) behind retain, recall, and reflect, 50.1k stars, with per-run benchmark artifacts and a pay-as-you-go cloud.
 - [Letta](letta/index.md) - the MemGPT creators' memory-first platform, agent plus cloud tier.
 - [LongMemory](longmemory/index.md) - CaviraOSS's Apache-2.0 temporal memory engine: immutable, provenance-carrying memories in SQLite with point-in-time recall and governed scopes, self-hosted with MCP and a dashboard.
