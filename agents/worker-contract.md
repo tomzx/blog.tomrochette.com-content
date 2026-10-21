@@ -5,7 +5,7 @@ build:
   publishResources: false
 title: Worker contract
 created: 2026-10-16
-updated: 2026-10-18
+updated: 2026-10-21
 status: finished
 tags: [agents]
 readability: 0
@@ -20,10 +20,11 @@ The rules here mirror `agents/AGENTS.md`; that file stays canonical, and the dai
 ## Reads
 
 1. `agents/worker-contract.md` (this file).
-2. `agents/standing-decisions.md`, the scope digest: standing rejections, family scopes, routing precedents, re-review triggers. Consult it before any admission or rejection.
-3. Your work list at `agents/worklists/<category>.yaml`: members with slugs, titles, subject repositories, and last-verified dates, the mapped sources with their last-checked dates, and the queue questions governing the scope.
+2. Your work list at `agents/worklists/<category>.yaml`: members with slugs, titles, subject repositories, and last-verified dates, the mapped sources with their last-checked dates, the queue questions governing the scope, and `digest_lines`, the slice of `agents/standing-decisions.md` naming this category or cross-category scope.
+3. Your dispatch file at `/tmp/opencode/agent-reports/dispatch-<scope>.txt`: the scope, scope path, run date, mapped sources, and any coordinator handoffs.
 
-The dispatch message names your category, the repo-root path, your scope path, and any extra context.
+`agents/standing-decisions.md` is consult-on-demand: read it whole only when the work list's digest slice lacks a ruling you actually need.
+The dispatch file plus the dispatch message name your category, the repo-root path, your scope path, and any extra context.
 Do not read `agents/AGENTS.md`, `agents/queue.md`, or `agents/_index.md`; everything you need from them is here or in the work list.
 Consult the log under `agents/logs/` only on demand, when the digest and the work list lack history you actually need; no run requires you to read it.
 
@@ -90,7 +91,18 @@ Set `updated:` to the run date on any revision.
 
 ## Report
 
-Reply with: every file changed or created (one line each), the proposed log lines (terse outcomes only, one line per change), each entrant candidate resolved or rejected with a one-line reason, cross-category flags (report only), and anything you could not finish and why.
+Write the full report to `/tmp/opencode/agent-reports/<scope>-<date>.md` before replying, with exactly these sections, terse, no prose:
+
+- `## Files changed` - one `- <path> - <what changed>` line per file.
+- `## Log lines` - one ready-to-paste `- <log line>` bullet per outcome, each starting with the slug (or `<category>: ` for a category-level outcome), in the day log's terse style.
+- `## Sources scanned` - one `- <owner/repo>` line per mapped source you fetched this run, unchanged sources included (the coordinator bumps last_checked from this).
+- `## Entrant resolutions` - one line per candidate admitted or rejected, with the reason.
+- `## Digest lines` - proposed `agents/standing-decisions.md` lines in the digest's `- YYYY-MM-DD | category | decision | reason` format, proposals only.
+- `## Flags` - one `- <category>: <text>` line per cross-category observation.
+- `## Queue bullets` - proposed `? for tom:` lines, proposals only.
+- `## Unfinished` - what you could not finish and why, or `none`.
+
+End the chat reply with a five-line summary: scope, completion status, changed-file count, admissions and rejections in one line, flags in one line. Never paste the full report into the reply.
 
 ## Variants
 
