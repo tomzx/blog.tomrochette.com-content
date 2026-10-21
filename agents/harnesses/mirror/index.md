@@ -10,7 +10,8 @@ audience_notes: >
   Assumes you know what a git worktree, MCP, AGENTS.md, and a per-token API bill are.
 ---
 
-**Mirror is Reflection's terminal coding agent, and it is the first harness in this section whose vendor also publishes the default model's weights, so the whole stack from weights to agent can be self-hosted and audited.**
+**Mirror is Reflection's entrant into the vendor-harness pattern, and its bet is the workspace rather than the conversation: one session holds several agents, each with its own model, reasoning effort, and approval mode, in its own worktree or microVM.**
+Like DeepSeek Harness, Kimi Code, Qwen Code, and ZCode, it pairs an open harness with a vendor whose default model ships as open weights, so openness alone does not distinguish it; the multi-workspace session does.
 
 ## What it is
 
@@ -36,7 +37,7 @@ The version line is still 0.1.x: one tagged release on GitHub (`mirror-agent-v0.
 
 ## Strengths
 
-- The default model is open: Beam 1.0 ships under Apache 2.0 on Hugging Face with SGLang, vLLM, TokenSpeed, and Kubernetes recipes, so pointing Mirror at your own serving endpoint is a supported path, which Claude Code and Codex cannot offer for their default models.
+- The default model is open: Beam 1.0 ships under Apache 2.0 on Hugging Face with SGLang, vLLM, TokenSpeed, and Kubernetes recipes, so pointing Mirror at your own serving endpoint is a supported path, which the closed big-vendor harnesses cannot offer for their default models, and the same `--api` switch reaches Reflection, OpenRouter, OpenAI, Anthropic, a ChatGPT plan, or a local server without changing tools.
 - Workspaces are the parallelism primitive rather than a separate product: `/worktree` and `/sandbox` create independent checkouts, each tab carries the agent's status, and a message typed mid-turn is queued instead of dropped.
 - Extensions are the product: the model picker, connections, repository line, context meter, and memory are all bundled extensions, so the surface is inspectable and the agent can write its own tools once `user_extensions` is on.
 - Experiments are cheap to reverse: `/rewind` edits an earlier prompt and branches the conversation, and each workspace keeps its own model, effort, and approval mode, so a controller session and an auto-approving one can coexist.
@@ -69,6 +70,7 @@ Web search and page reading need a separate Firecrawl API key, priced by Firecra
 - [Pi](../pi/index.md): the closest philosophical match, both betting that the harness should be extended in code rather than configured through flags; Pi has the frozen core plus TypeScript extensions and a longer track record, while Mirror has the early-beta Python extension API and a vendor model you can download.
 - [OpenCode](../opencode/index.md): the provider-neutral option with the leanest measured token baseline; choose OpenCode when the model roster matters more than any one vendor's tuning, and Mirror when you want Reflection's agent paired with Reflection's open weights.
 - [Codex](../codex/index.md): the other vendor-owned terminal agent, bundled into a ChatGPT plan and far better tested; Mirror is 0.1.x with metered API billing and no subscription to inherit.
+- [DeepSeek Harness](../deepseek-harness/index.md): the same open-harness-over-open-weights pattern pushed to its limit, MIT and everything-a-plugin but prerelease-only; Mirror trades that plugin depth for per-workspace agents, a sandbox option, and ACP.
 
 ## Bottom line
 
@@ -78,6 +80,7 @@ Not for teams that need a mature, independently benchmarked agent, native Window
 ## Changes
 
 - 2026-10-21 - Created from the owner's entrant question: repository, model defaults, workspaces, extensions, instructions and skills, MCP, CLI reference, and pricing sources all fetched the same day.
+- 2026-10-21 - Corrected the opening claim: DeepSeek Harness, Kimi Code, Qwen Code, and ZCode are also vendor harnesses whose makers publish open weights, so openness does not distinguish Mirror; the thesis now names the multi-workspace session and the vendor-entrant pattern instead.
 
 ## See also
 
