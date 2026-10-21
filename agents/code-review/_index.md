@@ -19,7 +19,7 @@ Where machines judge pull requests: the review bots, the open-source reviewers, 
 - [multi](multi/index.md) - the solo MIT plugin that runs one review through several model backends and sorts the findings by how many model families corroborated them.
 - [OpenCodeReview](open-code-review/index.md) - Alibaba's hybrid reviewer where deterministic pipelines pick and rule-check what the LLM agent judges, precision over recall.
 - [OpenQodex](openqodex/index.md) - Qodex.ai's Apache-2.0 pre-push reviewer: pinned scanners plus a separate Claude Code or Codex process, free on your own agent subscription.
-- [OpenReview](openreview/index.md) - Vercel Labs' dormant beta: a self-hosted @mention review bot on Vercel Sandbox, unlicensed and quiet since March 2026.
+- [OpenReview](openreview/index.md) - Vercel Labs' dormant beta: a self-hosted @mention review bot on Vercel Sandbox, a bare README MIT claim with no license file, quiet since March 2026.
 - [Qodo](qodo/index.md) - the open-core reviewer, MIT PR-Agent you can self-host or paid Qodo Merge, both sides covered by Kudelski's exploit research.
 - [roborev](roborev/index.md) - Wes McKinney's MIT background review daemon that reviews every commit with your own coding agents and holds findings in a ledger until addressed.
 - [Sourcery](sourcery/index.md) - the MIT-lineage static-analysis tool turned proprietary AI reviewer, free for open source and $12 for private repos.

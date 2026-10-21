@@ -1,7 +1,7 @@
 ---
 title: Yolobox
 created: 2026-10-09
-updated: 2026-10-18
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, containers, docker, isolation, open-source]
 readability: 3
@@ -24,7 +24,8 @@ MIT, solo author (Finbarr), docs at yolobox.dev.
 
 ## Status
 
-Young and shipping hard: 649 stars as of 2026-10-13, pushed 2026-10-18, created 2026-01-09, with sixty-seven releases on the train and v0.19.8 (2026-10-18) the latest.
+Young and shipping hard: 649 stars as of 2026-10-13, pushed 2026-10-20, created 2026-01-09, with sixty-nine releases on the train and v0.19.10 (2026-10-20) the latest.
+The two newest fixes keep the agent's own channel clean: v0.19.9 unblocked the first-launch OpenCode startup stuck on an invisible setup prompt, and v0.19.10 kept image pull and build progress off stdout so a pull can no longer inject into the ACP client's protocol stream or consume its first request.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=finbarr/yolobox&type=date&theme=dark&legend=top-left" />
@@ -69,6 +70,7 @@ Not for hostile code, by its own docs, and not on hosts where Docker is unavaila
 - 2026-10-09 - Created from the arjan/awesome-agent-sandboxes re-scan, profiling the container wrapper for full-permission agent runs with the docs' accidents-not-attackers ceiling.
 - 2026-10-10 - Corrected the release-train count from thirty to sixty-six (the v0.1.0 through v0.19.7 releases list, fetched in full), the original figure having counted a single page; stars and the 122-point thread unchanged.
 - 2026-10-18 - Recorded v0.19.8 (2026-10-18, OpenCode launch fixes in the base image and smoke tests), the release train moving from sixty-six to sixty-seven, with the repository pushed 2026-10-18; stars untouched per the exemption.
+- 2026-10-20 - Recorded v0.19.9 (2026-10-18, the first-launch OpenCode startup fix for the invisible setup prompt) and v0.19.10 (2026-10-20, image pull and build progress kept off stdout so ACP client protocol streams stay clean), the release train moving from sixty-seven to sixty-nine; stars untouched per the exemption.
 
 ## See also
 
@@ -84,4 +86,6 @@ Not for hostile code, by its own docs, and not on hosts where Docker is unavaila
 - https://yolobox.dev - the docs site and the problem-and-solution framing
 - https://yolobox.dev/security - the Security Model page: trust boundary, protects and does-not-protect lists, trust-expanding flags
 - https://hn.algolia.com/api/v1/items/46592344 - the 122-point Show HN launch
-- https://api.github.com/repos/finbarr/yolobox/releases - the sixty-six-release train from v0.1.0 (2026-01-11) to v0.19.7 (2026-10-07)
+- https://api.github.com/repos/finbarr/yolobox/releases - the release train, sixty-nine releases from v0.1.0 (2026-01-11) to v0.19.10 (2026-10-20)
+- https://api.github.com/repos/finbarr/yolobox/releases/tags/v0.19.9 - the v0.19.9 release note: the first-launch OpenCode startup fix
+- https://api.github.com/repos/finbarr/yolobox/releases/tags/v0.19.10 - the v0.19.10 release note: image pull and build progress off the ACP stdout stream

@@ -1,7 +1,7 @@
 ---
 title: Kodus
 created: 2026-08-30
-updated: 2026-10-17
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -10,13 +10,13 @@ audience_notes: >
   comfortable reading a dual license and comparing a BYOK platform fee against per-seat SaaS.
 ---
 
-Kodus is an open-source AI code reviewer named Kody (AGPL-3.0 plus a commercial enterprise-edition dual license) that reviews pull requests on GitHub, GitLab, Bitbucket, and Azure Repos, self-hosted or via Kodus Cloud, with whatever model you bring.
+Kodus is an open-source AI code reviewer named Kody (AGPL-3.0 plus a commercial enterprise-edition dual license) that reviews pull requests on GitHub, GitLab, Bitbucket, Azure Repos, and Forgejo/Gitea, self-hosted or via Kodus Cloud, with whatever model you bring.
 
 ## What it is
 
 **The pitch is control: your model, your keys, your costs, with zero markup on tokens.**
 The README frames Kody as learning your team's workflow and reviewing for quality, security, and performance, with custom rules written in plain language.
-Surfaces are PR comments on all four major forges, a CLI for local and CI runs, and Kodus Cloud (app.kodus.io) for teams that do not want to operate it.
+Surfaces are PR comments on five git providers (GitHub, GitLab, Bitbucket, Azure Repos, and Forgejo/Gitea per the docs and homepage FAQ), a CLI for local and CI runs, and Kodus Cloud (app.kodus.io) for teams that do not want to operate it.
 BYOK covers OpenAI, Anthropic, Google Gemini, Vertex AI, Novita, and any OpenAI-compatible endpoint, and the README names Claude, GPT-5, Gemini, Llama, GLM, and Kimi as options.
 
 ## Status
@@ -29,7 +29,7 @@ BYOK covers OpenAI, Anthropic, Google Gemini, Vertex AI, Novita, and any OpenAI-
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kodustech/kodus-ai&type=date&legend=top-left" />
 </picture>
 
-The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on October 17, 2026.
+The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on October 20, 2026.
 Funding: I could not verify any funding round from a primary source, so I record none.
 The community footprint is thin, and I state that as a finding: five HN launches between 1 and 5 points, the largest being a 5-point Show HN for the CLI (47248299, March 4, 2026) and a 4-point one for the AGPL/BYOK repositioning (48049508, May 7, 2026).
 A Discord community exists, but I found no independent reviews or benchmarks corroborating the quality claims.
@@ -37,7 +37,7 @@ A Discord community exists, but I found no independent reviews or benchmarks cor
 ## Strengths
 
 - **Model-agnostic BYOK with a published zero-markup price calculator, which no incumbent in this category offers.**
-- Forge breadth matches the category default: GitHub, GitLab, Bitbucket, and Azure Repos.
+- Forge breadth matches the category's widest: GitHub, GitLab, Bitbucket, Azure Repos, and Forgejo/Gitea, the same five-provider spread PR-Agent covers.
 - Real self-hosting, with a deploy guide and a documented one-heartbeat-per-day anonymous telemetry opt-out.
 - **The vendor now publishes measurements instead of only claims: CodeReviewBench scores models on actual PR diffs (30 PRs, 95 confirmed bugs, best recall 44.2 percent, every scorecard versioned in a repo), the State of AI Code Review report analyzes 180,739 production suggestions (71.8 percent of flagged PRs merge with a flag open), and a tools benchmark runs Kody against CodeRabbit, GitHub Copilot, and Cursor on the same 38 known-issue PRs with Kody first at 30 of 38 and every run's PR public, all under a stated vendor-run disclosure.**
 - CLI plus CI/CD support puts review in the pipeline, not just in PR comments.
@@ -84,6 +84,7 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 - 2026-10-07 - Added the kodustech/kodus-ai star history chart to the Status section.
 - 2026-10-07 - Recorded the vendor's new research surfaces (CodeReviewBench and the State of AI Code Review report) in Strengths and Cautions with the vendor-run caveat, and refreshed the repo to 1,452 stars pushed October 7.
 - 2026-10-11 - Recorded the vendor's third research surface, the tools benchmark against CodeRabbit, GitHub Copilot, and Cursor (Kody first at 30 of 38 known issues), noted its self-favoring design and self-contradictory methodology text in Cautions, and refreshed repo counts.
+- 2026-10-20 - Rotation re-verification: corrected forge breadth to five providers (the docs and homepage FAQ name Forgejo/Gitea alongside GitHub, GitLab, Bitbucket, and Azure Repos; the note said four), moved the push date to October 20 with no release after web-1.2.7, and re-fetched every cited URL live; prices, tiers, and benchmark figures unchanged.
 
 ## See also
 
@@ -95,13 +96,13 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 
 ## References
 
-- https://github.com/kodustech/kodus-ai - repo, 1,461 stars, 172 forks, AGPL-3.0 + EE dual license, pushed October 17, 2026 (GitHub API, as of 2026-10-11, push date re-checked 2026-10-17; latest release web-1.2.7, October 6)
-- https://kodus.io/ - product page and positioning
-- https://kodus.io/pricing/ - Community free, Teams BYOK $10/dev, Enterprise custom, no-markup FAQ, as of 2026-10-02, re-verified unchanged 2026-10-11
-- https://codereviewbench.com/ - the vendor-run model benchmark: 30 PRs, 95 golden bugs, best recall 44.2 percent, single-harness disclosure, fetched 2026-10-07, re-verified 2026-10-11
-- https://kodus.io/benchmark-ai-code-review/ - the vendor-run tools benchmark: Kody 30 of 38 known issues, Cursor 22, Copilot 20, CodeRabbit 15, per-run PRs public, methodology text internally inconsistent, fetched 2026-10-11
-- https://kodus.io/data/ - the State of AI Code Review report: 180,739 suggestions, 71.8 percent of flagged PRs merged with a flag open, CC BY 4.0, fetched 2026-10-07
-- https://docs.kodus.io/ - documentation hub and self-host guide
+- https://github.com/kodustech/kodus-ai - repo, 1,461 stars, 172 forks, AGPL-3.0 + EE dual license, pushed October 20, 2026 (GitHub API, as of 2026-10-11, push date re-checked 2026-10-20; latest release still web-1.2.7, October 6)
+- https://kodus.io/ - product page and positioning; the supported-providers FAQ names GitHub, GitLab, Bitbucket, Azure DevOps, and Forgejo/Gitea, fetched 2026-10-20
+- https://kodus.io/pricing/ - Community free, Teams BYOK $10/dev, Enterprise custom, no-markup FAQ, as of 2026-10-02, re-verified unchanged 2026-10-11 and 2026-10-20
+- https://codereviewbench.com/ - the vendor-run model benchmark: 30 PRs, 95 golden bugs, best recall 44.2 percent, single-harness disclosure, fetched 2026-10-07, re-verified 2026-10-11 and 2026-10-20
+- https://kodus.io/benchmark-ai-code-review/ - the vendor-run tools benchmark: Kody 30 of 38 known issues, Cursor 22, Copilot 20, CodeRabbit 15, per-run PRs public, methodology text internally inconsistent, fetched 2026-10-11, re-fetched unchanged 2026-10-20
+- https://kodus.io/data/ - the State of AI Code Review report: 180,739 suggestions, 71.8 percent of flagged PRs merged with a flag open, CC BY 4.0, fetched 2026-10-07, re-fetched unchanged 2026-10-20
+- https://docs.kodus.io/ - documentation hub and self-host guide; the integration card names GitHub, GitLab, Bitbucket, Azure Repos, and Forgejo, re-fetched 2026-10-20
 - https://docs.kodus.io/how_to_deploy/en/deploy_kodus/telemetry - self-hosted anonymous heartbeat and opt-out
 - https://hn.algolia.com/api/v1/items/43572816 - Show HN launch, 3 points, April 3, 2025
 - https://hn.algolia.com/api/v1/items/48049508 - Show HN, AGPLv3/BYOK, 4 points, May 7, 2026

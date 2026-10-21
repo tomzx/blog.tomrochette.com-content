@@ -1,7 +1,7 @@
 ---
 title: OpenReview
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -41,7 +41,7 @@ No shutdown notice exists; the repository simply stopped.
 
 ## Cautions
 
-- **No license file exists: the GitHub API reports none, so the code is publicly viewable but all rights are reserved by default, and "open-source" in the tagline overstates it.**
+- **The license story is weaker than the tagline: the README's closing line declares MIT, but no LICENSE file exists (the GitHub API reports none), so there is no license text defining what that one-word grant covers, and "open-source" overstates what an adopter can rely on.**
 - Dormant since March 6, 2026, with the beta warning still standing and nobody maintaining it.
 - Vercel-dependent by design (Sandbox, Upstash KV, the deploy flow), so forking it means porting off Vercel's own primitives.
 - Quality evidence is absent: no benchmark, no independent assessment, and a four-point launch thread.
@@ -60,12 +60,13 @@ Does not apply: OpenReview is free to deploy, with costs sitting in your Vercel 
 
 **Recommended for nobody as a dependency, and for anyone studying what vendor-labs review bots look like when the lab moves on.**
 Not for teams that need a license, updates, or support.
-My disagreeable take: an unlicensed repo tagged open-source is a trap for exactly the adopters stars attract, and shipping it without a LICENSE file is the cautionary fact here, more than the dormancy.
+My disagreeable take: a one-word MIT line with no license file is barely better than no license at all, and it is a trap for exactly the adopters stars attract, because they will assume the badge they know; the cautionary fact here is the missing LICENSE file, more than the dormancy.
 
 ## Changes
 
 - 2026-10-11 - Created after the entrant scan resolved the vercel-labs/openreview candidate from the GitHub topic search; six sources fetched this run, including the no-license API check.
 - 2026-10-11 - Added the star history chart.
+- 2026-10-20 - Rotation re-verification: corrected the license finding, the README's closing line declares MIT, but the repo still ships no license file (the API still reports none), so the grant is a bare claim rather than an absent one; dormancy re-confirmed (still pushed March 6, zero releases).
 
 ## See also
 
@@ -77,9 +78,9 @@ My disagreeable take: an unlicensed repo tagged open-source is a trap for exactl
 
 ## References
 
-- https://github.com/vercel-labs/openreview - repo facts: 1,696 stars, 121 forks, created 2026-03-02, pushed 2026-03-06, no license detected (GitHub API, as of 2026-10-11)
-- https://raw.githubusercontent.com/vercel-labs/openreview/HEAD/README.md - the beta warning ("internal project to help the Vercel team test their technologies together"), the mention trigger, and the sandbox feature set
-- https://api.github.com/repos/vercel-labs/openreview/license - returns 404, the no-license check (fetched 2026-10-11)
+- https://github.com/vercel-labs/openreview - repo facts: 1,696 stars, 121 forks, created 2026-03-02, pushed 2026-03-06, no license detected (GitHub API, as of 2026-10-11; re-queried 2026-10-20, still pushed 2026-03-06, still no license)
+- https://raw.githubusercontent.com/vercel-labs/openreview/HEAD/README.md - the beta warning ("internal project to help the Vercel team test their technologies together"), the mention trigger, the sandbox feature set, and the closing "License: MIT" line with no license file behind it, re-fetched 2026-10-20
+- https://api.github.com/repos/vercel-labs/openreview/license - returns 404, the no-license check (fetched 2026-10-11, re-fetched 2026-10-20)
 - https://api.github.com/repos/vercel-labs/openreview/releases - zero releases (fetched 2026-10-11)
 - https://vercel.com/docs/sandbox - the Vercel Sandbox execution model: isolated Linux microVMs, active-CPU billing (fetched 2026-10-11)
 - https://hn.algolia.com/api/v1/items/47413785 - the Show HN thread, 4 points and one comment, March 17, 2026, the thin-footprint signal

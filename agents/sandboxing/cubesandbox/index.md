@@ -1,7 +1,7 @@
 ---
 title: CubeSandbox
 created: 2026-09-16
-updated: 2026-10-19
+updated: 2026-10-20
 readability: 3
 audience_notes: >
   Engineers comparing self-hosted alternatives to hosted sandbox APIs, who need to serve untrusted agent code at density on their own fleet.
@@ -89,7 +89,7 @@ Not for macOS or workstation use, and not for anyone who needs independently ver
 - https://api.github.com/repos/TencentCloud/CubeSandbox - stars, forks, license detection, creation and push dates as of 2026-09-21
 - https://api.github.com/repos/TencentCloud/CubeSandbox/license - the LICENSE text: Apache-2.0 plus the listed third-party component licenses
 - https://api.github.com/repos/TencentCloud/CubeSandbox/releases/latest - the v0.7.2 release of 2026-09-24
-- https://pypi.org/pypi/cubesandbox/json - the Python SDK on PyPI (0.7.0 at verification)
+- https://pypi.org/pypi/cubesandbox/json - the Python SDK on PyPI (0.7.3 as of 2026-10-20)
 - https://cubesandbox.com - the live project site
 - https://hn.algolia.com/api/v1/items/47863430 - the team's 7-point Show HN launch and the confirming team comment
 - https://hn.algolia.com/api/v1/items/47879216 - the 5-point second submission one day later

@@ -1,7 +1,7 @@
 ---
 title: AgentRQ
 created: 2026-10-13
-updated: 2026-10-18
+updated: 2026-10-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, mcp, human-in-the-loop, self-hosted]
 readability: 3
@@ -22,8 +22,9 @@ A companion Chrome extension carries the board into the browser; the README carr
 
 ## Status
 
-Active and modest: 1,152 stars as of 2026-10-14, 85 forks, and 2 open issues and pull requests as of 2026-10-18, created 2026-03-24, pushed 2026-10-18, AGPL-3.0 throughout, on a three-release train in two days (v0.11.1 to v0.11.3, 2026-10-15 and 2026-10-16) that added a native-ACP reasoning-level picker and refactored the ACP link layer into a protocol-neutral agentlink package, then v0.12.0 (2026-10-17), a security-and-ops minor that fixed SQL-injection and tool-spoofing holes in the ACP tool-call path, made the acp-gateway speak only native ACP v1, and added health and readiness probes with S3-shared TLS certificates.
-Post-release commits keep landing on the main branch: per-task plan rows pinned above the chat, native-ACP resource links and notice toasts, and Claude plugin manifest fixes.
+Active and modest: 1,152 stars as of 2026-10-14, 85 forks, and 2 open issues and pull requests as of 2026-10-18, created 2026-03-24, pushed 2026-10-19, with a split license since v0.13.0: the repository stays AGPL-3.0 while the agentrqd server daemon, its installers, and the agentrq-ws CLI are published under Apache-2.0.
+The v0.11.1 to v0.11.3 train (2026-10-15 and 2026-10-16) added a native-ACP reasoning-level picker and refactored the ACP link layer into a protocol-neutral agentlink package, v0.12.0 (2026-10-17) fixed SQL-injection and tool-spoofing holes in the ACP tool-call path, made the acp-gateway speak only native ACP v1, and added health and readiness probes with S3-shared TLS certificates, v0.12.1 (2026-10-18) landed the per-task plan rows pinned above the chat plus native-ACP notices, resource-link file handoffs, and Claude plugin manifest fixes, and v0.13.0 (2026-10-18) shipped the server as one binary with the web app built in and made the supervisor workspace clear context by default.
+Post-release commits keep landing on the main branch: MCP text attachments sent and read as plain text.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentrq/agentrq&type=date&theme=dark&legend=top-left" />
@@ -71,6 +72,7 @@ Not for AGPL-constrained teams, or anyone needing repository-native task storage
 - 2026-10-13 - Created.
 - 2026-10-16 - Recorded the v0.11.1 to v0.11.3 release train (2026-10-15 and 2026-10-16: the native-ACP reasoning-level picker, the protocol-neutral agentlink package, and task-save and publish fixes) and refreshed counts (2 open issues, pushed 2026-10-16).
 - 2026-10-17 - Recorded v0.12.0 (2026-10-17: SQL-injection and tool-spoofing fixes in the ACP tool-call path, the acp-gateway speaking only native ACP v1, health and readiness probes, S3-shared TLS certificates, and the README's Discord link removed) and refreshed counts (pushed 2026-10-17).
+- 2026-10-20 - Recorded v0.12.1 and v0.13.0 (both 2026-10-18: per-task plan rows pinned above the chat, native-ACP notices, resource-link file handoffs, and Claude plugin manifest fixes, then the server shipped as one binary with the web app built in and the supervisor workspace clearing context by default) and the v0.13.0 license split (agentrqd, its installers, and the agentrq-ws CLI published under Apache-2.0 while the repository stays AGPL-3.0-only with a binary-only commercial tier), with pushed refreshed to 2026-10-19.
 
 ## See also
 
