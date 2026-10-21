@@ -32,16 +32,16 @@ notes:
     title: Atomic Agents
     subject_repo: Eigenwise/atomic-agents
     last_verified: 2026-10-20
-    last_pushed: 2026-10-19
-    last_release: v2.13.1
-    signals: []
+    last_pushed: 2026-10-20
+    last_release: v2.14.0
+    signals: [released]
   - slug: baml
     title: BAML
     subject_repo: BoundaryML/baml
     last_verified: 2026-10-20
-    last_pushed: 2026-10-20
-    last_release: baml-language-0.22.3-nightly.20261018.a
-    signals: []
+    last_pushed: 2026-10-21
+    last_release: baml-language-0.22.3-nightly.20261019.a
+    signals: [pushed, released]
   - slug: clm
     title: CLM
     subject_repo: Contrastive-LM/CLM
@@ -53,30 +53,30 @@ notes:
     title: CUA-S1
     subject_repo: trycua/cua
     last_verified: 2026-10-17
-    last_pushed: 2026-10-20
-    last_release: agent-v0.9.1
-    signals: []
+    last_pushed: 2026-10-21
+    last_release: cua-spaces-v0.12.1
+    signals: [pushed, released]
   - slug: decider
     title: Decider
     subject_repo: Mapika/decider
     last_verified: 2026-10-18
-    last_pushed: 2026-10-12
+    last_pushed: 2026-10-20
     last_release: null
-    signals: []
+    signals: [pushed]
   - slug: decision-index
     title: Decision Index
     subject_repo: apolinario/decision-index
     last_verified: 2026-10-17
-    last_pushed: 2026-10-14
+    last_pushed: 2026-10-20
     last_release: null
-    signals: []
+    signals: [pushed]
   - slug: guardrails
     title: Guardrails
     subject_repo: guardrails-ai/guardrails
     last_verified: 2026-10-18
-    last_pushed: 2026-10-15
+    last_pushed: 2026-10-20
     last_release: v0.11.0
-    signals: []
+    signals: [pushed]
   - slug: h2o-lightning-4b
     title: H2O-Lightning-4B
     subject_repo: null
@@ -87,7 +87,7 @@ notes:
     last_verified: 2026-10-17
     last_pushed: 2026-10-20
     last_release: v1.17.0
-    signals: []
+    signals: [pushed]
   - slug: jeeves
     title: Jeeves
     subject_repo: PostHog/jeeves
@@ -124,16 +124,16 @@ notes:
     title: Kev
     subject_repo: jaredpalmer/kev
     last_verified: 2026-10-18
-    last_pushed: 2026-10-16
+    last_pushed: 2026-10-20
     last_release: kev-1.0
-    signals: []
+    signals: [pushed]
   - slug: laya
     title: Laya
     subject_repo: NandhaKishorM/laya
     last_verified: 2026-10-17
     last_pushed: 2026-10-19
     last_release: v0.4.12
-    signals: []
+    signals: [pushed]
   - slug: marvin
     title: Marvin
     subject_repo: PrefectHQ/marvin
@@ -160,8 +160,8 @@ notes:
     subject_repo: ollaya-dev/ollaya
     last_verified: 2026-10-20
     last_pushed: 2026-10-20
-    last_release: v0.14.0
-    signals: []
+    last_release: v0.15.0
+    signals: [released]
   - slug: openai-structured-outputs
     title: OpenAI Structured Outputs
     subject_repo: null
@@ -184,7 +184,7 @@ notes:
     title: Strands Decider 2B
     subject_repo: strands-labs/strands-decider
     last_verified: 2026-10-20
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v0.2.0
     signals: []
   - slug: system1-arena
@@ -200,7 +200,7 @@ notes:
     last_verified: 2026-10-17
     last_pushed: 2026-10-20
     last_release: v2.8.0
-    signals: []
+    signals: [pushed]
   - slug: valen
     title: Valen
     subject_repo: Liuziyu77/Valen

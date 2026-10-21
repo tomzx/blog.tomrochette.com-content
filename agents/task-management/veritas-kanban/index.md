@@ -1,7 +1,7 @@
 ---
 title: Veritas Kanban
 created: 2026-10-11
-updated: 2026-10-18
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, governance, local-first, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Around the board: subtasks, bidirectional depends_on and blocks dependencies wit
 ## Status
 
 **Active, six versions deep in one year, single-maintainer.**
-840 stars as of 2026-10-14 (GitHub API), 100 forks, and 47 open issues and pull requests with a 2026-10-17 push (side branches; the main branch has been quiet since the v6.2.1 release commit) as of 2026-10-18, created 2026-01-26.
+840 stars as of 2026-10-14 (GitHub API), 100 forks, and 48 open issues and pull requests with a 2026-10-20 push (side branches; the main branch has been quiet since the v6.2.1 release commit, re-confirmed against the main tip on 2026-10-21) as of 2026-10-21, created 2026-01-26.
 The newest tagged release is v6.2.1 (2026-09-10); the dependency model landed in v3.3.0, team rosters in v5.2, and the run-scoped tool control plane in v6, all inside the project's first year.
 A Hacker News search returns no story about it (2026-10-11), so adoption evidence is the repository curve plus the docs' own governance records.
 
@@ -45,7 +45,7 @@ A Hacker News search returns no story about it (2026-10-11), so adoption evidenc
 
 - **Version velocity is churn**: three major version renumberings in the first year (v3, v5, v6), each moving core concepts, so docs and muscle memory from six months ago mislead.
 - The packaged desktop app is macOS-only; Windows and Linux users run the server from source or self-host it behind a reverse proxy.
-- One maintainer, a 43-issue backlog against 839 stars, and no tagged release in a month while pushes continue, so the release train and the repo have diverged before.
+- One maintainer, a 48-issue and pull-request backlog against 839 stars, and no tagged release in six weeks while pushes continue, so the release train and the repo have diverged before.
 - The spec vocabulary (capability profiles, deterministic intersections, certification boundaries) is heavy for a board you install to move cards; expect reading before configuring.
 
 ## Pricing
@@ -68,6 +68,7 @@ My disagreeable claim: the run-scoped tool catalog belongs at the MCP layer, not
 ## Changes
 
 - 2026-10-11 - Created after the orchestration resolution flagged the repository to this category, with the phase-authority and run-scoped-tool-catalog mechanisms recorded as the differentiators against the review-gate and ledger members.
+- 2026-10-21 - Rotation re-verification with every cited URL re-fetched live (repository page, README, FEATURES.md, SETUP-PATHS.md, releases, HN search): nothing material changed, with v6.2.1 still the newest tag, the main branch still quiet since its release commit while side-branch pushes continue, and the backlog corrected to 48 open issues and pull requests.
 
 ## See also
 
@@ -79,7 +80,7 @@ My disagreeable claim: the run-scoped tool catalog belongs at the MCP layer, not
 
 ## References
 
-- https://github.com/BradGroux/veritas-kanban - repository facts: 840 stars, 100 forks, MIT, created 2026-01-26, pushed 2026-10-06 (GitHub API, as of 2026-10-14)
+- https://github.com/BradGroux/veritas-kanban - repository facts: MIT, created 2026-01-26, side-branch pushes with the main branch quiet since the v6.2.1 release commit (GitHub API, as of 2026-10-21)
 - https://raw.githubusercontent.com/BradGroux/veritas-kanban/main/README.md - the board-first pitch, setup layers, documentation map, provider list, and maintainer background
 - https://raw.githubusercontent.com/BradGroux/veritas-kanban/main/docs/FEATURES.md - the feature reference: markdown storage, dependencies with cycle detection, run-scoped tools v6, team rosters, PRD-driven development, release provenance of v3.3.0/v5.2/v6
 - https://raw.githubusercontent.com/BradGroux/veritas-kanban/main/docs/SETUP-PATHS.md - the layered readiness ladder and the board-only quick start

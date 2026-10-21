@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-10-20
+updated: 2026-10-21
 status: finished
 tags: [agents]
 readability: 0
@@ -43,6 +43,9 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-18 | memory | positional star ranks ("Nth of M members") are no longer maintained in note prose; the claim churned five correction rounds in two notes and went stale at every admission | memU and screenpipe rank lines dropped
 - 2026-10-17 | memory | Vestige pivoted from queryless memory to a fail-closed action firewall (Strata log v4.0.0 landing 2026-09-30, the Operator gate and $149 tier v4.2.0 2026-10-06) and routes out of memory on the primary-artifact reading | admitted to control-planes the same run, 4-point Show HN July 2026 pre-pivot
 - 2026-10-17 | skills | the OKF delivery-toolkit kind routes to the memory category's okf-agent-memory ecosystem family, not to skills (the skills are the delivery mechanism, and OKF packages knowledge about systems, not agent capabilities) | scaccogatto/okf-skills (417 stars) folded there 2026-10-17
+- 2026-10-21 | evaluation-review | lukstei/slop-grader admitted as the document-and-diff grader beside Jevals, the category's second Jev-based member | skills-worker handoff resolved on the citation bar; the thin one-thread HN footprint is stated in the note, on the HermesGate precedent
+- 2026-10-21 | spec-driven-development | context-engineering layers route here when the artifact is a typed spec set plus a convergence check that names the guilty side | archcore admitted on the Intent-Router primary-artifact precedent; the looptroop-ai/LoopTroop duplicate admission was retracted the same run, the orchestration member stands as the primary frame
+- 2026-10-21 | control-planes | Tracekit admitted as the category's eleventh gate at 138 stars | governs calls before execution with a CT-style witness-cosigned evidence log, unlike any member; the experimental no-public-witness gap is stated in the note
 
 ## Standing family rejections
 
@@ -64,6 +67,10 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-09-21 (ruled 2026-09-18) | skills | session-portability tools are out of the skills scope | Skillsync rejected by four category runs
 - 2026-10-19 | cross-category | terminal-output theming mods for member tools are appearance edits with no category kind | prismantis (134 stars) rejected on it; the claude-code list's new Mods section is where future additions will land
 - 2026-10-20 | memory | the TeleAI list's thin-tail and closed-hosted new entries stay below the bar | Fraise (8 stars vs the 294 floor, no persistence, 1-point self-published Show HN) and MemorySync (closed hosted-only API, no open engine, 22-point self-published Show HN) rejected, reopen on traction, coverage, or an OSS engine
+- 2026-10-21 | spec-driven-development | trigger-and-schedule workflow automation is not spec-driven regardless of the list section it sits in | frink's primary artifact is a triggered agent workflow, reported to orchestration
+- 2026-10-21 | control-planes | Praesidia joins the closed tier | proprietary platform, design-partner-only SDKs, demo-gated pricing, Autoheal precedent
+- 2026-10-21 | assistant-runtimes | Orkas-VideoStudio resolves outside the category, the absorbed-family shelf keeps Orkas and its extracted toolkit is skills-kind | README states it is the extracted video agent of the absorbed Orkas desktop, agent-agnostic install into coding agents; routing flagged to skills
+- 2026-10-21 | assistant-runtimes | openhuman stays held on the absorbed-family shelf pending q13 | 42.2k stars is a tenth of OpenClaw-class so the scale trigger as framed has not fired; evidence gathered for the owner
 
 ## Owner questions governing scope
 

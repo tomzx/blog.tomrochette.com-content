@@ -1,7 +1,7 @@
 ---
 title: Okto Pulse
 created: 2026-09-27
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, spec-driven-development, governance-gates, coding-agents, mcp, local-first]
 readability: 3
@@ -27,7 +27,7 @@ An embedded knowledge graph keeps decisions, constraints, bugs, and learnings qu
 
 ## Status
 
-Active and young: 52 stars (as of 2026-10-14), 2 forks, and 8 open issues as of 2026-10-19, created 2026-04-22, last pushed 2026-10-16, current PyPI version 0.4.0.
+Active and young: 52 stars (as of 2026-10-14), 2 forks, and 8 open issues as of 2026-10-21, created 2026-04-22, last pushed 2026-10-20, current PyPI version 0.4.1 (2026-10-20).
 **The star count halved in three days (110 on 2026-10-07 to 52 today) while the repository kept being pushed, the signature of a GitHub star purge rather than a user exodus, so treat every adoption number in this note as unstable.**
 
 <picture>
@@ -36,7 +36,7 @@ Active and young: 52 stars (as of 2026-10-14), 2 forks, and 8 open issues as of 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=OktoLabsAI/okto-pulse&type=date&legend=top-left" />
 </picture>
 
-No GitHub releases are published, so the PyPI package is the release channel, and the website still advertises v0.2.6 while the repository README and PyPI document 0.4.0.
+No GitHub releases are published, so the PyPI package is the release channel, and the website still advertised v0.2.6 as of 2026-10-19 while PyPI now documents 0.4.1.
 0.4.0 is a breaking release: it refuses storage from earlier versions without migration, so upgrading means a fresh installation.
 **The internal numbers still do not agree across surfaces: README prose and the product page both say 17 governance gates (the README's platform table now defers to the gate contracts), while the README's platform table says 285 MCP tools and the product page says 215.**
 The community footprint is thin: a Hacker News search for Okto Pulse returns nothing, so the evidence is the repository and the product site alone.
@@ -78,6 +78,7 @@ The README describes a possible SaaS edition and a core-and-community split, but
 - 2026-10-07 - Added the OktoLabsAI/okto-pulse star history chart to the Status section.
 - 2026-10-10 - Recorded the star count falling from 110 (2026-10-07) to 52 while pushes continued, with the caution that the adoption numbers are unstable.
 - 2026-10-19 - PyPI reached 0.4.0, a breaking release that refuses prior storage without migration, and okto-nexus reached 0.3.0; the README's platform table moved to 285 MCP tools while the product page still says 215, and the website still advertises v0.2.6.
+- 2026-10-21 - PyPI moved to 0.4.1 (2026-10-20), a patch above the breaking 0.4.0.
 
 ## See also
 
@@ -91,7 +92,7 @@ The README describes a possible SaaS edition and a core-and-community split, but
 
 - https://github.com/OktoLabsAI/okto-pulse - README: gates, MCP surface, architecture, licensing, local data layout
 - https://api.github.com/repos/OktoLabsAI/okto-pulse - stars, forks, issues, push dates as of 2026-10-06
-- https://pypi.org/pypi/okto-pulse/json - current version 0.4.0 and Elastic-2.0 license metadata (re-checked 2026-10-19)
+- https://pypi.org/pypi/okto-pulse/json - current version 0.4.1 and Elastic-2.0 license metadata (re-checked 2026-10-21)
 - https://oktolabs.ai/platform/pulse/ - product site: workflow, gate and tool counts, value proposition (re-fetched 2026-10-06, still advertising v0.2.6 and 17 gates)
 - https://oktolabs.ai/platform/neuron/ - the Neuron product page: Marginalia rename, 0.3.1, ELv2, byte-range provenance, five MCP tools
 - https://github.com/OktoLabsAI/okto-nexus - the sibling product's README: serve ports, tool counts, SQLite/WAL storage, dashboard, licensing (37 stars after the same purge, pushed 2026-10-10, as of 2026-10-11)

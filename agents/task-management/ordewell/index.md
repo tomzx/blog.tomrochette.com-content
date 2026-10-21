@@ -1,7 +1,7 @@
 ---
 title: Ordewell
 created: 2026-09-16
-updated: 2026-10-17
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, planner, multi-agent, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 ## Status
 
 Active, young, and small.
-As of 2026-10-17: 202 stars (as of 2026-10-14), 19 forks, 50 open issues and pull requests, created 2026-07-31, pushed 2026-10-16, latest release v0.10.3 on 2026-10-16, and roughly 8,200 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+As of 2026-10-21: 202 stars (as of 2026-10-14), 18 forks, 52 open issues and pull requests, created 2026-07-31, pushed 2026-10-20, latest release v0.10.10 on 2026-10-19, and about 10,300 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ordewell/ordewell&type=date&theme=dark&legend=top-left" />
@@ -39,6 +39,7 @@ The Show HN launch thread reached 56 points and 30 comments on 2026-09-15.
 v0.9.1 (2026-10-11) closed the next class: planners no longer run a repository's own config, so project hooks, env blocks, plugins, and project MCP servers start only after explicit approval, and a Codex planner treats the repository it researches as untrusted (ADR-0028).
 v0.10.0 (2026-10-14) extended the security line to consent itself: global run settings can only be changed by your chat commands, with no planner-reachable tool or route able to raise them (ADR-0030), and a supervisor's answer_approval can deny or hand off a runner's request but can never widen its permissions (ADR-0029); v0.10.1 moved checkpoint answering into the task view's message box and v0.10.2 shipped the same day.
 v0.10.3 (2026-10-16) worked the same trust line into onboarding: the first screen states that nothing runs until you approve the plan, a first run with no API key plans with an installed coding agent instead of failing on a missing OpenRouter key, API-key setup offers every supported provider, and task cards show their runner, model, and effort.
+The v0.10.4 to v0.10.10 run (2026-10-17 to 2026-10-19) then turned to session and cost discipline: loading a saved session stays idle until you explicitly continue it, with no wake-ups or resume timers firing just because a session opened (v0.10.7), a planner whose process died between turns restarts on your next message, and v0.10.10 unified one context-and-cost usage line across the TUI, the status command, and the VS Code panel, with a task's runner stopped as soon as it reports completion.
 
 ## Strengths
 
@@ -89,6 +90,7 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - 2026-10-13 - Recorded the v0.9.1 security release (2026-10-11: planners no longer run a repository's own config per ADR-0028, project MCP servers gated on approval, Codex planners treat the repository as untrusted) and refreshed counts (202 stars, 19 forks, 44 open issues, roughly 8,200 npm downloads).
 - 2026-10-16 - Recorded the v0.10.x line (all three 2026-10-14: v0.10.0's consent-integrity security release, the planner unable to raise its own run settings per ADR-0030 and supervisors able to narrow but never widen runner permissions per ADR-0029, v0.10.1's in-task checkpoint answering, and v0.10.2) and refreshed counts (50 open issues and pull requests, pushed 2026-10-15).
 - 2026-10-17 - Recorded the v0.10.3 release (2026-10-16: the nothing-runs-until-approval first screen, no-key first runs planning with an installed coding agent, provider-wide API-key setup, task cards showing runner, model, and effort, and approval and ops-task scheduling fixes) and refreshed counts (pushed 2026-10-16).
+- 2026-10-21 - Recorded the v0.10.4 to v0.10.10 line (2026-10-17 to 2026-10-19: saved sessions load idle until explicitly continued, a dead planner process restarts between turns, and the unified context-and-cost usage line across TUI, status, and VS Code with the runner stopped at its task_complete report) and refreshed counts (18 forks, 52 open issues and pull requests, pushed 2026-10-20, about 10,300 npm downloads).
 
 ## See also
 
@@ -101,8 +103,8 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 ## References
 
 - https://github.com/ordewell/ordewell - README: plan artifact, runners, marker verification, plugin manifests
-- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-10-17
-- https://api.github.com/repos/ordewell/ordewell/releases - the v0.10.0 to v0.10.3 release notes (2026-10-14 and 2026-10-16): the consent-integrity rules, checkpoint answering, and the approval and no-key onboarding changes
+- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-10-21
+- https://api.github.com/repos/ordewell/ordewell/releases - the v0.10.0 through v0.10.10 release notes (2026-10-14 to 2026-10-19): the consent-integrity rules, checkpoint answering, the onboarding changes, saved-session idle loading, and the unified usage line
 - https://github.com/ordewell/ordewell/blob/main/CHANGELOG.md - the v0.7.0 entry: `task_complete` and `checkpoint` tools, tool-based planning, the marker fallback scope
 - https://raw.githubusercontent.com/ordewell/ordewell/main/CHANGELOG.md - the v0.8.0, v0.8.1, v0.9.0, and v0.9.1 entries: the removals, unified skills, the escape closures, the one-envelope planner research, and the repository-config security release
 - https://ordewell.ai - the product site: surfaces, the plan-execute-verify loop, marker wording
@@ -110,5 +112,5 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0002-planner-as-conversation-loop.md - the conversation-loop decision and the session wipe
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0008-planner-exploration-envelope.md - the auto/ask/refuse tiers and path confinement
 - https://news.ycombinator.com/item?id=49712276 - the launch thread: the AI-written exchange, the absorption objection, 56 points and 30 comments
-- https://api.npmjs.org/downloads/point/last-month/@ordewell/cli - 3,694 downloads last month for the scoped package
-- https://api.npmjs.org/downloads/point/last-month/ordewell - 3,452 downloads last month for the unscoped package
+- https://api.npmjs.org/downloads/point/last-month/@ordewell/cli - 5,293 downloads last month for the scoped package
+- https://api.npmjs.org/downloads/point/last-month/ordewell - 4,984 downloads last month for the unscoped package

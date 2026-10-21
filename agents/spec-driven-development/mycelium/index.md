@@ -1,7 +1,7 @@
 ---
 title: Mycelium
 created: 2026-10-16
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, product-discovery, claude-code-plugin]
 readability: 3
@@ -24,8 +24,8 @@ The standing cost is about six thousand tokens of context per session, always on
 
 ## Status
 
-Active and shipping fast: 47 stars, 5 forks, created 2026-04-07, pushed 2026-10-18, as of 2026-10-19 (GitHub API).
-Pre-1.0 by the author's own framing, with schema and skill names moving between minor versions, and the release train runs in hours: v0.328.0 (2026-10-18) is the newest of a train that ran v0.323 through v0.327 across October 13 to 16, four releases on the 15th and four on the 16th.
+Active and shipping fast: 47 stars, 5 forks, created 2026-04-07, pushed 2026-10-20, as of 2026-10-21 (GitHub API).
+Pre-1.0 by the author's own framing, with schema and skill names moving between minor versions, and the release train runs in hours: v0.328.2 (2026-10-20) is the newest, following v0.328.1's extension of the OpenCode 2.x plugin port to guard `write` as well as `edit`, and v0.328.0 (2026-10-18) asking a project's scope before the brief, of a train that ran v0.323 through v0.327 across October 13 to 16.
 The adoption record is small and mostly first-hand: three of the steward's own projects, a three-person test cohort in May, and one stranger on record whose Lisp-interpreter canvas is public.
 
 **The independent footprint is empty, and that is this note's critical angle: a Hacker News search returns only the maintainer's own Show HN (2026-07-04, 1 point, 0 comments) plus an earlier post he says missed the Show HN tag, with no third-party coverage anywhere, so at 47 stars this admission rides the HermesGate-at-3-stars precedent rather than any membership floor.**
@@ -69,6 +69,7 @@ Not for teams needing a stable interface (pre-1.0, schema moves between minors),
 ## Changes
 
 - 2026-10-16 - Created from the awesome-claude-code addition the cross-category scanner flagged, admitted under the Intent-Router gate-kind precedent (a spec contract is spec-driven even when tracker-adjacent), with the zero-coverage record as the critical angle.
+- 2026-10-21 - Recorded the v0.328.1 and v0.328.2 releases (both 2026-10-20): the OpenCode 2.x plugin port now guards `write` as well as `edit`, extending the structural gate past Claude Code.
 
 ## See also
 

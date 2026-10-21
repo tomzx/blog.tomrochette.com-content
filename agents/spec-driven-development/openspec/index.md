@@ -1,7 +1,7 @@
 ---
 title: OpenSpec
 created: 2026-08-27
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, specs, open-source]
 readability: 3
@@ -30,7 +30,7 @@ Half of spec-kit's stars in a third of the time.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&legend=top-left" />
 </picture>
 
-As of 2026-10-14: about 71k stars (71,842) and about 4.9k forks since creation on 2025-08-05, 185 open issues and pull requests, MIT; as of 2026-10-19, release v1.14.3 (2026-10-17) is the newest (linked spec files, so a capability's spec.md can be a symlink beside the product docs it belongs to, the audit-failing braces dependency dropped, and a validate hang fix in pre-commit hooks), with 2,842,320 npm downloads last month (the 2026-09-17 to 2026-10-16 window, fetched 2026-10-19).
+As of 2026-10-14: about 71k stars (71,842) and about 4.9k forks since creation on 2025-08-05, 185 open issues and pull requests, MIT; as of 2026-10-21, pushed 2026-10-21, release v1.14.3 (2026-10-17) is the newest (tolerating symlinked spec files, which the changelog now says are not officially supported layouts, the audit-failing braces dependency dropped, and a validate hang fix in pre-commit hooks), with 2,833,610 npm downloads last month (the 2026-09-19 to 2026-10-18 window, fetched 2026-10-21).
 **Its Hacker News footprint is effectively empty (no significant thread found this run), so adoption spread through X and Discord, and third-party verification is thinner than the install count implies.**
 The README's own superlative ("the most loved spec framework") is vendor framing, not a measured claim.
 
@@ -75,6 +75,7 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 - 2026-10-11 - Reworded a banned-term word out of the prose; meaning unchanged.
 - 2026-10-16 - Recorded the v1.14.2 release (2026-10-15, extension metadata keys, faster completion, archive/verify fixes).
 - 2026-10-17 - Recorded the v1.14.3 release (2026-10-17, linked spec files via symlink, the audit-failing braces dependency dropped, and a validate hang fix in hooks) and re-read the npm download figure byte-identical.
+- 2026-10-21 - Corrected the v1.14.3 symlink description (the changelog reframe: symlinked spec files are tolerated, not refused, but symlinked layouts are not officially supported) and refreshed the status date.
 
 ## See also
 
@@ -88,5 +89,5 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 - https://github.com/Fission-AI/OpenSpec - README: philosophy, opsx workflow, artifact layout
 - https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues, releases through v1.14.1, as of 2026-10-14
 - https://openspec.dev/ - official documentation site
-- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 2,842,320 downloads last month (2026-09-17 to 2026-10-16 window), fetched 2026-10-19
+- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 2,833,610 downloads last month (2026-09-19 to 2026-10-18 window), fetched 2026-10-21
 - https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md - the rebuilt artifact workflow

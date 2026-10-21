@@ -42,7 +42,7 @@ notes:
     last_verified: 2026-10-13
     last_pushed: 2026-10-16
     last_release: v0.2.2
-    signals: []
+    signals: [pushed]
   - slug: aiscientist
     title: AiScientist
     subject_repo: AweAI-Team/AiScientist
@@ -72,16 +72,16 @@ notes:
     title: ARIS
     subject_repo: wanshuiyin/Auto-claude-code-research-in-sleep
     last_verified: 2026-10-10
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v0.4.28
-    signals: []
+    signals: [pushed]
   - slug: autocontext
     title: AutoContext
     subject_repo: greyhaven-ai/autocontext
     last_verified: 2026-10-14
-    last_pushed: 2026-10-14
+    last_pushed: 2026-10-21
     last_release: null
-    signals: []
+    signals: [pushed]
   - slug: autoresearchclaw
     title: AutoResearchClaw
     subject_repo: aiming-lab/AutoResearchClaw
@@ -116,7 +116,7 @@ notes:
     last_verified: 2026-10-10
     last_pushed: 2026-10-13
     last_release: null
-    signals: []
+    signals: [pushed]
   - slug: dexter
     title: Dexter
     subject_repo: virattt/dexter
@@ -153,9 +153,9 @@ notes:
     title: Kapso
     subject_repo: Leeroo-AI/kapso
     last_verified: 2026-10-19
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v0.7.10
-    signals: []
+    signals: [pushed]
   - slug: karpathy-autoresearch
     title: Karpathy Autoresearch
     subject_repo: karpathy/autoresearch
@@ -169,7 +169,7 @@ notes:
     last_verified: 2026-10-18
     last_pushed: 2026-10-20
     last_release: v1.10.7
-    signals: []
+    signals: [pushed]
   - slug: math-inc-gauss
     title: Math Inc. Gauss
     subject_repo: math-inc/strongpnt
@@ -206,9 +206,9 @@ notes:
     title: OpenResearch
     subject_repo: alphaXiv/OpenResearch
     last_verified: 2026-10-12
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: v0.2.19
-    signals: []
+    signals: [pushed]
   - slug: pion
     title: Pion
     subject_repo: null

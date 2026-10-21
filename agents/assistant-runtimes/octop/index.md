@@ -1,7 +1,7 @@
 ---
 title: Octop
 created: 2026-10-07
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, python, self-hosted, open-source]
 readability: 3
@@ -26,7 +26,7 @@ It is published under the TencentCloud GitHub org and built from four focused su
 
 ## Status
 
-Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three months as of 2026-10-14 (created 2026-07-08), 832 open issues with the last push on 2026-10-19 as of 2026-10-19, MIT.
+Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three months as of 2026-10-14 (created 2026-07-08), 876 open issues with the last push on 2026-10-20 as of 2026-10-21, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/Octop&type=date&theme=dark&legend=top-left" />

@@ -3,7 +3,7 @@ category: control-planes
 generated: 2026-10-21
 mapped_sources:
   - repo: agentrust-io/awesome-ai-governance
-    last_checked: 2026-10-18
+    last_checked: 2026-10-21
 digest_lines:
   - "- 2026-09-16 (ruled 2026-08-22) | cross-category | vendor sibling products fold into the sibling note by default | gemini-cli/Antigravity set it; applied to oh-my-pi, Codex App, OpenCode Desktop, Warp Factories, LiteParse, cursor CLI and routines; oh-my-pi left the fold on its own bar clearance 2026-10-10"
   - "- 2026-10-10 (ruled 2026-10-07) | control-planes | a member must govern something: provenance recorders stay below the plane | git-ai and Invariant rejected on it"
@@ -24,21 +24,21 @@ notes:
     last_verified: 2026-10-10
     last_pushed: 2026-10-20
     last_release: ts-sdk-v3.4.0
-    signals: []
+    signals: [pushed]
   - slug: agentfield
     title: AgentField
     subject_repo: Agent-Field/agentfield
     last_verified: 2026-10-17
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v0.1.142
-    signals: []
+    signals: [pushed]
   - slug: arifos
     title: arifOS
     subject_repo: ariffazil/arifOS
     last_verified: 2026-10-16
     last_pushed: 2026-10-20
     last_release: v2026.10.17
-    signals: []
+    signals: [pushed]
   - slug: cc-safety-net
     title: CC Safety Net
     subject_repo: kenryu42/cc-safety-net
@@ -57,9 +57,9 @@ notes:
     title: Cordum
     subject_repo: cordum-io/cordum
     last_verified: 2026-10-17
-    last_pushed: 2026-10-17
+    last_pushed: 2026-10-20
     last_release: v1.2.0
-    signals: []
+    signals: [pushed]
   - slug: crowdstrike-falcon-guardian
     title: CrowdStrike Falcon Guardian
     subject_repo: null
@@ -72,16 +72,16 @@ notes:
     title: HOL Guard
     subject_repo: hashgraph-online/hol-guard
     last_verified: 2026-10-19
-    last_pushed: 2026-10-20
-    last_release: v3.49.0
-    signals: []
+    last_pushed: 2026-10-21
+    last_release: v3.51.0
+    signals: [pushed, released]
   - slug: ibm-contextforge
     title: IBM ContextForge
     subject_repo: ibm/mcp-context-forge
     last_verified: 2026-10-11
-    last_pushed: 2026-10-19
-    last_release: v1.0.11
-    signals: []
+    last_pushed: 2026-10-20
+    last_release: v1.1.0
+    signals: [pushed, released]
   - slug: jamf-ai-governance
     title: Jamf AI Governance
     subject_repo: null
@@ -92,28 +92,28 @@ notes:
     last_verified: 2026-10-11
     last_pushed: 2026-10-20
     last_release: v4.1.0
-    signals: []
+    signals: [pushed]
   - slug: okto-pulse
     title: Okto Pulse
     subject_repo: OktoLabsAI/okto-pulse
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
     last_release: null
-    signals: []
+    signals: [pushed]
   - slug: openappa
     title: OpenAPPA
     subject_repo: archestra-ai/OpenAPPA
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
-    last_release: v0.36.0
-    signals: []
+    last_release: v0.37.0
+    signals: [pushed, released]
   - slug: paperclip
     title: Paperclip
     subject_repo: paperclipai/paperclip
     last_verified: 2026-10-13
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: v2026.1012.0
-    signals: []
+    signals: [pushed]
   - slug: settlebridge
     title: SettleBridge
     subject_repo: a2a-settlement/settlebridge-ai
@@ -141,7 +141,7 @@ notes:
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
     last_release: v5.0.0
-    signals: []
+    signals: [pushed]
   - slug: veto
     title: Veto
     subject_repo: PlawIO/veto

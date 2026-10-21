@@ -1,7 +1,7 @@
 ---
 title: Pad
 created: 2026-10-11
-updated: 2026-10-18
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, project-management, local-first, mcp, open-source]
 readability: 3
@@ -25,7 +25,8 @@ Perpetual Software LLC maintains it; every change is versioned per item with the
 ## Status
 
 Active and pre-1.0.
-As of 2026-10-18: 193 stars (as of 2026-10-14), 24 forks, created 2026-03-26, pushed 2026-10-18, on a roughly weekly release cadence with v0.18.0 stable (2026-10-17) the newest tag after eleven release candidates, and the changelog delegated to signed GitHub Releases carrying SBOMs and SLSA provenance.
+As of 2026-10-21: 193 stars (as of 2026-10-14), 24 forks, created 2026-03-26, pushed 2026-10-21, on a roughly weekly release cadence with v0.18.1 (2026-10-18) the newest tag after v0.18.0 stable (2026-10-17, which followed eleven release candidates), and the changelog delegated to signed GitHub Releases carrying SBOMs and SLSA provenance.
+v0.18.1 is a three-fix patch: the Stripe billing portal reachable again, account exports stopping at their deadline instead of running past it, and refused MCP calls naming their cause on both the stdio and HTTP transports.
 The v0.18.0 stable ship is the largest single release so far: `pad item patch` edits part of an item body with the change landing live in anyone's open editor plus an undo, conventions and playbooks track their library upstream with a diff-and-update review, the Claude Code plugin gained a `/pad-pane` side panel, collections can be marked reference instead of work, and agent writes gained idempotency keys and version checking.
 
 <picture>
@@ -72,6 +73,7 @@ My disagreeable claim: conventions-as-items is a bigger idea than the task board
 - 2026-10-11 - Created after the topic search surfaced the conventions-and-playbooks design.
 - 2026-10-11 - Added the star history chart.
 - 2026-10-18 - Recorded the v0.18.0 stable release (2026-10-17, after eleven release candidates: pad item patch with live-editor landing and undo, library-upstream tracking for conventions and playbooks, the Claude Code /pad-pane side panel, reference collections, and idempotency keys plus version checking on agent writes) and refreshed counts (pushed 2026-10-18).
+- 2026-10-21 - Recorded the v0.18.1 patch (2026-10-18: the Stripe billing portal reachable again, account exports stopping at their deadline, and refused MCP calls naming their cause on both transports) and refreshed counts (pushed 2026-10-21).
 
 ## See also
 
@@ -85,6 +87,6 @@ My disagreeable claim: conventions-as-items is a bigger idea than the task board
 - https://github.com/PerpetualSoftware/pad - README: architecture, CLI, MCP catalog, claims and leases, session pushes, upgrade model (fetched 2026-10-11)
 - https://getpad.dev - the site: the three-surface pitch, conventions and playbooks, the dogfooded workspace figures, Pad Cloud tiers
 - https://getpad.dev/changelog - the changelog policy: signed GitHub Releases as the source of truth
-- https://api.github.com/repos/PerpetualSoftware/pad - stars, forks, dates, Apache-2.0 as of 2026-10-17
-- https://api.github.com/repos/PerpetualSoftware/pad/releases - v0.18.0 stable (2026-10-17) after eleven release candidates, and the weekly cadence
+- https://api.github.com/repos/PerpetualSoftware/pad - stars, forks, dates, Apache-2.0 as of 2026-10-21
+- https://api.github.com/repos/PerpetualSoftware/pad/releases - v0.18.1 (2026-10-18) after the v0.18.0 stable of 2026-10-17, and the weekly cadence
 - https://hn.algolia.com/api/v1/search?query=%22pad%22%20%22getpad%22&tags=story - zero story hits as of 2026-10-14, the missing HN footprint

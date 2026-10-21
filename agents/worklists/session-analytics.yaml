@@ -25,9 +25,9 @@ notes:
     title: AgentMeasure
     subject_repo: roy-tong/AgentMeasure
     last_verified: 2026-10-16
-    last_pushed: 2026-10-16
+    last_pushed: 2026-10-20
     last_release: v0.8.0
-    signals: []
+    signals: [pushed]
   - slug: agents-observe
     title: agents-observe
     subject_repo: simple10/agents-observe
@@ -39,30 +39,30 @@ notes:
     title: agentsview
     subject_repo: kenn-io/agentsview
     last_verified: 2026-10-19
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: v0.45.0
-    signals: []
+    signals: [pushed]
   - slug: agenttrace
     title: AgentTrace
     subject_repo: luoyuctl/agenttrace
     last_verified: 2026-10-17
     last_pushed: 2026-10-19
     last_release: v0.10.1
-    signals: []
+    signals: [pushed]
   - slug: ccusage
     title: ccusage
     subject_repo: ccusage/ccusage
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
     last_release: v20.0.37
-    signals: []
+    signals: [pushed]
   - slug: claude-code-agent-monitor
     title: Claude Code Agent Monitor
     subject_repo: hoangsonww/Claude-Code-Agent-Monitor
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
     last_release: v2.4.0
-    signals: []
+    signals: [pushed]
   - slug: claude-devtools
     title: claude-devtools
     subject_repo: matt1398/claude-devtools
@@ -88,16 +88,16 @@ notes:
     title: CodeBurn
     subject_repo: getagentseal/codeburn
     last_verified: 2026-10-16
-    last_pushed: 2026-10-17
+    last_pushed: 2026-10-20
     last_release: mac-v0.9.27
-    signals: []
+    signals: [pushed]
   - slug: coucou
     title: Coucou
     subject_repo: Louis-CFM/coucou
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
-    last_release: v0.5.1
-    signals: []
+    last_release: v0.5.2
+    signals: [pushed, released]
   - slug: ctx
     title: ctx
     subject_repo: ctxrs/ctx
@@ -109,27 +109,27 @@ notes:
     title: git-ai
     subject_repo: git-ai-project/git-ai
     last_verified: 2026-10-11
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v1.7.5
-    signals: []
+    signals: [pushed]
   - slug: memex
     title: Memex
     subject_repo: nicosuave/memex
     last_verified: 2026-10-16
-    last_pushed: 2026-10-18
-    last_release: v0.29.1
-    signals: []
+    last_pushed: 2026-10-20
+    last_release: v0.30.0
+    signals: [pushed, released]
   - slug: token-monitor
     title: Token Monitor
     subject_repo: Javis603/token-monitor
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
     last_release: v0.76.0
-    signals: []
+    signals: [pushed]
   - slug: tokscale
     title: Tokscale
     subject_repo: junhoyeo/tokscale
     last_verified: 2026-10-18
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v4.20.0
-    signals: []
+    signals: [pushed]

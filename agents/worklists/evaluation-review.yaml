@@ -3,7 +3,7 @@ category: evaluation-review
 generated: 2026-10-21
 mapped_sources:
   - repo: anhermon/awesome-agent-observability
-    last_checked: 2026-10-18
+    last_checked: 2026-10-21
 governing_questions:
   - id: q6
     summary: "third observability column (Opik), second eval-framework column (promptfoo), or stand"
@@ -27,7 +27,7 @@ notes:
     last_verified: 2026-10-17
     last_pushed: 2026-10-20
     last_release: v0.4.1
-    signals: []
+    signals: [pushed]
   - slug: crit
     title: Crit
     subject_repo: tomasz-tomczyk/crit
@@ -67,37 +67,37 @@ notes:
     title: Hunk
     subject_repo: modem-dev/hunk
     last_verified: 2026-10-16
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v0.24.0
-    signals: []
+    signals: [pushed]
   - slug: jevals
     title: Jevals
     subject_repo: openlayer-ai/jevals
     last_verified: 2026-10-07
     last_pushed: 2026-10-15
     last_release: null
-    signals: []
+    signals: [pushed]
   - slug: kiln
     title: Kiln
     subject_repo: Kiln-AI/Kiln
     last_verified: 2026-10-10
     last_pushed: 2026-10-20
     last_release: v1.2.0
-    signals: []
+    signals: [pushed]
   - slug: kitaru
     title: Kitaru
     subject_repo: zenml-io/kitaru
     last_verified: 2026-10-14
     last_pushed: 2026-10-20
     last_release: typescript/kitaru/v0.6.0
-    signals: []
+    signals: [pushed]
   - slug: langfuse
     title: Langfuse
     subject_repo: langfuse/langfuse
     last_verified: 2026-10-18
     last_pushed: 2026-10-20
-    last_release: v4.64.0
-    signals: []
+    last_release: v4.66.0
+    signals: [pushed, released]
   - slug: mlr-bench
     title: MLR-Bench
     subject_repo: chchenhui/mlrbench
@@ -109,16 +109,16 @@ notes:
     title: Phoenix
     subject_repo: Arize-ai/phoenix
     last_verified: 2026-10-16
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: arize-phoenix-sqlean-v0.2.1
-    signals: []
+    signals: [pushed]
   - slug: plannotator
     title: Plannotator
     subject_repo: backnotprop/plannotator
     last_verified: 2026-10-17
-    last_pushed: 2026-10-20
-    last_release: v0.28.23
-    signals: []
+    last_pushed: 2026-10-21
+    last_release: v0.28.24
+    signals: [pushed, released]
   - slug: pr-lens
     title: PR Lens
     subject_repo: coldteadotai/pr-lens
@@ -132,18 +132,18 @@ notes:
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
     last_release: null
-    signals: []
+    signals: [pushed]
   - slug: verbatim-citation-gate
     title: Verbatim Citation Gate
     subject_repo: tonydzi/verbatim-citation-gate
     last_verified: 2026-10-17
     last_pushed: 2026-10-19
     last_release: v0.3.0
-    signals: []
+    signals: [pushed]
   - slug: workshop
     title: Workshop
     subject_repo: raindrop-ai/workshop
     last_verified: 2026-10-07
     last_pushed: 2026-10-20
     last_release: v0.1.21
-    signals: []
+    signals: [pushed]

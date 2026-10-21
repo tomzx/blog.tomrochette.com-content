@@ -1,7 +1,7 @@
 ---
 title: AI-DLC
 created: 2026-10-06
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, sdlc, multi-agent, workflow, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Amazon's own docs position it as the successor to retrofitting AI onto human pro
 ## Status
 
 Large and fast-moving for an eleven-month-old methodology repo.
-As of 2026-10-14: 5,173 stars, 939 forks, 282 open issues, created 2025-11-13; as of 2026-10-19, pushed 2026-10-19, stable release v2.11.0 (2026-10-08) with near-daily v2.11.1-preview builds (through 2026-10-18), MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
+As of 2026-10-14: 5,173 stars, 939 forks, 282 open issues, created 2025-11-13; as of 2026-10-21, pushed 2026-10-21, stable release v2.11.1 (2026-10-20, the worktree and nested-checkout approval fix, a plugin marketplace model that composes without Bun on Cursor and Kiro IDE, breaking for plugin scripts) with the 2.11.2-preview line started, MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ Not for solo work, and not for anyone who wants a process layer with no vendor's
 - 2026-10-07 - Added the awslabs/aidlc-workflows star history chart to the Status section.
 - 2026-10-09 - Recorded the v2.11.0 stable release (2026-10-08) and refreshed counts.
 - 2026-10-11 - Corrected the repo age (created 2025-11-13, eleven months old, not eighteen) and refreshed counts.
+- 2026-10-21 - Recorded the stable v2.11.1 release (2026-10-20, the worktree and nested-checkout approval fix, the plugin marketplace model, breaking for plugin scripts) and refreshed the status date.
 
 ## See also
 

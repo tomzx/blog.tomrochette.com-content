@@ -1,7 +1,7 @@
 ---
 title: Paperclip
 created: 2026-08-27
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, control-planes, agent-operations, multi-agent, open-source, governance]
 readability: 3
@@ -24,7 +24,7 @@ Any agent that can receive a heartbeat is hirable, OpenClaw, Claude Code, Codex,
 ## Status
 
 Active at extreme velocity.
-As of 2026-10-18: 101,570 stars and 17,038 forks since creation on 2026-03-02, 6,106 open issues, pushed 2026-10-19, latest release v2026.1012.0 published 2026-10-12 with no release in the seven days since, date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
+As of 2026-10-18: 101,570 stars and 17,038 forks since creation on 2026-03-02, with 6,296 open issues and the latest push on 2026-10-21 as of 2026-10-21, latest release v2026.1012.0 published 2026-10-12 with no release in the nine days since, date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ The roadmap is public about what does not exist yet: memory and knowledge, work 
 ## Cautions
 
 - The quickstart defaults to a trusted local loopback mode, and the README itself tells you to pick an authenticated bind preset for anything beyond the first run; read before you expose.
-- The open-issue backlog is enormous and unstable: 6,501 on 2026-10-06 fell to 6,205 on 2026-10-07, regrew to 6,325 by 2026-10-10, fell to 5,888 on 2026-10-11, then regrew again to 6,015 by 2026-10-13, so no direction has held for more than a day and triage throughput swings with the release train.
+- The open-issue backlog is enormous and unstable: 6,501 on 2026-10-06 fell to 6,205 on 2026-10-07, regrew to 6,325 by 2026-10-10, fell to 5,888 on 2026-10-11, then regrew again to 6,015 by 2026-10-13 and 6,296 by 2026-10-21, so no direction has held for more than a day and triage throughput swings with the release train.
 - Date-versioned near-daily releases mean you are always upgrading; pin deliberately.
 - The pitch says autonomous businesses while the memory, work-queue, and self-organization pillars are still roadmap items, so expect to supervise more than the landing page implies.
 - Name collisions: desktop Clippy-style tools also call themselves paperclip (agent-paperclip, clippyai-desktop); search carefully.

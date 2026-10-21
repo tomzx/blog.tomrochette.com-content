@@ -23,16 +23,16 @@ notes:
     title: Agent2Agent Protocol (A2A)
     subject_repo: a2aproject/A2A
     last_verified: 2026-10-17
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v1.0.1
-    signals: []
+    signals: [pushed]
   - slug: a2ui
     title: A2UI
     subject_repo: a2ui-project/a2ui
     last_verified: 2026-10-17
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: python/a2ui-adk/v0.1.0
-    signals: []
+    signals: [pushed]
   - slug: acp
     title: Agent Client Protocol (ACP)
     subject_repo: agentclientprotocol/agent-client-protocol
@@ -51,7 +51,7 @@ notes:
     title: Agent Host Protocol
     subject_repo: microsoft/agent-host-protocol
     last_verified: 2026-10-20
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: clients/go/v1.0.0
     signals: []
   - slug: agents-md
@@ -73,8 +73,8 @@ notes:
     subject_repo: langchain-ai/agent-protocol
     last_verified: 2026-10-20
     last_pushed: 2026-10-20
-    last_release: "langchain-protocol==0.0.19"
-    signals: []
+    last_release: "langchain-protocol==0.0.20"
+    signals: [released]
   - slug: llms-txt
     title: llms.txt
     subject_repo: null
@@ -85,14 +85,14 @@ notes:
     last_verified: 2026-10-17
     last_pushed: 2026-10-20
     last_release: 2026-07-28
-    signals: []
+    signals: [pushed]
   - slug: pic-standard
     title: PIC Standard
     subject_repo: pic-standard/pic-standard
     last_verified: 2026-10-16
     last_pushed: 2026-10-19
     last_release: v0.9.1
-    signals: []
+    signals: [pushed]
   - slug: uhp
     title: Unified Harness Protocol (UHP)
     subject_repo: HarnessRouter/harnessrouter
@@ -104,6 +104,6 @@ notes:
     title: WebMCP
     subject_repo: webmachinelearning/webmcp
     last_verified: 2026-10-17
-    last_pushed: 2026-10-16
+    last_pushed: 2026-10-20
     last_release: null
-    signals: []
+    signals: [pushed]

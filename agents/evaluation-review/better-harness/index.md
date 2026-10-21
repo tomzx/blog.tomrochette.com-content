@@ -1,7 +1,7 @@
 ---
 title: Better Harness
 created: 2026-10-13
-updated: 2026-10-17
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, harness-engineering, workflow-quality]
 readability: 3
@@ -23,7 +23,7 @@ Ten hosts are documented, including Claude Code, Codex, Cursor, Copilot CLI, Qwe
 
 ## Status
 
-Active, early, and vendor-backed: 2,374 stars, 192 forks, and 12 open issues as of 2026-10-13, created 2026-07-21 and pushed 2026-10-15, with npm at 0.6.6 (2026-08-31, eleven versions) as the newest stable and a single alpha (0.7.0-alpha1, 2026-09-03) after it.
+Active, early, and vendor-backed: 2,374 stars, 192 forks, and 12 open issues as of 2026-10-13, created 2026-07-21 and pushed 2026-10-20, with npm at 0.6.6 (2026-08-31, eleven versions) as the newest stable and two alphas after it (0.7.0-alpha1, 2026-09-03, on npm; 0.7.0-alpha2, 2026-09-12, GitHub-only, never npm-published).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=QoderAI/better-harness&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ The docs are candid about the epistemics, which builds trust: unobserved behavio
 - The rubric is the vendor's own model, unvalidated by any third party, and the vendor sells a competing commercial agent, so the referee is not independent.
 - Zero independent community footprint: no threads, no third-party writeups found, the stars-ahead-of-discussion pattern this section flags elsewhere.
 - Reports are advisory: there is no recorded CI gate or merge-blocking surface, so improvement depends on a human reading them.
-- One maintainer org and an npm stable line idle since August 2026 (one September alpha aside) make supply-chain and continuity review part of any adoption decision.
+- One maintainer org and an npm stable line idle since August 2026 (two September alphas aside, the second never npm-published) make supply-chain and continuity review part of any adoption decision.
 - Session evidence depends on host support, so the same project gets shallower findings on some harnesses than others.
 
 ## Pricing
@@ -70,6 +70,7 @@ Not for anyone needing an independent referee (the vendor grades its own categor
 
 - 2026-10-13 - Created.
 - 2026-10-17 - Corrected the npm-line claim: 0.7.0-alpha1 shipped 2026-09-03 after stable 0.6.6, so the line is idle since August at the stable channel, not entirely.
+- 2026-10-21 - Corrected the alpha count again: v0.7.0-alpha2 shipped 2026-09-12 on GitHub only and never reached npm, so the alpha line has two entries and the npm channel one.
 
 ## See also
 

@@ -71,7 +71,11 @@ def main():
             new_log_lines.append(normalize(line, scope, slugs))
         for line in section(text, "Flags"):
             flags.append(f"- {scope}: " + line.strip().lstrip("-").strip())
-        repos = [l.strip().lstrip("-").strip() for l in section(text, "Sources scanned")]
+        repos = []
+        for line in section(text, "Sources scanned"):
+            tok = line.strip().lstrip("-").strip().split()
+            if tok and "/" in tok[0] and re.fullmatch(r"[\w.-]+/[\w.-]+", tok[0]):
+                repos.append(tok[0])
         wl = os.path.join(AG, "worklists", f"{scope}.yaml")
         if repos and os.path.exists(wl):
             wt = open(wl, encoding="utf-8").read()

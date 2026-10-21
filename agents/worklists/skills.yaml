@@ -33,9 +33,9 @@ notes:
     title: Agent-Native
     subject_repo: BuilderIO/agent-native
     last_verified: 2026-10-20
-    last_pushed: 2026-10-20
-    last_release: v0.1.284
-    signals: []
+    last_pushed: 2026-10-21
+    last_release: v0.1.286
+    signals: [pushed, released]
   - slug: agent-plugins
     title: Agent Plugins
     subject_repo: agentplugins/agent-plugins-spec
@@ -67,7 +67,7 @@ notes:
     last_verified: 2026-10-13
     last_pushed: 2026-10-20
     last_release: v0.1.4
-    signals: []
+    signals: [pushed]
   - slug: headcount
     title: Headcount
     subject_repo: cbrock84/headcount
@@ -92,7 +92,7 @@ notes:
     last_verified: 2026-10-13
     last_pushed: 2026-10-20
     last_release: v1.3.3
-    signals: []
+    signals: [pushed]
   - slug: skillopt
     title: SkillOpt
     subject_repo: microsoft/SkillOpt
@@ -104,9 +104,9 @@ notes:
     title: skills.md
     subject_repo: hasna/skills
     last_verified: 2026-10-20
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-21
     last_release: null
-    signals: []
+    signals: [pushed]
   - slug: skills-sh
     title: skills.sh
     subject_repo: null
@@ -115,13 +115,13 @@ notes:
     title: SkillSpector
     subject_repo: NVIDIA/SkillSpector
     last_verified: 2026-10-17
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v2.13.0
-    signals: []
+    signals: [pushed]
   - slug: snyk-agent-scan
     title: Snyk Agent Scan
     subject_repo: snyk/agent-scan
     last_verified: 2026-10-20
-    last_pushed: null
-    last_release: null
+    last_pushed: 2026-10-20
+    last_release: v0.6.9
     signals: []

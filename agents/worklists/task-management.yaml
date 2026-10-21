@@ -25,7 +25,7 @@ notes:
   - slug: agentrq
     title: AgentRQ
     subject_repo: agentrq/agentrq
-    last_verified: 2026-10-17
+    last_verified: 2026-10-20
     last_pushed: 2026-10-19
     last_release: v0.13.0
     signals: []
@@ -40,30 +40,30 @@ notes:
     title: Backlog.md
     subject_repo: MrLesk/Backlog.md
     last_verified: 2026-10-17
-    last_pushed: 2026-10-19
-    last_release: v1.54.0
-    signals: []
+    last_pushed: 2026-10-20
+    last_release: v1.55.0
+    signals: [pushed, released]
   - slug: beads
     title: beads
     subject_repo: gastownhall/beads
     last_verified: 2026-10-17
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: v1.3.1
-    signals: []
+    signals: [pushed]
   - slug: epiq
     title: Epiq
     subject_repo: ljtn/epiq
     last_verified: 2026-10-13
     last_pushed: 2026-10-20
-    last_release: v1.13.2
-    signals: []
+    last_release: v1.14.0
+    signals: [pushed, released]
   - slug: its-a-plan
     title: It's a Plan
     subject_repo: croffasia/itsaplan
     last_verified: 2026-10-13
-    last_pushed: 2026-10-19
-    last_release: v1.5.0
-    signals: []
+    last_pushed: 2026-10-20
+    last_release: v1.6.0
+    signals: [pushed, released]
   - slug: kanban-md
     title: kanban-md
     subject_repo: antopolskiy/kanban-md
@@ -75,30 +75,30 @@ notes:
     title: Kata
     subject_repo: kenn-io/kata
     last_verified: 2026-10-18
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: v0.19.0
-    signals: []
+    signals: [pushed]
   - slug: operon
     title: Operon
     subject_repo: hasanyilmaz/operon
     last_verified: 2026-10-16
-    last_pushed: 2026-10-19
-    last_release: 4.0.1
-    signals: []
+    last_pushed: 2026-10-20
+    last_release: 4.1.0
+    signals: [pushed, released]
   - slug: ordewell
     title: Ordewell
     subject_repo: ordewell/ordewell
     last_verified: 2026-10-17
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v0.10.10
-    signals: []
+    signals: [pushed]
   - slug: pad
     title: Pad
     subject_repo: PerpetualSoftware/pad
     last_verified: 2026-10-18
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: v0.18.1
-    signals: []
+    signals: [pushed]
   - slug: plandb
     title: PlanDB
     subject_repo: Agent-Field/plandb
@@ -117,6 +117,6 @@ notes:
     title: Veritas Kanban
     subject_repo: BradGroux/veritas-kanban
     last_verified: 2026-10-11
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v6.2.1
-    signals: []
+    signals: [pushed]

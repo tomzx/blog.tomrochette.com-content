@@ -1,7 +1,7 @@
 ---
 title: Hunk
 created: 2026-10-06
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, terminal, diff, human-in-the-loop]
 readability: 3
@@ -24,7 +24,7 @@ The maker is Modem (modem.dev), the company credited in hunk.dev's footer.
 
 ## Status
 
-Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026-03-17, pushed 2026-10-19, with v0.24.0-beta.1 (2026-10-15) carrying the 0.24 line and stable still v0.23.0 (2026-09-30, 741 merged pull requests).
+Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026-03-17, pushed 2026-10-20, with v0.24.0 released 2026-10-19 making the 0.24 line stable (741 merged pull requests by the v0.23.0 it succeeds, 2026-09-30).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=modem-dev/hunk&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for CI gating and not for anyone expecting a machine verdict; Hunk deliberat
 - 2026-10-07 - Added the modem-dev/hunk star history chart to the Status section.
 - 2026-10-13 - Recorded the v0.24.0-beta.0 prerelease (2026-10-13) opening the 0.24 line, stable unchanged at v0.23.0, and refreshed repository counts.
 - 2026-10-16 - Recorded the v0.24.0-beta.1 prerelease (2026-10-15), stable unchanged at v0.23.0, and the npm weekly count (about 5.4k).
+- 2026-10-21 - Recorded the v0.24.0 stable release (2026-10-19), which ends the v0.23.x stable line.
 
 ## See also
 

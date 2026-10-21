@@ -28,21 +28,21 @@ notes:
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
     last_release: v0.9.30
-    signals: []
+    signals: [pushed]
   - slug: basic-memory
     title: Basic Memory
     subject_repo: basicmachines-co/basic-memory
     last_verified: 2026-10-17
     last_pushed: 2026-10-20
     last_release: v0.23.2
-    signals: []
+    signals: [pushed]
   - slug: belief-context-graph
     title: Belief Context Graph
     subject_repo: bigai-nlco/belief-context-graph
     last_verified: 2026-10-16
     last_pushed: 2026-10-20
     last_release: null
-    signals: []
+    signals: [pushed]
   - slug: cabinet
     title: Cabinet
     subject_repo: cabinetai/cabinet
@@ -54,30 +54,30 @@ notes:
     title: claude-mem
     subject_repo: thedotmack/claude-mem
     last_verified: 2026-10-18
-    last_pushed: 2026-10-20
-    last_release: v14.0.1
-    signals: []
+    last_pushed: 2026-10-21
+    last_release: v15.0.1
+    signals: [pushed, released]
   - slug: cognee
     title: Cognee
     subject_repo: topoteretes/cognee
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
     last_release: v1.6.5
-    signals: []
+    signals: [pushed]
   - slug: deja
     title: deja
     subject_repo: vshulcz/deja-vu
     last_verified: 2026-10-18
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v0.22.2
-    signals: []
+    signals: [pushed]
   - slug: emulo
     title: Emulo
     subject_repo: ohad6k/emulo
     last_verified: 2026-10-11
     last_pushed: 2026-10-12
     last_release: v0.6.7
-    signals: []
+    signals: [pushed]
   - slug: engrim
     title: Engrim
     subject_repo: timgordontg/engrim
@@ -91,7 +91,7 @@ notes:
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
     last_release: v1.4.2
-    signals: []
+    signals: [pushed]
   - slug: file-based-agent-memory
     title: File-based agent memory
     subject_repo: null
@@ -100,23 +100,23 @@ notes:
     title: Funes
     subject_repo: huggingface/funes
     last_verified: 2026-10-16
-    last_pushed: 2026-10-19
-    last_release: v1.9.0
-    signals: []
+    last_pushed: 2026-10-20
+    last_release: v1.9.1
+    signals: [pushed, released]
   - slug: gbrain
     title: GBrain
     subject_repo: garrytan/gbrain
     last_verified: 2026-10-20
-    last_pushed: 2026-10-20
-    last_release: v0.60.322.0
-    signals: []
+    last_pushed: 2026-10-21
+    last_release: v0.60.330.0
+    signals: [pushed, released]
   - slug: hindsight
     title: Hindsight
     subject_repo: vectorize-io/hindsight
     last_verified: 2026-10-16
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v1.0.0
-    signals: []
+    signals: [pushed]
   - slug: letta
     title: Letta
     subject_repo: letta-ai/letta
@@ -137,21 +137,21 @@ notes:
     last_verified: 2026-10-08
     last_pushed: 2026-10-20
     last_release: ts-v3.3.1
-    signals: []
+    signals: [pushed]
   - slug: memanto
     title: Memanto
     subject_repo: moorcheh-ai/memanto
     last_verified: 2026-10-11
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v0.2.29
-    signals: []
+    signals: [pushed]
   - slug: memmachine
     title: MemMachine
     subject_repo: MemMachine/MemMachine
     last_verified: 2026-10-11
     last_pushed: 2026-10-20
     last_release: v0.4.0
-    signals: []
+    signals: [pushed]
   - slug: memoryfields
     title: Memoryfields
     subject_repo: calpaterson/memoryfield-spec
@@ -163,16 +163,16 @@ notes:
     title: MemOS
     subject_repo: MemTensor/MemOS
     last_verified: 2026-10-09
-    last_pushed: 2026-10-17
+    last_pushed: 2026-10-20
     last_release: v2.0.34
-    signals: []
+    signals: [pushed]
   - slug: memu
     title: memU
     subject_repo: NevaMind-AI/memU
     last_verified: 2026-10-18
     last_pushed: 2026-10-20
     last_release: v1.5.1
-    signals: []
+    signals: [pushed]
   - slug: memvid
     title: Memvid
     subject_repo: memvid/memvid
@@ -191,55 +191,55 @@ notes:
     title: OKF Agent Memory
     subject_repo: okf-memory/okf-agent-memory
     last_verified: 2026-10-17
-    last_pushed: 2026-10-19
-    last_release: v0.6.2
-    signals: []
+    last_pushed: 2026-10-20
+    last_release: v0.7.0
+    signals: [pushed, released]
   - slug: openviking
     title: OpenViking
     subject_repo: volcengine/OpenViking
     last_verified: 2026-10-20
     last_pushed: 2026-10-20
-    last_release: v0.5.1
-    signals: []
+    last_release: v0.5.1.1
+    signals: [released]
   - slug: operator-memory
     title: Operator Memory
     subject_repo: aerovato/operator-memory
     last_verified: 2026-10-17
-    last_pushed: 2026-10-12
+    last_pushed: 2026-10-20
     last_release: "helper@v1.8.0"
-    signals: []
+    signals: [pushed]
   - slug: plur
     title: PLUR
     subject_repo: plur-ai/plur
     last_verified: 2026-10-14
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v0.21.5
-    signals: []
+    signals: [pushed]
   - slug: screenpipe
     title: Screenpipe
     subject_repo: screenpipe/screenpipe
     last_verified: 2026-10-18
     last_pushed: 2026-10-20
     last_release: app-v2.7.109
-    signals: []
+    signals: [pushed]
   - slug: supermemory
     title: Supermemory
     subject_repo: supermemoryai/supermemory
     last_verified: 2026-10-08
-    last_pushed: 2026-10-18
+    last_pushed: 2026-10-20
     last_release: server-v0.0.9
-    signals: []
+    signals: [pushed]
   - slug: tencentdb-agent-memory
     title: TencentDB Agent Memory
     subject_repo: TencentCloud/TencentDB-Agent-Memory
     last_verified: 2026-10-16
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v2.0.3-beta.1
-    signals: []
+    signals: [pushed]
   - slug: zep
     title: Zep
     subject_repo: getzep/zep
     last_verified: 2026-10-16
-    last_pushed: 2026-10-14
+    last_pushed: 2026-10-20
     last_release: zep-ingest-v0.4.0
-    signals: []
+    signals: [pushed]

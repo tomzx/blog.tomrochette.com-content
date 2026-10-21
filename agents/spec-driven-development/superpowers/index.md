@@ -1,7 +1,7 @@
 ---
 title: Superpowers
 created: 2026-10-09
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, methodology, agent-skills, worktrees, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Prime Radiant, the applied research lab behind it, sells commercial support, add
 ## Status
 
 Large, active, and distribution-backed in a way no other column is.
-As of 2026-10-14: 298,672 stars, 26,695 forks, 328 open issues and pull requests, created 2025-10-09, pushed 2026-10-10, MIT, newest release v7.0.0 (2026-10-09).
+As of 2026-10-14: 298,672 stars, 26,695 forks, 328 open issues and pull requests, created 2025-10-09, pushed 2026-10-20, MIT, newest release v7.0.0 (2026-10-09).
 v7.0.0 shipped on the project's first anniversary with a rebuilt brainstorming skill that sizes the process to the work, running a quick task immediately, agreeing a small change in chat, or writing a full design document, and it replaces the spec-document reviewer with a builder check that reads the design as the person who will build it.
 The steward's anniversary post reports the repo about to cross 300,000 stars (12th most starred project on GitHub by his count), the number-one third-party Claude Code plugin at more than 1.1M installs, and 50M clones every two weeks from 1.95M unique IPs.
 
@@ -88,7 +88,7 @@ The disagreeable claim I will defend: 297k stars for a mandatory methodology is 
 
 - https://github.com/obra/superpowers - repository: workflow, harness table, philosophy, licensing (298,672 stars as of 2026-10-14)
 - https://raw.githubusercontent.com/obra/superpowers/main/README.md - the seven-skill core loop, 16 harness installs, contribution policy, and telemetry disclosure
-- https://api.github.com/repos/obra/superpowers - stars, forks, issues, dates, and MIT as of 2026-10-10
+- https://api.github.com/repos/obra/superpowers - stars, forks, issues, dates, and MIT as of 2026-10-21
 - https://raw.githubusercontent.com/obra/superpowers/main/RELEASE-NOTES.md - the v7.0.0 release notes grounding the rebuilt brainstorming and the builder check
 - https://blog.fsck.com/2026/10/09/what-a-year/ - the anniversary post grounding the 7.0 framing and the 300k-star, 1.1M-install, and clone-volume claims
 - https://primeradiant.com/claude-plugin-stats/ - the steward's tracker of Anthropic's plugin-stats feed behind the 1.1M-install figure

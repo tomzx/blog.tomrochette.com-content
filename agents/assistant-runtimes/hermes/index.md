@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 ## Status
 
 Massive and fast-moving.
-253,488 stars and 54,982 forks as of 2026-10-14 since creation on 2025-07-22, MIT, and as of 2026-10-19 pushed that day with 49,973 open issues, a support surface bigger than most projects' users.
+253,488 stars and 54,982 forks as of 2026-10-14 since creation on 2025-07-22, MIT, and as of 2026-10-21 pushed that day with 50,189 open issues, a support surface bigger than most projects' users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&theme=dark&legend=top-left" />
@@ -88,6 +88,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 - 2026-10-11 - Recorded the official desktop installers (macOS 12+, Windows 10/11) joining the curl install path and Email joining the official channel list, with refreshed adoption numbers and the Portal tiers (Free $0, Plus $20, Super $100, Ultra $200) re-checked unchanged on the official site.
 - 2026-10-13 - Recorded v0.21.7 (2026-10-12), the second tag on the new stable release line, with refreshed adoption numbers and the Portal tiers re-checked unchanged on the official site.
 - 2026-10-16 - Recorded the v0.22 line: v0.22.0, "The Threshold Release" (2026-10-14, about 6,080 merged pull requests since v0.21.0), v0.22.1 (2026-10-14), and v0.22.2 (2026-10-15), with refreshed adoption numbers.
+- 2026-10-21 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the v0.21.6 release notes, the official site, both HN threads, the plagiarism-edit issue, the gadget SDK repo), v0.22.2 (2026-10-15) confirmed still the latest release, the seven-backend list and the Portal tiers (Free $0, Plus $20, Super $100, Ultra $200) unchanged, and the issue-10232 edit record intact.
 
 ## See also
 

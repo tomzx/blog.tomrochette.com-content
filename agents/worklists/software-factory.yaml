@@ -18,7 +18,7 @@ notes:
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
     last_release: v0.254.0
-    signals: []
+    signals: [pushed]
   - slug: fluent
     title: Fluent
     subject_repo: mrinalwadhwa/fluent
@@ -45,22 +45,22 @@ notes:
     subject_repo: asklokesh/loki-mode
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
-    last_release: v11.17.103
-    signals: []
+    last_release: v11.18.0
+    signals: [pushed, released]
   - slug: machinist
     title: Machinist
     subject_repo: owainlewis/machinist
     last_verified: 2026-10-16
     last_pushed: 2026-10-20
     last_release: v0.4.0
-    signals: []
+    signals: [pushed]
   - slug: ouroboros
     title: Ouroboros
     subject_repo: Q00/ouroboros
     last_verified: 2026-10-17
-    last_pushed: 2026-10-19
-    last_release: v0.59.0
-    signals: []
+    last_pushed: 2026-10-20
+    last_release: v0.59.3
+    signals: [pushed, released]
   - slug: super-simple-software-factory
     title: Super Simple Software Factory
     subject_repo: disler/super-simple-software-factory
@@ -72,13 +72,13 @@ notes:
     title: SuperPlane
     subject_repo: superplanehq/superplane
     last_verified: 2026-10-17
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: fleet-manager/v0.1.4
-    signals: []
+    signals: [pushed]
   - slug: zeroshot
     title: Zeroshot
     subject_repo: the-open-engine/zeroshot
     last_verified: 2026-10-16
     last_pushed: 2026-10-20
     last_release: v10.15.0
-    signals: []
+    signals: [pushed]

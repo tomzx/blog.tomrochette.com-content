@@ -13,6 +13,7 @@ Specification-first workflows: the movement's process layers and toolkits, sized
 - [AI Unified Process](ai-unified-process/index.md) - the requirements-first RUP revival that keeps use cases as the living source of truth and generates, reconciles, and audits code against them, 146 stars and an Apress book behind it.
 - [AI-DLC](ai-dlc/index.md) - AWS Labs' harness-neutral lifecycle engine, 5 phases and 33 stages with approval gates and an audit trail, one methodology across seven agents.
 - [Arc Kit](arc-kit/index.md) - the solo-maintained 76-command enterprise-architecture governance harness (strategy through assurance, HM Treasury documents, Wardley Maps, citation-marked drafts) across seven agent formats, about 2.3k stars.
+- [Archcore](archcore/index.md) - the Apache-2.0 Go CLI and MCP layer that keeps specs, decisions, and rules as typed Markdown under .archcore/ and has review name the side that is wrong, code-wrong or spec-wrong, 71 stars as of 2026-10-21.
 - [BMad Method](bmad-method/index.md) - the agile method that sizes ceremony to the change, roles and retrospectives included.
 - [cc-sdd](cc-sdd/index.md) - the Kiro-inspired installer that puts a 17-skill spec workflow inside eight agents, with per-task independent review in autonomous mode.
 - [GitHub Spec Kit](spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, about 141k stars.
@@ -45,3 +46,4 @@ Its members are compared on shared rows in the [Spec Driven Development Feature 
 - 2026-10-13 - Added Arc Kit.
 - 2026-10-16 - Added Mycelium.
 - 2026-10-17 - Added AI Unified Process.
+- 2026-10-21 - Added Archcore.

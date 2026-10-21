@@ -1,7 +1,7 @@
 ---
 title: arifOS
 created: 2026-10-16
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, governance-kernel, mcp, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The maintainer positions it as the layer between "agent wants to act" and "actio
 
 ## Status
 
-Active and early: 54 stars, 9 forks, and 12 open issues as of 2026-10-18, created 2025-11-17, pushed 2026-10-19, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
+Active and early: 54 stars and 9 forks as of 2026-10-18, with 5 open issues and the latest push on 2026-10-20 as of 2026-10-21, created 2025-11-17, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ariffazil/arifOS&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and early: 54 stars, 9 forks, and 12 open issues as of 2026-10-18, create
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ariffazil/arifOS&type=date&legend=top-left" />
 </picture>
 
-**The most striking artifact is the README's own verified-state block, machine-stamped by the project's probe scripts and reading like an adversarial audit the project ran on itself: deterministic rejection and mutation prevention hold end to end, while verified actor identity, receipt fidelity on the invocation-telemetry surface, sink agreement, and independent reconstruction all fail today, and the floors self-measure at 2 pass, 4 fail, and 10 unmeasured.**
+**The most striking artifact is the README's own verified-state block, machine-stamped by the project's probe scripts and reading like an adversarial audit the project ran on itself: the current self-measurement (stamped 2026-10-20) reads the kernel degraded with 7 of 13 floors measured pass, while the pinned independent audit of 2026-10-11 still reads 2 pass, 4 fail (F2, F11, F12, F13), and 7 unmeasured, and the block itself warns that these are two different witness objects, with verified actor identity, receipt fidelity on the invocation-telemetry surface, and independent reconstruction all still failing in the audit line.**
 That same block admits an earlier 13-of-13 floors reading was a false pass caused by a threshold defect, and states plainly that there are no customers, no pilots, no independent benchmark, no external security audit, and zero revenue.
 A Hacker News search returns no threads about arifOS, so an eleven-month-old kernel has zero community footprint, and the awesome-ai-governance directory listing (added 2026-10-16) is the only third-party surface I found.
 
@@ -46,7 +46,7 @@ A Hacker News search returns no threads about arifOS, so an eleven-month-old ker
 ## Cautions
 
 - The kernel's own audit says actor identity is unverified on the live path (observed calls arrived unsigned) and a HOLD verdict was persisted as ok:true on the telemetry surface, so the receipts are not evidence-grade yet by the project's own reading.
-- Ten of thirteen floors are unmeasured, and the project's own rule is that unmeasured is not pass.
+- The independent audit still shows only 2 of 13 floors passing and 7 unmeasured, and the project's own rules are that unmeasured is not pass and that self-measurement is not an independent audit.
 - One maintainer, zero community footprint, and AGPL-3.0, which some shops cannot ship.
 - The vocabulary is dense and self-referential (floors, organs, federation contracts, verdict names like SABAR and HOLD_888), so evaluation costs more reading time than any other gate in this category, and the solo compose stack runs everything on one host, which the project itself discloses.
 
@@ -69,6 +69,7 @@ Not for anyone who needs verified actor identity, measured floors, or a communit
 ## Changes
 
 - 2026-10-16 - Created from the awesome-ai-governance scan (PR #148, 2026-10-16), profiling the AGPL-3.0 MCP governance kernel with its own false-pass self-audit as the critical angle, and folding the sibling executor A-FORGE into the note per the sibling fold precedent.
+- 2026-10-21 - The README's self-measurement block moved to 7 of 13 floors measured pass with the kernel self-reporting degraded (2026-10-20 stamp), against the unchanged 2026-10-11 independent audit reading of 2 pass, 4 fail, and 7 unmeasured; the status and caution rewritten to keep the two witness objects separate.
 
 ## See also
 

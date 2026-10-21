@@ -1,7 +1,7 @@
 ---
 title: Kiln
 created: 2026-10-10
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, evals, fine-tuning, desktop-app]
 readability: 3
@@ -23,7 +23,7 @@ The maker is Chesterfield Laboratories Inc, and the desktop app is source-availa
 
 ## Status
 
-Active and mature for this category: 5,191 stars, 394 forks, and 56 open issues as of 2026-10-13, created 2024-07-23, pushed 2026-10-19, with the v1.2.0 release published 2026-09-29.
+Active and mature for this category: 5,191 stars, 394 forks, and 56 open issues as of 2026-10-13, created 2024-07-23, pushed 2026-10-20, with the v1.2.0 release published 2026-09-29.
 The release train is steady (v1.1.3 on 2026-09-16, v1.1.1 on 2026-08-20), and PyPI tracks the same 1.2.0 version.
 The community footprint is thin for the star count: a Hacker News search returns four hits about Kiln, all small (10, 6, 3, and 2 points, the newest from 2025-08-06), so adoption evidence rests on the stars and the installer base rather than independent technical discussion.
 
@@ -75,6 +75,7 @@ Not for CI gating (deepeval's job), production observability (Langfuse's and Pho
 ## Changes
 
 - 2026-10-10 - Created from the evaluation-review resolution pass, profiling the desktop evals workbench as the category's first GUI column where non-engineers rate outputs.
+- 2026-10-21 - Rotation re-verification: every cited URL re-fetched and live, the evaluations docs reference moved to its new evals-and-specs path, and v1.2.0 re-confirmed as the newest release on both GitHub and PyPI.
 
 ## See also
 
@@ -88,7 +89,7 @@ Not for CI gating (deepeval's job), production observability (Langfuse's and Pho
 - https://github.com/Kiln-AI/Kiln - repository: README, install paths, license split, model claims
 - https://api.github.com/repos/Kiln-AI/Kiln - stars, forks, issues, creation and push dates as of 2026-10-11
 - https://api.github.com/repos/Kiln-AI/Kiln/releases - v1.2.0 published 2026-09-29 and the release train
-- https://docs.kiln.tech/docs/evaluations - judge types (LLM judges, G-Eval, code judges), Eval Builder, RAG and tool-use evals
+- https://docs.kiln.tech/docs/evals-and-specs/evaluations - judge types (LLM judges, G-Eval, code judges), Eval Builder, RAG and tool-use evals (moved from /docs/evaluations, which redirects)
 - https://kiln.tech/pricing - Individual/Team/Enterprise tiers, Kiln Pro scope, and the local-data claims
 - https://pypi.org/pypi/kiln-ai/json - library version 1.2.0 matching the GitHub release
 - https://faircode.io - the fair-code model the desktop app's license follows

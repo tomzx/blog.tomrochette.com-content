@@ -23,79 +23,79 @@ notes:
     title: AnythingLLM
     subject_repo: Mintplex-Labs/anything-llm
     last_verified: 2026-10-19
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: v1.18.0
-    signals: []
+    signals: [pushed]
   - slug: astrbot
     title: AstrBot
     subject_repo: AstrBotDevs/AstrBot
     last_verified: 2026-10-18
     last_pushed: 2026-10-20
     last_release: v4.29.1
-    signals: []
+    signals: [pushed]
   - slug: eigent
     title: Eigent
     subject_repo: eigent-ai/eigent
     last_verified: 2026-10-16
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v1.0.6
-    signals: []
+    signals: [pushed]
   - slug: hermes
     title: Hermes Agent
     subject_repo: NousResearch/hermes-agent
     last_verified: 2026-10-16
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: v0.22.2
-    signals: []
+    signals: [pushed]
   - slug: nanobot
     title: Nanobot
     subject_repo: HKUDS/nanobot
     last_verified: 2026-10-17
     last_pushed: 2026-10-20
     last_release: v0.3.5
-    signals: []
+    signals: [pushed]
   - slug: nanoclaw
     title: NanoClaw
     subject_repo: nanocoai/nanoclaw
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
     last_release: v2026.10.0
-    signals: []
+    signals: [pushed]
   - slug: octop
     title: Octop
     subject_repo: TencentCloud/Octop
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
     last_release: v1.0.2
-    signals: []
+    signals: [pushed]
   - slug: open-webui
     title: Open WebUI
     subject_repo: open-webui/open-webui
     last_verified: 2026-10-18
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-21
     last_release: v0.12.3
-    signals: []
+    signals: [pushed]
   - slug: openclaw
     title: OpenClaw
     subject_repo: openclaw/openclaw
     last_verified: 2026-10-19
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: v2026.10.5
-    signals: []
+    signals: [pushed]
   - slug: openwork
     title: OpenWork
     subject_repo: different-ai/openwork
     last_verified: 2026-10-17
-    last_pushed: 2026-10-20
-    last_release: v0.18.58
-    signals: []
+    last_pushed: 2026-10-21
+    last_release: v0.18.59
+    signals: [pushed, released]
   - slug: openworker
     title: OpenWorker
     subject_repo: andrewyng/openworker
     last_verified: 2026-10-17
-    last_pushed: 2026-10-17
+    last_pushed: 2026-10-20
     last_release: v0.3.1
-    signals: []
+    signals: [pushed]
   - slug: picoclaw
     title: PicoClaw
     subject_repo: sipeed/picoclaw
@@ -107,20 +107,20 @@ notes:
     title: PrivateGPT
     subject_repo: zylon-ai/private-gpt
     last_verified: 2026-10-18
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v1.0.1
-    signals: []
+    signals: [pushed]
   - slug: qwenpaw
     title: QwenPaw
     subject_repo: agentscope-ai/QwenPaw
     last_verified: 2026-10-16
     last_pushed: 2026-10-20
     last_release: v2.2.2
-    signals: []
+    signals: [pushed]
   - slug: zeroclaw
     title: ZeroClaw
     subject_repo: zeroclaw-labs/zeroclaw
     last_verified: 2026-10-18
     last_pushed: 2026-10-20
     last_release: v0.8.6
-    signals: []
+    signals: [pushed]

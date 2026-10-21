@@ -1,7 +1,7 @@
 ---
 title: AI Unified Process
 created: 2026-10-17
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, use-cases, methodology, rup, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The four stack plugins are uneven: only Vaadin/jOOQ and Angular/JPA ship the rea
 
 ## Status
 
-Active and authored: 146 stars, 26 forks, and 6 open issues since creation on 2026-02-28, pushed 2026-10-18, Apache-2.0, with per-plugin version tags (`aiup-vaadin-jooq-v2.21.0` and `aiup-core-v2.28.0` the newest) as of 2026-10-19 (GitHub API).
+Active and authored: 146 stars, 26 forks, and 6 open issues since creation on 2026-02-28, pushed 2026-10-20, Apache-2.0, with per-plugin version tags (`aiup-vaadin-jooq-v2.21.0` and `aiup-core-v2.28.0` the newest) as of 2026-10-21 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AI-Unified-Process/marketplace&type=date&theme=dark&legend=top-left" />

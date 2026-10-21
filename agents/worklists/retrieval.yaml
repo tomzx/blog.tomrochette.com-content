@@ -27,30 +27,30 @@ notes:
     title: Chonkie
     subject_repo: feyninc/chonkie
     last_verified: 2026-10-19
-    last_pushed: 2026-10-03
+    last_pushed: 2026-10-20
     last_release: v1.7.0
-    signals: []
+    signals: [pushed]
   - slug: code-graph-rag
     title: Code-Graph-RAG
     subject_repo: vitali87/code-graph-rag
     last_verified: 2026-10-19
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: v0.2.10
-    signals: []
+    signals: [pushed]
   - slug: docling
     title: Docling
     subject_repo: docling-project/docling
     last_verified: 2026-10-18
-    last_pushed: 2026-10-19
-    last_release: v2.140.0
-    signals: []
+    last_pushed: 2026-10-20
+    last_release: v2.141.0
+    signals: [pushed, released]
   - slug: graphrag
     title: GraphRAG
     subject_repo: microsoft/graphrag
     last_verified: 2026-10-11
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v3.3.0
-    signals: []
+    signals: [pushed]
   - slug: knowhere
     title: Knowhere
     subject_repo: Ontos-AI/knowhere
@@ -64,28 +64,28 @@ notes:
     last_verified: 2026-10-11
     last_pushed: 2026-10-20
     last_release: "langchain-core==1.6.12"
-    signals: []
+    signals: [pushed]
   - slug: lightrag
     title: LightRAG
     subject_repo: HKUDS/LightRAG
     last_verified: 2026-10-13
-    last_pushed: 2026-10-15
+    last_pushed: 2026-10-20
     last_release: v1.5.7
-    signals: []
+    signals: [pushed]
   - slug: llamaindex
     title: LlamaIndex
     subject_repo: run-llama/llama_index
     last_verified: 2026-10-13
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v0.14.25
-    signals: []
+    signals: [pushed]
   - slug: open-codebase-index
     title: open-codebase-index
     subject_repo: Helweg/open-codebase-index
     last_verified: 2026-10-20
     last_pushed: 2026-10-20
-    last_release: v0.37.0
-    signals: []
+    last_release: v0.37.1
+    signals: [released]
   - slug: orama
     title: Orama
     subject_repo: oramasearch/orama
@@ -99,7 +99,7 @@ notes:
     last_verified: 2026-10-19
     last_pushed: 2026-10-20
     last_release: v0.4.4
-    signals: []
+    signals: [pushed]
   - slug: r2r
     title: R2R
     subject_repo: SciPhi-AI/R2R
@@ -113,7 +113,7 @@ notes:
     last_verified: 2026-10-17
     last_pushed: 2026-10-20
     last_release: v1.0.0-rc2
-    signals: []
+    signals: [pushed]
   - slug: semantic-code-search
     title: Semantic code search in coding tools
     subject_repo: null
@@ -126,6 +126,6 @@ notes:
     title: Unstructured
     subject_repo: Unstructured-IO/unstructured
     last_verified: 2026-10-20
-    last_pushed: 2026-10-19
-    last_release: 0.27.30
-    signals: []
+    last_pushed: 2026-10-20
+    last_release: 0.27.32
+    signals: [released]

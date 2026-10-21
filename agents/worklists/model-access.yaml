@@ -22,9 +22,9 @@ notes:
     title: Bifrost
     subject_repo: maximhq/bifrost
     last_verified: 2026-10-18
-    last_pushed: 2026-10-19
-    last_release: ent-v2.3.1-base
-    signals: []
+    last_pushed: 2026-10-21
+    last_release: ent-v2.3.2-base
+    signals: [pushed, released]
   - slug: cerebras-code
     title: Cerebras Code
     subject_repo: null
@@ -64,37 +64,37 @@ notes:
     title: LiteLLM
     subject_repo: BerriAI/litellm
     last_verified: 2026-10-19
-    last_pushed: 2026-10-20
-    last_release: v1.106.0
-    signals: []
+    last_pushed: 2026-10-21
+    last_release: v1.106.1
+    signals: [pushed, released]
   - slug: llamafile
     title: llamafile
     subject_repo: mozilla-ai/llamafile
     last_verified: 2026-10-07
     last_pushed: 2026-10-12
     last_release: 0.10.6
-    signals: []
+    signals: [pushed]
   - slug: llm-gateway
     title: LLM Gateway
     subject_repo: theopenco/llmgateway
     last_verified: 2026-10-16
-    last_pushed: 2026-10-19
+    last_pushed: 2026-10-20
     last_release: v1.22.0
-    signals: []
+    signals: [pushed]
   - slug: localai
     title: LocalAI
     subject_repo: mudler/LocalAI
     last_verified: 2026-10-10
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: v4.11.0
-    signals: []
+    signals: [pushed]
   - slug: magnitude
     title: Magnitude
     subject_repo: magnitudedev/magnitude
     last_verified: 2026-10-17
-    last_pushed: 2026-10-20
+    last_pushed: 2026-10-21
     last_release: "@magnitudedev/cli@0.2.10"
-    signals: []
+    signals: [pushed]
   - slug: minimax-coding-plan
     title: MiniMax Coding Plan
     subject_repo: null
@@ -109,7 +109,7 @@ notes:
     last_verified: 2026-10-07
     last_pushed: 2026-10-20
     last_release: v0.40.6
-    signals: []
+    signals: [pushed]
   - slug: opencode-go
     title: OpenCode Go
     subject_repo: null

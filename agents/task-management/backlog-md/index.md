@@ -1,7 +1,7 @@
 ---
 title: Backlog.md
 created: 2026-08-27
-updated: 2026-10-17
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, kanban, markdown, open-source, byok]
 readability: 3
@@ -24,8 +24,9 @@ It is maintained under the MrLesk identity, with conference talks ([Devoxx Belgi
 ## Status
 
 Active and healthy at mid-scale.
-As of 2026-10-17: 7,024 stars (as of 2026-10-14), 80 open issues and pull requests, pushed 2026-10-16, MIT-licensed, latest release v1.54.0 on 2026-10-16, 87,203 npm downloads last month.
+As of 2026-10-21: 7,024 stars (as of 2026-10-14), 73 open issues and pull requests, pushed 2026-10-20, MIT-licensed, latest release v1.55.0 on 2026-10-20, 88,640 npm downloads last month.
 v1.54.0 is a breaking release: `backlog task complete` and its MCP `task_complete` tool are removed in favor of marking work Done and archiving it, and archive now preserves the task's ID, record, dependencies, and references, with restore and delete alongside; it also changed the default task ordering and made previously accepted malformed edits fail.
+v1.55.0 (2026-10-20) followed as a repair release: versioned JSON output for draft lists, signal forwarding so stopping the npm and Bun launcher stops its native process, unknown YAML frontmatter preserved when unrelated fields are edited, explicit UTC timestamps, and duplicate task IDs repaired through `backlog doctor --fix`.
 The repo's quiet stretch since 2026-09-28 ended on 2026-10-07 with README commits adding a Backlog.md + Groma.md integration section, Groma.md being the same author's separate MIT architecture-map tool (188 stars as of 2026-10-10).
 
 <picture>
@@ -74,6 +75,7 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 - 2026-10-07 - Added the MrLesk/Backlog.md star history chart to the Status section.
 - 2026-10-10 - Recorded the README's Backlog.md + Groma.md integration section (2026-10-07, the same author's separate architecture-map tool) and refreshed counts (6,986 stars, 89 open issues, 84,452 npm downloads, pushed 2026-10-07).
 - 2026-10-17 - Rotation re-verification with every cited URL re-fetched live; recorded the v1.54.0 release (2026-10-16: task complete and its MCP tool removed in favor of Done plus archive, archive keeping the task's ID, record, dependencies, and references with restore and delete added, new default ordering, malformed edits rejected) and refreshed counts (80 open issues and pull requests, pushed 2026-10-16).
+- 2026-10-21 - Recorded the v1.55.0 release (2026-10-20: versioned JSON output for draft lists, launcher signal forwarding, unknown YAML frontmatter preserved on unrelated edits, explicit UTC timestamps, and duplicate task IDs repaired through backlog doctor) and refreshed counts (73 open issues and pull requests, pushed 2026-10-20, 88,640 npm downloads).
 
 ## See also
 
@@ -85,11 +87,12 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 ## References
 
 - https://github.com/MrLesk/Backlog.md - README: checkpoints, commands, agent integrations, dogfooding claim
-- https://api.github.com/repos/MrLesk/Backlog.md - stars, issues, push date, MIT license as of 2026-10-17
+- https://api.github.com/repos/MrLesk/Backlog.md - stars, issues, push date, MIT license as of 2026-10-21
 - https://raw.githubusercontent.com/MrLesk/Backlog.md/main/README.md - the Backlog.md + Groma.md integration section
 - https://github.com/MrLesk/Backlog.md/releases/tag/v1.54.0 - the v1.54.0 notes: archive replaces complete, restore and delete, the breaking ordering and validation changes
+- https://api.github.com/repos/MrLesk/Backlog.md/releases/tags/v1.55.0 - the v1.55.0 notes: JSON draft lists, launcher signal forwarding, frontmatter preservation, doctor repair
 - https://groma.md - the companion product the integration names (resolves to its GitHub repository)
 - https://api.github.com/repos/MrLesk/groma.md - the companion repo: 188 stars, MIT, as of 2026-10-10
 - https://news.ycombinator.com/item?id=44483530 - the 254-point launch thread
-- https://api.npmjs.org/downloads/point/last-month/backlog.md - 87,203 downloads last month
+- https://api.npmjs.org/downloads/point/last-month/backlog.md - 88,640 downloads last month
 - https://mrlesk.com/talks - conference talks demonstrating the method

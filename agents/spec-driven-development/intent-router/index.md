@@ -1,7 +1,7 @@
 ---
 title: Intent-Router
 created: 2026-10-10
-updated: 2026-10-17
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, intent-specs, clarification, skills]
 readability: 3
@@ -23,7 +23,7 @@ The README positions it against plan modes (which prefer looking up over verifyi
 
 ## Status
 
-Climbing back after the collapse: 239 stars and 51 forks as of 2026-10-14, created 2026-09-22, pushed 2026-10-16, with five releases (v1.4.0 on 2026-10-16, v1.3.0 on 2026-10-09, v1.0.0 on 2026-09-23); v1.4.0 trimmed the skill description to fit a 500-character harness cap after its second half, including the negative predicates that keep auto-invocation off unnecessary work, was being truncated in at least one harness, and added a DeepSeek Harness eval channel plus a cross-session contract test case.
+Climbing back after the collapse: 239 stars and 51 forks as of 2026-10-14, created 2026-09-22, pushed 2026-10-20, with five releases (v1.4.0 on 2026-10-16, v1.3.0 on 2026-10-09, v1.0.0 on 2026-09-23); v1.4.0 trimmed the skill description to fit a 500-character harness cap after its second half, including the negative predicates that keep auto-invocation off unnecessary work, was being truncated in at least one harness, and added a DeepSeek Harness eval channel plus a cross-session contract test case.
 **The GitHub API read 1,017 stars and 124 forks on 2026-10-11, 158 and 46 on 2026-10-13, and 239 and 51 on 2026-10-14: the collapse fork counts cannot take organically was followed by a one-day climb the same kind of engagement produces, which reads as a purge of inauthentic stars followed by continued re-inflation, and the nineteen-day adoption-curve claim this note published stays retracted.**
 Engagement from freshly created accounts is still arriving (a fork and a star land on 2026-10-13 alone), so the inflation appears ongoing, and the independent footprint is still empty: a Hacker News search returns no thread about it as of 2026-10-13.
 
