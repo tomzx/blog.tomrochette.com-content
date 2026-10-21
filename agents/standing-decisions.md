@@ -71,6 +71,8 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-21 | control-planes | Praesidia joins the closed tier | proprietary platform, design-partner-only SDKs, demo-gated pricing, Autoheal precedent
 - 2026-10-21 | assistant-runtimes | Orkas-VideoStudio resolves outside the category, the absorbed-family shelf keeps Orkas and its extracted toolkit is skills-kind | README states it is the extracted video agent of the absorbed Orkas desktop, agent-agnostic install into coding agents; routing flagged to skills
 - 2026-10-21 | assistant-runtimes | openhuman stays held on the absorbed-family shelf pending q13 | 42.2k stars is a tenth of OpenClaw-class so the scale trigger as framed has not fired; evidence gathered for the owner
+- 2026-10-21 | software-factory | factory-kind candidates dormant 6+ months reject on the CodeMachine precedent without re-deriving coverage | Antfarm (2,495 stars, dormant since 2026-02-26) resolved on it; the list's own unmaintained tag is the matching signal
+- 2026-10-21 | session-analytics | Aident Loadout stays out of session-analytics | an actions-and-credentials gateway with an audit feature, no session recording, indexing, cost, or live-observation cell; the 2026-10-18 control-planes closed-tier rejection stands
 
 ## Owner questions governing scope
 

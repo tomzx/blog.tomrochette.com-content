@@ -1,7 +1,7 @@
 ---
 title: llamafile
 created: 2026-10-07
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, single-file]
 readability: 3
@@ -23,7 +23,7 @@ Release 0.10.6 (September 2026) moved to a new build system on the 0.10 line, an
 
 ## Status
 
-Active under Mozilla.ai stewardship: created 2023-09-10, 26,232 stars, release 0.10.6 published 2026-09-15 (still latest as of 2026-10-14), as of 2026-10-14.
+Active under Mozilla.ai stewardship: created 2023-09-10, 26,232 stars as of 2026-10-14, release 0.10.6 published 2026-09-15 (still latest as of 2026-10-21), repo pushed 2026-10-12 (as of 2026-10-21).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mozilla-ai/llamafile&type=date&theme=dark&legend=top-left" />
@@ -46,7 +46,7 @@ Development cadence is slower than the local-inference family's leaders (four re
 - Massive single binaries (weights plus engine) are clumsy to update: a new model version means a new multi-gigabyte file, where Ollama pulls a manifest.
 - No model registry or discovery layer; you bring your own GGUF or use Mozilla's pre-built set.
 - Slower release cadence than llama.cpp itself, so fresh architecture support lags the upstream engine.
-- The AVX2 requirement on x64 quick-install binaries excludes older Intel and AMD hardware and some VMs.
+- Windows cannot run a single-file llamafile over 4GB at all, the limit the README now leads with (the workaround is the plain binary plus external weights), and the x64 build requires AVX (Intel Core 2006+ or AMD K8 2003+), with AVX2 and AVX512 used only when present.
 
 ## Pricing
 
@@ -67,6 +67,7 @@ Not as a daily driver for people who churn models weekly, and not for serving ag
 ## Changes
 
 - 2026-10-07 - Created.
+- 2026-10-21 - Full re-verification correction: the x64 requirement is AVX (Intel Core 2006+ or AMD K8 2003+), not the AVX2 requirement this note claimed, and the README's compatibility note is now the 4GB Windows single-file limit; the caution moved to the corrected claim grounded in the supported-systems docs, which joined the references.
 
 ## See also
 
@@ -77,9 +78,10 @@ Not as a daily driver for people who churn models weekly, and not for serving ag
 
 ## References
 
-- https://github.com/mozilla-ai/llamafile - repository, README, licensing badge, whisperfile, and the 0.10 build-system note (fetched 200, 2026-10-07)
-- https://api.github.com/repos/mozilla-ai/llamafile - stars, created date, push date, and the NOASSERTION license field (fetched 200, 2026-10-07; re-fetched 2026-10-14 at 26,232 stars, pushed 2026-10-12; re-fetched 2026-10-19, pushed 2026-10-12 and 0.10.6 still latest).
-- https://hacks.mozilla.org/2023/11/introducing-llamafile/ - Mozilla's launch announcement: the six-OS goal, Justine Tunney's authorship, and the Apache-2.0 plus MIT split (fetched 200, 2026-10-07)
-- https://docs.mozilla.ai/llamafile - the Mozilla.ai docs hub, pre-built llamafiles, and whisperfile surface (fetched 200, 2026-10-07)
-- https://api.github.com/repos/mozilla-ai/llamafile/releases - the 0.10.6 release of 2026-09-15 and the 2026 cadence (fetched 200, 2026-10-07)
-- https://raw.githubusercontent.com/mozilla-ai/llamafile/HEAD/README.md - the llama.cpp plus Cosmopolitan architecture and the AVX2 x64 compatibility note (fetched 200, 2026-10-07)
+- https://github.com/mozilla-ai/llamafile - repository, README, licensing badge, whisperfile, and the 0.10 build-system note (fetched 200, 2026-10-07; re-fetched 2026-10-21)
+- https://api.github.com/repos/mozilla-ai/llamafile - stars, created date, push date, and the NOASSERTION license field (fetched 200, 2026-10-07; re-fetched 2026-10-14 at 26,232 stars, pushed 2026-10-12; re-fetched 2026-10-19, pushed 2026-10-12 and 0.10.6 still latest; re-fetched 2026-10-21, pushed 2026-10-12 unchanged, 0.10.6 still latest).
+- https://hacks.mozilla.org/2023/11/introducing-llamafile/ - Mozilla's launch announcement: the six-OS goal, Justine Tunney's authorship, and the Apache-2.0 plus MIT split (fetched 200, 2026-10-07; re-fetched 2026-10-21)
+- https://docs.mozilla.ai/llamafile - the Mozilla.ai docs hub, pre-built llamafiles, and whisperfile surface (fetched 200, 2026-10-07; re-fetched 2026-10-21)
+- https://docs.mozilla.ai/llamafile/reference/support - the supported-systems page grounding the corrected CPU claim: AMD64 requires AVX (Intel Core 2006+ or AMD K8 2003+), with AVX2, AVX512, FMA, F16C, and VNNI conditionally enabled at runtime (fetched 200, 2026-10-21)
+- https://api.github.com/repos/mozilla-ai/llamafile/releases - the 0.10.6 release of 2026-09-15 and the 2026 cadence (fetched 200, 2026-10-07; re-fetched 2026-10-21, 0.10.6 still latest)
+- https://raw.githubusercontent.com/mozilla-ai/llamafile/HEAD/README.md - the llama.cpp plus Cosmopolitan architecture and, since this run's fetch, the 4GB Windows single-file limit where an AVX2 x64 note used to sit (fetched 200, 2026-10-07; re-fetched 2026-10-21)

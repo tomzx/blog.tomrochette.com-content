@@ -1,7 +1,7 @@
 ---
 title: Claude Code Agent Monitor
 created: 2026-10-10
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, claude-code, codex, cursor, open-source]
 readability: 3
@@ -17,7 +17,7 @@ Claude Code Agent Monitor (CCAM) is an MIT-licensed local dashboard that watches
 ## What it is
 
 A Node.js application (22.22 or newer) built on Express, React, SQLite, and WebSockets, run from source (npm run setup, with the dashboard on localhost:5173 in development and 4820 in production), as Electron desktop apps (macOS DMG and Windows NSIS or portable), or in Docker and Podman with Kubernetes and Terraform deployment docs.
-Claude Code and Codex report through their native hooks, while Cursor rides compatible live events plus native `~/.cursor` transcript discovery, and history import pulls Claude transcripts from `~/.claude` and Codex rollouts from `~/.codex/sessions` with snapshot retention so conversations survive source removal.
+Claude Code and Codex report through their native hooks, while Cursor rides compatible live events plus native `~/.cursor` transcript discovery, and history import pulls Claude transcripts from `~/.claude` and Codex rollouts from `~/.codex/sessions` with snapshot retention so conversations survive source removal; since v2.4.0 a remote-ingest endpoint accepts transcript uploads from machines that cannot run hooks locally.
 The views cover live fleet state, full conversations with rendered Markdown and tool-specific renderers, parent-child agent trees, workflow analytics across eleven D3 sections, alerts with webhook fan-out to 14 providers, and configuration explorers that inspect Claude Code and Codex settings, skills, hooks, MCP servers, rules, plugins, and memory.
 Cost tracking is configurable per model and per session, with dated introductory rates, per-subagent cost, the 272K GPT token boundary, and separate Cursor-native and third-party pricing catalogs.
 A `ccam` CLI and a local MCP server (103 typed tools across 16 modules) expose the same data to agents and scripts, and the repository also ships 14 plugins, 66 plugin skills, 18 subagents, 34 commands, and 77 repository skills.
@@ -25,7 +25,7 @@ Made by hoangsonww under MIT, listed under Session Monitors in the awesome-claud
 
 ## Status
 
-Young and active: 1,061 stars, 251 forks, created 2026-03-05, pushed 2026-10-18, latest release v2.3.0 on 2026-10-10 after v2.2.6 and v2.2.5 on 2026-10-04, as of 2026-10-19.
+Young and active: 1,061 stars, 253 forks, created 2026-03-05, pushed 2026-10-20, latest release v2.4.0 on 2026-10-20 after v2.3.0 on 2026-10-10, as of 2026-10-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hoangsonww/Claude-Code-Agent-Monitor&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ Not for minimal-footprint audit tooling (ccusage and AgentTrace stay far smaller
 
 - 2026-10-10 - Created.
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched and live, no release after v2.3.0 with one outside-contributor fix merged unreleased on 2026-10-17 (a custom title equal to the folder name no longer overwritten), the one-point Hacker News footprint unchanged, and repository and contributor counts refreshed (forks 248 to 251, hoangsonww 962 to 963 commits).
+- 2026-10-21 - Recorded v2.4.0 (2026-10-20): the custom-title fix released, a remote-ingest endpoint accepting transcript uploads (POST /api/hooks/ingest-transcript), automated version-bump pull requests, and two first-time outside contributors (lasse-tech, houdinisparks); repository counts refreshed (forks 251 to 253), and the pushed date moved to 2026-10-20.
 
 ## See also
 

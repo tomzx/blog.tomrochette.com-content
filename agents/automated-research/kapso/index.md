@@ -1,7 +1,7 @@
 ---
 title: Kapso
 created: 2026-10-11
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, optimization, program-synthesis, self-improving]
 readability: 3
@@ -24,7 +24,7 @@ Leeroopedia, the project's hosted ML knowledge wiki, connects as an MCP server d
 
 ## Status
 
-Active and accelerating: 125 stars, 17 forks, created 2025-12-07, last pushed 2026-10-18, with six releases on October 11 taking the train from v0.6.3 to v0.7.5, then v0.7.6 (October 13), v0.7.7 (October 15, a failed bank-connect leaves the origin as it found it), v0.7.8 (October 16, a rejected branch push keeps the session clone instead of deleting the candidate's only copy of its work), and v0.7.9 plus v0.7.10 on October 18, as of 2026-10-19.
+Active and accelerating: 125 stars, 17 forks, created 2025-12-07, last pushed 2026-10-20 (an unreleased main fix: a stray non-UTF-8 byte no longer discards a finished evaluation run), with six releases on October 11 taking the train from v0.6.3 to v0.7.5, then v0.7.6 (October 13), v0.7.7 (October 15, a failed bank-connect leaves the origin as it found it), v0.7.8 (October 16, a rejected branch push keeps the session clone instead of deleting the candidate's only copy of its work), and v0.7.9 plus v0.7.10 on October 18, as of 2026-10-21.
 The v0.7.0 release added cost-aware candidate selection, an estimator prices each finalized candidate before it runs, refusals and measured costs are recorded as campaign events, and the campaign stops when the next estimate would exhaust its budget, plus a `vertex_claude_code` agent that drives Claude Code on Vertex AI open-weight models; the checkpoint schema moved to version 3, so campaigns started before 0.7.0 cannot resume.
 v0.7.9 changed how repository memory updates: the model now returns a patch of the sections it changed or added, with an explicit `removed_sections` list, instead of rewriting the whole book from a truncated view, so large repositories stop losing sections; a patch that removes a core section or names an unknown one is rejected into the repair loop. v0.7.10 fixed `kapso inbox` listing a relaunched campaign twice.
 
@@ -85,11 +85,11 @@ Not for anyone needing independently audited headline numbers or a large user co
 
 ## References
 
-- https://github.com/Leeroo-AI/kapso - repository, MIT license, benchmark claims, and release train (as of 2026-10-19)
+- https://github.com/Leeroo-AI/kapso - repository, MIT license, benchmark claims, and release train (as of 2026-10-21)
 - https://api.github.com/repos/Leeroo-AI/kapso/releases - the v0.7.7 (2026-10-15) through v0.7.10 (2026-10-18) release bodies behind the durability and memory-patch descriptions, v0.7.10 still latest (fetched 200, 2026-10-19)
 - https://raw.githubusercontent.com/Leeroo-AI/kapso/main/README.md - the four pillars, CLI requirements, PyPI collision warning, and the IOAI and RelBench claims (fetched 200, 2026-10-11)
 - https://arxiv.org/abs/2601.21526 - the technical report: git-native experimentation engine, knowledge system, and cognitive memory layer (fetched 200, 2026-10-11)
-- https://pypi.org/pypi/leeroo-kapso/json - package version 0.7.10, MIT license, and Python requirement (fetched 200, 2026-10-19)
+- https://pypi.org/pypi/leeroo-kapso/json - package version 0.7.10, MIT license, and Python requirement (fetched 200, 2026-10-21)
 - https://ioai-official.org/what-happens-when-autonomous-ai-takes-on-the-same-tasks-as-the-worlds-top-young-ai-talents/ - IOAI's own account of the inaugural AI Model Track, September 29, 2026 (fetched 200, 2026-10-11)
 - https://star-project.stanford.edu/relbench/leaderboard/ - the official RelBench leaderboard and its self-reported-results disclaimer (fetched 200, 2026-10-11)
 - https://raw.githubusercontent.com/Leeroo-AI/kapso/main/benchmarks/ioai2026/README.md - the per-task IOAI numbers behind the 536.07 total and Grand Master Trophy (fetched 200, 2026-10-11)

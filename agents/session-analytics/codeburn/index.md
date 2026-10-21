@@ -1,7 +1,7 @@
 ---
 title: CodeBurn
 created: 2026-10-05
-updated: 2026-10-16
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by AgentSeal (the repository moved from the AgentSeal org to getagentseal, 
 
 ## Status
 
-Young and fast: 11,377 stars and 879 forks as of 2026-10-11, created 2026-04-13, pushed 2026-10-15 (GitHub API), as of 2026-10-16.
+Young and fast: 11,377 stars and 901 forks as of 2026-10-21, created 2026-04-13, pushed 2026-10-20 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ Not for anyone who wants plain unclassified numbers (ccusage is the simpler inst
 - 2026-10-07 - Added the getagentseal/codeburn star history chart to the Status section.
 - 2026-10-11 - Recorded the v0.9.26 (2026-10-10) and v0.9.27 (2026-10-11) releases: Amp and Command Code providers, the VS Code extension, a pull-request view, `--why` session explanations, Cursor usage synced from cursor.com replacing local estimates, a tilde on estimated dollars, Roo Code removed, and one-click updates; the README's integration claim moved to 42 while the repository description still says 37, and repository counts and trailing-month downloads refreshed (36,881 to 38,579).
 - 2026-10-16 - Recorded the external AgentMeasure audit evidence: the Codex token_count dedup fix merged as PR 1264 on 2026-09-16 and the audit's methodology note vindicating the re-emission behavior against the auditor's first assertion; trailing-month downloads refreshed (38,579 to 38,716) and the pushed date moved to 2026-10-15.
+- 2026-10-21 - Recorded unreleased post-v0.9.27 work merged 2026-10-20: a Claude Code plugin and an MCP Registry listing, plus signing-environment gating and dependency bumps; the pushed date moved to 2026-10-20 and forks refreshed 879 to 901.
 
 ## See also
 

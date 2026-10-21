@@ -1,7 +1,7 @@
 ---
 title: "Machinist"
 created: 2026-09-05
-updated: 2026-10-18
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, go]
 readability: 3
@@ -22,7 +22,7 @@ Scripts are deliberately opaque to the controller: no invented child runs, graph
 ## Status
 
 Active and early: created 2026-07-16, 502 stars and 96 forks as of 2026-10-13, releases v0.1.0 through v0.4.0 with v0.4.0 (2026-08-31) still the newest, and the README labeling it early-access software.
-**The 2026-10-15 push is a step change, not routine churn: 96 commits past v0.4.0 as of 2026-10-18 added a GitHub App onboarding flow, the local web app's standard pipeline (triage, optional spec approval, build, independent review, up to three repair rounds before a human merge), scheduled automations, multi-repository projects, and a gVisor Kubernetes runner target, per the GitHub API and the repository docs as of 2026-10-18.**
+**The 2026-10-15 push is a step change, not routine churn: 132 commits past v0.4.0 as of 2026-10-21 added a GitHub App onboarding flow, the local web app's standard pipeline (triage, optional spec approval, build, independent review, up to three repair rounds before a human merge), scheduled automations, multi-repository projects, and a gVisor Kubernetes runner target, per the GitHub API and the repository docs as of 2026-10-21.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&theme=dark&legend=top-left" />
@@ -30,7 +30,7 @@ Active and early: created 2026-07-16, 502 stars and 96 forks as of 2026-10-13, r
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&legend=top-left" />
 </picture>
 
-**There is no Hacker News thread or independent coverage as of 2026-10-18, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
+**There is no Hacker News thread or independent coverage as of 2026-10-21, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
 The velocity (five releases in eight weeks) says maintained; the single-author commit history says bus-factor one.
 
 ## Strengths

@@ -1,7 +1,7 @@
 ---
 title: git-ai
 created: 2026-10-11
-updated: 2026-10-16
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, provenance, git, open-source]
 readability: 3
@@ -17,7 +17,7 @@ git-ai is an Apache-2.0 Rust git extension that records which lines of code were
 ## What it is
 
 A single Rust CLI (installed by curl or PowerShell script on macOS, Linux, and Windows) built by Aidan Cunniffe and Sasha Varlamov, now maintained under the git-ai-project organization after moving from Cunniffe's personal account.
-Fourteen named agents (Claude Code, Codex, Cursor, GitHub Copilot, OpenCode, Pi, Windsurf, Droid, Amp, Gemini, Continue, Junie, Rovo Dev, and Firebender) follow the project's open attribution standard, plus a documented add-your-agent path, and the CLI manages their pre and post tool-call hooks centrally.
+Fourteen named agents (Claude Code, Codex, Cursor, GitHub Copilot, OpenCode, Pi, Windsurf, Droid, Amp, Gemini, Continue, Junie, Rovo Dev, and Firebender) follow the project's open attribution standard, plus a documented add-your-agent path, the CLI manages their pre and post tool-call hooks centrally, and install guides extend the setup to four background agents (Claude Web, Codex Cloud, Cursor Agent, and Devin) that run in the cloud.
 Each Edit, Write, or Bash call triggers a `git ai checkpoint` that marks the touched lines as AI-authored, and on commit the checkpoints consolidate into a note on refs/notes/ai that maps files and line ranges to agent, model, session, and a pointer to the full transcript.
 Git operations rewrite the notes to match: rebase, merge, squash, cherry-pick, stash, reset, and amend are all handled, eventually consistent within 5 to 100 milliseconds, while git mv, filter-branch, and git replace are named gaps.
 `git ai blame` replaces git blame with agent-aware output, `git ai stats` reports percent AI, accepted rates, and per-tool and per-model breakdowns for any commit range, and VS Code, Cursor, Windsurf, and Antigravity plugins plus a magit port color the gutter by authoring session.
@@ -26,7 +26,7 @@ A vendor product, the Git AI Platform from Next Element, Inc., adds team rollout
 ## Status
 
 Acquired and active: the founders announced Git AI joining OpenAI's Codex team on 2026-09-11, with continued investment in the open-source CLI and the standard.
-2,829 stars, 312 forks, 261 open issues, created 2025-07-02, pushed 2026-10-14, newest tag v1.7.5 with no GitHub releases (distribution is the install script), as of 2026-10-16.
+2,829 stars, 320 forks, 246 open issues, created 2025-07-02, pushed 2026-10-20, newest tag v1.7.5 with no GitHub releases (distribution is the install script), as of 2026-10-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=git-ai-project/git-ai&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ Not for live observation, cost dashboards, or transcript search, and not for age
 ## Changes
 
 - 2026-10-11 - Created from the 2026-10-11 re-evaluation of the 2026-10-10 control-planes rejection on the session-analytics provenance basis, with the OpenAI acquisition (announced 2026-09-11) recorded in Status.
+- 2026-10-21 - Rotation re-verification: every cited URL re-fetched and live, with the how-git-ai-works docs page repointed to its new get-started path (the checkpoint and refs/notes/ai mechanics and the 5-100ms consistency claim re-verified there); What it is gained the background-agent install guides (Claude Web, Codex Cloud, Cursor Agent, Devin), repository counts refreshed (forks 312 to 320, open issues 261 to 246), and the pushed date moved to 2026-10-20 (CI housekeeping).
 
 ## See also
 
@@ -81,7 +82,8 @@ Not for live observation, cost dashboards, or transcript search, and not for age
 
 - https://api.github.com/repos/git-ai-project/git-ai - 2,829 stars, 312 forks, 261 open issues, Apache-2.0 license, Rust, created 2025-07-02, pushed 2026-10-07, as of 2026-10-11
 - https://raw.githubusercontent.com/git-ai-project/git-ai/main/README.md - the mechanism, the 14-agent standard table, the capability and rewrite matrices, stats and blame commands, IDE plugins, and the FAQ
-- https://usegitai.com/docs/cli/how-git-ai-works - the checkpoint, note-attachment, and rewrite mechanics, including the 5 to 100 millisecond consistency claim and the refs/notes/ai design
+- https://usegitai.com/docs/get-started/how-git-ai-works - the checkpoint, note-attachment, and rewrite mechanics, including the 5 to 100 millisecond consistency claim and the refs/notes/ai design (moved from the docs/cli path, re-verified at the new URL 2026-10-21)
+- https://usegitai.com/docs/agents/claude-web - the background-agent install guides extending checkpoint setup to Claude Web, Codex Cloud, Cursor Agent, and Devin
 - https://usegitai.com/blog/git-ai-is-joining-openai - the OpenAI Codex team acquisition announced 2026-09-11 and the hundreds-of-thousands-of-machines claim
 - https://usegitai.com - the enterprise surface: MDM rollout, PR-level percent-AI and cost views, the Fortune 100 claim, and Next Element, Inc. as the company
 - https://api.github.com/repos/git-ai-project/git-ai/tags?per_page=5 - v1.7.5 as the newest tag behind the no-releases, install-script distribution

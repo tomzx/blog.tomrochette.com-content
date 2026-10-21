@@ -1,7 +1,7 @@
 ---
 title: AgentMeasure
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, audit, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by roy-tong, an independent developer, under MIT.
 
 ## Status
 
-Young and shipping daily: 218 stars, 9 forks, 11 open issues, created 2026-08-16, pushed 2026-10-16, with v0.6.0 (2026-10-11), v0.7.0 (2026-10-14, the claims index, SDK 0.2.0, and paid diagnosis), v0.7.1, v0.7.2, and v0.8.0 (2026-10-15) landing inside a week, as of 2026-10-16.
+Young and shipping daily: 218 stars, 9 forks, 11 open issues, created 2026-08-16, pushed 2026-10-20, with v0.6.0 (2026-10-11), v0.7.0 (2026-10-14, the claims index, SDK 0.2.0, and paid diagnosis), v0.7.1, v0.7.2, and v0.8.0 (2026-10-15) landing inside a week, as of 2026-10-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=roy-tong/AgentMeasure&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: Addy Osmani
 created: 2026-09-02
-updated: 2026-10-04
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, enterprise, agentic-engineering, engineering-leadership]
 readability: 3
@@ -24,10 +24,11 @@ He packages that argument into artifacts teams can adopt: his site now leads wit
 
 ## Status
 
-Active and high-reach as of 2026-10-04, and newly a frontier-lab insider: after leaving Google in 2026, he joined Anthropic as a Member of Technical Staff on the Claude Code team, per his own site.
+Active and high-reach as of 2026-10-21, and newly a frontier-lab insider: after leaving Google in 2026, he joined Anthropic as a Member of Technical Staff on the Claude Code team, per his own site.
 "21 Lessons From 14 Years at Google" (2026-01-03) reached 1,678 points on Hacker News, "Agent Skills" 376 points, and "The next two years of software engineering" (2026-01-11) 328 points.
-His most recent essay is "The Code Nobody Reads" (2026-09-28, on his Substack), which revises his own two-year-old advice to review every line: he now argues line-by-line reading is going away for most code, that the trust reading used to provide must come from independent checks around an untrusted author, and that a person still owns the ship decision.
-Before it came "Brownfield Agentic Engineering" (2026-09-14), on running agents in codebases older than the team, still his latest on the personal blog.
+His most recent essay is "Agentic Verification" (2026-10-14, on his Substack), which moves the same argument from review into verification: the bottleneck has shifted from writing code to knowing it is correct, agents make the checks that used to be expensive (tests, benchmarks, specs, end-to-end runs) cheap enough to build into the loop, and a person still owns the ship decision, now reviewing evidence rather than diffs.
+Before it came "The Code Nobody Reads" (2026-09-28), which revises his own two-year-old advice to review every line: he argues line-by-line reading is going away for most code, and that the trust reading used to provide must come from independent checks around an untrusted author.
+Before that came "Brownfield Agentic Engineering" (2026-09-14), on running agents in codebases older than the team, still his latest on the personal blog.
 He discussed "Beyond Vibe Coding" and enterprise AI engineering practice on The Pragmatic Engineer (2025-10-29).
 
 ## Strengths
@@ -76,6 +77,7 @@ Not for readers wanting frontier research depth or a terminal-level tool feed.
 - 2026-09-22 - His site now features a new O'Reilly book, "Agentic Engineering", his latest essay is "Brownfield Agentic Engineering" (2026-09-14), and a new open-source repo, clarity, joins agent-skills.
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-10-04 - Added his Substack essay "The Code Nobody Reads" (2026-09-28), which revises his review-every-line advice, as his most recent piece, and named the Substack as a surface in What it is.
+- 2026-10-21 - His newest essay is "Agentic Verification" (2026-10-14), which moves the review-shift argument into agent-run verification loops; "The Code Nobody Reads" (2026-09-28) is now the piece before it.
 
 ## See also
 
@@ -89,6 +91,7 @@ Not for readers wanting frontier research depth or a terminal-level tool feed.
 - https://addyosmani.com/blog/ - the blog index grounding the personal-blog cadence (latest there: "Brownfield Agentic Engineering", 2026-09-14)
 - https://addyo.substack.com/archive - the Substack archive grounding his newest essays, including "The Code Nobody Reads" (2026-09-28)
 - https://addyo.substack.com/p/the-code-nobody-reads - the essay revising his review-every-line advice into a trust-shifted account of review
+- https://addyo.substack.com/p/agentic-verification - the essay carrying that shift into agent-run verification loops (2026-10-14)
 - https://addyosmani.com/bio/ - role history: Chrome developer experience, Gemini developer experience, Director at Google Cloud AI
 - https://addyosmani.com/blog/agent-skills/ - the "Agent Skills" essay and its verification-discipline thesis
 - https://addyosmani.com/blog/next-two-years/ - his 2026 view of where software engineering is headed

@@ -1,7 +1,7 @@
 ---
 title: Token Monitor
 created: 2026-10-06
-updated: 2026-10-19
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, desktop, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Javis603, MIT-licensed.
 
 ## Status
 
-Young and shipping daily: 3,038 stars, 286 forks, 120 open issues, created 2026-05-19, pushed 2026-10-19, with v0.74.0 released 2026-10-18 (a Liquid Glass clear style on macOS 26 or later, project breakdowns that switch between tools and models token shares, Kilo Code native VS Code extension usage tracking, an experimental Top Notch entry, and Grok reasoning tokens folded into output and total usage), v0.73.0 released 2026-10-16 (Oh My Pi session details, Claude Desktop usage across Chat, Code, and Cowork, Goose on Windows, and Cursor Included-usage quota fixes), v0.72.0 released 2026-10-15 (The X Subscription Cursor plans with included-usage quotas and prepaid balances, in-app update controls and checks, and OpenCode 2.x session-record repairs), v0.71.0 on 2026-10-14 (Goose local usage tracking, WorkBuddy account sign-in and quota totals, Notion AI allowances, Pi session details), v0.70.0 on 2026-10-13, and v0.69.0 on 2026-10-11, as of 2026-10-19.
+Young and shipping daily: 3,038 stars, 308 forks, 125 open issues, created 2026-05-19, pushed 2026-10-21, with v0.76.0 released 2026-10-20 (configurable Home list counts of one to fifty items per section, macOS notch swipe gestures with a Grow mode, a separate Antigravity Gemini 4 Argon quota, and a Windows Edge Dock fix for the dock hiding behind other windows), v0.75.0 released 2026-10-19 (Antigravity subagents grouped under their parent, DeepSeek Harness project breakdowns, an experimental macOS Notch Panel with Home, Limits, Sessions, and Breakdown pages, and Windows scan-priority lowering), v0.74.0 released 2026-10-18, v0.73.0 released 2026-10-16 (Oh My Pi session details, Claude Desktop usage across Chat, Code, and Cowork, Goose on Windows, and Cursor Included-usage quota fixes), v0.72.0 released 2026-10-15, v0.71.0 on 2026-10-14, and v0.70.0 on 2026-10-13, as of 2026-10-21.
 Its fork accounting was externally probed: the September 2026 AgentMeasure audit filed that Pi forks copied prior assistant records into new session files without cross-session dedup (issue 627), closed completed on 2026-09-12.
 
 <picture>
@@ -46,7 +46,7 @@ I found no Hacker News thread for the project; the only search hit for the name 
 
 ## Cautions
 
-- 120 open issues against 3,038 stars and v0.70 within five months is a fast, churny project; expect breaking changes in a widget you leave running.
+- 125 open issues against 3,038 stars and v0.70 within five months is a fast, churny project; expect breaking changes in a widget you leave running.
 - Coverage is graded and uneven by design, and several limit sources are account-level cookie reads (Ollama Cloud, Alibaba Cloud console) rather than file parsing, a different trust model than the local reads the rest of this category does.
 - Cursor account usage arrives through Tokscale's cache, so Cursor numbers inherit Tokscale's Cursor pipeline.
 - The community footprint is a Discord and a star graph, with no independent discussion, so treat the claims as unverified beyond the README.
@@ -77,6 +77,7 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 - 2026-10-16 - Recorded v0.71.0 and v0.72.0 (2026-10-14 and 10-15) and the external AgentMeasure audit's Pi fork dedup finding closed completed on 2026-09-12 (issue 627); the pushed date moved to 2026-10-16.
 - 2026-10-17 - Recorded v0.73.0 (2026-10-16): Oh My Pi session details, Claude Desktop usage across Chat, Code, and Cowork, Goose on Windows, and Cursor Included-usage quota fixes; the pushed date moved to 2026-10-17.
 - 2026-10-19 - Recorded v0.74.0 (2026-10-18): a Liquid Glass clear style on macOS 26 or later, project breakdowns switching between tools and models token shares, Kilo Code native VS Code extension usage tracking, an experimental Top Notch entry, and Grok reasoning tokens folded into output and total usage; the pushed date moved to 2026-10-19.
+- 2026-10-21 - Recorded v0.75.0 (2026-10-19: Antigravity subagents grouped under their parent, DeepSeek Harness project breakdowns, an experimental macOS Notch Panel, Windows scan-priority lowering) and v0.76.0 (2026-10-20: configurable Home list counts, notch swipe gestures with a Grow mode, a separate Antigravity Gemini 4 Argon quota, and a Windows Edge Dock z-order fix); the pushed date moved to 2026-10-21 and repository counts refreshed (forks 286 to 308, open issues 120 to 125).
 
 ## See also
 

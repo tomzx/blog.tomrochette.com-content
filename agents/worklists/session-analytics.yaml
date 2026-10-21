@@ -3,7 +3,7 @@ category: session-analytics
 generated: 2026-10-21
 mapped_sources:
   - repo: anhermon/awesome-agent-observability
-    last_checked: 2026-10-18
+    last_checked: 2026-10-21
 digest_lines:
   - "- 2026-09-16 (ruled 2026-08-22) | cross-category | vendor sibling products fold into the sibling note by default | gemini-cli/Antigravity set it; applied to oh-my-pi, Codex App, OpenCode Desktop, Warp Factories, LiteParse, cursor CLI and routines; oh-my-pi left the fold on its own bar clearance 2026-10-10"
   - "- 2026-09-27 | cross-category | browser automation stays out of scope and no browser-agents category opens; final, not open to re-review | owner ruling on the browser-use question (116k stars declined)"

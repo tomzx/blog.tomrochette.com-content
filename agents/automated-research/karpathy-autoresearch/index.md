@@ -1,7 +1,7 @@
 ---
 title: Karpathy Autoresearch
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, autoresearch, machine-learning, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Karpathy announced it in March 2026 with a deliberately mythologizing framing: t
 
 ## Status
 
-Dormant as a repository, dominant as an influence: 97,798 stars, 13,568 forks, created 2026-03-06, last push 2026-03-26, no releases and no license file, as of 2026-10-13.
+Dormant as a repository, dominant as an influence: 97,798 stars, 13,568 forks, created 2026-03-06, last push 2026-03-26, no releases, and no LICENSE file, though the README's own final section declares MIT, as of 2026-10-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=karpathy/autoresearch&type=date&theme=dark&legend=top-left" />
@@ -44,14 +44,14 @@ The strongest independent test came from SkyPilot (March 18, 2026): pointed at t
 ## Cautions
 
 - The practitioner critique cuts at ambition, not accuracy: the top scaling-thread replies read the loop as automated hyperparameter tuning at toy scale, "brute-force search, but guided", and note that a two-node cluster is the whole test bed.
-- No license file ships with the repository, so reuse beyond reading it sits in unclear legal ground.
+- No LICENSE file ships with the repository; the grant is the README's one-word MIT declaration, which GitHub's license detection does not pick up, so reuse rests on the author's stated intent rather than a standard license file.
 - Dormant since 2026-03-26: Karpathy moved on, and the descendants (skills, ports, benchmarks) carry the line rather than the original.
 - The fixed five-minute budget bounds what an improvement can mean, and the 2.87 percent cluster result is the vendor's own run, not a replicated one.
 
 ## Pricing
 
 Free; the loop costs your own GPU time and model API calls.
-There is no paid tier and no license under which to sell it, so pricing does not apply.
+There is no paid tier, so pricing does not apply; the README declares MIT, with no LICENSE file in the repository.
 
 ## Compared to
 
@@ -67,6 +67,7 @@ Not for anyone who needs a maintained tool, a license that permits reuse, or res
 ## Changes
 
 - 2026-10-10 - Created.
+- 2026-10-21 - Rotation re-verification corrected the license picture: the README's final section declares MIT while the repository still ships no LICENSE file and GitHub detects none, so the unclear-legal-ground caution and the pricing clause were rewritten and the raw README joined the references.
 
 ## See also
 
@@ -78,10 +79,11 @@ Not for anyone who needs a maintained tool, a license that permits reuse, or res
 
 ## References
 
-- https://github.com/karpathy/autoresearch - the repository: three-file design, keep-or-revert loop, nanochat base, and the March 2026 framing (fetched 200, 2026-10-10)
-- https://api.github.com/repos/karpathy/autoresearch - stars, forks, created and pushed dates, and the no-license status for the as-of line (fetched 200, 2026-10-11)
-- https://raw.githubusercontent.com/karpathy/autoresearch/master/program.md - the agent-facing loop definition: branch per run, results.tsv ledger, fixed five-minute budget (fetched 200, 2026-10-10)
-- https://blog.skypilot.co/scaling-autoresearch/ - the independent 16-GPU scaling test: about 910 experiments in 8 hours, the H100-screen and H200-validate strategy, 1.003 to 0.974 validation loss (fetched 200, 2026-10-10)
-- https://hn.algolia.com/api/v1/items/47442435 - the 237-point, 94-comment scaling thread and its hyperparameter-tuning and brute-force critiques (fetched 200, 2026-10-10)
-- https://raw.githubusercontent.com/webfuse-com/awesome-autoresearch/main/README.md - the dedicated descendant list the loop spawned (fetched 200, 2026-10-11)
-- https://api.github.com/repos/karpathy/nanochat - the nanochat base and its star count (fetched 200, 2026-10-11)
+- https://github.com/karpathy/autoresearch - the repository: three-file design, keep-or-revert loop, nanochat base, the March 2026 framing, and the License MIT section (fetched 200, 2026-10-21)
+- https://api.github.com/repos/karpathy/autoresearch - stars, forks, created and pushed dates, and the null detected license for the as-of line (fetched 200, 2026-10-21)
+- https://raw.githubusercontent.com/karpathy/autoresearch/master/README.md - the README source, whose final License section declares MIT with no LICENSE file anywhere in the tree (fetched 200, 2026-10-21)
+- https://raw.githubusercontent.com/karpathy/autoresearch/master/program.md - the agent-facing loop definition: branch per run, results.tsv ledger, fixed five-minute budget (fetched 200, 2026-10-21)
+- https://blog.skypilot.co/scaling-autoresearch/ - the independent 16-GPU scaling test: about 910 experiments in 8 hours, the H100-screen and H200-validate strategy, 1.003 to 0.974 validation loss (fetched 200, 2026-10-21)
+- https://hn.algolia.com/api/v1/items/47442435 - the 237-point, 94-comment scaling thread and its hyperparameter-tuning and brute-force critiques (fetched 200, 2026-10-21)
+- https://raw.githubusercontent.com/webfuse-com/awesome-autoresearch/main/README.md - the dedicated descendant list the loop spawned (fetched 200, 2026-10-21)
+- https://api.github.com/repos/karpathy/nanochat - the nanochat base and its star count (fetched 200, 2026-10-21)

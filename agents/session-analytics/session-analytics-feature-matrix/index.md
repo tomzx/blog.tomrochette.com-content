@@ -1,7 +1,7 @@
 ---
 title: "Session Analytics Feature Matrix"
 created: 2026-08-30
-updated: 2026-10-16
+updated: 2026-10-21
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, comparison, session-analytics, observability, token-usage]
 readability: 3
@@ -41,7 +41,7 @@ The second row worth reading is provenance, which gained a second answer this pa
 
 **Token cost reporting is the row that pays for the tool**: harness-native cost views reset and see only their own sessions, while a pre-indexed store answers multi-tool, multi-month questions in seconds.
 An earlier version of the agentsview docs benchmarked its reports at 84 to 223 times faster than ad-hoc parsing (calling that an upper bound); the current docs have dropped that benchmark entirely, so the row should be read as "fast because pre-indexed", with no vendor number left to lean on.
-The docs' token-usage page documents schema version 6 again as of 2026-10-10 (it documented version 5 on 2026-10-07 and version 6 on 2026-10-06), the fifth flip this section has recorded, so scripts consuming those reports should expect churn either way.
+The docs' token-usage page documents schema version 5 again as of 2026-10-21 (it documented version 6 from 2026-10-10 through 2026-10-19), the sixth flip this section has recorded, so scripts consuming those reports should expect churn either way.
 AgentTrace adds a cost cell the archive tools do not, with explicit estimate labeling and pricing overrides, while ClawTrace adds per-step cost inside a hosted trace, which is more granular than anything local but only for OpenClaw.
 ccusage and CodeBurn make cost the whole product: ccusage is the zero-install incumbent the other tools benchmark against, CodeBurn adds task and branch cuts plus an optimize loop that proposes config fixes, and both print estimates computed from pricing catalogs rather than bills.
 Tokscale and Token Monitor extend the same estimate approach to about 50 and 43-plus sources respectively, Tokscale on LiteLLM's catalog and Token Monitor adding currency choice and manual subscription cost records.
@@ -110,6 +110,7 @@ ctx's moat is different: agent-facing retrieval, where the consumer of the searc
 - 2026-10-11 - Extended from fifteen to sixteen columns with git-ai (the Apache-2.0 git-layer provenance recorder, joined into OpenAI's Codex team on 2026-09-11, whose line-level attribution lives in Git Notes and survives every rebase), inserted in sorted position between ctx and Memex and traced to the new note; the intro reframed the category as five arrangements with git-layer provenance as the new one, the founding-question and provenance readings gained its entries, the coverage moat line moved to fourteen named agents, and the choosing prose gained a git-ai bullet.
 - 2026-10-13 - Updated the Coucou column after Coucou for Android 0.1.0 and the v0.4.0 Windows and Linux builds: the Kind cell gained the Android app beside the iPhone, the Deployment cell gained the Android app and its local-network pairing with the Windows and Linux apps, and the Privacy posture cell notes the local-network-only link, while the intro and choosing prose name the Android phone; the other fifteen columns re-verified unchanged against their notes.
 - 2026-10-16 - Extended from sixteen to seventeen columns with AgentMeasure (the local evidence-discipline auditor whose September 110-tool audit produced merged double-count fixes in the CodeBurn, Tokscale, and Token Monitor columns), inserted in sorted position after Agent Analytics and traced to the new note; the Memex agents-covered cell moved to eighteen engines after v0.29.0, the intro, reading, and choosing prose gained its entries, and the breadth line moved Memex to eighteen and named AgentMeasure's two.
+- 2026-10-21 - The reading prose's schema line moved back to version 5 after the agentsview docs flipped again (version 6 documented from 2026-10-10 through 2026-10-19, version 5 re-verified 2026-10-21), the sixth recorded flip; no table cells changed.
 
 ## See also
 
