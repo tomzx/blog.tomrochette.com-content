@@ -29,7 +29,7 @@ Distribution is npm (`@github/copilot`), a Homebrew cask, WinGet, an install scr
 
 **Active and enormous in distribution.**
 Public preview launched September 25, 2025, and general availability followed on February 25, 2026.
-The npm package's latest stable build is 1.0.100 (published October 19, 2026), with the prerelease train now at 1.0.101-0, and it did 6,135,701 downloads in the last month (the API window covering September 19 to October 18, as of 2026-10-20), among the largest npm install bases of any harness in this section.
+The npm package's latest stable build is 1.0.101 (published October 20, 2026), with the prerelease train now at 1.0.102-1, and it did 6,135,701 downloads in the last month (the API window covering September 19 to October 18, as of 2026-10-21), among the largest npm install bases of any harness in this section.
 The `github/copilot-cli` repository shows 11,252 stars as of 2026-10-15 (GitHub API), and it is a distribution and issues repository, with no open-source license.
 
 <picture>
@@ -89,6 +89,7 @@ Not for teams with open-client mandates, and not for untrusted repositories unti
 - 2026-10-17 - Recorded 1.0.98 holding the stable dist-tag (published October 14) with the prerelease train reaching 1.0.100-1 (October 16), and refreshed download counters.
 - 2026-10-20 - Moved the npm latest stable to 1.0.100 (published October 19) with the prerelease train at 1.0.101-0, and refreshed the monthly download window.
 - 2026-10-21 - Repointed the two GitHub docs references to their post-reorganization paths (concepts/copilot-surfaces/copilot-cli and how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli), both fetched at the new locations.
+- 2026-10-21 - Recorded 1.0.101 reaching the stable dist-tag (published October 20) with the prerelease train at 1.0.102-1, and re-verified the monthly download reading unchanged.
 
 ## See also
 
@@ -104,8 +105,8 @@ Not for teams with open-client mandates, and not for untrusted repositories unti
 - https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli - install paths, subscription prerequisite, and token authentication (fetched 2026-10-21, repointed after the docs reorganization)
 - https://github.com/features/copilot/plans - plan prices, AI Credits structure, model roster, and third-party delegation gating, as of 2026-10-12 (re-verified unchanged)
 - https://github.com/github/copilot-cli - distribution repository, 11,250 stars, no open-source license, as of 2026-10-12 (verified via the GitHub API)
-- https://registry.npmjs.org/@github%2Fcopilot - latest stable 1.0.100 published 2026-10-19 with the prerelease train at 1.0.101-0, package created 2025-09-25 (verified via the registry API, 2026-10-20)
-- https://api.npmjs.org/downloads/point/last-month/@github/copilot - 6,135,701 downloads, window September 19 to October 18, as of 2026-10-20
+- https://registry.npmjs.org/@github%2Fcopilot - latest stable 1.0.101 published 2026-10-20 with the prerelease train at 1.0.102-1, package created 2025-09-25 (verified via the registry API, 2026-10-21)
+- https://api.npmjs.org/downloads/point/last-month/@github/copilot - 6,135,701 downloads, window September 19 to October 18, as of 2026-10-21
 - https://hn.algolia.com/api/v1/items/47183940 - the February 27, 2026 malware-execution thread, 62 points (verified via the Algolia API)
 - https://hn.algolia.com/api/v1/items/45810658 - the November 2025 Docker-sandboxing guide thread, 59 points
 - https://hn.algolia.com/api/v1/items/45377734 - the September 25, 2025 public-preview launch thread, 24 points
