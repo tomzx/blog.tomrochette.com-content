@@ -79,6 +79,30 @@ def main():
         more = f" (+{len(entries) - 3} more)" if len(entries) > 3 else ""
         print(f"  {scope}: {len(entries)}  {preview}{more}")
 
+    repos = {}
+    for path in __import__("glob").glob(os.path.join(AG, "*", "*", "index.md")):
+        if "/_index/" in path or "feature-matrix" in path or "/logs/" in path or "/worklists/" in path:
+            continue
+        try:
+            text = open(path, encoding="utf-8").read()
+        except OSError:
+            continue
+        m = re.search(r"star-history\.com/chart\?repos=([\w./,-]+)&", text)
+        if m:
+            t = re.search(r"^title:\s*(.+)$", text, re.M)
+            repos.setdefault(m.group(1), []).append(
+                (os.path.relpath(os.path.dirname(path), AG), (t.group(1).strip().strip('"') if t else "?")))
+    for repo, notes in sorted(repos.items()):
+        if len(notes) > 1:
+            titles = [n[1].casefold() for n in notes]
+            if len(set(titles)) < len(titles):
+                print(f"BLOCK duplicate subject repository and title {repo}: " +
+                      ", ".join(f"{p} ({t})" for p, t in notes))
+                blocked = True
+            else:
+                print(f"note shared subject repository {repo}: " +
+                      ", ".join(f"{p} ({t})" for p, t in notes) + " (subsystem note? judge once)")
+
     print("verdict:", "BLOCKED" if blocked else "ok")
     sys.exit(1 if blocked else 0)
 
