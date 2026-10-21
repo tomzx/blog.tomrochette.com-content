@@ -31,6 +31,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 - [NVX](nvx/index.md) - Microsoft's OpenVMM research sandbox for agentic workloads with Windows hypervisor paths and limits docs that name what the ABI does not do.
 - [OpenSandbox](opensandbox/index.md) - the Apache-2.0 general sandbox platform (SDKs, CLI, MCP, K8s runtimes) that grew on GitHub trend charts, not Hacker News.
 - [OpenShell](openshell/index.md) - NVIDIA's container-and-MicroVM runtime where declarative policy and inference-proxy keys make the boundary credible.
+- [Overalls](overalls/index.md) - Geoffrey Huntley's self-hosted platform of persistent Firecracker microVM dev machines, the renamed Weaving Loom, opening as a research preview on 3 November 2026.
 - [Yolobox](yolobox/index.md) - the container wrapper that gives coding agents full sudo inside while the home directory stays unmounted, accidents fenced and attackers out of scope by its own docs.
 
 Its members are compared on shared rows in the [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md).
@@ -59,3 +60,4 @@ Its members are compared on shared rows in the [Sandboxing Feature Matrix](sandb
 - 2026-10-12 - Added aicontainer.
 - 2026-10-12 - Added Brood Box.
 - 2026-10-12 - Added Container Use.
+- 2026-10-21 - Added Overalls.

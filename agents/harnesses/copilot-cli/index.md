@@ -1,7 +1,7 @@
 ---
 title: Copilot CLI
 created: 2026-10-05
-updated: 2026-10-20
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, github, microsoft, terminal]
 readability: 3
@@ -88,6 +88,7 @@ Not for teams with open-client mandates, and not for untrusted repositories unti
 - 2026-10-13 - Recorded 1.0.96 reaching the stable dist-tag (published October 12), the promotion of the prerelease train, and refreshed download and repository counters.
 - 2026-10-17 - Recorded 1.0.98 holding the stable dist-tag (published October 14) with the prerelease train reaching 1.0.100-1 (October 16), and refreshed download counters.
 - 2026-10-20 - Moved the npm latest stable to 1.0.100 (published October 19) with the prerelease train at 1.0.101-0, and refreshed the monthly download window.
+- 2026-10-21 - Repointed the two GitHub docs references to their post-reorganization paths (concepts/copilot-surfaces/copilot-cli and how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli), both fetched at the new locations.
 
 ## See also
 
@@ -99,8 +100,8 @@ Not for teams with open-client mandates, and not for untrusted repositories unti
 
 ## References
 
-- https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli - modes, sandboxing, MCP, hooks, skills, memory, BYOK providers, and security guidance (fetched 2026-10-05)
-- https://docs.github.com/en/copilot/how-tos/set-up/install-copilot-cli - install paths, subscription prerequisite, and token authentication (fetched 2026-10-05)
+- https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-cli - modes, sandboxing, MCP, hooks, skills, memory, BYOK providers, and security guidance (fetched 2026-10-21, repointed after the docs reorganization)
+- https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli - install paths, subscription prerequisite, and token authentication (fetched 2026-10-21, repointed after the docs reorganization)
 - https://github.com/features/copilot/plans - plan prices, AI Credits structure, model roster, and third-party delegation gating, as of 2026-10-12 (re-verified unchanged)
 - https://github.com/github/copilot-cli - distribution repository, 11,250 stars, no open-source license, as of 2026-10-12 (verified via the GitHub API)
 - https://registry.npmjs.org/@github%2Fcopilot - latest stable 1.0.100 published 2026-10-19 with the prerelease train at 1.0.101-0, package created 2025-09-25 (verified via the registry API, 2026-10-20)

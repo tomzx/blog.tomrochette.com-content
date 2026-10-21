@@ -1,7 +1,7 @@
 ---
 title: "Harness Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-18
+updated: 2026-10-21
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, harnesses, coding-agents]
 readability: 3
@@ -149,6 +149,7 @@ The three columns this run adds split the same way again: gptme reuses your Chat
 - 2026-10-13 - Extended from thirty-nine to forty-two columns with AutoDev (the MPL-2.0 Kotlin Multiplatform platform), gptme (the 2023-vintage MIT terminal agent), and LongHorizon-Harness (the Alibaba audited-loop wrapper), inserted in sorted positions, all thirty-six new cells traced to the new notes, intro count bumped, and the auditable-client, subscription-axis, local-models, rules-portability, and choosing lists updated.
 - 2026-10-18 - Moved the Cline cloud-execution cell from ✗ to a gradual rollout against the v4.1.25 release notes (Cline Cloud sessions, hosted sandbox tasks on a picked repo and branch that survive closing the editor), and updated the cloud prose and the scheduled-autonomy choosing line.
 - 2026-10-18 - Sharpened the Open Interpreter AGENTS.md and MCP cells from partial to supported against its README's portability list (repository AGENTS.md, shared .agents/skills directories, MCP, with client and server docs pages), and added it to the rules-portability list.
+- 2026-10-21 - Repointed the Copilot CLI docs reference to its post-reorganization path (concepts/copilot-surfaces/copilot-cli), fetched at the new location.
 
 ## See also
 
@@ -203,7 +204,7 @@ The three columns this run adds split the same way again: gptme reuses your Chat
 - https://mimo.xiaomi.com/blog/mimo-code-long-horizon - the checkpoint, four-layer memory, and `/goal` design behind the MiMo Code cells
 - https://mimo.mi.com/docs/en-US/tokenplan/Token%20Plan/subscription - the Token Plan tiers behind the MiMo Code included-subscription cell
 - https://raw.githubusercontent.com/XiaomiMiMo/MiMo-Code/main/USE_RESTRICTIONS.md - the use-restrictions addendum behind the MiMo Code open-client cell
-- https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli - surfaces, sandboxing, BYOK providers, hooks, and skills for the Copilot CLI column
+- https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-cli - surfaces, sandboxing, BYOK providers, hooks, and skills for the Copilot CLI column (repointed after the docs reorganization, fetched 2026-10-21)
 - https://github.com/features/copilot/plans - plan inclusion and the AI Credits meter behind the Copilot CLI subscription and BYOK cells
 - https://registry.npmjs.org/@github%2Fcopilot - distribution and closed-client status for the Copilot CLI column
 - https://commandcode.ai/pricing - the credit plans behind the Command Code subscription cell

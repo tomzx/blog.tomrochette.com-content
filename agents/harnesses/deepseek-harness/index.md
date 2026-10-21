@@ -1,7 +1,7 @@
 ---
 title: DeepSeek Harness
 created: 2026-08-30
-updated: 2026-10-17
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, plugins, open-source]
 readability: 3
@@ -33,7 +33,7 @@ New and extremely loud: 249,954 stars and 30,059 forks as of 2026-10-15, about n
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=deepseek-ai/deepseek-harness&type=date&legend=top-left" />
 </picture>
 
-No stable release exists, only alpha and rc prereleases, with dsh-v0.2.1-rc.1 the newest tag (published 2026-10-17, the first release candidate of the 0.2.1 series, aggregating the alpha.3 through alpha.5 train: plugin discovery and installation from custom plugin index sources, a plugin-management entry that lets the Agent create plugins from a drafted request, and the earlier alpha.2 additions of experimental Git Worktrees and thinking-translation plugins, a session-state API for plugins, global instructions read from a shared agents directory via `DSH_AGENTS_HOME`, a `working_directory` tool with SDK support, an SSH helper runtime for remote file, process, terminal, and sandbox operations, and on-demand Claude Code and Codex combo-pack installs), and the README warns there will be compatibility-breaking changes.
+No stable release exists, only alpha and rc prereleases, with dsh-v0.2.1-rc.2 the newest tag (published 2026-10-17, three hours after the same day's rc.1, adding support for DeepSeek-V4.1-Flash-1017 and for the DeepSeek Search and Fetch APIs, toggleable in web search settings, on top of rc.1's aggregation of the alpha.3 through alpha.5 train: plugin discovery and installation from custom plugin index sources, a plugin-management entry that lets the Agent create plugins from a drafted request, and the earlier alpha.2 additions of experimental Git Worktrees and thinking-translation plugins, a session-state API for plugins, global instructions read from a shared agents directory via `DSH_AGENTS_HOME`, a `working_directory` tool with SDK support, an SSH helper runtime for remote file, process, terminal, and sandbox operations, and on-demand Claude Code and Codex combo-pack installs), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.
 An ecosystem is already forming: a Tauri desktop port with 2,992 stars as of 2026-10-15, down from 3,149 on 2026-10-11 (its repository moved from the dsh-tauri-desk org to dsh-tauri, old links redirect), a plugin directory site, and an MCP plugin catalog; two curated plugin-list repositories also appeared within minutes of the harness itself on 2026-08-13, awesome-dsh-plugin (19,084 stars as of 2026-10-17, the registry feeding the in-harness dsh-market marketplace and the dsh-find-plugin discovery tool) and a generated ecosystem index at 385 stars.
 **I read the star count as attention, not adoption, and the safest status label is developer preview.**
@@ -82,6 +82,7 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 - 2026-10-11 - Recorded the dsh-v0.2.1-alpha.2 prerelease (October 9), which added experimental Git Worktrees and thinking-translation plugins, a plugin session-state API, shared-directory AGENTS.md loading via DSH_AGENTS_HOME, a working_directory tool, an SSH helper runtime, and on-demand Claude Code and Codex combo installs; refreshed repository scale; and updated the desktop-port reference to the renamed dsh-tauri org.
 - 2026-10-17 - Recorded the 0.2.1 train reaching its first release candidate, dsh-v0.2.1-rc.1 (October 17), which aggregates the alpha.3 through alpha.5 changes, including plugin discovery from custom index sources and an agent-driven plugin-creation entry in the plugin manager; the project remains prerelease-only.
 - 2026-10-17 - Added the curated plugin-list cluster (awesome-dsh-plugin at 19,084 stars, the registry behind dsh-market and dsh-find-plugin, plus a 385-star generated index) to the ecosystem sentence and references, both repositories created minutes after the harness on 2026-08-13, per the cross-category scan's ecosystem-evidence resolution.
+- 2026-10-21 - Recorded the dsh-v0.2.1-rc.2 prerelease (October 17, three hours after rc.1), which added DeepSeek-V4.1-Flash-1017 support and DeepSeek Search and Fetch APIs in web search settings; the project remains prerelease-only.
 
 ## See also
 

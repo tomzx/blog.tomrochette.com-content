@@ -1,7 +1,7 @@
 ---
 title: "The Tells Are Structural"
 created: 2026-09-02
-updated: 2026-10-13
+updated: 2026-10-21
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, ai, llm, writing, evaluation]
 readability: 3
@@ -55,6 +55,8 @@ The nonfiction tells live one level up from vocabulary too, but they are differe
 [The LAMP study](https://arxiv.org/abs/2409.14509) hired 18 professional writers to edit 1,057 LLM paragraphs, and the writers independently agreed on a seven-category taxonomy of LLM idiosyncrasies: cliches, unnecessary exposition, and their siblings.
 [Wikipedia maintains a field guide of signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) for its own editors, and it is mostly structural: promotional tone, filler that carries no information, hedging where a judgment was required, passages that acknowledge the reader nobody wrote for.
 sepia's professional-pass rules match what good engineering style already demands: release notes lead with user impact, pull request replies answer first and cite file and line, postmortems are blameless toward people and merciless toward mechanisms, numbers come with conditions.
+The pass now has a mechanical first draft too: [slop-grader](../evaluation-review/slop-grader/index.md), an npm CLI released in September 2026, grades a document line by line against Markdown-authored rulesets for cents, and its default no-ai-slop ruleset is mostly the structural layer, flagging the "not X, it's Y" reveal, throat-clearing openers, faux-exclusive setups, dramatic fragments, and decorative closers rather than only banned words.
+Treat it as a checklist generator, not a verdict: its judge is a small typed decision model with no independent evaluation behind it, and its one community footprint is an unnoticed Show HN thread.
 **The de-AI pass and the ordinary editing pass are the same pass, as long as you do it at the structure layer instead of the vocabulary layer.**
 A draft that answers first, names real things, commits to judgments, and leaves slack in the rhythm is not a disguised AI draft; it is just a good draft.
 
@@ -64,6 +66,7 @@ Stop paying for word-level humanizers; the evidence says the money buys nothing 
 Instead, budget one structural revision pass per AI-assisted document.
 Run these checks: does every paragraph serve one announced theme, is every emotion or claim rendered as a bodily or formulaic placeholder, does the piece resolve too neatly through acceptance, where would a human have named a specific real thing, where did I hedge instead of judging.
 Fix three to five of those per document and leave the rest alone.
+Run slop-grader's no-ai-slop ruleset first if you want the per-line checks automated for cents, then spend your own pass on the document-level questions no line rule can ask.
 If you review other people's writing, read structure rather than vocabulary; a draft with tidy causal chains and no subplots deserves your suspicion more than one that uses "delve".
 
 ## Changes
@@ -76,12 +79,14 @@ If you review other people's writing, read structure rather than vocabulary; a d
 - 2026-10-10 - Refreshed the sepia star count to about 3,100 (3,071 exact) and re-verified every cited source.
 - 2026-10-11 - Refreshed the sepia star count (3,086 exact, still about 3,100) and re-verified every cited source.
 - 2026-10-13 - Refreshed the sepia star count to about 3,200 (3,155 exact) and re-verified every cited source.
+- 2026-10-21 - Added the slop-grader fold: the September 2026 npm CLI whose default no-ai-slop ruleset grades mostly structural tells line by line for cents, with its unmeasured small-model judge and empty community footprint named as the caution, plus the matching See also and References entries; every cited source re-fetched 200.
 
 ## See also
 
 - [Who Maintains the Slop?](../../who-maintains-the-slop/index.md) - the code-side twin of the trust asymmetry this essay describes for prose.
 - [Rethinking Code Review in the Age of LLMs](../../rethinking-code-review-in-the-age-of-llms/index.md) - reviewing generated output, the code counterpart of the structural read proposed here.
 - [Defects Flow Downstream, Fixes Must Flow Upstream](../../defects-flow-downstream/index.md) - the humanizer industry patches at the word layer; the same argument for fixing defects at the source applies to prose.
+- [slop-grader](../evaluation-review/slop-grader/index.md) - the rule-based grader that automates a per-line version of the structural pass this essay prescribes.
 
 ## References
 
@@ -90,4 +95,6 @@ If you review other people's writing, read structure rather than vocabulary; a d
 - <https://arxiv.org/abs/2409.14509> - LAMP: 18 professional writers, 1,057 edited paragraphs, and the seven-category taxonomy of LLM writing idiosyncrasies.
 - <https://arxiv.org/abs/2509.19163> - Measuring AI "Slop" in Text: the expert-derived slop dimensions and the subjectivity of binary slop judgments.
 - <https://github.com/Nanako0129/sepia> - the open-source skill that operationalizes this research (write, review, refactor, recreate) with the calibrate-not-invert principle; about 3,200 stars as of 2026-10-13.
+- <https://github.com/lukstei/slop-grader> - the MIT npm CLI (35 stars as of 2026-10-21) that grades documents line by line against Markdown rulesets, the mechanical first pass this essay now points to.
+- <https://raw.githubusercontent.com/lukstei/slop-grader/main/rules/no-ai-slop.md> - the default ruleset itself: banned-word and filler-adverb line rules plus the structural rules (binary_contrast, throat_clearing, faux_insight, dramatic_fragmentation, fake_profound_kicker, summary_recap) that make it mostly a structure checker.
 - <https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing> - Wikipedia's editorial field guide of structural AI-writing signs for nonfiction.

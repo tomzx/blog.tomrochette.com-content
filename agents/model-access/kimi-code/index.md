@@ -1,7 +1,7 @@
 ---
 title: Kimi Code
 created: 2026-09-26
-updated: 2026-10-17
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, moonshot-ai, pricing]
 readability: 3
@@ -21,7 +21,7 @@ Model access is tiered: K2.7 Code for every paying member, K3 at full 1M context
 
 ## Status
 
-Active and restructuring quickly: K3 shipped into Kimi Code on July 17, 2026, by late September a restructure had renamed tiers and dropped the weekly quota window for new members, and in October 2026 a second restructure renamed both ladders (Plus/Pro/Max/Ultra internationally, Go/Plus/Pro/Max in China) with the musical tiers kept on as legacy plans.
+Active and restructuring quickly: K3 shipped into Kimi Code on July 17, 2026, by late September a restructure had renamed tiers and dropped the weekly quota window for new members, and in October 2026 a second restructure renamed both ladders (Plus/Pro/Max/Ultra internationally, Go/Plus/Pro/Max in China, a fifth China tier, Ultra, added later that month) with the musical tiers kept on as legacy plans.
 The CLI is published on GitHub under MoonshotAI, with third-party coverage putting it at 3.2k stars in July 2026.
 Independent guides multiplied through 2026, which I read as genuine adoption.
 
@@ -34,14 +34,14 @@ Independent guides multiplied through 2026, which I read as genuine adoption.
 ## Cautions
 
 - Coding quota shares one pool with chat, Deep Research, and other Kimi features, so non-coding usage drains your coding allowance.
-- The plan ladder moved twice in 2026, so quota rules at signup may not persist.
+- The plan ladder moved twice in 2026 and gained a China-only Ultra tier in October, so quota rules at signup may not persist.
 - A February 2026 checkout experiment offered personalized first months between $0.99 and $11.99, so two subscribers on one tier can pay different prices.
 - One four-month user quit, reporting that higher tiers bought less inference per dollar, not more.
 
 ## Pricing
 
-On kimi.ai (as of 2026-10-14, re-verified unchanged from the 2026-10-12 read): Plus $19, Pro $39, Max $99, Ultra $199 per month, annual effective $15/$31/$79/$159; the former musical tiers (Moderato, Allegretto, Allegro, Vivace) are legacy plans at unchanged prices.
-On kimi.com (as of 2026-10-14, re-verified unchanged): Go ¥49, Plus ¥99, Pro ¥199, Max ¥699 per month, annual equivalents ¥39/¥79/¥159/¥559; the former musical tiers (Andante, Moderato, Allegretto, Allegro) are legacy plans at unchanged monthly prices, with annual billing added.
+On kimi.ai (as of 2026-10-21, re-verified unchanged from the 2026-10-12 read): Plus $19, Pro $39, Max $99, Ultra $199 per month, annual effective $15/$31/$79/$159; the former musical tiers (Moderato, Allegretto, Allegro, Vivace) are legacy plans at unchanged prices.
+On kimi.com (as of 2026-10-21, when the ladder read five tiers): Go ¥49, Plus ¥99, Pro ¥199, Max ¥699, Ultra ¥1,399 per month, annual equivalents ¥39/¥79/¥159/¥559/¥1,119; the former musical tiers (Andante, Moderato, Allegretto, Allegro) are legacy plans at unchanged monthly prices, with annual billing added.
 On both ladders, Go has no coding quota, Plus and above include Kimi Code under a rolling 5-hour limit with no weekly limit, legacy plans keep both the 5-hour and weekly windows, and Pro and above unlock K3 at 1M context.
 The monthly pool is credits shared across every Kimi feature, and Kimi Code additionally runs under its own usage limit (a rolling 5-hour rate window for new members, the weekly window having been removed; the membership help page still phrases it as a 5-hour/weekly limit because legacy plans keep the weekly window, per the membership docs re-fetched 2026-10-11) that applies only to Kimi Code.
 Extra Usage is pay-as-you-go overflow with a ¥25 minimum top-up, generally non-refundable.
@@ -53,6 +53,9 @@ Extra Usage is pay-as-you-go overflow with a ¥25 minimum top-up, generally non-
 | 2026-07-17 | Moderato to Vivace | Listed $19/$39/$99/$199 with time-limited promos at $15/$31/$79/$159; Kimi and Kimi Code separation announced | https://www.digitalapplied.com/blog/kimi-code-k3-hands-on-setup-plans-cache-2026 |
 | 2026-09-26 | Same tiers | Promos became standard annual pricing; new plans released at unchanged prices, weekly window dropped for new members | https://www.kimi.ai/help/membership/membership-pricing |
 | 2026-10-12 | Both ladders | Tier rename: international Moderato/Allegretto/Allegro/Vivace became Plus/Pro/Max/Ultra and China Andante/Moderato/Allegretto/Allegro became Go/Plus/Pro/Max at unchanged monthly prices, musical tiers designated legacy, annual billing added on both ladders | https://www.kimi.ai/help/membership/membership-pricing |
+| 2026-10-19 | China ladder | Fifth tier added: Ultra at ¥1,399/month (¥13,428/year, ¥1,119 monthly equivalent with annual billing), present by the help page's screenshot captured that day; the other four tiers and the international ladder unchanged | https://www.kimi.com/en/help/membership/membership-pricing |
+| 2026-10-19 | API (OpenRouter) | kimi-k3's sixteenth recorded move: the aggregator listing's input leg dropped from $0.304 to $0.239 per million tokens (output $11.936 and cache reads $0.21 held), with the input floor moving to Wafer at $0.238/$16.00, the output floor collapsing to Relace at $0.80/$3.00 on a wholesale reprice from $0.27/$14.00, InferenceNet matching the listing, and the roster at 26 endpoints | https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints |
+| 2026-10-21 | API (OpenRouter) | The listing held at $0.239/$11.936 while the endpoints recomposed: the Relace outlier re-priced to $0.30/$12.00 and the output floor moved to Wafer's second endpoint at $0.36/$11.90, with Sail Research's output leg down to $5.50, new hosts Parasail and Modal widening the roster to 28, and kimi-k2.7-code holding at $0.67/$3.35 | https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints |
 
 ## Compared to
 
@@ -76,6 +79,8 @@ I will claim something arguable: the ¥49 China-market ladder proves this produc
 - 2026-10-14 - Re-recorded the pay-per-token reference after the listing churned within the day: the main listing moved to $0.70/$15.00 (cache reads $0.32) and the endpoint floor to $0.56/$14.00 on Relace, with InferenceNet matching the main listing; the move-by-move history stays in the harnesses note.
 - 2026-10-16 - Re-recorded the pay-per-token reference after the listing's fifteenth recorded move: the main listing closed the day at $0.304/$11.936 (cache reads $0.21) after the output leg rose intraday from an earlier $11.588 reading, with InferenceNet matching, Relace's endpoint at $0.35/$14.00, Morph at $1.00/$14.90, and Wafer's two endpoints at $0.294/$28.00 and $0.36/$17.50; the move-by-move history stays in the harnesses note.
 - 2026-10-17 - Re-recorded the pay-per-token reference after the listing churned again within the day: the main listing held at $0.304/$11.936 (cache reads $0.21) on InferenceNet, the input floor moved to Relace at $0.27/$14.23 (cache reads $0.05), and Sail Research's new fp4 endpoint took the output floor at $0.504/$8.10 as the roster widened to 26 endpoints; the move-by-move history stays in the harnesses note.
+- 2026-10-21 - Defect pass over the price history: recorded the two API moves the section-root pass caught and this note lacked, the sixteenth move on 2026-10-19 (listing input leg $0.304 to $0.239, output $11.936 and cache $0.21 held, input floor to Wafer $0.238/$16.00, output floor collapsing to Relace $0.80/$3.00) and the 2026-10-21 recomposition (Relace re-priced to $0.30/$12.00, output floor to Wafer's second endpoint $0.36/$11.90, Sail Research's output leg $5.50, roster to 28 with Parasail and Modal joining), both fetched and appended as Price history rows.
+- 2026-10-21 - The China ladder gained a fifth tier, Ultra at ¥1,399/month (¥13,428/year, ¥1,119 monthly equivalent with annual), present by the help page's 2026-10-19 capture, with the other four tiers and the international ladder unchanged; Price history row appended and both ladder as-of dates moved to 2026-10-21.
 
 ## See also
 
@@ -88,9 +93,10 @@ I will claim something arguable: the ¥49 China-market ladder proves this produc
 
 - https://www.kimi.com/code/en - official product page; surfaces and the K3 1M-context claim.
 - https://www.kimi.com/code/docs/en/kimi-code/membership.html - membership docs; new ladder (Go/Plus/Pro), weekly window removal, Extra Usage terms.
-- https://www.kimi.ai/help/membership/membership-pricing - dollar pricing $19/$39/$99/$199 monthly, $15/$31/$79/$159 annual, as of 2026-10-12, when the ladder read Plus/Pro/Max/Ultra with the musical tiers designated legacy (fetched, HTTP 200; re-fetched 2026-10-14 unchanged).
-- https://www.kimi.com/en/help/membership/membership-pricing - yen pricing ¥49/¥99/¥199/¥699 monthly and shared credit pool rules, as of 2026-10-12, when the ladder read Go/Plus/Pro/Max at the same monthly prices with annual billing added (fetched, HTTP 200; re-fetched 2026-10-14 unchanged).
+- https://www.kimi.ai/help/membership/membership-pricing - dollar pricing $19/$39/$99/$199 monthly, $15/$31/$79/$159 annual, as of 2026-10-12, when the ladder read Plus/Pro/Max/Ultra with the musical tiers designated legacy (fetched, HTTP 200; re-fetched 2026-10-14 and 2026-10-21 unchanged).
+- https://www.kimi.com/en/help/membership/membership-pricing - yen pricing ¥49/¥99/¥199/¥699/¥1,399 monthly and shared credit pool rules, as of 2026-10-21, when the ladder read Go/Plus/Pro/Max/Ultra at the four original monthly prices with annual billing added (fetched, HTTP 200; re-fetched 2026-10-14 at four tiers, the Ultra tier absent).
 - https://www.digitalapplied.com/blog/kimi-code-k3-hands-on-setup-plans-cache-2026 - July 17, 2026 snapshot of listed vs promo prices and the separation banner.
 - https://aihackers.net/value/deals/kimi-haggle/ - documented February 2026 first-month offers of $0.99 to $11.99, marked historical.
 - https://www.noemititarenco.com/blog/kimi-code-plan-after-4-months-of-use-honest-review/ - skeptical four-month user review and cancellation rationale.
-- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - the pay-per-token API listing for the K3 model the ladder gates, now 26 endpoints: main listing $0.304/$11.936 per million tokens (cache reads $0.21) on InferenceNet, cheapest input $0.27/$14.23 on Relace (cache reads $0.05), cheapest output $0.504/$8.10 on Sail Research's fp4 endpoint, Morph at $0.30/$14.90 (fp8), Wafer at $0.28/$24.00 and $0.50/$14.90, and Moonshot's own endpoint at $3/$15 (fetched 2026-10-17; the per-move history of this churning listing is tracked in the harnesses note for the CLI).
+- https://openrouter.ai/api/v1/models - the aggregator listing behind the endpoint floor readings: kimi-k3 at $0.239/$11.936 per million tokens (cache reads $0.21) and kimi-k2.7-code at $0.67/$3.35 (cache reads $0.18) (fetched 2026-10-21).
+- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - the pay-per-token API listing for the K3 model the ladder gates, now 28 endpoints: main listing $0.239/$11.936 per million tokens (cache reads $0.21) matched on InferenceNet, cheapest input $0.238/$16.00 on Wafer (cache reads $0.228), cheapest output $1.20/$5.50 on Sail Research's fp4 rows, Wafer's second endpoint at $0.36/$11.90, Relace re-priced to $0.30/$12.00, Morph at $0.839/$14.90 (fp8), and Moonshot's own endpoint at $3/$15, with Parasail and Modal the new hosts since the 26-endpoint roster (fetched 2026-10-21; the per-move history of this churning listing is tracked in the harnesses note for the CLI).

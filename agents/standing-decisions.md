@@ -71,8 +71,13 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-21 | control-planes | Praesidia joins the closed tier | proprietary platform, design-partner-only SDKs, demo-gated pricing, Autoheal precedent
 - 2026-10-21 | assistant-runtimes | Orkas-VideoStudio resolves outside the category, the absorbed-family shelf keeps Orkas and its extracted toolkit is skills-kind | README states it is the extracted video agent of the absorbed Orkas desktop, agent-agnostic install into coding agents; routing flagged to skills
 - 2026-10-21 | assistant-runtimes | openhuman stays held on the absorbed-family shelf pending q13 | 42.2k stars is a tenth of OpenClaw-class so the scale trigger as framed has not fired; evidence gathered for the owner
+- 2026-10-21 | harnesses | generalist enterprise-automation agent frameworks are not harnesses-kind | cuga-project/cuga-agent rejected on it (web/API surfaces, AppWorld/WebArena benchmarks, no repository loop), extending the 2026-10-12 deepagents ruling; the shelf question is queued for the owner
+- 2026-10-21 | cross-category | vendor field reports about a member tool fold into that member's note as ecosystem evidence | the WarpBench report folds into warp; q#10 (vendor blog as voice) untouched
 - 2026-10-21 | software-factory | factory-kind candidates dormant 6+ months reject on the CodeMachine precedent without re-deriving coverage | Antfarm (2,495 stars, dormant since 2026-02-26) resolved on it; the list's own unmaintained tag is the matching signal
 - 2026-10-21 | session-analytics | Aident Loadout stays out of session-analytics | an actions-and-credentials gateway with an audit feature, no session recording, indexing, cost, or live-observation cell; the 2026-10-18 control-planes closed-tier rejection stands
+- 2026-10-21 | skills | Orkas-VideoStudio stays out beside its held Orkas desktop sibling | the vendor-sibling fold and the standing pack exclusion both apply to the extracted video-agent toolkit; resolved at coordinator level from the assistant-runtimes worker's routing
+- 2026-10-21 | orchestration | worktree-manager CLIs slot in orchestration beside Worktrunk, not surfaces or sandboxing | gwq admitted on the terminal-family precedent (worktrees are not isolation boundaries), closing the software-factory and scanner routing flags
+- 2026-10-21 | sandboxing | a repository rename resolves against the prior name's history only when that name was itself a resolved candidate; a prose mention is not a resolution | the loom-to-Overalls handoff: loom was only a mention in the geoffrey-huntley note, so overalls was judged fresh and admitted (1,557 stars, Firecracker microVM platform, research preview 2026-11-03)
 
 ## Owner questions governing scope
 

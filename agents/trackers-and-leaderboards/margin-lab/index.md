@@ -1,7 +1,7 @@
 ---
 title: Margin Lab
 created: 2026-10-11
-updated: 2026-10-18
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, benchmarks, monitoring, open-source]
 readability: 3
@@ -23,8 +23,8 @@ The site also hosts benchmark explorers for SWE-Bench Pro and Terminal-Bench 2.0
 
 ## Status
 
-Active but paused at its own gate: both trackers switched models on 2026-09-24 and are collecting fresh baselines, so degradation detection and significance verdicts are suspended until those baselines establish (the pages were last stamped September 29, 2026, re-confirmed 2026-10-18).
-The 30-day pass rates as of 2026-10-18 read 81 percent for Claude Code (1,200 trials) and 79 percent for Codex (1,450 trials), unchanged from the 2026-10-11 reading.
+Active but paused at its own gate: both trackers switched models on 2026-09-24 and are collecting fresh baselines, so degradation detection and significance verdicts are suspended until those baselines establish (the pages were last stamped September 29, 2026, re-confirmed 2026-10-21).
+The 30-day pass rates as of 2026-10-21 read 81 percent for Claude Code (1,200 trials) and 79 percent for Codex (1,450 trials), unchanged from the 2026-10-11 reading.
 The footprint is the strongest in the category for its size: the launch thread ("Claude Code daily benchmarks for degradation tracking") drew 760 points on HN in January 2026, and the evals repository holds 160 stars as of 2026-10-11, though the public code has not been pushed since 2026-07-31 while the site's numbers update daily.
 
 <picture>
@@ -77,8 +77,8 @@ My disagreeable claim: the paused state is the best thing about it, because a de
 
 ## References
 
-- https://marginlab.ai/trackers/claude-code/ - the Claude Code tracker: method, N=50 daily runs, CIs and thresholds, paused baseline collection, 30-day 81 percent (fetched 200, 2026-10-11; re-fetched 200, 2026-10-18, unchanged, still stamped September 29, 2026)
-- https://marginlab.ai/trackers/codex - the Codex tracker: the GPT-6 Sol/high baseline, the prior 83.40 percent baseline, 30-day 79 percent, and the exclusion rules (fetched 200, 2026-10-11; re-fetched 200, 2026-10-18, unchanged)
-- https://marginlab.ai/ - homepage: Margin Evals identity, supported agents and benchmarks, tracker summary cards (fetched 200, 2026-10-11; re-fetched 200, 2026-10-18, unchanged)
-- https://api.github.com/repos/Margin-Lab/evals - repository metadata: 160 stars, AGPL-3.0, Go, pushed 2026-07-31 (fetched 200, 2026-10-11; re-fetched 200, 2026-10-18, pushed_at still 2026-07-31, star figure unchanged by policy)
-- https://hn.algolia.com/api/v1/items/46810282 - the 760-point January 2026 thread and the significance criticism in its comments (fetched 200, 2026-10-11; re-fetched 200, 2026-10-18, unchanged)
+- https://marginlab.ai/trackers/claude-code/ - the Claude Code tracker: method, N=50 daily runs, CIs and thresholds, paused baseline collection, 30-day 81 percent (fetched 200, 2026-10-11; re-fetched 200, 2026-10-21, unchanged, still stamped September 29, 2026)
+- https://marginlab.ai/trackers/codex - the Codex tracker: the GPT-6 Sol/high baseline, the prior 83.40 percent baseline, 30-day 79 percent, and the exclusion rules (fetched 200, 2026-10-11; re-fetched 200, 2026-10-21, unchanged)
+- https://marginlab.ai/ - homepage: Margin Evals identity, supported agents and benchmarks, tracker summary cards (fetched 200, 2026-10-11; re-fetched 200, 2026-10-21, unchanged)
+- https://api.github.com/repos/Margin-Lab/evals - repository metadata: 160 stars, AGPL-3.0, Go, pushed 2026-07-31 (fetched 200, 2026-10-11; re-fetched 200, 2026-10-21, pushed_at still 2026-07-31, star figure unchanged by policy)
+- https://hn.algolia.com/api/v1/items/46810282 - the 760-point January 2026 thread and the significance criticism in its comments (fetched 200, 2026-10-11; re-fetched 200, 2026-10-21, unchanged)

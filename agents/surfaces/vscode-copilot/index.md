@@ -94,7 +94,7 @@ Not for teams that want the editor itself to come with strong opinions.
 
 - https://code.visualstudio.com/docs/agents/overview - the agent-centric docs, harness and session model (formerly /docs/copilot/overview, moved in the 2026 docs reorg)
 - https://docs.github.com/en/copilot/get-started/plans - plan prices and AI credit allotments, re-verified 2026-10-20 (credit totals 1,500/7,000/20,000 unchanged, now itemized as base plus flex allowances)
-- https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent - the cloud agent and issue assignment (formerly /concepts/about-copilot-coding-agent, moved)
+- https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github - the cloud agent and issue assignment (formerly /concepts/about-copilot-coding-agent, then /concepts/agents/cloud-agent/about-cloud-agent, moved)
 - https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups - the September 3, 2026 reopening announcement for self-serve Business and Enterprise sign-ups, and the prepaid-seat billing it introduced effective October 1, 2026
 - https://github.com/microsoft/vscode - MIT license and repository scale, as of 2026-10-16
 - https://news.ycombinator.com/item?id=44031432 - coding-agent launch discussion with early skepticism

@@ -1,7 +1,7 @@
 ---
 title: Warp Agent CLI
 created: 2026-08-30
-updated: 2026-10-20
+updated: 2026-10-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, terminal, model-routing]
 readability: 3
@@ -37,6 +37,8 @@ Vendor traction is real: the terminal repository counts about 65.5k stars as of 
 
 The CLI itself ships as a managed binary with no separate public repository.
 Warp has also opened a Factories line: factories-as-code cloud software factories (factory.yaml defining repos, agents, models, and approval gates) with evals, benchmarks, and self-improvement loops, now in early access with published pricing (pay-as-you-go factory usage at a 20% markup with no subscription, factory credits inside the Build, Max, and Business tiers) and up to $10,000 in free usage for select teams as of 2026-09-22.
+The line has one field report: WarpBench (September 2, 2026), a 30-task internal benchmark built by replaying Warp's own past factory runs, tested Opus 5, GPT-5 Sol, Gemini 3.7, Grok 4.6, and GLM 5.3 Flash on the Warp Agent harness and cut Warp's internal factory cost per completed PR from about $80 to about $30, with merge rate flat and internal task-compliance scores up from 69% to 87%, before a broader run promoted GPT-5.6 Sol to default implementation agent.
+The benchmark run itself cost $2,130.57, and the $80-to-$30 figure is unreplicated vendor self-report, which third-party coverage flags as still needing outside proof.
 
 ## Strengths
 
@@ -90,6 +92,7 @@ I think the CLI exists to follow developers who fled Warp's AI-heavy terminal fo
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-07 - Added the warpdotdev/warp star history chart to the Status section.
 - 2026-10-08 - Recorded the pricing page's restructure from credit counts to dollar-denominated included usage (Build $20, Max $200, Business $20 per seat, annual rates displayed by default) with monthly prices unchanged, and appended the matching Price history row.
+- 2026-10-21 - Folded the WarpBench field report (September 2, 2026) into the Factories status line as ecosystem evidence: a 30-task replay benchmark on the Warp Agent harness cut Warp's internal factory cost per PR from about $80 to $30, an unreplicated vendor claim third-party coverage flags as still needing outside proof.
 
 ## See also
 
@@ -109,3 +112,5 @@ I think the CLI exists to follow developers who fled Warp's AI-heavy terminal fo
 - https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude - Anthropic's account of Warp's agent engineering
 - https://news.ycombinator.com/item?id=49171766 - launch thread, 111 points, community reception
 - https://www.warp.dev/factories - the Factories product line: factory.yaml, evals and self-improvement, early access pricing
+- https://www.warp.dev/factories/benchmarks/warpbench - the WarpBench field report: the 30-task replay benchmark, the model mix, the $80-to-$30 cost-per-PR result, and the GPT-5.6 Sol follow-up (fetched 2026-10-21)
+- https://runtimewire.com/article/warp-factory-benchmarks-test-coding-agents-historical-tasks - third-party coverage flagging the WarpBench cost claim as vendor-reported and still needing outside proof (fetched 2026-10-21)

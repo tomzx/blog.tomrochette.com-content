@@ -21,6 +21,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Agentlas OS](agentlas-os/index.md) - the Apache-2.0 local-first hub keeping specialist agents on hand and spinning up a temporary orchestrator per task inside Claude Code, Codex, Cursor, Gemini, and Antigravity.
 - [AgentsMesh](agentsmesh/index.md) - the BSL-1.1 self-hosted fleet console turning registered machines into AgentPods with tickets, channels, and automated loops.
 - [Agno](agno/index.md) - the Apache-2.0 Python agent platform, formerly Phidata, pairing a self-hosted AgentOS runtime with a $150-per-month control plane.
+- [apowerb](apowerb/index.md) - thaink²'s Apache-2.0 open-core platform defining agents in a web UI or REST API and running them on Google ADK with any model through LiteLLM, from Docker Compose or Helm.
 - [Archon](archon/index.md) - Cole Medin's MIT workflow engine turning development processes into repo-committed YAML with deterministic gates around AI nodes, one worktree per run, and Slack, Telegram, GitHub, and Discord triggers, 23.7k stars.
 - [Atlas](atlas/index.md) - the Apache-2.0 Rust desktop app that treats source control as the product, turning every agent run into a checkpoint linking commits to prompts, tool calls, and reasoning.
 - [AutoGen](autogen/index.md) - Microsoft's conversational multi-agent framework, archived by its own declaration in October 2026 with Microsoft Agent Framework as the designated successor.
@@ -41,9 +42,11 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [EvoAgentX](evoagentx/index.md) - the MIT Python framework that generates multi-agent workflows from a goal and evolves them with TextGrad, AFlow, MIPRO, and EvoPrompt, quiet since August 2026.
 - [Flowise](flowise/index.md) - the Workday-acquired visual LLM builder archived in August 2026, kept here as the genre's clearest post-mortem.
 - [Foremerge](foremerge/index.md) - the Apache-2.0 protocol where parallel agents publish what they are about to change before they change it, catching the plan collisions Git merges without complaint, from GPTree's internal tooling.
+- [Frink](frink/index.md) - the free MIT desktop app running up to four agents in worktree-backed panes, turning plain-language routines into schedule-, webhook-, and event-triggered Flows with approval gates.
 - [Gas City](gascity/index.md) - the MIT orchestration-builder SDK extracted from the shut-down Gas Town, six primitives and zero hardcoded roles, the category's first build-your-own-orchestrator toolkit and its living lineage record.
 - [Gas Town](gastown/index.md) - Steve Yegge's tmux town of 20-30 supervised agents, shut down in September 2026 after Yegge admitted he never successfully built anything with it, kept as the category's cautionary record.
 - [GraphCode](graphcode/index.md) - the FSL-licensed native macOS workspace arranging live agent loops into a graph with hand-off, message, and spawn edges.
+- [gwq](gwq/index.md) - d-kuro's Apache-2.0 Go CLI managing Git worktrees with a fuzzy finder, a global cross-repository view, a status dashboard, and tmux sessions for parallel agent runs.
 - [Happy Coder](happy-coder/index.md) - the MIT encrypted mobile client wrapping Claude Code and Codex sessions, 24.1k stars, second only to cmux among the category's session multiplexers.
 - [hcom](hcom/index.md) - the MIT CLI messaging fabric where thirteen coding CLIs message, watch, and spawn each other across terminals.
 - [Helmor](helmor/index.md) - the Apache-2.0 local-first desktop workbench running agents across worktrees through review, test, merge, and one-click PR.
@@ -79,6 +82,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown, community commits resumed in September 2026 but only a v0.1.45 tag, npm still at 0.1.44.
 - [Worktrunk](worktrunk/index.md) - the Rust `wt` CLI making worktrees as easy as branches, with lifecycle hooks and a one-command merge.
 - [Yao](yao/index.md) - Infinite Wisdom Software's cross-device agent workspace on the five-year Yao Engine, 8.1k stars mostly inherited from its 2021 low-code era.
+- [YYLO](yylo/index.md) - the MIT CLI coordinating coding agents through bounded tasks with per-task worktrees, evidence receipts, protected merges, and a Git-native ledger.
 
 Its members are compared on shared rows in the [Orchestration Feature Matrix](orchestration-feature-matrix/index.md).
 
@@ -153,3 +157,7 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-10-12 - Added Gas City.
 - 2026-10-12 - Added Jean.
 - 2026-10-12 - Added Orkas.
+- 2026-10-21 - Added apowerb.
+- 2026-10-21 - Added Frink.
+- 2026-10-21 - Added gwq.
+- 2026-10-21 - Added YYLO.
