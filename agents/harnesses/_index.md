@@ -38,6 +38,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [LongHorizon-Harness](longhorizon-harness/index.md) - Alibaba DreamX's MIT audited computer-use loop wrapping Claude Code, Codex, OpenCode, and DeepSeek Harness as backends, quiet since its August paper.
 - [MiMo Code](mimo-code/index.md) - Xiaomi's MIT OpenCode fork, a terminal agent built around checkpointed memory and goal-verified long-horizon runs, priced on cheap MiMo tokens.
 - [Mini-SWE-agent](mini-swe-agent/index.md) - the SWE-bench team's roughly-100-line Python baseline harness, 11.6 million PyPI downloads a month, the project its own parent repository now supersedes SWE-agent with.
+- [Mirror](mirror/index.md) - Reflection's early-beta terminal agent over its own open-weights Beam, per-workspace models and approval modes, worktree and microVM workspaces, Python extensions as the product surface.
 - [Nanocoder](nanocoder/index.md) - the Nano Collective's community-built local-first agent, MIT via npm with the widest documented local-engine list, funded by sponsors instead of a company.
 - [Oh My Pi](oh-my-pi/index.md) - Stencil Labs' batteries-included Pi fork with LSP and a real debugger wired into the loop, 35.5k stars past its frozen-core parent.
 - [Omnigent](omnigent/index.md) - Databricks' Apache-2.0 meta-harness wrapping Claude Code, Codex, Cursor, OpenCode, Pi, and custom YAML agents behind one API, with policies, sandboxes, and live session sharing.
@@ -99,3 +100,4 @@ Its members are compared on shared rows in the [Harness Feature Matrix](harness-
 - 2026-10-13 - Added AutoDev.
 - 2026-10-13 - Added gptme.
 - 2026-10-13 - Added LongHorizon-Harness.
+- 2026-10-21 - Added Mirror.
