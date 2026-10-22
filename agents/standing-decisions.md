@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-10-21
+updated: 2026-10-22
 status: finished
 tags: [agents]
 readability: 0
@@ -46,6 +46,9 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-21 | evaluation-review | lukstei/slop-grader admitted as the document-and-diff grader beside Jevals, the category's second Jev-based member | skills-worker handoff resolved on the citation bar; the thin one-thread HN footprint is stated in the note, on the HermesGate precedent
 - 2026-10-21 | spec-driven-development | context-engineering layers route here when the artifact is a typed spec set plus a convergence check that names the guilty side | archcore admitted on the Intent-Router primary-artifact precedent; the looptroop-ai/LoopTroop duplicate admission was retracted the same run, the orchestration member stands as the primary frame
 - 2026-10-21 | control-planes | Tracekit admitted as the category's eleventh gate at 138 stars | governs calls before execution with a CT-style witness-cosigned evidence log, unlike any member; the experimental no-public-witness gap is stated in the note
+- 2026-10-22 | hybrid-execution | the Decision Index 0.4 Full score is fully private (60 percent same-skills, 40 percent new-domains, the public index shown but uncounted), so member rows cite the 0.4.1 reading | board regenerated 2026-10-22 with 226 configurations, GLiDE V1.2 first at 71.52, Jev 1.14 forty-first
+- 2026-10-22 | hybrid-execution | TypeChat's npm-publication reopen trigger counts a revival-era publication only, not the pre-revival npm line | the npm typechat package (latest 0.1.4, 2026-08-21) predates the 2026-10-13 revival push, asked in queue
+- 2026-10-22 | cross-category | npm weekly download figures carry zero-day gaps, so adoption claims prefer the trailing-month window | context7's npm week to 2026-10-18 reported 482,795 with three zero days inside the window while the trailing month read 2,640,895
 
 ## Standing family rejections
 

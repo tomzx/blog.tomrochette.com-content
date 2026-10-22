@@ -1,7 +1,7 @@
 ---
 title: Entroly
 created: 2026-10-12
-updated: 2026-10-18
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, receipts, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Two offline commands are the trust surface: `entroly verify-claims` runs twelve 
 
 ## Status
 
-Young, active, and barely discovered: 476 stars, 72 forks, created 2026-03-07, pushed 2026-10-18, PyPI and npm both at 1.0.87 across 105 releases, as of 2026-10-18 (GitHub, PyPI, and npm APIs).
+Young, active, and barely discovered: 476 stars as of 2026-10-18, 73 forks, created 2026-03-07, pushed 2026-10-22, PyPI and npm both at 1.0.87 across 105 releases, as of 2026-10-22 (GitHub, PyPI, and npm APIs).
 October 2026 development around the 1.0.87 release added a session journal of what a session did, returned on resume, source-bound cross-agent review in the work CLI, opt-in paired Decisions choice trials, and a rustls advisory fix.
 
 <picture>

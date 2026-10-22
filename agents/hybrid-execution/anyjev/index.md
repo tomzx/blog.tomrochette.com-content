@@ -1,7 +1,7 @@
 ---
 title: AnyJev
 created: 2026-10-07
-updated: 2026-10-17
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, decision-models, training-free]
 readability: 3
@@ -16,14 +16,14 @@ AnyJev is Nokia Applied Research's Apache-2.0 method that turns any instruction-
 
 ## What it is
 
-A pip-installable Python method plus a paper (arXiv 2610.00831, submitted 2026-09-30, authors from Nokia, Tencent Hunyuan, and Hong Kong Polytechnic University) from nokia-applied-research (1,271 stars, pushed 2026-10-12, as of 2026-10-15).
+A pip-installable Python method plus a paper (arXiv 2610.00831, submitted 2026-09-30, authors from Nokia, Tencent Hunyuan, and Hong Kong Polytechnic University) from nokia-applied-research (1,271 stars as of 2026-10-15, pushed 2026-10-21).
 The raw readout restricts the next-token distribution at the answer position to the option tokens; AnyJev then corrects its two documented defects by dividing out a label prior estimated from unlabelled inputs and averaging log-probabilities over the K cyclic rotations of the option list, which lowers the order-flip rate from 0.33 to 0.14 and 0.18 on two 20-option tasks and raises accuracy on 11 of 11 models tested.
 A stopping rule selected on unlabelled splits cuts the rotation count: 10.6 of 18 rotations at a verified 0.008 disagreement bound on two of four cells, or 7.3 when selected on one split, which served 2.2 times as many decisions per second on vLLM.
 The same team publishes Tacit, a self-distilled 1.7B-to-9B model line on Hugging Face that compresses the method to one forward pass per decision, with an adaptive mode routing a capped share of low-confidence decisions back to the base model's reasoning.
 
 ## Status
 
-Active and freshly credible: created 2026-09-21, 1,271 stars, release v0.3.0 published 2026-10-07, as of 2026-10-15.
+Active and freshly credible: created 2026-09-21, 1,271 stars as of 2026-10-15, release v0.3.0 published 2026-10-07, pushed 2026-10-21, as of 2026-10-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nokia-applied-research/AnyJev&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Active and freshly credible: created 2026-09-21, 1,271 stars, release v0.3.0 pub
 
 This note reverses this section's 2026-09-25 rejection of the same project, which then had 506 stars and no independent coverage; the promised re-review trigger, a second implementation, now exists in kind.
 The third-party local-jev-bench benchmark (2026-09-30, updated 2026-10-05) runs AnyJev against Kev, Winnow, Clef, Von, Jeff, Laya, and CLM on Apple Silicon and reports training-free AnyJev level with the trained engines on the six public transfer sources; community builds such as mesa-anyjev and a Tetris-playing AnyJev judge extend it.
-A third-party board reading arrived with the Decision Index's regenerations: an AnyJev L0 readout over Gemma-4-31B held fifth of 149 configurations on the 2026-10-12 builds at 60.22 (61.27 on the first same-day build), above hosted Jev's 60.11, the method's first board rows, and the 2026-10-14 regeneration (166 configurations) held its score at 60.22 while dropping it to ninth as four new entrants passed it, and the 2026-10-16 regeneration (174 configurations, a new StartLux leader) dropped the unchanged 60.22 to fifteenth.
+A third-party board reading arrived with the Decision Index's regenerations: an AnyJev L0 readout over Gemma-4-31B held fifth of 149 configurations on the 2026-10-12 builds at 60.22 (61.27 on the first same-day build), above hosted Jev's 60.11, the method's first board rows, and the 2026-10-14 regeneration (166 configurations) held its score at 60.22 while dropping it to ninth as four new entrants passed it, and the 2026-10-16 regeneration (174 configurations, a new StartLux leader) dropped the unchanged 60.22 to fifteenth; the 0.4.1 rebuild of 2026-10-22 (226 configurations, the Full score now entirely private) then scored the method's family at three rows, AJev lm6q seventh at 67.57, AnyJev Tacitus 31B eighteenth at 66.47, and the L0 readout twenty-seventh at 63.65, with the vendor's Jev 1.14 forty-first at 60.24.
 The HN footprint remains thin (mentions inside decision-model threads, no thread of its own), which this note records as the standing signal.
 
 ## Strengths
@@ -73,6 +73,7 @@ Not for single-digit-millisecond budgets, where the trained single-pass models k
 - 2026-10-13 - The 0.3.2 relabel and second same-day regeneration (149 configurations) held the L0 row's fifth place while rescoring it to 60.22; refreshed stars to 1,242 and the pushed date to 2026-10-12.
 - 2026-10-15 - The Decision Index's 2026-10-14 regeneration (166 configurations) held the L0 row's score at 60.22 while dropping it from fifth to ninth as four new entrants passed it; refreshed stars to 1,271.
 - 2026-10-17 - The Decision Index's 2026-10-16 regeneration (174 configurations) dropped the L0 row's unchanged 60.22 from ninth to fifteenth behind the new StartLux leader and seven other entrants; no other claims changed.
+- 2026-10-22 - The Decision Index's 0.4.1 rebuild (226 configurations, the Full score now entirely private) scored the method's family at three rows for the first time: AJev lm6q seventh at 67.57, AnyJev Tacitus 31B eighteenth at 66.47, and the L0 readout twenty-seventh at 63.65; pushed date moved to 2026-10-21 with no new release.
 
 ## See also
 
@@ -85,7 +86,7 @@ Not for single-digit-millisecond budgets, where the trained single-pass models k
 ## References
 
 - https://github.com/nokia-applied-research/AnyJev - repository, Apache-2.0 license, the readout and correction design, and the Tacit line (fetched 200, 2026-10-07)
-- https://api.github.com/repos/nokia-applied-research/AnyJev - stars, forks, created date, and push date for the as-of status (fetched 200, 2026-10-15; 1,271 stars, pushed 2026-10-12)
+- https://api.github.com/repos/nokia-applied-research/AnyJev - stars, forks, created date, and push date for the as-of status (fetched 2026-10-22; 1,271 stars as of 2026-10-15, pushed 2026-10-21)
 - https://arxiv.org/abs/2610.00831 - the technical report: rotation-averaging and prior-division results, the early-exit bounds, and the vLLM serving numbers (fetched 200, 2026-10-07)
 - https://api.github.com/repos/nokia-applied-research/AnyJev/releases - the v0.0.2 through v0.3.0 releases, v0.3.0 on 2026-10-07 (fetched 200, 2026-10-07)
 - https://raw.githubusercontent.com/tak-bro/local-jev-bench/HEAD/README.md - the third-party Apple Silicon benchmark running AnyJev against Kev, Winnow, Clef, Von, Jeff, Laya, and CLM (fetched 200, 2026-10-07)

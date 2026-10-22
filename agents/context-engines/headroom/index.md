@@ -1,7 +1,7 @@
 ---
 title: Headroom
 created: 2026-10-07
-updated: 2026-10-18
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, token-optimization]
 readability: 3
@@ -23,7 +23,7 @@ The docs' reproducible benchmarks (seeded, generated from MCP output formats, gp
 
 ## Status
 
-Active and compounding fast: created 2026-01-07, 75,468 stars and 5,872 forks in nine months, PyPI package at 0.41.0, 49,633 npm downloads in the week of 2026-10-10 to 2026-10-16, as of 2026-10-18.
+Active and compounding fast: created 2026-01-07, 75,468 stars as of 2026-10-18 and 6,009 forks in nine months, PyPI package at 0.41.0, 30,698 npm downloads in the week of 2026-10-12 to 2026-10-18, as of 2026-10-22.
 Release v0.41.0 (2026-10-14) added a native Google Antigravity IDE integration, OpenCode 2.x plugin-API support, and the headroom-snip Claude Code mod, and the proxy gained turn hooks that rewrite OpenAI Responses requests on HTTP and WebSocket (2026-10-17).
 
 <picture>

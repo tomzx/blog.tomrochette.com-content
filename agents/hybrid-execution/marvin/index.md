@@ -1,7 +1,7 @@
 ---
 title: Marvin
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, pydantic, validation, agents]
 readability: 3
@@ -23,7 +23,7 @@ Under the model layer it is Pydantic AI all the way: the README states Marvin na
 
 ## Status
 
-Active on a slowing train: 6,204 stars, 415 forks, 119 open issues, created 2023-03-10, pushed 2026-09-23, as of 2026-10-15 (GitHub API).
+Active on a slowing train: 6,204 stars as of 2026-10-15, 414 forks and 119 open issues as of 2026-10-22, created 2023-03-10, pushed 2026-09-23 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PrefectHQ/marvin&type=date&theme=dark&legend=top-left" />
@@ -69,6 +69,7 @@ The disagreeable claim I will defend: Marvin's four-function API is the correct 
 ## Changes
 
 - 2026-10-15 - Created from the entrant scan (the slavakurilyak/awesome-ai-agents structured-outputs section), admitted as the validate-and-retry family's AI-functions toolkit kind, with the twice-rebuilt history and the quiet 2026 release train recorded as the governing cautions.
+- 2026-10-22 - Rotation re-verification: every cited URL re-fetched and holding (repository, README, PyPI at 3.2.7, the release train still ending at v3.2.7 of 2026-03-04, the project site, the archived ControlFlow, both HN threads at 127 and 20 points); nothing changed.
 
 ## See also
 
@@ -80,11 +81,11 @@ The disagreeable claim I will defend: Marvin's four-function API is the correct 
 
 ## References
 
-- https://github.com/PrefectHQ/marvin - repository: Apache-2.0, created 2023-03-10, 6,204 stars, 415 forks, 119 open issues, pushed 2026-09-23, described as "an ambient intelligence library" (GitHub API, as of 2026-10-15)
-- https://raw.githubusercontent.com/PrefectHQ/marvin/main/README.md - the four structured-output utilities, the task-agent-thread layer, the ControlFlow lineage, and the Pydantic AI model support (fetched 2026-10-15)
-- https://pypi.org/pypi/marvin/json - the published package, 3.2.7 (fetched 200, 2026-10-15)
-- https://api.github.com/repos/PrefectHQ/marvin/releases - v3.2.5 through v3.2.7, 2026-01-06 through 2026-03-04, the latest release train (fetched 2026-10-15)
-- https://askmarvin.ai/ - the project site (fetched 200, redirecting to /welcome, 2026-10-15)
-- https://github.com/prefecthq/controlflow - the archived parent of the 3.0 agentic layer: 1,387 stars, archived, last pushed 2025-08-22 (GitHub API, as of 2026-10-15)
-- https://news.ycombinator.com/item?id=35366838 - the 127-point launch thread (2023-03-30, fetched via the Algolia items API), the project's largest forum footprint and its critical source
-- https://news.ycombinator.com/item?id=39036670 - the 20-point Marvin 2.0 relaunch thread (2024-01-18, fetched via the Algolia items API)
+- https://github.com/PrefectHQ/marvin - repository: Apache-2.0, created 2023-03-10, 6,204 stars, 414 forks, 119 open issues, pushed 2026-09-23, described as "an ambient intelligence library" (GitHub API, as of 2026-10-22)
+- https://raw.githubusercontent.com/PrefectHQ/marvin/main/README.md - the four structured-output utilities, the task-agent-thread layer, the ControlFlow lineage, and the Pydantic AI model support (re-fetched 2026-10-22)
+- https://pypi.org/pypi/marvin/json - the published package, 3.2.7 (fetched 200, 2026-10-22)
+- https://api.github.com/repos/PrefectHQ/marvin/releases - v3.2.5 through v3.2.7, 2026-01-06 through 2026-03-04, the latest release train (fetched 2026-10-22)
+- https://askmarvin.ai/ - the project site (fetched 200, redirecting to /welcome, 2026-10-22)
+- https://github.com/prefecthq/controlflow - the archived parent of the 3.0 agentic layer: 1,387 stars, archived, last pushed 2025-08-22 (GitHub API, as of 2026-10-22)
+- https://news.ycombinator.com/item?id=35366838 - the 127-point launch thread (2023-03-30, fetched via the Algolia items API, re-read 2026-10-22), the project's largest forum footprint and its critical source
+- https://news.ycombinator.com/item?id=39036670 - the 20-point Marvin 2.0 relaunch thread (2024-01-18, fetched via the Algolia items API, re-read 2026-10-22)

@@ -1,7 +1,7 @@
 ---
 title: H2O-Lightning-4B
 created: 2026-10-11
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, multimodal]
 readability: 3
@@ -27,7 +27,7 @@ It entered the board the ordinary way, a 2026-10-02 add-request on the benchmark
 The company's card carries the claim and the screenshot, the 2026-10-12 card revision added a comparison section against Microsoft's Microsoft-Decision-1 announcement (Microsoft's accuracy numbers kept, latency corrected onto one H100 basis, both JevBench scores shown), which also explains the board's new Capability Score ordering as the Intelligence-plus-Calibration average that excludes speed and cost, and the current card extends the headline's claim window through October 20 with the same-day board re-read.
 The card's main revision is no longer the board's weights: since the v1.3 line `main` carries v1.3.1, the v1.3 weights continued for one more pass and trained for **two-way reading** (bidirectional attention on the model's full-attention layers, so the answer position sees the record in both directions, one forward pass and one output token either way, two-way the recommended default), with v1.3.0.5, v1.2.3, and v1.1 (the board's revision) all pinnable.
 The vendor also published its own runs of the Decision Index 0.3 public suite with the official scorer (v1.3.1 text 57.86 two-way, vision 68.22, explicitly not a leaderboard result), corrected the vision column on 2026-10-19 after a fallback-font defect in its Mind2Web screenshots, and widened distribution with GGUF and community MLX builds, a Nemotron-Nano-base text-only variant, and a Hugging Face Spaces demo.
-The Decision Index board still does not carry the model at all, so its second-board reading does not exist yet.
+The Decision Index board still does not carry the 4B at all (its edition-0.4 rebuild of 2026-10-22 entered an H2O Lightning 31B row, sixteenth of 226 at 66.58, a larger sibling rather than this model), so the 4B's second-board reading still does not exist.
 
 ## Strengths
 
@@ -66,6 +66,7 @@ The disagreeable claim I will defend: a company checkpoint taking the open lead 
 - 2026-10-12 - Recorded the card's 2026-10-12 revision (a comparison section against Microsoft's Microsoft-Decision-1 announcement with both JevBench scores, plus the Capability Score explanation) and refreshed the checkpoint to 1,254 downloads and 54 likes.
 - 2026-10-15 - The card's 2026-10-15 revision extended its #1-on-JevBench claim window through October 15 with a same-day board re-read and moved the comparison's API latency rows onto JevBench's measured medians (Microsoft-Decision-1 460 ms at API #6, OpenAI Decisions 298 ms at API #8); refreshed the checkpoint to 2,568 downloads and 71 likes.
 - 2026-10-20 - Rotation re-verification, every cited URL re-fetched: the card's #1 claim window now runs through October 20 (still composite leader on the 2026-10-20 board read, 184 ranked systems); recorded the v1.3 line (v1.3.1 on main with two-way reading, bidirectional attention on the full-attention layers, one pass either way; v1.2.3 and v1.1 pinnable), the vendor's own Decision Index 0.3 public-suite runs (57.86 text two-way, 68.22 vision, own runs not a board result, the board still carrying no row), the 2026-10-19 vision-column correction (fallback-font Mind2Web screenshots re-read on a verified suite), and the wider distribution (GGUF and community MLX builds, a Nemotron-Nano-base text-only variant, an HF Spaces demo); refreshed the checkpoint to 4,944 downloads and 84 likes.
+- 2026-10-22 - The Decision Index's edition-0.4 rebuild (226 configurations) entered an H2O Lightning 31B row (sixteenth at 66.58), a larger sibling and not this 4B, whose second-board reading still does not exist.
 
 ## See also
 

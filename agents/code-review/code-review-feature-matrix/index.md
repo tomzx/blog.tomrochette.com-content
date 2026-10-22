@@ -1,7 +1,7 @@
 ---
 title: "Code Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, code-review, ai-review, developer-tools]
 readability: 3
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Learns team rules | ✓ learnings | ~ agents-as-code config you write | ~ .lrc/rules markdown you write plus thumbs-up/down tuning; nothing learned from comments | ~ custom rules | ✓ from review comments, isolated per organization | ✓ plain-language rules, workflow learning | ✗ deliberately stateless between runs | ✗ fixed rule pipeline | ~ a committed instructions file you write tells the reviewer what never to flag | ✗ | ~ best-practices files you curate | ~ guidelines you write per repo (REVIEW.md fallback), nothing learned from comments | ? |
 | License | ✗ proprietary, free forever for public repos | ✗ closed core, small OSS tooling repos | ✗ source-available under a modified Sustainable Use License, no resale or commercial redistribution | ✗ proprietary, Cursor-owned | ✗ proprietary | ~ AGPL-3.0 core, ee/ paths commercial | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ README declares MIT, but no license file exists to back it | ~ PR-Agent MIT, Qodo Merge proprietary | ✓ MIT | ✗ reviewer proprietary, the MIT repo is the refactoring lineage |
 | Pricing anchor | Essentials (ex-Pro) $24, Team (ex-Pro Plus) $48 per user/mo annual, new Advanced $72 annual ($90 monthly) with variable-priced full scans, public repos free | tokens at cost plus a 10% fee, free for individuals on a Claude Code or Codex subscription, support packages from $5k/mo | free 30k LOC/mo with BYOK, Premium from $32/mo per 100k LOC in fixed doubling bands, unlimited users | Hobby free, Starter $20, Team $40 per user/mo | $30/seat plus credits, $1 per extra credit | Community free, Teams BYOK $10/dev/mo plus raw tokens, Enterprise custom with SOC 2, self-host free | free, your model subscriptions (about $3.50 of Claude usage per review per the author's table) | free, your model tokens | free, riding your Claude Code or Codex plan; hosted Qodex sibling paid per developer (price unpublished) | free; your Vercel Sandbox active-CPU bill and Anthropic usage | $0.012 per credit packs, Pro Team $30, no permanent free tier | free, your own agents' tokens | Pro $12, Team $24 per user/mo, open source repos free |
-| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | 1,470 stars, 53 releases in eight months (2026-10-11) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,461 stars, no verified funding (2026-10-11) | 23 stars, 24 tagged releases in three months (2026-10-16) | 46.9k stars, 140-plus releases in 5 months (stars 2026-10-13, v1.13.2 2026-10-20) | 653 stars, 4,533 weekly npm downloads (2026-10-13) | dormant since 2026-03-06, 1,696 stars, zero releases (2026-10-11) | 13,339 stars (2026-10-11), $50M raised | 1,749 stars, 120 releases in nine months (2026-10-11) | repo since 2019, 1,875 stars, no verified funding (2026-10-11) |
+| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | 1,470 stars, 53 releases in eight months (2026-10-11) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,461 stars, no verified funding (2026-10-11) | 23 stars, 24 tagged releases in three months (2026-10-16) | 46.9k stars, 140-plus releases in 5 months (stars 2026-10-13, v1.13.3 2026-10-22) | 653 stars, 1,918 weekly npm downloads (2026-10-22) | dormant since 2026-03-06, 1,696 stars, zero releases (2026-10-11) | 13,339 stars (2026-10-11), $50M raised | 1,749 stars, 120 releases in nine months (2026-10-11) | repo since 2019, 1,875 stars, no verified funding (2026-10-11) |
 
 ## Reading the matrix
 
@@ -102,6 +102,7 @@ Its pricing now leads with a free on-ramp for individuals who bring their own Cl
 - 2026-10-16 - Added the multi column (twelve to thirteen members, inserted in its case-insensitive sorted position after Kodus); all existing cells re-verified unchanged this run.
 - 2026-10-18 - Added Agent Skills Hub's third-party end-to-end eval (October 10: sixteen tools, none beating the bare-agent control, git-lrc unrunnable) to the quality-measurement story, and broadened the thesis's vendor-run wording to run-by-an-interested-party; no cell values changed.
 - 2026-10-20 - Corrected the OpenReview license cell and the license paragraph (its README declares MIT in one bare line with no license file behind it), widened the Kodus object row to Forgejo/Gitea per its docs and homepage FAQ, and recorded OpenCodeReview's v1.13.2 in its maturity cell.
+- 2026-10-22 - Recorded OpenCodeReview's v1.13.3 in its maturity cell and refreshed OpenQodex's weekly npm downloads to 1,918 (week of October 12 to 18); star figures untouched per the standing exemption; all other cells re-verified unchanged.
 
 ## See also
 

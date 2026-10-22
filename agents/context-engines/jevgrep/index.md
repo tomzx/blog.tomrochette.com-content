@@ -1,7 +1,7 @@
 ---
 title: Jevgrep
 created: 2026-10-07
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, cli, open-source]
 readability: 3
@@ -27,7 +27,7 @@ The MIT-licensed CLI ships from David Zhang (dzhng), the engineer behind deep-re
 ## Status
 
 **Not yet three weeks old and the fastest start in this category, with a thin discussion footprint so far.**
-2,726 stars, 210 forks, and 5 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-10-20, counts as of 2026-10-18 (GitHub API).
+2,726 stars as of 2026-10-18, 209 forks and 8 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-10-21, counts as of 2026-10-22 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dzhng/jevgrep&type=date&theme=dark&legend=top-left" />

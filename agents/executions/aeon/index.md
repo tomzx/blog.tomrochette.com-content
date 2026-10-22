@@ -1,7 +1,7 @@
 ---
 title: Aeon
 created: 2026-10-08
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, github-actions, scheduling, autonomous-agents]
 readability: 3
@@ -24,10 +24,10 @@ It is built by Aaron Elijah Mars (Aeon Inc), and deployment is a fork or templat
 ## Status
 
 **Active and single-maintainer.**
-773 stars as of 2026-10-13, 292 forks and 1,476 commits as of 2026-10-20, created 2026-03-04 and pushed 2026-10-19.
+773 stars as of 2026-10-13, 293 forks and 1,486 commits as of 2026-10-22, created 2026-03-04 and pushed 2026-10-22.
 The maintainer wrote about 83% of tracked contributor commits, and there is exactly one tagged release (v0.1.0, 2026-07-09), so development is trunk-based on main.
-A Hacker News search returned no coverage as of 2026-10-13, and the fork count is inflated as an adoption signal because every deployed instance is a fork by design.
-The project's proof-of-work page self-reports 141 vulnerability findings across 105 repositories (4.8M stars secured, counts as of 2026-09-28) with a link per fix, substantial evidence that is curated by the project itself.
+A Hacker News search returned no coverage as of 2026-10-22, and the fork count is inflated as an adoption signal because every deployed instance is a fork by design.
+The project's proof-of-work page self-reports 143 vulnerability findings across 107 repositories securing 4.8M stars (counts as of 2026-10-22) with a link per fix, substantial evidence that is curated by the project itself.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aeonfun/aeon&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for teams that need a governed execution layer (gh-aw is the answer there) o
 - 2026-10-08 - Created.
 - 2026-10-11 - Refreshed the repository counters (forks 279 to 280) and re-dated the as-of claims after the docs, security page, founder page, and coverage search all re-verified unchanged.
 - 2026-10-13 - Corrected the bundled-skill count from 85 to 86 against the current docs; the remaining doc claims and all counters re-verified unchanged.
+- 2026-10-22 - Fully re-verified in rotation with every cited URL re-fetched: the docs (nine harnesses, ten gateways, the 86-skill catalog), the repo page (MIT, template deployment, the token links still in the README and footer), the founder site, and the empty HN footprint all re-confirmed; the proof-of-work counters moved (141 findings across 105 repositories to 143 across 107) and the repository counters refreshed (293 forks, 1,486 commits, pushed 2026-10-22).
 
 ## See also
 
@@ -83,7 +84,7 @@ Not for teams that need a governed execution layer (gh-aw is the answer there) o
 
 - https://github.com/aeonfun/aeon - repository scale, template deployment model, MIT license, single release, founder line, as of 2026-10-08
 - https://www.aeon.fun/docs - architecture, the 86-skill catalog, five-minute scheduler, reactive triggers, chains, harnesses, and gateways
-- https://www.aeon.fun/security - the self-reported vulnerability-disclosure record (141 findings, 105 repositories, counts as of 2026-09-28)
+- https://www.aeon.fun/security - the self-reported vulnerability-disclosure record (143 findings, 107 repositories, counts re-fetched 2026-10-22)
 - https://aaronjmars.com - the founder's own description of Aeon, MiroShark, and Hyperstitions
-- https://hn.algolia.com/api/v1/search?query=aeonfun&tags=story - the coverage search that returned no hits on the project, as of 2026-10-13
-- https://api.github.com/repos/aeonfun/aeon - exact counters (created 2026-03-04, 773 stars as of 2026-10-13, 292 forks, pushed 2026-10-19) and the single v0.1.0 release (re-verified 2026-10-20)
+- https://hn.algolia.com/api/v1/search?query=aeonfun&tags=story - the coverage search that returned no hits on the project, as of 2026-10-22
+- https://api.github.com/repos/aeonfun/aeon - exact counters (created 2026-03-04, 773 stars as of 2026-10-13, 293 forks, pushed 2026-10-22) and the single v0.1.0 release (re-verified 2026-10-22)

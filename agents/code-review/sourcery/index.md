@@ -1,7 +1,7 @@
 ---
 title: Sourcery
 created: 2026-08-30
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -91,7 +91,7 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 
 ## References
 
-- https://github.com/sourcery-ai/sourcery - repo, 1,875 stars, MIT, pushed October 20, 2026 (GitHub API, as of 2026-10-11; push date re-checked 2026-10-20)
+- https://github.com/sourcery-ai/sourcery - repo, 1,875 stars, MIT, pushed October 20, 2026 (GitHub API, as of 2026-10-11; re-checked 2026-10-20 and 2026-10-22, the October 22 push touched no default-branch commit and PyPI still shows 1.46.0)
 - https://sourcery.ai/ - product page, re-fetched 2026-10-17
 - https://sourcery.ai/pricing/ - tiers as of 2026-10-11, re-fetched unchanged 2026-10-17
 - https://docs.sourcery.ai/reference/faq/ - docs FAQ covering plans, security scanning, BYO LLM, self-hosting (the former Product/Plans page redirects here), re-fetched 2026-10-17

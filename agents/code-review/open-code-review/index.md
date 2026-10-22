@@ -1,7 +1,7 @@
 ---
 title: OpenCodeReview
 created: 2026-08-30
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, ci, open-source]
 readability: 3
@@ -32,7 +32,7 @@ High-velocity young: 46,915 stars, 3,406 forks, 306 open issues and PRs as of 20
 </picture>
 
 That is up from 23,041 stars on 2026-09-13, 29,564 on 2026-09-16, 35,673 on 2026-09-18, 37,926 on 2026-09-20, 38,670 on 2026-09-21, 40,800 on 2026-09-24, 41,702 on 2026-09-27, 42,421 on 2026-09-29, 43,189 on 2026-10-02, 43,411 on 2026-10-03, 43,529 on 2026-10-04, 43,886 on 2026-10-06, 44,113 on 2026-10-07, 44,730 on 2026-10-09, 45,649 on 2026-10-10, 45,964 on 2026-10-11, and 46,915 on 2026-10-13, roughly doubling in the month after mid-September, still with no new HN catalyst on the launch thread, which sits at the same 284 points (re-checked 2026-10-13).
-At least 140 releases in five months (v1.13.2 on 2026-10-20 adds Nushell and PowerShell review support plus Shader Languages to the allowlist, after the v1.13.1 bug-fix patch on October 17), a 284-point Hacker News front-page thread in June.
+At least 140 releases in five months (v1.13.3 on 2026-10-22 fixes silently empty review-comment batches, honors MCP tools/list pagination, stops CI checkout-state pollution, and adds a NixPkgs provider directory, after v1.13.2's Nushell and PowerShell review support on October 20), a 284-point Hacker News front-page thread in June.
 v1.13.0 moved to a minor bump for two integrations: reviews on the ChatGPT plan through the public Responses API, and an ACP service so coding agents can drive OpenCodeReview over the agent protocol.
 An outside measurement has now landed: the Agent Skills Hub end-to-end eval (October 10, 2026) scored it 7 of 8 planted defects at 0.6 findings per PR in 7 minutes, among the quietest reviewers that ran, with both misses being test-only PRs it deliberately skipped, so the precision-first story held under independent testing.
 **Adoption outran polish visibly: GPT-5.x compatibility broke at launch and was fixed, and the lead has said parts of the codebase are not yet fully polished.**
@@ -84,6 +84,7 @@ Not for teams needing independently validated precision numbers today, or turnke
 - 2026-10-13 - Recorded v1.13.0 (October 13): ChatGPT-plan reviews through the public Responses API and a new ACP service, taking the ledger to 138 releases and 46,915 stars; launch thread unchanged at 284 points.
 - 2026-10-18 - Recorded the Agent Skills Hub end-to-end eval (October 10): 7 of 8 planted defects at 0.6 findings per PR, among the quietest tools tested, the two misses being test-only PRs it deliberately skipped; the precision-first trade held under independent testing.
 - 2026-10-20 - Recorded v1.13.2 (October 20): Nushell and PowerShell review support plus Shader Languages allowlist entries, taking the ledger past 140 releases.
+- 2026-10-22 - Recorded v1.13.3 (October 22): empty review-comment batches now reported instead of silently succeeding, MCP tools/list pagination honored, CI checkout-state pollution fixed, and a NixPkgs provider directory added.
 
 ## See also
 
@@ -99,6 +100,6 @@ Not for teams needing independently validated precision numbers today, or turnke
 - https://news.ycombinator.com/item?id=48406358 - the launch thread with the independent precision run and maintainer responses
 - https://huggingface.co/datasets/Alibaba-Aone/aacr-bench - the public benchmark backing the claims
 - https://registry.npmjs.org/@alibaba-group/open-code-review - distribution and release facts
-- https://api.github.com/repos/alibaba/open-code-review/releases?per_page=3 - the release ledger's top entries: v1.13.2 (October 20, 2026) with Nushell, PowerShell review support, and Shader Languages allowlist additions, v1.13.1 (October 17) the bug-fix patch, v1.13.0 (October 13), fetched 2026-10-20
+- https://api.github.com/repos/alibaba/open-code-review/releases?per_page=3 - the release ledger's top entries: v1.13.3 (October 22, 2026) with the empty-batch, MCP pagination, and CI checkout fixes plus a NixPkgs provider directory, v1.13.2 (October 20) with Nushell, PowerShell review support, and Shader Languages allowlist additions, v1.13.1 (October 17) the bug-fix patch, fetched 2026-10-22
 - https://codereview.withmartian.com - the independent benchmark used for the critical precision measurement
 - https://raw.githubusercontent.com/zhuyansen/agent-skills-hub/main/ops/review-runs/RESULTS.md - the Agent Skills Hub end-to-end eval (October 10, 2026): 7 of 8 planted defects, 0.6 findings per PR, 7 minutes, both misses test-only PRs it skipped, fetched 2026-10-18

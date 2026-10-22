@@ -1,7 +1,7 @@
 ---
 title: Graft
 created: 2026-09-12
-updated: 2026-10-18
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graphs, claude-code, open-source]
 readability: 3
@@ -18,7 +18,7 @@ Graft is an MIT-licensed CLI from Trail (the company formerly branding itself Na
 ## What it is
 
 **The graph is plain files your agent already reads, and the intelligence in them is opt-in.**
-`graft build` parses 23 languages with tree-sitter into a per-symbol wiring graph, and an optional `--deep` pass (any LLM provider under your own key) writes `graft/*.md` concept nodes with plain-English summaries, crux code excerpts, and typed wikilinks like `depends_on` and `produces`.
+`graft build` parses 24 languages with tree-sitter (Gleam joined in October 2026, with OCaml and Zig parsing symbols only) into a per-symbol wiring graph, and an optional `--deep` pass (any LLM provider under your own key) writes `graft/*.md` concept nodes with plain-English summaries, crux code excerpts, and typed wikilinks like `depends_on` and `produces`.
 The folder is a gitignored local cache like `node_modules`; what you commit is the wiring `graft init` drops into `.claude/`, `AGENTS.md`, and the MCP config, so teammates regenerate their own graphs.
 Every query re-syncs the structural graph against the working tree first (about 3 ms, free, no model), so answers cover uncommitted edits; the CLI, MCP server, and Claude Code hooks add blast-radius warnings on every edit.
 The npm scope and telemetry endpoint are NanoNets-branded, the product site attributes to Trail (trailhq.com), and Trail Brain, the hosted "company brain", is the upsell.
@@ -26,7 +26,7 @@ In October 2026 the product renamed to Trail-code: the repository moved from tra
 
 ## Status
 
-Young and very hot: created 2026-07-03, 10,084 stars and 906 forks by 2026-10-18, last push 2026-10-17, 259 open issues and pull requests, with the repository renamed trailhq/Graft to trailhq/Trail-Code and the npm package `@trailhq/trail-code` at v0.23.0 ("Formerly graft") beside the still-published `@nanonets/graft` v0.23.0, which drew 102,046 downloads in the trailing month (window 2026-09-17 to 2026-10-16), all as of 2026-10-18 (GitHub and npm APIs).
+Young and very hot: created 2026-07-03, 10,084 stars by 2026-10-18, with 939 forks, 247 open issues and pull requests, and a last push of 2026-10-22, the repository renamed trailhq/Graft to trailhq/Trail-Code, the npm package `@trailhq/trail-code` at v0.23.1 ("Formerly graft") beside the still-published `@nanonets/graft` v0.23.0, which drew 98,766 downloads in the trailing month (window 2026-09-19 to 2026-10-18), all per the GitHub and npm APIs as of 2026-10-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trailhq/Trail-Code&type=date&theme=dark&legend=top-left" />
@@ -52,12 +52,12 @@ No independent benchmark or third-party evaluation exists as of 2026-09-13.
 - The differentiating plain-English summaries are the part the creator calls experimental, writing on HN that they are "still testing whether the summaries are worth it at all".
 - The README's prose is LLM-written and commenters flagged the "empty calorie language" before the creator confirmed its origin, which tells you how much of the polish to discount.
 - The detailed benchmark tables behind the 4x headline cover only PocketBase (a 21% cost cut), so the "up to" is doing real work.
-- The Trail Brain upsell is aggressive ("a living skill file that learns from every task" is the hosted product, not this repo), 196 open issues is a lot for twelve weeks, and the rename trail (context-graph-engine to Graft, NanoNets to trailhq, Graft to Trail-Code) scatters canonical links.
+- The Trail Brain upsell is aggressive ("a living skill file that learns from every task" is the hosted product, not this repo), 247 open issues and pull requests is a lot for fifteen weeks, and the rename trail (context-graph-engine to Graft, NanoNets to trailhq, Graft to Trail-Code) scatters canonical links.
 
 ## Pricing
 
 Graft is free, MIT, no account; your only cost is the LLM usage the optional deep pass makes under your own key.
-The money is in Trail Brain (as of 2026-10-16, re-verified unchanged): Free ($0, 100 rules, 1 editor, 10K agent reads/month), Small ($20k/year), Medium ($60k/year), and Large ($150k/year with in-VPC and HIPAA BAA), priced on rules, editors, and monthly agent reads.
+The money is in Trail Brain (as of 2026-10-22, re-verified unchanged): Free ($0, 100 rules, 1 editor, 10K agent reads/month), Small ($20k/year), Medium ($60k/year), and Large ($150k/year with in-VPC and HIPAA BAA), priced on rules, editors, and monthly agent reads.
 
 ## Price history
 
@@ -92,6 +92,7 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 - 2026-10-02 - Recorded the npm package moving to v0.21.1 (published 2026-09-29) and refreshed the growth numbers (9,483 stars, 871 forks, 199 open issues and pull requests, pushed 2026-10-01, 88,838 trailing-month npm downloads); Trail Brain pricing unchanged.
 - 2026-10-07 - Added the trailhq/Graft star history chart to the Status section.
 - 2026-10-16 - Recorded the second rename, product and repository (trailhq/Graft to trailhq/Trail-Code, npm @trailhq/trail-code "Formerly graft", positioning widened to the self-learning context layer with team Learnings), refreshed the growth numbers (10,084 stars, 891 forks, 250 open issues and pull requests, pushed 2026-10-15, 114,056 trailing-month downloads on the old package), and re-verified Trail Brain pricing unchanged.
+- 2026-10-22 - Recorded the language count rising to 24 with Gleam support, the renamed npm package moving to v0.23.1, and refreshed the growth numbers (939 forks, 247 open issues and pull requests, 98,766 trailing-month downloads on the old package); Trail Brain pricing re-verified unchanged.
 
 ## See also
 
@@ -106,9 +107,9 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 - https://graft.nanonets.ai - product site, Trail attribution, and marketing claims
 - https://trailhq.com/trail-code - the product page carrying the rename and the Learnings framing, fetched 2026-10-16
 - https://raw.githubusercontent.com/trailhq/Trail-Code/main/TELEMETRY.md - the telemetry allowlist contract (the original NanoNets/context-graph-engine path still redirects)
-- https://registry.npmjs.org/@trailhq/trail-code/latest - the renamed package, v0.23.0, described as "Formerly graft"
+- https://registry.npmjs.org/@trailhq/trail-code/latest - the renamed package, v0.23.1, described as "Formerly graft"
 - https://registry.npmjs.org/@nanonets/graft/latest - the old package, still published at v0.23.0
-- https://api.npmjs.org/downloads/point/last-month/@nanonets/graft - 102,046 downloads, window 2026-09-17 to 2026-10-16, fetched 2026-10-18
+- https://api.npmjs.org/downloads/point/last-month/@nanonets/graft - 98,766 downloads, window 2026-09-19 to 2026-10-18, fetched 2026-10-22
 - https://hn.algolia.com/api/v1/items/49197687 - the 3-point Show HN and the creator's tree-sitter-only clarification
 - https://hn.algolia.com/api/v1/items/49299985 - the 39-point thread: staleness, README register critique, and the vendor-run Graphify comparison
 - https://trailhq.com/pricing - Trail Brain plans as of 2026-10-06

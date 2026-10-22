@@ -1,7 +1,7 @@
 ---
 title: AI Jason
 created: 2026-08-29
-updated: 2026-10-21
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, context-engineering, agents, practitioner]
 readability: 3
@@ -77,6 +77,7 @@ Not for someone who wants reference-grade depth, a durable archive, or a rigorou
 - 2026-09-27 - Latest upload moved to 2026-09-23 ("GPT 6 + Hyperframe = Crazy combo for expert-level videos").
 - 2026-10-04 - Window recheck found no newer upload, and the Status wording now says exactly what is verified: the 2026-09-23 video is the latest confirmable one (103-video third-party count through 2026-10-01), while YouTube's own surfaces (RSS 404, uploads-tab JavaScript shell) and X stayed unfetchable, so nothing after 2026-10-01 is confirmable from this run.
 - 2026-10-05 - The channel's RSS feed serves again after its 2026-10-04 outage (channel id UCrXSVX9a1mj8l0CMLwKgMVw resolved from the channel page) and confirms the 2026-09-23 video remains the newest upload; Status and References updated to match.
+- 2026-10-22 - Full re-verification, rotation: all cited URLs refetched and live; the RSS feed serves again (after its 2026-10-21 404) and still lists the 2026-09-23 video as newest, and the third-party stats still report 234K subscribers and 103 videos, so no upload or scale claim moved.
 
 ## See also
 

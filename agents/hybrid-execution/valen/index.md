@@ -1,7 +1,7 @@
 ---
 title: Valen
 created: 2026-10-13
-updated: 2026-10-17
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, decision-model, open-weights, multimodal]
 readability: 3
@@ -22,7 +22,8 @@ The README reports results on VisualDecisionBench and a game-evaluation set, wit
 
 ## Status
 
-Very young and actively shipping: 777 stars, 70 forks, and 1 open issue as of 2026-10-13, created 2026-09-23, pushed 2026-10-16, with the weights, datasets, demo, and export builds all public.
+Very young and actively shipping: 777 stars, 70 forks, and 1 open issue as of 2026-10-13, created 2026-09-23, pushed 2026-10-22, with the weights, datasets, demo, and export builds all public.
+On 2026-10-22 the repository added a validated vLLM serving plugin and deployment guides (a pinned candidate container for GPU validation, vLLM image startup commands in both READMEs), extending the serving story beyond the ONNX and GGUF exports.
 On 2026-10-16 the repository added a public Decision Index adapter and reproduction guides: `evaluation/decision_index` wraps the official Decision Index reproduction kit (pinned to revision f5a6e4f, frozen suite 0.3, verified before any model loads), making Valen the first Jev-family member to ship a first-party adapter to that protocol.
 **The footprint is the thinnest in its family: a single 2-point Hacker News post and no third-party coverage found, so every quality claim is currently the team's own.**
 The 0-open-issue count reflects age, not maturity.
@@ -70,6 +71,7 @@ Not for production routing without independent evaluation, or for anyone needing
 
 - 2026-10-13 - Created.
 - 2026-10-17 - Volatile re-verification after the 2026-10-16 push: recorded the public Decision Index adapter and reproduction guides (evaluation/decision_index, the official kit pinned at f5a6e4f, frozen suite 0.3), the first first-party adapter to that protocol in the Jev family; strengths updated.
+- 2026-10-22 - Volatile re-verification after the 2026-10-22 pushes: recorded the validated vLLM serving plugin and deployment guides (a pinned candidate container for GPU validation, vLLM image startup commands in both READMEs); pushed date moved to 2026-10-22.
 
 ## See also
 
@@ -81,7 +83,7 @@ Not for production routing without independent evaluation, or for anyone needing
 
 ## References
 
-- https://github.com/Liuziyu77/Valen - repository, Apache-2.0 license, stars, push activity, and the training-and-eval structure as of 2026-10-16
+- https://github.com/Liuziyu77/Valen - repository, Apache-2.0 license, stars, push activity, and the training-and-eval structure as of 2026-10-22 (the vLLM serving plugin and guides the newest additions)
 - https://github.com/Liuziyu77/Valen/blob/main/evaluation/decision_index/README.md - the Decision Index adapter guide: official kit pinned at f5a6e4f, frozen suite 0.3, suite verification before model load (fetched 2026-10-17)
 - https://huggingface.co/Valen-Team - the Hugging Face org holding the three model cards and datasets
 - https://huggingface.co/Valen-Team/Valen-4B - the flagship model card with usage and reported results

@@ -1,7 +1,7 @@
 ---
 title: Vanna
 created: 2026-10-11
-updated: 2026-10-13
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, text-to-sql, rag]
 readability: 3
@@ -21,15 +21,15 @@ The context mechanism is Tool Memory: every successful interaction is saved, and
 
 ## Status
 
-Archived upstream, alive commercially: the repository banner reads "This repository was archived by the owner on Mar 29, 2026. It is now read-only", and the API reports archived true with 23,823 stars, 2,539 forks, and 289 open issues as of 2026-10-13, last pushed 2026-02-02.
+Archived upstream, alive commercially: the repository banner reads "This repository was archived by the owner on Mar 29, 2026. It is now read-only", and the API reports archived true with 23,823 stars as of 2026-10-13, 2,545 forks and 289 open issues as of 2026-10-22, last pushed 2026-02-02.
 The last PyPI release is 2.0.2 on 2026-02-02 (2.0.0 shipped 2025-11-20; 78 releases total), and issues and discussions are frozen, so bug reports route through the docs and support channels.
-The company side is active: vanna.ai, the docs portal, and a three-tier pricing page all fetched unchanged this run, selling hosted admin features (access control, hosted vector memory, observability, audit logs) on top of the frozen core.
+The company side is active: vanna.ai, the docs portal, and a three-tier pricing page all fetched unchanged again on 2026-10-22, selling hosted admin features (access control, hosted vector memory, observability, audit logs) on top of the frozen core.
 The community footprint is dated but large: a 547-point launch thread on 2024-01-14 and 232 comments made it the reference text-to-SQL-RAG project, and nothing since.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vanna-ai/vanna&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=vanna-ai/vanna&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vanna-ai/vanna&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=vanna-ai/vanna&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vanna-ai/vanna&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -50,7 +50,7 @@ The community footprint is dated but large: a 547-point launch thread on 2024-01
 
 The archived MIT core is free and self-hosts without limits.
 Hosted admin features are sold per month with question quotas: Explorer $50 (20 questions per day, admin features on OSS or Cloud), Team $500 (300 questions per day, setup and live support), Enterprise custom (unlimited questions, on-prem deployment support, SAML SSO, admin API); annual billing takes 20% off.
-All as of 2026-10-11.
+All as of 2026-10-22, the three tiers re-verified unchanged against the live pricing page.
 
 ## Price history
 
@@ -74,6 +74,7 @@ The archive is the information: the framework that defined text-to-SQL RAG is no
 ## Changes
 
 - 2026-10-11 - Created from the retrieval scan's context-engines flag, admitted as the archived RAG ancestor of the data-semantics column; the scan's active-at-18k-stars premise corrected to archived-at-23.8k on the repository's own banner.
+- 2026-10-22 - Rotation re-verification: every cited URL re-fetched, the star-history picture block corrected (its light-theme source and fallback carried the dark theme), and the README reference re-described after Vanna slimmed its README to a marketing page that no longer mentions Tool Memory or the agent architecture (the docs still carry both); pricing tiers re-verified unchanged, forks and open issues refreshed.
 
 ## See also
 
@@ -86,7 +87,7 @@ The archive is the information: the framework that defined text-to-SQL RAG is no
 
 - https://github.com/vanna-ai/vanna - the archive banner, "archived by the owner on Mar 29, 2026", on the repository page
 - https://api.github.com/repos/vanna-ai/vanna - stars, forks, issues, archived flag, and last push as of 2026-10-11
-- https://raw.githubusercontent.com/vanna-ai/vanna/main/README.md - the Vanna 2.0 README: agent architecture, Tool Memory, enterprise features, MIT license
+- https://raw.githubusercontent.com/vanna-ai/vanna/main/README.md - the Vanna 2.0 README as re-fetched 2026-10-22: the slimmed marketing page (user-aware permissions, vanna-chat, enterprise security, MIT); Tool Memory and the agent architecture now live only in the docs
 - https://pypi.org/pypi/vanna/json - 78 releases with 2.0.2 on 2026-02-02 the last
 - https://vanna.ai/docs/ - the live docs: the Tool Memory mechanism and the 0.x migration path
 - https://vanna.ai - the commercial site: Cloud and self-host, hosted admin features

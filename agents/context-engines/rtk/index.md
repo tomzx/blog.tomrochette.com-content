@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-10-18
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 83,540 stars, 5,327 forks, and 1,564 open issues and pull requests combined as of 2026-10-18, created 2026-01-22, pushed 2026-10-17.
+Young and hot: 83,540 stars as of 2026-10-18, 5,360 forks and 1,592 open issues and pull requests combined as of 2026-10-22, created 2026-01-22, pushed 2026-10-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&theme=dark&legend=top-left" />

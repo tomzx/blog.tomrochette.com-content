@@ -1,7 +1,7 @@
 ---
 title: Dax Raad
 created: 2026-09-24
-updated: 2026-10-15
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, opencode, practitioner]
 readability: 3
@@ -18,7 +18,8 @@ Dax Raad (GitHub and X handle thdxr) is the builder behind SST and the open-sour
 
 A serial infrastructure builder's trail: SST (about 26.4k stars as of 2026-10-15), OpenAuth, OpenNext, and OpenCode, the MIT coding agent he launched with a Show HN in May 2025 and which now shows about 214k stars under Anomaly as of 2026-10-15.
 The section's OpenCode note documents the tool's measured token leanness and its 2026 CVE and Anthropic-OAuth history.
-His GitHub bio currently reads "building SST and @withbumi", pointing at Bumi, a healthcare software product.
+His GitHub bio read "building SST and @withbumi" at the note's last full check and reads "building opencode" as of 2026-10-22.
+The earlier bio pointed at Bumi, a healthcare software product that is still live at withbumi.com.
 There is no blog to subscribe to: his personal site thdxr.com has been dormant since October 2021 and its bio is stale.
 
 ## Status
@@ -66,6 +67,7 @@ Not for readers who need a citable feed or essays, and not as a source on Exo La
 - 2026-09-24 - Created, with the commissioned Exo Labs founder premise marked unverified against fetched sources.
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-10-02 - Updated the Top 5 OpenCode link to github.com/anomalyco/opencode after the repository's 301 redirect from sst/opencode.
+- 2026-10-22 - Full re-verification, rotation: all cited URLs refetched and live; the GitHub bio moved from "building SST and @withbumi" to "building opencode" (as of 2026-10-22), What-it-is updated to match.
 
 ## See also
 

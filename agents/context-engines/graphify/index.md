@@ -1,7 +1,7 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-10-17
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 
 ## Status
 
-Growing absurdly fast for its age: 126,981 stars as of 2026-10-16 and 2,324 commits in about six months since 2026-04-03, latest release v0.9.92 on 2026-10-16, with 317 contributors as of 2026-10-10.
+Growing absurdly fast for its age: 126,981 stars as of 2026-10-16 and 2,464 commits in about six months since 2026-04-03, latest release v0.9.93 on 2026-10-20, with 332 contributors as of 2026-10-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Graphify-Labs/graphify&type=date&theme=dark&legend=top-left" />
@@ -49,13 +49,13 @@ The ecosystem is growing too: a third-party C# port, graphify-csharp, launched S
 
 - The benchmarks are self-published, and on the headline QA-accuracy metric graphify trails supermemory while winning on cost and recall, per its own BENCHMARKS.md.
 - Only code is local: docs, PDFs, and images are sent to whatever LLM backend is configured.
-- Pre-1.0 with 1,519 open issues and PRs as of 2026-10-16, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
+- Pre-1.0 with 1,615 open issues and PRs as of 2026-10-22, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
 - The free CLI is the top of an open-core funnel into a hosted product whose plans only recently gained public prices, so expect the monetization strategy to keep moving.
 
 ## Pricing
 
 The core CLI is free, Apache-2.0, no account.
-The hosted side now publishes four plans (re-verified 2026-10-13): Free ($0, one developer, no card, with node, build, and review allowances), Pro ($10/month billed yearly or $15 billed monthly, one developer, uncapped graphs), Teams ($20 per seat/month billed yearly or $29 billed monthly, minimum 2 seats, rising to $28 yearly and $40 monthly after the first 100 teams), and Enterprise (early access, self-hosted, licensed per seat, with the price scoped on a call instead of published), plus free access for qualified MIT and Apache licensed OSS projects.
+The hosted side now publishes four plans (re-verified 2026-10-22): Free ($0, one developer, no card, with node, build, and review allowances), Pro ($10/month billed yearly or $15 billed monthly, one developer, uncapped graphs), Teams ($20 per seat/month billed yearly or $29 billed monthly, minimum 2 seats, rising to $28 yearly and $40 monthly after the first 100 teams), and Enterprise (early access, self-hosted, licensed per seat, with the price scoped on a call instead of published), plus free access for qualified MIT and Apache licensed OSS projects.
 
 ## Price history
 
@@ -102,6 +102,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - 2026-10-12 - Recorded release v0.9.86 (October 11) and refreshed the volatile numbers (125,646 stars); hosted plans re-verified unchanged against the live pricing page.
 - 2026-10-13 - Recorded releases v0.9.87 and v0.9.88 (both October 12) and refreshed the volatile numbers (125,962 stars, 2,324 commits, 1,493 open issues and PRs); hosted plans re-verified unchanged against the live pricing page.
 - 2026-10-17 - Recorded release v0.9.92 (2026-10-16, twenty-three community pull requests across call-resolution and skill fixes, with the AST cache schema bumped so the first build after upgrading re-extracts); hosted plans unchanged.
+- 2026-10-22 - Recorded release v0.9.93 (2026-10-20, twenty-two community pull requests of extraction fixes with a credential-redaction pass on rationale labels, the AST cache schema bumped so the first build after upgrading re-extracts) and refreshed the volatile numbers (2,464 commits, 332 contributors, 1,615 open issues and PRs); hosted plans re-verified unchanged against the live pricing page.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Atomic Agents
 created: 2026-10-07
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, python-framework]
 readability: 3
@@ -23,9 +23,10 @@ Example projects ship for RAG chatbots, web search, deep research, orchestration
 
 ## Status
 
-Active: created 2024-06-03, 6,283 stars as of 2026-10-15, three releases on 2026-10-19 (v2.12.1, v2.13.0, and v2.13.1), PyPI at 2.13.1, pushed 2026-10-20, as of 2026-10-20.
+Active: created 2024-06-03, 6,283 stars as of 2026-10-15, three releases on 2026-10-19 (v2.12.1, v2.13.0, and v2.13.1) followed by v2.14.0 on 2026-10-20 and v2.15.0 on 2026-10-21, PyPI at 2.15.0, pushed 2026-10-21, as of 2026-10-22.
 The 2.11.0 release added an optional OpenInference instrumentor (`atomic-agents[observability]`) that emits AGENT and TOOL spans for Arize Phoenix, and 2.12.0 hardened the MCP surface (tool pagination, schema-reference resolution, error-result propagation) alongside new Firecrawl Search and FXMacroData tools.
 The 2026-10-19 train then un-pinned the foundation: 2.12.1 capped `mcp` below 2.0 so fresh installs can import the connector, 2.13.0 replaced the exact Instructor pin with `instructor>=1.17.0,<2` while documenting Instructor 1.17's changed `max_retries` counting (a value of 3 now permits three retries after the first attempt, so older budgets shrink by one), and 2.13.1 made two agent-config fields type-checker-friendly under Pyright and Pylance.
+The 2026-10-20/21 train rebuilt the observability layer: v2.14.0 activates the framework through the standard `opentelemetry-instrument` launcher with both OpenTelemetry and Phoenix discovery entry points, and v2.15.0 moved tracing onto `opentelemetry-api` alone, emitting OpenTelemetry GenAI semantic-convention spans that any OTLP backend reads (a plain collector, Grafana Tempo, Sentry, Datadog, Honeycomb, PostHog, Jaeger, Arize Phoenix, Langfuse), so Phoenix and the OpenInference packages are no longer required, with one `chat {model}` CLIENT span per Instructor attempt carrying per-attempt and total token usage, the responding model, attempt count, and validation errors as events.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Eigenwise/atomic-agents&type=date&theme=dark&legend=top-left" />
@@ -71,6 +72,7 @@ Not for anyone who can stay on one provider's native strict mode, and not for gu
 - 2026-10-07 - Created.
 - 2026-10-17 - Volatile re-verification after the 2026-10-15 pushes: recorded the same-day v2.11.0 (Arize Phoenix / OpenInference tracing, an observability extra with a new docs guide and example) and v2.12.0 (MCP hardening plus Firecrawl Search and FXMacroData tools) releases, PyPI now at 2.12.0, repository pushed 2026-10-15.
 - 2026-10-20 - Volatile re-verification after the 2026-10-19/20 pushes: recorded the three same-day 2026-10-19 releases (v2.12.1 capping mcp below 2.0, v2.13.0 relaxing the Instructor pin to 1.17-plus with the max_retries counting change documented, v2.13.1's Pyright and Pylance fixes), PyPI now at 2.13.1, pushed 2026-10-20.
+- 2026-10-22 - Volatile re-verification after the v2.14.0 (2026-10-20) and v2.15.0 (2026-10-21) releases: recorded the rebuilt observability layer, `opentelemetry-instrument` launcher activation and OpenTelemetry GenAI semantic-convention spans on `opentelemetry-api` alone readable by any OTLP backend, with Phoenix and the OpenInference packages no longer required and per-attempt usage carried on one CLIENT span per Instructor call; PyPI now at 2.15.0, pushed 2026-10-21.
 
 ## See also
 
@@ -81,8 +83,8 @@ Not for anyone who can stay on one provider's native strict mode, and not for gu
 
 ## References
 
-- https://github.com/Eigenwise/atomic-agents - repository, MIT license, component model, and the Instructor-plus-Pydantic foundation (fetched 200, 2026-10-20)
-- https://api.github.com/repos/Eigenwise/atomic-agents - stars, created date, and push date for the as-of status (fetched 200, 2026-10-20)
+- https://github.com/Eigenwise/atomic-agents - repository, MIT license, component model, and the Instructor-plus-Pydantic foundation (fetched 2026-10-22)
+- https://api.github.com/repos/Eigenwise/atomic-agents - stars, created date, and push date for the as-of status (fetched 2026-10-22)
 - https://eigenwise.github.io/atomic-agents/ - the framework documentation: schema-bounded components, provider integrations, the Atomic Assembler CLI, and example projects (fetched 200, 2026-10-17)
-- https://pypi.org/pypi/atomic-agents/json - the published package version 2.13.1 (fetched 200, 2026-10-20)
-- https://api.github.com/repos/Eigenwise/atomic-agents/releases - the v2.12.1, v2.13.0, and v2.13.1 releases of 2026-10-19 and the release cadence (fetched 200, 2026-10-20)
+- https://pypi.org/pypi/atomic-agents/json - the published package version 2.15.0 (fetched 2026-10-22)
+- https://api.github.com/repos/Eigenwise/atomic-agents/releases - the v2.12.1 through v2.15.0 releases of 2026-10-19 to 10-21 and the release cadence (fetched 2026-10-22)

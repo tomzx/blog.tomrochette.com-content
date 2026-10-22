@@ -1,7 +1,7 @@
 ---
 title: Context7
 created: 2026-10-07
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, documentation, mcp, developer-tools]
 readability: 3
@@ -16,14 +16,14 @@ Context7 is Upstash's hosted service that pulls up-to-date, version-specific lib
 
 ## What it is
 
-A hosted documentation platform by Upstash, the Redis and QStash company, with the MCP server and CLI open source under MIT (63,119 stars, pushed 2026-10-16, as of 2026-10-16).
+A hosted documentation platform by Upstash, the Redis and QStash company, with the MCP server and CLI open source under MIT (63,119 stars as of 2026-10-16, pushed 2026-10-22).
 The pipeline crawls and version-parses library documentation, scores repository organizations for trust, and runs an LLM-based injection check over stored chunks before serving them.
 Two install modes: an MCP server your agent calls natively (the `@upstash/context7-mcp` npm package, v4.4.4, about 1,027,200 downloads in the week to 2026-10-09), or a `ctx7` CLI plus an agent skill that needs no MCP at all (the CLI released through 0.8.1 on 2026-10-19, following 0.8.0's removal of the deprecated `skills` and `generate` commands while `ctx7 setup` still installs the skills; 0.8.1 preserves comments in the agent configs it rewrites).
 A prompt trigger ("use context7") or the agent's own tool call fetches the docs; only the lookup query and library name leave your machine, not your code.
 
 ## Status
 
-Active and heavily adopted: created 2025-03-26, 63,119 stars, 1,212,373 npm downloads in the week of 2026-10-06 to 2026-10-12, as of 2026-10-16.
+Active and heavily adopted: created 2025-03-26, 63,119 stars as of 2026-10-16, npm reporting 2,640,895 downloads in the month to 2026-10-18, with several zero-day gaps in npm's counter making weekly figures unreliable, as of 2026-10-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=upstash/context7&type=date&theme=dark&legend=top-left" />
@@ -49,7 +49,7 @@ The only head-to-head benchmark is Upstash's own (May 2026): across five query c
 
 ## Pricing
 
-Free for individuals (public repositories, 1,000 API calls per month), Pro at $10 per seat per month (private repositories, 2,000 calls per seat included, then $5 per 1,000 calls, private-repo parsing at $5 per million tokens), and Enterprise at custom per-seat pricing (published range $2.50 to $30 per user per month by teamspaces size, with SOC 2, SSO, and self-hosted deployment), as of 2026-10-07.
+Free for individuals (public repositories, 1,000 API calls per month), Pro at $10 per seat per month (private repositories, 2,000 calls per seat included, then $5 per 1,000 calls, private-repo parsing at $5 per million tokens), and Enterprise at custom per-seat pricing (published range $2.50 to $30 per user per month by teamspaces size, with SOC 2, SSO, and self-hosted deployment), as of 2026-10-22, re-verified unchanged against the live plans page.
 
 ## Price history
 
@@ -74,6 +74,7 @@ Not for private-code context (that is what the repo-indexing members sell), and 
 - 2026-10-11 - Recorded the MCP server package moving to v4.3.0 with weekly npm downloads passing one million (1,027,217 for the week to 2026-10-09), and refreshed the growth numbers (62,890 stars, pushed 2026-10-10).
 - 2026-10-17 - Recorded the MCP server package at v4.4.2 (2026-10-15, server title and icons in the MCP handshake) and the `ctx7` CLI train through 0.8.0 (2026-10-16, deprecated `skills` and `generate` commands removed, `ctx7 setup` still installing the skills), correcting the stale v4.3.0 mention.
 - 2026-10-20 - Recorded the MCP server package at v4.4.4 (2026-10-19, MCP SDK 2.3.1, list cache hints, and HTTP shutdown draining) and the `ctx7` CLI at 0.8.1 (comment-preserving config rewrites, `--api-key` stripping in setup).
+- 2026-10-22 - Moved the adoption figure to the trailing-month window (2,640,895 npm downloads to 2026-10-18) after npm's counter began reporting zero days that break weekly comparisons; pricing tiers re-verified unchanged against the live plans page.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Rivet Agents
 created: 2026-10-13
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, durable-execution, scheduling, actor-model]
 readability: 3
@@ -17,14 +17,14 @@ Rivet Agents is the Apache-2.0 runtime from Rivet that runs a coding agent as on
 ## What it is
 
 You define the agent once in your backend with rivetkit, and every key you call it with gets its own Actor, conversations, and files.
-File tools work on the Actor's SQLite database with no sandbox; add one (E2B or Daytona through the sandbox adapter) and shell tools run there, with provider keys staying in your backend and never entering the sandbox.
+File tools work on the Actor's SQLite database with no sandbox; add one (E2B, Daytona, or Freestyle through the sandbox adapter) and shell tools run there, with provider keys staying in your backend and never entering the sandbox.
 The agent harness is Pi (Earendil's Pi Durable package, beta), with your own model, your own keys, or your users' own subscriptions.
 It is built by Rivet Gaming, Inc. (YC, a16z Speedrun), the company behind the rivet-dev/rivet control plane, and the repository is a monorepo renamed from sandbox-agent that carries Rivet Agents plus the Sandbox Agent HTTP control layer on one version line, v0.5.3 newest (2026-10-14).
 
 ## Status
 
 **Active, young, and moving fast.**
-1,604 stars as of 2026-10-13, 135 forks and 89 open issues and pull requests as of 2026-10-20 (GitHub API), created 2026-01-25 and pushed 2026-10-20 UTC.
+1,604 stars as of 2026-10-13, 134 forks and 85 open issues and pull requests as of 2026-10-22 (GitHub API), created 2026-01-25 and pushed 2026-10-21 UTC.
 The release train reached a stable v0.5.0 only on 2026-10-07 after release candidates that began in March, with v0.5.1 through v0.5.3 following within a week (v0.5.3 on 2026-10-14), and the company changelog shipped agentOS 0.4 with Hosted VMs on 2026-10-12.
 The community footprint sits under the prior names: the Sandbox Agent SDK Show HN drew 41 points in January 2026, the Gigacode OpenCode-UI experiment 27 points in February, and SQLite for Rivet Actors 45 points, but no dedicated launch thread exists for the Agents product itself as of 2026-10-13, and a product line that has already carried the Sandbox Agent SDK and agentOS names beside the Actors platform carries identity churn a reader should price in.
 
@@ -76,6 +76,7 @@ My disagreeable claim: for the durable-agent use case this is a better fit than 
 
 - 2026-10-13 - Created from the cross-category scan, resolved to the durable-execution slot beside Trigger.dev after the kind call (durable execution for agent runs, not a general workflow engine under the kestra precedent).
 - 2026-10-16 - Recorded the v0.5.3 release (2026-10-14); the pricing page re-verified unchanged and all other claims held.
+- 2026-10-22 - Fully re-verified in rotation with every cited URL re-fetched: the docs overview (actor-per-agent model, SQLite files, the sandbox adapter docs now listing Freestyle beside E2B and Daytona, prose updated to match), the schedules page (cron in onCreate, one-shot wakes, sandbox suspension while sleeping), the Pi Durable beta page (the limitations list holds, including the missing approval flow and the ten-minute wait cap), the pricing tiers (all unchanged), the agentOS 0.4 and Hosted VMs changelog line, the monorepo layout on one version line, and the no-dedicated-thread footprint record; v0.5.3 (2026-10-14) remains the newest release, and the repository counters refreshed (134 forks, 85 open issues and pull requests, pushed 2026-10-21 UTC).
 
 ## See also
 
@@ -87,11 +88,11 @@ My disagreeable claim: for the durable-agent use case this is a better fit than 
 ## References
 
 - https://github.com/rivet-dev/agents - repository, 1,604 stars, Apache-2.0, monorepo layout, one version line, as of 2026-10-13
-- https://api.github.com/repos/rivet-dev/agents - exact counters (1,604 stars pinned at their 2026-10-13 fetch, 135 forks, 89 open issues and pull requests, pushed 2026-10-20 UTC, created 2026-01-25)
-- https://rivet.dev/agents/docs - the actor-per-agent model, SQLite files, sandbox adapters, harness and model choice, and the company backing
-- https://rivet.dev/agents/docs/schedules/ - cron and one-shot scheduling that continues one conversation
-- https://rivet.dev/agents/docs/pi/ - Pi Durable beta status and the documented limitations list (critical source)
-- https://rivet.dev/pricing/ - plan tiers, usage meters, and the sleeping-Actor billing rule, as of 2026-10-13
-- https://rivet.dev - the company pitch, the agentOS 0.4 changelog line (2026-10-12), and the self-measured performance figures (critical source)
-- https://hn.algolia.com/api/v1/search?query=rivet%20agents&tags=story - the footprint record: coverage under the Sandbox Agent SDK, Gigacode, and SQLite-for-Actors names, none for Agents itself, as of 2026-10-13
+- https://api.github.com/repos/rivet-dev/agents - exact counters (1,604 stars pinned at their 2026-10-13 fetch, 134 forks, 85 open issues and pull requests, pushed 2026-10-21 UTC, created 2026-01-25; re-verified 2026-10-22)
+- https://rivet.dev/agents/docs - the actor-per-agent model, SQLite files, sandbox adapters, harness and model choice, and the company backing (re-fetched 2026-10-22)
+- https://rivet.dev/agents/docs/schedules/ - cron and one-shot scheduling that continues one conversation (re-fetched 2026-10-22)
+- https://rivet.dev/agents/docs/pi/ - Pi Durable beta status and the documented limitations list (critical source, re-fetched 2026-10-22)
+- https://rivet.dev/pricing/ - plan tiers, usage meters, and the sleeping-Actor billing rule, as of 2026-10-13 (re-verified unchanged 2026-10-22)
+- https://rivet.dev - the company pitch, the agentOS 0.4 changelog line (2026-10-12), and the self-measured performance figures (critical source, re-fetched 2026-10-22)
+- https://hn.algolia.com/api/v1/search?query=rivet%20agents&tags=story - the footprint record: coverage under the Sandbox Agent SDK, Gigacode, and SQLite-for-Actors names, none for Agents itself, as of 2026-10-22
 - https://news.ycombinator.com/item?id=46795584 - the January 2026 Sandbox Agent SDK Show HN (41 points), the predecessor's launch under the old name

@@ -1,7 +1,7 @@
 ---
 title: code-review-graph
 created: 2026-10-11
-updated: 2026-10-18
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graph, mcp, static-analysis]
 readability: 3
@@ -23,15 +23,15 @@ A composite GitHub Action posts risk-scored PR comments updated in place, with a
 
 ## Status
 
-Active and unusually fast-growing: 32,179 stars, 3,023 forks, and 174 open issues as of 2026-10-18, created 2026-02-26, pushed 2026-10-16, so five figures of stars arrived in under eight months.
+Active and unusually fast-growing: 32,179 stars as of 2026-10-18, 2,953 forks and 184 open issues as of 2026-10-22, created 2026-02-26, pushed 2026-10-16, so five figures of stars arrived in under eight months.
 PyPI carries 2.3.9 (uploaded 2026-09-18) across 37 releases on a roughly monthly cadence, and the repo runs a documented staging to testing to main promotion flow.
 The community footprint is lopsided: a Hacker News search returns three story hits, the largest a 12-point launch thread with two comments (one an install failure), so the star count arrived without front-page discussion, the Trendshift-badge pattern this section has seen before.
 Every number below is the author's own; no independent benchmark exists.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tirth8205/code-review-graph&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tirth8205/code-review-graph&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tirth8205/code-review-graph&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tirth8205/code-review-graph&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tirth8205/code-review-graph&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -67,6 +67,7 @@ Pricing does not apply.
 ## Changes
 
 - 2026-10-11 - Created from the code-review scan's flag, shelved in context-engines over code-review because the graph serves context and judges nothing, with the whole-corpus-baseline and solo-maintainer cautions recorded as the critical angle.
+- 2026-10-22 - Rotation re-verification: every cited URL re-fetched, the star-history picture block corrected (its light-theme source and fallback carried the dark theme), forks and open issues refreshed; no claim changed.
 
 ## See also
 

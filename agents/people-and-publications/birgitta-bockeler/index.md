@@ -1,7 +1,7 @@
 ---
 title: Birgitta Böckeler
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, consulting, agentic-engineering, tdd, harness-engineering, spec-driven-development]
 readability: 3
@@ -17,15 +17,15 @@ Birgitta Böckeler is a Distinguished Engineer for AI-assisted delivery at Thoug
 ## What it is
 
 A memo series, a set of long-form articles, and a constant talk circuit, backed by more than 20 years as a developer, architect, and technical leader.
-The memo series has run on martinfowler.com since the first memo, "The toolchain" (2023-07-26), and holds 32 memos as of 2026-10-04, most authored by her and the rest by Thoughtworks colleagues under the same franchise.
-Her 2026 solo pieces are the substantive layer: "Context Engineering for Coding Agents" (2026-02-05), "Harness engineering for coding agent users" (2026-04-02), "Maintainability sensors for coding agents" (2026-05-07), the local-models pair (2026-07-07 and 2026-07-08), and "TDD inside the agent loop - theater or actual value?" (2026-08-10).
+The memo series has run on martinfowler.com since the first memo, "The toolchain" (2023-07-26), and holds 33 memos as of 2026-10-22, most authored by her and the rest by Thoughtworks colleagues under the same franchise.
+Her 2026 solo pieces are the substantive layer: "Context Engineering for Coding Agents" (2026-02-05), "Harness engineering for coding agent users" (2026-04-02), "Maintainability sensors for coding agents" (2026-05-27), the local-models pair (2026-07-07 and 2026-07-08), and "TDD inside the agent loop - theater or actual value?" (2026-08-10).
 She iterates a "State of Play: AI Coding" talk at QCon London, AI DevCon London, and other stages, and reached practitioners through a June 2025 guest post on The Pragmatic Engineer and interviews including Software Engineering Radio 730 (July 2026).
 Her own site, birgitta.info, indexes all of it by topic.
 
 ## Status
 
-Active and current as of 2026-10-04.
-Her newest piece is the TDD evaluation (2026-08-10), and the series continued with colleagues' memos after it, the latest being "An Accidental Blackboard" (2026-09-02) on an all-agentic team accidentally building a blackboard coordination system inside git.
+Active and current as of 2026-10-22.
+Her newest piece is the TDD evaluation (2026-08-10), and the series continued with colleagues' memos after it, the latest being "Are Harnesses Worth the Cost?" (Naresh Jain, 2026-10-13) on whether a behavioral harness improves cost-optimized coding models.
 The TDD evaluation is her most consequential claim: across five batches of paired TDD and non-TDD runs judged blind by Opus 4.8, TDD showed no discernible quality benefit and cost roughly 3 to 8.5 times the tokens, and she states she has stopped telling her coding agents to write tests first.
 Community reception is uneven: her spec-driven-development comparison drew a 128-point Hacker News thread with 32 comments (October 2025), while the TDD evaluation drew a 4-point thread (August 2026), and her conference talks, not her links, carry most of her reach.
 
@@ -70,6 +70,7 @@ Not for release tracking, model news, or anyone who needs large-sample benchmark
 ## Changes
 
 - 2026-10-04 - Created, filling the enterprise non-AI-company practitioner slot the matrix named as its empty scaffold.
+- 2026-10-22 - Full re-verification, rotation: all cited URLs refetched and live; the series count moved to 33 with the colleague memo "Are Harnesses Worth the Cost?" (Naresh Jain, 2026-10-13), and the sensors article's date corrected from 2026-05-07 to 2026-05-27 per the article's own revision log.
 
 ## See also
 

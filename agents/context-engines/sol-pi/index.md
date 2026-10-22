@@ -1,7 +1,7 @@
 ---
 title: SoL-Pi
 created: 2026-10-13
-updated: 2026-10-18
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, context-compression, harness-efficiency]
 readability: 3
@@ -22,7 +22,7 @@ The project page reports the efficiency results from the paper's auto-research b
 
 ## Status
 
-Young and active: 3,479 stars, 283 forks, and 81 open issues as of 2026-10-18, created 2026-09-02 and pushed 2026-10-18, MIT licensed, with work continuing toward a Pi v1 baseline.
+Young and active: 3,479 stars as of 2026-10-18, 291 forks and 83 open issues as of 2026-10-22, created 2026-09-02 and pushed 2026-10-22, MIT licensed, with work continuing toward a Pi v1 baseline.
 On 2026-10-14 the repository gained an official SoL-Pi skill packaging a Claude Code and Codex hand-off, with a News section of visual examples; it hands the ideas to other agents' sessions rather than porting the mechanisms off Pi.
 **The attention record is thin for the star count: three small Hacker News posts between September and October 2026 (3, 2, and 2 points), so the stars ride the NV Labs name and the awesome-list circuit rather than debate.**
 It extends unmodified Pi rather than forking it, which distinguishes it from the rejected third-Pi-derivative family in the harnesses category.

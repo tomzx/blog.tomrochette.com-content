@@ -1,7 +1,7 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
@@ -29,6 +29,12 @@ The February 2026 Hacker News launch thread drew 302 points and 141 comments.
 The trust story has kept moving: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, a critical security advisory published August 27 forced the pre-emptive retirement of releases 0.83.3 through 0.85.3 (patched in 0.85.4), a notice that still sits in the README while the billing one was cleared, and a high-severity advisory published September 23 added an HTTPS egress allowlist bypass via TLS SNI domain fronting, affecting releases through 0.89.17 and patched in 0.89.17.
 Four more critical advisories landed on 2026-10-14: the worst (CVSS 9.2) lets sandboxed agent code steal the workflow job token through the credential sidecar and exfiltrate it past the egress filter, and three more cover MCP flag injection, an ungated `mcp-inspect` command path, and argv injection into spawned `gh aw` subcommands, all patched in the v0.91.12 to v0.91.13 window with no README notice for this batch as of 2026-10-16.
 The release line keeps churning (latest v0.92.2 on 2026-10-16 as a prerelease, and the stable line moved for the first time since 2026-09-23, to v0.91.12 on October 14 and v0.92.0 on October 15, the releases carrying the advisory patches), which shows how quickly this preview will break its users.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/gh-aw&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=github/gh-aw&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=github/gh-aw&type=date&legend=top-left" />
+</picture>
 
 ## Strengths
 
@@ -87,6 +93,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - 2026-10-13 - Refreshed the release train to v0.91.11 (2026-10-13, a prerelease, the fourth in the three days since October 11) with v0.89.21 still the newest stable-marked release, re-confirmed the security-advisory notice still live in the README and no new advisory, and refreshed growth (about 5.4k stars, 585 forks, roughly 18,700 commits).
 - 2026-10-16 - Recorded the four critical advisories published October 14 (the sandbox job-token exfiltration through the credential sidecar, CVSS 9.2, patched in v0.91.12, plus three MCP-surface flaws) and refreshed the release train to v0.92.2 with the stable line moved to v0.91.12 and v0.92.0, the first stable-marked releases since September 23; the full note was re-verified out of rotation with every cited URL re-fetched and the six-engine, eight-import, cost-cap, and README-notice claims confirmed against the live docs.
 - 2026-10-20 - Repointed the two GitHub docs references to their current paths after a docs reorganization (the old paths now redirect); each new target re-fetched and its claim re-confirmed (AIC billing, the rationale and approvals layer).
+- 2026-10-22 - Added the github/gh-aw star history chart to the Status section; the note's subject repository was the only one in the category still missing it.
 
 ## See also
 

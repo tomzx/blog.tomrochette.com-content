@@ -1,7 +1,7 @@
 ---
 title: WrenAI
 created: 2026-10-10
-updated: 2026-10-18
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, semantic-layer, text-to-sql, genbi]
 readability: 3
@@ -23,14 +23,14 @@ Everything Wren writes is plain YAML and Markdown in a repo you own, and Git Syn
 
 ## Status
 
-Established and active: 17,877 stars, 2,160 forks, and 273 open issues as of 2026-10-18, created 2024-03-13, pushed 2026-10-16, with the wren-v0.16.0 release on 2026-10-16 and PyPI (wrenai) tracking the same 0.16.0.
-The docs page claims SOC 2 Type II certification and 15k+ GitHub stars (conservative against the live count), though it says 17+ data sources where the README says 22+ (both figures re-checked unchanged 2026-10-11).
+Established and active: 17,877 stars as of 2026-10-18, 2,064 forks and 261 open issues as of 2026-10-22, created 2024-03-13, pushed 2026-10-22, with the wren-v0.16.0 release on 2026-10-16 and PyPI (wrenai) tracking the same 0.16.0.
+The docs page claims SOC 2 Type II certification and now quotes 17.8k GitHub stars against the live count; its old 17-plus data-source figure is gone (the README stays at 22-plus), closing the discrepancy flagged on 2026-10-11.
 The community footprint is lopsided: a Hacker News search returns over a thousand matches but every thread is small (the largest found carries 6 points), so nearly five figures of stars have produced no front-page discussion.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Canner/WrenAI&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Canner/WrenAI&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Canner/WrenAI&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Canner/WrenAI&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Canner/WrenAI&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -45,7 +45,7 @@ The community footprint is lopsided: a Hacker News search returns over a thousan
 - Every accuracy claim is vendor-run: the README's comparison table and correctness story are marketing artifacts, and no independent benchmark of the governed-SQL quality exists in the fetched material.
 - The credit model prices questions, not seats: cloud tiers meter usage in credits, so a rollout that succeeds gets more expensive, and Enterprise features (MCP integration, row- and column-level control, audit) sit behind the $559 monthly tier.
 - The category fit is a scope call: it is an engine over business semantics and produces SQL plus dashboards, not code context, so it sits at the edge of what this section covers.
-- Deep BI-market competition (traditional BI tools and bare semantic layers) is the vendor's own framing, and the 17-plus versus 22-plus data-source discrepancy between docs and README needs watching.
+- Deep BI-market competition (traditional BI tools and bare semantic layers) is the vendor's own framing, and the accuracy table that frames it is unchanged marketing.
 
 ## Pricing
 
@@ -53,7 +53,7 @@ Free open-source core (Apache-2.0, self-hostable) and a free cloud tier with 20 
 Essential Cloud is $179 per month billed annually (13,200 annual credits, extra credits at $0.10, rollover up to 2x).
 Enterprise Cloud is $559 per month billed annually (24,000 annual credits) adding MCP integration, row- and column-level data control, and audit.
 A fourth tier, Enterprise Plus, is quoted by sales: self-hosted in your own cloud, on-prem, or air-gapped, licensed by concurrent sessions rather than credits, annual contract only, adding SSO and SCIM 2.0, the evaluation framework, and thread tracing.
-All as of 2026-10-13, the credit tiers re-verified unchanged against the live pricing page.
+All as of 2026-10-22, the credit tiers re-verified unchanged against the live pricing page.
 
 ## Price history
 
@@ -80,6 +80,7 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 - 2026-10-11 - Re-checked the flagged docs-versus-README data-source discrepancy (docs 17+, README 22+, both unchanged) and refreshed the volatile numbers (17,841 stars); the credit tiers re-verified unchanged against the live pricing page.
 - 2026-10-11 - Added Vanna to See also, the archived text-to-SQL RAG ancestor admitted to the category the same day.
 - 2026-10-12 - Added the Enterprise Plus tier (self-hosted, concurrent-session licensed, quoted by sales) to the pricing section; the three credit tiers re-verified unchanged against the live pricing page, and the volatile numbers refreshed (17,848 stars).
+- 2026-10-22 - Rotation re-verification: every cited URL re-fetched, the star-history picture block corrected (its light-theme source and fallback carried the dark theme), and the docs-versus-README data-source discrepancy closed (the docs page now quotes 17.8k GitHub stars and no longer carries a source count); pricing tiers re-verified unchanged, forks and open issues refreshed.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: BAML
 created: 2026-10-11
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, dsl, validation, agents]
 readability: 3
@@ -25,8 +25,8 @@ Boundary, a Seattle company, also runs Agent Tries BAML, thousands of simulated 
 ## Status
 
 **Large, very active, and mid-pivot: the structured-output library that launched in 2023 is now a language, and the docs churn of that pivot is visible.**
-9,408 stars (recorded 2026-10-15), 499 forks, and 400 open issues, created 2023-10-06, pushed 2026-10-20, as of 2026-10-20 (GitHub API).
-The `baml-language` release train moved to 0.22.2 (2026-10-13) with 0.22.3 nightlies after the 0.21.0 release of 2026-10-08, and the nightlies continue through the 20261018 build (published 2026-10-19), still without a stable 0.22.3, the project remaining pre-1.0 by its own statement.
+9,408 stars (recorded 2026-10-15), 497 forks and 411 open issues as of 2026-10-22, created 2023-10-06, pushed 2026-10-22, as of 2026-10-22 (GitHub API).
+The `baml-language` release train moved to 0.22.2 (2026-10-13) with 0.22.3 nightlies after the 0.21.0 release of 2026-10-08, and the nightlies continue through the 20261020 build (published 2026-10-21), still without a stable 0.22.3, the project remaining pre-1.0 by its own statement.
 The npm runtime moved 1,019,496 downloads in the month ending 2026-10-18, the category's largest distribution after the vendor APIs themselves.
 The community footprint is thinner than the numbers suggest: the 2024 Show HN drew 18 points, a July 2026 thread on the language repositioning drew 8, and the former clients documentation path (docs.boundaryml.com/clients) returns 404 as of 2026-10-11, a casualty of the pivot.
 The default branch moved from `main` to `canary` in the same window, which broke raw-README links pinned to `main` until re-pointed.
@@ -84,7 +84,7 @@ My disagreeable claim: BAML is the strongest bet in this category that the struc
 
 ## References
 
-- https://github.com/BoundaryML/baml - repository facts: 9,408 stars as of 2026-10-15, 499 forks, Apache-2.0, Rust, created 2023-10-06, pushed 2026-10-20, default branch now `canary` (GitHub API, as of 2026-10-20)
+- https://github.com/BoundaryML/baml - repository facts: 9,408 stars as of 2026-10-15, 497 forks, Apache-2.0, Rust, created 2023-10-06, pushed 2026-10-22, default branch `canary` (GitHub API, as of 2026-10-22)
 - https://raw.githubusercontent.com/BoundaryML/baml/canary/README.md - the positioning, runtime types, toolchain list, and install commands (the README moved to the `canary` default branch; re-fetched there 2026-10-18 after the `main` URL went 404)
 - https://boundaryml.com/explore.md - the language tour: runtime types, typed errors, green threads, LLM calls as functions, the error-correcting parser, testsets and quorums, the supply-chain statement, and the Agent Tries BAML arena
 - https://boundaryml.com/quickstart - the toolchain walkthrough: brew install, baml init, agent skill install for Claude Code and Codex, LSP and playground
