@@ -1,7 +1,7 @@
 ---
 title: Agent User Interaction Protocol (AG-UI)
 created: 2026-09-16
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, frontend, event-streaming]
 readability: 3
@@ -25,7 +25,7 @@ Scaffolding an app is one command (`npx create-ag-ui-app`), and the project ship
 ## Status
 
 Very active and already the de facto standard at its layer.
-The repository shows about 16,500 stars, a push on 2026-10-20, and dated releases landing near-daily (latest `release/2026-10-19`, as of 2026-10-20).
+The repository shows about 16,500 stars, a push on 2026-10-22, and dated releases landing near-daily (latest `release/2026-10-21`, as of 2026-10-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ag-ui-protocol/ag-ui&type=date&theme=dark&legend=top-left" />
@@ -83,6 +83,7 @@ My disagreeable claim: AG-UI is the most adopted protocol in this index that nob
 - 2026-10-11 - Download figures refreshed (core 10,393,979, client 6,521,620 in the month ending 2026-10-09); release/2026-10-10 remains the latest release and the SDKs remain at 1.0.2.
 - 2026-10-17 - The SDK packages moved to 1.0.3 (2026-10-16) and the release train moved to release/2026-10-17; download figures re-fetched unchanged (core 10,511,365, client 6,449,945 in the month ending 2026-10-12, the npm window not yet rolled).
 - 2026-10-20 - The release train moved to release/2026-10-19 (2026-10-19) and download figures refreshed (core 9,966,720, client 5,888,024 in the month ending 2026-10-18); the SDKs remain at 1.0.3, with only a 1.0.4 canary on the registry.
+- 2026-10-22 - The release train moved to release/2026-10-21 (2026-10-21); download figures re-fetched unchanged (the npm window still ends 2026-10-18) and the SDKs remain at 1.0.3.
 
 ## See also
 
@@ -98,7 +99,7 @@ My disagreeable claim: AG-UI is the most adopted protocol in this index that nob
 - https://docs.ag-ui.com - official docs: TypeScript, Python, and .NET SDKs plus the community Kotlin, Go, Dart, Java, Rust, Ruby, and C++ libraries, concepts (state, interrupts, subagents, generative UI), the published 1.0 specification, production support offer
 - https://docs.ag-ui.com/spec/1.0 - the 1.0 specification page
 - https://docs.ag-ui.com/agentic-protocols - the MCP, A2A, and AG-UI complementarity page
-- https://github.com/ag-ui-protocol/ag-ui/releases - dated release series, latest `release/2026-10-19` published 2026-10-19 (GitHub API)
+- https://github.com/ag-ui-protocol/ag-ui/releases - dated release series, latest `release/2026-10-21` published 2026-10-21 (GitHub API)
 - https://api.npmjs.org/downloads/point/last-month/@ag-ui/core - 9,966,720 downloads 2026-09-19 to 2026-10-18 (fetched 2026-10-20)
 - https://api.npmjs.org/downloads/point/last-month/@ag-ui/client - 5,888,024 downloads 2026-09-19 to 2026-10-18 (fetched 2026-10-20)
 - https://registry.npmjs.org/@ag-ui/client - latest version 1.0.3, published 2026-10-16

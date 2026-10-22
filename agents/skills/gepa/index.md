@@ -1,7 +1,7 @@
 ---
 title: GEPA
 created: 2026-10-13
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, prompt-optimization, meta-learning]
 readability: 3
@@ -23,8 +23,8 @@ Distribution is PyPI (`pip install gepa`, v0.1.4, release-tagged July 2026) with
 
 ## Status
 
-Active with an established research record: 6,973 stars and 576 forks as of 2026-10-13, 135 open issues as of 2026-10-20, created 2025-08-05, pushed 2026-10-20, PyPI at 0.1.4.
-The launch reached a 92-point Hacker News thread in July 2025, and Databricks' adoption of GEPA for agent prompt optimization is documented by the vendor's own engineering blog.
+Active with an established research record: 6,973 stars and 576 forks as of 2026-10-13, 137 open issues as of 2026-10-22, created 2025-08-05, pushed 2026-10-21, PyPI at 0.1.4.
+The launch reached a 92-point Hacker News thread in July 2025, the paper was accepted to ICLR 2026 as an oral (v2 revised 2026-02-14), and the adoption trail is documented beyond Databricks' own engineering blog: the docs site's roster names Shopify, Google, Microsoft, OpenAI, Dropbox, Pydantic, and Comet ML, and GEPA ships built into DSPy.
 **The contested part is the evidence: a "Contra DSPy and GEPA" thread and the DSPy community's methodological argument over GEPA's comparison baselines are the standing critical sources, so the headline claims deserve a re-run on your own metric before adoption.**
 
 <picture>
@@ -46,7 +46,7 @@ The launch reached a 92-point Hacker News thread in July 2025, and Databricks' a
 - The comparison-methodology dispute (the Contra thread) is unresolved; GEPA's reported wins over reinforcement learning and DSPy depend on baseline choices its critics dispute.
 - Optimizer runs are expensive in evaluator calls: the budget is your model bill, and a bad metric silently optimizes toward the wrong thing.
 - Version 0.1.x means the API moves; pin or expect churn.
-- 142 open issues against one org's maintenance bandwidth, and the release cadence (one tag since July 2026) lags the default branch.
+- 137 open issues against one org's maintenance bandwidth, and the release cadence (one tag since July 2026) lags the default branch.
 - It edits text artifacts directly, so run it against versioned files or it will optimize in place.
 
 ## Pricing
@@ -70,6 +70,7 @@ Not for anyone without an evaluator (GEPA amplifies whatever the metric measures
 - 2026-10-13 - Created.
 - 2026-10-13 - Fixed the star-history chart markup from the creation run: the light source and the img fallback had carried the dark theme parameter.
 - 2026-10-13 - Refreshed the volatile numbers (6,973 stars, 576 forks).
+- 2026-10-22 - Rotation re-verification: recorded the paper's ICLR 2026 oral acceptance (v2, 2026-02-14) and the docs site's vendor adoption roster (Shopify, Google, Microsoft, OpenAI, Dropbox, Pydantic, Comet ML, plus the built-into-DSPy integration), and refreshed the volatile numbers (137 open issues, pushed 2026-10-21, PyPI still 0.1.4).
 
 ## See also
 
@@ -81,8 +82,8 @@ Not for anyone without an evaluator (GEPA amplifies whatever the metric measures
 
 ## References
 
-- https://github.com/gepa-ai/gepa - repository, MIT license, stars, push activity, and the any-text-parameter scope as of 2026-10-13
-- https://arxiv.org/abs/2507.19457 - the GEPA paper grounding the reflective-prompt-evolution and Pareto-selection claims
+- https://github.com/gepa-ai/gepa - repository, MIT license, stars, push activity, and the any-text-parameter scope as of 2026-10-22
+- https://arxiv.org/abs/2507.19457 - the GEPA paper grounding the reflective-prompt-evolution and Pareto-selection claims, accepted to ICLR 2026 as an oral (v2 revised 2026-02-14)
 - https://gepa-ai.github.io/gepa/ - the documented API, examples, and the auto-learned coding-agent skills claim
 - https://pypi.org/project/gepa/ - the PyPI distribution, version 0.1.4 (2026-07-15), MIT
 - https://news.ycombinator.com/item?id=44744331 - the 92-point July 2025 launch thread

@@ -1,7 +1,7 @@
 ---
 title: Windsurf
 created: 2026-08-23
-updated: 2026-10-12
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, cognition, devin]
 readability: 3
@@ -48,7 +48,7 @@ On September 2, 2026, Bloomberg reported that Cognition is closing a round of ab
 
 **The classic Windsurf consumer plans are gone with the rebrand; Devin Desktop authenticates with a Devin account and meters usage as credits.**
 Enterprise relationships carry over through Cognition sales.
-The Devin pricing page, which 429ed automated fetches on 2026-09-16 and 404ed on 2026-09-18, now serves and exposes the Devin ladder: Free $0/month, Pro $20/month, Max $200/month, Team $80/month plus $40/month per full dev seat, and Enterprise by sales contact, as of 2026-10-06 (re-fetched, same ladder); the route 404ed to the markdown fetcher again on 2026-10-10 and 2026-10-11, then served 200 with the ladder unchanged on 2026-10-12, so the ladder stands re-observed 2026-10-12.
+The Devin pricing page, which 429ed automated fetches on 2026-09-16 and 404ed on 2026-09-18, now serves and exposes the Devin ladder: Free $0/month, Pro $20/month, Max $200/month, Team $80/month plus $40/month per full dev seat, and Enterprise by sales contact, as of 2026-10-06 (re-fetched, same ladder); the route 404ed to the markdown fetcher again on 2026-10-10 and 2026-10-11, then served 200 with the ladder unchanged on 2026-10-12, and 404ed again on 2026-10-22, so the ladder stands dated 2026-10-12.
 
 ## Price history
 
@@ -81,6 +81,7 @@ Not for new adoption: picking a brand mid-retirement means betting on one compan
 - 2026-10-02 - Recorded SWE-2 as Cognition's latest model (free in Devin Desktop and CLI through October 16, 2026) per the Devin pricing page; tier prices unchanged.
 - 2026-10-10 - Re-probed the devin.ai pricing route and recorded the 404 again (the page's serving stays intermittent); the 2026-10-06 ladder stands dated.
 - 2026-10-12 - Re-fetched the Devin pricing page (200, after the October 10 to 11 404s) with the tier ladder unchanged; the ladder stands re-observed 2026-10-12.
+- 2026-10-22 - Rotation re-verification, all cited URLs re-fetched live: both Cognition posts, the Devin Desktop docs, the redirect chain (windsurf.com still landing on devin.ai/desktop, which 404ed to this fetcher the way its pricing route has before, and docs.windsurf.com still funneling into docs.devin.ai), the funding report, and all three threads stand; the devin.ai/pricing route 404ed again, so the 2026-10-12 ladder stands dated.
 
 ## See also
 

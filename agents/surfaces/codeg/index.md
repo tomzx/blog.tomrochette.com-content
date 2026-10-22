@@ -1,7 +1,7 @@
 ---
 title: Codeg
 created: 2026-10-11
-updated: 2026-10-19
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, agentic-development-environments, open-source]
 readability: 3
@@ -32,7 +32,7 @@ The repository was created 2026-02-09 and shows 3,980 stars and 517 forks as of 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=spacering-net/codeg&type=date&legend=top-left" />
 </picture>
 
-The train has quickened through October: v0.33.0 (October 2), v0.34.0 (October 7), v0.35.0 (October 10), v0.35.1 (October 11), and v0.35.2 (October 15, PDF files opening in a file tab, the repository panel turning issues and pull requests into to-dos on its own, taskbar and Dock attention flashes, token-cost estimation at API list prices, and bundled-agent version bumps), then v0.36.0 (October 16, Kiro CLI and ZCode as built-in agents, Assistants as ready-made delegation setups with their own agent and standing instructions that you @-mention, PlantUML blocks drawn as diagrams, and the side panel's tabs moved to a reorderable vertical rail), v0.37.0 (October 18, TRAE CLI and Command Code as built-in agents, Remote Control continuing a Claude Code session on your phone, Claude Code suggesting your next prompt, and the side panel gaining Automations, To-dos, and Issues-and-Pull-requests tabs), then v0.38.0 (October 18, codeg-cli, a command that runs agents through codeg from a terminal, a script, or a CI job and prints the reply as text or JSON while each run stays a conversation you can open and carry on in codeg) as the latest.
+The train has quickened through October: v0.33.0 (October 2), v0.34.0 (October 7), v0.35.0 (October 10), v0.35.1 (October 11), and v0.35.2 (October 15, PDF files opening in a file tab, the repository panel turning issues and pull requests into to-dos on its own, taskbar and Dock attention flashes, token-cost estimation at API list prices, and bundled-agent version bumps), then v0.36.0 (October 16, Kiro CLI and ZCode as built-in agents, Assistants as ready-made delegation setups with their own agent and standing instructions that you @-mention, PlantUML blocks drawn as diagrams, and the side panel's tabs moved to a reorderable vertical rail), v0.37.0 (October 18, TRAE CLI and Command Code as built-in agents, Remote Control continuing a Claude Code session on your phone, Claude Code suggesting your next prompt, and the side panel gaining Automations, To-dos, and Issues-and-Pull-requests tabs), then v0.38.0 (October 18, codeg-cli, a command that runs agents through codeg from a terminal, a script, or a CI job and prints the reply as text or JSON while each run stays a conversation you can open and carry on in codeg), then v0.39.0 (October 21, agent-written commit messages, a Run on this computer switch that runs a command on your own machine even from a remote folder, codeg-server sign-in through a proxy such as Cloudflare Access, a Recent sidebar, and Windows and Linux AppImage update fixes) as the latest.
 An Algolia search of Hacker News returned no story about this project as of 2026-10-11, only substring matches on "codegen", so the footprint is GitHub-side.
 
 ## Strengths
@@ -71,6 +71,7 @@ Not for anyone who needs an independently reviewed tool, a 1.0 release, or an ed
 - 2026-10-16 - Recorded v0.35.2 (October 15, in-tab PDFs, issues-and-PRs to-dos from the repository panel, attention flashes, and token-cost estimation) as the new latest release; counts refreshed.
 - 2026-10-18 - Recorded v0.36.0 (October 16, Kiro CLI and ZCode built in, @-mentionable Assistants, PlantUML diagrams, the vertical side-panel rail) and v0.37.0 (October 18, TRAE CLI and Command Code built in, phone-side continuation of Claude Code sessions through Remote Control, next-prompt suggestions, and the Automations, To-dos, and Issues-and-PRs tabs) as the new latest releases, and corrected the built-in agent count to nineteen per the README, where the note carried fifteen.
 - 2026-10-19 - Recorded v0.38.0 (October 18, codeg-cli running agents through codeg from a terminal, script, or CI job with text or JSON replies, each run staying a conversation openable in codeg) as the new latest release.
+- 2026-10-22 - Recorded v0.39.0 (October 21, agent-written commit messages, the run-on-this-computer switch for remote-folder commands, codeg-server proxy sign-in behind Cloudflare Access, the Recent sidebar, and the Windows and AppImage update fixes) as the new latest release.
 
 ## See also
 
@@ -85,6 +86,7 @@ Not for anyone who needs an independently reviewed tool, a 1.0 release, or an ed
 - https://api.github.com/repos/spacering-net/codeg - creation date 2026-02-09, language Rust, push date 2026-10-16, stars and forks as of 2026-10-16
 - https://docs.codeg.app - the feature set: conversation aggregation, multi-agent delegation, project boot, chat channels over Telegram, Lark, and iLink, office documents, research skills, cron automations, and the open-source iOS and Android clients
 - https://github.com/spacering-net/codeg/releases - v0.35.2 (2026-10-15) as the latest release, after v0.35.1 (October 11), v0.35.0 (October 10), and v0.34.0 (October 7)
-- https://api.github.com/repos/spacering-net/codeg/releases - v0.38.0 (2026-10-18, codeg-cli) and v0.37.0 (2026-10-18) with their release notes, above v0.36.0 (2026-10-16, Kiro CLI and ZCode, Assistants, the side-panel tabs), fetched 2026-10-19
+- https://api.github.com/repos/spacering-net/codeg/releases - v0.39.0 (2026-10-21) and v0.38.0 (2026-10-18, codeg-cli) with their release notes, above v0.37.0 (2026-10-18) and v0.36.0 (2026-10-16, Kiro CLI and ZCode, Assistants, the side-panel tabs), re-fetched 2026-10-22
+- https://api.github.com/repos/spacering-net/codeg/releases/tags/v0.39.0 - the October 21 release notes: agent-written commit messages, the Run on this computer switch, codeg-server proxy sign-in behind Cloudflare Access, the Recent sidebar, and the Windows and AppImage update fixes, fetched 2026-10-22
 - https://raw.githubusercontent.com/spacering-net/codeg/main/README.md - nineteen agents built in with any ACP agent welcome, the sessions-that-travel pitch, and the platform list, fetched 2026-10-18
 - https://hn.algolia.com/api/v1/search?query=codeg&tags=story - the search that found no story about this project (only codegen substring noise), the missing-footprint evidence, fetched 2026-10-11

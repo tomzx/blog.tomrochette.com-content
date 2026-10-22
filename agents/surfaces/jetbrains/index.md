@@ -1,7 +1,7 @@
 ---
 title: JetBrains IDEs
 created: 2026-08-23
-updated: 2026-10-12
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, jetbrains]
 readability: 3
@@ -49,7 +49,7 @@ The AI layer was unbundled into a separate, removable plugin in March 2024 after
 AI Pro is $8.33 per user/month (annual) and AI Ultimate is $25 per user/month, metered in AI credits, re-observed on 2026-09-27 (the junie.jetbrains.com page again exposed both numbers to static fetch, as it also did on 2026-09-22 after briefly hiding them on 2026-09-20).
 The redesigned page hid both numbers from 2026-10-04 while pitching free-to-start Junie CLI and Junie Local, and the pricing route the AI pages linked (jetbrains.com/ai-ides/buy/) rendered only through JavaScript; as of 2026-10-09 the redesigned page exposes both figures again, unchanged, with the credit metering now stated per 30 days (AI Pro 10 AI Credits, AI Ultimate 35 AI Credits, both with anytime top-ups).
 **Junie BYOK bypasses metering at provider rates** (the page states provider-rate pricing with zero markup and support for locally running models), and the tier starts free: the page now describes that start as Junie Lite, a free model always on in every JetBrains account, where the 2026-09-27 reading recorded it as 5 credits with no card.
-A static fetch on 2026-10-12 rendered both figures again, unchanged ($8.33 and $25.00 per user/month, 10 and 35 AI Credits per 30 days, Junie Lite as the free start), so the ladder stands re-observed 2026-10-12.
+A static fetch on 2026-10-12 rendered both figures again, unchanged ($8.33 and $25.00 per user/month, 10 and 35 AI Credits per 30 days, Junie Lite as the free start), and one on 2026-10-22 did the same, so the ladder stands re-observed 2026-10-22.
 
 ## Price history
 
@@ -78,6 +78,7 @@ Not for anyone who needs an open editor or a large community ecosystem.
 - 2026-10-07 - Added the vendor's 2025 statutory results to Status: the Czech entity's revenue up 6.3% to a record CZK 16,008 million against a net loss of CZK 315 million, published October 6, 2026.
 - 2026-10-09 - Recorded the redesigned junie.jetbrains.com page exposing both figures again, unchanged ($8.33 and $25.00 per user/month), now with per-30-day credit allotments stated (AI Pro 10 AI Credits, AI Ultimate 35 AI Credits) and the free start described as Junie Lite rather than the earlier 5-credit allotment.
 - 2026-10-12 - Re-observed both plan figures on junie.jetbrains.com with a static fetch (the page rendered them again after the 2026-10-11 client-shell reading); prices unchanged.
+- 2026-10-22 - Rotation re-verification, all cited URLs re-fetched live: the $8.33 and $25.00 ladder with 10 and 35 AI Credits and Junie Lite stands re-observed on junie.jetbrains.com, the AI family entry page now presents itself as JetBrains Air, and the Air announcement, the 2025 statutory-results coverage, and all three threads stand; prices unchanged.
 
 ## See also
 

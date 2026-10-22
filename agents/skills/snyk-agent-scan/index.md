@@ -1,7 +1,7 @@
 ---
 title: Snyk Agent Scan
 created: 2026-10-20
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, security, supply-chain]
 readability: 3
@@ -24,7 +24,7 @@ Snyk also ships it as the experimental `snyk agent-scan` command inside the main
 
 ## Status
 
-Active and vendor-backed: 3,154 stars and 292 forks as of 2026-10-20, 778 commits on a repository created 2025-04-07, latest release v0.6.8 (2026-09-29) with the default branch pushed the day of this verification.
+Active and vendor-backed: 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-22), 778 commits on a repository created 2025-04-07, latest release v0.6.9 (2026-10-20) with the default branch pushed 2026-10-21.
 Skills scanning arrived with v0.4, published together with a technical report on the agent skill ecosystem: of 3,984 skills analyzed from the clawhub.ai hub, 13.4% carried at least one critical-level issue and 36.8% at least one other-severity issue, while 9% of the top legitimate skills.sh skills showed exploitable patterns such as insecure credential handling or third-party content processing.
 Snyk Labs runs a companion Skill Inspector web experiment for scanning a single skill.
 
@@ -46,7 +46,7 @@ The third-party footprint is thin against the vendor name: my searches found thr
 ## Cautions
 
 - **Analysis is hybrid cloud: skill contents, tool names, and descriptions leave your machine for Snyk's API, so the tool that guards your supply chain also asks you to trust Snyk with your skill inventory.**
-- Scanning MCP configurations starts stdio servers and contacts remote MCP URLs, so their own README says to run untrusted scans inside a sandbox; the scanner executes the things it audits.
+- Scanning MCP configurations still executes what it audits, but the README now gates part of it: since at least the 2026-10-22 README, foreground interactive scans ask explicit consent (y/n) before contacting each discovered MCP server and background or push-key scans start no stdio servers without `--dangerously-run-mcp-servers`, yet those fleet scans still inspect remote MCP URLs automatically, and the README still says to run untrusted scans inside a sandbox.
 - The CLI output contract is experimental and explicitly may change without notice, and the entire 0.5.x line is planned for deprecation, so scripts built on it churn.
 - Their own report shows the detector tiers behave differently: critical-level detectors hit 0% false positives on the top 100 legitimate skills.sh skills, but high- and medium-level detectors fire on up to 9% of those same legitimate skills.
 - The community footprint is one vendor's voice: no independent benchmark of its detection quality was found as of 2026-10-20.
@@ -78,6 +78,8 @@ My disagreeable claim: the audit direction is the more valuable half of this mar
 ## Changes
 
 - 2026-10-20 - Created from the skills entrant scan (the mapped awesome-list source), with the hybrid-cloud analysis and the execute-what-you-scan warning recorded as the critical angles.
+- 2026-10-22 - v0.6.9 (published 2026-10-20) added VS Code extension MCP-server discovery (servers registered by installed extensions) alongside dependency upgrades; the Status release line moved to it.
+- 2026-10-22 - The MCP-execution caution corrected against the current README: foreground interactive scans now ask consent before contacting each discovered server and background scans start no stdio servers without --dangerously-run-mcp-servers, while fleet scans still auto-inspect remote MCP URLs and the sandbox advice stands.
 
 ## See also
 
@@ -89,10 +91,10 @@ My disagreeable claim: the audit direction is the more valuable half of this mar
 
 ## References
 
-- https://github.com/snyk/agent-scan - repository, Apache-2.0, 3,154 stars and 292 forks as of 2026-10-20, created 2025-04-07, pushed 2026-10-20 (GitHub API)
-- https://raw.githubusercontent.com/snyk/agent-scan/main/README.md - discovery matrix (14 agents, four scopes), the two modes, the MCP-execution warning, and the API-sharing disclosure (fetched 2026-10-20)
-- https://pypi.org/pypi/snyk-agent-scan/json - snyk-agent-scan 0.6.8, Python 3.10+, Apache-2.0 (fetched 2026-10-20)
-- https://api.github.com/repos/snyk/agent-scan/releases/latest - v0.6.8 published 2026-09-29, the newest release as of 2026-10-20
+- https://github.com/snyk/agent-scan - repository, Apache-2.0, 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-22), created 2025-04-07, pushed 2026-10-21 (GitHub API)
+- https://raw.githubusercontent.com/snyk/agent-scan/main/README.md - discovery matrix (14 agents, four scopes including the extension/plugin scope VS Code gained in v0.6.9), the two modes, the MCP consent flow and sandbox warning, and the API-sharing disclosure (fetched 2026-10-22)
+- https://pypi.org/pypi/snyk-agent-scan/json - snyk-agent-scan 0.6.9, Python 3.10+, Apache-2.0 (fetched 2026-10-22)
+- https://api.github.com/repos/snyk/agent-scan/releases/latest - v0.6.9 published 2026-10-20 (VS Code extension MCP discovery, dependency upgrades), the newest release as of 2026-10-22
 - https://raw.githubusercontent.com/snyk/agent-scan/main/.github/reports/skills-report.pdf - the skills-ecosystem threat report: 3,984 clawhub.ai skills, 13.4% with a critical issue, 36.8% with another-severity issues, the false-positive profile, and the clawhub/skills.sh comparison (fetched 2026-10-20)
 - https://labs.snyk.io/experiments/skill-scan/ - the Snyk Labs Skill Inspector companion experiment (fetched 2026-10-20)
 - https://docs.snyk.io/agent-security - the agent-security documentation home (fetched 2026-10-20)

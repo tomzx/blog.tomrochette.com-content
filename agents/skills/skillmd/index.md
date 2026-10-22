@@ -1,7 +1,7 @@
 ---
 title: SkillMD
 created: 2026-10-05
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, registries, skill-verification]
 readability: 3
@@ -16,8 +16,8 @@ SkillMD is an open skills registry at skillmd.com that indexes public SKILL.md f
 
 ## What it is
 
-The registry (skillmd.com) crawls and accepts SKILL.md files and reports 1,132,718 skills as of 2026-10-20, its 1,948 reviewed count unchanged (the homepage hero stat now labels that figure "verified publishers").
-The toolchain (github.com/skillmds/skillmd, MIT) is what runs on your machine: a `skillmd` CLI (npm `skillmds`, v1.3.3, 1,969 downloads in the month to 2026-10-16), an MCP server (`npx -y skillmds`), a Claude Code plugin marketplace, and a GitHub Action, plus a JSON search API and OAuth-protected endpoints aimed at agents.
+The registry (skillmd.com) crawls and accepts SKILL.md files and reports 1,132,721 skills as of 2026-10-22, its 1,948 reviewed count unchanged (the hero stat labeled the figure "verified publishers" on 2026-10-20 and reads "safety-reviewed" again as of 2026-10-22).
+The toolchain (github.com/skillmds/skillmd, MIT) is what runs on your machine: a `skillmd` CLI (npm `skillmds`, v1.3.3, 2,017 downloads in the month to 2026-10-18, the API's current window), an MCP server (`npx -y skillmds`), a Claude Code plugin marketplace, and a GitHub Action, plus a JSON search API and OAuth-protected endpoints aimed at agents.
 Skills land in each detected agent's own directory (`.claude/skills/`, `.cursor/skills/`, `.agents/skills/`), and every listed skill is pinned to a commit.
 The maintainer also publishes the ecosystem's most self-critical data: their directory-landscape post estimates 83.4 percent of indexed skills declare no license and roughly 47 percent of public SKILL.md files are byte-identical copies of another file.
 
@@ -32,7 +32,7 @@ The toolchain repo was created 2026-08-25 and shows 200 stars as of 2026-10-13 w
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=skillmds/skillmd&type=date&legend=top-left" />
 </picture>
 
-The site's own claimed index grew from 860,000 skills (its September 19 directory post) to 1,132,712 as of 2026-10-16, and that post itself warns that directory counts are claims, not measurements, skills.sh included.
+The site's own claimed index grew from 860,000 skills (its September 19 directory post) to 1,132,721 as of 2026-10-22, and that post itself warns that directory counts are claims, not measurements, skills.sh included.
 No Hacker News thread surfaced under its name in my searches as of 2026-10-05; the largest near-match is the 48-point "Skill.md: An open standard" story about the format, not this registry.
 The business model is unstated; installing needs no account and the site quotes no price.
 
@@ -45,7 +45,7 @@ The business model is unstated; installing needs no account and the site quotes 
 
 ## Cautions
 
-- **The safety-review claim does not survive contact with its own numbers: the homepage says every skill passes a safety review before it becomes publicly visible, while the same page reports 1,948 reviewed out of 1,132,714 listed, so treat the verdicts as a curated subset, not a property of the catalog.**
+- **The safety-review claim does not survive contact with its own numbers: the homepage says every skill passes a safety review before it becomes publicly visible, while the same page reports 1,948 reviewed out of 1,132,721 listed, so treat the verdicts as a curated subset, not a property of the catalog.**
 - The toolchain repo's 200 stars and the near-zero HN footprint mean no independent security eyes on the verification pipeline itself.
 - **A verdict computed from the files alone cannot see runtime-fetched payloads: PromptArmor's backdoored-skill research (fetched 2026-10-07, re-verified live 2026-10-11) demonstrated skills that passed Anthropic's own scanner by retrieving malicious payloads at runtime, a class-level caution for the whole scanner-verdict layer this registry's badge is built on.**
 - Its blog states Agent Skills is stewarded through the Agentic AI Foundation, but the AAIF's own project list carries AGENTS.md, MCP, goose, and agentgateway, not Agent Skills, so treat the blog's ecosystem claims as unverified.
@@ -77,6 +77,7 @@ My disagreeable claim: SkillMD's 1,948 reviewed skills matter more than either r
 - 2026-10-10 - The toolchain repo moved from 1 to 58 stars in three days (pushed 2026-10-09), still orders of magnitude below any peer, while the index inched to 1,132,705 skills from 30,613 authors with the 1,948 reviewed count unchanged.
 - 2026-10-11 - The toolchain repo climbed again to 89 stars, still orders of magnitude below any peer, while the index inched to 1,132,706 skills from 30,612 authors with the 1,948 reviewed count unchanged and the PromptArmor research re-verified live.
 - 2026-10-13 - The toolchain repo doubled again to 200 stars in two days, still orders of magnitude below any peer, while the index inched to 1,132,712 skills from 30,616 authors with the 1,948 reviewed count unchanged.
+- 2026-10-22 - The index inched to 1,132,721 skills from 30,620 authors with the 1,948 reviewed count unchanged; the hero label reads "safety-reviewed" again after the 2026-10-20 "verified publishers" reading, and the npm CLI re-verified at 1.3.3 with 2,017 downloads in the month to 2026-10-18.
 
 ## See also
 
@@ -87,11 +88,11 @@ My disagreeable claim: SkillMD's 1,948 reviewed skills matter more than either r
 
 ## References
 
-- https://skillmd.com/ - the registry surface: 1,132,718 skills, 1,948 verified publishers (the reviewed count), API and MCP endpoints (fetched 2026-10-20)
-- https://github.com/skillmds/skillmd - the toolchain repo: MIT, 200 stars as of 2026-10-13, 8 open issues, created 2026-08-25, pushed 2026-10-20 (GitHub API, as of 2026-10-20)
+- https://skillmd.com/ - the registry surface: 1,132,721 skills, 1,948 safety-reviewed (the reviewed count), API and MCP endpoints (fetched 2026-10-22)
+- https://github.com/skillmds/skillmd - the toolchain repo: MIT, 200 stars as of 2026-10-13, 8 open issues, created 2026-08-25, pushed 2026-10-20 (GitHub API, as of 2026-10-22)
 - https://raw.githubusercontent.com/skillmds/skillmd/main/README.md - CLI, MCP server, plugin marketplace, GitHub Action, per-agent install directories
 - https://skillmd.com/blog/agent-skills-directories-compared - the self-critical directory landscape post: 47 percent byte-identical duplication, 83.4 percent license gaps, counts-as-claims disclaimer (September 19, 2026, fetched 2026-10-05)
-- https://registry.npmjs.org/skillmds - CLI package: latest 1.3.3, 33 versions, created 2026-06-29 (fetched 2026-10-18)
-- https://api.npmjs.org/downloads/point/last-month/skillmds - 2,017 downloads, window 2026-09-19 to 2026-10-18 (fetched 2026-10-20)
+- https://registry.npmjs.org/skillmds - CLI package: latest 1.3.3, 33 versions, created 2026-06-29 (fetched 2026-10-22)
+- https://api.npmjs.org/downloads/point/last-month/skillmds - 2,017 downloads, window 2026-09-19 to 2026-10-18 (fetched 2026-10-22)
 - https://hn.algolia.com/api/v1/search?query=skillmd&tags=story - the footprint scan behind the missing-footprint statement (fetched 2026-10-05)
 - https://www.promptarmor.com/resources/anthropics-skill-scanner-defeated-by-backdoored-skills - the backdoored-skill bypass behind the scanner-verdict caution: skills that passed Anthropic's scanner by fetching payloads at runtime, and exfiltrated files in production (fetched 2026-10-07, re-verified live 2026-10-11)

@@ -49,6 +49,8 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-22 | hybrid-execution | the Decision Index 0.4 Full score is fully private (60 percent same-skills, 40 percent new-domains, the public index shown but uncounted), so member rows cite the 0.4.1 reading | board regenerated 2026-10-22 with 226 configurations, GLiDE V1.2 first at 71.52, Jev 1.14 forty-first
 - 2026-10-22 | hybrid-execution | TypeChat's npm-publication reopen trigger counts a revival-era publication only, not the pre-revival npm line | the npm typechat package (latest 0.1.4, 2026-08-21) predates the 2026-10-13 revival push, asked in queue
 - 2026-10-22 | cross-category | npm weekly download figures carry zero-day gaps, so adoption claims prefer the trailing-month window | context7's npm week to 2026-10-18 reported 482,795 with three zero days inside the window while the trailing month read 2,640,895
+- 2026-10-22 | cross-category | notch supervision surfaces, passive notification and approval-forwarding UIs over orchestration members, reject as tails under the mission-control dashboards-and-tails family | perch (asafofer/perch, 22 stars, zero coverage) held on it
+- 2026-10-22 | cross-category | guides, cookbooks, prompt references, and pattern collections are content, not tools, and stay unprofiled regardless of scale | the unmatched broad-source tail (claude-howto 42.5k, claude-code-system-prompts 13k, loop-engineering 11.6k, infrastructure-showcase 10k) reads out on it
 
 ## Standing family rejections
 

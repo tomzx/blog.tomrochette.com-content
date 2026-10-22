@@ -1,7 +1,7 @@
 ---
 title: CodeNomad
 created: 2026-10-11
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, opencode, desktop, session-cockpit, open-source]
 readability: 3
@@ -25,8 +25,8 @@ The CodeNomad Server (`npx @neuralnomads/codenomad`) serves the same workspace f
 
 **Active on a daily train, young, and without independent coverage.**
 2,625 stars, 176 forks, and 15 open issues and pull requests, created 2025-11-01, pushed 2026-10-16, as of 2026-10-16 (GitHub API).
-Stable v0.20.1 (2026-10-03) after v0.20.0 (2026-09-25), with a daily `v0.20.1-dev` release train running through 2026-10-20.
-The server package drew 1,267 npm downloads in the month ending 2026-10-10.
+Stable v0.20.1 (2026-10-03) after v0.20.0 (2026-09-25), with the daily dev train re-tagged `v1.0.0-dev` from October 20 and running through 2026-10-22, a 1.0 line in progress on top of an unchanged stable.
+The server package drew 1,112 npm downloads in the month ending 2026-10-18.
 A Hacker News search returns no story about the project (2026-10-11), only substring matches, so the footprint is GitHub-side.
 
 <picture>
@@ -69,6 +69,7 @@ My disagreeable claim: two serious cockpits around one harness is the correct ma
 ## Changes
 
 - 2026-10-11 - Created after the owner-star entrant scan flagged the repository, with the one-harness commitment and the stable-versus-dev train gap recorded as the central cautions.
+- 2026-10-22 - Recorded the dev train's re-tag to v1.0.0-dev (first tagged October 20, running through 2026-10-22, stable still v0.20.1) and refreshed the server package's downloads to 1,112 for the month ending 2026-10-18.
 
 ## See also
 
@@ -82,6 +83,6 @@ My disagreeable claim: two serious cockpits around one harness is the correct ma
 - https://github.com/NeuralNomadsAI/CodeNomad - repository facts: 2,625 stars, 176 forks, MIT, created 2025-11-01, pushed 2026-10-16 (GitHub API, as of 2026-10-16)
 - https://raw.githubusercontent.com/NeuralNomadsAI/CodeNomad/main/README.md - the feature set, OpenCode V2 version contract, SideCars, remote control, and install paths (fetched 2026-10-11)
 - https://raw.githubusercontent.com/NeuralNomadsAI/CodeNomad/main/packages/server/README.md - the server mode: remote access, authentication, prerequisites, deployment model
-- https://api.github.com/repos/NeuralNomadsAI/CodeNomad/releases - stable v0.20.1 (2026-10-03), v0.20.0 (2026-09-25), and the daily dev train
-- https://api.npmjs.org/downloads/point/last-month/@neuralnomads/codenomad - 1,267 downloads in the month ending 2026-10-10
+- https://api.github.com/repos/NeuralNomadsAI/CodeNomad/releases - stable v0.20.1 (2026-10-03), v0.20.0 (2026-09-25), and the daily dev train, re-tagged v1.0.0-dev from October 20 (re-fetched 2026-10-22)
+- https://api.npmjs.org/downloads/point/last-month/@neuralnomads/codenomad - 1,112 downloads in the month ending 2026-10-18 (re-fetched 2026-10-22; the earlier reading was 1,267 in the month ending 2026-10-10)
 - https://hn.algolia.com/api/v1/search?query=CodeNomad&tags=story - the footprint scan finding no dedicated story (2026-10-11)
