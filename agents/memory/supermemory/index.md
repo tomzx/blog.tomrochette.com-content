@@ -1,7 +1,7 @@
 ---
 title: Supermemory
 created: 2026-10-04
-updated: 2026-10-18
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, context-engine, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The company describes itself as a research lab; the repository began under found
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint.**
-About 31.2k stars as of 2026-10-09 (GitHub API), with the repository pushed 2026-10-18, created 2024-02-27, MIT, as of 2026-10-18 (GitHub API).
+About 31.2k stars as of 2026-10-09 (GitHub API), with the repository pushed 2026-10-21, created 2024-02-27, MIT, as of 2026-10-22 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&theme=dark&legend=top-left" />
@@ -33,9 +33,11 @@ About 31.2k stars as of 2026-10-09 (GitHub API), with the repository pushed 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&legend=top-left" />
 </picture>
 
-The npm SDK pulled 484,063 downloads in the trailing month (2026-09-17 to 2026-10-16) and the SDK lines moved to a 5.x major in one day: npm at 5.0.2 and PyPI at 5.0.0 (uploaded 2026-10-06, after three release candidates), up from 3.62.0, and the self-host server line published server-v0.0.9 on 2026-10-12.
+The npm SDK pulled 462,355 downloads in the trailing month (2026-09-19 to 2026-10-18) and the SDK lines moved to a 5.x major in one day: npm at 5.0.2 and PyPI at 5.0.0 (uploaded 2026-10-06, after three release candidates), up from 3.62.0, and the self-host server line published server-v0.0.9 on 2026-10-12.
 The hosted platform claims 1T+ tokens processed per month and tens of millions of end users (vendor figures).
 The community record is thin for the star count: its largest Hacker News story threads sit at 5 points or fewer, and the README's three first-place benchmark claims have not been independently replicated in any source I could verify, though a competing project's preliminary run (below) tested it and published a worse-than-claimed number.
+The homepage now cites one independent academic benchmark: SWE-ContextBench (arXiv 2602.08316, February 2026), whose paper reports Supermemory best overall of four memory-retrieval frameworks on 99 related coding tasks (55.95 percent fail-to-pass, 30.30 percent resolution), a coding-agent context-reuse result rather than a replication of the three memory claims.
+The README also fronts a Supermemory Filesystem (SMFS) product line beside the API (the vendor claims 3.0x fewer tokens on Claude across its own xAFS benchmark), and the plugin list has grown to Claude Code, Cursor, Codex, OpenCode, OpenClaw, Hermes, and Muse Code.
 
 ## Strengths
 
@@ -47,7 +49,7 @@ The community record is thin for the star count: its largest Hacker News story t
 ## Cautions
 
 - **Every performance claim traces to the vendor**: "#1 on LongMemEval, LoCoMo, and ConvoMem" is the README's own table, with methodology on the vendor's research page.
-- The one independent datapoint I found cuts against the claims: the CodeAlmanac team's preliminary LoCoMo run at a 2,000-token budget scored Supermemory at 47.6 percent, below plain BM25 at 51.8 and Mem0 at 60.6 (their disclaimer: LoCoMo tests conversational memory, not their use case, and they published the numbers anyway).
+- The one independent datapoint I found cuts against the claims: the CodeAlmanac team's preliminary LoCoMo run at a 2,000-token budget scored Supermemory at 47.6 percent, below plain BM25 at 51.8 and Mem0 at 60.6 (their disclaimer: LoCoMo tests conversational memory, not their use case, and they published the numbers anyway); the SWE-ContextBench academic run cuts the other way, on a different surface (coding-task context reuse), so the record is one datapoint each way.
 - The Hacker News footprint is nearly absent for a 31k-star repository, the same stars-ahead-of-discussion pattern this section flagged on Graft, Graphify, and Knowhere.
 - "Memory is not RAG" is the marketing frame, but the product sells both together, and the metering (below) charges separately for each layer.
 
@@ -82,6 +84,7 @@ My disagreeable claim: Supermemory's local binary is strategically more interest
 - 2026-10-07 - Added the supermemoryai/supermemory star history chart to the Status section.
 - 2026-10-07 - Recorded the SDK's 3.62.0 to 5.0.0 major jump (PyPI, after three release candidates on October 5 and 6; npm in sync at 5.0.1), six weeks after 3.62.0.
 - 2026-10-08 - The pricing page now lists an Enterprise custom tier above Scale (custom metering and billing, SSO, a forward-deployed engineer) and a startup/research program granting Scale free for three months; ladder prices and SM-token rates re-verified unchanged.
+- 2026-10-22 - Recorded the first independent academic benchmark naming Supermemory: SWE-ContextBench (arXiv 2602.08316) reports it best overall of four memory-retrieval frameworks on 99 related coding tasks (55.95 percent fail-to-pass, 30.30 percent resolution), a coding-agent context-reuse result rather than a replication of the three memory claims; the caution now reads one independent datapoint each way, and the README's SMFS product line and expanded plugin list recorded.
 
 ## See also
 
@@ -100,4 +103,5 @@ My disagreeable claim: Supermemory's local binary is strategically more interest
 - https://api.npmjs.org/downloads/point/last-month/supermemory - 510,440 trailing-month SDK downloads (2026-09-10 to 2026-10-09), fetched 2026-10-11
 - https://pypi.org/pypi/supermemory/json - Python SDK 5.0.0 (2026-10-06), the record of the 3.62-to-5.0 jump
 - https://news.ycombinator.com/item?id=48995181 - the CodeAlmanac thread carrying the one independent LoCoMo datapoint (Supermemory 47.6 percent at a 2k budget)
+- https://arxiv.org/abs/2602.08316 - SWE-ContextBench: the independent four-framework comparison where Supermemory performs best overall (55.95 fail-to-pass, 30.30 resolution)
 - https://hn.algolia.com/api/v1/search?query=supermemory&tags=story - the footprint scan grounding the thin-HN observation (top tool-related thread 5 points, 2024)

@@ -1,7 +1,7 @@
 ---
 title: Gas Town
 created: 2026-08-27
-updated: 2026-10-07
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, multi-agent, git-worktrees, open-source, tmux]
 readability: 3
@@ -33,7 +33,7 @@ As of 2026-10-11: 18,323 stars, 1,686 forks, 507 open issues, created 2025-12-16
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gastownhall/gastown&type=date&legend=top-left" />
 </picture>
 
-The repo remains public and unfixed: the default branch shows no commit since 2026-07-23 and no release since June, which reads differently now that the shutdown explains the silence.
+The repo remains public and unfixed: the only default-branch commit since the shutdown is a 2026-10-20 build fix (Go 1.26.10 to distrust compromised eMudhra CAs), and no release has shipped since June.
 **Its HN footprint dwarfs every tool in this section: the announcement thread (354 points), Maggie Appleton's field analysis (403 points), the v1.0 post (113 points), and the governance controversy (253 points).**
 That controversy, [issue #3649](https://github.com/gastownhall/gastown/issues/3649), asked whether the town improves itself using agents running on users' LLM credits, and Appleton's account records the texture: entirely vibecoded, thousands of dollars a month in API burn, and a $GAS meme coin the project did not authorize.
 
@@ -74,6 +74,7 @@ The disagreeable claim I will defend: strip the metaphors away and what remains 
 - 2026-09-13 - Recorded the first long quiet spell on the default branch (no commit since July 23, no release since v1.2.1 in June) and refreshed counts.
 - 2026-09-20 - Status moved to shut down: per Latent Space AINews (2026-09-17), citing Dan Luu's 2026-09-15 post, Yegge shut Gas Town down and admitted he never successfully built anything with it; the repo stays public as the death record and the AINews issue joined the references.
 - 2026-10-07 - Added the gastownhall/gastown star history chart to the Status section.
+- 2026-10-22 - Corrected the default-branch activity line: a 2026-10-20 Go toolchain security commit (distrusting compromised eMudhra CAs) landed after the shutdown; the release line still ends at v1.2.1 (2026-06-06).
 
 ## See also
 

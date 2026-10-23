@@ -1,7 +1,7 @@
 ---
 title: MiMo Code
 created: 2026-09-27
-updated: 2026-10-18
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, harnesses, coding-agents, open-source, xiaomi, long-horizon]
 readability: 3
@@ -24,7 +24,7 @@ Provider access follows the OpenCode approach: any of 75+ providers through the 
 ## Status
 
 **Active and pre-1.0.**
-The repository was created 2026-06-10 and lists about 13.7k stars and 1.4k forks under MIT as of 2026-10-15, with 1,395 commits and a push on 2026-10-17 (GitHub API, re-checked 2026-10-18).
+The repository was created 2026-06-10 and lists about 13.7k stars and 1.4k forks under MIT as of 2026-10-15, with 1,431 commits and a push on 2026-10-22 (GitHub API, re-checked 2026-10-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=XiaomiMiMo/MiMo-Code&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: MemOS
 created: 2026-10-06
-updated: 2026-10-19
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -34,7 +34,7 @@ The one independent common-framework datapoint: the academic Agent Memory Leader
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MemTensor/MemOS&type=date&legend=top-left" />
 </picture>
 
-Latest engine release v2.0.34 (2026-09-23) and local-plugin release v2.0.20 (2026-09-21) per the GitHub releases API; the PyPI package is at 0.37.0, Apache-2.0.
+Latest engine release v2.0.34 (2026-09-23) and local-plugin release v2.0.20 (2026-09-21) per the GitHub releases API; the PyPI package is `MemoryOS` at 2.0.33 (the bare `MemOS` name on PyPI belongs to an unrelated project, arkohut's Pensieve screen recorder).
 The benchmark table is the vendor's own: LoCoMo 88.83 and LongMemEval 89.20 via OmniMemEval, the company's self-published evaluation framework spanning 14 commercial memory products.
 The Hacker News footprint is nearly absent: a 2-point story in August 2025, no discussion since.
 
@@ -80,6 +80,7 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 - 2026-10-07 - Added the MemTensor/MemOS star history chart to the Status section.
 - 2026-10-07 - The hosted cloud began publishing plans: Free $0/mo, Starter $19/mo and Pro $286/mo both flagged "Free Now" on apply-to-join, Enterprise custom (new Price history section with the baseline row); the no-public-price caution rewritten and the landing-page reference updated.
 - 2026-10-09 - Added the first independent evaluation record: the academic Agent Memory Leaderboard's Cycle 1 (August 2026) ranks MemOS second among commercial text-memory systems at 45.89, on that framework's scale; refreshed stars to 11,769.
+- 2026-10-22 - Corrected the PyPI reference: MemTensor's package is `MemoryOS` (2.0.33); the bare `MemOS` name on PyPI belongs to arkohut's unrelated Pensieve screen-recorder project, so the previously cited 0.37.0 figure was the wrong package.
 
 ## See also
 
@@ -95,6 +96,6 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 - https://raw.githubusercontent.com/MemTensor/MemOS/main/README.md - features, the four entry points, plugin news timeline, and the OmniMemEval benchmark table
 - https://memos-docs.openmem.net/ - documentation root (the README's home/overview deep link returned 404 at fetch time, recorded here)
 - https://arxiv.org/abs/2507.03724 - the MemOS paper: a memory OS for AI systems
-- https://pypi.org/pypi/MemOS/json - the memos package at 0.37.0, Apache-2.0
+- https://pypi.org/pypi/MemoryOS/json - MemTensor's PyPI package (MemoryOS) at 2.0.33; the bare MemOS name belongs to an unrelated project
 - https://memos.openmem.net/ - the hosted platform's landing page, now carrying the Free/Starter/Pro/Enterprise price table, re-verified unchanged as of 2026-10-11 (client-rendered on the 2026-10-06 fetch)
 - https://hn.algolia.com/api/v1/items/44945613 - the August 2025 story (2 points, 0 comments), the thin-discussion record

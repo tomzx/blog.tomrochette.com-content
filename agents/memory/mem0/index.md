@@ -1,7 +1,7 @@
 ---
 title: Mem0
 created: 2026-08-24
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, developer-tools]
 readability: 3
@@ -25,7 +25,7 @@ The company (YC S24) was founded by Taranjeet Singh and Deshraj Yadav, previousl
 ## Status
 
 **Active and the adoption leader.**
-The repository shows about 67.3k stars as of 2026-10-16 and 2,673 commits as of 2026-10-20.
+The repository shows about 67.3k stars as of 2026-10-16 and 2,674 commits as of 2026-10-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mem0ai/mem0&type=date&theme=dark&legend=top-left" />
@@ -38,6 +38,7 @@ The site claims 150,000+ developers.
 **The company launched its own benchmark, DolphinBench** (September 2026): three knowledge-work personas with roughly 500k tokens of history each, 600 tasks graded on the action an agent takes rather than on recall, with cost and latency mandatory in every report.
 The harness is Apache-2.0 at mem0ai/dolphinbench (35 stars as of 2026-10-08), the paper (arXiv 2609.24971) carries Mem0's founders among its authors, and the leaderboard's results are client-rendered, so I could not verify any standings.
 The 2024 Show HN drew 201 points and 61 comments, though moderators flagged booster comments in that thread.
+The first independent academic comparison naming Mem0 has landed: SWE-ContextBench (arXiv 2602.08316, twelve academic authors, February 2026) ran four memory-retrieval frameworks on 99 related coding tasks, and its paper reports Mem0 weakest of the four on fail-to-pass tests (20.24 percent against Supermemory's 55.95) at the highest per-task cost ($0.62), on a benchmark measuring coding-agent context reuse rather than conversational memory.
 
 ## Strengths
 
@@ -84,6 +85,7 @@ I would not choose any memory vendor on benchmark leaderboards, this field's num
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-07 - Added the mem0ai/mem0 star history chart to the Status section.
 - 2026-10-08 - Recorded DolphinBench, Mem0's own action-graded agent-memory benchmark (three personas, 600 tasks, cost and latency mandatory, Apache-2.0 harness, paper arXiv 2609.24971 with the founders as authors); the leaderboard is client-rendered and unverified, and the vendor-run-benchmark caution added; refreshed stars to about 66.8k and re-verified pricing unchanged.
+- 2026-10-22 - Added the first independent academic comparison naming Mem0: SWE-ContextBench (arXiv 2602.08316) reports Mem0 weakest of four memory-retrieval frameworks on fail-to-pass coding-task tests (20.24 percent versus Supermemory's 55.95) at the highest per-task cost, on a coding-agent context-reuse benchmark rather than conversational memory.
 
 ## See also
 
@@ -102,4 +104,5 @@ I would not choose any memory vendor on benchmark leaderboards, this field's num
 - https://arxiv.org/abs/2504.19413 - the paper behind the SOTA claims
 - https://techcrunch.com/2025/10/28/mem0-raises-24m-from-yc-peak-xv-and-basis-set-to-build-the-memory-layer-for-ai-apps/ - funding, traction, AWS Agent SDK deal
 - https://blog.getzep.com/lies-damn-lies-statistics-is-mem0-really-sota-in-agent-memory/ - competitor rebuttal of the benchmark claims
+- https://arxiv.org/abs/2602.08316 - SWE-ContextBench: the independent four-framework comparison on coding-task context reuse (Mem0 weakest, highest cost)
 - https://news.ycombinator.com/item?id=41447317 - launch thread, community reception, flagged boosterism

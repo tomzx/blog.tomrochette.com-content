@@ -1,7 +1,7 @@
 ---
 title: Emulo
 created: 2026-10-11
-updated: 2026-10-16
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-mining, personalization, mcp, open-source]
 readability: 3
@@ -55,7 +55,8 @@ Both tests measure whether the output changed, not whether it got better, and th
 ## Pricing
 
 Free and open source under MIT, no account or sign-in, nothing to buy in the tool.
-The site lists one optional paid service, a hand edit of a profile you already mined, with no published price and no role in using the tool, so no price history applies.
+The site lists one optional paid service, a hand edit of a profile you already mined, with no published price and no role in using the tool.
+The placebo page now also advertises a service built on the same method: the author runs a fake version of your AI feature against yours and publishes the verdict, free for the first three submissions (all three open, none bought, as of 2026-10-22), so no price history applies.
 
 ## Compared to
 
@@ -72,6 +73,7 @@ My disagreeable claim: the 0-for-9 August result is the most trustworthy artifac
 ## Changes
 
 - 2026-10-11 - Created after the session-analytics resolution routed the ohad6k/emulo candidate here as a memory candidate, with the 0-for-9 placebo result recorded as the governing fact.
+- 2026-10-22 - The placebo page now advertises a placebo-testing service for other AI features (free for the first three submissions, none bought as of 2026-10-22), beside the existing unpriced hand-edit offer.
 
 ## See also
 

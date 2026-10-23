@@ -1,7 +1,7 @@
 ---
 title: hcom
 created: 2026-10-07
-updated: 2026-10-15
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, cli, messaging, multi-agent, terminals]
 readability: 3
@@ -21,7 +21,7 @@ It occupies a niche none of this category's boards and platforms fill: coordinat
 
 ## Status
 
-Active and early: 572 stars, a push on 2026-10-15, release v0.7.30 on 2026-10-15, and `hcom` 0.7.30 on PyPI as of 2026-10-15 (GitHub API, PyPI), installable with uv or Homebrew, on a repository created 2025-07-21.
+Active and early: 572 stars, a push on 2026-10-21, release v0.7.31 on 2026-10-21, and `hcom` 0.7.31 on PyPI as of 2026-10-22 (GitHub API, PyPI), installable with uv or Homebrew, on a repository created 2025-07-21.
 v0.7.29 made relay settings read-only in `hcom config` (a breaking change, with `hcom relay new`, `connect`, `on`, and `off` the replacement paths) and added experimental native message delivery for Claude, where a bundled mod submits messages when the agent is idle instead of hcom typing into the terminal.
 
 <picture>

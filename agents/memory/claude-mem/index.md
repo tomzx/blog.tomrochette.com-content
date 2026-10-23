@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-20
+updated: 2026-10-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -32,7 +32,7 @@ Very large and fast: about 101.1k stars as of 2026-10-16, with 68,478 npm downlo
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-31, pushed 2026-10-20, latest tagged release v14.0.1 on 2026-10-17 with npm in sync at 14.0.1 as of 2026-10-19.
+Created 2025-08-31, pushed 2026-10-22, latest tagged release v15.0.1 on 2026-10-20 with npm in sync at 15.0.1 as of 2026-10-22.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.
@@ -41,6 +41,7 @@ Same-day follow-ups: v13.34.0 added first-party Pi and DeepSeek Harness integrat
 The 2026-10-12-to-13 train (v13.36.0, v13.36.1, v13.37.0) is the first recorded privacy regression and capture outage in the same week: v13.36.0, a mostly community release, made the observer pause and keep the work instead of dropping memories when the provider refuses (an empty Anthropic credit balance, a blocked organization, or a local model server down) and fixed non-ASCII Windows home folders; v13.36.1 fixed a server-runtime leak where `<private>` sections still left the hook and were stored in the server's raw event record until prompt build (the default worker runtime was not affected); and v13.37.0 repaired the marketplace update of v13.36.1 itself, which had shipped built plugin files containing leftover `git stash` conflict markers, so auto-updated installs failed to start the worker and MCP search and memory capture stopped until upgrade (the npm package was published before the bad change and was unaffected).
 The 2026-10-13-to-17 train continued at the same clip: v13.38.0 stopped the Windows console-window flashing by having every hook launch claude-mem directly in exec form with 16 community fixes from five contributors, v13.39.0 restored the memory timeline to Codex subagent threads after compaction through a new PostCompact hook, v13.40.0 brought TeamBrain team joins to the terminal (`npx claude-mem teambrain join` with device-code sign-in and per-project sharing), and v13.41.0 added build, release, and work-state visibility workflow skills that delegate through make-plan, do, and babysit.
 The same day closed the v13 line: v14.0.0 shipped My Work, a free local dashboard that lists the requests you gave your agents as cards with plain-language summaries, live statuses, and a human review step so an agent's "done" is never mistaken for a person's confirmation, and it moved TeamBrain from design-partner pilot to self-serve at $50 per seat per month; v14.0.1 followed within the hour, while cmem.ai/pricing still described TeamBrain as an unpriced pilot when fetched 2026-10-18.
+v15.0.0 (2026-10-20) opened the next line by making Smart memory search the default recall path, a three-step flow where the agent searches the compact index, inspects context around relevant results, and fetches only selected details, reasoning between the steps, with the old one-call lookup demoted to an explicit `dumb_search`; v15.0.1 the same day fixed project-scope consistency so observations found through a merged project alias stay reachable across the flow's steps.
 
 ## Strengths
 
@@ -103,6 +104,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-10-16 - Recorded the v13.38.0 and v13.39.0 releases (hooks calling claude-mem directly instead of through bash to stop the Windows console flash, sixteen community fixes, and the Codex memory timeline returning to subagent threads after compaction) with npm in sync at 13.39.0; refreshed stars to about 101.1k and trailing-month downloads to 68,478.
 - 2026-10-17 - Recorded the v13.40.0 and v13.41.0 releases (TeamBrain team joins from the terminal with device-code sign-in and per-project sharing, and build, release, and work-state workflow skills delegating through make-plan, do, and babysit) with the Status train narrative extended to the full 10-13-to-17 run and npm re-verified in sync at 13.41.0.
 - 2026-10-18 - Recorded the v14.0.0 and v14.0.1 releases (the free local My Work request dashboard with summaries, live statuses, and a human review step, and TeamBrain moving from design-partner pilot to self-serve at $50/seat/month, Price history row) with npm in sync at 14.0.1 and the pricing page's remaining pilot wording noted at fetch time.
+- 2026-10-22 - Recorded the v15.0.0 release (Smart memory search now the default recall path: three-step index search, context inspection, and selective fetch with the agent reasoning between steps, and the old one-call lookup demoted to `dumb_search`) and the v15.0.1 project-scope consistency fix; npm re-verified in sync at 15.0.1.
 
 ## See also
 
