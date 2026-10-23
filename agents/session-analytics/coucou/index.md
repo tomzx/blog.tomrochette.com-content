@@ -1,7 +1,7 @@
 ---
 title: Coucou
 created: 2026-10-10
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, live-observation, approvals, macos, ios, open-source]
 readability: 3
@@ -28,7 +28,7 @@ It is built by Louis Raillé (the Louis-CFM account), with the project's own con
 
 ## Status
 
-In its fourth week and shipping hard: created 2026-09-27 with v0.1.0 the same day, with the Mac release line moving to v0.5.2 on 2026-10-20 (in-notch update offers verified against the Developer ID signature, a Homebrew cask, Claude Code plan-approval cards offering the terminal's own Auto, Manual, or Change plan choices, and fourteen languages) after v0.5.0 and v0.5.1 on 2026-10-18 (WhatsApp in the notch, behind it a one-click install of the GOWA gateway checked against its published SHA-256), after v0.4.0 on 2026-10-15 (the windowed app with dictation and call recording), Windows and Linux at v0.5.1 since 2026-10-20 (the installer still unsigned), and Coucou for Android at 0.2.0 since 2026-10-13, as of 2026-10-21.
+In its fourth week and shipping hard: created 2026-09-27 with v0.1.0 the same day, with the Mac release line moving to v0.5.3 on 2026-10-22 (Mochi turns blue when a new version waits and then shows what it brings) after v0.5.2 on 2026-10-20 (in-notch update offers verified against the Developer ID signature, a Homebrew cask, Claude Code plan-approval cards offering the terminal's own Auto, Manual, or Change plan choices, and fourteen languages), after v0.5.0 and v0.5.1 on 2026-10-18 (WhatsApp in the notch, behind it a one-click install of the GOWA gateway checked against its published SHA-256), after v0.4.0 on 2026-10-15 (the windowed app with dictation and call recording), Windows and Linux at 0.5.2 since 2026-10-22 (MSI and setup installers, still unsigned), and Coucou for Android at 0.2.0 since 2026-10-13, as of 2026-10-23.
 5,119 stars and 961 forks in that window, 420 open issues, MIT.
 
 <picture>

@@ -8,13 +8,14 @@ tags: [agents, task-management]
 readability: 3
 ---
 
-Where agent work gets planned and tracked: markdown-native trackers, graph-backed issue databases, event-sourced Git trackers, local-first daemon ledgers, self-hosted team platforms, agent-first cloud boards, knowledge-vault systems, and the pipelines that turn PRDs into typed tasks.
+Where agent work gets planned and tracked: markdown-native trackers, graph-backed issue databases, event-sourced Git trackers, local-first daemon ledgers, self-hosted team platforms, agent-first cloud boards, knowledge-vault systems, forge-native skills that run the pipeline on GitHub Issues, and the pipelines that turn PRDs into typed tasks.
 
 - [Agent Kanban](agent-kanban/index.md) - the source-available Cloudflare task board whose assignee cannot accept its own review, with claims bound to verified agent sessions.
 - [AgentRQ](agentrq/index.md) - the AGPL self-hosted realtime human-in-the-loop task board agents work over MCP, supervised from phone, web, desktop, and a Chrome extension, about 1.2k stars.
 - [AI Dev Tasks](ai-dev-tasks/index.md) - the two-file PRD-to-checklist prompt pack that ran the pipeline before any of these tools existed, dormant since November 2025 at 7.8k stars.
 - [Backlog.md](backlog-md/index.md) - the markdown-native task manager whose three review gates, spec, plan, code, make it the first line of code review.
 - [beads](beads/index.md) - Steve Yegge's Dolt-backed graph issue tracker, dependency-aware with atomic claims, the agent-memory thesis in running code.
+- [CCPM](ccpm/index.md) - the MIT agent skill that turns PRDs into GitHub issues and runs parallel agents across git worktrees, with the forge as the board.
 - [Epiq](epiq/index.md) - the Git-native event-sourced issue tracker whose replayable log turns unattended agent sprints into auditable history, with MCP, a skill file, and per-agent identities.
 - [It's a Plan](its-a-plan/index.md) - the self-hosted AGPL tracker where agents hold assignee slots on the team board, with MCP, schedules, and an external runner for coding CLIs.
 - [kanban-md](kanban-md/index.md) - the single-binary markdown kanban whose expiring claim leases make a file board safe to share between parallel agents.
@@ -45,3 +46,4 @@ Its members are compared on shared rows in the [Task Management Feature Matrix](
 - 2026-10-11 - Added Veritas Kanban.
 - 2026-10-13 - Added PlanDB.
 - 2026-10-13 - Added AgentRQ.
+- 2026-10-23 - Added CCPM.

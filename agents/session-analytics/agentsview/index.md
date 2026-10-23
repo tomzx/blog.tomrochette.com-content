@@ -1,7 +1,7 @@
 ---
 title: agentsview
 created: 2026-08-30
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, token-usage, open-source]
 readability: 3
@@ -32,7 +32,7 @@ Young and active: 6,094 stars, 664 forks, 112 open issues and PRs as of 2026-10-
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.45.0 on 2026-10-09 with steady releases since July; pre-1.0 with fast feature churn.
+Latest release v0.46.1 on 2026-10-23, a day that shipped two releases: v0.46.0 added opt-in web-chat imports, Claude.ai chats synced through a Chrome extension plus ChatGPT, Codex web, and Codex cloud task chats ingested as searchable sessions, and v0.46.1 repaired Antigravity CLI transcript parsing on read-only mounts; with steady releases since July it is pre-1.0 with fast feature churn.
 
 ## Strengths
 
@@ -83,6 +83,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 - 2026-10-10 - Recorded the v0.45.0 release (2026-10-09): Junie CLI, OMO, and StepCode session formats, Antigravity plaintext-transcript reads without a decryption key, dashboard git and pull-request stats, and the Usage page's input card relabeled to Total Input with cache reads folded in; the docs' token-usage JSON contract flipped back to schema version 6 (the fifth recorded flip), and repository counts refreshed (6,065 to 6,093 stars).
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched and live, no release after v0.45.0 with main-branch fixes landing unreleased, the schema caution re-verified unchanged at version 6, and repository counts refreshed (forks 689 to 699, open issues and PRs 164 to 107).
 - 2026-10-21 - The docs' token-usage page flipped back to schema version 5 (it documented version 6 from 2026-10-10 through 2026-10-19, and also names version 2 as the origin of the cost_source enum), the sixth recorded flip; no release after v0.45.0 with unreleased main-branch work continuing (a gptme parser emitting provider-reported exact-cost usage events), and repository counts refreshed (forks 699 to 664, open issues and PRs 107 to 112).
+- 2026-10-23 - Recorded v0.46.0 and v0.46.1 (both 2026-10-23): opt-in web-chat imports joined the sources, Claude.ai chats sync through a Chrome extension and ChatGPT, Codex web, and Codex cloud task chats ingest as searchable sessions, and Antigravity CLI transcript parsing recovered on read-only mounts.
 
 ## See also
 

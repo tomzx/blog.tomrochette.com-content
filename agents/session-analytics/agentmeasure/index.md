@@ -1,7 +1,7 @@
 ---
 title: AgentMeasure
 created: 2026-10-16
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, audit, cli, open-source]
 readability: 3
@@ -24,7 +24,8 @@ Made by roy-tong, an independent developer, under MIT.
 
 ## Status
 
-Young and shipping daily: 218 stars, 9 forks, 11 open issues, created 2026-08-16, pushed 2026-10-20, with v0.6.0 (2026-10-11), v0.7.0 (2026-10-14, the claims index, SDK 0.2.0, and paid diagnosis), v0.7.1, v0.7.2, and v0.8.0 (2026-10-15) landing inside a week, as of 2026-10-21.
+Young and shipping daily: 218 stars, 9 forks, 11 open issues, created 2026-08-16, pushed 2026-10-22, with v0.6.0 (2026-10-11), v0.7.0 (2026-10-14, the claims index, SDK 0.2.0, and paid diagnosis), v0.7.1, v0.7.2, and v0.8.0 (2026-10-15) landing inside a week, as of 2026-10-23.
+On 2026-10-21 the project pivoted to entirely free and open source: the $10 and $20 paid diagnostics were retired, replaced by free human-run measurement runs (bring 20 to 100 sanitized rows, a check usually within 48 hours), the review method behind the runs was open-sourced under docs/review-method/, and the same week's commits added an AMSBench v0.2 benchmark (a 16-injector generator over 5,600 synthetic instances with a rule-engine baseline evaluation) and the first external conformance fixtures from outside providers.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=roy-tong/AgentMeasure&type=date&theme=dark&legend=top-left" />
@@ -43,26 +44,27 @@ The README states plainly that engineering evidence does not establish paid dema
 - The audit produced checkable, merged fixes in three category members' parsers, so the evidence discipline is demonstrated on this category's own tools, not just asserted.
 - Duplicate and retry detection answers a question the other members do not ask: not what did this cost, but is this record even countable.
 - The billing half pins vendor rules with dated confidence grades and keeps recounts comparable across rule changes, an approach no member takes.
-- Free core, local-only by default, with bounded $10 and $20 human services instead of a subscription.
+- Entirely free since 2026-10-21: local-only by default, with free human-run measurement runs and an open-sourced review method instead of paid tiers.
 
 ## Cautions
 
 - The product's center of gravity is half outside this category: recounting Zendesk and Intercom support invoices has nothing to do with coding-agent sessions, and the session half covers only two harnesses against AgentTrace's thirteen.
 - The session audit is self-graded: the conformance pack, the claims index, and the fixtures all come from the same repository, and no audited project endorses the tool.
-- The paid services are one person answering email (applications checked at set times China time, daily order caps), with card checkout not yet online, so delivery depends on one inbox.
+- The free runs are still one person answering issue #6 and one inbox (first response within 24 hours, checks within 48 hours of a clean sample), so delivery depends on one volunteer, and the pivot left stale paid-service references inside the README and claims page.
 - A 2-point Show HN and no independent coverage mean the star curve, not scrutiny, carries the adoption story so far.
 - Response-audit reports SHA256 hashes of response IDs, which the guide itself warns can still link records across reports.
 
 ## Pricing
 
-The CLI, the public vendor rules, the conformance pack, and the claims index are free and open source under MIT.
-Two optional human-delivered services are applied by email: a $10 healthcheck diagnosis of one anomaly on one machine, and a $20 metering QA check of one event sample against one ruleset, both with fit confirmed before payment and full refund before work starts; online checkout is not yet available.
+Everything is free and open source under MIT: the CLI, the public vendor rules, the conformance pack, the claims index, and, since 2026-10-21, the human-run measurement runs.
+The $10 healthcheck diagnosis and $20 metering QA services were retired on 2026-10-21; a free run takes 20 to 100 sanitized rows through the same evidence discipline, usually within 48 hours of a clean sample, started from issue #6 or email.
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-10-16 | Services | Baseline: free MIT CLI and public rules; $10 healthcheck diagnosis and $20 metering QA applied by email, checkout not yet online | https://roy-tong.github.io/AgentMeasure/services.html |
+| 2026-10-21 | Services | $10 healthcheck and $20 metering QA retired; the project became entirely free, with free human-run measurement runs in their place | https://roy-tong.github.io/AgentMeasure/services.html |
 
 ## Compared to
 
@@ -78,6 +80,7 @@ Not for multi-harness coverage, live observation, transcript search, or anyone w
 ## Changes
 
 - 2026-10-16 - Created from the 2026-10-15 awesome-agent-observability additions, admitted on its evidence-discipline audit cell, the 110-tool audit with merged fixes in three category members, and eleven fetched sources.
+- 2026-10-23 - Rotation re-verification recorded the 2026-10-21 pricing pivot (the paid diagnostics retired for free measurement runs, an open-sourced review method, and the AMSBench benchmark and first external fixtures named in the Status), moved the Pricing and Price history to all-free, and re-fetched every cited URL.
 
 ## See also
 

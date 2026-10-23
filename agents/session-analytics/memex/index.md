@@ -1,7 +1,7 @@
 ---
 title: Memex
 created: 2026-09-20
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Made by an independent developer, MIT-licensed, with no cloud service in the def
 
 ## Status
 
-Active and quietly growing: created 2026-01-01, 259 stars, 38 forks, pushed 2026-10-20, as of 2026-10-21.
+Active and quietly growing: created 2026-01-01, 259 stars, 38 forks, pushed 2026-10-22, as of 2026-10-23.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nicosuave/memex&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Active and quietly growing: created 2026-01-01, 259 stars, 38 forks, pushed 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nicosuave/memex&type=date&legend=top-left" />
 </picture>
 
-Releases ship in bursts: v0.25.0 (2026-10-02) added the Hermes and KiloCode CLI engines (fifteen to seventeen harnesses), then v0.26.0, v0.26.1, and v0.27.0 all landed 2026-10-03 (OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, and conversation-search relevance improvements), v0.27.1 followed on 2026-10-04 without release notes, v0.27.2 and v0.28.0 landed 2026-10-12 (Homebrew as the update source for Homebrew installs, remembered phrases prioritized in search results, relevance ranking shared across the search interfaces, and OpenCode v1 session indexing when the v2 projection is empty), and v0.29.0 landed 2026-10-14 (the Kimi Code CLI engine, seventeen to eighteen harnesses, Homebrew core formula installs, multiple Claude profile support with deduplicated agent transcripts, and an Antigravity WAL-store read fix), v0.29.1 followed on 2026-10-16, and v0.30.0 landed 2026-10-20 without release notes (one change: the index refreshes before session reads, independent of the scan TTL).
+Releases ship in bursts: v0.25.0 (2026-10-02) added the Hermes and KiloCode CLI engines (fifteen to seventeen harnesses), then v0.26.0, v0.26.1, and v0.27.0 all landed 2026-10-03 (OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, and conversation-search relevance improvements), v0.27.1 followed on 2026-10-04 without release notes, v0.27.2 and v0.28.0 landed 2026-10-12 (Homebrew as the update source for Homebrew installs, remembered phrases prioritized in search results, relevance ranking shared across the search interfaces, and OpenCode v1 session indexing when the v2 projection is empty), and v0.29.0 landed 2026-10-14 (the Kimi Code CLI engine, seventeen to eighteen harnesses, Homebrew core formula installs, multiple Claude profile support with deduplicated agent transcripts, and an Antigravity WAL-store read fix), v0.29.1 followed on 2026-10-16, and v0.30.0 landed 2026-10-20 without release notes (one change: the index refreshes before session reads, independent of the scan TTL), and v0.31.0 landed 2026-10-22, also without release notes, adding the Goose SQLite store as the nineteenth engine in the support table.
 Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the author.
 **The launch footprint is nearly empty, which I read as adoption through word of mouth and through agents rather than through launches, the same reading this category applied to ctx, and as thin independent verification.**
 
@@ -77,6 +77,7 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 - 2026-10-13 - Recorded the v0.27.2 and v0.28.0 releases (2026-10-12): Homebrew as the update source for brew installs, remembered phrases prioritized and relevance ranking shared across the search interfaces, and OpenCode v1 session indexing when the v2 projection is empty; repository counts refreshed (251 to 259 stars, pushed 2026-10-13).
 - 2026-10-16 - Recorded v0.29.0 (2026-10-14): the Kimi Code CLI engine (seventeen to eighteen harnesses), Homebrew core formula installs, multiple Claude profile support with deduplicated agent transcripts, and an Antigravity WAL-store read fix, with v0.29.1 following 2026-10-16; the engine count moved through What it is, the caution, the matrix cell, and the reading prose, and the pushed date moved to 2026-10-16.
 - 2026-10-21 - Recorded v0.30.0 (2026-10-20, released without notes): the index refreshes before session reads, independent of the scan TTL; the pushed date moved to 2026-10-20 and forks refreshed 36 to 38.
+- 2026-10-23 - Recorded v0.31.0 (2026-10-22, released without notes): the Goose session database joined the engine table as the nineteenth engine, with history, token usage, and resume graded yes.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Archcore
 created: 2026-10-21
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, decision-records, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Documents carry their type in the filename (`rate-limiting.spec.md`, `token-buck
 
 ## Status
 
-Active and young: 71 stars and 13 forks since creation on 2026-04-05, pushed 2026-10-16, Apache-2.0, with v0.13.1 (2026-10-16) the newest of a release train that added review of unpushed default-branch work and durable-context capture, as of 2026-10-21 (GitHub API).
+Active and young: 71 stars and 13 forks since creation on 2026-04-05, pushed 2026-10-22, Apache-2.0, with v0.13.1 (2026-10-16) the newest of a release train that added review of unpushed default-branch work and durable-context capture, as of 2026-10-23 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=archcore-ai/archcore&type=date&theme=dark&legend=top-left" />

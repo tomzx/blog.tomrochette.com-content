@@ -1,7 +1,7 @@
 ---
 title: AgentRQ
 created: 2026-10-13
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, mcp, human-in-the-loop, self-hosted]
 readability: 3
@@ -22,9 +22,9 @@ A companion Chrome extension carries the board into the browser; the README carr
 
 ## Status
 
-Active and modest: 1,152 stars as of 2026-10-14, 85 forks, and 2 open issues and pull requests as of 2026-10-18, created 2026-03-24, pushed 2026-10-19, with a dual licence since v0.13.0: the repository stays AGPL-3.0-only with a binary-only commercial licence from Contextual, Inc., while the agentrqd server daemon, its installers, and the agentrq-ws CLI are published under Apache-2.0.
+Active and modest: 1,152 stars as of 2026-10-14, 85 forks, and 2 open issues and pull requests as of 2026-10-18, created 2026-03-24, pushed 2026-10-23, with a dual licence since v0.13.0: the repository stays AGPL-3.0-only with a binary-only commercial licence from Contextual, Inc., while the agentrqd server daemon, its installers, and the agentrq-ws CLI are published under Apache-2.0.
 The v0.11.1 to v0.11.3 train (2026-10-15 and 2026-10-16) added a native-ACP reasoning-level picker and refactored the ACP link layer into a protocol-neutral agentlink package, v0.12.0 (2026-10-17) fixed SQL-injection and tool-spoofing holes in the ACP tool-call path, made the acp-gateway speak only native ACP v1, and added health and readiness probes with S3-shared TLS certificates, v0.12.1 (2026-10-18) landed the per-task plan rows pinned above the chat plus native-ACP notices, resource-link file handoffs, and Claude plugin manifest fixes, and v0.13.0 (2026-10-18) shipped the server as one binary with the web app built in and made the supervisor workspace clear context by default.
-Post-release commits keep landing on the main branch: MCP text attachments sent and read as plain text.
+v0.13.1 (2026-10-21) shipped the MCP text attachments and pointed the task tool at the agentrq-ws CLI for them alongside dependency security patches, and v0.13.2 (2026-10-23) added a per-user MCP connections and machines-online view for the operator and quieted native and web-push notifications for agent thoughts, plans, and usage.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentrq/agentrq&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ Not for AGPL-constrained teams, or anyone needing repository-native task storage
 - 2026-10-17 - Recorded v0.12.0 (2026-10-17: SQL-injection and tool-spoofing fixes in the ACP tool-call path, the acp-gateway speaking only native ACP v1, health and readiness probes, S3-shared TLS certificates, and the README's Discord link removed) and refreshed counts (pushed 2026-10-17).
 - 2026-10-20 - Recorded v0.12.1 and v0.13.0 (both 2026-10-18: per-task plan rows pinned above the chat, native-ACP notices, resource-link file handoffs, and Claude plugin manifest fixes, then the server shipped as one binary with the web app built in and the supervisor workspace clearing context by default) and the v0.13.0 license split (agentrqd, its installers, and the agentrq-ws CLI published under Apache-2.0 while the repository stays AGPL-3.0-only with a binary-only commercial tier), with pushed refreshed to 2026-10-19.
 - 2026-10-21 - Out-of-rotation correction: brought the Pricing section in line with the v0.13.0 licence split the previous run recorded, naming the dual licence (AGPL-3.0-only repository plus a binary-only commercial licence from Contextual, Inc.) and the Apache-2.0 daemon, installers, and CLI, re-verified against the README's licence section (fetched 2026-10-21).
+- 2026-10-23 - Recorded v0.13.1 and v0.13.2 (2026-10-21 and 2026-10-23: the MCP text attachments shipped with the task tool pointed at agentrq-ws, dependency security patches, the per-user MCP connections and machines-online view, and the notification routing fixes) and refreshed counts (pushed 2026-10-23).
 
 ## See also
 

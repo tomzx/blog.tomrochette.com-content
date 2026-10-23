@@ -1,7 +1,7 @@
 ---
 title: Zeroshot
 created: 2026-10-10
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, review-loop, multi-agent]
 readability: 3
@@ -22,8 +22,9 @@ Delivery is a ladder you opt into, from keep-it-local through --push, --pr, and 
 ## Status
 
 Active and shipping: 1,969 stars since creation on 2025-12-25, per the GitHub API as of 2026-10-13.
-Pushed 2026-10-20, with the train at v10.15.0 (2026-10-19) after three minors in three days, npm in sync at 10.15.0, and the Python SDK release train (zeroshot-python tags) riding each release, per the GitHub API and the npm registry as of 2026-10-21.
+Pushed 2026-10-23, with the train at v10.16.0 (2026-10-22), npm in sync at 10.16.0, and the Python SDK release train (zeroshot-python tags) riding each release, per the GitHub API and the npm registry as of 2026-10-23.
 v10.14.0 adds Pi as a fourth harness beside Claude Code, Codex, and GitHub Copilot CLI, and v10.13.0 guards merges with renewable delivery credentials that stay out of agent environments, profiles, and history.
+v10.16.0 extends that credential line with human-managed machine delegations and expiring API keys for unattended runs (delegation management requires a human login, and machine keys stay out of run inputs and subprocesses), and local PR delivery now rejects a target branch absent from the selected remote before agents start.
 v10.15.0's README repositions the tool around user-configured workflows, with the built-in review loop moved below them, and strips the Zeroshot Cloud section, its pricing pointer, and the Cloud docs links, with the maintainers stating plainly that they are not advertising Cloud yet.
 
 <picture>
@@ -71,6 +72,7 @@ Not for teams that require a deterministic final gate, third-party validation fi
 - 2026-10-10 - Created from the awesome-software-factories scan as the independent-review-loop member.
 - 2026-10-16 - Recorded the train to v10.12.0 (2026-10-15, npm in sync), the new Python SDK release train, and the two features (planner-led archived exploration with three independent scouts in v10.11.0, local-folder and generic-Git-transport runs in v10.12.0).
 - 2026-10-21 - Recorded the train to v10.15.0 (2026-10-19, npm in sync): Pi added as a fourth harness in v10.14.0, renewable delivery credentials kept out of agent environments in v10.13.0, and the v10.15.0 README repositioning that leads with user-configured workflows and stops advertising Zeroshot Cloud; the What-it-is harness roster and the Pricing and caution lines updated.
+- 2026-10-23 - Recorded the train to v10.16.0 (2026-10-22, npm in sync): machine delegations with expiring API keys for unattended runs, human-gated delegation management, keys kept out of run inputs and subprocesses, and a remote-base preflight before local PR delivery.
 
 ## See also
 
@@ -84,7 +86,7 @@ Not for teams that require a deterministic final gate, third-party validation fi
 - https://github.com/the-open-engine/zeroshot - repository, the built-in workflow, delivery ladder, install methods, and license
 - https://zeroshot.sh/docs/ - the graph, runtime plan, and ledger model, and the three run targets
 - https://cloud.zeroshot.sh/docs - Zeroshot Cloud's managed target, the reviewers-never-edit model, and the absence of published prices
-- https://registry.npmjs.org/@the-open-engine-company%2Fzeroshot - the npm package, 10.15.0 latest as of 2026-10-21
-- https://api.github.com/repos/the-open-engine/zeroshot/releases - the release train, v10.15.0 newest as of 2026-10-21, the Pi harness in the v10.14.0 notes, and the Cloud de-advertising in the v10.15.0 notes
+- https://registry.npmjs.org/@the-open-engine-company%2Fzeroshot - the npm package, 10.16.0 latest as of 2026-10-23
+- https://api.github.com/repos/the-open-engine/zeroshot/releases - the release train, v10.16.0 newest as of 2026-10-23, the Pi harness in the v10.14.0 notes, and the Cloud de-advertising in the v10.15.0 notes
 - https://news.ycombinator.com/item?id=48599820 - the 2-point June 2026 thread, the thin independent footprint this note records
 - https://github.com/varun1505/awesome-software-factories - the third-party curated list that surfaced this note

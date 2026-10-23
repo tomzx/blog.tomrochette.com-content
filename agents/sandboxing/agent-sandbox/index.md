@@ -1,7 +1,7 @@
 ---
 title: Agent Sandbox
 created: 2026-08-30
-updated: 2026-10-19
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, kubernetes, isolation, open-source]
 readability: 3
@@ -31,7 +31,8 @@ Young but institutionally backed: 4,268 stars, 564 forks, 180 open issues and PR
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kubernetes-sigs/agent-sandbox&type=date&legend=top-left" />
 </picture>
 
-v1.0.0 released 2026-08-28 with v1.0.1 on 2026-09-03, v1.0.2 on 2026-09-11, v1.0.3 on 2026-09-17, v1.0.4 on 2026-09-24, v1.0.5 on 2026-10-01 (a runtime connectivity layer for the TypeScript SDK, native in-cluster sandboxd transport, streaming file transfers, and an OpenAI Agents integration), and v1.0.6 on 2026-10-08 (the first part of a multi-cluster warm-pool fleet planner, interactive processes via `commands.start()` in the TypeScript SDK, and Go and Python SDK parity, with a name-length CEL rule that fails updates of pre-existing over-length `spec.service` sandboxes), and v1.0.7 on 2026-10-15 (optional bearer-token authentication for sandboxd, streaming command execution in the Go SDK, closer Python and TypeScript SDK parity, and warm pools that hold members waiting on scheduling gates instead of deleting them, with behavior changes to signal exit codes and the Python SDK's logging setup), twenty-seven releases since October 2025, 1,167 commits.
+v1.0.0 released 2026-08-28 with v1.0.1 on 2026-09-03, v1.0.2 on 2026-09-11, v1.0.3 on 2026-09-17, v1.0.4 on 2026-09-24, v1.0.5 on 2026-10-01 (a runtime connectivity layer for the TypeScript SDK, native in-cluster sandboxd transport, streaming file transfers, and an OpenAI Agents integration), and v1.0.6 on 2026-10-08 (the first part of a multi-cluster warm-pool fleet planner, interactive processes via `commands.start()` in the TypeScript SDK, and Go and Python SDK parity, with a name-length CEL rule that fails updates of pre-existing over-length `spec.service` sandboxes), and v1.0.7 on 2026-10-15 (optional bearer-token authentication for sandboxd, streaming command execution in the Go SDK, closer Python and TypeScript SDK parity, and warm pools that hold members waiting on scheduling gates instead of deleting them, with behavior changes to signal exit codes and the Python SDK's logging setup), twenty-seven releases since October 2025, 1,167 commits as of the v1.0.7 recording.
+v1.0.8 followed on 2026-10-22: MCP `execute_command` output is now bounded to a 30,000-character default with four new required truncation fields (breaking for strict schema-validating clients), failed Pods get opt-in recovery, GKE Pod Snapshot primitives arrive for RL workloads, the Go SDK reaches provisioning parity with Python, and the sandbox-router deployment became a Kustomization with hardened credentials.
 **The v1.0.0 tag is not API stability: the API is `v1beta1`, v1alpha1 was removed in the same release, and upgrades from older versions require a documented four-step migration.**
 
 ## Strengths
@@ -74,6 +75,7 @@ Not for local developer sandboxing, and not for anyone expecting the 1.0 tag to 
 - 2026-10-07 - Added the kubernetes-sigs/agent-sandbox star history chart to the Status section.
 - 2026-10-09 - Recorded v1.0.6 (2026-10-08, the first part of a multi-cluster warm-pool fleet planner, interactive TypeScript SDK processes, Go and Python SDK parity, and the name-length CEL admission rule with its pre-existing-object caveat), the release count moving to twenty-six and commits to 1,125, with growth refreshed (4,198 stars, 548 forks, pushed 2026-10-09).
 - 2026-10-16 - Recorded v1.0.7 (2026-10-15, sandboxd bearer-token authentication, streaming Go SDK execution, deeper Python and TypeScript SDK parity, warm pools holding scheduling-gated members, and the signal-exit-code and Python-logging behavior changes), the release count moving to twenty-seven and commits to 1,167, with growth refreshed (4,268 stars, 564 forks, pushed 2026-10-15).
+- 2026-10-23 - Recorded v1.0.8 (2026-10-22, MCP command output bounded at a 30,000-character default with new required truncation fields and breaking effect for strict schema validators, opt-in recovery from failed Pods, GKE Pod Snapshot primitives for RL, Go SDK provisioning parity, and the sandbox-router Kustomization move with hardened credentials), the release count moving to twenty-eight.
 
 ## See also
 

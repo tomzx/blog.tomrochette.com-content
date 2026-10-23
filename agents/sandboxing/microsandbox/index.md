@@ -1,7 +1,7 @@
 ---
 title: Microsandbox
 created: 2026-10-07
-updated: 2026-10-19
+updated: 2026-10-23
 readability: 3
 audience_notes: >
   Engineers who want hardware-isolated sandboxes with container-style ergonomics on their own machines, including letting agents spawn VMs themselves.
@@ -33,7 +33,7 @@ Large by this category's standards and still shipping weekly: 8,704 stars, 106 o
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&legend=top-left" />
 </picture>
 
-v0.7.5, v0.7.6, and v0.7.7 shipped within a week ending 2026-10-05, a fast pre-1.0 minor-version cadence, and v0.7.8 followed on 2026-10-09 (secret substitution scoped to specific header fields, runtime-owned detached jobs, port ranges in published ports, snapshot filesystem-state limits, and a fix that refuses disk restores which would silently drop host mounts).
+v0.7.5, v0.7.6, and v0.7.7 shipped within a week ending 2026-10-05, a fast pre-1.0 minor-version cadence, v0.7.8 followed on 2026-10-09 (secret substitution scoped to specific header fields, runtime-owned detached jobs, port ranges in published ports, snapshot filesystem-state limits, and a fix that refuses disk restores which would silently drop host mounts), and v0.7.9 on 2026-10-22 (adding and removing published ports on running sandboxes, SDK-visible sandbox exit outcomes, JSON network-policy denial output by default, optional exec output backpressure, live label modifications on running sandboxes, restricted-backend configuration, and HTTP CONNECT proxy basic authentication).
 **Its Show HN of 2025-05-30 drew 402 points, the largest community thread of any member of this category, while a June 2026 resubmission drew 3 points, so the launch was a 2025 event and the current proof of life is the release train, not public debate.**
 
 ## Strengths
@@ -72,6 +72,7 @@ Not for anyone needing audited claims or a stable 1.0 API, and not for teams tha
 - 2026-10-07 - Created from the entrant-resolution run, profiling the libkrun-based microVM runtime behind the category's largest HN thread, with its self-reported-claims and provenance cautions.
 - 2026-10-10 - Recorded v0.7.8 (2026-10-09, header-scoped secret substitution, detached jobs, port ranges, snapshot limits, and the refuse-unsafe-restore fix), and refreshed counts (8,628 stars, 95 open issues and PRs, pushed 2026-10-10).
 - 2026-10-17 - Recorded the microsandbox cloud hosted backend (private beta, API-key billing, no published prices) in What it is, Cautions, Pricing, and the Bottom line, and fixed the star-history picture block (rotation re-verification; every cited URL re-fetched, v0.7.8 still the newest release).
+- 2026-10-23 - Recorded v0.7.9 (2026-10-22, live port and label modifications on running sandboxes, SDK-visible exit outcomes, JSON network-policy denial output by default, exec output backpressure, restricted-backend configuration, and HTTP CONNECT proxy basic authentication).
 
 ## See also
 

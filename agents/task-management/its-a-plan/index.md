@@ -1,7 +1,7 @@
 ---
 title: It's a Plan
 created: 2026-10-07
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, self-hosted, multi-agent, agpl]
 readability: 3
@@ -24,8 +24,9 @@ Andrii Poluosmak (the croffasia identity) maintains it under AGPL-3.0, except th
 ## Status
 
 Young, active, and climbing fast for its age.
-As of 2026-10-21: 963 stars (as of 2026-10-14), 233 forks, 49 open issues and pull requests, 39 contributors, created 2026-07-14, pushed 2026-10-20, 26 releases on a steady train, and 818 npm downloads last month for @itsaplan/runner.
-v1.6.0 (2026-10-20) is the largest post-1.0 release: an external agent can receive its tasks at a signed invocation URL, so a serverless agent on AWS Lambda, Azure Functions, or Cloudflare Workers needs no polling runner (runner 0.6.0 can also listen on a port), invites expire after a configurable lifetime, new accounts can be limited to allowed email domains, mail can send through Microsoft 365 with OAuth, the web app added Turkish beside Persian, and the MCP surface gained client visibility (a security page listing connected clients with immediate disconnect, a consent screen naming the client, account, and host, and a get_current_user tool), alongside breaking changes that moved every team into a workspace, removed POST /projects, and require MCP OAuth clients to re-register.
+As of 2026-10-23: 963 stars (as of 2026-10-14), 252 forks, 50 open issues and pull requests, 39 contributors, created 2026-07-14, pushed 2026-10-22, 27 releases on a steady train, and 818 npm downloads last month for @itsaplan/runner.
+v1.7.0 (2026-10-22) added agent run history (an issue's Activity page lists every run of its internal and external agents, and an AI Team runner queue lists active and past external runs, with transcripts since runner 0.7.0), run time limits (a god-mode cap up to 60 minutes per internal run with per-agent overrides, a run that hits its limit failing but keeping its output), and Traditional Chinese beside Turkish and Persian, while fixing four high and two medium security advisories.
+v1.6.0 (2026-10-20) is the largest post-1.0 release: an external agent can receive its tasks at a signed invocation URL, so a serverless agent on AWS Lambda, Azure Functions, or Cloudflare Workers needs no polling runner (runner 0.6.0 can also listen on a port), invites expire after a configurable lifetime, new accounts can be limited to allowed email domains, mail can send through Microsoft 365 with OAuth, and the MCP surface gained client visibility (a security page listing connected clients with immediate disconnect, a consent screen naming the client, account, and host, and a get_current_user tool), alongside breaking changes that moved every team into a workspace, removed POST /projects, and require MCP OAuth clients to re-register.
 v1.4.0 (2026-10-08) added agent schedules that also trigger when an issue enters a chosen state, plus Linear import, and v1.5.0 (2026-10-13) added agent usage accounting (cost, tokens, and runs by model, agent, project, and day, with admin-set prices for models the built-in table lacks), account deactivation, an api-on-subpath deployment mode, and the better-auth 1.7.7 fix for the critical OIDC sign-in advisory GHSA-965c-763c-88jm.
 
 <picture>
@@ -75,6 +76,7 @@ My disagreeable claim: an assignee slot is a sharper agent interface than an MCP
 - 2026-10-09 - Recorded the v1.4.0 release (2026-10-08: agent schedules that also run the agent when an issue enters a chosen state, Linear import, cross-project issue moves through the move_issue MCP tool) and refreshed counts (913 stars, 150 forks, 31 contributors, 24 releases, 758 npm downloads).
 - 2026-10-13 - Recorded the v1.5.0 release (2026-10-13: agent usage accounting with cost, tokens, and runs by model, agent, project, and day plus admin-set model prices, account deactivation, an api-on-subpath deployment mode, an installable web app, and the better-auth 1.7.7 fix for the critical OIDC sign-in advisory GHSA-965c-763c-88jm) and refreshed counts (963 stars, 159 forks, 42 open issues and pull requests, 25 releases, 797 npm downloads).
 - 2026-10-21 - Recorded v1.6.0 (2026-10-20: external agent tasks delivered to a signed invocation URL with no polling runner, expiring invites, allowed email domains, Microsoft 365 OAuth mail, Turkish beside Persian, the MCP client-visibility surface with disconnect and a naming consent screen, get_current_user, and the breaking team-to-workspace, POST /projects removal, and MCP OAuth re-registration changes) and refreshed counts (233 forks, 49 open issues and pull requests, 39 contributors, 26 releases, 818 npm downloads, runner at 0.6.0).
+- 2026-10-23 - Recorded v1.7.0 (2026-10-22: agent run history on issue Activity and an AI Team runner queue with transcripts since runner 0.7.0, run time limits up to 60 minutes with per-agent overrides, Traditional Chinese, and fixes for four high and two medium security advisories) and refreshed counts (252 forks, 50 open issues and pull requests, 27 releases, runner at 0.7.0).
 
 ## See also
 
@@ -88,10 +90,10 @@ My disagreeable claim: an assignee slot is a sharper agent interface than an MCP
 
 - https://itsaplan.dev - the product site: agents as teammates, views, deployment paths, the Product Hunt badge
 - https://github.com/croffasia/itsaplan - README: features, stack, license split, deployment options, the breaking-changes warning
-- https://api.github.com/repos/croffasia/itsaplan - stars, forks, contributors, dates, AGPL-3.0 as of 2026-10-21
+- https://api.github.com/repos/croffasia/itsaplan - stars, forks, contributors, dates, AGPL-3.0 as of 2026-10-23
 - https://itsaplan.dev/changelog - the release train: v1.0.0 2026-09-15 through v1.6.0 2026-10-20, Plane import, Linear import, OIDC and SCIM
 - https://github.com/croffasia/itsaplan/releases/tag/v1.5.0 - the v1.5.0 notes: usage accounting, account deactivation, the subpath deployment mode, the better-auth security fix
 - https://api.github.com/repos/croffasia/itsaplan/releases/tags/v1.6.0 - the v1.6.0 notes: the agent invocation URL, expiring invites, allowed email domains, Microsoft 365 OAuth mail, the MCP client-visibility surface, and the breaking changes
 - https://news.ycombinator.com/item?id=49971516 - the 1-point, comment-free throwaway thread, the missing-community-footprint signal
 - https://api.npmjs.org/downloads/point/last-month/@itsaplan/runner - 818 downloads last month for the external-runner package
-- https://registry.npmjs.org/@itsaplan/runner/latest - the runner package at 0.6.0
+- https://registry.npmjs.org/@itsaplan/runner/latest - the runner package at 0.7.0

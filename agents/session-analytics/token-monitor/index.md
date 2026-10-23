@@ -1,7 +1,7 @@
 ---
 title: Token Monitor
 created: 2026-10-06
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, desktop, open-source]
 readability: 3
@@ -10,13 +10,13 @@ audience_notes: >
   Assumes you know what a session file, a rate-limit window, and a token count are.
 ---
 
-Token Monitor is an MIT-licensed desktop widget that parses the local session files of more than 43 AI coding tools and shows live token usage, provider limits, and cost trends, with optional multi-device sync through a hub you host.
+Token Monitor is an MIT-licensed desktop widget that parses the local session files of more than 46 AI coding tools and shows live token usage, provider limits, and cost trends, with optional multi-device sync through a hub you host.
 
-**Token Monitor is this category's first live widget aimed at every tool at once: agents-observe streams one harness's events into a dashboard and CodeBurn puts spend in a menu bar, while Token Monitor reads 43-plus sources into one always-on window and keeps the history after the sources prune it.**
+**Token Monitor is this category's first live widget aimed at every tool at once: agents-observe streams one harness's events into a dashboard and CodeBurn puts spend in a menu bar, while Token Monitor reads 46-plus sources into one always-on window and keeps the history after the sources prune it.**
 
 ## What it is
 
-A desktop application (Windows 10+, macOS 12+, Linux x64; Homebrew cask) whose source table grades each of 43-plus tools separately for token usage, account limits, and session details, following Tokscale's path and environment-variable conventions, including reading Tokscale's Cursor cache for account-level Cursor usage.
+A desktop application (Windows 10+, macOS 12+, Linux x64; Homebrew cask) whose source table grades each of 46-plus tools separately for token usage, account limits, and session details, following Tokscale's path and environment-variable conventions, including reading Tokscale's Cursor cache for account-level Cursor usage.
 The widget updates within seconds of each turn, shows a live tok/s rate, and expands to cache hit versus miss breakdowns, per-session token splits, and cost in USD, TWD, HKD, or CNY with daily-updated exchange rates.
 An opt-in retention archive keeps daily tool and model usage locally after sources prune it (Claude Code drops transcripts after 30 days by default), and usage exports to CSV and JSON for spreadsheets, Obsidian, or Grafana.
 Multi-device sync is hub-backed over Server-Sent Events with three self-hosted backends (in-widget hub, Node CLI hub, or Cloudflare Worker) or eventually consistent iCloud Drive, and single-device use needs no server at all.
@@ -25,7 +25,8 @@ Made by Javis603, MIT-licensed.
 
 ## Status
 
-Young and shipping daily: 3,038 stars, 308 forks, 125 open issues, created 2026-05-19, pushed 2026-10-21, with v0.76.0 released 2026-10-20 (configurable Home list counts of one to fifty items per section, macOS notch swipe gestures with a Grow mode, a separate Antigravity Gemini 4 Argon quota, and a Windows Edge Dock fix for the dock hiding behind other windows), v0.75.0 released 2026-10-19 (Antigravity subagents grouped under their parent, DeepSeek Harness project breakdowns, an experimental macOS Notch Panel with Home, Limits, Sessions, and Breakdown pages, and Windows scan-priority lowering), v0.74.0 released 2026-10-18, v0.73.0 released 2026-10-16 (Oh My Pi session details, Claude Desktop usage across Chat, Code, and Cowork, Goose on Windows, and Cursor Included-usage quota fixes), v0.72.0 released 2026-10-15, v0.71.0 on 2026-10-14, and v0.70.0 on 2026-10-13, as of 2026-10-21.
+Young and shipping daily: 3,038 stars, 308 forks, 125 open issues, created 2026-05-19, pushed 2026-10-23, with v0.77.0 released 2026-10-21 (per-account API spend totals for today, the rolling week, and the month, plus optional batched Node Hub saves to cut disk writes), v0.76.0 released 2026-10-20 (configurable Home list counts of one to fifty items per section, macOS notch swipe gestures with a Grow mode, a separate Antigravity Gemini 4 Argon quota, and a Windows Edge Dock fix for the dock hiding behind other windows), v0.75.0 released 2026-10-19 (Antigravity subagents grouped under their parent, DeepSeek Harness project breakdowns, an experimental macOS Notch Panel with Home, Limits, Sessions, and Breakdown pages, and Windows scan-priority lowering), v0.74.0 released 2026-10-18, v0.73.0 released 2026-10-16 (Oh My Pi session details, Claude Desktop usage across Chat, Code, and Cowork, Goose on Windows, and Cursor Included-usage quota fixes), v0.72.0 released 2026-10-15, v0.71.0 on 2026-10-14, and v0.70.0 on 2026-10-13, as of 2026-10-23.
+Its source table keeps widening: the README now grades 46-plus tools, up from the 43-plus this note recorded at creation, with the newest rows reading account-level quota sources (TypeSafe, OpenRouter, Volcengine, Ollama Cloud, Trae CN, Alibaba Cloud, StepFun, Notion AI) alongside session-file tools.
 Its fork accounting was externally probed: the September 2026 AgentMeasure audit filed that Pi forks copied prior assistant records into new session files without cross-session dedup (issue 627), closed completed on 2026-09-12.
 
 <picture>
@@ -39,7 +40,7 @@ I found no Hacker News thread for the project; the only search hit for the name 
 
 ## Strengths
 
-- Live multi-tool coverage is a genuine gap: nothing else here renders usage across 43-plus tools in one view as turns happen.
+- Live multi-tool coverage is a genuine gap: nothing else here renders usage across 46-plus tools in one view as turns happen.
 - The retention archive answers a genuine loss: harnesses prune transcripts (Claude Code at 30 days by default), and the category's archive tools can only index what still exists.
 - Provider-limit detection spans session, daily, weekly, billing, and credits windows across 28-plus providers, including multiple OpenRouter profiles and prepaid balances.
 - The sync story is self-hosted by construction (your widget, Node hub, or Cloudflare Worker), with iOS widgets through the Worker hub.
@@ -78,6 +79,7 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 - 2026-10-17 - Recorded v0.73.0 (2026-10-16): Oh My Pi session details, Claude Desktop usage across Chat, Code, and Cowork, Goose on Windows, and Cursor Included-usage quota fixes; the pushed date moved to 2026-10-17.
 - 2026-10-19 - Recorded v0.74.0 (2026-10-18): a Liquid Glass clear style on macOS 26 or later, project breakdowns switching between tools and models token shares, Kilo Code native VS Code extension usage tracking, an experimental Top Notch entry, and Grok reasoning tokens folded into output and total usage; the pushed date moved to 2026-10-19.
 - 2026-10-21 - Recorded v0.75.0 (2026-10-19: Antigravity subagents grouped under their parent, DeepSeek Harness project breakdowns, an experimental macOS Notch Panel, Windows scan-priority lowering) and v0.76.0 (2026-10-20: configurable Home list counts, notch swipe gestures with a Grow mode, a separate Antigravity Gemini 4 Argon quota, and a Windows Edge Dock z-order fix); the pushed date moved to 2026-10-21 and repository counts refreshed (forks 286 to 308, open issues 120 to 125).
+- 2026-10-23 - Recorded v0.77.0 (2026-10-21: per-account API spend totals and batched Node Hub saves) and the README's coverage move to 46-plus graded tools, up from 43-plus, with the newest rows being account-level quota sources rather than session files.
 
 ## See also
 
@@ -90,7 +92,7 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 ## References
 
 - https://api.github.com/repos/Javis603/token-monitor - 3,038 stars, 286 forks, MIT license, created 2026-05-19, as of 2026-10-13
-- https://raw.githubusercontent.com/Javis603/token-monitor/main/README.md - the 43-plus-tool source table, live features, retention archive, hub sync options, and export formats
+- https://raw.githubusercontent.com/Javis603/token-monitor/main/README.md - the 46-plus-tool source table, live features, retention archive, hub sync options, and export formats
 - https://api.github.com/repos/Javis603/token-monitor/releases - v0.74.0 (2026-10-18), v0.73.0 (2026-10-16), v0.72.0 (2026-10-15), v0.71.0 (2026-10-14), v0.70.0 (2026-10-13), v0.69.0 (2026-10-11), v0.68.0 (2026-10-08)
 - https://github.com/Javis603/token-monitor/issues/627 - the external audit's Pi fork dedup finding, closed completed 2026-09-12
 - https://raw.githubusercontent.com/roy-tong/AgentMeasure/main/campaigns/audit-report-2026-09.md - the audit behind the external-probe sentence

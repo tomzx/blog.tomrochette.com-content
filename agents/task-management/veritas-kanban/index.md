@@ -1,7 +1,7 @@
 ---
 title: Veritas Kanban
 created: 2026-10-11
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, governance, local-first, open-source]
 readability: 3
@@ -24,7 +24,8 @@ Around the board: subtasks, bidirectional depends_on and blocks dependencies wit
 ## Status
 
 **Active, six versions deep in one year, single-maintainer.**
-840 stars as of 2026-10-14 (GitHub API), 100 forks, and 48 open issues and pull requests with a 2026-10-20 push (side branches; the main branch has been quiet since the v6.2.1 release commit, re-confirmed against the main tip on 2026-10-21) as of 2026-10-21, created 2026-01-26.
+840 stars as of 2026-10-14 (GitHub API), 100 forks, and 23 open issues and pull requests with a 2026-10-23 push as of 2026-10-23, created 2026-01-26.
+The main branch went quiet after the v6.2.1 release commit while side branches carried the work (2026-10-21), then resumed landing on 2026-10-23 with fixes for MCP tools using non-canonical task priorities, unparseable GitHub config JSON output, unbounded API body consumption, and desktop shutdown escalation.
 The newest tagged release is v6.2.1 (2026-09-10); the dependency model landed in v3.3.0, team rosters in v5.2, and the run-scoped tool control plane in v6, all inside the project's first year.
 A Hacker News search returns no story about it (2026-10-11), so adoption evidence is the repository curve plus the docs' own governance records.
 
@@ -69,6 +70,7 @@ My disagreeable claim: the run-scoped tool catalog belongs at the MCP layer, not
 
 - 2026-10-11 - Created after the orchestration resolution flagged the repository to this category, with the phase-authority and run-scoped-tool-catalog mechanisms recorded as the differentiators against the review-gate and ledger members.
 - 2026-10-21 - Rotation re-verification with every cited URL re-fetched live (repository page, README, FEATURES.md, SETUP-PATHS.md, releases, HN search): nothing material changed, with v6.2.1 still the newest tag, the main branch still quiet since its release commit while side-branch pushes continue, and the backlog corrected to 48 open issues and pull requests.
+- 2026-10-23 - Corrected the main-branch claim after the push signal showed main active again (2026-10-23 fixes: MCP tools using canonical task priorities, parseable GitHub config JSON output, bounded API body consumption, desktop shutdown escalation) and refreshed counts (23 open issues and pull requests, pushed 2026-10-23).
 
 ## See also
 

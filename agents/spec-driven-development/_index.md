@@ -21,6 +21,7 @@ Specification-first workflows: the movement's process layers and toolkits, sized
 - [Intent-Router](intent-router/index.md) - the MIT single skill that compiles a vague request into a typed IntentSpec contract and checks the delivered work against it one constraint at a time, its 1,017-star spike deflated to 158 by an apparent engagement purge and re-inflating to 239 on fresh-account engagement.
 - [Mycelium](mycelium/index.md) - the MIT Claude Code plugin whose hooks gate the agent's first source file on a four-question discovery brief (problem, who has it, assumptions, falsifiers) written as evidence-graded YAML, the discovery-gate kind, 47 stars with no independent coverage as of 2026-10-16.
 - [OpenSpec](openspec/index.md) - the brownfield spec toolkit whose delta proposals archive into a living ledger, about 2.8M npm downloads a month.
+- [PDD Kit](pdd-kit/index.md) - the solo MIT skill trio that keeps a standing, present-tense product model under product-model/ and checks the code against it, with coverage.md naming what the model does not account for, 80 stars and no independent coverage as of 2026-10-23.
 - [Spec Kitty](spec-kitty/index.md) - the Spec Kit-derived governance CLI whose work packages run in isolated git worktrees behind review gates, about 1.7k stars.
 - [Spec-Driven Develop](spec-driven-develop/index.md) - the solo pure-Markdown skills pack that runs large changes as one GitHub Issue per task and one batch PR per phase, with a drift score that halts plan decay, 986 stars and quiet since July.
 - [Superpowers](superpowers/index.md) - the mandatory-workflow skill suite installed in 16 harnesses behind the category's largest adoption figure, about 299k stars, with 7.0's rebuilt brainstorming sizing the ceremony to the work.
@@ -47,3 +48,4 @@ Its members are compared on shared rows in the [Spec Driven Development Feature 
 - 2026-10-16 - Added Mycelium.
 - 2026-10-17 - Added AI Unified Process.
 - 2026-10-21 - Added Archcore.
+- 2026-10-23 - Added PDD Kit.

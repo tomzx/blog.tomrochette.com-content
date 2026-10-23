@@ -1,7 +1,7 @@
 ---
 title: Pad
 created: 2026-10-11
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, project-management, local-first, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Perpetual Software LLC maintains it; every change is versioned per item with the
 ## Status
 
 Active and pre-1.0.
-As of 2026-10-21: 193 stars (as of 2026-10-14), 24 forks, created 2026-03-26, pushed 2026-10-21, on a roughly weekly release cadence with v0.18.1 (2026-10-18) the newest tag after v0.18.0 stable (2026-10-17, which followed eleven release candidates), and the changelog delegated to signed GitHub Releases carrying SBOMs and SLSA provenance.
+As of 2026-10-23: 193 stars (as of 2026-10-14), 24 forks, created 2026-03-26, pushed 2026-10-23, on a roughly weekly release cadence with v0.18.1 (2026-10-18) the newest tag after v0.18.0 stable (2026-10-17, which followed eleven release candidates), and the changelog delegated to signed GitHub Releases carrying SBOMs and SLSA provenance.
 v0.18.1 is a three-fix patch: the Stripe billing portal reachable again, account exports stopping at their deadline instead of running past it, and refused MCP calls naming their cause on both the stdio and HTTP transports.
 The v0.18.0 stable ship is the largest single release so far: `pad item patch` edits part of an item body with the change landing live in anyone's open editor plus an undo, conventions and playbooks track their library upstream with a diff-and-update review, the Claude Code plugin gained a `/pad-pane` side panel, collections can be marked reference instead of work, and agent writes gained idempotency keys and version checking.
 

@@ -1,7 +1,7 @@
 ---
 title: Fabro
 created: 2026-10-10
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, workflow-graphs, rust]
 readability: 3
@@ -21,15 +21,15 @@ Execution runs on your laptop or in Daytona cloud sandboxes with SSH and preview
 
 ## Status
 
-Active: 1,702 stars since creation on 2026-03-13 (as of 2026-10-13), pushed 2026-10-20, per the GitHub API.
+Active: 1,702 stars since creation on 2026-03-13 (as of 2026-10-13), pushed 2026-10-22, per the GitHub API.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fabro-sh/fabro&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=fabro-sh/fabro&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=fabro-sh/fabro&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=fabro-sh/fabro&type=date&theme=dark&legend=top-left" />
 </picture>
 
-**Every tagged release is a nightly prerelease (v0.389.0-nightly.0 of 2026-10-17 the newest), the Homebrew tap serves fabro-nightly, and no stable release exists.**
+**Every tagged release is a nightly prerelease (v0.393.0-nightly.1 of 2026-10-21 the newest), the Homebrew tap serves fabro-nightly, and no stable release exists.**
 The independent footprint is two self-submitted Show HN threads at 7 and 6 points, where the author names Stripe's Minions and Factory.ai Droids as the analogs and positions Fabro as the open, own-your-toolchain alternative.
 
 ## Strengths
@@ -66,6 +66,7 @@ Not for anyone needing stable tagged releases, proven scale, or a factory that a
 
 - 2026-10-10 - Created from the awesome-software-factories scan as the workflow-graph member.
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched (repository, why-fabro docs, the launch thread, the releases API, the HN search, and the awesome-software-factories list) and all claims confirmed, including the nightly-only train (v0.389.0-nightly.0 still the newest tag) and the pushed date; no material change.
+- 2026-10-23 - Corrected the star-history chart's light source, which wrongly carried the dark-theme parameter, and refreshed the volatile lines (pushed 2026-10-22, nightly train at v0.393.0-nightly.1); no material change.
 
 ## See also
 
@@ -79,6 +80,6 @@ Not for anyone needing stable tagged releases, proven scale, or a factory that a
 - https://github.com/fabro-sh/fabro - repository, feature table, example workflow, install methods, and license
 - https://docs.fabro.sh/getting-started/why-fabro - the problem framing, the DOT-graph model, and the verification layers
 - https://news.ycombinator.com/item?id=47652404 - the author's launch thread, analogs, and positioning
-- https://api.github.com/repos/fabro-sh/fabro/releases - the nightly-only release train, v0.389.0-nightly.0 newest as of 2026-10-21
+- https://api.github.com/repos/fabro-sh/fabro/releases - the nightly-only release train, v0.393.0-nightly.1 newest as of 2026-10-23
 - https://hn.algolia.com/api/v1/search?query=fabro&tags=story - the thin independent-discussion footprint this note records
 - https://github.com/varun1505/awesome-software-factories - the third-party curated list that surfaced this note

@@ -1,7 +1,7 @@
 ---
 title: OpenShell
 created: 2026-08-30
-updated: 2026-10-16
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, nvidia, open-source]
 readability: 3
@@ -32,6 +32,7 @@ Fast adoption, newly stable and surging: 16,365 stars, 1,796 forks, 556 open iss
 </picture>
 
 The v0.1.0 pre-release train graduated to stable v0.1.0 on 2026-09-25, with v0.1.1 following on 2026-09-26, v0.1.2 on 2026-09-28, v0.1.3 on 2026-10-09 (an Oracle Cloud Infrastructure Generative AI provider profile, refusal of protocol upgrades on JSON-RPC and MCP endpoints, Ctrl-D session detach, optional cluster-scoped RBAC in Helm, corporate-proxy CA bundle support, and gateway OCSF events written to JSONL), and v0.1.4 on 2026-10-13 (the gateway runnable as a snap user service by default, operator-only provider credential retrieval, stable credential placeholders, a startup error that names the Landlock ABI, and a stale-issue closer that shuts issues after fourteen additional days), and the README now advertises a stable release cadence for the 0.1.x line and no longer carries the alpha badge, at about 1,740 commits and 132 contributors.
+v0.1.5 (2026-10-20) added push-mode configuration delivery that reaches sandboxes in about 100 milliseconds, OCSF authentication events for rejected requests, operator-opt-in virtiofs host-directory mounts on MicroVM sandboxes, a MicroVM shutdown fix that flushes the guest filesystem before stop so recent writes survive, Kubernetes pod-annotation allowlists, and the versioned Sandbox Protocol published for independently implemented backends.
 **Late September 2026 NVIDIA folded OpenShell into a branded Open Agent Safety Platform reference design alongside NVIDIA Sentry and BlueField-4 in-silicon enforcement on a dedicated product page, and stars jumped roughly 4,300 in the following three days, a vendor push rather than a Hacker News wave, whose debut threads drew only 2 or 3 points.**
 NVIDIA's own blog still calls it an early preview, and a stable line three point releases deep plus experimental Kubernetes and GPU features say production use is a bet on the vendor staying in.
 In September 2026 the team also published a formal-methods discussion of encoding the full OpenShell policy as formal logic and proving containment queries with SAT, SMT, and Z3, which reached 40 points on Hacker News.
@@ -80,6 +81,7 @@ Not for production-critical paths this quarter, or shops that cannot run Docker 
 - 2026-10-07 - Added the NVIDIA/OpenShell star history chart to the Status section.
 - 2026-10-10 - Recorded v0.1.3 (2026-10-09, OCI Generative AI provider profile, protocol-upgrade refusal on JSON-RPC and MCP endpoints, Ctrl-D detach, optional cluster-scoped RBAC, corporate-proxy CA bundles, gateway OCSF JSONL events), the commit count moving to 1,687, with growth refreshed (15,646 stars, 1,751 forks, 588 open issues and PRs).
 - 2026-10-13 - Recorded v0.1.4 (2026-10-13, snap user-service gateway default, operator-only provider credential retrieval, stable credential placeholders, the Landlock ABI named in startup errors, a stale-issue closer), corrected the open-issues caution (597 to 529, now below the 536 platform-launch peak, the closer's effect), and refreshed counts (16,112 stars, 1,776 forks, 132 contributors, 1,740 commits).
+- 2026-10-23 - Recorded v0.1.5 (2026-10-20, push-mode configuration delivery at about 100 milliseconds, OCSF authentication events for rejected requests, operator-opt-in virtiofs host mounts on MicroVM sandboxes, the MicroVM shutdown write-flush fix, Kubernetes pod-annotation allowlists, and the versioned Sandbox Protocol published for independent backends).
 
 ## See also
 

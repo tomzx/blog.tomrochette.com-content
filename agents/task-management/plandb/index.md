@@ -1,7 +1,7 @@
 ---
 title: PlanDB
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, local-first, sqlite, open-source]
 readability: 3
@@ -25,8 +25,8 @@ The installer (`curl agentfield.ai/plandb/install | bash`) auto-configures Claud
 ## Status
 
 Stalled as a standalone release train, alive inside a busy ecosystem.
-As of 2026-10-13: 106 stars, 10 forks, 6 open issues, created 2026-03-04, pushed 2026-09-24, and the newest tagged release is v0.2.1 from 2026-05-05, so five months have produced exactly one commit (an atomic task-split fix on 2026-09-24).
-The parent org is active: AgentField (2,611 stars) was pushed 2026-10-05, and SWE-AF (1,033 stars), which uses PlanDB internally to coordinate parallel agent workstreams, was pushed 2026-10-08.
+106 stars as of 2026-10-13, 11 forks and 6 open issues as of 2026-10-23, created 2026-03-04, pushed 2026-09-24, and the newest tagged release is v0.2.1 from 2026-05-05, so nearly six months have produced exactly one commit (an atomic task-split fix on 2026-09-24).
+The parent org is active: AgentField (2,611 stars as of 2026-10-13) was pushed 2026-10-22, and SWE-AF (1,033 stars as of 2026-10-13), which uses PlanDB internally to coordinate parallel agent workstreams, was pushed 2026-10-20.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Agent-Field/plandb&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ The parent org is active: AgentField (2,611 stars) was pushed 2026-10-05, and SW
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Agent-Field/plandb&type=date&legend=top-left" />
 </picture>
 
-An HN search for plandb returns no story about it as of 2026-10-13, so the adoption evidence is the repository curve and the parent stack's internal usage, not independent discussion.
+An HN search for plandb returns no story about it as of 2026-10-23 (re-confirmed title-restricted; the fuzzy hits are Plandex, PlanD, and Plandemic), so the adoption evidence is the repository curve and the parent stack's internal usage, not independent discussion.
 
 ## Strengths
 
@@ -53,7 +53,7 @@ An HN search for plandb returns no story about it as of 2026-10-13, so the adopt
 ## Pricing
 
 Free and open source under Apache-2.0.
-No paid tier, hosting, or account exists; the parent AgentField site prices its whole stack at zero dollars with no paid tier.
+No paid tier, hosting, or account exists for PlanDB itself; the parent AgentField site no longer publishes a stack price and now pitches an enterprise program (design partners and briefings for a self-hosted control plane) with no listed price as of 2026-10-23.
 
 ## Compared to
 
@@ -70,6 +70,7 @@ My disagreeable claim: the five-month gap matters less than it looks, because th
 ## Changes
 
 - 2026-10-13 - Created after the GitHub entrant scan surfaced it, recording the compound graph, the atomic claims, and the five-month release gap.
+- 2026-10-23 - Rotation re-verification with every cited URL re-fetched live (repository, API, releases, README, ARCHITECTURE, agentfield.ai, HN search): the release gap is now nearly six months, the parent org restructured its site around an enterprise program and dropped the zero-dollar stack statement, and the HN no-story claim was re-confirmed against title-restricted search.
 
 ## See also
 
@@ -83,7 +84,7 @@ My disagreeable claim: the five-month gap matters less than it looks, because th
 - https://github.com/Agent-Field/plandb - repository: README, install paths, interfaces, the AgentField relationship (fetched 2026-10-13)
 - https://raw.githubusercontent.com/Agent-Field/plandb/main/README.md - the compound graph, atomic claiming, split/insert/pivot, pre and post conditions, the installer behavior, the benchmark demo
 - https://raw.githubusercontent.com/Agent-Field/plandb/main/docs/ARCHITECTURE.md - the SQLite-file-as-coordination-layer thesis and the containment-plus-dependency model
-- https://api.github.com/repos/Agent-Field/plandb - stars, forks, dates, license, push date as of 2026-10-13
+- https://api.github.com/repos/Agent-Field/plandb - stars, forks, dates, license, push date as of 2026-10-23
 - https://api.github.com/repos/Agent-Field/plandb/releases - v0.2.1 (2026-05-05) and the release gap
-- https://agentfield.ai/ - the parent stack: the zero-dollar one-tier pricing statement, CodeAF and the control plane around PlanDB
-- https://hn.algolia.com/api/v1/search?query=plandb&tags=story - no story about plandb as of 2026-10-13, the missing footprint signal
+- https://agentfield.ai/ - the parent stack: the runtime and control plane around PlanDB, its enterprise program with no listed price (restructured since 2026-10-13, re-fetched 2026-10-23)
+- https://hn.algolia.com/api/v1/search?query=plandb&tags=story - no story about plandb as of 2026-10-23, the missing footprint signal

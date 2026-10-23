@@ -1,7 +1,7 @@
 ---
 title: ccusage
 created: 2026-10-05
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The repository is a monorepo created by ryoppippi (the project moved from his pe
 ## Status
 
 **The most-installed tool in this category by an order of magnitude, and until today the only one this section had never profiled.**
-About 19k stars (19,001) and 884 forks as of 2026-10-21, created 2025-05-29, pushed 2026-10-20 (GitHub API).
+About 19k stars (19,001) and 884 forks as of 2026-10-21, created 2025-05-29, pushed 2026-10-23 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ About 19k stars (19,001) and 884 forks as of 2026-10-21, created 2025-05-29, pus
 </picture>
 
 The npm package pulled 870,995 downloads in the trailing month (2026-09-19 to 2026-10-18), roughly nine times the claude-mem plugin and far ahead of every session-analytics peer here.
-The release line is v20.x with rapid patches: v20.0.37 (2026-10-19, requestless resp_ content blocks in Claude transcripts counted once) is the latest tagged release, after v20.0.36 (2026-10-18, Antigravity model-ID mappings to gemini-4-argon and gemini-3.1-flash-lite), v20.0.35 (2026-10-17, reporting stored cost in JSON model breakdowns), v20.0.34 (2026-10-15), v20.0.33 (2026-10-14, reading Zstandard-compressed Codex rollouts), and v20.0.32 (2026-10-14), as of 2026-10-21.
+The release line is v20.x with rapid patches: v20.0.41 (2026-10-22, the Antigravity model ID 1402 mapped to claude-opus-5-5) is the latest tagged release, after v20.0.40 (2026-10-21, --start-of-week accepted on top-level weekly reports) and v20.0.37 (2026-10-19, requestless resp_ content blocks in Claude transcripts counted once), as of 2026-10-23.
 Its Show HN launch thread reached 75 points in July 2025, and the README carries an Awesome Claude Code mention badge.
 
 ## Strengths

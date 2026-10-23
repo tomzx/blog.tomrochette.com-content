@@ -1,7 +1,7 @@
 ---
 title: Brood Box
 created: 2026-10-12
-updated: 2026-10-18
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, kvm, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Built by Stacklok, the supply-chain security company behind ToolHive and Minder;
 
 ## Status
 
-Small and steady: 78 stars, 8 contributors including its dependency bot, as of 2026-10-16, created 2026-02-13, pushed 2026-10-17, Apache-2.0.
+Small and steady: 78 stars, 8 contributors including its dependency bot, as of 2026-10-16, created 2026-02-13, pushed 2026-10-22, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stacklok/brood-box&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Small and steady: 78 stars, 8 contributors including its dependency bot, as of 2
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=stacklok/brood-box&type=date&legend=top-left" />
 </picture>
 
-The release train ran from v0.0.18 (2026-05-04) through v0.0.25 (2026-09-14), roughly monthly, with commits resuming 2026-10-13 after a month quiet (dependency bumps and, on 2026-10-16, a contributor PR adding `.claude.json` to Claude Code's retained credential paths).
+The release train ran from v0.0.18 (2026-05-04) through v0.0.25 (2026-09-14), roughly monthly, with commits resuming 2026-10-13 after a month quiet (dependency bumps and, on 2026-10-16, a contributor PR adding `.claude.json` to Claude Code's retained credential paths), and the dependency-bump train continuing through 2026-10-21.
 I found no Hacker News thread for the project (the Algolia query for "brood box" returns zero stories), so the 78 stars arrived without any launch moment.
 **A vendor-owned project with six months of monthly releases is the reliable kind of small, but the footprint is too thin for community security review, the boundary is self-described, and no audit exists.**
 
@@ -71,6 +71,7 @@ Not for Windows or Intel Macs, for parallel multi-agent fleets (the job Brig doe
 
 - 2026-10-12 - Created from the 2026-10-12 awesome-claude-code scan, profiling Stacklok's review-gated microVM runner with the review gate recorded as the distinguishing mechanism.
 - 2026-10-13 - Recorded commits resuming 2026-10-13 after a month quiet (a ToolHive v0.52.0 dependency bump); v0.0.25 remains the latest release and counts are unchanged.
+- 2026-10-23 - Rotation re-verification: every cited URL re-fetched (repository, release train, ToolHive, the HN story search), all alive; the push advanced to 2026-10-22 on dependency bumps alone, v0.0.25 remains the latest release, the experimental README stands unchanged, and the HN story search still returns zero hits.
 
 ## See also
 

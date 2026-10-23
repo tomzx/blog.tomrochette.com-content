@@ -15,17 +15,19 @@ Tools that turn what coding agents already record into searchable history, cost 
 - [agents-observe](agents-observe/index.md) - the live dashboard for Claude Code and Codex sessions, hooks feeding a local server, multi-agent trees and cost breakdowns in real time.
 - [agentsview](agentsview/index.md) - the local-first indexer for roughly 60 agents' session files, retrospective search and token-cost reporting in one SQLite store.
 - [AgentTrace](agenttrace/index.md) - the local Rust TUI and CLI that audits session cost, tokens, latency, failures, and health across about 13 coding-agent formats, with CI gates.
+- [ax](ax/index.md) - the local agent-experience graph that ingests six harnesses' sessions, skills, git history, and GitHub PRs into an embedded DuckDB graph, with recall, per-branch cost, skill scoring, cost routing, and a retro improve loop, 121 stars.
 - [ccusage](ccusage/index.md) - the zero-install CLI that turns eighteen coding agents' local usage files into daily-to-session cost reports, the incumbent every tool here benchmarks against.
 - [Claude Code Agent Monitor](claude-code-agent-monitor/index.md) - the local live control room over Claude Code, Cursor, and Codex sessions, native hooks plus transcript discovery, with cost tracking, config inspection, and launch-and-resume control, 1,072 stars.
 - [claude-devtools](claude-devtools/index.md) - the local desktop DevTools that reconstruct Claude Code sessions from ~/.claude logs, with per-turn token attribution across seven context categories, tool-call inspection, and subagent trees.
 - [claude-replay](claude-replay/index.md) - the zero-dependency CLI compiling sessions from seven harnesses into one self-contained interactive HTML replay with speed control, diffs, and secret redaction, the category's first shareable-artifact output, 844 stars.
 - [ClawTrace](clawtrace/index.md) - the hosted tracing and cost-attribution platform for OpenClaw runs, with full-payload traces and an AI analyst named Tracy, billed in credits.
 - [CodeBurn](codeburn/index.md) - the local desktop app and CLI that cuts AI coding spend by task, branch, and project, with plan-quota tracking, config optimization, and session spend guards.
+- [CodexMonitor](codexmonitor/index.md) - the dormant MIT Tauri command center for Codex, streaming threads and approvals over the app-server protocol with account usage metering and git and GitHub panels, 4,348 stars.
 - [Coucou](coucou/index.md) - the notch companion with iPhone and Android apps watching eleven agents live, answering Claude Code and Codex permission requests from the notch, the Lock Screen, or a linked Android phone.
 - [ctx](ctx/index.md) - local search over the sessions agents already recorded, with blame attribution from any line of code back to its transcript.
 - [git-ai](git-ai/index.md) - the git-layer provenance recorder that links every line of AI code to the agent, model, and prompt that wrote it, stored in Git Notes so attribution survives every rebase, now part of OpenAI's Codex team, 2,839 stars.
 - [Memex](memex/index.md) - the Rust CLI that indexes multi-harness session transcripts locally with BM25 or embeddings and resumes the session you find.
-- [Token Monitor](token-monitor/index.md) - the live desktop usage widget across 43-plus AI coding tools, with provider-limit tracking, retention archiving, and self-hosted multi-device sync.
+- [Token Monitor](token-monitor/index.md) - the live desktop usage widget across 46-plus AI coding tools, with provider-limit tracking, retention archiving, and self-hosted multi-device sync.
 - [Tokscale](tokscale/index.md) - the terminal CLI and TUI that reads about 50 agents' local usage stores into one token and cost report, with an opt-in public leaderboard.
 
 Its members are compared on shared rows in the [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md).
@@ -49,3 +51,5 @@ Its members are compared on shared rows in the [Session Analytics Feature Matrix
 - 2026-10-10 - Added Coucou.
 - 2026-10-11 - Added git-ai.
 - 2026-10-16 - Added AgentMeasure.
+- 2026-10-23 - Added ax.
+- 2026-10-23 - Added CodexMonitor.

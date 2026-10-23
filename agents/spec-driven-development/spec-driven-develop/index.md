@@ -1,7 +1,7 @@
 ---
 title: Spec-Driven Develop
 created: 2026-10-11
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, github-issues, workflow, open-source]
 readability: 3
@@ -84,4 +84,4 @@ Not for small changes, not for repos outside GitHub's tracker model, and not for
 - https://raw.githubusercontent.com/zhu1090093659/spec_driven_develop/main/README.zh-CN.md - the Chinese README grounding the bilingual distribution claim
 - https://github.com/zhu1090093659/spec_driven_develop/releases.atom - the release history: five releases, all July 2026, through v1.15.0 (2026-07-26)
 - https://hysenlabs.com/en/projects/zhu1090093659-spec-driven-develop - the independent directory review (updated 2026-09-10), the critical source
-- https://hn.algolia.com/api/v1/search?query=zhu1090093659&hitsPerPage=5 - the missing Hacker News footprint, re-checked 2026-10-21
+- https://hn.algolia.com/api/v1/search?query=zhu1090093659&hitsPerPage=5 - the missing Hacker News footprint, re-checked 2026-10-23

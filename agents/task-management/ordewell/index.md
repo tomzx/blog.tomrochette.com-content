@@ -1,7 +1,7 @@
 ---
 title: Ordewell
 created: 2026-09-16
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, planner, multi-agent, open-source]
 readability: 3
@@ -25,7 +25,8 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 ## Status
 
 Active, young, and small.
-As of 2026-10-21: 202 stars (as of 2026-10-14), 18 forks, 52 open issues and pull requests, created 2026-07-31, pushed 2026-10-20, latest release v0.10.10 on 2026-10-19, and about 10,300 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+As of 2026-10-23: 202 stars (as of 2026-10-14), 18 forks, 44 open issues and pull requests, created 2026-07-31, pushed 2026-10-22, latest release v0.10.12 on 2026-10-22, and about 10,300 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+v0.10.11 and v0.10.12 (both 2026-10-22) consolidated run and planner settings into one /settings surface with the one-value slash commands gone from the TUI and VS Code (the headless CLI keeps them), held a task_complete report until its turn closes so the tool reply reaches the runner before the verdict stops it, and kept a completion through a forced message and a message_undelivered exit so the runner's success is not discarded.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ordewell/ordewell&type=date&theme=dark&legend=top-left" />
@@ -91,6 +92,7 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - 2026-10-16 - Recorded the v0.10.x line (all three 2026-10-14: v0.10.0's consent-integrity security release, the planner unable to raise its own run settings per ADR-0030 and supervisors able to narrow but never widen runner permissions per ADR-0029, v0.10.1's in-task checkpoint answering, and v0.10.2) and refreshed counts (50 open issues and pull requests, pushed 2026-10-15).
 - 2026-10-17 - Recorded the v0.10.3 release (2026-10-16: the nothing-runs-until-approval first screen, no-key first runs planning with an installed coding agent, provider-wide API-key setup, task cards showing runner, model, and effort, and approval and ops-task scheduling fixes) and refreshed counts (pushed 2026-10-16).
 - 2026-10-21 - Recorded the v0.10.4 to v0.10.10 line (2026-10-17 to 2026-10-19: saved sessions load idle until explicitly continued, a dead planner process restarts between turns, and the unified context-and-cost usage line across TUI, status, and VS Code with the runner stopped at its task_complete report) and refreshed counts (18 forks, 52 open issues and pull requests, pushed 2026-10-20, about 10,300 npm downloads).
+- 2026-10-23 - Recorded v0.10.11 and v0.10.12 (both 2026-10-22: the one /settings surface with the one-value slash commands gone from TUI and VS Code, task_complete held until the turn closes, and completions surviving forced messages and exits) and refreshed counts (44 open issues and pull requests, pushed 2026-10-22).
 
 ## See also
 

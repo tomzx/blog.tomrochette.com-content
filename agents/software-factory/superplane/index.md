@@ -1,7 +1,7 @@
 ---
 title: SuperPlane
 created: 2026-10-07
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The core is Apache-2.0 with integrations across source control, CI, cloud, obser
 
 ## Status
 
-Active and the category's largest member: 7,709 stars as of 2026-10-14, 660 forks and 463 open issues as of 2026-10-21, pushed 2026-10-21, per the GitHub API.
+Active and the category's largest member: 7,709 stars as of 2026-10-14, 660 forks and 463 open issues as of 2026-10-21, pushed 2026-10-23, per the GitHub API.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&theme=dark&legend=top-left" />
@@ -29,7 +29,7 @@ Active and the category's largest member: 7,709 stars as of 2026-10-14, 660 fork
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&legend=top-left" />
 </picture>
 
-**The positioning pivoted and the release story split in two: the January 2026 Show HN launched it as an open source DevOps control plane (21 points), the newest stable platform tag is still v0.30.0 (2026-07-27), the platform's release candidates since July advanced from v1.0.0-rc1 (2026-10-16) to rc2 (2026-10-19) and rc3 (2026-10-20), a first CLI component joined as cli/v1.0.0-rc1 (2026-10-19), and the component train that began as prereleases on 2026-10-13 and 2026-10-14 has moved past RC to a first stable runner tag, runner v0.2.0, beside fleet-manager v0.1.2 through v0.1.4 (2026-10-15), all published as container images.**
+**The positioning pivoted and the release story split in two: the January 2026 Show HN launched it as an open source DevOps control plane (21 points), the newest stable platform tag is still v0.30.0 (2026-07-27), the platform's release candidates since July advanced from v1.0.0-rc1 (2026-10-16) to rc5 (2026-10-23), a first CLI component joined as cli/v1.0.0-rc1 (2026-10-19), and the component train that began as prereleases on 2026-10-13 and 2026-10-14 has moved past RC to stable runner tags at v0.2.1, beside fleet-manager v0.1.2 through v0.1.5 (2026-10-22), all published as container images.**
 The repository now carries the software-factory topic and the website and docs sell one-shot routine engineering, which is the frame this note reads it under.
 
 ## Strengths
@@ -41,7 +41,7 @@ The repository now carries the software-factory topic and the website and docs s
 
 ## Cautions
 
-- **Stable platform tags still lag main by months**: v0.30.0 on 2026-07-27 against daily main pushes, so tag-tracking self-hosters run old code; the component train has moved past RC to runner v0.2.0 and fleet-manager v0.1.4, and the v1.0.0-rc train (rc1 through rc3, 2026-10-16 to 2026-10-20) sits in prerelease while the platform itself remains on the July stable tag.
+- **Stable platform tags still lag main by months**: v0.30.0 on 2026-07-27 against daily main pushes, so tag-tracking self-hosters run old code; the component train has moved past RC to runner v0.2.1 and fleet-manager v0.1.5, and the v1.0.0-rc train (rc1 through rc5, 2026-10-16 to 2026-10-23) sits in prerelease while the platform itself remains on the July stable tag.
 - **Open-core split**: the /ee directory sits under a separate Enterprise Edition license, and GitHub cannot classify the result.
 - **Young platform surface**: 463 open issues and a January control-plane-to-factory pivot mean the docs story is still settling.
 - **It is broader than a factory**: workflow automation across observability and incidents puts it in workflow-platform territory too, which dilutes the factory comparison.
@@ -77,6 +77,7 @@ Not for local-first, single-repo loops, and not for anyone who needs tagged rele
 - 2026-10-16 - Recorded the component train advancing past prerelease: runner v0.2.0 (the first stable runner tag) and fleet-manager v0.1.2 through v0.1.4 (2026-10-15), while v0.30.0 remains the newest stable platform tag.
 - 2026-10-17 - Recorded the platform's first release candidate since July, v1.0.0-rc1 (2026-10-16, container image); v0.30.0 remains the newest stable tag; pushed date refreshed.
 - 2026-10-21 - Recorded the RC train advancing to v1.0.0-rc2 (2026-10-19) and v1.0.0-rc3 (2026-10-20) and the first CLI component tag, cli/v1.0.0-rc1 (2026-10-19); v0.30.0 remains the newest stable platform tag; pushed date refreshed.
+- 2026-10-23 - Recorded the RC train advancing to v1.0.0-rc4 (2026-10-22) and v1.0.0-rc5 (2026-10-23) and the component tags moving to runner v0.2.1 (2026-10-23) and fleet-manager v0.1.5 (2026-10-22); v0.30.0 remains the newest stable platform tag; pushed date refreshed.
 
 ## See also
 
@@ -93,5 +94,5 @@ Not for local-first, single-repo loops, and not for anyone who needs tagged rele
 - https://docs.superplane.com/get-started/overview - the factory docs overview
 - https://github.com/superplanehq/superplane/blob/main/LICENSE - Apache-2.0 core with the /ee Enterprise Edition license
 - https://news.ycombinator.com/item?id=46793814 - the January 2026 Show HN as an open source DevOps control plane, 21 points
-- https://api.github.com/repos/superplanehq/superplane/releases - the release train: v0.30.0 the newest stable platform tag, v1.0.0-rc3 (2026-10-20) newest overall as of 2026-10-21
+- https://api.github.com/repos/superplanehq/superplane/releases - the release train: v0.30.0 the newest stable platform tag, v1.0.0-rc5 (2026-10-23) newest overall as of 2026-10-23
 - https://github.com/markoa - Marko Anastasov, SuperPlaneHQ and Semaphore cofounder

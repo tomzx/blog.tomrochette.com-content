@@ -1,7 +1,7 @@
 ---
 title: ArtifactFS
 created: 2026-08-30
-updated: 2026-10-16
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, workspace-provisioning, git, cloudflare, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, Go 1.26+, source build only, no packaged releases.
 
 ## Status
 
-Early beta: 1,190 stars, 52 forks, 6 open issues as of 2026-10-16, created 2026-03-29, last push 2026-09-11.
+Early beta: 1,190 stars as of 2026-10-16, 53 forks and 6 open issues as of 2026-10-23, created 2026-03-29, last push 2026-10-21 (branch activity; the main branch has been quiet since 2026-08-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cloudflare/artifact-fs&type=date&theme=dark&legend=top-left" />

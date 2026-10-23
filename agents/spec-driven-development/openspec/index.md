@@ -1,7 +1,7 @@
 ---
 title: OpenSpec
 created: 2026-08-27
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, specs, open-source]
 readability: 3
@@ -30,7 +30,7 @@ Half of spec-kit's stars in a third of the time.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&legend=top-left" />
 </picture>
 
-As of 2026-10-14: about 71k stars (71,842) and about 4.9k forks since creation on 2025-08-05, 185 open issues and pull requests, MIT; as of 2026-10-21, pushed 2026-10-21, release v1.14.3 (2026-10-17) is the newest (tolerating symlinked spec files, which the changelog now says are not officially supported layouts, the audit-failing braces dependency dropped, and a validate hang fix in pre-commit hooks), with 2,833,610 npm downloads last month (the 2026-09-19 to 2026-10-18 window, fetched 2026-10-21).
+As of 2026-10-14: about 71k stars (71,842) and about 4.9k forks since creation on 2025-08-05, 185 open issues and pull requests, MIT; as of 2026-10-23, pushed 2026-10-23, release v1.14.3 (2026-10-17) is the newest (tolerating symlinked spec files, which the changelog now says are not officially supported layouts, the audit-failing braces dependency dropped, and a validate hang fix in pre-commit hooks), with 2,833,610 npm downloads last month (the 2026-09-19 to 2026-10-18 window, re-read byte-identical 2026-10-23).
 **Its Hacker News footprint is effectively empty (no significant thread found this run), so adoption spread through X and Discord, and third-party verification is thinner than the install count implies.**
 The README's own superlative ("the most loved spec framework") is vendor framing, not a measured claim.
 

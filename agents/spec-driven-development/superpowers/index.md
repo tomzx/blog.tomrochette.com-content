@@ -1,7 +1,7 @@
 ---
 title: Superpowers
 created: 2026-10-09
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, methodology, agent-skills, worktrees, open-source]
 readability: 3
@@ -25,8 +25,9 @@ Prime Radiant, the applied research lab behind it, sells commercial support, add
 ## Status
 
 Large, active, and distribution-backed in a way no other column is.
-As of 2026-10-14: 298,672 stars, 26,695 forks, 328 open issues and pull requests, created 2025-10-09, pushed 2026-10-20, MIT, newest release v7.0.0 (2026-10-09).
+As of 2026-10-14: 298,672 stars, 26,695 forks, 328 open issues and pull requests, created 2025-10-09, pushed 2026-10-23, MIT, newest release v7.0.1 (2026-10-21).
 v7.0.0 shipped on the project's first anniversary with a rebuilt brainstorming skill that sizes the process to the work, running a quick task immediately, agreeing a small change in chat, or writing a full design document, and it replaces the spec-document reviewer with a builder check that reads the design as the person who will build it.
+v7.0.1 retuned that rebuild after users called the new questions formulaic: brainstorming now digs for context before it asks anything, lays out the approaches and writes the design doc before building (in the steward's own test, it skipped the doc unprompted in 24 of 24 runs before the fix and 3 of 24 after), three long skills were trimmed to survive Claude Code's 20,000-character compaction cutoff, and the contribution rules now require a human-written summary and refuse agent-written PRs that fix someone else's issue.
 The steward's anniversary post reports the repo about to cross 300,000 stars (12th most starred project on GitHub by his count), the number-one third-party Claude Code plugin at more than 1.1M installs, and 50M clones every two weeks from 1.95M unique IPs.
 
 <picture>
@@ -76,6 +77,7 @@ The disagreeable claim I will defend: 297k stars for a mandatory methodology is 
 
 - 2026-10-09 - Created from the Engineering4AI awesome-list entrant scan, profiling obra/superpowers as the category's mandatory-workflow skill suite and its largest single adoption figure.
 - 2026-10-10 - Recorded the v7.0.0 anniversary release (rebuilt brainstorming that sizes the process to the work, the builder check replacing the spec-document reviewer), the steward's 300k-star and 1.1M-install claims, the three-way comparison and its head-to-head, and refreshed counts.
+- 2026-10-23 - Rotation re-verification of every cited source and recorded the v7.0.1 release (2026-10-21): the brainstorming retune after the formulaic-questions feedback, the design-doc-before-building fix (24 of 24 unprompted skips down to 3 of 24), the 20,000-character compaction trims, and the human-written-summary contribution rule.
 
 ## See also
 
@@ -88,8 +90,8 @@ The disagreeable claim I will defend: 297k stars for a mandatory methodology is 
 
 - https://github.com/obra/superpowers - repository: workflow, harness table, philosophy, licensing (298,672 stars as of 2026-10-14)
 - https://raw.githubusercontent.com/obra/superpowers/main/README.md - the seven-skill core loop, 16 harness installs, contribution policy, and telemetry disclosure
-- https://api.github.com/repos/obra/superpowers - stars, forks, issues, dates, and MIT as of 2026-10-21
-- https://raw.githubusercontent.com/obra/superpowers/main/RELEASE-NOTES.md - the v7.0.0 release notes grounding the rebuilt brainstorming and the builder check
+- https://api.github.com/repos/obra/superpowers - stars, forks, issues, dates, and MIT as of 2026-10-23
+- https://raw.githubusercontent.com/obra/superpowers/main/RELEASE-NOTES.md - the release notes through v7.0.1, grounding the rebuilt brainstorming, the builder check, and the retune
 - https://blog.fsck.com/2026/10/09/what-a-year/ - the anniversary post grounding the 7.0 framing and the 300k-star, 1.1M-install, and clone-volume claims
 - https://primeradiant.com/claude-plugin-stats/ - the steward's tracker of Anthropic's plugin-stats feed behind the 1.1M-install figure
 - https://raw.githubusercontent.com/addyosmani/agent-skills/main/docs/comparison.md - the three-way comparison and its linked single-task head-to-head, the newest critical source
