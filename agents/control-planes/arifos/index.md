@@ -1,7 +1,7 @@
 ---
 title: arifOS
 created: 2026-10-16
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, governance-kernel, mcp, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The maintainer positions it as the layer between "agent wants to act" and "actio
 
 ## Status
 
-Active and early: 54 stars and 9 forks as of 2026-10-18, with 5 open issues and the latest push on 2026-10-20 as of 2026-10-21, created 2025-11-17, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
+Active and early: 54 stars and 9 forks as of 2026-10-18, with 6 open issues and the latest push on 2026-10-23 as of 2026-10-23, created 2025-11-17, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ariffazil/arifOS&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and early: 54 stars and 9 forks as of 2026-10-18, with 5 open issues and 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ariffazil/arifOS&type=date&legend=top-left" />
 </picture>
 
-**The most striking artifact is the README's own verified-state block, machine-stamped by the project's probe scripts and reading like an adversarial audit the project ran on itself: the current self-measurement (stamped 2026-10-20) reads the kernel degraded with 7 of 13 floors measured pass, while the pinned independent audit of 2026-10-11 still reads 2 pass, 4 fail (F2, F11, F12, F13), and 7 unmeasured, and the block itself warns that these are two different witness objects, with verified actor identity, receipt fidelity on the invocation-telemetry surface, and independent reconstruction all still failing in the audit line.**
+**The most striking artifact is the README's own verified-state block, machine-stamped by the project's probe scripts and reading like an adversarial audit the project ran on itself: the current self-measurement (stamped 2026-10-21) reads the kernel degraded with 10 of 13 floors measured pass and failing F1 and F8, while the pinned independent audit of 2026-10-11 still reads 2 pass, 4 fail (F2, F11, F12, F13), and 7 unmeasured, and the block itself warns that these are two different witness objects, with verified actor identity, receipt fidelity on the invocation-telemetry surface, and independent reconstruction all still failing in the audit line.**
 That same block admits an earlier 13-of-13 floors reading was a false pass caused by a threshold defect, and states plainly that there are no customers, no pilots, no independent benchmark, no external security audit, and zero revenue.
 A Hacker News search returns no threads about arifOS, so an eleven-month-old kernel has zero community footprint, and the awesome-ai-governance directory listing (added 2026-10-16) is the only third-party surface I found.
 
@@ -70,6 +70,7 @@ Not for anyone who needs verified actor identity, measured floors, or a communit
 
 - 2026-10-16 - Created from the awesome-ai-governance scan (PR #148, 2026-10-16), profiling the AGPL-3.0 MCP governance kernel with its own false-pass self-audit as the critical angle, and folding the sibling executor A-FORGE into the note per the sibling fold precedent.
 - 2026-10-21 - The README's self-measurement block moved to 7 of 13 floors measured pass with the kernel self-reporting degraded (2026-10-20 stamp), against the unchanged 2026-10-11 independent audit reading of 2 pass, 4 fail, and 7 unmeasured; the status and caution rewritten to keep the two witness objects separate.
+- 2026-10-23 - The self-measurement block moved again to 10 of 13 floors measured pass, failing F1 and F8, still self-reporting degraded (2026-10-21 stamp), with the independent audit reading unchanged and the PyPI package trailing at 1!2026.10.17 while repository tags reached v2026.10.23.
 
 ## See also
 

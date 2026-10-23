@@ -1,7 +1,7 @@
 ---
 title: Nanobot
 created: 2026-08-30
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 ## Status
 
-One of the fastest adoption curves in the category: 48,998 stars and 8,633 forks as of 2026-10-14, created 2026-02-01, 869 open issues with the last push on 2026-10-20 as of 2026-10-21.
+One of the fastest adoption curves in the category: 48,998 stars and 8,633 forks as of 2026-10-14, created 2026-02-01, 865 open issues with the last push on 2026-10-23 as of 2026-10-23.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/nanobot&type=date&theme=dark&legend=top-left" />
@@ -44,7 +44,7 @@ The README's maintainers table now lists a second name, Yongru Chen beside Xubin
 
 ## Cautions
 
-- Alpha maturity: eight months old, breaking-speed releases, and an 846-issue backlog large for its age.
+- Alpha maturity: eight months old, breaking-speed releases, and an 865-issue backlog large for its age.
 - Concentrated stewardship: the PyPI author field still names one person, and no release has shipped since 2026-09-15 despite daily pushes.
 - The category-level security problem applies in full: shell access plus chat channels plus prompt injection is the surface HN called a security nightmare, and a sibling runtime had an RCE exploit.
 - Lineage questions from the community about NanoClaw inspiration were never clearly addressed.

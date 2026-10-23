@@ -1,7 +1,7 @@
 ---
 title: OpenResearch
 created: 2026-10-05
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, autoresearch, multi-agent, alphaXiv]
 readability: 3
@@ -24,7 +24,7 @@ The agent-facing surface is first-class: `orx install-skills` installs a skill i
 
 ## Status
 
-Active and fast-moving: 7,234 stars, 489 forks, 123 open issues and pull requests, created 2026-06-07, last pushed 2026-10-21 (chat activity unified with the goal, plan, and experiment state it belongs to, after configurable ACP harnesses landed following the October 16 TensorBoard and Trackio integration and experiment-tree lineage navigation in the UI), with v0.2.19 (October 15, a bugfix batch covering Slurm submissions that require an explicit task count, IME text input, and dropped-connection error handling) the latest release, as of 2026-10-21.
+Active and fast-moving: 7,234 stars as of 2026-10-21, 501 forks, 129 open issues and pull requests, created 2026-06-07, last pushed 2026-10-23 (v0.2.21 widened the October Trackio integration to Spaces, Hugging Face runs, and orx metrics, and made the remote storage root configurable for SSH and Slurm), with v0.2.21 (October 23) the latest release, two cut in the three days after v0.2.19, as of 2026-10-23.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alphaXiv/OpenResearch&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ Not for anyone who needs a supported product, a security-reviewed remote deploym
 - 2026-10-07 - Added the alphaXiv/OpenResearch star history chart to the Status section.
 - 2026-10-10 - Recorded the v0.2.18 release (October 9) and refreshed the volatile counts.
 - 2026-10-12 - Refreshed the volatile counts; v0.2.18 remains the latest release.
+- 2026-10-23 - Refreshed the status: v0.2.21 (October 23) the latest release, its train widening the Trackio integration to Spaces, Hugging Face runs, and orx metrics and making the SSH and Slurm storage root configurable, with the fork and open-issue counts moved.
 
 ## See also
 
@@ -84,8 +85,8 @@ Not for anyone who needs a supported product, a security-reviewed remote deploym
 ## References
 
 - https://github.com/alphaXiv/OpenResearch - README: harness support, the autoresearch loop, worktrees, experiment tree, run-anywhere list, telemetry policy, local-first store, and the remote no-auth admission (fetched 200, 2026-10-05)
-- https://api.github.com/repos/alphaXiv/OpenResearch - stars, forks, open issues, created and push dates, and the MIT license (fetched 200, 2026-10-21)
-- https://api.github.com/repos/alphaXiv/OpenResearch/releases - v0.2.19 (2026-10-15) the latest, a bugfix batch, and the release cadence across the 0.2.x train (fetched 200, 2026-10-21)
+- https://api.github.com/repos/alphaXiv/OpenResearch - forks, open issues, created and push dates, and the MIT license, with the star figure left at its 2026-10-21 baseline (fetched 200, 2026-10-23)
+- https://api.github.com/repos/alphaXiv/OpenResearch/releases - v0.2.21 (2026-10-23) the latest, carrying the Trackio widening and the storage-root option, and the release cadence across the 0.2.x train (fetched 200, 2026-10-23)
 - https://openresearch.sh/ - positioning ("autoresearch on your machine"), the alphaXiv project attribution, and the compute marketplace (fetched 200, 2026-10-05)
 - https://openresearch.sh/docs - the compute marketplace overview: provider comparison, provisioning, and the orx CLI (fetched 200, 2026-10-05)
 - https://openresearch.sh/docs/billing - provider-rate pass-through with no markup, prepaid balances, and zero-balance termination (fetched 200, 2026-10-05)

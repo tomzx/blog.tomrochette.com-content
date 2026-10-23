@@ -1,7 +1,7 @@
 ---
 title: QwenPaw
 created: 2026-08-30
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -17,14 +17,14 @@ QwenPaw is the AgentScope team's Apache-2.0, self-hostable personal AI assistant
 ## What it is
 
 A Python (3.11 to 3.13) runtime with working context, verbatim history, and a self-evolving Markdown knowledge base (via the ReMe project), cron-style scheduled tasks, document skills, a file workspace, browser and computer use, multi-agent spawning, and MCP extensibility.
-It ships purpose-trained QwenPaw-Flash 2B, 4B, and 9B models with a built-in llama.cpp runtime, so it runs fully offline, plus DashScope, OpenAI, Anthropic, Gemini, DeepSeek, OpenRouter, Ollama, and LM Studio providers.
+It ships purpose-trained QwenPaw-Flash 2B, 4B, 9B, 27B, and 35B-A3B models with a built-in llama.cpp runtime, so it runs fully offline, plus DashScope, OpenAI, Anthropic, Gemini, DeepSeek, OpenRouter, Ollama, and LM Studio providers.
 v2.0 (July 2026) was a ground-up rewrite on the same org's AgentScope 2.0 framework (about 31k stars).
 Install via pip, curl script, Docker, Alibaba Cloud ECS one-click, a free cloud platform, or a beta Tauri desktop app.
 Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy and model stack but the repo itself credits the team, not the company.
 
 ## Status
 
-Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02-24, 1,115 open issues and PRs with the last push on 2026-10-20 as of 2026-10-21.
+Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02-24, 1,132 open issues and PRs with the last push on 2026-10-23 as of 2026-10-23.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&legend=top-left" />
 </picture>
 
-v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 followed on 2026-09-10 (PyPI upload 2026-09-11), with six v2.2.2 betas landing between 2026-09-17 and 2026-10-14 before v2.2.2 went stable on 2026-10-15, on GitHub and PyPI the same day.
+v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 followed on 2026-09-10 (PyPI upload 2026-09-11), with six v2.2.2 betas landing between 2026-09-17 and 2026-10-14 before v2.2.2 went stable on 2026-10-15, on GitHub and PyPI the same day, and v2.2.2.post1 followed on 2026-10-22 (PyPI upload minutes earlier), a security-remediation release that fixes emSign CA trust across dependencies, installers, and builds and updates its Node to 22.23.4.
 **A ground-up rewrite two minor versions before the current line is the churn signature: adoption is real, stability is not yet the product.**
 
 ## Strengths
@@ -47,7 +47,7 @@ v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 
 - `qwenpaw init --defaults` auto-accepts the telemetry prompt, which privacy-conscious users must opt out of explicitly.
 - Young and heavily rewritten, with much of the roadmap (voice, computer use, multi-workspace) still in progress.
 - The macOS desktop app is beta and unnotarized, requiring a Gatekeeper bypass.
-- 1,115 open issues and PRs, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
+- 1,132 open issues and PRs, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
 
 ## Pricing
 
@@ -72,6 +72,7 @@ Not for stability-first adopters mid-rewrite, or users who will not read the tel
 - 2026-09-21 - Recorded the third v2.2.2 beta (2.2.2b3, PyPI 2026-09-20) and refreshed adoption numbers.
 - 2026-10-07 - Added the agentscope-ai/QwenPaw star history chart to the Status section.
 - 2026-10-16 - Rotation re-verification: recorded v2.2.2 going stable (2026-10-15, GitHub and PyPI the same day) after six betas, with every cited URL re-fetched live and refreshed adoption numbers.
+- 2026-10-23 - Rotation re-verification: every cited URL re-fetched live (README, docs site, platform, PyPI registry, the AgentScope parent repo), recorded v2.2.2.post1 (2026-10-22, the emSign CA trust remediation with Node at 22.23.4) and the QwenPaw-Flash lineup grown to five sizes (2B, 4B, 9B, 27B, 35B-A3B) with v2.2.2, with refreshed adoption numbers.
 
 ## See also
 
@@ -84,7 +85,7 @@ Not for stability-first adopters mid-rewrite, or users who will not read the tel
 
 - https://raw.githubusercontent.com/agentscope-ai/QwenPaw/HEAD/README.md - channels, security layers, install, roadmap
 - https://github.com/agentscope-ai/QwenPaw - stars, forks, dates, language
-- https://pypi.org/project/qwenpaw/ - package versions and cadence (re-checked 2026-10-16 via the registry API, 2.2.2 stable is the newest upload)
+- https://pypi.org/project/qwenpaw/ - package versions and cadence (re-checked 2026-10-23 via the registry API, 2.2.2.post1 is the newest upload)
 - https://qwenpaw.agentscope.io/ - the docs site
 - https://github.com/agentscope-ai/agentscope - the parent framework behind the v2.0 rewrite
 - https://platform.agentscope.io/ - the free cloud deployment option

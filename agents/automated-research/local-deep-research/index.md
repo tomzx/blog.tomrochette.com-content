@@ -1,7 +1,7 @@
 ---
 title: Local Deep Research
 created: 2026-10-07
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, deep-research, local-first]
 readability: 3
@@ -24,7 +24,7 @@ Around the loop sit a journal-quality system scoring 212K-plus indexed sources w
 
 ## Status
 
-Active and heavily developed: 9,192 stars, 861 forks, created 2025-02-09, last pushed 2026-10-20 off main, whose newest commit remains October 19, on a many-commit daily cadence (October 19 brought a citation-label parsing fix, a queue-cleanup fix that leaves other users' rows alone, and a fix skipping non-text content blocks, following the October 18 batch that bumped the version to 2.0.0 on main, the project's first major-version cut), with the release train still published at v1.10.7, 2026-08-28 on GitHub and PyPI, as of 2026-10-21.
+Active and heavily developed: 9,192 stars as of 2026-10-15, 880 forks, created 2025-02-09, last pushed 2026-10-23 on a many-commit daily cadence (October 22-23 brought encoding-aware upload reading, a SQLite busy-error-only lock retry, per-engine time_period inherit defaults, and library auto-persistence of research sources, following the October 18 batch that bumped the version to 2.0.0 on main, the project's first major-version cut), with the release train still published at v1.10.7, 2026-08-28 on GitHub and PyPI, as of 2026-10-23.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=LearningCircuit/local-deep-research&type=date&theme=dark&legend=top-left" />
@@ -46,7 +46,7 @@ The project's headline benchmark is self-reported through community channels: ab
 
 - The headline numbers are self-reported community benchmarks, and the README itself flags small samples, LLM-grader noise, and SimpleQA contamination risk on newer base models.
 - No machine judge sits inside the loop: the output is prose with citations, so the human stays the verifier, exactly as with Deep Research.
-- 1,127 open issues and pull requests as of 2026-10-17 against a volunteer contributor base signals a project where support lags feature growth.
+- 1,228 open issues and pull requests as of 2026-10-23 against a volunteer contributor base signals a project where support lags feature growth.
 - Attaching premium engines or cloud models reintroduces the external calls the privacy story avoids, one API key at a time.
 
 ## Pricing

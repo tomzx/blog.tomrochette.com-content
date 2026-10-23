@@ -1,7 +1,7 @@
 ---
 title: OpenRouter
 created: 2026-09-26
-updated: 2026-10-18
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, pay-per-token]
 readability: 3
@@ -17,6 +17,9 @@ OpenRouter is the largest multi-provider LLM gateway, one API key and one prepai
 A marketplace gateway founded in early 2023 by Alex Atallah (OpenSea co-founder).
 Provider token prices pass through unchanged; you fund prepaid credits and OpenRouter takes a fee on the purchase, not on inference.
 Routing variants (:nitro for speed, :floor for price, :exacto for tool-calling quality, :free and :batch) change how requests are placed, and BYOK keeps your own provider keys behind OpenRouter's routing, analytics, and fallbacks.
+The dash-suffixed ids are upstream models, not router options: OpenAI serves -pro variants of its GPT-5.6 and GPT-6 Sol/Luna/Terra lines (gpt-5.6-terra-pro, gpt-5.6-sol-pro, gpt-5.6-luna-pro, gpt-6-sol-pro, gpt-6-luna-pro, gpt-6.1-sol-pro) as its own model ids, each described as the same underlying model as its base id with reasoning.mode set to pro.
+They are provider-side serving tiers, not aggregator lines: the endpoints run on OpenAI itself (flex, fast, and ultrafast variants) and Azure, carrying OpenAI's own dated snapshot names, checked 2026-10-23.
+Token prices match the base ids exactly, so the -pro bill arrives as far more reasoning tokens per answer, not a higher rate.
 
 ## Status
 
@@ -41,6 +44,7 @@ The pricing page was rebuilt on 2026-09-20 into four tiers (Free, Standard, Busi
 - No public SLA below Enterprise.
 - Routing can silently move you to a different provider, and a provider price change flows straight to your bill.
 - Credits may expire after one year per the terms.
+- The -pro model ids are the cost trap to read twice: per-token they price identically to their base ids, but pro-mode reasoning spends far more tokens per answer, so the effective cost is multiples of the listed rate, as of 2026-10-23.
 
 ## Pricing
 
@@ -48,7 +52,7 @@ Free: $0, 25+ free models, 20 requests/minute, 50 requests/day (1,000/day with $
 Standard: 5.5% fee per credit purchase, $0.80 minimum, crypto 5.0% flat, no subscription, workspace limit 5.
 Business: 8% fee, inference locked to EU or US providers with no cross-region fallback, workspace limit 1,000 (launched 2026-09-07).
 Enterprise: custom, volume commitments, SSO/SAML, contractual SLAs, $200,000/month free BYOK allowance.
-BYOK: 5% of equivalent cost above the free allowance, as of 2026-10-18 (fee state re-verified on the official FAQ and the pricing page).
+BYOK: 5% of equivalent cost above the free allowance, as of 2026-10-23 (fee state re-verified on the official pricing page; the FAQ carried the same state through 2026-10-18).
 
 ## Price history
 
@@ -78,6 +82,7 @@ My disagreeable claim: I would pay the 5.5% rather than run the same multi-provi
 - 2026-09-27 - Link check: the usagepricing blueprint now blocks automated fetches (403), facts carried from the 2026-09-24 check; the credit-fee state re-verified unchanged on the official FAQ (5.5%, $0.80 minimum, crypto 5%).
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 - 2026-10-18 - Rotation re-verification: every cited source re-fetched live (the FAQ, the pricing page now rendering its full fee table, the usagepricing blueprint at its 2026-10-15 update, the Stripe announcement, the ofox and TrueFoundry fee breakdowns, and the CostGoat snapshots) with the fee state unchanged (5.5% Standard with the $0.80 minimum, crypto 5%, Business 8%, BYOK free to $25,000/$200,000 then 5%); nothing moved, so no price history row.
+- 2026-10-23 - Resolved the section-root handoff on the -pro model ids: they are provider-side serving tiers, OpenAI's own ids (gpt-5.6-terra-pro, gpt-6-sol-pro, gpt-6.1-sol-pro, gpt-5.6-luna-pro and siblings) with dated snapshots on OpenAI and Azure endpoints, priced identically to their base ids while pro-mode reasoning spends far more tokens; recorded in What it is and Cautions, distinct from OpenRouter's colon routing variants, with the pricing page re-fetched unchanged the same day.
 
 ## See also
 
@@ -90,9 +95,12 @@ My disagreeable claim: I would pay the 5.5% rather than run the same multi-provi
 ## References
 
 - https://openrouter.ai/docs/faq - official fee statement (5.5%, $0.80 minimum, crypto 5%), BYOK dollar thresholds, no-markup position, free-tier limits (200, re-fetched 2026-10-11, 2026-10-14, 2026-10-16, 2026-10-17, and 2026-10-18 unchanged).
-- https://openrouter.ai/pricing - tier names and fee rows (200, JS-rendered shell on earlier fetches; the 2026-10-16 through 2026-10-18 fetches carry the full Free/Standard/Business/Enterprise fee table in the page text, fee content unchanged; corroborated by the FAQ).
+- https://openrouter.ai/pricing - tier names and fee rows (200, JS-rendered shell on earlier fetches; the 2026-10-16 through 2026-10-18 fetches carry the full Free/Standard/Business/Enterprise fee table in the page text, fee content unchanged; re-fetched 2026-10-23 unchanged, corroborated by the FAQ).
 - https://www.usagepricing.com/blueprint/openrouter - funding history, tier timeline, workspace limits, dated pricing changes (403 to automated fetches from 2026-09-27 through 2026-10-14, facts carried from the 2026-09-24 check; fetched 200 on 2026-10-17 and again 2026-10-18 with every tracked fact confirmed unchanged, page last updated 2026-10-15).
 - https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/ - the joining-Stripe announcement, 2026-08-19: continuity commitments, 10+ trillion tokens per day, 400+ models, 10M+ developers (fetched 200, 2026-09-26; re-fetched 2026-10-18 unchanged, closing still stated as expected within weeks of the August announcement).
 - https://ofox.ai/blog/openrouter-pricing-hidden-markup-breakdown-2026/ - independent fee-stack verification, $0.80-minimum math, BYOK metering change (200; re-fetched 2026-10-18 unchanged).
 - https://www.truefoundry.com/blog/openrouter-pricing - critical framing: fee at scale, BYOK, missing SLA (200, published 2026-08-25; re-fetched 2026-10-18, its BYOK rows still carrying the retired request-count framing the official dollar-based FAQ superseded).
 - https://costgoat.com/pricing/openrouter/ - per-model price snapshots used for cross-gateway comparison (200, as of 2026-10-17; re-fetched 2026-10-18 unchanged).
+- https://openrouter.ai/api/v1/models - the catalog listing behind the -pro finding: the four handoff ids and their siblings all present with pricing identical to their base ids to the token and created timestamps seconds apart (fetched 2026-10-23).
+- https://openrouter.ai/api/v1/models/openai/gpt-5.6-terra-pro/endpoints and https://openrouter.ai/api/v1/models/openai/gpt-6.1-sol-pro/endpoints - the serving evidence: OpenAI's own endpoints (flex, fast, ultrafast) and Azure endpoints carrying OpenAI's dated snapshot names, with the -pro catalog description stating the same underlying model runs reasoning.mode at pro (fetched 2026-10-23).
+- https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models - upstream model-line confirmation: Azure's OpenAI model table lists the -pro ids on older lines (gpt-5-pro, gpt-5.4-pro) as first-class model ids, matching the -pro naming convention (fetched 2026-10-23, page updated 2026-10-08).

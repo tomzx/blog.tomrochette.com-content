@@ -1,7 +1,7 @@
 ---
 title: LLM Gateway
 created: 2026-10-04
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, coding-subscription]
 readability: 3
@@ -22,7 +22,7 @@ The company reports SOC 2 Type II, a 30-day enterprise pilot with a 99.9% SLA, a
 
 ## Status
 
-Active and young: the repo was created 2025-04-12 and shows 1,687 stars and 193 forks as of 2026-10-16, pushed 2026-10-20 (as of 2026-10-21).
+Active and young: the repo was created 2025-04-12 and shows 1,687 stars and 193 forks as of 2026-10-16, pushed 2026-10-22 (as of 2026-10-23).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=theopenco/llmgateway&type=date&theme=dark&legend=top-left" />
@@ -103,6 +103,6 @@ My disagreeable claim: DevPass at 2x buys less leverage than OpenCode Go's 6x on
 - https://devpass.llmgateway.io/ - DevPass $29/$79/$179, $1-to-$3 usage claim, frontier fair-use, 14-day refund, supported agents (200, fetched 2026-10-04).
 - https://devpass.llmgateway.io/pricing - per-plan usage values and the October 15, 2026 3x-to-2x change notice (200, fetched 2026-10-04, re-fetched 2026-10-11, 2026-10-12, and 2026-10-14 with the cut still pending and every card reading 3x; fetched 2026-10-16 with the cut landed, every card reading 2x, and the tightened daily pacing, fair-use, Reset Pass, and refund terms live)
 - https://llmgateway.io/blog/q2-2026-roundup - DevPass Q2 launch detail, SOC 2 Type II, top-routed models by tokens (200, fetched 2026-10-04).
-- https://api.github.com/repos/theopenco/llmgateway - 1,674 stars, 191 forks, created 2025-04-12, pushed 2026-10-07 (200, fetched 2026-10-07; re-fetched 2026-10-14 at 1,685 stars, 193 forks, pushed 2026-10-13; re-fetched 2026-10-18, pushed 2026-10-18; re-fetched 2026-10-19, pushed 2026-10-19, v1.21.0 still latest; re-fetched 2026-10-21, pushed 2026-10-20, v1.22.0 released 2026-10-19).
+- https://api.github.com/repos/theopenco/llmgateway - 1,674 stars, 191 forks, created 2025-04-12, pushed 2026-10-07 (200, fetched 2026-10-07; re-fetched 2026-10-14 at 1,685 stars, 193 forks, pushed 2026-10-13; re-fetched 2026-10-18, pushed 2026-10-18; re-fetched 2026-10-19, pushed 2026-10-19, v1.21.0 still latest; re-fetched 2026-10-21, pushed 2026-10-20, v1.22.0 released 2026-10-19; re-fetched 2026-10-23, pushed 2026-10-22, v1.22.0 still latest).
 - https://raw.githubusercontent.com/theopenco/llmgateway/main/LICENSE - AGPLv3 grant with the ee/ commercial carve-out (200, re-fetched 2026-10-07; the 2026-10-04 read had recorded it as a custom license).
 - https://llmgateway.io/blog/best-ai-coding-plans - the company's self-ranking comparison against Claude Max, OpenCode Go, and the GLM plan, cited as marketing positioning rather than measurement (200, fetched 2026-10-04).

@@ -1,7 +1,7 @@
 ---
 title: HOL Guard
 created: 2026-10-09
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, guardrails, receipts, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The vendor is HOL, a consortium (its site lists 34 ecosystem partners and 65 pub
 
 ## Status
 
-Active and shipping fast: 879 stars and 153 forks as of 2026-10-18, with 114 open issues and pull requests and the latest push on 2026-10-21 as of 2026-10-21, created 2026-03-28, with v3.51.0 (2026-10-20) the latest version tag, PyPI in step at 3.51.0, and an automated extension-artifacts release train running beside the version tags.
+Active and shipping fast: 879 stars and 153 forks as of 2026-10-18, with 103 open issues and pull requests and the latest push on 2026-10-23 as of 2026-10-23, created 2026-03-28, with v3.55.1 (2026-10-23) the latest version tag, PyPI in step at 3.55.1, and an automated extension-artifacts release train running beside the version tags.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hashgraph-online/hol-guard&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Active and shipping fast: 879 stars and 153 forks as of 2026-10-18, with 114 ope
 
 PyPI downloads are 76,527 over the last month as of 2026-10-09 (pypistats, unchanged when re-fetched 2026-10-10 and again 2026-10-11), and the product page still claims 2M+ Guard PyPI downloads plus "5.4K+ HOL GitHub stars", an org-wide figure across all HOL repositories rather than the Guard repo's own count.
 The 2M+ total sits awkwardly against the measured rate: 76,527 in the month ending 2026-10-09 would need roughly two years at this pace to reach it inside a seven-month-old project, and the tracker figure staying bit-for-bit identical across two re-fetches suggests a lagging source, so treat the headline as self-reported marketing until either number moves.
-The coverage assertions on the site still carry their 2026-09-09 verification with an expiry of 2026-10-09, and a re-fetch on 2026-10-19 found the page and its change history unchanged ten days past that expiry, then asserting version 3.0.1 while the release train sat at v3.49.0, so the project is shipping faster than its own verification contract renews and every published coverage cell was lapsed as of that check; the page refused fetchers on 2026-10-21, so the renewal state stands as last verified then.
+The coverage assertions on the site still carry their 2026-09-09 verification with an expiry of 2026-10-09, and a re-fetch on 2026-10-19 found the page and its change history unchanged ten days past that expiry, then asserting version 3.0.1 while the release train sat at v3.49.0, so the project is shipping faster than its own verification contract renews and every published coverage cell was lapsed as of that check; a re-fetch on 2026-10-23 found the page live again and unchanged, still pinned to 3.0.1 while the train reached v3.55.1, so every published coverage cell has now been lapsed for two weeks.
 A Hacker News search returns no threads about Guard (the single loose query match is an unrelated project), so the adoption evidence is the download count, the release cadence, and Product Hunt testimonials rather than independent technical discussion.
 
 ## Strengths
@@ -47,7 +47,7 @@ A Hacker News search returns no threads about Guard (the single loose query matc
 ## Cautions
 
 - Depth varies by harness and the gaps are the story: Kimi Code, Grok Build, and ZCode fail open, Cursor terminal commands outside agent sessions bypass it, and Claude Code background sessions surface no hook events at all.
-- The published assertions expired on 2026-10-09 and remained unrenewed when re-checked on 2026-10-18, still pinned to version 3.0.1 against a v3.49.0 train, so treat any specific coverage cell as lapsed rather than a standing guarantee.
+- The published assertions expired on 2026-10-09 and remained unrenewed when re-checked on 2026-10-23, still pinned to version 3.0.1 against a v3.55.1 train, so treat any specific coverage cell as lapsed rather than a standing guarantee.
 - No independent audit or adversarial review exists; a Hacker News footprint of zero six months in means the security claims rest on the project's own evidence links.
 - The freemium ladder (Solo $4.99, Pro $15, Team $30 per month) puts receipt sync and org policy behind payment, and the latest release page still carries an unresolved "attribution for this release is being verified" notice, a small but odd provenance wrinkle for a security product.
 
@@ -88,6 +88,7 @@ Not for org-scale governance (that is a control plane, not a workstation guard),
 - 2026-10-18 - Coverage contract re-checked still unrenewed nine days past its expiry, still pinned to 3.0.1 against the v3.49.0 train.
 - 2026-10-19 - Coverage contract re-checked still unrenewed ten days past its expiry, still pinned to 3.0.1 against the v3.49.0 train.
 - 2026-10-21 - Release train moved to v3.51.0 (2026-10-20, two stable releases that day, PyPI in step); the coverage-contract page refused fetchers this run, so its renewal state stands as last verified 2026-10-19.
+- 2026-10-23 - Release train moved to v3.55.1 (2026-10-23, PyPI in step); the coverage-contract page fetchable again and its assertions still unrenewed fourteen days past expiry, still pinned to 3.0.1.
 
 ## See also
 
@@ -102,7 +103,7 @@ Not for org-scale governance (that is a control plane, not a workstation guard),
 - https://hol.org/guard/security/coverage - the per-harness coverage contract: event surfaces, approval paths, fail behavior, limitations, verified and expiry dates
 - https://github.com/hashgraph-online/hol-guard - repository: README, install paths, plugin-scanner, license
 - https://api.github.com/repos/hashgraph-online/hol-guard - stars, forks, issues, creation and push dates as of 2026-10-14
-- https://api.github.com/repos/hashgraph-online/hol-guard/releases - v3.51.0 (2026-10-20) the latest version tag, with the automated extension-artifacts train beside it
-- https://pypi.org/pypi/hol-guard/json - version 3.51.0, in step with the GitHub tag as of 2026-10-20
+- https://api.github.com/repos/hashgraph-online/hol-guard/releases - v3.55.1 (2026-10-23) the latest version tag, with the automated extension-artifacts train beside it
+- https://pypi.org/pypi/hol-guard/json - version 3.55.1, in step with the GitHub tag as of 2026-10-23
 - https://pypistats.org/api/packages/hol-guard/recent - 76,527 downloads in the last month as of 2026-10-09, unchanged when re-fetched 2026-10-10 and 2026-10-11
 - https://hn.algolia.com/api/v1/search?query=hol-guard&tags=story - the zero-thread community-footprint check as of 2026-10-09

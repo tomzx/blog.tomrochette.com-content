@@ -1,7 +1,7 @@
 ---
 title: GLM Coding Plan
 created: 2026-09-26
-updated: 2026-10-14
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, subscription, coding]
 readability: 3
@@ -42,10 +42,10 @@ I found no reliable subscriber counts.
 
 ## Pricing
 
-Current tiers as of 2026-10-14: Lite $18/month (per Z.ai docs), Pro $80 and Max $168 per August 2026 snapshots of the subscribe page, with 20% off quarterly and 30% off yearly billing (effective $12.60/$56/$117.60 per month).
+Current tiers as of 2026-10-23: Lite $18/month (per Z.ai docs, re-verified that day), Pro $80 and Max $168 per August 2026 snapshots of the subscribe page, with 20% off quarterly and 30% off yearly billing (effective $12.60/$56/$117.60 per month).
 The July 2026 credits system allocates 2,000/10,000 credits per 5 hours/week on Lite, 12,000/60,000 on Pro, 28,000/140,000 on Max.
 Credits deduct per token type with multipliers (GLM-5.3: input 6.9, cached input 1.7, output 24; GLM-5.3-Flash: 2.3/0.56/8, divided by 10,000), plus per-call charges for bundled MCP tools.
-Peak hours (Mon-Fri 14:00-18:00 UTC+8) bill at 1x and off-peak at 0.5x on the credits plan, weekends bill at the off-peak rate, and a promotion charged all usage at the off-peak rate from September 25 to October 7, 2026 (ended as scheduled; docs.z.ai re-fetched 2026-10-10 with the promotion no longer listed).
+Peak hours (Mon-Fri 14:00-18:00 UTC+8) bill at 1x and off-peak at 0.5x on the credits plan, weekends bill at the off-peak rate, and a promotion charged all usage at the off-peak rate from September 25 to October 7, 2026 (ended as scheduled; docs.z.ai re-fetched 2026-10-10 with the promotion no longer listed, and again 2026-10-23 unchanged).
 Under the legacy prompts system, Z.ai documented quota as roughly 80/400/1,600 prompts per 5-hour window, with the flagship burning at 3x during peak hours, and one prompt estimated at 15-20 model invocations.
 
 ## Price history
@@ -86,10 +86,10 @@ Claim to disagree with: the rational entry is a single month of $18 Lite and nev
 
 ## References
 
-- https://docs.z.ai/devpack/overview - current credit allowances (2,000/12,000/28,000 per 5h), credit formula, off-peak 50% rule, "starting at 18 USD" (fetched, HTTP 200; re-fetched 2026-10-14 with allowances, multipliers, and the no-promotion state unchanged).
-- https://docs.z.ai/devpack/notice/usage-revision - July 30, 2026 credits transition; legacy 15-30x value claim and per-plan prompt ceilings (fetched, HTTP 200).
-- https://docs.z.ai/devpack/faq - non-refundable policy, supported-tools restriction, no balance deduction, quota reset cards (fetched, HTTP 200).
-- https://cline.bot/blog/zai-cline-3-dollar-ai-coding - launch-era pricing: $6/$30 with $3/$15 first-month promos, 120/600 prompts per 5 hours (fetched, HTTP 200, Sep 18, 2025).
-- https://hyscaler.com/insights/glm-coding-plan-review/ - June 2026 tiers at $18/$72/$160, 3x peak multiplier, competitive framing (fetched, HTTP 200).
-- https://www.digitalapplied.com/blog/glm-coding-plan-worth-it-2026-value-analysis - critical analysis, Jul 3, 2026: multiplier math, non-refundability, China residency, long-horizon benchmark gap (fetched, HTTP 200).
-- https://emergent.sh/learn/glm-5-3-pricing - August 2026 tiers at $18/$80/$168 with yearly equivalents; GLM-5.3 has no per-token API rate yet (fetched, HTTP 200).
+- https://docs.z.ai/devpack/overview - current credit allowances (2,000/12,000/28,000 per 5h), credit formula, off-peak 50% rule, "starting at 18 USD" (fetched, HTTP 200; re-fetched 2026-10-14 with allowances, multipliers, and the no-promotion state unchanged; re-fetched 2026-10-23 unchanged).
+- https://docs.z.ai/devpack/notice/usage-revision - July 30, 2026 credits transition; legacy 15-30x value claim and per-plan prompt ceilings (fetched, HTTP 200; re-fetched 2026-10-23 unchanged).
+- https://docs.z.ai/devpack/faq - non-refundable policy, supported-tools restriction, no balance deduction, quota reset cards (fetched, HTTP 200; re-fetched 2026-10-23 unchanged).
+- https://cline.bot/blog/zai-cline-3-dollar-ai-coding - launch-era pricing: $6/$30 with $3/$15 first-month promos, 120/600 prompts per 5 hours (fetched, HTTP 200, Sep 18, 2025; re-fetched 2026-10-23 unchanged).
+- https://hyscaler.com/insights/glm-coding-plan-review/ - June 2026 tiers at $18/$72/$160, 3x peak multiplier, competitive framing (fetched, HTTP 200; re-fetched 2026-10-23 unchanged).
+- https://www.digitalapplied.com/blog/glm-coding-plan-worth-it-2026-value-analysis - critical analysis, Jul 3, 2026: multiplier math, non-refundability, China residency, long-horizon benchmark gap (fetched, HTTP 200; re-fetched 2026-10-23 unchanged).
+- https://emergent.sh/learn/glm-5-3-pricing - August 2026 tiers at $18/$80/$168 with yearly equivalents; GLM-5.3 has no per-token API rate yet (fetched, HTTP 200; re-fetched 2026-10-23 unchanged).

@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -23,7 +23,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 689 open issues and PRs with the last push on 2026-10-21 as of 2026-10-21.
+Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 701 open issues and PRs with the last push on 2026-10-23 as of 2026-10-23.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&legend=top-left" />
 </picture>
 
-v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause, v0.18.57 on 2026-10-07, v0.18.58 on 2026-10-13, and v0.18.59 on 2026-10-20.
+v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause, v0.18.57 on 2026-10-07, v0.18.58 on 2026-10-13, v0.18.59 on 2026-10-20, and v0.18.60 on 2026-10-22.
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 
 ## Strengths
@@ -53,7 +53,7 @@ v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-2
 Free: $0, the MIT open-source desktop app with BYO keys, macOS, Windows, and Linux downloads, free forever, as of 2026-10-14.
 Team: $10 per seat per month, with the first 5 seats free on OpenWork Cloud (API access, SSO/SAML, the extension marketplace, and distributed LLM keys), as of 2026-10-14.
 Enterprise: custom pricing (everything in Team plus SCIM provisioning, BYO inference self-hosted or private models, desktop policies and version controls, managed deployment, custom skill development and MCP consulting, rollout support, and the grandfather clause: existing organizations already using SCIM or desktop policies keep full access), as of 2026-10-14.
-The pricing page churned a sixteenth time by 2026-10-21: the two add-ons returned to the page again (Cloud Computer $50 per member per month, OpenWork models $10 per user per month, both marked available on Team and Enterprise) and the grandfather clause left again, back to the fourteenth churn's state, with the first-5-Cloud-seats-free offer listed on the Free tier and the three main prices and the Enterprise custom annual tier with its 60-day opt-out unchanged.
+The pricing page churned a seventeenth time by 2026-10-23: the two add-ons left the page again and the grandfather clause returned, reversing the sixteenth churn, with the Free tier's cloud offer framed as a free OpenWork Cloud plan for up to 5 users, and the three main prices and the Enterprise custom annual tier with its 60-day opt-out unchanged.
 
 ## Price history
 
@@ -75,6 +75,7 @@ The pricing page churned a sixteenth time by 2026-10-21: the two add-ons returne
 | 2026-10-16 | All tiers, add-ons | Fourteenth churn: the two add-ons returned to the pricing page (Cloud Computer $50 per member per month, OpenWork models $10 per user per month, both marked available on Team and Enterprise) and the grandfather clause left the page again; Free $0, Team $10 per seat, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
 | 2026-10-17 | All tiers, add-ons | Fifteenth churn: the two add-ons left the page again and the grandfather clause returned, both reversing the fourteenth churn; Free $0, Team $10 per seat, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
 | 2026-10-21 | All tiers, add-ons | Sixteenth churn: the two add-ons returned to the page again (Cloud Computer $50 per member per month, OpenWork models $10 per user per month, both marked available on Team and Enterprise) and the grandfather clause left again, back to the fourteenth churn's state; Free $0, Team $10 per seat, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
+| 2026-10-23 | All tiers, add-ons | Seventeenth churn: the two add-ons left the page again and the grandfather clause returned, reversing the sixteenth churn; the Free tier's cloud offer is framed as a free OpenWork Cloud plan for up to 5 users, and Free $0, Team $10 per user per month, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
 
 ## Compared to
 
@@ -114,6 +115,8 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - 2026-10-17 - Pricing churned a fifteenth time: the two add-ons left the page again and the grandfather clause returned, both reversing the fourteenth churn, with the three main prices unchanged (Price history row); refreshed adoption numbers.
 - 2026-10-21 - Recorded v0.18.59 (2026-10-20) following v0.18.58, with refreshed adoption numbers.
 - 2026-10-21 - Pricing churned a sixteenth time: the two add-ons returned to the page again and the grandfather clause left again (back to the fourteenth churn's state, the first-5-Cloud-seats-free offer listed on the Free tier), with the three main prices unchanged (Price history row).
+- 2026-10-23 - Recorded v0.18.60 (2026-10-22) following v0.18.59, with refreshed adoption numbers.
+- 2026-10-23 - Pricing churned a seventeenth time: the two add-ons left the page again and the grandfather clause returned, reversing the sixteenth churn, with the Free tier's cloud offer framed as a free OpenWork Cloud plan for up to 5 users (Price history row).
 
 ## See also
 
@@ -128,7 +131,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - https://raw.githubusercontent.com/different-ai/openwork/HEAD/README.md - the directory-split licensing terms and gateway
 - https://openworklabs.com - product scope and the built-on-OpenCode positioning
 - https://openworklabs.com/pricing - the tiers for the pricing rows
-- https://api.github.com/repos/different-ai/openwork/releases - the release tags through v0.18.57 (2026-10-07, still latest as of 2026-10-07)
+- https://api.github.com/repos/different-ai/openwork/releases - the release tags through v0.18.60 (2026-10-22, still latest as of 2026-10-23)
 - https://github.com/different-ai/openwork/releases/tag/v0.18.42 - release cadence and installer signing
 - https://news.ycombinator.com/item?id=46612494 - the launch thread with the security-boundary questions
 - https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork - Anthropic's help center stating Claude Cowork is now just Claude

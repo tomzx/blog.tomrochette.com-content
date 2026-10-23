@@ -1,7 +1,7 @@
 ---
 title: Kimi Code
 created: 2026-09-26
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, moonshot-ai, pricing]
 readability: 3
@@ -98,5 +98,5 @@ I will claim something arguable: the ¥49 China-market ladder proves this produc
 - https://www.digitalapplied.com/blog/kimi-code-k3-hands-on-setup-plans-cache-2026 - July 17, 2026 snapshot of listed vs promo prices and the separation banner.
 - https://aihackers.net/value/deals/kimi-haggle/ - documented February 2026 first-month offers of $0.99 to $11.99, marked historical.
 - https://www.noemititarenco.com/blog/kimi-code-plan-after-4-months-of-use-honest-review/ - skeptical four-month user review and cancellation rationale.
-- https://openrouter.ai/api/v1/models - the aggregator listing behind the endpoint floor readings: kimi-k3 at $0.239/$11.936 per million tokens (cache reads $0.21) and kimi-k2.7-code at $0.67/$3.35 (cache reads $0.18) (fetched 2026-10-21).
-- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - the pay-per-token API listing for the K3 model the ladder gates, now 28 endpoints: main listing $0.239/$11.936 per million tokens (cache reads $0.21) matched on InferenceNet, cheapest input $0.238/$16.00 on Wafer (cache reads $0.228), cheapest output $1.20/$5.50 on Sail Research's fp4 rows, Wafer's second endpoint at $0.36/$11.90, Relace re-priced to $0.30/$12.00, Morph at $0.839/$14.90 (fp8), and Moonshot's own endpoint at $3/$15, with Parasail and Modal the new hosts since the 26-endpoint roster (fetched 2026-10-21; the per-move history of this churning listing is tracked in the harnesses note for the CLI).
+- https://openrouter.ai/api/v1/models - the aggregator listing behind the endpoint floor readings: kimi-k3 at $0.239/$11.936 per million tokens (cache reads $0.21) and kimi-k2.7-code at $0.67/$3.35 (cache reads $0.18) (fetched 2026-10-21; re-fetched 2026-10-23, both listings unchanged).
+- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - the pay-per-token API listing for the K3 model the ladder gates, now 29 endpoints: main listing $0.239/$11.936 per million tokens (cache reads $0.21) matched on InferenceNet, cheapest input $0.238/$16.00 on Wafer (cache reads $0.228), cheapest output $1.20/$5.50 on Sail Research's fp4 rows, Wafer's second endpoint at $0.36/$11.90, Relace re-priced to $0.30/$12.00, Morph at $0.839/$14.90 (fp8), and Moonshot's own endpoint at $3/$15, with Parasail and Modal the new hosts since the 26-endpoint roster (fetched 2026-10-21; re-fetched 2026-10-23 with every price and floor unchanged and the roster grown to 29 endpoints; the per-move history of this churning listing is tracked in the harnesses note for the CLI).

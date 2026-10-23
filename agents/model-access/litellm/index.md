@@ -1,7 +1,7 @@
 ---
 title: LiteLLM
 created: 2026-09-27
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted]
 readability: 3
@@ -32,7 +32,7 @@ Very active: 61,356 stars as of 2026-10-16, repo pushed 2026-10-21 (as of 2026-1
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=BerriAI/litellm&type=date&legend=top-left" />
 </picture>
 
-The cadence is extreme: a new minor line roughly every week, with v1.98.1, v1.99.4, v1.100.3, v1.101.2, v1.102.1, and v1.103/1.104 pre-releases all published between September 16 and 25, 2026, PyPI latest at 1.106.1, v1.106.1 stable since 2026-10-20 with the four supported lines patched the same day, and v1.107.0-rc.2 on the GitHub train (as of 2026-10-21).
+The cadence is extreme: a new minor line roughly every week, with v1.98.1, v1.99.4, v1.100.3, v1.101.2, and v1.102.1 all published between September 16 and 25, 2026, v1.106.1 stable since 2026-10-20 and v1.106.2 the day after with the four supported lines patched each time (v1.105.3, v1.104.5, and v1.103.7 on 2026-10-21), PyPI latest at 1.106.2, and v1.107.0-rc.2 still the GitHub train head, repo pushed 2026-10-23 (as of 2026-10-23).
 Since 2026-06-29 only the four most recent stable minor lines receive patches, a policy the company states is a direct cost of that cadence.
 **In March 2026 the project's PyPI publishing credentials were compromised: poisoned 1.82.7 and 1.82.8 wheels shipped a credential stealer and were quarantined within about a day (PYSEC-2026-2).**
 
@@ -81,6 +81,7 @@ My disagreeable claim: below three providers, self-hosting LiteLLM is negative v
 - 2026-10-18 - Release train refresh: v1.106.0 left pre-release and went stable on 2026-10-18 (v1.103.5 patched 2026-10-17 behind it) with v1.107.0-dev.3 still on the train; stars stand at their 2026-10-16 verification.
 - 2026-10-19 - Release train refresh: v1.107.0-rc.1 published 2026-10-18, the first rc on the v1.107 line, and PyPI latest moved to 1.106.0; stars stand at their 2026-10-16 verification.
 - 2026-10-21 - Release train refresh: v1.106.1 went stable 2026-10-20 with v1.105.2, v1.104.4, and v1.103.6 patched the same day and v1.107.0-rc.2 on the train; PyPI latest moved to 1.106.1; stars stand at their 2026-10-16 verification.
+- 2026-10-23 - Release train refresh: v1.106.2 went stable 2026-10-21 with v1.105.3, v1.104.5, and v1.103.7 patched the same day and v1.107.0-rc.2 still the train head; PyPI latest moved to 1.106.2 and the repo pushed 2026-10-23; stars stand at their 2026-10-16 verification.
 
 ## See also
 
@@ -92,12 +93,12 @@ My disagreeable claim: below three providers, self-hosting LiteLLM is negative v
 
 ## References
 
-- https://api.github.com/repos/BerriAI/litellm - 60,260 stars, Python, license metadata, pushed 2026-10-07 (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 61,173 stars; re-fetched 2026-10-19, pushed 2026-10-19; re-fetched 2026-10-21, pushed 2026-10-21).
+- https://api.github.com/repos/BerriAI/litellm - 60,260 stars, Python, license metadata, pushed 2026-10-07 (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 61,173 stars; re-fetched 2026-10-19, pushed 2026-10-19; re-fetched 2026-10-21, pushed 2026-10-21; re-fetched 2026-10-23, pushed 2026-10-23).
 - https://docs.litellm.ai/docs/ - SDK and proxy feature claims, 100+ providers, MCP/A2A gateway, Rust beta (200).
 - https://docs.litellm.ai/docs/enterprise - enterprise feature gates, SSO free to 5 users, four-line support window effective 2026-06-29 (200).
 - https://raw.githubusercontent.com/BerriAI/litellm/main/LICENSE - MIT text with the enterprise/ directory carve-out (200).
 - https://futuresearch.ai/blog/litellm-attack-transcript/ - minute-by-minute discovery of the March 2026 PyPI compromise, payload behavior, PYSEC-2026-2 (200).
 - https://hn.algolia.com/api/v1/search?query=LiteLLM&tags=story&hitsPerPage=8 - the 938-point compromise thread, the Mercor/TechCrunch story, the litelm bloat fork (200).
 - https://hn.algolia.com/api/v1/items/49662767 - litelm discussion, bloat criticism and rebuttals, 177 points (200).
-- https://api.github.com/repos/BerriAI/litellm/releases?per_page=15 - release cadence, four stable lines patched the same day in September 2026 (200; re-fetched 2026-10-18 reading v1.106.0 stable of 2026-10-18 and v1.103.5 of 2026-10-17; re-fetched 2026-10-19 reading v1.107.0-rc.1 of 2026-10-18; re-fetched 2026-10-21 reading v1.106.1, v1.105.2, v1.104.4, and v1.103.6 all of 2026-10-20 plus v1.107.0-rc.2).
-- https://pypi.org/pypi/litellm/json - PyPI latest at 1.106.1, published 2026-10-20 (200, re-checked 2026-10-21).
+- https://api.github.com/repos/BerriAI/litellm/releases?per_page=15 - release cadence, four stable lines patched the same day in September 2026 (200; re-fetched 2026-10-18 reading v1.106.0 stable of 2026-10-18 and v1.103.5 of 2026-10-17; re-fetched 2026-10-19 reading v1.107.0-rc.1 of 2026-10-18; re-fetched 2026-10-21 reading v1.106.1, v1.105.2, v1.104.4, and v1.103.6 all of 2026-10-20 plus v1.107.0-rc.2; re-fetched 2026-10-23 reading v1.106.2, v1.105.3, v1.104.5, and v1.103.7 all of 2026-10-21 with v1.107.0-rc.2 still the train head).
+- https://pypi.org/pypi/litellm/json - PyPI latest at 1.106.2, published 2026-10-21 (200, re-checked 2026-10-23).

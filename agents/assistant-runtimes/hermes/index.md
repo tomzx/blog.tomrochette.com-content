@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 ## Status
 
 Massive and fast-moving.
-253,488 stars and 54,982 forks as of 2026-10-14 since creation on 2025-07-22, MIT, and as of 2026-10-21 pushed that day with 50,189 open issues, a support surface bigger than most projects' users.
+253,488 stars and 54,982 forks as of 2026-10-14 since creation on 2025-07-22, MIT, and as of 2026-10-23 pushed that day with 50,630 open issues, a support surface bigger than most projects' users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Massive and fast-moving.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&legend=top-left" />
 </picture>
 
-Releases shipped as date-stamped tags through v2026.9.24 (2026-09-24), with September alone seeing five tags, and on 2026-10-08 the project cut v0.21.6, the first semver tag and the first release of a new stable release pipeline (one attempt ref, a tested Docker image, and a receipt tag at publish), rolling up about 2,100 pull requests since v0.21.5 with the curated notes deferred to v0.22.0, and v0.21.7 followed on 2026-10-12 as the line's second tag, with v0.22.0, "The Threshold Release", landing 2026-10-14 (about 6,080 merged pull requests since v0.21.0, a guided first-run setup chat on a free trial model) and v0.22.1 and v0.22.2 following the same day and on 2026-10-15.
+Releases shipped as date-stamped tags through v2026.9.24 (2026-09-24), with September alone seeing five tags, and on 2026-10-08 the project cut v0.21.6, the first semver tag and the first release of a new stable release pipeline (one attempt ref, a tested Docker image, and a receipt tag at publish), rolling up about 2,100 pull requests since v0.21.5 with the curated notes deferred to v0.22.0, and v0.21.7 followed on 2026-10-12 as the line's second tag, with v0.22.0, "The Threshold Release", landing 2026-10-14 (about 6,080 merged pull requests since v0.21.0, a guided first-run setup chat on a free trial model) and v0.22.1 and v0.22.2 following the same day and on 2026-10-15, with v0.22.3 and v0.22.4 following on 2026-10-21 and v0.22.5 landing 2026-10-23 (about 81 pull requests since v0.22.4, curated notes again deferred to v0.23.0).
 The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) landed June 2026, and a real tool ecosystem followed (a 28-point Grafana observability integration, a Fleet console for managing Dockerized Hermes agents, XMPP interop with OpenClaw, and a community gadget SDK building ESP32 voice and text devices, 302 stars as of 2026-10-07).
 **The governance record is the caution: a May 2026 thread documents Nous editing a GitHub issue to remove plagiarism claims about Hermes Agent ([issue 10232](https://github.com/NousResearch/hermes-agent/issues/10232)), so origin claims around this project deserve independent reading.**
 
@@ -89,6 +89,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 - 2026-10-13 - Recorded v0.21.7 (2026-10-12), the second tag on the new stable release line, with refreshed adoption numbers and the Portal tiers re-checked unchanged on the official site.
 - 2026-10-16 - Recorded the v0.22 line: v0.22.0, "The Threshold Release" (2026-10-14, about 6,080 merged pull requests since v0.21.0), v0.22.1 (2026-10-14), and v0.22.2 (2026-10-15), with refreshed adoption numbers.
 - 2026-10-21 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the v0.21.6 release notes, the official site, both HN threads, the plagiarism-edit issue, the gadget SDK repo), v0.22.2 (2026-10-15) confirmed still the latest release, the seven-backend list and the Portal tiers (Free $0, Plus $20, Super $100, Ultra $200) unchanged, and the issue-10232 edit record intact.
+- 2026-10-23 - Recorded the v0.22 line continuing: v0.22.3 and v0.22.4 (both 2026-10-21) and v0.22.5 (2026-10-23, about 81 pull requests since v0.22.4, curated notes again deferred to v0.23.0), with refreshed adoption numbers.
 
 ## See also
 
@@ -101,7 +102,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 
 - https://github.com/NousResearch/hermes-agent - README: learning loop, backends, channels, install
 - https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-10-10
-- https://api.github.com/repos/NousResearch/hermes-agent/releases - the date-stamped tags through v2026.9.24 (2026-09-24), then the semver line: v0.21.6 (2026-10-08, the first tag under the new stable release pipeline) through v0.22.2 (2026-10-15), including v0.22.0, "The Threshold Release"
+- https://api.github.com/repos/NousResearch/hermes-agent/releases - the date-stamped tags through v2026.9.24 (2026-09-24), then the semver line: v0.21.6 (2026-10-08, the first tag under the new stable release pipeline) through v0.22.5 (2026-10-23), including v0.22.0, "The Threshold Release"
 - https://api.github.com/repos/NousResearch/hermes-agent/releases/tags/v0.21.6 - the v0.21.6 release notes describing the new stable release pipeline (fetched 2026-10-10)
 - https://hermes-agent.nousresearch.com - official site and docs, including the Hermes Free/Plus/Super/Ultra plan tiers
 - https://news.ycombinator.com/item?id=48419000 - the 52-point launch thread

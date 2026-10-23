@@ -1,7 +1,7 @@
 ---
 title: AgentField
 created: 2026-10-13
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, identity, policy-enforcement, receipts, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The governance layer is the differentiator: tag-based access policies (function-
 
 ## Status
 
-Active and funded: 2,611 stars and 430 forks as of 2026-10-13, with 29 open issues and the last push on 2026-10-20 as of 2026-10-21, repository created 2025-11-05 (the company organization in March 2025).
+Active and funded: 2,611 stars and 430 forks as of 2026-10-13, with 32 open issues and the last push on 2026-10-22 as of 2026-10-23, repository created 2025-11-05 (the company organization in March 2025).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Agent-Field/agentfield&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: AIDE ML
 created: 2026-10-11
-updated: 2026-10-17
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, machine-learning-engineering, tree-search, open-source]
 readability: 3
@@ -44,7 +44,7 @@ The Hacker News footprint is nearly absent: the April 2024 launch thread drew 1 
 - The repository is a reference build, not a product: the README routes production use to the Weco platform, so expect to outgrow the open package.
 - One commit landed in the six weeks to October 12 and the package sits at 0.2.2, so development is slow while the MLE-agent space moves.
 - Its headline evaluations are the paper's own runs; the independent medal count comes from a competitor's comparison on 10 challenges with o1-preview, a thin slice.
-- Zero traction on Hacker News despite 1,568 stars, an unusually developer-silent footprint for a package this forked.
+- Zero traction on Hacker News despite 1,576 stars, an unusually developer-silent footprint for a package this forked.
 
 ## Pricing
 
@@ -66,6 +66,8 @@ Not for production ML engineering: the README itself routes that to the Weco pro
 
 - 2026-10-11 - Created.
 - 2026-10-13 - Recorded the repository's October 12 return (a depth-limit debug-parent fix, its first commit since September 3) and refreshed the counts.
+- 2026-10-17 - Recorded the October 16 CVE-driven datasets dependency upgrade and the October 13 configurable-provider-models commit in the status line.
+- 2026-10-23 - Harmonized the cautions line's star figure (1,568 against the status line's 1,576) to the status baseline.
 
 ## See also
 

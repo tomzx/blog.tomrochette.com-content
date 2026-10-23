@@ -1,7 +1,7 @@
 ---
 title: NanoClaw
 created: 2026-08-27
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, containers, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 ## Status
 
 Active and independently credible.
-30,940 stars and 12,759 forks as of 2026-10-14 since creation on 2026-01-31, pushed 2026-10-20 with 1,013 open issues as of 2026-10-21.
+30,940 stars and 12,759 forks as of 2026-10-14 since creation on 2026-01-31, pushed 2026-10-23 with 1,016 open issues as of 2026-10-23.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nanocoai/nanoclaw&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Active and independently credible.
 </picture>
 
 The [533-point launch thread](https://news.ycombinator.com/item?id=46850205) pitched it as "Clawdbot in 500 lines of TS with Apple container isolation", followed by a 169-point thread on the move from Apple Containers to Docker and a 112-point thread on adopting the OneCLI Agent Vault.
-The versioning moved to calendar dates: v2.4.0 (2026-09-23) was the last of the 2.x line, 2026.10.0 published on 2026-10-09 after two release candidates (rc.1 on 2026-10-04, rc.2 on 2026-10-05), and the next line opened as v2026.10.1-rc.1 on 2026-10-20, with `/update-nanoclaw` following published releases instead of the tip of main.
+The versioning moved to calendar dates: v2.4.0 (2026-09-23) was the last of the 2.x line, 2026.10.0 published on 2026-10-09 after two release candidates (rc.1 on 2026-10-04, rc.2 on 2026-10-05), and the next line opened as v2026.10.1-rc.1 on 2026-10-20, with rc.2 following on 2026-10-22, with `/update-nanoclaw` following published releases instead of the tip of main.
 The family is real: microclaw (734 stars) describes itself as inspired by NanoClaw, and the prompt-security clawsec suite explicitly covers it.
 
 ## Strengths

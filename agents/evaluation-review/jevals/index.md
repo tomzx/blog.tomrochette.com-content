@@ -1,7 +1,7 @@
 ---
 title: Jevals
 created: 2026-10-06
-updated: 2026-10-19
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, guardrails, jev, decision-models, python]
 readability: 3
@@ -33,7 +33,8 @@ It comes from OpenLayer (the openlayer-ai organization), is alpha, MIT, Python 3
 </picture>
 
 The self-run bench (September 2026, v0.1.4) measures one request per trace: $0.03 per 1,000 samples on Jev versus $2.60 for Ragas on gpt-4.1-mini, p50 244ms and p95 371ms.
-The independent checks cut both ways: LangChain's experiment found 92x to 913x lower score variance than GPT and Claude judges at $0.00035 per call, while JevBench's independent run puts Jev at small-model accuracy with calibration that varies by task.
+The independent checks cut both ways: LangChain's experiment found 92x to 913x lower score variance than GPT and Claude judges at $0.00035 per call, while JevBench's independent run puts Jev at small-model accuracy with calibration that varies by task; the JevBench board itself moved to benchmarkheaven.com after the note's first pass, where Jev now appears as an unranked reference (capability 77.1 for Jev 1.13.0) beside 196 ranked open-weights systems as of 2026-10-23.
+Red Hat's AI Safety team bench is the sharpest outside check: its October 2026 comparison found decision models like Jev do not reliably outperform an LLM-as-a-judge, a pre-trained predictive model, or open source decision models on speed or accuracy.
 
 ## Strengths
 
@@ -44,7 +45,7 @@ The independent checks cut both ways: LangChain's experiment found 92x to 913x l
 
 ## Cautions
 
-- **Accuracy is small-model class**: JevBench measured 80.3% on Banking77 with 608 failures, 29 of them at confidence 1.00, and recall moving from 85.7% to 98.4% on nothing but a prompt change.
+- **Accuracy is small-model class**: the JevBench archive measured 80.3% on Banking77 with 608 failures, 29 of them at confidence 1.00, and recall moving from 85.7% to 98.4% on nothing but a prompt change; that pre-move archive is offline, so the live grounding is the README's own summary (83 to 87% on Banking77 and CLINC150, calibration varying by task) plus Red Hat's finding that Jev does not reliably beat an LLM judge or smaller predictive models.
 - The whole stack is young on top of young: Jev, Kev, Laya, and Eikos are all September 2026 or later releases, so wire-format churn is likely.
 - Gates fail open by default when a backend goes down; the fail-closed `on_error="block"` is opt-in and belongs on anything irreversible.
 - Framework adapters are written to SDK docs and tested against fakes, not run live, per the README's own status section.
@@ -77,6 +78,7 @@ Not for judgments that need multi-step reasoning or a written critique (keep an 
 
 - 2026-10-06 - Created.
 - 2026-10-07 - Added the openlayer-ai/jevals star history chart to the Status section.
+- 2026-10-23 - Replaced the dead jevbench.xyz source (DNS no longer resolves) with the moved canonical board at benchmarkheaven.com/jev-models and the JevBench repository, restated the accuracy caution on live sources, and added the Red Hat AI Safety bench as the critical source; every cited URL re-fetched in rotation.
 
 ## See also
 
@@ -92,4 +94,6 @@ Not for judgments that need multi-step reasoning or a written critique (keep an 
 - https://pypi.org/pypi/jevals/json - PyPI 0.1.4 (published 2026-09-20), MIT, alpha classifier
 - https://hn.algolia.com/api/v1/items/49780849 - the 47-point Show HN thread (2026-09-20) and the author's answers on backends
 - https://www.langchain.com/blog/jev-agent-evals-langsmith - the independent LangChain experiment: 92x to 913x lower variance, $0.00035/call, 100% binary oracle match across 500 repetitions
-- https://jevbench.xyz - the independent evaluation archive: Banking77 at 80.3% accuracy, 29 failures at confidence 1.00, and the prompt-sensitivity finding
+- https://benchmarkheaven.com/jev-models - the canonical JevBench board since the jevbench.xyz domain went dark: 196 ranked systems, Jev as an unranked reference, as of 2026-10-23
+- https://github.com/fstandhartinger/jevbench - the JevBench repository: methodology, versioned releases, and the canonical-board pointer
+- https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails - the critical Red Hat AI Safety bench: decision models do not reliably outperform LLM-as-a-judge or predictive baselines

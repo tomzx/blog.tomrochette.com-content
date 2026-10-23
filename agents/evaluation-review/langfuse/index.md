@@ -1,7 +1,7 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
 readability: 3
@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-10-20, with v4.64.0 (2026-10-19) and v4.65.0 and v4.66.0 (both 2026-10-20) after the v4.61.0 through v4.63.0 trio of 2026-10-16, as of 2026-10-21.
+Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-10-23, with v4.68.0 (2026-10-22) and v4.67.0 (2026-10-21) after the v4.64.0 through v4.66.0 run of 2026-10-19 and 2026-10-20, as of 2026-10-23.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />
@@ -90,6 +90,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 - 2026-10-17 - Recorded the v4.61.0, v4.62.0, and v4.63.0 releases (all 2026-10-16), and added the OTel cache-write accounting caution from the flagged issue 17117 (reported 2026-09-07, closed by the fix 2026-09-14).
 - 2026-10-18 - Sharpened the cache-accounting caution with the fix's landing: merged 2026-09-07 (PR 17129), first shipped in v4.34.0 (2026-09-11), issue closed 2026-09-14, so the caution now names the exact safe build.
 - 2026-10-21 - Recorded the v4.64.0 (2026-10-19) and v4.65.0 and v4.66.0 (both 2026-10-20) releases and refreshed the activity line.
+- 2026-10-23 - Recorded the v4.67.0 (2026-10-21) and v4.68.0 (2026-10-22) releases and refreshed the activity line.
 
 ## See also
 

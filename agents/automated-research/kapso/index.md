@@ -1,7 +1,7 @@
 ---
 title: Kapso
 created: 2026-10-11
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, optimization, program-synthesis, self-improving]
 readability: 3
@@ -24,7 +24,7 @@ Leeroopedia, the project's hosted ML knowledge wiki, connects as an MCP server d
 
 ## Status
 
-Active and accelerating: 125 stars, 17 forks, created 2025-12-07, last pushed 2026-10-20 (an unreleased main fix: a stray non-UTF-8 byte no longer discards a finished evaluation run), with six releases on October 11 taking the train from v0.6.3 to v0.7.5, then v0.7.6 (October 13), v0.7.7 (October 15, a failed bank-connect leaves the origin as it found it), v0.7.8 (October 16, a rejected branch push keeps the session clone instead of deleting the candidate's only copy of its work), and v0.7.9 plus v0.7.10 on October 18, as of 2026-10-21.
+Active and accelerating: 125 stars as of 2026-10-15, 18 forks, created 2025-12-07, last pushed 2026-10-22 (unreleased main fixes: repository-memory updates now hand the model every changed file whole with its actual line numbers instead of a clipped first-20 view, and a stray non-UTF-8 byte no longer discards a finished evaluation run), with six releases on October 11 taking the train from v0.6.3 to v0.7.5, then v0.7.6 (October 13), v0.7.7 (October 15, a failed bank-connect leaves the origin as it found it), v0.7.8 (October 16, a rejected branch push keeps the session clone instead of deleting the candidate's only copy of its work), and v0.7.9 plus v0.7.10 on October 18, as of 2026-10-23.
 The v0.7.0 release added cost-aware candidate selection, an estimator prices each finalized candidate before it runs, refusals and measured costs are recorded as campaign events, and the campaign stops when the next estimate would exhaust its budget, plus a `vertex_claude_code` agent that drives Claude Code on Vertex AI open-weight models; the checkpoint schema moved to version 3, so campaigns started before 0.7.0 cannot resume.
 v0.7.9 changed how repository memory updates: the model now returns a patch of the sections it changed or added, with an explicit `removed_sections` list, instead of rewriting the whole book from a truncated view, so large repositories stop losing sections; a patch that removes a core section or names an unknown one is rejected into the repair loop. v0.7.10 fixed `kapso inbox` listing a relaunched campaign twice.
 

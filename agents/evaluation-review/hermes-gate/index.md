@@ -1,7 +1,7 @@
 ---
 title: HermesGate
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, ci, quality-gate, deterministic]
 readability: 3
@@ -32,8 +32,8 @@ Early and near-invisible: 3 stars, 1 fork, and 89 commits as of 2026-10-16, crea
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=hermes-labs-ai/hermes-gate&type=date&legend=top-left" />
 </picture>
 
-The provenance is untidy: the awesome-list-linked account (roli-lpci) and the vendor org (hermes-labs-ai) carry twin repositories with identical push timestamps, a mirror arrangement the README never explains.
-A Hacker News search returns no threads, and the vendor's own curated nine-project catalog does not list HermesGate yet, though the org hosts it.
+The provenance untidiness resolved after verification: as of 2026-10-23 the vendor-org repository (hermes-labs-ai/hermes-gate) redirects to the personal one (roli-lpci/hermes-gate), so the twin repositories seen at creation are now one repository, while the README's badges, action pin, and catalog table still point at the org path through the redirect.
+A Hacker News search returns no threads, and the vendor's own curated catalog still does not list HermesGate, though the org's site hosts the project pages.
 **The zero-community footprint is the adoption signal here: the pattern is worth copying, and nothing independent has validated the implementation.**
 
 ## Strengths
@@ -47,7 +47,7 @@ A Hacker News search returns no threads, and the vendor's own curated nine-proje
 
 - Near-zero adoption: 3 stars, no discussion anywhere, and absent from the vendor's own catalog page, so the receipt semantics have no third-party validation.
 - The review mode's default providers (CodeRabbit, a bundled Claude adapter) send your diff to third parties when enabled, and the README's PASS boundary is easy to skim past.
-- The twin-repository arrangement (personal-account mirror beside the org repo) is weak provenance for a tool whose product is provable identity.
+- The twin-repository arrangement that weakened provenance at creation collapsed before this re-verification: the org path now redirects to the personal repository, leaving one canonical repo, but the README still pins badges and the GitHub Action to the org path.
 - Solo-vendor tool from a small consultancy, pre-1.0, with the profile format and JSON states still free to move.
 
 ## Pricing
@@ -69,6 +69,7 @@ Not as a trusted dependency today: with three stars and no independent validatio
 ## Changes
 
 - 2026-10-16 - Created from the awesome-agent-observability scan, admitted as the category's first receipt-bound completion gate.
+- 2026-10-23 - Updated the provenance record: the hermes-labs-ai org repository now redirects to roli-lpci/hermes-gate, collapsing the twin-repository arrangement noted at creation; every cited URL re-fetched in rotation, all live.
 
 ## See also
 
@@ -80,7 +81,7 @@ Not as a trusted dependency today: with three stars and no independent validatio
 ## References
 
 - https://github.com/roli-lpci/hermes-gate - the list-linked repository: README, CLI, workflows, review contract, and plugin
-- https://github.com/hermes-labs-ai/hermes-gate - the vendor-org repository the badges and GitHub Action point at
+- https://github.com/hermes-labs-ai/hermes-gate - the vendor-org repository path the badges and GitHub Action point at, now redirecting to roli-lpci/hermes-gate (checked 2026-10-23)
 - https://pypi.org/project/hermes-gate/ - the published package, 0.1.7, authored by Hermes Labs
 - https://raw.githubusercontent.com/roli-lpci/hermes-gate/main/CHANGELOG.md - release history, including the reused-review fix
 - https://raw.githubusercontent.com/roli-lpci/hermes-gate/main/llms.txt - the project's self-description and docs index

@@ -1,7 +1,7 @@
 ---
 title: Databricks Unity Gateway
 created: 2026-10-02
-updated: 2026-10-16
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-plane, governance, mcp, enterprise]
 readability: 3
@@ -62,6 +62,7 @@ Not for multi-cloud agent fleets, for batch-inference-heavy workloads that need 
 
 - 2026-10-02 - Created.
 - 2026-10-16 - Rotation re-verification: all seven references re-fetched live and every claim confirmed, including the announcement's Unity Catalog naming, the on-behalf-of MCP execution, and the vendor-forum confirmation on ai_query batch inference; the forum reference's fetch caveat corrected now that the page serves a browser user agent.
+- 2026-10-23 - Rotation re-verification: all seven references re-fetched live, the Unity Gateway naming on the announcement and all three clouds' docs unchanged, the vendor-forum page again serving a browser user agent and still confirming the ai_query rate-limit gap, and the third-party guide live; no drift found.
 
 ## See also
 

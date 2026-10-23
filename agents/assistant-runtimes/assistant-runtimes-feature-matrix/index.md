@@ -1,7 +1,7 @@
 ---
 title: "Assistant Runtimes Feature Matrix"
 created: 2026-08-27
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, assistant-runtimes, personal-assistants]
 readability: 3
@@ -32,7 +32,7 @@ Each column links to the full research note; every cell below traces to a source
 | Edge and mobile | ✓ Android app | ✗ server and desktop only | ✗ desktop only | ~ $5 VPS, serverless idle on Modal, Daytona | ~ server deploys (Render) | ✗ Docker host only | ✗ desktop clients, mobile in closed beta | ~ responsive web and PWA | companion apps | ✗ desktop only | ✗ macOS and Windows desktop only | ✓ Android APK, $10 RISC-V boards | ✗ server only | ~ beta Tauri desktop | ~ Raspberry Pi |
 | Credentials | your keys | your keys, providers set in the panel | your keys or cloud credits | per-provider keys or Nous Portal | your keys on host | ✓ OneCLI Agent Vault | your keys, per-expert providers | your keys | your keys on host | your keys BYO | your keys | your keys in workspace | your keys, local by default | your keys, or none offline | your keys in workspace |
 | Security record | clean so far | silent-drop adapter bug fixed 2026-06, thin English-language scrutiny | GAIA claim corrected, astroturf flag | edited plagiarism-claim issue, 48k open issues | clean so far, category-skepticism thread | clean so far | clean so far, zero English-language scrutiny | clean so far, license controversy | provider saga, 514-point vuln report, Trail of Bits audit completed (23 confirmed vulnerabilities, all fixed) | HN boundary questions unresolved | open beta, macOS builds signed and notarized while Windows builds are unsigned, thin independent footprint | pre-1.0 banner, scam-token notice, picoclaw.io cert renewed after its 2026-09-10 expiry | clean so far | telemetry auto-accept default | clean so far, thin coverage |
-| Status | active, v1.18.0 | active, v4.29.1, 970 open issues and PRs | active, v1.0.6 | active, v0.22.2 on the semver release line, 50k open issues | active, PyPI alpha | active, v2026.10.0 stable with v2026.10.1-rc.1 open, 1.0k open issues | active, v1.0.2 stable, 876 open issues | active, v0.12.3 | active, v2026.10.5 stable, 9.7k open issues | active, v0.18.59 | active, v0.3.1, open beta | active, 39 open issues, pre-1.0 | active, v1.0.1, pushed 2026-10-20 | active, v2.2.2, post-rewrite churn | active, v0.8.6, 1.0k open issues |
+| Status | active, v1.18.0 | active, v4.29.1, 986 open issues and PRs | active, v1.0.6 | active, v0.22.5 on the semver release line, 50k open issues | active, PyPI alpha | active, v2026.10.0 stable with v2026.10.1-rc.2 open, 1.0k open issues | active, v1.0.2 stable, 754 open issues | active, v0.12.3 | active, v2026.10.6 stable, 8.9k open issues | active, v0.18.60 | active, v0.3.1, open beta | active, 39 open issues, pre-1.0 | active, v1.0.1, pushed 2026-10-20 | active, v2.2.2.post1, post-rewrite churn | active, v0.8.6, 1.0k open issues |
 
 ## Reading the matrix
 
@@ -44,7 +44,7 @@ QwenPaw is the only column with a real offline path through its own trained smal
 
 **The desktop split is the new category line: OpenWork, Eigent, and OpenWorker do not do chat channels at all, which is why their cells go tilde there, and choosing between them and the messaging runtimes is really choosing between an assistant that lives in your chats and one that lives on your desktop.**
 
-**The status row's issue counts are inversely proportional to age, not quality: the root carries 9.7k open issues at scale, and the pre-1.0 PicoClaw carries 39, so read the column against its birthday.**
+**The status row's issue counts are inversely proportional to age, not quality: the root carries 8.9k open issues at scale, and the pre-1.0 PicoClaw carries 39, so read the column against its birthday.**
 
 **Hermes is the column that breaks the -claw pattern: it competes on the learning loop rather than the trust ladder, and its about 253k stars against a 50k-issue backlog is the trade in one row pair.**
 
@@ -88,6 +88,7 @@ QwenPaw is the only column with a real offline path through its own trained smal
 - 2026-10-18 - Re-verification: moved cells (AstrBot status to v4.29.1 with 948 open issues and PRs, Open WebUI to v0.12.3, ZeroClaw to v0.8.6 with 1,004 open issues, Hermes to 50k open issues, Octop to 825, PicoClaw to 42) and matching prose counts, with the stars row left at its 2026-10-14 counts.
 - 2026-10-19 - Re-verification: moved cells (Octop status to stable v1.0.2, OpenClaw status to v2026.10.5 stable with 9.5k open issues, AstrBot to 956 open issues and PRs, ZeroClaw to 960) and matching prose counts, with the stars row left at its 2026-10-14 counts.
 - 2026-10-21 - Re-verification: moved cells (AstrBot to 970 open issues and PRs, NanoClaw status to v2026.10.0 stable with the v2026.10.1 release candidate open, Octop to 876 open issues, OpenClaw to 9.7k, OpenWork status to v0.18.59, PicoClaw to 39, PrivateGPT pushed 2026-10-20, ZeroClaw to 1.0k) and matching prose counts, with the stars row left at its 2026-10-14 counts. The references list gained the four column repos it lacked (AnythingLLM, Octop, Open WebUI, PrivateGPT).
+- 2026-10-23 - Re-verification: moved cells (Hermes status to v0.22.5 on the semver release line, OpenClaw to v2026.10.6 stable with 8.9k open issues after the 541-issue mass close of 2026-10-22, OpenWork to v0.18.60, QwenPaw to v2.2.2.post1, NanoClaw's open release candidate to rc.2, AstrBot to 986 open issues and PRs, Octop to 754) and matching prose counts, with the stars row left at its 2026-10-14 counts.
 
 ## See also
 
