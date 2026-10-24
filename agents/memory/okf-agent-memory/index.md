@@ -1,7 +1,7 @@
 ---
 title: OKF Agent Memory
 created: 2026-10-17
-updated: 2026-10-20
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, agent-memory, okf, git-native, go, mcp]
 readability: 3
@@ -25,7 +25,7 @@ It implements, rather than defines, the format: the normative spec lives in Goog
 ## Status
 
 **Active and growing, admitted this run when its standing re-review trigger fired on both arms.**
-814 stars with the repository pushed 2026-10-19, created 2026-09-05, MIT, as of 2026-10-20 (GitHub API), with v0.6.2 released 2026-10-19, a patch fixing hub-sync index bookkeeping collisions and per-bundle IDF distortion in layered BM25 search.
+814 stars with the repository pushed 2026-10-22, created 2026-09-05, MIT, as of 2026-10-20 (GitHub API), with v0.7.0 released 2026-10-20 adding OpenSSF-style bundle quality scorecards (a deterministic 0-100 score with letter grades over epistemic maintenance, human stewardship, and conformance integrity) and pre-pull quality gating (`okf pull --min-score` with atomic filesystem rollback); v0.6.2 (2026-10-19) before it fixed hub-sync index bookkeeping collisions and per-bundle IDF distortion in layered BM25 search.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=okf-memory/okf-agent-memory&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ Not for cross-user or cross-app memory (one repo bundle, no multi-user API), and
 
 - 2026-10-17 - Created when the standing re-review trigger fired on both arms (independent citations in the 392-point documentation-over-recall thread, and a second OKF implementation in fellowgeek/mcp-memory), with ten fetched sources, the unanswered recall-question and ripgrep-equivalence objections recorded as the critical angles, and mcp-memory plus Kage folded in as ecosystem evidence below the admission bar.
 - 2026-10-17 - Added the scaccogatto/okf-skills toolkit to the ecosystem caution and references as the OKF format's first delivery-side adoption, routed here from the skills category's entrant scan.
+- 2026-10-24 - Recorded v0.7.0 (October 20): bundle quality scorecards (a deterministic 0-100 score with letter grades over epistemic maintenance, human stewardship, and conformance integrity) and pre-pull quality gating via `--min-score` with atomic rollback.
 
 ## See also
 

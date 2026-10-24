@@ -1,7 +1,7 @@
 ---
 title: Hindsight
 created: 2026-10-07
-updated: 2026-10-19
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, benchmarks, open-source]
 readability: 3
@@ -35,7 +35,7 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&legend=top-left" />
 </picture>
 
-Latest release v1.0.0 (2026-10-13), the project's first stable major, with PyPI (hindsight-api, hindsight-client) and npm in sync at 1.0.0 as of 2026-10-16, and 218,746 trailing-month npm client downloads (2026-09-13 to 2026-10-12).
+Latest release v1.1.0 (2026-10-21) with PyPI (hindsight-api, hindsight-client) and npm in sync at 1.1.0 as of 2026-10-24, and 199,868 trailing-month npm client downloads (2026-09-23 to 2026-10-22); v1.0.0 (2026-10-13) was the project's first stable major, and v1.1.0 adds server-side selection of the LLM and credentials for each call, Cloudflare Clef and OpenAI Decisions API as decision-model providers, recall ranking by the decision model when one is configured, and webhook event delivery ids.
 v0.10.3 treats memory as a past record teams can annotate with their own guidance, adds a TraeCode (TRAE CN) harness adapter, filters non-conversation Codex content, and waits out rate limits during history deepening instead of dropping turns.
 The paper (arXiv 2512.12818, December 2025, with Virginia Tech's Naren Ramakrishnan among the authors) reports 91.4 percent on LongMemEval and 89.61 on LoCoMo; the live benchmark site claims 94.6 on LongMemEval-S, 92.0 on LoCoMo, and 64.1 on BEAM-10M as of 2026-10-07, and the README says Virginia Tech's Sanghani Center and The Washington Post independently reproduced the Hindsight numbers.
 The discussion footprint is thin for the size: a 4-point Show HN (December 2025), a self-posted 3-point star-milestone thread (April 2026), and a 2-point story (October 2026), so the 46k stars came through benchmark attention and ecosystem listings rather than public debate.
@@ -85,6 +85,7 @@ Not for solo coding-agent use, where local files or claude-mem cost nothing, or 
 - 2026-10-11 - The pricing page no longer lists the $5 signup credit (the free start remains); refreshed stars to 48,166 and downloads to 215,770, and re-verified the three-tier ladder unchanged.
 - 2026-10-12 - The pricing page published its first per-operation rates (retain $10.00/1M tokens, recall $0.75/1M, reflect $0.05/call, storage $0.25/1M per month past 30 days, plus extraction and mental-model rates), replacing the token-billing-only description (Price history row); refreshed stars to 48,555.
 - 2026-10-16 - Recorded the v1.0.0 release (October 13, the first stable major) with PyPI and npm in sync at 1.0.0; refreshed stars to 50,146 and trailing-month npm client downloads to 218,746.
+- 2026-10-24 - Recorded v1.1.0 (October 21): server-side LLM and credential selection per call, Cloudflare Clef and OpenAI Decisions API as decision-model providers, decision-model-ranked recall, and webhook event delivery ids; PyPI and npm re-verified in sync at 1.1.0, trailing-month npm client downloads refreshed to 199,868.
 
 ## See also
 
@@ -102,5 +103,5 @@ Not for solo coding-agent use, where local files or claude-mem cost nothing, or 
 - https://arxiv.org/abs/2512.12818 - the paper (91.4 percent LongMemEval, 89.61 LoCoMo, December 2025) and the author list
 - https://vectorize.io/pricing - the self-host/Cloud/Enterprise ladder and the per-operation rates published in its FAQ (retain $10.00/1M, recall $0.75/1M), as of 2026-10-12
 - https://pypi.org/pypi/hindsight-api/json - hindsight-api 0.10.3 (2026-10-08), the release-sync record
-- https://api.npmjs.org/downloads/point/last-month/@vectorize-io/hindsight-client - 214,217 trailing-month client downloads (2026-09-11 to 2026-10-10)
+- https://api.npmjs.org/downloads/point/last-month/@vectorize-io/hindsight-client - 199,868 trailing-month client downloads (2026-09-23 to 2026-10-22, re-fetched 2026-10-24)
 - https://hn.algolia.com/api/v1/search?query=%22hindsight%22%20agent%20memory&tags=story - the thin-discussion record (4-point Show HN 2025-12-16, 3-point milestone thread 2026-04-22, 2-point story 2026-10-05)

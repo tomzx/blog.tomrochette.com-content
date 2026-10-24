@@ -95,6 +95,7 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-21 | orchestration | worktree-manager CLIs slot in orchestration beside Worktrunk, not surfaces or sandboxing | gwq admitted on the terminal-family precedent (worktrees are not isolation boundaries), closing the software-factory and scanner routing flags
 - 2026-10-21 | sandboxing | a repository rename resolves against the prior name's history only when that name was itself a resolved candidate; a prose mention is not a resolution | the loom-to-Overalls handoff: loom was only a mention in the geoffrey-huntley note, so overalls was judged fresh and admitted (1,557 stars, Firecracker microVM platform, research preview 2026-11-03)
 - 2026-10-23 | cross-category | Mods-section additions in the claude-code list resolve as single-mod kinds under the skills exclusion | review-inbox (2 stars) the first confirmed instance, Molecular Animation (2 stars) out of scope on top of it
+- 2026-10-24 | memory | the TeleAI list's 2026-10-21 to 2026-10-23 additions resolve on standing families | TriMem, MemRec, BetaMem, and EvoKernel are paper-section entries rather than tools, Monolithos is closed-hosted with no open engine, Big Agentic Brain (18 stars) and agent-memory-recall (0 stars) sit below the 294-star floor
 
 ## Owner questions governing scope
 
@@ -138,8 +139,8 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-16 | software-factory | uzi (vtmocanu) reopens on independent coverage or a stable release | 91 stars, MIT, alpha, nightly RC train, only a self-authored write-up, below the Orbi precedent (213 stars rejected 2026-10-11)
 - 2026-09-25 | trackers-and-leaderboards | bestvaluemodel reopens on a license (sustained operation demonstrated: pushed 2026-10-16 with weeks of daily refreshes) | one-day-old derivative of member Artificial Analysis at rejection
 - 2026-09-25 | trackers-and-leaderboards | llm-list.com reopens on independent coverage | fully derivative of models.dev, OpenRouter, Arena, Artificial Analysis, and Hugging Face
-- 2026-09-27 | hybrid-execution | drawgent reopens on a primary mirror | license and stars unverifiable from tangled.org-only hosting
-- 2026-09-27 | harnesses | drawgent reopens on a primary mirror | license and stars unverifiable from tangled.org-only hosting
+- 2026-10-24 (ruled 2026-09-27) | hybrid-execution | drawgent reopens on a primary mirror | license and stars unverifiable from tangled.org-only hosting; re-checked 2026-10-24, GitHub repository search returns zero drawgent repositories and tangled.org/drawgent 404s, unmet
+- 2026-10-24 (ruled 2026-09-27) | harnesses | drawgent reopens on a primary mirror | license and stars unverifiable from tangled.org-only hosting; re-checked 2026-10-24, no mirror exists, unmet
 - 2026-10-16 | memory | Mnemoverse reopens on traction or independent coverage | 27 stars, 4 forks, hosted-first thin record far below the category floor (smallest member Emulo at 294)
 - 2026-09-27 | skills | dotskills reopens on sustained traction | curated pack overlapping the Agent-Native column
 - 2026-09-27 | executions | octopool reopens on traction | weeks-old ecosystem utility, thin docs

@@ -1,7 +1,7 @@
 ---
 title: Strands Decider 2B
 created: 2026-10-12
-updated: 2026-10-22
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights]
 readability: 3
@@ -25,7 +25,7 @@ It comes from strands-labs, the org behind the Strands Agents SDK, an AWS-backed
 
 ## Status
 
-Active and fresh: the repository was created 2026-09-29 and pushed 2026-10-21 (a serving-package refactor and formatting since the 10-19 releases), with 636 stars as of 2026-10-15 and 91 forks as of 2026-10-20, and the Hugging Face checkpoint was published 2026-10-09 with 7 likes, its download counter still not tracking (GitHub and Hugging Face APIs).
+Active and fresh: the repository was created 2026-09-29 and pushed 2026-10-23 (release CI now also publishes a GitHub release alongside the PyPI artifacts, plus formatting, since the 10-19 releases), with 636 stars as of 2026-10-15 and 91 forks as of 2026-10-20, and the Hugging Face checkpoint was published 2026-10-09 with 7 likes, its download counter still not tracking (GitHub and Hugging Face APIs).
 The project's first tagged releases landed 2026-10-19: PyPI 0.2.0 splits inference from training (the training commands leave the CLI), fixes the MPS crash under overlapping requests and per-request option offsets under concurrent serving, makes evaluation prepare the model exactly as serving does, and ships a harness-agnostic customize-decider skill (from a user's decision to a measured, calibrated model) plus SageMaker deploy docs.
 
 <picture>
@@ -37,7 +37,7 @@ The project's first tagged releases landed 2026-10-19: PyPI 0.2.0 splits inferen
 The launch post (2026-10-07) drew a 285-point Show HN thread, above the bar most of this wave cleared, and the tone was warmer than most decision-model threads: early commenters reported on-device deployments rather than methodology fights, one running it in a browser extension to filter email.
 The self-run evidence is unusually disciplined: evaluation/results.md publishes per-seed tables next to the soup's numbers (JevBench public items 180 of 231 tasks right, Brier 0.280, ECE 0.072, HotpotQA 0.832 never trained on), states that the training-data builders are not yet on `main` so the data cannot be rebuilt from the repository, and dates every measurement.
 The headline reliability claim is a confidence contract: on short classification tasks it has never seen, answers at confidence 0.9 or higher are right about 95 percent of the time, with "confirm or ask a person" below that, which is the deployment logic the calibrated-probability columns all promise.
-The one independent reading so far is adverse: the Decision Index 0.4.1 board (edition 0.4, generated 2026-10-22, 226 configurations, the Full score now entirely private) scores strands-decider-2b at 20.72, rank 178, against the vendor's Jev 1.14 at 60.24 (forty-first), while the project's own balanced-skill self-run reads 30.82, and JevBench carries no row for any Strands checkpoint yet.
+The one independent reading so far is adverse: the Decision Index 0.4.1 board (edition 0.4, generated 2026-10-22, 229 configurations after the same-day regeneration, the Full score now entirely private) scores strands-decider-2b at 20.72, rank 181, against the vendor's Jev 1.14 at 60.24 (forty-first), while the project's own balanced-skill self-run reads 30.82, and JevBench carries no row for any Strands checkpoint yet.
 
 ## Strengths
 
@@ -78,6 +78,7 @@ The disagreeable claim I will defend: the fair comparison is not with the commun
 - 2026-10-18 - Volatile re-verification surfaced the release's full extent and recorded it: the v1 line shipped five checkpoints on 2026-10-09, the 2B Qwen3.5 measured here plus four Gemma 4 siblings (E2B, E4B, 12B, 26B-A4B on `google/gemma-4-*-it` bases) carrying self-run tables the note had not mentioned, and the training configs of all five were published under `configs/v1` on 2026-10-16 (the data builders remain off `main`); the Decision Index's 2026-10-16 regeneration (174 configurations) moved the unchanged 21.34 from rank 127 to 135 and Jev's reading to the 1.14 row at 61.53, the pushed date moved to 2026-10-16 (an evaluate/serving consistency fix and the config publication), and the checkpoint's likes refreshed to 7.
 - 2026-10-20 - Volatile re-verification after the 2026-10-19 push: recorded the first tagged releases (v0.1.0 and v0.2.0, 2026-10-19), PyPI now 0.2.0 with the CLI's inference-from-training split, the MPS and concurrent-serving fixes, evaluation matching serving's preparation, and the harness-agnostic customize-decider skill; pushed date moved to 2026-10-19 and forks refreshed to 91.
 - 2026-10-22 - The Decision Index's 0.4.1 rebuild (226 configurations, the Full score now entirely private) moved the adverse reading from 21.34, rank 135 of 174, to 20.72, rank 178 of 226, against Jev 1.14's 60.24; pushed date moved to 2026-10-21 (a serving-package refactor and formatting, no release).
+- 2026-10-24 - Volatile re-verification after the 2026-10-23 push (release CI publishing GitHub releases with the PyPI artifacts, plus formatting): the 0.4.1 board's same-day regeneration (229 configurations) moved the unchanged 20.72 from rank 178 to 181; pushed date moved to 2026-10-23.
 
 ## See also
 
@@ -89,12 +90,12 @@ The disagreeable claim I will defend: the fair comparison is not with the commun
 
 ## References
 
-- https://github.com/strands-labs/strands-decider - repository: Apache-2.0, created 2026-09-29, 636 stars as of 2026-10-15, 91 forks, pushed 2026-10-21, the CLI surfaces and device extras (GitHub API and README, as of 2026-10-22)
+- https://github.com/strands-labs/strands-decider - repository: Apache-2.0, created 2026-09-29, 636 stars as of 2026-10-15, 91 forks, pushed 2026-10-23, the CLI surfaces and device extras (GitHub API and README, as of 2026-10-24)
 - https://github.com/strands-labs/strands-decider/releases - the first tagged releases, v0.1.0 and v0.2.0 of 2026-10-19: the CLI split, the serving fixes, and the customize-decider skill (fetched 2026-10-20)
 - https://github.com/strands-labs/strands-decider/tree/main/configs/v1 - the training configs of the five v1 releases, published 2026-10-16 (fetched 2026-10-18)
 - https://strandsagents.com/blog/introducing-strands-decider/ - the launch post: the decision-model positioning, the confidence contract, and the SDK tie-in (fetched 2026-10-12)
 - https://raw.githubusercontent.com/strands-labs/strands-decider/main/evaluation/results.md - the seed tables, the soup design, the KL anchor, the data-mix disclosure, the Gemma 4 v1 section, and the not-yet-rebuilt-data statement (re-fetched 2026-10-18)
 - https://huggingface.co/StrandsAgents/strands-decider-2B-qwen3.5-v1-2610 - the checkpoint: Apache-2.0, published 2026-10-09, 7 likes, downloads not yet tracked, one of five v1 checkpoints in the org (Hugging Face API, as of 2026-10-18)
 - https://news.ycombinator.com/item?id=49987076 - the 285-point launch thread (2026-10-07, fetched via the Algolia items API), its on-device deployment reports the early traction evidence
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 board scoring strands-decider-2b at 20.72, rank 178 of 226 (generated 2026-10-22, fetched 2026-10-22)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 board scoring strands-decider-2b at 20.72, rank 181 of 229 (generated 2026-10-22, fetched 2026-10-24)
 - https://pypi.org/project/strands-decider/ - the package, 0.2.0 since 2026-10-19, self-described as an experimental typed classifier (re-fetched 2026-10-20)

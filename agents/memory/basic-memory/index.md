@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-10-20
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -17,7 +17,7 @@ Basic Memory is an AGPL-3.0 local-first knowledge base for AI agents: a Python M
 
 ## What it is
 
-A Python MCP server from Basic Machines (PyPI basic-memory 0.23.2, Python 3.12+), usable from any MCP client: Claude, Codex, Cursor, ChatGPT.
+A Python MCP server from Basic Machines (PyPI basic-memory 0.24.1, Python 3.12+), usable from any MCP client: Claude, Codex, Cursor, ChatGPT.
 Notes are Obsidian-compatible markdown with observations and wikilinks that compound into a knowledge graph.
 Search is semantic with optional cross-encoder reranking for hybrid and vector results.
 Every tool is tagged with behavior hints (read-only, destructive, idempotent) for progressive tool discovery, so agents pick the right tool without probing.
@@ -34,7 +34,7 @@ The cloud adds cross-device sync, browser and mobile access, and a shared Teams 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&legend=top-left" />
 </picture>
 
-The PyPI release (0.23.2) dates to 2026-08-25, so the registry lags the active repository.
+The registry-lag record ended: PyPI moved to 0.24.1 on 2026-10-23, in sync with the repository's tagged releases, after two months pinned at 0.23.2.
 The Hacker News record is a 4-point Show HN in March 2025 (0 comments) and a 2-point third-party story in February 2026, so the 4.1k stars came through the MCP-ecosystem channels (registry listings, Discord) rather than public debate.
 
 ## Strengths
@@ -84,6 +84,7 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 - 2026-10-07 - Added the basicmachines-co/basic-memory star history chart to the Status section.
 - 2026-10-07 - The cloud pricing restructured: the $15/mo locked-for-life beta retired in favor of Team $15/seat/mo with volume tiers, a new Business $30/seat/mo tier, and a custom credit-based Agent Infrastructure tier (Price history row); Teams moved from early to live with roles; the beta-repricing caution rewritten.
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the pricing page's schema.org data still lists Local $0, Team $15/seat, Business $30/seat; PyPI still 0.23.2 from 2026-08-25; the repository pushed 2026-10-16 as recorded).
+- 2026-10-24 - Correction: the registry-lag record ended, PyPI moved to 0.24.1 on 2026-10-23 in sync with the repository's v0.24.1 tag, after two months pinned at 0.23.2.
 
 ## See also
 
@@ -98,6 +99,6 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 - https://raw.githubusercontent.com/basicmachines-co/basic-memory/main/README.md - architecture, features, the cloud pricing banner, and the Teams announcement
 - https://basicmemory.com - product site and cloud offering
 - https://basicmemory.com/pricing - the Team, Business, and Agent Infrastructure ladder, re-verified unchanged 2026-10-11
-- https://pypi.org/pypi/basic-memory/json - basic-memory 0.23.2 (2026-08-25), the registry lag record
+- https://pypi.org/pypi/basic-memory/json - basic-memory 0.24.1 (2026-10-23), in sync with the tagged releases; the two-month lag at 0.23.2 ended
 - https://hn.algolia.com/api/v1/items/43374258 - the March 2025 Show HN (4 points, 0 comments)
 - https://hn.algolia.com/api/v1/items/47091810 - the February 2026 third-party story (2 points), the thin-discussion record

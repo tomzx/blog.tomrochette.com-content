@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-10-17
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -34,7 +34,7 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
 </picture>
 
-3,721 stars since 2026-04-30, latest release v1.2.26 on 2026-10-16 (unified chunk relations, importance, and entities-first metadata, plus a webhook validation fix, following v1.2.25 on 2026-10-13), pushed 2026-10-16 (GitHub API, as of 2026-10-17).
+3,721 stars since 2026-04-30, latest release v1.2.30 on 2026-10-24 (a retrieval query mode router, agent versus classic), following three releases in two days: v1.2.27 and v1.2.28 on 2026-10-22 (IPTC domain taxonomy, TOC keywords, and image region metadata; revision-pinned document structure) and v1.2.29 on 2026-10-24 (body-only page-chunk previews), pushed 2026-10-24 (GitHub API, as of 2026-10-24).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
 
@@ -54,7 +54,7 @@ The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the s
 
 ## Pricing
 
-**The hosted API bills per page: $0.015 per billable page ($1.50 per 100 pages), with rate-limit tiers unlocked by lifetime spend (re-verified unchanged 2026-10-13).**
+**The hosted API bills per page: $0.015 per billable page ($1.50 per 100 pages), with rate-limit tiers unlocked by lifetime spend (re-verified unchanged 2026-10-24).**
 The $5 signup credit the site showed on 2026-09-22 no longer appears; the current signup offer is a 14-day free trial (re-verified 2026-09-26).
 Billable pages count physical PDF pages, slide counts, one page per image, and size-derived units for text and spreadsheets; jobs that fail after billing are refunded.
 The open-source engine and the self-hosted stack are free under Apache-2.0.
@@ -92,6 +92,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 - 2026-10-11 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-13 - Recorded release v1.2.25 (2026-10-13, a QStash token-region fix) and refreshed the volatile numbers (3,721 stars, pushed 2026-10-13); per-page pricing re-verified unchanged.
 - 2026-10-17 - Recorded release v1.2.26 (2026-10-16, unified chunk relations and entities-first metadata plus a webhook validation fix) and re-verified the repository activity (pushed 2026-10-16).
+- 2026-10-24 - Rotation re-verification re-fetched every cited URL live (pricing unchanged at $0.015 per billable page with the 14-day trial still advertised, product and docs pages up, the self-hosted stack unchanged at 12 stars, both Show HNs and the PyPI name-squat unchanged) and recorded releases v1.2.27 through v1.2.30 (2026-10-22 to 2026-10-24) with the repository activity refreshed (pushed 2026-10-24).
 
 ## See also
 
@@ -102,11 +103,11 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,721 stars (as of 2026-10-13), pushed 2026-10-16, 36 open issues (GitHub API, as of 2026-10-17)
-- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.26 on 2026-10-16
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,721 stars (as of 2026-10-13), pushed 2026-10-24, 37 open issues (GitHub API, as of 2026-10-24)
+- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.30 on 2026-10-24 (re-verified 2026-10-24, with v1.2.27 and v1.2.28 of 2026-10-22 and v1.2.29 of 2026-10-24 behind it)
 - https://knowhereto.ai - hosted product surface, $5 free credit, and the self-reported comparison table
 - https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface
-- https://docs.knowhereto.ai/pricing - per-page pricing, billable-page counting, refund policy, rate-limit tiers
+- https://docs.knowhereto.ai/pricing - per-page pricing, billable-page counting, refund policy, rate-limit tiers (re-verified unchanged 2026-10-24)
 - https://docs.knowhereto.ai/mcp - MCP server tools, permission modes, host configuration
 - https://github.com/Ontos-AI/knowhere-self-hosted - the self-hosted stack, 12 stars as of 2026-09-22
 - https://hn.algolia.com/api/v1/items/49738595 - the September 17, 2026 Show HN, 1 point, 0 comments

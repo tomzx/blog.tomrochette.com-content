@@ -1,7 +1,7 @@
 ---
 title: "Harness Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-21
+updated: 2026-10-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, comparison, harnesses, coding-agents]
 readability: 3
@@ -80,7 +80,7 @@ The three columns this run adds split the same way again: gptme reuses your Chat
 **Atomic Agent is the small-model bet:** the only column that maintains its own llama.cpp fork (TurboQuant quantization and speculative decoding) and engineers the loop around what small models survive, grammar-constrained tool calls, a cache-stable prompt prefix, a bounded tail, and externalized state, with Fusion as its subagent story and a vendor-run GAIA benchmark whose artifacts are published but unreplicated.
 **gptme is the seniority bet:** the oldest codebase in the table (first commit March 2023, eleven days before aider), the only column whose largest contributor is its own autonomous agent, and the one whose persistent-agent layer (git-as-brain workspaces, cross-harness memory in Claude Code's format) treats the harness as a long-lived coworker rather than a session, against the thinnest independent-discussion record of any four-year-old member.
 **AutoDev is the one-codebase bet:** a Kotlin Multiplatform agent engine compiled to IDEA, VS Code, CLI, web, desktop, and mobile targets, with five top-level agents and nine subagents, still alpha-only at Xiuper 3.0, carried by a maintainer who wrote about 98 percent of the code, and searchable under a name Microsoft's research framework owns.
-**LongHorizon-Harness is the audited-loop bet:** it wraps four columns of this very table as interchangeable executor backends around a manage-execute-audit loop whose read-only auditor is the only writer of task state, with self-run benchmark gains whose own paper discloses the unmatched-privilege caveat, a token bill that swings with the backbone, and eight weeks of commit silence as the open question.
+**LongHorizon-Harness is the audited-loop bet:** it wraps four columns of this very table as interchangeable executor backends around a manage-execute-audit loop whose read-only auditor is the only writer of task state, with self-run benchmark gains whose own paper discloses the unmatched-privilege caveat, a token bill that swings with the backbone, and a two-month commit silence that the v0.1.8 patch (October 21) only just broke as the open question.
 
 **The out-of-category flags from the 2026-10-12 resolutions both fail the harness test on kind, not quality.** rea.tools (morluto/rea, REA Reverse Engineer Anything, 109,906 stars and a 768-point Hacker News thread as of 2026-10-12, MIT, last push 2026-10-12) gives coding agents a reverse-engineering tool server through one MCP server, a CLI, and an installable skill: binaries, Electron apps, packaged and firmware targets, and runtime behavior, wired to Ghidra, Hopper, and IDA-class engines. It equips harnesses but never carries the model into your repository, so it is rejected here and returned for the skills category (its skill-first distribution) with protocols (its MCP surface) as the alternate fit. langchain-ai/deepagents (30,140 stars as of 2026-10-12, MIT, active) resolves the orchestration flag negative: it calls itself the batteries-included agent harness, but it is a Python and TypeScript agent-building SDK layered on LangGraph's create_agent for general tasks, with no terminal, no BYOK, no AGENTS.md, and no IDE row to answer; its terminal coding derivative dcode is already covered in the retrieval category's LangChain note, and admitting the SDK would preempt the owner-pending single-vendor SDK family question, so the flag closes as not harnesses-kind.
 
@@ -152,6 +152,7 @@ The three columns this run adds split the same way again: gptme reuses your Chat
 - 2026-10-18 - Sharpened the Open Interpreter AGENTS.md and MCP cells from partial to supported against its README's portability list (repository AGENTS.md, shared .agents/skills directories, MCP, with client and server docs pages), and added it to the rules-portability list.
 - 2026-10-21 - Repointed the Copilot CLI docs reference to its post-reorganization path (concepts/copilot-surfaces/copilot-cli), fetched at the new location.
 - 2026-10-21 - Extended from forty-two to forty-three columns with Mirror (Reflection's Apache-2.0 terminal agent over its own open-weights Beam, per-workspace models and approval modes, worktree and microVM workspaces), inserted in sorted position with all twelve cells traced to its note, and added it to the open-client and local-model prose lists.
+- 2026-10-24 - Updated the LongHorizon-Harness reading paragraph after v0.1.8 (published October 21) ended the eight-week commit silence its column's prose had named as the open question.
 
 ## See also
 

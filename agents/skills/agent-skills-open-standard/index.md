@@ -1,7 +1,7 @@
 ---
 title: Agent Skills open standard
 created: 2026-08-24
-updated: 2026-10-11
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, agent-extensions, open-standards, llm=glm-5.3-flash]
 readability: 3
@@ -65,6 +65,7 @@ My disagreeable claim: SKILL.md is quietly becoming the interface between softwa
 - 2026-10-05 - Cursor's own docs now document native Agent Skills support (`.agents/skills` plus `.cursor/`, `.claude/`, and `.codex/` paths, `paths` and `disable-model-invocation` frontmatter, `/skill` invocation, and a `/migrate-to-skills` built-in in 2.4), so the discovery sentence no longer treats Cursor as a Vercel-CLI-only adopter and the fragmentation caution reflects Cursor's beyond-spec fields.
 - 2026-10-06 - Added Agent Plugins to See also: the multi-vendor packaging standard that bundles this format with MCP servers into one installable plugin; the 79-agent README count re-verified.
 - 2026-10-08 - The Vercel CLI's agent-target count moved back to 79, with the README headline and table now agreeing, correcting the 80 recorded on 2026-10-07.
+- 2026-10-24 - Rotation re-verification: every cited URL re-fetched live and all claims held (the spec's field limits and 500-line recommendation, the client showcase roster, Codex's 2%-of-context cap, Gemini's consent gate, OpenCode's ignore-unknown-fields behavior, Cursor's beyond-spec fields, Mintlify's .well-known convention and install.md deprecation, the Vercel CLI at 79 agents).
 
 ## See also
 
@@ -83,5 +84,5 @@ My disagreeable claim: SKILL.md is quietly becoming the interface between softwa
 - https://opencode.ai/docs/skills/ - Claude-compatible and .agents paths, unknown-field behavior
 - https://www.mintlify.com/blog/skill-md - third-party adoption, .well-known convention, install.md deprecation
 - https://github.com/vercel-labs/skills - cross-harness compatibility matrix
-- https://cursor.com/docs/context/skills - Cursor's native Agent Skills docs: directories, beyond-spec frontmatter, invocation, migration skill (fetched 2026-10-06)
+- https://cursor.com/docs/context/skills - Cursor's native Agent Skills docs: directories, beyond-spec frontmatter, invocation, migration skill (fetched 2026-10-06, re-verified live 2026-10-24)
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - the untrusted-skill security risk behind the caution above

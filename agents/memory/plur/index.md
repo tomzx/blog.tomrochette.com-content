@@ -1,7 +1,7 @@
 ---
 title: PLUR
 created: 2026-10-14
-updated: 2026-10-19
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, mcp, local-first, open-source]
 readability: 3
@@ -33,7 +33,7 @@ Sync is git over your own remotes, with scope-filtered pushes (shared remotes ne
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=plur-ai/plur&type=date&theme=dark&legend=top-left" />
 </picture>
 
-@plur-ai/core is at 0.21.5, published 2026-10-07 (first publish 2026-03-22, npm registry), and the project was listed in awesome-claude-code on 2026-10-13.
+@plur-ai/core is at 0.22.1, published 2026-10-22 (first publish 2026-03-22, npm registry); v0.22.0 (October 22) shipped the enterprise first-install path (`plur-enterprise init` in a new @plur-ai/plur-enterprise package: device sign-in, tool configuration, and a kept hello-memory proof through the installed MCP connection), and the project was listed in awesome-claude-code on 2026-10-13.
 Its headline benchmark claims (full LongMemEval-S recall at 97.6 percent with a reranker, and Haiku with PLUR beating Opus without it at roughly ten times less cost) are self-published, with the harness public at plur-ai/plur-bench, a pinned corpus, and reproduction explicitly invited, but I found no independent reproduction or coverage of the project as of 2026-10-14.
 
 ## Strengths
@@ -53,7 +53,7 @@ Its headline benchmark claims (full LongMemEval-S recall at 97.6 percent with a 
 ## Pricing
 
 Free and open under Apache-2.0, with local search making zero API calls and costing nothing per query.
-A PLUR Enterprise tier for team scopes and remote team stores is referenced with no public price found as of 2026-10-14.
+A PLUR Enterprise tier for team scopes and remote team stores is referenced with no public price found as of 2026-10-24; v0.22.0 shipped the tier's first-install command in its own package, and a pricing page on plur.ai still does not exist (404).
 
 ## Compared to
 
@@ -69,6 +69,7 @@ Not for multi-user products needing server-side per-user isolation, and not for 
 ## Changes
 
 - 2026-10-14 - Created.
+- 2026-10-24 - Rotation re-verification: every cited URL re-fetched live (repository API, README, the engram spec, the benchmark page, plur-bench, npm), and recorded v0.22.0 (October 22) shipping the enterprise first-install command in a new @plur-ai/plur-enterprise package and v0.22.1 (October 22) fixing stale sign-in cleanup; npm in sync at 0.22.1, pricing still unpublished.
 
 ## See also
 
@@ -85,5 +86,5 @@ Not for multi-user products needing server-side per-user isolation, and not for 
 - https://plur.ai/spec.html - the engram spec: typed assertions, activation model, scopes, and the published JSON Schema
 - https://plur.ai/benchmark.html - the benchmark methodology behind the recall and cost claims
 - https://github.com/plur-ai/plur-bench - the reproducible benchmark harness with the pinned corpus
-- https://registry.npmjs.org/@plur-ai/core - publish history: 0.21.5 on 2026-10-07, first publish 2026-03-22
+- https://registry.npmjs.org/@plur-ai/core - publish history: 0.22.1 on 2026-10-22, first publish 2026-03-22
 - https://github.com/hesreallyhim/awesome-claude-code - the listing that surfaced this note (PLUR added 2026-10-13)

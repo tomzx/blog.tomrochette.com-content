@@ -1,7 +1,7 @@
 ---
 title: AutoDev
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, ide-plugin, jetbrains, vscode, kotlin]
 readability: 3
@@ -25,7 +25,7 @@ AutoDev 2.0, the stable predecessor on the autodev2 branch, is the Sketch IDE-ca
 
 Established but slowing: 4,557 stars, 500 forks, and 4 open issues as of 2026-10-13, pushed 2026-09-25, created April 2023.
 The commit record shows a June 2026 train (IDEA plugin 0.4.2 on 2026-06-19) and a single commit on 2026-09-25, and Xiuper's releases are alpha-only (compose-v3.0.0-alpha5, February 2026).
-Distribution traction is small: the Xiuper JetBrains plugin shows 645 downloads, the stable Sketch plugin 4,508, and the VS Code extension about 5,536 installs (last updated December 2025), as of 2026-10-13.
+Distribution traction is small: the Xiuper JetBrains plugin shows 660 downloads, the stable Sketch plugin 4,529, and the VS Code extension about 5,536 installs (last updated December 2025), as of 2026-10-24.
 The repository moved from the unit-mesh organization to the author's personal account (the old path redirects), and the docs site still links the old location.
 
 <picture>
@@ -69,6 +69,7 @@ Not for anyone needing a large community, vendor accountability, or a non-alpha 
 ## Changes
 
 - 2026-10-13 - Created.
+- 2026-10-24 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the JetBrains download counters (Xiuper 660, Sketch 4,529) and confirmed the single-2026-09-25 commit cadence and alpha-only release record unchanged.
 
 ## See also
 
@@ -80,15 +81,15 @@ Not for anyone needing a large community, vendor accountability, or a non-alpha 
 
 ## References
 
-- https://api.github.com/repos/phodal/auto-dev - repository metadata: MPL-2.0 license, 4,557 stars, 500 forks, push and creation dates (as of 2026-10-13)
+- https://api.github.com/repos/phodal/auto-dev - repository metadata: MPL-2.0 license, 4,557 stars, 500 forks, push and creation dates (as of 2026-10-24, pushed 2026-09-25)
 - https://api.github.com/repos/phodal/auto-dev/readme - the README: Xiuper platform scope, module table, agent and subagent roster, AGENTS.md loading, ecosystem integrations, and MPL-2.0 statement
 - https://api.github.com/repos/unit-mesh/auto-dev - the former organization path, which resolves to phodal/auto-dev and grounds the repository-move record
 - https://api.github.com/repos/phodal/auto-dev/commits?per_page=8 - the June 2026 commit train and the single 2026-09-25 commit behind the cadence reading
 - https://api.github.com/repos/phodal/auto-dev/releases?per_page=6 - the alpha-only Xiuper release record (compose-v3.0.0-alpha5, 2026-02-07)
 - https://ide.unitmesh.cc/ - the project site: AutoDev positioning, AI-friendly architecture, and Unit Mesh community footer
 - https://ide.unitmesh.cc/en/intro - the English docs: supported IDEs, AutoDev 2.0 Sketch, feature overview, and DevIns agent language
-- https://plugins.jetbrains.com/api/plugins/29223 - the Xiuper IDEA plugin record: 645 downloads as of 2026-10-13
-- https://plugins.jetbrains.com/api/plugins/26988 - the stable Sketch IDEA plugin record: 4,508 downloads as of 2026-10-13
+- https://plugins.jetbrains.com/api/plugins/29223 - the Xiuper IDEA plugin record: 660 downloads as of 2026-10-24
+- https://plugins.jetbrains.com/api/plugins/26988 - the stable Sketch IDEA plugin record: 4,529 downloads as of 2026-10-24
 - https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - the VS Code extension record: about 5,536 installs, last updated 2025-12-14 (as of 2026-10-13)
 - https://api.github.com/repos/phodal/auto-dev/contributors?per_page=5 - the contributor table with phodal at 7,505 of roughly 7,620 contributions
 - https://hn.algolia.com/api/v1/search?query=%22autodev%22&tags=story&hitsPerPage=10 - the name-collision evidence: every AutoDev HN thread concerns Microsoft's framework, none this project

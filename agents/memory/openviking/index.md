@@ -1,7 +1,7 @@
 ---
 title: OpenViking
 created: 2026-10-07
-updated: 2026-10-20
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, context-database, file-based, open-source]
 readability: 3
@@ -34,8 +34,9 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&theme=dark&legend=top-left" />
 </picture>
 
-Latest release v0.5.1 (2026-10-19, 151 commits after v0.5.0, with API deletions and storage-format changes called out in the notes) alongside python-sdk 0.1.15 (2026-10-13, adding BatchWriteOptions.skip_conflicts and grep(level_limit)) and go sdk v0.0.5, per the GitHub releases API.
+Latest release v0.5.2 (2026-10-23, following v0.5.1 from 2026-10-19) alongside python-sdk 0.1.15 (2026-10-13, adding BatchWriteOptions.skip_conflicts and grep(level_limit)) and go sdk v0.0.5, per the GitHub releases API.
 v0.5.0 adds the OpenViking Gateway (beta): a standalone proxy process on port 1935 that any model client with a configurable base URL can point at, injecting profile, memory, and skill context without plugins or prompt changes, supporting the Anthropic Messages, OpenAI Chat Completions, and OpenAI Responses protocols, and replaying injected content byte-for-byte so provider prompt caches and thinking signatures stay valid; v0.5.1 can run that gateway inside the OpenViking server itself and adds field-level privacy references, expanded batch-write options, and multimodal retrieval.
+v0.5.2 turns working memory off by default (sessions still archive raw messages and extract long-term memory, but WM and checkpoint summaries now require an explicit `enable_working_memory=true`), moves the LangChain integration into a separate `langchain-openviking` package, adds session-privacy extraction with privacy-tree MCP tools, and renames the Pi extension's tools from `viking_*` to `openviking_*`.
 Development and writing are both active: the 108-page documentation site and the project blog are current (the latest post, a three-minute evaluation test, dates to 2026-10-03).
 The Hacker News record is a single 2-point thread from March 2026, so a 39k-star repository in nine months ran on trend cycles and ByteDance's ecosystem rather than public scrutiny.
 
@@ -73,6 +74,7 @@ Not for proprietary SaaS embedding, and not for buyers who need published hosted
 - 2026-10-07 - Created from the 2026-10-07 awesome-list entrant scan, with seven fetched sources and the AGPL-plus-no-independent-benchmark combination recorded as the critical angle.
 - 2026-10-10 - Recorded v0.5.0 (October 9) with the OpenViking Gateway beta (a base-URL proxy that injects memory without plugins while preserving provider prompt caches) and python-sdk 0.1.14; refreshed stars to 39,565.
 - 2026-10-20 - Recorded v0.5.1 (October 19, 151 commits after v0.5.0): the gateway can now run inside the OpenViking server, with field-level privacy references, expanded batch-write options, and multimodal retrieval, and the release notes call out API deletions and storage-format changes.
+- 2026-10-24 - Recorded v0.5.2 (October 23): working memory off by default (explicit `enable_working_memory=true` required), the LangChain integration split into the separate `langchain-openviking` package, session-privacy extraction with privacy-tree MCP tools, and the Pi extension's tools renamed from `viking_*` to `openviking_*`.
 
 ## See also
 
@@ -85,6 +87,7 @@ Not for proprietary SaaS embedding, and not for buyers who need published hosted
 
 - https://github.com/volcengine/OpenViking - repository, AGPL-3.0, 39,625 stars, activity, as of 2026-10-11
 - https://github.com/volcengine/OpenViking/releases/tag/v0.5.0 - the v0.5.0 release notes: the OpenViking Gateway beta, its three supported protocols, prompt-cache-preserving replay, and python-sdk 0.1.14
+- https://github.com/volcengine/OpenViking/releases/tag/v0.5.2 - the v0.5.2 release notes: working memory defaulting off, the LangChain package split, privacy-tree MCP tools, and the Pi tool renames
 - https://raw.githubusercontent.com/volcengine/OpenViking/main/README.md - the viking:// filesystem model, context types, Studio, and deployment paths
 - https://docs.openviking.ai/ - the L0/L1/L2 context layers, agent integrations, CLI, and the 108-page documentation map
 - https://blog.openviking.ai/ - the active project blog, latest post 2026-10-03

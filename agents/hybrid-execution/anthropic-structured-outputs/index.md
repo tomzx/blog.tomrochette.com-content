@@ -1,7 +1,7 @@
 ---
 title: Anthropic structured outputs
 created: 2026-08-24
-updated: 2026-10-18
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, anthropic, tool-calling]
 readability: 3
@@ -26,7 +26,7 @@ Before the native feature, the documented workaround was forcing a tool via `too
 
 **Active, GA since February 4, 2026.**
 The beta (header `structured-outputs-2025-11-13`) launched November 14, 2025 on Sonnet 4.5 and Opus 4.1, Haiku 4.5 followed on December 4, 2025, and GA brought Sonnet 4.5, Opus 4.5, and Haiku 4.5 to the platform and Bedrock with support for more complex schemas.
-Current docs lead their examples with Opus 5.5 and list the feature across the fable-5, mythos-5, and opus-5 families (5.1 variants plus a Mythos Preview tier included) plus their 4.5- through 4.8-generation predecessors, with Haiku 5.5 the newest addition alongside Sonnet 5.5, Opus 5.5, Opus 4.6, Sonnet 5, Sonnet 4.6, and Sonnet 4.5, on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry (the list re-verified unchanged on 2026-10-11; Haiku 5.5 joined after the list had held unchanged since 2026-09-29), and the earlier note limiting Foundry to Anthropic-hosted deployments is gone from the docs.
+Current docs lead their examples with Opus 5.5 and list the feature across the fable-5, mythos-5, and opus-5 families (5.1 variants plus a Mythos Preview tier included) plus their 4.5- through 4.8-generation predecessors, with Haiku 5.5 the newest addition alongside Sonnet 5.5, Opus 5.5, Opus 4.6, Sonnet 5, Sonnet 4.6, and Sonnet 4.5, on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry (the list re-verified unchanged on 2026-10-24, holding since Haiku 5.5 joined after 2026-09-29), and the earlier note limiting Foundry to Anthropic-hosted deployments is gone from the docs.
 Independent tooling tracked it immediately: Simon Willison's llm-anthropic plugin added support within a day of the beta and kept the tool-call workaround for older models.
 
 ## Strengths
@@ -72,6 +72,7 @@ Not for schemas that lean on numeric constraints, recursion, or dozens of option
 - 2026-09-29 - Recorded Sonnet 5.5 joining the supported-model list.
 - 2026-10-08 - Recorded Haiku 5.5 joining the supported-model list (the list had held unchanged since 2026-09-29); the docs' supportedPlatforms and schema-subset text re-verified unchanged.
 - 2026-10-18 - Rotation re-verification: all five cited URLs re-fetched (both platform.claude.com docs pages, the launch blog, the tool-use overview, and the Willison post), and the supported-model list held unchanged since 2026-10-11 with no new model families.
+- 2026-10-24 - Rotation re-verification: all five cited URLs re-fetched and live, and the supported-model list re-read unchanged (Fable 5 and 5.1, Mythos 5, 5.1, and Preview, Opus 4.5 through 5.5, Sonnet 4.5 through 5.5, Haiku 4.5 and 5.5, across Claude API, Bedrock, Google Cloud, and Foundry); nothing else changed.
 
 ## See also
 

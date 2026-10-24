@@ -1,7 +1,7 @@
 ---
 title: Atomic Agent
 created: 2026-10-10
-updated: 2026-10-20
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, local-first, llama-cpp, open-source]
 readability: 3
@@ -24,7 +24,7 @@ It imports skills, memory, sessions, and (opt-in) keys from Claude Code, Codex, 
 
 ## Status
 
-Active and quick-growing: 3,328 stars and 273 forks as of 2026-10-15, created 2026-04-21, pushed 2026-10-19 (GitHub API, as of 2026-10-20), with a release train that has accelerated from weekly to near-daily (v0.6.8 on October 13, and v0.6.9 on October 15 with desktop-v0.0.3, which merged the two surfaces onto one setup: the desktop app now shares the terminal agent's `~/.atomic-agent` folder for chats, memory, skills, keys, and settings, both can run at once without killing each other's local model, scheduled tasks fire once whichever app started first, and `atomic-agent import atomic-desktop` migrates old desktop data) and a developer-preview warning that APIs and behavior are still moving.
+Active and quick-growing: 3,328 stars and 273 forks as of 2026-10-15, created 2026-04-21, pushed 2026-10-24 (GitHub API, as of 2026-10-24), with a release train that has accelerated from weekly to near-daily (v0.6.8 on October 13, v0.6.9 on October 15 with desktop-v0.0.3, which merged the two surfaces onto one setup: the desktop app now shares the terminal agent's `~/.atomic-agent` folder for chats, memory, skills, keys, and settings, both can run at once without killing each other's local model, scheduled tasks fire once whichever app started first, and `atomic-agent import atomic-desktop` migrates old desktop data, and v0.6.10 on October 21 with desktop-v0.0.4, which added a Studio of image and video pages to the desktop app plus an `image.generate` tool that draws through OpenRouter and saves into the working folder) and a developer-preview warning that APIs and behavior are still moving.
 The headline benchmark is self-run: on the public GAIA validation Level 1 split (53 tasks), Atomic Agent scored 69.8% (37/53) against Hermes at 58.5%, both driving the same local `qwen-3.6-35b-a3b` on one M4 Max with the same step budget, with per-task matrices, NDJSON traces, and logs published on the release tag; a model-scaling table shows 52.8% at 9B and 45.3% at 12B on the same split.
 No independent reproduction exists, and a Hacker News search finds no thread about the project as of 2026-10-10, so the adoption evidence is the star curve and the published artifacts, not independent technical discussion.
 
@@ -68,6 +68,7 @@ Not for anyone needing a stable API contract today (developer preview), and not 
 - 2026-10-10 - Created from the harnesses resolution pass (two of three category workers placed it here); the assistant-runtimes adjacency (chat channels, ClawHub skills) is recorded in the cautions.
 - 2026-10-13 - Corrected the star-history chart markup: the light source and fallback image dropped the dark-theme parameter to match the canonical chart block.
 - 2026-10-17 - Recorded the v0.6.9 release (published October 15) with the desktop-v0.0.3 build: one `~/.atomic-agent` setup shared between the terminal and desktop surfaces, concurrent running with shared local models, deduplicated scheduled tasks, and an `atomic-agent import atomic-desktop` migration path.
+- 2026-10-24 - Recorded the v0.6.10 release (published October 21) with the desktop-v0.0.4 build: a Studio group of image and video pages in the desktop app and an `image.generate` tool drawing through OpenRouter with up to four pictures per call.
 
 ## See also
 
@@ -81,7 +82,7 @@ Not for anyone needing a stable API contract today (developer preview), and not 
 
 - https://github.com/AtomicBot-ai/atomic-agent - repository: README, architecture, tool surface, license
 - https://api.github.com/repos/AtomicBot-ai/atomic-agent - stars, forks, issues, creation and push dates as of 2026-10-12
-- https://api.github.com/repos/AtomicBot-ai/atomic-agent/releases - v0.6.9 and desktop-v0.0.3 published 2026-10-15; v0.6.7 and desktop-v0.0.1 published 2026-10-07
+- https://api.github.com/repos/AtomicBot-ai/atomic-agent/releases - v0.6.10 and desktop-v0.0.4 published 2026-10-21; v0.6.9 and desktop-v0.0.3 published 2026-10-15
 - https://atomicagent.io - product site: installer, benchmark banner, and the consumer-ecosystem surface
 - https://raw.githubusercontent.com/AtomicBot-ai/atomic-agent/main/eval-agents/docs/GAIA-L1-EXPERIMENT.md - the benchmark write-up: environment, dataset, and artifact publication
 - https://raw.githubusercontent.com/AtomicBot-ai/atomic-agent/main/README.md - the full README: loop design, TurboQuant claims, import matrix, privacy and egress

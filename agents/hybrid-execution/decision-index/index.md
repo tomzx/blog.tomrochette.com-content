@@ -1,7 +1,7 @@
 ---
 title: Decision Index
 created: 2026-10-07
-updated: 2026-10-22
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, benchmarking, model-evaluation, leaderboard]
 readability: 3
@@ -10,9 +10,9 @@ audience_notes: >
   Assumes you know what a chance-corrected score and a held-out test split are, and have read this category's Jev and JevBench notes.
 ---
 
-The Decision Index is an independent leaderboard for typed decision engines: a frozen public suite of 110,201 requests over 42 benchmarks that anyone can rebuild from pinned sources with an MIT kit, still run and shown on every submission but, since edition 0.4, no longer counted, so the Full score ranking 226 configurations comes entirely from private tests, with the vendor's Jev 1.14 forty-first at 60.24 and the 1.13 reference row forty-eighth at 59.22.
+The Decision Index is an independent leaderboard for typed decision engines: a frozen public suite of 110,201 requests over 42 benchmarks that anyone can rebuild from pinned sources with an MIT kit, still run and shown on every submission but, since edition 0.4, no longer counted, so the Full score ranking 229 configurations comes entirely from private tests, with the vendor's Jev 1.14 forty-first at 60.24 and the 1.13 reference row forty-eighth at 59.22.
 
-**The category's evidence layer just doubled, and its main scoreboard just went fully private: JevBench measures decision models deeply on 1,500 decisions per system, the Decision Index measures them broadly, and the 0.4.1 board of 2026-10-22 removed the public index from the Full score (now 60 percent private same-skills, 40 percent private new-domains), where Fastino's shipped GLiDE V1.2 leads at 71.52, previous leader StartLux-Decision v1.1 27B slid to sixth at 67.92, and the vendor's own Jev 1.14 fell from thirteenth to forty-first of 226 at 60.24 with the 1.13 reference row forty-eighth at 59.22.**
+**The category's evidence layer just doubled, and its main scoreboard just went fully private: JevBench measures decision models deeply on 1,500 decisions per system, the Decision Index measures them broadly, and the 0.4.1 board of 2026-10-22 removed the public index from the Full score (now 60 percent private same-skills, 40 percent private new-domains), where Fastino's shipped GLiDE V1.2 leads at 71.52, previous leader StartLux-Decision v1.1 27B slid to sixth at 67.92, and the vendor's own Jev 1.14 fell from thirteenth to forty-first of 229 at 60.24 with the 1.13 reference row forty-eighth at 59.22.**
 
 ## What it is
 
@@ -25,10 +25,10 @@ Editions 0.1 through 0.3 shipped between 2026-09-22 and 2026-10-06, 0.3 rebuildi
 
 ## Status
 
-Active and current, with a near-zero independent discussion footprint, as of 2026-10-22.
+Active and current, with a near-zero independent discussion footprint, as of 2026-10-24.
 The board was relabeled 0.3.2 and regenerated three more times, on 2026-10-12, 2026-10-14, and 2026-10-16 (from the morning's 0.3.1 build): 174 configurations as of the latest, jev-1.13.0 as the reference row now joined by a Jev 1.14 row, a 34-entrant vision board beside the text suite, and a reasoning board announced for 0.3.x.
 The 2026-10-14 regeneration widened the band above Jev's reference from seven to eleven: vLLM-SR d3 (a 27B) still leads at 66.26, new entrant linne-oak 1.0 (a 31B) took second at 65.61, Mapika's Decider 31B (NVFP4) holds third at its unchanged 64.62, Sieve's new 31B row fourth at 63.81 (Sieve 27B eleventh at its unchanged 60.17), Bobcat 1.3 (31B) fifth at 62.83, Perplexity's Decider v1.1 sixth at its unchanged 62.75, Darwin-27B-ZTC seventh at 62.46, MORJ 1.0.1 (Gemma 4 31B) eighth at 60.96, and hosted Jev twelfth at its unchanged 60.11, where the 0.3.1 build had it ninth of 144.
-Edition 0.4 shipped as label 0.4.1 on 2026-10-22 with 226 configurations and a 55-entrant vision board, and it changed the methodology rather than only the field: the Full score is now 60 percent private same-skills tests and 40 percent private new-domain tasks, the public index still required, scored, and shown on every row but no longer counted.
+Edition 0.4 shipped as label 0.4.1 on 2026-10-22 with 226 configurations and a 55-entrant vision board, and it changed the methodology rather than only the field: the Full score is now 60 percent private same-skills tests and 40 percent private new-domain tasks, the public index still required, scored, and shown on every row but no longer counted; a same-day regeneration the same date brought the board to 229 configurations (fetched 2026-10-24) with the named rows' ranks and scores unchanged.
 Fastino's GLiDE V1.2 (71.52) took first, the checkpoint the 0.3.2 board had listed sixteenth with its weights promised but not shipped, ahead of Jeffan-31b-1710 (69.75), baselabs mammoth-1 (68.44), Perplexity's Decider v1.2 (67.98, fourth), and AutoTrust-JEV-27B v1.1 (67.95, fifth), with previous leader StartLux-Decision v1.1 27B sixth at 67.92, vLLM-SR d3 eleventh at 67.15, linne-oak 1.0 thirteenth at 66.88, an H2O Lightning 31B sixteenth at 66.58, Bespoke's Nimble v4 Max seventeenth at 66.56, and the Decider 31B (NVFP4) nineteenth at 66.03, while the vendor's rows slid hard, Jev 1.14 to forty-first at 60.24 and the 1.13 reference row to forty-eighth at 59.22, and Kev 27B to forty-sixth at 59.56.
 
 <picture>
@@ -82,6 +82,7 @@ The disagreeable claim I will defend: the most important number on this board is
 - 2026-10-15 - The 0.3.2 board regenerated 2026-10-14 with seventeen more configurations (166): new entrant linne-oak 1.0 (31B) took second at 65.61, Sieve added a 31B row in fourth at 63.81 (Sieve 27B to eleventh at its unchanged 60.17), Bobcat 1.3 (31B) entered fifth at 62.83, and MORJ 1.0.1 (Gemma 4 31B) eighth at 60.96, widening the band above hosted Jev from seven to eleven and moving it from eighth to twelfth at its unchanged 60.11, while Kev 27B fell from thirteenth to eighteenth at its unchanged 58.78; refreshed the kit to 52 stars and 88 forks (pushed 2026-10-14), the Space to 667 likes, and the vision board to 34 entrants.
 - 2026-10-17 - The 0.3.2 board regenerated 2026-10-16 with eight more configurations (174) and a rebuilt top: new entrant StartLux-Decision v1.1 27B took first at 69.12 (vLLM-SR d3 to second at its unchanged 66.26, linne-oak 1.0 to third), Perplexity's Decider returned as a v1.2 row in fourth at 65.55 (from the v1.1's sixth at 62.75), the vendor's new Jev 1.14 entered thirteenth at 61.53 pushing the 1.13 reference row from twelfth to eighteenth at its unchanged 60.11, Kev 27B fell from eighteenth to twenty-fourth at its unchanged 58.78, and Amos 1 Large, Lychee-27B, KnowLine 35B-A3B Gen1, Bobcat 1.3, and span-02 filled the band between.
 - 2026-10-22 - Edition 0.4 shipped as label 0.4.1 (generated 2026-10-22) with 226 configurations and a 55-entrant vision board, and it changed the methodology: the Full score is now 60 percent private same-skills plus 40 percent private new-domains with the public index no longer counted, the public suite staying unchanged from 0.3 as a required, scored, shown component; Fastino's shipped GLiDE V1.2 took first at 71.52, StartLux slid to sixth, and the vendor's rows fell to forty-first (Jev 1.14, 60.24) and forty-eighth (the 1.13 reference, 59.22); rewrote the definition, methodology, caution, and bottom-line sections around the fully private score.
+- 2026-10-24 - The 0.4.1 board's same-day regeneration (generated 2026-10-22T20:10 UTC) grew the field from 226 to 229 configurations with the named rows' ranks and scores unchanged; fetched and re-cited.
 
 ## See also
 
@@ -96,7 +97,7 @@ The disagreeable claim I will defend: the most important number on this board is
 - https://huggingface.co/spaces/multimodalart/jev-decision-index - the board (client-rendered Space; the data files below carry its content)
 - https://huggingface.co/api/spaces/multimodalart/jev-decision-index - Hub API: created 2026-09-17, 667 likes, static SDK (as of 2026-10-15)
 - https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/index.json - the 0.4.1 board header (generated 2026-10-22, fetched 2026-10-22): the suite counts, the 37-benchmark panel note, and the Full-score formula
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Full-score components (generated 2026-10-22T05:40:06Z, label 0.4.1, fetched 2026-10-22): the 0/60/40 weights, per-model ranks across 226 rows including both Jev rows, and the vision board's 55 entrants
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Full-score components (generated 2026-10-22T20:10:35Z, label 0.4.1, fetched 2026-10-24): the 0/60/40 weights, per-model ranks across 229 rows including both Jev rows, and the vision board's 55 entrants
 - https://raw.githubusercontent.com/apolinario/decision-index/main/README.md - the kit: the 0.4 methodology change (the public suite unchanged, the Full score 60/40 private), editions, scoring, submission flow, parity tests, the latency gate, licensing (re-fetched 2026-10-22)
 - https://api.github.com/repos/apolinario/decision-index - kit repository: MIT, created 2026-09-22, 52 stars, 88 forks, pushed 2026-10-20 (stars and forks as of 2026-10-15, push date as of 2026-10-22)
 - https://raw.githubusercontent.com/apolinario/decision-index/main/docs/suite.md - the frozen suite: pinned sources, the GSM8K rebuild, subset and exclusion rules

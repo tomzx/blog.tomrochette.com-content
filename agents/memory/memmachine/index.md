@@ -1,7 +1,7 @@
 ---
 title: MemMachine
 created: 2026-10-11
-updated: 2026-10-20
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -71,6 +71,7 @@ My disagreeable claim: publishing zero numbers in a benchmark-obsessed category 
 ## Changes
 
 - 2026-10-11 - Created from the 2026-10-11 Awesome-Agent-Memory entrant scan, with seven fetched sources and the no-benchmark-plus-logo-wall profile recorded as the critical angle.
+- 2026-10-24 - Rotation re-verification: every cited URL re-fetched live (repository API, README, docs, site, PyPI, Hacker News search), no facts changed; both PyPI distributions still 0.4.0, the thin-discussion record unchanged.
 
 ## See also
 

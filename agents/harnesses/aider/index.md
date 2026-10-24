@@ -1,7 +1,7 @@
 ---
 title: aider
 created: 2026-08-22
-updated: 2026-10-17
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, pair-programming, open-source]
 readability: 3
@@ -74,6 +74,7 @@ Not for long autonomous tasks, hands-off refactors, or teams that need an active
 - 2026-08-23 - Downgraded status to development stalled on GitHub API evidence and added a maintenance-risk caution.
 - 2026-08-26 - Replaced a mis-cited HN reference with the Wasting Inferences with Aider thread and aligned the header verification date.
 - 2026-10-07 - Added the Aider-AI/aider star history chart to the Status section.
+- 2026-10-24 - Rotation re-verification, re-fetching every cited reference (all live) and confirming the stalled status unchanged: no default-branch commits since 2026-05-22 and v0.86.0 still the newest tag.
 
 ## See also
 
@@ -85,7 +86,7 @@ Not for long autonomous tasks, hands-off refactors, or teams that need an active
 ## References
 
 - https://aider.chat/ - features, install stats, model recommendations
-- https://github.com/Aider-AI/aider - repository scale and license, as of 2026-10-17 (default branch still unpushed since 2026-05-22)
+- https://github.com/Aider-AI/aider - repository scale and license, as of 2026-10-24 (default branch still unpushed since 2026-05-22)
 - https://aider.chat/docs/leaderboards/ - the polyglot benchmark, results dated August 2025
 - https://news.ycombinator.com/item?id=39995725 - launch-era discussion of strengths and failure modes
 - https://news.ycombinator.com/item?id=43672712 - critical thread on aider's wasted inference spend against agentic rivals

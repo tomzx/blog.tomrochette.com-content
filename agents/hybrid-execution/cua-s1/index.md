@@ -1,7 +1,7 @@
 ---
 title: CUA-S1
 created: 2026-09-20
-updated: 2026-10-22
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, computer-use, system-one-models, open-weights]
 readability: 3
@@ -89,7 +89,7 @@ The disagreeable claim I will defend: a 706k-parameter model trained in public o
 
 ## References
 
-- https://github.com/trycua/cua - host repository: 29,785 stars, MIT, created 2025-01-31, CUA-S1 announced in the main README (GitHub API, as of 2026-10-15; re-fetched 2026-10-22 with pushes current to 2026-10-22 and the cua-s1 component untouched since the 2026-10-20 client security fix)
+- https://github.com/trycua/cua - host repository: 29,785 stars, MIT, created 2025-01-31, CUA-S1 announced in the main README (GitHub API, as of 2026-10-15; re-fetched 2026-10-24 with pushes current to 2026-10-24 and the cua-s1 component untouched since the 2026-10-20 client security fix, the host's 2026-10-24 cua-spacesd v0.8.0 release not touching it)
 - https://github.com/trycua/cua/tree/main/libs/cua-s1 - component README: the four-checkpoint family (forms, nano-0.1, 4B-0.1/0.2), pinned licensed revisions, safety boundary, MCP server caveats
 - https://github.com/trycua/cua/blob/main/libs/cua-s1/MODEL_CARD.md - model card: tinyx byte-level encoder, option-attention head, the 29.3 percent out-of-catalogue form result, synthetic-only evaluation, licensing caveat
 - https://huggingface.co/cua-ai/cua-s1-forms - weights: MIT, created 2026-09-18, 706,048 parameters, 116 likes as of 2026-10-07, downloads not tracked, safetensors-only since the pickle checkpoint was removed (trycua/cua#3977; card and removal note re-fetched 2026-10-17)

@@ -1,7 +1,7 @@
 ---
 title: System1-Arena
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, system-one-models, decision-models, benchmark]
 readability: 3
@@ -69,6 +69,7 @@ The disagreeable claim I will defend: a benchmark whose authors include a wave m
 ## Changes
 
 - 2026-10-17 - Created from the NanoJev signal scan (the member's README began citing the paper and leaderboard), accepted as the category's fourth benchmark on the like-for-like design, the closed-loop environments, and the shipped harness, with the two-day no-coverage footprint recorded as the governing caution.
+- 2026-10-24 - Full re-verification on rotation: all five references re-fetched and live; repository unchanged (last push 2026-10-16), the leaderboard site still up with the same headline rows, and nothing else changed.
 
 ## See also
 
@@ -80,8 +81,8 @@ The disagreeable claim I will defend: a benchmark whose authors include a wave m
 
 ## References
 
-- https://arxiv.org/abs/2610.21244 - the paper: 92k questions, 105 tasks, 268 sources, 138 closed-loop environments, 30 models, and the headline findings (fetched 2026-10-17)
-- https://tianyucodings.github.io/S1-Arena/ - the leaderboard site and its add-a-model adapter procedure (fetched 2026-10-17)
-- https://github.com/TianyuCodings/S1-Arena - the Apache-2.0 harness: task table, leaderboard rows, sweep and scoring CLI (GitHub API and README, as of 2026-10-17)
-- https://huggingface.co/datasets/C-Tianyu/S1-Arena - the public dataset (last modified 2026-10-16, 15 downloads as of 2026-10-17, Hugging Face API)
-- https://raw.githubusercontent.com/TianyuCodings/NanoJev/main/README.md - the member announcement linking the paper, leaderboard, and dataset (fetched 2026-10-17)
+- https://arxiv.org/abs/2610.21244 - the paper: 92k questions, 105 tasks, 268 sources, 138 closed-loop environments, 30 models, and the headline findings (fetched 2026-10-17; re-fetched 2026-10-24)
+- https://tianyucodings.github.io/S1-Arena/ - the leaderboard site and its add-a-model adapter procedure (fetched 2026-10-17; re-fetched 2026-10-24)
+- https://github.com/TianyuCodings/S1-Arena - the Apache-2.0 harness: task table, leaderboard rows, sweep and scoring CLI (GitHub API and README, as of 2026-10-17; re-fetched 2026-10-24 with the push date unchanged)
+- https://huggingface.co/datasets/C-Tianyu/S1-Arena - the public dataset (last modified 2026-10-16, 15 downloads as of 2026-10-17, Hugging Face API; re-fetched 2026-10-24)
+- https://raw.githubusercontent.com/TianyuCodings/NanoJev/main/README.md - the member announcement linking the paper, leaderboard, and dataset (fetched 2026-10-17; re-fetched 2026-10-24)

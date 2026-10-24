@@ -1,7 +1,7 @@
 ---
 title: Funes
 created: 2026-10-16
-updated: 2026-10-20
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, local-first, mcp, hugging-face]
 readability: 3
@@ -26,7 +26,7 @@ Beyond the four maintained integrations the surfaces are a read-only MCP server 
 
 **Active, young, and moving fast, with adoption that is still mostly repository stars.**
 569 stars, 48 forks, and 12 open issues and pull requests on a repository created 2026-06-18 and pushed 2026-10-19, Apache-2.0, as of 2026-10-20 (GitHub API).
-The release train runs weekly: v1.7.0 memories compaction (2026-10-07), v1.8.0 multilingual embedder (2026-10-08), and v1.9.0 GPU indexing and host binding (2026-10-14), with dacorvo holding 841 of the 891 recorded contributions.
+The release train runs weekly: v1.7.0 memories compaction (2026-10-07), v1.8.0 multilingual embedder (2026-10-08), v1.9.0 GPU indexing and host binding (2026-10-14), and v1.9.1 (2026-10-20) a small maintenance release on top, with dacorvo holding 841 of the 891 recorded contributions.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=huggingface/funes&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ Not for workflows that need memory surfaced without being asked, for users who n
 ## Changes
 
 - 2026-10-16 - Created from the 2026-10-16 cross-category resolution (the HermesGate small-but-distinct precedent), with twelve fetched sources and the negative self-run A/B results, the deja author's adversarial measurement, and the missing independent coverage recorded as the critical angle.
+- 2026-10-24 - Recorded v1.9.1 (October 20), a small maintenance release on the weekly train (recall now ends with what to try when hits miss, a `--repo` flag, and bind and refresh fixes).
 
 ## See also
 
@@ -87,7 +88,7 @@ Not for workflows that need memory surfaced without being asked, for users who n
 
 - https://api.github.com/repos/huggingface/funes - repository metadata: 569 stars, 48 forks, 12 open issues, created 2026-06-18, pushed 2026-10-16, Apache-2.0, Rust, as of 2026-10-16
 - https://raw.githubusercontent.com/huggingface/funes/main/README.md - architecture, installer and its checksum caveat, commands, install-id telemetry disclosure, Hub publication, and the turns format
-- https://api.github.com/repos/huggingface/funes/releases - the release train: v1.7.0 (2026-10-07), v1.8.0 (2026-10-08), v1.9.0 (2026-10-14)
+- https://api.github.com/repos/huggingface/funes/releases - the release train: v1.7.0 (2026-10-07), v1.8.0 (2026-10-08), v1.9.0 (2026-10-14), v1.9.1 (2026-10-20)
 - https://api.github.com/repos/huggingface/funes/contributors - dacorvo's 841 of 891 recorded contributions
 - https://raw.githubusercontent.com/huggingface/funes/main/docs/RATIONALE.md - the four design choices, the provider-field critique, and the negative A/B results on recall enhancements and the cross-encoder
 - https://raw.githubusercontent.com/huggingface/funes/main/docs/add.md - the four supported agents, memory binding, private-by-default repos, the TruffleHog fail-closed push gate, and the read-only MCP server

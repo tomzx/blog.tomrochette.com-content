@@ -1,7 +1,7 @@
 ---
 title: OmO
 created: 2026-10-13
-updated: 2026-10-20
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, cli, pi-fork]
 readability: 3
@@ -22,7 +22,7 @@ The README is sponsor-supported (OpenGateway, an OpenAI-compatible gateway, is t
 
 ## Status
 
-Massively starred and fast-moving: 70,047 stars, 5,763 forks, and 1,345 open issues and pull requests as of 2026-10-15, pushed 2026-10-20 (GitHub API, as of 2026-10-20), with release v5.1.38 published 2026-10-19 (v5.1.36 was prepared and v5.1.37 tagged but neither published, the latter stopping on Linux after the release binaries outgrew their size budget, so both ship inside v5.1.38, which also raised the per-platform binary budget from 160 to 182 MiB after the Bun 1.4.3 runtime added about 9.5 MB per binary; earlier, v5.1.34 moved the oracle, momus, and plan-reviewer fallback chains to Argon ahead of the previous pro rung after a blind 16-judgment comparison, and v5.1.35 pinned omo-senpi's typecheck dependencies inside the checkout so results stop varying with the surrounding filesystem, beside further memory fixes).
+Massively starred and fast-moving: 70,047 stars, 5,763 forks, and 1,345 open issues and pull requests as of 2026-10-15, pushed 2026-10-24 (GitHub API, as of 2026-10-24), with release v5.1.44 published 2026-10-23 (the train from v5.1.40 to v5.1.44, after v5.1.39's publish run stopped before npm, moved the engine to senpi 2026.10.21: long 1M-context conversations stop re-writing their cached prefix, Anthropic subscription context is counted once, engine hosts start faster and idle more quietly, Claude subscriptions use the native 1M context, memory sync reads each new keyring entry incrementally, and a session's first prompt no longer freezes a shared host while reading what changed in memory; earlier, v5.1.38 shipped the unpublished v5.1.36 and v5.1.37 content and raised the per-platform binary budget from 160 to 182 MiB after the Bun 1.4.3 runtime added about 9.5 MB per binary, v5.1.34 moved the oracle, momus, and plan-reviewer fallback chains to Argon ahead of the previous pro rung after a blind 16-judgment comparison, and v5.1.35 pinned omo-senpi's typecheck dependencies inside the checkout so results stop varying with the surrounding filesystem).
 **The governance record is the caution: the repository moved from an organization that now 404s, the license is a custom per-portion document GitHub reports as NOASSERTION rather than any standard license, and the README names an AI assistant as the maintainer beside its sponsor, so the usual signals a 70,000-star project carries are absent or inverted.**
 Independent discussion exists but is thin for the scale: two 4-point Hacker News threads (May and September 2026) and no sustained third-party coverage found.
 
@@ -70,6 +70,7 @@ Not for commercial use without legal review, for teams needing standard licensin
 - 2026-10-13 - Corrected the star-history chart markup (the light source and fallback image dropped the dark-theme parameter to match the canonical chart block) and replaced the bare news.ycombinator.com reference with the fetched Algolia search URL grounding the two 4-point threads.
 - 2026-10-17 - Recorded the train reaching v5.1.35 (October 17): v5.1.34 put Argon into the oracle, momus, and plan-reviewer fallback chains after a blind 16-judgment comparison, and v5.1.35 made the omo-senpi typecheck checkout-independent by pinning its own type packages.
 - 2026-10-20 - Recorded v5.1.38 (October 19), which shipped the unpublished v5.1.36 and v5.1.37 content and raised the release-binary size budget from 160 to 182 MiB.
+- 2026-10-24 - Recorded the train reaching v5.1.44 (October 23): the senpi 2026.10.21-3 engine (cached-prefix writes stopped on 1M-context conversations, Anthropic subscription context counted once, credential-slot fix), incremental memory-sync keyring reads, first-prompt memory reads no longer freezing shared hosts, and onboarding that saves only kept facts.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Zerostack
 created: 2026-08-30
-updated: 2026-10-15
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, terminal]
 readability: 3
@@ -25,7 +25,7 @@ An ARCHITECTURE.md file complements AGENTS.md with shared core knowledge for age
 
 ## Status
 
-Active: the repository was pushed 2026-10-14, created May 12, 2026, with the latest release v1.8.5 on October 10, 2026, which deprecated the Ralph Wiggum `/loop` (still available until the next major but dropped from the default compile-time features), switched the lite binary family to shipping default features, added permission-wait status signals over protocol v1.1, added opencode-zen and opencode-go provider recipes, and credited four first-time external contributors.
+Active: the repository was pushed 2026-10-23 (GitHub API, as of 2026-10-24), created May 12, 2026, with the latest release v1.8.5 on October 10, 2026, which deprecated the Ralph Wiggum `/loop` (still available until the next major but dropped from the default compile-time features), switched the lite binary family to shipping default features, added permission-wait status signals over protocol v1.1, added opencode-zen and opencode-go provider recipes, and credited four first-time external contributors.
 1,708 stars and 140 forks as of 2026-10-15.
 
 <picture>
@@ -37,7 +37,7 @@ Active: the repository was pushed 2026-10-14, created May 12, 2026, with the lat
 The May 16, 2026 launch thread reached 575 points (item 48164287), the highest-signal uncovered harness candidate of this cycle, with follow-up release threads through June and a Show HN in July.
 v1.8.0, "The Great Cleanup", landed September 3, 2026 after a six-week release quiet stretch and credited several external contributors with a large TUI refactoring.
 v1.8.5 followed on October 10 with outside contributors again, so the project has now shipped two community-credited releases since the solo stretch.
-3,624 crate downloads on crates.io (857 recent) as of 2026-10-12.
+3,722 crate downloads on crates.io (748 recent) as of 2026-10-24.
 It is a one-person project with a ko-fi jar and a public call for company sponsors.
 
 ## Strengths
@@ -78,6 +78,7 @@ I think the Rust-rewrite wave confuses a small memory footprint with a good agen
 - 2026-09-16 - Refreshed repository counters (1,672 stars, 135 forks, pushed 2026-09-14) and crates.io downloads (3,460 total, 1,342 recent).
 - 2026-10-07 - Added the gi-dellav/zerostack star history chart to the Status section.
 - 2026-10-12 - Recorded the v1.8.5 release (October 10), which deprecated the Ralph Wiggum /loop out of the default compile-time features, switched lite builds to default features, added permission-wait status signals over protocol v1.1, added opencode-zen and opencode-go provider recipes, and credited four first-time contributors, and refreshed repository and crates.io counters.
+- 2026-10-24 - Rotation re-verification, re-fetching every cited reference (all live, crates.io via its API's required user agent): refreshed the push date to 2026-10-23 and crates.io counters to 3,722 total (748 recent), with v1.8.5 still the newest release.
 
 ## See also
 
@@ -89,9 +90,9 @@ I think the Rust-rewrite wave confuses a small memory footprint with a good agen
 
 ## References
 
-- https://github.com/gi-dellav/zerostack - repository state, license, stars, and activity as of 2026-10-12
+- https://github.com/gi-dellav/zerostack - repository state, license, stars, and activity as of 2026-10-24
 - https://raw.githubusercontent.com/gi-dellav/zerostack/main/README.md - feature list, performance claims, and inspirations
 - https://gi-dellav.github.io/zerostack/ - docs site: permission modes, prompts, commands, sandbox mode
-- https://crates.io/api/v1/crates/zerostack - crate version and download counts as of 2026-10-12
-- https://github.com/gi-dellav/zerostack/releases - release cadence through v1.8.5 (October 10, 2026)
+- https://crates.io/api/v1/crates/zerostack - crate version and download counts as of 2026-10-24
+- https://github.com/gi-dellav/zerostack/releases - release cadence through v1.8.5 (October 10, 2026), re-verified 2026-10-24
 - https://news.ycombinator.com/item?id=48164287 - 575-point launch thread and the author's no-benchmark admission

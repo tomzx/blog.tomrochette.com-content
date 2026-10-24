@@ -1,7 +1,7 @@
 ---
 title: LongHorizon-Harness
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, computer-use, long-horizon, meta-harness]
 readability: 3
@@ -23,8 +23,8 @@ The accompanying paper (arXiv 2608.01964, submitted 2026-08-03) formalizes the l
 
 ## Status
 
-Published and then quiet: 1,729 stars, 188 forks, and 43 open issues as of 2026-10-13, created 2026-08-04, with the last push and latest release v0.1.7 both on 2026-08-20, an eight-week silence as of this check.
-The release train ran daily-to-weekly through August (v0.1.4 dashboard, v0.1.5 DeepSeek Harness support, v0.1.6 OpenCode support, v0.1.7 conversational follow-ups) and has not moved since.
+Published, quiet for two months, then revived: 1,729 stars, 188 forks, and 43 open issues as of 2026-10-13, created 2026-08-04, with v0.1.7 on 2026-08-20 ending in an eight-week commit silence that v0.1.8 (published 2026-10-21) broke, the default branch pushed the same day (GitHub API, as of 2026-10-24).
+The release train ran daily-to-weekly through August (v0.1.4 dashboard, v0.1.5 DeepSeek Harness support, v0.1.6 OpenCode support, v0.1.7 conversational follow-ups), stopped, and resumed on 2026-10-21 with v0.1.8, which fixed approvals after resuming historical runs (a resumed run no longer rejects approvals with HTTP 409, preserving its workspace, run ID, and round ledger), added Markdown-formatted Manager routes, Claude Code MCP isolation, non-UTF-8 CLI and DeepSeek output handling, and a configurable `--final-response-timeout` for slower closing replies.
 Self-reported results: on WeaveBench, Qwen 3.7-Plus through Claude Code moves from 51.8 to 80.7 percent PassRate; Terminal-Bench 2.1 from 69.7 to 77.2 percent with 24 percent fewer tokens; OSWorld 2.0 binary completion from 2.8 to 8.3 percent, with gains carrying to Claude Opus 4.7.
 PyPI downloads run about 1,000 per month as of 2026-10-13, and independent discussion is one 1-point Hacker News story.
 
@@ -44,7 +44,7 @@ PyPI downloads run about 1,000 per month as of 2026-10-13, and independent discu
 
 ## Cautions
 
-- Eight weeks without a commit or release as of 2026-10-13: active enough to judge, too quiet to bet a workflow on, and the archive-or-revive question is live if the silence extends.
+- A two-month commit and release silence (2026-08-20 to 2026-10-21) ended with a single patch release; one revival release is evidence of life, not of a restored cadence, so the archive-or-revive question stays live.
 - The headline WeaveBench gain is against same-backbone baselines; the comparison with official leaderboard numbers crosses a privilege setting the paper itself flags as unmatched.
 - Absolute computer-use numbers stay low (8.3 percent binary completion on OSWorld 2.0), so the loop multiplies a backbone's capability rather than replacing it.
 - Token cost is backbone-dependent: 2.3 times baseline on WeaveBench and 3.6 times on OSWorld 2.0 output for Qwen 3.7-Plus, against a 24 percent saving on Terminal-Bench 2.1.
@@ -64,11 +64,12 @@ No hosted tier; cost is your own model bills, with the paper's token-share analy
 ## Bottom line
 
 **Recommended for research and evaluation workloads with hours-long computer-use tasks, a strong wrapped backend, and tolerance for a self-reported evidence base.**
-Not for production daily driving while the project stays silent, and not for tasks whose bottleneck is model capability the loop cannot add.
+Not for production daily driving while the cadence question stays open after the two-month gap, and not for tasks whose bottleneck is model capability the loop cannot add.
 
 ## Changes
 
 - 2026-10-13 - Created.
+- 2026-10-24 - Rotation re-verification, re-fetching every cited reference (all live): recorded v0.1.8 (published 2026-10-21) ending the eight-week release silence with resumed-run approval fixes, Markdown Manager routes, Claude Code MCP isolation, and --final-response-timeout, and rewrote the Status, caution, and bottom line that had treated the project as silent.
 
 ## See also
 
@@ -82,7 +83,7 @@ Not for production daily driving while the project stays silent, and not for tas
 
 - https://api.github.com/repos/AMAP-ML/LongHorizon-Harness - repository metadata: MIT license, 1,729 stars, 188 forks, push and creation dates (as of 2026-10-13)
 - https://api.github.com/repos/AMAP-ML/LongHorizon-Harness/readme - the README: MEA loop, backend table, benchmark table, news timeline, and install model
-- https://api.github.com/repos/AMAP-ML/LongHorizon-Harness/releases?per_page=3 - the release record ending at v0.1.7 (2026-08-20)
+- https://api.github.com/repos/AMAP-ML/LongHorizon-Harness/releases?per_page=3 - the release record through v0.1.8 (published 2026-10-21, re-verified via GitHub API 2026-10-24)
 - https://lh-harness.pages.dev - the project website: loop principles, benchmark detail, token-cost analysis, and the DreamX Team footer
 - https://arxiv.org/abs/2608.01964 - the paper abstract: MEA formalization, headline benchmark numbers, and submission date
 - https://huggingface.co/papers/2608.01964 - the paper full text (served via Hugging Face Daily Papers): the DreamX Team, Alibaba Group affiliation, per-role budgets, and the disclosed root-privilege caveat

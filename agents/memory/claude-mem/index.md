@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-22
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -32,7 +32,7 @@ Very large and fast: about 101.1k stars as of 2026-10-16, with 68,478 npm downlo
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-31, pushed 2026-10-22, latest tagged release v15.0.1 on 2026-10-20 with npm in sync at 15.0.1 as of 2026-10-22.
+Created 2025-08-31, pushed 2026-10-24, latest tagged release v15.0.2 on 2026-10-23 (an observer fix that disables reasoning on the model calls so reasoning tokens stop consuming the output budget) with npm in sync at 15.0.2 as of 2026-10-24.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.
@@ -105,6 +105,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-10-17 - Recorded the v13.40.0 and v13.41.0 releases (TeamBrain team joins from the terminal with device-code sign-in and per-project sharing, and build, release, and work-state workflow skills delegating through make-plan, do, and babysit) with the Status train narrative extended to the full 10-13-to-17 run and npm re-verified in sync at 13.41.0.
 - 2026-10-18 - Recorded the v14.0.0 and v14.0.1 releases (the free local My Work request dashboard with summaries, live statuses, and a human review step, and TeamBrain moving from design-partner pilot to self-serve at $50/seat/month, Price history row) with npm in sync at 14.0.1 and the pricing page's remaining pilot wording noted at fetch time.
 - 2026-10-22 - Recorded the v15.0.0 release (Smart memory search now the default recall path: three-step index search, context inspection, and selective fetch with the agent reasoning between steps, and the old one-call lookup demoted to `dumb_search`) and the v15.0.1 project-scope consistency fix; npm re-verified in sync at 15.0.1.
+- 2026-10-24 - Recorded v15.0.2 (October 23): observer model calls now disable reasoning by default so reasoning tokens stop consuming the output budget, with a logged single retry on empty length-capped replies; npm re-verified in sync at 15.0.2.
 
 ## See also
 
@@ -120,7 +121,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - https://docs.claude-mem.ai/architecture/overview - hook architecture and the compression flow behind the token-cost caution
 - https://docs.claude-mem.ai/cloud-sync - the documented privacy trade-off of the cloud tier
 - https://claude-mem.ai - pricing tiers and adoption stats (now redirects to cmem.ai)
-- https://cmem.ai/pricing - the restructured CMEM ladder ($30/$70/$100); TeamBrain still described as an unpriced design-partner pilot at the 2026-10-18 fetch
+- https://cmem.ai/pricing - the restructured CMEM ladder ($30/$70/$100); TeamBrain still described as an unpriced design-partner pilot with public pricing unannounced at the 2026-10-24 re-fetch
 - https://github.com/thedotmack/claude-mem/releases/tag/v14.0.0 - the My Work dashboard announcement and the TeamBrain self-serve $50/seat/month pricing (2026-10-17)
 - https://api.npmjs.org/downloads/point/last-month/claude-mem - the 75,274 monthly downloads (2026-09-11 to 2026-10-10) as of 2026-10-12
 - https://news.ycombinator.com/item?id=47422611 - the critical take from a competing memory author on the capture-everything approach

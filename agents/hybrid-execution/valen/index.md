@@ -1,7 +1,7 @@
 ---
 title: Valen
 created: 2026-10-13
-updated: 2026-10-22
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, decision-model, open-weights, multimodal]
 readability: 3
@@ -17,14 +17,16 @@ Valen is an Apache-2.0 open-weights multimodal decision model in the Jev family:
 ## What it is
 
 A training repository plus model family from an independent team, explicitly inspired by the Jev System One model lineage, with vision added: the models read screenshots, documents, and video frames, and emit decision probabilities for routing, gating, and classification calls.
-The Hugging Face org carries the three model cards, the training and evaluation datasets, and a live demo Space; ONNX and GGUF releases landed the week of this check, so the models run on modest local hardware and in runtimes beyond PyTorch.
+The Hugging Face org carries the three model cards, the training and evaluation datasets, and a live demo Space; ONNX and GGUF exports landed 2026-10-13, so the models run on modest local hardware and in runtimes beyond PyTorch, and a documentation site with a web chat and a free hosted decision API followed on 2026-10-21.
 The README reports results on VisualDecisionBench and a game-evaluation set, with the Jev lineage anchor (the typesafe.ai System One post) cited directly.
 
 ## Status
 
-Very young and actively shipping: 777 stars, 70 forks, and 1 open issue as of 2026-10-13, created 2026-09-23, pushed 2026-10-22, with the weights, datasets, demo, and export builds all public.
+Very young and actively shipping: 777 stars, 70 forks, and 1 open issue as of 2026-10-13, created 2026-09-23, pushed 2026-10-24, with the weights, datasets, demo, and export builds all public.
+On 2026-10-24 the serving story consolidated into dual inference protocols: the SGLang and vLLM images and plugins expose both `/v1/systemone` and `/v1/decisions` from the same decision head.
+On 2026-10-21 the project shipped a documentation site with a web chat and a free hosted decision API requiring no key (api.valen-team.workers.dev, predicate, choice, and score questions; higher quotas by email approval), and on 2026-10-18 it released JevalKit (github.com/Valen-Team/JevalKit, Apache-2.0), an evaluation toolkit for Jev-like decision models with a Hugging Face leaderboard Space.
 On 2026-10-22 the repository added a validated vLLM serving plugin and deployment guides (a pinned candidate container for GPU validation, vLLM image startup commands in both READMEs), extending the serving story beyond the ONNX and GGUF exports.
-On 2026-10-16 the repository added a public Decision Index adapter and reproduction guides: `evaluation/decision_index` wraps the official Decision Index reproduction kit (pinned to revision f5a6e4f, frozen suite 0.3, verified before any model loads), making Valen the first Jev-family member to ship a first-party adapter to that protocol.
+On 2026-10-16 the repository added a public Decision Index adapter and reproduction guides: `evaluation/decision_index` wraps the official Decision Index reproduction kit (pinned to revision f5a6e4f, frozen suite 0.3, verified before any model loads), making Valen the first Jev-family member to ship a first-party adapter to that protocol; the board's 0.4.1 edition now carries three Valen rows, Valen-4B 131st at 37.57, Valen-2B 176th at 22.20, and Valen-0.8B 193rd at 16.55.
 **The footprint is the thinnest in its family: a single 2-point Hacker News post and no third-party coverage found, so every quality claim is currently the team's own.**
 The 0-open-issue count reflects age, not maturity.
 
@@ -37,6 +39,7 @@ The 0-open-issue count reflects age, not maturity.
 ## Strengths
 
 - Full-pipeline openness: training code, data, benchmarks, and exported weights are all published, which is the preconditions for actually verifying a decision model.
+- The first-party JevalKit toolkit and its leaderboard give the family a reusable measurement harness instead of one-off benchmark scripts.
 - Vision extends the Jev pattern to the cases that need it (screenshots, documents, video frames) at 0.8B to 4B scale.
 - The experimental RLCD stage beyond SFT is published rather than hidden, warts included.
 - Export builds (ONNX, GGUF) make deployment boring: the models run in standard runtimes on small hardware.
@@ -53,8 +56,8 @@ The 0-open-issue count reflects age, not maturity.
 
 ## Pricing
 
-Free and open source under Apache-2.0, weights and all.
-No hosted tier; the cost is your own inference compute, which at 0.8B to 4B is small.
+Free to start in every mode: Apache-2.0 code and weights with no API dependency, a free hosted decision API requiring no key (api.valen-team.workers.dev, three question types, higher quotas by email approval), and local serving through vLLM or SGLang images and plugins at your own compute cost, which at 0.8B to 4B is small.
+No paid tier exists as of 2026-10-24; the hosted endpoint's terms beyond the email-approval quota are unpublished.
 
 ## Compared to
 
@@ -72,6 +75,7 @@ Not for production routing without independent evaluation, or for anyone needing
 - 2026-10-13 - Created.
 - 2026-10-17 - Volatile re-verification after the 2026-10-16 push: recorded the public Decision Index adapter and reproduction guides (evaluation/decision_index, the official kit pinned at f5a6e4f, frozen suite 0.3), the first first-party adapter to that protocol in the Jev family; strengths updated.
 - 2026-10-22 - Volatile re-verification after the 2026-10-22 pushes: recorded the validated vLLM serving plugin and deployment guides (a pinned candidate container for GPU validation, vLLM image startup commands in both READMEs); pushed date moved to 2026-10-22.
+- 2026-10-24 - Volatile re-verification after the 2026-10-23/24 pushes: recorded the serving surface consolidating into dual inference protocols (`/v1/systemone` and `/v1/decisions` from the same decision head on the SGLang and vLLM images and plugins), the 2026-10-21 documentation site with web chat and a free no-key hosted decision API (the Pricing section rewritten, the "no hosted tier" statement retired), the 2026-10-18 JevalKit evaluation toolkit and leaderboard, and the 0.4.1 Decision Index board now carrying three Valen rows (4B 131st at 37.57, 2B 176th, 0.8B 193rd); pushed date moved to 2026-10-24.
 
 ## See also
 
@@ -83,7 +87,10 @@ Not for production routing without independent evaluation, or for anyone needing
 
 ## References
 
-- https://github.com/Liuziyu77/Valen - repository, Apache-2.0 license, stars, push activity, and the training-and-eval structure as of 2026-10-22 (the vLLM serving plugin and guides the newest additions)
+- https://github.com/Liuziyu77/Valen - repository, Apache-2.0 license, stars, push activity, and the training-and-eval structure as of 2026-10-24 (dual inference protocols the newest addition; README re-fetched 2026-10-24 with its news list)
+- https://github.com/Valen-Team/JevalKit - the first-party evaluation toolkit: Apache-2.0, created 2026-10-16, unified model interfaces and prepared evaluation datasets (GitHub API, as of 2026-10-24)
+- https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard - the JevalKit leaderboard Space (fetched 2026-10-24)
+- https://valen-team.github.io/ - the documentation site and web chat, with the free-API and quota statements (fetched 2026-10-24)
 - https://github.com/Liuziyu77/Valen/blob/main/evaluation/decision_index/README.md - the Decision Index adapter guide: official kit pinned at f5a6e4f, frozen suite 0.3, suite verification before model load (fetched 2026-10-17)
 - https://huggingface.co/Valen-Team - the Hugging Face org holding the three model cards and datasets
 - https://huggingface.co/Valen-Team/Valen-4B - the flagship model card with usage and reported results

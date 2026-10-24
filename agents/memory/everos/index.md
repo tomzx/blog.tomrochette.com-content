@@ -1,7 +1,7 @@
 ---
 title: EverOS
 created: 2026-10-09
-updated: 2026-10-20
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, markdown, local-first]
 readability: 3
@@ -36,7 +36,7 @@ EverMind also sells EverOS Cloud, a managed deployment of the same engine, and p
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=EverMind-AI/EverOS&type=date&legend=top-left" />
 </picture>
 
-Latest release v1.4.2 (2026-10-14) with PyPI in sync at 1.4.2, a 1.x line that reached 1.4 within a year of creation; v1.4.2 is a durability patch for the longest-running deployments, fixing a file-descriptor leak in the long-lived index, interactive searches queuing behind the background-embedding cascade, and multi-project index rows overwriting each other.
+Latest release v1.5.1 (2026-10-22) with PyPI in sync at 1.5.1, a 1.x line that reached 1.5 within a year of creation; v1.5.0 (October 21) adds async ingestion (an `/add` with `async_mode` answers in milliseconds and extracts on a durable background queue, matching the cloud API's contract), configurable embedding dimensions, and startup validation that refuses an index the configured model cannot have produced, and v1.5.1 raises the default query-embedding concurrency from 4 to 16, lifting sustained hybrid search from about 9 to a held 10 requests a second.
 The vendor's site claims SOTA numbers (LoCoMo 93.05, LongMemEval 83.00, HaluMem 93.04) from its own reproducible benchmark harness, and the system does not appear among the published commercial leaders of the independent Agent Memory Leaderboard's first cycle (August 2026).
 I found no Hacker News thread through 2026-10-09 searches, so the 13k stars rest on the vendor's channels and plugin ecosystems, the same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and memU.
 
@@ -76,6 +76,7 @@ Not for teams needing published hosted pricing, independent benchmark evidence, 
 - 2026-10-09 - Created from the 2026-10-09 awesome-list entrant scan, with nine fetched sources and the self-published-benchmark-plus-thin-footprint combination recorded as the critical angle.
 - 2026-10-16 - Recorded v1.4.2 (October 14), the durability patch for file-descriptor leaks, search queueing behind the embedding cascade, and multi-project index overwrites, with PyPI in sync at 1.4.2; refreshed stars to 13,444.
 - 2026-10-19 - Corrected the PyPI reference line to 1.4.2, which the 2026-10-16 recording had already stated.
+- 2026-10-24 - Recorded v1.5.0 (October 21, async ingestion with `async_mode` on `/add` backed by a durable queue, configurable embedding dimensions, startup index validation) and v1.5.1 (October 22, query-embedding concurrency default raised from 4 to 16), with PyPI in sync at 1.5.1.
 
 ## See also
 

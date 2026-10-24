@@ -1,7 +1,7 @@
 ---
 title: Qwen Code
 created: 2026-08-24
-updated: 2026-10-20
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, alibaba]
 readability: 3
@@ -35,7 +35,7 @@ The repository shows about 28.5k stars as of 2026-10-15 and was pushed on the da
 </picture>
 
 It launched in July 2025 as a Qwen3-Coder-optimized CLI; the Acknowledgments section records the Gemini CLI v0.8.2 origin and the split from upstream at v0.1.
-The release train stays busy: v0.25.3 (October 19, 2026) is the latest stable, promoting the October 16 preview and adding optional model-generated layouts to Test Failure Explorer with validation and a fixed-view fallback, a collapsible Recent-executions panel with live request and tool timings in the Web Shell trajectory view, and managed sessions from published AgentDefinitions loading static Skills and pinned MCP servers, after v0.25.2 (October 15) added managed-agent mailbox traffic over Session messages and a private extension that imports Vitest 3.2 JSON reports.
+The release train stays busy: v0.26.0 (October 21, 2026) is the latest stable, the first of the 0.26 line, adding daemon-side session-targeted skill and extension refresh, runtime-broker session-create warm-up for workspace-isolated bound sessions, and a managed-agent shipping feature, after v0.25.3 (October 19) promoted the October 16 preview and added optional model-generated layouts to Test Failure Explorer with validation and a fixed-view fallback, a collapsible Recent-executions panel with live request and tool timings in the Web Shell trajectory view, and managed sessions from published AgentDefinitions loading static Skills and pinned MCP servers, and v0.25.2 (October 15) added managed-agent mailbox traffic over Session messages and a private extension that imports Vitest 3.2 JSON reports.
 
 ## Strengths
 
@@ -77,6 +77,7 @@ Not for workflows where model behavior provenance or data residency is tightly g
 - 2026-10-07 - Added the QwenLM/qwen-code star history chart to the Status section.
 - 2026-10-17 - Recorded the stable train reaching v0.25.2 (October 15, managed-agent mailbox traffic over Session messages and a Vitest 3.2 JSON-report import extension) with a v0.25.3 preview following, and re-fetched every cited reference.
 - 2026-10-20 - Recorded v0.25.3 as the latest stable (October 19): model-generated Test Failure Explorer layouts, a live Recent-executions Web Shell panel, and managed sessions loading static Skills with pinned MCP servers.
+- 2026-10-24 - Recorded v0.26.0 as the latest stable (October 21), the first of the 0.26 line: daemon-side session-targeted skill and extension refresh, runtime-broker warm session creation for workspace-isolated bound sessions, and managed-agent shipping.
 
 ## See also
 

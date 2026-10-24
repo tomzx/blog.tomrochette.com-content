@@ -1,7 +1,7 @@
 ---
 title: SkillOpt
 created: 2026-08-30
-updated: 2026-10-20
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, self-improving-agents, research, microsoft]
 readability: 3
@@ -24,7 +24,7 @@ MIT, from Microsoft Research Asia with university collaborators, Python 3.10+.
 
 ## Status
 
-Research code with unusually strong product trappings: 18.3k stars and 1.7k forks as of 2026-10-13, created 2026-05-08, with 55 open issues and pull requests as of 2026-10-20.
+Research code with unusually strong product trappings: 18.3k stars and 1.7k forks as of 2026-10-13, created 2026-05-08, with 58 open issues and pull requests as of 2026-10-24.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/SkillOpt&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Research code with unusually strong product trappings: 18.3k stars and 1.7k fork
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/SkillOpt&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-10-20, though main has run 369 commits past it (the 2026-10-17 and 10-18 pushes landed seven fix commits: Sleep split integrity, benchmark path confinement, a deepseek dsh-tools 0.2.x bridge, config-limit preservation across encoding upgrades, state.json UTF-8 handling, and max_tokens_per_night enforcement in the nightly cycle); the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
+Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-10-24, though main has run 372 commits past it (the 2026-10-23 pushes landed three further fixes: Sleep harvest checkpoints keyed by project and transcript source, generated Codex replay sessions excluded from harvest, and a dsh 0.2.x executor-bridge fix); the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
 
 ## Strengths
 
@@ -71,6 +71,7 @@ Not for subjective domains without reliable scoring, or anyone expecting trained
 - 2026-09-29 - Refreshed the volatile numbers (17,824 stars, 1,672 forks, 55 open issues and PRs); release v0.2.0 and the commit count unchanged.
 - 2026-10-07 - Added the microsoft/SkillOpt star history chart to the Status section.
 - 2026-10-20 - Rotation re-verification: every cited URL re-fetched live except the VentureBeat piece, which answered HTTP 429 rate limits on two tries this run (last live fetch 2026-10-18); all other claims held and the volatile figures refreshed (55 open issues and PRs, 369 commits past v0.2.0, pushed 2026-10-18 with two further Sleep fixes).
+- 2026-10-24 - Volatile refresh: the 2026-10-23 pushes landed three further fixes (Sleep harvest checkpoint keyed by project and transcript source, generated Codex replay sessions excluded from harvest, a dsh 0.2.x executor-bridge fix), moving main to 372 commits past v0.2.0 with 58 open issues and PRs; v0.2.0 still the newest release.
 
 ## See also
 

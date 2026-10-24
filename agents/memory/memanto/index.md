@@ -1,7 +1,7 @@
 ---
 title: Memanto
 created: 2026-10-11
-updated: 2026-10-20
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, memory-agent, typed-memory, mcp, open-source]
 readability: 3
@@ -34,7 +34,7 @@ Made by Moorcheh AI, with the April 2026 paper (arXiv 2604.22085) behind the ret
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=moorcheh-ai/memanto&type=date&theme=dark&legend=top-left" />
 </picture>
 
-PyPI is at 0.2.29 with about 40 releases since spring, and npm is in sync at 0.2.29 under the scoped @moorcheh-ai/memanto package.
+PyPI is at 0.2.30 with about 40 releases since spring; npm lags one release at 0.2.29 under the scoped @moorcheh-ai/memanto package, and v0.2.30 (October 23) makes `memanto connect` set up the project's MCP server in Claude Code, Codex, Cursor, and GitHub Copilot with the memory tools pre-approved.
 The paper claims 89.8 percent on LongMemEval and 87.1 percent on LoCoMo through Moorcheh's Information Theoretic Search engine, with datasets and a harness published on Hugging Face.
 The Hacker News record is modest: a 14-point thread in June 2026 (11 comments) and a 3-point Mem0-migration story in September.
 **The fork-to-star ratio (about one fork per three stars as of 2026-10-11) is far above every peer in this category, which makes the raw engagement numbers harder to read than the star count suggests.**
@@ -74,6 +74,7 @@ My disagreeable claim: the management layer, not the store, is where memory prod
 ## Changes
 
 - 2026-10-11 - Created from the 2026-10-11 Awesome-Agent-Memory entrant scan, with seven fetched sources and the self-published-benchmark-plus-fork-ratio profile recorded as the critical angle.
+- 2026-10-24 - Rotation re-verification: every cited URL re-fetched live (repository API, README with the self-critical benchmark caveat still present, docs, arXiv paper, PyPI, Hacker News search), and recorded v0.2.30 (October 23): `memanto connect` now sets up the project's MCP server for Claude Code, Codex, Cursor, and GitHub Copilot with pre-approved tools, and MCP remember calls require type, confidence, and provenance; PyPI in sync at 0.2.30, npm lagging at 0.2.29.
 
 ## See also
 
@@ -89,6 +90,6 @@ My disagreeable claim: the management layer, not the store, is where memory prod
 - https://raw.githubusercontent.com/moorcheh-ai/memanto/main/README.md - the memory-agent model, the six behaviors, 13 memory types, OKF export, the migrate command, local mode, and the benchmark caveat
 - https://docs.memanto.ai - the two backends (Moorcheh Cloud free key, on-prem Docker plus Ollama), install paths, and SDK references
 - https://arxiv.org/abs/2604.22085 - the paper (April 2026): typed semantic memory, information-theoretic retrieval, and the 89.8/87.1 claims
-- https://pypi.org/pypi/memanto/json - memanto 0.2.27 (2026-10-07) and the release count
+- https://pypi.org/pypi/memanto/json - memanto 0.2.30 (2026-10-23) and the release count
 - https://hn.algolia.com/api/v1/search?query=memanto&tags=story - the discussion record (14-point June 2026 thread, 3-point September migration story)
 - https://github.com/TeleAI-UAGI/Awesome-Agent-Memory - the entrant source that surfaced it, as of 2026-10-11

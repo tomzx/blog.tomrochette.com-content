@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-10-20
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-10-20 UTC, and v1.6.5 (October 16, 2026) the latest release with PyPI in sync at 1.6.5.
+About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-10-23 UTC, and v1.6.5 (October 16, 2026) the latest stable release with PyPI in sync at 1.6.5; v1.6.6rc1 (October 23) is in pre-release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=topoteretes/cognee&type=date&theme=dark&legend=top-left" />
@@ -36,6 +36,7 @@ v1.6.1 (September 24) adds Google Drive and Gmail ingestion with the Google conn
 v1.6.2 (September 29) makes embedding failures explicit instead of silently truncating, sizes chunks by each model's token limit, adds Slack conversation import and sync, and moves skills storage to a new .agents/skills location.
 v1.6.3 (October 7) sharpens temporal search (windows now include their boundary dates and rank date matches more accurately), returns matching rows in natural-language search payloads, tightens ingestion validation, and lands four breaking changes: the dlt dependency pinned below 1.31, the temporal_cognify option removed, nested agents refused, and parent-setting dropped from public sign-ups.
 v1.6.5 (October 16) speeds trace processing by persisting traces in fewer, larger writes, stores function and class docstrings as graph documents linked to code symbols, adds a memify API, and accepts base64 embedding inputs.
+v1.6.6rc1 (October 23, pre-release) adds Obsidian, Asana, and OneNote connectors with hardened Drive and Asana sync, and carries breaking changes self-hosters should read before the stable cut: dataset deletes now purge associated search and conversation history, and the run_info metadata no longer embeds the ingested data items.
 The company is part of the Berkeley Xcelerator and claims 5M+ SDK runs per month (vendor figure).
 The community discussion footprint is thin for the star count: its two Show HN threads drew 9 and 6 points, so third-party scrutiny lags the repository's popularity.
 
@@ -90,6 +91,7 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 - 2026-10-08 - Recorded v1.6.3 (October 7): temporal-search windows include their boundaries, natural-language searches return matching rows, ingestion validation tightened, and four breaking changes (dlt pinned below 1.31, temporal_cognify removed, nested agents refused, parent-setting dropped from public sign-ups); refreshed stars to about 31.6k.
 - 2026-10-16 - Recorded v1.6.4 (October 13): vector-search adapter and Turso database reliability fixes, and removal of an unwanted background pruning task for LanceDB-backed stores; refreshed stars to about 32.4k.
 - 2026-10-19 - Recorded v1.6.5 (October 16): fewer, larger trace-persistence writes, docstrings stored as searchable graph documents, a memify API, and base64 embedding inputs; the repository pushed 2026-10-19.
+- 2026-10-24 - Recorded the v1.6.6rc1 pre-release (October 23): Obsidian, Asana, and OneNote connectors, hardened Drive and Asana sync, and breaking changes around dataset-delete history purging and the run_info metadata structure; v1.6.5 remains the latest stable with PyPI in sync.
 
 ## See also
 

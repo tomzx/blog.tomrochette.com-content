@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code"
 created: 2026-09-05
-updated: 2026-10-21
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, moonshot, byok]
 readability: 3
@@ -48,7 +48,7 @@ The wind-down is now complete: GitHub shows the `kimi-cli` repository archived a
 ## Pricing
 
 The harness is free and open source.
-Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $0.239/$11.936 per million tokens (cache reads listed at $0.21) and kimi-k2.7-code at $0.67/$3.35 (cache hits $0.18) as of 2026-10-21 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09; among the endpoint hosts the day churned, the input floor at $0.238/$16.00 on Wafer with InferenceNet matching the main listing at $0.239/$11.936, Relace off the floor at $0.30/$12.00, and the roster holding at 28 while the ten hosts that joined on 10-18 (among them Amazon Bedrock, DeepInfra, BaseTen, and Alibaba) stayed, as of 2026-10-21), with other OpenAI-compatible providers configurable.
+Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $0.239/$10.80 per million tokens (cache reads listed at $0.21) and kimi-k2.7-code at $0.67/$3.35 (cache hits $0.15) as of 2026-10-24 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09; the endpoint-roster reading (the input floor at $0.238/$16.00 on Wafer, InferenceNet matching the main listing at $0.239/$11.936, Relace off the floor at $0.30/$12.00, and the roster holding at 28) predates this output cut and is as of 2026-10-21), with other OpenAI-compatible providers configurable.
 
 ## Price history
 
@@ -78,6 +78,7 @@ Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform AP
 | 2026-10-17 | API (OpenRouter) | the main kimi-k3 listing held at $0.304/$11.936 per million tokens (cache reads $0.21, InferenceNet matching) while the endpoints churned through the day: the closing fetch put the input floor at Relace $0.27/$14.2307 (after a morning reading of $0.25/$8.5378, itself down from $0.35/$14.00 yesterday), the output floor at Sail Research's new fp4 endpoint $0.504/$8.10, Wafer at $0.28/$24.00 and $0.50/$14.90, Morph's input down to $0.30/$14.90, and the roster widened to 26 endpoints; kimi-k2.7-code unchanged at $0.67/$3.35. | [OpenRouter kimi-k3 endpoints](https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints) |
 | 2026-10-18 | API (OpenRouter) | the main kimi-k3 listing held at $0.304/$11.936 per million tokens (cache reads $0.21, InferenceNet matching) while the endpoints recomposed around the same floors: the input floor held at Relace $0.27/$14.00 (output trimmed from $14.2307), the output floor held at Sail Research's fp4 endpoint $0.504/$8.10, Wafer moved down to $0.28/$16.00 and $0.36/$11.90, Morph rose to $0.392/$14.90, and the roster stayed at 26 while ten new hosts joined (AkashML, Makora, Decart, Chutes, Phala, DigitalOcean, DeepInfra, Amazon Bedrock, BaseTen, Alibaba); kimi-k2.7-code unchanged at $0.67/$3.35. | [OpenRouter kimi-k3 endpoints](https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints) |
 | 2026-10-21 | API (OpenRouter) | the main kimi-k3 listing moved to $0.239/$11.936 per million tokens with cache reads held at $0.21 (a same-day $0.00 reading corrected against the listing on re-fetch), InferenceNet matching; the input floor moved to Wafer at $0.238/$16.00, Relace off the floor at $0.30/$12.00, and the roster grew to 28 with the ten 10-18 joins holding; kimi-k2.7-code unchanged at $0.67/$3.35 (cache hits $0.18). | [OpenRouter kimi-k3 endpoints](https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints) |
+| 2026-10-24 | API (OpenRouter) | kimi-k3's output leg cut from $11.936 to $10.80 per million tokens (input $0.239 and cache reads $0.21 unchanged), the seventeenth recorded move; kimi-k2.7-code's cache-hit price cut from $0.18 to $0.15 with input and completion unchanged. | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 
 ## Compared to
 
@@ -123,6 +124,7 @@ Not for teams that need local models, or anyone who needs more than one independ
 - 2026-10-17 - Recorded the endpoints churning through the day with the main kimi-k3 listing holding at $0.304/$11.936: the morning fetch read the floor at Relace $0.25/$8.5378, the coordinator-level closing fetch put the input floor at Relace $0.27/$14.23, the output floor at Sail Research's new fp4 endpoint $0.504/$8.10, and the roster at 26 endpoints, with the same-day Price history row carrying the closing reading and the usage sentence refreshed.
 - 2026-10-18 - Recorded the endpoint recomposition with the main kimi-k3 listing holding at $0.304/$11.936: the input floor held at Relace $0.27/$14.00, the output floor held at Sail Research's fp4 $0.504/$8.10, Wafer moved down and Morph up, and ten new hosts joined the 26-endpoint roster, and appended the matching Price history row with the usage sentence refreshed.
 - 2026-10-21 - Recorded the kimi-k3 listing's sixteenth move to $0.239/$11.936 (cache reads held at $0.21) with the input floor moving to Wafer at $0.238/$16.00, Relace off the floor at $0.30/$12.00, and the roster growing to 28, appended the matching Price history row with the usage sentence refreshed, and corrected the row's same-day $0.00 cache reading against a coordinator-level re-fetch of the listing.
+- 2026-10-24 - Recorded the kimi-k3 output price cut on OpenRouter to $0.239/$10.80 per million tokens (cache reads held at $0.21), the seventeenth recorded move, alongside kimi-k2.7-code's cache-hit price dropping to $0.15, and appended the matching Price history row with the usage sentence refreshed.
 
 ## See also
 
