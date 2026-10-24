@@ -1,7 +1,7 @@
 ---
 title: Greptile
 created: 2026-08-24
-updated: 2026-10-16
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, code-review, code-retrieval, developer-tools]
 readability: 3
@@ -27,8 +27,9 @@ Behind it is Tabnam, Inc., a YC W24 company founded in 2023 by three Georgia Tec
 ## Status
 
 **Active, well-funded, and shipping.**
-The homepage claims 22,000+ teams and names Nvidia, Brex, Substack, PostHog, Zapier, and Retool as users (vendor claim as of 2026-10-16).
-Funding: $4M seed led by Initialized Capital (June 2024), then a $25M Series A led by Benchmark Capital (September 23, 2025) alongside YC and Initialized; the YC directory lists a team of about 35.
+The homepage claims 22,000+ teams and names Nvidia, Brex, Substack, PostHog, Zapier, and Retool as users (vendor claim as of 2026-10-24).
+Funding: $4M seed led by Initialized Capital (June 2024), a $25M Series A led by Benchmark Capital (September 23, 2025) alongside YC and Initialized, then a $50M Series B led by Menlo Ventures announced October 19, 2026, valuing the company at $750M ($79M total raised), with Jump Trading, Wing, Operator Collective, Benchmark, YC, Browder Capital, and Initialized participating and Menlo's Deedy Das joining the board; the announcement claims Greptile now reviews and tests more than 1 percent of all pull requests opened on GitHub daily, with Nvidia, Coinbase, Decagon, and Vanta named as users.
+The YC directory lists a team of about 35.
 Release cadence is real: v3 rewrite (September 2025), TREX (June 2026), v5 (August 5, 2026), with the Series A post citing 500M+ lines reviewed that September month.
 
 ## Strengths
@@ -47,10 +48,11 @@ Release cadence is real: v3 rewrite (September 2025), TREX (June 2026), v5 (Augu
 
 ## Pricing
 
-**Metered credits mean the reviewer's bill scales with your PR velocity, not your headcount, which is either alignment or a tax depending on your merge rate.**
-Starter is free for one active developer with 50 credits per month; Pro is $30 per seat per month including 50 credits per seat, with extra credits at $1 each (as of 2026-10-16).
-Since September 25, 2026, reviews come in three depth tiers, Base at 1 credit, Plus at 3, and Apex at 10, selectable per review or by rule for large or high-risk PRs, and the pricing page's FAQ now prices reviews this way and no longer names TREX, whose 3-credit price the plans carried before; plan prices are unchanged.
-Free usage for qualified open source projects and discounts for pre-Series A startups are advertised but, per the caution above, community reports dispute how this lands in practice.
+**Metered credits mean the reviewer's bill scales with your PR velocity, not your headcount, and since October 2026 that is literally true: Pro has no seat fees at all.**
+Starter is free for one active developer with 50 credits per month; Pro dropped its $30-per-seat price for a pay-per-credit model, $1 per credit with credits shared across the whole organization and no seat fees (as of 2026-10-24).
+Review depth is unchanged: Base at 1 credit, Plus at 3, and Apex at 10, selectable per review or by rule for large or high-risk PRs, so a review bills 1 to 10 credits no matter how many people work on the repo.
+A startup program gives pre-Series A startups under $2M revenue 500 free credits a month for 6 months.
+Free usage for qualified open source projects is advertised but, per the caution above, community reports dispute how this lands in practice.
 Self-hosted enterprise and bulk API pricing are custom.
 
 ## Price history
@@ -59,6 +61,7 @@ Self-hosted enterprise and bulk API pricing are custom.
 | ---- | ---- | ------ | ------ |
 | 2026-09-18 | Starter, Pro | Baseline: Starter free for one active developer (50 credits/mo), Pro $30/seat/mo with 50 credits included, extra credits $1 each, TREX reviews 3 credits; re-verified unchanged 2026-10-10. | [greptile.com](https://greptile.com/) |
 | 2026-09-25 | Review depth tiers | Introduced Base (1 credit), Plus (3), and Apex (10) credits per review; Starter and Pro plan prices unchanged. | [greptile.com/blog/introducing-plus-and-apex](https://www.greptile.com/blog/introducing-plus-and-apex) |
+| 2026-10 | Pro | Pro dropped the $30/seat/mo plan (50 credits included per seat): Pro is now $1 per credit with no seat fees, credits shared across the organization; Starter unchanged (free, one developer, 50 credits/mo); review-depth tiers unchanged; new startup program (500 free credits/mo for 6 months). Re-verified on the pricing page 2026-10-24. | [greptile.com/pricing](https://www.greptile.com/pricing) |
 
 ## Compared to
 
@@ -78,6 +81,7 @@ My disagreeable claim: the graph index everyone credits Greptile for is the leas
 - 2026-08-30 - Moved into the new Code review category on category-fit grounds, with see-also links updated to its new siblings.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-16 - Rotation re-verification: recorded the Plus and Apex review-depth tiers (September 25, 2026, Base 1 credit, Plus 3, Apex 10) in Pricing with a Price history row, and the Claude Code plugin plus /greploop agent-iteration integration from the homepage; every cited URL re-fetched live, plan prices unchanged.
+- 2026-10-24 - Rotation re-verification: recorded the $50M Series B led by Menlo Ventures (announced October 19, 2026, $750M valuation, Deedy Das joining the board) in Status, and the Pro restructure from $30/seat to $1-per-credit with no seat fees and a 500-credits startup program in Pricing with a Price history row; every cited URL re-fetched live.
 
 ## See also
 
@@ -89,9 +93,10 @@ My disagreeable claim: the graph index everyone credits Greptile for is the leas
 
 ## References
 
-- https://greptile.com/ - product surface, customer list, team count, and pricing FAQ as claimed by the vendor
-- https://www.greptile.com/pricing - the Starter/Pro/Enterprise table and the Base (1), Plus (3), Apex (10) credit FAQ, fetched 2026-10-16
-- https://www.greptile.com/blog/introducing-plus-and-apex - the September 25, 2026 review-depth-tier launch post, fetched 2026-10-16
+- https://greptile.com/ - product surface, customer list, team count, and pricing FAQ as claimed by the vendor, re-fetched 2026-10-24 (22,000+ teams still displayed)
+- https://www.greptile.com/pricing - the plan table and the Base (1), Plus (3), Apex (10) credit FAQ, re-fetched 2026-10-24: Pro now $1 per credit with no seat fees, the $30/seat price gone, plus the 500-credit startup program
+- https://www.greptile.com/blog/series-b - the October 19, 2026 Series B post: $50M led by Menlo Ventures, $750M valuation, participant list, Deedy Das joining the board, the 1-percent-of-GitHub-PRs claim and the Coinbase, Decagon, and Vanta customer names, fetched 2026-10-24
+- https://www.greptile.com/blog/introducing-plus-and-apex - the September 25, 2026 review-depth-tier launch post, re-fetched 2026-10-24
 - https://www.greptile.com/blog/series-a - $25M Series A led by Benchmark, v3 claims, 500M+ lines reviewed
 - https://www.ycombinator.com/companies/greptile - YC W24 batch, founding year, founders, team size
 - https://techcrunch.com/2024/06/06/greptile-raises-4m-to-build-an-ai-code-base-expert/ - $4M seed, API-first origin, customer counts at seed

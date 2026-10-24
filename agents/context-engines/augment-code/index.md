@@ -1,7 +1,7 @@
 ---
 title: Augment Code
 created: 2026-08-24
-updated: 2026-10-17
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-engines, coding-agents, enterprise-tools]
 readability: 3
@@ -29,7 +29,7 @@ Everything is closed-source SaaS with SOC 2 Type II, ISO 42001, zero data retent
 **Absorbed into Harness: on October 8, 2026 the company announced the sale of Cosmos, Auggie CLI, the Code Context Engine, and related technology to Harness, with the team moving over to continue them there.**
 Blog cadence ran multiple posts per month through September 11, 2026 (Cosmos launch, GPT-5.6 Sol as default in July, the Auggie harness rebuild, further PR-to-merge loop optimization, and a Software Factory buildout post), then went quiet until the October 8 acquisition announcement.
 The October 20, 2025 pricing change triggered a community revolt; the company's own Reddit response admitted 22.5% of users were consuming 20x what they paid, and the HN thread documents broken grandfathering promises.
-The pricing page was still selling the current plans, with no free tier, as of 2026-10-17 (the blog's newest post remains the October 8 acquisition announcement, re-checked 2026-10-17).
+The pricing page was still selling the current plans, with no free tier, as of 2026-10-24 (the blog's newest post remains the October 8 acquisition announcement, re-checked 2026-10-24 via the blog index and sitemap).
 I could not verify funding history from primary sources in this run (the company pages do not state it and Wikipedia has no article), which is itself a signal: the public record for this company is mostly its own marketing.
 
 ## Strengths
@@ -82,6 +82,7 @@ My disagreeable claim: if the Context Engine numbers are even half right, harnes
 - 2026-10-07 - Recorded the blog going quiet (no new posts between September 11 and October 7, 2026) and re-verified the plan structure and the no-free-tier claim against the live pricing page.
 - 2026-10-09 - Recorded the October 8, 2026 sale of Cosmos, Auggie CLI, and the Context Engine to Harness (the "Augment Code's next chapter" announcement), replacing the blog-quiet status framing; the pricing page re-verified unchanged with no free tier.
 - 2026-10-17 - Full rotation re-verification: every cited URL re-fetched; the plan structure, no-free-tier claim, 40 percent service fee, and both benchmark write-ups re-verified unchanged, the blog still ending at the October 8 announcement; recorded Intent's move to open source under its own intent-hq organization (Apache-2.0 monorepo, stable release channel, mobile app).
+- 2026-10-24 - Rotation re-verification: every cited URL re-fetched; the plan structure, no-free-tier claim, and 40 percent service fee unchanged, the blog still ending at the October 8 announcement (newest-post claim confirmed through the sitemap), and the intent-hq repository still active.
 
 ## See also
 

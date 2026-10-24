@@ -1,7 +1,7 @@
 ---
 title: WrenAI
 created: 2026-10-10
-updated: 2026-10-22
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, semantic-layer, text-to-sql, genbi]
 readability: 3
@@ -23,7 +23,8 @@ Everything Wren writes is plain YAML and Markdown in a repo you own, and Git Syn
 
 ## Status
 
-Established and active: 17,877 stars as of 2026-10-18, 2,064 forks and 261 open issues as of 2026-10-22, created 2024-03-13, pushed 2026-10-22, with the wren-v0.16.0 release on 2026-10-16 and PyPI (wrenai) tracking the same 0.16.0.
+Established and active: 17,877 stars as of 2026-10-18, 2,067 forks and 257 open issues as of 2026-10-24, created 2024-03-13, pushed 2026-10-23, with the wren-v0.16.0 release on 2026-10-16 and PyPI (wrenai) tracking the same 0.16.0.
+The CLI's context import/export gained Apache Ossie on 2026-10-22, joining dbt and OpenMetadata under one `wren context import` command with a matching export, and wren-core-py 0.8.2 (2026-10-23) shipped the DISTINCT ON column fix in the bindings.
 The docs page claims SOC 2 Type II certification and now quotes 17.8k GitHub stars against the live count; its old 17-plus data-source figure is gone (the README stays at 22-plus), closing the discrepancy flagged on 2026-10-11.
 The community footprint is lopsided: a Hacker News search returns over a thousand matches but every thread is small (the largest found carries 6 points), so nearly five figures of stars have produced no front-page discussion.
 
@@ -81,6 +82,7 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 - 2026-10-11 - Added Vanna to See also, the archived text-to-SQL RAG ancestor admitted to the category the same day.
 - 2026-10-12 - Added the Enterprise Plus tier (self-hosted, concurrent-session licensed, quoted by sales) to the pricing section; the three credit tiers re-verified unchanged against the live pricing page, and the volatile numbers refreshed (17,848 stars).
 - 2026-10-22 - Rotation re-verification: every cited URL re-fetched, the star-history picture block corrected (its light-theme source and fallback carried the dark theme), and the docs-versus-README data-source discrepancy closed (the docs page now quotes 17.8k GitHub stars and no longer carries a source count); pricing tiers re-verified unchanged, forks and open issues refreshed.
+- 2026-10-24 - Recorded the context import/export surface gaining Apache Ossie (2026-10-22, joining dbt and OpenMetadata under one import command with a matching export) and wren-core-py 0.8.2 (2026-10-23, the DISTINCT ON fix shipped in the bindings); volatile numbers refreshed (2,067 forks, 257 open issues, pushed 2026-10-23).
 
 ## See also
 
@@ -94,7 +96,8 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 
 - https://github.com/Canner/WrenAI - repository: README, architecture, open-core split, license badge
 - https://api.github.com/repos/Canner/WrenAI - stars, forks, issues, creation and push dates as of 2026-10-18
-- https://api.github.com/repos/Canner/WrenAI/releases - wren-v0.16.0 published 2026-10-16 and the component release train (fetched 2026-10-16)
+- https://api.github.com/repos/Canner/WrenAI/releases - wren-v0.16.0 published 2026-10-16 and the component release train through wren-core-py v0.8.2 (re-fetched 2026-10-24)
+- https://api.github.com/repos/Canner/WrenAI/pulls/2821 - the Ossie import/export merge: Apache Ossie joining dbt and OpenMetadata under one `wren context import` command (fetched 2026-10-24)
 - https://www.getwren.ai/pricing - the credit tiers, quotas, and Enterprise feature gates as of 2026-10-10
 - https://docs.getwren.ai/ - the docs portal: editions, SOC 2 claim, and the 15k-plus star line
 - https://pypi.org/pypi/wrenai/json - CLI and SDK version 0.16.0 with the semantic-SQL-layer description (fetched 2026-10-16)

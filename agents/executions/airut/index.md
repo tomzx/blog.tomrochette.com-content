@@ -1,7 +1,7 @@
 ---
 title: Airut
 created: 2026-10-11
-updated: 2026-10-22
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, email, slack, claude-code, self-hosted]
 readability: 3
@@ -25,8 +25,8 @@ A companion `airut-sandbox` CLI and `airutorg/sandbox-action` extend the same co
 ## Status
 
 **Young, active, and nearly invisible.**
-84 stars, 3 forks, and 1 open issue as of 2026-10-22 (GitHub API), created 2026-02-03 and pushed 2026-10-22.
-PyPI carries 0.27.0, with 287 downloads in the trailing month (2026-09-18 to 2026-10-17).
+84 stars, 3 forks, and 1 open issue as of 2026-10-24 (GitHub API), created 2026-02-03 and pushed 2026-10-24.
+PyPI carries 0.27.1, with 287 downloads in the trailing month (2026-09-25 to 2026-10-24).
 The community footprint is three self-posted Show HN threads (2, 1, and 2 points, zero comments, February through March 2026), so there is no independent coverage or adoption evidence, and that absence is itself the signal for a project with this much documentation depth.
 
 <picture>
@@ -71,6 +71,7 @@ My disagreeable claim: at 84 stars this is the least proven member of the catego
 
 - 2026-10-11 - Created from the 2026-10-11 entrant scan, with the thin community footprint recorded as the critical signal.
 - 2026-10-18 - Fully re-verified in rotation with every cited URL re-fetched: the README architecture claims (rootless Podman, allowlist proxy, surrogate credentials, CI sandbox action, dogfooding), the airut.org site, the 0.27.0 PyPI version, the 287 trailing-month downloads, and the three-thread community footprint all re-confirmed unchanged after the 2026-10-18 push.
+- 2026-10-24 - Recorded the v0.27.1 release (2026-10-24), the first since v0.27.0; the README architecture claims and the counters (84 stars, 3 forks, 1 open issue) re-verified unchanged around it.
 
 ## See also
 
@@ -82,10 +83,10 @@ My disagreeable claim: at 84 stars this is the least proven member of the catego
 ## References
 
 - https://github.com/airutorg/airut - repository, 84 stars, MIT license, description, as of 2026-10-11
-- https://api.github.com/repos/airutorg/airut - exact counters (84 stars, 3 forks, 1 open issue, pushed 2026-10-22, created 2026-02-03; re-verified 2026-10-22)
+- https://api.github.com/repos/airutorg/airut - exact counters (84 stars, 3 forks, 1 open issue, pushed 2026-10-24, created 2026-02-03; re-verified 2026-10-24)
 - https://raw.githubusercontent.com/airutorg/airut/main/README.md - the channel model, sandbox architecture, scheduled tasks, dashboard, CI sandbox action, and the dogfooding claim (re-fetched 2026-10-18)
-- https://pypi.org/pypi/airut/json - the PyPI package at 0.27.0, "Sandboxed Claude Code over email and Slack" (re-fetched 2026-10-18)
-- https://pypistats.org/api/packages/airut/recent - 287 trailing-month downloads (2026-09-18 to 2026-10-17)
+- https://pypi.org/pypi/airut/json - the PyPI package at 0.27.1, "Sandboxed Claude Code over email and Slack" (re-fetched 2026-10-24)
+- https://pypistats.org/api/packages/airut/recent - 287 trailing-month downloads (2026-09-25 to 2026-10-24)
 - https://airut.org - the project site: the message-to-deploy pitch and the surrogate-credential walkthrough (re-fetched 2026-10-18)
 - https://hn.algolia.com/api/v1/search?query=airut&tags=story - the three self-posted Show HN threads (2, 1, and 2 points, zero comments), the footprint record as of 2026-10-18
 - https://news.ycombinator.com/item?id=46947714 - the first Show HN thread, "Sandboxed Claude Code sessions over email" (2026-02-09, 2 points, zero comments)

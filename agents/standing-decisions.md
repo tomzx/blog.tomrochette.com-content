@@ -95,7 +95,9 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-21 | orchestration | worktree-manager CLIs slot in orchestration beside Worktrunk, not surfaces or sandboxing | gwq admitted on the terminal-family precedent (worktrees are not isolation boundaries), closing the software-factory and scanner routing flags
 - 2026-10-21 | sandboxing | a repository rename resolves against the prior name's history only when that name was itself a resolved candidate; a prose mention is not a resolution | the loom-to-Overalls handoff: loom was only a mention in the geoffrey-huntley note, so overalls was judged fresh and admitted (1,557 stars, Firecracker microVM platform, research preview 2026-11-03)
 - 2026-10-23 | cross-category | Mods-section additions in the claude-code list resolve as single-mod kinds under the skills exclusion | review-inbox (2 stars) the first confirmed instance, Molecular Animation (2 stars) out of scope on top of it
+- 2026-10-24 | code-review | the vendor-run kodustech/awesome-ai-code-review list stays unwired as a mapped source; the category stays on broad sources | stale since 2026-06-28, HEAD carries dead, 404, and 1-star entries; evidence recorded for the open q21, its one live entrant Nayjest/Gito admitted 2026-10-24
 - 2026-10-24 | memory | the TeleAI list's 2026-10-21 to 2026-10-23 additions resolve on standing families | TriMem, MemRec, BetaMem, and EvoKernel are paper-section entries rather than tools, Monolithos is closed-hosted with no open engine, Big Agentic Brain (18 stars) and agent-memory-recall (0 stars) sit below the 294-star floor
+- 2026-10-24 | memory | the awesome-mcp-servers 2026-10-23 wave's memory-server cluster stays below the bar | open-memex (6 stars), MemCore (1), swarmmemo (2), IHMT-MEMORY (38), compound-memory (1) on the 294-star thin-tail floor, synapse-memory and alethech unverifiable (404); reopen on traction or coverage
 
 ## Owner questions governing scope
 

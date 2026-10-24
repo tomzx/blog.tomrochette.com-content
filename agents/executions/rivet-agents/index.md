@@ -1,7 +1,7 @@
 ---
 title: Rivet Agents
 created: 2026-10-13
-updated: 2026-10-22
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, durable-execution, scheduling, actor-model]
 readability: 3
@@ -24,7 +24,7 @@ It is built by Rivet Gaming, Inc. (YC, a16z Speedrun), the company behind the ri
 ## Status
 
 **Active, young, and moving fast.**
-1,604 stars as of 2026-10-13, 134 forks and 85 open issues and pull requests as of 2026-10-22 (GitHub API), created 2026-01-25 and pushed 2026-10-21 UTC.
+1,604 stars as of 2026-10-13, 134 forks and 86 open issues and pull requests as of 2026-10-24 (GitHub API), created 2026-01-25 and pushed 2026-10-24 UTC.
 The release train reached a stable v0.5.0 only on 2026-10-07 after release candidates that began in March, with v0.5.1 through v0.5.3 following within a week (v0.5.3 on 2026-10-14), and the company changelog shipped agentOS 0.4 with Hosted VMs on 2026-10-12.
 The community footprint sits under the prior names: the Sandbox Agent SDK Show HN drew 41 points in January 2026, the Gigacode OpenCode-UI experiment 27 points in February, and SQLite for Rivet Actors 45 points, but no dedicated launch thread exists for the Agents product itself as of 2026-10-13, and a product line that has already carried the Sandbox Agent SDK and agentOS names beside the Actors platform carries identity churn a reader should price in.
 
@@ -88,7 +88,7 @@ My disagreeable claim: for the durable-agent use case this is a better fit than 
 ## References
 
 - https://github.com/rivet-dev/agents - repository, 1,604 stars, Apache-2.0, monorepo layout, one version line, as of 2026-10-13
-- https://api.github.com/repos/rivet-dev/agents - exact counters (1,604 stars pinned at their 2026-10-13 fetch, 134 forks, 85 open issues and pull requests, pushed 2026-10-21 UTC, created 2026-01-25; re-verified 2026-10-22)
+- https://api.github.com/repos/rivet-dev/agents - exact counters (1,604 stars pinned at their 2026-10-13 fetch, 134 forks, 86 open issues and pull requests, pushed 2026-10-24 UTC, created 2026-01-25; re-verified 2026-10-24)
 - https://rivet.dev/agents/docs - the actor-per-agent model, SQLite files, sandbox adapters, harness and model choice, and the company backing (re-fetched 2026-10-22)
 - https://rivet.dev/agents/docs/schedules/ - cron and one-shot scheduling that continues one conversation (re-fetched 2026-10-22)
 - https://rivet.dev/agents/docs/pi/ - Pi Durable beta status and the documented limitations list (critical source, re-fetched 2026-10-22)

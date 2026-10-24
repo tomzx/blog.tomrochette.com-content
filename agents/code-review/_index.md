@@ -13,6 +13,7 @@ Where machines judge pull requests: the review bots, the open-source reviewers, 
 - [CodeRabbit](coderabbit/index.md) - the commercial anchor, $143M Series C at a $1.5B valuation, free forever on public repos, with a disclosed RCE history in its file.
 - [Ellipsis](ellipsis/index.md) - the 2024 review bot that pivoted to managed agent infrastructure in July 2026, review now one configurable use case.
 - [git-lrc](git-lrc/index.md) - Hexmos's commit-time review hook that records review, vouch, or skip attestations in the git log, free with BYOK and $32 per 100k LOC paid, source-available rather than open source.
+- [Gito](gito/index.md) - the solo MIT Python reviewer that runs on any provider, including local model servers and Claude Code or Gemini CLI as the review runtime, stateless and GitHub-first.
 - [Graphite Diamond](graphite-diamond/index.md) - the deprecated Diamond reviewer, now Graphite Agent inside Cursor since the December 2025 acquisition.
 - [Greptile](greptile/index.md) - AI code review running a swarm of agents over a graph index of your repositories, learned house rules included.
 - [Kodus](kodus/index.md) - the AGPL-3.0 open-source reviewer with BYOK and zero token markup, self-hosted or on Kodus Cloud.
@@ -41,3 +42,4 @@ Its members are compared on shared rows in the [Code Review Feature Matrix](code
 - 2026-10-11 - Added OpenQodex.
 - 2026-10-11 - Added OpenReview.
 - 2026-10-16 - Added multi.
+- 2026-10-24 - Added Gito.

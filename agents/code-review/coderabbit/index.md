@@ -1,7 +1,7 @@
 ---
 title: CodeRabbit
 created: 2026-08-30
-updated: 2026-10-16
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -17,6 +17,7 @@ CodeRabbit is a commercial AI code review service (the coderabbitai GitHub and G
 **It is the category's default install: the most-installed AI app on GitHub and GitLab, positioned as the independent verifier for code that agents write.**
 Reviews run on PRs using a codegraph, dozens of context sources, and a learning loop ("Learnings") that picks up each team's conventions, then loops with coding agents like Claude Code, Codex, Cursor, and Gemini to fix what it flags.
 Surfaces cover the pull request (GitHub/GitLab), the IDE (VS Code, Cursor, Windsurf since May 2025), and the terminal (CLI since September 16, 2025), August 2026 added Triage for prioritizing the PR queue, Change Stack for explaining massive diffs, and Security for post-merge monitoring, and the pricing page now also lists Engineer as an on-demand product (assign coding tasks and automations through Slack).
+Late October 2026 added two marketplace distributions: the Grok Build Plugin Marketplace via the SpaceX Super Intelligence Partner Network (October 22) and Cursor Origin's app marketplace as a launch partner (October 21).
 It is proprietary SaaS from CodeRabbit, Inc., founded by Harjot Gill and Gur Singh, with self-hosting reserved for Enterprise and free reviews forever for public repositories.
 
 ## Status
@@ -78,6 +79,7 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-16 - Rotation re-verification: added the Engineer on-demand product (Slack-driven coding tasks and automations) to the surface inventory; every cited URL re-fetched live, all prices unchanged.
+- 2026-10-24 - Rotation re-verification: every cited URL re-fetched live, all prices unchanged (Essentials $24, Team $48, Advanced $72 annual, $0.40 agent minute), homepage claims (17K customers, 6M repositories) still displayed; added the Grok Build Plugin Marketplace and Cursor Origin marketplace distributions from the vendor's October 21 to 22 posts.
 
 ## See also
 
@@ -89,8 +91,8 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 
 ## References
 
-- https://www.coderabbit.ai/ - product surface, 17K customers and 6M repositories claims as of 2026-09-18, refetched 2026-10-11
-- https://www.coderabbit.ai/pricing - Essentials/Team/Advanced tiers and prices as of 2026-10-11; the $0.40 Slack agent minute last displayed 2026-10-10
+- https://www.coderabbit.ai/ - product surface, 17K customers and 6M repositories as displayed 2026-10-24
+- https://www.coderabbit.ai/pricing - Essentials/Team/Advanced tiers and prices as of 2026-10-24 (re-fetched unchanged); the $0.40 Slack agent minute still displayed
 - https://www.coderabbit.ai/blog/introducing-agentic-change-management - Series C: $143M at a $1.5B valuation, August 12, 2026, 2M weekly reviews, 17K customers, 150K OSS projects, Triage/Change Stack/Security launch
 - https://www.coderabbit.ai/blog/coderabbit-series-b-60-million-quality-gates-for-code-reviews - Series B: $60M led by Scale Venture Partners with NVentures, September 16, 2025, 2M repos, 13M PRs reviewed
 - https://www.coderabbit.ai/blog/coderabbit-announces-16m-series-a-funding-led-by-crv - Series A: $16M led by CRV, August 13, 2024
@@ -99,5 +101,7 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 - https://www.coderabbit.ai/blog/our-response-to-the-january-2025-kudelski-security-vulnerability-disclosure-action-and-continuous-improvement - the vendor's remediation timeline for the exploit
 - https://kudelskisecurity.com/research/how-we-exploited-coderabbit-from-a-simple-pr-to-rce-and-write-access-on-1m-repositories - the Kudelski Security writeup, August 19, 2025
 - https://pullflow.com/state-of-ai-code-review-2025 - the critical 40.3M-PR market-share analysis
-- https://hn.algolia.com/api/v1/items/44953032 - the exploit thread on Hacker News: 687 points, 227 comments, posted August 19, 2025
-- https://hn.algolia.com/api/v1/items/42451968 - the Greptile thread where its founder positions CodeRabbit as verbose but cheaper
+- https://hn.algolia.com/api/v1/items/44953032 - the exploit thread on Hacker News: 687 points, 227 comments, posted August 19, 2025, re-fetched 2026-10-24
+- https://hn.algolia.com/api/v1/items/42451968 - the Greptile thread where its founder positions CodeRabbit as verbose but cheaper, re-fetched 2026-10-24
+- https://www.coderabbit.ai/blog/coderabbit-spacex-super-intelligence-partner-network - the Grok Build Plugin Marketplace listing via the SpaceX Super Intelligence Partner Network, October 22, 2026, fetched 2026-10-24
+- https://www.coderabbit.ai/blog/coderabbit-independent-validation-cursor-origin - the Cursor Origin app-marketplace launch-partner post, October 21, 2026, fetched 2026-10-24

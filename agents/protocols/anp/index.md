@@ -1,7 +1,7 @@
 ---
 title: Agent Network Protocol (ANP)
 created: 2026-10-05
-updated: 2026-10-20
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, decentralized-identity, multi-agent]
 readability: 3
@@ -25,7 +25,7 @@ Working code exists around the spec: the `anp` implementation repository, an ope
 ## Status
 
 **Active but unanswered by the market.**
-The main repository (created 2024-10-23) shows 1,448 stars and 106 forks (as of 2026-10-13) with a push on 2026-10-15 as of 2026-10-17 (GitHub API), with the companion `anp` repo at 352 stars and the spec hub serving ANP 1.2 as of 2026-10-17.
+The main repository (created 2024-10-23) shows 1,448 stars and 106 forks (as of 2026-10-13) with a push on 2026-10-22 as of 2026-10-24 (GitHub API), with the companion `anp` repo at 352 stars and the spec hub serving ANP 1.2 as of 2026-10-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agent-network-protocol/AgentNetworkProtocol&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ My disagreeable claim: if autonomous agents on the open web ever emerge, ANP's D
 - 2026-10-05 - Created from the 2026-10-05 entrant scan (the decentralized agent-interop slot), with the thin adoption footprint recorded as the central caution.
 - 2026-10-07 - Added the agent-network-protocol/AgentNetworkProtocol star history chart to the Status section.
 - 2026-10-20 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec hub still serves ANP 1.2 as latest with 1.0 and 1.1 archived and the nine messaging profiles plus the meta-protocol and payment drafts unchanged, the repository and the companion org re-checked (pushed 2026-10-15, the `anp` implementation at 353 stars, `mcp2anp` dormant since 2026-01), and the footprint scan still finds the same three stories at 2, 1, and 1 points.
+- 2026-10-24 - Re-verification: the release train re-confirmed v1.2 as the latest spec release (2026-09-24) with the repository pushed 2026-10-22; the spec hub hung unreachable all run (a first since this note was created), so the version was confirmed from the release train and the hub needs watching at the next pass.
 
 ## See also
 

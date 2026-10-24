@@ -1,7 +1,7 @@
 ---
 title: Owain Lewis
 created: 2026-09-24
-updated: 2026-10-06
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, agentic-coding, software-factory, claude-code]
 readability: 3
@@ -23,10 +23,10 @@ Uploads run about weekly, and descriptions read like engineering writeups that s
 
 ## Status
 
-Active and steady at modest scale as of 2026-10-06.
-The channel was created 2014-07-20 and shows 19K subscribers; the latest upload is "I Built A Claude DevOps Agent To Run My Software Factory" (2026-10-05, about 5,200 views as of 2026-10-06), the 17th upload between 2026-05-15 and 2026-10-05, roughly one per week, reconfirmed against the RSS feed.
-The 2026-09-28 upload ("JEV Explained (Real Use Cases)") sat at 9,649 views as of 2026-10-06, and the 2026-09-21 upload ("Inside OpenAI's Agentic Software Factory") had 12,960 views and 180 ratings within three days.
-Reach concentrates in the factory videos: "I Built an Agentic Software Factory" (2026-07-25) is his biggest recent at 68,787 views, while most uploads land between 3,000 and 20,000.
+Active and steady at modest scale as of 2026-10-24.
+The channel was created 2014-07-20 and shows 19K subscribers; the latest upload is "My COMPLETE Workflow for Building Production AI Agents" (2026-10-12, about 20,700 views as of 2026-10-24), the 18th upload between 2026-05-15 and 2026-10-12, roughly one per week, reconfirmed against the RSS feed.
+The 2026-10-05 DevOps-agent upload reached 12,947 views and the 2026-09-28 "JEV Explained" sat at 10,555, while the 2026-09-21 "Inside OpenAI's Agentic Software Factory" climbed to 24,153 (all as of 2026-10-24).
+Reach concentrates in the factory videos: "I Built an Agentic Software Factory" (2026-07-25) is his biggest recent at 82,379 views, while most uploads land between 3,000 and 30,000.
 Trajectory is upward without a breakout, and his roughly 1.2K combined GitHub stars across the pinned repos carry more durable weight than the sub count suggests.
 
 ## Strengths
@@ -38,10 +38,21 @@ Trajectory is upward without a breakout, and his roughly 1.2K combined GitHub st
 
 ## Cautions
 
-- Every description funnels to his aiengineer.co email capture, pitched with "$1M+ in software deals" credits, so treat the free-skills funnel as the business model it is.
+- The funnel has graduated from email capture to paid membership: descriptions now point at his $67/month Skool community ("work with me"), the newest video carries a Google Cloud sponsorship, and the aiengineer.co email capture persists in older descriptions, so treat the free-skills funnel as the business model it is.
 - The scope is one-person consultancy scale: his factory runs his backlog, not a regulated enterprise codebase, so transplant the patterns rather than the numbers.
-- No critical community filter exists: Hacker News has zero threads on his channel content (searched 2026-09-24), so his techniques have not been stress-tested in public argument.
+- No critical community filter exists: Hacker News has zero threads on his channel content (searched again 2026-10-24), so his techniques have not been stress-tested in public argument.
 - View counts are modest, so the community surface for catching errors in his techniques is thin.
+
+## Pricing
+
+The videos are free to watch (as of 2026-10-24).
+The funnel around them is paid: his "AI Engineer" Skool community lists at $67/month (150 members as of 2026-10-24), the aiengineer.co starter resources remain a free email capture, and the newest video adds sponsor revenue (Google Cloud).
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-10-24 | AI Engineer Skool community | Baseline: videos free; community listed at $67/month with 150 members; free resources still behind the aiengineer.co email capture. | https://www.skool.com/aiengineer/about |
 
 ## Compared to
 
@@ -57,7 +68,7 @@ Not for someone who wants model-release news, enterprise-scale case studies, or 
 ## Top 5 recommended reading
 
 - [Agent Loops: Complete Guide (Claude Code + Codex)](https://www.youtube.com/watch?v=RVEaDvh6f5A) - The most complete single artifact of his method: manager and worker loops over GitHub issues, including the guardrails and evals most people skip.
-- [I Built an Agentic Software Factory with Codex and Claude Code](https://www.youtube.com/watch?v=AbpyqAfxZ8c) - His biggest recent video (68,787 views) and the clearest statement of the factory pattern, ticket to pull request with worktree isolation plus the limits he states himself.
+- [I Built an Agentic Software Factory with Codex and Claude Code](https://www.youtube.com/watch?v=AbpyqAfxZ8c) - His biggest recent video (82,379 views as of 2026-10-24) and the clearest statement of the factory pattern, ticket to pull request with worktree isolation plus the limits he states himself.
 - [Build Your Own Coding Agent Like Pi (With 1 Prompt)](https://www.youtube.com/watch?v=QER-0DaC-Gk) - Demystifies harness engineering by building a working coding agent in one Go file, then names what a minimal agent still lacks.
 - [I Built A Self-Improving AI Software Factory](https://www.youtube.com/watch?v=ZDOTYfJBuLw) - Shows the measurement layer (run data, evals, model comparison) that turns a factory from a demo into a system that improves.
 - [Claude Code's New Subagent Feature](https://www.youtube.com/watch?v=ZdXsRn9w0VE) - The nested-subagent video with the 30-level finding and the orchestrator, worker, sub-worker pattern he uses day to day.
@@ -68,6 +79,7 @@ Not for someone who wants model-release news, enterprise-scale case studies, or 
 - 2026-10-02 - Status recency refreshed: 16 uploads between May 15 and September 28, 2026, the latest "JEV Explained (Real Use Cases)" (2026-09-28).
 - 2026-10-05 - The RSS feed serves again after its 2026-10-04 outage and reconfirms no upload newer than "JEV Explained (Real Use Cases)" (2026-09-28); the reference line updated to match.
 - 2026-10-06 - New upload "I Built A Claude DevOps Agent To Run My Software Factory" (2026-10-05) became the latest, making 17 uploads between May 15 and October 5, 2026; Status and the reference line updated (feed fetched this run).
+- 2026-10-24 - New upload "My COMPLETE Workflow for Building Production AI Agents" (2026-10-12) became the latest, making 18 uploads between May 15 and October 12, 2026; the funnel shift to the $67/month Skool community and the first Google Cloud sponsorship recorded in Cautions, and the Pricing and Price history sections added (Skool page, feeds, and searches fetched this run).
 
 ## See also
 
@@ -79,9 +91,10 @@ Not for someone who wants model-release news, enterprise-scale case studies, or 
 ## References
 
 - https://www.youtube.com/@owainlewis - the channel: identity and 19K subscribers as of 2026-10-04
-- https://www.youtube.com/feeds/videos.xml?channel_id=UC08YjBHjjPFu8T1KbHGomnQ - the RSS feed that grounds cadence, titles, dates, view counts, and the 2014-07-20 channel creation through the 2026-10-05 upload (uploads-tab fetches still render as JavaScript shells)
+- https://www.youtube.com/feeds/videos.xml?channel_id=UC08YjBHjjPFu8T1KbHGomnQ - the RSS feed that grounds cadence, titles, dates, view counts, and the 2014-07-20 channel creation through the 2026-10-12 upload (uploads-tab fetches still render as JavaScript shells)
+- https://www.skool.com/aiengineer/about - the $67/month Skool community the newest descriptions funnel to: pricing, member count, and what the membership includes
 - https://github.com/owainlewis - the GitHub profile linking this channel, with bio, location, and pinned repo star counts
 - https://owainlewis.com - the personal site: positioning, newsletter, and community links
-- https://aiengineer.co/start - the free starter pack and email funnel behind every video description
+- https://aiengineer.co/start - the free starter pack and email funnel behind the older video descriptions, now sharing description space with the Skool community link
 - https://hn.algolia.com/api/v1/search?query=%22owain%20lewis%22&hitsPerPage=8 - zero Hacker News hits for the name, the missing critical coverage
 - https://hn.algolia.com/api/v1/search?query=owainlewis&hitsPerPage=5 - 82 hits with the oldest visible from 2014 to 2015 (Forth links, awesome lists, early startups), grounding his long engineering history and the absence of current channel discussion

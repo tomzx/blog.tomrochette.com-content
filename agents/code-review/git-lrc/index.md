@@ -1,7 +1,7 @@
 ---
 title: git-lrc
 created: 2026-10-10
-updated: 2026-10-18
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -24,7 +24,8 @@ It is a Go binary from Hexmos (the company behind the LiveReview platform), sour
 ## Status
 
 **Young, fast-moving, and adoption-evidenced mostly through its own surfaces.**
-The repo (HexmosTech/git-lrc) was created February 8, 2026 and shows 1,470 stars, 191 forks, and 53 releases (v0.6.15, October 5, 2026, is latest) as of 2026-10-11, pushed October 11.
+The repo (HexmosTech/git-lrc) was created February 8, 2026 and shows 1,470 stars and 191 forks as of 2026-10-11; it now carries 55 releases (v0.6.17, October 23, 2026, is latest) and was pushed to on October 23.
+Both October 23 releases were security-driven: v0.6.16 fixed a CSRF vulnerability in the local review server that let a malicious web page trigger state-changing review actions (skip, commit, vouch, abort, and handoff), and v0.6.17 moved the Go toolchain to 1.26.10 for GO-2026-6809, a standard-library crypto/x509 vulnerability surfaced by govulncheck.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HexmosTech/git-lrc&type=date&theme=dark&legend=top-left" />
@@ -47,6 +48,7 @@ The Show HN launch (June 16, 2026) drew 9 points and no surviving comment thread
 - The license is not open source: a modified Sustainable Use License forbids resale and commercial redistribution of modified versions, so "completely free" describes price, not freedom.
 - Quality evidence is vendor-supplied; no independent benchmark or third-party assessment of its finding quality exists as of 2026-10-18, and an October 2026 third-party eval could not test it at all because it sends the diff to a LiveReview server.
 - The Premium ladder is per reviewed LOC ($32 per 100k per month, doubling with each band), so heavy committers pay on a usage curve roborev, which bills your existing agent subscriptions instead, does not have.
+- The local half is attack surface too: the v0.6.16 CSRF fix (October 23, 2026) means that until then a malicious web page could drive the local review server's state-changing actions, so the browser-facing review UI needs the same threat model as any privileged local service.
 
 ## Pricing
 
@@ -76,6 +78,7 @@ My disagreeable take: recording review attestations in commit messages is the mo
 
 - 2026-10-10 - Created after the entrant scan resolved the HexmosTech/git-lrc candidate from the GitHub topic scan; six sources fetched this run, including the thin Show HN thread as the footprint signal.
 - 2026-10-18 - Rotation re-verification: every cited URL re-fetched live, prices and release state unchanged (v0.6.15 still latest); recorded the Issue Navigator and Summary Deck surfaces, the added Atlas Cloud and Anthropic-compatible BYOK connectors, and a third-party eval's failed local run that confirms the cloud-routed default.
+- 2026-10-24 - Volatile re-verification: recorded v0.6.16 (October 23), the CSRF fix for the local review server's state-changing actions, and v0.6.17 (October 23), the Go 1.26.10 toolchain bump for GO-2026-6809, with the release count at 55 and a new caution on the local server's attack surface; prices unchanged.
 
 ## See also
 
@@ -90,6 +93,7 @@ My disagreeable take: recording review attestations in commit messages is the mo
 - https://raw.githubusercontent.com/HexmosTech/git-lrc/HEAD/README.md - the commit-hook mechanism, agent mode, claude-lrc companion, BYOK connectors (now including Atlas Cloud and Anthropic-compatible endpoints), the Issue Navigator and Summary Deck surfaces, and the repository-rules surface, re-fetched 2026-10-18
 - https://hexmos.com/livereview/git-lrc/pricing/ - the LOC pricing bands and tier contents, fetched 2026-10-11, re-fetched unchanged 2026-10-18
 - https://hexmos.com/livereview/git-lrc/ - the product page: install flow, the vouch-skip table, and the LiveReview platform relationship, fetched 2026-10-10, re-fetched 2026-10-18
-- https://api.github.com/repos/HexmosTech/git-lrc/releases - 53 releases, v0.6.15 (2026-10-05) latest (GitHub API, as of 2026-10-11, re-fetched 2026-10-18, unchanged)
+- https://api.github.com/repos/HexmosTech/git-lrc/releases - 55 releases, v0.6.16 (CSRF fix) and v0.6.17 (Go toolchain bump) published October 23, 2026 (GitHub API, fetched 2026-10-24; 53 releases with v0.6.15 latest as of 2026-10-11, re-fetched 2026-10-18, unchanged then)
+- https://api.github.com/repos/HexmosTech/git-lrc - repo: pushed 2026-10-23 (re-queried 2026-10-24; 1,470 stars and 191 forks as of 2026-10-11)
 - https://hn.algolia.com/api/v1/items/48555511 - the Show HN launch, 9 points, June 16, 2026, the thin-footprint signal
 - https://raw.githubusercontent.com/zhuyansen/agent-skills-hub/main/ops/review-runs/RESULTS.md - the independent end-to-end eval that could not run git-lrc locally because it sends the diff to a LiveReview server, fetched 2026-10-18

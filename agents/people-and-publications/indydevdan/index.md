@@ -1,7 +1,7 @@
 ---
 title: IndyDevDan
 created: 2026-09-24
-updated: 2026-10-06
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, agentic-engineering, claude-code, harness-engineering]
 readability: 3
@@ -19,13 +19,13 @@ IndyDevDan (Dan, GitHub disler) runs the YouTube channel that named and normaliz
 A YouTube channel (150K subscribers as of 2026-10-04, created 2020-12-23) run by Dan, a 15+ year engineer whose GitHub bio reads "Betting the next 10 years of my career on AGENTIC software."
 Videos fall into three lanes: concept frameworks (the core four of context, model, prompt, and tools, the operating-level model, software factories, agent swarms, model fusion), release-adjacent builds (fixing Opus 5's verbosity with system prompts, benchmark re-rankings), and devlogs that ship a real repo such as a self-compacting Pi agent.
 Every video pairs with open source under github.com/disler, including claude-code-hooks-mastery (3.9K stars), pi-vs-claude-code (1.7K stars), and super-simple-software-factory (887 stars).
-The commercial engine is agenticengineer.com, which sells Principled AI Coding (phase 1) and Tactical Agentic Coding (phase 2).
+The commercial engine is agenticengineer.com, which sells Principled AI Coding (phase 1) and Tactical Agentic Coding (phase 2), with a phase 3 ("Agentic Engineering", pitched as living software) in early sign-up.
 
 ## Status
 
-Active and metronomic as of 2026-10-06.
-Uploads run weekly, every Monday at 13:00 UTC, with 17 consecutive Mondays from 2026-06-15 to 2026-10-05 verified via the channel's RSS feed, the latest being "OpenRouter State Of Models: Jev, Open-Weights, and Tokenomic" (2026-10-05).
-Recent videos land between 21,000 and 147,000 views, with "10 Levels of Jev" at 147,248 and the newest OpenRouter video at 21,078 within a day (both as of 2026-10-06).
+Active and metronomic as of 2026-10-24.
+Uploads run weekly, every Monday at 13:00 UTC, with 19 consecutive Mondays from 2026-06-15 to 2026-10-19 verified via the channel's RSS feed, the latest being "My Jev Pi Durable Agent CURATES News: HYPE, FACT, or SIGNAL" (2026-10-19), a devlog building a cron-driven news-curation agent on the new Pi Durable harness after "Pi Durable PROACTIVE Agents" (2026-10-12).
+Recent videos land between about 20,000 and 200,000 views, with "10 Levels of Jev" at 202,210 and the newest news-agent video at 47,295 within five days (both as of 2026-10-24).
 Hacker News mentions him in six comment threads between 2025-04 and 2026-09, the only channel of this batch with third-party discussion at all.
 
 ## Strengths
@@ -41,6 +41,18 @@ Hacker News mentions him in six comment threads between 2025-04 and 2026-09, the
 - Every video funnels to Tactical Agentic Coding, so treat the free content as the course syllabus in reverse: concepts resolve to the paid product.
 - Maximalist claims ("There is no wall, there are no limits") are branding, and the swarm and factory videos demo on toy codebases at his own scale.
 - The hype cadence means his "this changes everything" of three months ago is often quietly superseded, so watch the repos for what he actually keeps using.
+
+## Pricing
+
+The videos are free; the courses are the product, sold one-time with lifetime access (prices as of 2026-10-24).
+Principled AI Coding (phase 1) lists at $299 individual, and Tactical Agentic Coding (phase 2) at $599 individual, each with team volume discounts from 5 seats and a refund window that closes at lesson four; TAC's upgradable Agentic Horizon extension is non-refundable.
+Phase 3 is unpriced pre-launch with an early-bird discount promised to registrants, and both courses tell buyers to expect $50 to $500 of their own API spend on top.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-10-24 | Principled AI Coding, Tactical Agentic Coding | Baseline: phase 1 at $299 and phase 2 at $599 individual, one-time with lifetime access; phase 3 in unpriced early sign-up. | https://agenticengineer.com/principled-ai-coding, https://agenticengineer.com/tactical-agentic-coding |
 
 ## Compared to
 
@@ -67,6 +79,7 @@ Not for someone allergic to hype framing, or who wants vendor-neutral depth with
 - 2026-09-30 - Weekly streak extended to 16 consecutive Mondays (2026-06-15 to 2026-09-28), latest upload "10 Levels of Jev For Agentic Engineers".
 - 2026-10-05 - The RSS feed serves again after its brief 2026-10-04 outage and reconfirms nothing newer than the 2026-09-28 video; "10 Levels of Jev" passed "FORGET Loop Engineering" as the most-watched recent video (133,189 views as of 2026-10-05).
 - 2026-10-06 - The weekly Monday streak extended to 17 (2026-06-15 to 2026-10-05) with the new upload "OpenRouter State Of Models: Jev, Open-Weights, and Tokenomic" (2026-10-05); Status and the RSS reference line updated (feed fetched this run).
+- 2026-10-24 - The Monday streak extended to 19 (through the 2026-10-19 upload "My Jev Pi Durable Agent CURATES News"), the Pi Durable build videos noted in Status, and the Pricing and Price history sections added from the course pages (all fetched this run).
 
 ## See also
 
@@ -79,7 +92,9 @@ Not for someone allergic to hype framing, or who wants vendor-neutral depth with
 ## References
 
 - https://www.youtube.com/@indydevdan - the channel: identity and 150K subscribers as of 2026-10-04
-- https://www.youtube.com/feeds/videos.xml?channel_id=UC_x36zCEGilGpB1m-V4gmjg - the RSS feed that grounds the weekly Monday cadence, titles, dates, and view counts through the 2026-10-05 upload
-- https://agenticengineer.com/ - the course site: both paid phases, the founder letter's rhetoric, and the blog
+- https://www.youtube.com/feeds/videos.xml?channel_id=UC_x36zCEGilGpB1m-V4gmjg - the RSS feed that grounds the weekly Monday cadence, titles, dates, and view counts through the 2026-10-19 upload
+- https://agenticengineer.com/ - the course site: both paid phases, phase 3 in early sign-up, the founder letter's rhetoric, and the blog
+- https://agenticengineer.com/principled-ai-coding - the phase 1 course page: $299 individual pricing, lesson structure, and refund policy
+- https://agenticengineer.com/tactical-agentic-coding - the phase 2 course page: $599 individual pricing, Agentic Horizon upgrade, team discounts, and the expected $50 to $500 API spend
 - https://github.com/disler - the GitHub profile confirming the IndyDevDan identity, follower count, and repo star counts
 - https://hn.algolia.com/api/v1/search?query=indydevdan&hitsPerPage=8 - the Hacker News record: the sensationalism critique, the command attribution, and the prompting-series recommendation

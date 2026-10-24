@@ -13,7 +13,7 @@ The open standards that let agents, editors, tools, and frontends interoperate, 
 - [A2A](a2a/index.md) - Google's open protocol for independent agents to interoperate, now under the Linux Foundation.
 - [A2UI](a2ui/index.md) - Google's declarative generative-UI format that agents speak so clients render native interfaces from trusted component catalogs, v0.9.1 in production with v1.0 a release candidate.
 - [ACP](acp/index.md) - Zed's protocol standardizing how editors talk to coding agents.
-- [AG-UI](ag-ui/index.md) - CopilotKit's agent-to-frontend event protocol, 1.0 since September 2026 with about 15.9 million monthly npm downloads, the rendering half of the protocol stack.
+- [AG-UI](ag-ui/index.md) - CopilotKit's agent-to-frontend event protocol, 1.0 since September 2026 with about 15.1 million monthly npm downloads, the rendering half of the protocol stack.
 - [Agent Host Protocol](agent-host-protocol/index.md) - Microsoft's sessions-server spec with six-language SDKs, VS Code rebuilding its agent infrastructure on it, spec at v1.0.0 since 2026-10-02.
 - [Agent Protocol (LangChain)](langchain-agent-protocol/index.md) - LangChain's MIT-licensed REST/OpenAPI serving spec for running agents in production (agents, threads, runs), which LangGraph Platform implements as a commercial superset.
 - [AGENTS.md](agents-md/index.md) - the open convention for repo-level agent instruction files.

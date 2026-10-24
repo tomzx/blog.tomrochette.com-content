@@ -1,7 +1,7 @@
 ---
 title: Armin Ronacher
 created: 2026-09-24
-updated: 2026-10-07
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, skepticism, llm-tooling]
 readability: 3
@@ -23,7 +23,8 @@ He also ships agent tooling himself, including the agent-stuff repository of com
 ## Status
 
 Active and near the peak of his relevance.
-As of 2026-10-07 the homepage lists twelve essays between 4 July and 6 October 2026, led by "What is Codemode" (6 October), his explainer of the codemode extension layer behind pi 1.0's MCP support (sandboxed JavaScript in the harness that composes tool calls, exposes image-generation and classifier APIs, and mediates MCP servers), and including "Deser: Rethinking Rust Serialization" (29 September), "Astra for Coding: Why Are We Doing This Again?" (7 September), "The Tower Keeps Rising" on vibecoding and team coordination (13 July), and "Better Models: Worse Tools" on Claude tool-call regressions (4 July).
+As of 2026-10-24 the homepage still lists "What is Codemode" (6 October) as his newest essay, twelve essays between 4 July and 6 October 2026, his explainer of the codemode extension layer behind pi 1.0's MCP support (sandboxed JavaScript in the harness that composes tool calls, exposes image-generation and classifier APIs, and mediates MCP servers), with "Deser: Rethinking Rust Serialization" (29 September), "Astra for Coding: Why Are We Doing This Again?" (7 September), "The Tower Keeps Rising" on vibecoding and team coordination (13 July), and "Better Models: Worse Tools" on Claude tool-call regressions (4 July) behind it.
+His company shipped Pi 1.0 plus the experimental Pi Durable package on 2026-10-01, the durable harness for long-running agents that his own and Dan's recent build videos center on, so his essays and his company's releases keep moving together.
 He runs Earendil after a decade building Sentry, and is based in Vienna.
 The essays reliably reach the Hacker News front page: "996" drew 1,058 points, "Some things just take time" 853, "Before GitHub" 680, and "The Tower Keeps Rising" 558 points with 269 comments, while the Astra essay reached 456 points and 342 comments (all as of 2026-09-24).
 
@@ -39,6 +40,12 @@ The essays reliably reach the Hacker News front page: "996" drew 1,058 points, "
 - Cadence is essay-scale, not feed-scale; he will not tell you what shipped this week.
 - The flagship negative results come from single weekend experiments he designed himself, and he says so, but they get quoted as if they were benchmarks.
 - He is a vendor: Earendil makes Pi, so his harness comparisons carry an employer's stake even when the criticism of other vendors is sharp.
+
+## Pricing
+
+Free.
+His essays, talks, and open-source work are all public and free, with no newsletter paywall.
+Pi itself is open source at its 1.0 core, with Earendil's commercial plans still ahead of the experimental Pi Durable package.
 
 ## Compared to
 
@@ -65,6 +72,7 @@ Not for daily tool churn, model news, or anyone who wants enthusiasm without inv
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-09-30 - Newest-post check refreshed: the homepage now leads with "Deser: Rethinking Rust Serialization" (2026-09-29), bringing the July-to-September essay count to eleven.
 - 2026-10-07 - Newest-post check refreshed: "What is Codemode" (2026-10-06), his explainer of pi 1.0's MCP-via-codemode layer, makes twelve essays between July 4 and October 6, 2026; added to References (URL fetched this run).
+- 2026-10-24 - Added Pi 1.0 and the experimental Pi Durable package (2026-10-01) to Status with its announcement as a Reference, and the Pricing section (his output is free).
 
 ## See also
 
@@ -82,6 +90,7 @@ Not for daily tool churn, model news, or anyone who wants enthusiasm without inv
 - https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/ - the tool-call regression analysis and the Claude-Code-trained-prior hypothesis
 - https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/ - the vibecoding and shared-language essay
 - https://lucumr.pocoo.org/2026/10/6/codemode/ - the 2026-10-06 codemode explainer: sandboxed harness-side JavaScript, the brain-versus-hands split, and what MCP through codemode still gets wrong
+- https://earendil.com/posts/pi-durable/ - the Pi 1.0 and Pi Durable announcement (2026-10-01) from his own company, grounding the Status line on what Earendil shipped
 - https://github.com/mitsuhiko - profile: 26.2k followers, pinned Flask and Pi repositories, agent-stuff, Earendil affiliation
 - https://hn.algolia.com/api/v1/search?query=lucumr&tags=story&hitsPerPage=10 - the Hacker News record of his essays and their point counts
 - https://hn.algolia.com/api/v1/items/49654229 - the Astra essay's 456-point, 342-comment discussion thread

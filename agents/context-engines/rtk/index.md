@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-10-22
+updated: 2026-10-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 83,540 stars as of 2026-10-18, 5,360 forks and 1,592 open issues and pull requests combined as of 2026-10-22, created 2026-01-22, pushed 2026-10-21.
+Young and hot: 83,540 stars as of 2026-10-18, 5,359 forks and 1,604 open issues and pull requests combined as of 2026-10-24, created 2026-01-22, pushed 2026-10-23.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Young and hot: 83,540 stars as of 2026-10-18, 5,360 forks and 1,592 open issues 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&legend=top-left" />
 </picture>
 
-v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02; v0.52.0 went stable on 2026-10-13 and **v1.0.0 shipped the same day**, with v1.0.1 on 2026-10-14 and a dev-1.0.2 candidate train already running (rc.552 by 2026-10-18), so the project is no longer pre-1.0.
+v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02; v0.52.0 went stable on 2026-10-13 and **v1.0.0 shipped the same day**, with v1.0.1 on 2026-10-14 and a dev-1.1.0 candidate train already running (rc.573 by 2026-10-23), so the project is no longer pre-1.0.
 The site claims 18,000+ developers, a marketing figure, and the Show HN thread shows users posting their own measured savings.
 
 ## Strengths
@@ -80,6 +80,7 @@ Not for sessions driven by built-in Read/Grep tools, or anyone whose agents cann
 - 2026-10-07 - Added the rtk-ai/rtk star history chart to the Status section.
 - 2026-10-12 - Recorded the 0.51.1 candidate train concluding at rc.523 and the 0.52.0 train starting (rc.525), and refreshed the volatile numbers (83,002 stars, 1,500 open issues and PRs, pushed 2026-10-12); stable remains v0.51.0.
 - 2026-10-16 - Recorded the 1.0 line: v0.52.0 stable on 2026-10-13, v1.0.0 the same day, v1.0.1 on 2026-10-14, and a dev-1.0.2 train at rc.549, retiring the pre-1.0 framing; volatile numbers refreshed (83,540 stars, 5,305 forks, 1,528 open issues and PRs, pushed 2026-10-15).
+- 2026-10-24 - Full rotation re-verification: every cited URL re-fetched (README and its crates.io collision warning, the savings methodology, the release page, the marketing and Pro sites, and the HN thread all fetched 200 with their claims unchanged); stable remains v1.0.1 with a dev-1.1.0 candidate train at rc.573, and the volatile numbers refreshed (5,359 forks, 1,604 open issues and PRs, pushed 2026-10-23).
 
 ## See also
 
