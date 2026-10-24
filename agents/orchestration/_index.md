@@ -53,6 +53,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Helmor](helmor/index.md) - the Apache-2.0 local-first desktop workbench running agents across worktrees through review, test, merge, and one-click PR.
 - [herdr](herdr/index.md) - the Apache-2.0 Rust terminal-multiplexer daemon that owns coding agents' terminals, restores layouts and conversations across restarts for 18 CLIs, and lets agents prompt each other over a CLI and socket API, 44.1k stars, YC F26 with a $6M seed.
 - [Hive](hive/index.md) - Aden's Apache-2.0 Python colony runtime where a Queen agent spawns worker clones of itself around a shared ledger, built for business-process automation, 11.1k stars whose train returned with the v1.0.0 stable major in October.
+- [Ivy Tendril](ivy-tendril/index.md) - Ivy Interactive's source-available desktop software factory planning, drafting in parallel worktrees, and reviewing any CLI agent's work into pull requests, mid-rewrite in a TypeScript-and-Rust successor, 203 stars as of 2026-10-24.
 - [Jean](jean/index.md) - the Coolify team's Apache-2.0 Tauri dev environment giving every task its own worktree across nine coding CLIs, with local and jean-server projects in one sidebar and a token-authenticated web UI.
 - [JetBrains Air](jetbrains-air/index.md) - the standalone agentic environment running Codex, Claude Agent, Gemini CLI, and Junie in parallel, isolated per task and bundled with the AI subscription.
 - [Lanes](lanes/index.md) - the macOS board workspace running parallel PTY agent sessions on worktrees, with a self-hostable MCP access layer.
@@ -65,6 +66,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [oh-my-codex](oh-my-codex/index.md) - the MIT workflow layer for OpenAI Codex CLI adding skills, hooks, HUD, memory, and worktree team execution.
 - [Omnara](omnara/index.md) - the YC S25 Apache-2.0 Go control plane where agents are YAML and supervision happens from dashboard, phone, CLI, API, or Slack.
 - [Open Swarm](open-swarm/index.md) - the former AGPL-3.0 local mission-control canvas, pivoted in October 2026 to a proprietary Open Swarm Inc. consumer assistant with the repo left as a signed-builds shell, kept as the category's second pivot record.
+- [OpenHarness](openharness/index.md) - the free MIT native command center from hardware vendor Autonomous, running fourteen existing coding CLIs in tmux panes and worktrees across end-to-end-encrypted linked machines, with phone, web, and desk-device clients.
 - [OpenRig](openrig/index.md) - the Apache-2.0 local control plane turning Claude Code, Codex, and Pi sessions into a YAML-defined, snapshot-restorable team.
 - [Orca](orca/index.md) - the MIT agent development environment running 27+ coding agents in worktrees across desktop, mobile, and remote.
 - [Orkas](orkas/index.md) - the MIT local-first commander-and-specialist desktop whose nine specialists ship installed, driving five coding CLIs as local sessions with reflection-based self-evolution and a credits-priced managed-models tier still in sandbox checkout.
@@ -78,6 +80,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Sim](sim/index.md) - the Apache-2.0 YC X25 visual agent-workflow builder positioned to inherit Flowise's stranded users.
 - [Squad](squad/index.md) - Brady Gaster's MIT CLI that runs a persistent, human-led agent team as versioned repo files inside GitHub Copilot CLI.
 - [Superset](superset/index.md) - the YC-backed, source-available agentic IDE running parallel CLI agents in worktrees on your own subscriptions.
+- [Swarm Orchestrator](swarm-orchestrator/index.md) - the solo-maintained ISC CLI coding agent whose claims resolve to signed, offline-verifiable evidence bundles, with parallel workers on per-task worktrees behind a merge queue.
 - [Symphony](symphony/index.md) - OpenAI's Apache-2.0 spec-first scheduler turning tracker issues into isolated autonomous implementation runs, 27.6k stars on a preview whose train stopped in mid-September.
 - [T3 Code](t3code/index.md) - Ping.gg's MIT control surface driving Claude Code, Codex, Cursor, Grok Build, OpenCode, and Antigravity from native iOS, Android, web, and Electron clients on the subscriptions you already pay, 27.7k stars in eight months.
 - [The Perfect Orchestrator](the-perfect-orchestrator/index.md) - the MIT bash and tmux harness where one lead Claude Code session adversarially verifies N worker sessions.
@@ -165,3 +168,6 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-10-21 - Added YYLO.
 - 2026-10-23 - Added ClawTeam.
 - 2026-10-23 - Added Parallel Code.
+- 2026-10-24 - Added OpenHarness.
+- 2026-10-24 - Added Swarm Orchestrator.
+- 2026-10-24 - Added Ivy Tendril.
