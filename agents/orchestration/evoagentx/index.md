@@ -23,7 +23,7 @@ MIT per the LICENSE file (GitHub's license detection reports NOASSERTION), by Yi
 
 ## Status
 
-Active but quiet: 3,370 stars and 315 forks as of 2026-10-10 on a repository created 2025-04-15, with no push since 2026-08-27, while the community talk series kept running through June 2026.
+Active but quiet: 3,370 stars and 315 forks as of 2026-10-10 on a repository created 2025-04-15, with the release train stopped at v0.1.4 (2026-06-28) and the default branch silent from 2026-08-27 until a three-commit maintenance return on 2026-10-22 (pytest fixes and new evolution examples), while the community talk series kept running through June 2026 (GitHub API, as of 2026-10-23).
 The framework paper (arXiv 2507.03616, July 2025, revised September) and the team's self-evolving-agents survey (arXiv 2508.07407, August 2025) are the grounding publications.
 
 <picture>

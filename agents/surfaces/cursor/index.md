@@ -1,7 +1,7 @@
 ---
 title: Cursor
 created: 2026-08-23
-updated: 2026-10-13
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, surfaces, ai-editors, anysphere]
 readability: 3
@@ -26,7 +26,7 @@ OpenAI notified Anysphere on August 28, 2026 that it is winding down Cursor's di
 SpaceX completed the acquisition on August 14, 2026, closing a process that started with the SpaceXAI training partnership announced in April 2026, and the June 2026 announcement thread carried a $60 billion price.
 The vendor-announced 2026 record includes a Gartner Magic Quadrant Leader placement (May) and an agent-security certification (August).
 On August 31, 2026 the OpenAI split went public: OpenAI cited terms-of-service confidence after the acquisition, Cursor's CEO put OpenAI models at about 5% of user traffic, and Anthropic publicly committed to keep serving Claude models in Cursor.
-As of 2026-10-13 the November 12, 2026 shutoff stands unrevised: OpenAI's own announcement still frames the date as proposed and no later reporting moves it, and the models docs still list the OpenAI models without a removal notice, GPT-5.6 Sol even carrying promotional pricing through November 21, 2026 (re-verified 2026-10-13).
+As of 2026-10-23 the November 12, 2026 shutoff stands unrevised: OpenAI's announcement still frames the date as proposed and no later reporting moves it, and the models docs still list the OpenAI models without a removal notice, GPT-5.6 Sol even carrying promotional pricing through November 21, 2026 (re-verified 2026-10-23).
 By 2026-10-13 the consumer plans had been restructured into X's subscription ladder (Plus, Premium, Super, Ultra), with Cursor subscriptions sold only through X Subscription Corp, the deepest merge yet of the editor into the acquirer's stack.
 
 ## Strengths
@@ -80,6 +80,7 @@ Not for anyone who needs an open, auditable toolchain or a predictable bill.
 - 2026-10-05 - Corrected the Teams pricing (Premium is $120/user/mo with 5x Standard limits, not $40) per the models-and-pricing docs, added the India-only Start plan (₹649/mo), and recorded AGENTS.md support alongside Cursor's own rules; the November 12 OpenAI shutoff stands unrevised.
 - 2026-10-10 - Re-verified the plan prices unchanged and the November 12, 2026 OpenAI shutoff unrevised (the models-and-pricing docs still list the OpenAI models without a removal notice).
 - 2026-10-13 - Recorded the pricing page's restructure into the X-fused ladder (Free, Plus $8 Grok-only, Premium $30, Super $100, Ultra $200, Teams from $30/user) with the shared weekly usage pool and X Subscription Corp as the sole seller, the docs marking the $20/$60/$200 request-based ladder and the $40/$120 Teams prices as legacy, and the new $0.25/M Cursor Token Rate on Teams and Enterprise third-party usage (Price history row); the November 12 OpenAI shutoff stands unrevised with the OpenAI models still listed.
+- 2026-10-23 - Rotation re-verification, all cited URLs re-fetched live: the X-fused ladder, the legacy ladder marking, the AGENTS.md rules docs, both HN threads, and the November 12 shutoff unrevised all stand, GPT-5.6 Sol still carrying promotional pricing through November 21; replaced the devops.com reference, now bot-blocked, with CNBC's wind-down report.
 
 ## See also
 
@@ -94,7 +95,7 @@ Not for anyone who needs an open, auditable toolchain or a predictable bill.
 - https://cursor.com/docs/models-and-pricing - the legacy plan ladder (Pro $20, Pro+ $60, Ultra $200, Start ₹649, Teams Standard $40 and Premium $120), the per-model rate card, and the Cursor Token Rate, with the OpenAI models still listed without a removal notice as of 2026-10-13
 - https://cursor.com/docs/rules - the rules system and AGENTS.md support in project root and subdirectories, as of 2026-10-05
 - https://cursor.com/blog/joining-spacex - the August 14, 2026 acquisition completion post
-- https://devops.com/openai-cuts-off-cursors-model-access-after-spacex-acquisition/ - the OpenAI wind-down, the November 12, 2026 shutoff, and the 5% traffic claim, September 2026
+- https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html - the OpenAI wind-down: the proposed November 12, 2026 shutoff, the terms-of-service rationale, Truell's 5 percent traffic statement, and the $60 billion completion, re-fetched 2026-10-23 (replaces the devops.com writeup, which now sits behind a bot-blocking challenge)
 - https://cursor.com/docs - product surfaces and configuration
 - https://news.ycombinator.com/item?id=48553224 - the June 2026 acquisition announcement thread
 - https://news.ycombinator.com/item?id=43683012 - the April 2025 support-hallucination incident thread

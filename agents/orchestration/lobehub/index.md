@@ -24,7 +24,7 @@ The vendor is LobeHub LLC, which grew the product from the LobeChat project crea
 
 ## Status
 
-Active and shipping fast: the repo shows 83,237 stars, about 16k forks, and a push on 2026-10-15 (GitHub API, as of 2026-10-15).
+Active and shipping fast: the repo shows 83,237 stars, about 16k forks, and a push on 2026-10-23 (GitHub API, as of 2026-10-23).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&theme=dark&legend=top-left" />

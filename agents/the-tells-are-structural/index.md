@@ -1,7 +1,7 @@
 ---
 title: "The Tells Are Structural"
 created: 2026-09-02
-updated: 2026-10-21
+updated: 2026-10-23
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, ai, llm, writing, evaluation]
 readability: 3
@@ -13,7 +13,7 @@ I generate drafts with LLMs every day, and so does almost every engineer I know.
 Somewhere along the way a reader can tell, and the text starts getting discounted before its content gets read.
 **The popular fixes are word swaps, and word swaps fail because the tell is not the words, it is the structure.**
 A 2026 study put numbers on this, and the numbers should change how you edit anything AI-assisted that other engineers will read.
-Every source below was fetched and re-verified on 2026-10-13.
+Every source below was fetched and re-verified on 2026-10-21.
 
 ## The humanizer trap
 
@@ -80,6 +80,7 @@ If you review other people's writing, read structure rather than vocabulary; a d
 - 2026-10-11 - Refreshed the sepia star count (3,086 exact, still about 3,100) and re-verified every cited source.
 - 2026-10-13 - Refreshed the sepia star count to about 3,200 (3,155 exact) and re-verified every cited source.
 - 2026-10-21 - Added the slop-grader fold: the September 2026 npm CLI whose default no-ai-slop ruleset grades mostly structural tells line by line for cents, with its unmeasured small-model judge and empty community footprint named as the caution, plus the matching See also and References entries; every cited source re-fetched 200.
+- 2026-10-23 - Moved the intro's as-of clause to 2026-10-21, the re-verification date the 2026-10-21 Changes bullet records, which the clause had left at 2026-10-13.
 
 ## See also
 

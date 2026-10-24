@@ -30,6 +30,7 @@ The editors and IDEs where agents meet your code, from AI-native platforms and a
 - [Visual Studio 2026](visual-studio-2026/index.md) - Microsoft's Windows IDE gone AI-native, Copilot agent mode with MCP, cloud agents, and a BYOK preview, Community free to $250/month Enterprise.
 - [Void](void/index.md) - the Apache-2.0 open-source Cursor alternative, demand proven, repository now archived with the last release in April 2025.
 - [VS Code + Copilot](vscode-copilot/index.md) - the neutral default, hosting Copilot, Claude Code, and Codex as swappable harnesses.
+- [Waku](waku/index.md) - the GPL-3.0 Rust-and-GPUI native desktop app driving nine agent CLIs from one local, keyboard-first timeline, no account or telemetry.
 - [Whiteboard](whiteboard/index.md) - the MIT desktop canvas where coding agents draw their work as diagrams, traces, and diffs for humans to review, YC W26, local-first beta with experimental SSH remote hosts.
 - [Windsurf](windsurf/index.md) - the agentic IDE rescued by Cognition in 2025, fully absorbed into Devin Desktop, down to a redirect and Devin-hosted docs.
 - [Zed](zed/index.md) - the Rust performance editor where AI is optional and BYOK is unlimited.
@@ -61,3 +62,4 @@ Its members are compared on shared rows in the [Surface Feature Matrix](surface-
 - 2026-10-11 - Added Nimbalyst.
 - 2026-10-11 - Added CodeNomad.
 - 2026-10-11 - Added px0.
+- 2026-10-23 - Added Waku.

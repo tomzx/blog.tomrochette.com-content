@@ -31,6 +31,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Buzz](buzz/index.md) - Block's Apache-2.0 Nostr-relay team communication platform where humans and agents are first-class equals, carrying search, workflows, and git hosting on one signed event log.
 - [CAMEL](camel/index.md) - the Apache-2.0 Python framework behind the 2023 role-playing paper, a research community hunting what it calls the scaling law of agents.
 - [Claude Squad](claude-squad/index.md) - free AGPL terminal app running multiple coding agents in tmux, each in its own worktree.
+- [ClawTeam](clawteam/index.md) - HKUDS's MIT Python swarm CLI where a leader agent spawns worktree-and-tmux workers that coordinate through CLI mailboxes, 5.5k stars and silent since May 2026.
 - [cmux](cmux/index.md) - Manaflow's libghostty macOS terminal for parallel agents, notification rings free, cloud execution paid (Pro $50, Max $200 monthly).
 - [Conductor](conductor/index.md) - the macOS app for parallel Claude Code, Codex, Cursor, and OpenCode sessions with diff review and PR flow.
 - [CrewAI](crewai/index.md) - the MIT Python role-and-crew framework, 59.7k stars, now funded by an $18M enterprise platform.
@@ -67,6 +68,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [OpenRig](openrig/index.md) - the Apache-2.0 local control plane turning Claude Code, Codex, and Pi sessions into a YAML-defined, snapshot-restorable team.
 - [Orca](orca/index.md) - the MIT agent development environment running 27+ coding agents in worktrees across desktop, mobile, and remote.
 - [Orkas](orkas/index.md) - the MIT local-first commander-and-specialist desktop whose nine specialists ship installed, driving five coding CLIs as local sessions with reflection-based self-evolution and a credits-priced managed-models tier still in sandbox checkout.
+- [Parallel Code](parallel-code/index.md) - Johannes Millan's MIT Electron desktop racing coding agents head-to-head in per-task git worktrees, with change tours, task briefs, and phone monitoring.
 - [Paseo](paseo/index.md) - the open-source daemon driving coding agents from desktop, web, and native mobile apps, self-hosted and solo-maintained.
 - [PraisonAI](praisonai/index.md) - the MIT Python low-code framework assembling self-reflecting multi-agent workforces with a dashboard, MCP support, and Docker isolation.
 - [Raven](raven/index.md) - the Apache-2.0 DAG-planning host agent over its own Research, Code, Design, and Oncall agents plus Claude Code and Codex, with trajectory replay and an AI-comments launch caution.
@@ -161,3 +163,5 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-10-21 - Added Frink.
 - 2026-10-21 - Added gwq.
 - 2026-10-21 - Added YYLO.
+- 2026-10-23 - Added ClawTeam.
+- 2026-10-23 - Added Parallel Code.

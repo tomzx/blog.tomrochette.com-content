@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-10-22
+updated: 2026-10-24
 status: finished
 tags: [agents]
 readability: 0
@@ -60,6 +60,8 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-23 | session-analytics | ax's session-graph core makes it session-analytics despite the repository's observability-plus-memory self-description | the memory half is session-derived introspection (retro loop, AGENTS.md fixes, skill triage), not a cross-project memory layer
 - 2026-10-23 | spec-driven-development | a renamed-and-rebranded candidate re-resolves on current evidence; the old rejection carries by mechanism, not by name | BusinessLens rejected below the bar 2026-10-13, admitted as pdd-kit on the rebrand, the shipped site, and continued daily development
 - 2026-10-23 | task-management | ccpm admitted as the category's forge-native kind | coordinator handoff resolved; MIT skill running PRDs onto GitHub Issues with worktree parallelism, 8,414 stars, a 175-point Show HN thread, and independent critical coverage clear the citation bar
+- 2026-10-23 | trackers-and-leaderboards | the category keeps no dedicated awesome-list source; the broad sources suffice | the two candidates found 2026-10-23 fail the bar, BenchGecko/awesome-llm-benchmarks stale since creation 2026-03-27, leoncuhk/awesome-llm-bench a daily mirror of member BenchLM
+- 2026-10-23 | cross-category | the andyrewlee 2026-10-22 additions resolve on standing families | Delegatus on the thin-record tail, deepseek-harness-action as wrapper tooling on an unprofiled subject, Harness by Autonomous routed to orchestration on the standalone-ADE precedent (admission resolved by the next run)
 
 ## Standing family rejections
 
@@ -92,6 +94,7 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-21 | skills | Orkas-VideoStudio stays out beside its held Orkas desktop sibling | the vendor-sibling fold and the standing pack exclusion both apply to the extracted video-agent toolkit; resolved at coordinator level from the assistant-runtimes worker's routing
 - 2026-10-21 | orchestration | worktree-manager CLIs slot in orchestration beside Worktrunk, not surfaces or sandboxing | gwq admitted on the terminal-family precedent (worktrees are not isolation boundaries), closing the software-factory and scanner routing flags
 - 2026-10-21 | sandboxing | a repository rename resolves against the prior name's history only when that name was itself a resolved candidate; a prose mention is not a resolution | the loom-to-Overalls handoff: loom was only a mention in the geoffrey-huntley note, so overalls was judged fresh and admitted (1,557 stars, Firecracker microVM platform, research preview 2026-11-03)
+- 2026-10-23 | cross-category | Mods-section additions in the claude-code list resolve as single-mod kinds under the skills exclusion | review-inbox (2 stars) the first confirmed instance, Molecular Animation (2 stars) out of scope on top of it
 
 ## Owner questions governing scope
 

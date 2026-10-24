@@ -24,7 +24,7 @@ It is maintained by the gastownhall org, the same lineage as Steve Yegge's Gas T
 ## Status
 
 **Active, and the only living branch of the Gas Town lineage.**
-1,390 stars, 446 forks, 1,538 open issues, created 2026-02-22, pushed 2026-10-18, as of 2026-10-18 (GitHub API).
+1,390 stars, 446 forks, 1,538 open issues, created 2026-02-22, pushed 2026-10-23, as of 2026-10-23 (GitHub API).
 Yegge announced the direction in the May 2026 "Welcome to Gas City" essay, and the 33-point Hacker News thread on it (2026-05-04) is the project's main independent record.
 Development continued after Gas Town itself was shut down in September 2026, and the migration doc maps every Town role, mechanism, and command onto City primitives.
 The release list corrected this run: stable semver releases do exist, v1.4.2 (2026-09-18) and v1.5.0 (2026-10-05), which its own notes call "the new stable release and supersedes v1.4.2", tagged from `release/v1.5.0`, installable with `brew install gascity`, and requiring Beads (`bd`) v1.3.1, which now owns the Dolt process of every new city; the rolling `edge` and Bazel toolchain tags sit beside that line, so the earlier "no stable-release marker" read was wrong (GitHub releases API, as of 2026-10-12).

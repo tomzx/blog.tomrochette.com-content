@@ -26,7 +26,7 @@ The author is Nick Woodhead, who built it as internal tooling at GPTree, a compa
 ## Status
 
 Active, young, and gaining traction fast.
-The repository was created 2026-08-21 and shows 538 stars and 25 forks as of 2026-10-11, pushed 2026-10-14 (GitHub API, as of 2026-10-18).
+The repository was created 2026-08-21 and shows 538 stars and 25 forks as of 2026-10-11, pushed 2026-10-23 (GitHub API, as of 2026-10-23).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=naw103/foremerge&type=date&theme=dark&legend=top-left" />

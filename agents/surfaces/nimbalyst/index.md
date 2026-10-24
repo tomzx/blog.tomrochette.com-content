@@ -1,7 +1,7 @@
 ---
 title: Nimbalyst
 created: 2026-10-11
-updated: 2026-10-18
+updated: 2026-10-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -20,6 +20,7 @@ A visual workspace built around WYSIWYG editors for markdown, CSV, mockups, Mona
 Parallel agent sessions run with one-click worktree isolation, tracked on a session kanban linked to the files each session touched, and integrated task trackers sit in the same workspace for agents to read and update.
 MCP servers connect with tool results rendered as widgets rather than raw JSON, content stays in plain files in your git repo, and an iOS companion handles approvals and replies on the go (Android in development).
 The desktop and iOS apps are MIT and free for individuals on macOS, Windows, and Linux; the collaboration server is AGPL, with Teams multiplayer free during beta.
+Since mid-October 2026 the product presents as three surfaces on the same files: the Nimbalyst Wiki, a free standalone plugin for Claude Code, Codex, Cowork, Cursor, VS Code, or any MCP agent that distills agent work into wiki pages of markdown in your repo (no app or account needed) and now leads the site, Wiki Teams multiplayer as the paid tier (free during beta), and the desktop app.
 It is built by a four-person team and continues the lineage of Crystal, the orchestration member this section tracks as deprecated in Nimbalyst's favor.
 
 ## Status
@@ -33,7 +34,7 @@ The repository was created 2025-10-30 and shows 1,908 stars and 304 forks as of 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nimbalyst/nimbalyst&type=date&legend=top-left" />
 </picture>
 
-The open-source launch was a self-submitted Show HN on 2026-04-30 that drew 8 points and 4 comments; six self-submitted threads going back to November 2025 peak at 29 points, and this run's search found no third-party coverage.
+The open-source launch was a self-submitted Show HN on 2026-04-30 that drew 8 points and 4 comments; the footprint search now returns eight threads going back to November 2025, peaking at 29 points, with the newest (a wiki-driven-development post, 2026-10-21) at 4 points, and still no third-party coverage.
 
 ## Strengths
 
