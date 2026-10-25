@@ -1,7 +1,7 @@
 ---
 title: Kata
 created: 2026-10-11
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, local-first, cli, mcp, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Kenn Software LLC maintains it under MIT, with documentation at katatracker.com.
 ## Status
 
 Active and on a steady release cadence.
-As of 2026-10-23: 464 stars (as of 2026-10-14), 50 forks, created 2026-04-30, pushed 2026-10-23, latest release v0.19.0 on 2026-10-17, with backward compatibility promised since v0.14.0 (v0.19.0's command rename is the declared exception).
+As of 2026-10-25: 464 stars (as of 2026-10-14), 50 forks, 41 open issues and pull requests, created 2026-04-30, pushed 2026-10-25, latest release v0.20.0 on 2026-10-24, with backward compatibility promised since v0.14.0 (v0.19.0's command rename is the declared exception).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/kata&type=date&theme=dark&legend=top-left" />
@@ -35,8 +35,9 @@ As of 2026-10-23: 464 stars (as of 2026-10-14), 50 forks, created 2026-04-30, pu
 </picture>
 
 v0.19.0 shipped the changelog's long-standing unreleased block in one drop: the `agent-hook` rename covering the native harness targets (attention hooks now install on by default), new MCP coordination tools with paginated exhaustive issue discovery, `kata doctor`, and opt-out anonymous telemetry, alongside TickTick and Forgejo sync, federation project sharing, native cron, recurring child issues, comment replies, and TUI undo.
+v0.20.0 (published 2026-10-24) added the terminal UI's Attention inbox for notification requests, `kata notify --re` reply requests with `kata wait --until reply` to block on an answer, `kata notify --broadcast` to an issue's participants (a 50-recipient cap with per-sender rate limits), and `issue.scheduled_reached` events that trigger date-driven work, while hardening SQLite upgrades against corruption after unclean daemon exits and rebuilding telemetry without the PostHog SDK (opt-outs preserved, daily count buckets and backoff in place of raw properties).
 
-An HN search for the project returns zero story hits as of 2026-10-14, so the adoption evidence is the repository curve and the changelog's external contributor roster (Wes McKinney, Marius van Niekerk), not independent discussion.
+An HN search for the project returns zero story hits as of 2026-10-25 (the fuzzy hits are unrelated projects), so the adoption evidence is the repository curve and the changelog's external contributor roster (Wes McKinney, Marius van Niekerk), not independent discussion.
 
 ## Strengths
 
@@ -74,6 +75,7 @@ My disagreeable claim: a tracker 250 milliseconds away is a different species fr
 - 2026-10-11 - Created after the entrant sweep surfaced its beads-alternative positioning and import path.
 - 2026-10-11 - Added the star history chart.
 - 2026-10-18 - Recorded the v0.19.0 release (2026-10-17: the agent-hook rename with attention hooks on by default, MCP coordination tools with paginated exhaustive issue discovery, kata doctor, TickTick and Forgejo sync, federation project sharing, native cron, recurring child issues, comment replies, TUI undo, and the telemetry line shipped) and refreshed counts (pushed 2026-10-18).
+- 2026-10-25 - Rotation re-verification with every cited URL re-fetched live (repository, API, releases, the katatracker.com site still current through 0.20.0, the changelog, the agent workflows doc with its 18-harness hook table intact, the HN search still at zero story hits); recorded v0.20.0 (published 2026-10-24: the TUI Attention inbox, notify --re reply requests with wait --until reply, participant broadcasts with a 50-recipient cap, issue.scheduled_reached date events, SQLite upgrade corruption hardening, and the PostHog-free telemetry rework) and refreshed counts (41 open issues and pull requests, pushed 2026-10-25).
 
 ## See also
 
@@ -86,9 +88,9 @@ My disagreeable claim: a tracker 250 milliseconds away is a different species fr
 
 - https://github.com/kenn-io/kata - README: storage, surfaces, sharing models, the beads comparison and import path (fetched 2026-10-11)
 - https://katatracker.com/ - the site: the 4-millisecond measurements, event stream, federation, evidence-based closes, the layer argument against SaaS trackers
-- https://raw.githubusercontent.com/kenn-io/kata/main/docs/changelog.md - release history: v0.19.0 (2026-10-17) and the line before it, with the upgrade notes
+- https://raw.githubusercontent.com/kenn-io/kata/main/docs/changelog.md - release history: v0.20.0 (2026-10-23) and v0.19.0 (2026-10-17) with their upgrade notes
 - https://api.github.com/repos/kenn-io/kata/releases/tags/v0.19.0 - the v0.19.0 notes: sync targets, federation sharing, claims with TTL, MCP tools, upgrade requirements
 - https://raw.githubusercontent.com/kenn-io/kata/main/docs/workflows/agents.md - the agent contract, the 18-harness hook coverage table, teammate and inbox workflows, MCP setup
-- https://api.github.com/repos/kenn-io/kata - stars, forks, dates, MIT license as of 2026-10-21
-- https://api.github.com/repos/kenn-io/kata/releases - v0.19.0 (2026-10-17) and the release cadence
-- https://hn.algolia.com/api/v1/search?query=katatracker&tags=story - zero story hits as of 2026-10-14, the missing HN footprint
+- https://api.github.com/repos/kenn-io/kata - stars, forks, dates, MIT license as of 2026-10-25
+- https://api.github.com/repos/kenn-io/kata/releases - v0.20.0 (published 2026-10-24) and the release cadence
+- https://hn.algolia.com/api/v1/search?query=katatracker&tags=story - zero story hits as of 2026-10-25, the missing HN footprint

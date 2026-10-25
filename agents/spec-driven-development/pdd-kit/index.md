@@ -1,7 +1,7 @@
 ---
 title: PDD Kit
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, product-model, agent-skills, open-source]
 readability: 3
@@ -25,8 +25,8 @@ Made by Itai Gendler, who dogfoods it: the repository's own `product-model/` des
 
 ## Status
 
-Active and young: 80 stars, 9 forks, repository created 2026-07-26, pushed 2026-10-22, as of 2026-10-23 (GitHub API), MIT, solo steward.
-The npm package is ten days old with six releases to v0.37.1 and 32 downloads last month (the 2026-09-19 to 2026-10-18 window, as of 2026-10-23, most of it predating publication), so adoption is the star count and nothing else yet.
+Active and young: 80 stars, 9 forks, repository created 2026-07-26, pushed 2026-10-24, as of 2026-10-25 (GitHub API), MIT, solo steward.
+The npm package (published 2026-10-13) has six releases to v0.37.1 and 200 downloads last month (the 2026-09-23 to 2026-10-22 window, as of 2026-10-25), so adoption is the star count and nothing else yet.
 It ships a complete docs site (pdd-kit.dev) with a reasoned blog, and the steward's SDD critique (2026-10-06) names OpenSpec, spec-kit, and Kiro directly, arguing their specs describe the change while the product stays scattered.
 It entered this category's scan as the Engineering4AI awesome list's Development Frameworks entry, listed there as BusinessLens until the 2026-10-21 rename to pdd-kit; a 2026-10-13 sweep had rejected the repository under its old name below the bar, and the rebrand, the shipped site, and continued daily development re-listed it.
 
@@ -47,7 +47,7 @@ It entered this category's scan as the Engineering4AI awesome list's Development
 
 ## Cautions
 
-- Zero independent coverage and an npm package ten days old mean nothing here is validated by anyone but its steward, the same profile that kept thinner records out of this category.
+- Zero independent coverage and an npm package published 2026-10-13 mean nothing here is validated by anyone but its steward, the same profile that kept thinner records out of this category.
 - Verify reports gaps but names no guilty side: unlike Archcore's review, the human decides whether the code or the model moved, so the convergence check is advisory.
 - The model is a standing artifact, which is standing maintenance: every behavioral change touches it, and the docs' answer (a product decision written once) still costs a review on each change.
 - Solo steward, pre-1.0, and the resource-type vocabulary (Interfaces, Experiences, Screens, Capabilities, Journeys, Variations) is a learning curve of its own before the first model exists.
@@ -65,7 +65,7 @@ Does not apply: MIT, free, no paid tier found as of 2026-10-23.
 ## Bottom line
 
 **Recommended for teams running any spec-driven tool whose product definition is scattered across change folders, who want the standing model as a separate, reviewable artifact the agents read before they build.**
-Not for anyone who needs an enforced gate or third-party validation before adopting a ten-day-old package, and not for solo work too small to carry a model at all.
+Not for anyone who needs an enforced gate or third-party validation before adopting a two-week-old package, and not for solo work too small to carry a model at all.
 
 ## Changes
 
@@ -86,6 +86,6 @@ Not for anyone who needs an enforced gate or third-party validation before adopt
 - https://pdd-kit.dev/docs/product-model - the resource types, coverage.md, the lint contract, and the present-tense doctrine
 - https://pdd-kit.dev/blog/pdd-and-spec-driven-development - the steward's SDD critique (2026-10-06) grounding the product-versus-change thesis
 - https://registry.npmjs.org/pdd-toolkit - the npm package: v0.37.1, six versions, MIT, first published 2026-10-13
-- https://api.npmjs.org/downloads/point/last-month/pdd-toolkit - 32 downloads last month (2026-09-19 to 2026-10-18 window), as of 2026-10-23
+- https://api.npmjs.org/downloads/point/last-month/pdd-toolkit - 200 downloads last month (2026-09-23 to 2026-10-22 window), as of 2026-10-25
 - https://api.github.com/repos/itai-gendler/pdd-kit - stars, forks, creation and push dates as of 2026-10-23
 - https://hn.algolia.com/api/v1/search?query=pdd-kit&hitsPerPage=5 - the footprint check: one 1-point submission, no third-party coverage

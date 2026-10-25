@@ -1,7 +1,7 @@
 ---
 title: Cate
 created: 2026-10-08
-updated: 2026-10-22
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source, canvas]
 readability: 3
@@ -27,7 +27,7 @@ It is built by the 0-AI-UG organization, with the v1.0 launch shared on Hacker N
 
 **Active and young: a six-month-old project with a steady release train.**
 The repository was created 2026-03-29, and v1.0 landed May 25, 2026 behind a 65-point Show HN thread (66 comments), preceded by a smaller spatial-workspace thread in May.
-The v2 line carries it now: v2.0.5 (2026-09-30, T3 Connect startup fixes in packaged builds, false agent-ready notification fixes during automatic approval, a hooks-settings rework) is the latest release after v2.0.4 and v2.0.3 in the two weeks before it, and the repository was pushed 2026-10-21.
+The v2 line carries it now: v2.0.5 (2026-09-30, T3 Connect startup fixes in packaged builds, false agent-ready notification fixes during automatic approval, a hooks-settings rework) is the latest release after v2.0.4 and v2.0.3 in the two weeks before it, a v2.1.0-beta.1 pre-release (October 23, browser locators, pairing-by-key remote sessions, and an agent usage overview) runs above it on the way to a 2.1 stable, and the repository was pushed 2026-10-25.
 About 2.2k stars (2,187) and 141 forks as of 2026-10-16.
 Installs go through prebuilt DMG, NSIS, AppImage, DEB, and tar archives plus a Homebrew cask, and the README tells daily users not to build from source.
 

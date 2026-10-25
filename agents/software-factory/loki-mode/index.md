@@ -1,7 +1,7 @@
 ---
 title: Loki Mode
 created: 2026-10-07
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, autonomous-agents, verification]
 readability: 3
@@ -21,9 +21,9 @@ Autonomi publishes it under BUSL-1.1, and the README documents outcomes and exit
 
 ## Status
 
-Active and shipping fast: 1,093 stars and 206 forks since creation on 2025-12-26 (as of 2026-10-13), 225,945 Docker pulls as of 2026-10-23, per GitHub and Docker Hub.
-Pushed 2026-10-23, and the train reached v11.60.17 (2026-10-23), with npm `latest` at 11.60.15 and `next` at 11.60.10 (no longer in sync), per the GitHub API and the npm registry as of 2026-10-23.
-**The burst since v11.18.0 (2026-10-20) covered roughly forty minors in three days, releases landing minutes apart, each a single-fix entry whose notes quote the approving review verdict inline.**
+Active and shipping fast: 1,093 stars and 206 forks since creation on 2025-12-26 (as of 2026-10-13), 265,042 Docker pulls as of 2026-10-24, per GitHub and Docker Hub.
+Pushed 2026-10-24, and the train reached v11.77.0 (2026-10-24), with npm `latest` and `next` back in sync at 11.77.0, per the GitHub API and the npm registry as of 2026-10-25.
+**The burst since v11.18.0 (2026-10-20) has covered roughly sixty minors in five days, and its newest entries ship feature lists again: `loki status` follows a run live, silent runs raise stuck-run alerts, and `loki github protect` requires the receipt status check on the default branch (v11.77.0).**
 The release process itself changed mid-train: v11.17.99 reduced CI to a single release workflow that publishes npm, Homebrew, the SDKs, and signed Docker images with no test gate in front, removing the Tests, nightly, security-audit, and SBOM workflows.
 The catch-up release run changed the acceptance story: seal VERIFIED now requires at least one agent-independent (exogenous) proof by default, `loki verify --explain` classifies each gate as exogenous or agent-influenced, and the burst shipped a deploy path (`loki deploy` with Fly, Netlify, and Cloudflare verbs, custom-domain TLS proof, and a rollback command), per the v11.17.33 through v11.17.40 release notes.
 
@@ -80,6 +80,7 @@ Not for teams that require OSI licensing, and not for anyone who needs independe
 - 2026-10-19 - Recorded the train passing v11.17.58 to reach v11.17.81 (2026-10-19), with npm `latest` and `next` both in sync at 11.17.81.
 - 2026-10-21 - Recorded the train reaching v11.18.0 (2026-10-20, a no-engine-change checkpoint release, npm in sync) and the v11.17.99 CI reduction to a single release workflow with no test gate in front (Tests, nightly, security-audit, and SBOM workflows removed).
 - 2026-10-23 - Recorded the burst from v11.18.0 to v11.60.17 (about forty minors in three days, releases minutes apart with single-fix notes quoting the review verdict), npm `latest` at 11.60.15 ahead of `next` at 11.60.10, and Docker pulls refreshed to 225,945 (2026-10-23).
+- 2026-10-25 - Recorded the train passing v11.60.17 to reach v11.77.0 (2026-10-24, about sixty minors in five days), npm `latest` and `next` back in sync at 11.77.0, the newest entries shipping feature lists again (live `loki status` following, stuck-run alerts, `loki github protect` requiring the receipt status check on the default branch), and Docker pulls refreshed to 265,042 (2026-10-24).
 
 ## See also
 
@@ -92,8 +93,8 @@ Not for teams that require OSI licensing, and not for anyone who needs independe
 
 - https://github.com/asklokesh/loki-mode - repository, delivery contract, review council, MCP server, and install methods
 - https://www.autonomi.dev - Autonomi's site and the issue-to-PR-with-signed-receipt positioning
-- https://www.npmjs.com/package/loki-mode - the npm package, 11.60.15 latest as of 2026-10-23
-- https://github.com/asklokesh/loki-mode/releases - the release train, v11.60.17 newest as of 2026-10-23, the seal VERIFIED exogenous-proof default in the v11.17.33 notes, and the v11.17.99 CI reduction
+- https://www.npmjs.com/package/loki-mode - the npm package, 11.77.0 latest as of 2026-10-25
+- https://github.com/asklokesh/loki-mode/releases - the release train, v11.77.0 newest as of 2026-10-24, the seal VERIFIED exogenous-proof default in the v11.17.33 notes, and the v11.17.99 CI reduction
 - https://github.com/asklokesh/loki-mode/releases/tag/v11.3.1 - the v11.3.1 release notes, the 11.3 program's ten v1 features including scored attempts and memory with proof
 - https://github.com/asklokesh/loki-mode/releases/tag/v11.3.9 - the v11.3.9 release notes, credential-isolation follow-ups and backstop-triggered promotion
 - https://hub.docker.com/r/asklokesh/loki-mode - the Docker image and its pull count

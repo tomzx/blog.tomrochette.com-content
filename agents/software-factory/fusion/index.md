@@ -1,7 +1,7 @@
 ---
 title: Fusion
 created: 2026-10-11
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, kanban, multi-agent, worktrees, open-source]
 readability: 3
@@ -18,16 +18,16 @@ Fusion is an MIT software factory run from a kanban board: a triage agent turns 
 
 A TypeScript application installed from npm (`npx runfusion.ai`, Homebrew, or an install script), with native iOS, Android, macOS, Windows, and Linux apps, a web dashboard, and Docker or headless deployment, early preview, shipping weekly.
 The agent runtime stands on Pi (the minimal extensible coding-agent CLI), with Hermes, Paperclip, Droid, and Cursor as first-class provider plugins, an experimental OpenClaw runtime plugin, and an ACP runtime that drives Gemini CLI, Claude, or any ACP agent; a model router with cheap-tier routing and fallback spans Anthropic, OpenAI, Gemini, Z.ai, and Ollama, with five model lanes (executor, planner, validator, title, workflow) overridable per task.
-Runtime metadata now lives in zero-config embedded PostgreSQL by default, with legacy SQLite files as one-time migration inputs and a shared external database for multi-node setups, per the README's storage note as of 2026-10-19.
+Runtime metadata now lives in zero-config embedded PostgreSQL by default, with legacy SQLite files as one-time migration inputs and a shared external database for multi-node setups, per the README's storage note as of 2026-10-25.
 Around the loop it adds missions (Mission, Milestone, Slice, Feature, Task, with autopilot), inter-agent mailbox chat, qmd markdown memory, Paperclip-format agent-company import, cron automations, plugins (every Pi extension works), and a Command Center of eleven analytics views (tokens, USD cost, autonomy ratio, per-agent output, model mix) with CSV and OpenTelemetry export.
 The dashboard is built on dustinbyrne/kb; the docs are in-repo and unusually complete, down to an evidence gate that blocks a goals feature until actual usage pain is documented.
 
 ## Status
 
 **Active and heavily pushed, but early preview, and the stable npm channel lags the repository.**
-1,270 stars, 162 forks, and 86 open issues and pull requests as of 2026-10-13, created 2026-04-13, pushed 2026-10-23 (GitHub API).
-The newest GitHub release and npm beta is v0.78.0-beta.9 (2026-10-23, the first beta in four weeks, its notes pinning every Pi runtime package to an exact version after an npm install breakage); npm `latest` is still 0.77.0 (2026-09-02), so the stable channel has run more than seven weeks behind a repository that pushes near-daily (as of 2026-10-23).
-The package drew 2,559 npm downloads in the month ending 2026-10-18, and a Hacker News search still returns no story about it (2026-10-23).
+1,270 stars, 162 forks, and 86 open issues and pull requests as of 2026-10-13, created 2026-04-13, pushed 2026-10-25 (GitHub API).
+The newest GitHub release and npm beta is v0.78.0-beta.9 (2026-10-23, the first beta in four weeks, its notes pinning every Pi runtime package to an exact version after an npm install breakage); npm `latest` is still 0.77.0 (2026-09-02), so the stable channel has run more than seven weeks behind a repository that pushes near-daily (as of 2026-10-25).
+The package drew 2,094 npm downloads in the month ending 2026-10-22 (trailing month), and a Hacker News search still returns no story about it (2026-10-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Runfusion/Fusion&type=date&theme=dark&legend=top-left" />
@@ -69,6 +69,7 @@ My disagreeable claim: auto-merge on green gates is where this category is going
 
 - 2026-10-11 - Created after the orchestration resolution flagged the repository to this category, with the early-preview-versus-weekly-shipping gap and the unaudited autonomy claims recorded as the critical angle.
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched (repository, README, docs map, product site, releases, npm registry and downloads, HN search) and all claims confirmed; recorded the PostgreSQL-by-default storage cutover and the experimental OpenClaw runtime plugin from the README, re-baselined downloads at 2,505 for the month ending 2026-10-16, and the stable channel's lag moved from six to seven weeks with npm `latest` still 0.77.0; no other material change.
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched (repository via the API, README and docs map, product site, releases, npm registry and trailing-month downloads, HN search) and all claims confirmed; downloads re-baselined down to 2,094 for the month ending 2026-10-22 and the stable channel's lag unchanged at more than seven weeks with npm `latest` still 0.77.0; no material change.
 
 ## See also
 
@@ -86,5 +87,5 @@ My disagreeable claim: auto-merge on green gates is where this category is going
 - https://runfusion.ai - the product site: board and Command Center tours, model lanes, mesh nodes, mobile apps, Paperclip compatibility, and the autonomy claims recorded as cautions
 - https://api.github.com/repos/Runfusion/Fusion/releases - v0.78.0-beta.9 (2026-10-23) newest release, the first beta since v0.78.0-beta.7 (2026-09-25)
 - https://registry.npmjs.org/@runfusion/fusion - dist-tags: latest 0.77.0 (2026-09-02), beta 0.78.0-beta.9
-- https://api.npmjs.org/downloads/point/last-month/@runfusion/fusion - 2,559 downloads in the month ending 2026-10-18
-- https://hn.algolia.com/api/v1/search?query=runfusion&tags=story - the footprint scan finding no story (2026-10-23)
+- https://api.npmjs.org/downloads/point/last-month/@runfusion/fusion - 2,094 downloads in the month ending 2026-10-22
+- https://hn.algolia.com/api/v1/search?query=runfusion&tags=story - the footprint scan finding no story (2026-10-25)

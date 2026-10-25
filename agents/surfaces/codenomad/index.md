@@ -1,7 +1,7 @@
 ---
 title: CodeNomad
 created: 2026-10-11
-updated: 2026-10-22
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, opencode, desktop, session-cockpit, open-source]
 readability: 3
@@ -17,7 +17,7 @@ CodeNomad is an MIT desktop and browser workspace for OpenCode V2: projects, nes
 
 ## What it is
 
-An Electron or Tauri desktop app plus a browser client, built by the NeuralNomadsAI organization (created 2025-11-14), speaking to one shared OpenCode V2 background service (2.0.7 minimum, 2.0.21 recommended for 0.20.1); OpenCode owns the sessions, messages, and agent execution, and closing CodeNomad leaves the service running.
+An Electron or Tauri desktop app plus a browser client, built by the NeuralNomadsAI organization (created 2025-11-14), speaking to one shared OpenCode V2 background service (v1.0.0 requires 2.1.2 minimum and recommends 2.1.4, after 0.20.1 validated against 2.0.7 minimum and 2.0.21 recommended); OpenCode owns the sessions, messages, and agent execution, and closing CodeNomad leaves the service running.
 The surface covers projects with per-window tabs and drafts, full-history session search with a timeline and forks, worktree creation and session moves, rich conversations (markdown, diffs, tool-result images, reasoning visibility, a `/btw` side question), background shells, MCP connection and plugin management, agent-driven browser previews, voice input, and SideCars, tabs that proxy web tools running on the server host (including an OpenVSCode Server container).
 The CodeNomad Server (`npx @neuralnomads/codenomad`) serves the same workspace from your machine with password authentication and self-signed HTTPS, and Remote Control pairs a phone or another computer through an OpenTunnel relay without opening ports, TLS ending on your machine.
 
@@ -25,7 +25,7 @@ The CodeNomad Server (`npx @neuralnomads/codenomad`) serves the same workspace f
 
 **Active on a daily train, young, and without independent coverage.**
 2,625 stars, 176 forks, and 15 open issues and pull requests, created 2025-11-01, pushed 2026-10-16, as of 2026-10-16 (GitHub API).
-Stable v0.20.1 (2026-10-03) after v0.20.0 (2026-09-25), with the daily dev train re-tagged `v1.0.0-dev` from October 20 and running through 2026-10-22, a 1.0 line in progress on top of an unchanged stable.
+Stable v1.0.0 (2026-10-24) shipped on top of the `v1.0.0-dev` train that began October 20, ending the 0.20.x line: the 1.0 notes headline Missions (OpenCode-native coordinators delegating to specialists through native sessions and subagents, with five approaches including a blind two-model comparison), visual automation (agents inspecting and operating CodeNomad and desktop browser previews to check what they build), native plugins and RPC reaching full-history search and timeline navigation beyond the public API, a new hexagon logo, and signed Tauri updates, with the daily dev train continuing above it (v1.0.0-dev-20261025).
 The server package drew 1,112 npm downloads in the month ending 2026-10-18.
 A Hacker News search returns no story about the project (2026-10-11), only substring matches, so the footprint is GitHub-side.
 
@@ -70,6 +70,7 @@ My disagreeable claim: two serious cockpits around one harness is the correct ma
 
 - 2026-10-11 - Created after the owner-star entrant scan flagged the repository, with the one-harness commitment and the stable-versus-dev train gap recorded as the central cautions.
 - 2026-10-22 - Recorded the dev train's re-tag to v1.0.0-dev (first tagged October 20, running through 2026-10-22, stable still v0.20.1) and refreshed the server package's downloads to 1,112 for the month ending 2026-10-18.
+- 2026-10-25 - Recorded stable v1.0.0 (October 24) shipping off the dev train: Missions with native multi-agent coordination and a blind two-model comparison, visual automation over the app and browser previews, native plugins and RPC beyond the public API, signed Tauri updates, and the OpenCode contract moving to 2.1.2 minimum and 2.1.4 recommended; the dev train continues above the stable tag.
 
 ## See also
 
@@ -83,6 +84,6 @@ My disagreeable claim: two serious cockpits around one harness is the correct ma
 - https://github.com/NeuralNomadsAI/CodeNomad - repository facts: 2,625 stars, 176 forks, MIT, created 2025-11-01, pushed 2026-10-16 (GitHub API, as of 2026-10-16)
 - https://raw.githubusercontent.com/NeuralNomadsAI/CodeNomad/main/README.md - the feature set, OpenCode V2 version contract, SideCars, remote control, and install paths (fetched 2026-10-11)
 - https://raw.githubusercontent.com/NeuralNomadsAI/CodeNomad/main/packages/server/README.md - the server mode: remote access, authentication, prerequisites, deployment model
-- https://api.github.com/repos/NeuralNomadsAI/CodeNomad/releases - stable v0.20.1 (2026-10-03), v0.20.0 (2026-09-25), and the daily dev train, re-tagged v1.0.0-dev from October 20 (re-fetched 2026-10-22)
+- https://api.github.com/repos/NeuralNomadsAI/CodeNomad/releases - stable v1.0.0 (2026-10-24, Missions, visual automation, native plugins and RPC, OpenCode 2.1.2 minimum and 2.1.4 recommended) after v0.20.1 (2026-10-03), with the daily dev train continuing as v1.0.0-dev-* (re-fetched 2026-10-25)
 - https://api.npmjs.org/downloads/point/last-month/@neuralnomads/codenomad - 1,112 downloads in the month ending 2026-10-18 (re-fetched 2026-10-22; the earlier reading was 1,267 in the month ending 2026-10-10)
 - https://hn.algolia.com/api/v1/search?query=CodeNomad&tags=story - the footprint scan finding no dedicated story (2026-10-11)

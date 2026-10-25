@@ -1,7 +1,7 @@
 ---
 title: Spec-Driven Develop
 created: 2026-10-11
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, github-issues, workflow, open-source]
 readability: 3
@@ -34,7 +34,7 @@ All five GitHub releases landed in July 2026, three of them on July 1, and nothi
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=zhu1090093659/spec_driven_develop&type=date&legend=top-left" />
 </picture>
 
-**No Hacker News thread about it exists (re-checked 2026-10-21), and the only independent coverage found is a Hysen Labs directory review (updated 2026-09-10) that is more skeptical than the star count suggests, so the adoption case rests on stars and the bilingual README's Chinese-language community distribution (a linux.do link sits in the README's friendly-links section).**
+**No Hacker News thread about it exists (re-checked 2026-10-25), and the only independent coverage found is a Hysen Labs directory review (updated 2026-09-10) that is more skeptical than the star count suggests, so the adoption case rests on stars and the bilingual README's Chinese-language community distribution (a linux.do link sits in the README's friendly-links section).**
 
 ## Strengths
 
@@ -84,4 +84,4 @@ Not for small changes, not for repos outside GitHub's tracker model, and not for
 - https://raw.githubusercontent.com/zhu1090093659/spec_driven_develop/main/README.zh-CN.md - the Chinese README grounding the bilingual distribution claim
 - https://github.com/zhu1090093659/spec_driven_develop/releases.atom - the release history: five releases, all July 2026, through v1.15.0 (2026-07-26)
 - https://hysenlabs.com/en/projects/zhu1090093659-spec-driven-develop - the independent directory review (updated 2026-09-10), the critical source
-- https://hn.algolia.com/api/v1/search?query=zhu1090093659&hitsPerPage=5 - the missing Hacker News footprint, re-checked 2026-10-23
+- https://hn.algolia.com/api/v1/search?query=zhu1090093659&hitsPerPage=5 - the missing Hacker News footprint, re-checked 2026-10-25

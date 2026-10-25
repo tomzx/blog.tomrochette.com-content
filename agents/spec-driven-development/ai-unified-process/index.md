@@ -1,7 +1,7 @@
 ---
 title: AI Unified Process
 created: 2026-10-17
-updated: 2026-10-21
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, use-cases, methodology, rup, open-source]
 readability: 3
@@ -16,15 +16,15 @@ AI Unified Process (AIUP) is Simon Martinelli's requirements-first, Apache-2.0 m
 
 ## What it is
 
-An open-source plugin set (`aiup-core` plus four stack plugins) installed per agent from its marketplace, through the Tessl registry, or as manual skill files.
+An open-source plugin set (`aiup-core` plus seven layer plugins) installed per agent from its marketplace, through the Tessl registry, or as manual skill files.
 `aiup-core` owns the stack-independent path: `/requirements` builds the catalog from `docs/vision.md`, then `/entity-model`, `/use-case-diagram`, `/use-case-spec` (which asks up to five questions whose answers change the spec before writing), `/business-process`, `/test-case`, `/spec-review`, and `/reverse-engineer` for existing codebases.
-A stack plugin (Vaadin/jOOQ, Angular/JPA, Blazor/.NET, or NestJS/Next.js) continues from those artifacts into migrations, implementation, and tests.
+Construction continues with layer plugins (Flyway, jOOQ, JPA, Spring Boot, Vaadin, Angular, Playwright), one per technical layer, combined per project and recorded by `/stack`; the two original combined stack plugins (Vaadin/jOOQ, Angular/JPA) are deprecated and leave with `aiup-core` 4.0.0, while Blazor/.NET and NestJS/Next.js remain combined.
 Artifacts carry stable identifiers (FR-\*, UC-\*, BR-\*, TC-\*) referenced downstream once, with code markers such as `// UC-005 BR-003: ...` and test annotations tying every business rule to its implementation.
-The four stack plugins are uneven: only Vaadin/jOOQ and Angular/JPA ship the read-only `uc-coverage` sub-agent and the `/coverage-check` skill that judge implementation and tests together.
+Coverage moved into core with the layer model: `/use-case-coverage` judges implementation and tests together, and the read-only `uc-coverage` sub-agent survives in the two deprecated combined plugins until 4.0.0 removes them.
 
 ## Status
 
-Active and authored: 146 stars, 26 forks, and 6 open issues since creation on 2026-02-28, pushed 2026-10-20, Apache-2.0, with per-plugin version tags (`aiup-vaadin-jooq-v2.21.0` and `aiup-core-v2.28.0` the newest) as of 2026-10-21 (GitHub API).
+Active and authored: 146 stars, 26 forks, and 6 open issues since creation on 2026-02-28, Apache-2.0 (GitHub API); as of 2026-10-25, pushed 2026-10-24 with a coordinated release wave across every plugin, `aiup-core` v3.1.0 (per-module reverse-engineering, the `/stack` command, coverage evidence from NFR and constraint ids) and the layer plugins re-versioned, the same wave that deprecated the two combined stack plugins.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AI-Unified-Process/marketplace&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ Martinelli self-places it at "spec-anchored, not spec-first", the middle level o
 
 - 146 stars is among the smallest adoption figures in this category, and the visible adoption sits inside the German-speaking Java and Vaadin consulting orbit the stack plugins encode.
 - The full artifact chain (vision, catalog, entity model, diagram, use cases, processes, test cases) is heavyweight, nothing sizes it down for small changes, and the field report is blunt that in production work the review time must actually be spent.
-- The coverage audit exists in only two of the four stack plugins; other stacks run the same check by hand from the agent definition.
+- The coverage audit just changed homes: layer-plugin projects get `/use-case-coverage` in core, but projects on the deprecated combined plugins must migrate before core 4.0.0 removes their `uc-coverage` agent.
 - Solo steward with paid training and a private-beta Studio around the method, and Apache-2.0 with NOTICE and trademark terms on derived works, unlike this category's MIT norm.
 
 ## Pricing
@@ -77,6 +77,7 @@ The disagreeable claim I will defend: spec-kit taught the industry to write spec
 ## Changes
 
 - 2026-10-17 - Created from the Engineering4AI awesome-list entrant scan, profiling AI-Unified-Process/marketplace as the category's requirements-centric, RUP-lineage column.
+- 2026-10-25 - Recorded the 2026-10-24 release wave: the plugin model rebuilt from four combined stack plugins to seven layer plugins combined per project (`/stack` records the combination), `aiup-core` v3.1.0 (per-module reverse-engineering, coverage evidence from NFR and constraint ids), and the Vaadin/jOOQ and Angular/JPA combined plugins deprecated ahead of removal in core 4.0.0, with `/use-case-coverage` moving the coverage audit into core.
 
 ## See also
 

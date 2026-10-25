@@ -1,7 +1,7 @@
 ---
 title: AgentTrace
 created: 2026-09-27
-updated: 2026-10-21
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, tui, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by an independent developer (luoyuctl) under MIT.
 
 ## Status
 
-Young and active: 143 stars, 9 forks, 6 open issues, created 2026-05-01, last pushed 2026-10-19 on side branches, latest release v0.10.1 on 2026-10-05 after v0.10.0 and v0.9.1 on 2026-10-04, as of 2026-10-21.
+Young and active: 143 stars, 8 forks, 6 open issues, created 2026-05-01, last pushed 2026-10-19 on side branches, latest release v0.10.1 on 2026-10-05 after v0.10.0 and v0.9.1 on 2026-10-04, as of 2026-10-25; three default-branch commits from 2026-10-05 and 10-06 (a parser cache-count clamp, install.ps1 AGENTTRACE_VERSION pinning fixes, and a ureq 3 dependency migration) are still unreleased.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=luoyuctl/agenttrace&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ Not for live observation, transcript search, or line-level provenance.
 - 2026-10-06 - Recorded v0.10.1 (2026-10-05): cross-agent token-accounting corrections (lower Claude Code and Codex totals), the schema-v26 cache rebuild, and Gemini CLI support removed as discontinued upstream, with Antigravity sessions still read; the format count and the matrix's agents-covered cell updated, repository counts refreshed, and the ROADMAP reference repointed to docs/ROADMAP.md after the file moved from the repository root.
 - 2026-10-07 - Added the luoyuctl/agenttrace star history chart to the Status section.
 - 2026-10-17 - Corrected the Strengths coverage line from about 15 to about 13 named formats, stale since v0.10.1 removed Gemini CLI; releases (still v0.10.1) and repository state re-verified unchanged since 2026-10-16.
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched and live; no release after v0.10.1 with the three 2026-10-05/06 default-branch commits (a parser cache-count clamp, install pinning fixes, a ureq 3 migration) still unreleased, npm still at 0.10.1, the empty Hacker News footprint unchanged, and repository counts refreshed (forks 9 to 8).
 
 ## See also
 
@@ -93,7 +94,7 @@ Not for live observation, transcript search, or line-level provenance.
 - https://raw.githubusercontent.com/luoyuctl/agenttrace/master/README.md - the coverage list, governance flags, install paths, privacy posture, and report formats
 - https://raw.githubusercontent.com/luoyuctl/agenttrace/master/docs/guides/ci-integration.md - the CI gate flags, exit code 2, and report artifacts
 - https://raw.githubusercontent.com/luoyuctl/agenttrace/master/docs/ROADMAP.md - the local-first scope and explicit non-goals (moved from the repository root)
-- https://api.github.com/repos/luoyuctl/agenttrace - stars, forks, dates, and license as of 2026-10-06
+- https://api.github.com/repos/luoyuctl/agenttrace - stars, forks, dates, and license as of 2026-10-25 (re-fetched in the 2026-10-25 rotation)
 - https://api.github.com/repos/luoyuctl/agenttrace/releases - the v0.9.0 release date, v0.9.1 and v0.10.0 on 2026-10-04, and v0.10.1 on 2026-10-05
 - https://registry.npmjs.org/@zack78/agenttrace - the npm package, latest 0.10.1
 - https://hn.algolia.com/api/v1/search?query=luoyuctl - the empty Hacker News footprint behind the thin-community claim

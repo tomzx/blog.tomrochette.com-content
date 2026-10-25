@@ -1,7 +1,7 @@
 ---
 title: "Super Simple Software Factory"
 created: 2026-08-29
-updated: 2026-10-18
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, agentic-workflows, sdlc]
 readability: 3
@@ -21,7 +21,7 @@ It is built on the `pi` coding agent plus `uv`, and there is a Vue-and-Bun visua
 
 ## Status
 
-Young, deliberately small, and quiet since launch: 971 stars and 255 forks since creation on 2026-08-02, with no push since 2026-08-04, more than ten weeks before 2026-10-18.
+Young, deliberately small, and quiet since launch: 971 stars and 255 forks since creation on 2026-08-02, with no push since 2026-08-04, more than eleven weeks before 2026-10-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=disler/super-simple-software-factory&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for one-off features, which a single agent prompt handles cheaper, and not f
 - 2026-10-02 - Marked the repository quiet since 2026-08-04 (no push in nearly two months as of 2026-10-02) and refreshed counts.
 - 2026-10-07 - Added the disler/super-simple-software-factory star history chart to the Status section.
 - 2026-10-18 - Rotation re-verification: every cited URL re-fetched (the repository, the example branch with its stamped demo and traces, the demo video, the author's site, and the huggingface/tau Python port of pi) and all claims confirmed, including the quiet repository (still a single commit on main, no push since 2026-08-04, no releases); no material change.
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched (the repository via the API, the example branch, the demo video, the author's site, and the huggingface/tau Python port of pi) and all claims confirmed, including the quiet repository (still a single commit on main, no push since 2026-08-04, no releases); no material change.
 
 ## See also
 

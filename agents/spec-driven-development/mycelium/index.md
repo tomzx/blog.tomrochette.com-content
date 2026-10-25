@@ -1,7 +1,7 @@
 ---
 title: Mycelium
 created: 2026-10-16
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, product-discovery, claude-code-plugin]
 readability: 3
@@ -24,8 +24,8 @@ The standing cost is about six thousand tokens of context per session, always on
 
 ## Status
 
-Active and shipping fast: 47 stars, 5 forks, created 2026-04-07, pushed 2026-10-23, as of 2026-10-23 (GitHub API).
-Pre-1.0 by the author's own framing, with schema and skill names moving between minor versions, and the release train runs in hours: v0.328.5 (2026-10-23) is the newest, making the session-start hook name one canvas-health advisory as the next item and the command that deals with it, following v0.328.4 (2026-10-22) stopping two diamond skills to ask for the person's own judgment before the agent shows its analysis, v0.328.3 (2026-10-21) adding the Mistral Vibe page after measuring that a Vibe install loaded nothing, and v0.328.0 (2026-10-18) asking a project's scope before the brief, of a train that ran v0.323 through v0.328 across October 13 to 23.
+Active and shipping fast: 47 stars, 5 forks, created 2026-04-07, pushed 2026-10-24, as of 2026-10-25 (GitHub API).
+Pre-1.0 by the author's own framing, with schema and skill names moving between minor versions, and the release train runs in hours: v0.330.1 (2026-10-24) is the newest, following v0.330.0 (2026-10-24) making the canvas gate refuse a subagent's writes to the canvas and diamonds files on Claude Code (the founder's audit of the orchestration guidance against Anthropic's subagent article found rules nothing enforced), v0.329.x (2026-10-23) turning the strategic review cadences into data (`review-schedule.yml`, with an adaptive corrections-audit cadence after a fixed one fired near every session on the dogfood project), and v0.328.x (2026-10-21 to 23), of a train that ran v0.323 through v0.330 across October 13 to 24.
 The adoption record is small and mostly first-hand: three of the steward's own projects, a three-person test cohort in May, and one stranger on record whose Lisp-interpreter canvas is public.
 
 **The independent footprint is empty, and that is this note's critical angle: a Hacker News search returns only the maintainer's own Show HN (2026-07-04, 1 point, 0 comments) plus an earlier post he says missed the Show HN tag, with no third-party coverage anywhere, so at 47 stars this admission rides the HermesGate-at-3-stars precedent rather than any membership floor.**
@@ -71,6 +71,7 @@ Not for teams needing a stable interface (pre-1.0, schema moves between minors),
 - 2026-10-16 - Created from the awesome-claude-code addition the cross-category scanner flagged, admitted under the Intent-Router gate-kind precedent (a spec contract is spec-driven even when tracker-adjacent), with the zero-coverage record as the critical angle.
 - 2026-10-21 - Recorded the v0.328.1 and v0.328.2 releases (both 2026-10-20): the OpenCode 2.x plugin port now guards `write` as well as `edit`, extending the structural gate past Claude Code.
 - 2026-10-23 - Recorded the v0.328.3 through v0.328.5 releases (2026-10-21 to 23): a Mistral Vibe page after the Vibe port measured as loading nothing, diamond skills that stop for the person's own judgment before showing analysis, and a session-start hook naming the next canvas-health advisory.
+- 2026-10-25 - Recorded the v0.329.x and v0.330.x releases (2026-10-23 to 24): review cadences became data with an adaptive corrections-audit cadence, and the canvas gate now refuses a subagent's writes to the canvas and diamonds files on Claude Code, closing the enforcement gap the founder's own audit found.
 
 ## See also
 

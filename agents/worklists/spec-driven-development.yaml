@@ -3,7 +3,7 @@ category: spec-driven-development
 generated: 2026-10-25
 mapped_sources:
   - repo: Engineering4AI/awesome-spec-driven-development
-    last_checked: 2026-10-23
+    last_checked: 2026-10-25
 digest_lines:
   - "- 2026-09-16 (ruled 2026-08-22) | cross-category | vendor sibling products fold into the sibling note by default | gemini-cli/Antigravity set it; applied to oh-my-pi, Codex App, OpenCode Desktop, Warp Factories, LiteParse, cursor CLI and routines; oh-my-pi left the fold on its own bar clearance 2026-10-10"
   - "- 2026-10-10 | spec-driven-development | entrants route by primary artifact: a spec contract is spec-driven even when tracker-adjacent | Intent-Router shelved here over task management; WrenAI likewise context engines over hybrid execution"

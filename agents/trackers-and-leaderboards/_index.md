@@ -15,6 +15,7 @@ The category's dividing line is what the number measures, since each member answ
 - [Artificial Analysis](artificial-analysis/index.md) - independent quality, price, and speed measurement across 703 models, 100+ providers, and the chips underneath.
 - [BenchLM](benchlm/index.md) - a solo-built composite re-ranking 972 tracked models into one evidence-labeled score, with its own failed validation checks published.
 - [Benchmark Radar](benchmark-radar/index.md) - an open benchmark catalog and search engine crawling 40 sources daily, with every record's evidence linked, the category's only member whose subject is the benchmarks themselves.
+- [bestvaluemodel](bestvaluemodel/index.md) - a solo-built, six-hourly refreshed frontier view plotting Artificial Analysis's Intelligence Index against API price, with a budget lookup table and a per-run diff feed.
 - [Epoch AI](epoch-ai/index.md) - the research nonprofit's open datasets and trend series on models, compute, data centers, and AI's trajectory.
 - [LiveBench](livebench/index.md) - a contamination-limiting public benchmark that rotates questions and scores by objective ground truth, with questions, answers, and judgments downloadable.
 - [LLM Stats](llm-stats/index.md) - a conservative composite leaderboard over 408 models with the category's only MCP server for agents.
@@ -40,3 +41,4 @@ Its members are compared on shared rows in the [Trackers and Leaderboards Featur
 - 2026-10-11 - Added Margin Lab.
 - 2026-10-13 - Added Vectara Hallucination Leaderboard.
 - 2026-10-17 - Added whatmodel.sh.
+- 2026-10-25 - Added bestvaluemodel.

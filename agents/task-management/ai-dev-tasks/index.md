@@ -1,7 +1,7 @@
 ---
 title: AI Dev Tasks
 created: 2026-10-08
-updated: 2026-10-16
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, prd, prompt-pack, open-source, dormant]
 readability: 3
@@ -24,7 +24,7 @@ It is maintained by the snarktank identity under Apache-2.0, with 65 commits in 
 ## Status
 
 Dormant.
-As of 2026-10-14: 7,799 stars, 1,708 forks, 218 watchers, 3 open issues, 7 open pull requests, created 2025-04-19, last push 2025-11-05, no release ever published, Apache-2.0 throughout.
+As of 2026-10-25: 7,799 stars (as of 2026-10-14), 1,707 forks, 217 watchers, 10 open issues and pull requests, created 2025-04-19, last push 2025-11-05, no release ever published, Apache-2.0 throughout.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=snarktank/ai-dev-tasks&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ As of 2026-10-14: 7,799 stars, 1,708 forks, 218 watchers, 3 open issues, 7 open 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=snarktank/ai-dev-tasks&type=date&legend=top-left" />
 </picture>
 
-The repository's own About links its widest exposure, a demonstration on Claire Vo's [How I AI podcast](https://www.youtube.com/watch?v=fD4ktSkNCw4), and 2025 coverage ran through tutorials and video rather than Hacker News (an HN story search for the project returns zero hits as of 2026-10-08).
+The repository's own About links its widest exposure, a demonstration on Claire Vo's [How I AI podcast](https://www.youtube.com/watch?v=fD4ktSkNCw4), and 2025 coverage ran through tutorials and video rather than Hacker News (an HN story search for the project returns zero hits, re-confirmed 2026-10-25).
 There is no deprecation notice or handoff: the repository simply stopped.
 
 ## Strengths
@@ -70,6 +70,7 @@ My disagreeable claim: ai-dev-tasks was never a tool at all, and its 7.8k stars 
 
 - 2026-10-08 - Created after the entrant sweep surfaced the dormant prompt-file original of the PRD pipeline this category tracks.
 - 2026-10-16 - Rotation re-verification: every cited URL re-fetched live (repository, API, both prompt files, the podcast link, the HN story search still at zero hits); the repository is unchanged and still dormant with its last push at 2025-11-05.
+- 2026-10-25 - Rotation re-verification with every cited URL re-fetched live (repository, API, both prompt files re-read unchanged at 81 and 70 lines, the podcast link through its consent shell, the HN story search still at zero hits); still dormant with the last push at 2025-11-05, and counts refreshed (10 open issues and pull requests, 1,707 forks, 217 watchers).
 
 ## See also
 
@@ -81,8 +82,8 @@ My disagreeable claim: ai-dev-tasks was never a tool at all, and its 7.8k stars 
 ## References
 
 - https://github.com/snarktank/ai-dev-tasks - repository: README, the two prompt files, scale, the About link to the podcast demonstration (fetched 2026-10-08)
-- https://api.github.com/repos/snarktank/ai-dev-tasks - stars, forks, dates, license, push date as of 2026-10-14
+- https://api.github.com/repos/snarktank/ai-dev-tasks - stars, forks, dates, license, push date as of 2026-10-25
 - https://raw.githubusercontent.com/snarktank/ai-dev-tasks/main/README.md - the five-step workflow and the How I AI demonstration link
 - https://raw.githubusercontent.com/snarktank/ai-dev-tasks/main/generate-tasks.md - parent tasks, sub-tasks, task 0.0, and the /tasks/ output contract
 - https://www.youtube.com/watch?v=fD4ktSkNCw4 - the How I AI demonstration (consent shell on fetch 2026-10-08; the claim is grounded in the repository's own README link)
-- https://hn.algolia.com/api/v1/search?query=%22ai-dev-tasks%22&tags=story - zero story hits as of 2026-10-08, the missing HN footprint
+- https://hn.algolia.com/api/v1/search?query=%22ai-dev-tasks%22&tags=story - zero story hits as of 2026-10-25, the missing HN footprint

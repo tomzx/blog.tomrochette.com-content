@@ -1,7 +1,7 @@
 ---
 title: Coucou
 created: 2026-10-10
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, live-observation, approvals, macos, ios, open-source]
 readability: 3
@@ -28,8 +28,8 @@ It is built by Louis Raillé (the Louis-CFM account), with the project's own con
 
 ## Status
 
-In its fourth week and shipping hard: created 2026-09-27 with v0.1.0 the same day, with the Mac release line moving to v0.5.3 on 2026-10-22 (Mochi turns blue when a new version waits and then shows what it brings) after v0.5.2 on 2026-10-20 (in-notch update offers verified against the Developer ID signature, a Homebrew cask, Claude Code plan-approval cards offering the terminal's own Auto, Manual, or Change plan choices, and fourteen languages), after v0.5.0 and v0.5.1 on 2026-10-18 (WhatsApp in the notch, behind it a one-click install of the GOWA gateway checked against its published SHA-256), after v0.4.0 on 2026-10-15 (the windowed app with dictation and call recording), Windows and Linux at 0.5.2 since 2026-10-22 (MSI and setup installers, still unsigned), and Coucou for Android at 0.2.0 since 2026-10-13, as of 2026-10-23.
-5,119 stars and 961 forks in that window, 420 open issues, MIT.
+In its fourth week and shipping hard: created 2026-09-27 with v0.1.0 the same day, with the Mac release line moving to v0.5.3 on 2026-10-22 (Mochi turns blue when a new version waits and then shows what it brings) after v0.5.2 on 2026-10-20 (in-notch update offers verified against the Developer ID signature, a Homebrew cask, Claude Code plan-approval cards offering the terminal's own Auto, Manual, or Change plan choices, and fourteen languages), after v0.5.0 and v0.5.1 on 2026-10-18 (WhatsApp in the notch, behind it a one-click install of the GOWA gateway checked against its published SHA-256), after v0.4.0 on 2026-10-15 (the windowed app with dictation and call recording), Windows and Linux at 0.5.3 since 2026-10-23 (MSI and setup installers, still unsigned, now matching the Mac line's version number), and Coucou for Android at 0.3.0 since 2026-10-22, as of 2026-10-25.
+5,119 stars and 1,029 forks in that window, 486 open issues, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Louis-CFM/coucou&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ Not for token-cost audits (ccusage and agentsview stay the tools for that), and 
 - 2026-10-16 - Recorded Mac v0.4.0 (2026-10-15): Coucou became a windowed Dock app with Flow hold-a-key dictation, an optional offline Parakeet model on Apple silicon, and call recording with a speaker-split transcript, signed and notarized; Windows and Linux moved to v0.5.0 the same day (still unsigned), and the feature-gravity caution gained the dictation and call-recording evidence.
 - 2026-10-19 - Recorded the Mac v0.5.0 and v0.5.1 releases (both 2026-10-18): WhatsApp in the notch with a one-click install of the GOWA gateway verified against its published SHA-256, Mochi reacting to Mac state, a screen capture for Claude, and dictation that writes prompts or translates; the feature-gravity caution gained WhatsApp.
 - 2026-10-21 - Recorded the Mac v0.5.2 release (2026-10-20): in-notch update offers that download from GitHub and verify the Developer ID signature before swapping the app, a Homebrew cask, Claude Code plan-approval cards offering Auto, Manual, or Change plan, fourteen languages, and community fixes; Windows and Linux moved to v0.5.1 the same day, the installer still unsigned; repository counts refreshed (forks 853 to 961, open issues 321 to 420).
+- 2026-10-25 - Recorded the Windows and Linux 0.5.3 builds (2026-10-23, now matching the Mac line's version number) and Coucou for Android 0.3.0 (2026-10-22, a pairing-flow release with no feature list); repository counts refreshed (forks 961 to 1,029, open issues 420 to 486).
 
 ## See also
 
@@ -91,7 +92,7 @@ Not for token-cost audits (ccusage and agentsview stay the tools for that), and 
 
 - https://api.github.com/repos/Louis-CFM/coucou - 5,119 stars, 853 forks, MIT license, created 2026-09-27, pushed 2026-10-13, as of 2026-10-13
 - https://raw.githubusercontent.com/Louis-CFM/coucou/main/README.md - the agents table, hook and plugin mechanisms, CloudKit sync and relay design, privacy statements, and the versions table
-- https://api.github.com/repos/Louis-CFM/coucou/releases - v0.1.0 (2026-09-27) through the Mac v0.5.0 and v0.5.1 trains of 2026-10-18 and the Windows/Linux v0.5.0 builds of 2026-10-15, and android-v0.1.0 (2026-10-11) through android-v0.2.0 (2026-10-13)
+- https://api.github.com/repos/Louis-CFM/coucou/releases - the Mac line v0.1.0 (2026-09-27) through v0.5.3 (2026-10-22), the Windows/Linux builds through 0.5.3 (2026-10-23), and android-v0.1.0 (2026-10-11) through android-v0.3.0 (2026-10-22) (re-fetched 2026-10-25)
 - https://api.github.com/repos/Louis-CFM/coucou/releases/tags/v0.4.0 - the Mac 0.4.0 release note: the Dock window, Flow dictation, Parakeet, and the notetaker
 - https://api.github.com/repos/Louis-CFM/coucou/contributors - the Louis-CFM 192 and claude 156 commit split behind the AI-co-author caution
 - https://louis-cfm.github.io/coucou/ - the homepage grounding the product summary, downloads, and the 0.3 voice announcement

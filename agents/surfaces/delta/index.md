@@ -1,7 +1,7 @@
 ---
 title: Delta
 created: 2026-10-04
-updated: 2026-10-16
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, agentic-development-environments, version-control, code-review, multiplayer]
 readability: 3
@@ -73,6 +73,7 @@ The disagreeable claim I will defend: the durable idea here is not replacing Git
 - 2026-10-04 - Created from the entrant scan after the 2026-09-16 public beta cleared the bar (DeltaDB thread at 529 points, beta thread at 154 with 102 comments, six sources fetched including the vendor's own data-storage doc conceding the deletion caveats).
 - 2026-10-09 - Recorded the blog cadence through the first week of October: Escaping the tyranny of worktrees (October 6), The Diff: September 2026 with more provider options and orchestrating threads with threads (October 7), and Please Stop Sending Me Google Docs (October 8); pricing re-verified unchanged.
 - 2026-10-16 - Recorded the DeltaDB engineering deep-dive post (October 15, Conrad Irwin, on the CRDT design, the fragment index, and structural sharing, no release announced, leaving the open-source question open); pricing re-verified unchanged.
+- 2026-10-25 - Rotation re-verification, all nine cited URLs re-fetched live: the beta announcement, both DeltaDB posts, the core-concepts and data-storage docs, the beta thread (still 154 points, 102 comments), and the pricing ladder (Personal $0, Pro $10 with $5 of tokens) all stand, and the blog index still ends at the October 15 post.
 
 ## See also
 
@@ -88,7 +89,7 @@ The disagreeable claim I will defend: the durable idea here is not replacing Git
 - https://zed.dev/blog/introducing-deltadb - the 2026-06-11 DeltaDB announcement: deltas with stable identities, message-and-edit pairing, CRDT worktrees
 - https://delta.dev/docs/concepts/core-concepts - threads, projects, and Delta worktrees, and the Git-compatibility guarantee
 - https://delta.dev/docs/privacy-and-security/data-storage - what is stored server-side, the Cloudflare backend, email-only deletion, and what Delete Locally does not remove
-- https://delta.dev/pricing - Personal $0 and Pro $10/month, accounts and credits shared with Zed, re-verified 2026-10-16
-- https://delta.dev/blog - the blog index dating the October posts: Escaping the tyranny of worktrees (October 6), The Diff: September 2026 (October 7), Please Stop Sending Me Google Docs (October 8), and DeltaDB: The Future of Version Control (October 15), re-fetched 2026-10-16 (no posts since)
+- https://delta.dev/pricing - Personal $0 and Pro $10/month, accounts and credits shared with Zed, re-verified 2026-10-25
+- https://delta.dev/blog - the blog index dating the October posts: Escaping the tyranny of worktrees (October 6), The Diff: September 2026 (October 7), Please Stop Sending Me Google Docs (October 8), and DeltaDB: The Future of Version Control (October 15), re-fetched 2026-10-25 (no posts since)
 - https://delta.dev/blog/future-of-version-control - the October 15, 2026 DeltaDB deep-dive: the diamond-types-based CRDT scheme, the fragment index, structural sharing, Git interop, and per-character authorship, with no release announced
 - https://news.ycombinator.com/item?id=49727245 - the beta thread (154 points, 102 comments as of 2026-10-04): the merge-gating, privacy-upload, and why-not-a-PR criticisms, plus positive beta-user reports

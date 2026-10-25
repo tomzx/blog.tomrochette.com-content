@@ -1,7 +1,7 @@
 ---
 title: Arc Kit
 created: 2026-10-13
-updated: 2026-10-21
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, governance, enterprise-architecture]
 readability: 3
@@ -17,13 +17,13 @@ Arc Kit is a solo-maintained, MIT-licensed governance harness for enterprise arc
 ## What it is
 
 A command catalog plus templates, scripts, and bundled MCP servers (AWS Knowledge, Microsoft Learn, Google Developer Knowledge, and UK public-sector scrapers), created by a UK-public-sector-background maintainer in October 2025.
-Claude Code is the premier platform (autonomous research agents, automation hooks, automatic marketplace updates); the same 76 commands ship as a Gemini CLI extension, Copilot prompt files, a Mistral extension, Kimi Code skills, and Codex and OpenCode formats.
+Claude Code is the premier platform (autonomous research agents, automation hooks, automatic marketplace updates, with the standalone `arckit-claude` marketplace now the recommended install); the same 76 commands ship as a Gemini CLI extension, Copilot prompt files, a Mistral extension, Kimi Code skills, and Codex and OpenCode formats.
 The catalog covers architecture principles, stakeholder analysis, Orange Book risk, Green Book business cases, requirements with ERD and GDPR checks, build-versus-buy research, Wardley Mapping, Mermaid diagrams, vendor RFPs, formal design reviews, ServiceNow design, requirements traceability, and inline citation markers for external documents.
-A plugin system composes regional and sector overlays (EU, UK NHS, UAE, TOGAF ADM), and every artifact carries a provenance record of the model and effort level that produced it.
+A plugin system composes regional and sector overlays, fourteen community plugins as of 2026-10-25, from the EU, UAE, France, Austria, and Canada to Australia and USA federal packs, NHS clinical safety, UK finance, Australian energy, and TOGAF ADM, and every artifact carries a provenance record of the model and effort level that produced it; the project also ships an Open Badges certification program.
 
 ## Status
 
-Active and growing: 2,255 stars, 283 forks, and 23 open issues as of 2026-10-14, created 2025-10-14 and pushed 2026-10-20 (as of 2026-10-21), effectively solo (95 of the last 100 commits), with release v6.18.2 (2026-10-12) the newest of a train that shipped v6.18.0 and v6.18.1 on October 10 and 12.
+Active and growing: 2,255 stars, 283 forks, and 23 open issues as of 2026-10-14, created 2025-10-14 with its default branch last committing 2026-10-20 (as of 2026-10-25), effectively solo (95 of the last 100 commits), with release v6.18.2 (2026-10-12) the newest of a train that shipped v6.18.0 and v6.18.1 on October 10 and 12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tractorjuice/arc-kit&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ Not for pure software spec work (Spec Kit and peers are lighter), multi-maintain
 
 - 2026-10-13 - Created.
 - 2026-10-14 - Added the release train (v6.18.0 through v6.18.2, October 10 to 12) and refreshed counts.
+- 2026-10-25 - Rotation re-verification of every cited source (all alive, the release train unchanged at v6.18.2): recorded the overlay catalog's growth to fourteen community plugins (France, Netherlands, Austria, Canada, Australia, and USA among the newer jurisdictions), the standalone arckit-claude marketplace as the recommended Claude Code install, and the Open Badges certification program.
 
 ## See also
 

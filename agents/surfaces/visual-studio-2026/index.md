@@ -1,7 +1,7 @@
 ---
 title: Visual Studio 2026
 created: 2026-10-06
-updated: 2026-10-16
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, microsoft, windows]
 readability: 3
@@ -26,7 +26,7 @@ The October 2026 update (18.11) extends that SDK bet to the whole chat: an opt-i
 
 **Active and incumbent-paced: monthly feature updates plus weekly patches.**
 GA landed November 11, 2025 after the largest preview in the product's history, with the vendor's own framing of the release as the first "Intelligent Developer Environment".
-The 2026 train: 18.8 (July 14, built-in .NET and Azure skills, usage tracking, Review Selection), 18.9 (August 11, thinking-effort controls, organization-level custom agents, Git worktrees in the IDE), 18.10 (September 8, the BYOK preview with breaking changes against the earlier BYOK experience, Git agent PR exploration), and 18.11 (October 13, the opt-in new Copilot chat experience on the Copilot SDK, Hot Exit for unsaved work, numbered document tabs, and bulk merge-conflict resolution), with 18.11.0 the current feature update and 18.10.4 the current 18.10 security patch (both October 13, 2026, the patch a roll-up of roughly fifty CVE fixes).
+The 2026 train: 18.8 (July 14, built-in .NET and Azure skills, usage tracking, Review Selection), 18.9 (August 11, thinking-effort controls, organization-level custom agents, Git worktrees in the IDE), 18.10 (September 8, the BYOK preview with breaking changes against the earlier BYOK experience, Git agent PR exploration), and 18.11 (October 13, the opt-in new Copilot chat experience on the Copilot SDK, Hot Exit for unsaved work, numbered document tabs, and bulk merge-conflict resolution), with 18.11.1 the current servicing release (October 20, a compose-debugging fix, the 10.0.26100.9457 Windows SDK in the installer, and C++23 feature-complete in IntelliSense minus modules) and 18.11.0 the current feature update beside the 18.10.4 security patch (both October 13, 2026, the patch a roll-up of roughly fifty CVE fixes).
 Microsoft reports over 5,000 reported bugs fixed and 300 feature requests shipped in the year before GA, and the IDE is decoupled from its .NET and C++ build tools so it can update monthly without moving toolchains.
 
 ## Strengths
@@ -72,6 +72,7 @@ Not for cross-platform teams, and not for anyone who wants an open client or pre
 
 - 2026-10-06 - Created from the entrant scan: the category's seed list never named Microsoft's full IDE, and Visual Studio 2026's agent stack (agent mode with MCP, cloud agents since 18.1, the 18.10 BYOK preview) cleared the citation bar easily; six sources fetched including the RAM-controversy thread as the critical source.
 - 2026-10-16 - Rotation re-verification: recorded the October update 18.11.0 (October 13, the opt-in new Copilot chat experience moving Ask mode, Agent mode, and chat onto the GitHub Copilot SDK, beside Hot Exit, numbered document tabs, and bulk merge-conflict resolution) and the 18.10.4 security patch, where the note still called 18.10.3 current; the subscription ladder re-verified unchanged.
+- 2026-10-25 - Rotation re-verification, all six cited URLs re-fetched live: recorded the 18.11.1 servicing release (October 20, the compose-debugging fix, the Windows SDK update in the installer, and C++23 feature-complete in IntelliSense minus modules) as the current patch; the Copilot feature docs, the subscription ladder, and the RAM thread all stand, prices unchanged.
 
 ## See also
 
@@ -82,7 +83,7 @@ Not for cross-platform teams, and not for anyone who wants an open client or pre
 
 ## References
 
-- https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes - 18.11.0 (October 13, 2026, the new Copilot chat experience on the Copilot SDK, Hot Exit, numbered tabs, bulk conflict resolution) and the 18.10.4 security roll-up as the current patches, the 18.8 to 18.10 AI feature train, and the BYOK preview with its providers and breaking changes
+- https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes - 18.11.1 (October 20, 2026, the compose-debugging fix, the Windows SDK servicing, and C++23 IntelliSense completeness) above 18.11.0 (October 13, 2026, the new Copilot chat experience on the Copilot SDK, Hot Exit, numbered tabs, bulk conflict resolution) and the 18.10.4 security roll-up as the current patches, the 18.8 to 18.10 AI feature train, and the BYOK preview with its providers and breaking changes, re-verified 2026-10-25
 - https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-get-started - agent mode, MCP, the Plan agent, cloud agents since 18.1, custom instructions and agents, and built-in skills, re-verified 2026-10-16
 - https://learn.microsoft.com/en-us/visualstudio/ide/ai-assisted-development-visual-studio - the Copilot and IntelliCode overview and the April 20, 2026 Copilot Pro trial pause, re-verified 2026-10-16
 - https://visualstudio.microsoft.com/vs/pricing/ - Community license terms and subscription prices, re-verified 2026-10-16 (ladder unchanged)

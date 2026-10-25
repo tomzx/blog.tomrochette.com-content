@@ -1,7 +1,7 @@
 ---
 title: Epiq
 created: 2026-10-10
-updated: 2026-10-21
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, event-sourcing, git, open-source]
 readability: 3
@@ -24,9 +24,9 @@ Commits prefixed with a ticket's ref land in the ticket's inline code diff, wher
 ## Status
 
 Active and shipping fast.
-As of 2026-10-21: 542 stars (as of 2026-10-14), 22 forks, zero open issues and pull requests, created 2025-06-22, pushed 2026-10-20, latest release v1.14.0 on 2026-10-20, and 2,281 npm downloads last month.
+As of 2026-10-25: 542 stars (as of 2026-10-14), 22 forks, 1 open issue and pull request, created 2025-06-22, pushed 2026-10-24, latest release v1.15.2 on 2026-10-23, and 1,746 npm downloads last month.
 The v1.12.x line shipped four releases in twelve days, and v1.13.0 followed five days later with cross-repository commit linking: a board can connect other repos, commits in them land on the tickets they name and in the timeline, and read-only clones fetched on sync (capped at 2 GB each, self-recovering) make the linked diffs work outside the board's own checkout.
-v1.13.1 and v1.13.2 (2026-10-19) fixed a slow TUI memory leak (releases had been shipping React's development build, which records a timing entry on every screen update), and v1.14.0 (2026-10-20) let boards and lanes carry descriptions that hold the conventions agents follow, handed out by the MCP server on assume, get, create, and move, plus board flow stats over eight weeks, commit linking through an Epiq-Ref line in the commit body, and drafts that survive tab switches.
+v1.13.1 and v1.13.2 (2026-10-19) fixed a slow TUI memory leak (releases had been shipping React's development build, which records a timing entry on every screen update), v1.14.0 (2026-10-20) let boards and lanes carry descriptions that hold the conventions agents follow, handed out by the MCP server on assume, get, create, and move, plus board flow stats over eight weeks, commit linking through an Epiq-Ref line in the commit body, and drafts that survive tab switches, and the v1.15 line landed three releases on 2026-10-23: v1.15.0 added dense cards (a Wide/Dense switch collapsing a card to title plus one ref line, a clock on stalled tickets, live dots on tickets touched in the last five minutes, and click-to-filter assignees and tags), v1.15.1 fixed an SSH repo connect failure, and v1.15.2 extended time travel so cards and the Code tab show each ticket's code as it was at the needle, with the needle's position kept in the URL.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ljtn/epiq&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ My disagreeable claim: the append-only event log is a better memory format for a
 - 2026-10-10 - Created after the broad-list and GitHub search scan surfaced the 91-point launch thread the category had not resolved.
 - 2026-10-13 - Recorded the v1.13.0 release (2026-10-13: cross-repository commit linking, so commits in connected repos land on the tickets they name and in the timeline, with read-only clones fetched on sync and capped at 2 GB) and refreshed counts (542 stars, 1 open issue, pushed 2026-10-13, 2,751 npm downloads).
 - 2026-10-21 - Recorded the v1.13.1 and v1.13.2 fixes (2026-10-19, the TUI memory leak from releases shipping React's development build) and v1.14.0 (2026-10-20: board and lane descriptions that hold conventions agents follow and are handed out over MCP, board flow stats, commit linking through an Epiq-Ref line, unsent-text preservation); refreshed counts (zero open issues and pull requests, pushed 2026-10-20, 2,281 npm downloads).
+- 2026-10-25 - Recorded the v1.15.0 to v1.15.2 releases (all 2026-10-23: dense cards with a Wide/Dense switch, stalled-ticket clocks and live dots, click-to-filter cards, an SSH repo-connect fix, and time travel showing each ticket's code as it was at the needle with the position kept in the URL) and refreshed counts (1 open issue and pull request, pushed 2026-10-24, 1,746 npm downloads).
 
 ## See also
 
@@ -83,9 +84,9 @@ My disagreeable claim: the append-only event log is a better memory format for a
 ## References
 
 - https://github.com/ljtn/epiq - repository: README, MCP setup, agent identities, install paths (fetched 2026-10-10)
-- https://api.github.com/repos/ljtn/epiq - stars, forks, dates, MIT license as of 2026-10-21
+- https://api.github.com/repos/ljtn/epiq - stars, forks, dates, MIT license as of 2026-10-25
 - https://raw.githubusercontent.com/ljtn/epiq/main/readme.md - the event-sourced model, conflict handling, MCP and skill setup, worktree sync
 - https://ljtn.github.io/epiq/ - the site: teams-and-agents positioning, live monitoring and replay wording, the MCP tool count
 - https://news.ycombinator.com/item?id=48155570 - the 91-point launch thread: the distributed-tracker history objection, the last-event-wins exchange, the MCP-versus-skill debate
-- https://api.github.com/repos/ljtn/epiq/releases - v1.14.0 (2026-10-20), the v1.13.1 and v1.13.2 fixes (2026-10-19), v1.13.0 (2026-10-13), and the release train through v1.12.4
-- https://api.npmjs.org/downloads/point/last-month/epiq - 2,281 downloads last month
+- https://api.github.com/repos/ljtn/epiq/releases - v1.15.2 (2026-10-23), the v1.15.0 and v1.15.1 releases of the same day, v1.14.0 (2026-10-20), and the release train through v1.12.4
+- https://api.npmjs.org/downloads/point/last-month/epiq - 1,746 downloads last month

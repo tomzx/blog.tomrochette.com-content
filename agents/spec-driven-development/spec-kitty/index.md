@@ -1,7 +1,7 @@
 ---
 title: Spec Kitty
 created: 2026-10-06
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, governance, worktrees, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Slash commands or skills integrate Claude Code, Codex, Cursor, Gemini, Copilot, 
 ## Status
 
 Active, company-backed, and mid-adoption.
-As of 2026-10-14: 1,681 stars and 180 forks since creation on 2025-10-09, MIT, stable PyPI release 3.2.7 (2026-09-09) and 3,251 PyPI downloads last month (re-read byte-identical on 2026-10-23, fourth identical read); as of 2026-10-23, pushed 2026-10-23 with the 4.x release-candidate line still at v4.0.0rc7 (2026-10-15), a breaking cut that renames `doctrine` to `charter` across config, directories, and commands with no alias, whose README says stable launch acceptance remains pending.
+As of 2026-10-14: 1,681 stars and 180 forks since creation on 2025-10-09, MIT, stable PyPI release 3.2.7 (2026-09-09) and 3,251 PyPI downloads last month (re-read byte-identical on 2026-10-25, fifth identical read); as of 2026-10-25, pushed 2026-10-25 with the 4.x release-candidate line still at v4.0.0rc7 (2026-10-15), a breaking cut that renames `doctrine` to `charter` across config, directories, and commands with no alias, whose README says stable launch acceptance remains pending.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&theme=dark&legend=top-left" />

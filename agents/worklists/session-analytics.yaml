@@ -3,7 +3,7 @@ category: session-analytics
 generated: 2026-10-25
 mapped_sources:
   - repo: anhermon/awesome-agent-observability
-    last_checked: 2026-10-23
+    last_checked: 2026-10-25
 digest_lines:
   - "- 2026-09-16 (ruled 2026-08-22) | cross-category | vendor sibling products fold into the sibling note by default | gemini-cli/Antigravity set it; applied to oh-my-pi, Codex App, OpenCode Desktop, Warp Factories, LiteParse, cursor CLI and routines; oh-my-pi left the fold on its own bar clearance 2026-10-10"
   - "- 2026-10-22 | cross-category | npm weekly download figures carry zero-day gaps, so adoption claims prefer the trailing-month window | context7's npm week to 2026-10-18 reported 482,795 with three zero days inside the window while the trailing month read 2,640,895"

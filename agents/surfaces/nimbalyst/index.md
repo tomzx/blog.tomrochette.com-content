@@ -1,7 +1,7 @@
 ---
 title: Nimbalyst
 created: 2026-10-11
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -26,7 +26,7 @@ It is built by a four-person team and continues the lineage of Crystal, the orch
 ## Status
 
 **Active on a fast train, with a small independent footprint.**
-The repository was created 2025-10-30 and shows 1,908 stars and 304 forks as of 2026-10-16, with v0.81.7 (October 16, Claude Code sessions suggesting your next prompt with Tab to fill, Claude Agent sessions auto-resuming when a usage limit resets, and new editor blocks: charts, callouts, columns, tabs, a table of contents, transclusions, @ mentions, and link previews) as the latest release after v0.81.6 (October 15, the wiki plugin telling the agent at session start which local wiki pages cover the code and which cover uncommitted changes, plus new wikiDoctor and listMarks tools) and the v0.81.4 and v0.81.5 pair of October 14 (local-wiki fixes and team moves, and interactive HTML pages embedded live in documents as a new wiki page type).
+The repository was created 2025-10-30 and shows 1,908 stars and 304 forks as of 2026-10-16, with v0.81.7 (October 16, Claude Code sessions suggesting your next prompt with Tab to fill, Claude Agent sessions auto-resuming when a usage limit resets, and new editor blocks: charts, callouts, columns, tabs, a table of contents, transclusions, @ mentions, and link previews) as the latest release tagged stable, after v0.81.6 (October 15, the wiki plugin telling the agent at session start which local wiki pages cover the code and which cover uncommitted changes, plus new wikiDoctor and listMarks tools) and the v0.81.4 and v0.81.5 pair of October 14 (local-wiki fixes and team moves, and interactive HTML pages embedded live in documents as a new wiki page type); a v0.82 pre-release train (v0.82.0 through v0.82.3, October 23 to 25, cross-worktree commit proposals, wiki static-site export, context-usage bars, and Codex and WSL fixes) runs above the stable tag.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nimbalyst/nimbalyst&type=date&theme=dark&legend=top-left" />

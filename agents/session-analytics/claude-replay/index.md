@@ -1,7 +1,7 @@
 ---
 title: claude-replay
 created: 2026-10-07
-updated: 2026-10-17
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, replay, shareable-artifacts]
 readability: 3
@@ -23,7 +23,7 @@ A built-in web editor lets you exclude turns, add bookmarks, and edit prompts be
 
 ## Status
 
-Active with a quiet recent month: created 2026-03-02, 844 stars, 67 forks, last push 2026-10-16 (a GitHub Actions dependency bump, the only commit since 2026-09-18), as of 2026-10-17.
+Active with a quiet recent month: created 2026-03-02, 844 stars, 69 forks, last push 2026-10-16 (a GitHub Actions dependency bump, the only commit since 2026-09-18), as of 2026-10-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=es617/claude-replay&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active with a quiet recent month: created 2026-03-02, 844 stars, 67 forks, last 
 </picture>
 
 The project carries an explicit endorsement listing in the awesome-claude-code directory, which calls the output "fantastic".
-Its own traction numbers are modest: 506 npm downloads in the week to 2026-10-12 and no Hacker News thread of its own, so adoption evidence is the star curve and the directory listing, not download volume.
+Its own traction numbers are modest: 406 npm downloads in the week to 2026-10-22 and no Hacker News thread of its own, so adoption evidence is the star curve and the directory listing, not download volume.
 
 ## Strengths
 
@@ -67,6 +67,7 @@ Not for cost auditing, search, or analytics, and not for teams needing many acti
 
 - 2026-10-07 - Created.
 - 2026-10-17 - Re-verified on the 2026-10-16 push signal: the only commit since 2026-09-18 is a GitHub Actions dependency bump, so the quiet-development caution stands with that precision; every cited URL re-fetched and live, release line unchanged at v0.11.0.
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched and live; the release line unchanged at v0.11.0, the 2026-10-16 dependency bump still the only commit since 2026-09-18, weekly npm downloads refreshed (506 to 406, week to 2026-10-22), and repository counts refreshed (forks 67 to 69).
 
 ## See also
 
@@ -80,5 +81,5 @@ Not for cost auditing, search, or analytics, and not for teams needing many acti
 - https://github.com/es617/claude-replay - repository, MIT license, the seven-harness table with transcript locations, and the feature list (fetched 200, 2026-10-07)
 - https://api.github.com/repos/es617/claude-replay - stars, forks, created date, and push date for the as-of status (fetched 200, 2026-10-07)
 - https://es617.dev/claude-replay/ - the web conversion surface, themes, export options, redaction, and Docker mode (fetched 200, 2026-10-07)
-- https://api.npmjs.org/downloads/point/last-week/claude-replay - weekly download volume for the adoption claim (506 in the week to 2026-10-12, fetched 2026-10-16)
+- https://api.npmjs.org/downloads/point/last-week/claude-replay - weekly download volume for the adoption claim (406 in the week to 2026-10-22, fetched 2026-10-25)
 - https://raw.githubusercontent.com/hesreallyhim/awesome-claude-code/HEAD/README.md - the directory endorsement grounding the community-recognition claim (fetched 200, 2026-10-07)

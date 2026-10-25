@@ -1,7 +1,7 @@
 ---
 title: ClawTrace
 created: 2026-09-27
-updated: 2026-10-17
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, session-analytics, observability, openclaw, cost-tracking]
 readability: 3
@@ -26,7 +26,7 @@ The repository is Apache-2.0, but the hosted cloud is the product and no self-ho
 
 ## Status
 
-Active but with the thinnest footprint in the category: 47 stars, 11 forks, 3 open issues, created 2026-04-10, last pushed 2026-08-15, with the npm plugin at version 0.1.23 published 2026-04-16, unchanged and re-verified as of 2026-10-16.
+Active but with the thinnest footprint in the category: 47 stars, 11 forks, 3 open issues, created 2026-04-10, last pushed 2026-08-15, with the npm plugin at version 0.1.23 published 2026-04-16, unchanged and re-verified as of 2026-10-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=epsilla-cloud/clawtrace&type=date&theme=dark&legend=top-left" />
@@ -85,6 +85,7 @@ Not for anyone who needs traces to stay local, multi-harness coverage, or a self
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-07 - Added the epsilla-cloud/clawtrace star history chart to the Status section.
 - 2026-10-17 - Rotation re-verification: all eight cited URLs re-fetched and live; repository state (pushed 2026-08-15), the eight-hook README, the credit packages and rates (100 free credits on sign-up still; the 200-credit figure is the referral bonus), and the paper page all unchanged.
+- 2026-10-25 - Rotation re-verification: all eight cited URLs re-fetched and live; repository state (47 stars, 11 forks, pushed 2026-08-15, not archived), the npm plugin (still 0.1.23), the product and billing pages, the paper, and the 1-point Show HN all unchanged.
 
 ## See also
 

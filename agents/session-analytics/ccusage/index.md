@@ -1,7 +1,7 @@
 ---
 title: ccusage
 created: 2026-10-05
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The repository is a monorepo created by ryoppippi (the project moved from his pe
 ## Status
 
 **The most-installed tool in this category by an order of magnitude, and until today the only one this section had never profiled.**
-About 19k stars (19,001) and 884 forks as of 2026-10-21, created 2025-05-29, pushed 2026-10-23 (GitHub API).
+About 19k stars (19,001) and 890 forks as of 2026-10-25, created 2025-05-29, pushed 2026-10-25 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&theme=dark&legend=top-left" />
@@ -32,8 +32,8 @@ About 19k stars (19,001) and 884 forks as of 2026-10-21, created 2025-05-29, pus
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&legend=top-left" />
 </picture>
 
-The npm package pulled 870,995 downloads in the trailing month (2026-09-19 to 2026-10-18), roughly nine times the claude-mem plugin and far ahead of every session-analytics peer here.
-The release line is v20.x with rapid patches: v20.0.41 (2026-10-22, the Antigravity model ID 1402 mapped to claude-opus-5-5) is the latest tagged release, after v20.0.40 (2026-10-21, --start-of-week accepted on top-level weekly reports) and v20.0.37 (2026-10-19, requestless resp_ content blocks in Claude transcripts counted once), as of 2026-10-23.
+The npm package pulled 826,577 downloads in the trailing month (2026-09-23 to 2026-10-22), roughly nine times the claude-mem plugin and far ahead of every session-analytics peer here.
+The release line is v20.x with rapid patches: v20.0.44 (2026-10-24, a release-packaging fix that publishes the platform packages before the wrapper) is the latest tagged release, after v20.0.43 (2026-10-24, source-specific config applied inside unified reports), v20.0.42 (2026-10-23, no significant changes), and v20.0.41 (2026-10-22, the Antigravity model ID 1402 mapped to claude-opus-5-5), as of 2026-10-25.
 Its Show HN launch thread reached 75 points in July 2025, and the README carries an Awesome Claude Code mention badge.
 
 ## Strengths
@@ -76,6 +76,7 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 - 2026-10-18 - Recorded v20.0.35 (2026-10-17): stored cost reported in JSON model breakdowns; npm latest moved to 20.0.35, ending the registry lag behind the GitHub tags, trailing-month downloads refreshed (877,566 to 869,690, window 2026-09-17 to 2026-10-16), and the pushed date moved to 2026-10-18.
 - 2026-10-19 - Recorded v20.0.36 (2026-10-18): Antigravity model-ID mappings (1418/1419 to gemini-4-argon, 1050 to gemini-3.1-flash-lite) and Nix dependency pinning; npm latest moved to 20.0.36 with no registry lag, the trailing-month download snapshot returned byte-identical to 2026-10-18 and stands, and the pushed date moved to 2026-10-19.
 - 2026-10-21 - Recorded v20.0.37 (2026-10-19): requestless resp_ content blocks in Claude transcripts counted once; npm latest moved to 20.0.37, the trailing-month downloads refreshed (869,690 to 870,995, window 2026-09-19 to 2026-10-18), and the pushed date moved to 2026-10-20.
+- 2026-10-25 - Recorded v20.0.42 through v20.0.44 (2026-10-23 and 10-24): source-specific config now applied inside unified reports, plus a release-packaging fix that publishes the platform packages before the wrapper; npm latest moved to 20.0.44, trailing-month downloads refreshed (870,995 to 826,577, window 2026-09-23 to 2026-10-22), and the pushed date moved to 2026-10-25.
 
 ## See also
 
@@ -90,8 +91,8 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 - https://github.com/ccusage/ccusage - repository, 18.9k stars and 864 forks as of 2026-10-05, created 2025-05-29, the ryoppippi origin and ccusage-org move (the ryoppippi/ccusage URL redirects here)
 - https://raw.githubusercontent.com/ccusage/ccusage/main/apps/ccusage/README.md - the eighteen-source table, report types, blocks and statusline features, offline mode, and pricing overrides
 - https://raw.githubusercontent.com/ccusage/ccusage/main/apps/ccusage/LICENSE - the MIT license text, copyright ryoppippi
-- https://api.npmjs.org/downloads/point/last-month/ccusage - 870,995 trailing-month downloads (2026-09-19 to 2026-10-18), fetched 2026-10-21
-- https://registry.npmjs.org/ccusage - npm latest 20.0.37, matching the v20.0.37 GitHub tag (re-verified 2026-10-21)
-- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.37 (2026-10-19), v20.0.36 (2026-10-18), v20.0.35 (2026-10-17), v20.0.34 (2026-10-15), v20.0.33 and v20.0.32 (2026-10-14), and v20.0.31 (2026-10-13) release dates
+- https://api.npmjs.org/downloads/point/last-month/ccusage - 826,577 trailing-month downloads (2026-09-23 to 2026-10-22), fetched 2026-10-25
+- https://registry.npmjs.org/ccusage - npm latest 20.0.44, matching the v20.0.44 GitHub tag (re-verified 2026-10-25)
+- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.44 and v20.0.43 (2026-10-24), v20.0.42 (2026-10-23), v20.0.41 (2026-10-22), and v20.0.37 (2026-10-19) release dates (re-fetched 2026-10-25)
 - https://news.ycombinator.com/item?id=44610925 - the 75-point launch thread (2025-07-18), carrying the npx-security critique and the estimate-versus-bill debates
 - https://ccusage.com - the docs site, a client-rendered VitePress shell this run, with the title and description verified in the served HTML

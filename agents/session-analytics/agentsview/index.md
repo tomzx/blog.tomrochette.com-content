@@ -1,7 +1,7 @@
 ---
 title: agentsview
 created: 2026-08-30
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, token-usage, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop build
 
 ## Status
 
-Young and active: 6,094 stars, 664 forks, 112 open issues and PRs as of 2026-10-21, created 2026-02-19.
+Young and active: 6,094 stars, 661 forks, 131 open issues and PRs as of 2026-10-25, created 2026-02-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Young and active: 6,094 stars, 664 forks, 112 open issues and PRs as of 2026-10-
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.46.1 on 2026-10-23, a day that shipped two releases: v0.46.0 added opt-in web-chat imports, Claude.ai chats synced through a Chrome extension plus ChatGPT, Codex web, and Codex cloud task chats ingested as searchable sessions, and v0.46.1 repaired Antigravity CLI transcript parsing on read-only mounts; with steady releases since July it is pre-1.0 with fast feature churn.
+Latest release v0.46.1 on 2026-10-23, a day that shipped two releases: v0.46.0 added opt-in web-chat imports, Claude.ai chats synced through a Chrome extension plus ChatGPT, Codex web, and Codex cloud task chats ingested as searchable sessions, and v0.46.1 repaired Antigravity CLI transcript parsing on read-only mounts; with steady releases since July it is pre-1.0 with fast feature churn, and unreleased main-branch work was still landing after v0.46.1 as of 2026-10-25 (session-context export, dated friction digests, and PostgreSQL push optimizations).
 
 ## Strengths
 
@@ -43,7 +43,7 @@ Latest release v0.46.1 on 2026-10-23, a day that shipped two releases: v0.46.0 a
 
 ## Cautions
 
-- Pre-1.0 with breaking schema bumps (the docs' token-usage page documents schema version 5 again, re-verified 2026-10-21, after documenting version 6 from 2026-10-10 through 2026-10-19, the sixth flip this section has recorded), so scripts consuming its output churn either way.
+- Pre-1.0 with breaking schema bumps (the docs' token-usage page documents schema version 5 again, re-verified 2026-10-25, after documenting version 6 from 2026-10-10 through 2026-10-19, the sixth flip this section has recorded), so scripts consuming its output churn either way.
 - Token coverage is opportunistic: cost rows appear only when a transcript contains both token counts and a priceable model, and the docs admit known undercounts such as Claude WebSearch side-calls.
 - The 84-223x benchmark numbers the docs used to publish were vendor-supplied on vendor hardware, and their removal leaves no performance evidence in either direction.
 - The daemon, serve, DuckDB, and PostgreSQL surface is real operational weight if all you wanted was a cost report.
@@ -84,6 +84,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched and live, no release after v0.45.0 with main-branch fixes landing unreleased, the schema caution re-verified unchanged at version 6, and repository counts refreshed (forks 689 to 699, open issues and PRs 164 to 107).
 - 2026-10-21 - The docs' token-usage page flipped back to schema version 5 (it documented version 6 from 2026-10-10 through 2026-10-19, and also names version 2 as the origin of the cost_source enum), the sixth recorded flip; no release after v0.45.0 with unreleased main-branch work continuing (a gptme parser emitting provider-reported exact-cost usage events), and repository counts refreshed (forks 699 to 664, open issues and PRs 107 to 112).
 - 2026-10-23 - Recorded v0.46.0 and v0.46.1 (both 2026-10-23): opt-in web-chat imports joined the sources, Claude.ai chats sync through a Chrome extension and ChatGPT, Codex web, and Codex cloud task chats ingest as searchable sessions, and Antigravity CLI transcript parsing recovered on read-only mounts.
+- 2026-10-25 - Volatile re-verification: no release after v0.46.1 with unreleased main-branch work continuing (session-context export, dated friction digests, and PostgreSQL push optimizations landing 2026-10-24/25), the docs' token-usage page re-verified still at schema version 5, and repository counts refreshed (forks 664 to 661, open issues and PRs 112 to 131).
 
 ## See also
 
@@ -96,7 +97,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 
 - https://github.com/kenn-io/agentsview - repository, supported agents, architecture, license
 - https://www.agentsview.io - docs, architecture, install, and the Kenn Software attribution
-- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the usage JSON contract (re-verified 2026-10-21, the page documenting version 5 again after carrying version 6 from 2026-10-10 through 2026-10-19)
+- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the usage JSON contract (re-verified 2026-10-25, the page documenting version 5 again after carrying version 6 from 2026-10-10 through 2026-10-19)
 - https://github.com/kenn-io/agentsview/releases - release cadence and current version
 - https://github.com/simple10/agents-observe - comparison data for the live-observability alternative
 - https://code.claude.com/docs/en/costs - the built-in cost tracking this category extends
