@@ -1,7 +1,7 @@
 ---
 title: PicoClaw
 created: 2026-08-27
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, golang, edge, risc-v, open-source]
 readability: 3
@@ -23,7 +23,7 @@ It reached 20k stars in 17 days from a February 2026 start.
 ## Status
 
 Active, pre-1.0, and explicit about both.
-30,020 stars and 4,449 forks as of 2026-10-14 since creation on 2026-02-04, pushed 2026-10-15 with 39 open issues as of 2026-10-23, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
+30,020 stars and 4,449 forks as of 2026-10-14 since creation on 2026-02-04, pushed 2026-10-15 with 36 open issues as of 2026-10-25, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sipeed/picoclaw&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ My disagreeable claim: the size race is now the category's main axis of progress
 - 2026-09-29 - Recorded that the picoclaw.io TLS certificate was renewed (valid through 2027-04-14), ending the expired-cert break recorded on 2026-09-20.
 - 2026-10-07 - Added the sipeed/picoclaw star history chart to the Status section.
 - 2026-10-18 - Rotation re-verification: every cited URL re-fetched live, v0.3.1 (2026-07-03) confirmed still the latest release and both README banners (the production warning and the scam notice) intact, and the surface growth recorded (the README now documents 19-plus channel platforms, 30-plus model providers, and skills installable from the ClawHub registry), with refreshed adoption numbers.
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched live (repo and README, the releases API, picoclaw.io, docs.picoclaw.io, the Show HN thread via Algolia), v0.3.1 (2026-07-03) confirmed still the latest release, both README banners intact, the official site and docs serving normally, and the site's marketing figures (<10MB RAM, under-1-second boot, 16-plus channels) confirmed live, with refreshed adoption numbers.
 
 ## See also
 

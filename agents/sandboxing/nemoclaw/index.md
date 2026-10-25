@@ -1,7 +1,7 @@
 ---
 title: NemoClaw
 created: 2026-10-07
-updated: 2026-10-19
+updated: 2026-10-25
 readability: 3
 audience_notes: >
   Engineers who want to run an always-on assistant (OpenClaw, Hermes, or LangChain Deep Agents) inside an OpenShell sandbox without assembling the integration themselves.
@@ -24,7 +24,7 @@ Apache-2.0, from NVIDIA, which describes the project as alpha with best-effort m
 
 ## Status
 
-Large and fast for an alpha: 22,754 stars, 3,142 forks, 796 open issues and PRs as of 2026-10-16, created 2026-03-15, pushed 2026-10-19.
+Large and fast for an alpha: 22,754 stars, 3,142 forks, 796 open issues and PRs as of 2026-10-16, created 2026-03-15, pushed 2026-10-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: Nanobot
 created: 2026-08-30
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 ## Status
 
-One of the fastest adoption curves in the category: 48,998 stars and 8,633 forks as of 2026-10-14, created 2026-02-01, 865 open issues with the last push on 2026-10-23 as of 2026-10-23.
+One of the fastest adoption curves in the category: 48,998 stars and 8,633 forks as of 2026-10-14, created 2026-02-01, 863 open issues with the last push on 2026-10-25 as of 2026-10-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/nanobot&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for production assistants unattended on the open internet, or anyone who nee
 - 2026-09-16 - Recorded v0.3.5 on PyPI (2026-09-15), the first release since July, with refreshed adoption numbers.
 - 2026-10-07 - Added the HKUDS/nanobot star history chart to the Status section.
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, confirming v0.3.5 (2026-09-15) still the latest release and the Alpha classification current on PyPI, and recording the second maintainer name (Yongru Chen) joining the README's maintainers table and the Teams and Linear channels joining its channel table.
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched live (repo and README, the PyPI registry, the HN thread via Algolia, both comparison-baseline repos), v0.3.5 (2026-09-15) confirmed still the latest release with the Alpha classification current and the two-name maintainers table intact, with refreshed adoption numbers.
 
 ## See also
 
@@ -83,7 +84,7 @@ Not for production assistants unattended on the open internet, or anyone who nee
 
 - https://github.com/HKUDS/nanobot - repository, features, license, adoption numbers
 - https://raw.githubusercontent.com/HKUDS/nanobot/HEAD/README.md - surfaces, install paths, and the OpenClaw positioning
-- https://pypi.org/project/nanobot-ai/ - the Alpha classification, release cadence, and maintainer record (re-checked 2026-10-19 via the registry API, v0.3.5 still latest)
+- https://pypi.org/project/nanobot-ai/ - the Alpha classification, release cadence, and maintainer record (re-checked 2026-10-25 via the registry API, v0.3.5 still latest)
 - https://news.ycombinator.com/item?id=46897737 - the 257-point launch thread, including the security critique
 - https://github.com/openclaw/openclaw - the comparison baseline
 - https://github.com/zeroclaw-labs/zeroclaw - the comparison data

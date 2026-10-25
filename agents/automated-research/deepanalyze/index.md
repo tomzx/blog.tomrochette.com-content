@@ -1,7 +1,7 @@
 ---
 title: DeepAnalyze
 created: 2026-10-10
-updated: 2026-10-15
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, agentic-llm, data-science, open-source]
 readability: 3
@@ -20,12 +20,12 @@ DeepAnalyze-8B, released October 21, 2025 with a paper (arXiv 2510.16872, online
 Training uses a curriculum-based agentic paradigm that mimics a data scientist's learning trajectory, with training trajectories synthesized from data sources, so the model learns to question, prepare, analyze, model, visualize, and report without workflow code.
 Given structured data (databases, CSV, Excel), semi-structured files (JSON, XML, YAML), or unstructured text, it runs open-ended data research and produces analyst-grade reports.
 Deployment is `vllm serve DeepAnalyze-8B` plus a WebUI or a Docker-sandboxed WebUI v2, with a hosted API available through HeyWhale key applications.
-The authors are Shaolei Zhang, Ju Fan, Meihao Fan, Guoliang Li, and Xiaoyong Du (Renmin University of China with Tsinghua), and the ecosystem has widened: DA-Studio, the system behind WebUI v2, was accepted to the VLDB 2026 demonstration track, CoDA-Bench evaluates code agents on data-intensive analytical tasks, DeepPrep extends the loop to data preparation, and EvoOntology adds a self-evolving ontology layer.
+The authors are Shaolei Zhang, Ju Fan, Meihao Fan, Guoliang Li, and Xiaoyong Du (Renmin University of China with Tsinghua), and the ecosystem has widened: DA-Studio, the system behind WebUI v2, was accepted to the VLDB 2026 demonstration track, CoDA-Bench evaluates code agents on data-intensive analytical tasks, DeepPrep extends the loop to data preparation, EvoOntology adds a self-evolving ontology layer, and SkillAdam packages the lab's skill-improvement loop as a plugin for Codex, Claude Code, Cursor Agent, and GitHub Copilot.
 It served as the official agent for the 2026 China Collegiate Computer Design Contest's Big Data track.
 
 ## Status
 
-Active: 4,714 stars, 742 forks, created 2025-10-11, last push 2026-10-13 (a README news update), as of 2026-10-15.
+Active: 4,714 stars as of 2026-10-15, 746 forks, created 2025-10-11, last push 2026-10-13 (a README news update), as of 2026-10-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ruc-datalab/DeepAnalyze&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Active: 4,714 stars, 742 forks, created 2025-10-11, last push 2026-10-13 (a READ
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ruc-datalab/DeepAnalyze&type=date&legend=top-left" />
 </picture>
 
-**The usage footprint is far thinner than the star count: the Hugging Face weights show 211 downloads and 93 likes as of 2026-10-15, and a Hacker News search returns zero stories, so adoption runs through the Chinese data-science community (PaperWeekly, WeChat, the collegiate contest) rather than the Western harness ecosystem.**
+**The usage footprint is far thinner than the star count: the Hugging Face weights show 144 trailing-month downloads and 93 likes as of 2026-10-25 (down from 211 in mid-October as the window rolled), and a Hacker News search returns zero stories, so adoption runs through the Chinese data-science community (PaperWeekly, WeChat, the collegiate contest) rather than the Western harness ecosystem.**
 
 ## Strengths
 
@@ -47,7 +47,7 @@ Active: 4,714 stars, 742 forks, created 2025-10-11, last push 2026-10-13 (a READ
 - The headline claim is self-reported in the paper's own evaluation, and no independent replication surfaced in this run's searches.
 - A single 8B model plans, executes, and judges its own work inside the sandbox, so there is no external verifier anywhere in the loop.
 - The project homepage ships with its template placeholders unfilled, thin for a project of the claimed importance.
-- 4,678 stars against 203 model downloads and zero Hacker News stories says the stars measure attention, not usage.
+- 4,714 stars against 144 trailing-month model downloads and zero Hacker News stories says the stars measure attention, not usage.
 
 ## Pricing
 
@@ -68,6 +68,7 @@ Not for audit-sensitive analysis: the loop's only judge is the model that wrote 
 ## Changes
 
 - 2026-10-10 - Created.
+- 2026-10-25 - Rotation re-verification: refreshed the Hugging Face usage footprint (144 trailing-month downloads, down from 211, with likes steady at 93), harmonized the star figure in the cautions line with the status baseline, and added SkillAdam to the ecosystem list; every cited URL re-fetched, all live.
 
 ## See also
 
@@ -78,10 +79,10 @@ Not for audit-sensitive analysis: the loop's only judge is the model that wrote 
 
 ## References
 
-- https://github.com/ruc-datalab/DeepAnalyze - repository, README, task surface, deployment paths, and the ecosystem news timeline (fetched 200, 2026-10-10)
-- https://api.github.com/repos/ruc-datalab/DeepAnalyze - stars, forks, created and pushed dates, and the MIT license for the as-of status (fetched 200, 2026-10-15)
-- https://arxiv.org/abs/2510.16872 - the paper: title, authors, October 19 2025 online date, curriculum-based agentic training, and the frontier-workflow-agents comparison claim (fetched 200, 2026-10-10)
-- https://huggingface.co/RUC-DataLab/DeepAnalyze-8B - the open weights page (fetched 200, 2026-10-10)
-- https://huggingface.co/api/models/RUC-DataLab/DeepAnalyze-8B - the 211 downloads and 93 likes usage footprint (fetched 200, 2026-10-15)
-- https://ruc-deepanalyze.github.io/ - the project homepage, fetched with its template placeholders unfilled (fetched 200, 2026-10-10)
-- https://hn.algolia.com/api/v1/search?query=DeepAnalyze - the zero-story Hacker News footprint (fetched 200, 2026-10-10)
+- https://github.com/ruc-datalab/DeepAnalyze - repository, README, task surface, deployment paths, and the ecosystem news timeline (fetched 200, 2026-10-25)
+- https://api.github.com/repos/ruc-datalab/DeepAnalyze - stars, forks, created and pushed dates, and the MIT license for the as-of status (fetched 200, 2026-10-25)
+- https://arxiv.org/abs/2510.16872 - the paper: title, authors, October 19 2025 online date, curriculum-based agentic training, and the frontier-workflow-agents comparison claim (fetched 200, 2026-10-25)
+- https://huggingface.co/RUC-DataLab/DeepAnalyze-8B - the open weights page, 144 downloads last month (fetched 200, 2026-10-25)
+- https://huggingface.co/api/models/RUC-DataLab/DeepAnalyze-8B - the 144 trailing-month downloads and 93 likes usage footprint (fetched 200, 2026-10-25)
+- https://ruc-deepanalyze.github.io/ - the project homepage, fetched with its template placeholders unfilled (fetched 200, 2026-10-25)
+- https://hn.algolia.com/api/v1/search?query=DeepAnalyze - the zero-story Hacker News footprint (fetched 200, 2026-10-25)

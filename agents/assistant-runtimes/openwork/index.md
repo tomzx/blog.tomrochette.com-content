@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -23,7 +23,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 701 open issues and PRs with the last push on 2026-10-23 as of 2026-10-23.
+Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 708 open issues and PRs with the last push on 2026-10-25 as of 2026-10-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&legend=top-left" />
 </picture>
 
-v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause, v0.18.57 on 2026-10-07, v0.18.58 on 2026-10-13, v0.18.59 on 2026-10-20, and v0.18.60 on 2026-10-22.
+v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause, v0.18.57 on 2026-10-07, v0.18.58 on 2026-10-13, v0.18.59 on 2026-10-20, v0.18.60 on 2026-10-22, and v0.18.61 and v0.18.62 on 2026-10-23 (pop-out computer view and floating browser windows, then OneDrive and SharePoint file support).
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 
 ## Strengths
@@ -117,6 +117,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - 2026-10-21 - Pricing churned a sixteenth time: the two add-ons returned to the page again and the grandfather clause left again (back to the fourteenth churn's state, the first-5-Cloud-seats-free offer listed on the Free tier), with the three main prices unchanged (Price history row).
 - 2026-10-23 - Recorded v0.18.60 (2026-10-22) following v0.18.59, with refreshed adoption numbers.
 - 2026-10-23 - Pricing churned a seventeenth time: the two add-ons left the page again and the grandfather clause returned, reversing the sixteenth churn, with the Free tier's cloud offer framed as a free OpenWork Cloud plan for up to 5 users (Price history row).
+- 2026-10-25 - Recorded v0.18.61 and v0.18.62 (both 2026-10-23: pop-out computer view and floating browser windows, then OneDrive and SharePoint file support), with pricing re-checked unchanged (the seventeenth-churn state holds) and refreshed adoption numbers.
 
 ## See also
 
@@ -131,7 +132,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - https://raw.githubusercontent.com/different-ai/openwork/HEAD/README.md - the directory-split licensing terms and gateway
 - https://openworklabs.com - product scope and the built-on-OpenCode positioning
 - https://openworklabs.com/pricing - the tiers for the pricing rows
-- https://api.github.com/repos/different-ai/openwork/releases - the release tags through v0.18.60 (2026-10-22, still latest as of 2026-10-23)
+- https://api.github.com/repos/different-ai/openwork/releases - the release tags through v0.18.62 (2026-10-23, still latest as of 2026-10-25)
 - https://github.com/different-ai/openwork/releases/tag/v0.18.42 - release cadence and installer signing
 - https://news.ycombinator.com/item?id=46612494 - the launch thread with the security-boundary questions
 - https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork - Anthropic's help center stating Claude Cowork is now just Claude

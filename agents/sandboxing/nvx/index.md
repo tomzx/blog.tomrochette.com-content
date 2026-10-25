@@ -1,7 +1,7 @@
 ---
 title: NVX
 created: 2026-10-07
-updated: 2026-10-23
+updated: 2026-10-25
 readability: 3
 audience_notes: >
   Platform engineers tracking where Microsoft research is taking microVM isolation for agentic workloads, especially on Windows hypervisors.
@@ -23,7 +23,7 @@ This is a research artifact with a release train of daily `v0.1.0-dev` prereleas
 
 ## Status
 
-Young, institutional, and quiet in public: 400 stars, pushed 2026-10-18, created 2026-08-27.
+Young, institutional, and quiet in public: 400 stars, pushed 2026-10-25, created 2026-08-27.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Young, institutional, and quiet in public: 400 stars, pushed 2026-10-18, created
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&legend=top-left" />
 </picture>
 
-Daily dev prereleases have cut continuously since late September 2026, the newest on 2026-10-23.
+Daily dev prereleases have cut continuously since late September 2026, the newest on 2026-10-25.
 **The single Hacker News thread drew 4 points on 2026-10-03, so this is a Microsoft research release being watched by almost nobody yet, and its substance lives in the design and non-goals documents rather than community debate.**
 
 ## Strengths

@@ -1,7 +1,7 @@
 ---
 title: aicontainer
 created: 2026-10-12
-updated: 2026-10-19
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, devcontainer, containers, isolation, open-source]
 readability: 3
@@ -19,12 +19,12 @@ aicontainer is an MIT devcontainer-spec CLI that runs Claude Code, Codex, and Op
 
 An npm-distributed CLI (`aic`, package aicontainer, bundled with @devcontainers/cli) that generates and maintains a `.devcontainer` per project and manages the agent's life inside it: `aic init`, `aic up`, `aic shell`, `aic sync`, and a `aic preflight` that prints the exact boundary for your actual config.
 The boundary table answers, per surface, what crosses: the project directory read-write (with `.devcontainer/` and the repo's git control files read-only), host home and `.ssh` never, credentials never auto-forwarded (you log in once inside the container), and host git, Claude, Codex, and OpenCode config reduced to a fixed set of safe fields by a root-only, networkless one-shot sanitizer before the agent sees them.
-An always-on block covers IPv4 and IPv6 link-local and common cloud-metadata endpoints; outbound network is otherwise open unless you opt in to the allowlist; a PreToolUse hook stops the agent from reading `.env` files; session transcripts persist in a path-unique per-project volume.
+An always-on block covers IPv4 and IPv6 link-local and common cloud-metadata endpoints; outbound network is otherwise open unless you opt in to the allowlist; a shared PreToolUse guardrail hook refuses obvious `.env` reads, `curl | sh` pipes, and writes to the sandbox control files across all three tools; session transcripts persist in a path-unique per-project volume.
 Solo author (Stefano Ginella), first published 2026-05-22, positioned by its own README as the same design as Trail of Bits's claude-code-devcontainer with Codex and OpenCode added, three explicit Docker-access modes, and managed shell startup.
 
 ## Status
 
-The thinnest footprint in the category's admitted set after aigate: 21 stars as of 2026-10-16, solo author, created 2026-05-22, pushed 2026-10-19, MIT.
+The thinnest footprint in the category's admitted set after aigate: 21 stars as of 2026-10-16, solo author, created 2026-05-22, pushed 2026-10-22, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stefanoginella/aicontainer&type=date&theme=dark&legend=top-left" />
@@ -32,9 +32,10 @@ The thinnest footprint in the category's admitted set after aigate: 21 stars as 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=stefanoginella/aicontainer&type=date&legend=top-left" />
 </picture>
 
-npm carries 0.12.1 (2026-10-14) after 0.12.0 and 0.11.0 the two days before, ending six weeks at 0.9.1, with 505 downloads in the trailing month (2026-09-13 to 2026-10-12), and I found no Hacker News thread for the project.
+npm carries 0.12.1 (2026-10-14) after 0.12.0 and 0.11.0 the two days before, ending six weeks at 0.9.1, with 516 downloads in the trailing month (2026-09-23 to 2026-10-22), and I found no Hacker News thread for the project.
 The 0.12 pair hardens the boundary further (root processes inside the container no longer search agent-writable PATH directories or write history to the shared volume) and fixes the agent-status relay behind the firewall.
-Development is active to a degree the star count hides: commits landed through 2026-10-19, and the messages document threat-model reasoning (a probe that fails closed against Node-manager shims, an npm 12 packaging fix) in unusual detail.
+Development since that release is dependency automation only: the main branch has not moved since 2026-10-14, and the pushes through 2026-10-22 are renovate branches.
+The commit messages up to the release document threat-model reasoning (a probe that fails closed against Node-manager shims, an npm 12 packaging fix) in unusual detail.
 **Twenty-one stars is a missing-community-footprint signal by the category's own standard, carried here by boundary documentation that reads like an audit candidate rather than by adoption.**
 
 ## Strengths
@@ -72,6 +73,7 @@ Not for anyone needing a kernel or VM boundary, an audited isolation claim, or a
 - 2026-10-12 - Created from the 2026-10-12 awesome-claude-code scan, profiling the devcontainer-spec entrant with the socket-proxy boundary recorded as the distinguishing mechanism and the thin footprint recorded as the signal.
 - 2026-10-13 - Recorded the release train resuming: npm 0.10.0 (2026-10-12) and 0.11.0 (2026-10-13) after six weeks at 0.9.1, with trailing-month downloads moving from 401 to 505.
 - 2026-10-16 - Recorded 0.12.0 and 0.12.1 (both 2026-10-14), the root-PATH and root-history hardening fixes and the firewalled agent-status relay repair, with the star count refreshed to twenty-one.
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched and alive (repository, npm registry, npm downloads, containers.dev, the Trail of Bits devcontainer, the HN search); trailing-month downloads moved from 505 to 516, the guardrail hook's scope corrected to what the README states (it also refuses `curl | sh` pipes and control-file writes), and the activity reading corrected: the main branch has not moved since the 0.12.1 release of 2026-10-14, and the pushes through 2026-10-22 are renovate dependency branches only.
 
 ## See also
 
@@ -84,7 +86,7 @@ Not for anyone needing a kernel or VM boundary, an audited isolation claim, or a
 
 - https://github.com/stefanoginella/aicontainer - repository, README boundary table, threat model references, Docker-access modes, 20 stars, dates, license, as of 2026-10-12
 - https://registry.npmjs.org/aicontainer - the npm package record, latest 0.12.1 (2026-10-14)
-- https://api.npmjs.org/downloads/point/last-month/aicontainer - 401 trailing-month downloads (2026-09-11 to 2026-10-10)
+- https://api.npmjs.org/downloads/point/last-month/aicontainer - 516 trailing-month downloads (2026-09-23 to 2026-10-22)
 - https://containers.dev/ - the devcontainer specification the project implements
 - https://github.com/trailofbits/claude-code-devcontainer - the Trail of Bits devcontainer the README names as adjacent work, 951 stars
 - https://hn.algolia.com/api/v1/search?query=aicontainer&tags=story - no dedicated thread (2026-10-12), the footprint record

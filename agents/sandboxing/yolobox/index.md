@@ -1,7 +1,7 @@
 ---
 title: Yolobox
 created: 2026-10-09
-updated: 2026-10-20
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, containers, docker, isolation, open-source]
 readability: 3
@@ -24,8 +24,8 @@ MIT, solo author (Finbarr), docs at yolobox.dev.
 
 ## Status
 
-Young and shipping hard: 649 stars as of 2026-10-13, pushed 2026-10-20, created 2026-01-09, with sixty-nine releases on the train and v0.19.10 (2026-10-20) the latest.
-The two newest fixes keep the agent's own channel clean: v0.19.9 unblocked the first-launch OpenCode startup stuck on an invisible setup prompt, and v0.19.10 kept image pull and build progress off stdout so a pull can no longer inject into the ACP client's protocol stream or consume its first request.
+Young and shipping hard: 649 stars as of 2026-10-13, pushed 2026-10-23, created 2026-01-09, with seventy releases on the train and v0.19.11 (2026-10-23) the latest.
+The newest fixes polish the edges the wrapper itself owns: v0.19.9 unblocked the first-launch OpenCode startup stuck on an invisible setup prompt, v0.19.10 kept image pull and build progress off stdout so a pull can no longer inject into the ACP client's protocol stream or consume its first request, and v0.19.11 repaired `reset --force` and uninstall volume handling on the Apple container runtime, so reset removes only matching volumes and uninstall preserves the installation when runtime cleanup fails.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=finbarr/yolobox&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for hostile code, by its own docs, and not on hosts where Docker is unavaila
 - 2026-10-10 - Corrected the release-train count from thirty to sixty-six (the v0.1.0 through v0.19.7 releases list, fetched in full), the original figure having counted a single page; stars and the 122-point thread unchanged.
 - 2026-10-18 - Recorded v0.19.8 (2026-10-18, OpenCode launch fixes in the base image and smoke tests), the release train moving from sixty-six to sixty-seven, with the repository pushed 2026-10-18; stars untouched per the exemption.
 - 2026-10-20 - Recorded v0.19.9 (2026-10-18, the first-launch OpenCode startup fix for the invisible setup prompt) and v0.19.10 (2026-10-20, image pull and build progress kept off stdout so ACP client protocol streams stay clean), the release train moving from sixty-seven to sixty-nine; stars untouched per the exemption.
+- 2026-10-25 - Recorded v0.19.11 (2026-10-23, reset and uninstall volume handling on the Apple container runtime: reset removes only matching volumes, uninstall preserves the installation when runtime cleanup fails), the release train moving from sixty-nine to seventy, with the repository pushed 2026-10-23; stars untouched per the exemption.
 
 ## See also
 
@@ -86,6 +87,7 @@ Not for hostile code, by its own docs, and not on hosts where Docker is unavaila
 - https://yolobox.dev - the docs site and the problem-and-solution framing
 - https://yolobox.dev/security - the Security Model page: trust boundary, protects and does-not-protect lists, trust-expanding flags
 - https://hn.algolia.com/api/v1/items/46592344 - the 122-point Show HN launch
-- https://api.github.com/repos/finbarr/yolobox/releases - the release train, sixty-nine releases from v0.1.0 (2026-01-11) to v0.19.10 (2026-10-20)
+- https://api.github.com/repos/finbarr/yolobox/releases - the release train, seventy releases from v0.1.0 (2026-01-11) to v0.19.11 (2026-10-23)
 - https://api.github.com/repos/finbarr/yolobox/releases/tags/v0.19.9 - the v0.19.9 release note: the first-launch OpenCode startup fix
 - https://api.github.com/repos/finbarr/yolobox/releases/tags/v0.19.10 - the v0.19.10 release note: image pull and build progress off the ACP stdout stream
+- https://api.github.com/repos/finbarr/yolobox/releases/tags/v0.19.11 - the v0.19.11 release note: reset and uninstall volume cleanup on the Apple container runtime

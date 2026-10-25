@@ -1,7 +1,7 @@
 ---
 title: Overalls
 created: 2026-10-21
-updated: 2026-10-21
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, firecracker, nixos, self-hosted]
 readability: 3
@@ -23,7 +23,7 @@ Made by Geoffrey Huntley (the Ralph loop author) with support from Antithesis, C
 
 ## Status
 
-Research preview, and it says so itself: the README banner reads "Not for consumption", with the launch set for 3 November 2026; no release or tag exists yet, and the default branch held 30 commits as of 2026-10-21.
+Research preview, and it says so itself: the README banner reads "Not for consumption", with the launch set for 3 November 2026; no release or tag exists yet, and the default branch holds 1,746 commits as of 2026-10-25, over 200 of them landed since 2026-10-21 in a launch-prep train of small Windows, Android, and Apple client fixes (the 30-commit figure recorded at creation miscounted a single default page).
 The repository was created 2025-12-18 as loom, announced 2026-01-17 as The Weaving Loom, "infrastructure for evolutionary software" that he told readers not to use, and renamed to Overalls by mid-October 2026 (the loom URL 301-redirects; the website repository appeared 2026-10-16).
 1,557 stars as of 2026-10-21, MIT.
 
@@ -69,6 +69,7 @@ Not for laptop-scale users (a wrapper like Fence or Landrun is the lighter answe
 ## Changes
 
 - 2026-10-21 - Created from the coordinator handoff resolving the loom-to-Overalls rename surfaced by the software-factory worker and confirmed by the cross-category scanner, with the loom history (2025-12 creation, 2026-01 do-not-use announcement) and the pre-launch state recorded.
+- 2026-10-25 - Corrected the commit count (the default branch holds 1,746 commits as of 2026-10-25, not the 30 recorded at creation, which miscounted a single default page), with over 200 commits since 2026-10-21 in the launch-prep train across the Windows, Android, and Apple clients and the README banner still setting launch for 3 November 2026.
 
 ## See also
 

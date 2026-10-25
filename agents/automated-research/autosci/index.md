@@ -1,7 +1,7 @@
 ---
 title: AutoSci
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, research-wiki, memory, multi-harness, open-source]
 readability: 3
@@ -16,7 +16,7 @@ AutoSci is a memory-centric research agent that runs the full scientific lifecyc
 
 ## What it is
 
-A bilingual English-and-Chinese skills-and-Python platform (github.com/skyllwt/AutoSci, MIT, internal beta) described in the May 2026 paper "AutoSci: A Memory-Centric Agentic System for the Full Scientific Research Lifecycle" (arXiv 2605.31468, 19 listed authors led by Weitong Qian).
+A bilingual English-and-Chinese skills-and-Python platform (github.com/PKU-DAIR/AutoSci, MIT, internal beta; the repository moved from the skyllwt personal account into the PKU-DAIR organization in October 2026) described in the May 2026 paper "AutoSci: A Memory-Centric Agentic System for the Full Scientific Research Lifecycle" (arXiv 2605.31468, 19 listed authors led by Weitong Qian, with Bin Cui, the DAIR lab's head, as senior author).
 Four modules carry the loop: SciMem (schema-governed research memory splitting long-term knowledge from project memory), SciFlow, SciDAG, and SciEvolve.
 The main branch is the stable Claude Code version; autosci-codex and autosci-opencode are official preview adaptations, and the paper's full system is frozen on the paper branch (tag arxiv-v1).
 The OpenCode build turns papers and notes into a linked wiki, with an llm-review MCP server for writing review and confirmation gates before destructive actions, experiment execution, and external communication.
@@ -24,13 +24,15 @@ The README traces the project to an earlier OmegaWiki prototype and invokes Karp
 
 ## Status
 
-Active and beta: 1,698 stars, 214 forks, created 2026-04-09, last pushed 2026-10-02, as of 2026-10-11.
+Active and beta: 1,698 stars as of 2026-10-11, 214 forks, created 2026-04-09, last pushed 2026-10-21 (a WeChat-group QR refresh), as of 2026-10-25.
+The repository now lives under the PKU-DAIR organization, the Peking University Data and Intelligence Research lab whose senior author Bin Cui leads it; the old skyllwt URLs redirect and the README still points at them.
+Since the note's creation the README also grew a works-produced section listing three papers generated end to end with the platform (Triton GPU-kernel optimization, PROTAC drug-discovery target nomination, and an LLM positivity-bias cognitive-model study).
 No GitHub releases and no relevant Hacker News threads surfaced this run; the README calls the project an internal beta shaped by community feedback.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=skyllwt/AutoSci&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=skyllwt/AutoSci&type=date&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=skyllwt/AutoSci&type=date&legend=top-left" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PKU-DAIR/AutoSci&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=PKU-DAIR/AutoSci&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=PKU-DAIR/AutoSci&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -66,6 +68,7 @@ Not for anyone needing a stable release: all three builds are beta, and the Open
 ## Changes
 
 - 2026-10-11 - Created.
+- 2026-10-25 - Volatile re-verification: recorded the repository's October transfer from the skyllwt personal account into the PKU-DAIR organization (Bin Cui's Peking University DAIR lab), the October 21 push, the chart's move to the canonical PKU-DAIR path, and the README's new works-produced section with three sample papers.
 
 ## See also
 
@@ -76,8 +79,9 @@ Not for anyone needing a stable release: all three builds are beta, and the Open
 
 ## References
 
-- https://github.com/skyllwt/AutoSci - repository, MIT license, 1,698 stars, last push 2026-10-02 (as of 2026-10-11)
-- https://raw.githubusercontent.com/skyllwt/AutoSci/main/README.md - branch layout, SciMem/SciFlow/SciDAG/SciEvolve, internal-beta status, OmegaWiki origin, paper link (fetched 200, 2026-10-11)
+- https://github.com/PKU-DAIR/AutoSci - repository (the skyllwt/AutoSci URL redirects here), MIT license, 1,698 stars, last push 2026-10-21 (as of 2026-10-25)
+- https://api.github.com/orgs/PKU-DAIR - the organization: Data and Intelligence Research (DAIR) Lab at Peking University, email bin.cui@pku.edu.cn (fetched 200, 2026-10-25)
+- https://raw.githubusercontent.com/PKU-DAIR/AutoSci/main/README.md - branch layout, SciMem/SciFlow/SciDAG/SciEvolve, internal-beta status, OmegaWiki origin, paper link, and the works-produced table (fetched 200, 2026-10-25)
 - https://arxiv.org/abs/2605.31468 - the paper: authors and the four-module memory-centric design (fetched 200 via the arXiv API, 2026-10-11)
-- https://raw.githubusercontent.com/skyllwt/AutoSci/autosci-opencode/README.md - the OpenCode build: wiki, llm-review MCP, confirmation gates, boundaries (fetched 200, 2026-10-11)
+- https://raw.githubusercontent.com/PKU-DAIR/AutoSci/autosci-opencode/README.md - the OpenCode build: wiki, llm-review MCP, confirmation gates, boundaries (fetched 200, 2026-10-11)
 - https://hn.algolia.com/api/v1/search?query=AutoSci - the search returning no threads for this project (fetched 200, 2026-10-11)

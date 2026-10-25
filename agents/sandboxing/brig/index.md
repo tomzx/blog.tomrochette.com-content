@@ -1,7 +1,7 @@
 ---
 title: Brig
 created: 2026-10-06
-updated: 2026-10-19
+updated: 2026-10-25
 readability: 3
 audience_notes: >
   Engineers who want a maintained microVM around coding agents on their own Apple Silicon or Linux workstation.
@@ -23,7 +23,7 @@ Built by NOFire AI, the team behind urunc, a CNCF Sandbox project; images, boot 
 
 ## Status
 
-Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 2026-08-12, pushed 2026-10-19, Apache-2.0.
+Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 2026-08-12, pushed 2026-10-24, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 20
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&legend=top-left" />
 </picture>
 
-v0.2.0 shipped 2026-09-15, v0.3.0 on 2026-09-26, v0.4.0 on 2026-10-06, and v0.4.1 on 2026-10-16, which pins the Linux runtime bundle at rc17 and reopens the remote-and-Kubernetes non-goals in the docs (issues #482 through #485), with the channel-main prerelease train cutting two more builds on 2026-10-16.
+v0.2.0 shipped 2026-09-15, v0.3.0 on 2026-09-26, v0.4.0 on 2026-10-06, and v0.4.1 on 2026-10-16, which pins the Linux runtime bundle at rc17 and reopens the remote-and-Kubernetes non-goals in the docs (issues #482 through #485), with the channel-main prerelease train cutting two more builds on 2026-10-16 and a channel-experimental 0.4.2 line opening after it (builds on 2026-10-23 and 2026-10-24, v0.4.1 still the newest tagged release).
 The Show HN launch on 2026-09-22 drew 9 points, and the maintainer's introduction is most of the thread's substance, so the community footprint is thin and the documentation is where the evidence lives.
 **A nine-point launch against 228 stars in nine weeks reads as quiet, deliberate adoption rather than a wave, and no independent audit or benchmark exists yet, while v0.4.0's breaking changes show the security defaults are still moving: new sandboxes now get isolated networks by default on hvi and Linux, and the runtime refuses shims that share the host kernel.**
 
@@ -73,6 +73,7 @@ Not for Intel Macs, for vz or qemu users who need enforced egress policy, or for
 - 2026-10-07 - Recorded v0.4.0 (2026-10-06) with its breaking changes (new sandboxes isolated by default on hvi and Linux, host-kernel shims refused, exit 7 for unenforceable properties), corrected the Linux egress-enforcement caution against the current security docs (enforced in nftables), and refreshed counts (211 stars).
 - 2026-10-11 - Corrected the prerelease window (channel-main builds end at the 0.4.1 cuts of 2026-10-08, none since) and refreshed counts (226 stars).
 - 2026-10-17 - Recorded v0.4.1 (2026-10-16, the runtime bundle pinned at rc17, the remote-and-Kubernetes non-goals reopened in the docs) and the channel-main train resuming on 2026-10-16, and corrected the Bottom line's egress wording (vz and qemu lack enforcement; Linux enforces in nftables since v0.4.0, as the Cautions already state).
+- 2026-10-25 - Recorded the channel-experimental 0.4.2 line opening (builds on 2026-10-23 and 2026-10-24, v0.4.1 still the newest tagged release), with the repository pushed 2026-10-24.
 
 ## See also
 
@@ -84,7 +85,7 @@ Not for Intel Macs, for vz or qemu users who need enforced egress policy, or for
 ## References
 
 - https://github.com/brig-sh/brig - repository, README, platform table, install, verification defaults
-- https://github.com/brig-sh/brig/releases - the v0.2.0, v0.3.0, and channel-main release record
+- https://github.com/brig-sh/brig/releases - the v0.2.0, v0.3.0, channel-main, and channel-experimental release record
 - https://brig.sh/docs/quickstart/ - the doctor/run/stop workflow, the execution envelope, host support
 - https://brig.sh/docs/security/ - the boundary claims, measured shared-network results, credential limits, and trust assumptions
 - https://hn.algolia.com/api/v1/items/49802729 - the 9-point Show HN launch by NOFire AI's founder

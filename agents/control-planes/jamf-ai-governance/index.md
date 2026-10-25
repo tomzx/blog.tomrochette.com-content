@@ -1,7 +1,7 @@
 ---
 title: Jamf AI Governance
 created: 2026-10-05
-updated: 2026-10-16
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, endpoint, macos, commercial]
 readability: 3
@@ -62,6 +62,7 @@ Not for Linux or Windows fleets, for teams needing per-action runtime authorizat
 
 - 2026-10-05 - Created from the entrant-resolution run, profiling the Mac-native endpoint configuration governance capability as the second endpoint-anchored commercial entrant after CrowdStrike Falcon Guardian.
 - 2026-10-16 - Rotation re-verification: all six references re-fetched, the June 30 GA press release confirming the date, the 78,000-organization and 35-million-device figures, the Claude Code, Claude Desktop, and Codex coverage list, and the Okta integration unchanged; the Business Wire mirror now blocks scripted fetches and its reference records that.
+- 2026-10-25 - Full rotation re-verification: all six references re-fetched, every claim this note traces unchanged (the June 30 GA date, the coverage list, the Okta integration, the 78,000-organization and 35-million-device figures, the after-yes positioning, Cursor and GitHub Copilot still named only as follow-ups), the solutions page additionally listing AI Activity, Model, and Browser Insights as coming-soon roadmap items, the learn.jamf.com documentation path still a client-rendered shell, and the Business Wire mirror again 403 to scripted fetch.
 
 ## See also
 

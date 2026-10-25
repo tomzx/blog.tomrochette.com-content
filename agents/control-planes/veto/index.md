@@ -1,7 +1,7 @@
 ---
 title: Veto
 created: 2026-09-27
-updated: 2026-10-16
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-authorization, policy-enforcement, tool-calls, human-in-the-loop, open-source]
 readability: 3
@@ -33,7 +33,7 @@ The repository was created 2026-01-02 and sits at 14 stars, 2 forks, and 1 open 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=PlawIO/veto&type=date&legend=top-left" />
 </picture>
 
-The website, docs, and pricing pages remain live with prices unchanged (re-verified 2026-10-10), and the company markets to agent vendors and regulated buyers, so the commercial product is clearly alive while the public source has shipped nothing new yet.
+The website, docs, and pricing pages remain live with plan prices unchanged (re-verified 2026-10-25), and the company markets to agent vendors and regulated buyers, so the commercial product is clearly alive while the public source has shipped nothing new yet.
 **The public footprint is small: a Hacker News search for Veto returns nothing relevant, and the starred count is in the low tens, so adoption evidence comes from the product surfaces rather than the community.**
 One operational wrinkle the README states plainly: Plaw does not yet control the unscoped `veto` npm name, so installs use the `veto-cli` package form until the transfer completes.
 
@@ -56,6 +56,7 @@ One operational wrinkle the README states plainly: Plaw does not yet control the
 Developer is $0 per month with 5,000 action checks, 7 days of decision records, and no credit card; the Apache-2.0 local engine is included.
 Hosted is $299 per month for 100,000 checks, $0.75 per 1,000 checks above plan, 90 days of records, and unlimited seats and reviewers.
 Enterprise is custom, covering cloud, BYOC, on-prem, or isolated networks with HIPAA BAA, SSO, SCIM, and SLAs.
+Beside the plans, the site sells three fixed-price policy packs (MCP Attack + Guard $1,500, Agent Refund Policy Pack $2,000, AI Act Article 50 Ready $750), a done-for-you services motion first recorded 2026-10-25.
 
 ## Price history
 
@@ -63,6 +64,7 @@ Enterprise is custom, covering cloud, BYOC, on-prem, or isolated networks with H
 | ---- | ---- | ------ | ------ |
 | 2026-09-27 | Developer | Introduced at $0/month, 5,000 checks, hard cap | https://veto.so/pricing |
 | 2026-09-27 | Hosted | Introduced at $299/month, 100K checks, $0.75 per 1K overage | https://veto.so/pricing |
+| 2026-10-25 | Policy packs | First recorded: three fixed-price packs, MCP Attack + Guard $1,500, Agent Refund Policy Pack $2,000, AI Act Article 50 Ready $750 | https://veto.so/ |
 
 ## Compared to
 
@@ -81,6 +83,7 @@ Enterprise is custom, covering cloud, BYOC, on-prem, or isolated networks with H
 - 2026-10-07 - Added the PlawIO/veto star history chart to the Status section.
 - 2026-10-10 - Moved the repository status from dormant to revived: five release-engineering commits on 2026-10-09 (CI, npm trusted publishing, a provenance-staged receipt package, a Neon Postgres example) after 113 days of silence, with no new tag; prices re-verified unchanged.
 - 2026-10-16 - The revival gained its first feature commit (runtime action SDK clients, PR 252) on 2026-10-14, still with no new tag; the caution updated.
+- 2026-10-25 - Full rotation re-verification: every cited URL re-fetched and live, the plan prices and the repository unchanged (still veto-sdk@2.9.3, no push since 2026-10-14), the README's adapter matrix and npm-name caveat confirmed, and the site's new fixed-price policy packs ($750 to $2,000) recorded in Pricing.
 
 ## See also
 

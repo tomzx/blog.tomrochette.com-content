@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-10-21
+updated: 2026-10-25
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-10-21.
+Everything here was verified against live sources on 2026-10-25.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -33,7 +33,7 @@ Underneath all four sit the conventions that make the parts interchangeable: MCP
 **The harness, not the model, is the product you actually operate every day, and the big four have become platforms rather than tools.**
 [Claude Code](../harnesses/claude-code/index.md) runs in the terminal, in VS Code and JetBrains, as a desktop app, and on the web, with sessions that move between surfaces, subagents, skills, hooks, an Agent SDK, and scheduled cloud routines, at about 150.7k GitHub stars.
 [Codex](../harnesses/codex/index.md) covers the same spread, with a CLI, an IDE extension, desktop, web, and cloud forms, and it configures itself through AGENTS.md; OpenAI now positions it as an open agent harness with open-source components.
-[Gemini CLI](../harnesses/gemini-cli/index.md) was the open-source outlier from a major lab (Apache-2.0, about 107.3k GitHub stars), but Google moved individual users to Antigravity CLI on June 18, 2026, so its famous free tier is now limited to enterprise licenses and paid API keys, and even the enterprise docs now open with a banner calling Gemini CLI not optimized for the latest Gemini models and pointing licensed users to Antigravity CLI ([enterprise docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli), updated October 16, 2026).
+[Gemini CLI](../harnesses/gemini-cli/index.md) was the open-source outlier from a major lab (Apache-2.0, about 107.3k GitHub stars), but Google moved individual users to Antigravity CLI on June 18, 2026, so its famous free tier is now limited to enterprise licenses and paid API keys, and even the enterprise docs now open with a banner calling Gemini CLI not optimized for the latest Gemini models and pointing licensed users to Antigravity CLI ([enterprise docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli), last updated October 22, 2026).
 [OpenCode](../harnesses/opencode/index.md) is the vendor-neutral entry: open source, any provider, with a TUI, an IDE extension, a desktop app, and a web view built off one codebase, at about 213.2k GitHub stars the most-starred vendor-neutral harness in the field.
 
 The independent tail matters more than its market share suggests.
@@ -57,7 +57,7 @@ The independent tail matters more than its market share suggests.
 [Kimi Code](../harnesses/kimi-code/index.md) (Moonshot AI, MIT) is the challenger-vendor bet: a big-model vendor shipping the harness tuned for its own cheap models, with subagents, hooks, marketplace skills, and ACP in a single Node.js CLI, at about 19.3k combined stars across its two repositories.
 [Exo](../harnesses/exo/index.md) (Exo Labs, MIT) is the self-modification bet: a Rust-and-TypeScript harness with full visibility into its own code and logs, able to edit its prompts, tooling, and policy at runtime, cheapest measured harness in the FrontierHarness run at $1.05 per task.
 [ZCode](../harnesses/zcode/index.md) (Z.ai, Apache-2.0) is the trust bet turned public exhibit: the official GLM workbench was caught silently uploading whole workspaces to cloud storage on September 18, 2026, and was open-sourced three days later as a flattened, process-free dump.
-[DeepSeek Harness](../harnesses/deepseek-harness/index.md) (DeepSeek, MIT) is the plugin-kernel bet at impossible scale: an everything-is-a-plugin design where the model, tools, UI, and agent loop are hot-swappable, at about 249.0k GitHub stars and still prerelease-only (the newest is dsh-v0.2.1-rc.2, published October 17, 2026) in its second month, the loudest launch this layer has seen.
+[DeepSeek Harness](../harnesses/deepseek-harness/index.md) (DeepSeek, MIT) is the plugin-kernel bet at impossible scale: an everything-is-a-plugin design where the model, tools, UI, and agent loop are hot-swappable, at about 249.0k GitHub stars and still prerelease-only (the newest is dsh-v0.2.1-rc.3, published October 23, 2026) in its second month, the loudest launch this layer has seen.
 [Unreal Agent](../harnesses/unreal-agent/index.md) (Unreal Labs, MIT, Sequoia and First Round backed) is the async bet: tool calls run as background operations so the model never manages waits or polls, the vendor's Harbor-linked runs claim up to 40 percent cost savings against Codex, and the launch hit 242 points with 1,879 stars in its first three days.
 
 **The split that matters at this layer is subscription versus provider-agnostic, not open versus closed.**
@@ -68,7 +68,7 @@ Claude Code and Codex are at their best inside their own vendor's subscription; 
 [Cursor](../surfaces/cursor/index.md) began as the AI-native editor and now ships a full stack around it: a CLI, cloud agents that work for hours or days, scheduled automations, a Slack integration, and model pickers spanning OpenAI, Anthropic, Google, xAI, and its own Composer models.
 In August 2026 Cursor was [acquired by SpaceX](https://cursor.com/blog/joining-spacex), completing a partnership with SpaceX's AI arm (the SpaceXAI partnership) that started in April, which tells you the leading edge of this market is merging with the compute owners.
 On August 28, 2026 OpenAI notified SpaceX, Cursor's new owner, that it is winding down Cursor's access to OpenAI models, with a shutoff on November 12 ([devops.com](https://devops.com/openai-cuts-off-cursors-model-access-after-spacex-acquisition/)), so the OpenAI column of that model picker now carries an expiry date.
-The subscription followed the acquirer too: Cursor's plans are now an X bundle (Free, Plus $8 with Grok models only, Premium $30, Super $100, Ultra $200) sold only through X Subscription Corp, with third-party models still available in the editor but billed at API list price ([cursor.com/pricing](https://cursor.com/pricing), re-checked 2026-10-13).
+The subscription followed the acquirer too: Cursor's plans are now an X bundle (Free, Plus $8 with Grok models only, Premium $30, Super $100, Ultra $200) sold only through X Subscription Corp, with third-party models still available in the editor but billed at API list price ([cursor.com/pricing](https://cursor.com/pricing), re-checked 2026-10-25).
 Cursor's CEO puts OpenAI models at about 5% of user traffic, a claim few observers buy, but either way vendor access is now leverage an acquirer can lose.
 [VS Code + Copilot](../surfaces/vscode-copilot/index.md) put one agent in two places: agent mode locally in the editor, and the [Copilot cloud agent](https://docs.github.com/en/copilot/concepts/about-copilot-coding-agent) on GitHub.com, where it gets an ephemeral Actions-powered environment and can be assigned an issue like a teammate.
 [Windsurf](../surfaces/windsurf/index.md) no longer plays the game under its own name: after the aborted OpenAI purchase and the Cognition rescue in July 2025, the editor shipped as Devin Desktop in June 2026, an agent-management IDE that keeps the Windsurf lineage but retires the brand, Cognition is set to raise about $1B at about a $47B valuation as of September 2, 2026 ([Bloomberg](https://www.bloomberg.com/news/articles/2026-09-02/ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-billion-value)), which makes the rescue the category's biggest turnaround bet, and as of September 4, 2026 windsurf.com itself 308-redirects to devin.ai/desktop, the brand retirement made literal.
@@ -157,6 +157,7 @@ A harness that adopts the open conventions is making a promise about your exit; 
 - 2026-10-13 - Refreshed the verification chain, with the Orca ade-topic lead moved to about 91.6k, DeepSeek Harness to about 249.0k with its newest prerelease still dsh-v0.2.1-alpha.2, Claude Code to about 150.7k, OpenCode to about 213.2k, and OpenHands to about 90.8k; Gemini CLI (about 107.3k), Crush (about 28.6k), Kimi Code combined (about 19.3k), and Cline installs (about 5.6 million) re-verified unchanged, and the Cursor line gained its subscription restructure: the plans are now an X bundle (Free, Plus $8 Grok-only, Premium $30, Super $100, Ultra $200) sold only through X Subscription Corp, with third-party models billed at API list price, per the pricing page re-checked this run.
 - 2026-10-16 - Moved the DeepSeek Harness line's newest prerelease to dsh-v0.2.1-alpha.4 (published 2026-10-15) per the repository's release list, and re-fetched every external link: fourteen of sixteen returned 200, with the devops.com and Bloomberg pages returning 403 to scripted fetches (bot protection on pages that fetched 200 on earlier passes).
 - 2026-10-21 - Folded the Gemini CLI enterprise-docs banner (the page opens by calling Gemini CLI not optimized for the latest Gemini models and steering licensed users to Antigravity CLI, docs updated 2026-10-16), moved the DeepSeek Harness line's newest prerelease to dsh-v0.2.1-rc.2 (2026-10-17), and refreshed Cline's install count to about 5.7 million; the cited links re-fetched, with Bloomberg and devops.com still 403 to scripted fetches.
+- 2026-10-25 - Moved the DeepSeek Harness line's newest prerelease to dsh-v0.2.1-rc.3 (2026-10-23) and the Gemini CLI enterprise-docs stamp to its current last-updated date of 2026-10-22 with the same banner; re-fetched every external link (sixteen of eighteen fetched 200, Bloomberg and devops.com again 403 to scripted fetches) and re-read the Cursor pricing page with the X-bundle plans unchanged, the re-check re-dated.
 
 ## See also
 

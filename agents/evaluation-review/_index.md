@@ -24,7 +24,7 @@ Where quality control lives in the agent workflow: CI gates, dashboards, machine
 - [MLR-Bench](mlr-bench/index.md) - the NUS-led NeurIPS 2025 D&B benchmark scoring AI research agents over 201 workshop tasks with MLR-Judge, a rubric-based two-model LLM panel validated against expert reviewers, whose headline finding is fabricated results in 8 of 10 coding-agent tasks.
 - [Phoenix](phoenix/index.md) - Arize's OTel-native observability and eval platform, self-hostable under an Elastic license.
 - [Plannotator](plannotator/index.md) - the local review surface that turns your annotations on agent plans and diffs into the agent's next instruction.
-- [PR Lens](pr-lens/index.md) - coldtea's MIT visualizer that draws every pull request as animated architecture and data-flow diagrams in a PR comment, judging nothing itself.
+- [PR Lens](pr-lens/index.md) - coldtea's MIT visualizer that draws every pull request as animated architecture and data-flow diagrams in a PR comment, judging nothing itself; its hosted App adds model-authored review findings.
 - [ReviewBench](reviewbench/index.md) - GitHub's open AI-code-review benchmark: 219 public PRs, a multi-source golden set, Claude Sonnet 5 as judge, and a leaderboard whose scores publish only on maintainer approval.
 - [slop-grader](slop-grader/index.md) - the MIT CLI that grades documents and diffs line by line against Markdown rulesets with Jev decision models, exhaustive by construction and priced in thousandths of a cent per question.
 - [Verbatim Citation Gate](verbatim-citation-gate/index.md) - the MIT two-stage citation auditor: a zero-token deterministic gate for fabricated quotes, then a skeptical judge that fails closed.

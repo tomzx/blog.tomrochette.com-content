@@ -1,7 +1,7 @@
 ---
 title: Verbatim Citation Gate
 created: 2026-10-10
-updated: 2026-10-21
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, citations, hallucination, guardrails, rag]
 readability: 3
@@ -24,8 +24,8 @@ The docs page describes the maintainer as the Palo Alto AI Research Lab, a self-
 
 ## Status
 
-Active but barely adopted: 4 stars, 3 forks, and 5 open issues as of 2026-10-13, created 2026-07-24, pushed 2026-10-19, with three releases (v0.3.0 on 2026-10-16, v0.2.0 on 2026-08-25, v0.1.0 on 2026-08-04) and CI running a tests workflow.
-Main carries unreleased fixes since v0.3.0 (2026-10-19: whole-word quote matching, a balanced verdict parse, and a pytest source-path fix), and the package is still absent from PyPI as of 2026-10-21.
+Active but barely adopted: 4 stars, 3 forks, and 5 open issues as of 2026-10-13, created 2026-07-24, pushed 2026-10-24, with four releases (v0.3.1 on 2026-10-24, v0.3.0 on 2026-10-16, v0.2.0 on 2026-08-25, v0.1.0 on 2026-08-04) and CI running a tests workflow.
+v0.3.1 (2026-10-24) released the three gate fixes that had sat on main since 2026-10-19 (whole-word quote matching, a balanced-JSON verdict parser, and a pytest source-path fix), and the package is still absent from PyPI as of 2026-10-25.
 v0.3.0 adds a `span_gate` that applies the same fail-closed treatment to citations given as character offsets, rejecting unresolvable spans instead of silently clipping them, and it is the project's first outside contribution (PR 12, closing issue 9).
 A Hacker News search returns zero threads as of 2026-10-11, so the adoption signal here is still thin: a solo project with a clean mechanism whose first independent involvement arrived through that October contribution.
 
@@ -46,7 +46,7 @@ A Hacker News search returns zero threads as of 2026-10-11, so the adoption sign
 
 - Near-zero adoption: 4 stars and zero discussion as of 2026-10-11, with the October v0.3.0 contribution the only outside involvement on record, so treat it as a promising pattern to copy, not a dependency to trust.
 - Exact-verbatim matching misses legitimate paraphrase and cross-sentence citations by design, so it fits quote-style citation systems only.
-- The distribution is a git URL install with no PyPI package (still absent as of 2026-10-17), and the release train ran twice in August then paused until v0.3.0.
+- The distribution is a git URL install with no PyPI package (still absent as of 2026-10-25), and the release train ran twice in August then resumed in October with v0.3.0 and v0.3.1.
 - The "Palo Alto AI Research Lab" branding on the docs is uncorroborated by any organization, funding, or publication record a reader can check.
 
 ## Pricing
@@ -69,6 +69,7 @@ Not for paraphrase-tolerant citation systems, and not as a battle-tested depende
 - 2026-10-10 - Created from the evaluation-review resolution pass as the differentiated judge mechanism: the deterministic zero-token citation-fabrication gate ahead of an LLM judge.
 - 2026-10-17 - Recorded the v0.3.0 release (2026-10-16): offset-span citations under the same fail-closed gate, and the project's first outside contribution (PR 12), with the release-pause caution updated.
 - 2026-10-21 - Recorded the unreleased post-v0.3.0 fixes on main (2026-10-19) and re-verified the PyPI absence; the newest release is still v0.3.0.
+- 2026-10-25 - Recorded the v0.3.1 release (2026-10-24), which shipped the three gate fixes previously tracked as unreleased on main; the PyPI absence re-verified.
 
 ## See also
 

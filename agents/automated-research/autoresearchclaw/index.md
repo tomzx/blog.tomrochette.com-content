@@ -1,7 +1,7 @@
 ---
 title: AutoResearchClaw
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, agentic-llm, open-source, paper-generation]
 readability: 3
@@ -17,14 +17,14 @@ AutoResearchClaw is the MIT-licensed 23-stage pipeline from the aiming-lab organ
 ## What it is
 
 A Python pipeline (created 2026-03-15) run from the `researchclaw` CLI, standalone, through an OpenClaw bridge to Discord, Telegram, Lark, or WeChat, or on any ACP-compatible agent backend (Claude Code, Codex CLI, Copilot CLI, Gemini CLI, Kimi CLI).
-The arXiv paper (2605.20025, by Jiaqi Liu, Shi Qiu, Mairui Li, Bingzhou Li, Haonian Ji, Siwei Han, Xinyu Ye, and Peng Xia) presents five mechanisms: structured multi-agent debate, a self-healing executor with a Pivot/Refine decision loop, verifiable result reporting against fabricated numbers and hallucinated citations, human-in-the-loop collaboration across seven intervention modes, and cross-run evolution that converts past failures into future safeguards.
+The arXiv paper (2605.20025, v2, by 36 authors led by Jiaqi Liu and Shi Qiu) presents five mechanisms: structured multi-agent debate, a self-healing executor with a Pivot/Refine decision loop, verifiable result reporting against fabricated numbers and hallucinated citations, human-in-the-loop collaboration across seven intervention modes, and cross-run evolution that converts past failures into future safeguards.
 Deliverables per run: a paper draft, conference-ready LaTeX (NeurIPS, ICML, ICLR templates), a BibTeX file with references pulled from OpenAlex, Semantic Scholar, and arXiv, a verification report, sandbox experiment code and metrics, charts, multi-agent reviews, and evolution lessons.
 MetaClaw adds cross-run learning (pipeline failures become structured lessons injected into later runs), and the skills library loads 20 preloaded skills plus community contributions.
 The companion ARC-Bench dataset ships on Hugging Face under the AIMING-Lab-UNC account, widened at v0.5.0 (May 2026) to 55 topics across machine learning, high-energy physics, quantum, biology, and statistics.
 
 ## Status
 
-Dormant since August: 14,618 stars, 1,706 forks, created 2026-03-15, last push 2026-08-19, latest release v0.5.0 on 2026-05-20, as of 2026-10-11.
+Dormant since August: 14,618 stars as of 2026-10-11, 1,711 forks, created 2026-03-15, last push 2026-08-19, latest release v0.5.0 on 2026-05-20, as of 2026-10-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aiming-lab/AutoResearchClaw&type=date&legend=top-left" />
@@ -32,7 +32,7 @@ Dormant since August: 14,618 stars, 1,706 forks, created 2026-03-15, last push 2
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=aiming-lab/AutoResearchClaw&type=date&legend=top-left" />
 </picture>
 
-**The repository has gone quiet while attention held: no commits in eight weeks and no release in five months as of 2026-10-10, a Hacker News footprint of two stories at two and one points with zero comments, and the eight showcase papers are self-published, so the 14.6k stars currently measure attention the repository is no longer feeding.**
+**The repository has gone quiet while attention held: no commits in over nine weeks and no release in five months as of 2026-10-25, a Hacker News footprint of two stories at two and one points with zero comments, and the eight showcase papers are self-published, so the 14.6k stars currently measure attention the repository is no longer feeding.**
 
 ## Strengths
 
@@ -67,6 +67,7 @@ Not for anyone who needs an actively maintained tool (eight weeks without a comm
 ## Changes
 
 - 2026-10-10 - Created.
+- 2026-10-25 - Rotation re-verification: corrected the paper's author list to the arXiv v2 count of 36, led by Jiaqi Liu and Shi Qiu (the note had named only the first eight), confirmed dormancy (push still 2026-08-19, release still v0.5.0), and re-fetched every cited URL, all live.
 
 ## See also
 
@@ -77,10 +78,10 @@ Not for anyone who needs an actively maintained tool (eight weeks without a comm
 
 ## References
 
-- https://github.com/aiming-lab/AutoResearchClaw - repository and README: 23-stage pipeline, deliverables, OpenClaw and ACP-backend support, release news (fetched 200, 2026-10-10)
-- https://api.github.com/repos/aiming-lab/AutoResearchClaw - stars, forks, created and pushed dates, MIT license, and topics for the as-of status (fetched 200, 2026-10-11)
-- https://raw.githubusercontent.com/aiming-lab/AutoResearchClaw/main/README.md - the README source: stage outputs, citation-verification layers, HITL system, ARC-Bench v0.5.0 widening (fetched 200, 2026-10-10)
-- https://arxiv.org/abs/2605.20025 - the paper: five mechanisms, the 54.7 percent AI Scientist v2 comparison on ARC-Bench, and the seven intervention modes (fetched 200, 2026-10-10)
-- https://api.github.com/repos/aiming-lab/AutoResearchClaw/releases?per_page=5 - the release train through v0.5.0 (2026-05-20) (fetched 200, 2026-10-10)
-- https://hn.algolia.com/api/v1/search?query=AutoResearchClaw - the two zero-comment Hacker News stories behind the discussion-footprint claim (fetched 200, 2026-10-10)
-- https://huggingface.co/datasets/AIMING-Lab-UNC/ARC-Bench - the ARC-Bench dataset page under the AIMING-Lab-UNC account (fetched 200, 2026-10-10)
+- https://github.com/aiming-lab/AutoResearchClaw - repository and README: 23-stage pipeline, deliverables, OpenClaw and ACP-backend support, release news (fetched 200, 2026-10-25)
+- https://api.github.com/repos/aiming-lab/AutoResearchClaw - stars, forks, created and pushed dates, MIT license, and topics for the as-of status (fetched 200, 2026-10-25)
+- https://raw.githubusercontent.com/aiming-lab/AutoResearchClaw/main/README.md - the README source: stage outputs, citation-verification layers, HITL system, ARC-Bench v0.5.0 widening, and the 36-author citation block (fetched 200, 2026-10-25)
+- https://arxiv.org/abs/2605.20025 - the paper, v2: five mechanisms, the 54.7 percent AI Scientist v2 comparison on ARC-Bench, the seven intervention modes, and the full author list (fetched 200, 2026-10-25)
+- https://api.github.com/repos/aiming-lab/AutoResearchClaw/releases?per_page=5 - the release train through v0.5.0 (2026-05-20), still the latest (fetched 200, 2026-10-25)
+- https://hn.algolia.com/api/v1/search?query=AutoResearchClaw - the two zero-comment Hacker News stories behind the discussion-footprint claim (fetched 200, 2026-10-25)
+- https://huggingface.co/datasets/AIMING-Lab-UNC/ARC-Bench - the ARC-Bench dataset page under the AIMING-Lab-UNC account (fetched 200, 2026-10-25)

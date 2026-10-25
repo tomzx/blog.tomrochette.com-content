@@ -1,7 +1,7 @@
 ---
 title: Tracekit
 created: 2026-10-21
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, audit, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The project is under a month old (repository created 2026-09-26) from Cygnux Lab
 
 ## Status
 
-Active and very young: 138 stars, 9 forks, and 12 open issues as of 2026-10-21, created 2026-09-26, pushed 2026-10-22, with the PyPI package tracekit-ai at 1.4.1 (Beta, 2026-10-20) and five releases between 2026-10-16 and 2026-10-20.
+Active and very young: 138 stars, 9 forks, and 22 open issues as of 2026-10-25, created 2026-09-26, pushed 2026-10-25, with the PyPI package tracekit-ai at 1.4.2 (2026-10-24) and six releases between 2026-10-16 and 2026-10-24.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Cygnux-Labs/Tracekit&type=date&theme=dark&legend=top-left" />
@@ -69,6 +69,7 @@ Not for anyone who needs an independently reviewed gate today, and not for debug
 ## Changes
 
 - 2026-10-21 - Created from the awesome-ai-governance scan (added to the source's Agent Action Records section on 2026-10-19), profiling the CT-style signer as the category's first witness-cosigned evidence log.
+- 2026-10-25 - Release train moved to v1.4.2 (2026-10-24, PyPI in step), the sixth release in nine days, and the open-issue count rose from 12 to 22.
 
 ## See also
 

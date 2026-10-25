@@ -1,7 +1,7 @@
 ---
 title: Greywall
 created: 2026-10-08
-updated: 2026-10-17
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -33,7 +33,7 @@ Launched in March 2026 and quiet since: 309 stars, 37 forks, 26 open issues as o
 
 **The launch got no help from Hacker News: a 7-point Show HN on 2026-03-13, a 1-pointer and a 3-point greyscan submission four days later, and one independent review since.**
 Fifty-nine days without a push as of 2026-10-11 leaves a small project with a complete docs site and a stalled train, and the companion greyproxy has been quiet since 2026-06-02.
-At sixty-one days of quiet as of 2026-10-13 nothing in that reading changes.
+At seventy-three days without a commit to main as of 2026-10-25 (last push to main still 2026-08-13) nothing in that reading changes.
 
 ## Strengths
 
@@ -74,6 +74,7 @@ Not for containing actively malicious code (its own docs say so), and not as the
 - 2026-10-12 - Quiet window extended to sixty days (last push still 2026-08-13); stars, forks, and issues unchanged.
 - 2026-10-13 - Quiet window extended to sixty-one days (last push still 2026-08-13); stars, forks, and issues unchanged.
 - 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (the 2026-10-17 activity checked: a pull request and an issue, no commits to main, so the quiet-since-August reading holds).
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched and alive (repository, greyproxy, the security-model, platform-support, and credential-protection docs, the site, the HN search, the independent review); the quiet window extended to seventy-three days without a commit to main (last main-branch push still 2026-08-13, greyproxy still quiet since 2026-06-02), and v0.3.7 remains the newest release.
 
 ## See also
 

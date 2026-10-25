@@ -1,7 +1,7 @@
 ---
 title: Workshop
 created: 2026-08-30
-updated: 2026-10-21
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, debugging, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by Raindrop, an agent-observability startup; Workshop is the free local tie
 
 ## Status
 
-Young with a strong launch, then a quiet fall: 1,111 stars, 70 forks, and 9 open issues as of 2026-10-13, created 2026-05-01, with no default-branch commit and no release since 2026-08-22 (v0.1.21); the repository's 2026-10-20 push activity is an outside pull request (Swift SDK guidance) that the maintainer closed unmerged the same day.
+Young with a strong launch, then a quiet fall: 1,111 stars, 70 forks, and 9 open issues as of 2026-10-13, created 2026-05-01, with no default-branch commit and no release since 2026-08-22 (v0.1.21); the repository's 2026-10-20 push activity was an outside pull request (Swift SDK guidance) that the maintainer closed unmerged the same day, and two more outside pull requests opened 2026-10-22 (a daemon-reuse feature and a dependency bump) that sit unmerged.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=raindrop-ai/workshop&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ Not for teams needing CI-gated eval suites today, or Windows-primary shops hedge
 - 2026-09-26 - Recorded Raindrop's $50M Series A led by CRV ($50M total, September 17, 2026) and the Simulations early-access launch; cloud pricing re-verified unchanged.
 - 2026-10-07 - Added the raindrop-ai/workshop star history chart to the Status section.
 - 2026-10-21 - Sharpened the activity line: no default-branch commit or release since 2026-08-22, and the 2026-10-20 repository activity is an outside pull request closed unmerged the day it opened.
+- 2026-10-25 - Recorded two more outside pull requests (opened 2026-10-22, a daemon-reuse feature and a dependency bump) sitting unmerged alongside the still-absent maintainer activity.
 
 ## See also
 

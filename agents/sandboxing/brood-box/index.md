@@ -1,7 +1,7 @@
 ---
 title: Brood Box
 created: 2026-10-12
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, kvm, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Built by Stacklok, the supply-chain security company behind ToolHive and Minder;
 
 ## Status
 
-Small and steady: 78 stars, 8 contributors including its dependency bot, as of 2026-10-16, created 2026-02-13, pushed 2026-10-22, Apache-2.0.
+Small and steady: 78 stars, 8 contributors including its dependency bot, as of 2026-10-16, created 2026-02-13, pushed 2026-10-24, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stacklok/brood-box&type=date&theme=dark&legend=top-left" />

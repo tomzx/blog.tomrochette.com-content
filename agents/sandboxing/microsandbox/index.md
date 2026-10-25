@@ -1,7 +1,7 @@
 ---
 title: Microsandbox
 created: 2026-10-07
-updated: 2026-10-23
+updated: 2026-10-25
 readability: 3
 audience_notes: >
   Engineers who want hardware-isolated sandboxes with container-style ergonomics on their own machines, including letting agents spawn VMs themselves.
@@ -25,7 +25,7 @@ The project carries a Y Combinator badge and has moved organizations more than o
 
 ## Status
 
-Large by this category's standards and still shipping weekly: 8,704 stars, 106 open issues and PRs, pushed 2026-10-18, created 2024-10-03.
+Large by this category's standards and still shipping weekly: 8,704 stars as of 2026-10-23, 123 open issues and PRs, pushed 2026-10-25, created 2024-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Large by this category's standards and still shipping weekly: 8,704 stars, 106 o
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&legend=top-left" />
 </picture>
 
-v0.7.5, v0.7.6, and v0.7.7 shipped within a week ending 2026-10-05, a fast pre-1.0 minor-version cadence, v0.7.8 followed on 2026-10-09 (secret substitution scoped to specific header fields, runtime-owned detached jobs, port ranges in published ports, snapshot filesystem-state limits, and a fix that refuses disk restores which would silently drop host mounts), and v0.7.9 on 2026-10-22 (adding and removing published ports on running sandboxes, SDK-visible sandbox exit outcomes, JSON network-policy denial output by default, optional exec output backpressure, live label modifications on running sandboxes, restricted-backend configuration, and HTTP CONNECT proxy basic authentication).
+v0.7.5, v0.7.6, and v0.7.7 shipped within a week ending 2026-10-05, a fast pre-1.0 minor-version cadence, v0.7.8 followed on 2026-10-09 (secret substitution scoped to specific header fields, runtime-owned detached jobs, port ranges in published ports, snapshot filesystem-state limits, and a fix that refuses disk restores which would silently drop host mounts), v0.7.9 on 2026-10-22 (adding and removing published ports on running sandboxes, SDK-visible sandbox exit outcomes, JSON network-policy denial output by default, optional exec output backpressure, live label modifications on running sandboxes, restricted-backend configuration, and HTTP CONNECT proxy basic authentication), and v0.7.10 and v0.7.11 inside the same week after it: v0.7.10 on 2026-10-23 (anonymous registry auth in the Go SDK, the project's published smoltcp fork adopted for networking, custom filesystem backends honored, and secret policy writable from the Node and Go SDKs), v0.7.11 on 2026-10-24 (SDK-exposed HTTP CONNECT proxy authentication, a fix for terminal sessions hanging after output, caller config overrides preserved across rebuilds, and recovery of the cleanup left by an interrupted sandbox creation).
 **Its Show HN of 2025-05-30 drew 402 points, the largest community thread of any member of this category, while a June 2026 resubmission drew 3 points, so the launch was a 2025 event and the current proof of life is the release train, not public debate.**
 
 ## Strengths
@@ -73,6 +73,7 @@ Not for anyone needing audited claims or a stable 1.0 API, and not for teams tha
 - 2026-10-10 - Recorded v0.7.8 (2026-10-09, header-scoped secret substitution, detached jobs, port ranges, snapshot limits, and the refuse-unsafe-restore fix), and refreshed counts (8,628 stars, 95 open issues and PRs, pushed 2026-10-10).
 - 2026-10-17 - Recorded the microsandbox cloud hosted backend (private beta, API-key billing, no published prices) in What it is, Cautions, Pricing, and the Bottom line, and fixed the star-history picture block (rotation re-verification; every cited URL re-fetched, v0.7.8 still the newest release).
 - 2026-10-23 - Recorded v0.7.9 (2026-10-22, live port and label modifications on running sandboxes, SDK-visible exit outcomes, JSON network-policy denial output by default, exec output backpressure, restricted-backend configuration, and HTTP CONNECT proxy basic authentication).
+- 2026-10-25 - Recorded v0.7.10 (2026-10-23, anonymous registry auth in the Go SDK, the published smoltcp fork, custom filesystem backends, SDK-writable secret policy) and v0.7.11 (2026-10-24, SDK-exposed HTTP CONNECT proxy authentication, the terminal-hang fix, config overrides preserved across rebuilds, interrupted-creation cleanup recovery), with counts refreshed (123 open issues and PRs, pushed 2026-10-25).
 
 ## See also
 
@@ -85,7 +86,7 @@ Not for anyone needing audited claims or a stable 1.0 API, and not for teams tha
 
 - https://github.com/superradcompany/microsandbox - repository, feature list, libkrun acknowledgement, YC badge, organization moves
 - https://api.github.com/repos/superradcompany/microsandbox - stars, open issues, creation and push dates as of 2026-10-07
-- https://api.github.com/repos/superradcompany/microsandbox/releases - the v0.7.5 through v0.7.8 release record
+- https://api.github.com/repos/superradcompany/microsandbox/releases - the v0.7.5 through v0.7.11 release record
 - https://docs.microsandbox.dev/ - the documentation site
 - https://docs.microsandbox.dev/cloud/overview - the cloud overview: private beta, same SDK and CLI surface, billing in the dashboard
 - https://hn.algolia.com/api/v1/items/44135977 - the 402-point Show HN of 2025-05-30, including the isolation-tradeoff questions in the thread

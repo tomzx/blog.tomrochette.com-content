@@ -1,7 +1,7 @@
 ---
 title: AI-Researcher
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, paper-generation, hkuds, open-source]
 readability: 3
@@ -16,7 +16,7 @@ AI-Researcher is HKU Data Intelligence Lab's fully autonomous research system th
 
 ## What it is
 
-A Python system (github.com/HKUDS/AI-Researcher, open-sourced May 11, 2025) by Jiabin Tang, Lianghao Xia, Zhonghang Li, and advisor Chao Huang of HKU, with the paper (arXiv 2505.18705) accepted at NeurIPS 2025.
+A Python system (github.com/HKUDS/AI-Researcher, open-sourced May 11, 2025) by Jiabin Tang, Lianghao Xia, Zhonghang Li, and advisor Chao Huang of HKU, with the paper (arXiv 2505.18705) accepted as a Spotlight paper at NeurIPS 2025.
 Input arrives at two levels: a detailed idea description the system develops as specified, or a brief research direction it expands itself.
 The paper describes orchestration of the complete pipeline from literature review and hypothesis generation to algorithm implementation and publication-ready manuscript preparation, evaluated on Scientist-Bench, a benchmark of state-of-the-art papers across AI domains with guided-innovation and open-ended tracks.
 The GitHub description points to novix.science/chat as the production-ready version.
@@ -65,6 +65,7 @@ Not for anyone needing a runnable, maintained system: the repository is a year d
 ## Changes
 
 - 2026-10-11 - Created.
+- 2026-10-25 - Rotation re-verification: confirmed dormancy (last push still 2025-10-16), the missing license file, and the no-threads Hacker News footprint, and sharpened the NeurIPS 2025 result to Spotlight per the README's September 2025 news entry.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -19,12 +19,12 @@ Hermes Agent is Nous Research's MIT-licensed self-improving personal agent: a Py
 Install with a curl script (the installer bundles uv, Python 3.11, Node.js, ripgrep, ffmpeg, and an isolated Git Bash on Windows; the official site now also ships desktop installers for macOS 12+ and Windows 10/11), and one gateway process serves Telegram, Discord, Slack, WhatsApp, Signal, Email, and a CLI, with voice-memo transcription and conversation continuity across platforms.
 **The learning loop is the differentiator: it creates skills autonomously after complex tasks, improves them during use, nudges itself to persist knowledge, searches its own past sessions (FTS5 with LLM summarization), and builds a user model through Honcho, compatible with the agentskills.io open standard.**
 Any model goes in (Nous Portal, OpenRouter, OpenAI, custom endpoints) and switching is a `hermes model` command with no code changes.
-Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona, Vercel Sandbox), with serverless persistence that hibernates when idle, and a built-in cron scheduler delivers reports to any platform.
+Execution spans six built-in terminal backends (local, Docker, SSH, Modal, Daytona, Vercel Sandbox) plus plugin backends such as Singularity and Apptainer, with serverless persistence that hibernates when idle, and a built-in cron scheduler delivers reports to any platform.
 
 ## Status
 
 Massive and fast-moving.
-253,488 stars and 54,982 forks as of 2026-10-14 since creation on 2025-07-22, MIT, and as of 2026-10-23 pushed that day with 50,630 open issues, a support surface bigger than most projects' users.
+253,488 stars and 54,982 forks as of 2026-10-14 since creation on 2025-07-22, MIT, and as of 2026-10-25 pushed that day with 50,915 open issues, a support surface bigger than most projects' users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&theme=dark&legend=top-left" />
@@ -39,7 +39,7 @@ The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) land
 ## Strengths
 
 - The learning loop (skills that write and improve themselves) is the most complete self-improvement story in the category.
-- Seven execution backends with serverless idle pricing solves the always-on cost problem that keeps personal agents expensive.
+- Six built-in execution backends plus plugin backends, with serverless idle pricing, solve the always-on cost problem that keeps personal agents expensive.
 - Model-agnostic to the point of indifference, with a one-command switch.
 - Nous Research's model portfolio gives it a first-party provider path the -claw tools lack.
 
@@ -90,6 +90,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 - 2026-10-16 - Recorded the v0.22 line: v0.22.0, "The Threshold Release" (2026-10-14, about 6,080 merged pull requests since v0.21.0), v0.22.1 (2026-10-14), and v0.22.2 (2026-10-15), with refreshed adoption numbers.
 - 2026-10-21 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the v0.21.6 release notes, the official site, both HN threads, the plagiarism-edit issue, the gadget SDK repo), v0.22.2 (2026-10-15) confirmed still the latest release, the seven-backend list and the Portal tiers (Free $0, Plus $20, Super $100, Ultra $200) unchanged, and the issue-10232 edit record intact.
 - 2026-10-23 - Recorded the v0.22 line continuing: v0.22.3 and v0.22.4 (both 2026-10-21) and v0.22.5 (2026-10-23, about 81 pull requests since v0.22.4, curated notes again deferred to v0.23.0), with refreshed adoption numbers.
+- 2026-10-25 - Corrected the backend list to the README's current framing: six built-in terminal backends (local, Docker, SSH, Modal, Daytona, Vercel Sandbox), with Singularity and Apptainer now plugin backends; the README and the official site re-fetched live and the Portal tiers (Free $0, Plus $20, Super $100, Ultra $200) unchanged, with refreshed adoption numbers.
 
 ## See also
 

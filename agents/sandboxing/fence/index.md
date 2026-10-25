@@ -1,7 +1,7 @@
 ---
 title: Fence
 created: 2026-10-07
-updated: 2026-10-17
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -69,6 +69,7 @@ Not for containing actively malicious processes, and not on hosts where deprecat
 
 - 2026-10-07 - Created from the entrant-resolution run, profiling Tusk's OS-native command sandbox with the maintainer's allow-by-default-reads limitation as the anchor caution.
 - 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (rotation re-verification; every cited URL re-fetched, v0.1.67 still the newest release).
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched and alive (repository, docs site, the API records, the Show HN thread); v0.1.67 (2026-09-01) remains the newest of thirty releases, the main branch last moved 2026-10-14, and the boundary claims, agent support list, and the maintainer's allow-by-default-reads answers re-verified unchanged.
 
 ## See also
 
