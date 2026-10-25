@@ -1,7 +1,7 @@
 ---
 title: AGENTS.md
 created: 2026-08-24
-updated: 2026-10-18
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, protocols, conventions, context-files]
 readability: 3
@@ -25,7 +25,7 @@ The reference repository (MIT, about 24.9k stars as of 2026-10-13) mostly holds 
 ## Status
 
 **Active and effectively the standard.**
-The official site counts more than 60,000 open-source projects carrying an AGENTS.md as of 2026-10-18.
+The official site counts more than 60,000 open-source projects carrying an AGENTS.md as of 2026-10-25.
 Adopters include Codex, Gemini CLI, Cursor, GitHub Copilot's coding agent, Amp, Jules, Factory, goose, opencode, Zed, Warp, VS Code, Devin, Junie, Windsurf, and Aider.
 In this index, [Codex](../../harnesses/codex/index.md) treats it as first-class, [OpenCode](../../harnesses/opencode/index.md) reads it alongside CLAUDE.md, and [Crush](../../harnesses/crush/index.md) initializes projects with one.
 The last big holdout fell on 2026-09-18: Claude Code 2.1.277 added native AGENTS.md support, reading the file in any project without a CLAUDE.md, implemented as a built-in "mod".
@@ -76,6 +76,7 @@ The disagreeable part: I suspect most AGENTS.md prose is wasted tokens, and the 
 - 2026-09-21 - Claude Code shipped native AGENTS.md support in 2.1.277 (2026-09-18), so the holdout record moved from "no native support" to shipped-as-of-this-date, with the changelog and announcement added as references.
 - 2026-10-07 - Added the agentsmd/agents.md star history chart to the Status section.
 - 2026-10-18 - Rotation re-verification: every cited URL re-fetched live with no dead sources, and the Claude Code record corrected, 2.1.281 (2026-09-23) extended AGENTS.md support to Bedrock, Vertex, Foundry, LLM gateways, and telemetry-disabled sessions, so the "not yet available on Bedrock, Vertex, or Foundry" state this note recorded no longer holds.
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the official site still counts over 60,000 carrying projects and still lists OpenAI's repository at 88 nested files, the Claude Code changelog still records the 2.1.277 and 2.1.281 entries, and the built-in agents-md mod directory is unchanged.
 
 ## See also
 

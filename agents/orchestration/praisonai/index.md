@@ -1,7 +1,7 @@
 ---
 title: PraisonAI
 created: 2026-10-07
-updated: 2026-10-20
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, low-code]
 readability: 3
@@ -21,7 +21,7 @@ It sits in this category's low-code family beside Dify and Sim, closer to the co
 
 ## Status
 
-Active and heavily maintained: 9,238 stars as of 2026-10-15, a push on 2026-10-20, release v4.7.16 on 2026-10-19 after v4.7.15 (2026-10-16) (GitHub API, as of 2026-10-20), with `praisonaiagents` 1.7.13 on PyPI (PyPI), on a repository created 2024-03-19.
+Active and heavily maintained: 9,238 stars as of 2026-10-15, a push on 2026-10-24, release v4.7.17 on 2026-10-23 after v4.7.16 (2026-10-19) and v4.7.15 (2026-10-16) (GitHub API, as of 2026-10-25), with `praisonaiagents` 1.7.15 on PyPI (PyPI), on a repository created 2024-03-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MervinPraison/PraisonAI&type=date&theme=dark&legend=top-left" />
@@ -67,6 +67,7 @@ Not for security-sensitive deployments that need a vendor's incident track recor
 
 - 2026-10-20 - Recorded v4.7.16 (2026-10-19) on the release train.
 
+- 2026-10-25 - Recorded v4.7.17 (2026-10-23) on the release train and `praisonaiagents` at 1.7.15 on PyPI.
 ## See also
 
 - [CrewAI](../crewai/index.md) - the closest funded alternative in the Python multi-agent family.

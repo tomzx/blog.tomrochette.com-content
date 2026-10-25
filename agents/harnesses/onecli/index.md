@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-10-17
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -24,7 +24,7 @@ The Launch HN title calls it an "OSS sandboxed agent harness for teams", and tha
 
 ## Status
 
-Very active: v2.14.0 shipped October 14, 2026 with missing-OAuth-permission warnings, Drive "Shared with me", and Slack on Kubernetes, hours after v2.13.0 the same day (send now, live replies, workspace timezone, a desktop browser surface, and shared connections), following v2.12.0 on October 9 with a tunnel lane for browsers, Runs, and Network tabs in the Activity view, one day after the v2.11 series (v2.11.0 added a Helm chart for Kubernetes self-hosting, agent webhooks, and evals with run history, with two same-day publish-pipeline patches), one day after v2.10.0 (a Pylon integration, setup-guide links on every connect surface, and a two-image agent sandbox), one day after the v2.8.0/v2.9.0 pair (v2.8.0 added Google Drive folder permissions, Navan and Timeless apps, grouped Slack approvals, OAuth refresh hardening, and an egress guard; v2.9.0 added the Circleback integration, Navan paste cleaning, and agent API-docs hints), following v2.7.0 on October 3 and a v2.3-2.4 series five months ago, with v2.5.0 on September 3 and v2.6.0 five days after it.
+Very active: v2.16.0 shipped October 22, 2026 with agent-managed webhooks, owner alerts when a channel reply fails, and image previews in chat, a day after v2.15.0 added a GitHub skill library, browser steps, private preview links, custom connections, and a multi-replica runner, following v2.14.0 on October 14 with missing-OAuth-permission warnings, Drive "Shared with me", and Slack on Kubernetes, hours after v2.13.0 the same day (send now, live replies, workspace timezone, a desktop browser surface, and shared connections), following v2.12.0 on October 9 with a tunnel lane for browsers, Runs, and Network tabs in the Activity view, one day after the v2.11 series (v2.11.0 added a Helm chart for Kubernetes self-hosting, agent webhooks, and evals with run history, with two same-day publish-pipeline patches), one day after v2.10.0 (a Pylon integration, setup-guide links on every connect surface, and a two-image agent sandbox), one day after the v2.8.0/v2.9.0 pair (v2.8.0 added Google Drive folder permissions, Navan and Timeless apps, grouped Slack approvals, OAuth refresh hardening, and an egress guard; v2.9.0 added the Circleback integration, Navan paste cleaning, and agent API-docs hints), following v2.7.0 on October 3 and a v2.3-2.4 series five months ago, with v2.5.0 on September 3 and v2.6.0 five days after it.
 3,571 stars and 253 forks as of 2026-10-15, on a repository created March 8, 2026.
 
 <picture>
@@ -91,6 +91,7 @@ I think the prompt-based permission systems across every other harness in this s
 - 2026-10-09 - Recorded the v2.11 series (October 8): v2.11.0 added a Helm chart for Kubernetes self-hosting, agent webhooks, and evals with run history, with two same-day publish-pipeline patches, and refreshed repository counters.
 - 2026-10-10 - Recorded the v2.12.0 release (published October 9), which opened a tunnel lane for browsers, Runs, and Network tabs in the Activity view.
 - 2026-10-17 - Recorded the v2.13.0 and v2.14.0 releases (both October 14): send-now prompts with live replies, workspace timezone, a desktop browser surface, and shared connections (v2.13.0), then missing-OAuth-permission warnings, Drive "Shared with me", and Slack on Kubernetes (v2.14.0).
+- 2026-10-25 - Recorded the v2.15.0 (October 21, GitHub skill library, browser steps, private preview links, custom connections, multi-replica runner) and v2.16.0 (October 22, agent-managed webhooks, failed-channel-reply owner alerts, chat image previews) releases.
 
 ## See also
 

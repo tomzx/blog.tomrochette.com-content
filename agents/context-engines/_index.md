@@ -28,7 +28,7 @@ The tools that decide what enters the context window: semantic engines, code gra
 - [Serena](serena/index.md) - the LSP-backed MCP toolkit giving agents IDE-grade symbol retrieval and editing for free, with a paid JetBrains backend, about 30k stars.
 - [SoL-Pi](sol-pi/index.md) - NV Labs' MIT Pi-harness extension (Action Fusion, paged recall, verified reducer, online compaction) keeping long auto-research loops flat in token cost, about 3.4k stars with a three-post HN footprint.
 - [Sourcegraph code context platform](sourcegraph-code-context/index.md) - code search repositioned as the retrieval layer for agents, with value showing up above roughly 400K lines.
-- [TOON](toon-format/index.md) - the MIT spec-backed Token-Oriented Object Notation that re-encodes JSON as indentation and table rows, about 1.8 million npm downloads a week, cutting the token cost of structured data in prompts.
+- [TOON](toon-format/index.md) - the MIT spec-backed Token-Oriented Object Notation that re-encodes JSON as indentation and table rows, about 6.7 million npm downloads in the trailing month, cutting the token cost of structured data in prompts.
 - [Vanna](vanna/index.md) - the archived MIT text-to-SQL RAG framework whose DDL-docs-past-queries retrieval founded the data-semantics half of this category, 23.8k stars, the open-source core read-only since 2026-03-29 while the company sells Cloud and Enterprise.
 - [WrenAI](wrenai/index.md) - Canner's Apache-2.0 governed semantic layer and context engine for data, versioned MDL plus business definitions in your git serving agents governed SQL over MCP, the first column over business semantics instead of code, about 17.8k stars.
 

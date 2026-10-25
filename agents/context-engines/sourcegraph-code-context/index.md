@@ -1,7 +1,7 @@
 ---
 title: Sourcegraph code context platform
 created: 2026-08-24
-updated: 2026-10-17
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-search, code-retrieval, enterprise-tools, mcp, llm=glm-5.3-flash]
 readability: 3
@@ -30,7 +30,7 @@ Deployment is single-tenant cloud or self-hosted, SOC 2 Type II and ISO 27001, s
 Sourcegraph and Amp split into two companies on December 2, 2025, with founders Quinn Slack and Beyang Liu leaving for Amp Inc. (both stay on Sourcegraph's board) and investors Sequoia, a16z, Redpoint, Craft, and Goldcrest on both cap tables.
 Version 7.0 (February 25, 2026) declared the "intelligence layer for AI coding agents" positioning and removed Cody Web and Search Notebooks, closing the Cody chapter.
 SCIP moved to a community-driven open source project in March 2026, and Cloud ships weekly.
-The September 2026 blog run added the Agentic Batch Changes GA and its outcome-based pricing (September 14 and 16, 2026) and a "autonomous codebase" essay (September 21, 2026, the blog's newest post as of 2026-10-17).
+The September 2026 blog run added the Agentic Batch Changes GA and its outcome-based pricing (September 14 and 16, 2026) and a "autonomous codebase" essay (September 21, 2026), and the blog's newest posts as of 2026-10-25 are two use-case pieces, a php2shell CVE-remediation walkthrough (October 21) and an MCP-grounded incident-response essay (October 19), neither platform news.
 I found little independent 2026 community discussion of the post-split platform; the HN thread on the split (90 points) is mostly about Amp, so the audience for its claims is buyers, not discourse.
 
 ## Strengths
@@ -78,6 +78,7 @@ My disagreeable claim: below roughly 400K LOC, buying Sourcegraph for your agent
 - 2026-08-24 - Created in the Context engines category seed.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-17 - Full rotation re-verification: recorded Agentic Batch Changes going GA (September 14, 2026) with outcome-based pricing (pay only for merged changesets) and Code Finder's GA date (August 20, 2026), re-verified the $16K Enterprise floor and credits model unchanged against the live pricing page, and added the two grounding references.
+- 2026-10-25 - Full rotation re-verification: every cited URL re-fetched and intact; the $16K Enterprise floor and credits model unchanged; refreshed the newest-blog-post claim for the October 19 and 21, 2026 use-case posts.
 
 ## See also
 

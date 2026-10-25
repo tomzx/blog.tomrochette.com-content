@@ -1,7 +1,7 @@
 ---
 title: Amp
 created: 2026-08-22
-updated: 2026-10-17
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, remote-execution, developer-tools]
 readability: 3
@@ -28,7 +28,7 @@ Amp was built inside Sourcegraph, was made free in October 2025, launched subscr
 Shipping cadence in August and September 2026 is weekly (voice control via Puck and an iOS and macOS app in late August, a desktop orb client and Fable 5.1 powering ultra in early September, a customizable Dial and sooner steering on September 8-10, runners that serve many directories on September 17, runner-created worktrees and workspace-shared runners on September 22-24, and the Mac app acting as a runner on September 24, as of 2026-09-26).
 On September 13, 2026 the [Free Agent announcement](https://ampcode.com/news/free-agent) made Amp free to use with your own compute, subscriptions, or keys, removed BYOK token fees for everyone outside Enterprise, and opened early access to nine more BYOK providers (OpenRouter, Bedrock, Google Cloud Agent Platform, Azure Foundry, Vercel AI Gateway, Cloudflare AI Gateway, Ollama Cloud, OpenCode Go, custom endpoints).
 The cadence ran through September's end and into October: Opus 5.5 took over the medium setting on September 28, Plaid Speed claimed 6x faster inference for GPT-6 Astra on September 29, multiple separate Puck conversations arrived on October 6, and on October 10 the [Use Your Claude Plan announcement](https://ampcode.com/news/use-your-claude-plan) made Claude Pro and Max plans usable in Amp for everyone at no extra cost, a mode that runs the Claude Agent SDK under the hood rather than Amp's own agent ([news index](https://ampcode.com/news)), the newest items as of 2026-10-10, with the pricing page re-verified unchanged on 2026-10-11.
-October's train has kept running since: Amp now follows up on your GitHub pull requests and orders files intelligently for faster reviews (both October 12), Puck works in other agents via MCP (October 13), and a runner's macOS desktop is visible and usable from your session (October 16), the newest items as of 2026-10-17.
+October's train has kept running since: Amp now follows up on your GitHub pull requests and orders files intelligently for faster reviews (both October 12), Puck works in other agents via MCP (October 13), a runner's macOS desktop is visible and usable from your session (October 16), issues can be mentioned or assigned to Amp in Linear and it works them in a thread (October 19), and the featured October 22 [Self-Hosted Orbs announcement](https://ampcode.com/news/self-hosted-orbs) opened running orbs on your own infrastructure through an `amp orb provider` dispatch program (free for individuals and teams, with Enterprise billing at standard orb pricing starting October 29), the newest items as of 2026-10-25, with the tier page re-verified unchanged on 2026-10-25 (the Individual and Teams tiers now advertise using your own domains for portals).
 
 ## Strengths
 
@@ -50,7 +50,7 @@ Hobby: free tier with all product features, pay-as-you-go orb time or your own r
 Individual $20/month: 45,000 orb minutes (750 hours) of Megawatt orb time, with a Gigawatt step-up behind the same toggle; a linked ChatGPT subscription still powers the low, medium, and high Dial settings instead of Amp credits.
 Teams cost nothing extra beyond members' tiers and pool credits with SAML/OIDC SSO; Enterprise is custom, pooled credits only.
 Since the September 13, 2026 Free Agent change there is no monthly fee to use Amp at all on your own compute, runners, subscriptions, or keys (you can still buy inference through Amp with no markup), and the zero and minimal data retention policy is now contractually extended to every tier.
-All tiers re-verified unchanged on 2026-10-07.
+All tiers re-verified unchanged on 2026-10-25.
 
 ## Price history
 
@@ -58,6 +58,7 @@ All tiers re-verified unchanged on 2026-10-07.
 | ---- | ---- | ------ | ------ |
 | 2026-08-22 | Individual | Baseline at note creation: Hobby free, Individual $20/mo for 45,000 Megawatt orb minutes, Teams and Enterprise pooling. | [ampcode.com/pricing](https://ampcode.com/pricing/) |
 | 2026-09-13 | All tiers | Free Agent change: no monthly fee to use Amp on your own compute, runners, subscriptions, or keys; Amp-sold inference stays at no markup, zero and minimal retention extended to every tier. | [ampcode.com/pricing](https://ampcode.com/pricing/) |
+| 2026-10-22 | Self-hosted orbs | Introduced free for individuals and teams; Enterprise workspaces move to standard orb pricing starting October 29, 2026, free for every workspace until then. | [Self-Hosted Orbs announcement](https://ampcode.com/news/self-hosted-orbs) |
 
 ## Compared to
 
@@ -87,6 +88,7 @@ Not for open-source-only teams or anyone metering their own tokens.
 - 2026-10-08 - Recorded the October 6 Many, Many Pucks news (multiple separate Puck conversations), re-verified the pricing page unchanged, and moved the newest-item as-of date.
 - 2026-10-10 - Recorded the October 10 Use Your Claude Plan announcement, which made Claude Pro and Max plans usable in Amp for everyone at no extra cost through a mode running the Claude Agent SDK under the hood.
 - 2026-10-17 - Recorded the October 12-16 news: GitHub pull-request follow-ups, Jev-powered intelligent file ordering, Puck in other agents via MCP, and runner desktop viewing, and moved the newest-item as-of date.
+- 2026-10-25 - Rotation re-verification, every cited reference live; recorded the October 19 Linear issue assignment and the October 22 Self-Hosted Orbs announcement (free for individuals and teams, Enterprise orb pricing from October 29) with its Price history row, re-verified the tier page unchanged, and noted the custom portal domains now advertised on Individual and Teams.
 
 ## See also
 
@@ -97,8 +99,9 @@ Not for open-source-only teams or anyone metering their own tokens.
 
 ## References
 
-- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-10-17
-- https://ampcode.com/pricing/ - Hobby, Megawatt, Gigawatt, teams, enterprise, linked subscriptions, as of 2026-10-11 (re-verified unchanged)
+- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-10-25
+- https://ampcode.com/pricing/ - Hobby, Megawatt, Gigawatt, teams, enterprise, linked subscriptions, as of 2026-10-25 (re-verified unchanged)
+- https://ampcode.com/news/self-hosted-orbs - the October 22, 2026 announcement opening orb self-hosting
 - https://ampcode.com/news/free-agent - the September 13, 2026 free-with-your-own-compute and expanded-BYOK announcement
 - https://ampcode.com/news/use-your-claude-plan - the October 10, 2026 Claude Plan mode announcement and its Claude Agent SDK note
 - https://ampcode.com/news/amp-frontier-corporation - the December 2, 2025 spinout announcement

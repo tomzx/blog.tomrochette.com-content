@@ -3,9 +3,9 @@ category: retrieval
 generated: 2026-10-25
 mapped_sources:
   - repo: Yigtwxx/awesome-rag-production
-    last_checked: 2026-10-24
+    last_checked: 2026-10-25
   - repo: Danielskry/Awesome-RAG
-    last_checked: 2026-10-24
+    last_checked: 2026-10-25
 governing_questions:
   - id: q4
     summary: should Haystack become a third framework column

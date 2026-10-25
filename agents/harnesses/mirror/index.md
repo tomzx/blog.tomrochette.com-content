@@ -1,7 +1,7 @@
 ---
 title: "Mirror"
 created: 2026-10-21
-updated: 2026-10-21
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, cli, coding-agent, reflection, open-weights, byok]
 readability: 3
@@ -24,8 +24,8 @@ The code is Apache-2.0 at `reflection-oss/mirror`, and much of the product surfa
 
 ## Status
 
-Early beta and moving: `reflection-oss/mirror` was created on 2026-10-12, stood at 196 stars and 13 forks as of 2026-10-21, and was last pushed on 2026-10-19.
-The version line is still 0.1.x: one tagged release on GitHub (`mirror-agent-v0.1.8`, 2026-10-19) and the PyPI package `reflection-mirror` at 0.1.0 since 2026-10-16, with Reflection's own docs stating that commands and behavior may change between releases and that the extension API is in early beta.
+Early beta and moving: `reflection-oss/mirror` was created on 2026-10-12, stood at 196 stars and 13 forks as of 2026-10-21, and was last pushed on 2026-10-22 (GitHub API, as of 2026-10-25).
+The version line is still 0.1.x: one tagged release on GitHub (`mirror-agent-v0.1.8`, 2026-10-19) and the PyPI package `reflection-mirror` at 0.1.1 since 2026-10-22 (0.1.0 shipped 2026-10-16), with Reflection's own docs stating that commands and behavior may change between releases and that the extension API is in early beta.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=reflection-oss/mirror&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for teams that need a mature, independently benchmarked agent, native Window
 
 - 2026-10-21 - Created from the owner's entrant question: repository, model defaults, workspaces, extensions, instructions and skills, MCP, CLI reference, and pricing sources all fetched the same day.
 - 2026-10-21 - Corrected the opening claim: DeepSeek Harness, Kimi Code, Qwen Code, and ZCode are also vendor harnesses whose makers publish open weights, so openness does not distinguish Mirror; the thesis now names the multi-workspace session and the vendor-entrant pattern instead.
+- 2026-10-25 - Recorded the push moving to 2026-10-22 and the PyPI package reaching 0.1.1 (October 22, after 0.1.0 on October 16); the single GitHub tag mirror-agent-v0.1.8 stands.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Sepia
 created: 2026-09-27
-updated: 2026-10-16
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, writing, humanizer, fiction]
 readability: 3
@@ -16,11 +16,12 @@ Sepia is an MIT-licensed de-AI writing skill for Claude Code, Codex, Grok Build,
 
 ## What it is
 
-One canonical SKILL.md with thin operation wrappers, maintained by Nanako0129, exposing write, review (diagnose only), refactor (minimal edits), recreate (full rewrite), and an opt-in Hemingway voice profile.
+One canonical SKILL.md with thin operation wrappers, maintained by Nanako0129, exposing write, review (diagnose only), refactor (minimal edits), recreate (full rewrite), and opt-in voice profiles (built-in Hemingway and Taiwan long-form journalism voices, plus author-defined persona profiles).
 Fiction gets a three-pass protocol over narrative architecture, discourse flow, and surface style.
-Professional prose gets venue-matched rule files for release notes, PR replies, postmortems, tickets, and technical articles.
+Professional prose gets venue-matched rule files for release notes, PR replies, postmortems, tickets, technical articles, and long-form journalism.
 Chinese text gets a separate calibration file across four evidence layers, including a measured corpus of about two thousand Taiwanese news articles.
 Every rule traces to a research ledger in the repo that digests fifteen studies, led by StoryScope (arXiv:2604.03136, 61,608 stories, 93.2% macro-F1 from narrative features alone), with per-model fingerprints that name which vendors published guidance and which were merely consulted.
+The structural finding has a professional-prose arm too: a 2026 StoryScope replication on 2,250 company blog posts against 11,250 AI mirrors separated them at 97.0 macro-F1 from structural features alone, nearly unchanged when every AI post was reworded by its own model (arXiv:2609.15369 v3; the repo's ledger still quotes the earlier revision's 98.0).
 Install is `npx skills add Nanako0129/sepia -g` or a native plugin marketplace, and the repo runs CI workflows for behavioral evals and version consistency.
 
 ## Status
@@ -77,6 +78,7 @@ My disagreeable claim: most humanizer installs, sepia included, are plausibly wa
 - 2026-10-07 - The repo resumed activity after the 09-23 quiet stretch: v0.12.3 shipped 2026-10-06 as the latest tag, and the Status figures moved to 3,007 stars and seven open issues.
 - 2026-10-11 - The README's native plugin packaging list gained QwenPaw (Claude Code, Codex, Grok Build, Antigravity, and QwenPaw now ship native packaging); v0.12.3 is still the latest release and the figures refreshed to 3,079 stars.
 - 2026-10-16 - v0.12.4 shipped 2026-10-15 (a professional-recreate stance fix and QwenPaw `/sepia` dispatch changes) and is now the latest release; the Status and reference lines re-dated.
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched live and the zero-HN search re-run (still only unrelated sepia stories), with the repo unchanged since 2026-10-15 (v0.12.4 still latest, five open issues). The What-it-is section picked up what the README carries and the note lacked: the sixth professional-prose domain (long-form journalism), the voice profiles beyond Hemingway (a Taiwan journalism voice and author-defined personas), and the professional-prose StoryScope replication (arXiv:2609.15369), whose current v3 reports 97.0 macro-F1 where the repo's ledger quotes the pre-v3 98.0.
 
 ## See also
 
@@ -88,9 +90,10 @@ My disagreeable claim: most humanizer installs, sepia included, are plausibly wa
 
 ## References
 
-- https://api.github.com/repos/Nanako0129/sepia - 3,155 stars and 198 forks as of 2026-10-13, MIT, pushed 2026-10-15 with latest tag v0.12.4 as of 2026-10-16 (200, fetched 2026-10-16)
-- https://raw.githubusercontent.com/Nanako0129/sepia/main/README.md - operations, three-pass protocol, research ledger, per-platform verification limits (200, QwenPaw packaging line re-verified 2026-10-11)
-- https://hysenlabs.com/en/projects/nanako0129-sepia - third-party editorial review (September 10, 2026) with critical sections on calibration and wrong-tool cases (200)
-- https://arxiv.org/abs/2604.03136 - StoryScope: 61,608 stories, 93.2% macro-F1 from narrative features alone, v6 revised 2026-08-10 (200)
-- https://hn.algolia.com/api/v1/search?query=sepia&tags=story - the zero-hit search behind the missing-footprint statement (200, fetched 2026-09-27)
-- https://old.reddit.com/r/ClaudeAI/comments/1w2g7za/i_turned_the_storyscope_paper_into_a_deai_writing/ - the maintainer's launch thread, fetch blocked with 403 in this run, cited for existence only
+- https://api.github.com/repos/Nanako0129/sepia - 3,155 stars and 198 forks as of 2026-10-13, MIT, pushed 2026-10-15 with latest tag v0.12.4 as of 2026-10-25 (200, re-fetched 2026-10-25)
+- https://raw.githubusercontent.com/Nanako0129/sepia/main/README.md - operations, three-pass protocol, research ledger, per-platform verification limits (200, re-fetched 2026-10-25)
+- https://hysenlabs.com/en/projects/nanako0129-sepia - third-party editorial review (September 10, 2026) with critical sections on calibration and wrong-tool cases (200, re-fetched 2026-10-25)
+- https://arxiv.org/abs/2604.03136 - StoryScope: 61,608 stories, 93.2% macro-F1 from narrative features alone, v6 revised 2026-08-10 (200, re-fetched 2026-10-25)
+- https://arxiv.org/abs/2609.15369 - SlopShape, the professional-prose replication the ledger cites: 2,250 company blog posts against 11,250 AI mirrors, 97.0 macro-F1 from 176 structural features alone and 96.1 under self-rewording (v3, 200, fetched 2026-10-25)
+- https://hn.algolia.com/api/v1/search?query=sepia&tags=story - the zero-hit search behind the missing-footprint statement (200, re-run 2026-10-25, still only unrelated sepia stories)
+- https://old.reddit.com/r/ClaudeAI/comments/1w2g7za/i_turned_the_storyscope_paper_into_a_deai_writing/ - the maintainer's launch thread, fetch blocked with 403 (re-tried 2026-10-25, still 403), cited for existence only

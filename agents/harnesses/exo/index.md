@@ -1,7 +1,7 @@
 ---
 title: "Exo"
 created: 2026-09-05
-updated: 2026-10-20
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agent, self-improvement, rust]
 readability: 3
@@ -21,7 +21,7 @@ The design philosophy is documented in the repository's RSI.md, "A Systems View 
 
 ## Status
 
-Active: created 2026-05-20, 1,505 stars and 114 forks, pushed 2026-10-20 (GitHub API, as of 2026-10-20).
+Active: created 2026-05-20, 1,505 stars and 114 forks, pushed 2026-10-23 (GitHub API, as of 2026-10-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=exoharness/exo&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ Not for production work or anyone who cannot tolerate a harness changing its own
 - 2026-10-06 - Moved the FrontierHarness dollar figure out of the Pricing section, leaving it in Status where the benchmark is cited, so the note conforms to the price-history rule.
 - 2026-10-07 - Added the exoharness/exo star history chart to the Status section.
 - 2026-10-17 - Repaired the RSI.md reference in the rotation pass: the repository restructure moved the document from docs/ to examples/self-improving-agent/docs/ (the old URL 404s), and refreshed the push date.
+- 2026-10-25 - Rotation re-verification, every cited reference live (RSI.md at its post-restructure path), and the push date refreshed to 2026-10-23; no releases and no new independent evaluation, so the FrontierHarness figures stand as cited.
 
 ## See also
 

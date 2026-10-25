@@ -1,7 +1,7 @@
 ---
 title: Agent Client Protocol (ACP)
 created: 2026-08-24
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, editor-integration]
 readability: 3
@@ -82,6 +82,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 - 2026-10-17 - Both SDKs moved again on 2026-10-16, the Rust crate to 3.4.0 and the TypeScript package to 1.9.0, while the stable protocol stays at version 1 and the v2 alpha train reached schema-v2.0.0-alpha.9 (2026-10-16); agents list re-counted at 43 as of 2026-10-17.
 - 2026-10-20 - The TypeScript SDK moved to a breaking 2.0.0 (2026-10-19): the legacy connection classes and connector helper were removed in favor of agent()/client() apps and stable protocol bindings became the default import surface, while the SDK's default protocol stays ACP v1 and both v2 entrypoints stay experimental; the Rust crate (3.4.0), the stable protocol at version 1 with the v1.12.0 / schema-v1.26.0 train of 2026-10-16, and the v2 alpha train at schema-v2.0.0-alpha.9 re-verified unchanged; agents list re-counted at 43 as of 2026-10-20.
 - 2026-10-24 - The SDK train moved on without breaking changes, the Rust crate to 3.5.0 (2026-10-22) and the TypeScript package to 2.0.1 (2026-10-22) then 2.0.2 (2026-10-23), both bug-fix releases after the breaking 2.0.0, while the stable protocol stays at version 1 with the v2 draft open; agents list re-counted at 46 as of 2026-10-24.
+- 2026-10-25 - The repository pushed 2026-10-25 with the v2 draft's RFD docs moving subagents, system prompt, and MCP-over-ACP to active, while the SDK train stays at Rust 3.5.0 (2026-10-22) and TypeScript 2.0.2 (2026-10-23); agents list re-counted at 46, and the stable protocol stays at version 1 with the v2 draft open.
 
 ## See also
 

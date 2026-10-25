@@ -1,7 +1,7 @@
 ---
 title: oh-my-codex
 created: 2026-09-27
-updated: 2026-10-22
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, codex, skills, workflows]
 readability: 3
@@ -24,7 +24,7 @@ Notifications route to Discord, Slack, Telegram, or custom webhooks through an O
 
 ## Status
 
-Actively shipped and very popular: about 33,526 stars and 2,541 forks as of 2026-10-13, created 2026-02-02, with v0.21.29 (2026-10-22) the latest release and npm at the same version across 158 published versions, seven releases in two days after v0.21.11 (2026-10-13) and ten patches more through v0.21.29, which hardened team mailbox isolation further, after v0.21.19 (2026-10-19) added team-scoped mailbox delivery that isolates mailbox messages and recovery by team, and v0.21.10 (2026-10-13) hardened the astra-defaults evaluation infrastructure, fixed TOML configuration merges dropping multi-line `[tui]` arrays, and added npm registry-visibility diagnostics, and v0.21.9 (2026-10-12) added cumulative session token-usage reporting (`omx session usage`), native subagent completion evidence for doctor diagnostics, and an astra-defaults live evaluation collector.
+Actively shipped and very popular: about 33,526 stars and 2,541 forks as of 2026-10-13, created 2026-02-02, with v0.21.36 (2026-10-25) the latest release and npm at the same version, seven releases in two days after v0.21.11 (2026-10-13) and a daily patch line running on through v0.21.36, after v0.21.29 (2026-10-22) hardened team mailbox isolation further, after v0.21.19 (2026-10-19) added team-scoped mailbox delivery that isolates mailbox messages and recovery by team, and v0.21.10 (2026-10-13) hardened the astra-defaults evaluation infrastructure, fixed TOML configuration merges dropping multi-line `[tui]` arrays, and added npm registry-visibility diagnostics, and v0.21.9 (2026-10-12) added cumulative session token-usage reporting (`omx session usage`), native subagent completion evidence for doctor diagnostics, and an astra-defaults live evaluation collector.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Yeachan-Heo/oh-my-codex&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ Not for Windows-first users, non-Codex harnesses, or anyone who needs a stable, 
 
 - 2026-10-20 - Recorded v0.21.25 (2026-10-20, team mailbox isolation hardening) and the v0.21.20 through v0.21.24 patch line, npm at 154 published versions.
 
+- 2026-10-25 - Recorded v0.21.36 (2026-10-25) as the latest release, npm in sync.
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins

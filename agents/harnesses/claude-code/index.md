@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-10-16
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
@@ -79,7 +79,6 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 
 ## Changes
 
-- 2026-10-16 - Recorded the official Code Review plugin (about 438,525 installs, five parallel reviewers) as ecosystem evidence in Status per the vendor-sibling fold precedent.
 - 2026-08-22 - Created in the Harnesses category seed with the prompt-steganography and token-overhead findings recorded.
 - 2026-08-22 - Removed the type field per the section-wide owner rules change.
 - 2026-08-23 - Style conformance pass: bolded section key insights, split the longest sentences, named the proxy-study referent, and set the updated field.
@@ -94,6 +93,8 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - 2026-09-26 - Linked the Claude plans note in the new Model access category, where the subscription that meters this harness is tracked with its price history.
 - 2026-09-29 - Refreshed repository scale (about 148.5k stars, about 13.6k open issues and pull requests).
 - 2026-10-07 - Added the anthropics/claude-code star history chart to the Status section.
+- 2026-10-16 - Recorded the official Code Review plugin (about 438,525 installs, five parallel reviewers) as ecosystem evidence in Status per the vendor-sibling fold precedent.
+- 2026-10-25 - Rotation re-verification, every cited reference live and the changelog head confirming the v2.1.310 train; also repaired this Changes section's ordering, which had the 2026-10-16 bullet above the creation bullet against the oldest-first rule.
 
 ## See also
 

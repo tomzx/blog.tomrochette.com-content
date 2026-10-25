@@ -1,7 +1,7 @@
 ---
 title: A2UI
 created: 2026-10-06
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, generative-ui, frontend, google]
 readability: 3
@@ -76,6 +76,7 @@ My disagreeable claim: A2UI will matter more to what end users see than AG-UI do
 - 2026-10-17 - Recorded the 2026-10-17 Python package wave: a2ui-core v0.4.0 with cross-catalog `$ref` resolution, the agent SDK's breaking move to v0.9.0, and the ADK and A2A bindings extracted into first releases (a2ui-adk v0.1.0, a2ui-a2a v0.1.0); the spec hub's version table re-verified unchanged (v0.9.1 current, v1.0 candidate).
 - 2026-10-22 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the spec hub's version table re-confirmed (v0.9.1 current production, v1.0 release candidate), the 2026-10-17 Python package wave still the newest release set, and the launch-thread figures re-checked (164 points); the repository pushed 2026-10-22.
 - 2026-10-24 - Re-verification: the repository pushed 2026-10-24 with the release train unchanged (the 2026-10-17 Python wave still the newest set) and the spec hub's version table re-confirmed (v0.9.1 current production, v1.0 release candidate).
+- 2026-10-25 - Re-verification: the repository pushed 2026-10-25 with the tagged release train unchanged (the 2026-10-17 Python wave still the newest set) and the spec hub's version table re-confirmed (v0.9.1 current production, v1.0 release candidate).
 
 ## See also
 

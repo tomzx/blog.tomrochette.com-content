@@ -1,7 +1,7 @@
 ---
 title: Command Code
 created: 2026-10-05
-updated: 2026-10-17
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-models, personalization, closed-source]
 readability: 3
@@ -25,7 +25,7 @@ The company raised a $5 million seed led by Tom Preston-Werner, with Amjad Masad
 ## Status
 
 **Active and fast-growing in distribution, with an evidence base that is mostly the vendor's own.**
-The npm package's latest build is 1.84.0 (published October 16, 2026, after 1.82.3 on October 15 and the 1.81.0/1.80.0 pair on October 12), the site's changelog counts 431 releases (401 CLI), and the package did 219,334 downloads in the last month (the API window covering September 13 to October 12, as of 2026-10-17).
+The npm package's latest build is 1.88.0 (published October 23, 2026, after 1.84.0 on October 16 and the 1.82.3/1.81.0/1.80.0 run earlier that week), the site's changelog counted 431 releases (401 CLI) as of 2026-10-17, and the package did 219,334 downloads in the last month (the API window covering September 13 to October 12, as of 2026-10-17).
 The `CommandCodeAI/command-code` repository has 4,132 stars as of 2026-10-15 (GitHub API) but hosts issues only: no source, no license, the client is closed.
 
 <picture>
@@ -87,6 +87,7 @@ Not for open-client mandates, and not for anyone who needs independent evaluatio
 - 2026-10-09 - Recorded the npm train reaching 1.79.2 (published October 8), the changelog counting 431 releases with the 1.79.2 entry naming Claude Haiku 5.5 on the GOAT plan at the $20 default and Glyph Cluster as a free model, the plan ladder re-verified unchanged, and download and repository counters refreshed.
 - 2026-10-13 - Recorded the npm train reaching 1.81.0 (published October 12) after 1.80.0 the same day, and refreshed download and repository counters.
 - 2026-10-17 - Recorded the npm train reaching 1.84.0 (published October 16) after 1.82.3 (October 15), and refreshed download counters.
+- 2026-10-25 - Recorded the npm train reaching 1.88.0 (published October 23) after 1.84.0 (October 16), and pinned the changelog count to its 2026-10-17 reading.
 
 ## See also
 

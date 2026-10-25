@@ -1,7 +1,7 @@
 ---
 title: Orca
 created: 2026-09-27
-updated: 2026-10-22
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, agent-ide, worktrees, mobile]
 readability: 3
@@ -24,7 +24,7 @@ MIT licensed, TypeScript and Electron, and the repo's README carries translation
 
 ## Status
 
-Fast and well-funded: about 92.8k stars (92,765) as of 2026-10-15, up from 85.2k on 2026-10-07, a sustained gain of roughly 1k per day, created 2026-03-17, more than 11,900 commits, with v1.4.237 (2026-10-21) the latest desktop release (GitHub API, as of 2026-10-22) after v1.4.232 (2026-10-20, an Auto permissions mode for chat and terminal, Manual | Auto | Yolo per agent), the v1.4.22x daily train, and the Android track's mobile-android-v0.0.55 (2026-10-13).
+Fast and well-funded: about 92.8k stars (92,765) as of 2026-10-15, up from 85.2k on 2026-10-07, a sustained gain of roughly 1k per day, created 2026-03-17, more than 11,900 commits, with v1.4.240 (2026-10-25) the latest desktop release (GitHub API, as of 2026-10-25) after v1.4.237 (2026-10-21) and v1.4.232 (2026-10-20, an Auto permissions mode for chat and terminal, Manual | Auto | Yolo per agent), the v1.4.22x daily train, and the Android track's mobile-android-v0.0.55 (2026-10-13).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stablyai/orca&type=date&theme=dark&legend=top-left" />
@@ -87,6 +87,7 @@ Not for teams that need a closed, vendor-supported enterprise product today, or 
 
 - 2026-10-20 - Recorded v1.4.232 (2026-10-20, Auto permissions in chat and terminal) as the latest desktop release.
 
+- 2026-10-25 - Recorded v1.4.240 (2026-10-25) as the latest desktop release.
 ## See also
 
 - [The Agentic Development Environment Landscape](../../the-agentic-development-environment-landscape/index.md) - the tracker that already named Orca the open-source ADE with the widest feature surface

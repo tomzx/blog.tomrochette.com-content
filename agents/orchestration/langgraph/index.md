@@ -1,7 +1,7 @@
 ---
 title: LangGraph
 created: 2026-10-06
-updated: 2026-10-18
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-framework, graph-runtime, durable-execution, python, typescript]
 readability: 3
@@ -31,7 +31,7 @@ Active and enormous: 43,293 stars, 7,364 forks, and 100+ contributors as of 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=langchain-ai/langgraph&type=date&legend=top-left" />
 </picture>
 
-Release 1.2.16 shipped 2026-10-16 on GitHub and PyPI alike after 1.2.15 (2026-10-12), continuing a 1.2.x line that has run all year, with a push on 2026-10-18 (GitHub API, as of 2026-10-18).
+Release 1.2.17 shipped 2026-10-24 after 1.2.16 (2026-10-16, GitHub and PyPI alike), continuing a 1.2.x line that has run all year, with a push on 2026-10-25 (GitHub API, as of 2026-10-25).
 npm `@langchain/langgraph` served 3,725,541 downloads in the week ending 2026-10-07, down from 4,552,953 the week before, 3,765,811 in the week ending 2026-10-08, 3,789,072 in the week ending 2026-10-09, 3,802,787 in the week ending 2026-10-10, 3,795,517 in the week ending 2026-10-11, and 3,741,572 in the week ending 2026-10-12, so the dip held roughly flat in the 3.7 to 3.8 million band rather than deepening (npm API, as of 2026-10-17).
 **For scale: that is more weekly installs than any other column in this matrix by a wide margin, and probably more than the rest of the table combined.**
 
@@ -76,6 +76,7 @@ Not for engineers who want a dashboard, worktrees, and a review flow around exis
 - 2026-10-12 - Added the week-ending-October-10 figure (3,802,787), holding the flat line, and refreshed stars to 43,102.
 - 2026-10-13 - Added the week-ending-October-11 figure (3,795,517), holding the flat line, recorded release 1.2.15 (October 12), and refreshed stars to 43,170.
 
+- 2026-10-25 - Recorded release 1.2.17 (2026-10-24) on the release train.
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins

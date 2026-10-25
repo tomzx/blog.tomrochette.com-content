@@ -1,7 +1,7 @@
 ---
 title: Headroom
 created: 2026-10-07
-updated: 2026-10-22
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, token-optimization]
 readability: 3
@@ -23,7 +23,7 @@ The docs' reproducible benchmarks (seeded, generated from MCP output formats, gp
 
 ## Status
 
-Active and compounding fast: created 2026-01-07, 75,468 stars as of 2026-10-18 and 6,009 forks in nine months, PyPI package at 0.41.0, 30,698 npm downloads in the week of 2026-10-12 to 2026-10-18, as of 2026-10-22.
+Active and compounding fast: created 2026-01-07, 75,468 stars as of 2026-10-18 and 6,009 forks in nine months, PyPI package at 0.41.0, 159,697 npm downloads in the trailing month to 2026-10-22.
 Release v0.41.0 (2026-10-14) added a native Google Antigravity IDE integration, OpenCode 2.x plugin-API support, and the headroom-snip Claude Code mod, and the proxy gained turn hooks that rewrite OpenAI Responses requests on HTTP and WebSocket (2026-10-17).
 
 <picture>
@@ -69,6 +69,7 @@ Not as a substitute for retrieval quality (compressing bad context makes bad con
 
 - 2026-10-07 - Created.
 - 2026-10-18 - Recorded release v0.41.0 (native Antigravity IDE integration, OpenCode 2.x plugin support, the headroom-snip Claude Code mod) and the proxy turn-hook work, corrected the wrap count from fourteen to fifteen agents per the README, and refreshed the activity figures.
+- 2026-10-25 - Replaced the weekly npm-window adoption claim with the trailing-month figure (159,697 to 2026-10-22) per the trailing-month ruling on npm weekly windows; the 2026-10-24 main-branch fixes carried no release or material change; the stars figure keeps its 2026-10-18 as-of date.
 
 ## See also
 
@@ -83,5 +84,5 @@ Not as a substitute for retrieval quality (compressing bad context makes bad con
 - https://api.github.com/repos/headroomlabs-ai/headroom - stars, forks, open issues, created date, and push date for the as-of status (fetched 200, 2026-10-18)
 - https://docs.headroomlabs.ai/docs - the compression table by content type, the seeded benchmark table with its own caveats, and the framework integrations (fetched 200, 2026-10-18)
 - https://pypi.org/pypi/headroom-ai/json - the published package version 0.41.0 (fetched 200, 2026-10-18)
-- https://api.npmjs.org/downloads/point/last-week/headroom-ai - weekly npm download volume for the adoption claim: 49,633 for 2026-10-10 to 2026-10-16 (fetched 200, 2026-10-18)
+- https://api.npmjs.org/downloads/point/last-month/headroom-ai - 159,697 downloads in the trailing month to 2026-10-22 (fetched 200, 2026-10-25)
 - https://hn.algolia.com/api/v1/items/48999841 - the largest Headroom thread, 10 points, July 2026, grounding the modest-HN-footprint observation (fetched 200, 2026-10-18)

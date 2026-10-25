@@ -1,7 +1,7 @@
 ---
 title: TOON
 created: 2026-10-07
-updated: 2026-10-19
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, serialization, token-optimization, specification]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 TOON (Token-Oriented Object Notation) is an MIT-licensed, spec-backed encoding of the JSON data model that replaces braces and repeated keys with indentation and CSV-style table rows, cutting the token cost of structured data handed to LLMs while staying lossless and human-readable.
 
-**TOON is the packing convention for the structured slice of the context window: it changes nothing about which data enters the window, only how many tokens the same data costs, and its 1.8 million weekly npm downloads make it the most-adopted encoding standard this category holds.**
+**TOON is the packing convention for the structured slice of the context window: it changes nothing about which data enters the window, only how many tokens the same data costs, and its millions of npm downloads a month make it the most-adopted encoding standard this category holds.**
 
 ## What it is
 
@@ -23,7 +23,7 @@ The intended use is a translation layer: keep JSON in code, encode to TOON at th
 
 ## Status
 
-Active and widely adopted: created 2025-10-22, 25,494 stars, spec at v4.4, 1,874,531 npm downloads in the week of 2026-10-05 to 2026-10-11, as of 2026-10-13.
+Active and widely adopted: created 2025-10-22, 25,494 stars, spec at v4.4, 6,723,407 npm downloads in the trailing month to 2026-10-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=toon-format/toon&type=date&theme=dark&legend=top-left" />
@@ -39,7 +39,7 @@ A third-party test comparing TOON against JSON and CSV on tabular data came out 
 - The token savings on uniform arrays are mechanical and measurable, and the format stays lossless, so it drops into an existing JSON pipeline as a prompt-boundary codec.
 - Explicit array lengths and per-row field elision make structure easy for models to validate, which is the argument against just using CSV.
 - A specification with conformance requirements and multiple independent implementations, not a single library's output format.
-- Adoption at the 1.8-million-downloads-a-week level means tooling and precedent exist when something goes wrong.
+- Adoption at the millions-of-downloads-a-month level means tooling and precedent exist when something goes wrong.
 
 ## Cautions
 
@@ -68,6 +68,7 @@ Not for deeply nested or heterogeneous payloads, and not yet for contexts where 
 - 2026-10-07 - Created.
 - 2026-10-09 - Recorded the specification moving to v4.4 (published 2026-10-08) and refreshed the volatile numbers (25,478 stars, 1,658,827 weekly npm downloads, window 2026-10-01 to 2026-10-07).
 - 2026-10-19 - Corrected the SPEC.md reference annotation to the v4.4 version the note already records; full re-verification, every cited URL re-fetched and intact.
+- 2026-10-25 - Replaced the weekly npm-window adoption claim with the trailing-month figure (6,723,407 to 2026-10-22) per the trailing-month ruling on npm weekly windows; the stars figure keeps its 2026-10-13 as-of date.
 
 ## See also
 
@@ -81,5 +82,5 @@ Not for deeply nested or heterogeneous payloads, and not yet for contexts where 
 - https://github.com/toon-format/toon - repository, MIT license, README design rationale, and the benchmark framing (fetched 200, 2026-10-07)
 - https://api.github.com/repos/toon-format/toon - stars, created date, and push date for the as-of status (fetched 200, 2026-10-07)
 - https://raw.githubusercontent.com/toon-format/spec/HEAD/SPEC.md - the v4.4 specification: syntax, canonical number formatting, delimiter scoping, strict-mode validation, and conformance requirements (fetched 200, 2026-10-19)
-- https://api.npmjs.org/downloads/point/last-week/@toon-format/toon - weekly download volume for the adoption claim (fetched 200, 2026-10-07)
+- https://api.npmjs.org/downloads/point/last-month/@toon-format/toon - 6,723,407 downloads in the trailing month to 2026-10-22 (fetched 200, 2026-10-25)
 - https://hn.algolia.com/api/v1/items/45715632 - the 178-point launch thread with the YAML and training-data-accuracy objections (fetched 200, 2026-10-07)

@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code"
 created: 2026-09-05
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, moonshot, byok]
 readability: 3
@@ -43,12 +43,14 @@ The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 202
 - The repository split (Apache-2.0 `kimi-cli` versus MIT `kimi-code`) has resolved toward `kimi-code`: the official docs state the CLI was rebuilt on Node.js and that the old Python version will no longer be maintained, with a migration guide pointing at the new codebase ([docs](https://www.kimi.com/code/docs/), as of 2026-09-12).
 The wind-down is now complete: GitHub shows the `kimi-cli` repository archived as of 2026-10-02, after its final 1.52.0 release on September 22, 2026.
 - Your tokens flow to Moonshot's API in the default path, the same vendor-dependency trade Claude Code and Codex make, just with a cheaper vendor.
+- The dedicated coding model's days are numbered: kimi-k2.7-code sits in the K2 series Moonshot closes to new users on October 31, 2026 and plans to retire by the end of December 2026, so any kimi-k2.7-code-based setup needs a migration plan to the K3 line.
 - Thin independent coverage means the FrontierHarness numbers are nearly the only third-party evidence available.
 
 ## Pricing
 
 The harness is free and open source.
-Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $0.239/$10.80 per million tokens (cache reads listed at $0.21) and kimi-k2.7-code at $0.67/$3.35 (cache hits $0.15) as of 2026-10-24 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09; the endpoint-roster reading (the input floor at $0.238/$16.00 on Wafer, InferenceNet matching the main listing at $0.239/$11.936, Relace off the floor at $0.30/$12.00, and the roster holding at 28) predates this output cut and is as of 2026-10-21), with other OpenAI-compatible providers configurable.
+Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: the K3 line runs kimi-k3 at $0.239/$10.80 per million tokens (cache reads listed at $0.21) and the new flagship kimi-k3.1-pro at $2/$10 (cache reads $0.20), while the K2 line runs kimi-k2.7-code at $0.67/$3.35 (cache hits $0.15), all as of 2026-10-25 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); K3.1 Pro, released October 23, 2026, carries a flat 1,048,576-token context with no length tiering, a 2-3x faster kimi-k3.1-pro-highspeed variant, and weights Moonshot says will be released by November 4, per the [official quickstart](https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart); Moonshot's CN platform listed kimi-k3 and kimi-k2.7-code at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09; the endpoint-roster reading (the input floor at $0.238/$16.00 on Wafer, InferenceNet matching the main listing at $0.239/$11.936, Relace off the floor at $0.30/$12.00, and the roster holding at 28) predates this output cut and is as of 2026-10-21), with other OpenAI-compatible providers configurable.
+The K2 line has a retirement clock: starting October 31, 2026, K2-series models close to newly registered users, and Moonshot plans to retire all of them by the end of December 2026, with existing users unaffected until then ([model list notice](https://platform.kimi.ai/docs/models)).
 
 ## Price history
 
@@ -78,6 +80,7 @@ Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform AP
 | 2026-10-17 | API (OpenRouter) | the main kimi-k3 listing held at $0.304/$11.936 per million tokens (cache reads $0.21, InferenceNet matching) while the endpoints churned through the day: the closing fetch put the input floor at Relace $0.27/$14.2307 (after a morning reading of $0.25/$8.5378, itself down from $0.35/$14.00 yesterday), the output floor at Sail Research's new fp4 endpoint $0.504/$8.10, Wafer at $0.28/$24.00 and $0.50/$14.90, Morph's input down to $0.30/$14.90, and the roster widened to 26 endpoints; kimi-k2.7-code unchanged at $0.67/$3.35. | [OpenRouter kimi-k3 endpoints](https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints) |
 | 2026-10-18 | API (OpenRouter) | the main kimi-k3 listing held at $0.304/$11.936 per million tokens (cache reads $0.21, InferenceNet matching) while the endpoints recomposed around the same floors: the input floor held at Relace $0.27/$14.00 (output trimmed from $14.2307), the output floor held at Sail Research's fp4 endpoint $0.504/$8.10, Wafer moved down to $0.28/$16.00 and $0.36/$11.90, Morph rose to $0.392/$14.90, and the roster stayed at 26 while ten new hosts joined (AkashML, Makora, Decart, Chutes, Phala, DigitalOcean, DeepInfra, Amazon Bedrock, BaseTen, Alibaba); kimi-k2.7-code unchanged at $0.67/$3.35. | [OpenRouter kimi-k3 endpoints](https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints) |
 | 2026-10-21 | API (OpenRouter) | the main kimi-k3 listing moved to $0.239/$11.936 per million tokens with cache reads held at $0.21 (a same-day $0.00 reading corrected against the listing on re-fetch), InferenceNet matching; the input floor moved to Wafer at $0.238/$16.00, Relace off the floor at $0.30/$12.00, and the roster grew to 28 with the ten 10-18 joins holding; kimi-k2.7-code unchanged at $0.67/$3.35 (cache hits $0.18). | [OpenRouter kimi-k3 endpoints](https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints) |
+| 2026-10-23 | API (Moonshot platform and OpenRouter) | kimi-k3.1-pro introduced at $2/$10 per million tokens (cache reads $0.20) as the first K3.1-series model, with flat pay-as-you-go pricing across the 1M window and a kimi-k3.1-pro-highspeed variant; kimi-k3 and kimi-k2.7-code unchanged. | [K3.1 Pro quickstart](https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart), [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 | 2026-10-24 | API (OpenRouter) | kimi-k3's output leg cut from $11.936 to $10.80 per million tokens (input $0.239 and cache reads $0.21 unchanged), the seventeenth recorded move; kimi-k2.7-code's cache-hit price cut from $0.18 to $0.15 with input and completion unchanged. | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 
 ## Compared to
@@ -125,6 +128,7 @@ Not for teams that need local models, or anyone who needs more than one independ
 - 2026-10-18 - Recorded the endpoint recomposition with the main kimi-k3 listing holding at $0.304/$11.936: the input floor held at Relace $0.27/$14.00, the output floor held at Sail Research's fp4 $0.504/$8.10, Wafer moved down and Morph up, and ten new hosts joined the 26-endpoint roster, and appended the matching Price history row with the usage sentence refreshed.
 - 2026-10-21 - Recorded the kimi-k3 listing's sixteenth move to $0.239/$11.936 (cache reads held at $0.21) with the input floor moving to Wafer at $0.238/$16.00, Relace off the floor at $0.30/$12.00, and the roster growing to 28, appended the matching Price history row with the usage sentence refreshed, and corrected the row's same-day $0.00 cache reading against a coordinator-level re-fetch of the listing.
 - 2026-10-24 - Recorded the kimi-k3 output price cut on OpenRouter to $0.239/$10.80 per million tokens (cache reads held at $0.21), the seventeenth recorded move, alongside kimi-k2.7-code's cache-hit price dropping to $0.15, and appended the matching Price history row with the usage sentence refreshed.
+- 2026-10-25 - Recorded Moonshot's K3.1 Pro release (October 23, the first K3.1-series model: flat-priced 1M-token context, $2/$10 per million tokens with cache reads at $0.20, a Highspeed variant, and weights due by November 4), appended the matching Price history row, and added the K2-series retirement clock now hanging over kimi-k2.7-code (new-user cutoff October 31, planned retirement by end of December 2026) as a caution; the quickstart's Terminal-Bench cells still carried placeholder brackets, so no benchmark score is cited.
 
 ## See also
 
@@ -141,5 +145,7 @@ Not for teams that need local models, or anyone who needs more than one independ
 - https://www.kimi.com/code/docs/ - product docs, login paths, and the Node.js migration notice naming the old CLI as unmaintained
 - https://frontierharness.org - the independent pass-rate and cost-per-task numbers
 - https://hn.algolia.com/api/v1/items/45767884 - the largest HN thread, cited as the thin-footprint signal
-- https://openrouter.ai/api/v1/models - live per-token prices grounding the kimi-k3 and kimi-k2.7-code figures, as of 2026-10-21
+- https://openrouter.ai/api/v1/models - live per-token prices grounding the kimi-k3, kimi-k3.1-pro, and kimi-k2.7-code figures, as of 2026-10-25
 - https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - live per-provider endpoint prices grounding the endpoint floor, as of 2026-10-21
+- https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart - the K3.1 Pro quickstart: the flat 1M-context pricing model, the Highspeed variant, and the November 4 weights date; its Terminal-Bench cells still carried placeholder brackets as of 2026-10-25
+- https://platform.kimi.ai/docs/models - the model list carrying the K2-series retirement notice (new-user cutoff October 31, 2026, retirement by end of December 2026)

@@ -1,7 +1,7 @@
 ---
 title: Semble
 created: 2026-08-30
-updated: 2026-10-17
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-search, context-engines, local-first, developer-tools]
 readability: 3
@@ -17,8 +17,8 @@ Semble is a MIT-licensed local code search tool built for coding agents: it chun
 
 ## What it is
 
-**One Python tool, three delivery surfaces, zero setup.**
-`semble install` detects installed agents (Claude Code, Codex, OpenCode, Pi, and others) and wires any combination of an MCP server, CLI usage instructions in AGENTS.md or CLAUDE.md, and a dedicated `semble-search` sub-agent; `semble uninstall` reverses it.
+**One Python tool, four delivery surfaces, zero setup.**
+`semble install` detects installed agents (Claude Code, Codex, OpenCode, Pi, and others) and wires any combination of an MCP server, CLI usage instructions in AGENTS.md or CLAUDE.md, a dedicated `semble-search` sub-agent, or (since 2026-10-24) a `semble` skill with a one-line pointer replacing the full instructions; `semble uninstall` reverses it.
 The engine splits files into tree-sitter chunks, scores queries with static potion-code-16M-v2 embeddings and BM25 in parallel, fuses the rankings with reciprocal rank fusion, then reranks with code-aware signals; everything runs on CPU with no API keys or external services.
 It ships as a CLI (`semble search`, `find-related`, a docs/config/all content switch), a two-tool MCP server (`search`, `find_related`), and a Python library, with gitignore-aware filtering, local path or git-URL inputs, and cached indexes invalidated on file change.
 It is built by MinishLab, the two-person team (Stephan and Thomas, per the launch post) behind the Model2Vec static-embedding project.
@@ -26,7 +26,7 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
 ## Status
 
 **Young, active, and unusually well received for a search tool.**
-6,212 stars and 285 forks since the repo appeared on 2026-04-06, with the last push 2026-10-16 and v0.7.0 released 2026-10-16 (GitHub API, as of 2026-10-17).
+6,212 stars and 285 forks since the repo appeared on 2026-04-06, with the last push 2026-10-24 (a `semble` skill installer option) and v0.7.0 released 2026-10-16 (GitHub API, stars as of 2026-10-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MinishLab/semble&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MinishLab/semble&type=date&legend=top-left" />
 </picture>
 
-97,003 PyPI downloads in the trailing month (PyPIstats, re-fetched 2026-10-13).
+97,003 PyPI downloads in the trailing month (PyPIstats, re-fetched 2026-10-25, figure unchanged).
 The launch Show HN (May 17, 2026) drew 445 points and 151 comments, on top of two quiet warm-up threads in April; a third-party VS Code extension appeared in August, which is the usual early-ecosystem signal.
 
 ## Strengths
@@ -49,7 +49,7 @@ The launch Show HN (May 17, 2026) drew 445 points and 151 comments, on top of tw
 - **Every published number is self-run, and the founders say so**: in the launch thread they state they do not claim end-to-end agent improvements because they have not measured them, so the 99-percent token reduction is a retrieval-layer figure, not a work-quality one.
 - The benchmark bar is modest: parity is claimed against CodeRankEmbed, a 137M-parameter model, and the static-embedding design caps how much semantic depth is available at any price.
 - The "fewer tokens than grep" baseline has been challenged on its own terms: grep spends zero tokens, the cost is the agent's read strategy afterward, and commenters asked whether the comparison is 100k-to-2k or 1k-to-20, a question the benchmark answers only in aggregate.
-- Two maintainers, a five-month-old project, and a pre-1.0 (0.6.x) API are the usual early-adoption risks.
+- Two maintainers, a seven-month-old project, and a pre-1.0 (0.7.x) API are the usual early-adoption risks.
 
 ## Pricing
 
@@ -78,6 +78,7 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 - 2026-10-06 - Recorded release v0.6.2 (2026-10-05) and refreshed the numbers (6,183 stars, 273 forks, pushed 2026-10-06, 97,003 trailing-month PyPI downloads); the no-paid-plan claim is unchanged.
 - 2026-10-07 - Added the MinishLab/semble star history chart to the Status section.
 - 2026-10-17 - Recorded release v0.7.0 (2026-10-16: BM25 postings stored as numpy arrays, faster warm queries, parallelized chunking and batched embeddings, an MCP SDK 2.x upgrade, and a new `semble file-types` command), pushed 2026-10-16; the no-paid-plan claim unchanged.
+- 2026-10-25 - Full rotation re-verification: every cited URL re-fetched and intact; recorded the fourth delivery surface (a `semble` skill installer option added 2026-10-24) and corrected the pre-1.0 API version reference; no-paid-plan and all benchmark claims unchanged.
 
 ## See also
 
@@ -88,7 +89,7 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 
 ## References
 
-- https://github.com/MinishLab/semble - repo, README (architecture, installer, CLI, MCP, savings counter), stars and activity as of 2026-10-07
+- https://github.com/MinishLab/semble - repo, README (architecture, installer with the MCP, instructions, sub-agent, and skill options, CLI, MCP, savings counter), stars and activity as of 2026-10-25
 - https://news.ycombinator.com/item?id=48169874 - the 445-point launch thread, including the founders' no-agent-level-claim statement and the baseline criticisms (verified via the Algolia items API)
 - https://pypi.org/project/semble/ - the package surface, version 0.6.2 (fetched 2026-10-06)
 - https://pypistats.org/api/packages/semble/recent - 97,003 downloads in the trailing month as of 2026-10-07

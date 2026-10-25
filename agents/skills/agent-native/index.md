@@ -1,7 +1,7 @@
 ---
 title: Agent-Native
 created: 2026-09-13
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, agent-extensions, builder-io, app-frameworks]
 readability: 3
@@ -33,7 +33,7 @@ The catalog stands at 4,571 stars and 232 forks, the framework at 7,143 stars an
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=BuilderIO/agent-native&type=date&legend=top-left" />
 </picture>
 
-The npm package was created 2026-06-10, sits at 0.3.50 with nightly builds publishing several times a day, and pulled 4,392 downloads in the week of 2026-10-16 to 2026-10-22, down from 6,242 the prior week (the API still serves that window).
+The npm package was created 2026-06-10, sits at 0.3.51 with nightly builds publishing several times a day, pulled 4,392 downloads in the week of 2026-10-16 to 2026-10-22 (the API has not rolled that window forward yet), and read 54,848 over the trailing month to 2026-10-22, the window I would quote over any single week since npm weekly counts carry zero-day gaps.
 The catalog itself keeps growing: it held 24 skill directories as of 2026-10-24 (re-counted, unchanged), up from the fifteen recorded at this note's creation, with the new entries concentrated in the factory family and orchestration helpers (efficient-fable, efficient-frontier, quick-recap, turn-into-app, visual-edit).
 No Hacker News threads and no independent coverage surfaced in this run's searches, so the audience so far is GitHub and npm.
 
@@ -84,6 +84,7 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 - 2026-10-20 - The framework repo's license signal healed: a root MIT LICENSE file (Copyright Builder.io, Inc.) now exists there, its package.json is back to MIT, and GitHub license detection is restored, resolving the mixed-signal caution carried since 2026-09-22; the npm stable crossed to 0.3.37 with weekly downloads at 6,242 (window 2026-10-12 to 10-18).
 - 2026-10-22 - The npm stable crossed to 0.3.45 with the nightly cadence continuing; the catalog re-counted at 24 skills unchanged, and the framework pushes remain monorepo app development (a Content stored-form rebuild with a live-body writer gate) plus a routine exported-skills sync in the pack repo.
 - 2026-10-24 - The npm stable crossed to 0.3.50 with the nightly cadence continuing (@agent-native/dispatch at 0.40.39, published 2026-10-23); weekly downloads fell to 4,392 (window 2026-10-16 to 10-22) from 6,242, the catalog re-counted at 24 skills unchanged, and the framework pushes remain monorepo app development (dispatch checkpoint recovery, Slack feedback inventory, analytics discovery fixes).
+- 2026-10-25 - The npm stable crossed to 0.3.51 with the nightly cadence continuing (@agent-native/scheduling at 0.2.45 is a monorepo sub-package publish on the same train); the weekly window held at 4,392 (2026-10-16 to 10-22, not yet rolled forward) and the Status line added the trailing-month figure (54,848) under the zero-day-gap ruling, the catalog is unchanged (no pushes since the 2026-10-24 re-count), and the framework pushes remain monorepo app development (durable inbox admission, harness follow-up claims, Slack feedback tracking).
 
 ## See also
 
@@ -98,6 +99,8 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 - https://github.com/BuilderIO/skills - the catalog repo: 24 skills, installer options, marketplace packaging, root MIT LICENSE file, 4,571 stars as of 2026-10-13
 - https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, root MIT LICENSE file with package.json and GitHub detection agreeing as of 2026-10-20, 7,143 stars as of 2026-10-13
 - https://www.agent-native.com/ - the framework landing
-- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.50, published from the monorepo, as of 2026-10-24
-- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 4,392 weekly downloads, window 2026-10-16 to 2026-10-22 (fetched 2026-10-24)
-- https://hn.algolia.com/api/v1/search?query=%22builder.io%22%20skills&tags=story - the zero-hit search behind the missing-footprint statement (re-run 2026-10-11, still zero hits)
+- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.51, published from the monorepo, as of 2026-10-25
+- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 4,392 weekly downloads, window 2026-10-16 to 2026-10-22 (re-fetched 2026-10-25, window unchanged)
+- https://api.npmjs.org/downloads/point/last-month/@agent-native/skills - 54,848 downloads over the trailing month, window 2026-09-23 to 2026-10-22 (fetched 2026-10-25)
+- https://registry.npmjs.org/@agent-native/scheduling/latest - the flagged sub-package release: 0.2.45, MIT, provenance-published from the monorepo's scheduling package (fetched 2026-10-25)
+- https://hn.algolia.com/api/v1/search?query=%22builder.io%22%20skills&tags=story - the zero-hit search behind the missing-footprint statement (re-run 2026-10-25, still zero hits)

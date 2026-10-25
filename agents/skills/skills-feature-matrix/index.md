@@ -1,7 +1,7 @@
 ---
 title: "Skills Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, skills, agent-extensions]
 readability: 3
@@ -55,7 +55,7 @@ The permissions row tells the story: SkillMD's published verdicts cover 1,948 of
 The standard needs no registry at all, skills.sh won the distribution slot by wrapping git and symlinking into 79 harnesses, its leaderboard counts opt-out CLI telemetry rather than ratings, one company controls the ranking surface of a nominally open ecosystem, which is the cell I would watch, and skills.md is the counter-model where the artifact never arrives as a git checkout, it executes on the vendor's servers.
 
 **The Agent-Native column is the first pack in the matrix, and it reads differently from the nine infrastructure columns and from the two content columns that joined after it: it consumes the spec's portable core, adds no enforcement of its own, and its pull is toward Builder.io's own stack, the hosted Dispatch MCP endpoint and the hosted plans app its flagship skills default to.**
-The cell to watch is stewardship: the pack has grown to 24 skills with a new experimental factory family, the catalog ships an MIT LICENSE file and the framework's license signal healed on 2026-10-20 (root LICENSE file restored, package.json back to MIT, GitHub detection agreeing, catalog 4.6k and framework 7.1k stars, npm now 0.3.45), and there is still no independent coverage as of 2026-10-18, so the pack is one company's opinion on a multiple-releases-a-day cadence.
+The cell to watch is stewardship: the pack has grown to 24 skills with a new experimental factory family, the catalog ships an MIT LICENSE file and the framework's license signal healed on 2026-10-20 (root LICENSE file restored, package.json back to MIT, GitHub detection agreeing, catalog 4.6k and framework 7.1k stars, npm now 0.3.51), and there is still no independent coverage as of 2026-10-25, so the pack is one company's opinion on a multiple-releases-a-day cadence.
 
 **Fourteen of the fifteen columns cost nothing outright, and the missing row is still versioning.**
 skills.md is the first paid column (Pro $12 per month with 1,500 credits bundled, repriced from $10 on 2026-10-17, plus per-run credits), Snyk's scanner is free on a Snyk account with the enterprise Evo fleet reporting paid, the spec has no version or dependency story, OpenCode has none, Anthropic versions only through its Skills API, and pinning is left to git discipline or third parties like Skilleton.
@@ -102,6 +102,7 @@ skills.md is the first paid column (Pro $12 per month with 1,500 credits bundled
 - 2026-10-20 - Extended from fourteen to fifteen columns with Snyk Agent Scan (the machine-wide agent-component security scanner), sorted after SkillSpector, all twelve cells traced to the new note; the intro, stack, permissions, and cost prose updated (two scanners, fourteen of fifteen columns free outright) and an audit bullet added to Choosing. The Agent-Native open-source cell moved from partial to supported (the framework repo now ships a root MIT LICENSE file, its package.json is back to MIT, and GitHub detection agrees), and the reading prose's Agent-Native npm figure moved to 0.3.37.
 - 2026-10-22 - The Snyk versioning cell moved to v0.6.9 (the 2026-10-20 release that added VS Code extension MCP-server discovery), the SkillMD review-coverage as-of dates in the permissions cell and reading prose moved to 2026-10-22 after re-verification, and the reading prose's Agent-Native npm figure moved to 0.3.45.
 - 2026-10-24 - The OpenCode explicit-invocation cell moved back to partial with the corrected mechanism (model-judgment by default, v2 explicit `@skill-id` loads and an `opencode/autoinvoke` opt-out) and its frontmatter cell moved to partial after the rotation re-verification found the docs disclaiming the 10-16 slash-command reading and shipping the v2 skills redesign; no other cells moved.
+- 2026-10-25 - The reading prose's Agent-Native npm figure moved to 0.3.51 after the volatile re-verification of its note (the note's 10-24 crossing to 0.3.50 had not been carried here) and its no-independent-coverage date moved to 2026-10-25 on the re-run zero-hit search; no cells moved.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Code-Graph-RAG
 created: 2026-10-07
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, knowledge-graph, rag]
 readability: 3
@@ -26,7 +26,7 @@ Made by an independent developer, with an enterprise support and services badge 
 ## Status
 
 **Actively shipping and early: 5.2k stars in sixteen months with almost no independent discussion.**
-5,252 stars and 702 forks as of 2026-10-14, pushed 2026-10-24, with 538 open issues (GitHub API, as of 2026-10-24).
+5,252 stars and 702 forks as of 2026-10-14, pushed 2026-10-25, with 526 open issues (GitHub API, as of 2026-10-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vitali87/code-graph-rag&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 - 2026-10-19 - Recorded the PyPI train reaching 0.2.10 (2026-10-18, 30 releases total, ten point releases in three days) and refreshed the repository activity (pushed 2026-10-19, 589 open issues).
 - 2026-10-22 - Refreshed the repository activity (pushed 2026-10-22) and recorded the open-issue count falling from 590 to 543, with the Cautions line aligned; PyPI 0.2.10 remains latest.
 - 2026-10-24 - Recorded the PyPI train reaching 0.3.2 (2026-10-24, 34 releases total; the 0.2 line ran to 0.2.24 by 2026-10-23 before the 0.3 line opened) and refreshed the repository activity (pushed 2026-10-24, 538 open issues), with the Cautions churn line extended.
+- 2026-10-25 - Refreshed the repository activity (pushed 2026-10-25, 526 open issues); PyPI 0.3.2 remains latest.
 
 ## See also
 
@@ -85,8 +86,8 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 
 ## References
 
-- https://api.github.com/repos/vitali87/code-graph-rag - 5,252 stars (as of 2026-10-14), 702 forks, MIT, created 2025-06-16, pushed 2026-10-24, 538 open issues (GitHub API, as of 2026-10-24)
+- https://api.github.com/repos/vitali87/code-graph-rag - 5,252 stars (as of 2026-10-14), 702 forks, MIT, created 2025-06-16, pushed 2026-10-25, 526 open issues (GitHub API, as of 2026-10-25)
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/README.md - the two-component architecture, compiler frontends, runtime tracing, language support, Memgraph storage
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/NEWS.md - the feature-news ledger behind the active-maintenance claim
-- https://pypi.org/pypi/code-graph-rag/json - version 0.3.2 (2026-10-24), 34 releases (still latest, re-verified 2026-10-24; the 0.2 line ended at 0.2.24, 2026-10-23)
+- https://pypi.org/pypi/code-graph-rag/json - version 0.3.2 (2026-10-24), 34 releases (still latest, re-verified 2026-10-25; the 0.2 line ended at 0.2.24, 2026-10-23)
 - https://hn.algolia.com/api/v1/search?query=Code-Graph-RAG%20knowledge%20graph&tags=story - the footprint scan: two Show HNs at 1 point each (2026-02 and 2026-03)

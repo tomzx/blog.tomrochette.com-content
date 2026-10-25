@@ -1,7 +1,7 @@
 ---
 title: Agent Plugins
 created: 2026-10-06
-updated: 2026-10-17
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, plugins, open-standards, packaging]
 readability: 3
@@ -71,6 +71,7 @@ My disagreeable claim: the interesting question is no longer whether skills and 
 - 2026-10-06 - Created in the daily refresh's skills entrant scan.
 - 2026-10-07 - Added the agentplugins/agent-plugins-spec star history chart to the Status section.
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, all claims held (spec still v1.0.0 published, the ten-field closed manifest and report-and-ignore rule unchanged, the TSC and launch-client lists unchanged, the repo still pushed 2026-09-28); no cells or figures moved.
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched live, all claims held again (spec still v1.0.0 with the ten-field closed manifest, report-and-ignore rule, and PLUGIN_ROOT/PLUGIN_DATA contract unchanged, the TSC and launch-client lists unchanged, the repo still pushed 2026-09-28); no cells or figures moved.
 
 ## See also
 
@@ -82,8 +83,8 @@ My disagreeable claim: the interesting question is no longer whether skills and 
 
 ## References
 
-- https://agent-plugins.org/ - the spec site: package model, component types, open governance, and the five-vendor TSC (fetched 2026-10-06)
-- https://agent-plugins.org/specification - the normative v1.0.0 spec: the closed ten-field manifest, required `$schema` and `name`, report-and-ignore for unknown fields, MCP transports, and the `PLUGIN_ROOT`/`PLUGIN_DATA` environment contract (fetched 2026-10-06)
-- https://vercel.com/blog/introducing-agent-plugins - the launch announcement (2026-08-06): Vercel initiated, refined with AWS, Anysphere, GitHub, Microsoft, and OpenAI, and the launch client list (fetched 2026-10-06)
-- https://api.github.com/repos/agentplugins/agent-plugins-spec - the specification repo: 1,382 stars, 76 forks, created 2026-04-03, pushed 2026-09-28 (GitHub API, as of 2026-10-13)
-- https://agenticskills.io/learn/what-are-agent-plugins - the critical reading: the `plugin.json` naming collision, the absent Anthropic and Google, the CLI-versus-native-support distinction, and what remains unsolved (fetched 2026-10-06)
+- https://agent-plugins.org/ - the spec site: package model, component types, open governance, and the five-vendor TSC (re-fetched 2026-10-25, unchanged)
+- https://agent-plugins.org/specification - the normative v1.0.0 spec: the closed ten-field manifest, required `$schema` and `name`, report-and-ignore for unknown fields, MCP transports, and the `PLUGIN_ROOT`/`PLUGIN_DATA` environment contract (re-fetched 2026-10-25, unchanged)
+- https://vercel.com/blog/introducing-agent-plugins - the launch announcement (2026-08-06): Vercel initiated, refined with AWS, Anysphere, GitHub, Microsoft, and OpenAI, and the launch client list (re-fetched 2026-10-25, unchanged)
+- https://api.github.com/repos/agentplugins/agent-plugins-spec - the specification repo: 1,382 stars, 76 forks, created 2026-04-03, pushed 2026-09-28 (GitHub API, as of 2026-10-13; re-fetched 2026-10-25, still pushed 2026-09-28)
+- https://agenticskills.io/learn/what-are-agent-plugins - the critical reading: the `plugin.json` naming collision, the absent Anthropic and Google, the CLI-versus-native-support distinction, and what remains unsolved (re-fetched 2026-10-25, unchanged)
