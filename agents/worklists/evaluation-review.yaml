@@ -3,7 +3,7 @@ category: evaluation-review
 generated: 2026-10-25
 mapped_sources:
   - repo: anhermon/awesome-agent-observability
-    last_checked: 2026-10-23
+    last_checked: 2026-10-25
 governing_questions:
   - id: q6
     summary: "third observability column (Opik), second eval-framework column (promptfoo), or stand"
