@@ -30,7 +30,7 @@ v0.13.3 and v0.13.4 (both 2026-10-24) rebuilt the README around animated scenes 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentrq/agentrq&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=agentrq/agentrq&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentrq/agentrq&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentrq/agentrq&type=date&legend=top-left" />
 </picture>
 
 **The independent record exists but is small: a 6-point Show HN from April 2026, a 2-point follow-up discussion, and little third-party coverage since, so the realtime claim rests on the README's own captures rather than field reports.**
@@ -77,6 +77,8 @@ Not for AGPL-constrained teams, or anyone needing repository-native task storage
 - 2026-10-21 - Out-of-rotation correction: brought the Pricing section in line with the v0.13.0 licence split the previous run recorded, naming the dual licence (AGPL-3.0-only repository plus a binary-only commercial licence from Contextual, Inc.) and the Apache-2.0 daemon, installers, and CLI, re-verified against the README's licence section (fetched 2026-10-21).
 - 2026-10-23 - Recorded v0.13.1 and v0.13.2 (2026-10-21 and 2026-10-23: the MCP text attachments shipped with the task tool pointed at agentrq-ws, dependency security patches, the per-user MCP connections and machines-online view, and the notification routing fixes) and refreshed counts (pushed 2026-10-23).
 - 2026-10-25 - Recorded v0.13.3 and v0.13.4 (both 2026-10-24: the README rebuilt around animated scenes with a Task Timeline feature row, Machine Info CPU tiles, enrollment starting the server itself, and dependency security patches) and refreshed counts (87 forks, 9 open issues and pull requests, pushed 2026-10-25).
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

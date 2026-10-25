@@ -1,7 +1,7 @@
 ---
 title: Claude Code Action
 created: 2026-10-11
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, github-actions, claude-code, scheduling]
 readability: 3
@@ -31,7 +31,7 @@ Hacker News has no dedicated launch thread; the most substantive coverage is a J
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code-action&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code-action&type=date&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=anthropics/claude-code-action&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=anthropics/claude-code-action&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -70,6 +70,7 @@ My disagreeable claim: the mention workflow is the best default in this category
 - 2026-10-11 - Created from the 2026-10-11 official-Actions family admission, with the injection surface recorded as the critical angle.
 - 2026-10-17 - Corrected the release story: the action ships a dense v1.0.x train (v1.0.252 on 2026-10-16) rather than holding at the 2025-08-26 v1 tag, whose announcement release merely keeps the Latest badge; found by the volatile pass after new releases landed.
 - 2026-10-24 - Fully re-verified in rotation with every cited URL re-fetched: the README, the security docs (the RISKY flags, secret scrubbing, bubblewrap isolation, the bot-allowlist warning, and the new per-actor comment filters), the usage docs, the official GitHub Actions docs, the repo page, the no-dedicated-launch-thread search, and the July 2025 injection report (8 points, zero comments) all re-confirmed; the release train moved to v1.0.261 (2026-10-23) and the counters refreshed (2,213 forks, 835 open issues and pull requests).
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

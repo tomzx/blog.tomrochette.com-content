@@ -1,7 +1,7 @@
 ---
 title: Marvin
 created: 2026-10-15
-updated: 2026-10-22
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, pydantic, validation, agents]
 readability: 3
@@ -70,6 +70,7 @@ The disagreeable claim I will defend: Marvin's four-function API is the correct 
 
 - 2026-10-15 - Created from the entrant scan (the slavakurilyak/awesome-ai-agents structured-outputs section), admitted as the validate-and-retry family's AI-functions toolkit kind, with the twice-rebuilt history and the quiet 2026 release train recorded as the governing cautions.
 - 2026-10-22 - Rotation re-verification: every cited URL re-fetched and holding (repository, README, PyPI at 3.2.7, the release train still ending at v3.2.7 of 2026-03-04, the project site, the archived ControlFlow, both HN threads at 127 and 20 points); nothing changed.
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched and holding (repository still pushed 2026-09-23, README, PyPI at 3.2.7, the release train still ending at v3.2.7 of 2026-03-04, the project site redirecting to /welcome, the archived ControlFlow, both HN threads at 127 and 20 points); nothing changed.
 
 ## See also
 

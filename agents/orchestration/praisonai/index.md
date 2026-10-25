@@ -26,7 +26,7 @@ Active and heavily maintained: 9,238 stars as of 2026-10-15, a push on 2026-10-2
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MervinPraison/PraisonAI&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MervinPraison/PraisonAI&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MervinPraison/PraisonAI&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MervinPraison/PraisonAI&type=date&legend=top-left" />
 </picture>
 
 **The critical record matters more than the star count here: a 2026-08-03 GitHub advisory (GHSA-5r6c-gj4g-r697) reported that SecurityPolicy command, path, and import restrictions were completely unenforced by the default SubprocessSandbox backend, so the sandbox story deserves direct verification before you lean on it.**
@@ -68,6 +68,8 @@ Not for security-sensitive deployments that need a vendor's incident track recor
 - 2026-10-20 - Recorded v4.7.16 (2026-10-19) on the release train.
 
 - 2026-10-25 - Recorded v4.7.17 (2026-10-23) on the release train and `praisonaiagents` at 1.7.15 on PyPI.
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+
 ## See also
 
 - [CrewAI](../crewai/index.md) - the closest funded alternative in the Python multi-agent family.

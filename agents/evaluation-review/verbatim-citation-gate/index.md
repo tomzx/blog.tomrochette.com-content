@@ -32,7 +32,7 @@ A Hacker News search returns zero threads as of 2026-10-11, so the adoption sign
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tonydzi/verbatim-citation-gate&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tonydzi/verbatim-citation-gate&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tonydzi/verbatim-citation-gate&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tonydzi/verbatim-citation-gate&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -70,6 +70,8 @@ Not for paraphrase-tolerant citation systems, and not as a battle-tested depende
 - 2026-10-17 - Recorded the v0.3.0 release (2026-10-16): offset-span citations under the same fail-closed gate, and the project's first outside contribution (PR 12), with the release-pause caution updated.
 - 2026-10-21 - Recorded the unreleased post-v0.3.0 fixes on main (2026-10-19) and re-verified the PyPI absence; the newest release is still v0.3.0.
 - 2026-10-25 - Recorded the v0.3.1 release (2026-10-24), which shipped the three gate fixes previously tracked as unreleased on main; the PyPI absence re-verified.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

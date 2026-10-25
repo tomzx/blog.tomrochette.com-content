@@ -1,7 +1,7 @@
 ---
 title: Parallel Code
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, worktrees, desktop, multi-harness, electron]
 readability: 3
@@ -29,7 +29,7 @@ Active and solo-led: 1,060 stars, 144 forks, 23 contributors, and 48 open issues
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=johannesjo/parallel-code&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=johannesjo/parallel-code&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=johannesjo/parallel-code&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=johannesjo/parallel-code&type=date&legend=top-left" />
 </picture>
 
 The independent footprint is thin: the Show HN launch on 2026-02-22 drew 2 points and no comments (HN Algolia), and I found no press coverage, so the 1.1k stars ride the author's Super Productivity audience and word of mouth.
@@ -69,6 +69,8 @@ Not for Windows users, not for teams that need multi-maintainer durability, and 
 ## Changes
 
 - 2026-10-23 - Created after the coordinator handoff flagged the unmatched repository, admitted on the worktree-CLI precedent (gwq, Worktrunk) with the worktree-per-task desktop kind.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

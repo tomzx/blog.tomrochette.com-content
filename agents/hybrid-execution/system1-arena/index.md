@@ -1,7 +1,7 @@
 ---
 title: System1-Arena
 created: 2026-10-17
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, system-one-models, decision-models, benchmark]
 readability: 3
@@ -28,7 +28,7 @@ Two days old at this check and moving fast: the arXiv paper was submitted 2026-1
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TianyuCodings/S1-Arena&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TianyuCodings/S1-Arena&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TianyuCodings/S1-Arena&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TianyuCodings/S1-Arena&type=date&legend=top-left" />
 </picture>
 
 The headline board (non-agentic tasks, as of 2026-10-17) puts Claude Opus 5.5 first at 81.1 percent accuracy and GPT-6 Astra second at 80.1, with the System One tier led by Decision-2.0-Vega-27B at 73.0 and Jev 1.13 at 72.6 (321 ms, $0.05 per 1,000 requests), and a fast open LLM (Gemma-4-31B, 73.9 at 60 ms) splitting the tiers.
@@ -70,6 +70,8 @@ The disagreeable claim I will defend: a benchmark whose authors include a wave m
 
 - 2026-10-17 - Created from the NanoJev signal scan (the member's README began citing the paper and leaderboard), accepted as the category's fourth benchmark on the like-for-like design, the closed-loop environments, and the shipped harness, with the two-day no-coverage footprint recorded as the governing caution.
 - 2026-10-24 - Full re-verification on rotation: all five references re-fetched and live; repository unchanged (last push 2026-10-16), the leaderboard site still up with the same headline rows, and nothing else changed.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

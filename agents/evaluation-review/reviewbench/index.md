@@ -34,7 +34,7 @@ Its guide discloses the answer-leakage test behind the container boundary: golde
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=review-bench/ReviewBench&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=review-bench/ReviewBench&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=review-bench/ReviewBench&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=review-bench/ReviewBench&type=date&legend=top-left" />
 </picture>
 
 Validation is the strongest published number: senior engineers who did not build the dataset re-labeled every ground-truth finding and agreed with it 96.6 percent of the time, with 47 findings manually corrected, and GitHub reports the benchmark's offline movement has anticipated production A/B directions for Copilot code review (the lite-tier ensemble experiment: addressed rate up 8.0 percent, recall up 13.6 percent, cost per review down 8.0 percent).
@@ -82,6 +82,8 @@ Not for CI gating, and not as an unbiased tiebreaker while the publisher's own r
 - 2026-10-21 - Recorded three more onboardings (opswiki, alma-reviewer, and OhMyBug, all merged 2026-10-19, sixteen total) and the `--exclude-producer` leave-producer-out judging flag (2026-10-20); refreshed the activity line.
 - 2026-10-23 - Recorded the TraceHound onboarding (merged 2026-10-22, seventeen total) and refreshed the activity line.
 - 2026-10-25 - Recorded the Laude RevEngine Prime rename to Laude RevEngine (PR 98, merged 2026-10-24); the onboarding count stands at seventeen.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

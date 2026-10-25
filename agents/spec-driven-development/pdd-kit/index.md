@@ -35,7 +35,7 @@ It entered this category's scan as the Engineering4AI awesome list's Development
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=itai-gendler/pdd-kit&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=itai-gendler/pdd-kit&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=itai-gendler/pdd-kit&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=itai-gendler/pdd-kit&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -70,6 +70,8 @@ Not for anyone who needs an enforced gate or third-party validation before adopt
 ## Changes
 
 - 2026-10-23 - Created from the Engineering4AI awesome-list entrant scan (listed as BusinessLens until the 2026-10-21 rename, previously rejected below the bar under the old name), resolving itai-gendler/pdd-kit as the product-model column with the zero-coverage record as the critical angle.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

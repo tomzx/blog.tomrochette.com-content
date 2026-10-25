@@ -30,7 +30,7 @@ Young and shipping fast: 149 stars and 22 forks as of 2026-10-21, repository cre
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=apowerb/apowerb&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=apowerb/apowerb&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=apowerb/apowerb&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=apowerb/apowerb&type=date&legend=top-left" />
 </picture>
 
 The independent footprint is the founder's own HN threads, a four-point Show HN with one reply and a five-point Helm-chart post, with no third-party coverage found as of 2026-10-21.
@@ -73,6 +73,8 @@ Not for coding-agent orchestration, and not without pinning versions and verifyi
 - 2026-10-21 - Created.
 
 - 2026-10-25 - Recorded PyPI at 0.2.97.
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins

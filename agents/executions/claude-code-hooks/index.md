@@ -1,7 +1,7 @@
 ---
 title: Claude Code hooks
 created: 2026-08-24
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, claude-code, hooks]
 readability: 3
@@ -16,7 +16,7 @@ Claude Code hooks are user-defined shell commands, HTTP endpoints, or LLM prompt
 
 ## What it is
 
-Hooks live in JSON settings files at four scopes (user, project, local, and organization-managed policy) plus plugin manifests, skill frontmatter, and subagent frontmatter.
+Hooks live in JSON settings files at four scopes (user, project, local, and organization-managed policy) plus plugin manifests, skill frontmatter, and subagent frontmatter, and plugins can also register hooks as JavaScript functions in their own process (the docs' mods surface).
 **The event surface has grown to 33 lifecycle points**: session start and end, prompt submit, before and after every tool call, permission requests, compaction, subagent start and stop, file changes on disk, and config changes.
 Handlers come in five types: shell commands, HTTP POSTs, MCP tool calls, single-turn prompt evaluations, and experimental multi-turn agent hooks.
 The same hook events fire in the terminal, IDE extensions, the desktop app, and Claude Code on the web, and they also fire inside subagents.
@@ -24,7 +24,7 @@ The same hook events fire in the terminal, IDE extensions, the desktop app, and 
 ## Status
 
 **Active and heavily invested in.**
-The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 150.7k stars as of 2026-10-13, roughly 15.6k open issues as of 2026-10-24).
+The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 150.7k stars as of 2026-10-13, roughly 15.6k open issues as of 2026-10-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ The feature ships in the proprietary CLI tracked by the `anthropics/claude-code`
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&legend=top-left" />
 </picture>
 
-A third-party ecosystem exists: an HN search surfaces several hundred stories mentioning Claude Code hooks as of 2026-10-18, including dedicated tooling like Graft, whose August 2026 launch thread drew 44 comments.
+A third-party ecosystem exists: an HN search surfaces several hundred stories mentioning Claude Code hooks as of 2026-10-25, including dedicated tooling like Graft, whose August 2026 launch thread drew 44 comments.
 Anthropic's own security-guidance plugin is built entirely on hooks (SessionStart, UserPromptSubmit, PostToolUse, Stop), which signals production commitment.
 
 ## Strengths
@@ -45,7 +45,7 @@ Anthropic's own security-guidance plugin is built entirely on hooks (SessionStar
 ## Cautions
 
 - **The `if` filter fails open**: the docs say plainly that because it is best-effort, you should use the permission system, not a hook, to enforce a hard allow or deny.
-- Matcher semantics are version-gated and event-specific (FileChanged and StopFailure accept only pipe separators while every other event also accepts commas, and the `if` directory-pattern meaning changed in v2.1.214), so a config can silently change meaning across client versions, and agent hooks are experimental.
+- Matcher semantics are version-gated and event-specific (FileChanged and StopFailure accept only pipe separators while every other event also accepts commas, StopFailure's `cloud_credential_error` matcher needs v2.1.267 or later, and the `onFailure` block-on-failure field v2.1.295), so a config can silently change meaning across client versions, and agent hooks are experimental.
 - Cloud sessions do not read `~/.claude/settings.json`, so your personal hooks quietly disappear on the web.
 - Prompt and agent handlers add model calls: Anthropic's own plugin docs estimate roughly one review call per turn that changes files plus a deeper review per commit.
 
@@ -76,6 +76,7 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 - 2026-10-07 - Added the anthropics/claude-code star history chart to the Status section.
 - 2026-10-11 - Refreshed the repository counters (about 150.0k to about 150.1k stars) and corrected the HN story count from roughly 500 to roughly 450 against the current search; the 33-event count and all doc claims re-verified unchanged.
 - 2026-10-18 - Replaced the churning HN story count with "several hundred" (the same query moved between about 450 and about 500 within the month) and refreshed the open-issue count to roughly 15.2k; the 33-event surface and the five handler types re-verified against the live reference after the 2026-10-17 push.
+- 2026-10-25 - Fully re-verified in rotation with every cited URL re-fetched: the 33-event surface, the five handler types, the four scopes plus skill and subagent frontmatter, the fail-open `if` filter, the FileChanged/StopFailure pipe-only matcher rule, and the security-guidance hook map all re-confirmed against the live docs; replaced the stale v2.1.214 `if` directory-pattern example, which left the current page, with the version gates the page now carries (StopFailure's `cloud_credential_error` matcher at v2.1.267, `onFailure` at v2.1.295), added the plugin mods function-hook surface, and re-dated the counters and HN footprint (517 stories, several hundred).
 
 ## See also
 
@@ -89,5 +90,5 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 - https://code.claude.com/docs/en/hooks - event reference, handler types, matcher semantics, fail-open caution
 - https://code.claude.com/docs/en/hooks-guide - quickstart, deterministic-control framing, usage costs of model-backed hooks
 - https://code.claude.com/docs/en/security-guidance - the official plugin built entirely on hooks
-- https://github.com/anthropics/claude-code - repository scale, as of 2026-10-24
+- https://github.com/anthropics/claude-code - repository scale, as of 2026-10-25
 - https://news.ycombinator.com/item?id=49299985 - third-party hooks tooling (Graft) and community scrutiny of its benchmark claims

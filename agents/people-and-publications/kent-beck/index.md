@@ -1,7 +1,7 @@
 ---
 title: Kent Beck
 created: 2026-09-24
-updated: 2026-10-10
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, extreme-programming, tdd, augmented-coding, methodology]
 readability: 3
@@ -26,6 +26,7 @@ Around the newsletter sit consulting, speaking (topics like "Beyond Vibes: What 
 Active, and newly central to the process debate.
 Cadence is weekly per his own site, and the newsletter's top-posts archive shows entries dated December 12 2025 and January 16, April 16, and May 15 (Substack omits the year on current-year posts, so those are 2026).
 The free archive confirms a steady fall cadence: "Reject Change, Sometimes" (2026-09-02), "Formal Methods Pay Off" (2026-09-17), "Mathematicians, Here's a Way To Think About Your Existential Crisis" ([2026-09-29](https://tidyfirst.substack.com/p/mathematicians-heres-a-way-to-think)), which extends his augmented-coding argument to identity, visible features versus invisible futures, and asks what a practitioner is for once the genie does the visible part, "Tools Aren't Here to Make Us Feel Good" ([2026-10-07](https://newsletter.kentbeck.com/p/tools-arent-here-to-make-us-feel), teaser readable: the first two versions of a talk arguing augmented-coding tools make us feel bad and should be reoriented around human needs instead of technical capabilities, with feeling bad treated as a defect signal), and "Thinkie: Fix Time, Flex Scope" ([2026-10-09](https://newsletter.kentbeck.com/p/thinkie-fix-time-flex-scope), teaser readable, paid: fixing the feedback-loop duration and flexing scope instead, applied to the genie and written while re-conceiving augmented coding around human needs, citing Anthropic's agent-autonomy measurement).
+Two more entries followed: "Decompose Run-On Tests" ([2026-10-13](https://newsletter.kentbeck.com/p/decompose-run-on-tests), free, a from-the-archives repost of his 2013 piece on tests whose multiple assert blocks fail without saying which operation broke), and "Take My Toil, Leave Me My Struggle" ([2026-10-20](https://newsletter.kentbeck.com/p/take-my-toil-leave-me-my-struggle), teaser readable, paid: the RoboGym analogy for agent tools built to remove toil, asking what they should leave us to struggle with).
 He is independent: Wikipedia records his Facebook years (2011-2019) and a 2019 software fellow role at Gusto, but kentbeck.com now presents him as consultant, writer, artist, and speaker, with draft chapters of Tidy Together going to paid subscribers.
 The AI-era posts themselves drew modest Hacker News traction (his own submission of the augmented-coding essay sat at 5 points as of 2026-09-24), yet the framing keeps resurfacing in threads asking whether XP should be revisited for the agent era, which is the slower, stickier kind of influence.
 
@@ -68,6 +69,7 @@ Not for readers who want tool comparisons, model benchmarks, or news.
 - 2026-09-24 - Created.
 - 2026-10-04 - Added the window essay "Mathematicians, Here's a Way To Think About Your Existential Crisis" (2026-09-29) to Status, with the surrounding September cadence.
 - 2026-10-10 - Two more fall entries: "Tools Aren't Here to Make Us Feel Good" (2026-10-07, the human-needs talk argument) and the paid Thinkie "Fix Time, Flex Scope" (2026-10-09, fixing feedback-loop duration while re-conceiving augmented coding around human needs); both added to Status and References (URLs fetched this run, both paywalled past the teaser).
+- 2026-10-25 - Two more October entries: "Decompose Run-On Tests" (2026-10-13, the free run-on-test repost) and the paid "Take My Toil, Leave Me My Struggle" (2026-10-20, the RoboGym analogy); both added to Status and References (URLs fetched this run).
 
 ## See also
 
@@ -91,5 +93,7 @@ Not for readers who want tool comparisons, model benchmarks, or news.
 - https://newsletter.kentbeck.com/feed - the feed grounding the October cadence (Oct 7 and Oct 9 entries, both fetched this run)
 - https://newsletter.kentbeck.com/p/tools-arent-here-to-make-us-feel - the 2026-10-07 essay (teaser readable, paid body), the human-needs reorientation of augmented-coding tools
 - https://newsletter.kentbeck.com/p/thinkie-fix-time-flex-scope - the 2026-10-09 paid Thinkie (teaser readable), fix the feedback-loop time and flex scope, applied to the genie
+- https://newsletter.kentbeck.com/p/decompose-run-on-tests - the 2026-10-13 from-the-archives repost on run-on tests that fail without naming the broken operation
+- https://newsletter.kentbeck.com/p/take-my-toil-leave-me-my-struggle - the 2026-10-20 paid essay (teaser readable), the RoboGym analogy for toil-removing agent tools
 - https://en.wikipedia.org/wiki/Kent_Beck - the methodology record: XP, TDD, JUnit, the Agile Manifesto, Facebook and Gusto years, book list
 - https://hn.algolia.com/api/v1/search?query=%22augmented%20coding%22%20kent%20beck&hitsPerPage=8 - third-party HN evidence, including his own submission at 5 points and citations in XP-revision threads (as of 2026-09-24)

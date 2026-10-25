@@ -26,7 +26,7 @@ Active and young: 1,583 stars, a push on 2026-10-25, and release v1.2.69 on 2026
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentlas-ai/Agentlas-OS&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=agentlas-ai/Agentlas-OS&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentlas-ai/Agentlas-OS&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentlas-ai/Agentlas-OS&type=date&legend=top-left" />
 </picture>
 
 **Two signals cut against the clean story: the README opens with an install block addressed to AI assistants handed only the repository URL, a distribution channel aimed at agents rather than people, and the README itself warns that the installer edits host config files that already exist, so the setup surface is invasive by design.**
@@ -69,6 +69,8 @@ Not for locked-down machines where an installer that rewrites host configuration
 - 2026-10-20 - Recorded v1.2.67 (2026-10-20, Hub search candidates carry listing taglines) on the release train.
 
 - 2026-10-25 - Recorded v1.2.69 (2026-10-25) on the release train.
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+
 ## See also
 
 - [Squad](../squad/index.md) - the repo-files agent team inside GitHub Copilot CLI, the closest pattern comparison.

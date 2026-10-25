@@ -1,7 +1,7 @@
 ---
 title: Valen
 created: 2026-10-13
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, decision-model, open-weights, multimodal]
 readability: 3
@@ -33,7 +33,7 @@ The 0-open-issue count reflects age, not maturity.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Liuziyu77/Valen&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Liuziyu77/Valen&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Liuziyu77/Valen&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Liuziyu77/Valen&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -76,6 +76,8 @@ Not for production routing without independent evaluation, or for anyone needing
 - 2026-10-17 - Volatile re-verification after the 2026-10-16 push: recorded the public Decision Index adapter and reproduction guides (evaluation/decision_index, the official kit pinned at f5a6e4f, frozen suite 0.3), the first first-party adapter to that protocol in the Jev family; strengths updated.
 - 2026-10-22 - Volatile re-verification after the 2026-10-22 pushes: recorded the validated vLLM serving plugin and deployment guides (a pinned candidate container for GPU validation, vLLM image startup commands in both READMEs); pushed date moved to 2026-10-22.
 - 2026-10-24 - Volatile re-verification after the 2026-10-23/24 pushes: recorded the serving surface consolidating into dual inference protocols (`/v1/systemone` and `/v1/decisions` from the same decision head on the SGLang and vLLM images and plugins), the 2026-10-21 documentation site with web chat and a free no-key hosted decision API (the Pricing section rewritten, the "no hosted tier" statement retired), the 2026-10-18 JevalKit evaluation toolkit and leaderboard, and the 0.4.1 Decision Index board now carrying three Valen rows (4B 131st at 37.57, 2B 176th, 0.8B 193rd); pushed date moved to 2026-10-24.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

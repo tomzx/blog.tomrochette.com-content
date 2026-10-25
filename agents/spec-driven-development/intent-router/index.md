@@ -1,7 +1,7 @@
 ---
 title: Intent-Router
 created: 2026-10-10
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, intent-specs, clarification, skills]
 readability: 3
@@ -30,7 +30,7 @@ Engagement from freshly created accounts is still arriving (a fork and a star la
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=angel291592/Intent-Router&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=angel291592/Intent-Router&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=angel291592/Intent-Router&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=angel291592/Intent-Router&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -68,6 +68,8 @@ Not for teams needing enforced process (that is Superpowers), and not for anyone
 - 2026-10-13 - Recorded the engagement collapse (1,017 stars and 124 forks on 2026-10-11 to 158 and 46 on 2026-10-13, a drop forks cannot take organically), retracted the nineteen-day adoption-curve claim, and moved the caution from momentum to deflation.
 - 2026-10-14 - Recorded the re-inflation (158 to 239 stars and 46 to 51 forks in one day, fresh-account engagement continuing), extending the 10-13 collapse reading from a one-time purge to a purge-then-refill pattern.
 - 2026-10-17 - Recorded the v1.4.0 release (2026-10-16: the description trimmed to fit a 500-character harness cap whose truncation was dropping the skill's negative predicates, a DeepSeek Harness eval channel, and a cross-session contract test case).
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

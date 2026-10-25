@@ -34,7 +34,7 @@ In its fourth week and shipping hard: created 2026-09-27 with v0.1.0 the same da
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Louis-CFM/coucou&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Louis-CFM/coucou&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Louis-CFM/coucou&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Louis-CFM/coucou&type=date&legend=top-left" />
 </picture>
 
 **The adoption curve outruns the scrutiny: no Hacker News thread, no third-party review, and no Reddit trace surfaced in this run's searches, so the vetting so far is the README against the commits.**
@@ -80,6 +80,8 @@ Not for token-cost audits (ccusage and agentsview stay the tools for that), and 
 - 2026-10-19 - Recorded the Mac v0.5.0 and v0.5.1 releases (both 2026-10-18): WhatsApp in the notch with a one-click install of the GOWA gateway verified against its published SHA-256, Mochi reacting to Mac state, a screen capture for Claude, and dictation that writes prompts or translates; the feature-gravity caution gained WhatsApp.
 - 2026-10-21 - Recorded the Mac v0.5.2 release (2026-10-20): in-notch update offers that download from GitHub and verify the Developer ID signature before swapping the app, a Homebrew cask, Claude Code plan-approval cards offering Auto, Manual, or Change plan, fourteen languages, and community fixes; Windows and Linux moved to v0.5.1 the same day, the installer still unsigned; repository counts refreshed (forks 853 to 961, open issues 321 to 420).
 - 2026-10-25 - Recorded the Windows and Linux 0.5.3 builds (2026-10-23, now matching the Mac line's version number) and Coucou for Android 0.3.0 (2026-10-22, a pairing-flow release with no feature list); repository counts refreshed (forks 961 to 1,029, open issues 420 to 486).
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

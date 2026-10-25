@@ -1,7 +1,7 @@
 ---
 title: Run Gemini CLI
 created: 2026-10-11
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, github-actions, gemini, scheduling]
 readability: 3
@@ -32,7 +32,7 @@ The wrapped product, google-gemini/gemini-cli, is enormous and active (about 107
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=google-github-actions/run-gemini-cli&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=google-github-actions/run-gemini-cli&type=date&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=google-github-actions/run-gemini-cli&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=google-github-actions/run-gemini-cli&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -71,6 +71,7 @@ My disagreeable claim: this is the README I would copy from among the three offi
 - 2026-10-11 - Created from the 2026-10-11 official-Actions family admission, with the stalled action repo recorded as the critical angle.
 - 2026-10-18 - Fully re-verified in rotation with every cited URL re-fetched: the stalled-repo status (last push still 2026-08-21, releases still stopping at v0.1.22), the README claims (workflow suite, mention commands, auth options, observability), the wrapped CLI's activity, and the still-missing dedicated HN thread all re-confirmed; refreshed the as-of dates, the fork count (287 to 288), and the stale-duration figures.
 - 2026-10-24 - Fully re-verified in rotation with every cited URL re-fetched: the stalled-repo status (last push still 2026-08-21, the release train still stopping at v0.1.22), the README claims (the workflow suite, @gemini-cli commands, GEMINI.md, the four auth paths, OpenTelemetry observability), the wrapped CLI's continued activity, and the still-missing dedicated HN thread all re-confirmed; the counters refreshed (290 forks, 86 open issues and pull requests) and the stale durations re-dated.
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

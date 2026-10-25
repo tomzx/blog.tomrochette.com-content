@@ -1,7 +1,7 @@
 ---
 title: Plano
 created: 2026-10-07
-updated: 2026-10-21
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted]
 readability: 3
@@ -24,12 +24,12 @@ Katanemo Labs was acquired by DigitalOcean on April 2, 2026, with co-founder and
 
 ## Status
 
-Active and well resourced: 7,087 stars and 489 forks as of 2026-10-14, Apache-2.0, with release 0.4.37 published 2026-09-28 still the latest release and the repo pushed 2026-10-07 (all re-confirmed 2026-10-21).
+Active and well resourced: 7,087 stars and 489 forks as of 2026-10-14, Apache-2.0, with releases resuming on 2026-10-24 after nearly a month's pause (0.4.38 bumped Envoy to v1.37.8 for a Brotli CVE fix and improved agent text extraction, 0.4.39 followed the same day), 0.4.39 the latest release and the repo pushed 2026-10-24 (as of 2026-10-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=katanemo/plano&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=katanemo/plano&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=katanemo/plano&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=katanemo/plano&type=date&legend=top-left" />
 </picture>
 
 The launch record is unusually deep for this category: the archgw Show HN of 2025-07-12 drew 118 points, the Arch-Router announcement drew 66 points a week earlier, and the Plano relaunch drew 8 in January 2026.
@@ -70,6 +70,9 @@ My disagreeable claim: as a model-access product Plano is a side quest inside an
 
 - 2026-10-07 - Created when this run's awesome-list scan surfaced the renamed katanemo/plano gateway.
 - 2026-10-21 - Full re-verification: every cited URL re-fetched and every claim held; the acquisition citation moved from the Business Wire press release, which now blocks fetches, to DigitalOcean's own announcement post.
+- 2026-10-25 - Release train refresh: 0.4.38 and 0.4.39 published 2026-10-24, the first releases since 2026-09-28 (an Envoy v1.37.8 bump for CVE-2026-111497 plus agent-text extraction fixes), with the repo pushed 2026-10-24; stars stand at their 2026-10-14 verification.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 
@@ -80,10 +83,10 @@ My disagreeable claim: as a model-access product Plano is a side quest inside an
 
 ## References
 
-- https://api.github.com/repos/katanemo/plano - 7,081 stars, 487 forks, Rust, Apache-2.0, pushed 2026-09-28, created 2024-07-09 as archgw (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 7,087 stars, 489 forks; re-fetched 2026-10-21, pushed 2026-10-07 unchanged, 0.4.37 still latest).
+- https://api.github.com/repos/katanemo/plano - 7,081 stars, 487 forks, Rust, Apache-2.0, pushed 2026-09-28, created 2024-07-09 as archgw (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 7,087 stars, 489 forks; re-fetched 2026-10-21, pushed 2026-10-07 unchanged, 0.4.37 still latest; re-fetched 2026-10-25, pushed 2026-10-24).
 - https://raw.githubusercontent.com/katanemo/plano/main/README.md - YAML configuration model, OpenAI-compatible gateway on port 12001, 4B orchestrator, free hosted first-run models, Envoy base (fetched 200, 2026-10-07; re-fetched 2026-10-21 with those claims unchanged).
 - https://planoai.dev - positioning as AI-native proxy and data plane, the v0.4.37 banner, and the DigitalOcean acquisition banner and footer (fetched 200, 2026-10-07; re-fetched 2026-10-21 with the banners unchanged).
 - https://www.digitalocean.com/blog/digitalocean-acquires-katanemo-labs-inc - DigitalOcean's own announcement of the April 2, 2026 Katanemo Labs acquisition (fetched 200, 2026-10-21; it replaces the Business Wire release cited at creation, which now returns 403 to fetches).
 - https://hn.algolia.com/api/v1/items/44546265 - the 118-point archgw Show HN: the Envoy-pedigree founding team, the WASM filter architecture, and the Kong crowding objection with the founders' reply (fetched 200, 2026-10-07; re-fetched 2026-10-21 unchanged).
 - https://hn.algolia.com/api/v1/search?query=katanemo&hitsPerPage=10 - the 66-point Arch-Router thread (2025-07-01) and the 8-point Plano relaunch (2026-01-06) (fetched 200, 2026-10-07; re-fetched 2026-10-21 unchanged).
-- https://api.github.com/repos/katanemo/plano/releases?per_page=5 - 0.4.37 published 2026-09-28 (fetched 200, 2026-10-07; re-fetched 2026-10-21, still latest).
+- https://api.github.com/repos/katanemo/plano/releases?per_page=5 - 0.4.37 published 2026-09-28 (fetched 200, 2026-10-07; re-fetched 2026-10-21, still latest; re-fetched 2026-10-25 reading 0.4.38 and 0.4.39, both of 2026-10-24, with the Envoy CVE bump and agent-text extraction fixes in their notes).

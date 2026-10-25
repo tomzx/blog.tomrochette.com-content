@@ -1,7 +1,7 @@
 ---
 title: Airut
 created: 2026-10-11
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, email, slack, claude-code, self-hosted]
 readability: 3
@@ -32,7 +32,7 @@ The community footprint is three self-posted Show HN threads (2, 1, and 2 points
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=airutorg/airut&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=airutorg/airut&type=date&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=airutorg/airut&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=airutorg/airut&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -72,6 +72,7 @@ My disagreeable claim: at 84 stars this is the least proven member of the catego
 - 2026-10-11 - Created from the 2026-10-11 entrant scan, with the thin community footprint recorded as the critical signal.
 - 2026-10-18 - Fully re-verified in rotation with every cited URL re-fetched: the README architecture claims (rootless Podman, allowlist proxy, surrogate credentials, CI sandbox action, dogfooding), the airut.org site, the 0.27.0 PyPI version, the 287 trailing-month downloads, and the three-thread community footprint all re-confirmed unchanged after the 2026-10-18 push.
 - 2026-10-24 - Recorded the v0.27.1 release (2026-10-24), the first since v0.27.0; the README architecture claims and the counters (84 stars, 3 forks, 1 open issue) re-verified unchanged around it.
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

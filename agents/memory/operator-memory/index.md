@@ -1,7 +1,7 @@
 ---
 title: Operator Memory
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, agent-memory, documentation, markdown, context-engineering]
 readability: 3
@@ -17,7 +17,7 @@ Operator Memory is a BSD-3-Clause, harness-agnostic documentation brain for codi
 
 ## What it is
 
-A TypeScript system installed through the @aerovato/operator-helper npm package (19 releases from 1.0.0 on 2026-08-16 to 1.8.0 on 2026-10-05), with adapter plugins for Claude Code, Codex, OpenCode V1 and V2, Pi, DeepSeek Harness, and Kiro.
+A TypeScript system installed through the @aerovato/operator-helper npm package (19 releases from 1.0.0 on 2026-08-16 to 1.8.0 on 2026-10-05), with adapter plugins for Claude Code, Codex, OpenCode (V2 the default install since 2026-10-20, V1 kept as legacy), Pi, DeepSeek Harness, and Kiro.
 Knowledge lives in three markdown partitions: ~/.operator/user/ for personal rules across projects, .operator/ for private project knowledge, and .operator-shared/ for knowledge published with the repository, with conflicts resolving private over user over shared.
 Every session starts from a deterministic preamble: fixed framework rules, each partition's operator.md, a catalog mapping each Brain document, and a project index whose entries carry read_if conditions, so the agent deliberately opens deeper material instead of receiving similarity-ranked injections.
 There is no vector database, no embedding model, no background maintenance agent, and no retrieval step; the author's comparison doc argues every capture-replay memory plugin shares one broken architecture.
@@ -69,6 +69,7 @@ Not for teams needing measured retrieval quality (none exists here), enterprise 
 ## Changes
 
 - 2026-10-17 - Created from the coordinator-flagged entrant candidate (surfaced by the 2026-10-16 people-and-publications scan of the liao.gg essay), with nine fetched sources, the no-benchmarks-plus-single-author combination recorded as the critical angle, and the standing rejections consulted before admission.
+- 2026-10-25 - The OpenCode adapter's V2 became the default install with V1 frozen to legacy (helper commit, 2026-10-20); recorded in the adapter list.
 
 ## See also
 

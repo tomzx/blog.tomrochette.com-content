@@ -1,7 +1,7 @@
 ---
 title: roborev
 created: 2026-10-06
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -88,7 +88,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 
 ## References
 
-- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05 (GitHub API, as of 2026-10-11; re-queried 2026-10-17, 2026-10-20, 2026-10-22, and 2026-10-24, pushed 2026-10-24)
+- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05 (GitHub API, as of 2026-10-11; re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, and 2026-10-25, pushed 2026-10-25 with v0.73.0 still the latest release)
 - https://raw.githubusercontent.com/kenn-io/roborev/HEAD/README.md - the two automation layers, the refine skill, and install paths
 - https://roborev.io/docs/ - the ledger model, the agent hook, panels, PostgreSQL sync, and the ACP surface
 - https://roborev.io/docs/agents.md - the eleven supported agents and the auto-detection fallback order

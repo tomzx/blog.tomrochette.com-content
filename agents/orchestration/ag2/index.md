@@ -1,7 +1,7 @@
 ---
 title: AG2
 created: 2026-10-07
-updated: 2026-10-22
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, fork, autogen]
 readability: 3
@@ -27,7 +27,7 @@ v1.2.0 added OpenAI Decisions API support (an `OpenAIDecisionsConfig` with share
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ag2ai/ag2&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ag2ai/ag2&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ag2ai/ag2&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ag2ai/ag2&type=date&legend=top-left" />
 </picture>
 
 **The launch footprint is nearly invisible, a 2-point Hacker News thread in November 2024, so the fork's adoption spread through the existing AutoGen community rather than through press, and its roughly 5k stars measure inherited mindshare more than new converts.**
@@ -66,6 +66,8 @@ Not for greenfield projects that can pick a single supported path from day one.
 - 2026-10-12 - Recorded v1.2.0 (October 11, OpenAI Decisions API, multi-replica A2A servers, Anthropic cache diagnostics, and the toolkit-composition breaking change) and refreshed star and push counts.
 - 2026-10-15 - Corrected the PyPI tracking claim: `ag2` on PyPI has stayed at 1.1.2 since the v1.2.0 release, so the package line no longer tracks the GitHub release line.
 - 2026-10-22 - Recorded v1.2.1 (2026-10-21) and corrected the PyPI claim: `ag2` on PyPI caught back up at 1.2.1 after sitting at 1.1.2 through v1.2.0, so the PyPI line tracks the GitHub release line again.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

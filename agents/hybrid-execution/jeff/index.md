@@ -1,7 +1,7 @@
 ---
 title: Jeff
 created: 2026-09-29
-updated: 2026-10-20
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
 readability: 3
@@ -36,7 +36,7 @@ Latency is the headline: about 22 ms per decision on an RTX PRO 6000, 28 ms on a
 The self-run benchmarks cover 4,599 questions from five public suites (BBH, Financial PhraseBank, JudgeBench, RAGTruth, WinoGrande) plus JevBench's public hard tier scored separately: Jeff-2B posts 83.1 overall against Jev's published 83.0 and AutoJev-27B's 84.9, winning Financial PhraseBank (96.3 versus 77.0) and RAGTruth (88.9 versus 77.3) while staying well below Jev on BBH (68.0 versus 94.3), JudgeBench, WinoGrande, and the JevBench hard tier (53.3 versus 73.3).
 The v1.3 Jeff-Code claim is the agent-facing headline: paired-equal quality (62.4 percent against 62.8 percent pass rate over 1,242 paired tasks) at 47 percent faster per task (0.68x the baseline's time, 32 percent less time), with no clear speed-up on Terminal-Bench 2.0 or SkillsBench, all self-run.
 Zero-shot games back the generality claim: Jeff-0.8B took 57.0 of 98 Pac-Man pellets against 11.2 for random moves, and Doom kills matching a hand-coded rule bot.
-None of it has been checked by a third party, and JevBench's board, which listed no Jeff checkpoint when this note was written, now carries Jeff-1.0-Large at official rank twelve of 184 (composite 68.6, capability 81.5, third behind basal-omni-1.0-ultra's 82.5 and Quyet-1.0-Large's 81.7, as of the 2026-10-20 read of board v1.7.46, updated 2026-10-18), so the family's accuracy claim has a first outside reading even though the board's methodology remains the contested one-runner design.
+None of it has been checked by a third party: JevBench's board does carry a Jeff-1.0-Large, but that row is jgeuter's unrelated Gemma-4-31B fine-tune (CC BY-NC-4.0, created 2026-10-08, official rank 20 at 68.5 on the method-v1.7 board read 2026-10-25), not this family, which has no board row of its own, so the name collision, not a board verdict, is what a reader finds under this family's name.
 
 ## Strengths
 
@@ -78,6 +78,7 @@ The disagreeable claim I will defend: matching Jev's published overall while con
 - 2026-10-07 - Added the firelex/jeff star history chart to the Status section.
 - 2026-10-15 - JevBench's board, which listed no Jeff checkpoint at the last verification, now carries Jeff-1.0-Large at official rank ten of 162 (composite 68.6, capability 81.5 second), the family's first third-party board reading; the note's no-board claim corrected.
 - 2026-10-20 - Rotation re-verification, every cited URL re-fetched, with two corrections the current README forced: the Jeff-Code speedup reads 47 percent faster per task (0.68x the baseline, 32 percent less time), not 47 percent less task time as this note had it, and the hard 26-option ceiling belongs to the Gemma E2B checkpoint alone, the Qwen models having taken 254 options since v1.1 with an 8,192-token input cap since v1.3; also recorded Jeff-Code's move into its own firelex/jeff-code repository on Pi with jeffhub.ai as the hub, the adapter licence split (sanctions and soc CC BY-NC 4.0), the board row's move to official #12 of 184 (composite 68.6, capability third), the thread at 576 points, and the 0.8B checkpoint at 3,053 downloads under the jeff-legacy redirect.
+- 2026-10-25 - Rotation re-verification and a correction: the board row this note credited to the family on 2026-10-15 and 2026-10-20 is jgeuter's unrelated Gemma-4-31B fine-tune sharing the Jeff name (Hugging Face jgeuter/Jeff-1.0-Large, CC BY-NC-4.0, created 2026-10-08, official rank 20 at 68.5 on the method-v1.7 board), so the family's accuracy claim is back to zero third-party readings; every cited URL re-fetched (repository unchanged since 2026-10-07, the thread at 576 points, the jeff-legacy redirect holding with the 0.8B at 3,164 downloads, AutoJev unchanged, the README's benchmark table intact).
 
 ## See also
 
@@ -91,7 +92,8 @@ The disagreeable claim I will defend: matching Jev's published overall while con
 
 - https://github.com/firelex/jeff - repository: MIT, created 2026-09-28, about 1,500 stars, 73 forks, pushed 2026-10-07 (GitHub API, as of 2026-10-20)
 - https://raw.githubusercontent.com/firelex/jeff/main/README.md - the benchmark table, games, speed table, caveats, the Jeff-Code repository and jeffhub.ai links, and the AutoJev lineage (re-fetched 2026-10-20)
-- https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B - the 0.8B checkpoint: Apache-2.0, created 2026-09-28, redirecting to the jeff-legacy org, 3,053 downloads as of 2026-10-20
+- https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B - the 0.8B checkpoint: Apache-2.0, created 2026-09-28, redirecting to the jeff-legacy org, 3,164 downloads as of 2026-10-25
 - https://news.ycombinator.com/item?id=49883844 - the launch thread (576 points as of 2026-10-20, 2026-09-28), including the negative reports from classification use outside the benchmark suites
 - https://github.com/denis-pplx/autojev - the parent recipe: MIT, 120 stars, fine-tunes Qwen3.8-27B for Jev-style decisions (re-verified 2026-10-20)
-- https://benchmarkheaven.com/jev-models - the live board (v1.7.46, updated 2026-10-18) carrying Jeff-1.0-Large at official #12 of 184, composite 68.6 (capability 81.5, third) (fetched 2026-10-20)
+- https://benchmarkheaven.com/jev-models - the live board (method v1.7, board revision v1.7.48, updated 2026-10-25), whose Jeff-1.0-Large row is jgeuter's unrelated Gemma-4-31B fine-tune at official rank 20 (68.5), not this family (fetched 2026-10-25)
+- https://huggingface.co/jgeuter/Jeff-1.0-Large - the board row's actual model: a Gemma-4-31B-it fine-tune, CC BY-NC-4.0, created 2026-10-08, unrelated to firelex/jeff (fetched 2026-10-25)

@@ -1,7 +1,7 @@
 ---
 title: Archcore
 created: 2026-10-21
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, decision-records, open-source]
 readability: 3
@@ -29,7 +29,7 @@ Active and young: 71 stars and 13 forks since creation on 2026-04-05, pushed 202
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=archcore-ai/archcore&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=archcore-ai/archcore&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=archcore-ai/archcore&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=archcore-ai/archcore&type=date&legend=top-left" />
 </picture>
 
 **The independent footprint is empty: a Hacker News search returns no thread about it (the query only matches unrelated ARM chipset posts), so adoption rests on its own site, docs, and Discord/Telegram channels, and the bilingual English and Russian docs say the early community is regional.**
@@ -69,6 +69,8 @@ The disagreeable claim I will defend: naming the guilty side (code-wrong or spec
 ## Changes
 
 - 2026-10-21 - Created from the skills worker's cross-category flag, resolving archcore-ai/archcore into this category as the typed-document context layer with the two-sided review verdict.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

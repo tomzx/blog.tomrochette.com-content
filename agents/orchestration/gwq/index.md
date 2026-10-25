@@ -1,7 +1,7 @@
 ---
 title: gwq
 created: 2026-10-21
-updated: 2026-10-21
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, git-worktrees, cli, tmux]
 readability: 3
@@ -30,7 +30,7 @@ Active with a slow release train: 475 stars and 23 forks as of 2026-10-21, repos
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=d-kuro/gwq&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=d-kuro/gwq&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=d-kuro/gwq&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=d-kuro/gwq&type=date&legend=top-left" />
 </picture>
 
 The independent footprint exists but is small: a two-point HN submission from May 2026 with no comments, and a September 2026 post on shunk031.me building a ghq × gwq × fzf workflow around it.
@@ -71,6 +71,8 @@ Not for anyone expecting review, PR, or session management from the same tool.
 ## Changes
 
 - 2026-10-21 - Created.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

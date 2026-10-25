@@ -1,7 +1,7 @@
 ---
 title: Memoryfields
 created: 2026-09-04
-updated: 2026-10-16
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, file-format]
 readability: 3
@@ -45,7 +45,7 @@ The spec is explicitly a draft soliciting review, and I found no independent imp
 ## Cautions
 
 - **The Hacker News reception was largely deflationary**: top comments read it as "a whole lot of text to say it's markdown plus semantic search", and others doubt that an unstructured pile of memory files beats structure at scale.
-- Single-author, week-old tooling: bus factor of one, no releases track to speak of, and an install path spanning four package managers (Ollama, uv, npm, skills).
+- Single-author tooling: bus factor of one, a two-release track (memoryfield-tool v0.0.1 and v0.5.0, both August 2026, nothing since), and an install path spanning four package managers (Ollama, uv, npm, skills).
 - The 8KB page cap and flat-directory rule are opinionated; teams whose knowledge is genuinely a graph (contradiction tracking, temporal validity) are the ones the essay explicitly argues against serving.
 - The portability claim is untested by a second implementation, which is the normal way formats die.
 
@@ -74,6 +74,7 @@ My disagreeable claim: the tooling does not matter yet, and adopting it now buys
 - 2026-09-20 - The spec now self-labels version 0.3 (2026-09), up from 0.1, after the September 16 status-field addition and a September 17 version-and-date correction; combined stars hold at 98.
 - 2026-10-07 - Added the calpaterson/memoryfield-spec star history chart to the Status section.
 - 2026-10-16 - Rotation re-verification: every cited URL re-fetched live (the launch thread holds at 191 points and the spec at version 0.3), and the three repositories' star counts re-verified unchanged at 102 combined, with the tool repository's October 15 commit adding missing templates and no release.
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched live, the spec still self-labels version 0.3 (2026-09), and the release record corrected (memoryfield-tool has two August 2026 releases, v0.0.1 and v0.5.0, where the 2026-10-16 pass read none); the week-old-tooling phrasing aged accordingly.
 
 ## See also
 
@@ -87,7 +88,7 @@ My disagreeable claim: the tooling does not matter yet, and adopting it now buys
 
 - https://calpaterson.com/memoryfields.html - the announcement essay: design decisions, the Karpathy-wiki critique, and the objections FAQ
 - https://github.com/calpaterson/memoryfield-spec/blob/main/SPEC.md - the draft v0.3 spec (2026-09): format rules, transports, embedding-model codes
-- https://github.com/calpaterson/memoryfield-tool - the Python CLI (AGPL-3.0, 42 stars as of 2026-10-16; its latest commit, 2026-10-15, added missing templates, still no release)
+- https://github.com/calpaterson/memoryfield-tool - the Python CLI (AGPL-3.0, 42 stars as of 2026-10-16; releases v0.0.1 and v0.5.0, both August 2026; its latest commit, 2026-10-15, added missing templates)
 - https://github.com/calpaterson/memoryfield-skill - the installable skill (MIT, 21 stars as of 2026-10-16)
 - https://news.ycombinator.com/item?id=49508317 - the launch thread (191 points, 2026-08-31) and its skeptical reception
 - https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f - the Karpathy wiki prior art the essay positions itself against

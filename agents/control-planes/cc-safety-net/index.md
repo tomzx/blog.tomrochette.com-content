@@ -29,7 +29,7 @@ Actively maintained with no Hacker News help: 1,615 stars, 84 forks, and 2 open 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&legend=top-left" />
 </picture>
 
 The npm package (`cc-safety-net`) is at 2.6.19 as of 2026-10-25, first published 2026-01-03 and last published 2026-10-24, so the release cadence is measured in days.
@@ -76,6 +76,8 @@ Not for org-scale governance, audited enforcement, or anything where a silently 
 - 2026-10-19 - npm train moved to 2.6.15 (published 2026-10-19).
 - 2026-10-23 - npm train moved to 2.6.18 (published 2026-10-23), after 2.6.16 (2026-10-19) and 2.6.17 (2026-10-22).
 - 2026-10-25 - npm train moved to 2.6.19 (published 2026-10-24), closing a gap that let recursive deletes of the root or home directory written as Python, Perl, Node, or Ruby interpreter code through unchecked.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

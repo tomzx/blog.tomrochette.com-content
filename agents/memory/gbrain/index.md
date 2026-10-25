@@ -1,7 +1,7 @@
 ---
 title: GBrain
 created: 2026-10-07
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, provenance, mcp, personal-knowledge]
 readability: 3
@@ -29,12 +29,12 @@ A shared-brain skill catalog lets approved editors publish memory skills beside 
 **Active, single-author-plus-contributors, and unusually eval-disciplined for a personal project.**
 30,910 stars as of 2026-10-16 (GitHub API), with the repository pushed 2026-10-20, created 2026-04-05, MIT, as of 2026-10-20 (GitHub API), with five or more contributors and a companion garrytan/gbrain-evals repository (439 stars as of 2026-10-16, pushed 2026-10-20) holding dated benchmark reports.
 The README now fronts a hosted service, gbrain.io, a YC-backed team workspace ("Built by Garry Tan") that sells the same brain as a subscription, so the deployment model is no longer self-host-only.
-The release train has continued past the September refresh to v0.60.422.0 (2026-10-24), whose notes again cover CI gate load (tightened Postgres crash-robot ceilings) rather than memory behavior.
+The release train has continued past the September refresh to v0.60.444.0 (2026-10-25, six releases that day), whose notes cover repair-flow tooling (repair and doctor steps now print one `gbrain git commit-push` command instead of bare git adds) rather than retrieval behavior.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=garrytan/gbrain&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=garrytan/gbrain&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=garrytan/gbrain&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=garrytan/gbrain&type=date&legend=top-left" />
 </picture>
 
 The September 9, 2026 retrieval refresh (gbrain v0.48.4.0) reports all-evidence retrieval on 449 of 470 answerable LongMemEval questions (95.53 percent) and any-evidence on 469 of 470, with the machine-readable summary, saved receipts, and a verification record published; the 433-of-500 answer-judgment count was flagged for a leak (`answer_` session ids visible to the answer model) and re-counted with opaque ids on October 4, which confirmed the retrieval numbers.
@@ -82,6 +82,9 @@ Not for teams needing supported infrastructure, contractual isolation, or a mult
 - 2026-10-07 - Created from the 2026-10-07 awesome-list entrant scan, with seven fetched sources and the self-published-benchmark-plus-single-famous-user profile recorded as the critical angle.
 - 2026-10-20 - Recorded the hosted gbrain.io service the README now fronts (Personal $49/mo, Teams $199/mo, new Price history baseline) and the release train's continuation to v0.60.322.0.
 - 2026-10-24 - Recorded the release train's continuation to v0.60.422.0 (October 24, tightened Postgres crash-robot CI ceilings, no memory behavior change).
+- 2026-10-25 - Recorded the release train's continuation to v0.60.444.0 (six October 25 releases, repair steps now printing one commit-push command; still no retrieval behavior change).
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: OpenViking
 created: 2026-10-07
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, context-database, file-based, open-source]
 readability: 3
@@ -31,7 +31,7 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&legend=top-left" />
 </picture>
 
 Latest release v0.5.2 (2026-10-23, following v0.5.1 from 2026-10-19) alongside python-sdk 0.1.15 (2026-10-13, adding BatchWriteOptions.skip_conflicts and grep(level_limit)) and go sdk v0.0.5, per the GitHub releases API.
@@ -75,6 +75,8 @@ Not for proprietary SaaS embedding, and not for buyers who need published hosted
 - 2026-10-10 - Recorded v0.5.0 (October 9) with the OpenViking Gateway beta (a base-URL proxy that injects memory without plugins while preserving provider prompt caches) and python-sdk 0.1.14; refreshed stars to 39,565.
 - 2026-10-20 - Recorded v0.5.1 (October 19, 151 commits after v0.5.0): the gateway can now run inside the OpenViking server, with field-level privacy references, expanded batch-write options, and multimodal retrieval, and the release notes call out API deletions and storage-format changes.
 - 2026-10-24 - Recorded v0.5.2 (October 23): working memory off by default (explicit `enable_working_memory=true` required), the LangChain integration split into the separate `langchain-openviking` package, session-privacy extraction with privacy-tree MCP tools, and the Pi extension's tools renamed from `viking_*` to `openviking_*`.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

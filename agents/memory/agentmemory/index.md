@@ -1,7 +1,7 @@
 ---
 title: agentmemory
 created: 2026-10-09
-updated: 2026-10-20
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, mcp, open-source]
 readability: 3
@@ -19,13 +19,13 @@ agentmemory is an Apache-2.0 persistent memory server for AI coding agents: hook
 
 A Node CLI (`npx -y @agentmemory/agentmemory@latest`) from Rohit Ghumare (rohitg00), built on a pinned iii engine (v0.22.1) with a file-backed state store by default and an optional plain-Redis backend.
 Keyless mode runs BM25 recall only; local embeddings (all-MiniLM-L6-v2, downloaded once) add semantic search without an API key, and any OpenAI-compatible endpoint enables LLM-written observation compression behind an explicit opt-in flag.
-The surface is wide: 54 MCP tools, 12 Claude Code hooks, native plugins for Claude Code, Codex CLI, Cursor, OpenClaw, Hermes, and pi, MCP or REST wiring for roughly 20 more agents (Copilot CLI, Gemini CLI, Antigravity, Devin, Zed, Cline, Droid, and others), 17 installable skills, and Python, Rust, and Node programmatic access.
+The surface is wide: 54 MCP tools, 12 Claude Code hooks, native plugins for Claude Code, Codex CLI, Cursor, OpenClaw, Hermes, pi, and Oh My Pi, MCP or REST wiring for roughly 20 more agents (Copilot CLI, Gemini CLI, Antigravity, Devin, Zed, Cline, Droid, and others), 17 installable skills, and Python, Rust, and Node programmatic access.
 The design doc extends Karpathy's LLM-wiki pattern with confidence scores, lifecycle states, and a knowledge graph, and a companion gist carrying 1.6k stars is the project's founding artifact.
 
 ## Status
 
 **Large and active, with adoption that outruns its discussion footprint.**
-29,558 stars, 2,607 forks, and 572 open issues and pull requests, created 2026-02-25, pushed 2026-10-20, as of 2026-10-20 (GitHub API).
+29,558 stars, 2,607 forks, and 572 open issues and pull requests as of 2026-10-20 (GitHub API), created 2026-02-25, pushed 2026-10-25, as of 2026-10-25 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for single-harness users (claude-mem is simpler and battle-tested), privacy-
 
 - 2026-10-09 - Created from the 2026-10-09 awesome-list entrant scan, with eight fetched sources and the self-run-benchmark-plus-pinned-engine combination recorded as the critical angle.
 - 2026-10-19 - The Agent Memory Leaderboard reference fetches again (unreachable at the 2026-10-11 check; Cycle 2 underway), and the trailing-month npm downloads refreshed to 35,160.
+- 2026-10-25 - The native plugin surface grew to Oh My Pi (`agentmemory connect omp` installs native recall and capture, offline replay, and the 17 skills), and the README headline now lists it beside pi; the push date refreshed to 2026-10-25.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Agent Teams
 created: 2026-10-07
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, kanban, multi-cli, agpl]
 readability: 3
@@ -26,7 +26,7 @@ Active and young: 2,254 stars, a push on 2026-10-23, and release v2.17.10 on 202
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=777genius/agent-teams-ai&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=777genius/agent-teams-ai&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=777genius/agent-teams-ai&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=777genius/agent-teams-ai&type=date&legend=top-left" />
 </picture>
 
 **The independent record is empty so far: I found no Hacker News thread, no press coverage, and no third-party review this run, which makes 2.2k stars in eight months a bottom-up adoption signal that nothing yet corroborates.**
@@ -64,6 +64,8 @@ Not for teams that need vendor accountability or a permissive license.
 - 2026-10-07 - Created.
 - 2026-10-08 - Recorded v2.17.6 (October 8), five releases after v2.17.1.
 - 2026-10-10 - Recorded v2.17.10 (October 9), nine releases after v2.17.1, and refreshed the star count to 2,251 as of 2026-10-10.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

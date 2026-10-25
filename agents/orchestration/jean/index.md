@@ -1,7 +1,7 @@
 ---
 title: Jean
 created: 2026-10-12
-updated: 2026-10-18
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, worktrees, dev-environment, self-hosted]
 readability: 3
@@ -31,7 +31,7 @@ I found no Hacker News thread through 2026-10-12 searches, so its early traction
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=coollabsio/jean&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=coollabsio/jean&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=coollabsio/jean&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=coollabsio/jean&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -68,6 +68,8 @@ Not for Windows or Linux desktop users who need a proven build today, or for any
 ## Changes
 
 - 2026-10-12 - Created from the 2026-10-12 candidate scan, with the no-HN-footprint record and the one-vendor risk recorded as the critical angle.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

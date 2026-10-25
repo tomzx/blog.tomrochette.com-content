@@ -1,7 +1,7 @@
 ---
 title: LongMemory
 created: 2026-10-08
-updated: 2026-10-18
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, temporal, sqlite, self-hosted, mcp]
 readability: 3
@@ -31,7 +31,7 @@ Surfaces include the npm library, a CLI, an HTTP API on port 7331, an MCP server
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=CaviraOSS/LongMemory&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=CaviraOSS/LongMemory&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=CaviraOSS/LongMemory&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=CaviraOSS/LongMemory&type=date&legend=top-left" />
 </picture>
 
 The Show HN thread (December 2025, as OpenMemory) drew 48 points and 16 comments, and the contributor count stands at 45 by GitHub API pagination as of 2026-10-18 (the README no longer carries a listing).
@@ -71,6 +71,8 @@ Not for anyone needing a hosted tier, a proven-at-scale engine, or a Python SDK 
 
 - 2026-10-08 - Created from the 2026-10-08 awesome-list entrant scan, with six fetched sources; the unresolvable PyPI SDK distribution recorded as the run's verification gap.
 - 2026-10-18 - Rotation re-verification: the push drought ended with a community project-ingest embeddings fix merged 2026-10-17, so the quiet caution was revised; the contributor count moved to 45 by GitHub API after the README dropped its listing; the PyPI SDK 404 re-confirmed through 2026-10-18.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

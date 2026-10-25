@@ -1,7 +1,7 @@
 ---
 title: Nathan Lambert (Interconnects)
 created: 2026-08-29
-updated: 2026-10-10
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, open-models, post-training, agents]
 readability: 3
@@ -22,8 +22,8 @@ His [Get Good at Agents](https://www.interconnects.ai/p/get-good-at-agents) (202
 
 ## Status
 
-Active and prolific as of 2026-10-10.
-The newsletter reports over 85,000 subscribers as of 2026-10-04, and his most recent essay is "I expect rapid progress but not towards general superintelligence" ([2026-10-09](https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards), his case that the visible acceleration is in engineering and infrastructure capability, that coding agents make research easier and good ideas more valuable than execution, and that pretraining research could be automated in two to three years without models changing in nature), which follows "The Cyber Risk Discourse is Broken" (2026-10-06), his argument that the open-weights cyber-risk debate is heading toward lose-lose policy, that closed-model APIs cause most documented attacks to date, and that banning open weights without also banning closed APIs would widen the offense-defense gap; it follows "The current balance of power in open models" (2026-09-21), the expanded form of testimony he prepared for Congress, and a podcast with JS Denain of Epoch AI (2026-09-22), after the RSI-skeptic essay "Why I still haven't bought into true RSI" (2026-09-19).
+Active and prolific as of 2026-10-25.
+The newsletter reports over 86,000 subscribers as of 2026-10-25, and his two newest pieces are the paid "Latest open artifacts (#25)" ([2026-10-20](https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek), with Florian Brand: DeepSeek's V4.1 Flash 1017, the American open-weight comeback, and the first US and China moves toward controls on open models) and "Meta shakes up the frontiers, open and closed" ([2026-10-17](https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open), his US-open-weights-are-back report led by Meta's Muse Spark Open, the strongest American open model, with Reflection's Beam behind it); they follow "I expect rapid progress but not towards general superintelligence" ([2026-10-09](https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards), his case that the visible acceleration is in engineering and infrastructure capability, that coding agents make research easier and good ideas more valuable than execution, and that pretraining research could be automated in two to three years without models changing in nature), which follows "The Cyber Risk Discourse is Broken" (2026-10-06), his argument that the open-weights cyber-risk debate is heading toward lose-lose policy, that closed-model APIs cause most documented attacks to date, and that banning open weights without also banning closed APIs would widen the offense-defense gap; it follows "The current balance of power in open models" (2026-09-21), the expanded form of testimony he prepared for Congress, and a podcast with JS Denain of Epoch AI (2026-09-22), after the RSI-skeptic essay "Why I still haven't bought into true RSI" (2026-09-19).
 He released the [RLHF Book](https://rlhfbook.com/) ('26) with a companion post-training course, and his site links to open-model tools he maintains: the Artifacts Hub, an Adoption Dashboard, and the ATOM Project.
 The "currently doing something new" tease after leaving Ai2 has landed: on 2026-10-01 he co-founded [Trillium Labs](https://blog.trilliumlabs.org/cp/218529442) with Tom Zick, a nonprofit for the open science of frontier AI that will build fully open post-training recipes and open infrastructure to study RSI, reward hacking, and multi-agent systems, with early support from Halcyon Futures and Schmidt Sciences.
 
@@ -76,6 +76,7 @@ Not for anyone who wants a mostly-vendor-neutral or application-level overview; 
 - 2026-10-04 - Window audit: added the Trillium Labs launch (2026-10-01), the nonprofit he co-founded with Tom Zick for open post-training science, resolving the "doing something new" teaser; subscriber count refreshed to over 85,000 as of 2026-10-04.
 - 2026-10-07 - New essay "The Cyber Risk Discourse is Broken" (2026-10-06) now leads the newsletter, his case that the open-weights cyber-risk debate ignores trade-offs and that closed-model APIs are the documented attack vector to date; added to References (URL fetched this run).
 - 2026-10-10 - New essay "I expect rapid progress but not towards general superintelligence" (2026-10-09) now leads the newsletter, his engineering-acceleration-not-RSI argument with the two-to-three-year pretraining-automation prediction; added to Status and References (URL fetched this run).
+- 2026-10-25 - Two new essays added to Status and References (URLs fetched this run): "Meta shakes up the frontiers, open and closed" (2026-10-17, the US open-weight comeback led by Meta's Muse Spark Open) and the paid "Latest open artifacts (#25)" (2026-10-20, with Florian Brand, DeepSeek V4.1 Flash 1017 and early US and China open-model controls); subscriber count refreshed to over 86,000.
 
 ## See also
 
@@ -95,4 +96,6 @@ Not for anyone who wants a mostly-vendor-neutral or application-level overview; 
 - https://www.interconnects.ai/p/where-i-stand-on-rsi - the RSI-skeptic essay (2026-09-19), the post that ended his September quiet stretch
 - https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken - the 2026-10-06 essay on the broken open-weights cyber-risk discourse
 - https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards - the 2026-10-09 essay on engineering acceleration without general superintelligence, grounding the newest-post claim
+- https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open - the 2026-10-17 essay on the American open-weight comeback led by Meta's Muse Spark Open
+- https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek - the 2026-10-20 paid open-artifacts briefing with Florian Brand, on DeepSeek V4.1 Flash 1017 and early open-model regulatory moves
 - https://blog.trilliumlabs.org/cp/218529442 - the Trillium Labs launch announcement (2026-10-01), grounding the nonprofit, its co-founder Tom Zick, and its open post-training mission

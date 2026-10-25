@@ -1,7 +1,7 @@
 ---
 title: Claude Code routines
 created: 2026-10-06
-updated: 2026-10-20
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, claude-code, scheduling]
 readability: 3
@@ -17,13 +17,14 @@ Claude Code routines are saved prompt, repository, and connector configurations 
 ## What it is
 
 A routine packages a prompt, one or more GitHub repositories, and a set of MCP connectors, then runs as a full Claude Code session on Anthropic-managed cloud infrastructure (or a routed self-hosted environment), so nothing depends on your laptop being open.
-One routine can combine three trigger types: a schedule (hourly minimum, presets, custom cron, and one-offs), an API endpoint that fires on an authenticated POST, and GitHub repository events (pull request and release events, with author, label, branch, draft, and regex filters).
+One routine can combine three trigger types: a schedule (hourly minimum, presets, custom cron, and one-offs), an API endpoint that fires on an authenticated POST, and GitHub repository events (pull request, release, and now issue events, with author, label, branch, draft, and regex filters).
 It shipped in research preview on 2026-04-14, is available on Pro, Max, Team, and Enterprise plans, and is managed at claude.ai/code/routines, from the Desktop app's Code tab, or conversationally from the CLI with `/schedule` (the CLI path creates the scheduled kind; API and GitHub triggers are added from the web).
 
 ## Status
 
 **Active and invested, in research preview.**
-The April 2026 launch drew a 720-point Hacker News thread, and the docs record steady churn since (the CLI's `/schedule` arrived in v2.1.225, run-history inspection in v2.1.227, and the stored-prompt trust model changed in v2.1.213).
+The docs now lead with the name scheduled tasks and keep routines in the web address, the CLI alias, and the API paths, a rename worth pricing into any script or doc that touches the feature.
+The April 2026 launch drew a 720-point Hacker News thread, and the docs record steady churn since (the CLI's `/schedule` arrived in v2.1.225, run-history inspection and the server-side org-toggle wiring in v2.1.227, with smaller gates at v2.1.211 and v2.1.268).
 The `/fire` endpoint is still flagged experimental, though the dated beta header is now optional.
 Anthropic published free routine templates around it and third parties already sell hardened routine packs, which is community traction of a kind.
 
@@ -36,7 +37,7 @@ Anthropic published free routine templates around it and third parties already s
 
 ## Cautions
 
-- **There is no permission-mode picker**: a routine runs shell commands and calls every tool of every included connector without approval, and all of your account's connectors are included by default, write scopes included.
+- **There is no permission-mode picker**: a routine starts in auto mode, where a classifier model allows or blocks each action and a prompt appears only on ask rules or after repeated blocks, and all of your account's connectors are included by default, write scopes included.
 - A run is creator-private, like Copilot automations: routines belong to the individual claude.ai account, teammates cannot see them, and admins get only the on/off toggle.
 - Green run status means the session started and exited without an infrastructure error, not that the task succeeded, and independent practitioners document silent-failure modes (unreadable sources rendered as empty results, delayed fires, dropped GitHub events at the caps).
 - Caps are hard: 100 scheduled runs per account-hour, 30 fires per routine-hour shared with Run now, GitHub events beyond the caps dropped until the window resets, and no overage without usage credits. A stale GitHub connection is a hard stop too: runs skip for up to 72 hours and then the routine switches itself off.
@@ -64,6 +65,7 @@ My disagreeable claim: shipping every account connector into an unattended run b
 - 2026-10-06 - Created.
 - 2026-10-17 - Fully re-verified in rotation with every cited URL re-fetched: the research-preview status, the trust-model versions (v2.1.213, v2.1.225, v2.1.227), the caps, the autonomy default, and plan availability all re-confirmed; added the Desktop app as a creation surface and the 72-hour GitHub-disconnect auto-disable.
 - 2026-10-20 - Repointed the launch-announcement reference to its current claude.com/resources path after the claude.com/blog path began redirecting; the new target re-fetched and live.
+- 2026-10-25 - Fully re-verified in rotation with every cited URL re-fetched: recorded the docs' rename to scheduled tasks (routines kept in the URL, CLI alias, and API), added issue events to the GitHub trigger list, re-grounded the autonomy caution on the current auto-mode wording (classifier decisions, prompts on ask rules and repeated blocks), and replaced the stale v2.1.213 trust-model reference, which left the current page, with the version gates it now carries (v2.1.211, v2.1.225, v2.1.227, v2.1.268); the caps, the 72-hour GitHub-disconnect auto-off, the fire-payload wrapping, the optional beta header, and the 720-point launch thread all re-confirmed.
 
 ## See also
 
@@ -75,7 +77,7 @@ My disagreeable claim: shipping every account connector into an unattended run b
 
 ## References
 
-- https://code.claude.com/docs/en/routines - triggers, autonomy model, limits, plan availability, as of 2026-10-06
+- https://code.claude.com/docs/en/routines - triggers, autonomy model, limits, plan availability, and the scheduled-tasks rename (re-fetched 2026-10-25)
 - https://claude.com/resources/articles/introducing-routines-in-claude-code - the April 2026 announcement and launch limits (the former claude.com/blog path now redirects here)
 - https://news.ycombinator.com/item?id=47768133 - the 720-point launch discussion
 - https://platform.claude.com/docs/en/api/claude-code/routines-fire - the /fire endpoint contract, token scoping, and rate limits

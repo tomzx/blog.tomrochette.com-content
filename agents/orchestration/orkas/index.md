@@ -1,7 +1,7 @@
 ---
 title: Orkas
 created: 2026-10-12
-updated: 2026-10-18
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, desktop, commander, byok]
 readability: 3
@@ -31,7 +31,7 @@ The site claims thousands of users and 100-plus agents and skills; both figures 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Orkas-AI/Orkas&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Orkas-AI/Orkas&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Orkas-AI/Orkas&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Orkas-AI/Orkas&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -74,6 +74,8 @@ Not for engineering teams whose loop is worktree, review, and PR discipline, or 
 ## Changes
 
 - 2026-10-12 - Created from the 2026-10-12 candidate scan, with the sandbox-checkout pricing page and the no-coverage star record as the critical angles.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

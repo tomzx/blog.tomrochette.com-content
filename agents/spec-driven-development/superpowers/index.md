@@ -1,7 +1,7 @@
 ---
 title: Superpowers
 created: 2026-10-09
-updated: 2026-10-23
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, methodology, agent-skills, worktrees, open-source]
 readability: 3
@@ -33,7 +33,7 @@ The steward's anniversary post reports the repo about to cross 300,000 stars (12
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=obra/superpowers&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=obra/superpowers&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=obra/superpowers&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=obra/superpowers&type=date&legend=top-left" />
 </picture>
 
 **Its launch thread is the largest independent discussion in this category: 435 points and 231 comments since October 2025, with substantive skepticism about the cost of the ceremony alongside the recommendations.**
@@ -78,6 +78,8 @@ The disagreeable claim I will defend: 297k stars for a mandatory methodology is 
 - 2026-10-09 - Created from the Engineering4AI awesome-list entrant scan, profiling obra/superpowers as the category's mandatory-workflow skill suite and its largest single adoption figure.
 - 2026-10-10 - Recorded the v7.0.0 anniversary release (rebuilt brainstorming that sizes the process to the work, the builder check replacing the spec-document reviewer), the steward's 300k-star and 1.1M-install claims, the three-way comparison and its head-to-head, and refreshed counts.
 - 2026-10-23 - Rotation re-verification of every cited source and recorded the v7.0.1 release (2026-10-21): the brainstorming retune after the formulaic-questions feedback, the design-doc-before-building fix (24 of 24 unprompted skips down to 3 of 24), the 20,000-character compaction trims, and the human-written-summary contribution rule.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

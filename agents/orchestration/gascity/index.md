@@ -32,7 +32,7 @@ The release list corrected this run: stable semver releases do exist, v1.4.2 (20
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gastownhall/gascity&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=gastownhall/gascity&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gastownhall/gascity&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gastownhall/gascity&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -71,6 +71,8 @@ Not for teams that need a release line with months of seasoning, or anyone unwil
 - 2026-10-12 - Corrected the release-record claim: stable semver releases exist (v1.4.2 on September 18, v1.5.0 on October 5, self-described as the new stable release), so the earlier no-stable-release read was wrong.
 
 - 2026-10-25 - Recorded v1.5.1 (2026-10-24) on the stable release line.
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins

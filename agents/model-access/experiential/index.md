@@ -1,7 +1,7 @@
 ---
 title: Experiential
 created: 2026-09-27
-updated: 2026-10-24
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted, model-routing]
 readability: 3
@@ -33,10 +33,10 @@ Very active and compounding fast: 9,469 stars and 233 forks as of 2026-10-07, pu
 </picture>
 
 The Show HN launch ("We built open OpenRouter that turns usage into a better model") reached 222 points on 2026-08-27 with 47 comments, and the star count has since grown roughly an order of magnitude past the ~820 the entrant data recorded around 2026-09-21.
-PyPI shows 221 releases since first upload on 2026-08-20, latest 0.7.218 (uploaded 2026-10-22), requiring Python 3.12+ (as of 2026-10-24).
+PyPI shows 223 releases since first upload on 2026-08-20, latest 0.7.220 (uploaded 2026-10-24), requiring Python 3.12+ (as of 2026-10-25).
 One hundred forty-three open issues, a Discord, and YC backing as of 2026-10-07.
 On 2026-10-10 the GitHub repository and the experientiallabs org both return 404 on the API and the web while the product site, its pricing page, and the PyPI package stay live (the package README still links the dead repo paths), so the repository is private, renamed, or removed as of this date; the 404 state persisted through the 2026-10-12, 2026-10-14, and 2026-10-16 re-checks with the site and package still live; the star count above stands at its last verification, and the site's own badge reads 9.9k.
-By 2026-10-24 the repository and org were live again on both the API and the web, with the repo pushed that day and the pricing page's GitHub badge linking it again, so the removal or privacy spell ended and the 404 stretch ran from 2026-10-10 through at least 2026-10-16.
+By 2026-10-24 the repository and org were live again on both the API and the web, with the repo pushed that day and the pricing page's GitHub badge linking it again, so the removal or privacy spell ended and the 404 stretch ran from 2026-10-10 through at least 2026-10-16; the repo stayed in active push through 2026-10-25.
 
 ## Strengths
 
@@ -113,9 +113,9 @@ My disagreeable claim: the traffic-trained router is the demo rather than the pr
 
 ## References
 
-- https://api.github.com/repos/experientiallabs/experiential - 9,469 stars, 233 forks, Apache-2.0, pushed 2026-10-07 (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-24 with the repository and org live again after the 404 stretch, pushed 2026-10-24)
+- https://api.github.com/repos/experientiallabs/experiential - 9,469 stars, 233 forks, Apache-2.0, pushed 2026-10-07 (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-24 with the repository and org live again after the 404 stretch, pushed 2026-10-24; re-fetched 2026-10-25, pushed 2026-10-25)
 - https://raw.githubusercontent.com/experientiallabs/experiential/main/README.md - architecture, capture mode, PostHog telemetry enabled by default, optimize workflow (200)
 - https://hn.algolia.com/api/v1/items/49471407 - Show HN thread, 222 points, created 2026-08-27, caching objection, telemetry contradiction, rug-pull accusation (200)
 - https://www.experientiallabs.ai/pricing - Free $0, Pro credit ladder $20 to $199, Max $200 to $1,999, Ultra $2,000+ (dated 2026-10-02), page restructured 2026-10-07 into Free/Pro/Enterprise cards with the rungs as a credit selector, 0% markup, YC backing (200, re-fetched 2026-10-07, 2026-10-11, and 2026-10-14 with the discount schedule revised on the last two; fetched 2026-10-24 rebuilt into flat plan prices, Free/Pro/Max/Ultra at $0/$20/$200/$2,000 with fixed credit grants and the three zero-per-token models on every plan)
-- https://pypi.org/pypi/experiential/json - 0.7.166, first upload 2026-08-20, 175 releases, Python 3.12+ (200, re-checked 2026-10-07, 2026-10-11, 2026-10-12, and 2026-10-14, reading 0.7.178 at 186 releases on 10-11/10-12 and 0.7.185 at 189 releases on 10-14; re-checked 2026-10-24 reading 0.7.218 at 221 releases)
+- https://pypi.org/pypi/experiential/json - 0.7.166, first upload 2026-08-20, 175 releases, Python 3.12+ (200, re-checked 2026-10-07, 2026-10-11, 2026-10-12, and 2026-10-14, reading 0.7.178 at 186 releases on 10-11/10-12 and 0.7.185 at 189 releases on 10-14; re-checked 2026-10-24 reading 0.7.218 at 221 releases; re-checked 2026-10-25 reading 0.7.220 at 223 releases)
 - https://platform.experientiallabs.ai/docs - fetched with status 200 but renders as an empty JavaScript shell, so nothing citable was taken from it

@@ -32,7 +32,7 @@ v10.15.0's README repositions the tool around user-configured workflows, with th
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=the-open-engine/zeroshot&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=the-open-engine/zeroshot&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=the-open-engine/zeroshot&type=date&theme=dark&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=the-open-engine/zeroshot&type=date&legend=top-left" />
 </picture>
 
 **The independent footprint is thin: one 2-point Hacker News thread from June 2026 and a young curated list, so the README's "starred by engineers at Google, Meta, Shopify" badge is a self-published claim.**
@@ -76,6 +76,8 @@ Not for teams that require a deterministic final gate, third-party validation fi
 - 2026-10-21 - Recorded the train to v10.15.0 (2026-10-19, npm in sync): Pi added as a fourth harness in v10.14.0, renewable delivery credentials kept out of agent environments in v10.13.0, and the v10.15.0 README repositioning that leads with user-configured workflows and stops advertising Zeroshot Cloud; the What-it-is harness roster and the Pricing and caution lines updated.
 - 2026-10-23 - Recorded the train to v10.16.0 (2026-10-22, npm in sync): machine delegations with expiring API keys for unattended runs, human-gated delegation management, keys kept out of run inputs and subprocesses, and a remote-base preflight before local PR delivery.
 - 2026-10-25 - Recorded the train to v10.18.0 (2026-10-24, npm in sync): Active Memory in v10.17.0 (lessons recalled from costly repository mistakes on local and Docker runs, enabled by default) and the Zeroshot Cloud to Zeroshot Platform rebrand in v10.18.0, whose notes state the old $100 Cloud pricing is no longer stated anywhere; the What-it-is run-target line and the Pricing and caution lines updated.
+
+- 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

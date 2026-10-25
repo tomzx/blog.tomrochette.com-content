@@ -16,7 +16,7 @@ Persistent memory for agents: the file conventions, the portable format, the cap
 - [Cabinet](cabinet/index.md) - the MIT self-hosted knowledge base where every artifact is a markdown file on disk and an onboarded agent team works it on a schedule, quiet since August.
 - [claude-mem](claude-mem/index.md) - the 101.1k-star plugin that captures coding-agent sessions, compresses them with your tokens, and reinjects the context.
 - [Cognee](cognee/index.md) - the Apache-2.0 graph-memory pipeline with the whole engine self-hostable and a flat per-token cloud.
-- [deja](deja/index.md) - the MIT one-binary transcript index: recall of what 42 coding agents already wrote to disk, no capture step, no LLM, self-run benchmarks committed as artifacts.
+- [deja](deja/index.md) - the MIT one-binary transcript index: recall of what 43 coding agents already wrote to disk, no capture step, no LLM, self-run benchmarks committed as artifacts.
 - [Emulo](emulo/index.md) - the MIT session miner that compiles the messages you typed into a you.md working profile with dated verbatim receipts, carrying a published 0-for-9 placebo result.
 - [Engrim](engrim/index.md) - the local-first SQLite episodic memory engine for multiple AI CLIs on one machine, provenance-first.
 - [EverOS](everos/index.md) - EverMind's Apache-2.0 local-first runtime where markdown files stay the source of truth with SQLite and LanceDB indexes beside them, separate user and agent tracks, and an unpublished-price managed cloud.

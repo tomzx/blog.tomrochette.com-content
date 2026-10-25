@@ -1,7 +1,7 @@
 ---
 title: Belief Context Graph
 created: 2026-10-16
-updated: 2026-10-20
+updated: 2026-10-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, belief, open-source]
 readability: 3
@@ -69,6 +69,7 @@ Not for production teams needing releases, support, or independently validated b
 ## Changes
 
 - 2026-10-16 - Created from the 2026-10-16 Awesome-Agent-Memory entrant scan (the Belief Context Graph entry repointed at bigai-nlco/belief-context-graph on 2026-10-15), with six fetched sources and the self-admitted-ungrounded-confidence-plus-missing-footprint combination recorded as the critical angle.
+- 2026-10-25 - Rotation re-verification: every cited URL re-fetched live, no facts changed (still zero tagged releases, and the repository's last push remains 2026-10-20 with nothing new on the default branch since).
 
 ## See also
 
