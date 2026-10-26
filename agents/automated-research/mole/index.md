@@ -1,7 +1,7 @@
 ---
 title: Mole
 created: 2026-10-12
-updated: 2026-10-15
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deep-research, budget-enforcement, open-source]
 readability: 3
@@ -23,7 +23,7 @@ The privacy boundary covers local data too: point it at a CSV or a folder and th
 
 ## Status
 
-Active and young: 314 stars, 20 forks, created 2026-08-01, last pushed 2026-10-13, releases v0.1.0 (2026-08-13), v0.2.0 (2026-10-10), and v0.2.1 (2026-10-13), as of 2026-10-15.
+Active and young: 314 stars, 20 forks, created 2026-08-01, last pushed 2026-10-25 (unreleased main-branch fixes: the verifier stops a pass on a fatal second look instead of continuing, the executor verifies what research found on every ceiling stop, and the budget no longer lets max_leads mask the wall clock), releases v0.1.0 (2026-08-13), v0.2.0 (2026-10-10), and v0.2.1 (2026-10-13) still the latest, as of 2026-10-26.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lajosdeme/mole&type=date&theme=dark&legend=top-left" />

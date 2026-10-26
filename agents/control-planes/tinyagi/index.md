@@ -1,7 +1,7 @@
 ---
 title: TinyAGI
 created: 2026-08-27
-updated: 2026-10-18
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, control-planes, one-person-company, open-source, stall-record]
 readability: 3
@@ -23,7 +23,7 @@ It began life as jlia0's TinyClaw, a tiny Claude Code wrapper for a 24/7 persona
 ## Status
 
 Stalled, kept here as the record.
-Created 2026-02-09, last release v0.0.20 on 2026-03-26, last push 2026-03-30, with 3,621 stars, 503 forks, and 72 open issues accumulating since (stall unchanged when re-checked 2026-10-18).
+Created 2026-02-09, last release v0.0.20 on 2026-03-26, last push 2026-03-30, with 3,621 stars, 505 forks, and 72 open issues accumulating since (stall unchanged when re-checked 2026-10-26).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TinyAGI/tinyagi&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ The disagreeable claim I will defend: TinyAGI's death was not failure of executi
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-07 - Added the TinyAGI/tinyagi star history chart to the Status section.
 - 2026-10-18 - Rotation re-verification: the stall re-confirmed (last push 2026-03-30, v0.0.20 still the final release, TinyOffice portal still live) and forks moved to 503.
+- 2026-10-26 - Rotation re-verification: every cited URL re-fetched, the stall re-confirmed (last push 2026-03-30, v0.0.20 still the final release, TinyOffice live, the TinyClaw origin still redirecting) and forks moved to 505.
 
 ## See also
 

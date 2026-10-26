@@ -1,7 +1,7 @@
 ---
 title: Entroly
 created: 2026-10-12
-updated: 2026-10-22
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, receipts, open-source]
 readability: 3
@@ -25,8 +25,9 @@ Two offline commands are the trust surface: `entroly verify-claims` runs twelve 
 
 ## Status
 
-Young, active, and barely discovered: 476 stars as of 2026-10-18, 73 forks, created 2026-03-07, pushed 2026-10-22, PyPI and npm both at 1.0.87 across 105 releases, as of 2026-10-22 (GitHub, PyPI, and npm APIs).
+Young, active, and barely discovered: 476 stars as of 2026-10-18, 73 forks, created 2026-03-07, pushed 2026-10-26, PyPI and npm both at 1.0.87 across 105 releases, as of 2026-10-26 (GitHub, PyPI, and npm APIs).
 October 2026 development around the 1.0.87 release added a session journal of what a session did, returned on resume, source-bound cross-agent review in the work CLI, opt-in paired Decisions choice trials, and a rustls advisory fix.
+After that release, main gained PAC-KV cache-aligned compression (provider page-grid quantization, an economic break-even gate, paged Merkle trees, attention-aware tail compression) and a receipt-backed MemoryGraph with hybrid retrieval, exposing three new FastMCP tools (memory_graph_query, memory_recall, cache_align_prompt), all unreleased as of 2026-10-26.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=juyterman1000/entroly&type=date&theme=dark&legend=top-left" />
@@ -34,7 +35,7 @@ October 2026 development around the 1.0.87 release added a session journal of wh
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=juyterman1000/entroly&type=date&legend=top-left" />
 </picture>
 
-Adoption is near zero for now: about 1,455 PyPI downloads in the trailing month (PyPIstats, as of 2026-10-18) and 724 npm downloads in the month to 2026-10-16, and a Hacker News search returns no story about the product (re-checked 2026-10-18, every hit unrelated entropy content).
+Adoption is near zero for now: about 1,455 PyPI downloads in the trailing month (PyPIstats, unchanged when re-fetched 2026-10-26) and 681 npm downloads in the month to 2026-10-22, and a Hacker News search returns no story about the product (re-checked 2026-10-26, every hit unrelated entropy content).
 Its one external listing is the [Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) survey's Context Optimization Engines section, the same list that surfaced LLMLingua here.
 The missing community footprint is itself the finding to weigh: at this size the project is one person's bet with no independent signal in either direction.
 
@@ -73,6 +74,7 @@ My disagreeable claim: this category's arms race measures the wrong thing, and a
 
 - 2026-10-12 - Created from the 2026-10-12 Meirtz/Awesome-Context-Engineering entrant scan (the list's Entroly entry under Context Optimization Engines), with the zero-community-footprint finding and the small-n self-run-benchmark caveat recorded as the critical angle.
 - 2026-10-18 - Recorded the October 2026 additions around the 1.0.87 release (session journal returned on resume, source-bound cross-agent review in the work CLI, opt-in paired Decisions choice trials, a rustls advisory fix) and refreshed the adoption figures.
+- 2026-10-26 - Full rotation re-verification: every cited URL re-fetched (repo and README, BENCHMARKS.md, PyPI, npm registry and downloads, PyPIstats, the HN search, and the VS Code marketplace listing all intact); recorded main's post-1.0.87 PAC-KV cache-aligned compression and receipt-backed MemoryGraph work with three new FastMCP tools, unreleased as of 2026-10-26, and refreshed the npm figure (681 in the month to 2026-10-22, was 724 to 2026-10-16).
 
 ## See also
 
@@ -83,13 +85,13 @@ My disagreeable claim: this category's arms race measures the wrong thing, and a
 
 ## References
 
-- https://api.github.com/repos/juyterman1000/entroly - stars, forks, created and pushed dates, Apache-2.0 license, and topics as of 2026-10-18
-- https://raw.githubusercontent.com/juyterman1000/entroly/main/README.md - mechanism, install surfaces, receipt and recovery model, the README benchmark table with the disclosed SQuAD regression, and the activation-status honesty notes (fetched 200, 2026-10-12)
-- https://raw.githubusercontent.com/juyterman1000/entroly/main/docs/BENCHMARKS.md - full benchmark protocols, sample sizes, the 24/24 versus 18/24 model-recovery holdout, and the WITNESS hallucination-detection numbers (fetched 200, 2026-10-12)
-- https://pypi.org/pypi/entroly/json - version 1.0.87 and the 105-release train (fetched 2026-10-18)
-- https://registry.npmjs.org/entroly - the npm distribution at 1.0.87 (fetched 2026-10-18)
-- https://api.npmjs.org/downloads/point/last-month/entroly - 724 downloads in the month to 2026-10-16 (fetched 2026-10-18)
-- https://pypistats.org/api/packages/entroly/recent - 1,455 downloads in the trailing month as of 2026-10-18
-- https://hn.algolia.com/api/v1/search?query=entroly&hitsPerPage=5 - the footprint check: no story about the product, all hits unrelated (re-fetched 2026-10-18)
-- https://marketplace.visualstudio.com/items?itemName=entroly.entroly-vscode - the VS Code extension surface (fetched 200, 2026-10-12)
-- https://github.com/Meirtz/Awesome-Context-Engineering - the entrant source: Entroly listed under Context Optimization Engines (repository and README fetched via the GitHub API, 2026-10-12)
+- https://api.github.com/repos/juyterman1000/entroly - stars, forks, created and pushed dates, Apache-2.0 license, and topics as of 2026-10-26
+- https://raw.githubusercontent.com/juyterman1000/entroly/main/README.md - mechanism, install surfaces, receipt and recovery model, the README benchmark table with the disclosed SQuAD regression, and the activation-status honesty notes (re-fetched 200, 2026-10-26)
+- https://raw.githubusercontent.com/juyterman1000/entroly/main/docs/BENCHMARKS.md - full benchmark protocols, sample sizes, the 24/24 versus 18/24 model-recovery holdout, and the WITNESS hallucination-detection numbers (re-fetched 200, 2026-10-26)
+- https://pypi.org/pypi/entroly/json - version 1.0.87 and the 105-release train (re-fetched 2026-10-26)
+- https://registry.npmjs.org/entroly - the npm distribution at 1.0.87 (re-fetched 2026-10-26)
+- https://api.npmjs.org/downloads/point/last-month/entroly - 681 downloads in the month to 2026-10-22 (re-fetched 2026-10-26)
+- https://pypistats.org/api/packages/entroly/recent - 1,455 downloads in the trailing month, unchanged when re-fetched 2026-10-26
+- https://hn.algolia.com/api/v1/search?query=entroly&hitsPerPage=5 - the footprint check: no story about the product, all hits unrelated (re-fetched 2026-10-26)
+- https://marketplace.visualstudio.com/items?itemName=entroly.entroly-vscode - the VS Code extension surface (re-fetched 200, 2026-10-26)
+- https://github.com/Meirtz/Awesome-Context-Engineering - the entrant source: Entroly listed under Context Optimization Engines (repository and README fetched via the GitHub API, 2026-10-12; re-fetched 2026-10-26)

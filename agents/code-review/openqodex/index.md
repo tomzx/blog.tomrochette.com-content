@@ -1,13 +1,13 @@
 ---
 title: OpenQodex
 created: 2026-10-11
-updated: 2026-10-24
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
 audience_notes: >
   Developers who want a pre-push AI review gate on their own Claude Code or Codex
-  subscription, and who can weigh a twelve-day-old project whose first independent
+  subscription, and who can weigh a young project whose first independent
   eval scores it last on recall.
 ---
 
@@ -22,7 +22,7 @@ It is open source under Apache-2.0 from Qodex.ai, a San Francisco company whose 
 
 ## Status
 
-**Three weeks old, still shipping, and past its launch spike: the first independent eval is in.**
+**Young, still shipping, and past its launch spike: the first independent eval is in.**
 The repo (openqodex/openqodex) was created October 2, 2026 and shows 653 stars, 51 forks, and 15 npm releases (v0.12.0, October 10, 2026, is latest) as of 2026-10-13, pushed the same day.
 The train continued on October 15 with v0.13.0 (16 npm versions now): repository owners choose convention files (review.instructions_files) that get quoted into the review brief and bound to their original content, every correction round is saved in rounds.json beside the report, report.json gains per-phase timings, the reviewer time cap rose from 10 to 30 minutes per change, and usage.json records each round's model, tokens, and cost.
 v0.14.0 (October 23, 2026, the 17th npm version) checks every repository lockfile at every review and scan, shows advisories from outside the scanner set without counting them toward scores while including fixed versions, and the library export now exposes the code graph's query surface (query, querySliced).
@@ -78,6 +78,7 @@ My disagreeable take: the completeness contract is the actual invention here, be
 - 2026-10-16 - Recorded v0.13.0 (October 15): owner-chosen convention files bound into the review brief, correction-round receipts in rounds.json, per-phase timings, the reviewer cap raised from 10 to 30 minutes per change, and per-round token and cost records in usage.json.
 - 2026-10-22 - Rotation re-verification: weekly npm downloads fell to 1,918 (week of October 12 to 18) from the 4,533 launch week; v0.13.0 still latest, with only a benchmark-tooling pull request merged since; every cited URL re-fetched, the third-party eval and its numbers unchanged.
 - 2026-10-24 - Volatile re-verification: recorded v0.14.0 (October 23, the 17th npm version): lockfile checks on every review and scan, outside advisories shown but uncounted with fixed versions included, and the library's exported code-graph query surface; weekly downloads fell again to 1,112 (October 16 to 22) with 6,941 over the trailing month, now the adoption window.
+- 2026-10-26 - Volatile re-verification: the repo pushed again on October 26 with no release after v0.14.0, and the npm figures held on re-fetch (1,112 weekly, 6,941 trailing month, windows unchanged); prices and eval numbers unchanged.
 
 ## See also
 
@@ -89,7 +90,7 @@ My disagreeable take: the completeness contract is the actual invention here, be
 
 ## References
 
-- https://github.com/openqodex/openqodex - repo facts: 574 stars, 38 forks, Apache-2.0, created 2026-10-02 (GitHub API, as of 2026-10-11; re-queried 2026-10-22 and 2026-10-24: pushed 2026-10-23)
+- https://github.com/openqodex/openqodex - repo facts: 574 stars, 38 forks, Apache-2.0, created 2026-10-02 (GitHub API, as of 2026-10-11; re-queried 2026-10-22, 2026-10-24, and 2026-10-26: pushed 2026-10-26)
 - https://raw.githubusercontent.com/openqodex/openqodex/HEAD/README.md - the scanner-then-separate-reviewer mechanism, the completeness contract, the 22 scanners, and the candid limitations list, re-fetched 2026-10-22 (unchanged)
 - https://qodex.ai/openqodex - the product page: the separate-reviewer thesis, the hosted-Qodex split, the no-telemetry and nothing-open-becomes-paid pledges, San Francisco address, fetched 2026-10-11, re-fetched 2026-10-22 (unchanged)
 - https://registry.npmjs.org/openqodex - 17 versions, v0.14.0 latest (openqodex@0.14.0, published 2026-10-23), package created 2026-10-02 (npm registry, fetched 2026-10-11, re-fetched 2026-10-22 and 2026-10-24)

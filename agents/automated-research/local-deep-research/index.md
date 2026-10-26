@@ -1,7 +1,7 @@
 ---
 title: Local Deep Research
 created: 2026-10-07
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, deep-research, local-first]
 readability: 3
@@ -24,7 +24,7 @@ Around the loop sit a journal-quality system scoring 212K-plus indexed sources w
 
 ## Status
 
-Active and heavily developed: 9,192 stars as of 2026-10-15, 880 forks, created 2025-02-09, last pushed 2026-10-25 on a many-commit daily cadence (the October 24-25 batch brought dependency-minimum alignment, a library sync fix for empty content, citation recognition for colon and hash source phrases, and benchmark-output containment, following the October 22-23 fixes for encoding-aware upload reading, a SQLite busy-error-only lock retry, per-engine time_period inherit defaults, and library auto-persistence of research sources, and the October 18 batch that bumped the version to 2.0.0 on main, the project's first major-version cut), with the release train still published at v1.10.7, 2026-08-28 on GitHub and PyPI, as of 2026-10-25.
+Active and heavily developed: 9,192 stars as of 2026-10-15, 880 forks, created 2025-02-09, last pushed 2026-10-26 on a many-commit daily cadence (the newest main commit, October 25, annotates public corpus metadata in CI, following the October 24-25 batch's dependency-minimum alignment, library sync fix for empty content, citation milestone suppression on iteration failure, and benchmark-output containment, the October 22-23 fixes for encoding-aware upload reading, a SQLite busy-error-only lock retry, per-engine time_period inherit defaults, and library auto-persistence of research sources, and the October 18 batch that bumped the version to 2.0.0 on main, the project's first major-version cut), with the release train still published at v1.10.7, 2026-08-28 on GitHub and PyPI, as of 2026-10-26.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=LearningCircuit/local-deep-research&type=date&theme=dark&legend=top-left" />

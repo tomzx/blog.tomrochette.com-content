@@ -1,7 +1,7 @@
 ---
 title: OpenResearch
 created: 2026-10-05
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, autoresearch, multi-agent, alphaXiv]
 readability: 3
@@ -24,7 +24,7 @@ The agent-facing surface is first-class: `orx install-skills` installs a skill i
 
 ## Status
 
-Active and fast-moving: 7,234 stars as of 2026-10-21, 501 forks, 129 open issues and pull requests, created 2026-06-07, last pushed 2026-10-24 (post-release desktop polish, SSH-monitor hardening, and a CITATION.cff whose orx-paper acknowledgment now lands in papers the loop writes), with v0.2.21 (October 23) the latest release, carrying the October Trackio widening to Spaces, Hugging Face runs, and orx metrics and the configurable remote storage root, as of 2026-10-25.
+Active and fast-moving: 7,234 stars as of 2026-10-21, 501 forks, 141 open issues and pull requests, created 2026-06-07, last pushed 2026-10-26 (OpenCode-facing fixes, native skill discovery paths and plugin-activation readiness, following post-release desktop polish, SSH-monitor hardening, and a CITATION.cff whose orx-paper acknowledgment now lands in papers the loop writes), with v0.2.21 (October 23) the latest release, carrying the October Trackio widening to Spaces, Hugging Face runs, and orx metrics and the configurable remote storage root, as of 2026-10-26.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alphaXiv/OpenResearch&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: AutoKernel
 created: 2026-10-23
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, gpu, kernel-optimization, autoresearch]
 readability: 3
@@ -30,7 +30,7 @@ The launch thread reached 47 points and 10 comments on Hacker News on 2026-03-11
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=RightNow-AI/autokernel&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=RightNow-AI/autokernel&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=RightNow-AI/autokernel&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=RightNow-AI/autokernel&type=date&legend=top-left" />
 </picture>
 
@@ -72,6 +72,7 @@ Not for production performance work that needs speedups validated against CUTLAS
 - 2026-10-23 - Created.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup (the light-theme source carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

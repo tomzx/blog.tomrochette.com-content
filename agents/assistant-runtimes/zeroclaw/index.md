@@ -1,7 +1,7 @@
 ---
 title: ZeroClaw
 created: 2026-08-27
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, rust, open-source]
 readability: 3
@@ -23,7 +23,7 @@ An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android),
 ## Status
 
 Active and large, but quietly so.
-32,977 stars and 4,976 forks as of 2026-10-14 since creation on 2026-02-13, pushed 2026-10-25 with 1,042 open issues as of 2026-10-25, Apache-2.0/MIT dual licensed.
+32,977 stars and 4,976 forks as of 2026-10-14 since creation on 2026-02-13, pushed 2026-10-25 with 1,060 open issues as of 2026-10-26, Apache-2.0/MIT dual licensed.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ v0.8.6 (2026-10-18) ended the v0.8.5 hold from 2026-09-05: 573 commits whose hea
 
 - Thin independent coverage: almost no third-party writing or discussion to check claims against.
 - Hardware tools are a foot-gun by design; the trust question moves from the codebase to the tool grant.
-- 1,033 open issues against a labs team you cannot size from outside.
+- 1,060 open issues against a labs team you cannot size from outside.
 - The security suite ecosystem (clawsec) names OpenClaw, PicoClaw, and NanoClaw but not ZeroClaw, so the audit tooling has not caught up.
 
 ## Pricing
@@ -72,6 +72,7 @@ The disagreeable claim I will defend: an assistant you cannot read is safer as a
 - 2026-10-06 - Recorded the release line (v0.8.5, 2026-09-05, still latest) and refreshed adoption numbers.
 - 2026-10-07 - Added the zeroclaw-labs/zeroclaw star history chart to the Status section.
 - 2026-10-18 - Recorded v0.8.6 (2026-10-18), ending the v0.8.5 hold: a WebAssembly plugin host (binaries about 24 percent larger), fail-closed security defaults (admin-gated pairing codes, authenticated remote connections, opt-in browser automation, allowed-roots confinement for filesystem and Git tools), and refreshed adoption numbers.
+- 2026-10-26 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, README, the docs book, the archived Android port, the HN thread), v0.8.6 (2026-10-18) confirmed still the latest release, the README's ownership motto and provider/channel/tool counts intact, and the Android port confirmed still archived, with refreshed adoption numbers.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: SoL-Pi
 created: 2026-10-13
-updated: 2026-10-22
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, context-compression, harness-efficiency]
 readability: 3
@@ -70,6 +70,7 @@ Not for other harnesses (port the ideas instead), or for teams needing independe
 - 2026-10-13 - Created.
 - 2026-10-13 - Corrected the chart markup: the light-scheme source and the img fallback now point at the un-themed chart URL, matching the section convention (only the dark source carries the theme parameter).
 - 2026-10-18 - Recorded the official SoL-Pi skill for Claude Code and Codex hand-off (added 2026-10-14 with the News section of visual examples) and refreshed the activity figures.
+- 2026-10-26 - Full rotation re-verification: every cited URL re-fetched (repository, paper abstract, NVIDIA project page, the Pi harness repo, and the HN footprint search all intact, the four-mechanism structure and EdgeBench claims unchanged); pushes since 2026-10-18 resolved as non-default-branch activity, so the note stands.
 
 ## See also
 
@@ -81,7 +82,7 @@ Not for other harnesses (port the ideas instead), or for teams needing independe
 
 ## References
 
-- https://github.com/NVlabs/SoL-Pi - repository, MIT license, stars, forks, push activity, and the four-mechanism structure as of 2026-10-18
+- https://github.com/NVlabs/SoL-Pi - repository, MIT license, stars, forks, push activity, and the four-mechanism structure as of 2026-10-26
 - https://arxiv.org/abs/2609.20519 - the paper grounding the four mechanisms and the auto-research benchmark claims
 - https://nvlabs.github.io/SoL-Pi/ - the NVIDIA project page with the reported efficiency results
 - https://github.com/earendil-works/pi - the Pi harness SoL-Pi extends without forking

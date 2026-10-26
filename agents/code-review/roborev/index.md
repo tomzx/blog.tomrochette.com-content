@@ -1,7 +1,7 @@
 ---
 title: roborev
 created: 2026-10-06
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -77,6 +77,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 - 2026-10-17 - Recorded v0.72.0 (October 16): the reviewer rebuttal flow with confirmed, refuted, or superseded verdicts, fix planning with `--plan`, goal review for specs, plans, and Kata tasks (plus the roborev-superpowers skill), and remote review history over HTTPS with signing keys.
 - 2026-10-18 - Recorded the first independent end-to-end eval result (Agent Skills Hub, October 10): all eight planted defects found with zero false alarms at 0.9 findings per PR, matching the bare-agent control on detection while beating it on noise; nothing else changed.
 - 2026-10-24 - Volatile re-verification: recorded v0.73.0 (October 23), the opt-in test-value review type that recommends removing tests protecting no owned behavior, Muse Code agent support, and separate index and query prefix overrides, with the release train at 122-plus releases.
+- 2026-10-26 - Volatile re-verification: the push moved to October 26 with v0.73.0 still the latest release; nothing else changed.
 
 ## See also
 
@@ -88,7 +89,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 
 ## References
 
-- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05 (GitHub API, as of 2026-10-11; re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, and 2026-10-25, pushed 2026-10-25 with v0.73.0 still the latest release)
+- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05 (GitHub API, as of 2026-10-11; re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, and 2026-10-26, pushed 2026-10-26 with v0.73.0 still the latest release)
 - https://raw.githubusercontent.com/kenn-io/roborev/HEAD/README.md - the two automation layers, the refine skill, and install paths
 - https://roborev.io/docs/ - the ledger model, the agent hook, panels, PostgreSQL sync, and the ACP surface
 - https://roborev.io/docs/agents.md - the eleven supported agents and the auto-detection fallback order

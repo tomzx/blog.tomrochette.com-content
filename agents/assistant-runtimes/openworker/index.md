@@ -1,7 +1,7 @@
 ---
 title: OpenWorker
 created: 2026-10-02
-updated: 2026-10-23
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtime, desktop, security, sandboxing]
 readability: 3
@@ -23,7 +23,7 @@ Every action an agent takes is governed and logged, approvals are configurable, 
 
 ## Status
 
-Early and moving fast: about 18,500 stars in its first thirteen weeks as of 2026-10-17 (created 2026-07-20), with v0.3.1 released 2026-10-05, the last push on 2026-10-22 as of 2026-10-23, and a public beta disclaimer on the README.
+Early and moving fast: about 18,500 stars in its first thirteen weeks as of 2026-10-17 (created 2026-07-20), with v0.3.1 released 2026-10-05, the last push on 2026-10-26 as of 2026-10-26, and a public beta disclaimer on the README.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=andrewyng/openworker&type=date&theme=dark&legend=top-left" />

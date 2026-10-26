@@ -1,7 +1,7 @@
 ---
 title: DeepAnalyze
 created: 2026-10-10
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, agentic-llm, data-science, open-source]
 readability: 3
@@ -29,7 +29,7 @@ Active: 4,714 stars as of 2026-10-15, 746 forks, created 2025-10-11, last push 2
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ruc-datalab/DeepAnalyze&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ruc-datalab/DeepAnalyze&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ruc-datalab/DeepAnalyze&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ruc-datalab/DeepAnalyze&type=date&legend=top-left" />
 </picture>
 
@@ -69,6 +69,7 @@ Not for audit-sensitive analysis: the loop's only judge is the model that wrote 
 
 - 2026-10-10 - Created.
 - 2026-10-25 - Rotation re-verification: refreshed the Hugging Face usage footprint (144 trailing-month downloads, down from 211, with likes steady at 93), harmonized the star figure in the cautions line with the status baseline, and added SkillAdam to the ecosystem list; every cited URL re-fetched, all live.
+- 2026-10-26 - Corrected the star-history chart markup (the light-theme source carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

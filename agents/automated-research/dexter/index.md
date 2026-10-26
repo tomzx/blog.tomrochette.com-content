@@ -1,7 +1,7 @@
 ---
 title: Dexter
 created: 2026-10-10
-updated: 2026-10-11
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, autonomous-agent, financial-research, open-source]
 readability: 3
@@ -69,6 +69,7 @@ Not for investment decisions, and not for anyone who needs a licensed repository
 ## Changes
 
 - 2026-10-10 - Created.
+- 2026-10-26 - Rotation re-verification: status unchanged (last push still 2026-09-23, v1.1.0 still the latest release, the license still undetected, and the two one-point Hacker News stories still the whole discussion footprint); every cited URL re-fetched, all live (the LICENSE file still 404).
 
 ## See also
 

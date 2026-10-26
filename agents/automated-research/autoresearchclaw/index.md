@@ -1,7 +1,7 @@
 ---
 title: AutoResearchClaw
 created: 2026-10-10
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, agentic-llm, open-source, paper-generation]
 readability: 3
@@ -27,7 +27,7 @@ The companion ARC-Bench dataset ships on Hugging Face under the AIMING-Lab-UNC a
 Dormant since August: 14,618 stars as of 2026-10-11, 1,711 forks, created 2026-03-15, last push 2026-08-19, latest release v0.5.0 on 2026-05-20, as of 2026-10-25.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aiming-lab/AutoResearchClaw&type=date&legend=top-left" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aiming-lab/AutoResearchClaw&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=aiming-lab/AutoResearchClaw&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=aiming-lab/AutoResearchClaw&type=date&legend=top-left" />
 </picture>
@@ -68,6 +68,7 @@ Not for anyone who needs an actively maintained tool (eight weeks without a comm
 
 - 2026-10-10 - Created.
 - 2026-10-25 - Rotation re-verification: corrected the paper's author list to the arXiv v2 count of 36, led by Jiaqi Liu and Shi Qiu (the note had named only the first eight), confirmed dormancy (push still 2026-08-19, release still v0.5.0), and re-fetched every cited URL, all live.
+- 2026-10-26 - Corrected the star-history chart markup (the dark-theme source was missing the theme=dark parameter; it now renders dark for dark readers).
 
 ## See also
 

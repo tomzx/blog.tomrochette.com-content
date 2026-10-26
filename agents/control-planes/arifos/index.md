@@ -1,7 +1,7 @@
 ---
 title: arifOS
 created: 2026-10-16
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, governance-kernel, mcp, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The maintainer positions it as the layer between "agent wants to act" and "actio
 
 ## Status
 
-Active and early: 54 stars and 9 forks as of 2026-10-18, with 6 open issues and the latest push on 2026-10-25 as of 2026-10-25, created 2025-11-17, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
+Active and early: 54 stars and 9 forks as of 2026-10-18, with 11 open issues and the latest push on 2026-10-26 as of 2026-10-26, created 2025-11-17, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ariffazil/arifOS&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for anyone who needs verified actor identity, measured floors, or a communit
 - 2026-10-16 - Created from the awesome-ai-governance scan (PR #148, 2026-10-16), profiling the AGPL-3.0 MCP governance kernel with its own false-pass self-audit as the critical angle, and folding the sibling executor A-FORGE into the note per the sibling fold precedent.
 - 2026-10-21 - The README's self-measurement block moved to 7 of 13 floors measured pass with the kernel self-reporting degraded (2026-10-20 stamp), against the unchanged 2026-10-11 independent audit reading of 2 pass, 4 fail, and 7 unmeasured; the status and caution rewritten to keep the two witness objects separate.
 - 2026-10-23 - The self-measurement block moved again to 10 of 13 floors measured pass, failing F1 and F8, still self-reporting degraded (2026-10-21 stamp), with the independent audit reading unchanged and the PyPI package trailing at 1!2026.10.17 while repository tags reached v2026.10.23.
+- 2026-10-26 - Repository activity claims an F1 fix and new floor measurements ("F1 fixed, F10 measured, F6 unmeasured"), but the README's own drift flag reads repo_live_divergence with deployment pending, so the live self-measurement stamp still reads the 2026-10-21 block (10 of 13 pass, failing F1 and F8) and PyPI still trails at 1!2026.10.17 while tags reached v2026.10.26.
 
 ## See also
 

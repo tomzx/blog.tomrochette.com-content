@@ -1,7 +1,7 @@
 ---
 title: Graft
 created: 2026-09-12
-updated: 2026-10-24
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graphs, claude-code, open-source]
 readability: 3
@@ -28,6 +28,7 @@ In October 2026 the product renamed to Trail-code: the repository moved from tra
 
 Young and very hot: created 2026-07-03, 10,084 stars by 2026-10-18, with 955 forks, 244 open issues and pull requests, and a last push of 2026-10-23, the repository renamed trailhq/Graft to trailhq/Trail-Code, the npm package `@trailhq/trail-code` at v0.25.0 ("Formerly graft") beside the still-published `@nanonets/graft` v0.23.0, which drew 98,766 downloads in the trailing month (window 2026-09-19 to 2026-10-18), all per the GitHub and npm APIs as of 2026-10-24.
 The 0.25.0 release (2026-10-23) extended the Learnings loop: a repository's skill now ships with its whole folder, a coding agent's use of a repo skill is reported to the workspace, and learning sync takes down learnings deleted at HEAD and syncs each turn.
+On 2026-10-26 main added a Claude Code workspace connector (`trail mcp` passing the workspace's MCP server through to Claude Code) and regrouped the four learning kinds into three display units (learnings, always follow, skills), all unreleased as of 2026-10-26.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trailhq/Trail-Code&type=date&theme=dark&legend=top-left" />
@@ -95,6 +96,7 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 - 2026-10-16 - Recorded the second rename, product and repository (trailhq/Graft to trailhq/Trail-Code, npm @trailhq/trail-code "Formerly graft", positioning widened to the self-learning context layer with team Learnings), refreshed the growth numbers (10,084 stars, 891 forks, 250 open issues and pull requests, pushed 2026-10-15, 114,056 trailing-month downloads on the old package), and re-verified Trail Brain pricing unchanged.
 - 2026-10-22 - Recorded the language count rising to 24 with Gleam support, the renamed npm package moving to v0.23.1, and refreshed the growth numbers (939 forks, 247 open issues and pull requests, 98,766 trailing-month downloads on the old package); Trail Brain pricing re-verified unchanged.
 - 2026-10-24 - Recorded the renamed npm package moving to v0.25.0 (2026-10-23: a repo's skill shipping with its whole folder, skill runs reported to the workspace, learning-sync fixes for HEAD-deleted learnings and per-turn sync) and refreshed the growth numbers (955 forks, 244 open issues and pull requests, pushed 2026-10-23); Trail Brain pricing re-verified unchanged against the live pricing page.
+- 2026-10-26 - Recorded main's unreleased Claude Code workspace MCP connector (`trail mcp` passing the workspace MCP server through to Claude Code) and the learnings/always-follow/skills display regrouping (2026-10-26).
 
 ## See also
 
@@ -104,7 +106,7 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 
 ## References
 
-- https://github.com/trailhq/Trail-Code - canonical repository (trailhq/Graft and NanoNets/Graft redirect here), stats and activity as of 2026-10-18
+- https://github.com/trailhq/Trail-Code - canonical repository (trailhq/Graft and NanoNets/Graft redirect here), stats and activity as of 2026-10-26
 - https://raw.githubusercontent.com/trailhq/Trail-Code/main/README.md - architecture, benchmark tables, SWE-bench Verified numbers, delivery surfaces, and the rename banner ("Trail-code (previously graft)")
 - https://graft.nanonets.ai - product site, Trail attribution, and marketing claims
 - https://trailhq.com/trail-code - the product page carrying the rename and the Learnings framing, fetched 2026-10-16

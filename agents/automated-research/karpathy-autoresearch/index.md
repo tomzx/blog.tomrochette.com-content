@@ -1,7 +1,7 @@
 ---
 title: Karpathy Autoresearch
 created: 2026-10-10
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, autoresearch, machine-learning, open-source]
 readability: 3
@@ -27,7 +27,7 @@ Dormant as a repository, dominant as an influence: 97,798 stars, 13,568 forks, c
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=karpathy/autoresearch&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=karpathy/autoresearch&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=karpathy/autoresearch&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=karpathy/autoresearch&type=date&legend=top-left" />
 </picture>
 
@@ -70,6 +70,7 @@ Not for anyone who needs a maintained tool, a license that permits reuse, or res
 - 2026-10-21 - Rotation re-verification corrected the license picture: the README's final section declares MIT while the repository still ships no LICENSE file and GitHub detects none, so the unclear-legal-ground caution and the pricing clause were rewritten and the raw README joined the references.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup (the light-theme source carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

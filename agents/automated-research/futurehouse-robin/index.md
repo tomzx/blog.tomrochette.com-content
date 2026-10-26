@@ -1,7 +1,7 @@
 ---
 title: FutureHouse Robin
 created: 2026-10-06
-updated: 2026-10-11
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, futurehouse, biology, drug-discovery, multi-agent]
 readability: 3
@@ -74,6 +74,7 @@ Not for anyone expecting autonomous laboratories; the loop plans and analyzes, a
 - 2026-10-06 - Created.
 - 2026-10-07 - Added the Future-House/robin star history chart to the Status section.
 - 2026-10-11 - Corrected the discussion-footprint claim: the announcement week also drew a 151-point, 20-comment Hacker News thread on the arXiv preprint that the earlier note missed, and refreshed the repository counts.
+- 2026-10-26 - Rotation re-verification: status unchanged (last push still 2026-04-21, Apache-2.0 still detected, and the 151-point preprint and 18-point writeup threads still the announcement footprint); every cited URL re-fetched, all live.
 
 ## See also
 

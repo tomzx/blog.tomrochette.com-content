@@ -1,7 +1,7 @@
 ---
 title: OpenClaw
 created: 2026-08-27
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, open-source, self-hosting]
 readability: 3
@@ -24,7 +24,7 @@ Security is pairing-based by default (unknown senders must be approved), and the
 ## Status
 
 The category's giant.
-391,906 stars and 82,418 forks as of 2026-10-14 since creation on 2025-11-24, pushed daily, 7,814 open issues as of 2026-10-25, npm-published.
+391,906 stars and 82,418 forks as of 2026-10-14 since creation on 2025-11-24, pushed daily, 7,845 open issues as of 2026-10-26, npm-published.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openclaw/openclaw&type=date&theme=dark&legend=top-left" />
@@ -54,7 +54,7 @@ It was renamed twice in its first months (the 667-point "Moltbot Renamed Again" 
 - Scale: the nanoclaw author's audit calls it nearly half a million lines, 53 config files, and 70+ dependencies, which is exactly the trust surface its variants reject.
 - Tools run on the host by default; read the sandboxing guide before connecting anyone else.
 - The provider saga shows subscription terms can be withdrawn from a popular open-source runtime at any time, budget for API keys, not just subscriptions.
-- 8,900-odd open issues means the tracker is a weather report, not a queue.
+- 7,800-odd open issues means the tracker is a weather report, not a queue.
 
 ## Pricing
 
