@@ -1,7 +1,7 @@
 ---
 title: Code-Graph-RAG
 created: 2026-10-07
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, knowledge-graph, rag]
 readability: 3
@@ -26,15 +26,15 @@ Made by an independent developer, with an enterprise support and services badge 
 ## Status
 
 **Actively shipping and early: 5.2k stars in sixteen months with almost no independent discussion.**
-5,252 stars and 702 forks as of 2026-10-14, pushed 2026-10-25, with 526 open issues (GitHub API, as of 2026-10-25).
+5,252 stars and 702 forks as of 2026-10-14, pushed 2026-10-26, with 547 open issues (GitHub API, as of 2026-10-26).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vitali87/code-graph-rag&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=vitali87/code-graph-rag&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=vitali87/code-graph-rag&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vitali87/code-graph-rag&type=date&legend=top-left" />
 </picture>
 
-PyPI shows version 0.3.2 released 2026-10-24 across 34 releases: 0.2.0 (2026-10-15) was the first release past the 0.1 line that carried all 27 of the preceding ones, ten point releases landed in the three days after it, the 0.2 line ran to 0.2.24 by 2026-10-23, and the 0.3 line opened the next day.
+PyPI shows version 0.3.13 released 2026-10-25 across 35 releases: 0.2.0 (2026-10-15) was the first release past the 0.1 line that carried all 27 of the preceding ones, ten point releases landed in the three days after it, the 0.2 line ran to 0.2.24 by 2026-10-23, and the 0.3 line opened the next day and reached 0.3.13 within two days.
 Two Show HNs (February and March 2026) drew 1 point each, so the star count ran far ahead of any independent technical debate, the same pattern Knowhere and open-codebase-index in this section show.
 
 ## Strengths
@@ -76,6 +76,7 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 - 2026-10-22 - Refreshed the repository activity (pushed 2026-10-22) and recorded the open-issue count falling from 590 to 543, with the Cautions line aligned; PyPI 0.2.10 remains latest.
 - 2026-10-24 - Recorded the PyPI train reaching 0.3.2 (2026-10-24, 34 releases total; the 0.2 line ran to 0.2.24 by 2026-10-23 before the 0.3 line opened) and refreshed the repository activity (pushed 2026-10-24, 538 open issues), with the Cautions churn line extended.
 - 2026-10-25 - Refreshed the repository activity (pushed 2026-10-25, 526 open issues); PyPI 0.3.2 remains latest.
+- 2026-10-26 - Fixed the star-history chart markup (the light source carried theme=dark), refreshed the repository activity (pushed 2026-10-26, 547 open issues), and recorded the PyPI train reaching 0.3.13 (2026-10-25, 35 releases total).
 
 ## See also
 
@@ -86,8 +87,8 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 
 ## References
 
-- https://api.github.com/repos/vitali87/code-graph-rag - 5,252 stars (as of 2026-10-14), 702 forks, MIT, created 2025-06-16, pushed 2026-10-25, 526 open issues (GitHub API, as of 2026-10-25)
+- https://api.github.com/repos/vitali87/code-graph-rag - 5,252 stars (as of 2026-10-14), 702 forks, MIT, created 2025-06-16, pushed 2026-10-26, 547 open issues (GitHub API, as of 2026-10-26)
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/README.md - the two-component architecture, compiler frontends, runtime tracing, language support, Memgraph storage
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/NEWS.md - the feature-news ledger behind the active-maintenance claim
-- https://pypi.org/pypi/code-graph-rag/json - version 0.3.2 (2026-10-24), 34 releases (still latest, re-verified 2026-10-25; the 0.2 line ended at 0.2.24, 2026-10-23)
+- https://pypi.org/pypi/code-graph-rag/json - version 0.3.13 (2026-10-25), 35 releases (re-verified 2026-10-26; the 0.2 line ended at 0.2.24, 2026-10-23)
 - https://hn.algolia.com/api/v1/search?query=Code-Graph-RAG%20knowledge%20graph&tags=story - the footprint scan: two Show HNs at 1 point each (2026-02 and 2026-03)

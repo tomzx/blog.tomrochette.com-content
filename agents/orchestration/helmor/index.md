@@ -1,7 +1,7 @@
 ---
 title: Helmor
 created: 2026-09-27
-updated: 2026-10-19
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, worktrees, local-first, desktop]
 readability: 3
@@ -70,6 +70,7 @@ Not for Linux users, and not for anyone who needs fleet-scale orchestration or a
 
 - 2026-09-27 - Created.
 - 2026-10-07 - Added the dohooo/helmor star history chart to the Status section.
+- 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repository, releases, site, Hysen Labs mirror, README); no claims changed.
 
 ## See also
 

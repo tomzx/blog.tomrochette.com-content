@@ -1,7 +1,7 @@
 ---
 title: hcom
 created: 2026-10-07
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, cli, messaging, multi-agent, terminals]
 readability: 3
@@ -26,7 +26,7 @@ v0.7.29 made relay settings read-only in `hcom config` (a breaking change, with 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aannoo/hcom&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=aannoo/hcom&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=aannoo/hcom&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=aannoo/hcom&type=date&legend=top-left" />
 </picture>
 
@@ -66,6 +66,7 @@ Not for teams that need audit trails, review gates, or anything that survives th
 - 2026-10-13 - Recorded v0.7.29 (2026-10-12, read-only relay settings with the `hcom relay` subcommands as the replacement, plus experimental native Claude message delivery) and refreshed the star count to 568.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 
 ## See also
 

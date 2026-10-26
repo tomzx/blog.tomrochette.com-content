@@ -1,7 +1,7 @@
 ---
 title: Agent Protocol (LangChain)
 created: 2026-10-07
-updated: 2026-10-22
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, agent-serving, rest-apis]
 readability: 3
@@ -26,7 +26,7 @@ MIT licensed, stewarded in the `langchain-ai` GitHub organization (repository cr
 ## Status
 
 **Active and implementation-backed, with a thin independent footprint.**
-The repository shows 687 stars and 65 forks (as of 2026-10-13) with a push on 2026-10-21; the spec stays at OpenAPI 0.1.6 (re-fetched 2026-10-22), all as of 2026-10-22 (GitHub API).
+The repository shows 687 stars (as of 2026-10-13) and 66 forks with a push on 2026-10-26; the spec stays at OpenAPI 0.1.6 (re-fetched 2026-10-26), all as of 2026-10-26 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/agent-protocol&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ My disagreeable claim: this lane matters more than the protocol-sprawl critics a
 - 2026-10-07 - Created from the 2026-10-07 entrant scan (the serving-API slot), with the single-company stewardship and the missing community footprint recorded as the central cautions.
 - 2026-10-20 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the OpenAPI document re-confirmed at 0.1.6 with the repository pushed 2026-10-20, the README framing and the LangGraph Platform superset claim unchanged, the footprint scan still finding no dedicated launch thread for this spec, and the streaming bindings' PyPI distribution recorded (`langchain-protocol` 0.0.19, uploaded 2026-08-26).
 - 2026-10-22 - The streaming bindings moved to `langchain-protocol` 0.0.20 (uploaded 2026-10-20), the first PyPI release since 0.0.19 (2026-08-26); the OpenAPI document re-confirmed at 0.1.6.
+- 2026-10-26 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the OpenAPI document re-confirmed at 0.1.6 with the repository pushed 2026-10-26, the streaming bindings stay at `langchain-protocol` 0.0.20, the footprint scan still finds no dedicated launch thread for this spec, and the LangGraph Platform pricing URL now redirects to langchain.com/pricing (reference updated).
 
 ## See also
 
@@ -88,7 +89,7 @@ My disagreeable claim: this lane matters more than the protocol-sprawl critics a
 - https://raw.githubusercontent.com/langchain-ai/agent-protocol/main/README.md - purpose, endpoint rationale, streaming spec, server stubs, implementations, and the LangGraph Platform superset claim
 - https://langchain-ai.github.io/agent-protocol/openapi.json - the OpenAPI document: title Agent Protocol, version 0.1.6, agents, threads, and runs endpoints as of 2026-10-17
 - https://langchain-ai.github.io/agent-protocol/api.html - the docs home the repository lists as its homepage
-- https://www.langchain.com/pricing-langgraph-platform - the commercial LangGraph Platform page (fetches 200; renders client-side), the superset implementation
+- https://www.langchain.com/pricing-langgraph-platform - the commercial LangGraph Platform page (now a 301 redirect to https://www.langchain.com/pricing, which renders client-side), the superset implementation
 - https://hn.algolia.com/api/v1/search?query=langchain%20agent%20protocol&hitsPerPage=6 - the footprint scan: no dedicated launch thread for the LangChain spec, found 2026-10-07, re-fetched 2026-10-20
 - https://hn.algolia.com/api/v1/search?query=%22agent%20protocol%22&tags=story - the name-collision record: Show HN Agent Protocol (2023-07-24) and related stories for the older agentprotocol.ai spec
 - https://pypi.org/pypi/langchain-protocol/json - the streaming bindings' PyPI distribution: 0.0.20 latest, uploaded 2026-10-20, as of 2026-10-22

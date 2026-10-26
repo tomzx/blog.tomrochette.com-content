@@ -3,11 +3,11 @@ category: protocols
 generated: 2026-10-26
 mapped_sources:
   - repo: punkpeye/awesome-mcp-servers
-    last_checked: 2026-10-25
+    last_checked: 2026-10-26
   - repo: punkpeye/awesome-mcp-clients
-    last_checked: 2026-10-25
+    last_checked: 2026-10-26
   - repo: insodimension/awesome-agent-protocols
-    last_checked: 2026-10-25
+    last_checked: 2026-10-26
 digest_lines:
   - "- 2026-09-16 (ruled 2026-08-22) | cross-category | vendor sibling products fold into the sibling note by default | gemini-cli/Antigravity set it; applied to oh-my-pi, Codex App, OpenCode Desktop, Warp Factories, LiteParse, cursor CLI and routines; oh-my-pi left the fold on its own bar clearance 2026-10-10"
   - "- 2026-10-07 | protocols | servers and utility layers are not protocols | IBM mcp-context-forge routed to control planes instead (admitted there 2026-10-11); agnix and rulesync rejected"

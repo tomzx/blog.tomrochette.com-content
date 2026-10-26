@@ -1,7 +1,7 @@
 ---
 title: Flowise
 created: 2026-09-29
-updated: 2026-10-07
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -25,7 +25,7 @@ The license was Apache 2.0 with the enterprise directory under a commercial lice
 Dead, archived by its maintainers.
 The README carries the banner "Flowise has been archived. Refer to Future of Flowise discussion 6727", and that discussion states the reason: developers increasingly rely on coding agents for complex tasks, and "the typical rigid workflow low-code approach quickly hits the limit when it comes to complexity" (GitHub API, 2026-08).
 The last release was flowise@3.1.4 on 2026-07-29 and the last push 2026-08-13; the HN thread "Flowise is shutting down" drew 58 points on 2026-08-05.
-npm still recorded 11,150 downloads in the month ending 2026-10-01, residual installs from a user base with nowhere to go.
+npm still recorded 10,271 downloads in the month ending 2026-10-26, residual installs from a user base with nowhere to go.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=FlowiseAI/Flowise&type=date&theme=dark&legend=top-left" />
@@ -66,6 +66,7 @@ Recommended only for existing self-hosters planning an exit to Dify or Sim, and 
 
 - 2026-09-29 - Created when the deferred framework-tier pile from the 2026-09-27 triage resolved.
 - 2026-10-07 - Added the FlowiseAI/Flowise star history chart to the Status section.
+- 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo still archived at the 2026-08-13 push, discussion 6727, shutdown thread at 58 points, Workday announcement, npm registry, downloads API); npm downloads refreshed to 10,271 in the month ending 2026-10-26.
 
 ## See also
 

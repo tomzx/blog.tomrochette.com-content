@@ -1,7 +1,7 @@
 ---
 title: MetaGPT
 created: 2026-09-27
-updated: 2026-10-07
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, software-engineering]
 readability: 3
@@ -73,6 +73,7 @@ My disagreeable claim: OpenManus, not MetaGPT, is the real continuation of this 
 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-10-07 - Added the FoundationAgents/MetaGPT star history chart to the Status section.
+- 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo, org repo list, releases still topping at v0.8.2 from 2025-03-09, docs, arXiv paper, MGX site, README, HN threads); no claims changed.
 
 ## See also
 

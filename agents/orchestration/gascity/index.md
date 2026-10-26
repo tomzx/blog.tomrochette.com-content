@@ -1,7 +1,7 @@
 ---
 title: Gas City
 created: 2026-10-12
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, sdk, multi-agent, formulas, worktrees]
 readability: 3
@@ -31,7 +31,7 @@ The release list corrected this run: stable semver releases do exist, v1.4.2 (20
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gastownhall/gascity&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=gastownhall/gascity&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=gastownhall/gascity&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gastownhall/gascity&type=date&legend=top-left" />
 </picture>
 
@@ -72,6 +72,7 @@ Not for teams that need a release line with months of seasoning, or anyone unwil
 
 - 2026-10-25 - Recorded v1.5.1 (2026-10-24) on the stable release line.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 
 ## See also
 

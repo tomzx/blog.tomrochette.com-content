@@ -3,7 +3,7 @@ category: orchestration
 generated: 2026-10-26
 mapped_sources:
   - repo: kaushikb11/awesome-llm-agents
-    last_checked: 2026-10-25
+    last_checked: 2026-10-26
 governing_questions:
   - id: q7
     summary: should any single-vendor agent-building SDK get an orchestration column

@@ -1,7 +1,7 @@
 ---
 title: YYLO
 created: 2026-10-21
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflows, git-worktrees, evidence]
 readability: 3
@@ -30,7 +30,7 @@ Alive, tiny, and version-young: 65 stars and 11 forks as of 2026-10-21, reposito
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=yylo-dev/yylo&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=yylo-dev/yylo&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=yylo-dev/yylo&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=yylo-dev/yylo&type=date&legend=top-left" />
 </picture>
 
@@ -74,6 +74,7 @@ Not for teams wanting a GUI, and not without tolerance for 0.2.x churn and exact
 - 2026-10-21 - Created.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 
 ## See also
 

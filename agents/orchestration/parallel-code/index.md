@@ -1,7 +1,7 @@
 ---
 title: Parallel Code
 created: 2026-10-23
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, worktrees, desktop, multi-harness, electron]
 readability: 3
@@ -24,11 +24,11 @@ Around that loop it piles on review aids: a built-in diff viewer with inline com
 
 ## Status
 
-Active and solo-led: 1,060 stars, 144 forks, 23 contributors, and 48 open issues and pull requests on a repository created 2026-02-18, pushed 2026-10-22, with v4.0.0 (2026-10-10) the latest release (GitHub API, as of 2026-10-23).
+Active and solo-led: 1,060 stars, 144 forks, 23 contributors, and 48 open issues and pull requests on a repository created 2026-02-18, pushed 2026-10-25, with v5.0.0 (2026-10-25) the latest release, the first after the v4 line's v4.0.0 (2026-10-10), carrying task briefs with confidence ratings replacing Steps, a per-project Markdown Kanban board over live tasks and GitHub issues, background verify with a single readiness line, and Android quick replies back behind a button (GitHub API, releases, as of 2026-10-26).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=johannesjo/parallel-code&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=johannesjo/parallel-code&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=johannesjo/parallel-code&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=johannesjo/parallel-code&type=date&legend=top-left" />
 </picture>
 
@@ -71,6 +71,8 @@ Not for Windows users, not for teams that need multi-maintainer durability, and 
 - 2026-10-23 - Created after the coordinator handoff flagged the unmatched repository, admitted on the worktree-CLI precedent (gwq, Worktrunk) with the worktree-per-task desktop kind.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Recorded the v5.0.0 major (2026-10-25), the first release after the v4 line, with task briefs replacing Steps and a per-project Markdown Kanban board.
+- 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 
 ## See also
 
@@ -84,7 +86,7 @@ Not for Windows users, not for teams that need multi-maintainer durability, and 
 
 - https://api.github.com/repos/johannesjo/parallel-code - repository, license, counts, and dates (as of 2026-10-23)
 - https://raw.githubusercontent.com/johannesjo/parallel-code/main/README.md - the harness list, worktree automation, tours, briefs, arena, and platform support
-- https://api.github.com/repos/johannesjo/parallel-code/releases - the release train through v4.0.0
+- https://api.github.com/repos/johannesjo/parallel-code/releases - the release train through v5.0.0
 - https://hn.algolia.com/api/v1/items/47115578 - the two-point, no-comment Show HN launch (2026-02-22)
 - https://api.github.com/repos/super-productivity/super-productivity - the author's Super Productivity app and its 23k-star audience
 - https://youtu.be/sLf0tsQA3pU - the intro video linked from the README

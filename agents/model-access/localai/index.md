@@ -1,7 +1,7 @@
 ---
 title: LocalAI
 created: 2026-10-10
-updated: 2026-10-24
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, self-hosted]
 readability: 3
@@ -14,14 +14,14 @@ LocalAI is a free, self-hosted inference server that puts locally served open mo
 
 ## What it is
 
-An MIT-licensed Go server created 2023-03-18 by Ettore Di Giacinto (mudler), originally under the go-skynet org and now at mudler/LocalAI (49,513 stars as of 2026-10-14, pushed 2026-10-24, as of 2026-10-24).
+An MIT-licensed Go server created 2023-03-18 by Ettore Di Giacinto (mudler), originally under the go-skynet org and now at mudler/LocalAI (49,513 stars as of 2026-10-14, pushed 2026-10-26, as of 2026-10-26).
 A small core pulls each engine in as a separate on-demand OCI backend image, wrapping llama.cpp, vLLM, SGLang, MLX, whisper.cpp, diffusers, and some sixty backends in total, so one install serves text, voice, vision, image, video, and 3D without becoming a giant download.
 The same endpoint carries API key auth, per-user quotas, and role-based access in the free core, plus built-in agents with tool use, MCP, and skills, a 1,255-model gallery, native decision routing behind a /v1/decisions adapter since v4.12.0, and a distributed mode that routes across machines with VRAM-aware placement and failover.
 The team also publishes its own native C/C++ engines (parakeet.cpp, vllm.cpp, moss-tts.cpp and more) and the APEX per-layer quantization recipes for mixture-of-experts models.
 
 ## Status
 
-Active and shipping monthly: v4.9.0 (2026-08-20), v4.10.0 (2026-09-17), v4.11.0 (2026-10-02), v4.12.0 (2026-10-22), and security-only patch v4.12.1 (2026-10-23), pushed 2026-10-24 (as of 2026-10-24).
+Active and shipping monthly: v4.9.0 (2026-08-20), v4.10.0 (2026-09-17), v4.11.0 (2026-10-02), v4.12.0 (2026-10-22), and security-only patch v4.12.1 (2026-10-23), pushed 2026-10-26 (as of 2026-10-26).
 v4.12.0 redesigned the web UI and added streaming voice responses, native decision routing, image upscaling, and persistent Qdrant stores; its release notes count top-level gallery entries at 1,896 while the site's own gallery counter still reads 1,255 (checked 2026-10-23).
 v4.12.1 hardens the external URL policy for user-supplied URLs against SSRF, validating redirect targets on every hop and treating non-public address ranges as blocked.
 
@@ -79,10 +79,10 @@ Not for a single developer who wants one command and a registry (Ollama's slot),
 
 ## References
 
-- https://api.github.com/repos/mudler/LocalAI - 49,453 stars, 4,491 forks, MIT, created 2023-03-18, pushed 2026-10-10, homepage localai.io (fetched via the GitHub API, 2026-10-10; re-fetched 2026-10-14 at 49,513 stars, pushed 2026-10-14; re-fetched 2026-10-18, pushed 2026-10-17; re-fetched 2026-10-19, pushed 2026-10-19, v4.11.0 still latest; re-fetched 2026-10-21, pushed 2026-10-21, v4.11.0 still latest; re-fetched 2026-10-23, pushed 2026-10-23, v4.12.0 latest; re-fetched 2026-10-24, pushed 2026-10-24, v4.12.1 latest).
+- https://api.github.com/repos/mudler/LocalAI - 49,453 stars, 4,491 forks, MIT, created 2023-03-18, pushed 2026-10-10, homepage localai.io (fetched via the GitHub API, 2026-10-10; re-fetched 2026-10-14 at 49,513 stars, pushed 2026-10-14; re-fetched 2026-10-18, pushed 2026-10-17; re-fetched 2026-10-19, pushed 2026-10-19, v4.11.0 still latest; re-fetched 2026-10-21, pushed 2026-10-21, v4.11.0 still latest; re-fetched 2026-10-23, pushed 2026-10-23, v4.12.0 latest; re-fetched 2026-10-24, pushed 2026-10-24, v4.12.1 latest; re-fetched 2026-10-26, pushed 2026-10-26, v4.12.1 still latest).
 - https://raw.githubusercontent.com/mudler/LocalAI/master/README.md - backend architecture, the 4.11.0 release news, the native engine list, MIT license, and team (fetched 200, 2026-10-10)
 - https://localai.io/ - the OpenAI, Anthropic, Ollama, and ElevenLabs compatibility claim, the 1,255-model gallery, APEX quantization tables with the perplexity trade, and the 252-contributor and Discord counts (fetched 200, 2026-10-10; re-fetched 2026-10-23 with the gallery counter still at 1,255 and the contributor count now 256).
-- https://api.github.com/repos/mudler/LocalAI/releases - v4.9.0 (2026-08-20), v4.10.0 (2026-09-17), v4.11.0 (2026-10-02), the monthly cadence (fetched 200, 2026-10-10; re-fetched 2026-10-23 reading v4.12.0 of 2026-10-22; re-fetched 2026-10-24 reading v4.12.1 of 2026-10-23).
+- https://api.github.com/repos/mudler/LocalAI/releases - v4.9.0 (2026-08-20), v4.10.0 (2026-09-17), v4.11.0 (2026-10-02), the monthly cadence (fetched 200, 2026-10-10; re-fetched 2026-10-23 reading v4.12.0 of 2026-10-22; re-fetched 2026-10-24 reading v4.12.1 of 2026-10-23; re-fetched 2026-10-26, nothing new past v4.12.1).
 - https://api.github.com/repos/mudler/LocalAI/releases/tags/v4.12.0 - the v4.12.0 release notes: web UI redesign, streaming voice, native decision routing, image upscaling, Qdrant stores, and the 1,660-to-1,896 top-level gallery-entry count (fetched 2026-10-23).
 - https://hn.algolia.com/api/v1/search?query=LocalAI&tags=story&hitsPerPage=8 - the HN footprint: concept essays dominate while the product itself barely appears (fetched 200, 2026-10-10)
 - https://hn.algolia.com/api/v1/search?query=localai&restrictSearchableAttributes=url&tags=story&hitsPerPage=6 - the project's own engine post at 134 points and 51 comments (July 2026), the largest direct HN presence found (fetched 200, 2026-10-10)

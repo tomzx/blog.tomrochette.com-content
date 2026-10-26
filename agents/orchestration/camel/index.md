@@ -1,7 +1,7 @@
 ---
 title: CAMEL
 created: 2026-10-07
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, research, role-playing]
 readability: 3
@@ -26,7 +26,7 @@ Active and researched: 17,885 stars, a push on 2026-10-12, and continuous PyPI r
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=camel-ai/camel&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=camel-ai/camel&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=camel-ai/camel&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=camel-ai/camel&type=date&legend=top-left" />
 </picture>
 
@@ -67,6 +67,7 @@ Not for engineers who need a session orchestrator around external coding CLIs; e
 - 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository, arXiv paper, site, docs, PyPI at 0.2.90, the GitHub blog top-10 post); no factual drift, push and PyPI line unchanged since 2026-10-12.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 
 ## See also
 

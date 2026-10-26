@@ -1,7 +1,7 @@
 ---
 title: Happy Coder
 created: 2026-09-06
-updated: 2026-10-18
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, mobile, claude-code, codex]
 readability: 3
@@ -22,7 +22,7 @@ The README describes the makers as a community of engineers building for themsel
 
 ## Status
 
-Active and second only to cmux among maintained session-multiplexing tools on stars: 24,151 GitHub stars as of 2026-10-15 (the Codex workflow layer oh-my-codex holds more, 33.5k, but it is a skills-and-workflows layer rather than a session multiplexer, and the orphaned Vibe Kanban repo holds about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-10-23 (GitHub API, as of 2026-10-23).
+Active and second only to cmux among maintained session-multiplexing tools on stars: 24,151 GitHub stars as of 2026-10-15 (the Codex workflow layer oh-my-codex holds more, 33.5k, but it is a skills-and-workflows layer rather than a session multiplexer, and the orphaned Vibe Kanban repo holds about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-10-26 (GitHub API, as of 2026-10-26).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=slopus/happy&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ Not for multi-provider orchestration, worktree isolation, or Windows and Linux d
 - 2026-09-22 - Recorded cli-1.2.5 reaching stable (September 22) and refreshed star and push counts.
 - 2026-10-02 - Qualified the star ranking (oh-my-codex, a Codex workflow layer rather than a session multiplexer, holds more stars) and refreshed star and push counts.
 - 2026-10-07 - Added the slopus/happy star history chart to the Status section.
+- 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo, releases, site, both HN threads, the Paseo alternatives page); the push date refreshed to 2026-10-26.
 
 ## See also
 

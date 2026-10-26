@@ -3,7 +3,7 @@ category: model-access
 generated: 2026-10-26
 mapped_sources:
   - repo: rafska/awesome-local-llm
-    last_checked: 2026-10-25
+    last_checked: 2026-10-26
 digest_lines:
   - "- 2026-09-26 | model-access | vendor consumer subscriptions that ship an agent are access products; editor-bundled access (Cursor, Copilot) stays in surfaces pending owner direction | claude-plans and chatgpt-plans admitted on the owner's reading"
   - "- 2026-09-26 | model-access | rejected by kind: consumer assistants without a coding-agent story, pay-per-token inference hosts, enterprise clouds, gray-market discount marketplaces | Poe, Perplexity, Together, Fireworks, Groq, DeepInfra, Bedrock, Vertex, Azure, codingplan.io-style resellers"

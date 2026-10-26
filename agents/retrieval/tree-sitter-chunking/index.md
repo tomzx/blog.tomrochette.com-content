@@ -1,7 +1,7 @@
 ---
 title: Tree-sitter code chunking
 created: 2026-08-24
-updated: 2026-10-20
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-retrieval, chunking, rag, llm=glm-5.3-flash]
 readability: 3
@@ -66,6 +66,7 @@ Continue's own guide, written by people who shipped this at scale, effectively a
 - 2026-09-26 - Corrected the Chonkie mention from "sells" to "ships", since the chunker is a free library feature and the hosted API it once sold is dead.
 - 2026-10-11 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-20 - Rotation re-verification re-fetched every cited URL live (tree-sitter's site, Aider's repo map and language docs, LlamaIndex's node-parser reference, Continue's custom code RAG guide, LangChain's code splitter reference, the Chonkie launch thread); all claims unchanged.
+- 2026-10-26 - Rotation re-verification re-fetched every cited URL live (all seven returned HTTP 200) and re-checked the two load-bearing claims (Continue's guide still ranks the AST strategy most exact but most complex and recommends starting dumber; LlamaIndex's node-parser reference still documents CodeSplitter and the Chonkie-wrapping Chunker); all claims unchanged.
 
 ## See also
 

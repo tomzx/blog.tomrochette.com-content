@@ -1,7 +1,7 @@
 ---
 title: GLM Coding Plan
 created: 2026-09-26
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, subscription, coding]
 readability: 3
@@ -86,10 +86,10 @@ Claim to disagree with: the rational entry is a single month of $18 Lite and nev
 
 ## References
 
-- https://docs.z.ai/devpack/overview - current credit allowances (2,000/12,000/28,000 per 5h), credit formula, off-peak 50% rule, "starting at 18 USD" (fetched, HTTP 200; re-fetched 2026-10-14 with allowances, multipliers, and the no-promotion state unchanged; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged).
-- https://docs.z.ai/devpack/notice/usage-revision - July 30, 2026 credits transition; legacy 15-30x value claim and per-plan prompt ceilings (fetched, HTTP 200; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged).
-- https://docs.z.ai/devpack/faq - non-refundable policy, supported-tools restriction, no balance deduction, quota reset cards (fetched, HTTP 200; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged).
-- https://cline.bot/blog/zai-cline-3-dollar-ai-coding - launch-era pricing: $6/$30 with $3/$15 first-month promos, 120/600 prompts per 5 hours (fetched, HTTP 200, Sep 18, 2025; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged).
-- https://hyscaler.com/insights/glm-coding-plan-review/ - June 2026 tiers at $18/$72/$160, 3x peak multiplier, competitive framing (fetched, HTTP 200; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged).
-- https://www.digitalapplied.com/blog/glm-coding-plan-worth-it-2026-value-analysis - critical analysis, Jul 3, 2026: multiplier math, non-refundability, China residency, long-horizon benchmark gap (fetched, HTTP 200; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged).
-- https://emergent.sh/learn/glm-5-3-pricing - August 2026 tiers at $18/$80/$168 with yearly equivalents; GLM-5.3 has no per-token API rate yet (fetched, HTTP 200; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged).
+- https://docs.z.ai/devpack/overview - current credit allowances (2,000/12,000/28,000 per 5h), credit formula, off-peak 50% rule, "starting at 18 USD" (fetched, HTTP 200; re-fetched 2026-10-14 with allowances, multipliers, and the no-promotion state unchanged; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the starting-at-$18 line, the 2,000/12,000/28,000 allowances, the 50% off-peak rule, and the 14:00 peak window confirmed).
+- https://docs.z.ai/devpack/notice/usage-revision - July 30, 2026 credits transition; legacy 15-30x value claim and per-plan prompt ceilings (fetched, HTTP 200; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 unchanged).
+- https://docs.z.ai/devpack/faq - non-refundable policy, supported-tools restriction, no balance deduction, quota reset cards (fetched, HTTP 200; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the non-refundable language confirmed).
+- https://cline.bot/blog/zai-cline-3-dollar-ai-coding - launch-era pricing: $6/$30 with $3/$15 first-month promos, 120/600 prompts per 5 hours (fetched, HTTP 200, Sep 18, 2025; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the $6/$30 launch figures present).
+- https://hyscaler.com/insights/glm-coding-plan-review/ - June 2026 tiers at $18/$72/$160, 3x peak multiplier, competitive framing (fetched, HTTP 200; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the $18/$72/$160 tiers and 3x multiplier present).
+- https://www.digitalapplied.com/blog/glm-coding-plan-worth-it-2026-value-analysis - critical analysis, Jul 3, 2026: multiplier math, non-refundability, China residency, long-horizon benchmark gap (fetched, HTTP 200; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the multiplier math and non-refundability sections present).
+- https://emergent.sh/learn/glm-5-3-pricing - August 2026 tiers at $18/$80/$168 with yearly equivalents; GLM-5.3 has no per-token API rate yet (fetched, HTTP 200; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the $18/$80/$168 tiers present).

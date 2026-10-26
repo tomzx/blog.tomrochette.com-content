@@ -1,7 +1,7 @@
 ---
 title: PIC Standard
 created: 2026-10-11
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, agent-security, verification, provenance, open-standard]
 readability: 3
@@ -34,7 +34,7 @@ Depth signals offset the reach signals: an independent public-material-only stre
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=pic-standard/pic-standard&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=pic-standard/pic-standard&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=pic-standard/pic-standard&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=pic-standard/pic-standard&type=date&legend=top-left" />
 </picture>
 
@@ -74,8 +74,8 @@ My disagreeable claim: this is the protocol layer agent security actually needs,
 - 2026-10-11 - Created after the control-planes resolution routed the protocol here, with the thin-footprint-versus-formal-discipline gap recorded as the critical angle.
 - 2026-10-16 - The v0.9.1 release (2026-10-14) landed after the last verification, so the maturity record moved from v0.9.0 to v0.9.1: structured `pic-cli verify --json` output, an optional MCP guard `on_allow` hook, and live-argument binding at the guard and bridge boundary (fail-closed via PIC_ARG_BINDING_MISMATCH), with the conformance corpus grown additively from 84 to 91 vectors and the wire format unchanged; the stale 67-star figure in Cautions was aligned to the recorded 69 baseline.
 - 2026-10-22 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the spec train re-confirmed at v0.9.1 with the RFC anchor, the frozen canonicalization spec, and the 91-vector corpus unchanged, PyPI still at 0.9.1 with 697 monthly downloads, and the footprint still the single 1-point Show HN; the repository refreshed (pushed 2026-10-21, 47 forks, 19 open issues).
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup (the light-theme source carried the dark-theme parameter; it now points at the default chart, matching the 2026-10-25 fallback fix).
 
 ## See also
 

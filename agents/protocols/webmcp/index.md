@@ -1,7 +1,7 @@
 ---
 title: WebMCP
 created: 2026-10-06
-updated: 2026-10-22
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, browser, w3c, agent-tools]
 readability: 3
@@ -25,7 +25,7 @@ Chrome ships it behind a public origin trial (Chrome 149 through 156) plus a loc
 ## Status
 
 **Active and past the flag stage, with one browser shipping and one agent consuming.**
-The repository shows 4,621 stars (2026-10-13), 133 open issues, and a push on 2026-10-21, as of 2026-10-22 (GitHub API).
+The repository shows 4,621 stars (2026-10-13), 136 open issues, and a push on 2026-10-21, as of 2026-10-26 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 - 2026-10-16 - The draft report moved to its 2026-10-15 revision (an inactive-document unregistration notification fix and re-registration handling during input serialization, both algorithm-level with no API surface change); open issues and the push date refreshed as of 2026-10-16, with the star figure left at its dated baseline.
 - 2026-10-17 - The draft report moved to its 2026-10-16 revision (an editorial commit syncing the explainer documents with the spec, no API surface change); open issues refreshed as of 2026-10-17.
 - 2026-10-22 - The draft report moved to its 2026-10-20 revision (a general agent-ecosystem-risks discussion section linking agent security guidance and a new editor, no API surface change); open issues and the push date refreshed as of 2026-10-22.
+- 2026-10-26 - Rotation re-verification: every cited URL re-fetched live with no dead sources (the commits page verified through the GitHub API after the HTML page rate-limited); the draft remains at its 2026-10-20 revision with no newer report and no commits behind it since 2026-10-20, and open issues refreshed to 136 as of 2026-10-26.
 
 ## See also
 

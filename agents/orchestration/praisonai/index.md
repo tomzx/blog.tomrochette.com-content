@@ -1,7 +1,7 @@
 ---
 title: PraisonAI
 created: 2026-10-07
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, low-code]
 readability: 3
@@ -25,7 +25,7 @@ Active and heavily maintained: 9,238 stars as of 2026-10-15, a push on 2026-10-2
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MervinPraison/PraisonAI&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MervinPraison/PraisonAI&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MervinPraison/PraisonAI&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MervinPraison/PraisonAI&type=date&legend=top-left" />
 </picture>
 
@@ -69,6 +69,7 @@ Not for security-sensitive deployments that need a vendor's incident track recor
 
 - 2026-10-25 - Recorded v4.7.17 (2026-10-23) on the release train and `praisonaiagents` at 1.7.15 on PyPI.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 
 ## See also
 

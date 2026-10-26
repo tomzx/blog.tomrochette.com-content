@@ -1,7 +1,7 @@
 ---
 title: Plano
 created: 2026-10-07
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted]
 readability: 3
@@ -28,7 +28,7 @@ Active and well resourced: 7,087 stars and 489 forks as of 2026-10-14, Apache-2.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=katanemo/plano&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=katanemo/plano&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=katanemo/plano&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=katanemo/plano&type=date&legend=top-left" />
 </picture>
 
@@ -71,8 +71,8 @@ My disagreeable claim: as a model-access product Plano is a side quest inside an
 - 2026-10-07 - Created when this run's awesome-list scan surfaced the renamed katanemo/plano gateway.
 - 2026-10-21 - Full re-verification: every cited URL re-fetched and every claim held; the acquisition citation moved from the Business Wire press release, which now blocks fetches, to DigitalOcean's own announcement post.
 - 2026-10-25 - Release train refresh: 0.4.38 and 0.4.39 published 2026-10-24, the first releases since 2026-09-28 (an Envoy v1.37.8 bump for CVE-2026-111497 plus agent-text extraction fixes), with the repo pushed 2026-10-24; stars stand at their 2026-10-14 verification.
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart's light-scheme source (it carried the dark-theme parameter; only the dark source may).
 
 ## See also
 

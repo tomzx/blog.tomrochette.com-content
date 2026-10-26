@@ -1,7 +1,7 @@
 ---
 title: Kimi Code
 created: 2026-09-26
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, moonshot-ai, pricing]
 readability: 3
@@ -105,7 +105,7 @@ I will claim something arguable: the ¥49 China-market ladder proves this produc
 - https://www.kimi.ai/help/membership/membership-pricing - dollar pricing $19/$39/$99/$199 monthly, $15/$31/$79/$159 annual, as of 2026-10-12, when the ladder read Plus/Pro/Max/Ultra with the musical tiers designated legacy (fetched, HTTP 200; re-fetched 2026-10-14 and 2026-10-21 unchanged; re-fetched 2026-10-25 with every price unchanged).
 - https://www.kimi.com/en/help/membership/membership-pricing - yen pricing ¥49/¥99/¥199/¥699/¥1,399 monthly and shared credit pool rules, as of 2026-10-21, when the ladder read Go/Plus/Pro/Max/Ultra at the four original monthly prices with annual billing added (fetched, HTTP 200; re-fetched 2026-10-14 at four tiers, the Ultra tier absent; re-fetched 2026-10-25 with every price unchanged).
 - https://platform.kimi.ai/docs/models - the model-list page: K3.1 Pro described as the first K3.1-series model, a 3T-class 1M-context multimodal flagship, plus the K2 retirement statement (from 2026-10-31 the K2 series closes to newly registered users, existing users unaffected, full retirement planned by end of December 2026) (fetched 2026-10-25).
-- https://platform.moonshot.ai/docs/pricing - the API platform price table: kimi-k3.1-pro $2/$10 per million tokens with cache reads $0.20 and a $4/$20 highspeed variant, kimi-k3 $3/$15, kimi-k2.7-code and kimi-k2.6 $0.95/$4, under a dismissible K3.1 Pro launch banner that carries the retire-all-K2 notice (fetched 2026-10-25).
+- https://platform.moonshot.ai/docs/pricing - the API platform price table: kimi-k3.1-pro $2/$10 per million tokens with cache reads $0.20 and a $4/$20 highspeed variant, kimi-k3 $3/$15, kimi-k2.7-code and kimi-k2.6 $0.95/$4, under a dismissible K3.1 Pro launch banner that carries the retire-all-K2 notice (fetched 2026-10-25; re-fetched 2026-10-26 with the table unchanged).
 - https://platform.moonshot.ai/docs/guide/kimi-k3-1-pro-quickstart - the K3.1 Pro quickstart: the open-weights commitment ("weights will be released by Nov 4") with the capability-release policy statement around it (fetched 2026-10-25).
 - https://www.digitalapplied.com/blog/kimi-code-k3-hands-on-setup-plans-cache-2026 - July 17, 2026 snapshot of listed vs promo prices and the separation banner.
 - https://aihackers.net/value/deals/kimi-haggle/ - documented February 2026 first-month offers of $0.99 to $11.99, marked historical.
