@@ -1,7 +1,7 @@
 ---
 title: PLUR
 created: 2026-10-14
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, mcp, local-first, open-source]
 readability: 3
@@ -29,7 +29,7 @@ Sync is git over your own remotes, with scope-filtered pushes (shared remotes ne
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=plur-ai/plur&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=plur-ai/plur&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=plur-ai/plur&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=plur-ai/plur&type=date&legend=top-left" />
 </picture>
 
@@ -67,11 +67,10 @@ Recommended for a developer running several coding agents on one machine who wan
 Not for multi-user products needing server-side per-user isolation, and not for anyone who requires independently verified benchmark numbers before adopting a dependency.
 
 ## Changes
-
 - 2026-10-14 - Created.
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched live (repository API, README, the engram spec, the benchmark page, plur-bench, npm), and recorded v0.22.0 (October 22) shipping the enterprise first-install command in a new @plur-ai/plur-enterprise package and v0.22.1 (October 22) fixing stale sign-in cleanup; npm in sync at 0.22.1, pricing still unpublished.
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 
 ## See also
 

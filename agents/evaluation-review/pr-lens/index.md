@@ -1,7 +1,7 @@
 ---
 title: PR Lens
 created: 2026-10-10
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, visualization, pull-requests]
 readability: 3
@@ -29,7 +29,7 @@ Reaching 1.9k stars in seven weeks is strong adoption for a review tool, though 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=coldteadotai/pr-lens&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=coldteadotai/pr-lens&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=coldteadotai/pr-lens&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=coldteadotai/pr-lens&type=date&legend=top-left" />
 </picture>
 
@@ -71,6 +71,7 @@ Not for defect detection from the open-source core (it renders, not judges), and
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched and live; recorded that the hosted GitHub App now posts model-authored review findings (risk-ranked bug and security flags with autofix prompts) alongside the diagrams, a capability the MIT Action, CLI, and skill do not carry, and refreshed the activity line.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

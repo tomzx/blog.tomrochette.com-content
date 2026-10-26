@@ -1,7 +1,7 @@
 ---
 title: Crit
 created: 2026-10-12
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -27,7 +27,7 @@ Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 202
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tomasz-tomczyk/crit&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tomasz-tomczyk/crit&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tomasz-tomczyk/crit&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tomasz-tomczyk/crit&type=date&legend=top-left" />
 </picture>
 
@@ -70,6 +70,7 @@ Not for terminal-only workflows (Hunk), not for CI gating (nothing here exits no
 - 2026-10-25 - Recorded the v0.23.1 release (2026-10-23) and refreshed the activity line, in rotation with every cited URL re-fetched and live.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

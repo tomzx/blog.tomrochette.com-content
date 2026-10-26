@@ -1,7 +1,7 @@
 ---
 title: tool-eval-bench
 created: 2026-10-08
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, tool-calling, benchmarking, structured-outputs, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The decision-model track (`--decision`) measures how accurate a `/v1/systemone` 
 
 ## Status
 
-Active, six months old, and steadily released: created 2026-04-17, v2.8.0 published 2026-10-10, the project's first release also on PyPI (v2.5.0 and v2.6.0 in August, v2.7.0 on 2026-09-21), pushed 2026-10-25 (a dependency bump since v2.8.0), with 390 stars and 53 forks as of 2026-10-15.
+Active, six months old, and steadily released: created 2026-04-17, v2.8.0 published 2026-10-10, the project's first release also on PyPI (v2.5.0 and v2.6.0 in August, v2.7.0 on 2026-09-21), pushed 2026-10-26 (TC-89 scenario fixes and dependency bumps since v2.8.0), with 390 stars and 53 forks as of 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=SeraphimSerapis/tool-eval-bench&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ The disagreeable claim I will defend: this category spent September learning to 
 - 2026-10-17 - Volatile re-verification after the 2026-10-13/14 pushes (no release since v2.8.0): recorded the optional `tool-eval-bench serve` web UI (performance presets, session ids, shareable results card, strict CSP).
 - 2026-10-24 - Volatile re-verification after the 2026-10-17 to 10-20 pushes (still no release since v2.8.0): recorded TandemLLM joining the recognized backend set (detected from its model owner or Server header, 2026-10-18) and the rate-limit and retry fixes (Retry-After honoring, queued-request rescheduling, query parameters preserved in endpoint URLs).
 - 2026-10-25 - Volatile re-verification after the 2026-10-25 push (a virtualenv dependency bump, no release since v2.8.0); pushed date moved to 2026-10-25, and the README's backend list re-read unchanged.
+- 2026-10-26 - Volatile re-verification after the 2026-10-25/26 pushes (still no release since v2.8.0): the TC-89 scenario now classifies payment claims by grammatical frame and no longer reads a pending payment as a payment claim, plain-mode lines print whole under `--parallel`, and the filelock (three lock advisories) and certifi (the compromised emSign roots) dependencies were bumped; pushed date moved to 2026-10-26.
 
 ## See also
 
@@ -85,7 +86,7 @@ The disagreeable claim I will defend: this category spent September learning to 
 
 ## References
 
-- https://github.com/SeraphimSerapis/tool-eval-bench - repository: MIT, created 2026-04-17, 390 stars, 53 forks, pushed 2026-10-25 (GitHub API, as of 2026-10-25)
+- https://github.com/SeraphimSerapis/tool-eval-bench - repository: MIT, created 2026-04-17, 390 stars, 53 forks, pushed 2026-10-26 (GitHub API, as of 2026-10-26)
 - https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/README.md - the 69-plus-28 scenario design, backend list including Strata, TabbyAPI, and TandemLLM, pass/partial/fail scoring, install paths, and the stated limitations (re-fetched 2026-10-25)
 - https://github.com/SeraphimSerapis/tool-eval-bench/releases/tag/v2.8.0 - the v2.8.0 release notes: the 97-scenario total, the decision-track additions, the new backends, the test and coverage gate, and the not-like-for-like warning (fetched 2026-10-10 via the releases API)
 - https://pypi.org/project/tool-eval-bench/ - the project's first PyPI publication, 2.8.0 (fetched 2026-10-10)

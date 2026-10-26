@@ -1,7 +1,7 @@
 ---
 title: File-based agent memory
 created: 2026-08-24
-updated: 2026-10-17
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, agent-memory, context-engineering]
 readability: 3
@@ -67,6 +67,7 @@ Reach for a memory service only for cross-user or cross-app memory; my disagreea
 - 2026-10-06 - Linked the new memU note in place of the plain-text memU mention and refreshed its star count (14.5k as of 2026-10-06); the AGENTS.md 60k adoption figure and the Claude Code auto-memory limits re-verified unchanged this run.
 - 2026-10-06 - Folded the liao.gg documentation-over-recall essay (373-point HN thread, grounded in aerovato/operator-memory) into Compared to and References as the public counterpart to this note's thesis.
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, no facts changed (agents.md still reports 60k projects, the Claude Code auto-memory limits and Cursor rules behavior unchanged, the essay thread steady at 392 points), and the Operator Memory mention in Compared to repointed at its new note.
+- 2026-10-26 - Rotation re-verification: every cited URL re-fetched live, no facts changed (agents.md still reports 60k open-source projects, the Claude Code auto-memory limits and 4 MiB skip unchanged, the essay thread steady at 392 points, the liao.gg essay fetched via the fetch tool again).
 
 ## See also
 

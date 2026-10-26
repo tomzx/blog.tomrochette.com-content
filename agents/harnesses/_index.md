@@ -18,7 +18,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Avante.nvim](avante-nvim/index.md) - the Apache-2.0 Neovim plugin running a Cursor-style agentic loop in the editor with bring-your-own providers, 18.2k stars and a 300-point launch thread behind it.
 - [Bullet](bullet/index.md) - TryBullet's closed-source YC S26 latency bet, free today, with a published 479-of-500 SWE-bench run.
 - [Claude Code](claude-code/index.md) - Anthropic's everywhere-at-once harness, the platform benchmark and the token-cost cautionary tale.
-- [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.5 million installs deep.
+- [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.7 million installs deep.
 - [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
 - [Command Code](command-code/index.md) - the ex-Langbase closed harness whose taste-1 model learns your conventions, credit plans from $1 a month built on open models.
 - [Copilot CLI](copilot-cli/index.md) - GitHub's proprietary terminal agent included in every Copilot plan, first-party GitHub.com reach, preview sandboxes, multi-model credits.

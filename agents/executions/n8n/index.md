@@ -1,7 +1,7 @@
 ---
 title: n8n
 created: 2026-08-24
-updated: 2026-10-24
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, executions, webhooks, workflow-automation]
 readability: 3
@@ -17,13 +17,13 @@ n8n is a fair-code workflow automation platform with native AI capabilities, whe
 ## What it is
 
 Workflows are directed graphs of nodes (1,500+ integrations per the README) that trigger on webhooks, schedules, chat messages, or app events, mixing JavaScript and Python code with visual steps.
-The agents feature (in preview) adds first-class agents with a model, instructions, tools, skills, memory, sub-agents, and channels (Slack, Telegram, Linear), runnable on schedules from hourly to custom cron.
+The agents feature (in preview) adds first-class agents with a model, instructions, tools, skills, memory, sub-agents, and channels (Slack, Telegram, Linear), runnable on schedules from hourly to custom cron, and sensitive tool calls can require human approval before they run.
 Deployment is self-hosted (free Community Edition) or n8n Cloud; the Webhook node exposes test and production URLs with basic, header, or JWT auth, IP allowlists, and streaming responses for AI agents.
 
 ## Status
 
 **Very active and heavily funded.**
-About 207.3k stars as of 2026-10-13 and 61.2k forks as of 2026-10-24 on GitHub, with 24,000+ commits.
+About 207.3k stars as of 2026-10-13 and 61.3k forks as of 2026-10-26 on GitHub, with 26,000+ commits.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=n8n-io/n8n&type=date&theme=dark&legend=top-left" />
@@ -50,7 +50,7 @@ Caveat on maturity: the agents layer is still in preview (self-hosted support ar
 
 ## Pricing
 
-Cloud plans bill per full workflow execution with unlimited users and steps: Starter at 20 EUR/month annually for 2,500 executions, Pro at 50 EUR for 10,000, Business at 667 EUR for 40,000, Enterprise by quote (as of 2026-10-20).
+Cloud plans bill per full workflow execution with unlimited users and steps: Starter at 20 EUR/month annually for 2,500 executions, Pro at 50 EUR for 10,000, Business at 667 EUR for 40,000, Enterprise by quote (as of 2026-10-26).
 Self-hosting the Community Edition is free; Business-and-up self-hosted licenses ping n8n's license server daily and count your executions.
 
 ## Price history
@@ -83,6 +83,7 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 - 2026-10-07 - Added the n8n-io/n8n star history chart to the Status section.
 - 2026-10-11 - Refreshed the repository counters (about 206.9k to about 207.0k stars, 61.0k to 61.1k forks) and re-confirmed the pricing tiers unchanged.
 - 2026-10-20 - Fully re-verified in rotation with every cited URL re-fetched: the agents preview claims (preview status, self-hosted from 2.32.3, knowledge bases preview-gated, the queue-mode gap), the webhook auth modes and fail-open conditional, the 1500+ integrations README figure, the fair-code Community license page, the Series C post, and both HN threads (728 and 235 points) all re-confirmed unchanged, and the pricing tiers re-verified unchanged (Starter 20 EUR, Pro 50, Business 667); the counters refreshed (61.2k forks as of 2026-10-20).
+- 2026-10-26 - Fully re-verified in rotation with every cited URL re-fetched: the agents docs (preview status, self-hosted from 2.32.3, knowledge-base sandbox gating, the queue-mode gap, hourly-to-cron schedules, one turn one execution) re-confirmed and their new per-tool human approval for agent tool calls recorded, the webhook auth modes and fail-open conditional, the fair-code Community license page, the Series C post, and both HN threads (728 and 235 points) all re-confirmed unchanged, and the pricing tiers re-verified unchanged (Starter 20 EUR, Pro 50, Business 667); the counters refreshed (61.3k forks, 26,000+ commits, as of 2026-10-26).
 
 ## See also
 
@@ -93,11 +94,11 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 
 ## References
 
-- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-10-13 (re-verified 2026-10-24)
-- https://docs.n8n.io/build/build-and-manage-agents.md - agents feature: channels, schedules, sub-agents, preview limits (re-fetched 2026-10-20)
-- https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/ - webhook trigger semantics, auth, fail-open conditional (re-fetched 2026-10-20)
-- https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-10-20 (tiers re-verified unchanged)
-- https://docs.n8n.io/n8n-community-license/community-license.md - license terms and the not-open-source statement (re-fetched 2026-10-20)
-- https://blog.n8n.io/series-c/ - $180M Series C, $2.5B valuation, October 2025 (re-fetched 2026-10-20)
-- https://news.ycombinator.com/item?id=21191676 - the 2019 launch thread (728 points, re-fetched 2026-10-20)
-- https://news.ycombinator.com/item?id=45525336 - the Series C announcement thread (235 points, re-fetched 2026-10-20)
+- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-10-13 (re-fetched 2026-10-26)
+- https://docs.n8n.io/build/build-and-manage-agents.md - agents feature: channels, schedules, sub-agents, preview limits, per-tool approval (re-fetched 2026-10-26)
+- https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/ - webhook trigger semantics, auth, fail-open conditional (re-fetched 2026-10-26)
+- https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-10-26 (tiers re-verified unchanged)
+- https://docs.n8n.io/n8n-community-license/community-license.md - license terms and the not-open-source statement (re-fetched 2026-10-26)
+- https://blog.n8n.io/series-c/ - $180M Series C, $2.5B valuation, October 2025 (re-fetched 2026-10-26)
+- https://news.ycombinator.com/item?id=21191676 - the 2019 launch thread (728 points, re-fetched 2026-10-26)
+- https://news.ycombinator.com/item?id=45525336 - the Series C announcement thread (235 points, re-fetched 2026-10-26)

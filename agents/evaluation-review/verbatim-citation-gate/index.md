@@ -1,7 +1,7 @@
 ---
 title: Verbatim Citation Gate
 created: 2026-10-10
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, citations, hallucination, guardrails, rag]
 readability: 3
@@ -31,7 +31,7 @@ A Hacker News search returns zero threads as of 2026-10-11, so the adoption sign
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tonydzi/verbatim-citation-gate&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tonydzi/verbatim-citation-gate&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tonydzi/verbatim-citation-gate&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tonydzi/verbatim-citation-gate&type=date&legend=top-left" />
 </picture>
 
@@ -72,6 +72,7 @@ Not for paraphrase-tolerant citation systems, and not as a battle-tested depende
 - 2026-10-25 - Recorded the v0.3.1 release (2026-10-24), which shipped the three gate fixes previously tracked as unreleased on main; the PyPI absence re-verified.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

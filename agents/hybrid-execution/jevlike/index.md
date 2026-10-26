@@ -1,7 +1,7 @@
 ---
 title: Jevlike
 created: 2026-09-21
-updated: 2026-10-22
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights]
 readability: 3
@@ -74,6 +74,7 @@ I would not route a real decision through this repo today, but I would make ever
 - 2026-10-07 - Added the vinnylarouge/jevlike star history chart to the Status section.
 - 2026-10-17 - Full re-verification: all five references re-fetched and live (repository still frozen at 2026-09-16, launch thread still 169 points); the CUA-S1 credit re-grounded in trycua/cua's THIRD_PARTY_NOTICES.md, which pins the adapted primitives to jevlike commit 94f5fd1.
 - 2026-10-22 - Rotation re-verification: all five references re-fetched and live, the repository still frozen at 2026-09-16 and the thread still 169 points; forks and open-issue counts refreshed.
+- 2026-10-26 - Rotation re-verification: all five references re-fetched and live, the repository still frozen at 2026-09-16 with forks (121) and open issues (8) unchanged, the thread still 169 points, and trycua/cua's THIRD_PARTY_NOTICES.md still crediting the adapted jevlike primitives; nothing material moved.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Cline
 created: 2026-08-24
-updated: 2026-10-18
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, byok]
 readability: 3
@@ -13,7 +13,7 @@ audience_notes: >
 
 Cline is an open-source (Apache-2.0) coding agent from Cline Bot Inc. that began as a VS Code extension and now ships a CLI, a JetBrains plugin, a web-based kanban board, and an SDK off one runtime.
 
-**Cline is proof that the IDE-extension generation grew up into a full harness: about 5.5 million installs on the strength of one extension, and the closest thing to a vendor-neutral default inside VS Code.**
+**Cline is proof that the IDE-extension generation grew up into a full harness: about 5.7 million installs on the strength of one extension, and the closest thing to a vendor-neutral default inside VS Code.**
 
 ## What it is
 
@@ -35,7 +35,7 @@ The repository shows about 70.3k stars and 7.7k forks as of 2026-10-15, with 250
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=cline/cline&type=date&legend=top-left" />
 </picture>
 
-The VS Code Marketplace page shows 5,657,214 installs as of 2026-10-18 and a 4.1/5 average rating as of 2026-09-22; the product site claims 11M+ installs across the marketplace and Open VSX.
+The VS Code Marketplace page shows 5,736,752 installs as of 2026-10-26 and a 4.1/5 average rating as of 2026-09-22; the product site claims 11M+ installs across the marketplace and Open VSX.
 The project started as the "Claude Dev" extension in late 2024 and has been renamed and corporatized since.
 v4.1.25 (October 16, 2026) began rolling out Cline Cloud sessions: a task runs in a hosted sandbox on a GitHub repo and branch you pick, shows up in Recent and History with its status, notifies you when it finishes, and keeps running after you close your editor ([release notes](https://github.com/cline/cline/releases), rolling out gradually).
 Beyond the open harness, the vendor now sells Cline Spec Driven, an enterprise agent platform built with LG CNS that runs a specialized-agent pipeline over a licensed, self-hostable deployment, listed on the product site as of 2026-10-06.
@@ -51,7 +51,7 @@ Beyond the open harness, the vendor now sells Cline Spec Driven, an enterprise a
 
 - **The JetBrains plugin is not open-sourced**, so "open source agent" is true of the core, not of every client.
 - Token consumption is the recurring community complaint; this [Ask HN thread on reducing Cline's token usage](https://news.ycombinator.com/item?id=48525711) captures the pattern.
-- The 11M+ install figure is the vendor's own; the marketplace verifiable number is 5.5M.
+- The 11M+ install figure is the vendor's own; the marketplace verifiable number is 5.7M.
 - ClinePass means a company now sells subscriptions on top; watch where the open core stops.
 
 ## Pricing
@@ -106,6 +106,6 @@ Not for teams that require every client binary open or a coding-agnostic automat
 - https://cline.bot/pricing - free core, usage billing, enterprise tiers
 - https://cline.bot/cline-pass - the open-weights subscription and its labs
 - https://docs.cline.bot/ - agent overview and configuration documentation
-- https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev - verifiable install count, 5,649,038 as of 2026-10-17, and ratings
+- https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev - verifiable install count, 5,736,752 as of 2026-10-26, and ratings
 - https://news.ycombinator.com/item?id=43360564 - early community thread on Cline as an autonomous VS Code agent
 - https://news.ycombinator.com/item?id=48525711 - Ask HN thread on reducing Cline's token usage

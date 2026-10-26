@@ -1,7 +1,7 @@
 ---
 title: Junie
 created: 2026-08-22
-updated: 2026-10-18
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, jetbrains, byok]
 readability: 3
@@ -49,13 +49,13 @@ The client is proprietary under JetBrains AI terms; the repo is distribution, no
 ## Cautions
 
 - **Community footprint is small**: launch-era HN threads drew dozens of points and near-zero discussion, which is itself a signal about mindshare versus Claude Code or OpenCode.
-- Cloud usage is metered in AI credits (10 per 30 days on AI Pro, 35 on AI Ultimate), so subscription-only users will exhaust quota quickly; BYOK is effectively required for cloud work, though the on-device Junie Local (August 2026, widened to NVIDIA RTX Spark and stable Windows in October 2026) now gives Mac and RTX users a free local path (an M5 Mac with 64 GB of RAM, or a 24 GB RTX card, per JetBrains).
+- Cloud usage is metered in AI credits (10 per 30 days on AI Pro, 35 on AI Ultimate), so subscription-only users will exhaust quota quickly; BYOK is effectively required for heavy cloud work, though the free Junie Lite tier (October 2026) now absorbs everyday runs and the on-device Junie Local (August 2026, widened to NVIDIA RTX Spark and stable Windows in October 2026) gives Mac and RTX users a free local path (an M5 Mac with 64 GB of RAM, or a 24 GB RTX card, per JetBrains).
 - Early IDE reviewers reported crashes, restarts, and fast quota burn.
 - Its benchmark claims (SWE-Rebench top performer, per the site) are the vendor's own.
 
 ## Pricing
 
-Free to start (5 AI credits, no card).
+Free to start: Junie Lite, a free model tier included with every JetBrains account (announced October 2, 2026), with virtually unlimited usage of a JetBrains-hosted model in JetBrains Air and the CLI ([announcement](https://junie.jetbrains.com/blog/junie-lite/)).
 JetBrains AI Pro $8.33 per user/month (annual) and AI Ultimate $25 per user/month include the credit allowances above.
 **BYOK bypasses metering at provider rates.**
 Junie Local is free: it runs inside Junie on an M5 Mac, an NVIDIA RTX Spark, or a Windows PC with a 24 GB RTX card, with the bundled model downloaded locally, no account or credits at all.
@@ -85,6 +85,7 @@ Not for anyone who needs an open client or a large community ecosystem today.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-07 - Added the JetBrains/junie star history chart to the Status section.
 - 2026-10-18 - Recorded Junie Local widening past the Mac: NVIDIA RTX Spark support from day one of that platform and Windows support stable on 24 GB RTX cards, with a Qwen3.6-27B or Qwen3.8-3.6-27B-blend model choice, and refreshed the home-page reference annotation and the Pricing section's Local line.
+- 2026-10-26 - Recorded Junie Lite (announced October 2, 2026) as the named free tier in the Pricing section, replacing the 5-credit free-start wording, with the AI Pro and AI Ultimate prices re-verified unchanged; every cited URL re-fetched in the rotation pass.
 
 ## See also
 
@@ -95,7 +96,8 @@ Not for anyone who needs an open client or a large community ecosystem today.
 
 ## References
 
-- https://junie.jetbrains.com/ - features and BYOK providers, re-fetched 2026-10-18 (the page now leads with the free-to-start Junie CLI and Junie Local framing; the plan prices were last confirmed on the page 2026-10-06)
+- https://junie.jetbrains.com/ - features and BYOK providers, re-fetched 2026-10-26 (the page now leads the free tier with Junie Lite and keeps the same plan prices; $8.33 and $25 were last confirmed on the page 2026-10-06)
+- https://junie.jetbrains.com/blog/junie-lite/ - the October 2, 2026 Junie Lite announcement: a free model tier in every JetBrains account, virtually unlimited, in Air and the CLI
 - https://blog.jetbrains.com/junie/2026/08/junie-local-launch/ - the Junie Local on-device launch, free with no credits
 - https://blog.jetbrains.com/junie/2026/10/junie-local-rtx-spark/ - the October 2026 widening: NVIDIA RTX Spark support and stable Windows on 24 GB RTX cards
 - https://github.com/JetBrains/junie - install channels, GitHub Action, license terms, 475 stars as of 2026-10-11

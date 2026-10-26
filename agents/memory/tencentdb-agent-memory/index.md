@@ -1,7 +1,7 @@
 ---
 title: TencentDB Agent Memory
 created: 2026-10-11
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, openclaw, hermes, open-source]
 readability: 3
@@ -30,7 +30,7 @@ Published by Tencent (the repository moved from the Tencent org to TencentCloud)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/TencentDB-Agent-Memory&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TencentCloud/TencentDB-Agent-Memory&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TencentCloud/TencentDB-Agent-Memory&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TencentCloud/TencentDB-Agent-Memory&type=date&legend=top-left" />
 </picture>
 
@@ -69,12 +69,11 @@ Not for teams needing a license file standard tooling recognizes, independence f
 My disagreeable claim: reversible compression, not recall quality, is the feature that will decide this category's winners, and this is the first member to build its whole architecture around it.
 
 ## Changes
-
 - 2026-10-11 - Created after the 2026-10-07 rejection's missing-license trigger fired (the repository now carries MIT terms under a Tencent notice), with six fetched sources and the self-run-benchmark-plus-Tencent-funnel profile recorded as the critical angle.
 - 2026-10-16 - Recorded the v2.0.3-beta.1 pre-release (October 13: a pluggable decision service, on-demand skill selection, and session trajectory recording, all default-off with unchanged behavior on old configs); refreshed stars to 29,264.
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched live, no facts changed (no release since the v2.0.3-beta.1 pre-release, the npm plugin still at 1.0.3, and the October 19-21 default-branch pushes are panel UI fixes and a README translation).
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 
 ## See also
 

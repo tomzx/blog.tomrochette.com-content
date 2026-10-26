@@ -1,7 +1,7 @@
 ---
 title: MemMachine
 created: 2026-10-11
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -28,7 +28,7 @@ The project was incubated inside MemVerge and is now described as community-driv
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MemMachine/MemMachine&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MemMachine/MemMachine&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MemMachine/MemMachine&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MemMachine/MemMachine&type=date&legend=top-left" />
 </picture>
 
@@ -69,11 +69,10 @@ Not for buyers who need published benchmarks, a visible commercial ladder, or a 
 My disagreeable claim: publishing zero numbers in a benchmark-obsessed category is either restraint or avoidance, and only time settles which.
 
 ## Changes
-
 - 2026-10-11 - Created from the 2026-10-11 Awesome-Agent-Memory entrant scan, with seven fetched sources and the no-benchmark-plus-logo-wall profile recorded as the critical angle.
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched live (repository API, README, docs, site, PyPI, Hacker News search), no facts changed; both PyPI distributions still 0.4.0, the thin-discussion record unchanged.
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 
 ## See also
 

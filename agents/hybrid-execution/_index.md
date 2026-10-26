@@ -31,7 +31,7 @@ Small fast models handling typed decisions beside the large model: constrained d
 - [Marvin](marvin/index.md) - Prefect's Apache-2.0 AI-functions toolkit, the validate-and-retry family's smallest API (extract, cast, classify, generate over Pydantic types) with a ControlFlow-derived task-agent-thread layer, twice rebuilt and quiet on releases since March 2026, 6.2k stars.
 - [NanoJev](nanojev/index.md) - the 0.6B game-task replica with the most complete pipeline and the least verification, every benchmark unreplicated.
 - [Nimble](nimble/index.md) - Bespoke Labs' one-day open Jev with the category's only human-labeled head-to-head (Jev wins by 1.2 macro points) and an unlicensed repo.
-- [Ollaya](ollaya/index.md) - the Apache-2.0 local runtime serving twenty-six open decision-model families behind a wire-identical Jev API, with parity checks against each author's own code.
+- [Ollaya](ollaya/index.md) - the Apache-2.0 local runtime serving twenty-nine open decision-model families behind a wire-identical Jev API, with parity checks against each author's own code.
 - [OpenAI Structured Outputs](openai-structured-outputs/index.md) - schema-guaranteed responses via constrained decoding.
 - [Outlines](outlines/index.md) - logit-masked generation following types, schemas, regexes, or grammars.
 - [SemIf](semif/index.md) - frozen open models reading typed option probabilities straight from the logits, with a client-side WebGPU demo, called OpenJev until 2026-09-18.

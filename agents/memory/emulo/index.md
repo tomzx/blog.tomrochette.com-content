@@ -1,7 +1,7 @@
 ---
 title: Emulo
 created: 2026-10-11
-updated: 2026-10-22
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-mining, personalization, mcp, open-source]
 readability: 3
@@ -74,6 +74,7 @@ My disagreeable claim: the 0-for-9 August result is the most trustworthy artifac
 
 - 2026-10-11 - Created after the session-analytics resolution routed the ohad6k/emulo candidate here as a memory candidate, with the 0-for-9 placebo result recorded as the governing fact.
 - 2026-10-22 - The placebo page now advertises a placebo-testing service for other AI features (free for the first three submissions, none bought as of 2026-10-22), beside the existing unpriced hand-edit offer.
+- 2026-10-26 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still last pushed 2026-10-12, PyPI still at 0.6.7, the HN search still surfacing only the unrelated Emulos product, the placebo page's free-for-three service unchanged).
 
 ## See also
 

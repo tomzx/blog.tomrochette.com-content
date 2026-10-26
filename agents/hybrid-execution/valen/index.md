@@ -1,7 +1,7 @@
 ---
 title: Valen
 created: 2026-10-13
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, decision-model, open-weights, multimodal]
 readability: 3
@@ -17,13 +17,14 @@ Valen is an Apache-2.0 open-weights multimodal decision model in the Jev family:
 ## What it is
 
 A training repository plus model family from an independent team, explicitly inspired by the Jev System One model lineage, with vision added: the models read screenshots, documents, and video frames, and emit decision probabilities for routing, gating, and classification calls.
-The Hugging Face org carries the three model cards, the training and evaluation datasets, and a live demo Space; ONNX and GGUF exports landed 2026-10-13, so the models run on modest local hardware and in runtimes beyond PyTorch, and a documentation site with a web chat and a free hosted decision API followed on 2026-10-21.
+The Hugging Face org carries the three model cards, the training and evaluation datasets, and a live demo Space; ONNX and GGUF exports landed 2026-10-13, a documentation site with a web chat and a free hosted decision API followed on 2026-10-21, and by 2026-10-25/26 the export story matured into refreshed modular ONNX variants per size with Python, JavaScript, and C++ SDKs over ONNX Runtime (CPU, CUDA, and a browser WebGPU path) plus qualified F32/Q8_0 GGUFs in all three sizes that run on Valen's own custom CPU runtime, with unmodified llama.cpp and Ollama support explicitly not claimed.
 The README reports results on VisualDecisionBench and a game-evaluation set, with the Jev lineage anchor (the typesafe.ai System One post) cited directly.
 
 ## Status
 
-Very young and actively shipping: 777 stars, 70 forks, and 1 open issue as of 2026-10-13, created 2026-09-23, pushed 2026-10-24, with the weights, datasets, demo, and export builds all public.
+Very young and actively shipping: 777 stars, 70 forks, and 1 open issue as of 2026-10-13, created 2026-09-23, pushed 2026-10-26, with the weights, datasets, demo, and export builds all public.
 On 2026-10-24 the serving story consolidated into dual inference protocols: the SGLang and vLLM images and plugins expose both `/v1/systemone` and `/v1/decisions` from the same decision head.
+On 2026-10-25 and 10-26 the local-deployment story broadened: refreshed modular ONNX variants for all three sizes with Python (v0.2.0), JavaScript, and C++ SDKs over ONNX Runtime, and qualified F32/Q8_0 GGUFs running on Valen's custom CPU runtime with pinned, verified model downloads, where unmodified llama.cpp and Ollama support is explicitly not claimed.
 On 2026-10-21 the project shipped a documentation site with a web chat and a free hosted decision API requiring no key (api.valen-team.workers.dev, predicate, choice, and score questions; higher quotas by email approval), and on 2026-10-18 it released JevalKit (github.com/Valen-Team/JevalKit, Apache-2.0), an evaluation toolkit for Jev-like decision models with a Hugging Face leaderboard Space.
 On 2026-10-22 the repository added a validated vLLM serving plugin and deployment guides (a pinned candidate container for GPU validation, vLLM image startup commands in both READMEs), extending the serving story beyond the ONNX and GGUF exports.
 On 2026-10-16 the repository added a public Decision Index adapter and reproduction guides: `evaluation/decision_index` wraps the official Decision Index reproduction kit (pinned to revision f5a6e4f, frozen suite 0.3, verified before any model loads), making Valen the first Jev-family member to ship a first-party adapter to that protocol; the board's 0.4.1 edition now carries three Valen rows, Valen-4B 131st at 37.57, Valen-2B 176th at 22.20, and Valen-0.8B 193rd at 16.55.
@@ -32,7 +33,7 @@ The 0-open-issue count reflects age, not maturity.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Liuziyu77/Valen&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Liuziyu77/Valen&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Liuziyu77/Valen&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Liuziyu77/Valen&type=date&legend=top-left" />
 </picture>
 
@@ -42,7 +43,7 @@ The 0-open-issue count reflects age, not maturity.
 - The first-party JevalKit toolkit and its leaderboard give the family a reusable measurement harness instead of one-off benchmark scripts.
 - Vision extends the Jev pattern to the cases that need it (screenshots, documents, video frames) at 0.8B to 4B scale.
 - The experimental RLCD stage beyond SFT is published rather than hidden, warts included.
-- Export builds (ONNX, GGUF) make deployment boring: the models run in standard runtimes on small hardware.
+- Export builds (ONNX, GGUF) make deployment boring at the small end: modular ONNX variants run through the Python, JavaScript, and C++ SDKs (CPU, CUDA, browser WebGPU), and the GGUFs run through the project's own CPU runtime, though the GGUF path is not stock llama.cpp.
 - The first-party Decision Index adapter means its scores on that board's protocol can be reproduced from the repository itself, not just asserted.
 - Apache-2.0 with no API dependency, so the decision layer cannot be revoked by a vendor.
 
@@ -78,6 +79,7 @@ Not for production routing without independent evaluation, or for anyone needing
 - 2026-10-24 - Volatile re-verification after the 2026-10-23/24 pushes: recorded the serving surface consolidating into dual inference protocols (`/v1/systemone` and `/v1/decisions` from the same decision head on the SGLang and vLLM images and plugins), the 2026-10-21 documentation site with web chat and a free no-key hosted decision API (the Pricing section rewritten, the "no hosted tier" statement retired), the 2026-10-18 JevalKit evaluation toolkit and leaderboard, and the 0.4.1 Decision Index board now carrying three Valen rows (4B 131st at 37.57, 2B 176th, 0.8B 193rd); pushed date moved to 2026-10-24.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Volatile re-verification after the 2026-10-25/26 pushes: recorded the refreshed modular ONNX variants per size with Python (v0.2.0), JavaScript, and C++ SDKs over ONNX Runtime (CPU, CUDA, browser WebGPU), and the qualified F32/Q8_0 GGUFs in all three sizes running on Valen's custom CPU runtime with pinned, verified downloads, where unmodified llama.cpp and Ollama support is explicitly not claimed; the export-build strength reworded; the star-history chart's light source corrected (it wrongly carried the dark-theme parameter); pushed date moved to 2026-10-26.
 
 ## See also
 
@@ -89,7 +91,7 @@ Not for production routing without independent evaluation, or for anyone needing
 
 ## References
 
-- https://github.com/Liuziyu77/Valen - repository, Apache-2.0 license, stars, push activity, and the training-and-eval structure as of 2026-10-24 (dual inference protocols the newest addition; README re-fetched 2026-10-24 with its news list)
+- https://github.com/Liuziyu77/Valen - repository, Apache-2.0 license, stars, push activity, and the training-and-eval structure as of 2026-10-26 (the modular ONNX SDKs and the qualified GGUF CPU runtime the newest additions; README re-fetched 2026-10-26 with its news list)
 - https://github.com/Valen-Team/JevalKit - the first-party evaluation toolkit: Apache-2.0, created 2026-10-16, unified model interfaces and prepared evaluation datasets (GitHub API, as of 2026-10-24)
 - https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard - the JevalKit leaderboard Space (fetched 2026-10-24)
 - https://valen-team.github.io/ - the documentation site and web chat, with the free-API and quota statements (fetched 2026-10-24)

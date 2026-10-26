@@ -1,7 +1,7 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
 readability: 3
@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-10-25, with v4.70.0 (2026-10-24) and v4.69.0 (2026-10-23) after the v4.67.0 and v4.68.0 run of 2026-10-21 and 2026-10-22, as of 2026-10-25.
+Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-10-26, with v4.70.0 (2026-10-24) and v4.69.0 (2026-10-23) after the v4.67.0 and v4.68.0 run of 2026-10-21 and 2026-10-22, as of 2026-10-26.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />

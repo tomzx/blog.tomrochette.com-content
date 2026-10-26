@@ -1,7 +1,7 @@
 ---
 title: deja
 created: 2026-10-10
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, transcripts, retrieval, mcp, open-source]
 readability: 3
@@ -29,7 +29,7 @@ Beyond search it adds `deja promote` (curated notes with accepted and rejected l
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&legend=top-left" />
 </picture>
 
@@ -71,14 +71,13 @@ The optional semantic sidecar bills your own embedding endpoint.
 Not for teams needing multi-user memory, audited third-party evaluation, or recall over harness stores deja cannot parse.
 
 ## Changes
-
 - 2026-10-10 - Created from the 2026-10-10 Awesome-Agent-Memory entrant scan, with seven fetched sources and the self-run-benchmark-plus-no-discussion-footprint combination recorded as the critical angle.
 - 2026-10-13 - Recorded the v0.22.1 release (session playback showing each edit's removed and added lines, `deja resume <id> --app` opening Codex sessions in the ChatGPT desktop app, session start cut to 0.38 seconds and the per-prompt hook to 0.59 seconds on a 19,000-session index, post-redaction secret masking, and the index-version-70 one-time rebuild), extending the October train to seven releases; refreshed stars to 1,183 and the push date to 2026-10-12.
 - 2026-10-18 - Recorded the v0.22.2 release (Windsurf and Devin Desktop's encrypted Cascade transcripts decrypted and indexed, `deja install windsurf` taking the wired-harness count from 41 to 42, and `deja delete` erasing a session from its agent and the index after asking); the harness count updated throughout, and the status line refreshed (pushed 2026-10-18, 74 open issues and PRs).
 - 2026-10-22 - Recorded the v0.23.0 release: incremental index updates (a 20-transcript update on a 40,000-session store cut from 24 seconds to 1.7, peak memory from 7 GB to under 1 GB), sub-agents as first-class sessions, and the closure of the seam where recalled history could run a command in opencode or end a dsh turn.
 - 2026-10-25 - Recorded the v0.23.1 release: MiniMax Code as the forty-third wired harness, project aliases under `~/.config/deja/projects`, `deja search --sort date`, the cold-build memory peak halved (4.7 GB versus 9.4 GB on 40,000 sessions), 17x cheaper redaction, and the quadratic look-alike-search fix; the harness count updated throughout, and the status push date refreshed to 2026-10-24.
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 
 ## See also
 

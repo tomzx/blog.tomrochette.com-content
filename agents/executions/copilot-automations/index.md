@@ -1,7 +1,7 @@
 ---
 title: GitHub Copilot automations
 created: 2026-08-24
-updated: 2026-10-20
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, executions, github-copilot, scheduling, llm=glm-5.3-flash]
 readability: 3
@@ -65,6 +65,7 @@ My disagreeable claim: creator-private automations are disqualifying for team ad
 - 2026-10-07 - Corrected the visibility caution against the current docs: automation definitions are invisible to administrators and teammates, but the sessions an automation starts are visible to everyone with repository access, so the governance blind spot covers the configuration, not the runs.
 - 2026-10-17 - Fully re-verified in rotation with all five sources re-fetched: the creator-private definition model with visible sessions, the write-access defaults, the public-preview rationale layer, the 59-minute cap, and the approvals caveat all re-confirmed unchanged.
 - 2026-10-20 - Repointed the four GitHub docs references to their current paths after a docs reorganization (the old paths now redirect); each new target re-fetched and its claim re-confirmed (59-minute cap, creator-private definitions, the approvals caveat, the automations risk section).
+- 2026-10-26 - Fully re-verified in rotation with every cited URL re-fetched: the private-or-internal-only availability, the write-access creation and untrusted-event defaults, the schedule and event trigger list with search and files-changed filters, the creator-private definitions with visible sessions, the public-preview rationale layer with the Cautious default, the verbatim approvals caveat, the 59-minute session cap, and the minutes-plus-AI-Credits billing to the creator all re-confirmed unchanged.
 
 ## See also
 

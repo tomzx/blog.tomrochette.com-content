@@ -1,7 +1,7 @@
 ---
 title: Memvid
 created: 2026-10-08
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, file-format, single-file, rust]
 readability: 3
@@ -29,7 +29,7 @@ The marketing site now sells an enterprise "knowledge layer" engagement around t
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=memvid/memvid&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=memvid/memvid&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=memvid/memvid&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=memvid/memvid&type=date&legend=top-left" />
 </picture>
 
@@ -70,12 +70,11 @@ The enterprise engagement is sold through demo calls with no published price, as
 Not for teams needing a maintained dependency today, multi-user memory, or any contradiction handling at all.
 
 ## Changes
-
 - 2026-10-08 - Created from the 2026-10-08 awesome-list entrant scan, with seven fetched sources; the v1-QR-to-v2-frames pivot and the self-published-benchmark caution recorded as the critical angles.
 - 2026-10-12 - Added the dispute record: the Awesome-Agent-Memory list's Archival section flags Memvid as disputed on a deleted GitHub critique, and the archived June 2025 issue #49 (fetched this run) measured the deprecated v1 mechanism opposite to its README claims; both recorded as the note's critical sources.
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched live (repository API, README, site, both Show HN threads, the archived critique, both registries), no facts changed; the registries stay frozen at 2.0.160 from May 27 and the push record stays at 2026-07-14, now over three months quiet.
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 
 ## See also
 

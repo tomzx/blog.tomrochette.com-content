@@ -1,7 +1,7 @@
 ---
 title: Hindsight
 created: 2026-10-07
-updated: 2026-10-24
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, benchmarks, open-source]
 readability: 3
@@ -31,7 +31,7 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&legend=top-left" />
 </picture>
 
@@ -79,13 +79,13 @@ Enterprise: custom, with BYO-cloud, on-premises, SSO and RBAC, and up to a 99.95
 Not for solo coding-agent use, where local files or claude-mem cost nothing, or for buyers who need independently audited benchmarks before signing.
 
 ## Changes
-
 - 2026-10-07 - Created from the 2026-10-07 awesome-list entrant scan, with nine fetched sources and the vendor-operated-benchmark caveat recorded as the critical angle.
 - 2026-10-09 - Recorded v0.10.3 (memory as a past record with team-added guidance, a TRAE CN harness adapter, Codex content filtering, and 429 backoff during deepening) with PyPI and npm in sync at 0.10.3; refreshed stars to 47,452 and downloads to 195,348.
 - 2026-10-11 - The pricing page no longer lists the $5 signup credit (the free start remains); refreshed stars to 48,166 and downloads to 215,770, and re-verified the three-tier ladder unchanged.
 - 2026-10-12 - The pricing page published its first per-operation rates (retain $10.00/1M tokens, recall $0.75/1M, reflect $0.05/call, storage $0.25/1M per month past 30 days, plus extraction and mental-model rates), replacing the token-billing-only description (Price history row); refreshed stars to 48,555.
 - 2026-10-16 - Recorded the v1.0.0 release (October 13, the first stable major) with PyPI and npm in sync at 1.0.0; refreshed stars to 50,146 and trailing-month npm client downloads to 218,746.
 - 2026-10-24 - Recorded v1.1.0 (October 21): server-side LLM and credential selection per call, Cloudflare Clef and OpenAI Decisions API as decision-model providers, decision-model-ranked recall, and webhook event delivery ids; PyPI and npm re-verified in sync at 1.1.0, trailing-month npm client downloads refreshed to 199,868.
+- 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 
 ## See also
 

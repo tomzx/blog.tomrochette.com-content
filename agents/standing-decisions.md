@@ -71,6 +71,9 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-23 | task-management | ccpm admitted as the category's forge-native kind | coordinator handoff resolved; MIT skill running PRDs onto GitHub Issues with worktree parallelism, 8,414 stars, a 175-point Show HN thread, and independent critical coverage clear the citation bar
 - 2026-10-23 | trackers-and-leaderboards | the category keeps no dedicated awesome-list source; the broad sources suffice | the two candidates found 2026-10-23 fail the bar, BenchGecko/awesome-llm-benchmarks stale since creation 2026-03-27, leoncuhk/awesome-llm-bench a daily mirror of member BenchLM
 - 2026-10-23 | cross-category | the andyrewlee 2026-10-22 additions resolve on standing families | Delegatus on the thin-record tail, deepseek-harness-action as wrapper tooling on an unprofiled subject, Harness by Autonomous routed to orchestration on the standalone-ADE precedent (admission resolved by the next run)
+- 2026-10-26 | cross-category | star-history chart markup: only the dark source in a picture block carries theme=dark, never the light source or the img fallback | coordinator handoff; the 2026-10-25 pass fixed the img fallbacks but left light sources carrying theme=dark across five categories, all fixed 2026-10-26
+- 2026-10-26 | cross-category | a subject board's page drifting under an unchanged revision number counts as a signal and re-verifies board-citing notes out of rotation | the jev rotation re-fetch found JevBench v1.7.48 grown from 220 to 227 ranked open-weights and 47 to 48 API rows since the 10-25 fetch
+- 2026-10-26 | cross-category | Hugging Face download counts are rolling-window figures that swing both ways, so rotation refreshes them with a fresh as-of date and reads no trend into a swing | decider-2b read 334,268 on 10-18 and 164,599 on 10-26 with no release in between
 
 ## Standing family rejections
 

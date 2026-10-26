@@ -1,7 +1,7 @@
 ---
 title: agentmemory
 created: 2026-10-09
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, mcp, open-source]
 readability: 3
@@ -17,15 +17,15 @@ agentmemory is an Apache-2.0 persistent memory server for AI coding agents: hook
 
 ## What it is
 
-A Node CLI (`npx -y @agentmemory/agentmemory@latest`) from Rohit Ghumare (rohitg00), built on a pinned iii engine (v0.22.1) with a file-backed state store by default and an optional plain-Redis backend.
+A Node CLI (`npx -y @agentmemory/agentmemory@latest`) from Rohit Ghumare (rohitg00), built on a pinned iii engine (v0.25.0 on main with an upgrade guide, shipping from v0.22.1 with the pending v0.9.31) with a file-backed state store by default and an optional plain-Redis backend.
 Keyless mode runs BM25 recall only; local embeddings (all-MiniLM-L6-v2, downloaded once) add semantic search without an API key, and any OpenAI-compatible endpoint enables LLM-written observation compression behind an explicit opt-in flag.
-The surface is wide: 54 MCP tools, 12 Claude Code hooks, native plugins for Claude Code, Codex CLI, Cursor, OpenClaw, Hermes, pi, and Oh My Pi, MCP or REST wiring for roughly 20 more agents (Copilot CLI, Gemini CLI, Antigravity, Devin, Zed, Cline, Droid, and others), 17 installable skills, and Python, Rust, and Node programmatic access.
+The surface is wide: 54 MCP tools, 12 Claude Code hooks, native plugins for Claude Code, Codex CLI, Cursor, OpenClaw, Hermes, pi, Oh My Pi, and DeepSeek Harness (a bundled native capture plugin on main, `connect dsh --with-hooks`), MCP or REST wiring for roughly 20 more agents (Copilot CLI, Gemini CLI, Antigravity, Devin, Zed, Cline, Droid, and others), 17 installable skills, and Python, Rust, and Node programmatic access.
 The design doc extends Karpathy's LLM-wiki pattern with confidence scores, lifecycle states, and a knowledge graph, and a companion gist carrying 1.6k stars is the project's founding artifact.
 
 ## Status
 
 **Large and active, with adoption that outruns its discussion footprint.**
-29,558 stars, 2,607 forks, and 572 open issues and pull requests as of 2026-10-20 (GitHub API), created 2026-02-25, pushed 2026-10-25, as of 2026-10-25 (GitHub API).
+29,558 stars, 2,607 forks, and 572 open issues and pull requests as of 2026-10-20 (GitHub API), created 2026-02-25, pushed 2026-10-26, as of 2026-10-26 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ The design doc extends Karpathy's LLM-wiki pattern with confidence scores, lifec
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.9.30 (2026-10-06) with npm in sync at 0.9.30, and 35,160 trailing-month npm downloads (2026-09-17 to 2026-10-16).
+Latest release v0.9.30 (2026-10-06) with npm in sync at 0.9.30, and 35,114 trailing-month npm downloads (2026-09-23 to 2026-10-22), as of 2026-10-26; v0.9.31 is in preparation on main with the engine pin moved to iii v0.25.0 and the DeepSeek Harness native capture bundle.
 The release train runs roughly monthly (v0.9.27 in June, v0.9.28 in July, v0.9.29 in August, v0.9.30 in October).
 I found no dedicated Hacker News thread through 2026-10-09 searches, so the stars came through awesome-list placement and agent registries rather than public debate, the same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and memU.
 
@@ -72,6 +72,7 @@ Not for single-harness users (claude-mem is simpler and battle-tested), privacy-
 - 2026-10-09 - Created from the 2026-10-09 awesome-list entrant scan, with eight fetched sources and the self-run-benchmark-plus-pinned-engine combination recorded as the critical angle.
 - 2026-10-19 - The Agent Memory Leaderboard reference fetches again (unreachable at the 2026-10-11 check; Cycle 2 underway), and the trailing-month npm downloads refreshed to 35,160.
 - 2026-10-25 - The native plugin surface grew to Oh My Pi (`agentmemory connect omp` installs native recall and capture, offline replay, and the 17 skills), and the README headline now lists it beside pi; the push date refreshed to 2026-10-25.
+- 2026-10-26 - The engine pin moved to iii v0.25.0 on main (upgrade guide published, shipping with the pending v0.9.31), DeepSeek Harness gained a bundled native capture plugin (`connect dsh --with-hooks`), and trailing-month npm downloads refreshed to 35,114 with npm in sync at 0.9.30.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Screenpipe
 created: 2026-10-08
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, screen-capture, timeline, mcp, source-available]
 readability: 3
@@ -30,7 +30,7 @@ Pipes are scheduled AI agents defined as markdown files, with YAML frontmatter p
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=screenpipe/screenpipe&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=screenpipe/screenpipe&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=screenpipe/screenpipe&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=screenpipe/screenpipe&type=date&legend=top-left" />
 </picture>
 
@@ -78,7 +78,6 @@ Source builds follow the commercial license: personal, non-profit, and education
 Not for privacy-strict environments, commercial use without a license budget, or anyone who expected an OSI open-source license at this star count.
 
 ## Changes
-
 - 2026-10-08 - Created from the 2026-10-08 awesome-list entrant scan, with eight fetched sources and the source-available-license-plus-capture-everything combination recorded as the critical angle.
 - 2026-10-09 - Corrected the Status rank claim: at 21,884 stars Screenpipe ranks eleventh of the twenty-two members, not the category's second-largest repository; refreshed stars and the as-of dates.
 - 2026-10-11 - Recomputed the rank on the each-member's-own-repository basis (Zep's Graphiti engine no longer carries Zep's rank): tenth of the twenty-three members at 21,903 stars; pricing page re-fetched with all four plan prices unchanged.
@@ -86,8 +85,8 @@ Not for privacy-strict environments, commercial use without a license budget, or
 - 2026-10-11 - Emulo joined as the twenty-seventh member, moving the rank denominator only (Emulo's 294 stars rank below screenpipe).
 - 2026-10-16 - Corrected the rank denominator to twenty-eight after PLUR's 2026-10-14 admission (PLUR's 304 stars rank below screenpipe, so the position holds), and refreshed stars to 21,954.
 - 2026-10-18 - Dropped the positional star rank entirely: the denominator went stale again at the category's thirty-two members (OKF Agent Memory and Operator Memory joined 2026-10-17), and the repeated rank-correction rounds showed the claim costs more maintenance than its one line of value; the substance (21.9k stars, YC-backed, strong HN record) is unchanged.
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 
 ## See also
 

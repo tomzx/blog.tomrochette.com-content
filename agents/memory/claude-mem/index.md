@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -32,7 +32,7 @@ Very large and fast: about 101.1k stars as of 2026-10-16, with 63,865 npm downlo
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-31, pushed 2026-10-25, latest tagged release v15.1.0 on 2026-10-25 with npm in sync at 15.1.0 as of 2026-10-25.
+Created 2025-08-31, pushed 2026-10-25, latest tagged release v15.2.1 on 2026-10-25 with npm in sync at 15.2.1 as of 2026-10-26.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.
@@ -43,6 +43,7 @@ The 2026-10-13-to-17 train continued at the same clip: v13.38.0 stopped the Wind
 The same day closed the v13 line: v14.0.0 shipped My Work, a free local dashboard that lists the requests you gave your agents as cards with plain-language summaries, live statuses, and a human review step so an agent's "done" is never mistaken for a person's confirmation, and it moved TeamBrain from design-partner pilot to self-serve at $50 per seat per month; v14.0.1 followed within the hour, while cmem.ai/pricing still described TeamBrain as an unpriced pilot when fetched 2026-10-18.
 v15.0.0 (2026-10-20) opened the next line by making Smart memory search the default recall path, a three-step flow where the agent searches the compact index, inspects context around relevant results, and fetches only selected details, reasoning between the steps, with the old one-call lookup demoted to an explicit `dumb_search`; v15.0.1 the same day fixed project-scope consistency so observations found through a merged project alias stay reachable across the flow's steps, and v15.0.2 (2026-10-23) disabled reasoning on observer model calls so reasoning tokens stop consuming the output budget.
 v15.1.0 (2026-10-25) rebuilt the My Work dashboard as a React viewer on live worker data that is always live, moved per-prompt semantic injection into server mode, added an opt-in loopback HTTP MCP transport with per-session workspaces, and broadened secret redaction to lowercase-named AWS secret keys, PGP private key blocks, and encrypted PKCS#8 keys.
+Later the same day, v15.2.0 gave fresh installs a browser setup funnel that reads the last 30 days of supported local agent history, filters and redacts it, and uploads the filtered owner prompts to CMEM Cloud for hosted intent extraction before setup finishes, with anonymous installs getting a private installation credential; v15.2.1 (2026-10-25) changed no runtime behavior and only moved npm publishing to OIDC trusted publishing with provenance attestations, fixing a publish path that had failed on every tag since v13.26.1.
 
 ## Strengths
 
@@ -55,6 +56,7 @@ v15.1.0 (2026-10-25) rebuilt the My Work dashboard as a React viewer on live wor
 
 - Compression runs an LLM call on every tool observation, often 100+ times per session, billed to your own quota; a competing memory author publicly calls the capture-everything family noisy and token-expensive.
 - The cloud tier's own docs warn that enabling sync uploads observation narratives and full prompt text to your cmem.ai account.
+- The v15.2.0 browser setup funnel makes that upload the default first-run path for fresh installs: the last 30 days of owner prompts leave the machine for CMEM Cloud's hosted extraction during setup, filtered and redacted by the configured rules but still an outbound default (release notes, 2026-10-25).
 - Operational surface is real: a background worker on a local port, optional Bun, Python, and Chroma dependencies, and a documented `npm install -g` footgun that installs the SDK without hooks.
 - The README's association with a third-party CMEM crypto token is a credibility smell some buyers will not overlook.
 
@@ -108,6 +110,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-10-22 - Recorded the v15.0.0 release (Smart memory search now the default recall path: three-step index search, context inspection, and selective fetch with the agent reasoning between steps, and the old one-call lookup demoted to `dumb_search`) and the v15.0.1 project-scope consistency fix; npm re-verified in sync at 15.0.1.
 - 2026-10-24 - Recorded v15.0.2 (October 23): observer model calls now disable reasoning by default so reasoning tokens stop consuming the output budget, with a logged single retry on empty length-capped replies; npm re-verified in sync at 15.0.2.
 - 2026-10-25 - Recorded v15.1.0 (the React My Work viewer on live worker data that is always live, per-prompt semantic injection in server mode, an opt-in loopback HTTP MCP transport with per-session workspaces, and broader secret redaction) with npm in sync at 15.1.0; trailing-month npm downloads refreshed to 63,865 (2026-09-23 to 2026-10-22).
+- 2026-10-26 - Recorded the same-day v15.2.0 and v15.2.1 releases: the browser install funnel that scans 30 days of local agent history and uploads filtered owner prompts to CMEM Cloud for hosted intent extraction as the default fresh-install path (new caution), and the npm OIDC trusted-publishing fix that repairs a publish path broken since v13.26.1; npm re-verified in sync at 15.2.1.
 
 ## See also
 
@@ -125,5 +128,6 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - https://claude-mem.ai - pricing tiers and adoption stats (now redirects to cmem.ai)
 - https://cmem.ai/pricing - the restructured CMEM ladder ($30/$70/$100); TeamBrain still described as an unpriced design-partner pilot with public pricing unannounced at the 2026-10-24 re-fetch
 - https://github.com/thedotmack/claude-mem/releases/tag/v14.0.0 - the My Work dashboard announcement and the TeamBrain self-serve $50/seat/month pricing (2026-10-17)
+- https://github.com/thedotmack/claude-mem/releases/tag/v15.2.0 - the browser install funnel: the 30-day history scan and the default owner-prompt upload to CMEM Cloud (2026-10-25)
 - https://api.npmjs.org/downloads/point/last-month/claude-mem - the 75,274 monthly downloads (2026-09-11 to 2026-10-10) as of 2026-10-12
 - https://news.ycombinator.com/item?id=47422611 - the critical take from a competing memory author on the capture-everything approach

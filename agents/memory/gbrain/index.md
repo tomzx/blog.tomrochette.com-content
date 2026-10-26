@@ -1,7 +1,7 @@
 ---
 title: GBrain
 created: 2026-10-07
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, provenance, mcp, personal-knowledge]
 readability: 3
@@ -29,11 +29,11 @@ A shared-brain skill catalog lets approved editors publish memory skills beside 
 **Active, single-author-plus-contributors, and unusually eval-disciplined for a personal project.**
 30,910 stars as of 2026-10-16 (GitHub API), with the repository pushed 2026-10-20, created 2026-04-05, MIT, as of 2026-10-20 (GitHub API), with five or more contributors and a companion garrytan/gbrain-evals repository (439 stars as of 2026-10-16, pushed 2026-10-20) holding dated benchmark reports.
 The README now fronts a hosted service, gbrain.io, a YC-backed team workspace ("Built by Garry Tan") that sells the same brain as a subscription, so the deployment model is no longer self-host-only.
-The release train has continued past the September refresh to v0.60.444.0 (2026-10-25, six releases that day), whose notes cover repair-flow tooling (repair and doctor steps now print one `gbrain git commit-push` command instead of bare git adds) rather than retrieval behavior.
+The release train has continued past the September refresh to v0.60.463.0 (2026-10-26), whose headline is a security fix: a migration (v275) backfills row-level security onto every Postgres table still without it, after the four incremental-derivation tables added in v273 and some older tables could be left RLS-off, which on Supabase with the Data API on made them reachable with the anon key; v0.60.462.0 the same day fixed a fact-extraction write race that silently dropped facts when two notes saved close together named the same entity page.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=garrytan/gbrain&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=garrytan/gbrain&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=garrytan/gbrain&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=garrytan/gbrain&type=date&legend=top-left" />
 </picture>
 
@@ -51,7 +51,7 @@ The Hacker News record is modest: a 9-point memex launch thread (April 2026), a 
 ## Cautions
 
 - **Keyless does not mean private**: recalled memory reaches the harness model even in keyless mode, and configured cloud embedding, reranking, extraction, and synthesis providers receive text, so the trust boundary is your provider list, not the daemon.
-- The authorization model is explicit that its tests exercise specific access paths, not a universal no-leak guarantee, and local files plus shared database credentials are a different trust boundary.
+- The authorization model is explicit that its tests exercise specific access paths, not a universal no-leak guarantee, and local files plus shared database credentials are a different trust boundary; the v0.60.463.0 RLS backfill (2026-10-26) is the record of a concrete gap in that model, four derivation tables left unprotected on migrations-only upgrades until the fix.
 - The benchmark numbers are self-published and self-judged (the verification record itself notes the answer judgments do not support independent re-judging), and the deployment evidence is one famous user's own brain.
 - Markdown export is not a full database backup, and a founder-driven project this personal carries bus-factor and scope risk no corporate vendor has.
 
@@ -78,13 +78,13 @@ The hosted service, gbrain.io, sells two plans as of 2026-10-20: Personal $49/mo
 Not for teams needing supported infrastructure, contractual isolation, or a multi-user hosted service.
 
 ## Changes
-
 - 2026-10-07 - Created from the 2026-10-07 awesome-list entrant scan, with seven fetched sources and the self-published-benchmark-plus-single-famous-user profile recorded as the critical angle.
 - 2026-10-20 - Recorded the hosted gbrain.io service the README now fronts (Personal $49/mo, Teams $199/mo, new Price history baseline) and the release train's continuation to v0.60.322.0.
 - 2026-10-24 - Recorded the release train's continuation to v0.60.422.0 (October 24, tightened Postgres crash-robot CI ceilings, no memory behavior change).
 - 2026-10-25 - Recorded the release train's continuation to v0.60.444.0 (six October 25 releases, repair steps now printing one commit-push command; still no retrieval behavior change).
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
+- 2026-10-26 - Recorded the train's continuation to v0.60.463.0: the v275 migration backfills row-level security onto every Postgres table, closing the RLS-off exposure the four v273 derivation tables carried on migrations-only upgrades (Supabase anon-key reachability), plus the v0.60.462.0 fact-extraction write-race fix; the authorization caution gains the gap's record.
 
 ## See also
 
@@ -104,3 +104,4 @@ Not for teams needing supported infrastructure, contractual isolation, or a mult
 - https://hn.algolia.com/api/v1/items/48514124 - the 23-point third-party visualization-skill thread (2026-06-13), the largest community record
 - https://gbrain.io/?ref=readme - the hosted service's landing page: team workspaces, YC backing, and the plain-file memory positioning
 - https://gbrain.io/pricing - the hosted Personal $49/mo and Teams $199/mo plans and the $100/mo AI credit, as of 2026-10-20
+- https://github.com/garrytan/gbrain/releases/tag/v0.60.463.0 - the RLS backfill release: every Postgres table guarded, the v273 derivation-table exposure named and closed (2026-10-26)
