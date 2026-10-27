@@ -1,7 +1,7 @@
 ---
 title: Tokscale
 created: 2026-10-06
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by junhoyeo, an independent developer, MIT-licensed.
 
 ## Status
 
-Young and fast: 5,656 stars, 470 forks, 98 open issues, created 2025-12-01, pushed 2026-10-25, as of 2026-10-25.
+Young and fast: 5,656 stars, 470 forks, 100 open issues, created 2025-12-01, pushed 2026-10-26, as of 2026-10-26.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for teams needing shared dashboards (agentsview) or spend management (CodeBu
 - 2026-10-18 - Recorded v4.20.0 (2026-10-17): Mistral Vibe and Aside browser clients, Amp server-side thread sync through the amp CLI, custom pricing rates scoped by billing provider, Cursor Auto/API tracks and Grok Bot quotas, and leaderboard group member management; trailing-month downloads refreshed (182,342 to 178,917), npm latest moved to 4.20.0, open issues 100 to 67, and the pushed date moved to 2026-10-18.
 - 2026-10-21 - Recorded two unreleased submit-path fixes merged 2026-10-20: devin-cli duplicate counts healed from a parser recount proof and snapshot-integrity clients kept complete on filtered scans, both after v4.20.0; trailing-month downloads refreshed (178,917 to 180,721, window 2026-09-19 to 2026-10-18), open issues 67 to 82, and the pushed date moved to 2026-10-20.
 - 2026-10-25 - Recorded v4.20.1 (2026-10-23), which shipped those two submit-path fixes and added Antigravity family re-attribution coverage across model re-attributions plus frontend layout fixes; trailing-month downloads refreshed (180,721 to 167,077, window 2026-09-23 to 2026-10-22), npm latest moved to 4.20.1, open issues 82 to 98, and the pushed date moved to 2026-10-25.
+- 2026-10-26 - Recorded unreleased post-v4.20.1 fixes merged 2026-10-25: Cursor usage events now count once across their snapshots, pre-5.6 OpenAI cache writes inherit the input rate, legacy OpenCode and MiMo entries stop replaying over complete scans, and OpenCode's V2 providers config supplies model names; open issues 98 to 100 and the pushed date moved to 2026-10-26, with downloads and npm latest unchanged.
 
 ## See also
 

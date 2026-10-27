@@ -1,7 +1,7 @@
 ---
 title: AI Unified Process
 created: 2026-10-17
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, use-cases, methodology, rup, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Coverage moved into core with the layer model: `/use-case-coverage` judges imple
 
 ## Status
 
-Active and authored: 146 stars, 26 forks, and 6 open issues since creation on 2026-02-28, Apache-2.0 (GitHub API); as of 2026-10-25, pushed 2026-10-24 with a coordinated release wave across every plugin, `aiup-core` v3.1.0 (per-module reverse-engineering, the `/stack` command, coverage evidence from NFR and constraint ids) and the layer plugins re-versioned, the same wave that deprecated the two combined stack plugins.
+Active and authored: 146 stars, 26 forks, and 6 open issues since creation on 2026-02-28, Apache-2.0 (GitHub API); as of 2026-10-26, pushed 2026-10-25 with a coordinated release wave across every plugin, `aiup-core` v3.1.0 (per-module reverse-engineering, the `/stack` command, coverage evidence from NFR and constraint ids) followed by a v3.1.x patch train through v3.1.9 (implement-time migration runs, marker line-length, no-data postconditions), the same wave that deprecated the two combined stack plugins.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AI-Unified-Process/marketplace&type=date&theme=dark&legend=top-left" />

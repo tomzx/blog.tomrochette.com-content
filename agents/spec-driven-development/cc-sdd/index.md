@@ -1,7 +1,7 @@
 ---
 title: cc-sdd
 created: 2026-10-06
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, agent-skills, multi-agent, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Gota (gotalab), an agentic-AI engineer in Japan; the project is Kiro-ins
 ## Status
 
 Established and mid-scale, with adoption that bypassed Hacker News entirely.
-As of 2026-10-14: 3,711 stars and 288 forks since creation on 2025-07-17; as of 2026-10-25, pushed 2026-10-22 with development continuing past the last tagged release, v3.1.0 (2026-09-23), 26,372 npm downloads last month (the 2026-09-23 to 2026-10-22 window, as of 2026-10-25), MIT.
+As of 2026-10-14: 3,711 stars and 288 forks since creation on 2025-07-17; as of 2026-10-26, pushed 2026-10-22 with development continuing past the last tagged release, v3.1.0 (2026-09-23), 26,372 npm downloads last month (the 2026-09-23 to 2026-10-22 window, re-read 2026-10-26), MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gotalab/cc-sdd&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ The disagreeable claim I will defend: a fresh-context reviewer per task is a str
 - 2026-10-06 - Created from the entrant-resolution run, profiling gotalab/cc-sdd as the category's first installable skill-set column.
 - 2026-10-07 - Added the gotalab/cc-sdd star history chart to the Status section.
 - 2026-10-09 - Refreshed counts (npm downloads 26,735 last month).
+- 2026-10-26 - Rotation re-verification of every cited source (all alive, the npm figure and release train unchanged, the when-not-to-use list confirmed verbatim, still no Hacker News thread); no facts changed.
 
 ## See also
 

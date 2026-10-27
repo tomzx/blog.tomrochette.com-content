@@ -1,7 +1,7 @@
 ---
 title: Superpowers
 created: 2026-10-09
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, methodology, agent-skills, worktrees, open-source]
 readability: 3
@@ -32,7 +32,7 @@ The steward's anniversary post reports the repo about to cross 300,000 stars (12
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=obra/superpowers&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=obra/superpowers&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=obra/superpowers&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=obra/superpowers&type=date&legend=top-left" />
 </picture>
 
@@ -80,6 +80,7 @@ The disagreeable claim I will defend: 297k stars for a mandatory methodology is 
 - 2026-10-23 - Rotation re-verification of every cited source and recorded the v7.0.1 release (2026-10-21): the brainstorming retune after the formulaic-questions feedback, the design-doc-before-building fix (24 of 24 unprompted skips down to 3 of 24), the 20,000-character compaction trims, and the human-written-summary contribution rule.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

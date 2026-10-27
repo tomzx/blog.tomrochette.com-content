@@ -1,7 +1,7 @@
 ---
 title: Vibe Coding Prompt Template
 created: 2026-10-07
-updated: 2026-10-18
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, prompts, workflow, open-source]
 readability: 3
@@ -28,7 +28,7 @@ As of 2026-10-14: 3,139 stars and 386 forks since creation on 2025-04-14, pushed
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=KhazP/vibe-coding-prompt-template&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=KhazP/vibe-coding-prompt-template&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=KhazP/vibe-coding-prompt-template&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=KhazP/vibe-coding-prompt-template&type=date&legend=top-left" />
 </picture>
 
@@ -71,6 +71,7 @@ The disagreeable claim I will defend: four markdown files out-starring several e
 - 2026-10-07 - Created from the awesome-list entrant scan, profiling KhazP/vibe-coding-prompt-template as the category's zero-install prompt-pack column.
 - 2026-10-09 - Refreshed counts (npm CLI downloads down to 230 last month); the everyone-uses-the-raw-prompts conclusion stands.
 - 2026-10-18 - Rotation re-verification of every cited source: corrected the author attribution (Alp Yalay, the KhazP account), recorded the optional bundled workflow skills beside the CLI, and refreshed the npm figure (165 last month).
+- 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

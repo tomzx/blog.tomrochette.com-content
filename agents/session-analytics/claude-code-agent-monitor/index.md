@@ -62,7 +62,7 @@ No paid tiers are published, and nothing in the default path requires a hosted s
 
 - [agents-observe](../agents-observe/index.md): the lighter plugin path for Claude Code and Codex live observation; CCAM adds Cursor, history import, and agent control at the price of a much larger surface.
 - [claude-devtools](../claude-devtools/index.md): the deepest retrospective reconstruction of one Claude Code session; CCAM trades that per-turn depth for breadth and a live view.
-- [Token Monitor](../token-monitor/index.md): the always-on usage and limits widget across 43-plus tools; CCAM watches fewer tools but reads their conversations and can drive them.
+- [Token Monitor](../token-monitor/index.md): the always-on usage and limits widget across 47-plus tools; CCAM watches fewer tools but reads their conversations and can drive them.
 
 ## Bottom line
 

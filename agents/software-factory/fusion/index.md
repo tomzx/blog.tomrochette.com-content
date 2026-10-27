@@ -1,7 +1,7 @@
 ---
 title: Fusion
 created: 2026-10-11
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, kanban, multi-agent, worktrees, open-source]
 readability: 3
@@ -31,7 +31,7 @@ The package drew 2,094 npm downloads in the month ending 2026-10-22 (trailing mo
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Runfusion/Fusion&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Runfusion/Fusion&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Runfusion/Fusion&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Runfusion/Fusion&type=date&legend=top-left" />
 </picture>
 
@@ -72,6 +72,7 @@ My disagreeable claim: auto-merge on green gates is where this category is going
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched (repository via the API, README and docs map, product site, releases, npm registry and trailing-month downloads, HN search) and all claims confirmed; downloads re-baselined down to 2,094 for the month ending 2026-10-22 and the stable channel's lag unchanged at more than seven weeks with npm `latest` still 0.77.0; no material change.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart's light source, which wrongly carried the dark-theme parameter.
 
 ## See also
 

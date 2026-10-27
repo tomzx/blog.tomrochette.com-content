@@ -1,7 +1,7 @@
 ---
 title: CodeBurn
 created: 2026-10-05
-updated: 2026-10-21
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by AgentSeal (the repository moved from the AgentSeal org to getagentseal, 
 
 ## Status
 
-Young and fast: 11,377 stars and 901 forks as of 2026-10-21, created 2026-04-13, pushed 2026-10-20 (GitHub API).
+Young and fast: 11,377 stars and 892 forks as of 2026-10-26, created 2026-04-13, pushed 2026-10-26 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Young and fast: 11,377 stars and 901 forks as of 2026-10-21, created 2026-04-13,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&legend=top-left" />
 </picture>
 
-The npm package pulled 38,716 downloads in the trailing month (2026-09-13 to 2026-10-12).
+The npm package pulled 26,823 downloads in the trailing month (2026-09-23 to 2026-10-22), down from the 38,716 the 2026-10-12 window recorded.
 The current release line is desktop/CLI v0.9.27 (2026-10-11, tagged separately per platform).
 v0.9.26 (2026-10-10) added Amp and Command Code as providers, the VS Code extension, a pull-request view with per-review cost, `--why` explanations for Claude Code sessions, Cursor usage synced from cursor.com with an app login, a tilde prefix on every estimated dollar, a long list of money-accuracy fixes, and removed Roo Code as an archived project.
 v0.9.27 added one-click updates across the CLI, menu bar, and desktop app.
@@ -78,6 +78,7 @@ Not for anyone who wants plain unclassified numbers (ccusage is the simpler inst
 - 2026-10-11 - Recorded the v0.9.26 (2026-10-10) and v0.9.27 (2026-10-11) releases: Amp and Command Code providers, the VS Code extension, a pull-request view, `--why` session explanations, Cursor usage synced from cursor.com replacing local estimates, a tilde on estimated dollars, Roo Code removed, and one-click updates; the README's integration claim moved to 42 while the repository description still says 37, and repository counts and trailing-month downloads refreshed (36,881 to 38,579).
 - 2026-10-16 - Recorded the external AgentMeasure audit evidence: the Codex token_count dedup fix merged as PR 1264 on 2026-09-16 and the audit's methodology note vindicating the re-emission behavior against the auditor's first assertion; trailing-month downloads refreshed (38,579 to 38,716) and the pushed date moved to 2026-10-15.
 - 2026-10-21 - Recorded unreleased post-v0.9.27 work merged 2026-10-20: a Claude Code plugin and an MCP Registry listing, plus signing-environment gating and dependency bumps; the pushed date moved to 2026-10-20 and forks refreshed 879 to 901.
+- 2026-10-26 - Rotation re-verification re-fetched every cited URL, all live; unreleased post-v0.9.27 fixes landed 2026-10-26 (a daily-cache merge fix stopping token-only slices from inflating day totals, and Zstandard-compressed Codex rollout reads); the pushed date moved to 2026-10-26, forks refreshed 901 to 892, and trailing-month downloads refreshed (38,716 to 26,823, window 2026-09-23 to 2026-10-22).
 
 ## See also
 
@@ -90,7 +91,7 @@ Not for anyone who wants plain unclassified numbers (ccusage is the simpler inst
 
 - https://github.com/getagentseal/codeburn - repository, 11,377 stars and 879 forks as of 2026-10-11, MIT license, created 2026-04-13 (the AgentSeal/codeburn URL redirects here)
 - https://raw.githubusercontent.com/getagentseal/codeburn/main/README.md - surfaces, the four spend cuts, optimize/quota/guard behavior, the MCP server, the 42-tool claim, and the desktop install matrix
-- https://api.npmjs.org/downloads/point/last-month/codeburn - 38,716 trailing-month downloads (2026-09-13 to 2026-10-12), fetched 2026-10-16
+- https://api.npmjs.org/downloads/point/last-month/codeburn - 26,823 trailing-month downloads (2026-09-23 to 2026-10-22), fetched 2026-10-26
 - https://raw.githubusercontent.com/roy-tong/AgentMeasure/main/campaigns/audit-report-2026-09.md - the external audit that filed the Codex dedup finding and documents the 53-rollout correction of its own first assertion
 - https://github.com/getagentseal/codeburn/pull/1264 - the merged token_count dedup fix (2026-09-16) behind the external-probe sentence
 - https://registry.npmjs.org/codeburn - npm latest 0.9.27

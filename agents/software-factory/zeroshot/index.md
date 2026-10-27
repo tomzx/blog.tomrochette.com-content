@@ -1,7 +1,7 @@
 ---
 title: Zeroshot
 created: 2026-10-10
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, review-loop, multi-agent]
 readability: 3
@@ -31,7 +31,7 @@ v10.15.0's README repositions the tool around user-configured workflows, with th
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=the-open-engine/zeroshot&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=the-open-engine/zeroshot&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=the-open-engine/zeroshot&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=the-open-engine/zeroshot&type=date&legend=top-left" />
 </picture>
 
@@ -78,6 +78,7 @@ Not for teams that require a deterministic final gate, third-party validation fi
 - 2026-10-25 - Recorded the train to v10.18.0 (2026-10-24, npm in sync): Active Memory in v10.17.0 (lessons recalled from costly repository mistakes on local and Docker runs, enabled by default) and the Zeroshot Cloud to Zeroshot Platform rebrand in v10.18.0, whose notes state the old $100 Cloud pricing is no longer stated anywhere; the What-it-is run-target line and the Pricing and caution lines updated.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart's light source, which wrongly carried the dark-theme parameter.
 
 ## See also
 

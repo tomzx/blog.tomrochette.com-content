@@ -1,7 +1,7 @@
 ---
 title: AgentMeasure
 created: 2026-10-16
-updated: 2026-10-23
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, audit, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by roy-tong, an independent developer, under MIT.
 
 ## Status
 
-Young and shipping daily: 218 stars, 9 forks, 11 open issues, created 2026-08-16, pushed 2026-10-22, with v0.6.0 (2026-10-11), v0.7.0 (2026-10-14, the claims index, SDK 0.2.0, and paid diagnosis), v0.7.1, v0.7.2, and v0.8.0 (2026-10-15) landing inside a week, as of 2026-10-23.
+Young and shipping daily: 218 stars, 9 forks, 10 open issues, created 2026-08-16, pushed 2026-10-26 (the claims ledger accrued a delegation roll-up with new bill findings), with v0.6.0 (2026-10-11), v0.7.0 (2026-10-14, the claims index, SDK 0.2.0, and paid diagnosis), v0.7.1, v0.7.2, and v0.8.0 (2026-10-15) landing inside a week, as of 2026-10-26.
 On 2026-10-21 the project pivoted to entirely free and open source: the $10 and $20 paid diagnostics were retired, replaced by free human-run measurement runs (bring 20 to 100 sanitized rows, a check usually within 48 hours), the review method behind the runs was open-sourced under docs/review-method/, and the same week's commits added an AMSBench v0.2 benchmark (a 16-injector generator over 5,600 synthetic instances with a rule-engine baseline evaluation) and the first external conformance fixtures from outside providers.
 
 <picture>

@@ -1,7 +1,7 @@
 ---
 title: ccusage
 created: 2026-10-05
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The repository is a monorepo created by ryoppippi (the project moved from his pe
 ## Status
 
 **The most-installed tool in this category by an order of magnitude, and until today the only one this section had never profiled.**
-About 19k stars (19,001) and 890 forks as of 2026-10-25, created 2025-05-29, pushed 2026-10-25 (GitHub API).
+About 19k stars (19,001) and 889 forks as of 2026-10-26, created 2025-05-29, pushed 2026-10-26 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ About 19k stars (19,001) and 890 forks as of 2026-10-25, created 2025-05-29, pus
 </picture>
 
 The npm package pulled 826,577 downloads in the trailing month (2026-09-23 to 2026-10-22), roughly nine times the claude-mem plugin and far ahead of every session-analytics peer here.
-The release line is v20.x with rapid patches: v20.0.44 (2026-10-24, a release-packaging fix that publishes the platform packages before the wrapper) is the latest tagged release, after v20.0.43 (2026-10-24, source-specific config applied inside unified reports), v20.0.42 (2026-10-23, no significant changes), and v20.0.41 (2026-10-22, the Antigravity model ID 1402 mapped to claude-opus-5-5), as of 2026-10-25.
+The release line is v20.x with rapid patches: v20.0.44 (2026-10-24, a release-packaging fix that publishes the platform packages before the wrapper) is the latest tagged release, after v20.0.43 (2026-10-24, source-specific config applied inside unified reports), v20.0.42 (2026-10-23, no significant changes), and v20.0.41 (2026-10-22, the Antigravity model ID 1402 mapped to claude-opus-5-5), as of 2026-10-26, with only pricing-snapshot and CI housekeeping commits landing since.
 Its Show HN launch thread reached 75 points in July 2025, and the README carries an Awesome Claude Code mention badge.
 
 ## Strengths

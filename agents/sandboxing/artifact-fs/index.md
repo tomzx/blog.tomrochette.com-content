@@ -1,7 +1,7 @@
 ---
 title: ArtifactFS
 created: 2026-08-30
-updated: 2026-10-23
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, workspace-provisioning, git, cloudflare, open-source]
 readability: 3
@@ -53,7 +53,7 @@ Tags run `1.0.0-rc.1` through `rc.10` with no GitHub Releases; 57 commits concen
 
 The driver is free, Apache-2.0.
 The Cloudflare Artifacts service it complements is usage-based on Workers Paid: 10,000 operations and 1 GB-month included, then $0.15 per additional 1,000 operations and $0.50 per GB-month, still in closed beta.
-The pricing page (updated 2026-10-01, unchanged when re-fetched 2026-10-16) states billing for Artifacts operations and storage begins on 2026-10-14, a date now past, at the baseline rates below.
+The pricing page (updated 2026-10-01, unchanged when re-fetched 2026-10-26) states billing for Artifacts operations and storage begins on 2026-10-14, a date now past, at the baseline rates below.
 
 ## Price history
 
@@ -80,6 +80,7 @@ Not for small or medium repos, Windows or locked-down CI environments, or anyone
 - 2026-10-04 - Recorded the dated billing start for Artifacts operations and storage (2026-10-14, prices unchanged) from the pricing page, and refreshed counts (1,164 stars, 51 forks).
 - 2026-10-07 - Added the cloudflare/artifact-fs star history chart to the Status section.
 - 2026-10-16 - Rotation re-verification: every cited URL re-fetched live, and the closed-beta claim rewritten to what the pages state today (Artifacts is Workers Paid only per its pricing page, and the launch post's early-May public-beta target has not visibly opened).
+- 2026-10-26 - Rotation re-verification: every cited URL re-fetched and alive (repository, the launch post, the usage guide, the pricing page, the 217-point thread, the README); the main branch still quiet since 2026-08-12 with the push date holding at 2026-10-21 on branch activity, the rc.1-through-rc.10 tag list, the 57-commit count, and the open-issue figure re-confirmed, and the Artifacts pricing page unchanged at the baseline rates.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: NemoClaw
 created: 2026-10-07
-updated: 2026-10-25
+updated: 2026-10-26
 readability: 3
 audience_notes: >
   Engineers who want to run an always-on assistant (OpenClaw, Hermes, or LangChain Deep Agents) inside an OpenShell sandbox without assembling the integration themselves.
@@ -24,7 +24,7 @@ Apache-2.0, from NVIDIA, which describes the project as alpha with best-effort m
 
 ## Status
 
-Large and fast for an alpha: 22,754 stars, 3,142 forks, 796 open issues and PRs as of 2026-10-16, created 2026-03-15, pushed 2026-10-25.
+Large and fast for an alpha: 22,754 stars, 3,142 forks, 796 open issues and PRs as of 2026-10-16, created 2026-03-15, pushed 2026-10-26.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for production-critical assistants while the project declares alpha, or for 
 - 2026-10-07 - Created from the daily-refresh entrant resolution, profiling NVIDIA's OpenShell reference stack with its blueprint hardening, managed-inference credential custody, and the single-prerelease release story.
 - 2026-10-12 - Clarified the release story against the tag list (138 git tags, mostly an orphaned v0.0.x line from the May 2026 history rewrite, versus exactly one published release) and refreshed counts (22,719 stars, 760 open issues and PRs, pushed 2026-10-12).
 - 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (push of 2026-10-17 checked: still prerelease-only, nothing material).
+- 2026-10-26 - Rotation re-verification: every cited URL re-fetched and alive (repository, the docs home and ecosystem pages, the README, the release record, the 385-point launch thread); the exactly-one-prerelease release story, the README's alpha wording, and the supported-agent roster re-confirmed, with the push advanced to 2026-10-26 on CI and E2E-runner fixes.
 
 ## See also
 

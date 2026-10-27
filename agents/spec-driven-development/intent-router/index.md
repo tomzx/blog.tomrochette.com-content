@@ -1,7 +1,7 @@
 ---
 title: Intent-Router
 created: 2026-10-10
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, intent-specs, clarification, skills]
 readability: 3
@@ -29,7 +29,7 @@ Engagement from freshly created accounts is still arriving (a fork and a star la
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=angel291592/Intent-Router&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=angel291592/Intent-Router&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=angel291592/Intent-Router&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=angel291592/Intent-Router&type=date&legend=top-left" />
 </picture>
 
@@ -70,6 +70,7 @@ Not for teams needing enforced process (that is Superpowers), and not for anyone
 - 2026-10-17 - Recorded the v1.4.0 release (2026-10-16: the description trimmed to fit a 500-character harness cap whose truncation was dropping the skill's negative predicates, a DeepSeek Harness eval channel, and a cross-session contract test case).
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 
 ## See also
 

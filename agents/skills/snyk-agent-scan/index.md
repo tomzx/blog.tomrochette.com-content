@@ -1,7 +1,7 @@
 ---
 title: Snyk Agent Scan
 created: 2026-10-20
-updated: 2026-10-24
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, security, supply-chain]
 readability: 3
@@ -30,7 +30,7 @@ Snyk Labs runs a companion Skill Inspector web experiment for scanning a single 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=snyk/agent-scan&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=snyk/agent-scan&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=snyk/agent-scan&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=snyk/agent-scan&type=date&legend=top-left" />
 </picture>
 
@@ -81,6 +81,7 @@ My disagreeable claim: the audit direction is the more valuable half of this mar
 - 2026-10-22 - v0.6.9 (published 2026-10-20) added VS Code extension MCP-server discovery (servers registered by installed extensions) alongside dependency upgrades; the Status release line moved to it.
 - 2026-10-22 - The MCP-execution caution corrected against the current README: foreground interactive scans now ask consent before contacting each discovered server and background scans start no stdio servers without --dangerously-run-mcp-servers, while fleet scans still auto-inspect remote MCP URLs and the sandbox advice stands.
 - 2026-10-24 - Volatile refresh: post-release pushes moved the default branch to 2026-10-22 (managed-mode hooks installation fixes and a certifi bump); v0.6.9 still the newest release.
+- 2026-10-26 - Fixed the star-history chart markup carried since creation: the light-theme source had held the dark theme parameter, so the light fallback now requests the unthemed chart like every other note in the category.
 
 ## See also
 

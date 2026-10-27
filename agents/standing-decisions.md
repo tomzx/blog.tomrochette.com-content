@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-10-24
+updated: 2026-10-26
 status: finished
 tags: [agents]
 readability: 0
@@ -74,6 +74,9 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-26 | cross-category | star-history chart markup: only the dark source in a picture block carries theme=dark, never the light source or the img fallback | coordinator handoff; the 2026-10-25 pass fixed the img fallbacks but left light sources carrying theme=dark across five categories, all fixed 2026-10-26
 - 2026-10-26 | cross-category | a subject board's page drifting under an unchanged revision number counts as a signal and re-verifies board-citing notes out of rotation | the jev rotation re-fetch found JevBench v1.7.48 grown from 220 to 227 ranked open-weights and 47 to 48 API rows since the 10-25 fetch
 - 2026-10-26 | cross-category | Hugging Face download counts are rolling-window figures that swing both ways, so rotation refreshes them with a fresh as-of date and reads no trend into a swing | decider-2b read 334,268 on 10-18 and 164,599 on 10-26 with no release in between
+- 2026-10-26 | skills | the rea.tools scale record grew from the 109.9k recorded 2026-10-13 to 387,014 stars (morluto/rea, fetched 2026-10-26), now the largest known skills-adjacent record and still outside on the standing exclusion pending q#11 and q#20 | the VoltAgent/awesome-agent-skills scan surfaced the repo as a new entry indexing one of its skill directories
+- 2026-10-26 | software-factory | the ahmadyan/awesome-software-factory list (2 stars, single-day push, maintainer self-promotes Agentastic.dev) stays below the dedicated-source bar and is not adopted as a mapped source | its entries cross-check to known members, already-resolved subjects, or other categories' kinds
+- 2026-10-26 | spec-driven-development | acceptance-test and QA harnesses route to evaluation-review under the primary-artifact rule | vostride/agent-qa (895 stars, FSL-1.1-ALv2, self-published AndroidWorld and AppControlBench results) authors and runs acceptance tests, not spec contracts
 
 ## Standing family rejections
 

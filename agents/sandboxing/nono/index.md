@@ -1,7 +1,7 @@
 ---
 title: nono
 created: 2026-10-07
-updated: 2026-10-25
+updated: 2026-10-26
 readability: 3
 audience_notes: >
   Engineers who want an agent fenced at the kernel level and care most about what happens when the agent calls git, gh, curl, or kubectl.
@@ -24,7 +24,7 @@ Apache-2.0, built by the Sigstore team, with an OpenSSF Best Practices badge and
 
 ## Status
 
-Fast-growing with no Hacker News help: 4,519 stars, 249 open issues and PRs, pushed 2026-10-23, created 2026-01-31.
+Fast-growing with no Hacker News help: 4,519 stars, 275 open issues and PRs, pushed 2026-10-23, created 2026-01-31.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&theme=dark&legend=top-left" />
@@ -69,6 +69,7 @@ Not for anyone who needs VM-grade boundaries today or an externally audited 1.0.
 - 2026-10-07 - Created from the entrant-resolution run, profiling the Sigstore team's per-command sandbox broker with its credential proxy and the no-HN-growth finding.
 - 2026-10-13 - Recorded v0.80.0 (2026-10-13, SHA-256 executable pinning in command policies, per-command aws_auth, command-level macOS keychain grants, and NEPs for a Windows enforcement backend and invocation-scoped commands), with counts refreshed (4,481 stars, pushed 2026-10-13).
 - 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (push of 2026-10-16 checked: no release since v0.80.0, nothing material).
+- 2026-10-26 - Rotation re-verification: every cited URL re-fetched and alive (repository, docs site, the release record, the 4-point Show HN); v0.80.0 still the newest release with the post-release train on proxy fixes (407 for unauthenticated CONNECT, supervised connect ports, audit-path redaction), and open issues and PRs refreshed from 249 to 275.
 
 ## See also
 

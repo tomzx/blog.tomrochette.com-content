@@ -1,7 +1,7 @@
 ---
 title: PDD Kit
 created: 2026-10-23
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, product-model, agent-skills, open-source]
 readability: 3
@@ -17,7 +17,7 @@ PDD Kit is a solo-maintained, MIT-licensed trio of agent skills (map, ideate, ve
 
 ## What it is
 
-An npm package (`pdd-toolkit`, first published 2026-10-13, at v0.37.1) that installs three skills into Claude Code, Codex, Cursor, Gemini CLI, and GitHub Copilot: `/pdd-map` reads an existing repository without running it and writes the model once you approve, `/pdd-ideate` records the next change in the model before any code exists, and `/pdd-verify` checks the implementation against the model and reports every gap, fixing only the ones you choose.
+An npm package (`pdd-toolkit`, first published 2026-10-13, at v0.38.0) that installs three skills into Claude Code, Codex, Cursor, Gemini CLI, and GitHub Copilot: `/pdd-map` reads an existing repository without running it and writes the model once you approve, `/pdd-ideate` records the next change in the model before any code exists, and `/pdd-verify` checks the implementation against the model and reports every gap, fixing only the ones you choose.
 The model is a folder of typed resources: one Product, Entities (Actors when they act), Interfaces with Experiences and Screens, optional Domains, Capabilities proven by Scenarios, Journeys, Business Rules (the only place that says who may act), and Variations, plus a `coverage.md` that declares which of the repository's code the model accounts for and names what stayed unmapped.
 A strict lint (`npx pdd-toolkit lint`) enforces the structure (unknown frontmatter keys are errors), a local `view` command opens the model as a browser report, and Blueprints are reviewed product models for common products you can pull instead of a blank page.
 It is deliberately not a workflow: implementation stays with your agent, with plan mode, an SDD tool, or freestyle, and the docs' own line is "keep the spec-driven framework you use, or use none at all".
@@ -25,8 +25,8 @@ Made by Itai Gendler, who dogfoods it: the repository's own `product-model/` des
 
 ## Status
 
-Active and young: 80 stars, 9 forks, repository created 2026-07-26, pushed 2026-10-24, as of 2026-10-25 (GitHub API), MIT, solo steward.
-The npm package (published 2026-10-13) has six releases to v0.37.1 and 200 downloads last month (the 2026-09-23 to 2026-10-22 window, as of 2026-10-25), so adoption is the star count and nothing else yet.
+Active and young: 80 stars, 9 forks, repository created 2026-07-26, pushed 2026-10-25, as of 2026-10-26 (GitHub API), MIT, solo steward.
+The npm package (published 2026-10-13) has seven releases to v0.38.0 and 200 downloads last month (the 2026-09-23 to 2026-10-22 window, re-read 2026-10-26), so adoption is the star count and nothing else yet.
 It ships a complete docs site (pdd-kit.dev) with a reasoned blog, and the steward's SDD critique (2026-10-06) names OpenSpec, spec-kit, and Kiro directly, arguing their specs describe the change while the product stays scattered.
 It entered this category's scan as the Engineering4AI awesome list's Development Frameworks entry, listed there as BusinessLens until the 2026-10-21 rename to pdd-kit; a 2026-10-13 sweep had rejected the repository under its old name below the bar, and the rebrand, the shipped site, and continued daily development re-listed it.
 
@@ -34,7 +34,7 @@ It entered this category's scan as the Engineering4AI awesome list's Development
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=itai-gendler/pdd-kit&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=itai-gendler/pdd-kit&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=itai-gendler/pdd-kit&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=itai-gendler/pdd-kit&type=date&legend=top-left" />
 </picture>
 
@@ -72,6 +72,8 @@ Not for anyone who needs an enforced gate or third-party validation before adopt
 - 2026-10-23 - Created from the Engineering4AI awesome-list entrant scan (listed as BusinessLens until the 2026-10-21 rename, previously rejected below the bar under the old name), resolving itai-gendler/pdd-kit as the product-model column with the zero-coverage record as the critical angle.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-26 - Recorded the v0.38.0 release (2026-10-25: custom verbs in config.yaml so naming checks keep the Product's own words, report format version 20 with a re-export advisory, lint recognizing undo and redo) and refreshed the repository and release facts.
 
 ## See also
 

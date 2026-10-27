@@ -1,7 +1,7 @@
 ---
 title: Spec-Driven Develop
 created: 2026-10-11
-updated: 2026-10-25
+updated: 2026-10-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, github-issues, workflow, open-source]
 readability: 3
@@ -68,6 +68,7 @@ Not for small changes, not for repos outside GitHub's tracker model, and not for
 ## Changes
 
 - 2026-10-11 - Created from the task-management scan's cross-category flag, resolving zhu1090093659/spec_driven_develop into this category as the GitHub-native tracker column.
+- 2026-10-26 - Rotation re-verification of every cited source (all alive, the repository still quiet since 2026-07-26 with v1.15.0 the newest of the five July releases, the README's drift thresholds, S.U.P.E.R table, and LLM-Friendly Summary confirmed in place, still no Hacker News thread); no facts changed.
 
 ## See also
 

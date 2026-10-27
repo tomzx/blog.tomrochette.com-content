@@ -27,7 +27,7 @@ Tools that turn what coding agents already record into searchable history, cost 
 - [ctx](ctx/index.md) - local search over the sessions agents already recorded, with blame attribution from any line of code back to its transcript.
 - [git-ai](git-ai/index.md) - the git-layer provenance recorder that links every line of AI code to the agent, model, and prompt that wrote it, stored in Git Notes so attribution survives every rebase, now part of OpenAI's Codex team, 2,839 stars.
 - [Memex](memex/index.md) - the Rust CLI that indexes multi-harness session transcripts locally with BM25 or embeddings and resumes the session you find.
-- [Token Monitor](token-monitor/index.md) - the live desktop usage widget across 46-plus AI coding tools, with provider-limit tracking, retention archiving, and self-hosted multi-device sync.
+- [Token Monitor](token-monitor/index.md) - the live desktop usage widget across 47-plus AI coding tools, with provider-limit tracking, retention archiving, and self-hosted multi-device sync.
 - [Tokscale](tokscale/index.md) - the terminal CLI and TUI that reads about 50 agents' local usage stores into one token and cost report, with an opt-in public leaderboard.
 
 Its members are compared on shared rows in the [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md).
