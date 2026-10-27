@@ -1,7 +1,7 @@
 ---
 title: Frink
 created: 2026-10-21
-updated: 2026-10-21
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflows, desktop, triggers]
 readability: 3
@@ -26,7 +26,7 @@ It is local-first: chats, Flows, and tasks live in SQLite on your machine, no ac
 
 ## Status
 
-Active and very young: 58 stars and 5 forks as of 2026-10-21, repository created 2026-09-26, default-branch pushes through 2026-10-23, and a steady release train (0.2.0 on October 6, 0.3.0 on October 8, 0.4.0 on October 16) (GitHub API and releases, as of 2026-10-23).
+Active and very young: 58 stars and 5 forks as of 2026-10-21, repository created 2026-09-26, default-branch pushes through 2026-10-26, and a steady release train (0.2.0 on October 6, 0.3.0 on October 8, 0.4.0 on October 16) (GitHub API and releases, as of 2026-10-27).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=benord-labs/frink&type=date&theme=dark&legend=top-left" />

@@ -40,7 +40,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Dify](dify/index.md) - LangGenius's 158.5k-star visual workflow and RAG platform, self-hostable under a modified Apache 2.0 with commercial conditions.
 - [dmux](dmux/index.md) - the MIT tmux TUI where every task pane gets its own worktree and branch.
 - [Emdash](emdash/index.md) - the Apache-2.0 agentic development environment from General Action (YC W26), local or over SSH.
-- [EvoAgentX](evoagentx/index.md) - the MIT Python framework that generates multi-agent workflows from a goal and evolves them with TextGrad, AFlow, MIPRO, and EvoPrompt, quiet since August 2026.
+- [EvoAgentX](evoagentx/index.md) - the MIT Python framework that generates multi-agent workflows from a goal and evolves them with TextGrad, AFlow, MIPRO, and EvoPrompt, quiet August to October 2026 with a maintenance return on October 22.
 - [Flowise](flowise/index.md) - the Workday-acquired visual LLM builder archived in August 2026, kept here as the genre's clearest post-mortem.
 - [Foremerge](foremerge/index.md) - the Apache-2.0 protocol where parallel agents publish what they are about to change before they change it, catching the plan collisions Git merges without complaint, from GPTree's internal tooling.
 - [Frink](frink/index.md) - the free MIT desktop app running up to four agents in worktree-backed panes, turning plain-language routines into schedule-, webhook-, and event-triggered Flows with approval gates.

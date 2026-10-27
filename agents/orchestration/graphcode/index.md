@@ -1,7 +1,7 @@
 ---
 title: GraphCode
 created: 2026-09-27
-updated: 2026-10-20
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, macos, graph, loops]
 readability: 3
@@ -24,7 +24,7 @@ It bundles no agents and drives five backends (Claude Code, GitHub Copilot CLI, 
 
 ## Status
 
-New and fast-moving: about 139 stars and 19 forks as of 2026-10-11, created 2026-07-26, pushed 2026-10-23 (GitHub API, as of 2026-10-23), with v0.1.81 (2026-10-19, images paste into remote and Codespace loops with Cmd-V/Ctrl-V) the latest release after v0.1.80 (2026-10-12, finished loops rename their Claude Code session), which followed v0.1.78 (2026-10-04, promoted from the October 3 beta line) and the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
+New and fast-moving: about 139 stars and 19 forks as of 2026-10-11, created 2026-07-26, pushed 2026-10-27 (GitHub API, as of 2026-10-27), with v0.1.82 (2026-10-27, a `graphcode workspaces` command listing every workspace on the Mac and marking the current one) the latest release after v0.1.81 (2026-10-19, images paste into remote and Codespace loops with Cmd-V/Ctrl-V) after v0.1.80 (2026-10-12, finished loops rename their Claude Code session), which followed v0.1.78 (2026-10-04, promoted from the October 3 beta line) and the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=scgopi/GraphCode&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ Not for Intel Macs, Linux, or Windows, and not for anyone who requires an OSI op
 - 2026-10-12 - Recorded v0.1.79 (October 11, remote connections hold, busy loops left alone) and v0.1.80 (October 12, finished loops rename their Claude Code session) as the latest releases.
 
 - 2026-10-20 - Recorded v0.1.81 (2026-10-19, image paste into remote and Codespace loops) as the latest release.
+- 2026-10-27 - Recorded v0.1.82 (2026-10-27, the graphcode workspaces command) and refreshed the push date.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: AgentGrid
 created: 2026-10-02
-updated: 2026-10-08
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, canvas, closed-source]
 readability: 3
@@ -73,6 +73,7 @@ Not for anyone who requires open source, an auditable supply chain, or pricing t
 - 2026-10-02 - Created.
 - 2026-10-05 - Recorded v2.9.3 (October 4) from the vendor changelog, and re-verified the pricing page serving again with unchanged tiers after the 2026-10-03 HTTP 500.
 - 2026-10-08 - Recorded v2.9.5 (October 7, PR attribution and a get_pr_cost MCP tool) and re-verified the pricing page tiers unchanged.
+- 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (product site, docs, pricing, changelog, the Show HN thread); the vendor pages are client-rendered, so no fresh version or price text is extractable server-side, and the recorded claims keep their as-of dates.
 
 ## See also
 

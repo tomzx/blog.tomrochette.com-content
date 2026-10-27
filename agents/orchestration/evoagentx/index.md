@@ -1,7 +1,7 @@
 ---
 title: EvoAgentX
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, self-evolving, workflow-optimization]
 readability: 3
@@ -23,7 +23,7 @@ MIT per the LICENSE file (GitHub's license detection reports NOASSERTION), by Yi
 
 ## Status
 
-Active but quiet: 3,370 stars and 315 forks as of 2026-10-10 on a repository created 2025-04-15, with the release train stopped at v0.1.4 (2026-06-28) and the default branch silent from 2026-08-27 until a three-commit maintenance return on 2026-10-22 (pytest fixes and new evolution examples), while the community talk series kept running through June 2026 (GitHub API, as of 2026-10-23).
+Active but quiet: 3,370 stars and 315 forks as of 2026-10-10 on a repository created 2025-04-15, with the release train stopped at v0.1.4 (2026-06-28) and the default branch silent from 2026-08-27 until a three-commit maintenance return on 2026-10-22 (pytest fixes and new evolution examples), while the community talk series kept running through June 2026 (GitHub API, as of 2026-10-27).
 The framework paper (arXiv 2507.03616, July 2025, revised September) and the team's self-evolving-agents survey (arXiv 2508.07407, August 2025) are the grounding publications.
 
 <picture>
@@ -67,6 +67,7 @@ My disagreeable claim: **the framework family's next differentiator is not anoth
 ## Changes
 
 - 2026-10-10 - Created from the automated-research scan's referral of the project as orchestration-class.
+- 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, license, both arXiv papers, HN search); no claims changed, the 2026-10-22 maintenance return still the newest activity, and the category index one-liner corrected to match.
 
 ## See also
 

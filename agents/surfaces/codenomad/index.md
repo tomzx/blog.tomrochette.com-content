@@ -1,7 +1,7 @@
 ---
 title: CodeNomad
 created: 2026-10-11
-updated: 2026-10-25
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, opencode, desktop, session-cockpit, open-source]
 readability: 3
@@ -24,8 +24,8 @@ The CodeNomad Server (`npx @neuralnomads/codenomad`) serves the same workspace f
 ## Status
 
 **Active on a daily train, young, and without independent coverage.**
-2,625 stars, 176 forks, and 15 open issues and pull requests, created 2025-11-01, pushed 2026-10-16, as of 2026-10-16 (GitHub API).
-Stable v1.0.0 (2026-10-24) shipped on top of the `v1.0.0-dev` train that began October 20, ending the 0.20.x line: the 1.0 notes headline Missions (OpenCode-native coordinators delegating to specialists through native sessions and subagents, with five approaches including a blind two-model comparison), visual automation (agents inspecting and operating CodeNomad and desktop browser previews to check what they build), native plugins and RPC reaching full-history search and timeline navigation beyond the public API, a new hexagon logo, and signed Tauri updates, with the daily dev train continuing above it (v1.0.0-dev-20261025).
+2,625 stars, 176 forks, and 15 open issues and pull requests as of 2026-10-16 (GitHub API), created 2025-11-01, pushed 2026-10-27.
+Stable v1.0.0 (2026-10-24) shipped on top of the `v1.0.0-dev` train that began October 20, ending the 0.20.x line: the 1.0 notes headline Missions (OpenCode-native coordinators delegating to specialists through native sessions and subagents, with five approaches including a blind two-model comparison), visual automation (agents inspecting and operating CodeNomad and desktop browser previews to check what they build), native plugins and RPC reaching full-history search and timeline navigation beyond the public API, a new hexagon logo, and signed Tauri updates, with the daily dev train continuing above it (v1.0.0-dev-20261027).
 The server package drew 1,112 npm downloads in the month ending 2026-10-18.
 A Hacker News search returns no story about the project (2026-10-11), only substring matches, so the footprint is GitHub-side.
 

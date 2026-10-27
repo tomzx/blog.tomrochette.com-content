@@ -1,7 +1,7 @@
 ---
 title: fx
 created: 2026-08-29
-updated: 2026-10-17
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zig, vercel, embedding]
 readability: 3
@@ -79,6 +79,7 @@ Not for anyone who needs local models, provider-key BYOK, or a stable release li
 - 2026-10-06 - Refreshed repository counters (3,302 stars) and corrected the stale harness count in the See-also matrix line.
 - 2026-10-07 - Added the vercel-labs/fx star history chart to the Status section.
 - 2026-10-17 - Recorded the v0.0.14 release (October 16), which made libfx sessions durable out of the box (surviving crashes, redeploys, and timeouts with idempotent tool reruns), added multiple named libfx agents and `wakeHandler()`, brought ChatGPT and Grok subscription sign-in to server-side agents, and moved fx to Zig 0.17, and re-fetched every cited reference in the rotation pass.
+- 2026-10-27 - Rotation re-verification, re-fetching every cited reference (all live): v0.0.14 remains the newest release with the pushes running on, and the authentication docs still document the same three credentials, so the cautions stand as written.
 
 ## See also
 

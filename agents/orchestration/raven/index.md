@@ -1,7 +1,7 @@
 ---
 title: Raven
 created: 2026-10-06
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, dag-planning, host-agent, self-hosted, benchmarking]
 readability: 3
@@ -23,7 +23,7 @@ Apache-2.0, self-hosted, by EverMind-AI, with a technical report released as its
 
 ## Status
 
-Active and very early: 5,450 stars and 168 forks as of 2026-10-15, created 2026-05-21, with 35 contributors, a push on 2026-10-26 (GitHub API, as of 2026-10-26), and v0.2.5 (2026-10-20) the latest release after five releases in September; v0.2.5 added remote agent execution on registered machines, conditional branches in DAG workflows, and native Windows support improvements, and opened the trajectory view to everyone.
+Active and very early: 5,450 stars and 168 forks as of 2026-10-15, created 2026-05-21, with 35 contributors, a push on 2026-10-27 (GitHub API, as of 2026-10-27), and v0.2.5 (2026-10-20) the latest release after five releases in September; v0.2.5 added remote agent execution on registered machines, conditional branches in DAG workflows, and native Windows support improvements, and opened the trajectory view to everyone.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/Raven&type=date&theme=dark&legend=top-left" />

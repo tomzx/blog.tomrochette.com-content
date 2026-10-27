@@ -1,7 +1,7 @@
 ---
 title: MiMo Code
 created: 2026-09-27
-updated: 2026-10-24
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, harnesses, coding-agents, open-source, xiaomi, long-horizon]
 readability: 3
@@ -24,7 +24,7 @@ Provider access follows the OpenCode approach: any of 75+ providers through the 
 ## Status
 
 **Active and pre-1.0.**
-The repository was created 2026-06-10 and lists about 13.7k stars and 1.4k forks under MIT as of 2026-10-15, with 1,431 commits and a push on 2026-10-23 (GitHub API, re-checked 2026-10-24).
+The repository was created 2026-06-10 and lists about 13.7k stars and 1.4k forks under MIT as of 2026-10-15, with 1,431 commits and a push on 2026-10-26 (GitHub API, re-checked 2026-10-27).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=XiaomiMiMo/MiMo-Code&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ The repository was created 2026-06-10 and lists about 13.7k stars and 1.4k forks
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=XiaomiMiMo/MiMo-Code&type=date&legend=top-left" />
 </picture>
 
-The newest release by publication time is v0.1.14 (published 2026-09-23), published a day after v0.1.15 (2026-09-22), so five months after launch the project is still on a 0.1.x line.
+The newest release is v0.1.16 (published 2026-10-26), which retires the legacy Compose stack (the `compose` agent, its built-in workflow, and the whole `compose:*` skill set) in favor of the `/compose-next` pipeline on the build agent, makes MCP tools lazy-load instead of dumping the catalog up front, turns the npm package into a thin launcher with the native installer as the recommended path, removes the experimental Orchestrator mode, and puts Claude session imports and the agent-CLI skills behind opt-in environment flags, keeping the project on its 0.1.x line.
 The launch drew a 557-point Hacker News thread with 315 comments on 2026-06-11, and the tracker carries roughly 800 open issues plus 284 open pull requests, many auto-filed and low-signal.
 
 ## Strengths
@@ -90,6 +90,7 @@ My disagreeable claim: the co-evolution story is mostly packaging, since the mat
 - 2026-10-07 - Added the XiaomiMiMo/MiMo-Code star history chart to the Status section.
 - 2026-10-11 - Recorded the subscription page's auto-route of V2.5 requests to V2.6 starting October 14 ahead of the October 21 retirement, re-verified the tier prices unchanged, and refreshed repository counters.
 - 2026-10-24 - Rotation re-verification, re-fetching every cited reference (all live) and re-verifying the Token Plan and pay-as-you-go prices unchanged: refreshed the push date and noted GitHub's releases/latest marker now returning v0.1.15 while v0.1.14 remains the newest by publication time.
+- 2026-10-27 - Recorded the v0.1.16 release (published October 26), which retires the legacy Compose stack in favor of `/compose-next`, lazy-loads MCP tools, shrinks the npm package to a launcher, removes the experimental Orchestrator mode, and moves Claude imports and agent-CLI skills behind opt-in flags, and refreshed the push date to 2026-10-26.
 
 ## See also
 

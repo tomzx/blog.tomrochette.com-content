@@ -1,7 +1,7 @@
 ---
 title: Mastra
 created: 2026-09-29
-updated: 2026-10-22
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, typescript]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 Mastra is the TypeScript agent framework built by the team behind Gatsby, now a platform with Studio, Server, and Memory Gateway layered over the open-source core.
 
-**Mastra has the fastest commercial trajectory in this note set, 8.3 million npm downloads a month and $35M raised in 18 months, and it has already survived one supply-chain attack.**
+**Mastra has the fastest commercial trajectory in this note set, 7.4 million npm downloads a month and $35M raised in 18 months, and it has already survived one supply-chain attack.**
 
 ## What it is
 
@@ -22,8 +22,8 @@ The repo sits at 28,829 stars with 2,984 forks, created 2024-08-06; the core is 
 
 ## Status
 
-Active and shipping fast: last push 2026-10-22, `@mastra/core` 1.79.0 published to npm 2026-10-21 (GitHub API, npm, as of 2026-10-22), four releases after 1.75.0 (2026-10-07).
-npm recorded 8,345,899 downloads of `@mastra/core` in the month ending 2026-10-09, the largest install base in this note set (npm API, as of 2026-10-11, after 7,250,377 for the month ending 2026-10-04).
+Active and shipping fast: last push 2026-10-27, `@mastra/core` 1.79.0 published to npm 2026-10-21 (GitHub API, npm, as of 2026-10-27), four releases after 1.75.0 (2026-10-07).
+npm recorded 7,432,042 downloads of `@mastra/core` in the month ending 2026-10-27, the largest install base in this note set (npm API, as of 2026-10-27, after 8,345,899 for the month ending 2026-10-09).
 Funding: $13M seed announced 2025-10-08 from 120+ investors including YC, Paul Graham, Gradient, and Guillermo Rauch, then a $22M Series A led by Spark Capital on 2026-04-09, totaling $35M (mastra.ai blog).
 On 2026-06-16 Mastra disclosed a supply-chain attack that compromised multiple npm packages, with an incident report and fixes.
 
@@ -35,7 +35,7 @@ On 2026-06-16 Mastra disclosed a supply-chain attack that compromised multiple n
 
 ## Strengths
 
-- **The TypeScript-native bet won its niche**: when Python teams get CrewAI and Agno, JS teams get a framework with Gatsby-grade DX polish and six million monthly installs.
+- **The TypeScript-native bet won its niche**: when Python teams get CrewAI and Agno, JS teams get a framework with Gatsby-grade DX polish and millions of monthly installs.
 - Evals and observability were built in from the start, not bolted on when enterprise buyers appeared.
 - The platform launch (Studio, Server, Memory Gateway) gives production deployments a supported path.
 - Real enterprise logos claim production use (SoftBank, PayPal, Adobe, Replit, Marsh McLennan per the company blog).
@@ -76,6 +76,7 @@ Not for security-strict environments that cannot accept a recent npm supply-chai
 - 2026-10-02 - Recorded @mastra/core 1.74.0 (October 1 on npm) as the new latest release and refreshed download, star, and push counts.
 - 2026-10-07 - Added the mastra-ai/mastra star history chart to the Status section.
 - 2026-10-08 - Recorded @mastra/core 1.75.0 (October 7) on GitHub and npm.
+- 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo, pricing, both funding posts, npm registry and downloads, license, HN threads); the push date refreshed to 2026-10-27, @mastra/core still 1.79.0, and the npm month refreshed to 7,432,042 ending 2026-10-27 from 8,345,899 ending 2026-10-09.
 
 ## See also
 

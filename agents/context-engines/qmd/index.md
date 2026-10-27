@@ -1,7 +1,7 @@
 ---
 title: qmd
 created: 2026-08-30
-updated: 2026-10-20
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, retrieval, local-search, open-source]
 readability: 3
@@ -73,6 +73,7 @@ Not for code-symbol search (use grep-class tools), constrained machines, or team
 - 2026-09-27 - Refreshed the growth numbers (30,063 stars, 1,878 forks, 185 open issues and PRs); latest release remains v2.8.3, with no push since 2026-09-09.
 - 2026-10-07 - Added the tobi/qmd star history chart to the Status section.
 - 2026-10-20 - Full rotation re-verification: every cited URL re-fetched and intact; v2.8.3 remains the latest release with the unreleased train (metadata filtering and discovery, collection-partitioned vectors) recorded in Status.
+- 2026-10-27 - Full rotation re-verification: every cited URL re-fetched and intact; v2.8.3 remains the latest release with the unreleased train on main unchanged and no push since 2026-10-15.
 
 ## See also
 

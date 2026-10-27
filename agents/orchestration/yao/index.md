@@ -1,7 +1,7 @@
 ---
 title: Yao
 created: 2026-10-06
-updated: 2026-10-18
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-workspaces, self-hosted]
 readability: 3
@@ -23,7 +23,7 @@ The license is a modified Apache-2.0 that GitHub reports as NOASSERTION.
 
 ## Status
 
-Active on the product side and old on the clock: the repository was created 2021-09-06 and shows 8,122 stars and 722 forks as of 2026-10-13, pushed 2026-10-18 (GitHub API, as of 2026-10-18).
+Active on the product side and old on the clock: the repository was created 2021-09-06 and shows 8,122 stars and 722 forks as of 2026-10-13, pushed 2026-10-19 on nightly-channel and self-update work (GitHub API, as of 2026-10-27).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=YaoApp/yao&type=date&theme=dark&legend=top-left" />

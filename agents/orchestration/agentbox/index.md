@@ -1,7 +1,7 @@
 ---
 title: AgentBox
 created: 2026-10-10
-updated: 2026-10-15
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, sandboxing, docker, cloud, checkpoints]
 readability: 3
@@ -24,7 +24,7 @@ MIT, solo-maintained by Marco D'Alia, distributed as the npm package @madarco/ag
 ## Status
 
 Active and early: 538 stars and 51 forks as of 2026-10-15 on a repository created 2026-05-12, last push 2026-10-07, npm latest 0.33.0, and the tray app at 0.4.3 (2026-09-21).
-The Show HN thread from 2026-09-16, posted by the author, drew 4 points and one comment, so the independent footprint outside GitHub and npm is close to zero; the docs site at agent-box.sh returned 503 on both fetch attempts during this check.
+The Show HN thread from 2026-09-16, posted by the author, drew 4 points and one comment, so the independent footprint outside GitHub and npm is close to zero; the docs site at agent-box.sh, which returned 503 on both fetch attempts during the creation check, served again as of 2026-10-27.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=madarco/agentbox&type=date&theme=dark&legend=top-left" />
@@ -66,6 +66,7 @@ My disagreeable claim: **if warm checkpoints work as advertised, the worktree is
 ## Changes
 
 - 2026-10-10 - Created from the sandboxing scan's orchestration-fit flag.
+- 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, releases, npm, HN); the repo still quiet since 2026-10-07, npm still 0.33.0, and the docs site at agent-box.sh serving again after the 503s at creation.
 
 ## See also
 

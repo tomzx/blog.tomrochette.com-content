@@ -1,7 +1,7 @@
 ---
 title: Gemini CLI
 created: 2026-08-22
-updated: 2026-10-20
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, google, developer-tools]
 readability: 3
@@ -73,6 +73,7 @@ Not for individuals, whatever the 2025 blog posts (several of which I believed a
 - 2026-09-16 - Refreshed repository scale to about 107.0k stars and 6,417 commits.
 - 2026-10-07 - Added the google-gemini/gemini-cli star history chart to the Status section.
 - 2026-10-20 - Rotation re-verification: recorded the enterprise docs' "not optimized for the latest Gemini models" banner steering even licensed users to Antigravity CLI, and refreshed the commit count.
+- 2026-10-27 - Rotation re-verification, re-fetching every cited reference (all live) and confirming the enterprise docs still carry the not-optimized banner steering to Antigravity CLI.
 
 ## See also
 

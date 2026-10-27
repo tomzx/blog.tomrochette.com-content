@@ -1,7 +1,7 @@
 ---
 title: Nimbalyst
 created: 2026-10-11
-updated: 2026-10-25
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -34,7 +34,7 @@ The repository was created 2025-10-30 and shows 1,908 stars and 304 forks as of 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nimbalyst/nimbalyst&type=date&legend=top-left" />
 </picture>
 
-The open-source launch was a self-submitted Show HN on 2026-04-30 that drew 8 points and 4 comments; the footprint search now returns eight threads going back to November 2025, peaking at 29 points, with the newest (a wiki-driven-development post, 2026-10-21) at 4 points, and still no third-party coverage.
+The open-source launch was a self-submitted Show HN on 2026-04-30 that drew 8 points and 4 comments; the footprint search now returns eleven threads going back to November 2025, peaking at 29 points, with the newest pair from the wiki launch (a Show HN for the standalone nimbalyst-wiki plugin, 2026-10-20, 1 point, and a wiki-driven-development Ask HN, 2026-10-21, 4 points), and still no third-party coverage.
 
 ## Strengths
 
@@ -73,6 +73,7 @@ Not for terminal-first developers, and not for teams that need an independently 
 - 2026-10-13 - Recorded v0.81.1 (October 13, the nimbalyst-wiki plugin for the Codex CLI, wiki attachments, and usage-limit auto-resume for stopped Claude sessions) as the new latest release; counts refreshed.
 - 2026-10-16 - Recorded the v0.81.4 and v0.81.5 pair of October 14 (local-wiki fixes, interactive HTML pages as a wiki page type) and v0.81.6 (October 15, wiki coverage context at session start, wikiDoctor and listMarks tools) as the new latest releases; counts refreshed.
 - 2026-10-18 - Recorded v0.81.7 (October 16, next-prompt suggestions with Tab to fill, usage-limit auto-resume for Claude Agent sessions, and the new editor blocks from charts and callouts to columns, tabs, and link previews) as the new latest release.
+- 2026-10-27 - Rotation re-verification, all cited URLs re-fetched live: the repository, product site, docs, and release train stand (stable still v0.81.7 with the v0.82.3 pre-release on top), and the footprint search refreshed to eleven threads with the wiki-plugin launch pair of 2026-10-20 and 2026-10-21; still no third-party coverage.
 
 ## See also
 

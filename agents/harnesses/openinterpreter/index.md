@@ -1,7 +1,7 @@
 ---
 title: Open Interpreter
 created: 2026-09-27
-updated: 2026-10-19
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, harness-emulation]
 readability: 3
@@ -36,7 +36,7 @@ Active and fast-moving again after roughly nineteen quiet months: 68,554 stars, 
 The latest releases are rust-v0.0.56 (published 2026-10-07, adding GPT-6.1 Sol metadata, the current claude-sonnet-5-5 Anthropic choice with existing catalog safeguards, and a fix that rebinds shell-environment values when resuming an eligible idle thread), then rust-v0.0.54 and rust-v0.0.55, both published 2026-09-30: 0.0.54 bundles the maintained Codex 0.156.1 client with GPT-6 Astra, Sol, and Luna metadata and refreshes the Kimi, Qwen, DeepSeek, and Anthropic model catalogs, and 0.0.55 fixes offline model listing for configured non-OpenAI providers, with the 0.0.43 notes still describing the "stable upstream Codex rust-v0.154.0 compatibility baseline" and presets for GLM, Gemini, Claude, and OpenAI IDs.
 The legacy Python line is stranded: PyPI shows open-interpreter 0.4.3, the last of 130 releases, uploaded 2024-10-26.
 The history matters: a Show HN on 2023-08-30 (82 points), a 117-point thread in November 2023, a 72-point "natural language interface for computers" thread in November 2024, then silence until the relaunch post of 2026-07-13.
-The README now opens with "Today: Kimi K3 is here", saying the project reimplemented the provider-recommended Kimi Code harness in Rust.
+The README now opens by calling the project "a coding agent optimized for low-cost models", with the "Today: Kimi K3 is here" callout (the reimplementation of the provider-recommended Kimi Code harness in Rust) directly below it.
 
 ## Strengths
 
@@ -78,6 +78,7 @@ My disagreeable claim: harness emulation is a configuration layer rather than ne
 - 2026-10-07 - Added the openinterpreter/openinterpreter star history chart to the Status section.
 - 2026-10-07 - Recorded the rust-v0.0.56 release (October 7), which added GPT-6.1 Sol metadata and the claude-sonnet-5-5 catalog choice and fixed shell-environment rebinding on idle-thread resume, and refreshed repository counters.
 - 2026-10-19 - Updated the `/harness` emulation list to the README's current ten profiles, which added claude-code-bare, zcode, and kimi-cli since the last check; all cited URLs re-fetched and live.
+- 2026-10-27 - Rotation re-verification, re-fetching every cited reference (all live): the README's headline changed to "a coding agent optimized for low-cost models" with the Kimi K3 callout retained below it, rust-v0.0.56 remains the newest release, and the push date holds at 2026-10-11.
 
 ## See also
 

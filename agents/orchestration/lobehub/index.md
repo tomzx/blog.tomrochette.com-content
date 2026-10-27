@@ -1,7 +1,7 @@
 ---
 title: LobeHub
 created: 2026-09-27
-updated: 2026-10-18
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, source-available, self-hosted]
 readability: 3
@@ -24,7 +24,7 @@ The vendor is LobeHub LLC, which grew the product from the LobeChat project crea
 
 ## Status
 
-Active and shipping fast: the repo shows 83,237 stars, about 16k forks, and a push on 2026-10-23 (GitHub API, as of 2026-10-23).
+Active and shipping fast: the repo shows 83,237 stars, about 16k forks, and a push on 2026-10-27 (GitHub API, as of 2026-10-27).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ My disagreeable claim: the hire-and-schedule framing will not hold, because the 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-10-07 - Added the lobehub/lobehub star history chart to the Status section.
 - 2026-10-08 - Recorded the v2.2.19 line shipping stable on October 7 after the canary train.
+- 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, license, pricing, releases, docs, HN thread and search); the push date refreshed to 2026-10-27, v2.2.20 still the newest stable, and the pricing tiers unchanged on the live page.
 
 ## See also
 

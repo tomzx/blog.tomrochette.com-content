@@ -1,7 +1,7 @@
 ---
 title: VS Code + Copilot
 created: 2026-08-23
-updated: 2026-10-20
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, microsoft, github]
 readability: 3
@@ -35,6 +35,7 @@ The repository shows commits landing daily and about 194k stars as of 2026-10-16
 Every Copilot plan now includes Copilot CLI and the Copilot desktop app, and the agent docs are the editor documentation's front door as of August 2026.
 One contraction is ending: new self-serve Copilot Business and Copilot Enterprise purchases were paused on April 22, 2026, and on September 3, 2026 GitHub announced it is gradually reopening self-serve sign-ups for card and PayPal payers over the following weeks.
 The same changelog moved card and PayPal Business and Enterprise customers to prepaid seats from October 1, 2026: every seat must be paid before its user gains access, and existing customers' seats incur an upfront charge at the start of the billing cycle.
+The neutrality has a nudge now: release 1.143 (October 2026) makes the Copilot harness, built on the Copilot SDK and the Agent Host, the default for new sessions, retires the Local harness, and adds multi-model comparison runs in the Agents window where the same task runs in parallel across Copilot, Claude, and Codex harnesses with a judge model scoring the attempts.
 
 ## Strengths
 
@@ -82,6 +83,7 @@ Not for teams that want the editor itself to come with strong opinions.
 - 2026-10-05 - Recorded the prepaid-seat billing in force from October 1, 2026 for card and PayPal Business and Enterprise customers, per the September 3 changelog; plan prices and credit allotments re-verified unchanged.
 - 2026-10-07 - Added the microsoft/vscode star history chart to the Status section.
 - 2026-10-20 - Rotation re-verification, all cited URLs re-fetched live: the plan prices and the 1,500/7,000/20,000 credit totals stand (the plans page now itemizes each total as base plus flex allowances), the prepaid-seat billing and the agents docs stand, and the repository shows commits landing the same day.
+- 2026-10-27 - Recorded the 1.143 release (October 2026): the Copilot harness is now the default for new sessions and the Local harness retires, with multi-model comparison runs added to the Agents window; flagged as the neutrality nudge in Status.
 
 ## See also
 
@@ -97,4 +99,5 @@ Not for teams that want the editor itself to come with strong opinions.
 - https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github - the cloud agent and issue assignment (formerly /concepts/about-copilot-coding-agent, then /concepts/agents/cloud-agent/about-cloud-agent, moved)
 - https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups - the September 3, 2026 reopening announcement for self-serve Business and Enterprise sign-ups, and the prepaid-seat billing it introduced effective October 1, 2026
 - https://github.com/microsoft/vscode - MIT license and repository scale, as of 2026-10-16
+- https://code.visualstudio.com/updates/v1_143 - the 1.143 release notes: the Copilot harness default, the Local harness retirement, multi-model comparison, and worktree storage cleanup, fetched 2026-10-27
 - https://news.ycombinator.com/item?id=44031432 - coding-agent launch discussion with early skepticism

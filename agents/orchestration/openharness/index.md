@@ -1,7 +1,7 @@
 ---
 title: OpenHarness
 created: 2026-10-24
-updated: 2026-10-24
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agentic-development-environment, multi-agent, encryption, hardware]
 readability: 3
@@ -26,7 +26,8 @@ An experimental Agent Messages surface lets harnesses in one tab message each ot
 
 ## Status
 
-Active and young: the repository was created 2026-08-04, held 1,358 stars and 125 forks as of 2026-10-24, and was pushed the same day (GitHub API, as of 2026-10-24).
+Active and young: the repository was created 2026-08-04, held 1,358 stars and 125 forks as of 2026-10-24, and was pushed 2026-10-27 (GitHub API, as of 2026-10-27).
+The release train runs two lines: a `v0.4.x_cli` stable line at v0.4.76_cli (2026-10-27) and daily `v1.3.x_web` browser builds served from harness.autonomous.ai (GitHub releases, as of 2026-10-27).
 Autonomous launched it publicly in mid-October 2026, and the launch coverage recorded 213 Product Hunt upvotes about seven hours into launch day and about 3,553 commits at 1,266 stars (Reveneau, 2026-10-16).
 
 <picture>
@@ -81,6 +82,7 @@ Not for Windows users, and not for anyone who needs independent performance evid
 ## Changes
 
 - 2026-10-24 - Created.
+- 2026-10-27 - Recorded the release train (v0.4.76_cli stable on 2026-10-27, daily v1.3.x_web browser builds) and refreshed the push date.
 
 ## See also
 

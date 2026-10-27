@@ -33,7 +33,7 @@ Default models are the GPT-6 family (Astra, Sol, and Luna) rolling out across pl
 </picture>
 
 The CLI launched April 2025 and has been rewritten and rebuilt since; the current docs position it as an open agent harness platform.
-The release train stays hot: rust-v0.164.0 (October 23, 2026) is the latest stable, adding ten numbered `/presets` slots for reusable prompts and slash commands with a keyboard menu, inline `/model` and `/permissions` arguments, and image previews in the fullscreen transcript on Kitty and Sixel terminals, after rust-v0.163.0 (October 15) added a searchable `/config` for preferences, follow-up prompts that steer a responding turn (interrupting also stops active Code Mode cells and their nested tool calls), and a configurable leader key in `/keymap`.
+The release train stays hot: rust-v0.164.0 (October 23, 2026) is the latest stable, adding ten numbered `/presets` slots for reusable prompts and slash commands with a keyboard menu, inline `/model` and `/permissions` arguments, and image previews in the fullscreen transcript on Kitty and Sixel terminals, after rust-v0.163.0 (October 15) added a searchable `/config` for preferences, follow-up prompts that steer a responding turn (interrupting also stops active Code Mode cells and their nested tool calls), and a configurable leader key in `/keymap`, and the v0.165.0 alpha train is running as of 2026-10-27.
 
 ## Strengths
 
@@ -89,6 +89,7 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - 2026-10-08 - Recorded the pricing page listing GPT-6.1 Sol on Plus and Pro for Work and Codex (its credit rate card added alongside), with the GPT-5.5 October 14 retirement reconfirmed.
 - 2026-10-17 - Recorded the stable train reaching rust-v0.163.0 (October 15), which added the searchable `/config`, follow-up steering of a responding turn with Code Mode cell interruption, and a configurable leader key, with the v0.164.0 alphas following, and re-verified the ChatGPT pricing page unchanged (Pro still $100/$200/$500 with Ultrafast on the $500 tier).
 - 2026-10-25 - Rotation re-verification, every cited reference live, and recorded rust-v0.164.0 as the latest stable (October 23): ten numbered `/presets` slots, inline `/model` and `/permissions` arguments, and Kitty/Sixel image previews in the fullscreen transcript.
+- 2026-10-27 - Recorded the v0.165.0 alpha train running (three alphas published October 26 through 27) behind the unchanged rust-v0.164.0 stable.
 
 ## See also
 

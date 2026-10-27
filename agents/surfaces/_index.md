@@ -23,6 +23,7 @@ The editors and IDEs where agents meet your code, from AI-native platforms and a
 - [Kiro](kiro/index.md) - AWS's spec-driven agentic IDE, credits-metered, from a 50-credit free tier to $200/month.
 - [Nimbalyst](nimbalyst/index.md) - the MIT visual workspace where you and Claude Code or Codex edit the same markdown, diagrams, and code, every agent change a per-block diff.
 - [OpenChamber](openchamber/index.md) - the MIT open-source session cockpit around OpenCode, worktrees and multi-model fusion included.
+- [puppyone](puppyone/index.md) - the Apache-2.0 local-first desktop editor where coding CLIs and general agents work in one plain folder under Git-tracked redlines, with an Early Access cloud context file system behind it.
 - [px0](px0/index.md) - the MIT browser IDE for reviewing AI-generated code, one static Go binary over PR diffs and instant search, handing fixes to your own harnesses.
 - [Roo Code](roo-code/index.md) - the Cline-fork VS Code extension that sunset itself in May 2026 to chase cloud agents.
 - [Trae](trae/index.md) - ByteDance's AI IDE, repriced in September 2026 to a $20/$60/$200 ladder, SOLO mode and cloud tasks included, telemetry questions attached.
@@ -63,3 +64,4 @@ Its members are compared on shared rows in the [Surface Feature Matrix](surface-
 - 2026-10-11 - Added CodeNomad.
 - 2026-10-11 - Added px0.
 - 2026-10-23 - Added Waku.
+- 2026-10-27 - Added puppyone.

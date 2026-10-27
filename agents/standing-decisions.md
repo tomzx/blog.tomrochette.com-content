@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [agents]
 readability: 0
@@ -77,6 +77,9 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-26 | skills | the rea.tools scale record grew from the 109.9k recorded 2026-10-13 to 387,014 stars (morluto/rea, fetched 2026-10-26), now the largest known skills-adjacent record and still outside on the standing exclusion pending q#11 and q#20 | the VoltAgent/awesome-agent-skills scan surfaced the repo as a new entry indexing one of its skill directories
 - 2026-10-26 | software-factory | the ahmadyan/awesome-software-factory list (2 stars, single-day push, maintainer self-promotes Agentastic.dev) stays below the dedicated-source bar and is not adopted as a mapped source | its entries cross-check to known members, already-resolved subjects, or other categories' kinds
 - 2026-10-26 | spec-driven-development | acceptance-test and QA harnesses route to evaluation-review under the primary-artifact rule | vostride/agent-qa (895 stars, FSL-1.1-ALv2, self-published AndroidWorld and AppControlBench results) authors and runs acceptance tests, not spec contracts
+- 2026-10-27 | cross-category | npm's point/last-month downloads endpoint can serve a stale window (June reads on October 27 across harnesses, protocols, and context engines), so refreshes use dated-range queries (api.npmjs.org/downloads/point/<start>:<end>) and range sums whenever the point response's window dates lag today | ag-ui, repomix, copilot-cli, and bullet all read stale or wrong figures from point endpoints before range sums corrected them
+- 2026-10-27 | surfaces | OpenBitFun stays out on the Cowork-style general-purpose workspace rejection and the q#14 re-read found the same self-described workspace with a Mini App marketplace, so the question reads closable | surfaces re-check on the governing question
+- 2026-10-27 | surfaces | a vendor with a dual identity files by its desktop editor kind, folding the sibling product in as prose | puppyone admitted as an agent editor even though its own docs pitch a Context File System
 
 ## Standing family rejections
 

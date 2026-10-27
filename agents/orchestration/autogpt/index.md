@@ -1,7 +1,7 @@
 ---
 title: AutoGPT
 created: 2026-09-27
-updated: 2026-10-23
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, workflows, source-available]
 readability: 3
@@ -23,7 +23,7 @@ It positions itself as "AI agents that finish the work", with file-aware agents,
 
 ## Status
 
-Active and shipping: the repo shows 187,580 stars, was pushed 2026-10-23, and carries the platform beta at v0.9.0 (2026-10-23) after v0.8.4 (2026-10-14) and v0.8.3 (2026-10-08) (GitHub API, releases, as of 2026-10-23).
+Active and shipping: the repo shows 187,580 stars, was pushed 2026-10-27, and carries the platform beta at v0.9.0 (2026-10-23) after v0.8.4 (2026-10-14) and v0.8.3 (2026-10-08) (GitHub API, releases, as of 2026-10-27).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,7 @@ My disagreeable claim: the 187k stars are a liability now, because they attract 
 - 2026-10-08 - Recorded platform beta v0.8.3 (October 8) and the star count as of 2026-10-08.
 
 - 2026-10-11 - Recorded the hosted-pricing restructure: monthly billing now leads at $50 and $320 per month, yearly (15 percent off, $42.50 and $272 effective) became the toggle, and the subscription covers Otto and Expert chat while workflow runs are pay-as-you-go.
+- 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, license, releases, pricing, docs, blog post, both HN threads); the push date refreshed to 2026-10-27, platform beta v0.9.0 still the newest tag.
 
 ## See also
 

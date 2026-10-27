@@ -1,7 +1,7 @@
 ---
 title: Agent Orchestrator
 created: 2026-10-06
-updated: 2026-10-25
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, kanban, worktrees, multi-harness, desktop]
 readability: 3
@@ -22,7 +22,7 @@ It drives Claude Code, Codex, and 25 more CLIs per the repo description (23 coun
 ## Status
 
 Active and shipping daily: 13,193 stars as of 2026-10-15 (1,788 forks, 821 open issues and pull requests, and 30 contributors as of 2026-10-11), created 2026-02-13 (GitHub API, as of 2026-10-15).
-Stable releases ride the nightly train, v0.14.6 (2026-10-24) the latest after v0.14.5 (2026-10-22), v0.14.4 (2026-10-21), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-10-25 (GitHub API, as of 2026-10-25).
+Stable releases ride the nightly train, v0.14.6 (2026-10-24) the latest after v0.14.5 (2026-10-22), v0.14.4 (2026-10-21), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-10-27 (GitHub API, as of 2026-10-27).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&theme=dark&legend=top-left" />

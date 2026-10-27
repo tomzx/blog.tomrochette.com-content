@@ -1,7 +1,7 @@
 ---
 title: LoopTroop
 created: 2026-09-27
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, planning, worktrees, opencode]
 readability: 3
@@ -23,7 +23,7 @@ A human approval gate sits before any code is committed, and the README and docs
 
 ## Status
 
-Active and early: about 162 stars and 14 forks as of 2026-10-15, created 2026-03-03, with commits through 2026-10-26 and a latest release of v0.6.1 (2026-10-13), a point release after v0.6.0 (2026-10-01), the major update (80 commits since v0.5.9) that added OpenCode v2 support, traceable skip reasons and decision history, and more than doubled the passing test count to 8,099.
+Active and early: about 162 stars and 14 forks as of 2026-10-15, created 2026-03-03, with commits through 2026-10-27 and a latest release of v0.6.1 (2026-10-13), a point release after v0.6.0 (2026-10-01), the major update (80 commits since v0.5.9) that added OpenCode v2 support, traceable skip reasons and decision history, and more than doubled the passing test count to 8,099.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=looptroop-ai/LoopTroop&type=date&theme=dark&legend=top-left" />

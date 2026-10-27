@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-10-25
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
@@ -95,6 +95,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - 2026-10-07 - Added the anthropics/claude-code star history chart to the Status section.
 - 2026-10-16 - Recorded the official Code Review plugin (about 438,525 installs, five parallel reviewers) as ecosystem evidence in Status per the vendor-sibling fold precedent.
 - 2026-10-25 - Rotation re-verification, every cited reference live and the changelog head confirming the v2.1.310 train; also repaired this Changes section's ordering, which had the 2026-10-16 bullet above the creation bullet against the oldest-first rule.
+- 2026-10-27 - Recorded the v2.1.311 release (October 26), whose headline fix turns the 1M-context overage stop into an automatic compaction and continue, alongside self-hosted-runner idle-hold flags, subagent MCP connection-race fixes, and a MEMORY.md staleness fix after compaction.
 
 ## See also
 

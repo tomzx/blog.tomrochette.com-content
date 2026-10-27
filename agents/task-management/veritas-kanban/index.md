@@ -1,7 +1,7 @@
 ---
 title: Veritas Kanban
 created: 2026-10-11
-updated: 2026-10-25
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, governance, local-first, open-source]
 readability: 3
@@ -31,7 +31,7 @@ A Hacker News search returns no story about it (2026-10-11), so adoption evidenc
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=BradGroux/veritas-kanban&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=BradGroux/veritas-kanban&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=BradGroux/veritas-kanban&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=BradGroux/veritas-kanban&type=date&legend=top-left" />
 </picture>
 
@@ -73,6 +73,7 @@ My disagreeable claim: the run-scoped tool catalog belongs at the MCP layer, not
 - 2026-10-23 - Corrected the main-branch claim after the push signal showed main active again (2026-10-23 fixes: MCP tools using canonical task priorities, parseable GitHub config JSON output, bounded API body consumption, desktop shutdown escalation) and refreshed counts (23 open issues and pull requests, pushed 2026-10-23).
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-27 - Corrected the star-history chart light source (it carried the dark-theme parameter; only the dark source may).
 
 ## See also
 

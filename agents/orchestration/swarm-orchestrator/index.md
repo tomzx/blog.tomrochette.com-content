@@ -1,7 +1,7 @@
 ---
 title: Swarm Orchestrator
 created: 2026-10-24
-updated: 2026-10-24
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, coding-agent, evidence, git-worktrees]
 readability: 3
@@ -26,7 +26,7 @@ The package name has carried four products: Copilot CLI session orchestration, t
 
 ## Status
 
-Active and fast-moving under one maintainer: the repository was created 2026-01-22, held 112 stars, 5 forks, and 5 open issues as of 2026-10-24, was pushed the same day, and its 1,586 commits all belong to one contributor (GitHub API, as of 2026-10-24).
+Active and fast-moving under one maintainer: the repository was created 2026-01-22, held 112 stars, 5 forks, and 5 open issues as of 2026-10-24, was pushed 2026-10-25, and its 1,586 commits all belong to one contributor (GitHub API, as of 2026-10-27).
 npm serves 14.4.0 (2026-10-10) as latest while the README still says 13.1.9, and the package drew 672 downloads in the month to 2026-10-22 (npm registry and downloads API, as of 2026-10-24).
 
 <picture>

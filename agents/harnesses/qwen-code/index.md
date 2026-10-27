@@ -1,7 +1,7 @@
 ---
 title: Qwen Code
 created: 2026-08-24
-updated: 2026-10-25
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, alibaba]
 readability: 3
@@ -35,7 +35,7 @@ The repository shows about 28.5k stars as of 2026-10-15 and was pushed on the da
 </picture>
 
 It launched in July 2025 as a Qwen3-Coder-optimized CLI; the Acknowledgments section records the Gemini CLI v0.8.2 origin and the split from upstream at v0.1.
-The release train stays busy: v0.26.1 (October 24, 2026) is the latest stable, restoring per-group session isolation for QQ bot threads and adding opt-in daemon token persistence (`qwen daemon start --save-token`), after v0.26.0 (October 21), the first of the 0.26 line, added daemon-side session-targeted skill and extension refresh, runtime-broker session-create warm-up for workspace-isolated bound sessions, and a managed-agent shipping feature, after v0.25.3 (October 19) promoted the October 16 preview and added optional model-generated layouts to Test Failure Explorer with validation and a fixed-view fallback, a collapsible Recent-executions panel with live request and tool timings in the Web Shell trajectory view, and managed sessions from published AgentDefinitions loading static Skills and pinned MCP servers, and v0.25.2 (October 15) added managed-agent mailbox traffic over Session messages and a private extension that imports Vitest 3.2 JSON reports.
+The release train stays busy: v0.26.1 (October 24, 2026) is the latest stable, restoring per-group session isolation for QQ bot threads and adding opt-in daemon token persistence (`qwen daemon start --save-token`), after v0.26.0 (October 21), the first of the 0.26 line, added daemon-side session-targeted skill and extension refresh, runtime-broker session-create warm-up for workspace-isolated bound sessions, and a managed-agent shipping feature, after v0.25.3 (October 19) promoted the October 16 preview and added optional model-generated layouts to Test Failure Explorer with validation and a fixed-view fallback, a collapsible Recent-executions panel with live request and tool timings in the Web Shell trajectory view, and managed sessions from published AgentDefinitions loading static Skills and pinned MCP servers, and v0.25.2 (October 15) added managed-agent mailbox traffic over Session messages and a private extension that imports Vitest 3.2 JSON reports; the train moved on October 26 with the first v0.26.2 preview and an sdk-typescript-v0.1.23 tag, with the default branch pushed 2026-10-27.
 
 ## Strengths
 
@@ -79,6 +79,7 @@ Not for workflows where model behavior provenance or data residency is tightly g
 - 2026-10-20 - Recorded v0.25.3 as the latest stable (October 19): model-generated Test Failure Explorer layouts, a live Recent-executions Web Shell panel, and managed sessions loading static Skills with pinned MCP servers.
 - 2026-10-24 - Recorded v0.26.0 as the latest stable (October 21), the first of the 0.26 line: daemon-side session-targeted skill and extension refresh, runtime-broker warm session creation for workspace-isolated bound sessions, and managed-agent shipping.
 - 2026-10-25 - Recorded v0.26.1 as the latest stable (October 24): QQ bot per-group session isolation restored under thread scope, and opt-in daemon token persistence via `qwen daemon start --save-token`.
+- 2026-10-27 - Recorded the train moving on October 26 with the first v0.26.2 preview and the sdk-typescript-v0.1.23 tag, the stable unchanged at v0.26.1, and the push date refreshed to 2026-10-27.
 
 ## See also
 

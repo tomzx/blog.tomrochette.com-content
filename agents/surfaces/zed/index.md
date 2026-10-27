@@ -1,7 +1,7 @@
 ---
 title: Zed
 created: 2026-08-23
-updated: 2026-10-18
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, surfaces, ai-editors, zed-industries]
 readability: 3
@@ -51,7 +51,7 @@ The engineering runs deep enough to swap graphics libraries mid-flight (the blad
 
 Personal is $0 forever, with unlimited use through your own keys or external agents (the page no longer states a free-tier edit-prediction count, where 2,000 accepted predictions stood on the 2026-09-18 reading).
 Pro is $10/month with unlimited edit predictions and $5 of tokens included, with usage beyond at API list price plus 10%.
-Business is $30/seat/month for org model policies, data governance, and spend visibility, as of 2026-10-18 (re-verified, prices unchanged; SSO, SAML, and SCIM still documented as planned).
+Business is $30/seat/month for org model policies, data governance, and spend visibility, as of 2026-10-27 (rotation re-verification, prices unchanged; SSO, SAML, and SCIM still documented as planned).
 
 ## Price history
 
@@ -77,6 +77,7 @@ Not for teams needing enterprise identity plumbing or a turnkey agentic platform
 - 2026-10-04 - Linked the new Delta note, Zed Industries' thread-based agentic environment.
 - 2026-10-07 - Added the zed-industries/zed star history chart to the Status section.
 - 2026-10-18 - Re-verified prices unchanged and corrected the edit-prediction terms: the pricing page no longer states a free-tier count (2,000 accepted predictions stood on 2026-09-18) and now lists edit predictions as unlimited on Pro and Business.
+- 2026-10-27 - Rotation re-verification, all cited URLs re-fetched live: the pricing page (Personal $0, Pro $10, Business $30, list plus 10% hosting, SSO, SAML, and SCIM still planned), the LLM providers docs, and both HN threads stand; prices unchanged, no release tracked at note level.
 
 ## See also
 
@@ -88,7 +89,7 @@ Not for teams needing enterprise identity plumbing or a turnkey agentic platform
 
 ## References
 
-- https://zed.dev/pricing - tiers, list+10% hosting, SSO status, re-verified 2026-10-18 (SSO, SAML, and SCIM still planned; the page no longer states a free-tier prediction count and lists edit predictions as unlimited on Pro and Business)
+- https://zed.dev/pricing - tiers, list+10% hosting, SSO status, re-verified 2026-10-27 (SSO, SAML, and SCIM still planned; prices unchanged since 2026-10-18; the Pro trial now names GPT-6 Luna as its hosted model)
 - https://github.com/zed-industries/zed - repository scale and license, as of 2026-10-16
 - https://zed.dev/docs/ai/llm-providers - the BYOK provider list
 - https://news.ycombinator.com/item?id=40902826 - the 2024 auto-download consent thread

@@ -15,6 +15,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Ante](ante/index.md) - Antigma Labs' ~15MB Rust harness with an embedded llama.cpp engine, offline GGUF or 12+ cloud providers, footprint as the product.
 - [Atomic Agent](atomic-agent/index.md) - AtomicBot-ai's MIT local-first harness over its own TurboQuant llama.cpp fork, grammar-constrained tool calls and Fusion worker pool built so small models survive long runs.
 - [AutoDev](auto-dev/index.md) - Phodal's MPL-2.0 Kotlin Multiplatform agent platform, five agents and nine subagents across IDEA, VS Code, CLI, web, and mobile, Xiuper 3.0 still alpha under a one-person bus factor.
+- [Autohand Code CLI](autohand-code-cli/index.md) - Autohand AI's Apache-2.0 Bun terminal agent that imports your Claude Code setup, with dollar-capped auto mode in isolated worktrees, process-based agent teams, and its own Fantail and Moa models on a free-to-$200 hosted ladder.
 - [Avante.nvim](avante-nvim/index.md) - the Apache-2.0 Neovim plugin running a Cursor-style agentic loop in the editor with bring-your-own providers, 18.2k stars and a 300-point launch thread behind it.
 - [Bullet](bullet/index.md) - TryBullet's closed-source YC S26 latency bet, free today, with a published 479-of-500 SWE-bench run.
 - [Claude Code](claude-code/index.md) - Anthropic's everywhere-at-once harness, the platform benchmark and the token-cost cautionary tale.
@@ -101,3 +102,4 @@ Its members are compared on shared rows in the [Harness Feature Matrix](harness-
 - 2026-10-13 - Added gptme.
 - 2026-10-13 - Added LongHorizon-Harness.
 - 2026-10-21 - Added Mirror.
+- 2026-10-27 - Added Autohand Code CLI.

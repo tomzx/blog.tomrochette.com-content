@@ -1,7 +1,7 @@
 ---
 title: Cline
 created: 2026-08-24
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, byok]
 readability: 3
@@ -38,6 +38,7 @@ The repository shows about 70.3k stars and 7.7k forks as of 2026-10-15, with 250
 The VS Code Marketplace page shows 5,736,752 installs as of 2026-10-26 and a 4.1/5 average rating as of 2026-09-22; the product site claims 11M+ installs across the marketplace and Open VSX.
 The project started as the "Claude Dev" extension in late 2024 and has been renamed and corporatized since.
 v4.1.25 (October 16, 2026) began rolling out Cline Cloud sessions: a task runs in a hosted sandbox on a GitHub repo and branch you pick, shows up in Recent and History with its status, notifies you when it finishes, and keeps running after you close your editor ([release notes](https://github.com/cline/cline/releases), rolling out gradually).
+v4.1.26 (October 26, 2026) deepened the cloud side with a Local/Cloud model toggle for new cloud tasks (the hosted model saved separately from local ones) and a progress card for sandbox starts, and refreshed the provider catalog: ClinePass now defaults to Kimi K3.1 Pro, the free list swaps in Reflection Beam, Nemotron 3.5 Lightning, and Laguna S 2.1, and GPT-6 models get `max_completion_tokens` on OpenAI-compatible endpoints while Gemini free-tier keys stop failing on native Google Search; the component tags moved the same day (cli-v3.0.74, desktop-v0.0.49, and sdk v0.2.0).
 Beyond the open harness, the vendor now sells Cline Spec Driven, an enterprise agent platform built with LG CNS that runs a specialized-agent pipeline over a licensed, self-hostable deployment, listed on the product site as of 2026-10-06.
 
 ## Strengths
@@ -91,6 +92,7 @@ Not for teams that require every client binary open or a coding-agnostic automat
 - 2026-10-07 - Added the cline/cline star history chart to the Status section.
 - 2026-10-18 - Recorded Cline Cloud sessions rolling out gradually in v4.1.25 (October 16, 2026): hosted sandbox tasks on a picked repo and branch that keep running after the editor closes, and refreshed the marketplace install count.
 - 2026-10-18 - Recorded the ClinePass pricing wording settling at a flat $9.99/month in the docs (promotional-rate wording retired, headline unchanged), and appended the matching Price history row.
+- 2026-10-27 - Rotation re-verification, every cited reference live; recorded v4.1.26 (October 26): the Local/Cloud model toggle and sandbox progress card for cloud tasks, the provider-catalog refresh with ClinePass defaulting to Kimi K3.1 Pro, GPT-6 `max_completion_tokens` fixes, and the Gemini native-search 429 fix, with the cli-v3.0.74, desktop-v0.0.49, and sdk v0.2.0 component tags.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Lanes
 created: 2026-09-27
-updated: 2026-10-11
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, macos, worktrees, issue-board]
 readability: 3
@@ -82,6 +82,7 @@ Not for Windows or Linux shops, and not for anyone who needs a verifiably open l
 - 2026-10-07 - Added the lanes-sh/app star history chart to the Status section.
 
 - 2026-10-11 - Corrected the tier split against the live pricing page: security features (SSO/SAML, audit log, IP restrictions, data residency) sit on Enterprise, not Pro, and recorded the Forms quotas (Free 3 forms and 100 submissions monthly, Pro 1,000 and 50,000).
+- 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (product site, docs, pricing, llms.txt, the app repository, the runany.dev walkthrough); no claims changed, v0.49.6 (2026-10-06) still the newest release and the repository quiet since.
 
 ## See also
 

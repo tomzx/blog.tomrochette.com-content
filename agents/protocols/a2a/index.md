@@ -1,7 +1,7 @@
 ---
 title: Agent2Agent Protocol (A2A)
 created: 2026-08-24
-updated: 2026-10-24
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, multi-agent]
 readability: 3
@@ -77,6 +77,7 @@ The disagreeable part: I expect A2A to stay an enterprise convention, and if aut
 - 2026-10-07 - Added the a2aproject/A2A star history chart to the Status section.
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the spec stays at v1.0.1 with the repository pushed 2026-10-16, the official CLI's release train moved to v0.3.1 (2026-10-16), and the Ask HN thread's comment count was corrected from 46 to 45.
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the spec stays at v1.0.1 with the repository pushed 2026-10-21, the official CLI's release train still ends at v0.3.1 (2026-10-16), the Ask HN thread's comment count re-confirmed at 45, and both pypistats windows unchanged (the as-of 2026-10-07 figures stand).
+- 2026-10-27 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the spec stays at v1.0.1 with the repository pushed 2026-10-21 and no default-branch commits since, the official CLI's release train still ends at v0.3.1 (2026-10-16), the Ask HN thread re-confirmed at 45 comments, and both pypistats windows unchanged (the as-of 2026-10-07 figures stand).
 
 ## See also
 

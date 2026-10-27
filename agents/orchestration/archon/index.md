@@ -1,7 +1,7 @@
 ---
 title: Archon
 created: 2026-10-07
-updated: 2026-10-23
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflow-engine, worktrees]
 readability: 3
@@ -23,7 +23,7 @@ Setup runs through Claude Code itself (the guided wizard is a Claude Code sessio
 
 ## Status
 
-Active: created 2025-02-07, 23,687 stars as of 2026-10-15, pushed 2026-10-23, and the release line woke on 2026-10-17 with v0.12.0 and v0.12.1 after three weeks on v0.11.1 (GitHub API, as of 2026-10-23).
+Active: created 2025-02-07, 23,687 stars as of 2026-10-15, pushed 2026-10-27, and the release line woke on 2026-10-17 with v0.12.0 and v0.12.1 after three weeks on v0.11.1 (GitHub API, as of 2026-10-27).
 The v0.12.0 release notes name providers becoming separate installs for release binaries, SDLC-pack intake, build, and merge queues, runs that wait out usage and rate limits, and workflows that run without a database while keeping durable state.
 
 <picture>
