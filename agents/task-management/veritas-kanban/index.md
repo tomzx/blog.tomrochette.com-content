@@ -71,7 +71,6 @@ My disagreeable claim: the run-scoped tool catalog belongs at the MCP layer, not
 - 2026-10-11 - Created after the orchestration resolution flagged the repository to this category, with the phase-authority and run-scoped-tool-catalog mechanisms recorded as the differentiators against the review-gate and ledger members.
 - 2026-10-21 - Rotation re-verification with every cited URL re-fetched live (repository page, README, FEATURES.md, SETUP-PATHS.md, releases, HN search): nothing material changed, with v6.2.1 still the newest tag, the main branch still quiet since its release commit while side-branch pushes continue, and the backlog corrected to 48 open issues and pull requests.
 - 2026-10-23 - Corrected the main-branch claim after the push signal showed main active again (2026-10-23 fixes: MCP tools using canonical task priorities, parseable GitHub config JSON output, bounded API body consumption, desktop shutdown escalation) and refreshed counts (23 open issues and pull requests, pushed 2026-10-23).
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-27 - Corrected the star-history chart light source (it carried the dark-theme parameter; only the dark source may).
 

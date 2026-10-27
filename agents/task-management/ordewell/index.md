@@ -1,7 +1,7 @@
 ---
 title: Ordewell
 created: 2026-09-16
-updated: 2026-10-25
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, planner, multi-agent, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 ## Status
 
 Active, young, and small.
-As of 2026-10-25: 202 stars (as of 2026-10-14), 19 forks, 47 open issues and pull requests, created 2026-07-31, pushed 2026-10-24, latest release v0.10.12 on 2026-10-22, and about 10,600 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+As of 2026-10-27: 202 stars (as of 2026-10-14), 19 forks, 47 open issues and pull requests, created 2026-07-31, pushed 2026-10-27, latest release v0.10.12 on 2026-10-22, and about 8,700 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
 v0.10.11 and v0.10.12 (both 2026-10-22) consolidated run and planner settings into one /settings surface with the one-value slash commands gone from the TUI and VS Code (the headless CLI keeps them), held a task_complete report until its turn closes so the tool reply reaches the runner before the verdict stops it, and kept a completion through a forced message and a message_undelivered exit so the runner's success is not discarded.
 
 <picture>
@@ -106,7 +106,7 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 ## References
 
 - https://github.com/ordewell/ordewell - README: plan artifact, runners, marker verification, plugin manifests
-- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-10-25
+- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-10-27
 - https://api.github.com/repos/ordewell/ordewell/releases - the v0.10.0 through v0.10.10 release notes (2026-10-14 to 2026-10-19): the consent-integrity rules, checkpoint answering, the onboarding changes, saved-session idle loading, and the unified usage line
 - https://github.com/ordewell/ordewell/blob/main/CHANGELOG.md - the v0.7.0 entry: `task_complete` and `checkpoint` tools, tool-based planning, the marker fallback scope
 - https://raw.githubusercontent.com/ordewell/ordewell/main/CHANGELOG.md - the v0.8.0, v0.8.1, v0.9.0, and v0.9.1 entries: the removals, unified skills, the escape closures, the one-envelope planner research, and the repository-config security release
@@ -115,5 +115,4 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0002-planner-as-conversation-loop.md - the conversation-loop decision and the session wipe
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0008-planner-exploration-envelope.md - the auto/ask/refuse tiers and path confinement
 - https://news.ycombinator.com/item?id=49712276 - the launch thread: the AI-written exchange, the absorption objection, 56 points and 30 comments
-- https://api.npmjs.org/downloads/point/last-month/@ordewell/cli - 5,446 downloads last month for the scoped package
-- https://api.npmjs.org/downloads/point/last-month/ordewell - 5,122 downloads last month for the unscoped package
+- https://api.npmjs.org/downloads/point/2026-09-27:2026-10-27/@ordewell/cli - 4,503 downloads and the unscoped package 4,157 over the trailing month to 2026-10-27

@@ -1,7 +1,7 @@
 ---
 title: Flue
 created: 2026-08-30
-updated: 2026-10-18
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, agent-frameworks, typescript, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by the Astro Technology Company team under Fred Schott, acquired by Cloudfl
 
 ## Status
 
-Young and fast: 8,459 stars, 508 forks, 49 open issues and PRs as of 2026-10-13, created 2026-02-07, 1,136 commits.
+Young and fast: 8,459 stars as of 2026-10-13, 518 forks and 52 open issues and PRs as of 2026-10-27, created 2026-02-07, 1,136 commits.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=withastro/flue&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ Not for anyone needing the framework itself to be the security boundary, or bett
 - 2026-10-07 - Added the withastro/flue star history chart to the Status section.
 - 2026-10-13 - Recorded the npm train moving to 2.3.0 (2026-10-12) while the GitHub releases latest holds at @flue/cli@2.2.2 (2026-09-28) and git tags remain at v2.0.6, and refreshed counts (8,459 stars, 49 open issues and PRs).
 - 2026-10-18 - Recorded the git tags catching up to v2.3.0, so the npm train and the tag list now agree while the GitHub releases latest still holds at @flue/cli@2.2.2 (2026-09-28).
+- 2026-10-27 - Rotation re-verification: every cited URL re-fetched and alive (repository, the 2.0 rewrite post, the three-tier sandbox docs, the skeptical thread, the acquisition release, the dogfooding coverage); the three-surface release reading re-confirmed (npm and tags at 2.3.0, the GitHub releases latest still @flue/cli@2.2.2), no commit since 2026-10-17, and the fork and open-issue counts refreshed (518 forks, 52 open issues and PRs, as of 2026-10-27, the star figure untouched per the exemption).
 
 ## See also
 

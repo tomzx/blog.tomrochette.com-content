@@ -1,7 +1,7 @@
 ---
 title: NVX
 created: 2026-10-07
-updated: 2026-10-25
+updated: 2026-10-27
 readability: 3
 audience_notes: >
   Platform engineers tracking where Microsoft research is taking microVM isolation for agentic workloads, especially on Windows hypervisors.
@@ -23,7 +23,7 @@ This is a research artifact with a release train of daily `v0.1.0-dev` prereleas
 
 ## Status
 
-Young, institutional, and quiet in public: 400 stars, pushed 2026-10-25, created 2026-08-27.
+Young, institutional, and quiet in public: 400 stars, pushed 2026-10-27, created 2026-08-27.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Young, institutional, and quiet in public: 400 stars, pushed 2026-10-25, created
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&legend=top-left" />
 </picture>
 
-Daily dev prereleases have cut continuously since late September 2026, the newest on 2026-10-25.
+Daily dev prereleases have cut continuously since late September 2026, the newest on 2026-10-27.
 **The single Hacker News thread drew 4 points on 2026-10-03, so this is a Microsoft research release being watched by almost nobody yet, and its substance lives in the design and non-goals documents rather than community debate.**
 
 ## Strengths
@@ -45,7 +45,7 @@ Daily dev prereleases have cut continuously since late September 2026, the newes
 
 - No stable release and an ABI family that rules out, by its own non-goals section, live migration, CPU and memory hotplug, non-x86 guests, firmware boot, and nested virtualization.
 - No agent profiles, no policy engine, no credential story yet: the agent-workload positioning is in the description and the design docs, not in shipped integrations.
-- The community footprint is one 3-point HN thread; there is no independent evaluation of the isolation claims.
+- The community footprint is one 4-point HN thread; there is no independent evaluation of the isolation claims.
 - A research project at a large company can be reorganized into, or out of, existence without notice.
 
 ## Pricing
@@ -69,6 +69,7 @@ Not for running agents today, which is what Brig, OpenShell, or the hosted APIs 
 - 2026-10-07 - Created from the entrant-resolution run, profiling Microsoft's OpenVMM-based research sandbox with its current-limits honesty and Windows-only-in-category coverage.
 - 2026-10-16 - Rotation re-verification: Microsoft's 2026-10-14 doc restructure replaced doc/design.md and the current-limits page with the architecture guide, so both dead sources were replaced with the guide index and its non-goals section (the exclusions list, now the cited critical source), the Azure Linux guest option recorded, and the prerelease train and HN point count refreshed.
 - 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (push of 2026-10-17 checked: routine commits on the documented daily dev-prerelease cadence, nothing material).
+- 2026-10-27 - Rotation re-verification: every cited URL re-fetched and alive (repository, the benchmark methodology, the architecture-guide index, the non-goals list, the release train, the HN thread), the daily prerelease train advanced to 2026-10-27 with nothing past it, and the HN thread's point count corrected from three to four in Cautions and References (the Status prose already had four).
 
 ## See also
 
@@ -85,4 +86,4 @@ Not for running agents today, which is what Brig, OpenShell, or the hosted APIs 
 - https://raw.githubusercontent.com/microsoft/nvx/dev/doc/design/1.2-non-goals.md - the ABI's own non-goals list, the critical source
 - https://api.github.com/repos/microsoft/nvx - stars, creation and push dates, license as of 2026-10-07
 - https://api.github.com/repos/microsoft/nvx/releases - the daily v0.1.0-dev prerelease train
-- https://hn.algolia.com/api/v1/items/49941250 - the 3-point HN submission of 2026-10-03
+- https://hn.algolia.com/api/v1/items/49941250 - the 4-point HN submission of 2026-10-03

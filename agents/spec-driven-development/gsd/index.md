@@ -1,7 +1,7 @@
 ---
 title: GSD
 created: 2026-09-16
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, workflow, open-source]
 readability: 3
@@ -32,7 +32,7 @@ The original gsd-build/get-shit-done is archived at 64,303 stars and 5,431 forks
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&legend=top-left" />
 </picture>
 
-The successor, created 2026-05-22, is actively developed: 10,491 stars and 748 forks as of 2026-10-14, pushed 2026-10-26, release v1.18.0 (2026-10-19) the newest (a fail-closed guard on ambiguous artifact front-matter matches plus phase-execution fixes), with 40,218 npm downloads last month for @opengsd/gsd-core and 49,080 for the legacy get-shit-done-cc package (the 2026-09-23 to 2026-10-22 window, re-read 2026-10-26).
+The successor, created 2026-05-22, is actively developed: 10,491 stars and 748 forks as of 2026-10-14, pushed 2026-10-27, release v1.19.0 (2026-10-26) the newest (GSD shipping as a Pi-native package with agent-role dispatch and hook and lifecycle parity, plus a `git.repo_tagging` mode that routes milestone completion through per-repository release tags), with 40,218 npm downloads last month for @opengsd/gsd-core and 49,080 for the legacy get-shit-done-cc package (the 2026-09-23 to 2026-10-22 window, re-read 2026-10-26).
 **The transition was not clean: Blake Watson's widely-linked build story added a 2026-07-31 update telling readers not to install the original, reporting that people say a crypto scam took place around the creator, and naming OpenGSD the consensus successor.**
 Open GSD's own origin page confirms the chapter without specifics, stating trust was damaged, people were hurt, public channels disappeared, and crediting Christopherson with the original idea.
 
@@ -78,6 +78,7 @@ The disagreeable claim I will defend: 64,303 stars is the strongest evidence the
 - 2026-10-09 - Refreshed counts (archived original 64,344 stars, successor 10,329 stars and 45,791 npm downloads last month, legacy package 60,891).
 - 2026-10-16 - Recorded the successor's v1.17.0 release (2026-10-14, the StateWriteIntent verifying executor with bounded-mutation checks and the OpenCode 2.x plugin entrypoint).
 - 2026-10-19 - Recorded the successor's v1.18.0 release (2026-10-19, the fail-closed guard on ambiguous artifact front-matter matches plus phase-execution fixes).
+- 2026-10-27 - Recorded the successor's v1.19.0 release (2026-10-26: GSD as a Pi-native package with agent-role dispatch and hook and lifecycle parity, and the `git.repo_tagging` mode routing milestone completion through per-repository release tags).
 
 ## See also
 

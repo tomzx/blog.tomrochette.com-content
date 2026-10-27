@@ -1,7 +1,7 @@
 ---
 title: Landrun
 created: 2026-10-09
-updated: 2026-10-18
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, landlock, linux, open-source]
 readability: 3
@@ -74,6 +74,7 @@ Not as an agent boundary by itself: no egress policy, no audit trail, no profile
 - 2026-10-12 - Quiet window extended to eighty-one days (last push still 2026-07-23); stars refreshed (2,318), forks and issues unchanged.
 - 2026-10-13 - Quiet window extended to eighty-two days (last push still 2026-07-23); stars refreshed (2,316), forks and issues unchanged.
 - 2026-10-18 - Recorded the quiet window ending: a merged community pull request targeting Landlock ABI 10 with UDP network restrictions (committed 2026-10-10), then TCP and UDP port-range flags and a go-landlock v0.10.1 bump (2026-10-16), none released past v0.1.17, with open issues moving from eight to three.
+- 2026-10-27 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, the 518-point launch thread, the author's supply-chain post, the release record); v0.1.17 remains the newest release with no commit to the repository since 2026-10-16, so the resumed-train and unreleased-ABI-10 readings stand.
 
 ## See also
 

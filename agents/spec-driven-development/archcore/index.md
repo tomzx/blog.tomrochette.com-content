@@ -1,7 +1,7 @@
 ---
 title: Archcore
 created: 2026-10-21
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, decision-records, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
   Assumes you know what a decision record and a review gate are.
 ---
 
-Archcore is the archcore-ai org's Apache-2.0 Go CLI plus per-agent plugins that keep a project's specs, plans, decisions, and rules as typed Markdown files under `.archcore/` in Git, and drive coding agents through plan, document, and review commands that read and enforce them.
+Archcore is the archcore-ai org's Apache-2.0 TypeScript CLI plus per-agent plugins that keep a project's specs, plans, decisions, and rules as typed Markdown files under `.archcore/` in Git, and drive coding agents through plan, document, and review commands that read and enforce them.
 
 **Its distinctive move is the two-sided review verdict: `/archcore:review` compares the branch against the documents and returns `code-wrong` when the code broke a standing document, or `spec-wrong` when the document is the one out of date, so the tool names the guilty side instead of handing a human a pile of findings.**
 
@@ -24,7 +24,7 @@ Documents carry their type in the filename (`rate-limiting.spec.md`, `token-buck
 
 ## Status
 
-Active and young: 71 stars and 13 forks since creation on 2026-04-05, pushed 2026-10-22, Apache-2.0, with v0.13.1 (2026-10-16) the newest of a release train that added review of unpushed default-branch work and durable-context capture, as of 2026-10-23 (GitHub API).
+Active and young: 71 stars and 13 forks since creation on 2026-04-05, pushed 2026-10-26, Apache-2.0, with v0.14.3 (2026-10-26) the newest of a four-release train that landed the same day (an OpenCode plugin package now delivered from `archcore init` with OpenCode 2.x support in the plugin and the CLI install, and a spec body-cap fix that counts only the five contract sections toward the cap so verification and revisit sections no longer force a spec split), following v0.13.1 (2026-10-16), which added review of unpushed default-branch work and durable-context capture, as of 2026-10-27 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=archcore-ai/archcore&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,8 @@ The disagreeable claim I will defend: naming the guilty side (code-wrong or spec
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-27 - Recorded the v0.14.0 through v0.14.3 release train (all 2026-10-26): an OpenCode plugin package delivered from `archcore init` with OpenCode 2.x support, and the spec body-cap fix that stops verification and revisit sections from forcing a spec split.
+- 2026-10-27 - Corrected the implementation language from Go to TypeScript, per the repository's own language stats (TypeScript and Shell, no Go); meaning otherwise unchanged.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Kata
 created: 2026-10-11
-updated: 2026-10-25
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, local-first, cli, mcp, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Kenn Software LLC maintains it under MIT, with documentation at katatracker.com.
 ## Status
 
 Active and on a steady release cadence.
-As of 2026-10-25: 464 stars (as of 2026-10-14), 50 forks, 41 open issues and pull requests, created 2026-04-30, pushed 2026-10-25, latest release v0.20.0 on 2026-10-24, with backward compatibility promised since v0.14.0 (v0.19.0's command rename is the declared exception).
+As of 2026-10-27: 464 stars (as of 2026-10-14), 50 forks, 38 open issues and pull requests, created 2026-04-30, pushed 2026-10-27, latest release v0.20.0 on 2026-10-24, with backward compatibility promised since v0.14.0 (v0.19.0's command rename is the declared exception).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/kata&type=date&theme=dark&legend=top-left" />
@@ -91,6 +91,6 @@ My disagreeable claim: a tracker 250 milliseconds away is a different species fr
 - https://raw.githubusercontent.com/kenn-io/kata/main/docs/changelog.md - release history: v0.20.0 (2026-10-23) and v0.19.0 (2026-10-17) with their upgrade notes
 - https://api.github.com/repos/kenn-io/kata/releases/tags/v0.19.0 - the v0.19.0 notes: sync targets, federation sharing, claims with TTL, MCP tools, upgrade requirements
 - https://raw.githubusercontent.com/kenn-io/kata/main/docs/workflows/agents.md - the agent contract, the 18-harness hook coverage table, teammate and inbox workflows, MCP setup
-- https://api.github.com/repos/kenn-io/kata - stars, forks, dates, MIT license as of 2026-10-25
+- https://api.github.com/repos/kenn-io/kata - stars, forks, dates, MIT license as of 2026-10-27
 - https://api.github.com/repos/kenn-io/kata/releases - v0.20.0 (published 2026-10-24) and the release cadence
 - https://hn.algolia.com/api/v1/search?query=katatracker&tags=story - zero story hits as of 2026-10-25, the missing HN footprint

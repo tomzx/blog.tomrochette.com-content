@@ -1,7 +1,7 @@
 ---
 title: OpenCodeReview
 created: 2026-08-30
-updated: 2026-10-22
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, ci, open-source]
 readability: 3
@@ -85,6 +85,7 @@ Not for teams needing independently validated precision numbers today, or turnke
 - 2026-10-18 - Recorded the Agent Skills Hub end-to-end eval (October 10): 7 of 8 planted defects at 0.6 findings per PR, among the quietest tools tested, the two misses being test-only PRs it deliberately skipped; the precision-first trade held under independent testing.
 - 2026-10-20 - Recorded v1.13.2 (October 20): Nushell and PowerShell review support plus Shader Languages allowlist entries, taking the ledger past 140 releases.
 - 2026-10-22 - Recorded v1.13.3 (October 22): empty review-comment batches now reported instead of silently succeeding, MCP tools/list pagination honored, CI checkout-state pollution fixed, and a NixPkgs provider directory added.
+- 2026-10-27 - Rotation re-verification: every cited URL re-fetched live; v1.13.3 still the latest release with the push still October 22, the launch thread unchanged at 284 points, the AACR-Bench dataset live at 2.15k rows under Apache-2.0, the Martian benchmark site up, and the Agent Skills Hub eval table unchanged (7 of 8, 0.6 findings per PR, pr-12 the only miss); no factual drift.
 
 ## See also
 
@@ -99,7 +100,7 @@ Not for teams needing independently validated precision numbers today, or turnke
 - https://raw.githubusercontent.com/alibaba/open-code-review/HEAD/README.md - the hybrid design, benchmark claims, and recall trade-off
 - https://news.ycombinator.com/item?id=48406358 - the launch thread with the independent precision run and maintainer responses
 - https://huggingface.co/datasets/Alibaba-Aone/aacr-bench - the public benchmark backing the claims
-- https://registry.npmjs.org/@alibaba-group/open-code-review - distribution and release facts
-- https://api.github.com/repos/alibaba/open-code-review/releases?per_page=3 - the release ledger's top entries: v1.13.3 (October 22, 2026) with the empty-batch, MCP pagination, and CI checkout fixes plus a NixPkgs provider directory, v1.13.2 (October 20) with Nushell, PowerShell review support, and Shader Languages allowlist additions, v1.13.1 (October 17) the bug-fix patch, fetched 2026-10-22
+- https://registry.npmjs.org/@alibaba-group/open-code-review - distribution and release facts, re-fetched 2026-10-27 (130 versions, v1.13.3 latest)
+- https://api.github.com/repos/alibaba/open-code-review/releases?per_page=3 - the release ledger's top entries: v1.13.3 (October 22, 2026) with the empty-batch, MCP pagination, and CI checkout fixes plus a NixPkgs provider directory, v1.13.2 (October 20) with Nushell, PowerShell review support, and Shader Languages allowlist additions, v1.13.1 (October 17) the bug-fix patch, fetched 2026-10-22, re-fetched unchanged 2026-10-27 (v1.13.3 still latest, the push still October 22)
 - https://codereview.withmartian.com - the independent benchmark used for the critical precision measurement
 - https://raw.githubusercontent.com/zhuyansen/agent-skills-hub/main/ops/review-runs/RESULTS.md - the Agent Skills Hub end-to-end eval (October 10, 2026): 7 of 8 planted defects, 0.6 findings per PR, 7 minutes, both misses test-only PRs it skipped, fetched 2026-10-18

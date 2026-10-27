@@ -1,7 +1,7 @@
 ---
 title: Kitaru
 created: 2026-10-14
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, replay-evals, regression-testing]
 readability: 3
@@ -23,7 +23,7 @@ Evaluations start from you: an investigation has your coding assistant interview
 
 ## Status
 
-Active and vendor-backed: 308 stars, 26 forks as of 2026-10-14, last push 2026-10-26, with the repository created 2026-03-05.
+Active and vendor-backed: 308 stars, 26 forks as of 2026-10-14, last push 2026-10-27, with the repository created 2026-03-05.
 The release train is fast and coordinated: PyPI 0.27.2 (2026-10-08) out of 55 releases, TypeScript SDK 0.6.0 the same day, and roughly 9,900 PyPI downloads in the last month (pypistats, as of 2026-10-21), the one adoption receipt here that is not self-reported.
 It has already pivoted once: launched March 2026 as open-source infrastructure for async agents, carried a durable-runtime framing through July, and relaunched on 2026-08-18 around replay-based evals with Workers replacing the old Stacks concept, and parts of the docs still describe the older flows-and-checkpoints framing.
 The standalone kitaru.ai site folded into zenml.io in October 2026: the pricing page is now a Kitaru workspace tab on zenml.io/pricing, the relaunch post moved to the ZenML blog, and the pricing FAQ says one subscription covers both products on one bill.

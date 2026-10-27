@@ -1,7 +1,7 @@
 ---
 title: Tessl
 created: 2026-08-27
-updated: 2026-10-17
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, platform, venture-backed]
 readability: 3
@@ -78,6 +78,7 @@ The disagreeable claim I will defend: Tessl will either prove specs are buyable 
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-07 - Added the tesslio/cli star history chart to the Status section.
 - 2026-10-17 - Rotation re-verification of every cited source: corrected the third-party analysis attribution to Birgitta Böckeler writing on Martin Fowler's site and added its spec-anchored and spec-as-source credit for Tessl, recorded the widened registry-and-loops positioning, and re-confirmed the CLI quiet (70 stars, untouched since 2026-03-05) and the pricing tiers unchanged.
+- 2026-10-27 - Rotation re-verification of every cited source (all alive: the platform and pricing pages still showing Free at $0 and Team at $100 per month, the Series A and Skills posts, the Fowler analysis, the Series A thread, and the CLI still quiet with no push since 2026-03-05); no facts changed.
 
 ## See also
 
