@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-10-24
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -35,6 +35,7 @@ The cloud adds cross-device sync, browser and mobile access, and a shared Teams 
 </picture>
 
 The registry-lag record ended: PyPI moved to 0.24.1 on 2026-10-23, in sync with the repository's tagged releases, after two months pinned at 0.23.2.
+An unreleased 1.0 line is accumulating on main (a changelog Unreleased section with a working migration guide, docs/1.0.md, not yet in a published release as of 2026-10-27): the MCP server's tools are replaced one for one by bm_* tools (bm_read, bm_write, bm_search, bm_context, bm_project, bm_schema, and others) with changed arguments and typed error refusals, note and search tools will require an explicit project in multi-project setups, and the line adds bm doctor, a read-only self-test that reports real-project problems with the fixing command, plus a memory-doctor skill that teaches an agent to run it.
 The Hacker News record is a 4-point Show HN in March 2025 (0 comments) and a 2-point third-party story in February 2026, so the 4.1k stars came through the MCP-ecosystem channels (registry listings, Discord) rather than public debate.
 
 ## Strengths
@@ -85,6 +86,7 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 - 2026-10-07 - The cloud pricing restructured: the $15/mo locked-for-life beta retired in favor of Team $15/seat/mo with volume tiers, a new Business $30/seat/mo tier, and a custom credit-based Agent Infrastructure tier (Price history row); Teams moved from early to live with roles; the beta-repricing caution rewritten.
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the pricing page's schema.org data still lists Local $0, Team $15/seat, Business $30/seat; PyPI still 0.23.2 from 2026-08-25; the repository pushed 2026-10-16 as recorded).
 - 2026-10-24 - Correction: the registry-lag record ended, PyPI moved to 0.24.1 on 2026-10-23 in sync with the repository's v0.24.1 tag, after two months pinned at 0.23.2.
+- 2026-10-27 - Recorded the unreleased 1.0 line accumulating on main: the bm_* MCP tool replacement with typed refusals, explicit project arguments in multi-project setups, and the bm doctor self-test with its memory-doctor skill, published in the changelog's Unreleased section with a working migration guide and not yet in a release.
 
 ## See also
 

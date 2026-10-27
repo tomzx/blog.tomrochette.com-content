@@ -31,7 +31,7 @@ Persistent memory for agents: the file conventions, the portable format, the cap
 - [MemMachine](memmachine/index.md) - MemVerge's Apache-2.0 memory layer pairing graph-stored episodic memory with SQL-stored profile memory, self-hosted or on a free cloud account.
 - [Memoryfields](memoryfields/index.md) - Cal Paterson's portable memory-as-file-format spec, markdown pages plus a deletable vector index, the files-over-pipelines argument in RFC form.
 - [MemOS](memos/index.md) - MemTensor's Apache-2.0 memory OS with official OpenClaw, Hermes, and DeepSeek Harness plugins, a Neo4j-plus-Qdrant self-host, and a hosted API listing $19 and $286 tiers as launch-free.
-- [memU](memu/index.md) - the Apache-2.0 memory wiki that turns agent history into markdown skills shared across ChatGPT, Claude Code, Cursor, and OpenClaw, hosted free with a single-device self-host.
+- [memU](memu/index.md) - the Apache-2.0 memory wiki that turns agent history into markdown skills shared across ChatGPT, Claude Code, Codex, Cursor, and OpenClaw, hosted free with a single-device self-host.
 - [Memvid](memvid/index.md) - Memvid's Apache-2.0 single-file memory engine: documents, embeddings, and indexes packed into one portable .mv2 file, the QR-in-video v1 now deprecated.
 - [MetaClaw](metaclaw/index.md) - the MIT meta-learning layer that evolves OpenClaw-family agents' skills and memory from conversations, dormant since June.
 - [OKF Agent Memory](okf-agent-memory/index.md) - the MIT Go implementation of Google's OKF v0.2: a git-native knowledge bundle with in-memory BM25 search, progressive disclosure, trust tiers, and a built-in MCP server, admitted when its re-review trigger fired.

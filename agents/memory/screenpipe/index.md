@@ -1,7 +1,7 @@
 ---
 title: Screenpipe
 created: 2026-10-08
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, screen-capture, timeline, mcp, source-available]
 readability: 3
@@ -36,6 +36,7 @@ Pipes are scheduled AI agents defined as markdown files, with YAML frontmatter p
 
 The Hacker News record is the strongest in this category: a 218-point Show HN in September 2024 (125 comments), an 88-point Launch HN with 67 comments as a YC S26 company in July 2026, and a 2024 Ask HN thread questioning the business model.
 The README positions it as the source-available alternative to Limitless, Microsoft Recall, Granola, and Otter.
+The app train keeps moving: app-v2.7.125 (2026-10-26) gates covered local reads and enterprise uploads on current PII-processing receipts when required PII processing is enabled, so capture stays durable while labels are processed but sensitive reads wait for the privacy pass to complete.
 
 ## Strengths
 
@@ -87,6 +88,7 @@ Not for privacy-strict environments, commercial use without a license budget, or
 - 2026-10-18 - Dropped the positional star rank entirely: the denominator went stale again at the category's thirty-two members (OKF Agent Memory and Operator Memory joined 2026-10-17), and the repeated rank-correction rounds showed the claim costs more maintenance than its one line of value; the substance (21.9k stars, YC-backed, strong HN record) is unchanged.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
+- 2026-10-27 - Recorded app-v2.7.125 (October 26): covered local reads and enterprise uploads now wait for current PII-processing receipts when required PII processing is enabled, keeping capture durable while label processing catches up.
 
 ## See also
 

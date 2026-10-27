@@ -1,7 +1,7 @@
 ---
 title: tool-eval-bench
 created: 2026-10-08
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, tool-calling, benchmarking, structured-outputs, open-source]
 readability: 3
@@ -25,7 +25,8 @@ The decision-model track (`--decision`) measures how accurate a `/v1/systemone` 
 
 ## Status
 
-Active, six months old, and steadily released: created 2026-04-17, v2.8.0 published 2026-10-10, the project's first release also on PyPI (v2.5.0 and v2.6.0 in August, v2.7.0 on 2026-09-21), pushed 2026-10-26 (TC-89 scenario fixes and dependency bumps since v2.8.0), with 390 stars and 53 forks as of 2026-10-15.
+Active, six months old, and steadily released: created 2026-04-17, v3.0.0 published 2026-10-26 (also on PyPI, where the package now self-describes as Production/Stable), pushed 2026-10-26, with 390 stars and 54 forks as of 2026-10-27.
+The v3.0.0 major promoted the web UI to a headline feature (the optional local browser UI now launches and streams runs, and a new `tool-eval-bench card` command renders a session into a shareable SVG results card, with the `[web]` and `[card]` extras), added a long-context performance preset sweeping throughput to 128K tokens, corrected two scenario graders (TC-21 grades explicit field and rule IDs, TC-89 distinguishes asserted payment success from negation and future promises, so their scores are not comparable with 2.8 baselines), broadened endpoint compatibility (TandemLLM detection, HTTP retry and URL fixes), and shipped its release-gate at 9,779 tests and 93.79 percent branch-inclusive coverage, with SQLite schema upgraded 4 to 5 on first open and the scenario count unchanged at 69 plus 28 Hard Mode.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=SeraphimSerapis/tool-eval-bench&type=date&theme=dark&legend=top-left" />
@@ -75,6 +76,7 @@ The disagreeable claim I will defend: this category spent September learning to 
 - 2026-10-24 - Volatile re-verification after the 2026-10-17 to 10-20 pushes (still no release since v2.8.0): recorded TandemLLM joining the recognized backend set (detected from its model owner or Server header, 2026-10-18) and the rate-limit and retry fixes (Retry-After honoring, queued-request rescheduling, query parameters preserved in endpoint URLs).
 - 2026-10-25 - Volatile re-verification after the 2026-10-25 push (a virtualenv dependency bump, no release since v2.8.0); pushed date moved to 2026-10-25, and the README's backend list re-read unchanged.
 - 2026-10-26 - Volatile re-verification after the 2026-10-25/26 pushes (still no release since v2.8.0): the TC-89 scenario now classifies payment claims by grammatical frame and no longer reads a pending payment as a payment claim, plain-mode lines print whole under `--parallel`, and the filelock (three lock advisories) and certifi (the compromised emSign roots) dependencies were bumped; pushed date moved to 2026-10-26.
+- 2026-10-27 - Volatile re-verification after the v3.0.0 release (2026-10-26, also on PyPI, the package now self-described as Production/Stable): the web UI promoted to a headline feature with run launching and streaming plus a new `card` command rendering shareable SVG results cards (`[web]` and `[card]` extras), a 128K long-context performance preset, TC-21 and TC-89 grader corrections whose scores are not comparable with 2.8 baselines, TandemLLM detection and HTTP retry fixes, the release gate at 9,779 tests and 93.79 percent branch coverage, SQLite schema 4 upgraded to 5, and the scenario count unchanged at 69 plus 28; forks refreshed to 54.
 
 ## See also
 
@@ -86,14 +88,14 @@ The disagreeable claim I will defend: this category spent September learning to 
 
 ## References
 
-- https://github.com/SeraphimSerapis/tool-eval-bench - repository: MIT, created 2026-04-17, 390 stars, 53 forks, pushed 2026-10-26 (GitHub API, as of 2026-10-26)
-- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/README.md - the 69-plus-28 scenario design, backend list including Strata, TabbyAPI, and TandemLLM, pass/partial/fail scoring, install paths, and the stated limitations (re-fetched 2026-10-25)
-- https://github.com/SeraphimSerapis/tool-eval-bench/releases/tag/v2.8.0 - the v2.8.0 release notes: the 97-scenario total, the decision-track additions, the new backends, the test and coverage gate, and the not-like-for-like warning (fetched 2026-10-10 via the releases API)
-- https://pypi.org/project/tool-eval-bench/ - the project's first PyPI publication, 2.8.0 (fetched 2026-10-10)
+- https://github.com/SeraphimSerapis/tool-eval-bench - repository: MIT, created 2026-04-17, 390 stars, 54 forks, pushed 2026-10-26 (GitHub API, as of 2026-10-27)
+- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/README.md - the 69-plus-28 scenario design, backend list including Strata, TabbyAPI, and TandemLLM, pass/partial/fail scoring, install paths, and the stated limitations (re-fetched 2026-10-27 via PyPI, the v3.0.0 README)
+- https://github.com/SeraphimSerapis/tool-eval-bench/releases/tag/v3.0.0 - the v3.0.0 release notes (2026-10-26): the web UI and card command, the long-context preset, the TC-21 and TC-89 grader corrections with the re-run-baselines warning, the 9,779-test gate at 93.79 percent branch coverage, and the SQLite schema upgrade (fetched 2026-10-27)
+- https://pypi.org/pypi/tool-eval-bench/json - the published package, 3.0.0 since 2026-10-26 (fetched 2026-10-27)
 - https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/methodology.md - the 3-tier scoring rationale, the 12 and 52-tool sets, the 8-turn loop, and deterministic noise
 - https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/decision-models.md - the `/v1/systemone` decision-model track and its missing-surface abort behavior
 - https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/quality-review-2026-08.md - the author's August 2026 quality review: test counts, coverage gate, and the approachability finding (the critical source)
 - https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/related-work.md - the BFCL, ToolBench, API-Bank, ToolCall-15, and PinchBench comparison table grounding the lineage claims
 - https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/backends.md - the served-stack adapter coverage (fetched 200, 2026-10-08)
-- https://api.github.com/repos/SeraphimSerapis/tool-eval-bench/releases - v2.5.0 through v2.8.0, 2026-08-05 to 2026-10-10 (fetched 2026-10-10)
+- https://api.github.com/repos/SeraphimSerapis/tool-eval-bench/releases - v2.5.0 through v3.0.0, 2026-08-05 to 2026-10-26 (fetched 2026-10-27)
 - https://hn.algolia.com/api/v1/search?query=%22tool-eval-bench%22 - the thin-footprint record: no story, two comment mentions (fetched 2026-10-08)

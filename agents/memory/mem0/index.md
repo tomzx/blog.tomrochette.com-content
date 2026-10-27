@@ -1,7 +1,7 @@
 ---
 title: Mem0
 created: 2026-08-24
-updated: 2026-10-22
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, developer-tools]
 readability: 3
@@ -57,8 +57,10 @@ The first independent academic comparison naming Mem0 has landed: SWE-ContextBen
 
 ## Pricing
 
-Hobby (free) tier: 10,000 add and 1,000 retrieval requests per month.
-Starter $19/month, Pro $249/month (graph memory and Dream land at Pro), Enterprise custom with on-prem and SSO, as of 2026-10-08.
+The paid ladder restructured on 2026-10-26: Starter $19/month and Pro $249/month (graph memory and Dream land at Pro) are no longer sold to new accounts, existing subscribers keep their price, limits, and billing date, and plan changes or higher limits now go through the team as custom plans.
+The free plan is the default path: the first 30 days run on Mem0-paid model calls with 10,000 adds and 1,000 retrievals a month, after which you connect your own LLM key and the limits rise to 50,000 adds and 10,000 retrievals a month at no charge from Mem0; past-limit calls error until the month resets, and without a key after the 30 days, adds error out while searches continue up to 1,000 a month.
+The BYOK bill is real: Mem0's recommended models cost about $3.55 to $5.34 per 1,000 adds (GPT-6 Luna, Claude Haiku 5.5, DeepSeek V4.1 Flash), billed to your own provider account, which is how the free tier stays free at the higher limits.
+Enterprise custom with on-prem and SSO remains.
 **The OSS SDK is free but the benchmarked brain is the paid platform, which is the real price of the headline numbers.**
 
 ## Price history
@@ -66,6 +68,7 @@ Starter $19/month, Pro $249/month (graph memory and Dream land at Pro), Enterpri
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09-18 | Starter, Pro | Baseline: Hobby free (10k add and 1k retrieval requests/mo), Starter $19/mo, Pro $249/mo, Enterprise custom; OSS SDK free. | [mem0.ai/pricing](https://mem0.ai/pricing) |
+| 2026-10-26 | Free, Starter, Pro | Starter $19/mo and Pro $249/mo stopped being sold to new accounts (existing plans grandfathered, plan changes go through custom plans); the free plan rebuilt around BYOK: 30 days of Mem0-paid model calls at 10k adds/1k retrievals per month, then your own LLM key lifts limits to 50k adds/10k retrievals at no Mem0 charge. | [docs.mem0.ai/platform/pricing](https://docs.mem0.ai/platform/pricing) |
 
 ## Compared to
 
@@ -86,6 +89,7 @@ I would not choose any memory vendor on benchmark leaderboards, this field's num
 - 2026-10-07 - Added the mem0ai/mem0 star history chart to the Status section.
 - 2026-10-08 - Recorded DolphinBench, Mem0's own action-graded agent-memory benchmark (three personas, 600 tasks, cost and latency mandatory, Apache-2.0 harness, paper arXiv 2609.24971 with the founders as authors); the leaderboard is client-rendered and unverified, and the vendor-run-benchmark caution added; refreshed stars to about 66.8k and re-verified pricing unchanged.
 - 2026-10-22 - Added the first independent academic comparison naming Mem0: SWE-ContextBench (arXiv 2602.08316) reports Mem0 weakest of four memory-retrieval frameworks on fail-to-pass coding-task tests (20.24 percent versus Supermemory's 55.95) at the highest per-task cost, on a coding-agent context-reuse benchmark rather than conversational memory.
+- 2026-10-27 - Rotation re-verification: every cited URL re-fetched live (all eleven reachable, no dead sources), and the pricing restructure recorded (Starter and Pro no longer sold to new accounts, the free plan rebuilt around BYOK with a 30-day sponsored window, Price history row); the only default-branch push since the last verification is the pricing FAQ page itself.
 
 ## See also
 
@@ -98,6 +102,7 @@ I would not choose any memory vendor on benchmark leaderboards, this field's num
 - https://mem0.ai/ - product surfaces, developer-count claim, deployment options
 - https://github.com/mem0ai/mem0 - stars and commits as of 2026-10-08, April 2026 algorithm, OSS-vs-platform disclaimer
 - https://mem0.ai/pricing - tier and quota structure re-verified unchanged as of 2026-10-08 (Hobby free, Starter $19, Pro $249)
+- https://docs.mem0.ai/platform/pricing - the pricing FAQ page (added 2026-10-26): legacy-plan grandfathering, the free plan's 30-day sponsored window and post-window BYOK limits, and the per-1,000-adds provider cost estimate
 - https://dolphinbench.ai/ - DolphinBench: the action-graded benchmark, its three personas and 600 tasks, and the client-rendered leaderboard
 - https://arxiv.org/abs/2609.24971 - the DolphinBench paper (submitted 2026-09-21) with Mem0's founders as authors
 - https://github.com/mem0ai/dolphinbench - the Apache-2.0 benchmark harness, 37 stars as of 2026-10-09

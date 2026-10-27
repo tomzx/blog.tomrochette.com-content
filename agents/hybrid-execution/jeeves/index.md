@@ -1,7 +1,7 @@
 ---
 title: Jeeves
 created: 2026-10-06
-updated: 2026-10-22
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, reasoning, open-weights]
 readability: 3
@@ -31,7 +31,7 @@ The repository was created 2026-09-29, pushed 2026-10-16, with 419 stars as of 2
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=PostHog/jeeves&type=date&legend=top-left" />
 </picture>
 
-The launch thread (2026-09-29) reached 242 points, and Hugging Face shows 371 downloads and 7 likes as of 2026-10-22.
+The launch thread (2026-09-29) reached 242 points (re-read 2026-10-27), and Hugging Face shows 386 downloads and 7 likes as of 2026-10-27.
 Every benchmark in the README is self-run: on its held-out test split the v1 checkpoint scored 0.889 against Kev-9B's published 0.822 and Jev's published 0.857, and 0.935 against Jev's 0.866 on JevBench's 231 public items, while Jev kept the transfer lead (0.800 against 0.746 on MMLU-Pro and buried state) and the same checkpoint without thinking dropped to 0.804.
 The 2026-10-16 push shipped v2: rebuilt public data, an SFT rerun on short (1,024-token cap) finished reasoning chains with CISPO dropped after it failed to improve v2, two fitted temperatures stored with the checkpoint (1.52 for direct answers, 5.42 after reasoning), and a confidence gate where both versions answer directly at calibrated confidence 0.9 or higher and reason otherwise.
 V2 lifts the test split to 0.905 (39 percent of questions reasoned) and narrows the transfer gap to 0.780 against Jev's 0.800, but lands at 0.896 on the JevBench public items against v1's 0.913, a regression the README attributes to v2 skipping reasoning on some long-policy and multi-hop items where it is overconfident.
@@ -87,8 +87,8 @@ The disagreeable claim I will defend: if brief reasoning generalizes across the 
 
 ## References
 
-- https://github.com/PostHog/jeeves - repository: MIT, created 2026-09-29, 429 stars, 21 forks, pushed 2026-10-16 (GitHub API, as of 2026-10-22)
-- https://raw.githubusercontent.com/PostHog/jeeves/master/README.md - the benchmark tables, the LoRA-plus-pointer-head-plus-drafter architecture, CISPO training, latency table, and the Kev acknowledgement (re-fetched 2026-10-22)
-- https://news.ycombinator.com/item?id=49891290 - the launch thread (242 points as of 2026-10-06, re-read 2026-10-22, 2026-09-29), including the copycat and social-media skepticism
-- https://huggingface.co/PostHog/jeeves - weights: Apache-2.0, created 2026-09-29, 371 downloads and 7 likes as of 2026-10-22 (Hugging Face API)
-- https://ollaya.dev/ - third-party adoption: jeeves:9b in the Ollaya library and its accuracy table (re-fetched 2026-10-22)
+- https://github.com/PostHog/jeeves - repository: MIT, created 2026-09-29, 429 stars, 21 forks, pushed 2026-10-16 (GitHub API, as of 2026-10-22; unchanged on the 2026-10-27 re-fetch)
+- https://raw.githubusercontent.com/PostHog/jeeves/master/README.md - the benchmark tables, the LoRA-plus-pointer-head-plus-drafter architecture, CISPO training, latency table, and the Kev acknowledgement (re-fetched 2026-10-27, the v2 tables unchanged)
+- https://news.ycombinator.com/item?id=49891290 - the launch thread (242 points as of 2026-10-06, re-read 2026-10-27, 2026-09-29), including the copycat and social-media skepticism
+- https://huggingface.co/PostHog/jeeves - weights: Apache-2.0, created 2026-09-29, 386 downloads and 7 likes as of 2026-10-27 (Hugging Face API)
+- https://ollaya.dev/ - third-party adoption: jeeves:9b in the Ollaya library and its accuracy table (re-fetched 2026-10-27, the row holds, now served on Jeeves v2)

@@ -70,7 +70,6 @@ The disagreeable claim I will defend: a benchmark whose authors include a wave m
 
 - 2026-10-17 - Created from the NanoJev signal scan (the member's README began citing the paper and leaderboard), accepted as the category's fourth benchmark on the like-for-like design, the closed-loop environments, and the shipped harness, with the two-day no-coverage footprint recorded as the governing caution.
 - 2026-10-24 - Full re-verification on rotation: all five references re-fetched and live; repository unchanged (last push 2026-10-16), the leaderboard site still up with the same headline rows, and nothing else changed.
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also

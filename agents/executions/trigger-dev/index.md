@@ -1,7 +1,7 @@
 ---
 title: Trigger.dev
 created: 2026-10-10
-updated: 2026-10-24
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, scheduling, durable-execution, workflow-automation]
 readability: 3
@@ -25,7 +25,7 @@ It is built by API Hero Ltd (YC W23), deploys to Trigger.dev Cloud or self-hoste
 ## Status
 
 **Active and mature, on its fourth major version.**
-16,532 stars as of 2026-10-13 and 1,508 forks as of 2026-10-24, pushed 2026-10-24, with the repository created 2022-11-30.
+16,532 stars as of 2026-10-13 and 1,518 forks as of 2026-10-27, pushed 2026-10-26, with the repository created 2022-11-30.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=triggerdotdev/trigger.dev&type=date&theme=dark&legend=top-left" />
@@ -92,7 +92,7 @@ My disagreeable claim: calling Trigger.dev open source and self-hostable is only
 ## References
 
 - https://github.com/triggerdotdev/trigger.dev - repository scale, Apache-2.0 license, deployment model, as of 2026-10-13 (counters verified via the GitHub API the same run)
-- https://api.github.com/repos/triggerdotdev/trigger.dev - exact counters (16,532 stars pinned at their 2026-10-13 fetch, 1,508 forks, pushed 2026-10-24, created 2022-11-30; re-verified 2026-10-24)
+- https://api.github.com/repos/triggerdotdev/trigger.dev - exact counters (16,532 stars pinned at their 2026-10-13 fetch, 1,518 forks, pushed 2026-10-26, created 2022-11-30; re-verified 2026-10-27)
 - https://api.github.com/repos/triggerdotdev/trigger.dev/releases?per_page=5 - the v4.8.0 and v4.8.1 releases (both 2026-10-23), fetched 2026-10-24
 - https://trigger.dev/ - product surface, the v4.7.3 changelog line, the agents pitch, and the API Hero Ltd company footer, as of 2026-10-11
 - https://trigger.dev/pricing - plan tiers, per-second machine rates, and the per-run invocation fee, as of 2026-10-11

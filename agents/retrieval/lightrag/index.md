@@ -1,7 +1,7 @@
 ---
 title: LightRAG
 created: 2026-10-07
-updated: 2026-10-24
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, knowledge-graph]
 readability: 3
@@ -25,7 +25,7 @@ Made by HKUDS, the lab that also ships RAG-Anything, VideoRAG, and MiniRAG.
 ## Status
 
 **Actively maintained with a large, fast-moving community.**
-40,119 stars and 5,705 forks as of 2026-10-13, pushed 2026-10-22, with 403 open issues (GitHub API, as of 2026-10-24).
+40,119 stars and 5,705 forks as of 2026-10-13, pushed 2026-10-22, with 417 open issues (GitHub API, as of 2026-10-27).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/LightRAG&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ The launch thread drew 82 points in July 2024 and little HN activity since, so t
 
 ## Cautions
 
-- **The lab's breadth is the roadmap risk: RAG-Anything, VideoRAG, and MiniRAG share one maintainership, and 403 open issues say the core absorbs more than it resolves.**
+- **The lab's breadth is the roadmap risk: RAG-Anything, VideoRAG, and MiniRAG share one maintainership, and 417 open issues say the core absorbs more than it resolves.**
 - The accuracy story is self-run; I found no independent benchmark replicating the paper's numbers on a different corpus.
 - The feature surface churns (chunking strategies, merged multimodal parsing, role-specific models), so pin versions and re-test on upgrades.
 - Setup is a stack: an embedding model, an LLM, a graph or unified store, and optionally parsing services.
@@ -65,7 +65,7 @@ The costs are your own model bills for extraction and querying plus the storage 
 
 **Recommended as the default graph-RAG framework when the graph layer genuinely earns its indexing cost, which for most corpora means theme and multi-hop questions, not lookup.**
 Not for teams that need a frozen dependency or independent accuracy evidence, because it offers neither.
-My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appeal, not adoption depth, and the 403 open issues are the truer count of how much work the pattern still demands.
+My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appeal, not adoption depth, and the 417 open issues are the truer count of how much work the pattern still demands.
 
 ## Changes
 
@@ -73,6 +73,7 @@ My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appea
 - 2026-10-13 - Refreshed the volatile numbers (40,119 stars, pushed 2026-10-12) and aligned the open-issue figure across Status, Cautions, and Bottom line at 345, where the sections had drifted to 331 and 329.
 - 2026-10-22 - Refreshed the repository activity (pushed 2026-10-20, 397 open issues, aligned across sections); PyPI 1.5.7 remains latest.
 - 2026-10-24 - Refreshed the repository activity (pushed 2026-10-22, 403 open issues, aligned across sections); PyPI 1.5.7 remains latest.
+- 2026-10-27 - Rotation re-verification re-fetched every cited URL live (the README, the paper, PyPI 1.5.7 across 94 releases, the third-party guide, and the launch-thread scan all unchanged) and refreshed the open-issue count from 403 to 417, aligned across sections; the push date is unchanged.
 
 ## See also
 

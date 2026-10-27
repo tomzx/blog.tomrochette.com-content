@@ -1,7 +1,7 @@
 ---
 title: memU
 created: 2026-10-06
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, file-based, skills]
 readability: 3
@@ -21,7 +21,7 @@ A lightweight system from NevaMind with a core of about 500 lines, installable t
 Each supported host gets an adapter binary that binds two seams: record (a scheduled bridging task slices new session logs into self-contained jobs) and inject (a standing instruction in the host's instruction file tells the agent to retrieve before answering).
 The judgment stays inside the agent: it reads related existing pages, then chooses to do nothing, patch a page, or create one, and the service only stores, embeds, and retrieves the markdown.
 Automatic skill extraction turns useful history into named markdown skills with workflows, branches, and pitfalls, which any connected agent can retrieve later.
-The README's support matrix covers ChatGPT (Work mode), Claude Code, Cursor, OpenClaw, Hermes Agent, WorkBuddy, Cola, and pi across macOS, Windows, and Linux, with a generic `memu-agent` adapter that detects any other agent's JSONL session dialect and instruction file.
+The README's support matrix covers ChatGPT (Work mode), Claude Code, Codex, Cursor, OpenClaw, Hermes Agent, WorkBuddy, Cola, and pi across macOS, Windows, and Linux, with a generic `memu-agent` adapter that detects any other agent's JSONL session dialect and instruction file; Codex has its own `memu-codex` adapter (2026-10-27) that mines `~/.codex/sessions/**/*.jsonl` and patches `~/.codex/AGENTS.md`.
 Deployment is a free hosted service (API key from memu.so, cross-device) or a self-hosted mode (private, single-device, your own embedding key).
 
 ## Status
@@ -84,6 +84,7 @@ Not for teams needing multi-user memory APIs, contractual hosting terms, or any 
 - 2026-10-16 - Corrected the rank denominator to twenty-eight after PLUR's 2026-10-14 admission (PLUR's 304 stars rank below memU, so the position holds), and refreshed stars to 14,546.
 - 2026-10-18 - Dropped the positional star rank entirely: the denominator went stale again at the category's thirty-two members (OKF Agent Memory and Operator Memory joined 2026-10-17), and the five prior rank-correction rounds showed the claim costs more maintenance than its one line of value; the substance (14.5k stars, near-empty discussion footprint) is unchanged.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live (repository, README, product site, install skill, hosted key surface, PyPI, both HN threads); no release after memu-cli 0.10.0 and both threads unchanged, and the README's host matrix grew Cola and pi adapters plus a generic `memu-agent` JSONL-dialect detector, recorded in What it is; the push date refreshed to 2026-10-26.
+- 2026-10-27 - Recorded the dedicated Codex adapter: a `memu-codex` binary (commit #753, 2026-10-27) that mines `~/.codex/sessions/**/*.jsonl` and patches `~/.codex/AGENTS.md`, with prompt retrieval and background memorization integrated.
 
 ## See also
 

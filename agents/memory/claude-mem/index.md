@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -44,6 +44,7 @@ The same day closed the v13 line: v14.0.0 shipped My Work, a free local dashboar
 v15.0.0 (2026-10-20) opened the next line by making Smart memory search the default recall path, a three-step flow where the agent searches the compact index, inspects context around relevant results, and fetches only selected details, reasoning between the steps, with the old one-call lookup demoted to an explicit `dumb_search`; v15.0.1 the same day fixed project-scope consistency so observations found through a merged project alias stay reachable across the flow's steps, and v15.0.2 (2026-10-23) disabled reasoning on observer model calls so reasoning tokens stop consuming the output budget.
 v15.1.0 (2026-10-25) rebuilt the My Work dashboard as a React viewer on live worker data that is always live, moved per-prompt semantic injection into server mode, added an opt-in loopback HTTP MCP transport with per-session workspaces, and broadened secret redaction to lowercase-named AWS secret keys, PGP private key blocks, and encrypted PKCS#8 keys.
 Later the same day, v15.2.0 gave fresh installs a browser setup funnel that reads the last 30 days of supported local agent history, filters and redacts it, and uploads the filtered owner prompts to CMEM Cloud for hosted intent extraction before setup finishes, with anonymous installs getting a private installation credential; v15.2.1 (2026-10-25) changed no runtime behavior and only moved npm publishing to OIDC trusted publishing with provenance attestations, fixing a publish path that had failed on every tag since v13.26.1.
+v15.3.0 (2026-10-26) added Deliverables to the My Work card: the Stop hook copies what a turn produced (decks, reports, pages, attached files) into `~/.claude-mem/deliverables/<project>/` under content-addressed names so the copy outlives the worktree or scratch folder it was made in, the worker serves each copy over loopback, entirely-`<private>` turns leave no copy, and `CLAUDE_MEM_DELIVERABLES_ENABLED=false` turns the feature off.
 
 ## Strengths
 
@@ -111,6 +112,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-10-24 - Recorded v15.0.2 (October 23): observer model calls now disable reasoning by default so reasoning tokens stop consuming the output budget, with a logged single retry on empty length-capped replies; npm re-verified in sync at 15.0.2.
 - 2026-10-25 - Recorded v15.1.0 (the React My Work viewer on live worker data that is always live, per-prompt semantic injection in server mode, an opt-in loopback HTTP MCP transport with per-session workspaces, and broader secret redaction) with npm in sync at 15.1.0; trailing-month npm downloads refreshed to 63,865 (2026-09-23 to 2026-10-22).
 - 2026-10-26 - Recorded the same-day v15.2.0 and v15.2.1 releases: the browser install funnel that scans 30 days of local agent history and uploads filtered owner prompts to CMEM Cloud for hosted intent extraction as the default fresh-install path (new caution), and the npm OIDC trusted-publishing fix that repairs a publish path broken since v13.26.1; npm re-verified in sync at 15.2.1.
+- 2026-10-27 - Recorded the v15.3.0 release (October 26): Deliverables on the My Work card, the Stop hook copying turn output into content-addressed project folders served over loopback, with private turns excluded and an off-switch; npm re-verified in sync at 15.3.0.
 
 ## See also
 

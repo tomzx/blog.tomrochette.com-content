@@ -1,7 +1,7 @@
 ---
 title: EverOS
 created: 2026-10-09
-updated: 2026-10-24
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, markdown, local-first]
 readability: 3
@@ -77,6 +77,7 @@ Not for teams needing published hosted pricing, independent benchmark evidence, 
 - 2026-10-16 - Recorded v1.4.2 (October 14), the durability patch for file-descriptor leaks, search queueing behind the embedding cascade, and multi-project index overwrites, with PyPI in sync at 1.4.2; refreshed stars to 13,444.
 - 2026-10-19 - Corrected the PyPI reference line to 1.4.2, which the 2026-10-16 recording had already stated.
 - 2026-10-24 - Recorded v1.5.0 (October 21, async ingestion with `async_mode` on `/add` backed by a durable queue, configurable embedding dimensions, startup index validation) and v1.5.1 (October 22, query-embedding concurrency default raised from 4 to 16), with PyPI in sync at 1.5.1.
+- 2026-10-27 - Rotation re-verification: every cited URL re-fetched live (the Agent Memory Leaderboard site, which returned 522 at the 2026-10-11 check, now fetches normally and its fetched surface still lists no EverOS result); no release after v1.5.1, PyPI in sync at 1.5.1, no facts changed.
 
 ## See also
 

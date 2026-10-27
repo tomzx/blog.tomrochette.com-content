@@ -1,7 +1,7 @@
 ---
 title: Operator Memory
 created: 2026-10-17
-updated: 2026-10-25
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, agent-memory, documentation, markdown, context-engineering]
 readability: 3
@@ -17,7 +17,7 @@ Operator Memory is a BSD-3-Clause, harness-agnostic documentation brain for codi
 
 ## What it is
 
-A TypeScript system installed through the @aerovato/operator-helper npm package (19 releases from 1.0.0 on 2026-08-16 to 1.8.0 on 2026-10-05), with adapter plugins for Claude Code, Codex, OpenCode (V2 the default install since 2026-10-20, V1 kept as legacy), Pi, DeepSeek Harness, and Kiro.
+A TypeScript system installed through the @aerovato/operator-helper npm package (20 releases from 1.0.0 on 2026-08-16 to 1.9.0 on 2026-10-27), with adapter plugins for Claude Code, Codex, OpenCode (V2 the default install since 2026-10-20, V1 kept as legacy), Pi, DeepSeek Harness, and Kiro.
 Knowledge lives in three markdown partitions: ~/.operator/user/ for personal rules across projects, .operator/ for private project knowledge, and .operator-shared/ for knowledge published with the repository, with conflicts resolving private over user over shared.
 Every session starts from a deterministic preamble: fixed framework rules, each partition's operator.md, a catalog mapping each Brain document, and a project index whose entries carry read_if conditions, so the agent deliberately opens deeper material instead of receiving similarity-ranked injections.
 There is no vector database, no embedding model, no background maintenance agent, and no retrieval step; the author's comparison doc argues every capture-replay memory plugin shares one broken architecture.
@@ -35,7 +35,7 @@ It came out of the author's August 2025 internal/ folder convention and ships wi
 </picture>
 
 The liao.gg essay (2026-10-03, updated 2026-10-05) reached 392 points and 312 comments on Hacker News, and the repository is the essay's grounded implementation, so the adoption and the argument share one author.
-Development is active: the helper shipped 19 npm releases in two months, and the roadmap names an observation engine, reliable brain updates, and cache-aware preamble rendering as unfinished work.
+Development is active: the helper shipped 20 npm releases in two and a half months, and the roadmap names an observation engine, reliable brain updates, and cache-aware preamble rendering as unfinished work.
 
 ## Strengths
 
@@ -70,6 +70,7 @@ Not for teams needing measured retrieval quality (none exists here), enterprise 
 
 - 2026-10-17 - Created from the coordinator-flagged entrant candidate (surfaced by the 2026-10-16 people-and-publications scan of the liao.gg essay), with nine fetched sources, the no-benchmarks-plus-single-author combination recorded as the critical angle, and the standing rejections consulted before admission.
 - 2026-10-25 - The OpenCode adapter's V2 became the default install with V1 frozen to legacy (helper commit, 2026-10-20); recorded in the adapter list.
+- 2026-10-27 - Recorded the helper@v1.9.0 release (October 27, the first since 1.8.0): the OpenCode V2-default install shipped in a release rather than only on main, with Antigravity harness guides, a benchmark-discussion link in the README, and portable test fixtures.
 
 ## See also
 
@@ -85,7 +86,7 @@ Not for teams needing measured retrieval quality (none exists here), enterprise 
 - https://raw.githubusercontent.com/aerovato/operator-memory/main/docs/architecture.md - the deterministic preamble, catalogs and read_if indexes, the no-RAG argument, and the partition authority order
 - https://raw.githubusercontent.com/aerovato/operator-memory/main/docs/comparison.md - the anti-replay comparison and the five failure modes of capture-based memory
 - https://raw.githubusercontent.com/aerovato/operator-memory/main/LICENSE - the BSD-3-Clause license text
-- https://registry.npmjs.org/@aerovato%2Foperator-helper - publish history: 19 releases, 1.0.0 (2026-08-16) to 1.8.0 (2026-10-05)
+- https://registry.npmjs.org/@aerovato%2Foperator-helper - publish history: 20 releases, 1.0.0 (2026-08-16) to 1.9.0 (2026-10-27)
 - https://liao.gg/blog/agents-dont-need-memory - the author's essay (2026-10-03, updated 2026-10-05), the project's public argument
 - https://news.ycombinator.com/item?id=49945933 - the essay's thread (392 points, 312 comments, 2026-10-03), the critical engagement with the documentation-over-recall position
 - https://api.github.com/repos/aerovato/operator-memory/issues/comments/5979061413 - the benchmark exchange in issue #48: the counterparty's position that current memory benchmarks test RAG wrappers, not memory systems

@@ -1,7 +1,7 @@
 ---
 title: LlamaIndex
 created: 2026-08-24
-updated: 2026-10-24
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, retrieval, frameworks]
 readability: 3
@@ -25,7 +25,7 @@ In February 2026 the same team also open-sourced [LiteParse](https://github.com/
 ## Status
 
 Active and heavily used.
-The `run-llama/llama_index` repository shows 52.5k stars and 8.3k forks as of 2026-10-13, pushed 2026-10-23 with 1,051 open issues counting pull requests (GitHub API, as of 2026-10-24), with 7,956 commits as of 2026-10-10.
+The `run-llama/llama_index` repository shows 52.5k stars and 8.3k forks as of 2026-10-13, pushed 2026-10-26 with 1,093 open issues counting pull requests (GitHub API, as of 2026-10-27), with 7,956 commits as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&theme=dark&legend=top-left" />
@@ -87,6 +87,7 @@ That claim is arguable, which is the point.
 - 2026-10-13 - Recorded the LlamaParse Pro plan's limited-time one-time bonus (800k credits listed at $1,000, business-email domains only) on tier prices otherwise unchanged.
 - 2026-10-22 - Refreshed the repository activity (pushed 2026-10-21, 1,020 open issues counting pull requests).
 - 2026-10-24 - Refreshed the repository activity (pushed 2026-10-23, 1,051 open issues counting pull requests).
+- 2026-10-27 - Refreshed the repository activity (pushed 2026-10-26, 1,093 open issues counting pull requests).
 
 ## See also
 
@@ -97,7 +98,7 @@ That claim is arguable, which is the point.
 
 ## References
 
-- https://github.com/run-llama/llama_index - repository scale (52.5k stars), MIT license, the README's parsing-engine focus note and ParseBench and ExtractBench benchmarks, pushed 2026-10-23 (GitHub API, as of 2026-10-24; README re-verified unchanged 2026-10-22)
+- https://github.com/run-llama/llama_index - repository scale (52.5k stars), MIT license, the README's parsing-engine focus note and ParseBench and ExtractBench benchmarks, pushed 2026-10-26 (GitHub API, as of 2026-10-27; README re-verified unchanged 2026-10-22)
 - https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,824 stars, Apache-2.0, pushed 2026-10-09 (GitHub API, as of 2026-10-11)
 - https://docs.llamaindex.ai/en/stable/ - framework documentation structure: RAG pipeline, agents, workflows, LlamaCloud
 - https://developers.llamaindex.ai/python/framework/module_guides/loading/node_parsers/modules/ - CodeSplitter (tree-sitter) and Chunker (Chonkie) node parsers

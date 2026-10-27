@@ -1,7 +1,7 @@
 ---
 title: MemOS
 created: 2026-10-06
-updated: 2026-10-22
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -81,6 +81,7 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 - 2026-10-07 - The hosted cloud began publishing plans: Free $0/mo, Starter $19/mo and Pro $286/mo both flagged "Free Now" on apply-to-join, Enterprise custom (new Price history section with the baseline row); the no-public-price caution rewritten and the landing-page reference updated.
 - 2026-10-09 - Added the first independent evaluation record: the academic Agent Memory Leaderboard's Cycle 1 (August 2026) ranks MemOS second among commercial text-memory systems at 45.89, on that framework's scale; refreshed stars to 11,769.
 - 2026-10-22 - Corrected the PyPI reference: MemTensor's package is `MemoryOS` (2.0.33); the bare `MemOS` name on PyPI belongs to arkohut's unrelated Pensieve screen-recorder project, so the previously cited 0.37.0 figure was the wrong package.
+- 2026-10-27 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the engine still at v2.0.34 and the local plugin at v2.0.20, PyPI MemoryOS still 2.0.33, the hosted price table unchanged, and the only post-verification pushes are a certifi security pin).
 
 ## See also
 

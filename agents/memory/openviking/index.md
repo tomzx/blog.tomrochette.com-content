@@ -1,7 +1,7 @@
 ---
 title: OpenViking
 created: 2026-10-07
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, context-database, file-based, open-source]
 readability: 3
@@ -20,7 +20,7 @@ OpenViking is Volcengine (ByteDance)'s AGPL-3.0 context database for AI agents: 
 An open-source server under the volcengine GitHub organization, deployable self-hosted (Docker, a one-click Railway template) or as a documented enterprise private deployment, with an npm CLI (@openviking/cli), Python and Go SDKs, an MCP server for cross-session read and write, and a browser Studio demo.
 Context is organized in three layers per directory: an L0 abstract, an L1 overview, and the L2 source, so agents scan cheap summaries before loading full content.
 The three context types are resources (documents and code), memories (user preferences and experience), and agent skills, each addressable by `viking://` URI.
-Documented agent integrations cover Claude Code, Codex, Cursor, Hermes, and OpenCode.
+Documented agent integrations cover Claude Code, Codex, Cursor, Hermes, OpenCode, and DeepSeek Harness (Desktop support landed 2026-10-27).
 The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines the memory-base paradigm behind it, and a second paper's TrieHI directory-semantic index is integrated into OpenViking itself.
 
 ## Status
@@ -35,7 +35,7 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
 </picture>
 
 Latest release v0.5.2 (2026-10-23, following v0.5.1 from 2026-10-19) alongside python-sdk 0.1.17 (2026-10-26, a release-pinning fix) and go sdk v0.0.5, per the GitHub releases API.
-Main-branch work pending release adds a rule service exposing a new `openviking_rule_search` tool to agents and a CodeBuddy Code CLI host adapter.
+Main-branch work since the last release: a rule service exposing a new `openviking_rule_search` tool to agents and a CodeBuddy Code CLI host adapter remain pending release, while the Rules (Beta) guides and API reference shipped in the docs (2026-10-26), DeepSeek Harness Desktop support landed (2026-10-27), and the standalone gateway can now run as a multi-replica service on Redis.
 v0.5.0 adds the OpenViking Gateway (beta): a standalone proxy process on port 1935 that any model client with a configurable base URL can point at, injecting profile, memory, and skill context without plugins or prompt changes, supporting the Anthropic Messages, OpenAI Chat Completions, and OpenAI Responses protocols, and replaying injected content byte-for-byte so provider prompt caches and thinking signatures stay valid; v0.5.1 can run that gateway inside the OpenViking server itself and adds field-level privacy references, expanded batch-write options, and multimodal retrieval.
 v0.5.2 turns working memory off by default (sessions still archive raw messages and extract long-term memory, but WM and checkpoint summaries now require an explicit `enable_working_memory=true`), moves the LangChain integration into a separate `langchain-openviking` package, adds session-privacy extraction with privacy-tree MCP tools, and renames the Pi extension's tools from `viking_*` to `openviking_*`.
 Development and writing are both active: the 108-page documentation site and the project blog are current (the latest post, a three-minute evaluation test, dates to 2026-10-03).
@@ -78,6 +78,7 @@ Not for proprietary SaaS embedding, and not for buyers who need published hosted
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 - 2026-10-26 - The main-branch train grew a rule service exposing `openviking_rule_search` to agents and a CodeBuddy Code CLI host adapter (both pending release), and python-sdk refreshed to 0.1.17.
+- 2026-10-27 - Recorded the Rules (Beta) guides and API reference shipping in the docs (2026-10-26), DeepSeek Harness Desktop support landing on main (2026-10-27, added to the integration list), and the standalone gateway running as a multi-replica Redis service; the rule service and CodeBuddy adapter remain pending release.
 
 ## See also
 

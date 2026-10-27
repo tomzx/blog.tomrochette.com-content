@@ -1,7 +1,7 @@
 ---
 title: Chonkie
 created: 2026-09-16
-updated: 2026-10-24
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, chunking, rag, retrieval]
 readability: 3
@@ -78,6 +78,7 @@ My disagreeable claim: Chonkie's actual innovation was packaging, not algorithms
 - 2026-10-19 - Rotation re-verification re-fetched every cited URL live (PyPI 1.7.0, downloads, and repo numbers all unchanged); corrected the chunker-table list to the README's full eleven chunkers (adding Slumber, Table, and TeraflopAI, present since before the last verification) and corrected the YC batch claim to the YC directory's Spring 2025 listing for Feyn, since the launch title's own label has read both X25 (Algolia crawl) and P25 (live page).
 - 2026-10-22 - Refreshed the repository activity (pushed 2026-10-20) and re-verified the trailing-month downloads unchanged; PyPI 1.7.0 remains latest.
 - 2026-10-24 - Refreshed the repository activity (pushed 2026-10-23) and re-verified the trailing-month downloads unchanged; PyPI 1.7.0 remains latest.
+- 2026-10-27 - Rotation re-verification re-fetched every cited URL live (PyPI 1.7.0 across 62 releases, the 1,255,276 trailing-month downloads, both launch threads and the memchunk post, the docs, the Feyn site, and the YC entry all unchanged; the README still links the dead Cloud domains).
 
 ## See also
 

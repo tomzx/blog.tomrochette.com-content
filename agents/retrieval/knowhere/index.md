@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-10-24
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -34,7 +34,7 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
 </picture>
 
-3,721 stars since 2026-04-30, latest release v1.2.30 on 2026-10-24 (a retrieval query mode router, agent versus classic), following three releases in two days: v1.2.27 and v1.2.28 on 2026-10-22 (IPTC domain taxonomy, TOC keywords, and image region metadata; revision-pinned document structure) and v1.2.29 on 2026-10-24 (body-only page-chunk previews), pushed 2026-10-24 (GitHub API, as of 2026-10-24).
+3,721 stars since 2026-04-30, latest release v1.2.31 on 2026-10-26 (progressive visual ingestion and Gemini page embeddings), following the v1.2.27-through-v1.2.30 run of 2026-10-22 to 2026-10-24 (IPTC domain taxonomy, TOC keywords, image region metadata, revision-pinned document structure, body-only page-chunk previews, and a retrieval query mode router, agent versus classic), pushed 2026-10-26 (GitHub API, as of 2026-10-27).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
 
@@ -93,6 +93,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 - 2026-10-13 - Recorded release v1.2.25 (2026-10-13, a QStash token-region fix) and refreshed the volatile numbers (3,721 stars, pushed 2026-10-13); per-page pricing re-verified unchanged.
 - 2026-10-17 - Recorded release v1.2.26 (2026-10-16, unified chunk relations and entities-first metadata plus a webhook validation fix) and re-verified the repository activity (pushed 2026-10-16).
 - 2026-10-24 - Rotation re-verification re-fetched every cited URL live (pricing unchanged at $0.015 per billable page with the 14-day trial still advertised, product and docs pages up, the self-hosted stack unchanged at 12 stars, both Show HNs and the PyPI name-squat unchanged) and recorded releases v1.2.27 through v1.2.30 (2026-10-22 to 2026-10-24) with the repository activity refreshed (pushed 2026-10-24).
+- 2026-10-27 - Recorded release v1.2.31 (2026-10-26, progressive visual ingestion and Gemini page embeddings) and refreshed the repository activity (pushed 2026-10-26); per-page pricing unchanged.
 
 ## See also
 
@@ -103,8 +104,8 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,721 stars (as of 2026-10-13), pushed 2026-10-24, 37 open issues (GitHub API, as of 2026-10-24)
-- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.30 on 2026-10-24 (re-verified 2026-10-24, with v1.2.27 and v1.2.28 of 2026-10-22 and v1.2.29 of 2026-10-24 behind it)
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,721 stars (as of 2026-10-13), pushed 2026-10-26, 37 open issues (GitHub API, as of 2026-10-27)
+- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.31 on 2026-10-26 (re-verified 2026-10-27, with the v1.2.27-through-v1.2.30 run of 2026-10-22 to 2026-10-24 behind it)
 - https://knowhereto.ai - hosted product surface, $5 free credit, and the self-reported comparison table
 - https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface
 - https://docs.knowhereto.ai/pricing - per-page pricing, billable-page counting, refund policy, rate-limit tiers (re-verified unchanged 2026-10-24)

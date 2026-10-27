@@ -1,7 +1,7 @@
 ---
 title: OpenAI Structured Outputs
 created: 2026-08-24
-updated: 2026-10-22
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, openai, json-schema]
 readability: 3
@@ -78,6 +78,7 @@ Not for schemas that genuinely need numeric ranges, pervasive optional keys, or 
 - 2026-10-06 - Recorded the DevDay 2026 Decisions API announcement (2026-09-29, limited preview, GPT-6 Luna variant, about 150 ms per decision), the vendor's entry into the bounded-decision space; pricing example re-verified unchanged on the pricing page.
 - 2026-10-17 - Full re-verification: all six references re-fetched and live; noted the guide's new Ruby SDK Sorbet schema helper, canonicalized the Anthropic docs reference to platform.claude.com, and re-verified the gpt-6-luna pricing example unchanged at $0.10/$0.50 (Batch still half price).
 - 2026-10-22 - Rotation re-verification: all six references re-fetched and live, the gpt-6-luna pricing example re-read unchanged at $0.10/$0.50 standard with Batch at half price; no claims changed.
+- 2026-10-27 - Rotation re-verification: all six references re-fetched and live, the guide still leading with gpt-6-astra and carrying the Ruby Sorbet helper, the pricing example re-read unchanged at $0.10/$0.50 standard with Batch at half price; no claims changed.
 
 ## See also
 
@@ -89,9 +90,9 @@ Not for schemas that genuinely need numeric ranges, pervasive optional keys, or 
 
 ## References
 
-- https://developers.openai.com/api/docs/guides/structured-outputs - primary guide: strict mode, text.format vs function calling, JSON mode comparison, model support (canonical after the platform.openai.com move; verified 200 on 2026-10-22)
-- https://cookbook.openai.com/examples/structured_outputs_intro - official cookbook: refusal handling and the Pydantic parse helper (fetched 200, 2026-10-22)
-- https://platform.openai.com/docs/pricing - per-model token rates, no structured-outputs surcharge, batch discounts (canonical URL re-fetched 2026-10-22; gpt-6-luna example re-verified unchanged at $0.10/$0.50 with Batch at half price)
-- https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/ - the DevDay 2026 report grounding the Decisions API announcement line (fetched 2026-10-06, re-fetched 200 2026-10-22)
-- https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent launch analysis with schema-subset limits and OpenAI staff quotes on latency and loop failures (fetched 200, 2026-10-22)
-- https://platform.claude.com/docs/en/build-with-claude/structured-outputs - cross-vendor comparison point for mechanism and schema limits (canonical after the docs.claude.com move; fetched 200, 2026-10-22)
+- https://developers.openai.com/api/docs/guides/structured-outputs - primary guide: strict mode, text.format vs function calling, JSON mode comparison, model support (canonical after the platform.openai.com move; verified 200 on 2026-10-27, still leading with gpt-6-astra)
+- https://cookbook.openai.com/examples/structured_outputs_intro - official cookbook: refusal handling and the Pydantic parse helper (fetched 200, 2026-10-27)
+- https://platform.openai.com/docs/pricing - per-model token rates, no structured-outputs surcharge, batch discounts (canonical URL re-fetched 2026-10-27; gpt-6-luna example re-verified unchanged at $0.10/$0.50 with Batch at half price)
+- https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/ - the DevDay 2026 report grounding the Decisions API announcement line (fetched 2026-10-06, re-fetched 200 2026-10-27)
+- https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent launch analysis with schema-subset limits and OpenAI staff quotes on latency and loop failures (fetched 200, 2026-10-27)
+- https://platform.claude.com/docs/en/build-with-claude/structured-outputs - cross-vendor comparison point for mechanism and schema limits (canonical after the docs.claude.com move; fetched 200, 2026-10-27)

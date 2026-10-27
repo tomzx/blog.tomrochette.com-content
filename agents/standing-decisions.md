@@ -80,6 +80,7 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-27 | cross-category | npm's point/last-month downloads endpoint can serve a stale window (June reads on October 27 across harnesses, protocols, and context engines), so refreshes use dated-range queries (api.npmjs.org/downloads/point/<start>:<end>) and range sums whenever the point response's window dates lag today | ag-ui, repomix, copilot-cli, and bullet all read stale or wrong figures from point endpoints before range sums corrected them
 - 2026-10-27 | surfaces | OpenBitFun stays out on the Cowork-style general-purpose workspace rejection and the q#14 re-read found the same self-described workspace with a Mini App marketplace, so the question reads closable | surfaces re-check on the governing question
 - 2026-10-27 | surfaces | a vendor with a dual identity files by its desktop editor kind, folding the sibling product in as prose | puppyone admitted as an agent editor even though its own docs pitch a Context File System
+- 2026-10-27 | memory | the Meirtz-list handoff portable-ai-memory/python-sdk, the PAM interchange spec's SDK, stays below the bar | 1 star, dormant since 2026-02-19, spec repo 12 stars, NOASSERTION license, zero independent coverage, providers do not natively support the format; reopen on traction or coverage
 
 ## Standing family rejections
 
@@ -166,5 +167,5 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-24 (ruled 2026-09-27) | harnesses | drawgent reopens on a primary mirror | license and stars unverifiable from tangled.org-only hosting; re-checked 2026-10-24, no mirror exists, unmet
 - 2026-10-16 | memory | Mnemoverse reopens on traction or independent coverage | 27 stars, 4 forks, hosted-first thin record far below the category floor (smallest member Emulo at 294)
 - 2026-09-27 | skills | dotskills reopens on sustained traction | curated pack overlapping the Agent-Native column
-- 2026-09-27 | executions | octopool reopens on traction | weeks-old ecosystem utility, thin docs
+- 2026-10-27 (ruled 2026-09-27) | executions | octopool reopens on traction; re-checked 2026-10-27 at 140 stars with zero independent coverage, the bar is not met (traction means adoption evidence, not raw stars in a hyped ecosystem) | weeks-old ecosystem utility, thin docs
 - 2026-09-27 | memory | library-mcp reopens if a writeup ships | dormant five months, thin documentation

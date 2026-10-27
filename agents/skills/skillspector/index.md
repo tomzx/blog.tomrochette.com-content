@@ -1,7 +1,7 @@
 ---
 title: SkillSpector
 created: 2026-10-12
-updated: 2026-10-24
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, security, supply-chain]
 readability: 3
@@ -25,7 +25,7 @@ It is the security tier inside NVIDIA's SkillEvaluator and part of the Verified 
 
 ## Status
 
-Active and large: 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24), 164 open issues as of 2026-10-24, created 2026-03-21, pushed 2026-10-23.
+Active and large: 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24), 181 open issues as of 2026-10-27, created 2026-03-21, main's last commit 2026-10-22 with the repo's pushed date moving to 2026-10-27 on non-main activity.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/SkillSpector&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ Not for runtime policy enforcement (that is the harness or a control plane), for
 - 2026-10-12 - Created from the daily-refresh scan resolution, with five fetched sources, the one-vendor-pattern-set caution, and the docs-versus-README pattern-count drift recorded as the critical angle.
 - 2026-10-17 - The release train moved to v2.13.0 (published 2026-10-16), a security-hardening backport of 55 selected PRs onto v2.12.0 that pins the loopback-only MCP HTTP restriction and the disabled Codex CLI provider into the release contract; the Cautions on both now rest on release notes as well as the README.
 - 2026-10-24 - The release train moved to v2.13.1 (published 2026-10-23), a patch on the v2.13.0 maintenance branch carrying false-positive fixes and three backported security fixes (atomic report-file writing, failed batch gap-fill passes now reported as incomplete with exit code 2, bounded tool-misuse context) while preserving the dependency lock and provider defaults.
+- 2026-10-27 - Volatile refresh: the release train held at v2.13.1 with main's last commit still 2026-10-22 (the pushed date moved to 2026-10-27 on non-main activity) and open issues up from 164 to 181.
 
 ## See also
 
@@ -84,7 +85,7 @@ Not for runtime policy enforcement (that is the harness or a control plane), for
 
 ## References
 
-- https://api.github.com/repos/NVIDIA/SkillSpector - 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24), 164 open issues as of 2026-10-24, Apache-2.0, created 2026-03-21, pushed 2026-10-23, docs homepage (fetched 2026-10-24)
+- https://api.github.com/repos/NVIDIA/SkillSpector - 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24), 181 open issues as of 2026-10-27, Apache-2.0, created 2026-03-21, pushed 2026-10-27 on non-main activity with main's last commit 2026-10-22, docs homepage (fetched 2026-10-27)
 - https://raw.githubusercontent.com/NVIDIA/SkillSpector/main/README.md - the 71-pattern taxonomy, two-stage pipeline, MCP mode, install paths, risk scoring, and the 31,132-skill research numbers (fetched 2026-10-22, the 71 count and the OpenCode 1.18.33 pin unchanged)
 - https://docs.nvidia.com/skills/scanning-agent-skills - the hosted guide with its 68-pattern count, the triage policy, and the SkillEvaluator security-tier framing (fetched 2026-10-12)
 - https://api.github.com/repos/NVIDIA/SkillSpector/releases/latest - v2.13.1 published 2026-10-23 (patch on the v2.13.0 maintenance branch), following v2.13.0 published 2026-10-16, a security-hardening backport of 55 selected PRs onto v2.12.0 (sha256-digested assets, Codex-prepared notes, published 2026-09-23) (fetched 2026-10-24)

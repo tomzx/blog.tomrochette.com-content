@@ -1,7 +1,7 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
@@ -24,11 +24,11 @@ It is built by GitHub Next with Microsoft Research, MIT-licensed, in public prev
 ## Status
 
 **Active preview with real traction.**
-About 5.4k stars and roughly 18,700 commits in `github/gh-aw` as of 2026-10-13, 603 forks as of 2026-10-26.
+About 5.4k stars and roughly 18,700 commits in `github/gh-aw` as of 2026-10-13, 604 forks as of 2026-10-27.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
 The trust story has kept moving: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, a critical security advisory published August 27 forced the pre-emptive retirement of releases 0.83.3 through 0.85.3 (patched in 0.85.4), a notice that still sits in the README while the billing one was cleared, and a high-severity advisory published September 23 added an HTTPS egress allowlist bypass via TLS SNI domain fronting, affecting releases through 0.89.17 and patched in 0.89.17.
 Four more critical advisories landed on 2026-10-14: the worst (CVSS 9.2) lets sandboxed agent code steal the workflow job token through the credential sidecar and exfiltrate it past the egress filter, and three more cover MCP flag injection, an ungated `mcp-inspect` command path, and argv injection into spawned `gh aw` subcommands, all patched in the v0.91.12 to v0.91.13 window with no README notice for this batch as of 2026-10-16.
-The release line keeps churning (v0.93.5 stable on 2026-10-25, v0.93.6 a prerelease on 2026-10-26, with v0.93.1 the only release of the line still a prerelease), which shows how quickly this preview will break its users.
+The release line keeps churning and crossed its first 1.0 mark: v0.93.5 stable on 2026-10-25, v0.93.6 a prerelease on 2026-10-26, and v1.0.0 itself published as a prerelease on 2026-10-26, with v0.93.1 the only release of the 0.93 line still a prerelease, which shows how quickly this preview will break its users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/gh-aw&type=date&theme=dark&legend=top-left" />
@@ -97,6 +97,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - 2026-10-24 - Refreshed the release train to v0.93.3 (2026-10-24, a prerelease) with the stable line at v0.93.2 (October 23) and v0.93.0 (October 21), re-confirmed the README advisory notice still live and no new advisory published since the October 14 batch, and refreshed forks to 597.
 - 2026-10-25 - Refreshed the release train to v0.93.4 (2026-10-25), stable-marked, with the prerelease flag on v0.93.3 since cleared and only v0.93.1 still a prerelease, re-confirmed the README advisory notice still live and no new advisory published since the October 14 batch, and refreshed forks to 601.
 - 2026-10-26 - Refreshed the release train to v0.93.5 (2026-10-25, stable-marked) and v0.93.6 (2026-10-26, a prerelease), re-confirmed the README advisory notice still live and no new advisory published since the October 14 batch, and refreshed forks to 603.
+- 2026-10-27 - Recorded the v1.0.0 prerelease (2026-10-26), the first 1.x cut, published above v0.93.6; the README advisory notice and the no-new-advisory record re-confirmed against the advisories list, and forks refreshed to 604.
 
 ## See also
 
@@ -110,7 +111,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - https://github.github.com/gh-aw/ - full reference: engines, guardrails, cost management
 - https://github.github.com/gh-aw/reference/engines/ - the built-in engine list (six, with Agy experimental and Gemini deprecated) and the eight imported samples, as of 2026-10-11 (re-checked 2026-10-24)
 - https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-10-13
-- https://api.github.com/repos/github/gh-aw/releases?per_page=6 - the release train (v0.93.6 on 2026-10-26, re-fetched 2026-10-26)
+- https://api.github.com/repos/github/gh-aw/releases?per_page=6 - the release train (v1.0.0 prerelease on 2026-10-26, re-fetched 2026-10-27)
 - https://github.com/github/gh-aw/security/advisories/GHSA-8h78-hpm7-29gg - the critical advisory (safe-output artifacts may expose CI trigger tokens) behind the 0.83.3-0.85.3 retirement, patched in 0.85.4
 - https://github.com/github/gh-aw/security/advisories/GHSA-x78f-wrrj-4h24 - the high-severity September 23 advisory (HTTPS egress allowlist bypass via TLS SNI domain fronting), patched in 0.89.17
 - https://github.com/github/gh-aw/security/advisories/GHSA-9jxf-w4wc-5g93 - the 2026-10-14 critical job-token exfiltration advisory (CVSS 9.2, affected below v0.91.13, patched in v0.91.12)

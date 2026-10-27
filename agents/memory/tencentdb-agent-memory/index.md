@@ -1,7 +1,7 @@
 ---
 title: TencentDB Agent Memory
 created: 2026-10-11
-updated: 2026-10-26
+updated: 2026-10-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, openclaw, hermes, open-source]
 readability: 3
@@ -36,6 +36,7 @@ Published by Tencent (the repository moved from the Tencent org to TencentCloud)
 
 The LICENSE wraps standard MIT terms in a Tencent notice, which is why GitHub's detector marks it unclassifiable; the 2026-10-07 entrant rejection (missing license) reversed once the file was read this run.
 The Hacker News footprint is one 2-point thread (August 2026), so a 29.3k-star rise in six months ran on Trendshift placement and awesome-list channels, the category's familiar stars-ahead-of-discussion pattern at Tencent scale.
+The v2.0.3 stable release (2026-10-26, release notes in Chinese) built on the beta.1's pluggable decision service with session default binding (a saved Team, Agent, and Task combination auto-applies to new sessions until unlocked), Wiki rich-document import and extraction for Word, Excel, PowerPoint, and PDF, and a default upstream wait raised from 10 minutes to 1 hour, plus fixes to the DeepSeek Harness auxiliary interface, memory time formats, the install script, and self-recovery after a Redis interruption.
 
 ## Strengths
 
@@ -74,6 +75,7 @@ My disagreeable claim: reversible compression, not recall quality, is the featur
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched live, no facts changed (no release since the v2.0.3-beta.1 pre-release, the npm plugin still at 1.0.3, and the October 19-21 default-branch pushes are panel UI fixes and a README translation).
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
+- 2026-10-27 - Recorded the v2.0.3 stable release (October 26): session default binding, Wiki rich-document import (Word, Excel, PowerPoint, PDF), the upstream wait default raised from 10 minutes to 1 hour, and DSH, memory-time-format, install-script, and Redis-recovery fixes, on top of the beta.1's default-off decision-service and skill-selection capabilities.
 
 ## See also
 
