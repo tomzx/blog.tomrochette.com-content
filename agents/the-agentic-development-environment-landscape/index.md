@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Development Environment Landscape"
 created: 2026-07-04
-updated: 2026-10-25
+updated: 2026-10-28
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains]
 readability: 3
@@ -13,7 +13,7 @@ agent_sessions:
 
 The terminal coding agent answered the question of whether an AI can edit a real repository.
 The next problem is harder: how do you run several of them, watch what they are doing, and keep them from colliding on the same files.
-In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-10-25.
+In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-10-28.
 
 ## What an ADE is, and what it is not
 
@@ -94,7 +94,7 @@ Both positions are defensible; the mistake is pretending to be both.
 The second axis is surface coverage.
 Desktop support is the minimum expectation; the real arguments are about mobile, web, and remote.
 Orca, Paseo, and OpenChamber all treat "start at your desk, check in from your phone" as a first-class story.
-Air closed much of that gap between my mid-2026 snapshot and the 2026-10-07 re-check: its site advertises (re-read 2026-10-25) IDE, web, CLI, and mobile surfaces, and repeats that cloud runs are already available to some customers in JetBrains IDEs and the browser with rollout to everyone else over the coming months.
+Air closed much of that gap between my mid-2026 snapshot and the 2026-10-07 re-check: its site advertises (re-read 2026-10-28) IDE, web, CLI, and mobile surfaces, and repeats that cloud runs are already available to some customers in JetBrains IDEs and the browser with rollout to everyone else over the coming months.
 For anyone who wants to steer agents from outside the office, the mobile and tunnel story is not a nice-to-have; it is the feature, and it is no longer open-source-only territory.
 
 The third axis is license and pricing, and it splits the field cleanly.
@@ -148,6 +148,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - 2026-10-13 - Re-fetched all 17 URLs, every one 200 this run, Air's supported-agent and surface claims re-verified against its live page, and Orca's dated count moved to about 91.6k with the largest-community superlative holding (GitHub API, against Superset's about 15.1k); the reference annotations re-dated to this run's fetches.
 - 2026-10-19 - Rotation re-verification: re-fetched all 17 URLs, fifteen fetched 200 and the two GitHub topic pages returned 429 on both attempts (as on 2026-10-10), and Air's supported-agent, surface, and cloud-run claims re-verified against its live page.
 - 2026-10-25 - Rotation re-verification: re-fetched all 17 URLs, every one 200 this run (the two GitHub topic pages cleared their 429 streak), and rewrote Air's leaderboard paragraph against its live page, which now leads with the IDE plugin plus web, CLI, and mobile surfaces instead of a standalone desktop app, names Claude Agent and ACP-connectable agents rather than a fixed roster (Claude Code and Codex arrive through Air Gateway, and Junie has been folded into Air), and repeats the some-customers cloud-run rollout; Orca's dated star count left untouched per the stars exemption.
+- 2026-10-28 - Rotation re-verification: re-fetched all 17 URLs, every one 200 this run, and Air's supported-agent, surface, and cloud-run claims re-verified against its live page (Claude Agent and ACP-connectable agents, IDE, web, CLI, and mobile surfaces, Air Gateway for terminal agents, Junie folded in, the some-customers cloud-run rollout unchanged); Orca's dated star count left untouched per the stars exemption.
 
 ## See also
 

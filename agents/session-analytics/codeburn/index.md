@@ -1,7 +1,7 @@
 ---
 title: CodeBurn
 created: 2026-10-05
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by AgentSeal (the repository moved from the AgentSeal org to getagentseal, 
 
 ## Status
 
-Young and fast: 11,377 stars and 892 forks as of 2026-10-26, created 2026-04-13, pushed 2026-10-26 (GitHub API).
+Young and fast: 11,377 stars and 893 forks as of 2026-10-28, created 2026-04-13, pushed 2026-10-27 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ Not for anyone who wants plain unclassified numbers (ccusage is the simpler inst
 - 2026-10-16 - Recorded the external AgentMeasure audit evidence: the Codex token_count dedup fix merged as PR 1264 on 2026-09-16 and the audit's methodology note vindicating the re-emission behavior against the auditor's first assertion; trailing-month downloads refreshed (38,579 to 38,716) and the pushed date moved to 2026-10-15.
 - 2026-10-21 - Recorded unreleased post-v0.9.27 work merged 2026-10-20: a Claude Code plugin and an MCP Registry listing, plus signing-environment gating and dependency bumps; the pushed date moved to 2026-10-20 and forks refreshed 879 to 901.
 - 2026-10-26 - Rotation re-verification re-fetched every cited URL, all live; unreleased post-v0.9.27 fixes landed 2026-10-26 (a daily-cache merge fix stopping token-only slices from inflating day totals, and Zstandard-compressed Codex rollout reads); the pushed date moved to 2026-10-26, forks refreshed 901 to 892, and trailing-month downloads refreshed (38,716 to 26,823, window 2026-09-23 to 2026-10-22).
+- 2026-10-28 - Volatile re-verification: no release after v0.9.27 and npm still at 0.9.27, with unreleased fixes continuing (Warp conversations priced from the billed total, exact Today session counts with the Overview estimate-marker crash fixed, provider totals kept through the background refresh, and every parallel tool call of a streamed message captured); the pushed date moved to 2026-10-27 and forks refreshed 892 to 893.
 
 ## See also
 

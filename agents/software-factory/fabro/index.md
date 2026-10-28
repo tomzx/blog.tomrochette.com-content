@@ -1,7 +1,7 @@
 ---
 title: Fabro
 created: 2026-10-10
-updated: 2026-10-25
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, workflow-graphs, rust]
 readability: 3
@@ -21,7 +21,7 @@ Execution runs on your laptop or in Daytona cloud sandboxes with SSH and preview
 
 ## Status
 
-Active: 1,702 stars since creation on 2026-03-13 (as of 2026-10-13), pushed 2026-10-25, per the GitHub API.
+Active: 1,702 stars since creation on 2026-03-13 (as of 2026-10-13), pushed 2026-10-28, per the GitHub API.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fabro-sh/fabro&type=date&theme=dark&legend=top-left" />
@@ -68,7 +68,6 @@ Not for anyone needing stable tagged releases, proven scale, or a factory that a
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched (repository, why-fabro docs, the launch thread, the releases API, the HN search, and the awesome-software-factories list) and all claims confirmed, including the nightly-only train (v0.389.0-nightly.0 still the newest tag) and the pushed date; no material change.
 - 2026-10-23 - Corrected the star-history chart's light source, which wrongly carried the dark-theme parameter, and refreshed the volatile lines (pushed 2026-10-22, nightly train at v0.393.0-nightly.1); no material change.
 - 2026-10-25 - Refreshed the volatile lines (pushed 2026-10-25, nightly train at v0.396.0-nightly.0); no material change.
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 ## See also

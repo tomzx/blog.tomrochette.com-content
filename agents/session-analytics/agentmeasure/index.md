@@ -1,7 +1,7 @@
 ---
 title: AgentMeasure
 created: 2026-10-16
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, audit, cli, open-source]
 readability: 3
@@ -81,6 +81,7 @@ Not for multi-harness coverage, live observation, transcript search, or anyone w
 
 - 2026-10-16 - Created from the 2026-10-15 awesome-agent-observability additions, admitted on its evidence-discipline audit cell, the 110-tool audit with merged fixes in three category members, and eleven fetched sources.
 - 2026-10-23 - Rotation re-verification recorded the 2026-10-21 pricing pivot (the paid diagnostics retired for free measurement runs, an open-sourced review method, and the AMSBench benchmark and first external fixtures named in the Status), moved the Pricing and Price history to all-free, and re-fetched every cited URL.
+- 2026-10-28 - Recorded the 2026-10-26 push that the 2026-10-26 Status revision had carried without a bullet (the claims ledger's delegation roll-up with new bill findings), with repository state re-verified unchanged today: forks 9 and open issues 10, no release after v0.8.0, and nothing new pushed since 2026-10-26.
 
 ## See also
 

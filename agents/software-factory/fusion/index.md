@@ -1,7 +1,7 @@
 ---
 title: Fusion
 created: 2026-10-11
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, kanban, multi-agent, worktrees, open-source]
 readability: 3
@@ -70,7 +70,6 @@ My disagreeable claim: auto-merge on green gates is where this category is going
 - 2026-10-11 - Created after the orchestration resolution flagged the repository to this category, with the early-preview-versus-weekly-shipping gap and the unaudited autonomy claims recorded as the critical angle.
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched (repository, README, docs map, product site, releases, npm registry and downloads, HN search) and all claims confirmed; recorded the PostgreSQL-by-default storage cutover and the experimental OpenClaw runtime plugin from the README, re-baselined downloads at 2,505 for the month ending 2026-10-16, and the stable channel's lag moved from six to seven weeks with npm `latest` still 0.77.0; no other material change.
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched (repository via the API, README and docs map, product site, releases, npm registry and trailing-month downloads, HN search) and all claims confirmed; downloads re-baselined down to 2,094 for the month ending 2026-10-22 and the stable channel's lag unchanged at more than seven weeks with npm `latest` still 0.77.0; no material change.
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart's light source, which wrongly carried the dark-theme parameter.
 

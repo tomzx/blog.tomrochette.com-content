@@ -1,7 +1,7 @@
 ---
 title: LiveBench
 created: 2026-10-06
-updated: 2026-10-18
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, benchmarks, open-data]
 readability: 3
@@ -70,6 +70,7 @@ My disagreeable claim: the rotation gap is the number that matters most in this 
 - 2026-10-06 - Created.
 - 2026-10-07 - Added the LiveBench/LiveBench star history chart to the Status section.
 - 2026-10-16 - Rotation re-verification with every cited URL re-fetched live: the configuration train continued through 2026-10-15 (Muse Wonder, Step 5 Preview, MiMo-V2.6-Pro-Max, Gemma 4, Nemotron 3.5 Super VL, plus litellm streaming and Gemini continuation fixes), while the newest question release stayed 2026-01-08, stretching the frozen-set gap past nine months.
+- 2026-10-28 - Rotation re-verification with every cited URL re-fetched live: nothing has moved since the 2026-10-18 push (no new commits, the config gate idle), the newest question release still 2026-01-08 with the frozen-set gap approaching ten months, the README's stale-release note and 150GB agentic warning unchanged, and the launch thread still the whole HN footprint at 6 points and 0 comments.
 
 ## See also
 
@@ -81,10 +82,10 @@ My disagreeable claim: the rotation gap is the number that matters most in this 
 
 ## References
 
-- https://api.github.com/repos/LiveBench/LiveBench - repository metadata: 1,342 stars as of 2026-10-11, pushed 2026-10-18 as of 2026-10-18, license listed as Other (re-fetched 200, 2026-10-18, star figure unchanged by policy)
-- https://raw.githubusercontent.com/LiveBench/LiveBench/main/README.md - design, 6 categories and 18 tasks, the evaluation offer, the stale release note, the unmaintained local-inference path, and the 150GB agentic warning (fetched 200, 2026-10-06; re-fetched 200, 2026-10-16, unchanged)
-- https://raw.githubusercontent.com/LiveBench/LiveBench/main/changelog.md - release history: monthly through 2024, agentic category 2025-05-30, Mini-SWE-Agent switch 2025-10-03, newest question set 2026-01-08, and the 46% GPT-4-Turbo judge-error figure (re-fetched 200, 2026-10-18, newest set still 2026-01-08)
-- https://arxiv.org/abs/2406.19314 - the paper: ICLR 2025 Spotlight, the 18-author list including LeCun, and the Contamination-Free to Contamination-Limited title change (fetched 200, 2026-10-06; re-fetched 200, 2026-10-16, unchanged)
-- https://api.github.com/repos/LiveBench/LiveBench/commits?per_page=6 - 2026 activity: late-September and October runs add model configurations under the config gate (re-fetched 200, 2026-10-18; the Oct. 16-18 commits add the beam-1.0-501b-a23b-max config (OpenRouter pinned to Nebius) and the deepseek-v4.1-flash-1017-max config with peak and off-peak rate rows)
-- https://hn.algolia.com/api/v1/search?query=livebench&tags=story - the thin HN footprint: launch thread at 6 points, 0 comments (fetched 200, 2026-10-06; re-fetched 200, 2026-10-16, unchanged)
-- https://livebench.ai/ - the leaderboard surface, recorded as a client-rendered app that returned only its title to this fetch (fetched 200, 2026-10-06; re-fetched 2026-10-16, still an empty client-rendered shell)
+- https://api.github.com/repos/LiveBench/LiveBench - repository metadata: 1,342 stars as of 2026-10-11, pushed 2026-10-18 as of 2026-10-18, license listed as Other (re-fetched 200, 2026-10-28, pushed_at unchanged, 180 open issues; star figure unchanged by policy)
+- https://raw.githubusercontent.com/LiveBench/LiveBench/main/README.md - design, 6 categories and 18 tasks, the evaluation offer, the stale release note, the unmaintained local-inference path, and the 150GB agentic warning (fetched 200, 2026-10-06; re-fetched 200, 2026-10-28, unchanged)
+- https://raw.githubusercontent.com/LiveBench/LiveBench/main/changelog.md - release history: monthly through 2024, agentic category 2025-05-30, Mini-SWE-Agent switch 2025-10-03, newest question set 2026-01-08, and the 46% GPT-4-Turbo judge-error figure (re-fetched 200, 2026-10-18 and 2026-10-28, newest set still 2026-01-08)
+- https://arxiv.org/abs/2406.19314 - the paper: ICLR 2025 Spotlight, the 18-author list including LeCun, and the Contamination-Free to Contamination-Limited title change (fetched 200, 2026-10-06; re-fetched 200, 2026-10-28, unchanged)
+- https://api.github.com/repos/LiveBench/LiveBench/commits?per_page=6 - 2026 activity: late-September and October runs add model configurations under the config gate (re-fetched 200, 2026-10-18; re-fetched 200, 2026-10-28, no commits after the Oct. 18 deepseek-v4.1-flash-1017-max off-peak-rate fix)
+- https://hn.algolia.com/api/v1/search?query=livebench&tags=story - the thin HN footprint: launch thread at 6 points, 0 comments (fetched 200, 2026-10-06; re-fetched 200, 2026-10-28, unchanged)
+- https://livebench.ai/ - the leaderboard surface, recorded as a client-rendered app that returned only its title to this fetch (fetched 200, 2026-10-06; re-fetched 2026-10-16 and 2026-10-28, still an empty client-rendered shell)

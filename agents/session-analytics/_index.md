@@ -11,6 +11,7 @@ readability: 3
 Tools that turn what coding agents already record into searchable history, cost reports, and audits, plus the ones that watch the sessions as they happen.
 
 - [Agent Analytics](agent-analytics/index.md) - the agent-readable web analytics layer, tracker events in your own D1 or SQLite (or its cloud), queried through skill, MCP, CLI, or HTTP.
+- [Agent-Causality](agent-causality/index.md) - the AGPL causal event-graph recorder for OpenCode and LangGraph runs, slicing failures to their declared capture-time causes and replaying registered decisions with changed inputs.
 - [AgentMeasure](agentmeasure/index.md) - the local evidence-discipline auditor that checks Codex and Claude Code session records for duplicates, retry chains, and response conflicts, marks what the logs cannot decide as UNPROVABLE, and re-counts AI support-billing exports against published vendor rules, 218 stars.
 - [agents-observe](agents-observe/index.md) - the live dashboard for Claude Code and Codex sessions, hooks feeding a local server, multi-agent trees and cost breakdowns in real time.
 - [agentsview](agentsview/index.md) - the local-first indexer for roughly 60 agents' session files, retrospective search and token-cost reporting in one SQLite store.
@@ -27,6 +28,7 @@ Tools that turn what coding agents already record into searchable history, cost 
 - [ctx](ctx/index.md) - local search over the sessions agents already recorded, with blame attribution from any line of code back to its transcript.
 - [git-ai](git-ai/index.md) - the git-layer provenance recorder that links every line of AI code to the agent, model, and prompt that wrote it, stored in Git Notes so attribution survives every rebase, now part of OpenAI's Codex team, 2,839 stars.
 - [Memex](memex/index.md) - the Rust CLI that indexes multi-harness session transcripts locally with BM25 or embeddings and resumes the session you find.
+- [NovaFabric](novafabric/index.md) - the Apache-2.0 run-capture CLI that wraps any command into a portable, secret-scanned Run Capsule for five-mode replay, structural diff, lineage, and signed evidence export.
 - [Token Monitor](token-monitor/index.md) - the live desktop usage widget across 47-plus AI coding tools, with provider-limit tracking, retention archiving, and self-hosted multi-device sync.
 - [Tokscale](tokscale/index.md) - the terminal CLI and TUI that reads about 50 agents' local usage stores into one token and cost report, with an opt-in public leaderboard.
 
@@ -53,3 +55,5 @@ Its members are compared on shared rows in the [Session Analytics Feature Matrix
 - 2026-10-16 - Added AgentMeasure.
 - 2026-10-23 - Added ax.
 - 2026-10-23 - Added CodexMonitor.
+- 2026-10-28 - Added Agent-Causality.
+- 2026-10-28 - Added NovaFabric.

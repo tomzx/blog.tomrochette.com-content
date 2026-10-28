@@ -1,7 +1,7 @@
 ---
 title: "Context Management Patterns"
 created: 2026-08-24
-updated: 2026-10-23
+updated: 2026-10-28
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a token budget is and have watched an agent degrade after its window filled.
 ---
 
-This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files; verified against harness documentation as of 2026-10-23.
+This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files; verified against harness documentation as of 2026-10-28.
 
 **Every working pattern does one thing, it keeps the window small and fresh, and in 2026 the harness-native features (compaction, subagents, memory files) deliver more of that value than any retrieval pipeline you can buy.**
 My disagreeable claim: below a few hundred thousand lines of code, a short memory file plus automatic compaction beats a bespoke RAG stack, and teams buying context engines before learning their harness's `/compact` are paying money to avoid learning a skill.
@@ -113,6 +113,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - 2026-10-04 - Updated the compaction-survival claim to Anthropic's current enumeration (most recently modified files plus re-injected invoked-skill bodies, replacing the older accessed-files list) and recorded Claude Code shipping auto memory on by default as the unreviewed counterpart to Gemini CLI's review-gated inbox, with a monthly /memory pruning step added to the workflow.
 - 2026-10-10 - Re-verified every pattern claim against the live harness docs with the four cited pages plus Anthropic's engineering post all fetching 200, and folded in two current-doc details: the re-injected skill bodies are capped (5,000 tokens per skill, 25,000 in total) and Claude Code's auto-compact threshold is now settable with /autocompact.
 - 2026-10-23 - Rotation re-verification of all eight cited pages: corrected the compaction-survival claim, Claude Code rebuilds and re-injects skill descriptions since v2.1.304 where the essay said the listing did not reload, and named the autoMemoryEnabled setting beside /memory as the auto-memory off-switch; every other pattern claim re-verified against the live docs, and the intro as-of re-dated.
+- 2026-10-28 - Rotation re-verification of all eight cited pages: every one fetched 200, the compaction, subagent, and auto-memory claims re-checked against the live docs with nothing to correct (the docs now also state that the summary inherits the session's thinking setting and that an over-5,000-token file returns as a path reference, refinements the essay's claims survive), and the intro as-of re-dated.
 
 ## See also
 

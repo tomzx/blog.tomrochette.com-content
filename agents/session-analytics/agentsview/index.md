@@ -1,7 +1,7 @@
 ---
 title: agentsview
 created: 2026-08-30
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, token-usage, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop build
 
 ## Status
 
-Young and active: 6,094 stars, 661 forks, 125 open issues and PRs as of 2026-10-26, created 2026-02-19.
+Young and active: 6,094 stars, 666 forks, 95 open issues and PRs as of 2026-10-28, created 2026-02-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Young and active: 6,094 stars, 661 forks, 125 open issues and PRs as of 2026-10-
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.46.1 on 2026-10-23, a day that shipped two releases: v0.46.0 added opt-in web-chat imports, Claude.ai chats synced through a Chrome extension plus ChatGPT, Codex web, and Codex cloud task chats ingested as searchable sessions, and v0.46.1 repaired Antigravity CLI transcript parsing on read-only mounts; with steady releases since July it is pre-1.0 with fast feature churn, and unreleased main-branch work was still landing after v0.46.1 as of 2026-10-26 (a DeepSeek Harness job-lifecycle parser fix, classified dialogue and session-context export, ClickHouse push service rework, and a nonzero-exit guard for serve).
+Latest release v0.46.1 on 2026-10-23, a day that shipped two releases: v0.46.0 added opt-in web-chat imports, Claude.ai chats synced through a Chrome extension plus ChatGPT, Codex web, and Codex cloud task chats ingested as searchable sessions, and v0.46.1 repaired Antigravity CLI transcript parsing on read-only mounts; with steady releases since July it is pre-1.0 with fast feature churn, and unreleased main-branch work was still landing after v0.46.1 as of 2026-10-28 (Command Code v3 sessions and their token usage now parsed, ordinary Codex forks linked to their source sessions, a color-blind-safe chart palette with reader-chosen message colors, PostgreSQL serve and push-watch running from one data directory, usage kept on blank Claude thinking responses, and a Claude.ai Sync dialog fix).
 
 ## Strengths
 
@@ -86,6 +86,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 - 2026-10-23 - Recorded v0.46.0 and v0.46.1 (both 2026-10-23): opt-in web-chat imports joined the sources, Claude.ai chats sync through a Chrome extension and ChatGPT, Codex web, and Codex cloud task chats ingest as searchable sessions, and Antigravity CLI transcript parsing recovered on read-only mounts.
 - 2026-10-25 - Volatile re-verification: no release after v0.46.1 with unreleased main-branch work continuing (session-context export, dated friction digests, and PostgreSQL push optimizations landing 2026-10-24/25), the docs' token-usage page re-verified still at schema version 5, and repository counts refreshed (forks 664 to 661, open issues and PRs 112 to 131).
 - 2026-10-26 - Volatile re-verification recorded the docs' token-usage JSON contract back at schema version 6 (the seventh flip; version 5 was documented from 2026-10-21 through 2026-10-25), added the ClickHouse mirror to the surfaces line (it has synced since v0.44.0 on 2026-09-21, with a read-only serve UI off the mirror), and refreshed repository counts (open issues and PRs 131 to 125).
+- 2026-10-28 - Volatile re-verification: no release after v0.46.1 with unreleased main-branch work continuing (Command Code v3 session and token-usage parsing, Codex forks linked to their source sessions, a color-blind-safe chart palette with reader-chosen message colors, PostgreSQL serve and push-watch from one data directory, usage kept on blank Claude thinking responses, and a Claude.ai Sync dialog fix), and repository counts refreshed (forks 661 to 666, open issues and PRs 125 to 95).
 
 ## See also
 

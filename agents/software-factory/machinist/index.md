@@ -1,7 +1,7 @@
 ---
 title: "Machinist"
 created: 2026-09-05
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, go]
 readability: 3
@@ -32,7 +32,7 @@ The repository also ships an evals directory with a deterministic GitHub-issue-l
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&legend=top-left" />
 </picture>
 
-**There is no Hacker News thread or independent coverage as of 2026-10-26, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
+**There is no Hacker News thread or independent coverage as of 2026-10-28, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
 The velocity (five releases in eight weeks) says maintained; the single-author commit history says bus-factor one.
 
 ## Strengths
@@ -72,6 +72,7 @@ Not for teams needing proven scale, resumable pipelines, or a community to escal
 - 2026-10-07 - Added the owainlewis/machinist star history chart to the Status section.
 - 2026-10-16 - Recorded the 2026-10-15 step-change push (GitHub App onboarding, the local app's standard pipeline with triage, spec approval, independent review, and up to three repair rounds before human merge, scheduled automations, multi-repository projects, and the gVisor Kubernetes runner target) with 80 commits past v0.4.0 and still no release past v0.4.0; the isolation caution corrected and the zero-coverage claim re-verified to 2026-10-16.
 - 2026-10-23 - Rotation re-verification: every cited URL re-fetched (repository README, machinist.sh, configuration.md, the workflows examples, the gVisor Kubernetes doc, the releases API, and the HN search) and all claims confirmed, with the zero-coverage claim holding to 2026-10-23; recorded 176 commits past v0.4.0 (still no release past v0.4.0), the native-agents default run mode with advisory child reviews, the evals directory's deterministic issue-lifecycle evaluation, and the opt-in repository-maintenance auto-merge limited to qualifying documentation PRs.
+- 2026-10-28 - Rotation re-verification: every cited URL re-fetched (repository README, machinist.sh, configuration.md, the workflows examples, the gVisor Kubernetes doc, the releases API, and the HN search) and all claims confirmed, including v0.4.0 still the newest release, 176 commits past v0.4.0 with main's newest commit still 2026-10-21, and the zero-coverage claim holding to 2026-10-28; no material change.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "HAR"
 created: 2026-08-29
-updated: 2026-10-23
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, harness, multi-agent, worktrees]
 readability: 3
@@ -21,7 +21,7 @@ It is harness-agnostic and works with Claude Code, Cursor, Codex, or any MCP-cap
 
 ## Status
 
-Active and shipping fast: 122 stars and 14 forks since creation on 2026-06-28, v1.16.0 released 2026-10-07 (v1.0.0 landed 2026-08-28, ten releases in the first week of September alone), and the last main push on 2026-10-07 per the GitHub API as of 2026-10-13.
+Active and shipping fast: 122 stars and 14 forks since creation on 2026-06-28, v1.16.0 released 2026-10-07 (v1.0.0 landed 2026-08-28, ten releases in the first week of September alone), and the last main push on 2026-10-07 per the GitHub API as of 2026-10-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=os-factory/har&type=date&theme=dark&legend=top-left" />
@@ -83,6 +83,7 @@ Not for a solo developer doing one agent at a time, where the harness alone is s
 - 2026-10-07 - Recorded the v1.16.0 release (2026-10-07, Cypress plugin); HAR HQ pricing re-verified unchanged.
 - 2026-10-17 - Rotation re-verification: repository, releases (v1.16.0 still newest, no push since 2026-10-07), the docs site (plugin marketplace and iOS profile now advertised), the Kerno sponsorship (Kerno v1 live), the demo video, and HAR HQ pricing (Team $400 unchanged) all re-fetched; no material change.
 - 2026-10-23 - Rotation re-verification: repository, releases (v1.16.0 still newest, no push since 2026-10-07), the docs site (marketplace now listing seven plugins), the demo video, the Kerno sponsorship (Kerno v1), and HAR HQ pricing (Team $400 with $100 monthly cloud credits, Enterprise custom, unchanged) all re-fetched; no material change.
+- 2026-10-28 - Rotation re-verification: repository, releases (v1.16.0 still newest, no push since 2026-10-07), the docs site (marketplace still listing seven plugins), the demo video, the Kerno sponsorship (Kerno v1 live), and HAR HQ pricing (Team $400 with $100 monthly cloud credits, Enterprise custom, unchanged) all re-fetched; no material change.
 
 ## See also
 
