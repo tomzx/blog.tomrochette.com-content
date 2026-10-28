@@ -1,7 +1,7 @@
 ---
 title: Ollama
 created: 2026-09-27
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, model-registry]
 readability: 3
@@ -22,7 +22,7 @@ The registry curates quantizations of each model, and `ollama run <model>` is th
 
 ## Status
 
-Very active: 183,371 stars as of 2026-10-16, repo pushed 2026-10-26 (as of 2026-10-26), among the largest repositories in the AI ecosystem.
+Very active: 183,371 stars as of 2026-10-16, repo pushed 2026-10-28 (as of 2026-10-28), among the largest repositories in the AI ecosystem.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ollama/ollama&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Very active: 183,371 stars as of 2026-10-16, repo pushed 2026-10-26 (as of 2026-
 The surface is expanding fast: MLX acceleration on Apple silicon arrived in preview with 0.19 in March 2026, and NVFP4 quantization is now supported alongside the GGUF classics.
 Cloud models launched as Ollama Turbo in August 2025, and the plans were rebuilt into Free, Pro, Max, and Team tiers by late September 2026.
 The 0.40 line keeps shipping: v0.40.9 (2026-10-22, after v0.40.7 and v0.40.8) added speech generation with Phonon on Apple Silicon behind an OpenAI-compatible /v1/audio/speech endpoint and brought vLLM Semantic Router's d3 decision models (2B to 27B) into the registry, a second decision-model surface after LocalAI's own.
-v0.40.10 (2026-10-23) added NVIDIA's Nemotron 3.5 Bolt E4B, a Gemma 4-based vision-language model with a 128K context window and a DFlash drafter for speculative decoding, and v0.40.11 went stable on 2026-10-24, promoting the rc without additions past it.
+v0.40.10 (2026-10-23) added NVIDIA's Nemotron 3.5 Bolt E4B, a Gemma 4-based vision-language model with a 128K context window and a DFlash drafter for speculative decoding, v0.40.11 went stable on 2026-10-24, promoting the rc without additions past it, and v0.40.12 (2026-10-27) brought Liquid AI's LFM3 family built for local agents (lfm3 at 1.7B with a 256K context window, plus vision, audio, and omni variants) and moved the d1 decision models to a 2B size built on LFM3, with both new lines Apple-only in this release.
 **The pivot is genuine: a tool whose brand was local and private now sells US, Europe, and Singapore-hosted cloud inference through NVIDIA cloud partners, with the local runtime free underneath.**
 
 ## Strengths
@@ -88,6 +88,7 @@ My disagreeable claim: for coding agents on 16GB laptops, local quantized models
 - 2026-10-23 - Rotation re-verification with the release train: v0.40.7 (2026-10-18), v0.40.8 (2026-10-21), and v0.40.9 (2026-10-22) shipped, the last adding Phonon speech generation behind the OpenAI-compatible /v1/audio/speech endpoint and the d3 decision-model family (2B to 27B); every cited source re-fetched live with the pricing tiers, site counters, and model-table rows unchanged.
 - 2026-10-24 - Release train refresh: v0.40.10 (2026-10-23) added NVIDIA's Nemotron 3.5 Bolt E4B, a Gemma 4-based vision-language model with a 128K context window and a DFlash drafter, and v0.40.11-rc0 followed on 2026-10-24.
 - 2026-10-25 - Release train refresh: v0.40.11 left rc and went stable on 2026-10-24 with nothing past the rc, and the repo pushed 2026-10-24; stars stand at their 2026-10-16 verification.
+- 2026-10-28 - Release train refresh: v0.40.12 (2026-10-27) added Liquid AI's LFM3 family (1.7B text model with a 256K context window, plus vision, audio, and omni variants) and rebuilt the d1 decision models at 2B on LFM3, both Apple-only in this release; the repo pushed 2026-10-28; stars stand at their 2026-10-16 verification.
 
 ## See also
 
@@ -99,8 +100,8 @@ My disagreeable claim: for coding agents on 16GB laptops, local quantized models
 
 ## References
 
-- https://api.github.com/repos/ollama/ollama - 182,429 stars, Go, MIT, pushed 2026-10-07 (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 183,051 stars; re-fetched 2026-10-18, pushed 2026-10-18; re-fetched 2026-10-19, pushed 2026-10-18 unchanged; re-fetched 2026-10-21, pushed 2026-10-20, v0.40.6 still the latest stable; re-fetched 2026-10-23, pushed 2026-10-23, v0.40.9 latest; re-fetched 2026-10-24, pushed 2026-10-23, v0.40.10 latest; re-fetched 2026-10-25, pushed 2026-10-24, v0.40.11 latest; re-fetched 2026-10-26, pushed 2026-10-26, v0.40.11 still latest).
-- https://api.github.com/repos/ollama/ollama/releases - the 0.40.x train (fetched 2026-10-23: v0.40.7 of 2026-10-18, v0.40.8 of 2026-10-21, v0.40.9 of 2026-10-22, whose notes carry the Phonon speech feature and the d3 decision models; re-fetched 2026-10-24: v0.40.10 of 2026-10-23 with the Nemotron 3.5 Bolt notes, and v0.40.11-rc0 of 2026-10-24; re-fetched 2026-10-25: v0.40.11 stable of 2026-10-24, a promotion of the rc with no new notes; re-fetched 2026-10-26, nothing new past v0.40.11).
+- https://api.github.com/repos/ollama/ollama - 182,429 stars, Go, MIT, pushed 2026-10-07 (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 183,051 stars; re-fetched 2026-10-18, pushed 2026-10-18; re-fetched 2026-10-19, pushed 2026-10-18 unchanged; re-fetched 2026-10-21, pushed 2026-10-20, v0.40.6 still the latest stable; re-fetched 2026-10-23, pushed 2026-10-23, v0.40.9 latest; re-fetched 2026-10-24, pushed 2026-10-23, v0.40.10 latest; re-fetched 2026-10-25, pushed 2026-10-24, v0.40.11 latest; re-fetched 2026-10-26, pushed 2026-10-26, v0.40.11 still latest; re-fetched 2026-10-28, pushed 2026-10-28, v0.40.12 latest).
+- https://api.github.com/repos/ollama/ollama/releases - the 0.40.x train (fetched 2026-10-23: v0.40.7 of 2026-10-18, v0.40.8 of 2026-10-21, v0.40.9 of 2026-10-22, whose notes carry the Phonon speech feature and the d3 decision models; re-fetched 2026-10-24: v0.40.10 of 2026-10-23 with the Nemotron 3.5 Bolt notes, and v0.40.11-rc0 of 2026-10-24; re-fetched 2026-10-25: v0.40.11 stable of 2026-10-24, a promotion of the rc with no new notes; re-fetched 2026-10-26, nothing new past v0.40.11; re-fetched 2026-10-28 reading v0.40.12 of 2026-10-27 with the LFM3 and d1-2B release notes).
 - https://ollama.com/ - current positioning: 9M developers, coding-agent integrations, Pro/Max teaser, cloud regions (200, re-fetched 2026-10-21 with the 9M+/1B+/200T+ counters unchanged; re-fetched 2026-10-23 unchanged).
 - https://ollama.com/pricing - all tiers, included credits, per-token model table, off-peak terms, concurrency caps, FAQ (200, re-fetched unchanged 2026-10-06, 2026-10-14, and 2026-10-21; re-fetched 2026-10-23 with tiers, credits, caps, and the cited model rows unchanged).
 - https://docs.ollama.com/ - local API surface: Ollama, OpenAI, and Anthropic-compatible clients, cloud vs local split (200, re-fetched 2026-10-21; re-fetched 2026-10-23 unchanged).

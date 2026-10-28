@@ -1,7 +1,7 @@
 ---
 title: Magnitude
 created: 2026-10-06
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, inference-engine]
 readability: 3
@@ -19,11 +19,11 @@ Magnitude is a free open-source inference engine for agents that compiles and tu
 An Apache-2.0 inference engine written in Rust by magnitudedev, a two-person YC S25 team (Anders and Tom) whose previous project was an open-source browser agent that reached 4k+ stars and 100k+ downloads.
 It installs as a desktop app on macOS, Windows, and Linux, serves open models from a curated catalog of 15 (as of 2026-10-06) over an OpenAI-compatible API, and tunes its kernels on your device in about one minute per downloaded model.
 The kernels are hand-written with tunable parameters and then fitted to your chip: Metal on Apple silicon, CUDA on NVIDIA, Vulkan on AMD and Strix Halo, or plain CPU, and the KV cache is quantized to 8-bit keys and 4-bit values to cut long-context memory.
-One-click connectors target Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline, and a `@magnitudedev/cli` package (0.2.10 as of 2026-10-21) installs the app and can connect Claude Code to the loaded local model without a Claude login.
+One-click connectors target Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline, and a `@magnitudedev/cli` package (0.2.13 as of 2026-10-28) installs the app and can connect Claude Code to the loaded local model without a Claude login; since 0.2.11 the CLI also runs any GGUF of a supported model family, including off-catalog quantizations, finetunes, and merges.
 
 ## Status
 
-Active and young: 6,886 stars, 464 forks (as of 2026-10-24), repo pushed 2026-10-26 (as of 2026-10-26).
+Active and young: 6,886 stars, 464 forks (as of 2026-10-24), repo pushed 2026-10-28 (as of 2026-10-28).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=magnitudedev/magnitude&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ The founders told the launch thread that a hybrid inference cloud with per-token
 
 - The speed claim is contested: the launch benchmark is a prose-repetition task, one launch user measured Magnitude 0.2.1 at roughly half of llama.cpp speed for both prefill and decode on an M5 Max (the founder acknowledged an unexploited M5 matmul path), and another measured llama.cpp 20-30% faster at decode on an RTX 5070ti.
 - No multi-GPU support yet (issue #141), and one launch user's two NVIDIA GPUs were detected as four.
-- The catalog is deliberately narrow: 15 curated families, nothing below 4-bit, because the founders say lower quantizations break thinking and tool calls.
+- The catalog is deliberately narrow: 15 curated families with catalog quantizations nothing below 4-bit, because the founders say lower quantizations break thinking and tool calls (since CLI 0.2.11, 2026-10-26, any GGUF of a supported family can be run from the CLI, which widens what loads without changing what the catalog curates).
 - Launch users hit install friction, including a stuck "assessing models" step (issue #142) and model-fit estimates that were wrong on some machines.
 - The planned cloud has no published prices, so the free engine is currently the whole product.
 
@@ -73,6 +73,7 @@ My disagreeable claim: on current evidence the 2x marketing is narrower than the
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 - 2026-10-07 - Added the magnitudedev/magnitude star history chart to the Status section.
 - 2026-10-17 - Recorded the `@magnitudedev/cli` package (0.2.9, published 2026-10-15), which installs the app and connects Claude Code to the loaded local model without a Claude login; the release listing re-fetched the same day.
+- 2026-10-28 - CLI train refresh: `@magnitudedev/cli` advanced to 0.2.13 (0.2.11 of 2026-10-26 added custom-GGUF runs of any supported family beyond the curated catalog, 0.2.12 of 2026-10-27 was app polish, and 0.2.13 of 2026-10-28 fixed the Discover page flashing back to assessing), with the catalog caution amended for the custom-model path and the repo pushed 2026-10-28.
 
 ## See also
 
@@ -84,8 +85,8 @@ My disagreeable claim: on current evidence the 2x marketing is narrower than the
 
 ## References
 
-- https://api.github.com/repos/magnitudedev/magnitude - 6,474 stars, 442 forks, Rust, Apache-2.0, pushed 2026-10-07, homepage (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 6,717 stars, 464 forks, pushed 2026-10-13; re-fetched 2026-10-17, pushed 2026-10-17; re-fetched 2026-10-19, pushed 2026-10-19; re-fetched 2026-10-21, pushed 2026-10-21; re-fetched 2026-10-23, pushed 2026-10-23; re-fetched 2026-10-24, pushed 2026-10-24; re-fetched 2026-10-25, pushed 2026-10-25; re-fetched 2026-10-26, pushed 2026-10-26).
-- https://api.github.com/repos/magnitudedev/magnitude/releases - the `@magnitudedev/cli` train (0.2.9 on 2026-10-15) and the desktop-update-acceptance pre-releases (fetched 200, 2026-10-17; re-fetched 2026-10-19, nothing new past the 2026-10-15 entries; re-fetched 2026-10-21 reading @magnitudedev/cli@0.2.10 of 2026-10-20, a memory-planning patch for unified-memory GPUs; re-fetched 2026-10-23 and again 2026-10-24, nothing new past 0.2.10; re-fetched 2026-10-25 and again 2026-10-26, still nothing new past 0.2.10).
+- https://api.github.com/repos/magnitudedev/magnitude - 6,474 stars, 442 forks, Rust, Apache-2.0, pushed 2026-10-07, homepage (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 6,717 stars, 464 forks, pushed 2026-10-13; re-fetched 2026-10-17, pushed 2026-10-17; re-fetched 2026-10-19, pushed 2026-10-19; re-fetched 2026-10-21, pushed 2026-10-21; re-fetched 2026-10-23, pushed 2026-10-23; re-fetched 2026-10-24, pushed 2026-10-24; re-fetched 2026-10-25, pushed 2026-10-25; re-fetched 2026-10-26, pushed 2026-10-26; re-fetched 2026-10-28, pushed 2026-10-28).
+- https://api.github.com/repos/magnitudedev/magnitude/releases - the `@magnitudedev/cli` train (0.2.9 on 2026-10-15) and the desktop-update-acceptance pre-releases (fetched 200, 2026-10-17; re-fetched 2026-10-19, nothing new past the 2026-10-15 entries; re-fetched 2026-10-21 reading @magnitudedev/cli@0.2.10 of 2026-10-20, a memory-planning patch for unified-memory GPUs; re-fetched 2026-10-23 and again 2026-10-24, nothing new past 0.2.10; re-fetched 2026-10-25 and again 2026-10-26, still nothing new past 0.2.10; re-fetched 2026-10-28 reading @magnitudedev/cli@0.2.11 of 2026-10-26 (custom-GGUF runs), 0.2.12 of 2026-10-27, and 0.2.13 of 2026-10-28).
 - https://magnitude.dev/ - positioning, benchmark table (Metal 92% faster decode, CUDA 19%), memory and connector claims, FAQ (200, fetched 2026-10-06).
 - https://hn.algolia.com/api/v1/items/49911995 - launch thread: founders, tuning time, benchmark methodology, critical speed measurements, planned per-token cloud (200, fetched 2026-10-06).
 - https://hn.algolia.com/api/v1/search?query=magnitude&tags=story&numericFilters=created_at_i%3E1758900000 - launch points and date, plus the June 2026 coding-agent pivot story (200, fetched 2026-10-06).

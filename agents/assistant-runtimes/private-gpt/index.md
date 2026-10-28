@@ -1,7 +1,7 @@
 ---
 title: PrivateGPT
 created: 2026-09-27
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, self-hosting, api-first, rag]
 readability: 3
@@ -25,7 +25,7 @@ Commercially, Zylon builds the enterprise platform on top: an on-premise, air-ga
 
 ## Status
 
-Alive again after a long quiet stretch: 57,577 stars and 7,619 forks as of 2026-10-14, created 2023-05-02, pushed 2026-10-23 with 12 open issues and pull requests as of 2026-10-26.
+Alive again after a long quiet stretch: 57,577 stars and 7,619 forks as of 2026-10-14, created 2023-05-02, pushed 2026-10-27 with 17 open issues and pull requests as of 2026-10-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zylon-ai/private-gpt&type=date&theme=dark&legend=top-left" />
@@ -76,6 +76,7 @@ The disagreeable claim I will defend: the star count is a museum of the 2023 dem
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-10-07 - Added the zylon-ai/private-gpt star history chart to the Status section.
 - 2026-10-18 - Rotation re-verification: every cited URL re-fetched live, v1.0.1 (2026-06-18) confirmed still the latest release, and the Claude-API compatibility claims, the integration list, and the Zylon positioning all confirmed unchanged.
+- 2026-10-28 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the docs site, zylon.ai, the launch thread via Algolia), v1.0.1 (2026-06-18) confirmed still the latest release, and the API-first positioning, the Claude-API compatibility table (skills basic, prompt caching and OAuth missing), and the Zylon enterprise framing all unchanged.
 
 ## See also
 

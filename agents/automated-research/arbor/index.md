@@ -1,7 +1,7 @@
 ---
 title: Arbor
 created: 2026-10-12
-updated: 2026-10-12
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, hypothesis-tree, held-out-validation, multi-agent, open-source]
 readability: 3
@@ -23,7 +23,7 @@ The README's worked example: a six-cycle run moved a dev speedup from 1.01x to 7
 
 ## Status
 
-Active-adjacent and early: 1,106 stars, created 2026-05-31, last pushed 2026-09-08, with the release train paused at v0.1.4 since 2026-07-12, as of 2026-10-12.
+Active-adjacent and early: 1,106 stars, created 2026-05-31, last pushed 2026-09-08, with the release train paused at v0.1.4 since 2026-07-12, as of 2026-10-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=RUC-NLPIR/Arbor&type=date&theme=dark&legend=top-left" />
@@ -62,7 +62,7 @@ Costs are your own model API keys (coordinator plus executors) and your compute.
 ## Bottom line
 
 **Recommended for teams with a measurable optimization target and clean dev and held-out splits that want an experiment organization whose gains must survive unseen data before touching the trunk.**
-Not for anyone needing a maintained release train or independent benchmark evidence, both absent as of 2026-10-12.
+Not for anyone needing a maintained release train or independent benchmark evidence, both absent as of 2026-10-28.
 
 ## Changes
 
@@ -77,9 +77,9 @@ Not for anyone needing a maintained release train or independent benchmark evide
 
 ## References
 
-- https://github.com/RUC-NLPIR/Arbor - repository, Apache-2.0, 1,106 stars, last push 2026-09-08 (as of 2026-10-12)
-- https://raw.githubusercontent.com/RUC-NLPIR/Arbor/main/README.md - coordinator and executor split, worktree isolation, the held-out merge gate, and the six-task results (fetched 200, 2026-10-12)
-- https://arxiv.org/abs/2606.11926 - the paper "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement": the HTR mechanism and authors (fetched 200, 2026-10-12)
-- https://pypi.org/pypi/arbor-agent/json - package version 0.1.4 (fetched 200, 2026-10-12)
-- https://RUC-NLPIR.github.io/Arbor/ - project page and documentation (fetched 200, 2026-10-12)
-- https://venturebeat.com/orchestration/new-ai-optimization-framework-beats-claude-code-and-codex-by-2-5x-on-the-same-compute-budget/ - the June 18 2026 coverage of the 2.5x claim (returned a bot checkpoint, unfetchable, as of 2026-10-12)
+- https://github.com/RUC-NLPIR/Arbor - repository, Apache-2.0, 1,106 stars, last push 2026-09-08 (as of 2026-10-28)
+- https://raw.githubusercontent.com/RUC-NLPIR/Arbor/main/README.md - coordinator and executor split, worktree isolation, the held-out merge gate, and the six-task results (fetched 200, 2026-10-28)
+- https://arxiv.org/abs/2606.11926 - the paper "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement": the HTR mechanism and authors (fetched 200, 2026-10-28)
+- https://pypi.org/pypi/arbor-agent/json - package version 0.1.4 (fetched 200, 2026-10-28)
+- https://RUC-NLPIR.github.io/Arbor/ - project page and documentation (fetched 200, 2026-10-28)
+- https://venturebeat.com/orchestration/new-ai-optimization-framework-beats-claude-code-and-codex-by-2-5x-on-the-same-compute-budget/ - the June 18 2026 coverage of the 2.5x claim (behind a bot checkpoint again on 2026-10-28, unfetchable)

@@ -1,7 +1,7 @@
 ---
 title: Cordum
 created: 2026-10-07
-updated: 2026-10-21
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, safety-kernel, approvals, claude-code]
 readability: 3
@@ -24,7 +24,7 @@ Enterprise features (SSO, SCIM, advanced RBAC, SIEM export, legal hold) ship in 
 
 ## Status
 
-Active and young: 509 stars and 34 forks as of 2026-10-10, with 17 open issues and the latest push on 2026-10-20 as of 2026-10-21, created 2026-01-11, latest tagged release v1.2.0 (2026-10-17), with the CAP SDKs versioned separately at 2.17.0 (2026-07-22).
+Active and young: 509 stars and 34 forks as of 2026-10-10, with 25 open issues and the latest push on 2026-10-27 as of 2026-10-28, created 2026-01-11, latest tagged release v1.2.0 (2026-10-17), with the CAP SDKs versioned separately at 2.17.0 (2026-07-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cordum-io/cordum&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ Not for OSI-only shops, and not for anyone who needs an adopted project with ind
 - 2026-10-07 - Created from the awesome-ai-governance entrant scan, profiling the source-available dispatch-time control plane and its Claude Code Edge firewall.
 - 2026-10-17 - Full rotation re-verification: every cited URL re-fetched and live, pricing unchanged, the CAP repo re-checked (Apache-2.0, pushed 2026-10-12, SDKs still 2.17.0), the vendor's new CordClaw OpenClaw adapter recorded per the sibling fold, and the site's Action-Firewall framing noted.
 - 2026-10-21 - Release train moved to v1.2.0 (2026-10-17), scheduler lock-fence and audit-exporter fixes, ending the four-month v1.1.0 hold; the train-lags caution rewritten.
+- 2026-10-28 - Full rotation re-verification: every cited URL re-fetched and live except the three cordum.io pages, which refused fetchers this run (403 to plain and browser user agents), so the vendor-site, pricing, and CordClaw state stands as last read 2026-10-17; v1.2.0 and the CAP SDKs (2.17.0 on both PyPI and npm) unchanged.
 
 ## See also
 

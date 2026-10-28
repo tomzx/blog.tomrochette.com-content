@@ -1,7 +1,7 @@
 ---
 title: OpenResearch
 created: 2026-10-05
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, autoresearch, multi-agent, alphaXiv]
 readability: 3
@@ -24,7 +24,7 @@ The agent-facing surface is first-class: `orx install-skills` installs a skill i
 
 ## Status
 
-Active and fast-moving: 7,234 stars as of 2026-10-21, 501 forks, 141 open issues and pull requests, created 2026-06-07, last pushed 2026-10-26 (OpenCode-facing fixes, native skill discovery paths and plugin-activation readiness, following post-release desktop polish, SSH-monitor hardening, and a CITATION.cff whose orx-paper acknowledgment now lands in papers the loop writes), with v0.2.21 (October 23) the latest release, carrying the October Trackio widening to Spaces, Hugging Face runs, and orx metrics and the configurable remote storage root, as of 2026-10-26.
+Active and fast-moving: 7,234 stars as of 2026-10-21, 506 forks, 117 open issues and pull requests, created 2026-06-07, last pushed 2026-10-28 (release day itself: permanent experiment delete, shared SSH monitoring with transport-failure backoff, stable and canary desktop update channels, openresearch:// deep links opening papers in the macOS app, native skill-discovery path fixes, an improved research workspace, and orx-paper now embedding a CITATION.cff acknowledgment), with v0.2.22 (October 28) the latest release, following v0.2.21's October Trackio widening to Spaces, Hugging Face runs, and orx metrics and the configurable remote storage root, as of 2026-10-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alphaXiv/OpenResearch&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ Not for anyone who needs a supported product, a security-reviewed remote deploym
 - 2026-10-10 - Recorded the v0.2.18 release (October 9) and refreshed the volatile counts.
 - 2026-10-12 - Refreshed the volatile counts; v0.2.18 remains the latest release.
 - 2026-10-23 - Refreshed the status: v0.2.21 (October 23) the latest release, its train widening the Trackio integration to Spaces, Hugging Face runs, and orx metrics and making the SSH and Slurm storage root configurable, with the fork and open-issue counts moved.
+- 2026-10-28 - Refreshed the status: v0.2.22 (October 28) the latest release, its train adding permanent experiment delete, shared SSH monitoring with backoff, stable and canary desktop update channels, openresearch:// paper deep links on macOS, and a CITATION.cff acknowledgment in orx-paper, with the fork and open-issue counts moved.
 
 ## See also
 
@@ -85,8 +86,9 @@ Not for anyone who needs a supported product, a security-reviewed remote deploym
 ## References
 
 - https://github.com/alphaXiv/OpenResearch - README: harness support, the autoresearch loop, worktrees, experiment tree, run-anywhere list, telemetry policy, local-first store, and the remote no-auth admission (fetched 200, 2026-10-05)
-- https://api.github.com/repos/alphaXiv/OpenResearch - forks, open issues, created and push dates, and the MIT license, with the star figure left at its 2026-10-21 baseline (fetched 200, 2026-10-23)
-- https://api.github.com/repos/alphaXiv/OpenResearch/releases - v0.2.21 (2026-10-23) the latest, carrying the Trackio widening and the storage-root option, and the release cadence across the 0.2.x train (fetched 200, 2026-10-23)
+- https://api.github.com/repos/alphaXiv/OpenResearch - forks, open issues, created and push dates, and the MIT license, with the star figure left at its 2026-10-21 baseline (fetched 200, 2026-10-28)
+- https://api.github.com/repos/alphaXiv/OpenResearch/compare/v0.2.21...v0.2.22 - the v0.2.22 commit train behind the release description: experiment delete, SSH-monitor sharing and backoff, desktop update channels, deep links, and skill-discovery fixes (fetched 200, 2026-10-28)
+- https://api.github.com/repos/alphaXiv/OpenResearch/releases - v0.2.22 (2026-10-28) the latest, following the v0.2.21 Trackio widening and storage-root option, and the release cadence across the 0.2.x train (fetched 200, 2026-10-28)
 - https://openresearch.sh/ - positioning ("autoresearch on your machine"), the alphaXiv project attribution, and the compute marketplace (fetched 200, 2026-10-05)
 - https://openresearch.sh/docs - the compute marketplace overview: provider comparison, provisioning, and the orx CLI (fetched 200, 2026-10-05)
 - https://openresearch.sh/docs/billing - provider-rate pass-through with no markup, prepaid balances, and zero-balance termination (fetched 200, 2026-10-05)

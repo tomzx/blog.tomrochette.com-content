@@ -1,7 +1,7 @@
 ---
 title: QwenPaw
 created: 2026-08-30
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 
 ## Status
 
-Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02-24, 1,142 open issues and PRs with the last push on 2026-10-26 as of 2026-10-26.
+Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02-24, 1,124 open issues and PRs with the last push on 2026-10-28 as of 2026-10-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&legend=top-left" />
 </picture>
 
-v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 followed on 2026-09-10 (PyPI upload 2026-09-11), with six v2.2.2 betas landing between 2026-09-17 and 2026-10-14 before v2.2.2 went stable on 2026-10-15, on GitHub and PyPI the same day, and v2.2.2.post1 followed on 2026-10-22 (PyPI upload minutes earlier), a security-remediation release that fixes emSign CA trust across dependencies, installers, and builds and updates its Node to 22.23.4.
+v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 followed on 2026-09-10 (PyPI upload 2026-09-11), with six v2.2.2 betas landing between 2026-09-17 and 2026-10-14 before v2.2.2 went stable on 2026-10-15, on GitHub and PyPI the same day, and v2.2.2.post1 followed on 2026-10-22 (PyPI upload minutes earlier), a security-remediation release that fixes emSign CA trust across dependencies, installers, and builds and updates its Node to 22.23.4, and the v2.3.0 line opened as a beta on 2026-10-27 (v2.3.0-beta.1 on GitHub and PyPI the same day: a mixed train of inline UI plugins, a Tavily credential-store option, and console fixes, no single headline).
 **A ground-up rewrite two minor versions before the current line is the churn signature: adoption is real, stability is not yet the product.**
 
 ## Strengths
@@ -73,6 +73,7 @@ Not for stability-first adopters mid-rewrite, or users who will not read the tel
 - 2026-10-07 - Added the agentscope-ai/QwenPaw star history chart to the Status section.
 - 2026-10-16 - Rotation re-verification: recorded v2.2.2 going stable (2026-10-15, GitHub and PyPI the same day) after six betas, with every cited URL re-fetched live and refreshed adoption numbers.
 - 2026-10-23 - Rotation re-verification: every cited URL re-fetched live (README, docs site, platform, PyPI registry, the AgentScope parent repo), recorded v2.2.2.post1 (2026-10-22, the emSign CA trust remediation with Node at 22.23.4) and the QwenPaw-Flash lineup grown to five sizes (2B, 4B, 9B, 27B, 35B-A3B) with v2.2.2, with refreshed adoption numbers.
+- 2026-10-28 - Recorded the v2.3.0 line opening as a beta (v2.3.0-beta.1, 2026-10-27, on GitHub and PyPI the same day: inline UI plugins, a Tavily credential-store option, console fixes), with refreshed adoption numbers.
 
 ## See also
 
@@ -85,7 +86,7 @@ Not for stability-first adopters mid-rewrite, or users who will not read the tel
 
 - https://raw.githubusercontent.com/agentscope-ai/QwenPaw/HEAD/README.md - channels, security layers, install, roadmap
 - https://github.com/agentscope-ai/QwenPaw - stars, forks, dates, language
-- https://pypi.org/project/qwenpaw/ - package versions and cadence (re-checked 2026-10-23 via the registry API, 2.2.2.post1 is the newest upload)
+- https://pypi.org/project/qwenpaw/ - package versions and cadence (re-checked 2026-10-28 via the registry API, 2.2.2.post1 the newest stable with v2.3.0b1 uploaded as a prerelease)
 - https://qwenpaw.agentscope.io/ - the docs site
 - https://github.com/agentscope-ai/agentscope - the parent framework behind the v2.0 rewrite
 - https://platform.agentscope.io/ - the free cloud deployment option

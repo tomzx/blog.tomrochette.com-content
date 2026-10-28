@@ -1,7 +1,7 @@
 ---
 title: Qwen Coding Plan
 created: 2026-09-26
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, qwen, subscriptions, alibaba]
 readability: 3
@@ -45,7 +45,7 @@ As of 2026-10-14 the coding-plan docs (updated 2026-10-11) still headline the $5
 
 ## Pricing
 
-As of 2026-10-25 (rotation re-verification, every price standing) two price sheets coexist.
+As of 2026-10-28 (rotation re-verification, every price standing) two price sheets coexist.
 Coding Plan Pro: $50/month, capped at 6,000 requests per 5 hours, 45,000 per week, and 90,000 per month, whichever hits first (official docs, page updated 2026-10-11 and re-fetched 2026-10-25, with slots still first-come, first-served).
 Token Plan Personal (Singapore region): Lite $6 (list $8), Essential $10 (list $16), Standard $18 (list $25), Pro $68 (list $80) per month for 11,500/25,500/45,000/180,000 Credits, with team seats at $20/$75/$200 and extra bundles at $15 per 20,000 Credits.
 A third-party tracker (data updated 2026-09-24) reports China-side early-bird pricing of ¥39/¥139/¥499 per month, a limited-time night rate of 40% of normal Credits from 22:00, and 88% over-limit billing.
@@ -77,6 +77,7 @@ Claim to disagree with: the $50 Coding Plan Pro that Alibaba's docs still headli
 - 2026-09-26 - Created when the owner asked for any remaining subscription providers.
 - 2026-10-06 - Cleaned the Compared-to and See also link labels (stray leading dashes inside the link text), and the Coding Plan Pro quota terms re-verified on the official docs.
 - 2026-10-11 - Roster check: the docs (updated the same day) dropped the qwen3-coder line from the Pro plan's supported-models list, which now pins qwen3.7-plus, qwen3.6-plus, qwen3.5-plus, kimi-k2.5, glm-5, and MiniMax-M2.5 and states that unlisted models are not supported; every stated price re-verified unchanged.
+- 2026-10-28 - Rotation re-verification: every cited source re-fetched live (the four Alibaba Cloud docs and campaign pages, the codingplan.org tracker, and the vibecoding.app critical review) with the $50 Pro plan, its 6,000/45,000/90,000 caps, the "not supported" roster line, the $6/$10/$18/$68 Token Plan tiers, and the tracker's early-bird rows all unchanged; the common-buy purchase URL still serves a login wall.
 
 ## See also
 
@@ -88,10 +89,10 @@ Claim to disagree with: the $50 Coding Plan Pro that Alibaba's docs still headli
 
 ## References
 
-- https://www.alibabacloud.com/help/en/model-studio/coding-plan - official Coding Plan docs: $50 Pro, 6,000/45,000/90,000 request caps, Lite dates of 2026-03-20 and 2026-04-13, automation ban, snapshot-pinned roster, `sk-sp-` key rules (fetched, HTTP 200; re-fetched 2026-10-14 with the page still dated 2026-10-11 and the roster and prices unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the $50/month row, the 6,000/45,000/90,000 caps, the pinned roster ending in "Models not listed above are not supported", and the `sk-sp-` key rules all confirmed)
-- https://www.alibabacloud.com/help/en/model-studio/token-plan-overview - official Token Plan overview: USD tiers and Credits, Singapore-only availability, and the FAQ stating Coding Plan Pro was limited-quantity with no migration path (fetched, HTTP 200; re-fetched 2026-10-25 with the $6/$10/$18/$68 tiers and Singapore-only row unchanged; re-fetched 2026-10-26 with the $6 and $68 tiers, the 11,500-Credits entry, and the Singapore rows confirmed).
-- https://www.alibabacloud.com/en/campaign/ai-scene-coding - official campaign and purchase page: limited-time USD prices, 2X credit promotion, Qwen3.8-Max positioning (fetched, HTTP 200; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the $6 and $68 price points and the 11,500-Credits entry present).
-- https://www.alibabacloud.com/help/en/model-studio/token-plan-guide - official docs hub placing Token Plan above Coding Plan in the product nav as of 2026-09-25 (fetched, HTTP 200; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 unchanged).
-- https://codingplan.org/en/plans/qwen - tracker: credits restructure, ¥39/¥139/¥499 early-bird, 40% night rate from 22:00, legacy ¥40/¥200 China prices (fetched, HTTP 200, data updated 2026-09-24; re-fetched 2026-10-25, tracker data still dated 2026-09-24; re-fetched 2026-10-26, tracker data still dated 2026-09-24 with the early-bird and night-rate rows present).
-- https://vibecoding.app/blog/alibaba-coding-plan-review - critical review: suspension reports, opaque appeals, no rollover, roster changes without notice (fetched, HTTP 200, updated 2026-06-17; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the suspension, appeal, and rollover sections present).
-- https://common-buy-intl.alibabacloud.com/coding-plan - official purchase URL; fetch reached a 2FA verification wall, so no plan data was read from it (fetch blocked, disclosed; re-attempted 2026-10-25 and again 2026-10-26, still walled).
+- https://www.alibabacloud.com/help/en/model-studio/coding-plan - official Coding Plan docs: $50 Pro, 6,000/45,000/90,000 request caps, Lite dates of 2026-03-20 and 2026-04-13, automation ban, snapshot-pinned roster, `sk-sp-` key rules (fetched, HTTP 200; re-fetched 2026-10-14 with the page still dated 2026-10-11 and the roster and prices unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the $50/month row, the 6,000/45,000/90,000 caps, the pinned roster ending in "Models not listed above are not supported", and the `sk-sp-` key rules all confirmed; re-fetched 2026-10-28 with the same rows confirmed again)
+- https://www.alibabacloud.com/help/en/model-studio/token-plan-overview - official Token Plan overview: USD tiers and Credits, Singapore-only availability, and the FAQ stating Coding Plan Pro was limited-quantity with no migration path (fetched, HTTP 200; re-fetched 2026-10-25 with the $6/$10/$18/$68 tiers and Singapore-only row unchanged; re-fetched 2026-10-26 with the $6 and $68 tiers, the 11,500-Credits entry, and the Singapore rows confirmed; re-fetched 2026-10-28 with the tiers and Credits rows confirmed again).
+- https://www.alibabacloud.com/en/campaign/ai-scene-coding - official campaign and purchase page: limited-time USD prices, 2X credit promotion, Qwen3.8-Max positioning (fetched, HTTP 200; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the $6 and $68 price points and the 11,500-Credits entry present; re-fetched 2026-10-28 unchanged).
+- https://www.alibabacloud.com/help/en/model-studio/token-plan-guide - official docs hub placing Token Plan above Coding Plan in the product nav as of 2026-09-25 (fetched, HTTP 200; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 unchanged; re-fetched 2026-10-28 unchanged).
+- https://codingplan.org/en/plans/qwen - tracker: credits restructure, ¥39/¥139/¥499 early-bird, 40% night rate from 22:00, legacy ¥40/¥200 China prices (fetched, HTTP 200, data updated 2026-09-24; re-fetched 2026-10-25, tracker data still dated 2026-09-24; re-fetched 2026-10-26, tracker data still dated 2026-09-24 with the early-bird and night-rate rows present; re-fetched 2026-10-28, tracker data still dated 2026-09-24).
+- https://vibecoding.app/blog/alibaba-coding-plan-review - critical review: suspension reports, opaque appeals, no rollover, roster changes without notice (fetched, HTTP 200, updated 2026-06-17; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the suspension, appeal, and rollover sections present; re-fetched 2026-10-28 unchanged).
+- https://common-buy-intl.alibabacloud.com/coding-plan - official purchase URL; fetch reached a 2FA verification wall, so no plan data was read from it (fetch blocked, disclosed; re-attempted 2026-10-25, 2026-10-26, and 2026-10-28, still walled behind the login UI).

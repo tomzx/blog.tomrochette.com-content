@@ -1,7 +1,7 @@
 ---
 title: Latent Space
 created: 2026-08-29
-updated: 2026-10-15
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, newsletter, podcast, community]
 readability: 3
@@ -24,7 +24,7 @@ It is also, critically, the place where the tools profiled in this section get t
 
 Active and expanding.
 As of 2026-10-13 the announcement month ran "The State of Latent Space" for 2026, adding shows, hosts, and more interview formats; the AI Engineer conference network grew to events in New York, San Francisco, Paris, and Europe.
-The newest issues are the AI Engineer New York pair posted 2026-10-15, "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents" and the Leash Bio interview "Lab-in-the-Loop at Compute Speed", after the Dyna-2 robotics pod with Dyna's Jason Ma and the Meta Muse Wonder AINews (both 2026-10-13), "How Anthropic's Dynamic Workflows Coordinate Claude Agents" ([2026-10-12](https://www.latent.space/p/claude-dynamic-workflows)), and the two 2026-10-10 issues "Building AI for Reliable Execution: Lessons From Industrial Robotics" and "Why AlphaFold Didn't Solve Protein Folding" with Google DeepMind's Pushmeet Kohli and Sal Candido, and "Synthesis Superintelligence" with Periodic Labs' Liam Fedus and Ekin Dogus Cubuk (2026-10-08), the Airbnb interview "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience" ([2026-10-02](https://www.latent.space/p/airbnb)), "Academia is for Ambition" with MIT's Alex Zhang ([2026-10-02](https://www.latent.space/p/rlm)), and "Claude Code's Next Era" with Anthropic's Thariq Shihipar (2026-09-29, ninety minutes on Opus/Sonnet 5.5, Mods, Plugins, and Projects), and the near-daily AINews roundups run through 2026-10-14 (the AI Engineer NYC issue with Gemini 4 Argon's general availability), after the Pi 1.0, Gemini 4 Argon, and OpenAI DevDay 2026 runs; a subscriber-exclusive note previewed the New York subscriber meetups on 2026-10-10.
+The newest issues are the 2026-10-27 trio: "How Anthropic ships Claude with Claude: Separating the Brain from the Hands" (the Opus 5.5 piece with Anthropic's Katelyn Lesse and Angela Jiang), its 107-minute podcast twin "How Anthropic ships the #1 LLM in the World safely", and "Coding From the Himalayas With an Offline AI Agent", after "Claude Mods: Flipping the Harness Inside Out" (2026-10-21), the Moshi team interview "You are the Team" and the Modal CEO piece "Why AI Compute Comes in Rectangles" (both 2026-10-22), and "AI Is Getting Good at Math. Here's Why." (2026-10-23), with the near-daily AINews roundups running through 2026-10-27 (the Anthropic S-1 filing read, after Kimi 3.1 Pro, Black October, OpenAI's PHP2Shell Patch-the-Planet disclosure, and DeepSeek DeepInfer), and the publication's front page now also fronts a wiki of 705 sourced person and organization profiles plus 281 grounded writeups as of 2026-10-28.
 Between those interviews sits the DevDay episode "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week" ([2026-09-30](https://www.latent.space/p/devday-2026)), the first pod on the DevDay lineup, where OpenAI's Ari Weinstein argues computer use is "180 degrees different" and Nikunj Handa walks through the Jev-inspired Decisions API.
 The podcast regularly lands the people behind the harnesses this section tracks, and swyx's own notes continue to set trends (memory, filesystems, agent-eats-agent).
 
@@ -81,6 +81,7 @@ Not for people who want only hands-on tool notes and who will not filter past th
 - 2026-10-11 - Latest-issue pointer refreshed: the two October 10 issues (the industrial-robotics reliability piece and the AlphaFold conversation with Google DeepMind's Pushmeet Kohli and Sal Candido) now lead, after Periodic Labs (October 8), with AINews running through October 10 and a subscriber-exclusive New York meetup note; feed fetched this run.
 - 2026-10-13 - Latest-issue pointer refreshed: "How Anthropic's Dynamic Workflows Coordinate Claude Agents" (2026-10-12) now leads, with AINews holding through October 10; subscriber count re-verified at over 203,000; feed and issue URL fetched this run.
 - 2026-10-15 - Latest-issue pointer refreshed: the two AI Engineer New York pieces posted 2026-10-15 (the financial-agents autonomy piece and the Leash Bio interview) now lead, after the Dyna-2 pod and the Meta Muse Wonder AINews (October 13), with AINews running through October 14; subscriber count held at over 203,000; archive fetched this run.
+- 2026-10-28 - Rotation re-verification: latest-issue pointer moved to the 2026-10-27 Anthropic Opus 5.5 pair and the offline-coding piece, with "Claude Mods" (October 21) and the Moshi and Modal pods (October 22) in between and AINews running through October 27 (Anthropic S-1 filing); the front page's new wiki (705 profiles, 281 writeups) recorded; every cited URL re-fetched live, the subscriber figure keeps its 2026-10-15 as-of date because the page no longer displays a count (feed, home, AINews section, and archive URLs fetched this run).
 
 ## See also
 
@@ -95,7 +96,7 @@ Not for people who want only hands-on tool notes and who will not filter past th
 - https://www.latent.space/feed - the RSS feed grounding the subscriber count and the latest issues
 - https://www.latent.space/p/ai-engineer - the founding essay that named the AI Engineer role
 - https://ai.engineer/ - the conference series brand
-- https://www.latent.space/s/ainews - the AINews daily roundup arm (the old news.smol.ai deployment was disabled; the roundup now lives as a section of the publication)
+- https://www.latent.space/s/ainews - the AINews daily roundup arm (the old news.smol.ai deployment was disabled; the roundup now lives as a section of the publication, 745 posts as of 2026-10-28)
 - https://www.latent.space/p/2026 - the 2026 plans post (State of Latent Space)
 - https://www.latent.space/p/devday-2026 - the DevDay episode (2026-09-30) with OpenAI's Ari Weinstein (computer use) and Nikunj Handa (API), grounding the Jev-inspired Decisions API claim
 - https://www.cognitiverevolution.ai/ai-engineers-pendants-and-competition-between-openai-and-developers-with-swyx-of-latent-space - an independent interview where swyx discusses the brand's commercial stake

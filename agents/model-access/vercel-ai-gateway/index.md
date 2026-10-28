@@ -1,7 +1,7 @@
 ---
 title: Vercel AI Gateway
 created: 2026-10-06
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, ai-gateway, pay-per-token, byok]
 readability: 3
@@ -69,6 +69,7 @@ My disagreeable claim: zero markup here prices the gateway, not the product, bec
 ## Changes
 
 - 2026-10-06 - Created when this run's entrant scan surfaced the gateway's coding-agent setup documentation.
+- 2026-10-28 - Rotation re-verification: every cited source re-fetched live (the two docs pages, the GA post, the changelog entry, the coplay.dev competitive post, and the closed BYOK issue) with the zero-markup and surcharge figures ($0.10/$0.075/$5/$0.05/$0.50), the 29-agent table, the $5-every-30-days and 2-million-download GA lines, and the issue's closed state all unchanged; the coplay.dev URL updated to its canonical apex path after a redirect.
 
 ## See also
 
@@ -80,10 +81,10 @@ My disagreeable claim: zero markup here prices the gateway, not the product, bec
 
 ## References
 
-- https://vercel.com/docs/ai-gateway - gateway overview, zero-markup claim, BYOK, budgets, fallback (200, page last updated 2026-09-14, re-fetched 2026-10-21; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 unchanged)
-- https://vercel.com/docs/ai-gateway/pricing - no markup, free and paid tiers, credits, add-on surcharge tables (200, page last updated 2026-09-08, re-fetched 2026-10-11 and 2026-10-14 unchanged, re-fetched 2026-10-19 with every surcharge figure verified in the page text, re-fetched 2026-10-21 with the zero-markup, BYOK, free-credit, and surcharge figures all confirmed again; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 with the zero-markup rows and every surcharge figure re-confirmed in the page text; re-fetched 2026-10-26 with the no-markup and zero-markup rows and the $0.10/$0.075/$0.05 surcharge figures confirmed again)
-- https://vercel.com/docs/ai-gateway/coding-agents - the 29-agent setup table, the one-command CLI, per-agent endpoints (200, page last updated 2026-09-13, re-fetched 2026-10-21 with the setup table still listing 29 agents; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the agent table still holding 29 body rows, Aider through Zed)
-- https://vercel.com/blog/ai-gateway-is-now-generally-available - GA announcement of August 21, 2025: $5 free credits per 30 days, hundreds of models, v0 pedigree, AI SDK at 2M weekly downloads (200, re-fetched 2026-10-21; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the $5-every-30-days and 2-million-downloads lines confirmed in the page text)
-- https://vercel.com/changelog/set-up-coding-agents-in-one-command-with-ai-gateway - the August 12, 2026 coding-agent setup launch, 200+ models, budgets on agent keys (200, re-fetched 2026-10-21; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 unchanged)
-- https://www.coplay.dev/blog/openrouter-drops-fees-in-response-to-vercel-s-ai-gateway - competitive response: OpenRouter's October 2025 BYOK fee cut attributed to this gateway (200, re-fetched 2026-10-21; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 unchanged)
-- https://github.com/vercel/ai/issues/11280 - critical: a $0 credit balance blocked BYOK requests in December 2025, closed with the system-credential fallback documented (fetched via the GitHub API, re-fetched 2026-10-21, still closed; re-fetched 2026-10-23, still closed; re-fetched 2026-10-25, still closed; re-fetched 2026-10-26, still closed)
+- https://vercel.com/docs/ai-gateway - gateway overview, zero-markup claim, BYOK, budgets, fallback (200, page last updated 2026-09-14, re-fetched 2026-10-21; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 unchanged; re-fetched 2026-10-28 unchanged)
+- https://vercel.com/docs/ai-gateway/pricing - no markup, free and paid tiers, credits, add-on surcharge tables (200, page last updated 2026-09-08, re-fetched 2026-10-11 and 2026-10-14 unchanged, re-fetched 2026-10-19 with every surcharge figure verified in the page text, re-fetched 2026-10-21 with the zero-markup, BYOK, free-credit, and surcharge figures all confirmed again; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 with the zero-markup rows and every surcharge figure re-confirmed in the page text; re-fetched 2026-10-26 with the no-markup and zero-markup rows and the $0.10/$0.075/$0.05 surcharge figures confirmed again; re-fetched 2026-10-28 with the no-markup rows and every surcharge figure confirmed again)
+- https://vercel.com/docs/ai-gateway/coding-agents - the 29-agent setup table, the one-command CLI, per-agent endpoints (200, page last updated 2026-09-13, re-fetched 2026-10-21 with the setup table still listing 29 agents; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the agent table still holding 29 body rows, Aider through Zed; re-fetched 2026-10-28 with the setup table and agent names unchanged)
+- https://vercel.com/blog/ai-gateway-is-now-generally-available - GA announcement of August 21, 2025: $5 free credits per 30 days, hundreds of models, v0 pedigree, AI SDK at 2M weekly downloads (200, re-fetched 2026-10-21; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the $5-every-30-days and 2-million-downloads lines confirmed in the page text; re-fetched 2026-10-28 with both lines confirmed again)
+- https://vercel.com/changelog/set-up-coding-agents-in-one-command-with-ai-gateway - the August 12, 2026 coding-agent setup launch, 200+ models, budgets on agent keys (200, re-fetched 2026-10-21; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 unchanged; re-fetched 2026-10-28 unchanged)
+- https://coplay.dev/blog/openrouter-drops-fees-in-response-to-vercels-ai-gateway - competitive response: OpenRouter's October 2025 BYOK fee cut attributed to this gateway (200; the www URL with the vercel-s slug now 308-redirects here; re-fetched 2026-10-21 and 2026-10-23, 2026-10-25, 2026-10-26 unchanged; re-fetched 2026-10-28 at the canonical URL, content unchanged)
+- https://github.com/vercel/ai/issues/11280 - critical: a $0 credit balance blocked BYOK requests in December 2025, closed with the system-credential fallback documented (fetched via the GitHub API, re-fetched 2026-10-21, still closed; re-fetched 2026-10-23, still closed; re-fetched 2026-10-25, still closed; re-fetched 2026-10-26, still closed; re-fetched 2026-10-28, still closed)

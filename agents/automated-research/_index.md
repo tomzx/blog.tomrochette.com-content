@@ -27,6 +27,7 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 - [data-to-paper](data-to-paper/index.md) - Technion Kishony lab's NEJM-AI-published pipeline from an annotated dataset to a manuscript whose numbers click-trace back to the code that produced them, dormant since 2025-07-19, 829 stars as of 2026-10-15.
 - [DeepAnalyze](deepanalyze/index.md) - RUC DataLab and Tsinghua's trained 8B agentic model that runs the data-science loop from raw files to analyst-grade reports with no external judge, 4,714 stars as of 2026-10-15.
 - [Dexter](dexter/index.md) - Virattt's open-source autonomous financial research agent that plans, executes, and self-validates tool runs over live financial statements with a JSONL audit trail, 27,652 stars as of 2026-10-11.
+- [Evo](evo/index.md) - evo-hq's Apache-2.0 autoresearch orchestrator that discovers what to measure in your codebase, then tree-searches worktree experiments against the discovered benchmark under pass-fail gates, 1,487 stars as of 2026-10-28.
 - [EvoMap AutoResearch](evomap-autoresearch/index.md) - the two-stage workflow whose deliverable stops at an evidence package of runs, critic reports, and blind reviews, its launch shadowed by a forged-commit incident that briefly showed Karpathy as a contributor, 3,016 stars as of 2026-10-12.
 - [FutureHouse Robin](futurehouse-robin/index.md) - the nonprofit's Nature-published wet-lab loop that proposed and validated ripasudil for dry AMD, with people at the bench and its own ablations as the critique, 733 stars as of 2026-10-11.
 - [GPT Researcher](gpt-researcher/index.md) - the Apache-2.0 open deep-research agent running the plan-search-filter-write loop on any LLM since 2023, cited in 150-plus papers as the baseline, 30,102 stars as of 2026-10-15.
@@ -41,7 +42,7 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 - [OpenAI for Science](openai-for-science/index.md) - the lab program from FrontierMath's first open-problem solve to the disputed Navier-Stokes claim, as of 2026-09-13.
 - [OpenResearch](openresearch/index.md) - alphaXiv's MIT local-first workspace that turns Claude Code, Codex, OpenCode, Cursor, or Antigravity into research agents with an experiment tree and an autonomous loop, 7,234 stars as of 2026-10-21.
 - [Pion](pion/index.md) - Andon Labs' closed research preview where persistent agents run a real business with payment tools, the Vending-Bench lineage made product.
-- [Sakana AI Scientist](sakana-ai-scientist/index.md) - the idea-to-paper ancestor whose v2 produced the first fully AI-generated paper to pass a workshop peer review, withdrawn from publication by design, dormant since 2025-12-19, 7,294 stars as of 2026-10-11.
+- [Sakana AI Scientist](sakana-ai-scientist/index.md) - the idea-to-paper ancestor whose v2 produced the first fully AI-generated paper to pass a workshop peer review, withdrawn from publication by design, its write-up published in Nature in March 2026 and its loop continued on 2026-10-11 by the Apache-2.0 coding-agent orchestrator v3, v1/v2 dormant since 2025-12-19, 7,294 stars as of 2026-10-11.
 
 Its members are compared on shared rows in the [Automated Research Feature Matrix](automated-research-feature-matrix/index.md).
 
@@ -79,3 +80,4 @@ Its members are compared on shared rows in the [Automated Research Feature Matri
 - 2026-10-14 - Added AutoContext.
 - 2026-10-15 - Added data-to-paper.
 - 2026-10-23 - Added AutoKernel.
+- 2026-10-28 - Added Evo.

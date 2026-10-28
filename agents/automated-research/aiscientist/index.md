@@ -1,7 +1,7 @@
 ---
 title: AiScientist
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, machine-learning-engineering, paper-reproduction, multi-agent, open-source]
 readability: 3
@@ -23,8 +23,8 @@ Benchmark integrations sit in the repository under MLE-bench and frontier-evals 
 
 ## Status
 
-Dormant after a short public life: 146 stars, 12 forks, created 2026-03-30, last pushed 2026-07-21, as of 2026-10-11.
-A search for the name surfaces only Sakana's AI Scientist coverage; this project has no visible Hacker News footprint as of 2026-10-11.
+Dormant after a short public life: 146 stars, 12 forks, created 2026-03-30, last pushed 2026-07-21, as of 2026-10-28.
+A search for the name surfaces Sakana's AI Scientist and unrelated name-alikes; this project has no visible Hacker News footprint as of 2026-10-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AweAI-Team/AiScientist&type=date&theme=dark&legend=top-left" />
@@ -75,8 +75,8 @@ Not for production use: the repository has been dormant since July 2026 and the 
 
 ## References
 
-- https://github.com/AweAI-Team/AiScientist - repository, MIT license, 146 stars, last push 2026-07-21 (as of 2026-10-11)
-- https://raw.githubusercontent.com/AweAI-Team/AiScientist/main/README.md - File-as-Bus, the paper and MLE tracks, the 24-hour 78-cycle trajectory, and the release dates (fetched 200, 2026-10-11)
-- https://arxiv.org/abs/2604.13018 - the paper: authors, thin control over thick state, and the PaperBench improvement claim (fetched 200 via the arXiv API, 2026-10-11)
-- https://api.github.com/repos/AweAI-Team/AiScientist/contents/benchmark - the MLE-bench and frontier-evals (PaperBench) integration directories (fetched 200, 2026-10-11)
-- https://hn.algolia.com/api/v1/search?query=AiScientist - the search surfacing only Sakana collision results, no footprint for this project (fetched 200, 2026-10-11)
+- https://github.com/AweAI-Team/AiScientist - repository, MIT license, 146 stars, last push 2026-07-21 (as of 2026-10-28)
+- https://raw.githubusercontent.com/AweAI-Team/AiScientist/main/README.md - File-as-Bus, the paper and MLE tracks, the 24-hour 78-cycle trajectory, and the release dates (fetched 200, 2026-10-28)
+- https://arxiv.org/abs/2604.13018 - the paper: authors, thin control over thick state, and the PaperBench improvement claim (fetched 200 via the arXiv API, 2026-10-28)
+- https://api.github.com/repos/AweAI-Team/AiScientist/contents/benchmark - the MLE-bench and frontier-evals (PaperBench) integration directories (fetched 200, 2026-10-28)
+- https://hn.algolia.com/api/v1/search?query=AiScientist - the search surfacing Sakana collision results and name-alikes, no footprint for this project (fetched 200, 2026-10-28)

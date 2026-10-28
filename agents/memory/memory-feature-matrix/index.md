@@ -1,7 +1,7 @@
 ---
 title: "Memory Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-27
+updated: 2026-10-28
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, memory, agent-memory, ai-agents]
 readability: 3
@@ -119,9 +119,10 @@ Supermemory meters every layer in its own SM tokens; Mem0 restructured on 2026-1
 - 2026-10-17 - Extended from thirty to thirty-two columns with OKF Agent Memory (the MIT Go implementation of Google's OKF v0.2 with in-memory BM25, progressive disclosure, and a built-in MCP server) and Operator Memory (the BSD-3-Clause harness-agnostic documentation brain), inserted in case-insensitive sorted position between MetaClaw and OpenViking and between OpenViking and PLUR respectively and traced to the new notes; the intro, architecture prose, the free-local sentence, and the choosing section updated.
 - 2026-10-18 - deja's integration and lock-in cells moved to the 42-harness count shipped by v0.22.2 (Windsurf and Devin Desktop transcripts now read), and claude-mem's pricing cell gained the TeamBrain $50/seat/mo self-serve tier announced in v14.0.0, both traced to the notes' updates and Price history rows.
 - 2026-10-20 - GBrain's Kind, pricing, and lock-in cells moved to record the hosted gbrain.io workspaces the README now fronts (Personal $49/mo, Teams $199/mo), traced to the note's new Price history baseline, and the pricing-spread paragraph gained the $49 entry.
-- 2026-10-26 - memU's integration cell gained the Cola and pi host adapters and the generic JSONL-dialect detector the README's host matrix added, traced to the note's rotation update this run.
 - 2026-10-25 - deja's integration and lock-in cells moved to the 43-harness count shipped by v0.23.1 (MiniMax Code transcripts now read), agentmemory's integration cell gained the Oh My Pi native plugin, and Operator Memory's integration cell marked the OpenCode V2 adapter the default with V1 legacy, all traced to the notes' updates this run.
+- 2026-10-26 - memU's integration cell gained the Cola and pi host adapters and the generic JSONL-dialect detector the README's host matrix added, traced to the note's rotation update this run.
 - 2026-10-27 - agentmemory's integration cell gained the DeepSeek Harness native plugin shipped in v0.9.31, memU's integration cell gained the dedicated memu-codex adapter, OpenViking's integration cell gained DeepSeek Harness Desktop support, and mem0's pricing cell moved to the restructured free-BYOK plan with Starter and Pro no longer sold to new accounts, all traced to the notes' updates and Price history row; the pricing-spread prose dropped Mem0 from the first-paid-tier bracketing.
+- 2026-10-28 - Restored the Changes order (the 2026-10-25 bullet sat below the 2026-10-26 one; oldest first is the rule).
 
 ## See also
 

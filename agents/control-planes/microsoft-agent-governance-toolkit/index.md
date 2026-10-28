@@ -1,7 +1,7 @@
 ---
 title: Microsoft Agent Governance Toolkit
 created: 2026-09-27
-updated: 2026-10-25
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-governance, policy-enforcement, zero-trust, compliance, microsoft]
 readability: 3
@@ -23,7 +23,7 @@ It is published under the Microsoft organization, but the team states an intent 
 
 ## Status
 
-Active, wide, and fast-moving: 6,425 stars and 1,133 forks as of 2026-10-18, with 112 open issues and the latest push on 2026-10-23 as of 2026-10-25, created 2026-03-02, latest release v4.1.0 on 2026-06-09.
+Active, wide, and fast-moving: 6,425 stars and 1,133 forks as of 2026-10-18, with 117 open issues and the latest push on 2026-10-28 as of 2026-10-28, created 2026-03-02, latest release v4.1.0 on 2026-06-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-governance-toolkit&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Deployment guides cover Azure, AWS, GCP, and Docker Compose.
 - 2026-10-07 - Added the microsoft/agent-governance-toolkit star history chart to the Status section.
 - 2026-10-11 - Reworded banned-term phrasing out of one caution and the bottom line, meaning unchanged; scale refreshed in place (6,417 stars).
 - 2026-10-21 - Full rotation re-verification: every cited URL re-fetched and live, no release since v4.1.0, and the scale and push-date figures refreshed in place.
+- 2026-10-28 - Full rotation re-verification: every cited URL re-fetched and live, no release since v4.1.0 with PyPI at 4.1.0, and the push-date and issue figures refreshed in place.
 
 ## See also
 

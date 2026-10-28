@@ -1,7 +1,7 @@
 ---
 title: Caleb Writes Code
 created: 2026-08-29
-updated: 2026-10-10
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, ai-news, model-releases, explainer]
 readability: 3
@@ -23,8 +23,8 @@ He is active on X as calebfoundry, on LinkedIn, and runs a Patreon.
 
 ## Status
 
-Active and fast-growing as of 2026-10-04.
-The channel reports 120K subscribers and 124 videos as of 2026-10-04, the about page showed 9,290,137 total views as of 2026-10-02, and uploads run about twice a week, with the latest on 2026-10-08 ("Haiku 5.5 explained in 7min..", same-week coverage of Anthropic's new fast model and its GPT-6 Luna comparisons), following "Gemini 4 Argon explained in 5min.." (2026-10-02, same-week coverage of Google DeepMind's new model) and "Inference Engines explained in 10min.." (2026-09-30, covering llama.cpp, vLLM, SGLang, and TensorRT-LLM).
+Active and fast-growing as of 2026-10-28.
+The channel reports 120K subscribers and 124 videos as of 2026-10-04 (the channel surfaces return only a JavaScript shell on 2026-10-28, so those counts keep their dates), the third-party analytics FAQ now reads 124K subscribers and 11M total views as of 2026-10-28, and uploads run about twice a week, with the latest on 2026-10-27 ("Kimi K3.1 Pro explained in 6min..", same-week coverage of Moonshot's Fable-5.1-class open-weights update), after "PHP security crisis explained.." (2026-10-23, the PHP2Shell CVE story with a Bluehost read), "Reinforcement Learning is hard.." (2026-10-22), "MiMo V2.6 explained in 12min.." (2026-10-17, Xiaomi's RL-environment release), and "AI is solving math faster than human verification.." (2026-10-13), five uploads in the October 13 to 27 window.
 All of that scale was reached in under 18 months from the 2025-03-16 start.
 
 ## Strengths
@@ -36,7 +36,7 @@ All of that scale was reached in under 18 months from the 2025-03-16 start.
 
 ## Cautions
 
-- The channel is sponsor-dense: 13 of the last 15 upload descriptions carried a sponsor read or affiliate link as of 2026-09-21, so treat the cuts-through-the-noise pitch as marketing and every sponsored segment as an ad first.
+- The channel is sponsor-dense: 12 of the last 15 upload descriptions carried a sponsor read or affiliate link as of 2026-10-28, so treat the cuts-through-the-noise pitch as marketing and every sponsored segment as an ad first.
 - Explainers compress to fit the format, so verify specifics against primary sources before acting on them.
 - I found no Hacker News threads and no substantive Reddit discussions of the channel, so there is no critical community filter on its claims.
 - Third-party analytics disagree with themselves: one analytics site's prose claims two years of inactivity while its own FAQ and the channel feed show uploads days ago, so quote its numbers with care.
@@ -76,6 +76,7 @@ Not for someone who wants tool-tested practice, reference-grade depth, or an ad-
 - 2026-10-02 - Counts refreshed to 119K subscribers, 124 videos, and 9,290,137 total views; latest upload moved to 2026-10-02 ("Gemini 4 Argon explained in 5min..").
 - 2026-10-04 - Window recheck over the RSS feed (fetchable again after its brief 2026-10-04 outage) found nothing newer than the 2026-10-02 "Gemini 4 Argon" video, confirmed the 2026-09-24 "Opus 5.5 vs GPT-6" and 2026-09-30 "Inference Engines" videos as the rest of the window's output, and corrected the reference lines: the feed grounds the cadence, the uploads tab returns only a JavaScript shell.
 - 2026-10-10 - Latest upload moved to 2026-10-08 ("Haiku 5.5 explained in 7min..", 32k views already), making three uploads in the week of October 2 to 8; Status and the feed reference line updated (feed fetched this run).
+- 2026-10-28 - Latest upload moved to 2026-10-27 ("Kimi K3.1 Pro explained in 6min..") with four uploads between October 13 and 23 before it; sponsor ratio recounted at 12 of the last 15; the third-party analytics FAQ now reads 124K subscribers and 11M views while its prose still shows the stale record; direct channel counts keep their 2026-10-04 as-of because the channel surfaces return only a JavaScript shell today (feed and both surfaces fetched this run).
 
 ## See also
 
@@ -89,5 +90,5 @@ Not for someone who wants tool-tested practice, reference-grade depth, or an ad-
 - https://www.youtube.com/@calebwritescode - the channel: identity, description, 120K subscribers, 124 videos
 - https://www.youtube.com/@calebwritescode/about - join date 2025-03-16, 9,290,137 total views as of 2026-10-02, and the LinkedIn, X, and Patreon links
 - https://www.youtube.com/@calebwritescode/videos - the uploads tab (a direct fetch on 2026-10-04 returned only a JavaScript shell, so the RSS feed grounds the cadence)
-- https://www.youtube.com/feeds/videos.xml?channel_id=UCuU9jE4MHHEIyYMbDfUPSew - the RSS feed grounding cadence, topics, and the newest entry ("Haiku 5.5 explained in 7min..", published 2026-10-08); it 404ed briefly on 2026-10-04 and serves again as of 2026-10-10
-- https://app.thoughtleaders.io/youtube/caleb-writes-code - third-party read on the AI niche and brand safety, plus the stale-prose discrepancy behind the analytics caution
+- https://www.youtube.com/feeds/videos.xml?channel_id=UCuU9jE4MHHEIyYMbDfUPSew - the RSS feed grounding cadence, topics, and the newest entry ("Kimi K3.1 Pro explained in 6min..", published 2026-10-27); it 404ed briefly on 2026-10-04 and serves again as of 2026-10-28
+- https://app.thoughtleaders.io/youtube/caleb-writes-code - third-party read on the AI niche and brand safety; its FAQ now reads 124K subscribers and 11M views (2026-10-28) while its prose body still claims the stale 84K-subscriber, 93-video, two-years-inactive record

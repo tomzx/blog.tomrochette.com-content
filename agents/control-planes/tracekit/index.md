@@ -1,7 +1,7 @@
 ---
 title: Tracekit
 created: 2026-10-21
-updated: 2026-10-25
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, audit, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The project is under a month old (repository created 2026-09-26) from Cygnux Lab
 
 ## Status
 
-Active and very young: 138 stars, 9 forks, and 22 open issues as of 2026-10-25, created 2026-09-26, pushed 2026-10-25, with the PyPI package tracekit-ai at 1.4.2 (2026-10-24) and six releases between 2026-10-16 and 2026-10-24.
+Active and very young: 138 stars, 9 forks, and 36 open issues and pull requests as of 2026-10-28, created 2026-09-26, pushed 2026-10-28, with the PyPI package tracekit-ai at 1.4.2 (2026-10-24) and six releases between 2026-10-16 and 2026-10-24.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Cygnux-Labs/Tracekit&type=date&theme=dark&legend=top-left" />

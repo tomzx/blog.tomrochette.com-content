@@ -1,7 +1,7 @@
 ---
 title: AgentField
 created: 2026-10-13
-updated: 2026-10-25
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, identity, policy-enforcement, receipts, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The governance layer is the differentiator: tag-based access policies (function-
 
 ## Status
 
-Active and funded: 2,611 stars and 430 forks as of 2026-10-13, with 32 open issues and the last push on 2026-10-24 as of 2026-10-25, repository created 2025-11-05 (the company organization in March 2025).
+Active and funded: 2,611 stars and 430 forks as of 2026-10-13, with 31 open issues and the last push on 2026-10-28 as of 2026-10-28, repository created 2025-11-05 (the company organization in March 2025).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Agent-Field/agentfield&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ Not for governing agents built on other frameworks (ContextForge or the Microsof
 - 2026-10-17 - Release train moved to v0.1.142-rc.14 (2026-10-17) with PyPI still holding at 0.1.141.
 - 2026-10-21 - Release train moved to v0.1.143-rc.4 (2026-10-20) with PyPI publishing 0.1.142 (2026-10-19), its first non-rc.
 - 2026-10-25 - The train left release candidates: v0.1.143 (2026-10-24) is the first stable tag, with PyPI publishing 0.1.143 the same day, and the caution about the rc-only train rewritten.
+- 2026-10-28 - Release train moved to v0.1.145 (2026-10-27) with PyPI publishing 0.1.145.
 
 ## See also
 

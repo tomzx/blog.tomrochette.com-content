@@ -1,7 +1,7 @@
 ---
 title: EvoMap AutoResearch
 created: 2026-10-12
-updated: 2026-10-12
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, multi-agent, blind-review, open-source]
 readability: 3
@@ -23,7 +23,7 @@ The workflow is stateful and recoverable: plans, code, logs, metrics, failure ca
 
 ## Status
 
-Small development surface, large attention spike: 3,016 stars, 264 forks, created 2026-08-15, last pushed 2026-09-16, no releases, seven commits on the default branch, as of 2026-10-12.
+Small development surface, large attention spike: 3,016 stars as of 2026-10-12, 278 forks, created 2026-08-15, last pushed 2026-09-16, no releases, seven commits on the default branch, as of 2026-10-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=EvoMap/AutoResearch&type=date&theme=dark&legend=top-left" />
@@ -77,9 +77,9 @@ Not for production use: seven commits, no releases, and an unresolved attributio
 
 ## References
 
-- https://github.com/EvoMap/AutoResearch - repository, Apache-2.0, 3,016 stars, seven commits, last push 2026-09-16 (as of 2026-10-12)
-- https://raw.githubusercontent.com/EvoMap/AutoResearch/main/README.md - the two stages, critic reports, blind reviews, negative-result support, and the GPT Researcher integration (fetched 200, 2026-10-12)
-- https://arxiv.org/abs/2608.17906 - the paper "Insight In, Hallucination Out": the two-stage design and the v4 revision of 2026-09-17 (fetched 200, 2026-10-12)
-- https://news.ycombinator.com/item?id=49697367 - the critical thread: 3,278 stars in a week, the unsigned Karpathy-attributed commit, and the skeptical replies (fetched via the Algolia API, 2026-10-12)
-- https://github.com/EvoMap/AutoResearch/issues/8 - the September 12 challenge issue and the maintainer exchange (fetched 200 via the API, 2026-10-12)
-- https://www.prnewswire.com/news-releases/evomap-open-sources-autoresearch-giving-ai-agents-a-way-to-test-their-own-research-ideas-302863058.html - the September 1 open-source announcement (fetched 200, 2026-10-12)
+- https://github.com/EvoMap/AutoResearch - repository, Apache-2.0, 3,016 stars, seven commits, last push 2026-09-16 (as of 2026-10-28)
+- https://raw.githubusercontent.com/EvoMap/AutoResearch/main/README.md - the two stages, critic reports, blind reviews, negative-result support, and the GPT Researcher integration (fetched 200, 2026-10-28)
+- https://arxiv.org/abs/2608.17906 - the paper "Insight In, Hallucination Out": the two-stage design and the v4 revision of 2026-09-17 (fetched 200, 2026-10-28)
+- https://news.ycombinator.com/item?id=49697367 - the critical thread: 3,278 stars in a week, the unsigned Karpathy-attributed commit, and the skeptical replies (fetched via the Algolia API, 2026-10-28)
+- https://github.com/EvoMap/AutoResearch/issues/8 - the September 12 challenge issue and the maintainer exchange (fetched 200 via the API, 2026-10-28)
+- https://www.prnewswire.com/news-releases/evomap-open-sources-autoresearch-giving-ai-agents-a-way-to-test-their-own-research-ideas-302863058.html - the September 1 open-source announcement (fetched 200, 2026-10-28)

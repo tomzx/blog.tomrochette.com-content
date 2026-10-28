@@ -1,7 +1,7 @@
 ---
 title: Claude plans
 created: 2026-09-26
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, subscriptions, claude-code, anthropic]
 readability: 3
@@ -76,6 +76,7 @@ My disagreeable claim: most Max subscribers are paying for a productivity feelin
 
 - 2026-09-26 - Created when the owner asked why the Claude and OpenAI subscriptions were missing from this category.
 - 2026-10-10 - Pricing re-check: the Max cards now list included monthly Claude Platform API credits ($100 on Max 5x, $200 on Max 20x) in a row labeled New, with every plan price re-verified unchanged on the live page; price history row appended.
+- 2026-10-28 - Rotation re-verification: every cited source re-fetched live (the pricing page, the ccforeveryone change log, the two independent guides, and the Max-plan support article) with the $20/$100/$200 prices, the $17 annual figure, the New-tagged Monthly API credits row, the Fable-at-50% row, the May-doubling/August-19/July-20 change-log entries, and the 7x agent-team figure all unchanged.
 
 ## See also
 
@@ -86,8 +87,8 @@ My disagreeable claim: most Max subscribers are paying for a productivity feelin
 
 ## References
 
-- https://claude.com/pricing - plan prices, annual discount, Claude Code inclusion matrix, Fable access rules (fetched 200, 2026-09-26, re-fetched 2026-10-10, 2026-10-11, and 2026-10-14 with the Max monthly API credits row and every price standing; re-fetched 2026-10-23 with every price, the credits row, and the Fable access row unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the $20/$100/$200 prices, the annual $17 figure, the New-tagged Monthly API credits row ($100 to $200), and the Fable-on-Max-at-50% row confirmed in the page text)
-- https://ccforeveryone.com/guides/claude-code-limits-and-pricing - the 2026 change log (May 6 doubling, May 13 promotion, July 20 Fable tightening, paused Agent SDK split), limit mechanics, Team seat prices, the API-versus-subscription math (fetched 200, updated 2026-08-05; re-fetched 2026-10-23 with the log and mechanics unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the August 19 extension date, the May doubling, the July 20 Fable entry, and the 7x agent-team figure all present)
-- https://www.ssdnodes.com/blog/claude-code-pricing-in-2026-every-plan-explained-pro-max-api-teams/ - independent plan walkthrough, the instrumented-usage cost comparison it cites (fetched via search extraction, 2026-09-26; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the plan price markers intact)
-- https://www.layer3labs.io/guides/claude-pro-vs-max-for-teams - the weekly-cap skepticism and the upgrade heuristics (fetched via search extraction, 2026-09-26; re-fetched 2026-10-23, page updated 2026-10-06, substance unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the weekly-limit and tier-price markers intact)
-- https://support.claude.com/en/articles/11049741-what-is-the-max-plan - the Max plan article: $100/$200 tiers, monthly-only billing, 5-hour and weekly limit mechanics, the discretionary-limits reservation (fetched 200, 2026-09-26; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the Max 5x $100 / Max 20x $200 rows and the five-hour-session and weekly-limit reset language confirmed)
+- https://claude.com/pricing - plan prices, annual discount, Claude Code inclusion matrix, Fable access rules (fetched 200, 2026-09-26, re-fetched 2026-10-10, 2026-10-11, and 2026-10-14 with the Max monthly API credits row and every price standing; re-fetched 2026-10-23 with every price, the credits row, and the Fable access row unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the $20/$100/$200 prices, the annual $17 figure, the New-tagged Monthly API credits row ($100 to $200), and the Fable-on-Max-at-50% row confirmed in the page text; re-fetched 2026-10-28 with every price, the credits row, and the Fable row confirmed again)
+- https://ccforeveryone.com/guides/claude-code-limits-and-pricing - the 2026 change log (May 6 doubling, May 13 promotion, July 20 Fable tightening, paused Agent SDK split), limit mechanics, Team seat prices, the API-versus-subscription math (fetched 200, updated 2026-08-05; re-fetched 2026-10-23 with the log and mechanics unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the August 19 extension date, the May doubling, the July 20 Fable entry, and the 7x agent-team figure all present; re-fetched 2026-10-28 with the same entries present)
+- https://www.ssdnodes.com/blog/claude-code-pricing-in-2026-every-plan-explained-pro-max-api-teams/ - independent plan walkthrough, the instrumented-usage cost comparison it cites (fetched via search extraction, 2026-09-26; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the plan price markers intact; re-fetched 2026-10-28 unchanged)
+- https://www.layer3labs.io/guides/claude-pro-vs-max-for-teams - the weekly-cap skepticism and the upgrade heuristics (fetched via search extraction, 2026-09-26; re-fetched 2026-10-23, page updated 2026-10-06, substance unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the weekly-limit and tier-price markers intact; re-fetched 2026-10-28 unchanged)
+- https://support.claude.com/en/articles/11049741-what-is-the-max-plan - the Max plan article: $100/$200 tiers, monthly-only billing, 5-hour and weekly limit mechanics, the discretionary-limits reservation (fetched 200, 2026-09-26; re-fetched 2026-10-23 unchanged; re-fetched 2026-10-25 unchanged; re-fetched 2026-10-26 with the Max 5x $100 / Max 20x $200 rows and the five-hour-session and weekly-limit reset language confirmed; re-fetched 2026-10-28 with the same rows confirmed)

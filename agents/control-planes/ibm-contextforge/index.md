@@ -1,7 +1,7 @@
 ---
 title: IBM ContextForge
 created: 2026-10-11
-updated: 2026-10-25
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, gateway, mcp, governance, open-source, ibm]
 readability: 3
@@ -24,7 +24,7 @@ IBM announced it as the ContextForge MCP Gateway 1.0.0 Beta on December 15, 2025
 
 ## Status
 
-Active and heavily adopted: 4,623 stars and 924 forks as of 2026-10-18, with 995 open issues and the latest push on 2026-10-24 as of 2026-10-25, created 2025-05-08, with v1.1.0 published 2026-10-20 on GitHub and PyPI in step.
+Active and heavily adopted: 4,623 stars and 924 forks as of 2026-10-18, with 998 open issues and the latest push on 2026-10-28 as of 2026-10-28, created 2025-05-08, with v1.1.0 published 2026-10-20 on GitHub and PyPI in step.
 v1.1.0 moves MCP protocol negotiation to the modern protocol by default, ships a redesigned web UI, federated completions, catalog pagination, and MCP Origin/Host transport security enforcement, consolidating 69 pull requests.
 
 <picture>
@@ -72,6 +72,7 @@ Not for model-cost governance, not for built-in policy verdicts without plugin w
 
 - 2026-10-11 - Created from the awesome-ai-governance entrant scan, profiling IBM's gateway as the category's most-adopted request-boundary member.
 - 2026-10-21 - Full rotation re-verification: every cited URL re-fetched and live, and the release train moved to v1.1.0 (2026-10-20), modern MCP protocol negotiation by default, a redesigned web UI, federated completions, catalog pagination, and Origin/Host transport security, with PyPI in step.
+- 2026-10-28 - Full rotation re-verification: every cited URL re-fetched and live, no release since v1.1.0 with PyPI in step at 1.1.0, and the backlog holding near a thousand open issues.
 
 ## See also
 

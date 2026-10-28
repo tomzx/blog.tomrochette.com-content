@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-10-27
+updated: 2026-10-28
 status: finished
 tags: [agents]
 readability: 0
@@ -83,6 +83,9 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-27 | memory | the Meirtz-list handoff portable-ai-memory/python-sdk, the PAM interchange spec's SDK, stays below the bar | 1 star, dormant since 2026-02-19, spec repo 12 stars, NOASSERTION license, zero independent coverage, providers do not natively support the format; reopen on traction or coverage
 - 2026-10-27 | evaluation-review | vostride/agent-qa admitted as the acceptance-test column; the 2026-10-12 dormancy hold triggered on the 2026-10-24 push and three releases | citation bar cleared in-run with the docs hub, CI guide, both self-published benchmark pages with per-task evidence, the FSL license text, npm SLSA provenance, and the 50-point launch thread; the vendor-run benchmark caveat rides the note like FrontierHarness Eval
 - 2026-10-27 | cross-category | run-recording, replay, and causal-analysis repositories are session-analytics kind, not evaluation-review | Psionic-labs/Agent-Causality and MSKazemi/novafabric routed there; they re-run and slice recorded runs, they judge nothing
+- 2026-10-28 | assistant-runtimes | openhuman stays held on the absorbed-family shelf, the q13 OpenClaw-class scale trigger as framed still unfired | tinyhumansai/openhuman read 42,378 stars on 2026-10-28 against 42.2k on 10-21 (about +180 in a week) while OpenClaw reads 393k
+- 2026-10-28 | model-access | a member note's recorded pricing-page rebuild moves that note's matrix cells in the same run, not only membership changes do | the experiential 2026-10-24 flat-plan rebuild reached the note and price table but left the matrix's billing-mechanics, top-tier, and price-trajectory cells stale until this pass caught them
+- 2026-10-28 | people-and-publications | pauldambra.dev rejected as a voice: the flagged "Machinists > Tailors" post surfaced at 2 HN points and 0 comments and no independent coverage, so the coverage-window bar is unmet | reopen on independent coverage of any agent-era post
 
 ## Standing family rejections
 

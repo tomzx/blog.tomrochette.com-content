@@ -1,7 +1,7 @@
 ---
 title: AnythingLLM
 created: 2026-09-27
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, local-first, rag, desktop-apps]
 readability: 3
@@ -24,7 +24,7 @@ Beta features push it toward an OS-level assistant: AI computer use and live doc
 
 ## Status
 
-Active and steadily shipped: 67,036 stars and 7,489 forks as of 2026-10-14, created 2023-06-04, 351 open issues with the last push on 2026-10-25 as of 2026-10-26.
+Active and steadily shipped: 67,036 stars and 7,489 forks as of 2026-10-14, created 2023-06-04, 337 open issues with the last push on 2026-10-27 as of 2026-10-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and steadily shipped: 67,036 stars and 7,489 forks as of 2026-10-14, crea
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&legend=top-left" />
 </picture>
 
-v1.18.0 was released 2026-10-13 (a fixes train: Kubernetes probes, attachment handling, and an embed-allowlist origin comparison), following v1.17.0 (2026-10-01), and the docs changelog shows an unbroken cadence back through v1.6.x.
+v1.19.0 was released 2026-10-26 (the Docker image gained the desktop's built-in local LLM: AMD's open-source Lemonade server running models through llama.cpp inside the container, GPU passthrough included), following v1.18.0 on 2026-10-13 (a fixes train: Kubernetes probes, attachment handling, and an embed-allowlist origin comparison) and v1.17.0 (2026-10-01), and the docs changelog shows an unbroken cadence back through v1.6.x.
 The founder Tim Carambat introduced the desktop app on Hacker News in September 2024 (368 points), framing the mission as layperson-accessible private AI, and the thread is a useful record of both praise and the first round of critiques.
 The repo's own topics now include computer use and agent harness terms, which tells you the center of gravity has moved from document chat to agents.
 
@@ -79,6 +79,7 @@ The disagreeable claim I will defend: the layperson focus that made AnythingLLM 
 - 2026-10-07 - Added the Mintplex-Labs/anything-llm star history chart to the Status section.
 - 2026-10-14 - Recorded v1.18.0 (released 2026-10-13, a fixes train) on the release line, with refreshed adoption numbers.
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, docs, the Pro overview, the pricing page, the Show HN thread), v1.18.0 (2026-10-13) confirmed still the latest release and the Cloud tiers (Basic $50, Pro $99, Enterprise custom) unchanged.
+- 2026-10-28 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the docs site and Pro overview, the pricing page, the Show HN thread), and recorded v1.19.0 (2026-10-26, the Docker image gaining the desktop's built-in local LLM through AMD's Lemonade server and llama.cpp), with the Cloud tiers (Basic $50, Pro $99, Enterprise custom) confirmed unchanged.
 
 ## See also
 
@@ -91,7 +92,7 @@ The disagreeable claim I will defend: the layperson focus that made AnythingLLM 
 
 - https://api.github.com/repos/Mintplex-Labs/anything-llm - stars, forks, issues, license, and dates as of 2026-10-10
 - https://github.com/Mintplex-Labs/anything-llm - repository and positioning
-- https://api.github.com/repos/Mintplex-Labs/anything-llm/releases?per_page=4 - v1.18.0 released 2026-10-13, following v1.17.0 (2026-10-01)
+- https://api.github.com/repos/Mintplex-Labs/anything-llm/releases?per_page=4 - v1.19.0 released 2026-10-26 (built-in LLM for Docker via Lemonade and llama.cpp), following v1.18.0 (2026-10-13) and v1.17.0 (2026-10-01)
 - https://docs.anythingllm.com/ - features, agents, MCP compatibility, Docker self-hosting, Community Hub
 - https://docs.anythingllm.com/pro/overview - the Pro tier scope and the free-tier commitment
 - https://anythingllm.com/pricing - hosted tiers and enterprise contact as of 2026-09-27

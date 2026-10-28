@@ -1,7 +1,7 @@
 ---
 title: Thorsten Ball
 created: 2026-09-24
-updated: 2026-10-10
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents]
 readability: 3
@@ -23,10 +23,10 @@ On the Amp side he publishes docs, news posts, and a 26-minute working-day scree
 
 ## Status
 
-Active on both fronts as of 2026-10-10.
-Register Spill is near-weekly: his index page lists issues 91 through 100 between July 11 and September 20, 2026, the centenary issue being "Joy & Curiosity #100" on September 20, and the Substack feed shows #101 following on September 26 and #102 on October 4, with #103 not yet out as of 2026-10-10.
-Amp ships visibly: news items through October 10, 2026 ("Use Your Claude Plan in Amp", the October 10 move that lets Claude Pro and Max subscriptions power Amp at no extra Amp charge, after "Many, Many Pucks" on October 6, multiple separate Puck conversations per thread, "Plaid Speed" on September 29, 6x faster GPT-6 Astra inference, "Opus 5.5" taking over the medium mode on September 28, "Less Noise" on September 25, and "Shared Runners" plus "The Mac App Is Your Runner" on September 24), a Free Agent tier (September 13) making Amp free when you bring your own compute and model subscriptions, and his own screencast embedded front and center on the product homepage.
-The Raising an Agent podcast reached season 2 episode 5 on September 25.
+Active on both fronts as of 2026-10-28.
+Register Spill is near-weekly: his index page lists issues 91 through 100 between July 11 and September 20, 2026, the centenary issue being "Joy & Curiosity #100" on September 20, and the Substack feed shows #101 on September 26, #102 on October 4, and #103 on October 25, with nothing newer as of 2026-10-28.
+Amp ships visibly: news items through October 27, 2026 ("Amp on Android", the October 27 mobile client for threads, orbs, and Puck, after "Self-Hosted Orbs" on October 22, running orbs on your own infrastructure, "Assign It To Amp" on October 19, Linear issues worked by Amp in a thread, "See Your Runner's Desktop" on October 16, "Take Puck with You" on October 13, using Puck in other agents via MCP, "First Things First, Faster" on October 12, Jev-powered file ordering, and "You've Got Comments" on October 12, Amp following up on GitHub pull requests), following the October 10 "Use Your Claude Plan in Amp" move, the October 6 "Many, Many Pucks", the September 29 "Plaid Speed" 6x GPT-6 Astra inference, and the September 24 "Shared Runners" and "The Mac App Is Your Runner" pair, with a Free Agent tier (September 13) making Amp free when you bring your own compute and model subscriptions, and his own screencast embedded front and center on the product homepage.
+The Raising an Agent podcast reached season 2 episode 6 on October 20, and a new time capsule, "How Thorsten Ball Uses Amp", landed October 13.
 The spinout announcement he co-signed describes Amp as profitable; the Hacker News thread on it drew 90 points and the pricing pushback noted below.
 The books are stable but frozen at their May 2020 editions (v1.7 and v1.2), so they teach the Go of that era.
 
@@ -70,6 +70,7 @@ Not for readers who want vendor-neutral tool comparisons, budget harness options
 - 2026-09-27 - Reworded a See-also line off a banned term; meaning unchanged.
 - 2026-10-04 - Added the September 24 to 29 Amp news run (Shared Runners, Less Noise, Opus 5.5 on medium, Plaid Speed) and the Raising an Agent season 2 episode 5 date to the Status, and refreshed Register Spill to #102 (2026-10-04).
 - 2026-10-10 - Amp news window extended to October 10: "Many, Many Pucks" (October 6) and "Use Your Claude Plan in Amp" (October 10, Claude Pro and Max subscriptions now usable in Amp); Status and the news-index reference line updated (index fetched this run).
+- 2026-10-28 - Rotation re-verification: Register Spill moved to #103 (2026-10-25, per the Substack feed fetched this run), the Amp news window extended through October 27 (Amp on Android, Assign It To Amp, Self-Hosted Orbs, and four more), the Raising an Agent pointer moved to season 2 episode 6 (October 20), and the new "How Thorsten Ball Uses Amp" time capsule (October 13) recorded; every cited URL re-fetched live, the books and prices unchanged, and the GitHub follower count held at 3.3k.
 
 ## See also
 
@@ -82,8 +83,8 @@ Not for readers who want vendor-neutral tool comparisons, budget harness options
 
 - https://thorstenball.com - his bio: Amp co-founder, Zed and Sourcegraph history, books, and newsletter
 - https://thorstenball.com/register-spill - the newsletter's own index page: weekly since April 2023, issues 91 through 100 between July 11 and September 20, 2026
-- https://registerspill.thorstenball.com - the canonical Substack home, over 9,000 subscribers as of 2026-09-24, with "Joy & Curiosity #102" (2026-10-04) latest per its feed
-- https://ampcode.com/news - the Amp news index: news items with dates through 2026-10-10 (Use Your Claude Plan in Amp, Many, Many Pucks), the Orbing Screencasts time capsule, and the Raising an Agent season 2 episode 5 date
+- https://registerspill.thorstenball.com - the canonical Substack home, over 9,000 subscribers as of 2026-09-24, with "Joy & Curiosity #103" (2026-10-25) latest per its feed
+- https://ampcode.com/news - the Amp news index: news items with dates through 2026-10-27 (Amp on Android, Self-Hosted Orbs, Assign It To Amp), the Orbing Screencasts time capsule, and the Raising an Agent season 2 pointer
 - https://ampcode.com/news/amp-inc - the spinout announcement with the co-founder list including him, and the profitability claim
 - https://interpreterbook.com - Writing An Interpreter In Go: pricing, current version 1.7 (May 2020), and testimonials
 - https://compilerbook.com - Writing A Compiler In Go: pricing, current version 1.2 (May 2020)

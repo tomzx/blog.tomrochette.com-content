@@ -1,7 +1,7 @@
 ---
 title: Bifrost
 created: 2026-10-07
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, gateway, self-hosted]
 readability: 3
@@ -23,7 +23,7 @@ The enterprise tier adds clustering with gossip-based sync, RBAC with Okta and E
 
 ## Status
 
-Active and fast-releasing: created 2025-03-19, 8,842 stars as of 2026-10-16, component-tagged releases shipping through 2026-10-20 (transports v2.3.2, telemetry v1.9.2, semanticcache v1.7.2, routing v1.2.2, prompts v1.1.12), repo pushed 2026-10-26, as of 2026-10-26.
+Active and fast-releasing: created 2025-03-19, 8,842 stars as of 2026-10-16, component-tagged releases shipping through 2026-10-20 (transports v2.3.2, telemetry v1.9.2, semanticcache v1.7.2, routing v1.2.2, prompts v1.1.12), repo pushed 2026-10-28, as of 2026-10-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=maximhq/bifrost&type=date&theme=dark&legend=top-left" />
@@ -80,8 +80,8 @@ Not for the broadest provider matrix or the largest community, where LiteLLM sti
 ## References
 
 - https://github.com/maximhq/bifrost - repository, Apache-2.0 license, the 23-plus-provider README, and (at the 2026-10-07 fetch) the description's 50x-LiteLLM positioning, since removed (fetched 200, 2026-10-07)
-- https://api.github.com/repos/maximhq/bifrost - stars, created date, push date, and license for the as-of status (fetched 200, 2026-10-07; re-fetched 2026-10-16 at 8,842 stars, pushed 2026-10-16; re-fetched 2026-10-18 with the description no longer carrying the 50x claim and pushed 2026-10-18; re-fetched 2026-10-19, pushed 2026-10-19, description unchanged; re-fetched 2026-10-21, pushed 2026-10-21, description unchanged; re-fetched 2026-10-23, pushed 2026-10-23, description unchanged; re-fetched 2026-10-24, pushed 2026-10-24, description unchanged; re-fetched 2026-10-25, pushed 2026-10-25, description unchanged; re-fetched 2026-10-26, pushed 2026-10-26, description unchanged).
+- https://api.github.com/repos/maximhq/bifrost - stars, created date, push date, and license for the as-of status (fetched 200, 2026-10-07; re-fetched 2026-10-16 at 8,842 stars, pushed 2026-10-16; re-fetched 2026-10-18 with the description no longer carrying the 50x claim and pushed 2026-10-18; re-fetched 2026-10-19, pushed 2026-10-19, description unchanged; re-fetched 2026-10-21, pushed 2026-10-21, description unchanged; re-fetched 2026-10-23, pushed 2026-10-23, description unchanged; re-fetched 2026-10-24, pushed 2026-10-24, description unchanged; re-fetched 2026-10-25, pushed 2026-10-25, description unchanged; re-fetched 2026-10-26, pushed 2026-10-26, description unchanged; re-fetched 2026-10-28, pushed 2026-10-28, description unchanged).
 - https://docs.getbifrost.ai - the feature surface: failover, virtual keys, budgets, semantic caching, the MCP gateway, plugins, the 11-microsecond benchmark claim, and the enterprise tier (fetched 200, 2026-10-07; re-fetched 2026-10-18 with the 11µs claim and the 20-plus-provider framing unchanged)
-- https://api.github.com/repos/maximhq/bifrost/releases - the component-tagged release line (fetched 200, 2026-10-07; re-fetched 2026-10-21 reading the 2026-10-20 patches of all five component lines; re-fetched 2026-10-23 and again 2026-10-24 with no releases past the 2026-10-20 patches; re-fetched 2026-10-25 and again 2026-10-26, still nothing past the 2026-10-20 patches).
+- https://api.github.com/repos/maximhq/bifrost/releases - the component-tagged release line (fetched 200, 2026-10-07; re-fetched 2026-10-21 reading the 2026-10-20 patches of all five component lines; re-fetched 2026-10-23 and again 2026-10-24 with no releases past the 2026-10-20 patches; re-fetched 2026-10-25 and again 2026-10-26, still nothing past the 2026-10-20 patches; re-fetched 2026-10-28, still nothing past the 2026-10-20 patches).
 - https://hn.algolia.com/api/v1/items/46203228 - the December 2025 Show HN thread, 3 points, grounding the small-HN-footprint observation (fetched 200, 2026-10-07)
 - https://raw.githubusercontent.com/maximhq/bifrost/HEAD/README.md - the quickstart surfaces (npx, Docker) and the provider list behind the gateway cells (fetched 200, 2026-10-07; re-fetched 2026-10-18 on the dev branch with the 23-plus-provider framing and the 11µs benchmark table unchanged)

@@ -1,7 +1,7 @@
 ---
 title: NanoClaw
 created: 2026-08-27
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, containers, open-source]
 readability: 3
@@ -18,13 +18,13 @@ NanoClaw is a MIT-licensed Node.js personal agent (nanocoai) that runs each agen
 
 One process and a handful of files; its author built it because giving "complex software I didn't understand full access to my life" was not acceptable, and the README keeps that argument on page one.
 **Agents are sandboxed in Linux containers (Docker on macOS, Linux, WSL2) where bash runs inside the container, not on your host**, and channels arrive as skills (`/add-telegram`, `/add-slack`) copied into your own fork rather than compiled in: WhatsApp, Telegram, Discord, Slack, Teams, iMessage, Matrix, Google Chat, Webex, Linear, GitHub, WeChat, email.
-It uses Claude Code natively through the Claude Agent SDK, with `/add-codex`, `/add-opencode`, and `/add-ollama-provider` as drop-in providers, and credentials never sit in the agent: outbound calls route through OneCLI's Agent Vault, which injects keys at request time under per-agent policies.
+It uses Claude Code natively through the Claude Agent SDK, with `/add-codex`, `/add-opencode`, `/add-cursor`, and `/add-ollama-provider` as drop-in providers, and credentials never sit in the agent: outbound calls route through OneCLI's Agent Vault, which injects keys at request time under per-agent policies.
 Each agent group gets its own container, workspace, memory, and mounts; Slack provisioning gives every agent its own app; scheduled tasks, templates, and a Claude-Code-assisted installer round it out.
 
 ## Status
 
 Active and independently credible.
-30,940 stars and 12,759 forks as of 2026-10-14 since creation on 2026-01-31, pushed 2026-10-26 with 1,024 open issues as of 2026-10-26.
+30,940 stars and 12,759 forks as of 2026-10-14 since creation on 2026-01-31, pushed 2026-10-26 with 1,034 open issues as of 2026-10-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nanocoai/nanoclaw&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ My disagreeable claim: the container wall matters more than every permission sys
 - 2026-10-07 - Added the nanocoai/nanoclaw star history chart to the Status section.
 - 2026-10-10 - Recorded 2026.10.0 publishing on 2026-10-09, ending the release-candidate period and the 2.4.0 stable hold, with refreshed adoption numbers.
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, docs.nanoclaw.dev, both HN threads, clawsec), v2026.10.0 confirmed still the latest release, and clawsec (now 1.1k stars) confirmed still covering NanoClaw beside OpenClaw, Hermes, and PicoClaw.
+- 2026-10-28 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, docs.nanoclaw.dev, both HN threads, clawsec now 1,127 stars), v2026.10.0 confirmed still the latest stable with the v2026.10.1 line still at rc.2, and `/add-cursor` recorded as a fourth drop-in provider skill beside codex, opencode, and ollama.
 
 ## See also
 

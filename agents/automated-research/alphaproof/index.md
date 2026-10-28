@@ -1,7 +1,7 @@
 ---
 title: AlphaProof
 created: 2026-09-13
-updated: 2026-10-12
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deepmind, mathematics, formal-verification]
 readability: 3
@@ -60,7 +60,7 @@ Deep Think access ships through the Google AI Ultra subscription tier as it roll
 ## Bottom line
 
 **Recommended reading for anyone designing verification-gated agent systems: this is the reference implementation of "the judge is a kernel, the worker is trained on verdicts".**
-Not for practitioners who need a runnable tool today: nothing here is self-hostable, and the Deep Think API path is early-access gated rather than open, as of 2026-10-12.
+Not for practitioners who need a runnable tool today: nothing here is self-hostable, and the Deep Think API path is early-access gated rather than open, as of 2026-10-28.
 
 ## Changes
 
@@ -82,6 +82,6 @@ Not for practitioners who need a runnable tool today: nothing here is self-hosta
 - https://en.wikipedia.org/wiki/AlphaGeometry - AlphaGeometry and AlphaGeometry 2 lineage, Gemini-based autoformalization, and the applicability caution
 - https://www.technologyreview.com/2026/01/26/1131728/inside-openais-big-play-for-science/ - independent framing of the IMO gold claims and their caveats in the landscape context
 - https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/ - the February 2026 Gemini 3 Deep Think update, its repeat IMO gold, and the first Gemini API early-access path
-- https://arxiv.org/abs/2605.22763 - the AlphaProof Nexus paper: the two agents, the 9 of 353 Erdős and 44 of 492 OEIS results (fetched 200, 2026-10-12)
-- https://github.com/google-deepmind/alphaproof-nexus-results - the public Apache-2.0 Lean proofs for the solved problems (fetched 200 via the API, 2026-10-12)
-- https://magica.com/news/alphaproof-nexus-nine-erdos-problems-44-oeis-conjectures - the critical read: the basic-agent ablation, the cost-accounting gaps, and the encoding caveat (fetched 200, 2026-10-12)
+- https://arxiv.org/abs/2605.22763 - the AlphaProof Nexus paper: the two agents, the 9 of 353 Erdős and 44 of 492 OEIS results (fetched 200, 2026-10-28)
+- https://github.com/google-deepmind/alphaproof-nexus-results - the public Apache-2.0 Lean proofs for the solved problems (fetched 200 via the API, 2026-10-28)
+- https://magica.com/news/alphaproof-nexus-nine-erdos-problems-44-oeis-conjectures - the critical read: the basic-agent ablation, the cost-accounting gaps, and the encoding caveat (fetched 200, 2026-10-28)

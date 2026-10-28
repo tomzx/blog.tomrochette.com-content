@@ -1,7 +1,7 @@
 ---
 title: ZeroClaw
 created: 2026-08-27
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, rust, open-source]
 readability: 3
@@ -23,7 +23,7 @@ An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android),
 ## Status
 
 Active and large, but quietly so.
-32,977 stars and 4,976 forks as of 2026-10-14 since creation on 2026-02-13, pushed 2026-10-25 with 1,060 open issues as of 2026-10-26, Apache-2.0/MIT dual licensed.
+32,977 stars and 4,976 forks as of 2026-10-14 since creation on 2026-02-13, pushed 2026-10-28 with 1,100 open issues as of 2026-10-28, Apache-2.0/MIT dual licensed.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
@@ -32,6 +32,7 @@ Active and large, but quietly so.
 </picture>
 
 v0.8.6 (2026-10-18) ended the v0.8.5 hold from 2026-09-05: 573 commits whose headline is a WebAssembly plugin host (the 64-bit binaries grow about 24 percent) alongside a batch of fail-closed security defaults, longer admin-gated pairing codes, authenticated remote connections, browser automation becoming a separate opt-in, and filesystem and Git tools confined to allowed roots.
+v0.8.7 followed on 2026-10-27 (81 commits, 19 contributors), a security and maintenance follow-up: the plugin host moves to patched Wasmtime 48.0.7 against published RustSEC advisories, TLS certificate verification moves to maintained rustls-webpki roots, the container images rebuild with CA bundles that no longer trust the distrusted emSign chains, and five of v0.8.6's plugin known issues get fixed, with precompiled plugins required to rebuild for the new Wasmtime.
 **Its HN footprint is nearly empty (threads at 2 to 8 points), so the star growth ran through Discord and word of mouth, a missing community discussion record that is itself the signal to verify before relying on it.**
 
 ## Strengths
@@ -73,6 +74,7 @@ The disagreeable claim I will defend: an assistant you cannot read is safer as a
 - 2026-10-07 - Added the zeroclaw-labs/zeroclaw star history chart to the Status section.
 - 2026-10-18 - Recorded v0.8.6 (2026-10-18), ending the v0.8.5 hold: a WebAssembly plugin host (binaries about 24 percent larger), fail-closed security defaults (admin-gated pairing codes, authenticated remote connections, opt-in browser automation, allowed-roots confinement for filesystem and Git tools), and refreshed adoption numbers.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, README, the docs book, the archived Android port, the HN thread), v0.8.6 (2026-10-18) confirmed still the latest release, the README's ownership motto and provider/channel/tool counts intact, and the Android port confirmed still archived, with refreshed adoption numbers.
+- 2026-10-28 - Recorded v0.8.7 (2026-10-27, 81 commits from 19 contributors): patched Wasmtime 48.0.7 in the plugin host against published RustSEC advisories, rustls-webpki TLS verification, container images rebuilt without the distrusted emSign chains, five plugin known-issue fixes, and a required rebuild of precompiled plugins, with refreshed adoption numbers.
 
 ## See also
 
@@ -85,7 +87,7 @@ The disagreeable claim I will defend: an assistant you cannot read is safer as a
 
 - https://github.com/zeroclaw-labs/zeroclaw - README: runtime model, providers, channels, tools
 - https://api.github.com/repos/zeroclaw-labs/zeroclaw - stars, forks, issues as of 2026-10-10
-- https://api.github.com/repos/zeroclaw-labs/zeroclaw/releases - v0.8.6 (2026-10-18) and v0.8.5 (2026-09-05, the 43-day hold it ended)
+- https://api.github.com/repos/zeroclaw-labs/zeroclaw/releases - v0.8.7 (2026-10-27, the security follow-up), v0.8.6 (2026-10-18), and v0.8.5 (2026-09-05, the 43-day hold v0.8.6 ended)
 - https://docs.zeroclaw.com/master/en/introduction.html - the documentation book
 - https://github.com/Natfii/ZeroClaw-Android - the Android port, archived read-only in March 2026 (305 stars)
 - https://news.ycombinator.com/item?id=47047192 - the launch-era thread (6 points, the thin-footprint evidence)

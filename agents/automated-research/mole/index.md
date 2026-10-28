@@ -79,7 +79,7 @@ Not for anyone needing a mature, independently evaluated tool: the project is on
 
 ## References
 
-- https://github.com/lajosdeme/mole - repository, Apache-2.0, 314 stars, last push 2026-10-13 (as of 2026-10-15)
+- https://github.com/lajosdeme/mole - repository, Apache-2.0, 314 stars as of 2026-10-15, last push 2026-10-25 (push and release train re-checked via the API 2026-10-28)
 - https://raw.githubusercontent.com/lajosdeme/mole/main/README.md - the loop, the reserve-settle ledger, the verbatim-quote gate, the privacy boundary, and the numbers table with its own failure rates (fetched 200, 2026-10-15)
 - https://news.ycombinator.com/item?id=49303046 - the 100-point, 14-comment launch thread with the rename calls and the budget-enforcement question (fetched via the Algolia API, 2026-10-12)
 - https://api.github.com/repos/lajosdeme/mole/releases - the release train through v0.2.1 (2026-10-13), whose note discloses the ledger pricing fix (fetched 200, 2026-10-15)
