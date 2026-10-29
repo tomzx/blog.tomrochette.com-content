@@ -1,7 +1,7 @@
 ---
 title: Zep
 created: 2026-08-24
-updated: 2026-10-25
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, knowledge-graphs]
 readability: 3
@@ -80,6 +80,7 @@ Not for solo builders or small budgets, and my disagreeable claim is that Mem0's
 - 2026-10-07 - Added the getzep/zep star history chart to the Status section.
 - 2026-10-16 - Rotation re-verification: every cited URL re-fetched live, the ladder re-verified unchanged (Flex $125 monthly, annual saving 17 percent, overage $25 per 10,000 credits), and Graphiti refreshed to about 31.8k stars and 1,026 commits.
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched live, the pricing page re-verified with the ladder unchanged on the fetched text (overage top-ups still $25 per 10,000 Flex credits and $75 per 40,000 Flex Plus credits), and the repository's only mid-October default-branch activity a dependency-security pin.
+- 2026-10-28 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the pricing page still shows the $125/$375 monthly figures and the 10,000/50,000/200,000 credit quotas in the fetched text), and Graphiti stays active on the default branch with documentation commits on 2026-10-27.
 
 ## See also
 

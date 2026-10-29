@@ -1,7 +1,7 @@
 ---
 title: OpenViking
 created: 2026-10-07
-updated: 2026-10-27
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, context-database, file-based, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint even more than this category's usual pattern.**
-40,037 stars with the repository pushed 2026-10-20, created 2026-01-05, as of 2026-10-20 (GitHub API).
+40,037 stars with the repository pushed 2026-10-28, created 2026-01-05, as of 2026-10-28 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&theme=dark&legend=top-left" />
@@ -34,8 +34,8 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.5.2 (2026-10-23, following v0.5.1 from 2026-10-19) alongside python-sdk 0.1.17 (2026-10-26, a release-pinning fix) and go sdk v0.0.5, per the GitHub releases API.
-Main-branch work since the last release: a rule service exposing a new `openviking_rule_search` tool to agents and a CodeBuddy Code CLI host adapter remain pending release, while the Rules (Beta) guides and API reference shipped in the docs (2026-10-26), DeepSeek Harness Desktop support landed (2026-10-27), and the standalone gateway can now run as a multi-replica service on Redis.
+Latest release v0.5.2.1 (2026-10-27, a hotfix on v0.5.2 from 2026-10-23) alongside python-sdk 0.1.17 (2026-10-26, a release-pinning fix) and go sdk v0.0.5, per the GitHub releases API; the hotfix disables automatic detection of new sensitive values in sessions, which had misjudged ordinary content as private, replaced it with placeholders, and created invalid privacy records, while matching of registered privacy values and restoration of historical placeholders stay in place.
+Main-branch work since the hotfix: a RAG and memory evaluation guide shipped in the docs (2026-10-28) and L2 chunk-sizing work is pending release, joining the rule service exposing `openviking_rule_search` to agents and the CodeBuddy Code CLI host adapter that were already pending, while the Rules (Beta) guides and API reference shipped in the docs (2026-10-26), DeepSeek Harness Desktop support landed (2026-10-27), and the standalone gateway can now run as a multi-replica service on Redis.
 v0.5.0 adds the OpenViking Gateway (beta): a standalone proxy process on port 1935 that any model client with a configurable base URL can point at, injecting profile, memory, and skill context without plugins or prompt changes, supporting the Anthropic Messages, OpenAI Chat Completions, and OpenAI Responses protocols, and replaying injected content byte-for-byte so provider prompt caches and thinking signatures stay valid; v0.5.1 can run that gateway inside the OpenViking server itself and adds field-level privacy references, expanded batch-write options, and multimodal retrieval.
 v0.5.2 turns working memory off by default (sessions still archive raw messages and extract long-term memory, but WM and checkpoint summaries now require an explicit `enable_working_memory=true`), moves the LangChain integration into a separate `langchain-openviking` package, adds session-privacy extraction with privacy-tree MCP tools, and renames the Pi extension's tools from `viking_*` to `openviking_*`.
 Development and writing are both active: the 108-page documentation site and the project blog are current (the latest post, a three-minute evaluation test, dates to 2026-10-03).
@@ -79,6 +79,7 @@ Not for proprietary SaaS embedding, and not for buyers who need published hosted
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 - 2026-10-26 - The main-branch train grew a rule service exposing `openviking_rule_search` to agents and a CodeBuddy Code CLI host adapter (both pending release), and python-sdk refreshed to 0.1.17.
 - 2026-10-27 - Recorded the Rules (Beta) guides and API reference shipping in the docs (2026-10-26), DeepSeek Harness Desktop support landing on main (2026-10-27, added to the integration list), and the standalone gateway running as a multi-replica Redis service; the rule service and CodeBuddy adapter remain pending release.
+- 2026-10-28 - Recorded the v0.5.2.1 hotfix (October 27): session privacy auto-detection disabled after it misjudged ordinary content as private and replaced it with placeholders, with registered-value matching and historical placeholder restore retained; the docs gained a RAG and memory evaluation guide and the push date refreshed to 2026-10-28.
 
 ## See also
 

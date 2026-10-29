@@ -50,6 +50,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [OpenHands](openhands/index.md) - the renamed OpenDevin platform bet, sandboxed code-shell-browser agents you can self-host.
 - [Pi](pi/index.md) - Earendil's minimal, self-extensible harness, a frozen core plus your TypeScript extensions, MCP arriving as a built-in extension in the v0.99 line.
 - [Qwen Code](qwen-code/index.md) - Alibaba's Gemini CLI fork and open-weights showcase, its OAuth free tier discontinued April 2026.
+- [SWE-agent](swe-agent/index.md) - the Princeton-and-Stanford research harness behind the ACI thesis and the early SWE-bench records, maintenance-only on its own banner with mini-swe-agent as the successor.
 - [Unreal Agent](unreal-agent/index.md) - Unreal Labs' async-first MIT Go harness, background tool calls as the cost thesis, exo-class traction at day three.
 - [Warp Agent CLI](warp-agent-cli/index.md) - Warp's terminal agent unbundled into any terminal, model routing, cloud agents, and orchestration behind its credit meter.
 - [ZCode](zcode/index.md) - Z.ai's official GLM workbench, caught silently uploading whole workspaces in September 2026 and open-sourced three days later as a flattened dump.
@@ -103,3 +104,4 @@ Its members are compared on shared rows in the [Harness Feature Matrix](harness-
 - 2026-10-13 - Added LongHorizon-Harness.
 - 2026-10-21 - Added Mirror.
 - 2026-10-27 - Added Autohand Code CLI.
+- 2026-10-28 - Added SWE-agent.

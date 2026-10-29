@@ -1,7 +1,7 @@
 ---
 title: fx
 created: 2026-08-29
-updated: 2026-10-27
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zig, vercel, embedding]
 readability: 3
@@ -23,7 +23,7 @@ Feature surface: native [AGENTS.md](https://fx.sh/docs/configure-fx/project-inst
 ## Status
 
 **Active and very young.**
-The repository was created August 11, 2026 and shows 3,446 stars and 380 forks as of 2026-10-15, with v0.0.14 the latest release (published October 16, 2026; durable libfx sessions that survive crashes, redeploys, and function timeouts with idempotent-marked tool reruns, multiple named libfx agents per app, `wakeHandler()` as one HTTP route for every agent, ChatGPT and Grok subscription sign-in for server-side agents, libfx custom OpenAI-compatible endpoints including local model servers, and a move to Zig 0.17) and pushes landing on the day of verification (GitHub API).
+The repository was created August 11, 2026 and shows 3,446 stars and 380 forks as of 2026-10-15, with v0.0.15 the latest release (published October 27, 2026; roughly 70 percent less peak memory on long conversations holding saved images in a vendor synthetic benchmark, model-catalog updates without a restart, a leaner session store with about 18 percent faster resumes, and `/fork` branching from an earlier prompt) on top of v0.0.14 (published October 16, 2026; durable libfx sessions that survive crashes, redeploys, and function timeouts with idempotent-marked tool reruns, multiple named libfx agents per app, `wakeHandler()` as one HTTP route for every agent, ChatGPT and Grok subscription sign-in for server-side agents, libfx custom OpenAI-compatible endpoints including local model servers, and a move to Zig 0.17) and pushes landing on the day of verification (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vercel-labs/fx&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ Not for anyone who needs local models, provider-key BYOK, or a stable release li
 - 2026-10-07 - Added the vercel-labs/fx star history chart to the Status section.
 - 2026-10-17 - Recorded the v0.0.14 release (October 16), which made libfx sessions durable out of the box (surviving crashes, redeploys, and timeouts with idempotent tool reruns), added multiple named libfx agents and `wakeHandler()`, brought ChatGPT and Grok subscription sign-in to server-side agents, and moved fx to Zig 0.17, and re-fetched every cited reference in the rotation pass.
 - 2026-10-27 - Rotation re-verification, re-fetching every cited reference (all live): v0.0.14 remains the newest release with the pushes running on, and the authentication docs still document the same three credentials, so the cautions stand as written.
+- 2026-10-28 - Recorded the v0.0.15 release (October 27): roughly 70 percent less peak memory on image-heavy long conversations in a vendor synthetic benchmark, hot model-catalog updates, a leaner session store with about 18 percent faster resumes, and `/fork` from an earlier prompt.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: deepeval
 created: 2026-08-30
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, llm-as-judge, testing, open-source]
 readability: 3
@@ -31,7 +31,7 @@ The volume leader of Python eval frameworks: 18,830 stars, 2,062 forks, 723 open
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=confident-ai/deepeval&type=date&legend=top-left" />
 </picture>
 
-Created 2023-08-10, pushed 2026-10-23, Python 4.3.1 released 2026-10-16 (4.3.0 shipped 2026-10-15, with 4.2.9 the same day), about 2.6 million PyPI downloads a month as of 2026-10-26.
+Created 2023-08-10, pushed 2026-10-27, Python 4.3.2 released 2026-10-27 (4.3.1 shipped 2026-10-16, with 4.3.0 on 2026-10-15 and 4.2.9 the same day), about 2.6 million PyPI downloads a month as of 2026-10-26.
 **Three years old and commercially backed, it is the most mature column in this category, and the 717-item backlog reads as heavy usage rather than neglect.**
 
 ## Strengths
@@ -83,6 +83,7 @@ Not for teams that cannot tolerate LLM-judge variance, or that need score parity
 - 2026-10-07 - Added the confident-ai/deepeval star history chart to the Status section.
 - 2026-10-16 - Recorded the Python 4.3.0 release (2026-10-15, with 4.2.9 the same day) and refreshed the activity line.
 - 2026-10-19 - Recorded the Python 4.3.1 release (2026-10-16) and refreshed the activity line.
+- 2026-10-28 - Recorded the Python 4.3.2 release (2026-10-27) and refreshed the activity line.
 
 ## See also
 

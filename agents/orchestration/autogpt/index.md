@@ -1,7 +1,7 @@
 ---
 title: AutoGPT
 created: 2026-09-27
-updated: 2026-10-27
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, workflows, source-available]
 readability: 3
@@ -23,7 +23,7 @@ It positions itself as "AI agents that finish the work", with file-aware agents,
 
 ## Status
 
-Active and shipping: the repo shows 187,580 stars, was pushed 2026-10-27, and carries the platform beta at v0.9.0 (2026-10-23) after v0.8.4 (2026-10-14) and v0.8.3 (2026-10-08) (GitHub API, releases, as of 2026-10-27).
+Active and shipping: the repo shows 187,580 stars, was pushed 2026-10-27, and carries the platform beta at v0.10.0 (2026-10-27) after v0.9.0 (2026-10-23), v0.8.4 (2026-10-14), and v0.8.3 (2026-10-08) (GitHub API, releases, as of 2026-10-28).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&theme=dark&legend=top-left" />

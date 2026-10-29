@@ -1,7 +1,7 @@
 ---
 title: CCPM
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, github-issues, worktrees, multi-agent, spec-driven, open-source]
 readability: 3
@@ -23,7 +23,7 @@ It came out of Automaze, Ran Aroussi's CTO-as-a-service consultancy, as the open
 ## Status
 
 Active and used in the vendor's own practice, mid-scale for this category.
-As of 2026-10-23: 8,414 stars, 841 forks, 6 open issues, created 2025-08-18, pushed 2026-10-19, MIT-licensed, with no tagged releases, development moving on branches (main, v1, rc).
+As of 2026-10-28: 8,414 stars (as of 2026-10-23), 841 forks, 6 open issues, created 2025-08-18, pushed 2026-10-19, MIT-licensed, with no tagged releases, development moving on branches (main, v1, rc).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=automazeio/ccpm&type=date&theme=dark&legend=top-left" />
@@ -55,7 +55,7 @@ In 2026 the project rebranded from "Claude Code PM" slash commands to a harness-
 ## Pricing
 
 The skill is free under MIT, with no hosted tier and no account.
-Automaze sells consulting around it: CTO-as-a-Service retainers from $5,000 per month and MVP launches from $8,000, as of 2026-10-23.
+Automaze sells consulting around it: CTO-as-a-Service retainers from $5,000 per month and the One-Stop Shop plan from $8,000, as of 2026-10-28.
 
 ## Price history
 
@@ -78,6 +78,7 @@ My disagreeable claim: GitHub Issues is the most underrated agent task store in 
 ## Changes
 
 - 2026-10-23 - Created from the coordinator handoff after the cross-category scan left automazeio/ccpm unmatched, recording the GitHub-Issues-as-board design, the worktree parallel execution, and the v1-to-skill rewrite.
+- 2026-10-28 - Rotation re-verification with every cited URL re-fetched live (repository, API, README, SKILL.md, the launch thread and its comment tree, the BigGo critical piece, automaze.io): all claims confirmed, still no tagged releases and no push since 2026-10-19, and the consulting prose corrected to the site's current tiers (CTO-as-a-Service from $5K per month, the One-Stop Shop plan from $8K per month).
 
 ## See also
 
@@ -89,12 +90,12 @@ My disagreeable claim: GitHub Issues is the most underrated agent task store in 
 
 ## References
 
-- https://github.com/automazeio/ccpm - repository, MIT license, stars baseline, and push activity as of 2026-10-23
+- https://github.com/automazeio/ccpm - repository, MIT license, stars baseline, and push activity as of 2026-10-28
 - https://raw.githubusercontent.com/automazeio/ccpm/main/README.md - the workflow, parallel streams, proven-results claims, and the agent-skill rewrite
 - https://raw.githubusercontent.com/automazeio/ccpm/main/skill/ccpm/SKILL.md - the skill entry point: the five phases, the script-first rule, and the harness list
-- https://api.github.com/repos/automazeio/ccpm - stars, forks, dates, and license as of 2026-10-23
+- https://api.github.com/repos/automazeio/ccpm - stars, forks, dates, and license as of 2026-10-28
 - https://news.ycombinator.com/item?id=44960594 - the 175-point, 112-comment Show HN launch thread (2025-08-20)
 - https://hn.algolia.com/api/v1/items/44960594 - the launch thread's comment tree, the supervision and review skepticism
 - https://finance.biggo.com/news/202508201915_Claude_Code_PM_Parallel_AI_Development_Questioned - the critical read of the parallel-execution claims
-- https://automaze.io - the vendor: Ran Aroussi, CTO-as-a-Service from $5,000/mo
+- https://automaze.io - the vendor: CTO-as-a-Service from $5K per month, the One-Stop Shop plan from $8K per month (re-fetched 2026-10-28)
 - https://news.ycombinator.com/item?id=45237239 - the 2025-09-14 comment naming ccpm beside BMAD and conductor, with the context-starvation doubt

@@ -1,7 +1,7 @@
 ---
 title: Codex
 created: 2026-08-22
-updated: 2026-10-25
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, openai, developer-tools]
 readability: 3
@@ -33,7 +33,7 @@ Default models are the GPT-6 family (Astra, Sol, and Luna) rolling out across pl
 </picture>
 
 The CLI launched April 2025 and has been rewritten and rebuilt since; the current docs position it as an open agent harness platform.
-The release train stays hot: rust-v0.164.0 (October 23, 2026) is the latest stable, adding ten numbered `/presets` slots for reusable prompts and slash commands with a keyboard menu, inline `/model` and `/permissions` arguments, and image previews in the fullscreen transcript on Kitty and Sixel terminals, after rust-v0.163.0 (October 15) added a searchable `/config` for preferences, follow-up prompts that steer a responding turn (interrupting also stops active Code Mode cells and their nested tool calls), and a configurable leader key in `/keymap`, and the v0.165.0 alpha train is running as of 2026-10-27.
+The release train stays hot: rust-v0.165.0 (October 27, 2026) is the latest stable, adding a built-in Google Cloud Vertex AI provider configured with `model_provider = "gcp"`, GPT-6.1 Terra in the model catalogs, a repository filter in the session picker with directory grouping in the agent command center, experimental attached thread forks in the app-server API, and mid-conversation reasoning-effort changes enabled by default, after rust-v0.164.0 (October 23) added ten numbered `/presets` slots for reusable prompts and slash commands with a keyboard menu, inline `/model` and `/permissions` arguments, and image previews in the fullscreen transcript on Kitty and Sixel terminals, and the v0.166.0 alpha train is running as of 2026-10-28.
 
 ## Strengths
 
@@ -90,6 +90,7 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - 2026-10-17 - Recorded the stable train reaching rust-v0.163.0 (October 15), which added the searchable `/config`, follow-up steering of a responding turn with Code Mode cell interruption, and a configurable leader key, with the v0.164.0 alphas following, and re-verified the ChatGPT pricing page unchanged (Pro still $100/$200/$500 with Ultrafast on the $500 tier).
 - 2026-10-25 - Rotation re-verification, every cited reference live, and recorded rust-v0.164.0 as the latest stable (October 23): ten numbered `/presets` slots, inline `/model` and `/permissions` arguments, and Kitty/Sixel image previews in the fullscreen transcript.
 - 2026-10-27 - Recorded the v0.165.0 alpha train running (three alphas published October 26 through 27) behind the unchanged rust-v0.164.0 stable.
+- 2026-10-28 - Recorded the stable channel promoting rust-v0.165.0 (October 27): the built-in Google Cloud Vertex AI provider, GPT-6.1 Terra in the catalogs, session-picker repository filtering with agent-command-center directory grouping, experimental attached thread forks, and reasoning-effort switching mid-conversation, with the v0.166.0 alpha train already running.
 
 ## See also
 

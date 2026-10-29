@@ -30,8 +30,10 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Bernstein](bernstein/index.md) - the Apache-2.0 Python governance layer running parallel agents in worktrees behind merge gates on a deterministic, replayable, offline-auditable scheduler.
 - [Buzz](buzz/index.md) - Block's Apache-2.0 Nostr-relay team communication platform where humans and agents are first-class equals, carrying search, workflows, and git hosting on one signed event log.
 - [CAMEL](camel/index.md) - the Apache-2.0 Python framework behind the 2023 role-playing paper, a research community hunting what it calls the scaling law of agents.
+- [ChatDev](chatdev/index.md) - OpenBMB's Apache-2.0 multi-agent platform pivoted into the DevAll zero-code YAML workflow engine, 34.6k stars inherited from the 2023 software-company original, the tier's widest gap between stars and scrutiny.
 - [Claude Squad](claude-squad/index.md) - free AGPL terminal app running multiple coding agents in tmux, each in its own worktree.
 - [ClawTeam](clawteam/index.md) - HKUDS's MIT Python swarm CLI where a leader agent spawns worktree-and-tmux workers that coordinate through CLI mailboxes, 5.5k stars and silent since May 2026.
+- [CLI Agent Orchestrator](cli-agent-orchestrator/index.md) - AWS Labs' Apache-2.0 Python supervisor running twelve provider coding CLIs in isolated tmux sessions behind a local server, Web UI, and MCP surface.
 - [cmux](cmux/index.md) - Manaflow's libghostty macOS terminal for parallel agents, notification rings free, cloud execution paid (Pro $50, Max $200 monthly).
 - [Conductor](conductor/index.md) - the macOS app for parallel Claude Code, Codex, Cursor, and OpenCode sessions with diff review and PR flow.
 - [CrewAI](crewai/index.md) - the MIT Python role-and-crew framework, 59.7k stars, now funded by an $18M enterprise platform.
@@ -84,6 +86,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Symphony](symphony/index.md) - OpenAI's Apache-2.0 spec-first scheduler turning tracker issues into isolated autonomous implementation runs, 27.6k stars on a preview whose train stopped in mid-September.
 - [T3 Code](t3code/index.md) - Ping.gg's MIT control surface driving Claude Code, Codex, Cursor, Grok Build, OpenCode, and Antigravity from native iOS, Android, web, and Electron clients on the subscriptions you already pay, 27.7k stars in eight months.
 - [The Perfect Orchestrator](the-perfect-orchestrator/index.md) - the MIT bash and tmux harness where one lead Claude Code session adversarially verifies N worker sessions.
+- [tuios](tuios/index.md) - Gaurav Gosain's MIT Go terminal window manager with per-pane agent state for 24 CLIs, one Inbox, agent mail, and worktree fan-out, 6.2k stars.
 - [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown, community commits resumed in September 2026 but only a v0.1.45 tag, npm still at 0.1.44.
 - [Worktrunk](worktrunk/index.md) - the Rust `wt` CLI making worktrees as easy as branches, with lifecycle hooks and a one-command merge.
 - [Yao](yao/index.md) - Infinite Wisdom Software's cross-device agent workspace on the five-year Yao Engine, 8.1k stars mostly inherited from its 2021 low-code era.
@@ -171,3 +174,6 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-10-24 - Added OpenHarness.
 - 2026-10-24 - Added Swarm Orchestrator.
 - 2026-10-24 - Added Ivy Tendril.
+- 2026-10-28 - Added ChatDev.
+- 2026-10-28 - Added CLI Agent Orchestrator.
+- 2026-10-28 - Added tuios.

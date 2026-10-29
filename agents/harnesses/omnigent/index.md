@@ -1,7 +1,7 @@
 ---
 title: Omnigent
 created: 2026-10-06
-updated: 2026-10-24
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, meta-harness, orchestration, policies, sandboxing]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, Python 3.12+, installed via installer, uv, pip, or Homebrew; built b
 ## Status
 
 **Active, well-resourced, and young, with traction that far outruns its independent discussion.**
-10,817 stars and 1,753 forks as of 2026-10-15 (repository created 2026-06-11), the v0.19.1 release published 2026-10-21 after 40+ releases (v0.19.0 on October 20 added an MCP registry and gateway, managed MCP accounts connected in Settings with tools picked for local hosts or sandboxes through a server gateway carrying shared policy checks, and v0.19.1 bumped dependencies to mitigate the eMudhra Intermediate CA compromise), and the default branch was pushed 2026-10-24 (GitHub API, as of 2026-10-24).
+10,817 stars and 1,753 forks as of 2026-10-15 (repository created 2026-06-11), the v0.20.0 release published 2026-10-28 (a pull-request surface in the Pull Requests tab that merges or turns off auto-merge, edits title and description, manages labels and reviewers, and posts comments without leaving the tab), and the default branch was pushed 2026-10-28 (GitHub API, as of 2026-10-28), after 40+ releases that include v0.19.1 (October 21, a dependency bump mitigating the eMudhra Intermediate CA compromise) and v0.19.0 (October 20, an MCP registry and gateway with managed MCP accounts connected in Settings and tools picked for local hosts or sandboxes through a server gateway carrying shared policy checks).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=omnigent-ai/omnigent&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ Not for developers happy inside one harness, and not for Windows-first setups th
 - 2026-10-07 - Added the omnigent-ai/omnigent star history chart to the Status section.
 - 2026-10-17 - Recorded the v0.18.0 release (October 13), which added GitLab merge-request and Azure DevOps pull-request review beside GitHub in the session panel, with checks, comments, diffs, and automatic tracking of agent-created requests, and refreshed the PyPI reference to 0.18.0.
 - 2026-10-24 - Recorded the v0.19.0 release (October 20), an MCP registry and gateway with managed MCP accounts and shared policy checks behind a server gateway, and the v0.19.1 dependency bump (October 21) mitigating the eMudhra Intermediate CA compromise, and refreshed the push date.
+- 2026-10-28 - Recorded the v0.20.0 release (October 28): pull-request management from the Pull Requests tab without leaving it (merge, auto-merge, titles, labels, reviewers, comments), with the push date refreshed.
 
 ## See also
 

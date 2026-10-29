@@ -1,7 +1,7 @@
 ---
 title: ReviewBench
 created: 2026-10-07
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, code-review, ai-review-agents]
 readability: 3
@@ -24,8 +24,8 @@ Submission is self-serve: sign in with GitHub, register a container image and yo
 
 ## Status
 
-A research preview launched 2026-10-05: the repository (review-bench/ReviewBench) was created 2026-09-04 and sits at 52 stars as of 2026-10-13 and 6 open issues as of 2026-10-26, last pushed 2026-10-26.
-The first independent entrants arrived through the self-service portal in the benchmark's first week: five third-party reviewers (Hermes Reviewer on 2026-10-07, then HeyDeer, mesrai, pr-review-agent, and DeepSeek Harness Reviewer on 2026-10-08) merged onboarding registrations, and eleven more followed (Klaussy and Sourceant on 2026-10-12, block/review and Laude RevEngine on 2026-10-13, intent-review-agent on 2026-10-14, diffox on 2026-10-15, emirtuncer-claude and diffox ultra on 2026-10-16, and opswiki, alma-reviewer, and OhMyBug on 2026-10-19, TraceHound on 2026-10-22, and Fletcher on 2026-10-26), so eighteen have onboarded and the submission pipeline works well beyond GitHub's own pre-ran entries, though none of their leaderboard scores had published as of 2026-10-11.
+A research preview launched 2026-10-05: the repository (review-bench/ReviewBench) was created 2026-09-04 and sits at 52 stars as of 2026-10-13 and 6 open issues as of 2026-10-26, last pushed 2026-10-27.
+The first independent entrants arrived through the self-service portal in the benchmark's first week: five third-party reviewers (Hermes Reviewer on 2026-10-07, then HeyDeer, mesrai, pr-review-agent, and DeepSeek Harness Reviewer on 2026-10-08) merged onboarding registrations, and eleven more followed (Klaussy and Sourceant on 2026-10-12, block/review and Laude RevEngine on 2026-10-13, intent-review-agent on 2026-10-14, diffox on 2026-10-15, emirtuncer-claude and diffox ultra on 2026-10-16, and opswiki, alma-reviewer, and OhMyBug on 2026-10-19, TraceHound on 2026-10-22, Fletcher on 2026-10-26, and OCR and diffox spark on 2026-10-27), so twenty have onboarded and the submission pipeline works well beyond GitHub's own pre-ran entries, though none of their leaderboard scores had published as of 2026-10-11.
 On 2026-10-17 the benchmark also gained a Harbor path: the 219 pull requests ship as a frozen, content-addressed Harbor dataset (review-bench/reviewbench-public@v1) with a separate verifier reusing the same matcher, classifier, and scoring under Claude Opus 5 as judge, runnable through the reviewbench-harbor runtime with no checkout of this repository and, per the merge, no Copilot adapter in the public package.
 The repository documented an offline evaluation path on 2026-10-10: run the reviewer image with try-agent.sh, then judge the findings locally, no registration required, and a 2026-10-13 commit additionally discloses the golden set's composition by producer while registration now documents its per-PR timeout (default 1,800 seconds).
 A 2026-10-20 merge turned that producer disclosure into a scoring control: an `--exclude-producer` flag judges leave-producer-out runs against the golden set.
@@ -83,6 +83,7 @@ Not for CI gating, and not as an unbiased tiebreaker while the publisher's own r
 - 2026-10-23 - Recorded the TraceHound onboarding (merged 2026-10-22, seventeen total) and refreshed the activity line.
 - 2026-10-25 - Recorded the Laude RevEngine Prime rename to Laude RevEngine (PR 98, merged 2026-10-24); the onboarding count stands at seventeen.
 - 2026-10-26 - Recorded the Fletcher onboarding (PR 99, merged 2026-10-26, eighteen total) and refreshed the activity line; also corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-28 - Recorded the OCR and diffox spark onboardings (PRs 100 and 101, both merged 2026-10-27, twenty total) and refreshed the activity line.
 
 ## See also
 
@@ -99,7 +100,7 @@ Not for CI gating, and not as an unbiased tiebreaker while the publisher's own r
 - https://api.github.com/repos/review-bench/ReviewBench - stars, issues, creation and push dates as of 2026-10-13
 - https://raw.githubusercontent.com/review-bench/ReviewBench/main/docs/OFFLINE_EVAL.md - the offline-evaluation guide and its answer-leakage limits section
 - https://github.com/review-bench/ReviewBench/pull/51 - the Harbor runner merge: the frozen public dataset, the separate Claude Opus 5 verifier, and the no-Copilot-adapter note
-- https://api.github.com/repos/review-bench/ReviewBench/pulls?state=closed&per_page=100 - the merged pull-request list behind the onboarding count: eighteen third-party entries between 2026-10-07 and 2026-10-26, alongside GitHub's own test and pre-ran registrations (as of 2026-10-26)
+- https://api.github.com/repos/review-bench/ReviewBench/pulls?state=closed&per_page=100 - the merged pull-request list behind the onboarding count: twenty third-party entries between 2026-10-07 and 2026-10-27, alongside GitHub's own test and pre-ran registrations (as of 2026-10-28)
 - https://review-bench.ai/ - the leaderboard site (a client-rendered shell to fetchers, so its content is grounded in the announcement and press coverage rather than quoted)
 - https://thenewstack.io/github-reviewbench-code-review - the critical read: GitHub pre-ran the rival entries, test dates differ, and Copilot's 40.1 grounded F1 leads
 - https://hn.algolia.com/api/v1/items/49967574 - the 4-point, zero-comment launch-day thread, the thin-footprint signal

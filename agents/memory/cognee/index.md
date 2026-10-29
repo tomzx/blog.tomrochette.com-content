@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-10-24
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-10-23 UTC, and v1.6.5 (October 16, 2026) the latest stable release with PyPI in sync at 1.6.5; v1.6.6rc1 (October 23) is in pre-release.
+About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-10-28 UTC, and v1.6.5 (October 16, 2026) the latest stable release with PyPI in sync at 1.6.5; v1.6.6rc1 (October 23) is in pre-release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=topoteretes/cognee&type=date&theme=dark&legend=top-left" />

@@ -93,6 +93,8 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-28 | cross-category | same-kind multi-agent frameworks below the admitted tier's adoption stay out while the tier question is open | swarms 7.3k, agency-swarm 4.6k, langroid 4.1k rejected on it; ChatDev 34.6k (active 2.0) handed to orchestration as the one scale-and-activity exception
 - 2026-10-28 | cross-category | the Ralph-loop cluster is wrapper tooling on the claude-code member, ecosystem-evidence kind | ralph-claude-code 9.7k is the head; pattern writeups are content under the 2026-10-22 ruling
 
+- 2026-10-28 | evaluation-review | InternScience/ResearchClawBench admitted as the raw-data re-discovery benchmark beside MLR-Bench; the automated-research handoff resolved on the citation bar as a single entrant | MIT code and dataset, arXiv v5, human-reproduced rubrics, seven-plus external leaderboard teams; the unvalidated judge and zero HN footprint ride the note; q#85 stays open
+
 ## Standing family rejections
 
 - 2026-10-12 (ruled 2026-10-07) | orchestration | single-vendor agent-building SDKs rejected as SDKs, not multi-agent orchestration systems | openai-agents-python, smolagents, adk-python, semantic-kernel, strands, claude-agent-sdk; microsoft/agent-framework and deepagents held under it, queue q#7 open

@@ -1,7 +1,7 @@
 ---
 title: GBrain
 created: 2026-10-07
-updated: 2026-10-27
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, provenance, mcp, personal-knowledge]
 readability: 3
@@ -27,10 +27,11 @@ A shared-brain skill catalog lets approved editors publish memory skills beside 
 ## Status
 
 **Active, single-author-plus-contributors, and unusually eval-disciplined for a personal project.**
-30,910 stars as of 2026-10-16 (GitHub API), with the repository pushed 2026-10-20, created 2026-04-05, MIT, as of 2026-10-20 (GitHub API), with five or more contributors and a companion garrytan/gbrain-evals repository (439 stars as of 2026-10-16, pushed 2026-10-20) holding dated benchmark reports.
+30,910 stars as of 2026-10-16 (GitHub API), with the repository pushed 2026-10-28, created 2026-04-05, MIT, as of 2026-10-28 (GitHub API), with five or more contributors and a companion garrytan/gbrain-evals repository (439 stars as of 2026-10-16, pushed 2026-10-20) holding dated benchmark reports.
 The README now fronts a hosted service, gbrain.io, a YC-backed team workspace ("Built by Garry Tan") that sells the same brain as a subscription, so the deployment model is no longer self-host-only.
 The release train has continued past the September refresh to v0.60.463.0 (2026-10-26), whose headline is a security fix: a migration (v275) backfills row-level security onto every Postgres table still without it, after the four incremental-derivation tables added in v273 and some older tables could be left RLS-off, which on Supabase with the Data API on made them reachable with the anon key; v0.60.462.0 the same day fixed a fact-extraction write race that silently dropped facts when two notes saved close together named the same entity page.
 Nine further releases landed by v0.60.472.0 (2026-10-27): the notable ones are v0.60.468.0, which requires Bun 1.4.4 or newer to fix a TLS-Postgres connection that grew unbounded until a memory guard killed it (and carries the Brotli fix for CVE-2026-111497), and v0.60.470.0, which closed a hole where any database session could create an empty table named like a purge list and have purged or forgotten content stored again, with the rest covering killed-sync visibility, `--flag=value` handling, a v265 upgrade fix, and a crashed sources refresh no longer wedging the managed checkout.
+v0.60.479.0 (2026-10-28) fixed the upgrade path itself: a brain created before v0.60.412.0 never recorded the old v0.13.1 migration, so upgrading it re-ran that migration, stamped `validate: false` into every page's frontmatter, and changed every content hash, desyncing a repo brain's database from the files in git; the stamp is now recorded as complete and the upgrade changes no page.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=garrytan/gbrain&type=date&theme=dark&legend=top-left" />
@@ -87,6 +88,7 @@ Not for teams needing supported infrastructure, contractual isolation, or a mult
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 - 2026-10-26 - Recorded the train's continuation to v0.60.463.0: the v275 migration backfills row-level security onto every Postgres table, closing the RLS-off exposure the four v273 derivation tables carried on migrations-only upgrades (Supabase anon-key reachability), plus the v0.60.462.0 fact-extraction write-race fix; the authorization caution gains the gap's record.
 - 2026-10-27 - Recorded the train's continuation to v0.60.472.0 (nine releases, October 26-27): the Bun 1.4.4 floor with the TLS-Postgres memory-growth and Brotli CVE fixes (v0.60.468.0) and the purge-guard hole closed, a temporary table no longer able to re-store purged or forgotten content (v0.60.470.0), with the rest covering killed-sync visibility, flag spelling, a v265 upgrade fix, and crashed-refresh recovery.
+- 2026-10-28 - Recorded v0.60.479.0: upgrades of brains created before v0.60.412.0 no longer re-run the v0.13.1 migration, stamp `validate: false` into every page, and re-hash every page (the change that desynced repo brains from git); the stamp is recorded as complete and the upgrade changes no page.
 
 ## See also
 

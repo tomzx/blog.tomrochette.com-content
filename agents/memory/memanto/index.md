@@ -1,7 +1,7 @@
 ---
 title: Memanto
 created: 2026-10-11
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, memory-agent, typed-memory, mcp, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Made by Moorcheh AI, with the April 2026 paper (arXiv 2604.22085) behind the ret
 ## Status
 
 **Active, young, and vendor-led.**
-2,326 stars and 741 forks, created 2026-03-23, pushed 2026-10-19, MIT, as of 2026-10-20 (GitHub API).
+2,326 stars and 741 forks, created 2026-03-23, pushed 2026-10-27, MIT, as of 2026-10-28 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=moorcheh-ai/memanto&type=date&theme=dark&legend=top-left" />
@@ -35,6 +35,7 @@ Made by Moorcheh AI, with the April 2026 paper (arXiv 2604.22085) behind the ret
 </picture>
 
 PyPI is at 0.2.30 with about 40 releases since spring; npm lags one release at 0.2.29 under the scoped @moorcheh-ai/memanto package, and v0.2.30 (October 23) makes `memanto connect` set up the project's MCP server in Claude Code, Codex, Cursor, and GitHub Copilot with the memory tools pre-approved.
+The Claude Code integration followed on 2026-10-27 (claudecode-memanto v0.1.2): it is MCP-first now, bundling memanto-mcp so the install registers the memanto MCP server in `.mcp.json` or `~/.claude.json` with the memory tools pre-approved, matching `memanto connect`'s `--project-dir` and `--agent-id` flags; the same days added an MCP Dockerfile and llms-install.md for registry listings and connect fixes verifying agent instruction and skill paths.
 The paper claims 89.8 percent on LongMemEval and 87.1 percent on LoCoMo through Moorcheh's Information Theoretic Search engine, with datasets and a harness published on Hugging Face.
 The Hacker News record is modest: a 14-point thread in June 2026 (11 comments) and a 3-point Mem0-migration story in September.
 **The fork-to-star ratio (about one fork per three stars as of 2026-10-11) is far above every peer in this category, which makes the raw engagement numbers harder to read than the star count suggests.**
@@ -76,6 +77,7 @@ My disagreeable claim: the management layer, not the store, is where memory prod
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched live (repository API, README with the self-critical benchmark caveat still present, docs, arXiv paper, PyPI, Hacker News search), and recorded v0.2.30 (October 23): `memanto connect` now sets up the project's MCP server for Claude Code, Codex, Cursor, and GitHub Copilot with pre-approved tools, and MCP remember calls require type, confidence, and provenance; PyPI in sync at 0.2.30, npm lagging at 0.2.29.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
+- 2026-10-28 - Recorded the MCP-first Claude Code integration (claudecode-memanto v0.1.2, 2026-10-27): the install now registers the memanto MCP server with pre-approved tools, matching the connect command's project-dir and agent-id flags, plus registry packaging and connect path fixes; the push date refreshed to 2026-10-27.
 
 ## See also
 

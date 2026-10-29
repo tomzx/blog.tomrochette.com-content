@@ -1,7 +1,7 @@
 ---
 title: Belief Context Graph
 created: 2026-10-16
-updated: 2026-10-25
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, belief, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The docs state the project boundaries plainly: no production graph-database adap
 ## Status
 
 **Active, young, and research-institute-led, with adoption still near zero.**
-224 stars, 2 forks, 0 tagged releases, and 8 contributors on a repository created 2026-06-03 and pushed 2026-10-20, MIT, as of 2026-10-20 (GitHub API); the repository was renamed from `bigai-nlco/bcg`, which still resolves.
+224 stars, 2 forks, 0 tagged releases, and 8 contributors as of 2026-10-20 (GitHub API), on a repository created 2026-06-03, MIT; pushed_at reads 2026-10-28 from side-branch pushes while the default branch has been quiet since 2026-10-15, and the repository was renamed from `bigai-nlco/bcg`, which still resolves.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bigai-nlco/belief-context-graph&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ Not for production teams needing releases, support, or independently validated b
 
 - 2026-10-16 - Created from the 2026-10-16 Awesome-Agent-Memory entrant scan (the Belief Context Graph entry repointed at bigai-nlco/belief-context-graph on 2026-10-15), with six fetched sources and the self-admitted-ungrounded-confidence-plus-missing-footprint combination recorded as the critical angle.
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched live, no facts changed (still zero tagged releases, and the repository's last push remains 2026-10-20 with nothing new on the default branch since).
+- 2026-10-28 - Rotation re-verification: every cited URL re-fetched live, no facts changed (both BrowseComp figures intact on the project site, still zero tagged releases); the pushed_at signal resolved to side-branch pushes with the default branch quiet since 2026-10-15.
 
 ## See also
 

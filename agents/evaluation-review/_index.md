@@ -26,6 +26,7 @@ Where quality control lives in the agent workflow: CI gates, dashboards, machine
 - [Phoenix](phoenix/index.md) - Arize's OTel-native observability and eval platform, self-hostable under an Elastic license.
 - [Plannotator](plannotator/index.md) - the local review surface that turns your annotations on agent plans and diffs into the agent's next instruction.
 - [PR Lens](pr-lens/index.md) - coldtea's MIT visualizer that draws every pull request as animated architecture and data-flow diagrams in a PR comment, judging nothing itself; its hosted App adds model-authored review findings.
+- [ResearchClawBench](researchclawbench/index.md) - the Shanghai AI Laboratory benchmark scoring whether agents can re-discover published science from raw data, expert rubrics judged by a configurable multimodal LLM in two modes, MIT with an arXiv paper and a live leaderboard.
 - [ReviewBench](reviewbench/index.md) - GitHub's open AI-code-review benchmark: 219 public PRs, a multi-source golden set, Claude Sonnet 5 as judge, and a leaderboard whose scores publish only on maintainer approval.
 - [slop-grader](slop-grader/index.md) - the MIT CLI that grades documents and diffs line by line against Markdown rulesets with Jev decision models, exhaustive by construction and priced in thousandths of a cent per question.
 - [Verbatim Citation Gate](verbatim-citation-gate/index.md) - the MIT two-stage citation auditor: a zero-token deterministic gate for fabricated quotes, then a skeptical judge that fails closed.
@@ -55,3 +56,4 @@ Its members are compared on shared rows in the [Evaluation and Review Feature Ma
 - 2026-10-16 - Added HermesGate.
 - 2026-10-21 - Added slop-grader.
 - 2026-10-27 - Added agent-qa.
+- 2026-10-28 - Added ResearchClawBench.

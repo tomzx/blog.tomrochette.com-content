@@ -1,7 +1,7 @@
 ---
 title: PR Lens
 created: 2026-10-10
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, visualization, pull-requests]
 readability: 3
@@ -24,7 +24,7 @@ The README documents none of that, only the drawing surfaces plus GitLab and Bit
 
 ## Status
 
-New and moving fast: 1,954 stars and 71 forks as of 2026-10-13, created 2026-08-20, pushed 2026-10-25, with v0.13.1 published 2026-10-17 as the newest release and the v0.13 train now two deep.
+New and moving fast: 1,954 stars and 71 forks as of 2026-10-13, created 2026-08-20, pushed 2026-10-28, with v0.13.1 published 2026-10-17 as the newest release and the v0.13 train now two deep.
 Reaching 1.9k stars in seven weeks is strong adoption for a review tool, though the independent footprint is small: a Hacker News search finds three Show HN threads (6 points on 2026-08-27, 4 points on 2026-10-05, 4 points on 2026-09-17), none above single digits.
 
 <picture>
@@ -69,7 +69,6 @@ Not for defect detection from the open-source core (it renders, not judges), and
 - 2026-10-10 - Created from the code-review resolution pass and placed in this category rather than code review, because the diagrams judge nothing: it joins Hunk and Plannotator as a human-review surface.
 - 2026-10-18 - Recorded the v0.13.1 release (2026-10-17), the npm CLI at 0.13.2, and the refreshed activity line.
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched and live; recorded that the hosted GitHub App now posts model-authored review findings (risk-ranked bug and security flags with autofix prompts) alongside the diagrams, a capability the MIT Action, CLI, and skill do not carry, and refreshed the activity line.
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 

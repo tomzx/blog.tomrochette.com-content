@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-27
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -32,7 +32,7 @@ Very large and fast: about 101.1k stars as of 2026-10-16, with 63,865 npm downlo
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-31, pushed 2026-10-25, latest tagged release v15.2.1 on 2026-10-25 with npm in sync at 15.2.1 as of 2026-10-26.
+Created 2025-08-31, pushed 2026-10-28, latest tagged release v15.4.0 on 2026-10-28 with npm in sync at 15.4.0 as of 2026-10-28.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.
@@ -45,6 +45,7 @@ v15.0.0 (2026-10-20) opened the next line by making Smart memory search the defa
 v15.1.0 (2026-10-25) rebuilt the My Work dashboard as a React viewer on live worker data that is always live, moved per-prompt semantic injection into server mode, added an opt-in loopback HTTP MCP transport with per-session workspaces, and broadened secret redaction to lowercase-named AWS secret keys, PGP private key blocks, and encrypted PKCS#8 keys.
 Later the same day, v15.2.0 gave fresh installs a browser setup funnel that reads the last 30 days of supported local agent history, filters and redacts it, and uploads the filtered owner prompts to CMEM Cloud for hosted intent extraction before setup finishes, with anonymous installs getting a private installation credential; v15.2.1 (2026-10-25) changed no runtime behavior and only moved npm publishing to OIDC trusted publishing with provenance attestations, fixing a publish path that had failed on every tag since v13.26.1.
 v15.3.0 (2026-10-26) added Deliverables to the My Work card: the Stop hook copies what a turn produced (decks, reports, pages, attached files) into `~/.claude-mem/deliverables/<project>/` under content-addressed names so the copy outlives the worktree or scratch folder it was made in, the worker serves each copy over loopback, entirely-`<private>` turns leave no copy, and `CLAUDE_MEM_DELIVERABLES_ENABLED=false` turns the feature off.
+v15.4.0 (2026-10-28) rebuilt My Work around Focus areas: a MY FOCUS rail lists your focus areas in priority order with a needs-you count on each, every request sits in exactly one area or in Other, area pages carry a goal sentence with combined progress and the asks not yet started, new areas are suggested automatically with keep, rename, merge, or dismiss per suggestion, and the My Goals page is retired into the area pages.
 
 ## Strengths
 
@@ -113,6 +114,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-10-25 - Recorded v15.1.0 (the React My Work viewer on live worker data that is always live, per-prompt semantic injection in server mode, an opt-in loopback HTTP MCP transport with per-session workspaces, and broader secret redaction) with npm in sync at 15.1.0; trailing-month npm downloads refreshed to 63,865 (2026-09-23 to 2026-10-22).
 - 2026-10-26 - Recorded the same-day v15.2.0 and v15.2.1 releases: the browser install funnel that scans 30 days of local agent history and uploads filtered owner prompts to CMEM Cloud for hosted intent extraction as the default fresh-install path (new caution), and the npm OIDC trusted-publishing fix that repairs a publish path broken since v13.26.1; npm re-verified in sync at 15.2.1.
 - 2026-10-27 - Recorded the v15.3.0 release (October 26): Deliverables on the My Work card, the Stop hook copying turn output into content-addressed project folders served over loopback, with private turns excluded and an off-switch; npm re-verified in sync at 15.3.0.
+- 2026-10-28 - Recorded v15.4.0: My Work rebuilt around Focus areas (a priority-ordered MY FOCUS rail with needs-you counts, every request in exactly one area, goal-sentence area pages, and auto-suggested areas with keep, rename, merge, or dismiss), retiring the My Goals page; npm re-verified in sync at 15.4.0.
 
 ## See also
 

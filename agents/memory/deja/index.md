@@ -1,7 +1,7 @@
 ---
 title: deja
 created: 2026-10-10
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, transcripts, retrieval, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Beyond search it adds `deja promote` (curated notes with accepted and rejected l
 ## Status
 
 **Young, fast-moving, and single-maintainer, with adoption ahead of any public discussion.**
-1,206 stars and 120 forks as of 2026-10-16 (GitHub API), created 2026-07-14, pushed 2026-10-24, MIT, with 77 open issues and pull requests as of 2026-10-19 (GitHub API).
+1,206 stars and 120 forks as of 2026-10-16 (GitHub API), created 2026-07-14, pushed 2026-10-28, MIT, with 77 open issues and pull requests as of 2026-10-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&theme=dark&legend=top-left" />
@@ -38,6 +38,7 @@ v0.23.1 halves the cold-build peak again (4.7 GB instead of 9.4 GB on a 40,000-s
 v0.23.0 makes big stores cheap to keep current: an update pass appends the records of rewritten sessions instead of rewriting the whole log and reads only what changed, cutting a 20-transcript update from 24 seconds to 1.7 and peak memory from 7 GB to under 1 GB on a 40,000-session store, and a common-word search answers in about a second instead of 24; it treats sub-agents as sessions of their own in every reader that marks one, forks no longer take credit for what they copied, and recalled history can no longer run a command in opencode or end a dsh turn, with the index rebuilt once on upgrade and `DEJA_NO_AUTO_INDEX` plus `DEJA_SEARCH_ONLY` for busy machines.
 v0.22.1 makes session playback show the code each edit changed, line by line, for Claude Code, Codex, and every harness whose transcript holds its edit calls, adds `deja resume <id> --app` to open a Codex session in the ChatGPT desktop app, cuts session start to 0.38 seconds and the per-prompt hook to 0.59 seconds on a 19,000-session index (from 1.46 and 1.65), masks secrets that slipped past redaction, and moves the index version to 70, so the store rebuilds once on the first run after upgrading.
 v0.22.2 decrypts, authenticates, and indexes Windsurf and Devin Desktop's encrypted Cascade conversation files, taking the wired-harness count to 42, adds `deja delete` to erase a session from its agent and from deja after asking, and rebuilds Claude Code sessions whose transcript is gone as their prompts from `history.jsonl`.
+The main branch has kept moving past v0.23.1 (about fifteen commits on 2026-10-27 and 28, unreleased at fetch time with the nightly channel carrying them): recall hooks now inject only when the prompt names something the history actually holds, recall answers are served from the previous index while a version rebuild runs, a late MCP recall answer is handed on with the next tool call, three regressions against 0.23.1 were caught by replaying a real store, default source locations landed for copilot-chat, roo, kilocode, and cherrystudio, and the MCP deadline became configurable (`DEJA_MCP_DEADLINE`).
 I found no Hacker News thread for the tool through 2026-10-10 searches (the name collides with two decades of unrelated deja vu stories), so the 1.2k stars in three months rest on package managers, MCP registries, and its Awesome-Agent-Memory placement, the stars-ahead-of-discussion pattern this section has flagged across the category.
 
 ## Strengths
@@ -78,6 +79,7 @@ Not for teams needing multi-user memory, audited third-party evaluation, or reca
 - 2026-10-25 - Recorded the v0.23.1 release: MiniMax Code as the forty-third wired harness, project aliases under `~/.config/deja/projects`, `deja search --sort date`, the cold-build memory peak halved (4.7 GB versus 9.4 GB on 40,000 sessions), 17x cheaper redaction, and the quadratic look-alike-search fix; the harness count updated throughout, and the status push date refreshed to 2026-10-24.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
+- 2026-10-28 - Recorded the unreleased post-v0.23.1 main-branch train (about fifteen commits, 2026-10-27 and 28): recall injection gated to prompts that name something the history holds, answers served from the previous index during rebuilds, late MCP recall answers handed to the next tool call, three 0.23.1 regressions fixed via a real-store replay, default source locations for four more parsers, and the configurable MCP deadline; the push date refreshed to 2026-10-28.
 
 ## See also
 

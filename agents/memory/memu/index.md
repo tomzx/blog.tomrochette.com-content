@@ -1,7 +1,7 @@
 ---
 title: memU
 created: 2026-10-06
-updated: 2026-10-27
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, file-based, skills]
 readability: 3
@@ -34,10 +34,11 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&legend=top-left" />
 </picture>
 
-14,546 stars with the repository pushed 2026-10-26, created 2025-07-29, as of 2026-10-26 (GitHub API).
+14,546 stars with the repository pushed 2026-10-28, created 2025-07-29, as of 2026-10-28 (GitHub API).
 The Hacker News record is two threads: an 11-point Show HN in January 2026 (4 comments) and a 4-point story in July 2026 (0 comments), so the 14.5k stars rest on trend cycles and word of mouth, not public scrutiny.
 Development is active, with the README's host matrix and skill-extraction flow revised against current releases.
 The same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and Graphify.
+Two retrieval fixes landed on 2026-10-28 pending release: memory hits are returned self-contained, and host memory queries are capped at five hits.
 
 ## Strengths
 
@@ -85,6 +86,7 @@ Not for teams needing multi-user memory APIs, contractual hosting terms, or any 
 - 2026-10-18 - Dropped the positional star rank entirely: the denominator went stale again at the category's thirty-two members (OKF Agent Memory and Operator Memory joined 2026-10-17), and the five prior rank-correction rounds showed the claim costs more maintenance than its one line of value; the substance (14.5k stars, near-empty discussion footprint) is unchanged.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live (repository, README, product site, install skill, hosted key surface, PyPI, both HN threads); no release after memu-cli 0.10.0 and both threads unchanged, and the README's host matrix grew Cola and pi adapters plus a generic `memu-agent` JSONL-dialect detector, recorded in What it is; the push date refreshed to 2026-10-26.
 - 2026-10-27 - Recorded the dedicated Codex adapter: a `memu-codex` binary (commit #753, 2026-10-27) that mines `~/.codex/sessions/**/*.jsonl` and patches `~/.codex/AGENTS.md`, with prompt retrieval and background memorization integrated.
+- 2026-10-28 - Recorded the pending-release retrieval fixes (2026-10-28): memory hits returned self-contained and host memory queries capped at five hits; the push date refreshed to 2026-10-28.
 
 ## See also
 

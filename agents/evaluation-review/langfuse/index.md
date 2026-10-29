@@ -1,7 +1,7 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-10-27
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
 readability: 3
@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-10-27, with v4.70.1 (2026-10-26) after v4.70.0 (2026-10-24) and v4.69.0 (2026-10-23), as of 2026-10-27.
+Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-10-28, with v4.71.0 (2026-10-27) after v4.70.1 (2026-10-26) and v4.70.0 (2026-10-24), as of 2026-10-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />
@@ -93,6 +93,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 - 2026-10-23 - Recorded the v4.67.0 (2026-10-21) and v4.68.0 (2026-10-22) releases and refreshed the activity line.
 - 2026-10-25 - Recorded the v4.69.0 (2026-10-23) and v4.70.0 (2026-10-24) releases and refreshed the activity line.
 - 2026-10-27 - Recorded the v4.70.1 release (2026-10-26) and refreshed the activity line.
+- 2026-10-28 - Recorded the v4.71.0 release (2026-10-27) and refreshed the activity line.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: OpenCode
 created: 2026-08-22
-updated: 2026-10-26
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, developer-tools]
 readability: 3
@@ -49,7 +49,7 @@ OpenCode is the continuation that kept the name, the domain, and the community.
 - Pin your version and read the config.
 - In March 2026 [Anthropic legal requests](https://github.com/anomalyco/opencode/pull/18186) removed the Claude Pro/Max OAuth login and Anthropic-branded defaults, so your Claude subscription will not drive OpenCode; use API keys or Zen.
 - Fast-moving config surface; the docs carry 'versions older than 0.1.x' style of breaking-change warnings.
-- The docs now carry a "v2 is now available" banner linking to a v2 page, while GitHub releases remain on the v1.x train (v1.19.4, 2026-10-22, a runtime-security bump of the bundled Bun to 1.4.4; the prior v1.19.3 made configurable model reasoning options generate reasoning variants while preserving configured overrides), so the v2 launch is a docs-and-marketing channel ahead of a tagged release.
+- The docs carry a "v2 is now available" banner linking to a v2 page, and the v2-tagged-release gap closed on 2026-10-27 with v2.2.0: experimental desktop plugins (create, install, and share), a refreshed desktop app, experimental image and decision generation APIs in the plugins and SDK, keyed session-instruction entries that extend the prompt without busting the cache or starting an extra turn, and configurable prompt-cache TTLs per provider or model, with breaking changes moving the `@opencode/ai` package root to the Promise API (the Effect API now lives at `@opencode/ai/effect`), removing the OpenCode GitHub Action, and requiring OpenTUI 0.7 for TUI plugins; the v1.x train continues beside it at v1.19.5 (2026-10-28, answering a failed TUI worker request instead of hanging), after v1.19.4 (2026-10-22) bumped the bundled Bun to 1.4.4 for runtime security and v1.19.3 made configurable model reasoning options generate reasoning variants while preserving configured overrides.
 - Windows works best under WSL.
 
 ## Pricing
@@ -78,6 +78,7 @@ Not for teams that need subscription billing simplicity or cannot audit a fast-m
 - 2026-10-07 - Added the anomalyco/opencode star history chart to the Status section.
 - 2026-10-17 - Recorded the v1.x train reaching v1.19.3 (October 16), which made model reasoning options configurable into generated reasoning variants while preserving configured overrides, keeping the v2-tagged-release gap open.
 - 2026-10-26 - Recorded the v1.x train reaching v1.19.4 (October 22), a runtime-security bump of the bundled Bun to 1.4.4, keeping the v2-tagged-release gap open; every cited URL re-fetched in the rotation pass.
+- 2026-10-28 - Recorded the v2-tagged release gap closing: v2.2.0 (October 27) shipped experimental desktop plugins, a refreshed desktop app, image and decision generation APIs, cache-preserving session-instruction entries, and prompt-cache TTLs, with breaking SDK packaging changes and the OpenCode GitHub Action removed, and the v1.x train continued at v1.19.5 (October 28).
 
 ## See also
 

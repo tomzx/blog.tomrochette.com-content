@@ -1,7 +1,7 @@
 ---
 title: Cabinet
 created: 2026-10-02
-updated: 2026-10-25
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, knowledge-base, file-based, self-hosted]
 readability: 3
@@ -83,6 +83,7 @@ Not for Linux-first teams, or anyone who needs an actively shipping dependency, 
 - 2026-10-07 - Added the cabinetai/cabinet star history chart to the Status section.
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still last pushed 2026-08-25, the pricing page still $20/$49 waitlist cloud tiers with the $10 Cabinet AI add-on, create-cabinet still 0.5.0 on npm).
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still quiet since 2026-08-25, the pricing page still $20/$49 waitlist cloud tiers with the $10 Cabinet AI add-on, create-cabinet still 0.5.0 on npm).
+- 2026-10-28 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still quiet since 2026-08-25 with v0.6.0 the last release, the pricing page still $20/$49 waitlist cloud tiers with the $10 Cabinet AI add-on, create-cabinet still 0.5.0 on npm, the founder's Show HN still 16 points).
 
 ## See also
 

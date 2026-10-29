@@ -1,7 +1,7 @@
 ---
 title: Unreal Agent
 created: 2026-09-25
-updated: 2026-10-20
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, coding-agent, go, async]
 readability: 3
@@ -22,7 +22,7 @@ Unreal Labs says it was founded by engineers from CERN, Meta, Snap, Bloomberg, a
 ## Status
 
 Active and five weeks old.
-The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 247 points as of 2026-10-18 (122 comments as of 2026-09-25), and the repo stood at 2,187 stars and 125 forks with the default branch pushed 2026-10-19 (GitHub, as of 2026-10-20).
+The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 247 points as of 2026-10-18 (122 comments as of 2026-09-25), and the repo stood at 2,187 stars and 125 forks with the default branch pushed 2026-10-23 (GitHub, as of 2026-10-28).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=unreallabsai/unreal-agent&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ The plain summary is that its one claim, async tool calls cut harness token over
 - 2026-10-07 - Added the unreallabsai/unreal-agent star history chart to the Status section.
 - 2026-10-07 - Recorded the v0.3.1 release (October 6), which moved distribution to GoReleaser with a Homebrew tap and refreshed the runner and TUI documentation, and refreshed repository counters.
 - 2026-10-20 - Rotation re-verification: corrected the release count (four releases over five tags; v0.3.0 was tagged without a release) and refreshed the push date.
+- 2026-10-28 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the push date to 2026-10-23.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: AgentRQ
 created: 2026-10-13
-updated: 2026-10-27
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, mcp, human-in-the-loop, self-hosted]
 readability: 3
@@ -22,10 +22,11 @@ A companion Chrome extension carries the board into the browser; the README carr
 
 ## Status
 
-Active and modest: 1,152 stars as of 2026-10-14, 87 forks, and 9 open issues and pull requests as of 2026-10-25, created 2026-03-24, pushed 2026-10-25, with a dual licence since v0.13.0: the repository stays AGPL-3.0-only with a binary-only commercial licence from Contextual, Inc., while the agentrqd server daemon, its installers, and the agentrq-ws CLI are published under Apache-2.0.
+Active and modest: 1,152 stars as of 2026-10-14, 86 forks, and 6 open issues and pull requests as of 2026-10-28, created 2026-03-24, pushed 2026-10-28, with a dual licence since v0.13.0: the repository stays AGPL-3.0-only with a binary-only commercial licence from Contextual, Inc., while the agentrqd server daemon, its installers, and the agentrq-ws CLI are published under Apache-2.0.
 The v0.11.1 to v0.11.3 train (2026-10-15 and 2026-10-16) added a native-ACP reasoning-level picker and refactored the ACP link layer into a protocol-neutral agentlink package, v0.12.0 (2026-10-17) fixed SQL-injection and tool-spoofing holes in the ACP tool-call path, made the acp-gateway speak only native ACP v1, and added health and readiness probes with S3-shared TLS certificates, v0.12.1 (2026-10-18) landed the per-task plan rows pinned above the chat plus native-ACP notices, resource-link file handoffs, and Claude plugin manifest fixes, and v0.13.0 (2026-10-18) shipped the server as one binary with the web app built in and made the supervisor workspace clear context by default.
 v0.13.1 (2026-10-21) shipped the MCP text attachments and pointed the task tool at the agentrq-ws CLI for them alongside dependency security patches, and v0.13.2 (2026-10-23) added a per-user MCP connections and machines-online view for the operator and quieted native and web-push notifications for agent thoughts, plans, and usage.
 v0.13.3 and v0.13.4 (both 2026-10-24) rebuilt the README around animated scenes in place of screenshots, added a Task Timeline feature row and Machine Info tiles with a CPU meter, made enrollment start serving so setup drops the serve step, fixed one-line task titles and the phone title model, and patched dependency advisories in dompurify, vitest, and electron.
+v0.14.0 (2026-10-28) began moving the desktop app from Electron to Tauri: a pure Rust core landed behind the same UI (window state, deep links, notifications, updater, tray, protocol routing, CSP), with the SidePanel guest abstraction and an isolated-workspaces feature row added to the README.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentrq/agentrq&type=date&theme=dark&legend=top-left" />
@@ -80,6 +81,7 @@ Not for AGPL-constrained teams, or anyone needing repository-native task storage
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-27 - Corrected the star-history chart light source (it carried the dark-theme parameter; only the dark source may).
 - 2026-10-27 - Restored the Changes order (the 2026-10-25 fallback-markup bullet sat below the 2026-10-27 light-source bullet; oldest first is the rule).
+- 2026-10-28 - Recorded v0.14.0 (2026-10-28: the desktop app's Electron-to-Tauri migration with a pure Rust core, the SidePanel guest abstraction, and an isolated-workspaces feature row) and refreshed counts (86 forks, 6 open issues and pull requests, pushed 2026-10-28).
 
 ## See also
 
@@ -91,9 +93,9 @@ Not for AGPL-constrained teams, or anyone needing repository-native task storage
 
 ## References
 
-- https://github.com/agentrq/agentrq - repository, AGPL-3.0 license, stars, push activity, and the MCP workspace model as of 2026-10-13
+- https://github.com/agentrq/agentrq - repository, AGPL-3.0 license, stars, push activity, and the MCP workspace model as of 2026-10-28
 - https://agentrq.com/ - the product site and self-hosted positioning
 - https://github.com/agentrq/agentrq/blob/main/README.md - the feature set, realtime capture claims, the harness support statement, and the dual-licence section (licence re-fetched 2026-10-21)
 - https://chromewebstore.google.com/detail/agentrq/iadkenmjgjoilnioldgchgjpdnbaghbj - the published Chrome extension backing the browser surface
-- https://api.github.com/repos/agentrq/agentrq/releases - the release train from v0.11.1 (2026-10-15) through v0.13.4 (2026-10-24): the security fixes and the feature releases
+- https://api.github.com/repos/agentrq/agentrq/releases - the release train from v0.11.1 (2026-10-15) through v0.14.0 (2026-10-28): the security fixes, the feature releases, and the Tauri migration
 - https://news.ycombinator.com/item?id=47958608 - the April 2026 Show HN (6 points), the project's main independent footprint

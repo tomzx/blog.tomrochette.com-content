@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-10-27
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
@@ -36,6 +36,7 @@ The vendor's official Code Review plugin had about 438,525 installs as of 2026-1
 </picture>
 
 Shipping pace in 2026 is high: projects for supervising groups of parallel agents (September 17), dynamic workflows across tens of parallel subagents (May 28), agent view (May 11), routines (April), computer use (March).
+The adoption story now has a practitioner field report behind it: PostHog's agent-factory write-up (October 21, 2026) describes engineers shipping 5x more pull requests on 1.5x the headcount with Claude Code and its Agent SDK at the core, Scout timers whose complexity hunters merged 47 pull requests in 30 days with other agents doing most of the reviewing, a StampHog auto-approver clearing about 30 percent of pull requests for about $910 a month in tokens, and a ReviewHog reviewer returning deep reviews in 30 minutes against half a day for humans, with reverts falling from 1.5 to 0.25 percent between January and August 2026.
 
 ## Strengths
 
@@ -96,6 +97,8 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - 2026-10-16 - Recorded the official Code Review plugin (about 438,525 installs, five parallel reviewers) as ecosystem evidence in Status per the vendor-sibling fold precedent.
 - 2026-10-25 - Rotation re-verification, every cited reference live and the changelog head confirming the v2.1.310 train; also repaired this Changes section's ordering, which had the 2026-10-16 bullet above the creation bullet against the oldest-first rule.
 - 2026-10-27 - Recorded the v2.1.311 release (October 26), whose headline fix turns the 1M-context overage stop into an automatic compaction and continue, alongside self-hosted-runner idle-hold flags, subagent MCP connection-race fixes, and a MEMORY.md staleness fix after compaction.
+- 2026-10-28 - Recorded the v2.1.312 release (October 27): gateway OIDC `user_id_claim`, click-to-send for queued messages, a fix for Claude overwriting a large CLAUDE.md or rules file it had only seen the start of, per-directory skills found after a deeper `cd`, and hook concurrency capped at 24 per session.
+- 2026-10-28 - Folded the PostHog agent-factory field report (October 21, 2026) into Status as ecosystem evidence per the field-report ruling: 5x pull requests on 1.5x headcount, 47 complexity-hunter PRs in 30 days, StampHog auto-approving about 30 percent of PRs for about $910 a month, and reverts down from 1.5 to 0.25 percent.
 
 ## See also
 
@@ -116,3 +119,4 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - http://web.archive.org/web/20260814104128/https://thereallo.dev/blog/claude-code-prompt-steganography - independent analysis of hidden prompt markers (archived; the live site blocks automated fetches)
 - https://systima.ai/blog/claude-code-vs-opencode-token-overhead - measured baseline, cache, and subagent token costs (July 2026)
 - https://news.ycombinator.com/item?id=47584540 - the March 31, 2026 npm sourcemap-leak discussion (2,095 points)
+- https://pauldambra.dev/2026/10/machinists-not-tailors.html - the PostHog agent-factory field report: 5x PRs on 1.5x headcount, the 47-PR complexity hunters, StampHog's 30 percent auto-approval at about $910 a month, and the revert-rate trend (fetched 2026-10-28)

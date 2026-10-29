@@ -15,6 +15,7 @@ Persistent memory for agents: the file conventions, the portable format, the cap
 - [Belief Context Graph](belief-context-graph/index.md) - BIGAI NLCO's MIT belief-graph memory layer: agent trajectories become confidence-scored, evidence-linked belief nodes with typed contradiction edges, local-first with a Codex wrapper.
 - [Cabinet](cabinet/index.md) - the MIT self-hosted knowledge base where every artifact is a markdown file on disk and an onboarded agent team works it on a schedule, quiet since August.
 - [claude-mem](claude-mem/index.md) - the 101.1k-star plugin that captures coding-agent sessions, compresses them with your tokens, and reinjects the context.
+- [claude-obsidian](claude-obsidian/index.md) - the MIT Claude Code plugin that turns a source inbox into a self-organizing Obsidian-vault knowledge graph with per-claim provenance and transactional writes, 15.9k stars with no independent coverage yet.
 - [Cognee](cognee/index.md) - the Apache-2.0 graph-memory pipeline with the whole engine self-hostable and a flat per-token cloud.
 - [deja](deja/index.md) - the MIT one-binary transcript index: recall of what 43 coding agents already wrote to disk, no capture step, no LLM, self-run benchmarks committed as artifacts.
 - [Emulo](emulo/index.md) - the MIT session miner that compiles the messages you typed into a you.md working profile with dated verbatim receipts, carrying a published 0-for-9 placebo result.
@@ -39,6 +40,7 @@ Persistent memory for agents: the file conventions, the portable format, the cap
 - [Operator Memory](operator-memory/index.md) - the BSD-3-Clause harness-agnostic documentation brain: the working agent consults and rewrites markdown specs, decisions, and indexes in three git-tracked partitions as structural phases of every task.
 - [PLUR](plur/index.md) - the Apache-2.0 local-first engine giving every wired harness one shared store of plain-text YAML engrams, with auto-injection adapters for eight coding agents.
 - [Screenpipe](screenpipe/index.md) - Negentropy Labs' source-available capture engine (YC S26): a local screen-and-audio timeline agents query over MCP, with paid commercial licensing.
+- [Sno Station](sno-station/index.md) - the Apache-2.0 cross-harness squad-memory workstation: one encrypted local memory for Codex, Claude Code, Hermes, Cursor, and OpenClaw, with quota handoffs, peer review, and a nightly REM pass that strengthens and retires facts.
 - [Supermemory](supermemory/index.md) - the benchmark-forward memory API (facts, profiles, and RAG in one engine) with an MIT one-binary local mode and a $19-$399/mo hosted ladder.
 - [TencentDB Agent Memory](tencentdb-agent-memory/index.md) - Tencent's MIT plugin giving OpenClaw and Hermes reversible compression into node_id drill-down Mermaid canvases over a local persona pyramid.
 - [Zep](zep/index.md) - temporal knowledge graphs where contradictions invalidate old facts.
@@ -79,3 +81,5 @@ Its members are compared on shared rows in the [Memory Feature Matrix](memory-fe
 - 2026-10-16 - Added Funes.
 - 2026-10-17 - Added OKF Agent Memory.
 - 2026-10-17 - Added Operator Memory.
+- 2026-10-28 - Added claude-obsidian.
+- 2026-10-28 - Added Sno Station.

@@ -1,7 +1,7 @@
 ---
 title: cmux
 created: 2026-08-24
-updated: 2026-10-18
+updated: 2026-10-28
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, terminal, parallel-agents, macos]
 readability: 3
@@ -31,7 +31,7 @@ About 28.2k stars and 2.5k forks as of 2026-10-15, created January 28, 2026, wit
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=manaflow-ai/cmux&type=date&legend=top-left" />
 </picture>
 
-The launch thread counted 18 releases in two days; the public changelog still tops out at v0.64.25 (2026-09-17) as of 2026-10-06, while the GitHub release line has moved to v0.65.2 (2026-10-16, after v0.65.1 on 2026-10-12, the repair patch that fixed a window crash loop and Cloud port and team regressions after v0.65.0 on 2026-10-05), with a nightly channel alongside the release line.
+The launch thread counted 18 releases in two days; the public changelog still tops out at v0.64.25 (2026-09-17) as of 2026-10-06, while the GitHub release line has moved to v0.65.2.2 (2026-10-27, bare patch releases after v0.65.2 on 2026-10-16 and v0.65.1 on 2026-10-12, the repair patch that fixed a window crash loop and Cloud port and team regressions after v0.65.0 on 2026-10-05), with a nightly channel alongside the release line.
 Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contributions), so this is a small funded team (Manaflow, Inc.) moving very quickly, not a broad community.
 
 ## Strengths
