@@ -1,7 +1,7 @@
 ---
 title: fx
 created: 2026-08-29
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zig, vercel, embedding]
 readability: 3
@@ -23,7 +23,7 @@ Feature surface: native [AGENTS.md](https://fx.sh/docs/configure-fx/project-inst
 ## Status
 
 **Active and very young.**
-The repository was created August 11, 2026 and shows 3,446 stars and 380 forks as of 2026-10-15, with v0.0.15 the latest release (published October 27, 2026; roughly 70 percent less peak memory on long conversations holding saved images in a vendor synthetic benchmark, model-catalog updates without a restart, a leaner session store with about 18 percent faster resumes, and `/fork` branching from an earlier prompt) on top of v0.0.14 (published October 16, 2026; durable libfx sessions that survive crashes, redeploys, and function timeouts with idempotent-marked tool reruns, multiple named libfx agents per app, `wakeHandler()` as one HTTP route for every agent, ChatGPT and Grok subscription sign-in for server-side agents, libfx custom OpenAI-compatible endpoints including local model servers, and a move to Zig 0.17) and pushes landing on the day of verification (GitHub API).
+The repository was created August 11, 2026 and shows 3,446 stars and 380 forks as of 2026-10-15, with v0.0.15 the latest release (published October 27, 2026; roughly 70 percent less peak memory on long conversations holding saved images in a vendor synthetic benchmark, model-catalog updates without a restart, a leaner session store with about 18 percent faster resumes, and `/fork` branching from an earlier prompt) on top of v0.0.14 (published October 16, 2026; durable libfx sessions that survive crashes, redeploys, and function timeouts with idempotent-marked tool reruns, multiple named libfx agents per app, `wakeHandler()` as one HTTP route for every agent, ChatGPT and Grok subscription sign-in for server-side agents, libfx custom OpenAI-compatible endpoints including local model servers, and a move to Zig 0.17) and pushes landing on the day of verification (GitHub API, as of 2026-10-29).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vercel-labs/fx&type=date&theme=dark&legend=top-left" />

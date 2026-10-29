@@ -14,7 +14,7 @@ Editors and harnesses live in their own categories; this is where the token bill
 - [Bifrost](bifrost/index.md) - Maxim's self-hosted Apache-2.0 Go gateway unifying 20-plus providers with failover, budgets, and an MCP gateway, the performance challenger to LiteLLM, 8.8k stars.
 - [Cerebras Code](cerebras-code/index.md) - wafer-scale inference sold as speed, $50/$200 per month, currently sold out.
 - [ChatGPT plans](chatgpt-plans/index.md) - OpenAI's subscription ladder from Go $8 to Pro tiers up to $500 per month, every tier carrying Codex.
-- [Chutes](chutes/index.md) - decentralized inference with pay-as-you-go plus $10/$20 subscriptions capped at 5x pay-as-you-go value.
+- [Chutes](chutes/index.md) - decentralized Bittensor inference, pay-as-you-go only since it stopped selling its $10/$20 subscriptions in October 2026.
 - [Claude plans](claude-plans/index.md) - Anthropic's Free/Pro/Max subscriptions, the only non-API way to run Claude Code, from $20 to $200 per month.
 - [Experiential](experiential/index.md) - a YC-backed Apache-2.0 gateway at zero markup that mines agent traces to train routers and, on enterprise, a model you own.
 - [GLM Coding Plan](glm-coding-plan/index.md) - Z.AI's flat monthly quota for the GLM line, from $18, restructured twice since launch.
@@ -28,13 +28,13 @@ Editors and harnesses live in their own categories; this is where the token bill
 - [MiniMax Coding Plan](minimax-coding-plan/index.md) - token-quota subscriptions for the MiniMax line, $22 to $132 per month, born from a silent plan replacement and renamed again to the M Plan in October.
 - [NanoGPT](nanogpt/index.md) - the community aggregator: hundreds of routes pay-as-you-go plus a $12 open-weight subscription.
 - [Ollama](ollama/index.md) - the free local runtime and registry for open models, now paired with paid cloud tiers.
-- [OpenCode Go](opencode-go/index.md) - the OpenCode team's $10/month open-model token pack, usable from any agent.
-- [OpenCode Zen](opencode-zen/index.md) - the OpenCode team's curated pay-per-use gateway over benchmarked endpoints.
+- [OpenCode Go](opencode-go/index.md) - the OpenCode team's open-model subscription ladder (Go $10, Go Plus $40, Go Teams $20 per member), usable from any agent.
+- [OpenCode Zen](opencode-zen/index.md) - the OpenCode team's curated pay-per-use gateway over benchmarked endpoints, renamed OpenCode Console on the docs in late October 2026.
 - [OpenRouter](openrouter/index.md) - the largest model gateway, passthrough tokens plus a 5.5% credit fee, now joining Stripe.
 - [Plano](plano/index.md) - the Envoy-based self-hosted LLM gateway and agent data plane behind the Arch-Router routers, acquired by DigitalOcean in April 2026.
 - [Qwen Coding Plan](qwen-coding-plan/index.md) - Alibaba Cloud's flat quota for the Qwen line plus bundled rivals, in transition to a Token Plan.
 - [Requesty](requesty/index.md) - EU-residency gateway charging a flat 5% markup on upstream spend.
-- [SuperGrok](supergrok/index.md) - xAI's subscription ladder, rebuilt in mid-October 2026 from the $30-to-$300 SuperGrok tiers into Plus $8 to Ultra $200 with X Premium and Cursor bundled and one shared weekly pool.
+- [SuperGrok](supergrok/index.md) - xAI's subscription ladder, rebuilt in mid-October 2026 from the $30-to-$300 SuperGrok tiers into Plus $8 to Ultra $200 with X Premium and Cursor bundled and one shared weekly pool that API usage left on 2026-10-29.
 - [Synthetic](synthetic/index.md) - a flat $30/month subscription for open-weight coding LLMs aimed at agent users.
 - [Vercel AI Gateway](vercel-ai-gateway/index.md) - Vercel's hosted gateway at provider list prices with 0% token markup, one-command setup for 29 coding agents, and no flat tier.
 

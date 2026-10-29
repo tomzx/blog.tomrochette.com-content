@@ -1,7 +1,7 @@
 ---
 title: AutoGen
 created: 2026-09-27
-updated: 2026-10-18
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, microsoft]
 readability: 3
@@ -33,7 +33,7 @@ New users are pointed to Microsoft Agent Framework (MAF), the enterprise success
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/autogen&type=date&legend=top-left" />
 </picture>
 
-AutoGen's own repo was last pushed 2026-10-16, the commit that re-labeled the project archived, and its latest release is python-v0.7.5 from 2025-09-30, so the code is stable and now formally abandoned.
+AutoGen's own repo was last pushed 2026-10-28, a docs commit that added the archive caution to the documentation landing page after the 2026-10-16 commit that re-labeled the project archived, and its latest release is python-v0.7.5 from 2025-09-30, so the code is stable and now formally abandoned.
 Microsoft ships a migration guide on Learn, and the README also still carries the v0.2-to-v0.4 migration path, a reminder that this project already survived one breaking rewrite.
 The successor is production-ready per the README, which calls MAF 1.0 stable with long-term support and A2A plus MCP interoperability.
 
@@ -74,6 +74,7 @@ My disagreeable claim: conversation-first multi-agent programming, the pattern A
 - 2026-10-07 - Added the microsoft/autogen star history chart to the Status section.
 - 2026-10-12 - Refreshed the Microsoft Agent Framework successor counts (14,066 stars, pushed October 11).
 - 2026-10-18 - Status moved from maintenance mode to archived: the 2026-10-16 README commit added a red archived badge and states Microsoft provides no bug, security, or feature fixes; the repository stays public and not GitHub-formally archived.
+- 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live; a 2026-10-28 docs commit added the archive caution to the documentation landing page, recorded in Status.
 
 ## See also
 

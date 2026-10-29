@@ -1,7 +1,7 @@
 ---
 title: herdr
 created: 2026-10-10
-updated: 2026-10-27
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal-multiplexer, rust, agent-automation, session-persistence]
 readability: 3
@@ -23,7 +23,7 @@ It is made by Can Celik, who built it solo, joined Y Combinator's F26 batch in A
 
 ## Status
 
-Active and heavily adopted: 44,094 stars and 3,485 forks as of 2026-10-15 on a repository created 2026-03-27 under the herdrdev org after public life as ogulcancelik/herdr, pushed 2026-10-26 (GitHub API, as of 2026-10-27).
+Active and heavily adopted: 44,094 stars and 3,485 forks as of 2026-10-15 on a repository created 2026-03-27 under the herdrdev org after public life as ogulcancelik/herdr, pushed 2026-10-28 (GitHub API, as of 2026-10-29).
 Latest stable release v0.9.5 (2026-10-14) with a daily preview train.
 The Hacker News footprint is the category's largest: a 404-point, 178-comment thread in July 2026, a 281-point YC announcement thread in August, and a 166-point launch thread in June.
 

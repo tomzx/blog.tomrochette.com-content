@@ -1,7 +1,7 @@
 ---
 title: OpenRig
 created: 2026-10-02
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, control-plane, cross-harness, tmux, persistent-agents]
 readability: 3
@@ -25,7 +25,7 @@ It ships no model and holds no API keys: it drives the Claude Code and Codex log
 
 ## Status
 
-Active and early: about 7.5k stars (7,480) as of 2026-10-15, up from about 7.0k on 2026-10-12 and 5.0k on 2026-10-07, created 2026-04-01, 24 contributors, 167 open issues and pull requests, and v0.7.4 published 2026-10-27 (a first experimental step toward every assistant working on one team) after v0.7.3 the same day (multi-person seats with defaults, Slack shared channels whose messages say who sent them, organizations and groups with an agent-readable policy, and a written contract for community harness authors) after v0.7.2 (2026-10-25, per-seat Claude and Codex accounts that move between logins and runtimes) and v0.7.1 (2026-10-25) and v0.7.0 (2026-10-23), v0.6.14 (2026-10-21), v0.6.13 (2026-10-20), and v0.6.12 (2026-10-19), which followed v0.6.11 (2026-10-17) and v0.6.10 (2026-10-12), the latter one day after v0.6.9, with npm `@openrig/cli` last verified at 0.6.8 on 2026-10-10 after 55 versions since 2026-04-06.
+Active and early: about 7.5k stars (7,480) as of 2026-10-15, up from about 7.0k on 2026-10-12 and 5.0k on 2026-10-07, created 2026-04-01, 24 contributors, 167 open issues and pull requests, and v0.7.4 published 2026-10-27 (a first experimental step toward every assistant working on one team) after v0.7.3 the same day, with default-branch pushes through 2026-10-29 (multi-person seats with defaults, Slack shared channels whose messages say who sent them, organizations and groups with an agent-readable policy, and a written contract for community harness authors) after v0.7.2 (2026-10-25, per-seat Claude and Codex accounts that move between logins and runtimes) and v0.7.1 (2026-10-25) and v0.7.0 (2026-10-23), v0.6.14 (2026-10-21), v0.6.13 (2026-10-20), and v0.6.12 (2026-10-19), which followed v0.6.11 (2026-10-17) and v0.6.10 (2026-10-12), the latter one day after v0.6.9, with npm `@openrig/cli` last verified at 0.6.8 on 2026-10-10 after 55 versions since 2026-04-06.
 v0.6.12 and v0.6.13 are community recovery-and-everyday-operation fix releases (121 of 0.6.12's 206 changes from 23 outside contributors, 15 of 0.6.13's 46 from 10), with restore bringing back what you left running. v0.6.10 is a community fix release: 38 of its 56 changes came from ten outside contributors, setup can now be told which agent harnesses you use, a resumed Claude seat whose session ID changed proves and restores, and upgrading requires a daemon restart that runs two no-op-data database migrations (release notes).
 
 <picture>

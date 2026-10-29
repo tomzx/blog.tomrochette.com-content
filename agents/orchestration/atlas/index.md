@@ -1,7 +1,7 @@
 ---
 title: Atlas
 created: 2026-09-29
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, source-control, rust]
 readability: 3
@@ -76,6 +76,7 @@ Not for teams needing a stable 1.0, Linux desktop installers, or a tool with ind
 - 2026-09-29 - Created when the owner's GitHub-stars entrant resolved in the carried candidate pile.
 - 2026-10-07 - Added the pacifio/atlas star history chart to the Status section.
 - 2026-10-18 - Re-verified in rotation (all cited URLs re-fetched, none dead); pricing moved from none to a four-tier page (Pro $20, Team $100, Business $200 per month, app still free in alpha with BYO keys), price history table seeded.
+- 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live; last push 2026-10-27 and alpha-0.3.4 (2026-09-27) unchanged, no factual drift.
 
 ## See also
 

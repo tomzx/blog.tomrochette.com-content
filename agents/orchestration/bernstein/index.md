@@ -1,7 +1,7 @@
 ---
 title: Bernstein
 created: 2026-10-06
-updated: 2026-10-27
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, deterministic-scheduling, policy-as-code, worktrees, audit]
 readability: 3
@@ -21,7 +21,7 @@ It ships as a CLI, TUI, and web UI on PyPI (`bernstein`), drives 50-plus CLI age
 
 ## Status
 
-Active and fast-releasing: 1,249 stars as of 2026-10-15, 30 contributors, and a push on 2026-10-27, created 2026-03-22, with v3.23.0 published 2026-10-24 after v3.22.0 (2026-10-15) (GitHub API, PyPI, as of 2026-10-27).
+Active and fast-releasing: 1,249 stars as of 2026-10-15, 30 contributors, and a push on 2026-10-29, created 2026-03-22, with v3.23.0 published 2026-10-24 after v3.22.0 (2026-10-15) (GitHub API, PyPI, as of 2026-10-27).
 v3.22.0 fixed a recovery-watchdog loop in which a run stopped on purpose could be restarted by its own watchdog, re-queueing retries an earlier process had already made; a quiescent run now stays stopped, which matters for a tool whose pitch is auditable determinism.
 The star count fell from the 1,404 recorded on 2026-10-06 to about 1,200 by 2026-10-10, a roughly 200-star drop in four days that GitHub sometimes produces when it removes bot-starred accounts, and the note records it because a falling count on a governance tool is itself a signal.
 

@@ -1,7 +1,7 @@
 ---
 title: AgentsMesh
 created: 2026-10-02
-updated: 2026-10-18
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-fleet, self-hosted, bsl]
 readability: 3
@@ -23,7 +23,8 @@ The license is Business Source License 1.1, source-available with a conversion d
 
 ## Status
 
-Active but maturing slowly: 2,360 stars as of 2026-10-15, created 2026-02-28, pushed 2026-09-23, with the last tagged release v0.44.7 on 2026-07-25 and development continuing on the default branch since; re-checked 2026-10-18 with nothing newer than the v0.44.8 nightly tag of the same push day.
+Repository removed: AgentsMesh/AgentsMesh returned 404 with no redirect as of 2026-10-29 (both the repository and its releases page), after a 2026-09-23 last push and v0.44.7 (2026-07-25) as the last stable tag; the product site agentsmesh.ai, its documentation, and the Docker Hub org (six images, last updated February 2026) are still online, so the platform is distributed but its source and history are no longer public.
+The star-history chart below now ends at the removal and is the record of what was.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AgentsMesh/AgentsMesh&type=date&theme=dark&legend=top-left" />
@@ -44,8 +45,8 @@ The docs are unusually complete for that traction (quick start through full API 
 
 ## Cautions
 
-- BSL 1.1 means you can use it but not offer it as a competing service, and the source-available window has a conversion date rather than being open now.
-- Nine days without a push at verification time and no release since July 2026: the release cadence lags the branch, so pinning is guesswork.
+- BSL 1.1 meant you could use it but not offer it as a competing service, and since the repository was removed the source is no longer obtainable at all; Docker Hub images are the only remaining distribution.
+- The repository removal (by 2026-10-29) with the marketing site still live is the pattern of a product being closed or rebuilt behind a closed door, not maintained in the open.
 - No independent usage evidence: the community footprint is one 3-point Show HN thread and a Discord.
 - The hundred-agent claim is untested in public; pod scheduling behavior under real contention is not documented with numbers.
 - Solo-console architecture concentrates state (tickets, channels, loop history) in one platform you must back up like any database.
@@ -72,6 +73,7 @@ Not for open-source-license purists, solo users (a worktree manager is lighter),
 - 2026-10-03 - Reworded a banned-term compound out of the Compared-to prose; meaning unchanged.
 - 2026-10-07 - Added the AgentsMesh/AgentsMesh star history chart to the Status section.
 - 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository, docs, releases, Docker Hub, the 3-point Show HN thread); no factual drift, still quiet since the 2026-09-23 push with v0.44.7 the last stable tag.
+- 2026-10-29 - Out-of-rotation re-verification: the AgentsMesh/AgentsMesh repository was removed from GitHub (404 with no redirect, releases included), so the Status moved from active to repository-removed with site, docs, and Docker Hub still online; Cautions and the dead references annotated.
 
 ## See also
 
@@ -83,8 +85,8 @@ Not for open-source-license purists, solo users (a worktree manager is lighter),
 
 ## References
 
-- https://github.com/AgentsMesh/AgentsMesh - repository, BSL-1.1 license, stars, pod and loop architecture, and the push record as of 2026-10-02
+- https://github.com/AgentsMesh/AgentsMesh - repository, BSL-1.1 license, stars, pod and loop architecture, and the push record as of 2026-10-02 (removed from GitHub by 2026-10-29, 404 with no redirect)
 - https://agentsmesh.ai/docs - the AgentPod, ticket, channel, loop, AgentFile, and MCP-tools documentation with the supported-harness list
-- https://github.com/AgentsMesh/AgentsMesh/releases - the v0.44.7 release (2026-07-25) anchoring the version and cadence claims
+- https://github.com/AgentsMesh/AgentsMesh/releases - the v0.44.7 release (2026-07-25) anchoring the version and cadence claims (removed from GitHub by 2026-10-29)
 - https://hub.docker.com/u/agentsmesh - the Docker Hub distribution used by the self-hosting path
 - https://news.ycombinator.com/item?id=47252334 - the March 2026 Show HN thread (3 points), the project's only independent community footprint

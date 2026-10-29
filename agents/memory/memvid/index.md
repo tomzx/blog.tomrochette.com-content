@@ -1,7 +1,7 @@
 ---
 title: Memvid
 created: 2026-10-08
-updated: 2026-10-26
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, file-format, single-file, rust]
 readability: 3
@@ -75,6 +75,7 @@ Not for teams needing a maintained dependency today, multi-user memory, or any c
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched live (repository API, README, site, both Show HN threads, the archived critique, both registries), no facts changed; the registries stay frozen at 2.0.160 from May 27 and the push record stays at 2026-07-14, now over three months quiet.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
+- 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repository API, README, site, both Show HN threads, the archived critique, PyPI, npm, the source list), no facts changed; the quiet record extends (no push since 2026-07-14, both registries still frozen at 2.0.160 from May 27), and the archived dispute page remains intact.
 
 ## See also
 

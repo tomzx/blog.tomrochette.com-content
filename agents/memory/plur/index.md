@@ -1,7 +1,7 @@
 ---
 title: PLUR
 created: 2026-10-14
-updated: 2026-10-26
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, mcp, local-first, open-source]
 readability: 3
@@ -17,7 +17,7 @@ PLUR is a local-first shared-memory engine for AI coding agents: one store of pl
 
 ## What it is
 
-Open-source Apache-2.0 TypeScript packages from plur-ai (@plur-ai/core, @plur-ai/cli, @plur-ai/mcp on npm) that store each memory as a typed YAML assertion validated against a published JSON Schema, with activation decay, hierarchical scopes, do/don't polarity, and associations.
+Open-source Apache-2.0 TypeScript packages from plur-ai (@plur-ai/core, @plur-ai/cli, @plur-ai/mcp on npm) that store each memory as a typed YAML assertion validated against a published JSON Schema, with activation decay, hierarchical scopes, do/don't polarity, associations, optional temporal validity windows, and append-only episode records for what happened when.
 Adapters (hooks plus plugins, not just tools) auto-inject memory for Claude Code, Codex, Cursor, OpenCode, OpenClaw, Hermes, Antigravity CLI, and DeepSeek Harness, while other MCP clients such as Windsurf and Gemini CLI get tools only; a Python SDK bridges LangChain and scripts to the same store.
 Recall is fully local hybrid search (BM25 plus BGE embeddings plus reciprocal rank fusion) with a BM25 fallback when the embedder is slow, and a `plur dashboard` command serves a read-only loopback viewer in English and Chinese.
 Sync is git over your own remotes, with scope-filtered pushes (shared remotes never receive personal or private engrams), and a PLUR Enterprise tier for team scopes is referenced without published prices.
@@ -25,7 +25,7 @@ Sync is git over your own remotes, with scope-filtered pushes (shared remotes ne
 ## Status
 
 **Active and shipping, young, with self-published benchmarks and no independent coverage yet.**
-304 stars, 37 forks, created 2026-03-19, pushed 2026-10-19, Apache-2.0, as of 2026-10-19 (GitHub API).
+304 stars as of 2026-10-19, 37 forks, created 2026-03-19, pushed 2026-10-29, Apache-2.0, as of 2026-10-29 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=plur-ai/plur&type=date&theme=dark&legend=top-left" />
@@ -35,6 +35,8 @@ Sync is git over your own remotes, with scope-filtered pushes (shared remotes ne
 
 @plur-ai/core is at 0.22.1, published 2026-10-22 (first publish 2026-03-22, npm registry); v0.22.0 (October 22) shipped the enterprise first-install path (`plur-enterprise init` in a new @plur-ai/plur-enterprise package: device sign-in, tool configuration, and a kept hello-memory proof through the installed MCP connection), and the project was listed in awesome-claude-code on 2026-10-13.
 Its headline benchmark claims (full LongMemEval-S recall at 97.6 percent with a reranker, and Haiku with PLUR beating Opus without it at roughly ten times less cost) are self-published, with the harness public at plur-ai/plur-bench, a pinned corpus, and reproduction explicitly invited, but I found no independent reproduction or coverage of the project as of 2026-10-14.
+The README has since broadened in three directions worth knowing before adopting: the benchmark page now reports answer accuracy separately from retrieval (60.5 percent end to end with the reranker stack, 52.0 for dumping full context, 5.5 with no memory, LLM-judged, still self-run), every engram carries an actor stamp in `provenance.origin` so a shared store shows who wrote each record, and indexing tiers by store size (plain YAML under 5,000 engrams, embedded Postgres from 5,000, a Postgres server beyond), with the caveat that the Postgres tier holds no embeddings, so semantic recall there scores in memory.
+The engram specification is at v2.1 (March 2026) and now defines optional temporal validity windows (`valid_from`, `valid_until`) for time-scoped queries and expiration, typed entity references, episodic emotional weight, usage hit/miss tracking, and append-only episode records beside the engrams.
 
 ## Strengths
 
@@ -71,6 +73,7 @@ Not for multi-user products needing server-side per-user isolation, and not for 
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched live (repository API, README, the engram spec, the benchmark page, plur-bench, npm), and recorded v0.22.0 (October 22) shipping the enterprise first-install command in a new @plur-ai/plur-enterprise package and v0.22.1 (October 22) fixing stale sign-in cleanup; npm in sync at 0.22.1, pricing still unpublished.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
+- 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repository API and README, the engram spec, the benchmark page, plur-bench, npm), npm in sync at 0.22.1, pricing still unpublished, and recorded the spec's v2.1 temporal-validity windows and episode records, the benchmark page's separate answer-accuracy figure (60.5 percent with the reranker stack versus 52.0 full-context and 5.5 none), per-engram actor stamps in provenance.origin, and the size-tiered indexing backends; the push date refreshed to 2026-10-29.
 
 ## See also
 

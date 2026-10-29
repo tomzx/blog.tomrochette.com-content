@@ -1,7 +1,7 @@
 ---
 title: CLI Agent Orchestrator
 created: 2026-10-28
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, aws, python, tmux]
 readability: 3
@@ -21,7 +21,7 @@ It needs Python 3.10+, tmux 3.3+, and at least one authenticated provider CLI, i
 
 ## Status
 
-Active and vendor-backed: 1,483 stars on a repository created 2025-07-29 under the awslabs org, pushed 2026-10-28, with PyPI 2.5.4 (2026-10-20) and GitHub release v2.5.3 (2026-10-08) (GitHub API, PyPI, as of 2026-10-28).
+Active and vendor-backed: 1,483 stars on a repository created 2025-07-29 under the awslabs org, pushed 2026-10-29, with PyPI 2.5.4 (2026-10-20) and GitHub release v2.5.3 (2026-10-08) (GitHub API, PyPI, as of 2026-10-28).
 **No independent coverage exists: I found no HN thread, and the footprint is the vendor's own docs, course, and repository, the same launch-echo-only record that OpenHarness carried at admission.**
 
 <picture>

@@ -1,7 +1,7 @@
 ---
 title: LongMemory
 created: 2026-10-08
-updated: 2026-10-26
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, temporal, sqlite, self-hosted, mcp]
 readability: 3
@@ -26,7 +26,7 @@ Surfaces include the npm library, a CLI, an HTTP API on port 7331, an MCP server
 ## Status
 
 **Young but shipping, with a strong independent launch record for its size.**
-4,527 stars as of 2026-10-11 (GitHub API), with the repository pushed 2026-10-17, created 2025-10-19, as of 2026-10-18 (GitHub API).
+4,527 stars as of 2026-10-11 (GitHub API), with the repository pushed 2026-10-18, created 2025-10-19, as of 2026-10-29 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=CaviraOSS/LongMemory&type=date&theme=dark&legend=top-left" />
@@ -34,9 +34,10 @@ Surfaces include the npm library, a CLI, an HTTP API on port 7331, an MCP server
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=CaviraOSS/LongMemory&type=date&legend=top-left" />
 </picture>
 
-The Show HN thread (December 2025, as OpenMemory) drew 48 points and 16 comments, and the contributor count stands at 45 by GitHub API pagination as of 2026-10-18 (the README no longer carries a listing).
+The Show HN thread (December 2025, as OpenMemory) drew 48 points and 16 comments, and the contributor count stands at 51 by GitHub API pagination as of 2026-10-29 (the README carries a contributors table again, 37 avatars).
 Its benchmark harness publishes manifests and fails closed on incomplete datasets or embedding fallback, covering LongMemEval, LoCoMo, and BEAM, though the published results are still the project's own runs.
-Two verification gaps carried into this run: the PyPI distribution the README instructs you to install (`longmemory-sdk`) returned 404 again on 2026-10-18 (as on every check since 2026-10-08), and the repository went quiet after September 20 until one community pull request (a project-ingest embeddings fix) merged on 2026-10-17.
+The README has grown well past the released npm train: it now documents multilingual recall (script detection, code switching, transliteration), an `answer_from_evidence` adapter making at most one model call over validated citations, governed assets (Chat Memory, Skills, LLM-Wiki, CodeGraph), a project-memory CLI with skill matching and asset loadouts, an Agent Plugins 1.0 bundle for OpenClaw, plugins and packs for Claude Code, Codex and ChatGPT desktop, Gemini CLI, Cline, Continue, LibreChat, Dify, and Flowise, and deployment targets for DigitalOcean, Vercel, and Windows, while npm stays frozen at 1.3.3 since August 31, so the newest surface ships docs-side, not release-side.
+Two verification gaps carried into this run: the PyPI distribution the README instructs you to install (`longmemory-sdk`) returned 404 again on 2026-10-29 (as on every check since 2026-10-08), and the repository has been quiet since the October 18 push.
 
 ## Strengths
 
@@ -47,8 +48,8 @@ Two verification gaps carried into this run: the PyPI distribution the README in
 
 ## Cautions
 
-- **Young and quiet**: one push in the month to 2026-10-17 (a community embeddings fix), an npm train at 1.3.3, and a core team small enough that bus factor is a fair question.
-- The Python SDK distribution 404'd on both the JSON API and the simple index this run, so the multi-language story is uneven in practice.
+- **Young and quiet**: nothing pushed since 2026-10-18, an npm train frozen at 1.3.3 since August 31, and a core team small enough that bus factor is a fair question; the README's expanding feature list is ahead of any released artifact.
+- The Python SDK distribution 404'd on both the JSON API and the simple index this run (again, 2026-10-29), so the multi-language story is uneven in practice.
 - The rich engine wants operations: embeddings need provider keys, and the server, dashboard, and extension paths add surface the in-process library hides.
 - All published benchmark results are self-run; no independent replication exists yet.
 
@@ -72,6 +73,7 @@ Not for anyone needing a hosted tier, a proven-at-scale engine, or a Python SDK 
 - 2026-10-18 - Rotation re-verification: the push drought ended with a community project-ingest embeddings fix merged 2026-10-17, so the quiet caution was revised; the contributor count moved to 45 by GitHub API after the README dropped its listing; the PyPI SDK 404 re-confirmed through 2026-10-18.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
+- 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repository API and page, README, license, npm, the PyPI simple index, the Show HN thread), no facts reversed; the contributor count moved to 51 by API (the README carries a contributors table again), the README's documented surface grew (multilingual recall, the answer_from_evidence adapter, governed assets, new integrations and deployment targets) while the npm train stays frozen at 1.3.3, the PyPI SDK 404 re-confirmed 2026-10-29, and the quiet record now reads as no push since 2026-10-18.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Qwen Code
 created: 2026-08-24
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, alibaba]
 readability: 3
@@ -35,7 +35,7 @@ The repository shows about 28.5k stars as of 2026-10-15 and was pushed on the da
 </picture>
 
 It launched in July 2025 as a Qwen3-Coder-optimized CLI; the Acknowledgments section records the Gemini CLI v0.8.2 origin and the split from upstream at v0.1.
-The release train stays busy: v0.26.2 (October 27, 2026) is the latest stable, simplifying the managed agent's Web Shell in a breaking change, after v0.26.1 (October 24, 2026) restored per-group session isolation for QQ bot threads and added opt-in daemon token persistence (`qwen daemon start --save-token`), after v0.26.0 (October 21), the first of the 0.26 line, added daemon-side session-targeted skill and extension refresh, runtime-broker session-create warm-up for workspace-isolated bound sessions, and a managed-agent shipping feature, after v0.25.3 (October 19) promoted the October 16 preview and added optional model-generated layouts to Test Failure Explorer with validation and a fixed-view fallback, a collapsible Recent-executions panel with live request and tool timings in the Web Shell trajectory view, and managed sessions from published AgentDefinitions loading static Skills and pinned MCP servers, and v0.25.2 (October 15) added managed-agent mailbox traffic over Session messages and a private extension that imports Vitest 3.2 JSON reports; the train moved on through the v0.26.2 previews to a stable v0.26.2 (October 27, 2026, simplifying the managed agent's Web Shell in a breaking change), with the first v0.26.3 preview and an sdk-typescript-v0.1.24 tag following on October 27, and the default branch pushed 2026-10-28.
+The release train stays busy: v0.26.3 (October 28, 2026) is the latest stable, whose generated UI cards keep inputs and state across navigation and split views with live views after initial calculation and appear only for clients that can render MCP Apps, whose persistent session Workflow mode enables through `--workflow-mode`, `/workflows mode on`, SDK, or ACP with workflow switches reaching the CLI sandbox, and whose tool results shrink to remaining headroom before auto-compaction, after v0.26.2 (October 27, 2026, simplifying the managed agent's Web Shell in a breaking change), after v0.26.1 (October 24, 2026) restored per-group session isolation for QQ bot threads and added opt-in daemon token persistence (`qwen daemon start --save-token`), after v0.26.0 (October 21), the first of the 0.26 line, added daemon-side session-targeted skill and extension refresh, runtime-broker session-create warm-up for workspace-isolated bound sessions, and a managed-agent shipping feature, after v0.25.3 (October 19) promoted the October 16 preview and added optional model-generated layouts to Test Failure Explorer with validation and a fixed-view fallback, a collapsible Recent-executions panel with live request and tool timings in the Web Shell trajectory view, and managed sessions from published AgentDefinitions loading static Skills and pinned MCP servers, and v0.25.2 (October 15) added managed-agent mailbox traffic over Session messages and a private extension that imports Vitest 3.2 JSON reports; the train moved on through the v0.26.2 previews to a stable v0.26.2 (October 27, 2026, simplifying the managed agent's Web Shell in a breaking change), with the first v0.26.3 preview and an sdk-typescript-v0.1.24 tag following on October 27 and v0.26.3 promoted to stable beside an sdk-typescript-v0.1.25 tag on October 28, and the default branch pushed 2026-10-29.
 
 ## Strengths
 
@@ -81,6 +81,7 @@ Not for workflows where model behavior provenance or data residency is tightly g
 - 2026-10-25 - Recorded v0.26.1 as the latest stable (October 24): QQ bot per-group session isolation restored under thread scope, and opt-in daemon token persistence via `qwen daemon start --save-token`.
 - 2026-10-27 - Recorded the train moving on October 26 with the first v0.26.2 preview and the sdk-typescript-v0.1.23 tag, the stable unchanged at v0.26.1, and the push date refreshed to 2026-10-27
 - 2026-10-28 - Recorded the stable channel promoting v0.26.2 (October 27), whose breaking change simplified the managed agent's Web Shell, with the first v0.26.3 preview and the sdk-typescript-v0.1.24 tag following, and refreshed the push date..
+- 2026-10-29 - Recorded v0.26.3 promoted to stable (October 28): generated UI cards that keep inputs and state across navigation and split views for MCP Apps-capable clients, persistent session Workflow mode through --workflow-mode, /workflows, SDK, or ACP, and tool results shrinking to remaining headroom before auto-compaction, with the sdk-typescript-v0.1.25 tag the same day; refreshed the push date to 2026-10-29.
 
 ## See also
 

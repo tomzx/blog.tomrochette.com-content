@@ -1,7 +1,7 @@
 ---
 title: CAMEL
 created: 2026-10-07
-updated: 2026-10-26
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, research, role-playing]
 readability: 3
@@ -22,7 +22,7 @@ This is the fourth member of the 2023 conversational and role-play family this s
 
 ## Status
 
-Active and researched: 17,885 stars, a push on 2026-10-12, and continuous PyPI releases with `camel-ai` at 0.2.90 as of 2026-10-15 (GitHub API, PyPI), on a repository created 2023-03-17.
+Active and researched: 17,885 stars, a push on 2026-10-27, and continuous PyPI releases with `camel-ai` at 0.2.90 as of 2026-10-15 (GitHub API, PyPI), on a repository created 2023-03-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=camel-ai/camel&type=date&theme=dark&legend=top-left" />

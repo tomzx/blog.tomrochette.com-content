@@ -24,7 +24,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Command Code](command-code/index.md) - the ex-Langbase closed harness whose taste-1 model learns your conventions, credit plans from $1 a month built on open models.
 - [Copilot CLI](copilot-cli/index.md) - GitHub's proprietary terminal agent included in every Copilot plan, first-party GitHub.com reach, preview sandboxes, multi-model credits.
 - [Crush](crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
-- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 250.0k stars as of 2026-10-15, MIT, prerelease-only at dsh-v0.2.1-rc.3.
+- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 250.0k stars as of 2026-10-15, MIT, prerelease-only at dsh-v0.2.2-alpha.2.
 - [Exo](exo/index.md) - the MIT self-modification bet, a harness the agent can rewrite at runtime, cheapest measured harness at $1.05 per task.
 - [fx](fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.

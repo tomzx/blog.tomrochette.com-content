@@ -1,7 +1,7 @@
 ---
 title: Gas Town
 created: 2026-08-27
-updated: 2026-10-27
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, multi-agent, git-worktrees, open-source, tmux]
 readability: 3
@@ -33,7 +33,7 @@ As of 2026-10-11: 18,323 stars, 1,686 forks, 507 open issues, created 2025-12-16
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=gastownhall/gastown&type=date&legend=top-left" />
 </picture>
 
-The repo remains public and nominally maintained: dependency-security upkeep has continued past the 2026-10-20 Go build fix, with four advisory-driven dependency bumps and a config fix landing 2026-10-24 and the Dolt dependency pinned and then required at 2.6.0 on 2026-10-25, but no release has shipped since June and nothing suggests a revival.
+The repo remains public and nominally maintained: dependency-security upkeep has continued past the 2026-10-20 Go build fix, with four advisory-driven dependency bumps and a config fix landing 2026-10-24, the Dolt dependency pinned and then required at 2.6.0 on 2026-10-25, and further advisory-driven Go dependency bumps on 2026-10-28, but no release has shipped since June and nothing suggests a revival.
 **Its HN footprint dwarfs every tool in this section: the announcement thread (354 points), Maggie Appleton's field analysis (403 points), the v1.0 post (113 points), and the governance controversy (253 points).**
 That controversy, [issue #3649](https://github.com/gastownhall/gastown/issues/3649), asked whether the town improves itself using agents running on users' LLM credits, and Appleton's account records the texture: entirely vibecoded, thousands of dollars a month in API burn, and a $GAS meme coin the project did not authorize.
 

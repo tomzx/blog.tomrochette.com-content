@@ -1,7 +1,7 @@
 ---
 title: Worktrunk
 created: 2026-08-30
-updated: 2026-10-27
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, git-worktrees, cli, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Dual MIT or Apache-2.0 license, Homebrew, cargo, winget, and Arch (pacman) distr
 
 ## Status
 
-The leading worktree manager of the agent wave: about 9.2k stars, 328 forks, 55 open issues and PRs as of 2026-10-11, created 2025-10-17, more than 5,000 commits on main, a push on 2026-10-27 (GitHub API, as of 2026-10-27), latest release v0.81.0 (2026-10-20), which made foreground hooks interactive (they inherit wt's stdin and can prompt), added `wt merge --branch`, and routed OpenCode 2 worktrees through the plugin, with breaking changes to how hooks receive context.
+The leading worktree manager of the agent wave: about 9.2k stars, 328 forks, 55 open issues and PRs as of 2026-10-11, created 2025-10-17, more than 5,000 commits on main, a push on 2026-10-29 (GitHub API, as of 2026-10-29), latest release v0.81.0 (2026-10-20), which made foreground hooks interactive (they inherit wt's stdin and can prompt), added `wt merge --branch`, and routed OpenCode 2 worktrees through the plugin, with breaking changes to how hooks receive context.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=max-sixty/worktrunk&type=date&theme=dark&legend=top-left" />

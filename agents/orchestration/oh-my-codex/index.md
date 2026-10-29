@@ -1,7 +1,7 @@
 ---
 title: oh-my-codex
 created: 2026-09-27
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, codex, skills, workflows]
 readability: 3
@@ -24,7 +24,7 @@ Notifications route to Discord, Slack, Telegram, or custom webhooks through an O
 
 ## Status
 
-Actively shipped and very popular: about 33,526 stars and 2,541 forks as of 2026-10-13, created 2026-02-02, with v0.21.38 (2026-10-27) the latest release, seven releases in two days after v0.21.11 (2026-10-13) and a daily patch line running on through v0.21.38, after v0.21.29 (2026-10-22) hardened team mailbox isolation further, after v0.21.19 (2026-10-19) added team-scoped mailbox delivery that isolates mailbox messages and recovery by team, and v0.21.10 (2026-10-13) hardened the astra-defaults evaluation infrastructure, fixed TOML configuration merges dropping multi-line `[tui]` arrays, and added npm registry-visibility diagnostics, and v0.21.9 (2026-10-12) added cumulative session token-usage reporting (`omx session usage`), native subagent completion evidence for doctor diagnostics, and an astra-defaults live evaluation collector.
+Actively shipped and very popular: about 33,526 stars and 2,541 forks as of 2026-10-13, created 2026-02-02, with v0.21.39 (2026-10-28, recognizing GPT-6.1 Terra in the known Codex model catalog and fixing canonical state-root publication for detached session leaders) the latest release, seven releases in two days after v0.21.11 (2026-10-13) and a daily patch line running on through v0.21.39, after v0.21.29 (2026-10-22) hardened team mailbox isolation further, after v0.21.19 (2026-10-19) added team-scoped mailbox delivery that isolates mailbox messages and recovery by team, and v0.21.10 (2026-10-13) hardened the astra-defaults evaluation infrastructure, fixed TOML configuration merges dropping multi-line `[tui]` arrays, and added npm registry-visibility diagnostics, and v0.21.9 (2026-10-12) added cumulative session token-usage reporting (`omx session usage`), native subagent completion evidence for doctor diagnostics, and an astra-defaults live evaluation collector.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Yeachan-Heo/oh-my-codex&type=date&theme=dark&legend=top-left" />

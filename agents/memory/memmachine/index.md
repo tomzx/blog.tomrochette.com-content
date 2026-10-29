@@ -1,7 +1,7 @@
 ---
 title: MemMachine
 created: 2026-10-11
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -73,6 +73,7 @@ My disagreeable claim: publishing zero numbers in a benchmark-obsessed category 
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched live (repository API, README, docs, site, PyPI, Hacker News search), no facts changed; both PyPI distributions still 0.4.0, the thin-discussion record unchanged.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
+- 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repository API, README, docs, site, PyPI, Hacker News search), no facts changed; both PyPI distributions still 0.4.0, the thin-discussion record unchanged, and the trusted-teams wall the same logos plus three smaller ones.
 
 ## See also
 

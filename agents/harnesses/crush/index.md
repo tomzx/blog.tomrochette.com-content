@@ -1,7 +1,7 @@
 ---
 title: Crush
 created: 2026-08-22
-updated: 2026-10-24
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, terminal, go]
 readability: 3
@@ -25,7 +25,7 @@ It runs on macOS, Linux, Windows, Android, and the BSDs.
 ## Status
 
 **Active.**
-About 28.6k stars, 2.3k forks, and 4,310 commits as of 2026-10-17, launched July 30, 2025, with v0.98.2 (October 23, 2026) the latest release, a patch that adds the built-in `keanu` theme and OpenRouter sticky-routing headers, re-signs-in every OAuth provider on a rejected credential, and fixes a crash when parallel tool calls finish together, after v0.98.1 (October 9) routed newer Copilot models through the Responses API and v0.98.0 the day before.
+About 28.6k stars and 2.3k forks as of 2026-10-17, and 4,375 commits as of 2026-10-29, launched July 30, 2025, with v0.98.2 (October 23, 2026) the latest release, a patch that adds the built-in `keanu` theme and OpenRouter sticky-routing headers, re-signs-in every OAuth provider on a rejected credential, and fixes a crash when parallel tool calls finish together, after v0.98.1 (October 9) routed newer Copilot models through the Responses API and v0.98.0 the day before.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=charmbracelet/crush&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ Not for license-restricted organizations or communities that relitigate 2025.
 - 2026-10-07 - Added the charmbracelet/crush star history chart to the Status section.
 - 2026-10-17 - Recorded the v0.98.0 and v0.98.1 releases (October 8 and 9, the latter routing newer Copilot models through the Responses API), refreshed the commit count, and re-fetched every cited reference in the rotation pass.
 - 2026-10-24 - Recorded the v0.98.2 release (October 23): the built-in `keanu` theme, OpenRouter app-attribution and sticky-routing headers, OAuth sign-in and credential-refresh fixes, and a crash fix for parallel tool calls finishing together.
+- 2026-10-29 - Rotation re-verification, re-fetching every cited reference (all live) and refreshing the commit count to 4,375, with v0.98.2 still the newest release.
 
 ## See also
 

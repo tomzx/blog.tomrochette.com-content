@@ -1,7 +1,7 @@
 ---
 title: T3 Code
 created: 2026-10-07
-updated: 2026-10-27
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, mobile-client, control-surface]
 readability: 3
@@ -23,7 +23,7 @@ Install is a curl script or brew cask, with nightly releases (v0.0.46-nightly li
 
 ## Status
 
-Active and shipping daily: created 2026-02-08, 27,671 stars in eight months, nightly releases with v0.1.3 (2026-10-27, subagent transcript updates kept off the shell stream, pinned patched package versions, and a documented GitCafe mirror) the newest stable after v0.1.2 (2026-10-22) and v0.1.1 (2026-10-21), with v0.1.0 (2026-10-15) having opened Orchestrator V2's stable line, pushed 2026-10-27, as of 2026-10-27 (GitHub API).
+Active and shipping daily: created 2026-02-08, 27,671 stars in eight months, nightly releases with v0.1.3 (2026-10-27, subagent transcript updates kept off the shell stream, pinned patched package versions, and a documented GitCafe mirror) the newest stable after v0.1.2 (2026-10-22) and v0.1.1 (2026-10-21), with v0.1.0 (2026-10-15) having opened Orchestrator V2's stable line, pushed 2026-10-29, as of 2026-10-29 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=pingdotgg/t3code&type=date&theme=dark&legend=top-left" />

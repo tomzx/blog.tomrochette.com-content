@@ -1,7 +1,7 @@
 ---
 title: Omnara
 created: 2026-08-30
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-control-plane, mobile, self-hosted, yc]
 readability: 3
@@ -27,7 +27,7 @@ It sits in the orchestration layer of this section's taxonomy (control plane and
 
 **Active, well-capitalized by YC standards, and shipping daily.**
 2,917 stars and 237 forks as of 2026-10-15 on a repo created July 9, 2025, with pushes landing within a day of verification (GitHub API).
-The release train runs two product lines recorded 2026-10-28: `omnarad`, the daemon line, at v0.2.13 (2026-10-28, after v0.2.12 on October 27 and v0.2.11 on October 24), and `cluster`, a separate line that reached v0.2.13 alongside it, both lines having moved on from the v0.2.2 tags they shared on 2026-10-10 (GitHub releases), and all postdating the `cli` line's last tag (cli-v1.0.11, 2026-09-12).
+The release train runs two product lines recorded 2026-10-29: `omnarad`, the daemon line, at v0.2.14 (2026-10-29, canonical daemon binaries, after v0.2.13 on October 28 and v0.2.12 on October 27), and `cluster`, a separate line that reached v0.2.13 alongside it, both lines having moved on from the v0.2.2 tags they shared on 2026-10-10 (GitHub releases), and all postdating the `cli` line's last tag (cli-v1.0.11, 2026-09-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=omnara-ai/omnara&type=date&theme=dark&legend=top-left" />

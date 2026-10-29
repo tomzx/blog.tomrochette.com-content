@@ -1,7 +1,7 @@
 ---
 title: Conductor
 created: 2026-08-24
-updated: 2026-10-18
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, macos]
 readability: 3
@@ -27,7 +27,7 @@ Conductor Cloud (July 2026) runs agents in Vercel sandboxes (8-core, 16GB, us-ea
 Active, fast, and well capitalized.
 A $22M Series A from Spark and Matrix closed on 2026-03-30, with YC and founders of Notion and Linear participating; the company claims 10x user growth since January 2026 and engineers at Google, Meta, Amazon, and others using it.
 Release cadence is extreme: 0.90.0 (October 2) ships Conductor for iOS, chat with agents and merge PRs from your phone against cloud workspaces, plus a new video player with frame-by-frame stepping and find-in-chat that now searches agents' thinking, leading 0.89.5 (a GPT-6.1 Sol fix for ChatGPT accounts, faster opens for long chats, and the bundled Codex updated to 0.159.3) at the front of the September 29 wave, following 0.89.3 (fixes for chats stuck in progress and model settings locked on older macOS), 0.89.2 (a GitHub Enterprise Server PR-info fix), 0.89.1 (GPT-6.1 Sol), and 0.89.0 (Sign in with ChatGPT) the same day, and 0.87.6 (Claude Sonnet 5.5) on September 28, 0.87.5 (model search) on September 25, 0.87.3 (GPT-6 Sol and Luna models) on September 22, and 0.87.0, which added search across files and OpenCode 2.0 support, on September 18, with dozens of releases since January 2026.
-The gap closed at thirteen days: 0.91.0 shipped on 2026-10-15, a release the changelog lists as "A (mostly) boring update", so the quiet spell was the schedule's longest gap rather than a stop (changelog, as of 2026-10-18).
+The gap closed at thirteen days: 0.91.0 shipped on 2026-10-15, a release the changelog lists as "A (mostly) boring update", so the quiet spell was the schedule's longest gap rather than a stop (changelog, as of 2026-10-18), and 0.92.0 followed on October 23 with iOS remote control of the Mac's local workspaces (browse and create workspaces, read chats, send messages, pick models, and stop agents from the phone, behind an experimental setting).
 The team behind cmd joined in April 2026.
 
 ## Strengths
@@ -82,6 +82,7 @@ My disagreeable claim: Conductor Cloud, not the local worktree manager, is the r
 - 2026-10-03 - Recorded release 0.90.0 (October 2): Conductor for iOS (chat with agents and merge PRs from your phone against cloud workspaces), a new video player, and find-in-chat that searches agents' thinking; pricing re-verified unchanged.
 - 2026-10-15 - Recorded the release train going quiet: no changelog entry after 0.90.0 (October 2) through 2026-10-15, the schedule's longest gap; pricing re-verified unchanged (Free local, Pro $50, Teams $60, usage-based cloud pricing still planned and uncharged).
 - 2026-10-18 - The gap closed at thirteen days: 0.91.0 shipped October 15, so the quiet spell was the schedule's longest gap, not a stop.
+- 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live; recorded 0.92.0 (October 23, iOS remote control of the Mac's local workspaces), closing the quiet-spell watch.
 
 ## See also
 

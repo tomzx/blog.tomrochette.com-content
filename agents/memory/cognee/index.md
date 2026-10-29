@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -17,13 +17,15 @@ Cognee is Topoteretes' open-source AI memory platform: a pipeline that turns doc
 ## What it is
 
 **An Apache-2.0 Python library plus TypeScript and Rust SDKs, a CLI, an HTTP server, and an MCP integration, all built around one pipeline: data in, knowledge graph plus vector and relational stores out.**
-Multi-user mode is documented, and the vendor lists agentic integrations with Claude Code, Codex, and MCP.
+Multi-user mode is documented, and the vendor lists agentic integrations with Claude Code, Codex, MCP, OpenClaw, and Hermes Agent, plus a skill quickstart.
 Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight model.
 
 ## Status
 
 **Active and fast-moving.**
-About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-10-28 UTC, and v1.6.5 (October 16, 2026) the latest stable release with PyPI in sync at 1.6.5; v1.6.6rc1 (October 23) is in pre-release.
+About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-10-29 UTC, and v1.6.5 (October 16, 2026) the latest stable release with PyPI in sync at 1.6.5; v1.6.6rc1 (October 23) is in pre-release.
+The README now carries a BEAM benchmark table with self-run scores: 0.79 at 100K tokens under fixed hybrid retrieval and 0.67 as an exploratory result at 10M tokens with question-type routing, each with stated methodology, limits, and an acknowledged reproduction gap for the distributed 10M ingestion, which moves the project from comparisons-only to published self-run numbers.
+The same README fronts a Postgres path that runs the whole memory layer on one Postgres instance as a demo feature (the production version is a licensed product).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=topoteretes/cognee&type=date&theme=dark&legend=top-left" />
@@ -92,6 +94,7 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 - 2026-10-16 - Recorded v1.6.4 (October 13): vector-search adapter and Turso database reliability fixes, and removal of an unwanted background pruning task for LanceDB-backed stores; refreshed stars to about 32.4k.
 - 2026-10-19 - Recorded v1.6.5 (October 16): fewer, larger trace-persistence writes, docstrings stored as searchable graph documents, a memify API, and base64 embedding inputs; the repository pushed 2026-10-19.
 - 2026-10-24 - Recorded the v1.6.6rc1 pre-release (October 23): Obsidian, Asana, and OneNote connectors, hardened Drive and Asana sync, and breaking changes around dataset-delete history purging and the run_info metadata structure; v1.6.5 remains the latest stable with PyPI in sync.
+- 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repository, README, v1.6.3 release notes, site, pricing, docs, PyPI, both Show HN threads), pricing unchanged (Free $0, Standard $1.00 per 1M plus $5 per workspace, Enterprise BYOC), and recorded the README's new BEAM self-run benchmark table (0.79 at 100K tokens, 0.67 exploratory at 10M, reproduction gap acknowledged) and the Postgres single-instance demo path; the integration list now includes OpenClaw and Hermes Agent; the push date refreshed to 2026-10-29.
 
 ## See also
 
@@ -105,7 +108,7 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 - https://github.com/topoteretes/cognee - source, Apache-2.0, about 32.0k stars, as of 2026-10-11
 - https://github.com/topoteretes/cognee/releases/tag/v1.6.3 - the v1.6.3 release notes: temporal-search boundaries, ingestion validation, and the four breaking changes
 - https://www.cognee.ai/ - v1 announcement, integration list, Berkeley Xcelerator, 5M+ SDK runs claim
-- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, Enterprise bi-temporal memory listing, re-verified unchanged 2026-10-11 (the $1.00 Standard rate held since the 2026-09-09 cut)
+- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, Enterprise bi-temporal memory listing, re-verified unchanged 2026-10-29 (the $1.00 Standard rate held since the 2026-09-09 cut)
 - https://docs.cognee.ai/ - architecture, multi-user mode, SDK and integration surfaces
 - https://pypi.org/pypi/cognee/json - v1.6.5 released October 16, 2026, in sync with the GitHub tag (re-verified 2026-10-19)
 - https://news.ycombinator.com/item?id=44169594 - Show HN, June 2025, the 9-point thread

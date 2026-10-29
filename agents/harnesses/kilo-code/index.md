@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-10-27
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -24,7 +24,7 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 ## Status
 
 **Active under new ownership.**
-The repository shows about 27.6k stars under MIT as of 2026-10-15, most recently pushed on the day of verification; component tags ship on their own clocks (the newest stable is v7.8.18, published October 26, 2026, which fixed chat-copy selection and focus in VS Code 1.143, exposed hosted cloud sessions through the local Kilo API so editors can read and drive a hosted session without ever handling its provider credentials, and pulled in DOMPurify 3.4.17, vite 7.3.7, and MCP TypeScript SDK 1.32.1 security updates, on top of the v7.8.17 no-notes bump after the v7.8.16 prerelease restricted browser links and MCP OAuth authorization URLs to HTTP(S) and fixed unsafe URL handling on Windows, on top of v7.8.15 (October 19), which made the `browser_open` permission prompt able to remember a choice as an always-allow rule for the current or all origins and listed `browser_open` in Auto-Approve settings, after v7.8.12 routed Kilo Gateway traffic through `ai-gateway.kilo.ai` by default with a `KILO_AI_GATEWAY_URL` override, and the jetbrains component riding its own train at v7.1.12, published October 22, which added project-scoped agent usage aggregation, custom auto routers, and a session host registry with a Kilo Cloud session adapter).
+The repository shows about 27.6k stars under MIT as of 2026-10-15, most recently pushed 2026-10-29 (GitHub API, as of 2026-10-29); component tags ship on their own clocks (the newest stable is v7.8.18, published October 26, 2026, which fixed chat-copy selection and focus in VS Code 1.143, exposed hosted cloud sessions through the local Kilo API so editors can read and drive a hosted session without ever handling its provider credentials, and pulled in DOMPurify 3.4.17, vite 7.3.7, and MCP TypeScript SDK 1.32.1 security updates, on top of the v7.8.17 no-notes bump after the v7.8.16 prerelease restricted browser links and MCP OAuth authorization URLs to HTTP(S) and fixed unsafe URL handling on Windows, on top of v7.8.15 (October 19), which made the `browser_open` permission prompt able to remember a choice as an always-allow rule for the current or all origins and listed `browser_open` in Auto-Approve settings, after v7.8.12 routed Kilo Gateway traffic through `ai-gateway.kilo.ai` by default with a `KILO_AI_GATEWAY_URL` override, and the jetbrains component riding its own train at v7.1.12, published October 22, which added project-scoped agent usage aggregation, custom auto routers, and a session host registry with a Kilo Cloud session adapter).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Kilo-Org/kilocode&type=date&theme=dark&legend=top-left" />

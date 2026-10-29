@@ -1,7 +1,7 @@
 ---
 title: YYLO
 created: 2026-10-21
-updated: 2026-10-26
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflows, git-worktrees, evidence]
 readability: 3
@@ -26,7 +26,7 @@ Eight independently versioned Skills teach agents the procedures for ledger reco
 
 ## Status
 
-Alive, tiny, and version-young: 65 stars and 11 forks as of 2026-10-21, repository created 2026-01-06 with default-branch pushes through 2026-10-17; npm serves `@yylo/cli` 0.2.12 while the GitHub releases page stops at 0.2.1-rc.14, so the train moved to npm, and the CLI pins the Ledger exactly (0.2.9 requires Ledger 0.4.0) (GitHub API, npm, and the Ledger README, as of 2026-10-21).
+Alive, tiny, and version-young: 65 stars and 11 forks as of 2026-10-21, repository created 2026-01-06 with default-branch pushes through 2026-10-28; npm serves `@yylo/cli` 0.2.12 while the GitHub releases page stops at 0.2.1-rc.14, so the train moved to npm, and the CLI pins the Ledger exactly (0.2.9 requires Ledger 0.4.0) (GitHub API, npm, and the Ledger README, as of 2026-10-21).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=yylo-dev/yylo&type=date&theme=dark&legend=top-left" />

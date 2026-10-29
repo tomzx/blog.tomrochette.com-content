@@ -1,7 +1,7 @@
 ---
 title: apowerb
 created: 2026-10-21
-updated: 2026-10-26
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agents, self-hosted, open-core]
 readability: 3
@@ -25,7 +25,7 @@ It is an open core by declaration: the published package is a complete generic s
 
 ## Status
 
-Young and shipping fast: 149 stars and 22 forks as of 2026-10-21, repository created 2026-07-29, default-branch push 2026-10-23, PyPI at 0.2.97 with 141 releases in under three months, three of them on 2026-10-20 alone (GitHub API and PyPI, as of 2026-10-25).
+Young and shipping fast: 149 stars and 22 forks as of 2026-10-21, repository created 2026-07-29, default-branch push 2026-10-28, PyPI at 0.2.97 with 141 releases in under three months, three of them on 2026-10-20 alone (GitHub API and PyPI, as of 2026-10-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=apowerb/apowerb&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: Crystal
 created: 2026-08-24
-updated: 2026-10-18
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, desktop-app]
 readability: 3
@@ -71,6 +71,7 @@ My disagreeable claim: Stravu read the market correctly, because harness CLIs we
 - 2026-08-24 - Created in the Orchestration category seed, kept as a death record for the February 2026 deprecation.
 - 2026-10-07 - Added the stravu/crystal star history chart to the Status section.
 - 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository still public and not GitHub-archived, Nimbalyst's site, both HN threads); no factual drift in the death record.
+- 2026-10-29 - Re-verified in rotation: all cited sources re-fetched and live (deprecation notice, repository, Nimbalyst site, both HN threads); no factual drift in the death record.
 
 ## See also
 

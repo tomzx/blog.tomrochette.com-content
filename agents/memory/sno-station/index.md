@@ -1,7 +1,7 @@
 ---
 title: Sno Station
 created: 2026-10-28
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, cross-harness, encryption, open-source]
 readability: 3
@@ -28,7 +28,7 @@ Three data modes surround that core: Local First uploads no memory text, Agent N
 ## Status
 
 **Young, fast-rising, and entirely self-evidenced.**
-929 stars and 364 forks on a repository created 2026-09-19 (public since 2026-09-18) and pushed 2026-10-24, Apache-2.0, as of 2026-10-28 (GitHub API).
+929 stars and 364 forks on a repository created 2026-09-19 (public since 2026-09-18) and pushed 2026-10-29, Apache-2.0, as of 2026-10-29 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sno-ai/sno-station&type=date&theme=dark&legend=top-left" />
@@ -36,7 +36,8 @@ Three data modes surround that core: Local First uploads no memory text, Agent N
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=sno-ai/sno-station&type=date&legend=top-left" />
 </picture>
 
-Latest release v1.6.0 (2026-10-23) keeps reranking local in every memory mode and makes search return existing results when the local model is still loading.
+The newest published release is v1.7.1 (2026-10-29): a conversation that fails to save survives the failure (OpenClaw keeps it and writes it with the next one), retry loops cap at three tries per failing part, held turns of a project you moved or deleted still save, and leftover half-written files are cleaned at agent start.
+The version line itself is unreliable: the v1.6.0 release this note first recorded on 2026-10-28 (dated 2026-10-23, local reranking in every memory mode, search results returned while the local model loads) no longer exists upstream, as neither a tag nor a release, and GitHub tags now jump from v1.3.5 to v1.7.1, so release history has been deleted or rewritten.
 The what-runs-today table marks the five-harness shared memory, the mailbox, and Self Learning as released and proven end to end on clean machines.
 The published evidence is the project's own: dated screenshots in `docs/evidence` show a quota watch handing a long build to another agent at 2 percent remaining, Self Learning catching a repeated mistake and putting a rule into the live skills by morning, and a next-day check measuring whether its own skill changes helped, with an `evals/` directory (LoCoMo, Memora, r-at-5, and its own bench) behind the memory claims.
 I found no Hacker News thread and no independent writeup through 2026-10-28 searches, so 929 stars in five weeks rest on trending placements and promotional posts, the category's stars-ahead-of-discussion pattern at its youngest.
@@ -51,6 +52,7 @@ I found no Hacker News thread and no independent writeup through 2026-10-28 sear
 ## Cautions
 
 - **Every published result is the project's own run of its own product**: the evidence pages are screenshots, the evals are self-run, and no independent coverage of any kind existed as of 2026-10-28.
+- The release history is editable in practice: a version this note had cited with a release URL vanished from tags and releases within a day, so pin installs to a commit or a downloaded artifact rather than to a version number.
 - The default Agent Native mode uploads the day's sessions to Sno each night for Self Learning, so the "local" workstation has a default outbound path you must turn off in `~/.sno/settings.json`.
 - The free tier is a weekly allowance (memory for about 150 messages, Self Learning from about 20 sessions), and an unlinked computer gets one tenth of it, a funnel toward the sno.ai account.
 - Five-harness adapters on harnesses that move weekly is a maintenance bet, and the vendor's own framing ("not another AI memory tool") means scope may keep pulling toward a full workstation.
@@ -81,6 +83,7 @@ Not for privacy-strict environments that cannot accept the default nightly sessi
 ## Changes
 
 - 2026-10-28 - Created from the 2026-10-28 Awesome-Agent-Memory entrant scan (Sno Station added to the list's Open-Source products section on 2026-10-27), with eight fetched sources and the self-run-evidence-plus-missing-footprint combination recorded as the critical angle.
+- 2026-10-29 - Corrected the release record out of rotation: the cited v1.6.0 release no longer exists upstream as a tag or a release (its reference URL 404s), so the newest published release is now recorded as v1.7.1 (October 29, failed saves kept and written with the next conversation, three-try retry caps, held turns of moved or deleted projects saved, half-written files cleaned at start), the version-history deletion is recorded as its own caution, and the push date refreshed to 2026-10-29.
 
 ## See also
 
@@ -96,6 +99,6 @@ Not for privacy-strict environments that cannot accept the default nightly sessi
 - https://raw.githubusercontent.com/sno-ai/sno-station/main/docs/security.md - the encryption design (SQLCipher v4-compatible, local DEK, 0600 key file) and the stated limits
 - https://www.sno.ai - the product site: positioning, the three modes, company (Sno AI Corporation, California)
 - https://www.sno.ai/en/pricing - the Free, Plus, and Max plans and the weekly allowance mechanics, as of 2026-10-28
-- https://github.com/sno-ai/sno-station/releases/tag/v1.6.0 - the v1.6.0 notes: local reranking in every mode and the model-loading fallback (2026-10-23)
+- https://github.com/sno-ai/sno-station/releases/tag/v1.7.1 - the v1.7.1 notes: failed saves kept and retried under a cap, held turns of moved projects saved, startup cleanup (2026-10-29); the previously cited v1.6.0 release URL now 404s, the version-history deletion recorded in Status
 - https://github.com/sno-ai/sno-station/tree/main/evals - the evals directory (LoCoMo, Memora, r-at-5, sno-memory-bench, rerank runs), all self-run
 - https://hn.algolia.com/api/v1/search?query=%22sno%20station%22&tags=story - the footprint scan finding no thread (2026-10-28), the missing-coverage record

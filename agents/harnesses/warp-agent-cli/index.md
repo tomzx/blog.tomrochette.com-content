@@ -1,7 +1,7 @@
 ---
 title: Warp Agent CLI
 created: 2026-08-30
-updated: 2026-10-21
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, terminal, model-routing]
 readability: 3
@@ -62,7 +62,7 @@ Build starts at $20/month ($18 annual) and now denominates its included usage in
 Max starts at $200/month ($180 annual) with $200 of included agent usage, ten times Build, replacing the 18,000-credit display.
 Business is $45/user/month annual ($50 monthly) with $20 of included usage per seat, SAML SSO, and BYOK.
 Enterprise is custom, adding BYOLLM routing, self-hosted cloud agents, and cross-harness memory (research preview).
-All tiers as of 2026-10-20 (re-verified unchanged against the live pricing page); the dollar-denominated display replaced the credit-count display on the live pricing page.
+All tiers as of 2026-10-29 (re-verified unchanged against the live pricing page); the dollar-denominated display replaced the credit-count display on the live pricing page.
 
 ## Price history
 
@@ -93,6 +93,7 @@ I think the CLI exists to follow developers who fled Warp's AI-heavy terminal fo
 - 2026-10-07 - Added the warpdotdev/warp star history chart to the Status section.
 - 2026-10-08 - Recorded the pricing page's restructure from credit counts to dollar-denominated included usage (Build $20, Max $200, Business $20 per seat, annual rates displayed by default) with monthly prices unchanged, and appended the matching Price history row.
 - 2026-10-21 - Folded the WarpBench field report (September 2, 2026) into the Factories status line as ecosystem evidence: a 30-task replay benchmark on the Warp Agent harness cut Warp's internal factory cost per PR from about $80 to $30, an unreplicated vendor claim third-party coverage flags as still needing outside proof.
+- 2026-10-29 - Rotation re-verification, re-fetching every cited reference (all live) and re-checking the live pricing page unchanged against the 2026-10-20 reading.
 
 ## See also
 
@@ -105,7 +106,7 @@ I think the CLI exists to follow developers who fled Warp's AI-heavy terminal fo
 ## References
 
 - https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent - launch post: scope, model routing, session muxing, cloud agents
-- https://www.warp.dev/pricing - tiers, credits, and enterprise features, re-verified 2026-10-20
+- https://www.warp.dev/pricing - tiers, credits, and enterprise features, re-verified 2026-10-29
 - https://docs.warp.dev/agents/cli - CLI overview and documentation structure
 - https://docs.warp.dev/agents/cli/quickstart.md - install methods, account requirement, self-update behavior
 - https://github.com/warpdotdev/warp - codebase state, AGPL-3.0 license, stars as of 2026-10-11

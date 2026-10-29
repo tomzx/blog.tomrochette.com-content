@@ -1,7 +1,7 @@
 ---
 title: File-based agent memory
 created: 2026-08-24
-updated: 2026-10-26
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, agent-memory, context-engineering]
 readability: 3
@@ -68,11 +68,11 @@ Reach for a memory service only for cross-user or cross-app memory; my disagreea
 - 2026-10-06 - Folded the liao.gg documentation-over-recall essay (373-point HN thread, grounded in aerovato/operator-memory) into Compared to and References as the public counterpart to this note's thesis.
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, no facts changed (agents.md still reports 60k projects, the Claude Code auto-memory limits and Cursor rules behavior unchanged, the essay thread steady at 392 points), and the Operator Memory mention in Compared to repointed at its new note.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live, no facts changed (agents.md still reports 60k open-source projects, the Claude Code auto-memory limits and 4 MiB skip unchanged, the essay thread steady at 392 points, the liao.gg essay fetched via the fetch tool again).
+- 2026-10-29 - Trimmed See also to five items (dropped the OpenCode link) to hold the section's three-to-five range.
 
 ## See also
 
 - [Claude Code](../../harnesses/claude-code/index.md) - the harness with the richest file-memory hierarchy (CLAUDE.md, rules, auto memory)
-- [OpenCode](../../harnesses/opencode/index.md) - a harness that reads AGENTS.md natively
 - [Cursor](../../surfaces/cursor/index.md) - rules files and native AGENTS.md support in an IDE agent
 - [Codex](../../harnesses/codex/index.md) - the harness whose convention became the AGENTS.md standard's beachhead
 - [Mem0](../mem0/index.md) - the hosted counterpoint, and when it is worth paying for

@@ -1,7 +1,7 @@
 ---
 title: goose
 created: 2026-08-24
-updated: 2026-10-24
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, linux-foundation]
 readability: 3
@@ -25,7 +25,7 @@ It talks to 15+ providers (Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure,
 ## Status
 
 **Active and foundation-governed.**
-The repository (moved from Block's org to `aaif-goose/goose`) shows about 55.3k stars as of 2026-10-15, was last pushed on the day of this re-verification, and ships a steady train: v1.54.0 (October 8, 2026), v1.55.0 (October 16, adding a declarative AIgateway provider, W3C trace-context propagation from ACP prompts into MCP tool calls, live OpenAI model metadata with a Responses API preference, and a 225k-token default cap on auto-compaction), and v1.56.0 (October 23, adding automatic thinking-level operation, resumable failed or cancelled delegate subagents with view-only session links, a `GOOSE_MAX_CONCURRENT_SUBAGENTS` cap, OSC 7501 session status reporting, an IO Intelligence provider, and a swap of PCTX code mode for a Boa JavaScript runtime).
+The repository (moved from Block's org to `aaif-goose/goose`) shows about 55.3k stars as of 2026-10-15, was last pushed 2026-10-28 (GitHub API, as of 2026-10-29), and ships a steady train: v1.54.0 (October 8, 2026), v1.55.0 (October 16, adding a declarative AIgateway provider, W3C trace-context propagation from ACP prompts into MCP tool calls, live OpenAI model metadata with a Responses API preference, and a 225k-token default cap on auto-compaction), and v1.56.0 (October 23, adding automatic thinking-level operation, resumable failed or cancelled delegate subagents with view-only session links, a `GOOSE_MAX_CONCURRENT_SUBAGENTS` cap, OSC 7501 session status reporting, an IO Intelligence provider, and a swap of PCTX code mode for a Boa JavaScript runtime), and v1.57.0 (October 28, adding an allowlist that requires HTTPS, validates redirects, and blocks on policy failure, caller-supplied Goose session IDs, OpenRouter variant suffixes like `:free` and `:nitro` resolving to the base model, and desktop, scheduler, voice, and custom-prompt fixes).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aaif-goose/goose&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for teams that want a coding-specialized harness or a single vendor's suppor
 - 2026-10-07 - Added the aaif-goose/goose star history chart to the Status section.
 - 2026-10-17 - Recorded the v1.54.0 and v1.55.0 releases (October 8 and 16), the latter adding a declarative AIgateway provider, ACP-to-MCP trace-context propagation, a Responses API preference, and the 225k auto-compaction cap, and re-fetched every cited reference in the rotation pass.
 - 2026-10-24 - Recorded the v1.56.0 release (October 23): automatic thinking-level operation, resumable delegate subagents with view-only session links, the GOOSE_MAX_CONCURRENT_SUBAGENTS cap, OSC 7501 status reporting, an IO Intelligence provider, and Boa replacing PCTX as the code-mode runtime.
+- 2026-10-29 - Recorded the v1.57.0 release (October 28): an allowlist that requires HTTPS, validates redirects, and blocks on policy failure, caller-supplied Goose session IDs, OpenRouter variant suffixes like `:free` and `:nitro` resolving to the base model, and desktop, scheduler, voice, and custom-prompt fixes; refreshed the push date to 2026-10-28.
 
 ## See also
 

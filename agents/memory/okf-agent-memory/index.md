@@ -1,7 +1,7 @@
 ---
 title: OKF Agent Memory
 created: 2026-10-17
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, agent-memory, okf, git-native, go, mcp]
 readability: 3
@@ -25,7 +25,7 @@ It implements, rather than defines, the format: the normative spec lives in Goog
 ## Status
 
 **Active and growing, admitted this run when its standing re-review trigger fired on both arms.**
-814 stars with the repository pushed 2026-10-27, created 2026-09-05, MIT, as of 2026-10-28 (GitHub API), with v0.7.0 released 2026-10-20 adding OpenSSF-style bundle quality scorecards (a deterministic 0-100 score with letter grades over epistemic maintenance, human stewardship, and conformance integrity) and pre-pull quality gating (`okf pull --min-score` with atomic filesystem rollback); v0.6.2 (2026-10-19) before it fixed hub-sync index bookkeeping collisions and per-bundle IDF distortion in layered BM25 search; and v0.7.1 (2026-10-27) after it resolving show/search scope disagreement with a nearest-first bare-ID fallback (concepts in user or system memory bundles now open from any scope), preserving unknown metadata keys in sources items, and fixing a double-joined relative bundle root in `okf mcp`.
+814 stars with the repository pushed 2026-10-28, created 2026-09-05, MIT, as of 2026-10-29 (GitHub API), with v0.7.0 released 2026-10-20 adding OpenSSF-style bundle quality scorecards (a deterministic 0-100 score with letter grades over epistemic maintenance, human stewardship, and conformance integrity) and pre-pull quality gating (`okf pull --min-score` with atomic filesystem rollback); v0.6.2 (2026-10-19) before it fixed hub-sync index bookkeeping collisions and per-bundle IDF distortion in layered BM25 search; v0.7.1 (2026-10-27) after it resolving show/search scope disagreement with a nearest-first bare-ID fallback (concepts in user or system memory bundles now open from any scope), preserving unknown metadata keys in sources items, and fixing a double-joined relative bundle root in `okf mcp`; and v0.7.2 (2026-10-28) hardening the pull path after a responsible disclosure by Nick Hodulik: remote-derived destination paths in `okf hub pull`, `okf hub sync`, `okf pull`, `okf restore`, and `okf vendor remove` now reject traversal, absolute, hidden-dotfile, and symlink-escaping paths before any write, registry installs extract into a staging directory with atomic rollback, and a symlinked working directory no longer makes legitimate bundle writes read as traversal escapes.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=okf-memory/okf-agent-memory&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ Not for cross-user or cross-app memory (one repo bundle, no multi-user API), and
 - 2026-10-17 - Added the scaccogatto/okf-skills toolkit to the ecosystem caution and references as the OKF format's first delivery-side adoption, routed here from the skills category's entrant scan.
 - 2026-10-24 - Recorded v0.7.0 (October 20): bundle quality scorecards (a deterministic 0-100 score with letter grades over epistemic maintenance, human stewardship, and conformance integrity) and pre-pull quality gating via `--min-score` with atomic rollback.
 - 2026-10-28 - Recorded v0.7.1 (October 27): nearest-first bare-ID fallback across scopes in okf show and okf_show (concepts in user or system bundles now openable), round-trip preservation of unknown metadata keys in sources items, and the relative bundle root fix in okf mcp; the push date refreshed to 2026-10-27.
+- 2026-10-29 - Recorded v0.7.2 (October 28): the pull-path security hardening from Nick Hodulik's responsible disclosure (remote-derived paths rejected for traversal, absolute, hidden-dotfile, and symlink escapes; staged atomic registry installs; the symlinked-CWD false positive fixed); the push date refreshed to 2026-10-28.
 
 ## See also
 

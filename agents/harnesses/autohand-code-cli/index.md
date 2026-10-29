@@ -1,7 +1,7 @@
 ---
 title: Autohand Code CLI
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, typescript, bun, byok, local-models]
 readability: 3
@@ -27,12 +27,12 @@ Auto mode works a task on its own branch in a separate worktree, commits checkpo
 ## Status
 
 **Active, prerelease, and almost without an independent footprint.**
-The repository was created December 12, 2025 and shows 211 stars and 37 forks as of 2026-10-27 (GitHub API), with 3,250 commits and a push on the day of verification; GitHub releases are 0.9.9-alpha hashes (the newest published October 23, 2026) and the npm package `autohand-cli` sits at latest 0.9.8 with the alpha train behind it.
+The repository was created December 12, 2025 and shows 211 stars and 37 forks as of 2026-10-27 (GitHub API), with 3,250 commits and a push on 2026-10-29 (GitHub API, as of 2026-10-29); GitHub releases reached the first stable v0.9.9 tag (published October 27, 2026, adding Ctrl+Enter steering of queued messages into the running conversation, identity-retaining streamed tool-call continuations, and replies that stay visible while reviews, todos, steering, and peer updates continue) after the 0.9.9-alpha hashes, and the npm package `autohand-cli` sits at latest 0.9.9 (published October 27, 2026).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=autohandai/code-cli&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=autohandai/code-cli&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=autohandai/code-cli&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=autohandai/code-cli&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=autohandai/code-cli&type=date&legend=top-left" />
 </picture>
 
 The changelog queues persistent goals as default-on for 0.9.9 and redefines `-c` to mean `--continue` as a breaking change.
@@ -80,6 +80,8 @@ Not for organizations needing an unmodified Apache-2.0 story, and not for anyone
 ## Changes
 
 - 2026-10-27 - Created from the context-engines scanner's handoff (Meirtz list), resolving the entrant with the repository, GitHub API, npm registry, product site, pricing page, commercial license, changelog, and the Hacker News footprint record all fetched in this run.
+- 2026-10-29 - Recorded the first stable v0.9.9 release and npm 0.9.9 (both published October 27, 2026) after the 0.9.9-alpha train: Ctrl+Enter steering of queued messages, identity-retaining streamed tool-call continuations, and replies staying visible while reviews, todos, steering, and peer updates continue; refreshed the push date to 2026-10-29.
+- 2026-10-29 - Corrected the star-history chart markup: the light source and fallback image dropped the dark-theme parameter to match the canonical chart block.
 
 ## See also
 

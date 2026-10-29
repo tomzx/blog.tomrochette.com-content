@@ -1,7 +1,7 @@
 ---
 title: Jean
 created: 2026-10-12
-updated: 2026-10-26
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, worktrees, dev-environment, self-hosted]
 readability: 3
@@ -24,8 +24,8 @@ It comes from coolLabs Solutions Kft., the team behind the 62.9k-star self-hosti
 ## Status
 
 **Active and shipping weekly from an established self-hosting vendor.**
-1,328 stars, 162 forks, 130 open issues, created 2026-01-23, pushed 2026-10-22, latest release v1.0.12 (2026-10-17), as of 2026-10-23 (GitHub API).
-The release train runs roughly weekly through October (v1.0.6 on September 24, v1.0.7 on September 29, v1.0.9 on October 7, v1.0.10 on October 13, v1.0.11 on October 14, and v1.0.12 on October 17).
+1,328 stars, 162 forks, 130 open issues, created 2026-01-23, pushed 2026-10-28, latest release v1.0.13 (2026-10-28, mid-turn steering for running Claude turns through a detached host and automatic continuation after usage-limit resets), as of 2026-10-29 (GitHub API).
+The release train runs roughly weekly through October (v1.0.6 on September 24, v1.0.7 on September 29, v1.0.9 on October 7, v1.0.10 on October 13, v1.0.11 on October 14, v1.0.12 on October 17, and v1.0.13 on October 28).
 I found no Hacker News thread through 2026-10-12 searches, so its early traction rides the Coolify community (jean.build claims a 20,000-plus Discord) rather than independent coverage.
 
 <picture>

@@ -1,7 +1,7 @@
 ---
 title: LobeHub
 created: 2026-09-27
-updated: 2026-10-27
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, source-available, self-hosted]
 readability: 3
@@ -24,7 +24,7 @@ The vendor is LobeHub LLC, which grew the product from the LobeChat project crea
 
 ## Status
 
-Active and shipping fast: the repo shows 83,237 stars, about 16k forks, and a push on 2026-10-27 (GitHub API, as of 2026-10-27).
+Active and shipping fast: the repo shows 83,237 stars, about 16k forks, and a push on 2026-10-29 (GitHub API, as of 2026-10-29).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&theme=dark&legend=top-left" />
