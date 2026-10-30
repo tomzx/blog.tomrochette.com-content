@@ -1,7 +1,7 @@
 ---
 title: Nanocoder
 created: 2026-10-08
-updated: 2026-10-29
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, local-first, community-governance]
 readability: 3
@@ -25,7 +25,7 @@ It is made by the Nano Collective, a self-described home for privacy-first, loca
 ## Status
 
 **Active and healthy for its size, with a footprint that is easy to miss.**
-The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and was pushed on 2026-10-29 (GitHub API, as of 2026-10-29).
+The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and was pushed on 2026-10-30 (GitHub API, as of 2026-10-30).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nano-Collective/nanocoder&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and w
 </picture>
 
 Releases run monthly on the v1.x line: v1.29.0 (July 26, 2026), v1.30.0 (August 26), and v1.31.0 (September 26, which added Anthropic prompt caching, auto titles, retry caps, and `.nanocoderignore`).
-The npm package did 8,343 downloads in the last month (the API window covering September 29 to October 28, as of 2026-10-29).
+The npm package did 7,950 downloads in the month of September 30 to October 29 (as of 2026-10-30, read through a dated-range query).
 The Hacker News footprint is near zero: a 1-point Show HN in August 2025 and a 1-point thread for the VS Code sidebar in July 2026, so its growth is word-of-mouth and search, not launch-thread gravity.
 
 ## Strengths
@@ -47,7 +47,7 @@ The Hacker News footprint is near zero: a 1-point Show HN in August 2025 and a 1
 ## Cautions
 
 - **The repo ships no LICENSE file, and GitHub detects no license, while the npm metadata declares MIT**, so pin your expectations from the package metadata and ask before embedding.
-- Adoption is thin against its surface: 2.5k stars and 8.3k monthly npm downloads means the 30-provider roster and skills system rest on a small user base and its own documentation.
+- Adoption is thin against its surface: 2.5k stars and 8.0k monthly npm downloads means the 30-provider roster and skills system rest on a small user base and its own documentation.
 - No independent evaluation exists; its claims are its docs, and the near-zero discussion footprint means no critical source has stress-tested it yet.
 - The collective depends on volunteer and sponsor capacity (one named sponsor), and its adjacent alpha projects (Roster, Sentinel) share the same maintainers.
 

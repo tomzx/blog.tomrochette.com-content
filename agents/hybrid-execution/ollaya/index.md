@@ -1,7 +1,7 @@
 ---
 title: Ollaya
 created: 2026-10-06
-updated: 2026-10-26
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, local-inference, model-hub]
 readability: 3
@@ -17,14 +17,15 @@ Ollaya is an Apache-2.0 local runtime and model hub, built in the image of Ollam
 ## What it is
 
 One binary (a desktop app, a CLI, and a Docker image) for macOS, Windows, and Linux that exposes `/v1/systemone`, `/v1/decisions`, and `/v1/models` with TypeSafe's request and response formats, so the official TypeSafe Python SDK 0.7.1 runs unchanged against localhost.
-The library spans twenty-nine families as of 2026-10-26: encoder-based ones (laya, largha, nli, gliclass, von, decima, and Liquid AI's d1-omni) that answer in 10 to 20 milliseconds on a CPU, decoder-based ones (winnow, clef, kev, decider, nimble, jeb, jeeves, cygnet, snap, arbiter, Perplexity's pplx-decider, Liquid AI's d1, Knowledgator's gliclass-v4 decoder-KV line, and the vLLM Semantic Router's decision and d3 lines) up to 27B, and Ollaya's own first-party lines (coba, Laya's network on Ettin encoders, and sura, Qwen3.5 decoders, both distilled from pplx-decider:flash).
+The library spans twenty-nine families as of 2026-10-30: encoder-based ones (laya, largha, nli, gliclass, von, decima, and Liquid AI's d1-omni) that answer in 10 to 20 milliseconds on a CPU, decoder-based ones (winnow, clef, kev, decider, nimble, jeb, jeeves, cygnet, snap, arbiter, Perplexity's pplx-decider, Liquid AI's d1, Knowledgator's gliclass-v4 decoder-KV line, and the vLLM Semantic Router's decision and d3 lines) up to 27B, and Ollaya's own first-party lines (coba, Laya's network on Ettin encoders, and sura, Qwen3.5 decoders, both distilled from pplx-decider:flash).
 Weights are pulled from each author's Hugging Face repository pinned to a commit and checked against sha256, never re-hosted.
 It runs on ONNX Runtime over the CPU or an NVIDIA GPU (CUDA 13 or 12, Vulkan), with MLX on Apple silicon for laya and nli, and it is an independent project by Mert Cobanov, not affiliated with Ollama or TypeSafe.
 
 ## Status
 
-**Thirty-three days old, beta, and already the wave's default front door.**
-The repository was created 2026-09-23 and shows 1,313 stars and 79 forks as of 2026-10-15, pushed 2026-10-25.
+**Thirty-seven days old, beta, and already the wave's default front door.**
+The repository was created 2026-09-23 and shows 1,313 stars and 79 forks as of 2026-10-15, pushed 2026-10-30.
+Two more families merged on 2026-10-26, a community jev-style line (Jev-Style-2B-Decision-v3, non-causal block attention plus a verdict readout) and the vLLM Semantic Router's Decision 2.0 as decision2, neither yet served on the site, whose family count still read twenty-nine on the 2026-10-30 re-fetch.
 The release train moved fast after the launch measurements: v0.9.0 (2026-10-02) packaged Cloudflare's Clef and a CPU fallback for GGUF models, v0.10.0 (2026-10-05) added Hugging Face mirror pulls and a DGX Spark CUDA pack, v0.11.0 (2026-10-06) added Decima's three small multilingual models and image reading for Winnow 12B, v0.12.0 (2026-10-06) shipped Vulkan-on-Windows GGUF support, v0.12.1 (2026-10-09) added a new Credence family (a MiCA refinement of Winnow-E4B), and v0.13.0 (2026-10-13) added Liquid AI's d1 family (a 3B LFM2.5-VL decision model with a vision variant and the library's first revenue-threshold license, the LFM Open License v1.0), moved Decima's agent tag to 2.2, added digest-pinned pulls, and fixed the CUDA idle-pause crash that hit ONNX decoder models, at which point the site's family count read twenty-one.
 
 <picture>
@@ -86,6 +87,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 - 2026-10-22 - Volatile re-verification after the 2026-10-22 push: recorded v0.15.0 (2026-10-20, the Largha family, laya:typed-decisions and jeb in the typed-decisions scoreboard, a Libraries section on the TypeSafe page) and v0.16.0 (2026-10-21, AMD ROCm/HIP support on Linux with a ROCm pack in the release assets and install.sh --uninstall); the library now twenty-four families per the site; pushed date refreshed to 2026-10-22.
 - 2026-10-24 - Volatile re-verification after the 2026-10-23/24 pushes: recorded v0.17.0 (2026-10-23, run-output alignment, the linux-amd64 release built on Ubuntu 24.04, parity_llama failing on empty goldens) and the library grown to twenty-six families with Ollaya's first-party lines joining (coba on Ettin encoders and the sura:0.8b/2b Qwen3.5 decoders, both distilled from pplx-decider:flash); pushed date refreshed to 2026-10-24.
 - 2026-10-26 - Volatile re-verification after the 2026-10-25 push and v0.18.0: recorded the d1-omni, gliclass-v4, and d3 families joining (the site's count to twenty-nine), jeeves:9b moved to Jeeves v2 and the decider tags to Mapika's 2026-10-20 update, the MLX phases putting DeBERTa, Qwen3, Decision 1.0, and kev on the Apple GPU, parity smoke tiers K1 through K3, the redesigned site with a desktop-app release build, and the coba technical report's first arXiv draft; pushed date refreshed to 2026-10-25.
+- 2026-10-30 - Volatile re-verification after the 2026-10-26 merges: a community jev-style family (Jev-Style-2B-Decision-v3, non-causal block attention plus a verdict readout) and the vLLM Semantic Router's Decision 2.0 (decision2) joined the repository without yet reaching the site, whose count re-read twenty-nine on the 2026-10-30 fetch, and the README took a new tagline and ring logo; pushed date moved to 2026-10-30.
 
 ## See also
 
@@ -97,9 +99,9 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 
 ## References
 
-- https://ollaya.dev/ - product surface: endpoints, 29 model families, platforms, the Ollama 0.40.6 comparison table, Apache-2.0 licensing (re-fetched 2026-10-26)
-- https://ollaya.dev/search - the library enumeration: 29 families with per-model accuracy, latency, and sizes, including the first-party coba and sura lines and the new d1-omni, gliclass-v4, and d3 families (re-fetched 2026-10-26)
-- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,313 stars as of 2026-10-15, 79 forks, pushed 2026-10-25, releases v0.9.0 through v0.18.0 (GitHub API, as of 2026-10-26)
+- https://ollaya.dev/ - product surface: endpoints, 29 model families, platforms, the Ollama 0.40.6 comparison table, Apache-2.0 licensing (re-fetched 2026-10-30)
+- https://ollaya.dev/search - the library enumeration: 29 families with per-model accuracy, latency, and sizes, including the first-party coba and sura lines and the d1-omni, gliclass-v4, and d3 families (re-fetched 2026-10-30, the count unchanged with the jev-style and decision2 merges not yet served)
+- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,313 stars as of 2026-10-15, 79 forks, pushed 2026-10-30, releases v0.9.0 through v0.18.0 (GitHub API, as of 2026-10-30)
 - https://github.com/ollaya-dev/ollaya/releases - the v0.15.0 (Largha, the typed-decisions scoreboard additions, the Libraries section), v0.16.0 (ROCm/HIP on Linux, the ROCm pack, install.sh --uninstall), and v0.17.0 (run-output alignment, Ubuntu 24.04 build base, parity_llama goldens guard) release notes (fetched 2026-10-24)
 - https://github.com/ollaya-dev/ollaya/releases/tag/v0.18.0 - the v0.18.0 release notes: the d1-omni, gliclass-v4, and d3 families, jeeves:9b on Jeeves v2, the decider tags on Mapika's 2026-10-20 update, the MLX phases (DeBERTa, Qwen3, Decision 1.0, kev), parity smoke tiers K1-K3, the desktop app and site redesign, and the coba report draft (fetched 2026-10-26)
 - https://github.com/ollaya-dev/ollaya/releases/tag/v0.14.0 - the v0.14.0 release notes: fp16 decoder tags, the model lifecycle, and the strands-decider, nimble:9b-v3, and pplx-decider:flash side-by-side against Ollama 0.40.6 (fetched 2026-10-20)

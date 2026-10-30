@@ -1,7 +1,7 @@
 ---
 title: LongHorizon-Harness
 created: 2026-10-13
-updated: 2026-10-24
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, computer-use, long-horizon, meta-harness]
 readability: 3
@@ -26,7 +26,7 @@ The accompanying paper (arXiv 2608.01964, submitted 2026-08-03) formalizes the l
 Published, quiet for two months, then revived: 1,729 stars, 188 forks, and 43 open issues as of 2026-10-13, created 2026-08-04, with v0.1.7 on 2026-08-20 ending in an eight-week commit silence that v0.1.8 (published 2026-10-21) broke, the default branch pushed the same day (GitHub API, as of 2026-10-24).
 The release train ran daily-to-weekly through August (v0.1.4 dashboard, v0.1.5 DeepSeek Harness support, v0.1.6 OpenCode support, v0.1.7 conversational follow-ups), stopped, and resumed on 2026-10-21 with v0.1.8, which fixed approvals after resuming historical runs (a resumed run no longer rejects approvals with HTTP 409, preserving its workspace, run ID, and round ledger), added Markdown-formatted Manager routes, Claude Code MCP isolation, non-UTF-8 CLI and DeepSeek output handling, and a configurable `--final-response-timeout` for slower closing replies.
 Self-reported results: on WeaveBench, Qwen 3.7-Plus through Claude Code moves from 51.8 to 80.7 percent PassRate; Terminal-Bench 2.1 from 69.7 to 77.2 percent with 24 percent fewer tokens; OSWorld 2.0 binary completion from 2.8 to 8.3 percent, with gains carrying to Claude Opus 4.7.
-PyPI downloads run about 1,000 per month as of 2026-10-13, and independent discussion is one 1-point Hacker News story.
+PyPI downloads run 1,048 in the last month as of 2026-10-30, and independent discussion is one 1-point Hacker News story.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AMAP-ML/LongHorizon-Harness&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ Not for production daily driving while the cadence question stays open after the
 
 - 2026-10-13 - Created.
 - 2026-10-24 - Rotation re-verification, re-fetching every cited reference (all live): recorded v0.1.8 (published 2026-10-21) ending the eight-week release silence with resumed-run approval fixes, Markdown Manager routes, Claude Code MCP isolation, and --final-response-timeout, and rewrote the Status, caution, and bottom line that had treated the project as silent.
+- 2026-10-30 - Rotation re-verification, re-fetching every cited reference (all live): v0.1.8 still the newest release with no commits since 2026-10-21, and the pypistats rolling month re-read at 1,048.
 
 ## See also
 
@@ -88,5 +89,5 @@ Not for production daily driving while the cadence question stays open after the
 - https://arxiv.org/abs/2608.01964 - the paper abstract: MEA formalization, headline benchmark numbers, and submission date
 - https://huggingface.co/papers/2608.01964 - the paper full text (served via Hugging Face Daily Papers): the DreamX Team, Alibaba Group affiliation, per-role budgets, and the disclosed root-privilege caveat
 - https://api.github.com/orgs/AMAP-ML - the publishing organization: display name DreamX, 51 public repositories
-- https://pypistats.org/api/packages/lh-harness/recent - the 1,048 downloads in the last month as of 2026-10-13
+- https://pypistats.org/api/packages/lh-harness/recent - the 1,048 downloads in the last month as of 2026-10-30
 - https://hn.algolia.com/api/v1/search?query=%22long-horizon%22%20harness&hitsPerPage=8 - the thin independent-discussion record: one 1-point story, no comment thread

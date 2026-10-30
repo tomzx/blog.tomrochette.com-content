@@ -1,7 +1,7 @@
 ---
 title: Supermemory
 created: 2026-10-04
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, context-engine, open-source]
 readability: 3
@@ -34,6 +34,7 @@ About 31.2k stars as of 2026-10-09 (GitHub API), with the repository pushed 2026
 </picture>
 
 The npm SDK pulled 462,355 downloads in the trailing month (2026-09-19 to 2026-10-18) and the SDK lines moved to a 5.x major in one day: npm at 5.0.2 and PyPI at 5.0.0 (uploaded 2026-10-06, after three release candidates), up from 3.62.0, and the self-host server line published server-v0.0.9 on 2026-10-12.
+Main-branch fixes since (2026-10-28 and 29, pending release) enforce agent and task read permissions in memory-core, expose the dreaming status over MCP, and require finite transport timeouts in the Python SDK.
 The hosted platform claims 1T+ tokens processed per month and tens of millions of end users (vendor figures).
 The community record is thin for the star count: its largest Hacker News story threads sit at 5 points or fewer, and the README's three first-place benchmark claims have not been independently replicated in any source I could verify, though a competing project's preliminary run (below) tested it and published a worse-than-claimed number.
 The homepage now cites one independent academic benchmark: SWE-ContextBench (arXiv 2602.08316, February 2026), whose paper reports Supermemory best overall of four memory-retrieval frameworks on 99 related coding tasks (55.95 percent fail-to-pass, 30.30 percent resolution), a coding-agent context-reuse result rather than a replication of the three memory claims.
@@ -86,6 +87,7 @@ My disagreeable claim: Supermemory's local binary is strategically more interest
 - 2026-10-08 - The pricing page now lists an Enterprise custom tier above Scale (custom metering and billing, SSO, a forward-deployed engineer) and a startup/research program granting Scale free for three months; ladder prices and SM-token rates re-verified unchanged.
 - 2026-10-22 - Recorded the first independent academic benchmark naming Supermemory: SWE-ContextBench (arXiv 2602.08316) reports it best overall of four memory-retrieval frameworks on 99 related coding tasks (55.95 percent fail-to-pass, 30.30 percent resolution), a coding-agent context-reuse result rather than a replication of the three memory claims; the caution now reads one independent datapoint each way, and the README's SMFS product line and expanded plugin list recorded.
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched live with the pricing ladder unchanged (Pro $19, Max $100, Scale $399); the pushes since the last verification are MCP API-key validation via /session, a migration guide naming the Mem0 dashboard it moves users from, and dependency bumps; the npm last-month endpoint returned a stale June-to-July window this run, so the recorded trailing-month figure stands.
+- 2026-10-30 - Recorded the pending-release fixes (October 28-29): memory-core enforcing agent and task read permissions, the dreaming status exposed over MCP, and finite transport timeouts required in the Python SDK.
 
 ## See also
 

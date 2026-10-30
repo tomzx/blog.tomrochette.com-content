@@ -1,7 +1,7 @@
 ---
 title: Operator Memory
 created: 2026-10-17
-updated: 2026-10-27
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, agent-memory, documentation, markdown, context-engineering]
 readability: 3
@@ -71,6 +71,7 @@ Not for teams needing measured retrieval quality (none exists here), enterprise 
 - 2026-10-17 - Created from the coordinator-flagged entrant candidate (surfaced by the 2026-10-16 people-and-publications scan of the liao.gg essay), with nine fetched sources, the no-benchmarks-plus-single-author combination recorded as the critical angle, and the standing rejections consulted before admission.
 - 2026-10-25 - The OpenCode adapter's V2 became the default install with V1 frozen to legacy (helper commit, 2026-10-20); recorded in the adapter list.
 - 2026-10-27 - Recorded the helper@v1.9.0 release (October 27, the first since 1.8.0): the OpenCode V2-default install shipped in a release rather than only on main, with Antigravity harness guides, a benchmark-discussion link in the README, and portable test fixtures.
+- 2026-10-30 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still pushed 2026-10-27, BSD-3-Clause, the helper still at 1.9.0 with twenty npm releases, the essay thread steady at 392 points and 312 comments, the README's partitions, harness table, and comparison links unchanged, the benchmark-exchange issue comment intact).
 
 ## See also
 

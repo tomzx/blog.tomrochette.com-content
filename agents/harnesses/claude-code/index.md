@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
@@ -99,6 +99,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - 2026-10-27 - Recorded the v2.1.311 release (October 26), whose headline fix turns the 1M-context overage stop into an automatic compaction and continue, alongside self-hosted-runner idle-hold flags, subagent MCP connection-race fixes, and a MEMORY.md staleness fix after compaction.
 - 2026-10-28 - Recorded the v2.1.312 release (October 27): gateway OIDC `user_id_claim`, click-to-send for queued messages, a fix for Claude overwriting a large CLAUDE.md or rules file it had only seen the start of, per-directory skills found after a deeper `cd`, and hook concurrency capped at 24 per session.
 - 2026-10-28 - Folded the PostHog agent-factory field report (October 21, 2026) into Status as ecosystem evidence per the field-report ruling: 5x pull requests on 1.5x headcount, 47 complexity-hunter PRs in 30 days, StampHog auto-approving about 30 percent of PRs for about $910 a month, and reverts down from 1.5 to 0.25 percent.
+- 2026-10-30 - Recorded the v2.1.314 release (October 30): `permissions.blockWritesOutsideWorkingDirectories` refusing out-of-working-directory writes in every permission mode, IdP-group-gated gateway upstreams, `guardrail_trace` for Bedrock upstreams, idle compaction in VS Code and Claude Desktop's Code tab, and the fix batch from effort-level retries and Bedrock image compaction to the `.git/index.lock` race.
 
 ## See also
 

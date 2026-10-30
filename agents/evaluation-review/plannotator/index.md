@@ -1,7 +1,7 @@
 ---
 title: Plannotator
 created: 2026-08-30
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Dual Apache-2.0 or MIT, written almost entirely by one developer (1,166 of 1,447
 
 ## Status
 
-Fast and growing: 9,398 stars, 707 forks, 141 open issues and PRs as of 2026-10-13, created 2025-12-28, pushed 2026-10-28, v0.28.35 released 2026-10-28 after v0.28.34 (2026-10-28) and v0.28.33 (2026-10-27).
+Fast and growing: 9,398 stars, 707 forks, 141 open issues and PRs as of 2026-10-13, created 2025-12-28, pushed 2026-10-30, v0.28.38 released 2026-10-29 after v0.28.37 (2026-10-29) and v0.28.36 (2026-10-28).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=backnotprop/plannotator&type=date&theme=dark&legend=top-left" />
@@ -91,6 +91,7 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - 2026-10-26 - Recorded the v0.28.31 release (2026-10-26) and refreshed the activity line.
 - 2026-10-27 - Recorded the v0.28.32 release (2026-10-27) and refreshed the activity line.
 - 2026-10-28 - Recorded the v0.28.33 (2026-10-27) and v0.28.34 and v0.28.35 (both 2026-10-28) releases and refreshed the activity line.
+- 2026-10-30 - Recorded the v0.28.36 (2026-10-28) and v0.28.37 and v0.28.38 (both 2026-10-29) releases and refreshed the activity line.
 
 ## See also
 

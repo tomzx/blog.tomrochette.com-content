@@ -1,7 +1,7 @@
 ---
 title: slop-grader
 created: 2026-10-21
-updated: 2026-10-26
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, jev, decision-models, linting, writing-quality]
 readability: 3
@@ -25,7 +25,7 @@ Five built-in rulesets ship (no-ai-slop, article-scores, tech-docs, and English 
 
 ## Status
 
-New and shipping fast: 35 stars and 2 forks as of 2026-10-21, created 2026-09-20, pushed 2026-10-18, with seventeen GitHub releases in the first month and npm at 0.4.0 (2026-10-18) after fifteen published versions.
+New and shipping fast: 35 stars and 2 forks as of 2026-10-21, created 2026-09-20, pushed 2026-10-29, with eighteen GitHub releases in six weeks and npm at 0.5.0 (2026-10-29, which adds standard-input reading with `-`) after sixteen published versions.
 Adoption is early but measurable: 2,727 npm downloads in the first month, 180 in the week of 2026-10-12 to 2026-10-18.
 **The independent footprint is one Show HN thread (2026-09-21, 3 points, zero comments) and no third-party coverage anywhere, so every performance claim on record comes from the author's own README.**
 
@@ -78,6 +78,7 @@ Not as a validated quality gate yet: one month old, one maintainer, and no indep
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
+- 2026-10-30 - Recorded the v0.5.0 release (2026-10-29, standard-input reading with `-`) and refreshed the activity line.
 
 ## See also
 
@@ -90,7 +91,7 @@ Not as a validated quality gate yet: one month old, one maintainer, and no indep
 
 - https://github.com/lukstei/slop-grader - repository, description, MIT license, stars and dates as of 2026-10-21
 - https://raw.githubusercontent.com/lukstei/slop-grader/main/README.md - the two-step loop, batching and context padding, caching, cost examples, and the built-in rulesets
-- https://raw.githubusercontent.com/lukstei/slop-grader/main/docs/CHANGELOG.md - release history from v0.1.x to v0.4.0
-- https://registry.npmjs.org/@lukstei/slop-grader - package: 0.4.0 (2026-10-18), fifteen published versions
+- https://raw.githubusercontent.com/lukstei/slop-grader/main/docs/CHANGELOG.md - release history from v0.1.x to v0.5.0
+- https://registry.npmjs.org/@lukstei/slop-grader - package: 0.5.0 (2026-10-29), sixteen published versions
 - https://api.npmjs.org/downloads/point/last-month/@lukstei/slop-grader - 2,727 downloads in the first month; the weekly point read 180 for 2026-10-12 to 2026-10-18
 - https://hn.algolia.com/api/v1/search?query=slop-grader&hitsPerPage=5 - the single Show HN thread (2026-09-21, 3 points, zero comments), the thin-footprint evidence

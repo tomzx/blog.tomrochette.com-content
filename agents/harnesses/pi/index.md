@@ -1,7 +1,7 @@
 ---
 title: Pi
 created: 2026-08-30
-updated: 2026-10-24
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, byok, extensibility]
 readability: 3
@@ -22,6 +22,7 @@ Sessions are tree-structured JSONL with in-place branching, compaction, and HTML
 Extensions, skills, prompt templates, and themes are TypeScript, shareable as npm or git packages, and the system prompt is under 1,000 tokens and replaceable.
 Install is npm or a standalone Bun binary; models come from your own API keys or existing subscriptions (Claude, ChatGPT, Copilot) or local llama.cpp servers.
 Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the second-largest contributor; formerly badlogic/pi-mono.
+Since Pi 1.0 the same repository also ships Pi Durable, an experimental durable-harness framework (`@earendil-works/pi-durable`) for long-running agents that survive process death, run many conversations at once, and accept steering from multiple clients, built on the same pi-ai packages with pluggable storage backends.
 
 ## Status
 
@@ -35,6 +36,7 @@ Active and ascending: 115,267 stars, 14,681 forks, 335 open issues and PRs as of
 
 Created 2025-08-09, pushed within a day of verification, releases roughly weekly, reaching v1.0.0 on October 1, 2026, then v1.0.1 (October 3: a Nix flake install, project-level MCP server overrides, MCP OAuth client-ID metadata documents, tool renderers for tools that are not registered yet, and Cloudflare Clef classifiers usable from codemode), v1.0.2 (October 4: sampling parameters configurable per thinking level on OpenAI-compatible APIs), v1.0.3 (October 5: the Azure provider renamed from `azure-openai-responses` to `azure` with Foundry Chat Completions deployments starting at `azure/deepseek-v4-pro`, codemode images saved to files, output files locked to the user), v1.0.4 (October 5: `*` patterns for `--tools` and `--exclude-tools`, a per-run `--no-mcp` flag, and codemode image read-back), and v1.1.0 (October 7: program status reporting over the OSC 7501 terminal sequence, Claude Haiku 5.5 with adaptive thinking, `+name`/`-name` entries that adjust the default tool selection, GPT-6 Luna image classification through the Decisions API, and native llama.cpp decision models), and v1.2.0 (October 12: per-key OpenRouter model lists, so an OpenRouter key lists only the models it may use, with the key's context sizes, output limits, and prices, including regional endpoints set in `models.json`), and v1.3.0 (October 15: a `sessionShareDestination` setting choosing where `/share` uploads land (auto, gist, or radius), cache-preserving thinking-level changes on OpenAI GPT-6, and cache-stable mid-conversation tool additions for Kimi Code over Chat Completions), and v1.4.0 (October 21: image input for classifier models, so codemode `models.classify()` accepts `images` for TypeSafe's Jev and Cloudflare's Clef across the `typesafe`, `cloudflare-workers-ai`, and OpenRouter providers); the v0.99 line (September 29-30) shipped the biggest capability change in the project's history, codemode, tool search, and MCP support as built-in extensions, and v1.0.0 made the TUI fullscreen by default, cut codemode prompt tokens by about 40 percent, and hardened MCP OAuth.
 **The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 35.2k stars as of 2026-10-13, exists precisely because some users want the features Pi refuses to ship.**
+The ports are appearing too: pi_agent_rust, a from-scratch Rust reimplementation advertising zero unsafe code, reached about 1.9k stars as of 2026-10-30, and pz, a security-first Zig rewrite, has sat dormant since April 2026.
 
 ## Strengths
 
@@ -81,6 +83,7 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - 2026-10-13 - Recorded the v1.2.0 release (October 12), which made OpenRouter model lists per-key, so a key lists only the models it may use with its context sizes, output limits, and prices, and refreshed counters.
 - 2026-10-17 - Recorded the v1.3.0 release (October 15), which added a `sessionShareDestination` setting for `/share` uploads (auto, gist, or radius), cache-preserving thinking-level changes on GPT-6, and cache-stable mid-conversation tool additions for Kimi Code over Chat Completions.
 - 2026-10-24 - Recorded the v1.4.0 release (October 21), which added image input for classifier models in codemode `models.classify()` (TypeSafe Jev and Cloudflare Clef across typesafe, cloudflare-workers-ai, and OpenRouter).
+- 2026-10-30 - Rotation re-verification, re-fetching every cited reference (all live): recorded Pi Durable, the experimental durable-harness framework shipped beside Pi 1.0, and the port ecosystem (pi_agent_rust, a Rust reimplementation at about 1.9k stars as of 2026-10-30, and the dormant pz Zig rewrite), with v1.4.0 still the newest release.
 
 ## See also
 
@@ -97,4 +100,6 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - https://pi.dev - positioning, extension model, and the list of features deliberately not built
 - https://mariozechner.at/posts/2025-11-30-pi-coding-agent/ - the author's rationale for the minimal prompt and YOLO default
 - https://news.ycombinator.com/item?id=46844822 - the 421-point thread with pushback on the security posture
+- https://earendil.com/posts/pi-durable/ - the Pi Durable announcement grounding the durable-framework addition
+- https://github.com/Dicklesworthstone/pi_agent_rust - the Rust port, the largest of the reimplementation wave
 - https://github.com/can1357/oh-my-pi - the batteries-included fork at about 35.2k stars, the counterargument in running code

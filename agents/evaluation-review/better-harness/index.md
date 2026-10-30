@@ -1,7 +1,7 @@
 ---
 title: Better Harness
 created: 2026-10-13
-updated: 2026-10-21
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, harness-engineering, workflow-quality]
 readability: 3
@@ -31,7 +31,7 @@ Active, early, and vendor-backed: 2,374 stars, 192 forks, and 12 open issues as 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=QoderAI/better-harness&type=date&legend=top-left" />
 </picture>
 
-**The footprint is the weakness: I found no Hacker News or Reddit thread of its own (searches return only irrelevant comment matches), and the npm train stopped in August while the repository pushes daily, so adoption evidence outside the vendor's own surfaces does not exist yet.**
+**The footprint is the weakness: I found no Hacker News or Reddit thread of its own (searches return only irrelevant comment matches), the npm train stopped in August, and the repository itself went quiet after 2026-10-20 after pushing near-daily through that date, so adoption evidence outside the vendor's own surfaces does not exist yet.**
 The docs are candid about the epistemics, which builds trust: unobserved behavior stays explicit, and only a comparable later result can prove a loop improved.
 
 ## Strengths
@@ -71,6 +71,7 @@ Not for anyone needing an independent referee (the vendor grades its own categor
 - 2026-10-13 - Created.
 - 2026-10-17 - Corrected the npm-line claim: 0.7.0-alpha1 shipped 2026-09-03 after stable 0.6.6, so the line is idle since August at the stable channel, not entirely.
 - 2026-10-21 - Corrected the alpha count again: v0.7.0-alpha2 shipped 2026-09-12 on GitHub only and never reached npm, so the alpha line has two entries and the npm channel one.
+- 2026-10-30 - Rotation re-verification: every cited URL re-fetched and live (the npm package page still 403s to curl, verified through the registry API), npm re-confirmed at 0.6.6 with eleven versions, and the near-daily-push claim corrected, the repository having last pushed 2026-10-20 with no default-branch commit since.
 
 ## See also
 

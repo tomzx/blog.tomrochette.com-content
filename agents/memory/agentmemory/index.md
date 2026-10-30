@@ -1,7 +1,7 @@
 ---
 title: agentmemory
 created: 2026-10-09
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The design doc extends Karpathy's LLM-wiki pattern with confidence scores, lifec
 ## Status
 
 **Large and active, with adoption that outruns its discussion footprint.**
-29,558 stars, 2,607 forks, and 572 open issues and pull requests as of 2026-10-20 (GitHub API), created 2026-02-25, pushed 2026-10-28, as of 2026-10-28 (GitHub API).
+29,558 stars, 2,607 forks, and 572 open issues and pull requests as of 2026-10-20 (GitHub API), created 2026-02-25, pushed 2026-10-29, as of 2026-10-30 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ Not for single-harness users (claude-mem is simpler and battle-tested), privacy-
 - 2026-10-25 - The native plugin surface grew to Oh My Pi (`agentmemory connect omp` installs native recall and capture, offline replay, and the 17 skills), and the README headline now lists it beside pi; the push date refreshed to 2026-10-25.
 - 2026-10-26 - The engine pin moved to iii v0.25.0 on main (upgrade guide published, shipping with the pending v0.9.31), DeepSeek Harness gained a bundled native capture plugin (`connect dsh --with-hooks`), and trailing-month npm downloads refreshed to 35,114 with npm in sync at 0.9.30.
 - 2026-10-27 - Recorded the v0.9.31 release (October 26): the iii v0.25.0 runtime upgrade with Worker Compose and the native Pi, Oh My Pi, and DeepSeek Harness integrations shipped as prepared, plus the prefix-score retrieval fix (strict recall-all@5 65.74 to 84.68 percent in the project's BM25 development evaluation), incremental summarization, and the 500 ms graph-enrichment budget; npm re-verified in sync at 0.9.31.
+- 2026-10-30 - Rotation re-verification: every cited URL re-fetched live, no facts changed (npm still in sync at 0.9.31, the README's benchmark table matching the recorded v0.9.31 figures, the leaderboard still in Cycle 2 with no agentmemory among Cycle 1's leaders, the HN search still finding no dedicated thread); the post-release pushes are a Cline MCP settings-path fix, doctor diagnostics, and viewer docs; the push date refreshed to 2026-10-29.
 
 ## See also
 

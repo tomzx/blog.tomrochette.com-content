@@ -1,7 +1,7 @@
 ---
 title: Valen
 created: 2026-10-13
-updated: 2026-10-27
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, decision-model, open-weights, multimodal]
 readability: 3
@@ -22,7 +22,8 @@ The README reports results on VisualDecisionBench and a game-evaluation set, wit
 
 ## Status
 
-Very young and actively shipping: 777 stars, 85 forks, and 1 open issue as of 2026-10-27, created 2026-09-23, pushed 2026-10-27 (docs-only commits since the 10-26 GGUF qualification), with the weights, datasets, demo, and export builds all public.
+Very young and actively shipping: 777 stars, 85 forks, and 1 open issue as of 2026-10-27, created 2026-09-23, pushed 2026-10-29, with the weights, datasets, demo, and export builds all public.
+The project tagged its first release on 2026-10-28: v0.3.0 adds a CHANGELOG and a release process, records the valen-sdk 0.2.0 (PyPI) and @valen-team/sdk 0.2.0 (npm) publications, and packages the qualified F32/Q8_0 GGUFs behind the Valen-patched llama.cpp and Ollama builds of a pinned gguf-runtime-v0.1.0 download, with video input available from a source build; the README has since moved to valen-sdk 0.3.0 (2026-10-29) and announced a Valen.llm() LLM comparison and a Valen agent skill, and a Jev-ToM community evaluation joined the documentation on 2026-10-27.
 On 2026-10-24 the serving story consolidated into dual inference protocols: the SGLang and vLLM images and plugins expose both `/v1/systemone` and `/v1/decisions` from the same decision head.
 On 2026-10-25 and 10-26 the local-deployment story broadened: refreshed modular ONNX variants for all three sizes with Python (v0.2.0), JavaScript, and C++ SDKs over ONNX Runtime, and qualified F32/Q8_0 GGUFs running on Valen's custom CPU runtime with pinned, verified model downloads, where unmodified llama.cpp and Ollama support is explicitly not claimed.
 On 2026-10-21 the project shipped a documentation site with a web chat and a free hosted decision API requiring no key (api.valen-team.workers.dev, predicate, choice, and score questions; higher quotas by email approval), and on 2026-10-18 it released JevalKit (github.com/Valen-Team/JevalKit, Apache-2.0), an evaluation toolkit for Jev-like decision models with a Hugging Face leaderboard Space.
@@ -80,6 +81,7 @@ Not for production routing without independent evaluation, or for anyone needing
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Volatile re-verification after the 2026-10-25/26 pushes: recorded the refreshed modular ONNX variants per size with Python (v0.2.0), JavaScript, and C++ SDKs over ONNX Runtime (CPU, CUDA, browser WebGPU), and the qualified F32/Q8_0 GGUFs in all three sizes running on Valen's custom CPU runtime with pinned, verified downloads, where unmodified llama.cpp and Ollama support is explicitly not claimed; the export-build strength reworded; the star-history chart's light source corrected (it wrongly carried the dark-theme parameter); pushed date moved to 2026-10-26.
 - 2026-10-27 - Out-of-rotation re-fetch at the drift signal: the Decision Index's 2026-10-26 regeneration (230 configurations) crowd-shifted the three Valen rows one place each at unchanged scores (4B 131st to 132nd, 2B 176th to 177th, 0.8B 193rd to 194th), and the repository's pushed date moved to 2026-10-27 on docs-only commits; forks refreshed to 85; fetched and re-cited.
+- 2026-10-30 - Volatile re-verification after the 2026-10-28/29 pushes: the project tagged its first release, v0.3.0 (2026-10-28, a CHANGELOG and release process, the valen-sdk 0.2.0 PyPI and 0.2.0 npm publications recorded, the qualified GGUFs packaged behind the Valen-patched llama.cpp and Ollama builds of a pinned gguf-runtime-v0.1.0), the README moved to valen-sdk 0.3.0 and announced a Valen.llm() LLM comparison and a Valen agent skill, and a Jev-ToM community evaluation joined the documentation (2026-10-27); pushed date moved to 2026-10-29.
 
 ## See also
 
@@ -91,7 +93,8 @@ Not for production routing without independent evaluation, or for anyone needing
 
 ## References
 
-- https://github.com/Liuziyu77/Valen - repository, Apache-2.0 license, stars, push activity, and the training-and-eval structure as of 2026-10-27 (pushed 2026-10-27 on docs-only commits; README re-fetched 2026-10-27 with its news list)
+- https://github.com/Liuziyu77/Valen - repository, Apache-2.0 license, stars, push activity, and the training-and-eval structure as of 2026-10-30 (pushed 2026-10-29; GitHub API re-fetched 2026-10-30)
+- https://github.com/Liuziyu77/Valen/releases - the v0.3.0 release notes (2026-10-28): the CHANGELOG and release process, the SDK publications, and the pinned gguf-runtime-v0.1.0 packaging (fetched 2026-10-30)
 - https://github.com/Valen-Team/JevalKit - the first-party evaluation toolkit: Apache-2.0, created 2026-10-16, unified model interfaces and prepared evaluation datasets (GitHub API, as of 2026-10-24)
 - https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard - the JevalKit leaderboard Space (fetched 2026-10-24)
 - https://valen-team.github.io/ - the documentation site and web chat, with the free-API and quota statements (fetched 2026-10-24)

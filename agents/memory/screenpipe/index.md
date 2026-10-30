@@ -1,7 +1,7 @@
 ---
 title: Screenpipe
 created: 2026-10-08
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, screen-capture, timeline, mcp, source-available]
 readability: 3
@@ -36,7 +36,7 @@ Pipes are scheduled AI agents defined as markdown files, with YAML frontmatter p
 
 The Hacker News record is the strongest in this category: a 218-point Show HN in September 2024 (125 comments), an 88-point Launch HN with 67 comments as a YC S26 company in July 2026, and a 2024 Ask HN thread questioning the business model.
 The README positions it as the source-available alternative to Limitless, Microsoft Recall, Granola, and Otter.
-The app train keeps moving: app-v2.7.125 (2026-10-26) gates covered local reads and enterprise uploads on current PII-processing receipts when required PII processing is enabled, so capture stays durable while labels are processed but sensitive reads wait for the privacy pass to complete.
+The app train keeps moving: app-v2.7.125 (2026-10-26) gates covered local reads and enterprise uploads on current PII-processing receipts when required PII processing is enabled, so capture stays durable while labels are processed but sensitive reads wait for the privacy pass to complete, and app-v2.7.129 through v2.7.132 (2026-10-28 to 30) repaired upload starvation during retention, recovered interrupted Windows migration retries, and stopped excluded windows from appearing in screenshots, while the AI gateway added no-training Experiential routing that carries the user's current training-consent choice.
 
 ## Strengths
 
@@ -89,6 +89,7 @@ Not for privacy-strict environments, commercial use without a license budget, or
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 - 2026-10-27 - Recorded app-v2.7.125 (October 26): covered local reads and enterprise uploads now wait for current PII-processing receipts when required PII processing is enabled, keeping capture durable while label processing catches up.
+- 2026-10-30 - Recorded the app train to v2.7.132 (October 28-30): upload-starvation repair during retention, interrupted Windows migration retries recovered, excluded windows kept out of screenshots, and no-training Experiential routing that carries the user's training-consent choice.
 
 ## See also
 

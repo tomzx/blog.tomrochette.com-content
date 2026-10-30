@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-10-27
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -35,7 +35,7 @@ The cloud adds cross-device sync, browser and mobile access, and a shared Teams 
 </picture>
 
 The registry-lag record ended: PyPI moved to 0.24.1 on 2026-10-23, in sync with the repository's tagged releases, after two months pinned at 0.23.2.
-An unreleased 1.0 line is accumulating on main (a changelog Unreleased section with a working migration guide, docs/1.0.md, not yet in a published release as of 2026-10-27): the MCP server's tools are replaced one for one by bm_* tools (bm_read, bm_write, bm_search, bm_context, bm_project, bm_schema, and others) with changed arguments and typed error refusals, note and search tools will require an explicit project in multi-project setups, and the line adds bm doctor, a read-only self-test that reports real-project problems with the fixing command, plus a memory-doctor skill that teaches an agent to run it.
+**The 1.0 line shipped as v1.0.0 on 2026-10-29, with PyPI in sync**: the MCP server's tools are replaced one for one by bm_* tools (bm_read, bm_write, bm_edit, bm_move, bm_delete, bm_search, bm_find, bm_list, bm_context, bm_project, bm_project_delete, bm_schema) with changed arguments, shared parameter types, and typed error refusals, note and search tools require an explicit project in multi-project setups, and the line adds bm doctor, a read-only self-test that reports real-project problems with the fixing command, plus a memory-doctor skill that teaches an agent to run it; the release also refuses note creates and updates whose path leaves the project.
 The Hacker News record is a 4-point Show HN in March 2025 (0 comments) and a 2-point third-party story in February 2026, so the 4.1k stars came through the MCP-ecosystem channels (registry listings, Discord) rather than public debate.
 
 ## Strengths
@@ -87,6 +87,7 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the pricing page's schema.org data still lists Local $0, Team $15/seat, Business $30/seat; PyPI still 0.23.2 from 2026-08-25; the repository pushed 2026-10-16 as recorded).
 - 2026-10-24 - Correction: the registry-lag record ended, PyPI moved to 0.24.1 on 2026-10-23 in sync with the repository's v0.24.1 tag, after two months pinned at 0.23.2.
 - 2026-10-27 - Recorded the unreleased 1.0 line accumulating on main: the bm_* MCP tool replacement with typed refusals, explicit project arguments in multi-project setups, and the bm doctor self-test with its memory-doctor skill, published in the changelog's Unreleased section with a working migration guide and not yet in a release.
+- 2026-10-30 - Recorded the v1.0.0 release (October 29, PyPI in sync): the bm_* tool line shipped as prepared, with shared parameter types and refusals for the bm_* tools and a fix refusing note writes whose path leaves the project.
 
 ## See also
 
@@ -101,6 +102,6 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 - https://raw.githubusercontent.com/basicmachines-co/basic-memory/main/README.md - architecture, features, the cloud pricing banner, and the Teams announcement
 - https://basicmemory.com - product site and cloud offering
 - https://basicmemory.com/pricing - the Team, Business, and Agent Infrastructure ladder, re-verified unchanged 2026-10-11
-- https://pypi.org/pypi/basic-memory/json - basic-memory 0.24.1 (2026-10-23), in sync with the tagged releases; the two-month lag at 0.23.2 ended
+- https://pypi.org/pypi/basic-memory/json - basic-memory 1.0.0 (2026-10-29), in sync with the tagged releases; the two-month lag at 0.23.2 ended with 0.24.1 on 2026-10-23
 - https://hn.algolia.com/api/v1/items/43374258 - the March 2025 Show HN (4 points, 0 comments)
 - https://hn.algolia.com/api/v1/items/47091810 - the February 2026 third-party story (2 points), the thin-discussion record

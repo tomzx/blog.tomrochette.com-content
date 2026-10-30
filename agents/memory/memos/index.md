@@ -1,7 +1,7 @@
 ---
 title: MemOS
 created: 2026-10-06
-updated: 2026-10-27
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -35,6 +35,7 @@ The one independent common-framework datapoint: the academic Agent Memory Leader
 </picture>
 
 Latest engine release v2.0.34 (2026-09-23) and local-plugin release v2.0.20 (2026-09-21) per the GitHub releases API; the PyPI package is `MemoryOS` at 2.0.33 (the bare `MemOS` name on PyPI belongs to an unrelated project, arkohut's Pensieve screen recorder).
+Plugin-side main-branch commits (2026-10-29, pending release) adopt SQLite 13 prebuilds and require Node 22, and isolate Windows DLLs while fixing DSH memory issues.
 The benchmark table is the vendor's own: LoCoMo 88.83 and LongMemEval 89.20 via OmniMemEval, the company's self-published evaluation framework spanning 14 commercial memory products.
 The Hacker News footprint is nearly absent: a 2-point story in August 2025, no discussion since.
 
@@ -82,6 +83,7 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 - 2026-10-09 - Added the first independent evaluation record: the academic Agent Memory Leaderboard's Cycle 1 (August 2026) ranks MemOS second among commercial text-memory systems at 45.89, on that framework's scale; refreshed stars to 11,769.
 - 2026-10-22 - Corrected the PyPI reference: MemTensor's package is `MemoryOS` (2.0.33); the bare `MemOS` name on PyPI belongs to arkohut's unrelated Pensieve screen-recorder project, so the previously cited 0.37.0 figure was the wrong package.
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the engine still at v2.0.34 and the local plugin at v2.0.20, PyPI MemoryOS still 2.0.33, the hosted price table unchanged, and the only post-verification pushes are a certifi security pin).
+- 2026-10-30 - Recorded the pending-release plugin commits (2026-10-29): SQLite 13 prebuilds with Node 22 now required (breaking), Windows DLL isolation, and DSH memory-issue fixes.
 
 ## See also
 

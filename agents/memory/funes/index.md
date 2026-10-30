@@ -1,7 +1,7 @@
 ---
 title: Funes
 created: 2026-10-16
-updated: 2026-10-27
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, local-first, mcp, hugging-face]
 readability: 3
@@ -27,6 +27,7 @@ Beyond the four maintained integrations the surfaces are a read-only MCP server 
 **Active, young, and moving fast, with adoption that is still mostly repository stars.**
 569 stars, 51 forks, and 11 open issues and pull requests on a repository created 2026-06-18 and pushed 2026-10-22, Apache-2.0, as of 2026-10-27 (GitHub API).
 The release train runs weekly: v1.7.0 memories compaction (2026-10-07), v1.8.0 multilingual embedder (2026-10-08), v1.9.0 GPU indexing and host binding (2026-10-14), and v1.9.1 (2026-10-20) a small maintenance release on top, with dacorvo holding 873 of the 927 recorded contributions across twelve contributors.
+Main-branch work since v1.9.1 (2026-10-27 and 29, pending release) reports the languages a memory's sessions are written in (counted at index time, carried on push, suggested on misses) and lets recall rerank any pool larger than the hits, with a bench sweep over pool sizes.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=huggingface/funes&type=date&theme=dark&legend=top-left" />
@@ -76,6 +77,7 @@ Not for workflows that need memory surfaced without being asked, for users who n
 - 2026-10-16 - Created from the 2026-10-16 cross-category resolution (the HermesGate small-but-distinct precedent), with twelve fetched sources and the negative self-run A/B results, the deja author's adversarial measurement, and the missing independent coverage recorded as the critical angle.
 - 2026-10-24 - Recorded v1.9.1 (October 20), a small maintenance release on the weekly train (recall now ends with what to try when hits miss, a `--repo` flag, and bind and refresh fixes).
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched live (all twelve reachable), no release after v1.9.1, the repository snapshot refreshed (pushed 2026-10-22, 51 forks, 11 open issues), and the contribution snapshot refreshed to dacorvo's 873 of 927 recorded contributions across twelve contributors.
+- 2026-10-30 - Recorded the pending-release main-branch work since v1.9.1 (October 27 and 29): per-memory language counts surfaced in status, push, and miss lines, and reranking extended to any pool larger than the hits with a bench pool-size sweep.
 
 ## See also
 

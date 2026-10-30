@@ -1,7 +1,7 @@
 ---
 title: Outlines
 created: 2026-08-24
-updated: 2026-10-24
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, structured-outputs, constrained-decoding, open-source, llm=glm-5.3-flash]
 readability: 3
@@ -73,6 +73,7 @@ Not for teams that only ever call OpenAI or Anthropic and never serve their own 
 - 2026-10-07 - Added the dottxt-ai/outlines star history chart to the Status section.
 - 2026-10-17 - Full re-verification: all seven references re-fetched and live; repository unchanged (last pushed 2026-09-21), the pluggable-backends claim (outlines-core, llguidance, xgrammar) re-confirmed in the backends feature doc, and the vLLM backend naming and guided_* removal re-confirmed in its current docs.
 - 2026-10-24 - Full re-verification on rotation: all seven references re-fetched and live, repository unchanged (last pushed 2026-09-21), the backends feature doc re-confirmed naming outlines-core, llguidance, and xgrammar, and the vLLM docs re-confirmed naming xgrammar and guidance; nothing else changed.
+- 2026-10-30 - Rotation re-verification: all seven references re-fetched and live, repository unchanged (last pushed 2026-09-21), and the vLLM docs re-confirmed unchanged (xgrammar and guidance the named backends, the guided_* removal note intact, Outlines mentioned only for Rust-style regex compatibility); nothing else changed.
 
 ## See also
 
@@ -82,10 +83,10 @@ Not for teams that only ever call OpenAI or Anthropic and never serve their own 
 
 ## References
 
-- https://github.com/dottxt-ai/outlines - repo: stars, license, output types, integrations, .txt stewardship (as of 2026-10-15, re-fetched 2026-10-24 unchanged)
-- https://dottxt-ai.github.io/outlines/latest/ - docs: features, pluggable backends, Normal Computing origin, Dottxt API (fetched 200, 2026-10-17; re-fetched 2026-10-24)
-- https://arxiv.org/abs/2307.09702 - the 2023 paper introducing the FSM-vocabulary index behind guided generation (fetched 200, 2026-10-17; re-fetched 2026-10-24)
-- https://docs.vllm.ai/en/latest/features/structured_outputs.html - vLLM backends (xgrammar, guidance) and removal of guided_* fields in v0.12.0 (fetched 200, 2026-10-17; re-fetched 2026-10-24)
-- https://blog.mlc.ai/2024/11/22/achieving-efficient-flexible-portable-structured-generation-with-xgrammar - competitor benchmarks vs Outlines and engine integration history (fetched 200, 2026-10-17; re-fetched 2026-10-24)
-- https://github.com/mlc-ai/xgrammar - adoption timeline and XGrammar-2 release in May 2026 (fetched 200, 2026-10-17; repository re-checked 2026-10-24)
-- https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent context on constrained-output failure modes (looping until max_tokens) (fetched 200, 2026-10-17; re-fetched 2026-10-24)
+- https://github.com/dottxt-ai/outlines - repo: stars, license, output types, integrations, .txt stewardship (as of 2026-10-15; re-fetched 2026-10-30 unchanged)
+- https://dottxt-ai.github.io/outlines/latest/ - docs: features, pluggable backends, Normal Computing origin, Dottxt API (fetched 200, 2026-10-17; re-fetched 2026-10-30)
+- https://arxiv.org/abs/2307.09702 - the 2023 paper introducing the FSM-vocabulary index behind guided generation (fetched 200, 2026-10-17; re-fetched 2026-10-30)
+- https://docs.vllm.ai/en/latest/features/structured_outputs.html - vLLM backends (xgrammar, guidance) and removal of guided_* fields in v0.12.0 (fetched 200, 2026-10-17; re-fetched 2026-10-30)
+- https://blog.mlc.ai/2024/11/22/achieving-efficient-flexible-portable-structured-generation-with-xgrammar - competitor benchmarks vs Outlines and engine integration history (fetched 200, 2026-10-17; re-fetched 2026-10-30)
+- https://github.com/mlc-ai/xgrammar - adoption timeline and XGrammar-2 release in May 2026 (fetched 200, 2026-10-17; repository re-checked 2026-10-30)
+- https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent context on constrained-output failure modes (looping until max_tokens) (fetched 200, 2026-10-17; re-fetched 2026-10-30)

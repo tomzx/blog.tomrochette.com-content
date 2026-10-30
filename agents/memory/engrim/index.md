@@ -1,7 +1,7 @@
 ---
 title: Engrim
 created: 2026-09-10
-updated: 2026-10-26
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, sqlite, local-first]
 readability: 3
@@ -83,6 +83,7 @@ My disagreeable claim: the provenance tracking, not the local-first storage, is 
 - 2026-10-07 - Added the timgordontg/engrim star history chart to the Status section.
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still last pushed 2026-09-26 with no release after v1.4.11, PyPI and the GitHub releases API still at 1.4.11, the Show HN thread steady at 93 points).
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still last pushed 2026-09-26, MIT, with no release after v1.4.11, PyPI still at 1.4.11 with 26 releases, the Show HN thread steady at 93 points).
+- 2026-10-30 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still pushed 2026-09-26, MIT, releases/latest still v1.4.11 from 2026-09-22, PyPI still at 1.4.11 with 26 releases and the MIT classifier, the README's seven-CLI banner and 105-session case study unchanged, the Show HN thread steady at 93 points with 63 comments).
 
 ## See also
 

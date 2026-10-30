@@ -1,7 +1,7 @@
 ---
 title: Avante.nvim
 created: 2026-10-13
-updated: 2026-10-29
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, neovim, editor-agent]
 readability: 3
@@ -22,7 +22,7 @@ Development is active with CI on both Lua and Rust, a Discord community, and rap
 
 ## Status
 
-Established and maintained: 18,183 stars, 858 forks, and 53 open issues as of 2026-10-13, with the default branch pushed 2026-10-29 (GitHub API, re-checked 2026-10-29) and the tagged train at v0.4.8 (October 28), six release-engineering tags (v0.4.3 on October 20, v0.4.4 through v0.4.6 on October 23, and v0.4.7 and v0.4.8 on October 28) whose bodies touch only CI, luarocks packaging, and a lockfile version fix, so the newest feature release remains v0.4.2 (2026-10-19, hours after v0.4.1 the same morning), which added GPT-6 model family support, an ACP session list for listing and resuming agent sessions from `:Avante`, and provider-switcher filters, and dropped out-of-repository templates in a breaking change, plugin installs generally tracking the branch.
+Established and maintained: 18,183 stars, 858 forks, and 53 open issues as of 2026-10-13, with the default branch pushed 2026-10-30 (GitHub API, re-checked 2026-10-30) and the tagged train at v0.4.8 (October 28), six release-engineering tags (v0.4.3 on October 20, v0.4.4 through v0.4.6 on October 23, and v0.4.7 and v0.4.8 on October 28) whose bodies touch only CI, luarocks packaging, and a lockfile version fix, so the newest feature release remains v0.4.2 (2026-10-19, hours after v0.4.1 the same morning), which added GPT-6 model family support, an ACP session list for listing and resuming agent sessions from `:Avante`, and provider-switcher filters, and dropped out-of-repository templates in a breaking change, plugin installs generally tracking the branch.
 **Its adoption is the oldest story in this wave: a 300-point Hacker News launch thread in August 2024, sustained directory and community coverage since, which makes it one of the few editor-extension harnesses with a proven multi-year footprint.**
 The repository moved from the author's personal account to the avante-corp organization, the ordinary sign of a project outgrowing one maintainer.
 

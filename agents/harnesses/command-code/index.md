@@ -1,7 +1,7 @@
 ---
 title: Command Code
 created: 2026-10-05
-updated: 2026-10-25
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-models, personalization, closed-source]
 readability: 3
@@ -25,7 +25,7 @@ The company raised a $5 million seed led by Tom Preston-Werner, with Amjad Masad
 ## Status
 
 **Active and fast-growing in distribution, with an evidence base that is mostly the vendor's own.**
-The npm package's latest build is 1.88.0 (published October 23, 2026, after 1.84.0 on October 16 and the 1.82.3/1.81.0/1.80.0 run earlier that week), the site's changelog counted 431 releases (401 CLI) as of 2026-10-17, and the package did 219,334 downloads in the last month (the API window covering September 13 to October 12, as of 2026-10-17).
+The npm package's latest build is 1.88.2 (published October 29, 2026, after 1.88.0 on October 23 and 1.84.0 on October 16), the site's changelog counted 468 releases as of 2026-10-30, and the package did 157,393 downloads in the month of September 30 to October 29 (as of 2026-10-30, read through a dated-range query; the earlier 219,334 reading covered a different window).
 The `CommandCodeAI/command-code` repository has 4,132 stars as of 2026-10-15 (GitHub API) but hosts issues only: no source, no license, the client is closed.
 
 <picture>
@@ -54,7 +54,7 @@ I treat the install count as the one solid signal and the discussion vacuum as a
 
 ## Pricing
 
-Individual plans as of 2026-10-11 (re-verified unchanged): Go $1/month ($10 of credits, open models), GOAT $10/month ($70 of credits, roughly 50 models including GPT-5.6 Sol), Pro $20/month ($80 of credits, premium models), Max 10x $100/month ($150 of credits), and Max 20x $200/month ($300 of credits), each plus a processing fee.
+Individual plans as of 2026-10-30: Go $1/month ($10 of credits, open models), GOAT $10/month (up to $100 of credits, 29-plus models per the pricing page's FAQ including GPT-5.6 Sol; the credit grant rose from $70), Pro $20/month (up to $110 of credits, premium models; rose from $80), Max 10x $100/month ($150 of credits), and Max 20x $200/month ($300 of credits), each plus a processing fee.
 The Provider plan at $15/month is an OpenAI- and Anthropic-compatible API with zero markup; Teams is $40/month with pooled credits; Enterprise is custom.
 Top-up credits are bought at model cost, roll over, and never expire; free stealth-preview models consume no credits while they last.
 The 1.79.2 changelog entry (October 9) names Claude Haiku 5.5 joining the GOAT plan at the $20 default and Glyph Cluster added as a free model, the first closed Anthropic model the changelog has named on a plan ladder pitched on open models.
@@ -66,6 +66,8 @@ The 1.79.2 changelog entry (October 9) names Claude Haiku 5.5 joining the GOAT p
 | 2026-10-05 | Individual plans | Baseline: Go $1/mo ($10 credits), GOAT $10/mo ($70 credits), Pro $20/mo ($80 credits), Max 10x $100/mo ($150 credits), Max 20x $200/mo ($300 credits), processing fee on each. | [commandcode.ai/pricing](https://commandcode.ai/pricing) |
 | 2026-10-05 | Provider | Baseline: $15/mo API plan, OpenAI- and Anthropic-compatible endpoints, zero markup, rollover top-ups. | [commandcode.ai/pricing](https://commandcode.ai/pricing) |
 | 2026-10-05 | Teams | Baseline: $40/mo with pooled credits and central admin. | [commandcode.ai/pricing](https://commandcode.ai/pricing) |
+| 2026-10-30 | GOAT | Credit grant raised from $70 to up to $100 per month; the plan price is unchanged at $10. | [commandcode.ai/pricing](https://commandcode.ai/pricing) |
+| 2026-10-30 | Pro | Credit grant raised from $80 to up to $110 per month; the plan price is unchanged at $20. | [commandcode.ai/pricing](https://commandcode.ai/pricing) |
 
 ## Compared to
 
@@ -88,6 +90,7 @@ Not for open-client mandates, and not for anyone who needs independent evaluatio
 - 2026-10-13 - Recorded the npm train reaching 1.81.0 (published October 12) after 1.80.0 the same day, and refreshed download and repository counters.
 - 2026-10-17 - Recorded the npm train reaching 1.84.0 (published October 16) after 1.82.3 (October 15), and refreshed download counters.
 - 2026-10-25 - Recorded the npm train reaching 1.88.0 (published October 23) after 1.84.0 (October 16), and pinned the changelog count to its 2026-10-17 reading.
+- 2026-10-30 - Rotation re-verification, re-fetching every cited reference (all live): recorded the npm train reaching 1.88.2 (published October 29) and the changelog counting 468 releases, and recorded the credit-grant raises (GOAT $70 to up to $100, Pro $80 to up to $110) with Price history rows; download window refreshed via a dated-range query.
 
 ## See also
 
@@ -99,10 +102,10 @@ Not for open-client mandates, and not for anyone who needs independent evaluatio
 ## References
 
 - https://commandcode.ai/ - product surface, taste-1 claims, company positioning, and the $5M seed line (fetched 2026-10-05)
-- https://commandcode.ai/pricing - plan ladder, credits, Provider API plan, and Teams pricing, as of 2026-10-11 (re-verified unchanged)
-- https://commandcode.ai/changelog - the release train (431 releases, 401 CLI) and the 1.79.2 entries naming Claude Haiku 5.5 on the GOAT plan and Glyph Cluster as a free model, as of 2026-10-09
-- https://registry.npmjs.org/command-code - latest build 1.84.0 published 2026-10-16, package created 2025-08-07 (verified via the registry API, 2026-10-17)
-- https://api.npmjs.org/downloads/point/last-month/command-code - 219,334 downloads, window September 13 to October 12, as of 2026-10-17
+- https://commandcode.ai/pricing - plan ladder, credits, Provider API plan, and Teams pricing, as of 2026-10-30 (GOAT and Pro credit grants raised)
+- https://commandcode.ai/changelog - the release train (468 releases counted 2026-10-30) and the 1.79.2 entries naming Claude Haiku 5.5 on the GOAT plan and Glyph Cluster as a free model
+- https://registry.npmjs.org/command-code - latest build 1.88.2 published 2026-10-29, package created 2025-08-07 (verified via the registry API, 2026-10-30)
+- https://api.npmjs.org/downloads/point/2026-09-30:2026-10-29/command-code - 157,393 downloads, window September 30 to October 29, as of 2026-10-30 (range query)
 - https://github.com/CommandCodeAI/command-code - issues-only repository, 4,121 stars, no source or license, as of 2026-10-13 (verified via the GitHub API)
 - https://techstackups.com/comparisons/coding-agent-harness-comparison-2026/ - the critical source: closed-source classification, funding details, ex-Langbase history, and the 48-hour launch-issue record (fetched 2026-10-05)
 - https://hn.algolia.com/api/v1/items/48031887 - the May 6, 2026 Show HN, 3 points (verified via the Algolia API)

@@ -1,7 +1,7 @@
 ---
 title: GBrain
 created: 2026-10-07
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, provenance, mcp, personal-knowledge]
 readability: 3
@@ -32,6 +32,7 @@ The README now fronts a hosted service, gbrain.io, a YC-backed team workspace ("
 The release train has continued past the September refresh to v0.60.463.0 (2026-10-26), whose headline is a security fix: a migration (v275) backfills row-level security onto every Postgres table still without it, after the four incremental-derivation tables added in v273 and some older tables could be left RLS-off, which on Supabase with the Data API on made them reachable with the anon key; v0.60.462.0 the same day fixed a fact-extraction write race that silently dropped facts when two notes saved close together named the same entity page.
 Nine further releases landed by v0.60.472.0 (2026-10-27): the notable ones are v0.60.468.0, which requires Bun 1.4.4 or newer to fix a TLS-Postgres connection that grew unbounded until a memory guard killed it (and carries the Brotli fix for CVE-2026-111497), and v0.60.470.0, which closed a hole where any database session could create an empty table named like a purge list and have purged or forgotten content stored again, with the rest covering killed-sync visibility, `--flag=value` handling, a v265 upgrade fix, and a crashed sources refresh no longer wedging the managed checkout.
 v0.60.479.0 (2026-10-28) fixed the upgrade path itself: a brain created before v0.60.412.0 never recorded the old v0.13.1 migration, so upgrading it re-ran that migration, stamped `validate: false` into every page's frontmatter, and changed every content hash, desyncing a repo brain's database from the files in git; the stamp is now recorded as complete and the upgrade changes no page.
+Twenty-six releases followed through v0.60.505.0 (2026-10-30), and the notable cluster is privacy: three releases (v0.60.483.0, v0.60.485.0, v0.60.487.0) close the hole where a page asking for `visibility: private` in a spelling the privacy reader does not parse (capitalization, block scalars, lists) synced or imported world-readable, now held as `visibility_noncanonical` or refused with `visibility_not_applied`; v0.60.486.0 stops a remote agent from rewriting where a page came from and stops provenance removal from raising trust, with a `gbrain repair provenance` command that only lowers trust. Behavior moved too: the brain-first rule now rides every turn in every harness install instead of the system prompt alone (v0.60.495.0, v0.60.498.0, v0.60.505.0, the last also failing an unloadable per-turn hook instead of passing quietly), search supersedes corrected facts (v0.60.493.0, corrections ahead of the retracted fact in 27 of 27 replayed reads), and a budgeted `query` leads with the question's dated saved facts, answering 183 of a sealed 200-question set against 151 without it (v0.60.491.0).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=garrytan/gbrain&type=date&theme=dark&legend=top-left" />
@@ -89,6 +90,7 @@ Not for teams needing supported infrastructure, contractual isolation, or a mult
 - 2026-10-26 - Recorded the train's continuation to v0.60.463.0: the v275 migration backfills row-level security onto every Postgres table, closing the RLS-off exposure the four v273 derivation tables carried on migrations-only upgrades (Supabase anon-key reachability), plus the v0.60.462.0 fact-extraction write-race fix; the authorization caution gains the gap's record.
 - 2026-10-27 - Recorded the train's continuation to v0.60.472.0 (nine releases, October 26-27): the Bun 1.4.4 floor with the TLS-Postgres memory-growth and Brotli CVE fixes (v0.60.468.0) and the purge-guard hole closed, a temporary table no longer able to re-store purged or forgotten content (v0.60.470.0), with the rest covering killed-sync visibility, flag spelling, a v265 upgrade fix, and crashed-refresh recovery.
 - 2026-10-28 - Recorded v0.60.479.0: upgrades of brains created before v0.60.412.0 no longer re-run the v0.13.1 migration, stamp `validate: false` into every page, and re-hash every page (the change that desynced repo brains from git); the stamp is recorded as complete and the upgrade changes no page.
+- 2026-10-30 - Recorded the train's continuation to v0.60.505.0 (twenty-six releases, October 28-30): the privacy cluster that holds or refuses pages asking for `visibility: private` in a spelling the privacy reader does not parse (previously synced world-readable), provenance no longer rewritable by remote agents, the brain-first rule riding every turn in every harness install, search superseding corrected facts (27 of 27 replayed reads), and the dated-saved-facts lead in budgeted queries (183 of 200 sealed questions answered versus 151).
 
 ## See also
 

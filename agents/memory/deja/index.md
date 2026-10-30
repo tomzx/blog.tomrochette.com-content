@@ -1,7 +1,7 @@
 ---
 title: deja
 created: 2026-10-10
-updated: 2026-10-29
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, transcripts, retrieval, mcp, open-source]
 readability: 3
@@ -33,7 +33,7 @@ Beyond search it adds `deja promote` (curated notes with accepted and rejected l
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.23.2 (2026-10-28), the eleventh of the October train (v0.21.4 through v0.23.2).
+Latest release v0.23.3 (2026-10-29), the twelfth of the October train (v0.21.4 through v0.23.3), a small follow-up: `FinalChanges` classifies `*_test.py` files alongside `test_*.py` as tests, so a recalled session's code changes keep library edits ahead of test edits, and scratch `*_test.py` files written outside a test directory are left out.
 v0.23.1 halves the cold-build peak again (4.7 GB instead of 9.4 GB on a 40,000-session store), cuts redaction CPU 17x with the same output, and fixes a quadratic slowdown a search over many look-alike sessions hit; it adds MiniMax Code as the forty-third wired harness, project aliases in `~/.config/deja/projects` that name a directory tree as one project so every checkout and worktree under it shares one scope, and `deja search --sort date`.
 v0.23.0 makes big stores cheap to keep current: an update pass appends the records of rewritten sessions instead of rewriting the whole log and reads only what changed, cutting a 20-transcript update from 24 seconds to 1.7 and peak memory from 7 GB to under 1 GB on a 40,000-session store, and a common-word search answers in about a second instead of 24; it treats sub-agents as sessions of their own in every reader that marks one, forks no longer take credit for what they copied, and recalled history can no longer run a command in opencode or end a dsh turn, with the index rebuilt once on upgrade and `DEJA_NO_AUTO_INDEX` plus `DEJA_SEARCH_ONLY` for busy machines.
 v0.22.1 makes session playback show the code each edit changed, line by line, for Claude Code, Codex, and every harness whose transcript holds its edit calls, adds `deja resume <id> --app` to open a Codex session in the ChatGPT desktop app, cuts session start to 0.38 seconds and the per-prompt hook to 0.59 seconds on a 19,000-session index (from 1.46 and 1.65), masks secrets that slipped past redaction, and moves the index version to 70, so the store rebuilds once on the first run after upgrading.
@@ -82,6 +82,7 @@ Not for teams needing multi-user memory, audited third-party evaluation, or reca
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 - 2026-10-28 - Recorded the unreleased post-v0.23.1 main-branch train (about fifteen commits, 2026-10-27 and 28): recall injection gated to prompts that name something the history holds, answers served from the previous index during rebuilds, late MCP recall answers handed to the next tool call, three 0.23.1 regressions fixed via a real-store replay, default source locations for four more parsers, and the configurable MCP deadline; the push date refreshed to 2026-10-28.
 - 2026-10-29 - The tracked train shipped as v0.23.2 (October 28), with additions: recall twice as fast and the index a third smaller on a 19,000-session store (MCP recall p50 170 to 85 ms, index 277 to 185 MB, LongMemEval-S 88.1 to 88.9), receipts provenance labeling (who wrote each line, the command or edit behind a model conclusion, instructions no person typed cut), recalled rules demoted to untrusted reference data, subagent recall injection stopped after a 60-day zero-use measurement, Qwen Code's External Context MCP profile, a Cursor marketplace plugin, and DEJA_RECALL_GLOBAL.
+- 2026-10-30 - Recorded v0.23.3 (October 29): test-file classification in FinalChanges, so library edits sort ahead of `*_test.py` edits in recalled code changes and scratch test files outside a test directory are excluded.
 
 ## See also
 

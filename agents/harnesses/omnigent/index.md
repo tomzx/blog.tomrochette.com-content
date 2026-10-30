@@ -1,7 +1,7 @@
 ---
 title: Omnigent
 created: 2026-10-06
-updated: 2026-10-29
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, meta-harness, orchestration, policies, sandboxing]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, Python 3.12+, installed via installer, uv, pip, or Homebrew; built b
 ## Status
 
 **Active, well-resourced, and young, with traction that far outruns its independent discussion.**
-10,817 stars and 1,753 forks as of 2026-10-15 (repository created 2026-06-11), the v0.20.0 release published 2026-10-28 (a pull-request surface in the Pull Requests tab that merges or turns off auto-merge, edits title and description, manages labels and reviewers, and posts comments without leaving the tab), and the default branch was pushed 2026-10-29 (GitHub API, as of 2026-10-29), after 40+ releases that include v0.19.1 (October 21, a dependency bump mitigating the eMudhra Intermediate CA compromise) and v0.19.0 (October 20, an MCP registry and gateway with managed MCP accounts connected in Settings and tools picked for local hosts or sandboxes through a server gateway carrying shared policy checks).
+10,817 stars and 1,753 forks as of 2026-10-15 (repository created 2026-06-11), the v0.20.0 release published 2026-10-28 (a pull-request surface in the Pull Requests tab that merges or turns off auto-merge, edits title and description, manages labels and reviewers, and posts comments without leaving the tab), and the default branch was pushed 2026-10-30 (GitHub API, as of 2026-10-30), after 40+ releases that include v0.19.1 (October 21, a dependency bump mitigating the eMudhra Intermediate CA compromise) and v0.19.0 (October 20, an MCP registry and gateway with managed MCP accounts connected in Settings and tools picked for local hosts or sandboxes through a server gateway carrying shared policy checks).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=omnigent-ai/omnigent&type=date&theme=dark&legend=top-left" />

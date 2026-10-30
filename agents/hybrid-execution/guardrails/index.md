@@ -1,7 +1,7 @@
 ---
 title: Guardrails
 created: 2026-10-13
-updated: 2026-10-27
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, structured-outputs, validation, guardrails, python]
 readability: 3
@@ -23,7 +23,7 @@ It is made by Guardrails AI, the San Francisco company founded by Shreya Rajpal 
 
 ## Status
 
-Active but in transition: 7,524 stars, pushed 2026-10-27 (branch activity; the default branch's newest commit is still the August hub-retirement merge), release v0.11.0 (2026-08-14) the latest on a train that ran v0.9.x through v0.11.0 across 2026, and 101,253 PyPI downloads of the core package in the last month as of 2026-10-13 (GitHub and PyPI APIs, as of 2026-10-27; the vendor's own claim of 250,000-plus monthly downloads counts the separate validator packages too).
+Active but in transition: 7,524 stars, pushed 2026-10-29 (branch activity; the default branch's newest commit is still the August hub-retirement merge), release v0.11.0 (2026-08-14) the latest on a train that ran v0.9.x through v0.11.0 across 2026, and 101,253 PyPI downloads of the core package in the last month as of 2026-10-13 (GitHub and PyPI APIs, as of 2026-10-30; the vendor's own claim of 250,000-plus monthly downloads counts the separate validator packages too).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=guardrails-ai/guardrails&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ The disagreeable claim I will defend: the validator-hub kind is the most durable
 - 2026-10-13 - Created from the cross-category candidate resolution, admitted as the validate-and-retry family's validator-hub kind, with the July 2026 hub-to-PyPI migration, the August hosted-inference cutoff, and the September Harvey acquisition recorded as the governing cautions.
 - 2026-10-18 - Rotation re-verification: every cited URL re-fetched and holding (hub, docs, LiteLLM guide, sunset issue 1560, the Harvey announcement, Snowglobe, the TechCrunch story, and the Algolia footprint with its 15-point and 2-point hits), the docs llms.txt pointer still 404s, PyPI holds 0.11.0 and 101,253 last-month downloads, the release train still tops out at v0.11.0 (2026-08-14), and no default-branch commit has landed since 2026-10-12.
 - 2026-10-25 - Rotation re-verification, every cited URL re-fetched and holding (README, hub, docs, the LiteLLM guide, sunset issue 1560 still open, the Harvey announcement, Snowglobe now redirecting to guardrailsai.com/snowglobe, the TechCrunch story via the Algolia footprint at its 15 and 2 points), PyPI holding 0.11.0 and 101,253 last-month downloads, the release train still topping out at v0.11.0 (2026-08-14), the default branch's newest commit still the August hub-retirement merge, and the pushed date moved to 2026-10-25 on branch activity.
+- 2026-10-30 - Volatile re-verification after the pushed-date move to 2026-10-29: the release train still tops out at v0.11.0 (2026-08-14) and no default-branch commit has landed since the August hub-retirement merge, so the push is branch activity; pushed date and as-of figures moved to 2026-10-29 and 2026-10-30.
 
 ## See also
 
@@ -80,7 +81,7 @@ The disagreeable claim I will defend: the validator-hub kind is the most durable
 
 ## References
 
-- https://github.com/guardrails-ai/guardrails - repository: Apache-2.0, created 2023-01-29, 7,524 stars, pushed 2026-10-27, branch activity with the default branch's newest commit still the August hub-retirement merge (GitHub API, as of 2026-10-27)
+- https://github.com/guardrails-ai/guardrails - repository: Apache-2.0, created 2023-01-29, 7,524 stars, pushed 2026-10-29, branch activity with the default branch's newest commit still the August hub-retirement merge (GitHub API, as of 2026-10-30)
 - https://raw.githubusercontent.com/guardrails-ai/guardrails/main/README.md - the two functions, Guard and OnFailAction composition, the for_pydantic generation path, the Guardrails Server, and the July 2026 migration notice
 - https://guardrailsai.com/hub - the Guardrails Hub: 65 validators with risk categories and infrastructure requirements (fetched 2026-10-13)
 - https://www.guardrailsai.com/docs - the documentation introduction: the Input/Output Guards and structured-data functions

@@ -1,7 +1,7 @@
 ---
 title: memU
 created: 2026-10-06
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, file-based, skills]
 readability: 3
@@ -39,6 +39,7 @@ The Hacker News record is two threads: an 11-point Show HN in January 2026 (4 co
 Development is active, with the README's host matrix and skill-extraction flow revised against current releases.
 The same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and Graphify.
 Two retrieval fixes landed on 2026-10-28 pending release: memory hits are returned self-contained, and host memory queries are capped at five hits.
+A further pending commit (2026-10-29) lets retrieval configure backend-specific score cutoffs.
 
 ## Strengths
 
@@ -87,6 +88,7 @@ Not for teams needing multi-user memory APIs, contractual hosting terms, or any 
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live (repository, README, product site, install skill, hosted key surface, PyPI, both HN threads); no release after memu-cli 0.10.0 and both threads unchanged, and the README's host matrix grew Cola and pi adapters plus a generic `memu-agent` JSONL-dialect detector, recorded in What it is; the push date refreshed to 2026-10-26.
 - 2026-10-27 - Recorded the dedicated Codex adapter: a `memu-codex` binary (commit #753, 2026-10-27) that mines `~/.codex/sessions/**/*.jsonl` and patches `~/.codex/AGENTS.md`, with prompt retrieval and background memorization integrated.
 - 2026-10-28 - Recorded the pending-release retrieval fixes (2026-10-28): memory hits returned self-contained and host memory queries capped at five hits; the push date refreshed to 2026-10-28.
+- 2026-10-30 - Recorded the further pending retrieval commit (2026-10-29): backend-specific score cutoffs.
 
 ## See also
 
