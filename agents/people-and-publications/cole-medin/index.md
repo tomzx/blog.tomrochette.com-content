@@ -1,7 +1,7 @@
 ---
 title: Cole Medin
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, video, agentic-engineering, tutorials]
 readability: 3
@@ -17,14 +17,14 @@ Cole Medin is the AI-agent educator behind YouTube's largest build-your-own-agen
 ## What it is
 
 A YouTube channel (youtube.com/@colemedin, about 228,000 subscribers as of 2026-10-15) plus a pair of open-source repositories, run by a developer who teaches AI-agent building through code-along builds.
-The breakout is [Archon](https://github.com/coleam00/Archon), introduced on 2025-03-03 as "an AI agent that builds AI agents" and iterated in public ever since; the [orchestration category's note](../../orchestration/archon/index.md) records its product reality as a YAML workflow runner over Claude Code, Codex SDK, and local-model harnesses.
+The breakout is [Archon](https://github.com/coleam00/Archon), introduced on 2025-03-03 as "an AI agent that builds AI agents" and iterated in public ever since, now billing itself as "the first open-source harness builder for AI coding"; the [orchestration category's note](../../orchestration/archon/index.md) records its product reality as a YAML workflow runner over Claude Code, Codex SDK, and local-model harnesses.
 The companion [ottomator-agents](https://github.com/coleam00/ottomator-agents) repository collects his reference agent implementations.
 His stated upload schedule is at least weekly, Wednesdays on the channel description, and the archive shows 325 videos.
 
 ## Status
 
 Active at high cadence as of 2026-10-15.
-The Archon repository shows 23,687 stars under the MIT license with a push dated 2026-10-15, so the tool side is under daily development.
+The Archon repository shows 23,687 stars under the MIT license (as of 2026-10-15) and its README reports Archon runs built 363 of the 524 pull requests merged into the repository between October 1 and 19, 2026, so the tool side is under daily development (repo fetched 2026-10-29).
 The channel is his publication of record: there is no blog or newsletter, and his written record lives in repository documentation and video descriptions.
 His agent-domain breakout, the Archon build-in-public series, first surfaced in March 2025, inside this section's coverage window, which is why he qualifies as a new voice rather than an established one pivoting in.
 
@@ -69,6 +69,7 @@ Not for anyone evaluating harnesses or model choices, where his register is tuto
 ## Changes
 
 - 2026-10-15 - Created as the video band's tool-shipping tutorial slot, admitted on the in-window Archon breakout (March 2025) with all cited URLs fetched this run.
+- 2026-10-29 - Rotation re-verification, every cited URL re-fetched and live: Archon's README now bills the project as "the first open-source harness builder for AI coding" and reports Archon runs built 363 of the 524 pull requests merged into the repository between October 1 and 19, 2026; the channel surface still returns only a JavaScript shell, so the subscriber and video-count as-of dates hold, and ottomator-agents remains a November 2025 snapshot.
 
 ## See also
 

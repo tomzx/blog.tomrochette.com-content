@@ -1,7 +1,7 @@
 ---
 title: Hamel Husain
 created: 2026-08-29
-updated: 2026-10-18
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, evals, applied-ai, llm-practitioner]
 readability: 3
@@ -22,9 +22,9 @@ The [A Field Guide to Rapidly Improving AI Products](https://hamel.dev/blog/post
 
 ## Status
 
-Active and influential as of 2026-10-15.
-The blog posts through early October, most recently "Claude's new auto eval tool" (2026-09-30), his review of Anthropic's first-party eval plugin for Claude Code (the claude-api plugin's build_eval and hill-climb commands), where he names what the tool gets wrong, starting an eval before looking at data and asking you to validate judgments without enough context, ahead of "AI Evals: Everything You Need to Know" (2026-09-18), "AI Product Engineering Notes" (2026-08-12), and "Do Automated Evals Work?" (2026-07-11).
-He co-teaches the [AI Evals for Engineers and PMs](https://maven.com/parlance-labs/evals) course with Shreya Shankar, reporting over 5,000 engineers and PMs from teams like OpenAI, Google, Meta, Amazon, and Microsoft as of 2026-10-15, with the Oct 10 cohort (the last of 2026, running to Nov 21) still advertised at 25% off and an enroll-by deadline of Oct 24.
+Active and influential as of 2026-10-29.
+The blog posts through late October, most recently "How To Use Decision Models for Evals" (2026-10-20), ahead of "Claude's new auto eval tool" (2026-09-30), his review of Anthropic's first-party eval plugin for Claude Code (the claude-api plugin's build_eval and hill-climb commands), where he names what the tool gets wrong, starting an eval before looking at data and asking you to validate judgments without enough context, and ahead of "AI Evals: Everything You Need to Know" (2026-09-18), "AI Product Engineering Notes" (2026-08-12), and "Do Automated Evals Work?" (2026-07-11).
+He co-teaches the [AI Evals for Engineers and PMs](https://maven.com/parlance-labs/evals) course with Shreya Shankar, reporting over 5,000 engineers and PMs from teams like OpenAI, Google, Meta, Amazon, and Microsoft as of 2026-10-29, with the next cohort advertised for January 30 (the Oct 10 cohort, the last of 2026, has closed its enrollment window).
 He is co-author of the forthcoming O'Reilly book [Evals for AI Engineers](https://www.oreilly.com/library/view/evals-for-ai/9798341660717/).
 
 ## Strengths
@@ -80,6 +80,7 @@ Not for someone looking for survey-level breadth or for a tool recommendation; i
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-10-02 - New post "Claude's new auto eval tool" (2026-09-30) now leads the blog, his review of Anthropic's first-party Claude Code eval plugin; added to References.
 - 2026-10-18 - Rotation re-verification: the course enrollment deadline moved from Oct 17 to Oct 24 (per his site banner and the Maven page fetched this run); price unchanged at $4,200 and the Oct 10 cohort remains the last of 2026.
+- 2026-10-29 - Newest post moved to "How To Use Decision Models for Evals" (2026-10-20) and the course banner now advertises the next cohort for January 30 (his site fetched this run); price unchanged at $4,200.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Chip Huyen
 created: 2026-08-29
-updated: 2026-10-17
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, ai-engineering, systems, llm]
 readability: 3
@@ -21,7 +21,7 @@ A personal site, blog, newsletter, and a pair of O'Reilly books by Chip Huyen, a
 
 ## Status
 
-Active and highly visible as of 2026-10-17.
+Active and highly visible as of 2026-10-29.
 Her own site states "AI Engineering" was the most read book on the O'Reilly platform in 2025 and has been the most read since its release.
 Her site lists Chinese, French, Japanese, Korean, Polish, and Russian translations in progress, and the book repo lists published editions in thirteen languages, adding Vietnamese, Spanish, Italian, German, Portuguese, Thai, and both Chinese scripts, with Greek, Ukrainian, and Uzbek announced.
 Her prior book "Designing Machine Learning Systems" (2022) is an Amazon #1 bestseller in AI.
@@ -69,6 +69,7 @@ Not for the practitioner who wants current, hands-on tool walkthroughs.
 - 2026-08-29 - Created as the systems-survey note on the most-read O'Reilly AI book of 2025.
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-10-17 - Rotation re-verification, every cited URL re-fetched: the O'Reilly page began returning 403 to automated fetches, so its reference now points at the 2026-06-20 Internet Archive snapshot, and the Status translation line was expanded to the book repo's thirteen published languages plus the three announced ones.
+- 2026-10-29 - Rotation re-verification, every cited URL re-fetched and live (site, books page, book repo, Amazon listing, and the O'Reilly archive snapshot): no claim moved; the translation list still reads thirteen published languages with Greek, Ukrainian, and Uzbek announced, and the repo's star figure keeps its dated baseline.
 
 ## See also
 

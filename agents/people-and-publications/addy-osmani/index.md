@@ -1,7 +1,7 @@
 ---
 title: Addy Osmani
 created: 2026-09-02
-updated: 2026-10-21
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, enterprise, agentic-engineering, engineering-leadership]
 readability: 3
@@ -27,6 +27,7 @@ He packages that argument into artifacts teams can adopt: his site now leads wit
 Active and high-reach as of 2026-10-21, and newly a frontier-lab insider: after leaving Google in 2026, he joined Anthropic as a Member of Technical Staff on the Claude Code team, per his own site.
 "21 Lessons From 14 Years at Google" (2026-01-03) reached 1,678 points on Hacker News, "Agent Skills" 376 points, and "The next two years of software engineering" (2026-01-11) 328 points.
 His most recent essay is "Agentic Verification" (2026-10-14, on his Substack), which moves the same argument from review into verification: the bottleneck has shifted from writing code to knowing it is correct, agents make the checks that used to be expensive (tests, benchmarks, specs, end-to-end runs) cheap enough to build into the loop, and a person still owns the ship decision, now reviewing evidence rather than diffs.
+On 2026-10-15 he co-authored Anthropic's engineering post "How the Claude Code team does code review" (claude.dev, with Morgan Westlee Lunt and Qing Wang), which runs the same argument inside his employer's own process: most reading moved to agents, human approval scaled by a risk tier the change sets, and past incidents recycled as a daily eval set for the reviewer.
 Before it came "The Code Nobody Reads" (2026-09-28), which revises his own two-year-old advice to review every line: he argues line-by-line reading is going away for most code, and that the trust reading used to provide must come from independent checks around an untrusted author.
 Before that came "Brownfield Agentic Engineering" (2026-09-14), on running agents in codebases older than the team, still his latest on the personal blog.
 He discussed "Beyond Vibe Coding" and enterprise AI engineering practice on The Pragmatic Engineer (2025-10-29).
@@ -78,6 +79,7 @@ Not for readers wanting frontier research depth or a terminal-level tool feed.
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-10-04 - Added his Substack essay "The Code Nobody Reads" (2026-09-28), which revises his review-every-line advice, as his most recent piece, and named the Substack as a surface in What it is.
 - 2026-10-21 - His newest essay is "Agentic Verification" (2026-10-14), which moves the review-shift argument into agent-run verification loops; "The Code Nobody Reads" (2026-09-28) is now the piece before it.
+- 2026-10-29 - Added his co-authored Anthropic engineering post "How the Claude Code team does code review" (claude.dev, 2026-10-15) to Status and References (URL fetched this run).
 
 ## See also
 
@@ -100,3 +102,4 @@ Not for readers wanting frontier research depth or a terminal-level tool feed.
 - https://beyond.addy.ie - the "Beyond Vibe Coding" book site (the old vibe.addy.ie reference was the separate Bolt vibe-coding guide)
 - https://github.com/addyosmani/agent-skills - the production-grade agent skills repository
 - https://news.ycombinator.com/item?id=48015397 - the critical Hacker News discussion of the "Agent Skills" thesis
+- https://claude.dev/blog/solving-code-review-at-anthropic/ - the co-authored Claude Code code-review post (2026-10-15), his verification-shift thesis running inside his employer's own review process

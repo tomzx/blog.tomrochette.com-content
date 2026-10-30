@@ -1,7 +1,7 @@
 ---
 title: "whatmodel.sh"
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, leaderboards, benchmarks, llm, local-models, terminal]
 readability: 3
@@ -16,14 +16,16 @@ whatmodel.sh is a curl-first composite leaderboard that fits every public benchm
 
 A terminal-first leaderboard: `curl whatmodel.sh` returns the overall table, query parameters (`ram=`, `gpu=`, `vram=`, `max=`) filter it to what a given machine can run and afford, and `?format=json` exposes the same data to scripts and agents.
 The scoring fits a single latent ability per model across 22,113 linked results with item response theory, pooling a level per evaluator run so one hot or cold setup cannot move a score ([method](https://whatmodel.sh/method)).
-It covers 1,182 scored text models plus separate image, video, TTS, and STT lists, publishes raw results and benchmark definitions as downloads, and measures API speeds itself with the raw runs published ([terms](https://whatmodel.sh/terms), [API](https://whatmodel.sh/api?format=json)).
+It covers 888 ranked text models fit from 22,353 published benchmark results across 575 benchmarks, plus separate image (203), video (142), TTS (181), and STT (184) lists, publishes raw results and benchmark definitions as downloads, and measures API speeds itself with the raw runs published ([terms](https://whatmodel.sh/terms), [API](https://whatmodel.sh/api?format=json)) (coverage as of 2026-10-29).
+The application is public: the repository the Show HN links (github.com/jakemanger/whatmodel) is MIT-licensed TypeScript holding the scoring pipeline and the generated leaderboard pages, created 2026-09-28.
 It is operated by Merlinsbeard Pty Ltd, a company with no public team page, and launched with a Show HN on 2026-10-12 ([the thread](https://news.ycombinator.com/item?id=50053608)).
 
 ## Status
 
-Live and actively maintained as of 2026-10-17: the homepage stamp reads 2026-10-14, the terms page was last updated 2026-09-25, and the JSON API, help surface, and per-model pages all served on the day of writing.
-The community footprint is close to zero: the launch thread carries two points and zero comments, and no independent coverage surfaced in search.
-There is no public repository; the Show HN title says open source, but the terms license only the compiled dataset (CC BY-SA 4.0) and explicitly do not license the application code.
+Live and actively maintained as of 2026-10-29: the board stamp reads 2026-10-29 04:56 UTC, the terms page was last updated 2026-10-19, and the JSON API, help surface, and per-model pages all served on the day of writing.
+The open-source claim now checks out at the repository level: the Show HN's link resolves to a public repository (created 2026-09-28, MIT, TypeScript), holding the scoring pipeline and generated pages, with 43 stars, 2 forks, and a 2026-10-29 push as of this re-check; the terms still scope their CC BY-SA 4.0 grant to the compiled numerical dataset, so the application code's licence lives in the repository rather than the data terms.
+The 2026-10-19 terms revision also discloses optional paid sponsorship placements in labelled areas, absent from this note's 2026-10-17 read of the earlier terms.
+The community footprint is close to zero: the launch thread carries two points and zero comments, an HN search still returns no second story, and the repository's 2 forks are the only visible contribution signal.
 
 ## Strengths
 
@@ -35,13 +37,14 @@ There is no public repository; the Show HN title says open source, but the terms
 ## Cautions
 
 - The method validation is self-reported: the hidden-test replay (about 85% pair accuracy, versus 77% for naive averaging) has no independent replication.
-- One operator, no team page, no repository, and near-zero community footprint, so there is no second pair of eyes anywhere in the pipeline.
+- One operator, no team page, and near-zero community footprint (a two-point Show HN, a 43-star repository with 2 forks), so the code being public does not mean anyone has read it.
 - Scores shift as models arrive and scores from different scales are not comparable, a documented but easy-to-cite-wrong property.
-- The "open source" framing covers the CC BY-SA dataset only; the code that produces the scores is closed.
+- The open-source grant splits three ways: MIT code in the repository, a CC BY-SA 4.0 licence covering only whatmodel.sh's own dataset contributions, and the underlying benchmark numbers keeping their original licences.
 
 ## Pricing
 
-Free, with no paid tier and no sponsor slots documented.
+Free to use and to query.
+The terms (updated 2026-10-19) disclose optional paid sponsorship placements in labelled areas, with no prices published and no reader-facing paid tier, so no price history applies.
 The compiled numerical dataset is contributed under CC BY-SA 4.0; each underlying source keeps its own licence.
 
 ## Compared to
@@ -58,6 +61,7 @@ Not for citation as ground truth: one self-validated method, one operator, and n
 ## Changes
 
 - 2026-10-17 - Created after the trackers-and-leaderboards pass surfaced it in a candidate search and the coordinator resolved it the same run, with six sources fetched, the self-validation and thin-footprint cautions recorded as the critical angles, and the twelfth matrix column added.
+- 2026-10-29 - Rotation re-verification with every cited URL re-fetched (the oversized board and method pages via curl): coverage refreshed to 888 ranked text models from 22,353 linked results across 575 benchmarks as of 2026-10-29, the terms update of 2026-10-19 recorded with its new paid-sponsorship disclosure, and the open-source record corrected, the Show HN's repository link resolving to a public MIT-licensed repository (43 stars, pushed 2026-10-29) that the creation run's no-public-repository finding missed.
 
 ## See also
 
@@ -68,9 +72,12 @@ Not for citation as ground truth: one self-validated method, one operator, and n
 
 ## References
 
-- https://whatmodel.sh - the live board and its query interface, as of 2026-10-17.
-- https://whatmodel.sh/method - the IRT methodology, per-run level pooling, validation replay, and data publications.
-- https://whatmodel.sh/terms - the operator of record (Merlinsbeard Pty Ltd), the CC BY-SA dataset licence, and the code exclusion.
-- https://whatmodel.sh/api?format=json - the agent-facing JSON surface served on the day of writing.
-- https://whatmodel.sh/?help=1 - the full query-parameter surface grounding the machine-fit and price-cap claims.
-- https://news.ycombinator.com/item?id=50053608 - the 2026-10-12 Show HN launch (two points, zero comments), the community-footprint record.
+- https://whatmodel.sh - the live board and its query interface (re-fetched 200 via curl, 2026-10-29, the 5 MB table exceeds the fetch tool's limit), stamp 2026-10-29 04:56 UTC, 888 text models.
+- https://whatmodel.sh/method - the IRT methodology, per-run level pooling, validation replay, and data publications (re-fetched 200 via curl, 2026-10-29, the method's substance unchanged).
+- https://whatmodel.sh/terms - the operator of record (Merlinsbeard Pty Ltd), the CC BY-SA dataset licence, and the code exclusion (re-fetched 200 via curl, 2026-10-29, last updated 19 October 2026, now disclosing optional paid sponsorship placements).
+- https://whatmodel.sh/api?format=json - the agent-facing JSON surface (re-fetched 200 via curl, 2026-10-29, the text set serving 40 rows with 308 thinly-tested models hidden).
+- https://whatmodel.sh/?help=1 - the full query-parameter surface grounding the machine-fit and price-cap claims (re-fetched 200 via curl, 2026-10-29, unchanged).
+- https://news.ycombinator.com/item?id=50053608 - the 2026-10-12 Show HN launch (two points, zero comments), the community-footprint record (re-fetched 200, 2026-10-29, unchanged).
+- https://api.github.com/repos/jakemanger/whatmodel - the repository the Show HN links: created 2026-09-28, MIT, TypeScript, 43 stars, 2 forks, pushed 2026-10-29 (fetched 200, 2026-10-29; star figure as the dated baseline).
+- https://raw.githubusercontent.com/jakemanger/whatmodel/main/README.md - the repo's generated leaderboard: 888 models, 22,353 published benchmark results, 575 benchmarks, updated 2026-10-29 04:56 UTC (fetched 200, 2026-10-29).
+- https://hn.algolia.com/api/v1/search?query=%22whatmodel%22&tags=story - still exactly one story, the launch thread: the footprint search re-run (fetched 200, 2026-10-29).

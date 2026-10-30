@@ -1,7 +1,7 @@
 ---
 title: Paul Gauthier
 created: 2026-09-24
-updated: 2026-10-17
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, open-source, pair-programming, cli-tools]
 readability: 3
@@ -44,6 +44,10 @@ His footprint on Hacker News is durable: 97 hits for "paul gauthier" aider, over
 - The representative critique, the "Wasting Inferences with Aider" Hacker News thread (139 points, 105 comments), argued the non-agentic design burns tokens that agentic rivals spend on outcomes, and community energy has since moved to harnesses.
 - He is a tool author, not a public writer: outside the docs, release notes, and benchmark pages there is no personal blog to follow.
 
+## Pricing
+
+Free and open source: aider is Apache-2.0 and bring-your-own-key, so the tool costs nothing and you pay your own model API bills. There are no paid tiers; the repo's sponsor links are donations.
+
 ## Compared to
 
 - [Boris Cherny](../boris-cherny/index.md): Cherny built Claude Code, the actively developed, subscription agentic successor in the same terminal slot; choose Cherny's tool for autonomous loops, Gauthier's writing for context design and cheap reviewable diffs.
@@ -67,6 +71,7 @@ Not for teams that need an actively maintained tool or current-model guidance, a
 
 - 2026-09-24 - Created.
 - 2026-10-17 - Rotation re-verification, every cited URL re-fetched and all live: the repo API still shows the default branch's last push on 2026-05-22, the leaderboard's newest dated submissions remain the October 2025 DeepSeek entries, and the HN record holds at 97 hits with the critical thread at 139 points and 105 comments.
+- 2026-10-29 - Added the Pricing section the note format mandates; no other claim moved (the tool remains stalled, so no activity check applies).
 
 ## See also
 

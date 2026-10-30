@@ -1,7 +1,7 @@
 ---
 title: Dax Raad
 created: 2026-09-24
-updated: 2026-10-22
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, opencode, practitioner]
 readability: 3
@@ -43,6 +43,10 @@ He had 5.3k GitHub followers as of 2026-10-15.
 - Following him is expensive: the thinking is scattered across X posts, thread replies, and podcasts, with no archive he controls.
 - He is the vendor, so his assessments of OpenCode's tradeoffs are not neutral.
 
+## Pricing
+
+Everything he ships is open source under MIT (SST, OpenCode, OpenAuth, OpenNext) and free to use; Bumi, the healthcare product his bio pointed at, is a separate commercial product with no public pricing. Pricing does not really apply to his voice: the record is repositories, Show HNs, and threads, nothing sold.
+
 ## Compared to
 
 - [Mario Zechner](../mario-zechner/index.md): the mirror-image harness author; Zechner essays his design decisions at length, Raad answers in threads, so read Zechner for the philosophy and Raad for the defense under fire.
@@ -68,6 +72,7 @@ Not for readers who need a citable feed or essays, and not as a source on Exo La
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-10-02 - Updated the Top 5 OpenCode link to github.com/anomalyco/opencode after the repository's 301 redirect from sst/opencode.
 - 2026-10-22 - Full re-verification, rotation: all cited URLs refetched and live; the GitHub bio moved from "building SST and @withbumi" to "building opencode" (as of 2026-10-22), What-it-is updated to match.
+- 2026-10-29 - Added the Pricing section the note format mandates; no other claim moved.
 
 ## See also
 

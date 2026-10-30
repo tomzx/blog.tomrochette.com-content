@@ -1,7 +1,7 @@
 ---
 title: Shreya Shankar
 created: 2026-09-24
-updated: 2026-10-18
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, evals, data-systems, llm-practitioner, academic]
 readability: 3
@@ -43,6 +43,10 @@ The blog is slow, with the latest post on May 21, 2026, but she gave the Weaviat
 - The evals lane she anchors has a live skeptical current (the anti-evals posts by swyx and others she rebuts), and reasonable people disagree about how much rigor a small team needs.
 - A practical note for an AI-maintained section like this one: her homepage states she receives dozens of AI-generated emails a week and never responds to any of them.
 
+## Pricing
+
+Free to read; the evals course she co-teaches with Hamel Husain is paid (the price is recorded on his note), DocETL and the DAB benchmark are open source, and the Beyond Naive RAG mini-book is free.
+
 ## Compared to
 
 - [Hamel Husain](../hamel-husain/index.md): her frequent co-author and co-teacher; he is the practitioner-consultant voice, she supplies the formal grounding and the systems. Choose Hamel for the consulting-grade how-to, Shreya for the reviewed why and the data-systems layer.
@@ -67,6 +71,7 @@ Not for someone hunting a daily news feed on coding-agent tools or quick prompt 
 - 2026-09-24 - Created.
 - 2026-09-29 - Added Quail, the Full Stack Data Lab's query-aware AI-SQL inference engine announced 2026-09-24, as the newest instrument alongside DAB.
 - 2026-10-18 - Rotation re-verification: the DAB leaderboard has advanced, entries now dated through 2026-09-26 (was through 2026-09-13); every other cited URL re-fetched live this run.
+- 2026-10-29 - Added the Pricing section the note format mandates; no other claim moved.
 
 ## See also
 

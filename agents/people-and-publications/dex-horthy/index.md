@@ -1,7 +1,7 @@
 ---
 title: Dex Horthy
 created: 2026-09-24
-updated: 2026-10-15
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, agents, context-engineering]
 readability: 3
@@ -17,14 +17,14 @@ Dex Horthy is the founder of HumanLayer and author of 12-Factor Agents, the most
 ## What it is
 
 12-Factor Agents (github.com/humanlayer/12-factor-agents) states twelve principles, including own your prompts, own your context window, tools are just structured outputs, contact humans with tool calls, and make your agent a stateless reducer, under a CC BY-SA 4.0 content license, with 26.7k stars and 2.0k forks as of 2026-10-15.
-AI That Works is his weekly Zoom show and podcast with Vaibhav Gupta (BAML), every Tuesday at 10 AM PST, 76 numbered episodes dated from 2025-03-31 through 2026-09-29, each with code in a public repo.
+AI That Works is his weekly Zoom show and podcast with Vaibhav Gupta (BAML), every Tuesday at 10 AM PST, 79 aired numbered episodes dated from 2025-03-31 through 2026-10-27, each with code in a public repo, with #80 (Using AI for Writing) scheduled for 2026-11-03.
 The Outer Loop is his Substack ("AI Agents, Human in the Loop, maybe-agi", launched about two years ago), with the archive behind the subscribe wall.
 HumanLayer itself pivoted from a human-approval API into a multiplayer coding-agent workspace (local daemons, cloud daemons, tasks and artifacts, an RPI-to-QRSPI workflow), with a free Starter tier for teams of up to three, Pro at $100/user/month, and BYOK for Claude Code, Codex, and Copilot.
 
 ## Status
 
 Active on a talk-first cadence.
-AI That Works ran weekly through #77 (2026-10-06, Building a Memory Pipeline), and #78 (the Software Factory Debate with Warp's CTO Zach) aired on schedule on 2026-10-13 per the show repo's episode list, with #79 (Building Evals on Production Data) scheduled for 2026-10-20, so the dependable publication is the weekly recorded conversation.
+AI That Works ran through #77 (2026-10-06, Building a Memory Pipeline), #78 (the Software Factory Debate with Warp's CTO Zach, aired 2026-10-20 per the show repo's episode list, which moved it from the 10-13 slot the last check recorded), and #79 (Building Evals on Production Data, aired 2026-10-27), with #80 (Using AI for Writing) scheduled for 2026-11-03, so the dependable publication is the weekly recorded conversation.
 The 12-factor repo moves slowly now: 273 commits across roughly seventeen months, mostly refinements, and 2026 re-posts of it on HN drew 2 to 3 points, indicating maintenance-mode mindshare after the April 2025 spike (the original Show HN took 475 points and 78 comments).
 His own show bio reads: founder at HumanLayer, 10+ years building devops tools at Replicated, Sprout Social, and JPL, "coiner of the term Context Engineering".
 I read the trajectory as: methodology in 2025, product in 2026, with the open methodology now serving as the top of the funnel for the commercial workspace.
@@ -43,6 +43,16 @@ I read the trajectory as: methodology in 2025, product in 2026, with the open me
 - The written output is talk-driven and irregular: the Substack archive is not publicly browsable, the repo is quiet, so anyone following him for text will be disappointed.
 - The guide optimizes for build-it-yourself control, which is the right bias for product teams at the reliability frontier and the wrong one for teams that just need a working harness.
 
+## Pricing
+
+The methodology and the show are free; HumanLayer the product is paid: a free Starter tier for teams of up to three members and Pro at $100/user/month with BYOK for Claude Code, Codex, and more, plus a custom-priced Enterprise tier.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-24 | HumanLayer Pro | Baseline: Starter free for teams of up to three; Pro $100/user/month with BYOK. | https://humanlayer.dev/ |
+
 ## Compared to
 
 - [Hamel Husain](../hamel-husain/index.md): Husain's discipline is measurement and evals, Horthy's is architecture and control flow; read Husain when you do not know whether it works, Horthy when you must decide what to own.
@@ -59,7 +69,7 @@ Not for people who want regular written analysis, model research, or a neutral s
 - [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) - The methodology itself, twelve principles from owning your context window to stateless reducers, the vocabulary agent builders now share.
 - [12-Factor Agents: Patterns of reliable LLM applications (AI Engineer talk)](https://www.youtube.com/watch?v=8kMaTybvDUw) - His 17-minute AI Engineer World's Fair talk, the fastest way to hear the argument in his own voice.
 - [12-factor Agents: Patterns of reliable LLM applications (Show HN thread)](https://news.ycombinator.com/item?id=43699271) - The launch thread where he answered framework defenders, eval skeptics, and cost arguments point by point.
-- [AI That Works](https://github.com/ai-that-works/ai-that-works) - The weekly show he runs with Vaibhav Gupta, 78 numbered episodes with working code for every claim.
+- [AI That Works](https://github.com/ai-that-works/ai-that-works) - The weekly show he runs with Vaibhav Gupta, 79 aired numbered episodes with working code for every claim.
 - [A Brief History of Ralph](https://humanlayer.dev/blog/brief-history-of-ralph) - His first-person account of the viral Ralph Wiggum loop technique, his best durable blog post.
 
 ## Changes
@@ -68,6 +78,7 @@ Not for people who want regular written analysis, model research, or a neutral s
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-10-07 - Episode #77 (Building a Memory Pipeline) confirmed aired on schedule on 2026-10-06 per the show repo's episode list, replacing the "scheduled" wording in Status.
 - 2026-10-15 - Episode #78 (the Software Factory Debate with Warp's CTO) confirmed aired on schedule on 2026-10-13 with #79 scheduled for 2026-10-20, and the 12-Factor Agents count moved to 26.7k stars; show repo and GitHub API fetched this run.
+- 2026-10-29 - Rotation re-verification, every cited URL re-fetched and live: #78 confirmed aired 2026-10-20 (the show repo moved it off the 10-13 listing the last check recorded), #79 aired 2026-10-27, and #80 is scheduled for 2026-11-03, so the aired-episode count moved to 79; added the Pricing and Price history sections the note format mandates (the $100/user/month Pro price is unchanged).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Matt Pocock
 created: 2026-09-24
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, education, ai-coding]
 readability: 3
@@ -45,6 +45,10 @@ The trajectory is complete: TypeScript education is now the on-ramp, AI Hero and
 - There is no model research, benchmarking, or neutral evaluation here; he teaches practice, he does not test claims about models.
 - At 4,000-plus students per cohort, the feedback loop between his material and any individual team's context is thin by construction.
 
+## Pricing
+
+The teaching funnels from free content to paid products: Total TypeScript workshops and AI Hero courses, workshops, and cohorts. The free layer is substantial (posts, the skills catalogue, the AI Coding Dictionary), and no numeric prices are published on the public pages fetched for this note.
+
 ## Compared to
 
 - [Simon Willison](../simon-willison/index.md): the daily raw chronicle versus the structured curriculum; Willison for what changed today, Pocock for what to practice this month.
@@ -73,6 +77,7 @@ Not for anyone seeking model research, benchmarks, or vendor-neutral evaluation 
 - 2026-10-06 - The site's skills changelog caught up and now lists v1.3 as its newest entry, closing the repo-versus-site lag recorded yesterday; commits refreshed to 503 and skills stars to 277.3k as of 2026-10-06.
 - 2026-10-12 - Commits refreshed to about 545 and skills stars to about 287k as of 2026-10-12, with the repo scale now stated in the Status sentence itself.
 - 2026-10-28 - Rotation re-verification: development continues through 2026-10-27 (the chief-of-staff skill landed 2026-10-19, repo maintenance on the 27th) with no tagged release after v1.3.1 and the site changelog still listing v1.3 as newest; GitHub followers moved to 52.6k as of 2026-10-28; the as-of star figure keeps its 2026-10-12 date (per the stars-never-refreshed rule), and every cited URL re-fetched live.
+- 2026-10-29 - Added the Pricing section the note format mandates; no other claim moved.
 
 ## See also
 

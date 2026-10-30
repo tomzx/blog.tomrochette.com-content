@@ -1,7 +1,7 @@
 ---
 title: Mario Zechner
 created: 2026-09-24
-updated: 2026-10-26
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents, open-source]
 readability: 3
@@ -43,6 +43,10 @@ The Earendil arrangement is the open question: the MIT core is pledged as non-ne
 - Personal-blog cadence has dropped to a few posts a year in 2026, so there is little new argument to follow beyond release notes.
 - pi's independence ended in April 2026, and readers must now weigh pledged MIT-forever commitments against Earendil's unbuilt commercial tiers, a bet he himself frames through his RoboVM experience.
 
+## Pricing
+
+pi is MIT at its core under a pledged three-tier model: MIT core forever, Fair Source value-adds, and proprietary enterprise features not yet built as of his April 2026 sale post. His essays and tools are free; no prices exist yet on any tier.
+
 ## Compared to
 
 - [Armin Ronacher](../armin-ronacher/index.md): his Earendil colleague and sparring partner, and the more measured writer; Ronacher's "Armin is wrong" antagonist is the one to pick for architecture essays, Zechner for full-throated arguments with benchmarks.
@@ -73,6 +77,7 @@ Not for teams that want turnkey guardrails, MCP-centric stacks, or a maintainer 
 - 2026-10-13 - Reworded a Cautions line off a banned term (YOLO-by-default security stance); meaning unchanged.
 - 2026-10-13 - Added v1.2.0 (released 2026-10-12, per the repo's releases fetched this run) as the second post-1.0 minor, five days after v1.1.0; stars refreshed to about 114.7k and forks re-verified at 14.6k as of 2026-10-13.
 - 2026-10-26 - Added v1.3.0 (released 2026-10-15) and v1.4.0 (released 2026-10-21) to the release record (per the repo's releases page and the GitHub releases API, both fetched this run), keeping the post-1.0 cadence current; the 2026-10-13 star and fork figures keep their as-of date.
+- 2026-10-29 - The releases page still ends at v1.4.0 (2026-10-21), fetched this run; added the Pricing section the note format mandates.
 
 ## See also
 

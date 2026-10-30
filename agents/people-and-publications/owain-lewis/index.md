@@ -1,7 +1,7 @@
 ---
 title: Owain Lewis
 created: 2026-09-24
-updated: 2026-10-24
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, agentic-coding, software-factory, claude-code]
 readability: 3
@@ -23,8 +23,8 @@ Uploads run about weekly, and descriptions read like engineering writeups that s
 
 ## Status
 
-Active and steady at modest scale as of 2026-10-24.
-The channel was created 2014-07-20 and shows 19K subscribers; the latest upload is "My COMPLETE Workflow for Building Production AI Agents" (2026-10-12, about 20,700 views as of 2026-10-24), the 18th upload between 2026-05-15 and 2026-10-12, roughly one per week, reconfirmed against the RSS feed.
+Active and steady at modest scale as of 2026-10-29.
+The channel was created 2014-07-20 and shows 19K subscribers; the latest upload is "How Anthropic Reviews 30,000 Claude Code Changes a Day" (2026-10-26, 12,788 views within three days), a breakdown of the Claude Code team's layered review process that doubles as a demo of his Software Factory plugin, the 19th upload between 2026-05-15 and 2026-10-26, roughly one per week, reconfirmed against the RSS feed, after "My COMPLETE Workflow for Building Production AI Agents" (2026-10-12, about 21,561 views as of 2026-10-29).
 The 2026-10-05 DevOps-agent upload reached 12,947 views and the 2026-09-28 "JEV Explained" sat at 10,555, while the 2026-09-21 "Inside OpenAI's Agentic Software Factory" climbed to 24,153 (all as of 2026-10-24).
 Reach concentrates in the factory videos: "I Built an Agentic Software Factory" (2026-07-25) is his biggest recent at 82,379 views, while most uploads land between 3,000 and 30,000.
 Trajectory is upward without a breakout, and his roughly 1.2K combined GitHub stars across the pinned repos carry more durable weight than the sub count suggests.
@@ -80,6 +80,7 @@ Not for someone who wants model-release news, enterprise-scale case studies, or 
 - 2026-10-05 - The RSS feed serves again after its 2026-10-04 outage and reconfirms no upload newer than "JEV Explained (Real Use Cases)" (2026-09-28); the reference line updated to match.
 - 2026-10-06 - New upload "I Built A Claude DevOps Agent To Run My Software Factory" (2026-10-05) became the latest, making 17 uploads between May 15 and October 5, 2026; Status and the reference line updated (feed fetched this run).
 - 2026-10-24 - New upload "My COMPLETE Workflow for Building Production AI Agents" (2026-10-12) became the latest, making 18 uploads between May 15 and October 12, 2026; the funnel shift to the $67/month Skool community and the first Google Cloud sponsorship recorded in Cautions, and the Pricing and Price history sections added (Skool page, feeds, and searches fetched this run).
+- 2026-10-29 - New upload "How Anthropic Reviews 30,000 Claude Code Changes a Day" (2026-10-26) became the latest, making 19 uploads between May 15 and October 26, 2026; RSS feed fetched this run.
 
 ## See also
 

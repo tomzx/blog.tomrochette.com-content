@@ -1,7 +1,7 @@
 ---
 title: Jesse Vincent
 created: 2026-09-24
-updated: 2026-10-25
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, agentic-engineering, skills, tdd]
 readability: 3
@@ -46,6 +46,10 @@ Third-party pull is visible: HN threads recommend Superpowers as the fix for bad
 - Behavior shifts with every frontier model release, and his posts are explicitly point-in-time snapshots, so six-month-old methodology posts need re-verification before you copy them.
 - The visual companion feature phones home version telemetry by default via Prime Radiant's site, with an opt-out environment variable, which is disclosed but worth knowing.
 
+## Pricing
+
+The blog and the Superpowers skill suite are free, with Superpowers MIT-licensed; Prime Radiant sells commercial support around the suite and publishes no prices for it.
+
 ## Compared to
 
 - [Simon Willison](../simon-willison/index.md): Willison surveys the whole landscape daily and Vincent systematizes one practice deeply, and the two co-host the October 2026 agentic-engineering BoF in San Francisco; read Willison for breadth, Vincent for a runnable process.
@@ -73,6 +77,7 @@ Not for token-budget-tight users, TDD-averse codebases, or readers who want mini
 - 2026-10-06 - Added his 2026-10-05 post "Today at work", a day-in-the-life account of managing Sen colleagues after one merged to main a little too quickly, to Status and References (URL fetched this run); blog count refreshed to 544 and Superpowers stars to 295.8k as of 2026-10-06.
 - 2026-10-10 - Added his 2026-10-09 anniversary post "What a year" (Superpowers 7.0's rebuilt brainstorming experience, plus the approaching-300k-stars, 1.1M-installs, and 50M-clones-per-fortnight claims) to Status and References (URL and blog homepage fetched this run); blog count refreshed to 545.
 - 2026-10-25 - Added his 2026-10-11 post "Picks and Shovels" (the Claude Opus 5.5 full-autonomy game build for picksandshovels.org) to Status and References (URL fetched this run); blog count refreshed to 546.
+- 2026-10-29 - Homepage check found no post newer than the 2026-10-11 "Picks and Shovels" (fetched this run); added the Pricing section the note format mandates.
 
 ## See also
 

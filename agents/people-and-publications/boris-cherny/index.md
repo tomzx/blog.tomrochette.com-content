@@ -1,7 +1,7 @@
 ---
 title: Boris Cherny
 created: 2026-09-24
-updated: 2026-10-15
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents]
 readability: 3
@@ -18,7 +18,7 @@ Boris Cherny is the Anthropic engineer who created Claude Code, and his public r
 
 A software engineer at Anthropic who, per his own about page, created Claude Code and previously worked at Instagram.
 He is the author of O'Reilly's Programming TypeScript and maintains the book's official exercise-answers repository alongside older TypeScript tools like json-schema-to-typescript.
-His GitHub profile lists 11.5k followers as of 2026-10-15 and links an X account and a Threads account, which are where his actual day-to-day output goes.
+His GitHub profile lists 11.7k followers as of 2026-10-29 and links an X account and a Threads account, which are where his actual day-to-day output goes.
 His interviews and rare posts are aimed at engineers who want to understand how Claude Code is built, not at people shopping for opinions on the harness landscape.
 
 ## Status
@@ -42,6 +42,10 @@ Claude Code itself keeps a fast release pace, which our [Harnesses note](../../h
 - Everything he publishes about agentic coding doubles as marketing for Anthropic's product, and none of it engages with the measured criticism of that product.
 - The criticism exists and is quantified: a July 2026 proxy study measured Claude Code sending about 33k tokens of baseline scaffolding before the user's prompt, versus about 7k for OpenCode, plus cache re-write behavior up to 54x worse on the same task.
 - Community scrutiny of Claude Code internals (the thread that followed the npm sourcemap leak discussed leaked spinner verbs and a sentiment regex over user prompts) is the part of his product's story he does not narrate.
+
+## Pricing
+
+Not a product you buy: he is an Anthropic engineer, his interviews and rare posts are free to read, and his O'Reilly Programming TypeScript book is sold commercially by the publisher.
 
 ## Compared to
 
@@ -67,6 +71,7 @@ Not for anyone looking for a regular feed, tool comparisons, or engagement with 
 - 2026-09-24 - Created.
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-09-27 - Reworded a See-also line off a banned term; meaning unchanged.
+- 2026-10-29 - Rotation re-verification, every cited URL re-fetched and live: GitHub followers moved to 11.7k as of 2026-10-29 and the blog still ends at the 2026-09-19 post; added the Pricing section the note format mandates.
 
 ## See also
 
@@ -79,7 +84,7 @@ Not for anyone looking for a regular feed, tool comparisons, or engagement with 
 
 - https://borischerny.com/about - his role at Anthropic, Claude Code creation credit, Instagram history, book, and social links
 - https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html - his latest post (2026-09-19) and the team-facing management signal
-- https://github.com/bcherny - GitHub profile, follower count, and pinned repositories as of 2026-10-15
+- https://github.com/bcherny - GitHub profile, follower count, and pinned repositories as of 2026-10-29
 - https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built - the founding-engineer interview: prototype origin, stack, self-written code, run-rate revenue
 - https://www.anthropic.com/engineering/claude-code-best-practices - the official best-practices document encoding the minimal-scaffolding, verify-your-work philosophy
 - https://systima.ai/blog/claude-code-vs-opencode-token-overhead - the measured critical analysis of Claude Code's token overhead (July 2026)

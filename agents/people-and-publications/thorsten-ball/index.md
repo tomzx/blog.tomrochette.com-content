@@ -1,7 +1,7 @@
 ---
 title: Thorsten Ball
 created: 2026-09-24
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents]
 readability: 3
@@ -44,6 +44,16 @@ The books are stable but frozen at their May 2020 editions (v1.7 and v1.2), so t
 - The teaching depth now lives in books frozen in 2020, so nothing in his current record systematically teaches the new agentic material.
 - The Free Agent pitch shifts costs onto subscriptions and compute you may not hold, so "free" depends on your existing stack.
 
+## Pricing
+
+The books are self-published and sold direct as ebooks ($29 each, $50 bundled) plus Amazon paperbacks; Register Spill is free to read with a paid Substack tier, and Amp is a paid product (the pricing criticism sits on the spinout thread).
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-24 | Monkey books | Baseline: ebooks $29 each, $50 bundled; paperbacks via Amazon. | https://interpreterbook.com |
+
 ## Compared to
 
 - [Steve Yegge](../steve-yegge/index.md): the Amp orbit's evangelist versus its practitioner; Yegge declares the future in essays, Ball shows you his ordinary Tuesday inside the tool.
@@ -71,6 +81,7 @@ Not for readers who want vendor-neutral tool comparisons, budget harness options
 - 2026-10-04 - Added the September 24 to 29 Amp news run (Shared Runners, Less Noise, Opus 5.5 on medium, Plaid Speed) and the Raising an Agent season 2 episode 5 date to the Status, and refreshed Register Spill to #102 (2026-10-04).
 - 2026-10-10 - Amp news window extended to October 10: "Many, Many Pucks" (October 6) and "Use Your Claude Plan in Amp" (October 10, Claude Pro and Max subscriptions now usable in Amp); Status and the news-index reference line updated (index fetched this run).
 - 2026-10-28 - Rotation re-verification: Register Spill moved to #103 (2026-10-25, per the Substack feed fetched this run), the Amp news window extended through October 27 (Amp on Android, Assign It To Amp, Self-Hosted Orbs, and four more), the Raising an Agent pointer moved to season 2 episode 6 (October 20), and the new "How Thorsten Ball Uses Amp" time capsule (October 13) recorded; every cited URL re-fetched live, the books and prices unchanged, and the GitHub follower count held at 3.3k.
+- 2026-10-29 - Added the Pricing and Price history sections the note format mandates (the books' $29/$50 prices are unchanged, per the book sites fetched in the 2026-10-28 rotation).
 
 ## See also
 

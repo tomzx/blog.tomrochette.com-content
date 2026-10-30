@@ -1,7 +1,7 @@
 ---
 title: Harper Reed
 created: 2026-09-24
-updated: 2026-10-17
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, llm-codegen, spec-first, agentic-coding, workflows]
 readability: 3
@@ -43,6 +43,10 @@ He also translates major posts into Japanese, Spanish, Korean, and Chinese.
 - Skeptics exist in the same threads that praise him: one engineer reports never succeeding at building a complete feature or prototype with the technique (visible in the HN results as of 2026-10-04).
 - The signal is buried in a personal blog: profanity, photography, and a high-volume notes stream mean RSS or targeted visits beat casual scrolling.
 
+## Pricing
+
+Free to read; the blog carries no paywall and the workflow posts ship their prompts inline. His revenue sits in 2389.ai, the company he runs, and in speaking, not in the writing.
+
 ## Compared to
 
 - [Simon Willison](../simon-willison/index.md): both practitioner bloggers, but Willison tracks the whole tool-and-security landscape while Reed commits to one opinionated workflow; take breadth from Willison, a starting loop from Reed.
@@ -66,6 +70,7 @@ Not for readers wanting evaluation methodology, organization-level platform stra
 
 - 2026-09-24 - Created.
 - 2026-10-17 - Rotation re-verification, every cited URL re-fetched and all live: the homepage still leads with the 2026-09-22 containment essay as the newest long-form post, with notes through 2026-10-03, and the about page's rolling average moved from about 1.04 to about 1.03 posts per week (corrected in What it is).
+- 2026-10-29 - Homepage check found no long-form post newer than the 2026-09-22 containment essay, with notes through 2026-10-03 (fetched this run); added the Pricing section the note format mandates.
 
 ## See also
 
