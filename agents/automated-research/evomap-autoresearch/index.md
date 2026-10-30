@@ -1,7 +1,7 @@
 ---
 title: EvoMap AutoResearch
 created: 2026-10-12
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, multi-agent, blind-review, open-source]
 readability: 3
@@ -67,6 +67,7 @@ Not for production use: seven commits, no releases, and an unresolved attributio
 ## Changes
 
 - 2026-10-12 - Created.
+- 2026-10-29 - Rotation re-verification: all six references re-fetched, no drift; the repository stands quiet since September 16 and the Karpathy-attribution challenge issue remains closed.
 
 ## See also
 

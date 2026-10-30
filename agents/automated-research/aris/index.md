@@ -1,7 +1,7 @@
 ---
 title: ARIS
 created: 2026-10-10
-updated: 2026-10-25
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, agentic-llm, machine-learning, open-source, skills]
 readability: 3
@@ -24,7 +24,7 @@ Beyond the skills, the project ships a standalone Rust CLI (ARIS-Code, v0.4.28 o
 
 ## Status
 
-Active: 17,367 stars as of 2026-10-21, 1,489 forks, created 2026-03-10, last push 2026-10-24, as of 2026-10-25.
+Active: 17,367 stars as of 2026-10-21, 1,498 forks, created 2026-03-10, last push 2026-10-29 (two documentation-only commits clarifying search authentication and DeepXiv env loading), as of 2026-10-29.
 October 2026 widened the loop three ways: a `/lean-formalize` skill that drives a mathematical statement to a checked Lean proof (October 7), Grok and Gemini/Antigravity MCP reviewer bridges that route reviews through existing CLI logins (October 5), and, on October 19, selectable reviewers inside the complete Claude Code and Codex skill packs, a `/citation-crosscheck` skill that diffs local BibTeX entries against freshly fetched records, and shared bounded fan-out rules capping parallel worker batches.
 Late October added two community search skills, `/keenable-search` (keyless web search and page fetch, October 23) and `/firecrawl-search` (October 24), lifting the mainline count from 85 to 87, plus a refresh of the OpenAI model defaults and llm-chat request compatibility (October 24).
 The technical report carries Hugging Face's #1 Paper of the Day badge on the repository's README, the only independent-attention signal in its footprint beside the PaperWeekly feature.
@@ -84,10 +84,10 @@ Not for anyone who needs a machine verifier behind results, a small inspectable 
 ## References
 
 - https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep - repository and README: skill set, harness adapters, executor-reviewer split, release train, HF #1 Paper of the Day badge (fetched 200, 2026-10-25)
-- https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep - stars, forks, created and pushed dates, MIT license, and topics for the as-of status (fetched 200, 2026-10-25)
+- https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep - stars, forks, created and pushed dates, MIT license, and topics for the as-of status (fetched 200, 2026-10-29)
 - https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/main/README.md - the README source: skills, adapter list, ARIS-Code v0.4.28 details, the codex-cli 0.154 bridge note, and the October what's-new entries (fetched 200, 2026-10-25)
 - https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/contents/skills - the skills directory listing grounding the 87-skill count (91 entries minus the shared-references docs and the three Codex mirrors) (fetched 200, 2026-10-25)
 - https://arxiv.org/abs/2605.03042 - the technical report: cross-model adversarial collaboration, the plausible-unsupported-success failure mode, and the three-layer architecture (fetched 200, 2026-10-21)
 - https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/releases?per_page=5 - the release train through v0.4.28 (2026-09-28), still the latest (fetched 200, 2026-10-25)
-- https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/commits?since=2026-10-21T00:00:00Z&per_page=20 - the October 22-24 commits behind this refresh: keenable-search (October 23), firecrawl-search (PR #464, October 24), the OpenAI defaults refresh (PR #478), and the README numbering fix (fetched 200, 2026-10-25)
+- https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/commits?since=2026-10-25T00:00:00Z&per_page=30 - the October 29 documentation-only commits behind this refresh (search authentication and DeepXiv env loading, PR #482), following the October 22-24 skill and defaults commits (fetched 200, 2026-10-29)
 - https://hn.algolia.com/api/v1/search?query=claude-code-research-in-sleep - the zero-story Hacker News footprint (fetched 200, 2026-10-21)

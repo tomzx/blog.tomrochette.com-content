@@ -1,7 +1,7 @@
 ---
 title: Arbor
 created: 2026-10-12
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, hypothesis-tree, held-out-validation, multi-agent, open-source]
 readability: 3
@@ -67,6 +67,7 @@ Not for anyone needing a maintained release train or independent benchmark evide
 ## Changes
 
 - 2026-10-12 - Created.
+- 2026-10-29 - Rotation re-verification: all six references re-fetched; the repository stands paused at v0.1.4 (last push September 8, PyPI still 0.1.4), and the VentureBeat coverage remains unfetchable to bots.
 
 ## See also
 
@@ -82,4 +83,4 @@ Not for anyone needing a maintained release train or independent benchmark evide
 - https://arxiv.org/abs/2606.11926 - the paper "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement": the HTR mechanism and authors (fetched 200, 2026-10-28)
 - https://pypi.org/pypi/arbor-agent/json - package version 0.1.4 (fetched 200, 2026-10-28)
 - https://RUC-NLPIR.github.io/Arbor/ - project page and documentation (fetched 200, 2026-10-28)
-- https://venturebeat.com/orchestration/new-ai-optimization-framework-beats-claude-code-and-codex-by-2-5x-on-the-same-compute-budget/ - the June 18 2026 coverage of the 2.5x claim (behind a bot checkpoint again on 2026-10-28, unfetchable)
+- https://venturebeat.com/orchestration/new-ai-optimization-framework-beats-claude-code-and-codex-by-2-5x-on-the-same-compute-budget/ - the June 18 2026 coverage of the 2.5x claim (behind a bot checkpoint on 2026-10-28 and rate-limited to automated fetchers on the 2026-10-29 retry, unfetchable)

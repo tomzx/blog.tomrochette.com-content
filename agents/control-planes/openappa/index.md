@@ -1,7 +1,7 @@
 ---
 title: OpenAPPA
 created: 2026-10-07
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, information-flow-control, policy-enforcement, prompt-injection, rust]
 readability: 3
@@ -23,7 +23,7 @@ A Claude Code plugin (`appa plugin install claude-code`) is the fastest integrat
 
 ## Status
 
-Active and fast-growing for its age: 1,561 stars and 66 forks as of 2026-10-14 since creation on 2026-08-18, pushed 2026-10-27, latest release v0.37.0 (2026-10-20, two stable releases that day), positioned as a preview and an RFC where config and wire surfaces may break without shims.
+Active and fast-growing for its age: 1,561 stars and 66 forks as of 2026-10-14 since creation on 2026-08-18, pushed 2026-10-29 as of 2026-10-30, latest release v0.37.0 (2026-10-20, two stable releases that day), positioned as a preview and an RFC where config and wire surfaces may break without shims.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=archestra-ai/OpenAPPA&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for teams that need budgets, org models, or fleet approvals, because OpenAPP
 - 2026-10-16 - Release train moved to v0.34.0 (2026-10-14) and the stale v0.31.1 release reference corrected.
 - 2026-10-19 - Release train moved to v0.35.1 (2026-10-18).
 - 2026-10-21 - Release train moved to v0.37.0 (2026-10-20, two stable releases that day).
+- 2026-10-30 - Rotation re-verification: every reference re-fetched (README, the three site pages, the APPA paper, the HN thread, the repository and releases APIs), with no drift: v0.37.0 still the latest release, the paper and benchmarks unchanged, and the HN thread still 2 points with zero comments; only the push date moved.
 
 ## See also
 

@@ -14,6 +14,7 @@ Personal assistant runtimes outside the editor: the -claw family and its auditab
 - [AstrBot](astrbot/index.md) - the AGPL-3.0 IM-platform veteran from 2022: 14-plus official chat platforms, a 1,000-plus-plugin marketplace, and an agent sandbox at 41.8k stars.
 - [Eigent](eigent/index.md) - the Apache-2.0 Cowork desktop with CAMEL-based multi-agent workforces and a corrected-benchmark history.
 - [Hermes](hermes/index.md) - Nous Research's self-improving agent with the learning loop, about 253k stars, paid tiers live, and the channels to match.
+- [LangBot](langbot/index.md) - the Apache-2.0 IM-platform veteran from 2022: production guardrails, multi-pipeline bot operations, and eleven chat platforms at 18.6k stars.
 - [Nanobot](nanobot/index.md) - HKUDS' readable Python agent runtime with the WebUI and channels bundled, 49k stars at alpha.
 - [NanoClaw](nanoclaw/index.md) - the auditable containerized OpenClaw rewrite, one process you can read in an afternoon.
 - [Octop](octop/index.md) - Tencent Cloud's MIT multi-user self-hosted assistant: expert teams per household member, eight IM channels, ACP in both directions, 9.2k stars in three months.
@@ -45,3 +46,4 @@ Its members are compared on shared rows in the [Assistant Runtimes Feature Matri
 - 2026-10-03 - Added OpenWorker.
 - 2026-10-06 - Added AstrBot.
 - 2026-10-07 - Added Octop.
+- 2026-10-30 - Added LangBot.

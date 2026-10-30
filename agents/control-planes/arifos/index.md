@@ -1,7 +1,7 @@
 ---
 title: arifOS
 created: 2026-10-16
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, governance-kernel, mcp, open-source]
 readability: 3
@@ -18,13 +18,14 @@ arifOS (ariffazil/arifOS) is an AGPL-3.0 governance kernel for MCP agents that e
 
 A single-maintainer kernel you self-host or reach as the maintainer's public MCP endpoint (streamable HTTP, eight canonical verbs, published schemas), installable with `pip install arifos` and calendar-versioned (PyPI 1!2026.10.17).
 The federation assigns roles so no component holds all the power: AAA does discovery and attention, arifOS judges, A-FORGE executes (file, service, and git mutations gated by per-action-class budgets, HMAC-signed requests, and a receipt per run), FRAME witnesses, and VAULT999 remembers, with proposer-judge-executor-witness separation stated as an invariant.
-The thirteen floors are the policy gates, the README naming F2, F11, F12, and F13 as the ones currently failing, and the wire contract answers with seven verdicts rather than a boolean.
+The thirteen floors are the policy gates, the pinned independent audit naming F2, F11, F12, and F13 as the ones failing, and the wire contract answers with seven verdicts rather than a boolean.
+Since 2026-10-30 the kernel's init envelopes also carry a model-governance card naming the model provenance of each response, minted server-side only and answering UNKNOWN fail-closed when absent, which took the enforcement surface from 32 to 33.
 Verdicts land in VAULT999 (457,000-plus append-only records per the repository's own manifest) with decision context, evidence references, and provenance hashes, and an A2A v1.0 agent card exposes the kernel to agent-to-agent discovery.
 The maintainer positions it as the layer between "agent wants to act" and "action is permitted", explicitly not a model, not an agent framework, and not a sandbox.
 
 ## Status
 
-Active and early: 54 stars and 9 forks as of 2026-10-18, with 12 open issues and the latest push on 2026-10-27 as of 2026-10-28, created 2025-11-17, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
+Active and early: 54 stars and 9 forks as of 2026-10-18, with 14 open issues and the latest push on 2026-10-30 as of 2026-10-30, created 2025-11-17, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ariffazil/arifOS&type=date&theme=dark&legend=top-left" />
@@ -32,7 +33,7 @@ Active and early: 54 stars and 9 forks as of 2026-10-18, with 12 open issues and
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ariffazil/arifOS&type=date&legend=top-left" />
 </picture>
 
-**The most striking artifact is the README's own verified-state block, machine-stamped by the project's probe scripts and reading like an adversarial audit the project ran on itself: the current self-measurement (stamped 2026-10-26) reads the kernel degraded with 11 of 13 floors measured pass and failing F8, with the drift flag reading aligned (source, build, and deployment on one commit), while the pinned independent audit of 2026-10-11 still reads 2 pass, 4 fail (F2, F11, F12, F13), and 7 unmeasured, and the block itself warns that these are two different witness objects, with verified actor identity, receipt fidelity on the invocation-telemetry surface, and independent reconstruction all still failing in the audit line.**
+**The most striking artifact is the README's own verified-state block, machine-stamped by the project's probe scripts and reading like an adversarial audit the project ran on itself: the current self-measurement (stamped 2026-10-29) reads the kernel degraded with 12 of 13 floors measured pass, F6 unmeasured, and none failing, with the drift flag reading aligned (source, build, and deployment on one commit), while the pinned independent audit of 2026-10-11 still reads 2 pass, 4 fail (F2, F11, F12, F13), and 7 unmeasured, and the block itself warns that these are two different witness objects, with verified actor identity, receipt fidelity on the invocation-telemetry surface, and independent reconstruction all still failing in the audit line.**
 That same block admits an earlier 13-of-13 floors reading was a false pass caused by a threshold defect, and states plainly that there are no customers, no pilots, no independent benchmark, no external security audit, and zero revenue.
 A Hacker News search returns no threads about arifOS, so an eleven-month-old kernel has zero community footprint, and the awesome-ai-governance directory listing (added 2026-10-16) is the only third-party surface I found.
 
@@ -73,6 +74,7 @@ Not for anyone who needs verified actor identity, measured floors, or a communit
 - 2026-10-23 - The self-measurement block moved again to 10 of 13 floors measured pass, failing F1 and F8, still self-reporting degraded (2026-10-21 stamp), with the independent audit reading unchanged and the PyPI package trailing at 1!2026.10.17 while repository tags reached v2026.10.23.
 - 2026-10-26 - Repository activity claims an F1 fix and new floor measurements ("F1 fixed, F10 measured, F6 unmeasured"), but the README's own drift flag reads repo_live_divergence with deployment pending, so the live self-measurement stamp still reads the 2026-10-21 block (10 of 13 pass, failing F1 and F8) and PyPI still trails at 1!2026.10.17 while tags reached v2026.10.26.
 - 2026-10-28 - The self-measurement stamp moved to 2026-10-26 (11 of 13 floors pass, failing F8 only, drift aligned with source, build, and deployment on one commit), clearing the F1 failure the 10-26 drift flag had held undeployed, against the unchanged 2026-10-11 independent audit; PyPI still trails at 1!2026.10.17 while tags reached v2026.10.27.
+- 2026-10-30 - The self-measurement stamp moved to 2026-10-29 (12 of 13 floors measured pass, F6 unmeasured, none failing, kernel still degraded, drift aligned), clearing the F8 failure, against the unchanged 2026-10-11 independent audit; the kernel also landed a model-governance card on its init envelopes (server-minted model provenance, fail-closed UNKNOWN, enforcement surface 32 to 33), and PyPI still trails at 1!2026.10.17.
 
 ## See also
 

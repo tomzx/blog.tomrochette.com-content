@@ -1,7 +1,7 @@
 ---
 title: ZeroClaw
 created: 2026-08-27
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, rust, open-source]
 readability: 3
@@ -23,7 +23,7 @@ An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android),
 ## Status
 
 Active and large, but quietly so.
-32,977 stars and 4,976 forks as of 2026-10-14 since creation on 2026-02-13, pushed 2026-10-28 with 1,100 open issues as of 2026-10-28, Apache-2.0/MIT dual licensed.
+32,977 stars and 4,976 forks as of 2026-10-14 since creation on 2026-02-13, pushed 2026-10-30 with 1,081 open issues as of 2026-10-30, Apache-2.0/MIT dual licensed.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: Tracekit
 created: 2026-10-21
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, audit, open-source]
 readability: 3
@@ -20,11 +20,12 @@ Three pieces: an SDK or hook inside the agent (Python and TypeScript, with quick
 The signer answers allow, deny, or ask for each call, signs the call, the decision, and the result as Ed25519 over RFC 8785 canonical JSON, and chains each record to the hash of the one before it, so a changed byte fails verification at that record.
 Checkpoints are C2SP signed notes that independent witnesses cosign, and `tracekit export` produces one .tkb file per run that `tracekit verify` checks offline against pinned keys, answering VERIFIED, FAILED, or UNVERIFIABLE and naming the record that changed.
 The signer-placement table is the threat model in miniature: laptop dev mode runs where the agent's own user can reach the key and records that fact, while separate-user, container, and central-HTTPS modes record stronger isolation.
-The project is under a month old (repository created 2026-09-26) from Cygnux Labs, which offers a free two-week pilot, and the docs live in the repository wiki.
+v1.5.0 (2026-10-28) adds the first cross-agent surfaces, all experimental: an A2A gateway with C2C transfer records, PCM 0.1 proof-carrying messages between agents, and tracekit graph, a graded graph of what agents did across runs, plus coding-agent hooks for goose, Qwen Code, Antigravity CLI, and Factory Droid beside the Claude Code, Codex, Cursor, Gemini CLI, and OpenCode wiring.
+The project is five weeks old (repository created 2026-09-26) from Cygnux Labs, which offers a free two-week pilot, the docs live in the repository wiki, and the team posted its own arXiv paper (2609.35659, revised 2026-10-21) describing the design and the experiments.
 
 ## Status
 
-Active and very young: 138 stars, 9 forks, and 36 open issues and pull requests as of 2026-10-28, created 2026-09-26, pushed 2026-10-28, with the PyPI package tracekit-ai at 1.4.2 (2026-10-24) and six releases between 2026-10-16 and 2026-10-24.
+Active and very young: 138 stars and 9 forks as of 2026-10-28, with 35 open issues and pull requests and the latest push on 2026-10-30 as of 2026-10-30, created 2026-09-26, with the PyPI package tracekit-ai at 1.5.0 (2026-10-28) and seven releases between 2026-10-16 and 2026-10-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Cygnux-Labs/Tracekit&type=date&theme=dark&legend=top-left" />
@@ -33,8 +34,8 @@ Active and very young: 138 stars, 9 forks, and 36 open issues and pull requests 
 </picture>
 
 **The README's own boundary table is the critical read: a verified run proves the record is intact, not that every action was captured, and the log catches tail truncation and re-signing with a stolen key only when a witness holds a copy of the head, but the witness and the monitor are both experimental and no public witness is running yet.**
-The proof numbers (570 of 570 harmful calls stopped across 11 classes with one false alarm in 738, 0.91 milliseconds added per call at p99, 8 of 8 tamper attacks caught with a witness) are all self-reported.
-A Hacker News search returns no threads about this project; the hits are an unrelated 2011 JavaScript stack-trace library and a different repository with the same name, so the community footprint is the repository alone.
+The proof numbers (699 of 699 harmful calls stopped across 11 classes with one false alarm in 800, 0.91 milliseconds added per call at p99, 8 of 8 tamper attacks caught with a witness) are all self-reported, and the project's own paper concedes the sharper number: on calls written blind to the rules, the policy packs stopped or held only 211 of 420, so the paper itself calls the rules a tripwire and the signer's isolation the real boundary.
+A Hacker News search re-run 2026-10-30 returns no threads about this project; the hits are an unrelated 2011 JavaScript stack-trace library and a different repository with the same name, so the community footprint is the repository alone.
 
 ## Strengths
 
@@ -45,7 +46,7 @@ A Hacker News search returns no threads about this project; the hits are an unre
 
 ## Cautions
 
-- Three and a half weeks old, zero community footprint, and every security number is the project's own; nobody independent has tried to break the log.
+- Five weeks old, zero community footprint, and every security number is the project's own; nobody independent has tried to break the log.
 - Without a witness, the two attacks that matter most (truncating the tail, re-signing with a stolen key) are exactly the ones the log cannot catch, and no public witness exists yet.
 - Placement decides everything: the laptop dev mode records `same-user` isolation, which the README itself says a knowing agent could exploit by reading the key and re-signing.
 - The name collides with an older JavaScript library and at least one other agent project, so searching for coverage takes care.
@@ -70,6 +71,7 @@ Not for anyone who needs an independently reviewed gate today, and not for debug
 
 - 2026-10-21 - Created from the awesome-ai-governance scan (added to the source's Agent Action Records section on 2026-10-19), profiling the CT-style signer as the category's first witness-cosigned evidence log.
 - 2026-10-25 - Release train moved to v1.4.2 (2026-10-24, PyPI in step), the sixth release in nine days, and the open-issue count rose from 12 to 22.
+- 2026-10-30 - Release train moved to v1.5.0 (2026-10-28): experimental cross-agent surfaces (an A2A gateway with C2C transfer records, PCM 0.1 proof-carrying messages, and tracekit graph), policy packs for database-client destructive statements and repository deletion, coding-agent hooks for goose, Qwen Code, Antigravity CLI, and Factory Droid, and the README proof line moved to 699 of 699 harmful calls; added the project's arXiv paper, which states the blind-pool tripwire result (211 of 420) itself.
 
 ## See also
 
@@ -82,8 +84,9 @@ Not for anyone who needs an independently reviewed gate today, and not for debug
 
 - https://github.com/Cygnux-Labs/Tracekit - README: design, signer-placement table, boundary table, standards, proof tables
 - https://api.github.com/repos/Cygnux-Labs/Tracekit - stars, forks, issues, creation and push dates as of 2026-10-21
-- https://api.github.com/repos/Cygnux-Labs/Tracekit/releases - v1.4.1 (2026-10-20) and the release train
-- https://pypi.org/pypi/tracekit-ai/json - tracekit-ai 1.4.1, Beta
+- https://api.github.com/repos/Cygnux-Labs/Tracekit/releases - v1.5.0 (2026-10-28) and the release train
+- https://pypi.org/pypi/tracekit-ai/json - tracekit-ai 1.5.0, Beta
+- https://arxiv.org/abs/2609.35659 - the project's own paper: the design, the 21 experiments, and the blind-pool tripwire concession
 - https://github.com/Cygnux-Labs/Tracekit/wiki/Witnesses - checkpoint mechanics, the per-witness trust model, and the experimental status
 - https://github.com/agentrust-io/awesome-ai-governance - the listing that surfaced it (Agent Action Records, added 2026-10-19)
 - https://hn.algolia.com/api/v1/search?query=tracekit&tags=story - the zero-thread footprint check and the name collisions

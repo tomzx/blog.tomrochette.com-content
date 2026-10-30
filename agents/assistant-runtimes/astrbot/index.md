@@ -1,7 +1,7 @@
 ---
 title: AstrBot
 created: 2026-10-06
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, chat-channels, plugins, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The agent layer has sub-agents, tool calls, workflow orchestration, context comp
 
 ## Status
 
-Active and long-lived: 41,837 stars and 3,058 forks as of 2026-10-14, created 2022-12-08, 1,066 open issues and pull requests with the last push on 2026-10-28 as of 2026-10-28, AGPL-3.0.
+Active and long-lived: 41,837 stars and 3,058 forks as of 2026-10-14, created 2022-12-08, 1,109 open issues and pull requests with the last push on 2026-10-29 as of 2026-10-30, AGPL-3.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&theme=dark&legend=top-left" />
@@ -76,6 +76,7 @@ Not for anyone who needs permissive licensing for a hosted offering, or who cann
 - 2026-10-16 - Recorded v4.29.0 stable (published 2026-10-14), graduating the prerelease line, with refreshed adoption numbers.
 - 2026-10-18 - Recorded v4.29.1 (published 2026-10-17), the first patch on the stable v4.29 line, with refreshed adoption numbers.
 - 2026-10-25 - Recorded v4.29.3 (2026-10-24, message tracing, redacted diagnostics export, multilingual installer with China mirrors, backup and Gemini fixes; the v4.29.2 tag skipped), with refreshed adoption numbers.
+- 2026-10-30 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, astrbot.app, the English docs, the QQ-adapter issue 8131, the HN footprint search), v4.29.3 (2026-10-24) confirmed still the latest release, the 14-plus platform table, the Agent Sandbox, and the missing-English-footprint record (only astroturfing typo-matches on HN) all intact.
 
 ## See also
 

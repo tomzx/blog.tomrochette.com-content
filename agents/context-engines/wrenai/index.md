@@ -1,7 +1,7 @@
 ---
 title: WrenAI
 created: 2026-10-10
-updated: 2026-10-27
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, semantic-layer, text-to-sql, genbi]
 readability: 3
@@ -23,7 +23,7 @@ Everything Wren writes is plain YAML and Markdown in a repo you own, and Git Syn
 
 ## Status
 
-Established and active: 17,877 stars as of 2026-10-18, 2,070 forks and 262 open issues as of 2026-10-27, created 2024-03-13, pushed 2026-10-27, with the wren-v0.17.0 release published 2026-10-27 and PyPI (wrenai) tracking the same 0.17.0.
+Established and active: 17,877 stars as of 2026-10-18, 2,073 forks and 263 open issues as of 2026-10-30, created 2024-03-13, pushed 2026-10-30, with the wren-v0.17.1 patch release published 2026-10-30 (the `to_arrow_table` fix for DuckDB 2.0 compatibility) and PyPI (wrenai) tracking 0.17.1, following wren-v0.17.0 on 2026-10-27.
 Release 0.17.0 shipped the Apache Ossie work recorded here on 10-24 (the `wren context import` and `export` ossie commands joining dbt and OpenMetadata, plus importing a Wren project from an OpenMetadata catalog) alongside ClickHouse dialect-translation fixes, JSON output that keeps dates and integers intact, an MCP SDK major-version pin, and wren-core-py 0.8.2 (2026-10-23) with the DISTINCT ON column fix in the bindings.
 The docs page claims SOC 2 Type II certification and now quotes 17.8k GitHub stars against the live count; its old 17-plus data-source figure is gone (the README stays at 22-plus), closing the discrepancy flagged on 2026-10-11.
 The community footprint is lopsided: a Hacker News search returns over a thousand matches but every thread is small (the largest found carries 6 points), so nearly five figures of stars have produced no front-page discussion.
@@ -54,7 +54,7 @@ Free open-source core (Apache-2.0, self-hostable) and a free cloud tier with 20 
 Essential Cloud is $179 per month billed annually (13,200 annual credits, extra credits at $0.10, rollover up to 2x).
 Enterprise Cloud is $559 per month billed annually (24,000 annual credits) adding MCP integration, row- and column-level data control, and audit.
 A fourth tier, Enterprise Plus, is quoted by sales: self-hosted in your own cloud, on-prem, or air-gapped, licensed by concurrent sessions rather than credits, annual contract only, adding SSO and SCIM 2.0, the evaluation framework, and thread tracing.
-All as of 2026-10-22, the credit tiers re-verified unchanged against the live pricing page.
+All as of 2026-10-30, the credit tiers re-verified unchanged against the live pricing page.
 
 ## Price history
 
@@ -84,6 +84,7 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 - 2026-10-22 - Rotation re-verification: every cited URL re-fetched, the star-history picture block corrected (its light-theme source and fallback carried the dark theme), and the docs-versus-README data-source discrepancy closed (the docs page now quotes 17.8k GitHub stars and no longer carries a source count); pricing tiers re-verified unchanged, forks and open issues refreshed.
 - 2026-10-24 - Recorded the context import/export surface gaining Apache Ossie (2026-10-22, joining dbt and OpenMetadata under one import command with a matching export) and wren-core-py 0.8.2 (2026-10-23, the DISTINCT ON fix shipped in the bindings); volatile numbers refreshed (2,067 forks, 257 open issues, pushed 2026-10-23).
 - 2026-10-27 - Recorded wren-v0.17.0 (published 2026-10-27: the Ossie context import/export commands and rename, OpenMetadata catalog project import, ClickHouse dialect-translation fixes, JSON output keeping dates and integers intact, and an MCP SDK major-version pin) with PyPI wrenai tracking 0.17.0; volatile numbers refreshed (2,070 forks, 262 open issues, pushed 2026-10-27).
+- 2026-10-30 - Recorded wren-v0.17.1 (2026-10-30: the DuckDB 2.0 `to_arrow_table` compatibility fix) with PyPI tracking 0.17.1; volatile numbers refreshed (2,073 forks, 263 open issues, pushed 2026-10-30) and the credit tiers re-verified unchanged against the live pricing page.
 
 ## See also
 
@@ -96,8 +97,8 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 ## References
 
 - https://github.com/Canner/WrenAI - repository: README, architecture, open-core split, license badge
-- https://api.github.com/repos/Canner/WrenAI - stars, forks, issues, creation and push dates as of 2026-10-18
-- https://api.github.com/repos/Canner/WrenAI/releases - wren-v0.17.0 published 2026-10-27 (Ossie import/export, OpenMetadata catalog import, ClickHouse and JSON-output fixes) and the component release train (re-fetched 2026-10-27)
+- https://api.github.com/repos/Canner/WrenAI - forks, open issues, creation and push dates as of 2026-10-30 (stars kept at the 2026-10-18 baseline)
+- https://api.github.com/repos/Canner/WrenAI/releases - wren-v0.17.1 published 2026-10-30 (the DuckDB 2.0 compatibility fix) after wren-v0.17.0 on 2026-10-27, plus the component release train (re-fetched 2026-10-30)
 - https://api.github.com/repos/Canner/WrenAI/pulls/2821 - the Ossie import/export merge: Apache Ossie joining dbt and OpenMetadata under one `wren context import` command (fetched 2026-10-24)
 - https://www.getwren.ai/pricing - the credit tiers, quotas, and Enterprise feature gates as of 2026-10-10
 - https://docs.getwren.ai/ - the docs portal: editions, SOC 2 claim, and the 15k-plus star line

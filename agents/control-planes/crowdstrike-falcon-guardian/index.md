@@ -1,7 +1,7 @@
 ---
 title: CrowdStrike Falcon Guardian
 created: 2026-10-04
-updated: 2026-10-23
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, governance, security]
 readability: 3
@@ -61,6 +61,7 @@ Not for teams whose agents run outside managed endpoints, and not for anyone who
 - 2026-10-04 - Created.
 - 2026-10-16 - Rotation re-verification: every reference re-fetched, the product page still carrying the 99 percent prompt-attack efficacy and sub-100-millisecond claims plus the AI gateway announcement, the docs path still a client-rendered shell, and the Reddit thread still blocking scripted fetches; no drift found.
 - 2026-10-23 - Rotation re-verification: every reference re-fetched, the product page still carrying the 99 percent and sub-100-millisecond internal-benchmark claims with the AI gateway still marked coming soon, the launch blog (September 1) and AIDR solution page unchanged, the docs path still a client-rendered shell, and the Reddit thread still 403 to scripted fetch; no drift found.
+- 2026-10-30 - Rotation re-verification: every reference re-fetched with the same result set, the product page still carrying the internal-benchmark claims with the AI gateway still marked coming soon (the FAQ now naming 200-plus prompt-injection techniques), the launch blog and AIDR solution page unchanged, the docs path still a client-rendered shell, and the Reddit thread still 403 to scripted fetch; no drift found.
 
 ## See also
 

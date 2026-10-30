@@ -1,7 +1,7 @@
 ---
 title: Open WebUI
 created: 2026-09-27
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, self-hosting, rag, licensing]
 readability: 3
@@ -25,7 +25,7 @@ The ecosystem now includes a native desktop app, an Open Terminal sandboxed exec
 
 ## Status
 
-Very active and huge for the category: 155,578 stars and 22,676 forks as of 2026-10-14, created 2023-10-06, 207 open issues with the last push on 2026-10-28 as of 2026-10-28.
+Very active and huge for the category: 155,578 stars and 22,676 forks as of 2026-10-14, created 2023-10-06, 153 open issues with the last push on 2026-10-30 as of 2026-10-30.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=open-webui/open-webui&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Very active and huge for the category: 155,578 stars and 22,676 forks as of 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=open-webui/open-webui&type=date&legend=top-left" />
 </picture>
 
-Releases are frequent: v0.12.0 shipped 2026-10-10, v0.12.1 and v0.12.2 followed on 2026-10-14, v0.12.3 landed 2026-10-16 with opt-in end-to-end encrypted chats as its headline (MLS-based direct and group-channel chats, off by default, cleared on reload and never saved server-side), and v0.12.4 shipped 2026-10-25 with opt-in skill lazy loading as its headline (administrators can have selected skills load only when the model needs them instead of sending full instructions with every message), compaction surfaced and extended in chats, administrator-side control hiding, MCP 2026-07-28 protocol support, and a security-fix set the changelog deliberately does not list until CVE assignment, following v0.11.4 on 2026-09-21 (notably a much slimmer Docker image), v0.11.3 and v0.11.2 on 2026-08-31, and v0.11.1 on 2026-08-25.
+Releases are frequent: v0.12.0 shipped 2026-10-10, v0.12.1 and v0.12.2 followed on 2026-10-14, v0.12.3 landed 2026-10-16 with opt-in end-to-end encrypted chats as its headline (MLS-based direct and group-channel chats, off by default, cleared on reload and never saved server-side), v0.12.4 shipped 2026-10-25 with opt-in skill lazy loading as its headline (administrators can have selected skills load only when the model needs them instead of sending full instructions with every message), compaction surfaced and extended in chats, administrator-side control hiding, MCP 2026-07-28 protocol support, and a security-fix set the changelog deliberately does not list until CVE assignment, and v0.12.5 shipped 2026-10-29 (an admin analytics session explorer listing each chat with its tokens, responses, errors, and tool-call timing, multi-page notes with live presence, and another security-fix set the changelog again withholds until CVE assignment), following v0.11.4 on 2026-09-21 (notably a much slimmer Docker image), v0.11.3 and v0.11.2 on 2026-08-31, and v0.11.1 on 2026-08-25.
 The README now markets it as "a home for AI" rather than a UI, which matches the expansion into the desktop app, Open Terminal, Computer, and knowledge base sync.
 **The license history is the defining fact: MIT until December 2024, BSD-3 until v0.6.5, then the custom Open WebUI License from v0.6.6, which forbids removing or altering the branding unless you stay at or below 50 users in any 30-day window, are a substantive contributor with written permission, or buy an enterprise license, with a CLA required for new contributions.**
 The project's own license FAQ concedes the license is not OSI-approved.
@@ -79,6 +79,8 @@ The disagreeable claim I will defend: most of the license outrage is disproporti
 - 2026-10-16 - Recorded v0.12.1 and v0.12.2 (both 2026-10-14) on the 0.12 line, with refreshed adoption numbers.
 - 2026-10-18 - Recorded v0.12.3 (2026-10-16), whose headline is opt-in end-to-end encrypted chats (MLS-based, off by default), with refreshed adoption numbers.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the v0.12.4 release notes, README, the license FAQ, the license-change thread, the Algolia story search), and recorded v0.12.4 (2026-10-25, opt-in skill lazy loading, compaction surfaced and extended in chats, administrator control hiding, MCP 2026-07-28 support, and unlisted security fixes pending CVE assignment), with refreshed adoption numbers.
+- 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the license FAQ, the license-change thread, the Algolia story search), v0.12.4 (2026-10-25) confirmed still the latest release, and the branding clause, the 50-user threshold, the CLA, the fork-from-v0.6.5 path, and the non-OSI admission unchanged.
+- 2026-10-30 - Recorded v0.12.5 (2026-10-29: the admin analytics session explorer, multi-page notes with live presence, and another unlisted security-fix set pending CVE assignment), with refreshed adoption numbers.
 
 ## See also
 

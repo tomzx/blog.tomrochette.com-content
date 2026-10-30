@@ -1,7 +1,7 @@
 ---
 title: AiScientist
 created: 2026-10-11
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, machine-learning-engineering, paper-reproduction, multi-agent, open-source]
 readability: 3
@@ -65,6 +65,7 @@ Not for production use: the repository has been dormant since July 2026 and the 
 ## Changes
 
 - 2026-10-11 - Created.
+- 2026-10-29 - Rotation re-verification: all five references re-fetched, no drift; the repository stands dormant since July 2026 with the name collision unchanged.
 
 ## See also
 

@@ -32,6 +32,7 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 - [FutureHouse Robin](futurehouse-robin/index.md) - the nonprofit's Nature-published wet-lab loop that proposed and validated ripasudil for dry AMD, with people at the bench and its own ablations as the critique, 733 stars as of 2026-10-11.
 - [GPT Researcher](gpt-researcher/index.md) - the Apache-2.0 open deep-research agent running the plan-search-filter-write loop on any LLM since 2023, cited in 150-plus papers as the baseline, 30,102 stars as of 2026-10-15.
 - [Harmonic Aristotle](harmonic-aristotle/index.md) - the free agentic theorem prover with a Lean-checked Erdős result, now aimed at software correctness, judged and contested on FormalQualBench.
+- [InternAgent](internagent/index.md) - Shanghai AI Laboratory's twelve-task autonomous science framework, from hypothesis to verified experiment including wet labs, with its MLEvolve subsystem carrying the only third-party anchor, fourth overall and first with source available on OpenAI's MLE-Bench leaderboard, 1,459 stars as of 2026-10-29.
 - [Kapso](kapso/index.md) - Leeroo's MIT campaign framework where long-running agents optimize AI and data systems toward a declared evaluator, banking evidence-priced lessons between campaigns, with results on MLE-Bench, ALE-Bench, RelBench, and the IOAI 2026 AI Model Track, 125 stars as of 2026-10-15.
 - [Karpathy Autoresearch](karpathy-autoresearch/index.md) - Karpathy's three-file keep-or-revert loop where an agent edits a nanochat training script overnight and the validation curve judges every experiment, the family's founding artifact, 97,798 stars as of 2026-10-21.
 - [Local Deep Research](local-deep-research/index.md) - the community's MIT local-first research agent running an agentic search loop over arXiv, PubMed, and your own encrypted document index on local models, 9,192 stars as of 2026-10-15.
@@ -81,3 +82,4 @@ Its members are compared on shared rows in the [Automated Research Feature Matri
 - 2026-10-15 - Added data-to-paper.
 - 2026-10-23 - Added AutoKernel.
 - 2026-10-28 - Added Evo.
+- 2026-10-29 - Added InternAgent.

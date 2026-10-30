@@ -1,7 +1,7 @@
 ---
 title: AlphaProof
 created: 2026-09-13
-updated: 2026-10-28
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deepmind, mathematics, formal-verification]
 readability: 3
@@ -67,6 +67,7 @@ Not for practitioners who need a runnable tool today: nothing here is self-hosta
 - 2026-09-13 - Created as the DeepMind member of the new Automated research category.
 - 2026-10-02 - Recorded the February 2026 Gemini 3 Deep Think update: the lineage now has a first Gemini API early-access path, so the bottom line no longer calls it strictly non-API.
 - 2026-10-12 - Recorded AlphaProof Nexus's October 8 Science publication (nine formalized Erdős problems, 44 OEIS conjectures, public Lean artifacts) and the basic-agent ablation caveat.
+- 2026-10-29 - Rotation re-verification: all eight references re-fetched, no drift; the alphaproof-nexus-results repository still holds the public Apache-2.0 proofs.
 
 ## See also
 

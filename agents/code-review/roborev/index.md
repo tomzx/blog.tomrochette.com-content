@@ -1,7 +1,7 @@
 ---
 title: roborev
 created: 2026-10-06
-updated: 2026-10-27
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -80,6 +80,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 - 2026-10-24 - Volatile re-verification: recorded v0.73.0 (October 23), the opt-in test-value review type that recommends removing tests protecting no owned behavior, Muse Code agent support, and separate index and query prefix overrides, with the release train at 122-plus releases.
 - 2026-10-26 - Volatile re-verification: the push moved to October 26 with v0.73.0 still the latest release; nothing else changed.
 - 2026-10-27 - Volatile re-verification: recorded v0.74.0 (October 27), the /roborev-setup-review conversational setup skill, strict review tool policies with MCP grants, strict locked-down Claude Code review sessions that ignore user and project settings, binary evidence for committed PDFs and images, and document review panels, taking the release train to 123-plus releases.
+- 2026-10-30 - Volatile re-verification: the push moved to October 30 with v0.74.0 still the latest release; nothing else changed.
 
 ## See also
 
@@ -91,13 +92,13 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 
 ## References
 
-- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05 (GitHub API, as of 2026-10-11; re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, and 2026-10-27, pushed 2026-10-27 with v0.74.0 the latest release)
+- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05 (GitHub API, as of 2026-10-11; re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-27, and 2026-10-30, pushed 2026-10-30 with v0.74.0 the latest release)
 - https://raw.githubusercontent.com/kenn-io/roborev/HEAD/README.md - the two automation layers, the refine skill, and install paths
 - https://roborev.io/docs/ - the ledger model, the agent hook, panels, PostgreSQL sync, and the ACP surface
 - https://roborev.io/docs/agents.md - the eleven supported agents and the auto-detection fallback order
 - https://roborev.io/docs/integrations/github.md - the CI poller, subagent panels with synthesis (0.57+), and trusted-collaborator context
 - https://roborev.io/docs/changelog/ - the release train, the 0.33 false-positive work, and the gh-action generator
-- https://github.com/kenn-io/roborev/releases - v0.74.0 (2026-10-27) latest: the /roborev-setup-review skill, strict review tool policies with MCP grants, strict locked-down Claude Code sessions, binary evidence, document review panels, and immediate start for queued jobs; the release list spans 13 pages, so 123-plus releases (GitHub API and releases page, v0.72.0 and list as of 2026-10-17, v0.73.0 fetched 2026-10-24, v0.74.0 fetched 2026-10-27)
+- https://github.com/kenn-io/roborev/releases - v0.74.0 (2026-10-27) latest: the /roborev-setup-review skill, strict review tool policies with MCP grants, strict locked-down Claude Code sessions, binary evidence, document review panels, and immediate start for queued jobs; the release list spans 13 pages, so 123-plus releases (GitHub API and releases page, v0.72.0 and list as of 2026-10-17, v0.73.0 fetched 2026-10-24, v0.74.0 fetched 2026-10-27, re-fetched unchanged 2026-10-30)
 - https://hn.algolia.com/api/v1/items/46515428 - the 4-point, zero-comment launch thread, the thin-footprint signal
 - https://wesmckinney.com/blog/agentic-engineering-aug-2026/ - the author's workflow grounding the design, roborev as the verification layer beside Superpowers
 - https://posit.co/blog/the-prolific-output-of-wes-mckinney-in-the-age-of-agentic-engineering/ - the independent profile of author and tool, and the source linking the pre-transfer roborev-dev org

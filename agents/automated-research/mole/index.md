@@ -1,7 +1,7 @@
 ---
 title: Mole
 created: 2026-10-12
-updated: 2026-10-26
+updated: 2026-10-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deep-research, budget-enforcement, open-source]
 readability: 3
@@ -23,7 +23,7 @@ The privacy boundary covers local data too: point it at a CSV or a folder and th
 
 ## Status
 
-Active and young: 314 stars, 20 forks, created 2026-08-01, last pushed 2026-10-25 (unreleased main-branch fixes: the verifier stops a pass on a fatal second look instead of continuing, the executor verifies what research found on every ceiling stop, and the budget no longer lets max_leads mask the wall clock), releases v0.1.0 (2026-08-13), v0.2.0 (2026-10-10), and v0.2.1 (2026-10-13) still the latest, as of 2026-10-26.
+Active and young: 314 stars, 20 forks, created 2026-08-01, last pushed 2026-10-28 (unreleased main-branch work: the verifier now judges contradictions from the quote with same-quantity-first ordering and treats competing estimates of one quantity as contradictions, on top of the earlier fatal-second-look stop, the ceiling-stop verification of what research found, and the wall-clock fix that stops max_leads masking the budget), releases v0.1.0 (2026-08-13), v0.2.0 (2026-10-10), and v0.2.1 (2026-10-13) still the latest, as of 2026-10-29.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lajosdeme/mole&type=date&theme=dark&legend=top-left" />
@@ -69,6 +69,7 @@ Not for anyone needing a mature, independently evaluated tool: the project is on
 
 - 2026-10-12 - Created.
 - 2026-10-15 - Recorded the v0.2.1 pricing fix: the ledger had left 143 of 185 calls in a sampled run unpriced, so a dollar ceiling could not bind on the phase that makes most calls, and flagged the 0 percent overshoot figure as measured under that earlier accounting.
+- 2026-10-29 - Volatile re-verification: recorded the unreleased verifier rework on main (contradictions judged from the quote with same-quantity-first ordering, and competing estimates of one quantity counted as contradictions) and moved the push date to October 28.
 
 ## See also
 
@@ -79,8 +80,8 @@ Not for anyone needing a mature, independently evaluated tool: the project is on
 
 ## References
 
-- https://github.com/lajosdeme/mole - repository, Apache-2.0, 314 stars as of 2026-10-15, last push 2026-10-25 (push and release train re-checked via the API 2026-10-28)
+- https://github.com/lajosdeme/mole - repository, Apache-2.0, 314 stars as of 2026-10-15, last push 2026-10-28 (push and release train re-checked via the API 2026-10-29)
 - https://raw.githubusercontent.com/lajosdeme/mole/main/README.md - the loop, the reserve-settle ledger, the verbatim-quote gate, the privacy boundary, and the numbers table with its own failure rates (fetched 200, 2026-10-15)
 - https://news.ycombinator.com/item?id=49303046 - the 100-point, 14-comment launch thread with the rename calls and the budget-enforcement question (fetched via the Algolia API, 2026-10-12)
-- https://api.github.com/repos/lajosdeme/mole/releases - the release train through v0.2.1 (2026-10-13), whose note discloses the ledger pricing fix (fetched 200, 2026-10-15)
+- https://api.github.com/repos/lajosdeme/mole/releases - the release train through v0.2.1 (2026-10-13), whose note discloses the ledger pricing fix (fetched 200, 2026-10-29)
 - https://github.com/lajosdeme/mole/commit/00b9f4e - the phase-review commit recording that the toolkit budget originally bounded nothing (fetched 200 via the API, 2026-10-12)

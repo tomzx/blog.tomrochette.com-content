@@ -1,7 +1,7 @@
 ---
 title: AutoSci
 created: 2026-10-11
-updated: 2026-10-25
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, research-wiki, memory, multi-harness, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The README traces the project to an earlier OmegaWiki prototype and invokes Karp
 
 ## Status
 
-Active and beta: 1,698 stars as of 2026-10-11, 214 forks, created 2026-04-09, last pushed 2026-10-21 (a WeChat-group QR refresh), as of 2026-10-25.
+Active and beta: 1,698 stars as of 2026-10-11, 214 forks, created 2026-04-09, last pushed 2026-10-30 (another WeChat-group QR refresh), as of 2026-10-30.
 The repository now lives under the PKU-DAIR organization, the Peking University Data and Intelligence Research lab whose senior author Bin Cui leads it; the old skyllwt URLs redirect and the README still points at them.
 Since the note's creation the README also grew a works-produced section listing three papers generated end to end with the platform (Triton GPU-kernel optimization, PROTAC drug-discovery target nomination, and an LLM positivity-bias cognitive-model study).
 No GitHub releases and no relevant Hacker News threads surfaced this run; the README calls the project an internal beta shaped by community feedback.
@@ -79,7 +79,8 @@ Not for anyone needing a stable release: all three builds are beta, and the Open
 
 ## References
 
-- https://github.com/PKU-DAIR/AutoSci - repository (the skyllwt/AutoSci URL redirects here), MIT license, 1,698 stars, last push 2026-10-21 (as of 2026-10-25)
+- https://github.com/PKU-DAIR/AutoSci - repository (the skyllwt/AutoSci URL redirects here), MIT license, 1,698 stars, last push 2026-10-30 (as of 2026-10-30)
+- https://api.github.com/repos/PKU-DAIR/AutoSci - pushed_at 2026-10-30 grounding this refresh's status line, pushed since 2026-10-25 by the October 30 WeChat QR docs commit (fetched 200, 2026-10-30)
 - https://api.github.com/orgs/PKU-DAIR - the organization: Data and Intelligence Research (DAIR) Lab at Peking University, email bin.cui@pku.edu.cn (fetched 200, 2026-10-25)
 - https://raw.githubusercontent.com/PKU-DAIR/AutoSci/main/README.md - branch layout, SciMem/SciFlow/SciDAG/SciEvolve, internal-beta status, OmegaWiki origin, paper link, and the works-produced table (fetched 200, 2026-10-25)
 - https://arxiv.org/abs/2605.31468 - the paper: authors and the four-module memory-centric design (fetched 200 via the arXiv API, 2026-10-11)

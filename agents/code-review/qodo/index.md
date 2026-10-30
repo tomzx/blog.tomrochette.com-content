@@ -1,7 +1,7 @@
 ---
 title: Qodo
 created: 2026-08-30
-updated: 2026-10-26
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -101,6 +101,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 - 2026-10-11 - Recorded the vendor's own public benchmark behind the homepage F1 claim (PR-Review-Bench, February 4, 2026: 100 PRs, 580 injected issues, seven rivals, 60.1 percent F1), added its two URLs to References, and refreshed repo counts.
 - 2026-10-17 - Recorded v0.48.0 (October 16), the first release flagged with breaking changes: forge SDKs moved out of the base pip install into per-provider extras, Docker service images run non-root, and Azure DevOps and Bitbucket Server webhooks require credentials.
 - 2026-10-26 - Rotation re-verification: recorded v0.49.0 (October 25), the host-only hardening continued (GitHub polling allowlist, litellm.extra_headers, the flipped Jira default), the gpt-6.1-sol default model, the doctor preflight command, and --json-output for /describe, /review, and /improve; every cited URL re-fetched live, all prices unchanged, and the install badges refreshed to their 2026-10-26 readings.
+- 2026-10-30 - Volatile re-verification: the push moved to October 29 with v0.49.0 still the latest release; nothing else changed.
 
 ## See also
 
@@ -112,7 +113,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 
 ## References
 
-- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-10-11, re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, and 2026-10-26 (pushed 2026-10-25, v0.49.0 the latest release).
+- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-10-11, re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, and 2026-10-30 (pushed 2026-10-29 as of the last query, v0.49.0 still the latest release).
 - https://github.com/qodo-ai/pr-agent - README: donation to the community, tools table, platforms, release notes, sponsor status, "legacy project" wording.
 - https://docs.pr-agent.ai/tools/ - the full OSS command surface, including the /help_docs disabling.
 - https://www.qodo.ai/ - positioning, context engine, rules system, self-reported benchmark claim, credit FAQ, install badges.

@@ -1,7 +1,7 @@
 ---
 title: OpenWorker
 created: 2026-10-02
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtime, desktop, security, sandboxing]
 readability: 3
@@ -23,7 +23,7 @@ Every action an agent takes is governed and logged, approvals are configurable, 
 
 ## Status
 
-Early and moving fast: about 18,500 stars in its first thirteen weeks as of 2026-10-17 (created 2026-07-20), with v0.3.1 released 2026-10-05, the last push on 2026-10-27 as of 2026-10-28, and a public beta disclaimer on the README.
+Early and moving fast: about 18,500 stars in its first thirteen weeks as of 2026-10-17 (created 2026-07-20), with v0.3.1 released 2026-10-05, the last push on 2026-10-30 as of 2026-10-30, and a public beta disclaimer on the README.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=andrewyng/openworker&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for anyone needing a mature, broadly capable assistant today, or Windows-fir
 - 2026-10-07 - Added the andrewyng/openworker star history chart to the Status section.
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, v0.3.1 confirmed still latest and the beta disclaimer intact, and the sandbox story recorded as extending beyond OpenShell (the README now documents a macOS built-in sandbox and a Windows hidden-local-account sandbox beside it, plus OpenRouter key and account sign-in paths).
 - 2026-10-23 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the product site, the OpenShell sandbox doc, the approval-guidance doc), v0.3.1 confirmed still the latest release and the OpenShell 0.1.2 pin intact, and the Windows download recorded as marked coming soon on the official site.
+- 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the product site, the OpenShell sandbox doc, the approval-guidance doc), v0.3.1 confirmed still the latest release, the OpenShell 0.1.2 pin and the approval-guidance model intact, and the Windows download still marked coming soon on the official site.
 
 ## See also
 

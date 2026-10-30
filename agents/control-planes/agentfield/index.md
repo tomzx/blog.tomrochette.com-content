@@ -1,7 +1,7 @@
 ---
 title: AgentField
 created: 2026-10-13
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, identity, policy-enforcement, receipts, open-source]
 readability: 3
@@ -19,12 +19,12 @@ AgentField (Agent-Field/agentfield) is an Apache-2.0 open-source control plane f
 A stateless Go control plane you run from Docker Compose or Kubernetes (or one binary beside your agents), scaling horizontally behind a load balancer, with a dashboard on localhost 8080 and an `af` CLI for scaffolding, serving, and verification.
 Agents are plain functions in Python, Go, or TypeScript: `@app.reasoner()` marks AI judgment, `@app.skill()` marks deterministic code, and `app.run()` exposes each as a REST endpoint that auto-registers with the plane.
 Beyond routing it owns the operational surface: durable async execution with webhooks and SSE (runs of hours or days, no timeout), bounded in-process admission with backpressure (429 and 503 plus Retry-After), canary and blue-green agent deployments, tag-based discovery across the mesh, memory scopes (global, actor, session, workflow) with KV plus vector search, and workflow DAG traces.
-It also orchestrates coding agents: its own AForge harness ships beside the plane, and Claude Code, Codex, Gemini CLI, and OpenCode can be dispatched as providers through `app.harness()`.
+It also orchestrates coding agents: its own coding harness, named CodeAF since late October with AForge kept as the alias and the state living under the managed home's `bin`, ships beside the plane, and Claude Code, Codex, Gemini CLI, OpenCode, Pi, and Oh My Pi can be dispatched as providers through `app.harness()`.
 The governance layer is the differentiator: tag-based access policies (function-level granularity, input constraints, priority ordering, first-match-wins), a tag approval workflow (auto, manual, or forbidden registration), cryptographically signed tag credentials, DID revocation lists, human approval pauses through `app.pause()`, per-run cost caps (`max_budget_usd`), and a verifiable credential per execution that verifies offline with `af vc verify audit.json`.
 
 ## Status
 
-Active and funded: 2,611 stars and 430 forks as of 2026-10-13, with 31 open issues and the last push on 2026-10-28 as of 2026-10-28, repository created 2025-11-05 (the company organization in March 2025).
+Active and funded: 2,611 stars and 430 forks as of 2026-10-13, with 34 open issues and the last push on 2026-10-29 as of 2026-10-30, repository created 2025-11-05 (the company organization in March 2025).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Agent-Field/agentfield&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and funded: 2,611 stars and 430 forks as of 2026-10-13, with 31 open issu
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Agent-Field/agentfield&type=date&legend=top-left" />
 </picture>
 
-The release train left release candidates on 2026-10-24: v0.1.143 is the first stable tag and PyPI published agentfield 0.1.143 the same day, after 0.1.142 (2026-10-19) had been its first non-rc upload and every prior tag an rc.
+The release train left release candidates on 2026-10-24: v0.1.143 is the first stable tag and PyPI published agentfield 0.1.143 the same day, after 0.1.142 (2026-10-19) had been its first non-rc upload and every prior tag an rc; it has since tagged v0.1.145 stable (2026-10-27, PyPI in step) and reopened the candidate line with v0.1.146-rc.1 through rc.3 by 2026-10-29.
 The founders are Oktay Goktas and Santosh Kumar Radha, the team behind Agnostiq (acquired by DataRobot in 2025) and Covalent, with Panache Ventures, Brightspark Ventures, and Drive Capital listed as partners, so this is a funded company's open-source product rather than a weekend project.
 **The community footprint is thin for the star count: a Hacker News search returns zero relevant threads, and the one independent writeup I found is a single Medium post, so the adoption evidence is the star count, the contributor count, and the vendor's own case studies (a 10,000-branch deep-research fan-out, a 250-agent security audit, both self-reported) rather than public technical debate.**
 
@@ -81,6 +81,7 @@ Not for governing agents built on other frameworks (ContextForge or the Microsof
 - 2026-10-21 - Release train moved to v0.1.143-rc.4 (2026-10-20) with PyPI publishing 0.1.142 (2026-10-19), its first non-rc.
 - 2026-10-25 - The train left release candidates: v0.1.143 (2026-10-24) is the first stable tag, with PyPI publishing 0.1.143 the same day, and the caution about the rc-only train rewritten.
 - 2026-10-28 - Release train moved to v0.1.145 (2026-10-27) with PyPI publishing 0.1.145.
+- 2026-10-30 - The built-in coding harness is now named CodeAF (AForge kept as the alias, state under the managed home's `bin`), with Pi and Oh My Pi added as dispatch providers beside Claude Code, Codex, Gemini CLI, and OpenCode; the candidate line reopened at v0.1.146-rc.3 after the v0.1.145 stable tag.
 
 ## See also
 
@@ -94,7 +95,7 @@ Not for governing agents built on other frameworks (ContextForge or the Microsof
 - https://github.com/Agent-Field/agentfield - README: control-plane framing, governance pillars, scaling model, harness providers, telemetry default, self-reported case studies
 - https://api.github.com/repos/Agent-Field/agentfield - stars, forks, issues, contributors, creation and push dates as of 2026-10-13
 - https://api.github.com/repos/Agent-Field/agentfield/releases - the release-candidate-only train, v0.1.142-rc.9 on 2026-10-05
-- https://pypi.org/pypi/agentfield/json - agentfield 0.1.141, Apache-2.0, uploaded 2026-09-29
+- https://pypi.org/pypi/agentfield/json - agentfield 0.1.145, Apache-2.0, uploaded 2026-10-27
 - https://agentfield.ai/ - homepage: the build-like-APIs framing and the control-plane language
 - https://agentfield.ai/docs/build/governance/policy - the access-policy documentation: tag ALLOW/DENY semantics, the fail-open no-match default, tag approval workflow, tag VCs, and DID revocations
 - https://agentfield.ai/about - founders (Agnostiq, acquired by DataRobot 2025; Covalent) and the partner list

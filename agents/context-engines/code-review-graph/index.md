@@ -1,7 +1,7 @@
 ---
 title: code-review-graph
 created: 2026-10-11
-updated: 2026-10-22
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graph, mcp, static-analysis]
 readability: 3
@@ -23,7 +23,7 @@ A composite GitHub Action posts risk-scored PR comments updated in place, with a
 
 ## Status
 
-Active and unusually fast-growing: 32,179 stars as of 2026-10-18, 2,953 forks and 184 open issues as of 2026-10-22, created 2026-02-26, pushed 2026-10-16, so five figures of stars arrived in under eight months.
+Active and unusually fast-growing: 32,179 stars as of 2026-10-18, 2,958 forks and 192 open issues as of 2026-10-30, created 2026-02-26, pushed 2026-10-16, so five figures of stars arrived in under eight months.
 PyPI carries 2.3.9 (uploaded 2026-09-18) across 37 releases on a roughly monthly cadence, and the repo runs a documented staging to testing to main promotion flow.
 The community footprint is lopsided: a Hacker News search returns three story hits, the largest a 12-point launch thread with two comments (one an install failure), so the star count arrived without front-page discussion, the Trendshift-badge pattern this section has seen before.
 Every number below is the author's own; no independent benchmark exists.
@@ -68,6 +68,7 @@ Pricing does not apply.
 
 - 2026-10-11 - Created from the code-review scan's flag, shelved in context-engines over code-review because the graph serves context and judges nothing, with the whole-corpus-baseline and solo-maintainer cautions recorded as the critical angle.
 - 2026-10-22 - Rotation re-verification: every cited URL re-fetched, the star-history picture block corrected (its light-theme source and fallback carried the dark theme), forks and open issues refreshed; no claim changed.
+- 2026-10-30 - Rotation re-verification: every cited URL re-fetched and intact (the benchmark tables and their disclaimers, the FAQ size thresholds and no-telemetry statement, PyPI at 2.3.9 across 37 releases with v2.3.9 from 2026-09-18 still latest, the 12-point launch thread, the thin HN story footprint, the third-party write-up, the website); forks and open issues refreshed; no claim changed.
 
 ## See also
 
@@ -79,7 +80,7 @@ Pricing does not apply.
 
 ## References
 
-- https://api.github.com/repos/tirth8205/code-review-graph - stars, forks, issues, license, creation and push dates as of 2026-10-18
+- https://api.github.com/repos/tirth8205/code-review-graph - forks, issues, license, creation and push dates as of 2026-10-30 (stars kept at the 2026-10-18 baseline)
 - https://raw.githubusercontent.com/tirth8205/code-review-graph/main/README.md - mechanism, installer surfaces, benchmark tables, and the limitations list
 - https://raw.githubusercontent.com/tirth8205/code-review-graph/main/docs/FAQ.md - the when-not-to-use size thresholds, the no-telemetry statement, and the Serena and Repomix comparison
 - https://pypi.org/pypi/code-review-graph/json - version 2.3.9 and the 37-release train

@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Execution spans six built-in terminal backends (local, Docker, SSH, Modal, Dayto
 ## Status
 
 Massive and fast-moving.
-253,488 stars and 54,982 forks as of 2026-10-14 since creation on 2025-07-22, MIT, and as of 2026-10-28 pushed that day with 51,568 open issues, a support surface bigger than most projects' users.
+253,488 stars and 54,982 forks as of 2026-10-14 since creation on 2025-07-22, MIT, and as of 2026-10-30 pushed that day with 51,983 open issues, a support surface bigger than most projects' users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&theme=dark&legend=top-left" />

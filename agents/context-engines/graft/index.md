@@ -1,7 +1,7 @@
 ---
 title: Graft
 created: 2026-09-12
-updated: 2026-10-27
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graphs, claude-code, open-source]
 readability: 3
@@ -26,9 +26,10 @@ In October 2026 the product renamed to Trail-code: the repository moved from tra
 
 ## Status
 
-Young and very hot: created 2026-07-03, 10,084 stars by 2026-10-18, with 959 forks and 251 open issues and pull requests as of 2026-10-27, the repository renamed trailhq/Graft to trailhq/Trail-Code, the npm package `@trailhq/trail-code` at v0.26.0 ("Formerly graft") beside the still-published `@nanonets/graft` v0.23.0, which drew 84,196 downloads in the trailing month (2026-09-27 to 2026-10-26, summed from the range endpoint with eight zero days in the window, fetched 2026-10-27).
+Young and very hot: created 2026-07-03, 10,084 stars by 2026-10-18, with 970 forks and 276 open issues and pull requests as of 2026-10-30, the repository renamed trailhq/Graft to trailhq/Trail-Code, the npm package `@trailhq/trail-code` at v0.28.0 ("Formerly graft") beside the still-published `@nanonets/graft` v0.23.0, which drew 87,324 downloads in the trailing month (2026-09-30 to 2026-10-30, summed from the range endpoint with nine zero days in the window, fetched 2026-10-30).
 The 0.25.0 release (2026-10-23) extended the Learnings loop: a repository's skill now ships with its whole folder, a coding agent's use of a repo skill is reported to the workspace, and learning sync takes down learnings deleted at HEAD and syncs each turn.
 npm 0.26.0 (published 2026-10-26) released the 10-26 main work and more: the Claude Code workspace connector (`trail mcp` passing the workspace's tools, skill prompts, and instructions through to Claude Code after pairing, with repo tools winning name clashes and the repo still working when Trail is unreachable), an `always follow` pin (`trail note --always-follow`), `trail init --agents auto` writing repo files for Claude Code, Cursor, Codex, and OpenCode with laptop settings only for the agents installed, first-setup reading of merged PR reviews so real learnings exist on day one, and the four learning kinds regrouped into three display units (learnings, always follow, skills), with the old `/api/v1/mcp` brain tools removed in the connector's favor.
+npm 0.27.0 and 0.28.0 (both published 2026-10-27) then moved the hosted side into the agent: Trail's page copies a prompt with a one-time code and `trail login --code` signs the laptop in, one sign-in arms Claude Code, Codex, and Cursor in every project, teammates pulling `.trail/workspace.json` get a single sign-in offer, setup learns from past Claude Code sessions and merged PRs, learnings arrive just before an edit instead of after, a `trail check` warns before commit, push, or PR creation when a change runs against a learning (warn only, it can flag word matches that are not conflicts), and a laptop can hold several workspaces (`trail workspace`), with a fix so an npx sign-in leaves the agents with working tools.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trailhq/Trail-Code&type=date&theme=dark&legend=top-left" />
@@ -98,6 +99,7 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 - 2026-10-24 - Recorded the renamed npm package moving to v0.25.0 (2026-10-23: a repo's skill shipping with its whole folder, skill runs reported to the workspace, learning-sync fixes for HEAD-deleted learnings and per-turn sync) and refreshed the growth numbers (955 forks, 244 open issues and pull requests, pushed 2026-10-23); Trail Brain pricing re-verified unchanged against the live pricing page.
 - 2026-10-26 - Recorded main's unreleased Claude Code workspace MCP connector (`trail mcp` passing the workspace MCP server through to Claude Code) and the learnings/always-follow/skills display regrouping (2026-10-26).
 - 2026-10-27 - Recorded the renamed npm package moving to v0.26.0 (2026-10-26: the Claude Code workspace connector released, `trail init --agents auto`, the `always follow` pin, first-setup PR-review reading, the learnings/always-follow/skills regrouping, and the old `/api/v1/mcp` brain tools removed) and refreshed the growth numbers (959 forks, 251 open issues and pull requests, 84,196 trailing-month downloads on the old package summed from the range endpoint).
+- 2026-10-30 - Recorded the renamed npm package moving through v0.27.0 and v0.28.0 (both 2026-10-27: agent sign-in with a one-time code arming every agent on the laptop, teammate sign-in offers, learnings delivered before an edit, the pre-commit `trail check` warning, multi-workspace laptops, and the npx sign-in fix) and refreshed the growth numbers (970 forks, 276 open issues and pull requests, pushed 2026-10-29, 87,324 trailing-month downloads on the old package summed 2026-09-30 to 2026-10-30); Trail Brain pricing re-verified unchanged.
 
 ## See also
 
@@ -107,14 +109,14 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 
 ## References
 
-- https://github.com/trailhq/Trail-Code - canonical repository (trailhq/Graft and NanoNets/Graft redirect here), stats and activity as of 2026-10-26
+- https://github.com/trailhq/Trail-Code - canonical repository (trailhq/Graft and NanoNets/Graft redirect here), stats and activity as of 2026-10-30
 - https://raw.githubusercontent.com/trailhq/Trail-Code/main/README.md - architecture, benchmark tables, SWE-bench Verified numbers, delivery surfaces, and the rename banner ("Trail-code (previously graft)")
 - https://graft.nanonets.ai - product site, Trail attribution, and marketing claims
 - https://trailhq.com/trail-code - the product page carrying the rename and the Learnings framing, fetched 2026-10-16
 - https://raw.githubusercontent.com/trailhq/Trail-Code/main/TELEMETRY.md - the telemetry allowlist contract (the original NanoNets/context-graph-engine path still redirects)
-- https://registry.npmjs.org/@trailhq/trail-code/latest - the renamed package, v0.26.0, described as "Formerly graft" (re-fetched 2026-10-27)
-- https://raw.githubusercontent.com/trailhq/Trail-Code/main/CHANGELOG.md - the 0.26.0 changelog: the workspace connector, `init --agents auto`, `always follow`, and the removed `/api/v1/mcp` brain tools (fetched 2026-10-27)
-- https://api.npmjs.org/downloads/range/2026-09-27:2026-10-26/@nanonets/graft - 84,196 downloads summed for 2026-09-27 to 2026-10-26 on the old package, eight zero days in the window, fetched 2026-10-27
+- https://registry.npmjs.org/@trailhq/trail-code/latest - the renamed package, v0.28.0, described as "Formerly graft" (re-fetched 2026-10-30)
+- https://raw.githubusercontent.com/trailhq/Trail-Code/main/CHANGELOG.md - the 0.27.0 and 0.28.0 changelogs: the one-time-code agent sign-in, learnings before an edit, the pre-commit `trail check`, and multi-workspace laptops (re-fetched 2026-10-30)
+- https://api.npmjs.org/downloads/range/2026-09-30:2026-10-30/@nanonets/graft - 87,324 downloads summed for 2026-09-30 to 2026-10-30 on the old package, nine zero days in the window, fetched 2026-10-30
 - https://hn.algolia.com/api/v1/items/49197687 - the 3-point Show HN and the creator's tree-sitter-only clarification
 - https://hn.algolia.com/api/v1/items/49299985 - the 39-point thread: staleness, README register critique, and the vendor-run Graphify comparison
 - https://trailhq.com/pricing - Trail Brain plans as of 2026-10-06

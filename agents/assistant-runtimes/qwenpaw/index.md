@@ -1,7 +1,7 @@
 ---
 title: QwenPaw
 created: 2026-08-30
-updated: 2026-10-28
+updated: 2026-10-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 
 ## Status
 
-Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02-24, 1,124 open issues and PRs with the last push on 2026-10-28 as of 2026-10-28.
+Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02-24, 1,117 open issues and PRs with the last push on 2026-10-30 as of 2026-10-30.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 
 - `qwenpaw init --defaults` auto-accepts the telemetry prompt, which privacy-conscious users must opt out of explicitly.
 - Young and heavily rewritten, with much of the roadmap (voice, computer use, multi-workspace) still in progress.
 - The macOS desktop app is beta and unnotarized, requiring a Gatekeeper bypass.
-- 1,142 open issues and PRs, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
+- 1,125 open issues and PRs, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
 
 ## Pricing
 
