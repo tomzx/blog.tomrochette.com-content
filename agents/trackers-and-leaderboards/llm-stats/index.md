@@ -1,7 +1,7 @@
 ---
 title: LLM Stats
 created: 2026-09-24
-updated: 2026-10-17
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, llm, benchmarks, api]
 readability: 3
@@ -23,7 +23,7 @@ It is operated by ZeroEval Inc., which describes itself as building "the indepen
 
 ## Status
 
-Actively maintained as of this 2026-10-17 re-check: the methodology page still reads score v3.1, updated 2026-09-02, and the news page is still titled by the current day ("LLM News Today"), while the leaderboard holds at 408 canonical models ("1-15 of 408").
+Actively maintained as of this 2026-10-31 re-check: the methodology page still reads score v3.1, updated 2026-09-02, and the news page is still titled by the current day ("LLM News Today"), while the leaderboard holds at 408 canonical models ("1-15 of 408").
 Traction is modest but growing: two small Show HNs (3 and 7 points), 20 HN comments referencing the site, a small GitHub org (8 public repositories), and self-reported reach (people at OpenAI, Anthropic, Google, Meta, "400,000+ more") that cannot be verified.
 The corporate backing is self-displayed: a "Backed by" strip on zeroeval.com lists Y Combinator, Hugging Face, Harvard Medical, Google, and Datadog.
 
@@ -70,6 +70,7 @@ My disagreeable claim: the MCP server is the most consequential feature introduc
 - 2026-09-29 - Coverage refreshed: the homepage now ranks 399 canonical models (from 398); API tiers and prices unchanged.
 - 2026-10-10 - Coverage refreshed: the homepage now ranks 408 canonical models (from 400); API tiers and prices unchanged (Community free, Builder $99/month, Commercial contract re-verified).
 - 2026-10-17 - Rotation re-verification with every cited URL re-fetched live: coverage unchanged at 408 canonical models and API tiers unchanged (Community free 250/day, Builder $99/month, Commercial contract), and the operator record corrected to the about page's "two people" self-description naming co-founders Sebastian Crossa and Jonathan Chatab, with the HN launch identity (JonathanChavez) unchanged.
+- 2026-10-31 - Rotation re-verification with every cited URL re-fetched live: coverage unchanged at 408 canonical models, the methodology still v3.1 dated 2026-09-02, API tiers, quotas, and the 11 MCP tools unchanged, the about page still "two people" with both co-founders linked, the Backed by strip unchanged, and both Show HN threads and the org's eight repositories unchanged.
 
 ## See also
 
@@ -81,12 +82,12 @@ My disagreeable claim: the MCP server is the most consequential feature introduc
 
 ## References
 
-- https://llm-stats.com/ - homepage: 408 canonical models, composite score, task boards, newsletter (re-fetched 200, 2026-10-11, unchanged at 408 canonical models, leaderboard showing 1-15 of 408; re-fetched 200, 2026-10-17, still 408)
-- https://llm-stats.com/methodology/llm-stats-score - score v3.1 construction, evidence policy, limitations, 2026-09-02 modification date (re-fetched 200, 2026-10-17, still v3.1 dated 2026-09-02)
-- https://llm-stats.com/developer - API and MCP endpoints, plan tiers and quotas, "updated within hours" claim (re-fetched 200, 2026-10-11, tiers and quotas unchanged; re-fetched 200, 2026-10-17, tiers and quotas unchanged, 11 MCP tools)
-- https://llm-stats.com/about-us - the two-person self-description with co-founders Sebastian Crossa and Jonathan Chatab linked via LinkedIn (fetched 200, 2026-09-24; re-fetched 200, 2026-10-17, now "We're two people" with both co-founders named)
-- https://llm-stats.com/ai-news - the news feed and self-reported reach claim (re-fetched 200, 2026-10-17, "LLM News Today" and the 400,000+ claim unchanged)
-- https://zeroeval.com - ZeroEval Inc. description, product list, self-displayed "Backed by" strip (re-fetched 200, 2026-10-17, unchanged)
-- https://api.github.com/orgs/zeroeval - org metadata and docs-repo activity (re-fetched 200, 2026-10-17, 8 public repositories)
-- https://news.ycombinator.com/item?id=42590841 - the January 2025 Show HN and authorship evidence (re-fetched 200, 2026-10-17, unchanged, JonathanChavez author)
-- https://news.ycombinator.com/item?id=42231372 - the November 2024 launch thread with the Cerebras coverage-gap criticism (re-fetched 200, 2026-10-17, unchanged, JonathanChavez author)
+- https://llm-stats.com/ - homepage: 408 canonical models, composite score, task boards, newsletter (re-fetched 200, 2026-10-11, unchanged at 408 canonical models, leaderboard showing 1-15 of 408; re-fetched 200, 2026-10-17, still 408; re-fetched 200, 2026-10-31, still 408 with a new #1, Claude Opus 5.5 at 60.4)
+- https://llm-stats.com/methodology/llm-stats-score - score v3.1 construction, evidence policy, limitations, 2026-09-02 modification date (re-fetched 200, 2026-10-17, still v3.1 dated 2026-09-02; re-fetched 200, 2026-10-31, unchanged)
+- https://llm-stats.com/developer - API and MCP endpoints, plan tiers and quotas, "updated within hours" claim (re-fetched 200, 2026-10-11, tiers and quotas unchanged; re-fetched 200, 2026-10-17, tiers and quotas unchanged, 11 MCP tools; re-fetched 200, 2026-10-31, unchanged)
+- https://llm-stats.com/about-us - the two-person self-description with co-founders Sebastian Crossa and Jonathan Chatab linked via LinkedIn (fetched 200, 2026-09-24; re-fetched 200, 2026-10-17, now "We're two people" with both co-founders named; re-fetched 200, 2026-10-31, unchanged)
+- https://llm-stats.com/ai-news - the news feed and self-reported reach claim (re-fetched 200, 2026-10-17, "LLM News Today" and the 400,000+ claim unchanged; re-fetched 200, 2026-10-31, unchanged)
+- https://zeroeval.com - ZeroEval Inc. description, product list, self-displayed "Backed by" strip (re-fetched 200, 2026-10-17, unchanged; re-fetched 200, 2026-10-31, unchanged)
+- https://api.github.com/orgs/zeroeval - org metadata and docs-repo activity (re-fetched 200, 2026-10-17, 8 public repositories; re-fetched 200, 2026-10-31, still 8)
+- https://news.ycombinator.com/item?id=42590841 - the January 2025 Show HN and authorship evidence (re-fetched 200, 2026-10-17, unchanged, JonathanChavez author; re-fetched 200, 2026-10-31, unchanged)
+- https://news.ycombinator.com/item?id=42231372 - the November 2024 launch thread with the Cerebras coverage-gap criticism (re-fetched 200, 2026-10-17, unchanged, JonathanChavez author; re-fetched 200, 2026-10-31, unchanged)

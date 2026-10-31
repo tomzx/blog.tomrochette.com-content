@@ -22,7 +22,7 @@ The category's dividing line is what the number measures, since each member answ
 - [LMArena](lmarena/index.md) - blind human-vote arenas ranking models by preference, the field's most cited and most gamed signal.
 - [Margin Lab](margin-lab/index.md) - daily degradation trackers running Claude Code and Codex against a fixed SWE-Bench Pro subset with 95% confidence intervals, plus an open-source eval runtime.
 - [OpenRouter Rankings](openrouter-rankings/index.md) - real token spend through the OpenRouter gateway, CC BY licensed, the category's only revealed-preference number.
-- [Vectara Hallucination Leaderboard](vectara-hallucination-leaderboard/index.md) - Vectara's HHEM-judged ranking of how often models hallucinate when summarizing short documents, with the judge model downloadable.
+- [Vectara Hallucination Leaderboard](vectara-hallucination-leaderboard/index.md) - Vectara's HHEM-judged ranking of how often models hallucinate when summarizing short documents, with an open variant of the judge model downloadable.
 - [whatmodel.sh](whatmodel-sh/index.md) - a curl-first composite that fits public results onto one IRT scale and filters to what your machine can run, afford, and download raw.
 
 Its members are compared on shared rows in the [Trackers and Leaderboards Feature Matrix](trackers-and-leaderboards-feature-matrix/index.md).

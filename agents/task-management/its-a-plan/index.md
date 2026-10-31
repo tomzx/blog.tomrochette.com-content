@@ -1,7 +1,7 @@
 ---
 title: It's a Plan
 created: 2026-10-07
-updated: 2026-10-28
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, self-hosted, multi-agent, agpl]
 readability: 3
@@ -24,7 +24,7 @@ Andrii Poluosmak (the croffasia identity) maintains it under AGPL-3.0, except th
 ## Status
 
 Young, active, and climbing fast for its age.
-As of 2026-10-28: 963 stars (as of 2026-10-14), 266 forks, 52 open issues and pull requests, 39 contributors, created 2026-07-14, pushed 2026-10-28, 29 releases on a steady train, and 859 npm downloads over the trailing month to 2026-10-28 for @itsaplan/runner.
+As of 2026-10-31: 963 stars (as of 2026-10-14), 275 forks, 57 open issues and pull requests, 39 contributors, created 2026-07-14, pushed 2026-10-30, 29 releases on a steady train, and 942 npm downloads over the trailing month to 2026-10-31 for @itsaplan/runner.
 v1.9.0 (2026-10-27) added a Pro help desk: public forms that create issues from a script tag on a trusted site, a per-workspace requests portal where senders sign in with an email code and reply onto their issues, Trello import beside the Linear and Plane paths, all-project search behind the command palette and a `search_issues_all_projects` MCP tool, inline property editing in the Table and Timeline, and Docs mentions that can address an agent and get its answer.
 v1.8.0 (2026-10-23) launched the paid Pro edition and fixed three high security advisories, two of them agent-permission holes: an internal agent run in one project could read and change issues in the agent's other projects, and a member who shared one project with an agent could regenerate its key and act as the agent in every project it had.
 The breaking changes refuse cross-project objects from a run with 403 and restrict agent administration to team owners, managers, or members of every project of the agent.
@@ -91,6 +91,7 @@ My disagreeable claim: an assignee slot is a sharper agent interface than an MCP
 - 2026-10-23 - Recorded v1.7.0 (2026-10-22: agent run history on issue Activity and an AI Team runner queue with transcripts since runner 0.7.0, run time limits up to 60 minutes with per-agent overrides, Traditional Chinese, and fixes for four high and two medium security advisories) and refreshed counts (252 forks, 50 open issues and pull requests, 27 releases, runner at 0.7.0).
 - 2026-10-25 - Recorded v1.8.0 (2026-10-23: the Pro edition launched at $24/month or $240/year per instance with per-workspace SAML and SCIM, audit log, workspace dashboard, issue-event schedule triggers, agent analytics, and AI budgets; three high security advisories fixed, two of them agent-permission holes closed by refusing cross-project runs and restricting agent administration) and refreshed counts (254 forks, 54 open issues and pull requests, 28 releases, pushed 2026-10-25, 1,036 runner npm downloads); Pricing rewritten and Price history added.
 - 2026-10-28 - Recorded v1.9.0 (2026-10-27: the Pro help desk with public forms and a per-workspace requests portal, Trello import, all-project search with an MCP tool, inline Table and Timeline editing, and Docs mentions that can address an agent) and refreshed counts (266 forks, 52 open issues and pull requests, 29 releases, pushed 2026-10-28, 859 runner npm downloads over the trailing month to 2026-10-28).
+- 2026-10-31 - Refreshed counts (275 forks, 57 open issues and pull requests, pushed 2026-10-30, 942 runner npm downloads over the trailing month to 2026-10-31); v1.9.0 still the newest release.
 
 ## See also
 
@@ -104,7 +105,7 @@ My disagreeable claim: an assignee slot is a sharper agent interface than an MCP
 
 - https://itsaplan.dev - the product site: agents as teammates, views, deployment paths, the Product Hunt badge
 - https://github.com/croffasia/itsaplan - README: features, stack, license split, deployment options, the breaking-changes warning
-- https://api.github.com/repos/croffasia/itsaplan - stars, forks, contributors, dates, AGPL-3.0 as of 2026-10-28
+- https://api.github.com/repos/croffasia/itsaplan - stars, forks, contributors, dates, AGPL-3.0 as of 2026-10-31
 - https://api.github.com/repos/croffasia/itsaplan/releases - v1.9.0 (2026-10-27) and the release train, fetched 2026-10-28
 - https://itsaplan.dev/pro - the Pro edition: $24/month or $240/year per instance, unlimited seats, the Pro feature list, and the Community-at-$0 comparison (fetched 2026-10-25)
 - https://api.github.com/repos/croffasia/itsaplan/releases/tags/v1.8.0 - the v1.8.0 notes: the Pro launch, the three high advisories with the two agent-permission holes, and the breaking changes
@@ -112,5 +113,5 @@ My disagreeable claim: an assignee slot is a sharper agent interface than an MCP
 - https://github.com/croffasia/itsaplan/releases/tag/v1.5.0 - the v1.5.0 notes: usage accounting, account deactivation, the subpath deployment mode, the better-auth security fix
 - https://api.github.com/repos/croffasia/itsaplan/releases/tags/v1.6.0 - the v1.6.0 notes: the agent invocation URL, expiring invites, allowed email domains, Microsoft 365 OAuth mail, the MCP client-visibility surface, and the breaking changes
 - https://news.ycombinator.com/item?id=49971516 - the 1-point, comment-free throwaway thread, the missing-community-footprint signal
-- https://api.npmjs.org/downloads/point/2026-09-28:2026-10-28/@itsaplan/runner - 859 downloads over the trailing month to 2026-10-28 for the external-runner package
+- https://api.npmjs.org/downloads/point/2026-10-01:2026-10-31/@itsaplan/runner - 942 downloads over the trailing month to 2026-10-31 for the external-runner package
 - https://registry.npmjs.org/@itsaplan/runner/latest - the runner package at 0.7.0

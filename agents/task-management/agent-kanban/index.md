@@ -1,7 +1,7 @@
 ---
 title: Agent Kanban
 created: 2026-10-11
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, multi-agent, source-available, cloudflare]
 readability: 3
@@ -72,6 +72,7 @@ My disagreeable claim: making the assignee unable to close its own task is the m
 - 2026-10-11 - Added the star history chart.
 - 2026-10-21 - Rotation re-verification with every cited URL re-fetched live (repository page, task-lifecycle doc, API, releases, HN search): nothing material changed, the fork count corrected to 43, and v1.13.4 still the newest tag.
 - 2026-10-27 - Rotation re-verification with every cited URL re-fetched live (repository page, task-lifecycle doc, API, releases, HN search): nothing material changed, the release gap now nearly six months, and v1.13.4 still the newest tag.
+- 2026-10-31 - Rotation re-verification with every cited URL re-fetched live (repository page, task-lifecycle doc, API, releases, HN search): nothing material changed, with v1.13.4 still the newest tag and the last push still 2026-10-02.
 
 ## See also
 

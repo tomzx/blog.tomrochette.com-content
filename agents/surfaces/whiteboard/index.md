@@ -1,7 +1,7 @@
 ---
 title: Whiteboard
 created: 2026-10-04
-updated: 2026-10-25
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surface, review, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The v0.4.0 release (October 23) turns the canvas toward planning: plan-mode whit
 
 ## Status
 
-New with real traction: the Show HN launch on 2026-09-24 drew 424 points, and the repository, created 2026-08-18, was pushed 2026-10-25, with v0.4.0 (October 23) the latest release.
+New with real traction: the Show HN launch on 2026-09-24 drew 424 points, and the repository, created 2026-08-18, was pushed 2026-10-31, with v0.4.0 (October 23) the latest desktop-app release and the monorepo's release train continuing above it under the diffr tag family (diffr/0.1.22, October 26, diffr deferring slow plugins and an open Diff updating in place when its comparison changes; diffr/0.1.23, October 30, picking the model and effort a new whiteboard is drawn with and giving pinned checkouts time on large repositories).
 The team is four (Sid, Alex, Ketan, and Milan), YC W26-backed, and built the app for themselves first.
 Distribution is free and open source in beta, local-first with the v0.3.0 SSH remote hosts extending review to your own machines; the product site now advertises a hosted Whiteboard as coming soon, though no plans or prices exist yet, so there is no revenue model today.
 The category question is unresolved even in its own launch thread, where commenters reached for orchestrator, control plane, and agent multiplexer before the authors placed it as deliberately not opinionated about where your agent runs.
@@ -80,6 +80,7 @@ Not for teams that need a supported, priced, categorized tool, and not for anyon
 - 2026-10-19 - Recorded v0.3.3 (October 18, a power-user feedback prompt) as the new latest release; the repository stands pushed 2026-10-19 with the open-work queue at eleven issues and twenty-three pull requests.
 - 2026-10-22 - Recorded v0.3.4 (October 20, the survey-repetition fix and two Windows fixes, one contributed) as the new latest release; the repository stands pushed 2026-10-22 with the open-work queue at ten issues and twenty-five pull requests.
 - 2026-10-25 - Recorded v0.4.0 (October 23, plan-mode whiteboards with the agent nesting each stack's review board under the plan board, human Markdown editing of boards, 34 themes with VS Code theme import, the TypeScript 7 language server, and sharing moved behind an experimental setting) as the new latest release; the repository stands pushed 2026-10-25 with the open-work queue at fourteen issues and twenty-six pull requests.
+- 2026-10-31 - Recorded the monorepo's train continuing past v0.4.0 under the diffr tag family (diffr/0.1.22, October 26, and diffr/0.1.23, October 30, the model-and-effort pick for new whiteboards); the repository stands pushed 2026-10-31.
 
 ## See also
 
@@ -92,6 +93,7 @@ Not for teams that need a supported, priced, categorized tool, and not for anyon
 
 - https://github.com/devdotfast/whiteboard - repository, MIT license, 3,217 stars, 158 forks, pushed through the v0.3.0 to v0.3.2 train of 2026-10-16 (stars and forks as of 2026-10-16, repository re-fetched 2026-10-22)
 - https://api.github.com/repos/devdotfast/whiteboard/releases/tags/v0.4.0 - the October 23 release: plan-mode whiteboards with nested review boards, human board editing, themes, the TypeScript 7 language server, and the experimental-sharing move, fetched 2026-10-25
+- https://github.com/devdotfast/whiteboard/releases - the release list showing the desktop train at v0.4.0 with the diffr tag family continuing above it (diffr/0.1.21 October 23, diffr/0.1.22 October 26, diffr/0.1.23 October 30, the model-and-effort pick and the pinned-checkout patience), re-fetched 2026-10-31
 - https://api.github.com/repos/devdotfast/whiteboard/releases/tags/v0.3.4 - the October 20 release: the survey no longer re-prompting every launch and two Windows fixes, one contributed, fetched 2026-10-22
 - https://api.github.com/repos/devdotfast/whiteboard/releases/tags/v0.3.3 - the October 18 release: a prompt asking power users for product feedback, fetched 2026-10-19
 - https://dev.fast/ - the host of the product site, which whiteboard.dev.fast also serves directly as of 2026-10-06 (fetched then, after the 301-redirect stretch recorded on 2026-10-05): canvas objects (Commits, Diff, Trace, source tree), the Rust diffr library, the diff-search API proposal with Git-blob hydration, copy-for-agent selection, downloads for three OSes, and the hosted-Whiteboard coming-soon notice.

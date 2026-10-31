@@ -35,6 +35,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [ClawTeam](clawteam/index.md) - HKUDS's MIT Python swarm CLI where a leader agent spawns worktree-and-tmux workers that coordinate through CLI mailboxes, 5.5k stars and silent since May 2026.
 - [CLI Agent Orchestrator](cli-agent-orchestrator/index.md) - AWS Labs' Apache-2.0 Python supervisor running twelve provider coding CLIs in isolated tmux sessions behind a local server, Web UI, and MCP surface.
 - [cmux](cmux/index.md) - Manaflow's libghostty macOS terminal for parallel agents, notification rings free, cloud execution paid (Pro $50, Max $200 monthly).
+- [Commonly](commonly/index.md) - Team-Commonly's Apache-2.0 team-pod workspace where each member's coding agents join one chat and one board as named members, v3.0.0, zero coverage so far.
 - [Conductor](conductor/index.md) - the macOS app for parallel Claude Code, Codex, Cursor, and OpenCode sessions with diff review and PR flow.
 - [CrewAI](crewai/index.md) - the MIT Python role-and-crew framework, 59.7k stars, now funded by an $18M enterprise platform.
 - [Crewplane](crewplane/index.md) - the Apache-2.0 CLI workflow runner that turns coding-agent stages into resumable Markdown with on-disk run records.
@@ -177,3 +178,4 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-10-28 - Added ChatDev.
 - 2026-10-28 - Added CLI Agent Orchestrator.
 - 2026-10-28 - Added tuios.
+- 2026-10-31 - Added Commonly.

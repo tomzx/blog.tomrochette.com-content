@@ -1,7 +1,7 @@
 ---
 title: kanban-md
 created: 2026-10-11
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, markdown, multi-agent, open-source]
 readability: 3
@@ -72,6 +72,7 @@ My disagreeable claim: markdown files plus expiring leases cover the small-team 
 - 2026-10-11 - Added the star history chart.
 - 2026-10-21 - Rotation re-verification with every cited URL re-fetched live (repository page, the bundled development-loop skill, API, releases, HN search): nothing changed, with v0.39.0 still the newest tag and the last push still 2026-10-05.
 - 2026-10-27 - Rotation re-verification with every cited URL re-fetched live (repository page, the bundled development-loop skill, API, releases, HN search): nothing changed, with v0.39.0 still the newest tag and the last push still 2026-10-05.
+- 2026-10-31 - Rotation re-verification with every cited URL re-fetched live (repository page, the bundled development-loop skill, API, releases, HN search): nothing changed, with v0.39.0 still the newest tag and the last push still 2026-10-05.
 
 ## See also
 

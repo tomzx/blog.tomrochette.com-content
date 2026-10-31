@@ -1,7 +1,7 @@
 ---
 title: VS Code + Copilot
 created: 2026-08-23
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, microsoft, github]
 readability: 3
@@ -36,10 +36,11 @@ Every Copilot plan now includes Copilot CLI and the Copilot desktop app, and the
 One contraction is ending: new self-serve Copilot Business and Copilot Enterprise purchases were paused on April 22, 2026, and on September 3, 2026 GitHub announced it is gradually reopening self-serve sign-ups for card and PayPal payers over the following weeks.
 The same changelog moved card and PayPal Business and Enterprise customers to prepaid seats from October 1, 2026: every seat must be paid before its user gains access, and existing customers' seats incur an upfront charge at the start of the billing cycle.
 The neutrality has a nudge now: release 1.143 (October 2026) makes the Copilot harness, built on the Copilot SDK and the Agent Host, the default for new sessions, retires the Local harness, and adds multi-model comparison runs in the Agents window where the same task runs in parallel across Copilot, Claude, and Codex harnesses with a judge model scoring the attempts.
+Release 1.144 (October 28) builds the platform out around that default: Copilot Fusion went generally available as model routing and orchestration that picks the models, reasoning effort, and execution pattern per request (30% off through November 30, 2026), cloud sessions and cloud automations (preview, enabled by default) run Copilot tasks on GitHub infrastructure on a schedule or repository events with your machine off, computer use (experimental) lets agents drive desktop apps on your macOS or Windows machine, assisted permissions went generally available with an LLM risk check auto-approving low-risk tool calls, Copilot Memory joined harness sessions with repository facts and user preferences on by default, and image generation and GitHub-managed Copilot connectors arrived in preview.
 
 ## Strengths
 
-- **Harness-agnostic by design**: provider harnesses (Copilot, Claude, Codex) and a local harness sit behind one session model, plus bring-your-own and local models.
+- **Harness-agnostic by design**: provider harnesses (Copilot, Claude, Codex) sit behind one session model, the Local harness having retired in 1.143, plus bring-your-own and local models.
 - The free tier is real, with 2,000 completions a month and limited agents, and students pay nothing.
 - Enterprise policy control over models, tools, and agent behavior is the deepest in the category.
 - Review-and-revert of agent edits is a first-class surface inside the editor.
@@ -84,6 +85,7 @@ Not for teams that want the editor itself to come with strong opinions.
 - 2026-10-07 - Added the microsoft/vscode star history chart to the Status section.
 - 2026-10-20 - Rotation re-verification, all cited URLs re-fetched live: the plan prices and the 1,500/7,000/20,000 credit totals stand (the plans page now itemizes each total as base plus flex allowances), the prepaid-seat billing and the agents docs stand, and the repository shows commits landing the same day.
 - 2026-10-27 - Recorded the 1.143 release (October 2026): the Copilot harness is now the default for new sessions and the Local harness retires, with multi-model comparison runs added to the Agents window; flagged as the neutrality nudge in Status.
+- 2026-10-31 - Recorded the 1.144 release (October 28): Copilot Fusion generally available, cloud sessions and cloud automations in preview, computer use experimental, assisted permissions generally available, Copilot Memory in harness sessions, and image generation and connectors in preview; corrected the Strengths harness list for the 1.143 Local-harness retirement.
 
 ## See also
 
@@ -100,4 +102,5 @@ Not for teams that want the editor itself to come with strong opinions.
 - https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups - the September 3, 2026 reopening announcement for self-serve Business and Enterprise sign-ups, and the prepaid-seat billing it introduced effective October 1, 2026
 - https://github.com/microsoft/vscode - MIT license and repository scale, as of 2026-10-16
 - https://code.visualstudio.com/updates/v1_143 - the 1.143 release notes: the Copilot harness default, the Local harness retirement, multi-model comparison, and worktree storage cleanup, fetched 2026-10-27
+- https://code.visualstudio.com/updates/v1_144 - the 1.144 release notes: Copilot Fusion GA with the 30% discount through November 30, cloud sessions and cloud automations, the Agent Host Protocol v1.0, computer use, assisted permissions GA, Copilot Memory, image generation, and connectors, fetched 2026-10-31
 - https://news.ycombinator.com/item?id=44031432 - coding-agent launch discussion with early skepticism

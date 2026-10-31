@@ -1,7 +1,7 @@
 ---
 title: bb
 created: 2026-10-11
-updated: 2026-10-25
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -33,7 +33,7 @@ The repository was created 2026-02-24 and shows 4,326 stars and 628 forks as of 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=get-bb/bb&type=date&legend=top-left" />
 </picture>
 
-The desktop train: v0.45.0 (October 2), v0.46.0 (October 9), v0.46.1 (October 15), and v0.47.0 (October 23) and v0.47.1 (October 24) as the latest stable, both carrying no written release notes, with the product site's changelog headlining customizable navigation, new and improved ACP support, and diff review for 0.47.0, plus a rolling nightly.
+The desktop train: v0.45.0 (October 2), v0.46.0 (October 9), v0.46.1 (October 15), v0.47.0 (October 23) and v0.47.1 (October 24), both carrying no written release notes, and desktop-v0.48.1 (October 30) as the latest stable, also without written notes, with the product site's changelog headlining customizable navigation, new and improved ACP support, and diff review for 0.47.0, plus a rolling nightly.
 An Algolia search of Hacker News found no story about bb as of 2026-10-11, a re-run on 2026-10-25 surfaced the same absence, and no third-party review has appeared; the product site's "used by" logo wall is the only social proof and it is unverifiable.
 
 ## Strengths
@@ -72,6 +72,7 @@ Not for Windows or Linux daily drivers, and not for anyone who needs independent
 - 2026-10-11 - Added the star history chart.
 - 2026-10-16 - Recorded desktop-v0.46.1 (October 15) as the new latest stable release; counts refreshed.
 - 2026-10-25 - Rotation re-verification, all five cited URLs re-fetched live: the repository, the product site, the release list, and the still-empty Hacker News footprint stand; recorded v0.47.0 and v0.47.1 (October 23 and 24) as the new latest stable releases, and added the README's opt-out telemetry disclosure to Cautions.
+- 2026-10-31 - Recorded desktop-v0.48.1 (October 30, no written release notes) as the new latest stable release.
 
 ## See also
 
@@ -85,5 +86,5 @@ Not for Windows or Linux daily drivers, and not for anyone who needs independent
 - https://github.com/get-bb/bb - repository, README (threads, self-customization, provider CLI drivers, plugin-first features, bb spawn, and the opt-out telemetry disclosure), MIT license, 4,326 stars and 628 forks as of 2026-10-16
 - https://api.github.com/repos/get-bb/bb - creation date 2026-02-24, language TypeScript, push date 2026-10-25, stars and forks as of 2026-10-16
 - https://getbb.app - the product site: the self-building pitch, the plugin list (GitHub integration, agent memory, scheduled jobs, remote access), the four surfaces, platform support, the comparison links, and the 0.47.0 changelog headline (customizable navigation, new and improved ACP support, diff review)
-- https://github.com/get-bb/bb/releases - desktop-v0.47.1 (2026-10-24) as the latest stable, after v0.47.0 (October 23), v0.46.1 (October 15), v0.46.0 (October 9), and v0.45.0 (October 2), both 0.47 releases carrying no written notes, with the nightly tag rolling
+- https://github.com/get-bb/bb/releases - desktop-v0.48.1 (2026-10-30) as the latest stable, carrying no written notes, after desktop-v0.47.1 (2026-10-24) and v0.47.0 (October 23), v0.46.1 (October 15), v0.46.0 (October 9), and v0.45.0 (October 2), both 0.47 releases also carrying no written notes, with the nightly tag rolling
 - https://hn.algolia.com/api/v1/search?query=%22agent%20IDE%22%20builds%20itself&tags=story - the search that found no story about bb, the missing-footprint evidence, re-fetched 2026-10-25

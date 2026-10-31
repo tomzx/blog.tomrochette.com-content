@@ -1,7 +1,7 @@
 ---
 title: Vibeyard
 created: 2026-10-10
-updated: 2026-10-20
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, session-management, open-source]
 readability: 3
@@ -71,6 +71,7 @@ Not for anyone who needs a currently shipping cockpit (OpenChamber's train is mo
 
 - 2026-10-10 - Created from the category entrant scan, admitted on its differentiated kanban-to-session and share mechanisms with the quiet-window caution recorded.
 - 2026-10-20 - Rotation re-verification, all cited URLs re-fetched live: the quiet stands (repository pushed 2026-09-03, release train still ending at v0.3.8, the README's coming-soon providers still unshipped, and the Show HN thread still the only footprint at 2 points and 0 comments); the quiet window reads seven weeks.
+- 2026-10-31 - Rotation re-verification, all cited URLs re-fetched live: the quiet stands (repository still pushed 2026-09-03 and not archived, the release train still ending at v0.3.8, the README unchanged with the coming-soon providers still unshipped, and the HN search still returning the one 2-point Show HN); the quiet window reads about eight weeks.
 
 ## See also
 

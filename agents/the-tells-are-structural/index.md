@@ -1,7 +1,7 @@
 ---
 title: "The Tells Are Structural"
 created: 2026-09-02
-updated: 2026-10-28
+updated: 2026-10-31
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, ai, llm, writing, evaluation]
 readability: 3
@@ -13,7 +13,7 @@ I generate drafts with LLMs every day, and so does almost every engineer I know.
 Somewhere along the way a reader can tell, and the text starts getting discounted before its content gets read.
 **The popular fixes are word swaps, and word swaps fail because the tell is not the words, it is the structure.**
 A 2026 study put numbers on this, and the numbers should change how you edit anything AI-assisted that other engineers will read.
-Every source below was fetched and re-verified on 2026-10-28.
+Every source below was fetched and re-verified on 2026-10-31.
 
 ## The humanizer trap
 
@@ -83,6 +83,7 @@ If you review other people's writing, read structure rather than vocabulary; a d
 - 2026-10-23 - Moved the intro's as-of clause to 2026-10-21, the re-verification date the 2026-10-21 Changes bullet records, which the clause had left at 2026-10-13.
 - 2026-10-25 - Re-fetched all eight cited sources, every one 200, and moved the intro's re-verification date accordingly; the sepia and slop-grader star figures left untouched per the stars exemption.
 - 2026-10-28 - Re-fetched all eight cited sources, every one 200, and moved the intro's re-verification date accordingly; the sepia and slop-grader star figures left untouched per the stars exemption.
+- 2026-10-31 - Re-fetched all eight cited sources, every one 200, with the StoryScope, human-detector, LAMP, and slop-study figures re-checked against the abstracts and the sepia README and no-ai-slop ruleset unchanged in everything this essay claims from them; the sepia and slop-grader star figures left untouched per the stars exemption.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Void
 created: 2026-08-24
-updated: 2026-10-20
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -65,6 +65,7 @@ Not for anyone who wants the project's best days ahead of it.
 - 2026-09-27 - Re-confirmed the archive, the June 2, 2026 last push, and the v1.3.4 freeze; counts refreshed.
 - 2026-10-07 - Added the voideditor/void star history chart to the Status section.
 - 2026-10-20 - Rotation re-verification, all cited URLs re-fetched live: the archived flag (last push June 2, 2026), the v1.3.4 release freeze of April 2025, the live product page still offering the beta download, and both threads (the 948-point May 2025 breakout, the 2-point "after Void slowed down" follow-up) stand.
+- 2026-10-31 - Rotation re-verification, all cited URLs re-fetched live: the archived flag, the June 2, 2026 last push, the v1.3.4 April 2025 release freeze, the product page still offering the beta download, and both threads stand unchanged.
 
 ## See also
 

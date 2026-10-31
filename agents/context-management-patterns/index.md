@@ -1,7 +1,7 @@
 ---
 title: "Context Management Patterns"
 created: 2026-08-24
-updated: 2026-10-28
+updated: 2026-10-31
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a token budget is and have watched an agent degrade after its window filled.
 ---
 
-This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files; verified against harness documentation as of 2026-10-28.
+This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files; verified against harness documentation as of 2026-10-31.
 
 **Every working pattern does one thing, it keeps the window small and fresh, and in 2026 the harness-native features (compaction, subagents, memory files) deliver more of that value than any retrieval pipeline you can buy.**
 My disagreeable claim: below a few hundred thousand lines of code, a short memory file plus automatic compaction beats a bespoke RAG stack, and teams buying context engines before learning their harness's `/compact` are paying money to avoid learning a skill.
@@ -21,7 +21,7 @@ The corpus has long argued that [context quality dominates model choice](../../t
 **The window is finite, but the binding constraint is attention: recall drops as context grows, and it drops worst in the middle.**
 The [lost in the middle](https://arxiv.org/abs/2307.03172) result showed models recall information best at the beginning or end of long inputs and significantly worse in the middle, even for explicitly long-context models.
 Anthropic's own engineering post names the phenomenon context rot and treats every token as drawing down a finite attention budget.
-[Claude Code](../harnesses/claude-code/index.md)'s documentation states it plainly: performance degrades as the window fills, and "the context window is the most important resource to manage".
+[Claude Code](../harnesses/claude-code/index.md)'s current documentation makes the operational version of the same point: with 1M-token windows and automatic compaction, running out of window is rare, but `/clear` between tasks is still worth doing because a focused context gets you better answers and costs less.
 The window also fills before you say anything: the [model selection guide](../model-selection-for-coding-tasks/index.md) records harness baselines of about 33k input tokens (Claude Code) versus about 7k (OpenCode) on a minimal task, so a heavy harness taxes every pattern below.
 A bigger window does not escape this, it spreads the same attention over more tokens, which is why the patterns exist at every window size.
 
@@ -39,7 +39,7 @@ The field is consolidating here: the [semantic code search](../retrieval/semanti
 Claude Code's docs recommend delegating investigation to subagents, which read files in their own context window and return only a summary; OpenCode does the same with custom commands that force `subtask: true` so output never pollutes the primary session.
 Anthropic quantifies the pattern: a subagent may burn tens of thousands of tokens exploring but returns a 1,000 to 2,000 token distilled summary.
 This is also how you keep retrieval cheap: an Explore-style subagent can grep aggressively because the misses cost its own window, not yours.
-The failure mode to avoid is unscoped investigation in the main session, which Claude Code's own docs list as a named anti-pattern ("the infinite exploration").
+The failure mode to avoid is unscoped investigation in the main session, which every later turn re-reads; Claude Code's context-window docs route research through a subagent precisely so the large file reads stay out of yours.
 
 ## Packing and chunking: measure dumb before buying clever
 
@@ -60,7 +60,7 @@ When you do cross the threshold, delivery is settled: an MCP server (Sourcegraph
 ## Compaction is a default you should steer
 
 **Summarize-and-restart has shipped as a harness default, and its lossiness is steerable if you bother steering it.**
-Claude Code auto-compacts as you approach the limit, and Anthropic now documents what survives: the summary keeps your requests and intent, key technical concepts, files touched with important snippets, errors and their fixes, and pending work, then Claude Code re-reads up to five of the most recently modified files and re-injects the bodies of any skills you invoked, capped at 5,000 tokens per skill and 25,000 in total, and since v2.1.304 it also rebuilds the skill descriptions and re-injects those, closing the old gap where the listing did not reload.
+Claude Code auto-compacts as you approach the limit, and Anthropic now documents what survives: the summary keeps your requests and key code snippets while detailed instructions from early in the conversation may be lost, CLAUDE.md and auto memory re-inject from disk, then Claude Code re-reads up to five of the most recently modified files and re-injects the bodies of any skills you invoked, capped at 5,000 tokens per skill and 25,000 in total, and since v2.1.304 it also rebuilds the skill descriptions and re-injects those, closing the old gap where the listing did not reload.
 All three major harnesses expose it manually: `/compact <instructions>` in Claude Code (for example, "focus on the API changes"), `/compact` in [Codex](../harnesses/codex/index.md) (with `/status` showing context usage), and `/compact`, aliased `/summarize`, in [OpenCode](../harnesses/opencode/index.md).
 Claude Code goes further than most: the rewind menu summarizes from or up to a chosen checkpoint, and `/btw` answers side questions that never enter history at all, the same idea as Codex's `/side`.
 The steering mechanism most engineers miss: put compaction directives in the memory file ("when compacting, always preserve the modified-file list and test commands"), which turns a lossy default into a controlled one.
@@ -114,6 +114,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - 2026-10-10 - Re-verified every pattern claim against the live harness docs with the four cited pages plus Anthropic's engineering post all fetching 200, and folded in two current-doc details: the re-injected skill bodies are capped (5,000 tokens per skill, 25,000 in total) and Claude Code's auto-compact threshold is now settable with /autocompact.
 - 2026-10-23 - Rotation re-verification of all eight cited pages: corrected the compaction-survival claim, Claude Code rebuilds and re-injects skill descriptions since v2.1.304 where the essay said the listing did not reload, and named the autoMemoryEnabled setting beside /memory as the auto-memory off-switch; every other pattern claim re-verified against the live docs, and the intro as-of re-dated.
 - 2026-10-28 - Rotation re-verification of all eight cited pages: every one fetched 200, the compaction, subagent, and auto-memory claims re-checked against the live docs with nothing to correct (the docs now also state that the summary inherits the session's thinking setting and that an over-5,000-token file returns as a path reference, refinements the essay's claims survive), and the intro as-of re-dated.
+- 2026-10-31 - Rotation re-verification of all eight cited pages plus the how-claude-code-works page: every one fetched 200, and three stale Claude Code documentation attributions replaced with the rewritten docs' current wording, the retired "the context window is the most important resource to manage" line and the removed "infinite exploration" anti-pattern no longer exist on the live pages (whose best-practices guide now argues focused context for answer quality rather than window scarcity), and the compaction-survival enumeration tightened to the summary-keeps-requests-and-key-code-snippets claim the current how-claude-code-works page states; every other pattern claim re-verified against the live docs, and the intro as-of re-dated.
 
 ## See also
 
@@ -128,7 +129,8 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents - context rot, attention budgets, compaction mechanics, structured note-taking, sub-agent summaries, just-in-time retrieval
 - https://code.claude.com/docs/en/best-practices - Claude Code auto-compaction, /compact with instructions, /clear, /btw, memory-file pruning, compaction directives
 - https://code.claude.com/docs/en/memory - Claude Code auto memory (on by default, first 200 lines or 25KB of MEMORY.md per project, /memory toggle and autoMemoryEnabled setting) and the note that project CLAUDE.md is re-read after compaction
-- https://code.claude.com/docs/en/context-window - the current compaction-survival enumeration: summary contents, up to five most recently modified files re-read, invoked-skill bodies re-injected with the 5,000 and 25,000 token caps, skill descriptions rebuilt and re-injected since v2.1.304 (fetched 2026-10-23)
+- https://code.claude.com/docs/en/context-window - the current compaction-survival table: summary contents, up to five most recently modified files re-read, invoked-skill bodies re-injected with the 5,000 and 25,000 token caps, skill descriptions rebuilt and re-injected since v2.1.304 (fetched 2026-10-23 and again 2026-10-31)
+- https://code.claude.com/docs/en/how-claude-code-works - the when-context-fills-up section whose summary claim (requests and key code snippets kept, detailed early instructions may be lost) the compaction paragraph now cites (fetched 2026-10-31)
 - https://learn.chatgpt.com/docs/reference/slash-commands - Codex /compact, /status context usage, and /side (the developers.openai.com URL redirects here)
 - https://opencode.ai/docs/tui - OpenCode /compact (alias /summarize), /new (alias /clear), and @ file references
 - https://raw.githubusercontent.com/google-gemini/gemini-cli/main/docs/cli/auto-memory.md - Gemini CLI Auto Memory: review-gated extraction of memory patches and skills from past sessions
