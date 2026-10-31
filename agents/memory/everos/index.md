@@ -1,7 +1,7 @@
 ---
 title: EverOS
 created: 2026-10-09
-updated: 2026-10-28
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, markdown, local-first]
 readability: 3
@@ -28,7 +28,7 @@ EverMind also sells EverOS Cloud, a managed deployment of the same engine, and p
 ## Status
 
 **Young, fast-moving, and vendor-led, with the section's familiar thin public footprint.**
-13,444 stars and 941 forks, created 2025-10-28, pushed 2026-10-28, as of 2026-10-28 (GitHub API).
+13,444 stars and 941 forks as of 2026-10-28, created 2025-10-28, default branch pushed 2026-10-30 (GitHub API, re-checked 2026-10-31).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/EverOS&type=date&theme=dark&legend=top-left" />
@@ -51,7 +51,7 @@ I found no Hacker News thread through 2026-10-09 searches, so the 13k stars rest
 
 - **Every benchmark number is the vendor's own run of its own harness**, the self-published pattern this section flags on Mem0, MemOS, and Supermemory, and the one independent common-framework evaluation in the field lists no EverOS result among its published leaders.
 - The README's checkmark-and-cross competitor table and the site's "SOTA" framing are marketing, not evaluation.
-- The 1.4.x line is young, and the hosted cloud's pricing is unpublished: the site's pricing page returned 404 at fetch time on 2026-10-09, so the managed tier is a contact-sales path today.
+- The 1.x line is young, and the hosted cloud's pricing is unpublished: the site's pricing page returned 404 at fetch time on 2026-10-09, so the managed tier is a contact-sales path today.
 - The public footprint is thin (no HN record), so failure reports and fixes skew toward the vendor's Discord and Reddit channels.
 - The quick start assumes an OpenRouter key for anything beyond the demo, a soft funnel toward one provider.
 
@@ -78,6 +78,7 @@ Not for teams needing published hosted pricing, independent benchmark evidence, 
 - 2026-10-19 - Corrected the PyPI reference line to 1.4.2, which the 2026-10-16 recording had already stated.
 - 2026-10-24 - Recorded v1.5.0 (October 21, async ingestion with `async_mode` on `/add` backed by a durable queue, configurable embedding dimensions, startup index validation) and v1.5.1 (October 22, query-embedding concurrency default raised from 4 to 16), with PyPI in sync at 1.5.1.
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched live (the Agent Memory Leaderboard site, which returned 522 at the 2026-10-11 check, now fetches normally and its fetched surface still lists no EverOS result); no release after v1.5.1, PyPI in sync at 1.5.1, no facts changed.
+- 2026-10-31 - Rotation re-verification: every cited URL re-fetched live (all nine reachable, no dead sources); recorded the breaking 1.6.0 landing on main (2026-10-30): the everalgo 2026-10 contract line with exactly pinned algorithm packages, and the target-architecture refactor (one composition root, MemoryService/KnowledgeService/OpsService facades, 14 import-linter contracts), breaking the cascade and OME environment variables into settings, requiring `[llm]`, moving prompt slots to operator YAML and service imports to the facades; still unreleased on GitHub and PyPI (both at v1.5.1/1.5.1) as of this run.
 
 ## See also
 

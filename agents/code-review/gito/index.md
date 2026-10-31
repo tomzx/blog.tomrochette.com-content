@@ -1,7 +1,7 @@
 ---
 title: Gito
 created: 2026-10-24
-updated: 2026-10-24
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -70,6 +70,7 @@ My disagreeable take: a stateless reviewer with no server and no telemetry is th
 ## Changes
 
 - 2026-10-24 - Created after the entrant scan resolved Nayjest/Gito from the kodustech/awesome-ai-code-review list; eight sources fetched this run, including the 2-point zero-comment Show HN as the footprint signal.
+- 2026-10-31 - Rotation re-verification: every cited URL re-fetched live; the release state unchanged (v4.5.0 still latest, 40 PyPI releases, pushed October 1) and the Show HN thread unchanged; no factual drift.
 
 ## See also
 
@@ -83,9 +84,9 @@ My disagreeable take: a stateless reviewer with no server and no telemetry is th
 
 - https://github.com/Nayjest/Gito - repo facts: 452 stars, 42 forks, 61 open issues and PRs, MIT, created 2025-04-30, pushed 2026-10-01, homepage gito.bot (GitHub API, as of 2026-10-24)
 - https://raw.githubusercontent.com/Nayjest/Gito/HEAD/README.md - the platform and provider tables, the stateless zero-retention pitch, the GitHub Action quickstart, the two-layer configuration model, and the Jira/Linear integrations, fetched 2026-10-24
-- https://api.github.com/repos/Nayjest/Gito/releases - v4.5.0 (2026-09-05) latest (fetched 2026-10-24)
+- https://api.github.com/repos/Nayjest/Gito/releases - v4.5.0 (2026-09-05) latest (fetched 2026-10-24, re-fetched unchanged 2026-10-31)
 - https://pypi.org/pypi/gito.bot/json - 40 PyPI releases since 1.0.1, MIT license, Python 3.11+ (fetched 2026-10-24)
 - https://raw.githubusercontent.com/Nayjest/Gito/HEAD/documentation/github_setup.md - the GitHub setup guide: provider key as a repository secret, workflow-file setup paths, fetched 2026-10-24
 - https://api.github.com/repos/Nayjest/Gito/pulls/99 - the vendor-produced demo pull request behind the README's see-it-in-action link, closed, created 2025-06-24 (fetched 2026-10-24)
-- https://hn.algolia.com/api/v1/items/48415164 - the Show HN for v4.1.0, June 5, 2026, 2 points, zero comments, the thin-footprint signal (fetched 2026-10-24)
+- https://hn.algolia.com/api/v1/items/48415164 - the Show HN for v4.1.0, June 5, 2026, 2 points, zero comments, the thin-footprint signal (fetched 2026-10-24, re-fetched unchanged 2026-10-31)
 - http://gito.bot/ - the project homepage (fetched 2026-10-24)

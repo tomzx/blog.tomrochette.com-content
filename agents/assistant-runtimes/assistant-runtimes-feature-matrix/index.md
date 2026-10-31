@@ -1,7 +1,7 @@
 ---
 title: "Assistant Runtimes Feature Matrix"
 created: 2026-08-27
-updated: 2026-10-30
+updated: 2026-10-31
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, assistant-runtimes, personal-assistants]
 readability: 3
@@ -32,7 +32,7 @@ Each column links to the full research note; every cell below traces to a source
 | Edge and mobile | ✓ Android app | ✗ server and desktop only | ✗ desktop only | ~ $5 VPS, serverless idle on Modal, Daytona | ✗ server and Cloud only | ~ server deploys (Render) | ✗ Docker host only | ✗ desktop clients, mobile in closed beta | ~ responsive web and PWA | companion apps | ✗ desktop only | ✗ macOS and Windows desktop only | ✓ Android APK, $10 RISC-V boards | ✗ server only | ~ beta Tauri desktop | ~ Raspberry Pi |
 | Credentials | your keys | your keys, providers set in the panel | your keys or cloud credits | per-provider keys or Nous Portal | your keys | your keys on host | ✓ OneCLI Agent Vault | your keys, per-expert providers | your keys | your keys on host | your keys BYO | your keys | your keys in workspace | your keys, local by default | your keys, or none offline | your keys in workspace |
 | Security record | clean so far | silent-drop adapter bug fixed 2026-06, thin English-language scrutiny | GAIA claim corrected, astroturf flag | edited plagiarism-claim issue, 52k open issues | clean so far, zero English-language scrutiny | clean so far, category-skepticism thread | clean so far | clean so far, zero English-language scrutiny | clean so far, license controversy | provider saga, 514-point vuln report, Trail of Bits audit completed (23 confirmed vulnerabilities, all fixed) | HN boundary questions unresolved | open beta, macOS builds signed and notarized while Windows builds are unsigned, thin independent footprint | pre-1.0 banner, scam-token notice, picoclaw.io cert renewed after its 2026-09-10 expiry | clean so far | telemetry auto-accept default | clean so far, thin coverage |
-| Status | active, v1.19.0 | active, v4.29.3, 1,109 open issues and PRs | active, v1.0.6 | active, v0.22.5 on the semver release line, 52k open issues | active, v4.11.4 | active, v0.4.0 | active, v2026.10.0 stable with v2026.10.1-rc.2 open, 1.0k open issues | active, v1.0.2 stable with v1.0.3b1 open, 900 open issues | active, v0.12.5 | active, v2026.10.9 stable, 7.9k open issues | active, v0.18.63 | active, v0.3.1, open beta | active, 37 open issues, pre-1.0 | active, v1.0.1, pushed 2026-10-29 | active, v2.2.2.post1 with v2.3.0-beta.1 open, post-rewrite churn | active, v0.8.7, 1.1k open issues |
+| Status | active, v1.19.0 | active, v4.29.3, 1,109 open issues and PRs | active, v1.0.7 | active, v0.22.5 on the semver release line, 52k open issues | active, v4.11.4 | active, v0.4.0 | active, v2026.10.0 stable with v2026.10.1-rc.2 open, 1.0k open issues | active, v1.0.2 stable with v1.0.3b1 open, 789 open issues | active, v0.12.5 | active, v2026.10.9 stable, 7.9k open issues | active, v0.18.63 | active, v0.3.1, open beta | active, 31 open issues, pre-1.0 | active, v1.0.1, pushed 2026-10-29 | active, v2.2.2.post1 with v2.3.0-beta.1 open, post-rewrite churn | active, v0.8.7, 1.1k open issues |
 
 ## Reading the matrix
 
@@ -44,7 +44,7 @@ QwenPaw is the only column with a real offline path through its own trained smal
 
 **The desktop split is the new category line: OpenWork, Eigent, and OpenWorker do not do chat channels at all, which is why their cells go tilde there, and choosing between them and the messaging runtimes is really choosing between an assistant that lives in your chats and one that lives on your desktop.**
 
-**The status row's issue counts are inversely proportional to age, not quality: the root carries 7.9k open issues at scale, and the pre-1.0 PicoClaw carries 37, so read the column against its birthday.**
+**The status row's issue counts are inversely proportional to age, not quality: the root carries 7.9k open issues at scale, and the pre-1.0 PicoClaw carries 31, so read the column against its birthday.**
 
 **Hermes is the column that breaks the -claw pattern: it competes on the learning loop rather than the trust ladder, and its about 253k stars against a 52k-issue backlog is the trade in one row pair.**
 
@@ -95,6 +95,7 @@ QwenPaw is the only column with a real offline path through its own trained smal
 - 2026-10-28 - Re-verification: moved cells (AnythingLLM status to v1.19.0, OpenClaw to v2026.10.8 stable with 7.7k open issues, OpenWork to v0.18.63, ZeroClaw to v0.8.7, QwenPaw to v2.2.2.post1 with v2.3.0-beta.1 open, PrivateGPT pushed 2026-10-27, and drifted issue counts on AstrBot, Hermes, Octop, and PicoClaw) and matching prose counts, with the stars row left at its 2026-10-14 counts.
 - 2026-10-29 - Re-verification: moved cells (Nanobot status to v0.4.0, AstrBot to 1,083 open issues and PRs, Octop to 799, OpenClaw to 7.8k) and matching prose counts, with the stars row left at its 2026-10-14 counts.
 - 2026-10-30 - LangBot column added (the Apache-2.0 IM-platform veteran from 2022, the category's sixteenth member), re-sorted alphabetically, with drifted cells refreshed (AstrBot to 1,109 open issues and PRs, Octop to 900, Open WebUI status to v0.12.5, OpenClaw status to v2026.10.9 stable with 7.9k open issues, PicoClaw to 37, PrivateGPT pushed 2026-10-29) and matching prose counts, with the stars row left at its 2026-10-14 counts except the new column's 2026-10-30 baseline.
+- 2026-10-31 - Re-verification: moved cells (Eigent status to v1.0.7, Octop to 789 open issues, PicoClaw to 31) and matching prose counts, and the references list gained the LangBot column repo it lacked, with the stars row left at its 2026-10-14 counts.
 
 ## See also
 
@@ -120,3 +121,4 @@ QwenPaw is the only column with a real offline path through its own trained smal
 - https://github.com/TencentCloud/Octop - the Octop column: multi-user experts, the Tencent IM gateway, ACP
 - https://github.com/open-webui/open-webui - the Open WebUI column: the self-hosted interface and its license
 - https://github.com/zylon-ai/private-gpt - the PrivateGPT column: the API-first local backend
+- https://github.com/langbot-app/LangBot - the LangBot column: the Apache-2.0 IM-platform veteran's multi-pipeline operations and guardrails

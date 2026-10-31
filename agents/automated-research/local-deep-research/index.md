@@ -1,7 +1,7 @@
 ---
 title: Local Deep Research
 created: 2026-10-07
-updated: 2026-10-30
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, deep-research, local-first]
 readability: 3
@@ -24,7 +24,7 @@ Around the loop sit a journal-quality system scoring 212K-plus indexed sources w
 
 ## Status
 
-Active and heavily developed: 9,192 stars as of 2026-10-15, 890 forks, created 2025-02-09, last pushed 2026-10-30 on a many-commit daily cadence (the newest main commits, October 29, keep transient library access failures retryable, encrypt backup failure status, gate the chat custom-LLM endpoint at the research-start boundary, and separate run-engine selection from LangGraph tool availability, following the October 26-28 batch's DOI resolution to open-access copies before declaring paywall, LaTeX and BibTeX URL userinfo stripping, a shared dark theme default, worker-owned RAG preparation sessions, and stale download-claim recovery, and the October 18 version bump to 2.0.0 on main, the project's first major-version cut), with the release train still published at v1.10.7, 2026-08-28 on GitHub and PyPI, as of 2026-10-30.
+Active and heavily developed: 9,192 stars as of 2026-10-15, 890 forks, created 2025-02-09, last pushed 2026-10-31 on a many-commit daily cadence (the newest main commits, October 31, record PDF downloads as completed only after the file saves, preserve pending backup status across delayed acknowledgements, keep unwritten purge warnings in the bounded status cache, and renew unstructured OSV security exceptions after review, following the October 29 batch's retryable transient library access failures, encrypted backup failure status, chat custom-LLM endpoint gated at the research-start boundary, and run-engine selection separated from LangGraph tool availability, the October 26-28 batch's DOI resolution to open-access copies before declaring paywall, LaTeX and BibTeX URL userinfo stripping, a shared dark theme default, worker-owned RAG preparation sessions, and stale download-claim recovery, and the October 18 version bump to 2.0.0 on main, the project's first major-version cut), with the release train still published at v1.10.7, 2026-08-28 on GitHub and PyPI, as of 2026-10-31.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=LearningCircuit/local-deep-research&type=date&theme=dark&legend=top-left" />
@@ -46,7 +46,7 @@ The project's headline benchmark is self-reported through community channels: ab
 
 - The headline numbers are self-reported community benchmarks, and the README itself flags small samples, LLM-grader noise, and SimpleQA contamination risk on newer base models.
 - No machine judge sits inside the loop: the output is prose with citations, so the human stays the verifier, exactly as with Deep Research.
-- 1,282 open issues and pull requests as of 2026-10-30 against a volunteer contributor base signals a project where support lags feature growth.
+- 1,310 open issues and pull requests as of 2026-10-31 against a volunteer contributor base signals a project where support lags feature growth.
 - Attaching premium engines or cloud models reintroduces the external calls the privacy story avoids, one API key at a time.
 
 ## Pricing

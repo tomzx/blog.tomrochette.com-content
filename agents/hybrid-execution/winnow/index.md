@@ -1,7 +1,7 @@
 ---
 title: Winnow
 created: 2026-10-11
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, gguf, multimodal]
 readability: 3
@@ -30,7 +30,7 @@ Active and community-scale: the 12B checkpoint shows 61,091 downloads and 75 lik
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=EldanRing/winnow-inference&type=date&legend=top-left" />
 </picture>
 
-On JevBench's official open-weights composite Winnow-12B Q8 carries its unchanged 68.9 (measured 2026-10-02); on the 2026-10-27 read of the live board (revision v1.7.48 under method v1.7, 232 ranked systems) that row sits official #24 and twenty-sixth by the Capability Score, down from tenth of 184 and nineteenth on the October 20 read of v1.7.46 as five weeks of entrants crowded in, and on the Decision Index 0.4.1 board (edition 0.4, regenerated 2026-10-26, 230 configurations, the Full score now entirely private) Winnow-12B scores 46.57 (ninety-sixth) and Winnow-E4B 32.72 (147th) against Jev 1.14's 60.24.
+On JevBench's official open-weights composite the frozen v1.6.1 aggregate carries Winnow-12B Q8 at its unchanged 68.9 (measured 2026-10-02); the live board re-based under method v1.8 (fetched 2026-10-31, 235 ranked systems) reads that row official #39 at 72.21 and fifty-third by the Capability Score, after the 2026-10-27 method-v1.7 read had it official #24 and twenty-sixth by capability as five weeks of entrants crowded in, and on the Decision Index 0.4.1 board (edition 0.4, regenerated 2026-10-29, 248 configurations, the Full score now entirely private) Winnow-12B scores 46.57 (105th) and Winnow-E4B 32.72 (162nd) against Jev 1.14's 60.24.
 The third-party local-jev-bench suite (12B measured 2026-10-10; fully re-measured 2026-10-14 to 16 with the earlier accuracy counts reproduced) reads it as top-group everywhere: transfer-v4 83 percent, tied first with Clef and level with Kev-9B (whose edge holds only on the set's two held-out policy-structure sources, 81 versus 77 percent), typed-decisions 71 percent level with its E4B sibling, and the suite's regression note that Winnow now beats Kev-9B on typed-decisions with non-overlapping Wilson intervals.
 Ollaya's Ollama comparison calls winnow:12b its most accurate model on Bespoke Labs' 3,880 human-labeled questions, 0.773 against Ollama 0.35's best 0.749.
 
@@ -75,6 +75,7 @@ The disagreeable claim I will defend: Winnow matching Jev answer-for-answer on a
 - 2026-10-22 - The Decision Index's edition-0.4 rebuild (226 configurations, the Full score now entirely private) rescored Winnow-12B to 46.57 (ninety-third) and Winnow-E4B to 32.72 (144th) against Jev 1.14's 60.24.
 - 2026-10-27 - Restored the Changes list to oldest-first order after a format check found the 2026-10-20 bullet sitting after the 2026-10-22 one; no bullet content changed.
 - 2026-10-27 - Rotation re-verification, every cited URL re-fetched and live: the aggregate's Q8 row is unchanged (composite 68.89, measured 2026-10-02) while the live board's 2026-10-27 read (revision v1.7.48 under method v1.7, 232 ranked systems) moved it to official #24 and twenty-sixth by capability, and the Decision Index's 2026-10-26 regeneration (230 configurations) moved the unchanged 46.57 and 32.72 to ninety-sixth and 147th; the 12B checkpoint's rolling-month counts refreshed to 61,091 downloads and 75 likes (E4B 59,065), the card unchanged since 2026-10-13, and the server unchanged since 2026-10-06.
+- 2026-10-31 - Out-of-rotation board re-fetch at the drift signal, both boards: JevBench moved to method v1.8 (the self-hosted cost basis re-based to GPU time), reading the Q8 row official #39 at a re-based 72.21 and fifty-third by capability on 235 ranked systems, and the Decision Index's 2026-10-29 regeneration (248 configurations) crowd-shifted the unchanged 46.57 and 32.72 to 105th and 162nd; the frozen v1.6.1 aggregate row is unchanged on its re-fetch.
 
 ## See also
 
@@ -90,7 +91,7 @@ The disagreeable claim I will defend: Winnow matching Jev answer-for-answer on a
 - https://huggingface.co/EldanRing/Winnow-12B/raw/main/docs/BENCHMARKS.md - the benchmark report: the 85.71 versus 85.71 public-subset tie, the 81.55 versus 87.00 transfer gap, and the measurement conditions (fetched 2026-10-11, re-fetched 200 2026-10-27)
 - https://huggingface.co/api/models/EldanRing/Winnow-12B - created 2026-09-20, last modified 2026-10-13, 61,091 downloads, 75 likes (fetched 2026-10-27)
 - https://github.com/EldanRing/winnow-inference - the MIT server: created 2026-09-21, 26 stars, pushed 2026-10-06, the /v1/systemone plus chat surface and the 16 GB deployment profile (GitHub API, as of 2026-10-20; unchanged on the 2026-10-27 re-fetch)
-- https://benchmarkheaven.com/api/jevbench/v1.6.1 - the JevBench aggregate: the Winnow-12B Q8 row at 68.9 on the official composite (measured 2026-10-02), unchanged (fetched 2026-10-27); the live board's 2026-10-27 read (v1.7.48, method v1.7, 232 ranked) has it official #24 and twenty-sixth by capability
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 rows (Winnow-12B 46.57 at ninety-sixth, Winnow-E4B 32.72 at 147th), regenerated 2026-10-26, fetched 2026-10-27
+- https://benchmarkheaven.com/api/jevbench/v1.6.1 - the JevBench aggregate: the Winnow-12B Q8 row at 68.9 on the official composite (measured 2026-10-02), unchanged (fetched 2026-10-27, re-fetched 2026-10-31); the live board's method-v1.8 read (2026-10-31, 235 ranked) has it official #39 at 72.21 and fifty-third by capability
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 rows (Winnow-12B 46.57 at 105th, Winnow-E4B 32.72 at 162nd), regenerated 2026-10-29, fetched 2026-10-31
 - https://raw.githubusercontent.com/tak-bro/local-jev-bench/HEAD/README.md - the third-party Apple Silicon readings placing Winnow in the top group, fully re-measured 2026-10-14 to 16 with the counts reproduced (fetched 2026-10-20, re-fetched 200 2026-10-27)
 - https://ollaya.dev/ - the human-labeled Ollama comparison where winnow:12b is the most accurate model at 0.773 (fetched 2026-10-20, re-fetched 2026-10-27)

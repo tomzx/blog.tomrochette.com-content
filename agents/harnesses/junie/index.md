@@ -1,7 +1,7 @@
 ---
 title: Junie
 created: 2026-08-22
-updated: 2026-10-26
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, jetbrains, byok]
 readability: 3
@@ -86,6 +86,7 @@ Not for anyone who needs an open client or a large community ecosystem today.
 - 2026-10-07 - Added the JetBrains/junie star history chart to the Status section.
 - 2026-10-18 - Recorded Junie Local widening past the Mac: NVIDIA RTX Spark support from day one of that platform and Windows support stable on 24 GB RTX cards, with a Qwen3.6-27B or Qwen3.8-3.6-27B-blend model choice, and refreshed the home-page reference annotation and the Pricing section's Local line.
 - 2026-10-26 - Recorded Junie Lite (announced October 2, 2026) as the named free tier in the Pricing section, replacing the 5-credit free-start wording, with the AI Pro and AI Ultimate prices re-verified unchanged; every cited URL re-fetched in the rotation pass.
+- 2026-10-31 - Rotation re-verification, every cited reference live: the Junie Lite free tier and the AI Pro ($8.33) and AI Ultimate ($25) prices re-verified unchanged on the product pages, and the repository's release train still rolling (builds published October 30-31).
 
 ## See also
 
@@ -96,7 +97,7 @@ Not for anyone who needs an open client or a large community ecosystem today.
 
 ## References
 
-- https://junie.jetbrains.com/ - features and BYOK providers, re-fetched 2026-10-26 (the page now leads the free tier with Junie Lite and keeps the same plan prices; $8.33 and $25 were last confirmed on the page 2026-10-06)
+- https://junie.jetbrains.com/ - features and BYOK providers, re-fetched 2026-10-31 (the page leads the free tier with Junie Lite and keeps the same plan prices; $8.33 and $25 confirmed on the page again 2026-10-31)
 - https://junie.jetbrains.com/blog/junie-lite/ - the October 2, 2026 Junie Lite announcement: a free model tier in every JetBrains account, virtually unlimited, in Air and the CLI
 - https://blog.jetbrains.com/junie/2026/08/junie-local-launch/ - the Junie Local on-device launch, free with no credits
 - https://blog.jetbrains.com/junie/2026/10/junie-local-rtx-spark/ - the October 2026 widening: NVIDIA RTX Spark support and stable Windows on 24 GB RTX cards

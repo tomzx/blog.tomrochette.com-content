@@ -1,7 +1,7 @@
 ---
 title: Kitaru
 created: 2026-10-14
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, replay-evals, regression-testing]
 readability: 3
@@ -23,8 +23,8 @@ Evaluations start from you: an investigation has your coding assistant interview
 
 ## Status
 
-Active and vendor-backed: 308 stars, 26 forks as of 2026-10-14, last push 2026-10-27, with the repository created 2026-03-05.
-The release train is fast and coordinated: PyPI 0.27.2 (2026-10-08) out of 55 releases, TypeScript SDK 0.6.0 the same day, and roughly 9,900 PyPI downloads in the last month (pypistats, as of 2026-10-21), the one adoption receipt here that is not self-reported.
+Active and vendor-backed: 308 stars, 26 forks as of 2026-10-14, last push 2026-10-30, with the repository created 2026-03-05.
+The release train is fast and coordinated: PyPI 0.27.3 and TypeScript SDK 0.7.0 shipped together on 2026-10-30, with the adapter packages versioned in step, and roughly 9,900 PyPI downloads in the last month (pypistats, as of 2026-10-31), the one adoption receipt here that is not self-reported.
 It has already pivoted once: launched March 2026 as open-source infrastructure for async agents, carried a durable-runtime framing through July, and relaunched on 2026-08-18 around replay-based evals with Workers replacing the old Stacks concept, and parts of the docs still describe the older flows-and-checkpoints framing.
 The standalone kitaru.ai site folded into zenml.io in October 2026: the pricing page is now a Kitaru workspace tab on zenml.io/pricing, the relaunch post moved to the ZenML blog, and the pricing FAQ says one subscription covers both products on one bill.
 
@@ -50,20 +50,21 @@ The docs are candid about the fit in both directions, naming prototype teams as 
 - Near-zero independent reception: the HN record never moved, no third-party coverage exists, and the companion skills repository holds 6 stars.
 - Mid-pivot documentation: pages describing the old durable-runtime framing (flows, checkpoints, stacks) sit beside the new eval framing under the same name, a trap for anyone following older links.
 - Replay fidelity is conditional: the OpenAI Agents adapter cannot use a history default, the default tool policy passes calls through to live tools (the docs warn a replayed refund call refunds again), and an unrecorded tool call fails the replay.
-- Cloud caps bite at scale: 3 agents, 2 seats, and 90-day session retention on the $39 plan push growing teams toward Enterprise.
+- Cloud caps bite at scale: one AI agent and 100 pipeline runs a month on the $39 Starter plan push growing teams toward Enterprise.
 - The calibration check is only as good as the reviewed sample; a gate calibrated on a handful of pinned judgments inherits their blind spots.
 
 ## Pricing
 
 Open source and self-hosted free under Apache-2.0.
-Cloud is one flat launch plan at $39 per month (3 agents, 2 seats, 90-day retention), with a 14-day full-access trial needing no credit card.
-Enterprise is custom-priced (SSO, audit logs, remote worker pools, custom limits and retention).
+Cloud is one flat Starter plan at $39 per month (one AI agent, one ML project, unlimited seats, 100 pipeline runs a month), with a 14-day trial needing no credit card.
+Enterprise is custom-priced (multi-workspace, on-prem or air-gapped, your own LLM endpoint, SSO/SCIM, audit logs, SLA).
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-10-14 | Cloud | recorded at the $39/month flat launch plan (3 agents, 2 seats, 90-day retention), 14-day full-access trial | https://kitaru.ai/pricing |
+| 2026-10-31 | Starter (Cloud) | $39 unchanged, tier reshaped: one AI agent and one ML project with unlimited seats and 100 pipeline runs a month, replacing the 3-agent, 2-seat, 90-day-retention launch terms | https://www.zenml.io/pricing |
 
 ## Compared to
 
@@ -80,6 +81,7 @@ Not for prototypes (its own docs say it will feel like more machinery than you n
 
 - 2026-10-14 - Created.
 - 2026-10-21 - Rotation re-verification: recorded the kitaru.ai fold into zenml.io (pricing as a Kitaru workspace tab, one subscription across both products), moved the pricing and relaunch-post references to their new zenml.io URLs, and refreshed the activity line; every cited URL re-fetched and live.
+- 2026-10-31 - Rotation re-verification folded into the volatile pass after the coordinated 2026-10-30 releases: PyPI 0.27.3 and TypeScript SDK 0.7.0 recorded, the Starter tier's reshaped terms (one agent, one ML project, unlimited seats, 100 pipeline runs a month) moved into Pricing with a Price history row, and every cited URL re-fetched and live.
 
 ## See also
 
@@ -95,7 +97,7 @@ Not for prototypes (its own docs say it will feel like more machinery than you n
 - https://docs.zenml.io/kitaru - the record/replay/improve loop, the five-step method, the who-it-is-for caution, and the workers-in-your-environment architecture
 - https://www.zenml.io/blog/introducing-the-new-kitaru - the 2026-08-18 relaunch: cohorts, evaluator calibration against expert verdicts, tool policies, the Stacks-to-Workers pivot, and the positioning against Langfuse, Braintrust, and LangSmith (moved from kitaru.ai in October 2026)
 - https://www.zenml.io/pricing - Open Source free, Kitaru Cloud $39/month with 3 agents, 2 seats, and 90-day retention, Enterprise custom (the Kitaru workspace tab; moved from kitaru.ai)
-- https://pypi.org/project/kitaru/ - package record: 0.27.2 (2026-10-08), 55 releases, Python >=3.11 (verified through the PyPI JSON API, the HTML page is client-rendered)
-- https://pypistats.org/api/packages/kitaru/recent - roughly 9,900 downloads in the last month as of 2026-10-21
+- https://pypi.org/project/kitaru/ - package record: 0.27.3 (2026-10-30), 56 published versions, Python >=3.11 (verified through the PyPI JSON API, the HTML page is client-rendered)
+- https://pypistats.org/api/packages/kitaru/recent - roughly 9,900 downloads in the last month as of 2026-10-31
 - https://news.ycombinator.com/item?id=48807786 - the July 2026 Show HN under the current positioning, 2 points, no comments, the thin-reception evidence (verified through the HN Algolia item API, with the 2026-03-25 and 2026-04-22 submissions at items 47520115 and 47863502)
-- https://github.com/zenml-io/kitaru-skills - companion agent-skills repository, 6 stars, last push 2026-10-20
+- https://github.com/zenml-io/kitaru-skills - companion agent-skills repository, 6 stars, last push 2026-10-30

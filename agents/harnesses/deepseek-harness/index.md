@@ -1,7 +1,7 @@
 ---
 title: DeepSeek Harness
 created: 2026-08-30
-updated: 2026-10-30
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, plugins, open-source]
 readability: 3
@@ -56,6 +56,14 @@ An ecosystem is already forming: a Tauri desktop port with 2,992 stars as of 202
 
 Free and open source under MIT.
 No hosted tier and no pricing page; costs are whatever your model provider charges.
+The one exception rides the harness's own Search and Fetch toggles (added in dsh-v0.2.1-rc.2): DeepSeek bills those server-side tool calls at $0.75 per 1,000 successful requests each, free until 00:00 Beijing time on 2026-11-01, and its pricing page names DeepSeek Harness, Claude Code, and Codex sessions as the traffic already hitting them.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-10-17 | DeepSeek Search and Fetch APIs (optional web-search toggles) | Introduced free in dsh-v0.2.1-rc.2; the harness itself free under MIT. | [releases feed](https://api.github.com/repos/deepseek-ai/deepseek-harness/releases?per_page=6) |
+| 2026-11-01 | DeepSeek Search and Fetch APIs | Per-request billing starts at $0.75 per 1,000 successful requests each, from 00:00 Beijing time. | [DeepSeek pricing](https://api-docs.deepseek.com/quick_start/pricing/) |
 
 ## Compared to
 
@@ -86,6 +94,7 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 - 2026-10-24 - Recorded the dsh-v0.2.1-rc.3 prerelease (October 23): More menus in the left sidebar, session view, and right sidebar for browsing and creating plugins, unsent-draft recovery when switching sessions, and API-key adapter model-list refreshes matching the account-login mode.
 - 2026-10-29 - Rotation re-verification, re-fetching every cited reference (all live): recorded the tagged train reaching dsh-v0.2.2-alpha.2 (October 28), which opened the 0.2.2 line with plugin-manager rich-text details, third-party plugin-package updates that restore the prior version when a hot update fails, composer quotes with compact previews, Markdown history export, six interface languages, and experimental worktree sessions with change requests, `subagent_oar` delegation to local Codex or Claude CLIs, per-turn context and cache statistics, and recommendation cards, after dsh-v0.2.1-rc.4 fixed diagnostics leaking into stdout in ACP mode; the project remains prerelease-only.
 - 2026-10-30 - Recorded dsh-v0.2.1-rc.5 (October 30, an improved thinking-content display) taking the newest-tag spot above the 0.2.2 alpha train; still no stable release.
+- 2026-10-31 - Recorded DeepSeek's Search and Fetch per-request fee ($0.75 per 1,000 successful requests each, starting 00:00 Beijing time 2026-11-01) in the Pricing section with a seeded Price history table, per the coordinator handoff; rotation re-verification re-fetched every cited reference live and dsh-v0.2.1-rc.5 still the newest tag.
 
 ## See also
 
@@ -104,3 +113,4 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 - https://github.com/dsh-tauri/deepseek-harness-desktop - the community desktop port, evidence of early ecosystem pull (org renamed from dsh-tauri-desk, old links redirect)
 - https://github.com/awesome-dsh-plugin/awesome-dsh-plugin - the curated plugin registry behind dsh-market and dsh-find-plugin (19,084 stars as of 2026-10-17), the ecosystem's delivery layer
 - https://github.com/Dominic789654/awesome-deepseek-harness - the generated ecosystem index (385 stars as of 2026-10-17), further evidence of community pull
+- https://api-docs.deepseek.com/quick_start/pricing/ - the Search and Fetch per-request billing ($0.75 per 1,000 successful requests each) that starts 00:00 Beijing time 2026-11-01, naming DeepSeek Harness, Claude Code, and Codex sessions as existing callers

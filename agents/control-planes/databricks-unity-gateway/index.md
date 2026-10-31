@@ -1,7 +1,7 @@
 ---
 title: Databricks Unity Gateway
 created: 2026-10-02
-updated: 2026-10-23
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-plane, governance, mcp, enterprise]
 readability: 3
@@ -23,9 +23,9 @@ Guardrails cover PII detection and redaction, content safety, prompt-injection d
 
 ## Status
 
-Active and strategic: this is a core Databricks product line, documented across all three clouds, with the April 2026 announcement naming coding agents (Cursor, Codex, Claude Code) as governed callers.
+Active and strategic: this is a core Databricks product line, documented across all three clouds, with the April 2026 announcement naming coding agents (Cursor, Codex, Claude Code) as governed callers and general availability following on August 4, 2026, with Databricks reporting thousands of customers including Rivian, Asana, and Edmunds.
 **The gap to know is that coverage is uneven at the edges: rate limits do not apply to `ai_query` batch inference workloads (usage tracking only), output guardrails do not apply to streaming or embeddings, and the platform is unavailable on AWS GovCloud and Azure Government.**
-The LLM-judge guardrails and the OpenAI-compatible unified API were still beta in the April announcement.
+The gateway itself is generally available, but service policies, Smart Routing, and agent services were still beta as of the 2026-10-31 re-check; the LLM-judge guardrails and the OpenAI-compatible unified API were beta at the April announcement.
 
 ## Strengths
 
@@ -63,6 +63,7 @@ Not for multi-cloud agent fleets, for batch-inference-heavy workloads that need 
 - 2026-10-02 - Created.
 - 2026-10-16 - Rotation re-verification: all seven references re-fetched live and every claim confirmed, including the announcement's Unity Catalog naming, the on-behalf-of MCP execution, and the vendor-forum confirmation on ai_query batch inference; the forum reference's fetch caveat corrected now that the page serves a browser user agent.
 - 2026-10-23 - Rotation re-verification: all seven references re-fetched live, the Unity Gateway naming on the announcement and all three clouds' docs unchanged, the vendor-forum page again serving a browser user agent and still confirming the ai_query rate-limit gap, and the third-party guide live; no drift found.
+- 2026-10-31 - Rotation re-verification: all seven prior references re-fetched live and every claim confirmed, the general-availability milestone added (August 4, 2026, with service policies, Smart Routing, and agent services still beta) from the GA announcement, and the ai_query rate-limit gap re-confirmed on the vendor forum; no other drift.
 
 ## See also
 
@@ -75,6 +76,7 @@ Not for multi-cloud agent fleets, for batch-inference-heavy workloads that need 
 ## References
 
 - https://www.databricks.com/blog/ai-gateway-governance-layer-agentic-ai - the April 15, 2026 announcement naming Unity Gateway: MCP governance, on-behalf-of execution, beta guardrails, fallbacks, and system-table cost attribution
+- https://www.databricks.com/blog/unity-ai-gateway-generally-available - the August 4, 2026 general-availability announcement: thousands of customers, budget hard caps, Smart Routing in beta, and the frontier-model single-query API
 - https://docs.databricks.com/aws/en/ai-gateway/ - the AWS documentation hub for AI governance with Unity Gateway
 - https://docs.databricks.com/aws/en/ai-gateway/ai-governance - the setup guide: routing, service policies, and rate limits across model and MCP services
 - https://docs.databricks.com/aws/en/ai-gateway/rate-limits - the endpoint, user, and group rate-limit mechanics in QPM and TPM

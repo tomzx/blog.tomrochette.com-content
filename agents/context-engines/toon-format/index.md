@@ -1,7 +1,7 @@
 ---
 title: TOON
 created: 2026-10-07
-updated: 2026-10-25
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, serialization, token-optimization, specification]
 readability: 3
@@ -23,7 +23,7 @@ The intended use is a translation layer: keep JSON in code, encode to TOON at th
 
 ## Status
 
-Active and widely adopted: created 2025-10-22, 25,494 stars, spec at v4.4, 6,723,407 npm downloads in the trailing month to 2026-10-22.
+Active and widely adopted: created 2025-10-22, 25,494 stars, spec at v4.4, 7,808,677 npm downloads in the trailing month to 2026-10-29.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=toon-format/toon&type=date&theme=dark&legend=top-left" />
@@ -69,6 +69,7 @@ Not for deeply nested or heterogeneous payloads, and not yet for contexts where 
 - 2026-10-09 - Recorded the specification moving to v4.4 (published 2026-10-08) and refreshed the volatile numbers (25,478 stars, 1,658,827 weekly npm downloads, window 2026-10-01 to 2026-10-07).
 - 2026-10-19 - Corrected the SPEC.md reference annotation to the v4.4 version the note already records; full re-verification, every cited URL re-fetched and intact.
 - 2026-10-25 - Replaced the weekly npm-window adoption claim with the trailing-month figure (6,723,407 to 2026-10-22) per the trailing-month ruling on npm weekly windows; the stars figure keeps its 2026-10-13 as-of date.
+- 2026-10-31 - Full rotation re-verification: every cited URL re-fetched and intact; the spec still at v4.4 and the trailing-month npm figure refreshed (7,808,677 to 2026-10-29); the stars figure keeps its 2026-10-13 as-of date.
 
 ## See also
 

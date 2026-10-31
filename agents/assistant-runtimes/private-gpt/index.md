@@ -1,7 +1,7 @@
 ---
 title: PrivateGPT
 created: 2026-09-27
-updated: 2026-10-30
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, self-hosting, api-first, rag]
 readability: 3
@@ -36,7 +36,7 @@ Alive again after a long quiet stretch: 57,577 stars and 7,619 forks as of 2026-
 The project went viral in May 2023 with a 520-point Hacker News thread as the original offline document chat.
 **Then came the fork gap: the v1.0.0 release notes state the release merges two years of work from a private fork, which is a direct admission that the public repo lagged while Zylon built commercially.**
 v1.0.0 shipped 2026-06-03 with a breaking API change, v1.0.1 followed on 2026-06-18, and no release has shipped since, though main is active.
-Seven open issues and pull requests on a project this size is unusually low, which I read as issue hygiene rather than an absence of bugs.
+Eighteen open issues and pull requests on a project this size is unusually low, which I read as issue hygiene rather than an absence of bugs.
 The same notes say Zylon closed its private fork and now develops against the open repository, which is the commitment to watch.
 
 ## Strengths
@@ -77,6 +77,7 @@ The disagreeable claim I will defend: the star count is a museum of the 2023 dem
 - 2026-10-07 - Added the zylon-ai/private-gpt star history chart to the Status section.
 - 2026-10-18 - Rotation re-verification: every cited URL re-fetched live, v1.0.1 (2026-06-18) confirmed still the latest release, and the Claude-API compatibility claims, the integration list, and the Zylon positioning all confirmed unchanged.
 - 2026-10-28 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the docs site, zylon.ai, the launch thread via Algolia), v1.0.1 (2026-06-18) confirmed still the latest release, and the API-first positioning, the Claude-API compatibility table (skills basic, prompt caching and OAuth missing), and the Zylon enterprise framing all unchanged.
+- 2026-10-31 - Corrected the stale seven-figure open issues-and-PRs count in the Status commentary to the current eighteen, matching the Status line.
 
 ## See also
 

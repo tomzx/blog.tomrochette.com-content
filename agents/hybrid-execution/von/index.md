@@ -1,7 +1,7 @@
 ---
 title: Von
 created: 2026-10-11
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, cpu-inference]
 readability: 3
@@ -31,7 +31,7 @@ Before that it was active and community-scale: the repository was created 2026-0
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=wfzyx/von&type=date&legend=top-left" />
 </picture>
 
-The scoreboard readings are humbling: von-1.3 scores 11.65, rank 212 of 230 on the Decision Index 0.4.1 board as regenerated 2026-10-26, against Jev 1.14's 60.24, and Von does not carry a JevBench composite row.
+The scoreboard readings are humbling: von-1.3 scores 11.65, rank 230 of 248 on the Decision Index 0.4.1 board as regenerated 2026-10-29, against Jev 1.14's 60.24, and Von carries only an unmeasured listing on JevBench's method-v1.8 board, no composite row.
 The third-party local-jev-bench suite (measured 2026-10-05) states the model card's own boundary in its findings: English-only, 15 percent on a Korean set, near the bottom of its accuracy tables on every set but the small English one, at 32 to 411 ms first-call p50; Ollaya's table scores von at 0.447 on typed decisions with 8,192-token states at 19 ms.
 
 ## Strengths
@@ -74,6 +74,7 @@ The disagreeable claim I will defend: Von's near-bottom accuracy and six-figure 
 - 2026-10-20 - Volatile re-verification after the 2026-10-19 post-archival push: the archived notice now points at LiquidAI's d1-omni-600M as the follow-on (the README's only change), and the checkpoint's download and like counts were re-read at 118,261 and 62 with the weights confirmed untouched.
 - 2026-10-22 - The Decision Index's edition-0.4 rebuild (226 configurations, the Full score now entirely private) rescored the archived von-1.3 to 11.65, rank 208 of 226, against Jev 1.14's 60.24; the archive status is untouched.
 - 2026-10-27 - Rotation re-verification, every cited URL re-fetched and live: the archive holds (the repository still carries GitHub's archived flag and the d1-omni-600M pointer), PyPI still serves von-sdk 1.3.7, the checkpoint's rolling-month counts re-read at 85,677 downloads and 64 likes, the Decision Index's 2026-10-26 regeneration (230 configurations) moved the unchanged 11.65 from rank 208 to 212, and Ollaya's 0.447 typed-decisions row holds; nothing else changed.
+- 2026-10-31 - Out-of-rotation re-fetch at the drift signal: the Decision Index's 2026-10-29 regeneration (248 configurations) moved the unchanged 11.65 from rank 212 to 230, and JevBench's method-v1.8 board gained an unmeasured Von listing (no composite row, not on the v1.6.0 pool); the archive status is untouched.
 
 ## See also
 
@@ -87,6 +88,6 @@ The disagreeable claim I will defend: Von's near-bottom accuracy and six-figure 
 - https://github.com/wfzyx/von - repository: Apache-2.0, created 2026-09-18, 880 stars, archived 2026-10-17 with the "Archived / Concluded" README banner (its 2026-10-19 commit points at LiquidAI/d1-omni-600M), the 395M ModernBERT design, SDK and Docker surfaces, and the runtime matrix (GitHub API and README, as of 2026-10-20; archived flag and pushed date re-confirmed 2026-10-27)
 - https://huggingface.co/wfzyx/von - the checkpoint: Apache-2.0, created 2026-09-19, 85,677 downloads and 64 likes as of 2026-10-27, training data and benchmark record on the card (Hugging Face API, as of 2026-10-27)
 - https://pypi.org/project/von-sdk/ - the Python SDK, version 1.3.7 uploaded 2026-10-02 (fetched 2026-10-11, re-fetched unchanged 2026-10-27)
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 row scoring von-1.3 at 11.65, rank 212 of 230 after the 2026-10-26 regeneration, against Jev 1.14's 60.24 (fetched 2026-10-27)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 row scoring von-1.3 at 11.65, rank 230 of 248 after the 2026-10-29 regeneration, against Jev 1.14's 60.24 (fetched 2026-10-31)
 - https://raw.githubusercontent.com/tak-bro/local-jev-bench/HEAD/README.md - the third-party Apple Silicon reading: English-only, 32 to 411 ms first-call p50, near the bottom of the accuracy tables (measured 2026-10-05, fetched 2026-10-11, re-fetched 200 2026-10-27)
 - https://ollaya.dev/ - Ollaya's packaged von row: 0.447 on typed decisions with 8,192-token states (fetched 2026-10-11, re-fetched 2026-10-27, the row holds)

@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-10-25
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -58,7 +58,7 @@ Scale is $499/month for 10 users and 20 agents BYOC, or $1,999/month with hosted
 Extra seats are $49/user/month with your own key or $199 with hosted models.
 Enterprise custom, and platform self-hosting (your cloud, VPC, or on-prem) is quoted there.
 The Apache-2.0 core remains self-hostable from source without a commercial license per the README.
-All as of 2026-09-26, re-verified unchanged against the live pricing page on 2026-10-11.
+All as of 2026-09-26, re-verified unchanged against the live pricing page on 2026-10-31.
 
 ## Price history
 
@@ -92,6 +92,7 @@ I think the prompt-based permission systems across every other harness in this s
 - 2026-10-10 - Recorded the v2.12.0 release (published October 9), which opened a tunnel lane for browsers, Runs, and Network tabs in the Activity view.
 - 2026-10-17 - Recorded the v2.13.0 and v2.14.0 releases (both October 14): send-now prompts with live replies, workspace timezone, a desktop browser surface, and shared connections (v2.13.0), then missing-OAuth-permission warnings, Drive "Shared with me", and Slack on Kubernetes (v2.14.0).
 - 2026-10-25 - Recorded the v2.15.0 (October 21, GitHub skill library, browser steps, private preview links, custom connections, multi-replica runner) and v2.16.0 (October 22, agent-managed webhooks, failed-channel-reply owner alerts, chat image previews) releases.
+- 2026-10-31 - Rotation re-verification, every cited reference live: the release train still tops out at v2.16.0 (October 22) and all pricing tiers re-verified unchanged against the live page.
 
 ## See also
 
@@ -106,7 +107,7 @@ I think the prompt-based permission systems across every other harness in this s
 - https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-10-11
 - https://github.com/onecli/onecli/releases - release cadence through v2.14.0 on October 14, 2026
 - https://onecli.sh - product positioning, gateway model, and free tier as of 2026-09-22
-- https://onecli.sh/pricing - tiers, BYOC versus hosted-model pricing, and seat limits as of 2026-10-11 (re-verified unchanged)
+- https://onecli.sh/pricing - tiers, BYOC versus hosted-model pricing, and seat limits as of 2026-09-26 (re-verified unchanged, most recently 2026-10-31)
 - https://onecli.sh/docs - architecture: sandbox, gateway, policy, self-hosting
 - https://www.ycombinator.com/companies/onecli - YC S26 batch, founders, and launch description
 - https://news.ycombinator.com/item?id=49363710 - 88-point Launch HN, August 19, 2026

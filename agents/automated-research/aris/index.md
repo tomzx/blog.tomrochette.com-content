@@ -1,7 +1,7 @@
 ---
 title: ARIS
 created: 2026-10-10
-updated: 2026-10-29
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, agentic-llm, machine-learning, open-source, skills]
 readability: 3
@@ -24,7 +24,7 @@ Beyond the skills, the project ships a standalone Rust CLI (ARIS-Code, v0.4.28 o
 
 ## Status
 
-Active: 17,367 stars as of 2026-10-21, 1,498 forks, created 2026-03-10, last push 2026-10-29 (two documentation-only commits clarifying search authentication and DeepXiv env loading), as of 2026-10-29.
+Active: 17,367 stars as of 2026-10-21, 1,498 forks, created 2026-03-10, last push 2026-10-30 (a WeChat-group QR refresh, following October 29's two documentation-only commits clarifying search authentication and DeepXiv env loading), as of 2026-10-31.
 October 2026 widened the loop three ways: a `/lean-formalize` skill that drives a mathematical statement to a checked Lean proof (October 7), Grok and Gemini/Antigravity MCP reviewer bridges that route reviews through existing CLI logins (October 5), and, on October 19, selectable reviewers inside the complete Claude Code and Codex skill packs, a `/citation-crosscheck` skill that diffs local BibTeX entries against freshly fetched records, and shared bounded fan-out rules capping parallel worker batches.
 Late October added two community search skills, `/keenable-search` (keyless web search and page fetch, October 23) and `/firecrawl-search` (October 24), lifting the mainline count from 85 to 87, plus a refresh of the OpenAI model defaults and llm-chat request compatibility (October 24).
 The technical report carries Hugging Face's #1 Paper of the Day badge on the repository's README, the only independent-attention signal in its footprint beside the PaperWeekly feature.

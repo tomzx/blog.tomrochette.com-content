@@ -1,7 +1,7 @@
 ---
 title: TencentDB Agent Memory
 created: 2026-10-11
-updated: 2026-10-28
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, openclaw, hermes, open-source]
 readability: 3
@@ -76,6 +76,7 @@ My disagreeable claim: reversible compression, not recall quality, is the featur
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 - 2026-10-27 - Recorded the v2.0.3 stable release (October 26): session default binding, Wiki rich-document import (Word, Excel, PowerPoint, PDF), the upstream wait default raised from 10 minutes to 1 hour, and DSH, memory-time-format, install-script, and Redis-recovery fixes, on top of the beta.1's default-off decision-service and skill-selection capabilities.
+- 2026-10-31 - Rotation re-verification: every cited URL re-fetched live (all six reachable, no dead sources), no facts changed (v2.0.3 still the latest release, the npm plugin still 1.0.3); the default-branch commits since the last verification are panel and SDK timeout fixes, a CI external-pull-request acknowledgment, and a memory-core fix enforcing agent and task read permissions (list filtering scoped to the authenticated caller with team-membership checks in SQLite and MongoDB).
 
 ## See also
 

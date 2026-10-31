@@ -1,7 +1,7 @@
 ---
 title: Valen
 created: 2026-10-13
-updated: 2026-10-30
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, decision-model, open-weights, multimodal]
 readability: 3
@@ -82,6 +82,7 @@ Not for production routing without independent evaluation, or for anyone needing
 - 2026-10-26 - Volatile re-verification after the 2026-10-25/26 pushes: recorded the refreshed modular ONNX variants per size with Python (v0.2.0), JavaScript, and C++ SDKs over ONNX Runtime (CPU, CUDA, browser WebGPU), and the qualified F32/Q8_0 GGUFs in all three sizes running on Valen's custom CPU runtime with pinned, verified downloads, where unmodified llama.cpp and Ollama support is explicitly not claimed; the export-build strength reworded; the star-history chart's light source corrected (it wrongly carried the dark-theme parameter); pushed date moved to 2026-10-26.
 - 2026-10-27 - Out-of-rotation re-fetch at the drift signal: the Decision Index's 2026-10-26 regeneration (230 configurations) crowd-shifted the three Valen rows one place each at unchanged scores (4B 131st to 132nd, 2B 176th to 177th, 0.8B 193rd to 194th), and the repository's pushed date moved to 2026-10-27 on docs-only commits; forks refreshed to 85; fetched and re-cited.
 - 2026-10-30 - Volatile re-verification after the 2026-10-28/29 pushes: the project tagged its first release, v0.3.0 (2026-10-28, a CHANGELOG and release process, the valen-sdk 0.2.0 PyPI and 0.2.0 npm publications recorded, the qualified GGUFs packaged behind the Valen-patched llama.cpp and Ollama builds of a pinned gguf-runtime-v0.1.0), the README moved to valen-sdk 0.3.0 and announced a Valen.llm() LLM comparison and a Valen agent skill, and a Jev-ToM community evaluation joined the documentation (2026-10-27); pushed date moved to 2026-10-29.
+- 2026-10-31 - Out-of-rotation re-fetch at the drift signal: the Decision Index's 2026-10-29 regeneration (248 configurations) crowd-shifted the three Valen rows at unchanged scores (4B 132nd to 144th, 2B 177th to 193rd, 0.8B 194th to 212th); fetched and re-cited.
 
 ## See also
 

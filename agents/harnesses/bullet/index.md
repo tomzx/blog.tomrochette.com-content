@@ -1,7 +1,7 @@
 ---
 title: Bullet
 created: 2026-08-30
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, model-routing, benchmarks]
 readability: 3
@@ -24,8 +24,8 @@ It is closed source: the npm package is marked UNLICENSED, its declared reposito
 
 ## Status
 
-v1.4.23 as of 2026-10-20, still the newest build on both the CLI registry and the desktop releases repository, published September 23, 2026.
-The CLI shipped on npm on August 7, 2026 and did 759 downloads in the month to October 26 and 8 in the week ending October 26 as of 2026-10-27, so both counts keep falling.
+v1.4.23 as of 2026-10-31, still the newest build on both the CLI registry and the desktop releases repository, published September 23, 2026.
+The CLI shipped on npm on August 7, 2026 and did 221 downloads in the month to October 30 and 28 in the week ending October 30 as of 2026-10-31, so the monthly count keeps falling.
 Its Launch HN on August 13, 2026 reached 121 points (item 49283063), nine days after a quiet 9-point Show HN.
 Traction is early and drifting: thousands of installs, not millions, with YC backing as the deliberately stated signal behind it.
 Since September 22, 2026 the app also carries a Jev Mode, free: the Jev decision model runs the agent loop (what to inspect, what to edit, what to test, and whether the task is done) so the coding model can focus on writing code.
@@ -76,6 +76,7 @@ I think speed is the wrong axis for buying a coding agent, and a 119-second mean
 - 2026-10-11 - Refreshed the npm download windows and recorded the weekly count dropping from 106 to 14, ending the flat stretch the note had recorded.
 - 2026-10-20 - Rotation re-verification: refreshed the npm download windows (monthly 1,521 to 936, weekly rebounding 13 to 45), recorded the September 22 Jev Mode integration, and re-verified every cited URL.
 - 2026-10-27 - Rotation re-verification, re-fetching every cited reference (all live) and re-confirming the free, no-key site claim; v1.4.23 remains the newest build on npm and the desktop release repository, and the download windows fell again (936 to 759 monthly, 45 to 8 weekly).
+- 2026-10-31 - Rotation re-verification, every cited reference live and the benchmark page re-read unchanged (479/500, 119 s, $0.73): v1.4.23 still the newest build on both channels, and the download windows refreshed (monthly 759 to 221, weekly 8 to 28 on shifted windows).
 
 ## See also
 
@@ -86,12 +87,12 @@ I think speed is the wrong axis for buying a coding agent, and a 119-second mean
 
 ## References
 
-- https://www.codewithbullet.com - product surface, YC badge, CLI install, free access as of 2026-10-20
+- https://www.codewithbullet.com - product surface, YC badge, CLI install, free access as of 2026-10-31
 - https://www.codewithbullet.com/blog/benchmark-results.html - the SWE-bench Verified run: 479/500, 119 s mean, $0.73 per instance
 - https://www.codewithbullet.com/blog/jev-in-bullet.html - the September 22, 2026 Jev Mode announcement: the decision model runs the agent loop, free
 - https://registry.npmjs.org/@trybullet%2Fcli - CLI version, UNLICENSED marker, and dead repository URL
-- https://api.npmjs.org/downloads/point/2026-09-20:2026-10-26/@trybullet/cli - 759 downloads, window September 20 to October 26, as of 2026-10-27
-- https://api.npmjs.org/downloads/point/2026-10-20:2026-10-26/@trybullet/cli - 8 downloads in the week to October 26, as of 2026-10-27
-- https://github.com/trybullet/bullet-releases - desktop release channel, v1.4.23 still the newest, published September 23, 2026 (verified via the GitHub API, 2026-10-05)
+- https://api.npmjs.org/downloads/point/2026-09-27:2026-10-30/@trybullet/cli - 221 downloads, window September 27 to October 30, as of 2026-10-31
+- https://api.npmjs.org/downloads/point/2026-10-24:2026-10-30/@trybullet/cli - 28 downloads in the week to October 30, as of 2026-10-31
+- https://github.com/trybullet/bullet-releases - desktop release channel, v1.4.23 still the newest, published September 23, 2026 (verified via the GitHub API, most recently 2026-10-31)
 - https://news.ycombinator.com/item?id=49283063 - 121-point Launch HN with YC S26 in the title and community skepticism
 - https://news.ycombinator.com/item?id=49173799 - the earlier 9-point Show HN nine days prior

@@ -1,7 +1,7 @@
 ---
 title: MLR-Bench
 created: 2026-10-14
-updated: 2026-10-21
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, research-agents, llm-as-judge]
 readability: 3
@@ -25,7 +25,7 @@ The authors are academic (NUS with UCSB and SUTD, Hui Chen, Miao Xiong, Bryan Ho
 
 Published and peer-reviewed, then quiet: v1 landed 2025-05-26, v3 on 2025-10-22 (49 pages), and the NeurIPS 2025 D&B poster record exists on both neurips.cc and OpenReview.
 The repository holds 37 stars and 5 forks as of 2026-10-14, was created 2025-05-14, and was last pushed 2026-09-08, and its one open issue (2026-10-15) is an invitation from a survey team to review MLR-Bench in their AI auto-research collection rather than a bug report.
-Adoption is citation-shaped rather than usage-shaped: the dataset shows 42 downloads over the last month and 1 like as of 2026-10-14, an HN search for the exact name returns zero hits as of 2026-10-14, and the citations that exist come from successor benchmarks and surveys rather than from people running it.
+Adoption is citation-shaped rather than usage-shaped: the dataset shows 82 downloads over the last month and 2 likes as of 2026-10-31, an HN search for the exact name returns zero hits as of 2026-10-31, and the citations that exist come from successor benchmarks and surveys rather than from people running it.
 The most substantial third-party use is the twenty-author 2026 auto-research survey, which repeats the 80 percent fabrication figure as evidence the field has become reliability-limited.
 The OpenReview review thread was unreachable to this run (a browser-verification challenge), so reviewer sentiment beyond the acceptance is unverified.
 

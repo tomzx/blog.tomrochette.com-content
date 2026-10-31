@@ -1,7 +1,7 @@
 ---
 title: AnyJev
 created: 2026-10-07
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, decision-models, training-free]
 readability: 3
@@ -33,7 +33,7 @@ Active and freshly credible: created 2026-09-21, 1,271 stars as of 2026-10-15, r
 
 This note reverses this section's 2026-09-25 rejection of the same project, which then had 506 stars and no independent coverage; the promised re-review trigger, a second implementation, now exists in kind.
 The third-party local-jev-bench benchmark (2026-09-30, updated 2026-10-05) runs AnyJev against Kev, Winnow, Clef, Von, Jeff, Laya, and CLM on Apple Silicon and reports training-free AnyJev level with the trained engines on the six public transfer sources; community builds such as mesa-anyjev and a Tetris-playing AnyJev judge extend it.
-A third-party board reading arrived with the Decision Index's regenerations: an AnyJev L0 readout over Gemma-4-31B held fifth of 149 configurations on the 2026-10-12 builds at 60.22 (61.27 on the first same-day build), above hosted Jev's 60.11, the method's first board rows, and the 2026-10-14 regeneration (166 configurations) held its score at 60.22 while dropping it to ninth as four new entrants passed it, and the 2026-10-16 regeneration (174 configurations, a new StartLux leader) dropped the unchanged 60.22 to fifteenth; the 0.4.1 rebuild of 2026-10-22 (the Full score now entirely private) scores the method's family at three rows, AJev lm6q seventh at 67.57, AnyJev Tacitus 31B eighteenth at 66.47, and the L0 readout twenty-ninth at 63.65, with the vendor's Jev 1.14 forty-first at 60.24, and the board's 2026-10-26 regeneration (230 configurations) crowd-shifted those rows to eighth, nineteenth, and thirtieth at unchanged scores.
+A third-party board reading arrived with the Decision Index's regenerations: an AnyJev L0 readout over Gemma-4-31B held fifth of 149 configurations on the 2026-10-12 builds at 60.22 (61.27 on the first same-day build), above hosted Jev's 60.11, the method's first board rows, and the 2026-10-14 regeneration (166 configurations) held its score at 60.22 while dropping it to ninth as four new entrants passed it, and the 2026-10-16 regeneration (174 configurations, a new StartLux leader) dropped the unchanged 60.22 to fifteenth; the 0.4.1 rebuild of 2026-10-22 (the Full score now entirely private) scores the method's family at three rows, AJev lm6q seventh at 67.57, AnyJev Tacitus 31B eighteenth at 66.47, and the L0 readout twenty-ninth at 63.65, with the vendor's Jev 1.14 forty-first at 60.24, and the board's 2026-10-29 regeneration (248 configurations) crowd-shifted those rows to sixteenth, twenty-sixth, and thirty-seventh at unchanged scores.
 The HN footprint remains thin (mentions inside decision-model threads, no thread of its own), which this note records as the standing signal.
 
 ## Strengths
@@ -76,6 +76,7 @@ Not for single-digit-millisecond budgets, where the trained single-pass models k
 - 2026-10-22 - The Decision Index's 0.4.1 rebuild (226 configurations, the Full score now entirely private) scored the method's family at three rows for the first time: AJev lm6q seventh at 67.57, AnyJev Tacitus 31B eighteenth at 66.47, and the L0 readout twenty-seventh at 63.65; pushed date moved to 2026-10-21 with no new release.
 - 2026-10-24 - The 0.4.1 board's same-day regeneration (229 configurations) left the lm6q and Tacitus rows at seventh and eighteenth with unchanged scores while the L0 readout slid from twenty-seventh to twenty-ninth at its unchanged 63.65; fetched and re-cited.
 - 2026-10-27 - Out-of-rotation re-fetch at the drift signal: the board's 2026-10-26 regeneration (230 configurations) crowd-shifted the family's three rows one place each at unchanged scores (lm6q seventh to eighth, Tacitus eighteenth to nineteenth, L0 twenty-ninth to thirtieth); fetched and re-cited.
+- 2026-10-31 - Out-of-rotation re-fetch at the drift signal: the board's 2026-10-29 regeneration (248 configurations) crowd-shifted the family's three rows further at unchanged scores (lm6q eighth to sixteenth, Tacitus nineteenth to twenty-sixth, L0 thirtieth to thirty-seventh) as 18 entrants joined above them; fetched and re-cited.
 
 ## See also
 
@@ -94,4 +95,4 @@ Not for single-digit-millisecond budgets, where the trained single-pass models k
 - https://raw.githubusercontent.com/tak-bro/local-jev-bench/HEAD/README.md - the third-party Apple Silicon benchmark running AnyJev against Kev, Winnow, Clef, Von, Jeff, Laya, and CLM (fetched 200, 2026-10-07)
 - https://huggingface.co/collections/morriszjm/tacit-6ac41d0b50af9e5417c5c234 - the Tacit collection: five checkpoints (1.7B to 9B) self-distilled on Qwen bases, one forward pass per decision (fetched 200, 2026-10-07)
 - https://github.com/idss-mesa/mesa-anyjev - a second implementation of the method, calibrated ontology and schema decisions for the MESA stack, part of the re-review evidence (fetched 200, 2026-10-07)
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 board data behind the family's three rows (AJev lm6q eighth, Tacitus 31B nineteenth, L0 thirtieth of 230; regenerated 2026-10-26, fetched 2026-10-27)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 board data behind the family's three rows (AJev lm6q sixteenth, Tacitus 31B twenty-sixth, L0 thirty-seventh of 248; regenerated 2026-10-29, fetched 2026-10-31)

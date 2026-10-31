@@ -1,7 +1,7 @@
 ---
 title: Paperclip
 created: 2026-08-27
-updated: 2026-10-28
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, control-planes, agent-operations, multi-agent, open-source, governance]
 readability: 3
@@ -24,7 +24,7 @@ Any agent that can receive a heartbeat is hirable, OpenClaw, Claude Code, Codex,
 ## Status
 
 Active at extreme velocity.
-101,570 stars and 17,038 forks as of 2026-10-18 since creation on 2026-03-02, with 6,726 open issues and the latest push on 2026-10-28 as of 2026-10-28, latest release v2026.1023.0 (dated 2026-10-23, published 2026-10-24) ending the eleven-day pause with 200 commits led by private work (a task or project can be marked private and shared with named people and agents), date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
+101,570 stars and 17,038 forks as of 2026-10-18 since creation on 2026-03-02, with 6,597 open issues and the latest push on 2026-10-31 as of 2026-10-31, latest release v2026.1023.0 (dated 2026-10-23, published 2026-10-24) ending the eleven-day pause with 200 commits led by private work (a task or project can be marked private and shared with named people and agents), date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ The roadmap is public about what does not exist yet: memory and knowledge, work 
 ## Cautions
 
 - The quickstart defaults to a trusted local loopback mode, and the README itself tells you to pick an authenticated bind preset for anything beyond the first run; read before you expose.
-- The open-issue backlog is enormous and unstable: 6,501 on 2026-10-06 fell to 6,205 on 2026-10-07, regrew to 6,325 by 2026-10-10, fell to 5,888 on 2026-10-11, then regrew again to 6,015 by 2026-10-13, 6,296 by 2026-10-21, 6,425 by 2026-10-23, 6,523 by 2026-10-25, and 6,726 by 2026-10-28, so no direction has held for more than a day and triage throughput swings with the release train.
+- The open-issue backlog is enormous and unstable: 6,501 on 2026-10-06 fell to 6,205 on 2026-10-07, regrew to 6,325 by 2026-10-10, fell to 5,888 on 2026-10-11, then regrew again to 6,015 by 2026-10-13, 6,296 by 2026-10-21, 6,425 by 2026-10-23, 6,523 by 2026-10-25, 6,726 by 2026-10-28, and 6,597 by 2026-10-31, so no direction has held for more than a day and triage throughput swings with the release train.
 - Date-versioned near-daily releases mean you are always upgrading; pin deliberately.
 - The pitch says autonomous businesses while the memory, work-queue, and self-organization pillars are still roadmap items, so expect to supervise more than the landing page implies.
 - Name collisions: desktop Clippy-style tools also call themselves paperclip (agent-paperclip, clippyai-desktop); search carefully.
@@ -84,6 +84,7 @@ The disagreeable claim I will defend: "manage business goals, not pull requests"
 - 2026-10-13 - Release line moved to v2026.1012.0 (2026-10-12) after a five-day pause, scale refreshed (101,051 stars, 16,981 forks, 6,015 open issues, pushed 2026-10-13), the intro claim moved from nearly 100k to past 100k stars, and the backlog caution extended with the 2026-10-13 regrowth.
 - 2026-10-23 - Rotation re-verification: every cited URL re-fetched and live (homepage still advertising v2026.1012.0, the README and docs unchanged), the release pause stretched to eleven days, and the open-issue backlog regrew again to 6,425 with the push date moved to 2026-10-23.
 - 2026-10-25 - Release line moved to v2026.1023.0 (dated 2026-10-23, published 2026-10-24, 200 commits, private tasks and projects), ending the eleven-day pause; the backlog regrew to 6,523 with the push date at 2026-10-25.
+- 2026-10-31 - Rotation re-verification: every cited URL re-fetched and live (homepage still advertising v2026.1023.0, README and docs unchanged), the backlog falling back to 6,597 with the push date at 2026-10-31, and the backlog caution extended with the new reading; the release line holding.
 
 ## See also
 

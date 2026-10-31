@@ -12,6 +12,7 @@ Where quality control lives in the agent workflow: CI gates, dashboards, machine
 
 - [agent-qa](agent-qa/index.md) - vostride's fair-source self-improving QA agent that runs plain-English user journeys against actual web, Android, and iOS apps, judging each step on screen with recorded evidence, its benchmark claims self-published.
 - [Better Harness](better-harness/index.md) - Qoder's MIT harness-engineering platform that judges the agent work loop itself (goals, steps, validation, safeguards, lessons) from project and session evidence, findings carrying acceptance checks, 2.4k stars and no independent footprint yet.
+- [Bottleneck](bottleneck/index.md) - Bottleneck Labs' dormant MIT desktop client for queues of parallel-agent pull requests, bulk actions and branch bake-offs over the PR flood, judging nothing itself.
 - [Crit](crit/index.md) - Tomasz Tomczyk's MIT local-first browser surface where agent plans, diffs, running apps, and static HTML get line comments that flow back through a review file any agent can read.
 - [deepeval](deepeval/index.md) - the pytest-style eval framework with roughly fifty judge metrics that gates merges in CI.
 - [FrontierHarness Eval](frontierharness-eval/index.md) - the public benchmark that held the model constant and varied nine harnesses in twelve configurations, cost spread 17.5x, vendor-run caveat attached.
@@ -57,3 +58,4 @@ Its members are compared on shared rows in the [Evaluation and Review Feature Ma
 - 2026-10-21 - Added slop-grader.
 - 2026-10-27 - Added agent-qa.
 - 2026-10-28 - Added ResearchClawBench.
+- 2026-10-31 - Added Bottleneck.

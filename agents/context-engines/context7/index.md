@@ -1,7 +1,7 @@
 ---
 title: Context7
 created: 2026-10-07
-updated: 2026-10-24
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, documentation, mcp, developer-tools]
 readability: 3
@@ -16,7 +16,7 @@ Context7 is Upstash's hosted service that pulls up-to-date, version-specific lib
 
 ## What it is
 
-A hosted documentation platform by Upstash, the Redis and QStash company, with the MCP server and CLI open source under MIT (63,119 stars as of 2026-10-16, pushed 2026-10-23).
+A hosted documentation platform by Upstash, the Redis and QStash company, with the MCP server and CLI open source under MIT (63,119 stars as of 2026-10-16, pushed 2026-10-30).
 The pipeline crawls and version-parses library documentation, scores repository organizations for trust, and runs an LLM-based injection check over stored chunks before serving them.
 Two install modes: an MCP server your agent calls natively (the `@upstash/context7-mcp` npm package, v4.4.4, about 1,027,200 downloads in the week to 2026-10-09), or a `ctx7` CLI plus an agent skill that needs no MCP at all (the CLI released through 0.8.2 on 2026-10-23, which locks concurrent token refreshes so parallel commands stop revoking a shared session; 0.8.0 had removed the deprecated `skills` and `generate` commands while `ctx7 setup` still installs the skills, and 0.8.1 preserved comments in the agent configs it rewrites).
 The SDK package (@upstash/context7-sdk, 0.6.0) types a `rank` field on each search snippet so callers can interleave code and info results in the reranked order.
@@ -25,7 +25,8 @@ A second remote endpoint, the Admin MCP server (admin.mcp.context7.com, document
 
 ## Status
 
-Active and heavily adopted: created 2025-03-26, 63,119 stars as of 2026-10-16, npm reporting 2,508,160 downloads in the month to 2026-10-22, with several zero-day gaps in npm's counter making weekly figures unreliable, as of 2026-10-24.
+Active and heavily adopted: created 2025-03-26, 63,119 stars as of 2026-10-16, npm reporting 2,607,063 downloads in the month to 2026-10-29, with several zero-day gaps in npm's counter making weekly figures unreliable, as of 2026-10-31.
+Main is building a research-preview mode for the MCP server, with a docs feedback tool alongside it, committed 2026-10-30 and unreleased in the published packages as of 2026-10-31, in the same batch as admin-surface hardening that puts library imports behind the admin key.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=upstash/context7&type=date&theme=dark&legend=top-left" />
@@ -78,6 +79,7 @@ Not for private-code context (that is what the repo-indexing members sell), and 
 - 2026-10-20 - Recorded the MCP server package at v4.4.4 (2026-10-19, MCP SDK 2.3.1, list cache hints, and HTTP shutdown draining) and the `ctx7` CLI at 0.8.1 (comment-preserving config rewrites, `--api-key` stripping in setup).
 - 2026-10-22 - Moved the adoption figure to the trailing-month window (2,640,895 npm downloads to 2026-10-18) after npm's counter began reporting zero days that break weekly comparisons; pricing tiers re-verified unchanged against the live plans page.
 - 2026-10-24 - Recorded the new Admin MCP server (a second remote endpoint at admin.mcp.context7.com where an agent manages teamspaces, libraries, rules, usage, Docs7 sites, and Ask sites, OAuth or management-key auth, documented 2026-10-23), the `ctx7` CLI at 0.8.2 (lock-protected token refresh for concurrent commands), the SDK at 0.6.0 (typed `rank` on search snippets), and refreshed the trailing-month npm figure (2,508,160 to 2026-10-22).
+- 2026-10-31 - Full rotation re-verification: every cited URL re-fetched and intact; recorded main's unreleased research-preview work (a research-preview flag and a docs feedback tool for the MCP server, committed 2026-10-30, with library imports now gated on the admin key), and refreshed the trailing-month npm figure (2,607,063 to 2026-10-29); pricing tiers re-verified unchanged against the live plans page.
 
 ## See also
 

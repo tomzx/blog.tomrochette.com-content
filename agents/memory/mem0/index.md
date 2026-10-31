@@ -1,7 +1,7 @@
 ---
 title: Mem0
 created: 2026-08-24
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, developer-tools]
 readability: 3
@@ -90,6 +90,7 @@ I would not choose any memory vendor on benchmark leaderboards, this field's num
 - 2026-10-08 - Recorded DolphinBench, Mem0's own action-graded agent-memory benchmark (three personas, 600 tasks, cost and latency mandatory, Apache-2.0 harness, paper arXiv 2609.24971 with the founders as authors); the leaderboard is client-rendered and unverified, and the vendor-run-benchmark caution added; refreshed stars to about 66.8k and re-verified pricing unchanged.
 - 2026-10-22 - Added the first independent academic comparison naming Mem0: SWE-ContextBench (arXiv 2602.08316) reports Mem0 weakest of four memory-retrieval frameworks on fail-to-pass coding-task tests (20.24 percent versus Supermemory's 55.95) at the highest per-task cost, on a coding-agent context-reuse benchmark rather than conversational memory.
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched live (all eleven reachable, no dead sources), and the pricing restructure recorded (Starter and Pro no longer sold to new accounts, the free plan rebuilt around BYOK with a 30-day sponsored window, Price history row); the only default-branch push since the last verification is the pricing FAQ page itself.
+- 2026-10-31 - Rotation re-verification: every cited URL re-fetched live (all twelve reachable, no dead sources), no facts changed; the only default-branch commits since the last verification are two update-versus-delete race fixes (a deleted memory is no longer re-created by a racing update) in the Python and TypeScript SDKs, with no release or pricing change.
 
 ## See also
 

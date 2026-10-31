@@ -1,7 +1,7 @@
 ---
 title: CORAL
 created: 2026-10-11
-updated: 2026-10-19
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, multi-agent, evolution, self-evolving, open-source]
 readability: 3
@@ -42,7 +42,7 @@ No relevant Hacker News threads surfaced in this run's search; the footprint is 
 
 ## Cautions
 
-- The release train has been paused since v0.7.21 (September 6, 2026), and main has not moved since; the October 19 merges landed on the dev branch, so the pause on releases is now six weeks, worth watching.
+- The release train has been paused since v0.7.21 (September 6, 2026), and main has not moved since; the October 19 merges landed on the dev branch, so the pause on releases is eight weeks as of 2026-10-31, worth watching.
 - The state-of-the-art claims are the paper's own evaluations on its chosen tasks; no independent replication surfaced in this run's searches.
 - The loop's ceiling is your grader: rubric judges reintroduce LLM judgment wherever metrics stop, so the isolation guarantee protects the metric, not the rubric.
 - Running an agent organization multiplies cost: one worktree, one agent session, and one grader invocation per island, paid in your coding-agent subscriptions.
