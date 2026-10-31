@@ -1,7 +1,7 @@
 ---
 title: Mycelium
 created: 2026-10-16
-updated: 2026-10-25
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, product-discovery, claude-code-plugin]
 readability: 3
@@ -24,8 +24,8 @@ The standing cost is about six thousand tokens of context per session, always on
 
 ## Status
 
-Active and shipping fast: 47 stars, 5 forks, created 2026-04-07, pushed 2026-10-24, as of 2026-10-25 (GitHub API).
-Pre-1.0 by the author's own framing, with schema and skill names moving between minor versions, and the release train runs in hours: v0.330.1 (2026-10-24) is the newest, following v0.330.0 (2026-10-24) making the canvas gate refuse a subagent's writes to the canvas and diamonds files on Claude Code (the founder's audit of the orchestration guidance against Anthropic's subagent article found rules nothing enforced), v0.329.x (2026-10-23) turning the strategic review cadences into data (`review-schedule.yml`, with an adaptive corrections-audit cadence after a fixed one fired near every session on the dogfood project), and v0.328.x (2026-10-21 to 23), of a train that ran v0.323 through v0.330 across October 13 to 24.
+Active and shipping fast: 47 stars, 5 forks, created 2026-04-07, pushed 2026-10-28, as of 2026-10-31 (GitHub API).
+Pre-1.0 by the author's own framing, with schema and skill names moving between minor versions, and the release train runs in hours: v0.331.0 (2026-10-28) is the newest, making the release and scale-lock gates read the record each safety skill writes (a Privacy, Service Quality, or Explainability pass without every principle judged with evidence refuses the next release), following v0.330.x (2026-10-24) making the canvas gate refuse a subagent's writes to the canvas and diamonds files on Claude Code (the founder's audit of the orchestration guidance against Anthropic's subagent article found rules nothing enforced), v0.329.x (2026-10-23) turning the strategic review cadences into data (`review-schedule.yml`, with an adaptive corrections-audit cadence after a fixed one fired near every session on the dogfood project), and v0.328.x (2026-10-21 to 23), of a train that ran v0.323 through v0.331 across October 13 to 28.
 The adoption record is small and mostly first-hand: three of the steward's own projects, a three-person test cohort in May, and one stranger on record whose Lisp-interpreter canvas is public.
 
 **The independent footprint is empty, and that is this note's critical angle: a Hacker News search returns only the maintainer's own Show HN (2026-07-04, 1 point, 0 comments) plus an earlier post he says missed the Show HN tag, with no third-party coverage anywhere, so at 47 stars this admission rides the HermesGate-at-3-stars precedent rather than any membership floor.**
@@ -72,6 +72,7 @@ Not for teams needing a stable interface (pre-1.0, schema moves between minors),
 - 2026-10-21 - Recorded the v0.328.1 and v0.328.2 releases (both 2026-10-20): the OpenCode 2.x plugin port now guards `write` as well as `edit`, extending the structural gate past Claude Code.
 - 2026-10-23 - Recorded the v0.328.3 through v0.328.5 releases (2026-10-21 to 23): a Mistral Vibe page after the Vibe port measured as loading nothing, diamond skills that stop for the person's own judgment before showing analysis, and a session-start hook naming the next canvas-health advisory.
 - 2026-10-25 - Recorded the v0.329.x and v0.330.x releases (2026-10-23 to 24): review cadences became data with an adaptive corrections-audit cadence, and the canvas gate now refuses a subagent's writes to the canvas and diamonds files on Claude Code, closing the enforcement gap the founder's own audit found.
+- 2026-10-31 - Recorded the v0.331.0 release (2026-10-28: the release and scale-lock gates read each safety skill's own assessment record, so a Privacy, Service Quality, or Explainability pass without every principle judged with evidence refuses the next release).
 
 ## See also
 
@@ -87,7 +88,7 @@ Not for teams needing a stable interface (pre-1.0, schema moves between minors),
 - https://raw.githubusercontent.com/haabe/mycelium/main/README.md - the gate design, artifact model, token cost, falsifier, six layers, porting, and when-to-use-something-else routing
 - https://raw.githubusercontent.com/haabe/mycelium/main/docs/get-started.md - install, the four questions, artifact paths, gate behavior, and the skip-ack files
 - https://raw.githubusercontent.com/haabe/mycelium/main/docs/skills/README.md - the 63-skill index, layer model, and theory attributions
-- https://api.github.com/repos/haabe/mycelium/releases - the release train through v0.328.5 (2026-10-23), fetched 2026-10-23
+- https://api.github.com/repos/haabe/mycelium/releases - the release train through v0.331.0 (2026-10-28), fetched 2026-10-31
 - https://github.com/haabe/vibe-rant - the steward's public canvas repository (0 stars, 1 commit)
 - https://raw.githubusercontent.com/haabe/vibe-rant/main/.claude/canvas/purpose.yml - the evidence fields (`validated: false`, `strength: speculation`) in the published artifact
 - https://raw.githubusercontent.com/dagfinndybvig/minilisp/main/.claude/canvas/gist.yml - the one stranger's public canvas, grounding the third-party-use record

@@ -1,7 +1,7 @@
 ---
 title: "Clawk"
 created: 2026-09-05
-updated: 2026-10-19
+updated: 2026-10-31
 readability: 3
 audience_notes: >
   Engineers who let coding agents run commands and want the isolation story, especially on macOS workstations.
@@ -29,7 +29,7 @@ Launched July 2026 with real traction and currently paused in a pre-1.0 state: 1
 </picture>
 
 **The 226-point Show HN thread is the strongest community signal in the Sandboxing category's tail, and the discussion plus the README agree on the limits rather than hiding them.**
-Sixty-seven days without a push after a fast launch cadence is worth watching, but it is not yet a stall at these timescales as of 2026-10-19.
+Seventy-nine days without a push after a fast launch cadence is worth watching, but it is not yet a stall at these timescales as of 2026-10-31.
 
 ## Strengths
 
@@ -40,7 +40,7 @@ Sixty-seven days without a push after a fast launch cadence is worth watching, b
 ## Cautions
 
 - The sandbox is only as closed as its allow-list: github.com is pre-allowed, so exfiltration through the very forge you push to is in scope by design.
-- Pre-1.0 with sixty-seven days of quiet as of 2026-10-19, on a single primary platform (macOS), from a small team.
+- Pre-1.0 with seventy-nine days of quiet as of 2026-10-31, on a single primary platform (macOS), from a small team.
 - The VM disk is lost on destroy by design; only host-side code and conversations survive.
 
 ## Pricing
@@ -80,6 +80,7 @@ Not for Linux-primary teams (yet), and not for anyone threat-modeling a determin
 - 2026-10-12 - Quiet window extended to sixty days (last push still 2026-08-13 at v0.4.0); stars refreshed (1,029), forks and the 226-point thread unchanged.
 - 2026-10-13 - Quiet window extended to sixty-one days (last push still 2026-08-13 at v0.4.0); stars refreshed (1,030), forks and the 226-point thread unchanged.
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched (the README with its security-model and compared-to sections, the release record, the 226-point launch thread, all alive); the push date holds at 2026-08-13 at v0.4.0 and the quiet window extends to sixty-seven days as of 2026-10-19.
+- 2026-10-31 - Rotation re-verification: every cited URL re-fetched (the README with its security-model and compared-to sections, the release record, the 226-point launch thread, all alive); the push date holds at 2026-08-13 at v0.4.0 and the quiet window extends to seventy-nine days as of 2026-10-31.
 
 ## See also
 

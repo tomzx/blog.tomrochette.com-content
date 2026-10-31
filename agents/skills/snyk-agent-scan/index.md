@@ -1,7 +1,7 @@
 ---
 title: Snyk Agent Scan
 created: 2026-10-20
-updated: 2026-10-26
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, security, supply-chain]
 readability: 3
@@ -24,7 +24,7 @@ Snyk also ships it as the experimental `snyk agent-scan` command inside the main
 
 ## Status
 
-Active and vendor-backed: 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24), 778 commits on a repository created 2025-04-07, latest release v0.6.9 (2026-10-20) with the default branch pushed 2026-10-22 (managed-mode hooks installation fixes and a certifi bump landing post-release).
+Active and vendor-backed: 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24), 778 commits on a repository created 2025-04-07, latest release v0.6.10 (2026-10-30, which ships the managed-mode hooks fixes and the certifi bump that had landed post-v0.6.9), with the default branch pushed 2026-10-28 (the release preparation).
 Skills scanning arrived with v0.4, published together with a technical report on the agent skill ecosystem: of 3,984 skills analyzed from the clawhub.ai hub, 13.4% carried at least one critical-level issue and 36.8% at least one other-severity issue, while 9% of the top legitimate skills.sh skills showed exploitable patterns such as insecure credential handling or third-party content processing.
 Snyk Labs runs a companion Skill Inspector web experiment for scanning a single skill.
 
@@ -82,6 +82,7 @@ My disagreeable claim: the audit direction is the more valuable half of this mar
 - 2026-10-22 - The MCP-execution caution corrected against the current README: foreground interactive scans now ask consent before contacting each discovered server and background scans start no stdio servers without --dangerously-run-mcp-servers, while fleet scans still auto-inspect remote MCP URLs and the sandbox advice stands.
 - 2026-10-24 - Volatile refresh: post-release pushes moved the default branch to 2026-10-22 (managed-mode hooks installation fixes and a certifi bump); v0.6.9 still the newest release.
 - 2026-10-26 - Fixed the star-history chart markup carried since creation: the light-theme source had held the dark theme parameter, so the light fallback now requests the unthemed chart like every other note in the category.
+- 2026-10-31 - The release train moved to v0.6.10 (published 2026-10-30, on PyPI the same day), which formalizes the managed-mode hooks fixes (skipping non-installed agents in managed mode) and the certifi vulnerability bump that had landed as post-v0.6.9 pushes; the Status release line moved to it.
 
 ## See also
 
@@ -95,8 +96,8 @@ My disagreeable claim: the audit direction is the more valuable half of this mar
 
 - https://github.com/snyk/agent-scan - repository, Apache-2.0, 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24), created 2025-04-07, pushed 2026-10-22 on the default branch (GitHub API)
 - https://raw.githubusercontent.com/snyk/agent-scan/main/README.md - discovery matrix (14 agents, four scopes including the extension/plugin scope VS Code gained in v0.6.9), the two modes, the MCP consent flow and sandbox warning, and the API-sharing disclosure (fetched 2026-10-22)
-- https://pypi.org/pypi/snyk-agent-scan/json - snyk-agent-scan 0.6.9, Python 3.10+, Apache-2.0 (fetched 2026-10-22)
-- https://api.github.com/repos/snyk/agent-scan/releases/latest - v0.6.9 published 2026-10-20 (VS Code extension MCP discovery, dependency upgrades), the newest release as of 2026-10-24
+- https://pypi.org/pypi/snyk-agent-scan/json - snyk-agent-scan 0.6.10, Python 3.10+, Apache-2.0 (fetched 2026-10-31)
+- https://api.github.com/repos/snyk/agent-scan/releases/latest - v0.6.10 published 2026-10-30 (the managed-mode hooks fixes and the certifi bump, previously post-release pushes, formalized as a release), the newest release as of 2026-10-31 (fetched 2026-10-31)
 - https://raw.githubusercontent.com/snyk/agent-scan/main/.github/reports/skills-report.pdf - the skills-ecosystem threat report: 3,984 clawhub.ai skills, 13.4% with a critical issue, 36.8% with another-severity issues, the false-positive profile, and the clawhub/skills.sh comparison (fetched 2026-10-20)
 - https://labs.snyk.io/experiments/skill-scan/ - the Snyk Labs Skill Inspector companion experiment (fetched 2026-10-20)
 - https://docs.snyk.io/agent-security - the agent-security documentation home (fetched 2026-10-20)

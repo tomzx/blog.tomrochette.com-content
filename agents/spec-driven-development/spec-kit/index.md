@@ -1,7 +1,7 @@
 ---
 title: GitHub Spec Kit
 created: 2026-08-26
-updated: 2026-10-23
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, github, ai-agents]
 readability: 3
@@ -10,20 +10,20 @@ audience_notes: >
   Assumes you have used a coding agent on an actual feature and know what a review gate is.
 ---
 
-Spec Kit is GitHub's open-source toolkit for spec-driven development: a CLI that scaffolds constitution, spec, plan, and tasks files, then drives any of 30+ coding agents through implementing them.
+Spec Kit is GitHub's open-source toolkit for spec-driven development: a CLI that scaffolds constitution, spec, plan, and tasks files, then drives any of 38 documented agent integrations through implementing them.
 
 **Spec Kit hit 137k stars in one year by selling process, not product: it is markdown conventions plus a scaffolding CLI, and its popularity is the strongest signal yet that the industry wants review gates on agents more than it wants more agent autonomy.**
 
 ## What it is
 
-**An MIT-licensed Python CLI (`specify`) plus slash-command and skills templates that work across 30+ agents, from Copilot and Claude Code to OpenCode and Cursor.**
+**An MIT-licensed Python CLI (`specify`) plus slash-command and skills templates that work across 38 documented agent integrations (docs count, 2026-10-31), from Copilot and Claude Code to OpenCode and Cursor.**
 The workflow runs in named steps: `/speckit-constitution` writes project principles once, then specify, plan, and tasks produce the artifacts, implement has the agent execute them, and converge checks the code back against the spec.
 Extensions, presets, and role-based bundles let an organization customize the process without forking it.
 
 ## Status
 
 **Active, and it just declared adulthood.**
-First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8, v1.0.6 followed on September 10, v1.0.7 shipped September 15, v1.0.8 followed on September 17, and v1.0.9, v1.0.10, and v1.0.11 closed out September 21, 22, and 24, v1.0.12 landed September 25, v1.0.13 followed on 2026-09-29, v1.1.0 shipped October 2, v1.1.1 followed on October 6, v1.1.2 closed out October 7, v1.1.3 landed October 9 with a unified workflow execution tree, catalog-installed external agent adapters, and the deprecation of the core taskstoissues command, v1.2.0 followed on October 13 with a built-in GitHub workflow step, workflow-catalog cache confinement, and a round of extension updates, v1.2.1 landed October 16 with further extension updates (Applied Epistemic Engineering v1.5.0 among them), opt-in output capture for workflow steps, and a Korean README, v1.2.2 followed on October 19 with more extension updates (Applied Epistemic Engineering v1.5.2, DocGuard, and Evaluator Contract among them), config-template scaffolding on extension update, and JSON run-failure reporting, v1.2.3 landed October 22 with a workflow MCP inventory, `.presetignore` support, another extension round (Linear Weave v1.0.2), and fixes for event dispatcher cleanup and bracketed feature paths on PowerShell, and the count stands at about 141k stars and about 12.6k forks as of 2026-10-14.
+First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8, v1.0.6 followed on September 10, v1.0.7 shipped September 15, v1.0.8 followed on September 17, and v1.0.9, v1.0.10, and v1.0.11 closed out September 21, 22, and 24, v1.0.12 landed September 25, v1.0.13 followed on 2026-09-29, v1.1.0 shipped October 2, v1.1.1 followed on October 6, v1.1.2 closed out October 7, v1.1.3 landed October 9 with a unified workflow execution tree, catalog-installed external agent adapters, and the deprecation of the core taskstoissues command, v1.2.0 followed on October 13 with a built-in GitHub workflow step, workflow-catalog cache confinement, and a round of extension updates, v1.2.1 landed October 16 with further extension updates (Applied Epistemic Engineering v1.5.0 among them), opt-in output capture for workflow steps, and a Korean README, v1.2.2 followed on October 19 with more extension updates (Applied Epistemic Engineering v1.5.2, DocGuard, and Evaluator Contract among them), config-template scaffolding on extension update, and JSON run-failure reporting, v1.2.3 landed October 22 with a workflow MCP inventory, `.presetignore` support, another extension round (Linear Weave v1.0.2), and fixes for event dispatcher cleanup and bracketed feature paths on PowerShell, v1.2.4 followed on October 27 with bundle-to-bundle references, GitHub CLI credential support, and further extension and preset updates, v1.2.5 landed October 28 with the extension development, publishing, and overview guides on the docs site, installed-workflow listing through MCP, and two more community extensions (Domain Spec Maintenance, Shared Knowledge), and the count stands at about 141k stars and about 12.6k forks as of 2026-10-14.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/spec-kit&type=date&theme=dark&legend=top-left" />
@@ -82,6 +82,7 @@ Not for solo work where the ceremony exceeds the blast radius of a bad change.
 - 2026-10-17 - Recorded the v1.2.1 release of 2026-10-16 (extension updates, opt-in output capture for workflow steps, a Korean README).
 - 2026-10-21 - Recorded the v1.2.2 release of 2026-10-19 (extension updates, config-template scaffolding on extension update, JSON run-failure reporting).
 - 2026-10-23 - Recorded the v1.2.3 release of 2026-10-22 (workflow MCP inventory, `.presetignore` support, Linear Weave v1.0.2, event-cleanup and PowerShell path fixes).
+- 2026-10-31 - Rotation re-verification of every cited source (all alive): recorded the v1.2.4 (2026-10-27: bundle-to-bundle references, GitHub CLI credential auth) and v1.2.5 (2026-10-28: extension guides on the docs site, workflow listing through MCP, two new community extensions) releases and moved the documented integration count to 38.
 
 ## See also
 
@@ -92,8 +93,9 @@ Not for solo work where the ceremony exceeds the blast radius of a bad change.
 
 ## References
 
-- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, releases through v1.2.3, as of 2026-10-23
-- https://github.github.io/spec-kit/ - official docs, integrations reference, extensions and presets
+- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, releases through v1.2.5, as of 2026-10-31
+- https://api.github.com/repos/github/spec-kit/releases - the release train through v1.2.5 (2026-10-28), fetched 2026-10-31
+- https://github.github.io/spec-kit/ - official docs, integrations reference, extensions and presets (38 integrations, 157 community extensions, 33 presets as of 2026-10-31)
 - https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/ - the GitHub launch post
 - https://www.manorrock.com/blog/2026/08/21/spec_kit_turns_one.html - the lead maintainer's first-year and 1.0.0 post
 - https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html - the waterfall-strikes-back critique

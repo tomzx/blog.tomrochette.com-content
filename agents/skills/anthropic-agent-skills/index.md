@@ -1,7 +1,7 @@
 ---
 title: Anthropic Agent Skills
 created: 2026-08-24
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, skills, anthropic, agent-extensions]
 readability: 3
@@ -25,7 +25,7 @@ The `anthropics/skills` repository ships the spec, a template, and example skill
 
 **Active and expanding.**
 Launched 2025-10-16; on 2025-12-18 Anthropic published the format as the open Agent Skills standard (agentskills.io), added organization-wide skill management, and opened a partner directory.
-The example repository shows 180.9k stars and 21.4k forks as of 2026-10-16 but only 60 commits as of 2026-10-18 (the count unchanged since the 10-13 reading; the last push, 2026-10-09, updated a claude-api skill), which tells me it is a distribution artifact, not where the product is built.
+The example repository shows 180.9k stars and 21.4k forks as of 2026-10-16 but only 61 commits as of 2026-10-31 (the 10-28 push updated the mcp-builder skill to SDK v2, the second skill-content commit after the 10-09 claude-api update), which tells me it is a distribution artifact, not where the product is built.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/skills&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ The claim I will defend: for most teams skills matter more than plugins or MCP s
 - 2026-10-07 - Added the anthropics/skills star history chart to the Status section.
 - 2026-10-20 - Rotation re-verification: every cited URL re-fetched live (the example repository via the GitHub API), all claims held; the repo state re-verified unchanged (last push still 2026-10-09, the claude-api skill update already recorded here).
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched live (the launch blog, the engineering post, the Claude Code skills docs with the `context: fork` extensions still documented, the Skills API guide with its code-execution and container framing, and agentskills.io), and the repo state re-verified unchanged (still pushed 2026-10-09, so the 60-commit distribution-artifact reading stands); no figures moved.
+- 2026-10-31 - Volatile refresh: the distribution-artifact reading held through the repo's 2026-10-28 push, which updated the mcp-builder skill to SDK v2 (commit 61, the second skill-content commit since the 10-09 claude-api update).
 
 ## See also
 
@@ -86,6 +87,6 @@ The claim I will defend: for most teams skills matter more than plugins or MCP s
 - https://claude.com/blog/skills - launch announcement (2025-10-16) and the 2025-12-18 open-standard update
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - progressive disclosure architecture, code execution, security guidance
 - https://code.claude.com/docs/en/skills - Claude Code surfaces: locations, bundled skills, spec versus extension frontmatter
-- https://github.com/anthropics/skills - example repo scale and license split, 180,927 stars as of 2026-10-13 (re-fetched 2026-10-27, still pushed 2026-10-09)
+- https://github.com/anthropics/skills - example repo scale and license split, 180,927 stars as of 2026-10-13 (re-fetched 2026-10-31, last push 2026-10-28, the mcp-builder skill update)
 - https://docs.claude.com/en/api/skills-guide - Skills API: container parameter, 20 skills per request, code execution requirement
 - https://agentskills.io/ - the extracted open standard and its client showcase

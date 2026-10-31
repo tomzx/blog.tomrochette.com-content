@@ -1,7 +1,7 @@
 ---
 title: SkillSpector
 created: 2026-10-12
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, security, supply-chain]
 readability: 3
@@ -25,7 +25,7 @@ It is the security tier inside NVIDIA's SkillEvaluator and part of the Verified 
 
 ## Status
 
-Active and large: 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24), 181 open issues as of 2026-10-27, created 2026-03-21, main's last commit 2026-10-22 with the repo's pushed date moving to 2026-10-27 on non-main activity.
+Active and large: 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24), 147 open issues as of 2026-10-31, created 2026-03-21, main's last commit 2026-10-30 (scanner false-positive and LLM-batching fixes).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/SkillSpector&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Active and large: 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NVIDIA/SkillSpector&type=date&legend=top-left" />
 </picture>
 
-The release train is active: v2.13.1 is the latest release, published 2026-10-23 as a patch on the v2.13.0 maintenance branch (false-positive fixes for incomplete-analysis reports, quoted text, and HTML-comment-spanning hidden-instruction findings, three backported security fixes covering report-file writing, failed batch gap-fill reporting, and bounded tool-misuse context, while preserving v2.13.0's dependency lock and provider defaults), following v2.13.0 (2026-10-16, a security-hardening backport of 55 selected PRs onto v2.12.0 (2026-09-23, whose notes close with "Prepared by Codex on behalf of Mohit Gupta")), which pins the loopback-only MCP HTTP restriction and the disabled Codex CLI provider into the release contract itself.
+The release train is active: v2.13.2 is the latest release, published 2026-10-28 as a patch on the v2.13.1 maintenance branch (three backported fixes for false incomplete-analysis reports: wrapper commands with no wrapped command at a proven clause boundary, such as ordinary references to `timeout`, `sudo`, `nice`, and `xargs` in Markdown table cells, no longer trip parser-limit reports, while redirections and unfinished fragments keep failing), preserving the dependency lock and provider defaults; it follows v2.13.1 (2026-10-23, false-positive fixes for incomplete-analysis reports, quoted text, and HTML-comment-spanning hidden-instruction findings, three backported security fixes covering report-file writing, failed batch gap-fill reporting, and bounded tool-misuse context), v2.13.0 (2026-10-16, a security-hardening backport of 55 selected PRs onto v2.12.0 (2026-09-23, whose notes close with "Prepared by Codex on behalf of Mohit Gupta")), which pins the loopback-only MCP HTTP restriction and the disabled Codex CLI provider into the release contract itself.
 The Hacker News footprint is one 49-point thread with 4 comments from 2026-06-12, thin against the star count and the same stars-ahead-of-discussion pattern this section has flagged on agentmemory and Cabinet.
 The project's documentation already disagrees with itself: the README counts 71 vulnerability patterns, the hosted docs guide counts 68.
 
@@ -74,6 +74,7 @@ Not for runtime policy enforcement (that is the harness or a control plane), for
 - 2026-10-17 - The release train moved to v2.13.0 (published 2026-10-16), a security-hardening backport of 55 selected PRs onto v2.12.0 that pins the loopback-only MCP HTTP restriction and the disabled Codex CLI provider into the release contract; the Cautions on both now rest on release notes as well as the README.
 - 2026-10-24 - The release train moved to v2.13.1 (published 2026-10-23), a patch on the v2.13.0 maintenance branch carrying false-positive fixes and three backported security fixes (atomic report-file writing, failed batch gap-fill passes now reported as incomplete with exit code 2, bounded tool-misuse context) while preserving the dependency lock and provider defaults.
 - 2026-10-27 - Volatile refresh: the release train held at v2.13.1 with main's last commit still 2026-10-22 (the pushed date moved to 2026-10-27 on non-main activity) and open issues up from 164 to 181.
+- 2026-10-31 - The release train moved to v2.13.2 (published 2026-10-28), a patch on the v2.13.1 maintenance branch backporting three false-incomplete-analysis fixes (wrapper commands like timeout, sudo, nice, and xargs at proven clause boundaries no longer trip parser-limit reports) while preserving the dependency lock and provider defaults; main pushed again to 2026-10-30 with scanner false-positive and LLM-batching fixes, and open issues moved down to 147.
 
 ## See also
 
@@ -85,8 +86,8 @@ Not for runtime policy enforcement (that is the harness or a control plane), for
 
 ## References
 
-- https://api.github.com/repos/NVIDIA/SkillSpector - 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24), 181 open issues as of 2026-10-27, Apache-2.0, created 2026-03-21, pushed 2026-10-27 on non-main activity with main's last commit 2026-10-22, docs homepage (fetched 2026-10-27)
+- https://api.github.com/repos/NVIDIA/SkillSpector - 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24), 147 open issues as of 2026-10-31, Apache-2.0, created 2026-03-21, main's last commit 2026-10-30, docs homepage (fetched 2026-10-31)
 - https://raw.githubusercontent.com/NVIDIA/SkillSpector/main/README.md - the 71-pattern taxonomy, two-stage pipeline, MCP mode, install paths, risk scoring, and the 31,132-skill research numbers (fetched 2026-10-22, the 71 count and the OpenCode 1.18.33 pin unchanged)
 - https://docs.nvidia.com/skills/scanning-agent-skills - the hosted guide with its 68-pattern count, the triage policy, and the SkillEvaluator security-tier framing (fetched 2026-10-12)
-- https://api.github.com/repos/NVIDIA/SkillSpector/releases/latest - v2.13.1 published 2026-10-23 (patch on the v2.13.0 maintenance branch), following v2.13.0 published 2026-10-16, a security-hardening backport of 55 selected PRs onto v2.12.0 (sha256-digested assets, Codex-prepared notes, published 2026-09-23) (fetched 2026-10-24)
+- https://api.github.com/repos/NVIDIA/SkillSpector/releases/latest - v2.13.2 published 2026-10-28 (patch on the v2.13.1 maintenance branch: three backported false-incomplete-analysis fixes), following v2.13.1 published 2026-10-23 and v2.13.0 published 2026-10-16, a security-hardening backport of 55 selected PRs onto v2.12.0 (sha256-digested assets, Codex-prepared notes, published 2026-09-23) (fetched 2026-10-31)
 - https://hn.algolia.com/api/v1/search?query=SkillSpector&tags=story - the single 49-point, 4-comment thread (2026-06-12) behind the thin-footprint statement (fetched 2026-10-12)

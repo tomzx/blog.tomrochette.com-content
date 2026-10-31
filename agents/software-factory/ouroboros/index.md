@@ -1,7 +1,7 @@
 ---
 title: Ouroboros
 created: 2026-08-30
-updated: 2026-10-28
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, verification, self-improving-agents, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, by Ouro Labs (Q00), solo-maintained with around 80 contributors.
 
 ## Status
 
-Very young, very active: 6,214 stars as of 2026-10-13, 631 forks and 105 open issues as of 2026-10-21, created 2026-01-14, pushed 2026-10-28.
+Very young, very active: 6,214 stars as of 2026-10-13, 631 forks and 105 open issues as of 2026-10-21, created 2026-01-14, pushed 2026-10-30.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Very young, very active: 6,214 stars as of 2026-10-13, 631 forks and 105 open is
 </picture>
 
 Latest release v0.59.9 on 2026-10-25 (routine verification, provider, and updater fixes), after the v0.59.8 patch of 2026-10-23 (artifact-store path safety, interview, and MCP fixes), the v0.59.4 through v0.59.7 patches of 2026-10-21 to 2026-10-23 (each keeping only sourced Seed content in the worker prompt and tightening context-pack manifest reporting), the v0.59.0 minor of 2026-10-19 (the self-answer investigates the repository and binds only checked evidence), the v0.58.0 minor of 2026-10-17 (only confirmed content binds the Seed, and the verify gate needs a signal), and the v0.57.x and v0.56.x lines before them; PyPI self-labels it Beta and carries 0.59.9 as well.
-**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-10-07.**
+**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-10-31.**
 An unrelated arXiv paper shares the name (a self-developing coding agent, arXiv 2608.08311), which muddies coverage searches for this project.
 
 ## Strengths
@@ -84,6 +84,7 @@ Not for quick edits, for teams needing proven evaluation rigor, or for anyone wh
 - 2026-10-21 - Recorded the train from v0.57.1 to v0.59.3 (2026-10-20, GitHub and PyPI): the v0.58.0 minor binds only confirmed content to the Seed and requires a signal for the verify gate, and the v0.59.0 minor makes the self-answer investigate the repository and bind only checked evidence; pushed date refreshed.
 - 2026-10-23 - Recorded the v0.59.4 through v0.59.7 patches (2026-10-21 to 2026-10-23, GitHub and PyPI, sourcing-gated Seed content in the worker prompt and context-pack manifest reporting); pushed date refreshed.
 - 2026-10-25 - Recorded the v0.59.8 and v0.59.9 patches (2026-10-23 and 2026-10-25, GitHub and PyPI, routine fixes with no design change); pushed date refreshed.
+- 2026-10-31 - Rotation re-verification: every cited URL re-fetched (repository via the API, the evaluate and roadmap docs, the docs home, the PyPI project page, the same-named arXiv paper, and the HN search) and all claims confirmed, including the README's 14-runtime roster, v0.59.9 still the newest release on GitHub and PyPI, the three-stage gate's thresholds, the conditional enterprise and marketplace horizons, and the single-digit self-submitted threads; pushed date refreshed, no material change.
 
 ## See also
 

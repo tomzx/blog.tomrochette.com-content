@@ -12,7 +12,7 @@ The reusable capability format and its ecosystem: the open skill format spec, th
 
 - [Agent Plugins](agent-plugins/index.md) - the vendor-neutral packaging standard bundling Agent Skills and MCP servers into one portable plugin.json folder, from a Vercel-proposed five-vendor TSC.
 - [Agent Skills open standard](agent-skills-open-standard/index.md) - the agentskills.io spec for SKILL.md capability directories.
-- [Agent-Native](agent-native/index.md) - Builder.io's curated pack of 24 skills plus the app framework they bridge to, the discipline skills portable to any harness.
+- [Agent-Native](agent-native/index.md) - Builder.io's curated pack of 25 skills plus the app framework they bridge to, the discipline skills portable to any harness.
 - [Anthropic Agent Skills](anthropic-agent-skills/index.md) - Anthropic's SKILL.md folder format for reusable agent capabilities.
 - [EvoSkill](evoskill/index.md) - Sentient Labs' Apache-2.0 toolkit that induces SKILL.md skills from a coding agent's failed benchmark runs, v1 selecting on a held-out Pareto gate and the v2.0.0 release (2026-10-26) moving to a stateful evolver on its own branch.
 - [GEPA](gepa/index.md) - the MIT reflective prompt optimizer from the Databricks research lineage that mechanically evolves prompts, code, and agent skills against any metric, about 7k stars.

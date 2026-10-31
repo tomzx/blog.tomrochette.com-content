@@ -1,7 +1,7 @@
 ---
 title: OpenCode skills and plugins
 created: 2026-08-24
-updated: 2026-10-24
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, skills, plugins, opencode, agent-extensions]
 readability: 3
@@ -19,14 +19,14 @@ OpenCode extends through two separate mechanisms: Agent Skills (SKILL.md folders
 Skills load from `.opencode/skills`, `~/.config/opencode/skills`, and the Claude-compatible (`.claude/skills`) and agent-compatible (`.agents/skills`) paths, project and global, discovered by walking from the working directory up to the worktree root.
 Frontmatter requires `name` and `description`, accepts `license`, `compatibility`, and `metadata`, and ignores unknown fields; the docs state plainly that OpenCode 1 uses no metadata keys to control slash commands or automatic skill selection.
 The model loads a skill on demand by calling the `skill` tool, and permissions can allow, deny, or ask per pattern, be overridden per agent, or the tool can be disabled entirely.
-OpenCode v2 shipped beside the 1.x line (its own docs tree at opencode.ai/v2) with a redesigned skills surface: single-file skills, HTTP skill catalogs configured in `opencode.json`, ID-precedence discovery, explicit `@skill-id` prompt loads, and a `metadata.opencode/autoinvoke: false` (or `disable-model-invocation`) opt-out from the model-facing list.
+OpenCode v2 ships beside the 1.x line (its own docs tree at opencode.ai/v2) with a redesigned skills surface: single-file skills, HTTP skill catalogs configured in `opencode.json`, ID-precedence discovery, explicit `@skill-id` prompt loads, and a `metadata.opencode/autoinvoke: false` (or `disable-model-invocation`) opt-out from the model-facing list.
 Plugins are JS/TS modules from `.opencode/plugins` or npm (installed via Bun at startup) hooking events like `tool.execute.before`, `session.idle`, or `experimental.session.compacting`, and they can register custom tools.
 
 ## Status
 
-**Active; the skills and plugins docs are maintained closely, the skills page last updated 2026-10-23.**
-The host project (anomalyco/opencode) shows about 213.3k stars under MIT as of 2026-10-13, latest release v1.19.4 (2026-10-22) on the 1.x line, with the v2 redesign documented in its own docs tree.
-The ecosystem page lists 43 community plugins (counted 2026-10-24; the page states no count itself), up from the 39 recorded at the last verification (Helicone, Sentry, Firecrawl, Tavily, Daytona sandboxing, subscription-auth bridges).
+**Active; the skills and plugins docs are maintained closely, the skills page last updated 2026-10-30.**
+The host project (anomalyco/opencode) shows about 213.3k stars under MIT as of 2026-10-13, and the v2 line is now the shipping release train: v2.2.0 through v2.2.5 published 2026-10-27 to 10-30, with the 1.x line still releasing beside it (v1.19.5 on 2026-10-28), after the v2 redesign had lived only in its own docs tree.
+The ecosystem page lists 31 community plugins, 10 projects, and 2 agent collections under separate section headers (counted 2026-10-31; the page states no count itself), the same 43 rows the 10-24 reading counted as "43 plugins" before the page was re-sectioned.
 There is no first-party skill marketplace; distribution rides plain git or third parties like skills.sh.
 
 ## Strengths
@@ -67,6 +67,7 @@ My disagreeable claim: plugins, not skills, are OpenCode's actual differentiator
 - 2026-09-25 - Refreshed the volatile numbers (209,897 host stars; the ecosystem page, updated 2026-09-24, still lists roughly 40 plugins).
 - 2026-10-16 - Rotation re-verification corrected the invocation claim: the skills docs now document `metadata` keys (`opencode/slash`, `opencode/autoinvoke`) that expose a skill as an explicit `/<name>` TUI command; every cited URL re-fetched live (39 plugins on the ecosystem page, docs pages updated 2026-10-15).
 - 2026-10-24 - Rotation re-verification reversed the 10-16 invocation reading: the rewritten skills docs (last updated 2026-10-23) state OpenCode 1 uses no metadata keys for slash commands or automatic skill selection, and the new v2 docs tree documents the replacement surface (`opencode/autoinvoke: false` and `disable-model-invocation` opt-outs, explicit `@skill-id` prompt loads, HTTP skill catalogs, single-file skills); the ecosystem count moved to 43 plugins and the host release to v1.19.4 (2026-10-22).
+- 2026-10-31 - The v2 line became the shipping release train: v2.2.0 through v2.2.5 published 2026-10-27 to 10-30 (the 1.x line still releasing v1.19.5 on 10-28), so the v2 redesign is no longer docs-only; the same rotation pass corrected the 10-24 ecosystem reading, finding the page re-sectioned into Plugins, Projects, and Agents, with 31 plugin rows plus 10 project and 2 agent entries (the same 43 rows previously counted as "43 plugins"); every cited URL re-fetched live and all other claims held.
 
 ## See also
 
@@ -78,10 +79,10 @@ My disagreeable claim: plugins, not skills, are OpenCode's actual differentiator
 
 ## References
 
-- https://opencode.ai/docs/skills/ - skill paths, frontmatter, permissions, the skill tool; the current page (updated 2026-10-23) states OpenCode 1 uses no metadata keys for slash commands or auto-selection
-- https://opencode.ai/v2/docs/skills/ - the v2 skills docs: HTTP catalogs, single-file skills, ID precedence, the autoinvoke/disable-model-invocation opt-outs, and explicit `@skill-id` loading (fetched 2026-10-24)
-- https://opencode.ai/docs/plugins/ - plugin model, event hooks, npm installation, custom tools
-- https://opencode.ai/docs/ecosystem/ - community plugin inventory, 43 plugin rows counted 2026-10-24 (the page states no count)
-- https://github.com/anomalyco/opencode - host project scale and MIT license, latest release v1.19.4 (2026-10-22), as of 2026-10-24
+- https://opencode.ai/docs/skills/ - skill paths, frontmatter, permissions, the skill tool; the current page (updated 2026-10-30) states OpenCode 1 uses no metadata keys for slash commands or auto-selection (re-fetched 2026-10-31, claims unchanged)
+- https://opencode.ai/v2/docs/skills/ - the v2 skills docs: HTTP catalogs, single-file skills, ID precedence, the autoinvoke/disable-model-invocation opt-outs, and explicit `@skill-id` loading (fetched 2026-10-24, re-fetched 2026-10-31, claims unchanged)
+- https://opencode.ai/docs/plugins/ - plugin model, event hooks, npm installation, custom tools (re-fetched 2026-10-31, claims unchanged)
+- https://opencode.ai/docs/ecosystem/ - community inventory under Plugins, Projects, and Agents section headers: 31 plugin rows, 10 projects, 2 agent collections counted 2026-10-31 (the page states no count)
+- https://github.com/anomalyco/opencode - host project scale and MIT license as of 2026-10-24; release trains re-verified 2026-10-31 (v2.2.0-v2.2.5 published 2026-10-27 to 10-30, v1.19.5 on 2026-10-28)
 - https://agentskills.io/ - lists OpenCode among the standard's clients
 - https://github.com/vercel-labs/skills - compatibility matrix (`context: fork` and hooks unsupported in OpenCode)

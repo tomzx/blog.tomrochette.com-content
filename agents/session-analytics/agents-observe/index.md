@@ -1,7 +1,7 @@
 ---
 title: agents-observe
 created: 2026-09-16
-updated: 2026-10-23
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, claude-code]
 readability: 3
@@ -23,7 +23,7 @@ Made by simple10, an independent developer, under MIT.
 
 ## Status
 
-Young and active: 694 stars, 71 forks, created 2026-03-26, pushed 2026-09-04, latest release v0.9.12 on 2026-07-22, as of 2026-10-11.
+Young and active: 694 stars, 75 forks, created 2026-03-26, pushed 2026-09-04, latest release v0.9.12 on 2026-07-22, as of 2026-10-31.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=simple10/agents-observe&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for multi-harness archive analytics, code provenance, or anyone unwilling to
 - 2026-10-07 - Added the simple10/agents-observe star history chart to the Status section.
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched and live; repository state (pushed 2026-09-04), release line (v0.9.12), README, and the launch thread all unchanged.
 - 2026-10-23 - Rotation re-verification: every cited URL re-fetched and live; repository state (pushed 2026-09-04), release line (v0.9.12), README, and the launch thread unchanged.
+- 2026-10-31 - Rotation re-verification: every cited URL re-fetched and live; repository state (pushed 2026-09-04), release line (v0.9.12), README (its substance unchanged, with new data-location and migration notes since the note's last full read), and the launch thread (77 points, the hook-latency and bot-comment exchanges) all unchanged; forks refreshed 71 to 75.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Container Use
 created: 2026-10-12
-updated: 2026-10-19
+updated: 2026-10-31
 readability: 3
 audience_notes: >
   Engineers running several coding agents against one repository who want each agent
@@ -72,6 +72,7 @@ Not for untrusted-code isolation (the kernel is shared and no egress policy exis
 
 - 2026-10-12 - Created from the 2026-10-12 entrant-resolution scan (two sources), profiling the category's container-workflow entrant with the stalled release train recorded as the central caution.
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched (repository, release record, the four documentation pages, the 82-point launch thread, all alive); no release after v0.4.2 and the push date holds at 2026-09-21, so the stalled-train reading stands.
+- 2026-10-31 - Rotation re-verification: every cited URL re-fetched (repository, release record, the four documentation pages, the 82-point launch thread, all alive); no release after v0.4.2 and the push date holds at 2026-09-21, so the stalled-train reading stands.
 
 ## See also
 

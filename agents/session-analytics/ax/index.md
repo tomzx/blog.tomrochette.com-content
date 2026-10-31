@@ -1,7 +1,7 @@
 ---
 title: ax
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, memory, local-first, cost-tracking]
 readability: 3
@@ -24,7 +24,7 @@ Made by Necmettin Karakaya (Necmttn) under AGPL-3.0, with a paid commercial lice
 
 ## Status
 
-Young and shipping in public: 121 stars, 15 forks, 40 open issues, created 2026-05-08, pushed 2026-10-07, v0.44.4 the latest version (announced releases run through v0.44.3 on 2026-09-14), as of 2026-10-23.
+Young and shipping in public: 121 stars, 14 forks, 42 open issues, created 2026-05-08, pushed 2026-10-28, v0.44.4 the latest version (announced releases run through v0.44.3 on 2026-09-14), as of 2026-10-31.
 The release history is unusually transparent for a 0.x project: v0.40.0 (2026-08-20) rebuilt storage from SurrealDB to embedded DuckDB at a claimed 21 times faster ingest, and v0.40.1 (2026-08-21) closed 19 of the 24 bugs a five-lane audit found in it, mixed-model session costs and silent duplicate-row drops included.
 An independent RepoGrade scan of the repository (its scan data from mid-2026) graded it C at 76/100, top 38% of 5,156 graded repositories: documentation 94 and project health 92, engineering 58, with no linter configuration found and thin test coverage, while median issue response ran 3 hours and the median PR merged in under an hour.
 
@@ -54,7 +54,7 @@ An independent RepoGrade scan of the repository (its scan data from mid-2026) gr
 
 ## Pricing
 
-The CLI and the graph are free under AGPL-3.0; the README offers a commercial license for uses the AGPL does not permit, by contact.
+The CLI and the graph are free under AGPL-3.0; the README offers a commercial license for uses the AGPL does not permit, by contact through the project's Discord.
 A team rollup is sold to a founding cohort capped at five teams at $20 per developer per month: each seat pushes redacted aggregates (counts, sums, ratios) as one JSON file into a private git repo your org owns, the dashboard aggregates client-side with the viewer's own GitHub token, ax's servers hold nothing, cells under five contributors are hidden, and there is no per-person leaderboard.
 
 ## Price history
@@ -78,6 +78,7 @@ Not for teams needing hosted multi-user analytics today, for AGPL-incompatible e
 ## Changes
 
 - 2026-10-23 - Created from the coordinator's entrant handoff, admitted on six fetched sources with the $20 per seat founding-cohort pricing recorded and the independent RepoGrade grade as the skeptical source.
+- 2026-10-31 - Rotation re-verification: every cited URL re-fetched and live (README, docs hub, changelog, teams page, RepoGrade report, repository); the release line unchanged at v0.44.4 with the changelog still announcing through v0.44.3, the teams page unchanged at $20 per seat with one of five founding spots claimed and per-seat receipts marked live today, and the RepoGrade grade unchanged at C 76/100; the Pricing section's commercial-license contact moved to the project's Discord per the README, and repository counts refreshed (pushed 2026-10-07 to 2026-10-28, forks 15 to 14, open issues 40 to 42).
 
 ## See also
 
@@ -88,7 +89,7 @@ Not for teams needing hosted multi-user analytics today, for AGPL-incompatible e
 
 ## References
 
-- https://api.github.com/repos/Necmttn/ax - the repository, 121 stars, AGPL-3.0, created 2026-05-08, pushed 2026-10-07 (as of 2026-10-23)
+- https://api.github.com/repos/Necmttn/ax - the repository, 121 stars, AGPL-3.0, created 2026-05-08, pushed 2026-10-28 (as of 2026-10-31)
 - https://raw.githubusercontent.com/Necmttn/ax/main/README.md - the graph model, six-harness ingest, recall, costs, routing, hooks SDK, MCP server, and privacy rules
 - https://ax.necmttn.com/docs - the docs hub at v0.44.4, the guide set, and the MCP server's ten read-only queries
 - https://ax.necmttn.com/changelog - the release history from v0.1.0 (2026-05-09) through v0.44.3 (2026-09-14), the DuckDB rebuild in v0.40.0, and the 19-bug fix wave in v0.40.1

@@ -1,7 +1,7 @@
 ---
 title: Agent Skills open standard
 created: 2026-08-24
-updated: 2026-10-24
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, agent-extensions, open-standards, llm=glm-5.3-flash]
 readability: 3
@@ -25,7 +25,7 @@ Discovery is by directory convention: each harness scans its own skills paths (`
 
 **Active, and effectively the winner.**
 The agentskills.io client showcase lists Claude and Claude Code, ChatGPT and Codex, Gemini CLI, Cursor, GitHub Copilot and VS Code, OpenCode, Amp, Goose, Junie, Roo, Kiro, Trae, and dozens more.
-Vercel's skills CLI installs into 79 agents as of 2026-10-11 (headline and table agree: four named agents plus a "75 more" count matching the table's 79 targets).
+Vercel's skills CLI installs into 79 agents as of 2026-10-31 (re-counted from the README headline and table, which agree: four named agents plus a "75 more" count matching the table's 79 targets).
 Mintlify now auto-generates a skill at `.well-known/skills/default/skill.md` for every docs site it hosts and deprecated its January 2026 install.md convention in favor of skills.
 
 ## Strengths
@@ -66,6 +66,7 @@ My disagreeable claim: SKILL.md is quietly becoming the interface between softwa
 - 2026-10-06 - Added Agent Plugins to See also: the multi-vendor packaging standard that bundles this format with MCP servers into one installable plugin; the 79-agent README count re-verified.
 - 2026-10-08 - The Vercel CLI's agent-target count moved back to 79, with the README headline and table now agreeing, correcting the 80 recorded on 2026-10-07.
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched live and all claims held (the spec's field limits and 500-line recommendation, the client showcase roster, Codex's 2%-of-context cap, Gemini's consent gate, OpenCode's ignore-unknown-fields behavior, Cursor's beyond-spec fields, Mintlify's .well-known convention and install.md deprecation, the Vercel CLI at 79 agents).
+- 2026-10-31 - Rotation re-verification: every cited URL re-fetched live and all claims held again (the spec's six fields with the name rules and 500-line recommendation, the Codex 2%-of-context cap with its new skills.max_context_tokens override, Gemini's consent gate and .agents/skills alias with the Antigravity-transition banner now on the docs, OpenCode's ignore-unknown-fields line, Mintlify's convention and deprecation, Cursor's beyond-spec fields with nested-directory scoping added, the Vercel CLI README still naming four agents plus 75 more, and Anthropic's untrusted-skill guidance); no claims moved.
 
 ## See also
 

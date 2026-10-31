@@ -1,7 +1,7 @@
 ---
 title: Loki Mode
 created: 2026-10-07
-updated: 2026-10-28
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, autonomous-agents, verification]
 readability: 3
@@ -21,9 +21,9 @@ Autonomi publishes it under BUSL-1.1, and the README documents outcomes and exit
 
 ## Status
 
-Active and shipping fast: 1,093 stars and 206 forks since creation on 2025-12-26 (as of 2026-10-13), 277,271 Docker pulls as of 2026-10-28, per GitHub and Docker Hub.
-Pushed 2026-10-27, and the train holds at v11.77.0 (2026-10-24), with npm `latest` and `next` in sync at 11.77.0, per the GitHub API and the npm registry as of 2026-10-28.
-**The burst since v11.18.0 (2026-10-20) has covered roughly sixty minors in five days, and its newest entries ship feature lists again: `loki status` follows a run live, silent runs raise stuck-run alerts, and `loki github protect` requires the receipt status check on the default branch (v11.77.0).**
+Active and shipping fast: 1,093 stars and 206 forks since creation on 2025-12-26 (as of 2026-10-13), 296,635 Docker pulls as of 2026-10-31, per GitHub and Docker Hub.
+Pushed 2026-10-31, and the train is at v11.94.0 (2026-10-31), with npm `latest` and `next` in sync at 11.94.0, per the GitHub API and the npm registry as of 2026-10-31.
+**The burst since v11.18.0 (2026-10-20) has covered about seventy-six minors in eleven days, and the newest entries keep hardening the acceptance story: every signed receipt now carries a Seal accuracy line read from measured seeded-defect results (v11.90.0, printed in pull-request bodies and `loki verify` output by v11.91.0), interrupted runs offer Resume with their completed stages kept (v11.81.0, v11.87.0), `loki try` runs a public repository in a temporary clone and keeps only the receipt (v11.79.0), Java projects get an independent acceptance test and a verify run instead of being skipped (v11.83.0), and acceptance checks are now written by a separate, walled provider call before the main loop (v11.85.0).**
 The release process itself changed mid-train: v11.17.99 reduced CI to a single release workflow that publishes npm, Homebrew, the SDKs, and signed Docker images with no test gate in front, removing the Tests, nightly, security-audit, and SBOM workflows.
 The catch-up release run changed the acceptance story: seal VERIFIED now requires at least one agent-independent (exogenous) proof by default, `loki verify --explain` classifies each gate as exogenous or agent-influenced, and the burst shipped a deploy path (`loki deploy` with Fly, Netlify, and Cloudflare verbs, custom-domain TLS proof, and a rollback command), per the v11.17.33 through v11.17.40 release notes.
 
@@ -81,6 +81,7 @@ Not for teams that require OSI licensing, and not for anyone who needs independe
 - 2026-10-21 - Recorded the train reaching v11.18.0 (2026-10-20, a no-engine-change checkpoint release, npm in sync) and the v11.17.99 CI reduction to a single release workflow with no test gate in front (Tests, nightly, security-audit, and SBOM workflows removed).
 - 2026-10-23 - Recorded the burst from v11.18.0 to v11.60.17 (about forty minors in three days, releases minutes apart with single-fix notes quoting the review verdict), npm `latest` at 11.60.15 ahead of `next` at 11.60.10, and Docker pulls refreshed to 225,945 (2026-10-23).
 - 2026-10-25 - Recorded the train passing v11.60.17 to reach v11.77.0 (2026-10-24, about sixty minors in five days), npm `latest` and `next` back in sync at 11.77.0, the newest entries shipping feature lists again (live `loki status` following, stuck-run alerts, `loki github protect` requiring the receipt status check on the default branch), and Docker pulls refreshed to 265,042 (2026-10-24).
+- 2026-10-31 - Recorded the train passing v11.77.0 to reach v11.94.0 (2026-10-31, seventeen minors in seven days, npm `latest` and `next` in sync): measured Seal accuracy lines on every signed receipt (v11.90.0, printed in pull-request bodies and verify output by v11.91.0), resume for interrupted runs (v11.81.0, v11.87.0), `loki try` on a public repository in a temporary clone (v11.79.0), an independent Java acceptance test (v11.83.0), acceptance checks written by a separate walled provider call (v11.85.0), and Docker pulls refreshed to 296,635 (2026-10-31).
 
 ## See also
 
@@ -93,8 +94,8 @@ Not for teams that require OSI licensing, and not for anyone who needs independe
 
 - https://github.com/asklokesh/loki-mode - repository, delivery contract, review council, MCP server, and install methods
 - https://www.autonomi.dev - Autonomi's site and the issue-to-PR-with-signed-receipt positioning
-- https://www.npmjs.com/package/loki-mode - the npm package, 11.77.0 latest as of 2026-10-28
-- https://github.com/asklokesh/loki-mode/releases - the release train, v11.77.0 newest as of 2026-10-24, the seal VERIFIED exogenous-proof default in the v11.17.33 notes, and the v11.17.99 CI reduction
+- https://www.npmjs.com/package/loki-mode - the npm package, 11.94.0 latest as of 2026-10-31
+- https://github.com/asklokesh/loki-mode/releases - the release train, v11.94.0 newest as of 2026-10-31, the Seal accuracy receipt line in the v11.90.0 notes, the resume and walled-acceptance-check entries in the v11.81.0 through v11.87.0 notes, the seal VERIFIED exogenous-proof default in the v11.17.33 notes, and the v11.17.99 CI reduction
 - https://github.com/asklokesh/loki-mode/releases/tag/v11.3.1 - the v11.3.1 release notes, the 11.3 program's ten v1 features including scored attempts and memory with proof
 - https://github.com/asklokesh/loki-mode/releases/tag/v11.3.9 - the v11.3.9 release notes, credential-isolation follow-ups and backstop-triggered promotion
 - https://hub.docker.com/r/asklokesh/loki-mode - the Docker image and its pull count

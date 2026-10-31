@@ -1,7 +1,7 @@
 ---
 title: GEPA
 created: 2026-10-13
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, prompt-optimization, meta-learning]
 readability: 3
@@ -23,7 +23,7 @@ Distribution is PyPI (`pip install gepa`, v0.1.4, release-tagged July 2026) with
 
 ## Status
 
-Active with an established research record: 6,973 stars and 576 forks as of 2026-10-13, 138 open issues as of 2026-10-27, created 2025-08-05, pushed 2026-10-26 (two reflection-stage fixes hardening fence handling: longer fences, fence attributes, tilde blocks, and empty proposals), PyPI at 0.1.4 re-verified 2026-10-27.
+Active with an established research record: 6,973 stars and 576 forks as of 2026-10-13, 144 open issues as of 2026-10-31, created 2025-08-05, pushed 2026-10-30 (after the two reflection-stage fence fixes came a DSPy fix handling failed program outputs, a generated README contributor list, and a sampling fix refreshing batches when loader IDs change), PyPI at 0.1.4 re-verified 2026-10-31.
 The launch reached a 92-point Hacker News thread in July 2025, the paper was accepted to ICLR 2026 as an oral (v2 revised 2026-02-14), and the adoption trail is documented beyond Databricks' own engineering blog: the docs site's roster names Shopify, Google, Microsoft, OpenAI, Dropbox, Pydantic, and Comet ML, and GEPA ships built into DSPy.
 **The contested part is the evidence: a "Contra DSPy and GEPA" thread and the DSPy community's methodological argument over GEPA's comparison baselines are the standing critical sources, so the headline claims deserve a re-run on your own metric before adoption.**
 
@@ -72,6 +72,7 @@ Not for anyone without an evaluator (GEPA amplifies whatever the metric measures
 - 2026-10-13 - Refreshed the volatile numbers (6,973 stars, 576 forks).
 - 2026-10-22 - Rotation re-verification: recorded the paper's ICLR 2026 oral acceptance (v2, 2026-02-14) and the docs site's vendor adoption roster (Shopify, Google, Microsoft, OpenAI, Dropbox, Pydantic, Comet ML, plus the built-into-DSPy integration), and refreshed the volatile numbers (137 open issues, pushed 2026-10-21, PyPI still 0.1.4).
 - 2026-10-27 - Volatile refresh: main pushed 2026-10-26 with two reflection-stage fixes (longer fences, fence attributes, tilde blocks, empty proposals), open issues moved to 138, and PyPI re-verified at 0.1.4.
+- 2026-10-31 - Volatile refresh: main pushed 2026-10-30 with three further commits (a DSPy fix for failed program outputs, a generated README contributor list, a sampling fix refreshing batches when loader IDs change), open issues moved to 144, and PyPI re-verified at 0.1.4.
 
 ## See also
 
@@ -83,7 +84,7 @@ Not for anyone without an evaluator (GEPA amplifies whatever the metric measures
 
 ## References
 
-- https://github.com/gepa-ai/gepa - repository, MIT license, stars, push activity, and the any-text-parameter scope as of 2026-10-27 (pushed 2026-10-26, 138 open issues)
+- https://github.com/gepa-ai/gepa - repository, MIT license, stars, push activity, and the any-text-parameter scope as of 2026-10-31 (pushed 2026-10-30, 144 open issues)
 - https://arxiv.org/abs/2507.19457 - the GEPA paper grounding the reflective-prompt-evolution and Pareto-selection claims, accepted to ICLR 2026 as an oral (v2 revised 2026-02-14)
 - https://gepa-ai.github.io/gepa/ - the documented API, examples, and the auto-learned coding-agent skills claim
 - https://pypi.org/project/gepa/ - the PyPI distribution, version 0.1.4 (2026-07-15), MIT

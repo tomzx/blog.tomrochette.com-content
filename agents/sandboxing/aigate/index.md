@@ -1,7 +1,7 @@
 ---
 title: aigate
 created: 2026-08-30
-updated: 2026-10-19
+updated: 2026-10-31
 readability: 3
 audience_notes: >
   Engineers who wrap coding agents in OS-level restriction and want to know what a small sandbox tool actually enforces.
@@ -32,7 +32,7 @@ Tiny and quiet, and the numbers are the story: 14 stars, 1 fork, 0 issues as of 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AxeForging/aigate&type=date&legend=top-left" />
 </picture>
 
-v1.0.0 released 2026-07-19 with a few commits since, and no push since 2026-08-04, seventy-six days of quiet as of 2026-10-19.
+v1.0.0 released 2026-07-19 with a few commits since, and no push since 2026-08-04, eighty-eight days of quiet as of 2026-10-31.
 **A missing community footprint is itself a signal worth stating: no audits, no advisories, no external users visible, and no SECURITY.md.**
 
 ## Strengths
@@ -76,6 +76,7 @@ Not for anyone needing a security boundary they did not audit themselves; use [O
 - 2026-10-12 - Quiet window extended to sixty-nine days (last push still 2026-08-04); stars, forks, and issues unchanged.
 - 2026-10-13 - Quiet window extended to seventy days (last push still 2026-08-04); stars, forks, and issues unchanged.
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched (repository, README, user guide, the enforcement-matrix site, the v1.0.0 release page, the built-in sandboxing comparison, all alive); the push date holds at 2026-08-04 and the quiet window extends to seventy-six days as of 2026-10-19.
+- 2026-10-31 - Rotation re-verification: every cited URL re-fetched (repository, README, user guide, the enforcement-matrix site, the v1.0.0 release page, the built-in sandboxing comparison, all alive); the push date holds at 2026-08-04 and the quiet window extends to eighty-eight days as of 2026-10-31.
 
 ## See also
 

@@ -302,7 +302,7 @@ CLI Agent Orchestrator is the second vendor-backed standalone ADE after OpenHarn
 - https://github.com/omnara-ai/omnara - control plane, license, and stars for the Omnara column
 - https://www.vibekanban.com/blog/shutdown - shutdown date, service removal, refunds for the status row
 - https://github.com/getpaseo/paseo - platforms, agent catalog, relay, and license for the Paseo column
-- https://github.com/superset-sh/superset - worktree model, presets, ELv2 license, and funding for the Superset column
+- https://github.com/ParadevAI/Paradev - worktree model, presets, ELv2 license, and funding for the Superset column (canonical path after the rename)
 - https://github.com/max-sixty/worktrunk - commands, hooks, license, and release cadence for the Worktrunk column
 - https://air.dev/ - supported agents, isolation options, and pricing FAQ for the JetBrains Air column
 - https://air.dev/changelog - current version 262.834.41 and platform dates for the JetBrains Air status cell

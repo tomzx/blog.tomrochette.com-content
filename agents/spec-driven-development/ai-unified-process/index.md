@@ -1,7 +1,7 @@
 ---
 title: AI Unified Process
 created: 2026-10-17
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, use-cases, methodology, rup, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Coverage moved into core with the layer model: `/use-case-coverage` judges imple
 
 ## Status
 
-Active and authored: 146 stars, 26 forks, and 6 open issues since creation on 2026-02-28, Apache-2.0 (GitHub API); as of 2026-10-27, pushed 2026-10-26 with a coordinated release wave across every plugin, `aiup-core` v3.1.0 (per-module reverse-engineering, the `/stack` command, coverage evidence from NFR and constraint ids) followed by a v3.1.x patch train through v3.1.9 (implement-time migration runs, marker line-length, no-data postconditions), the same wave that deprecated the two combined stack plugins, and a second coordinated wave on 2026-10-26 bumping every layer plugin (Angular to v3.3.0, Vaadin, Spring Boot, JPA, jOOQ, and Flyway to v3.2.0, Playwright to v3.1.0) while core stayed at v3.1.9.
+Active and authored: 146 stars, 26 forks, and 4 open issues as of 2026-10-31, Apache-2.0, created 2026-02-28 (star and fork counts unchanged from the 2026-10-17 baseline); as of 2026-10-31, pushed 2026-10-29 with a third coordinated release wave on 2026-10-27 and 28 bumping Vaadin to v3.4.0, Spring Boot to v3.4.1, and Playwright to v3.2.1 (contract-first REST construction from an agreed OpenAPI contract via `/spring-rest` and `/spring-client`, client tests that stub the external system, UI layers that take their layout from the use case's mockups) on top of the waves that rebuilt the plugin model and deprecated the two combined stack plugins, while `aiup-core` stays at v3.1.9.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AI-Unified-Process/marketplace&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ The disagreeable claim I will defend: spec-kit taught the industry to write spec
 
 - 2026-10-17 - Created from the Engineering4AI awesome-list entrant scan, profiling AI-Unified-Process/marketplace as the category's requirements-centric, RUP-lineage column.
 - 2026-10-25 - Recorded the 2026-10-24 release wave: the plugin model rebuilt from four combined stack plugins to seven layer plugins combined per project (`/stack` records the combination), `aiup-core` v3.1.0 (per-module reverse-engineering, coverage evidence from NFR and constraint ids), and the Vaadin/jOOQ and Angular/JPA combined plugins deprecated ahead of removal in core 4.0.0, with `/use-case-coverage` moving the coverage audit into core.
+- 2026-10-31 - Rotation re-verification of every cited source (all alive, the field report and footprint unchanged, pricing unchanged on the site): recorded the third release wave (2026-10-27 to 28: Vaadin v3.4.0, Spring Boot v3.4.1, Playwright v3.2.1, contract-first REST construction from OpenAPI contracts, mockup-driven UI layouts) and refreshed the repository facts.
 
 ## See also
 
@@ -93,4 +94,5 @@ The disagreeable claim I will defend: spec-kit taught the industry to write spec
 - https://unifiedprocess.ai/ - the methodology site: positioning, testimonials, pricing, the book, and Studio
 - https://martinelli.ch/spec-driven-development-with-ai-a-new-approach-and-a-journey-into-the-past/ - the steward's origin post grounding the RUP lineage and the requirements-as-source-of-truth thesis
 - https://korhan.org/blog/eine-einfache-fallverwaltung-nach-dem-ai-unified-process/ - the independent field report (2026-10-06), the critical source: coverage findings, the review-time warning, and the spec-gap admissions
+- https://api.github.com/repos/AI-Unified-Process/marketplace/releases - the plugin release waves through the 2026-10-27/28 round (Vaadin v3.4.0, Spring Boot v3.4.1, Playwright v3.2.1), fetched 2026-10-31
 - https://hn.algolia.com/api/v1/search?query=%22AI+Unified+Process%22&hitsPerPage=8 - the footprint check: one independent endorsement comment, no thread of its own, and the aiup.dev name collision

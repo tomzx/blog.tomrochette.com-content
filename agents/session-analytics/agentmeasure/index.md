@@ -1,7 +1,7 @@
 ---
 title: AgentMeasure
 created: 2026-10-16
-updated: 2026-10-28
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, audit, cli, open-source]
 readability: 3
@@ -17,6 +17,8 @@ AgentMeasure is a free MIT local CLI that audits coding-agent session records fo
 ## What it is
 
 A Python 3.9+ CLI (`pip install agentmeasure`, CLI 0.8.0 on PyPI) with two halves that share one evidence discipline.
+On 2026-10-30 the project renamed itself Verovo and repositioned its center of gravity on buyer-side verification of AI service charges and delivery: charge review (do the charges match the applicable rules and records) and delivery review (does the work meet the buyer's stated requirements), each reported as separate PASS, FAIL, or UNPROVABLE verdicts.
+The session-record checks this note was created for survive as the product's "Developer diagnostics" lane, and the free human-run measurement runs carry over, but the billing half is now the headline and the `verovo` PyPI package did not exist yet as of 2026-10-31 (the CLI installs from the v0.9.0 git tag, while `agentmeasure` 0.8.0 remains the last PyPI publish).
 The session half reads local Codex and Claude Code logs: `agentmeasure check` reports duplicate records, retry amplification, and token anomalies, `agentmeasure demo` runs a bundled synthetic session with no account, and `response-audit` (0.8.0) compares usage snapshots for the same response across forked or resumed session files, reporting OBSERVED, CONFLICT, or INCOMPLETE rather than picking a winner.
 The billing half re-counts AI customer-support exports (Intercom Fin, Zendesk AI Agents, HubSpot Breeze, Salesforce Agentforce, Ada, plus a generic per-resolution baseline) against each vendor's published rule, pinned and dated in a vendor-rules registry, and builds dispute and recovery packs when a recount disagrees with an invoice.
 Around both sits unusual machinery for a tool this age: a conformance pack with PASS, FAIL, and UNPROVABLE verdicts, a core measurement specification and AMS-1 settlement standard, an MCP provider SDK (0.2.0 on npm) for capturing canonical observations, a claims index of dated findings against other tools, and a whitepaper.
@@ -26,6 +28,7 @@ Made by roy-tong, an independent developer, under MIT.
 
 Young and shipping daily: 218 stars, 9 forks, 10 open issues, created 2026-08-16, pushed 2026-10-26 (the claims ledger accrued a delegation roll-up with new bill findings), with v0.6.0 (2026-10-11), v0.7.0 (2026-10-14, the claims index, SDK 0.2.0, and paid diagnosis), v0.7.1, v0.7.2, and v0.8.0 (2026-10-15) landing inside a week, as of 2026-10-26.
 On 2026-10-21 the project pivoted to entirely free and open source: the $10 and $20 paid diagnostics were retired, replaced by free human-run measurement runs (bring 20 to 100 sanitized rows, a check usually within 48 hours), the review method behind the runs was open-sourced under docs/review-method/, and the same week's commits added an AMSBench v0.2 benchmark (a 16-injector generator over 5,600 synthetic instances with a rule-engine baseline evaluation) and the first external conformance fixtures from outside providers.
+On 2026-10-30 the repository renamed from roy-tong/AgentMeasure to roy-tong/Verovo (the old URL redirects) and tagged v0.9.0, the rename release: the README now leads with buyer-side charge and delivery review over rules, usage and payment records, and delivery evidence, names business and engineering owners accountable for AI spending as its users with coding agents an initial application, and lists a Buyer Ledger of 26 catalog entries and launch case cards against named tools, while the coding-agent session checks moved to a "Developer diagnostics" row of its capability table, as of 2026-10-31 (10 forks, 9 open issues, pushed 2026-10-31).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=roy-tong/AgentMeasure&type=date&theme=dark&legend=top-left" />
@@ -48,7 +51,7 @@ The README states plainly that engineering evidence does not establish paid dema
 
 ## Cautions
 
-- The product's center of gravity is half outside this category: recounting Zendesk and Intercom support invoices has nothing to do with coding-agent sessions, and the session half covers only two harnesses against AgentTrace's thirteen.
+- The product's center of gravity has moved out of this category: the 2026-10-30 Verovo rename put buyer-side billing and delivery verification in the headline and demoted the coding-agent checks to a diagnostics lane, and the session half still covers only two harnesses against AgentTrace's thirteen.
 - The session audit is self-graded: the conformance pack, the claims index, and the fixtures all come from the same repository, and no audited project endorses the tool.
 - The free runs are still one person answering issue #6 and one inbox (first response within 24 hours, checks within 48 hours of a clean sample), so delivery depends on one volunteer, and the pivot left stale paid-service references inside the README and claims page.
 - A 2-point Show HN and no independent coverage mean the star curve, not scrutiny, carries the adoption story so far.
@@ -63,8 +66,8 @@ The $10 healthcheck diagnosis and $20 metering QA services were retired on 2026-
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
-| 2026-10-16 | Services | Baseline: free MIT CLI and public rules; $10 healthcheck diagnosis and $20 metering QA applied by email, checkout not yet online | https://roy-tong.github.io/AgentMeasure/services.html |
-| 2026-10-21 | Services | $10 healthcheck and $20 metering QA retired; the project became entirely free, with free human-run measurement runs in their place | https://roy-tong.github.io/AgentMeasure/services.html |
+| 2026-10-16 | Services | Baseline: free MIT CLI and public rules; $10 healthcheck diagnosis and $20 metering QA applied by email, checkout not yet online | https://roy-tong.github.io/Verovo/services.html (then published under the AgentMeasure name) |
+| 2026-10-21 | Services | $10 healthcheck and $20 metering QA retired; the project became entirely free, with free human-run measurement runs in their place | https://roy-tong.github.io/Verovo/services.html (then published under the AgentMeasure name) |
 
 ## Compared to
 
@@ -82,6 +85,7 @@ Not for multi-harness coverage, live observation, transcript search, or anyone w
 - 2026-10-16 - Created from the 2026-10-15 awesome-agent-observability additions, admitted on its evidence-discipline audit cell, the 110-tool audit with merged fixes in three category members, and eleven fetched sources.
 - 2026-10-23 - Rotation re-verification recorded the 2026-10-21 pricing pivot (the paid diagnostics retired for free measurement runs, an open-sourced review method, and the AMSBench benchmark and first external fixtures named in the Status), moved the Pricing and Price history to all-free, and re-fetched every cited URL.
 - 2026-10-28 - Recorded the 2026-10-26 push that the 2026-10-26 Status revision had carried without a bullet (the claims ledger's delegation roll-up with new bill findings), with repository state re-verified unchanged today: forks 9 and open issues 10, no release after v0.8.0, and nothing new pushed since 2026-10-26.
+- 2026-10-31 - Recorded the rename and pivot: the repository became roy-tong/Verovo on 2026-10-30 with v0.9.0 ("same measure, new name"), the product now leads with buyer-side charge and delivery review while the coding-agent session checks moved to a Developer diagnostics lane; the dead AgentMeasure Pages URLs were repointed to their Verovo locations, every cited URL re-fetched, and repository counts refreshed (forks 9 to 10, open issues 10 to 9, pushed 2026-10-31).
 
 ## See also
 
@@ -92,15 +96,15 @@ Not for multi-harness coverage, live observation, transcript search, or anyone w
 
 ## References
 
-- https://github.com/roy-tong/AgentMeasure - the repository, 218 stars and 9 forks as of 2026-10-16, MIT license, created 2026-08-16
-- https://raw.githubusercontent.com/roy-tong/AgentMeasure/main/README.md - the two halves, the task table, the paid services summary, and the customer-value disclaimer
-- https://roy-tong.github.io/AgentMeasure/services.html - the $10 and $20 service scopes, the email application flow, the refund terms, and the data boundary
-- https://roy-tong.github.io/AgentMeasure/claims.html - the claims index: the five verdict states, the vendor-rule scorecard, and the audit's named findings and clean passes
-- https://raw.githubusercontent.com/roy-tong/AgentMeasure/main/campaigns/audit-report-2026-09.md - the 110-tool audit, its five bug classes, the landed-fix list, and the methodology and honesty notes
-- https://raw.githubusercontent.com/roy-tong/AgentMeasure/main/docs/response-audit.md - the OBSERVED, CONFLICT, and INCOMPLETE verdicts, the ID hashing, and the no-adoption-claimed admission
-- https://pypi.org/pypi/agentmeasure/json - the CLI package, latest 0.8.0, MIT, Python 3.9 or newer, first upload 2026-09-18
-- https://registry.npmjs.org/@agentmeasure/mcp - the provider SDK package, latest 0.2.0, created 2026-10-10
-- https://api.github.com/repos/roy-tong/AgentMeasure/releases - v0.6.0 through v0.8.0 (2026-10-11 to 2026-10-15)
+- https://github.com/roy-tong/Verovo - the repository (renamed from roy-tong/AgentMeasure on 2026-10-30, the old URL redirecting), 218 stars and 9 forks as of 2026-10-16, MIT license, created 2026-08-16
+- https://raw.githubusercontent.com/roy-tong/Verovo/main/README.md - the two workflows after the rename, the capability table with Developer diagnostics as the coding-agent lane, the Buyer Ledger, and the customer-value disclaimer
+- https://roy-tong.github.io/Verovo/services.html - the free-run scopes, the email and issue application flow, and the 2026-10-21 retirement of the paid diagnostics (reached at the Verovo URL 2026-10-31 after the rename moved the pages)
+- https://roy-tong.github.io/Verovo/claims.html - the claims index: the five verdict states, the vendor-rule scorecard, and the audit's named findings and clean passes (repointed to the Verovo URL 2026-10-31)
+- https://raw.githubusercontent.com/roy-tong/Verovo/main/campaigns/audit-report-2026-09.md - the 110-tool audit, its five bug classes, the landed-fix list, and the methodology and honesty notes
+- https://raw.githubusercontent.com/roy-tong/Verovo/main/docs/response-audit.md - the OBSERVED, CONFLICT, and INCOMPLETE verdicts, the ID hashing, and the no-adoption-claimed admission
+- https://pypi.org/pypi/agentmeasure/json - the CLI package, latest 0.8.0, MIT, Python 3.9 or newer, first upload 2026-09-18 (still the newest PyPI publish after the 2026-10-30 rename; the verovo package did not exist yet, checked 2026-10-31)
+- https://registry.npmjs.org/@agentmeasure/mcp - the provider SDK package, latest 0.2.0, created 2026-10-10 (the renamed SDK publishes as @verovo/mcp 0.3.0 with v0.9.0)
+- https://api.github.com/repos/roy-tong/Verovo/releases - v0.9.0 (2026-10-30, the rename release: same measure, new name, SDK to 0.3.0), v0.8.0 through v0.6.0 (2026-10-11 to 2026-10-15)
 - https://hn.algolia.com/api/v1/search?query=AgentMeasure - the 2-point Show HN of 2026-09-19 behind the thin-footprint claim
 - https://github.com/getagentseal/codeburn/pull/1264 - the merged CodeBurn fix from the audit, grounding the category-member claim
 - https://github.com/junhoyeo/tokscale/issues/1306 - the Tokscale fork double-count finding, fixed the same day

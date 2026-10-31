@@ -1,7 +1,7 @@
 ---
 title: SkillMD
 created: 2026-10-05
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, registries, skill-verification]
 readability: 3
@@ -12,20 +12,20 @@ audience_notes: >
 
 SkillMD is an open skills registry at skillmd.com that indexes public SKILL.md files at scale and differentiates on published verification: per-skill lint verdicts, capability flags, and third-party scanner results (NVIDIA SkillSpector and Cisco AI Defense Skill Scanner) shown on each skill page, installable through its own MIT CLI, MCP server, Claude Code plugin marketplace, or GitHub Action.
 
-**The verification-first registry now operates at the scale where it competes with skills.sh, but its verified core is a rounding error of its index: 1,947 safety-reviewed skills out of about 1.13 million listed as of 2026-10-27, so the verdict badge is an aspiration, not a guarantee.**
+**The verification-first registry now operates at the scale where it competes with skills.sh, but its verified core is a rounding error of its index: 1,947 safety-reviewed skills out of about 1.13 million listed as of 2026-10-31, so the verdict badge is an aspiration, not a guarantee.**
 
 ## What it is
 
-The registry (skillmd.com) crawls and accepts SKILL.md files and reports 1,132,729 skills as of 2026-10-27, and its reviewed count moved for the first time in the two weeks I have watched it: 1,947 safety-reviewed, down one from the 1,948 held since at least 2026-10-13 (the hero stat labeled the figure "verified publishers" on 2026-10-20 and reads "safety-reviewed" again as of 2026-10-27).
-The toolchain (github.com/skillmds/skillmd, MIT) is what runs on your machine: a `skillmd` CLI (npm `skillmds`, v1.3.3, 2,017 downloads in the month to 2026-10-18, the API's current window), an MCP server (`npx -y skillmds`), a Claude Code plugin marketplace, and a GitHub Action, plus a JSON search API and OAuth-protected endpoints aimed at agents.
-The repo shipped its first release outside the CLI train on 2026-10-26, `core-v1.0.1` (@skillmds/core on npm, two versions), landing a slugify fix (names can no longer end in a hyphen after the 60-character cut) and a marketplace refresh (24 plugins).
+The registry (skillmd.com) crawls and accepts SKILL.md files and reports 1,132,737 skills as of 2026-10-31, and its reviewed count holds at 1,947 safety-reviewed after the one-step decline from the 1,948 held since at least 2026-10-13 (the hero stat labeled the figure "verified publishers" on 2026-10-20 and reads "safety-reviewed" again as of 2026-10-27), with the author count down at 30,538 from the 30,620 read on 2026-10-22.
+The toolchain (github.com/skillmds/skillmd, MIT) is what runs on your machine: a `skillmd` CLI (npm `skillmds`, v1.3.4, 2,017 downloads in the month to 2026-10-18, the API's current window), an MCP server (`npx -y skillmds`), a Claude Code plugin marketplace, and a GitHub Action, plus a JSON search API and OAuth-protected endpoints aimed at agents.
+The repo shipped its first release outside the CLI train on 2026-10-26, `core-v1.0.1` (@skillmds/core on npm, two versions), landing a slugify fix (names can no longer end in a hyphen after the 60-character cut) and a marketplace refresh (24 plugins), then crossed back to the CLI train with v1.3.4 on 2026-10-28 (a companion gone upstream no longer fails the install).
 Skills land in each detected agent's own directory (`.claude/skills/`, `.cursor/skills/`, `.agents/skills/`), and every listed skill is pinned to a commit.
 The maintainer also publishes the ecosystem's most self-critical data: their directory-landscape post estimates 83.4 percent of indexed skills declare no license and roughly 47 percent of public SKILL.md files are byte-identical copies of another file.
 
 ## Status
 
 **Active and growing, with a thin independent footprint.**
-The toolchain repo was created 2026-08-25 and shows 200 stars as of 2026-10-13 with 9 open issues, pushed 2026-10-26; the npm CLI has shipped 33 versions since 2026-06-29.
+The toolchain repo was created 2026-08-25 and shows 200 stars as of 2026-10-13 with 9 open issues, pushed 2026-10-28; the npm CLI has shipped 34 versions since 2026-06-29.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=skillmds/skillmd&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ My disagreeable claim: SkillMD's 1,948 reviewed skills matter more than either r
 - 2026-10-13 - The toolchain repo doubled again to 200 stars in two days, still orders of magnitude below any peer, while the index inched to 1,132,712 skills from 30,616 authors with the 1,948 reviewed count unchanged.
 - 2026-10-22 - The index inched to 1,132,721 skills from 30,620 authors with the 1,948 reviewed count unchanged; the hero label reads "safety-reviewed" again after the 2026-10-20 "verified publishers" reading, and the npm CLI re-verified at 1.3.3 with 2,017 downloads in the month to 2026-10-18.
 - 2026-10-27 - The reviewed count moved for the first time: 1,947 safety-reviewed (down one from the 1,948 held since at least 2026-10-13) against an index of 1,132,729; the repo shipped core-v1.0.1 (2026-10-26, @skillmds/core on npm with a slugify fix and a 24-plugin marketplace refresh), and the toolchain repo moved to 9 open issues, pushed 2026-10-26.
+- 2026-10-31 - The CLI train crossed back: v1.3.4 shipped 2026-10-28 (a companion gone upstream no longer fails the install), the npm package's 34th version; the index inched to 1,132,737 skills with the reviewed count holding at 1,947 and the author count down to 30,538 from 30,620.
 
 ## See also
 
@@ -90,13 +91,13 @@ My disagreeable claim: SkillMD's 1,948 reviewed skills matter more than either r
 
 ## References
 
-- https://skillmd.com/ - the registry surface: 1,132,729 skills, 1,947 safety-reviewed (the reviewed count, down one), API and MCP endpoints (fetched 2026-10-27)
-- https://github.com/skillmds/skillmd - the toolchain repo: MIT, 200 stars as of 2026-10-13, 9 open issues, created 2026-08-25, pushed 2026-10-26 (GitHub API, as of 2026-10-27)
-- https://api.github.com/repos/skillmds/skillmd/releases - the release train: core-v1.0.1 published 2026-10-26 (@skillmds/core@1.0.1), the CLI v1.3.3 (2026-09-19) still the newest CLI tag (fetched 2026-10-27)
+- https://skillmd.com/ - the registry surface: 1,132,737 skills, 1,947 safety-reviewed (held after the one-step decline), 30,538 authors, API and MCP endpoints (fetched 2026-10-31)
+- https://github.com/skillmds/skillmd - the toolchain repo: MIT, 200 stars as of 2026-10-13, 9 open issues, created 2026-08-25, pushed 2026-10-28 (GitHub API, as of 2026-10-31)
+- https://api.github.com/repos/skillmds/skillmd/releases - the release train: v1.3.4 published 2026-10-28 (the CLI train's newest tag), core-v1.0.1 published 2026-10-26 (@skillmds/core@1.0.1) (fetched 2026-10-31)
 - https://registry.npmjs.org/@skillmds/core - the new core package: 1.0.1 latest, two versions (fetched 2026-10-27)
 - https://raw.githubusercontent.com/skillmds/skillmd/main/README.md - CLI, MCP server, plugin marketplace, GitHub Action, per-agent install directories
 - https://skillmd.com/blog/agent-skills-directories-compared - the self-critical directory landscape post: 47 percent byte-identical duplication, 83.4 percent license gaps, counts-as-claims disclaimer (September 19, 2026, fetched 2026-10-05)
-- https://registry.npmjs.org/skillmds - CLI package: latest 1.3.3, 33 versions, created 2026-06-29 (fetched 2026-10-22)
+- https://registry.npmjs.org/skillmds - CLI package: latest 1.3.4, 34 versions, created 2026-06-29 (fetched 2026-10-31)
 - https://api.npmjs.org/downloads/point/last-month/skillmds - 2,017 downloads, window 2026-09-19 to 2026-10-18 (fetched 2026-10-22)
 - https://hn.algolia.com/api/v1/search?query=skillmd&tags=story - the footprint scan behind the missing-footprint statement (fetched 2026-10-05)
 - https://www.promptarmor.com/resources/anthropics-skill-scanner-defeated-by-backdoored-skills - the backdoored-skill bypass behind the scanner-verdict caution: skills that passed Anthropic's scanner by fetching payloads at runtime, and exfiltrated files in production (fetched 2026-10-07, re-verified live 2026-10-11)

@@ -1,7 +1,7 @@
 ---
 title: Claude Code Agent Monitor
 created: 2026-10-10
-updated: 2026-10-25
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, claude-code, codex, cursor, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by hoangsonww under MIT, listed under Session Monitors in the awesome-claud
 
 ## Status
 
-Young and active: 1,061 stars, 261 forks, created 2026-03-05, pushed 2026-10-23, latest release v2.4.5 on 2026-10-23 (a release-tooling version bump with no feature changes) after v2.4.4 on 2026-10-22 (patch releases that count events_today from local midnight and repair the release tooling), v2.4.0 on 2026-10-20, and v2.3.0 on 2026-10-10, as of 2026-10-25.
+Young and active: 1,061 stars, 261 forks, created 2026-03-05, pushed 2026-10-31 on side branches, latest release v2.4.5 on 2026-10-23 (a release-tooling version bump with no feature changes) after v2.4.4 on 2026-10-22 (patch releases that count events_today from local midnight and repair the release tooling), v2.4.0 on 2026-10-20, and v2.3.0 on 2026-10-10, as of 2026-10-31.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hoangsonww/Claude-Code-Agent-Monitor&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for minimal-footprint audit tooling (ccusage and AgentTrace stay far smaller
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched and live, no release after v2.3.0 with one outside-contributor fix merged unreleased on 2026-10-17 (a custom title equal to the folder name no longer overwritten), the one-point Hacker News footprint unchanged, and repository and contributor counts refreshed (forks 248 to 251, hoangsonww 962 to 963 commits).
 - 2026-10-21 - Recorded v2.4.0 (2026-10-20): the custom-title fix released, a remote-ingest endpoint accepting transcript uploads (POST /api/hooks/ingest-transcript), automated version-bump pull requests, and two first-time outside contributors (lasse-tech, houdinisparks); repository counts refreshed (forks 251 to 253), and the pushed date moved to 2026-10-20.
 - 2026-10-25 - Recorded v2.4.5 (2026-10-23), a release-tooling version bump with no feature changes; repository counts refreshed (forks 253 to 261) and the pushed date moved to 2026-10-23.
+- 2026-10-31 - Volatile re-verification: no release after v2.4.5 and no default-branch commit since 2026-10-25, the 2026-10-29 and 10-31 pushes landing on side branches; open issues refreshed to 50.
 
 ## See also
 

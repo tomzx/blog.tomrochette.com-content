@@ -1,7 +1,7 @@
 ---
 title: ccusage
 created: 2026-10-05
-updated: 2026-10-28
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The repository is a monorepo created by ryoppippi (the project moved from his pe
 ## Status
 
 **The most-installed tool in this category by an order of magnitude, and until today the only one this section had never profiled.**
-About 19k stars (19,001) and 892 forks as of 2026-10-28, created 2025-05-29, pushed 2026-10-28 (GitHub API).
+About 19k stars (19,001) and 901 forks as of 2026-10-31, created 2025-05-29, pushed 2026-10-31 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&theme=dark&legend=top-left" />
@@ -32,8 +32,8 @@ About 19k stars (19,001) and 892 forks as of 2026-10-28, created 2025-05-29, pus
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&legend=top-left" />
 </picture>
 
-The npm package pulled 870,201 downloads in the trailing month (2026-09-28 to 2026-10-27), roughly nine times the claude-mem plugin and far ahead of every session-analytics peer here.
-The release line is v20.x with rapid patches: v20.0.45 (2026-10-26, gpt-6.1-terra fast and flex multipliers plus Codex repeated first-response snapshots counted once) is the latest tagged release and the npm latest, after v20.0.44 (2026-10-24, a release-packaging fix that publishes the platform packages before the wrapper) and v20.0.43 (2026-10-24, source-specific config applied inside unified reports), as of 2026-10-28, with pricing-snapshot updates, a Rust refactor moving binary-only report helpers out of ccusage-core, and CI build-speed work landing unreleased since.
+The npm package pulled 897,533 downloads in the trailing month (2026-09-30 to 2026-10-29, seven zero days inside the window), roughly nine times the claude-mem plugin and far ahead of every session-analytics peer here.
+The release line is v20.x with rapid patches: v20.0.46 (2026-10-30, unreadable Antigravity conversation databases skipped and Codex Ultrafast requests priced at Ultrafast rates) is the latest tagged release and the npm latest, after v20.0.45 (2026-10-26, gpt-6.1-terra fast and flex multipliers plus Codex repeated first-response snapshots counted once) and v20.0.44 (2026-10-24, a release-packaging fix that publishes the platform packages before the wrapper), as of 2026-10-31, with 901 forks and pricing-snapshot updates landing since.
 Its Show HN launch thread reached 75 points in July 2025, and the README carries an Awesome Claude Code mention badge.
 
 ## Strengths
@@ -78,6 +78,7 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 - 2026-10-21 - Recorded v20.0.37 (2026-10-19): requestless resp_ content blocks in Claude transcripts counted once; npm latest moved to 20.0.37, the trailing-month downloads refreshed (869,690 to 870,995, window 2026-09-19 to 2026-10-18), and the pushed date moved to 2026-10-20.
 - 2026-10-25 - Recorded v20.0.42 through v20.0.44 (2026-10-23 and 10-24): source-specific config now applied inside unified reports, plus a release-packaging fix that publishes the platform packages before the wrapper; npm latest moved to 20.0.44, trailing-month downloads refreshed (870,995 to 826,577, window 2026-09-23 to 2026-10-22), and the pushed date moved to 2026-10-25.
 - 2026-10-28 - Recorded v20.0.45 (2026-10-26): gpt-6.1-terra fast and flex multipliers plus Codex repeated first-response snapshots counted once; npm latest moved to 20.0.45, trailing-month downloads refreshed (826,577 to 870,201, window 2026-09-28 to 2026-10-27), forks refreshed 889 to 892, and the pushed date moved to 2026-10-28.
+- 2026-10-31 - Recorded v20.0.46 (2026-10-30): unreadable Antigravity conversation databases skipped and Codex Ultrafast requests priced at Ultrafast rates; npm latest moved to 20.0.46, trailing-month downloads refreshed (870,201 to 897,533, window 2026-09-30 to 2026-10-29 with seven zero days inside), forks refreshed 892 to 901, and the pushed date moved to 2026-10-31.
 
 ## See also
 
@@ -92,8 +93,8 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 - https://github.com/ccusage/ccusage - repository, 18.9k stars and 864 forks as of 2026-10-05, created 2025-05-29, the ryoppippi origin and ccusage-org move (the ryoppippi/ccusage URL redirects here)
 - https://raw.githubusercontent.com/ccusage/ccusage/main/apps/ccusage/README.md - the eighteen-source table, report types, blocks and statusline features, offline mode, and pricing overrides
 - https://raw.githubusercontent.com/ccusage/ccusage/main/apps/ccusage/LICENSE - the MIT license text, copyright ryoppippi
-- https://api.npmjs.org/downloads/range/2026-09-28:2026-10-27/ccusage - 870,201 trailing-month downloads, fetched 2026-10-28 via the dated-range endpoint per the npm-window ruling
-- https://registry.npmjs.org/ccusage - npm latest 20.0.45, matching the v20.0.45 GitHub tag (re-verified 2026-10-28)
-- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.45 (2026-10-26), v20.0.44 and v20.0.43 (2026-10-24), v20.0.42 (2026-10-23), and v20.0.41 (2026-10-22) release dates (re-fetched 2026-10-28)
+- https://api.npmjs.org/downloads/range/2026-09-30:2026-10-29/ccusage - 897,533 trailing-month downloads (seven zero days inside the window), fetched 2026-10-31 via the dated-range endpoint per the npm-window ruling
+- https://registry.npmjs.org/ccusage - npm latest 20.0.46, matching the v20.0.46 GitHub tag (re-verified 2026-10-31)
+- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.46 (2026-10-30), v20.0.45 (2026-10-26), v20.0.44 and v20.0.43 (2026-10-24), v20.0.42 (2026-10-23), and v20.0.41 (2026-10-22) release dates (re-fetched 2026-10-31)
 - https://news.ycombinator.com/item?id=44610925 - the 75-point launch thread (2025-07-18), carrying the npx-security critique and the estimate-versus-bill debates
 - https://ccusage.com - the docs site, a client-rendered VitePress shell this run, with the title and description verified in the served HTML

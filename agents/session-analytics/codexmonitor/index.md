@@ -1,7 +1,7 @@
 ---
 title: CodexMonitor
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, codex, desktop]
 readability: 3
@@ -24,7 +24,7 @@ Made by Thomas Ricouard (Dimillian), an independent developer, under MIT; the si
 
 ## Status
 
-Dormant: 4,348 stars, 415 forks, 94 open issues, created 2026-01-11, last commit 2026-03-26, latest release v0.7.64 on 2026-03-22 (a 0.7.68 version bump landed in the repository three days later and was never released), as of 2026-10-23.
+Dormant: 4,348 stars, 417 forks, 94 open issues, created 2026-01-11, last commit 2026-03-26, latest release v0.7.67 on 2026-03-24 (a 0.7.68 version bump landed in the repository the same day and was never released), as of 2026-10-31.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Dimillian/CodexMonitor&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ When OpenAI's own Codex desktop app appeared, Hacker News commenters called the 
 
 ## Cautions
 
-- Seven months dormant as of 2026-10-23, while the Codex CLI and the app-server protocol it drives keep moving, so expect drift between the app and the harness.
+- Seven months dormant as of 2026-10-31, while the Codex CLI and the app-server protocol it drives keep moving, so expect drift between the app and the harness.
 - OpenAI's desktop app now covers the same ground with vendor support, which weakens the case for adopting an unmaintained alternative.
 - iOS support is unfinished (terminal and dictation unavailable on mobile builds), and building from source needs a Rust toolchain plus CMake and, on Windows, LLVM.
 - It meters the account but does not analyze history: no transcript search, no cross-session archive, and no cost reports over past sessions.
@@ -69,6 +69,7 @@ Its dormancy is the data point: vendor surfaces absorb third-party command cente
 ## Changes
 
 - 2026-10-23 - Created from the coordinator's entrant handoff, admitted as the category's first dormant member, the monitor kind beside ccusage and tokscale, with the official-app comparison from its Hacker News thread recorded.
+- 2026-10-31 - Rotation re-verification: every cited URL re-fetched and live, and the Status corrected: the release line runs through v0.7.67 (2026-03-24), not v0.7.64 (2026-03-22) as recorded since creation, with the never-released 0.7.68 version bump landing the same day as v0.7.67 rather than three days later; dormancy unchanged (last commit 2026-03-26, the near-twin HN thread and beta disclaimer unchanged), and forks refreshed 415 to 417.
 
 ## See also
 
@@ -79,9 +80,9 @@ Its dormancy is the data point: vendor surfaces absorb third-party command cente
 
 ## References
 
-- https://api.github.com/repos/dimillian/codexmonitor - the repository, 4,348 stars, MIT, created 2026-01-11, last pushed 2026-03-26 (as of 2026-10-23)
+- https://api.github.com/repos/dimillian/codexmonitor - the repository, 4,348 stars, MIT, created 2026-01-11, last pushed 2026-03-26 (as of 2026-10-31)
 - https://raw.githubusercontent.com/Dimillian/CodexMonitor/main/README.md - the feature set: workspaces, threads, composer, git and GitHub panels, daemon and iOS paths
 - https://www.codexmonitor.app - the positioning ("monitor your Codex situation"), the testimonials, and the beta disclaimer
-- https://api.github.com/repos/Dimillian/CodexMonitor/releases - the release line through v0.7.64 (2026-03-22), the signed installers, and the updater feed
-- https://api.github.com/repos/Dimillian/CodexMonitor/commits?per_page=5 - the last commits, ending 2026-03-26
-- https://news.ycombinator.com/item?id=46859808 - the thread calling CodexMonitor and the official Codex app near-indistinguishable twins
+- https://api.github.com/repos/Dimillian/CodexMonitor/releases - the release line through v0.7.67 (2026-03-24), the signed installers, and the updater feed (re-fetched 2026-10-31)
+- https://api.github.com/repos/Dimillian/CodexMonitor/commits?per_page=5 - the last commits, ending 2026-03-26 (re-fetched 2026-10-31)
+- https://news.ycombinator.com/item?id=46859808 - the thread calling CodexMonitor and the official Codex app near-indistinguishable twins (re-fetched live 2026-10-31)

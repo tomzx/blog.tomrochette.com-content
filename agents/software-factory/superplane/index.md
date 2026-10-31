@@ -1,7 +1,7 @@
 ---
 title: SuperPlane
 created: 2026-10-07
-updated: 2026-10-28
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The core is Apache-2.0 with integrations across source control, CI, cloud, obser
 
 ## Status
 
-Active and the category's largest member: 7,709 stars as of 2026-10-14, 660 forks and 463 open issues as of 2026-10-21, pushed 2026-10-28, per the GitHub API.
+Active and the category's largest member: 7,709 stars as of 2026-10-14, 660 forks and 463 open issues as of 2026-10-21, pushed 2026-10-30, per the GitHub API.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&theme=dark&legend=top-left" />
@@ -42,7 +42,7 @@ The repository now carries the software-factory topic and the website and docs s
 
 ## Cautions
 
-- **v1.0.0 is a day old**: the first stable platform tag landed 2026-10-27 against daily main pushes, so the gap from v0.30.0 (2026-07-27) means tag-tracking self-hosters jump three months of main at once, and the stable train's own track record is one release; the component train holds at runner v0.2.1 and fleet-manager v0.1.6.
+- **v1.0.0 is days old**: the first stable platform tag landed 2026-10-27 against daily main pushes, so the gap from v0.30.0 (2026-07-27) means tag-tracking self-hosters jump three months of main at once, and the stable train's own track record is one release; the component train holds at runner v0.2.1 and fleet-manager v0.1.7.
 - **Open-core split**: the /ee directory sits under a separate Enterprise Edition license, and GitHub cannot classify the result.
 - **Young platform surface**: 463 open issues and a January control-plane-to-factory pivot mean the docs story is still settling.
 - **It is broader than a factory**: workflow automation across observability and incidents puts it in workflow-platform territory too, which dilutes the factory comparison.
@@ -81,6 +81,7 @@ Not for local-first, single-repo loops, and not for anyone who needs a stable re
 - 2026-10-23 - Recorded the RC train advancing to v1.0.0-rc4 (2026-10-22) and v1.0.0-rc5 (2026-10-23) and the component tags moving to runner v0.2.1 (2026-10-23) and fleet-manager v0.1.5 (2026-10-22); v0.30.0 remains the newest stable platform tag; pushed date refreshed.
 - 2026-10-25 - Recorded the RC train advancing to v1.0.0-rc6 (2026-10-23) and v1.0.0-rc7 (2026-10-24) and fleet-manager reaching v0.1.6 (2026-10-24); v0.30.0 remains the newest stable platform tag; pushed date refreshed.
 - 2026-10-28 - Recorded the v1.0.0 stable release (2026-10-27, the first stable platform tag, after rc8 and rc9 the same morning closed the rc1-through-rc9 train) and its Backlog-Implement-Verify-Done framing from the release notes, ending the stable-tags-lag-main caution; pushed date refreshed.
+- 2026-10-31 - Recorded fleet-manager v0.1.7 (2026-10-28, a container image and chart digest bump with no feature notes) advancing the component train; pushed date refreshed.
 
 ## See also
 
@@ -97,5 +98,5 @@ Not for local-first, single-repo loops, and not for anyone who needs a stable re
 - https://docs.superplane.com/get-started/overview - the factory docs overview
 - https://github.com/superplanehq/superplane/blob/main/LICENSE - Apache-2.0 core with the /ee Enterprise Edition license
 - https://news.ycombinator.com/item?id=46793814 - the January 2026 Show HN as an open source DevOps control plane, 21 points
-- https://api.github.com/repos/superplanehq/superplane/releases - the release train: v1.0.0 (2026-10-27) the first stable platform tag and newest release, after the rc1-through-rc9 train and the v0.30.0 July tag (as of 2026-10-28)
+- https://api.github.com/repos/superplanehq/superplane/releases - the release train: v1.0.0 (2026-10-27) the first stable platform tag, fleet-manager v0.1.7 (2026-10-28) the newest component tag, after the rc1-through-rc9 train and the v0.30.0 July tag (as of 2026-10-31)
 - https://github.com/markoa - Marko Anastasov, SuperPlaneHQ and Semaphore cofounder
