@@ -1,7 +1,7 @@
 ---
 title: PIC Standard
 created: 2026-10-11
-updated: 2026-10-26
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, agent-security, verification, provenance, open-standard]
 readability: 3
@@ -27,7 +27,7 @@ The author positions it against identity and delegation work explicitly: PIC dec
 ## Status
 
 **Pre-1.0, actively hardened, with the thinnest adoption footprint of any protocol in this category.**
-69 stars (2026-10-13), 47 forks, and 19 open issues and pull requests, created 2026-01-08, pushed 2026-10-21, as of 2026-10-22 (GitHub API).
+69 stars (2026-10-13), 47 forks, and 20 open issues and pull requests, created 2026-01-08, pushed 2026-10-28, as of 2026-10-31 (GitHub API).
 PyPI shows v0.9.1 (uploaded 2026-10-14); pypistats still serves 697 downloads in the month ending 2026-10-10, its newest window as of 2026-10-16.
 The public thread count is one: a Show HN at 1 point (2026-01-13).
 Depth signals offset the reach signals: an independent public-material-only stress test of v0.8.3 by HERMETICUM B.C.E. S.r.l. is recorded with its findings adapted into attributed conformance vectors, external contributors landed conformance vectors and Windows CI, and the project publicly calls for co-maintainers.
@@ -76,6 +76,7 @@ My disagreeable claim: this is the protocol layer agent security actually needs,
 - 2026-10-22 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the spec train re-confirmed at v0.9.1 with the RFC anchor, the frozen canonicalization spec, and the 91-vector corpus unchanged, PyPI still at 0.9.1 with 697 monthly downloads, and the footprint still the single 1-point Show HN; the repository refreshed (pushed 2026-10-21, 47 forks, 19 open issues).
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light-theme source carried the dark-theme parameter; it now points at the default chart, matching the 2026-10-25 fallback fix).
+- 2026-10-31 - Re-verification: the spec train re-confirmed at v0.9.1 (PyPI unchanged, 697 monthly downloads standing as its newest window), with the repository pushed 2026-10-28 on a bounded refund sandbox verifier example contributed externally (issue 198) and 20 open issues.
 
 ## See also
 

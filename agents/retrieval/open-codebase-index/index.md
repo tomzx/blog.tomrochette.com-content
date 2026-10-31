@@ -1,7 +1,7 @@
 ---
 title: open-codebase-index
 created: 2026-10-05
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, rag, embeddings, mcp]
 readability: 3
@@ -24,7 +24,7 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
 ## Status
 
 **Active and shipping constantly, with almost no community footprint.**
-221 stars and 38 forks as of 2026-10-13, pushed 2026-10-26 (GitHub API, as of 2026-10-27).
+221 stars and 38 forks as of 2026-10-13, pushed 2026-10-30 (GitHub API, as of 2026-10-31).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&legend=top-left" />
 </picture>
 
-npm shows 38 versions since 2026-07-30, latest 0.38.2 published 2026-10-26, and 5,365 downloads in the trailing month to 2026-10-27 (ten zero days inside the window, so the level reads approximate), down from 5,662 to 2026-10-22, 6,785 to 2026-10-18, and 7,613 to 2026-10-12, a third consecutive decline in this note's tracking.
+npm shows 38 versions since 2026-07-30, latest 0.38.2 published 2026-10-26, and 5,569 downloads in the trailing month to 2026-10-30 (nine zero days inside the window, so the level reads approximate), against 5,365 to 2026-10-27, 5,662 to 2026-10-22, 6,785 to 2026-10-18, and 7,613 to 2026-10-12, so the three-month decline pauses roughly flat in this note's tracking.
 A search for its name on Hacker News returned zero hits as of 2026-10-11, so like graft and Knowhere in this section, adoption is quiet and distribution runs from README to install, not from launches.
 
 ## Strengths
@@ -64,7 +64,7 @@ The only costs are your embedding bill (cloud API tokens or local compute) and t
 
 **Recommended for OpenCode, Pi, or MCP-client users who want semantic search without trusting a vendor index, and who will pin a version and read the tools matrix first.**
 Not for anyone needing proven retrieval quality, because nothing independent validates it yet.
-My disagreeable claim: a 5,400-installs-a-month npm package with zero discussion is a better adoption signal than a trending repository, because installs mean someone wired it into their agent and kept it.
+My disagreeable claim: a 5,600-installs-a-month npm package with zero discussion is a better adoption signal than a trending repository, because installs mean someone wired it into their agent and kept it.
 
 ## Changes
 
@@ -79,6 +79,7 @@ My disagreeable claim: a 5,400-installs-a-month npm package with zero discussion
 - 2026-10-24 - Recorded the npm train moving to 0.38.0 (2026-10-23, 36 versions total), refreshed the repository activity (pushed 2026-10-23), and recorded the trailing-month download trend falling again (7,613 to 2026-10-12, 6,785 to 2026-10-18, now 5,662 to 2026-10-22), with the Cautions churn line and the Bottom-line install figure aligned.
 - 2026-10-26 - Recorded the npm train reaching 0.38.1 (2026-10-25, 37 versions total) and refreshed the repository activity (pushed 2026-10-26); trailing-month downloads unchanged.
 - 2026-10-27 - Recorded the npm train reaching 0.38.2 (2026-10-26, 38 versions total) and the trailing-month install trend falling again (5,662 to 2026-10-22, now 5,365 to 2026-10-27, ten zero days inside the window), a third consecutive decline, with the Bottom-line install figure aligned; the repository push date is unchanged at 2026-10-26.
+- 2026-10-31 - Refreshed the repository activity (pushed 2026-10-30) and re-read the trailing-month installs at 5,569 to 2026-10-30 (nine zero days), roughly flat against the prior 5,365 reading, pausing the three-decline string; PyPI/npm latest remains 0.38.2.
 
 ## See also
 
@@ -89,9 +90,9 @@ My disagreeable claim: a 5,400-installs-a-month npm package with zero discussion
 
 ## References
 
-- https://github.com/Helweg/open-codebase-index - repository: 221 stars (as of 2026-10-13), 38 forks, MIT, created 2026-01-13, pushed 2026-10-26 (GitHub API, as of 2026-10-27)
+- https://github.com/Helweg/open-codebase-index - repository: 221 stars (as of 2026-10-13), 38 forks, MIT, created 2026-01-13, pushed 2026-10-30 (GitHub API, as of 2026-10-31)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/README.md - hosts, highlights, pipeline, embedding providers, legacy package aliases (fetched 2026-10-05, re-verified unchanged 2026-10-11)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/docs/tools.md - the host surface matrix: 16 portable tools, 3 knowledge-base tools, 5 MCP prompts (fetched 2026-10-05)
-- https://registry.npmjs.org/open-codebase-index - latest 0.38.2 published 2026-10-26, 38 versions since 2026-07-30 (fetched 2026-10-27)
-- https://api.npmjs.org/downloads/range/2026-09-28:2026-10-27/open-codebase-index - 5,365 downloads across the window, ten zero days inside it (fetched 2026-10-27; npm's last-month point endpoint was serving a stale June-July window for every package queried this run, so the figure comes from the explicit range call)
+- https://registry.npmjs.org/open-codebase-index - latest 0.38.2 published 2026-10-26, 38 versions since 2026-07-30 (fetched 2026-10-31)
+- https://api.npmjs.org/downloads/range/2026-10-01:2026-10-30/open-codebase-index - 5,569 downloads across the window, nine zero days inside it (fetched 2026-10-31; npm's point endpoints can serve stale windows, so the figure comes from the explicit range call)
 - https://hn.algolia.com/api/v1/search?query=%22open-codebase-index%22&tags=story - the zero-hit footprint scan (fetched 2026-10-05, re-verified zero hits 2026-10-11)

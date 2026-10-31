@@ -1,7 +1,7 @@
 ---
 title: Agent Client Protocol (ACP)
 created: 2026-08-24
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, editor-integration]
 readability: 3
@@ -20,7 +20,7 @@ ACP is an open protocol that standardizes communication between code editors and
 Agents run as editor subprocesses speaking JSON-RPC over stdio, with message types for the coding UX that matters (session lifecycle, permission requests, diffs).
 The protocol reuses MCP's JSON representations where it can and keeps user-readable text in Markdown.
 **Zed originated it, JetBrains co-developed it after merging its own internal Junie protocol effort, and the repository now lives under the vendor-neutral `agentclientprotocol` organization, Apache-2.0.**
-The current stable protocol version is 1, with a v2 draft and a migration guide already published, and official Kotlin, Java, Python, Rust, and TypeScript SDKs: both flagship SDKs crossed 1.0.0 in June 2026 and have kept moving, with the Rust crate at 3.5.0 (2026-10-22) and the TypeScript package at 2.0.2 (2026-10-23) as of 2026-10-24.
+The current stable protocol version is 1, with a v2 draft and a migration guide already published, and official Kotlin, Java, Python, Rust, and TypeScript SDKs: both flagship SDKs crossed 1.0.0 in June 2026 and have kept moving, with the Rust crate at 3.6.0 (2026-10-28) and the TypeScript package at 2.2.0 (2026-10-30) as of 2026-10-31.
 
 ## Status
 
@@ -33,7 +33,7 @@ The repository shows about 4.4k stars as of 2026-10-13, with roughly 2,400 commi
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentclientprotocol/agent-client-protocol&type=date&legend=top-left" />
 </picture>
 
-The official agents list has grown to 48 entries (re-counted 2026-10-27) and now includes Codex CLI (via the protocol project's adapter), the Claude agent (via Zed's SDK adapter), Gemini CLI, Cursor, OpenCode, Goose, Junie, Kiro CLI, Factory Droid, Cline, Kimi CLI, Qwen Code, and GitHub Copilot in public preview since 2026-01-28.
+The official agents list has grown to 49 entries (re-counted 2026-10-31) and now includes Codex CLI (via the protocol project's adapter), the Claude agent (via Zed's SDK adapter), Gemini CLI, Cursor, OpenCode, Goose, Junie, Kiro CLI, Factory Droid, Cline, Kimi CLI, Qwen Code, and GitHub Copilot in public preview since 2026-01-28.
 Clients include Zed, JetBrains IDEs (beta in the 25.3 release candidates, December 2025), Neovim and Emacs plugins, VS Code extensions, and Devin Desktop.
 In this index, [OpenCode](../../harnesses/opencode/index.md) ships `opencode acp`, and [JetBrains](../../surfaces/jetbrains/index.md), [Zed](../../surfaces/zed/index.md), [Junie](../../harnesses/junie/index.md), and [Windsurf's Devin Desktop](../../surfaces/windsurf/index.md) all host agents through it.
 Remote, cloud-hosted agents are explicitly still work in progress.
@@ -84,6 +84,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 - 2026-10-24 - The SDK train moved on without breaking changes, the Rust crate to 3.5.0 (2026-10-22) and the TypeScript package to 2.0.1 (2026-10-22) then 2.0.2 (2026-10-23), both bug-fix releases after the breaking 2.0.0, while the stable protocol stays at version 1 with the v2 draft open; agents list re-counted at 46 as of 2026-10-24.
 - 2026-10-25 - The repository pushed 2026-10-25 with the v2 draft's RFD docs moving subagents, system prompt, and MCP-over-ACP to active, while the SDK train stays at Rust 3.5.0 (2026-10-22) and TypeScript 2.0.2 (2026-10-23); agents list re-counted at 46, and the stable protocol stays at version 1 with the v2 draft open.
 - 2026-10-27 - The repository pushed 2026-10-26/27 with the v2 unstable train continuing in the schema docs (unknown-variant receiver behavior, exactly one elicitation scope, null request IDs disallowed, a type discriminator on available commands) and no new schema release tag, while the SDK train stays at Rust 3.5.0 and TypeScript 2.0.2; agents list re-counted at 48 (registry additions include Oleafly and Open Walnut on the clients side and a2acode among connectors), and the stable protocol stays at version 1 with the v2 draft open.
+- 2026-10-31 - The trains moved on without a protocol change: the stable train to v1.13.0 with schema-v1.27.0 (2026-10-27) and v1.14.0 with schema-v1.28.0 plus the v2 alpha train's schema-v2.0.0-alpha.11 (2026-10-30), the Rust crate to 3.6.0 (2026-10-28) and the TypeScript package to 2.2.0 (2026-10-30), and the agents list re-counted at 49; the stable protocol stays at version 1 with the v2 draft open.
 
 ## See also
 
@@ -96,12 +97,12 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 ## References
 
 - https://agentclientprotocol.com - official introduction: stdio model, MCP type reuse, protocol version 1
-- https://agentclientprotocol.com/get-started/agents - the agent list (48 entries: Codex CLI, Claude agent, Gemini CLI, Cursor, OpenCode, Copilot preview; re-counted 2026-10-27)
+- https://agentclientprotocol.com/get-started/agents - the agent list (49 entries: Codex CLI, Claude agent, Gemini CLI, Cursor, OpenCode, Copilot preview; re-counted 2026-10-31)
 - https://agentclientprotocol.com/overview/clients - the client list (Zed, JetBrains, Neovim, Emacs, VS Code, Devin Desktop)
 - https://github.com/agentclientprotocol/agent-client-protocol - Apache-2.0 repository, SDKs, stars as of 2026-10-13
 - https://agentclientprotocol.com/announcements/sdk-1-0-releases - the Rust and TypeScript SDKs at 1.0.0 (June 2026), fetched via the site's markdown mirror
-- https://crates.io/api/v1/crates/agent-client-protocol - the Rust SDK: latest 3.5.0, published 2026-10-22, as of 2026-10-24
-- https://registry.npmjs.org/@agentclientprotocol/sdk - the TypeScript SDK: latest 2.0.2, published 2026-10-23, as of 2026-10-24
+- https://crates.io/api/v1/crates/agent-client-protocol - the Rust SDK: latest 3.6.0, published 2026-10-28, as of 2026-10-31
+- https://registry.npmjs.org/@agentclientprotocol/sdk - the TypeScript SDK: latest 2.2.0, published 2026-10-30, as of 2026-10-31
 - https://raw.githubusercontent.com/agentclientprotocol/typescript-sdk/main/CHANGELOG.md - the TypeScript SDK 2.0.0 changelog: the removed connection classes, the stable-bindings default, and the unchanged v1 default protocol (fetched 2026-10-20)
 - https://blog.jetbrains.com/ai/2025/12/bring-your-own-ai-agent-to-jetbrains-ides/ - co-creation story, 25.3 beta, the UX trade-off admission
 - https://news.ycombinator.com/item?id=45074147 - launch thread criticism (LSP and MCP comparisons, protocol proliferation, name collision)

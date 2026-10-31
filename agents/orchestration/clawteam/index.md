@@ -1,7 +1,7 @@
 ---
 title: ClawTeam
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, swarms, worktrees, tmux, python]
 readability: 3
@@ -27,7 +27,7 @@ TOML templates ship prebuilt teams, and the tool drives any CLI agent, with Clau
 
 Dormant with scale: 5,540 stars, 762 forks, 23 contributors, and 33 open issues and pull requests on a repository created 2026-03-17, last pushed 2026-05-09 (GitHub API, as of 2026-10-23).
 The release train lived five days: v0.1.2 on 2026-03-18 and v0.2.0 on 2026-03-23, with nothing since (GitHub releases), PyPI still serving the alpha-classified 0.2.0, and the README news log stopping in March 2026.
-The lab's agent attention demonstrably moved on: HKUDS's DeepCode holds 16.7k stars with a push on 2026-10-22 and RAG-Anything 24k (GitHub org search, as of 2026-10-23).
+The lab's agent attention demonstrably moved on: HKUDS's DeepCode pushed 2026-10-31 and RAG-Anything stays active on its own line (GitHub org search, as of 2026-10-31).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/ClawTeam&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for production use, and not for anyone needing a maintained tool, because no
 ## Changes
 
 - 2026-10-23 - Created after the coordinator handoff flagged the unmatched repository at 5.5k stars, resolving the prior scan's dormant-since-May record in favor of admission on scale and provenance.
+- 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live (repository, README, releases, PyPI, roadmap, lab profile, results repo); dormancy and the March release train stand, the exact-phrase HN search still returns no story for the project, and the lab-attention sentence now cites DeepCode's 2026-10-31 push.
 
 ## See also
 
@@ -86,7 +87,7 @@ Not for production use, and not for anyone needing a maintained tool, because no
 - https://api.github.com/repos/HKUDS/ClawTeam/releases - the v0.1.2 and v0.2.0 release train and dates
 - https://pypi.org/pypi/clawteam/json - the PyPI distribution, alpha classifier, and Python floors
 - https://raw.githubusercontent.com/HKUDS/ClawTeam/main/ROADMAP.md - the unshipped v0.3 transport-abstraction and multi-user roadmap
-- https://api.github.com/search/repositories?q=org:HKUDS+sort:pushed - the org listing grounding DeepCode's and RAG-Anything's live counts
+- https://api.github.com/search/repositories?q=org:HKUDS+sort:pushed - the org listing grounding the lab's live activity, DeepCode's 2026-10-31 push among it
 - https://raw.githubusercontent.com/HKUDS/.github/main/profile/README.md - the HKUDS lab profile and its community channels
 - https://api.github.com/repos/novix-science/autoresearch - the published results repo behind the autoresearch demo
 - https://hn.algolia.com/api/v1/search?query=ClawTeam&tags=story - the HN search returning no story for the project, the absence evidence (2026-10-23)

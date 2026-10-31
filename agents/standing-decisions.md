@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-10-30
+updated: 2026-10-31
 status: finished
 tags: [agents]
 readability: 0
@@ -105,6 +105,7 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-28 | cross-category | the six broad sources' back catalogs are fully walked and carry-over-on-commit-history gaps are closed | 950 never-matched entries resolved in one pass: 93 dead links, the rest on standing families; the largest new records read onto open questions (andrej-karpathy-skills 225.6k content, archify 90.6k single skill, learn-claude-code 79.4k content, claude-hud 28.9k tail, claude-obsidian 15.9k memory-kind handoff)
 - 2026-10-28 | cross-category | same-kind multi-agent frameworks below the admitted tier's adoption stay out while the tier question is open | swarms 7.3k, agency-swarm 4.6k, langroid 4.1k rejected on it; ChatDev 34.6k (active 2.0) handed to orchestration as the one scale-and-activity exception
 - 2026-10-28 | cross-category | the Ralph-loop cluster is wrapper tooling on the claude-code member, ecosystem-evidence kind | ralph-claude-code 9.7k is the head; pattern writeups are content under the 2026-10-22 ruling
+- 2026-10-31 | cross-category | HN Algolia search citations need the query re-checked at re-fetch, because loose query strings silently stop matching while the cited threads still exist | the bernstein reference (query=bernstein.run&tags=story) returned zero hits while query=bernstein&tags=show_hn returned the cited 1-point Show HN; the claim stood, the URL no longer grounded it
 
 - 2026-10-28 | evaluation-review | InternScience/ResearchClawBench admitted as the raw-data re-discovery benchmark beside MLR-Bench; the automated-research handoff resolved on the citation bar as a single entrant | MIT code and dataset, arXiv v5, human-reproduced rubrics, seven-plus external leaderboard teams; the unvalidated judge and zero HN footprint ride the note; q#85 stays open
 

@@ -1,7 +1,7 @@
 ---
 title: dmux
 created: 2026-08-24
-updated: 2026-10-18
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, terminal, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Extras include lifecycle hooks (worktree create, pre-merge, post-merge), macOS n
 ## Status
 
 Quiet and on the watch list.
-The repository was created 2025-08-20, was last pushed 2026-08-16, fifty-one days before this check, and shows 747 commits, about 1,794 stars, and 138 forks as of 2026-10-06.
+The repository was created 2025-08-20, was last pushed 2026-08-16, seventy-six days before this check, and shows 747 commits, about 1,794 stars, and 138 forks as of 2026-10-06.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=standardagents/dmux&type=date&theme=dark&legend=top-left" />
@@ -34,8 +34,8 @@ The repository was created 2025-08-20, was last pushed 2026-08-16, fifty-one day
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=standardagents/dmux&type=date&legend=top-left" />
 </picture>
 
-npm recorded 1,149 downloads in the month ending 2026-10-18, continuing the slight uptick against the silent repo.
-**Fifty-one days without a push moves dmux from active to the watch list: the npm trickle says people still install it, but its own historical cadence (747 commits in roughly one year) makes a fifty-one-day gap stand out, and the next move to watch is either a release or an abandonment notice.**
+npm recorded 970 downloads in the month ending 2026-10-29, easing from the 1,149 of the month ending 2026-10-18 against the silent repo.
+**Seventy-six days without a push keeps dmux on the watch list, and the installs eased over the same window: its own historical cadence (747 commits in roughly one year) makes the gap stand out more with every quiet week, and the next move to watch is either a release or an abandonment notice.**
 Community discussion is thin: the August 2025 launch thread got 3 points and the February 2026 thread got 9 points with zero comments on Hacker News.
 That gap between repo activity and discussion footprint is the main signal to watch.
 
@@ -76,6 +76,7 @@ My disagreeable claim: multi-agent fan-out is mostly a gimmick, and dmux's genui
 - 2026-10-06 - Status moved from active to the watch list: the default branch has been quiet for fifty-one days (last push 2026-08-16), a stand-out gap against the project's own cadence, while npm installs ticked up to 1,124 for the month ending 2026-10-04.
 - 2026-10-07 - Added the standardagents/dmux star history chart to the Status section.
 - 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository still quiet since 2026-08-16, site, the 9-point February thread, npm at 1,149 downloads for the month ending 2026-10-18); watch-list status stands.
+- 2026-10-31 - Re-verified in rotation: all cited sources re-fetched and live; the quiet stretch reached seventy-six days and npm installs eased to 970 for the month ending 2026-10-29, so the watch-list status stands with a weaker trickle.
 
 ## See also
 
@@ -90,4 +91,4 @@ My disagreeable claim: multi-agent fan-out is mostly a gimmick, and dmux's genui
 - https://api.github.com/repos/standardagents/dmux - stars, commits, push dates, MIT license
 - https://dmux.ai - official site, authors, license and sponsorship credit
 - https://news.ycombinator.com/item?id=47075312 - February 2026 thread (9 points) showing the small discussion footprint
-- https://api.npmjs.org/downloads/point/last-month/dmux - 1,124 downloads in the month ending 2026-10-04
+- https://api.npmjs.org/downloads/point/last-month/dmux - 970 downloads in the month ending 2026-10-29

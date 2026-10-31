@@ -1,7 +1,7 @@
 ---
 title: Bernstein
 created: 2026-10-06
-updated: 2026-10-29
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, deterministic-scheduling, policy-as-code, worktrees, audit]
 readability: 3
@@ -21,7 +21,7 @@ It ships as a CLI, TUI, and web UI on PyPI (`bernstein`), drives 50-plus CLI age
 
 ## Status
 
-Active and fast-releasing: 1,249 stars as of 2026-10-15, 30 contributors, and a push on 2026-10-29, created 2026-03-22, with v3.23.0 published 2026-10-24 after v3.22.0 (2026-10-15) (GitHub API, PyPI, as of 2026-10-27).
+Active and fast-releasing: 1,249 stars as of 2026-10-15, 30 contributors, and a push on 2026-10-31, created 2026-03-22, with v3.23.0 published 2026-10-24 after v3.22.0 (2026-10-15) (GitHub API, PyPI, as of 2026-10-31).
 v3.22.0 fixed a recovery-watchdog loop in which a run stopped on purpose could be restarted by its own watchdog, re-queueing retries an earlier process had already made; a quiescent run now stays stopped, which matters for a tool whose pitch is auditable determinism.
 The star count fell from the 1,404 recorded on 2026-10-06 to about 1,200 by 2026-10-10, a roughly 200-star drop in four days that GitHub sometimes produces when it removes bot-starred accounts, and the note records it because a falling count on a governance tool is itself a signal.
 
@@ -69,6 +69,8 @@ Not for teams that want LLM-driven planning, a GUI-first experience, or a projec
 - 2026-10-10 - Corrected the star count from the 1,404 recorded on 2026-10-06 to 1,200 as of 2026-10-10 and recorded the roughly 200-star drop in the Status section.
 
 - 2026-10-25 - Recorded v3.23.0 (2026-10-24) as the latest release.
+- 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live (PyPI at 3.23.0, README still advertising 50-plus adapters); repaired the HN reference, whose bernstein.run query had stopped matching the two threads, to the query that returns them.
+
 ## See also
 
 - [Foremerge](../foremerge/index.md) - the advisory deterministic-coordination counterpart
@@ -83,4 +85,4 @@ Not for teams that want LLM-driven planning, a GUI-first experience, or a projec
 - https://docs.bernstein.run/en/latest/ - documentation root (install, glossary, known limitations)
 - https://pypi.org/project/bernstein/ - PyPI version 3.21.0 and summary
 - https://www.augmentcode.com/tools/open-source-agent-orchestrators - the hands-on commercial roundup with the Janitor verification anecdote
-- https://hn.algolia.com/api/v1/search?query=bernstein.run - the near-empty HN record grounding the thin-footprint claim (one 1-point Show HN, 2026-08-15)
+- https://hn.algolia.com/api/v1/search?query=bernstein&tags=show_hn - the near-empty HN record grounding the thin-footprint claim (the 1-point Show HN of 2026-08-15; the 3-point May story sits outside the show_hn filter)

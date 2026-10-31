@@ -1,7 +1,7 @@
 ---
 title: Birgitta Böckeler
 created: 2026-10-04
-updated: 2026-10-22
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, consulting, agentic-engineering, tdd, harness-engineering, spec-driven-development]
 readability: 3
@@ -71,6 +71,7 @@ Not for release tracking, model news, or anyone who needs large-sample benchmark
 
 - 2026-10-04 - Created, filling the enterprise non-AI-company practitioner slot the matrix named as its empty scaffold.
 - 2026-10-22 - Full re-verification, rotation: all cited URLs refetched and live; the series count moved to 33 with the colleague memo "Are Harnesses Worth the Cost?" (Naresh Jain, 2026-10-13), and the sensors article's date corrected from 2026-05-07 to 2026-05-27 per the article's own revision log.
+- 2026-10-31 - Rotation re-verification, every cited URL re-fetched and live: the series index still holds 33 memos with "Are Harnesses Worth the Cost?" (2026-10-13) the newest and the TDD evaluation still her newest solo piece; fixed the References line that still carried the sensors article's pre-correction date (2026-05-07 to 2026-05-27).
 
 ## See also
 
@@ -85,7 +86,7 @@ Not for release tracking, model news, or anyone who needs large-sample benchmark
 - https://martinfowler.com/articles/exploring-gen-ai.html - the memo series index: cadence since July 2023, authorship split, and the full piece list
 - https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html - the TDD evaluation: five batches, token multipliers, and her decision to stop instructing agents to write tests first
 - https://martinfowler.com/articles/harness-engineering.html - the harness-engineering framing article for coding agent users (2026-04-02)
-- https://martinfowler.com/articles/sensors-for-coding-agents.html - the maintainability-sensors follow-up (2026-05-07)
+- https://martinfowler.com/articles/sensors-for-coding-agents.html - the maintainability-sensors follow-up (2026-05-27)
 - https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html - the Kiro, spec-kit, and Tessl comparison (2025-10-15)
 - https://birgitta.info - her own index of memos, articles, talks, and interviews, grounding the role and the record
 - https://newsletter.pragmaticengineer.com/p/two-years-of-using-ai - her June 2025 Pragmatic Engineer guest post

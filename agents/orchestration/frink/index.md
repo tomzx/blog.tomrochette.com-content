@@ -1,7 +1,7 @@
 ---
 title: Frink
 created: 2026-10-21
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflows, desktop, triggers]
 readability: 3
@@ -72,6 +72,7 @@ Not for headless or server-side automation, and not for anyone who needs a track
 ## Changes
 
 - 2026-10-21 - Created.
+- 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live (repository, site, pricing, the 0.4.0 release line, the four user docs); no material change, with pushes still stopping at 2026-10-26.
 
 ## See also
 

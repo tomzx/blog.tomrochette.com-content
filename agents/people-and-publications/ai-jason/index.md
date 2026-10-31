@@ -1,7 +1,7 @@
 ---
 title: AI Jason
 created: 2026-08-29
-updated: 2026-10-22
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, context-engineering, agents, practitioner]
 readability: 3
@@ -22,10 +22,10 @@ He is a VC-backed start-up founder who says he has shipped production AI agents 
 
 ## Status
 
-Active as of 2026-10-21.
-The channel shows 233K subscribers and 103 videos as of 2026-10-04; the same third-party analytics site reports 234K subscribers, still 103 videos, and 9.3M total views as of October 2026, last verified 2026-10-21.
-Uploads run two to three a month, and the latest upload is 2026-09-23 ("GPT 6 + Hyperframe = Crazy combo for expert-level videos"), re-confirmed on 2026-10-21 as the newest entry on the channel's uploads tab and by the unchanged third-party video count.
-The channel's RSS feed is unreliable: it 404ed on 2026-10-04, served on 2026-10-05, and 404ed again on 2026-10-21, so upload claims rest on the uploads tab and third-party counts rather than the feed.
+Active as of 2026-10-31.
+The channel shows 233K subscribers and 103 videos as of 2026-10-04; the same third-party analytics site reports 235K subscribers, still 103 videos, and 9.3M total views, last verified 2026-10-31.
+Uploads run two to three a month, and the latest upload is 2026-09-23 ("GPT 6 + Hyperframe = Crazy combo for expert-level videos"), re-confirmed on 2026-10-31 as the newest entry in the channel's RSS feed and by the unchanged third-party video count.
+The channel's RSS feed is unreliable: it 404ed on 2026-10-04, served on 2026-10-05, and 404ed again on 2026-10-21 before serving again on 2026-10-31, so upload claims rest on the uploads tab and third-party counts rather than the feed.
 The channel is fully monetized, with past sponsors including Canva, Figma, and Vercel.
 
 ## Strengths
@@ -78,6 +78,7 @@ Not for someone who wants reference-grade depth, a durable archive, or a rigorou
 - 2026-10-04 - Window recheck found no newer upload, and the Status wording now says exactly what is verified: the 2026-09-23 video is the latest confirmable one (103-video third-party count through 2026-10-01), while YouTube's own surfaces (RSS 404, uploads-tab JavaScript shell) and X stayed unfetchable, so nothing after 2026-10-01 is confirmable from this run.
 - 2026-10-05 - The channel's RSS feed serves again after its 2026-10-04 outage (channel id UCrXSVX9a1mj8l0CMLwKgMVw resolved from the channel page) and confirms the 2026-09-23 video remains the newest upload; Status and References updated to match.
 - 2026-10-22 - Full re-verification, rotation: all cited URLs refetched and live; the RSS feed serves again (after its 2026-10-21 404) and still lists the 2026-09-23 video as newest, and the third-party stats still report 234K subscribers and 103 videos, so no upload or scale claim moved.
+- 2026-10-31 - Rotation re-verification, every cited URL re-fetched and live (the thoughtleaders analytics page bot-blocks plain fetches but serves through a browser client): the RSS feed serves and still lists the 2026-09-23 video as newest, and the third-party stats moved to 235K subscribers with the video count steady at 103 and 9.3M total views.
 
 ## See also
 
@@ -92,6 +93,6 @@ Not for someone who wants reference-grade depth, a durable archive, or a rigorou
 - https://www.youtube.com/@AIJasonZ/videos - the channel's uploads tab (a direct fetch renders only a JavaScript shell, so the RSS feed grounds the cadence)
 - https://www.youtube.com/feeds/videos.xml?channel_id=UCrXSVX9a1mj8l0CMLwKgMVw - the channel's RSS feed, channel id resolved from the channel page's metadata on 2026-10-05; the feed flapped again with a 404 on 2026-10-21, so it grounds the cadence, while the newest-upload claim is re-confirmed from the uploads tab
 - https://www.ai-jason.com/ - his site and email list
-- https://developereducators.com/channel/aijasonz/ - independent channel stats, sponsors, and engagement, last verified 2026-10-21 with 234K subscribers, still 103 videos, and 9.3M views (as of October 2026)
+- https://developereducators.com/channel/aijasonz/ - independent channel stats, sponsors, and engagement, last verified 2026-10-31 with 235K subscribers, still 103 videos, and 9.3M views
 - https://app.thoughtleaders.io/youtube/ai-jason - third-party analytics on the channel's scale and content focus
 - https://offers.hubspot.com/claude-code-playbook - his product, documenting the production-agent framing and background

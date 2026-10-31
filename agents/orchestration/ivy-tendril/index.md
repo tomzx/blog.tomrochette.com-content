@@ -1,7 +1,7 @@
 ---
 title: Ivy Tendril
 created: 2026-10-24
-updated: 2026-10-24
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agentic-development-environment, multi-agent, worktrees, source-available]
 readability: 3
@@ -81,6 +81,7 @@ Not for anyone needing an OSI open-source license, working documentation links, 
 ## Changes
 
 - 2026-10-24 - Created.
+- 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live; both repositories still quiet on their September push dates, the pricing page still lists Free $0, Pro $59, and Enterprise, and tendril.ivy.app and docs.ivy.app still fail DNS, so the rewrite-and-cooling status stands.
 
 ## See also
 

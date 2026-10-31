@@ -1,7 +1,7 @@
 ---
 title: ChatGPT plans
 created: 2026-09-26
-updated: 2026-10-16
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, subscriptions, codex, openai]
 readability: 3
@@ -18,11 +18,11 @@ ChatGPT plans are OpenAI's consumer and team subscriptions, and every tier from 
 
 The 2026 lineup: Free ($0), Go ($8/month), Plus ($20/month), Pro from $100/month in 5x, 20x, and $500 versions, Business ($25/user/month, $20 annual, minimum 2 seats), and Enterprise custom.
 Codex ships on web, CLI, IDE extension, and iOS, with cloud integrations (GitHub code review, Slack, Linear) from Plus up, and ChatGPT Work usage draws the same pool and rates as Codex.
-The GPT-6 lineup (Astra, Sol, Luna) carries the plans, with GPT-6.1 Sol added to the rate table by October 2026 (available in Work and Codex, not Chat); GPT-5.5 retires from ChatGPT, Work, and Codex on all plans on October 14, 2026.
+The GPT-6 lineup (Astra, Sol, Luna) carries the plans, with GPT-6.1 Sol added to the rate table by October 2026 and GPT-6.1 Terra joining the rate table and the Work/Codex feature matrix by late October (both available in Work and Codex, not Chat); GPT-5.5 retires from ChatGPT, Work, and Codex on all plans on October 14, 2026.
 
 ## Status
 
-Active, with the developer pricing page fetched and current as of 2026-10-14, and the widest subscription reach of any vendor here.
+Active, with the developer pricing page fetched and current as of 2026-10-31, and the widest subscription reach of any vendor here.
 The 2026 lineup changed materially: Business replaced the Team plan on April 2, the same day Codex billing moved from per-message to token-based credits, and the Go tier appeared below Plus.
 The current GPT-6 lineup (Astra, Sol, Luna) carries the plans, with Sol and Luna launched 2026-09-22 per the [Model Selection guide](../../model-selection-for-coding-tasks/index.md) and already listed as included on Plus and Pro in the fetched plan documentation.
 By 2026-10-02 the Pro plan lists three price points ($100, $200, $500) and the page states Pro plans currently have no five-hour limit, with the published message-range tables now covering Plus and Standard Business only.
@@ -47,7 +47,7 @@ By 2026-10-02 the Pro plan lists three price points ($100, $200, $500) and the p
 Free: $0, Codex for quick tasks with limited usage.
 Go: $8/month, lightweight coding.
 Plus: $20/month, a few focused sessions a week, GPT-6 Sol and Luna included.
-Pro: $100/month for 5x Plus usage, $200/month for 20x, and a $500/month tier with GPT-6 Astra Ultrafast access (all three re-verified as of 2026-10-11).
+Pro: $100/month for 5x Plus usage, $200/month for 20x, and a $500/month tier with GPT-6 Astra Ultrafast access (all three re-verified as of 2026-10-31).
 Business: $25/user/month ($20 annual, minimum 2 seats), Codex via workspace credits.
 Enterprise: custom, flexible credit pricing.
 Credits purchase past included limits; API-key Codex usage bills at API rates outside any plan.
@@ -80,6 +80,7 @@ My disagreeable claim: the published message ranges are more concrete than Anthr
 - 2026-10-02 - Pro gained a third tier at $500/month with GPT-6 Astra Ultrafast access, the page now states Pro plans have no five-hour limit (message ranges published for Plus and Standard Business only), and GPT-6.1 Sol joined the credit rate table; price history row appended.
 - 2026-10-04 - Consumer pricing page re-check: it now returns 200 to automated fetches (403 in earlier runs) while still rendering prices client-side; every plan price re-verified unchanged on the developer docs.
 - 2026-10-16 - Rotation re-verification: every plan price re-verified unchanged on the developer pricing page ($8/$20/$100-$500, Business $25 per user), the GPT-5.5 retirement notice still displayed after the October 14 date with API-key sessions unaffected, and the consumer pricing page back to 403 after its single 200.
+- 2026-10-31 - Rotation re-verification: every plan price re-verified unchanged on the developer pricing page; GPT-6.1 Terra joined the credit-rate table and the Work/Codex feature matrix (not Chat), GPT-6 Astra gained published credit rates (250 in / 25 cached / 1,250 out per 1M tokens), and the GPT-5.6 Sol promotional rate gained a stated floor of November 21, 2026; the GPT-5.5 retirement notice still displayed after the October 14 date; the consumer pricing page and the business rate card still 403, and the third-party limits page now 301-redirects to its canonical URL.
 
 ## See also
 
@@ -90,8 +91,8 @@ My disagreeable claim: the published message ranges are more concrete than Anthr
 
 ## References
 
-- https://developers.openai.com/codex/pricing - plan prices including the $500 Pro tier, per-model message ranges, credit rates, GPT-5.5 retirement, feature availability matrix (fetched 200, 2026-10-02, re-fetched 2026-10-11, 2026-10-14, and 2026-10-16, plan prices unchanged each time and the retirement notice still live after the October 14 date)
-- https://automationatlas.io/answers/chatgpt-codex-pricing-explained-2026 - the April 2 Business replacement, the credit-billing switch, Business seat pricing, the practical cost range and shared-window practitioner note (fetched 200, updated 2026-07-31)
-- https://www.simplemetrics.xyz/chatgpt-codex-limits-2026 - independent limit analysis, the ranges-vs-fixed-caps framing, GPT-5.6 family tables (fetched via search extraction, updated 2026-09-09)
-- https://help.openai.com/en/articles/11481834-chatgpt-rate-card-business-enterpriseedu - the business credit rate card and the August 31 GPT-5.4 retirement note (linked from the fetched developer pricing page; the 2026-10-16 automated fetch returned 403, facts carried from the page's own linked text)
-- https://chatgpt.com/pricing - the consumer plan page (403 again on 2026-10-16 after the single 200 on 2026-10-04; client-side rendered when reachable, plan prices verified through the developer docs)
+- https://developers.openai.com/codex/pricing - plan prices including the $500 Pro tier, per-model message ranges, credit rates, GPT-5.5 retirement, feature availability matrix (fetched 200, 2026-10-02, re-fetched 2026-10-11, 2026-10-14, and 2026-10-16, plan prices unchanged each time and the retirement notice still live after the October 14 date; re-fetched 2026-10-31 with plan prices unchanged, GPT-6.1 Terra and GPT-6 Astra credit rates added to the rate table, and the GPT-5.6 Sol promotional-rate floor of 2026-11-21 stated)
+- https://automationatlas.io/answers/chatgpt-codex-pricing-explained-2026 - the April 2 Business replacement, the credit-billing switch, Business seat pricing, the practical cost range and shared-window practitioner note (fetched 200, updated 2026-07-31; re-fetched 2026-10-31 unchanged)
+- https://www.simplemetrics.xyz/chatgpt-codex-limits-2026 - independent limit analysis, the ranges-vs-fixed-caps framing, GPT-5.6 family tables (fetched via search extraction, updated 2026-09-09; the 2026-10-31 fetch returns 301 to the canonical https://simplemetrics.xyz/chatgpt-codex-limits-2026/)
+- https://help.openai.com/en/articles/11481834-chatgpt-rate-card-business-enterpriseedu - the business credit rate card and the August 31 GPT-5.4 retirement note (linked from the fetched developer pricing page; the 2026-10-16 automated fetch returned 403, facts carried from the page's own linked text; still 403 on 2026-10-31)
+- https://chatgpt.com/pricing - the consumer plan page (403 again on 2026-10-16 after the single 200 on 2026-10-04; client-side rendered when reachable, plan prices verified through the developer docs; 403 again on 2026-10-31)

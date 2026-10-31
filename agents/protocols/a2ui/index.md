@@ -1,7 +1,7 @@
 ---
 title: A2UI
 created: 2026-10-06
-updated: 2026-10-27
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, generative-ui, frontend, google]
 readability: 3
@@ -24,7 +24,7 @@ Google created it and opened it on 2025-12-15, and the repository now lives in i
 ## Status
 
 **Active and adopted ahead of its spec maturity.**
-The repository shows about 16,690 stars and 1,328 forks (as of 2026-10-13) with a push on 2026-10-27, roughly ten months after launch (GitHub API, as of 2026-10-27).
+The repository shows about 16,690 stars and 1,328 forks (as of 2026-10-13) with a push on 2026-10-31 (UTC), roughly ten months after launch (GitHub API, as of 2026-10-31).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2ui-project/a2ui&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ The repository shows about 16,690 stars and 1,328 forks (as of 2026-10-13) with 
 The adoption is product-anchored: Google's Opal team is a core contributor and uses A2UI in its mini-app builder, Gemini Enterprise is integrating it, and Flutter's GenUI SDK (about 1,780 stars) uses A2UI as its declaration format between server-side agents and the app.
 At the protocol layer, AG-UI documents A2UI as a supported generative-UI spec it natively carries, and A2A is a listed transport, so the two protocols above it in this index both move it.
 The launch Show HN drew 164 points and 75 comments (2025-12-16), and the v1.0 specification is a release candidate that adds client-to-server action responses.
-The implementation train is active on its own schedule: on 2026-10-17 the Python family split into separately versioned packages, with a2ui-core at v0.4.0 (cross-catalog `$ref` resolution), the agent SDK at v0.9.0 (breaking dependency bump), and the ADK and A2A bindings extracted into first releases (a2ui-adk v0.1.0, a2ui-a2a v0.1.0), so the agent SDK no longer depends on google-adk or the A2A SDK.
+The implementation train is active on its own schedule: on 2026-10-17 the Python family split into separately versioned packages, with a2ui-core at v0.4.0 (cross-catalog `$ref` resolution), the agent SDK at v0.9.0 (breaking dependency bump), and the ADK and A2A bindings extracted into first releases (a2ui-adk v0.1.0, a2ui-a2a v0.1.0), so the agent SDK no longer depends on google-adk or the A2A SDK; on 2026-10-30 the developer CLI took its first tag (cli-v0.1.0), a typesafe component generator that emits Python client builders from catalog schemas across the 0.9, 0.9.1, and 1.0 protocol versions.
 On 2026-10-26 the repository merged an MCP Apps bridge stream: a new `@a2ui/catalog-mcp` package with a `configureMcpCatalog` v1.0 entry point, an MCP Apps host bridge, and MCP App examples rendered in the Lit, Angular, and React explorers, alongside v1.0 protocol support in the Dart CLI and Python builder, so A2UI now ships tooling that treats MCP Apps as a neighbor to interoperate with rather than only a rival to position against.
 
 ## Strengths
@@ -79,6 +79,7 @@ My disagreeable claim: A2UI will matter more to what end users see than AG-UI do
 - 2026-10-24 - Re-verification: the repository pushed 2026-10-24 with the release train unchanged (the 2026-10-17 Python wave still the newest set) and the spec hub's version table re-confirmed (v0.9.1 current production, v1.0 release candidate).
 - 2026-10-25 - Re-verification: the repository pushed 2026-10-25 with the tagged release train unchanged (the 2026-10-17 Python wave still the newest set) and the spec hub's version table re-confirmed (v0.9.1 current production, v1.0 release candidate).
 - 2026-10-27 - Re-verification: the repository pushed 2026-10-26/27 with an MCP Apps bridge stream merged to main (the `@a2ui/catalog-mcp` package with a `configureMcpCatalog` v1.0 entry point, an MCP Apps host bridge, and MCP App examples in the Lit, Angular, and React explorers) plus v1.0 protocol support in the Dart CLI and Python builder, while the tagged release train stays at the 2026-10-17 Python wave and the spec hub's version table stays at v0.9.1 current with v1.0 a release candidate.
+- 2026-10-31 - The tagged release train moved past the 2026-10-17 Python wave with the A2UI CLI's first release (cli-v0.1.0, 2026-10-30), a typesafe component generator that emits Python client builders from catalog schemas across protocol versions 0.9, 0.9.1, and 1.0; the spec hub's version table is unchanged (v0.9.1 current production, v1.0 release candidate).
 
 ## See also
 

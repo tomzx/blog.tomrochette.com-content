@@ -1,7 +1,7 @@
 ---
 title: 1Code
 created: 2026-10-06
-updated: 2026-10-15
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, worktrees, dormant]
 readability: 3
@@ -20,7 +20,7 @@ The feature list also carried BYOK model selection, MCP servers and a plugin mar
 
 ## Status
 
-Dead by archive: the owner archived the repository on 2026-07-07 and it is now read-only, with 5,575 stars, 609 forks, and 45 open issues and pull requests, its last push and its last release (v0.0.84) both on 2026-03-06 (GitHub API and repository page, as of 2026-10-15).
+Dead by archive: the owner archived the repository on 2026-07-07 and it is now read-only, with 5,575 stars, 606 forks, and 45 open issues and pull requests, its last push and its last release (v0.0.84) both on 2026-03-06 (GitHub API and repository page, as of 2026-10-31).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=21st-dev/1code&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for adoption; if the idea appeals, evaluate Emdash or the maintained closed 
 - 2026-10-07 - Added the 21st-dev/1code star history chart to the Status section.
 - 2026-10-07 - Moved Status from dormant to dead: the repository page shows the owner archived it on 2026-07-07 and it is read-only, resolving the note's open question about a handoff or archive notice.
 - 2026-10-15 - Rotation re-verification (every cited URL re-fetched live); refreshed the star and fork counts and clarified that the 45 open items are issues plus pull requests (26 and 19 on the repository page).
+- 2026-10-31 - Rotation re-verification (every cited URL re-fetched live); the archive, the silent March push and release dates, and the domain redirect all stand, with the fork count refreshed to 606.
 
 ## See also
 

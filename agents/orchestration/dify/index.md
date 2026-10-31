@@ -1,7 +1,7 @@
 ---
 title: Dify
 created: 2026-09-29
-updated: 2026-10-29
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -23,7 +23,7 @@ The repo sits at 158,517 stars with 25,044 forks, created 2023-04-12 (GitHub API
 
 ## Status
 
-Active: last push 2026-10-29, latest release 1.18.0 on 2026-10-23 after four months on 1.17.1 (2026-09-10) (GitHub API, as of 2026-10-29).
+Active: last push 2026-10-31, latest release 1.18.0 on 2026-10-23 after four months on 1.17.1 (2026-09-10) (GitHub API, as of 2026-10-31).
 Its 2024 HN launch drew 185 points, and the community has kept growing since.
 The category context is the risk: Flowise's shutdown discussion argued that capable coding agents are eroding the rigid low-code workflow approach, and that argument applies to every member of the genre, Dify included.
 
@@ -76,6 +76,7 @@ Not for coordinating parallel coding agents, and not for multi-tenant SaaS build
 - 2026-09-29 - Created when the deferred framework-tier pile from the 2026-09-27 triage resolved.
 - 2026-10-07 - Added the langgenius/dify star history chart to the Status section.
 - 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository, pricing page with Professional $590 and Team $1,590 per workspace per year unchanged, docs, modified-Apache LICENSE, releases still topping at 1.17.1, the 185-point launch thread).
+- 2026-10-31 - Re-verified in rotation: all cited sources re-fetched and live (repository pushed 2026-10-31, pricing page still $590 and $1,590 per workspace per year, license, docs, the 1.18.0 release line, the launch thread).
 
 ## See also
 

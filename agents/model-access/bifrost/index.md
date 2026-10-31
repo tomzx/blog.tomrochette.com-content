@@ -1,7 +1,7 @@
 ---
 title: Bifrost
 created: 2026-10-07
-updated: 2026-10-29
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, gateway, self-hosted]
 readability: 3
@@ -18,12 +18,12 @@ Bifrost is Maxim's high-performance open-source AI gateway: one Go service unify
 
 An Apache-2.0 Go gateway by Maxim (the LLM-evaluation company), deployable with npx, Docker, or Kubernetes Helm charts, with a built-in web UI for configuration and monitoring (8,762 stars, pushed 2026-10-13, as of 2026-10-14).
 The core routes across 20-plus providers (OpenAI, Anthropic, Bedrock, Vertex, Azure, and more) with weighted key distribution, automatic fallbacks, and semantic caching; governance layers virtual keys, budgets, and rate limits per consumer, team, or customer.
-Around the core sit an MCP gateway that is both client and server (with OAuth, tool filtering, and an agent mode), a plugin system in Go or WASM, Prometheus and OpenTelemetry instrumentation, and SDK drop-in replacements for the OpenAI, Anthropic, Bedrock, and Google GenAI SDKs.
+Around the core sit an MCP gateway that is both client and server (with OAuth, tool filtering, and an agent mode), a relay layer added 2026-10-29 that calls non-LLM APIs (search, document extraction, speech) through stored credentials with per-route pricing mapped to virtual-key budgets, a plugin system in Go or WASM, Prometheus and OpenTelemetry instrumentation, and SDK drop-in replacements for the OpenAI, Anthropic, Bedrock, and Google GenAI SDKs.
 The enterprise tier adds clustering with gossip-based sync, RBAC with Okta and Entra identity providers, guardrails through Bedrock and Model Armor, in-VPC deployment, and audit logs aimed at SOC 2, GDPR, and HIPAA.
 
 ## Status
 
-Active and fast-releasing: created 2025-03-19, 8,842 stars as of 2026-10-16, component-tagged releases shipping through 2026-10-20 (transports v2.3.2, telemetry v1.9.2, semanticcache v1.7.2, routing v1.2.2, prompts v1.1.12), repo pushed 2026-10-29, as of 2026-10-29.
+Active and fast-releasing: created 2025-03-19, 8,842 stars as of 2026-10-16, component-tagged releases shipping through 2026-10-30 (transports v2.4.0 with the relays layer, telemetry v1.9.4, semanticcache v1.7.4), repo pushed 2026-10-31, as of 2026-10-31.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=maximhq/bifrost&type=date&theme=dark&legend=top-left" />
@@ -69,6 +69,7 @@ Not for the broadest provider matrix or the largest community, where LiteLLM sti
 - 2026-10-16 - Release train refresh: five component releases landed 2026-10-13 (transports v2.3.0, telemetry v1.9.0, semanticcache v1.7.0, routing v1.2.0, prompts v1.1.10) after the previous set had held since 2026-10-06, and the API re-fetch moved stars to 8,842 with the repo pushed 2026-10-16.
 - 2026-10-18 - Repo-description refresh: the 50x-faster-than-LiteLLM comparison left the repository description (now "10,000+ models", "under 200µs of overhead at 5k RPS", and MCP Code Mode), the docs and README still carry the 11-microsecond vendor benchmark, and the repo pushed 2026-10-18; the Status and Cautions prose moved with it.
 - 2026-10-21 - Release train refresh: the five component lines patched again on 2026-10-20 (transports v2.3.2, telemetry v1.9.2, semanticcache v1.7.2, routing v1.2.2, prompts v1.1.12) and the repo pushed 2026-10-21; stars stand at their 2026-10-16 verification.
+- 2026-10-31 - Release train refresh: transports v2.4.0 landed 2026-10-29 adding Relays, calls to non-LLM APIs (Tavily, AWS Textract, Azure Speech) through one stored credential with per-route pricing and usage mapping charged to the caller's virtual-key budgets, with telemetry v1.9.4 and semanticcache v1.7.4 on core v1.14.0; the repo pushed 2026-10-31.
 
 ## See also
 
@@ -80,8 +81,8 @@ Not for the broadest provider matrix or the largest community, where LiteLLM sti
 ## References
 
 - https://github.com/maximhq/bifrost - repository, Apache-2.0 license, the 23-plus-provider README, and (at the 2026-10-07 fetch) the description's 50x-LiteLLM positioning, since removed (fetched 200, 2026-10-07)
-- https://api.github.com/repos/maximhq/bifrost - stars, created date, push date, and license for the as-of status (fetched 200, 2026-10-07; re-fetched 2026-10-16 at 8,842 stars, pushed 2026-10-16; re-fetched 2026-10-18 with the description no longer carrying the 50x claim and pushed 2026-10-18; re-fetched 2026-10-19, pushed 2026-10-19, description unchanged; re-fetched 2026-10-21, pushed 2026-10-21, description unchanged; re-fetched 2026-10-23, pushed 2026-10-23, description unchanged; re-fetched 2026-10-24, pushed 2026-10-24, description unchanged; re-fetched 2026-10-25, pushed 2026-10-25, description unchanged; re-fetched 2026-10-26, pushed 2026-10-26, description unchanged; re-fetched 2026-10-28, pushed 2026-10-28, description unchanged; re-fetched 2026-10-29, pushed 2026-10-29, description unchanged).
+- https://api.github.com/repos/maximhq/bifrost - stars, created date, push date, and license for the as-of status (fetched 200, 2026-10-07; re-fetched 2026-10-16 at 8,842 stars, pushed 2026-10-16; re-fetched 2026-10-18 with the description no longer carrying the 50x claim and pushed 2026-10-18; re-fetched 2026-10-19, pushed 2026-10-19, description unchanged; re-fetched 2026-10-21, pushed 2026-10-21, description unchanged; re-fetched 2026-10-23, pushed 2026-10-23, description unchanged; re-fetched 2026-10-24, pushed 2026-10-24, description unchanged; re-fetched 2026-10-25, pushed 2026-10-25, description unchanged; re-fetched 2026-10-26, pushed 2026-10-26, description unchanged; re-fetched 2026-10-28, pushed 2026-10-28, description unchanged; re-fetched 2026-10-29, pushed 2026-10-29, description unchanged; re-fetched 2026-10-31, pushed 2026-10-31, description unchanged).
 - https://docs.getbifrost.ai - the feature surface: failover, virtual keys, budgets, semantic caching, the MCP gateway, plugins, the 11-microsecond benchmark claim, and the enterprise tier (fetched 200, 2026-10-07; re-fetched 2026-10-18 with the 11µs claim and the 20-plus-provider framing unchanged)
-- https://api.github.com/repos/maximhq/bifrost/releases - the component-tagged release line (fetched 200, 2026-10-07; re-fetched 2026-10-21 reading the 2026-10-20 patches of all five component lines; re-fetched 2026-10-23 and again 2026-10-24 with no releases past the 2026-10-20 patches; re-fetched 2026-10-25 and again 2026-10-26, still nothing past the 2026-10-20 patches; re-fetched 2026-10-28 and again 2026-10-29, still nothing past the 2026-10-20 patches).
+- https://api.github.com/repos/maximhq/bifrost/releases - the component-tagged release line (fetched 200, 2026-10-07; re-fetched 2026-10-21 reading the 2026-10-20 patches of all five component lines; re-fetched 2026-10-23 and again 2026-10-24 with no releases past the 2026-10-20 patches; re-fetched 2026-10-25 and again 2026-10-26, still nothing past the 2026-10-20 patches; re-fetched 2026-10-28 and again 2026-10-29, still nothing past the 2026-10-20 patches; re-fetched 2026-10-31 reading the 2026-10-29/30 train, transports v2.4.0 with Relays, telemetry v1.9.4, semanticcache v1.7.4).
 - https://hn.algolia.com/api/v1/items/46203228 - the December 2025 Show HN thread, 3 points, grounding the small-HN-footprint observation (fetched 200, 2026-10-07)
 - https://raw.githubusercontent.com/maximhq/bifrost/HEAD/README.md - the quickstart surfaces (npx, Docker) and the provider list behind the gateway cells (fetched 200, 2026-10-07; re-fetched 2026-10-18 on the dev branch with the 23-plus-provider framing and the 11µs benchmark table unchanged)

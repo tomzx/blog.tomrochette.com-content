@@ -1,7 +1,7 @@
 ---
 title: WebMCP
 created: 2026-10-06
-updated: 2026-10-26
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, browser, w3c, agent-tools]
 readability: 3
@@ -17,15 +17,15 @@ WebMCP is a W3C Community Group draft specification, edited by Microsoft and Goo
 
 ## What it is
 
-A Draft Community Group Report (dated 2026-10-20, following the 2026-10-08 revision that removed the declarative form-annotation path from the 2026-10-02 draft) from the W3C Web Machine Learning Community Group, first announced 2026-02-10, with editors from Microsoft and Google.
-The API surface is `document.modelContext` with `registerTool()`, `getTools()`, and `executeTool()`: a tool carries a name, a natural-language description, and a JSON Schema input, and pages register tools imperatively in JavaScript.
+A Draft Community Group Report (dated 2026-10-27, following the 2026-10-20 revision that added the agent-ecosystem-risks discussion and the 2026-10-08 revision that removed the declarative form-annotation path from the 2026-10-02 draft) from the W3C Web Machine Learning Community Group, first announced 2026-02-10, with editors from Microsoft and Google.
+The API surface is `document.modelContext` with `registerTool()`, `getTools()`, and `executeTool()`: a tool carries a name, a natural-language description, and a JSON Schema input, and pages register tools imperatively in JavaScript, with the 2026-10-27 revision adding opt-in cross-origin exposure between frames (`exposedTo` on registration, `fromOrigins` on discovery) behind a two-sided opt-in check.
 **The spec's own framing places it in this index's stack: "Web pages that use WebMCP can be thought of as Model Context Protocol servers that implement tools in client-side script instead of on the backend", with the browser mediating every call under a `tools` Permissions Policy that defaults to same-origin only.**
 Chrome ships it behind a public origin trial (Chrome 149 through 156) plus a local flag, and Angular offers experimental support.
 
 ## Status
 
 **Active and past the flag stage, with one browser shipping and one agent consuming.**
-The repository shows 4,621 stars (2026-10-13), 136 open issues, and a push on 2026-10-21, as of 2026-10-26 (GitHub API).
+The repository shows 4,621 stars (2026-10-13), 137 open issues, and a push on 2026-10-27, as of 2026-10-31 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 - 2026-10-17 - The draft report moved to its 2026-10-16 revision (an editorial commit syncing the explainer documents with the spec, no API surface change); open issues refreshed as of 2026-10-17.
 - 2026-10-22 - The draft report moved to its 2026-10-20 revision (a general agent-ecosystem-risks discussion section linking agent security guidance and a new editor, no API surface change); open issues and the push date refreshed as of 2026-10-22.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live with no dead sources (the commits page verified through the GitHub API after the HTML page rate-limited); the draft remains at its 2026-10-20 revision with no newer report and no commits behind it since 2026-10-20, and open issues refreshed to 136 as of 2026-10-26.
+- 2026-10-31 - The draft report moved to its 2026-10-27 revision, the first API surface change since the declarative removal: cross-origin tool exposure between frames under two-sided opt-in (section 6.3.4), adding `exposedTo` on registerTool, `fromOrigins` on getTools, and per-tool exposed-origin checks to the execution algorithm, while the `tools` permissions policy keeps its same-origin default; open issues refreshed to 137 as of 2026-10-31.
 
 ## See also
 
@@ -89,7 +90,7 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 
 ## References
 
-- https://webmachinelearning.github.io/webmcp/ - the Draft Community Group Report (2026-10-20 revision): `document.modelContext` API, permissions policy, and the full security considerations section
+- https://webmachinelearning.github.io/webmcp/ - the Draft Community Group Report (2026-10-27 revision): `document.modelContext` API, the cross-origin `exposedTo`/`fromOrigins` opt-in, permissions policy, and the full security considerations section
 - https://github.com/webmachinelearning/webmcp - repository: 4,621 stars, 122 open issues, pushed 2026-10-13 (GitHub API, as of 2026-10-13)
 - https://github.com/webmachinelearning/webmcp/commit/14ae813cc4e9 - the 2026-10-08 commit "Remove declarative API from the spec for now (#338)" behind the revision
 - https://github.com/webmachinelearning/webmcp/commits/main - the commit history behind the revision train: the 2026-10-20 commits discussing general agent ecosystem risks with agent-security-guidance links (#334) and adding a new editor (#352) behind the 2026-10-20 draft revision (fetched 2026-10-22)

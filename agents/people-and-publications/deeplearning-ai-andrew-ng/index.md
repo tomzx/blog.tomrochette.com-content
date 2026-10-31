@@ -1,7 +1,7 @@
 ---
 title: Andrew Ng (The Batch, DeepLearning.AI)
 created: 2026-08-29
-updated: 2026-10-26
+updated: 2026-10-31
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, education, agents, agentic-ai]
 readability: 3
@@ -22,8 +22,8 @@ His [agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai) and [A
 
 ## Status
 
-Active and highly influential as of 2026-10-26.
-The Batch publishes weekly, with the latest numbered issue (376, "Meta's Muse Wonder and Spark Open, Educational Use of ChatGPT, Reflection's Partnership with Nvidia") on [2026-10-23](https://www.deeplearning.ai/the-batch/issue-376), after issue 375 (2026-10-16, "Claude Haiku 5.5, Mistral Large 4, and Local Models for Mac and Windows") and issue 374 (2026-10-09, whose letter argues agents are about to drive transaction volumes and data-center build-outs across the economy, his paperreview.ai agent alone making 5,000 to 10,000 web-search calls a day, and tool calls rather than tokens often the bottleneck), and the AI Engineering Skills Map letter is dated 2026-08-14.
+Active and highly influential as of 2026-10-31.
+The Batch publishes weekly, with the latest issue (377, "Zombie Agents, Vampire Models, Witch Hunts, and the Mummy's Curse: AI Fears for Halloween 2026") on [2026-10-30](https://www.deeplearning.ai/the-batch/issue-377), a special edition weighing AI fears from rogue agent swarms to detector witch hunts against the engineering fixes, after issue 376 (2026-10-23, "Meta's Muse Wonder and Spark Open, Educational Use of ChatGPT, Reflection's Partnership with Nvidia") and issue 374 (2026-10-09, whose letter argues agents are about to drive transaction volumes and data-center build-outs across the economy, his paperreview.ai agent alone making 5,000 to 10,000 web-search calls a day, and tool calls rather than tokens often the bottleneck), and the AI Engineering Skills Map letter is dated 2026-08-14.
 DeepLearning.AI reports courses taught to millions of learners and positions itself as the canonical AI education path.
 
 ## Strengths
@@ -81,6 +81,7 @@ Not for a practitioner who wants deep technical detail, frontier-labs nuance, or
 - 2026-10-03 - Batch recency refreshed to issue 373 (2026-10-02, "GLM-5.3's ExploitBench Score is Good News for Cybersecurity"); issue URL fetched this run.
 - 2026-10-11 - Batch recency refreshed to issue 374 (2026-10-09, "OpenAI's DevDay, Google's First Gemini 4 Model, Black Forest Labs Dives Into Robots", the letter on agents driving data-center build-outs and transaction volumes); issue URL fetched this run.
 - 2026-10-26 - Batch recency refreshed to issue 376 (2026-10-23, "Meta's Muse Wonder and Spark Open, Educational Use of ChatGPT, Reflection's Partnership with Nvidia"), after issue 375 (2026-10-16); both issue URLs fetched this run.
+- 2026-10-31 - Batch recency refreshed to issue 377 (2026-10-30, "Zombie Agents, Vampire Models, Witch Hunts, and the Mummy's Curse: AI Fears for Halloween 2026"); issue URL fetched this run.
 
 ## See also
 
@@ -92,7 +93,8 @@ Not for a practitioner who wants deep technical detail, frontier-labs nuance, or
 ## References
 
 - https://www.deeplearning.ai/the-batch - the weekly newsletter and his letters
-- https://www.deeplearning.ai/the-batch/issue-376 - issue 376 (2026-10-23): the Meta's Muse, ChatGPT-in-education, and Nvidia-partnership items, grounding the recency claim
+- https://www.deeplearning.ai/the-batch/issue-377 - issue 377 (2026-10-30): the Halloween special on AI fears, grounding the recency claim
+- https://www.deeplearning.ai/the-batch/issue-376 - issue 376 (2026-10-23): the Meta's Muse, ChatGPT-in-education, and Nvidia-partnership items
 - https://www.deeplearning.ai/the-batch/issue-374 - issue 374 (2026-10-09): the letter on agents driving compute and transaction-volume growth, with the paperreview.ai tool-call figures
 - https://learn.deeplearning.ai/courses/agentic-ai - the Agentic AI course and its four design patterns
 - https://www.deeplearning.ai/the-batch/tag/deeplearning-ai-news - the AI Engineering Skills Map announcement
