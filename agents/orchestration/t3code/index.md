@@ -1,7 +1,7 @@
 ---
 title: T3 Code
 created: 2026-10-07
-updated: 2026-10-29
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, mobile-client, control-surface]
 readability: 3
@@ -23,7 +23,7 @@ Install is a curl script or brew cask, with nightly releases (v0.0.46-nightly li
 
 ## Status
 
-Active and shipping daily: created 2026-02-08, 27,671 stars in eight months, nightly releases with v0.1.3 (2026-10-27, subagent transcript updates kept off the shell stream, pinned patched package versions, and a documented GitCafe mirror) the newest stable after v0.1.2 (2026-10-22) and v0.1.1 (2026-10-21), with v0.1.0 (2026-10-15) having opened Orchestrator V2's stable line, pushed 2026-10-29, as of 2026-10-29 (GitHub API).
+Active and shipping daily: created 2026-02-08, 27,671 stars in eight months, nightly releases with v0.1.6 the newest stable (after v0.1.5, v0.1.4, and v0.1.3 (2026-10-27, subagent transcript updates kept off the shell stream, pinned patched package versions, and a documented GitCafe mirror), then v0.1.2 (2026-10-22) and v0.1.1 (2026-10-21), with v0.1.0 (2026-10-15) having opened Orchestrator V2's stable line) and the nightlies moved onto a v0.1.7 line by 2026-11-01, pushed 2026-11-01, as of 2026-11-01 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=pingdotgg/t3code&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for teams needing audited remote access today, and not for anyone who wants 
 
 - 2026-10-25 - Recorded v0.1.2 (2026-10-22) as the newest stable.
 - 2026-10-27 - Recorded v0.1.3 (2026-10-27) as the newest stable.
+- 2026-11-01 - Recorded v0.1.4 through v0.1.6 as the stable line and the nightlies moving to v0.1.7.
 
 ## See also
 

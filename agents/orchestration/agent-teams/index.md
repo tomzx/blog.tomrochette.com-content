@@ -1,7 +1,7 @@
 ---
 title: Agent Teams
 created: 2026-10-07
-updated: 2026-10-29
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, kanban, multi-cli, agpl]
 readability: 3
@@ -67,6 +67,7 @@ Not for teams that need vendor accountability or a permissive license.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
+- 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); the release record stands at v2.18.4 (2026-10-27) with pushes continuing through 2026-10-31, and the stale releases-reference description was corrected.
 
 ## See also
 
@@ -80,5 +81,5 @@ Not for teams that need vendor accountability or a permissive license.
 - https://github.com/777genius/agent-teams-ai - the repository, README provider list, stars, license, and releases.
 - https://agentteams.live/ - the product site and download page.
 - https://agentteams.live/docs - the documentation site.
-- https://github.com/777genius/agent-teams-ai/releases - the release list, v2.17.1 (2026-09-28) latest at verification.
+- https://github.com/777genius/agent-teams-ai/releases - the release list, v2.18.4 (2026-10-27) latest (re-fetched 2026-11-01).
 - https://raw.githubusercontent.com/777genius/agent-teams-ai/main/README.md - the README's provider list and feature screenshots as fetched this run.

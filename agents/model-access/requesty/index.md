@@ -1,7 +1,7 @@
 ---
 title: Requesty
 created: 2026-09-26
-updated: 2026-10-18
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, ai-gateway, llm-routing, eu-data-residency]
 readability: 3
@@ -18,12 +18,12 @@ Requesty is an EU-hosted managed AI gateway that puts 600+ models behind one Ope
 
 I read it as pass-through billing with a gateway attached: hosted-only, no subscription tiers, no seat fees, no minimum spend.
 You get routing policies, fallback chains, semantic caching, budget caps, PII detection, and an MCP gateway over one key.
-Their own comparison post says the gateway is built in Rust, and EU residency in Frankfurt is central to their positioning.
+Their own June 2026 comparison post said the gateway is built in Rust (the page was rebuilt on 2026-10-28 and no longer carries that claim as fetched), and EU residency in Frankfurt is central to their positioning.
 
 ## Status
 
 - Alive and funded: a $3M seed led by 20VC was announced 2025-09-26, with Tapestry VC, Insiders Ventures, and Tiny Supercomputer, and Business Insider covered the pitch deck.
-- The site footer reads © 2026 Requesty Ltd and their blog shipped multiple gateway comparisons through June and September 2026, yet an hn.algolia.com search for "requesty.ai" returns no story about the company, so their footprint is SEO and docs, not Hacker News.
+- The site footer reads © 2026 Requesty Ltd, their blog kept shipping through October 2026 (an Auto Routing beta launched 2026-10-27 with a decision model that reads the first message, picks a route, and pins it for 60 minutes, and their own routing comparison was rebuilt around it on 2026-10-28), and an hn.algolia.com search for "requesty.ai" surfaced a first story about the company on 2026-10-28 at 1 point, so the footprint is still SEO and docs first, with a negligible HN thread.
 
 ## Strengths
 
@@ -35,13 +35,13 @@ Their own comparison post says the gateway is built in Rust, and EU residency in
 
 - The 5% scales with your spend, so the fee grows exactly when your usage does, unlike flat-priced access.
 - A competitor-authored guide (TrueFoundry, which sells a rival gateway) notes Requesty is hosted-only with no self-hosting, had SOC 2 Type II still in progress (expected Q3 2026), and keeps self-service prompt logging on for up to 30 days by default, with organization-wide zero retention available only on written request.
-- Their own properties disagree on catalog size: 600+ on the pricing page versus 400+ in their June 2026 comparison.
+- Their own catalog figures disagreed: 600+ on the pricing page versus 400+ in their June 2026 comparison; the comparison was rebuilt on 2026-10-28 into Auto Routing content and now reads 600+ like the pricing page, so the disagreement is closed on the cited page (the older figure stands as the June read).
 - The "caching makes us net-negative on cost" claim (40-60% hit rates) is vendor math I could not verify independently.
 
 ## Pricing
 
 - Free: $0, free models only, 200 requests/day, routing, caching, spend tracking, and EU residency included.
-- Pay as you go: flat 5% markup on upstream model cost, all 600+ models, budget caps, and MCP gateway, with BYOK carrying 0% markup per their docs (as of 2026-10-18, re-verified against the pricing page and the competitor guide).
+- Pay as you go: flat 5% markup on upstream model cost, all 600+ models, budget caps, and MCP gateway, with BYOK carrying 0% markup per their docs (as of 2026-11-01, re-verified against the pricing page and the competitor guide).
 - Enterprise: custom, with SSO (Okta, Azure AD, Google Workspace, custom OIDC), RBAC, approved-model policies, and custom SLAs.
 
 ## Price history
@@ -66,6 +66,7 @@ My most contestable claim: without repetitive traffic that actually hits the cac
 
 - 2026-09-26 - Created.
 - 2026-10-18 - Rotation re-verification: every cited source re-fetched live (the pricing page, the $3M seed post, the June routing comparison, the TrueFoundry competitor guide, and the HN search) with the 5% markup, the free tier, the 400-plus-versus-600-plus catalog disagreement, the retention terms, and the SOC 2-in-progress status all unchanged; Compared-to cross-references converted to links.
+- 2026-11-01 - Rotation re-verification with two footprint moves: the company's own routing comparison was rebuilt 2026-10-28 into Auto Routing content (the beta launched 2026-10-27) and now reads 600+ models like the pricing page, closing the 400-versus-600 catalog disagreement this note recorded, and a first HN story about the company appeared 2026-10-28 at 1 point; the 5% markup, free tier, retention terms, and SOC 2-in-progress status re-verified unchanged on every other source.
 
 ## See also
 
@@ -75,8 +76,8 @@ My most contestable claim: without repetitive traffic that actually hits the cac
 
 ## References
 
-- https://requesty.ai/pricing - 5% markup quote, tier table, 200 requests/day free tier, EU residency (re-verified unchanged 2026-10-06, 2026-10-11, 2026-10-14, 2026-10-16, 2026-10-17, and 2026-10-18)
-- https://www.requesty.ai/blog/requesty-raises-3m - $3M seed led by 20VC, investor list, EU positioning (published 2025-09-26; re-fetched 2026-10-18 unchanged)
-- https://www.requesty.ai/blog/best-llm-routing-platforms-compared-2026-requesty-portkey-litellm-openrouter - their own marketing comparison; Rust, 8ms P50 claim, OpenRouter's 5.5% credit fee (published 2026-06-23; re-fetched 2026-10-18 unchanged, still listing 400+ models in its own table)
-- https://www.truefoundry.com/blog/requesty-ai-pricing - competitor-authored critical guide; BYOK 0%, 30-day prompt retention, SOC 2 in progress (published 2026-09-11; re-fetched 2026-10-18 unchanged)
-- https://hn.algolia.com/api/v1/search?query=requesty.ai&tags=story - no meaningful Hacker News footprint found (queried 2026-09-26; re-queried 2026-10-16, 2026-10-17, and 2026-10-18, still no story about the company)
+- https://requesty.ai/pricing - 5% markup quote, tier table, 200 requests/day free tier, EU residency (re-verified unchanged 2026-10-06, 2026-10-11, 2026-10-14, 2026-10-16, 2026-10-17, and 2026-10-18; re-verified unchanged 2026-11-01)
+- https://www.requesty.ai/blog/requesty-raises-3m - $3M seed led by 20VC, investor list, EU positioning (published 2025-09-26; re-fetched 2026-10-18 unchanged; re-fetched 2026-11-01 unchanged)
+- https://www.requesty.ai/blog/best-llm-routing-platforms-compared-2026-requesty-portkey-litellm-openrouter - their own marketing comparison; Rust, 8ms P50 claim, OpenRouter's 5.5% credit fee (published 2026-06-23; re-fetched 2026-10-18 unchanged, still listing 400+ models in its own table; re-fetched 2026-11-01 with the page updated 2026-10-28 into Auto Routing content, now reading 600+ models and no longer carrying the 400+ table or the Rust/8ms claims as fetched)
+- https://www.truefoundry.com/blog/requesty-ai-pricing - competitor-authored critical guide; BYOK 0%, 30-day prompt retention, SOC 2 in progress (published 2026-09-11; re-fetched 2026-10-18 unchanged; re-fetched 2026-11-01 unchanged)
+- https://hn.algolia.com/api/v1/search?query=requesty.ai&tags=story - HN footprint check (no meaningful story found, queried 2026-09-26; re-queried 2026-10-16, 2026-10-17, and 2026-10-18, still no story about the company; re-queried 2026-11-01 returning a first story, "Requesty: AI Gateway and LLM Router for 600 Models in EU Datacenters", 1 point, 2026-10-28)

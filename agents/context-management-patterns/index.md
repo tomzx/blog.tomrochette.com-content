@@ -1,7 +1,7 @@
 ---
 title: "Context Management Patterns"
 created: 2026-08-24
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash]
 readability: 3
@@ -115,6 +115,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - 2026-10-23 - Rotation re-verification of all eight cited pages: corrected the compaction-survival claim, Claude Code rebuilds and re-injects skill descriptions since v2.1.304 where the essay said the listing did not reload, and named the autoMemoryEnabled setting beside /memory as the auto-memory off-switch; every other pattern claim re-verified against the live docs, and the intro as-of re-dated.
 - 2026-10-28 - Rotation re-verification of all eight cited pages: every one fetched 200, the compaction, subagent, and auto-memory claims re-checked against the live docs with nothing to correct (the docs now also state that the summary inherits the session's thinking setting and that an over-5,000-token file returns as a path reference, refinements the essay's claims survive), and the intro as-of re-dated.
 - 2026-10-31 - Rotation re-verification of all eight cited pages plus the how-claude-code-works page: every one fetched 200, and three stale Claude Code documentation attributions replaced with the rewritten docs' current wording, the retired "the context window is the most important resource to manage" line and the removed "infinite exploration" anti-pattern no longer exist on the live pages (whose best-practices guide now argues focused context for answer quality rather than window scarcity), and the compaction-survival enumeration tightened to the summary-keeps-requests-and-key-code-snippets claim the current how-claude-code-works page states; every other pattern claim re-verified against the live docs, and the intro as-of re-dated.
+- 2026-11-01 - Link check: all nine cited pages fetched 200, the pattern claims holding from the 2026-10-31 rotation pass, and the intro as-of left at 2026-10-31 since no fact moved.
 
 ## See also
 

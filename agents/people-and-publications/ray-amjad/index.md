@@ -1,7 +1,7 @@
 ---
 title: Ray Amjad
 created: 2026-09-24
-updated: 2026-10-29
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, claude-code, agentic-coding, verification]
 readability: 3
@@ -43,6 +43,10 @@ His cohort page claims 4,000+ engineers taught and 5,000+ hours in Claude Code a
 - The credentials (4,000+ taught, 5,000+ hours, "most in-depth Claude Code content on YouTube") are self-reported and unverified by any third party I could find.
 - The third-party footprint is thin: zero Hacker News threads mention him as of 2026-09-24, so nothing he claims has yet been publicly criticized or corrected, which cuts both ways.
 
+## Pricing
+
+The videos are free and he states he has never accepted a sponsor; revenue comes from agenticcoding.school (paid cohort, evergreen classes, company training, and consulting) and his own products (Impello AI, AgentStack, HyperWhisper). No prices are published on the public pages fetched for this note.
+
 ## Compared to
 
 - [IndyDevDan](../indydevdan/index.md): both sell cohort courses and coin vocabulary, but Ray is Claude Code release first and verification first while Dan is harness first, model-stacking first, and weekly.
@@ -53,10 +57,6 @@ His cohort page claims 4,000+ engineers taught and 5,000+ hours in Claude Code a
 
 **Recommended for engineers who want every Claude Code release explained with depth and a verifier-first mental model, and who can discount the course funnel.**
 Not for someone who wants vendor-agnostic coverage, or who minds that the demos showcase his own products.
-
-## Pricing
-
-The videos are free and he states he has never accepted a sponsor; revenue comes from agenticcoding.school (paid cohort, evergreen classes, company training, and consulting) and his own products (Impello AI, AgentStack, HyperWhisper). No prices are published on the public pages fetched for this note.
 
 ## Top 5 recommended reading
 
@@ -72,6 +72,7 @@ The videos are free and he states he has never accepted a sponsor; revenue comes
 - 2026-10-05 - The RSS feed serves again after its 2026-10-04 outage and reconfirms no upload newer than "Jev + Claude Code = The Cheapest Agentic Coding Loop Yet" (2026-09-18); Status and the reference line updated to match.
 - 2026-10-22 - Full re-verification, rotation: all cited URLs refetched and live; the RSS feed shows three new uploads (2026-10-12, 2026-10-18, 2026-10-20) with "Karpathy Is Right: Your Attention Is the New Bottleneck" now newest, the Jev video retitled to "How to Use Jev + Claude Code", and the cohort renamed to "The Software Factory Engineer" (190 lessons, 2026-10-26 to 2026-11-06 run); Status, What-it-is, Top 5, and References updated to match.
 - 2026-10-29 - A fourth upload since the rotation: "Anthropic's New Subagent Rules Will Change How You Build" (2026-10-26) is now newest, making 19 uploads between April 9 and October 26; the Jev video passed 172,522 views and the newest video descriptions are back to the "My Agent-Era Engineer Cohort" title; RSS feed fetched this run; added the Pricing section the note format mandates.
+- 2026-11-01 - Moved the Pricing section to its mandated position between Cautions and Compared to; no content change.
 
 ## See also
 

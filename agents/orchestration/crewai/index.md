@@ -1,7 +1,7 @@
 ---
 title: CrewAI
 created: 2026-09-29
-updated: 2026-10-29
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -23,7 +23,7 @@ The repo sits at 59,709 stars with 8,729 forks, MIT licensed, created 2023-10-27
 
 ## Status
 
-Active and heavily maintained: last push 2026-10-29, latest release 1.15.32 on 2026-10-27, and `crewai` 1.15.32 on PyPI (GitHub API, PyPI, as of 2026-10-28), continuing the near-daily patch train after 1.15.28 (2026-10-14) and 1.15.23 (2026-09-28).
+Active and heavily maintained: last push 2026-11-01, latest release 1.15.33 on 2026-10-29, and `crewai` 1.15.33 on PyPI (GitHub API, PyPI, as of 2026-11-01), continuing the near-daily patch train after 1.15.32 (2026-10-27), 1.15.28 (2026-10-14), and 1.15.23 (2026-09-28).
 The company raised $18M across seed and Series A in October 2024, led by Insight Partners and boldstart ventures, with Andrew Ng and HubSpot co-founder Dharmesh Shah as angels (SiliconANGLE).
 Company claims include 65 percent of the Fortune 500 using the platform (the pricing page as of 2026-10-11, up from roughly half at the September baseline) and 10 million+ agents executed monthly; I could not independently verify either number.
 
@@ -37,7 +37,7 @@ Company claims include 65 percent of the Fortune 500 using the platform (the pri
 
 - **The role-and-crew abstraction is the most copied metaphor in multi-agent tooling**, and it made multi-agent automation legible to teams that never wanted to write a message loop.
 - The dual open source plus enterprise motion is real: $18M raised, 150 enterprise beta customers claimed in the first year, and the OSS still ships weekly.
-- Notable enough to have a Wikipedia article, which almost no OSS agent framework can say.
+
 - MIT at the package level, so vendoring and embedding carry no license surprises.
 
 ## Cautions
@@ -46,6 +46,7 @@ Company claims include 65 percent of the Fortune 500 using the platform (the pri
 - Headline traction numbers ("nearly half the Fortune 500", "10 million+ agents per month") are company marketing.
 - The OSS is the funnel for an enterprise platform, so expect platform-first decisions in the roadmap.
 - It is a general task-automation framework, not a coding-agent orchestrator; there is no worktree, session, or repository model here.
+- Its April 2026 Wikipedia article was deleted on 2026-10-30 as expired LLM-generated content under Wikipedia's LLMPROD policy, so even the third-party coverage it had is gone.
 
 ## Pricing
 
@@ -81,6 +82,8 @@ Not for coordinating parallel coding agents (that is the rest of this category),
 - 2026-10-11 - Recorded the vendor's adoption claim moving to 65 percent of the Fortune 500 on the pricing page, up from roughly half at the September baseline.
 
 - 2026-10-25 - Recorded 1.15.30 (2026-10-24) as the latest release on GitHub and PyPI.
+- 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); recorded 1.15.33 (2026-10-29) as the latest release on GitHub and PyPI.
+- 2026-11-01 - Removed the Wikipedia reference and the strengths bullet citing it: the article was deleted 2026-10-30 as expired LLM-generated content (WP:LLMPROD), with the deletion log cited in its place and the fact recorded as a caution.
 ## See also
 
 - [AutoGen](../autogen/index.md) - the maintenance-mode framework CrewAI displaced in mindshare
@@ -96,5 +99,5 @@ Not for coordinating parallel coding agents (that is the rest of this category),
 - https://pypi.org/pypi/crewai/json - PyPI metadata (200): crewai 1.15.23, Python >=3.10,<3.14
 - https://api.github.com/repos/crewAIInc/crewAI/releases/latest - releases API (200): 1.15.23, published 2026-09-28
 - https://siliconangle.com/2024/10/22/agentic-ai-startup-crewai-closes-18m-funding-round/ - $18M seed and Series A, Insight Partners and boldstart, angels Andrew Ng and Dharmesh Shah (200)
-- https://en.wikipedia.org/wiki/CrewAI - Wikipedia article (200): company background and funding corroboration
+- https://en.wikipedia.org/w/api.php?action=query&list=logevents&letitle=CrewAI&format=json - the English Wikipedia deletion log (fetched 2026-11-01): the CrewAI article was deleted 2026-10-30 as expired LLM-generated content (WP:LLMPROD)
 - https://hn.algolia.com/api/v1/items/43354219 - largest CrewAI HN thread (200): 26 points, hobby-workflow showcase (critical source: thin independent critique relative to star scale)

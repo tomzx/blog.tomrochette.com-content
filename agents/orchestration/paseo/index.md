@@ -1,7 +1,7 @@
 ---
 title: Paseo
 created: 2026-08-30
-updated: 2026-10-29
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, mobile, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: about 20.9k stars (20,928) as of 2026-10-15, 2.5k forks, and 1,291 open issues and PRs, created 2025-10-13, with more than 6,100 commits on main (GitHub API, as of 2026-10-29).
+Young and fast: about 20.9k stars (20,928) as of 2026-10-15, 2.5k forks, and 1,291 open issues and PRs, created 2025-10-13, with more than 6,100 commits on main (GitHub API, as of 2026-11-01).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getpaseo/paseo&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Young and fast: about 20.9k stars (20,928) as of 2026-10-15, 2.5k forks, and 1,2
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=getpaseo/paseo&type=date&legend=top-left" />
 </picture>
 
-The v0.10 line went stable on 2026-09-28 with v0.10.0 and v0.10.1 shipping the same day, v0.10.2 (OpenCode v2 header-timeout, context-meter, and question-card fixes) followed on 2026-09-30, v0.10.3 (October 2) added a confirmation before a pairing link connects to a new or changed host, a supply-chain-style hardening for the relay, and the v0.11 line went stable on 2026-10-07 with v0.11.1 after beta.5, then v0.11.2 (October 9), v0.11.3 (October 15, the Hoplite ACP provider and a searchable provider catalog), and v0.11.4 (October 15, a Hoplite settings fix), with the v0.12 beta line that opened on 2026-10-16 going stable as v0.12.0 on 2026-10-19, v0.13.0 following on 2026-10-24 (foldable-phone layouts, agents delegating work to other machines through `paseo host add`, plugin file panels and translations), and v0.13.1 with v0.13.2 on 2026-10-26 (a startup-crash fix with Show background and eight or more workspaces, then Android animation fixes), after v0.9.2 (2026-09-24), v0.9.0 going stable with v0.9.1 the same day (September 22), the v0.9.0 betas of September 17-18, and v0.8.0 (2026-09-10, plugin header buttons, custom providers, and richer chat components), alongside 165 contributors and an active subreddit and Discord.
+The v0.10 line went stable on 2026-09-28 with v0.10.0 and v0.10.1 shipping the same day, v0.10.2 (OpenCode v2 header-timeout, context-meter, and question-card fixes) followed on 2026-09-30, v0.10.3 (October 2) added a confirmation before a pairing link connects to a new or changed host, a supply-chain-style hardening for the relay, and the v0.11 line went stable on 2026-10-07 with v0.11.1 after beta.5, then v0.11.2 (October 9), v0.11.3 (October 15, the Hoplite ACP provider and a searchable provider catalog), and v0.11.4 (October 15, a Hoplite settings fix), with the v0.12 beta line that opened on 2026-10-16 going stable as v0.12.0 on 2026-10-19, v0.13.0 following on 2026-10-24 (foldable-phone layouts, agents delegating work to other machines through `paseo host add`, plugin file panels and translations), and v0.13.1 with v0.13.2 on 2026-10-26 (a startup-crash fix with Show background and eight or more workspaces, then Android animation fixes), v0.14.0 following on 2026-10-29 with a v0.15.0-beta.1 prerelease on 2026-11-01, after v0.9.2 (2026-09-24), v0.9.0 going stable with v0.9.1 the same day (September 22), the v0.9.0 betas of September 17-18, and v0.8.0 (2026-09-10, plugin header buttons, custom providers, and richer chat components), alongside 165 contributors and an active subreddit and Discord.
 **The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at $15 per seat per month.**
 
 ## Strengths
@@ -97,6 +97,7 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 
 - 2026-10-25 - Recorded v0.13.0 (2026-10-24) on the release train.
 - 2026-10-27 - Recorded the v0.13 line's 2026-10-26 fixes (v0.13.1 and v0.13.2) after v0.13.0's machine-delegation and foldable-layout release.
+- 2026-11-01 - Recorded v0.14.0 (2026-10-29) stable and the v0.15.0-beta.1 prerelease (2026-11-01).
 
 ## See also
 

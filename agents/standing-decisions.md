@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [agents]
 readability: 0
@@ -122,6 +122,11 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-10-31 | trackers-and-leaderboards | the Vectara board's published rankings are computed by the commercial HHEM-2.3, with HHEM-2.1-Open as the downloadable open variant | the README and model card state it in plain text; the note, three matrix cells, the verification prose, and the index one-liner corrected 2026-10-31
 - 2026-10-31 | cross-category | the andyrewlee and AMO 2026-10-29 to 10-31 additions resolve on standing families | nine thin-record tails held (wsp, volt, borg, lookout, pohunek, yardlet, MercuryCLI, Aixle Flow, sorcerer), alchemist-coder's AMO-wave rejection carried by mechanism on the second listing, herdr-core and herduck folded into the herdr member as ecosystem evidence
 - 2026-10-31 | orchestration | Commonly (Team-Commonly/commonly, 1,374 stars as of 2026-10-31) admitted on the OpenHarness standalone-ADE precedent, the zero-coverage signal stated | Apache-2.0 self-hostable team pod sharing one task board and conversations with each member's agents, added to AMO's Coordination And Team Systems 2026-10-30, v3.0.0 2026-10-28
+- 2026-11-01 | cross-category | the AMO 2026-10-30 to 11-01 additions resolve with one thin-tail rejection and two already-covered listings | Joxo (89 stars, closed-source hosted, plugin-only repo, zero coverage) rejected on the thin-record tail; the #97 Google AX listing is the orchestration ax member's own repository and #99 is a Herdr entry upgrade, no membership change
+- 2026-11-01 | section-root | Superset is now Paradev (ParadevAI/Paradev, Elastic License 2.0, "formerly Superset" per its own README, CLI still `superset`); treat any remaining Superset mentions in essays as Paradev | repository README fetched 2026-11-01
+- 2026-11-01 | section-root | Paseo is Apache-2.0, relicensed from the AGPL-3.0 earlier records carry, with Antigravity and Muse Code added to its provider roster | repository README fetched 2026-11-01
+- 2026-11-01 | model-access | a vendor page contradicting itself between its plan table and its own FAQ/example text is recorded with both readings and the disagreement named, never averaged into one number | the experiential 2026-11-01 fetch read 10M/100M/1B tokens-a-day ceilings in the plan table against the FAQ's retained 9B/36B/54B, so the note and matrix carry both with dates
+- 2026-11-01 | people-and-publications | ludicity (Nik Suresh, Hermit Tech) rejected as a voice on the long-established clause of the 2026-10-13 ruling: the author's breakout essays predate the coverage window, so the July 2026 AI Mania coverage is not an in-window breakout | the essay itself remains admissible as third-party evidence inside member notes
 
 - 2026-10-28 | evaluation-review | InternScience/ResearchClawBench admitted as the raw-data re-discovery benchmark beside MLR-Bench; the automated-research handoff resolved on the citation bar as a single entrant | MIT code and dataset, arXiv v5, human-reproduced rubrics, seven-plus external leaderboard teams; the unvalidated judge and zero HN footprint ride the note; q#85 stays open
 

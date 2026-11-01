@@ -1,7 +1,7 @@
 ---
 title: CAMEL
 created: 2026-10-07
-updated: 2026-10-29
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, research, role-playing]
 readability: 3
@@ -68,6 +68,7 @@ Not for engineers who need a session orchestrator around external coding CLIs; e
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
+- 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); no factual drift, PyPI still at 0.2.90 and the push date unchanged since 2026-10-27.
 
 ## See also
 

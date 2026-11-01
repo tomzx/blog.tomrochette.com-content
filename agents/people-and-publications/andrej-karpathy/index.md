@@ -1,7 +1,7 @@
 ---
 title: Andrej Karpathy
 created: 2026-08-29
-updated: 2026-10-24
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, model-researcher]
 readability: 3
@@ -27,7 +27,7 @@ As of 2026-10-04 he is at Anthropic's pre-training team, refreshing his thesis i
 His Verifiability essay (2025-11-17) lays out verifiability as the automation boundary, and his AutoResearch project demonstrates agents running research loops overnight, so his writing and his builds move together.
 His Bear blog is flapping: on 2026-10-03 every karpathy.bearblog.dev URL returned 404 while karpathy.ai still called it his current blog, it served again with all posts intact on 2026-10-04, went dark again on 2026-10-05, and serves again as of 2026-10-06, so this note links the live URLs and keeps the Internet Archive snapshots in References as the durable fallback.
 As of 2026-10-24 both essays and the blog index serve, and the same fetch found the 404s are client-dependent (a plain scripted client gets them, a browser user-agent does not), so the flapping reads as intermittent bot-blocking rather than the blog going away; the archive snapshots stay in References anyway.
-The post list still ends at the Sequoia Ascent essay (2026-04-30), so nothing new surfaced on the blog in the recent window, and his GitHub activity shows nothing new from him since early September (his latest push remains nanochat on 2026-09-07).
+The post list no longer ends at the Sequoia Ascent essay (2026-04-30): on 2026-10-31 he published "HackerTube", a weekend build writeup of hackertube.org, a YouTube clone serving the videos Hacker News commenters recommend, built with Opus 5.5 in about two hours, and it now leads the blog, followed by the Sequoia Ascent essay, and his GitHub activity shows nothing new from him since early September (his latest push remains nanochat on 2026-09-07).
 
 ## Strengths
 
@@ -76,6 +76,7 @@ Not for people who need a current-events feed or want vendor-neutral, non-fronti
 - 2026-10-05 - The Bear blog went dark again (homepage, blog index, and both essays return 404), the second outage in three days, so the Sequoia Ascent and Verifiability links in Top 5 and References point at their Internet Archive snapshots again (both fetched this run); GitHub and the HN record show nothing new in the window.
 - 2026-10-06 - The Bear blog serves again (third state change in four days: dark 2026-10-03, up 2026-10-04, dark 2026-10-05, up 2026-10-06), so the Sequoia Ascent and Verifiability links point at the live URLs again, with both Internet Archive snapshots kept in References and both fetched this run; the restored post list still ends at the Sequoia Ascent essay (2026-04-30) and GitHub still shows nothing new.
 - 2026-10-24 - The Bear blog's intermittent 404s identified as client-dependent serving (browser user-agents fetch every page, plain scripted clients get 404s), the post list still ends at the Sequoia Ascent essay (2026-04-30), and his latest GitHub push remains nanochat (2026-09-07).
+- 2026-11-01 - Rotation re-verification, every cited URL re-fetched: the live Medium Software 2.0 page began returning 403 to automated fetches, so its reference now points at the 2026-10-06 Internet Archive snapshot; the blog's post list moved with his new "HackerTube" essay (2026-10-31) and GitHub still ends at nanochat (2026-09-07).
 
 ## See also
 
@@ -92,7 +93,8 @@ Not for people who need a current-events feed or want vendor-neutral, non-fronti
 - https://web.archive.org/web/20260925165449/https://karpathy.bearblog.dev/sequoia-ascent-2026/ - the durable Internet Archive snapshot of the Sequoia Ascent essay, the fallback for when the live blog is dark
 - https://karpathy.bearblog.dev/verifiability/ - the Verifiability essay (2025-11-17), the automation-boundary argument, fetched live this run
 - https://web.archive.org/web/20260830203738/https://karpathy.bearblog.dev/verifiability/ - the durable Internet Archive snapshot of the Verifiability essay, the fallback for when the live blog is dark
-- https://karpathy.medium.com/software-2-0-a64152b37c35 - the original Software 2.0 essay
+- https://karpathy.bearblog.dev/hacker-tube/ - the 2026-10-31 HackerTube post, the blog's newest entry: hackertube.org, a YouTube clone over the videos HN commenters recommend, built with Opus 5.5 in about two hours
+- https://web.archive.org/web/20261006181330/https://karpathy.medium.com/software-2-0-a64152b37c35 - the original Software 2.0 essay (Internet Archive snapshot; the live Medium page returns 403 to automated fetches as of 2026-11-01)
 - https://github.com/karpathy/autoresearch - the overnight agent research project
 - https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f - the LLM-Wiki knowledge-base pattern
 - https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/ - independent coverage of his move to Anthropic

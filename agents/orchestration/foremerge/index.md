@@ -1,7 +1,7 @@
 ---
 title: Foremerge
 created: 2026-09-22
-updated: 2026-10-25
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, coordination, git-worktrees, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The author is Nick Woodhead, who built it as internal tooling at GPTree, a compa
 ## Status
 
 Active, young, and gaining traction fast.
-The repository was created 2026-08-21 and shows 538 stars and 25 forks as of 2026-10-11, pushed 2026-10-25 (GitHub API, as of 2026-10-25).
+The repository was created 2026-08-21 and shows 538 stars and 25 forks as of 2026-10-11, pushed 2026-10-29 (GitHub API, as of 2026-11-01).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=naw103/foremerge&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ My disagreeable claim: this is the missing layer the whole worktree-manager cate
 - 2026-10-07 - Added the naw103/foremerge star history chart to the Status section.
 
 - 2026-10-25 - Recorded v0.6.0 (2026-10-25) as the latest published release.
+- 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); v0.6.0 stands as the latest published release, with the push date refreshed to 2026-10-29.
 ## See also
 
 - [Worktrunk](../worktrunk/index.md) - the worktree lifecycle manager whose isolation Foremerge's coordination sits above

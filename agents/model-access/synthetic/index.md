@@ -1,7 +1,7 @@
 ---
 title: Synthetic
 created: 2026-09-26
-updated: 2026-10-19
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, open-weight-models, llm-subscription, coding-agents]
 readability: 3
@@ -41,7 +41,7 @@ Any OpenAI-compatible tool works against api.synthetic.new/v1 (Anthropic-compati
 
 ## Pricing
 
-- Subscription tiers (as of 2026-10-19): Go $9/month, Standard $30/month, and Big $90/month, each carrying a weekly-regenerating credit quota spent as tokens at discounted model rates, with larger limits, higher priority, and more beta access at higher tiers.
+- Subscription tiers (as of 2026-11-01, re-verified unchanged): Go $9/month, Standard $30/month, and Big $90/month, each carrying a weekly-regenerating credit quota spent as tokens at discounted model rates, with larger limits, higher priority, and more beta access at higher tiers.
 - Each plan includes 1 usage reset per month, and extra tokens are always buyable at usage-based pricing.
 - Fast mode: requests run up to 2x faster while each request consumes 2x of the rate limit.
 - Infinite mode (Big plan, beta): built for background agents, requests never count against the rate limit but run much slower, currently DeepSeek V4.1 Flash only.
@@ -73,6 +73,7 @@ My most contestable claim: the "3x Claude limits" line is the weakest reason to 
 - 2026-09-26 - Created.
 - 2026-10-06 - Repaired the Compared-to Requesty link, which was double-wrapped and rendered its file path as the link text; pricing page re-verified unchanged.
 - 2026-10-19 - Pricing overhaul recorded: the single $30 pack (500 requests per 5 hours, 3x-Claude framing) became a Go $9 / Standard $30 / Big $90 lineup on weekly-regenerating credit quotas with Fast and Infinite modes, and the pricing page fetched with content for the first time since 2026-10-06; headline, Status, Cautions, Pricing, and price history moved with it.
+- 2026-11-01 - Rotation re-verification: every cited source re-fetched live and unchanged (the Go $9 / Standard $30 / Big $90 tiers, weekly credits, Fast and Infinite modes, and the 1-reset-per-month row on the pricing page, the October 2025 $20/$60 Wayback capture, the Show HN thread at 31 points, the model list with the syn: alias recommendation, the OpenCode native-provider guide, and Kilo's no-training and 14-day auto-delete claims); the pricing page's rows again render only in the full-page fetch, so the JS-render caveat stands; every price stands.
 
 ## See also
 
@@ -82,10 +83,10 @@ My most contestable claim: the "3x Claude limits" line is the weakest reason to 
 
 ## References
 
-- https://synthetic.new/pricing - the 2026-10-19 lineup: Go $9, Standard $30, Big $90 per month, weekly-regenerating credit quotas at discounted model rates, Fast and Infinite modes, 1 usage reset per month (fetched 200 with full text on 2026-10-19; the JS-rendered page had fetched empty on 2026-10-11, 2026-10-12, and 2026-10-14, so the previous $30-pack figures stood dated 2026-10-06)
-- https://web.archive.org/web/20251008095830id_/https://synthetic.new/pricing - October 2025 pricing: Standard $20/135 messages per 5h, Pro $60/1,350
-- https://hn.algolia.com/api/v1/items/45055763 - Show HN launch thread; founder on request counting, 14-day retention, and GLM-4.5 as flagship (2025-08-28)
-- https://dev.synthetic.new/docs/api/models - current always-on model list, syn: aliases, model-rotation warning (as of 2026-09-26; re-fetched 2026-10-19 with GLM-5.3-Flash, DeepSeek-V4.1-Flash, and Kimi-K3 still listed and the syn: alias recommendation unchanged)
-- https://dev.synthetic.new/docs/guides/opencode - native OpenCode provider setup
-- https://kilo.ai/docs/ai-providers/synthetic - Kilo integration, no-training and 14-day auto-delete privacy claims
+- https://synthetic.new/pricing - the 2026-10-19 lineup: Go $9, Standard $30, Big $90 per month, weekly-regenerating credit quotas at discounted model rates, Fast and Infinite modes, 1 usage reset per month (fetched 200 with full text on 2026-10-19; the JS-rendered page had fetched empty on 2026-10-11, 2026-10-12, and 2026-10-14, so the previous $30-pack figures stood dated 2026-10-06; re-fetched 2026-11-01 with the three tiers, the weekly-credit framing, and both modes unchanged, again readable only in the full-page fetch)
+- https://web.archive.org/web/20251008095830id_/https://synthetic.new/pricing - October 2025 pricing: Standard $20/135 messages per 5h, Pro $60/1,350 (re-fetched 2026-11-01 unchanged)
+- https://hn.algolia.com/api/v1/items/45055763 - Show HN launch thread; founder on request counting, 14-day retention, and GLM-4.5 as flagship (2025-08-28; re-fetched 2026-11-01 unchanged at 31 points)
+- https://dev.synthetic.new/docs/api/models - current always-on model list, syn: aliases, model-rotation warning (as of 2026-09-26; re-fetched 2026-10-19 with GLM-5.3-Flash, DeepSeek-V4.1-Flash, and Kimi-K3 still listed and the syn: alias recommendation unchanged; re-fetched 2026-11-01 unchanged)
+- https://dev.synthetic.new/docs/guides/opencode - native OpenCode provider setup (re-fetched 2026-11-01 unchanged)
+- https://kilo.ai/docs/ai-providers/synthetic - Kilo integration, no-training and 14-day auto-delete privacy claims (re-fetched 2026-11-01 unchanged)
 - https://www.reddit.com/r/opencodeCLI/comments/1rfdadw/stay_away_from_syntheticnew/ - critical user report on practical limits; direct fetch returned 403, content recovered via search-result extraction

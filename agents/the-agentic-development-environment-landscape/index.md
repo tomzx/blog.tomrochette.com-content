@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Development Environment Landscape"
 created: 2026-07-04
-updated: 2026-10-28
+updated: 2026-11-01
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains]
 readability: 3
@@ -13,7 +13,7 @@ agent_sessions:
 
 The terminal coding agent answered the question of whether an AI can edit a real repository.
 The next problem is harder: how do you run several of them, watch what they are doing, and keep them from colliding on the same files.
-In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-10-28.
+In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-11-01.
 
 ## What an ADE is, and what it is not
 
@@ -47,8 +47,8 @@ A shared protocol makes the "plug-replaceable agents" premise credibly vendor-ne
 The category is unusually concentrated for its age.
 As of mid-2026 the top of the field was five products, and the gap between the leader and the sixth was large; this piece records that snapshot, while the [Orchestration category](../orchestration/_index.md) tracks the membership as it stands now.
 
-[Superset](https://github.com/superset-sh/superset) bills itself plainly as the code editor for the AI agents era and able to run a fleet of Claude Code, Codex, and similar CLIs on your own machine.
-It is an Electron desktop app with a CLI companion, and its positioning is the simplest of the group: bring your own agents, run them in parallel, review the results.
+[Paradev](https://github.com/ParadevAI/Paradev) is the renamed Superset (re-read 2026-11-01), and the snapshot's simplest positioning has widened: the repository now bills itself as an agentic IDE to orchestrate 100+ coding agents in parallel, still an Electron desktop app with a CLI companion (the command is still `superset`) and still the simplest pitch of the group, bring your own agents, run them in parallel, review the results.
+One caveat the snapshot missed: the license is Elastic License 2.0, source-available rather than OSI open source, so the free-for-your-own-use claim holds but the open-source label does not.
 
 [JetBrains Air](https://www.jetbrains.com/air/) is the incumbent's answer, and the one most likely to reshape the field by distribution alone.
 JetBrains killed Fleet in late 2025 and replaced it with Air, an agentic development environment [launched as a public preview](https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/) in March 2026 on macOS, with Windows following in June and Linux still pending.
@@ -63,13 +63,13 @@ It runs any CLI agent on macOS, Windows, and Linux, ships an iOS and Android com
 It is MIT-licensed and YC-backed, it carries the category's largest open-source community (about 91.6k GitHub stars as of 2026-10-13), and it is the reference implementation most people picture when they hear "ADE."
 
 [Paseo](https://github.com/getpaseo/paseo) takes the privacy-first position to its logical end.
-It is AGPL-3.0, ships desktop, mobile, web, and CLI clients against a self-hosted daemon, supports Claude Code, Codex, Copilot, OpenCode, and Pi through one interface, and collects no telemetry.
+It is Apache-2.0 as of this re-read (relicensed from the AGPL-3.0 the snapshot recorded), ships desktop, mobile, web, and CLI clients against a self-hosted daemon, supports Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code through one interface, and collects no telemetry.
 It also ships skills that turn the orchestrator into an agent capability: handoffs between agents, loops against acceptance criteria, and committees of contrasting agents for second opinions.
 For a buyer whose first question is "what is this sending home," Paseo is the answer.
 
 [Emdash](https://github.com/generalaction/emdash) is the open-source ADE with the clearest enterprise intent.
 It is a YC W26 company, runs multiple agents in parallel with any provider, and leans into integrations that solo-hacker tools tend to skip: Jira, Linear, and containerization as first-class concerns.
-It rounds out a top five that already spans open source (Superset, Orca, Paseo, Emdash) and commercial (Air), which is a healthy mix for such a young category.
+It rounds out a top five that already spans open source (Orca, Paseo, Emdash), source-available (Paradev, the renamed Superset, under Elastic License 2.0), and commercial (Air), which is a healthy mix for such a young category.
 
 ## The mid-tier and the long tail
 
@@ -98,7 +98,7 @@ Air closed much of that gap between my mid-2026 snapshot and the 2026-10-07 re-c
 For anyone who wants to steer agents from outside the office, the mobile and tunnel story is not a nice-to-have; it is the feature, and it is no longer open-source-only territory.
 
 The third axis is license and pricing, and it splits the field cleanly.
-The open-source tools (Superset, Orca, Emdash; Paseo under AGPL; OpenChamber under MIT) cost nothing and run against your own provider keys.
+The open-source tools (Orca and OpenChamber under MIT, Emdash and Paseo under Apache-2.0; Paradev, the renamed Superset, ships Elastic License 2.0, which is source-available rather than OSI open source) cost nothing for your own use and run against your own provider keys.
 Air is closed-source and either bundles into a JetBrains AI subscription or takes your own API keys, which is fine for an enterprise buyer and a poor fit for a self-hosting one.
 **The license is also a proxy for longevity: in a category this young, an MIT or AGPL codebase is the one that survives a company shutting down.**
 
@@ -149,6 +149,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - 2026-10-19 - Rotation re-verification: re-fetched all 17 URLs, fifteen fetched 200 and the two GitHub topic pages returned 429 on both attempts (as on 2026-10-10), and Air's supported-agent, surface, and cloud-run claims re-verified against its live page.
 - 2026-10-25 - Rotation re-verification: re-fetched all 17 URLs, every one 200 this run (the two GitHub topic pages cleared their 429 streak), and rewrote Air's leaderboard paragraph against its live page, which now leads with the IDE plugin plus web, CLI, and mobile surfaces instead of a standalone desktop app, names Claude Agent and ACP-connectable agents rather than a fixed roster (Claude Code and Codex arrive through Air Gateway, and Junie has been folded into Air), and repeats the some-customers cloud-run rollout; Orca's dated star count left untouched per the stars exemption.
 - 2026-10-28 - Rotation re-verification: re-fetched all 17 URLs, every one 200 this run, and Air's supported-agent, surface, and cloud-run claims re-verified against its live page (Claude Agent and ACP-connectable agents, IDE, web, CLI, and mobile surfaces, Air Gateway for terminal agents, Junie folded in, the some-customers cloud-run rollout unchanged); Orca's dated star count left untouched per the stars exemption.
+- 2026-11-01 - Rotation re-verification with two out-of-rotation corrections the fetches surfaced: Superset renamed itself Paradev (ParadevAI org, "formerly Superset" in its own README, agentic IDE to orchestrate 100+ coding agents in parallel, the `superset` CLI unchanged, and licensed Elastic License 2.0, source-available rather than OSI open source), and Paseo relicensed from AGPL-3.0 to Apache-2.0 while adding Antigravity and Muse Code to its provider roster; the leaderboard paragraph, the top-five mix line, the license axis, and the two references updated; every one of the 17 URLs fetched 200 this run, Air's supported-agent, surface, and cloud-run claims re-verified unchanged against its live page, and Orca's dated star count left untouched per the stars exemption.
 
 ## See also
 
@@ -163,7 +164,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 
 - [stablyai/orca](https://github.com/stablyai/orca) - open-source ADE; any CLI agent, desktop and mobile, the feature reference
 - [getpaseo/paseo](https://github.com/getpaseo/paseo) - AGPL self-hosted ADE; multi-provider, zero telemetry
-- [superset-sh/superset](https://github.com/superset-sh/superset) - open-source ADE, Electron desktop app with a CLI companion (about 15.1k stars as of 2026-10-13)
+- [ParadevAI/Paradev](https://github.com/ParadevAI/Paradev) - the renamed Superset (about 15.1k stars as of 2026-10-13), Electron desktop app with a CLI companion, Elastic License 2.0
 - [JetBrains Air](https://www.jetbrains.com/air/) - the incumbent's commercial ADE
 - [JetBrains, "Air Launches as Public Preview"](https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/) - Air's positioning, supported agents, and roadmap
 - [JetBrains + Zed, Agent Client Protocol](https://blog.jetbrains.com/ai/2025/10/jetbrains-zed-open-interoperability-for-ai-coding-agents-in-your-ide/) - the interop standard that makes vendor-neutral ADEs credible
@@ -175,6 +176,6 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - [automagik-dev/genie](https://github.com/automagik-dev/genie) - CLI agent that dispatches parallel worktrees and reviews
 - [lanes-sh/app](https://github.com/lanes-sh/app) - mission control for parallel agents
 - [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) - curated list for tracking the long tail
-- [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (fetched 200, 2026-10-25)
-- [GitHub topic: parallel-agents](https://github.com/topics/parallel-agents) - the broader orchestration topic (fetched 200, 2026-10-25)
-- [OpenCode ACP documentation](https://opencode.ai/docs/acp/) - the shipped adapter that resolved the protocol-axis question (fetched 200, 2026-10-25)
+- [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (fetched 200, 2026-11-01)
+- [GitHub topic: parallel-agents](https://github.com/topics/parallel-agents) - the broader orchestration topic (fetched 200, 2026-11-01)
+- [OpenCode ACP documentation](https://opencode.ai/docs/acp/) - the shipped adapter that resolved the protocol-axis question (fetched 200, 2026-11-01)

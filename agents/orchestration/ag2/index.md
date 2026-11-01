@@ -1,7 +1,7 @@
 ---
 title: AG2
 created: 2026-10-07
-updated: 2026-10-29
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, fork, autogen]
 readability: 3
@@ -69,6 +69,7 @@ Not for greenfield projects that can pick a single supported path from day one.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
+- 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); the release line and the PyPI tracking claim stand at v1.2.2/1.2.2, with pushes continuing on 2026-11-01, and the stale PyPI reference description corrected.
 
 ## See also
 
@@ -82,5 +83,5 @@ Not for greenfield projects that can pick a single supported path from day one.
 - https://github.com/ag2ai/ag2 - the repository, its "formerly AutoGen" framing, stars, license, and release line.
 - https://docs.ag2.ai/ - the project documentation.
 - https://www.ag2.ai/ - the project site and playground links.
-- https://pypi.org/project/ag2/ - the PyPI package and its current 1.1.2 version.
+- https://pypi.org/project/ag2/ - the PyPI package, tracking the GitHub release line at 1.2.2 (re-fetched 2026-11-01).
 - https://news.ycombinator.com/item?id=42131736 - the 2-point November 2024 launch thread, the record of how little press attention the fork got.
