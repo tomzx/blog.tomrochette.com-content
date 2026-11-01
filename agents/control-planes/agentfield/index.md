@@ -1,7 +1,7 @@
 ---
 title: AgentField
 created: 2026-10-13
-updated: 2026-10-30
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, identity, policy-enforcement, receipts, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The governance layer is the differentiator: tag-based access policies (function-
 
 ## Status
 
-Active and funded: 2,611 stars and 430 forks as of 2026-10-13, with 34 open issues and the last push on 2026-10-29 as of 2026-10-30, repository created 2025-11-05 (the company organization in March 2025).
+Active and funded: 2,611 stars and 430 forks as of 2026-10-13, with 29 open issues and the last push on 2026-10-31 as of 2026-11-01, repository created 2025-11-05 (the company organization in March 2025).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Agent-Field/agentfield&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and funded: 2,611 stars and 430 forks as of 2026-10-13, with 34 open issu
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Agent-Field/agentfield&type=date&legend=top-left" />
 </picture>
 
-The release train left release candidates on 2026-10-24: v0.1.143 is the first stable tag and PyPI published agentfield 0.1.143 the same day, after 0.1.142 (2026-10-19) had been its first non-rc upload and every prior tag an rc; it has since tagged v0.1.145 stable (2026-10-27, PyPI in step) and reopened the candidate line with v0.1.146-rc.1 through rc.3 by 2026-10-29.
+The release train left release candidates on 2026-10-24: v0.1.143 is the first stable tag and PyPI published agentfield 0.1.143 the same day, after 0.1.142 (2026-10-19) had been its first non-rc upload and every prior tag an rc; it has since tagged v0.1.145 stable (2026-10-27, PyPI in step) and kept the candidate line running through v0.1.146-rc.10 by 2026-10-31.
 The founders are Oktay Goktas and Santosh Kumar Radha, the team behind Agnostiq (acquired by DataRobot in 2025) and Covalent, with Panache Ventures, Brightspark Ventures, and Drive Capital listed as partners, so this is a funded company's open-source product rather than a weekend project.
 **The community footprint is thin for the star count: a Hacker News search returns zero relevant threads, and the one independent writeup I found is a single Medium post, so the adoption evidence is the star count, the contributor count, and the vendor's own case studies (a 10,000-branch deep-research fan-out, a 250-agent security audit, both self-reported) rather than public technical debate.**
 
@@ -82,6 +82,7 @@ Not for governing agents built on other frameworks (ContextForge or the Microsof
 - 2026-10-25 - The train left release candidates: v0.1.143 (2026-10-24) is the first stable tag, with PyPI publishing 0.1.143 the same day, and the caution about the rc-only train rewritten.
 - 2026-10-28 - Release train moved to v0.1.145 (2026-10-27) with PyPI publishing 0.1.145.
 - 2026-10-30 - The built-in coding harness is now named CodeAF (AForge kept as the alias, state under the managed home's `bin`), with Pi and Oh My Pi added as dispatch providers beside Claude Code, Codex, Gemini CLI, and OpenCode; the candidate line reopened at v0.1.146-rc.3 after the v0.1.145 stable tag.
+- 2026-11-01 - The candidate line ran on to v0.1.146-rc.10 (2026-10-31) with no new stable past v0.1.145 and PyPI holding at 0.1.145; the counters refreshed (29 open issues, pushed 2026-10-31).
 
 ## See also
 

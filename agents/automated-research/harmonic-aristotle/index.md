@@ -1,7 +1,7 @@
 ---
 title: Harmonic Aristotle
 created: 2026-09-13
-updated: 2026-10-19
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, harmonic, mathematics, formal-verification]
 readability: 3
@@ -23,7 +23,7 @@ The company calls its category "Mathematical Superintelligence"; it raised a $12
 
 ## Status
 
-Live product, free with an account, as of 2026-10-02.
+Live product, free with an account, as of 2026-11-01.
 The strongest independent credential is a November 2025 result on Erdős problem #124: Aristotle produced a proof working only from the formal statement, Boris Alexeev formalized and cleaned the statement, Lean checked it, and the Erdős Problems site updated to record that a version of the problem was solved, with the community debate over exactly which version playing out in public.
 Independent third-party benchmarking in July 2026 (the OpenATP project) scored Aristotle 10/10 on the FATE-H theorem set for free, at roughly twice the wall-clock time of Claude Code and Codex.
 On Math Inc.'s FormalQualBench (March 2026), Aristotle solved 6 of 23 with no time limit, but those runs were not validated with the comparator tool and are excluded from the audited counts.
@@ -44,7 +44,7 @@ On Math Inc.'s FormalQualBench (March 2026), Aristotle solved 6 of 23 with no ti
 
 ## Pricing
 
-Free with an account as of 2026-10-02.
+Free with an account as of 2026-11-01.
 Harmonic's $1,000,000 Mathematician Sponsorships program takes applications; no paid tiers are published on the fetched pages.
 
 ## Compared to

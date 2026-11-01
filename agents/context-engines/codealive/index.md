@@ -1,7 +1,7 @@
 ---
 title: CodeAlive
 created: 2026-10-05
-updated: 2026-10-25
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, code-graphs, mcp, saas]
 readability: 3
@@ -74,6 +74,7 @@ My disagreeable claim: CodeAlive's pricing model, the engine unbundled from the 
 - 2026-10-06 - Recorded the sales-assisted self-hosted deployment (Docker Compose or Kubernetes/Helm, bring-your-own LLM, demo-gated, no SOC 2 badge yet), correcting the cloud-only reading; the tier table and per-action rates re-verified unchanged.
 - 2026-10-17 - Full rotation re-verification: every cited URL re-fetched; the tier table, per-action rates, self-hosted page (still no SOC 2 badge by its own text), MCP v3 docs, and installer package (1.0.8) all unchanged; the zero-HN-story footprint re-confirmed and the new no-signup Playground and pricing-calculator surfaces recorded.
 - 2026-10-25 - Full rotation re-verification: every cited URL re-fetched and intact; the tier table, per-action rates, self-hosted page, and installer package (1.0.8) all unchanged; the zero-HN-story footprint re-confirmed (20 hits, all unrelated).
+- 2026-11-01 - Full rotation re-verification: every cited URL re-fetched and intact (the homepage tier table and per-action rates, the self-hosted page still carrying the no-SOC-2 statement by its own text, the MCP v3 docs with the eleven tools and the migration guide, the 3.0 announcement, the installer package still at 1.0.8 since February, and the pricing URL still redirecting to the homepage); the zero-HN-story footprint re-confirmed (all hits unrelated); no claim changed.
 
 ## See also
 
@@ -84,11 +85,11 @@ My disagreeable claim: CodeAlive's pricing model, the engine unbundled from the 
 
 ## References
 
-- https://codealive.ai/en - homepage: positioning, tier table, per-action rates, and the vendor-run efficiency claims (re-verified unchanged 2026-10-25)
-- https://codealive.ai/en/self-hosted - the self-hosted deployment surface: Docker Compose or Kubernetes/Helm, bring-your-own OpenAI-compatible LLM, demo-gated, no SOC 2 badge yet (fetched 2026-10-06)
-- https://codealive.ai/en/pricing - the pricing page (redirects to the homepage; content live 2026-10-05)
-- https://docs.codealive.ai/quickstart - installer, API keys, indexing flow, and example queries
-- https://docs.codealive.ai/integrations/mcp - MCP v3 tools, hosted endpoint, OAuth and Docker deployments, migration guide
-- https://codealive.ai/en/blog/codealive-3-context-engine-agent-repocontextbench - the 3.0 announcement: Tool API v3 (2026-07-11), ContextResearchAgent, RepoContextBench
-- https://registry.npmjs.org/@codealive%2Finstaller - the installer package, 1.0.8
-- https://hn.algolia.com/api/v1/search?query=CodeAlive&tags=story - the footprint scan: zero stories about the product, all matches unrelated (re-run 2026-10-17, strict-phrase search included)
+- https://codealive.ai/en - homepage: positioning, tier table, per-action rates, and the vendor-run efficiency claims (re-verified unchanged 2026-11-01)
+- https://codealive.ai/en/self-hosted - the self-hosted deployment surface: Docker Compose or Kubernetes/Helm, bring-your-own OpenAI-compatible LLM, demo-gated, no SOC 2 badge yet (fetched 2026-10-06; re-fetched intact 2026-11-01)
+- https://codealive.ai/en/pricing - the pricing page (redirects to the homepage; redirect re-checked 2026-11-01)
+- https://docs.codealive.ai/quickstart - installer, API keys, indexing flow, and example queries (re-fetched intact 2026-11-01)
+- https://docs.codealive.ai/integrations/mcp - MCP v3 tools, hosted endpoint, OAuth and Docker deployments, migration guide (re-fetched intact 2026-11-01)
+- https://codealive.ai/en/blog/codealive-3-context-engine-agent-repocontextbench - the 3.0 announcement: Tool API v3 (2026-07-11), ContextResearchAgent, RepoContextBench (re-fetched intact 2026-11-01)
+- https://registry.npmjs.org/@codealive%2Finstaller - the installer package, 1.0.8, unchanged since 2026-02-16 (re-fetched 2026-11-01)
+- https://hn.algolia.com/api/v1/search?query=CodeAlive&tags=story - the footprint scan: zero stories about the product, all matches unrelated (re-run 2026-11-01)

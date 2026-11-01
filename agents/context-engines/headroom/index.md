@@ -1,7 +1,7 @@
 ---
 title: Headroom
 created: 2026-10-07
-updated: 2026-10-27
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, token-optimization]
 readability: 3
@@ -23,7 +23,7 @@ The docs' reproducible benchmarks (seeded, generated from MCP output formats, gp
 
 ## Status
 
-Active and compounding fast: created 2026-01-07, 75,468 stars as of 2026-10-18 and 6,009 forks in nine months, PyPI package at 0.42.0, 159,697 npm downloads in the trailing month to 2026-10-22.
+Active and compounding fast: created 2026-01-07, 75,468 stars as of 2026-10-18 and 6,126 forks in nine months, PyPI package at 0.42.0 (still latest as of 2026-11-01), 142,690 npm downloads summed for 2026-10-02 to 2026-10-31 (nine zero days in the window).
 Release v0.41.0 (2026-10-14) added a native Google Antigravity IDE integration, OpenCode 2.x plugin-API support, and the headroom-snip Claude Code mod, the proxy gained turn hooks that rewrite OpenAI Responses requests on HTTP and WebSocket (2026-10-17), and release v0.42.0 (2026-10-26) shipped those hooks plus per-request saved-token counts on OutcomeSnapshot and the same tool-savings reporting on the gateway /v1/compress endpoint as the proxy path.
 
 <picture>
@@ -85,5 +85,5 @@ Not as a substitute for retrieval quality (compressing bad context makes bad con
 - https://api.github.com/repos/headroomlabs-ai/headroom - stars, forks, open issues, created date, and push date for the as-of status (fetched 200, 2026-10-18)
 - https://docs.headroomlabs.ai/docs - the compression table by content type, the seeded benchmark table with its own caveats, and the framework integrations (fetched 200, 2026-10-18)
 - https://pypi.org/pypi/headroom-ai/json - the published package version 0.42.0 (fetched 200, 2026-10-27)
-- https://api.npmjs.org/downloads/point/last-month/headroom-ai - 159,697 downloads in the trailing month to 2026-10-22 (fetched 200, 2026-10-25)
+- https://api.npmjs.org/downloads/range/2026-10-02:2026-10-31/headroom-ai - 142,690 downloads summed for 2026-10-02 to 2026-10-31, nine zero days in the window (fetched 2026-11-01)
 - https://hn.algolia.com/api/v1/items/48999841 - the largest Headroom thread, 10 points, July 2026, grounding the modest-HN-footprint observation (fetched 200, 2026-10-18)

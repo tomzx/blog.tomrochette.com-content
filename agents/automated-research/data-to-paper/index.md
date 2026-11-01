@@ -1,7 +1,7 @@
 ---
 title: data-to-paper
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, research-agent, traceability, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Rule-based agents hold the pipeline's structure while LLM agents write the code 
 
 ## Status
 
-Dormant but installable: 829 stars, created 2023-06-17, last push 2025-07-19, which is also the day PyPI took v1.1.22, the package's thirteenth release, as of 2026-10-15.
+Dormant but installable: 829 stars, created 2023-06-17, last push 2025-07-19, which is also the day PyPI took v1.1.22, the package's thirteenth release, as of 2026-11-01.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Technion-Kishony-lab/data-to-paper&type=date&theme=dark&legend=top-left" />

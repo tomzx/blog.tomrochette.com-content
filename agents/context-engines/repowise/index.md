@@ -1,7 +1,7 @@
 ---
 title: Repowise
 created: 2026-10-13
-updated: 2026-10-26
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-intelligence, mcp, code-health, static-analysis]
 readability: 3
@@ -26,7 +26,7 @@ Made by the repowise-dev organization, AGPL-3.0 or commercial, Python, active on
 
 ## Status
 
-Young and growing: 7,800 stars as of 2026-10-18, 944 forks and 405 open issues as of 2026-10-24, created 2026-03-23 and pushed 2026-10-25, PyPI at 0.59.0 (v0.59.0 shipped 2026-10-25, adding per-function coverage, the CRAP score, and an untested-complexity finding to the health suite).
+Young and growing: 7,800 stars as of 2026-10-18, 973 forks and 418 open issues as of 2026-11-01, created 2026-03-23 and pushed 2026-11-01 (main carries post-0.59.0 work with no release yet), PyPI at 0.59.0 (v0.59.0 shipped 2026-10-25, adding per-function coverage, the CRAP score, and an untested-complexity finding to the health suite).
 **The community footprint is thin for the star count: two Show HN posts drew 4 and 1 points in April 2026 and the vendor's own blog threads stayed single-digit, so the adoption signal is stars and downloads (about 16.8k PyPI downloads in the trailing month) without practitioner debate.**
 The vendor publishes the most checkable benchmark claims in this category: call-graph precision of 0.976 to 0.995 against the Go and TypeScript compilers' own resolution, and a self-built 42-instance context-tool comparison where its file coverage (0.876) leads Graphify, code-review-graph, and Serena, with the losing rows published.
 
@@ -87,8 +87,8 @@ My disagreeable claim: a context engine that also tells you what to fix first is
 - https://raw.githubusercontent.com/repowise-dev/repowise/main/README.md - the three-way product map, the ten MCP tools, the benchmark tables with their losing rows, and the deployment matrix
 - https://raw.githubusercontent.com/repowise-dev/repowise/main/docs/business/COMMERCIAL.md - the AGPL/commercial split, the three pricing models with no published figures, and the GA/in-development/planned capability labels
 - https://pypi.org/pypi/repowise/json - the distribution at 0.59.0 (re-fetched 2026-10-26)
-- https://pypistats.org/api/packages/repowise/recent - 16,776 downloads in the trailing month as of 2026-10-13
-- https://api.npmjs.org/downloads/point/last-month/repowise - 913 downloads in the month to 2026-10-22 (re-fetched 2026-10-24)
+- https://pypistats.org/api/packages/repowise/recent - 16,776 downloads in the trailing month, unchanged when re-fetched 2026-11-01
+- https://api.npmjs.org/downloads/range/2026-10-02:2026-10-31/repowise - 257 downloads summed for 2026-10-02 to 2026-10-31 (fetched 2026-11-01)
 - https://hn.algolia.com/api/v1/search?query=repowise&tags=story&hitsPerPage=10 - the footprint check: two Show HNs at 4 and 1 points, the rest unrelated or the vendor's own blog threads (fetched 2026-10-13)
 - https://docs.repowise.dev - the docs portal (fetched 200, 2026-10-13)
 - https://repowise.dev - the hosted service site (fetched 200 after redirect, 2026-10-13)

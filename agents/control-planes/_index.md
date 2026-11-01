@@ -22,6 +22,7 @@ Governance above the harness: policy, permissions, approvals, budgets, trust, se
 - [IBM ContextForge](ibm-contextforge/index.md) - the Apache-2.0 gateway that federates MCP, A2A, and REST/gRPC traffic behind one authenticated, rate-limited, audited endpoint, with RBAC, teams, SSO, and plugin guardrails.
 - [Jamf AI Governance](jamf-ai-governance/index.md) - the Mac-native capability that turns AI usage policy into enforced vendor configurations for Claude Code, Codex, and their neighbors through Apple device management.
 - [Microsoft Agent Governance Toolkit](microsoft-agent-governance-toolkit/index.md) - the MIT multi-language toolkit for deterministic policy, identity, sandboxing, SRE, and compliance, with a critical authentication writeup to read first.
+- [Mission Control](mission-control/index.md) - the MIT self-hosted operations plane that dispatches tasks to OpenClaw, Claude Code, and Codex runtimes and holds completion until an Aegis review approval record exists.
 - [Okto Pulse](okto-pulse/index.md) - the Elastic-2.0 local-first SDLC workbench that blocks coding-agent status transitions until spec coverage and delivery evidence are met.
 - [OpenAPPA](openappa/index.md) - the MIT Rust engine that labels everything an agent reads with an audience and trust level and checks every tool call against TOML information-flow policy before it runs.
 - [Paperclip](paperclip/index.md) - the MIT self-hosted control plane for a company of agents, heartbeats, budgets, and governance, past 100k stars in seven months.
@@ -57,3 +58,4 @@ Its members are compared on shared rows in the [Control Planes Feature Matrix](c
 - 2026-10-16 - Added arifOS.
 - 2026-10-17 - Added Vestige.
 - 2026-10-21 - Added Tracekit.
+- 2026-11-01 - Added Mission Control.

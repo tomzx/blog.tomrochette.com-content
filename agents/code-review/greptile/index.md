@@ -1,7 +1,7 @@
 ---
 title: Greptile
 created: 2026-08-24
-updated: 2026-10-24
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, code-review, code-retrieval, developer-tools]
 readability: 3
@@ -21,7 +21,7 @@ Greptile is an AI code review service that indexes your repositories into a grap
 The product indexes repos, then parallel agents review PRs for bugs, security issues, and multi-file logic errors, learning each team's conventions by reading GitHub/GitLab comments (learnings isolated per organization).
 TREX (beta) extends review with sandboxed execution, writing and running tests per PR.
 Integrations point both ways: one-click handoff of each finding to Claude Code, Cursor, Codex, or Devin, a Greptile MCP server so agents can pull learned rules and resolve comments, a Claude Code plugin that reads and resolves Greptile comments on its own, /greploop, which lets any coding agent iterate with Greptile until its issues resolve, a CLI, auto-detection of CLAUDE.md and .cursorrules, and Jira/Notion context.
-Self-hosted in your own AWS or air-gapped VPC is supported, with SOC 2 and GitHub plus GitLab coverage, plus a bulk API for building your own tools on the index.
+Self-hosted in your own AWS or air-gapped VPC is supported, with SOC 2 and forge coverage spanning GitHub, GitLab, Bitbucket Data Center, Gitea, and Perforce P4 per the pricing page as of 2026-11-01, plus a bulk API for building your own tools on the index.
 Behind it is Tabnam, Inc., a YC W24 company founded in 2023 by three Georgia Tech graduates (Daksh Gupta, Soohoon Choi, Vaishant Kameswaran).
 
 ## Status
@@ -82,6 +82,7 @@ My disagreeable claim: the graph index everyone credits Greptile for is the leas
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-16 - Rotation re-verification: recorded the Plus and Apex review-depth tiers (September 25, 2026, Base 1 credit, Plus 3, Apex 10) in Pricing with a Price history row, and the Claude Code plugin plus /greploop agent-iteration integration from the homepage; every cited URL re-fetched live, plan prices unchanged.
 - 2026-10-24 - Rotation re-verification: recorded the $50M Series B led by Menlo Ventures (announced October 19, 2026, $750M valuation, Deedy Das joining the board) in Status, and the Pro restructure from $30/seat to $1-per-credit with no seat fees and a 500-credits startup program in Pricing with a Price history row; every cited URL re-fetched live.
+- 2026-11-01 - Rotation re-verification: every cited URL re-fetched live; all prices unchanged (Starter free, Pro $1 per credit with no seat fees, Base 1, Plus 3, Apex 10, the 500-credit startup program), the 22,000-plus-teams homepage claim still displayed, and the Series B, Plus-and-Apex, and Series A posts unchanged; the Enterprise row now also names GitLab Self-Managed, Bitbucket Data Center, Gitea, and Perforce P4 beside GitHub, recorded in What it is.
 
 ## See also
 
@@ -93,12 +94,12 @@ My disagreeable claim: the graph index everyone credits Greptile for is the leas
 
 ## References
 
-- https://greptile.com/ - product surface, customer list, team count, and pricing FAQ as claimed by the vendor, re-fetched 2026-10-24 (22,000+ teams still displayed)
-- https://www.greptile.com/pricing - the plan table and the Base (1), Plus (3), Apex (10) credit FAQ, re-fetched 2026-10-24: Pro now $1 per credit with no seat fees, the $30/seat price gone, plus the 500-credit startup program
-- https://www.greptile.com/blog/series-b - the October 19, 2026 Series B post: $50M led by Menlo Ventures, $750M valuation, participant list, Deedy Das joining the board, the 1-percent-of-GitHub-PRs claim and the Coinbase, Decagon, and Vanta customer names, fetched 2026-10-24
-- https://www.greptile.com/blog/introducing-plus-and-apex - the September 25, 2026 review-depth-tier launch post, re-fetched 2026-10-24
-- https://www.greptile.com/blog/series-a - $25M Series A led by Benchmark, v3 claims, 500M+ lines reviewed
-- https://www.ycombinator.com/companies/greptile - YC W24 batch, founding year, founders, team size
-- https://techcrunch.com/2024/06/06/greptile-raises-4m-to-build-an-ai-code-base-expert/ - $4M seed, API-first origin, customer counts at seed
-- https://news.ycombinator.com/item?id=39604961 - launch thread: AST parsing, docstring embeddings, agentic search, and early criticism
-- https://news.ycombinator.com/item?id=47966075 - the critical "predatory pricing" thread and OSS-billing allegations
+- https://greptile.com/ - product surface, customer list, team count, and pricing FAQ as claimed by the vendor, re-fetched 2026-10-24 and 2026-11-01 (22,000+ teams still displayed)
+- https://www.greptile.com/pricing - the plan table and the Base (1), Plus (3), Apex (10) credit FAQ, re-fetched 2026-10-24 and 2026-11-01: Pro still $1 per credit with no seat fees, the $30/seat price gone, the 500-credit startup program standing, and the Enterprise row naming GitHub Enterprise Server and Cloud, GitLab Self-Managed, Bitbucket Data Center, Gitea, and Perforce P4
+- https://www.greptile.com/blog/series-b - the October 19, 2026 Series B post: $50M led by Menlo Ventures, $750M valuation, participant list, Deedy Das joining the board, the 1-percent-of-GitHub-PRs claim and the Coinbase, Decagon, and Vanta customer names, fetched 2026-10-24, re-fetched unchanged 2026-11-01
+- https://www.greptile.com/blog/introducing-plus-and-apex - the September 25, 2026 review-depth-tier launch post, re-fetched 2026-10-24 and unchanged 2026-11-01
+- https://www.greptile.com/blog/series-a - $25M Series A led by Benchmark, v3 claims, 500M+ lines reviewed, re-fetched unchanged 2026-11-01
+- https://www.ycombinator.com/companies/greptile - YC W24 batch, founding year, founders, team size (35 employees, Active), re-fetched 2026-11-01
+- https://techcrunch.com/2024/06/06/greptile-raises-4m-to-build-an-ai-code-base-expert/ - $4M seed, API-first origin, customer counts at seed, re-fetched 2026-11-01
+- https://news.ycombinator.com/item?id=39604961 - launch thread: AST parsing, docstring embeddings, agentic search, and early criticism, re-fetched 2026-11-01 (253 points)
+- https://news.ycombinator.com/item?id=47966075 - the critical "predatory pricing" thread and OSS-billing allegations, re-fetched 2026-11-01 (17 points, April 30, 2026)

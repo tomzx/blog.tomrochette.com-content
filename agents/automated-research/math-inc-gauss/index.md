@@ -1,7 +1,7 @@
 ---
 title: Math Inc. Gauss
 created: 2026-09-13
-updated: 2026-10-19
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, mathematics, lean, formal-verification]
 readability: 3
@@ -24,7 +24,7 @@ DARPA's expMath program supports the work, and the company's Veritas Fellowships
 
 ## Status
 
-Active and escalating, as of 2026-09-18.
+Active and escalating, as of 2026-11-01.
 Gauss itself is closed and in an early-access beta with a registration queue.
 The public artifacts are substantial: the strongpnt repository (325 stars as of 2026-10-11) and the Sphere-Packing-Lean repository carry the actual formalizations.
 

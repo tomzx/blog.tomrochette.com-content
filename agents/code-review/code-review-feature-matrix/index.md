@@ -1,7 +1,7 @@
 ---
 title: "Code Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-10-30
+updated: 2026-11-01
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, code-review, ai-review, developer-tools]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a GitHub check, a learned-rules loop, and BYOK mean; each column links to a full note with sources.
 ---
 
-This matrix compares the fourteen AI code-review tools profiled in this section, feature by feature, so the shortlisting step does not require reading thirteen notes.
+This matrix compares the fourteen AI code-review tools profiled in this section, feature by feature, so the shortlisting step does not require reading fourteen notes.
 
 **The deciding row is still where your code runs, not review quality: public quality benchmarks are new to 2026 and every one is run by an interested party (Qodo's own PR-Review-Bench in February, GitHub's ReviewBench on October 5, Kodus's CodeReviewBench, Agent Skills Hub's third-party eval on October 10), while five columns are vendor clouds, one is a local hook whose reviews still ride a vendor cloud (git-lrc), one runs in your VPC, five run on your machine or your own CI with your own keys or agent logins (Gito, the stateless pip install, joins this group), one is a dormant unlicensed Vercel Labs beta you deploy yourself (OpenReview), Graphite Diamond arrives already consolidated as a Cursor property, and the category's most-repeated outside fact is that the two biggest commercial reviewers both have Kudelski-disclosed exploit histories.**
 
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Learns team rules | ✓ learnings | ~ agents-as-code config you write | ~ .lrc/rules markdown you write plus thumbs-up/down tuning; nothing learned from comments | ~ per-repo prompts and templates you write in TOML, nothing learned | ~ custom rules | ✓ from review comments, isolated per organization | ✓ plain-language rules, workflow learning | ✗ deliberately stateless between runs | ✗ fixed rule pipeline | ~ a committed instructions file you write tells the reviewer what never to flag | ✗ | ~ best-practices files you curate | ~ guidelines you write per repo (REVIEW.md fallback), nothing learned from comments | ? |
 | License | ✗ proprietary, free forever for public repos | ✗ closed core, small OSS tooling repos | ✗ source-available under a modified Sustainable Use License, no resale or commercial redistribution | ✓ MIT | ✗ proprietary, Cursor-owned | ✗ proprietary | ~ AGPL-3.0 core, ee/ paths commercial | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ README declares MIT, but no license file exists to back it | ~ PR-Agent MIT, Qodo Merge proprietary | ✓ MIT | ✗ reviewer proprietary, the MIT repo is the refactoring lineage |
 | Pricing anchor | Essentials (ex-Pro) $24, Team (ex-Pro Plus) $48 per user/mo annual, new Advanced $72 annual ($90 monthly) with variable-priced full scans, public repos free | tokens at cost plus a 10% fee, support packages from $5k/mo (the free-for-individuals on-ramp left the site 2026-10-25) | free 30k LOC/mo with BYOK, Premium from $32/mo per 100k LOC in fixed doubling bands, unlimited users | free, your model tokens (or a local model) | Hobby free, Starter $20, Team $40 per user/mo | $1 per credit, no seat fees, credits shared across the org (2026-10-24) | Community free, Teams BYOK $10/dev/mo plus raw tokens, Enterprise custom with SOC 2, self-host free | free, your model subscriptions (about $3.50 of Claude usage per review per the author's table) | free, your model tokens | free, riding your Claude Code or Codex plan; hosted Qodex sibling paid per developer (price unpublished) | free; your Vercel Sandbox active-CPU bill and Anthropic usage | $0.012 per credit packs, Pro Team $30, no permanent free tier | free, your own agents' tokens | Pro $12, Team $24 per user/mo, open source repos free |
-| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | 1,470 stars, 55 releases in eight months (2026-10-23) | 452 stars, 40 PyPI releases in 17 months (2026-10-24) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $50M Series B led by Menlo at a $750M valuation (2026-10-19), $79M total, v5 | 1,461 stars, no verified funding (2026-10-11) | 23 stars, 24 tagged releases in three months (2026-10-16) | 46.9k stars, 140-plus releases in 5 months (stars 2026-10-13, v1.13.3 2026-10-22) | 653 stars, 8,685 npm downloads in the trailing month (2026-10-30) | dormant since 2026-03-06, 1,696 stars, zero releases (2026-10-11) | 13,339 stars (2026-10-11), $50M raised | 1,749 stars, 123-plus releases in nine months (2026-10-27) | repo since 2019, 1,875 stars, no verified funding (2026-10-11) |
+| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | 1,470 stars, 55 releases in eight months (2026-10-23) | 452 stars, 40 PyPI releases in 17 months (2026-10-24) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $50M Series B led by Menlo at a $750M valuation (2026-10-19), $79M total, v5 | 1,461 stars, no verified funding (2026-10-11) | 23 stars, 24 tagged releases in three months (2026-10-16) | 46.9k stars, 140-plus releases in 5 months (stars 2026-10-13, v1.13.3 2026-10-22) | 653 stars, 8,890 npm downloads in the trailing month (2026-11-01) | dormant since 2026-03-06, 1,696 stars, zero releases (2026-10-11) | 13,339 stars (2026-10-11), $50M raised | 1,749 stars, 123-plus releases in nine months (2026-10-27) | repo since 2019, 1,875 stars, no verified funding (2026-10-11) |
 
 ## Reading the matrix
 
@@ -108,6 +108,7 @@ Its pricing is usage-based with a 10% platform fee on tokens, which briefly rose
 - 2026-10-25 - Recorded Ellipsis's free-for-individuals on-ramp leaving the homepage and pricing FAQ (pricing cell and the Ellipsis paragraph updated); the Kodus, Qodo, roborev, and Sourcery volatile re-checks found no cell changes, with star figures untouched per the standing exemption.
 - 2026-10-27 - Refreshed the roborev release count to 123-plus (v0.74.0, October 27) and the OpenQodex npm figure to 7,739 trailing-month downloads (month to October 26); star figures untouched per the standing exemption.
 - 2026-10-30 - Refreshed the OpenQodex npm figure to 8,685 trailing-month downloads (month to October 30); the Kodus, OpenCodeReview, Qodo, and roborev volatile re-checks found no cell changes, with star figures untouched per the standing exemption.
+- 2026-11-01 - Refreshed the OpenQodex npm figure to 8,890 trailing-month downloads (month to November 1); the Kodus, Qodo, and roborev volatile re-checks found no cell changes (pushes moved, no new releases), and the intro's note count was corrected from thirteen to fourteen; star figures untouched per the standing exemption.
 
 ## See also
 

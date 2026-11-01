@@ -1,7 +1,7 @@
 ---
 title: AutoContext
 created: 2026-10-14
-updated: 2026-10-28
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, self-improvement, context-bundles, eval-gated-promotion, open-source]
 readability: 3
@@ -23,8 +23,8 @@ The `train` surface closes the loop's second leg: it distills verifier-scored tr
 
 ## Status
 
-Active and early: 1,309 stars, 115 forks, five contributors, created 2026-02-11, last push 2026-10-26 on the main branch, closing an October 23-26 security and dependency wave (patched Zod 4 collection validation, body-parser compressed-body handling, fast-uri, a protected OOM supervisor for the Docker release blocker, and the Pi extension consuming the published Zod-safe runtime), as of 2026-10-28.
-Jay Scambler wrote 2,144 of the repository's roughly 2,209 commits, and Grey Haven markets itself as an applied AI venture studio.
+Active and early: 1,309 stars, 115 forks, five contributors, created 2026-02-11, last push 2026-10-26 on the main branch, closing an October 23-26 security and dependency wave (patched Zod 4 collection validation, body-parser compressed-body handling, fast-uri, a protected OOM supervisor for the Docker release blocker, and the Pi extension consuming the published Zod-safe runtime), as of 2026-11-01.
+Jay Scambler wrote 2,172 of the repository's roughly 2,244 commits, and Grey Haven markets itself as an applied AI venture studio.
 The train is live: 35 PyPI releases through 0.18.0 (2026-09-16) and 47 npm versions through 0.19.1 (2026-10-26), with the docs site's changelog last updated 2026-08-26.
 
 <picture>

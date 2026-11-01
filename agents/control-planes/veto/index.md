@@ -1,7 +1,7 @@
 ---
 title: Veto
 created: 2026-09-27
-updated: 2026-10-25
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-authorization, policy-enforcement, tool-calls, human-in-the-loop, open-source]
 readability: 3
@@ -25,7 +25,7 @@ It is made by Plaw, Inc. (US), which lists Veto as an EU AI Pact signatory.
 ## Status
 
 Active product; the open-source repository woke up.
-The repository was created 2026-01-02 and sits at 14 stars, 2 forks, and 1 open issue as of 2026-10-10, and after 113 days of silence (no push since 2026-06-18) it received five release-engineering commits on 2026-10-09: CI moved to Depot, npm trusted publishing enabled, a first receipt package staged with provenance, and a Neon Postgres receipt persistence example, and on 2026-10-14 the revival gained its first feature commit (runtime action SDK clients, PR 252), still with no new tag (the latest published release remains `veto-sdk@2.9.3` on 2026-05-07).
+The repository was created 2026-01-02 and sits at 14 stars, 2 forks, and 1 open issue as of 2026-10-10, and after 113 days of silence (no push since 2026-06-18) it received five release-engineering commits on 2026-10-09: CI moved to Depot, npm trusted publishing enabled, a first receipt package staged with provenance, and a Neon Postgres receipt persistence example, and on 2026-10-14 the revival gained its first feature commit (runtime action SDK clients, PR 252), followed by a docs-only commit on 2026-10-30 (a Neon logo and README link, PR 260), still with no new tag (the latest published release remains `veto-sdk@2.9.3` on 2026-05-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PlawIO/veto&type=date&theme=dark&legend=top-left" />
@@ -56,7 +56,7 @@ One operational wrinkle the README states plainly: Plaw does not yet control the
 Developer is $0 per month with 5,000 action checks, 7 days of decision records, and no credit card; the Apache-2.0 local engine is included.
 Hosted is $299 per month for 100,000 checks, $0.75 per 1,000 checks above plan, 90 days of records, and unlimited seats and reviewers.
 Enterprise is custom, covering cloud, BYOC, on-prem, or isolated networks with HIPAA BAA, SSO, SCIM, and SLAs.
-Beside the plans, the site sells three fixed-price policy packs (MCP Attack + Guard $1,500, Agent Refund Policy Pack $2,000, AI Act Article 50 Ready $750), a done-for-you services motion first recorded 2026-10-25.
+Beside the plans, the site sells three fixed-price policy packs (MCP Attack + Guard $1,500, Agent Refund Policy Pack $2,000, AI Act Article 50 Ready $750), a done-for-you services motion first recorded 2026-10-25, and the Hosted card now carries a three-button volume selector at $299 (selected), $1,499, and $3,999, with the check volumes for the two higher buttons unstated in the page's static HTML (re-verified 2026-11-01).
 
 ## Price history
 
@@ -65,6 +65,7 @@ Beside the plans, the site sells three fixed-price policy packs (MCP Attack + Gu
 | 2026-09-27 | Developer | Introduced at $0/month, 5,000 checks, hard cap | https://veto.so/pricing |
 | 2026-09-27 | Hosted | Introduced at $299/month, 100K checks, $0.75 per 1K overage | https://veto.so/pricing |
 | 2026-10-25 | Policy packs | First recorded: three fixed-price packs, MCP Attack + Guard $1,500, Agent Refund Policy Pack $2,000, AI Act Article 50 Ready $750 | https://veto.so/ |
+| 2026-11-01 | Hosted tier selector | First recorded: three volume buttons at $299 (selected), $1,499, and $3,999, check volumes unstated in the static HTML | https://veto.so/pricing |
 
 ## Compared to
 
@@ -84,6 +85,7 @@ Beside the plans, the site sells three fixed-price policy packs (MCP Attack + Gu
 - 2026-10-10 - Moved the repository status from dormant to revived: five release-engineering commits on 2026-10-09 (CI, npm trusted publishing, a provenance-staged receipt package, a Neon Postgres example) after 113 days of silence, with no new tag; prices re-verified unchanged.
 - 2026-10-16 - The revival gained its first feature commit (runtime action SDK clients, PR 252) on 2026-10-14, still with no new tag; the caution updated.
 - 2026-10-25 - Full rotation re-verification: every cited URL re-fetched and live, the plan prices and the repository unchanged (still veto-sdk@2.9.3, no push since 2026-10-14), the README's adapter matrix and npm-name caveat confirmed, and the site's new fixed-price policy packs ($750 to $2,000) recorded in Pricing.
+- 2026-11-01 - Full rotation re-verification: every cited URL re-fetched and live, the plan prices and policy packs unchanged, the repository carrying a docs-only commit on 2026-10-30 (a Neon logo and README link, PR 260) with still no new tag past veto-sdk@2.9.3, and the Hosted card's three-button volume selector ($299, $1,499, $3,999) recorded in Pricing and Price history as a first reading.
 
 ## See also
 

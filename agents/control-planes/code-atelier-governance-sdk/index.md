@@ -1,7 +1,7 @@
 ---
 title: Code Atelier Governance SDK
 created: 2026-09-27
-updated: 2026-10-25
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-governance, policy-enforcement, audit-trail, postgres, human-in-the-loop]
 readability: 3
@@ -75,6 +75,7 @@ A hosted platform exists through an opt-in bridge that dual-writes audit events 
 - 2026-10-07 - Added the imleopereira/agentic-governance star history chart to the Status section.
 - 2026-10-17 - Full rotation re-verification: every cited URL re-fetched and live, the repository and PyPI both unchanged (0 stars, v0.7.3, still dormant since 2026-07-23), and the scaffolder target corrected from the Governance Toolkit to Microsoft Agent Framework, which is what the recipe's own docs and changelog name.
 - 2026-10-25 - Full rotation re-verification: every cited URL re-fetched and live, the repository and PyPI unchanged again (0 stars, 0 issues, v0.7.3 of 2026-06-02, dormant since 2026-07-23), and the site's Article 12 countdown banner still frozen at its June setting, consistent with the dormancy.
+- 2026-11-01 - Full rotation re-verification: every cited URL re-fetched and live, the repository and PyPI unchanged again (0 stars, 0 forks, 0 open issues, v0.7.3 of 2026-06-02, dormant since 2026-07-23), and the site's overview and quickstart pages carrying the same Article 12 countdown banner still frozen at its June setting; no drift.
 
 ## See also
 

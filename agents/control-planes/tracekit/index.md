@@ -1,7 +1,7 @@
 ---
 title: Tracekit
 created: 2026-10-21
-updated: 2026-10-30
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, audit, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The project is five weeks old (repository created 2026-09-26) from Cygnux Labs, 
 
 ## Status
 
-Active and very young: 138 stars and 9 forks as of 2026-10-28, with 35 open issues and pull requests and the latest push on 2026-10-30 as of 2026-10-30, created 2026-09-26, with the PyPI package tracekit-ai at 1.5.0 (2026-10-28) and seven releases between 2026-10-16 and 2026-10-28.
+Active and very young: 138 stars and 9 forks as of 2026-10-28, with 30 open issues and pull requests and the latest push on 2026-11-01 as of 2026-11-01, created 2026-09-26, with the PyPI package tracekit-ai at 1.5.2 (2026-10-31) and nine releases between 2026-10-16 and 2026-10-31.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Cygnux-Labs/Tracekit&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ Not for anyone who needs an independently reviewed gate today, and not for debug
 - 2026-10-21 - Created from the awesome-ai-governance scan (added to the source's Agent Action Records section on 2026-10-19), profiling the CT-style signer as the category's first witness-cosigned evidence log.
 - 2026-10-25 - Release train moved to v1.4.2 (2026-10-24, PyPI in step), the sixth release in nine days, and the open-issue count rose from 12 to 22.
 - 2026-10-30 - Release train moved to v1.5.0 (2026-10-28): experimental cross-agent surfaces (an A2A gateway with C2C transfer records, PCM 0.1 proof-carrying messages, and tracekit graph), policy packs for database-client destructive statements and repository deletion, coding-agent hooks for goose, Qwen Code, Antigravity CLI, and Factory Droid, and the README proof line moved to 699 of 699 harmful calls; added the project's arXiv paper, which states the blind-pool tripwire result (211 of 420) itself.
+- 2026-11-01 - Release train moved through v1.5.1 (2026-10-30) to v1.5.2 (2026-10-31, PyPI in step), both point releases without release notes; the counters refreshed (30 open issues and pull requests, pushed 2026-11-01).
 
 ## See also
 

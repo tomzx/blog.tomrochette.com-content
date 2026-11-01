@@ -1,7 +1,7 @@
 ---
 title: GPT Researcher
 created: 2026-10-07
-updated: 2026-10-19
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deep-research, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Since v3.7.0 the context filter runs Jev by default with a local keyword-ranking
 
 ## Status
 
-Active: created 2023-05-12, 30,102 stars, release v3.7.0 published 2026-09-26, PyPI package at 0.16.1, as of 2026-10-15.
+Active: created 2023-05-12, 30,102 stars, release v3.7.0 published 2026-09-26, PyPI package at 0.16.1, as of 2026-11-01.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=assafelovic/gpt-researcher&type=date&theme=dark&legend=top-left" />

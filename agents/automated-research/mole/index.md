@@ -1,7 +1,7 @@
 ---
 title: Mole
 created: 2026-10-12
-updated: 2026-10-29
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deep-research, budget-enforcement, open-source]
 readability: 3
@@ -23,7 +23,7 @@ The privacy boundary covers local data too: point it at a CSV or a folder and th
 
 ## Status
 
-Active and young: 314 stars, 20 forks, created 2026-08-01, last pushed 2026-10-28 (unreleased main-branch work: the verifier now judges contradictions from the quote with same-quantity-first ordering and treats competing estimates of one quantity as contradictions, on top of the earlier fatal-second-look stop, the ceiling-stop verification of what research found, and the wall-clock fix that stops max_leads masking the budget), releases v0.1.0 (2026-08-13), v0.2.0 (2026-10-10), and v0.2.1 (2026-10-13) still the latest, as of 2026-10-29.
+Active and young: 314 stars, 20 forks, created 2026-08-01, last pushed 2026-10-31 (a six-PR unreleased batch merged October 31: the planner now traces its headline figure to its origin and stops on evidence rather than claim count, the miner extracts corrections and caveats outside the per-source claim cap, every call is bounded by the session deadline and a deadline-cut lead no longer reads as a failure, the run fails fast when the model or search provider refuses the account, leads search with short keyword queries, and verifier concurrency became tunable, on top of the earlier verifier work judging contradictions from the quote with same-quantity-first ordering and treating competing estimates of one quantity as contradictions), releases v0.1.0 (2026-08-13), v0.2.0 (2026-10-10), and v0.2.1 (2026-10-13) still the latest, as of 2026-11-01.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lajosdeme/mole&type=date&theme=dark&legend=top-left" />
