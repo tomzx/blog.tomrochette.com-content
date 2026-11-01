@@ -1,7 +1,7 @@
 ---
 title: Coucou
 created: 2026-10-10
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, live-observation, approvals, macos, ios, open-source]
 readability: 3
@@ -29,7 +29,7 @@ It is built by Louis Raillé (the Louis-CFM account), with the project's own con
 ## Status
 
 In its fourth week and shipping hard: created 2026-09-27 with v0.1.0 the same day, with the Mac release line moving to v0.5.8 on 2026-10-31 (community fixes for the approval-behind-a-question flow, waiting questions, Mochi visibility, and duplicate dropped files) after v0.5.7 the same day (Mail in the notch: search across every Apple Mail inbox, an auto-sort section with VIP and banned-word rules and an undo journal, AI chat over your 40 newest messages with a test-first send gate, settings search, and a corner position for Mochi), after v0.5.4, v0.5.5, and v0.5.6 on 2026-10-29 (hook-server reliability and hook-safety fixes; chat answered by your own Claude Code with no API key; chat through the official terminal tools of your own AI subscriptions, Claude, Gemini and Antigravity, Codex, Cursor CLI, and Copilot CLI), after v0.5.3 on 2026-10-22 and v0.5.2 on 2026-10-20 (in-notch update offers verified against the Developer ID signature, a Homebrew cask, Claude Code plan-approval cards offering the terminal's own Auto, Manual, or Change plan choices, and fourteen languages), after v0.5.0 and v0.5.1 on 2026-10-18 (WhatsApp in the notch, behind it a one-click install of the GOWA gateway checked against its published SHA-256), after v0.4.0 on 2026-10-15 (the windowed app with dictation and call recording), Windows and Linux at 0.5.8 since 2026-10-31 (MSI and setup installers, still unsigned, matching the Mac line's version number), and Coucou for Android at 0.3.0 since 2026-10-22, as of 2026-10-31.
-5,119 stars and 1,117 forks in that window, 469 open issues, MIT.
+5,119 stars and 1,125 forks in that window, 478 open issues, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Louis-CFM/coucou&type=date&theme=dark&legend=top-left" />
@@ -38,6 +38,7 @@ In its fourth week and shipping hard: created 2026-09-27 with v0.1.0 the same da
 </picture>
 
 **The adoption curve outruns the scrutiny: no Hacker News thread, no third-party review, and no Reddit trace surfaced in this run's searches, so the vetting so far is the README against the commits.**
+Unreleased work since v0.5.8: Windows and Linux merges from outside contributor lazarevtill (Claude API model discovery with the saved choice kept, and Flow edits and history surviving a failed save) plus iPhone App Store iteration fixes, landed 2026-10-31, as of 2026-11-01.
 
 ## Strengths
 
@@ -84,6 +85,8 @@ Not for token-cost audits (ccusage and agentsview stay the tools for that), and 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 
 - 2026-10-31 - Recorded the Mac v0.5.4, v0.5.5, and v0.5.6 releases (all 2026-10-29: hook-server reliability and hook-safety fixes, chat on your Claude plan through your own Claude Code with no API key, and chat through the official terminal tools of your own subscriptions) and v0.5.7 plus v0.5.8 (both 2026-10-31: Mail in the notch with search, auto-sort rules, and gated AI chat over your mail, settings search, a corner position, then community fixes); the Windows and Linux builds moved to 0.5.8 the same day, still unsigned; the feature-gravity caution gained Mail, and repository counts refreshed (forks 1,029 to 1,117, open issues 486 to 469).
+
+- 2026-11-01 - Volatile re-verification: no release after v0.5.8 with unreleased Windows and Linux merges landing 2026-10-31 (Claude API model discovery with the saved choice kept, and Flow edits and history surviving a failed save, the platform path's first merges from outside contributor lazarevtill) plus iPhone App Store iteration fixes; repository counts refreshed (forks 1,117 to 1,125, open issues 469 to 478).
 
 ## See also
 

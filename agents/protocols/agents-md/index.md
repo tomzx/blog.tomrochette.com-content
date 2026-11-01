@@ -1,7 +1,7 @@
 ---
 title: AGENTS.md
 created: 2026-08-24
-updated: 2026-10-25
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, protocols, conventions, context-files]
 readability: 3
@@ -77,6 +77,7 @@ The disagreeable part: I suspect most AGENTS.md prose is wasted tokens, and the 
 - 2026-10-07 - Added the agentsmd/agents.md star history chart to the Status section.
 - 2026-10-18 - Rotation re-verification: every cited URL re-fetched live with no dead sources, and the Claude Code record corrected, 2.1.281 (2026-09-23) extended AGENTS.md support to Bedrock, Vertex, Foundry, LLM gateways, and telemetry-disabled sessions, so the "not yet available on Bedrock, Vertex, or Foundry" state this note recorded no longer holds.
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the official site still counts over 60,000 carrying projects and still lists OpenAI's repository at 88 nested files, the Claude Code changelog still records the 2.1.277 and 2.1.281 entries, and the built-in agents-md mod directory is unchanged.
+- 2026-11-01 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the official site still counts over 60,000 carrying projects and still lists OpenAI's repository at 88 nested files and the full adopter roster, the repository stays pushed 2026-09-10, the Claude Code changelog still records the 2.1.277 and 2.1.281 entries, and the AAIF donation press URL now redirects to aaif.io/news/linux-foundation-announces-formation-of-aaif (reference updated to the canonical address).
 
 ## See also
 
@@ -89,7 +90,7 @@ The disagreeable part: I suspect most AGENTS.md prose is wasted tokens, and the 
 
 - https://agents.md - official site: format, nested scoping, adopter list, AAIF stewardship
 - https://github.com/agentsmd/agents.md - MIT repository, stars as of 2026-10-10
-- https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/ - OpenAI donation, 60,000+ project adoption
+- https://aaif.io/news/linux-foundation-announces-formation-of-aaif - OpenAI donation, 60,000+ project adoption (the original aaif.io/press/... address redirects here)
 - https://arxiv.org/abs/2602.11988 - empirical evaluation: no general success-rate gain, over 20% added inference cost
 - https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals - counter-evidence: 100% versus 53% with a compressed docs index
 - https://github.com/anthropics/claude-code/issues/6235 - Claude Code support request, front-page traction in August 2026, closed 2026-08-17 as completed via a community patch

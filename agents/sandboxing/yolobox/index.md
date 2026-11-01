@@ -1,7 +1,7 @@
 ---
 title: Yolobox
 created: 2026-10-09
-updated: 2026-10-25
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, containers, docker, isolation, open-source]
 readability: 3
@@ -24,8 +24,8 @@ MIT, solo author (Finbarr), docs at yolobox.dev.
 
 ## Status
 
-Young and shipping hard: 649 stars as of 2026-10-13, pushed 2026-10-23, created 2026-01-09, with seventy releases on the train and v0.19.11 (2026-10-23) the latest.
-The newest fixes polish the edges the wrapper itself owns: v0.19.9 unblocked the first-launch OpenCode startup stuck on an invisible setup prompt, v0.19.10 kept image pull and build progress off stdout so a pull can no longer inject into the ACP client's protocol stream or consume its first request, and v0.19.11 repaired `reset --force` and uninstall volume handling on the Apple container runtime, so reset removes only matching volumes and uninstall preserves the installation when runtime cleanup fails.
+Young and shipping hard: 649 stars as of 2026-10-13, pushed 2026-11-01, created 2026-01-09, with seventy-two releases on the train and v0.19.13 (2026-10-31) the latest.
+The newest fixes polish the edges the wrapper itself owns: v0.19.12 fixed concurrent rootless Podman boxes losing access to their shared home, cache, and output volumes on SELinux hosts (persistent volumes now carry a shared SELinux label), and v0.19.13 switched the bundled OpenCode CLI and `yolobox update-agents opencode` to OpenCode v2 (`@opencode/cli`, with the updater removing the old `opencode-ai` package first).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=finbarr/yolobox&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ Not for hostile code, by its own docs, and not on hosts where Docker is unavaila
 - 2026-10-18 - Recorded v0.19.8 (2026-10-18, OpenCode launch fixes in the base image and smoke tests), the release train moving from sixty-six to sixty-seven, with the repository pushed 2026-10-18; stars untouched per the exemption.
 - 2026-10-20 - Recorded v0.19.9 (2026-10-18, the first-launch OpenCode startup fix for the invisible setup prompt) and v0.19.10 (2026-10-20, image pull and build progress kept off stdout so ACP client protocol streams stay clean), the release train moving from sixty-seven to sixty-nine; stars untouched per the exemption.
 - 2026-10-25 - Recorded v0.19.11 (2026-10-23, reset and uninstall volume handling on the Apple container runtime: reset removes only matching volumes, uninstall preserves the installation when runtime cleanup fails), the release train moving from sixty-nine to seventy, with the repository pushed 2026-10-23; stars untouched per the exemption.
+- 2026-11-01 - Recorded v0.19.12 (2026-10-27, shared SELinux labels fixing concurrent rootless Podman volume loss) and v0.19.13 (2026-10-31, the bundled OpenCode CLI switched to OpenCode v2 with the old package removed by the updater), the release train moving from seventy to seventy-two, with the repository pushed 2026-11-01; stars untouched per the exemption.
 
 ## See also
 

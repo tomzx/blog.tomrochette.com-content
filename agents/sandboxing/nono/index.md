@@ -1,7 +1,7 @@
 ---
 title: nono
 created: 2026-10-07
-updated: 2026-10-26
+updated: 2026-11-01
 readability: 3
 audience_notes: >
   Engineers who want an agent fenced at the kernel level and care most about what happens when the agent calls git, gh, curl, or kubectl.
@@ -24,7 +24,7 @@ Apache-2.0, built by the Sigstore team, with an OpenSSF Best Practices badge and
 
 ## Status
 
-Fast-growing with no Hacker News help: 4,519 stars, 275 open issues and PRs, pushed 2026-10-23, created 2026-01-31.
+Fast-growing with no Hacker News help: 4,519 stars, 289 open issues and PRs, pushed 2026-10-31, created 2026-01-31.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&theme=dark&legend=top-left" />
@@ -32,8 +32,9 @@ Fast-growing with no Hacker News help: 4,519 stars, 275 open issues and PRs, pus
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&legend=top-left" />
 </picture>
 
-The release train is active and pre-1.0: v0.77.0 on 2026-09-11, v0.78.0 on 2026-09-16, v0.79.0 on 2026-09-30, and v0.80.0 on 2026-10-13 (SHA-256 executable pinning in command policies, per-command aws_auth, command-level macOS keychain grants, and NEPs for a Windows enforcement backend and for invocation-scoped commands), with the README carrying an APIs-are-stabilizing note ahead of a 1.0.
-**Hacker News never embraced it: four submissions between 2026-02-01 and 2026-02-04 drew 4, 1, and 2 points, an August resubmission drew 3, and the stars grew without a front-page thread, so the evidence base is the repo, the docs, and named enterprise testimonials rather than public debate.**
+The release train is active and pre-1.0: v0.77.0 on 2026-09-11, v0.78.0 on 2026-09-16, v0.79.0 on 2026-09-30, v0.80.0 on 2026-10-13 (SHA-256 executable pinning in command policies, per-command aws_auth, command-level macOS keychain grants, and NEPs for a Windows enforcement backend and for invocation-scoped commands), and v0.81.0 on 2026-10-29, published with three new advisories (apply_seccomp() not working, an io_uring bypass of the af_unix pathname remediation, and a TLS-proxy crash that silently dropped the audit trail), with the README carrying an APIs-are-stabilizing note ahead of a 1.0 and the post-release train continuing on live proxy audit-event recording and PTY-relay pausing for network approval prompts.
+The project's coordinated-disclosure record is now its own evidence base: fifteen advisories published between 2026-05-17 and 2026-10-29, including CVE-2026-47128 (a Linux sandbox escape through the user systemd D-Bus socket via `systemd-run --user`, disclosed in May), four high-severity bypasses (seccomp BPF filters missing legacy x86_64 syscall ABIs, io_uring bypassing the af_unix remediation, endpoint-policy enforcement wrongly authorizing paths, and the tool-sandbox shim falling through to nono's own CLI), and hostname-normalization bypasses of host deny lists.
+**Hacker News never embraced it: four submissions between 2026-02-01 and 2026-02-04 drew 4, 1, and 2 points, an August resubmission drew 3, and the stars grew without a front-page thread, so the evidence base is the repo, the docs, the advisory record, and named enterprise testimonials rather than public debate.**
 
 ## Strengths
 
@@ -45,8 +46,8 @@ The release train is active and pre-1.0: v0.77.0 on 2026-09-11, v0.78.0 on 2026-
 ## Cautions
 
 - Pre-1.0 with an explicit API-change warning, and the namespace migration (`always-further` to `nolabs-ai`) is churn early adopters must handle.
-- Kernel-primitive isolation shares the host kernel; there is no VM or gVisor tier, so a kernel exploit is out of scope for this boundary.
-- No independent audit or adversarial write-up exists that I could find, and the HN footprint is four near-zero threads.
+- Kernel-primitive isolation shares the host kernel; there is no VM or gVisor tier, so a kernel exploit is out of scope for this boundary, and the advisory record shows that ceiling has been reached in practice, most plainly by the D-Bus sandbox escape.
+- No independent audit or adversarial write-up exists that I could find, the HN footprint is four near-zero threads, and the self-published advisory record (fifteen advisories in six months, four of them high severity) is disclosure evidence, not an audit.
 - The marketing register on the README ("pioneered the zero-latency, zero-setup agent sandbox", "copied by many") is self-assessment, not evidence.
 
 ## Pricing
@@ -70,6 +71,7 @@ Not for anyone who needs VM-grade boundaries today or an externally audited 1.0.
 - 2026-10-13 - Recorded v0.80.0 (2026-10-13, SHA-256 executable pinning in command policies, per-command aws_auth, command-level macOS keychain grants, and NEPs for a Windows enforcement backend and invocation-scoped commands), with counts refreshed (4,481 stars, pushed 2026-10-13).
 - 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (push of 2026-10-16 checked: no release since v0.80.0, nothing material).
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched and alive (repository, docs site, the release record, the 4-point Show HN); v0.80.0 still the newest release with the post-release train on proxy fixes (407 for unauthenticated CONNECT, supervised connect ports, audit-path redaction), and open issues and PRs refreshed from 249 to 275.
+- 2026-11-01 - Recorded v0.81.0 (2026-10-29, published with the apply_seccomp(), io_uring af_unix, and TLS-proxy audit-trail advisories) and the project's coordinated-disclosure record (fifteen advisories between 2026-05-17 and 2026-10-29, including the CVE-2026-47128 D-Bus systemd-run sandbox escape and four high-severity bypasses), added to Status and Cautions with the advisory index added to References, and open issues and PRs at 289 with the repository pushed 2026-10-31.
 
 ## See also
 
@@ -83,5 +85,6 @@ Not for anyone who needs VM-grade boundaries today or an externally audited 1.0.
 - https://github.com/nolabs-ai/nono - repository, mechanism, testimonials, OpenSSF badge, namespace-migration notice
 - https://docs.nono.sh/ - the CLI, Rust core, and Go/TypeScript/Python SDK surface
 - https://api.github.com/repos/nolabs-ai/nono - stars, open issues, creation and push dates as of 2026-10-07
-- https://api.github.com/repos/nolabs-ai/nono/releases - the v0.77.0 through v0.79.0 release record
+- https://api.github.com/repos/nolabs-ai/nono/releases - the v0.77.0 through v0.81.0 release record
+- https://github.com/nolabs-ai/nono/security/advisories - the coordinated-disclosure record: fifteen advisories with severities and dates, the critical source
 - https://hn.algolia.com/api/v1/items/46849615 - the 4-point Show HN of 2026-02-01, the largest of four near-zero threads

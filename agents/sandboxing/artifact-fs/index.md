@@ -1,7 +1,7 @@
 ---
 title: ArtifactFS
 created: 2026-08-30
-updated: 2026-10-26
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, workspace-provisioning, git, cloudflare, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, Go 1.26+, source build only, no packaged releases.
 
 ## Status
 
-Early beta: 1,190 stars as of 2026-10-16, 53 forks and 6 open issues as of 2026-10-23, created 2026-03-29, last push 2026-10-21 (branch activity; the main branch has been quiet since 2026-08-12).
+Early beta: 1,190 stars as of 2026-10-16, 53 forks and 6 open issues as of 2026-10-23, created 2026-03-29, last push 2026-11-01 (branch activity; the main branch has been quiet since 2026-08-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cloudflare/artifact-fs&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for small or medium repos, Windows or locked-down CI environments, or anyone
 - 2026-10-07 - Added the cloudflare/artifact-fs star history chart to the Status section.
 - 2026-10-16 - Rotation re-verification: every cited URL re-fetched live, and the closed-beta claim rewritten to what the pages state today (Artifacts is Workers Paid only per its pricing page, and the launch post's early-May public-beta target has not visibly opened).
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched and alive (repository, the launch post, the usage guide, the pricing page, the 217-point thread, the README); the main branch still quiet since 2026-08-12 with the push date holding at 2026-10-21 on branch activity, the rc.1-through-rc.10 tag list, the 57-commit count, and the open-issue figure re-confirmed, and the Artifacts pricing page unchanged at the baseline rates.
+- 2026-11-01 - Volatile refresh: the push advanced to 2026-11-01 on feature and dependency branches with main still quiet since 2026-08-12, and the Artifacts pricing page re-checked unchanged at the baseline rates.
 
 ## See also
 

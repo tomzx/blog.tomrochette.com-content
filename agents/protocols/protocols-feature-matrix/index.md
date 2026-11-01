@@ -1,7 +1,7 @@
 ---
 title: "Protocols Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, protocols, interoperability]
 readability: 3
@@ -46,7 +46,7 @@ The Agent Protocol sits with the young serving specs: 687 stars, active through 
 UHP is the newest serving bet: the spec ships inside HarnessRouter's 2,994-star repository (as of 2026-10-13), the hosted service and SuperQode's 62-star framework are the recorded implementations, and its discussion footprint is one 10-point Show HN thread with zero stories naming the protocol itself.
 PIC Standard sits below even UHP on reach while overmatching it on specification form: 69 stars, a 1-point Show HN, and 697 PyPI downloads in the month ending 2026-10-10, against an anchored RFC, a frozen canonicalization spec, a 91-vector conformance corpus, and a second implementation passing it, with differential CI keeping the two verifiers aligned.
 llms.txt splits the file-convention lane with AGENTS.md: thousands of sites and the docs of tools in this index serve it (Anthropic's and OpenAI's developer docs confirmed live this run), coding agents fetch it, and the search crawlers its SEO adopters hoped for still ignore it.
-AG-UI is the anomaly that proves the rule: none of this index's harnesses or surfaces speak it natively, yet its SDKs moved about 16.3M combined npm downloads in the month ending 2026-10-30, because the frontend layer is where end-user products live even though coding tools never touch it.
+AG-UI is the anomaly that proves the rule: none of this index's harnesses or surfaces speak it natively, yet its SDKs moved about 15.5M combined npm downloads in the month ending 2026-10-31, because the frontend layer is where end-user products live even though coding tools never touch it.
 A2UI is the newest layer to fill in: launched in December 2025, it passed 16,600 stars in ten months and is carried by Google's own Opal and Gemini Enterprise plus Flutter's GenUI SDK, adoption that outruns its release-candidate spec.
 WebMCP sits at the browser edge: 4,621 stars, a Chrome origin trial, and Shopify and Cloudflare turning it default-on across much of commerce in August 2026, while Gemini in Chrome remains the only agent consuming those tools at scale.
 ANP sits below even A2A: 1.4k stars after two years and Hacker News stories at 2 and 1 points are the footprint of a protocol whose network effect has not started.
@@ -110,6 +110,7 @@ The mature protocols get attacked for their risks, the young ones for their reas
 - 2026-10-24 - Re-verification: the AG-UI prose figure refreshed to about 15.1M combined downloads in the month ending 2026-10-22 and the AHP prose figures to roughly 940k combined downloads (crate 322,294 lifetime plus npm 617,300 for 2026-09-24 to 2026-10-23); the ACP SDK train moved to Rust 3.5.0 and TypeScript 2.0.2 with its agents list at 46, the UHP implementing product's train to v0.36.3 with the spec unchanged, the A2A v1.0.1 release, the A2UI v0.9.1-plus-candidate table, the MCP revision (2026-07-28), and the ANP v1.2 release train all re-verified unchanged; no membership change.
 - 2026-10-27 - Re-verification: the AG-UI prose figure refreshed to about 14.5M combined downloads in the month ending 2026-10-26 and the AHP prose figures to roughly 964k combined downloads (crate 331,127 lifetime plus npm 633,242 for 2026-09-27 to 2026-10-26); the UHP implementing product's train moved to v0.37.6 (2026-10-27) with the spec unchanged at its 2026-10-19 fifth version, the ACP agents list re-counted at 48, the A2A v1.0.1 release, the A2UI v0.9.1-plus-candidate table, and the MCP revision (2026-07-28) re-verified unchanged; no membership change.
 - 2026-10-31 - Re-verification: the WebMCP maturity cell moved to the draft revision of 2026-10-27 (cross-origin tool exposure under two-sided opt-in, the first API surface change since the 2026-10-08 declarative removal); the AG-UI prose figure refreshed to about 16.3M combined downloads in the month ending 2026-10-30 and the AHP prose figures to roughly 936k combined downloads (crate 345,702 lifetime plus npm 590,346 for 2026-10-01 to 2026-10-30); the A2A v1.0.1 release, the A2UI v0.9.1-plus-candidate table (its CLI's first tag riding outside the spec table), the ACP stable protocol at version 1 with its v1.14.0 / schema-v1.28.0 train, the MCP revision (2026-07-28), the ANP 1.2 suite, the Agent Protocol OpenAPI 0.1.6, the PIC v0.9.1 release, the llms.txt v2, and the UHP 2026-10-19 fifth version (suite at 2026.10.19.post4) all re-verified; no membership change.
+- 2026-11-01 - Re-verification: the AG-UI prose figure refreshed to about 15.5M combined downloads in the month ending 2026-10-31; the A2A v1.0.1 release, the ACP stable protocol at version 1 with its v1.14.0 / schema-v1.28.0 train (Rust 3.6.0, TypeScript 2.2.0), the UHP 2026-10-19 fifth version (suite at 2026.10.19.post4, train at v0.37.13), the Agent Protocol OpenAPI 0.1.6, the AG-UI packages at 1.0.3, and the AGENTS.md 60k-project count all re-verified unchanged; no membership change.
 
 ## See also
 

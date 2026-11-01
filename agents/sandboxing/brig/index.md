@@ -1,7 +1,7 @@
 ---
 title: Brig
 created: 2026-10-06
-updated: 2026-10-27
+updated: 2026-11-01
 readability: 3
 audience_notes: >
   Engineers who want a maintained microVM around coding agents on their own Apple Silicon or Linux workstation.
@@ -23,7 +23,7 @@ Built by NOFire AI, the team behind urunc, a CNCF Sandbox project; images, boot 
 
 ## Status
 
-Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 2026-08-12, pushed 2026-10-26, Apache-2.0.
+Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 2026-08-12, pushed 2026-10-31, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 20
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&legend=top-left" />
 </picture>
 
-v0.2.0 shipped 2026-09-15, v0.3.0 on 2026-09-26, v0.4.0 on 2026-10-06, and v0.4.1 on 2026-10-16, which pins the Linux runtime bundle at rc17 and reopens the remote-and-Kubernetes non-goals in the docs (issues #482 through #485), with the channel-main prerelease train cutting two more builds on 2026-10-16, a channel-experimental 0.4.2 line opening after it (builds on 2026-10-23 and 2026-10-24), and the main channel itself moving onto 0.4.2 builds on 2026-10-25, v0.4.1 still the newest tagged release.
+v0.2.0 shipped 2026-09-15, v0.3.0 on 2026-09-26, v0.4.0 on 2026-10-06, and v0.4.1 on 2026-10-16, which pins the Linux runtime bundle at rc17 and reopens the remote-and-Kubernetes non-goals in the docs (issues #482 through #485), with the channel-main prerelease train cutting two more builds on 2026-10-16, a channel-experimental 0.4.2 line opening after it (builds on 2026-10-23 and 2026-10-24), and the main channel itself moving onto 0.4.2 builds on 2026-10-25, until v0.5.0 became the newest tagged release on 2026-10-31: a breaking cut that retires the old command spellings and profile keys (a profile still carrying one refuses to parse), introduces the v1alpha1 policy envelope with brokered routes and presets, adds the secret broker and renewer seams, and refreshes the Claude OAuth pair, with channel-main already building 0.5.1 prereleases the same day.
 The Show HN launch on 2026-09-22 drew 9 points, and the maintainer's introduction is most of the thread's substance, so the community footprint is thin and the documentation is where the evidence lives.
 **A nine-point launch against 228 stars in nine weeks reads as quiet, deliberate adoption rather than a wave, and no independent audit or benchmark exists yet, while v0.4.0's breaking changes show the security defaults are still moving: new sandboxes now get isolated networks by default on hvi and Linux, and the runtime refuses shims that share the host kernel.**
 
@@ -44,7 +44,7 @@ The Show HN launch on 2026-09-22 drew 9 points, and the maintainer's introductio
 
 ## Cautions
 
-- Pre-1.0 (v0.4.1) with channel-build churn and no independent audit.
+- Pre-1.0 (v0.5.0) with breaking-change churn and no independent audit.
 - Egress policies enforce on hull's hvi backend and, since v0.4.0, on Linux through nftables on the sandbox's own bridge, while the vz, qemu, and docker backends have no policy enforcement, and the default with no policy attached is open internet access.
 - Two sandboxes on a shared network can reach each other by the project's own measurements, and v0.4.0 made isolated networks the default for new sandboxes on hvi and Linux (vz, qemu, and the claude-desktop profile stay shared), while the docs warn the shared-network answer is not a stable property.
 - The credential model has stated sharp edges: Brig's stored copy of a Claude refresh token is less protected than the original keychain item, and `files:` bindings bypass the denylist by design.
@@ -75,6 +75,7 @@ Not for Intel Macs, for vz or qemu users who need enforced egress policy, or for
 - 2026-10-17 - Recorded v0.4.1 (2026-10-16, the runtime bundle pinned at rc17, the remote-and-Kubernetes non-goals reopened in the docs) and the channel-main train resuming on 2026-10-16, and corrected the Bottom line's egress wording (vz and qemu lack enforcement; Linux enforces in nftables since v0.4.0, as the Cautions already state).
 - 2026-10-25 - Recorded the channel-experimental 0.4.2 line opening (builds on 2026-10-23 and 2026-10-24, v0.4.1 still the newest tagged release), with the repository pushed 2026-10-24.
 - 2026-10-27 - Recorded the main channel moving onto 0.4.2 prerelease builds (2026-10-25), v0.4.1 still the newest tagged release, with the repository pushed 2026-10-26.
+- 2026-11-01 - Recorded v0.5.0 (2026-10-31, the newest tagged release: breaking removals of the retired command spellings and profile keys, the v1alpha1 policy envelope with brokered routes and presets, the secret broker and renewer seams, and the Claude OAuth pair refresh, with channel-main building 0.5.1 prereleases the same day), and the repository pushed 2026-10-31.
 
 ## See also
 

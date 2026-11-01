@@ -1,7 +1,7 @@
 ---
 title: Sandstorm
 created: 2026-10-31
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, gvisor, firecracker, sandbox-lifecycle]
 readability: 3
@@ -24,7 +24,8 @@ Apache-2.0, by DeepLethe (whose own site, deeplethe.com, is a Chinese-language c
 
 ## Status
 
-Active and unreleased for five months: 3,270 stars, 293 forks, and 11 open issues and pull requests as of 2026-10-31 (GitHub API), pushed 2026-10-31, while the newest tag is still v0.5.3 from 2026-07-22.
+Active and unreleased for five months: 3,270 stars, 293 forks, and 11 open issues and pull requests as of 2026-10-31 (GitHub API), pushed 2026-11-01, while the newest tag is still v0.5.3 from 2026-07-22.
+Main's newest commit (2026-11-01) is a v0.6.0 release-preparation pass that fixes the release packaging itself: the release binary had been built against glibc 2.38 and would not start on Ubuntu 22.04 or Debian 12, the Docker image had quietly stopped building, and the pass moves the binary build to ubuntu-22.04, starts tracking Cargo.lock, and bumps the core and SDKs to 0.6.0, though no v0.6.0 tag is cut yet.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=deeplethe/sandstorm&type=date&theme=dark&legend=top-left" />
@@ -43,7 +44,7 @@ The name collides with Sandstorm.io, the long-archived self-hosted app platform,
 
 ## Cautions
 
-- No release since July 2026 while main pushes daily, so adopters run source builds or pin to a stale tag.
+- No release since July 2026 while main pushes daily, so adopters run source builds or pin to a stale tag; the 2026-11-01 release-prep pass shows why that matters, since the stale packaging had broken twice over (a glibc-2.38 binary and a Docker image that no longer built).
 - Every performance number is self-measured, with no third-party benchmark or write-up found anywhere.
 - Single-vendor project with a Chinese-language company presence and no English community channel surfaced, so roadmap visibility and support are thin.
 - The Sandstorm name fight against Sandstorm.io for search and mindshare is a permanent tax.
@@ -65,6 +66,7 @@ Recommended for engineers running self-hosted agent-sandbox fleets on their own 
 ## Changes
 
 - 2026-10-31 - Created.
+- 2026-11-01 - Volatile refresh: recorded the v0.6.0 release-preparation pass on main (2026-11-01), which repairs the release packaging (a binary built against glibc 2.38 that would not start on Ubuntu 22.04 or Debian 12, and a Docker image that had stopped building), bumps core and SDKs to 0.6.0, and cuts no tag yet, with the repository pushed 2026-11-01.
 
 ## See also
 

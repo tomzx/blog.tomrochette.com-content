@@ -1,7 +1,7 @@
 ---
 title: NemoClaw
 created: 2026-10-07
-updated: 2026-10-26
+updated: 2026-11-01
 readability: 3
 audience_notes: >
   Engineers who want to run an always-on assistant (OpenClaw, Hermes, or LangChain Deep Agents) inside an OpenShell sandbox without assembling the integration themselves.
@@ -24,7 +24,7 @@ Apache-2.0, from NVIDIA, which describes the project as alpha with best-effort m
 
 ## Status
 
-Large and fast for an alpha: 22,754 stars, 3,142 forks, 796 open issues and PRs as of 2026-10-16, created 2026-03-15, pushed 2026-10-26.
+Large and fast for an alpha: 22,754 stars, 3,142 forks as of 2026-10-16, 808 open issues and PRs as of 2026-11-01, created 2026-03-15, pushed 2026-11-01.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ Not for production-critical assistants while the project declares alpha, or for 
 - 2026-10-12 - Clarified the release story against the tag list (138 git tags, mostly an orphaned v0.0.x line from the May 2026 history rewrite, versus exactly one published release) and refreshed counts (22,719 stars, 760 open issues and PRs, pushed 2026-10-12).
 - 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (push of 2026-10-17 checked: still prerelease-only, nothing material).
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched and alive (repository, the docs home and ecosystem pages, the README, the release record, the 385-point launch thread); the exactly-one-prerelease release story, the README's alpha wording, and the supported-agent roster re-confirmed, with the push advanced to 2026-10-26 on CI and E2E-runner fixes.
+- 2026-11-01 - Volatile refresh for the 2026-10-30 and 2026-11-01 pushes (inference fixes: vLLM startup-error retention, custom-endpoint policy-conflict refusal, and connect-timeout container naming, plus a credential-free Tavily CI check), the exactly-one-prerelease release story re-confirmed, and open issues and PRs at 808.
 
 ## See also
 

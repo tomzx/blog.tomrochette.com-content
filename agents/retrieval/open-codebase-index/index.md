@@ -1,7 +1,7 @@
 ---
 title: open-codebase-index
 created: 2026-10-05
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, rag, embeddings, mcp]
 readability: 3
@@ -24,7 +24,7 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
 ## Status
 
 **Active and shipping constantly, with almost no community footprint.**
-221 stars and 38 forks as of 2026-10-13, pushed 2026-10-30 (GitHub API, as of 2026-10-31).
+221 stars and 38 forks as of 2026-10-13, pushed 2026-10-31 (GitHub API, as of 2026-11-01).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ My disagreeable claim: a 5,600-installs-a-month npm package with zero discussion
 - 2026-10-26 - Recorded the npm train reaching 0.38.1 (2026-10-25, 37 versions total) and refreshed the repository activity (pushed 2026-10-26); trailing-month downloads unchanged.
 - 2026-10-27 - Recorded the npm train reaching 0.38.2 (2026-10-26, 38 versions total) and the trailing-month install trend falling again (5,662 to 2026-10-22, now 5,365 to 2026-10-27, ten zero days inside the window), a third consecutive decline, with the Bottom-line install figure aligned; the repository push date is unchanged at 2026-10-26.
 - 2026-10-31 - Refreshed the repository activity (pushed 2026-10-30) and re-read the trailing-month installs at 5,569 to 2026-10-30 (nine zero days), roughly flat against the prior 5,365 reading, pausing the three-decline string; PyPI/npm latest remains 0.38.2.
+- 2026-11-01 - Refreshed the repository activity (pushed 2026-10-31); the npm train remains paused at 0.38.2.
 
 ## See also
 
@@ -90,7 +91,7 @@ My disagreeable claim: a 5,600-installs-a-month npm package with zero discussion
 
 ## References
 
-- https://github.com/Helweg/open-codebase-index - repository: 221 stars (as of 2026-10-13), 38 forks, MIT, created 2026-01-13, pushed 2026-10-30 (GitHub API, as of 2026-10-31)
+- https://github.com/Helweg/open-codebase-index - repository: 221 stars (as of 2026-10-13), 38 forks, MIT, created 2026-01-13, pushed 2026-10-31 (GitHub API, as of 2026-11-01)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/README.md - hosts, highlights, pipeline, embedding providers, legacy package aliases (fetched 2026-10-05, re-verified unchanged 2026-10-11)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/docs/tools.md - the host surface matrix: 16 portable tools, 3 knowledge-base tools, 5 MCP prompts (fetched 2026-10-05)
 - https://registry.npmjs.org/open-codebase-index - latest 0.38.2 published 2026-10-26, 38 versions since 2026-07-30 (fetched 2026-10-31)

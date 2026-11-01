@@ -1,7 +1,7 @@
 ---
 title: aicontainer
 created: 2026-10-12
-updated: 2026-10-25
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, devcontainer, containers, isolation, open-source]
 readability: 3
@@ -32,9 +32,9 @@ The thinnest footprint in the category's admitted set after aigate: 21 stars as 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=stefanoginella/aicontainer&type=date&legend=top-left" />
 </picture>
 
-npm carries 0.12.1 (2026-10-14) after 0.12.0 and 0.11.0 the two days before, ending six weeks at 0.9.1, with 516 downloads in the trailing month (2026-09-23 to 2026-10-22), and I found no Hacker News thread for the project.
+npm carries 0.12.1 (2026-10-14) after 0.12.0 and 0.11.0 the two days before, ending six weeks at 0.9.1, with 517 downloads in the trailing month (2026-09-30 to 2026-10-29), and I found no Hacker News thread for the project.
 The 0.12 pair hardens the boundary further (root processes inside the container no longer search agent-writable PATH directories or write history to the shared volume) and fixes the agent-status relay behind the firewall.
-Development since that release is dependency automation only: the main branch has not moved since 2026-10-14, and the pushes through 2026-10-22 are renovate branches.
+Development since that release is dependency automation only: the main branch has not moved since 2026-10-14, and the pushes through 2026-10-28 are renovate branches.
 The commit messages up to the release document threat-model reasoning (a probe that fails closed against Node-manager shims, an npm 12 packaging fix) in unusual detail.
 **Twenty-one stars is a missing-community-footprint signal by the category's own standard, carried here by boundary documentation that reads like an audit candidate rather than by adoption.**
 
@@ -47,7 +47,7 @@ The commit messages up to the release document threat-model reasoning (a probe t
 
 ## Cautions
 
-- Twenty-one stars and 505 npm downloads a month: no community review has happened, and the solo maintainer is a bus factor of one.
+- Twenty-one stars and 517 npm downloads a month: no community review has happened, and the solo maintainer is a bus factor of one.
 - Outbound network is mostly open by default; the allowlist that restricts it is opt-in, which the README itself flags as the row most worth your attention.
 - The `.env` block is a tool-layer hook, defense-in-depth rather than a filesystem guarantee, and a bypass-mode CLI that ignores hooks defeats it.
 - The container boundary shares the host kernel, with no audit and no independent discussion of the claims.
@@ -74,6 +74,7 @@ Not for anyone needing a kernel or VM boundary, an audited isolation claim, or a
 - 2026-10-13 - Recorded the release train resuming: npm 0.10.0 (2026-10-12) and 0.11.0 (2026-10-13) after six weeks at 0.9.1, with trailing-month downloads moving from 401 to 505.
 - 2026-10-16 - Recorded 0.12.0 and 0.12.1 (both 2026-10-14), the root-PATH and root-history hardening fixes and the firewalled agent-status relay repair, with the star count refreshed to twenty-one.
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched and alive (repository, npm registry, npm downloads, containers.dev, the Trail of Bits devcontainer, the HN search); trailing-month downloads moved from 505 to 516, the guardrail hook's scope corrected to what the README states (it also refuses `curl | sh` pipes and control-file writes), and the activity reading corrected: the main branch has not moved since the 0.12.1 release of 2026-10-14, and the pushes through 2026-10-22 are renovate dependency branches only.
+- 2026-11-01 - Volatile refresh for the 2026-10-28 pushes: still renovate dependency branches with main quiet since the 0.12.1 release of 2026-10-14, and trailing-month npm downloads moved from 516 to 517 (2026-09-30 to 2026-10-29 window, dated-range query), with the stale 505 in Cautions corrected to match.
 
 ## See also
 

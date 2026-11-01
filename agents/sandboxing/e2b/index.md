@@ -1,7 +1,7 @@
 ---
 title: E2B
 created: 2026-10-06
-updated: 2026-10-27
+updated: 2026-11-01
 readability: 3
 audience_notes: >
   Engineers choosing where agent code execution runs, comparing the hosted sandbox API against the self-hosted platforms.
@@ -23,10 +23,11 @@ The cloud is SOC 2 Type II compliant with US, EU, and APAC regions; enterprise t
 
 ## Status
 
-Active and well funded: the SDK repo stands at 14,378 stars and the runtime repo at 1,725 stars as of 2026-10-16, the SDK repo created 2023-03-04 and pushed 2026-10-24 (the runtime repo pushed 2026-10-24), with the e2b package on PyPI at 2.59.0 (as of 2026-10-25) after the 2.56.0 release of 2026-10-13 opened the next train.
+Active and well funded: the SDK repo stands at 14,378 stars and the runtime repo at 1,725 stars as of 2026-10-16, the SDK repo created 2023-03-04 and pushed 2026-10-30 (the runtime repo pushed 2026-10-24), with the e2b package on PyPI at 2.62.0 (as of 2026-11-01) after the 2.56.0 release of 2026-10-13 opened the next train.
 The 2.56.0 cut is a breaking one for JavaScript users: Node.js 22 is now the minimum, the SDK depends on undici 8 only, and the SDK-level in-flight request caps and their environment variables are removed in favor of undici's connection pools.
 2.57.0 and 2.58.0 followed on 2026-10-20 (a tls option for the egress proxy connection, and streaming stdin and PTY input handles), and 2.59.0 on 2026-10-22 added per-sandbox DNS server allowlists inside the egress firewall while deprecating the apiUrl and sandboxUrl connection options and their environment variables ahead of removal in the next major.
-2.60.0 and 2.61.0 both shipped on 2026-10-26: 2.60.0 reworked retry handling around the server's `Should-Retry` header (dropping the method and replayable-operation allowlists and no longer retrying post-send network errors) and bumped undici to 8.12.2 to fix CVE-2026-109869 (high, a denial of service via unhandled error on excessive content-encodings), while 2.61.0 added an `idempotencyKey` option to `Sandbox.create` so a retried creation request cannot mint duplicate sandboxes; PyPI is at 2.61.0 as of 2026-10-27.
+2.60.0 and 2.61.0 both shipped on 2026-10-26: 2.60.0 reworked retry handling around the server's `Should-Retry` header (dropping the method and replayable-operation allowlists and no longer retrying post-send network errors) and bumped undici to 8.12.2 to fix CVE-2026-109869 (high, a denial of service via unhandled error on excessive content-encodings), while 2.61.0 added an `idempotencyKey` option to `Sandbox.create` so a retried creation request cannot mint duplicate sandboxes.
+2.62.0 followed on 2026-10-28 across the JS and Python SDKs, the code-interpreter package, and the CLI: a `retainOutput` option on command runs (default true) that skips in-memory stdout and stderr buffering when set false while callbacks still fire, and streaming, unbuffered `files.write` over async byte iterables; PyPI is at 2.62.0 as of 2026-11-01, and the pricing page re-checked unchanged at the baseline rates.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=e2b-dev/E2B&type=date&theme=dark&legend=top-left" />
@@ -83,6 +84,7 @@ Not for GPU workloads, for $0-marginal-cost fleet scale, or for anyone unwilling
 - 2026-10-13 - Recorded the 2.56.0 release of 2026-10-13 opening the next SDK train (Node.js 22 minimum, undici 8 only, the in-flight request caps and their env vars removed), with PyPI at 2.56.0 and counts refreshed (SDK repo 14,324 stars, runtime repo 1,712 stars).
 - 2026-10-23 - Recorded the train advancing to 2.59.0 (2.57.0 and 2.58.0 on 2026-10-20: a tls egress-proxy option and streaming stdin/PTY input handles; 2.59.0 on 2026-10-22: per-sandbox DNS server allowlists in the egress firewall, the apiUrl and sandboxUrl options and their env vars deprecated ahead of next-major removal, and unified sandbox domain endpoints), with PyPI at 2.59.0.
 - 2026-10-27 - Recorded 2.60.0 and 2.61.0 (both 2026-10-26: the Should-Retry-header retry rework, the undici 8.12.2 bump fixing CVE-2026-109869, a high-severity denial of service via unhandled error on excessive content-encodings, and the Sandbox.create idempotencyKey option), with PyPI at 2.61.0.
+- 2026-11-01 - Recorded 2.62.0 (2026-10-28, the retainOutput command option skipping in-memory output buffering and streaming files.write over async byte iterables, cut across the JS and Python SDKs, the code-interpreter package, and the CLI), PyPI at 2.62.0, the pricing page re-checked unchanged at the baseline rates, and the repository pushed 2026-10-30.
 
 ## See also
 
@@ -98,7 +100,7 @@ Not for GPU workloads, for $0-marginal-cost fleet scale, or for anyone unwilling
 - https://e2b.dev/pricing - plans, concurrency tiers, published usage rates as of 2026-10-06
 - https://github.com/e2b-dev/E2B - SDK repository, growth, license
 - https://github.com/e2b-dev/runtime - the open-source runtime and the Embed single-node package
-- https://pypi.org/pypi/e2b/json - the e2b package's current version, 2.59.0 as of 2026-10-23
+- https://pypi.org/pypi/e2b/json - the e2b package's current version, 2.62.0 as of 2026-11-01
 - https://e2b.dev/blog/series-a - the $21M Series A and the enterprise traction claims
 - https://hn.algolia.com/api/v1/items/41860413 - the 2-point 2024 launch thread
 - https://hn.algolia.com/api/v1/items/47863430 - CubeSandbox's open-source-alternative launch, the competitive counterpoint

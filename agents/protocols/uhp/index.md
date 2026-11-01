@@ -1,7 +1,7 @@
 ---
 title: Unified Harness Protocol (UHP)
 created: 2026-10-08
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, agent-serving, harnesses]
 readability: 3
@@ -83,6 +83,7 @@ My disagreeable claim: the Responses API already owns this lane by gravity, so t
 - 2026-10-26 - The v0.37.0 release candidate went stable (2026-10-26) and a v0.37.1 release-candidate series opened behind it (rc.1 and rc.2, 2026-10-26); the spec stays at its 2026-10-19 fifth version and the conformance suite at 2026.10.19.post3. Corrected the star-history chart markup (the light-theme source carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-27 - The v0.37.1 release candidate went stable (2026-10-26) and the release train moved through v0.37.6 (2026-10-27); the spec stays at its 2026-10-19 fifth version and the conformance suite at 2026.10.19.post3.
 - 2026-10-31 - The release train moved through v0.37.9 (2026-10-29) to v0.37.13 (2026-10-31) and the conformance suite moved to 2026.10.19.post4 (2026-10-29), which covers the spec's new create-time Idempotency-Key capability (`harness_idempotency`); the spec stays at its 2026-10-19 fifth version, so the suite's addition is a capability of the fifth version rather than a sixth.
+- 2026-11-01 - Re-verification: the spec stays at its 2026-10-19 fifth version with the conformance suite at 2026.10.19.post4 (the changelog's newest entry), the release train still ends at v0.37.13 (2026-10-31), and the repository pushed 2026-11-01 on housekeeping only (an opt-in security-scan CI workflow and a kit rename, no new tag).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Agent Analytics
 created: 2026-09-27
-updated: 2026-10-28
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, session-analytics, analytics, mcp, open-source]
 readability: 3
@@ -84,6 +84,7 @@ Not for observing coding-agent sessions, token cost, or provenance, despite livi
 - 2026-10-11 - Added the documented ChatGPT integration (hosted MCP through OpenAI developer mode, local plugin testing only, not yet in the public plugins directory); repository counts re-verified unchanged.
 - 2026-10-21 - Rotation re-verification: every cited URL re-fetched and live; repository state (last push 2026-10-09, the LICENSE file the README links still 404 on the default branch), npm CLI (0.5.37, published 2026-10-09), docs, OpenAPI spec, and the site's client-rendered pricing shell all unchanged, and the Hacker News footprint still zero hits.
 - 2026-10-28 - Rotation re-verification: every cited URL re-fetched and live; repository state (last push 2026-10-09), the missing LICENSE file, npm CLI (0.5.37), docs, OpenAPI spec, and the zero-hit Hacker News footprint all unchanged.
+- 2026-11-01 - Rotation re-verification: every cited URL re-fetched and live; repository state (last push 2026-10-09, the LICENSE file the README links still absent from the default branch per the API license field), the npm CLI (0.5.37, modified 2026-10-09), docs, OpenAPI spec, and the zero-hit Hacker News footprint all unchanged.
 
 ## See also
 

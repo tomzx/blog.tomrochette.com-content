@@ -1,7 +1,7 @@
 ---
 title: Agent Client Protocol (ACP)
 created: 2026-08-24
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, editor-integration]
 readability: 3
@@ -85,6 +85,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 - 2026-10-25 - The repository pushed 2026-10-25 with the v2 draft's RFD docs moving subagents, system prompt, and MCP-over-ACP to active, while the SDK train stays at Rust 3.5.0 (2026-10-22) and TypeScript 2.0.2 (2026-10-23); agents list re-counted at 46, and the stable protocol stays at version 1 with the v2 draft open.
 - 2026-10-27 - The repository pushed 2026-10-26/27 with the v2 unstable train continuing in the schema docs (unknown-variant receiver behavior, exactly one elicitation scope, null request IDs disallowed, a type discriminator on available commands) and no new schema release tag, while the SDK train stays at Rust 3.5.0 and TypeScript 2.0.2; agents list re-counted at 48 (registry additions include Oleafly and Open Walnut on the clients side and a2acode among connectors), and the stable protocol stays at version 1 with the v2 draft open.
 - 2026-10-31 - The trains moved on without a protocol change: the stable train to v1.13.0 with schema-v1.27.0 (2026-10-27) and v1.14.0 with schema-v1.28.0 plus the v2 alpha train's schema-v2.0.0-alpha.11 (2026-10-30), the Rust crate to 3.6.0 (2026-10-28) and the TypeScript package to 2.2.0 (2026-10-30), and the agents list re-counted at 49; the stable protocol stays at version 1 with the v2 draft open.
+- 2026-11-01 - Re-verification: everything the 2026-10-31 pass recorded stands unchanged, the release trains still end at v1.14.0 with schema-v1.28.0 and schema-v2.0.0-alpha.11 (2026-10-30) with nothing newer tagged, the SDKs stay at Rust 3.6.0 (2026-10-28) and TypeScript 2.2.0 (2026-10-30), and the repository pushed 2026-10-31 with no new tag since.
 
 ## See also
 
