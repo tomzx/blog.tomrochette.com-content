@@ -1,7 +1,7 @@
 ---
 title: OpenSpec
 created: 2026-08-27
-updated: 2026-10-26
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, specs, open-source]
 readability: 3
@@ -30,7 +30,7 @@ Half of spec-kit's stars in a third of the time.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&legend=top-left" />
 </picture>
 
-As of 2026-10-14: about 71k stars (71,842) and about 4.9k forks since creation on 2025-08-05, MIT; as of 2026-10-26, 204 open issues and pull requests, pushed 2026-10-26, release v1.15.0 (2026-10-24) is the newest (a standalone installer shipping release binaries for macOS, Linux, and Windows so OpenSpec installs without Node.js, an `update --dry-run` preview, and a `/opsx:verify` fix matching a REMOVED requirement by exact name), with 2,753,900 npm downloads last month (the 2026-09-23 to 2026-10-22 window, re-read 2026-10-26).
+As of 2026-10-14: about 71k stars (71,842) and about 4.9k forks since creation on 2025-08-05, MIT; as of 2026-11-01, 189 open issues and pull requests, pushed 2026-10-30, release v1.16.0 (2026-10-30) is the newest (installing from openspec.dev, a breaking Node.js 22.12.0 floor for npm installs after Node 20's end-of-life with the standalone binary unaffected, and wider validate checks, on top of v1.15.0's standalone release binaries for macOS, Linux, and Windows, the `update --dry-run` preview, and the `/opsx:verify` fix matching a REMOVED requirement by exact name), with 3,243,520 npm downloads last month (the 2026-09-30 to 2026-10-29 window, re-read 2026-11-01).
 **Its Hacker News footprint is effectively empty (no significant thread found this run), so adoption spread through X and Discord, and third-party verification is thinner than the install count implies.**
 The README's own superlative ("the most loved spec framework") is vendor framing, not a measured claim.
 
@@ -77,6 +77,7 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 - 2026-10-17 - Recorded the v1.14.3 release (2026-10-17, linked spec files via symlink, the audit-failing braces dependency dropped, and a validate hang fix in hooks) and re-read the npm download figure byte-identical.
 - 2026-10-21 - Corrected the v1.14.3 symlink description (the changelog reframe: symlinked spec files are tolerated, not refused, but symlinked layouts are not officially supported) and refreshed the status date.
 - 2026-10-25 - Recorded the v1.15.0 release (2026-10-24: standalone install without Node.js from release binaries, `update --dry-run`, and an exact-name REMOVED-requirement match in verify) and refreshed the download count.
+- 2026-11-01 - Recorded the v1.16.0 release (2026-10-30: install from openspec.dev, a breaking Node.js 22.12.0 floor for npm installs with the standalone binary unaffected, and wider validate checks) and refreshed the download count.
 
 ## See also
 
@@ -90,5 +91,5 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 - https://github.com/Fission-AI/OpenSpec - README: philosophy, opsx workflow, artifact layout
 - https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues, releases through v1.14.1, as of 2026-10-14
 - https://openspec.dev/ - official documentation site
-- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 2,753,900 downloads last month (2026-09-23 to 2026-10-22 window), fetched 2026-10-25
+- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 3,243,520 downloads last month (2026-09-30 to 2026-10-29 window), fetched 2026-11-01
 - https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md - the rebuilt artifact workflow

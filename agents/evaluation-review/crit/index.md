@@ -1,7 +1,7 @@
 ---
 title: Crit
 created: 2026-10-12
-updated: 2026-10-26
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Beyond the local loop it syncs both ways with GitHub PRs and GitLab MRs (pull re
 
 ## Status
 
-Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-10-23, with v0.23.1 released 2026-10-23 and the author claiming a weekly release cadence.
+Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-10-31, with v0.23.2 released 2026-10-31 after v0.23.1 (2026-10-23) and the author claiming a weekly release cadence.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tomasz-tomczyk/crit&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for terminal-only workflows (Hunk), not for CI gating (nothing here exits no
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
+- 2026-11-01 - Recorded the v0.23.2 release (2026-10-31, review-page reload-and-toast fixes) and refreshed the activity line and the releases reference.
 
 ## See also
 
@@ -84,6 +85,6 @@ Not for terminal-only workflows (Hunk), not for CI gating (nothing here exits no
 - https://github.com/tomasz-tomczyk/crit - repository: license, stars, forks, and dates as of 2026-10-12
 - https://raw.githubusercontent.com/tomasz-tomczyk/crit/main/README.md - the five modes, integrations, forge sync, agent_cmd trust boundary, and the story-mode cost estimate
 - https://api.github.com/repos/tomasz-tomczyk/crit - stars, forks, issues, creation and push dates as of 2026-10-12
-- https://api.github.com/repos/tomasz-tomczyk/crit/releases - v0.22.0 published 2026-10-07
+- https://api.github.com/repos/tomasz-tomczyk/crit/releases - the release line and cadence, v0.23.2 published 2026-10-31
 - https://crit.md - the five-mode product surface, founder context, the weekly-release claim, and crit-web self-hosting
 - https://hn.algolia.com/api/v1/search?query=crit.md&hitsPerPage=5 - the footprint scan: no dedicated thread, the author's Ask HN comments, and the 2026-09-26 plan-mode skepticism

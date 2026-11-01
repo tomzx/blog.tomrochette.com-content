@@ -1,7 +1,7 @@
 ---
 title: Instructor
 created: 2026-08-24
-updated: 2026-10-30
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, pydantic, validation]
 readability: 3
@@ -81,6 +81,7 @@ Not for teams that need agents, evals, or hard latency budgets.
 - 2026-10-17 - Volatile re-verification after the 2026-10-14 push: recorded the unreleased 1.18 line adding OpenAI Decisions support under shared provider contracts (consolidated on main 2026-10-10, release 1.17.0 still latest); monthly PyPI downloads re-read at roughly 8.5M, flat.
 - 2026-10-24 - Volatile re-verification after the 2026-10-20 release-engineering push (the 1.18 line's correctness and docs fixes): monthly PyPI downloads re-read at 8,516,567, flat for a third consecutive check.
 - 2026-10-30 - Rotation re-verification: all five cited URLs re-fetched and live (the repository pushed 2026-10-26 on branch activity with the default branch's newest commit still the 2026-10-20 release-engineering merge), PyPI still at 1.17.0 with the docs' PydanticAI steering unchanged, and monthly PyPI downloads re-read at 8,516,567, flat for a fourth consecutive check; nothing else changed.
+- 2026-11-01 - Rotation re-verification: all five cited URLs re-fetched and live, the repository still pushed 2026-10-26 with no new commit or release, PyPI still at 1.17.0 (September 9, 2026) with 1.16.0 behind it, the docs' PydanticAI steering statement and from_provider interface unchanged, and the native strict-mode guide holding; nothing material moved.
 
 ## See also
 
@@ -91,8 +92,8 @@ Not for teams that need agents, evals, or hard latency budgets.
 
 ## References
 
-- https://github.com/567-labs/instructor - repo: stars, license, retry and streaming features, PydanticAI positioning (as of 2026-10-15)
-- https://python.useinstructor.com/ - official docs: from_provider interface, reasking, hooks, provider list (fetched 200, 2026-10-15)
-- https://pypi.org/project/instructor/ - release cadence (1.17.0, September 2026, the latest as of 2026-10-15), maintainer and authorship
-- https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent record that OpenAI credited Instructor as inspiration for its SDK helpers (fetched 200, 2026-10-15)
-- https://platform.openai.com/docs/guides/structured-outputs - the native strict mode that changed Instructor's niche (fetched 200, 2026-10-15)
+- https://github.com/567-labs/instructor - repo: stars, license, retry and streaming features, PydanticAI positioning (as of 2026-10-15; re-fetched 2026-11-01 with the pushed date still 2026-10-26)
+- https://python.useinstructor.com/ - official docs: from_provider interface, reasking, hooks, provider list (fetched 200, 2026-10-15; re-fetched 2026-11-01, the PydanticAI steering statement unchanged)
+- https://pypi.org/project/instructor/ - release cadence (1.17.0, September 2026, the latest as of 2026-10-15; re-read 2026-11-01, unchanged)
+- https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent record that OpenAI credited Instructor as inspiration for its SDK helpers (fetched 200, 2026-10-15; re-fetched 2026-11-01)
+- https://platform.openai.com/docs/guides/structured-outputs - the native strict mode that changed Instructor's niche (fetched 200, 2026-10-15; re-fetched 2026-11-01)

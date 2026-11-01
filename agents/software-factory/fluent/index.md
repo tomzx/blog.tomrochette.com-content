@@ -1,7 +1,7 @@
 ---
 title: "Fluent"
 created: 2026-08-29
-updated: 2026-10-26
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, self-improving, autonomous-agents]
 readability: 3
@@ -75,6 +75,7 @@ Not for the one-off feature, which a simpler pipeline or a single agent handles 
 - 2026-10-11 - Recorded the v0.6.0 release (2026-10-11), a source-only release candidate for the shared-service transition with candidate-bound evidence and no rollback to v0.5.0; counts refreshed.
 - 2026-10-21 - Rotation re-verification: every cited URL re-fetched (repository, the five release-notes documents from v0.2.0 through v0.6.0, fluent.computer, the Discord invite via the invite API, and agentskills.io) and all claims confirmed, including v0.6.0 still the newest release, no push since 2026-10-11, and the live Software Factories Discord (30 members); no material change.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched (repository via the API, the five release-notes documents from v0.2.0 through v0.6.0, fluent.computer, the Discord invite via the invite API, and agentskills.io) and all claims confirmed, including v0.6.0 still the newest release, no push since 2026-10-11, and the live Software Factories Discord (39 members); no material change.
+- 2026-11-01 - Rotation re-verification: every cited URL re-fetched (repository via the API and README, the five release-notes documents from v0.2.0 through v0.6.0, fluent.computer, the Discord invite via the invite API, and agentskills.io) and all claims confirmed, including v0.6.0 still the newest release, no push since 2026-10-11, and the live Software Factories Discord (invite valid and the guild name confirmed; the invite API no longer reports a member count); no material change.
 
 ## See also
 

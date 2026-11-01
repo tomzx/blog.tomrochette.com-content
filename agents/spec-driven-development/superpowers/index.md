@@ -1,7 +1,7 @@
 ---
 title: Superpowers
 created: 2026-10-09
-updated: 2026-10-26
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, methodology, agent-skills, worktrees, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Prime Radiant, the applied research lab behind it, sells commercial support, add
 ## Status
 
 Large, active, and distribution-backed in a way no other column is.
-As of 2026-10-14: 298,672 stars, 26,695 forks, 328 open issues and pull requests, created 2025-10-09, pushed 2026-10-23, MIT, newest release v7.0.1 (2026-10-21).
+As of 2026-10-14: 298,672 stars, 26,695 forks, 328 open issues and pull requests, created 2025-10-09, MIT, newest release v7.0.1 (2026-10-21); pushed 2026-10-29 as of 2026-11-01 (GitHub API).
 v7.0.0 shipped on the project's first anniversary with a rebuilt brainstorming skill that sizes the process to the work, running a quick task immediately, agreeing a small change in chat, or writing a full design document, and it replaces the spec-document reviewer with a builder check that reads the design as the person who will build it.
 v7.0.1 retuned that rebuild after users called the new questions formulaic: brainstorming now digs for context before it asks anything, lays out the approaches and writes the design doc before building (in the steward's own test, it skipped the doc unprompted in 24 of 24 runs before the fix and 3 of 24 after), three long skills were trimmed to survive Claude Code's 20,000-character compaction cutoff, and the contribution rules now require a human-written summary and refuse agent-written PRs that fix someone else's issue.
 The steward's anniversary post reports the repo about to cross 300,000 stars (12th most starred project on GitHub by his count), the number-one third-party Claude Code plugin at more than 1.1M installs, and 50M clones every two weeks from 1.95M unique IPs.

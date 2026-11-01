@@ -1,7 +1,7 @@
 ---
 title: jcode
 created: 2026-08-30
-updated: 2026-10-30
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, yc, memory, multi-agent]
 readability: 3
@@ -26,6 +26,7 @@ Its three distinctive systems are an embedding-based memory graph with passive r
 
 **Active and rising fast, with a bus factor of one.**
 Created January 5, 2026, it shows 20,823 stars and 2,418 forks as of 2026-10-29 with pushes landing the day of this check (GitHub API, re-checked 2026-10-30), and a release cadence that ran near-daily until v0.84.0 on September 7, 2026, followed by a twelve-day pause that v0.85.0 ended on September 19, 2026, v0.86.0 a day later on September 20, the v0.87 pair starting September 22 (v0.87.0, which added Claude Opus 5.5 with independent Anthropic model discovery and Claude Code 2.1.280 OAuth compatibility, with v0.87.1 following within hours), v0.88.0 on September 23, which made Claude Opus 5.5 the default Anthropic model and added multi-browser support and banked resets for exhausted OpenAI usage, and a near-daily train still running as of 2026-10-22 (v0.89.0 on September 28 added voice input and agent applets, v0.90.0 on October 1 moved web search to the provider's own server-side search with a config opt-out, v0.91.0 on October 6 added a Google Calendar tool, guided OAuth app setup, Alt-based speed-tier cycling, and a /desktop handoff to Jcode Desktop, v0.92.0 on October 7 added opt-in codemode over an embedded QuickJS sandbox, v0.93.0 on October 9 cut first-frame startup to about 20 ms and added the post_tool_feedback hook, v0.94.0 on October 10 added queued commands, an Alt+G git-commit-log view, and mid-turn message observation and cancellation for API clients, and v0.95.0 on October 12 routed OpenCode Go models including grok-4.7 and gpt-6-luna over the Responses API, exposed turn-end token usage to hooks, and added per-session worker model overrides in /agents plus a stalled-worker watchdog for swarms, the train ran on through v0.96.0 and v0.97.0 on October 14 to v0.98.1 on October 15 and v0.99.0 on October 18, which added account failover that retries a turn on the next pool account when one hits a usage limit, session hibernation that frees memory from idle sessions, and much faster reload of large sessions by showing the local transcript immediately and sending only new history, and v0.99.1 on October 22 fixed OpenAI models failing every turn on a rejected tool schema, made the TUI recover from a vanished or unresponsive server instead of retrying forever, and added native Muse subscription login plus Venice AI as a provider).
+The stable train has sat at v0.99.1 since October 22 while an opt-in v1 preview line publishes experimental builds (v1.0.0-preview.24 and v1.0.0-preview.30, both October 28), with pushes continuing as of 2026-11-01 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=1jehuang/jcode&type=date&theme=dark&legend=top-left" />
@@ -110,6 +111,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 - 2026-10-19 - Recorded v0.99.0 (October 18), which added account failover retrying turns on the next pool account after a usage limit, session hibernation that frees memory from idle sessions, and faster reload of large sessions by sending only new history, and extended the Status release train to it.
 - 2026-10-24 - Recorded v0.99.1 (October 22): the OpenAI rejected-tool-schema fix ending per-turn invalid_request_error failures, TUI recovery from a vanished or unresponsive server, native Muse subscription login, and Venice AI provider support.
 - 2026-10-30 - Rotation re-verification, re-fetching every cited reference (all live): recorded the pricing-page rework (the automatic 10x-the-plan usage cap replaced by a default-$0 extra-usage limit the user raises, justrust builds at 2,500 per $10 of plan from the $20 tier with a free first month, appended to Price history), the live prompt counter reading 248 tokens, and refreshed the benchmark measurement pin and push as-of.
+- 2026-11-01 - Recorded the opt-in v1 preview line (v1.0.0-preview.24 and v1.0.0-preview.30, both published October 28, experimental binaries directing production use to the stable channel) running behind the stable train parked at v0.99.1 since October 22, and refreshed pushes to 2026-11-01.
 
 ## See also
 

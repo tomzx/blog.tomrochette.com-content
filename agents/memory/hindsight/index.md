@@ -1,7 +1,7 @@
 ---
 title: Hindsight
 created: 2026-10-07
-updated: 2026-10-30
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, benchmarks, open-source]
 readability: 3
@@ -27,7 +27,7 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
 ## Status
 
 **Active and suddenly large: 50,146 stars rank it third in this category behind claude-mem and mem0, on a repository that is barely a year old.**
-50,146 stars with the repository pushed 2026-10-28, created 2025-10-30, as of 2026-10-28 (GitHub API).
+50,146 stars as of 2026-10-28 (GitHub API), created 2025-10-30, with the repository pushed 2026-11-01, as of 2026-11-01 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&theme=dark&legend=top-left" />
@@ -37,7 +37,7 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
 
 Latest release v1.1.0 (2026-10-21) with PyPI (hindsight-api, hindsight-client) and npm in sync at 1.1.0 as of 2026-10-24, and 199,868 trailing-month npm client downloads (2026-09-23 to 2026-10-22); v1.0.0 (2026-10-13) was the project's first stable major, and v1.1.0 adds server-side selection of the LLM and credentials for each call, Cloudflare Clef and OpenAI Decisions API as decision-model providers, recall ranking by the decision model when one is configured, and webhook event delivery ids.
 v0.10.3 treats memory as a past record teams can annotate with their own guidance, adds a TraeCode (TRAE CN) harness adapter, filters non-conversation Codex content, and waits out rate limits during history deepening instead of dropping turns.
-Main-branch work since v1.1.0 (2026-10-26 to 29, pending release) sharpens determinism and the audit trail, and keeps coming: BM25 score ties now break on id so repeated recalls return the same list, an MCP tool call writes one audit row instead of two, the decision-model reranker gained a prune flag while the typesafe reranker provider was deprecated in its favor, retain now stores the 'where' dimension and fails rather than silently dropping an unsplittable chunk, and the 10-28/29 train adds every-tool-call response schemas (native tool calling dropped), consolidation built for small models with one answer entry per fact, a hosted decision-model provider with a sign-in command, recall rerank prune and dedup flags, the decision model seeing each memory's date, and a coding-agents v0.8.3 release.
+Main-branch work since v1.1.0 (2026-10-26 to 29, pending release) sharpens determinism and the audit trail, and keeps coming: BM25 score ties now break on id so repeated recalls return the same list, an MCP tool call writes one audit row instead of two, the decision-model reranker gained a prune flag while the typesafe reranker provider was deprecated in its favor, retain now stores the 'where' dimension and fails rather than silently dropping an unsplittable chunk, and the 10-28/29 train adds every-tool-call response schemas (native tool calling dropped), consolidation built for small models with one answer entry per fact, a hosted decision-model provider with a sign-in command, recall rerank prune and dedup flags, the decision model seeing each memory's date, and a coding-agents v0.8.3 release; the 10-30 batch continues the same lines, the decision model no longer writing observation text itself and every piece of evidence, raw chunks included, carrying its dates the notable ones.
 The paper (arXiv 2512.12818, December 2025, with Virginia Tech's Naren Ramakrishnan among the authors) reports 91.4 percent on LongMemEval and 89.61 on LoCoMo; the live benchmark site claims 94.6 on LongMemEval-S, 92.0 on LoCoMo, and 64.1 on BEAM-10M as of 2026-10-07, and the README says Virginia Tech's Sanghani Center and The Washington Post independently reproduced the Hindsight numbers.
 The discussion footprint is thin for the size: a 4-point Show HN (December 2025), a self-posted 3-point star-milestone thread (April 2026), and a 2-point story (October 2026), so the 46k stars came through benchmark attention and ecosystem listings rather than public debate.
 
@@ -89,6 +89,7 @@ Not for solo coding-agent use, where local files or claude-mem cost nothing, or 
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 - 2026-10-28 - Recorded the pending-release main-branch work since v1.1.0: deterministic BM25 tie-breaking on id, one audit row per MCP tool call, a decision-model reranker prune flag with the typesafe provider deprecated, and retain storing the 'where' dimension and failing rather than dropping unsplittable chunks; the push date refreshed to 2026-10-28.
 - 2026-10-30 - The pending work extended (October 28-29): response-schema tool calls with native tool calling dropped, small-model consolidation with one answer entry per fact, a hosted decision-model provider with a sign-in command, recall rerank prune and dedup flags, the decision model reading each memory's date, and coding-agents v0.8.3.
+- 2026-11-01 - The pending work extended again (October 30): the decision model no longer writes observation text itself and every piece of evidence, raw chunks included, carries its dates, with the rest of the batch fixes and small features (rate-limit retry on the decision model's cut, knowledge pages showing the images behind their evidence, retain timezone parsing, configurable embedding request bodies); no release after v1.1.0, push date refreshed to 2026-11-01.
 
 ## See also
 

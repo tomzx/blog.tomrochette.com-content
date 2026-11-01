@@ -1,7 +1,7 @@
 ---
 title: Arc Kit
 created: 2026-10-13
-updated: 2026-10-27
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, governance, enterprise-architecture]
 readability: 3
@@ -23,7 +23,7 @@ A plugin system composes regional and sector overlays, fourteen community plugin
 
 ## Status
 
-Active and growing: 2,255 stars, 283 forks, and 23 open issues as of 2026-10-14, created 2025-10-14 with its default branch last committing 2026-10-27 (as of 2026-10-27), effectively solo (95 of the last 100 commits), with release v6.18.3 (2026-10-26) the newest of a train that shipped v6.18.0 through v6.18.2 on October 10 to 12; v6.18.3 turned the certification program from design into shipping (Open Badges 3.0 credentials signed RS256 behind a Worker API, an Awareness quiz and credential pages on arckit.org) and moved ArcKit FDE onto arckit.org at /fde/.
+Active and growing: 2,255 stars, 283 forks, and 23 open issues as of 2026-10-14, created 2025-10-14 with its default branch last committing 2026-11-01 (as of 2026-11-01), effectively solo (95 of the last 100 commits), with release v6.18.3 (2026-10-26) the newest of a train that shipped v6.18.0 through v6.18.2 on October 10 to 12; v6.18.3 turned the certification program from design into shipping (Open Badges 3.0 credentials signed RS256 behind a Worker API, an Awareness quiz and credential pages on arckit.org) and moved ArcKit FDE onto arckit.org at /fde/.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tractorjuice/arc-kit&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: MiMo Code
 created: 2026-09-27
-updated: 2026-10-30
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, harnesses, coding-agents, open-source, xiaomi, long-horizon]
 readability: 3
@@ -24,7 +24,7 @@ Provider access follows the OpenCode approach: any of 75+ providers through the 
 ## Status
 
 **Active and pre-1.0.**
-The repository was created 2026-06-10 and lists about 13.7k stars and 1.4k forks under MIT as of 2026-10-15, with 1,431 commits and a push on 2026-10-29 (GitHub API, re-checked 2026-10-30).
+The repository was created 2026-06-10 and lists about 13.7k stars and 1.4k forks under MIT as of 2026-10-15, with 1,462 commits and a push on 2026-10-31 (GitHub API, re-checked 2026-11-01).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=XiaomiMiMo/MiMo-Code&type=date&theme=dark&legend=top-left" />
@@ -55,7 +55,7 @@ The launch drew a 557-point Hacker News thread with 315 comments on 2026-06-11, 
 ## Pricing
 
 The agent is free and open source under MIT; you pay for tokens, either through Xiaomi or through your own provider.
-Xiaomi's [Token Plan](https://mimo.mi.com/docs/en-US/tokenplan/Token%20Plan/subscription) sells four individual monthly tiers, all covering the V2.6 and V2.5 model lines plus ASR and TTS: Lite $6 (4.1B Credits), Standard $16 (11B), Pro $50 (38B), and Max $100 (82B), with annual billing about 12 percent cheaper, a one-time 12 percent first-purchase discount, and an off-peak 0.8x consumption rate between 16:00 and 24:00 UTC; the V2.5 models in the lineup (mimo-v2.5-pro and mimo-v2.5) retire on October 21, 2026, with their requests auto-routing to V2.6 from October 14 at 18:00 (UTC+8) until the old model IDs go invalid, leaving the V2.6 line, per the same page as of 2026-10-11.
+Xiaomi's [Token Plan](https://mimo.mi.com/docs/en-US/tokenplan/Token%20Plan/subscription) sells four individual monthly tiers, all covering the V2.6 and V2.5 model lines plus ASR and TTS: Lite $6 (4.1B Credits), Standard $16 (11B), Pro $50 (38B), and Max $100 (82B), with annual billing about 12 percent cheaper, a one-time 12 percent first-purchase discount, and an off-peak 0.8x consumption rate between 16:00 and 24:00 UTC; the V2.5 models in the lineup (mimo-v2.5-pro and mimo-v2.5) retire on October 21, 2026, with their requests auto-routing to V2.6 from October 14 at 18:00 (UTC+8) until the old model IDs go invalid, leaving the V2.6 line, per the same page as of 2026-10-11 (tiers re-verified unchanged 2026-11-01).
 Pay-as-you-go international prices per million tokens are $0.435 in (cache miss) and $0.87 out for `mimo-v2.6-pro`, and $0.14 and $0.28 for `mimo-v2.6-flash`, with cache hits at a few thousandths of a dollar.
 Any OpenAI-compatible provider, including a local model, can be configured instead, so the Token Plan is optional.
 
@@ -91,6 +91,7 @@ My disagreeable claim: the co-evolution story is mostly packaging, since the mat
 - 2026-10-11 - Recorded the subscription page's auto-route of V2.5 requests to V2.6 starting October 14 ahead of the October 21 retirement, re-verified the tier prices unchanged, and refreshed repository counters.
 - 2026-10-24 - Rotation re-verification, re-fetching every cited reference (all live) and re-verifying the Token Plan and pay-as-you-go prices unchanged: refreshed the push date and noted GitHub's releases/latest marker now returning v0.1.15 while v0.1.14 remains the newest by publication time.
 - 2026-10-27 - Recorded the v0.1.16 release (published October 26), which retires the legacy Compose stack in favor of `/compose-next`, lazy-loads MCP tools, shrinks the npm package to a launcher, removes the experimental Orchestrator mode, and moves Claude imports and agent-CLI skills behind opt-in flags, and refreshed the push date to 2026-10-26.
+- 2026-11-01 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the commit count to 1,462 and the push date to 2026-10-31, confirmed v0.1.16 the newest release, and re-verified the Token Plan and pay-as-you-go prices unchanged.
 
 ## See also
 

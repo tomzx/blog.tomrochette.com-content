@@ -1,7 +1,7 @@
 ---
 title: Kitaru
 created: 2026-10-14
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, replay-evals, regression-testing]
 readability: 3
@@ -23,7 +23,7 @@ Evaluations start from you: an investigation has your coding assistant interview
 
 ## Status
 
-Active and vendor-backed: 308 stars, 26 forks as of 2026-10-14, last push 2026-10-30, with the repository created 2026-03-05.
+Active and vendor-backed: 308 stars, 26 forks as of 2026-10-14, last push 2026-10-31, with the repository created 2026-03-05.
 The release train is fast and coordinated: PyPI 0.27.3 and TypeScript SDK 0.7.0 shipped together on 2026-10-30, with the adapter packages versioned in step, and roughly 9,900 PyPI downloads in the last month (pypistats, as of 2026-10-31), the one adoption receipt here that is not self-reported.
 It has already pivoted once: launched March 2026 as open-source infrastructure for async agents, carried a durable-runtime framing through July, and relaunched on 2026-08-18 around replay-based evals with Workers replacing the old Stacks concept, and parts of the docs still describe the older flows-and-checkpoints framing.
 The standalone kitaru.ai site folded into zenml.io in October 2026: the pricing page is now a Kitaru workspace tab on zenml.io/pricing, the relaunch post moved to the ZenML blog, and the pricing FAQ says one subscription covers both products on one bill.
@@ -100,4 +100,4 @@ Not for prototypes (its own docs say it will feel like more machinery than you n
 - https://pypi.org/project/kitaru/ - package record: 0.27.3 (2026-10-30), 56 published versions, Python >=3.11 (verified through the PyPI JSON API, the HTML page is client-rendered)
 - https://pypistats.org/api/packages/kitaru/recent - roughly 9,900 downloads in the last month as of 2026-10-31
 - https://news.ycombinator.com/item?id=48807786 - the July 2026 Show HN under the current positioning, 2 points, no comments, the thin-reception evidence (verified through the HN Algolia item API, with the 2026-03-25 and 2026-04-22 submissions at items 47520115 and 47863502)
-- https://github.com/zenml-io/kitaru-skills - companion agent-skills repository, 6 stars, last push 2026-10-30
+- https://github.com/zenml-io/kitaru-skills - companion agent-skills repository, 6 stars, last push 2026-10-31

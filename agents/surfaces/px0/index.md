@@ -1,7 +1,7 @@
 ---
 title: px0
 created: 2026-10-11
-updated: 2026-10-22
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, code-review, browser-ide, go, open-source]
 readability: 3
@@ -16,16 +16,16 @@ px0 is Arpit Bhayani's MIT-licensed browser IDE for reviewing AI-generated code:
 
 ## What it is
 
-A single Go binary with the web UI embedded (`go:embed`, no Electron, no Node, no CGO), installed by a curl script or built from source, that renders your working tree, any directory, or a GitHub pull request in the browser.
+A single Go binary with the web UI embedded (`go:embed`, no Electron, no Node, no CGO), installed by a curl script or built from source, that renders your working tree, any directory, or a pull request from GitHub, GitLab, Gitea or Forgejo, or Bitbucket Cloud in the browser.
 The review loop is the product: `px0 <pr-url>` opens scoped merge-base diffs in an ephemeral worktree, inline comments draft from the gutter, formal approvals submit to GitHub, and AI-generated commit messages and pushes go back to PR branches without a terminal.
-Agent integration works through handoff rather than hosting: edits dispatch to Claude Code, Gemini CLI, Cursor Agent, Antigravity, OpenCode, Codex, Aider, or Goose per the README (the site headline counts four), with multi-turn agent threads anchored to code ranges, live tool-step streams over SSE, and queued batch inline edits with overlap protection.
+Agent integration works through handoff rather than hosting: edits dispatch to Claude Code, Cursor Agent, Antigravity, OpenCode, Codex, Aider, or Goose per the README (the site headline counts four: Claude Code, Cursor Agent, Antigravity, and OpenCode), with multi-turn agent threads anchored to code ranges, live tool-step streams over SSE, and queued batch inline edits with overlap protection.
 Navigation targets the reading case: fuzzy file and symbol search, workspace regex, about 280 languages tokenized through Chroma, virtual rows that open 400,000-line files, optional zero-config LSP, and a remote-first mode (`px0 -host 0.0.0.0`) that serves any VM, container, or CI runner with path-traversal and DNS-rebinding guards, refusing agent edits through public tunnel hostnames.
 
 ## Status
 
 **Young, fast-moving, and thin on independent validation.**
 1,869 stars, MIT, written in Go, created 2026-06-24, pushed 2026-10-08, as of 2026-10-16 (GitHub API).
-The release train is active: v0.1.11 through v0.1.16 landed between 2026-09-28 and 2026-10-03, v0.1.17 (October 18) followed with a hardened LSP client lifecycle fixing deadlocks and races, a committed-changes diff view, and a status-bar flicker fix, v0.1.18 (October 19, intra-line diff character highlighting with insertion carets, merged from the project's first outside pull request), and v0.1.19 (October 20) and v0.1.20 (October 21), two patch releases whose notes carry only changelog links, as the latest.
+The release train is active: v0.1.11 through v0.1.16 landed between 2026-09-28 and 2026-10-03, v0.1.17 (October 18) followed with a hardened LSP client lifecycle fixing deadlocks and races, a committed-changes diff view, and a status-bar flicker fix, v0.1.18 (October 19, intra-line diff character highlighting with insertion carets, merged from the project's first outside pull request), and v0.1.19 (October 20, the review bar relocated above the comments panel and a one-click Rebase with AI control that has the harness replay commits and resolve conflicts) and v0.1.20 (October 21, single-hunk staging, unstaging, and discarding from the visual diff viewer, hunk context-line expansion, and auto-staging of unstaged modifications on commit), which remain the latest as of 2026-11-01 despite repository pushes through October 29.
 The Show HN thread (2026-09-13, submitted by the author) drew 7 points and 0 comments, and no third-party coverage surfaced this run, so the footprint is GitHub-side; the site's "engineers at" logo wall (Google, Meta, Stripe, and a dozen more) is unverifiable social proof, and a design-partner program is recruiting teams of ten plus.
 
 <picture>
@@ -46,7 +46,7 @@ The Show HN thread (2026-09-13, submitted by the author) drew 7 points and 0 com
 - **Independent validation is absent: one 7-point Show HN with no comments, no third-party review found this run, and self-run benchmark scripts as the only performance evidence.**
 - v0.1.x at several releases per week is churn as the maintenance plan, and the editing model is deliberately constrained: read-first with agent-mediated writes, not a general editor.
 - MCP and AGENTS.md support are undocumented anywhere this run could find, so harness-adjacent conventions stay outside the tool.
-- The handoff list splits across sources (eight harnesses in the README, four on the site), and Codex is absent from the site's supported list, a gap for Codex-centric teams.
+- The handoff list splits across sources (seven harnesses in the README, four on the site), and Codex is absent from the site's supported list, a gap for Codex-centric teams.
 - One maintainer carries the whole stack, server, web UI, and the in-repo internals docs.
 
 ## Pricing
@@ -72,6 +72,7 @@ My disagreeable claim: the read-only IDE is the correct end state for the agent 
 - 2026-10-18 - Recorded v0.1.17 (October 18, the LSP client-lifecycle hardening, a committed-changes diff view, and the status-bar flicker fix) as the new latest release.
 - 2026-10-20 - Recorded v0.1.18 (October 19, intra-line diff character highlighting with insertion carets, from the first outside pull request) as the new latest release.
 - 2026-10-22 - Recorded v0.1.19 (October 20) and v0.1.20 (October 21), patch releases whose notes carry no written changelog, as the new latest releases.
+- 2026-11-01 - Rotation re-verification, all cited URLs re-fetched live: corrected the handoff list to the README's current seven harnesses (Claude Code, Cursor Agent, Antigravity, OpenCode, Codex, Aider, Goose), where the note carried eight including Gemini CLI, recorded the README's pull-request review expanding past GitHub to GitLab, Gitea/Forgejo, and Bitbucket Cloud, corrected the v0.1.19 and v0.1.20 release notes, which the API shows carrying written sections (the review-bar relocation and one-click Rebase with AI, and single-hunk staging in the diff viewer) where the note said changelog links only, and recorded the train paused at v0.1.20 despite pushes through October 29; the Show HN thread still reads 7 points and 0 comments.
 
 ## See also
 
@@ -83,8 +84,8 @@ My disagreeable claim: the read-only IDE is the correct end state for the agent 
 
 ## References
 
-- https://github.com/px0-ai/px0 - repository, MIT, Go, 1,869 stars, created 2026-06-24, pushed 2026-10-08 (GitHub API, as of 2026-10-16)
-- https://raw.githubusercontent.com/px0-ai/px0/HEAD/README.md - the feature set: PR review, harness handoff list, virtual rendering, remote mode, sandboxing, and the memory accounting
-- https://px0.ai/ - the product site: the performance claims, the four-harness headline, the logo wall, and the design-partner program
-- https://api.github.com/repos/px0-ai/px0/releases - the release train v0.1.11 through v0.1.16 (2026-09-28 to 2026-10-03), v0.1.17 (2026-10-18, LSP lifecycle hardening and the committed-changes diff view), v0.1.18 (2026-10-19, the intra-line diff highlighting pull request), and v0.1.19 and v0.1.20 (2026-10-20 and 2026-10-21) as the latest, re-fetched 2026-10-22
+- https://github.com/px0-ai/px0 - repository, MIT, Go, 1,869 stars, created 2026-06-24, pushed 2026-10-08 (GitHub API, as of 2026-10-16); re-fetched 2026-11-01 with the push date at October 29, 2026 and the repository not archived
+- https://raw.githubusercontent.com/px0-ai/px0/HEAD/README.md - the feature set: PR review, harness handoff list, virtual rendering, remote mode, sandboxing, and the memory accounting; re-fetched 2026-11-01 with the handoff list at seven harnesses and pull-request review spanning GitHub, GitLab, Gitea/Forgejo, and Bitbucket Cloud
+- https://px0.ai/ - the product site: the performance claims, the four-harness headline, the logo wall, and the design-partner program, re-fetched 2026-11-01 unchanged
+- https://api.github.com/repos/px0-ai/px0/releases - the release train v0.1.11 through v0.1.16 (2026-09-28 to 2026-10-03), v0.1.17 (2026-10-18, LSP lifecycle hardening and the committed-changes diff view), v0.1.18 (2026-10-19, the intra-line diff highlighting pull request), and v0.1.19 and v0.1.20 (2026-10-20 and 2026-10-21) as the latest with no release after them, re-fetched 2026-11-01
 - https://hn.algolia.com/api/v1/items/49683668 - the Show HN thread: 7 points, 0 comments, 2026-09-13, the thin-footprint record

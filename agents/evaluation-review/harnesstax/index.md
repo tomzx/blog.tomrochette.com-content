@@ -1,7 +1,7 @@
 ---
 title: HarnessTax
 created: 2026-09-18
-updated: 2026-10-28
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, coding-agents]
 readability: 3
@@ -24,7 +24,7 @@ The authors promise a public release of profiling traces, and the repository car
 ## Status
 
 New and already the most-discussed artifact in this category's week: the study surfaced on Hacker News on 2026-09-16 and drew 233 points and 98 comments as of 2026-10-11.
-The repository was created 2026-09-14 and pushed 2026-10-28 (two more AgentBRANE dashboard-build republications that day after the 2026-10-25 batch; the profiling traces remain unpublished), with 1 star, because the study page is the artifact and the code is just its vehicle, and its GitHub description now brands it AgentBRANE, a benchmark dashboard for harness-and-model pairs.
+The repository was created 2026-09-14 and pushed 2026-10-30 (another AgentBRANE dashboard-build republication after the 2026-10-28 batch; the profiling traces remain unpublished), with 1 star, because the study page is the artifact and the code is just its vehicle, and its GitHub description now brands it AgentBRANE, a benchmark dashboard for harness-and-model pairs.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HarnessTax/HarnessTax.github.io&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not as a harness shopping leaderboard, since three harnesses and two contaminati
 - 2026-10-19 - Recorded the Harness-Bench v2 revision (2026-10-15) in its reference during the rotation re-fetch.
 - 2026-10-25 - Recorded three more AgentBRANE dashboard-build republications (2026-10-25) and refreshed the activity line; the profiling traces remain unpublished.
 - 2026-10-28 - Recorded two more AgentBRANE dashboard-build republications (2026-10-28) and refreshed the activity line; the profiling traces remain unpublished.
+- 2026-11-01 - Recorded another AgentBRANE dashboard-build republication (2026-10-30) and refreshed the activity line; the profiling traces remain unpublished.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Continue
 created: 2026-08-26
-updated: 2026-10-27
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source, byok]
 readability: 3
@@ -24,7 +24,7 @@ The final 2.x releases (2.0.0 and 2.1.0, both tagged 2026-06-19) removed anonymo
 
 Dead as an independent, by acquisition.
 The [homepage](https://www.continue.dev/) reads "Continue was acquired by Cursor", announced 2026-06-15 (the [HN thread](https://news.ycombinator.com/item?id=48548758) dates it).
-The README states the repository "is no longer actively maintained and is read-only for all users", a notice that still stands even though the repo API recorded metadata pushes as recently as October 2026.
+The README states the repository "is no longer actively maintained and is read-only for all users", a notice that still stands even though the repo API recorded metadata pushes as recently as November 2026.
 As of 2026-10-16 the repo shows about 36.2k stars (36,230) and 5.5k forks (5,479), the docs remain online, and the marketplace extension still installs at a 3.2 average rating (as of 2026-10-27).
 
 <picture>
@@ -87,7 +87,7 @@ For the workflow it pioneered, use Cline or an ACP-speaking host.
 
 - https://www.continue.dev/ - the acquisition notice and FAQ
 - https://github.com/continuedev/continue - README: read-only, final 2.1.0, telemetry and auth removed
-- https://api.github.com/repos/continuedev/continue - stars, forks, last push date as of 2026-10-16
+- https://api.github.com/repos/continuedev/continue - stars, forks, last push date as of 2026-10-16, re-fetched 2026-11-01 with the push date now November 1, 2026 and the notice standing
 - https://news.ycombinator.com/item?id=48548758 - the June 15, 2026 acquisition thread, re-verified 2026-10-16
 - https://news.ycombinator.com/item?id=49398366 - the August 2026 "dead, alternatives?" thread, re-verified 2026-10-16
 - https://docs.continue.dev/guides/ollama-guide - the local-model path, still live, re-verified 2026-10-16

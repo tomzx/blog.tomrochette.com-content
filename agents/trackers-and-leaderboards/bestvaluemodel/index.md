@@ -1,7 +1,7 @@
 ---
 title: "bestvaluemodel"
 created: 2026-10-25
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, leaderboards, price-performance, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The operator credits a hand-maintained predecessor (vps.sonnylab.com's "Which mo
 
 ## Status
 
-Young but demonstrating the sustained operation its first rejection demanded: created 2026-09-24, with bot-committed data refreshes landing every few hours through 2026-10-31 and the changelog showing diffs on almost every October day, including Beam 1.0's price cut and a Quasar reprice.
+Young but demonstrating the sustained operation its first rejection demanded: created 2026-09-24, with bot-committed data refreshes landing every few hours through 2026-11-01 and the changelog showing diffs on almost every October day, including Beam 1.0's price cut and a Quasar reprice.
 The feed's largest event landed on 2026-10-28 as the upstream Artificial Analysis index re-base the page itself warns about: one run removing 354 rows and re-scoring 73 (427 changes), followed by a same-day run that added Gemini 4 Carbon (High) at 59.4 as the page's new top score at a blended $8 and doubled Gemini 4 Argon's prices, and a 2026-10-29 run trimming five Claude Fable 5.1 cost-per-task figures.
 The diff cadence has kept its rhythm since: a 2026-10-29 run added eight rows in one sweep (Mistral Large 4 in two settings among them) while cutting Mistral Large 4 Preview's blended price by half, a 2026-10-30 run added DeepSeek V4.1 Flash 1017 and a Qwen3.8 27B row, and a 2026-10-31 run cut that DeepSeek row's prices hours after it landed (blended $0.787 to $0.525).
 The repository held 26 stars and 4 forks as of 2026-10-25, with no license file, so the code is public but carries no reuse rights.
@@ -88,8 +88,8 @@ My disagreeable claim: this one-page derivative is more useful to a buyer than m
 - https://bestvaluemodel.terrydjony.workers.dev/ - the live page: frontier definition, budget lookup, what-changed card, and the how-to-read caveats (fetched 200, 2026-10-25; re-fetched 200, 2026-10-28, unchanged)
 - https://raw.githubusercontent.com/terryds/bestvaluemodel/main/README.md - architecture, the AA API attribution and its 1,000-request daily quota, and the vps.sonnylab.com inspiration (fetched 200, 2026-10-25)
 - https://raw.githubusercontent.com/terryds/bestvaluemodel/main/.github/workflows/update-and-deploy.yml - the every-six-hours cron and the commit-and-deploy-only-on-change design (fetched 200, 2026-10-25)
-- https://bestvaluemodel.terrydjony.workers.dev/data/changelog.json - the per-run diff feed, entries on nearly every October day including Beam 1.0's 2026-10-22 price cut (fetched 200, 2026-10-25; re-fetched 200, 2026-10-28, the 2026-10-28 entry holds 427 removals and 72 re-scores with no additions; re-fetched 200, 2026-10-29, the re-base reads 354 removals and 73 re-scores, a same-day follow-up adds Gemini 4 Carbon at 59.4 and doubles Argon's prices, and a 2026-10-29 entry trims five Fable costs; re-fetched 200, 2026-10-31, the 10-29 entry adds eight rows and halves Mistral Large 4 Preview, the 10-30 entry adds DeepSeek V4.1 Flash 1017 and Qwen3.8 27B, and a 10-31 entry cuts the DeepSeek row's blended price from $0.787 to $0.525)
-- https://api.github.com/repos/terryds/bestvaluemodel - repository state: created 2026-09-24, 26 stars and 4 forks as of 2026-10-25, no license (fetched 200, 2026-10-25; re-fetched 200, 2026-10-28, pushed 2026-10-28; re-fetched 200, 2026-10-29, pushed 2026-10-29; re-fetched 200, 2026-10-31, pushed 2026-10-31; star figure as the dated baseline)
+- https://bestvaluemodel.terrydjony.workers.dev/data/changelog.json - the per-run diff feed, entries on nearly every October day including Beam 1.0's 2026-10-22 price cut (fetched 200, 2026-10-25; re-fetched 200, 2026-10-28, the 2026-10-28 entry holds 427 removals and 72 re-scores with no additions; re-fetched 200, 2026-10-29, the re-base reads 354 removals and 73 re-scores, a same-day follow-up adds Gemini 4 Carbon at 59.4 and doubles Argon's prices, and a 2026-10-29 entry trims five Fable costs; re-fetched 200, 2026-10-31, the 10-29 entry adds eight rows and halves Mistral Large 4 Preview, the 10-30 entry adds DeepSeek V4.1 Flash 1017 and Qwen3.8 27B, and a 10-31 entry cuts the DeepSeek row's blended price from $0.787 to $0.525; re-fetched 200, 2026-11-01, no entries after the 10-31 DeepSeek price cut)
+- https://api.github.com/repos/terryds/bestvaluemodel - repository state: created 2026-09-24, 26 stars and 4 forks as of 2026-10-25, no license (fetched 200, 2026-10-25; re-fetched 200, 2026-10-28, pushed 2026-10-28; re-fetched 200, 2026-10-29, pushed 2026-10-29; re-fetched 200, 2026-10-31, pushed 2026-10-31; re-fetched 200, 2026-11-01, pushed 2026-11-01; star figure as the dated baseline)
 - https://api.github.com/repos/terryds/bestvaluemodel/commits?per_page=100 - 45 commits from 2026-09-24 through 2026-10-25, the sustained-operation record (fetched 200, 2026-10-25; re-fetched 200, 2026-10-28, bot data refreshes every few hours since, all "data: refresh from Artificial Analysis")
 - https://hn.algolia.com/api/v1/search?query=%22bestvaluemodel%22&tags=story - zero stories: the missing community footprint, stated as a signal (fetched 200, 2026-10-25)
 - https://vps.sonnylab.com/model-value-2026-07.html - the hand-maintained predecessor the project cites as inspiration, itself updated through 2026-10-24 (fetched 200, 2026-10-25)

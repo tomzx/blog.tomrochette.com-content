@@ -1,7 +1,7 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-10-30
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
@@ -24,11 +24,12 @@ It is built by GitHub Next with Microsoft Research, MIT-licensed, in public prev
 ## Status
 
 **Active preview with real traction.**
-About 5.4k stars and roughly 18,700 commits in `github/gh-aw` as of 2026-10-13, 609 forks as of 2026-10-30.
+About 5.4k stars and roughly 18,700 commits in `github/gh-aw` as of 2026-10-13, 614 forks as of 2026-11-01.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
 The trust story has kept moving: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, a critical security advisory published August 27 forced the pre-emptive retirement of releases 0.83.3 through 0.85.3 (patched in 0.85.4), a notice that still sits in the README while the billing one was cleared, and a high-severity advisory published September 23 added an HTTPS egress allowlist bypass via TLS SNI domain fronting, affecting releases through 0.89.17 and patched in 0.89.17.
 Four more critical advisories landed on 2026-10-14: the worst (CVSS 9.2) lets sandboxed agent code steal the workflow job token through the credential sidecar and exfiltrate it past the egress filter, and three more cover MCP flag injection, an ungated `mcp-inspect` command path, and argv injection into spawned `gh aw` subcommands, all patched in the v0.91.12 to v0.91.13 window with no README notice for this batch as of 2026-10-16.
-The release line keeps churning and crossed its first 1.0 mark: v1.0.0 published as a prerelease on 2026-10-26 and v1.0.1 stable-marked on 2026-10-27 now topping the train, with v0.93.1 the only release of the 0.93 line still a prerelease, which shows how quickly this preview will break its users.
+A medium advisory published 2026-10-31 (GHSA-fqvc-336c-4fp9, OTLP authentication credentials exposed in eval logs and artifacts, listed as affecting releases below v0.91.3) is the first advisory since that batch, and its own body notes the affected and patched ranges are still being verified.
+The release line keeps churning and crossed its first 1.0 mark: v1.0.0 published as a prerelease on 2026-10-26 and v1.0.1 stable-marked on 2026-10-27 now topping the train, with v0.93.1 and v0.93.6 still carrying prerelease flags in the 0.93 line, which shows how quickly this preview will break its users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/gh-aw&type=date&theme=dark&legend=top-left" />
@@ -99,6 +100,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - 2026-10-26 - Refreshed the release train to v0.93.5 (2026-10-25, stable-marked) and v0.93.6 (2026-10-26, a prerelease), re-confirmed the README advisory notice still live and no new advisory published since the October 14 batch, and refreshed forks to 603.
 - 2026-10-27 - Recorded the v1.0.0 prerelease (2026-10-26), the first 1.x cut, published above v0.93.6; the README advisory notice and the no-new-advisory record re-confirmed against the advisories list, and forks refreshed to 604.
 - 2026-10-30 - Refreshed the release train to v1.0.1 (2026-10-27, stable-marked) above the v1.0.0 prerelease, re-confirmed the README advisory notice still live and no new advisory published since the October 14 batch, and refreshed forks to 609.
+- 2026-11-01 - Recorded the medium advisory GHSA-fqvc-336c-4fp9 published 2026-10-31 (OTLP authentication credentials exposed in eval logs and artifacts, listed as affecting below v0.91.3, with the advisory itself flagging the ranges as still unverified), the first since the October 14 batch; re-confirmed the README advisory notice still live and v1.0.1 still the newest release, and refreshed forks to 614.
 
 ## See also
 
@@ -112,10 +114,11 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - https://github.github.com/gh-aw/ - full reference: engines, guardrails, cost management
 - https://github.github.com/gh-aw/reference/engines/ - the built-in engine list (six, with Agy experimental and Gemini deprecated) and the eight imported samples, as of 2026-10-11 (re-checked 2026-10-24)
 - https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-10-13
-- https://api.github.com/repos/github/gh-aw/releases?per_page=6 - the release train (v1.0.1 stable on 2026-10-27 above the v1.0.0 prerelease, re-fetched 2026-10-30)
+- https://api.github.com/repos/github/gh-aw/releases?per_page=6 - the release train (v1.0.1 stable on 2026-10-27 above the v1.0.0 prerelease, re-fetched 2026-11-01)
 - https://github.com/github/gh-aw/security/advisories/GHSA-8h78-hpm7-29gg - the critical advisory (safe-output artifacts may expose CI trigger tokens) behind the 0.83.3-0.85.3 retirement, patched in 0.85.4
 - https://github.com/github/gh-aw/security/advisories/GHSA-x78f-wrrj-4h24 - the high-severity September 23 advisory (HTTPS egress allowlist bypass via TLS SNI domain fronting), patched in 0.89.17
 - https://github.com/github/gh-aw/security/advisories/GHSA-9jxf-w4wc-5g93 - the 2026-10-14 critical job-token exfiltration advisory (CVSS 9.2, affected below v0.91.13, patched in v0.91.12)
+- https://github.com/github/gh-aw/security/advisories/GHSA-fqvc-336c-4fp9 - the 2026-10-31 medium advisory (OTLP authentication credentials exposed in eval logs and artifacts, listed as affecting below v0.91.3, ranges still unverified per its own body)
 - https://news.ycombinator.com/item?id=46934107 - February 2026 launch discussion (302 points) including dogfooding criticism
 - https://github.com/anthropics/claude-code-action - the single-agent alternative on the same platform
 - https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automation-rationale-and-approvals - shared rationale and approvals layer, including its limits

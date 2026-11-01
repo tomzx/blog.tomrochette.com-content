@@ -1,7 +1,7 @@
 ---
 title: Mycelium
 created: 2026-10-16
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, product-discovery, claude-code-plugin]
 readability: 3
@@ -24,8 +24,8 @@ The standing cost is about six thousand tokens of context per session, always on
 
 ## Status
 
-Active and shipping fast: 47 stars, 5 forks, created 2026-04-07, pushed 2026-10-28, as of 2026-10-31 (GitHub API).
-Pre-1.0 by the author's own framing, with schema and skill names moving between minor versions, and the release train runs in hours: v0.331.0 (2026-10-28) is the newest, making the release and scale-lock gates read the record each safety skill writes (a Privacy, Service Quality, or Explainability pass without every principle judged with evidence refuses the next release), following v0.330.x (2026-10-24) making the canvas gate refuse a subagent's writes to the canvas and diamonds files on Claude Code (the founder's audit of the orchestration guidance against Anthropic's subagent article found rules nothing enforced), v0.329.x (2026-10-23) turning the strategic review cadences into data (`review-schedule.yml`, with an adaptive corrections-audit cadence after a fixed one fired near every session on the dogfood project), and v0.328.x (2026-10-21 to 23), of a train that ran v0.323 through v0.331 across October 13 to 28.
+Active and shipping fast: 47 stars, 5 forks, created 2026-04-07, pushed 2026-10-31, as of 2026-11-01 (GitHub API).
+Pre-1.0 by the author's own framing, with schema and skill names moving between minor versions, and the release train runs in hours: v0.332.0 (2026-10-31) is the newest, shipping a native Agent Plugins 1.0 manifest so the folder loads as it ships on Mistral Vibe, whose plugin loader binds no hooks a plugin ships, meaning v0.328.3's workaround had loaded the skills while none of the gates ran there, and the discovery, release, and scale-lock gates now run on Vibe for the first time, following v0.331.0 (2026-10-28) making the release and scale-lock gates read the record each safety skill writes (a Privacy, Service Quality, or Explainability pass without every principle judged with evidence refuses the next release), v0.330.x (2026-10-24) making the canvas gate refuse a subagent's writes to the canvas and diamonds files on Claude Code (the founder's audit of the orchestration guidance against Anthropic's subagent article found rules nothing enforced), and v0.329.x (2026-10-23) turning the strategic review cadences into data (`review-schedule.yml`, with an adaptive corrections-audit cadence after a fixed one fired near every session on the dogfood project), of a train that ran v0.323 through v0.332 across October 13 to 31.
 The adoption record is small and mostly first-hand: three of the steward's own projects, a three-person test cohort in May, and one stranger on record whose Lisp-interpreter canvas is public.
 
 **The independent footprint is empty, and that is this note's critical angle: a Hacker News search returns only the maintainer's own Show HN (2026-07-04, 1 point, 0 comments) plus an earlier post he says missed the Show HN tag, with no third-party coverage anywhere, so at 47 stars this admission rides the HermesGate-at-3-stars precedent rather than any membership floor.**
@@ -73,6 +73,7 @@ Not for teams needing a stable interface (pre-1.0, schema moves between minors),
 - 2026-10-23 - Recorded the v0.328.3 through v0.328.5 releases (2026-10-21 to 23): a Mistral Vibe page after the Vibe port measured as loading nothing, diamond skills that stop for the person's own judgment before showing analysis, and a session-start hook naming the next canvas-health advisory.
 - 2026-10-25 - Recorded the v0.329.x and v0.330.x releases (2026-10-23 to 24): review cadences became data with an adaptive corrections-audit cadence, and the canvas gate now refuses a subagent's writes to the canvas and diamonds files on Claude Code, closing the enforcement gap the founder's own audit found.
 - 2026-10-31 - Recorded the v0.331.0 release (2026-10-28: the release and scale-lock gates read each safety skill's own assessment record, so a Privacy, Service Quality, or Explainability pass without every principle judged with evidence refuses the next release).
+- 2026-11-01 - Recorded the v0.332.0 release (2026-10-31: a native Agent Plugins 1.0 manifest, so the Mistral Vibe port loads the plugin as shipped and the gates run there for the first time; Vibe binds no hooks a plugin ships, so the earlier workaround loaded the skills only).
 
 ## See also
 

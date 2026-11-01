@@ -1,7 +1,7 @@
 ---
 title: Operon
 created: 2026-10-08
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, obsidian, markdown, local-first, gpl, multi-agent]
 readability: 3
@@ -25,7 +25,7 @@ The hasanyilmaz identity maintains it in ten interface languages.
 ## Status
 
 Active and shipping steadily.
-As of 2026-10-31: 255 stars (as of 2026-10-14), 27 forks, 18 open issues and pull requests, created 2026-05-19, pushed 2026-10-30, latest release 4.4.0 on 2026-10-30, 259 npm downloads over the trailing month to 2026-10-31 for `@stratejya/operon-cli`, GPL-3.0 on both plugin and CLI.
+As of 2026-11-01: 255 stars (as of 2026-10-14), 28 forks, 17 open issues and pull requests, created 2026-05-19, pushed 2026-10-30, latest release 4.4.0 on 2026-10-30, 245 npm downloads over the trailing month to 2026-11-01 for `@stratejya/operon-cli`, GPL-3.0 on both plugin and CLI.
 4.0.0 "Unity" (2026-10-14) brought Obsidian's six highlight colors into task views and editors, Vault Properties in the desktop Task Editor and tables for both file and inline tasks, and inline-task templates with a default-template setting; 4.0.1 landed the same day with calendar time-rounding and custom-key fixes and the removal of the 100-character filename truncation on inline-to-file conversion, after 3.12.0 on 2026-10-06.
 4.1.0 (2026-10-20) added a shared desktop lightbox for web pages, media, and editable Markdown, Bases, and Operon tables, nested previews that keep the prior views and drafts alive, optional source chips naming the file and inline line behind a task, and vault-local ICS calendars as read-only external sources beside URL subscriptions.
 4.2.0 (2026-10-23) made the Task Editor a shared desktop workspace holding native Markdown and task fields at one working level (nested levels stay visible underneath), with left/right placement settings, separate file and inline source-opening preferences, and per-result open behaviors in Task Finder.
@@ -80,6 +80,7 @@ My disagreeable claim: receipted, previewed writes are a bigger agent-safety adv
 - 2026-10-25 - Recorded 4.2.0 (2026-10-23: the Task Editor as a shared desktop workspace with native Markdown and task fields at one level, layout and opening settings, and per-result Task Finder behaviors) and refreshed counts (24 forks, 14 open issues and pull requests, pushed 2026-10-23, 286 npm downloads).
 - 2026-10-27 - Recorded 4.3.0 (2026-10-26: the draggable desktop Status Dock with break and calendar-task controls, separate after-creation opening preferences for file and inline tasks, the Excalidraw conversion moved to the side toolbar, and cross-window lightbox, kanban-drag, and startup-performance fixes) and refreshed counts (25 forks, pushed 2026-10-26, 304 npm downloads).
 - 2026-10-31 - Recorded 4.4.0 (2026-10-30: Overdue and Today Status Dock task lists, a Task Occurrence Date filter and column, kanban presets grouping by independent properties, a last-session card, nearby-cell rendering for large boards, and preset-specific resizable layout) and refreshed counts (27 forks, 18 open issues and pull requests, pushed 2026-10-30, 259 npm downloads over the trailing month to 2026-10-31).
+- 2026-11-01 - Refreshed counts (28 forks, 17 open issues and pull requests, 245 npm downloads over the trailing month to 2026-11-01); 4.4.0 still the newest release.
 
 ## See also
 
@@ -91,10 +92,10 @@ My disagreeable claim: receipted, previewed writes are a bigger agent-safety adv
 ## References
 
 - https://github.com/hasanyilmaz/operon - repository: README, surfaces, agent runtime introduction, topics (fetched 2026-10-08)
-- https://api.github.com/repos/hasanyilmaz/operon - stars, forks, dates, license as of 2026-10-25
+- https://api.github.com/repos/hasanyilmaz/operon - stars, forks, dates, license as of 2026-11-01
 - https://raw.githubusercontent.com/hasanyilmaz/operon/main/README.md - inline and file tasks, operonId, the CLI and JSONL sessions, the 133 guides
 - https://operon.cc/docs/docs-118-operon-agent-runtime-overview/ - the sealed preview-and-apply mutation gateway, receipts, Property Catalog, platform support
-- https://api.npmjs.org/downloads/point/2026-10-01:2026-10-31/@stratejya/operon-cli - 259 downloads over the trailing month to 2026-10-31
+- https://api.npmjs.org/downloads/point/2026-10-02:2026-11-01/@stratejya/operon-cli - 245 downloads over the trailing month to 2026-11-01
 - https://api.github.com/repos/hasanyilmaz/operon-cli - the official CLI repository, GPL-3.0
 - https://api.github.com/repos/hasanyilmaz/operon/releases - 4.4.0 (2026-10-30) and the release train
 - https://api.github.com/repos/hasanyilmaz/operon/releases/tags/4.4.0 - the 4.4.0 notes: the Status Dock task lists, the occurrence-date filter, the kanban presets, and the rendering and layout changes

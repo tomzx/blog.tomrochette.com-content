@@ -1,7 +1,7 @@
 ---
 title: cc-sdd
 created: 2026-10-06
-updated: 2026-10-26
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, agent-skills, multi-agent, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Gota (gotalab), an agentic-AI engineer in Japan; the project is Kiro-ins
 ## Status
 
 Established and mid-scale, with adoption that bypassed Hacker News entirely.
-As of 2026-10-14: 3,711 stars and 288 forks since creation on 2025-07-17; as of 2026-10-26, pushed 2026-10-22 with development continuing past the last tagged release, v3.1.0 (2026-09-23), 26,372 npm downloads last month (the 2026-09-23 to 2026-10-22 window, re-read 2026-10-26), MIT.
+As of 2026-10-14: 3,711 stars and 288 forks since creation on 2025-07-17; as of 2026-11-01, pushed 2026-10-22 with development continuing past the last tagged release, v3.1.0 (2026-09-23), 33,427 npm downloads last month (the 2026-09-30 to 2026-10-29 window, re-read 2026-11-01), MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gotalab/cc-sdd&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ The disagreeable claim I will defend: a fresh-context reviewer per task is a str
 - 2026-10-07 - Added the gotalab/cc-sdd star history chart to the Status section.
 - 2026-10-09 - Refreshed counts (npm downloads 26,735 last month).
 - 2026-10-26 - Rotation re-verification of every cited source (all alive, the npm figure and release train unchanged, the when-not-to-use list confirmed verbatim, still no Hacker News thread); no facts changed.
+- 2026-11-01 - Rotation re-verification of every cited source (all alive, the release train unchanged at v3.1.0 with the repository still pushed 2026-10-22, the when-not-to-use list and skill reference intact, still no Hacker News thread); the npm figure moved to 33,427 downloads last month.
 
 ## See also
 
@@ -87,6 +88,6 @@ The disagreeable claim I will defend: a fresh-context reviewer per task is a str
 - https://raw.githubusercontent.com/gotalab/cc-sdd/main/README.md - the v3.0 skills-mode scope and install surface
 - https://raw.githubusercontent.com/gotalab/cc-sdd/main/docs/guides/why-cc-sdd.md - the spec-as-contract philosophy and the when-not-to-use list
 - https://raw.githubusercontent.com/gotalab/cc-sdd/main/docs/guides/skill-reference.md - the 17-skill surface and the /kiro-impl dispatch internals
-- https://api.npmjs.org/downloads/point/last-month/cc-sdd - 26,372 downloads last month (2026-09-23 to 2026-10-22 window), fetched 2026-10-25
+- https://api.npmjs.org/downloads/point/last-month/cc-sdd - 33,427 downloads last month (2026-09-30 to 2026-10-29 window), fetched 2026-11-01
 - https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html - the category-level critique, the critical source
-- https://hn.algolia.com/api/v1/search?query=cc-sdd&tags=story - the missing HN footprint, re-checked 2026-10-25
+- https://hn.algolia.com/api/v1/search?query=cc-sdd&tags=story - the missing HN footprint, re-checked 2026-11-01

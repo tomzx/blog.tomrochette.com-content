@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-10-30
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -24,7 +24,8 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 ## Status
 
 **Active under new ownership.**
-The repository shows about 27.6k stars under MIT as of 2026-10-15, most recently pushed 2026-10-30 (GitHub API, as of 2026-10-30); component tags ship on their own clocks (the newest stable is v7.8.18, published October 26, 2026, which fixed chat-copy selection and focus in VS Code 1.143, exposed hosted cloud sessions through the local Kilo API so editors can read and drive a hosted session without ever handling its provider credentials, and pulled in DOMPurify 3.4.17, vite 7.3.7, and MCP TypeScript SDK 1.32.1 security updates, on top of the v7.8.17 no-notes bump after the v7.8.16 prerelease restricted browser links and MCP OAuth authorization URLs to HTTP(S) and fixed unsafe URL handling on Windows, on top of v7.8.15 (October 19), which made the `browser_open` permission prompt able to remember a choice as an always-allow rule for the current or all origins and listed `browser_open` in Auto-Approve settings, after v7.8.12 routed Kilo Gateway traffic through `ai-gateway.kilo.ai` by default with a `KILO_AI_GATEWAY_URL` override, and the jetbrains component riding its own train at v7.1.12, published October 22, which added project-scoped agent usage aggregation, custom auto routers, and a session host registry with a Kilo Cloud session adapter).
+The repository shows about 27.6k stars under MIT as of 2026-10-15, most recently pushed 2026-10-31 (GitHub API, as of 2026-11-01); component tags ship on their own clocks (the newest stable is v7.8.18, published October 26, 2026, which fixed chat-copy selection and focus in VS Code 1.143, exposed hosted cloud sessions through the local Kilo API so editors can read and drive a hosted session without ever handling its provider credentials, and pulled in DOMPurify 3.4.17, vite 7.3.7, and MCP TypeScript SDK 1.32.1 security updates, on top of the v7.8.17 no-notes bump after the v7.8.16 prerelease restricted browser links and MCP OAuth authorization URLs to HTTP(S) and fixed unsafe URL handling on Windows, on top of v7.8.15 (October 19), which made the `browser_open` permission prompt able to remember a choice as an always-allow rule for the current or all origins and listed `browser_open` in Auto-Approve settings, after v7.8.12 routed Kilo Gateway traffic through `ai-gateway.kilo.ai` by default with a `KILO_AI_GATEWAY_URL` override, and the jetbrains component riding its own train at v7.1.12, published October 22, which added project-scoped agent usage aggregation, custom auto routers, and a session host registry with a Kilo Cloud session adapter).
+Since then the prerelease train ran through v7.8.20 to v7.8.25 and the JetBrains component tagged a v7.2.1-rc.1 candidate (all October 27-28), leaving v7.8.18 and jetbrains/v7.1.12 the newest stables.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Kilo-Org/kilocode&type=date&theme=dark&legend=top-left" />
@@ -96,6 +97,7 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 - 2026-10-20 - Recorded v7.8.15 as the newest stable (October 19), which added always-allow choices and an Auto-Approve listing for the browser_open permission prompt.
 - 2026-10-24 - Recorded v7.8.17 as the newest stable (October 23, a no-notes bump after the v7.8.16 prerelease restricted browser and MCP OAuth URLs to HTTP(S) with Windows URL-handling fixes) and the jetbrains component reaching v7.1.12 (October 22, project-scoped usage aggregation, custom auto routers, session host registry with a Kilo Cloud adapter).
 - 2026-10-27 - Recorded v7.8.18 as the newest stable (October 26): chat-copy selection and focus fixes in VS Code 1.143, hosted cloud sessions exposed through the local Kilo API without provider-credential handling, and DOMPurify, vite, and MCP TypeScript SDK security updates.
+- 2026-11-01 - Rotation re-verification, re-fetching every cited reference (all live): recorded the prerelease train reaching v7.8.25 and the JetBrains component reaching a v7.2.1-rc.1 candidate (October 27-28) behind the unchanged v7.8.18 and jetbrains/v7.1.12 stables, refreshed the push date to 2026-10-31, and re-verified the pricing page with the Teams and Kilo Pass tiers unchanged.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Anthropic structured outputs
 created: 2026-08-24
-updated: 2026-10-30
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, anthropic, tool-calling]
 readability: 3
@@ -74,6 +74,7 @@ Not for schemas that lean on numeric constraints, recursion, or dozens of option
 - 2026-10-18 - Rotation re-verification: all five cited URLs re-fetched (both platform.claude.com docs pages, the launch blog, the tool-use overview, and the Willison post), and the supported-model list held unchanged since 2026-10-11 with no new model families.
 - 2026-10-24 - Rotation re-verification: all five cited URLs re-fetched and live, and the supported-model list re-read unchanged (Fable 5 and 5.1, Mythos 5, 5.1, and Preview, Opus 4.5 through 5.5, Sonnet 4.5 through 5.5, Haiku 4.5 and 5.5, across Claude API, Bedrock, Google Cloud, and Foundry); nothing else changed.
 - 2026-10-30 - Rotation re-verification: all five cited URLs re-fetched and live, the supported-model list unchanged on both docs pages (the same seventeen models across Claude API, Bedrock, Google Cloud, and Foundry), the launch blog and Willison post holding, and the tool-use token table still reading 286 tokens for Opus 5 and 5.5 and 675 for Opus 4.7 with auto; nothing else changed.
+- 2026-11-01 - Rotation re-verification: all five cited URLs re-fetched and live, both docs pages carrying the same seventeen-model supported list across Claude API, Bedrock, Google Cloud, and Foundry, the strict-tool-use page unchanged (computer and browser toolsets still rejecting strict: true, the PHI caching caveat intact), the launch blog and Willison post holding, and the token table still 286 for Opus 5 and 5.5 and 675 for Opus 4.7 with auto; nothing else changed.
 
 ## See also
 

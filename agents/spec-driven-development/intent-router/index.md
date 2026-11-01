@@ -1,7 +1,7 @@
 ---
 title: Intent-Router
 created: 2026-10-10
-updated: 2026-10-26
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, intent-specs, clarification, skills]
 readability: 3
@@ -23,9 +23,9 @@ The README positions it against plan modes (which prefer looking up over verifyi
 
 ## Status
 
-Climbing back after the collapse: 239 stars and 51 forks as of 2026-10-14, created 2026-09-22, pushed 2026-10-21, with five releases (v1.4.0 on 2026-10-16, v1.3.0 on 2026-10-09, v1.0.0 on 2026-09-23); v1.4.0 trimmed the skill description to fit a 500-character harness cap after its second half, including the negative predicates that keep auto-invocation off unnecessary work, was being truncated in at least one harness, and added a DeepSeek Harness eval channel plus a cross-session contract test case.
-**The GitHub API read 1,017 stars and 124 forks on 2026-10-11, 158 and 46 on 2026-10-13, and 239 and 51 on 2026-10-14: the collapse fork counts cannot take organically was followed by a one-day climb the same kind of engagement produces, which reads as a purge of inauthentic stars followed by continued re-inflation, and the nineteen-day adoption-curve claim this note published stays retracted.**
-Engagement from freshly created accounts is still arriving (a fork and a star land on 2026-10-13 alone), so the inflation appears ongoing, and the independent footprint is still empty: a Hacker News search returns no thread about it as of 2026-10-13.
+Oscillating under apparent engagement purges: 89 stars and 17 forks as of 2026-11-01 (GitHub API), created 2026-09-22, pushed 2026-10-21, v1.4.0 (2026-10-16) the newest of ten published release entries (the rotation re-fetch found the v0.x entries published retroactively); v1.4.0 trimmed the skill description to fit a 500-character harness cap after its second half, including the negative predicates that keep auto-invocation off unnecessary work, was being truncated in at least one harness, and added a DeepSeek Harness eval channel plus a cross-session contract test case.
+**The GitHub API read 1,017 stars and 124 forks on 2026-10-11, 158 and 46 on 2026-10-13, 239 and 51 on 2026-10-14, and 89 and 17 on 2026-11-01: a collapse fork counts cannot take organically, a one-day climb the same kind of engagement produces, and now a second fall, which reads as repeated purges of inauthentic stars with refills in between, and the nineteen-day adoption-curve claim this note published stays retracted.**
+The refill did not hold, so the social signal now reads as an engagement war the steward keeps losing, and the independent footprint is still empty: a Hacker News search returns no thread about it as of 2026-11-01 (the hits are unrelated projects sharing the words).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=angel291592/Intent-Router&type=date&theme=dark&legend=top-left" />
@@ -44,7 +44,7 @@ Engagement from freshly created accounts is still arriving (a fork and a star la
 
 - The evidence is self-published and small: the delivery report of 2026-09-24 compares 5 bare runs against 3 skill runs (mean 5.0 versus 6.0 of 6) in one harness on one model, and the report discloses that the bare arm needed the skill explicitly denied because an installer test had left a copy in user-level skills.
 - Three weeks old with a solo maintainer: the IntentSpec format and the four-state model can still move under you.
-- The star story inverted: the 1,017 stars of 2026-10-11 fell to 158 by 2026-10-13 and climbed back to 239 by 2026-10-14 in an apparent purge-then-refill of inauthentic engagement, so the social signal is now evidence against the project, and there is no independent replication of the delivery numbers.
+- The star story inverted twice: the 1,017 stars of 2026-10-11 fell to 158 by 2026-10-13, climbed back to 239 by 2026-10-14, and fell again to 89 by 2026-11-01, in what now reads as repeated purge-and-refill cycles of inauthentic engagement, so the social signal is now evidence against the project, and there is no independent replication of the delivery numbers.
 - It is upstream of typed decision models (Jev, Laya), so teams already running those need to decide which layer owns the clarification step.
 
 ## Pricing
@@ -71,6 +71,7 @@ Not for teams needing enforced process (that is Superpowers), and not for anyone
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
+- 2026-11-01 - Rotation re-verification of every cited source (all alive, the delivery report's numbers intact): recorded the second deflation (239 and 51 on 2026-10-14 to 89 and 17 on 2026-11-01), the release list grown to ten published entries with v1.4.0 still newest, and the footprint check re-run empty.
 
 ## See also
 
@@ -82,8 +83,8 @@ Not for teams needing enforced process (that is Superpowers), and not for anyone
 ## References
 
 - https://github.com/angel291592/Intent-Router - repository: README, pipeline, comparison table, license
-- https://api.github.com/repos/angel291592/Intent-Router - stars, forks, issues, creation and push dates, the 1,017-to-158-to-239 readings, as of 2026-10-14
+- https://api.github.com/repos/angel291592/Intent-Router - stars, forks, issues, creation and push dates, the 1,017-to-158-to-239-to-89 readings, as of 2026-11-01
 - https://api.github.com/repos/angel291592/Intent-Router/releases - v1.4.0 published 2026-10-16 and the release train
 - https://raw.githubusercontent.com/angel291592/Intent-Router/main/README.md - the convergence design, artifact model, and prior-art comparison
 - https://raw.githubusercontent.com/angel291592/Intent-Router/main/evals/reports/2026-09-24-delivery-opencode.md - the self-published delivery report behind the numbers and the contamination check
-- https://hn.algolia.com/api/v1/search?query=Intent-Router&hitsPerPage=5 - the no-thread community-footprint check as of 2026-10-11
+- https://hn.algolia.com/api/v1/search?query=Intent-Router&hitsPerPage=5 - the no-thread community-footprint check, re-run 2026-11-01

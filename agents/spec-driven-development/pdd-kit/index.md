@@ -1,7 +1,7 @@
 ---
 title: PDD Kit
 created: 2026-10-23
-updated: 2026-10-26
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, product-model, agent-skills, open-source]
 readability: 3
@@ -25,8 +25,8 @@ Made by Itai Gendler, who dogfoods it: the repository's own `product-model/` des
 
 ## Status
 
-Active and young: 80 stars, 9 forks, repository created 2026-07-26, pushed 2026-10-25, as of 2026-10-26 (GitHub API), MIT, solo steward.
-The npm package (published 2026-10-13) has seven releases to v0.38.0 and 200 downloads last month (the 2026-09-23 to 2026-10-22 window, re-read 2026-10-26), so adoption is the star count and nothing else yet.
+Active and young: 80 stars, 9 forks, repository created 2026-07-26, pushed 2026-10-31, as of 2026-11-01 (GitHub API), MIT, solo steward.
+The npm package (published 2026-10-13) has seven releases to v0.38.0 and 1,101 downloads last month (the 2026-09-30 to 2026-10-29 window, re-read 2026-11-01), so adoption still rides the star count, with the npm figure finally moving off its first-month floor.
 It ships a complete docs site (pdd-kit.dev) with a reasoned blog, and the steward's SDD critique (2026-10-06) names OpenSpec, spec-kit, and Kiro directly, arguing their specs describe the change while the product stays scattered.
 It entered this category's scan as the Engineering4AI awesome list's Development Frameworks entry, listed there as BusinessLens until the 2026-10-21 rename to pdd-kit; a 2026-10-13 sweep had rejected the repository under its old name below the bar, and the rebrand, the shipped site, and continued daily development re-listed it.
 
@@ -74,6 +74,7 @@ Not for anyone who needs an enforced gate or third-party validation before adopt
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Recorded the v0.38.0 release (2026-10-25: custom verbs in config.yaml so naming checks keep the Product's own words, report format version 20 with a re-export advisory, lint recognizing undo and redo) and refreshed the repository and release facts.
+- 2026-11-01 - Refreshed the volatile record: the repository pushed 2026-10-31, and the npm package's trailing-month figure moved from 200 to 1,101 downloads.
 
 ## See also
 
@@ -90,6 +91,6 @@ Not for anyone who needs an enforced gate or third-party validation before adopt
 - https://pdd-kit.dev/docs/product-model - the resource types, coverage.md, the lint contract, and the present-tense doctrine
 - https://pdd-kit.dev/blog/pdd-and-spec-driven-development - the steward's SDD critique (2026-10-06) grounding the product-versus-change thesis
 - https://registry.npmjs.org/pdd-toolkit - the npm package: v0.37.1, six versions, MIT, first published 2026-10-13
-- https://api.npmjs.org/downloads/point/last-month/pdd-toolkit - 200 downloads last month (2026-09-23 to 2026-10-22 window), as of 2026-10-25
+- https://api.npmjs.org/downloads/point/last-month/pdd-toolkit - 1,101 downloads last month (2026-09-30 to 2026-10-29 window), as of 2026-11-01
 - https://api.github.com/repos/itai-gendler/pdd-kit - stars, forks, creation and push dates as of 2026-10-23
 - https://hn.algolia.com/api/v1/search?query=pdd-kit&hitsPerPage=5 - the footprint check: one 1-point submission, no third-party coverage

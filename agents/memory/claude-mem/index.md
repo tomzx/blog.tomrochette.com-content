@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-30
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -32,7 +32,7 @@ Very large and fast: about 101.1k stars as of 2026-10-16, with 63,865 npm downlo
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-31, pushed 2026-10-29, latest tagged release v15.6.0 on 2026-10-29 with npm in sync at 15.6.0 as of 2026-10-30, and 75,512 npm downloads in the trailing month (2026-09-29 to 2026-10-28).
+Created 2025-08-31, pushed 2026-11-01, latest tagged release v15.8.0 on 2026-11-01 with npm in sync at 15.8.0 as of 2026-11-01, and 74,755 npm downloads in the trailing month (2026-10-02 to 2026-11-01).
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.
@@ -48,6 +48,8 @@ v15.3.0 (2026-10-26) added Deliverables to the My Work card: the Stop hook copie
 v15.4.0 (2026-10-28) rebuilt My Work around Focus areas: a MY FOCUS rail lists your focus areas in priority order with a needs-you count on each, every request sits in exactly one area or in Other, area pages carry a goal sentence with combined progress and the asks not yet started, new areas are suggested automatically with keep, rename, merge, or dismiss per suggestion, and the My Goals page is retired into the area pages.
 v15.5.0 (2026-10-29) dressed the same surfaces in new components, made the Observer's batching opt-in for OpenAI-compatible providers, made the Work view's summary-provider selection explicit, and broadened redaction again: values under bare `token`, `secret`, and `api_key` keys, Authorization bearer tokens, `MYSQL_PWD` and `dbPassword` pairs in structured payloads, and Slack app-level (`xapp-`) and refresh (`xoxe-`) tokens, alongside Antigravity MCP calls now recorded under their real tool names and a stable id.
 v15.6.0 the same day moved My Work's state into one Zustand store split across work, view, rules, and focus slices: page, focus area, and open request drawer are URL-addressable, list views remember filter and sort between visits, and live updates can no longer be overwritten by an older read or published by a stopped source.
+v15.7.0 (2026-10-30) stopped a quiet cross-agent spill in My Work's auto-refresh: a refused answer (most often a review over 1,200 characters) used to hand the whole refresh to the next logged-in agent, which on machines with Codex installed meant hidden codex exec runs on the owner's ChatGPT account, about 230 runs in four days, even with CLAUDE_MEM_PROVIDER=claude set; it also moved the note-taker's default model to Claude Code's always-newest-Haiku alias instead of a pinned ID and added a Feedback button.
+v15.8.0 (2026-11-01) added a cloud viewer host for My Work and work_state sync for every account.
 
 ## Strengths
 
@@ -119,6 +121,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-10-28 - Recorded v15.4.0: My Work rebuilt around Focus areas (a priority-ordered MY FOCUS rail with needs-you counts, every request in exactly one area, goal-sentence area pages, and auto-suggested areas with keep, rename, merge, or dismiss), retiring the My Goals page; npm re-verified in sync at 15.4.0.
 - 2026-10-29 - Recorded v15.5.0: My Work and My Focus UI component refresh, opt-in OpenAI-compatible batching in the Observer, explicit summary-provider selection, and redaction broadened again (bare token, secret, and api_key keys, Authorization bearer tokens, MYSQL_PWD and dbPassword pairs, and Slack xapp- and xoxe- tokens); npm re-verified in sync at 15.5.0.
 - 2026-10-30 - Recorded v15.6.0 (October 29): My Work's state unified in one Zustand store with URL-addressable views, remembered filters and sort, and steadier live updates; npm re-verified in sync at 15.6.0, trailing-month downloads refreshed to 75,512 (2026-09-29 to 2026-10-28).
+- 2026-11-01 - Recorded v15.7.0 and v15.8.0: the My Work auto-refresh no longer spills refused runs to the next logged-in agent (the fix for the hidden codex exec runs on owners' ChatGPT accounts, about 230 in four days), the note-taker default moved to the newest-Haiku alias, and My Work gained a cloud viewer host with work_state sync for every account; npm re-verified in sync at 15.8.0, trailing-month downloads refreshed to 74,755 (2026-10-02 to 2026-11-01).
 
 ## See also
 

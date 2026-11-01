@@ -1,7 +1,7 @@
 ---
 title: Zeroshot
 created: 2026-10-10
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, review-loop, multi-agent]
 readability: 3
@@ -22,7 +22,7 @@ Delivery is a ladder you opt into, from keep-it-local through --push, --pr, and 
 ## Status
 
 Active and shipping: 1,969 stars since creation on 2025-12-25, per the GitHub API as of 2026-10-13.
-Pushed 2026-10-31, with the train at v10.24.0 (2026-10-31), npm in sync at 10.24.0, and the Python SDK release train (zeroshot-python tags) riding each release, per the GitHub API and the npm registry as of 2026-10-31.
+Pushed 2026-10-31, with the train at v10.24.1 (2026-10-31, a patch tolerating slow local Codex and Claude configuration probes for up to sixty seconds), npm in sync at 10.24.1, and the Python SDK release train (zeroshot-python tags) riding each release, per the GitHub API and the npm registry as of 2026-11-01.
 v10.14.0 adds Pi as a fourth harness beside Claude Code, Codex, and GitHub Copilot CLI, and v10.13.0 guards merges with renewable delivery credentials that stay out of agent environments, profiles, and history.
 v10.16.0 extends that credential line with human-managed machine delegations and expiring API keys for unattended runs (delegation management requires a human login, and machine keys stay out of run inputs and subprocesses), and local PR delivery now rejects a target branch absent from the selected remote before agents start.
 v10.17.0 (2026-10-24) adds Active Memory for local and Docker runs, enabled by default: deterministic hooks recall concise lessons from costly repository mistakes and recurring graph procedures, and a resumable `zeroshot memory init` builds that memory from local run history.
@@ -95,8 +95,8 @@ Not for teams that require a deterministic final gate, third-party validation fi
 - https://github.com/the-open-engine/zeroshot - repository, the built-in workflow, delivery ladder, install methods, and license
 - https://zeroshot.sh/docs/ - the graph, runtime plan, and ledger model, and the three run targets
 - https://cloud.zeroshot.sh/docs - Zeroshot Platform's managed target (Cloud before the v10.18.0 rebrand), the reviewers-never-edit model, and the absence of published prices
-- https://registry.npmjs.org/@the-open-engine-company%2Fzeroshot - the npm package, 10.24.0 latest as of 2026-10-31
-- https://api.github.com/repos/the-open-engine/zeroshot/releases - the release train, v10.24.0 newest as of 2026-10-31, the contributed-harness and adapter-isolation features in the v10.20.0 through v10.24.0 notes, the guided graph-design skill and Platform endpoint move in the v10.19.0 notes, the Pi harness in the v10.14.0 notes, the Cloud de-advertising in the v10.15.0 notes, and the Active Memory and Platform rebrand in the v10.17.0 and v10.18.0 notes
+- https://registry.npmjs.org/@the-open-engine-company%2Fzeroshot - the npm package, 10.24.1 latest as of 2026-11-01
+- https://api.github.com/repos/the-open-engine/zeroshot/releases - the release train, v10.24.1 newest as of 2026-11-01, the contributed-harness and adapter-isolation features in the v10.20.0 through v10.24.0 notes, the guided graph-design skill and Platform endpoint move in the v10.19.0 notes, the Pi harness in the v10.14.0 notes, the Cloud de-advertising in the v10.15.0 notes, and the Active Memory and Platform rebrand in the v10.17.0 and v10.18.0 notes
 - https://raw.githubusercontent.com/the-open-engine/zeroshot/main/docs/project/harness-adapters.md - the harness registry: four core adapters product-maintained, contributor-maintained OpenCode and Hermes adapters, and Platform's core-only admission
 - https://news.ycombinator.com/item?id=48599820 - the 2-point June 2026 thread, the thin independent footprint this note records
 - https://github.com/varun1505/awesome-software-factories - the third-party curated list that surfaced this note

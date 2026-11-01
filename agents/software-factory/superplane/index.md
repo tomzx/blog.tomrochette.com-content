@@ -1,7 +1,7 @@
 ---
 title: SuperPlane
 created: 2026-10-07
-updated: 2026-10-31
+updated: 2026-11-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The core is Apache-2.0 with integrations across source control, CI, cloud, obser
 
 ## Status
 
-Active and the category's largest member: 7,709 stars as of 2026-10-14, 660 forks and 463 open issues as of 2026-10-21, pushed 2026-10-30, per the GitHub API.
+Active and the category's largest member: 7,709 stars as of 2026-10-14, 660 forks and 463 open issues as of 2026-10-21, pushed 2026-11-01, per the GitHub API.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&theme=dark&legend=top-left" />
@@ -98,5 +98,5 @@ Not for local-first, single-repo loops, and not for anyone who needs a stable re
 - https://docs.superplane.com/get-started/overview - the factory docs overview
 - https://github.com/superplanehq/superplane/blob/main/LICENSE - Apache-2.0 core with the /ee Enterprise Edition license
 - https://news.ycombinator.com/item?id=46793814 - the January 2026 Show HN as an open source DevOps control plane, 21 points
-- https://api.github.com/repos/superplanehq/superplane/releases - the release train: v1.0.0 (2026-10-27) the first stable platform tag, fleet-manager v0.1.7 (2026-10-28) the newest component tag, after the rc1-through-rc9 train and the v0.30.0 July tag (as of 2026-10-31)
+- https://api.github.com/repos/superplanehq/superplane/releases - the release train: v1.0.0 (2026-10-27) the first stable platform tag, fleet-manager v0.1.7 (2026-10-28) the newest component tag, after the rc1-through-rc9 train and the v0.30.0 July tag (as of 2026-11-01)
 - https://github.com/markoa - Marko Anastasov, SuperPlaneHQ and Semaphore cofounder
