@@ -1,7 +1,7 @@
 ---
 title: Headcount
 created: 2026-09-27
-updated: 2026-10-26
+updated: 2026-11-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, claude-code, agent-organization, plugin-marketplace]
 readability: 3
@@ -77,6 +77,7 @@ My disagreeable claim: the sixteen-department metaphor is mostly packaging, the 
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, all claims held (README still 16 departments, 172 skills, 184 sources with 125 quotable, the Zentor critical review still live and updated 2026-09-24, the repo still pushed 2026-09-17); no figures moved.
 - 2026-10-20 - Volatile refresh: the repo pushed again 2026-10-18 after a month quiet, the commit being GitHub Sponsors and further-reading links only (no skill, source, or department changes); the snapshot caution updated.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live (the README still claiming 16 departments, 172 skills, and 184 cited sources with the repo still pushed 2026-10-18, the Zentor review and org chart page up, the Enterprise DNA writeup resolving on a trailing-slash redirect, the HN search still returning only unrelated layoff stories); no figures moved.
+- 2026-11-02 - Rotation re-verification: every cited URL re-fetched live (the README still claiming 16 departments and 172 skills with the generated source catalog still 184 sources and 125 of them quotable, the repo still pushed 2026-10-18, the Zentor review and org chart page up, the Enterprise DNA writeup resolving on its redirect, the HN search still returning only unrelated layoff stories); no figures moved.
 
 ## See also
 
