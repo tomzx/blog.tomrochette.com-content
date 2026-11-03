@@ -1,7 +1,7 @@
 ---
 title: OpenHarness
 created: 2026-10-24
-updated: 2026-11-01
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agentic-development-environment, multi-agent, encryption, hardware]
 readability: 3
@@ -26,8 +26,8 @@ An experimental Agent Messages surface lets harnesses in one tab message each ot
 
 ## Status
 
-Active and young: the repository was created 2026-08-04, held 1,358 stars and 125 forks as of 2026-10-24, and was pushed 2026-11-01 (GitHub API, as of 2026-11-01).
-The release train runs two lines: a `v0.4.x_cli` stable line at v0.4.97_cli (2026-10-28) and a `v1.3.x` desktop-and-web line whose v1.3.44_desktop and v1.3.83_web builds (both 2026-10-30) joined the earlier browser builds served from harness.autonomous.ai (GitHub releases, as of 2026-11-01).
+Active and young: the repository was created 2026-08-04, held 1,358 stars and 125 forks as of 2026-10-24, and was pushed 2026-11-03 (GitHub API, as of 2026-11-03).
+The release train runs two lines: a CLI stable line that stepped from the `v0.4.x` tags (v0.4.97_cli, 2026-10-28) onto `v0.5.x` with v0.5.31_cli on 2026-11-03 (merge batches plus a Harness OS 0.1.14 build), and a `v1.3.x` desktop-and-web line whose v1.3.44_desktop and v1.3.83_web builds (both 2026-10-30) joined the earlier browser builds served from harness.autonomous.ai (GitHub releases, as of 2026-11-03).
 Autonomous launched it publicly in mid-October 2026, and the launch coverage recorded 213 Product Hunt upvotes about seven hours into launch day and about 3,553 commits at 1,266 stars (Reveneau, 2026-10-16).
 
 <picture>

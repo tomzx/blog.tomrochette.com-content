@@ -1,7 +1,7 @@
 ---
 title: hcom
 created: 2026-10-07
-updated: 2026-10-26
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, cli, messaging, multi-agent, terminals]
 readability: 3
@@ -67,6 +67,7 @@ Not for teams that need audit trails, review gates, or anything that survives th
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
+- 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, releases, SECURITY.md, PyPI, HN item); claims hold, v0.7.31 (2026-10-21) still the latest release and push.
 
 ## See also
 

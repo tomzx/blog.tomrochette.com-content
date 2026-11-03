@@ -1,7 +1,7 @@
 ---
 title: Helmor
 created: 2026-09-27
-updated: 2026-10-26
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, worktrees, local-first, desktop]
 readability: 3
@@ -31,7 +31,7 @@ Active but cooling: about 1,310 stars and 119 forks as of 2026-10-11, created 20
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=dohooo/helmor&type=date&legend=top-left" />
 </picture>
 
-The latest release, v0.46.0 (which added Codex 1.0 and Claude Code 2.0 support), landed 2026-07-24, and the last default-branch commit was 2026-08-22, so as of this 2026-10-19 re-check the quiet spell is nearly two months long and momentum has slowed even as the feature set matured.
+The latest release, v0.46.0 (which added Codex 1.0 and Claude Code 2.0 support), landed 2026-07-24, and the last default-branch commit was 2026-07-24 (the repository-level pushed_at moved to 2026-08-22 on a side branch, so the earlier 08-22 dormancy read was off), so as of this 2026-11-03 re-check the quiet spell is over three months long and momentum has slowed even as the feature set matured.
 **For a tool still advertising forthcoming plan mode and Slack and GitHub context, a two-month quiet spell is the first data point to watch between now and the next release.**
 
 ## Strengths
@@ -71,6 +71,7 @@ Not for Linux users, and not for anyone who needs fleet-scale orchestration or a
 - 2026-09-27 - Created.
 - 2026-10-07 - Added the dohooo/helmor star history chart to the Status section.
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repository, releases, site, Hysen Labs mirror, README); no claims changed.
+- 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, releases, site, Hysen Labs page); corrected the dormancy record (the last default-branch commit is 2026-07-24, the 2026-08-22 pushed_at was a side branch), the quiet spell now over three months.
 
 ## See also
 

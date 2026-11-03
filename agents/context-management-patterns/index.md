@@ -1,7 +1,7 @@
 ---
 title: "Context Management Patterns"
 created: 2026-08-24
-updated: 2026-11-01
+updated: 2026-11-03
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a token budget is and have watched an agent degrade after its window filled.
 ---
 
-This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files; verified against harness documentation as of 2026-10-31.
+This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files; verified against harness documentation as of 2026-11-03.
 
 **Every working pattern does one thing, it keeps the window small and fresh, and in 2026 the harness-native features (compaction, subagents, memory files) deliver more of that value than any retrieval pipeline you can buy.**
 My disagreeable claim: below a few hundred thousand lines of code, a short memory file plus automatic compaction beats a bespoke RAG stack, and teams buying context engines before learning their harness's `/compact` are paying money to avoid learning a skill.
@@ -60,7 +60,8 @@ When you do cross the threshold, delivery is settled: an MCP server (Sourcegraph
 ## Compaction is a default you should steer
 
 **Summarize-and-restart has shipped as a harness default, and its lossiness is steerable if you bother steering it.**
-Claude Code auto-compacts as you approach the limit, and Anthropic now documents what survives: the summary keeps your requests and key code snippets while detailed instructions from early in the conversation may be lost, CLAUDE.md and auto memory re-inject from disk, then Claude Code re-reads up to five of the most recently modified files and re-injects the bodies of any skills you invoked, capped at 5,000 tokens per skill and 25,000 in total, and since v2.1.304 it also rebuilds the skill descriptions and re-injects those, closing the old gap where the listing did not reload.
+Claude Code auto-compacts as you approach the limit, and Anthropic now documents what survives: the summary keeps your requests and key code snippets while detailed instructions from early in the conversation may be lost, CLAUDE.md and auto memory re-inject from disk, then Claude Code re-reads up to five of the files it read or edited in the session, choosing the ones modified most recently, and re-injects the bodies of any skills you invoked, capped at 5,000 tokens per skill and 25,000 in total with the oldest dropped first, and since v2.1.304 it also rebuilds the skill descriptions and re-injects those, closing the old gap where the listing did not reload.
+The docs also name idle compaction now: a session you leave idle gets compacted on its own, and best-practices describes a past-200K session on the one-hour cache compacted shortly before the cache expires, so the summary you come back to after lunch is a steering target like any other.
 All three major harnesses expose it manually: `/compact <instructions>` in Claude Code (for example, "focus on the API changes"), `/compact` in [Codex](../harnesses/codex/index.md) (with `/status` showing context usage), and `/compact`, aliased `/summarize`, in [OpenCode](../harnesses/opencode/index.md).
 Claude Code goes further than most: the rewind menu summarizes from or up to a chosen checkpoint, and `/btw` answers side questions that never enter history at all, the same idea as Codex's `/side`.
 The steering mechanism most engineers miss: put compaction directives in the memory file ("when compacting, always preserve the modified-file list and test commands"), which turns a lossy default into a controlled one.
@@ -116,6 +117,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - 2026-10-28 - Rotation re-verification of all eight cited pages: every one fetched 200, the compaction, subagent, and auto-memory claims re-checked against the live docs with nothing to correct (the docs now also state that the summary inherits the session's thinking setting and that an over-5,000-token file returns as a path reference, refinements the essay's claims survive), and the intro as-of re-dated.
 - 2026-10-31 - Rotation re-verification of all eight cited pages plus the how-claude-code-works page: every one fetched 200, and three stale Claude Code documentation attributions replaced with the rewritten docs' current wording, the retired "the context window is the most important resource to manage" line and the removed "infinite exploration" anti-pattern no longer exist on the live pages (whose best-practices guide now argues focused context for answer quality rather than window scarcity), and the compaction-survival enumeration tightened to the summary-keeps-requests-and-key-code-snippets claim the current how-claude-code-works page states; every other pattern claim re-verified against the live docs, and the intro as-of re-dated.
 - 2026-11-01 - Link check: all nine cited pages fetched 200, the pattern claims holding from the 2026-10-31 rotation pass, and the intro as-of left at 2026-10-31 since no fact moved.
+- 2026-11-03 - Rotation re-verification of all nine cited pages: every one fetched 200, two compaction claims corrected against the rewritten context-window page (the five-file re-read now names the session's read-or-edited files chosen by recency, and the skill caps gained the oldest-dropped-first detail), idle compaction folded in as a named feature (a session left idle compacts on its own, and best-practices describes the past-200K one-hour-cache session compacted shortly before the cache expires), and the intro as-of re-dated.
 
 ## See also
 
@@ -130,7 +132,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents - context rot, attention budgets, compaction mechanics, structured note-taking, sub-agent summaries, just-in-time retrieval
 - https://code.claude.com/docs/en/best-practices - Claude Code auto-compaction, /compact with instructions, /clear, /btw, memory-file pruning, compaction directives
 - https://code.claude.com/docs/en/memory - Claude Code auto memory (on by default, first 200 lines or 25KB of MEMORY.md per project, /memory toggle and autoMemoryEnabled setting) and the note that project CLAUDE.md is re-read after compaction
-- https://code.claude.com/docs/en/context-window - the current compaction-survival table: summary contents, up to five most recently modified files re-read, invoked-skill bodies re-injected with the 5,000 and 25,000 token caps, skill descriptions rebuilt and re-injected since v2.1.304 (fetched 2026-10-23 and again 2026-10-31)
+- https://code.claude.com/docs/en/context-window - the compaction-survival documentation: summary contents, up to five of the session's read-or-edited files re-read by recency, invoked-skill bodies re-injected with the 5,000 and 25,000 token caps and oldest-dropped-first, skill descriptions rebuilt and re-injected since v2.1.304, and the named idle-compaction behavior (fetched 2026-10-23, 2026-10-31, and again 2026-11-03, the page now organizing survival per mechanism and naming idle compaction)
 - https://code.claude.com/docs/en/how-claude-code-works - the when-context-fills-up section whose summary claim (requests and key code snippets kept, detailed early instructions may be lost) the compaction paragraph now cites (fetched 2026-10-31)
 - https://learn.chatgpt.com/docs/reference/slash-commands - Codex /compact, /status context usage, and /side (the developers.openai.com URL redirects here)
 - https://opencode.ai/docs/tui - OpenCode /compact (alias /summarize), /new (alias /clear), and @ file references

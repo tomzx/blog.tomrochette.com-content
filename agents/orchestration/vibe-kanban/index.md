@@ -1,7 +1,7 @@
 ---
 title: Vibe Kanban
 created: 2026-08-24
-updated: 2026-10-29
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, kanban, git-worktrees, open-source]
 readability: 3
@@ -81,6 +81,7 @@ My disagreeable claim: bloop's failure is evidence that this orchestration layer
 - 2026-09-30 - Re-verification: the v0.1.45 prerelease release is no longer listed on GitHub (the release URL returns 404 and the release list stops at 0.1.44, while the timestamped tag remains), npm still serves 0.1.44 as latest, and the tracker refreshed to 544.
 - 2026-10-07 - Added the BloopAI/vibe-kanban star history chart to the Status section.
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo, site, shutdown post, launch HN thread, npm registry); the post-shutdown commit count refreshed to eleven with the 2026-10-26 local-CI-script commit ending the thirty-seven-day silence, npm still at 0.1.44.
+- 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, site, shutdown post, npm registry, HN items); claims hold, npm still 0.1.44 latest, the release list still stops at 0.1.44, and the default branch is unchanged since the 2026-10-28 community commit.
 
 ## See also
 

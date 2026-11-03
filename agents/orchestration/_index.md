@@ -83,7 +83,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [PraisonAI](praisonai/index.md) - the MIT Python low-code framework assembling self-reflecting multi-agent workforces with a dashboard, MCP support, and Docker isolation.
 - [Raven](raven/index.md) - the Apache-2.0 DAG-planning host agent over its own Research, Code, Design, and Oncall agents plus Claude Code and Codex, with trajectory replay and an AI-comments launch caution.
 - [Ruflo](ruflo/index.md) - the MIT meta-harness over Claude Code and Codex with 100+ agents, swarms, memory, and federation, 74.7k stars inherited from the claude-flow rename.
-- [Sandcastle](sandcastle/index.md) - the MIT TypeScript library and CLI orchestrating agents in Docker, Podman, or Vercel sandboxes with merge-back.
+- [Sandcastle](sandcastle/index.md) - the MIT TypeScript library and CLI orchestrating agents in native OS sandboxes, Docker, Podman, or five cloud providers, with merge-back, releases resumed 2026-11-02 after a five-month gap.
 - [Scion](scion/index.md) - GoogleCloudPlatform's Apache-2.0 container hypervisor giving each agent a container, worktree, and credentials, from laptop to HA, an experimental unsupported testbed.
 - [Sim](sim/index.md) - the Apache-2.0 YC X25 visual agent-workflow builder positioned to inherit Flowise's stranded users.
 - [Squad](squad/index.md) - Brady Gaster's MIT CLI that runs a persistent, human-led agent team as versioned repo files inside GitHub Copilot CLI.

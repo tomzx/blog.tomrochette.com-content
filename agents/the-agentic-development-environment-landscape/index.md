@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Development Environment Landscape"
 created: 2026-07-04
-updated: 2026-11-01
+updated: 2026-11-03
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains]
 readability: 3
@@ -13,7 +13,7 @@ agent_sessions:
 
 The terminal coding agent answered the question of whether an AI can edit a real repository.
 The next problem is harder: how do you run several of them, watch what they are doing, and keep them from colliding on the same files.
-In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-11-01.
+In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-11-03.
 
 ## What an ADE is, and what it is not
 
@@ -75,7 +75,7 @@ It rounds out a top five that already spans open source (Orca, Paseo, Emdash), s
 
 **Below the leaders there is a busy middle, and it is where the next leader is most likely to come from.**
 Agent orchestrators built as CLIs and TUIs make up a large share, because the cheapest way to ship an ADE is to not build a GUI at all.
-[Agent Orchestrator](../orchestration/agent-orchestrator/index.md) is a Go-daemon desktop kanban that supervises 26-plus coding CLIs, one worktree and one session per worker with CI and review feedback routed back into the same agent, and it has the reach of a leader without the surface area of one, though it has lived under four organizations in eight months.
+[Agent Orchestrator](../orchestration/agent-orchestrator/index.md) is a Go-daemon desktop kanban that supervises 35-plus coding CLIs (its About line said 26-plus when the snapshot was written), one worktree and one session per worker with CI and review feedback routed back into the same agent, and it has the reach of a leader without the surface area of one, though it has lived under four organizations in eight months.
 [Kandev](https://github.com/kdlbs/kandev) frames the same idea as an AI Kanban plus development environment, multi-provider and self-hostable with no telemetry, a framing that maps cleanly onto a team workflow.
 [Pane](https://github.com/greenfield-inc/Pane), [lanes](https://github.com/lanes-sh/app), [Frame](https://github.com/kaanozhan/Frame), [genie](https://github.com/automagik-dev/genie), and workstreams each take a slightly different cut of the same problem: terminal-first, mobile-first, spec-driven, or PR-out-the-door.
 
@@ -150,6 +150,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - 2026-10-25 - Rotation re-verification: re-fetched all 17 URLs, every one 200 this run (the two GitHub topic pages cleared their 429 streak), and rewrote Air's leaderboard paragraph against its live page, which now leads with the IDE plugin plus web, CLI, and mobile surfaces instead of a standalone desktop app, names Claude Agent and ACP-connectable agents rather than a fixed roster (Claude Code and Codex arrive through Air Gateway, and Junie has been folded into Air), and repeats the some-customers cloud-run rollout; Orca's dated star count left untouched per the stars exemption.
 - 2026-10-28 - Rotation re-verification: re-fetched all 17 URLs, every one 200 this run, and Air's supported-agent, surface, and cloud-run claims re-verified against its live page (Claude Agent and ACP-connectable agents, IDE, web, CLI, and mobile surfaces, Air Gateway for terminal agents, Junie folded in, the some-customers cloud-run rollout unchanged); Orca's dated star count left untouched per the stars exemption.
 - 2026-11-01 - Rotation re-verification with two out-of-rotation corrections the fetches surfaced: Superset renamed itself Paradev (ParadevAI org, "formerly Superset" in its own README, agentic IDE to orchestrate 100+ coding agents in parallel, the `superset` CLI unchanged, and licensed Elastic License 2.0, source-available rather than OSI open source), and Paseo relicensed from AGPL-3.0 to Apache-2.0 while adding Antigravity and Muse Code to its provider roster; the leaderboard paragraph, the top-five mix line, the license axis, and the two references updated; every one of the 17 URLs fetched 200 this run, Air's supported-agent, surface, and cloud-run claims re-verified unchanged against its live page, and Orca's dated star count left untouched per the stars exemption.
+- 2026-11-03 - Rotation re-verification: every one of the 17 URLs fetched 200 this run, Air's supported-agent, surface, and cloud-run claims re-verified unchanged against its live page, Paradev's README claims (formerly Superset, 100+ agents, the `superset` CLI, Elastic License 2.0) and Paseo's Apache-2.0 roster re-confirmed, two stale spots the fetches surfaced corrected (the Paseo reference line still carried the AGPL the body had already dropped, and Agent Orchestrator's About line now reads 35-plus supported agents against the snapshot's 26-plus), and Orca's dated star count left untouched per the stars exemption.
 
 ## See also
 
@@ -163,7 +164,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 ## References
 
 - [stablyai/orca](https://github.com/stablyai/orca) - open-source ADE; any CLI agent, desktop and mobile, the feature reference
-- [getpaseo/paseo](https://github.com/getpaseo/paseo) - AGPL self-hosted ADE; multi-provider, zero telemetry
+- [getpaseo/paseo](https://github.com/getpaseo/paseo) - Apache-2.0 self-hosted ADE (relicensed from the AGPL-3.0 the snapshot recorded); multi-provider, zero telemetry
 - [ParadevAI/Paradev](https://github.com/ParadevAI/Paradev) - the renamed Superset (about 15.1k stars as of 2026-10-13), Electron desktop app with a CLI companion, Elastic License 2.0
 - [JetBrains Air](https://www.jetbrains.com/air/) - the incumbent's commercial ADE
 - [JetBrains, "Air Launches as Public Preview"](https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/) - Air's positioning, supported agents, and roadmap

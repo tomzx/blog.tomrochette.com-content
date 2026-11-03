@@ -1,7 +1,7 @@
 ---
 title: MetaGPT
 created: 2026-09-27
-updated: 2026-10-26
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, software-engineering]
 readability: 3
@@ -34,7 +34,7 @@ Dormant in everything but stars: the repo shows 70,796 stars, about 9k forks, an
 
 The latest release is v0.8.2, published 2025-03-09, eighteen months old at writing.
 The README news section stops at March 2025, when MGX topped Product Hunt, and nothing newer was added since.
-The FoundationAgents org is not dead: OpenManus, its open reproduction of Manus, holds 58,465 stars with a push on 2026-09-30, and smaller research repos (AOrchestra, ReCode, AutoEnv) keep landing.
+The FoundationAgents org is not dead: OpenManus, its open reproduction of Manus, holds 58,465 stars with a push on 2026-11-02, and smaller research repos (AOrchestra, ReCode, AutoEnv) keep landing.
 I read that pattern as the team building a next generation while leaving the framework that made them famous in maintenance.
 
 ## Strengths
@@ -74,6 +74,7 @@ My disagreeable claim: OpenManus, not MetaGPT, is the real continuation of this 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-10-07 - Added the FoundationAgents/MetaGPT star history chart to the Status section.
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo, org repo list, releases still topping at v0.8.2 from 2025-03-09, docs, arXiv paper, MGX site, README, HN threads); no claims changed.
+- 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, releases, README, docs, MGX, arXiv, HN Algolia, OpenManus repo); dormancy holds (last push still 2026-01-21), the OpenManus push date refreshed to 2026-11-02.
 
 ## See also
 

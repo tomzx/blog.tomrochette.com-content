@@ -5,7 +5,7 @@ build:
   publishResources: false
 title: Worker contract
 created: 2026-10-16
-updated: 2026-10-21
+updated: 2026-11-03
 status: finished
 tags: [agents]
 readability: 0
@@ -38,7 +38,7 @@ Consult the log under `agents/logs/` only on demand, when the digest and the wor
 ## Every run
 
 - Check links, front matter (no `type` field, mandatory tags present), and as-of dates; fix what is broken.
-- Keep the feature matrix matched to membership: columns sorted case-insensitively by member title, the separator row and every row at header width, membership checked by link slug.
+- Keep the feature matrix matched to membership: columns sorted case-insensitively by member title, the separator row and every row carrying the header's cell count (character-width alignment is convention; never truncate a sourced cell to fit), membership checked by link slug.
 - Keep the category `_index.md` entry list matched to membership and alphabetical; its `## Changes` stays append-only.
 - Re-check category fit; propose cross-category moves rather than making them.
 - Volatile re-verification, activity-gated: members whose subject released, repriced, or changed status since their last-verified date; the work list flags these. **Star figures are exempt everywhere**: the star-history chart is the live signal, and existing star counts (note prose, matrix cells, index one-liners) are never refreshed.

@@ -1,7 +1,7 @@
 ---
 title: LlamaIndex
 created: 2026-08-24
-updated: 2026-10-31
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, retrieval, frameworks]
 readability: 3
@@ -25,7 +25,7 @@ In February 2026 the same team also open-sourced [LiteParse](https://github.com/
 ## Status
 
 Active and heavily used.
-The `run-llama/llama_index` repository shows 52.5k stars and 8.3k forks as of 2026-10-13, pushed 2026-10-26 with 1,149 open issues counting pull requests (GitHub API, as of 2026-10-31), with 7,956 commits as of 2026-10-10.
+The `run-llama/llama_index` repository shows 52.5k stars and 8.3k forks as of 2026-10-13, pushed 2026-10-26 with 1,201 open issues counting pull requests (GitHub API, as of 2026-11-03), with 7,956 commits as of 2026-10-10.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&theme=dark&legend=top-left" />
@@ -89,6 +89,7 @@ That claim is arguable, which is the point.
 - 2026-10-24 - Refreshed the repository activity (pushed 2026-10-23, 1,051 open issues counting pull requests).
 - 2026-10-27 - Refreshed the repository activity (pushed 2026-10-26, 1,093 open issues counting pull requests).
 - 2026-10-31 - Refreshed the repository activity (1,149 open issues counting pull requests); the push date is unchanged at 2026-10-26.
+- 2026-11-03 - Rotation re-verification re-fetched every cited URL live (the README's parsing-engine NOTE block, LiteParse, the docs root, which now carries a banner renaming the former LlamaCloud hosted platform to LlamaParse, consistent with the note's platform naming, the CodeSplitter and Chonkie-wrapping Chunker node-parser pages, LlamaParse tier prices unchanged, the Octomind thread at 480 points, and the Chonkie launch thread all unchanged in claims); the repository activity refreshed to 1,201 open issues counting pull requests with the push date unchanged at 2026-10-26.
 
 ## See also
 
@@ -99,10 +100,10 @@ That claim is arguable, which is the point.
 
 ## References
 
-- https://github.com/run-llama/llama_index - repository scale (52.5k stars), MIT license, the README's parsing-engine focus note and ParseBench and ExtractBench benchmarks, pushed 2026-10-26 (GitHub API, as of 2026-10-31; README re-verified unchanged 2026-10-22)
-- https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,824 stars, Apache-2.0, pushed 2026-10-09 (GitHub API, as of 2026-10-11)
-- https://docs.llamaindex.ai/en/stable/ - framework documentation structure: RAG pipeline, agents, workflows, LlamaCloud
-- https://developers.llamaindex.ai/python/framework/module_guides/loading/node_parsers/modules/ - CodeSplitter (tree-sitter) and Chunker (Chonkie) node parsers
-- https://www.llamaindex.ai/pricing - LlamaParse tiers, credit pricing, the Pro plan's limited-time one-time 800k-credit bonus, VPC and compliance options, as of 2026-10-13 (tier prices unchanged since 2026-09-18)
+- https://github.com/run-llama/llama_index - repository scale (52.5k stars), MIT license, the README's parsing-engine focus note and ParseBench and ExtractBench benchmarks, pushed 2026-10-26 (GitHub API, as of 2026-11-03; README re-verified unchanged 2026-11-03)
+- https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,824 stars (as of 2026-10-11), Apache-2.0, pushed 2026-11-02 (GitHub API, as of 2026-11-03)
+- https://docs.llamaindex.ai/en/stable/ - framework documentation structure: RAG pipeline, agents, workflows, LlamaCloud (re-verified live 2026-11-03; the docs root now carries the LlamaCloud-is-now-LlamaParse rename banner)
+- https://developers.llamaindex.ai/python/framework/module_guides/loading/node_parsers/modules/ - CodeSplitter (tree-sitter) and Chunker (Chonkie) node parsers (re-verified unchanged 2026-11-03)
+- https://www.llamaindex.ai/pricing - LlamaParse tiers, credit pricing, the Pro plan's limited-time one-time 800k-credit bonus, VPC and compliance options, as of 2026-10-13 (tier prices unchanged on re-fetch 2026-11-03)
 - https://news.ycombinator.com/item?id=40739982 - critical framework-RAG discussion naming LlamaIndex, with the LangChain CEO response
 - https://news.ycombinator.com/item?id=44225930 - Chonkie launch with benchmark claims against LlamaIndex and LangChain chunking

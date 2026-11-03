@@ -1,7 +1,7 @@
 ---
 title: "The Tells Are Structural"
 created: 2026-09-02
-updated: 2026-11-01
+updated: 2026-11-03
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, ai, llm, writing, evaluation]
 readability: 3
@@ -13,7 +13,7 @@ I generate drafts with LLMs every day, and so does almost every engineer I know.
 Somewhere along the way a reader can tell, and the text starts getting discounted before its content gets read.
 **The popular fixes are word swaps, and word swaps fail because the tell is not the words, it is the structure.**
 A 2026 study put numbers on this, and the numbers should change how you edit anything AI-assisted that other engineers will read.
-Every source below was fetched and re-verified on 2026-10-31.
+Every source below was fetched and re-verified on 2026-11-03.
 
 ## The humanizer trap
 
@@ -85,6 +85,7 @@ If you review other people's writing, read structure rather than vocabulary; a d
 - 2026-10-28 - Re-fetched all eight cited sources, every one 200, and moved the intro's re-verification date accordingly; the sepia and slop-grader star figures left untouched per the stars exemption.
 - 2026-10-31 - Re-fetched all eight cited sources, every one 200, with the StoryScope, human-detector, LAMP, and slop-study figures re-checked against the abstracts and the sepia README and no-ai-slop ruleset unchanged in everything this essay claims from them; the sepia and slop-grader star figures left untouched per the stars exemption.
 - 2026-11-01 - Re-fetched all eight cited sources, every one 200, with the study figures and the sepia README's calibrate-not-invert principle unchanged; the star figures left untouched per the stars exemption, and the intro's re-verification date holds at 2026-10-31 since no fact moved.
+- 2026-11-03 - Re-fetched all eight cited sources, every one 200, with the StoryScope, human-detector, LAMP, and slop-study figures unchanged and the no-ai-slop ruleset's structural rule ids intact; the star figures left untouched per the stars exemption, and the intro's re-verification date moved accordingly.
 
 ## See also
 
