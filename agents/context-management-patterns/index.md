@@ -1,7 +1,7 @@
 ---
 title: "Context Management Patterns"
 created: 2026-08-24
-updated: 2026-11-03
+updated: 2026-11-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash]
 readability: 3
@@ -118,6 +118,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - 2026-10-31 - Rotation re-verification of all eight cited pages plus the how-claude-code-works page: every one fetched 200, and three stale Claude Code documentation attributions replaced with the rewritten docs' current wording, the retired "the context window is the most important resource to manage" line and the removed "infinite exploration" anti-pattern no longer exist on the live pages (whose best-practices guide now argues focused context for answer quality rather than window scarcity), and the compaction-survival enumeration tightened to the summary-keeps-requests-and-key-code-snippets claim the current how-claude-code-works page states; every other pattern claim re-verified against the live docs, and the intro as-of re-dated.
 - 2026-11-01 - Link check: all nine cited pages fetched 200, the pattern claims holding from the 2026-10-31 rotation pass, and the intro as-of left at 2026-10-31 since no fact moved.
 - 2026-11-03 - Rotation re-verification of all nine cited pages: every one fetched 200, two compaction claims corrected against the rewritten context-window page (the five-file re-read now names the session's read-or-edited files chosen by recency, and the skill caps gained the oldest-dropped-first detail), idle compaction folded in as a named feature (a session left idle compacts on its own, and best-practices describes the past-200K one-hour-cache session compacted shortly before the cache expires), and the intro as-of re-dated.
+- 2026-11-04 - Link check: all nine cited pages fetched 200, the compaction-survival, skill-cap, idle-compaction, and v2.1.304 claims re-checked against the live context-window page with nothing to correct, and the intro as-of left at 2026-11-03 since no fact moved.
 
 ## See also
 

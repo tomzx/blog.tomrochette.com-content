@@ -1,7 +1,7 @@
 ---
 title: aider
 created: 2026-08-22
-updated: 2026-10-29
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, pair-programming, open-source]
 readability: 3
@@ -33,7 +33,7 @@ About 49.6k stars and 5.1k forks as of 2026-10-15, but the default branch has ha
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Aider-AI/aider&type=date&legend=top-left" />
 </picture>
 
-The polyglot leaderboard (225 Exercism exercises) is still published, but its headline results date to August 2025, and the site's "works best with" copy still names Claude 3.7 Sonnet-era models.
+The polyglot leaderboard (225 Exercism exercises) is still published, but its newest results date to October 3, 2025 (DeepSeek v3.2 entries), and the site's "works best with" copy still names Claude 3.7 Sonnet-era models.
 
 ## Strengths
 
@@ -48,7 +48,7 @@ The polyglot leaderboard (225 Exercism exercises) is still published, but its he
 - The leaderboard's age now matters; use it for relative history, not current model choice.
 - Install it isolated (pipx or the installer) or its Python dependencies will fight your project's.
 - Community energy has moved to the harness generation; expect fewer of the workflow innovations to arrive here first.
-- **Maintenance is the risk now**: no commits on the default branch since May 22, 2026, and no tagged release since v0.86.0 (August 2025), as of 2026-09-22, so budget for dependency drift and no fixes.
+- **Maintenance is the risk now**: no commits on the default branch since May 22, 2026, and no tagged release since v0.86.0 (August 2025), as of 2026-11-04, so budget for dependency drift and no fixes.
 
 ## Pricing
 
@@ -76,6 +76,7 @@ Not for long autonomous tasks, hands-off refactors, or teams that need an active
 - 2026-10-07 - Added the Aider-AI/aider star history chart to the Status section.
 - 2026-10-24 - Rotation re-verification, re-fetching every cited reference (all live) and confirming the stalled status unchanged: no default-branch commits since 2026-05-22 and v0.86.0 still the newest tag.
 - 2026-10-29 - Rotation re-verification, re-fetching every cited reference (all live) and confirming the stalled status unchanged: no default-branch commits since 2026-05-22 and v0.86.0 still the newest tag.
+- 2026-11-04 - Rotation re-verification, re-fetching every cited reference (all live), and corrected the leaderboard freshness claim: its newest results are the DeepSeek v3.2 entries dated October 3, 2025, not August 2025; the stalled status is unchanged (no default-branch commits since 2026-05-22, v0.86.0 still the newest tag).
 
 ## See also
 

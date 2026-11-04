@@ -1,7 +1,7 @@
 ---
 title: Gas Town
 created: 2026-08-27
-updated: 2026-10-29
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, multi-agent, git-worktrees, open-source, tmux]
 readability: 3
@@ -76,6 +76,7 @@ The disagreeable claim I will defend: strip the metaphors away and what remains 
 - 2026-10-07 - Added the gastownhall/gastown star history chart to the Status section.
 - 2026-10-22 - Corrected the default-branch activity line: a 2026-10-20 Go toolchain security commit (distrusting compromised eMudhra CAs) landed after the shutdown; the release line still ends at v1.2.1 (2026-06-06).
 - 2026-10-27 - Corrected the post-shutdown record: dependency-security maintenance continued through 2026-10-25 (advisory bumps, a config fix, Dolt pinned and required at 2.6.0), not just the 2026-10-20 build fix.
+- 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo, API, Appleton's analysis, the AINews issue, the announcement thread, the credits issue, releases); the default branch's latest commit is still the 2026-10-28 dependency bump, v1.2.1 still the last release, and no revival signal.
 
 ## See also
 

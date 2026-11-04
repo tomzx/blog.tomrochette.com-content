@@ -1,7 +1,7 @@
 ---
 title: YYLO
 created: 2026-10-21
-updated: 2026-10-29
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflows, git-worktrees, evidence]
 readability: 3
@@ -18,7 +18,7 @@ YYLO is an MIT, npm-distributed CLI that coordinates coding agents through a typ
 ## What it is
 
 A three-layer, open-source system from JUNO AI INC.
-The control plane is the YYLO CLI (`@yylo/cli` 0.2.12 on npm, with equivalent `yylo` and `yy` launchers), which delegates bounded work to agents such as Pi and Codex, preserves each attempt's worktree, model, and session provenance, and validates candidates before integration.
+The control plane is the YYLO CLI (`@yylo/cli` 0.2.13 on npm, with equivalent `yylo` and `yy` launchers), which delegates bounded work to agents such as Pi and Codex, preserves each attempt's worktree, model, and session provenance, and validates candidates before integration.
 The engineering memory is YYLO Ledger (`yylo-ledger` 0.4.0 on PyPI), a Git-native store of tasks, records, receipts, and archives with a shell-friendly CLI, so task truth lives in the repository instead of a database.
 The evaluation layer is YYLO Benchmark, which retains cases, delegates independent attempts, and reports separate check results and judge assessments against frozen checklist criteria.
 The lifecycle is deliberately strict: `yy task finish` enforces admission and validation, the merge keeps ownership and conflict protection under expected-ref semantics, historical attempts are preserved and never auto-replayed, and the watch/status commands are read-only observers, because, in the changelog's own words, missing evidence is not success.
@@ -26,7 +26,7 @@ Eight independently versioned Skills teach agents the procedures for ledger reco
 
 ## Status
 
-Alive, tiny, and version-young: 65 stars and 11 forks as of 2026-10-21, repository created 2026-01-06 with default-branch pushes through 2026-10-28; npm serves `@yylo/cli` 0.2.12 while the GitHub releases page stops at 0.2.1-rc.14, so the train moved to npm, and the CLI pins the Ledger exactly (0.2.9 requires Ledger 0.4.0) (GitHub API, npm, and the Ledger README, as of 2026-10-21).
+Alive, tiny, and version-young: 65 stars and 11 forks as of 2026-10-21, repository created 2026-01-06 with default-branch pushes through 2026-11-03; npm serves `@yylo/cli` 0.2.13 while the GitHub releases page stops at 0.2.1-rc.14, so the train moved to npm, and the CLI pins the Ledger exactly (0.2.9 requires Ledger 0.4.0) (GitHub API, npm, and the Ledger README, as of 2026-11-04).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=yylo-dev/yylo&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for teams wanting a GUI, and not without tolerance for 0.2.x churn and exact
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
+- 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo API, site, docs, changelog, npm, releases, the Ledger README); npm refreshed to 0.2.13, pushes through 2026-11-03, the exact Ledger 0.4.0 pin and the GitHub train stopping at 0.2.1-rc.14 both unchanged.
 
 ## See also
 

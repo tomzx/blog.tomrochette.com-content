@@ -1,7 +1,7 @@
 ---
 title: JetBrains Air
 created: 2026-09-12
-updated: 2026-10-27
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, jetbrains, agentic-development-environment]
 readability: 3
@@ -77,6 +77,7 @@ My disagreeable claim: the isolation-plus-oversight bundle Air sells is now tabl
 - 2026-10-08 - Re-verified the changelog redirect and recorded the repositioned homepage's named surfaces (Air Teams early access, Air Gateway, Air Context, mobile coming soon) with 262.834.41 still the last verifiable release.
 - 2026-10-12 - Recorded the homepage's widened supported-agent roster (Copilot and OpenCode now named beside the launch four, plus ACP) with the changelog still redirected and 262.834.41 still the last verifiable release.
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (air.dev, the changelog URL still redirected to the repositioned homepage, four help pages, the launch post, HN); 262.834.41 (2026-09-11) still the last verifiable release.
+- 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live; three help pages renamed upstream (execution-environments to run-environments, cloud-tasks to tasks, set-up to set-up-air-teams) and the reference list moved to the new canonical paths; the changelog still redirects and 262.834.41 (2026-09-11) remains the last verifiable release.
 
 ## See also
 
@@ -90,10 +91,10 @@ My disagreeable claim: the isolation-plus-oversight bundle Air sells is now tabl
 
 - https://air.dev/ - product claims, supported agents, isolation options, FAQ, and pricing terms, as of 2026-09-18, re-fetched 2026-10-08 with the Air Teams, Gateway, Air Context, and mobile surfaces now named on the homepage
 - https://air.dev/changelog - version 262.834.41 (2026-09-11), platform dates, ACP support, and feature history, fetched 2026-09-18; fetched again 2026-09-22, when the URL redirected to the repositioned homepage; re-fetched 2026-10-08 with the redirect unchanged and 262.834.41 still the last verifiable release
-- https://www.jetbrains.com/help/air/execution-environments.html - the four run environments and the isolation model, as of 2026-08-18
+- https://www.jetbrains.com/help/air/run-environments.html - the four run environments and the isolation model, as of 2026-08-18 (canonical path since the page's 2026-11-04 rename from execution-environments.html)
 - https://www.jetbrains.com/help/air/supported-agents.html - the agent and provider-account matrix, as of 2026-08-25
-- https://www.jetbrains.com/help/air/cloud-tasks.html - cloud tasks, the org web version, lifecycle, and credits, as of 2026-08-20
-- https://www.jetbrains.com/help/air/set-up.html - desktop platforms, org setup, and Central Console governance, as of 2026-09-10
+- https://www.jetbrains.com/help/air/tasks.html - cloud tasks, the org web version, lifecycle, and credits, as of 2026-08-20 (canonical path since the page's 2026-11-04 rename from cloud-tasks.html)
+- https://www.jetbrains.com/help/air/set-up-air-teams.html - desktop platforms, org setup, and Central Console governance, as of 2026-09-10 (canonical path since the page's 2026-11-04 rename from set-up.html)
 - https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/ - the March 2026 public-preview announcement by Nik Tkachev
 - https://hn.algolia.com/api/v1/search?query=%22JetBrains+Air%22&tags=story - the three HN stories and their thin footprint, queried 2026-09-18
 - https://hn.algolia.com/api/v1/items/46350939 - the Fleet-abandonment story (2025-12-22, 3 points, 1 comment)

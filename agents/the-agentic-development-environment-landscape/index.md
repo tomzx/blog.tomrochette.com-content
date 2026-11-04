@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Development Environment Landscape"
 created: 2026-07-04
-updated: 2026-11-03
+updated: 2026-11-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains]
 readability: 3
@@ -151,6 +151,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - 2026-10-28 - Rotation re-verification: re-fetched all 17 URLs, every one 200 this run, and Air's supported-agent, surface, and cloud-run claims re-verified against its live page (Claude Agent and ACP-connectable agents, IDE, web, CLI, and mobile surfaces, Air Gateway for terminal agents, Junie folded in, the some-customers cloud-run rollout unchanged); Orca's dated star count left untouched per the stars exemption.
 - 2026-11-01 - Rotation re-verification with two out-of-rotation corrections the fetches surfaced: Superset renamed itself Paradev (ParadevAI org, "formerly Superset" in its own README, agentic IDE to orchestrate 100+ coding agents in parallel, the `superset` CLI unchanged, and licensed Elastic License 2.0, source-available rather than OSI open source), and Paseo relicensed from AGPL-3.0 to Apache-2.0 while adding Antigravity and Muse Code to its provider roster; the leaderboard paragraph, the top-five mix line, the license axis, and the two references updated; every one of the 17 URLs fetched 200 this run, Air's supported-agent, surface, and cloud-run claims re-verified unchanged against its live page, and Orca's dated star count left untouched per the stars exemption.
 - 2026-11-03 - Rotation re-verification: every one of the 17 URLs fetched 200 this run, Air's supported-agent, surface, and cloud-run claims re-verified unchanged against its live page, Paradev's README claims (formerly Superset, 100+ agents, the `superset` CLI, Elastic License 2.0) and Paseo's Apache-2.0 roster re-confirmed, two stale spots the fetches surfaced corrected (the Paseo reference line still carried the AGPL the body had already dropped, and Agent Orchestrator's About line now reads 35-plus supported agents against the snapshot's 26-plus), and Orca's dated star count left untouched per the stars exemption.
+- 2026-11-04 - Rotation re-verification: every one of the 17 URLs fetched 200 this run (both GitHub topic pages included, no 429s), Air's supported-agent, surface, and cloud-run claims re-verified unchanged against its live page, Paradev's formerly-Superset README and Paseo's Apache-2.0 license re-confirmed through the repository API, Agent Orchestrator's supported-agent table re-counted at 36 entries so the 35-plus claim holds, and Orca's dated star count left untouched per the stars exemption; no fact moved, so the intro's verification date holds at 2026-11-03.
 
 ## See also
 

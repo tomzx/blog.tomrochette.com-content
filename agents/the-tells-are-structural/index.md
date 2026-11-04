@@ -1,7 +1,7 @@
 ---
 title: "The Tells Are Structural"
 created: 2026-09-02
-updated: 2026-11-03
+updated: 2026-11-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, ai, llm, writing, evaluation]
 readability: 3
@@ -86,6 +86,7 @@ If you review other people's writing, read structure rather than vocabulary; a d
 - 2026-10-31 - Re-fetched all eight cited sources, every one 200, with the StoryScope, human-detector, LAMP, and slop-study figures re-checked against the abstracts and the sepia README and no-ai-slop ruleset unchanged in everything this essay claims from them; the sepia and slop-grader star figures left untouched per the stars exemption.
 - 2026-11-01 - Re-fetched all eight cited sources, every one 200, with the study figures and the sepia README's calibrate-not-invert principle unchanged; the star figures left untouched per the stars exemption, and the intro's re-verification date holds at 2026-10-31 since no fact moved.
 - 2026-11-03 - Re-fetched all eight cited sources, every one 200, with the StoryScope, human-detector, LAMP, and slop-study figures unchanged and the no-ai-slop ruleset's structural rule ids intact; the star figures left untouched per the stars exemption, and the intro's re-verification date moved accordingly.
+- 2026-11-04 - Re-fetched all eight cited sources, every one 200, with the study figures unchanged and the no-ai-slop ruleset's structural rule ids (binary_contrast, throat_clearing, faux_insight, and siblings) intact; the star figures left untouched per the stars exemption, and the intro's re-verification date holds at 2026-11-03 since no fact moved.
 
 ## See also
 

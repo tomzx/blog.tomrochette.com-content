@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-11-03
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -23,7 +23,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 352 open issues and PRs with the last push on 2026-11-03 as of 2026-11-03.
+Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 368 open issues and PRs with the last push on 2026-11-04 as of 2026-11-04.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&legend=top-left" />
 </picture>
 
-v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause, v0.18.57 on 2026-10-07, v0.18.58 on 2026-10-13, v0.18.59 on 2026-10-20, v0.18.60 on 2026-10-22, v0.18.61 and v0.18.62 on 2026-10-23 (pop-out computer view and floating browser windows, then OneDrive and SharePoint file support), and v0.18.63 on 2026-10-26 (importing Claude chats and Claude Code sessions into a workspace from Settings, connected files on OpenCode v2 with Google Drive, OneDrive, and SharePoint saving edits back and Gmail draft attachments, and computer use on Windows).
+v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause, v0.18.57 on 2026-10-07, v0.18.58 on 2026-10-13, v0.18.59 on 2026-10-20, v0.18.60 on 2026-10-22, v0.18.61 and v0.18.62 on 2026-10-23 (pop-out computer view and floating browser windows, then OneDrive and SharePoint file support), and v0.18.63 on 2026-10-26 (importing Claude chats and Claude Code sessions into a workspace from Settings, connected files on OpenCode v2 with Google Drive, OneDrive, and SharePoint saving edits back and Gmail draft attachments, and computer use on Windows), and v0.18.64 on 2026-11-03 (public, Cloud, and enterprise Electron builds split onto separate artifact names and updater manifests, with Windows installers now signed using Microsoft Artifact Signing).
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 
 ## Strengths
@@ -55,6 +55,7 @@ Team: $10 per seat per month, with the first 5 seats free on OpenWork Cloud (API
 Enterprise: custom pricing (everything in Team plus SCIM provisioning, BYO inference self-hosted or private models, desktop policies and version controls, managed deployment, custom skill development and MCP consulting, rollout support, and the grandfather clause: existing organizations already using SCIM or desktop policies keep full access), as of 2026-10-14.
 The pricing page churned a seventeenth time by 2026-10-23: the two add-ons left the page again and the grandfather clause returned, reversing the sixteenth churn, with the Free tier's cloud offer framed as a free OpenWork Cloud plan for up to 5 users, and the three main prices and the Enterprise custom annual tier with its 60-day opt-out unchanged.
 It churned an eighteenth time by 2026-10-30: the two add-ons returned to the page and the grandfather clause left again, reversing the seventeenth churn, with the three main prices and the annual Enterprise tier unchanged.
+It churned a nineteenth time by 2026-11-04: the two add-ons left the page again and the grandfather clause returned, reversing the eighteenth churn and restoring the seventeenth-churn state, with the three main prices unchanged.
 
 ## Price history
 
@@ -78,6 +79,7 @@ It churned an eighteenth time by 2026-10-30: the two add-ons returned to the pag
 | 2026-10-21 | All tiers, add-ons | Sixteenth churn: the two add-ons returned to the page again (Cloud Computer $50 per member per month, OpenWork models $10 per user per month, both marked available on Team and Enterprise) and the grandfather clause left again, back to the fourteenth churn's state; Free $0, Team $10 per seat, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
 | 2026-10-23 | All tiers, add-ons | Seventeenth churn: the two add-ons left the page again and the grandfather clause returned, reversing the sixteenth churn; the Free tier's cloud offer is framed as a free OpenWork Cloud plan for up to 5 users, and Free $0, Team $10 per user per month, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
 | 2026-10-30 | All tiers, add-ons | Eighteenth churn: the two add-ons returned to the page again (Cloud Computer $50 per member per month, OpenWork models $10 per user per month, both marked available on Team and Enterprise) and the grandfather clause left again, reversing the seventeenth churn; Free $0, Team $10 per user per month, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
+| 2026-11-04 | All tiers, add-ons | Nineteenth churn: the two add-ons left the page again and the grandfather clause returned, reversing the eighteenth churn and restoring the seventeenth-churn state; Free $0, Team $10 per user per month, Enterprise custom unchanged | https://openworklabs.com/pricing |
 
 ## Compared to
 
@@ -122,6 +124,8 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - 2026-10-25 - Recorded v0.18.61 and v0.18.62 (both 2026-10-23: pop-out computer view and floating browser windows, then OneDrive and SharePoint file support), with pricing re-checked unchanged (the seventeenth-churn state holds) and refreshed adoption numbers.
 - 2026-10-28 - Recorded v0.18.63 (2026-10-26: importing Claude chats and Claude Code sessions, connected files on OpenCode v2 with Google Drive, OneDrive, and SharePoint save-back plus Gmail drafts, and Windows computer use), with pricing re-checked unchanged (the seventeenth-churn state holds) and refreshed adoption numbers.
 - 2026-10-30 - Pricing churned an eighteenth time: the two add-ons returned to the page and the grandfather clause left again, reversing the seventeenth churn, with the three main prices and the annual Enterprise tier unchanged (Price history row); refreshed adoption numbers.
+- 2026-11-04 - Recorded v0.18.64 (2026-11-03: public, Cloud, and enterprise Electron builds split onto separate artifact names and updater manifests, Windows installers signed using Microsoft Artifact Signing), with refreshed adoption numbers.
+- 2026-11-04 - Pricing churned a nineteenth time: the two add-ons left the page again and the grandfather clause returned, reversing the eighteenth churn, with the three main prices unchanged (Price history row); refreshed adoption numbers.
 
 ## See also
 

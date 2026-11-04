@@ -1,7 +1,7 @@
 ---
 title: AX
 created: 2026-09-21
-updated: 2026-10-29
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, kubernetes, multi-agent, open-source, google]
 readability: 3
@@ -73,6 +73,7 @@ Not for developers who want a desktop app supervising a handful of sessions; pic
 - 2026-10-07 - Added the google/ax star history chart to the Status section.
 - 2026-10-18 - Re-verified in rotation: every cited URL re-fetched and live (repository, site, README, v0.3.1 release, Agent Substrate repo, the 666-point launch thread); v0.3.1 remains the latest release.
 - 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live (repository, site, README, v0.3.1 release, Agent Substrate repo, launch thread steady at 666 points); pre-stable pushes continue through 2026-10-29.
+- 2026-11-04 - Status refresh: the push date refreshed to 2026-11-03.
 
 ## See also
 

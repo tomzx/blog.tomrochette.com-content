@@ -1,7 +1,7 @@
 ---
 title: AutoGPT
 created: 2026-09-27
-updated: 2026-10-29
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, workflows, source-available]
 readability: 3
@@ -17,13 +17,14 @@ AutoGPT is the platform, frontend plus server, that Significant Gravitas rebuilt
 ## What it is
 
 Four surfaces on one platform per the README: AutoPilot (chat a job into a working agent), Agents (mission control for every run, cost, and approval), Marketplace (ready-made community agents), and Build (the visual canvas).
+The hosted product's current emphasis layers Experts (specialist agents such as an AI SDR or SEO writer) and Otto chat on top of those surfaces, with workflow runs pay-as-you-go behind them.
 The stack is TypeScript and Python under the `autogpt_platform` directory, deployable on their cloud at platform.agpt.co or self-hosted from the repo.
 The old classic agent, Forge, and the AG Benchmark remain in the repo under MIT, but the platform is where development happens.
 It positions itself as "AI agents that finish the work", with file-aware agents, scheduled and event-based triggers, and an integration block library.
 
 ## Status
 
-Active and shipping: the repo shows 187,580 stars, was pushed 2026-10-29, and carries the platform beta at v0.10.0 (2026-10-27) after v0.9.0 (2026-10-23), v0.8.4 (2026-10-14), and v0.8.3 (2026-10-08) (GitHub API, releases, as of 2026-10-28).
+Active and shipping: the repo shows 187,580 stars, was pushed 2026-11-04, and carries the platform beta at v0.11.0 (2026-11-04) after v0.10.0 (2026-10-27), v0.9.0 (2026-10-23), and v0.8.4 (2026-10-14) (GitHub API, releases, as of 2026-11-04).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&theme=dark&legend=top-left" />
@@ -85,6 +86,7 @@ My disagreeable claim: the 187k stars are a liability now, because they attract 
 
 - 2026-10-11 - Recorded the hosted-pricing restructure: monthly billing now leads at $50 and $320 per month, yearly (15 percent off, $42.50 and $272 effective) became the toggle, and the subscription covers Otto and Expert chat while workflow runs are pay-as-you-go.
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, license, releases, pricing, docs, blog post, both HN threads); the push date refreshed to 2026-10-27, platform beta v0.9.0 still the newest tag.
+- 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, license, releases, pricing, docs, blog post, both HN threads); recorded platform beta v0.11.0 (November 4) as the newest tag, and noted the hosted product's current Experts-plus-Otto emphasis atop the four surfaces; pricing tiers unchanged since the October restructure.
 
 ## See also
 
@@ -98,7 +100,7 @@ My disagreeable claim: the 187k stars are a liability now, because they attract 
 - https://api.github.com/repos/Significant-Gravitas/AutoGPT - GitHub API (200): 187,582 stars, pushed 2026-09-27, Python, created 2023-03-16 (as of 2026-09-27)
 - https://raw.githubusercontent.com/Significant-Gravitas/AutoGPT/master/README.md - four surfaces (AutoPilot, Agents, Marketplace, Build), platform pitch (200)
 - https://raw.githubusercontent.com/Significant-Gravitas/AutoGPT/master/LICENSE - Polyform Shield for autogpt_platform, MIT for the rest (200)
-- https://github.com/Significant-Gravitas/AutoGPT/releases - releases (200): platform beta v0.8.1 published 2026-09-24
+- https://github.com/Significant-Gravitas/AutoGPT/releases - releases (200): platform beta v0.11.0 published 2026-11-04
 - https://agpt.co/pricing - Pro $42.50 and Max $272.00 per month billed annually, Team coming soon (200, 2026-09-27)
 - https://docs.agpt.co - AutoGPT Platform documentation (200)
 - https://agpt.co/blog/introducing-the-autogpt-platform - the platform introduction post the LICENSE points to (200)

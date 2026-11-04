@@ -1,7 +1,7 @@
 ---
 title: Mini-SWE-agent
 created: 2026-10-10
-updated: 2026-10-28
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, research, swe-bench, minimalism]
 readability: 3
@@ -21,9 +21,9 @@ This is version 2, a rewrite documented in a migration guide from the v1 that fi
 
 ## Status
 
-Active and heavily used, mostly out of sight: 8,907 stars, pushed 2026-10-26, on a repository created 2025-06-28 (GitHub API, as of 2026-10-28), with v2.4.6 (2026-07-23) still the latest release (verified 2026-10-28).
-PyPI counted 11,605,679 downloads in the last month as of 2026-10-28, which is batch-evaluation traffic, not desktop installs.
-The parent `SWE-agent` repository (20,663 stars, last release v1.1.0 in May 2025, default branch pushed 2026-10-26) carries a README notice saying most development effort has moved to mini-swe-agent and recommending it going forward, so the lineage has formally superseded its ancestor even though the maintenance-only parent still sees commits.
+Active and heavily used, mostly out of sight: 8,907 stars, its default branch last committed 2026-09-03 while the repository-level pushed date moves on side branches, on a repository created 2025-06-28 (GitHub API, as of 2026-11-04), with v2.4.6 (2026-07-23) still the latest release (verified 2026-11-04).
+PyPI counted 11,605,679 downloads in the last month as of 2026-11-04, which is batch-evaluation traffic, not desktop installs.
+The parent `SWE-agent` repository (20,663 stars, last release v1.1.0 in May 2025, default branch last committed 2026-07-16, its own pushed date likewise riding side branches) carries a README notice saying most development effort has moved to mini-swe-agent and recommending it going forward, so the lineage has formally superseded its ancestor even though the maintenance-only label understates how quiet the default branch has gone since July.
 The project's news page also claims mini-swe-agent now powers Ramp's SWE-bench harness, which would make it the named harness behind a third-party company's benchmark offering.
 
 <picture>
@@ -68,6 +68,7 @@ Not for daily driving, and not for anyone who needs subagents, MCP, or editor in
 - 2026-10-10 - Created from the awesome-ai-coding-tools scan, admitted as the live carrier of the SWE-agent lineage that its parent repository now supersedes.
 - 2026-10-20 - Rotation re-verification: added the project's claim that it now powers Ramp's SWE-bench harness, and refreshed the push and download windows.
 - 2026-10-28 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the repository and download counters (8,907 stars, pushed 2026-10-26, the parent at 20,663 stars with its maintenance-only pushes continuing) and pointed the Compared-to SWE-agent line at its new note in this category.
+- 2026-11-04 - Rotation re-verification, re-fetching every cited reference (all live), and corrected the liveness reading against the default branch per the pushed-date ruling: mini's own default branch has been quiet since 2026-09-03 and the parent's since 2026-07-16, both repository-level pushed dates having moved on side branches; the release, download, and supersession claims all re-confirmed unchanged.
 
 ## See also
 
@@ -82,9 +83,9 @@ Not for daily driving, and not for anyone who needs subagents, MCP, or editor in
 - https://mini-swe-agent.com/latest/ - the overview: hundred-line pitch, v2, adoption claims, the over-74-percent SWE-bench Verified claim, and the Ramp SWE-bench news item
 - https://mini-swe-agent.com/latest/faq/ - model support through litellm and OpenRouter, API key handling, and the FAQ frame for mini versus SWE-agent
 - https://mini-swe-agent.com/latest/models/local_models/ - local models through litellm `api_base` with the vLLM and Ollama examples
-- https://api.github.com/repos/SWE-agent/mini-swe-agent - 8,907 stars, MIT, created 2025-06-28, pushed 2026-10-26, as of 2026-10-28
+- https://api.github.com/repos/SWE-agent/mini-swe-agent - 8,907 stars, MIT, created 2025-06-28, default branch last committed 2026-09-03, as of 2026-11-04
 - https://api.github.com/repos/SWE-agent/mini-swe-agent/contents/src/minisweagent/agents/default.py - the v2 core agent file at 190 lines, grounding the pitch-drift caution
 - https://api.github.com/repos/SWE-agent/SWE-agent - the ancestor's 20,663 stars and v1.1.0 last release (as of 2026-10-28)
 - https://api.github.com/repos/SWE-agent/SWE-agent/readme - the supersession notice pointing development effort to mini-swe-agent
-- https://pypistats.org/api/packages/mini-swe-agent/recent - 11,605,679 downloads in the last month as of 2026-10-28
+- https://pypistats.org/api/packages/mini-swe-agent/recent - 11,605,679 downloads in the last month as of 2026-11-04
 - https://hn.algolia.com/api/v1/items/44682897 - the 7-point Show HN, cited as the thin independent-footprint signal

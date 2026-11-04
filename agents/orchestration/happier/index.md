@@ -1,7 +1,7 @@
 ---
 title: Happier
 created: 2026-11-01
-updated: 2026-11-03
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, mobile, end-to-end-encryption]
 readability: 3
@@ -24,8 +24,8 @@ By the happier-dev org, repository created 2025-12-16, MIT licensed, docs at doc
 
 ## Status
 
-Active: 2,102 stars, 209 forks, and 212 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-03, with 100-plus releases on parallel dev tracks (ui-web, server, cli) and the train pushing daily.
-The `@happier-dev/cli` npm package has 45 versions (first 2026-02-21), latest 0.2.17, with 3,624 downloads in October 2026.
+Active: 2,102 stars, 209 forks, and 212 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-04, with 100-plus releases on parallel dev tracks (ui-web, server, cli) and the train pushing daily.
+The `@happier-dev/cli` npm package (first version 2026-02-21) is at latest 0.2.20 (npm, as of 2026-11-04), with 3,624 downloads in October 2026.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=happier-dev/happier&type=date&theme=dark&legend=top-left" />
@@ -66,6 +66,7 @@ Not for board-and-worktree workflows, which it does not model, and not for anyon
 ## Changes
 
 - 2026-11-01 - Created.
+- 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04 and the npm CLI latest to 0.2.20.
 
 ## See also
 

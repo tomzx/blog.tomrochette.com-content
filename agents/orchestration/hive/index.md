@@ -1,7 +1,7 @@
 ---
 title: Hive
 created: 2026-10-08
-updated: 2026-11-03
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -23,7 +23,7 @@ It is made by Aden, a five-person San Francisco company from Y Combinator's Wint
 
 ## Status
 
-Active and newly stable: 11,107 stars as of 2026-10-15 on a repository created 2026-01-12, with branches pushed 2026-11-02 (GitHub API, as of 2026-11-03).
+Active and newly stable: 11,107 stars as of 2026-10-15 on a repository created 2026-01-12, with the default branch's latest commit the 2026-11-02 v1.0.14 release commit (GitHub API, as of 2026-11-04).
 The default branch woke on 2026-10-12 with a README documentation merge after a quiet stretch that had run since mid-September, and on 2026-10-14 the release line returned from its five-month stop with v1.0.0, the first stable major, followed the same hour by v1.0.1, v1.0.2, and v1.0.3, with v1.0.4 on 2026-10-16, v1.0.5 through v1.0.8 on 2026-10-17 and 2026-10-18, v1.0.9, v1.0.10, and v1.0.11 on 2026-10-19, and v1.0.12 on 2026-10-24 continuing the train, with v1.0.13 on 2026-10-26 adding queen-to-queen mail (`queen_mail`, letter chains between queens with every hop logged) and a queen that can be Claude Code itself, paid by API key and shown on the org chart, with v1.0.14 on 2026-11-02 continuing the train (GitHub releases, as of 2026-11-03).
 Three contributors dominate the history (about 1,179, 868, and 451 contributions), which matches a five-person company rather than a community.
 
@@ -44,7 +44,7 @@ The name also collides with Apache Hive, Hive OS, and a smart-home product line,
 
 ## Cautions
 
-- The release train stopped at v0.11.0 in May 2026 while trunk commits run monthly, the same ship-without-releasing pattern this category flagged on AgentsMesh.
+- The release train ran dry from May to mid-October 2026 before restarting at v1.0.0, and the restarted cadence is bursty (four releases in one hour, then days of silence), so treat the train as young rather than proven.
 - Three contributors dominate the history, so this is a single company's product with no community governance.
 - Naming costs: the repo is hive, the product is OpenHive or Aden Hive, the company is Aden, and three unrelated Hives own the search results.
 - The adoption record is the star count alone: no independent field reports, and an unresolved December 2025 provenance complaint from the Beads camp sits in the record.
@@ -62,7 +62,7 @@ No price history table until a price is published.
 
 ## Bottom line
 
-**Recommended for teams automating long-running business processes who accept a young, company-driven runtime with a stalled release train.**
+**Recommended for teams automating long-running business processes who accept a young, company-driven runtime with a bursty release train.**
 Not for coding-session orchestration, where the parallel-agent columns are stronger, or for anyone who needs an active release line, community governance, or independent validation.
 My disagreeable claim: **the 11.1k stars measure the colony pitch, not the artifact, because five months without a release, three dominant contributors, and near-zero independent discussion mean the count is riding the multi-agent wave rather than adoption, and I expect it to decouple from usage unless the release train restarts.**
 
@@ -75,6 +75,7 @@ My disagreeable claim: **the 11.1k stars measure the colony pitch, not the artif
 
 - 2026-10-25 - Recorded v1.0.11 (2026-10-19) and v1.0.12 (2026-10-24) on the release train.
 - 2026-10-27 - Recorded v1.0.13 (2026-10-26, queen-to-queen mail and a Claude Code queen on the org chart).
+- 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo, API, releases, docs, the YC page, both HN fetches); v1.0.14 (2026-11-02) confirmed on the default branch itself, and the stalled-train caution retired now that the restarted train has run a month.
 
 ## See also
 

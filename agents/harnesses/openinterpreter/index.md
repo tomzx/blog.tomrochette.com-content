@@ -1,7 +1,7 @@
 ---
 title: Open Interpreter
 created: 2026-09-27
-updated: 2026-11-01
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, harness-emulation]
 readability: 3
@@ -25,7 +25,7 @@ The fork is documented rather than hidden: FORK_BRANDING.md defines the distribu
 
 ## Status
 
-Active and fast-moving again after roughly nineteen quiet months: 68,554 stars, 5,892 forks, and 14 open issues as of 2026-10-12, with pushes continuing through 2026-11-01 (GitHub API), which tells you issue intake is tightly curated.
+Active and fast-moving again after roughly nineteen quiet months: 68,554 stars, 5,892 forks, and 14 open issues as of 2026-10-12, with pushes continuing through 2026-11-04 (GitHub API), which tells you issue intake is tightly curated.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Active and fast-moving again after roughly nineteen quiet months: 68,554 stars, 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&legend=top-left" />
 </picture>
 
-The latest releases are rust-v0.0.57 (published 2026-10-31, validating the maintained Codex 0.159.0 compatibility profile for Open Interpreter model discovery and request admission), then rust-v0.0.56 (published 2026-10-07, adding GPT-6.1 Sol metadata, the current claude-sonnet-5-5 Anthropic choice with existing catalog safeguards, and a fix that rebinds shell-environment values when resuming an eligible idle thread), then rust-v0.0.54 and rust-v0.0.55, both published 2026-09-30: 0.0.54 bundles the maintained Codex 0.156.1 client with GPT-6 Astra, Sol, and Luna metadata and refreshes the Kimi, Qwen, DeepSeek, and Anthropic model catalogs, and 0.0.55 fixes offline model listing for configured non-OpenAI providers, with the 0.0.43 notes still describing the "stable upstream Codex rust-v0.154.0 compatibility baseline" and presets for GLM, Gemini, Claude, and OpenAI IDs.
+The latest releases are rust-v0.0.59 (published 2026-11-04, adding an owner-bound read-only background-terminal status with bounded terminal metrics and fail-closed thread ownership on the app server, with no model-catalog changes), then rust-v0.0.58 (published 2026-11-01, re-validating the maintained Codex 0.159.0 compatibility profile for model discovery and request admission and preserving legacy feedback delivery alongside optional signed attachment uploads), then rust-v0.0.57 (published 2026-10-31, validating the maintained Codex 0.159.0 compatibility profile for Open Interpreter model discovery and request admission), then rust-v0.0.56 (published 2026-10-07, adding GPT-6.1 Sol metadata, the current claude-sonnet-5-5 Anthropic choice with existing catalog safeguards, and a fix that rebinds shell-environment values when resuming an eligible idle thread), then rust-v0.0.54 and rust-v0.0.55, both published 2026-09-30: 0.0.54 bundles the maintained Codex 0.156.1 client with GPT-6 Astra, Sol, and Luna metadata and refreshes the Kimi, Qwen, DeepSeek, and Anthropic model catalogs, and 0.0.55 fixes offline model listing for configured non-OpenAI providers, with the 0.0.43 notes still describing the "stable upstream Codex rust-v0.154.0 compatibility baseline" and presets for GLM, Gemini, Claude, and OpenAI IDs.
 The legacy Python line is stranded: PyPI shows open-interpreter 0.4.3, the last of 130 releases, uploaded 2024-10-26.
 The history matters: a Show HN on 2023-08-30 (82 points), a 117-point thread in November 2023, a 72-point "natural language interface for computers" thread in November 2024, then silence until the relaunch post of 2026-07-13.
 The README now opens by calling the project "a coding agent optimized for low-cost models", with the "Today: Kimi K3 is here" callout (the reimplementation of the provider-recommended Kimi Code harness in Rust) directly below it.
@@ -80,6 +80,7 @@ My disagreeable claim: harness emulation is a configuration layer rather than ne
 - 2026-10-19 - Updated the `/harness` emulation list to the README's current ten profiles, which added claude-code-bare, zcode, and kimi-cli since the last check; all cited URLs re-fetched and live.
 - 2026-10-27 - Rotation re-verification, re-fetching every cited reference (all live): the README's headline changed to "a coding agent optimized for low-cost models" with the Kimi K3 callout retained below it, rust-v0.0.56 remains the newest release, and the push date holds at 2026-10-11.
 - 2026-11-01 - Rotation re-verification, re-fetching every cited reference (all live): recorded the rust-v0.0.57 release (October 31), which validated the maintained Codex 0.159.0 compatibility profile for model discovery and request admission, and refreshed push activity to 2026-11-01.
+- 2026-11-04 - Recorded the rust-v0.0.59 (November 4, an owner-bound read-only background-terminal status with bounded metrics and fail-closed thread ownership, no catalog changes) and rust-v0.0.58 (November 1, the Codex 0.159.0 profile re-validated, legacy feedback delivery preserved alongside optional signed attachment uploads) releases, and refreshed push activity to 2026-11-04.
 
 ## See also
 

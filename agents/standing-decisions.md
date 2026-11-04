@@ -161,6 +161,11 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-11-03 | section-root | the Claude Code context-window doc now organizes compaction survival per mechanism and names idle compaction (a session left idle compacts on its own) | docs fetched 2026-11-03
 - 2026-11-03 | retrieval | Danielskry/Awesome-RAG stays a mapped source: quiet since 2026-10-06 but reachable with entry overlap intact, quiet alone does not meet the staleness bar | the 2026-11-03 handoff re-check fetched the API, commit history, and README
 
+- 2026-11-04 | cross-category | the andyrewlee 2026-11-02 additions of Flue, sandcastle, and Mastra are already-covered listings (withastro/flue a sandboxing member, mattpocock/sandcastle and mastra-ai/mastra orchestration members), closing the 2026-11-03 line's under-report of the source's eight additions | verified in-run against the README entry repositories and membership
+- 2026-11-04 | cross-category | the AMO 2026-11-04 additions resolve with no new rulings: Friday (splashxmoon/friday) is the andyrewlee Friday's second listing and its thin-record below-band rejection carries by mechanism, and SpaceApp's MIT-license update adds no traction or coverage so the thin-record rejection does not reopen | one scan, no new rulings needed
+- 2026-11-04 | cross-category | the stars scan's ydb-platform/nbs rejects on the no-agent-story scope line | network block devices and POSIX filesystem over YDB BlobStorage, storage data-infrastructure with no agent surface (113 stars, C++, Apache-2.0 as of 2026-11-04)
+- 2026-11-04 | assistant-runtimes | openhuman reads 42,530 stars on 2026-11-04, about +89 in four days (about +22 a day, in line with the slowing trend) against OpenClaw's 393,870 | the q13 OpenClaw-class scale trigger stays unfired, openhuman held
+
 ## Standing family rejections
 
 - 2026-10-12 (ruled 2026-10-07) | orchestration | single-vendor agent-building SDKs rejected as SDKs, not multi-agent orchestration systems | openai-agents-python, smolagents, adk-python, semantic-kernel, strands, claude-agent-sdk; microsoft/agent-framework and deepagents held under it, queue q#7 open

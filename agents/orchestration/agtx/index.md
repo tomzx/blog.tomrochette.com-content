@@ -1,7 +1,7 @@
 ---
 title: agtx
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal, worktree, blackboard]
 readability: 3
@@ -24,7 +24,7 @@ By Fynn Fluegge, repository created 2026-02-08, Apache-2.0 licensed.
 
 ## Status
 
-Active but slowing: 1,728 stars, 144 forks, and 28 open issues and pull requests as of 2026-11-01 (GitHub API), last push 2026-10-23, with 27 releases through v1.0.6 on 2026-09-16 and nothing since.
+Active but slowing: 1,728 stars, 144 forks, and 28 open issues and pull requests as of 2026-11-01 (GitHub API), last push 2026-11-03 (no release since v1.0.6 on 2026-09-16).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fynnfluegge/agtx&type=date&theme=dark&legend=top-left" />
@@ -65,6 +65,7 @@ Not for GUI-first users, and not for remote or VPS workflows, which it does not 
 ## Changes
 
 - 2026-11-01 - Created.
+- 2026-11-04 - Status refresh: the push date refreshed to 2026-11-03; the release line still ends at v1.0.6 (2026-09-16).
 
 ## See also
 

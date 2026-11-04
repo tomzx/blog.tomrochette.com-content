@@ -1,7 +1,7 @@
 ---
 title: AgentGrid
 created: 2026-10-02
-updated: 2026-10-27
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, canvas, closed-source]
 readability: 3
@@ -18,16 +18,16 @@ AgentGrid is a closed-source desktop app for macOS, Windows, and Linux that puts
 
 A commercial desktop application built by a two-person team in Vancouver (@0xPaperhead and @yagudaev), distributed as a download with a hosted pricing plan.
 Each space in the title bar binds a project folder and owns a pane layout, so new agents and terminals open in the right working directory.
-It supports Claude Code, Codex, OpenCode, Antigravity, Cursor, Devin, Grok, Kimi, and Pi, enable-and-ordered in settings, and any pane can be an agent, terminal, source-control view, browser, or note.
+It supports eleven harnesses (Claude Code, Codex, OpenCode, Antigravity, Cursor, Devin, Grok, Hermes, Kimi, Pi, and Muse Code), enable-and-ordered in settings, and any pane can be an agent, terminal, source-control view, browser, or note.
+Beta iPhone and Android apps follow and steer sessions away from the desk, and a standalone CLI runs a headless host the desktop app connects to.
 A master (or orchestrator) agent starts workers for focused tasks through AgentGrid's MCP tools, choosing any installed harness and an optional model per role, and agent sessions can launch in their own git worktrees with concurrent launches isolated automatically.
 A built-in source-control view and an agent review bot put worktree state, pull request conversations, and file diffs beside the canvas.
 
 ## Status
 
-Active and fast-moving: v2.9.6 shipped 2026-10-10 (Remote Control from an idle Coordinator over a browser-signed-in Claude account, a second Claude subscription account per setup token, multiple Antigravity accounts, and the browser QA worker retired), after v2.9.5 (2026-10-07, Coordinator runs as a chosen account, PR attribution with a get_pr_cost MCP tool, shared request pricing and ledger types) and v2.9.4 (multi-account-per-harness support and an opt-in performance probe), on top of near-daily releases through September and October.
-The vendor's pricing page, which returned HTTP 500 on 2026-10-03, serves again as of 2026-10-05 with the same Free $0 and Pro $16/month tiers, still serving on 2026-10-07, and the changelog and download page carried v2.9.4 as of 2026-10-07 and v2.9.5 as of 2026-10-08.
-**The community footprint is the weakest part of the story: a Show HN thread from 2026-08-25 that sits at 1 point with 0 comments, no public repository, and a "5,000+ AI builders" community claim that only the vendor's own site corroborates.**
-Treat the traction numbers as marketing until an independent source confirms them.
+Active and fast-moving: the homepage changelog carried v2.9.47 (2026-11-01) as the latest release as of 2026-11-04, on top of near-daily releases through September and October, with mobile apps in beta and a headless standalone CLI added since this note was created.
+The vendor's pricing page serves the same Free $0 and Pro $16/month tiers it served at creation (billed annually, $192/year).
+**The community footprint is the weakest part of the story: a Show HN thread from 2026-08-25 that sits at 1 point with 0 comments, no public repository, and a "1,000+ AI builders" homepage claim that only the vendor's own site corroborates (the homepage said 5,000+ when this note was created), so the traction numbers stay marketing until an independent source confirms them.**
 
 ## Strengths
 
@@ -74,6 +74,7 @@ Not for anyone who requires open source, an auditable supply chain, or pricing t
 - 2026-10-05 - Recorded v2.9.3 (October 4) from the vendor changelog, and re-verified the pricing page serving again with unchanged tiers after the 2026-10-03 HTTP 500.
 - 2026-10-08 - Recorded v2.9.5 (October 7, PR attribution and a get_pr_cost MCP tool) and re-verified the pricing page tiers unchanged.
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (product site, docs, pricing, changelog, the Show HN thread); the vendor pages are client-rendered, so no fresh version or price text is extractable server-side, and the recorded claims keep their as-of dates.
+- 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (product site, docs, pricing, changelog, the Show HN thread); recorded v2.9.47 (2026-11-01) as the changelog's latest, the docs' eleven-harness list adding Hermes and Muse Code, the beta iPhone and Android apps, and the standalone headless CLI, and corrected the vendor community claim to the homepage's current 1,000+ AI builders (it read 5,000+ at creation); pricing tiers unchanged.
 
 ## See also
 

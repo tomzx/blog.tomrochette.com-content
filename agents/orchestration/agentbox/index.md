@@ -1,7 +1,7 @@
 ---
 title: AgentBox
 created: 2026-10-10
-updated: 2026-10-27
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, sandboxing, docker, cloud, checkpoints]
 readability: 3
@@ -67,6 +67,7 @@ My disagreeable claim: **if warm checkpoints work as advertised, the worktree is
 
 - 2026-10-10 - Created from the sandboxing scan's orchestration-fit flag.
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, releases, npm, HN); the repo still quiet since 2026-10-07, npm still 0.33.0, and the docs site at agent-box.sh serving again after the 503s at creation.
+- 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, releases, npm, both HN fetches, the docs site); the repo still quiet since 2026-10-07 and npm still 0.33.0, with the Show HN record and the name collisions unchanged.
 
 ## See also
 

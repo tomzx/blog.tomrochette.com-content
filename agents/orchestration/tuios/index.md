@@ -1,7 +1,7 @@
 ---
 title: tuios
 created: 2026-10-28
-updated: 2026-11-01
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal, go, worktrees]
 readability: 3
@@ -22,7 +22,7 @@ Gaurav Gosain maintains it as a solo project with 5,500-plus commits.
 
 ## Status
 
-Active and fast: 6,175 stars on a repository created 2025-09-06, pushed 2026-11-01, with v0.12.1 (2026-10-31) the latest release after v0.12.0 (2026-10-30) and v0.11.1 (2026-10-26, three reported security advisories fixed plus worktree keys and a new theme) (GitHub API, releases, as of 2026-11-01).
+Active and fast: 6,175 stars on a repository created 2025-09-06, pushed 2026-11-04, with v0.12.1 (2026-10-31) the latest release after v0.12.0 (2026-10-30) and v0.11.1 (2026-10-26, three reported security advisories fixed plus worktree keys and a new theme) (GitHub API, releases, as of 2026-11-01).
 Install paths cover Homebrew, AUR, Nix (including nixpkgs), an install script, and Docker, and the docs site ships an in-browser WebAssembly tour.
 **The adoption-scrutiny gap is the caution: the only HN thread is 5 points from 2025-10-20, so 6.2k stars arrived without a public debate record, and the only third-party echo is a directory's Tool of the Week badge.**
 
@@ -62,6 +62,7 @@ Not for GUI-first teams, and not for anyone whose threat model needs sandboxed i
 
 - 2026-10-28 - Created.
 - 2026-11-01 - Recorded v0.12.1 (2026-10-31) as the latest release.
+- 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v0.12.1 still the latest release.
 
 ## See also
 
