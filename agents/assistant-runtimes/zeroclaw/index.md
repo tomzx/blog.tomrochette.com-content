@@ -1,7 +1,7 @@
 ---
 title: ZeroClaw
 created: 2026-08-27
-updated: 2026-11-01
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, rust, open-source]
 readability: 3
@@ -23,7 +23,7 @@ An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android),
 ## Status
 
 Active and large, but quietly so.
-32,977 stars and 4,976 forks as of 2026-10-14 since creation on 2026-02-13, pushed 2026-11-01 with 1,132 open issues as of 2026-11-01, Apache-2.0/MIT dual licensed.
+32,977 stars and 4,976 forks as of 2026-10-14 since creation on 2026-02-13, pushed 2026-11-03 with 1,156 open issues as of 2026-11-03, Apache-2.0/MIT dual licensed.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ The disagreeable claim I will defend: an assistant you cannot read is safer as a
 - 2026-10-18 - Recorded v0.8.6 (2026-10-18), ending the v0.8.5 hold: a WebAssembly plugin host (binaries about 24 percent larger), fail-closed security defaults (admin-gated pairing codes, authenticated remote connections, opt-in browser automation, allowed-roots confinement for filesystem and Git tools), and refreshed adoption numbers.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, README, the docs book, the archived Android port, the HN thread), v0.8.6 (2026-10-18) confirmed still the latest release, the README's ownership motto and provider/channel/tool counts intact, and the Android port confirmed still archived, with refreshed adoption numbers.
 - 2026-10-28 - Recorded v0.8.7 (2026-10-27, 81 commits from 19 contributors): patched Wasmtime 48.0.7 in the plugin host against published RustSEC advisories, rustls-webpki TLS verification, container images rebuilt without the distrusted emSign chains, five plugin known-issue fixes, and a required rebuild of precompiled plugins, with refreshed adoption numbers.
+- 2026-11-03 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, the docs book, the archived Android port, the HN thread), v0.8.7 (2026-10-27) confirmed still the latest release, the ownership motto, the provider, channel, and tool counts, and the four-opinion philosophy intact, and the Android port confirmed still archived, with refreshed adoption numbers.
 
 ## See also
 

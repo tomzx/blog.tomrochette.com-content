@@ -1,7 +1,7 @@
 ---
 title: Eigent
 created: 2026-08-30
-updated: 2026-11-01
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, multi-agent, open-source]
 readability: 3
@@ -24,7 +24,7 @@ By Eigent AI (EIGENT UK LTD), founded by Guohao Li, who also founded CAMEL-AI; f
 
 ## Status
 
-Active and maturing: 15,523 stars and 1,855 forks as of 2026-10-14, created 2025-07-29, 257 open issues with the last push on 2026-11-01 as of 2026-11-01, v1.0.7 (2026-10-30) the latest release.
+Active and maturing: 15,523 stars and 1,855 forks as of 2026-10-14, created 2025-07-29, 258 open issues with the last push on 2026-11-02 as of 2026-11-03, v1.0.7 (2026-10-30) the latest release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eigent-ai/eigent&type=date&theme=dark&legend=top-left" />
@@ -50,7 +50,7 @@ Active and maturing: 15,523 stars and 1,855 forks as of 2026-10-14, created 2025
 
 ## Pricing
 
-Free: BYOK and local models, 1,000 registration credits, though the pricing page currently carries a notice that free credits for new accounts are temporarily paused while the team addresses recent misuse (as of 2026-10-31).
+Free: BYOK and local models, 1,000 registration credits, though the pricing page currently carries a notice that free credits for new accounts are temporarily paused while the team addresses recent misuse (as of 2026-11-03).
 Plus $19.99/month (2,000 task credits) and Pro $99.99/month (10,000 credits), each after a 7-day free trial shown on the pricing page, with annual billing options now shown (Plus $199.90/year, Pro $999.90/year, both marked 2 months free), Teams coming soon, Enterprise custom with local deployment.
 Ten percent of subscriptions is pledged to CAMEL-AI.org.
 

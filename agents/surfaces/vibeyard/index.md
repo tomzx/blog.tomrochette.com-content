@@ -1,7 +1,7 @@
 ---
 title: Vibeyard
 created: 2026-10-10
-updated: 2026-10-31
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, session-management, open-source]
 readability: 3
@@ -26,7 +26,7 @@ It is an independent one-maintainer project by elirantutia, distributed through 
 
 ## Status
 
-Quiet but shipped: 1,387 stars and 173 forks as of 2026-10-16, created 2026-03-19, released v0.3.4 (2026-07-22) through v0.3.8 (2026-09-03), and neither the repository nor the release train has moved since 2026-09-03, about seven weeks as of this verification.
+Quiet but shipped: 1,387 stars and 173 forks as of 2026-10-16, created 2026-03-19, released v0.3.4 (2026-07-22) through v0.3.8 (2026-09-03), and the release train has not moved since, though the repository woke on 2026-11-01 with an unreleased feature, vibeyard-ctl, opt-in external control that lets outside programs and agents drive the app (issue #168 closed by pull request #169), the maintainer's first push in about eight weeks.
 The only public launch trace is a self-submitted Show HN thread from 2026-04-23 that drew 2 points and zero comments, and no third-party coverage surfaced in this run's search.
 MIT throughout.
 
@@ -46,7 +46,7 @@ MIT throughout.
 
 ## Cautions
 
-- **The seven-week quiet window on both commits and releases is the status question this note cannot answer: one maintainer, no community, no stated roadmap for the pause.**
+- **The release train has been quiet since September 2026 and the November code movement is unreleased: one maintainer, no community, no stated roadmap, so vibeyard-ctl exists as a commit you cannot install.**
 - The community footprint is nearly empty, so nothing independent has exercised the feature claims (the P2P share path and profile isolation especially).
 - It wraps three CLIs and inherits whatever they change; the README itself says more providers are "coming soon", unshipped as of 2026-10-10.
 - MCP and AGENTS.md support are not documented anywhere, so rules and tool servers stay managed inside the CLIs.
@@ -64,7 +64,7 @@ Free and open source under MIT; no paid tier exists.
 
 ## Bottom line
 
-**Recommended for engineers running Claude Code, Codex CLI, or Gemini CLI who want a task board and a cost view above their terminals, and who accept a single-maintainer app that has been quiet since September 2026.**
+**Recommended for engineers running Claude Code, Codex CLI, or Gemini CLI who want a task board and a cost view above their terminals, and who accept a single-maintainer app whose release train has been quiet since September 2026.**
 Not for anyone who needs a currently shipping cockpit (OpenChamber's train is moving), MCP or rules management in the surface, or any cloud and mobile reach.
 
 ## Changes
@@ -72,6 +72,7 @@ Not for anyone who needs a currently shipping cockpit (OpenChamber's train is mo
 - 2026-10-10 - Created from the category entrant scan, admitted on its differentiated kanban-to-session and share mechanisms with the quiet-window caution recorded.
 - 2026-10-20 - Rotation re-verification, all cited URLs re-fetched live: the quiet stands (repository pushed 2026-09-03, release train still ending at v0.3.8, the README's coming-soon providers still unshipped, and the Show HN thread still the only footprint at 2 points and 0 comments); the quiet window reads seven weeks.
 - 2026-10-31 - Rotation re-verification, all cited URLs re-fetched live: the quiet stands (repository still pushed 2026-09-03 and not archived, the release train still ending at v0.3.8, the README unchanged with the coming-soon providers still unshipped, and the HN search still returning the one 2-point Show HN); the quiet window reads about eight weeks.
+- 2026-11-03 - Volatile re-verification on the pushed signal, all cited URLs re-fetched live: the quiet broke on the code side, the repository pushed 2026-11-01 with the unreleased vibeyard-ctl external agent-control feature (pull request #169 closing issue #168), while the release train still ends at v0.3.8 (2026-09-03) and the README still lists the coming-soon providers; the status, cautions, and bottom line rewritten around the quiet train and the unshipped work.
 
 ## See also
 

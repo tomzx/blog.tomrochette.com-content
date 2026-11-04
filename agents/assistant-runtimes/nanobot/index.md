@@ -1,7 +1,7 @@
 ---
 title: Nanobot
 created: 2026-08-30
-updated: 2026-11-01
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 ## Status
 
-One of the fastest adoption curves in the category: 48,998 stars and 8,633 forks as of 2026-10-14, created 2026-02-01, 868 open issues with the last push on 2026-10-31 as of 2026-11-01.
+One of the fastest adoption curves in the category: 48,998 stars and 8,633 forks as of 2026-10-14, created 2026-02-01, 868 open issues with the last push on 2026-11-03 as of 2026-11-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/nanobot&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ Not for production assistants unattended on the open internet, or anyone who nee
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, confirming v0.3.5 (2026-09-15) still the latest release and the Alpha classification current on PyPI, and recording the second maintainer name (Yongru Chen) joining the README's maintainers table and the Teams and Linear channels joining its channel table.
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched live (repo and README, the PyPI registry, the HN thread via Algolia, both comparison-baseline repos), v0.3.5 (2026-09-15) confirmed still the latest release with the Alpha classification current and the two-name maintainers table intact, with refreshed adoption numbers.
 - 2026-10-29 - Recorded v0.4.0 (2026-10-28 on GitHub and PyPI the same day: durable SQLite conversation history and browser transcripts, one opt-in Preview update flow with explicit confirmation, workbench prompt-history navigation and remote instances, Mermaid viewing in the terminal), ending the seven-week release hold, with the Alpha classification confirmed current on PyPI and refreshed adoption numbers.
+- 2026-11-03 - Rotation re-verification: every cited URL re-fetched live (repo and README, the PyPI registry, the HN thread, both comparison-baseline repos), v0.4.0 (2026-10-28) confirmed still the latest release with the Alpha classification current, and the two-name maintainers table and the channel table intact, with refreshed adoption numbers.
 
 ## See also
 

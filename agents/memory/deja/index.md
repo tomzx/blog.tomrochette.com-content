@@ -1,7 +1,7 @@
 ---
 title: deja
 created: 2026-10-10
-updated: 2026-11-01
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, transcripts, retrieval, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Beyond search it adds `deja promote` (curated notes with accepted and rejected l
 ## Status
 
 **Young, fast-moving, and single-maintainer, with adoption ahead of any public discussion.**
-1,206 stars and 120 forks as of 2026-10-16 (GitHub API), created 2026-07-14, pushed 2026-11-01, MIT, with 77 open issues and pull requests as of 2026-10-19 (GitHub API).
+1,206 stars and 120 forks as of 2026-10-16 (GitHub API), created 2026-07-14, pushed 2026-11-03, MIT, with 77 open issues and pull requests as of 2026-10-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,8 @@ Beyond search it adds `deja promote` (curated notes with accepted and rejected l
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.23.3 (2026-10-29), the twelfth of the October train (v0.21.4 through v0.23.3), a small follow-up: `FinalChanges` classifies `*_test.py` files alongside `test_*.py` as tests, so a recalled session's code changes keep library edits ahead of test edits, and scratch `*_test.py` files written outside a test directory are left out.
+Latest release v0.23.5 (2026-11-03). v0.23.4 (2026-11-01) shipped the tracked post-v0.23.3 train and added reverse commit attribution (`deja origin` traces a commit back to the coding-agent session and user prompt that produced it across all 43 harnesses), shell-layer recall (`deja shell` for agents whose MCP or hook channel is absent or broken), and full CJK recall and decision extraction parity.
+v0.23.5 adds a status-bar extension for VS Code, Cursor, Windsurf, and Antigravity (`vshulcz.deja-status`, a live session-memory counter that runs `deja stats` or `deja install --auto` on click), a Raycast extension with Search and Recent Sessions commands, and a standalone `deja-reflect` end-of-session skill, with recalled user lines and rules sync now requiring confirmation in the Claude Code and Codex plugins.
 v0.23.1 halves the cold-build peak again (4.7 GB instead of 9.4 GB on a 40,000-session store), cuts redaction CPU 17x with the same output, and fixes a quadratic slowdown a search over many look-alike sessions hit; it adds MiniMax Code as the forty-third wired harness, project aliases in `~/.config/deja/projects` that name a directory tree as one project so every checkout and worktree under it shares one scope, and `deja search --sort date`.
 v0.23.0 makes big stores cheap to keep current: an update pass appends the records of rewritten sessions instead of rewriting the whole log and reads only what changed, cutting a 20-transcript update from 24 seconds to 1.7 and peak memory from 7 GB to under 1 GB on a 40,000-session store, and a common-word search answers in about a second instead of 24; it treats sub-agents as sessions of their own in every reader that marks one, forks no longer take credit for what they copied, and recalled history can no longer run a command in opencode or end a dsh turn, with the index rebuilt once on upgrade and `DEJA_NO_AUTO_INDEX` plus `DEJA_SEARCH_ONLY` for busy machines.
 v0.22.1 makes session playback show the code each edit changed, line by line, for Claude Code, Codex, and every harness whose transcript holds its edit calls, adds `deja resume <id> --app` to open a Codex session in the ChatGPT desktop app, cuts session start to 0.38 seconds and the per-prompt hook to 0.59 seconds on a 19,000-session index (from 1.46 and 1.65), masks secrets that slipped past redaction, and moves the index version to 70, so the store rebuilds once on the first run after upgrading.
@@ -84,6 +85,7 @@ Not for teams needing multi-user memory, audited third-party evaluation, or reca
 - 2026-10-29 - The tracked train shipped as v0.23.2 (October 28), with additions: recall twice as fast and the index a third smaller on a 19,000-session store (MCP recall p50 170 to 85 ms, index 277 to 185 MB, LongMemEval-S 88.1 to 88.9), receipts provenance labeling (who wrote each line, the command or edit behind a model conclusion, instructions no person typed cut), recalled rules demoted to untrusted reference data, subagent recall injection stopped after a 60-day zero-use measurement, Qwen Code's External Context MCP profile, a Cursor marketplace plugin, and DEJA_RECALL_GLOBAL.
 - 2026-10-30 - Recorded v0.23.3 (October 29): test-file classification in FinalChanges, so library edits sort ahead of `*_test.py` edits in recalled code changes and scratch test files outside a test directory are excluded.
 - 2026-11-01 - Recorded the unreleased post-v0.23.3 main-branch train (2026-10-30 through 11-01): recall surfaces compact diff hunks when queries match edited symbols and promotes hits covering missing query terms, vector-only sidecar hits fuse into the ranking through RRF, shared group-writable index permissions plus multi-home discovery via DEJA_HOME_ROOTS, install shows a live project recall preview, doctor checks repo rule drift, handoff carries touched files and the last failed command, and edits advise on tightly co-modified companion files; the push date refreshed to 2026-11-01.
+- 2026-11-03 - Recorded v0.23.4 (November 1, shipping the tracked train plus reverse commit attribution via `deja origin` across 43 harnesses, shell-layer recall via `deja shell`, and full CJK recall parity) and v0.23.5 (November 3, a status-bar extension for VS Code, Cursor, Windsurf, and Antigravity, a Raycast extension, and the standalone deja-reflect skill, with recalled user lines and rules sync requiring confirmation); the push date refreshed to 2026-11-03.
 
 ## See also
 
@@ -97,7 +99,7 @@ Not for teams needing multi-user memory, audited third-party evaluation, or reca
 
 - https://github.com/vshulcz/deja-vu - repository, MIT, 1,169 stars, 112 forks, 11 open issues and PRs, created 2026-07-14, pushed 2026-10-10, as of 2026-10-11
 - https://raw.githubusercontent.com/vshulcz/deja-vu/main/README.md - architecture, the 42-harness support matrix, the single-tool MCP surface, redaction, promote lifecycle, sync, install paths, and the comparison table
-- https://api.github.com/repos/vshulcz/deja-vu/releases - the release train through v0.22.2 (2026-10-17)
+- https://api.github.com/repos/vshulcz/deja-vu/releases - the release train through v0.22.2 (2026-10-17), re-fetched 2026-11-03 through v0.23.5
 - https://api.github.com/repos/vshulcz/deja-vu/license - the MIT license file, verified through the GitHub API
 - https://vshulcz.github.io/deja-vu/ - the docs site: the 41-harness list, the no-capture positioning, and the per-harness memory guides
 - https://vshulcz.github.io/deja-vu/guide/benchmarks.html - LongMemEval-S 88.1 percent cleaned-set hit@1, LoCoMo 70.5 percent retrieval-only hit@1, the committed run artifacts, the rival-submission format, and the self-critical readings

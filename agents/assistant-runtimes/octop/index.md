@@ -1,7 +1,7 @@
 ---
 title: Octop
 created: 2026-10-07
-updated: 2026-11-01
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, python, self-hosted, open-source]
 readability: 3
@@ -26,7 +26,7 @@ It is published under the TencentCloud GitHub org and built from four focused su
 
 ## Status
 
-Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three months as of 2026-10-14 (created 2026-07-08), 799 open issues with the last push on 2026-11-01 as of 2026-11-01, MIT.
+Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three months as of 2026-10-14 (created 2026-07-08), 791 open issues with the last push on 2026-11-03 as of 2026-11-03, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/Octop&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three m
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TencentCloud/Octop&type=date&legend=top-left" />
 </picture>
 
-The beta line ended the way it should: v1.0.2, the first stable release on GitHub, published 2026-10-18 and uploaded to PyPI the same day, after the v1.0.2b4-through-b9 prerelease run (2026-09-27 through 2026-10-17) that PyPI tracked in parallel, and the v1.0.3 line opened as a beta on 2026-10-25 (v1.0.3b1, on GitHub and PyPI the same day: a default expert created alongside each new user, and permissions split per page tab), with the README carrying a Trendshift trending badge.
+The beta line ended the way it should: v1.0.2, the first stable release on GitHub, published 2026-10-18 and uploaded to PyPI the same day, after the v1.0.2b4-through-b9 prerelease run (2026-09-27 through 2026-10-17) that PyPI tracked in parallel, and the v1.0.3 line opened as a beta on 2026-10-25 (v1.0.3b1, on GitHub and PyPI the same day: a default expert created alongside each new user, and permissions split per page tab), with v1.0.3b2 extending that line on 2026-11-02 (TOTP and passkey sign-in beside passwords, a RagFlow knowledge-base connector, and chat and session fixes), and the README carrying a Trendshift trending badge.
 
 **The adoption curve is the fastest first quarter in this category after the 2026 wave, and the scrutiny record is the exact AstrBot profile at a third of the age: one 1-point Hacker News thread, zero English-language technical coverage, so the vetting so far has happened in Chinese-language channels you are probably not reading.**
 
@@ -79,6 +79,7 @@ The disagreeable claim I will defend: multi-user is the assistant category's nex
 - 2026-10-19 - Recorded v1.0.2 (2026-10-18), the first stable release, published on GitHub and uploaded to PyPI the same day, graduating the beta line, with refreshed adoption numbers.
 - 2026-10-25 - Recorded v1.0.3b1 (2026-10-25, a default expert at user creation, permissions split per page tab) opening the v1.0.3 line on GitHub and PyPI the same day, with refreshed adoption numbers.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live (repo and README, the releases API, the PyPI registry, the octop-harness sub-repo, the HN thread, the Trendshift page), v1.0.3b1 (2026-10-25) confirmed still the newest release with the PyPI stable channel at 1.0.2, and the open issues-and-PRs count refreshed to 789.
+- 2026-11-03 - Recorded v1.0.3b2 (2026-11-02, GitHub and PyPI the same day: TOTP and passkey sign-in beside passwords, a RagFlow knowledge-base connector, and chat and session fixes) extending the v1.0.3 beta line, with refreshed adoption numbers.
 
 ## See also
 

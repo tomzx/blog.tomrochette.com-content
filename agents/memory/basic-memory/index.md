@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-10-30
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -17,7 +17,7 @@ Basic Memory is an AGPL-3.0 local-first knowledge base for AI agents: a Python M
 
 ## What it is
 
-A Python MCP server from Basic Machines (PyPI basic-memory 0.24.1, Python 3.12+), usable from any MCP client: Claude, Codex, Cursor, ChatGPT.
+A Python MCP server from Basic Machines (PyPI basic-memory 1.0.0, Python 3.12+), usable from any MCP client: Claude, Codex, Cursor, ChatGPT, with a Hermes Agent memory-provider plugin in the repository's integrations directory.
 Notes are Obsidian-compatible markdown with observations and wikilinks that compound into a knowledge graph.
 Search is semantic with optional cross-encoder reranking for hybrid and vector results.
 Every tool is tagged with behavior hints (read-only, destructive, idempotent) for progressive tool discovery, so agents pick the right tool without probing.
@@ -26,7 +26,7 @@ The cloud adds cross-device sync, browser and mobile access, and a shared Teams 
 ## Status
 
 **Active and mid-scale, with a thin public-discussion footprint.**
-4,237 stars with the repository pushed 2026-10-20, created 2024-12-02, as of 2026-10-20 (GitHub API).
+4,237 stars with the repository pushed 2026-11-02, created 2024-12-02, as of 2026-11-03 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&theme=dark&legend=top-left" />
@@ -37,6 +37,7 @@ The cloud adds cross-device sync, browser and mobile access, and a shared Teams 
 The registry-lag record ended: PyPI moved to 0.24.1 on 2026-10-23, in sync with the repository's tagged releases, after two months pinned at 0.23.2.
 **The 1.0 line shipped as v1.0.0 on 2026-10-29, with PyPI in sync**: the MCP server's tools are replaced one for one by bm_* tools (bm_read, bm_write, bm_edit, bm_move, bm_delete, bm_search, bm_find, bm_list, bm_context, bm_project, bm_project_delete, bm_schema) with changed arguments, shared parameter types, and typed error refusals, note and search tools require an explicit project in multi-project setups, and the line adds bm doctor, a read-only self-test that reports real-project problems with the fixing command, plus a memory-doctor skill that teaches an agent to run it; the release also refuses note creates and updates whose path leaves the project.
 The Hacker News record is a 4-point Show HN in March 2025 (0 comments) and a 2-point third-party story in February 2026, so the 4.1k stars came through the MCP-ecosystem channels (registry listings, Discord) rather than public debate.
+The post-1.0 fix train (2026-11-01 and 02) speeds the file-conflict check with two indexed columns (one query instead of a per-project scan on every write), stops a folder named like the project from colliding with its root note's permalink, refuses note moves onto paths equivalent to another note (case and Unicode twins), and conforms the Hermes Agent memory-provider plugin to Hermes v0.22's provider contract (inline capture on Hermes's worker thread, per-profile provider instances, and a new transcript note per session switch linked by a continues relation).
 
 ## Strengths
 
@@ -88,6 +89,7 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 - 2026-10-24 - Correction: the registry-lag record ended, PyPI moved to 0.24.1 on 2026-10-23 in sync with the repository's v0.24.1 tag, after two months pinned at 0.23.2.
 - 2026-10-27 - Recorded the unreleased 1.0 line accumulating on main: the bm_* MCP tool replacement with typed refusals, explicit project arguments in multi-project setups, and the bm doctor self-test with its memory-doctor skill, published in the changelog's Unreleased section with a working migration guide and not yet in a release.
 - 2026-10-30 - Recorded the v1.0.0 release (October 29, PyPI in sync): the bm_* tool line shipped as prepared, with shared parameter types and refusals for the bm_* tools and a fix refusing note writes whose path leaves the project.
+- 2026-11-03 - Recorded the post-1.0 fix train (November 1 and 2): indexed file-conflict lookups, the folder-named-like-the-project permalink fix, note-move rejections on equivalent paths, and the Hermes plugin conformed to Hermes v0.22's provider contract (inline ordered capture, per-profile providers, session-switch notes); the PyPI figure in the opening moved to 1.0.0 and the push date refreshed to 2026-11-02.
 
 ## See also
 

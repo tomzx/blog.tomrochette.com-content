@@ -1,7 +1,7 @@
 ---
 title: LangBot
 created: 2026-10-30
-updated: 2026-11-01
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, chat-channels, plugins, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Created 2022-12-07, one day before AstrBot, and now maintained under the langbot
 
 ## Status
 
-Active and steady: 18,601 stars and 1,676 forks as of 2026-10-30, created 2022-12-07, 138 open issues with the last push on 2026-11-01 as of 2026-11-01, Apache-2.0.
+Active and steady: 18,601 stars and 1,676 forks as of 2026-10-30, created 2022-12-07, 135 open issues with the last push on 2026-11-03 as of 2026-11-03, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langbot-app/LangBot&type=date&theme=dark&legend=top-left" />

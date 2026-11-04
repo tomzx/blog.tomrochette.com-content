@@ -1,7 +1,7 @@
 ---
 title: Hindsight
 created: 2026-10-07
-updated: 2026-11-01
+updated: 2026-11-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, benchmarks, open-source]
 readability: 3
@@ -27,7 +27,7 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
 ## Status
 
 **Active and suddenly large: 50,146 stars rank it third in this category behind claude-mem and mem0, on a repository that is barely a year old.**
-50,146 stars as of 2026-10-28 (GitHub API), created 2025-10-30, with the repository pushed 2026-11-01, as of 2026-11-01 (GitHub API).
+50,146 stars as of 2026-10-28 (GitHub API), created 2025-10-30, with the repository pushed 2026-11-02, as of 2026-11-03 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&theme=dark&legend=top-left" />
