@@ -1,7 +1,7 @@
 ---
 title: CodeRabbit
 created: 2026-08-30
-updated: 2026-10-31
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -81,12 +81,13 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 - 2026-10-16 - Rotation re-verification: added the Engineer on-demand product (Slack-driven coding tasks and automations) to the surface inventory; every cited URL re-fetched live, all prices unchanged.
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched live, all prices unchanged (Essentials $24, Team $48, Advanced $72 annual, $0.40 agent minute), homepage claims (17K customers, 6M repositories) still displayed; added the Grok Build Plugin Marketplace and Cursor Origin marketplace distributions from the vendor's October 21 to 22 posts.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live; prices unchanged (Essentials $24, Team $48, Advanced $72 annual, $0.40 agent minute) and the homepage claims (17K customers, 6M repositories) still displayed; no factual drift.
+- 2026-11-05 - Pointed the See-also matrix link at the Code Review Feature Matrix; its line described the category matrix this note joins but linked the evaluation-review one.
 
 ## See also
 
 - [Greptile](../greptile/index.md) - the closest hosted rival and its learned-rules counter-bet
 - [OpenCodeReview](../open-code-review/index.md) - the self-hosted, license-zero end of the same category
-- [Evaluation and Review Feature Matrix](../../evaluation-review/evaluation-review-feature-matrix/index.md) - the category matrix this note joins
+- [Code Review Feature Matrix](../code-review-feature-matrix/index.md) - the category matrix this note joins
 - [Rethinking Code Review in the Age of LLMs](../../../rethinking-code-review-in-the-age-of-llms/index.md) - the corpus essay on what review means when agents write the code
 - [You Cannot Out-Review a Machine by Hand](../../../you-cannot-out-review-a-machine-by-hand/index.md) - why the review queue needed automation in the first place
 

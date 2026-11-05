@@ -1,7 +1,7 @@
 ---
 title: DeepAnalyze
 created: 2026-10-10
-updated: 2026-10-26
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, agentic-llm, data-science, open-source]
 readability: 3
@@ -25,7 +25,7 @@ It served as the official agent for the 2026 China Collegiate Computer Design Co
 
 ## Status
 
-Active: 4,714 stars as of 2026-10-15, 746 forks, created 2025-10-11, last push 2026-10-13 (a README news update), as of 2026-10-25.
+Active: 4,714 stars as of 2026-10-15, 746 forks, created 2025-10-11, last push 2026-11-02 (a merged README overhaul: the project promotes DeepAnalyze.net and its sponsors, restores the 1080p 60fps promotional video, and swaps an unavailable CLI video for usage examples), as of 2026-11-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ruc-datalab/DeepAnalyze&type=date&theme=dark&legend=top-left" />

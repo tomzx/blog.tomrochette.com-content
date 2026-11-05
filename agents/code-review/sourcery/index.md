@@ -1,7 +1,7 @@
 ---
 title: Sourcery
 created: 2026-08-30
-updated: 2026-10-25
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -21,7 +21,7 @@ IDE surfaces cover PyCharm, VS Code, Sublime, and Vim, a wider editor spread tha
 
 ## Status
 
-**Old by category standards (repo since July 2019), active, and mid-size: 1,875 stars as of 2026-10-11, commits as recent as October 20, 2026.**
+**Old by category standards (repo since July 2019), active on the product side, and mid-size: 1,875 stars as of 2026-10-11, though the repo itself has quieted, main's latest commit being September 17, 2026, the same day PyPI shipped 1.46.0, while the pushes recorded after that (October 20, October 22, most recently November 5) all landed on side branches and GitHub carries a 1.46.1 beta series (through v1.46.1b7, September 24) that has not shipped to PyPI.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sourcery-ai/sourcery&type=date&theme=dark&legend=top-left" />
@@ -30,7 +30,7 @@ IDE surfaces cover PyCharm, VS Code, Sublime, and Vim, a wider editor spread tha
 </picture>
 
 The PyPI package confirms the refactoring origin ("Magically refactor Python", 23 releases, now at 1.46.0).
-The homepage repositioned around "Perfectionist AI code review" as of 2026-10-25, claiming it "finds more issues than any other AI reviewer" (a vendor claim with no published method) and showing a wall of open-source catches (Presto, Nuitka, django CMS, kubevirt) with the U.S. Department of Justice on the customer strip.
+The homepage repositioned around "Perfectionist AI code review" as of 2026-10-25, claiming it "finds more issues than any other AI reviewer" (a vendor claim with no published method) and showing a wall of open-source catches (Presto, Nuitka, django CMS, kubevirt); the customer strip has since grown to eight logos, Red Hat and the Linux Foundation beside the U.S. Department of Justice, as of 2026-11-05.
 Funding: not verifiable from primary sources, and TechCrunch's only "Sourcery" rounds belong to the unrelated 2014/2016 restaurant startup, so I record none.
 The community footprint is modest: a 15-point Show HN for the refactoring era (27760608, July 7, 2021), a 3-point user comparison against Copilot (43944576, May 10, 2025), and a 1-point criticism thread (44224690, June 9, 2025) accusing the reviewer of being wrong and refusing to admit it.
 
@@ -82,6 +82,7 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 - 2026-10-07 - Added the sourcery-ai/sourcery star history chart to the Status section.
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, all prices and tier contents unchanged, and the repo's latest push moved to October 16.
 - 2026-10-25 - Rotation re-verification: recorded the homepage's new Perfectionist positioning with its finds-more-issues claim and open-source catch wall, auto-approval of low-risk PRs, the SOC 2 Type II compliance statement, and the docs' concrete usage caps (diff-character budget, five automatic re-reviews per PR); every cited URL re-fetched live, prices, tiers, and the release state unchanged (pushed October 22, PyPI at 1.46.0).
+- 2026-11-05 - Rotation re-verification: every cited URL re-fetched live; prices, tiers, the FAQ's usage caps, and the PyPI state all unchanged (1.46.0 still latest, 23 releases); corrected the repo-liveness evidence (main quiet since September 17, the later pushed dates side branches, the 1.46.1 beta series unreleased on PyPI) and recorded the homepage customer strip growing to eight logos with Red Hat and the Linux Foundation beside the Department of Justice.
 
 ## See also
 
@@ -93,11 +94,11 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 
 ## References
 
-- https://github.com/sourcery-ai/sourcery - repo, 1,875 stars, MIT, pushed October 20, 2026 (GitHub API, as of 2026-10-11; re-checked 2026-10-20, 2026-10-22, and 2026-10-25, the latest push still October 22 and PyPI still at 1.46.0)
-- https://sourcery.ai/ - product page, re-fetched 2026-10-17 and 2026-10-25 (the Perfectionist positioning, auto-approve, and SOC 2 Type II statement are new on the later fetch)
-- https://sourcery.ai/pricing/ - tiers as of 2026-10-11, re-fetched unchanged 2026-10-17 and 2026-10-25
-- https://docs.sourcery.ai/reference/faq/ - docs FAQ covering plans, security scanning, BYO LLM, self-hosting (the former Product/Plans page redirects here), re-fetched 2026-10-17 and 2026-10-25 (the diff-character budget and the five-re-review cap are new on the later fetch)
-- https://pypi.org/pypi/sourcery/json - the Python refactoring package, "Magically refactor Python", 23 releases, re-fetched 2026-10-17 and 2026-10-25 (unchanged)
-- https://hn.algolia.com/api/v1/items/27760608 - Show HN for the refactoring era, 15 points, July 7, 2021, re-fetched 2026-10-17 and 2026-10-25
-- https://hn.algolia.com/api/v1/items/43944576 - user comparison of Sourcery vs Copilot, 3 points, May 10, 2025, re-fetched 2026-10-17 and 2026-10-25
-- https://hn.algolia.com/api/v1/items/44224690 - critical thread, 1 point, June 9, 2025, re-fetched 2026-10-17 and 2026-10-25
+- https://github.com/sourcery-ai/sourcery - repo, 1,875 stars, MIT, pushed_at November 5, 2026 on side branches, main's latest commit September 17, 2026 (GitHub API, as of 2026-10-11; re-checked 2026-10-20, 2026-10-22, 2026-10-25, and 2026-11-05)
+- https://sourcery.ai/ - product page, re-fetched 2026-10-17, 2026-10-25, and 2026-11-05 (the Perfectionist positioning, auto-approve, and SOC 2 Type II statement stand; the customer strip grew to eight logos with Red Hat and the Linux Foundation on the later fetch)
+- https://sourcery.ai/pricing/ - tiers as of 2026-10-11, re-fetched unchanged 2026-10-17, 2026-10-25, and 2026-11-05
+- https://docs.sourcery.ai/reference/faq/ - docs FAQ covering plans, security scanning, BYO LLM, self-hosting (the former Product/Plans page redirects here), re-fetched 2026-10-17, 2026-10-25, and 2026-11-05 (the diff-character budget and the five-re-review cap stand)
+- https://pypi.org/pypi/sourcery/json - the Python refactoring package, "Magically refactor Python", 23 releases, still at 1.46.0 (September 17, 2026), re-fetched 2026-10-17, 2026-10-25, and 2026-11-05
+- https://hn.algolia.com/api/v1/items/27760608 - Show HN for the refactoring era, 15 points, July 7, 2021, re-fetched 2026-10-17, 2026-10-25, and 2026-11-05
+- https://hn.algolia.com/api/v1/items/43944576 - user comparison of Sourcery vs Copilot, 3 points, May 10, 2025, re-fetched 2026-10-17, 2026-10-25, and 2026-11-05
+- https://hn.algolia.com/api/v1/items/44224690 - critical thread, 1 point, June 9, 2025, re-fetched 2026-10-17, 2026-10-25, and 2026-11-05

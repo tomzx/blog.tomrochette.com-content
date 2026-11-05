@@ -1,7 +1,7 @@
 ---
 title: Arbor
 created: 2026-10-12
-updated: 2026-10-29
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, hypothesis-tree, held-out-validation, multi-agent, open-source]
 readability: 3
@@ -23,7 +23,7 @@ The README's worked example: a six-cycle run moved a dev speedup from 1.01x to 7
 
 ## Status
 
-Active-adjacent and early: 1,106 stars, created 2026-05-31, last pushed 2026-09-08, with the release train paused at v0.1.4 since 2026-07-12, as of 2026-10-28.
+Active-adjacent and early: 1,106 stars, created 2026-05-31, last pushed 2026-11-03 (a three-change batch preserving tool exchanges during compaction, skipping empty Claude replies in conversation history, and merging a September 19 external contribution adding Serply as an optional Google Scholar search backend), with the release train paused at v0.1.4 since 2026-07-12, as of 2026-11-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=RUC-NLPIR/Arbor&type=date&theme=dark&legend=top-left" />

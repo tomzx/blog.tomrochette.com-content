@@ -1,7 +1,7 @@
 ---
 title: AutoSci
 created: 2026-10-11
-updated: 2026-10-30
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, research-wiki, memory, multi-harness, open-source]
 readability: 3
@@ -27,7 +27,7 @@ The README traces the project to an earlier OmegaWiki prototype and invokes Karp
 Active and beta: 1,698 stars as of 2026-10-11, 214 forks, created 2026-04-09, last pushed 2026-10-30 (another WeChat-group QR refresh), as of 2026-10-30.
 The repository now lives under the PKU-DAIR organization, the Peking University Data and Intelligence Research lab whose senior author Bin Cui leads it; the old skyllwt URLs redirect and the README still points at them.
 Since the note's creation the README also grew a works-produced section listing three papers generated end to end with the platform (Triton GPU-kernel optimization, PROTAC drug-discovery target nomination, and an LLM positivity-bias cognitive-model study).
-No GitHub releases and no relevant Hacker News threads surfaced this run; the README calls the project an internal beta shaped by community feedback.
+No GitHub releases and no relevant Hacker News threads surfaced this run; the README calls the project an internal beta guided by community feedback.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PKU-DAIR/AutoSci&type=date&theme=dark&legend=top-left" />
@@ -69,6 +69,7 @@ Not for anyone needing a stable release: all three builds are beta, and the Open
 
 - 2026-10-11 - Created.
 - 2026-10-25 - Volatile re-verification: recorded the repository's October transfer from the skyllwt personal account into the PKU-DAIR organization (Bin Cui's Peking University DAIR lab), the October 21 push, the chart's move to the canonical PKU-DAIR path, and the README's new works-produced section with three sample papers.
+- 2026-11-05 - Reworded the internal-beta sentence (banned-term cleanup); the October 30 WeChat QR push remains the repository's newest main commit.
 
 ## See also
 

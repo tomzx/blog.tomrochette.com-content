@@ -1,7 +1,7 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-10-31
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 
 ## Status
 
-Growing absurdly fast for its age: 126,981 stars as of 2026-10-16 and 2,675 commits in about six months since 2026-04-03, latest release v0.9.99 on 2026-10-30, with 357 contributors as of 2026-10-31.
+Growing absurdly fast for its age: 126,981 stars as of 2026-10-16 and 2,831 commits in about six months since 2026-04-03, latest release v0.9.102 on 2026-11-03, with 369 contributors as of 2026-11-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Graphify-Labs/graphify&type=date&theme=dark&legend=top-left" />
@@ -49,7 +49,7 @@ The ecosystem is growing too: a third-party C# port, graphify-csharp, launched S
 
 - The benchmarks are self-published, and on the headline QA-accuracy metric graphify trails supermemory while winning on cost and recall, per its own BENCHMARKS.md.
 - Only code is local: docs, PDFs, and images are sent to whatever LLM backend is configured.
-- Pre-1.0 with 1,644 open issues and PRs as of 2026-10-31, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
+- Pre-1.0 with 1,629 open issues and PRs as of 2026-11-05, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
 - The free CLI is the top of an open-core funnel into a hosted product whose plans only recently gained public prices, so expect the monetization strategy to keep moving.
 
 ## Pricing
@@ -106,6 +106,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - 2026-10-24 - Recorded releases v0.9.94 (2026-10-22) and v0.9.95 (2026-10-23), a two-release security pass (ingestion rejecting malformed hosts, ports, and embedded credentials and no longer following dangling symlinks; skill installs writing through randomly named temp files so a pre-planted symlink cannot redirect them, plus type-alias extraction in four languages) and refreshed the volatile numbers (2,539 commits, 342 contributors, 1,606 open issues and PRs); hosted plans re-verified unchanged against the live pricing page and the full plan index.
 - 2026-10-27 - Recorded release v0.9.96 (2026-10-26: a dependency security pass raising the Pillow floor to 13.0.0+ on Python 3.11+ and pypdf to 6.19.0+ to clear the bulk of the open Dependabot advisories, plus an 18-PR backlog batch of extraction and watch fixes) and refreshed the volatile numbers (2,584 commits, 350 contributors, 1,652 open issues and PRs); hosted plans re-verified unchanged against the live pricing page.
 - 2026-10-31 - Recorded releases v0.9.98 and v0.9.99 (both 2026-10-30: collapsed duplicate edges keep their weaker provenance in an `also_seen` list instead of discarding it, and equal-length paths now resolve to the most conservative route, whose summary names its weakest hop, with `confidence_score` printed in path, explain, and neighbors output) and refreshed the volatile numbers (2,675 commits, 357 contributors, 1,644 open issues and PRs); hosted plans re-verified unchanged against the live pricing page.
+- 2026-11-05 - Recorded the v0.9.100 to v0.9.102 train (2026-11-01 to 2026-11-03: node-id collisions fixed for names differing only in case, a resolution-accuracy and cache-correctness pass across C++, Rust, Python, and Go, and a large correctness and performance release spanning call resolution, the query layer, incremental update, hooks, and the skill runbook) and refreshed the volatile numbers (2,831 commits, 369 contributors, 1,629 open issues and PRs); hosted plans re-verified unchanged against the live pricing page.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Agon
 created: 2026-09-27
-updated: 2026-10-31
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, automated-research, multi-agent, autonomous-research, claude-code]
 readability: 3
@@ -34,6 +34,7 @@ Active and small: 54 stars as of 2026-10-11, 5 forks, 2 open issues, 76 commits,
 
 The companion arXiv paper ([2606.24177](https://arxiv.org/abs/2606.24177)) was submitted 2026-06-23 and reports 444 iterations of Prompt Economy loops across more than ten scientific domains, thousands of scientist-coder-auditor iterations over three months, and a longest uninterrupted run the project page puts at 30 days.
 **That adoption record is self-reported by the authors with no independent replication, and the public community footprint is essentially absent: an HN Algolia search for Agon autonomous research returns zero hits as of 2026-10-02.**
+The AutoResearch-Factory org ships three more instruments beside Agon, surfaced by the AI4Scientist list: the AutoSR symbolic-regression plugin and the AgonAlpha alpha-mining loop on WorldQuant BRAIN fold here as vendor siblings (4 and 10 stars as of 2026-11-05), while the SciPIvot benchmark of principal-investigator judgment calls (14 stars) is benchmark-kind, not a research loop.
 
 ## Strengths
 
@@ -73,6 +74,7 @@ Not for anyone who needs a supported product, formal guarantees, or verified ben
 - 2026-09-27 - Created.
 - 2026-10-07 - Added the AutoResearch-Factory/Agon star history chart to the Status section.
 - 2026-10-13 - Harmonized the cautions' star count with the Status line (54, as of 2026-10-11).
+- 2026-11-05 - Rotation re-verification: all seven references re-fetched and current, with no push since October 6 and the HN footprint still at zero hits; folded the AutoResearch-Factory siblings AutoSR and AgonAlpha into the note as ecosystem evidence (SciPIvot routed as benchmark-kind).
 
 ## See also
 

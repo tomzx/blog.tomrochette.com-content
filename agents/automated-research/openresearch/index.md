@@ -1,7 +1,7 @@
 ---
 title: OpenResearch
 created: 2026-10-05
-updated: 2026-10-31
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, autoresearch, multi-agent, alphaXiv]
 readability: 3
@@ -24,7 +24,7 @@ The agent-facing surface is first-class: `orx install-skills` installs a skill i
 
 ## Status
 
-Active and fast-moving: 7,234 stars as of 2026-10-21, 507 forks, 109 open issues and pull requests, created 2026-06-07, last pushed 2026-10-31, with v0.2.23 (October 31) the latest stable release, a 32-commit October 28-30 train (native skill discovery for every supported agent, openresearch:// deep links opening in the Windows and Linux apps, keyboard navigation and application menus, a shared Base UI dialog system, Claude subprocesses identifying as openresearch, oh-my-pi joining the preconfigured coding agents, and desktop polish from traffic-light alignment to a standard Windows folder picker), and a canary prerelease channel live, following v0.2.22 (October 28) and v0.2.21's October Trackio widening to Spaces, Hugging Face runs, and orx metrics and the configurable remote storage root, as of 2026-10-31.
+Active and fast-moving: 7,234 stars as of 2026-10-21, 507 forks, 109 open issues and pull requests, created 2026-06-07, last pushed 2026-11-05, with v0.2.24 (November 4) the latest stable release, and main's November 4-5 commits rewriting the experiment engine (#862), reworking how subagents work (#885), rebuilding the composer with an in-app remote-machine switcher and screen-reader navigation for long chats, preserving chat context across agent switches, and spawning every binary the way a terminal would, and a canary prerelease channel live, following v0.2.23's (October 31) 32-commit October 28-30 train (native skill discovery for every supported agent, openresearch:// deep links opening in the Windows and Linux apps, keyboard navigation and application menus, a shared Base UI dialog system, Claude subprocesses identifying as openresearch, oh-my-pi joining the preconfigured coding agents, and desktop polish from traffic-light alignment to a standard Windows folder picker), and v0.2.22 (October 28) and v0.2.21's October Trackio widening to Spaces, Hugging Face runs, and orx metrics and the configurable remote storage root, as of 2026-11-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alphaXiv/OpenResearch&type=date&theme=dark&legend=top-left" />

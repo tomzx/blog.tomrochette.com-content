@@ -1,7 +1,7 @@
 ---
 title: Context7
 created: 2026-10-07
-updated: 2026-10-31
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, documentation, mcp, developer-tools]
 readability: 3
@@ -18,15 +18,15 @@ Context7 is Upstash's hosted service that pulls up-to-date, version-specific lib
 
 A hosted documentation platform by Upstash, the Redis and QStash company, with the MCP server and CLI open source under MIT (63,119 stars as of 2026-10-16, pushed 2026-10-30).
 The pipeline crawls and version-parses library documentation, scores repository organizations for trust, and runs an LLM-based injection check over stored chunks before serving them.
-Two install modes: an MCP server your agent calls natively (the `@upstash/context7-mcp` npm package, v4.4.4, about 1,027,200 downloads in the week to 2026-10-09), or a `ctx7` CLI plus an agent skill that needs no MCP at all (the CLI released through 0.8.2 on 2026-10-23, which locks concurrent token refreshes so parallel commands stop revoking a shared session; 0.8.0 had removed the deprecated `skills` and `generate` commands while `ctx7 setup` still installs the skills, and 0.8.1 preserved comments in the agent configs it rewrites).
+Two install modes: an MCP server your agent calls natively (the `@upstash/context7-mcp` npm package, v4.5.0 as of 2026-11-05, about 1,027,200 downloads in the week to 2026-10-09), or a `ctx7` CLI plus an agent skill that needs no MCP at all (0.9.0 on 2026-11-03 added `ctx7 search <query>`, a cross-library search that needs no library ID, with `--library`, `--library-version`, `--language`, and `--json` narrowing, and taught setup and remove to handle the OpenCode 2.x config layout; the 0.8.x train locked concurrent token refreshes so parallel commands stop revoking a shared session, removed the deprecated `skills` and `generate` commands while `ctx7 setup` still installs the skills, and preserved comments in the agent configs it rewrites).
 The SDK package (@upstash/context7-sdk, 0.6.0) types a `rank` field on each search snippet so callers can interleave code and info results in the reranked order.
 A prompt trigger ("use context7") or the agent's own tool call fetches the docs; only the lookup query and library name leave your machine, not your code.
 A second remote endpoint, the Admin MCP server (admin.mcp.context7.com, documented 2026-10-23), lets an agent manage the account itself: teamspace members, libraries, rules and policies, usage, Docs7 sites, and Ask sites, authenticated by OAuth or a management-access API key.
 
 ## Status
 
-Active and heavily adopted: created 2025-03-26, 63,119 stars as of 2026-10-16, npm reporting 2,607,063 downloads in the month to 2026-10-29, with several zero-day gaps in npm's counter making weekly figures unreliable, as of 2026-10-31.
-Main is building a research-preview mode for the MCP server, with a docs feedback tool alongside it, committed 2026-10-30 and unreleased in the published packages as of 2026-10-31, in the same batch as admin-surface hardening that puts library imports behind the admin key.
+Active and heavily adopted: created 2025-03-26, 63,119 stars as of 2026-10-16, npm reporting 2,769,609 downloads summed for 2026-10-06 to 2026-11-05, with nine zero-day gaps in npm's counter making weekly figures unreliable, as of 2026-11-05.
+Release 4.5.0 (2026-11-03) shipped the research-preview mode for the MCP server, with a `submit-docs-feedback` tool that scores the documentation `query-docs` returned, listed only when the preview flag is on, in the same batch as admin-surface hardening that puts library imports behind the admin key.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=upstash/context7&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ Not for private-code context (that is what the repo-indexing members sell), and 
 - 2026-10-22 - Moved the adoption figure to the trailing-month window (2,640,895 npm downloads to 2026-10-18) after npm's counter began reporting zero days that break weekly comparisons; pricing tiers re-verified unchanged against the live plans page.
 - 2026-10-24 - Recorded the new Admin MCP server (a second remote endpoint at admin.mcp.context7.com where an agent manages teamspaces, libraries, rules, usage, Docs7 sites, and Ask sites, OAuth or management-key auth, documented 2026-10-23), the `ctx7` CLI at 0.8.2 (lock-protected token refresh for concurrent commands), the SDK at 0.6.0 (typed `rank` on search snippets), and refreshed the trailing-month npm figure (2,508,160 to 2026-10-22).
 - 2026-10-31 - Full rotation re-verification: every cited URL re-fetched and intact; recorded main's unreleased research-preview work (a research-preview flag and a docs feedback tool for the MCP server, committed 2026-10-30, with library imports now gated on the admin key), and refreshed the trailing-month npm figure (2,607,063 to 2026-10-29); pricing tiers re-verified unchanged against the live plans page.
+- 2026-11-05 - Recorded the 2026-11-03 releases: @upstash/context7-mcp@4.5.0 shipping the research-preview mode with its `submit-docs-feedback` tool, and ctx7@0.9.0 adding cross-library `ctx7 search` and OpenCode 2.x config handling; refreshed the trailing-month npm figure (2,769,609 summed for 2026-10-06 to 2026-11-05); pricing tiers re-verified unchanged against the live plans page.
 
 ## See also
 
@@ -94,8 +95,8 @@ Not for private-code context (that is what the repo-indexing members sell), and 
 - https://api.github.com/repos/upstash/context7 - stars, created date, and push date for the as-of status (fetched 200, 2026-10-16)
 - https://context7.com - the platform site, Upstash attribution, and product surface (fetched 200, 2026-10-07)
 - https://context7.com/plans - the Free/Pro/Enterprise tier table, call quotas, overage rates, privacy and trust documentation, and the Enterprise seat-price range (fetched 200, 2026-10-07)
-- https://registry.npmjs.org/@upstash/context7-mcp/latest - the published MCP server version 4.4.4 and MIT license (fetched 200, 2026-10-20)
-- https://api.npmjs.org/downloads/point/last-month/@upstash/context7-mcp - trailing-month download volume for the adoption claim, 2,508,160 for the month to 2026-10-22 (fetched 200, 2026-10-24)
+- https://registry.npmjs.org/@upstash/context7-mcp/latest - the published MCP server version 4.5.0 and MIT license (re-fetched 2026-11-05)
+- https://api.npmjs.org/downloads/range/2026-10-06:2026-11-05/@upstash/context7-mcp - trailing-month download volume for the adoption claim, 2,769,609 summed for 2026-10-06 to 2026-11-05, nine zero days in the window (fetched 2026-11-05)
 - https://raw.githubusercontent.com/upstash/context7/HEAD/docs/howto/admin-mcp.mdx - the Admin MCP server: endpoint, OAuth and management-key auth, teamspace scoping, and the tool surface (fetched 200, 2026-10-24)
-- https://api.github.com/repos/upstash/context7/releases - the release train: ctx7@0.8.2 and @upstash/context7-sdk@0.6.0 published 2026-10-23 (fetched 200, 2026-10-24)
+- https://api.github.com/repos/upstash/context7/releases - the release train: ctx7@0.9.0 and @upstash/context7-mcp@4.5.0 published 2026-11-03 (re-fetched 2026-11-05)
 - https://upstash.com/blog/context7-vs-web-search-benchmark - the vendor's own head-to-head against Claude Code web search (May 2026): the 34.56 percent cost and 36.81 percent token reductions with their caching caveat, the only published comparison (fetched 200, 2026-10-07)

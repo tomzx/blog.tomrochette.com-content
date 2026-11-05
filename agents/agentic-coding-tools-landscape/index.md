@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-11-04
+updated: 2026-11-05
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-11-03.
+Everything here was verified against live sources on 2026-11-05.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -57,7 +57,7 @@ The independent tail matters more than its market share suggests.
 [Kimi Code](../harnesses/kimi-code/index.md) (Moonshot AI, MIT) is the challenger-vendor bet: a big-model vendor shipping the harness tuned for its own cheap models, with subagents, hooks, marketplace skills, and ACP in a single Node.js CLI, at about 19.3k combined stars across its two repositories.
 [Exo](../harnesses/exo/index.md) (Exo Labs, MIT) is the self-modification bet: a Rust-and-TypeScript harness with full visibility into its own code and logs, able to edit its prompts, tooling, and policy at runtime, cheapest measured harness in the FrontierHarness run at $1.05 per task.
 [ZCode](../harnesses/zcode/index.md) (Z.ai, Apache-2.0) is the trust bet turned public exhibit: the official GLM workbench was caught silently uploading whole workspaces to cloud storage on September 18, 2026, and was open-sourced three days later as a flattened, process-free dump.
-[DeepSeek Harness](../harnesses/deepseek-harness/index.md) (DeepSeek, MIT) is the plugin-kernel bet at impossible scale: an everything-is-a-plugin design where the model, tools, UI, and agent loop are hot-swappable, at about 249.0k GitHub stars and still prerelease-only (the newest is dsh-v0.2.2-alpha.3, published November 3, 2026, landing above the v0.2.1 line's rc.5 from October 30) in its second month, the loudest launch this layer has seen.
+[DeepSeek Harness](../harnesses/deepseek-harness/index.md) (DeepSeek, MIT) is the plugin-kernel bet at impossible scale: an everything-is-a-plugin design where the model, tools, UI, and agent loop are hot-swappable, at about 249.0k GitHub stars and still prerelease-only (the newest is dsh-v0.2.2-rc.1, published November 4, 2026, the 0.2.2 train's first release candidate rolling up its alphas, landing above the v0.2.1 line's rc.5 from October 30) in its second month, the loudest launch this layer has seen.
 [Unreal Agent](../harnesses/unreal-agent/index.md) (Unreal Labs, MIT, Sequoia and First Round backed) is the async bet: tool calls run as background operations so the model never manages waits or polls, the vendor's Harbor-linked runs claim up to 40 percent cost savings against Codex, and the launch hit 242 points with 1,879 stars in its first three days.
 
 **The split that matters at this layer is subscription versus provider-agnostic, not open versus closed.**
@@ -162,6 +162,7 @@ A harness that adopts the open conventions is making a promise about your exit; 
 - 2026-11-01 - Rotation re-verification: every cited external link re-fetched (sixteen of eighteen fetched 200, Bloomberg and devops.com again 403 to scripted fetches), the DeepSeek Harness line's newest prerelease moved to dsh-v0.2.1-rc.5 (published 2026-10-30, above both the v0.2.2 alpha and the v0.2.1 rc.4), the ade-topic tail's Superset renamed to Paradev per the repository's own formerly-Superset README, the Gemini CLI enterprise-docs stamp re-verified unchanged (still 2026-10-26 with the same banner), and the Cursor pricing page re-read with the X-bundle plans unchanged.
 - 2026-11-03 - Link re-verification: every cited external link re-fetched (sixteen of eighteen fetched 200, Bloomberg and devops.com again 403 to scripted fetches), the DeepSeek Harness line's newest prerelease moved to dsh-v0.2.2-alpha.3 (published 2026-11-03, above the v0.2.1 line's rc.5), the Gemini CLI enterprise-docs stamp re-verified unchanged (still 2026-10-26 with the same banner), and the Cursor pricing page re-read with the X-bundle plans unchanged.
 - 2026-11-04 - Link re-verification: every cited external link re-fetched (sixteen of eighteen fetched 200, Bloomberg and devops.com again 403 to scripted fetches), the DeepSeek Harness line's newest prerelease re-verified unchanged (still dsh-v0.2.2-alpha.3, published 2026-11-03), the Gemini CLI enterprise-docs stamp re-verified unchanged (still 2026-10-26 with the same banner), and the Cursor pricing page re-read with the X-bundle plans unchanged; no fact moved, so the intro's verification date holds at 2026-11-03.
+- 2026-11-05 - Link re-verification: every cited external link re-fetched (sixteen of eighteen fetched 200, Bloomberg and devops.com again 403 to scripted fetches), the DeepSeek Harness line's newest prerelease moved to dsh-v0.2.2-rc.1 (published 2026-11-04, the 0.2.2 train's first release candidate rolling up its alphas), the Gemini CLI enterprise-docs stamp re-verified unchanged (still 2026-10-26 with the same banner), and the Cursor pricing page re-read with the X-bundle plans unchanged; the OpenAI shutoff of Cursor's model access still pending (dated November 12).
 
 ## See also
 

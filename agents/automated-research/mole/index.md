@@ -1,7 +1,7 @@
 ---
 title: Mole
 created: 2026-10-12
-updated: 2026-11-01
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deep-research, budget-enforcement, open-source]
 readability: 3
@@ -23,7 +23,7 @@ The privacy boundary covers local data too: point it at a CSV or a folder and th
 
 ## Status
 
-Active and young: 314 stars, 20 forks, created 2026-08-01, last pushed 2026-10-31 (a six-PR unreleased batch merged October 31: the planner now traces its headline figure to its origin and stops on evidence rather than claim count, the miner extracts corrections and caveats outside the per-source claim cap, every call is bounded by the session deadline and a deadline-cut lead no longer reads as a failure, the run fails fast when the model or search provider refuses the account, leads search with short keyword queries, and verifier concurrency became tunable, on top of the earlier verifier work judging contradictions from the quote with same-quantity-first ordering and treating competing estimates of one quantity as contradictions), releases v0.1.0 (2026-08-13), v0.2.0 (2026-10-10), and v0.2.1 (2026-10-13) still the latest, as of 2026-11-01.
+Active and young: 314 stars, 20 forks, created 2026-08-01, last pushed 2026-11-01 (a test-hygiene PR keeping the doctor sandbox probe out of the socket tests' runtime directory, on top of the six-PR unreleased batch merged October 31: the planner now traces its headline figure to its origin and stops on evidence rather than claim count, the miner extracts corrections and caveats outside the per-source claim cap, every call is bounded by the session deadline and a deadline-cut lead no longer reads as a failure, the run fails fast when the model or search provider refuses the account, leads search with short keyword queries, and verifier concurrency became tunable, on top of the earlier verifier work judging contradictions from the quote with same-quantity-first ordering and treating competing estimates of one quantity as contradictions), releases v0.1.0 (2026-08-13), v0.2.0 (2026-10-10), and v0.2.1 (2026-10-13) still the latest, as of 2026-11-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lajosdeme/mole&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and young: 314 stars, 20 forks, created 2026-08-01, last pushed 2026-10-3
 </picture>
 
 The Show HN thread reached 100 points with 14 comments on 2026-08-14, strong for the deep-research tier where GPT Researcher's own launch thread drew 4 points.
-The README's "Honest numbers" table publishes the loop's weak spots alongside the wins: contradiction precision of 51 percent on a single judgement (70 percent when two agree), against 98 and 67 percent recall, next to a measured 0 percent budget overshoot.
+The README publishes the loop's weak spots alongside the wins in a dedicated table: contradiction precision of 51 percent on a single judgement (70 percent when two agree), against 98 and 67 percent recall, next to a measured 0 percent budget overshoot.
 The v0.2.1 release note of 2026-10-13 discloses a pricing bug that table could not see: the ledger had recorded 143 of 185 calls in a sampled run at $0.00 because pricing was attached to whichever part built the call rather than consulted in the ledger, so a `--usd` ceiling could not bind on the phase that makes most of them, and the release asks anyone enforcing a dollar budget to re-check it against a single run.
 
 ## Strengths
@@ -70,6 +70,7 @@ Not for anyone needing a mature, independently evaluated tool: the project is on
 - 2026-10-12 - Created.
 - 2026-10-15 - Recorded the v0.2.1 pricing fix: the ledger had left 143 of 185 calls in a sampled run unpriced, so a dollar ceiling could not bind on the phase that makes most calls, and flagged the 0 percent overshoot figure as measured under that earlier accounting.
 - 2026-10-29 - Volatile re-verification: recorded the unreleased verifier rework on main (contradictions judged from the quote with same-quantity-first ordering, and competing estimates of one quantity counted as contradictions) and moved the push date to October 28.
+- 2026-11-05 - Recorded the November 1 doctor test-hygiene PR and reworded the README weak-spots table reference (banned-term cleanup).
 
 ## See also
 

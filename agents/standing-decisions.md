@@ -13,6 +13,16 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 
 ## Scope rulings
 
+- 2026-11-05 | cross-category | automated ticker and star-metrics commits do not churn a source for carry-over; only content-addition commits count | hesreallyhim committed eight times a day of ticker data while its last content addition stayed 2026-10-22
+- 2026-11-05 | cross-category | enterprise auth/connectors platforms marketed at agents (Scalekit class) reject as out of scope | no category owns generic auth infra
+- 2026-11-05 | cross-category | npm's dated-window download counts backfill upward days later, so weekly-figure citations carry the fetch date | openqodex's October 25 to 31 week read 1,276 on 2026-11-01 and 1,471 on 2026-11-05 with no release in between
+- 2026-11-05 | code-review | vendor announcement posts can be removed wholesale after an acquisition, so vendor-blog citations carry their last-verified date and cite an archived copy when one exists | graphite.com's Series B/Diamond launch post and joins-Cursor post both 404 as of 2026-11-05 (the joins-Cursor text survives at web.archive.org/web/20261025095730) while the product pages stay live
+- 2026-11-05 | automated-research | OpenClaw-ecosystem research IDEs and ResearchClaw variants stay ecosystem tails (dr-claw 1,199 stars, sciClaw, ScienceClaw, research-claw, ResearchClaw x2) | the 2026-10-23 single-harness-port family covers them; none shows independent coverage; dr-claw's activity is the only reopen signal to watch
+- 2026-11-05 | harnesses | Berd (block/berd) folds into the goose note as Block's desktop sibling | vendor sibling ruling
+- 2026-11-05 | control-planes | Okto Nexus folds into the Okto Pulse note | vendor sibling ruling
+- 2026-11-05 | software-factory | Claudexor folds into the Ouroboros note (same author, razzant) | vendor sibling ruling
+- 2026-11-05 | memory | lettabot archived, succeeded by Letta Code; succession belongs in the Letta note | vendor sibling ruling
+- 2026-11-05 | orchestration | herdr derivatives and clients (herduck, Roamgate) fold into the herdr note or reject as derivatives | vendor sibling ruling
 - 2026-11-04 | surfaces | OpenBitFun's Cowork-style general-workspace rejection holds on the fourth q#14 re-read (README still pitches a general-purpose agent workspace with a Mini App marketplace, now 3,462 stars), the q#14 question reads safe to close | surfaces re-check on the governing question
 - 2026-11-04 | surfaces | no credible surfaces-dedicated source has appeared; the nearest list candidates (kodustech code-review lists, bradAGI CLI-coding-agents) map to other categories, so surfaces keeps riding the broad sources | the refresh's no-dedicated-source check
 - 2026-10-31 | assistant-runtimes | openhuman reads 42,441 stars on 2026-10-31, about +17 in a day (growth still slowing) against OpenClaw's 393,510 | the q13 OpenClaw-class scale trigger stays unfired, openhuman held

@@ -1,7 +1,7 @@
 ---
 title: Repowise
 created: 2026-10-13
-updated: 2026-11-01
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-intelligence, mcp, code-health, static-analysis]
 readability: 3
@@ -26,7 +26,7 @@ Made by the repowise-dev organization, AGPL-3.0 or commercial, Python, active on
 
 ## Status
 
-Young and growing: 7,800 stars as of 2026-10-18, 973 forks and 418 open issues as of 2026-11-01, created 2026-03-23 and pushed 2026-11-01 (main carries post-0.59.0 work with no release yet), PyPI at 0.59.0 (v0.59.0 shipped 2026-10-25, adding per-function coverage, the CRAP score, and an untested-complexity finding to the health suite).
+Young and growing: 7,800 stars as of 2026-10-18, 985 forks and 462 open issues as of 2026-11-05, created 2026-03-23 and pushed 2026-11-04, PyPI at 0.60.1 (the 0.60 train shipped 2026-11-01 to 2026-11-02: v0.60.0 surfaced a plugin API with a plugin author guide, plugin provider loading, and a PLUGIN_API_VERSION constant alongside health-finding and update-performance fixes, and v0.60.1 folded commit-mined decisions into their merge records, added a confirm-a-decision-with-reason action, and reports phase timings from incremental updates).
 **The community footprint is thin for the star count: two Show HN posts drew 4 and 1 points in April 2026 and the vendor's own blog threads stayed single-digit, so the adoption signal is stars and downloads (about 16.8k PyPI downloads in the trailing month) without practitioner debate.**
 The vendor publishes the most checkable benchmark claims in this category: call-graph precision of 0.976 to 0.995 against the Go and TypeScript compilers' own resolution, and a self-built 42-instance context-tool comparison where its file coverage (0.876) leads Graphify, code-review-graph, and Serena, with the losing rows published.
 
@@ -73,6 +73,8 @@ My disagreeable claim: a context engine that also tells you what to fix first is
 - 2026-10-13 - Created from the cross-category scan's flag (repowise-dev/repowise), admitted after the API's NOASSERTION license reading resolved to AGPL-3.0 and the kind call held (a local index served to agents over MCP, with analytics riding the same index), with the self-run-benchmark and thin-footprint cautions recorded as the critical angle.
 - 2026-10-24 - Full rotation re-verification: every cited URL re-fetched; the ten-tool MCP surface, the 42-instance benchmark tables, and the commercial document's proposal-only pricing re-verified unchanged, v0.57.0 and v0.58.0 (2026-10-15 and 2026-10-20) both already in the recorded range, and the README's language support now 28 parsed to an AST; volatile numbers refreshed (944 forks, 405 open issues, pushed 2026-10-24, 913 npm downloads in the month to 2026-10-22, PyPIstats trailing month unchanged at 16,776).
 - 2026-10-26 - Recorded v0.59.0 (2026-10-25: per-function coverage with the CRAP score and an untested-complexity finding in the health suite, plus test-reach and coverage-index fixes).
+- 2026-11-05 - Full rotation re-verification: every cited URL re-fetched (repo, README, commercial document, PyPI, PyPI stats, npm downloads, the HN search, docs, and the hosted site all intact); the ten-tool surface, the benchmark claims, and the proposal-only commercial pricing unchanged.
+- 2026-11-05 - Recorded the 0.60 train (v0.60.0 on 2026-11-01: plugin API with a plugin author guide, provider loading, and PLUGIN_API_VERSION, plus health and update-performance fixes; v0.60.1 on 2026-11-02: decision-record folding, confirm-a-decision-with-reason, update phase timings) and refreshed activity counts to 2026-11-05.
 
 ## See also
 
@@ -86,9 +88,9 @@ My disagreeable claim: a context engine that also tells you what to fix first is
 - https://api.github.com/repos/repowise-dev/repowise - stars, forks, issues, AGPL-3.0 license, creation and push dates as of 2026-10-18
 - https://raw.githubusercontent.com/repowise-dev/repowise/main/README.md - the three-way product map, the ten MCP tools, the benchmark tables with their losing rows, and the deployment matrix
 - https://raw.githubusercontent.com/repowise-dev/repowise/main/docs/business/COMMERCIAL.md - the AGPL/commercial split, the three pricing models with no published figures, and the GA/in-development/planned capability labels
-- https://pypi.org/pypi/repowise/json - the distribution at 0.59.0 (re-fetched 2026-10-26)
-- https://pypistats.org/api/packages/repowise/recent - 16,776 downloads in the trailing month, unchanged when re-fetched 2026-11-01
-- https://api.npmjs.org/downloads/range/2026-10-02:2026-10-31/repowise - 257 downloads summed for 2026-10-02 to 2026-10-31 (fetched 2026-11-01)
-- https://hn.algolia.com/api/v1/search?query=repowise&tags=story&hitsPerPage=10 - the footprint check: two Show HNs at 4 and 1 points, the rest unrelated or the vendor's own blog threads (fetched 2026-10-13)
+- https://pypi.org/pypi/repowise/json - the distribution at 0.60.1 (re-fetched 2026-11-05)
+- https://pypistats.org/api/packages/repowise/recent - 16,776 downloads in the trailing month, unchanged when re-fetched 2026-11-05
+- https://api.npmjs.org/downloads/range/2026-10-06:2026-11-05/repowise - 184 downloads summed for 2026-10-06 to 2026-11-05 (fetched 2026-11-05)
+- https://hn.algolia.com/api/v1/search?query=repowise&tags=story&hitsPerPage=10 - the footprint check: two Show HNs at 4 and 1 points, the rest unrelated or the vendor's own blog threads (fetched 2026-10-13, query re-checked 2026-11-05)
 - https://docs.repowise.dev - the docs portal (fetched 200, 2026-10-13)
 - https://repowise.dev - the hosted service site (fetched 200 after redirect, 2026-10-13)

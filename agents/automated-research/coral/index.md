@@ -67,6 +67,7 @@ Not for open-ended work without a rubric you trust, and not for anyone needing a
 
 - 2026-10-11 - Created.
 - 2026-10-19 - Recorded development resuming on the dev branch (PRs #276 and #282 merged 2026-10-19) while main and the release train stay at September 6.
+- 2026-11-05 - Rotation re-verification: all references re-fetched and current, with main still at September 6, the dev branch's newest commits still October 19, v0.7.21 still the latest release, and the HN search still returning no relevant threads.
 
 ## See also
 

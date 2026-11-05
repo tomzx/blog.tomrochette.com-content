@@ -37,7 +37,7 @@ The May 2024 Show HN thread reached 139 points with 15 top-level comments, the s
 
 - Data-chaining is a mechanism no other member ships: the manuscript's numbers, methods, and data references are programmatically linked, so any claim click-traces to the exact code and data that produced it.
 - NEJM AI peer review is external validation most of this category's community tier never gets; FutureHouse Robin's Nature paper is the only stronger credential here.
-- The paper grades itself honestly: simple goals recapitulated peer-reviewed publications without major errors in about 80 to 90 percent of autonomous runs, and the authors call the research novelty "relatively limited".
+- The paper grades its own results candidly: simple goals recapitulated peer-reviewed publications without major errors in about 80 to 90 percent of autonomous runs, and the authors call the research novelty "relatively limited".
 - Copilot mode records oversight in the loop itself, with rewinds and replays that make a run auditable after the fact.
 
 ## Cautions
@@ -66,6 +66,7 @@ Not for novelty-seeking discovery runs, which the authors themselves score as th
 ## Changes
 
 - 2026-10-15 - Created.
+- 2026-11-05 - Rotation re-verification: all references re-fetched and current (PyPI still at v1.1.22 with thirteen releases, the Show HN thread still at 139 points, the NEJM AI DOI still behind its Cloudflare wall), and reworded the self-grading sentence (banned-term cleanup).
 
 ## See also
 

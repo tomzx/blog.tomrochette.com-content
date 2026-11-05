@@ -68,6 +68,7 @@ Not for machine-verified conclusions, and not for anyone who needs a vendor SLA 
 
 - 2026-10-07 - Created.
 - 2026-10-19 - Full re-verification pass: all six references re-fetched and current, with v3.7.0 still the latest release, PyPI at 0.16.1, the Jev default filter unchanged, and the four-point Show HN thread unchanged.
+- 2026-11-05 - Rotation re-verification: all six references re-fetched and current, with v3.7.0 still the latest release, PyPI at 0.16.1, and the 150-paper docs claim unchanged.
 
 ## See also
 

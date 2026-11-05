@@ -1,7 +1,7 @@
 ---
 title: AutoContext
 created: 2026-10-14
-updated: 2026-11-01
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, self-improvement, context-bundles, eval-gated-promotion, open-source]
 readability: 3
@@ -23,8 +23,8 @@ The `train` surface closes the loop's second leg: it distills verifier-scored tr
 
 ## Status
 
-Active and early: 1,309 stars, 115 forks, five contributors, created 2026-02-11, last push 2026-10-26 on the main branch, closing an October 23-26 security and dependency wave (patched Zod 4 collection validation, body-parser compressed-body handling, fast-uri, a protected OOM supervisor for the Docker release blocker, and the Pi extension consuming the published Zod-safe runtime), as of 2026-11-01.
-Jay Scambler wrote 2,172 of the repository's roughly 2,244 commits, and Grey Haven markets itself as an applied AI venture studio.
+Active and early: 1,309 stars, 115 forks, five contributors, created 2026-02-11, last push 2026-11-05 on the main branch, closing a November 3-5 milestone-numbered CPU wave (generated CPU search campaigns with search diagnostics, transfer controls, and failure evidence through milestone 15's measured CPU outcomes, verified CPU checkpoint editing with a weight-reproduction contract and reproduction reports, adaptive CPU search under Linux resource acceptance, and CPU inference and evaluation for edited checkpoints), following the October 23-26 security and dependency wave (patched Zod 4 collection validation, body-parser compressed-body handling, fast-uri, a protected OOM supervisor for the Docker release blocker, and the Pi extension consuming the published Zod-safe runtime), as of 2026-11-05.
+Jay Scambler wrote 2,220 of the repository's roughly 2,292 commits, and Grey Haven markets itself as an applied AI venture studio.
 The train is live: 35 PyPI releases through 0.18.0 (2026-09-16) and 47 npm versions through 0.19.1 (2026-10-26), with the docs site's changelog last updated 2026-08-26.
 
 <picture>
@@ -45,10 +45,10 @@ The community footprint is the thinnest in the category for the star count: this
 ## Cautions
 
 - Every published number is the project's own, measured on its own scenarios such as grid_ctf with a 0.5-billion-parameter base model and its own verifier; this run's searches found no independent replication.
-- The README pins PyPI `autocontext==0.19.1`, which does not resolve as of 2026-10-28 (PyPI's latest is still 0.18.0), while npm's matching `autoctx@0.19.1` published on 2026-10-26; the two trains run out of step.
+- The README pins PyPI `autocontext==0.19.1`, which does not resolve as of 2026-11-05 (PyPI's latest is still 0.18.0), while npm's matching `autoctx@0.19.1` published on 2026-10-26; the two trains run out of step.
 - One contributor accounts for nearly all of the code, a bus factor of one beside the institutional columns in this category.
 - The gates trust the evaluator epoch, fixtures, and digests you configure; a weak or leaky evaluator gives the machinery noise to promote.
-- 1,308 stars against two points of Hacker News discussion is a reach-to-engagement gap worth watching.
+- 1,309 stars against two points of Hacker News discussion is a reach-to-engagement gap worth watching.
 
 ## Pricing
 
@@ -69,6 +69,7 @@ Not for anyone expecting independently verified performance claims, and not as a
 ## Changes
 
 - 2026-10-14 - Created.
+- 2026-11-05 - Rotation re-verification: all references re-fetched and current; recorded the November 3-5 CPU milestone wave (search campaigns, checkpoint editing, weight reproduction, measured outcomes), refreshed the commit counts (2,220 of 2,292), re-confirmed the README's 0.19.1 PyPI pin still unresolvable with npm at 0.19.1, and harmonized the cautions' star figure with the Status line.
 
 ## See also
 
@@ -80,14 +81,15 @@ Not for anyone expecting independently verified performance claims, and not as a
 
 ## References
 
-- https://api.github.com/repos/greyhaven-ai/autocontext - repository metadata: Apache-2.0, Python, 1,309 stars, 115 forks, created 2026-02-11, last push 2026-10-26 on main (fetched 200, 2026-10-28)
-- https://raw.githubusercontent.com/greyhaven-ai/autocontext/main/README.md - the loop definition, surfaces table, provider matrix, install pins, and what's-new section (fetched 200, 2026-10-28)
-- https://raw.githubusercontent.com/greyhaven-ai/autocontext/main/docs/context-bundles.md - the bundle lifecycle, the eight promotion requirements, the false-promotion budget, and the negative-result ledger (fetched 200, 2026-10-14)
-- https://raw.githubusercontent.com/greyhaven-ai/autocontext/main/autocontext/docs/case-study-recursive-loop.md - the closed-loop case study and its self-reported +41.9 percent and +7.4 percent figures (fetched 200, 2026-10-14)
-- https://autocontext.ai/docs - the documentation site (fetched 200, 2026-10-14)
-- https://autocontext.ai/docs/changelog - the changelog with the August 26 registry-status table (fetched 200, 2026-10-14)
+- https://api.github.com/repos/greyhaven-ai/autocontext - repository metadata: Apache-2.0, Python, 1,309 stars, 115 forks, created 2026-02-11, last push 2026-11-05 on main (fetched 200, 2026-11-05)
+- https://raw.githubusercontent.com/greyhaven-ai/autocontext/main/README.md - the loop definition, surfaces table, provider matrix, install pins, and what's-new section (fetched 200, 2026-11-05)
+- https://raw.githubusercontent.com/greyhaven-ai/autocontext/main/docs/context-bundles.md - the bundle lifecycle, the eight promotion requirements, the false-promotion budget, and the negative-result ledger (fetched 200, 2026-11-05)
+- https://raw.githubusercontent.com/greyhaven-ai/autocontext/main/autocontext/docs/case-study-recursive-loop.md - the closed-loop case study and its self-reported +41.9 percent and +7.4 percent figures (fetched 200, 2026-11-05)
+- https://api.github.com/repos/greyhaven-ai/autocontext/commits?since=2026-10-27T00:00:00Z&per_page=30 - the November 3-5 CPU milestone wave behind this refresh (fetched 200, 2026-11-05)
+- https://autocontext.ai/docs - the documentation site (fetched 200, 2026-11-05)
+- https://autocontext.ai/docs/changelog - the changelog with the August 26 registry-status table (fetched 200, 2026-11-05)
 - https://pypi.org/pypi/autocontext/json - 35 releases, latest 0.18.0 on 2026-09-16; the README's 0.19.1 pin returned 404 (fetched 200 and 404, 2026-10-28)
-- https://registry.npmjs.org/autoctx - 47 versions, latest 0.19.1 on 2026-10-26, created 2026-03-12 (fetched 200, 2026-10-28)
-- https://api.github.com/repos/greyhaven-ai/autocontext/contributors - five contributors with jayscambler at 2,144 commits (fetched 200, 2026-10-14)
-- https://api.github.com/orgs/greyhaven-ai - the organization: Grey Haven, applied AI engineering, greyhaven.ai (fetched 200, 2026-10-14)
-- https://hn.algolia.com/api/v1/items/47372119 - the lone Hacker News story, 2 points, zero comments, 2026-03-14 (fetched 200, 2026-10-14)
+- https://registry.npmjs.org/autoctx - 47 versions, latest 0.19.1 on 2026-10-26, created 2026-03-12 (fetched 200, 2026-11-05)
+- https://api.github.com/repos/greyhaven-ai/autocontext/contributors - five contributors with jayscambler at 2,220 of roughly 2,292 commits (fetched 200, 2026-11-05)
+- https://api.github.com/orgs/greyhaven-ai - the organization: Grey Haven, applied AI engineering, greyhaven.ai (fetched 200, 2026-11-05)
+- https://hn.algolia.com/api/v1/items/47372119 - the lone Hacker News story, 2 points, zero comments, 2026-03-14 (fetched 200, 2026-11-05)
