@@ -1,7 +1,7 @@
 ---
 title: puppyone
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source, agent-context]
 readability: 3
@@ -35,7 +35,7 @@ The repository was created 2026-06-29 and shows 1,331 stars and 124 forks as of 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=puppyone-ai/puppyone&type=date&legend=top-left" />
 </picture>
 
-A Hacker News search returns no story about the project as of 2026-10-27, only substring matches, and no third-party review has appeared; the footprint is the repository and the vendor's own site.
+A Hacker News search returns no story about the project as of 2026-11-04, only substring matches, and no third-party review has appeared; the footprint is the repository and the vendor's own site.
 The dual identity is the thing to watch: the README sells a local-first agent editor, the docs sell a governed context file system, and the Meirtz context-engineering list carries it under the second label.
 
 ## Strengths
@@ -55,7 +55,7 @@ The dual identity is the thing to watch: the README sells a local-first agent ed
 ## Pricing
 
 The desktop app is free and open source; the built-in agent runs on trial credit, then pay as you go, or on your own API key or local model at no charge.
-The cloud service is Free ($0, one member, one project, three agent access points, 2 GB), Developer at $19 per project per month, Team at $99 per project per month for ten members, and Enterprise custom, as of 2026-10-27.
+The cloud service is Free ($0, one member, one project, three agent access points, 2 GB), Developer at $19 per project per month, Team at $99 per project per month for ten members, and Enterprise custom, as of 2026-10-27 (re-verified unchanged 2026-11-04).
 
 ## Price history
 
@@ -91,5 +91,5 @@ Not for anyone needing a session grid, scheduled work, or a product with an inde
 - https://raw.githubusercontent.com/puppyone-ai/puppyone/main/README.md - the desktop editor: formats, the agent connection table, Git tracking with redlines, the telemetry contract
 - https://www.puppyone.ai/ - the site's positioning and developer entry points (CLI, REST API, MCP, agent auth)
 - https://www.puppyone.ai/en/docs - the Context File System framing: connectors, access points, audit logs, distribution channels
-- https://www.puppyone.ai/pricing.md - the cloud plans (Free, Developer $19, Team $99, Enterprise custom), fetched 2026-10-27
+- https://www.puppyone.ai/pricing.md - the cloud plans (Free, Developer $19, Team $99, Enterprise custom), fetched 2026-10-27, re-fetched 2026-11-04 (unchanged)
 - https://hn.algolia.com/api/v1/search?query=puppyone&tags=story - the zero-coverage footprint evidence, fetched 2026-10-27

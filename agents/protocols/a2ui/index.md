@@ -1,7 +1,7 @@
 ---
 title: A2UI
 created: 2026-10-06
-updated: 2026-11-03
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, generative-ui, frontend, google]
 readability: 3
@@ -24,7 +24,7 @@ Google created it and opened it on 2025-12-15, and the repository now lives in i
 ## Status
 
 **Active and adopted ahead of its spec maturity.**
-The repository shows about 16,690 stars and 1,328 forks (as of 2026-10-13) with a push on 2026-11-03, roughly ten months after launch (GitHub API, as of 2026-11-03).
+The repository shows about 16,690 stars and 1,328 forks (as of 2026-10-13) with a push on 2026-11-04, roughly ten months after launch (GitHub API, as of 2026-11-04).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2ui-project/a2ui&type=date&theme=dark&legend=top-left" />
@@ -82,6 +82,7 @@ My disagreeable claim: A2UI will matter more to what end users see than AG-UI do
 - 2026-10-27 - Re-verification: the repository pushed 2026-10-26/27 with an MCP Apps bridge stream merged to main (the `@a2ui/catalog-mcp` package with a `configureMcpCatalog` v1.0 entry point, an MCP Apps host bridge, and MCP App examples in the Lit, Angular, and React explorers) plus v1.0 protocol support in the Dart CLI and Python builder, while the tagged release train stays at the 2026-10-17 Python wave and the spec hub's version table stays at v0.9.1 current with v1.0 a release candidate.
 - 2026-10-31 - The tagged release train moved past the 2026-10-17 Python wave with the A2UI CLI's first release (cli-v0.1.0, 2026-10-30), a typesafe component generator that emits Python client builders from catalog schemas across protocol versions 0.9, 0.9.1, and 1.0; the spec hub's version table is unchanged (v0.9.1 current production, v1.0 release candidate).
 - 2026-11-03 - The Python wave moved again on 2026-11-02: a2ui-core to v0.5.0 and the agent SDK to v0.10.0, both carrying breaking changes (the agentOnly-callable refusal the v1.0 specification requires in core; the version-string format, the file-resolve removal, and per-path `updateDataModel` emission in the SDK, which also gained incremental Express streaming), with the ADK and A2A bindings at v0.2.0; the spec hub's version table is unchanged (v0.9.1 current production, v1.0 release candidate).
+- 2026-11-04 - Re-verification: the repository pushed 2026-11-04 on docs-site work (a Messages protocol concept page, preview-site header fixes, and a landing-page demo of incremental mobile chat UI generation) with the tagged release train unchanged (the 2026-11-02 Python wave still the newest set) and the spec hub's version table re-confirmed (v0.9.1 current production, v1.0 release candidate).
 
 ## See also
 

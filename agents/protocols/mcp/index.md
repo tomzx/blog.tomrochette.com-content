@@ -1,7 +1,7 @@
 ---
 title: Model Context Protocol (MCP)
 created: 2026-08-24
-updated: 2026-10-31
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, agent-tools]
 readability: 3
@@ -75,6 +75,7 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, and the specification revision re-confirmed at 2026-07-28 with no newer revision shipped (the schema directory's newest dated folder is still 2026-07-28, with the next revision in draft).
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched live with no dead sources, and the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft).
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live with no dead sources, and the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft; the commits since 2026-10-24 are docs and working-group housekeeping).
+- 2026-11-04 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the commits since 2026-10-31 are the blog's post-list redesign and dependency bumps.
 
 ## See also
 

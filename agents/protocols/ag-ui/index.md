@@ -1,7 +1,7 @@
 ---
 title: Agent User Interaction Protocol (AG-UI)
 created: 2026-09-16
-updated: 2026-11-03
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, frontend, event-streaming]
 readability: 3
@@ -25,7 +25,7 @@ Scaffolding an app is one command (`npx create-ag-ui-app`), and the project ship
 ## Status
 
 Very active and already the de facto standard at its layer.
-The repository shows about 16,500 stars, a push on 2026-11-03, and dated releases landing near-daily (latest `release/2026-11-03`, as of 2026-11-03).
+The repository shows about 16,500 stars, a push on 2026-11-04, and dated releases landing near-daily (latest `release/2026-11-03`, published 2026-11-03, as of 2026-11-04).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ag-ui-protocol/ag-ui&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ The repository shows about 16,500 stars, a push on 2026-11-03, and dated release
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ag-ui-protocol/ag-ui&type=date&legend=top-left" />
 </picture>
 
-**The download signal is the strongest part: `@ag-ui/core` pulled 11,004,862 and `@ag-ui/client` 5,462,232 downloads in the month ending 2026-11-02, about 16.5M combined, numbers that beat every editor- or agent-to-agent protocol in this index, and the packages graduated from 0.0.59 to 1.0.0 on 2026-09-17, to 1.0.1 on 2026-09-29, to 1.0.2 on 2026-10-05, and to 1.0.3 on 2026-10-16.**
+**The download signal is the strongest part: `@ag-ui/core` pulled 11,615,025 and `@ag-ui/client` 5,677,001 downloads in the month ending 2026-11-04, about 17.3M combined, numbers that beat every editor- or agent-to-agent protocol in this index, and the packages graduated from 0.0.59 to 1.0.0 on 2026-09-17, to 1.0.1 on 2026-09-29, to 1.0.2 on 2026-10-05, and to 1.0.3 on 2026-10-16.**
 Integration coverage per the docs: partnership integrations with LangChain/LangGraph and CrewAI, first-party integrations with Microsoft Agent Framework, Google ADK, Google ADK for JavaScript, Google Antigravity, AWS Strands Agents, AWS Bedrock AgentCore, Mastra, Pydantic AI, Agno, LlamaIndex, and AG2, community integrations for the Claude Agent SDK, Claude Managed Agents, and Langroid, with the OpenAI Agent SDK, AWS Bedrock Agents, and Cloudflare Agents marked in progress.
 Microsoft adopted the protocol in its Agent Framework (November 2025), Google positioned its A2UI interface project alongside it (December 2025), and Oracle shipped an AG-UI integration for its Agent Specification (December 2025).
 
@@ -89,6 +89,7 @@ My disagreeable claim: AG-UI is the most adopted protocol in this index that nob
 - 2026-10-31 - The release train moved to release/2026-10-30 (2026-10-30) and the repository pushed 2026-10-30 while the SDKs stay at 1.0.3; download figures refreshed from pinned ranges (core 10,703,977, client 5,620,554 in the month ending 2026-10-30, about 16.3M combined).
 - 2026-11-01 - Download figures refreshed from pinned ranges (core 10,196,314, client 5,307,098 in the month ending 2026-10-31, about 15.5M combined); the repository pushed 2026-10-31 with a community Swift SDK for iOS and macOS merged into `sdks/community/swift` (PR #1512, 308 changed files), which neither the README SDK table nor the docs list yet; the release train stays at release/2026-10-30 and the SDKs at 1.0.3.
 - 2026-11-03 - The release train moved to release/2026-11-03 (2026-11-03) and the repository pushed 2026-11-03 while the SDKs stay at 1.0.3; download figures refreshed from pinned ranges (core 11,004,862, client 5,462,232 in the month ending 2026-11-02, about 16.5M combined).
+- 2026-11-04 - The repository pushed 2026-11-04 (the AWS Strands integration now emits AG-UI subagent events for agents-as-tools, and a pub.dev publish workflow landed for the community Dart SDK) while the release train stays at release/2026-11-03 and the SDKs at 1.0.3; download figures refreshed from pinned ranges (core 11,615,025, client 5,677,001 in the month ending 2026-11-04, about 17.3M combined).
 
 ## See also
 
@@ -105,8 +106,8 @@ My disagreeable claim: AG-UI is the most adopted protocol in this index that nob
 - https://docs.ag-ui.com/spec/1.0 - the 1.0 specification page
 - https://docs.ag-ui.com/agentic-protocols - the MCP, A2A, and AG-UI complementarity page
 - https://github.com/ag-ui-protocol/ag-ui/releases - dated release series, latest `release/2026-11-03` published 2026-11-03 (GitHub API)
-- https://api.npmjs.org/downloads/point/2026-10-04:2026-11-02/@ag-ui/core - 11,004,862 downloads 2026-10-04 to 2026-11-02 (fetched 2026-11-03 from the dated-range endpoint)
-- https://api.npmjs.org/downloads/point/2026-10-04:2026-11-02/@ag-ui/client - 5,462,232 downloads 2026-10-04 to 2026-11-02 (fetched 2026-11-03 from the dated-range endpoint)
+- https://api.npmjs.org/downloads/point/2026-10-05:2026-11-04/@ag-ui/core - 11,615,025 downloads 2026-10-05 to 2026-11-04 (fetched 2026-11-04 from the dated-range endpoint)
+- https://api.npmjs.org/downloads/point/2026-10-05:2026-11-04/@ag-ui/client - 5,677,001 downloads 2026-10-05 to 2026-11-04 (fetched 2026-11-04 from the dated-range endpoint)
 - https://github.com/ag-ui-protocol/ag-ui/pull/1512 - the community Swift SDK for iOS and macOS merged 2026-10-31 (GitHub API, fetched 2026-11-01)
 - https://registry.npmjs.org/@ag-ui/client - latest version 1.0.3, published 2026-10-16
 - https://news.ycombinator.com/item?id=43974484 - Show HN launch, 36 points and 5 comments, 2025-05-13

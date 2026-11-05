@@ -1,7 +1,7 @@
 ---
 title: Nimbalyst
 created: 2026-10-11
-updated: 2026-11-01
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -26,7 +26,7 @@ It is built by a four-person team and continues the lineage of Crystal, the orch
 ## Status
 
 **Active on a fast train, with a small independent footprint.**
-The repository was created 2025-10-30 and shows 1,908 stars and 304 forks as of 2026-10-16, with v0.81.7 (October 16, Claude Code sessions suggesting your next prompt with Tab to fill, Claude Agent sessions auto-resuming when a usage limit resets, and new editor blocks: charts, callouts, columns, tabs, a table of contents, transclusions, @ mentions, and link previews) as the latest release tagged stable, after v0.81.6 (October 15, the wiki plugin telling the agent at session start which local wiki pages cover the code and which cover uncommitted changes, plus new wikiDoctor and listMarks tools) and the v0.81.4 and v0.81.5 pair of October 14 (local-wiki fixes and team moves, and interactive HTML pages embedded live in documents as a new wiki page type); a v0.82 pre-release train (v0.82.0 through v0.82.3, October 23 to 25, cross-worktree commit proposals, wiki static-site export, context-usage bars, and Codex and WSL fixes, then v0.82.4 on October 27, a fixes batch covering the file tree's 200-entry display cap, files opened from Finder or the terminal, a find-bar stall on long markdown pages, Claude Code sleep and question-card handling, Codex on Amazon Bedrock, and edits to team-shared tracker pages) runs above the stable tag.
+The repository was created 2025-10-30 and shows 1,908 stars and 304 forks as of 2026-10-16, with v0.81.7 (October 16, Claude Code sessions suggesting your next prompt with Tab to fill, Claude Agent sessions auto-resuming when a usage limit resets, and new editor blocks: charts, callouts, columns, tabs, a table of contents, transclusions, @ mentions, and link previews) as the latest release tagged stable, after v0.81.6 (October 15, the wiki plugin telling the agent at session start which local wiki pages cover the code and which cover uncommitted changes, plus new wikiDoctor and listMarks tools) and the v0.81.4 and v0.81.5 pair of October 14 (local-wiki fixes and team moves, and interactive HTML pages embedded live in documents as a new wiki page type); a v0.82 pre-release train (v0.82.0 through v0.82.3, October 23 to 25, cross-worktree commit proposals, wiki static-site export, context-usage bars, and Codex and WSL fixes, then v0.82.4 on October 27, a fixes batch covering the file tree's 200-entry display cap, files opened from Finder or the terminal, a find-bar stall on long markdown pages, Claude Code sleep and question-card handling, Codex on Amazon Bedrock, and edits to team-shared tracker pages, then v0.82.5 and v0.82.6 on November 3 (GPT-6.1 Terra in the OpenAI Codex model picker, and colored text and highlight colors in Markdown documents from a seven-color picker, saved as HTML spans Obsidian also displays), and v0.82.7 on November 4 (a fixes batch restoring tracker-item local numbers, replacing the bare Session not found failure with a reason and a Try again for very long sessions, and keeping plan-approval and question dialogs alive past PreToolUse hook timeouts) run above the stable tag.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nimbalyst/nimbalyst&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for terminal-first developers, and not for teams that need an independently 
 - 2026-10-18 - Recorded v0.81.7 (October 16, next-prompt suggestions with Tab to fill, usage-limit auto-resume for Claude Agent sessions, and the new editor blocks from charts and callouts to columns, tabs, and link previews) as the new latest release.
 - 2026-10-27 - Rotation re-verification, all cited URLs re-fetched live: the repository, product site, docs, and release train stand (stable still v0.81.7 with the v0.82.3 pre-release on top), and the footprint search refreshed to eleven threads with the wiki-plugin launch pair of 2026-10-20 and 2026-10-21; still no third-party coverage.
 - 2026-11-01 - Recorded v0.82.4 (October 27, a fixes batch: the file tree's 200-entry display cap, files opened from Finder or the terminal, a find-bar stall on long markdown pages, Claude Code sleep and question-card handling, Codex on Amazon Bedrock, and edits to team-shared tracker pages) atop the v0.82 pre-release train.
+- 2026-11-04 - Recorded the v0.82.5 through v0.82.7 wave (November 3 to 4, GPT-6.1 Terra in the OpenAI Codex model picker, colored text and highlight colors in Markdown from a seven-color picker, and a fixes batch restoring tracker local numbers and making session-load failures explain themselves) atop the v0.82 pre-release train.
 
 ## See also
 
@@ -88,6 +89,6 @@ Not for terminal-first developers, and not for teams that need an independently 
 - https://github.com/nimbalyst/nimbalyst - repository, README (visual editors, per-block diffs, session kanban with worktree isolation, task tracking, MCP widgets, extension SDK, iOS companion), MIT license, 1,908 stars and 304 forks as of 2026-10-16
 - https://api.github.com/repos/nimbalyst/nimbalyst - creation date 2025-10-30, language TypeScript, push date 2026-10-16, stars and forks as of 2026-10-16
 - https://nimbalyst.com/ - the product site: the editor list, the extension-system description (agent-registered providers), Teams free during beta, and the platform list
-- https://api.github.com/repos/nimbalyst/nimbalyst/releases - v0.81.7 (2026-10-16) as the latest stable with the v0.82 pre-release train above it, now reaching v0.82.4 (October 27), re-fetched 2026-11-01
+- https://api.github.com/repos/nimbalyst/nimbalyst/releases - v0.81.7 (2026-10-16) as the latest stable with the v0.82 pre-release train above it, now reaching v0.82.7 (November 4, GPT-6.1 Terra, Markdown highlight colors, and the session-load fixes), re-fetched 2026-11-04
 - https://hn.algolia.com/api/v1/search?query=nimbalyst&tags=story - the six self-submitted threads (best: 29 points December 2025; the 2026-04-30 open-source launch at 8 points), the empty-footprint evidence, fetched 2026-10-11
 - https://docs.nimbalyst.com/ - the documentation index: the three modes (Files, Agent, Task), the MCP setup page, agent teams, worktrees, automations, and the Teams collaboration architecture (Cloudflare sync, per-team isolation), fetched 2026-10-11

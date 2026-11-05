@@ -1,7 +1,7 @@
 ---
 title: MemOS
 created: 2026-10-06
-updated: 2026-11-03
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The plugin line is the distribution strategy: official OpenClaw plugins (cloud a
 ## Status
 
 **Active and mid-scale.**
-11,800 stars with the repository pushed 2026-11-02, created 2025-07-06, as of 2026-11-03 (GitHub API).
+11,800 stars with the repository pushed 2026-11-04, created 2025-07-06, as of 2026-11-04 (GitHub API).
 The one independent common-framework datapoint: the academic Agent Memory Leaderboard's first cycle (August 2026) ranks MemOS second among commercial text-memory systems at 45.89, on that framework's scale, not the vendor table's.
 
 <picture>
@@ -34,8 +34,8 @@ The one independent common-framework datapoint: the academic Agent Memory Leader
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MemTensor/MemOS&type=date&legend=top-left" />
 </picture>
 
-Latest engine release v2.0.34 (2026-09-23) and local-plugin release v2.0.20 (2026-09-21) per the GitHub releases API; the PyPI package is `MemoryOS` at 2.0.33 (the bare `MemOS` name on PyPI belongs to an unrelated project, arkohut's Pensieve screen recorder).
-Plugin-side main-branch commits (2026-10-29, pending release) adopt SQLite 13 prebuilds and require Node 22, and isolate Windows DLLs while fixing DSH memory issues.
+Latest engine release v2.0.34 (2026-09-23) and local-plugin release v2.0.21 (2026-09-29) per the GitHub releases API, with a v2.0.21-beta.1 package prerelease published 2026-11-04 for validation through npm's beta dist-tag; the PyPI package is `MemoryOS` at 2.0.33 (the bare `MemOS` name on PyPI belongs to an unrelated project, arkohut's Pensieve screen recorder).
+The plugin's v2.0.21 release shipped the SQLite 13.0.3 Node-API prebuilds and Node 22 floor the main-branch commits had prepared, exposed local model settings (mirror URL, model path, cache directory, offline mode, load timeout) in the Viewer, and fixed dirty-data recovery, orphan trace writes, and empty-response retry stability; a further plugin commit (2026-11-04, pending release) adds support for validated DSH 0.2 preview APIs.
 The benchmark table is the vendor's own: LoCoMo 88.83 and LongMemEval 89.20 via OmniMemEval, the company's self-published evaluation framework spanning 14 commercial memory products.
 The Hacker News footprint is nearly absent: a 2-point story in August 2025, no discussion since.
 
@@ -84,6 +84,7 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 - 2026-10-22 - Corrected the PyPI reference: MemTensor's package is `MemoryOS` (2.0.33); the bare `MemOS` name on PyPI belongs to arkohut's unrelated Pensieve screen-recorder project, so the previously cited 0.37.0 figure was the wrong package.
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the engine still at v2.0.34 and the local plugin at v2.0.20, PyPI MemoryOS still 2.0.33, the hosted price table unchanged, and the only post-verification pushes are a certifi security pin).
 - 2026-10-30 - Recorded the pending-release plugin commits (2026-10-29): SQLite 13 prebuilds with Node 22 now required (breaking), Windows DLL isolation, and DSH memory-issue fixes.
+- 2026-11-04 - Corrected the plugin record: the pending work shipped as local-plugin v2.0.21 (September 29), which also exposed Viewer local-model settings and fixed dirty-data recovery, orphan trace writes, and empty-response retries; recorded the v2.0.21-beta.1 npm prerelease (November 4) and the plugin commit supporting validated DSH 0.2 preview APIs; the push date refreshed to 2026-11-04.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-10-30
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-10-29 UTC, and v1.6.6 (October 29) the latest stable release with PyPI in sync at 1.6.6.
+About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-11-04 from side branches with the default branch quiet since the v1.6.6 cut, and v1.6.6 (October 29) the latest stable release with PyPI in sync at 1.6.6.
 The README now carries a BEAM benchmark table with self-run scores: 0.79 at 100K tokens under fixed hybrid retrieval and 0.67 as an exploratory result at 10M tokens with question-type routing, each with stated methodology, limits, and an acknowledged reproduction gap for the distributed 10M ingestion, which moves the project from comparisons-only to published self-run numbers.
 The same README fronts a Postgres path that runs the whole memory layer on one Postgres instance as a demo feature (the production version is a licensed product).
 

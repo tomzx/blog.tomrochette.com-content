@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-01
+updated: 2026-11-05
 status: finished
 tags: [agents]
 readability: 0
@@ -13,6 +13,8 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 
 ## Scope rulings
 
+- 2026-11-04 | surfaces | OpenBitFun's Cowork-style general-workspace rejection holds on the fourth q#14 re-read (README still pitches a general-purpose agent workspace with a Mini App marketplace, now 3,462 stars), the q#14 question reads safe to close | surfaces re-check on the governing question
+- 2026-11-04 | surfaces | no credible surfaces-dedicated source has appeared; the nearest list candidates (kodustech code-review lists, bradAGI CLI-coding-agents) map to other categories, so surfaces keeps riding the broad sources | the refresh's no-dedicated-source check
 - 2026-10-31 | assistant-runtimes | openhuman reads 42,441 stars on 2026-10-31, about +17 in a day (growth still slowing) against OpenClaw's 393,510 | the q13 OpenClaw-class scale trigger stays unfired, openhuman held
 - 2026-10-31 | code-review | desktop human-review clients for agent PRs judge nothing and are evaluation-review kind on the judges-nothing family | areibman/bottleneck (157 stars, MIT Electron client, zero machine judgment, dormant since 2025-12-04, 2-point Show HN 2025-10-18) held on it; the coordinator handoff had routed it here as code-review-kind
 - 2026-10-31 | evaluation-review | areibman/bottleneck admitted as the queue-level judges-nothing review client beside Hunk, PR Lens, and Crit, resolving the code-review handoff | 157 stars, MIT, twelve releases, live installers; dormancy since 2025-12-04 and the 2-point zero-comment Show HN ride the note, reopen the dormancy reading on any push or release

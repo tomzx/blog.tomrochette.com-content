@@ -1,7 +1,7 @@
 ---
 title: OKF Agent Memory
 created: 2026-10-17
-updated: 2026-10-29
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, agent-memory, okf, git-native, go, mcp]
 readability: 3
@@ -73,6 +73,7 @@ Not for cross-user or cross-app memory (one repo bundle, no multi-user API), and
 - 2026-10-24 - Recorded v0.7.0 (October 20): bundle quality scorecards (a deterministic 0-100 score with letter grades over epistemic maintenance, human stewardship, and conformance integrity) and pre-pull quality gating via `--min-score` with atomic rollback.
 - 2026-10-28 - Recorded v0.7.1 (October 27): nearest-first bare-ID fallback across scopes in okf show and okf_show (concepts in user or system bundles now openable), round-trip preservation of unknown metadata keys in sources items, and the relative bundle root fix in okf mcp; the push date refreshed to 2026-10-27.
 - 2026-10-29 - Recorded v0.7.2 (October 28): the pull-path security hardening from Nick Hodulik's responsible disclosure (remote-derived paths rejected for traversal, absolute, hidden-dotfile, and symlink escapes; staged atomic registry installs; the symlinked-CWD false positive fixed); the push date refreshed to 2026-10-28.
+- 2026-11-04 - Rotation re-verification: every cited URL re-fetched live (repository API and README, the docs site, the upstream OKF spec, the Agent Action Grammar RFC, the releases API, the launch and documentation-over-recall threads, the second implementation's API and its Show HN thread, and the okf-skills toolkit), no facts changed; v0.7.2 remains the latest release and the repository stays quiet since its 2026-10-29 push.
 
 ## See also
 

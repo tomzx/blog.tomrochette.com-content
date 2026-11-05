@@ -1,7 +1,7 @@
 ---
 title: Waku
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, desktop, open-source, multi-agent]
 readability: 3
@@ -68,6 +68,7 @@ Not for teams that need remote access, mobile surfaces, or a vendor to call, and
 ## Changes
 
 - 2026-10-23 - Created from the coordinator handoff (owner-star signal, 2026-07-31), admitted as a surfaces-kind fit: a native multi-CLI session cockpit in the bb and CodeNomad family, with the GPL-3.0 license and the React-framework name collision recorded as cautions.
+- 2026-11-04 - Rotation re-verification, all seven cited URLs re-fetched live: the repository (still dormant since the October 2 push), the README, waku.sh, the v0.1.20 latest release, the Show HN thread (39 points), the author record, and the wakujs/waku name-collision caution all stand.
 
 ## See also
 

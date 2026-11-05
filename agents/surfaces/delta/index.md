@@ -1,7 +1,7 @@
 ---
 title: Delta
 created: 2026-10-04
-updated: 2026-10-25
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, agentic-development-environments, version-control, code-review, multiplayer]
 readability: 3
@@ -16,7 +16,7 @@ Delta is Zed Industries' multiplayer environment for coding with agents, in publ
 
 ## What it is
 
-A desktop app (macOS, Linux, Windows), a web client, and a mobile browser view, built by Zed Industries on DeltaDB, the version-control layer the company announced on 2026-06-11.
+A desktop app (macOS, Linux, Windows), a web client, a mobile browser view, and, since late October 2026, a beta CLI whose Claude Code plugin shares a session's conversation and unfinished changes as a thread a teammate can join from either side, built by Zed Industries on DeltaDB, the version-control layer the company announced on 2026-06-11.
 DeltaDB records every operation between commits as a delta with a stable identity, keeps conversation messages and the edits they produced side by side, and stores conflict-free replicated worktrees, so a commit remains the checkpoint you push while the work between checkpoints becomes addressable history.
 Your repository stays a normal Git repository: commits, branches, and remotes work as before, and teammates who never open Delta see a normal Git clone.
 Threads run in parallel, each with its own Delta worktree, are revertible to any earlier point (conversation and files rewind together), and are shareable, so a reviewer joins the thread, sees the same worktrees, and can ask the same agent why a decision was made.
@@ -26,7 +26,7 @@ Zed disabled pull requests on Delta's own repository at launch and reports build
 
 **Active and early: public beta since 2026-09-16, free during beta, closed source.**
 The DeltaDB announcement (2026-06-11) drew a 529-point Hacker News thread, and the public-beta announcement (2026-09-16, "Replace PRs with Delta") drew 154 points with 102 comments as of 2026-10-04, a comment count that signals argument rather than drive-by attention.
-Shipping cadence is visible on the Delta blog: a harness-eval piece on 2026-09-24 and a planning-in-Delta piece on 2026-10-01, then three more in the first week of October, Escaping the tyranny of worktrees (October 6, arguing parallel agent work has outgrown Git worktrees), The Diff: September 2026 (October 7, more provider options and orchestrating threads with threads), and Please Stop Sending Me Google Docs (October 8), then a DeltaDB engineering deep-dive (October 15, Conrad Irwin, built on a 22-minute talk: the diamond-types-based CRDT design, the fragment index, structural sharing, and per-character authorship down to which agent or prompt wrote it).
+Shipping cadence is visible on the Delta blog: a harness-eval piece on 2026-09-24 and a planning-in-Delta piece on 2026-10-01, then three more in the first week of October, Escaping the tyranny of worktrees (October 6, arguing parallel agent work has outgrown Git worktrees), The Diff: September 2026 (October 7, more provider options and orchestrating threads with threads), and Please Stop Sending Me Google Docs (October 8), then a DeltaDB engineering deep-dive (October 15, Conrad Irwin, built on a 22-minute talk: the diamond-types-based CRDT design, the fragment index, structural sharing, and per-character authorship down to which agent or prompt wrote it), then Claude Code is now multiplayer (October 27, the CLI beta that shares a Claude Code conversation and its unfinished changes as a joinable thread) and a second DeltaDB deep-dive (October 29, Antonio Scandurra, on streaming every human and agent edit into one causal graph on Rust and Cloudflare Durable Objects).
 DeltaDB itself has no public release; the open-source release thread commenters ask about has not shipped, and the October 15 post announces none.
 The beta requires signing in and accepting beta terms, and the product is the founder-led bet of one vendor whose editor is the adjacent product.
 
@@ -74,6 +74,7 @@ The disagreeable claim I will defend: the durable idea here is not replacing Git
 - 2026-10-09 - Recorded the blog cadence through the first week of October: Escaping the tyranny of worktrees (October 6), The Diff: September 2026 with more provider options and orchestrating threads with threads (October 7), and Please Stop Sending Me Google Docs (October 8); pricing re-verified unchanged.
 - 2026-10-16 - Recorded the DeltaDB engineering deep-dive post (October 15, Conrad Irwin, on the CRDT design, the fragment index, and structural sharing, no release announced, leaving the open-source question open); pricing re-verified unchanged.
 - 2026-10-25 - Rotation re-verification, all nine cited URLs re-fetched live: the beta announcement, both DeltaDB posts, the core-concepts and data-storage docs, the beta thread (still 154 points, 102 comments), and the pricing ladder (Personal $0, Pro $10 with $5 of tokens) all stand, and the blog index still ends at the October 15 post.
+- 2026-11-04 - Rotation re-verification, all nine cited URLs re-fetched live, plus the blog index: recorded Claude Code is now multiplayer (October 27, the Delta CLI beta whose Claude Code plugin shares a session's conversation and unfinished changes as a thread joinable from either the app or the terminal, with docs sections for the plugin) and the second DeltaDB deep-dive (October 29, Antonio Scandurra, Rust and Cloudflare Durable Objects causal graph); the pricing ladder (Personal $0, Pro $10 with $5 of tokens) and the beta thread (154 points, 102 comments) stand.
 
 ## See also
 
@@ -89,7 +90,7 @@ The disagreeable claim I will defend: the durable idea here is not replacing Git
 - https://zed.dev/blog/introducing-deltadb - the 2026-06-11 DeltaDB announcement: deltas with stable identities, message-and-edit pairing, CRDT worktrees
 - https://delta.dev/docs/concepts/core-concepts - threads, projects, and Delta worktrees, and the Git-compatibility guarantee
 - https://delta.dev/docs/privacy-and-security/data-storage - what is stored server-side, the Cloudflare backend, email-only deletion, and what Delete Locally does not remove
-- https://delta.dev/pricing - Personal $0 and Pro $10/month, accounts and credits shared with Zed, re-verified 2026-10-25
-- https://delta.dev/blog - the blog index dating the October posts: Escaping the tyranny of worktrees (October 6), The Diff: September 2026 (October 7), Please Stop Sending Me Google Docs (October 8), and DeltaDB: The Future of Version Control (October 15), re-fetched 2026-10-25 (no posts since)
+- https://delta.dev/pricing - Personal $0 and Pro $10/month, accounts and credits shared with Zed, re-verified 2026-11-04
+- https://delta.dev/blog - the blog index dating the October posts: Escaping the tyranny of worktrees (October 6), The Diff: September 2026 (October 7), Please Stop Sending Me Google Docs (October 8), DeltaDB: The Future of Version Control (October 15), Claude Code is now multiplayer (October 27), and Building fine-grained version control for agents with Rust and Durable Objects (October 29), re-fetched 2026-11-04 (no posts since)
 - https://delta.dev/blog/future-of-version-control - the October 15, 2026 DeltaDB deep-dive: the diamond-types-based CRDT scheme, the fragment index, structural sharing, Git interop, and per-character authorship, with no release announced
 - https://news.ycombinator.com/item?id=49727245 - the beta thread (154 points, 102 comments as of 2026-10-04): the merge-gating, privacy-upload, and why-not-a-PR criticisms, plus positive beta-user reports

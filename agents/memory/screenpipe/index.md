@@ -1,7 +1,7 @@
 ---
 title: Screenpipe
 created: 2026-10-08
-updated: 2026-10-30
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, screen-capture, timeline, mcp, source-available]
 readability: 3
@@ -26,7 +26,7 @@ Pipes are scheduled AI agents defined as markdown files, with YAML frontmatter p
 ## Status
 
 **Active and large, on a YC-backed company.**
-21,954 stars with the repository pushed 2026-10-28, created 2024-06-19, as of 2026-10-28 (GitHub API).
+21,954 stars with the repository pushed 2026-11-04, created 2024-06-19, as of 2026-11-04 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=screenpipe/screenpipe&type=date&theme=dark&legend=top-left" />
@@ -37,6 +37,7 @@ Pipes are scheduled AI agents defined as markdown files, with YAML frontmatter p
 The Hacker News record is the strongest in this category: a 218-point Show HN in September 2024 (125 comments), an 88-point Launch HN with 67 comments as a YC S26 company in July 2026, and a 2024 Ask HN thread questioning the business model.
 The README positions it as the source-available alternative to Limitless, Microsoft Recall, Granola, and Otter.
 The app train keeps moving: app-v2.7.125 (2026-10-26) gates covered local reads and enterprise uploads on current PII-processing receipts when required PII processing is enabled, so capture stays durable while labels are processed but sensitive reads wait for the privacy pass to complete, and app-v2.7.129 through v2.7.132 (2026-10-28 to 30) repaired upload starvation during retention, recovered interrupted Windows migration retries, and stopped excluded windows from appearing in screenshots, while the AI gateway added no-training Experiential routing that carries the user's current training-consent choice.
+The train continued to app-v2.7.138 (2026-11-03) with the CLI shipping v0.4.56 and v0.4.57 the same day (fresh hybrid-history search and replacement of saved opposite-window filters), enterprise deployments restarting stuck apps through independent support polling, filtered screenshots recovering after missing native completions, oversized Experiential compaction requests recovering instead of failing, and Windows keeping the user's own Enterprise installation authoritative.
 
 ## Strengths
 
@@ -90,6 +91,7 @@ Not for privacy-strict environments, commercial use without a license budget, or
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 - 2026-10-27 - Recorded app-v2.7.125 (October 26): covered local reads and enterprise uploads now wait for current PII-processing receipts when required PII processing is enabled, keeping capture durable while label processing catches up.
 - 2026-10-30 - Recorded the app train to v2.7.132 (October 28-30): upload-starvation repair during retention, interrupted Windows migration retries recovered, excluded windows kept out of screenshots, and no-training Experiential routing that carries the user's training-consent choice.
+- 2026-11-04 - Recorded the train to app-v2.7.138 with CLI v0.4.56 and v0.4.57 (November 3-4): fresh hybrid-history search and saved opposite-window filter replacement, stuck-app restarts through independent support polling in enterprise, filtered-screenshot recovery, oversized Experiential compaction recovery, and Windows keeping the user's Enterprise installation authoritative; the push date refreshed to 2026-11-04.
 
 ## See also
 

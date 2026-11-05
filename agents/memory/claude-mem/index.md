@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-11-03
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -32,7 +32,7 @@ Very large and fast: about 101.1k stars as of 2026-10-16, with 63,865 npm downlo
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-31, pushed 2026-11-03, latest tagged release v15.9.0 on 2026-11-02 with npm in sync at 15.9.0 as of 2026-11-03, and 86,399 npm downloads in the trailing month (2026-10-04 to 2026-11-03).
+Created 2025-08-31, pushed 2026-11-04, latest tagged release v15.9.0 on 2026-11-02 with npm in sync at 15.9.0 as of 2026-11-04, and 89,686 npm downloads in the trailing month (2026-10-05 to 2026-11-04).
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.
@@ -51,6 +51,7 @@ v15.6.0 the same day moved My Work's state into one Zustand store split across w
 v15.7.0 (2026-10-30) stopped a quiet cross-agent spill in My Work's auto-refresh: a refused answer (most often a review over 1,200 characters) used to hand the whole refresh to the next logged-in agent, which on machines with Codex installed meant hidden codex exec runs on the owner's ChatGPT account, about 230 runs in four days, even with CLAUDE_MEM_PROVIDER=claude set; it also moved the note-taker's default model to Claude Code's always-newest-Haiku alias instead of a pinned ID and added a Feedback button.
 v15.8.0 (2026-11-01) added a cloud viewer host for My Work and work_state sync for every account.
 v15.9.0 (2026-11-02) added Devin to the install paths (hooks written, tool names understood, search tools registered for Devin CLI and Desktop), a manual Refresh now button on My Work and Past Focus with per-provider refresh model settings, a `CLAUDE_MEM_WORKER_URL` remote-worker setting that requires https off-machine, and a redaction batch covering Slack and Discord webhook URLs, Stripe webhook secrets, PyPI, SendGrid, DigitalOcean, Shopify, Docker Hub, and GitLab tokens, with a disabled error reporter now also withholding errors already saved on disk and localhost pages from other sites blocked from writing to work-state, dedup, corpus, and advisor routes.
+The November 4 default-branch train (pending release) routes the observer provider per session source, re-injects context after Devin compacts a session, redacts Linear API keys and Notion integration tokens, recognizes OpenCode tool inputs as agent-authored, preserves actual checkout paths before remapping memories, registers claude-mem in Goose's Windows config location, chains mode overrides so a language mode can combine with chill, and classifies Codex exits from their recent stderr only.
 
 ## Strengths
 
@@ -124,6 +125,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-10-30 - Recorded v15.6.0 (October 29): My Work's state unified in one Zustand store with URL-addressable views, remembered filters and sort, and steadier live updates; npm re-verified in sync at 15.6.0, trailing-month downloads refreshed to 75,512 (2026-09-29 to 2026-10-28).
 - 2026-11-01 - Recorded v15.7.0 and v15.8.0: the My Work auto-refresh no longer spills refused runs to the next logged-in agent (the fix for the hidden codex exec runs on owners' ChatGPT accounts, about 230 in four days), the note-taker default moved to the newest-Haiku alias, and My Work gained a cloud viewer host with work_state sync for every account; npm re-verified in sync at 15.8.0, trailing-month downloads refreshed to 74,755 (2026-10-02 to 2026-11-01).
 - 2026-11-03 - Recorded v15.9.0 (November 2): Devin CLI and Desktop join the install paths, My Work gains a manual Refresh now button with per-provider refresh model settings, a remote-worker URL setting requires https off-machine, and redaction covers Slack and Discord webhooks, Stripe, PyPI, SendGrid, DigitalOcean, Shopify, Docker Hub, and GitLab tokens; npm re-verified in sync at 15.9.0, trailing-month downloads refreshed to 86,399 (2026-10-04 to 2026-11-03).
+- 2026-11-04 - Recorded the pending post-v15.9.0 train (November 4): per-session observer provider routing, Devin compaction re-injection, Linear and Notion token redaction, OpenCode tool inputs recognized as agent-authored, checkout-path preservation before memory remapping, the Goose Windows config registration, and language-mode override chaining; npm still in sync at 15.9.0, trailing-month downloads refreshed to 89,686 (2026-10-05 to 11-04), and the push date refreshed to 2026-11-04.
 
 ## See also
 

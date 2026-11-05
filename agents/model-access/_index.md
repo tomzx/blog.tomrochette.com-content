@@ -15,7 +15,7 @@ Editors and harnesses live in their own categories; this is where the token bill
 - [Cerebras Code](cerebras-code/index.md) - wafer-scale inference sold as speed, $50/$200 per month, currently sold out.
 - [ChatGPT plans](chatgpt-plans/index.md) - OpenAI's subscription ladder from Go $8 to Pro tiers up to $500 per month, every tier carrying Codex.
 - [Chutes](chutes/index.md) - decentralized Bittensor inference, pay-as-you-go only since it stopped selling its $10/$20 subscriptions in October 2026.
-- [Claude plans](claude-plans/index.md) - Anthropic's Free/Pro/Max subscriptions, the only non-API way to run Claude Code, from $20 to $200 per month.
+- [Claude plans](claude-plans/index.md) - Anthropic's Free/Pro/Max/Ultra subscriptions, the only non-API way to run Claude Code, from $20 to $200 per month, Ultra replacing Max 20x in November at the same price for less weekly quota and no 5-hour clock.
 - [Experiential](experiential/index.md) - a YC-backed Apache-2.0 gateway at zero markup that mines agent traces to train routers and, on enterprise, a model you own.
 - [GLM Coding Plan](glm-coding-plan/index.md) - Z.AI's flat monthly quota for the GLM line, from $18, restructured twice since launch.
 - [Google AI plans](google-ai-plans/index.md) - the Google Plus/Pro/Ultra ladder carrying Antigravity and Gemini CLI, with credits over rate limits.
@@ -32,7 +32,7 @@ Editors and harnesses live in their own categories; this is where the token bill
 - [OpenCode Zen](opencode-zen/index.md) - the OpenCode team's curated pay-per-use gateway over benchmarked endpoints, renamed OpenCode Console on the docs in late October 2026.
 - [OpenRouter](openrouter/index.md) - the largest model gateway, passthrough tokens plus a 5.5% credit fee, now joining Stripe.
 - [Plano](plano/index.md) - the Envoy-based self-hosted LLM gateway and agent data plane behind the Arch-Router routers, acquired by DigitalOcean in April 2026.
-- [Qwen Coding Plan](qwen-coding-plan/index.md) - Alibaba Cloud's flat quota for the Qwen line plus bundled rivals, in transition to a Token Plan.
+- [Qwen Coding Plan](qwen-coding-plan/index.md) - Alibaba Cloud's flat quota for the Qwen line plus bundled rivals, now labeled legacy in the docs while the Token Plan (Lite $3, Essential $5) sells the credits.
 - [Requesty](requesty/index.md) - EU-residency gateway charging a flat 5% markup on upstream spend.
 - [SuperGrok](supergrok/index.md) - xAI's subscription ladder, rebuilt in mid-October 2026 from the $30-to-$300 SuperGrok tiers into Plus $8 to Ultra $200 with X Premium and Cursor bundled and one shared weekly pool that API usage left on 2026-10-29.
 - [Synthetic](synthetic/index.md) - a flat $30/month subscription for open-weight coding LLMs aimed at agent users.

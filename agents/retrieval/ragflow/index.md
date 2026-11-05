@@ -1,7 +1,7 @@
 ---
 title: RAGFlow
 created: 2026-10-06
-updated: 2026-11-03
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, document-parsing, agents]
 readability: 3
@@ -23,7 +23,7 @@ Made by InfiniFlow, with v1.0.0-rc1 (2026-09-29) rewriting the service layer in 
 
 ## Status
 
-Very active and very large: 92,158 stars and 10,979 forks as of 2026-10-13, pushed 2026-11-03 with 1,301 open issues (GitHub API, as of 2026-11-03), with 3.9M Docker pulls (ragflow-stats badge, re-verified 2026-10-16).
+Very active and very large: 92,158 stars and 10,979 forks as of 2026-10-13, pushed 2026-11-04 with 1,309 open issues (GitHub API, as of 2026-11-04), with 3.9M Docker pulls (ragflow-stats badge, re-verified 2026-10-16).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=infiniflow/ragflow&type=date&theme=dark&legend=top-left" />
@@ -86,6 +86,7 @@ My disagreeable claim: what RAGFlow actually sells is trust, and the star count 
 - 2026-10-31 - Refreshed the repository activity (pushed 2026-10-31); v1.0.0-rc2 still latest and the advisory record unchanged at eight.
 - 2026-11-01 - Recorded v1.0.0-rc3 (2026-10-30), the third and final release candidate of the Go rewrite per its own notes (evidence-sufficiency decision model and Categorize component in the agentic loop, rc2-schema compatible for direct upgrades), and re-verified the advisory record unchanged at eight.
 - 2026-11-03 - Refreshed the repository activity (pushed 2026-11-03, 1,301 open issues); v1.0.0-rc3 still latest and the advisory record unchanged at eight.
+- 2026-11-04 - Refreshed the repository activity (pushed 2026-11-04, 1,309 open issues); v1.0.0-rc3 still latest and the advisory record unchanged since the 2026-11-03 check.
 
 ## See also
 
@@ -96,7 +97,7 @@ My disagreeable claim: what RAGFlow actually sells is trust, and the star count 
 
 ## References
 
-- https://api.github.com/repos/infiniflow/ragflow - 92,158 stars and 10,979 forks (as of 2026-10-13), Apache-2.0, Go, created 2023-12-12, pushed 2026-11-03, 1,301 open issues (GitHub API, as of 2026-11-03)
+- https://api.github.com/repos/infiniflow/ragflow - 92,158 stars and 10,979 forks (as of 2026-10-13), Apache-2.0, Go, created 2023-12-12, pushed 2026-11-04, 1,309 open issues (GitHub API, as of 2026-11-04)
 - https://raw.githubusercontent.com/infiniflow/ragflow/main/README.md - DeepDoc, template-based chunking, knowledge compilation, agentic retrieval modes, Go-native architecture, deployment requirements (re-verified unchanged 2026-10-16)
 - https://raw.githubusercontent.com/infiniflow/ragflow/main/docs/release_notes.md - the v1.0.0-rc1 Go rewrite, NATS and Kvrocks migration, irreversible v0.27.2 upgrade, known issues (re-verified unchanged 2026-10-16)
 - https://api.github.com/repos/infiniflow/ragflow/releases/latest - v1.0.0-rc3 published 2026-10-30: the third and final release candidate, evidence-sufficiency decision model and Categorize component, rc2 schema compatible for direct upgrades (fetched 2026-11-01; rc2 of 2026-10-16 brought the Agentic chat mode, Team/Me sharing, and rc1 data compatibility)

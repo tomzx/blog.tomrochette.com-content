@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-11-03
+updated: 2026-11-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -26,7 +26,7 @@ The cloud adds cross-device sync, browser and mobile access, and a shared Teams 
 ## Status
 
 **Active and mid-scale, with a thin public-discussion footprint.**
-4,237 stars with the repository pushed 2026-11-02, created 2024-12-02, as of 2026-11-03 (GitHub API).
+4,237 stars with the repository pushed 2026-11-04, created 2024-12-02, as of 2026-11-04 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&theme=dark&legend=top-left" />
@@ -38,6 +38,7 @@ The registry-lag record ended: PyPI moved to 0.24.1 on 2026-10-23, in sync with 
 **The 1.0 line shipped as v1.0.0 on 2026-10-29, with PyPI in sync**: the MCP server's tools are replaced one for one by bm_* tools (bm_read, bm_write, bm_edit, bm_move, bm_delete, bm_search, bm_find, bm_list, bm_context, bm_project, bm_project_delete, bm_schema) with changed arguments, shared parameter types, and typed error refusals, note and search tools require an explicit project in multi-project setups, and the line adds bm doctor, a read-only self-test that reports real-project problems with the fixing command, plus a memory-doctor skill that teaches an agent to run it; the release also refuses note creates and updates whose path leaves the project.
 The Hacker News record is a 4-point Show HN in March 2025 (0 comments) and a 2-point third-party story in February 2026, so the 4.1k stars came through the MCP-ecosystem channels (registry listings, Discord) rather than public debate.
 The post-1.0 fix train (2026-11-01 and 02) speeds the file-conflict check with two indexed columns (one query instead of a per-project scan on every write), stops a folder named like the project from colliding with its root note's permalink, refuses note moves onto paths equivalent to another note (case and Unicode twins), and conforms the Hermes Agent memory-provider plugin to Hermes v0.22's provider contract (inline capture on Hermes's worker thread, per-profile provider instances, and a new transcript note per session switch linked by a continues relation).
+The November 4 fixes (pending release) start watching a newly added project right away and embed a caught-up project in the background instead of the watcher loop, rank Postgres prefix queries by the words typed with title scoring, stop recording a note's created_at after its updated_at, write CLI output as UTF-8 on Windows, and let the searching server own the similar-notes floor.
 
 ## Strengths
 
@@ -90,6 +91,7 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 - 2026-10-27 - Recorded the unreleased 1.0 line accumulating on main: the bm_* MCP tool replacement with typed refusals, explicit project arguments in multi-project setups, and the bm doctor self-test with its memory-doctor skill, published in the changelog's Unreleased section with a working migration guide and not yet in a release.
 - 2026-10-30 - Recorded the v1.0.0 release (October 29, PyPI in sync): the bm_* tool line shipped as prepared, with shared parameter types and refusals for the bm_* tools and a fix refusing note writes whose path leaves the project.
 - 2026-11-03 - Recorded the post-1.0 fix train (November 1 and 2): indexed file-conflict lookups, the folder-named-like-the-project permalink fix, note-move rejections on equivalent paths, and the Hermes plugin conformed to Hermes v0.22's provider contract (inline ordered capture, per-profile providers, session-switch notes); the PyPI figure in the opening moved to 1.0.0 and the push date refreshed to 2026-11-02.
+- 2026-11-04 - Recorded the pending November 4 fixes: newly added projects watched immediately with caught-up projects embedded in the background, Postgres prefix queries ranked by the words typed, created_at no longer recorded after updated_at, UTF-8 CLI output on Windows, and the searching server owning the similar-notes floor; the push date refreshed to 2026-11-04.
 
 ## See also
 
