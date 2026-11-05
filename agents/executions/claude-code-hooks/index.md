@@ -1,7 +1,7 @@
 ---
 title: Claude Code hooks
 created: 2026-08-24
-updated: 2026-11-01
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, claude-code, hooks]
 readability: 3
@@ -24,7 +24,7 @@ The same hook events fire in the terminal, IDE extensions, the desktop app, and 
 ## Status
 
 **Active and heavily invested in.**
-The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 150.7k stars as of 2026-10-13, roughly 16.2k open issues as of 2026-11-01).
+The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 150.7k stars as of 2026-10-13, roughly 16.5k open issues as of 2026-11-05).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&theme=dark&legend=top-left" />
@@ -88,8 +88,8 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 
 ## References
 
-- https://code.claude.com/docs/en/hooks - event reference, handler types, matcher semantics, fail-open caution (re-fetched 2026-11-01; the 33-event table, the five handler types, and the v2.1.267 and v2.1.295 matcher and `onFailure` gates all still present)
+- https://code.claude.com/docs/en/hooks - event reference, handler types, matcher semantics, fail-open caution (re-fetched 2026-11-05; the 33-event table, the five handler types, and the v2.1.267 and v2.1.295 matcher and `onFailure` gates all still present)
 - https://code.claude.com/docs/en/hooks-guide - quickstart, deterministic-control framing, usage costs of model-backed hooks (re-fetched 2026-11-01)
 - https://code.claude.com/docs/en/security-guidance - the official plugin built entirely on hooks (re-fetched 2026-11-01)
-- https://github.com/anthropics/claude-code - repository scale, as of 2026-11-01
+- https://github.com/anthropics/claude-code - repository scale, as of 2026-11-05
 - https://news.ycombinator.com/item?id=49299985 - third-party hooks tooling (Graft) and community scrutiny of its benchmark claims (re-fetched 2026-11-01, 44 comments)

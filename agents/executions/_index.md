@@ -17,7 +17,7 @@ Event-driven agent execution: lifecycle hooks, scheduled and repository-triggere
 - [Claude Code routines](claude-code-routines/index.md) - hosted Claude Code sessions on schedules, API calls, and GitHub events.
 - [Codex Action](codex-action/index.md) - the official Action that runs Codex in workflows behind a key-holding proxy with drop-sudo defaults.
 - [GitHub Agentic Workflows](github-agentic-workflows/index.md) - markdown-defined automation compiled into hardened Actions runs.
-- [GitHub Copilot automations](copilot-automations/index.md) - GitHub's cloud agent on schedules and repository events.
+- [GitHub Copilot automations](copilot-automations/index.md) - GitHub's cloud agent on schedules, repository events, and API calls.
 - [n8n](n8n/index.md) - the fair-code automation canvas where triggers start workflows and agents.
 - [Rivet Agents](rivet-agents/index.md) - the Apache-2.0 actor runtime keeping one durable coding agent per key, woken by cron, connectors, and calls.
 - [Run Gemini CLI](run-gemini-cli/index.md) - the official Action and workflow suite that runs Gemini CLI on issues, pull requests, and schedules.

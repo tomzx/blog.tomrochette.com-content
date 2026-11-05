@@ -1,7 +1,7 @@
 ---
 title: SIDJUA
 created: 2026-09-27
-updated: 2026-10-26
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-governance, pre-action-enforcement, budgets, self-hosted, stall-record]
 readability: 3
@@ -76,6 +76,7 @@ No dollar prices are published, so there is nothing to track yet.
 - 2026-10-07 - Added the GoetzKohlberg/sidjua star history chart to the Status section.
 - 2026-10-18 - Rotation re-verification: the freeze notice and the missed July reopen re-confirmed on the live site and docs, and the repository unchanged (4 open issues, 2 forks, last push 2026-04-21, v1.1.1 still the final release, the maintainer still holding one public repository).
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched, all facts unchanged (26 stars, 2 forks, 4 open issues, last push 2026-04-21, v1.1.1 still the final release), and the freeze banner with the missed July reopen still on the site and docs.
+- 2026-11-05 - Rotation re-verification: every cited URL re-fetched and live, all facts unchanged (26 stars, 2 forks, 4 open issues, last push 2026-04-21, v1.1.1 still the final release with v1.1.0 same-day before it, the maintainer still holding one public repository), and the freeze banner with the missed July reopen still on the site and docs.
 
 ## See also
 

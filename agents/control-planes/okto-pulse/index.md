@@ -1,7 +1,7 @@
 ---
 title: Okto Pulse
 created: 2026-09-27
-updated: 2026-10-30
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, spec-driven-development, governance-gates, coding-agents, mcp, local-first]
 readability: 3
@@ -19,7 +19,7 @@ Okto Pulse (OktoLabsAI/okto-pulse) is an Elastic-2.0 local-first SDLC workbench 
 `pip install okto-pulse` starts one Python process serving a web UI and API on port 8100 and an MCP server on 8101, with all state local under `~/.okto-pulse/` in SQLite plus an embedded graph database.
 The same vendor ships a sibling product, [Okto Nexus](https://github.com/OktoLabsAI/okto-nexus) (`okto-nexus` 0.3.2 on PyPI, under the same Elastic License 2.0 plus SaaS/Branding Addendum): a local-first MCP coordination hub where agents in one repository get durable identities, presence, messages, inboxes, handoffs, artifacts, an event log, and governance controls without a cloud broker.
 The platform page now lists a third product alongside them, [Okto Neuron](https://oktolabs.ai/platform/neuron/) (formerly Marginalia, 0.3.1, Elastic-2.0 source-available): a local-first knowledge-graph memory that extracts claims from Markdown notes and serves them over MCP with byte-range citations.
-One `okto-nexus serve` port exposes the whole hub (streamable-HTTP MCP at `/mcp`, operator REST and SSE, and a bundled React dashboard) over a SQLite database in WAL mode; the Nexus README now defers its tool count to `tools/list` rather than printing one, with memory adding three tools and harness integration adding eight.
+One `okto-nexus serve` port exposes the whole hub (streamable-HTTP MCP at `/mcp`, operator REST and SSE, and a bundled React dashboard) over a SQLite database in WAL mode; its work dispatch is single-winner (handoffs with atomic claim, leases, rejection, cancellation, optional verification, and optional dependency graphs, all behind opt-in feature flags), harness integration adds eight runtime tools beside memory's three, and the README's R4 execution status leaves final G0 to G3 acceptance open, with four adapter catalog entries explicitly not four qualified native integrations.
 The architecture splits into `okto-pulse-core`, which owns the SDLC domain, the governance gates, and knowledge-graph contracts as pure protocol seams, and `okto-pulse`, which supplies every concrete mechanism (SQLite, the Okto Grafx graph engine, the filesystem, scheduler, and MCP host); an unfilled slot fails closed rather than silently defaulting.
 The gates cover resource readiness, spec coverage across acceptance criteria, requirements, business rules, API contracts, decisions, and test scenarios, plus task validation, test evidence, architecture findings, and sprint closure.
 Tasks cannot start until the parent spec has the required scenario coverage, done transitions are held while unresolved issues remain, and test cards require evidence before being marked passed or failed.
@@ -27,7 +27,7 @@ An embedded knowledge graph keeps decisions, constraints, bugs, and learnings qu
 
 ## Status
 
-Active and young: 52 stars (as of 2026-10-14), 2 forks, and 21 open issues as of 2026-10-30, created 2026-04-22, last pushed 2026-10-30, current PyPI version 0.4.2 (2026-10-28).
+Active and young: 52 stars (as of 2026-10-14), 2 forks, and 20 open issues as of 2026-11-05, created 2026-04-22, last pushed 2026-11-02, current PyPI version 0.4.2 (2026-10-28).
 **The star count halved in three days (110 on 2026-10-07 to 52 today) while the repository kept being pushed, the signature of a GitHub star purge rather than a user exodus, so treat every adoption number in this note as unstable.**
 
 <picture>
@@ -80,6 +80,7 @@ The README describes a possible SaaS edition and a core-and-community split, but
 - 2026-10-19 - PyPI reached 0.4.0, a breaking release that refuses prior storage without migration, and okto-nexus reached 0.3.0; the README's platform table moved to 285 MCP tools while the product page still says 215, and the website still advertises v0.2.6.
 - 2026-10-21 - PyPI moved to 0.4.1 (2026-10-20), a patch above the breaking 0.4.0.
 - 2026-10-30 - Full re-verification: PyPI reached 0.4.2 (2026-10-28, patched Authlib and filelock pins, MCP inventory no longer tied to a fixed count), okto-nexus reached 0.3.2 on PyPI, the product page caught up to v0.4.2 with 280+ MCP tools (the v0.2.6 lag and the 215-versus-285 disagreement recorded earlier are resolved), and the Nexus README defers its tool count to `tools/list`.
+- 2026-11-05 - Recorded the OktoLabsAI/okto-nexus fold under the vendor-sibling ruling (no separate note): the sibling README now documents single-winner work dispatch (handoffs with atomic claim, leases, rejection, cancellation, and opt-in verification and dependency-graph flags), eight harness runtime tools beside memory's three, and an R4 execution status that leaves final G0 to G3 acceptance open; PyPI holds at 0.3.2 while the README's own release table still says 0.3.0, and the sibling repo pushed 2026-11-02.
 
 ## See also
 

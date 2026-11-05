@@ -1,7 +1,7 @@
 ---
 title: Strands Decider 2B
 created: 2026-10-12
-updated: 2026-10-31
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights]
 readability: 3
@@ -25,7 +25,7 @@ It comes from strands-labs, the org behind the Strands Agents SDK, an AWS-backed
 
 ## Status
 
-Active and fresh: the repository was created 2026-09-29 and pushed 2026-10-29 (the 10-26 push a training-code refactor removing the superseded slot head; the 10-29 movement is branch activity with no new commit on the default branch; the pointer head is the only readout and the released checkpoints keep loading), with 636 stars as of 2026-10-15 and 99 forks as of 2026-10-27, and the Hugging Face checkpoint was published 2026-10-09 with 7 likes, its download counter still not tracking (GitHub and Hugging Face APIs).
+Active and fresh: the repository was created 2026-09-29 and pushed 2026-11-04 (the default branch gained unreleased serving and deployment features since the 10-26 slot-head removal refactor: an AWS Lambda deploy option, a serve-side warm-up of every request type, a `--device-map` split across GPUs, and environment-based inference benchmarks; the pointer head is the only readout and the released checkpoints keep loading), with 636 stars as of 2026-10-15 and 99 forks as of 2026-10-27, and the Hugging Face checkpoint was published 2026-10-09 with 7 likes, its download counter still not tracking (GitHub and Hugging Face APIs).
 The project's first tagged releases landed 2026-10-19: PyPI 0.2.0 splits inference from training (the training commands leave the CLI), fixes the MPS crash under overlapping requests and per-request option offsets under concurrent serving, makes evaluation prepare the model exactly as serving does, and ships a harness-agnostic customize-decider skill (from a user's decision to a measured, calibrated model) plus SageMaker deploy docs.
 
 <picture>
@@ -82,6 +82,7 @@ The disagreeable claim I will defend: the fair comparison is not with the commun
 - 2026-10-27 - Out-of-rotation re-fetch at the drift signal: the board's 2026-10-26 regeneration (230 configurations) moved the unchanged 20.72 from rank 181 to 182, and the repository's pushed date moved to 2026-10-26 on a training-code refactor that removed the superseded slot head (the pointer head is the only readout; released checkpoints keep loading, no release); forks refreshed to 99; fetched and re-cited.
 - 2026-10-30 - Volatile re-verification after the pushed-date move to 2026-10-29: no default-branch commit has landed since the 10-26 slot-head removal, so the movement is branch activity; v0.2.0 remains the latest release; pushed date and as-of figures moved to 2026-10-29 and 2026-10-30.
 - 2026-10-31 - Out-of-rotation board re-fetch at the drift signal, both boards: the Decision Index's 2026-10-29 regeneration (248 configurations) moved the unchanged 20.72 from rank 182 to 199, and JevBench's method-v1.8 board added a ranked Strands row, the v1 line's 26B-A4B sibling at official #84 (60.01, Hugging Face amazon/strands-decider-26B-A4B-gemma4-v1-2610), leaving the 2B itself still unbenched.
+- 2026-11-05 - Volatile re-verification after the 2026-11-03 to 11-04 pushes: the default branch gained four unreleased serving and deployment features (environment-based inference benchmarks, a `--device-map` multi-GPU split, a serve-side warm-up of every request type, an AWS Lambda deploy option), v0.2.0 (2026-10-19) and PyPI 0.2.0 unchanged; pushed date moved to 2026-11-04.
 
 ## See also
 
@@ -93,7 +94,7 @@ The disagreeable claim I will defend: the fair comparison is not with the commun
 
 ## References
 
-- https://github.com/strands-labs/strands-decider - repository: Apache-2.0, created 2026-09-29, 636 stars as of 2026-10-15, 99 forks, pushed 2026-10-29 (branch activity after the 10-26 slot-head removal refactor; released checkpoints unaffected), the CLI surfaces and device extras (GitHub API and README, as of 2026-10-30)
+- https://github.com/strands-labs/strands-decider - repository: Apache-2.0, created 2026-09-29, 636 stars as of 2026-10-15, 99 forks, pushed 2026-11-04 (unreleased serving and deployment features on the default branch after the 10-26 slot-head removal refactor; released checkpoints unaffected), the CLI surfaces and device extras (GitHub API and README, as of 2026-11-05)
 - https://github.com/strands-labs/strands-decider/releases - the first tagged releases, v0.1.0 and v0.2.0 of 2026-10-19: the CLI split, the serving fixes, and the customize-decider skill (fetched 2026-10-20)
 - https://github.com/strands-labs/strands-decider/tree/main/configs/v1 - the training configs of the five v1 releases, published 2026-10-16 (fetched 2026-10-18)
 - https://strandsagents.com/blog/introducing-strands-decider/ - the launch post: the decision-model positioning, the confidence contract, and the SDK tie-in (fetched 2026-10-12)

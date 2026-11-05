@@ -1,7 +1,7 @@
 ---
 title: Vestige
 created: 2026-10-17
-updated: 2026-10-30
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, memory, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The single-maintainer paid tier, Vestige Operator, is a closed archive sold once
 
 ## Status
 
-Active and fast-moving: 651 stars and 72 forks as of 2026-10-18, with 106 open issues and pull requests and the latest push on 2026-10-29 as of 2026-10-30, created 2026-01-25, with v6.0.0 (2026-10-28) the latest tagged release.
+Active and fast-moving: 651 stars and 72 forks as of 2026-10-18, with 115 open issues and pull requests and the latest push on 2026-11-03 as of 2026-11-05, created 2026-01-25, with v6.2.0 (2026-11-03) the latest tagged release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=samvallad33/vestige&type=date&theme=dark&legend=top-left" />
@@ -82,6 +82,7 @@ Not for org-scale governance (that is a control plane, not a workstation gate), 
 - 2026-10-19 - Release train moved to v5.0.0 (2026-10-18), the PRECEDENT release: a read-only `precedent` tool over the gate's stop receipts, a `gather` issue hunt, a WebGPU dashboard rebuild, and two maintainer-found hook security fixes (a command-injection path in a hook script and hooks running Python without isolated mode).
 - 2026-10-25 - Release train moved to v5.0.1 (2026-10-23): Retroactive Salience Backfill returns to the Strata memory path, so new information can raise or lower the salience of earlier memories.
 - 2026-10-30 - Release train moved to v6.0.0 (2026-10-28): the Reflex tool carries every hook firing into the server, where gate receipts become stop memories and every firing lands in a hash-chained Hook Ledger under a context manifest with failure pairing, stale-belief push, and compaction survival, and Operator Lite absorbs every per-call rule the paid gate had (42 rules, 27 STOP and 15 SHADOW, planted canaries included), leaving Operator to sell laws, the Board, the weekly Letter, onboarding, and the cross-session stop record.
+- 2026-11-05 - Release train moved to v6.2.0 (2026-11-03, no v6.1.0 tag published): the public MCP surface fixed at six tools (session, remember, recall, causal_walk, curate, precedent), with typed-id recall resolution, a typed-entity session hook, and suppress demoted to a curate action; the counters refreshed (115 open issues and pull requests, pushed 2026-11-03).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: TinyAGI
 created: 2026-08-27
-updated: 2026-10-26
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, control-planes, one-person-company, open-source, stall-record]
 readability: 3
@@ -73,6 +73,7 @@ The disagreeable claim I will defend: TinyAGI's death was not failure of executi
 - 2026-10-07 - Added the TinyAGI/tinyagi star history chart to the Status section.
 - 2026-10-18 - Rotation re-verification: the stall re-confirmed (last push 2026-03-30, v0.0.20 still the final release, TinyOffice portal still live) and forks moved to 503.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched, the stall re-confirmed (last push 2026-03-30, v0.0.20 still the final release, TinyOffice live, the TinyClaw origin still redirecting) and forks moved to 505.
+- 2026-11-05 - Rotation re-verification: every cited URL re-fetched and live, the stall re-confirmed (last push 2026-03-30, v0.0.20 still the final release, TinyOffice live, the TinyClaw origin still redirecting, the launch thread still 1 point with zero comments), forks and the 72 open issues unchanged.
 
 ## See also
 

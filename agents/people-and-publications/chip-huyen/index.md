@@ -1,7 +1,7 @@
 ---
 title: Chip Huyen
 created: 2026-08-29
-updated: 2026-10-29
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, ai-engineering, systems, llm]
 readability: 3
@@ -70,6 +70,7 @@ Not for the practitioner who wants current, hands-on tool walkthroughs.
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-10-17 - Rotation re-verification, every cited URL re-fetched: the O'Reilly page began returning 403 to automated fetches, so its reference now points at the 2026-06-20 Internet Archive snapshot, and the Status translation line was expanded to the book repo's thirteen published languages plus the three announced ones.
 - 2026-10-29 - Rotation re-verification, every cited URL re-fetched and live (site, books page, book repo, Amazon listing, and the O'Reilly archive snapshot): no claim moved; the translation list still reads thirteen published languages with Greek, Ukrainian, and Uzbek announced, and the repo's star figure keeps its dated baseline.
+- 2026-11-05 - Rotation re-verification: site, books page, book repo, O'Reilly archive snapshot, and all four cited essays re-fetched and live with no claim moved (the translation list and its announced languages read unchanged); the Amazon listing returned 503 bot walls to three fetch attempts this run, so its re-fetch is outstanding rather than failed.
 
 ## See also
 

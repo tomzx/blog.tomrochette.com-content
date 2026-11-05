@@ -1,7 +1,7 @@
 ---
 title: SettleBridge
 created: 2026-09-27
-updated: 2026-10-26
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-settlement, trust, escrow, policy-enforcement, audit]
 readability: 3
@@ -82,6 +82,7 @@ The Exchange charges 0.25% of each settled transaction as an ATE treasury fee.
 - 2026-10-07 - Added the a2a-settlement/settlebridge-ai star history chart to the Status section.
 - 2026-10-18 - Rotation re-verification: every cited URL re-fetched, all facts unchanged (1 star, 0 forks, 1 open issue, 76 commits, last push 2026-09-25), pricing unchanged, and the license metadata still unresolved (site says Apache-2.0, GitHub API reports none, LICENSE still 404).
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched, all facts unchanged (1 star, 0 forks, 1 open issue, 76 commits, last push 2026-09-25), pricing unchanged, HN still zero threads, and the license metadata still unresolved; the A2A-SE standard repository moved on 2026-10-23.
+- 2026-11-05 - Rotation re-verification: every cited URL re-fetched and live, all facts unchanged (1 star, 0 forks, 1 open issue, 76 commits, last push 2026-09-25), pricing unchanged (Community $0, Enterprise $2,500/month, Exchange 0.25 percent), HN still zero threads, the README's MIT badge still linking to a LICENSE path that 404s with GitHub detecting no license, and the A2A-SE standard docs and repository unchanged.
 
 ## See also
 

@@ -10,6 +10,7 @@ readability: 3
 
 Governance above the harness: policy, permissions, approvals, budgets, trust, settlement, and audit between agent intent and execution.
 
+- [Agent Barn](agent-barn/index.md) - the Apache-2.0 self-hosted control plane that runs chat-coworker agents as pods on your own Kubernetes cluster, with per-agent cost attribution, org and per-agent access roles, and audit trails.
 - [Agent Control](agent-control/index.md) - Galileo's Apache-2.0 control plane that turns any Python or TypeScript function into a governed decision point with a @control() decorator and remotely managed policy.
 - [AgentField](agentfield/index.md) - the Apache-2.0 agent-backend control plane that turns Python, Go, and TypeScript functions into governed REST endpoints, with DID identity, tag policy, approvals, cost caps, and offline-verifiable receipts in the free build.
 - [arifOS](arifos/index.md) - the AGPL-3.0 governance kernel that judges MCP agent proposals against thirteen constitutional floors before execution, answering with seven wire verdicts, recording each in a hash-chained ledger, and publishing a self-audit that names its own broken floors.
@@ -28,6 +29,7 @@ Governance above the harness: policy, permissions, approvals, budgets, trust, se
 - [Paperclip](paperclip/index.md) - the MIT self-hosted control plane for a company of agents, heartbeats, budgets, and governance, past 100k stars in seven months.
 - [SettleBridge](settlebridge/index.md) - the trust and policy gateway for agent-to-agent settlement, with escrow, reputation, and Merkle audit trails, and unresolved license metadata.
 - [SIDJUA](sidjua/index.md) - the governance-first orchestrator with a five-stage pre-action pipeline, frozen since April 2026 with its announced reopening date missed.
+- [Speakeasy Gram](speakeasy-gram/index.md) - the AGPL-3.0 open-source stack behind Speakeasy's hosted AI control plane: an enterprise MCP gateway provisioning access by role from your IdP with policy enforced on every prompt, response, and tool call.
 - [TinyAGI](tinyagi/index.md) - the one-person-company orchestrator that stalled in March 2026, kept as the category's first consolidation record.
 - [Tracekit](tracekit/index.md) - the MIT Certificate-Transparency-style signer that decides each agent tool call before it runs and exports every run as an offline-verifiable, witness-cosigned .tkb bundle.
 - [Vestige](vestige/index.md) - the AGPL-3.0 fail-closed local firewall that judges coding-agent tool calls against 27 deterministic rules from a shadow-first PreToolUse hook, records hash-chained receipts, and sells a one-time $149 Operator tier with owner-written laws.
@@ -59,3 +61,5 @@ Its members are compared on shared rows in the [Control Planes Feature Matrix](c
 - 2026-10-17 - Added Vestige.
 - 2026-10-21 - Added Tracekit.
 - 2026-11-01 - Added Mission Control.
+- 2026-11-05 - Added Speakeasy Gram.
+- 2026-11-05 - Added Agent Barn.

@@ -1,7 +1,7 @@
 ---
 title: CC Safety Net
 created: 2026-10-07
-updated: 2026-11-01
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, guardrails, security, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, single-repo open source, with full documentation at ccsafetynet.com.
 
 ## Status
 
-Actively maintained with no Hacker News help: 1,615 stars, 84 forks, and 3 open issues and pull requests as of 2026-10-28, created 2025-12-25, pushed 2026-10-30.
+Actively maintained with no Hacker News help: 1,615 stars, 84 forks, and 2 open issues as of 2026-11-05, created 2025-12-25, pushed 2026-11-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Actively maintained with no Hacker News help: 1,615 stars, 84 forks, and 3 open 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&legend=top-left" />
 </picture>
 
-The npm package (`cc-safety-net`) is at 2.7.1 as of 2026-11-01, first published 2026-01-03 and last published 2026-10-30, so the release cadence is measured in days.
+The npm package (`cc-safety-net`) is at 2.7.3 as of 2026-11-05, first published 2026-01-03 and last published 2026-11-04, so the release cadence is measured in days.
 **A Hacker News search returns zero threads as of 2026-10-07, so ten months of growth came through npm and GitHub alone, and the missing community footprint means the security claims have no public adversarial review I could find.**
 
 ## Strengths
@@ -80,6 +80,7 @@ Not for org-scale governance, audited enforcement, or anything where a silently 
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart, matching the fallback fix of 2026-10-25).
 - 2026-10-28 - npm train moved to 2.7.0 (published 2026-10-27, release v2.7.0): cloud-metadata credential reads, remote data uploads, and `unshare` user-namespace root escalations now blocked, commands that run a shell script from disk get the script analyzed, and the minimum Node.js version rose to 22, a breaking change for Node 18 and 20.
 - 2026-11-01 - npm train moved to 2.7.1 (published 2026-10-30, release v2.7.1): remotely fetched programs handed to an interpreter or PowerShell (`curl | python3`, `irm | iex`, `curl -o` then `bash`) now stop as unverifiable shell execution sources, and a host tool's working-directory argument can no longer move the boundary the recursive-delete rules protect.
+- 2026-11-05 - npm train moved to 2.7.2 (published 2026-11-02) then 2.7.3 (published 2026-11-04): 2.7.2 extends secret protection behind `env`, `sudo`, and `command` wrapper options and fixes an `allow_paths` entry ignored for a sensitive file named in an environment assignment, and 2.7.3 moves remote `curl`/`wget` uploads from the default Standard level to Strict and Paranoid only while recursive deletes with a variable or wildcard target from the home directory now block at Standard.
 
 ## See also
 

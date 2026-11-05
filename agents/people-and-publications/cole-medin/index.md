@@ -1,7 +1,7 @@
 ---
 title: Cole Medin
 created: 2026-10-15
-updated: 2026-10-29
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, video, agentic-engineering, tutorials]
 readability: 3
@@ -70,6 +70,7 @@ Not for anyone evaluating harnesses or model choices, where his register is tuto
 
 - 2026-10-15 - Created as the video band's tool-shipping tutorial slot, admitted on the in-window Archon breakout (March 2025) with all cited URLs fetched this run.
 - 2026-10-29 - Rotation re-verification, every cited URL re-fetched and live: Archon's README now bills the project as "the first open-source harness builder for AI coding" and reports Archon runs built 363 of the 524 pull requests merged into the repository between October 1 and 19, 2026; the channel surface still returns only a JavaScript shell, so the subscriber and video-count as-of dates hold, and ottomator-agents remains a November 2025 snapshot.
+- 2026-11-05 - Rotation re-verification: Archon and ottomator-agents re-fetched with both claims holding (the harness-builder billing and the 363-of-524 October 1-19 window read unchanged), the three video URLs and the channel surface re-fetched (YouTube still serves only a JavaScript shell to plain fetches, so the as-of dates hold), and no claim moved.
 
 ## See also
 

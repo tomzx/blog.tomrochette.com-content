@@ -1,7 +1,7 @@
 ---
 title: Valen
 created: 2026-10-13
-updated: 2026-10-31
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, decision-model, open-weights, multimodal]
 readability: 3
@@ -22,20 +22,20 @@ The README reports results on VisualDecisionBench and a game-evaluation set, wit
 
 ## Status
 
-Very young and actively shipping: 777 stars, 85 forks, and 1 open issue as of 2026-10-27, created 2026-09-23, pushed 2026-10-29, with the weights, datasets, demo, and export builds all public.
+Very young and actively shipping: 777 stars, 85 forks, and 1 open issue as of 2026-10-27, created 2026-09-23, pushed 2026-11-04, with the repository now under the team's own org (it transferred from Liuziyu77/Valen to Valen-Team/Valen in early November) and the weights, datasets, demo, and export builds all public.
 The project tagged its first release on 2026-10-28: v0.3.0 adds a CHANGELOG and a release process, records the valen-sdk 0.2.0 (PyPI) and @valen-team/sdk 0.2.0 (npm) publications, and packages the qualified F32/Q8_0 GGUFs behind the Valen-patched llama.cpp and Ollama builds of a pinned gguf-runtime-v0.1.0 download, with video input available from a source build; the README has since moved to valen-sdk 0.3.0 (2026-10-29) and announced a Valen.llm() LLM comparison and a Valen agent skill, and a Jev-ToM community evaluation joined the documentation on 2026-10-27.
 On 2026-10-24 the serving story consolidated into dual inference protocols: the SGLang and vLLM images and plugins expose both `/v1/systemone` and `/v1/decisions` from the same decision head.
 On 2026-10-25 and 10-26 the local-deployment story broadened: refreshed modular ONNX variants for all three sizes with Python (v0.2.0), JavaScript, and C++ SDKs over ONNX Runtime, and qualified F32/Q8_0 GGUFs running on Valen's custom CPU runtime with pinned, verified model downloads, where unmodified llama.cpp and Ollama support is explicitly not claimed.
 On 2026-10-21 the project shipped a documentation site with a web chat and a free hosted decision API requiring no key (api.valen-team.workers.dev, predicate, choice, and score questions; higher quotas by email approval), and on 2026-10-18 it released JevalKit (github.com/Valen-Team/JevalKit, Apache-2.0), an evaluation toolkit for Jev-like decision models with a Hugging Face leaderboard Space.
 On 2026-10-22 the repository added a validated vLLM serving plugin and deployment guides (a pinned candidate container for GPU validation, vLLM image startup commands in both READMEs), extending the serving story beyond the ONNX and GGUF exports.
-On 2026-10-16 the repository added a public Decision Index adapter and reproduction guides: `evaluation/decision_index` wraps the official Decision Index reproduction kit (pinned to revision f5a6e4f, frozen suite 0.3, verified before any model loads), making Valen the first Jev-family member to ship a first-party adapter to that protocol; the board's 0.4.1 edition now carries three Valen rows, Valen-4B 132nd at 37.57, Valen-2B 177th at 22.20, and Valen-0.8B 194th at 16.55 (230 configurations after the 2026-10-26 regeneration).
+On 2026-10-16 the repository added a public Decision Index adapter and reproduction guides: `evaluation/decision_index` wraps the official Decision Index reproduction kit (pinned to revision f5a6e4f, frozen suite 0.3, verified before any model loads), making Valen the first Jev-family member to ship a first-party adapter to that protocol; the board's 0.4.1 edition carries three Valen rows, Valen-4B 144th at 37.57, Valen-2B 193rd at 22.20, and Valen-0.8B 212th at 16.55 (248 configurations after the 2026-10-29 regeneration).
 **The footprint is the thinnest in its family: a single 2-point Hacker News post and no third-party coverage found, so every quality claim is currently the team's own.**
 The 0-open-issue count reflects age, not maturity.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Liuziyu77/Valen&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Liuziyu77/Valen&type=date&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Liuziyu77/Valen&type=date&legend=top-left" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Valen-Team/Valen&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Valen-Team/Valen&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Valen-Team/Valen&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -83,6 +83,7 @@ Not for production routing without independent evaluation, or for anyone needing
 - 2026-10-27 - Out-of-rotation re-fetch at the drift signal: the Decision Index's 2026-10-26 regeneration (230 configurations) crowd-shifted the three Valen rows one place each at unchanged scores (4B 131st to 132nd, 2B 176th to 177th, 0.8B 193rd to 194th), and the repository's pushed date moved to 2026-10-27 on docs-only commits; forks refreshed to 85; fetched and re-cited.
 - 2026-10-30 - Volatile re-verification after the 2026-10-28/29 pushes: the project tagged its first release, v0.3.0 (2026-10-28, a CHANGELOG and release process, the valen-sdk 0.2.0 PyPI and 0.2.0 npm publications recorded, the qualified GGUFs packaged behind the Valen-patched llama.cpp and Ollama builds of a pinned gguf-runtime-v0.1.0), the README moved to valen-sdk 0.3.0 and announced a Valen.llm() LLM comparison and a Valen agent skill, and a Jev-ToM community evaluation joined the documentation (2026-10-27); pushed date moved to 2026-10-29.
 - 2026-10-31 - Out-of-rotation re-fetch at the drift signal: the Decision Index's 2026-10-29 regeneration (248 configurations) crowd-shifted the three Valen rows at unchanged scores (4B 132nd to 144th, 2B 177th to 193rd, 0.8B 194th to 212th); fetched and re-cited.
+- 2026-11-05 - Volatile re-verification after the 2026-11-04 push: the repository transferred from Liuziyu77/Valen to Valen-Team/Valen, and the merged #41 added the Valen-Decision-1.5 architecture generation (block-structured full attention and a grounding head as additive configuration options on the existing qwen backend, FSDP2 training, compiler-robustness fixes that skip rejected records and avoid per-length kernel selection and FlexAttention recompiles) with the READMEs renaming the project Valen-Decision; no release past v0.3.0 (2026-10-28); pushed date moved to 2026-11-04 and the star-history chart and citations re-pointed at the new owner.
 
 ## See also
 
@@ -94,8 +95,8 @@ Not for production routing without independent evaluation, or for anyone needing
 
 ## References
 
-- https://github.com/Liuziyu77/Valen - repository, Apache-2.0 license, stars, push activity, and the training-and-eval structure as of 2026-10-30 (pushed 2026-10-29; GitHub API re-fetched 2026-10-30)
-- https://github.com/Liuziyu77/Valen/releases - the v0.3.0 release notes (2026-10-28): the CHANGELOG and release process, the SDK publications, and the pinned gguf-runtime-v0.1.0 packaging (fetched 2026-10-30)
+- https://github.com/Valen-Team/Valen - repository (moved from Liuziyu77/Valen in early November 2026), Apache-2.0 license, stars, push activity, and the training-and-eval structure as of 2026-11-05 (pushed 2026-11-04; GitHub API re-fetched 2026-11-05 via the redirect)
+- https://github.com/Valen-Team/Valen/releases - the v0.3.0 release notes (2026-10-28): the CHANGELOG and release process, the SDK publications, and the pinned gguf-runtime-v0.1.0 packaging (re-fetched 2026-11-05, still the latest release)
 - https://github.com/Valen-Team/JevalKit - the first-party evaluation toolkit: Apache-2.0, created 2026-10-16, unified model interfaces and prepared evaluation datasets (GitHub API, as of 2026-10-24)
 - https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard - the JevalKit leaderboard Space (fetched 2026-10-24)
 - https://valen-team.github.io/ - the documentation site and web chat, with the free-API and quota statements (fetched 2026-10-24)

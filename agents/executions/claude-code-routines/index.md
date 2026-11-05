@@ -1,7 +1,7 @@
 ---
 title: Claude Code routines
 created: 2026-10-06
-updated: 2026-11-01
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, claude-code, scheduling]
 readability: 3
@@ -38,7 +38,7 @@ Anthropic published free routine templates around it and third parties already s
 ## Cautions
 
 - **There is no permission-mode picker**: a routine starts in auto mode, where a classifier model allows or blocks each action and a prompt appears only on ask rules or after repeated blocks, and all of your account's connectors are included by default, write scopes included.
-- A run is creator-private, like Copilot automations: routines belong to the individual claude.ai account, teammates cannot see them, and admins get only the on/off toggle.
+- A run is creator-private (Copilot automations now offer a shared type beside this): routines belong to the individual claude.ai account, teammates cannot see them, and admins get only the on/off toggle.
 - Green run status means the session started and exited without an infrastructure error, not that the task succeeded, and independent practitioners document silent-failure modes (unreadable sources rendered as empty results, delayed fires, dropped GitHub events at the caps).
 - Caps are hard: 100 scheduled runs per account-hour, 30 fires per routine-hour shared with Run now, GitHub events beyond the caps dropped until the window resets, and no overage without usage credits. A stale GitHub connection is a hard stop too: runs skip for up to 72 hours and then the routine switches itself off.
 - Scheduled intervals bottom out at one hour, and an exactly-on-the-hour start can slip several minutes late (Anthropic suggests 9:07 over 9:00).
@@ -50,7 +50,7 @@ Runs draw down subscription usage like interactive sessions, and organizations w
 
 ## Compared to
 
-- [GitHub Copilot automations](../copilot-automations/index.md): the same hosted, creator-private pattern on GitHub's side, metered in Actions minutes and AI credits instead of subscription usage.
+- [GitHub Copilot automations](../copilot-automations/index.md): the hosted sibling on GitHub's side, whose new shared type now offers the team-visible governance routines still lack.
 - [Claude Code hooks](../claude-code-hooks/index.md): event triggers inside a live session; routines start whole sessions from outside any session.
 - [GitHub Agentic Workflows](../github-agentic-workflows/index.md): the in-repo, versioned alternative when the automation logic itself should be reviewed like code.
 
@@ -67,10 +67,11 @@ My disagreeable claim: shipping every account connector into an unattended run b
 - 2026-10-20 - Repointed the launch-announcement reference to its current claude.com/resources path after the claude.com/blog path began redirecting; the new target re-fetched and live.
 - 2026-10-25 - Fully re-verified in rotation with every cited URL re-fetched: recorded the docs' rename to scheduled tasks (routines kept in the URL, CLI alias, and API), added issue events to the GitHub trigger list, re-grounded the autonomy caution on the current auto-mode wording (classifier decisions, prompts on ask rules and repeated blocks), and replaced the stale v2.1.213 trust-model reference, which left the current page, with the version gates it now carries (v2.1.211, v2.1.225, v2.1.227, v2.1.268); the caps, the 72-hour GitHub-disconnect auto-off, the fire-payload wrapping, the optional beta header, and the 720-point launch thread all re-confirmed.
 - 2026-11-01 - Fully re-verified in rotation with every cited URL re-fetched: the scheduled-tasks rename, the three trigger kinds with issue events and filters, the auto-mode autonomy default, the connector default, the caps, the 72-hour auto-off, the fire-payload wrapping, the optional beta header (re-confirmed on the platform's fire reference), the green-status semantics from the independent post-mortem, and the 720-point launch thread all re-confirmed; added Ultra to the plan list (docs and launch announcement both carry it) and dropped the v2.1.211 gate, which left the live docs page.
+- 2026-11-05 - Corrected the three sibling-characterization claims against Copilot automations' new personal-versus-shared types (the creator-private caution, the comparison, and the See also line), re-verified out of rotation on the automations docs signal; the routines-specific claims held from the 2026-11-01 full re-verification.
 
 ## See also
 
-- [GitHub Copilot automations](../copilot-automations/index.md) - the GitHub-side hosted sibling with the same creator-private governance hole
+- [GitHub Copilot automations](../copilot-automations/index.md) - the GitHub-side hosted sibling, whose shared type now covers part of the governance hole routines still have
 - [Claude Code hooks](../claude-code-hooks/index.md) - the in-session event surface these out-of-session triggers complement
 - [GitHub Agentic Workflows](../github-agentic-workflows/index.md) - the in-repo, versioned route to the same chores
 - [Claude Code](../../harnesses/claude-code/index.md) - the harness every routine run instantiates

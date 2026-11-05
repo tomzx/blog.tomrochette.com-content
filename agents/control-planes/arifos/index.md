@@ -1,7 +1,7 @@
 ---
 title: arifOS
 created: 2026-10-16
-updated: 2026-11-01
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, governance-kernel, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The maintainer positions it as the layer between "agent wants to act" and "actio
 
 ## Status
 
-Active and early: 54 stars and 9 forks as of 2026-10-18, with 14 open issues and the latest push on 2026-10-31 as of 2026-11-01, created 2025-11-17, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
+Active and early: 54 stars and 9 forks as of 2026-10-18, with 18 open issues and the latest push on 2026-11-03 as of 2026-11-05, created 2025-11-17, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ariffazil/arifOS&type=date&theme=dark&legend=top-left" />
@@ -76,6 +76,7 @@ Not for anyone who needs verified actor identity, measured floors, or a communit
 - 2026-10-28 - The self-measurement stamp moved to 2026-10-26 (11 of 13 floors pass, failing F8 only, drift aligned with source, build, and deployment on one commit), clearing the F1 failure the 10-26 drift flag had held undeployed, against the unchanged 2026-10-11 independent audit; PyPI still trails at 1!2026.10.17 while tags reached v2026.10.27.
 - 2026-10-30 - The self-measurement stamp moved to 2026-10-29 (12 of 13 floors measured pass, F6 unmeasured, none failing, kernel still degraded, drift aligned), clearing the F8 failure, against the unchanged 2026-10-11 independent audit; the kernel also landed a model-governance card on its init envelopes (server-minted model provenance, fail-closed UNKNOWN, enforcement surface 32 to 33), and PyPI still trails at 1!2026.10.17.
 - 2026-11-01 - The self-measurement stamp held at 2026-10-29 (12 of 13 measured pass, F6 unmeasured, drift aligned) and PyPI still trails at 1!2026.10.17, while the README's known-gaps table now records an external researcher security review in progress since 2026-08-25 with findings landed (a fetch-surface SSRF fixed, a Cypher-injection key whitelist, a fastmcp path-traversal containment guard), and the README lists this corpus among its candidate independent references.
+- 2026-11-05 - The self-measurement stamp held at 2026-10-29 (12 of 13 measured pass, F6 unmeasured, drift aligned on the deployed build) against the unchanged independent audit, but the README's drift line now reads repo_live_divergence with the repo tree ahead of the deployed build and deploy pending, and PyPI still trails at 1!2026.10.17.
 
 ## See also
 

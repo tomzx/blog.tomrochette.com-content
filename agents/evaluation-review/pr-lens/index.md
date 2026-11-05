@@ -1,7 +1,7 @@
 ---
 title: PR Lens
 created: 2026-10-10
-updated: 2026-10-30
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, visualization, pull-requests]
 readability: 3
@@ -24,7 +24,7 @@ The README documents none of that, only the drawing surfaces plus GitLab and Bit
 
 ## Status
 
-New and moving fast: 1,954 stars and 71 forks as of 2026-10-13, created 2026-08-20, pushed 2026-10-30, with v0.13.1 published 2026-10-17 as the newest release and the npm CLI at 0.14.0, whose train added the data-model lens; the week's merges also hardened the CLI, which now refuses HTTP redirects on model-provider requests, requires http(s) canvas URLs, and scopes PR_LENS_TOKEN to the configured origin.
+New and moving fast: 1,954 stars and 71 forks as of 2026-10-13, created 2026-08-20, pushed 2026-11-04, with v0.13.1 published 2026-10-17 as the newest release and the npm CLI at 0.14.0, whose train added the data-model lens; the week's merges also hardened the CLI, which now refuses HTTP redirects on model-provider requests, requires http(s) canvas URLs, and scopes PR_LENS_TOKEN to the configured origin.
 Reaching 1.9k stars in seven weeks is strong adoption for a review tool, though the independent footprint is small: a Hacker News search finds three Show HN threads (6 points on 2026-08-27, 4 points on 2026-10-05, 4 points on 2026-09-17), none above single digits.
 
 <picture>
@@ -72,6 +72,7 @@ Not for defect detection from the open-source core (it renders, not judges), and
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-30 - Recorded the npm CLI at 0.14.0 (2026-10-27, the train that added the data-model lens) and the merged CLI security hardening (redirect refusal on model-provider requests, http(s)-only canvas URLs, PR_LENS_TOKEN scoped to the configured origin, and a regex-backtracking fix); refreshed the activity line.
+- 2026-11-05 - Refreshed the activity line: the default branch moved 2026-11-04 with a merged outside pull request (PR 89), v0.13.1 still the newest release and the npm CLI re-confirmed at 0.14.0.
 
 ## See also
 

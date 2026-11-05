@@ -1,7 +1,7 @@
 ---
 title: Veto
 created: 2026-09-27
-updated: 2026-11-01
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-authorization, policy-enforcement, tool-calls, human-in-the-loop, open-source]
 readability: 3
@@ -25,7 +25,7 @@ It is made by Plaw, Inc. (US), which lists Veto as an EU AI Pact signatory.
 ## Status
 
 Active product; the open-source repository woke up.
-The repository was created 2026-01-02 and sits at 14 stars, 2 forks, and 1 open issue as of 2026-10-10, and after 113 days of silence (no push since 2026-06-18) it received five release-engineering commits on 2026-10-09: CI moved to Depot, npm trusted publishing enabled, a first receipt package staged with provenance, and a Neon Postgres receipt persistence example, and on 2026-10-14 the revival gained its first feature commit (runtime action SDK clients, PR 252), followed by a docs-only commit on 2026-10-30 (a Neon logo and README link, PR 260), still with no new tag (the latest published release remains `veto-sdk@2.9.3` on 2026-05-07).
+The repository was created 2026-01-02 and sits at 14 stars, 2 forks, and 2 open issues as of 2026-11-05, and after 113 days of silence (no push since 2026-06-18) it received five release-engineering commits on 2026-10-09: CI moved to Depot, npm trusted publishing enabled, a first receipt package staged with provenance, and a Neon Postgres receipt persistence example, and on 2026-10-14 the revival gained its first feature commit (runtime action SDK clients, PR 252), followed by a docs-only commit on 2026-10-30 (a Neon logo and README link, PR 260), still with no new tag (the latest published release remains `veto-sdk@2.9.3` on 2026-05-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PlawIO/veto&type=date&theme=dark&legend=top-left" />

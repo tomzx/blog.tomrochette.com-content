@@ -1,7 +1,7 @@
 ---
 title: Jevals
 created: 2026-10-06
-updated: 2026-10-30
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, guardrails, jev, decision-models, python]
 readability: 3
@@ -24,7 +24,7 @@ It comes from OpenLayer (the openlayer-ai organization), is alpha, MIT, Python 3
 ## Status
 
 **Twenty-nine days old and already carrying more independent evidence than most month-old tools ever get.**
-105 stars and 11 forks as of 2026-10-19 (repository created 2026-09-20, last push 2026-10-15), PyPI 0.1.4 published 2026-09-20, and a 47-point Show HN with 6 comments the same day.
+105 stars and 11 forks as of 2026-10-19 (repository created 2026-09-20, last push 2026-11-02), PyPI 0.1.4 published 2026-09-20, and a 47-point Show HN with 6 comments the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openlayer-ai/jevals&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ Not for judgments that need multi-step reasoning or a written critique (keep an 
 - 2026-10-07 - Added the openlayer-ai/jevals star history chart to the Status section.
 - 2026-10-23 - Replaced the dead jevbench.xyz source (DNS no longer resolves) with the moved canonical board at benchmarkheaven.com/jev-models and the JevBench repository, restated the accuracy caution on live sources, and added the Red Hat AI Safety bench as the critical source; every cited URL re-fetched in rotation.
 - 2026-10-30 - Rotation re-verification: every cited URL re-fetched and live, and the JevBench board refreshed from 196 to 235 ranked open-weights systems, now carrying TypeSafe's Jev 1.14.0 (capability 75.0) as a second unranked reference; PyPI re-confirmed at 0.1.4.
+- 2026-11-05 - Refreshed the activity line: the default branch moved 2026-11-02 with CI hardening (GitHub Actions pinned to commit SHAs, PR 14), PyPI still 0.1.4.
 
 ## See also
 
