@@ -1,7 +1,7 @@
 ---
 title: Autohand Code CLI
 created: 2026-10-27
-updated: 2026-10-29
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, typescript, bun, byok, local-models]
 readability: 3
@@ -27,7 +27,7 @@ Auto mode works a task on its own branch in a separate worktree, commits checkpo
 ## Status
 
 **Active, prerelease, and almost without an independent footprint.**
-The repository was created December 12, 2025 and shows 211 stars and 37 forks as of 2026-10-27 (GitHub API), with 3,250 commits and a push on 2026-10-29 (GitHub API, as of 2026-10-29); GitHub releases reached the first stable v0.9.9 tag (published October 27, 2026, adding Ctrl+Enter steering of queued messages into the running conversation, identity-retaining streamed tool-call continuations, and replies that stay visible while reviews, todos, steering, and peer updates continue) after the 0.9.9-alpha hashes, and the npm package `autohand-cli` sits at latest 0.9.9 (published October 27, 2026).
+The repository was created December 12, 2025 and shows 211 stars and 37 forks as of 2026-10-27 (GitHub API), with 3,250 commits as of 2026-10-27 and a push on 2026-11-05 (GitHub API, as of 2026-11-06); GitHub releases reached v0.9.10 (published November 4, 2026), which paints the composer before background MCP connections and repository snapshots finish so startup reads instant, reconnects MCP servers in the background when a saved session resumes, adds Ctrl+S steering of queued input for terminals that cannot distinguish Ctrl+Enter, a browsable `/` slash-command menu, opt-in adaptive skills that load complete pinned instructions when a task needs them with visible loading receipts, translation of supported Claude Code permission rules on import with a dry-run preview, and unattended turns exiting with status 77 at the first missing tool approval, after the first stable v0.9.9 tag (published October 27, 2026, adding Ctrl+Enter steering of queued messages into the running conversation, identity-retaining streamed tool-call continuations, and replies that stay visible while reviews, todos, steering, and peer updates continue), and the npm package `autohand-cli` sits at latest 0.9.10 (published November 4, 2026).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=autohandai/code-cli&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ The repository was created December 12, 2025 and shows 211 stars and 37 forks as
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=autohandai/code-cli&type=date&legend=top-left" />
 </picture>
 
-The changelog queues persistent goals as default-on for 0.9.9 and redefines `-c` to mean `--continue` as a breaking change.
+The v0.9.9 changelog shipped persistent goals (`/goal`, `/goals`, `--goal`) default-on and redefined `-c` to mean `--continue` as a breaking change, with `--auto-commit` taking over the old behavior.
 Every Hacker News trace is the vendor's own: an "Intent Weaving" post at 22 points in October 2025, a Fantail small-model Show HN and the repo itself at 1 to 2 points, and no third-party coverage found as of 2026-10-27, which I read as the missing-signal signal for a ten-month-old tool.
 
 ## Strengths
@@ -58,13 +58,14 @@ Every Hacker News trace is the vendor's own: an "Intent Weaving" post at 22 poin
 ## Pricing
 
 The CLI is free and open source, and BYOK or local usage never consumes credits on any plan.
-Hosted plans as of 2026-10-27: Free $0 (Fantail only, 15 credits per rolling 5-hour window, 100 per month), Lite $6/month, Pro $20/month, Pro+ $59/month, Max $200/month, Team $59/seat/month, and Enterprise $119/seat/month; every hosted model costs one credit per successful response regardless of tier, paid annual runs 10 percent off, and cloud sandboxes start at Pro (4 concurrent) and cap at Max (10).
+Hosted plans as of 2026-10-27 (re-verified unchanged on 2026-11-06 except the Free monthly cap, which dropped from the baseline's 100 to 50): Free $0 (Fantail only, 15 credits per rolling 5-hour window, now 50 per month), Lite $6/month, Pro $20/month, Pro+ $59/month, Max $200/month, Team $59/seat/month, and Enterprise $119/seat/month; every hosted model costs one credit per successful response regardless of tier, paid annual runs 10 percent off, and cloud sandboxes start at Pro (4 concurrent) and cap at Max (10).
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-10-27 | All plans | Baseline: CLI free (Apache-2.0 with the ARR-over-$5M commercial clause); hosted Free $0, Lite $6/mo, Pro $20/mo, Pro+ $59/mo, Max $200/mo, Team $59/seat/mo, Enterprise $119/seat/mo; one credit per hosted response; BYOK never metered. | [autohand.ai/code/pricing](https://autohand.ai/code/pricing/) |
+| 2026-11-06 | Free | Monthly credit cap reads 50 per month, down from the 100 recorded at the 2026-10-27 baseline; all plan prices, the 5-hour windows, and the BYOK exemption unchanged. | [autohand.ai/code/pricing](https://autohand.ai/code/pricing/) |
 
 ## Compared to
 
@@ -82,6 +83,7 @@ Not for organizations needing an unmodified Apache-2.0 story, and not for anyone
 - 2026-10-27 - Created from the context-engines scanner's handoff (Meirtz list), resolving the entrant with the repository, GitHub API, npm registry, product site, pricing page, commercial license, changelog, and the Hacker News footprint record all fetched in this run.
 - 2026-10-29 - Recorded the first stable v0.9.9 release and npm 0.9.9 (both published October 27, 2026) after the 0.9.9-alpha train: Ctrl+Enter steering of queued messages, identity-retaining streamed tool-call continuations, and replies staying visible while reviews, todos, steering, and peer updates continue; refreshed the push date to 2026-10-29.
 - 2026-10-29 - Corrected the star-history chart markup: the light source and fallback image dropped the dark-theme parameter to match the canonical chart block.
+- 2026-11-06 - Rotation re-verification, re-fetching every cited reference (all live): recorded the v0.9.10 release and npm 0.9.10 (both published November 4), refreshed the push date to 2026-11-05, and recorded the Free plan's monthly credit cap dropping from the baseline's 100 to 50 with the matching Price history row (all other plan prices unchanged).
 
 ## See also
 
@@ -93,11 +95,11 @@ Not for organizations needing an unmodified Apache-2.0 story, and not for anyone
 ## References
 
 - https://github.com/autohandai/code-cli - repository and README: feature surface, installer behaviors including the PATH `agent` takeover, provider table, skills and tools (fetched 2026-10-27)
-- https://api.github.com/repos/autohandai/code-cli - created 2025-12-12, 211 stars, 37 forks, Apache-2.0, 3,250 commits, pushed 2026-10-27 (GitHub API, as of 2026-10-27)
-- https://api.github.com/repos/autohandai/code-cli/releases?per_page=3 - the 0.9.9-alpha prerelease train, newest published 2026-10-23 (GitHub API, as of 2026-10-27)
-- https://registry.npmjs.org/autohand-cli - npm distribution: latest 0.9.8, alpha prereleases, package created 2025-12-17 (registry API, as of 2026-10-27)
+- https://api.github.com/repos/autohandai/code-cli - created 2025-12-12, 211 stars, 37 forks, Apache-2.0, pushed 2026-11-05 (GitHub API, as of 2026-11-06)
+- https://api.github.com/repos/autohandai/code-cli/releases?per_page=3 - v0.9.10 published 2026-11-04 after the first stable v0.9.9 on 2026-10-27 (GitHub API, as of 2026-11-06)
+- https://registry.npmjs.org/autohand-cli - npm distribution: latest 0.9.10, package created 2025-12-17 (registry API, as of 2026-11-06)
 - https://www.autohand.ai/code/ - product surface, hosted model roster, surfaces, testimonials, and the SOC 2 claim (fetched 2026-10-27)
-- https://autohand.ai/code/pricing/ - the plan ladder, credit mechanics, BYOK exemption, and cloud-sandbox tiers, as of 2026-10-27
+- https://autohand.ai/code/pricing/ - the plan ladder, credit mechanics, BYOK exemption, and cloud-sandbox tiers, re-verified 2026-11-06
 - https://raw.githubusercontent.com/autohandai/code-cli/main/COMMERCIAL.md - the commercial-license requirement for organizations over $5M ARR
 - https://raw.githubusercontent.com/autohandai/code-cli/main/CHANGELOG.md - the 0.9.9 queued defaults: goals on, `-c` redefined as `--continue`
 - https://hn.algolia.com/api/v1/search?query=autohand&tags=story - the vendor-submitted, near-zero-traction Hacker News record, searched 2026-10-27

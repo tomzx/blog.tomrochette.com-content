@@ -1,7 +1,7 @@
 ---
 title: Orkas
 created: 2026-10-12
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, desktop, commander, byok]
 readability: 3
@@ -24,7 +24,7 @@ The vendor operates under a Chinese ICP filing (Guangdong, number in the site fo
 ## Status
 
 **Active with a steady release train, and no independent coverage yet.**
-2,166 stars, 90 forks, 11 open issues, created 2026-04-29, pushed 2026-11-04, latest release v2026.10.27 (2026-10-27) after v2026.10.17 (2026-10-17) and v2026.10.1 (2026-10-01), a calendar-versioned train three releases into October, as of 2026-11-03 (GitHub API).
+2,166 stars, 90 forks, 11 open issues, created 2026-04-29, pushed 2026-11-04, latest release v2026.11.4 (2026-11-04) after v2026.10.27 (2026-10-27) and v2026.10.1 (2026-10-01), a calendar-versioned train now one release into November, as of 2026-11-06 (GitHub API).
 I found no Hacker News thread through 2026-10-12 searches, only orca-whale stories under the name, so the 2k-plus stars arrived without a public debate record.
 The site claims thousands of users and 100-plus agents and skills; both figures are self-published.
 
@@ -74,6 +74,7 @@ Not for engineering teams whose loop is worktree, review, and PR discipline, or 
 ## Changes
 
 - 2026-10-12 - Created from the 2026-10-12 candidate scan, with the sandbox-checkout pricing page and the no-coverage star record as the critical angles.
+- 2026-11-06 - Volatile refresh: Recorded v2026.11.4 (2026-11-04), the train crossing into November.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).

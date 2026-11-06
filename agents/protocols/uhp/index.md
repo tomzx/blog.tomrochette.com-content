@@ -1,7 +1,7 @@
 ---
 title: Unified Harness Protocol (UHP)
 created: 2026-10-08
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, agent-serving, harnesses]
 readability: 3
@@ -24,9 +24,9 @@ Apache-2.0, maintained in the HarnessRouter repository under a maintainer-led, p
 
 ## Status
 
-**Active and shipping fast: 2,994 stars (2026-10-13), 442 forks, created 2026-08-09, pushed 2026-11-04, as of 2026-11-04 (GitHub API).**
+**Active and shipping fast: 2,994 stars (2026-10-13), 442 forks, created 2026-08-09, pushed 2026-11-06, as of 2026-11-06 (GitHub API).**
 
-The spec is at version 2026-10-19, its fifth version in roughly ten weeks (2026-08-11, 2026-09-12, 2026-09-28, 2026-10-04, 2026-10-19), and the conformance suite at the implementing product's latest tag is 2026.10.19.post5, whose T-13 and T-14 cover the fifth version's new input_requests capability (spec-matching, re-fetched 2026-11-04).
+The spec is at version 2026-10-19, its fifth version in roughly ten weeks (2026-08-11, 2026-09-12, 2026-09-28, 2026-10-04, 2026-10-19), and the conformance suite at the implementing product's latest tag is 2026.10.19.post5, whose T-13 and T-14 cover the fifth version's new input_requests capability (spec-matching, re-fetched 2026-11-06).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HarnessRouter/harnessrouter&type=date&theme=dark&legend=top-left" />
@@ -86,6 +86,7 @@ My disagreeable claim: the Responses API already owns this lane by gravity, so t
 - 2026-11-01 - Re-verification: the spec stays at its 2026-10-19 fifth version with the conformance suite at 2026.10.19.post4 (the changelog's newest entry), the release train still ends at v0.37.13 (2026-10-31), and the repository pushed 2026-11-01 on housekeeping only (an opt-in security-scan CI workflow and a kit rename, no new tag).
 - 2026-11-03 - The release train moved through v0.37.14 (2026-11-01) to v0.37.15 (2026-11-03) while the spec stays at its 2026-10-19 fifth version and the conformance suite at 2026.10.19.post4 (the changelog's newest entry unchanged); the repository pushed 2026-11-03.
 - 2026-11-04 - The release train moved through v0.37.16 and v0.37.17 (2026-11-03) and v0.37.18 (2026-11-04) to v0.38.0 (2026-11-04), and the conformance suite moved to 2026.10.19.post5, which covers the fifth version's new input_requests capability (a task can end its turn by asking the person, with secret answers reaching the harness outside the conversation and appearing nowhere a client reads); the spec stays at its 2026-10-19 fifth version; the repository pushed 2026-11-04.
+- 2026-11-06 - The release train moved to v0.38.1 (2026-11-04, a security fix that ends group-root reach in session file reads and writes, and a task that cannot start now says so at once) and v0.38.2 (2026-11-04, a licensing correction that removes an LGPL image library from the shipped console image and corrects NOTICE), while the spec stays at its 2026-10-19 fifth version and the conformance suite's newest entry stays 2026.10.19.post5 (2026-11-03); the repository pushed 2026-11-06 on runner hardening (a turn answers only the session that started it, and a turn's idempotency key dedupes within its own session only).
 
 ## See also
 
@@ -103,7 +104,7 @@ My disagreeable claim: the Responses API already owns this lane by gravity, so t
 - https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/protocol/versions/2026-10-04/architecture.md - the Client/Server/Harness roles, the three conformance classes, and the configured-harness object model
 - https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/protocol/GOVERNANCE.md - the UEP proposal-first process and the three-artifact rule
 - https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/protocol/CHANGELOG.md - the spec-churn record: the 2026-10-04 same-day patch, the conformance-suite additions through 2026.10.19.post5, and the 2026-10-19 fifth version's deprecation and input_requests entries
-- https://github.com/HarnessRouter/harnessrouter/releases - the implementing product's release train: v0.37.16 and v0.37.17 (2026-11-03), v0.37.18 and v0.38.0 (2026-11-04) (fetched 2026-11-04)
+- https://github.com/HarnessRouter/harnessrouter/releases - the implementing product's release train: v0.38.1 and v0.38.2 (both 2026-11-04) after v0.38.0 (fetched 2026-11-06)
 - https://github.com/SuperagenticAI/superqode - the second implementation, 62 stars, Apache-2.0 (GitHub API, as of 2026-10-11)
 - https://harnessrouter.ai - the hosted service: sixteen harness bases behind the UHP contract, commercial with a free tier
 - https://hn.algolia.com/api/v1/search?query=%22Unified%20Harness%20Protocol%22&tags=story - the footprint scan: zero stories naming the protocol, found 2026-10-08

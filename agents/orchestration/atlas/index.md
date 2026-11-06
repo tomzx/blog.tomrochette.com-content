@@ -1,7 +1,7 @@
 ---
 title: Atlas
 created: 2026-09-29
-updated: 2026-11-03
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, source-control, rust]
 readability: 3
@@ -23,7 +23,7 @@ It surfaced as an entrant from the owner's GitHub stars.
 
 ## Status
 
-Active and growing fast: 9,601 stars in five months (as of 2026-10-15), last push 2026-11-03, latest release alpha-0.4.1-org-agent on 2026-11-03, after the alpha-0.3.x line that closed with alpha-0.3.4 on 2026-09-27, the 0.4 release body empty so the org-agent label is all the tag says (GitHub API, as of 2026-11-03).
+Active and growing fast: 9,601 stars in five months (as of 2026-10-15), last push 2026-11-06, latest release alpha-0.4.1-org-agent on 2026-11-03, after the alpha-0.3.x line that closed with alpha-0.3.4 on 2026-09-27, the 0.4 release body empty so the org-agent label is all the tag says (GitHub API, as of 2026-11-06).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=pacifio/atlas&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ Not for teams needing a stable 1.0, Linux desktop installers, or a tool with ind
 - 2026-10-07 - Added the pacifio/atlas star history chart to the Status section.
 - 2026-10-18 - Re-verified in rotation (all cited URLs re-fetched, none dead); pricing moved from none to a four-tier page (Pro $20, Team $100, Business $200 per month, app still free in alpha with BYO keys), price history table seeded.
 - 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live; last push 2026-10-27 and alpha-0.3.4 (2026-09-27) unchanged, no factual drift.
+- 2026-11-06 - Re-verified in rotation: every cited URL re-fetched and live; last push moved to 2026-11-06, release still alpha-0.4.1-org-agent, pricing page unchanged.
 
 ## See also
 

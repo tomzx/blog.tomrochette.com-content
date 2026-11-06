@@ -1,7 +1,7 @@
 ---
 title: Crystal
 created: 2026-08-24
-updated: 2026-10-29
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, desktop-app]
 readability: 3
@@ -48,7 +48,7 @@ Nimbalyst itself is actively marketed, with team collaboration free during its b
 - The tool you can download today is unmaintained; treat any new install as a fork-first decision.
 - Nimbalyst is a much broader bet (editors, teams, mobile) from a small team, and pivots this wide often thin out execution.
 - Monetization for Nimbalyst rests on teams and enterprise tiers that are still forming.
-- The category context matters: Conductor stayed a session manager and raised money, so the "feature not product" thesis is contested, not settled.
+- The category context matters: Conductor stayed a session manager, raised $22M, and then joined Meta with a wind-down announced 2026-11-04, which now reads as support for the pivot thesis rather than against it.
 
 ## Pricing
 
@@ -57,7 +57,7 @@ Nimbalyst is free for individuals with MIT-licensed desktop and iOS apps, and se
 
 ## Compared to
 
-- [Conductor](../conductor/index.md): the counterexample, a funded pure session manager that kept shipping.
+- [Conductor](../conductor/index.md): the counterexample, a funded pure session manager that kept shipping until it joined Meta with a wind-down announced 2026-11-04.
 - [Claude Squad](../claude-squad/index.md): the terminal equivalent, still maintained, same minimal scope Crystal abandoned.
 - [dmux](../dmux/index.md): a newer terminal tool betting the minimal scope still works.
 
@@ -72,6 +72,7 @@ My disagreeable claim: Stravu read the market correctly, because harness CLIs we
 - 2026-10-07 - Added the stravu/crystal star history chart to the Status section.
 - 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository still public and not GitHub-archived, Nimbalyst's site, both HN threads); no factual drift in the death record.
 - 2026-10-29 - Re-verified in rotation: all cited sources re-fetched and live (deprecation notice, repository, Nimbalyst site, both HN threads); no factual drift in the death record.
+- 2026-11-06 - Re-verified in rotation: all cited sources re-fetched and live, no drift in the death record itself; the Conductor references updated now that Conductor announced it is joining Meta with a wind-down on 2026-11-04, which the Cautions read as support for the pivot thesis.
 
 ## See also
 

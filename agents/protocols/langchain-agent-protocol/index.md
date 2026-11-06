@@ -1,7 +1,7 @@
 ---
 title: Agent Protocol (LangChain)
 created: 2026-10-07
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, agent-serving, rest-apis]
 readability: 3
@@ -19,7 +19,7 @@ The Agent Protocol is LangChain's open, MIT-licensed REST/OpenAPI specification 
 ## What it is
 
 The OpenAPI document (v0.1.6 as of 2026-10-07) defines endpoints for agent listing and schemas, thread CRUD plus history and copy, and run execution with search, stream, wait, and cancel, so any conforming server exposes the same serving surface.
-A companion streaming specification adds primitives with a CDDL schema and generated Python and TypeScript bindings for live agent execution, the Python side published to PyPI as `langchain-protocol` (0.0.20 as of 2026-10-22).
+A companion streaming specification adds primitives with a CDDL schema and generated Python and TypeScript bindings for live agent execution, the Python side published to PyPI as `langchain-protocol` (0.0.21 as of 2026-11-05).
 The repository ships a Python server stub generated from the spec (FastAPI and Pydantic v2), an open-source LangGraph.js implementation using in-memory storage, and self-hosted async-subagent server examples in the deepagents projects.
 MIT licensed, stewarded in the `langchain-ai` GitHub organization (repository created 2024-11-12, not a fork), with the README framing it as framework-agnostic: any agent can sit behind the API.
 
@@ -77,6 +77,7 @@ My disagreeable claim: this lane matters more than the protocol-sprawl critics a
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the OpenAPI document re-confirmed at 0.1.6 with the repository pushed 2026-10-26, the streaming bindings stay at `langchain-protocol` 0.0.20, the footprint scan still finds no dedicated launch thread for this spec, and the LangGraph Platform pricing URL now redirects to langchain.com/pricing (reference updated).
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the OpenAPI document re-confirmed at 0.1.6 with the repository pushed 2026-10-30 (dependabot tooling merges only since the last pass), the streaming bindings stay at `langchain-protocol` 0.0.20 (uploaded 2026-10-20), the LangGraph Platform pricing URL still redirects to langchain.com/pricing, the README framing and resource list unchanged, and the footprint scans still find no dedicated launch thread for this spec (the name-collision 2023 agentprotocol.ai Show HN unchanged at 6 points); forks re-counted at 63.
 - 2026-11-04 - Re-verification: the OpenAPI document re-confirmed at 0.1.6 with the repository pushed 2026-11-03 (Python-client dependency-security fixes and a Python 3.11 requirement for the client, no release cut); the streaming bindings stay at `langchain-protocol` 0.0.20 (uploaded 2026-10-20).
+- 2026-11-06 - The streaming bindings moved to `langchain-protocol` 0.0.21 (uploaded 2026-11-05), the first PyPI release since 0.0.20 (2026-10-20); the OpenAPI document re-confirmed at 0.1.6.
 
 ## See also
 
@@ -94,4 +95,4 @@ My disagreeable claim: this lane matters more than the protocol-sprawl critics a
 - https://www.langchain.com/pricing-langgraph-platform - the commercial LangGraph Platform page (now a 301 redirect to https://www.langchain.com/pricing, which renders client-side), the superset implementation
 - https://hn.algolia.com/api/v1/search?query=langchain%20agent%20protocol&hitsPerPage=6 - the footprint scan: no dedicated launch thread for the LangChain spec, found 2026-10-07, re-fetched 2026-10-20
 - https://hn.algolia.com/api/v1/search?query=%22agent%20protocol%22&tags=story - the name-collision record: Show HN Agent Protocol (2023-07-24) and related stories for the older agentprotocol.ai spec
-- https://pypi.org/pypi/langchain-protocol/json - the streaming bindings' PyPI distribution: 0.0.20 latest, uploaded 2026-10-20, as of 2026-10-22
+- https://pypi.org/pypi/langchain-protocol/json - the streaming bindings' PyPI distribution: 0.0.21 latest, uploaded 2026-11-05, as of 2026-11-06

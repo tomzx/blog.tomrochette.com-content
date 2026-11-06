@@ -1,7 +1,7 @@
 ---
 title: Context7
 created: 2026-10-07
-updated: 2026-11-05
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, documentation, mcp, developer-tools]
 readability: 3
@@ -16,7 +16,7 @@ Context7 is Upstash's hosted service that pulls up-to-date, version-specific lib
 
 ## What it is
 
-A hosted documentation platform by Upstash, the Redis and QStash company, with the MCP server and CLI open source under MIT (63,119 stars as of 2026-10-16, pushed 2026-10-30).
+A hosted documentation platform by Upstash, the Redis and QStash company, with the MCP server and CLI open source under MIT (63,119 stars as of 2026-10-16, pushed 2026-11-06).
 The pipeline crawls and version-parses library documentation, scores repository organizations for trust, and runs an LLM-based injection check over stored chunks before serving them.
 Two install modes: an MCP server your agent calls natively (the `@upstash/context7-mcp` npm package, v4.5.0 as of 2026-11-05, about 1,027,200 downloads in the week to 2026-10-09), or a `ctx7` CLI plus an agent skill that needs no MCP at all (0.9.0 on 2026-11-03 added `ctx7 search <query>`, a cross-library search that needs no library ID, with `--library`, `--library-version`, `--language`, and `--json` narrowing, and taught setup and remove to handle the OpenCode 2.x config layout; the 0.8.x train locked concurrent token refreshes so parallel commands stop revoking a shared session, removed the deprecated `skills` and `generate` commands while `ctx7 setup` still installs the skills, and preserved comments in the agent configs it rewrites).
 The SDK package (@upstash/context7-sdk, 0.6.0) types a `rank` field on each search snippet so callers can interleave code and info results in the reranked order.
@@ -81,6 +81,7 @@ Not for private-code context (that is what the repo-indexing members sell), and 
 - 2026-10-24 - Recorded the new Admin MCP server (a second remote endpoint at admin.mcp.context7.com where an agent manages teamspaces, libraries, rules, usage, Docs7 sites, and Ask sites, OAuth or management-key auth, documented 2026-10-23), the `ctx7` CLI at 0.8.2 (lock-protected token refresh for concurrent commands), the SDK at 0.6.0 (typed `rank` on search snippets), and refreshed the trailing-month npm figure (2,508,160 to 2026-10-22).
 - 2026-10-31 - Full rotation re-verification: every cited URL re-fetched and intact; recorded main's unreleased research-preview work (a research-preview flag and a docs feedback tool for the MCP server, committed 2026-10-30, with library imports now gated on the admin key), and refreshed the trailing-month npm figure (2,607,063 to 2026-10-29); pricing tiers re-verified unchanged against the live plans page.
 - 2026-11-05 - Recorded the 2026-11-03 releases: @upstash/context7-mcp@4.5.0 shipping the research-preview mode with its `submit-docs-feedback` tool, and ctx7@0.9.0 adding cross-library `ctx7 search` and OpenCode 2.x config handling; refreshed the trailing-month npm figure (2,769,609 summed for 2026-10-06 to 2026-11-05); pricing tiers re-verified unchanged against the live plans page.
+- 2026-11-06 - Recorded main's unreleased post-release work (2026-11-05 to 2026-11-06: SAML 2.0 SSO documented for on-premise, the ctx7 CLI setup gaining Pi and T3 Code as supported agents, and the new `get-upgrade-guide` research-preview tool held back until its libraries are prepared); the trailing-month npm figure keeps its 2026-11-05 as-of date.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Nanocoder
 created: 2026-10-08
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, local-first, community-governance]
 readability: 3
@@ -25,7 +25,7 @@ It is made by the Nano Collective, a self-described home for privacy-first, loca
 ## Status
 
 **Active and healthy for its size, with a footprint that is easy to miss.**
-The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and was pushed on 2026-11-04 (GitHub API, as of 2026-11-04).
+The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and was pushed on 2026-11-06 (GitHub API, as of 2026-11-06).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nano-Collective/nanocoder&type=date&theme=dark&legend=top-left" />
@@ -33,8 +33,8 @@ The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and w
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Nano-Collective/nanocoder&type=date&legend=top-left" />
 </picture>
 
-Releases run monthly on the v1.x line: v1.29.0 (July 26, 2026), v1.30.0 (August 26), and v1.31.0 (September 26, which added Anthropic prompt caching, auto titles, retry caps, and `.nanocoderignore`).
-The npm package did 6,649 downloads in the month of October 3 to November 1 (as of 2026-11-01, read through a dated-range query).
+Releases run monthly on the v1.x line: v1.29.0 (July 26, 2026), v1.30.0 (August 26), v1.31.0 (September 26, which added Anthropic prompt caching, auto titles, retry caps, and `.nanocoderignore`), and v1.32.0 (November 4, which taught the ACP agent to honor the `mcpServers` an editor sends on session new, load, and resume with session-scoped stdio and HTTP servers that never touch your own MCP configuration, moved ACP extension requests onto the `_` prefix ACP reserves for custom methods, and reported `mcpCapabilities` from `initialize`).
+The npm package did 7,503 downloads in npm's trailing-month window (October 6 to November 4) as of 2026-11-06 (read through a dated-range query).
 The Hacker News footprint is near zero: a 1-point Show HN in August 2025 and a 1-point thread for the VS Code sidebar in July 2026, so its growth is word-of-mouth and search, not launch-thread gravity.
 
 ## Strengths
@@ -47,7 +47,7 @@ The Hacker News footprint is near zero: a 1-point Show HN in August 2025 and a 1
 ## Cautions
 
 - **The repo ships no LICENSE file, and GitHub detects no license, while the npm metadata declares MIT**, so pin your expectations from the package metadata and ask before embedding.
-- Adoption is thin against its surface: 2.5k stars and 8.0k monthly npm downloads means the 30-provider roster and skills system rest on a small user base and its own documentation.
+- Adoption is thin against its surface: 2.5k stars and 7.5k monthly npm downloads means the 30-provider roster and skills system rest on a small user base and its own documentation.
 - No independent evaluation exists; its claims are its docs, and the near-zero discussion footprint means no critical source has stress-tested it yet.
 - The collective depends on volunteer and sponsor capacity (one named sponsor), and its adjacent alpha projects (Roster, Sentinel) share the same maintainers.
 
@@ -74,6 +74,7 @@ My disagreeable claim: governance is currently Nanocoder's only hard moat, and a
 - 2026-10-13 - Corrected the star-history chart markup: the light source and fallback image dropped the dark-theme parameter to match the canonical chart block.
 - 2026-10-25 - Rotation re-verification, every cited reference live; refreshed the push date to 2026-10-25 and the monthly npm downloads to 9,411 (window September 23 to October 22), with v1.31.0 still the newest release.
 - 2026-11-01 - Rotation re-verification, every cited reference live; refreshed the push date to 2026-11-01 and the monthly npm downloads to 6,649 (window October 3 to November 1), with v1.31.0 still the newest release.
+- 2026-11-06 - Recorded the v1.32.0 release (November 4): session-scoped `mcpServers` handling in the ACP agent, `_`-prefixed custom ACP methods, and `mcpCapabilities` reporting; refreshed the push date to 2026-11-06 and the trailing-month npm figure to 7,503 (window October 6 to November 4), and aligned the Cautions line to it.
 
 ## See also
 

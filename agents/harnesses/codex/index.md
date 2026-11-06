@@ -1,7 +1,7 @@
 ---
 title: Codex
 created: 2026-08-22
-updated: 2026-11-01
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, openai, developer-tools]
 readability: 3
@@ -33,7 +33,7 @@ Default models are the GPT-6 family (Astra, Sol, and Luna) rolling out across pl
 </picture>
 
 The CLI launched April 2025 and has been rewritten and rebuilt since; the current docs position it as an open agent harness platform.
-The release train stays hot: rust-v0.166.0 (October 29, 2026) is the latest stable, adding keyboard-driven transcript selection with word, line, and page motions and integrated search, consistently rendered Markdown in async questions, choices, and replies, GPT-6.1 Terra in the bundled, Vertex AI, and Amazon Bedrock catalogs, `codex queue --resume` for resuming unloaded queued threads, clearer safety-block explanations, and a `codex doctor --network-only` diagnostic mode, after rust-v0.165.0 (October 27) added a built-in Google Cloud Vertex AI provider configured with `model_provider = "gcp"`, GPT-6.1 Terra in the model catalogs, a repository filter in the session picker with directory grouping in the agent command center, experimental attached thread forks in the app-server API, and mid-conversation reasoning-effort changes enabled by default, and rust-v0.164.0 (October 23) added ten numbered `/presets` slots for reusable prompts and slash commands with a keyboard menu, inline `/model` and `/permissions` arguments, and image previews in the fullscreen transcript on Kitty and Sixel terminals.
+The release train stays hot: rust-v0.167.0 (November 6, 2026) is the latest stable, adding `codex agents --no-daemon` to open the agent command center without the daemon, unread-result markers in the command center and session picker, backend switching from the terminal session picker that keeps drafts, local image attachment previews while composing with clickable transcript paths opening viewed images, API key and cloud provider options under "Sign in another way" with a `gcp_setup_wizard` for Vertex AI onboarding, opt-in macOS and Windows system proxy settings, and patch details expanding in the transcript beside an open approval prompt, after rust-v0.166.0 (October 29, 2026) added keyboard-driven transcript selection with word, line, and page motions and integrated search, consistently rendered Markdown in async questions, choices, and replies, GPT-6.1 Terra in the bundled, Vertex AI, and Amazon Bedrock catalogs, `codex queue --resume` for resuming unloaded queued threads, clearer safety-block explanations, and a `codex doctor --network-only` diagnostic mode, after rust-v0.165.0 (October 27) added a built-in Google Cloud Vertex AI provider configured with `model_provider = "gcp"`, GPT-6.1 Terra in the model catalogs, a repository filter in the session picker with directory grouping in the agent command center, experimental attached thread forks in the app-server API, and mid-conversation reasoning-effort changes enabled by default, and rust-v0.164.0 (October 23) added ten numbered `/presets` slots for reusable prompts and slash commands with a keyboard menu, inline `/model` and `/permissions` arguments, and image previews in the fullscreen transcript on Kitty and Sixel terminals.
 
 ## Strengths
 
@@ -92,6 +92,7 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - 2026-10-27 - Recorded the v0.165.0 alpha train running (three alphas published October 26 through 27) behind the unchanged rust-v0.164.0 stable.
 - 2026-10-28 - Recorded the stable channel promoting rust-v0.165.0 (October 27): the built-in Google Cloud Vertex AI provider, GPT-6.1 Terra in the catalogs, session-picker repository filtering with agent-command-center directory grouping, experimental attached thread forks, and reasoning-effort switching mid-conversation, with the v0.166.0 alpha train already running.
 - 2026-11-01 - Recorded the stable channel promoting rust-v0.166.0 (October 29): keyboard-driven transcript selection with integrated search, rendered Markdown in Q&A surfaces, GPT-6.1 Terra across the bundled, Vertex AI, and Bedrock catalogs, `codex queue --resume`, clearer safety-block explanations, and `codex doctor --network-only`.
+- 2026-11-06 - Recorded rust-v0.167.0 as the latest stable (November 6): `codex agents --no-daemon`, unread-result markers, draft-keeping backend switching, image attachment previews while composing, Vertex AI setup in TUI onboarding, and opt-in system proxy settings.
 
 ## See also
 

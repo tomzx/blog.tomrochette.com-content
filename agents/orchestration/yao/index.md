@@ -1,7 +1,7 @@
 ---
 title: Yao
 created: 2026-10-06
-updated: 2026-10-29
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-workspaces, self-hosted]
 readability: 3
@@ -69,6 +69,7 @@ Not for anyone reading the 8k stars as agent-era adoption, and not for pure open
 - 2026-10-07 - Added the YaoApp/yao star history chart to the Status section.
 - 2026-10-13 - Recorded v1.0.0 (2026-10-13), the engine's first stable major after the five-year pre-1.0 line, and refreshed the star count to 8,122.
 - 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live; release line still v1.0.0 (2026-10-13) with the 2026-10-19 push unchanged, no factual drift.
+- 2026-11-06 - Re-verified in rotation: every cited URL re-fetched and live; stable line still v1.0.0 with a nightly tag beyond it and the 2026-10-19 push unchanged, no factual drift.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: OpenHarness
 created: 2026-10-24
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agentic-development-environment, multi-agent, encryption, hardware]
 readability: 3
@@ -26,8 +26,8 @@ An experimental Agent Messages surface lets harnesses in one tab message each ot
 
 ## Status
 
-Active and young: the repository was created 2026-08-04, held 1,358 stars and 125 forks as of 2026-10-24, and was pushed 2026-11-04 (GitHub API, as of 2026-11-04).
-The release train runs two lines: a CLI stable line that stepped from the `v0.4.x` tags (v0.4.97_cli, 2026-10-28) onto `v0.5.x` with v0.5.38_cli on 2026-11-04 (v0.5.31_cli on 2026-11-03 carried merge batches plus a Harness OS 0.1.14 build), and a `v1.3.x` desktop-and-web line whose v1.3.59_desktop build (2026-11-04) follows v1.3.44_desktop and v1.3.83_web (both 2026-10-30) and the earlier browser builds served from harness.autonomous.ai (GitHub releases, as of 2026-11-04).
+Active and young: the repository was created 2026-08-04, held 1,358 stars and 125 forks as of 2026-10-24, and was pushed 2026-11-06 (GitHub API, as of 2026-11-06).
+The release train runs two lines: a CLI stable line that stepped from the `v0.4.x` tags (v0.4.97_cli, 2026-10-28) onto `v0.5.x` with v0.5.60_cli on 2026-11-06 (v0.5.38_cli on 2026-11-04, itself after v0.5.31_cli on 2026-11-03 carrying merge batches plus a Harness OS 0.1.14 build), and a `v1.3.x` desktop-and-web line whose v1.3.59_desktop build (2026-11-04) follows v1.3.44_desktop and v1.3.83_web (both 2026-10-30) and the earlier browser builds served from harness.autonomous.ai (GitHub releases, as of 2026-11-04).
 Autonomous launched it publicly in mid-October 2026, and the launch coverage recorded 213 Product Hunt upvotes about seven hours into launch day and about 3,553 commits at 1,266 stars (Reveneau, 2026-10-16).
 
 <picture>
@@ -85,6 +85,7 @@ Not for Windows users, and not for anyone who needs independent performance evid
 - 2026-10-27 - Recorded the release train (v0.4.76_cli stable on 2026-10-27, daily v1.3.x_web browser builds) and refreshed the push date.
 - 2026-11-01 - Recorded the desktop-and-web line at v1.3.44_desktop and v1.3.83_web (both 2026-10-30) and the 2026-11-01 push.
 - 2026-11-04 - Recorded v0.5.38_cli (2026-11-04) on the CLI line and v1.3.59_desktop (2026-11-04) on the desktop line, the push date refreshed to 2026-11-04.
+- 2026-11-06 - Volatile refresh: Recorded v0.5.60_cli (2026-11-06) on the CLI stable line.
 
 ## See also
 

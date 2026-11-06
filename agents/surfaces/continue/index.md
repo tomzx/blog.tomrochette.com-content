@@ -1,7 +1,7 @@
 ---
 title: Continue
 created: 2026-08-26
-updated: 2026-11-01
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source, byok]
 readability: 3
@@ -16,7 +16,7 @@ Continue was an Apache-2.0 open-source coding agent shipped as a VS Code extensi
 
 ## What it is
 
-**One config-driven agent across three surfaces**: the VS Code extension (4,435,025 marketplace installs as of 2026-10-27), a JetBrains plugin, and a CLI, all configured through YAML with rules, MCP servers, and any model provider you point it at.
+**One config-driven agent across three surfaces**: the VS Code extension (4,506,952 marketplace installs as of 2026-11-06), a JetBrains plugin, and a CLI, all configured through YAML with rules, MCP servers, and any model provider you point it at.
 Local models were a first-class path, with official guides for [Ollama](https://docs.continue.dev/guides/ollama-guide) and for running fully offline.
 The final 2.x releases (2.0.0 and 2.1.0, both tagged 2026-06-19) removed anonymous telemetry and pulled out authentication entirely, leaving a self-hostable codebase with no account anywhere.
 
@@ -75,6 +75,7 @@ For the workflow it pioneered, use Cline or an ACP-speaking host.
 - 2026-10-07 - Added the continuedev/continue star history chart to the Status section.
 - 2026-10-19 - Rotation re-verification, all cited URLs re-fetched live: the acquisition notice, the read-only README, the frozen docs, and both funeral threads stand; the marketplace counter refreshed to 4,376,917 installs.
 - 2026-10-27 - Rotation re-verification, all cited URLs re-fetched live: the acquisition notice, the read-only README, the Ollama guide, and both funeral threads stand; the marketplace counter refreshed to 4,435,025 installs with the 3.2 average rating confirmed as the live reading (the 2026-10-12 dating is gone).
+- 2026-11-06 - Rotation re-verification, all cited URLs re-fetched live: the acquisition notice, the read-only README (the repository not archived, metadata pushes continuing into November), the repo API, the Ollama guide, and both funeral threads (13 points and 4 points) stand; the marketplace counter refreshed to 4,506,952 installs, with the average-rating figure not re-readable in this run's fetch, so the 3.2 reading stands dated 2026-10-27.
 
 ## See also
 
@@ -91,4 +92,4 @@ For the workflow it pioneered, use Cline or an ACP-speaking host.
 - https://news.ycombinator.com/item?id=48548758 - the June 15, 2026 acquisition thread, re-verified 2026-10-16
 - https://news.ycombinator.com/item?id=49398366 - the August 2026 "dead, alternatives?" thread, re-verified 2026-10-16
 - https://docs.continue.dev/guides/ollama-guide - the local-model path, still live, re-verified 2026-10-16
-- https://marketplace.visualstudio.com/items?itemName=Continue.continue - install count and rating, as of 2026-10-27 (4,435,025 installs; 3.2 average rating)
+- https://marketplace.visualstudio.com/items?itemName=Continue.continue - install count and rating, as of 2026-11-06 (4,506,952 installs; the 3.2 average rating stands dated 2026-10-27)

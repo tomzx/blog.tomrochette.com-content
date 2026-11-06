@@ -1,7 +1,7 @@
 ---
 title: Chorus
 created: 2026-11-01
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, kanban, human-in-the-loop]
 readability: 3
@@ -24,7 +24,7 @@ By Chorus-AIDLC, repository created 2026-02-04, an implementation of AWS's AI-DL
 
 ## Status
 
-Active: 1,216 stars, 110 forks, and 19 open issues and pull requests as of 2026-11-01 (GitHub API), with 63 releases since June 2026, v0.23.0 on 2026-10-22, and the train running roughly weekly; the default branch's latest commit is the 2026-10-22 release commit, with the repository-level pushes on 2026-11-01 and 2026-11-04 landing on side branches.
+Active: 1,216 stars, 110 forks, and 19 open issues and pull requests as of 2026-11-01 (GitHub API), with 65-plus releases since June 2026, v0.24.0 on 2026-11-05, and the train running roughly weekly; the default branch's latest commit is the 2026-11-05 release commit that published v0.24.0.
 The npm CLI has 53 published versions (first in June 2026) and 5,293 downloads in October 2026.
 
 <picture>
@@ -67,6 +67,7 @@ Not for solo terminal speed runs, and not for teams needing inline diff review, 
 
 - 2026-11-01 - Created.
 - 2026-11-04 - Status refresh: the default-branch record corrected (latest commit 2026-10-22, the 2026-11-01 and 2026-11-04 repository pushes side-branch only) per the pushed-at divergence rule.
+- 2026-11-06 - Volatile refresh: Recorded v0.24.0 (2026-11-05) as the new latest release, the default branch catching up with it.
 
 ## See also
 

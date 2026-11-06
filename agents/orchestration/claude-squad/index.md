@@ -1,7 +1,7 @@
 ---
 title: Claude Squad
 created: 2026-08-24
-updated: 2026-10-29
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, orchestration, git-worktrees, terminal]
 readability: 3
@@ -34,7 +34,7 @@ The repository was created in March 2025, was last pushed to on 2026-08-20, and 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=smtg-ai/claude-squad&type=date&legend=top-left" />
 </picture>
 
-Homebrew reports 5,142 installs over the last 365 days as of 2026-10-29 (5,168 as of 2026-09-26), which is real but modest usage for its star count.
+Homebrew reports 5,117 installs over the last 365 days as of 2026-11-06 (5,142 as of 2026-10-29), modest usage for its star count.
 **Its Hacker News footprint is nearly empty (a 5-point launch thread in April 2025), so adoption spread through GitHub and word of mouth, not press.**
 
 ## Strengths
@@ -75,6 +75,7 @@ For most engineers, Claude Squad plus a small setup script covers 90 percent of 
 - 2026-10-07 - Added the smtg-ai/claude-squad star history chart to the Status section.
 - 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository, docs site, Homebrew formula at 1.0.20, the 5-point launch thread); no factual drift, still quiet since the 2026-08-20 push.
 - 2026-10-29 - Re-verified in rotation: all cited sources re-fetched and live; Homebrew install-on-request figure refreshed to 5,142 over 365 days as of 2026-10-29, still quiet since the 2026-08-20 push.
+- 2026-11-06 - Re-verified in rotation: all cited sources re-fetched and live; Homebrew install-on-request figure refreshed to 5,117 over 365 days as of 2026-11-06, still quiet since the 2026-08-20 push.
 
 ## See also
 

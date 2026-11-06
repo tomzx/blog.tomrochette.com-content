@@ -1,7 +1,7 @@
 ---
 title: WrenAI
 created: 2026-10-10
-updated: 2026-10-30
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, semantic-layer, text-to-sql, genbi]
 readability: 3
@@ -23,7 +23,7 @@ Everything Wren writes is plain YAML and Markdown in a repo you own, and Git Syn
 
 ## Status
 
-Established and active: 17,877 stars as of 2026-10-18, 2,073 forks and 263 open issues as of 2026-10-30, created 2024-03-13, pushed 2026-10-30, with the wren-v0.17.1 patch release published 2026-10-30 (the `to_arrow_table` fix for DuckDB 2.0 compatibility) and PyPI (wrenai) tracking 0.17.1, following wren-v0.17.0 on 2026-10-27.
+Established and active: 17,877 stars as of 2026-10-18, 2,073 forks and 263 open issues as of 2026-10-30, created 2024-03-13, pushed 2026-11-02 on main, with the wren-v0.17.1 patch release published 2026-10-30 (the `to_arrow_table` fix for DuckDB 2.0 compatibility) and PyPI (wrenai) tracking 0.17.1, following wren-v0.17.0 on 2026-10-27.
 Release 0.17.0 shipped the Apache Ossie work recorded here on 10-24 (the `wren context import` and `export` ossie commands joining dbt and OpenMetadata, plus importing a Wren project from an OpenMetadata catalog) alongside ClickHouse dialect-translation fixes, JSON output that keeps dates and integers intact, an MCP SDK major-version pin, and wren-core-py 0.8.2 (2026-10-23) with the DISTINCT ON column fix in the bindings.
 The docs page claims SOC 2 Type II certification and now quotes 17.8k GitHub stars against the live count; its old 17-plus data-source figure is gone (the README stays at 22-plus), closing the discrepancy flagged on 2026-10-11.
 The community footprint is lopsided: a Hacker News search returns over a thousand matches but every thread is small (the largest found carries 6 points), so nearly five figures of stars have produced no front-page discussion.
@@ -85,6 +85,7 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 - 2026-10-24 - Recorded the context import/export surface gaining Apache Ossie (2026-10-22, joining dbt and OpenMetadata under one import command with a matching export) and wren-core-py 0.8.2 (2026-10-23, the DISTINCT ON fix shipped in the bindings); volatile numbers refreshed (2,067 forks, 257 open issues, pushed 2026-10-23).
 - 2026-10-27 - Recorded wren-v0.17.0 (published 2026-10-27: the Ossie context import/export commands and rename, OpenMetadata catalog project import, ClickHouse dialect-translation fixes, JSON output keeping dates and integers intact, and an MCP SDK major-version pin) with PyPI wrenai tracking 0.17.0; volatile numbers refreshed (2,070 forks, 262 open issues, pushed 2026-10-27).
 - 2026-10-30 - Recorded wren-v0.17.1 (2026-10-30: the DuckDB 2.0 `to_arrow_table` compatibility fix) with PyPI tracking 0.17.1; volatile numbers refreshed (2,073 forks, 263 open issues, pushed 2026-10-30) and the credit tiers re-verified unchanged against the live pricing page.
+- 2026-11-06 - Recorded main's unreleased SDK fixes (2026-11-02: cold connector initialization synchronized, and agent prompts now include v5 business rules); no release since wren-v0.17.1.
 
 ## See also
 

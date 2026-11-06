@@ -1,7 +1,7 @@
 ---
 title: PIC Standard
 created: 2026-10-11
-updated: 2026-10-31
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, agent-security, verification, provenance, open-standard]
 readability: 3
@@ -77,6 +77,7 @@ My disagreeable claim: this is the protocol layer agent security actually needs,
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light-theme source carried the dark-theme parameter; it now points at the default chart, matching the 2026-10-25 fallback fix).
 - 2026-10-31 - Re-verification: the spec train re-confirmed at v0.9.1 (PyPI unchanged, 697 monthly downloads standing as its newest window), with the repository pushed 2026-10-28 on a bounded refund sandbox verifier example contributed externally (issue 198) and 20 open issues.
+- 2026-11-06 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec train re-confirmed at v0.9.1 with the RFC anchor, the frozen canonicalization spec, and the 91-vector corpus unchanged, PyPI still at 0.9.1 with the 697-download month standing, the footprint still the single 1-point Show HN, the TypeScript verifier repository unchanged (evidence mode still open), and the repository's pushed date moved to 2026-11-02 with no default-branch commits behind it since the recorded 2026-10-28 example, 20 open issues unchanged.
 
 ## See also
 

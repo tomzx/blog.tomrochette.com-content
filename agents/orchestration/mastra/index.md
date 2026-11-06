@@ -1,7 +1,7 @@
 ---
 title: Mastra
 created: 2026-09-29
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, typescript]
 readability: 3
@@ -22,7 +22,7 @@ The repo sits at 28,829 stars with 2,984 forks, created 2024-08-06; the core is 
 
 ## Status
 
-Active and shipping fast: last push 2026-11-04, `@mastra/core` 1.81.0 published to npm 2026-11-02 (experimental storage-backed MCP tasks in `@mastra/mcp`, where long-running tools return a task immediately and survive restarts), after 1.80.0 on 2026-10-28 (per-resource, user-scoped OAuth connections in `@mastra/connect`) and 1.79.0 on 2026-10-21 (GitHub API, npm, as of 2026-11-03), five releases after 1.75.0 (2026-10-07).
+Active and shipping fast: last push 2026-11-06, `@mastra/core` 1.82.0 published to npm 2026-11-04 (experimental storage-backed MCP tasks in `@mastra/mcp`, where long-running tools return a task immediately and survive restarts), after 1.80.0 on 2026-10-28 (per-resource, user-scoped OAuth connections in `@mastra/connect`) and 1.79.0 on 2026-10-21 (GitHub API, npm, as of 2026-11-03), five releases after 1.75.0 (2026-10-07).
 npm recorded 7,432,042 downloads of `@mastra/core` in the month ending 2026-10-27, the largest install base in this note set (npm API, as of 2026-10-27, after 8,345,899 for the month ending 2026-10-09).
 Funding: $13M seed announced 2025-10-08 from 120+ investors including YC, Paul Graham, Gradient, and Guillermo Rauch, then a $22M Series A led by Spark Capital on 2026-04-09, totaling $35M (mastra.ai blog).
 On 2026-06-16 Mastra disclosed a supply-chain attack that compromised multiple npm packages, with an incident report and fixes.
@@ -79,6 +79,7 @@ Not for security-strict environments that cannot accept a recent npm supply-chai
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo, pricing, both funding posts, npm registry and downloads, license, HN threads); the push date refreshed to 2026-10-27, @mastra/core still 1.79.0, and the npm month refreshed to 7,432,042 ending 2026-10-27 from 8,345,899 ending 2026-10-09.
 - 2026-11-03 - Status refresh: @mastra/core 1.81.0 (2026-11-02) added experimental storage-backed MCP tasks in @mastra/mcp, restart-safe long-running execution.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; @mastra/core still 1.81.0.
+- 2026-11-06 - Volatile refresh: Recorded `@mastra/core` 1.82.0 (2026-11-04) as the new latest release.
 
 ## See also
 

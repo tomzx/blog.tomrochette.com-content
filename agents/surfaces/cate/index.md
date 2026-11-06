@@ -1,7 +1,7 @@
 ---
 title: Cate
 created: 2026-10-08
-updated: 2026-10-31
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source, canvas]
 readability: 3
@@ -27,7 +27,7 @@ It is built by the 0-AI-UG organization, with the v1.0 launch shared on Hacker N
 
 **Active and young: a six-month-old project with a steady release train.**
 The repository was created 2026-03-29, and v1.0 landed May 25, 2026 behind a 65-point Show HN thread (66 comments), preceded by a smaller spatial-workspace thread in May.
-The v2 line carries it now: v2.0.5 (2026-09-30, T3 Connect startup fixes in packaged builds, false agent-ready notification fixes during automatic approval, a hooks-settings rework) is the latest release after v2.0.4 and v2.0.3 in the two weeks before it, a v2.1.0-beta.1 pre-release (October 23, browser locators, pairing-by-key remote sessions, and an agent usage overview) runs above it with the beta train since reaching v2.1.0-beta.6 (October 29, an iOS fix that stops agent chats re-streaming existing replies on open, recovery for stalled Cate Connect registrations, and Chromium networking for local browser workspaces), and the repository was pushed 2026-10-30.
+The v2 line carries it now: v2.0.5 (2026-09-30, T3 Connect startup fixes in packaged builds, false agent-ready notification fixes during automatic approval, a hooks-settings rework) is the latest release after v2.0.4 and v2.0.3 in the two weeks before it, a v2.1.0-beta.1 pre-release (October 23, browser locators, pairing-by-key remote sessions, and an agent usage overview) runs above it with the beta train since reaching v2.1.0-beta.10 (November 5, canvas wallpapers and simplified workspace navigation) after beta.7 through beta.9 (November 2 to 4, shared terminal agent history with Codex transcript-binding fixes, a protocol compatibility version that decouples the desktop, iOS, CLI, and runtime handshake from release numbers, and iOS browser passwords over the shared runtime), and the repository was pushed 2026-11-05.
 About 2.2k stars (2,187) and 141 forks as of 2026-10-16.
 Installs go through prebuilt DMG, NSIS, AppImage, DEB, and tar archives plus a Homebrew cask, and the README tells daily users not to build from source.
 
@@ -72,6 +72,7 @@ Not for keyboard-first minimalists, and not for anyone whose window manager alre
 - 2026-10-08 - Created from the awesome-list entrant scan (surfaced by ai-for-developers/awesome-ai-coding-tools), with the 65-point v1.0 thread as the critical source.
 - 2026-10-22 - Rotation re-verification, all cited URLs re-fetched live: the repository (pushed 2026-10-21), the v2.0.5 latest release, the client-rendered homepage shell, the 65-point v1.0 thread, and the surfacing awesome list all stand, with no release after v2.0.5.
 - 2026-10-31 - Recorded the beta train reaching v2.1.0-beta.6 (October 29, the iOS agent-chat streaming fix, Cate Connect registration recovery, and Chromium networking for local browser workspaces), repository pushed 2026-10-30.
+- 2026-11-06 - Volatile re-verification on the pushed signal, recorded the beta train reaching v2.1.0-beta.10 (November 5, canvas wallpapers and simplified workspace navigation) after beta.7 through beta.9 (November 2 to 4, shared terminal agent history with Codex transcript binding, the protocol compatibility version, and iOS browser passwords); the repository stands pushed 2026-11-05 with stable still v2.0.5.
 
 ## See also
 
@@ -83,7 +84,7 @@ Not for keyboard-first minimalists, and not for anyone whose window manager alre
 ## References
 
 - https://github.com/0-AI-UG/cate - repository and README (T3 Code chats, agent-aware terminals, worktree territories, the cate CLI, SSH and WSL), MIT license, 2,187 stars and 141 forks as of 2026-10-16
-- https://github.com/0-AI-UG/cate/releases - v2.0.5 (2026-09-30) as the latest release on the v2 train, after v2.0.4 and v2.0.3
+- https://github.com/0-AI-UG/cate/releases - v2.0.5 (2026-09-30) as the latest release on the v2 train, after v2.0.4 and v2.0.3; the beta train above it reached v2.1.0-beta.10 (2026-11-05), re-fetched 2026-11-06
 - https://cate.cero-ai.com - the product homepage, a client-rendered shell this run (title only, no server-rendered content)
 - https://news.ycombinator.com/item?id=48265470 - the 65-point v1.0 Show HN thread (66 comments): the window-manager, cognitive-overload, Electron, and Haystack-editor critiques
 - https://hn.algolia.com/api/v1/items/48265470 - the thread text and comment tree, fetched via the Algolia items API

@@ -1,7 +1,7 @@
 ---
 title: cmux
 created: 2026-08-24
-updated: 2026-10-29
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, terminal, parallel-agents, macos]
 readability: 3
@@ -23,7 +23,7 @@ A paid subscription (Pro or Max) adds Cloud VM agents and the iOS app; the CodeR
 ## Status
 
 **Active and remarkably fast.**
-About 28.2k stars and 2.5k forks as of 2026-10-15, created January 28, 2026, with the release train and pushes still landing daily as of 2026-10-29.
+About 28.2k stars and 2.5k forks as of 2026-10-15, created January 28, 2026, with the release train and pushes still landing daily as of 2026-11-06.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=manaflow-ai/cmux&type=date&theme=dark&legend=top-left" />
@@ -103,6 +103,7 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 - 2026-10-12 - Recorded the plan table's per-VM size ceilings inside the shared pools (Pro largest VM 16 GB/8 vCPU, Max up to 64 GB/32 vCPU) observed on the pricing page, dollar tiers unchanged.
 - 2026-10-13 - Recorded v0.65.1 (2026-10-12, the window crash-loop and Cloud port regression repair) on the GitHub release line.
 - 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live, the pricing page re-checked unchanged against the recorded tiers, and the release line confirmed at v0.65.2.2 (2026-10-27) with pushes through 2026-10-29.
+- 2026-11-06 - Re-verified in rotation: every cited URL re-fetched and live, the pricing page unchanged at the recorded tiers (Pro $50, Max $200, Team $60/user, yearly options intact), release line still v0.65.2.2 with pushes through 2026-11-06.
 
 ## See also
 

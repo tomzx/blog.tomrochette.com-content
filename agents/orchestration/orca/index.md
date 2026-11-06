@@ -1,7 +1,7 @@
 ---
 title: Orca
 created: 2026-09-27
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, agent-ide, worktrees, mobile]
 readability: 3
@@ -24,7 +24,7 @@ MIT licensed, TypeScript and Electron, and the repo's README carries translation
 
 ## Status
 
-Fast and well-funded: about 92.8k stars (92,765) as of 2026-10-15, up from 85.2k on 2026-10-07, a sustained gain of roughly 1k per day, created 2026-03-17, more than 11,900 commits, with v1.4.248 (2026-11-04) the latest desktop release (GitHub API, as of 2026-11-04) after v1.4.247 (2026-11-03), v1.4.246 (2026-11-02), and v1.4.245 (2026-10-30), and v1.4.244 (2026-10-29, four interface languages and faster workspace switching), v1.4.243 (2026-10-28, experimental Chrome extensions in the built-in browser, iPhone Duo support, and terminal agent sessions that convert live into chat UIs) and v1.4.242 (2026-10-27, lower memory use in the terminal host and WSL connections, Claude subagents openable from the sidebar, and paired SSH and WSL servers that keep your tabs), v1.4.241 (2026-10-26), and v1.4.240 (2026-10-25), v1.4.237 (2026-10-21) and v1.4.232 (2026-10-20, an Auto permissions mode for chat and terminal, Manual | Auto | Yolo per agent), the v1.4.22x daily train, and the Android track's mobile-android-v0.0.62 (2026-11-02).
+Fast and well-funded: about 92.8k stars (92,765) as of 2026-10-15, up from 85.2k on 2026-10-07, a sustained gain of roughly 1k per day, created 2026-03-17, more than 11,900 commits, with v1.4.251 (2026-11-06) the latest desktop release (GitHub API, as of 2026-11-06) after v1.4.247 (2026-11-03), v1.4.246 (2026-11-02), and v1.4.245 (2026-10-30), and v1.4.244 (2026-10-29, four interface languages and faster workspace switching), v1.4.243 (2026-10-28, experimental Chrome extensions in the built-in browser, iPhone Duo support, and terminal agent sessions that convert live into chat UIs) and v1.4.242 (2026-10-27, lower memory use in the terminal host and WSL connections, Claude subagents openable from the sidebar, and paired SSH and WSL servers that keep your tabs), v1.4.241 (2026-10-26), and v1.4.240 (2026-10-25), v1.4.237 (2026-10-21) and v1.4.232 (2026-10-20, an Auto permissions mode for chat and terminal, Manual | Auto | Yolo per agent), the v1.4.22x daily train, and the Android track's mobile-android-v0.0.62 (2026-11-02).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stablyai/orca&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,7 @@ Not for teams that need a closed, vendor-supported enterprise product today, or 
 - 2026-10-10 - Recorded v1.4.224 (October 10) as the latest release and the star count at about 88.8k as of 2026-10-10.
 - 2026-10-12 - Refreshed the star count to about 90.1k as of 2026-10-12, a sustained gain of roughly 1k per day, with v1.4.224 still the latest release.
 - 2026-10-19 - Recorded v1.4.230 (2026-10-19) on the release train.
+- 2026-11-06 - Volatile refresh: Recorded v1.4.251 (2026-11-06) as the new latest desktop release.
 
 - 2026-10-20 - Recorded v1.4.232 (2026-10-20, Auto permissions in chat and terminal) as the latest desktop release.
 

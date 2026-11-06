@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-05
+updated: 2026-11-06
 status: finished
 tags: [agents]
 readability: 0
@@ -12,6 +12,16 @@ The log under `agents/logs/` stays the audit trail; this digest never contradict
 Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (date = last confirmation).
 
 ## Scope rulings
+
+- 2026-11-06 | orchestration | concord-mcp (Get-Concord-AI/concord-mcp) admitted, the 2026-08-30 concord hold reopened on new independent coverage with the Foremerge/hcom coordination-layer precedent | 978 stars as of 2026-11-06, v0.20.0 (2026-11-05), 5,184 npm downloads in the trailing month, two fetched critical reviews; followagents-style telemetry caution recorded in the note
+- 2026-11-06 | cross-category | the coordinator's 2026-11-05 handoffs resolve with one admission in scope and two routed flags | open-swe (langchain-ai/open-swe, README rebranded to Robin, 11,177 stars, MIT) clears the bar and routes to software-factory on its self-described issue-to-PR factory line (SuperPlane precedent); centaur (paradigmxyz/centaur, 1,422 stars, license verified dual MIT/Apache-2.0) routes to executions on the Airut Slack-to-sandbox precedent
+- 2026-11-06 | orchestration | Conductor's Meta acquisition records in place as the category's third exit record after Flowise's archive and Open Swarm's pivot | joining Meta announced 2026-11-04, cloud read-only 2026-11-13 and shut down 2026-11-20, local maintained to early 2027, 0.93.0 the final release
+- 2026-11-06 | protocols | a steward's own spec hub promoting a version to current counts as shipped maturity for the maturity record even while the tagged implementation train lags behind | A2UI v1.0 promoted to current on a2ui.org (2026-11-06, previously designated as v0.10) while the tagged Python train stays at the 2026-11-02 wave
+- 2026-11-06 | cross-category | multi-agent coordination meshes for coding agents (pub/sub spaces, spawn, workflow languages, consoles) are orchestration-kind, not protocols, and stay out below the admitted tier | Cotal (Cotal-AI/Cotal, 381 stars, Apache-2.0) rejected on it; its open-standard framing carries one vendor implementation, no conformance suite, and a 2-point HN story
+- 2026-11-06 | cross-category | a young single-vendor protocol suite with one same-company implementation clears the ANP/PIC bar only with exceptional spec form (anchored artifacts, conformance corpus, archived versions, or multi-party implementations) | AMP (agentmessaging/protocol, 37 stars, v0.1.2-draft, providers coming soon) rejected on it; reopen on a second implementation, an adopted provider, or coverage
+- 2026-11-06 | cross-category | MCP tool servers providing shared work-state and cross-harness messaging are utility layers, not protocols, whatever their coordination ambition | Get-Concord-AI/concord-mcp (978 stars, MIT) rejected on it as the alternate court
+- 2026-11-06 | surfaces | OpenBitFun's Cowork-style general-workspace rejection holds on the fifth q#14 re-read (the GCWing/OpenBitFun README still pitches a general-purpose agent workspace with Mini App and skins marketplaces and phone remote control, 3,720 stars, pushed 2026-11-06), the question again reads safe to close | surfaces re-check on the governing question
+- 2026-11-06 | surfaces | no credible surfaces-dedicated source has appeared; the best GitHub-search candidates (ishandutta2007/Awesome-AI-Code-Editor 18 stars, rsonnet/awesome-agentic-ides 5 stars, pinion05/awesome-agent-ide 4 stars) sit far below the section's dedicated sources' adoption | the refresh's no-dedicated-source check
 
 - 2026-11-05 | control-planes | Speakeasy Gram admitted as the twenty-third member on the coordinator handoff | the public AGPL-3.0 stack (created 2025-08) behind the hosted control plane passes the governs-something test as an identity-and-policy MCP gateway, superseding the 2026-10-10 closed-tier reading and the 2026-10-28 MCP-platform-kind deferral; druce.ai's wiki entry is the standing critical source
 - 2026-11-05 | control-planes | Agent Barn admitted as the twenty-fourth member, the fifth live plane, on the coordinator handoff | per-agent cost attribution, org and per-agent access roles, and audit trails pass the governs-something test; 111 stars is a borderline-traction admission carried by the weekly release train, OECD.AI catalogue coverage, and candid production guides, reopening if the train stalls or coverage retracts

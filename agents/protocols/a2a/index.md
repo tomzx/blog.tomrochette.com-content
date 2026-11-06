@@ -1,7 +1,7 @@
 ---
 title: Agent2Agent Protocol (A2A)
 created: 2026-08-24
-updated: 2026-11-01
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, multi-agent]
 readability: 3
@@ -79,6 +79,7 @@ The disagreeable part: I expect A2A to stay an enterprise convention, and if aut
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the spec stays at v1.0.1 with the repository pushed 2026-10-21, the official CLI's release train still ends at v0.3.1 (2026-10-16), the Ask HN thread's comment count re-confirmed at 45, and both pypistats windows unchanged (the as-of 2026-10-07 figures stand).
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the spec stays at v1.0.1 with the repository pushed 2026-10-21 and no default-branch commits since, the official CLI's release train still ends at v0.3.1 (2026-10-16), the Ask HN thread re-confirmed at 45 comments, and both pypistats windows unchanged (the as-of 2026-10-07 figures stand).
 - 2026-11-01 - Re-verification: the repository pushed 2026-11-01 on docs-only commits since the last pass (a broken-link removal, a partner-link fix, and an antitrust policy page), the spec stays at v1.0.1, and the official CLI's release train still ends at v0.3.1 (2026-10-16).
+- 2026-11-06 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the spec stays at v1.0.1 (v1.0.1 still the newest release tag) with the repository pushed 2026-11-05 on a docs-only commit (the a2a-cli OAuth Client ID Metadata Document the CLI now serves from the site root), the official CLI's release train moved to v0.4.0 (2026-11-04: a custom CA flag, unix-socket transport with credential helpers, an interactive chat command, an install script, and TLS by default for built-in gRPC), the Ask HN usage thread re-confirmed live, and both pypistats windows stand unchanged (the as-of 2026-10-07 figures).
 
 ## See also
 
@@ -97,7 +98,7 @@ The disagreeable part: I expect A2A to stay an enterprise convention, and if aut
 - https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/ - Linux Foundation donation (2025-06-23), founding members
 - https://github.com/a2aproject/A2A/releases - v1.0.0 (2026-03-12) and v1.0.1 (2026-05-28) release notes
 - https://a2a-protocol.org/latest/blog/2026/10/01/introducing-a2a-cli/ - the A2A CLI announcement: one command surface, streaming, JSON output, the harness-facing agent skill
-- https://github.com/a2aproject/a2a-cli - the CLI repository, 154 stars as of 2026-10-10, Apache-2.0, latest release v0.3.1 (2026-10-16), as of 2026-10-17
+- https://github.com/a2aproject/a2a-cli - the CLI repository, 154 stars as of 2026-10-10, Apache-2.0, latest release v0.4.0 (2026-11-04), as of 2026-11-06
 - https://lfaidata.foundation/communityblog/2025/08/29/acp-joins-forces-with-a2a-under-the-linux-foundations-lf-ai-data/ - IBM ACP merge and TSC composition
 - https://blog.fka.dev/blog/2025-04-15-why-googles-a2a-protocol-doesnt-make-sense/ - the MCP-redundancy critique
 - https://news.ycombinator.com/item?id=48582679 - Ask HN usage thread: thin startup adoption, the download-ratio report

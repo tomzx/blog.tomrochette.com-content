@@ -1,7 +1,7 @@
 ---
 title: Copilot CLI
 created: 2026-10-05
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, github, microsoft, terminal]
 readability: 3
@@ -29,7 +29,7 @@ Distribution is npm (`@github/copilot`), a Homebrew cask, WinGet, an install scr
 
 **Active and enormous in distribution.**
 Public preview launched September 25, 2025, and general availability followed on February 25, 2026.
-The npm package's latest stable build is 1.0.105 (published October 28, 2026, promoted from two same-day prereleases), with the prerelease train at 1.0.106-8 (November 4, 2026), and it did 4,986,700 downloads in the month to November 1 as of 2026-11-01, among the largest npm install bases of any harness in this section.
+The npm package's latest stable build is 1.0.106 (published November 6, 2026, promoted from the 1.0.106 prerelease train that ran through 1.0.106-9 on November 4), and it did 6,050,298 downloads in npm's trailing-month window (October 6 to November 4) as of 2026-11-06, among the largest npm install bases of any harness in this section.
 The `github/copilot-cli` repository shows 11,252 stars as of 2026-10-15 (GitHub API), and it is a distribution and issues repository, with no open-source license.
 
 <picture>
@@ -94,6 +94,7 @@ Not for teams with open-client mandates, and not for untrusted repositories unti
 - 2026-10-27 - Recorded the stable dist-tag promoting 1.0.104 (published October 27, carrying the train's assisted-permissions and fusion-session content) with the prerelease train at 1.0.104-4, and refreshed the download window to 6,842,785 in the month to October 26.
 - 2026-10-28 - Recorded the stable dist-tag promoting 1.0.105 (published October 28, after two same-day prereleases) with the prerelease train at 1.0.105-1; the download window kept its clean October 26 reading because the API's newer windows embed a zero-download day.
 - 2026-11-01 - Recorded the prerelease train reaching 1.0.106-1 and 1.0.106-2 (October 31 and November 1) behind the unchanged 1.0.105 stable, and refreshed the download window to 4,986,700 in the month to November 1.
+- 2026-11-06 - Recorded npm promoting 1.0.106 to stable (published November 6) and refreshed the trailing-month download figure to 6,050,298 (window October 6 to November 4, as of 2026-11-06).
 
 ## See also
 

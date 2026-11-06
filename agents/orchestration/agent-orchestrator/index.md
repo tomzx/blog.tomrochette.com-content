@@ -1,7 +1,7 @@
 ---
 title: Agent Orchestrator
 created: 2026-10-06
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, kanban, worktrees, multi-harness, desktop]
 readability: 3
@@ -22,7 +22,7 @@ It drives Claude Code, Codex, and 25 more CLIs per the repo description (23 coun
 ## Status
 
 Active and shipping daily: 13,193 stars as of 2026-10-15 (1,788 forks, 821 open issues and pull requests, and 30 contributors as of 2026-10-11), created 2026-02-13 (GitHub API, as of 2026-10-15).
-Stable releases ride the nightly train, v0.14.8 (2026-10-30) the latest after v0.14.7 (2026-10-28), v0.14.6 (2026-10-24), v0.14.5 (2026-10-22), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-11-04 (GitHub API, as of 2026-11-04).
+Stable releases ride the nightly train, v0.14.9 (2026-11-04) the latest after v0.14.8 (2026-10-30) and v0.14.7 (2026-10-28), v0.14.6 (2026-10-24), v0.14.5 (2026-10-22), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-11-06 (GitHub API, as of 2026-11-06).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&theme=dark&legend=top-left" />
@@ -69,6 +69,7 @@ Not for anyone who needs a stable identity to standardize on (four renames and c
 - 2026-10-08 - Recorded v0.13.4 promoted from the nightly train to the stable line (October 7) and 12.9k stars as of 2026-10-08.
 - 2026-10-09 - Recorded v0.13.5 (October 8) as the stable release and refreshed the star count to 12,970 as of 2026-10-09.
 - 2026-10-10 - Recorded v0.13.6 (October 9) as the stable release and refreshed the star count to 13,014 as of 2026-10-10.
+- 2026-11-06 - Volatile refresh: Recorded v0.14.9 (2026-11-04) as the new latest stable release.
 
 - 2026-10-20 - Recorded v0.14.3 (2026-10-19, full-screen artifact viewer and copyable workspace paths) on the nightly-to-stable train.
 

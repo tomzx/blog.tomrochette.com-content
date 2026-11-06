@@ -1,7 +1,7 @@
 ---
 title: A2UI
 created: 2026-10-06
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, generative-ui, frontend, google]
 readability: 3
@@ -16,7 +16,7 @@ A2UI is Google's open, Apache-2.0 declarative format that lets agents describe r
 
 ## What it is
 
-A versioned specification suite published at a2ui.org (v0.8 legacy, v0.9 stable, v0.9.1 current production, v1.0 release candidate) plus renderer libraries for Lit, Angular, Flutter, and Markdown, with React and SwiftUI on the roadmap.
+A versioned specification suite published at a2ui.org (v1.0 current since 2026-11-06, with v0.9.1 and v0.9 previous and v0.8 deprecated) plus renderer libraries for Lit, Angular, Flutter, and Markdown, with React and SwiftUI on the roadmap.
 An agent emits a flat, streaming list of JSON component descriptions with ID references, and the client maps each component to its own native widget, so the same payload renders on web, mobile, or desktop.
 **The security model is the design's core: the client maintains a catalog of pre-approved components and the agent can only request components from that catalog, which the project summarizes as "safe like data, but expressive like code".**
 Google created it and opened it on 2025-12-15, and the repository now lives in its own `a2ui-project` GitHub organization with contributions from the CopilotKit team.
@@ -24,7 +24,7 @@ Google created it and opened it on 2025-12-15, and the repository now lives in i
 ## Status
 
 **Active and adopted ahead of its spec maturity.**
-The repository shows about 16,690 stars and 1,328 forks (as of 2026-10-13) with a push on 2026-11-04, roughly ten months after launch (GitHub API, as of 2026-11-04).
+The repository shows about 16,690 stars and 1,328 forks (as of 2026-10-13) with a push on 2026-11-06, roughly ten months after launch (GitHub API, as of 2026-11-06).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2ui-project/a2ui&type=date&theme=dark&legend=top-left" />
@@ -34,10 +34,12 @@ The repository shows about 16,690 stars and 1,328 forks (as of 2026-10-13) with 
 
 The adoption is product-anchored: Google's Opal team is a core contributor and uses A2UI in its mini-app builder, Gemini Enterprise is integrating it, and Flutter's GenUI SDK (about 1,780 stars) uses A2UI as its declaration format between server-side agents and the app.
 At the protocol layer, AG-UI documents A2UI as a supported generative-UI spec it natively carries, and A2A is a listed transport, so the two protocols above it in this index both move it.
-The launch Show HN drew 164 points and 75 comments (2025-12-16), and the v1.0 specification is a release candidate that adds client-to-server action responses.
+The launch Show HN drew 164 points and 75 comments (2025-12-16), and the v1.0 specification, promoted to current on 2026-11-06, adds client-to-server action responses.
 The implementation train is active on its own schedule: on 2026-10-17 the Python family split into separately versioned packages, with a2ui-core at v0.4.0 (cross-catalog `$ref` resolution), the agent SDK at v0.9.0 (breaking dependency bump), and the ADK and A2A bindings extracted into first releases (a2ui-adk v0.1.0, a2ui-a2a v0.1.0), so the agent SDK no longer depends on google-adk or the A2A SDK; on 2026-10-30 the developer CLI took its first tag (cli-v0.1.0), a typesafe component generator that emits Python client builders from catalog schemas across the 0.9, 0.9.1, and 1.0 protocol versions.
 On 2026-11-02 the Python wave moved again: a2ui-core to v0.5.0 (breaking: a `DataContext` refuses a function whose `allowed_callers` is `agentOnly` before running it, as the v1.0 specification requires, and catalog-declared components without `ComponentId` or `ChildList` properties no longer infer child references), the agent SDK to v0.10.0 (breaking: v1.0 protocol messages carry the version as `'1.0'` without the `v` prefix, the file-resolve extension module was removed with the `httpx` dependency dropped, and data path assignments emit one targeted `updateDataModel` per path instead of overwriting the surface's whole data model), adding incremental streaming support for the Express inference format, and the ADK and A2A bindings to v0.2.0.
 On 2026-10-26 the repository merged an MCP Apps bridge stream: a new `@a2ui/catalog-mcp` package with a `configureMcpCatalog` v1.0 entry point, an MCP Apps host bridge, and MCP App examples rendered in the Lit, Angular, and React explorers, alongside v1.0 protocol support in the Dart CLI and Python builder, so A2UI now ships tooling that treats MCP Apps as a neighbor to interoperate with rather than only a rival to position against.
+On 2026-11-06 the spec hub promoted v1.0 to the current protocol version, ending the release-candidate period this note recorded since creation: the hub's table now reads v1.0 Current (which adds client-to-server RPC action responses and action IDs and renames `theme` to `surfaceProperties`, and which the project notes was previously designated as v0.10), v0.9.1 and v0.9 Previous, and v0.8 Deprecated.
+The same 2026-11-05 to 11-06 wave added a user-facing a2ui agent skill and an llms.txt file for the docs site, merged the first SwiftUI renderer work (a HostedViewDriver, catalog factories, and accessibility and media-URL fixes, so SwiftUI is moving from the roadmap into the implementation tree), and redesigned the landing page; the tagged release train still ends at the 2026-11-02 Python wave, with 2026-11-04 release-prep commits for `a2ui_agent`, `a2ui_flutter`, and `a2ui_cli` not yet tagged.
 
 ## Strengths
 
@@ -48,7 +50,7 @@ On 2026-10-26 the repository merged an MCP Apps bridge stream: a new `@a2ui/cata
 
 ## Cautions
 
-- **Spec churn is the price of admission: four versions in under a year, v1.0 still a release candidate, and the README says to expect changes, so pinning is a cost.**
+- **Spec churn is the price of admission: four versions in under a year, with v1.0 only promoted to current on 2026-11-06 after ten months of candidate status, and the README says to expect changes, so pinning is a cost.**
 - No coding harness in this index speaks it; this is a product-frontend format, and its fate is tied to host adoption that has not reached the coding-agent world.
 - The launch thread's recorded skepticism is about injection through generated UI and hallucinated interfaces, and the catalog constrains but does not eliminate that surface.
 - Stewardship is Google-centered: unlike A2A, which Google donated to the Linux Foundation, A2UI stays in the a2ui-project organization with no foundation home.
@@ -83,6 +85,7 @@ My disagreeable claim: A2UI will matter more to what end users see than AG-UI do
 - 2026-10-31 - The tagged release train moved past the 2026-10-17 Python wave with the A2UI CLI's first release (cli-v0.1.0, 2026-10-30), a typesafe component generator that emits Python client builders from catalog schemas across protocol versions 0.9, 0.9.1, and 1.0; the spec hub's version table is unchanged (v0.9.1 current production, v1.0 release candidate).
 - 2026-11-03 - The Python wave moved again on 2026-11-02: a2ui-core to v0.5.0 and the agent SDK to v0.10.0, both carrying breaking changes (the agentOnly-callable refusal the v1.0 specification requires in core; the version-string format, the file-resolve removal, and per-path `updateDataModel` emission in the SDK, which also gained incremental Express streaming), with the ADK and A2A bindings at v0.2.0; the spec hub's version table is unchanged (v0.9.1 current production, v1.0 release candidate).
 - 2026-11-04 - Re-verification: the repository pushed 2026-11-04 on docs-site work (a Messages protocol concept page, preview-site header fixes, and a landing-page demo of incremental mobile chat UI generation) with the tagged release train unchanged (the 2026-11-02 Python wave still the newest set) and the spec hub's version table re-confirmed (v0.9.1 current production, v1.0 release candidate).
+- 2026-11-06 - The spec hub promoted v1.0 to the current protocol version, ending the release-candidate period the note recorded since creation: the table now reads v1.0 Current (client-to-server RPC action responses and action IDs, the `theme` to `surfaceProperties` rename, previously designated as v0.10), v0.9.1 and v0.9 Previous, and v0.8 Deprecated; the same wave added an a2ui agent skill and docs llms.txt, merged the first SwiftUI renderer work, and redesigned the landing page, while the tagged release train stays at the 2026-11-02 Python wave; the What-it-is suite list, the Status section, and the churn caution moved with the promotion.
 
 ## See also
 
@@ -95,7 +98,7 @@ My disagreeable claim: A2UI will matter more to what end users see than AG-UI do
 
 - https://github.com/a2ui-project/a2ui - repository: 16,688 stars, 1,328 forks, Apache-2.0, pushed 2026-10-14 (GitHub API, as of 2026-10-13)
 - https://raw.githubusercontent.com/google/A2UI/main/README.md - early-stage status, v0.9.1 production and v1.0 release candidate, the catalog security model, renderer list
-- https://a2ui.org/ - spec hub: version table (v1.0 Candidate, v0.9.1 Current, v0.9 Stable, v0.8 Legacy), Google and CopilotKit contribution note, re-fetched 2026-10-17
+- https://a2ui.org/ - spec hub: version table (v1.0 Current, v0.9.1 Previous, v0.9 Previous, v0.8 Deprecated), Google and CopilotKit contribution note, re-fetched 2026-11-06
 - https://api.github.com/repos/a2ui-project/a2ui/releases - the release train: the 2026-11-02 Python wave (a2ui-core v0.5.0, agent SDK v0.10.0, a2ui-adk v0.2.0, a2ui-a2a v0.2.0) after the 2026-10-17 wave
 - https://api.github.com/repos/a2ui-project/a2ui/commits?since=2026-10-25T00:00:00Z - the 2026-10-26/27 push wave: the MCP Apps bridge stream (`@a2ui/catalog-mcp`, the host bridge, the explorer examples) and the v1.0 builder support
 - https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/ - launch announcement (2025-12-15): Opal, Gemini Enterprise, Flutter GenUI, and CopilotKit collaborators, and the MCP Apps and ChatKit positioning

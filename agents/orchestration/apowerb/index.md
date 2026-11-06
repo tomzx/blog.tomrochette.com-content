@@ -1,7 +1,7 @@
 ---
 title: apowerb
 created: 2026-10-21
-updated: 2026-11-01
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agents, self-hosted, open-core]
 readability: 3
@@ -75,7 +75,7 @@ Not for coding-agent orchestration, and not without pinning versions and verifyi
 - 2026-10-25 - Recorded PyPI at 0.2.97.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
-- 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); PyPI stands at 0.2.97 with no release since 2026-10-23 while pushes continue through 2026-10-31, and the stale registry reference description was corrected.
+- 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); PyPI stands at 0.2.97 with no release since 2026-10-23 while pushes continue through 2026-11-04, and the stale registry reference description was corrected.
 
 ## See also
 

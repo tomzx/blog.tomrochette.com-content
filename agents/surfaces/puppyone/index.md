@@ -1,7 +1,7 @@
 ---
 title: puppyone
 created: 2026-10-27
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source, agent-context]
 readability: 3
@@ -28,6 +28,7 @@ The maker is puppyone Tech Pte Ltd, and desktop telemetry is two documented pseu
 
 **Active and very young, with zero independent coverage.**
 The repository was created 2026-06-29 and shows 1,331 stars and 124 forks as of 2026-10-27, with commits landing the same day.
+The desktop train reached the v0.4 line with signed and notarized builds: v0.4.0 (October 28), then v0.4.1 and v0.4.2 (both November 5) as the latest, all carrying no written changelog beyond build and mirror metadata.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=puppyone-ai/puppyone&type=date&theme=dark&legend=top-left" />
@@ -35,8 +36,8 @@ The repository was created 2026-06-29 and shows 1,331 stars and 124 forks as of 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=puppyone-ai/puppyone&type=date&legend=top-left" />
 </picture>
 
-A Hacker News search returns no story about the project as of 2026-11-04, only substring matches, and no third-party review has appeared; the footprint is the repository and the vendor's own site.
-The dual identity is the thing to watch: the README sells a local-first agent editor, the docs sell a governed context file system, and the Meirtz context-engineering list carries it under the second label.
+A Hacker News search returns no story about the project as of 2026-11-06, only substring matches, and no third-party review has appeared; the footprint is the repository and the vendor's own site.
+The dual identity is the thing to watch, and the two sides are converging: the README now headlines "the (local & cloud) folder built for your agents" and documents self-hosting the cloud through a separate repository, the agent table widened (Hermes joining locally, ChatGPT Web, Grok Bot, Manus, Muse, and Viktor reachable cloud-only), and the docs still sell a governed context file system, with the Meirtz context-engineering list carrying it under that second label.
 
 ## Strengths
 
@@ -77,6 +78,7 @@ Not for anyone needing a session grid, scheduled work, or a product with an inde
 ## Changes
 
 - 2026-10-27 - Created from the context-engines scanner handoff (surfaced by the Meirtz context-engineering list under a context-filesystem label), admitted as a local-first agent editor with the dual-positioning caution recorded.
+- 2026-11-06 - Rotation re-verification, all cited URLs re-fetched live: the zero-footprint HN search, the Context File System docs, and the cloud pricing ladder (Free, Developer $19, Team $99) all stand; recorded the desktop release train reaching v0.4.2 (November 5, signed and notarized builds carrying no written changelog), the README and site now pitching the local and cloud folder with the cloud side self-hostable through a separate repository, and the agent table widened with Hermes locally and five consumer agents cloud-only.
 
 ## See also
 
@@ -91,5 +93,6 @@ Not for anyone needing a session grid, scheduled work, or a product with an inde
 - https://raw.githubusercontent.com/puppyone-ai/puppyone/main/README.md - the desktop editor: formats, the agent connection table, Git tracking with redlines, the telemetry contract
 - https://www.puppyone.ai/ - the site's positioning and developer entry points (CLI, REST API, MCP, agent auth)
 - https://www.puppyone.ai/en/docs - the Context File System framing: connectors, access points, audit logs, distribution channels
-- https://www.puppyone.ai/pricing.md - the cloud plans (Free, Developer $19, Team $99, Enterprise custom), fetched 2026-10-27, re-fetched 2026-11-04 (unchanged)
-- https://hn.algolia.com/api/v1/search?query=puppyone&tags=story - the zero-coverage footprint evidence, fetched 2026-10-27
+- https://www.puppyone.ai/pricing.md - the cloud plans (Free, Developer $19, Team $99, Enterprise custom), fetched 2026-10-27, re-fetched 2026-11-04 and again 2026-11-06 (unchanged)
+- https://api.github.com/repos/puppyone-ai/puppyone/releases - the desktop v0.4 train (v0.4.0 October 28, v0.4.1 and v0.4.2 November 5, 2026), signed and notarized builds whose notes carry build and mirror metadata only, fetched 2026-11-06
+- https://hn.algolia.com/api/v1/search?query=puppyone&tags=story - the zero-coverage footprint evidence, fetched 2026-10-27, re-fetched 2026-11-06 (still only substring matches)

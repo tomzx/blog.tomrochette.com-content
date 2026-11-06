@@ -1,7 +1,7 @@
 ---
 title: Open Swarm
 created: 2026-09-27
-updated: 2026-10-29
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, mission-control, human-in-the-loop, worktrees]
 readability: 3
@@ -63,7 +63,7 @@ The current signed builds are proprietary with no published price; the successor
 ## Compared to
 
 - [Lanes](../lanes/index.md): macOS board-first with real PTY sessions and an access-governance endpoint; the approval-centric canvas Open Swarm pioneered has no maintained open-source successor.
-- [Conductor](../conductor/index.md): the polished closed Mac worktree dashboard; it stayed closed but stayed alive, which the pivot proves was the harder half.
+- [Conductor](../conductor/index.md): the polished closed Mac worktree dashboard; it stayed closed and stayed alive longest, until the Meta wind-down of November 2026 proved even the funded half of this layer is fragile.
 - [OpenRig](../openrig/index.md): the Apache-2.0 local control plane with YAML-defined seats and approvals, the closest maintained open-source substitute for the pre-pivot workflow.
 
 ## Bottom line
@@ -80,6 +80,7 @@ The note stays as the category's second pivot record, after Flowise's archive, a
 - 2026-10-09 - Recorded the experimental release line advancing to v1.8.0-exp.6 (October 6).
 - 2026-10-12 - Recorded the pivot: the repository is now a proprietary signed-builds shell (single commit dated 2026-10-03, v1.8.0 build 2026-10-11), development moved to Open Swarm Inc.'s waitlist-gated consumer assistant with a 2026-10-03 privacy policy, and the Status, Cautions, Pricing, Compared to, and Bottom line sections were rewritten around the pivot.
 - 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live; the pivot state is unchanged (proprietary signed-builds shell, single 2026-10-03 commit, v1.8.0 the last build), no factual drift.
+- 2026-11-06 - Re-verified in rotation: every cited URL re-fetched and live (the privacy policy URL now redirects to www.openswarm.com/privacy/); the pivot state is unchanged, no factual drift.
 
 ## See also
 

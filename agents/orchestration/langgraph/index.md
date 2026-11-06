@@ -1,7 +1,7 @@
 ---
 title: LangGraph
 created: 2026-10-06
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-framework, graph-runtime, durable-execution, python, typescript]
 readability: 3
@@ -31,7 +31,7 @@ Active and enormous: 43,293 stars, 7,364 forks, and 100+ contributors as of 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=langchain-ai/langgraph&type=date&legend=top-left" />
 </picture>
 
-Release 1.2.19 shipped 2026-10-30 after 1.2.18 (2026-10-26, an error_handler that recovers on every path with failed task results streamed, and delta snapshots defaulting to a full snapshot every 100 updates instead of 1,000, faster reads on long threads at the cost of storage, tunable through snapshot_frequency), 1.2.17 (2026-10-24), and 1.2.16 (2026-10-16, GitHub and PyPI alike), continuing a 1.2.x line that has run all year, with a push on 2026-11-04 (GitHub API, as of 2026-11-04); the separate `langgraph-sdk` package moved to 0.4.12 on 2026-11-03.
+Release 1.2.19 shipped 2026-10-30 after 1.2.18 (2026-10-26, an error_handler that recovers on every path with failed task results streamed, and delta snapshots defaulting to a full snapshot every 100 updates instead of 1,000, faster reads on long threads at the cost of storage, tunable through snapshot_frequency), 1.2.17 (2026-10-24), and 1.2.16 (2026-10-16, GitHub and PyPI alike), continuing a 1.2.x line that has run all year, with a push on 2026-11-06 (GitHub API, as of 2026-11-06); the separate `langgraph-sdk` package moved to 0.4.14 on 2026-11-06.
 npm `@langchain/langgraph` served 3,725,541 downloads in the week ending 2026-10-07, down from 4,552,953 the week before, 3,765,811 in the week ending 2026-10-08, 3,789,072 in the week ending 2026-10-09, 3,802,787 in the week ending 2026-10-10, 3,795,517 in the week ending 2026-10-11, and 3,741,572 in the week ending 2026-10-12, so the dip held roughly flat in the 3.7 to 3.8 million band rather than deepening (npm API, as of 2026-10-17).
 **For scale: that is more weekly installs than any other column in this matrix by a wide margin, and probably more than the rest of the table combined.**
 
@@ -71,6 +71,7 @@ Not for engineers who want a dashboard, worktrees, and a review flow around exis
 - 2026-10-07 - Added the langchain-ai/langgraph star history chart to the Status section.
 - 2026-10-09 - Refreshed the tracked weekly npm figure to 3,725,541 (week ending October 7, down from 4,552,953) and the star count to 42,930 as of 2026-10-09.
 - 2026-10-10 - Added the week-ending-October-8 figure (3,765,811) showing the dip holding roughly flat rather than deepening.
+- 2026-11-06 - Volatile refresh: Recorded `langgraph-sdk` moving to 0.4.14 (2026-11-06).
 
 - 2026-10-11 - Added the week-ending-October-9 figure (3,789,072), holding the flat line, and refreshed stars to 43,038.
 - 2026-10-12 - Added the week-ending-October-10 figure (3,802,787), holding the flat line, and refreshed stars to 43,102.

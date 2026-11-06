@@ -1,7 +1,7 @@
 ---
 title: VS Code + Copilot
 created: 2026-08-23
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, microsoft, github]
 readability: 3
@@ -38,6 +38,7 @@ The same changelog moved card and PayPal Business and Enterprise customers to pr
 The neutrality has a nudge now: release 1.143 (October 2026) makes the Copilot harness, built on the Copilot SDK and the Agent Host, the default for new sessions, retires the Local harness, and adds multi-model comparison runs in the Agents window where the same task runs in parallel across Copilot, Claude, and Codex harnesses with a judge model scoring the attempts.
 Release 1.144 (October 28) builds the platform out around that default: Copilot Fusion went generally available as model routing and orchestration that picks the models, reasoning effort, and execution pattern per request (30% off through November 30, 2026), cloud sessions and cloud automations (preview, enabled by default) run Copilot tasks on GitHub infrastructure on a schedule or repository events with your machine off, computer use (experimental) lets agents drive desktop apps on your macOS or Windows machine, assisted permissions went generally available with an LLM risk check auto-approving low-risk tool calls, Copilot Memory joined harness sessions with repository facts and user preferences on by default, and image generation and GitHub-managed Copilot connectors arrived in preview.
 Release 1.145 (November 4) reaches the remote machines and finishes the Local harness wind-down: an agent session on a remote agent host can preview its dev server in the Agents window's browser and use canvases hosted on that host (both preview), nested sessions can mix agent harnesses inside one session with each chat keeping its own model, agent, and permissions (preview), local automations gain five-field cron schedules and workspace custom agents, chat attachments can come from anywhere on your computer with sandboxed sessions gaining read-only access to them, MCP servers' app-provided tools become callable, and the Local harness loses its remaining workspace-creation tools, with a Local-to-Copilot transition guide published for organizations.
+Release 1.145.1 (November 6) is the current servicing patch above it.
 
 ## Strengths
 
@@ -88,6 +89,7 @@ Not for teams that want the editor itself to come with strong opinions.
 - 2026-10-27 - Recorded the 1.143 release (October 2026): the Copilot harness is now the default for new sessions and the Local harness retires, with multi-model comparison runs added to the Agents window; flagged as the neutrality nudge in Status.
 - 2026-10-31 - Recorded the 1.144 release (October 28): Copilot Fusion generally available, cloud sessions and cloud automations in preview, computer use experimental, assisted permissions generally available, Copilot Memory in harness sessions, and image generation and connectors in preview; corrected the Strengths harness list for the 1.143 Local-harness retirement.
 - 2026-11-04 - Recorded the 1.145 release (November 4): remote-agent browser preview and remote canvases, mixed-harness nested sessions, cron schedules and custom agents for local automations, attachments from anywhere with sandboxed read access, MCP app tools, and the Local harness's remaining workspace tools removed.
+- 2026-11-06 - Volatile re-verification on the released signal, recorded the 1.145.1 servicing release (November 6) above 1.145.0.
 
 ## See also
 
@@ -106,4 +108,5 @@ Not for teams that want the editor itself to come with strong opinions.
 - https://code.visualstudio.com/updates/v1_143 - the 1.143 release notes: the Copilot harness default, the Local harness retirement, multi-model comparison, and worktree storage cleanup, fetched 2026-10-27
 - https://code.visualstudio.com/updates/v1_144 - the 1.144 release notes: Copilot Fusion GA with the 30% discount through November 30, cloud sessions and cloud automations, the Agent Host Protocol v1.0, computer use, assisted permissions GA, Copilot Memory, image generation, and connectors, fetched 2026-10-31
 - https://code.visualstudio.com/updates/v1_145 - the 1.145 release notes: remote-agent browser preview and remote canvases, mixed-harness nested sessions, cron schedules and custom agents for local automations, agent verbosity modes, attachments from anywhere with sandboxed read access, MCP app tools, managed MCP allowlist precedence, and the Local harness tool removals, fetched 2026-11-04
+- https://api.github.com/repos/microsoft/vscode/releases - the release tags: 1.145.1 (November 6, 2026) as the current servicing patch above 1.145.0 (November 4), fetched 2026-11-06
 - https://news.ycombinator.com/item?id=44031432 - coding-agent launch discussion with early skepticism

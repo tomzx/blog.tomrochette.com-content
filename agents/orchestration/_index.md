@@ -39,7 +39,8 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [CLI Agent Orchestrator](cli-agent-orchestrator/index.md) - AWS Labs' Apache-2.0 Python supervisor running twelve provider coding CLIs in isolated tmux sessions behind a local server, Web UI, and MCP surface.
 - [cmux](cmux/index.md) - Manaflow's libghostty macOS terminal for parallel agents, notification rings free, cloud execution paid (Pro $50, Max $200 monthly).
 - [Commonly](commonly/index.md) - Team-Commonly's Apache-2.0 team-pod workspace where each member's coding agents join one chat and one board as named members, v3.0.0, zero coverage so far.
-- [Conductor](conductor/index.md) - the macOS app for parallel Claude Code, Codex, Cursor, and OpenCode sessions with diff review and PR flow.
+- [Concord MCP](concord-mcp/index.md) - the MIT MCP server and CLI giving coding agents sharing one checkout a claim ledger, live messaging, handoffs, and review packets, with an early-access cloud tier at $15 per seat.
+- [Conductor](conductor/index.md) - the macOS app for parallel Claude Code, Codex, Cursor, and OpenCode sessions with diff review and PR flow, joining Meta since 2026-11-04 with the cloud shut down on 2026-11-20 and the local app maintained only to early 2027.
 - [CrewAI](crewai/index.md) - the MIT Python role-and-crew framework, 59.7k stars, now funded by an $18M enterprise platform.
 - [Crewplane](crewplane/index.md) - the Apache-2.0 CLI workflow runner that turns coding-agent stages into resumable Markdown with on-disk run records.
 - [Crystal](crystal/index.md) - Stravu's worktree manager, deprecated February 2026 for Nimbalyst, kept here as a death record.
@@ -191,3 +192,4 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-11-01 - Added Happier.
 - 2026-11-01 - Added nodeterm.
 - 2026-11-01 - Added termio.
+- 2026-11-06 - Added Concord MCP.

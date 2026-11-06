@@ -1,7 +1,7 @@
 ---
 title: AutoGen
 created: 2026-09-27
-updated: 2026-10-29
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, microsoft]
 readability: 3
@@ -26,6 +26,7 @@ Its research lineage is real: the framework came out of Microsoft Research and P
 
 Archived, by its own declaration: on 2026-10-16 the README moved from the orange maintenance-mode badge to a red status-archived badge and a caution box stating "Project archived and no longer maintained", that "Microsoft is not providing bug fixes, security fixes, new features, or support", and that the repository remains available for historical and reference purposes only (the repo is not GitHub-formally archived, so issues and pulls stay open).
 New users are pointed to Microsoft Agent Framework (MAF), the enterprise successor that merged the AutoGen and Semantic Kernel lines; MAF shows 14,066 stars as of 2026-10-12, MIT, with a push on 2026-10-16 (GitHub API, as of 2026-10-18).
+The archive caution now also advises against production use outright, citing unaddressed vulnerabilities in archived projects.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/autogen&type=date&theme=dark&legend=top-left" />
@@ -75,6 +76,7 @@ My disagreeable claim: conversation-first multi-agent programming, the pattern A
 - 2026-10-12 - Refreshed the Microsoft Agent Framework successor counts (14,066 stars, pushed October 11).
 - 2026-10-18 - Status moved from maintenance mode to archived: the 2026-10-16 README commit added a red archived badge and states Microsoft provides no bug, security, or feature fixes; the repository stays public and not GitHub-formally archived.
 - 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live; a 2026-10-28 docs commit added the archive caution to the documentation landing page, recorded in Status.
+- 2026-11-06 - Re-verified in rotation: every cited URL re-fetched and live; the archive caution gained an explicit advisory against production use, recorded in Status.
 
 ## See also
 

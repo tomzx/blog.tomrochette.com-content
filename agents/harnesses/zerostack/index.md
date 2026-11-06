@@ -1,7 +1,7 @@
 ---
 title: Zerostack
 created: 2026-08-30
-updated: 2026-11-04
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, terminal]
 readability: 3
@@ -25,7 +25,7 @@ An ARCHITECTURE.md file complements AGENTS.md with shared core knowledge for age
 
 ## Status
 
-Active: the repository was pushed 2026-11-03 (GitHub API, re-checked 2026-11-04), created May 12, 2026, with the latest release v1.8.5 on October 10, 2026, which deprecated the Ralph Wiggum `/loop` (still available until the next major but dropped from the default compile-time features), switched the lite binary family to shipping default features, added permission-wait status signals over protocol v1.1, added opencode-zen and opencode-go provider recipes, and credited four first-time external contributors.
+Active: the repository was pushed 2026-11-04 (GitHub API, re-checked 2026-11-06), created May 12, 2026, with the latest release v1.8.5 on October 10, 2026, which deprecated the Ralph Wiggum `/loop` (still available until the next major but dropped from the default compile-time features), switched the lite binary family to shipping default features, added permission-wait status signals over protocol v1.1, added opencode-zen and opencode-go provider recipes, and credited four first-time external contributors.
 1,708 stars and 140 forks as of 2026-10-15.
 
 <picture>
