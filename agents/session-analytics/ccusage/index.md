@@ -1,7 +1,7 @@
 ---
 title: ccusage
 created: 2026-10-05
-updated: 2026-11-01
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The repository is a monorepo created by ryoppippi (the project moved from his pe
 ## Status
 
 **The most-installed tool in this category by an order of magnitude, and until today the only one this section had never profiled.**
-About 19k stars (19,001) and 904 forks as of 2026-11-01, created 2025-05-29, pushed 2026-11-01 (GitHub API).
+About 19k stars (19,001) as of 2026-11-01 and 910 forks, created 2025-05-29, pushed 2026-11-05 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&theme=dark&legend=top-left" />
@@ -32,8 +32,8 @@ About 19k stars (19,001) and 904 forks as of 2026-11-01, created 2025-05-29, pus
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&legend=top-left" />
 </picture>
 
-The npm package pulled 813,384 downloads in the trailing month (2026-10-03 to 2026-11-01, ten zero days inside the window), roughly eleven times the claude-mem plugin and far ahead of every session-analytics peer here.
-The release line is v20.x with rapid patches: v20.0.46 (2026-10-30, unreadable Antigravity conversation databases skipped and Codex Ultrafast requests priced at Ultrafast rates) is the latest tagged release and the npm latest, after v20.0.45 (2026-10-26, gpt-6.1-terra fast and flex multipliers plus Codex repeated first-response snapshots counted once) and v20.0.44 (2026-10-24, a release-packaging fix that publishes the platform packages before the wrapper), as of 2026-11-01, with 904 forks and pricing-snapshot updates landing since.
+The release line is v20.x with rapid patches: v20.0.48 (2026-11-02, no significant changes) is the latest tagged release and the npm latest, after v20.0.47 (2026-11-01, OpenCode Claude Agent turns counted once in unified reports, sessions keeping their last-active day under --until, and space-form config sections overriding generic ones), v20.0.46 (2026-10-30, unreadable Antigravity conversation databases skipped and Codex Ultrafast requests priced at Ultrafast rates), and v20.0.45 (2026-10-26, gpt-6.1-terra fast and flex multipliers plus Codex repeated first-response snapshots counted once), as of 2026-11-05, with pricing-snapshot updates landing since.
+The npm package pulled 868,734 downloads in the trailing month (2026-10-06 to 2026-11-05, nine zero days inside the window), roughly ten times the claude-mem plugin (89,982 in the same window) and far ahead of every session-analytics peer here.
 Its Show HN launch thread reached 75 points in July 2025, and the README carries an Awesome Claude Code mention badge.
 
 ## Strengths
@@ -80,6 +80,7 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 - 2026-10-28 - Recorded v20.0.45 (2026-10-26): gpt-6.1-terra fast and flex multipliers plus Codex repeated first-response snapshots counted once; npm latest moved to 20.0.45, trailing-month downloads refreshed (826,577 to 870,201, window 2026-09-28 to 2026-10-27), forks refreshed 889 to 892, and the pushed date moved to 2026-10-28.
 - 2026-10-31 - Recorded v20.0.46 (2026-10-30): unreadable Antigravity conversation databases skipped and Codex Ultrafast requests priced at Ultrafast rates; npm latest moved to 20.0.46, trailing-month downloads refreshed (870,201 to 897,533, window 2026-09-30 to 2026-10-29 with seven zero days inside), forks refreshed 892 to 901, and the pushed date moved to 2026-10-31.
 - 2026-11-01 - Volatile re-verification: no release after v20.0.46 and npm latest unchanged at 20.0.46, the 2026-11-01 default-branch pushes being the routine pricing-snapshot and dependency updates the Status already describes; trailing-month downloads refreshed (897,533 to 813,384, window 2026-10-03 to 2026-11-01 with ten zero days, claude-mem re-read at 72,879 in the same window so the multiplier moved to roughly eleven times), forks refreshed 901 to 904, and the pushed date moved to 2026-11-01.
+- 2026-11-05 - Recorded v20.0.47 (2026-11-01, OpenCode Claude Agent turns counted once, sessions last-active fix, space-form config override fix) and v20.0.48 (2026-11-02, no significant changes), npm latest moved to 20.0.48; trailing-month downloads refreshed (813,384 to 868,734, window 2026-10-06 to 2026-11-05 with nine zero days, claude-mem re-read at 89,982 so the multiplier moved to roughly ten times), forks refreshed 904 to 910, and the pushed date moved to 2026-11-05.
 
 ## See also
 
@@ -94,9 +95,9 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 - https://github.com/ccusage/ccusage - repository, 18.9k stars and 864 forks as of 2026-10-05, created 2025-05-29, the ryoppippi origin and ccusage-org move (the ryoppippi/ccusage URL redirects here)
 - https://raw.githubusercontent.com/ccusage/ccusage/main/apps/ccusage/README.md - the eighteen-source table, report types, blocks and statusline features, offline mode, and pricing overrides
 - https://raw.githubusercontent.com/ccusage/ccusage/main/apps/ccusage/LICENSE - the MIT license text, copyright ryoppippi
-- https://api.npmjs.org/downloads/range/2026-10-03:2026-11-01/ccusage - 813,384 trailing-month downloads (ten zero days inside the window), fetched 2026-11-01 via the dated-range endpoint per the npm-window ruling
-- https://api.npmjs.org/downloads/range/2026-10-03:2026-11-01/claude-mem - 72,879 downloads in the same window, grounding the roughly-eleven-times comparison (fetched 2026-11-01)
-- https://registry.npmjs.org/ccusage - npm latest 20.0.46, matching the v20.0.46 GitHub tag (re-verified 2026-11-01)
-- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.46 (2026-10-30), v20.0.45 (2026-10-26), v20.0.44 and v20.0.43 (2026-10-24), v20.0.42 (2026-10-23), and v20.0.41 (2026-10-22) release dates (re-fetched 2026-11-01)
+- https://api.npmjs.org/downloads/range/2026-10-06:2026-11-05/ccusage - 868,734 trailing-month downloads (nine zero days inside the window), fetched 2026-11-05 via the dated-range endpoint per the npm-window ruling
+- https://api.npmjs.org/downloads/range/2026-10-06:2026-11-05/claude-mem - 89,982 downloads in the same window, grounding the roughly-ten-times comparison (fetched 2026-11-05)
+- https://registry.npmjs.org/ccusage - npm latest 20.0.48, matching the v20.0.48 GitHub tag (re-verified 2026-11-05)
+- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.48 (2026-11-02, no significant changes), v20.0.47 (2026-11-01), v20.0.46 (2026-10-30), v20.0.45 (2026-10-26), v20.0.44 and v20.0.43 (2026-10-24), v20.0.42 (2026-10-23), and v20.0.41 (2026-10-22) release dates (re-fetched 2026-11-05)
 - https://news.ycombinator.com/item?id=44610925 - the 75-point launch thread (2025-07-18), carrying the npx-security critique and the estimate-versus-bill debates
 - https://ccusage.com - the docs site, a client-rendered VitePress shell this run, with the title and description verified in the served HTML

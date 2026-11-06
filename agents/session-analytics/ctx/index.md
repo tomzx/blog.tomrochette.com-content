@@ -1,7 +1,7 @@
 ---
 title: "ctx"
 created: 2026-09-05
-updated: 2026-10-28
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, cli]
 readability: 3
@@ -22,7 +22,7 @@ Search is BM25 by default with an opt-in semantic mode that embeds locally (the 
 
 ## Status
 
-Active: created 2026-02-23, about 1.1k stars (1,153) and 76 forks, pushed 2026-10-27 (side branches), latest release v2.3.0 on 2026-10-25 (workspace-and-time-window selection for archive exports with a dry-run preview, creator-supplied archive labels on restored conversations, a daemon status view across registered data roots, and security-advisory dependency upgrades including Tantivy 0.27), after v2.2.8 on 2026-10-05 (incremental-import and blame-worker fixes), after the v2.2.7 line of 2026-10-02 (incremental-import fixes, a day after v2.2.6 added `ctx import --all --incremental` for one-pass catch-up imports), after the v2.2.0 line of 2026-09-30 (opt-in history backup plus beta sharing through a self-hosted ctx server, with installer-recovery, history-import, and telemetry fixes through v2.2.5 on 2026-10-01), the v2.1.3 and v2.1.4 patches of 2026-09-29 and 2026-09-30, and the v2.1.0 line of 2026-09-28 (paged blame indexing that scales past 16,384 sources), as of 2026-10-28.
+Active: created 2026-02-23, about 1.1k stars (1,153) and 78 forks, pushed 2026-11-05, latest release v2.4.1 on 2026-11-05 (broad multi-word searches about 40 to 50 percent faster on large histories, Blame retry guidance while background indexing catches up, and cleanup of abandoned build files on retried index rebuilds), after v2.4.0 on 2026-11-04 (Prime Agent as a supported history provider, discovered separately from Pi through version 3 sessions, RLM child sessions, and T3 Code's local Prime store, with search and show preserving conversation and custom messages, Python tool calls and results, and session relationships), after v2.3.0 on 2026-10-25 (workspace-and-time-window selection for archive exports with a dry-run preview, creator-supplied archive labels on restored conversations, a daemon status view across registered data roots, and security-advisory dependency upgrades including Tantivy 0.27), after v2.2.8 on 2026-10-05 (incremental-import and blame-worker fixes), after the v2.2.7 line of 2026-10-02 (incremental-import fixes, a day after v2.2.6 added `ctx import --all --incremental` for one-pass catch-up imports), after the v2.2.0 line of 2026-09-30 (opt-in history backup plus beta sharing through a self-hosted ctx server, with installer-recovery, history-import, and telemetry fixes through v2.2.5 on 2026-10-01), the v2.1.3 and v2.1.4 patches of 2026-09-29 and 2026-09-30, and the v2.1.0 line of 2026-09-28 (paged blame indexing that scales past 16,384 sources), as of 2026-11-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ctxrs/ctx&type=date&theme=dark&legend=top-left" />
@@ -41,7 +41,7 @@ The docs site at ctx.rs is complete (concepts, about 40 supported agent harnesse
 
 ## Cautions
 
-- The 50x token-efficiency claim is self-reported (917 versus 45,734 tokens in its own example, still shown on the site's home page as of 2026-10-11), with no independent benchmark.
+- The 50x token-efficiency claim is self-reported (917 versus 45,734 tokens in its own example, still shown on the site's home page as of 2026-11-05), with no independent benchmark.
 - The pro subscription that once gated blame disappeared from the site with 2.0, so the business model behind a formerly paid capability is now unstated.
 - It reads whatever the agents wrote: transcripts are only as complete as the harnesses' logs, and deleted local history is gone.
 
@@ -89,6 +89,7 @@ Not for anyone needing audited cost reporting (agentsview's job) or provenance g
 - 2026-10-25 - Volatile re-verification: no release after v2.2.8 with four unreleased default-branch fixes landing 2026-10-25 (release-advisory security remediation, a macOS 26.2 SDK repin, idle-after-refresh admission failures, and an exhaustive-replay fix after member discovery); the pushed date moved to 2026-10-25.
 - 2026-10-26 - Recorded v2.3.0 (2026-10-25): archive exports now select conversations by workspace and time window with a dry-run preview, restored conversations carry creator-supplied archive labels through search, detail, locate, JSON, and MCP, daemon status lists registered data roots, and security-advisory dependency upgrades (Tantivy 0.27, TLS and ZIP stacks) landed with the release.
 - 2026-10-28 - Volatile re-verification: no default-branch commit and no release after v2.3.0, the 2026-10-27 push landing on side branches; counts unchanged.
+- 2026-11-05 - Rotation re-verification, every cited URL re-fetched and live: recorded v2.4.0 (2026-11-04, the Prime Agent history provider) and v2.4.1 (2026-11-05, faster broad multi-word searches and Blame retry guidance), the pushed date moved to 2026-11-05, forks refreshed 76 to 78, and the home-page efficiency claim re-verified still shown; repository state otherwise unchanged.
 
 ## See also
 
@@ -104,5 +105,5 @@ Not for anyone needing audited cost reporting (agentsview's job) or provenance g
 - https://ctx.rs/pro - now the blame documentation page; the former pro-pricing URL redirects into the docs
 - https://hn.algolia.com/api/v1/items/49550141 - the Show HN launch thread, cited as the thin-footprint signal
 - https://ctx.rs/comparisons/agent-memory - the project's own framing against agent memory, from the comparisons section that now splits per topic
-- https://api.github.com/repos/ctxrs/ctx/releases - v2.3.0 published 2026-10-25, with v2.2.8 (2026-10-05), v2.2.7 (2026-10-02), v2.2.6 (2026-10-02), the v2.2.5 release (2026-10-01), the v2.2.0 line (2026-09-30), and the v2.1.x patches between
+- https://api.github.com/repos/ctxrs/ctx/releases - v2.4.1 published 2026-11-05 and v2.4.0 published 2026-11-04, with v2.3.0 (2026-10-25), v2.2.8 (2026-10-05), v2.2.7 (2026-10-02), v2.2.6 (2026-10-02), the v2.2.5 release (2026-10-01), the v2.2.0 line (2026-09-30), and the v2.1.x patches between (re-fetched 2026-11-05)
 - https://news.ycombinator.com/item?id=49727859 - the 3-point Show HN re-launch on 2026-09-16

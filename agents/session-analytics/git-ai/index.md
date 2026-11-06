@@ -1,7 +1,7 @@
 ---
 title: git-ai
 created: 2026-10-11
-updated: 2026-11-01
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, provenance, git, open-source]
 readability: 3
@@ -26,7 +26,7 @@ A vendor product, the Git AI Platform from Next Element, Inc., adds team rollout
 ## Status
 
 Acquired and active: the founders announced Git AI joining OpenAI's Codex team on 2026-09-11, with continued investment in the open-source CLI and the standard.
-2,829 stars, 328 forks, 256 open issues, created 2025-07-02, pushed 2026-10-20 on the default branch with repository pushes through 2026-10-31 on side branches, newest tag and GitHub release v1.7.5 (published 2026-09-09), with the curl install script still the README's distribution path, as of 2026-11-01.
+2,829 stars, 327 forks, 258 open issues, created 2025-07-02, pushed 2026-11-05 on the default branch, newest tag and GitHub release v1.7.6 (published 2026-11-05, a latest-channel build carrying beta Windows MSI and macOS PKG installers, after a v1.7.6-next prerelease on 2026-11-04 and v1.7.5 on 2026-09-09), with the curl install script still the README's distribution path, as of 2026-11-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=git-ai-project/git-ai&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ Not for live observation, cost dashboards, or transcript search, and not for age
 - 2026-10-21 - Rotation re-verification: every cited URL re-fetched and live, with the how-git-ai-works docs page repointed to its new get-started path (the checkpoint and refs/notes/ai mechanics and the 5-100ms consistency claim re-verified there); What it is gained the background-agent install guides (Claude Web, Codex Cloud, Cursor Agent, Devin), repository counts refreshed (forks 312 to 320, open issues 261 to 246), and the pushed date moved to 2026-10-20 (CI housekeeping).
 - 2026-10-28 - Rotation re-verification: every cited URL re-fetched and live, and the Status corrected: the repository does carry GitHub releases (v1.7.5 published 2026-09-09, so the no-releases claim recorded since creation was wrong), with the curl install script still the README's distribution path and both the agents and cli docs paths for the background-agent guides resolving; no default-branch commit since 2026-10-20, and repository counts refreshed (forks 320 to 326, open issues 246 to 251).
 - 2026-11-01 - Volatile re-verification: no release after v1.7.5 and no default-branch commit since 2026-10-20, the 2026-10-31 push landing on side branches; forks refreshed 326 to 328 and open issues 251 to 256.
+- 2026-11-05 - Recorded v1.7.6 (2026-11-05, the first tagged release since v1.7.5, a latest-channel build with beta Windows MSI and macOS PKG installers) and the default branch's return to activity (a version-bump commit at 1.7.7 the same morning); forks refreshed 328 to 327 and open issues 256 to 258.
 
 ## See also
 
@@ -88,7 +89,7 @@ Not for live observation, cost dashboards, or transcript search, and not for age
 - https://usegitai.com/docs/agents/claude-web - the background-agent install guides extending checkpoint setup to Claude Web, Codex Cloud, Cursor Agent, and Devin
 - https://usegitai.com/blog/git-ai-is-joining-openai - the OpenAI Codex team acquisition announced 2026-09-11 and the hundreds-of-thousands-of-machines claim
 - https://usegitai.com - the enterprise surface: MDM rollout, PR-level percent-AI and cost views, the Fortune 100 claim, and Next Element, Inc. as the company
-- https://api.github.com/repos/git-ai-project/git-ai/releases - v1.7.5 published 2026-09-09 as the newest release, behind the install-script distribution (re-fetched 2026-10-28; corrects the earlier no-releases claim, which the 2026-10-21 pass grounded in the tags endpoint alone)
-- https://api.github.com/repos/git-ai-project/git-ai/tags?per_page=5 - v1.7.5 as the newest tag, matching the newest release
+- https://api.github.com/repos/git-ai-project/git-ai/releases - v1.7.6 published 2026-11-05 as the newest release (beta MSI and PKG installers), behind a v1.7.6-next prerelease of 2026-11-04 and v1.7.5 of 2026-09-09, with the curl install script still the README's distribution path (re-fetched 2026-11-05; corrects the earlier no-releases claim, which the 2026-10-21 pass grounded in the tags endpoint alone)
+- https://api.github.com/repos/git-ai-project/git-ai/tags?per_page=5 - v1.7.6 as the newest tag, matching the newest release (re-fetched 2026-11-05)
 - https://api.github.com/repos/acunniffe/git-ai - the original owner's URL now resolving to git-ai-project/git-ai, grounding the repository transfer
 - https://hn.algolia.com/api/v1/search?query=git-ai - the 6-point Show HN (2025-11-10) and the peer citations behind the thinner-than-adoption footprint claim, fetched 2026-10-11
