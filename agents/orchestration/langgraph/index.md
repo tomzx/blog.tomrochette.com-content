@@ -71,16 +71,14 @@ Not for engineers who want a dashboard, worktrees, and a review flow around exis
 - 2026-10-07 - Added the langchain-ai/langgraph star history chart to the Status section.
 - 2026-10-09 - Refreshed the tracked weekly npm figure to 3,725,541 (week ending October 7, down from 4,552,953) and the star count to 42,930 as of 2026-10-09.
 - 2026-10-10 - Added the week-ending-October-8 figure (3,765,811) showing the dip holding roughly flat rather than deepening.
-- 2026-11-06 - Volatile refresh: Recorded `langgraph-sdk` moving to 0.4.14 (2026-11-06).
-
 - 2026-10-11 - Added the week-ending-October-9 figure (3,789,072), holding the flat line, and refreshed stars to 43,038.
 - 2026-10-12 - Added the week-ending-October-10 figure (3,802,787), holding the flat line, and refreshed stars to 43,102.
 - 2026-10-13 - Added the week-ending-October-11 figure (3,795,517), holding the flat line, recorded release 1.2.15 (October 12), and refreshed stars to 43,170.
-
 - 2026-10-25 - Recorded release 1.2.17 (2026-10-24) on the release train.
 - 2026-10-27 - Recorded 1.2.18 (2026-10-26, error_handler recovery fix and the 100-update delta-snapshot default).
 - 2026-11-01 - Recorded 1.2.19 (2026-10-30) as the latest release.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04 and the langgraph-sdk package recorded at 0.4.12 (2026-11-03); the core line still ends at 1.2.19.
+- 2026-11-06 - Volatile refresh: Recorded `langgraph-sdk` moving to 0.4.14 (2026-11-06).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [agents]
 readability: 0
@@ -13,6 +13,17 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 
 ## Scope rulings
 
+- 2026-11-07 | cross-category | directory listings behind Vercel security checkpoints (everydev.ai class) cite the search-result record that names the listing when unauthenticated fetches 429, on the OpenReview wall precedent | the PandaCode EveryDev.ai listing cited this way this run
+- 2026-11-07 | protocols | the 2026-11-03 Personal Agent Protocol admission's unshipped-v0.1 premise resolved stale: the v0.1 the announcement promised shipped 2026-10-09 as the Poppy draft and the train reached frozen 0.3 (2026-11-04) with draft 0.4 open before the note was written | the note, category index, and matrix column landed 2026-11-07 from live fetches with the corrected Status recorded in the note's Changes
+- 2026-11-07 | protocols | NeuroCode (Arkz-Deepak/neurocode) rejected on the servers-and-utility-layers ruling as an MCP server, context-slicing kind flagged for context-engines routing | 0 stars, created 2026-10-18, surfaced by the awesome-mcp-servers 2026-11-06 addition
+- 2026-11-07 | executions | the 2026-11-06 centaur admission landed: note verified out of rotation with every cited URL re-fetched, matrix column and index entry added with the Changes bullet dated to the admission | resolves the coordinator's interrupted-2026-11-06 handoff
+- 2026-11-07 | cross-category | PandaCode (aicodeking/pandacode) clears the bar and routes to orchestration on the standalone-ADE line above the 2026-11-01 wave floor | 1,109 stars as of 2026-11-07, daily release train, MIT-plus-fork-attribution license, MindStudio and cnblogs third-party writeups
+- 2026-11-07 | cross-category | LazyMind (LazyAGI/LazyMind) held out-of-scope pending an owner ruling on knowledge-work skill runtimes | no claiming category after kind declines (skills scope excludes runtimes, not multi-agent orchestration, plugin-into-harness is ecosystem evidence); pctx precedent
+- 2026-11-07 | cross-category | the andyrewlee 2026-11-05 additions resolve with one admission, one hold, and five below-band rejections; deja-vu and Orchestrator.inc are already-covered listings | caprock 41, devthrottle 110, antumi 97, claudette 87, prometeu 64 stars, all zero-coverage while the tier question is open
+- 2026-11-07 | cross-category | the 2026-11-06 stars scan pair rejects on the no-agent-story line | spiffe/spire and HewlettPackard/py-spiffe are workload identity infrastructure with no agent surface
+- 2026-11-07 | orchestration | repository account/org transfers record in place like renames: note title kept, star-history chart and references moved to the canonical path the same run, the old path named once as history | squad (bradygaster to the github org) and agent-manager (YoanWai to wainmann) both transferred this run, both old paths verified 301
+- 2026-11-07 | cross-category | npmjs.com package pages serve a bot wall to plain fetches, so registry.npmjs.org grounds package facts | hit on the oh-my-codex rotation, website 403 while the registry endpoint returned 200; extends the 2026-11-01 unfetchable-page ruling
+- 2026-11-07 | section-root | models.dev's canonical Weights column reading K3.1 Pro Closed is a reference-side disagreement, recorded beside the primaries (Moonshot's open-weight card, the public Hugging Face release with safetensors and 15 finetunes), never averaged into the cell | the 2026-11-07 fetch flipped the 2026-11-05 Open reading while the primaries still carry the open weights
 - 2026-11-06 | orchestration | concord-mcp (Get-Concord-AI/concord-mcp) admitted, the 2026-08-30 concord hold reopened on new independent coverage with the Foremerge/hcom coordination-layer precedent | 978 stars as of 2026-11-06, v0.20.0 (2026-11-05), 5,184 npm downloads in the trailing month, two fetched critical reviews; followagents-style telemetry caution recorded in the note
 - 2026-11-06 | cross-category | the coordinator's 2026-11-05 handoffs resolve with one admission in scope and two routed flags | open-swe (langchain-ai/open-swe, README rebranded to Robin, 11,177 stars, MIT) clears the bar and routes to software-factory on its self-described issue-to-PR factory line (SuperPlane precedent); centaur (paradigmxyz/centaur, 1,422 stars, license verified dual MIT/Apache-2.0) routes to executions on the Airut Slack-to-sandbox precedent
 - 2026-11-06 | orchestration | Conductor's Meta acquisition records in place as the category's third exit record after Flowise's archive and Open Swarm's pivot | joining Meta announced 2026-11-04, cloud read-only 2026-11-13 and shut down 2026-11-20, local maintained to early 2027, 0.93.0 the final release

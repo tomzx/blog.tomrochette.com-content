@@ -84,12 +84,11 @@ I believe every serious agent deployment eventually needs exactly what Omnara is
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-07 - Added the omnara-ai/omnara star history chart to the Status section.
 - 2026-10-12 - Recorded the two-line release train (omnarad v0.2.2 and cluster v0.2.2, both October 10) and refreshed star counts.
-- 2026-11-06 - Volatile refresh: Recorded `omnarad` v0.2.17 (2026-11-04) as the new latest daemon release.
-
 - 2026-10-20 - Recorded v0.2.8 (2026-10-19) on both the omnarad and cluster release lines.
-
 - 2026-10-25 - Recorded v0.2.10 and v0.2.11 on both the omnarad and cluster release lines.
 - 2026-11-01 - Rotation re-verification (every cited URL re-fetched live, pricing figures unchanged); recorded omnarad v0.2.15 and cluster v0.2.15 (both 2026-10-30) on the two release lines.
+- 2026-11-06 - Volatile refresh: Recorded `omnarad` v0.2.17 (2026-11-04) as the new latest daemon release.
+
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the supervision layer Omnara belongs to

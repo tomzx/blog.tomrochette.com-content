@@ -1,7 +1,7 @@
 ---
 title: Copilot CLI
 created: 2026-10-05
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, github, microsoft, terminal]
 readability: 3
@@ -29,7 +29,7 @@ Distribution is npm (`@github/copilot`), a Homebrew cask, WinGet, an install scr
 
 **Active and enormous in distribution.**
 Public preview launched September 25, 2025, and general availability followed on February 25, 2026.
-The npm package's latest stable build is 1.0.106 (published November 6, 2026, promoted from the 1.0.106 prerelease train that ran through 1.0.106-9 on November 4), and it did 6,050,298 downloads in npm's trailing-month window (October 6 to November 4) as of 2026-11-06, among the largest npm install bases of any harness in this section.
+The npm package's latest stable build is 1.0.107 (published November 6, 2026, hours after promoting 1.0.106, with the prerelease train at 1.0.108-1), and it did 6,377,474 downloads in npm's trailing-month window (October 8 to November 7) as of 2026-11-07, among the largest npm install bases of any harness in this section.
 The `github/copilot-cli` repository shows 11,252 stars as of 2026-10-15 (GitHub API), and it is a distribution and issues repository, with no open-source license.
 
 <picture>
@@ -95,6 +95,7 @@ Not for teams with open-client mandates, and not for untrusted repositories unti
 - 2026-10-28 - Recorded the stable dist-tag promoting 1.0.105 (published October 28, after two same-day prereleases) with the prerelease train at 1.0.105-1; the download window kept its clean October 26 reading because the API's newer windows embed a zero-download day.
 - 2026-11-01 - Recorded the prerelease train reaching 1.0.106-1 and 1.0.106-2 (October 31 and November 1) behind the unchanged 1.0.105 stable, and refreshed the download window to 4,986,700 in the month to November 1.
 - 2026-11-06 - Recorded npm promoting 1.0.106 to stable (published November 6) and refreshed the trailing-month download figure to 6,050,298 (window October 6 to November 4, as of 2026-11-06).
+- 2026-11-07 - Recorded npm promoting 1.0.107 to stable (published November 6, hours after 1.0.106, prerelease train at 1.0.108-1) and refreshed the trailing-month download figure to 6,377,474 (window October 8 to November 7, range query, as of 2026-11-07).
 
 ## See also
 
@@ -110,8 +111,8 @@ Not for teams with open-client mandates, and not for untrusted repositories unti
 - https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli - install paths, subscription prerequisite, and token authentication (fetched 2026-10-21, repointed after the docs reorganization)
 - https://github.com/features/copilot/plans - plan prices, AI Credits structure, model roster, and third-party delegation gating, as of 2026-10-12 (re-verified unchanged)
 - https://github.com/github/copilot-cli - distribution repository, 11,250 stars, no open-source license, as of 2026-10-12 (verified via the GitHub API)
-- https://registry.npmjs.org/@github%2Fcopilot - latest stable 1.0.104 published 2026-10-27 with the prerelease train at 1.0.104-4, package created 2025-09-25 (verified via the registry API, 2026-10-27)
-- https://api.npmjs.org/downloads/point/2026-10-03:2026-11-01/@github/copilot - 4,986,700 downloads, window October 3 to November 1, as of 2026-11-01
+- https://registry.npmjs.org/@github%2Fcopilot - latest stable 1.0.107 published 2026-11-06 with the prerelease train at 1.0.108-1, package created 2025-09-25 (verified via the registry API, 2026-11-07)
+- https://api.npmjs.org/downloads/point/2026-10-08:2026-11-07/@github/copilot - 6,377,474 downloads, window October 8 to November 7, as of 2026-11-07
 - https://hn.algolia.com/api/v1/items/47183940 - the February 27, 2026 malware-execution thread, 62 points (verified via the Algolia API)
 - https://hn.algolia.com/api/v1/items/45810658 - the November 2025 Docker-sandboxing guide thread, 59 points
 - https://hn.algolia.com/api/v1/items/45377734 - the September 25, 2025 public-preview launch thread, 24 points

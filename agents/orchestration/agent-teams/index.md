@@ -1,7 +1,7 @@
 ---
 title: Agent Teams
 created: 2026-10-07
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, kanban, multi-cli, agpl]
 readability: 3
@@ -21,7 +21,7 @@ It connects Claude Code, Codex, OpenCode, Cursor, SuperGrok, GitHub Copilot, Z.A
 
 ## Status
 
-Active and young: 2,254 stars, a push on 2026-11-06, and release v2.18.6 on 2026-11-05 as of 2026-11-06 (GitHub API), a v2.18 line that followed v2.17.10 (2026-10-09, nine releases after v2.17.1 (2026-09-28)), on a repository created 2026-02-21.
+Active and young: 2,254 stars, a push on 2026-11-07, and release v2.18.6 on 2026-11-05 as of 2026-11-07 (GitHub API), a v2.18 line that followed v2.17.10 (2026-10-09, nine releases after v2.17.1 (2026-09-28)), on a repository created 2026-02-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=777genius/agent-teams-ai&type=date&theme=dark&legend=top-left" />
@@ -64,12 +64,11 @@ Not for teams that need vendor accountability or a permissive license.
 - 2026-10-07 - Created.
 - 2026-10-08 - Recorded v2.17.6 (October 8), five releases after v2.17.1.
 - 2026-10-10 - Recorded v2.17.10 (October 9), nine releases after v2.17.1, and refreshed the star count to 2,251 as of 2026-10-10.
-- 2026-11-06 - Volatile refresh: Recorded v2.18.6 (2026-11-05) as the new latest release.
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 - 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); the release record stands at v2.18.4 (2026-10-27) with pushes continuing through 2026-10-31, and the stale releases-reference description was corrected.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v2.18.4 still the latest release.
+- 2026-11-06 - Volatile refresh: Recorded v2.18.6 (2026-11-05) as the new latest release.
 
 ## See also
 

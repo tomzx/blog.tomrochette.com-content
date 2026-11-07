@@ -67,11 +67,10 @@ Not for teams that want LLM-driven planning, a GUI-first experience, or a projec
 - 2026-10-06 - Created after the entrant scan surfaced the active v3.21.0 repository with no note in the section.
 - 2026-10-07 - Added the sipyourdrink-ltd/bernstein star history chart to the Status section.
 - 2026-10-10 - Corrected the star count from the 1,404 recorded on 2026-10-06 to 1,200 as of 2026-10-10 and recorded the roughly 200-star drop in the Status section.
-- 2026-11-06 - Volatile refresh: Recorded v3.24.1 (2026-11-05) as the new latest release.
-
 - 2026-10-25 - Recorded v3.23.0 (2026-10-24) as the latest release.
 - 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live (PyPI at 3.23.0, README still advertising 50-plus adapters); repaired the HN reference, whose bernstein.run query had stopped matching the two threads, to the query that returns them.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v3.23.0 still the latest release.
+- 2026-11-06 - Volatile refresh: Recorded v3.24.1 (2026-11-05) as the new latest release.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: EvoAgentX
 created: 2026-10-10
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, self-evolving, workflow-optimization]
 readability: 3
@@ -69,6 +69,7 @@ My disagreeable claim: **the framework family's next differentiator is not anoth
 - 2026-10-10 - Created from the automated-research scan's referral of the project as orchestration-class.
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, license, both arXiv papers, HN search); no claims changed, the 2026-10-22 maintenance return still the newest activity, and the category index one-liner corrected to match.
 - 2026-11-01 - Recorded the maintenance return continuing with pushes through 2026-10-31; the release train still stops at v0.1.4.
+- 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (repository API, README, license, both arXiv papers, the HN search); no factual drift, the repository still quiet since the 2026-10-31 push.
 
 ## See also
 

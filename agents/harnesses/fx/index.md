@@ -1,7 +1,7 @@
 ---
 title: fx
 created: 2026-08-29
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zig, vercel, embedding]
 readability: 3
@@ -23,7 +23,7 @@ Feature surface: native [AGENTS.md](https://fx.sh/docs/configure-fx/project-inst
 ## Status
 
 **Active and very young.**
-The repository was created August 11, 2026 and shows 3,446 stars and 380 forks as of 2026-10-15, with v0.0.16 the latest release (published October 29, 2026; a token-and-size release claiming 41 percent fewer uncached input tokens across ten model families and an 87.5 percent reduction in broken prompt-prefix requests in the vendor's paired benchmark, a 2.8 percent smaller macOS arm64 CLI, libfx npm downloads about 60 percent lighter by installing the platform-native addon instead of every platform's binary with WebAssembly as the fallback, file edits up to 16 MiB, named skills sending their instructions only with the turn that invokes them, and edit diffs stored instead of full file copies) on top of v0.0.15 (published October 27, 2026; roughly 70 percent less peak memory on long conversations holding saved images in a vendor synthetic benchmark, model-catalog updates without a restart, a leaner session store with about 18 percent faster resumes, and `/fork` branching from an earlier prompt) on top of v0.0.14 (published October 16, 2026; durable libfx sessions that survive crashes, redeploys, and function timeouts with idempotent-marked tool reruns, multiple named libfx agents per app, `wakeHandler()` as one HTTP route for every agent, ChatGPT and Grok subscription sign-in for server-side agents, libfx custom OpenAI-compatible endpoints including local model servers, and a move to Zig 0.17) and pushes landing on the day of verification (GitHub API, as of 2026-11-06).
+The repository was created August 11, 2026 and shows 3,446 stars and 380 forks as of 2026-10-15, with v0.0.16 the latest release (published October 29, 2026; a token-and-size release claiming 41 percent fewer uncached input tokens across ten model families and an 87.5 percent reduction in broken prompt-prefix requests in the vendor's paired benchmark, a 2.8 percent smaller macOS arm64 CLI, libfx npm downloads about 60 percent lighter by installing the platform-native addon instead of every platform's binary with WebAssembly as the fallback, file edits up to 16 MiB, named skills sending their instructions only with the turn that invokes them, and edit diffs stored instead of full file copies) on top of v0.0.15 (published October 27, 2026; roughly 70 percent less peak memory on long conversations holding saved images in a vendor synthetic benchmark, model-catalog updates without a restart, a leaner session store with about 18 percent faster resumes, and `/fork` branching from an earlier prompt) on top of v0.0.14 (published October 16, 2026; durable libfx sessions that survive crashes, redeploys, and function timeouts with idempotent-marked tool reruns, multiple named libfx agents per app, `wakeHandler()` as one HTTP route for every agent, ChatGPT and Grok subscription sign-in for server-side agents, libfx custom OpenAI-compatible endpoints including local model servers, and a move to Zig 0.17) and pushes landing the day of this check (GitHub API, as of 2026-11-07), with v0.0.16 still the newest release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vercel-labs/fx&type=date&theme=dark&legend=top-left" />
@@ -46,7 +46,7 @@ The README carries its own banner: "Status: Experimental. Use at your own risk."
 - **Open source does not mean vendor-neutral**: the default credential is Vercel AI Gateway, so the default path keeps Vercel on the meter and the metadata even when you self-host the binary; per the docs, Codex and Grok subscription requests go directly to their providers ([usage docs](https://fx.sh/docs/using-fx/usage-and-costs)).
 - v0.0.x with frequent changes promised; the site's own demo page says "use at your own risk, we will be making frequent changes".
 - The built-in sign-in flows still document only three credentials (Vercel AI Gateway, Codex, or Grok).
-- Custom model connections for Ollama, vLLM, and OpenRouter shipped in v0.0.11 but speak only OpenAI Chat Completions endpoints, and the docs page still carries its preview banner, so treat local models and provider keys as newly arrived rather than settled.
+- Custom model connections for Ollama, vLLM, and OpenRouter shipped in v0.0.11 and speak only OpenAI Chat Completions endpoints; the docs page's earlier preview banner is gone as of 2026-11-07, so the feature is now documented as standard, but the single-protocol limitation stands.
 - No hooks or plugins mechanism; skills only.
 - The pipe-to-shell installer (`curl ... | bash`) is the default install path; the docs themselves ask you to read the installation page first.
 
@@ -82,6 +82,7 @@ Not for anyone who needs local models, provider-key BYOK, or a stable release li
 - 2026-10-27 - Rotation re-verification, re-fetching every cited reference (all live): v0.0.14 remains the newest release with the pushes running on, and the authentication docs still document the same three credentials, so the cautions stand as written.
 - 2026-10-28 - Recorded the v0.0.15 release (October 27): roughly 70 percent less peak memory on image-heavy long conversations in a vendor synthetic benchmark, hot model-catalog updates, a leaner session store with about 18 percent faster resumes, and `/fork` from an earlier prompt.
 - 2026-10-30 - Recorded the v0.0.16 release (October 29): the vendor-paired 41-percent uncached-token reduction and 87.5-percent fewer broken prompt prefixes, the 2.8-percent-smaller macOS CLI, the 60-percent-lighter libfx install (platform-native addon with a WebAssembly fallback), 16 MiB file edits, invoke-time skill instruction sends, and stored edit diffs.
+- 2026-11-07 - Rotation re-verification, re-fetching every cited reference (all live): v0.0.16 remains the newest release with pushes landing through November 7, and the custom-model-connections docs page dropped its preview banner while the OpenAI-Chat-Completions-only limitation stands, so the caution was rewritten.
 
 ## See also
 

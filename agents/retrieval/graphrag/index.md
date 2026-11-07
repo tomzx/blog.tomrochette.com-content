@@ -1,7 +1,7 @@
 ---
 title: GraphRAG
 created: 2026-10-07
-updated: 2026-11-03
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, knowledge-graph, microsoft]
 readability: 3
@@ -76,6 +76,7 @@ My disagreeable claim: the maintenance-mode declaration is graph RAG's candid st
 - 2026-10-26 - Rotation re-verification re-fetched every cited URL live (the maintenance-mode warning, the method paper, the announcement post, the docs, and the launch thread all unchanged) and refreshed the repository activity (pushed 2026-10-26, 57 open issues); PyPI 3.3.0 remains latest.
 - 2026-10-31 - Refreshed the repository activity (pushed 2026-10-29, 59 open issues); PyPI 3.3.0 and the maintenance-mode declaration unchanged.
 - 2026-11-03 - Refreshed the repository activity (pushed 2026-11-02, 61 open issues; the default branch's latest commit is a maintenance-workflow action-pinning change, inside the declared fix-only scope); PyPI 3.3.0 and the maintenance-mode declaration unchanged.
+- 2026-11-07 - Rotation re-verification re-fetched every cited URL live (the repository API reading the same pushed date and 61 open issues, releases/latest still v3.3.0 of 2026-10-08, the README's maintenance-mode and expensive-indexing warnings word-for-word, PyPI 3.3.0 across 52 releases, the method paper, the Microsoft Research announcement, the docs root, and the Algolia query still returning the cited 282-point launch thread); all claims unchanged.
 
 ## See also
 
@@ -86,11 +87,11 @@ My disagreeable claim: the maintenance-mode declaration is graph RAG's candid st
 
 ## References
 
-- https://api.github.com/repos/microsoft/graphrag - 36,325 stars (as of 2026-10-13), 3,858 forks, MIT, created 2024-03-27, pushed 2026-11-02, 61 open issues (GitHub API, as of 2026-11-03)
-- https://api.github.com/repos/microsoft/graphrag/releases/latest - v3.3.0 published 2026-10-08, the SQLite performance-fix release (still latest, re-verified 2026-10-26)
-- https://raw.githubusercontent.com/microsoft/graphrag/main/README.md - the maintenance-mode warning, the expensive-indexing warning, the init-between-versions rule (re-verified unchanged 2026-10-26)
+- https://api.github.com/repos/microsoft/graphrag - 36,325 stars (as of 2026-10-13), 3,858 forks, MIT, created 2024-03-27, pushed 2026-11-02, 61 open issues (GitHub API, as of 2026-11-07, the same readings recorded 2026-11-03)
+- https://api.github.com/repos/microsoft/graphrag/releases/latest - v3.3.0 published 2026-10-08, the SQLite performance-fix release (still latest, re-verified 2026-11-07)
+- https://raw.githubusercontent.com/microsoft/graphrag/main/README.md - the maintenance-mode warning, the expensive-indexing warning, the init-between-versions rule (re-verified unchanged 2026-11-07)
 - https://arxiv.org/abs/2404.16130 - the method paper: From Local to Global, graph RAG as query-focused summarization
 - https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/ - the Microsoft Research announcement grounding community summaries and the local/global query split
 - https://microsoft.github.io/graphrag/ - official docs root: local and global search, CLI quickstart
-- https://pypi.org/pypi/graphrag/json - version 3.3.0 (2026-10-08), 52 releases, MIT (re-verified 2026-10-26)
+- https://pypi.org/pypi/graphrag/json - version 3.3.0 (2026-10-08), 52 releases, MIT (re-verified 2026-11-07)
 - https://hn.algolia.com/api/v1/search?query=GraphRAG%20is%20now%20on%20GitHub&tags=story - the July 2024 launch thread, 282 points, 49 comments

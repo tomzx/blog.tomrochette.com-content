@@ -1,7 +1,7 @@
 ---
 title: apowerb
 created: 2026-10-21
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agents, self-hosted, open-core]
 readability: 3
@@ -25,7 +25,7 @@ It is an open core by declaration: the published package is a complete generic s
 
 ## Status
 
-Young and shipping fast: 149 stars and 22 forks as of 2026-10-21, repository created 2026-07-29, default-branch push 2026-10-28, PyPI at 0.2.97 with 141 releases in under three months, three of them on 2026-10-20 alone (GitHub API and PyPI, as of 2026-10-25).
+Young and shipping fast: 149 stars and 22 forks as of 2026-10-21, repository created 2026-07-29, default-branch push 2026-11-04, PyPI at 0.2.97 with 141 releases in under three months, three of them on 2026-10-20 alone (GitHub API and PyPI, as of 2026-11-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=apowerb/apowerb&type=date&theme=dark&legend=top-left" />
@@ -71,11 +71,11 @@ Not for coding-agent orchestration, and not without pinning versions and verifyi
 ## Changes
 
 - 2026-10-21 - Created.
-
 - 2026-10-25 - Recorded PyPI at 0.2.97.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 - 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); PyPI stands at 0.2.97 with no release since 2026-10-23 while pushes continue through 2026-11-04, and the stale registry reference description was corrected.
+- 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (repository API, README, both docs pages, PyPI, the HN thread); refreshed the push date to 2026-11-04, no other drift.
 
 ## See also
 

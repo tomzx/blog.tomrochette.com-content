@@ -1,7 +1,7 @@
 ---
 title: Agent Manager
 created: 2026-10-06
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, tmux, tui, multi-cli, worktrees]
 readability: 3
@@ -23,12 +23,14 @@ It is distributed as brew, an install script, an AUR package, mise, go install, 
 
 ## Status
 
-Active and young: 595 stars and 60 forks as of 2026-10-15, created 2026-07-15, pushed 2026-11-06, with 29 contributors and v0.47.1 (2026-11-02) the latest release, after v0.47.0 (2026-11-01), v0.46.0 (2026-10-31), v0.45.0 (2026-10-30), and v0.44.0 (2026-10-25) (GitHub API, as of 2026-11-03).
+Active and young: 595 stars and 60 forks as of 2026-10-15, created 2026-07-15, pushed 2026-11-06, with 29 contributors and v0.47.1 (2026-11-02) the latest release, after v0.47.0 (2026-11-01), v0.46.0 (2026-10-31), v0.45.0 (2026-10-30), and v0.44.0 (2026-10-25) (GitHub API, as of 2026-11-07).
+
+**The repository moved from YoanWai's account to the wainmann account by 2026-11-07, the old path a 301 redirect, the same identity churn this section records wherever it appears.**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=YoanWai/agent-manager&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=YoanWai/agent-manager&type=date&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=YoanWai/agent-manager&type=date&legend=top-left" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=wainmann/agent-manager&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=wainmann/agent-manager&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=wainmann/agent-manager&type=date&legend=top-left" />
 </picture>
 
 Releases run roughly weekly: v0.41.0 shipped 2026-10-09, three days after v0.40.0 (2026-10-06), which itself capped a September with five releases.
@@ -69,10 +71,10 @@ Not for teams that need cost tracking, per-task worktree defaults, or a GUI.
 - 2026-10-06 - Created.
 - 2026-10-07 - Added the YoanWai/agent-manager star history chart to the Status section.
 - 2026-10-09 - Recorded v0.41.0 (October 9) as the latest release and refreshed the star count to 578 as of 2026-10-09.
-
 - 2026-10-25 - Recorded v0.43.2 (2026-10-24) as the latest release.
 - 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live; recorded v0.45.0 (2026-10-30) as the latest release and the 2026-10-31 push.
 - 2026-11-01 - Recorded v0.46.0 (2026-10-31) as the latest release and the 2026-11-01 push.
+- 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live; recorded the repository's transfer from YoanWai to the wainmann account (old path a 301) and moved the star-history chart and repository references to the canonical wainmann/agent-manager paths.
 
 ## See also
 
@@ -84,8 +86,8 @@ Not for teams that need cost tracking, per-task worktree defaults, or a GUI.
 
 ## References
 
-- https://api.github.com/repos/YoanWai/agent-manager - stars, forks, Apache-2.0 license, creation date, and push date as of 2026-10-05
+- https://api.github.com/repos/wainmann/agent-manager - stars, forks, Apache-2.0 license, creation date, and push date as of 2026-10-05
 - https://agent-manager.dev - the FAQ: license history, the "Nothing" pricing answer, distribution, the nine-CLI list, and the cost-tracking gap
-- https://raw.githubusercontent.com/YoanWai/agent-manager/main/README.md - status detection, review mode, kill and revive, worktree spawning, and the private tmux server
-- https://api.github.com/repos/YoanWai/agent-manager/releases - v0.39.0 (2026-09-26) and the weekly cadence, continuing through v0.45.0 (2026-10-30)
+- https://raw.githubusercontent.com/wainmann/agent-manager/main/README.md - status detection, review mode, kill and revive, worktree spawning, and the private tmux server
+- https://api.github.com/repos/wainmann/agent-manager/releases - v0.39.0 (2026-09-26) and the weekly cadence, continuing through v0.45.0 (2026-10-30)
 - https://news.ycombinator.com/item?id=49107749 - the Show HN thread (98 points, about 80 comments) and the distinguishability debate

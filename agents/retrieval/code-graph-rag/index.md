@@ -1,7 +1,7 @@
 ---
 title: Code-Graph-RAG
 created: 2026-10-07
-updated: 2026-11-03
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, knowledge-graph, rag]
 readability: 3
@@ -26,7 +26,7 @@ Made by an independent developer, with an enterprise support and services badge 
 ## Status
 
 **Actively shipping and early: 5.2k stars in sixteen months with almost no independent discussion.**
-5,252 stars and 702 forks as of 2026-10-14, pushed 2026-11-03, with 522 open issues (GitHub API, as of 2026-11-03).
+5,252 stars and 702 forks as of 2026-10-14, pushed 2026-11-07 with the main branch's latest commit the version bump to 0.5.7 (dated 2026-11-06), with 520 open issues (GitHub API, as of 2026-11-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vitali87/code-graph-rag&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Made by an independent developer, with an enterprise support and services badge 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vitali87/code-graph-rag&type=date&legend=top-left" />
 </picture>
 
-PyPI shows version 0.4.5 released 2026-10-30 across 36 releases: 0.2.0 (2026-10-15) was the first release past the 0.1 line that carried all 27 of the preceding ones, ten point releases landed in the three days after it, the 0.2 line ran to 0.2.24 by 2026-10-23, the 0.3 line opened the next day and reached 0.3.13 by 2026-10-25, and the 0.4 line opened 2026-10-30 directly at 0.4.5, whose notes gate a repository's `.cgr.md` out of the agent's system prompt until its content is approved, and the 0.5 line opened 2026-11-03 at 0.5.0, whose NEWS headlines are JavaScript signature reading and writing for change signatures plus the Rust toolchain bump.
+PyPI shows version 0.5.0 released 2026-11-03 across 38 releases: 0.2.0 (2026-10-15) was the first release past the 0.1 line that carried all 27 of the preceding ones, ten point releases landed in the three days after it, the 0.2 line ran to 0.2.24 by 2026-10-23, the 0.3 line opened the next day and reached 0.3.13 by 2026-10-25, the 0.4 line opened 2026-10-30 at 0.4.5, whose notes gate a repository's `.cgr.md` out of the agent's system prompt until its content is approved, ran to 0.4.19 by 2026-11-02, and the 0.5 line opened 2026-11-03 at 0.5.0, whose NEWS headlines are JavaScript signature reading and writing for change signatures plus the Rust toolchain bump.
 Two Show HNs (February and March 2026) drew 1 point each, so the star count ran far ahead of any independent technical debate, the same pattern Knowhere and open-codebase-index in this section show.
 
 ## Strengths
@@ -81,6 +81,8 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 - 2026-10-31 - Refreshed the repository activity (pushed 2026-10-31, 516 open issues); PyPI 0.3.13 remains latest.
 - 2026-11-01 - Recorded the PyPI train reaching 0.4.5 (2026-10-30, 36 releases; the 0.4 line's headline change gates a repository's `.cgr.md` out of the agent's system prompt until approved) and refreshed the repository activity (pushed 2026-11-01, 541 open issues).
 - 2026-11-03 - Recorded the PyPI train reaching 0.5.0 (2026-11-03, 38 releases; the NEWS headlines are JavaScript signature reading and writing for change signatures plus the Rust toolchain bump) and refreshed the repository activity (pushed 2026-11-03, 522 open issues).
+- 2026-11-06 - Refreshed the repository activity (pushed 2026-11-05, 521 open issues); PyPI 0.5.0 remains latest across 38 releases.
+- 2026-11-07 - Refreshed the repository activity (pushed 2026-11-07 with the main branch's version bump to 0.5.7, 520 open issues), re-fetched PyPI (0.5.0 still latest across 38 releases, the 0.4 line corrected to its true endpoint 0.4.19 of 2026-11-02), and aligned the Status PyPI sentence, whose lead still read 0.4.5 across 36 releases.
 
 ## See also
 
@@ -91,8 +93,8 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 
 ## References
 
-- https://api.github.com/repos/vitali87/code-graph-rag - 5,252 stars (as of 2026-10-14), 702 forks, MIT, created 2025-06-16, pushed 2026-11-03, 522 open issues (GitHub API, as of 2026-11-03)
+- https://api.github.com/repos/vitali87/code-graph-rag - 5,252 stars (as of 2026-10-14), 702 forks, MIT, created 2025-06-16, pushed 2026-11-07, 520 open issues (GitHub API, as of 2026-11-07)
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/README.md - the two-component architecture, compiler frontends, runtime tracing, language support, Memgraph storage
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/NEWS.md - the feature-news ledger behind the active-maintenance claim
-- https://pypi.org/pypi/code-graph-rag/json - version 0.5.0 (2026-11-03), 38 releases (fetched 2026-11-03; the 0.2 line ended at 0.2.24, 2026-10-23, the 0.3 line at 0.3.13, 2026-10-25, and the 0.4 line at 0.4.5, 2026-10-30)
+- https://pypi.org/pypi/code-graph-rag/json - version 0.5.0 (2026-11-03), 38 releases (fetched 2026-11-07; the 0.2 line ended at 0.2.24, 2026-10-23, the 0.3 line at 0.3.13, 2026-10-25, and the 0.4 line at 0.4.19, 2026-11-02, correcting the 0.4.5 endpoint recorded here through 2026-11-06)
 - https://hn.algolia.com/api/v1/search?query=Code-Graph-RAG%20knowledge%20graph&tags=story - the footprint scan: two Show HNs at 1 point each (2026-02 and 2026-03)

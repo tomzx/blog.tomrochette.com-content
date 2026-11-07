@@ -1,7 +1,7 @@
 ---
 title: Agent User Interaction Protocol (AG-UI)
 created: 2026-09-16
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, frontend, event-streaming]
 readability: 3
@@ -25,7 +25,7 @@ Scaffolding an app is one command (`npx create-ag-ui-app`), and the project ship
 ## Status
 
 Very active and already the de facto standard at its layer.
-The repository shows about 16,500 stars, a push on 2026-11-06, and dated releases landing near-daily (latest `release/2026-11-05`, published 2026-11-05, as of 2026-11-06).
+The repository shows about 16,500 stars, a push on 2026-11-06, and dated releases landing near-daily (latest `release/2026-11-06`, published 2026-11-06, as of 2026-11-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ag-ui-protocol/ag-ui&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ The repository shows about 16,500 stars, a push on 2026-11-06, and dated release
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ag-ui-protocol/ag-ui&type=date&legend=top-left" />
 </picture>
 
-**The download signal is the strongest part: `@ag-ui/core` pulled 12,840,807 and `@ag-ui/client` 6,146,055 downloads in the month ending 2026-11-05, about 19.0M combined, numbers that beat every editor- or agent-to-agent protocol in this index, and the packages graduated from 0.0.59 to 1.0.0 on 2026-09-17, to 1.0.1 on 2026-09-29, to 1.0.2 on 2026-10-05, to 1.0.3 on 2026-10-16, and to 1.0.4 on 2026-11-05.**
+**The download signal is the strongest part: `@ag-ui/core` pulled 14,391,948 and `@ag-ui/client` 6,869,594 downloads in the month ending 2026-11-06, about 21.3M combined, numbers that beat every editor- or agent-to-agent protocol in this index, and the packages graduated from 0.0.59 to 1.0.0 on 2026-09-17, to 1.0.1 on 2026-09-29, to 1.0.2 on 2026-10-05, to 1.0.3 on 2026-10-16, and to 1.0.4 on 2026-11-05.**
 Integration coverage per the docs: partnership integrations with LangChain/LangGraph and CrewAI, first-party integrations with Microsoft Agent Framework, Google ADK, Google ADK for JavaScript, Google Antigravity, AWS Strands Agents, AWS Bedrock AgentCore, Mastra, Pydantic AI, Agno, LlamaIndex, and AG2, community integrations for the Claude Agent SDK, Claude Managed Agents, and Langroid, with the OpenAI Agent SDK, AWS Bedrock Agents, and Cloudflare Agents marked in progress.
 Microsoft adopted the protocol in its Agent Framework (November 2025), Google positioned its A2UI interface project alongside it (December 2025), and Oracle shipped an AG-UI integration for its Agent Specification (December 2025).
 
@@ -91,6 +91,7 @@ My disagreeable claim: AG-UI is the most adopted protocol in this index that nob
 - 2026-11-03 - The release train moved to release/2026-11-03 (2026-11-03) and the repository pushed 2026-11-03 while the SDKs stay at 1.0.3; download figures refreshed from pinned ranges (core 11,004,862, client 5,462,232 in the month ending 2026-11-02, about 16.5M combined).
 - 2026-11-04 - The repository pushed 2026-11-04 (the AWS Strands integration now emits AG-UI subagent events for agents-as-tools, and a pub.dev publish workflow landed for the community Dart SDK) while the release train stays at release/2026-11-03 and the SDKs at 1.0.3; download figures refreshed from pinned ranges (core 11,615,025, client 5,677,001 in the month ending 2026-11-04, about 17.3M combined).
 - 2026-11-06 - The release train moved to release/2026-11-05 (2026-11-05) and the first-party TypeScript packages (core, client, encoder, proto) moved to 1.0.4, their first move since 1.0.3 (2026-10-16), with breaking changes (zod became a required peer dependency, `threadId` became a lazy accessor, and tool results are re-paired and reordered ahead of reasoning messages) and a per-event entry budget bounding schema enforcement; the community Kotlin SDK aligned to AG-UI 1.0 at 0.5.0 the same day, adding wasmJs and macosArm64 targets; the repository pushed 2026-11-06; download figures refreshed from the dated range (core 12,840,807, client 6,146,055 in the month ending 2026-11-05, about 19.0M combined).
+- 2026-11-07 - The release train moved to release/2026-11-06 (2026-11-06), which published the first OpenAI Agents integration package (ag-ui-openai-agents 0.1.0 on PyPI, the Python side of the integration the docs mark in progress) with the first-party TypeScript packages unchanged at 1.0.4; download figures refreshed from the dated range (core 14,391,948, client 6,869,594 in the month ending 2026-11-06, about 21.3M combined).
 
 ## See also
 

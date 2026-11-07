@@ -1,7 +1,7 @@
 ---
 title: Command Code
 created: 2026-10-05
-updated: 2026-10-30
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-models, personalization, closed-source]
 readability: 3
@@ -25,7 +25,7 @@ The company raised a $5 million seed led by Tom Preston-Werner, with Amjad Masad
 ## Status
 
 **Active and fast-growing in distribution, with an evidence base that is mostly the vendor's own.**
-The npm package's latest build is 1.88.2 (published October 29, 2026, after 1.88.0 on October 23 and 1.84.0 on October 16), the site's changelog counted 468 releases as of 2026-10-30, and the package did 157,393 downloads in the month of September 30 to October 29 (as of 2026-10-30, read through a dated-range query; the earlier 219,334 reading covered a different window).
+The npm package's latest build is 1.88.5 (published November 6, 2026, after 1.88.3 on November 4 and 1.88.4 on November 5), the site's changelog counter still reading 468 releases as of 2026-11-07 while npm kept publishing, and the package did 174,498 downloads in the month of October 8 to November 7 (as of 2026-11-07, read through a dated-range query).
 The `CommandCodeAI/command-code` repository has 4,132 stars as of 2026-10-15 (GitHub API) but hosts issues only: no source, no license, the client is closed.
 
 <picture>
@@ -91,6 +91,7 @@ Not for open-client mandates, and not for anyone who needs independent evaluatio
 - 2026-10-17 - Recorded the npm train reaching 1.84.0 (published October 16) after 1.82.3 (October 15), and refreshed download counters.
 - 2026-10-25 - Recorded the npm train reaching 1.88.0 (published October 23) after 1.84.0 (October 16), and pinned the changelog count to its 2026-10-17 reading.
 - 2026-10-30 - Rotation re-verification, re-fetching every cited reference (all live): recorded the npm train reaching 1.88.2 (published October 29) and the changelog counting 468 releases, and recorded the credit-grant raises (GOAT $70 to up to $100, Pro $80 to up to $110) with Price history rows; download window refreshed via a dated-range query.
+- 2026-11-07 - Rotation re-verification, re-fetching every cited reference (all live): recorded the npm train reaching 1.88.5 (published November 6) after 1.88.3 and 1.88.4, refreshed the monthly download window to 174,498 (October 8 to November 7, range query), and noted the site's changelog counter still reading 468 while npm kept publishing.
 
 ## See also
 
@@ -103,9 +104,9 @@ Not for open-client mandates, and not for anyone who needs independent evaluatio
 
 - https://commandcode.ai/ - product surface, taste-1 claims, company positioning, and the $5M seed line (fetched 2026-10-05)
 - https://commandcode.ai/pricing - plan ladder, credits, Provider API plan, and Teams pricing, as of 2026-10-30 (GOAT and Pro credit grants raised)
-- https://commandcode.ai/changelog - the release train (468 releases counted 2026-10-30) and the 1.79.2 entries naming Claude Haiku 5.5 on the GOAT plan and Glyph Cluster as a free model
-- https://registry.npmjs.org/command-code - latest build 1.88.2 published 2026-10-29, package created 2025-08-07 (verified via the registry API, 2026-10-30)
-- https://api.npmjs.org/downloads/point/2026-09-30:2026-10-29/command-code - 157,393 downloads, window September 30 to October 29, as of 2026-10-30 (range query)
+- https://commandcode.ai/changelog - the release train (468 releases counted 2026-10-30, counter still reading 468 on 2026-11-07) and the 1.79.2 entries naming Claude Haiku 5.5 on the GOAT plan and Glyph Cluster as a free model
+- https://registry.npmjs.org/command-code - latest build 1.88.5 published 2026-11-06, package created 2025-08-07 (verified via the registry API, 2026-11-07)
+- https://api.npmjs.org/downloads/point/2026-10-08:2026-11-07/command-code - 174,498 downloads, window October 8 to November 7, as of 2026-11-07 (range query)
 - https://github.com/CommandCodeAI/command-code - issues-only repository, 4,121 stars, no source or license, as of 2026-10-13 (verified via the GitHub API)
 - https://techstackups.com/comparisons/coding-agent-harness-comparison-2026/ - the critical source: closed-source classification, funding details, ex-Langbase history, and the 48-hour launch-issue record (fetched 2026-10-05)
 - https://hn.algolia.com/api/v1/items/48031887 - the May 6, 2026 Show HN, 3 points (verified via the Algolia API)

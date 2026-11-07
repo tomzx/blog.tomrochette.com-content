@@ -1,7 +1,7 @@
 ---
 title: Qwen Code
 created: 2026-08-24
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, alibaba]
 readability: 3
@@ -86,6 +86,7 @@ Not for workflows where model behavior provenance or data residency is tightly g
 - 2026-11-01 - Recorded v0.26.5 (November 1): Generated UI on by default with interactive card values attachable as removable context, bounded SQL history queries for managed sessions on local H2 and hosted MySQL, and web-shell keyboard shortcuts for Session Overview and split views; refreshed the push date to 2026-11-01.
 - 2026-11-04 - Recorded v0.26.6 (November 2, a Web Shell sidebar activity view with bulk read and archive controls and an add-to-split-view option) and v0.26.7 (November 4, an operator-scoped model.catalogRefresh setting, full model configuration at managed-agent session creation, and ACP Goal turns on the unified agent loop), and refreshed the push date to 2026-11-04.
 - 2026-11-06 - Recorded v0.26.8 as the latest stable (published November 5: prompt.submit hooks running in the OpenTUI terminal and the Ink TUI's model rounds on the shared loop) and refreshed the push date to 2026-11-06.
+- 2026-11-07 - Recorded v0.26.9 as the latest stable (published November 6), a skill-management release: bulk skill activation over a new daemon API (`PUT /skills/activation` and `setUserSkillsActivation`, 1-100 user Skills per request with saved preferences and propagation status) and disk-based ZIP handling with recovery-backup protection for larger skill archives.
 
 ## See also
 

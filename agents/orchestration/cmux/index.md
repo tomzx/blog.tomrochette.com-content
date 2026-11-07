@@ -1,7 +1,7 @@
 ---
 title: cmux
 created: 2026-08-24
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, terminal, parallel-agents, macos]
 readability: 3
@@ -23,7 +23,7 @@ A paid subscription (Pro or Max) adds Cloud VM agents and the iOS app; the CodeR
 ## Status
 
 **Active and remarkably fast.**
-About 28.2k stars and 2.5k forks as of 2026-10-15, created January 28, 2026, with the release train and pushes still landing daily as of 2026-11-06.
+About 28.2k stars and 2.5k forks as of 2026-10-15, created January 28, 2026, with the release train and pushes still landing daily as of 2026-11-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=manaflow-ai/cmux&type=date&theme=dark&legend=top-left" />
@@ -98,7 +98,6 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 - 2026-10-04 - Cloud packaging moved again: 5 Cloud VMs per user with per-VM resource caps (Pro 4 vCPUs/8 GB, Max 16 vCPUs/32 GB, Team same as Pro) replaced the shared 50-VM pools at unchanged dollar tiers, and I corrected the front matter date, which a prior run had left at 2026-09-27 after refreshing numbers.
 - 2026-10-06 - Cloud packaging moved a third time in three weeks: the per-VM caps were replaced by shared pools (Pro and Team 20 vCPUs/40 GB, Max 80 vCPUs/160 GB, still 5 Cloud VMs) at unchanged dollar tiers, recorded with a Price history row, and the status line now separates the lagging public changelog from the GitHub release line at v0.65.0.
 - 2026-10-07 - Added the manaflow-ai/cmux star history chart to the Status section.
-
 - 2026-10-11 - Recorded yearly billing returning: Pro $480/yr ($40/mo effective) and Max $1,920/yr ($160/mo effective), monthly rates unchanged.
 - 2026-10-12 - Recorded the plan table's per-VM size ceilings inside the shared pools (Pro largest VM 16 GB/8 vCPU, Max up to 64 GB/32 vCPU) observed on the pricing page, dollar tiers unchanged.
 - 2026-10-13 - Recorded v0.65.1 (2026-10-12, the window crash-loop and Cloud port regression repair) on the GitHub release line.

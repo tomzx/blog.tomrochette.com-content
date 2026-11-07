@@ -1,7 +1,7 @@
 ---
 title: Grok Build
 created: 2026-09-12
-updated: 2026-10-30
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, terminal, open-source]
 readability: 3
@@ -31,7 +31,7 @@ Active and extremely fast-moving: 27,338 stars and 5,145 forks as of 2026-10-13,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=xai-org/grok-build&type=date&legend=top-left" />
 </picture>
 
-The changelog listed v1.0.30 as current as of 2026-09-11, with 138 releases logged between May 17 and September 9, and the npm distribution (@xai-official/grok, 260,703 downloads in the month of September 30 to October 29 as of 2026-10-30, read through a dated-range query) carried the roughly one-per-day cadence through v1.0.46 stable (published 2026-09-30) before the stable channel jumped to v1.0.50 (published October 6, promoting the alpha of the same number and ending the eight-day stable gap this note had recorded), with the alpha train continuing at v1.0.51 (published October 9) and v1.0.52 (published October 11) before the stable channel promoted v1.0.52 by October 13, and the train has run on to v1.0.70 since, with both the stable and alpha dist-tags converged on v1.0.70 (published October 23) as of 2026-10-24 and the alpha train since moving on to v1.0.73 (published October 28) while stable holds at v1.0.70 as of 2026-10-30.
+The changelog listed v1.0.30 as current as of 2026-09-11, with 138 releases logged between May 17 and September 9, and the npm distribution (@xai-official/grok, 260,703 downloads in the month of September 30 to October 29 as of 2026-10-30, read through a dated-range query) carried the roughly one-per-day cadence through v1.0.46 stable (published 2026-09-30) before the stable channel jumped to v1.0.50 (published October 6, promoting the alpha of the same number and ending the eight-day stable gap this note had recorded), with the alpha train continuing at v1.0.51 (published October 9) and v1.0.52 (published October 11) before the stable channel promoted v1.0.52 by October 13, and the train has run on since: the stable and alpha dist-tags converged on v1.0.70 (published October 23) as of 2026-10-24, the alpha train moved through v1.0.73 (published October 28) while stable held at v1.0.70 as of 2026-10-30, and the stable channel then promoted v1.0.77 (published November 5, after v1.0.74 through v1.0.76 on November 3-4) with the alpha at v1.0.78 (published November 6) as of 2026-11-07, the GitHub repository itself quiet since its 2026-09-29 sync while the npm channel carries the train.
 There are no GitHub releases or tags (both API endpoints return empty arrays), so binaries ship from the install script at x.ai/cli, which pulls versioned binaries from a Cloudflare-fronted URL with a Google Cloud Storage fallback across stable, alpha, and enterprise channels; the docs also document `npm install -g @xai-official/grok` as the alternative that needs neither host.
 The HN footprint is heavy for a nine-week-old tool: a 100-point preview thread in May 2026, the wire-level analysis at 539 points on July 12, a 100-point follow-up on July 13 reporting the repo-upload behavior persisted under retest, and the open-source announcement at 590 points and 643 comments on July 15.
 I read the open-sourcing as reputational triage: top comments on the launch thread explicitly connect it to the privacy upset three days earlier.
@@ -97,6 +97,7 @@ I would not standardize on it while the default data path concentrates your code
 - 2026-10-13 - Recorded the stable dist-tag promoting v1.0.52 while the alpha train moved on to v1.0.55, and refreshed download totals and repository counters.
 - 2026-10-24 - Rotation re-verification, re-fetching every cited reference (all live; the changelog page still 403s to non-browser agents): recorded the npm train reaching v1.0.70 (published October 23) with the stable and alpha dist-tags converged on it, and refreshed the monthly download window to 249,296; API prices re-verified unchanged.
 - 2026-10-30 - Rotation re-verification, re-fetching every cited reference (all live except the changelog page, which still 403s non-browser agents): recorded the alpha dist-tag moving to v1.0.73 (published October 28) with stable holding at v1.0.70, refreshed the monthly download window to 260,703 (September 30 to October 29, range query), and re-verified the API prices unchanged.
+- 2026-11-07 - Rotation re-verification, re-fetching every cited reference (all live except the changelog page, which still 403s non-browser agents): recorded the stable dist-tag promoting v1.0.77 (published November 5) with the alpha at v1.0.78 (published November 6), refreshed the monthly download window to 309,565 (October 8 to November 7, range query), and re-verified the API prices unchanged (grok-4.6 $2.00/$6.00, grok-build-0.1 $1.00/$2.00, Grok 4.7 Fast still Cursor-and-Grok-Build-only).
 
 ## See also
 
@@ -116,8 +117,8 @@ I would not standardize on it while the default data path concentrates your code
 - https://docs.x.ai/build/enterprise - the four auth methods, required network hosts, data lifecycle, ZDR, and telemetry pinning
 - https://docs.x.ai/developers/pricing - grok-4.6, grok-4.7, and grok-build-0.1 API prices, the Grok 4.7 Fast listing, and the free-tier acknowledgment, as of 2026-10-12 (re-verified unchanged on the base rates)
 - https://docs.x.ai/build/features/sandbox - Landlock/Seatbelt profiles and the off-by-default behavior
-- https://registry.npmjs.org/@xai-official/grok - the npm distribution's version history grounding the train through the v1.0.73 alpha (published 2026-10-28) with stable holding at v1.0.70, verified via the registry API 2026-10-30
-- https://api.npmjs.org/downloads/point/2026-09-30:2026-10-29/@xai-official/grok - 260,703 downloads in the month of September 30 to October 29 as of 2026-10-30 (range query)
+- https://registry.npmjs.org/@xai-official/grok - the npm distribution's version history grounding the train through the v1.0.78 alpha (published 2026-11-06) with stable at v1.0.77, verified via the registry API 2026-11-07
+- https://api.npmjs.org/downloads/point/2026-10-08:2026-11-07/@xai-official/grok - 309,565 downloads in the month of October 8 to November 7 as of 2026-11-07 (range query)
 - https://hn.algolia.com/api/v1/items/48877371 - the wire-level analysis thread, 539 points, 2026-07-12
 - https://hn.algolia.com/api/v1/items/48896493 - the GCS upload follow-up thread, 100 points, 2026-07-13
 - https://hn.algolia.com/api/v1/items/48926590 - the open-source launch thread, 590 points and 643 comments, 2026-07-15

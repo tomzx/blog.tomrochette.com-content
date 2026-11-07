@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-11-03
+updated: 2026-11-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -34,7 +34,7 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
 </picture>
 
-3,721 stars since 2026-04-30, latest release v1.2.44 on 2026-11-02 (explicit URL file names preferred over URL basenames, and section titles containing slashes kept as one section), following the v1.2.41 and v1.2.43 releases the same day (progressive chunk ingest; DOCX title and introduction paragraphs preserved ahead of the first section heading, with same-document repair via reparse=true; no v1.2.42 was published), pushed 2026-11-02 (GitHub API, as of 2026-11-03).
+3,721 stars since 2026-04-30, latest release v1.2.45 on 2026-11-06 (short scanned PDFs without a table of contents now render page images on V2 full ingest instead of an empty whole-document chunk), following v1.2.44 on 2026-11-02 (explicit URL file names preferred over URL basenames, and section titles containing slashes kept as one section), the v1.2.41 and v1.2.43 releases the same day (progressive chunk ingest; DOCX title and introduction paragraphs preserved ahead of the first section heading, with same-document repair via reparse=true; no v1.2.42 was published), pushed 2026-11-06 (GitHub API, as of 2026-11-06).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
 
@@ -97,6 +97,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 - 2026-10-31 - Recorded the v1.2.32-through-v1.2.39 run (2026-10-27 to 2026-10-30; v1.2.39 shortens progressive first-ready work and delivers coarse directories, v1.2.38 matches visual page discovery by page_nums) and refreshed the repository activity (pushed 2026-10-30); per-page pricing unchanged.
 - 2026-11-01 - Recorded release v1.2.40 (2026-10-31, isolating paired TOC boundaries recalibrated from the last confirmed physical page) and refreshed the repository activity (pushed 2026-10-31); per-page pricing unchanged.
 - 2026-11-03 - Recorded releases v1.2.41, v1.2.43, and v1.2.44 (all 2026-11-02; progressive chunk ingest and unified asset names, DOCX pre-heading preservation with same-document repair, and explicit URL file names with slash-safe section titles; no v1.2.42 was published) and refreshed the repository activity (pushed 2026-11-02); per-page pricing unchanged.
+- 2026-11-06 - Recorded release v1.2.45 (2026-11-06, short scanned PDFs without a table of contents rendering page images on V2 full ingest instead of an empty whole-document chunk) and refreshed the repository activity (pushed 2026-11-06); per-page pricing unchanged.
 
 ## See also
 
@@ -107,8 +108,8 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,721 stars (as of 2026-10-13), pushed 2026-11-02, 39 open issues (GitHub API, as of 2026-11-03)
-- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.44 on 2026-11-02 (fetched 2026-11-03, with v1.2.41 and v1.2.43 the same day and the v1.2.32-through-v1.2.40 run of 2026-10-27 to 2026-10-31 behind them)
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,721 stars (as of 2026-10-13), pushed 2026-11-06, 42 open issues (GitHub API, as of 2026-11-06)
+- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.45 on 2026-11-06 (fetched 2026-11-06, with v1.2.44 of 2026-11-02 and v1.2.41 and v1.2.43 the same day behind it)
 - https://knowhereto.ai - hosted product surface, $5 free credit, and the self-reported comparison table
 - https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface
 - https://docs.knowhereto.ai/pricing - per-page pricing, billable-page counting, refund policy, rate-limit tiers (re-verified unchanged 2026-10-24)

@@ -1,7 +1,7 @@
 ---
 title: Claude Code hooks
 created: 2026-08-24
-updated: 2026-11-05
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, claude-code, hooks]
 readability: 3
@@ -24,7 +24,7 @@ The same hook events fire in the terminal, IDE extensions, the desktop app, and 
 ## Status
 
 **Active and heavily invested in.**
-The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 150.7k stars as of 2026-10-13, roughly 16.5k open issues as of 2026-11-05).
+The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 150.7k stars as of 2026-10-13, roughly 16.8k open issues as of 2026-11-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 - 2026-10-18 - Replaced the churning HN story count with "several hundred" (the same query moved between about 450 and about 500 within the month) and refreshed the open-issue count to roughly 15.2k; the 33-event surface and the five handler types re-verified against the live reference after the 2026-10-17 push.
 - 2026-10-25 - Fully re-verified in rotation with every cited URL re-fetched: the 33-event surface, the five handler types, the four scopes plus skill and subagent frontmatter, the fail-open `if` filter, the FileChanged/StopFailure pipe-only matcher rule, and the security-guidance hook map all re-confirmed against the live docs; replaced the stale v2.1.214 `if` directory-pattern example, which left the current page, with the version gates the page now carries (StopFailure's `cloud_credential_error` matcher at v2.1.267, `onFailure` at v2.1.295), added the plugin mods function-hook surface, and re-dated the counters and HN footprint (517 stories, several hundred).
 - 2026-11-01 - Fully re-verified in rotation with every cited URL re-fetched: the 33-event table, the five handler types, the fail-open `if` filter, the FileChanged/StopFailure pipe-only matcher rule, the v2.1.267 and v2.1.295 gates, the plugin mods function-hook surface, and the security-guidance hook map all re-confirmed against the live docs; the Graft thread (44 comments) and the HN footprint (523 stories, several hundred) re-confirmed, and the open-issue counter refreshed to roughly 16.2k.
+- 2026-11-07 - Re-verified out of rotation after the v2.1.319 release: the 33-event table, the five handler types, the fail-open `if` filter, the FileChanged/StopFailure pipe-only matcher rule, and the v2.1.267 and v2.1.295 gates all still present on the live docs, and the open-issue counter refreshed to roughly 16.8k.
 
 ## See also
 
@@ -88,8 +89,8 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 
 ## References
 
-- https://code.claude.com/docs/en/hooks - event reference, handler types, matcher semantics, fail-open caution (re-fetched 2026-11-05; the 33-event table, the five handler types, and the v2.1.267 and v2.1.295 matcher and `onFailure` gates all still present)
+- https://code.claude.com/docs/en/hooks - event reference, handler types, matcher semantics, fail-open caution (re-fetched 2026-11-07; the 33-event table, the five handler types, and the v2.1.267 and v2.1.295 matcher and `onFailure` gates all still present)
 - https://code.claude.com/docs/en/hooks-guide - quickstart, deterministic-control framing, usage costs of model-backed hooks (re-fetched 2026-11-01)
 - https://code.claude.com/docs/en/security-guidance - the official plugin built entirely on hooks (re-fetched 2026-11-01)
-- https://github.com/anthropics/claude-code - repository scale, as of 2026-11-05
+- https://github.com/anthropics/claude-code - repository scale, as of 2026-11-07
 - https://news.ycombinator.com/item?id=49299985 - third-party hooks tooling (Graft) and community scrutiny of its benchmark claims (re-fetched 2026-11-01, 44 comments)

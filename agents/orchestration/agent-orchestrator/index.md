@@ -1,7 +1,7 @@
 ---
 title: Agent Orchestrator
 created: 2026-10-06
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, kanban, worktrees, multi-harness, desktop]
 readability: 3
@@ -18,11 +18,12 @@ AO is a local desktop workspace (macOS Apple silicon and Intel, Windows, Linux A
 A worker is its unit of execution: one task, one coding agent, and one isolated workspace with its own branch and git worktree, with the conversation, terminal, changed files, browser preview, pull request, CI state, and review state attached to that session from start to finish.
 A project-aware orchestrator plans and delegates larger outcomes, a live kanban groups workers by status, and CI or review feedback routes back to the same worker instead of a new session.
 It drives Claude Code, Codex, and 25 more CLIs per the repo description (23 counted in Starlog's July review), runs web and mobile access plus account-gated cloud agent sessions, and ships under the Apache-2.0 license.
+The product is branded Orchestrator.inc, the name its docs site docs.orchestrator.inc and main site publish under.
 
 ## Status
 
 Active and shipping daily: 13,193 stars as of 2026-10-15 (1,788 forks, 821 open issues and pull requests, and 30 contributors as of 2026-10-11), created 2026-02-13 (GitHub API, as of 2026-10-15).
-Stable releases ride the nightly train, v0.14.9 (2026-11-04) the latest after v0.14.8 (2026-10-30) and v0.14.7 (2026-10-28), v0.14.6 (2026-10-24), v0.14.5 (2026-10-22), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-11-06 (GitHub API, as of 2026-11-06).
+Stable releases ride the nightly train, v0.14.10 (2026-11-06) the latest after v0.14.9 (2026-11-04), v0.14.8 (2026-10-30), and v0.14.7 (2026-10-28), v0.14.6 (2026-10-24), v0.14.5 (2026-10-22), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-11-07 (GitHub API, as of 2026-11-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&theme=dark&legend=top-left" />
@@ -30,7 +31,7 @@ Stable releases ride the nightly train, v0.14.9 (2026-11-04) the latest after v0
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&legend=top-left" />
 </picture>
 
-The stable line has moved to v0.14.x, with v0.14.8 (2026-10-30) the newest stable promoted from the nightly train, which publishes most days (GitHub releases API).
+The stable line has moved to v0.14.x, with v0.14.10 (2026-11-06) the newest stable promoted from the nightly train, which publishes most days (GitHub releases API).
 **The identity record is the caution: the repository has lived under four organizations in eight months (ComposioHQ, AgentWrapper, Untrivial-ai, and now OrchestratorInc), each old URL a 301 today, which is the same rename churn this section flagged on Ruflo but repeated.**
 The community footprint is thin for the star count: the Show HN launch drew only 15 points on 2026-03-29 (a text post with no external link, HN Algolia), so the 12.8k stars spread through GitHub, X, and Discord rather than press, and the only third-party coverage I found is a competitor's roundup (Tembo, June 2026) and one technical review (Starlog, July 2026, at 8.6k stars).
 
@@ -69,13 +70,12 @@ Not for anyone who needs a stable identity to standardize on (four renames and c
 - 2026-10-08 - Recorded v0.13.4 promoted from the nightly train to the stable line (October 7) and 12.9k stars as of 2026-10-08.
 - 2026-10-09 - Recorded v0.13.5 (October 8) as the stable release and refreshed the star count to 12,970 as of 2026-10-09.
 - 2026-10-10 - Recorded v0.13.6 (October 9) as the stable release and refreshed the star count to 13,014 as of 2026-10-10.
-- 2026-11-06 - Volatile refresh: Recorded v0.14.9 (2026-11-04) as the new latest stable release.
-
 - 2026-10-20 - Recorded v0.14.3 (2026-10-19, full-screen artifact viewer and copyable workspace paths) on the nightly-to-stable train.
-
 - 2026-10-25 - Recorded v0.14.6 (2026-10-24) as the newest stable promoted from the nightly train.
 - 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live; recorded v0.14.8 (2026-10-30) as the newest stable promoted from the nightly train and the 2026-10-31 push.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v0.14.8 still the latest stable release.
+- 2026-11-06 - Volatile refresh: Recorded v0.14.9 (2026-11-04) as the new latest stable release.
+- 2026-11-07 - Recorded the Orchestrator.inc product name, the branding the awesome-agent-orchestrators listing and the docs site publish under.
 
 ## See also
 

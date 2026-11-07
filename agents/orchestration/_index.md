@@ -79,6 +79,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [OpenRig](openrig/index.md) - the Apache-2.0 local control plane turning Claude Code, Codex, and Pi sessions into a YAML-defined, snapshot-restorable team.
 - [Orca](orca/index.md) - the MIT agent development environment running 27+ coding agents in worktrees across desktop, mobile, and remote.
 - [Orkas](orkas/index.md) - the MIT local-first commander-and-specialist desktop whose nine specialists ship installed, driving five coding CLIs as local sessions with reflection-based self-evolution and a credits-priced managed-models tier still in sandbox checkout.
+- [PandaCode](pandacode/index.md) - AICodeKing's free Tauri desktop workspace running nineteen coding-agent CLIs side by side with per-task worktrees, architect-and-worker teams, and a local model router, 1,109 stars three weeks in under an MIT-plus-fork-attribution license.
 - [Parallel Code](parallel-code/index.md) - Johannes Millan's MIT Electron desktop racing coding agents head-to-head in per-task git worktrees, with change tours, task briefs, and phone monitoring.
 - [Paseo](paseo/index.md) - the open-source daemon driving coding agents from desktop, web, and native mobile apps, self-hosted and solo-maintained.
 - [PraisonAI](praisonai/index.md) - the MIT Python low-code framework assembling self-reflecting multi-agent workforces with a dashboard, MCP support, and Docker isolation.
@@ -193,3 +194,4 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-11-01 - Added nodeterm.
 - 2026-11-01 - Added termio.
 - 2026-11-06 - Added Concord MCP.
+- 2026-11-07 - Added PandaCode.

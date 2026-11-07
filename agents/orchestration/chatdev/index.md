@@ -1,7 +1,7 @@
 ---
 title: ChatDev
 created: 2026-10-28
-updated: 2026-11-04
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, openbmb]
 readability: 3
@@ -20,7 +20,7 @@ It needs Python 3.12+, Node 18+, and your own model keys, runs from `make dev` o
 
 ## Status
 
-Active on the new platform: 34,603 stars on a repository created 2023-08-28, main pushed 2026-10-30, with the classic product maintained on a `chatdev1.0` branch since the 2.0 release (GitHub API, as of 2026-11-04).
+Active on the new platform: 34,603 stars on a repository created 2023-08-28, main pushed 2026-11-06, with the classic product maintained on a `chatdev1.0` branch since the 2.0 release (GitHub API, as of 2026-11-07).
 Releases are tag-only, v2.2.0 the newest tag with no GitHub release objects.
 **The star-to-scrutiny gap is the caution: a 24-point Show HN in 2023 and a 2-point thread for the 2.0 launch are the whole HN record, so 34.6k stars ride the 2023 wave rather than any public debate, the same uncorroborated-stars band as Hive, Ruflo, Yao, and ClawTeam.**
 

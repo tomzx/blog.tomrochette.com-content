@@ -1,7 +1,7 @@
 ---
 title: GraphCode
 created: 2026-09-27
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, macos, graph, loops]
 readability: 3
@@ -24,7 +24,7 @@ It bundles no agents and drives five backends (Claude Code, GitHub Copilot CLI, 
 
 ## Status
 
-New and fast-moving: about 139 stars and 19 forks as of 2026-10-11, created 2026-07-26, pushed 2026-11-05 (GitHub API, as of 2026-11-04), with v0.1.83 (2026-10-27, `--json` output for the projects and workspaces commands) the latest stable release after v0.1.82 (2026-10-27, a `graphcode workspaces` command listing every workspace on the Mac and marking the current one) and v0.1.81 (2026-10-19, images paste into remote and Codespace loops with Cmd-V/Ctrl-V) after v0.1.80 (2026-10-12, finished loops rename their Claude Code session), which followed v0.1.78 (2026-10-04, promoted from the October 3 beta line) and the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
+New and fast-moving: about 139 stars and 19 forks as of 2026-10-11, created 2026-07-26, pushed 2026-11-07 (GitHub API, as of 2026-11-07), with v0.1.84 (2026-11-06) the latest stable release after v0.1.83 (2026-10-27, `--json` output for the projects and workspaces commands) and v0.1.82 (2026-10-27, a `graphcode workspaces` command listing every workspace on the Mac and marking the current one) and v0.1.81 (2026-10-19, images paste into remote and Codespace loops with Cmd-V/Ctrl-V) after v0.1.80 (2026-10-12, finished loops rename their Claude Code session), which followed v0.1.78 (2026-10-04, promoted from the October 3 beta line) and the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
 A Windows beta prerelease line appeared on 2026-10-28 (`0.1.83-windows.beta30`), the first signal of a platform beyond the Mac, while the site still advertises macOS 15+ on Apple Silicon only.
 
 <picture>
@@ -77,7 +77,6 @@ Not for Intel Macs, Linux, or Windows, and not for anyone who requires an OSI op
 - 2026-10-05 - Recorded v0.1.78 (October 4) as the latest release, promoted from the October 3 beta line, and refreshed star counts.
 - 2026-10-07 - Added the scgopi/GraphCode star history chart to the Status section.
 - 2026-10-12 - Recorded v0.1.79 (October 11, remote connections hold, busy loops left alone) and v0.1.80 (October 12, finished loops rename their Claude Code session) as the latest releases.
-
 - 2026-10-20 - Recorded v0.1.81 (2026-10-19, image paste into remote and Codespace loops) as the latest release.
 - 2026-10-27 - Recorded v0.1.82 (2026-10-27, the graphcode workspaces command) and refreshed the push date.
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo, site, README, license, the directory entry); the push date refreshed to 2026-11-04, v0.1.83 still the latest stable release, and the first Windows beta prerelease tag (0.1.83-windows.beta30, 2026-10-28) recorded.

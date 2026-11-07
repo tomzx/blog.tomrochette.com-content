@@ -1,7 +1,7 @@
 ---
 title: AgentsMesh
 created: 2026-10-02
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-fleet, self-hosted, bsl]
 readability: 3
@@ -24,6 +24,7 @@ The license is Business Source License 1.1, source-available with a conversion d
 ## Status
 
 Repository removed: AgentsMesh/AgentsMesh returned 404 with no redirect as of 2026-10-29 (both the repository and its releases page, re-checked 2026-11-06), after a 2026-09-23 last push and v0.44.7 (2026-07-25) as the last stable tag; the product site agentsmesh.ai, its documentation, and the Docker Hub org (six images, most updated around October 2026) are still online, so the platform is distributed but its source and history are no longer public.
+The awesome-agent-orchestrators directory moved its AgentsMesh entry to its Resting watchlist on 2026-11-05, a third-party status signal that matches the quiet read here.
 The star-history chart below now ends at the removal and is the record of what was.
 
 <picture>
@@ -75,6 +76,7 @@ Not for open-source-license purists, solo users (a worktree manager is lighter),
 - 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository, docs, releases, Docker Hub, the 3-point Show HN thread); no factual drift, still quiet since the 2026-09-23 push with v0.44.7 the last stable tag.
 - 2026-10-29 - Out-of-rotation re-verification: the AgentsMesh/AgentsMesh repository was removed from GitHub (404 with no redirect, releases included), so the Status moved from active to repository-removed with site, docs, and Docker Hub still online; Cautions and the dead references annotated.
 - 2026-11-06 - Re-verified in rotation: all cited sources re-fetched (repository and releases still 404, docs, Docker Hub, and the Show HN thread live); the Docker Hub images' last-update record corrected from February 2026 to around October 2026.
+- 2026-11-07 - Recorded the awesome-agent-orchestrators directory's Resting move for AgentsMesh (2026-11-05), the list's own quiet signal on top of the repository removal.
 
 ## See also
 

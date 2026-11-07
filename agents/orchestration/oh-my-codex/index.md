@@ -1,7 +1,7 @@
 ---
 title: oh-my-codex
 created: 2026-09-27
-updated: 2026-11-03
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, codex, skills, workflows]
 readability: 3
@@ -75,11 +75,11 @@ Not for Windows-first users, non-Codex harnesses, or anyone who needs a stable, 
 - 2026-10-12 - Recorded v0.21.9 (October 12, session token-usage reporting, native subagent completion evidence, and the astra-defaults evaluation collector) as the new latest release.
 - 2026-10-13 - Recorded v0.21.10 and v0.21.11 (both October 13: the TOML merge fix and registry diagnostics, then the fresh provider-inheritance fix in native agent TOMLs) as the new latest release, and refreshed the star count to about 33,526.
 - 2026-10-19 - Recorded v0.21.19 (2026-10-19), npm verified in sync at 148 published versions.
-
 - 2026-10-20 - Recorded v0.21.25 (2026-10-20, team mailbox isolation hardening) and the v0.21.20 through v0.21.24 patch line, npm at 154 published versions.
-
 - 2026-10-25 - Recorded v0.21.36 (2026-10-25) as the latest release, npm in sync.
 - 2026-11-01 - Rotation re-verification (every cited URL re-fetched; the npmjs.com package page served a 403 bot wall this run while the registry endpoint stayed live); recorded v0.21.44 (2026-10-31) as the latest release, npm at 173 published versions.
+- 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (repository, README, npm registry, docs site); the npmjs.com package page now serves a bot wall to plain fetches while the registry endpoint grounds the package facts, and no factual drift otherwise.
+
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins

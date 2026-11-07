@@ -1,7 +1,7 @@
 ---
 title: "The Tells Are Structural"
 created: 2026-09-02
-updated: 2026-11-05
+updated: 2026-11-07
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, ai, llm, writing, evaluation]
 readability: 3
@@ -88,6 +88,7 @@ If you review other people's writing, read structure rather than vocabulary; a d
 - 2026-11-03 - Re-fetched all eight cited sources, every one 200, with the StoryScope, human-detector, LAMP, and slop-study figures unchanged and the no-ai-slop ruleset's structural rule ids intact; the star figures left untouched per the stars exemption, and the intro's re-verification date moved accordingly.
 - 2026-11-04 - Re-fetched all eight cited sources, every one 200, with the study figures unchanged and the no-ai-slop ruleset's structural rule ids (binary_contrast, throat_clearing, faux_insight, and siblings) intact; the star figures left untouched per the stars exemption, and the intro's re-verification date holds at 2026-11-03 since no fact moved.
 - 2026-11-05 - Re-fetched all eight cited sources, every one 200, with the study figures unchanged and the no-ai-slop ruleset's structural rule ids intact; the star figures left untouched per the stars exemption, and the intro's re-verification date holds at 2026-11-03 since no fact moved.
+- 2026-11-07 - Re-fetched all eight cited sources, every one 200, with the study figures re-checked unchanged (StoryScope's narrative-only detection, the human-detector's 1-of-300 majority vote) and the no-ai-slop ruleset's structural rule ids intact, its rule set grown with further structural rules beside them; the star figures left untouched per the stars exemption, and the intro's re-verification date holds at 2026-11-03 since no fact moved.
 
 ## See also
 

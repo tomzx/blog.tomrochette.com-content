@@ -66,12 +66,11 @@ Not for greenfield projects that can pick a single supported path from day one.
 - 2026-10-12 - Recorded v1.2.0 (October 11, OpenAI Decisions API, multi-replica A2A servers, Anthropic cache diagnostics, and the toolkit-composition breaking change) and refreshed star and push counts.
 - 2026-10-15 - Corrected the PyPI tracking claim: `ag2` on PyPI has stayed at 1.1.2 since the v1.2.0 release, so the package line no longer tracks the GitHub release line.
 - 2026-10-22 - Recorded v1.2.1 (2026-10-21) and corrected the PyPI claim: `ag2` on PyPI caught back up at 1.2.1 after sitting at 1.1.2 through v1.2.0, so the PyPI line tracks the GitHub release line again.
-- 2026-11-06 - Volatile refresh: Recorded v1.3.0 (2026-11-04) as the new latest release, PyPI tracking at 1.3.0.
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 - 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); the release line and the PyPI tracking claim stand at v1.2.2/1.2.2, with pushes continuing on 2026-11-01, and the stale PyPI reference description corrected.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v1.2.2 still the latest release on GitHub and PyPI.
+- 2026-11-06 - Volatile refresh: Recorded v1.3.0 (2026-11-04) as the new latest release, PyPI tracking at 1.3.0.
 
 ## See also
 

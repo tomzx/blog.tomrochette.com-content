@@ -1,7 +1,7 @@
 ---
 title: nodeterm
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal, canvas, kanban]
 readability: 3
@@ -24,7 +24,7 @@ By Enes Kirca as an indie project, repository created 2026-06-15, BUSL-1.1 licen
 
 ## Status
 
-Active: 2,287 stars, 264 forks, and 55 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-06, with releases through v0.5.0 (2026-11-04) and a Trendshift listing on the README.
+Active: 2,287 stars, 264 forks, and 55 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-07, with releases through v0.5.1 (2026-11-06) and a Trendshift listing on the README.
 The installer download badge reads 16.7k across all releases as of 2026-11-01.
 
 <picture>

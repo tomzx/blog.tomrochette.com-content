@@ -1,7 +1,7 @@
 ---
 title: Flowise
 created: 2026-09-29
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -68,6 +68,7 @@ Recommended only for existing self-hosters planning an exit to Dify or Sim, and 
 - 2026-10-07 - Added the FlowiseAI/Flowise star history chart to the Status section.
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo still archived at the 2026-08-13 push, discussion 6727, shutdown thread at 58 points, Workday announcement, npm registry, downloads API); npm downloads refreshed to 10,271 in the month ending 2026-10-26.
 - 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); the archive, discussion 6727, the shutdown record, and the Workday announcement all stand with the repository still archived at the 2026-08-13 push, and npm downloads refreshed to 11,853 in the month ending 2026-10-29.
+- 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (repository API, README, the shutdown discussion, three HN threads, the Workday announcement, npm registry and downloads, license); no factual drift, the archive flag still set and pushes still stopped at 2026-08-13.
 
 ## See also
 

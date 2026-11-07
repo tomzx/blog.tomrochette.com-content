@@ -1,7 +1,7 @@
 ---
 title: Sandcastle
 created: 2026-09-27
-updated: 2026-11-03
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, sandboxing, typescript, library]
 readability: 3
@@ -24,7 +24,7 @@ Hooks are declared per location (`host` and `sandbox`, for example `onWorktreeRe
 
 ## Status
 
-Small but well-known: about 8,366 stars and 894 forks as of 2026-10-11, created 2026-03-17, and more than 1,797 commits as of 2026-11-03.
+Small but well-known: about 8,366 stars and 894 forks as of 2026-10-11, created 2026-03-17, and more than 1,830 commits as of 2026-11-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mattpocock/sandcastle&type=date&theme=dark&legend=top-left" />

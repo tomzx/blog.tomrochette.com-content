@@ -1,7 +1,7 @@
 ---
 title: Agno
 created: 2026-09-29
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -22,7 +22,7 @@ The repo sits at 42,559 stars with 6,100 forks, Apache-2.0, Python 3.9+ (GitHub 
 
 ## Status
 
-Active: last push 2026-11-06, latest release v3.1.12 on 2026-10-29 (v3.1.11 2026-10-27, v3.1.10 2026-10-23), `agno` 3.1.12 on PyPI, 42,739 stars as of 2026-10-15 (GitHub API, PyPI, as of 2026-10-31).
+Active: last push 2026-11-06, latest release v3.1.12 on 2026-10-29 (v3.1.11 2026-10-27, v3.1.10 2026-10-23), `agno` 3.1.12 on PyPI, 42,739 stars as of 2026-10-15 (GitHub API, PyPI, as of 2026-11-07).
 v3.1.12 surfaced the harness agents' own permission prompts in the control plane: Claude's and Codex's native approval requests now open in the AgentOS approval UI, pausing the run there until Resolve delivers the decision back to the same native execution without replaying the prompt.
 v3.1.5 gave sandboxed agents repositories (`repository=Repository(url, branch=...)` starts every session inside that checkout) and v3.1.6 let eval `Case`s carry run arguments (`session_id`, `user_id`, `session_state`, `dependencies`, `metadata`, and knowledge filters forwarded into the run). v3.1.4 sandboxed the harness agents: `ClaudeAgent` and `CodexAgent` take a `sandbox=` parameter and run the whole harness process in an isolated per-session container, with session state that survives losing the container, host, or replica that ran the last turn.
 v3.1.3 made ClaudeAgent sessions durable across replicas: the Claude SDK session id is stored on the Agno session and, with a transcript-capable database, every transcript line is mirrored into an `agno_transcripts` table so a later turn on another machine resumes from the database instead of a local file.

@@ -1,7 +1,7 @@
 ---
 title: Gas City
 created: 2026-10-12
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, sdk, multi-agent, formulas, worktrees]
 readability: 3
@@ -24,7 +24,7 @@ It is maintained by the gastownhall org, the same lineage as Steve Yegge's Gas T
 ## Status
 
 **Active, and the only living branch of the Gas Town lineage.**
-1,390 stars, 446 forks, 1,538 open issues, created 2026-02-22, pushed 2026-11-06, as of 2026-11-03 (GitHub API).
+1,390 stars, 446 forks, 1,538 open issues, created 2026-02-22, pushed 2026-11-07, as of 2026-11-07 (GitHub API).
 Yegge announced the direction in the May 2026 "Welcome to Gas City" essay, and the 33-point Hacker News thread on it (2026-05-04) is the project's main independent record.
 Development continued after Gas Town itself was shut down in September 2026, and the migration doc maps every Town role, mechanism, and command onto City primitives.
 The release list corrected this run: stable semver releases do exist, v1.4.2 (2026-09-18), v1.5.0 (2026-10-05), and v1.5.1 (2026-10-24), which its own notes call "the new stable release and supersedes v1.4.2", tagged from `release/v1.5.0`, installable with `brew install gascity`, and requiring Beads (`bd`) v1.3.1, which now owns the Dolt process of every new city; the rolling `edge` and Bazel toolchain tags sit beside that line, so the earlier "no stable-release marker" read was wrong (GitHub releases API, as of 2026-10-25).
@@ -69,7 +69,6 @@ Not for teams that need a release line with months of seasoning, or anyone unwil
 
 - 2026-10-12 - Created from the 2026-10-12 candidate scan, with the lineage risk and the fork-and-issue load recorded as the critical angle.
 - 2026-10-12 - Corrected the release-record claim: stable semver releases exist (v1.4.2 on September 18, v1.5.0 on October 5, self-described as the new stable release), so the earlier no-stable-release read was wrong.
-
 - 2026-10-25 - Recorded v1.5.1 (2026-10-24) on the stable release line.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).

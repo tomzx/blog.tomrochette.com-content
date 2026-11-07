@@ -1,7 +1,7 @@
 ---
 title: Agent Swarm
 created: 2026-10-02
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, lead-worker, docker, slack, multi-agent]
 readability: 3
@@ -23,7 +23,7 @@ Around that core it layers a dashboard UI, DAG workflows with human-in-the-loop 
 
 ## Status
 
-Active and shipping fast: 885 stars as of 2026-10-15, created 2025-12-19, daily releases through v1.173.0 (2026-10-15, a day after v1.172.0 and two after v1.171.1), then a version-line reset: v2.0.0 landed 2026-10-16, v2.1.0 2026-10-17, v2.2.0 and v2.3.0 2026-10-18, and v2.4.0 through v2.4.2 on 2026-10-19, then v2.4.3 through v2.4.5 on 2026-10-20 and 2026-10-21, v2.5.0 on 2026-10-22, v2.5.1 and v2.5.2 on 2026-10-23, v2.5.3 on 2026-10-24, v2.5.4 on 2026-10-25, v2.6.0 on 2026-10-26, and v2.7.0 on 2026-10-27 with v2.7.1 and v2.7.2 on 2026-10-28 and v2.7.3 on 2026-10-29, then v2.7.4 and v2.7.5 on 2026-10-30, v2.7.6 on 2026-10-31, v2.7.7 on 2026-11-01, and v2.7.8 through v2.7.10 on 2026-11-02 through 2026-11-04, then v2.8.0 through v2.8.2 on 2026-11-05 and 2026-11-06, a jump to a v2 major one day after the v1.173.0 tag, with the release bodies carrying install tags and no breaking-change notes (GitHub API, releases, as of 2026-11-06).
+Active and shipping fast: 885 stars as of 2026-10-15, created 2025-12-19, daily releases through v1.173.0 (2026-10-15, a day after v1.172.0 and two after v1.171.1), then a version-line reset: v2.0.0 landed 2026-10-16, v2.1.0 2026-10-17, v2.2.0 and v2.3.0 2026-10-18, and v2.4.0 through v2.4.2 on 2026-10-19, then v2.4.3 through v2.4.5 on 2026-10-20 and 2026-10-21, v2.5.0 on 2026-10-22, v2.5.1 and v2.5.2 on 2026-10-23, v2.5.3 on 2026-10-24, v2.5.4 on 2026-10-25, v2.6.0 on 2026-10-26, and v2.7.0 on 2026-10-27 with v2.7.1 and v2.7.2 on 2026-10-28 and v2.7.3 on 2026-10-29, then v2.7.4 and v2.7.5 on 2026-10-30, v2.7.6 on 2026-10-31, v2.7.7 on 2026-11-01, and v2.7.8 through v2.7.10 on 2026-11-02 through 2026-11-04, then v2.8.0 through v2.8.2 on 2026-11-05 and 2026-11-06, then v2.8.3 on 2026-11-07, a jump to a v2 major one day after the v1.173.0 tag, with the release bodies carrying install tags and no breaking-change notes (GitHub API, releases, as of 2026-11-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=desplega-ai/agent-swarm&type=date&theme=dark&legend=top-left" />
@@ -77,14 +77,12 @@ Not for solo local parallelism (a worktree manager is lighter) or for anyone who
 - 2026-10-13 - Recorded v1.171.0 and v1.171.1 (2026-10-12 and 2026-10-13) on the release train and refreshed the star count to 878.
 - 2026-10-17 - Recorded the release line's reset to a v2 major (v2.0.0 on October 16, v2.1.0 on October 17) one day after v1.173.0, with no breaking-change notes in the release bodies.
 - 2026-10-19 - Recorded the v2 release train reaching v2.4.0 (2026-10-19).
-- 2026-11-06 - Volatile refresh: Recorded the v2.8 line reaching v2.8.2 (2026-11-06).
-
 - 2026-10-20 - Recorded v2.4.1 and v2.4.2 (both 2026-10-19) on the v2 line.
-
 - 2026-10-25 - Recorded the v2 train through v2.5.4 (2026-10-25).
 - 2026-10-27 - Recorded v2.7.0 (2026-10-27) continuing the daily v2 train after v2.6.0.
 - 2026-11-01 - Recorded the v2.7.4 through v2.7.7 train (2026-10-30 to 2026-11-01).
 - 2026-11-04 - Recorded v2.7.10 (2026-11-04) as the latest release, the push date refreshed to 2026-11-04.
+- 2026-11-06 - Volatile refresh: Recorded the v2.8 line reaching v2.8.2 (2026-11-06).
 
 ## See also
 

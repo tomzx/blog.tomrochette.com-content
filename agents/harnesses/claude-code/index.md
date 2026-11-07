@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-10-30
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
@@ -100,6 +100,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - 2026-10-28 - Recorded the v2.1.312 release (October 27): gateway OIDC `user_id_claim`, click-to-send for queued messages, a fix for Claude overwriting a large CLAUDE.md or rules file it had only seen the start of, per-directory skills found after a deeper `cd`, and hook concurrency capped at 24 per session.
 - 2026-10-28 - Folded the PostHog agent-factory field report (October 21, 2026) into Status as ecosystem evidence per the field-report ruling: 5x pull requests on 1.5x headcount, 47 complexity-hunter PRs in 30 days, StampHog auto-approving about 30 percent of PRs for about $910 a month, and reverts down from 1.5 to 0.25 percent.
 - 2026-10-30 - Recorded the v2.1.314 release (October 30): `permissions.blockWritesOutsideWorkingDirectories` refusing out-of-working-directory writes in every permission mode, IdP-group-gated gateway upstreams, `guardrail_trace` for Bedrock upstreams, idle compaction in VS Code and Claude Desktop's Code tab, and the fix batch from effort-level retries and Bedrock image compaction to the `.git/index.lock` race.
+- 2026-11-07 - Rotation re-verification, re-fetching every cited reference (all live): recorded the train moving from 2.1.315 (October 30) to 2.1.319 (November 6, npm latest; the stable dist-tag still parked at 2.1.311), whose headline items are MCP tasks backgrounded in the terminal, `permissions.denyInsteadOfPrompting`, auto mode going ask-or-deny with no classifier fallback when telemetry or feature flags are off (opt back in with `CLAUDE_CODE_AUTO_MODE_SERVER=1`), login-expiry visibility in `claude auth status` and `claude -p`, pooled group budgets and layered `policy_mode` on Claude apps gateways, and a check that asks before a web or shell tool call sends your account email to the network.
 
 ## See also
 
@@ -115,7 +116,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - https://claude.com/product/claude-code - pricing tiers and 2026 feature timeline
 - https://github.com/anthropics/claude-code - repository scale (about 150.9k stars) and npm deprecation, as of 2026-10-15
 - https://github.com/anthropics/claude-code/issues/95690 - the report that AGENTS.md support was gated behind a remote flag only fetched when telemetry was on
-- https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md - the 2.1.277 AGENTS.md addition and the 2.1.281 fix for telemetry-disabled sessions
+- https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md - the 2.1.277 AGENTS.md addition and the 2.1.281 fix for telemetry-disabled sessions, re-fetched 2026-11-07 with the train through 2.1.319
 - https://news.ycombinator.com/item?id=49814947 - the 481-point September 23, 2026 thread that surfaced the telemetry gating
 - http://web.archive.org/web/20260814104128/https://thereallo.dev/blog/claude-code-prompt-steganography - independent analysis of hidden prompt markers (archived; the live site blocks automated fetches)
 - https://systima.ai/blog/claude-code-vs-opencode-token-overhead - measured baseline, cache, and subagent token costs (July 2026)

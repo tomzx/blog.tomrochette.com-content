@@ -1,7 +1,7 @@
 ---
 title: termio
 created: 2026-11-01
-updated: 2026-11-03
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal, tmux-alternative, ssh]
 readability: 3
@@ -66,6 +66,7 @@ Not for Windows or Linux desktop users, and not for anyone needing diff review s
 ## Changes
 
 - 2026-11-01 - Created.
+- 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (repository API, README, releases, Homebrew cask, download server, HN search); no factual drift, still quiet since the 2026-11-02 push, HN still returns nothing.
 
 ## See also
 

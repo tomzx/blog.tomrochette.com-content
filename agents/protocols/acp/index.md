@@ -1,7 +1,7 @@
 ---
 title: Agent Client Protocol (ACP)
 created: 2026-08-24
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, editor-integration]
 readability: 3
@@ -88,6 +88,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 - 2026-11-01 - Re-verification: everything the 2026-10-31 pass recorded stands unchanged, the release trains still end at v1.14.0 with schema-v1.28.0 and schema-v2.0.0-alpha.11 (2026-10-30) with nothing newer tagged, the SDKs stay at Rust 3.6.0 (2026-10-28) and TypeScript 2.2.0 (2026-10-30), and the repository pushed 2026-10-31 with no new tag since.
 - 2026-11-03 - The trains moved without touching the stable protocol: the stable train to v1.15.0 with schema-v1.29.0 (2026-11-01), which added unstable session and proxy methods (session/archive, session/unarchive, session/status, session/set_title, auth/status, proxy/initialize, proxy/successor) and moved the client system prompt RFD to preview, then v1.15.1 with schema-v1.29.1 and the v2 alpha train to schema-v2.0.0-alpha.13 (both 2026-11-02, a spec-text reconcile pass); the Rust crate jumped to a breaking 5.0.0 (2026-11-02), adopting schema 1.15, splitting the API into v1 and v2 surfaces, and removing JSON-RPC batch support, and the TypeScript package moved to 2.3.0 (schema updates) then 2.4.0 (cancellable request waits) the same day; the stable protocol stays at version 1 with the v2 draft open, and the agents list re-counted at 49.
 - 2026-11-06 - Re-verification: the repository pushed 2026-11-04 on docs-only commits (AionUi and Happier added to the clients list and a Remote ACP Bridge connector added), with no new tag since: the trains stay at v1.15.1 with schema-v1.29.1 and schema-v2.0.0-alpha.13, the SDKs at Rust 5.0.0 and TypeScript 2.4.0, and the stable protocol at version 1 with the v2 draft open; the agents list holds at 49.
+- 2026-11-07 - Re-verification: no new tag since (trains stay at v1.15.1 with schema-v1.29.1 and schema-v2.0.0-alpha.13, SDKs still Rust 5.0.0 and TypeScript 2.4.0), with the default branch moving 2026-11-06 to stabilize the client system prompt (#2765), which the 2026-11-03 bullet recorded at preview, unreleased as of this run, and the unstable docs gaining per-item cancels on restricted subagent sessions (#2767); the agents list holds at 49.
 
 ## See also
 

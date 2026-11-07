@@ -1,7 +1,7 @@
 ---
 title: A2UI
 created: 2026-10-06
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, generative-ui, frontend, google]
 readability: 3
@@ -24,7 +24,7 @@ Google created it and opened it on 2025-12-15, and the repository now lives in i
 ## Status
 
 **Active and adopted ahead of its spec maturity.**
-The repository shows about 16,690 stars and 1,328 forks (as of 2026-10-13) with a push on 2026-11-06, roughly ten months after launch (GitHub API, as of 2026-11-06).
+The repository shows about 16,690 stars and 1,328 forks (as of 2026-10-13) with a push on 2026-11-07, roughly ten months after launch (GitHub API, as of 2026-11-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2ui-project/a2ui&type=date&theme=dark&legend=top-left" />
@@ -39,7 +39,7 @@ The implementation train is active on its own schedule: on 2026-10-17 the Python
 On 2026-11-02 the Python wave moved again: a2ui-core to v0.5.0 (breaking: a `DataContext` refuses a function whose `allowed_callers` is `agentOnly` before running it, as the v1.0 specification requires, and catalog-declared components without `ComponentId` or `ChildList` properties no longer infer child references), the agent SDK to v0.10.0 (breaking: v1.0 protocol messages carry the version as `'1.0'` without the `v` prefix, the file-resolve extension module was removed with the `httpx` dependency dropped, and data path assignments emit one targeted `updateDataModel` per path instead of overwriting the surface's whole data model), adding incremental streaming support for the Express inference format, and the ADK and A2A bindings to v0.2.0.
 On 2026-10-26 the repository merged an MCP Apps bridge stream: a new `@a2ui/catalog-mcp` package with a `configureMcpCatalog` v1.0 entry point, an MCP Apps host bridge, and MCP App examples rendered in the Lit, Angular, and React explorers, alongside v1.0 protocol support in the Dart CLI and Python builder, so A2UI now ships tooling that treats MCP Apps as a neighbor to interoperate with rather than only a rival to position against.
 On 2026-11-06 the spec hub promoted v1.0 to the current protocol version, ending the release-candidate period this note recorded since creation: the hub's table now reads v1.0 Current (which adds client-to-server RPC action responses and action IDs and renames `theme` to `surfaceProperties`, and which the project notes was previously designated as v0.10), v0.9.1 and v0.9 Previous, and v0.8 Deprecated.
-The same 2026-11-05 to 11-06 wave added a user-facing a2ui agent skill and an llms.txt file for the docs site, merged the first SwiftUI renderer work (a HostedViewDriver, catalog factories, and accessibility and media-URL fixes, so SwiftUI is moving from the roadmap into the implementation tree), and redesigned the landing page; the tagged release train still ends at the 2026-11-02 Python wave, with 2026-11-04 release-prep commits for `a2ui_agent`, `a2ui_flutter`, and `a2ui_cli` not yet tagged.
+The same 2026-11-05 to 11-06 wave added a user-facing a2ui agent skill and an llms.txt file for the docs site, merged the first SwiftUI renderer work (a HostedViewDriver, catalog factories, and accessibility and media-URL fixes, so SwiftUI is moving from the roadmap into the implementation tree), and redesigned the landing page; the tagged release train still ends at the 2026-11-02 Python wave, with 2026-11-04 release-prep commits for `a2ui_agent`, `a2ui_flutter`, and `a2ui_cli` not yet tagged; the 2026-11-07 push is docs-site edits plus a widened React peer-dependency range (React 17 now supported), with nothing new tagged.
 
 ## Strengths
 

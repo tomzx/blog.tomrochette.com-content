@@ -1,7 +1,7 @@
 ---
 title: Vibe Kanban
 created: 2026-08-24
-updated: 2026-11-03
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, kanban, git-worktrees, open-source]
 readability: 3
@@ -27,8 +27,8 @@ Self-hosting via Docker was documented for teams.
 Company dead, project alive.
 Bloop shut down on 2026-04-10, with CEO Louis Knight-Webb writing that "the vast majority are free users and we couldn't find a business model".
 Remote services (kanban issues, comments, projects, organisations) were removed 30 days after the announcement; refunds were issued and subscriptions terminated.
-**Local workspaces keep working, and the unpaid community has kept moving: as of 2026-10-29 the default branch shows fourteen community commits since the shutdown, the first a 2026-09-15 Copilot version bump by a former Bloop maintainer, then nine more between 2026-09-16 and 2026-09-19 with substantive fixes (server startup routing, session-replay performance, swapped stream labels, an IME Enter fix, pnpm audit fixes, and a SECURITY.md), two on 2026-10-26 (a local CI script that runs GitHub workflow checks without Actions), and one on 2026-10-28, after a thirty-seven-day silence.
-On 2026-09-19 the community committed a version bump to 0.1.45 and published a prerelease GitHub release named v0.1.45 from the timestamped tag v0.1.45-20260919085201; that prerelease release is no longer listed on GitHub as of 2026-09-30 (the release URL returns 404 and the release list stops at 0.1.44), though the timestamped tag remains, no plain v0.1.45 tag exists, no stable release has shipped beyond 0.1.44, npm still serves 0.1.44 as latest as of 2026-10-26, and the 2026-10-26 commit is the only activity in the month, while the tracker stands at 544 open issues and pull requests.**
+**Local workspaces keep working, and the unpaid community has kept moving: as of 2026-11-07 the default branch shows fifteen community commits since the shutdown, the first a 2026-09-15 Copilot version bump by a former Bloop maintainer, then nine more between 2026-09-16 and 2026-09-19 with substantive fixes (server startup routing, session-replay performance, swapped stream labels, an IME Enter fix, pnpm audit fixes, and a SECURITY.md), two on 2026-10-26 (a local CI script that runs GitHub workflow checks without Actions), and one on 2026-10-28 after a thirty-seven-day silence, then one on 2026-11-03 (a Cargo.lock version update for the relay-tunnel and remote crates, merged through PR #3490).
+On 2026-09-19 the community committed a version bump to 0.1.45 and published a prerelease GitHub release named v0.1.45 from the timestamped tag v0.1.45-20260919085201; that prerelease release is no longer listed on GitHub as of 2026-09-30 (the release URL returns 404 and the release list stops at 0.1.44), though the timestamped tag remains, no plain v0.1.45 tag exists, no stable release has shipped beyond 0.1.44, npm still serves 0.1.44 as latest as of 2026-10-26, while the tracker stands at 544 open issues and pull requests.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=BloopAI/vibe-kanban&type=date&theme=dark&legend=top-left" />
@@ -82,6 +82,7 @@ My disagreeable claim: bloop's failure is evidence that this orchestration layer
 - 2026-10-07 - Added the BloopAI/vibe-kanban star history chart to the Status section.
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo, site, shutdown post, launch HN thread, npm registry); the post-shutdown commit count refreshed to eleven with the 2026-10-26 local-CI-script commit ending the thirty-seven-day silence, npm still at 0.1.44.
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, site, shutdown post, npm registry, HN items); claims hold, npm still 0.1.44 latest, the release list still stops at 0.1.44, and the default branch is unchanged since the 2026-10-28 community commit.
+- 2026-11-07 - Recorded the 2026-11-03 community commit (relay-tunnel and remote Cargo.lock update through PR #3490), the first since 2026-10-28, and dropped the only-activity-in-the-month claim it supersedes.
 
 ## See also
 

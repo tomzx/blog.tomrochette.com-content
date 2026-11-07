@@ -1,7 +1,7 @@
 ---
 title: llms.txt
 created: 2026-10-07
-updated: 2026-11-03
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, conventions, context-files, web]
 readability: 3
@@ -26,7 +26,7 @@ It is a convention, not a foundation standard: no required fields, no registry, 
 ## Status
 
 **Active and adopted exactly where it aimed, and ignored exactly where it did not.**
-The spec site reports that thousands of sites publish an llms.txt file, that documentation platforms generate one automatically, and that coding agents use them reliably, and this run fetched live files from Anthropic's developer docs (924 lines, still served from platform.claude.com after a redirect) and OpenAI's developer docs to confirm the served reality (2026-11-03).
+The spec site reports that thousands of sites publish an llms.txt file, that documentation platforms generate one automatically, and that coding agents use them reliably, and this run fetched live files from Anthropic's developer docs (964 lines, still served from platform.claude.com after a redirect) and OpenAI's developer docs to confirm the served reality (2026-11-07).
 The spec site's newest adoption citation is Google's own tooling: Chrome's Lighthouse audits sites for an llms.txt file under its agentic-browsing category (a soft check, a missing file reads as not-applicable rather than a failing score), a Google-owned signal on the docs side while Google Search's John Mueller keeps calling the file speculative.
 
 The community footprint is substantial for a file convention: the launch thread drew 206 points and 175 comments on Hacker News (2024-09-03), a directory-of-files thread drew 106 points (2024-12-23), and generator tools have shipped steadily since.
@@ -71,6 +71,7 @@ My disagreeable claim: llms.txt succeeded by failing at its original goal, becau
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec site still serves v2 (modified 2026-08-10), the served reality re-confirmed (Anthropic's file now 899 lines), and the footprint scan re-confirmed (launch thread 206 points and 175 comments, directory thread 106 points).
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec site still serves v2 (modified 2026-08-10), the served reality re-confirmed (Anthropic's file now 923 lines), and the footprint scan re-confirmed (launch thread 206 points and 175 comments, directory thread 106 points).
 - 2026-11-03 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec site still serves v2 (modified 2026-08-10), the served reality re-confirmed (Anthropic's file now 924 lines), and the footprint scan re-confirmed (launch thread 206 points and 175 comments, directory thread 106 points).
+- 2026-11-07 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec site still serves v2, the served reality re-confirmed (Anthropic's file now 964 lines), and the footprint scan re-confirmed (launch thread 206 points and 175 comments, directory thread 106 points).
 
 ## See also
 

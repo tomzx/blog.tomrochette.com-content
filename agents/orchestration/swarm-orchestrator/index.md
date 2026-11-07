@@ -1,7 +1,7 @@
 ---
 title: Swarm Orchestrator
 created: 2026-10-24
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, coding-agent, evidence, git-worktrees]
 readability: 3
@@ -26,7 +26,7 @@ The package name has carried four products: Copilot CLI session orchestration, t
 
 ## Status
 
-Active and fast-moving under one maintainer: the repository was created 2026-01-22, held 112 stars, 5 forks, and 5 open issues as of 2026-10-24, was pushed 2026-11-06 (GitHub API, as of 2026-11-04), and its 1,586 commits all belong to one contributor.
+Active and fast-moving under one maintainer: the repository was created 2026-01-22, held 112 stars, 5 forks, and 5 open issues as of 2026-10-24, was pushed 2026-11-06 (GitHub API, as of 2026-11-07), and its 1,586 commits all belong to one contributor.
 The GitHub release line moved to v15.0.0 on 2026-10-30, the verifier-first rebuild (ADR 0014) that supersedes the unreleased 14.5.0 work and turns `swarm run` into a single-bash-tool loop through the chokepoint, with the standalone verifier rebuilt as swarm-verify 2.0.0 alongside it, while npm still serves 14.4.0 (2026-10-10) as latest and the README still says 13.1.9; the package drew 540 downloads in the month ending 2026-10-29 (npm registry and downloads API, as of 2026-10-31).
 
 <picture>

@@ -1,7 +1,7 @@
 ---
 title: OpenCode
 created: 2026-08-22
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, developer-tools]
 readability: 3
@@ -80,6 +80,7 @@ Not for teams that need subscription billing simplicity or cannot audit a fast-m
 - 2026-10-26 - Recorded the v1.x train reaching v1.19.4 (October 22), a runtime-security bump of the bundled Bun to 1.4.4, keeping the v2-tagged-release gap open; every cited URL re-fetched in the rotation pass.
 - 2026-10-28 - Recorded the v2-tagged release gap closing: v2.2.0 (October 27) shipped experimental desktop plugins, a refreshed desktop app, image and decision generation APIs, cache-preserving session-instruction entries, and prompt-cache TTLs, with breaking SDK packaging changes and the OpenCode GitHub Action removed, and the v1.x train continued at v1.19.5 (October 28).
 - 2026-11-01 - Recorded the v2 train reaching v2.2.5 (October 30, five stable releases in three days after v2.2.0): desktop worktree and shell-mode shortcuts, comment-popup quote sends, and further desktop-app polish, with the v1.x train parked at v1.19.5 and the default branch pushed 2026-11-01.
+- 2026-11-07 - Recorded the v2 train reaching v2.2.6 (published November 6): shared MCP connections, pooling one connection across projects with the same setup so fewer processes run and starts are faster, plus GUI plugin color themes, code-block action slots, and native settings and menu components, with a process-daemon component train alongside (v0.4.0 October 29, v0.5.0 November 5) and the v1.x train still parked at v1.19.5.
 
 ## See also
 

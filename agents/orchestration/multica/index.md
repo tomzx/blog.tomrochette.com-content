@@ -1,7 +1,7 @@
 ---
 title: Multica
 created: 2026-09-27
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, self-hosted, issue-tracking, agents-as-teammates]
 readability: 3
@@ -23,7 +23,7 @@ It self-describes as supporting 26 agent CLIs (Claude Code, Codex, Cursor, Copil
 
 ## Status
 
-Actively shipped and unusually high-profile: about 52,857 stars and 6,913 forks as of 2026-10-15, created 2026-01-13, with 1,873 open issues and pull requests, pushed 2026-11-06, and a latest release of v0.8.0 on 2026-11-03 (native ZCode protocol support, MiniMax-M3 standard-tier pricing, and filesystem-allocated skill-name advertising; v0.7.2 was 2026-10-30, after v0.7.1 on 2026-10-27, a host-local Devin CLI over ACP, issue outlines carrying sub-issues, and mention parsing that skips code blocks; v0.7.0 was 2026-10-23, v0.6.5 2026-10-21, after the 2026-10-16 v0.6.3 that added project-workflow columns and handoffs and fixed Git-content preservation during artifact cleanup) (GitHub API, as of 2026-11-04).
+Actively shipped and unusually high-profile: about 52,857 stars and 6,913 forks as of 2026-10-15, created 2026-01-13, with 1,873 open issues and pull requests, pushed 2026-11-07, and a latest release of v0.8.1 on 2026-11-06 (after v0.8.0 on 2026-11-03, which added native ZCode protocol support, MiniMax-M3 standard-tier pricing, and filesystem-allocated skill-name advertising; v0.7.2 was 2026-10-30, after v0.7.1 on 2026-10-27, a host-local Devin CLI over ACP, issue outlines carrying sub-issues, and mention parsing that skips code blocks; v0.7.0 was 2026-10-23, v0.6.5 2026-10-21, after the 2026-10-16 v0.6.3 that added project-workflow columns and handoffs and fixed Git-content preservation during artifact cleanup) (GitHub API, as of 2026-11-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=multica-ai/multica&type=date&theme=dark&legend=top-left" />
@@ -73,7 +73,6 @@ Not for solo developers running one agent, teams needing per-agent budget caps t
 - 2026-09-29 - Reworded two banned-term compounds ("team-shaped", "human-shaped") to plain wording, meaning unchanged.
 - 2026-10-02 - Recorded v0.6.1 (October 1) as the new latest release and refreshed star, fork, and issue counts.
 - 2026-10-07 - Added the multica-ai/multica star history chart to the Status section.
-
 - 2026-10-25 - Recorded v0.7.0 (2026-10-23) as the latest release.
 - 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); recorded v0.7.2 (2026-10-30) as the latest release.
 - 2026-11-04 - Recorded v0.8.0 (2026-11-03, native ZCode protocol support, MiniMax-M3 standard-tier pricing, filesystem-allocated skill-name advertising) as the latest release, the push date refreshed to 2026-11-04.

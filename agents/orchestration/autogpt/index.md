@@ -1,7 +1,7 @@
 ---
 title: AutoGPT
 created: 2026-09-27
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, workflows, source-available]
 readability: 3
@@ -24,7 +24,7 @@ It positions itself as "AI agents that finish the work", with file-aware agents,
 
 ## Status
 
-Active and shipping: the repo shows 187,580 stars, was pushed 2026-11-06, and carries the platform beta at v0.11.1 (2026-11-06) after v0.11.0 (2026-11-04), v0.9.0 (2026-10-23), and v0.8.4 (2026-10-14) (GitHub API, releases, as of 2026-11-06).
+Active and shipping: the repo shows 187,580 stars, was pushed 2026-11-07, and carries the platform beta at v0.11.1 (2026-11-06) after v0.11.0 (2026-11-04), v0.9.0 (2026-10-23), and v0.8.4 (2026-10-14) (GitHub API, releases, as of 2026-11-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&theme=dark&legend=top-left" />
@@ -83,11 +83,10 @@ My disagreeable claim: the 187k stars are a liability now, because they attract 
 - 2026-09-30 - Recorded beta v0.8.2 (September 30, AutoPilot action gating modes) as the new latest release and refreshed star and push counts.
 - 2026-10-07 - Added the Significant-Gravitas/AutoGPT star history chart to the Status section.
 - 2026-10-08 - Recorded platform beta v0.8.3 (October 8) and the star count as of 2026-10-08.
-- 2026-11-06 - Volatile refresh: Recorded the platform beta advancing to v0.11.1 (2026-11-06).
-
 - 2026-10-11 - Recorded the hosted-pricing restructure: monthly billing now leads at $50 and $320 per month, yearly (15 percent off, $42.50 and $272 effective) became the toggle, and the subscription covers Otto and Expert chat while workflow runs are pay-as-you-go.
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, license, releases, pricing, docs, blog post, both HN threads); the push date refreshed to 2026-10-27, platform beta v0.9.0 still the newest tag.
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, license, releases, pricing, docs, blog post, both HN threads); recorded platform beta v0.11.0 (November 4) as the newest tag, and noted the hosted product's current Experts-plus-Otto emphasis atop the four surfaces; pricing tiers unchanged since the October restructure.
+- 2026-11-06 - Volatile refresh: Recorded the platform beta advancing to v0.11.1 (2026-11-06).
 
 ## See also
 

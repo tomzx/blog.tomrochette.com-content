@@ -12,6 +12,7 @@ Event-driven agent execution: lifecycle hooks, scheduled and repository-triggere
 
 - [Aeon](aeon/index.md) - the MIT framework that turns a GitHub repo plus Actions into an unattended cron agent driving nine harnesses.
 - [Airut](airut/index.md) - the self-hosted gateway that starts sandboxed Claude Code tasks from email and Slack and keeps sessions alive across replies.
+- [Centaur](centaur/index.md) - the Paradigm and Tempo platform where a Slack mention or API call starts an isolated Kubernetes sandbox session with credentials injected by a per-sandbox proxy.
 - [Claude Code Action](claude-code-action/index.md) - the official Action that runs Claude Code on issues and pull requests, triggered by mentions, labels, and schedules.
 - [Claude Code hooks](claude-code-hooks/index.md) - lifecycle triggers that turn the harness into an event-driven system.
 - [Claude Code routines](claude-code-routines/index.md) - hosted Claude Code sessions on schedules, API calls, and GitHub events.
@@ -39,3 +40,4 @@ Its members are compared on shared rows in the [Executions Feature Matrix](execu
 - 2026-10-11 - Added Codex Action.
 - 2026-10-11 - Added Run Gemini CLI.
 - 2026-10-13 - Added Rivet Agents.
+- 2026-11-06 - Added Centaur.

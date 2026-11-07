@@ -1,7 +1,7 @@
 ---
 title: Squad
 created: 2026-09-29
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, copilot]
 readability: 3
@@ -23,15 +23,16 @@ It entered this pile from the Awesome Multi-Agent Orchestrators directory's new 
 
 ## Status
 
-Active: last push 2026-11-05, latest release v1.1.0 on 2026-10-20, a dev-to-main promotion riding the release train, after v1.0.1 (2026-10-04, a release-packaging fix for the Homebrew and WinGet publish credentials, one day after v1.0.0 promoted the dev line to main) (GitHub API, as of 2026-11-03).
+Active: last push 2026-11-06, latest release v1.1.0 on 2026-10-20, a dev-to-main promotion riding the release train, after v1.0.1 (2026-10-04, a release-packaging fix for the Homebrew and WinGet publish credentials, one day after v1.0.0 promoted the dev line to main) (GitHub API, as of 2026-11-07).
+**The identity record moved: the repository transferred from bradygaster's account into the github organization between the 2026-11-03 verification and 2026-11-07, the old path a 301 redirect, the same organization churn this section recorded on Agent Orchestrator and Ruflo.**
 The 1.0.0 wave caps the alpha period: the README no longer carries the alpha badge that earlier releases warned about, though the project is still a solo-maintainer CLI and the API caveats deserve re-reading before you script against it.
 Traction is concentrated: npm recorded 13,000 downloads of `@bradygaster/squad-cli` in the month ending 2026-10-26, down slightly from 14,360 in the window ending 2026-10-09, with 1,118 in the week ending the same day.
 Independent discussion is nearly absent: the largest HN thread I found has 2 points, so the footprint is GitHub plus npm alone, which is itself a signal.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bradygaster/squad&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=bradygaster/squad&type=date&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=bradygaster/squad&type=date&legend=top-left" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/squad&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=github/squad&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=github/squad&type=date&legend=top-left" />
 </picture>
 
 ## Strengths
@@ -72,6 +73,7 @@ Not for teams on other agent runtimes, or anyone who needs a stable, community-v
 - 2026-10-07 - Added the bradygaster/squad star history chart to the Status section.
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo, releases, npm registry and downloads, HN thread); push refreshed to 2026-10-26 and npm traction refreshed to 13,000 downloads in the month ending 2026-10-26, down from 14,360 ending 2026-10-09.
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, releases, npm registry and download points, HN item); the push date refreshed to 2026-11-02, v1.1.0 (2026-10-20) still the latest release.
+- 2026-11-07 - Recorded the repository's transfer from bradygaster's account into the github organization (old path a 301), moved the star-history chart and repository references to the canonical github/squad paths, and refreshed the push date to 2026-11-06.
 
 ## See also
 
@@ -82,10 +84,10 @@ Not for teams on other agent runtimes, or anyone who needs a stable, community-v
 
 ## References
 
-- https://api.github.com/repos/bradygaster/squad - GitHub API (200): 3,237 stars, 497 forks, MIT, TypeScript, pushed 2026-09-29, created 2026-02-06 (as of 2026-09-29)
-- https://raw.githubusercontent.com/bradygaster/squad/main/README.md - README (200): squad init, .squad/team.md, preset, Copilot CLI usage, alpha warning, human-led stance
+- https://api.github.com/repos/github/squad - GitHub API (200): 3,237 stars, 497 forks, MIT, TypeScript, pushed 2026-09-29, created 2026-02-06 (as of 2026-09-29)
+- https://raw.githubusercontent.com/github/squad/main/README.md - README (200): squad init, .squad/team.md, preset, Copilot CLI usage, alpha warning, human-led stance
 - https://registry.npmjs.org/@bradygaster%2Fsquad-cli - npm metadata for the package
 - https://api.npmjs.org/downloads/point/last-month/@bradygaster/squad-cli - npm downloads API (200): 7,323 downloads, month ending 2026-09-27
 - https://api.npmjs.org/downloads/point/last-week/@bradygaster/squad-cli - npm downloads API (200): 2,575 downloads, week ending 2026-09-27
-- https://api.github.com/repos/bradygaster/squad/releases/latest - releases API (200): v0.13.1, published 2026-08-26
+- https://api.github.com/repos/github/squad/releases/latest - releases API (200): v0.13.1, published 2026-08-26
 - https://hn.algolia.com/api/v1/items/47157294 - only substantive HN thread (200): 2 points, 2026-02-25 (critical source: near-absent independent discussion)

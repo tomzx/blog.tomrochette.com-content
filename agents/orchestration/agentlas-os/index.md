@@ -1,7 +1,7 @@
 ---
 title: Agentlas OS
 created: 2026-10-07
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, hub, orchestrator, local-first, host-embedded]
 readability: 3
@@ -21,7 +21,7 @@ Beside the hub it ships Agent Mail (an inbox and draft-review flow for the orche
 
 ## Status
 
-Active and young: 1,583 stars, a push on 2026-11-06, and release v1.2.86 on 2026-11-06 after v1.2.82 on 2026-11-03 (v1.2.71 was October 29, v1.2.70 October 27, and v1.2.67 October 20, when Hub search candidates began carrying their own listing taglines) as of 2026-11-06 (GitHub API, releases), on a repository created 2026-06-04.
+Active and young: 1,583 stars, a push on 2026-11-07, and release v1.2.88 on 2026-11-07 after v1.2.86 on 2026-11-06 and v1.2.82 on 2026-11-03 (v1.2.71 was October 29, v1.2.70 October 27, and v1.2.67 October 20, when Hub search candidates began carrying their own listing taglines) as of 2026-11-07 (GitHub API, releases), on a repository created 2026-06-04.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentlas-ai/Agentlas-OS&type=date&theme=dark&legend=top-left" />
@@ -65,16 +65,14 @@ Not for locked-down machines where an installer that rewrites host configuration
 - 2026-10-08 - Recorded v1.2.58 (October 8) and the star count as of 2026-10-08.
 - 2026-10-09 - Recorded v1.2.59 (October 8) and refreshed the star count to 1,582 as of 2026-10-09.
 - 2026-10-10 - Recorded v1.2.61 (October 10) and refreshed the star count to 1,575 as of 2026-10-10.
-- 2026-11-06 - Volatile refresh: Recorded v1.2.86 (2026-11-06) as the new latest release.
-
 - 2026-10-20 - Recorded v1.2.67 (2026-10-20, Hub search candidates carry listing taglines) on the release train.
-
 - 2026-10-25 - Recorded v1.2.69 (2026-10-25) on the release train.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 - 2026-10-27 - Recorded v1.2.70 (2026-10-27): native delegation from prepared agents on the current host, package read allowlists, and receipt telemetry that no longer blocks authorized host work.
 - 2026-11-01 - Recorded v1.2.72 (2026-11-01) as the latest release and the same-day push.
 - 2026-11-04 - Recorded v1.2.82 (2026-11-03) as the latest release, the push date refreshed to 2026-11-04.
+- 2026-11-06 - Volatile refresh: Recorded v1.2.86 (2026-11-06) as the new latest release.
 
 ## See also
 
