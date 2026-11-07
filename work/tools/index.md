@@ -31,5 +31,6 @@ Tools I use on a regular basis at work (sorted alphabetically).
 * [PyCharm](https://www.jetbrains.com/pycharm/)
 * [Rectangle](https://rectangleapp.com/)
 * [Slack](https://slack.com/)
+* [`slackx`](https://github.com/TomzxCode/slackx)
 * [Stats](https://github.com/exelban/stats)
 * [VS Code](https://code.visualstudio.com/)
