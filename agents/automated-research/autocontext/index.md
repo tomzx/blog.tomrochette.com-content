@@ -1,7 +1,7 @@
 ---
 title: AutoContext
 created: 2026-10-14
-updated: 2026-11-05
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, self-improvement, context-bundles, eval-gated-promotion, open-source]
 readability: 3
@@ -23,7 +23,7 @@ The `train` surface closes the loop's second leg: it distills verifier-scored tr
 
 ## Status
 
-Active and early: 1,309 stars, 115 forks, five contributors, created 2026-02-11, last push 2026-11-05 on the main branch, closing a November 3-5 milestone-numbered CPU wave (generated CPU search campaigns with search diagnostics, transfer controls, and failure evidence through milestone 15's measured CPU outcomes, verified CPU checkpoint editing with a weight-reproduction contract and reproduction reports, adaptive CPU search under Linux resource acceptance, and CPU inference and evaluation for edited checkpoints), following the October 23-26 security and dependency wave (patched Zod 4 collection validation, body-parser compressed-body handling, fast-uri, a protected OOM supervisor for the Docker release blocker, and the Pi extension consuming the published Zod-safe runtime), as of 2026-11-05.
+Active and early: 1,309 stars, 115 forks, five contributors, created 2026-02-11, last push 2026-11-07 on the main branch, with the November 3-7 milestone-numbered CPU wave running through milestone 20 (milestone 15's measured CPU outcomes, verified CPU checkpoint editing with a weight-reproduction contract and reproduction reports, and adaptive CPU search under Linux resource acceptance; then milestone 18's generated CPU joint controls and measured campaign, milestone 19's budget-limited CPU search landscapes with regression coverage balanced across six CI shards, and milestone 20's CPU search robustness campaign), following the October 23-26 security and dependency wave (patched Zod 4 collection validation, body-parser compressed-body handling, fast-uri, a protected OOM supervisor for the Docker release blocker, and the Pi extension consuming the published Zod-safe runtime), as of 2026-11-07.
 Jay Scambler wrote 2,220 of the repository's roughly 2,292 commits, and Grey Haven markets itself as an applied AI venture studio.
 The train is live: 35 PyPI releases through 0.18.0 (2026-09-16) and 47 npm versions through 0.19.1 (2026-10-26), with the docs site's changelog last updated 2026-08-26.
 
@@ -85,11 +85,11 @@ Not for anyone expecting independently verified performance claims, and not as a
 - https://raw.githubusercontent.com/greyhaven-ai/autocontext/main/README.md - the loop definition, surfaces table, provider matrix, install pins, and what's-new section (fetched 200, 2026-11-05)
 - https://raw.githubusercontent.com/greyhaven-ai/autocontext/main/docs/context-bundles.md - the bundle lifecycle, the eight promotion requirements, the false-promotion budget, and the negative-result ledger (fetched 200, 2026-11-05)
 - https://raw.githubusercontent.com/greyhaven-ai/autocontext/main/autocontext/docs/case-study-recursive-loop.md - the closed-loop case study and its self-reported +41.9 percent and +7.4 percent figures (fetched 200, 2026-11-05)
-- https://api.github.com/repos/greyhaven-ai/autocontext/commits?since=2026-10-27T00:00:00Z&per_page=30 - the November 3-5 CPU milestone wave behind this refresh (fetched 200, 2026-11-05)
+- https://api.github.com/repos/greyhaven-ai/autocontext/commits?since=2026-11-05T00:00:00Z&per_page=30 - the November 5-7 CPU milestones 18-20 behind this refresh: measured joint controls, budget-limited search landscapes with rebalanced CI shards, and the robustness campaign (fetched 200, 2026-11-07)
 - https://autocontext.ai/docs - the documentation site (fetched 200, 2026-11-05)
 - https://autocontext.ai/docs/changelog - the changelog with the August 26 registry-status table (fetched 200, 2026-11-05)
 - https://pypi.org/pypi/autocontext/json - 35 releases, latest 0.18.0 on 2026-09-16; the README's 0.19.1 pin returned 404 (fetched 200 and 404, 2026-10-28)
-- https://registry.npmjs.org/autoctx - 47 versions, latest 0.19.1 on 2026-10-26, created 2026-03-12 (fetched 200, 2026-11-05)
+- https://registry.npmjs.org/autoctx - 47 versions, latest 0.19.1 on 2026-10-26, created 2026-03-12 (fetched 200, 2026-11-07)
 - https://api.github.com/repos/greyhaven-ai/autocontext/contributors - five contributors with jayscambler at 2,220 of roughly 2,292 commits (fetched 200, 2026-11-05)
 - https://api.github.com/orgs/greyhaven-ai - the organization: Grey Haven, applied AI engineering, greyhaven.ai (fetched 200, 2026-11-05)
 - https://hn.algolia.com/api/v1/items/47372119 - the lone Hacker News story, 2 points, zero comments, 2026-03-14 (fetched 200, 2026-11-05)

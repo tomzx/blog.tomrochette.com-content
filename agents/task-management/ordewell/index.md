@@ -1,7 +1,7 @@
 ---
 title: Ordewell
 created: 2026-09-16
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, planner, multi-agent, open-source]
 readability: 3
@@ -19,17 +19,20 @@ Ordewell is an Apache-2.0 TypeScript CLI, terminal UI, and VS Code extension tha
 An npm package (`ordewell`, also published scoped as `@ordewell/cli`, Node 20+) with three surfaces over one core: a CLI, a chat-left-plan-right terminal UI, and a VS Code extension that bundles its own core.
 A planner researches the repo read-only, interrogates a vague goal in conversation instead of guessing, and commits the plan as JSON; planning is one continuous message loop (ADR-0002) with no approve buttons.
 Every task then runs as a real coding-agent session in a fresh context, handed its predecessors' results, with independent tasks running in parallel and the dependency graph always respected.
-Runners are the three built-in coding agents, Claude Code, Codex, and OpenCode, driven only through their structured protocols since v0.8.0 removed the terminal transport and plugin runners; the planner can itself be one of those agents on a subscription you already hold, and 25 API-key providers are recognized for standalone use.
+Runners are the built-in coding agents, Claude Code, Codex, and OpenCode, driven only through their structured protocols since v0.8.0 removed the terminal transport and plugin runners, joined by Cursor over the Agent Client Protocol in v0.12.6; the planner can itself be one of those agents on a subscription you already hold, and 25 API-key providers are recognized for standalone use.
 The planner's permissions are unusually explicit (ADR-0008): commands classify into auto, ask, and refuse tiers, refuse is not promptable, paths are confined to the workspace, and its docs concede this is a denylist over a real shell rather than an OS sandbox.
 
 ## Status
 
 Active, young, and small.
-As of 2026-11-01: 202 stars (as of 2026-10-14), 21 forks, 44 open issues and pull requests, created 2026-07-31, pushed 2026-11-01, latest release v0.12.0 on 2026-10-31, and about 9,000 npm downloads over the trailing month to 2026-11-01 across the `ordewell` and `@ordewell/cli` package names.
+As of 2026-11-07: 202 stars (as of 2026-10-14), 20 forks, 39 open issues and pull requests, created 2026-07-31, pushed 2026-11-07, latest release v0.13.0 on 2026-11-06, and about 9,800 npm downloads over the trailing month to 2026-11-07 across the `ordewell` and `@ordewell/cli` package names.
 v0.10.11 and v0.10.12 (both 2026-10-22) consolidated run and planner settings into one /settings surface with the one-value slash commands gone from the TUI and VS Code (the headless CLI keeps them), held a task_complete report until its turn closes so the tool reply reaches the runner before the verdict stops it, and kept a completion through a forced message and a message_undelivered exit so the runner's success is not discarded.
 v0.11.0 (2026-10-27) let a plan hold more than coding-agent tasks: script tasks, check-and-fix loops, and research tasks joined the runner, every task hands over a structured handoff, read-only tasks run in sealed throwaway worktrees and land nothing, new installations default to Guarded autonomy where a blank settings file used to mean Full, run settings apply per open session, the API planner compacts its own context, and the surface shows coding agents' account limits; v0.11.1 (2026-10-27) changed the VS Code listing text only, with no runtime code.
 v0.11.2 (2026-10-29) made `/resume` open the session browser in the planner chat, added a guide to where planners and runners get their models and credentials, and honored the model entries listed in Claude Code's own settings file per workspace; v0.11.3 (2026-10-29) held repository configuration introduced mid-run (an added `.mcp.json`, Claude Code settings, hooks, or plugins) until you consent before a later task launches with it, and refused to start a Claude Code task in a directory whose own MCP server is named `ordewell`, so a repository server cannot shadow the completion route.
 v0.12.0 (2026-10-31) added an inbox of everything waiting on you (`/inbox` in the TUI, a panel above the VS Code composer, a count on the status row) fed by failed tasks, checkpoints, merge conflicts, approvals, and held work, with an optional per-item notify command that runs with no shell, a `/revert` that takes one task's landed merges off every repository at once with refusal guards, an activity line above the composer, and `taskRunnerConfig` letting a Claude Code task load a minimal tool set (Ordewell's server plus what the repository ships); a failed task now stays failed after a reload, and supervisor wakes batch on a five-second window capped at four minutes so they land on a warm prompt cache.
+v0.12.4 and v0.12.5 (both 2026-11-04) carried the Windows line: npm-installed agents' logins read correctly through `.cmd` shims, VS Code logins working under a stock PowerShell's restricted execution policy, worktree junction removal no longer emptying folders, the terminal UI supported on native Windows without WSL, and a Codex planner on Windows planning with its own shell off, driven through Ordewell's `run_command` because Codex's Windows sandbox cannot keep a command off the network.
+v0.12.6 (2026-11-05) added Cursor as a fourth runner over the Agent Client Protocol with Ordewell's tools attached, able to plan and to run read-only tasks from a private directory where none of the repository's `.cursor/` rules, hooks, MCP servers, or the user's own Cursor settings load.
+v0.13.0 (2026-11-06) announced a desktop app for macOS, Windows, and Linux, an orchestration-first window over the local daemon with the plan, diffs, git, and a terminal in one view, not yet shipped in releases (source-only with a desktop guide), and moved the planner chat to the centre with the plan on the right.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ordewell/ordewell&type=date&theme=dark&legend=top-left" />
@@ -100,6 +103,7 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - 2026-10-28 - Recorded v0.11.0 and v0.11.1 (both 2026-10-27: script, check-and-fix, and research task kinds with structured handoffs, sealed read-only tasks in throwaway worktrees, Guarded as the new-install autonomy default where a blank settings file used to mean Full, per-session run settings, API-planner context compaction, then a listing-text-only patch) and refreshed counts (46 open issues and pull requests, about 8,600 npm downloads over the trailing month to 2026-10-28).
 - 2026-10-31 - Recorded v0.11.2 and v0.11.3 (both 2026-10-29: the /resume session-browser alias, the planners-and-runners credentials guide, per-workspace Claude Code model pickers from its own settings, then repository configuration introduced mid-run held for consent before a later task launches and a repository MCP server named ordewell blocked from shadowing the completion route) and refreshed counts (21 forks, 48 open issues and pull requests, pushed 2026-10-30, about 9,000 npm downloads over the trailing month to 2026-10-31).
 - 2026-11-01 - Recorded v0.12.0 (2026-10-31: the /inbox of everything waiting on you with an optional per-item notify command, /revert taking one task's landed merges off every repository, the composer activity line, taskRunnerConfig's minimal Claude Code tool set, failed tasks staying failed after reload, and supervisor wakes batched on a five-second window capped at four minutes) and refreshed counts (44 open issues and pull requests, pushed 2026-11-01).
+- 2026-11-07 - Recorded the v0.12.4 through v0.13.0 train (2026-11-04 to 2026-11-06: Windows support across login, VS Code, worktree removal, and the native-Windows TUI with the Codex planner's shell disabled there, Cursor as a fourth runner over ACP with read-only tasks in a private directory, and the desktop app announced source-only with the chat-centre layout) and refreshed counts (20 forks, 39 open issues and pull requests, pushed 2026-11-07, about 9,800 npm downloads over the trailing month to 2026-11-07).
 
 ## See also
 
@@ -112,8 +116,8 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 ## References
 
 - https://github.com/ordewell/ordewell - README: plan artifact, runners, marker verification, plugin manifests
-- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-11-01
-- https://api.github.com/repos/ordewell/ordewell/releases - v0.12.0 (2026-10-31, the waiting-on-you inbox, task revert, and notify command) and v0.11.3 (2026-10-29, repository configuration held for consent and the shadowing-server guard), with the v0.11.x and v0.10.x notes before them
+- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-11-07
+- https://api.github.com/repos/ordewell/ordewell/releases - v0.13.0 (2026-11-06, the source-only desktop app announcement and the chat-centre layout), v0.12.6 (2026-11-05, Cursor as a fourth runner), and v0.12.4 and v0.12.5 (2026-11-04, the Windows line), with the v0.12.0 and v0.11.x notes before them
 - https://github.com/ordewell/ordewell/blob/main/CHANGELOG.md - the v0.7.0 entry: `task_complete` and `checkpoint` tools, tool-based planning, the marker fallback scope
 - https://raw.githubusercontent.com/ordewell/ordewell/main/CHANGELOG.md - the v0.8.0, v0.8.1, v0.9.0, and v0.9.1 entries: the removals, unified skills, the escape closures, the one-envelope planner research, and the repository-config security release
 - https://ordewell.ai - the product site: surfaces, the plan-execute-verify loop, marker wording
@@ -121,4 +125,4 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0002-planner-as-conversation-loop.md - the conversation-loop decision and the session wipe
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0008-planner-exploration-envelope.md - the auto/ask/refuse tiers and path confinement
 - https://news.ycombinator.com/item?id=49712276 - the launch thread: the AI-written exchange, the absorption objection, 56 points and 30 comments
-- https://api.npmjs.org/downloads/point/2026-10-02:2026-11-01/@ordewell/cli - 4,662 downloads and the unscoped package 4,334 over the trailing month to 2026-11-01
+- https://api.npmjs.org/downloads/point/2026-10-08:2026-11-07/@ordewell/cli - 5,106 downloads and the unscoped package 4,671 over the trailing month to 2026-11-07

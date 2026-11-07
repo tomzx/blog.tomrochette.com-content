@@ -1,7 +1,7 @@
 ---
 title: AI-DLC
 created: 2026-10-06
-updated: 2026-10-31
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, sdlc, multi-agent, workflow, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Amazon's own docs position it as the successor to retrofitting AI onto human pro
 ## Status
 
 Large and fast-moving for an eleven-month-old methodology repo.
-As of 2026-10-14: 5,173 stars and 939 forks, created 2025-11-13; as of 2026-10-31, pushed 2026-10-31 with 271 open issues, stable release v2.11.2 (2026-10-28, breaking for scripts: replies read back in your own words at every question, plan switches, skips, undos, and jumps that carry on from where you are, multi-repository workspaces reaching Reverse Engineering, side-by-side builds that start from and land on your own branch) with the 2.11.3-preview line still landing daily, MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
+As of 2026-10-14: 5,173 stars and 939 forks, created 2025-11-13; as of 2026-11-07, pushed 2026-11-07 with 271 open issues, stable release v2.11.3 (2026-11-04, a native `aidlc` binary built with Bun 1.4.4 that fixes CVE-2026-111497 in the bundled Brotli decoder, team Units working end to end from a teammate's clone or the lead's checkout through publish, pin, one merge question, and landing, and replies that keep their quote marks, `$`, and backticks in the record) with the 2.11.4-preview line landing daily, MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ Not for solo work, and not for anyone who wants a process layer with no vendor's
 - 2026-10-11 - Corrected the repo age (created 2025-11-13, eleven months old, not eighteen) and refreshed counts.
 - 2026-10-21 - Recorded the stable v2.11.1 release (2026-10-20, the worktree and nested-checkout approval fix, the plugin marketplace model, breaking for plugin scripts) and refreshed the status date.
 - 2026-10-31 - Rotation re-verification of every cited source (all alive): recorded the stable v2.11.2 release (2026-10-28, breaking for scripts), the audit trail's growth to 131 events per the README, and the Hacker News footprint's largest thread (29 points, 22 comments, 2026-10-15).
+- 2026-11-07 - Recorded the stable v2.11.3 release (2026-11-04: the native aidlc binary rebuilt on Bun 1.4.4 fixing CVE-2026-111497, team Units end to end, and quote-preserving records) and refreshed the status date.
 
 ## See also
 
@@ -87,5 +88,5 @@ Not for solo work, and not for anyone who wants a process layer with no vendor's
 - https://awslabs.github.io/aidlc-workflows/ - the documentation site: guides, stage reference, agent deep dives
 - https://aws.amazon.com/blogs/devops/ai-driven-development-life-cycle/ - the methodology announcement by Raja SP, July 31, 2025
 - https://wakamoleguy.com/p/ai-dlc-solves-wrong-bottleneck - the critical essay on where the bottleneck actually sits, fetched 2026-10-06
-- https://api.github.com/repos/awslabs/aidlc-workflows/releases - the release train: stable v2.11.2 (2026-10-28) with the preview line continuing past it, fetched 2026-10-31
+- https://api.github.com/repos/awslabs/aidlc-workflows/releases - the release train: stable v2.11.3 (2026-11-04) with the preview line continuing past it, fetched 2026-11-07
 - https://hn.algolia.com/api/v1/search?query=AI-DLC&tags=story - the thin HN footprint, largest thread 29 points and 22 comments (2026-10-15)

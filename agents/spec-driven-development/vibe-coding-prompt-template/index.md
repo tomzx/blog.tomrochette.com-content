@@ -1,7 +1,7 @@
 ---
 title: Vibe Coding Prompt Template
 created: 2026-10-07
-updated: 2026-10-26
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, prompts, workflow, open-source]
 readability: 3
@@ -32,7 +32,7 @@ As of 2026-10-14: 3,139 stars and 386 forks since creation on 2025-04-14, pushed
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=KhazP/vibe-coding-prompt-template&type=date&legend=top-left" />
 </picture>
 
-**Its Hacker News footprint is two tiny threads (6 points in April 2025, 2 points in January 2026), so the 3.1k stars accumulated without any front-page moment, and the npm CLI it grew into records only 165 downloads last month (the 2026-09-17 to 2026-10-16 window, re-read 2026-10-18), which says almost everyone uses the raw prompts.**
+**Its Hacker News footprint is two tiny threads (6 points in April 2025, 2 points in January 2026), so the 3.1k stars accumulated without any front-page moment, and the npm CLI it grew into records only 141 downloads last month (the 2026-10-08 to 2026-11-06 window, re-read 2026-11-07), which says almost everyone uses the raw prompts.**
 It entered this category's scan as a Specification Tools entry on the Engineering4AI awesome list.
 
 ## Strengths
@@ -72,6 +72,7 @@ The disagreeable claim I will defend: four markdown files out-starring several e
 - 2026-10-09 - Refreshed counts (npm CLI downloads down to 230 last month); the everyone-uses-the-raw-prompts conclusion stands.
 - 2026-10-18 - Rotation re-verification of every cited source: corrected the author attribution (Alp Yalay, the KhazP account), recorded the optional bundled workflow skills beside the CLI, and refreshed the npm figure (165 last month).
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
+- 2026-11-07 - Rotation re-verification of every cited source (all alive: the README, the PRD prompt's audience self-selection and Handoff Context, and both HN threads unchanged, the repository still quiet since 2026-10-04 with v3.1.0 the newest of eight releases); the npm CLI figure moved down to 141 downloads last month and the raw-prompts conclusion stands.
 
 ## See also
 
@@ -86,6 +87,6 @@ The disagreeable claim I will defend: four markdown files out-starring several e
 - https://raw.githubusercontent.com/KhazP/vibe-coding-prompt-template/main/README.md - the five-step workflow table, artifact paths, the Alp Yalay creator credit, the optional bundled skills, and the no-install framing
 - https://raw.githubusercontent.com/KhazP/vibe-coding-prompt-template/main/part2-prd-mvp.md - the PRD prompt: audience self-selection, Handoff Context, must-have boundaries
 - https://registry.npmjs.org/vibeworkflow - the CLI wrapper: v0.3.0, MIT, description
-- https://api.npmjs.org/downloads/point/last-month/vibeworkflow - 165 downloads last month, fetched 2026-10-18
-- https://hn.algolia.com/api/v1/search?query=vibe-coding-prompt-template&tags=story - the thin HN footprint, re-checked 2026-10-18
+- https://api.npmjs.org/downloads/point/last-month/vibeworkflow - 141 downloads last month (2026-10-08 to 2026-11-06 window), fetched 2026-11-07
+- https://hn.algolia.com/api/v1/search?query=vibe-coding-prompt-template&tags=story - the thin HN footprint, re-checked 2026-11-07
 - https://github.com/Engineering4AI/awesome-spec-driven-development - the curated source that surfaced the candidate

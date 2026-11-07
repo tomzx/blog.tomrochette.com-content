@@ -1,7 +1,7 @@
 ---
 title: Anthropic Agent Skills
 created: 2026-08-24
-updated: 2026-10-31
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, skills, anthropic, agent-extensions]
 readability: 3
@@ -19,13 +19,13 @@ Agent Skills is Anthropic's format for packaging reusable agent capabilities: a 
 A skill's frontmatter requires only `name` and `description`; the body holds instructions, and the folder can bundle scripts, references, and assets.
 Loading follows progressive disclosure: metadata (about 100 tokens per skill) sits in the system prompt, the body loads when the model decides the skill is relevant, and bundled files load only when referenced.
 **The same folder works across claude.ai paid plans, Claude Code (personal, project, enterprise, and plugin locations), and the API.**
-The `anthropics/skills` repository ships the spec, a template, and example skills, mostly Apache 2.0, though the production document skills (docx, pdf, pptx, xlsx) are source-available rather than open source.
+The `anthropics/skills` repository ships the spec, a template, and example skills under Apache 2.0, and since 2026-11-06 the production document skills (docx, pdf, pptx, xlsx) are Apache-2.0 too, their per-skill LICENSE.txt files moved in the repo's latest commit.
 
 ## Status
 
 **Active and expanding.**
 Launched 2025-10-16; on 2025-12-18 Anthropic published the format as the open Agent Skills standard (agentskills.io), added organization-wide skill management, and opened a partner directory.
-The example repository shows 180.9k stars and 21.4k forks as of 2026-10-16 but only 61 commits as of 2026-10-31 (the 10-28 push updated the mcp-builder skill to SDK v2, the second skill-content commit after the 10-09 claude-api update), which tells me it is a distribution artifact, not where the product is built.
+The example repository shows 180.9k stars and 21.4k forks as of 2026-10-16 but only 62 commits as of 2026-11-07 (the newest, 2026-11-06, moved the document skills to Apache 2.0, the third content commit after the 10-09 claude-api and 10-28 mcp-builder updates), which tells me it is a distribution artifact, not where the product is built.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/skills&type=date&theme=dark&legend=top-left" />
@@ -48,13 +48,13 @@ Claude Code iterates fast on top: custom commands were merged into skills, and s
 - The spec allows six frontmatter fields while Claude Code accepts roughly twenty (`context: fork`, `disable-model-invocation`, `hooks`, `model`, `paths`), so skills using them silently degrade outside Claude Code.
 - claude.ai upload and the Skills API hard-reject non-spec frontmatter, so a SKILL.md cannot carry Claude Code extensions onto those surfaces.
 - API skills require the code execution tool and run in Anthropic's container, up to 20 skills per request, which couples the format to Anthropic's runtime.
-- The document skills in the public repo are source-available, not open source.
+- The repository ships no root license file, so GitHub detects no license there; the Apache-2.0 grant lives in the README and the per-skill LICENSE.txt files.
 
 ## Pricing
 
 The format is free; skills are content that ships with it.
 **On subscriptions (Pro, Max, Team, Enterprise) skills are included; on the API you pay per token plus code execution.**
-The example repo is Apache 2.0 except the source-available document skills.
+The example repo is Apache 2.0, document skills included as of 2026-11-06.
 
 ## Compared to
 
@@ -75,6 +75,7 @@ The claim I will defend: for most teams skills matter more than plugins or MCP s
 - 2026-10-20 - Rotation re-verification: every cited URL re-fetched live (the example repository via the GitHub API), all claims held; the repo state re-verified unchanged (last push still 2026-10-09, the claude-api skill update already recorded here).
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched live (the launch blog, the engineering post, the Claude Code skills docs with the `context: fork` extensions still documented, the Skills API guide with its code-execution and container framing, and agentskills.io), and the repo state re-verified unchanged (still pushed 2026-10-09, so the 60-commit distribution-artifact reading stands); no figures moved.
 - 2026-10-31 - Volatile refresh: the distribution-artifact reading held through the repo's 2026-10-28 push, which updated the mcp-builder skill to SDK v2 (commit 61, the second skill-content commit since the 10-09 claude-api update).
+- 2026-11-07 - The license split resolved: commit 62 (2026-11-06, PR #2146) moved the document skills (docx, pdf, pptx, xlsx) to Apache-2.0 LICENSE.txt files and the README now calls them open source, so the source-available caution was replaced with the missing-root-license-file observation and the What-it-is and Pricing lines updated.
 
 ## See also
 
@@ -87,6 +88,6 @@ The claim I will defend: for most teams skills matter more than plugins or MCP s
 - https://claude.com/blog/skills - launch announcement (2025-10-16) and the 2025-12-18 open-standard update
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - progressive disclosure architecture, code execution, security guidance
 - https://code.claude.com/docs/en/skills - Claude Code surfaces: locations, bundled skills, spec versus extension frontmatter
-- https://github.com/anthropics/skills - example repo scale and license split, 180,927 stars as of 2026-10-13 (re-fetched 2026-10-31, last push 2026-10-28, the mcp-builder skill update)
+- https://github.com/anthropics/skills - example repo scale and license split, 180,927 stars as of 2026-10-13 (re-fetched 2026-11-07, last push 2026-11-06, the document skills moved to Apache 2.0)
 - https://docs.claude.com/en/api/skills-guide - Skills API: container parameter, 20 skills per request, code execution requirement
 - https://agentskills.io/ - the extracted open standard and its client showcase

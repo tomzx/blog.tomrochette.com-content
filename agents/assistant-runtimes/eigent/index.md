@@ -1,7 +1,7 @@
 ---
 title: Eigent
 created: 2026-08-30
-updated: 2026-11-04
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, multi-agent, open-source]
 readability: 3
@@ -24,7 +24,7 @@ By Eigent AI (EIGENT UK LTD), founded by Guohao Li, who also founded CAMEL-AI; f
 
 ## Status
 
-Active and maturing: 15,523 stars and 1,855 forks as of 2026-10-14, created 2025-07-29, 260 open issues with the last push on 2026-11-03 as of 2026-11-04, v1.0.7 (2026-10-30) the latest release.
+Active and maturing: 15,523 stars and 1,855 forks as of 2026-10-14, created 2025-07-29, 263 open issues with the last push on 2026-11-05 as of 2026-11-07, v1.0.7 (2026-10-30) the latest release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eigent-ai/eigent&type=date&theme=dark&legend=top-left" />
@@ -86,6 +86,7 @@ Not for buyers who need vendor accountability history, and not for the quick-sta
 - 2026-10-21 - Rotation re-verification: every cited URL re-fetched live (repo and README, the pricing page, the about page, the launch thread, both Claude Cowork pages), v1.0.6 confirmed still the latest release, the tiers (Free BYOK, Plus $19.99, Pro $99.99, Teams coming soon, Enterprise custom) and annual options unchanged, and the GAIA-correction thread and the Claude-just-Claude comparison baseline intact.
 - 2026-10-25 - Recorded the pricing page's notice that free registration credits are temporarily paused for new accounts during a misuse cleanup (Price history row), with the paid tiers confirmed unchanged in the page source and refreshed adoption numbers.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live (repo and README, the pricing page, the about page, the launch thread, both Claude Cowork pages), recorded v1.0.7 (2026-10-30) as the latest release, and the free-credits-paused notice, the tiers, the GAIA-correction thread, and the Claude-just-Claude comparison baseline all intact.
+- 2026-11-07 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, the pricing page, the about page, the launch thread via Algolia, both Claude Cowork pages), v1.0.7 (2026-10-30) confirmed still the latest release, the tiers (Free BYOK, Plus $19.99, Pro $99.99, Teams coming soon, Enterprise custom), the annual options (the Monthly/Yearly toggle still marked 2 months free), and the free-credits-paused notice all unchanged, with refreshed adoption numbers.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Mole
 created: 2026-10-12
-updated: 2026-11-05
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deep-research, budget-enforcement, open-source]
 readability: 3
@@ -23,7 +23,7 @@ The privacy boundary covers local data too: point it at a CSV or a folder and th
 
 ## Status
 
-Active and young: 314 stars, 20 forks, created 2026-08-01, last pushed 2026-11-01 (a test-hygiene PR keeping the doctor sandbox probe out of the socket tests' runtime directory, on top of the six-PR unreleased batch merged October 31: the planner now traces its headline figure to its origin and stops on evidence rather than claim count, the miner extracts corrections and caveats outside the per-source claim cap, every call is bounded by the session deadline and a deadline-cut lead no longer reads as a failure, the run fails fast when the model or search provider refuses the account, leads search with short keyword queries, and verifier concurrency became tunable, on top of the earlier verifier work judging contradictions from the quote with same-quantity-first ordering and treating competing estimates of one quantity as contradictions), releases v0.1.0 (2026-08-13), v0.2.0 (2026-10-10), and v0.2.1 (2026-10-13) still the latest, as of 2026-11-05.
+Active and young: 314 stars, 20 forks, created 2026-08-01, last pushed 2026-11-06 (an unreleased report-corrections batch: the report now leads with the correction of the headline figure and a new rule forbids ratios, multiples, and orders of magnitude no finding states, a figure inside the other claim's range is downgraded from contradiction to neither, follow-ups order by their share of the question's subject terms, and `mole report <session> --save` stores a rewritten report on the session), on top of the November 1 doctor test-hygiene PR and the six-PR unreleased batch merged October 31 (the planner now traces its headline figure to its origin and stops on evidence rather than claim count, the miner extracts corrections and caveats outside the per-source claim cap, every call is bounded by the session deadline and a deadline-cut lead no longer reads as a failure, the run fails fast when the model or search provider refuses the account, leads search with short keyword queries, and verifier concurrency became tunable, on top of the earlier verifier work judging contradictions from the quote with same-quantity-first ordering and treating competing estimates of one quantity as contradictions), releases v0.1.0 (2026-08-13), v0.2.0 (2026-10-10), and v0.2.1 (2026-10-13) still the latest, as of 2026-11-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lajosdeme/mole&type=date&theme=dark&legend=top-left" />
@@ -81,8 +81,9 @@ Not for anyone needing a mature, independently evaluated tool: the project is on
 
 ## References
 
-- https://github.com/lajosdeme/mole - repository, Apache-2.0, 314 stars as of 2026-10-15, last push 2026-10-28 (push and release train re-checked via the API 2026-10-29)
+- https://github.com/lajosdeme/mole - repository, Apache-2.0, 314 stars as of 2026-10-15, last push 2026-11-06 (push and release train re-checked via the API 2026-11-07)
 - https://raw.githubusercontent.com/lajosdeme/mole/main/README.md - the loop, the reserve-settle ledger, the verbatim-quote gate, the privacy boundary, and the numbers table with its own failure rates (fetched 200, 2026-10-15)
 - https://news.ycombinator.com/item?id=49303046 - the 100-point, 14-comment launch thread with the rename calls and the budget-enforcement question (fetched via the Algolia API, 2026-10-12)
-- https://api.github.com/repos/lajosdeme/mole/releases - the release train through v0.2.1 (2026-10-13), whose note discloses the ledger pricing fix (fetched 200, 2026-10-29)
+- https://api.github.com/repos/lajosdeme/mole/releases - the release train through v0.2.1 (2026-10-13), still the latest, whose note discloses the ledger pricing fix (fetched 200, 2026-11-07)
+- https://api.github.com/repos/lajosdeme/mole/commits?since=2026-11-01T00:00:00Z&per_page=20 - the November 6 report-corrections batch behind this refresh: correction-first report openings with no derived arithmetic, range-aware contradiction downgrades, question-relevant follow-up ordering, and the report --save rewrite command (fetched 200, 2026-11-07)
 - https://github.com/lajosdeme/mole/commit/00b9f4e - the phase-review commit recording that the toolkit budget originally bounded nothing (fetched 200 via the API, 2026-10-12)

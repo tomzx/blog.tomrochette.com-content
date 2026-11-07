@@ -1,7 +1,7 @@
 ---
 title: Snyk Agent Scan
 created: 2026-10-20
-updated: 2026-10-31
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, security, supply-chain]
 readability: 3
@@ -24,7 +24,7 @@ Snyk also ships it as the experimental `snyk agent-scan` command inside the main
 
 ## Status
 
-Active and vendor-backed: 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24), 778 commits on a repository created 2025-04-07, latest release v0.6.10 (2026-10-30, which ships the managed-mode hooks fixes and the certifi bump that had landed post-v0.6.9), with the default branch pushed 2026-10-28 (the release preparation).
+Active and vendor-backed: 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24), 802 commits on a repository created 2025-04-07, latest release v0.6.11 (2026-11-06, on PyPI the same day; its GitHub body is empty, the content reading from the surrounding commits: discovery of Antigravity's current skill paths, supported-platform docs for the standalone binaries, hook-script version stamping at release time instead of install time, and removal of no-op agentic-fix parameters), with the default branch pushed 2026-11-06.
 Skills scanning arrived with v0.4, published together with a technical report on the agent skill ecosystem: of 3,984 skills analyzed from the clawhub.ai hub, 13.4% carried at least one critical-level issue and 36.8% at least one other-severity issue, while 9% of the top legitimate skills.sh skills showed exploitable patterns such as insecure credential handling or third-party content processing.
 Snyk Labs runs a companion Skill Inspector web experiment for scanning a single skill.
 
@@ -55,13 +55,15 @@ The third-party footprint is thin against the vendor name: my searches found thr
 
 Free and open source under Apache-2.0; the CLI requires a Snyk account token, and Snyk's Free plan is $0 per month.
 Snyk Team starts at $25 per month.
-The enterprise Evo platform (background fleet scanning, MDM mode) is not available on Free or Team and requires an enterprise platform subscription, as of 2026-10-20.
+The enterprise Evo platform (background fleet scanning, MDM mode) is not available on Free or Team and requires an enterprise platform subscription, figures as of 2026-10-20.
+The pricing page was redesigned by 2026-11-07 and now leads with a credit-based enterprise platform (1 credit = $1, a per-capability rate card including Evo AI-SPM at 0.66 credits per active contributor per day) with the small-team flat rates behind a client-side pane, so the Free and Team figures above are no longer verifiable in a static fetch.
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-10-20 | Free, Team, Evo | First recorded: CLI free with a Snyk account (Free $0 per month), Team from $25 per month, Evo enterprise-only | https://snyk.io/pricing/ |
+| 2026-11-07 | Enterprise/Evo | Pricing page redesigned to a credit-based platform model (1 credit = $1; Evo AI-SPM 0.66 credits per active contributor per day); the Free and Team flat-rate figures no longer render in a static fetch | https://snyk.io/pricing/ |
 
 ## Compared to
 
@@ -83,6 +85,7 @@ My disagreeable claim: the audit direction is the more valuable half of this mar
 - 2026-10-24 - Volatile refresh: post-release pushes moved the default branch to 2026-10-22 (managed-mode hooks installation fixes and a certifi bump); v0.6.9 still the newest release.
 - 2026-10-26 - Fixed the star-history chart markup carried since creation: the light-theme source had held the dark theme parameter, so the light fallback now requests the unthemed chart like every other note in the category.
 - 2026-10-31 - The release train moved to v0.6.10 (published 2026-10-30, on PyPI the same day), which formalizes the managed-mode hooks fixes (skipping non-installed agents in managed mode) and the certifi vulnerability bump that had landed as post-v0.6.9 pushes; the Status release line moved to it.
+- 2026-11-07 - The release train moved to v0.6.11 (published 2026-11-06, on PyPI the same day, with an empty GitHub body and the content read from the surrounding commits: Antigravity current-skill-path discovery, standalone-binary platform docs, hook-script version stamping at release time, and no-op agentic-fix parameter removal); the default branch pushed 2026-11-06, and Snyk's pricing page redesign moved the pricing section and price history to the credit-based enterprise model (figures no longer verifiable in a static fetch).
 
 ## See also
 
@@ -96,11 +99,11 @@ My disagreeable claim: the audit direction is the more valuable half of this mar
 
 - https://github.com/snyk/agent-scan - repository, Apache-2.0, 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24), created 2025-04-07, pushed 2026-10-22 on the default branch (GitHub API)
 - https://raw.githubusercontent.com/snyk/agent-scan/main/README.md - discovery matrix (14 agents, four scopes including the extension/plugin scope VS Code gained in v0.6.9), the two modes, the MCP consent flow and sandbox warning, and the API-sharing disclosure (fetched 2026-10-22)
-- https://pypi.org/pypi/snyk-agent-scan/json - snyk-agent-scan 0.6.10, Python 3.10+, Apache-2.0 (fetched 2026-10-31)
-- https://api.github.com/repos/snyk/agent-scan/releases/latest - v0.6.10 published 2026-10-30 (the managed-mode hooks fixes and the certifi bump, previously post-release pushes, formalized as a release), the newest release as of 2026-10-31 (fetched 2026-10-31)
+- https://pypi.org/pypi/snyk-agent-scan/json - snyk-agent-scan 0.6.11, Python 3.10+, Apache-2.0 (fetched 2026-11-07)
+- https://api.github.com/repos/snyk/agent-scan/releases/latest - v0.6.11 published 2026-11-06 (empty body; the surrounding commits name Antigravity current-skill-path discovery, standalone-binary platform docs, hook-script version stamping at release time, and no-op agentic-fix parameter removal), the newest release as of 2026-11-07 (fetched 2026-11-07)
 - https://raw.githubusercontent.com/snyk/agent-scan/main/.github/reports/skills-report.pdf - the skills-ecosystem threat report: 3,984 clawhub.ai skills, 13.4% with a critical issue, 36.8% with another-severity issues, the false-positive profile, and the clawhub/skills.sh comparison (fetched 2026-10-20)
 - https://labs.snyk.io/experiments/skill-scan/ - the Snyk Labs Skill Inspector companion experiment (fetched 2026-10-20)
 - https://docs.snyk.io/agent-security - the agent-security documentation home (fetched 2026-10-20)
 - https://updates.snyk.io/announcing-snyk-cli-v1-1308-0/ - the experimental `snyk agent-scan` command in Snyk CLI v1.1308.0, moved to risk-indicator output (fetched 2026-10-20)
-- https://snyk.io/pricing/ - Free $0, Team from $25 per month, Evo enterprise-only (fetched 2026-10-20)
+- https://snyk.io/pricing/ - the pricing page: Free $0, Team from $25 per month, Evo enterprise-only as of 2026-10-20; redesigned by 2026-11-07 to the credit-based enterprise model (1 credit = $1, Evo AI-SPM 0.66 credits per active contributor per day) with the flat-rate pane behind client-side rendering (re-fetched 2026-11-07)
 - https://hn.algolia.com/api/v1/search?query=agent-scan%20snyk&tags=story - the thin-footprint scan: three threads at 2, 7, and 2 points (fetched 2026-10-20)

@@ -1,7 +1,7 @@
 ---
 title: CCPM
 created: 2026-10-23
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, github-issues, worktrees, multi-agent, spec-driven, open-source]
 readability: 3
@@ -23,7 +23,8 @@ It came out of Automaze, Ran Aroussi's CTO-as-a-service consultancy, as the open
 ## Status
 
 Active and used in the vendor's own practice, mid-scale for this category.
-As of 2026-11-01: 8,414 stars (as of 2026-10-23), 843 forks, 6 open issues, created 2025-08-18, pushed 2026-10-19, MIT-licensed, with no tagged releases, development moving on branches (main, v1, rc).
+As of 2026-11-07: 8,414 stars (as of 2026-10-23), 843 forks, 6 open issues, created 2025-08-18, pushed 2026-11-04, MIT-licensed, with no tagged releases, development moving on branches (main, v1, rc).
+The 2026-11-04 push ended the quiet stretch that ran from 2026-10-19: a fix syncing issue bodies, dependency checks, task globs, and validate exit codes (#1031), beside README updates adding a Neon database guide.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=automazeio/ccpm&type=date&theme=dark&legend=top-left" />
@@ -80,6 +81,7 @@ My disagreeable claim: GitHub Issues is the most underrated agent task store in 
 - 2026-10-23 - Created from the coordinator handoff after the cross-category scan left automazeio/ccpm unmatched, recording the GitHub-Issues-as-board design, the worktree parallel execution, and the v1-to-skill rewrite.
 - 2026-10-28 - Rotation re-verification with every cited URL re-fetched live (repository, API, README, SKILL.md, the launch thread and its comment tree, the BigGo critical piece, automaze.io): all claims confirmed, still no tagged releases and no push since 2026-10-19, and the consulting prose corrected to the site's current tiers (CTO-as-a-Service from $5K per month, the One-Stop Shop plan from $8K per month).
 - 2026-11-01 - Rotation re-verification with every cited URL re-fetched live (repository, API, README, SKILL.md, the launch thread and its comment tree, the September subagent comment, the BigGo critical piece, automaze.io): nothing material changed, with no tagged releases and no push since 2026-10-19, and the fork count refreshed to 843.
+- 2026-11-07 - Recorded the activity resumption on main (2026-11-04: the #1031 fix syncing issue bodies, dependency checks, task globs, and validate exit codes, beside README updates adding a Neon database guide), still with no tagged releases.
 
 ## See also
 
@@ -91,10 +93,10 @@ My disagreeable claim: GitHub Issues is the most underrated agent task store in 
 
 ## References
 
-- https://github.com/automazeio/ccpm - repository, MIT license, stars baseline, and push activity as of 2026-11-01
+- https://github.com/automazeio/ccpm - repository, MIT license, stars baseline, and push activity as of 2026-11-07
 - https://raw.githubusercontent.com/automazeio/ccpm/main/README.md - the workflow, parallel streams, proven-results claims, and the agent-skill rewrite
 - https://raw.githubusercontent.com/automazeio/ccpm/main/skill/ccpm/SKILL.md - the skill entry point: the five phases, the script-first rule, and the harness list
-- https://api.github.com/repos/automazeio/ccpm - stars, forks, dates, and license as of 2026-11-01
+- https://api.github.com/repos/automazeio/ccpm - stars, forks, dates, and license as of 2026-11-07
 - https://news.ycombinator.com/item?id=44960594 - the 175-point, 112-comment Show HN launch thread (2025-08-20)
 - https://hn.algolia.com/api/v1/items/44960594 - the launch thread's comment tree, the supervision and review skepticism
 - https://finance.biggo.com/news/202508201915_Claude_Code_PM_Parallel_AI_Development_Questioned - the critical read of the parallel-execution claims

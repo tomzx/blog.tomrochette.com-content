@@ -1,7 +1,7 @@
 ---
 title: MCP Probe Kit
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, mcp, workflow, open-source]
 readability: 3
@@ -23,8 +23,8 @@ State is local: delegated plans persist progress through `plan_heartbeat` and re
 
 ## Status
 
-Active and shipping, thinly adopted: 41 stars, 5 forks, created 2025-10-25, pushed 2026-11-01, as of 2026-11-01 (GitHub API), MIT, solo steward (mybolide).
-The npm package has 82 published versions in its first year, v4.1.1 (2026-10-13) the newest stable, and 859 downloads last month (the 2026-09-30 to 2026-10-29 window, re-read 2026-11-01).
+Active and shipping, thinly adopted: 41 stars, 5 forks, created 2025-10-25, pushed 2026-11-05, as of 2026-11-07 (GitHub API), MIT, solo steward (mybolide).
+The npm package has 82 published versions in its first year, v4.1.1 (2026-10-13) the newest stable, and 1,096 downloads last month (the 2026-10-08 to 2026-11-06 window, re-read 2026-11-07).
 The v4 line (2026-08 through 10) shipped native MCP Apps, resumable plans, evidence convergence, parent-child specs, and a managed GitNexus sidecar.
 
 <picture>
@@ -44,7 +44,7 @@ The v4 line (2026-08 through 10) shipped native MCP Apps, resumable plans, evide
 
 ## Cautions
 
-- Zero independent coverage and a solo steward: 41 stars and 859 npm downloads a month after a year is thin validation for a 29-tool surface.
+- Zero independent coverage and a solo steward: 41 stars and about 1,100 npm downloads a month after a year is thin validation for a 29-tool surface.
 - The breadth invites drift: workflow orchestration, memory, GitNexus sidecar management, UI utilities, and commit generation in one server, with 82 npm versions in a year signaling churn.
 - The memory layer's defaults need self-hosted infrastructure (Qdrant, an embedding endpoint), so the out-of-box experience is the no-memory subset.
 - Enforcement is still the agent choosing to call `converge`: a harness or prompt that skips tool calls bypasses the gate the same way a yolo-configured agent skips any convention.
@@ -80,7 +80,7 @@ Not for anyone who needs independent validation, a stable tool API, or a workflo
 - https://github.com/mybolide/mcp-probe-kit - repository: counts, dates, license (41 stars as of 2026-11-01)
 - https://raw.githubusercontent.com/mybolide/mcp-probe-kit/main/README.md - the tool surface, convergence gate, plan persistence, history session, and MCP Apps
 - https://registry.npmjs.org/mcp-probe-kit - the npm package: v4.1.1 latest, 82 versions, MIT, first published 2025-10-25
-- https://api.npmjs.org/downloads/point/last-month/mcp-probe-kit - 859 downloads last month (2026-09-30 to 2026-10-29 window), fetched 2026-11-01
-- https://api.github.com/repos/mybolide/mcp-probe-kit/releases - the release train through v4.1.1 (2026-10-13)
+- https://api.npmjs.org/downloads/point/last-month/mcp-probe-kit - 1,096 downloads last month (2026-10-08 to 2026-11-06 window), fetched 2026-11-07
+- https://api.github.com/repos/mybolide/mcp-probe-kit/releases - the release train through v4.1.1 (2026-10-13), fetched 2026-11-07
 - https://mcp-probe-kit.bytezonex.com/ - the project site: the v4 framing and the workbench surfaces
 - https://hn.algolia.com/api/v1/search?query=mcp-probe-kit&hitsPerPage=5 - the footprint check: zero hits, the missing-coverage signal

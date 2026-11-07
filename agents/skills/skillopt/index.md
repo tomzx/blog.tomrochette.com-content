@@ -1,7 +1,7 @@
 ---
 title: SkillOpt
 created: 2026-08-30
-updated: 2026-10-31
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, self-improving-agents, research, microsoft]
 readability: 3
@@ -24,7 +24,7 @@ MIT, from Microsoft Research Asia with university collaborators, Python 3.10+.
 
 ## Status
 
-Research code with unusually strong product trappings: 18.3k stars and 1.7k forks as of 2026-10-13, created 2026-05-08, with 62 open issues and pull requests as of 2026-10-31.
+Research code with unusually strong product trappings: 18.3k stars and 1.7k forks as of 2026-10-13, created 2026-05-08, with 73 open issues and pull requests as of 2026-11-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/SkillOpt&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Research code with unusually strong product trappings: 18.3k stars and 1.7k fork
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/SkillOpt&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-10-31, though main has run 380 commits past it (the 2026-10-29 pushes landed two security fixes: Sleep no longer imports or runs code from the project directory, and the web UI refuses to expose training controls without auth); the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
+Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-11-07, though main has run 391 commits past it (the 2026-10-29 pushes landed two security fixes: Sleep no longer imports or runs code from the project directory, and the web UI refuses to expose training controls without auth; the 2026-11-04 to 11-07 pushes added provenance tracking on proposed edits, protected-region overlap refusal, Sleep OAuth-replay and legacy-adoption guards, and SearchQA empty-answer handling); the repo's News section (added 2026-11-04) announces NeurIPS 2026 Spotlight acceptance for the paper and a first-place Executive Challenge win at the Microsoft Global Hackathon 2026, while the arXiv paper (2605.23904) itself remains the preprint and all headline results are the authors' own.
 
 ## Strengths
 
@@ -46,7 +46,7 @@ Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-10-31, t
 - The guarantee is only as good as the automatic scorer: open-ended or subjective tasks weaken the gate, which the authors acknowledge.
 - Optimization is not free; training reached hundreds of millions of tokens on academic benchmarks, with community-quoted costs of a few dollars per task plus the engineering cost of a verifier and a representative held-out split.
 - Single-document scope: it trains one skill file, not a skill library.
-- All results are self-reported on the authors' benchmarks; no independent replication was found as of 2026-09-18.
+- All results are self-reported on the authors' benchmarks; no independent replication was found as of 2026-09-18, and the NeurIPS Spotlight and hackathon recognitions are the repo's own announcements.
 
 ## Pricing
 
@@ -74,6 +74,7 @@ Not for subjective domains without reliable scoring, or anyone expecting trained
 - 2026-10-24 - Volatile refresh: the 2026-10-23 pushes landed three further fixes (Sleep harvest checkpoint keyed by project and transcript source, generated Codex replay sessions excluded from harvest, a dsh 0.2.x executor-bridge fix), moving main to 372 commits past v0.2.0 with 58 open issues and PRs; v0.2.0 still the newest release.
 - 2026-10-26 - Volatile refresh: the 2026-10-25 pushes landed six commits (an offline reproducibility checker for saved evaluation artifacts, keyless Parallel search for OfficeQA rollouts, Sleep fixes harvesting pasted briefs and capping re-run hook templates, plus test and import organization), moving main to 378 commits past v0.2.0 with open issues and PRs down to 52; v0.2.0 still the newest release.
 - 2026-10-31 - Volatile refresh: the 2026-10-29 pushes landed two security fixes (Sleep no longer imports or runs code from the project directory, the web UI refuses training controls without auth), moving main to 380 commits past v0.2.0 with open issues and PRs up to 62; v0.2.0 still the newest release.
+- 2026-11-07 - The repo's News section (added 2026-11-04) announces NeurIPS 2026 Spotlight acceptance and a first-place Executive Challenge win at the Microsoft Global Hackathon 2026, the first venue signal the note has recorded for the paper, whose arXiv page remains the preprint; volatile refresh alongside: main pushed 2026-11-07 with provenance tracking on proposed edits, protected-region overlap refusal, Sleep OAuth-replay and legacy-adoption guards, and SearchQA empty-answer handling, moving main to 391 commits past v0.2.0 with open issues and PRs up to 73; v0.2.0 still the newest release.
 
 ## See also
 
@@ -84,7 +85,7 @@ Not for subjective domains without reliable scoring, or anyone expecting trained
 
 ## References
 
-- https://github.com/microsoft/SkillOpt - repository, method, benchmarks, license
+- https://github.com/microsoft/SkillOpt - repository, method, benchmarks, license; News section announcing the NeurIPS 2026 Spotlight acceptance and the Microsoft Global Hackathon 2026 Executive Challenge first place (raw README fetched 2026-11-07); repo state 391 commits past v0.2.0, 73 open issues and PRs, pushed 2026-11-07 (GitHub API, as of 2026-11-07)
 - https://arxiv.org/abs/2605.23904 - the paper behind the method and results
 - https://microsoft.github.io/SkillOpt/ - project page, ablations, and transfer numbers
 - https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/ - the MSR blog on skills as trainable parameters

@@ -1,7 +1,7 @@
 ---
 title: SuperPlane
 created: 2026-10-07
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The core is Apache-2.0 with integrations across source control, CI, cloud, obser
 
 ## Status
 
-Active and the category's largest member: 7,709 stars as of 2026-10-14, 660 forks and 463 open issues as of 2026-10-21, pushed 2026-11-01, per the GitHub API.
+Active: 7,709 stars as of 2026-10-14, 692 forks and 213 open issues as of 2026-11-07, pushed 2026-11-06, per the GitHub API.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&theme=dark&legend=top-left" />
@@ -42,7 +42,7 @@ The repository now carries the software-factory topic and the website and docs s
 
 ## Cautions
 
-- **v1.0.0 is days old**: the first stable platform tag landed 2026-10-27 against daily main pushes, so the gap from v0.30.0 (2026-07-27) means tag-tracking self-hosters jump three months of main at once, and the stable train's own track record is one release; the component train holds at runner v0.2.1 and fleet-manager v0.1.7.
+- **v1.0.0 is eleven days old**: the first stable platform tag landed 2026-10-27 against daily main pushes, so the gap from v0.30.0 (2026-07-27) means tag-tracking self-hosters jump three months of main at once, and the stable train's own track record is one release; the component train holds at runner v0.2.1 and fleet-manager v0.1.7.
 - **Open-core split**: the /ee directory sits under a separate Enterprise Edition license, and GitHub cannot classify the result.
 - **Young platform surface**: 463 open issues and a January control-plane-to-factory pivot mean the docs story is still settling.
 - **It is broader than a factory**: workflow automation across observability and incidents puts it in workflow-platform territory too, which dilutes the factory comparison.
@@ -68,7 +68,7 @@ Beyond the included usage, managed machines bill per minute ($0.00012 to $0.01 b
 ## Bottom line
 
 **Recommended for teams that want backlog issues turned into review-ready pull requests under uniform guardrails, with the run history and cost of every step on record.**
-Not for local-first, single-repo loops, and not for anyone who needs a stable release with a track record: v1.0.0 shipped this week.
+Not for local-first, single-repo loops, and not for anyone who needs a stable release with a track record: v1.0.0 shipped on 2026-10-27.
 
 ## Changes
 

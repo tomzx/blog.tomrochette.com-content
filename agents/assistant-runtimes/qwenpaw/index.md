@@ -1,7 +1,7 @@
 ---
 title: QwenPaw
 created: 2026-08-30
-updated: 2026-11-04
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 
 ## Status
 
-Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02-24, 1,128 open issues and PRs with the last push on 2026-11-04 as of 2026-11-04.
+Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02-24, 1,113 open issues and PRs with the last push on 2026-11-06 as of 2026-11-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&theme=dark&legend=top-left" />

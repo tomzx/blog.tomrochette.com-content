@@ -1,7 +1,7 @@
 ---
 title: OpenResearch
 created: 2026-10-05
-updated: 2026-11-05
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, autoresearch, multi-agent, alphaXiv]
 readability: 3
@@ -24,7 +24,7 @@ The agent-facing surface is first-class: `orx install-skills` installs a skill i
 
 ## Status
 
-Active and fast-moving: 7,234 stars as of 2026-10-21, 507 forks, 109 open issues and pull requests, created 2026-06-07, last pushed 2026-11-05, with v0.2.24 (November 4) the latest stable release, and main's November 4-5 commits rewriting the experiment engine (#862), reworking how subagents work (#885), rebuilding the composer with an in-app remote-machine switcher and screen-reader navigation for long chats, preserving chat context across agent switches, and spawning every binary the way a terminal would, and a canary prerelease channel live, following v0.2.23's (October 31) 32-commit October 28-30 train (native skill discovery for every supported agent, openresearch:// deep links opening in the Windows and Linux apps, keyboard navigation and application menus, a shared Base UI dialog system, Claude subprocesses identifying as openresearch, oh-my-pi joining the preconfigured coding agents, and desktop polish from traffic-light alignment to a standard Windows folder picker), and v0.2.22 (October 28) and v0.2.21's October Trackio widening to Spaces, Hugging Face runs, and orx metrics and the configurable remote storage root, as of 2026-11-05.
+Active and fast-moving: 7,234 stars as of 2026-10-21, 507 forks, 109 open issues and pull requests, created 2026-06-07, last pushed 2026-11-07, with v0.2.25 (November 7) the latest stable release, its November 5-7 train sharing projects as `.orx` files and publishing them as openresearch.sh links, onboarding switching to sign-in with alphaXiv instead of a research profile, workspace-wide chat history search, `orx up --host 0.0.0.0` for a trusted LAN, rented boxes running under orx-host, and a run of Windows fixes (SSH logins kept across restarts, LF bytes preserved in source snapshots, hard-link fallbacks, SSH runs for normal users), with post-release fixes keeping chat image carousels mounted, creating the private runtime dir atomically, and embedding release hosts in the telemetry check, and a canary prerelease channel live, following v0.2.24's (November 4) engine rewrite (#862), subagent rework (#885), and composer rebuild, and v0.2.22 (October 28) and v0.2.21's October Trackio widening to Spaces, Hugging Face runs, and orx metrics and the configurable remote storage root, as of 2026-11-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alphaXiv/OpenResearch&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for anyone who needs a supported product, a security-reviewed remote deploym
 - 2026-10-23 - Refreshed the status: v0.2.21 (October 23) the latest release, its train widening the Trackio integration to Spaces, Hugging Face runs, and orx metrics and making the SSH and Slurm storage root configurable, with the fork and open-issue counts moved.
 - 2026-10-28 - Refreshed the status: v0.2.22 (October 28) the latest release, its train adding permanent experiment delete, shared SSH monitoring with backoff, stable and canary desktop update channels, openresearch:// paper deep links on macOS, and a CITATION.cff acknowledgment in orx-paper, with the fork and open-issue counts moved.
 - 2026-10-31 - Recorded the v0.2.23 release (October 31), its 32-commit train shipping native skill discovery for every supported agent, openresearch:// deep links on Windows and Linux, keyboard navigation and application menus, a shared Base UI dialog system, oh-my-pi among the preconfigured coding agents, and desktop polish, with the push and open-issue counts moved.
+- 2026-11-07 - Recorded the v0.2.25 release (November 7) and its November 5-7 train: project sharing as `.orx` files and openresearch.sh publish links, alphaXiv sign-in onboarding, workspace-wide chat history search, trusted-LAN `orx up`, orx-host rented boxes, and the Windows SSH and snapshot fixes, with the push date moved.
 
 ## See also
 
@@ -88,11 +89,11 @@ Not for anyone who needs a supported product, a security-reviewed remote deploym
 
 - https://github.com/alphaXiv/OpenResearch - README: harness support, the autoresearch loop, worktrees, experiment tree, run-anywhere list, telemetry policy, local-first store, and the remote no-auth admission (fetched 200, 2026-10-05)
 - https://api.github.com/repos/alphaXiv/OpenResearch - forks, open issues, created and push dates, and the MIT license, with the star figure left at its 2026-10-21 baseline (fetched 200, 2026-10-30)
-- https://api.github.com/repos/alphaXiv/OpenResearch/commits?since=2026-10-28T00:00:00Z&per_page=20 - the October 29-30 post-release commits behind this refresh: native skill discovery, Windows and Linux deep links, menus and keyboard navigation, the shared dialog system, and subprocess identification (fetched 200, 2026-10-30)
+- https://api.github.com/repos/alphaXiv/OpenResearch/commits?since=2026-11-05T00:00:00Z&per_page=30 - the November 5-7 commits behind this refresh: project sharing and publish links, alphaXiv sign-in, chat history search, the trusted-LAN host flag, orx-host boxes, and the Windows fixes (fetched 200, 2026-11-07)
+- https://api.github.com/repos/alphaXiv/OpenResearch/releases/latest - v0.2.25 (2026-11-07) the latest stable release, with the canary prerelease channel above it (fetched 200, 2026-11-07)
 - https://api.github.com/repos/alphaXiv/OpenResearch/compare/v0.2.21...v0.2.22 - the v0.2.22 commit train behind the release description: experiment delete, SSH-monitor sharing and backoff, desktop update channels, deep links, and skill-discovery fixes (fetched 200, 2026-10-28)
 - https://api.github.com/repos/alphaXiv/OpenResearch/compare/v0.2.22...v0.2.23 - the 32-commit v0.2.23 train behind this refresh: skill discovery, Windows and Linux deep links, menus, the dialog system, oh-my-pi, and desktop polish (fetched 200, 2026-10-31)
 - https://api.github.com/repos/alphaXiv/OpenResearch/releases?per_page=3 - v0.2.23 (2026-10-31) the latest stable release above v0.2.22, with the canary channel at canary-20261031.3 (fetched 200, 2026-10-31)
-- https://api.github.com/repos/alphaXiv/OpenResearch/releases/latest - v0.2.22 (2026-10-28) the latest stable release, with the canary prerelease channel above it (fetched 200, 2026-10-30)
 - https://openresearch.sh/ - positioning ("autoresearch on your machine"), the alphaXiv project attribution, and the compute marketplace (fetched 200, 2026-10-05)
 - https://openresearch.sh/docs - the compute marketplace overview: provider comparison, provisioning, and the orx CLI (fetched 200, 2026-10-05)
 - https://openresearch.sh/docs/billing - provider-rate pass-through with no markup, prepaid balances, and zero-balance termination (fetched 200, 2026-10-05)

@@ -1,7 +1,7 @@
 ---
 title: CORAL
 created: 2026-10-11
-updated: 2026-10-31
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, multi-agent, evolution, self-evolving, open-source]
 readability: 3

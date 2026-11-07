@@ -1,7 +1,7 @@
 ---
 title: Fusion
 created: 2026-10-11
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, kanban, multi-agent, worktrees, open-source]
 readability: 3
@@ -25,9 +25,9 @@ The dashboard is built on dustinbyrne/kb; the docs are in-repo and unusually com
 ## Status
 
 **Active and heavily pushed, but early preview, and the stable npm channel lags the repository.**
-1,270 stars, 162 forks, and 86 open issues and pull requests as of 2026-10-13, created 2026-04-13, pushed 2026-11-01 (GitHub API).
-The newest GitHub release and npm beta is v0.78.0-beta.9 (2026-10-23, the first beta in four weeks, its notes pinning every Pi runtime package to an exact version after an npm install breakage); npm `latest` is still 0.77.0 (2026-09-02), so the stable channel has run more than eight weeks behind a repository that pushes near-daily (as of 2026-11-01).
-The package drew 1,782 npm downloads in the trailing month ending 2026-11-01, and a Hacker News search still returns no story about it (2026-11-01).
+1,270 stars, 175 forks, and 106 open issues and pull requests as of 2026-11-07, created 2026-04-13, pushed 2026-11-01 (GitHub API).
+The newest GitHub release and npm beta is v0.78.0-beta.9 (2026-10-23, still the only beta since September 25, its notes pinning every Pi runtime package to an exact version after an npm install breakage); npm `latest` is still 0.77.0 (2026-09-02), so the stable channel has run more than nine weeks behind a repository that pushes near-daily (as of 2026-11-07).
+The package drew 1,843 npm downloads in the trailing month ending 2026-11-07, and a Hacker News search still returns no story about it (2026-11-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Runfusion/Fusion&type=date&theme=dark&legend=top-left" />
@@ -44,7 +44,7 @@ The package drew 1,782 npm downloads in the trailing month ending 2026-11-01, an
 
 ## Cautions
 
-- **Early preview means the guarantees are the demo's**: the site's "agents work 24/7", "run for weeks", and "1,500+ tool calls per human touch" claims are unaudited, and the stable npm channel has not shipped since September 2 while the marketing badge says shipping weekly.
+- **Early preview means the guarantees are the demo's**: the site's "1,500+ tool calls per human touch" and "run for weeks" claims are unaudited, and the stable npm channel has not shipped since September 2 while the marketing badge now says shipping daily.
 - The scope is enormous for a nine-month-old project (factories, missions, companies, glasses plugins, research views), and feature breadth at this cadence historically trades against durability.
 - The self-improvement claim is self-referential: agents rewrite their own AGENTS.md after each task, which is the input to their next run, so drift compounds unless someone reads the diffs.
 - The docs record an internal evidence gate for one feature slice, which is admirable discipline and also an admission that the roadmap outruns verified demand.
@@ -72,6 +72,7 @@ My disagreeable claim: auto-merge on green gates is where this category is going
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched (repository via the API, README and docs map, product site, releases, npm registry and trailing-month downloads, HN search) and all claims confirmed; downloads re-baselined down to 2,094 for the month ending 2026-10-22 and the stable channel's lag unchanged at more than seven weeks with npm `latest` still 0.77.0; no material change.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart's light source, which wrongly carried the dark-theme parameter.
+- 2026-11-07 - Rotation re-verification: every cited URL re-fetched (repository via the API, README and docs map, product site, releases, npm registry and trailing-month downloads, HN search) and all claims confirmed; forks and open-issue counts refreshed, the stable channel's lag moved to more than nine weeks with npm `latest` still 0.77.0, downloads re-baselined at 1,843 for the month ending 2026-11-07, and the product site's badge changed from shipping weekly to shipping daily; no other material change.
 
 ## See also
 
@@ -89,5 +90,5 @@ My disagreeable claim: auto-merge on green gates is where this category is going
 - https://runfusion.ai - the product site: board and Command Center tours, model lanes, mesh nodes, mobile apps, Paperclip compatibility, and the autonomy claims recorded as cautions
 - https://api.github.com/repos/Runfusion/Fusion/releases - v0.78.0-beta.9 (2026-10-23) newest release, the first beta since v0.78.0-beta.7 (2026-09-25)
 - https://registry.npmjs.org/@runfusion/fusion - dist-tags: latest 0.77.0 (2026-09-02), beta 0.78.0-beta.9
-- https://api.npmjs.org/downloads/point/last-month/@runfusion/fusion - 1,782 downloads in the trailing month ending 2026-11-01 (dated-range sum, 2026-10-02 through 2026-11-01)
-- https://hn.algolia.com/api/v1/search?query=runfusion&tags=story - the footprint scan finding no story (2026-11-01)
+- https://api.npmjs.org/downloads/point/last-month/@runfusion/fusion - 1,843 downloads in the trailing month ending 2026-11-07 (dated-range sum, 2026-10-08 through 2026-11-07)
+- https://hn.algolia.com/api/v1/search?query=runfusion&tags=story - the footprint scan finding no story (2026-11-07)

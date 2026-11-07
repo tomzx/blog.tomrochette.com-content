@@ -1,7 +1,7 @@
 ---
 title: Kapso
 created: 2026-10-11
-updated: 2026-11-05
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, optimization, program-synthesis, self-improving]
 readability: 3
@@ -18,14 +18,15 @@ Kapso is Leeroo's MIT-licensed framework of long-running agents that run optimiz
 
 A Python package (`pip install leeroo-kapso`, Python 3.10+, created 2025-12-07) by Leeroo, a YC X25 company.
 It runs its inference through coding-agent CLIs with no direct-API fallback: Claude Code for ideation and implementation, Codex for research and judging, with an optional OpenAI key only for embeddings.
-Four documented pillars, renamed in the v0.8.0 redesign: `.build()` runs a brief-driven campaign of candidates implemented on their own branches, measured, and kept or refined, `.learn()` mines a finished campaign into evidence-priced lesson cards, the `experience` subcommands and `.load_experience()` serve a build exactly what it loads (your bank, the hosted Leeroopedia gate, a shared team bank, or a corpus ingested from a repository or a researched question), and `.deploy()` turns a solution into running software on local, Docker, or Modal targets.
+Four documented pillars, renamed in the v0.8.0 redesign: `.build()` runs a brief-driven campaign of candidates implemented on their own branches, measured, and kept or refined, `.learn()` mines a finished campaign into evidence-priced lesson cards, the `experience` subcommands and `.load_experience()` serve a build exactly what it loads (your bank, the hosted Leeroopedia gate, a shared team bank, or a corpus ingested from a repository, a researched question, or since v0.9.0 a paper), and `.deploy()` turns a solution into running software on local, Docker, Modal, BentoCloud, or LangGraph Platform targets.
 Two harnesses ship with the redesign (predictive modelling and competitive programming), the examples carry a trading harness, and a Kapso plugin installs the setup, objective, harness, and review skills into Claude Code or Codex in one line.
 The technical report (arXiv 2601.21526, January 2026, by Alireza Nadafian, Alireza Mohammadshahi, and Majid Yazdani) describes a git-native experimentation engine where every attempt is a branch, a knowledge system over repositories and papers, and a cognitive memory layer distilling lessons from run logs, diffs, and evaluator feedback.
 Leeroopedia, the project's hosted ML knowledge wiki, connects as an MCP server during campaigns.
 
 ## Status
 
-Active and accelerating: 125 stars as of 2026-10-15, 18 forks, created 2025-12-07, last pushed 2026-11-04, with main's newest commits the November 3-4 external-contributor and fix batch (a bare `--resume` or `--stop` runs with the launch's config, a detached resume checks the harness against the campaign's `.env`, inbox replies name their campaign, and commit-message prompts receive the whole diff and solution summary), and the release train at v0.8.0 (November 1), a breaking redesign shipped as one change from an integration branch: the verbs renamed (`kapso evolve` became `kapso build --brief`, `kapso watch --tree` became `kapso trace`, `kapso deploy` takes `--target` instead of `--strategy`), new `harness`, `experience`, `report`, and `inbox` subcommands, the modes replaced by one packaged configuration with `--config` overrides, and the Python API rebuilt around `kapso.build()` returning a `Solution` carrying score, branch, diff, and explain, so pre-0.8 scripts and configs need remapping, as of 2026-11-05.
+Active and accelerating: 125 stars as of 2026-10-15, 18 forks, created 2025-12-07, last pushed 2026-11-06, with the release train at v0.9.0 (November 6, on PyPI the same day), the rebrand-and-polish release four days after v0.8.0's breaking redesign: the positioning reset to "an engine that runs experiments, deploys the best solution, and learns from every run" told in four parts (smart experimentation, learning loop, deployment, domain adaptation) across the README, docs, package metadata, and CLI help, new `kapso experience search` and `show` shell queries plus `experience add --paper` ingestion from an external contributor, a `notify:` config sending one JSON event when a build pauses for a person, hits budget, fails, or completes, `kapso deploy --branch` to deploy any attempt the trace shows, and the checkpoint schema bumped to version 7, so campaigns recorded by 0.8.0 cannot resume, with no migration by design while the project is pre-1.0; main's November 5-6 commits added README translations into ten languages and a housekeeping batch, as of 2026-11-07.
+The v0.8.0 redesign (November 1) renamed the verbs (`kapso evolve` became `kapso build --brief`, `kapso watch --tree` became `kapso trace`, `kapso deploy` takes `--target` instead of `--strategy`), added the `harness`, `experience`, `report`, and `inbox` subcommands, replaced the modes with one packaged configuration with `--config` overrides, and rebuilt the Python API around `kapso.build()` returning a `Solution` carrying score, branch, diff, and explain, so pre-0.8 scripts and configs need remapping.
 The v0.7.0 release added cost-aware candidate selection, an estimator prices each finalized candidate before it runs, refusals and measured costs are recorded as campaign events, and the campaign stops when the next estimate would exhaust its budget, plus a `vertex_claude_code` agent that drives Claude Code on Vertex AI open-weight models; the checkpoint schema moved to version 3, so campaigns started before 0.7.0 cannot resume. v0.7.7 (October 15) made a failed bank-connect leave the origin as it found it, and v0.7.8 (October 16) kept the session clone when a branch push is rejected instead of deleting the candidate's only copy of its work.
 v0.7.9 changed how repository memory updates: the model now returns a patch of the sections it changed or added, with an explicit `removed_sections` list, instead of rewriting the whole book from a truncated view, so large repositories stop losing sections; a patch that removes a core section or names an unknown one is rejected into the repair loop. v0.7.10 fixed `kapso inbox` listing a relaunched campaign twice.
 
@@ -35,7 +36,7 @@ v0.7.9 changed how repository memory updates: the model now returns a patch of t
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Leeroo-AI/kapso&type=date&legend=top-left" />
 </picture>
 
-The claimed results are concrete: #1 open-source on MLE-Bench, top ranking on ALE-Bench (1909 Elo against ALE Agent's 1879), RelBench wins over KumoRFM-v2 on Stanford's official leaderboard, and the IOAI 2026 AI Model Track, where the project reports a 536.07 total above all 471 human contestants and a Grand Master Trophy among the 14 founding AI participants, with IOAI's own account of the inaugural track published September 29, 2026.
+The claimed results are concrete: #1 open-source on MLE-Bench, top ranking on ALE-Bench (1909 Elo against ALE Agent's 1879), first place on all three official RelBench leaderboards (classification 81.2 AUROC, regression 0.2476 NMAE, recommendations 18.4 MAP), and the IOAI 2026 AI Model Track, where the project reports a 536.07 total above all 471 human contestants and a Grand Master Trophy among the 14 founding AI participants, with IOAI's own account of the inaugural track published September 29, 2026.
 **The community footprint is nearly absent: a Hacker News search for the project returns zero stories as of 2026-10-11, the 125 stars are small for the claims, and the PyPI package named `kapso` is an unrelated WhatsApp tool that shadows this one in installs, a collision the README itself warns about.**
 
 ## Strengths
@@ -77,6 +78,7 @@ Not for anyone needing independently audited headline numbers or a large user co
 - 2026-10-13 - Harmonized the star count (the status line and the footprint line disagreed, 122 versus 121) to 123 as of 2026-10-13, and identified the October 12 pushes as Leeroopedia documentation commits.
 - 2026-10-19 - Recorded the October 18 releases: v0.7.9's patch-based repository-memory update (sections stop disappearing on large repositories) and v0.7.10's kapso inbox dedup, with PyPI at 0.7.10.
 - 2026-11-05 - Recorded the v0.8.0 breaking redesign (verbs renamed, modes replaced by one configuration, Python API rebuilt around `kapso.build()`), rewrote the pillar descriptions to the renamed surfaces, noted the two shipped harnesses and the plugin install line, harmonized the cautions' star figure with the Status line, and recorded main's November 3-4 resume fixes.
+- 2026-11-07 - Recorded the v0.9.0 release (November 6): the four-part rebrand across every public surface, the experience search, show, and paper-ingest commands from an external contributor, the notify webhook, `deploy --branch`, and the checkpoint-schema-7 break that strands 0.8.0 campaigns; moved the deploy targets to Docker, Modal, BentoCloud, and LangGraph Platform; and updated the RelBench claim to first place on all three official leaderboards.
 
 ## See also
 
@@ -87,13 +89,13 @@ Not for anyone needing independently audited headline numbers or a large user co
 
 ## References
 
-- https://github.com/Leeroo-AI/kapso - repository, MIT license, benchmark claims, and release train (as of 2026-10-30)
+- https://github.com/Leeroo-AI/kapso - repository, MIT license, benchmark claims, and release train (as of 2026-11-06)
 - https://api.github.com/repos/Leeroo-AI/kapso/releases - the v0.7.7 (2026-10-15) through v0.7.10 (2026-10-18) release bodies behind the durability and memory-patch descriptions (fetched 200, 2026-10-29)
-- https://api.github.com/repos/Leeroo-AI/kapso/releases/latest - v0.8.0 (2026-11-01), the breaking redesign: renamed verbs, `harness`/`experience`/`report`/`inbox` subcommands, one configuration replacing the modes, and the `kapso.build()` Python API (fetched 200, 2026-11-05)
-- https://api.github.com/repos/Leeroo-AI/kapso/commits?since=2026-10-31T00:00:00Z&per_page=15 - the November 3-4 resume and commit-message fixes behind the status line (fetched 200, 2026-11-05)
-- https://raw.githubusercontent.com/Leeroo-AI/kapso/main/README.md - the four pillars table, CLI requirements, PyPI collision warning, the two shipped harnesses and plugin line, and the IOAI and RelBench claims (fetched 200, 2026-11-05)
+- https://api.github.com/repos/Leeroo-AI/kapso/releases/latest - v0.9.0 (2026-11-06), the rebrand-and-polish release: experience search, show, and --paper, the notify webhook, deploy --branch, and the checkpoint-schema-7 break (fetched 200, 2026-11-07)
+- https://api.github.com/repos/Leeroo-AI/kapso/commits?since=2026-11-04T00:00:00Z&per_page=20 - the November 5-6 translation and housekeeping commits and the v0.9.0 release train behind this refresh (fetched 200, 2026-11-07)
+- https://raw.githubusercontent.com/Leeroo-AI/kapso/main/README.md - the four-part pillar table, CLI requirements, PyPI collision warning, the ten-language translations, the deploy targets, and the IOAI, RelBench, and MLE-Bench claims (fetched 200, 2026-11-07)
 - https://arxiv.org/abs/2601.21526 - the technical report: git-native experimentation engine, knowledge system, and cognitive memory layer (fetched 200, 2026-10-11)
-- https://pypi.org/pypi/leeroo-kapso/json - package version 0.8.0, MIT license, and Python 3.10+ requirement (fetched 200, 2026-11-05)
+- https://pypi.org/pypi/leeroo-kapso/json - package version 0.9.0 published 2026-11-06, MIT license, and Python 3.10+ requirement (fetched 200, 2026-11-07)
 - https://ioai-official.org/what-happens-when-autonomous-ai-takes-on-the-same-tasks-as-the-worlds-top-young-ai-talents/ - IOAI's own account of the inaugural AI Model Track, September 29, 2026 (fetched 200, 2026-10-11)
 - https://star-project.stanford.edu/relbench/leaderboard/ - the official RelBench leaderboard and its self-reported-results disclaimer (fetched 200, 2026-10-11)
 - https://raw.githubusercontent.com/Leeroo-AI/kapso/main/benchmarks/ioai2026/README.md - the per-task IOAI numbers behind the 536.07 total and Grand Master Trophy (fetched 200, 2026-10-11)

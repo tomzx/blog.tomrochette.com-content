@@ -1,7 +1,7 @@
 ---
 title: Archcore
 created: 2026-10-21
-updated: 2026-10-27
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, decision-records, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
   Assumes you know what a decision record and a review gate are.
 ---
 
-Archcore is the archcore-ai org's Apache-2.0 TypeScript CLI plus per-agent plugins that keep a project's specs, plans, decisions, and rules as typed Markdown files under `.archcore/` in Git, and drive coding agents through plan, document, and review commands that read and enforce them.
+Archcore is the archcore-ai org's Apache-2.0 Go CLI plus per-agent TypeScript plugins that keep a project's specs, plans, decisions, and rules as typed Markdown files under `.archcore/` in Git, and drive coding agents through plan, document, and review commands that read and enforce them.
 
 **Its distinctive move is the two-sided review verdict: `/archcore:review` compares the branch against the documents and returns `code-wrong` when the code broke a standing document, or `spec-wrong` when the document is the one out of date, so the tool names the guilty side instead of handing a human a pile of findings.**
 
@@ -24,7 +24,8 @@ Documents carry their type in the filename (`rate-limiting.spec.md`, `token-buck
 
 ## Status
 
-Active and young: 71 stars and 13 forks since creation on 2026-04-05, pushed 2026-10-26, Apache-2.0, with v0.14.3 (2026-10-26) the newest of a four-release train that landed the same day (an OpenCode plugin package now delivered from `archcore init` with OpenCode 2.x support in the plugin and the CLI install, and a spec body-cap fix that counts only the five contract sections toward the cap so verification and revisit sections no longer force a spec split), following v0.13.1 (2026-10-16), which added review of unpushed default-branch work and durable-context capture, as of 2026-10-27 (GitHub API).
+Active and young: 71 stars and 13 forks since creation on 2026-04-05, pushed 2026-11-06, Apache-2.0, with v0.15.3 (2026-11-06) the newest of a four-release train that ran v0.15.0 through v0.15.3 on November 2 to 6 (v0.15.0 made global sources a read policy written through their project and gave every MCP tool and hook an explicit per-call project target, v0.15.1 removes hung plans in one batch on every review, v0.15.2 planned the Antigravity, Pi, Hermes, OpenClaw, and JetBrains host integrations and fixed OpenCode 2.x plugin-update authorization, and v0.15.3 moved the CLI to Go 1.26.10 with Charm v2 and validates a post-tool-use write in the project the server served), following the v0.14.x line that landed the OpenCode plugin package and the spec body-cap fix, as of 2026-11-07 (GitHub API).
+The CLI is written in Go, per the project's own v0.15.3 release notes, README Go 1.26+ badge, and dev-branch source tree (328 Go files); the default main branch carries the TypeScript plugins and docs, which is what its earlier language stats alone showed.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=archcore-ai/archcore&type=date&theme=dark&legend=top-left" />
@@ -44,7 +45,7 @@ It entered this category's scan as the skills worker's 2026-10-20 cross-category
 
 ## Cautions
 
-- 71 stars, a pre-1.0 v0.13 line, and zero independent coverage mean nothing here is validated by anyone but its steward.
+- 71 stars, a pre-1.0 v0.15 line, and zero independent coverage mean nothing here is validated by anyone but its steward.
 - The steward is a young company org (8 public repositories, site, docs, and community channels of its own) with no stated business model, so the free tool's durability is an open question.
 - Review only checks what the documents cover; a branch touching undocumented behavior gets checked against decisions and rules alone, and the tool's answer is to offer recording, not to guarantee coverage.
 - The four-skill flow assumes the human keeps recording decisions as they happen; nothing schedules the re-check of an accepted decision that later went stale.
@@ -74,6 +75,7 @@ The disagreeable claim I will defend: naming the guilty side (code-wrong or spec
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-27 - Recorded the v0.14.0 through v0.14.3 release train (all 2026-10-26): an OpenCode plugin package delivered from `archcore init` with OpenCode 2.x support, and the spec body-cap fix that stops verification and revisit sections from forcing a spec split.
 - 2026-10-27 - Corrected the implementation language from Go to TypeScript, per the repository's own language stats (TypeScript and Shell, no Go); meaning otherwise unchanged.
+- 2026-11-07 - Out-of-rotation re-verification triggered by the v0.15.3 release signal (every cited source re-fetched, all alive): corrected the implementation language back to Go, because the project's own v0.15.3 release moved the CLI to Go 1.26.10 with Charm v2, the README carries a Go 1.26+ badge, and the dev-branch source tree holds 328 Go files, while the default branch the 10-27 correction read carries only the plugins and docs; recorded the v0.15.0 through v0.15.3 release train (2026-11-02 to 06: global sources as a read policy with per-call project targets, hung-plan cleanup on review, plans for five new host integrations, and the Go 1.26.10 toolchain move).
 
 ## See also
 
@@ -89,5 +91,5 @@ The disagreeable claim I will defend: naming the guilty side (code-wrong or spec
 - https://archcore.ai/ - the project site: positioning, install script, integrations list, and the code-wrong/spec-wrong framing
 - https://docs.archcore.ai/guides/commands/ - the command reference: typed documents, plugin hosts, MCP access, CLI split
 - https://archcore.ai/how-to-use/ - the MCP-plus-hooks connection model and the CLAUDE.md/AGENTS.md import path
-- https://api.github.com/repos/archcore-ai/archcore/releases - the release train through v0.13.1 (2026-10-16)
+- https://api.github.com/repos/archcore-ai/archcore/releases - the release train through v0.15.3 (2026-11-06), fetched 2026-11-07
 - https://hn.algolia.com/api/v1/search?query=archcore&hitsPerPage=5 - the footprint check: no thread about the product, only unrelated ARM hits

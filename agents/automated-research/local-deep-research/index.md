@@ -1,7 +1,7 @@
 ---
 title: Local Deep Research
 created: 2026-10-07
-updated: 2026-11-05
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, deep-research, local-first]
 readability: 3
@@ -24,7 +24,7 @@ Around the loop sit a journal-quality system scoring 212K-plus indexed sources w
 
 ## Status
 
-Active and heavily developed: 9,192 stars as of 2026-10-15, 890 forks, created 2025-02-09, last pushed 2026-11-05 on the same many-commit daily cadence (the November 2-5 batch hardens the security and cache surfaces: the benchmark grader's endpoint key bound to its origin, inbound WebSocket message size capped at the transport, response nonces required for template scripts and styles, the research cache keyed by chunk row identity with FAISS segments verified on every read, a gap-free migration chain enforced by test, and settings-recovery help in the web UI, following the November 1 commits showing the last completed Zotero sync's result counts in the status table, preserving provider usage-limit guidance through research failures, and adding a controlled-allocation test for the parser memory cap, following the October 31 batch's PDF downloads recorded as completed only after the file saves, pending backup status preserved across delayed acknowledgements, unwritten purge warnings kept in the bounded status cache, and unstructured OSV security exceptions renewed after review, following the October 29 batch's retryable transient library access failures, encrypted backup failure status, chat custom-LLM endpoint gated at the research-start boundary, and run-engine selection separated from LangGraph tool availability, the October 26-28 batch's DOI resolution to open-access copies before declaring paywall, LaTeX and BibTeX URL userinfo stripping, a shared dark theme default, worker-owned RAG preparation sessions, and stale download-claim recovery, and the October 18 version bump to 2.0.0 on main, the project's first major-version cut), with the release train still published at v1.10.7, 2026-08-28 on GitHub and PyPI, as of 2026-11-05.
+Active and heavily developed: 9,192 stars as of 2026-10-15, 890 forks, created 2025-02-09, last pushed 2026-11-06 on the same many-commit daily cadence (the November 5-6 batch points the migration head marker at 0044, waits for the theme save before the persistence reload in the UI tests, and ignores the setuptools CVEs Trivy reports for pip's vendored copy), following the November 2-5 batch's security and cache hardening (the benchmark grader's endpoint key bound to its origin, inbound WebSocket message size capped at the transport, response nonces required for template scripts and styles, the research cache keyed by chunk row identity with FAISS segments verified on every read, a gap-free migration chain enforced by test, and settings-recovery help in the web UI), the October 26-28 batch's DOI resolution to open-access copies before declaring paywall, LaTeX and BibTeX URL userinfo stripping, a shared dark theme default, worker-owned RAG preparation sessions, and stale download-claim recovery, and the October 18 version bump to 2.0.0 on main, the project's first major-version cut, with the release train still published at v1.10.7, 2026-08-28 on GitHub and PyPI, as of 2026-11-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=LearningCircuit/local-deep-research&type=date&theme=dark&legend=top-left" />
@@ -41,12 +41,13 @@ The project's headline benchmark is self-reported through community channels: ab
 - Model-agnostic and engine-agnostic (Ollama, LM Studio, llama.cpp, or cloud APIs over ten-plus engines), so neither a model vendor nor a search vendor locks the loop in.
 - The benchmark dataset is public and community-maintained, with per-model, per-engine, and per-strategy breakdowns anyone can extend.
 - The MCP server and REST API make the loop callable from other agents, and the LangGraph strategy is a legible worked example of agentic search routing.
+- The README now documents a per-run egress scope system: Private only mode forces local inference and refuses cloud providers, Strict arms a best-effort socket-level guard, and the guarded HTTP layer checks destinations against SSRF rules, a plainly stated account of the boundary the privacy story rides on.
 
 ## Cautions
 
 - The headline numbers are self-reported community benchmarks, and the README itself flags small samples, LLM-grader noise, and SimpleQA contamination risk on newer base models.
 - No machine judge sits inside the loop: the output is prose with citations, so the human stays the verifier, exactly as with Deep Research.
-- 1,310 open issues and pull requests as of 2026-10-31 against a volunteer contributor base signals a project where support lags feature growth.
+- 1,385 open issues and pull requests as of 2026-11-07 against a volunteer contributor base signals a project where support lags feature growth.
 - Attaching premium engines or cloud models reintroduces the external calls the privacy story avoids, one API key at a time.
 
 ## Pricing
@@ -70,6 +71,7 @@ Not for anyone who needs machine-verified output or turnkey support: the loop en
 - 2026-10-07 - Created.
 - 2026-10-12 - Refreshed the volatile counts (stars, forks, the October 12 push) and the open-issue count.
 - 2026-10-18 - Recorded the main-branch version bump to 2.0.0, the project's first major-version cut, which had not reached GitHub releases or PyPI as of this run.
+- 2026-11-07 - Rotation re-verification: all cited URLs re-fetched and live, with the benchmark rows (95.7 percent SimpleQA, 77 percent xbench-DeepSearch), the 190-point launch thread, and the v1.10.7 release and PyPI freeze all confirmed unchanged and 2.0.0 still unreleased; recorded the November 5-6 commits, the README's new egress-scope documentation, and the open-issue count moved to 1,385.
 
 ## See also
 
@@ -80,10 +82,10 @@ Not for anyone who needs machine-verified output or turnkey support: the loop en
 
 ## References
 
-- https://github.com/LearningCircuit/local-deep-research - repository, description, and MIT license (fetched 200, 2026-10-07)
-- https://raw.githubusercontent.com/LearningCircuit/local-deep-research/main/README.md - the loop, strategies, engines, the benchmark table with its own caveats, the journal-quality system, and the MCP server (fetched 200, 2026-10-07)
-- https://api.github.com/repos/LearningCircuit/local-deep-research - stars, forks, created and push dates, and license for the as-of status (fetched 200, 2026-10-30)
-- https://api.github.com/repos/LearningCircuit/local-deep-research/releases?per_page=3 - v1.10.7 (2026-08-28) still the latest published release, and the release cadence (fetched 200, 2026-10-30)
-- https://pypi.org/pypi/local-deep-research/json - the published version still 1.10.7, license metadata, and Python requirement (fetched 200, 2026-10-29)
-- https://huggingface.co/datasets/local-deep-research/ldr-benchmarks - the community benchmark dataset behind the SimpleQA and xbench-DeepSearch numbers (fetched 200, 2026-10-07)
-- https://hn.algolia.com/api/v1/items/43330164 - the 190-point, 34-comment launch thread from March 2025 (fetched 200, 2026-10-07)
+- https://github.com/LearningCircuit/local-deep-research - repository, description, and MIT license (fetched 200, 2026-11-07)
+- https://raw.githubusercontent.com/LearningCircuit/local-deep-research/main/README.md - the loop, strategies, engines, the egress-scope system, the benchmark table with its own caveats, the journal-quality system, and the MCP server (fetched 200, 2026-11-07)
+- https://api.github.com/repos/LearningCircuit/local-deep-research - stars, forks, created and push dates, open-issue count, and license for the as-of status (fetched 200, 2026-11-07)
+- https://api.github.com/repos/LearningCircuit/local-deep-research/releases?per_page=3 - v1.10.7 (2026-08-28) still the latest published release, and the release cadence (fetched 200, 2026-11-07)
+- https://pypi.org/pypi/local-deep-research/json - the published version still 1.10.7, license metadata, and Python requirement (fetched 200, 2026-11-07)
+- https://huggingface.co/datasets/local-deep-research/ldr-benchmarks - the community benchmark dataset behind the SimpleQA and xbench-DeepSearch numbers (fetched 200, 2026-11-07)
+- https://hn.algolia.com/api/v1/items/43330164 - the 190-point, 34-comment launch thread from March 2025 (fetched 200, 2026-11-07)

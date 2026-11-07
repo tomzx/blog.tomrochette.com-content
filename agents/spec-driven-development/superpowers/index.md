@@ -1,7 +1,7 @@
 ---
 title: Superpowers
 created: 2026-10-09
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, methodology, agent-skills, worktrees, open-source]
 readability: 3
@@ -25,9 +25,10 @@ Prime Radiant, the applied research lab behind it, sells commercial support, add
 ## Status
 
 Large, active, and distribution-backed in a way no other column is.
-As of 2026-10-14: 298,672 stars, 26,695 forks, 328 open issues and pull requests, created 2025-10-09, MIT, newest release v7.0.1 (2026-10-21); pushed 2026-10-29 as of 2026-11-01 (GitHub API).
+As of 2026-10-14: 298,672 stars, 26,695 forks, 328 open issues and pull requests, created 2025-10-09, MIT, newest release v7.0.2 (2026-11-03); pushed 2026-11-03 as of 2026-11-07 (GitHub API).
 v7.0.0 shipped on the project's first anniversary with a rebuilt brainstorming skill that sizes the process to the work, running a quick task immediately, agreeing a small change in chat, or writing a full design document, and it replaces the spec-document reviewer with a builder check that reads the design as the person who will build it.
 v7.0.1 retuned that rebuild after users called the new questions formulaic: brainstorming now digs for context before it asks anything, lays out the approaches and writes the design doc before building (in the steward's own test, it skipped the doc unprompted in 24 of 24 runs before the fix and 3 of 24 after), three long skills were trimmed to survive Claude Code's 20,000-character compaction cutoff, and the contribution rules now require a human-written summary and refuse agent-written PRs that fix someone else's issue.
+v7.0.2 keeps tuning the same seam: brainstorming asks a question only when the answer would change what gets built, opens with why, and returns choices as options with a recommendation (filler questions down from 41 with 7.0.1 to 23 in blind-graded runs, with the why surfacing before any approach in 33 of 33 conversations), bootstrap delivery was fixed on six harnesses (Copilot on Windows among them), and the SDD and executing-plans helper scripts now refuse to act outside the repository you are in.
 The steward's anniversary post reports the repo about to cross 300,000 stars (12th most starred project on GitHub by his count), the number-one third-party Claude Code plugin at more than 1.1M installs, and 50M clones every two weeks from 1.95M unique IPs.
 
 <picture>
@@ -81,6 +82,7 @@ The disagreeable claim I will defend: 297k stars for a mandatory methodology is 
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
+- 2026-11-07 - Rotation re-verification of every cited source (all alive, the harness table still at 16 documented installs, the 435-point launch thread and the 6.4 faster-and-cheaper concession unchanged, the eval lab now branded Quorum with the same scope): recorded the v7.0.2 release (2026-11-03: fewer, better brainstorming questions with the why asked first and choices returned as options with a recommendation, bootstrap fixes on six harnesses, and the SDD and executing-plans helpers refusing to act outside the current repository).
 
 ## See also
 
@@ -94,7 +96,7 @@ The disagreeable claim I will defend: 297k stars for a mandatory methodology is 
 - https://github.com/obra/superpowers - repository: workflow, harness table, philosophy, licensing (298,672 stars as of 2026-10-14)
 - https://raw.githubusercontent.com/obra/superpowers/main/README.md - the seven-skill core loop, 16 harness installs, contribution policy, and telemetry disclosure
 - https://api.github.com/repos/obra/superpowers - stars, forks, issues, dates, and MIT as of 2026-10-23
-- https://raw.githubusercontent.com/obra/superpowers/main/RELEASE-NOTES.md - the release notes through v7.0.1, grounding the rebuilt brainstorming, the builder check, and the retune
+- https://raw.githubusercontent.com/obra/superpowers/main/RELEASE-NOTES.md - the release notes through v7.0.2, grounding the rebuilt brainstorming, the builder check, and the two retunes
 - https://blog.fsck.com/2026/10/09/what-a-year/ - the anniversary post grounding the 7.0 framing and the 300k-star, 1.1M-install, and clone-volume claims
 - https://primeradiant.com/claude-plugin-stats/ - the steward's tracker of Anthropic's plugin-stats feed behind the 1.1M-install figure
 - https://raw.githubusercontent.com/addyosmani/agent-skills/main/docs/comparison.md - the three-way comparison and its linked single-task head-to-head, the newest critical source

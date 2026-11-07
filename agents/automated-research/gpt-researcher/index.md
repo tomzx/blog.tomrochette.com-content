@@ -1,7 +1,7 @@
 ---
 title: GPT Researcher
 created: 2026-10-07
-updated: 2026-11-01
+updated: 2026-11-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deep-research, open-source]
 readability: 3

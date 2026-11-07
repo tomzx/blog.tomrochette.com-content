@@ -1,7 +1,7 @@
 ---
 title: Sepia
 created: 2026-09-27
-updated: 2026-10-31
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, writing, humanizer, fiction]
 readability: 3
@@ -26,7 +26,7 @@ Install is `npx skills add Nanako0129/sepia -g` or a native plugin marketplace, 
 
 ## Status
 
-Active and early: 3,155 stars and 198 forks as of 2026-10-13, main unchanged since the v0.12.4 release (2026-10-15, still the latest tag) with the repo's pushed date moving to 2026-10-30 on pull-request branch activity and bot review, seven open issues as of 2026-10-31, created 2026-08-28.
+Active and early: 3,155 stars and 198 forks as of 2026-10-13, main holding at the v0.13.0 release (2026-11-03, now the latest tag, pushed 2026-11-03), six open issues as of 2026-11-07, created 2026-08-28.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nanako0129/sepia&type=date&theme=dark&legend=top-left" />
@@ -36,6 +36,7 @@ Active and early: 3,155 stars and 198 forks as of 2026-10-13, main unchanged sin
 
 The growth is fast but young: the entrant data had it near 1,444 stars about five days after launch, and it has roughly doubled since.
 There is no Hacker News thread under its name (my searches returned only unrelated sepia stories) and no mainstream coverage as of 2026-09-27, so the audience is GitHub plus the third-party registries that mirror and review it.
+The v0.13.0 release (2026-11-03) consolidated rules that contradicted each other into one statement each, read three papers into the rules or the research ledger (including a keep-test for the "not X, but Y" frame and a time-structure finding), taught the persona validator to refuse check 8 as an override token, added `Discourse:` and `Style scan:` report lines, and made venue samples scoped runs.
 A third-party snapshot service recorded 2,860 stars on 2026-09-26, one day before this note's count, so the trajectory held through the week.
 Maintenance is funded by a Patreon link, not a company.
 
@@ -80,6 +81,7 @@ My disagreeable claim: most humanizer installs, sepia included, are plausibly wa
 - 2026-10-16 - v0.12.4 shipped 2026-10-15 (a professional-recreate stance fix and QwenPaw `/sepia` dispatch changes) and is now the latest release; the Status and reference lines re-dated.
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched live and the zero-HN search re-run (still only unrelated sepia stories), with the repo unchanged since 2026-10-15 (v0.12.4 still latest, five open issues). The What-it-is section picked up what the README carries and the note lacked: the sixth professional-prose domain (long-form journalism), the voice profiles beyond Hemingway (a Taiwan journalism voice and author-defined personas), and the professional-prose StoryScope replication (arXiv:2609.15369), whose current v3 reports 97.0 macro-F1 where the repo's ledger quotes the pre-v3 98.0.
 - 2026-10-31 - Volatile refresh: main is unchanged since v0.12.4 and the release held, while the repo's pushed date moved to 2026-10-30 on pull-request branch activity and a CodeRabbit review (no main-line change), and open issues moved to seven.
+- 2026-11-07 - The release train moved to v0.13.0 (published 2026-11-03): a minor release consolidating contradictory rules to one statement each, three papers read into the rules or ledger, the persona validator refusing professional-pass check 8 as an override token, `Discourse:` and `Style scan:` report lines, protected-quotation defect lines, and venue samples becoming scoped runs; main holds at the release, six open issues.
 
 ## See also
 
@@ -91,7 +93,8 @@ My disagreeable claim: most humanizer installs, sepia included, are plausibly wa
 
 ## References
 
-- https://api.github.com/repos/Nanako0129/sepia - 3,155 stars and 198 forks as of 2026-10-13, MIT, main unchanged since 2026-10-15 with latest tag v0.12.4 and the pushed date at 2026-10-30 on non-main activity, seven open issues as of 2026-10-31 (200, re-fetched 2026-10-31)
+- https://api.github.com/repos/Nanako0129/sepia - 3,155 stars and 198 forks as of 2026-10-13, MIT, main holding at the v0.13.0 release with the pushed date at 2026-11-03, six open issues as of 2026-11-07 (200, re-fetched 2026-11-07)
+- https://api.github.com/repos/Nanako0129/sepia/releases/latest - v0.13.0 published 2026-11-03, the newest tag: the consolidated rules, the three papers (Peng et al. keep-test, Raiyan et al. time structure, Clark et al. consulted-no-rule), the check 8 validator refusal, the report-line and protected-quotation changes, and the scoped-run behavior (fetched 2026-11-07)
 - https://raw.githubusercontent.com/Nanako0129/sepia/main/README.md - operations, three-pass protocol, research ledger, per-platform verification limits (200, re-fetched 2026-10-25)
 - https://hysenlabs.com/en/projects/nanako0129-sepia - third-party editorial review (September 10, 2026) with critical sections on calibration and wrong-tool cases (200, re-fetched 2026-10-25)
 - https://arxiv.org/abs/2604.03136 - StoryScope: 61,608 stories, 93.2% macro-F1 from narrative features alone, v6 revised 2026-08-10 (200, re-fetched 2026-10-25)

@@ -1,7 +1,7 @@
 ---
 title: OpenCodeReview
 created: 2026-08-30
-updated: 2026-11-05
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, ci, open-source]
 readability: 3
@@ -32,7 +32,7 @@ High-velocity young: 46,915 stars, 3,406 forks, 306 open issues and PRs as of 20
 </picture>
 
 That is up from 23,041 stars on 2026-09-13, 29,564 on 2026-09-16, 35,673 on 2026-09-18, 37,926 on 2026-09-20, 38,670 on 2026-09-21, 40,800 on 2026-09-24, 41,702 on 2026-09-27, 42,421 on 2026-09-29, 43,189 on 2026-10-02, 43,411 on 2026-10-03, 43,529 on 2026-10-04, 43,886 on 2026-10-06, 44,113 on 2026-10-07, 44,730 on 2026-10-09, 45,649 on 2026-10-10, 45,964 on 2026-10-11, and 46,915 on 2026-10-13, roughly doubling in the month after mid-September, still with no new HN catalyst on the launch thread, which sits at the same 284 points (re-checked 2026-10-13).
-At least 143 releases in five and a half months (v1.13.5 on November 3 added HAML, Slim, ERB, EJS, Liquid, and Nunjucks template review, jsonc files, and Scala-specific rules while fixing diff-hunk matching, after v1.13.4 on November 2 fixed unnamed paths in file_read_diff errors, empty session-show JSON output, and GitHub Action runtime stability and bumped Go to 1.26.10 and Node to 24.22.1, and v1.13.3's October 22 empty-batch, MCP pagination, and CI checkout fixes), a 284-point Hacker News front-page thread in June.
+At least 144 releases in five and a half months (v1.13.6 on November 5 added Starlark file review, C# review rules, and a supported-model-providers showcase page while preserving explicit false stream overrides and making the GitHub Action rewrite only the bot's own summary comment, after v1.13.5 on November 3 added HAML, Slim, ERB, EJS, Liquid, and Nunjucks template review, jsonc files, and Scala-specific rules while fixing diff-hunk matching, and v1.13.4 on November 2 fixed unnamed paths in file_read_diff errors, empty session-show JSON output, and GitHub Action runtime stability and bumped Go to 1.26.10 and Node to 24.22.1, and v1.13.3's October 22 empty-batch, MCP pagination, and CI checkout fixes), a 284-point Hacker News front-page thread in June.
 v1.13.0 moved to a minor bump for two integrations: reviews on the ChatGPT plan through the public Responses API, and an ACP service so coding agents can drive OpenCodeReview over the agent protocol.
 An outside measurement has now landed: the Agent Skills Hub end-to-end eval (October 10, 2026) scored it 7 of 8 planted defects at 0.6 findings per PR in 7 minutes, among the quietest reviewers that ran, with both misses being test-only PRs it deliberately skipped, so the precision-first story held under independent testing.
 **Adoption outran polish visibly: GPT-5.x compatibility broke at launch and was fixed, and the lead has said parts of the codebase are not yet fully polished.**
@@ -88,6 +88,7 @@ Not for teams needing independently validated precision numbers today, or turnke
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched live; v1.13.3 still the latest release with the push still October 22, the launch thread unchanged at 284 points, the AACR-Bench dataset live at 2.15k rows under Apache-2.0, the Martian benchmark site up, and the Agent Skills Hub eval table unchanged (7 of 8, 0.6 findings per PR, pr-12 the only miss); no factual drift.
 - 2026-10-30 - Volatile re-verification: the push moved to October 30 with no release after v1.13.3.
 - 2026-11-05 - Volatile re-verification: recorded v1.13.4 (November 2) and v1.13.5 (November 3) and counted the ledger at 143 releases; the push moved to November 5 with main active the same day.
+- 2026-11-07 - Volatile re-verification: recorded v1.13.6 (November 5), the Starlark and C# review coverage, the supported-model-providers showcase page, and the Action summary-comment fix, taking the ledger to 144 releases; the push moved to November 6 with main active the same day.
 
 ## See also
 
@@ -98,11 +99,11 @@ Not for teams needing independently validated precision numbers today, or turnke
 
 ## References
 
-- https://github.com/alibaba/open-code-review - repository, architecture, integrations, license, 45,964 stars as of 2026-10-11; re-queried 2026-10-30 and 2026-11-05, pushed November 5 with main active the same day
+- https://github.com/alibaba/open-code-review - repository, architecture, integrations, license, 45,964 stars as of 2026-10-11; re-queried 2026-10-30, 2026-11-05, and 2026-11-07, pushed November 6 with main active the same day
 - https://raw.githubusercontent.com/alibaba/open-code-review/HEAD/README.md - the hybrid design, benchmark claims, and recall trade-off
 - https://news.ycombinator.com/item?id=48406358 - the launch thread with the independent precision run and maintainer responses
 - https://huggingface.co/datasets/Alibaba-Aone/aacr-bench - the public benchmark backing the claims
 - https://registry.npmjs.org/@alibaba-group/open-code-review - distribution and release facts, re-fetched 2026-10-27 (130 versions, v1.13.3 latest)
-- https://api.github.com/repos/alibaba/open-code-review/releases?per_page=3 - the release ledger's top entries: v1.13.5 (November 3, 2026) with HAML, Slim, ERB, EJS, Liquid, and Nunjucks template support, jsonc files, Scala rules, and diff-hunk fixes, v1.13.4 (November 2) with the file_read_diff, session-show, and Action runtime fixes plus Go 1.26.10 and Node 24.22.1 bumps, v1.13.3 (October 22) with the empty-batch, MCP pagination, and CI checkout fixes plus a NixPkgs provider directory, fetched 2026-10-22, re-fetched 2026-10-27, 2026-10-30, and 2026-11-05 (v1.13.5 latest, 143 releases across two pages of 100 and 43)
+- https://api.github.com/repos/alibaba/open-code-review/releases?per_page=3 - the release ledger's top entries: v1.13.6 (November 5, 2026) with Starlark file review, C# review rules, a supported-model-providers showcase page, the explicit-false stream-override fix, and the GitHub Action rewriting only the bot's own summary comment, v1.13.5 (November 3) with HAML, Slim, ERB, EJS, Liquid, and Nunjucks template support, jsonc files, Scala rules, and diff-hunk fixes, and v1.13.4 (November 2) with the file_read_diff, session-show, and Action runtime fixes plus Go 1.26.10 and Node 24.22.1 bumps, fetched 2026-10-22, re-fetched 2026-10-27, 2026-10-30, 2026-11-05, and 2026-11-07 (v1.13.6 latest, 144 releases)
 - https://codereview.withmartian.com - the independent benchmark used for the critical precision measurement
 - https://raw.githubusercontent.com/zhuyansen/agent-skills-hub/main/ops/review-runs/RESULTS.md - the Agent Skills Hub end-to-end eval (October 10, 2026): 7 of 8 planted defects, 0.6 findings per PR, 7 minutes, both misses test-only PRs it skipped, fetched 2026-10-18

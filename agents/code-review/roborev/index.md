@@ -1,7 +1,7 @@
 ---
 title: roborev
 created: 2026-10-06
-updated: 2026-11-05
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -83,6 +83,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 - 2026-10-30 - Volatile re-verification: the push moved to October 30 with v0.74.0 still the latest release; nothing else changed.
 - 2026-11-01 - Volatile re-verification: the push moved to November 1 with v0.74.0 still the latest release; nothing else changed.
 - 2026-11-05 - Volatile re-verification: the push moved to November 5 with v0.74.0 still the latest release; nothing else changed.
+- 2026-11-07 - Volatile re-verification: the push moved to November 7 with v0.74.0 still the latest release; nothing else changed.
 
 ## See also
 
@@ -94,7 +95,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 
 ## References
 
-- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05 (GitHub API, as of 2026-10-11; re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-27, 2026-10-30, 2026-11-01, and 2026-11-05, pushed 2026-11-05 with v0.74.0 the latest release)
+- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05 (GitHub API, as of 2026-10-11; re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-27, 2026-10-30, 2026-11-01, 2026-11-05, and 2026-11-07, pushed 2026-11-07 with v0.74.0 the latest release)
 - https://raw.githubusercontent.com/kenn-io/roborev/HEAD/README.md - the two automation layers, the refine skill, and install paths
 - https://roborev.io/docs/ - the ledger model, the agent hook, panels, PostgreSQL sync, and the ACP surface
 - https://roborev.io/docs/agents.md - the eleven supported agents and the auto-detection fallback order

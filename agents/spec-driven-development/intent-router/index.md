@@ -1,7 +1,7 @@
 ---
 title: Intent-Router
 created: 2026-10-10
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, intent-specs, clarification, skills]
 readability: 3
@@ -23,7 +23,7 @@ The README positions it against plan modes (which prefer looking up over verifyi
 
 ## Status
 
-Oscillating under apparent engagement purges: 89 stars and 17 forks as of 2026-11-01 (GitHub API), created 2026-09-22, pushed 2026-10-21, v1.4.0 (2026-10-16) the newest of ten published release entries (the rotation re-fetch found the v0.x entries published retroactively); v1.4.0 trimmed the skill description to fit a 500-character harness cap after its second half, including the negative predicates that keep auto-invocation off unnecessary work, was being truncated in at least one harness, and added a DeepSeek Harness eval channel plus a cross-session contract test case.
+Oscillating under apparent engagement purges: 89 stars and 17 forks as of 2026-11-01 (GitHub API), created 2026-09-22, pushed 2026-11-06 with development continuing past the last tagged release, v1.4.0 (2026-10-16) the newest of ten published release entries (the rotation re-fetch found the v0.x entries published retroactively); v1.4.0 trimmed the skill description to fit a 500-character harness cap after its second half, including the negative predicates that keep auto-invocation off unnecessary work, was being truncated in at least one harness, and added a DeepSeek Harness eval channel plus a cross-session contract test case.
 **The GitHub API read 1,017 stars and 124 forks on 2026-10-11, 158 and 46 on 2026-10-13, 239 and 51 on 2026-10-14, and 89 and 17 on 2026-11-01: a collapse fork counts cannot take organically, a one-day climb the same kind of engagement produces, and now a second fall, which reads as repeated purges of inauthentic stars with refills in between, and the nineteen-day adoption-curve claim this note published stays retracted.**
 The refill did not hold, so the social signal now reads as an engagement war the steward keeps losing, and the independent footprint is still empty: a Hacker News search returns no thread about it as of 2026-11-01 (the hits are unrelated projects sharing the words).
 

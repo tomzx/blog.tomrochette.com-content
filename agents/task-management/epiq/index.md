@@ -1,7 +1,7 @@
 ---
 title: Epiq
 created: 2026-10-10
-updated: 2026-10-31
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, event-sourcing, git, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Commits prefixed with a ticket's ref land in the ticket's inline code diff, wher
 ## Status
 
 Active and shipping fast.
-As of 2026-10-31: 542 stars (as of 2026-10-14), 23 forks, 1 open issue and pull request, created 2025-06-22, pushed 2026-10-30, latest release v1.16.2 on 2026-10-28, and 2,812 npm downloads over the trailing month to 2026-10-31.
+As of 2026-11-07: 542 stars (as of 2026-10-14), 24 forks, 2 open issues and pull requests, created 2025-06-22, pushed 2026-11-07, latest release v1.16.2 on 2026-10-28, and 2,934 npm downloads over the trailing month to 2026-11-07.
 The v1.12.x line shipped four releases in twelve days, and v1.13.0 followed five days later with cross-repository commit linking: a board can connect other repos, commits in them land on the tickets they name and in the timeline, and read-only clones fetched on sync (capped at 2 GB each, self-recovering) make the linked diffs work outside the board's own checkout.
 v1.13.1 and v1.13.2 (2026-10-19) fixed a slow TUI memory leak (releases had been shipping React's development build, which records a timing entry on every screen update), v1.14.0 (2026-10-20) let boards and lanes carry descriptions that hold the conventions agents follow, handed out by the MCP server on assume, get, create, and move, plus board flow stats over eight weeks, commit linking through an Epiq-Ref line in the commit body, and drafts that survive tab switches, and the v1.15 line landed three releases on 2026-10-23: v1.15.0 added dense cards (a Wide/Dense switch collapsing a card to title plus one ref line, a clock on stalled tickets, live dots on tickets touched in the last five minutes, and click-to-filter assignees and tags), v1.15.1 fixed an SSH repo connect failure, and v1.15.2 extended time travel so cards and the Code tab show each ticket's code as it was at the needle, with the needle's position kept in the URL.
 v1.16.0 (2026-10-26) added goals: tickets group into a goal across boards, each goal renders as a pill above the lanes with a completion bar, clicking a pill filters the board to that goal's tickets, and goals work in the GUI, the TUI (`:goal`, `:ungoal`, `:filter goal`), and MCP; lanes gained a details menu (rename, describe, delete) and done-lanes whose tickets count as done (`:rule done`).
@@ -90,9 +90,9 @@ My disagreeable claim: the append-only event log is a better memory format for a
 ## References
 
 - https://github.com/ljtn/epiq - repository: README, MCP setup, agent identities, install paths (fetched 2026-10-10)
-- https://api.github.com/repos/ljtn/epiq - stars, forks, dates, MIT license as of 2026-10-31
+- https://api.github.com/repos/ljtn/epiq - stars, forks, dates, MIT license as of 2026-11-07
 - https://raw.githubusercontent.com/ljtn/epiq/main/readme.md - the event-sourced model, conflict handling, MCP and skill setup, worktree sync
 - https://ljtn.github.io/epiq/ - the site: teams-and-agents positioning, live monitoring and replay wording, the MCP tool count
 - https://news.ycombinator.com/item?id=48155570 - the 91-point launch thread: the distributed-tracker history objection, the last-event-wins exchange, the MCP-versus-skill debate
 - https://api.github.com/repos/ljtn/epiq/releases - v1.16.2 (2026-10-28), v1.16.1 (2026-10-27), v1.16.0 (2026-10-26), v1.15.2 (2026-10-23), the v1.15.0 and v1.15.1 releases of the same day, v1.14.0 (2026-10-20), and the release train through v1.12.4
-- https://api.npmjs.org/downloads/point/2026-10-01:2026-10-31/epiq - 2,812 downloads over the trailing month to 2026-10-31
+- https://api.npmjs.org/downloads/point/2026-10-08:2026-11-07/epiq - 2,934 downloads over the trailing month to 2026-11-07
