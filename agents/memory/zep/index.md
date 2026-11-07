@@ -1,7 +1,7 @@
 ---
 title: Zep
 created: 2026-08-24
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, knowledge-graphs]
 readability: 3
@@ -32,7 +32,8 @@ Graphiti shows about 31.8k stars as of 2026-10-16 (1,054 commits as of 2026-11-0
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=getzep/zep&type=date&legend=top-left" />
 </picture>
 
-Zep Community Edition, the self-hostable open-core server, was discontinued in April 2025, with the company saying the two-product split starved the OSS side.
+Zep Community Edition, the self-hostable open-core server, was discontinued in April 2025, with the company saying the two-product split starved the OSS side; on 2026-11-04 the legacy Community Edition code and its README section were removed from the repository outright, so the self-hostable server no longer exists even as code.
+The repository's remaining surface is examples and integrations: the same days added Agent Skills benchmark harnesses, Agent Skills examples for LangGraph, Google ADK, the Claude Agent SDK, Mastra, the OpenAI Codex SDK, Eve, and PydanticAI, a Context Lake description with the supported harness list, a model-example move to Luna 6, and the removal of the zep-mcp-server example and the Discord links.
 The site lists Samsung, Zscaler, Quorum, and HoneyBook among customers, and an S&P Global Market Intelligence report (April 2026) covers its temporal context graph.
 I found no announced venture funding, which is itself a signal: it is bootstrapped or undisclosed, unusual among memory startups.
 
@@ -82,6 +83,7 @@ Not for solo builders or small budgets, and my disagreeable claim is that Mem0's
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched live, the pricing page re-verified with the ladder unchanged on the fetched text (overage top-ups still $25 per 10,000 Flex credits and $75 per 40,000 Flex Plus credits), and the repository's only mid-October default-branch activity a dependency-security pin.
 - 2026-10-28 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the pricing page still shows the $125/$375 monthly figures and the 10,000/50,000/200,000 credit quotas in the fetched text), and Graphiti stays active on the default branch with documentation commits on 2026-10-27.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live (product site, pricing page, Graphiti and Zep repositories, the paper, both blog posts), the pricing ladder re-verified unchanged on the fetched text (Flex $104 annual / $125 monthly, Flex Plus $312/$375, overage $25 per 10,000 and $75 per 40,000 credits, free tier 10,000 credits), the Community Edition deprecation and Mem0 rebuttal posts unchanged, and Graphiti's commit count refreshed to 1,054 as of 2026-11-01 while the star figure stays at its 2026-10-16 baseline.
+- 2026-11-07 - Recorded the repository's 2026-11-04 turn: the legacy Community Edition code and its README section were removed outright, so the discontinued self-hostable server no longer exists even as code, and the repository's remaining surface is Agent Skills benchmark harnesses and examples across seven frameworks, a Context Lake description, and the removal of the zep-mcp-server example and Discord links.
 
 ## See also
 

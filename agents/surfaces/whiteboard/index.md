@@ -1,7 +1,7 @@
 ---
 title: Whiteboard
 created: 2026-10-04
-updated: 2026-11-03
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surface, review, open-source]
 readability: 3
@@ -25,7 +25,7 @@ v0.5.1 (November 1) turns the canvas outward again: a share link now opens a boa
 
 ## Status
 
-New with real traction: the Show HN launch on 2026-09-24 drew 424 points, and the repository, created 2026-08-18, was pushed 2026-11-03, with v0.5.1 (November 1, browser share links and experimental agent-drawn animations) the latest desktop-app release, above the monorepo's release train under the diffr tag family (diffr/0.1.22, October 26, diffr deferring slow plugins and an open Diff updating in place when its comparison changes; diffr/0.1.23, October 30, picking the model and effort a new whiteboard is drawn with and giving pinned checkouts time on large repositories).
+New with real traction: the Show HN launch on 2026-09-24 drew 424 points, and the repository, created 2026-08-18, was pushed 2026-11-06, with v0.5.1 (November 1, browser share links and experimental agent-drawn animations) the latest desktop-app release, above the monorepo's release train under the diffr tag family (diffr/0.1.22, October 26, diffr deferring slow plugins and an open Diff updating in place when its comparison changes; diffr/0.1.23, October 30, picking the model and effort a new whiteboard is drawn with and giving pinned checkouts time on large repositories).
 The team is four (Sid, Alex, Ketan, and Milan), YC W26-backed, and built the app for themselves first.
 Distribution is free and open source in beta, local-first with the v0.3.0 SSH remote hosts extending review to your own machines; the product site now advertises a hosted Whiteboard as coming soon, though no plans or prices exist yet, so there is no revenue model today.
 The category question is unresolved even in its own launch thread, where commenters reached for orchestrator, control plane, and agent multiplexer before the authors placed it as deliberately not opinionated about where your agent runs.
@@ -49,7 +49,7 @@ The category question is unresolved even in its own launch thread, where comment
 - A skeptical comment called the animated hand-drawn diagrams a technique heading everywhere, which cuts both ways: the medium may age faster than the function.
 - No hosted plan and no pricing: the business is a stated maybe, and beta desktop apps churn.
 - Ten open issues and twenty-three open pull requests as of 2026-10-06 against seven weeks of life (the earlier fifty-issue reading included pull requests, and the queue has moved fast since), with every major OS build user-reported rather than vendor-certified.
-The counts keep moving: eight open issues and thirty-one open pull requests as of 2026-10-08, nine open issues and forty-one open pull requests as of 2026-10-09 as the pull-request queue grew as fast as the release train, then ten open issues and thirty-one open pull requests as of 2026-10-10 once the diffr imports merged and the queue drained, eleven open issues and thirty-four open pull requests as of 2026-10-11, ten open issues and twenty-seven open pull requests as of 2026-10-12, ten open issues and twenty open pull requests as of 2026-10-16, eleven open issues and twenty-three open pull requests as of 2026-10-19, ten open issues and twenty-five open pull requests as of 2026-10-22, fourteen open issues and twenty-six open pull requests as of 2026-10-25, and eleven open issues and thirty-two open pull requests as of 2026-11-03.
+The counts keep moving: eight open issues and thirty-one open pull requests as of 2026-10-08, nine open issues and forty-one open pull requests as of 2026-10-09 as the pull-request queue grew as fast as the release train, then ten open issues and thirty-one open pull requests as of 2026-10-10 once the diffr imports merged and the queue drained, eleven open issues and thirty-four open pull requests as of 2026-10-11, ten open issues and twenty-seven open pull requests as of 2026-10-12, ten open issues and twenty open pull requests as of 2026-10-16, eleven open issues and twenty-three open pull requests as of 2026-10-19, ten open issues and twenty-five open pull requests as of 2026-10-22, fourteen open issues and twenty-six open pull requests as of 2026-10-25, eleven open issues and thirty-two open pull requests as of 2026-11-03, and twelve open issues and twenty-nine open pull requests as of 2026-11-07.
 - v0.3.1 added telemetry covering the 0.3.0 features, the first data-out signal in a product whose launch story leaned on staying local; nothing in the release notes says what is collected or how to turn it off.
 - v0.5.1's browser share links are a second, bigger data-out path: sharing requires sign-in and uploads a snapshot carrying the document text, complete trace conversations, the referenced source lines, your GitHub login, and the repository's clone URL to the vendor's servers, readable by anyone with the link until revoked.
 
@@ -84,6 +84,7 @@ Not for teams that need a supported, priced, categorized tool, and not for anyon
 - 2026-10-25 - Recorded v0.4.0 (October 23, plan-mode whiteboards with the agent nesting each stack's review board under the plan board, human Markdown editing of boards, 34 themes with VS Code theme import, the TypeScript 7 language server, and sharing moved behind an experimental setting) as the new latest release; the repository stands pushed 2026-10-25 with the open-work queue at fourteen issues and twenty-six pull requests.
 - 2026-10-31 - Recorded the monorepo's train continuing past v0.4.0 under the diffr tag family (diffr/0.1.22, October 26, and diffr/0.1.23, October 30, the model-and-effort pick for new whiteboards); the repository stands pushed 2026-10-31.
 - 2026-11-03 - Recorded v0.5.1 (November 1, browser share links with sign-in-required snapshot uploads and the experimental agent-drawn animations mode) as the new latest desktop release, added the share-upload caution per the privacy docs, and refreshed the open-work queue to eleven issues and thirty-two pull requests; the repository stands pushed 2026-11-03.
+- 2026-11-07 - Volatile re-verification on the pushed signal: no release after v0.5.1 (the diffr tag family unchanged), the repository stands pushed 2026-11-06, and the open-work queue reads twelve issues and twenty-nine pull requests.
 
 ## See also
 

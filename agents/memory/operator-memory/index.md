@@ -1,7 +1,7 @@
 ---
 title: Operator Memory
 created: 2026-10-17
-updated: 2026-11-04
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, agent-memory, documentation, markdown, context-engineering]
 readability: 3
@@ -26,7 +26,7 @@ It came out of the author's August 2025 internal/ folder convention and ships wi
 ## Status
 
 **Young, single-author, and carried by one viral essay.**
-461 stars with the repository pushed 2026-11-04, created 2026-08-16, BSD-3-Clause, as of 2026-11-04 (GitHub API).
+461 stars with the repository pushed 2026-11-05, created 2026-08-16, BSD-3-Clause, as of 2026-11-04 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aerovato/operator-memory&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ It came out of the author's August 2025 internal/ folder convention and ships wi
 </picture>
 
 The liao.gg essay (2026-10-03, updated 2026-10-05) reached 392 points and 312 comments on Hacker News, and the repository is the essay's grounded implementation, so the adoption and the argument share one author.
-Development is active: the helper passed 20 npm releases in two and a half months (now at 1.11.0, with the core's machine-stable versioned preamble rollout landed), and the roadmap names an observation engine, reliable brain updates, and cache-aware preamble rendering as unfinished work.
+Development is active: the helper passed 20 npm releases in two and a half months (now at 1.12.0, with the core's machine-stable versioned preamble rollout landed), and the roadmap names an observation engine, reliable brain updates, and cache-aware preamble rendering as unfinished work.
 
 ## Strengths
 
@@ -73,6 +73,7 @@ Not for teams needing measured retrieval quality (none exists here), enterprise 
 - 2026-10-27 - Recorded the helper@v1.9.0 release (October 27, the first since 1.8.0): the OpenCode V2-default install shipped in a release rather than only on main, with Antigravity harness guides, a benchmark-discussion link in the README, and portable test fixtures.
 - 2026-10-30 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still pushed 2026-10-27, BSD-3-Clause, the helper still at 1.9.0 with twenty npm releases, the essay thread steady at 392 points and 312 comments, the README's partitions, harness table, and comparison links unchanged, the benchmark-exchange issue comment intact).
 - 2026-11-04 - Recorded the coordinated release batch (November 4): helper@v1.10.0 and v1.11.0 through a new coordinated package-publishing script, codex@v0.4.0 with improved plugin UX and marketplace updates, and the machine-stable versioned preamble rollout in core, following the November 3 removal of redundant repair commands; the push date refreshed to 2026-11-04.
+- 2026-11-07 - Recorded the November 5 releases: helper@v1.12.0 and codex@v0.4.1 (codex skill titles now lead with Operator); the push date refreshed to 2026-11-05.
 
 ## See also
 

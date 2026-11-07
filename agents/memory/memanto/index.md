@@ -1,7 +1,7 @@
 ---
 title: Memanto
 created: 2026-10-11
-updated: 2026-10-30
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, memory-agent, typed-memory, mcp, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Made by Moorcheh AI, with the April 2026 paper (arXiv 2604.22085) behind the ret
 ## Status
 
 **Active, young, and vendor-led.**
-2,326 stars and 741 forks, created 2026-03-23, pushed 2026-10-27, MIT, as of 2026-10-28 (GitHub API).
+2,326 stars and 741 forks, created 2026-03-23, pushed 2026-11-05, MIT, as of 2026-10-28 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=moorcheh-ai/memanto&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ My disagreeable claim: the management layer, not the store, is where memory prod
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 - 2026-10-28 - Recorded the MCP-first Claude Code integration (claudecode-memanto v0.1.2, 2026-10-27): the install now registers the memanto MCP server with pre-approved tools, matching the connect command's project-dir and agent-id flags, plus registry packaging and connect path fixes; the push date refreshed to 2026-10-27.
 - 2026-10-30 - Recorded v0.2.31 (October 29, PyPI and npm both in sync): caller attribution unified around `--source` (breaking: `--tool` removed from recall and answer), connect instruction and skill path fixes across agents, and session-cache plus OKF import edge-case fixes.
+- 2026-11-07 - Rotation re-verification: every cited URL re-fetched live (repository API and README, docs, arXiv paper, PyPI, the HN search, the entrant source), PyPI still at 0.2.31 with about 44 releases, the HN record unchanged (14-point June 2026 thread, 3-point September migration story), and the post-October default-branch work is minor: Composio custom tools, a filterable agent dropdown in the connect modal, and an MCPB manifest so memanto-mcp installs in Claude Desktop; the push date refreshed to 2026-11-05.
 
 ## See also
 
@@ -94,6 +95,6 @@ My disagreeable claim: the management layer, not the store, is where memory prod
 - https://raw.githubusercontent.com/moorcheh-ai/memanto/main/README.md - the memory-agent model, the six behaviors, 13 memory types, OKF export, the migrate command, local mode, and the benchmark caveat
 - https://docs.memanto.ai - the two backends (Moorcheh Cloud free key, on-prem Docker plus Ollama), install paths, and SDK references
 - https://arxiv.org/abs/2604.22085 - the paper (April 2026): typed semantic memory, information-theoretic retrieval, and the 89.8/87.1 claims
-- https://pypi.org/pypi/memanto/json - memanto 0.2.30 (2026-10-23) and the release count
+- https://pypi.org/pypi/memanto/json - memanto 0.2.31 (2026-10-29), about 44 releases (re-verified 2026-11-07)
 - https://hn.algolia.com/api/v1/search?query=memanto&tags=story - the discussion record (14-point June 2026 thread, 3-point September migration story)
 - https://github.com/TeleAI-UAGI/Awesome-Agent-Memory - the entrant source that surfaced it, as of 2026-10-11

@@ -1,7 +1,7 @@
 ---
 title: llamafile
 created: 2026-10-07
-updated: 2026-11-03
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, single-file]
 readability: 3
@@ -23,7 +23,7 @@ Release 0.10.6 (September 2026) moved to a new build system on the 0.10 line, an
 
 ## Status
 
-Active under Mozilla.ai stewardship: created 2023-09-10, 26,232 stars as of 2026-10-14, release 0.10.6 published 2026-09-15 (still latest as of 2026-10-21), repo pushed 2026-10-12 (as of 2026-10-21).
+Active under Mozilla.ai stewardship: created 2023-09-10, 26,232 stars as of 2026-10-14, release 0.10.6 published 2026-09-15 (still latest as of 2026-11-07), repo pushed 2026-11-05 with default-branch work syncing llama.cpp v0.8.0, re-enabling Metal in transcribefile on transcribe.cpp v0.4.1, and adding decision-model support on a /v1/systemone endpoint in CLI and chat modes (as of 2026-11-07).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mozilla-ai/llamafile&type=date&theme=dark&legend=top-left" />
@@ -69,6 +69,7 @@ Not as a daily driver for people who churn models weekly, and not for serving ag
 - 2026-10-07 - Created.
 - 2026-10-21 - Full re-verification correction: the x64 requirement is AVX (Intel Core 2006+ or AMD K8 2003+), not the AVX2 requirement this note claimed, and the README's compatibility note is now the 4GB Windows single-file limit; the caution moved to the corrected claim grounded in the supported-systems docs, which joined the references.
 - 2026-11-03 - Rotation re-verification: every cited URL re-fetched live (repository, API, releases, README, launch post, docs hub, and the supported-systems page) with every claim held, 0.10.6 still the latest release and the repo pushed 2026-10-12 unchanged; nothing moved.
+- 2026-11-07 - Push refresh: the default branch moved 2026-11-04 to 11-05 with a llama.cpp v0.8.0 sync, a transcribefile sync to transcribe.cpp v0.4.1 that re-enabled Metal, an ARM legacy-quant fix, and decision-model support on a /v1/systemone endpoint in CLI and chat modes (#1082), making llamafile the third local-serving member here to read decision models after LocalAI and Ollama; 0.10.6 is still the latest release and no cited claim otherwise moved.
 
 ## See also
 
@@ -80,7 +81,8 @@ Not as a daily driver for people who churn models weekly, and not for serving ag
 ## References
 
 - https://github.com/mozilla-ai/llamafile - repository, README, licensing badge, whisperfile, and the 0.10 build-system note (fetched 200, 2026-10-07; re-fetched 2026-10-21; re-fetched 2026-11-03 unchanged)
-- https://api.github.com/repos/mozilla-ai/llamafile - stars, created date, push date, and the NOASSERTION license field (fetched 200, 2026-10-07; re-fetched 2026-10-14 at 26,232 stars, pushed 2026-10-12; re-fetched 2026-10-19, pushed 2026-10-12 and 0.10.6 still latest; re-fetched 2026-10-21, pushed 2026-10-12 unchanged, 0.10.6 still latest; re-fetched 2026-11-03, pushed 2026-10-12 unchanged, 0.10.6 still latest).
+- https://api.github.com/repos/mozilla-ai/llamafile - stars, created date, push date, and the NOASSERTION license field (fetched 200, 2026-10-07; re-fetched 2026-10-14 at 26,232 stars, pushed 2026-10-12; re-fetched 2026-10-19, pushed 2026-10-12 and 0.10.6 still latest; re-fetched 2026-10-21, pushed 2026-10-12 unchanged, 0.10.6 still latest; re-fetched 2026-11-03, pushed 2026-10-12 unchanged, 0.10.6 still latest; re-fetched 2026-11-07, pushed 2026-11-05, 0.10.6 still latest).
+- https://api.github.com/repos/mozilla-ai/llamafile/commits?since=2026-11-04T00:00:00Z - the default-branch pushes behind the 2026-11-05 pushed date: the llama.cpp v0.8.0 sync (2026-11-04), the transcribefile Metal re-enable on transcribe.cpp v0.4.1, the ARM legacy-quant fix, and decision-model support on /v1/systemone in CLI and chat modes (all 2026-11-05) (fetched 200, 2026-11-07).
 - https://hacks.mozilla.org/2023/11/introducing-llamafile/ - Mozilla's launch announcement: the six-OS goal, Justine Tunney's authorship, and the Apache-2.0 plus MIT split (fetched 200, 2026-10-07; re-fetched 2026-10-21; re-fetched 2026-11-03 unchanged)
 - https://docs.mozilla.ai/llamafile - the Mozilla.ai docs hub, pre-built llamafiles, and whisperfile surface (fetched 200, 2026-10-07; re-fetched 2026-10-21; re-fetched 2026-11-03 unchanged)
 - https://docs.mozilla.ai/llamafile/reference/support - the supported-systems page grounding the corrected CPU claim: AMD64 requires AVX (Intel Core 2006+ or AMD K8 2003+), with AVX2, AVX512, FMA, F16C, and VNNI conditionally enabled at runtime (fetched 200, 2026-10-21; re-fetched 2026-11-03 unchanged)

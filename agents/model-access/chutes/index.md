@@ -1,7 +1,7 @@
 ---
 title: Chutes
 created: 2026-09-26
-updated: 2026-10-29
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, inference, pay-as-you-go, bittensor]
 readability: 3
@@ -41,7 +41,7 @@ I could not verify funding or traffic figures.
 
 ## Pricing
 
-PAYG is the only path as of 2026-10-29: GLM-5.2 $1.25 in / $3.95 out per 1M, Kimi-K3 $1.85/$9.50, DeepSeek-V3.2 $1.00/$1.00, Qwen3.8-27B $0.039/$1.25, with a cached-input rate listed for every featured model (GLM-5.2 $0.125, Kimi-K3 $0.185) on the ten-model featured table.
+PAYG is the only path as of 2026-10-29 (re-verified 2026-11-07): GLM-5.2 $1.25 in / $3.95 out per 1M, Kimi-K3 $1.85/$9.50, DeepSeek-V3.2 $1.00/$1.00, Qwen3.8-27B $0.039/$1.25, with a cached-input rate listed for every featured model (GLM-5.2 $0.125, Kimi-K3 $0.185) on the featured table, which grew from ten to 18 models by the 2026-11-07 read (GLM-5.3 newly listed at $1.225 in / $3.85 out with a $0.245 cached rate, beside Kimi K2.6 and K2.7-Code, DeepSeek-V4 variants, and Qwen3.8-Max).
 The Plus $10 and Pro $20 monthly plans are no longer sold: the pricing page carries no plan cards, and the FAQ states that existing plans stay active to the end of the current billing period and then do not renew, with usage billing PAYG from the account balance after that.
 There is no free tier and no free trial per the FAQ.
 Private chutes run on an RTX Pro 6000 at $2.25/hour plus a $6.75 one-time deployment fee (3x the hourly rate), up from $1.80/hour and $5.40 at the 2026-10-14 read.
@@ -76,6 +76,7 @@ Claim to disagree with: after the 5x cap, Plus and Pro make little sense for cod
 - 2026-10-06 - Cleaned the Compared-to and See also link labels (stray leading dashes inside the link text), with the pricing page re-verified unchanged.
 - 2026-10-14 - PAYG re-check: Kimi-K3 moved to $1.85/$9.50 per 1M tokens from $3.00/$15.00, with the subscription tiers and the other verified PAYG rates unchanged; price history row appended.
 - 2026-10-29 - Rotation re-verification with a subscription retirement on the page: the Plus/Pro monthly plans are no longer sold (the pricing page carries PAYG and private chutes only, existing plans run out their billing period without renewal per the FAQ), the self-serve TEE GPU rate rose to $2.25/hour with a $6.75 deployment fee (from $1.80/$5.40), the featured model table now carries cached-input rates with Kimi-K3 PAYG holding at $1.85/$9.50, and the FAQ adds no free tier and no free trial; every cited URL re-fetched live this run, price history rows appended.
+- 2026-11-07 - Rotation re-verification: every cited URL re-fetched live (the pricing page, the three news posts, the deploy docs, and the InfoWorld review) with the plan-free PAYG page state, the $2.25/hour GPU rate and $6.75 fee, every cited PAYG rate (GLM-5.2, Kimi-K3, DeepSeek-V3.2, Qwen3.8-27B), and the historical posts all unchanged; the featured table grew from ten to 18 models with GLM-5.3 newly listed at $1.225/$3.85, and the FAQ's plan and free-trial questions are still present (the answers render client-side and did not re-read this run, so the 2026-10-29 answer text stands).
 
 ## See also
 
@@ -86,9 +87,9 @@ Claim to disagree with: after the 5x cap, Plus and Pro make little sense for cod
 
 ## References
 
-- https://chutes.ai/pricing - current PAYG model rates with cached-input columns, private GPU pricing at $2.25/hour and a $6.75 deploy fee, and the FAQ stating monthly plans are no longer sold (fetched, HTTP 200, re-verified unchanged 2026-10-11; re-fetched 2026-10-14 with the Kimi-K3 rate at $1.85/$9.50; re-fetched 2026-10-29 with the plans withdrawn from sale, the GPU rate at $2.25/hour, and the no-free-tier FAQ statement).
-- https://chutes.ai/news/community-announcement-february - February 27, 2026 changes: Early Access retirement, 5x subscription cap, Base tier model removals, abuse tables (fetched, HTTP 200).
-- https://chutes.ai/news/from-volume-to-value-building-a-sustainable-ai-inference-platform-2 - March 20, 2026 economics: tokens down 45%, revenue per token up 37.7%, free-tier costs (fetched, HTTP 200).
-- https://chutes.ai/news/coming-soon - July 31, 2025 post announcing the first pricing tiers (fetched, HTTP 200).
-- https://chutes.ai/docs/cli/deploy - private chute deployment mechanics and deployment fee structure (fetched, HTTP 200).
-- https://www.infoworld.com/article/4075825/how-to-vibe-code-for-free-or-almost-free.html - critical third-party review: underwhelming performance, ambiguous privacy policy, signup bugs; confirms the $3 entry tier in October 2025 (fetched, HTTP 200).
+- https://chutes.ai/pricing - current PAYG model rates with cached-input columns, private GPU pricing at $2.25/hour and a $6.75 deploy fee, and the FAQ stating monthly plans are no longer sold (fetched, HTTP 200, re-verified unchanged 2026-10-11; re-fetched 2026-10-14 with the Kimi-K3 rate at $1.85/$9.50; re-fetched 2026-10-29 with the plans withdrawn from sale, the GPU rate at $2.25/hour, and the no-free-tier FAQ statement; re-fetched 2026-11-07 with the PAYG-only state, the GPU rate, and every cited model rate unchanged, the featured table grown to 18 models with GLM-5.3 newly listed, and the FAQ answers rendering client-side).
+- https://chutes.ai/news/community-announcement-february - February 27, 2026 changes: Early Access retirement, 5x subscription cap, Base tier model removals, abuse tables (fetched, HTTP 200; re-fetched 2026-11-07 unchanged).
+- https://chutes.ai/news/from-volume-to-value-building-a-sustainable-ai-inference-platform-2 - March 20, 2026 economics: tokens down 45%, revenue per token up 37.7%, free-tier costs (fetched, HTTP 200; re-fetched 2026-11-07 unchanged).
+- https://chutes.ai/news/coming-soon - July 31, 2025 post announcing the first pricing tiers (fetched, HTTP 200; re-fetched 2026-11-07 unchanged).
+- https://chutes.ai/docs/cli/deploy - private chute deployment mechanics and deployment fee structure (fetched, HTTP 200; re-fetched 2026-11-07 unchanged).
+- https://www.infoworld.com/article/4075825/how-to-vibe-code-for-free-or-almost-free.html - critical third-party review: underwhelming performance, ambiguous privacy policy, signup bugs; confirms the $3 entry tier in October 2025 (fetched, HTTP 200; re-fetched 2026-11-07 unchanged).

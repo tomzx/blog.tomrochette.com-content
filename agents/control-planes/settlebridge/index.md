@@ -1,7 +1,7 @@
 ---
 title: SettleBridge
 created: 2026-09-27
-updated: 2026-11-05
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-settlement, trust, escrow, policy-enforcement, audit]
 readability: 3
@@ -19,13 +19,14 @@ SettleBridge (a2a-settlement/settlebridge-ai) is a trust and policy gateway that
 The gateway is a Python and FastAPI service with a React dashboard, a hot-reloading policy engine, a Redis-backed reputation cache, health monitoring of the upstream exchange and mediator, threshold-based alert rules, and a structured audit log.
 It deploys via Docker Compose, a Helm chart, or an AWS CloudFormation script, and the product page advertises 16 management API endpoints.
 An optional bounty marketplace (`MARKETPLACE_ENABLED=true`) adds escrow-backed contracts, a claim and submission flow, and an AI-assisted bounty drafting assistant.
+Since 2026-11-07 the marketplace also covers private and internal GitHub repositories: a private bounty is visible and claimable only to signed-in users whose GitHub account has read access on the repository, matched by GitHub user id, and security-severity code-scanning alerts open security-tier bounties there.
 It is built on the open A2A-SE (A2A Settlement Extension) standard, which the same organization publishes under MIT, and the gateway sits on top of the upstream exchange, mediator, and auth projects rather than replacing them.
 The vendor is Truthsetter LLC.
 
 ## Status
 
 Early and low-traffic but actively maintained.
-The gateway repository was created 2026-03-08 and sits at 1 star, 0 forks, and 1 open issue as of 2026-10-18, with 76 commits and a last push on 2026-09-25; the A2A-SE standard repository has 2 stars.
+The gateway repository was created 2026-03-08 and sits at 1 star and 0 forks as of 2026-10-18, with 1 open issue, 178 commits on main, and a last push on 2026-11-07 as of 2026-11-07; the A2A-SE standard repository has 2 stars.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2a-settlement/settlebridge-ai&type=date&theme=dark&legend=top-left" />
@@ -83,6 +84,7 @@ The Exchange charges 0.25% of each settled transaction as an ATE treasury fee.
 - 2026-10-18 - Rotation re-verification: every cited URL re-fetched, all facts unchanged (1 star, 0 forks, 1 open issue, 76 commits, last push 2026-09-25), pricing unchanged, and the license metadata still unresolved (site says Apache-2.0, GitHub API reports none, LICENSE still 404).
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched, all facts unchanged (1 star, 0 forks, 1 open issue, 76 commits, last push 2026-09-25), pricing unchanged, HN still zero threads, and the license metadata still unresolved; the A2A-SE standard repository moved on 2026-10-23.
 - 2026-11-05 - Rotation re-verification: every cited URL re-fetched and live, all facts unchanged (1 star, 0 forks, 1 open issue, 76 commits, last push 2026-09-25), pricing unchanged (Community $0, Enterprise $2,500/month, Exchange 0.25 percent), HN still zero threads, the README's MIT badge still linking to a LICENSE path that 404s with GitHub detecting no license, and the A2A-SE standard docs and repository unchanged.
+- 2026-11-07 - Added the private-repo bounty line to What it is: the bounty marketplace now covers private and internal GitHub repositories, exposing a private bounty only to signed-in users whose linked GitHub account has read access on the repo (PR 32, merged 2026-11-07), with security-severity code-scanning alerts opening security-tier bounties there; the commit count moved from 76 to 178 on main with most of the work landing 2026-11-06 and 11-07.
 
 ## See also
 

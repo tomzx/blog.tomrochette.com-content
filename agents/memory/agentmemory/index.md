@@ -1,7 +1,7 @@
 ---
 title: agentmemory
 created: 2026-10-09
-updated: 2026-11-04
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, mcp, open-source]
 readability: 3
@@ -33,9 +33,9 @@ The design doc extends Karpathy's LLM-wiki pattern with confidence scores, lifec
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.9.31 (2026-10-26) with npm in sync at 0.9.31, and 59,741 trailing-month npm downloads (2026-10-05 to 2026-11-04), as of 2026-11-04; the pending v0.9.31 shipped the iii v0.25.0 runtime upgrade with Worker Compose and the native Pi, Oh My Pi, and DeepSeek Harness integrations, plus a retrieval fix the release grounds in the project's own BM25 development evaluation: correcting prefix-score inflation raised strict recall-all@5 from 65.74 to 84.68 percent (complete-evidence 309 to 398 of 470 answerable), summaries now process only new observations so unchanged sessions make zero extra summarization calls, and optional graph enrichment runs under a 500 ms budget so keyword and vector results return if graph storage stalls.
-The post-release default-branch train (2026-11-03 and 04, pending release) restores CJK recall for core observation search, re-ranks scoped smart search when its first window leaves the page short, preserves original memory types in search responses, excludes unscoped memories from project-filtered recall, stops the CLI from prompting Fix/Skip in non-interactive shells, records why the stdio shim dies, and addresses the plugin directory review on data capture, providers, and listing.
-The release train runs roughly monthly (v0.9.27 in June, v0.9.28 in July, v0.9.29 in August, v0.9.30 in October).
+Latest release v0.9.32 (2026-11-04) with 59,741 trailing-month npm downloads (2026-10-05 to 2026-11-04), as of 2026-11-04; the pending v0.9.31 shipped the iii v0.25.0 runtime upgrade with Worker Compose and the native Pi, Oh My Pi, and DeepSeek Harness integrations, plus a retrieval fix the release grounds in the project's own BM25 development evaluation: correcting prefix-score inflation raised strict recall-all@5 from 65.74 to 84.68 percent (complete-evidence 309 to 398 of 470 answerable), summaries now process only new observations so unchanged sessions make zero extra summarization calls, and optional graph enrichment runs under a 500 ms budget so keyword and vector results return if graph storage stalls.
+v0.9.32 is a privacy-first breaking release: an API key alone no longer turns on an outside LLM or embedding provider (LLM summaries, compression, consolidation, and reflection need an explicit `AGENTMEMORY_LLM_PROVIDER` plus its key, cloud embeddings need `EMBEDDING_PROVIDER`, unset means BM25 and graph only), hooks refuse to send anything to a remote plain-HTTP server, and PreCompact injects stored memory only with `AGENTMEMORY_INJECT_CONTEXT=true`; it also ships the pending train's recall fixes (CJK recall, scoped smart-search re-ranking, memory types preserved in search responses), MCP tool annotations with a published privacy policy, official OpenAI plugin directory, Hermes catalog, and ClawHub listings, self-installing iii on native Windows, and versioned Docker Hub images.
+The release train runs roughly monthly (v0.9.27 in June, v0.9.28 in July, v0.9.29 in August, v0.9.30 in October, v0.9.31 and v0.9.32 in November).
 I found no dedicated Hacker News thread through 2026-10-09 searches, so the stars came through awesome-list placement and agent registries rather than public debate, the same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and memU.
 
 ## Strengths
@@ -77,6 +77,7 @@ Not for single-harness users (claude-mem is simpler and battle-tested), privacy-
 - 2026-10-27 - Recorded the v0.9.31 release (October 26): the iii v0.25.0 runtime upgrade with Worker Compose and the native Pi, Oh My Pi, and DeepSeek Harness integrations shipped as prepared, plus the prefix-score retrieval fix (strict recall-all@5 65.74 to 84.68 percent in the project's BM25 development evaluation), incremental summarization, and the 500 ms graph-enrichment budget; npm re-verified in sync at 0.9.31.
 - 2026-10-30 - Rotation re-verification: every cited URL re-fetched live, no facts changed (npm still in sync at 0.9.31, the README's benchmark table matching the recorded v0.9.31 figures, the leaderboard still in Cycle 2 with no agentmemory among Cycle 1's leaders, the HN search still finding no dedicated thread); the post-release pushes are a Cline MCP settings-path fix, doctor diagnostics, and viewer docs; the push date refreshed to 2026-10-29.
 - 2026-11-04 - Rotation re-verification: every cited URL re-fetched live (repository API, README, license and releases APIs, npm registry, dated-range npm downloads, the HN footprint search, the leaderboard), no facts reversed (npm still in sync at 0.9.31, the leaderboard page still lists no agentmemory, the HN search still finds no dedicated thread); trailing-month npm downloads refreshed to 59,741 (2026-10-05 to 11-04) and the pending post-release train recorded; the push date refreshed to 2026-11-04.
+- 2026-11-07 - Recorded v0.9.32 (November 4), which shipped the pending train and turned key-detected providers off by default: outside LLM and cloud embeddings now need explicit provider environment variables, hooks refuse plain-HTTP remote servers, and PreCompact injection is opt-in, with the recall fixes, MCP tool annotations, a published privacy policy, official Codex/Hermes/OpenClaw plugin listings, native Windows iii self-install, and Docker Hub images riding the same release.
 
 ## See also
 

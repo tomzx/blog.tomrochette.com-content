@@ -1,7 +1,7 @@
 ---
 title: "Surface Feature Matrix"
 created: 2026-08-24
-updated: 2026-11-04
+updated: 2026-11-07
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, surfaces, ai-editors]
 readability: 3
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Cloud agents | ✗ threads run on your machine | ✗ local and SSH only | ✗ local, remote over IM and H5 | ~ your own server or Docker | ~ your machines only (desktop, your own server, the OpenTunnel relay), no vendor cloud | ~ remote control | ✓ cloud agents | ~ web and cloud runners | ✓ | ~ | ✓ web and Crew | ✗ agents run on your machine | ✗ local machine only | ~ optional Early Access cloud keeps the folder online for remote agents; the desktop is local | ✗ your own machines only, remote-first over HTTP | ~ Cloud sunset 2026-05 | ✓ TraeWork | ✗ local sessions only | ✓ Copilot cloud since 18.1 | ✗ | ✓ Copilot agent | ✗ local by architecture, the browser client reaches your own daemon | ~ your own hosts over experimental SSH, no vendor cloud | ✓ Devin | ✗ |
 | Parallel agent management | ✓ threads, agents spawn agents | ✓ core loop | ✓ sessions plus Agent Teams | ✓ main-agent delegation to typed sub-agents | ✓ projects, nested sessions, worktrees, background tasks and child sessions | ✓ command center | ~ cloud agents | ✓ threads | ✓ fleets | ? | ✓ Crew | ✓ session kanban with worktree isolation | ✓ core loop | ~ many agents on one folder with scoped access points, no session grid documented | ~ multi-turn agent threads with batch inline edits, not a session grid | ~ orchestrator mode | ✓ concurrent tasks | ✓ core loop (swarm grid) | ✗ none documented | ✗ | ✓ Agents window | ✓ independent sessions, queue and steer mid-turn | ✗ none advertised | ✓ Command Center | ~ agent panel |
 | Scheduled work | ✓ scheduled-jobs plugin | ✗ none documented | ✓ scheduled tasks | ✓ cron automations | ✗ none documented | ✓ scheduled messages | ✓ automations | ? | ✓ automations | ? | ✓ hooks | ~ automations documented | ✓ cron | ✗ none documented | ✗ none documented | ? | ? | ✗ none documented | ✗ none documented | ✗ | ~ via GitHub, cloud automations in the Agents window (1.144, preview), cron schedules for local automations (1.145) | ✗ none documented | ✗ none advertised | ? | ✗ |
-| Mobile surface | ~ web app and remote-access plugins | ✗ none documented | ~ H5 and IM channels plus native Android and iOS apps (v0.7.6, Chinese UI) | ✓ native iOS and Android | ~ browser remote control through the OpenTunnel relay, no native app | ✓ remote control | ✓ iOS app | ✓ mobile browser | ✓ | ✓ | ✓ | ✓ iOS companion, Android in development | ✓ beta | ✗ none documented | ~ any-browser UI (the site claims tablet and mobile), no native app | ? | ? | ✗ none documented | ✗ | ✗ | ✓ Copilot app | ✗ none documented | ✗ desktop app only | ? | ✗ |
+| Mobile surface | ~ iOS app in the update path, Android in alpha, plus web app and remote-access plugins | ✗ none documented | ~ H5 and IM channels plus native Android and iOS apps (v0.7.6, Chinese UI) | ✓ native iOS and Android | ~ browser remote control through the OpenTunnel relay, no native app | ✓ remote control | ✓ iOS app | ✓ mobile browser | ✓ | ✓ | ✓ | ✓ iOS companion, Android in development | ✓ beta | ✗ none documented | ~ any-browser UI (the site claims tablet and mobile), no native app | ? | ? | ✗ none documented | ✗ | ✗ | ✓ Copilot app | ✗ none documented | ✗ desktop app only | ? | ✗ |
 
 ## Reading the matrix
 
@@ -96,6 +96,7 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - 2026-10-27 - Extended from twenty-four to twenty-five columns with puppyone (the local-first agent folder editor with Git-tracked redlines and an Early Access cloud context file system behind it), inserted in case-insensitive sorted position between OpenChamber and px0, every row gaining a cell traced to the new note; updated the intro, the cloud-agents and sovereignty readings, and the choosing section.
 - 2026-10-31 - Moved two cells on release evidence: the cc-haha Mobile surface cell gained its native Android and iOS apps (v0.7.6, Chinese UI), and the VS Code + Copilot Scheduled work cell gained the Agents window's cloud automations (1.144, preview); no membership change.
 - 2026-11-04 - Moved the VS Code + Copilot Scheduled work cell again on the 1.145 release, whose local automations gain five-field cron schedules beside the 1.144 cloud automations preview; no membership change.
+- 2026-11-07 - Moved the bb Mobile surface cell on the product changelog's mobile evidence: an iOS app sits in the update path and an Android app is in alpha since the 0.45.0 line, beside the web app and remote-access plugins; no membership change.
 
 ## See also
 

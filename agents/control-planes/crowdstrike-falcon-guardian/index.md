@@ -1,7 +1,7 @@
 ---
 title: CrowdStrike Falcon Guardian
 created: 2026-10-04
-updated: 2026-10-30
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, governance, security]
 readability: 3
@@ -17,13 +17,15 @@ CrowdStrike Falcon Guardian is a commercial AI detection and response (AIDR) cap
 
 Falcon Guardian launched at Fal.Con 2026 as CrowdStrike's agent-security layer: shadow-AI discovery, prompt-to-action tracing, governance controls, and runtime protection against prompt injection and poisoned tools.
 It connects AI activity with endpoint telemetry, so a user prompt can be followed into the downstream processes and system actions it caused.
-Coverage is pitched across endpoint, cloud, and SaaS, with a new AI gateway capability announced alongside the launch.
+Coverage is pitched across endpoint, cloud, and SaaS.
+At Fal.Con Europe on 2026-11-03 the vendor made the Falcon AI Gateway generally available and included it with Guardian, made agent-level hooks available for Claude Code, OpenAI Codex, GitHub Copilot, OpenCode, and Cursor, and shipped an AI kill switch that cuts model access off at the gateway; cloud coverage (Linux, cloud workloads, Kubernetes, Amazon Bedrock AgentCore) and a Claude Cowork integration are pre-beta.
 There is no public repo, no version number, and no public price; distribution is the Falcon platform and its sales motion.
 
 ## Status
 
-New and vendor-controlled: announced at Fal.Con 2026 (September 2026) with product pages, a launch blog, and documentation paths live as of 2026-10-06.
-The marketing page claims 99 percent detection efficacy against prompt attacks and sub-100-millisecond detection latency, figures an independent party has not tested.
+New and vendor-controlled: announced at Fal.Con 2026 (September 2026), expanded at Fal.Con Europe 2026-11-03 with the AI gateway, agent-level hooks, and the kill switch live per the vendor's announcement blog.
+The 99 percent prompt-attack efficacy and sub-100-millisecond latency claims that carried the launch page no longer appear on it as of 2026-11-07 (the page was reworked around the Europe announcements); no independent test of any efficacy figure has appeared.
+The product page now carries named customers (Cogentrix, TaxSlayer), and detection is attributed to SafeMind models built with NVIDIA, all vendor-supplied.
 Community response started skeptical: the r/crowdstrike thread asks what happens to agents that do not run on managed endpoints and reads the product as sensor-bound, which is the objection this category's endpoint-anchored entrants always face.
 
 ## Strengths
@@ -36,9 +38,10 @@ Community response started skeptical: the r/crowdstrike thread asks what happens
 ## Cautions
 
 - The anchor is the endpoint: agents running in containers, CI, cloud shells, or unmanaged machines are outside the sensor's sight, which is exactly where much agentic coding work happens.
-- Every performance figure is self-reported, and the product is weeks old, so nothing has an independent record yet.
+  The agent-level hooks answer part of this for five coding agents, and the cloud coverage that answers the rest is pre-beta.
+- Every performance figure is self-reported, and the product is three months old, so nothing has an independent record yet.
 - Closed and quote-priced: no repo, no version, no public per-agent price, and procurement goes through the Falcon platform relationship.
-- The AI gateway capability is announced, not documented in depth, so its scope is a roadmap claim for now.
+- The AI gateway is now generally available and included with Guardian per the vendor's blog, but every capability description still comes from the vendor, so verify its scope in a pilot.
 
 ## Pricing
 
@@ -62,6 +65,7 @@ Not for teams whose agents run outside managed endpoints, and not for anyone who
 - 2026-10-16 - Rotation re-verification: every reference re-fetched, the product page still carrying the 99 percent prompt-attack efficacy and sub-100-millisecond claims plus the AI gateway announcement, the docs path still a client-rendered shell, and the Reddit thread still blocking scripted fetches; no drift found.
 - 2026-10-23 - Rotation re-verification: every reference re-fetched, the product page still carrying the 99 percent and sub-100-millisecond internal-benchmark claims with the AI gateway still marked coming soon, the launch blog (September 1) and AIDR solution page unchanged, the docs path still a client-rendered shell, and the Reddit thread still 403 to scripted fetch; no drift found.
 - 2026-10-30 - Rotation re-verification: every reference re-fetched with the same result set, the product page still carrying the internal-benchmark claims with the AI gateway still marked coming soon (the FAQ now naming 200-plus prompt-injection techniques), the launch blog and AIDR solution page unchanged, the docs path still a client-rendered shell, and the Reddit thread still 403 to scripted fetch; no drift found.
+- 2026-11-07 - Full rotation re-verification with drift: the product page and solution page were reworked for the Fal.Con Europe 2026-11-03 announcements, the 99 percent and sub-100-millisecond claims no longer appear on either page, the Falcon AI Gateway is now generally available and included with Guardian, agent-level hooks are available for Claude Code, OpenAI Codex, GitHub Copilot, OpenCode, and Cursor, an AI kill switch shipped at gateway enforcement, cloud coverage and the Claude Cowork integration are pre-beta, and named customers and the SafeMind-with-NVIDIA attribution were added; the launch blog (September 1) unchanged, the docs path still a client-rendered shell, the Reddit thread still 403 to scripted fetch, and the Fal.Con Europe advances blog added as a reference.
 
 ## See also
 
@@ -77,3 +81,4 @@ Not for teams whose agents run outside managed endpoints, and not for anyone who
 - https://www.crowdstrike.com/en-us/solutions/ai-detection-and-response/ - the AIDR solution page grounding the endpoint-telemetry connection claim, fetched 2026-10-04.
 - https://docs.crowdstrike.com/help/falcon-guardian - official documentation path (200, client-rendered application shell; content not extractable by script this run).
 - https://www.reddit.com/r/crowdstrike/comments/1w5ovkv/crowdstrike_falcon_guardian_secure_ai_agents/ - the skeptical community thread on endpoint-bounded coverage (403 to scripted fetch; content read via search this run).
+- https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/ - the Fal.Con Europe 2026-11-03 announcement grounding the gateway GA, the agent hooks, the AI kill switch, the pre-beta cloud coverage, and the SafeMind attribution.

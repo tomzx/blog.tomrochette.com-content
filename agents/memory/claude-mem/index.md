@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-11-04
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -32,7 +32,8 @@ Very large and fast: about 101.1k stars as of 2026-10-16, with 63,865 npm downlo
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left" />
 </picture>
 
-Created 2025-08-31, pushed 2026-11-04, latest tagged release v15.9.0 on 2026-11-02 with npm in sync at 15.9.0 as of 2026-11-04, and 89,686 npm downloads in the trailing month (2026-10-05 to 2026-11-04).
+Created 2025-08-31, pushed 2026-11-07, latest tagged release v15.11.0 on 2026-11-06 with npm in sync as of 2026-11-07, and 89,686 npm downloads in the trailing month (2026-10-05 to 2026-11-04).
+v15.10.0 (November 5) shipped the pending train as an onboarding rework (setup now leads with discovering your existing work, rules, and focus from your transcripts), a capture kill switch (`CLAUDE_MEM_OBSERVER_ENABLED=false` stops new observation and summary calls while keeping existing memories and search), per-source observer provider selection (`CLAUDE_MEM_PROVIDER_BY_SOURCE`, for example Codex sessions on Codex), a long-lived Claude login via `CLAUDE_CODE_OAUTH_TOKEN` in the local env file, chained mode overrides, and viewer sync with shared My Work state, plus reliability fixes for worker pool saturation and hung context reads; v15.10.1 (November 6) and v15.11.0 (November 6) followed with installer setup-screen telemetry (nine screens, gated by the existing analytics settings including `DO_NOT_TRACK`, prompts, filenames, URLs, and credentials excluded) and runtime fixes stopping stale observer work from replaying after quota or authentication recovery.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.
@@ -126,6 +127,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-11-01 - Recorded v15.7.0 and v15.8.0: the My Work auto-refresh no longer spills refused runs to the next logged-in agent (the fix for the hidden codex exec runs on owners' ChatGPT accounts, about 230 in four days), the note-taker default moved to the newest-Haiku alias, and My Work gained a cloud viewer host with work_state sync for every account; npm re-verified in sync at 15.8.0, trailing-month downloads refreshed to 74,755 (2026-10-02 to 2026-11-01).
 - 2026-11-03 - Recorded v15.9.0 (November 2): Devin CLI and Desktop join the install paths, My Work gains a manual Refresh now button with per-provider refresh model settings, a remote-worker URL setting requires https off-machine, and redaction covers Slack and Discord webhooks, Stripe, PyPI, SendGrid, DigitalOcean, Shopify, Docker Hub, and GitLab tokens; npm re-verified in sync at 15.9.0, trailing-month downloads refreshed to 86,399 (2026-10-04 to 2026-11-03).
 - 2026-11-04 - Recorded the pending post-v15.9.0 train (November 4): per-session observer provider routing, Devin compaction re-injection, Linear and Notion token redaction, OpenCode tool inputs recognized as agent-authored, checkout-path preservation before memory remapping, the Goose Windows config registration, and language-mode override chaining; npm still in sync at 15.9.0, trailing-month downloads refreshed to 89,686 (2026-10-05 to 11-04), and the push date refreshed to 2026-11-04.
+- 2026-11-07 - Recorded the v15.10 and v15.11 lines (November 5-6): v15.10.0 shipped the onboarding discovery rework, a capture kill switch (`CLAUDE_MEM_OBSERVER_ENABLED`), per-source observer providers, a long-lived Claude login env token, and chained mode overrides; v15.10.1 and v15.11.0 added installer setup-screen telemetry and the fix stopping stale observer work replaying after quota or authentication recovery; the push date refreshed to 2026-11-07.
 
 ## See also
 

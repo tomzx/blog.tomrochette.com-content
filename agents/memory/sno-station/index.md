@@ -1,7 +1,7 @@
 ---
 title: Sno Station
 created: 2026-10-28
-updated: 2026-11-04
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, cross-harness, encryption, open-source]
 readability: 3
@@ -28,7 +28,7 @@ Three data modes surround that core: Local First uploads no memory text, Agent N
 ## Status
 
 **Young, fast-rising, and entirely self-evidenced.**
-929 stars and 364 forks on a repository created 2026-09-19 (public since 2026-09-18) and pushed 2026-11-04, Apache-2.0, as of 2026-11-04 (GitHub API).
+929 stars and 364 forks on a repository created 2026-09-19 (public since 2026-09-18) and pushed 2026-11-07, Apache-2.0, as of 2026-11-07 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sno-ai/sno-station&type=date&theme=dark&legend=top-left" />
@@ -36,8 +36,8 @@ Three data modes surround that core: Local First uploads no memory text, Agent N
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=sno-ai/sno-station&type=date&legend=top-left" />
 </picture>
 
-The newest published release is v1.7.3 (2026-11-02): one agent can ping another while you are typing in that window, the ping waits in the recipient's inbox with nothing sent on your behalf, and the half-written message stays where it was, with the same behavior in tmux and Orca.
-The version line itself is unreliable, and the pattern repeated: the v1.7.1 release this note recorded as newest on 2026-10-29 is now itself gone from tags and releases two days later, and GitHub tags jump from v1.3.5 to v1.7.2, so release history has been deleted or rewritten again; v1.7.2 itself still stands in tags and releases as of 2026-11-03, so the deletion has not recurred a third time.
+The newest published release is v2.0.1 (2026-11-07): v2.0.0 (2026-11-04) shipped the tag-team line the README markets as New in 2.0, with `sno reach pair` putting two agents on one task (one builds, one challenges, and the work reaches you already argued over, with an explicit notice when only one vendor account is signed in), a `2 need you` status-line prompt and a `sno squad` overview of who needs you, who is working, and what is finished, tasks that survive quota exhaustion, crashes, and closed windows with the outcome (resumed, rebuilt, or lost) reported truthfully, approved lessons applying to the agent's next reply rather than its next session, and messages landing in an inbox first so typing and compaction never lose one; v2.0.1 (2026-11-07) keeps the squad running when automatic checks time out (Codex returns control when an automatic memory request times out, work passed between agents stays with its current owner).
+The version line itself is unreliable, and the pattern repeated: the v1.7.1 release this note recorded as newest on 2026-10-29 is now itself gone from tags and releases two days later, and GitHub tags jump from v1.3.5 to v1.7.2, so release history has been deleted or rewritten again; v1.7.2 and v1.7.3 still stand in tags and releases as of 2026-11-07, so the deletion has not recurred a third time.
 The what-runs-today table marks the five-harness shared memory, the mailbox, and Self Learning as released and proven end to end on clean machines.
 The published evidence is the project's own: dated screenshots in `docs/evidence` show a quota watch handing a long build to another agent at 2 percent remaining, Self Learning catching a repeated mistake and putting a rule into the live skills by morning, and a next-day check measuring whether its own skill changes helped, with an `evals/` directory (LoCoMo, Memora, r-at-5, and its own bench) behind the memory claims.
 I found no Hacker News thread and no independent writeup through 2026-10-28 searches, so 929 stars in five weeks rest on trending placements and promotional posts, the category's stars-ahead-of-discussion pattern at its youngest.
@@ -86,6 +86,7 @@ Not for privacy-strict environments that cannot accept the default nightly sessi
 - 2026-10-29 - Corrected the release record out of rotation: the cited v1.6.0 release no longer exists upstream as a tag or a release (its reference URL 404s), so the newest published release is now recorded as v1.7.1 (October 29, failed saves kept and written with the next conversation, three-try retry caps, held turns of moved or deleted projects saved, half-written files cleaned at start), the version-history deletion is recorded as its own caution, and the push date refreshed to 2026-10-29.
 - 2026-11-01 - Recorded v1.7.2 (October 31): conversations interrupted by login or usage limits wait instead of failing (Cursor keeps queued conversations, Claude Code and Codex retain them until access returns), and the version-history deletion recurred: v1.7.1, the prior newest release, is itself gone from tags and releases, so tags now jump from v1.3.5 to v1.7.2; the release-history caution updated to the second instance.
 - 2026-11-03 - Recorded v1.7.3 (November 2): one agent can ping another while you type in its window, the ping waits in the recipient's inbox with nothing sent on your behalf, and the same behavior holds in tmux and Orca; v1.7.2 still stands in tags and releases, so the release-history deletion has not recurred a third time.
+- 2026-11-07 - Recorded the 2.0 line: v2.0.0 (November 4) shipped tag-team (`sno reach pair` puts two agents on one task with the argument already had, `sno squad` lays out the squad, tasks survive quota, crash, and closed windows with the outcome reported, approved lessons apply to the next reply, and messages queue inbox-first), and v2.0.1 (November 7) keeps the squad running when automatic checks time out; v1.7.2 and v1.7.3 still stand, so the release-history deletion has not recurred; the push date refreshed to 2026-11-07.
 
 ## See also
 
