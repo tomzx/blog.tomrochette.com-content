@@ -1,7 +1,7 @@
 ---
 title: Addy Osmani
 created: 2026-09-02
-updated: 2026-10-29
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, enterprise, agentic-engineering, engineering-leadership]
 readability: 3
@@ -24,7 +24,7 @@ He packages that argument into artifacts teams can adopt: his site now leads wit
 
 ## Status
 
-Active and high-reach as of 2026-10-21, and newly a frontier-lab insider: after leaving Google in 2026, he joined Anthropic as a Member of Technical Staff on the Claude Code team, per his own site.
+Active and high-reach as of 2026-11-07, and newly a frontier-lab insider: after leaving Google in 2026, he joined Anthropic as a Member of Technical Staff on the Claude Code team, per his own site.
 "21 Lessons From 14 Years at Google" (2026-01-03) reached 1,678 points on Hacker News, "Agent Skills" 376 points, and "The next two years of software engineering" (2026-01-11) 328 points.
 His most recent essay is "Agentic Verification" (2026-10-14, on his Substack), which moves the same argument from review into verification: the bottleneck has shifted from writing code to knowing it is correct, agents make the checks that used to be expensive (tests, benchmarks, specs, end-to-end runs) cheap enough to build into the loop, and a person still owns the ship decision, now reviewing evidence rather than diffs.
 On 2026-10-15 he co-authored Anthropic's engineering post "How the Claude Code team does code review" (claude.dev, with Morgan Westlee Lunt and Qing Wang), which runs the same argument inside his employer's own process: most reading moved to agents, human approval scaled by a risk tier the change sets, and past incidents recycled as a daily eval set for the reviewer.
@@ -80,6 +80,7 @@ Not for readers wanting frontier research depth or a terminal-level tool feed.
 - 2026-10-04 - Added his Substack essay "The Code Nobody Reads" (2026-09-28), which revises his review-every-line advice, as his most recent piece, and named the Substack as a surface in What it is.
 - 2026-10-21 - His newest essay is "Agentic Verification" (2026-10-14), which moves the review-shift argument into agent-run verification loops; "The Code Nobody Reads" (2026-09-28) is now the piece before it.
 - 2026-10-29 - Added his co-authored Anthropic engineering post "How the Claude Code team does code review" (claude.dev, 2026-10-15) to Status and References (URL fetched this run).
+- 2026-11-07 - Rotation re-verification: every cited URL re-fetched and all live; the Substack archive still leads with "Agentic Verification" (2026-10-14), so the newest-post claim stands (fetched this run).
 
 ## See also
 

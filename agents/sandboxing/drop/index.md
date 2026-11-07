@@ -1,7 +1,7 @@
 ---
 title: Drop
 created: 2026-09-29
-updated: 2026-11-01
+updated: 2026-11-07
 readability: 3
 audience_notes: >
   Engineers on Linux who want OS-enforced isolation around coding agents and third-party programs without containers or virtual machines.
@@ -25,7 +25,7 @@ Install is a curl of a release binary for amd64 or arm64 plus the passt/pasta pa
 
 ## Status
 
-Young tool, older project, one strong launch: 385 stars as of 2026-10-13, 13 forks and 5 open issues as of 2026-10-18, created 2025-07-25, pushed 2026-10-30, latest release v0.3.1 on 2026-10-09.
+Young tool, older project, one strong launch: 385 stars as of 2026-10-13, 13 forks and 5 open issues as of 2026-10-18, created 2025-07-25, pushed 2026-11-06, latest release v0.3.2 on 2026-11-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=wrr/drop&type=date&theme=dark&legend=top-left" />
@@ -36,7 +36,8 @@ Young tool, older project, one strong launch: 385 stars as of 2026-10-13, 13 for
 The Show HN thread on 2026-09-22 drew 193 points with substantive comparisons to bubblewrap and proot in the top replies.
 v0.3.0 added a `drop edit` command for the TOML config, a reorganized documentation site at droprun.sh/docs/, and base.toml defaults for uv, pipx, go install, and Cargo that expose host-installed packages read-only while sandbox-only installs stay contained.
 v0.3.1 (2026-10-09) fixed the shell hanging after the sandboxed process ended, a false update-available report, and the opaque Ubuntu AppArmor error, which now names the missing capability instead of printing `permission denied`.
-Commits continued after the release through 2026-10-30: a new firewall TOML config format, the removal of the unjailed network mode, a built-in DNS server for the firewall (large-reply handling, rejection of non-IN query classes), a supervisor process that now spawns in its own user namespace to control the sandbox, and a firewall RuleSet built from TOML inline rules with a default action and denied-domain handling, which reads as work toward a next release.
+v0.3.2 (2026-11-05) is a security fix credited to reporter Aditya Sai: a literal tilde in a `DROP_HOME` or `XDG_CONFIG_HOME` setting made Drop store its config under a `./~/` directory inside the working directory, so a sandbox with read-write access to that directory could rewrite Drop's own config and grant itself more host access on the next run; `DROP_HOME` must now be absolute and relative `XDG_*` paths are ignored, and the generated `base.toml` also stops including root-owned `/etc/ssh/ssh_config.d` snippets that broke ssh in the rootless sandbox.
+Commits continued after that release through 2026-11-06: a new firewall TOML config format, the removal of the unjailed network mode, a built-in DNS server for the firewall (large-reply handling, rejection of non-IN query classes), a supervisor process that now spawns in its own user namespace to control the sandbox, a firewall RuleSet built from TOML inline rules with a default action and denied-domain handling, and terminal-dialog firewall prompt work (concurrent prompts, synchronized rule access), which reads as work toward a next release.
 **The repository sat for fourteen months before the launch found it its audience, so the traction is one good Hacker News day, not a community, and the maintainer list is one person.**
 
 ## Strengths
@@ -78,6 +79,7 @@ Not for macOS, and not as a hardened boundary for hostile code until the solo-ma
 - 2026-10-13 - Recorded the post-release commit train (2026-10-12 to 2026-10-13: a firewall TOML config format, the unjailed network mode removed), with counts refreshed (385 stars, pushed 2026-10-13).
 - 2026-10-23 - Rotation re-verification: every cited URL re-fetched (project site, sandbox-overview docs, repository, README, the v0.3.1 release record, the 193-point launch thread), all alive; the commit train advanced through 2026-10-23 with the supervisor process moved into its own user namespace, and v0.3.1 remains the latest release.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched and alive (project site, README, sandbox-overview docs, the v0.3.1 release record, the 193-point launch thread); v0.3.1 remains the latest release, the commit train advanced through 2026-10-30 with the firewall gaining a RuleSet built from TOML inline rules plus denied-domain handling, and the repository pushed 2026-10-30.
+- 2026-11-07 - Recorded v0.3.2 (2026-11-05, the security fix for tilde-handled DROP_HOME and XDG_CONFIG_HOME settings that let a read-write sandbox rewrite Drop's config for a broader next-run grant, credited to reporter Aditya Sai, plus the ssh_config.d exclusion in the generated base.toml), v0.3.2 now the latest release, with the post-release firewall terminal-dialog train through 2026-11-06 and the repository pushed 2026-11-06.
 
 ## See also
 
@@ -93,4 +95,5 @@ Not for macOS, and not as a hardened boundary for hostile code until the solo-ma
 - https://raw.githubusercontent.com/wrr/drop/HEAD/README.md - the quick start, sandbox overview, and per-distro hardening requirements
 - https://droprun.sh/docs/sandbox-overview - the filesystem layout and isolation documentation
 - https://api.github.com/repos/wrr/drop/releases/tags/v0.3.1 - the v0.3.1 release of 2026-10-09 and its fix list
+- https://api.github.com/repos/wrr/drop/releases/tags/v0.3.2 - the v0.3.2 security release of 2026-11-05: the tilde-handling advisory text and the ssh_config.d change
 - https://hn.algolia.com/api/v1/items/49801329 - the 193-point Show HN launch thread

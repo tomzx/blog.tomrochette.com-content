@@ -1,7 +1,7 @@
 ---
 title: Greywall
 created: 2026-10-08
-updated: 2026-10-25
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -33,7 +33,7 @@ Launched in March 2026 and quiet since: 309 stars, 37 forks, 26 open issues as o
 
 **The launch got no help from Hacker News: a 7-point Show HN on 2026-03-13, a 1-pointer and a 3-point greyscan submission four days later, and one independent review since.**
 Fifty-nine days without a push as of 2026-10-11 leaves a small project with a complete docs site and a stalled train, and the companion greyproxy has been quiet since 2026-06-02.
-At seventy-three days without a commit to main as of 2026-10-25 (last push to main still 2026-08-13) nothing in that reading changes.
+At eighty-six days without a commit to main as of 2026-11-07 (last push to main still 2026-08-13, the 2026-10-17 repo-level push pull-request activity) nothing in that reading changes.
 
 ## Strengths
 
@@ -55,7 +55,7 @@ Free and open source under Apache-2.0, with greyproxy under MIT; no paid tiers o
 
 ## Compared to
 
-- [Fence](../fence/index.md): the parent project, still maintained on the fencesandbox org; choose Fence for the simpler original on an active train, Greywall for the proxy dashboard, credential substitution, watch, and learning modes.
+- [Fence](../fence/index.md): the parent project on the fencesandbox org, whose train ran through September 2026 and has been quiet since; choose Fence for the simpler original and the longer release history, Greywall for the proxy dashboard, credential substitution, watch, and learning modes.
 - [nono](../nono/index.md): the Sigstore team's broker fences each delegated tool separately and scopes credentials per endpoint; Greywall fences per invocation and swaps credentials at its proxy.
 - [Drop](../drop/index.md): the namespace wrapper that keeps your installed distro, with an optional gVisor step-up; Greywall is lighter on the filesystem layer and adds the observability loop Drop lacks.
 - [aigate](../aigate/index.md): the dormant fourteen-star reference in the same slot; Greywall is what that idea looks like with documentation and a dashboard.
@@ -63,7 +63,7 @@ Free and open source under Apache-2.0, with greyproxy under MIT; no paid tiers o
 ## Bottom line
 
 **Recommended for engineers who want to see what an agent actually reaches before fencing it, and who accept a stalled fork with no audit.**
-Not for containing actively malicious code (its own docs say so), and not as the boundary for anyone who needs a maintained release train today, which points back to [Fence](../fence/index.md) or [OpenShell](../openshell/index.md).
+Not for containing actively malicious code (its own docs say so), and not as the boundary for anyone who needs a maintained release train today, which points back to [OpenShell](../openshell/index.md), or to [Fence](../fence/index.md) if its train resumes.
 
 ## Changes
 
@@ -75,6 +75,7 @@ Not for containing actively malicious code (its own docs say so), and not as the
 - 2026-10-13 - Quiet window extended to sixty-one days (last push still 2026-08-13); stars, forks, and issues unchanged.
 - 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (the 2026-10-17 activity checked: a pull request and an issue, no commits to main, so the quiet-since-August reading holds).
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched and alive (repository, greyproxy, the security-model, platform-support, and credential-protection docs, the site, the HN search, the independent review); the quiet window extended to seventy-three days without a commit to main (last main-branch push still 2026-08-13, greyproxy still quiet since 2026-06-02), and v0.3.7 remains the newest release.
+- 2026-11-07 - Rotation re-verification: every cited URL re-fetched and alive (repository, greyproxy, the security-model, platform-support, and credential-protection docs, the site, the HN search, the independent review); the quiet window extended to eighty-six days without a commit to main (last main-branch push still 2026-08-13, the 2026-10-17 repo-level push pull-request activity), v0.3.7 remains the newest release, greyproxy still quiet since 2026-06-02, and the Compared-to Fence claims updated for the parent's quiet train.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: claude-devtools
 created: 2026-10-06
-updated: 2026-10-28
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, claude-code, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by matt1398, MIT-licensed, with docs at claude-dev.tools.
 
 ## Status
 
-Young: 3,971 stars, 306 forks, 56 open issues, created 2026-02-07, pushed 2026-09-26, as of 2026-10-19.
+Young: 3,971 stars (the dated baseline), 309 forks, 60 open issues, created 2026-02-07, pushed 2026-09-26, as of 2026-11-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=matt1398/claude-devtools&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ Not for multi-harness coverage, live observation, or anyone who needs a maintain
 - 2026-10-07 - Added the matt1398/claude-devtools star history chart to the Status section.
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched and live, the release line still quiet at v0.5.0 (2026-05-13) with no default-branch push since 2026-09-26, the docs site's $0 offer and both Hacker News threads unchanged, and open issues refreshed 53 to 56.
 - 2026-10-28 - Rotation re-verification: every cited URL re-fetched and live; repository state unchanged (pushed 2026-09-26, forks 306, open issues 56), the release line still quiet at v0.5.0 (2026-05-13), and the docs site, both Hacker News threads, and the originating blog post all unchanged.
+- 2026-11-07 - Rotation re-verification: every cited URL re-fetched and live; repository state unchanged except counts (pushed 2026-09-26, forks 306 to 309, open issues 56 to 60), the release line still quiet at v0.5.0 (2026-05-13), and the docs site, both Hacker News threads, and the originating blog post all unchanged.
 
 ## See also
 
@@ -83,10 +84,10 @@ Not for multi-harness coverage, live observation, or anyone who needs a maintain
 
 ## References
 
-- https://github.com/matt1398/claude-devtools - repository, 3,960 stars and 305 forks as of 2026-10-06, MIT license, created 2026-02-07
-- https://raw.githubusercontent.com/matt1398/claude-devtools/main/README.md - the feature set, install paths, and the v2.1.20 grievance framing
-- https://claude-dev.tools - the docs site, whose structured data lists a $0 offer
-- https://api.github.com/repos/matt1398/claude-devtools/releases - v0.5.0 (2026-05-13) as the newest tagged release, the quiet release line
-- https://hn.algolia.com/api/v1/items/47004712 - the 69-point Show HN of 2026-02-13
-- https://hn.algolia.com/api/v1/items/46978710 - the 1,085-point "Claude Code is being dumbed down?" thread the tool answers
-- https://symmetrybreak.ing/blog/claude-code-is-being-dumbed-down/ - the blog post that started the backlash
+- https://github.com/matt1398/claude-devtools - repository, 3,960 stars and 305 forks as of 2026-10-06, MIT license, created 2026-02-07 (re-fetched 2026-11-07)
+- https://raw.githubusercontent.com/matt1398/claude-devtools/main/README.md - the feature set, install paths, and the v2.1.20 grievance framing (re-fetched 2026-11-07)
+- https://claude-dev.tools - the docs site, whose structured data lists a $0 offer (re-fetched 2026-11-07)
+- https://api.github.com/repos/matt1398/claude-devtools/releases - v0.5.0 (2026-05-13) as the newest tagged release, the quiet release line (re-fetched 2026-11-07)
+- https://hn.algolia.com/api/v1/items/47004712 - the 69-point Show HN of 2026-02-13 (re-fetched 2026-11-07)
+- https://hn.algolia.com/api/v1/items/46978710 - the 1,085-point "Claude Code is being dumbed down?" thread the tool answers (re-fetched 2026-11-07)
+- https://symmetrybreak.ing/blog/claude-code-is-being-dumbed-down/ - the blog post that started the backlash (re-fetched 2026-11-07)

@@ -1,7 +1,7 @@
 ---
 title: NemoClaw
 created: 2026-10-07
-updated: 2026-11-01
+updated: 2026-11-07
 readability: 3
 audience_notes: >
   Engineers who want to run an always-on assistant (OpenClaw, Hermes, or LangChain Deep Agents) inside an OpenShell sandbox without assembling the integration themselves.
@@ -24,7 +24,7 @@ Apache-2.0, from NVIDIA, which describes the project as alpha with best-effort m
 
 ## Status
 
-Large and fast for an alpha: 22,754 stars, 3,142 forks as of 2026-10-16, 808 open issues and PRs as of 2026-11-01, created 2026-03-15, pushed 2026-11-01.
+Large and fast for an alpha: 22,754 stars, 3,142 forks as of 2026-10-16, 835 open issues and PRs as of 2026-11-07, created 2026-03-15, pushed 2026-11-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />
@@ -35,6 +35,7 @@ Large and fast for an alpha: 22,754 stars, 3,142 forks as of 2026-10-16, 808 ope
 The launch carried it: a 385-point, 261-comment Hacker News thread on 2026-03-18, with the announcement submission the day before at 18 points.
 **The release story is thinner than the star count: the repository has published exactly one release, the `ci-native-podman-e2e-2026-10-01` prerelease, and the README still says alpha, so the seven months of growth measure attention, not a shipped 1.0.**
 The git tag list is no counter-evidence: it holds 138 tags, but most belong to a `v0.0.x` line whose commits are orphaned by the repository's May 2026 history rewrite (a `backup/v0.0.49-original-20260522032905` tag marks it), so none of them carries release notes, and a reader checking releases rather than tags sees the single prerelease.
+The fix train continues daily through 2026-11-07 (the e2e suite recognizing reviewed OpenShell 0.1.7 provenance, sandbox startup waiting through cold OpenClaw boots, pinned NVIDIA-compatible provider onboarding and replacement, native GPU inference route verification, WSL nvidia-smi detection in host assessment, and managed-server add-progress messaging).
 
 ## Strengths
 
@@ -73,6 +74,7 @@ Not for production-critical assistants while the project declares alpha, or for 
 - 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (push of 2026-10-17 checked: still prerelease-only, nothing material).
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched and alive (repository, the docs home and ecosystem pages, the README, the release record, the 385-point launch thread); the exactly-one-prerelease release story, the README's alpha wording, and the supported-agent roster re-confirmed, with the push advanced to 2026-10-26 on CI and E2E-runner fixes.
 - 2026-11-01 - Volatile refresh for the 2026-10-30 and 2026-11-01 pushes (inference fixes: vLLM startup-error retention, custom-endpoint policy-conflict refusal, and connect-timeout container naming, plus a credential-free Tavily CI check), the exactly-one-prerelease release story re-confirmed, and open issues and PRs at 808.
+- 2026-11-07 - Volatile refresh for the 2026-11-06 and 2026-11-07 pushes (the e2e suite recognizing reviewed OpenShell 0.1.7 provenance, sandbox startup waiting through cold OpenClaw boots, pinned NVIDIA-compatible provider onboarding and replacement, native GPU inference route verification, and WSL nvidia-smi detection in host assessment), the exactly-one-prerelease release story re-confirmed, open issues and PRs at 835, and the repository pushed 2026-11-07.
 
 ## See also
 

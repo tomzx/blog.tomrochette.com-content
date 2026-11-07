@@ -1,7 +1,7 @@
 ---
 title: CubeSandbox
 created: 2026-09-16
-updated: 2026-11-01
+updated: 2026-11-07
 readability: 3
 audience_notes: >
   Engineers comparing self-hosted alternatives to hosted sandbox APIs, who need to serve untrusted agent code at density on their own fleet.
@@ -29,8 +29,8 @@ Documentation, changelogs, and examples (code execution, browser automation, Ope
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TencentCloud/CubeSandbox&type=date&legend=top-left" />
 </picture>
 
-Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest stable v0.7.3 on 2026-10-12, pushed 2026-11-01, 1,191 forks, 239 open issues and PRs as of 2026-11-01.
-The post-release commit train continued through 2026-11-01, unreleased past v0.7.3: an E2B-compatible `Sandbox.fork` in the Python, Node, and Go SDKs, a node-local sandbox restart policy (Never, OnFailure, Always), cursor pagination for the v2 sandboxes list, fixes across CubeCoW, CubeVS, CubeEgress, and virtiofsd, WebSocket upgrade-header forwarding in CubeEgress, a template alias surfaced in sandbox responses, and a Kubernetes operator DNS-resolver opt-in.
+Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest stable v0.7.3 on 2026-10-12, pushed 2026-11-07, 1,191 forks, 207 open issues and PRs as of 2026-11-07.
+The post-release commit train continued through 2026-11-07, unreleased past v0.7.3: an E2B-compatible `Sandbox.fork` and a `Sandbox.is_running` check in the Python, Node, and Go SDKs, a node-local sandbox restart policy (Never, OnFailure, Always), template-level sandbox QoS classes, external volume mounts on cold boot, a CubeOps CLI that classifies nodes by host facts, cubelet fixes (restart configuration preserved across pause and resume, orphan TAP policies initialized asynchronously), JuiceFS work (the jfs mount container unprivileged, ext4 eagerly distributed to nodes), cursor pagination for the v2 sandboxes list, fixes across CubeCoW, CubeVS, CubeEgress, and virtiofsd, WebSocket upgrade-header forwarding in CubeEgress, a template alias surfaced in sandbox responses, a Kubernetes operator DNS-resolver opt-in, and published case studies (OUC Online, KakuriZai, OMA).
 The train moved twice on 2026-10-12: v0.7.3-rc1 and rc2 opened the next release cycle in the morning, and v0.7.3 itself shipped the same day, adding E2B-compatible MCP support (an in-sandbox MCP gateway option returned by the Python, Node, and Go SDKs, with a reference implementation under examples/mcp-gateway), faster cross-node restore that lazy-loads instead of copying the disk, an S3lvol hot upgrade cutting upgrade I/O pause from about 40 seconds to about 8, and a roughly 41 percent faster pause, alongside a dated `kernel-release-261012-1` tag shipping dedicated kernel assets for bare-metal and PVM guest and host, so the project now distributes its own guest kernels alongside the sandbox releases.
 The team launched on HN themselves as "a less than 60ms, open-source alternative to E2B using RustVMM and KVM" (7 points), and the same project drew two more submissions from other accounts within four days at 5 and 3 points.
 The sub-60ms figure is single-concurrency on bare metal by the project's own benchmark, degrading to a 67ms average and 137ms P99 at 50 concurrent creations, and no independent benchmark, audit, or critical write-up exists that I could find.
@@ -47,7 +47,7 @@ The sub-60ms figure is single-concurrency on bare metal by the project's own ben
 - **Every performance and density claim is self-reported, from the sub-60ms boot to the <5MB overhead, with no independent replication I could find.**
 - KVM on Linux servers is a hard requirement, which excludes macOS and constrained CI environments by design.
 - The license is Apache-2.0 "except for the third-party components listed below" (permissive items such as cilium/bpf under BSD-2-Clause), which is why GitHub detects NOASSERTION and compliance tooling will flag it.
-- The absence of any critical coverage is itself the risk: 239 open issues and PRs on a nearly-seven-month-old codebase, and a "Cube 100 Program" recruiting its first 100 production teams, suggest operational evidence is still being collected.
+- The absence of any critical coverage is itself the risk: 207 open issues and PRs on a nearly-seven-month-old codebase, and a "Cube 100 Program" recruiting its first 100 production teams, suggest operational evidence is still being collected.
 
 ## Pricing
 
@@ -77,6 +77,7 @@ Not for macOS or workstation use, and not for anyone who needs independently ver
 - 2026-10-13 - Recorded the v0.7.3 stable release of 2026-10-12 landing the same day as its rc train (E2B-compatible in-sandbox MCP gateway across the Python, Node, and Go SDKs, faster lazy-loading cross-node restore, the S3lvol hot upgrade, a roughly 41 percent faster pause), the codebase age moving to six months, and counts refreshed (12,917 stars, 183 open issues and PRs, pushed 2026-10-13).
 - 2026-10-23 - Rotation re-verification: every cited URL re-fetched (repository, license, latest release, PyPI, project site, the three HN threads), all alive and unchanged; the push advanced to 2026-10-23 on a post-release commit train (an E2B-compatible Sandbox.fork across the SDKs, a node-local restart policy, cursor pagination), v0.7.3 remains the latest release, and the HN threads hold at 7, 5, and 3 points.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched and alive (repository, license, latest release, PyPI at 0.7.3, project site, the three HN threads holding at 7, 5, and 3 points); v0.7.3 remains the latest release, the post-release train advanced through 2026-11-01 (WebSocket upgrade-header forwarding in CubeEgress, a template alias in sandbox responses, a Kubernetes operator DNS-resolver opt-in), and the open-issue count moved to 239.
+- 2026-11-07 - The post-release train advanced through 2026-11-07 (E2B-compatible Sandbox.is_running across the SDKs, template-level sandbox QoS, external volume mounts on cold boot, the CubeOps node-classification CLI, cubelet restart-config preservation across pause and resume, unprivileged JuiceFS mounts, and OUC Online, KakuriZai, and OMA case studies), with open issues and PRs at 207 and the repository pushed 2026-11-07; v0.7.3 remains the latest release.
 
 ## See also
 

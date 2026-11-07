@@ -1,7 +1,7 @@
 ---
 title: Tokscale
 created: 2026-10-06
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -10,13 +10,13 @@ audience_notes: >
   Assumes you know where harnesses keep session files and what a pricing catalog is.
 ---
 
-Tokscale is an MIT-licensed terminal CLI and TUI that reads the local usage data of 61 named coding agents and reports tokens and estimated cost in one ledger, with an opt-in public leaderboard at tokscale.ai.
+Tokscale is an MIT-licensed terminal CLI and TUI that reads the local usage data of 62 named coding agents and reports tokens and estimated cost in one ledger, with an opt-in public leaderboard at tokscale.ai.
 
 **Tokscale's twist on this category's cost-report formula is social: the same numbers ccusage prints privately can be submitted to a public profile, which makes it the first member here whose default is local and whose pull is toward sharing.**
 
 ## What it is
 
-A TypeScript CLI (`bunx tokscale@latest`, or npm) whose source table names 61 clients with exact local paths, from OpenCode, Claude Code, Codex, OpenClaw, Copilot CLI, Gemini CLI, Cursor, Amp, Droid, Pi, Kimi, Qwen, Cline, Goose, Crush, Zed, Kiro, Devin, and Junie to Cherry Studio, LM Studio, and WorkBuddy.
+A TypeScript CLI (`bunx tokscale@latest`, or npm) whose source table names 62 clients with exact local paths, from OpenCode, Claude Code, Codex, OpenClaw, Copilot CLI, Gemini CLI, Cursor, Amp, Droid, Pi, Kimi, Qwen, Cline, Goose, Crush, Zed, Kiro, Devin, and Junie to Cherry Studio, LM Studio, and WorkBuddy.
 Cost comes from LiteLLM's pricing catalog with cache-token discounts and tiered-pricing support, and a TUI plus a visualization dashboard render daily, per-model, and project views.
 Some sources need help: `tokscale antigravity sync`, `tokscale trae sync`, and `tokscale warp sync` pull account-level usage into local caches, and Freebuff is estimated from transcripts because it writes no usage records of its own.
 `tokscale submit` uploads usage data to the hosted leaderboard to build a public profile, with an autosubmit mode for CI and headless machines.
@@ -24,7 +24,7 @@ Made by junhoyeo, an independent developer, MIT-licensed.
 
 ## Status
 
-Young and fast: 5,656 stars, 471 forks, 89 open issues, created 2025-12-01, pushed 2026-10-30, as of 2026-11-01.
+Young and fast: 5,656 stars, 478 forks, 74 open issues, created 2025-12-01, pushed 2026-11-06, as of 2026-11-07 (the star figure keeps its earlier fetch date, everything else refreshed this run).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&theme=dark&legend=top-left" />
@@ -32,15 +32,15 @@ Young and fast: 5,656 stars, 471 forks, 89 open issues, created 2025-12-01, push
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&legend=top-left" />
 </picture>
 
-npm shows 122,835 downloads in the trailing month (2026-10-03 to 2026-11-01, ten zero days inside the window), second in this category only to ccusage, and the release line is v4.20.1 (2026-10-23, which shipped the two 2026-10-20 submit-path fixes recorded below and added Antigravity family re-attribution coverage across model re-attributions, mobile layout fixes, and a Wrapped refresh) after v4.20.0 (2026-10-17, which added Mistral Vibe and Aside browser clients, Amp server-side thread sync through the amp CLI, custom pricing rates scoped by billing provider, Cursor Auto/API tracks and Grok Bot quotas, and leaderboard group member management) after v4.19.1 (2026-10-15) and v4.19.0 (2026-10-14, which added Zstandard-compressed Codex transcript reads, OmO agent-session discovery, a session-detail TUI inspector, and single-billing for Hermes reasoning tokens).
-A wave of twelve unreleased fixes landed 2026-10-30: compact token counts promoted at unit boundaries, Droid alternating-model sessions kept under the record cap with per-call model attribution, the Cursor cache moved under TOKSCALE_CONFIG_DIR, Copilot empty-window VS Code chat sessions discovered, unknown Codex, Copilot, and OpenCode Go quotas no longer misreported as known values, submit shipping only the requested window for Cursor and Devin CLI, and old Warp usage marked cached with its sync time, as of 2026-11-01.
+npm shows 131,512 downloads in the trailing month (2026-10-09 to 2026-11-07, six zero days inside the window), second in this category only to ccusage, and the release line is v4.21.0 (2026-11-02, which added offline reports with an explicit pricing refresh, UTC-aligned ranking windows, bounded reusable group invitations with atomic redemption, Proma native and mirrored Agent session usage counting, plus a long fix tail including Cursor snapshot dedup and atomic credential writes) after v4.20.1 (2026-10-23) and v4.20.0 (2026-10-17, which added Mistral Vibe and Aside browser clients, Amp server-side thread sync through the amp CLI, custom pricing rates scoped by billing provider, Cursor Auto/API tracks and Grok Bot quotas, and leaderboard group member management).
+A further wave landed unreleased after v4.21.0 through 2026-11-06, headlined by leaderboard submissions automatically withholding extreme token spoofers and Copilot native session-state event files joining the parsed sources, as of 2026-11-07.
 Its parsers have also been externally probed: the September 2026 AgentMeasure audit filed that forked and continued Pi sessions double-counted (issue 1306), fixed the same day via PR 1323.
 Its Show HN reached 2 points and zero comments in December 2025, so the audience arrived without a forum argument.
 **The star and download numbers say adoption, the empty Hacker News footprint says no independent scrutiny yet, and both are true at once.**
 
 ## Strengths
 
-- The declared source table now leads the category at 61 named clients as of 2026-11-01, past agentsview's 60-plus claim, and each row names the exact path it reads, so the coverage claim is auditable rather than asserted.
+- The declared source table now leads the category at 62 named clients as of 2026-11-07, past agentsview's 60-plus claim, and each row names the exact path it reads, so the coverage claim is auditable rather than asserted.
 - Cost estimates name their source: LiteLLM's catalog with cache discounts, not a private pricing table.
 - The sync subcommands reach sources that cannot be read passively (the Antigravity language server, Trae and Warp account APIs) while keeping the pulled data in local caches.
 - Zero-install invocation plus a TUI and dashboard put it in the same minute-to-first-answer class as ccusage.
@@ -78,6 +78,7 @@ Not for teams needing shared dashboards (agentsview) or spend management (CodeBu
 - 2026-10-25 - Recorded v4.20.1 (2026-10-23), which shipped those two submit-path fixes and added Antigravity family re-attribution coverage across model re-attributions plus frontend layout fixes; trailing-month downloads refreshed (180,721 to 167,077, window 2026-09-23 to 2026-10-22), npm latest moved to 4.20.1, open issues 82 to 98, and the pushed date moved to 2026-10-25.
 - 2026-10-26 - Recorded unreleased post-v4.20.1 fixes merged 2026-10-25: Cursor usage events now count once across their snapshots, pre-5.6 OpenAI cache writes inherit the input rate, legacy OpenCode and MiMo entries stop replaying over complete scans, and OpenCode's V2 providers config supplies model names; open issues 98 to 100 and the pushed date moved to 2026-10-26, with downloads and npm latest unchanged.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched and live; no release after v4.20.1 with a wave of twelve unreleased fixes landing 2026-10-30; the source table moved to 61 named clients, up from about 50 (the coverage claim moved through the definition, the Strengths line, and the matrix), trailing-month downloads refreshed (167,077 to 122,835, window 2026-10-03 to 2026-11-01 with ten zero days), forks refreshed 470 to 471 and open issues 100 to 89, and the pushed date moved to 2026-10-30; the downloads reference moved to the dated-range endpoint and the audit-report reference repointed to its Verovo path.
+- 2026-11-07 - Recorded v4.21.0 (2026-11-02: offline reports with an explicit pricing refresh, UTC-aligned ranking windows, bounded reusable group invitations, Proma native and mirrored session usage, Cursor snapshot dedup, atomic credential writes) and the unreleased wave after it (leaderboard spoofer withholding, Copilot native session-state files); the source table moved to 62 named clients, up from 61, trailing-month downloads refreshed (122,835 to 131,512, window 2026-10-09 to 2026-11-07 with six zero days), npm latest moved to 4.21.0, forks refreshed 471 to 478 and open issues 89 to 74, and the pushed date moved to 2026-11-06.
 
 ## See also
 
@@ -89,11 +90,11 @@ Not for teams needing shared dashboards (agentsview) or spend management (CodeBu
 
 ## References
 
-- https://github.com/junhoyeo/tokscale - repository, 5,656 stars and 472 forks as of 2026-10-11, MIT license, created 2025-12-01
-- https://raw.githubusercontent.com/junhoyeo/tokscale/main/README.md - the about-50-client data-path table, LiteLLM pricing, sync subcommands, and the submit-to-leaderboard flow
-- https://registry.npmjs.org/tokscale - npm latest 4.20.1 (re-verified 2026-11-01)
-- https://api.npmjs.org/downloads/range/2026-10-03:2026-11-01/tokscale - 122,835 trailing-month downloads (ten zero days inside the window), fetched 2026-11-01 via the dated-range endpoint per the npm-window ruling
-- https://api.github.com/repos/junhoyeo/tokscale/releases - v4.20.1 (2026-10-23), v4.20.0 (2026-10-17), v4.19.1 (2026-10-15), v4.19.0 (2026-10-14), v4.18.0 (2026-10-05), v4.17.0 (2026-09-15) (re-fetched 2026-11-01)
+- https://github.com/junhoyeo/tokscale - repository, stars fetched at creation (5,656 as of 2026-10-11), MIT license, created 2025-12-01
+- https://raw.githubusercontent.com/junhoyeo/tokscale/main/README.md - the 62-client data-path table, LiteLLM pricing, sync subcommands, and the submit-to-leaderboard flow (re-fetched 2026-11-07)
+- https://registry.npmjs.org/tokscale - npm latest 4.21.0 (re-verified 2026-11-07)
+- https://api.npmjs.org/downloads/range/2026-10-09:2026-11-07/tokscale - 131,512 trailing-month downloads (six zero days inside the window), fetched 2026-11-07 via the dated-range endpoint per the npm-window ruling
+- https://api.github.com/repos/junhoyeo/tokscale/releases - v4.21.0 (2026-11-02), v4.20.1 (2026-10-23), v4.20.0 (2026-10-17), v4.19.1 (2026-10-15), v4.19.0 (2026-10-14) (re-fetched 2026-11-07)
 - https://github.com/junhoyeo/tokscale/issues/1306 - the external audit's Pi fork double-count finding, closed completed via PR 1323 the same day (re-fetched 2026-11-01)
 - https://raw.githubusercontent.com/roy-tong/Verovo/main/campaigns/audit-report-2026-09.md - the audit behind the external-probe sentence (repointed to the Verovo path 2026-11-01 after the project renamed)
 - https://tokscale.ai - the hosted leaderboard and Wrapped pages

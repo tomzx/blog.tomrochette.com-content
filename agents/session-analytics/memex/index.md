@@ -1,7 +1,7 @@
 ---
 title: Memex
 created: 2026-09-20
-updated: 2026-10-28
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, open-source]
 readability: 3
@@ -17,13 +17,15 @@ Memex is an MIT-licensed Rust CLI and TUI that indexes the session transcripts y
 ## What it is
 
 A Rust CLI (brew, AUR, Nix, or cargo-binstall) that auto-discovers supported sources and indexes them locally, with a TUI browser, a local web UI, native macOS and Qt apps, and an MCP server so agents can search transcripts as a tool.
-Its engine support table covers eighteen harnesses, including Claude Code, Codex, Cursor, OpenCode, Pi, GitHub Copilot CLI, Grok, Hermes, Kimi Code, and KiloCode CLI, each graded separately for history, token usage, resume, saved memories, and experimental import into another tool.
+Its engine support table covers nineteen harnesses, including Claude Code, Codex, Cursor, OpenCode, Pi, GitHub Copilot CLI, Grok, Hermes, Kimi Code, and KiloCode CLI, each graded separately for history, token usage, resume, saved memories, and experimental import into another tool.
+Indexing redacts secrets at index time and on egress (v0.32.0): built-in credential formats (provider keys and tokens, AWS keys, private key blocks, JWTs, bearer headers, connection-string passwords) have only their values replaced with a `[redacted:<kind>]` marker, and source transcripts are never rewritten.
+Sessions can be assigned to projects and tagged, and the assignments carry everywhere sessions are grouped or filtered (CLI, MCP, TUI, web UI), and a Rex module turns the TUI into a Rex-native session desk for browsing and resuming.
 Search is BM25 by default with optional embeddings for semantic and hybrid queries, local by default, with an opt-in OpenAI-compatible remote path (v0.26.0) whose docs warn that remote embeddings send transcript text and memory documents to that API; saved Claude and Codex memories are searchable alongside transcripts, and federated search queries history on other machines over SSH.
 Made by an independent developer, MIT-licensed, with no cloud service in the default path.
 
 ## Status
 
-Active and quietly growing: created 2026-01-01, 259 stars, 40 forks, pushed 2026-10-28, as of 2026-10-28.
+Active and quietly growing: created 2026-01-01, 259 stars (the dated baseline), 43 forks, 2 open issues, pushed 2026-11-06, as of 2026-11-07.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nicosuave/memex&type=date&theme=dark&legend=top-left" />
@@ -31,7 +33,7 @@ Active and quietly growing: created 2026-01-01, 259 stars, 40 forks, pushed 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nicosuave/memex&type=date&legend=top-left" />
 </picture>
 
-Releases ship in bursts: v0.25.0 (2026-10-02) added the Hermes and KiloCode CLI engines (fifteen to seventeen harnesses), then v0.26.0, v0.26.1, and v0.27.0 all landed 2026-10-03 (OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, and conversation-search relevance improvements), v0.27.1 followed on 2026-10-04 without release notes, v0.27.2 and v0.28.0 landed 2026-10-12 (Homebrew as the update source for Homebrew installs, remembered phrases prioritized in search results, relevance ranking shared across the search interfaces, and OpenCode v1 session indexing when the v2 projection is empty), and v0.29.0 landed 2026-10-14 (the Kimi Code CLI engine, seventeen to eighteen harnesses, Homebrew core formula installs, multiple Claude profile support with deduplicated agent transcripts, and an Antigravity WAL-store read fix), v0.29.1 followed on 2026-10-16, and v0.30.0 landed 2026-10-20 without release notes (one change: the index refreshes before session reads, independent of the scan TTL), and v0.31.0 landed 2026-10-22, also without release notes, adding the Goose SQLite store as the nineteenth engine in the support table, and v0.31.1 followed on 2026-10-24, again without notes, with the compare view showing a fix wave (ten code-review findings across resume, search, usage, and ingest, Hermes turn overlap and Kimi incremental retry drift, client source filters and stale reader caches and Qt search ranking, and a stray .DS_Store wedging segment collection), and one more unreleased fix merged 2026-10-28 (CPU embeddings kept off CoreML and read-triggered refreshes bounded).
+Releases ship in bursts: v0.25.0 (2026-10-02) added the Hermes and KiloCode CLI engines (fifteen to seventeen harnesses), then v0.26.0, v0.26.1, and v0.27.0 all landed 2026-10-03 (OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, and conversation-search relevance improvements), v0.27.1 followed on 2026-10-04 without release notes, v0.27.2 and v0.28.0 landed 2026-10-12 (Homebrew as the update source for Homebrew installs, remembered phrases prioritized in search results, relevance ranking shared across the search interfaces, and OpenCode v1 session indexing when the v2 projection is empty), and v0.29.0 landed 2026-10-14 (the Kimi Code CLI engine, seventeen to eighteen harnesses, Homebrew core formula installs, multiple Claude profile support with deduplicated agent transcripts, and an Antigravity WAL-store read fix), v0.29.1 followed on 2026-10-16, and v0.30.0 landed 2026-10-20 without release notes (one change: the index refreshes before session reads, independent of the scan TTL), and v0.31.0 landed 2026-10-22, also without release notes, adding the Goose SQLite store as the nineteenth engine in the support table, and v0.31.1 followed on 2026-10-24, again without notes, with the compare view showing a fix wave (ten code-review findings across resume, search, usage, and ingest, Hermes turn overlap and Kimi incremental retry drift, client source filters and stale reader caches and Qt search ranking, and a stray .DS_Store wedging segment collection), one more unreleased fix merged 2026-10-28 (CPU embeddings kept off CoreML and read-triggered refreshes bounded), then v0.32.0 landed 2026-11-02, released without notes and carrying the wave from its commit messages: secret redaction at index time and on egress for built-in credential formats, child-session search hits rolled up to their root conversation, the most specific query window shown in search snippets, Claude Code and Codex injected context indexed as system text with side conversations kept, Copilot-written user messages indexed as context, unparseable transcripts isolated instead of failing the whole refresh, and Codex and pi fork reparsing, and v0.33.0 followed on 2026-11-06 (a repeatable `--session-id` flag), as of 2026-11-07.
 Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the author.
 **The launch footprint is nearly empty, which I read as adoption through word of mouth and through agents rather than through launches, the same reading this category applied to ctx, and as thin independent verification.**
 
@@ -44,7 +46,7 @@ Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the 
 
 ## Cautions
 
-- Eighteen engines graded per capability means unevenness by construction: Cursor resume is CLI-only, Antigravity token counting is unsupported, and several engines have no resume at all.
+- Nineteen engines graded per capability means unevenness by construction: Cursor resume is CLI-only, Antigravity token counting is unsupported, and several engines have no resume at all.
 - Embeddings and token tracking are off by default, so the semantic-search headline requires opt-in setup, and since v0.26.0 that setup can point at a remote OpenAI-compatible API that receives transcript text, not only at local models.
 - The only community signal beyond 246 stars is an author-commented launch thread, so there is no independent verdict on reliability.
 - Experimental session transfers and the announced object-storage sync are the roadmap promises most likely to churn.
@@ -80,6 +82,7 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 - 2026-10-23 - Recorded v0.31.0 (2026-10-22, released without notes): the Goose session database joined the engine table as the nineteenth engine, with history, token usage, and resume graded yes.
 - 2026-10-25 - Recorded v0.31.1 (2026-10-24, released without notes): a fix wave over resume, search, usage, and ingest (ten code-review findings, Hermes turn overlap and Kimi incremental retry drift, Qt search ranking, and a stray .DS_Store wedging segment collection); repository counts refreshed (forks 38 to 40) and the pushed date moved to 2026-10-24.
 - 2026-10-28 - Volatile re-verification: no release after v0.31.1 with one unreleased fix merged 2026-10-28 (CPU embeddings kept off CoreML and read-triggered refreshes bounded); the pushed date moved to 2026-10-28.
+- 2026-11-07 - Rotation re-verification with every cited URL re-fetched and live, plus the volatile pass: recorded v0.32.0 (2026-11-02, released without notes, contents taken from its commits: secret redaction at index time and on egress for built-in credential formats, child-session hits rolled up to the root conversation, most-specific query windows in snippets, injected context indexed as system text for Claude Code and Codex, Copilot user messages as context, unparseable transcripts isolated, Codex and pi fork reparsing) and v0.33.0 (2026-11-06, repeatable --session-id); What it is gained the redaction sentence and the projects-and-tags and Rex-module surfaces, the engine count corrected to nineteen in What it is and the caution (the 10-23 Goose addition had left them at eighteen); forks refreshed 40 to 43, open issues to 2, and the pushed date moved to 2026-11-06.
 
 ## See also
 
@@ -90,9 +93,12 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 
 ## References
 
-- https://github.com/nicosuave/memex - repository, description, engine support table, surfaces
-- https://api.github.com/repos/nicosuave/memex - stars, forks, dates, MIT license as of 2026-10-11
-- https://raw.githubusercontent.com/nicosuave/memex/main/README.md - features, engine matrix, install, MCP server, herdr plugin, and the remote-embeddings warning that transcript text and memory documents are sent to the configured API (fetched 2026-10-04)
-- https://github.com/nicosuave/memex/releases - v0.31.1 (2026-10-24, no notes), v0.31.0 (2026-10-22, no notes), and v0.30.0 (2026-10-20, no notes) as the newest tags (re-fetched 2026-10-25), after v0.29.1 (2026-10-16), v0.29.0 (2026-10-14), the v0.28.0 and v0.27.2 releases of 2026-10-12, v0.27.1 (2026-10-04, no notes published), and the v0.26.0, v0.26.1, v0.27.0 releases of 2026-10-03 and v0.25.0 (2026-10-02)
-- https://raw.githubusercontent.com/nicosuave/memex/main/docs/installation.md - brew, AUR, Nix, and cargo install paths
-- https://hn.algolia.com/api/v1/items/49754771 - the 2-point Show HN of 2026-09-18, cited as the thin-footprint signal
+- https://github.com/nicosuave/memex - repository, description, engine support table, surfaces (re-fetched 2026-11-07)
+- https://api.github.com/repos/nicosuave/memex - 259 stars (the dated baseline), 43 forks, 2 open issues, MIT license, counts as of 2026-11-07
+- https://raw.githubusercontent.com/nicosuave/memex/main/README.md - features, engine matrix, install, MCP server, herdr plugin, and the remote-embeddings warning that transcript text and memory documents are sent to the configured API (re-fetched 2026-11-07)
+- https://github.com/nicosuave/memex/releases - v0.33.0 (2026-11-06, no notes), v0.32.0 (2026-11-02, no notes), v0.31.1 (2026-10-24, no notes), v0.31.0 (2026-10-22, no notes), and the earlier line back to v0.25.0 (re-fetched 2026-11-07)
+- https://github.com/nicosuave/memex/commit/fea94b8756b9cd96cd13b26d4f42cf4640c8e736 - the secret-redaction commit behind the v0.32.0 redaction facts (index-time and egress redaction, source transcripts never rewritten) (fetched 2026-11-07)
+- https://raw.githubusercontent.com/nicosuave/memex/main/docs/projects.md - project assignments, tags, and where they apply (fetched 2026-11-07)
+- https://raw.githubusercontent.com/nicosuave/memex/main/docs/rex.md - the Rex module and its install path (fetched 2026-11-07)
+- https://raw.githubusercontent.com/nicosuave/memex/main/docs/installation.md - brew, AUR, Nix, and cargo install paths (re-fetched 2026-11-07)
+- https://hn.algolia.com/api/v1/items/49754771 - the 2-point Show HN of 2026-09-18, cited as the thin-footprint signal (re-fetched 2026-11-07)

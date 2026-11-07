@@ -1,7 +1,7 @@
 ---
 title: HermesGate
 created: 2026-10-16
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, ci, quality-gate, deterministic]
 readability: 3
@@ -24,8 +24,8 @@ Distribution is PyPI, a pinned GitHub Action (`hermes-labs-ai/hermes-gate@v0.1.7
 
 ## Status
 
-Early and near-invisible: 3 stars, 1 fork, and 89 commits as of 2026-10-16, created 2026-08-10, pushed 2026-10-29, PyPI 0.1.7 matching the v0.1.7 action.
-The 2026-10-29 repository-level push is a dependabot Actions bump on a side branch; the default branch last moved 2026-09-29, where a release/v0.1.8 branch and its changelog block have sat prepared without a release.
+Early and near-invisible: 3 stars, 1 fork, and 89 commits as of 2026-10-16, created 2026-08-10, pushed 2026-11-05, PyPI 0.1.7 matching the v0.1.7 action.
+The repository-level pushes (2026-10-29 and 2026-11-05) are dependabot and side-branch activity; the default branch last moved 2026-09-29, where a release/v0.1.8 branch and its changelog block have sat prepared without a release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hermes-labs-ai/hermes-gate&type=date&theme=dark&legend=top-left" />

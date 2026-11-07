@@ -1,7 +1,7 @@
 ---
 title: Repowise
 created: 2026-10-13
-updated: 2026-11-05
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-intelligence, mcp, code-health, static-analysis]
 readability: 3
@@ -26,7 +26,8 @@ Made by the repowise-dev organization, AGPL-3.0 or commercial, Python, active on
 
 ## Status
 
-Young and growing: 7,800 stars as of 2026-10-18, 985 forks and 462 open issues as of 2026-11-05, created 2026-03-23 and pushed 2026-11-04, PyPI at 0.60.1 (the 0.60 train shipped 2026-11-01 to 2026-11-02: v0.60.0 surfaced a plugin API with a plugin author guide, plugin provider loading, and a PLUGIN_API_VERSION constant alongside health-finding and update-performance fixes, and v0.60.1 folded commit-mined decisions into their merge records, added a confirm-a-decision-with-reason action, and reports phase timings from incremental updates).
+Young and growing: 7,800 stars as of 2026-10-18, 985 forks and 462 open issues as of 2026-11-05, created 2026-03-23 and pushed 2026-11-06, PyPI at 0.60.1 (the 0.60 train shipped 2026-11-01 to 2026-11-02: v0.60.0 surfaced a plugin API with a plugin author guide, plugin provider loading, and a PLUGIN_API_VERSION constant alongside health-finding and update-performance fixes, and v0.60.1 folded commit-mined decisions into their merge records, added a confirm-a-decision-with-reason action, and reports phase timings from incremental updates).
+Main's unreleased 2026-11-06 merge train above v0.60.1 folds in about sixteen community fixes (health units counting named arrow functions and match-arm guards, Swift dead-code rescue, Kotlin call resolution, Cobol literal parsing, a decision-CLI JSON error key, an omission-ref lines_total report) and one feature, Java and Kotlin imports linked to Maven coordinates.
 **The community footprint is thin for the star count: two Show HN posts drew 4 and 1 points in April 2026 and the vendor's own blog threads stayed single-digit, so the adoption signal is stars and downloads (about 16.8k PyPI downloads in the trailing month) without practitioner debate.**
 The vendor publishes the most checkable benchmark claims in this category: call-graph precision of 0.976 to 0.995 against the Go and TypeScript compilers' own resolution, and a self-built 42-instance context-tool comparison where its file coverage (0.876) leads Graphify, code-review-graph, and Serena, with the losing rows published.
 
@@ -75,6 +76,7 @@ My disagreeable claim: a context engine that also tells you what to fix first is
 - 2026-10-26 - Recorded v0.59.0 (2026-10-25: per-function coverage with the CRAP score and an untested-complexity finding in the health suite, plus test-reach and coverage-index fixes).
 - 2026-11-05 - Full rotation re-verification: every cited URL re-fetched (repo, README, commercial document, PyPI, PyPI stats, npm downloads, the HN search, docs, and the hosted site all intact); the ten-tool surface, the benchmark claims, and the proposal-only commercial pricing unchanged.
 - 2026-11-05 - Recorded the 0.60 train (v0.60.0 on 2026-11-01: plugin API with a plugin author guide, provider loading, and PLUGIN_API_VERSION, plus health and update-performance fixes; v0.60.1 on 2026-11-02: decision-record folding, confirm-a-decision-with-reason, update phase timings) and refreshed activity counts to 2026-11-05.
+- 2026-11-07 - Recorded main's unreleased 2026-11-06 merge train (about sixteen community fixes and Maven-coordinate linking for Java and Kotlin imports) above v0.60.1; no release since.
 
 ## See also
 

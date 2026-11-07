@@ -1,7 +1,7 @@
 ---
 title: agentsview
 created: 2026-08-30
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, token-usage, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop build
 
 ## Status
 
-Young and active: 6,094 stars, 670 forks, 124 open issues and PRs as of 2026-11-01, created 2026-02-19.
+Young and active: 6,094 stars (the dated baseline), 680 forks, 132 open issues and PRs as of 2026-11-07, created 2026-02-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Young and active: 6,094 stars, 670 forks, 124 open issues and PRs as of 2026-11-
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.46.1 on 2026-10-23, a day that shipped two releases: v0.46.0 added opt-in web-chat imports, Claude.ai chats synced through a Chrome extension plus ChatGPT, Codex web, and Codex cloud task chats ingested as searchable sessions, and v0.46.1 repaired Antigravity CLI transcript parsing on read-only mounts; with steady releases since July it is pre-1.0 with fast feature churn, and unreleased main-branch work was still landing after v0.46.1 as of 2026-10-31 (671 forks, 102 open issues and PRs: Codex fast-tier sessions priced at fast rates, Pi thinking level captured as reasoning effort, OMP subagent parent links restored, unchanged usage facts preserved during cache fills, an optional model-written Friction Log summary, raw session IDs resolved for usage requests, treemap labels sized by tile share, and reproducible documentation screenshots).
+Latest release v0.46.1 on 2026-10-23, a day that shipped two releases: v0.46.0 added opt-in web-chat imports, Claude.ai chats synced through a Chrome extension plus ChatGPT, Codex web, and Codex cloud task chats ingested as searchable sessions, and v0.46.1 repaired Antigravity CLI transcript parsing on read-only mounts; with steady releases since July it is pre-1.0 with fast feature churn, and unreleased main-branch work was still landing after v0.46.1 as of 2026-11-07, headlined by an `agentsview why` provenance command that links file lines or a commit to the recorded sessions and prompts behind them (merged 2026-11-06, PR 2632), with xAI billing CSV imports, Claude.ai Sync limited to listed organizations, and watched folders shown when the archive is empty behind it.
 
 ## Strengths
 
@@ -43,7 +43,7 @@ Latest release v0.46.1 on 2026-10-23, a day that shipped two releases: v0.46.0 a
 
 ## Cautions
 
-- Pre-1.0 with breaking schema bumps (the docs' token-usage page documents schema version 5 again as of 2026-11-01, after documenting version 6 from 2026-10-26 through 2026-10-31, the eighth flip this section has recorded), so scripts consuming its output churn either way.
+- Pre-1.0 with breaking schema bumps (the docs' token-usage page documents schema version 6 again as of 2026-11-07, after documenting version 5 from 2026-11-01 through 2026-11-06, the ninth flip this section has recorded), so scripts consuming its output churn either way.
 - Token coverage is opportunistic: cost rows appear only when a transcript contains both token counts and a priceable model, and the docs admit known undercounts such as Claude WebSearch side-calls.
 - The 84-223x benchmark numbers the docs used to publish were vendor-supplied on vendor hardware, and their removal leaves no performance evidence in either direction.
 - The daemon, serve, DuckDB, and PostgreSQL surface is real operational weight if all you wanted was a cost report.
@@ -89,6 +89,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 - 2026-10-28 - Volatile re-verification: no release after v0.46.1 with unreleased main-branch work continuing (Command Code v3 session and token-usage parsing, Codex forks linked to their source sessions, a color-blind-safe chart palette with reader-chosen message colors, PostgreSQL serve and push-watch from one data directory, usage kept on blank Claude thinking responses, and a Claude.ai Sync dialog fix), and repository counts refreshed (forks 661 to 666, open issues and PRs 125 to 95).
 - 2026-10-31 - Volatile re-verification: no release after v0.46.1 with unreleased main-branch work continuing (Codex fast-tier session pricing, Pi thinking level as reasoning effort, OMP subagent parent links restored, unchanged usage facts preserved during cache fills, an optional model-written Friction Log summary, raw session IDs resolved for usage requests, treemap labels sized by tile share, and reproducible documentation screenshots), the token-usage docs re-verified still at schema version 6, and repository counts refreshed (forks 666 to 671, open issues and PRs 95 to 102).
 - 2026-11-01 - Volatile re-verification: no release after v0.46.1 with the only default-branch commits since 2026-10-31 being a CI dependency-download retry workflow change and a JavaScript dependency bump, so the unreleased-feature list stands; the docs' token-usage JSON contract flipped back to schema version 5 (version 6 was documented from 2026-10-26 through 2026-10-31, the eighth recorded flip), and the schema caution moved with it; repository counts refreshed (forks 671 to 670, open issues and PRs 102 to 124).
+- 2026-11-07 - Volatile re-verification: no release after v0.46.1 with unreleased main-branch work headlined by an `agentsview why` provenance command linking file lines or a commit to the recorded sessions and prompts behind them (PR 2632, merged 2026-11-06), with xAI billing CSV imports and Claude.ai Sync organization limits behind it; the docs' token-usage JSON contract flipped back to schema version 6 (version 5 was documented from 2026-11-01 through 2026-11-06, the ninth recorded flip), and the schema caution moved with it; repository counts refreshed (forks 670 to 680, open issues and PRs 124 to 132).
 
 ## See also
 
@@ -101,7 +102,8 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 
 - https://github.com/kenn-io/agentsview - repository, supported agents, architecture, license
 - https://www.agentsview.io - docs, architecture, install, and the Kenn Software attribution
-- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the usage JSON contract (re-verified 2026-11-01, the page back at version 5 after documenting version 6 from 2026-10-26 through 2026-10-31)
+- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the usage JSON contract (re-verified 2026-11-07, the page back at version 6 after documenting version 5 from 2026-11-01 through 2026-11-06)
+- https://github.com/kenn-io/agentsview/pull/2632 - the `agentsview why` provenance command merged 2026-11-06 behind the pending-release provenance cell and Status sentence (fetched 2026-11-07)
 - https://www.agentsview.io/docs/clickhouse-sync/ - the ClickHouse mirror's push, watch, service, and read-only serve surfaces
 - https://www.agentsview.io/docs/changelog/ - the release history, grounding v0.44.0's ClickHouse Sync introduction (2026-09-21) and the v0.46.x line
 - https://github.com/kenn-io/agentsview/releases - release cadence and current version

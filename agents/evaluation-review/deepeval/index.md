@@ -1,7 +1,7 @@
 ---
 title: deepeval
 created: 2026-08-30
-updated: 2026-11-05
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, llm-as-judge, testing, open-source]
 readability: 3
@@ -31,7 +31,7 @@ The volume leader of Python eval frameworks: 18,830 stars, 2,062 forks, 723 open
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=confident-ai/deepeval&type=date&legend=top-left" />
 </picture>
 
-Created 2023-08-10, pushed 2026-11-04, Python 4.3.3 released 2026-11-04 (4.3.2 shipped 2026-10-27, 4.3.1 on 2026-10-16, with 4.3.0 on 2026-10-15 and 4.2.9 the same day), about 2.6 million PyPI downloads a month as of 2026-10-26.
+Created 2023-08-10, pushed 2026-11-05 (audio and TTS fixes merging that day), Python 4.3.3 released 2026-11-04 and still newest on PyPI as of 2026-11-07 (4.3.2 shipped 2026-10-27, 4.3.1 on 2026-10-16, with 4.3.0 on 2026-10-15 and 4.2.9 the same day), about 2.6 million PyPI downloads a month as of 2026-10-26.
 **Three years old and commercially backed, it is the most mature column in this category, and the 717-item backlog reads as heavy usage rather than neglect.**
 
 ## Strengths

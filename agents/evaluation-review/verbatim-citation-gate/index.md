@@ -1,7 +1,7 @@
 ---
 title: Verbatim Citation Gate
 created: 2026-10-10
-updated: 2026-10-26
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, citations, hallucination, guardrails, rag]
 readability: 3
@@ -24,8 +24,9 @@ The docs page describes the maintainer as the Palo Alto AI Research Lab, a self-
 
 ## Status
 
-Active but barely adopted: 4 stars, 3 forks, and 5 open issues as of 2026-10-13, created 2026-07-24, pushed 2026-10-24, with four releases (v0.3.1 on 2026-10-24, v0.3.0 on 2026-10-16, v0.2.0 on 2026-08-25, v0.1.0 on 2026-08-04) and CI running a tests workflow.
-v0.3.1 (2026-10-24) released the three gate fixes that had sat on main since 2026-10-19 (whole-word quote matching, a balanced-JSON verdict parser, and a pytest source-path fix), and the package is still absent from PyPI as of 2026-10-25.
+Active but barely adopted: 4 stars, 3 forks, and 5 open issues as of 2026-10-13, created 2026-07-24, pushed 2026-11-06, with four releases (v0.3.1 on 2026-10-24, v0.3.0 on 2026-10-16, v0.2.0 on 2026-08-25, v0.1.0 on 2026-08-04) and CI running a tests workflow.
+v0.3.1 (2026-10-24) released the three gate fixes that had sat on main since 2026-10-19 (whole-word quote matching, a balanced-JSON verdict parser, and a pytest source-path fix), and the package is still absent from PyPI as of 2026-11-07.
+Two more gate fixes sat unreleased on main as of 2026-11-07 (both committed 2026-11-06): the normalization now handles signs, comparisons, thousands commas, and leading-dot decimals in numbers, and partial numbers, punctuation-only quotes, and glued ranges no longer count as found.
 v0.3.0 adds a `span_gate` that applies the same fail-closed treatment to citations given as character offsets, rejecting unresolvable spans instead of silently clipping them, and it is the project's first outside contribution (PR 12, closing issue 9).
 A Hacker News search returns zero threads as of 2026-10-11, so the adoption signal here is still thin: a solo project with a clean mechanism whose first independent involvement arrived through that October contribution.
 
@@ -46,7 +47,7 @@ A Hacker News search returns zero threads as of 2026-10-11, so the adoption sign
 
 - Near-zero adoption: 4 stars and zero discussion as of 2026-10-11, with the October v0.3.0 contribution the only outside involvement on record, so treat it as a promising pattern to copy, not a dependency to trust.
 - Exact-verbatim matching misses legitimate paraphrase and cross-sentence citations by design, so it fits quote-style citation systems only.
-- The distribution is a git URL install with no PyPI package (still absent as of 2026-10-25), and the release train ran twice in August then resumed in October with v0.3.0 and v0.3.1.
+- The distribution is a git URL install with no PyPI package (still absent as of 2026-11-07), and the release train ran twice in August then resumed in October with v0.3.0 and v0.3.1.
 - The "Palo Alto AI Research Lab" branding on the docs is uncorroborated by any organization, funding, or publication record a reader can check.
 
 ## Pricing
@@ -73,6 +74,7 @@ Not for paraphrase-tolerant citation systems, and not as a battle-tested depende
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
+- 2026-11-07 - Recorded the unreleased post-v0.3.1 gate fixes on main (both committed 2026-11-06): numeric normalization for signs, comparisons, thousands commas, and leading-dot decimals, and partial numbers, punctuation-only quotes, and glued ranges no longer counting as found; the PyPI absence re-verified and the newest release is still v0.3.1.
 
 ## See also
 

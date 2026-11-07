@@ -1,7 +1,7 @@
 ---
 title: Entroly
 created: 2026-10-12
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, receipts, open-source]
 readability: 3
@@ -25,9 +25,10 @@ Two offline commands are the trust surface: `entroly verify-claims` runs twelve 
 
 ## Status
 
-Young, active, and barely discovered: 476 stars as of 2026-10-18, 74 forks, created 2026-03-07, pushed 2026-11-02 on main, PyPI and npm both at 1.0.88 across 106 releases, as of 2026-11-06 (GitHub, PyPI, and npm APIs).
+Young, active, and barely discovered: 476 stars as of 2026-10-18, 74 forks, created 2026-03-07, pushed 2026-11-07 on main, PyPI and npm both at 1.0.88 across 106 releases, as of 2026-11-06 (GitHub, PyPI, and npm APIs).
 October 2026 development around the 1.0.87 release added a session journal of what a session did, returned on resume, source-bound cross-agent review in the work CLI, opt-in paired Decisions choice trials, and a rustls advisory fix.
 Release 1.0.88 (2026-11-01) shipped the PAC-KV cache-aligned compression (provider page-grid quantization, an economic break-even gate, paged Merkle trees, attention-aware tail compression), the receipt-backed graph memory with hybrid retrieval that main had carried unreleased, and frontier codecs, alongside 62 customer-visible dogfood fixes, an activation report naming a degraded hook's cause, and the scaffold of an opt-in action gate.
+Main's unreleased 2026-11-07 batch follows: cascade policies assessed on held-out data with exact risk tests, STAVE fact-alignment stability, EICV calibration corrections for tied ranks and dependent evidence, Claude Code host fixes (capture outcomes read as the host sends them, uninstall removing the capture hooks, the hook no longer editing shell files), and first-run onboarding fixes from a clean-room install.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=juyterman1000/entroly&type=date&theme=dark&legend=top-left" />
@@ -77,6 +78,7 @@ My disagreeable claim: this category's arms race measures the wrong thing, and a
 - 2026-10-26 - Full rotation re-verification: every cited URL re-fetched (repo and README, BENCHMARKS.md, PyPI, npm registry and downloads, PyPIstats, the HN search, and the VS Code marketplace listing all intact); recorded main's post-1.0.87 PAC-KV cache-aligned compression and receipt-backed MemoryGraph work with three new FastMCP tools, unreleased as of 2026-10-26, and refreshed the npm figure (681 in the month to 2026-10-22, was 724 to 2026-10-16).
 - 2026-11-01 - Full rotation re-verification: every cited URL re-fetched and intact (the README and BENCHMARKS.md claims hold, the VS Code listing, the HN search, PyPIstats unchanged); recorded release 1.0.88 (2026-11-01, PyPI and npm synchronized) shipping the PAC-KV compression, the receipt-backed graph memory, and frontier codecs that main had carried unreleased, plus 62 dogfood fixes and an action-gate scaffold; recorded the README's new Gemini CLI and OpenClaw hook surfaces; refreshed the npm figure (652 for 2026-10-02 to 2026-10-31, was 681 to 2026-10-22).
 - 2026-11-06 - Recorded main's unreleased post-1.0.88 fixes (2026-11-02: the proxy now passes provider request ids, rate-limit headers, and error bodies through and reports requests it enlarged in `entroly value` and `X-Entroly-Outcome`; the npm MCP server answers newline-delimited JSON so official MCP clients connect; rename previews follow Python re-exports and are rejected when the repository changed after the preview); the 2026-11-04 push resolved as non-default-branch activity.
+- 2026-11-07 - Recorded main's unreleased 2026-11-07 batch (held-out cascade-policy risk tests, STAVE fact-alignment stability, EICV calibration corrections, Claude Code host fixes including an uninstall that removes the capture hooks, first-run onboarding fixes); PyPI and npm unchanged at 1.0.88.
 
 ## See also
 

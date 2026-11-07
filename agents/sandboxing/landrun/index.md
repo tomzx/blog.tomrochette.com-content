@@ -1,7 +1,7 @@
 ---
 title: Landrun
 created: 2026-10-09
-updated: 2026-10-27
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, landlock, linux, open-source]
 readability: 3
@@ -57,7 +57,7 @@ The costs are the Linux 5.13+ kernel (6.7+ for TCP controls) and the flag discip
 
 ## Compared to
 
-- [Fence](../fence/index.md): the maintained, agent-wired wrapper layering sandbox-exec, bubblewrap, Landlock, and seccomp with one policy file; choose Landrun for the pure kernel primitive, Fence for agent workflows.
+- [Fence](../fence/index.md): the agent-wired wrapper layering sandbox-exec, bubblewrap, Landlock, and seccomp with one policy file, thirty releases deep but quiet since September 2026; choose Landrun for the pure kernel primitive, Fence for agent workflows.
 - [Drop](../drop/index.md): builds a full namespace environment around your distro with an optional gVisor step-up; Drop when you want your environment kept, Landrun when you want one command fenced.
 - [aigate](../aigate/index.md): the dormant reference wrapper that adds ACLs, namespaces, egress allowlists, and masking; aigate is the richer design, Landrun the one with the community and the packages.
 
@@ -75,11 +75,12 @@ Not as an agent boundary by itself: no egress policy, no audit trail, no profile
 - 2026-10-13 - Quiet window extended to eighty-two days (last push still 2026-07-23); stars refreshed (2,316), forks and issues unchanged.
 - 2026-10-18 - Recorded the quiet window ending: a merged community pull request targeting Landlock ABI 10 with UDP network restrictions (committed 2026-10-10), then TCP and UDP port-range flags and a go-landlock v0.10.1 bump (2026-10-16), none released past v0.1.17, with open issues moving from eight to three.
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, the 518-point launch thread, the author's supply-chain post, the release record); v0.1.17 remains the newest release with no commit to the repository since 2026-10-16, so the resumed-train and unreleased-ABI-10 readings stand.
+- 2026-11-07 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, the 518-point launch thread, the author's supply-chain post, the release record); v0.1.17 remains the newest release with no commit to main since 2026-10-16, the resumed-train and unreleased-ABI-10 readings stand, and the Compared-to Fence entry updated for the parent's quiet train.
 
 ## See also
 
 - [Sandboxing Feature Matrix](../sandboxing-feature-matrix/index.md) - the category comparison this note joins
-- [Fence](../fence/index.md) - the maintained multi-primitive wrapper above the same Landlock layer
+- [Fence](../fence/index.md) - the multi-primitive wrapper above the same Landlock layer, quiet since September 2026
 - [Drop](../drop/index.md) - the namespace environment with the gVisor step-up
 - [aigate](../aigate/index.md) - the dormant richer-mechanism reference in the same slot
 - [OpenShell](../openshell/index.md) - the vendor runtime that turns Landlock-style policy into organizational YAML

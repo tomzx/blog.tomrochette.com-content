@@ -1,7 +1,7 @@
 ---
 title: Headroom
 created: 2026-10-07
-updated: 2026-11-06
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, token-optimization]
 readability: 3
@@ -16,7 +16,7 @@ Headroom is the Apache-2.0 context compression layer that rewrites everything an
 
 ## What it is
 
-A Python and TypeScript library, a zero-code-change proxy (`headroom proxy --port 8787`), a one-command wrapper around fifteen coding agents (`headroom wrap claude|codex|grok|copilot|cursor|aider|opencode|cline|continue|goose|openhands|openclaw|vibe|omp|zcode`), an MCP server, and an opt-in output shaper that trims what the model writes back (verbosity steering at the system-prompt tail, off by default), from headroomlabs-ai (75,468 stars as of 2026-10-18, pushed 2026-11-06).
+A Python and TypeScript library, a zero-code-change proxy (`headroom proxy --port 8787`), a one-command wrapper around fifteen coding agents (`headroom wrap claude|codex|grok|copilot|cursor|aider|opencode|cline|continue|goose|openhands|openclaw|vibe|omp|zcode`), an MCP server, and an opt-in output shaper that trims what the model writes back (verbosity steering at the system-prompt tail, off by default), from headroomlabs-ai (75,468 stars as of 2026-10-18, pushed 2026-11-07).
 Compression runs locally: statistical analysis keeps errors, anomalies, and boundaries in JSON arrays, a ModernBERT token classifier squeezes plain text, AST-aware compression (opt-in) collapses function bodies to signatures, an ML router resizes images, and everything removed lands in a Compress-Cache-Retrieve store the model can query through `headroom_retrieve`.
 A shared cross-agent memory store deduplicates content across Claude, Codex, Gemini, and Grok sessions, and a `headroom learn` command tunes the compressor.
 The docs' reproducible benchmarks (seeded, generated from MCP output formats, gpt-5.6 tokenizer) show 57 percent savings on an SRE incident dump (55,957 to 24,340 tokens), 42 percent on codebase exploration, and 21 percent on code search, with an explicit warning that savings depend on how repetitive your content is.
@@ -25,6 +25,7 @@ The docs' reproducible benchmarks (seeded, generated from MCP output formats, gp
 
 Active and compounding fast: created 2026-01-07, 75,468 stars as of 2026-10-18 and 6,173 forks in ten months as of 2026-11-06, PyPI package at 0.43.1 (2026-11-05) across 206 releases, 147,968 npm downloads summed for 2026-10-07 to 2026-11-06 (eight zero days in the window).
 Release v0.41.0 (2026-10-14) added a native Google Antigravity IDE integration, OpenCode 2.x plugin-API support, and the headroom-snip Claude Code mod, the proxy gained turn hooks that rewrite OpenAI Responses requests on HTTP and WebSocket (2026-10-17), release v0.42.0 (2026-10-26) shipped those hooks plus per-request saved-token counts on OutcomeSnapshot and the same tool-savings reporting on the gateway /v1/compress endpoint as the proxy path, and the v0.43 pair (both 2026-11-05) ported the MCP servers to SDK 2.x as a breaking change, answered `headroom_retrieve` on streaming chat completions, added a headroom skill plugin for Claude Code, Codex, Copilot and skills.sh, and put model-routing savings into `headroom savings`, with v0.43.1 fixing a CCR order-queue eviction and a memory-schema key.
+Main's unreleased 2026-11-06 to 11-07 fix batch follows: Vertex onboarding failures explained in-band with a `[vertex]` backend extra, doctor matching IPv6 and case-variant loopback URLs, a Hugging Face tokenizer fix for the BatchEncoding return shape that had silently reverted every compression on HF-tokenized models such as DeepSeek, chatgpt-4o tokenizer aliases resolving to o200k_base, hardening of the learn analyzer against malformed LLM JSON, and proxy forwarding that drops response headers named by Connection.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=headroomlabs-ai/headroom&type=date&theme=dark&legend=top-left" />
@@ -73,6 +74,7 @@ Not as a substitute for retrieval quality (compressing bad context makes bad con
 - 2026-10-25 - Replaced the weekly npm-window adoption claim with the trailing-month figure (159,697 to 2026-10-22) per the trailing-month ruling on npm weekly windows; the 2026-10-24 main-branch fixes carried no release or material change; the stars figure keeps its 2026-10-18 as-of date.
 - 2026-10-27 - Recorded release v0.42.0 (2026-10-26: the OpenAI Responses turn hooks released, per-request saved tokens on OutcomeSnapshot, and the gateway /v1/compress endpoint reporting the same tool savings as the proxy path), with the PyPI package at 0.42.0; the stars figure keeps its 2026-10-18 as-of date.
 - 2026-11-06 - Full rotation re-verification: every cited URL re-fetched (repository page and README, docs, PyPI, npm range, the HN thread, and the GitHub API all intact, the compression table and seeded benchmark rows unchanged); recorded the v0.43 pair (both 2026-11-05: the breaking MCP SDK 2.x port, `headroom_retrieve` answered on streaming chat completions, a headroom skill plugin for Claude Code, Codex, Copilot and skills.sh, model-routing savings in `headroom savings`, and two CCR and memory fixes in v0.43.1) with PyPI at 0.43.1 across 206 releases; recorded the README's new output-shaper surface (opt-in verbosity steering on what the model writes back, with counterfactual estimated savings and a holdout-measured mode) and its default-on anonymous telemetry beacon with documented opt-outs; refreshed the volatile numbers (6,173 forks, 318 open issues and pull requests, pushed 2026-11-06, 147,968 npm downloads summed for 2026-10-07 to 2026-11-06, eight zero days in the window); the stars figure keeps its 2026-10-18 as-of date.
+- 2026-11-07 - Recorded main's unreleased 2026-11-06 to 11-07 fix batch (in-band Vertex failure diagnostics plus a `[vertex]` backend extra, doctor IPv6 and case-variant loopback matching, the HF BatchEncoding token-count fix for silently reverted compression on HF-tokenized models, chatgpt-4o tokenizer aliases, learn-analyzer JSON hardening, Connection-named response-header dropping); no release since v0.43.1.
 
 ## See also
 

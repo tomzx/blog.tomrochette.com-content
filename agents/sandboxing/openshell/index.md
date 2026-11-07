@@ -1,7 +1,7 @@
 ---
 title: OpenShell
 created: 2026-08-30
-updated: 2026-11-01
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, nvidia, open-source]
 readability: 3
@@ -34,6 +34,7 @@ Fast adoption, newly stable and surging: 16,365 stars, 1,796 forks, 556 open iss
 The v0.1.0 pre-release train graduated to stable v0.1.0 on 2026-09-25, with v0.1.1 following on 2026-09-26, v0.1.2 on 2026-09-28, v0.1.3 on 2026-10-09 (an Oracle Cloud Infrastructure Generative AI provider profile, refusal of protocol upgrades on JSON-RPC and MCP endpoints, Ctrl-D session detach, optional cluster-scoped RBAC in Helm, corporate-proxy CA bundle support, and gateway OCSF events written to JSONL), and v0.1.4 on 2026-10-13 (the gateway runnable as a snap user service by default, operator-only provider credential retrieval, stable credential placeholders, a startup error that names the Landlock ABI, and a stale-issue closer that shuts issues after fourteen additional days), and the README now advertises a stable release cadence for the 0.1.x line and no longer carries the alpha badge, at about 1,740 commits and 132 contributors.
 v0.1.5 (2026-10-20) added push-mode configuration delivery that reaches sandboxes in about 100 milliseconds, OCSF authentication events for rejected requests, operator-opt-in virtiofs host-directory mounts on MicroVM sandboxes, a MicroVM shutdown fix that flushes the guest filesystem before stop so recent writes survive, Kubernetes pod-annotation allowlists, and the versioned Sandbox Protocol published for independently implemented backends.
 v0.1.6 (2026-10-27) made gateways refuse to start unless an authentication method is configured (OIDC, mTLS user or operator auth, or gateway JWTs, with an explicit opt-out flag for trusted local development), moved the control connection to open from the sandbox toward its supervisor, added suspend and resume commands on drivers that support them, and shipped Python SDK bindings for credential drivers.
+v0.1.7 (2026-11-03) is a breaking telemetry cut: the gateway now emits native OCSF 1.8.0 records only, with the old schema-version settings deprecated and ignored, plus MicroVM sandboxes from registry images running as the image's own sandbox account instead of a fixed UID, the CA-bundle setting moved under the supervisor's network table, and config preflight rejections for supervisor-pool settings that the selected driver cannot use.
 **Late September 2026 NVIDIA folded OpenShell into a branded Open Agent Safety Platform reference design alongside NVIDIA Sentry and BlueField-4 in-silicon enforcement on a dedicated product page, and stars jumped roughly 4,300 in the following three days, a vendor push rather than a Hacker News wave, whose debut threads drew only 2 or 3 points.**
 NVIDIA's own blog still calls it an early preview, and a stable line three point releases deep plus experimental Kubernetes and GPU features say production use is a bet on the vendor staying in.
 In September 2026 the team also published a formal-methods discussion of encoding the full OpenShell policy as formal logic and proving containment queries with SAT, SMT, and Z3, which reached 40 points on Hacker News.
@@ -50,7 +51,7 @@ In September 2026 the team also published a formal-methods discussion of encodin
 - Freshly stable (v0.1.0 on 2026-09-25), with breaking changes the base rate for a runtime this young and the Kubernetes path explicitly experimental.
 - Telemetry is on by default in a tool whose pitch is privacy; anonymous, but verify it against your threat model.
 - Effective security equals the YAML policies you write and maintain, which is real ongoing work.
-- 564 open issues and PRs as of 2026-11-01, back above the 536 platform-launch peak as the v0.1.5 and v0.1.6 releases drew new reports faster than the stale-issue closer shuts them, on an eight-month-old codebase.
+- 629 open issues and PRs as of 2026-11-07, well above the 536 platform-launch peak as the v0.1.5 through v0.1.7 releases drew new reports faster than the stale-issue closer shuts them, on an eight-month-old codebase.
 
 ## Pricing
 
@@ -84,6 +85,7 @@ Not for production-critical paths this quarter, or shops that cannot run Docker 
 - 2026-10-13 - Recorded v0.1.4 (2026-10-13, snap user-service gateway default, operator-only provider credential retrieval, stable credential placeholders, the Landlock ABI named in startup errors, a stale-issue closer), corrected the open-issues caution (597 to 529, now below the 536 platform-launch peak, the closer's effect), and refreshed counts (16,112 stars, 1,776 forks, 132 contributors, 1,740 commits).
 - 2026-10-23 - Recorded v0.1.5 (2026-10-20, push-mode configuration delivery at about 100 milliseconds, OCSF authentication events for rejected requests, operator-opt-in virtiofs host mounts on MicroVM sandboxes, the MicroVM shutdown write-flush fix, Kubernetes pod-annotation allowlists, and the versioned Sandbox Protocol published for independent backends).
 - 2026-11-01 - Recorded v0.1.6 (2026-10-27, gateways refusing unauthenticated startup unless an auth method is configured, the sandbox-to-supervisor control-connection direction, suspend and resume commands, and Python SDK credential-driver bindings), with the repository pushed 2026-11-01 and open issues and PRs back to 564, above the platform-launch peak.
+- 2026-11-07 - Recorded v0.1.7 (2026-11-03, the breaking native-OCSF-1.8.0-only telemetry cut with the schema-version settings deprecated, MicroVM registry-image sandboxes running as the image's sandbox account, the CA-bundle setting moved to the supervisor network table, and preflight rejections for unusable supervisor-pool settings) and the post-release fix train through 2026-11-06 (bounded procfs work in binary identity resolution, MCP tool selectors in the policy viewer, TRACEPARENT forwarding, Helm priorityClassName and topology spread, bounded Postgres pool waits, and workload-identity invariants on deserialize), with the repository pushed 2026-11-07 and open issues and PRs at 629.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Phoenix
 created: 2026-08-30
-updated: 2026-11-05
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, opentelemetry, tracing]
 readability: 3
@@ -32,7 +32,7 @@ Mature and busy: 11,824 stars, 1,201 forks, 1,142 open issues and PRs as of 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Arize-ai/phoenix&type=date&legend=top-left" />
 </picture>
 
-Created 2022-11-09, pushed 2026-11-05, platform release arize-phoenix 21.0.0 on 2026-10-30, the first major bump past the 20.x line (it ships a MIGRATION.md and turns auth on by default, no PHOENIX_SECRET required), after 20.27.0 (2026-10-29) and 20.26.1 (2026-10-25), with the release train since running on the client packages (arize-phoenix-client 3.7.0, 2026-11-05) while the platform holds at 21.0.0, about 626,000 PyPI downloads over the trailing 30 days ending 2026-10-11.
+Created 2022-11-09, pushed 2026-11-07, platform release arize-phoenix 21.0.0 on 2026-10-30, the first major bump past the 20.x line (it ships a MIGRATION.md and turns auth on by default, no PHOENIX_SECRET required), after 20.27.0 (2026-10-29) and 20.26.1 (2026-10-25), with the release train since running on the client packages (arize-phoenix-client 3.7.0, 2026-11-05; the JavaScript client and CLI carrying the newer releases) while the platform holds at 21.0.0, about 626,000 PyPI downloads over the trailing 30 days ending 2026-10-11.
 **Four years in, it is the oldest and most production-proven column in this category, with near-daily commits and weekly releases.**
 
 ## Strengths

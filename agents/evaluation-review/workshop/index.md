@@ -1,7 +1,7 @@
 ---
 title: Workshop
 created: 2026-08-30
-updated: 2026-10-27
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, debugging, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by Raindrop, an agent-observability startup; Workshop is the free local tie
 
 ## Status
 
-Young with a strong launch, then a quiet fall that October ended: 1,111 stars, 70 forks, and 9 open issues as of 2026-10-13, created 2026-05-01, with no release between v0.1.21 (2026-08-22) and v0.1.23 (2026-10-26, dependency updates plus the Swift SDK guidance an outside pull request had proposed), the repository's first maintainer shipping in two months; the 2026-10-20 push had been an outside pull request the maintainer closed unmerged the same day, and two more outside pull requests opened 2026-10-22 (a daemon-reuse feature and a dependency bump) that still sit unmerged.
+Young with a strong launch, then a quiet fall that October ended: 1,111 stars, 70 forks, and 9 open issues as of 2026-10-13, created 2026-05-01, with no release between v0.1.21 (2026-08-22) and v0.1.23 (2026-10-26, dependency updates plus the Swift SDK guidance an outside pull request had proposed), the repository's first maintainer shipping in two months, then v0.1.24 (2026-11-05, third-party dependency updates and security patches: the Express body-parser fix, CI action pinning, and the Socket vulnerability patch); the 2026-10-20 push had been an outside pull request the maintainer closed unmerged the same day, and two more outside pull requests opened 2026-10-22 (a daemon-reuse feature and a dependency bump) that still sit unmerged.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=raindrop-ai/workshop&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for teams needing CI-gated eval suites today, or Windows-primary shops hedge
 - 2026-10-21 - Sharpened the activity line: no default-branch commit or release since 2026-08-22, and the 2026-10-20 repository activity is an outside pull request closed unmerged the day it opened.
 - 2026-10-25 - Recorded two more outside pull requests (opened 2026-10-22, a daemon-reuse feature and a dependency bump) sitting unmerged alongside the still-absent maintainer activity.
 - 2026-10-27 - Corrected the activity line: maintainer shipping resumed with the v0.1.23 release (2026-10-26, dependency updates and the Swift SDK guidance from the closed outside pull request), fully re-verified out of rotation with every cited URL re-fetched and live.
+- 2026-11-07 - Recorded the v0.1.24 release (2026-11-05, third-party dependency updates and security patches: the Express body-parser fix, CI action pinning, and the Socket vulnerability patch), fully re-verified out of rotation with every cited URL re-fetched and live.
 
 ## See also
 

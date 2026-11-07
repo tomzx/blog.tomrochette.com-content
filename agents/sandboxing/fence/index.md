@@ -1,7 +1,7 @@
 ---
 title: Fence
 created: 2026-10-07
-updated: 2026-10-25
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Built by Tusk, the AI testing-agents company; the repository moved from Use-Tusk
 
 ## Status
 
-Actively maintained with modest but durable traction: 992 stars, 40 open issues, pushed 2026-10-14 as of 2026-10-16, created 2025-12-18, with v0.1.67 (2026-09-01) still the newest of thirty releases.
+Quiet on main since September after a long steady run: 40 open issues, main's newest commit 2026-09-10, the repo-level pushes through 2026-11-03 dependency PRs and branch activity rather than maintainer commits, created 2025-12-18, with v0.1.67 (2026-09-01) still the newest of thirty releases and 992 stars as of 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fencesandbox/fence&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Actively maintained with modest but durable traction: 992 stars, 40 open issues,
 </picture>
 
 The 78-point Show HN of 2026-01-20 is the community anchor, with the maintainer answering limit questions in the thread.
-**A steady 0.1.x cadence with no 1.0 after ten months says the project is alive but pre-stability, and the organization rename is a second churn event early adopters had to follow.**
+**A steady 0.1.x cadence that ran thirty releases deep has now stalled: no commit to main since 2026-09-10 and no release since v0.1.67 on 2026-09-01, with the October and November activity limited to dependency PRs and community contributions, and the organization rename remains a second churn event early adopters had to follow.**
 
 ## Strengths
 
@@ -58,7 +58,7 @@ Fence is a standalone project from Tusk; the costs are local only.
 
 - [nono](../nono/index.md): the Sigstore team's broker adds per-tool command sandboxes and per-endpoint credential proxies on the same class of kernel primitives; choose Fence for one simple invocation policy, nono for delegation-level control.
 - [Drop](../drop/index.md): keeps your installed distribution inside a namespace environment with an optional gVisor step-up; Fence stays closer to per-command restriction without environment isolation.
-- [aigate](../aigate/index.md): the dormant fourteen-star prior art in the same slot; Fence is the maintained version of roughly this idea.
+- [aigate](../aigate/index.md): the dormant fourteen-star prior art in the same slot; Fence is the longer-maintained version of roughly this idea, though its train has quieted since September 2026.
 
 ## Bottom line
 
@@ -70,6 +70,7 @@ Not for containing actively malicious processes, and not on hosts where deprecat
 - 2026-10-07 - Created from the entrant-resolution run, profiling Tusk's OS-native command sandbox with the maintainer's allow-by-default-reads limitation as the anchor caution.
 - 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (rotation re-verification; every cited URL re-fetched, v0.1.67 still the newest release).
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched and alive (repository, docs site, the API records, the Show HN thread); v0.1.67 (2026-09-01) remains the newest of thirty releases, the main branch last moved 2026-10-14, and the boundary claims, agent support list, and the maintainer's allow-by-default-reads answers re-verified unchanged.
+- 2026-11-07 - Out-of-rotation re-verification correcting the activity reading: the earlier main-last-moved-2026-10-14 claim had read the repo-level push instead of the default branch, whose newest commit is 2026-09-10, so the train has been quiet for eight weeks with the 2026-10-14 and 2026-11-03 pushes being dependency PRs (closed unmerged) and community PRs, v0.1.67 (2026-09-01) still the newest of thirty releases, and every cited URL re-fetched and alive (repository, docs site, the API records, the Show HN thread); the maintainer remains active on issues, and the Status reading moved from actively maintained to quiet-on-main watch.
 
 ## See also
 

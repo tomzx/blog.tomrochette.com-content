@@ -1,7 +1,7 @@
 ---
 title: IndyDevDan
 created: 2026-09-24
-updated: 2026-10-29
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, agentic-engineering, claude-code, harness-engineering]
 readability: 3
@@ -23,9 +23,9 @@ The commercial engine is agenticengineer.com, which sells Principled AI Coding (
 
 ## Status
 
-Active and metronomic as of 2026-10-29.
-Uploads run weekly, every Monday at 13:00 UTC, with 20 consecutive Mondays from 2026-06-15 to 2026-10-26 verified via the channel's RSS feed, the latest being "ELITE Agentic Engineers Are LEAVING THE LOOP... Here's why" (2026-10-26, 51,904 views within three days), the in-near-out-of-the-loop phase-3 argument built on his Pi Durable and Jev devlogs, after "My Jev Pi Durable Agent CURATES News: HYPE, FACT, or SIGNAL" (2026-10-19, a cron-driven news-curation agent on the new Pi Durable harness) and "Pi Durable PROACTIVE Agents" (2026-10-12).
-Recent videos land between about 20,000 and 210,000 views, with "10 Levels of Jev" at 206,273 and the newest video at 51,904 within three days (both as of 2026-10-29, per the RSS feed).
+Active and metronomic as of 2026-11-07.
+Uploads run weekly, every Monday at 13:00 UTC, with 21 consecutive Mondays from 2026-06-15 to 2026-11-02 verified via the channel's RSS feed, the latest being "Tiny Software Factories: Agentic Engineering DONE WRONG" (2026-11-02, 32,483 views), a contrarian take arguing factory-scale deployments are where agentic engineering goes wrong, after "ELITE Agentic Engineers Are LEAVING THE LOOP... Here's why" (2026-10-26, 64,332 views), the in-near-out-of-the-loop phase-3 argument built on his Pi Durable and Jev devlogs, after "My Jev Pi Durable Agent CURATES News: HYPE, FACT, or SIGNAL" (2026-10-19, a cron-driven news-curation agent on the new Pi Durable harness) and "Pi Durable PROACTIVE Agents" (2026-10-12).
+Recent videos land between about 20,000 and 210,000 views, with "10 Levels of Jev" at 209,579 and the newest video at 32,483 (both as of 2026-11-07, per the RSS feed).
 Hacker News mentions him in six comment threads between 2025-04 and 2026-09, the only channel of this batch with third-party discussion at all.
 
 ## Strengths
@@ -81,6 +81,7 @@ Not for someone allergic to hype framing, or who wants vendor-neutral depth with
 - 2026-10-06 - The weekly Monday streak extended to 17 (2026-06-15 to 2026-10-05) with the new upload "OpenRouter State Of Models: Jev, Open-Weights, and Tokenomic" (2026-10-05); Status and the RSS reference line updated (feed fetched this run).
 - 2026-10-24 - The Monday streak extended to 19 (through the 2026-10-19 upload "My Jev Pi Durable Agent CURATES News"), the Pi Durable build videos noted in Status, and the Pricing and Price history sections added from the course pages (all fetched this run).
 - 2026-10-29 - The Monday streak extended to 20 (through the 2026-10-26 upload "ELITE Agentic Engineers Are LEAVING THE LOOP... Here's why"), with "10 Levels of Jev" at 206,273 views; RSS feed fetched this run.
+- 2026-11-07 - The Monday streak extended to 21 (through the 2026-11-02 upload "Tiny Software Factories: Agentic Engineering DONE WRONG"), view counts refreshed; RSS feed fetched this run.
 
 ## See also
 

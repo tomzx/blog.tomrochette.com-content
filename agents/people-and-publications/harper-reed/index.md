@@ -1,7 +1,7 @@
 ---
 title: Harper Reed
 created: 2026-09-24
-updated: 2026-10-29
+updated: 2026-11-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, llm-codegen, spec-first, agentic-coding, workflows]
 readability: 3
@@ -71,6 +71,7 @@ Not for readers wanting evaluation methodology, organization-level platform stra
 - 2026-09-24 - Created.
 - 2026-10-17 - Rotation re-verification, every cited URL re-fetched and all live: the homepage still leads with the 2026-09-22 containment essay as the newest long-form post, with notes through 2026-10-03, and the about page's rolling average moved from about 1.04 to about 1.03 posts per week (corrected in What it is).
 - 2026-10-29 - Homepage check found no long-form post newer than the 2026-09-22 containment essay, with notes through 2026-10-03 (fetched this run); added the Pricing section the note format mandates.
+- 2026-11-07 - Rotation re-verification, every cited URL re-fetched and all live: the RSS feed and homepage still lead with the 2026-09-22 containment essay, with notes through 2026-10-03, so the posting claims stand (fetched this run).
 
 ## See also
 
