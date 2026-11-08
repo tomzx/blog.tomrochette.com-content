@@ -1,7 +1,7 @@
 ---
 title: EvoSkill
 created: 2026-10-13
-updated: 2026-11-01
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, skill-discovery, evolution, optimization]
 readability: 3
@@ -76,6 +76,7 @@ Not for production skill maintenance (the loop is offline over a fixed dataset a
 - 2026-10-20 - The "quiet and possibly ending" reading reversed: the repo pushed 2026-10-20 on the v2 branch, whose commits carry "EvoSkill v2" and a tech report (arXiv 2610.25931, dated 2026-10-19) describing a stateful single-agent evolver with head-to-head gains over SkillOpt and SkillBoost; nothing tagged or merged to the default branch, so the Status and the quiet-project caution were rewritten around the unreleased-v2 reality.
 - 2026-10-26 - Rotation re-verification found the v2 line released: v2.0.0 published 2026-10-26 tagged on the v2 branch (main stays v1), with the benchmark adaptor, container-per-attempt solver, and stateful evolver named in the release body, the SpreadsheetBench v2 and tau-bench banking held-out numbers, and the macOS-plus-Daytona requirements; the Status, What-it-is, and the release-surface caution were rewritten around the shipped-branch reality, and every cited URL was re-fetched live.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live, all claims held (v2.0.0 still the latest release with main staying v1 and its last commit still 2026-07-06, the release body's adaptor, solver, and stateful-evolver claims matching both the release page and the tech report's v2 abstract with the 40.4/+7.7, 51.6/+5.4, and 28.0-to-49.5 figures, the macOS-plus-Daytona requirements unchanged, the v1 paper still v1-only, the Sentient post unchanged, the HN search still returning only fuzzy non-matches); one addition recorded in Status: the v2 branch's citation block now gives the v1 paper a venue, the First Workshop on Agent Skills (Agent Skills '26) at ACM CAIS 2026.
+- 2026-11-08 - Rotation re-verification: every cited URL re-fetched live, all claims held again (v2.0.0 still the newest release with the repo pushed 2026-10-26 and 21 open issues, main's last commit still 2026-07-06 and the v2 branch's still 2026-10-20, the v1 paper still v1-only, the v2 report and the Sentient post serving 200, the HN search still returning only fuzzy non-matches); the github.com HTML pages served transient 504s on the first tries, so the branch and release claims re-grounded through the API endpoints, which served 200 throughout.
 
 ## See also
 
@@ -87,11 +88,11 @@ Not for production skill maintenance (the loop is offline over a fixed dataset a
 
 ## References
 
-- https://github.com/sentient-agi/EvoSkill - repository, Apache-2.0, 1,250 stars, 132 forks as of 2026-10-13, 21 open issues as of 2026-10-26, main still serving the v1 README (GitHub API and README, fetched 2026-10-13, re-fetched 2026-11-01, main's last commit still 2026-07-06)
-- https://arxiv.org/abs/2603.02766 - the v1 paper: the three-role loop, the Pareto frontier, and the OfficeQA, SealQA, and BrowseComp numbers (fetched 2026-10-13, re-fetched 2026-11-01, still v1-only)
-- https://arxiv.org/abs/2610.25931 - the v2 tech report: the stateful single-agent evolver, the SkillOpt and SkillBoost comparisons, and the accept-every-epoch change (fetched 2026-10-20, re-fetched 2026-11-01, now v2 revised 2026-10-23 with the abstract carrying the 7.7-point and 5.4-point held-out gains and the 21.5-point Haiku self-improvement)
-- https://github.com/sentient-agi/EvoSkill/tree/v2 - the v2 branch, now carrying the released v2.0.0 system (fetched 2026-10-20, re-fetched 2026-11-01, its citation block now recording the v1 paper's Agent Skills '26 workshop acceptance at ACM CAIS 2026)
-- https://github.com/sentient-agi/EvoSkill/releases/tag/v2.0.0 - the release body: the three-agent v2 design, the SpreadsheetBench v2 and tau-bench banking numbers, the clone-the-branch install, and the macOS-plus-Daytona requirements (fetched 2026-10-26, re-fetched 2026-11-01)
-- https://www.sentient.xyz/blog/evoskill-automated-skill-induction-from-agent-failures - the Sentient Labs post: the five-step loop, the git-branch frontier, and the Claude Code Opus 4.5 claim (March 5, 2026, fetched 2026-10-13, re-fetched 2026-11-01, unchanged)
-- https://api.github.com/repos/sentient-agi/EvoSkill/releases/latest - v2.0.0 published 2026-10-26 on the v2 branch, the newest release; v1.3.0 (2026-06-16) still the last main-line release (fetched 2026-10-13, re-verified 2026-10-20, re-fetched 2026-11-01, still v2.0.0)
-- https://hn.algolia.com/api/v1/search?query=EvoSkill&tags=story - the zero-hit search behind the missing-footprint statement (fetched 2026-10-13, re-run 2026-11-01, still no EvoSkill story, only fuzzy non-matches)
+- https://github.com/sentient-agi/EvoSkill - repository, Apache-2.0, 1,250 stars, 132 forks as of 2026-10-13, 21 open issues as of 2026-10-26 (still 21 on 2026-11-08), main still serving the v1 README (GitHub API and README, fetched 2026-10-13, re-fetched 2026-11-01, re-fetched 2026-11-08, main's last commit still 2026-07-06, pushed still 2026-10-26)
+- https://arxiv.org/abs/2603.02766 - the v1 paper: the three-role loop, the Pareto frontier, and the OfficeQA, SealQA, and BrowseComp numbers (fetched 2026-10-13, re-fetched 2026-11-01, re-fetched 2026-11-08, still v1-only)
+- https://arxiv.org/abs/2610.25931 - the v2 tech report: the stateful single-agent evolver, the SkillOpt and SkillBoost comparisons, and the accept-every-epoch change (fetched 2026-10-20, re-fetched 2026-11-01, re-fetched 2026-11-08, now v2 revised 2026-10-23 with the abstract carrying the 7.7-point and 5.4-point held-out gains and the 21.5-point Haiku self-improvement)
+- https://github.com/sentient-agi/EvoSkill/tree/v2 - the v2 branch, now carrying the released v2.0.0 system (fetched 2026-10-20, re-fetched 2026-11-01, re-fetched 2026-11-08 through the API branch endpoint with the head commit still 2026-10-20, the HTML page serving transient 504s that day, its citation block recording the v1 paper's Agent Skills '26 workshop acceptance at ACM CAIS 2026)
+- https://github.com/sentient-agi/EvoSkill/releases/tag/v2.0.0 - the release body: the three-agent v2 design, the SpreadsheetBench v2 and tau-bench banking numbers, the clone-the-branch install, and the macOS-plus-Daytona requirements (fetched 2026-10-26, re-fetched 2026-11-01, re-fetched 2026-11-08, 200)
+- https://www.sentient.xyz/blog/evoskill-automated-skill-induction-from-agent-failures - the Sentient Labs post: the five-step loop, the git-branch frontier, and the Claude Code Opus 4.5 claim (March 5, 2026, fetched 2026-10-13, re-fetched 2026-11-01, re-fetched 2026-11-08, unchanged)
+- https://api.github.com/repos/sentient-agi/EvoSkill/releases/latest - v2.0.0 published 2026-10-26 on the v2 branch, the newest release; v1.3.0 (2026-06-16) still the last main-line release (fetched 2026-10-13, re-verified 2026-10-20, re-fetched 2026-11-01, re-fetched 2026-11-08, still v2.0.0)
+- https://hn.algolia.com/api/v1/search?query=EvoSkill&tags=story - the zero-hit search behind the missing-footprint statement (fetched 2026-10-13, re-run 2026-11-01, re-run 2026-11-08, still no EvoSkill story, only fuzzy non-matches)

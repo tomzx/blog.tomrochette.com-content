@@ -1,7 +1,7 @@
 ---
 title: Sandstorm
 created: 2026-10-31
-updated: 2026-11-01
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, gvisor, firecracker, sandbox-lifecycle]
 readability: 3
@@ -67,11 +67,12 @@ Recommended for engineers running self-hosted agent-sandbox fleets on their own 
 
 - 2026-10-31 - Created.
 - 2026-11-01 - Volatile refresh: recorded the v0.6.0 release-preparation pass on main (2026-11-01), which repairs the release packaging (a binary built against glibc 2.38 that would not start on Ubuntu 22.04 or Debian 12, and a Docker image that had stopped building), bumps core and SDKs to 0.6.0, and cuts no tag yet, with the repository pushed 2026-11-01.
+- 2026-11-08 - Reworded the CubeSandbox See-also line to drop a banned term (now "closest in kind"); no factual change.
 
 ## See also
 
 - [Microsandbox](../microsandbox/index.md) - the local-first microVM runtime this note's lifecycle economics answer at fleet scale
-- [CubeSandbox](../cubesandbox/index.md) - the self-hosted microVM sandbox service closest in shape
+- [CubeSandbox](../cubesandbox/index.md) - the self-hosted microVM sandbox service closest in kind
 - [E2B](../e2b/index.md) - the hosted baseline every self-hosted entry here is measured against
 - [Overalls](../overalls/index.md) - the other self-hosted Firecracker platform in the category
 

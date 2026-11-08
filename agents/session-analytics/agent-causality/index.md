@@ -1,7 +1,7 @@
 ---
 title: Agent-Causality
 created: 2026-10-28
-updated: 2026-10-31
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, run-recording, replay, causal-analysis, open-source]
 readability: 3
@@ -24,8 +24,8 @@ Made by Vasant Kumar Mogia (Psionics) under AGPL-3.0, with an in-repository rese
 
 ## Status
 
-Young and active but essentially unadopted: 6 stars, 2 forks, 3 open issues, created 2026-08-15, pushed 2026-10-30, releases through v0.3.0 on 2026-10-30, as of 2026-10-31.
-The registries confirm the thinness: PyPI serves 0.3.0 (uploaded the day of the release, closing the version lag) and the OpenCode plugin 0.1.7, with 136 PyPI downloads in the week to 2026-10-31 and 253 npm downloads in the month to 2026-10-29.
+Young and active but essentially unadopted: 6 stars (the dated baseline), 2 forks, 3 open issues, created 2026-08-15, pushed 2026-10-30, releases through v0.3.0 on 2026-10-30, as of 2026-11-08.
+The registries confirm the thinness: PyPI serves 0.3.0 (uploaded the day of the release, closing the version lag) and the OpenCode plugin 0.1.7, with 51 PyPI downloads in the week to 2026-11-08 (a rolling-window swing from the 136 the week to 2026-10-31 recorded, no release in between) and 539 npm downloads in the month to 2026-11-08, up from 253 in the month to 2026-10-29.
 The v0.3.0 release tightened the capture contract (capture_tool now requires a provenance recorder when field sources are declared, and unattributed tool retries are rejected) and rebuilt the Explorer's failure story: the failure column shows the failure's visible declared ancestors, hidden stretches render as marked gaps, and selecting a node lights only its causal ancestors.
 
 <picture>
@@ -73,6 +73,7 @@ Not for cost reporting, transcript search, live dashboards, or anyone who needs 
 
 - 2026-10-28 - Created from the coordinator's entrant handoff, admitted on the declared-causal-parent capture mechanism, the self-critical live-trace benchmark with its named negative results, and nine fetched sources.
 - 2026-10-31 - Volatile re-verification recorded v0.3.0 and plugin 0.1.7 (both 2026-10-30): PyPI now serves 0.3.0, so the version-drift caution moved to a breaking-capture-contract caution, the Status gained the release's failure-column and capture-contract changes, and downloads refreshed (PyPI week 154 to 136, npm month 243 to 253); repository counts unchanged.
+- 2026-11-08 - Rotation re-verification: every cited URL re-fetched and live; the repository quiet since 2026-10-30 with no default-branch commit since the v0.3.0 release, the README and benchmarks.md unchanged (capture 1.0, cause recall 0.3, joint ancestry 0.0), and the registries unchanged (PyPI 0.3.0, plugin 0.1.7); downloads refreshed (PyPI week 136 to 51, npm month 253 to 539), and forks and open issues unchanged at 2 and 3.
 
 ## See also
 
@@ -83,13 +84,13 @@ Not for cost reporting, transcript search, live dashboards, or anyone who needs 
 
 ## References
 
-- https://api.github.com/repos/Psionic-labs/Agent-Causality - 6 stars, 2 forks, AGPL-3.0, created 2026-08-15, pushed 2026-10-30, as of 2026-10-31
-- https://raw.githubusercontent.com/Psionic-labs/Agent-Causality/main/README.md - the two-package contract, capture hooks, SQLite storage, Explorer views, benchmark summary, and the paper link
-- https://api.github.com/repos/Psionic-labs/Agent-Causality/releases - v0.3.0 and plugin-v0.1.7 (both 2026-10-30), v0.2.1 (2026-10-22), v0.2.0 (2026-10-18), v0.1.4 (2026-10-14) (re-fetched 2026-10-31)
-- https://pypi.org/pypi/agent-causality/json - PyPI package, version 0.3.0, Python 3.11 or newer (re-fetched 2026-10-31)
-- https://registry.npmjs.org/@psionic-labs/opencode-agent-causality - the OpenCode plugin, latest 0.1.7 (2026-10-30)
-- https://pypistats.org/api/packages/agent-causality/recent - 136 downloads in the week to 2026-10-31, behind the adoption claim
-- https://api.npmjs.org/downloads/range/2026-09-30:2026-10-29/@psionic-labs/opencode-agent-causality - 253 downloads in the month to 2026-10-29
-- https://psionic-labs.github.io/Agent-Causality/opencode.html - the OpenCode integration guide
-- https://raw.githubusercontent.com/Psionic-labs/Agent-Causality/main/docs/benchmarks.md - the full benchmark results behind the negative-results claim
-- https://hn.algolia.com/api/v1/search?query=Agent-Causality&tags=story - zero stories, the empty independent footprint this note states
+- https://api.github.com/repos/Psionic-labs/Agent-Causality - 6 stars (the dated baseline), 2 forks, AGPL-3.0, created 2026-08-15, pushed 2026-10-30, as of 2026-11-08
+- https://raw.githubusercontent.com/Psionic-labs/Agent-Causality/main/README.md - the two-package contract, capture hooks, SQLite storage, Explorer views, benchmark summary, and the paper link (re-fetched 2026-11-08)
+- https://api.github.com/repos/Psionic-labs/Agent-Causality/releases - v0.3.0 and plugin-v0.1.7 (both 2026-10-30), v0.2.1 (2026-10-22), v0.2.0 (2026-10-18), v0.1.4 (2026-10-14) (re-fetched 2026-11-08)
+- https://pypi.org/pypi/agent-causality/json - PyPI package, version 0.3.0, Python 3.11 or newer (re-fetched 2026-11-08)
+- https://registry.npmjs.org/@psionic-labs/opencode-agent-causality - the OpenCode plugin, latest 0.1.7 (2026-10-30) (re-fetched 2026-11-08)
+- https://pypistats.org/api/packages/agent-causality/recent - 51 downloads in the week to 2026-11-08, behind the adoption claim (re-fetched 2026-11-08)
+- https://api.npmjs.org/downloads/range/2026-10-09:2026-11-08/@psionic-labs/opencode-agent-causality - 539 downloads in the month to 2026-11-08 (fetched 2026-11-08)
+- https://psionic-labs.github.io/Agent-Causality/opencode.html - the OpenCode integration guide (re-fetched 2026-11-08)
+- https://raw.githubusercontent.com/Psionic-labs/Agent-Causality/main/docs/benchmarks.md - the full benchmark results behind the negative-results claim (re-fetched 2026-11-08)
+- https://hn.algolia.com/api/v1/search?query=Agent-Causality&tags=story - zero stories, the empty independent footprint this note states (re-fetched 2026-11-08)

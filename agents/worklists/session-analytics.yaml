@@ -3,7 +3,7 @@ category: session-analytics
 generated: 2026-11-08
 mapped_sources:
   - repo: anhermon/awesome-agent-observability
-    last_checked: 2026-11-06
+    last_checked: 2026-11-08
 digest_lines:
   - "- 2026-11-07 | cross-category | agentastic.dev rejects on the thin-record tail: closed product, no public code repository (org holds a 1-star homebrew tap and a 0-star quickstart), an 11-point January Show HN, zero coverage since | resolves the surfaces worker's terminal-family routing report"
   - "- 2026-11-07 | session-analytics | matrix body rows are verified by content fingerprint against member notes, not by cell count, because the 2026-10-28 twenty-one-column extension inserted NovaFabric's cells in the agents-observe position and shifted agents-observe through Memex one slot right in all eleven rows while every row kept its correct cell count | insertion-position errors survive count-only checks and pass-touch checks that only edit unshifted columns; alignment now re-derived row by row"

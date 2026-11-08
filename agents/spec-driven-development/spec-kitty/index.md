@@ -1,7 +1,7 @@
 ---
 title: Spec Kitty
 created: 2026-10-06
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, governance, worktrees, open-source]
 readability: 3
@@ -19,12 +19,12 @@ Spec Kitty is Spec Kitty, Inc.'s MIT-licensed Python CLI for spec-driven develop
 A Python 3.11+ CLI (PyPI `spec-kitty-cli`, MIT, by Spec Kitty, Inc.) whose pipeline runs spec, plan, tasks, next, review, accept, merge, with mission artifacts under `kitty-specs/` and work packages moving through lifecycle lanes (planned, in_progress, for_review, approved, done).
 Implementation happens in isolated git worktrees under `.worktrees/`, so parallel agents work without branch collisions, and review, accept, and merge are explicit gates with evidence attached.
 A governance layer keeps runtime decisions in the repo (`spec-kitty advise`, `ask`, and `do` map operator intent through a trail model), and every completed mission generates a retrospective by default.
-Slash commands or skills integrate Claude Code, Codex, Cursor, Gemini, Copilot, Windsurf, and OpenCode; the company sells demo-booked team platform access (TeamSpace, tracker sync) and training around the free CLI, and positions the whole thing as a governed software factory.
+Slash commands or skills integrate Claude Code, Codex, Cursor, Gemini, Copilot, Windsurf, and OpenCode; the company sells the product as a three-part decision layer, Brain Kitty (per-person knowledge graphs of the standards, runbooks, rules, and decisions each person owns, which agent answers must cite), Team Kitty (the hosted early-access layer that merges the team's graphs and serves the applicable slice to agents over MCP), and Build Kitty (the free CLI itself), beside demo-booked rollout training, under a "decision layer for autonomous software delivery" headline.
 
 ## Status
 
 Active, company-backed, and mid-adoption.
-As of 2026-10-14: 1,681 stars and 180 forks since creation on 2025-10-09, MIT, stable PyPI release 3.2.7 (2026-09-09) and 3,251 PyPI downloads last month (re-read byte-identical on 2026-11-07, eighth identical read); as of 2026-11-07, pushed 2026-11-07 with the 4.x release-candidate line still at v4.0.0rc7 (2026-10-15), a breaking cut that renames `doctrine` to `charter` across config, directories, and commands with no alias, whose README says stable launch acceptance remains pending.
+As of 2026-10-14: 1,681 stars and 180 forks since creation on 2025-10-09, MIT, stable PyPI release 3.2.7 (2026-09-09) and 3,251 PyPI downloads last month (re-read byte-identical on 2026-11-08, ninth identical read); as of 2026-11-08, pushed 2026-11-08 with the 4.x release-candidate line still at v4.0.0rc7 (2026-10-15), a breaking cut that renames `doctrine` to `charter` across config, directories, and commands with no alias, whose README says stable launch acceptance remains pending and whose prerelease block still pins the older rc2 as the test install while rc7 is the newest tag.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&theme=dark&legend=top-left" />
@@ -45,11 +45,11 @@ Creator Robert Douglass presented the workflow at FrOSCon 2026 on 2026-08-16.
 
 ## Cautions
 
-- The company gravity is structural: the CLI is free, but TeamSpace, tracker sync, and training are the paid surface, the same pattern Tessl runs at larger scale.
+- The company gravity is structural: the CLI is free, but the hosted Team Kitty layer, the Brain Kitty graphs around it, and the rollout packages are the paid surface, the same pattern Tessl runs at larger scale.
 - The 4.x line is a prerelease and PyPI shows yanked 4.1.5 and 4.2.0a1 uploads (both April 2026), so pin 3.2.7 until the stable launch lands.
-- Adoption sits an order of magnitude under the category leaders, 3.3k PyPI downloads a month against OpenSpec's 2.9M npm downloads.
+- Adoption sits an order of magnitude under the category leaders, 3.3k PyPI downloads a month against OpenSpec's about 3.9M npm downloads.
 - Independent coverage is one third-party review (Hysenlabs, 2026-09-10) and that 5-point thread, so the claims rest on the project's own documentation and blog.
-- The positioning wanders across its own surfaces (governed software factory, delivery control plane, doctrine-driven delivery), and the vocabulary churn this category keeps producing is already visible.
+- The positioning wanders across its own surfaces (governed software factory, delivery control plane, doctrine-driven delivery, and now decision layer for autonomous software delivery), and the vocabulary churn this category keeps producing is already visible.
 
 ## Pricing
 
@@ -76,6 +76,7 @@ The disagreeable claim I will defend: two members reaching delta specs from oppo
 - 2026-10-11 - Extended the 4.x caution to the yanked 4.2.0a1 upload beside 4.1.5 (both April 2026) and refreshed counts.
 - 2026-10-16 - Recorded the v4.0.0rc7 release candidate (2026-10-15, the breaking `doctrine`-to-`charter` rename with no alias).
 - 2026-10-27 - Rotation re-verification of every cited source (all alive: the README with its charter rename and 4.x prerelease notice, the company and docs sites, the fork-rationale and FrOSCon posts, the Hysen review, the yanked-upload record, and the January 2026 thread); the stable release stands at 3.2.7 with the PyPI figure byte-identical a seventh time, and no release has followed v4.0.0rc7.
+- 2026-11-08 - Rotation re-verification of every cited source (all alive: the README, the company and docs sites, both blog posts, the Hysen review now fetching directly, the yanked-upload record, and the January 2026 thread): recorded the product repositioning into Brain Kitty, Team Kitty, and Build Kitty under a decision-layer headline, the README prerelease block still pinning rc2 beside the rc7 tag, the PyPI figure byte-identical a ninth time, and the repository pushed 2026-11-08.
 
 ## See also
 
@@ -92,8 +93,8 @@ The disagreeable claim I will defend: two members reaching delta specs from oppo
 - https://docs.spec-kitty.ai/ - the documentation site
 - https://pypi.org/pypi/spec-kitty-cli/json - stable 3.2.7, MIT, Python 3.11+, release history
 - https://pypi.org/pypi/spec-kitty-cli/4.1.5/json - the yanked 2026-04-15 upload grounding the 4.x caution
-- https://pypistats.org/api/packages/spec-kitty-cli/recent - 3,251 downloads last month as of 2026-10-11, re-read byte-identical on 2026-11-07
+- https://pypistats.org/api/packages/spec-kitty-cli/recent - 3,251 downloads last month as of 2026-10-11, re-read byte-identical on 2026-11-08
 - https://www.spec-kitty.ai/blog/spec-kit-alternatives-why-i-built-spec-kitty-instead-of-stopping-at-githubs-toolkit - the founder's Spec Kit comparison, the primary fork-rationale source
-- https://hysenlabs.com/en/projects/spec-kitty-spec-kitty - the third-party review (2026-09-10), the critical source; the page renders client-side and was read through its published search snapshot
+- https://hysenlabs.com/en/projects/spec-kitty-spec-kitty - the third-party review (2026-09-10), the critical source, re-fetched directly on 2026-11-08 (the earlier client-side-render limitation no longer holds)
 - https://hn.algolia.com/api/v1/items/46515942 - the 5-point January 2026 thread, the thin-footprint evidence
 - https://www.spec-kitty.ai/blog/robert-douglass-spec-driven-development-froscon-2026 - creator Robert Douglass's FrOSCon 2026 session

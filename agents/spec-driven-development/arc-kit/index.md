@@ -1,7 +1,7 @@
 ---
 title: Arc Kit
 created: 2026-10-13
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, governance, enterprise-architecture]
 readability: 3
@@ -23,7 +23,7 @@ A plugin system composes regional and sector overlays, fourteen community plugin
 
 ## Status
 
-Active and growing: 2,255 stars, 283 forks, and 23 open issues as of 2026-10-14, created 2025-10-14 with its default branch last committing 2026-11-07 (as of 2026-11-07), effectively solo (95 of the last 100 commits), with release v6.19.0 (2026-11-02) the newest: scored and indicative chart marks are now distinguished with uncertainty envelopes for incomplete scores, a draft legacy IT assessment workflow landed, and the SBOM command was rebuilt on SLSA v1.2 Build L0-L3 and Source L1-L4 and on OMB M-26-05 with dead FedRAMP and OMB links replaced, on top of v6.18.3 (2026-10-26), which turned the certification program from design into shipping (Open Badges 3.0 credentials signed RS256 behind a Worker API, an Awareness quiz and credential pages on arckit.org) and moved ArcKit FDE onto arckit.org at /fde/.
+Active and growing: 2,255 stars, 283 forks, and 23 open issues as of 2026-10-14, created 2025-10-14 with its default branch last committing 2026-11-07 (as of 2026-11-07), effectively solo (95 of the last 100 commits), with release v6.20.0 (2026-11-07) the newest: writes stop when a gate cannot run instead of proceeding unverified, supplier bids are kept out of the context that scores them and supplier designs are read as evidence in HLD and DLD reviews, evaluate and score record integrity findings, an arc42 documentation overlay and the Dutch NORA and GEMMA commands joined the catalog, and the wheel and sdist now declare MIT AND CC-BY-SA-4.0, on top of v6.19.0 (2026-11-02), which distinguished scored and indicative chart marks with uncertainty envelopes for incomplete scores, landed a draft legacy IT assessment workflow, and rebuilt the SBOM command on SLSA v1.2 Build L0-L3 and Source L1-L4 and on OMB M-26-05 with dead FedRAMP and OMB links replaced, then v6.18.3 (2026-10-26), which turned the certification program from design into shipping (Open Badges 3.0 credentials signed RS256 behind a Worker API, an Awareness quiz and credential pages on arckit.org) and moved ArcKit FDE onto arckit.org at /fde/.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tractorjuice/arc-kit&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ Not for pure software spec work (Spec Kit and peers are lighter), multi-maintain
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-27 - Recorded the v6.18.3 release (2026-10-26: the certification stack shipped, Open Badges 3.0 credentials signed RS256 with a Worker API and an Awareness quiz on arckit.org, plus ArcKit FDE hosted at /fde/).
 - 2026-11-07 - Recorded the v6.19.0 release (2026-11-02: scored versus indicative chart marks with uncertainty envelopes, a draft legacy IT assessment workflow, and the SBOM command rebuilt on SLSA v1.2 and OMB M-26-05) and refreshed the status date.
+- 2026-11-08 - Recorded the v6.20.0 release (2026-11-07: fail-closed gates that stop a write when the gate cannot run, supplier bids isolated from the context that scores them with supplier designs read as review evidence, integrity findings recorded by evaluate and score, the arc42 overlay and Dutch NORA and GEMMA commands, and MIT AND CC-BY-SA-4.0 declared for the packages).
 
 ## See also
 

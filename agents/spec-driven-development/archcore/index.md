@@ -1,7 +1,7 @@
 ---
 title: Archcore
 created: 2026-10-21
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, decision-records, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Documents carry their type in the filename (`rate-limiting.spec.md`, `token-buck
 
 ## Status
 
-Active and young: 71 stars and 13 forks since creation on 2026-04-05, pushed 2026-11-06, Apache-2.0, with v0.15.3 (2026-11-06) the newest of a four-release train that ran v0.15.0 through v0.15.3 on November 2 to 6 (v0.15.0 made global sources a read policy written through their project and gave every MCP tool and hook an explicit per-call project target, v0.15.1 removes hung plans in one batch on every review, v0.15.2 planned the Antigravity, Pi, Hermes, OpenClaw, and JetBrains host integrations and fixed OpenCode 2.x plugin-update authorization, and v0.15.3 moved the CLI to Go 1.26.10 with Charm v2 and validates a post-tool-use write in the project the server served), following the v0.14.x line that landed the OpenCode plugin package and the spec body-cap fix, as of 2026-11-07 (GitHub API).
+Active and young: 71 stars and 13 forks since creation on 2026-04-05, pushed 2026-11-07, Apache-2.0, with v0.15.5 (2026-11-07) the newest of a six-release train that ran v0.15.0 through v0.15.5 on November 2 to 7 (v0.15.0 made global sources a read policy written through their project and gave every MCP tool and hook an explicit per-call project target, v0.15.1 removes hung plans in one batch on every review, v0.15.2 planned the Antigravity, Pi, Hermes, OpenClaw, and JetBrains host integrations and fixed OpenCode 2.x plugin-update authorization, v0.15.3 moved the CLI to Go 1.26.10 with Charm v2 and validates a post-tool-use write in the project the server served, v0.15.4 hardened the CLI's write paths and synced the Copilot and Codex agent copies with the list_relations wording, and v0.15.5 fixed the document-search path limit, rejecting a negative limit under search_documents for_path and stating that for_path ignores limit), following the v0.14.x line that landed the OpenCode plugin package and the spec body-cap fix, as of 2026-11-08 (GitHub API).
 The CLI is written in Go, per the project's own v0.15.3 release notes, README Go 1.26+ badge, and dev-branch source tree (328 Go files); the default main branch carries the TypeScript plugins and docs, which is what its earlier language stats alone showed.
 
 <picture>
@@ -76,6 +76,7 @@ The disagreeable claim I will defend: naming the guilty side (code-wrong or spec
 - 2026-10-27 - Recorded the v0.14.0 through v0.14.3 release train (all 2026-10-26): an OpenCode plugin package delivered from `archcore init` with OpenCode 2.x support, and the spec body-cap fix that stops verification and revisit sections from forcing a spec split.
 - 2026-10-27 - Corrected the implementation language from Go to TypeScript, per the repository's own language stats (TypeScript and Shell, no Go); meaning otherwise unchanged.
 - 2026-11-07 - Out-of-rotation re-verification triggered by the v0.15.3 release signal (every cited source re-fetched, all alive): corrected the implementation language back to Go, because the project's own v0.15.3 release moved the CLI to Go 1.26.10 with Charm v2, the README carries a Go 1.26+ badge, and the dev-branch source tree holds 328 Go files, while the default branch the 10-27 correction read carries only the plugins and docs; recorded the v0.15.0 through v0.15.3 release train (2026-11-02 to 06: global sources as a read policy with per-call project targets, hung-plan cleanup on review, plans for five new host integrations, and the Go 1.26.10 toolchain move).
+- 2026-11-08 - Recorded the v0.15.4 and v0.15.5 releases (both 2026-11-07: hardened CLI write paths with the Copilot and Codex agent copies synced to the list_relations wording, and the search_documents for_path limit fix).
 
 ## See also
 

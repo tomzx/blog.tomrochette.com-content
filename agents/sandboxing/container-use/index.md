@@ -1,7 +1,7 @@
 ---
 title: Container Use
 created: 2026-10-12
-updated: 2026-10-31
+updated: 2026-11-08
 readability: 3
 audience_notes: >
   Engineers running several coding agents against one repository who want each agent
@@ -20,7 +20,7 @@ Container Use is Dagger's Apache-2.0 Go MCP server and CLI that gives each codin
 An MCP server (`container-use stdio`) that any MCP-compatible agent mounts, powered by Dagger for container workflows and git worktrees for branching, installable with Homebrew or a shell script on any host with Docker and Git.
 Each environment is a fresh container plus a branch: the agent runs commands, edits files, and serves URLs inside it, while your working copy stays untouched until you merge or cherry-pick what you want.
 A companion CLI (`cu`, with `container-use` as the long form) lists environments, streams command history and logs, and drops you into an environment's terminal for direct intervention.
-The docs document configuration helpers for fifteen agent clients, including Claude Code, Codex, Cursor, Goose, GitHub Copilot, Amazon Q, Cline, Windsurf, Zed, Sourcegraph Amp, Kilo Code, Qodo Gen, and Kiro.
+The docs document configuration helpers for eighteen agent clients, including Claude Code, Codex, Cursor, Goose, GitHub Copilot, Amazon Q, Cline, Windsurf, Zed, Sourcegraph Amp, Kilo Code, Qodo Gen, Kiro, OpenCode, Warp, Gemini CLI, JetBrains Junie, and Charm Crush.
 Built by Dagger, the containers-as-CI company; the project carries an experimental stability badge.
 
 ## Status
@@ -73,6 +73,7 @@ Not for untrusted-code isolation (the kernel is shared and no egress policy exis
 - 2026-10-12 - Created from the 2026-10-12 entrant-resolution scan (two sources), profiling the category's container-workflow entrant with the stalled release train recorded as the central caution.
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched (repository, release record, the four documentation pages, the 82-point launch thread, all alive); no release after v0.4.2 and the push date holds at 2026-09-21, so the stalled-train reading stands.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched (repository, release record, the four documentation pages, the 82-point launch thread, all alive); no release after v0.4.2 and the push date holds at 2026-09-21, so the stalled-train reading stands.
+- 2026-11-08 - Rotation re-verification: every cited URL re-fetched and alive (repository data through the GitHub API while github.com's HTML 504s from this run's fetch path, the release record still ending at v0.4.2 (2025-08-19), the four documentation pages, the 82-point launch thread); no release after v0.4.2 and the push date holds at 2026-09-21, so the stalled-train reading stands, and the documented agent-client coverage grew from fifteen to eighteen (OpenCode, Warp, Gemini CLI, JetBrains Junie, and Charm Crush joined the list).
 
 ## See also
 

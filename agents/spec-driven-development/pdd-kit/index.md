@@ -1,7 +1,7 @@
 ---
 title: PDD Kit
 created: 2026-10-23
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, product-model, agent-skills, open-source]
 readability: 3
@@ -17,7 +17,7 @@ PDD Kit is a solo-maintained, MIT-licensed trio of agent skills (map, ideate, ve
 
 ## What it is
 
-An npm package (`pdd-toolkit`, first published 2026-10-13, at v0.38.0) that installs three skills into Claude Code, Codex, Cursor, Gemini CLI, and GitHub Copilot: `/pdd-map` reads an existing repository without running it and writes the model once you approve, `/pdd-ideate` records the next change in the model before any code exists, and `/pdd-verify` checks the implementation against the model and reports every gap, fixing only the ones you choose.
+An npm package (`pdd-toolkit`, first published 2026-10-13, at v0.40.0) that installs three skills into Claude Code, Codex, Cursor, Gemini CLI, and GitHub Copilot: `/pdd-map` reads an existing repository without running it and writes the model once you approve, `/pdd-ideate` records the next change in the model before any code exists, and `/pdd-verify` checks the implementation against the model and reports every gap, fixing only the ones you choose.
 The model is a folder of typed resources: one Product, Entities (Actors when they act), Interfaces with Experiences and Screens, optional Domains, Capabilities proven by Scenarios, Journeys, Business Rules (the only place that says who may act), and Variations, plus a `coverage.md` that declares which of the repository's code the model accounts for and names what stayed unmapped.
 A strict lint (`npx pdd-toolkit lint`) enforces the structure (unknown frontmatter keys are errors), a local `view` command opens the model as a browser report, and Blueprints are reviewed product models for common products you can pull instead of a blank page.
 It is deliberately not a workflow: implementation stays with your agent, with plan mode, an SDD tool, or freestyle, and the docs' own line is "keep the spec-driven framework you use, or use none at all".
@@ -25,7 +25,7 @@ Made by Itai Gendler, who dogfoods it: the repository's own `product-model/` des
 
 ## Status
 
-Active and young: 80 stars, 9 forks, repository created 2026-07-26, pushed 2026-11-06, as of 2026-11-07 (GitHub API), MIT, solo steward.
+Active and young: 80 stars, 9 forks, repository created 2026-07-26, pushed 2026-11-08, as of 2026-11-08 (GitHub API), MIT, solo steward.
 The npm package (published 2026-10-13) has nine releases to v0.40.0 (2026-11-06, install and update support for Gemini in Android Studio's agent mode with Android Studio project detection, on top of v0.39.0's view report showing what changed in the Product Model against any git ref with per-resource Changes tabs) and 2,416 downloads last month (the 2026-10-08 to 2026-11-06 window, re-read 2026-11-07), so adoption still rides the star count.
 It ships a complete docs site (pdd-kit.dev) with a reasoned blog, and the steward's SDD critique (2026-10-06) names OpenSpec, spec-kit, and Kiro directly, arguing their specs describe the change while the product stays scattered.
 It entered this category's scan as the Engineering4AI awesome list's Development Frameworks entry, listed there as BusinessLens until the 2026-10-21 rename to pdd-kit; a 2026-10-13 sweep had rejected the repository under its old name below the bar, and the rebrand, the shipped site, and continued daily development re-listed it.

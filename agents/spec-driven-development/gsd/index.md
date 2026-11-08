@@ -1,7 +1,7 @@
 ---
 title: GSD
 created: 2026-09-16
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, workflow, open-source]
 readability: 3
@@ -32,7 +32,7 @@ The original gsd-build/get-shit-done is archived at 64,303 stars and 5,431 forks
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&legend=top-left" />
 </picture>
 
-The successor, created 2026-05-22, is actively developed: 10,491 stars and 748 forks as of 2026-10-14, pushed 2026-11-07, release v1.20.1 (2026-11-05) the newest (the v1.20.x train keeping the fork-probe cache inside the project and out of git and fixing installs into nested worktrees, on top of v1.19.0's Pi-native package with agent-role dispatch and hook and lifecycle parity and its `git.repo_tagging` mode that routes milestone completion through per-repository release tags), with 61,738 npm downloads last month for @opengsd/gsd-core and 64,125 for the legacy get-shit-done-cc package (the 2026-10-08 to 2026-11-06 window, re-read 2026-11-07).
+The successor, created 2026-05-22, is actively developed: 10,491 stars and 748 forks as of 2026-10-14, pushed 2026-11-08, release v1.20.1 (2026-11-05) the newest (the v1.20.x train keeping the fork-probe cache inside the project and out of git and fixing installs into nested worktrees, on top of v1.19.0's Pi-native package with agent-role dispatch and hook and lifecycle parity and its `git.repo_tagging` mode that routes milestone completion through per-repository release tags), with 61,738 npm downloads last month for @opengsd/gsd-core and 64,125 for the legacy get-shit-done-cc package (the 2026-10-08 to 2026-11-06 window, re-read 2026-11-07).
 **The transition was not clean: Blake Watson's widely-linked build story added a 2026-07-31 update telling readers not to install the original, reporting that people say a crypto scam took place around the creator, and naming OpenGSD the consensus successor.**
 Open GSD's own origin page confirms the chapter without specifics, stating trust was damaged, people were hurt, public channels disappeared, and crediting Christopherson with the original idea.
 

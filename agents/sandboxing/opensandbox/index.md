@@ -1,7 +1,7 @@
 ---
 title: OpenSandbox
 created: 2026-09-16
-updated: 2026-11-07
+updated: 2026-11-08
 readability: 3
 audience_notes: >
   Engineers choosing a self-hosted sandbox platform for AI agent workloads such as code execution, GUI agents, or agent evaluations.
@@ -22,12 +22,12 @@ An ingress gateway with per-sandbox egress controls handles network policy, a Cr
 ## Status
 
 **Very active and exceptionally fast-growing for a nine-month-old repo, with traction that is vendor-driven rather than organic Hacker News adoption.**
-15,883 stars and 1,472 forks as of 2026-10-16, repo created 2025-12-17, pushed 2026-11-07, on a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM, with latest stable release 1.2.0 on 2026-10-27, the stable cut of the line the 1.2.0-rc.1 prerelease of 2026-10-15 opened, and release-1.2.1-rc.1 (2026-11-04) opening the patch line.
+15,883 stars and 1,472 forks as of 2026-10-16, repo created 2025-12-17, pushed 2026-11-08, on a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM, with latest stable release 1.2.0 on 2026-10-27, the stable cut of the line the 1.2.0-rc.1 prerelease of 2026-10-15 opened, and release-1.2.1-rc.1 (2026-11-04) opening the patch line.
 The 1.1.1 cut fixes the broken 1.1.0 opensandbox-server wheel (the committed FastPath gRPC stubs now ship in the package, and PyPI is immutable so the fix lives on this line) and adds identity-bound filesystem operations across all five SDKs, multi-tenant isolation in a shared Kubernetes namespace, a typed upstream-proxy egress configuration, and pause/resume bridged to the kubernetes-sigs/agent-sandbox CRD's operating mode.
 The 1.2.0 line opened with release-1.2.0-rc.1 on 2026-10-15, carrying OSEP-0024 auto-pause and wake-on-access for fast sandboxes end to end (the opt-in lifecycle.idlePolicy field, the server-side idle sweeper, and the SDK wake-retry contract), an opt-in experimental egress-sidecar revision with live credential-bound Vault admission, an SDK fix that stops capping file transfers at the 30-second request timeout, and a first optional web console slice; SDK and CLI packages publish only at the stable bump.
 Release-1.2.0-rc.2 followed on 2026-10-21 with the Credential Vault (OSEP-0022) landed end to end for fast sandboxes: the egress sidecar holds the vault with durable per-subject persistence and sealed snapshot transfer across pause and resume, the server exposes a user-reachable vault API whose reads never return credential values, and a pool-pinned MITM CA terminates the inspected traffic, while the classic profile gains port-scoped NetworkRules that fast sandboxes reject fail-closed until their enforcement path ships.
 The stable 1.2.0 cut followed on 2026-10-27, asking everyone on 1.1.x to upgrade and carrying a post-release-candidate hardening delta, with SDK and CLI packages publishing at the stable bump.
-Release-1.2.1-rc.1 (2026-11-04) cut the first patch-line candidate from 1.2.0 with OSEP-0025 Credential Vault Exchange: an `exchange` credential source resolving per-request headers through a pluggable resolver, fail-closed and never persisted, wired across the egress sidecar, the server, and all five SDKs, plus execd atomic uploads that keep the old file on a failed write, digest validation for rootfs snapshots, Kubernetes create-timeout startup diagnostics, and informer-cache scoping for large clusters; rc releases publish images but hold SDK and CLI packages for the 1.2.1 stable bump, and main's post-rc train continues on fast-sandbox resource budgets and subject-snapshot recovery retryability.
+Release-1.2.1-rc.1 (2026-11-04) cut the first patch-line candidate from 1.2.0 with OSEP-0025 Credential Vault Exchange: an `exchange` credential source resolving per-request headers through a pluggable resolver, fail-closed and never persisted, wired across the egress sidecar, the server, and all five SDKs, plus execd atomic uploads that keep the old file on a failed write, digest validation for rootfs snapshots, Kubernetes create-timeout startup diagnostics, and informer-cache scoping for large clusters; rc releases publish images but hold SDK and CLI packages for the 1.2.1 stable bump, and main's post-rc train continues on fast-sandbox resource budgets, subject-snapshot recovery retryability, OSEP-0023 fast-sandbox subject-snapshot mutations, and port-scoped egress rules enforced per subject in the fast-sandbox profile.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=opensandbox-group/OpenSandbox&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ Not for anyone who needs hardened isolation by default, an independently audited
 - 2026-10-23 - Recorded release-1.2.0-rc.2 (2026-10-21, the OSEP-0022 Credential Vault landed end to end for fast sandboxes: egress-held vault with durable per-subject persistence and sealed pause/resume transfer, a user-reachable server-routed vault API whose reads never return credential values, a pool-pinned MITM CA, and port-scoped NetworkRules in the classic profile).
 - 2026-11-01 - Recorded the stable 1.2.0 release of 2026-10-27 (the OSEP-0024 auto-pause and OSEP-0022 credential-vault umbrella cut, the post-rc hardening delta, SDK and CLI packages publishing at the stable bump, and an upgrade ask for everyone on 1.1.x), with the post-stable train opening OSEP-0025 egress work and the repository pushed 2026-11-01.
 - 2026-11-07 - Recorded release-1.2.1-rc.1 (2026-11-04, the first patch-line candidate cut from 1.2.0: OSEP-0025 Credential Vault Exchange with the pluggable per-request header resolver fail-closed across egress, server, and all five SDKs, execd atomic uploads, digest-validated rootfs snapshots, Kubernetes create-timeout diagnostics, and informer-cache scoping, images published but packages held for the stable bump), with the repository pushed 2026-11-07.
+- 2026-11-08 - Volatile refresh for the post-rc train (OSEP-0023 fast-sandbox subject-snapshot mutations, port-scoped egress rules enforced per subject in the fast-sandbox profile, and the PATCH policy-merge fixes keeping untouched same-scope rules), with release-1.2.1-rc.1 still the newest release and the repository pushed 2026-11-08.
 
 ## See also
 

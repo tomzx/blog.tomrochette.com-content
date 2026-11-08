@@ -1,7 +1,7 @@
 ---
 title: NVX
 created: 2026-10-07
-updated: 2026-11-07
+updated: 2026-11-08
 readability: 3
 audience_notes: >
   Platform engineers tracking where Microsoft research is taking microVM isolation for agentic workloads, especially on Windows hypervisors.
@@ -23,7 +23,7 @@ This is a research artifact with a release train of daily `v0.1.0-dev` prereleas
 
 ## Status
 
-Young, institutional, and quiet in public: 400 stars, pushed 2026-11-07, created 2026-08-27.
+Young, institutional, and quiet in public: 400 stars, pushed 2026-11-08, created 2026-08-27.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Young, institutional, and quiet in public: 400 stars, pushed 2026-11-07, created
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/nvx&type=date&legend=top-left" />
 </picture>
 
-Daily dev prereleases have cut continuously since late September 2026, the newest on 2026-11-07, with the 2026-11-07 train folding the repository's own issue-fixer agent into a shipped skill, landing remote-VM validation fixes, and failing the guest early when proc or sysfs cannot be mounted.
+Daily dev prereleases have cut continuously since late September 2026, the newest on 2026-11-08, with the 2026-11-08 train pinning OpenVMM's wait for a guest TSC offset within its bound (with the clock-design and roadmap documentation following) and measuring the nvx-rs host code the KVM microVM scenarios reach in CI.
 **The single Hacker News thread drew 4 points on 2026-10-03, so this is a Microsoft research release being watched by almost nobody yet, and its substance lives in the design and non-goals documents rather than community debate.**
 
 ## Strengths
@@ -72,6 +72,7 @@ Not for running agents today, which is what Brig, OpenShell, or the hosted APIs 
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched and alive (repository, the benchmark methodology, the architecture-guide index, the non-goals list, the release train, the HN thread), the daily prerelease train advanced to 2026-10-27 with nothing past it, and the HN thread's point count corrected from three to four in Cautions and References (the Status prose already had four).
 - 2026-11-01 - Volatile refresh: the daily prerelease train advanced to 2026-10-31 and the repository pushed 2026-11-01; the research-preview reading is unchanged.
 - 2026-11-07 - Volatile refresh: the daily prerelease train advanced to 2026-11-07 (the issue-fixer agent folded into a shipped skill, remote-VM validation fixes, and the guest failing early on proc or sysfs mount failures) and the repository pushed 2026-11-07; the research-preview reading is unchanged.
+- 2026-11-08 - Volatile refresh: the daily prerelease train advanced to 2026-11-08 (the guest TSC-offset wait pinned within its bound with the clock-design and roadmap documentation following, nvx-rs host-code coverage measurement in CI, and performance-baseline updates) and the repository pushed 2026-11-08; the research-preview reading is unchanged.
 
 ## See also
 

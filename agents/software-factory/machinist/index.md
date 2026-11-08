@@ -1,7 +1,7 @@
 ---
 title: "Machinist"
 created: 2026-09-05
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, go]
 readability: 3
@@ -73,6 +73,7 @@ Not for teams needing proven scale, resumable pipelines, or a community to escal
 - 2026-10-16 - Recorded the 2026-10-15 step-change push (GitHub App onboarding, the local app's standard pipeline with triage, spec approval, independent review, and up to three repair rounds before human merge, scheduled automations, multi-repository projects, and the gVisor Kubernetes runner target) with 80 commits past v0.4.0 and still no release past v0.4.0; the isolation caution corrected and the zero-coverage claim re-verified to 2026-10-16.
 - 2026-10-23 - Rotation re-verification: every cited URL re-fetched (repository README, machinist.sh, configuration.md, the workflows examples, the gVisor Kubernetes doc, the releases API, and the HN search) and all claims confirmed, with the zero-coverage claim holding to 2026-10-23; recorded 176 commits past v0.4.0 (still no release past v0.4.0), the native-agents default run mode with advisory child reviews, the evals directory's deterministic issue-lifecycle evaluation, and the opt-in repository-maintenance auto-merge limited to qualifying documentation PRs.
 - 2026-10-28 - Rotation re-verification: every cited URL re-fetched (repository README, machinist.sh, configuration.md, the workflows examples, the gVisor Kubernetes doc, the releases API, and the HN search) and all claims confirmed, including v0.4.0 still the newest release, 176 commits past v0.4.0 with main's newest commit still 2026-10-21, and the zero-coverage claim holding to 2026-10-28; no material change.
+- 2026-11-08 - Rotation re-verification: every cited URL re-fetched (repository via the API, machinist.sh, configuration.md, the workflows examples, the gVisor Kubernetes doc, the releases API, and the HN search) and all claims confirmed, including v0.4.0 still the newest release, 179 commits past v0.4.0 with main's newest commit still 2026-10-29 (the 2026-11-02 push a side branch), and the zero-coverage claim holding to 2026-11-08; no material change.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Fabro
 created: 2026-10-10
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, workflow-graphs, rust]
 readability: 3
@@ -70,6 +70,7 @@ Not for anyone needing stable tagged releases, proven scale, or a factory that a
 - 2026-10-25 - Refreshed the volatile lines (pushed 2026-10-25, nightly train at v0.396.0-nightly.0); no material change.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched (repository via the API, the why-fabro docs, the launch thread, the releases API, the HN search, and the awesome-software-factories list) and all claims confirmed, including the nightly-only train (v0.400.0-nightly.0 now the newest tag) and the pushed date; no material change.
+- 2026-11-08 - Rotation re-verification: every cited URL re-fetched (repository via the API, the why-fabro docs, the launch thread, the releases API, the HN search, and the awesome-software-factories list) and all claims confirmed, including the nightly-only train (v0.408.0-nightly.0 still the newest tag), the pushed date, and the two self-submitted 7 and 6 point threads; no material change.
 
 ## See also
 
@@ -83,6 +84,6 @@ Not for anyone needing stable tagged releases, proven scale, or a factory that a
 - https://github.com/fabro-sh/fabro - repository, feature table, example workflow, install methods, and license
 - https://docs.fabro.sh/getting-started/why-fabro - the problem framing, the DOT-graph model, and the verification layers
 - https://news.ycombinator.com/item?id=47652404 - the author's launch thread, analogs, and positioning
-- https://api.github.com/repos/fabro-sh/fabro/releases - the nightly-only release train, v0.408.0-nightly.0 newest as of 2026-11-07
+- https://api.github.com/repos/fabro-sh/fabro/releases - the nightly-only release train, v0.408.0-nightly.0 newest as of 2026-11-08
 - https://hn.algolia.com/api/v1/search?query=fabro&tags=story - the thin independent-discussion footprint this note records
 - https://github.com/varun1505/awesome-software-factories - the third-party curated list that surfaced this note

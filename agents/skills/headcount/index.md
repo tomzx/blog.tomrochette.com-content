@@ -1,7 +1,7 @@
 ---
 title: Headcount
 created: 2026-09-27
-updated: 2026-11-02
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, claude-code, agent-organization, plugin-marketplace]
 readability: 3
@@ -24,7 +24,8 @@ Each department also ships an agent charter in `.claude/agents/`, so a departmen
 
 ## Status
 
-Active: 2,048 stars and 318 forks as of 2026-10-13, created 2026-08-28, repo pushed 2026-10-18, no releases or version tags yet.
+**Dead: on 2026-11-08 the GitHub API returned 404 for both the repository and the entire cbrock84 account (re-queried twice against an API serving other calls fine in the same window), the raw README serves nothing, and the cbrock84.github.io org-chart page 404s, the account-deletion signature, since a rename would redirect.**
+At its last verified reading the repo showed 2,048 stars and 318 forks as of 2026-10-13, created 2026-08-28, pushed 2026-10-18, with no releases or version tags.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cbrock84/headcount&type=date&theme=dark&legend=top-left" />
@@ -32,9 +33,9 @@ Active: 2,048 stars and 318 forks as of 2026-10-13, created 2026-08-28, repo pus
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=cbrock84/headcount&type=date&legend=top-left" />
 </picture>
 
-The skill count keeps moving: a third-party count found 143 skills on August 30, press coverage said 146 on August 31, and the README now claims 172 across the same 16 departments.
-No Hacker News thread surfaced under its name in my searches as of 2026-10-04; traction is GitHub, the org chart page, and third-party writeups.
-One external contribution (ChatGPT and Codex manifests) is credited in the README.
+The skill count kept moving through its short life: a third-party count found 143 skills on August 30, press coverage said 146 on August 31, and the README last claimed 172 across the same 16 departments.
+No Hacker News thread ever surfaced under its name in my searches (last re-run 2026-11-08); traction was GitHub and the org chart page, both now gone, plus third-party writeups that remain live.
+One external contribution (ChatGPT and Codex manifests) was credited in the README.
 
 ## Strengths
 
@@ -78,6 +79,7 @@ My disagreeable claim: the sixteen-department metaphor is mostly packaging, the 
 - 2026-10-20 - Volatile refresh: the repo pushed again 2026-10-18 after a month quiet, the commit being GitHub Sponsors and further-reading links only (no skill, source, or department changes); the snapshot caution updated.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live (the README still claiming 16 departments, 172 skills, and 184 cited sources with the repo still pushed 2026-10-18, the Zentor review and org chart page up, the Enterprise DNA writeup resolving on a trailing-slash redirect, the HN search still returning only unrelated layoff stories); no figures moved.
 - 2026-11-02 - Rotation re-verification: every cited URL re-fetched live (the README still claiming 16 departments and 172 skills with the generated source catalog still 184 sources and 125 of them quotable, the repo still pushed 2026-10-18, the Zentor review and org chart page up, the Enterprise DNA writeup resolving on its redirect, the HN search still returning only unrelated layoff stories); no figures moved.
+- 2026-11-08 - Rotation re-verification found the project dead: the GitHub API returns 404 for the repository and for the whole cbrock84 account (queried twice against an API serving other calls fine in the same window), the raw README serves nothing, and the cbrock84.github.io org-chart page 404s, the account-deletion signature (renames redirect), so the Status moved from active to dead with the last verified reading kept; the Zentor review and the Enterprise DNA writeup remain live.
 
 ## See also
 
@@ -89,9 +91,9 @@ My disagreeable claim: the sixteen-department metaphor is mostly packaging, the 
 
 ## References
 
-- https://api.github.com/repos/cbrock84/headcount - 2,048 stars, 318 forks, MIT, pushed 2026-09-17 (200, fetched 2026-10-13, re-fetched 2026-10-26, still pushed 2026-10-18)
-- https://raw.githubusercontent.com/cbrock84/headcount/main/README.md - 16 departments, 172 skills, 184 cited sources, reviewer-class rules, CI checks (200, 172-skill claim re-verified 2026-10-11, re-fetched 2026-10-26)
-- https://zentor.ai/blog/headcount-claude-code - third-party review (August 30, updated September 24) with critical readings of reviewer-class and star counts (200, re-fetched 2026-10-26)
-- https://cbrock84.github.io/headcount/org-chart.html - the searchable org chart page, generated from the repo tree (200, re-fetched 2026-10-26)
-- https://enterprisedna.co/resources/ai-pulse/ai-pulse-2026-08-31-an-entire-agent-company-org-chart-shipped-as-a-claude-code-p - press writeup (August 31, 146 skills) that calls the early attention unproven (200, re-fetched 2026-10-26, resolving on a trailing-slash redirect)
-- https://hn.algolia.com/api/v1/search?query=headcount&tags=story - the zero-hit search behind the missing-footprint statement (200, fetched 2026-09-27, re-run 2026-10-26, still only unrelated stories)
+- https://api.github.com/repos/cbrock84/headcount - 2,048 stars, 318 forks, MIT, pushed 2026-09-17 (200, fetched 2026-10-13, re-fetched 2026-10-26, still pushed 2026-10-18); 404 on 2026-11-08 with the account endpoint itself also 404, the deletion reading the Status records (re-queried twice)
+- https://raw.githubusercontent.com/cbrock84/headcount/main/README.md - 16 departments, 172 skills, 184 cited sources, reviewer-class rules, CI checks (200, 172-skill claim re-verified 2026-10-11, re-fetched 2026-10-26); serves nothing on 2026-11-08 against the deleted account
+- https://zentor.ai/blog/headcount-claude-code - third-party review (August 30, updated September 24) with critical readings of reviewer-class and star counts (200, re-fetched 2026-10-26, still 200 on 2026-11-08)
+- https://cbrock84.github.io/headcount/org-chart.html - the searchable org chart page, generated from the repo tree (200, re-fetched 2026-10-26); 404 on 2026-11-08 with the account's GitHub Pages gone
+- https://enterprisedna.co/resources/ai-pulse/ai-pulse-2026-08-31-an-entire-agent-company-org-chart-shipped-as-a-claude-code-p - press writeup (August 31, 146 skills) that calls the early attention unproven (200, re-fetched 2026-10-26, still 200 on 2026-11-08, resolving on a trailing-slash redirect)
+- https://hn.algolia.com/api/v1/search?query=headcount&tags=story - the zero-hit search behind the missing-footprint statement (200, fetched 2026-09-27, re-run 2026-10-26, re-run 2026-11-08, still only unrelated stories)
