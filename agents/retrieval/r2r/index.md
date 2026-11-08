@@ -1,7 +1,7 @@
 ---
 title: R2R
 created: 2026-10-11
-updated: 2026-11-04
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, knowledge-graph]
 readability: 3
@@ -25,7 +25,7 @@ Made by SciPhi, a startup founded by Owen Colegrove, which pitched a hosted clou
 ## Status
 
 **Dormant, with its commercial surfaces rotting: the repository's last push is 2025-11-07, and the docs and company site are gone.**
-8,015 stars and 132 open issues since 2024-02-12, pushed 2025-11-07, with PyPI at 3.6.6 released 2025-08-17 across 225 releases (GitHub API and PyPI, as of 2026-11-04).
+8,015 stars and 132 open issues since 2024-02-12, pushed 2025-11-07, with PyPI at 3.6.6 released 2025-08-17 across 225 releases (GitHub API and PyPI, as of 2026-11-08).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=SciPhi-AI/R2R&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Made by SciPhi, a startup founded by Owen Colegrove, which pitched a hosted clou
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=SciPhi-AI/R2R&type=date&legend=top-left" />
 </picture>
 
-The docs domain serves 404s on its root and quickstart paths, and sciphi.ai fails to answer at all (both fetched 2026-10-11), so the cloud funnel the launches pitched no longer exists.
+The docs domain serves 404s on its root and quickstart paths, and sciphi.ai fails to answer at all (both fetched 2026-10-11, re-verified 2026-11-08), so the cloud funnel the launches pitched no longer exists.
 The awesome-rag-production list carries its own dormancy warning on the entry, "quiet since late 2025 with no release since v3.6.5 (2025-06)".
 The launch-driven discussion stopped after 2024: the V3 announcement thread drew 1 point in December 2024.
 
@@ -73,6 +73,7 @@ My disagreeable claim: R2R's silence is the market's verdict that a REST-wrapped
 - 2026-10-24 - Rotation re-verification re-fetched every cited URL live: the docs domain still 404s on root and quickstart, sciphi.ai and www still unreachable, PyPI still at 3.6.6 (225 releases), the launch footprint unchanged (167, 251, and 1 points), the awesome-rag-production dormancy warning still on the entry, and the repository still pushed 2025-11-07 with open issues drifting from 129 to 131.
 - 2026-10-31 - Rotation re-verification re-fetched every cited URL live: the docs domain still 404s, sciphi.ai still unreachable, PyPI still at 3.6.6 (225 releases), the launch footprint unchanged, the awesome-rag-production dormancy warning still on the entry, and the repository still pushed 2025-11-07 with open issues drifting from 131 to 132.
 - 2026-11-04 - Rotation re-verification re-fetched every cited URL live: the repository still pushed 2025-11-07 with 132 open issues, PyPI still at 3.6.6 (225 releases), the docs domain still 404s on root and quickstart, sciphi.ai still unreachable, the launch footprint unchanged (167, 251, and 1 points), and the awesome-rag-production dormancy warning still on the entry.
+- 2026-11-08 - Rotation re-verification re-fetched every cited URL live: the repository still pushed 2025-11-07 with 132 open issues, PyPI still at 3.6.6 (225 releases), the docs domain still 404s on root and quickstart, sciphi.ai still unreachable, the launch footprint unchanged (167, 251, and 1 points), and the awesome-rag-production dormancy warning still on the entry.
 
 ## See also
 
@@ -83,10 +84,10 @@ My disagreeable claim: R2R's silence is the market's verdict that a REST-wrapped
 
 ## References
 
-- https://api.github.com/repos/SciPhi-AI/R2R - 8,015 stars (as of 2026-10-31), MIT, created 2024-02-12, pushed 2025-11-07, 132 open issues (GitHub API, as of 2026-11-04)
-- https://raw.githubusercontent.com/SciPhi-AI/R2R/main/py/README.md - the engine positioning, feature list, install paths, and SDKs (the root README is a one-line pointer to this file; re-verified unchanged 2026-11-04, still linking the dead docs domain)
-- https://pypi.org/pypi/r2r/json - version 3.6.6 (2025-08-17), 225 releases (re-verified unchanged 2026-11-04)
-- https://hn.algolia.com/api/v1/search?query=R2R%20SciPhi&tags=story - the launch footprint: V1 at 167 points (2024-02-26), V2 at 251 points (2024-06-26), V3 at 1 point (2024-12-04) (re-verified unchanged 2026-11-04)
-- https://r2r-docs.sciphi.ai/ - 404 on the root and quickstart paths (fetched 2026-10-11, re-verified 2026-11-04)
-- https://sciphi.ai - transport error, with www.sciphi.ai also unreachable (fetched 2026-10-11, re-verified 2026-11-04)
-- https://raw.githubusercontent.com/Yigtwxx/awesome-rag-production/main/README.md - the entrant source, whose R2R entry carries the dormancy warning quoted in the Status section (re-verified 2026-11-04)
+- https://api.github.com/repos/SciPhi-AI/R2R - 8,015 stars (as of 2026-10-31), MIT, created 2024-02-12, pushed 2025-11-07, 132 open issues (GitHub API, as of 2026-11-08)
+- https://raw.githubusercontent.com/SciPhi-AI/R2R/main/py/README.md - the engine positioning, feature list, install paths, and SDKs (the root README is a one-line pointer to this file; re-verified unchanged 2026-11-08, still linking the dead docs domain)
+- https://pypi.org/pypi/r2r/json - version 3.6.6 (2025-08-17), 225 releases (re-verified unchanged 2026-11-08)
+- https://hn.algolia.com/api/v1/search?query=R2R%20SciPhi&tags=story - the launch footprint: V1 at 167 points (2024-02-26), V2 at 251 points (2024-06-26), V3 at 1 point (2024-12-04) (re-verified unchanged 2026-11-08)
+- https://r2r-docs.sciphi.ai/ - 404 on the root and quickstart paths (fetched 2026-10-11, re-verified 2026-11-08)
+- https://sciphi.ai - transport error, with www.sciphi.ai also unreachable (fetched 2026-10-11, re-verified 2026-11-08)
+- https://raw.githubusercontent.com/Yigtwxx/awesome-rag-production/main/README.md - the entrant source, whose R2R entry carries the dormancy warning quoted in the Status section (re-verified 2026-11-08)

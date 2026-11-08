@@ -1,7 +1,7 @@
 ---
 title: Agno
 created: 2026-09-29
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -92,6 +92,7 @@ Not for teams allergic to benchmark-driven marketing, or anyone needing a vendor
 - 2026-10-25 - Recorded v3.1.10 (2026-10-23) as the latest release on GitHub and PyPI.
 - 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live (pricing unchanged at $150 with the $30/$95/$300 add-ons); recorded v3.1.12 (2026-10-29, native approval flows for harness agents) as the latest release on GitHub and PyPI.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v3.1.12 still the latest release on GitHub and PyPI.
+- 2026-11-08 - Re-verified in rotation: every cited URL re-fetched live (repo API, docs, pricing, PyPI, releases API, the GA post, both HN threads); claims hold, v3.1.12 still the latest release on GitHub and PyPI, and the pricing page's tiers unchanged at $150 with the $30/$95/$300 add-ons (the page now headlines "Free Runtime, $150 for the Control Plane"); the two stale creation-date snapshots in References refreshed.
 
 ## See also
 
@@ -104,9 +105,9 @@ Not for teams allergic to benchmark-driven marketing, or anyone needing a vendor
 
 - https://api.github.com/repos/agno-agi/agno - GitHub API (200): 42,377 stars, 6,032 forks, Apache-2.0, pushed 2026-09-29, created 2022-05-04 (as of 2026-09-29)
 - https://docs.agno.com/introduction - official documentation, live (200)
-- https://www.agno.com/pricing - pricing page (200): Free $0, Pro $150/month, add-ons $30/$95/$300
-- https://pypi.org/pypi/agno/json - PyPI metadata (200): agno 3.0.11, Python >=3.9,<4
-- https://api.github.com/repos/agno-agi/agno/releases/latest - releases API (200): v3.0.11, published 2026-09-23
+- https://www.agno.com/pricing - pricing page (200): Free Runtime $0, Control Plane $150/month, add-ons $30/$95/$300; re-fetched 2026-11-08 with the tiers unchanged and the page now headlining "Free Runtime, $150 for the Control Plane"
+- https://pypi.org/pypi/agno/json - PyPI metadata (200): agno 3.1.12, Python >=3.9,<4 (re-fetched 2026-11-08)
+- https://api.github.com/repos/agno-agi/agno/releases/latest - releases API (200): v3.1.12, published 2026-10-29 (re-fetched 2026-11-08)
 - https://www.agno.com/articles/ga - GA announcement (200): Phidata rebrand, 2025-04-01, company claims (critical source: vendor claims)
 - https://hn.algolia.com/api/v1/items/43274435 - "Agno: Agent framework 10,000x faster than LangChain" thread (200): 47 points, claims challenged (critical source)
 - https://hn.algolia.com/api/v1/items/45596272 - Show HN: Agno multi-agent framework, runtime and UI (200): 15 points, 2025-10-15

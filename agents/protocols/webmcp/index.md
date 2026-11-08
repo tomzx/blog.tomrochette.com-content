@@ -1,7 +1,7 @@
 ---
 title: WebMCP
 created: 2026-10-06
-updated: 2026-11-03
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, browser, w3c, agent-tools]
 readability: 3
@@ -25,7 +25,7 @@ Chrome ships it behind a public origin trial (Chrome 149 through 156) plus a loc
 ## Status
 
 **Active and past the flag stage, with one browser shipping and one agent consuming.**
-The repository shows 4,621 stars (2026-10-13), 137 open issues, and a push on 2026-11-02, as of 2026-11-03 (GitHub API).
+The repository shows 4,621 stars (2026-10-13), 141 open issues, and a push on 2026-11-06 (branch work, the spec's default branch quiet since 2026-11-02), as of 2026-11-08 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live with no dead sources (the commits page verified through the GitHub API after the HTML page rate-limited); the draft remains at its 2026-10-20 revision with no newer report and no commits behind it since 2026-10-20, and open issues refreshed to 136 as of 2026-10-26.
 - 2026-10-31 - The draft report moved to its 2026-10-27 revision, the first API surface change since the declarative removal: cross-origin tool exposure between frames under two-sided opt-in (section 6.3.4), adding `exposedTo` on registerTool, `fromOrigins` on getTools, and per-tool exposed-origin checks to the execution algorithm, while the `tools` permissions policy keeps its same-origin default; open issues refreshed to 137 as of 2026-10-31.
 - 2026-11-03 - The draft report moved to its 2026-11-02 revision, which adds an optional `outputSchema` to `ModelContextTool` and `RegisteredTool` (a JSON Schema object describing the tool's expected output structure, serialized alongside the input schema, with agents free to reject non-conforming output), closing the future-work item issue #9; an API surface addition but no change to the browser-mediation or permissions model; open issues hold at 137 and the repository pushed 2026-11-02.
+- 2026-11-08 - Rotation re-verification: every cited URL re-fetched live with no dead sources (the two commit URLs verified through the GitHub API after the HTML pages served 504s); the draft stays at its 2026-11-02 revision with no newer report and the default branch quiet since then, the 2026-11-06 pushed_at moved by side-branch work (a generic-tool-calling explainer branch pushed 2026-11-06 and a wait-for-tools-until branch pushed 2026-11-03, neither merged), and open issues refreshed to 141 as of 2026-11-08.
 
 ## See also
 

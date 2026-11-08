@@ -1,7 +1,7 @@
 ---
 title: PandaCode
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, coding-agents, desktop-app, tauri, model-routing]
 readability: 3
@@ -26,7 +26,7 @@ Data stays local in SQLite, provider keys live in a user-readable 0600 file rath
 
 **Active and very young: three weeks old, shipping daily, growing fast, and carrying no independent measurement yet.**
 The repository was created 2026-10-18 and stood at 1,109 stars with 204 forks and 85 open issues as of 2026-11-07, up from the 400 stars the cnblogs walkthrough counted on 2026-10-22, four days in.
-The release train runs daily: ten releases between v0.3.91 (2026-11-02) and v0.3.101 (2026-11-07), the npm installer has published 80 versions since 2026-10-22, and the default branch was pushed the day of this writing.
+The release train runs daily: eleven releases between v0.3.91 (2026-11-02) and v0.3.102 (2026-11-08), the npm installer has published 81 versions since 2026-10-22, and the default branch was pushed 2026-11-08.
 The owner accounts for 460 of the top ten contributors' commits against 38 for the next contributor, and Hacker News carries no story on the project at all.
 The coverage footprint is two third-party writeups plus directory listings: MindStudio's editorial review of 2026-10-21 and wflynn's technical cnblogs walkthrough of 2026-10-22, an EveryDev.ai tools listing, and the creator's own launch video, with Chinese GitHub-trending coverage in the cnblogs piece's own series.
 

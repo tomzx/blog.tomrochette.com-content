@@ -1,7 +1,7 @@
 ---
 title: Hive
 created: 2026-10-08
-updated: 2026-11-04
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -23,7 +23,7 @@ It is made by Aden, a five-person San Francisco company from Y Combinator's Wint
 
 ## Status
 
-Active and newly stable: 11,107 stars as of 2026-10-15 on a repository created 2026-01-12, with the default branch's latest commit the 2026-11-02 v1.0.14 release commit (GitHub API, as of 2026-11-04).
+Active and newly stable: 11,107 stars as of 2026-10-15 on a repository created 2026-01-12, with the default branch's latest commit a 2026-11-07 provider-library change (saved setups beside endpoints and keys) that follows the 2026-11-02 v1.0.14 release commit (GitHub API, as of 2026-11-08).
 The default branch woke on 2026-10-12 with a README documentation merge after a quiet stretch that had run since mid-September, and on 2026-10-14 the release line returned from its five-month stop with v1.0.0, the first stable major, followed the same hour by v1.0.1, v1.0.2, and v1.0.3, with v1.0.4 on 2026-10-16, v1.0.5 through v1.0.8 on 2026-10-17 and 2026-10-18, v1.0.9, v1.0.10, and v1.0.11 on 2026-10-19, and v1.0.12 on 2026-10-24 continuing the train, with v1.0.13 on 2026-10-26 adding queen-to-queen mail (`queen_mail`, letter chains between queens with every hop logged) and a queen that can be Claude Code itself, paid by API key and shown on the org chart, with v1.0.14 on 2026-11-02 continuing the train (GitHub releases, as of 2026-11-03).
 Three contributors dominate the history (about 1,179, 868, and 451 contributions), which matches a five-person company rather than a community.
 

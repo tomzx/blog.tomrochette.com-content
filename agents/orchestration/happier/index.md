@@ -1,7 +1,7 @@
 ---
 title: Happier
 created: 2026-11-01
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, mobile, end-to-end-encryption]
 readability: 3
@@ -24,7 +24,7 @@ By the happier-dev org, repository created 2025-12-16, MIT licensed, docs at doc
 
 ## Status
 
-Active: 2,102 stars, 209 forks, and 212 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-07, with 100-plus releases on parallel dev tracks (ui-web, server, cli) and the train pushing daily.
+Active: 2,102 stars, 209 forks, and 212 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-08, with 100-plus releases on parallel dev tracks (ui-web, server, cli) and the train pushing daily.
 The `@happier-dev/cli` npm package (first version 2026-02-21) is at latest 0.2.20 (npm, as of 2026-11-04), with 3,624 downloads in October 2026.
 
 <picture>

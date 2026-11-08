@@ -1,7 +1,7 @@
 ---
 title: Agent Orchestrator
 created: 2026-10-06
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, kanban, worktrees, multi-harness, desktop]
 readability: 3
@@ -23,7 +23,7 @@ The product is branded Orchestrator.inc, the name its docs site docs.orchestrato
 ## Status
 
 Active and shipping daily: 13,193 stars as of 2026-10-15 (1,788 forks, 821 open issues and pull requests, and 30 contributors as of 2026-10-11), created 2026-02-13 (GitHub API, as of 2026-10-15).
-Stable releases ride the nightly train, v0.14.10 (2026-11-06) the latest after v0.14.9 (2026-11-04), v0.14.8 (2026-10-30), and v0.14.7 (2026-10-28), v0.14.6 (2026-10-24), v0.14.5 (2026-10-22), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-11-07 (GitHub API, as of 2026-11-07).
+Stable releases ride the nightly train, v0.14.10 (2026-11-06) the latest after v0.14.9 (2026-11-04), v0.14.8 (2026-10-30), and v0.14.7 (2026-10-28), v0.14.6 (2026-10-24), v0.14.5 (2026-10-22), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-11-08 (GitHub API, as of 2026-11-08).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&theme=dark&legend=top-left" />

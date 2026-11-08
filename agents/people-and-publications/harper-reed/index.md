@@ -1,7 +1,7 @@
 ---
 title: Harper Reed
 created: 2026-09-24
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, llm-codegen, spec-first, agentic-coding, workflows]
 readability: 3
@@ -28,6 +28,7 @@ As of 2026-10-04 the homepage leads with "Why Don't My Agents Break Containment?
 He is CEO of 2389.ai, where his whole team adopted the Claude Code workflow, and his history page records the arc: CTO of Obama for America from April 2011, Modest sold to PayPal in 2015, 2389 started in 2024.
 The workflow post's footprint is verifiable on Hacker News: commenters in the Kiro IDE launch, the Claude 4, and the GitHub Copilot Coding Agent threads point to it as the popular workflow, one calling it "basically best practice today" (as of 2026-10-04).
 He also translates major posts into Japanese, Spanish, Korean, and Chinese.
+The experiments ship as open source: the 2389-research GitHub org holds breakaway-agent and observatory, the repos behind the containment work, alongside a long tail of small agent tooling (both named repos fetched 2026-11-08 via the GitHub API).
 
 ## Strengths
 
@@ -72,6 +73,7 @@ Not for readers wanting evaluation methodology, organization-level platform stra
 - 2026-10-17 - Rotation re-verification, every cited URL re-fetched and all live: the homepage still leads with the 2026-09-22 containment essay as the newest long-form post, with notes through 2026-10-03, and the about page's rolling average moved from about 1.04 to about 1.03 posts per week (corrected in What it is).
 - 2026-10-29 - Homepage check found no long-form post newer than the 2026-09-22 containment essay, with notes through 2026-10-03 (fetched this run); added the Pricing section the note format mandates.
 - 2026-11-07 - Rotation re-verification, every cited URL re-fetched and all live: the RSS feed and homepage still lead with the 2026-09-22 containment essay, with notes through 2026-10-03, so the posting claims stand (fetched this run).
+- 2026-11-08 - Added the 2389-research repos (breakaway-agent, observatory) to Status and References so the feature matrix's builds-tools cell traces to this note; every cited URL re-fetched live this run, and the two repos verified via the GitHub API after GitHub HTML pages returned 504 from this environment.
 
 ## See also
 
@@ -91,4 +93,6 @@ Not for readers wanting evaluation methodology, organization-level platform stra
 - https://harper.blog/2025/05/08/basic-claude-code/ - the Claude Code port and team adoption
 - https://harper.blog/2025/04/10/waterfall-in-15-minutes-or-your-money-back/ - the micro-waterfall framing and team pilot advice
 - https://harper.blog/2026/09/22/break-away/ - the current agent-containment work
+- https://github.com/2389-research/breakaway-agent - the open-source repo behind the containment experiment, under the 2389-research org (verified via the GitHub API this run)
+- https://github.com/2389-research/observatory - the org's observatory repo, part of the same research output (verified via the GitHub API this run)
 - https://hn.algolia.com/api/v1/search?query=harper%20reed%20llm%20codegen&hitsPerPage=8 - third-party HN evidence: cited as best practice across Kiro, Claude 4, and Copilot Coding Agent threads, plus one skeptic (as of 2026-10-04)

@@ -1,7 +1,7 @@
 ---
 title: AGENTS.md
 created: 2026-08-24
-updated: 2026-11-04
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, protocols, conventions, context-files]
 readability: 3
@@ -79,6 +79,7 @@ The disagreeable part: I suspect most AGENTS.md prose is wasted tokens, and the 
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the official site still counts over 60,000 carrying projects and still lists OpenAI's repository at 88 nested files, the Claude Code changelog still records the 2.1.277 and 2.1.281 entries, and the built-in agents-md mod directory is unchanged.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the official site still counts over 60,000 carrying projects and still lists OpenAI's repository at 88 nested files and the full adopter roster, the repository stays pushed 2026-09-10, the Claude Code changelog still records the 2.1.277 and 2.1.281 entries, and the AAIF donation press URL now redirects to aaif.io/news/linux-foundation-announces-formation-of-aaif (reference updated to the canonical address).
 - 2026-11-04 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the official site still counts over 60k carrying projects and the reference repository stays pushed 2026-09-10, while the AAIF donation page, the ETH Zurich study, the Vercel evals, the support request, the announcement post, the Claude Code changelog (2.1.277 and 2.1.281), and the built-in agents-md mod all re-confirmed unchanged.
+- 2026-11-08 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the official site still counts over 60,000 carrying projects, the reference repository stays pushed 2026-09-10, the Claude Code changelog still records the 2.1.277 and 2.1.281 entries, the built-in agents-md mod directory is unchanged, and the support request stays closed.
 
 ## See also
 

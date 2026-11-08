@@ -1,7 +1,7 @@
 ---
 title: Personal Agent Protocol (Poppy)
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, oauth, agentic-commerce]
 readability: 3
@@ -29,8 +29,8 @@ Apache-2.0, hosted at personalagentprotocol.org with feedback through issues on 
 **Active, fast-moving, and pre-1.0 by explicit policy: until 1.0, a revision can break compatibility with earlier drafts.**
 The v0.1 the announcement promised for October shipped on schedule as draft 0.1 (2026-10-09), frozen at its own URL; 0.2 published 2026-10-24; 0.3 published and frozen 2026-11-04, the version that removed the protocol-defined `poppy:read` and `poppy:write` scopes in favor of company-defined scopes with reversible and irreversible consequence hints; draft 0.4 is open, mostly additions.
 The path-to-1.0 page, updated 2026-11-04, lists 43 design partners who agreed to be named: three personal agents (Instinct, Meta, OpenAI), 21 companies (Walmart, Bank of America, Target, Rocket, PayPal/Venmo among them), and 19 technology providers (Stripe, Visa, Mastercard, Cloudflare, Okta, Shopify, Sierra among them), with payments, push notifications, signed approvals, attachments, and self-hosted agents declared open topics.
-Repository created 2026-10-14, pushed 2026-11-06, 77 stars, 14 forks, 30 open issues, TypeScript (GitHub API, as of 2026-11-07).
-The reference implementation Sierra promised on 2026-10-09 for the following month had not appeared on the spec site as of 2026-11-07.
+Repository created 2026-10-14, pushed 2026-11-08, 77 stars, 14 forks, 25 open issues, TypeScript (GitHub API, as of 2026-11-08).
+The reference implementation Sierra promised on 2026-10-09 for the following month had not appeared on the spec site as of 2026-11-08 (the site's Demos page now says first-party demos are in development, with community demos listed meanwhile).
 Meta named the protocol on its 2026-10-21 earnings call, with its CFO expecting uneven adoption (per the poppy.md coverage inventory).
 The Hacker News footprint is thin for the partner count: one 9-point launch thread (2026-10-06) and a 4-point follow-up (2026-10-22).
 

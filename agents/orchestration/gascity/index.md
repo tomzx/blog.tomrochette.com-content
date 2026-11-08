@@ -1,7 +1,7 @@
 ---
 title: Gas City
 created: 2026-10-12
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, sdk, multi-agent, formulas, worktrees]
 readability: 3
@@ -24,7 +24,7 @@ It is maintained by the gastownhall org, the same lineage as Steve Yegge's Gas T
 ## Status
 
 **Active, and the only living branch of the Gas Town lineage.**
-1,390 stars, 446 forks, 1,538 open issues, created 2026-02-22, pushed 2026-11-07, as of 2026-11-07 (GitHub API).
+1,390 stars, 446 forks, 1,538 open issues, created 2026-02-22, pushed 2026-11-08, as of 2026-11-08 (GitHub API).
 Yegge announced the direction in the May 2026 "Welcome to Gas City" essay, and the 33-point Hacker News thread on it (2026-05-04) is the project's main independent record.
 Development continued after Gas Town itself was shut down in September 2026, and the migration doc maps every Town role, mechanism, and command onto City primitives.
 The release list corrected this run: stable semver releases do exist, v1.4.2 (2026-09-18), v1.5.0 (2026-10-05), and v1.5.1 (2026-10-24), which its own notes call "the new stable release and supersedes v1.4.2", tagged from `release/v1.5.0`, installable with `brew install gascity`, and requiring Beads (`bd`) v1.3.1, which now owns the Dolt process of every new city; the rolling `edge` and Bazel toolchain tags sit beside that line, so the earlier "no stable-release marker" read was wrong (GitHub releases API, as of 2026-10-25).
@@ -73,6 +73,7 @@ Not for teams that need a release line with months of seasoning, or anyone unwil
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, releases, migration doc, HN search); the push date refreshed to 2026-11-03, v1.5.1 (2026-10-24) still the latest release.
+- 2026-11-08 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, releases with v1.5.1 still the newest stable, the migration doc, the 33-point HN thread, and the Algolia query still matching it); the push date refreshed to 2026-11-08, and docs.gascityhall.com now 301s to docs.gascity.com (reference updated).
 
 ## See also
 
@@ -84,9 +85,9 @@ Not for teams that need a release line with months of seasoning, or anyone unwil
 ## References
 
 - https://github.com/gastownhall/gascity - repository, 1,390 stars, forks, issues, dates, MIT license, and the provider list, as of 2026-10-15 (fetched through the GitHub API)
-- https://github.com/gastownhall/gascity/releases - the v1.5.0 stable release notes (2026-10-05) and the v1.4.2 line, grounding the corrected stable-release record (fetched through the GitHub API)
+- https://github.com/gastownhall/gascity/releases - the stable line, v1.5.1 (2026-10-24) still the newest stable at re-verification, after v1.5.0 (2026-10-05) and v1.4.2 (2026-09-18) (fetched through the GitHub API, re-fetched 2026-11-08)
 - https://github.com/gastownhall/gascity/blob/main/README.md - the extraction framing, city.toml model, dependency list, and the coming-from-Gas-Town pointer
-- https://docs.gascityhall.com - the six primitives (Agent, Bead, Formula, Rig, Pack, Event) and the software-factory positioning
+- https://docs.gascityhall.com - the six primitives (Agent, Bead, Formula, Rig, Pack, Event) and the software-factory positioning (now a 301 to docs.gascity.com, where the content lives, re-followed 2026-11-08)
 - https://docs.gascity.com/getting-started/coming-from-gastown - the role, mechanism, and command mapping tables grounding the extraction claims
 - https://news.ycombinator.com/item?id=48015146 - the 33-point May 2026 thread on Yegge's "Welcome to Gas City" essay, the main independent record
 - https://hn.algolia.com/api/v1/search?query=%22Welcome%20to%20Gas%20City%22&tags=story - the thread search confirming points and dates (2026-10-12); the Yegge Medium essay itself returned 403 to automated fetch this run

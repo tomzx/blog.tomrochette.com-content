@@ -1,7 +1,7 @@
 ---
 title: Matt Pocock
 created: 2026-09-24
-updated: 2026-10-29
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, education, ai-coding]
 readability: 3
@@ -25,7 +25,7 @@ The skills are deliberately small, composable, and forkable: grill-me, grill-wit
 
 Active and at the center of the agent-skills wave.
 The AI Hero discovery index lists well over a hundred public items, including roughly two dozen documented skills with per-skill pages and a changelog, and the skills repo shows about 545 commits and roughly 287,000 stars as of 2026-10-12.
-Development continues: the commit history runs through 2026-10-27 (repo maintenance on blank-issue handling that day, and a new chief-of-staff skill, keeping memory in a dated commit-cited wiki, landed 2026-10-19), while no tagged release has followed v1.3.1 as of 2026-10-28 and the site's own skills changelog still lists v1.3 as its newest entry.
+Development continues: the commit history runs through 2026-10-31, a new chief-of-staff skill keeping memory in a dated commit-cited wiki landed 2026-10-19, and the patch release v1.3.2 shipped 2026-10-29 (ask-matt now reads a skill's SKILL.md before stating what it does or recommending a step be skipped, per the repo's releases fetched this run), while the site's own skills changelog still lists v1.3 as its newest entry as of 2026-11-08.
 The repo merged its release/v1.3 branch on 2026-09-29, capping the September 24 batch that graduated implement-spec, pr, and retro to the engineering set and renamed the CONTEXT.md convention to GLOSSARY.md, and shipped that work as tagged releases v1.3.0 and v1.3.1 on 2026-10-04 (per the repo's releases), with the site's own skills changelog catching up on 2026-10-06 to list v1.3 as its newest entry.
 His /grill-me skill went viral by his own account (his post on it was last updated 2026-03-23), and an Ask HN thread from 2026-09-08 names it as the one skill a respondent "found gets regular mileage".
 Scale is real: in a May 2026 video he said his AI-coding cohort starting June 1 had around 4,000 to 4,500 students, his most subscribed course ever.
@@ -78,6 +78,7 @@ Not for anyone seeking model research, benchmarks, or vendor-neutral evaluation 
 - 2026-10-12 - Commits refreshed to about 545 and skills stars to about 287k as of 2026-10-12, with the repo scale now stated in the Status sentence itself.
 - 2026-10-28 - Rotation re-verification: development continues through 2026-10-27 (the chief-of-staff skill landed 2026-10-19, repo maintenance on the 27th) with no tagged release after v1.3.1 and the site changelog still listing v1.3 as newest; GitHub followers moved to 52.6k as of 2026-10-28; the as-of star figure keeps its 2026-10-12 date (per the stars-never-refreshed rule), and every cited URL re-fetched live.
 - 2026-10-29 - Added the Pricing section the note format mandates; no other claim moved.
+- 2026-11-08 - Rotation re-verification, every cited URL re-fetched live: v1.3.2 (released 2026-10-29, the ask-matt SKILL.md fix, per the repo's releases fetched this run) added to Status, commit activity through 2026-10-31, and the site changelog still listing v1.3 as newest.
 
 ## See also
 
@@ -94,7 +95,7 @@ Not for anyone seeking model research, benchmarks, or vendor-neutral evaluation 
 - https://www.aihero.dev/my-grill-me-skill-has-gone-viral.md - the grill-me skill text, its design, and his viral-reach claim
 - https://github.com/mattpocock - profile and pinned repos as of 2026-10-28 (52.6k followers; skills, sandcastle, dictionary-of-ai-coding, ts-reset)
 - https://github.com/mattpocock/skills - the skills repo: MIT license, four failure modes, full skill list, ~60,000-person newsletter claim
-- https://github.com/mattpocock/skills/commits/main/ - the commit history grounding the release/v1.3 merge (2026-09-29), the September 24 graduation of implement-spec, pr, and retro, and the continued development through 2026-10-27 including the chief-of-staff skill (2026-10-19)
-- https://github.com/mattpocock/skills/releases - the tagged release history grounding v1.3.0 and v1.3.1 (both 2026-10-04) following the release/v1.3 merge, still the newest releases as of 2026-10-28
+- https://github.com/mattpocock/skills/commits/main/ - the commit history grounding the release/v1.3 merge (2026-09-29), the September 24 graduation of implement-spec, pr, and retro, the chief-of-staff skill (2026-10-19), and continued development through 2026-10-31
+- https://github.com/mattpocock/skills/releases - the tagged release history grounding v1.3.0 and v1.3.1 (both 2026-10-04) and the patch v1.3.2 (2026-10-29), verified via the GitHub API this run
 - https://news.ycombinator.com/item?id=48321838 - the skeptical HN thread quoting his own cohort-size and revenue numbers
 - https://hn.algolia.com/api/v1/search?query=%22matt+pocock%22&tags=story - the third-party build evidence: multiple Show HNs around his workflow and skills, including the September 2026 grill-me Ask HN

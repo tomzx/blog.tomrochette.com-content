@@ -1,7 +1,7 @@
 ---
 title: Sandcastle
 created: 2026-09-27
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, sandboxing, typescript, library]
 readability: 3
@@ -79,6 +79,7 @@ Not for anyone who wants a board, diff review, or a maintained app.
 - 2026-10-19 - Recorded the maintenance trickle continuing through 2026-10-18 (a CI fix moving agent workflows off `pull_request_target`, a Codex `.env` template key fix), still with no new release.
 - 2026-10-27 - Refreshed the maintenance-trickle record through 2026-10-19 (the out-of-date docs site removed); no release past v0.12.0.
 - 2026-11-03 - Status move: the five-month release gap closed with v0.13.0 and v0.14.0 on 2026-11-02 (native sandboxes as the documented default, session resume for Copilot, Cursor, and OpenCode, E2B, Modal, and Fly.io Sprites providers, and two sandbox-escape security fixes); corrected the #223 record (closed the same day it was reported, PR #224) and replaced the dead aihero.dev/open-source reference with the published docs site.
+- 2026-11-08 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, npm at 0.14.0, the published docs site, both release tags, issue #223); claims hold, v0.14.0 still the latest release, quiet since the 2026-11-02 pair.
 
 ## See also
 

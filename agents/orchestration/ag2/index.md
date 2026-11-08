@@ -1,7 +1,7 @@
 ---
 title: AG2
 created: 2026-10-07
-updated: 2026-11-06
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, fork, autogen]
 readability: 3
@@ -21,7 +21,7 @@ For this category it fills the successor slot on the community side of the AutoG
 
 ## Status
 
-Active and shipping: 4,996 stars, a push on 2026-11-06, and release v1.3.0 on 2026-11-04 after v1.2.2 (2026-10-27, six days after v1.2.1 (2026-10-21, itself a week after v1.2.0 (2026-10-11))); `ag2` on PyPI tracks the GitHub line again at 1.3.0 (GitHub API, PyPI, as of 2026-11-06), on a repository created 2024-11-11.
+Active and shipping: 4,996 stars, a push on 2026-11-08, and release v1.3.0 on 2026-11-04 after v1.2.2 (2026-10-27, six days after v1.2.1 (2026-10-21, itself a week after v1.2.0 (2026-10-11))); `ag2` on PyPI tracks the GitHub line again at 1.3.0 (GitHub API, PyPI, as of 2026-11-08), on a repository created 2024-11-11.
 v1.2.0 added OpenAI Decisions API support (an `OpenAIDecisionsConfig` with shared decision schemas on a `Question` marker), multi-replica A2A servers with cacheable agent cards and push-notification URL validation, Anthropic cache diagnostics, and a breaking change to toolkit composition (`left | right` now yields an independent collection whose tools no longer inherit either side's middleware).
 
 <picture>

@@ -1,7 +1,7 @@
 ---
 title: SuperGrok
 created: 2026-09-26
-updated: 2026-10-29
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, grok, subscriptions, xai]
 readability: 3
@@ -24,7 +24,7 @@ Above the ladder sits the pay-per-token API: paid plans include Grok API access,
 
 Active and still being restructured: Lite was announced on 2026-03-25 at $10 per month while in testing with selected users, SuperGrok Plus surfaced between a July 2026 tier guide and the 2026-09-26 page check, and by the 2026-10-14 fetch the whole ladder had been rebuilt into Plus/Premium/Super/Ultra with the SuperGrok names gone.
 The defining mechanic moved again by 2026-10-29: the pricing page's FAQ now states the shared pool covers Chat, Imagine, Voice, and Bot within Grok, and answers the API question the other way from before, API usage is billed separately at standard model rates and does not draw from the plan's usage pool.
-That puts the official page at odds with Warp's subscription doc (last updated 2026-10-20), which still states that Grok chat, Grok Build, and API access all draw down the same weekly pool and that requests from Warp appear under the API label against that pool, so the third-party-harness story now rests on the older wording.
+That puts the official page at odds with Warp's subscription doc (updated again 2026-11-04), which still states that Grok chat, Grok Build, and API access all draw down the same weekly pool and that requests from Warp appear under the API label against that pool, so the third-party-harness story now rests on the older wording.
 **The ladder is converging on one fuzzy weekly pool instead of countable messages, and the pool's own boundaries are still moving underneath it.**
 
 ## Strengths
@@ -32,7 +32,7 @@ That puts the official page at odds with Warp's subscription doc (last updated 2
 - The weekly pool is flexible rather than siloed, so a coding-heavy week can spend the budget on Grok Build and a research-heavy week on DeepSearch and chat.
 - Grok Build is included from Free upward, which makes the $0 tier a working entry point to a frontier coding agent, with paid tiers raising its limits from the same pool.
 - The API escape hatch is cheap for a frontier lab: grok-4.6 and grok-4.7 bill $2.00 input and $6.00 output per million tokens under 200k prompt, with cached input at $0.50, as of 2026-10-29 (re-verified unchanged), and per the current FAQ it no longer drains the subscription pool.
-- The subscription travels outside xAI's own apps per Warp's documentation, though the pool treatment of those requests is now stated differently by Warp (API in the pool, October 20) and by xAI's own FAQ (API billed separately, October 29).
+- The subscription travels outside xAI's own apps per Warp's documentation, though the pool treatment of those requests is now stated differently by Warp (API in the pool, updated November 4) and by xAI's own FAQ (API billed separately).
 - Plus at $8 per month now matches ChatGPT Go as the cheapest paid on-ramp in this category, and every tier's dollar figure is on the official card.
 
 ## Cautions
@@ -81,6 +81,7 @@ My disagreeable claim: Super at $100 is still a media-creator tier wearing an en
 - 2026-09-26 - Created when the owner asked for any remaining subscription providers.
 - 2026-10-14 - Ladder restructure recorded: x.ai/pricing replaced the SuperGrok-named tiers (Lite $10 testing, SuperGrok $30, Plus $100, Heavy $300) with Free, Plus $8, Premium $30, Super $100, and Ultra $200 monthly plus Teams from $30 per user, bundling X Premium features and Cursor into every tier with every dollar figure now published and the shared weekly pool carried over; the Warp pool documentation claim re-based onto the page's own FAQ, the API rates re-verified unchanged, and the price history row appended.
 - 2026-10-29 - Rotation re-verification with a pool-terms change and a seller rebrand: the pricing FAQ now scopes the shared weekly pool to Chat, Imagine, Voice, and Bot and states API usage is billed separately at standard rates without drawing from the pool (the opposite of the 10-14 FAQ reading), Warp's doc (updated 2026-10-20) still claims API in the pool, and the seller now brands as SpaceX Super Intelligence LLC (SpaceXSI) with the ladder prices unchanged; every cited URL re-fetched live this run, price history row appended.
+- 2026-11-08 - Rotation re-verification with nothing moved: the ladder (Free, Plus $8, Premium $30, Super $100, Ultra $200, Teams from $30 per user), the SpaceXSI branding, and the FAQ's pool scope (Chat, Imagine, Voice, and Bot, API billed separately outside the pool) all re-verified unchanged on x.ai/pricing; Warp's doc was republished (updated 2026-11-04) still stating chat, Build, and API access draw the same pool, so the divergence stands; the API rates (grok-4.6/4.7 $2/$6 under 200k, grok-build-0.1 $1/$2, Grok 4.7 Fast 2x, US endpoint 1.1x) re-verified unchanged on the developer pricing page; every cited URL re-fetched live this run except codeagentswarm (429 again).
 
 ## See also
 
@@ -91,9 +92,9 @@ My disagreeable claim: Super at $100 is still a media-creator tier wearing an en
 
 ## References
 
-- https://x.ai/pricing - the plan cards after the mid-October restructure: Free $0, Plus $8, Premium $30, Super $100, Ultra $200, Teams from $30 per user, X features and Cursor bundled, the shared weekly pool FAQ, and Grok Build rows per tier (fetched 200 on 2026-09-26 reading SuperGrok $30 and Plus $100, re-verified 2026-10-06 and 2026-10-11, re-fetched 2026-10-14 reading the new ladder; re-fetched 2026-10-29 under the SpaceXSI brand with prices unchanged and the FAQ now scoping the pool to Chat, Imagine, Voice, and Bot with API billed separately outside the pool)
-- https://docs.warp.dev/agents/inference/grok-subscription - the one weekly pool shared across Grok chat, Grok Build, and API access, pause-on-empty behavior, third-party-harness ZDR caveat (fetched 200, page updated 2026-09-24; re-fetched 2026-10-29, page updated 2026-10-20 and still stating chat, Build, and API access all draw the same pool, now diverging from xAI's own FAQ)
-- https://docs.x.ai/developers/pricing - API escape hatch: grok-4.6/4.7 at $2/$6 under 200k prompt, $0.50 cached, $4/$12 above, grok-build-0.1 at $1/$2, Grok 4.7 Fast exclusivity, the US regional endpoint at 1.1x (fetched 200, re-verified 2026-10-06 and 2026-10-14; re-fetched 2026-10-29 under SpaceXSI branding with grok-4.5 and grok-4.3 rows added to the table and the cited rates unchanged)
-- https://www.businesstoday.in/technology/story/xai-makes-grok-affordable-with-new-supergrok-lite-plan-check-price-and-what-it-offers-522462-2026-03-26 - Lite announcement: $10/month, testing phase with selected users, 480p 6-second video, 2x chats, one agent (fetched 200, 2026-09-26; re-fetched 2026-10-29, unchanged)
-- https://aitoolanalysis.com/supergrok-subscription-price-2026/ - critical guide: full tier table including Heavy $300, the coding-benchmarks caveat, and the safety litigation section (fetched 200, updated 2026-07-06; re-fetched 2026-10-29, updated October 21 with the October 12 The X Subscription cutover and the keep-or-switch guidance for existing SuperGrok subscribers)
-- https://codeagentswarm.com/en/guides/grok-build-pricing - independent Grok Build plan-table guide, attempted four times this run and rate-limited (429) on every attempt, so nothing here is cited from it
+- https://x.ai/pricing - the plan cards after the mid-October restructure: Free $0, Plus $8, Premium $30, Super $100, Ultra $200, Teams from $30 per user, X features and Cursor bundled, the shared weekly pool FAQ, and Grok Build rows per tier (fetched 200 on 2026-09-26 reading SuperGrok $30 and Plus $100, re-verified 2026-10-06 and 2026-10-11, re-fetched 2026-10-14 reading the new ladder; re-fetched 2026-10-29 under the SpaceXSI brand with prices unchanged and the FAQ now scoping the pool to Chat, Imagine, Voice, and Bot with API billed separately outside the pool; re-fetched 2026-11-08, all of it unchanged)
+- https://docs.warp.dev/agents/inference/grok-subscription - the one weekly pool shared across Grok chat, Grok Build, and API access, pause-on-empty behavior, third-party-harness ZDR caveat (fetched 200, page updated 2026-09-24; re-fetched 2026-10-29, page updated 2026-10-20 and still stating chat, Build, and API access all draw the same pool, now diverging from xAI's own FAQ; re-fetched 2026-11-08, page updated 2026-11-04 with the same pool statement, so the divergence stands)
+- https://docs.x.ai/developers/pricing - API escape hatch: grok-4.6/4.7 at $2/$6 under 200k prompt, $0.50 cached, $4/$12 above, grok-build-0.1 at $1/$2, Grok 4.7 Fast exclusivity, the US regional endpoint at 1.1x (fetched 200, re-verified 2026-10-06 and 2026-10-14; re-fetched 2026-10-29 under SpaceXSI branding with grok-4.5 and grok-4.3 rows added to the table and the cited rates unchanged; re-fetched 2026-11-08, the cited rates unchanged)
+- https://www.businesstoday.in/technology/story/xai-makes-grok-affordable-with-new-supergrok-lite-plan-check-price-and-what-it-offers-522462-2026-03-26 - Lite announcement: $10/month, testing phase with selected users, 480p 6-second video, 2x chats, one agent (fetched 200, 2026-09-26; re-fetched 2026-10-29, unchanged; re-fetched 2026-11-08, unchanged)
+- https://aitoolanalysis.com/supergrok-subscription-price-2026/ - critical guide: full tier table including Heavy $300, the coding-benchmarks caveat, and the safety litigation section (fetched 200, updated 2026-07-06; re-fetched 2026-10-29, updated October 21 with the October 12 The X Subscription cutover and the keep-or-switch guidance for existing SuperGrok subscribers; re-fetched 2026-11-08, still its October 21 update)
+- https://codeagentswarm.com/en/guides/grok-build-pricing - independent Grok Build plan-table guide, attempted a fifth time this run and rate-limited (429) again, so nothing here is cited from it

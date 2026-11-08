@@ -1,7 +1,7 @@
 ---
 title: OpenCode Zen
 created: 2026-09-26
-updated: 2026-10-29
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, ai-gateway, pay-per-use]
 readability: 3
@@ -27,23 +27,23 @@ The Reddit thread "Opencode Zen is astoundingly more expensive than OpenRouter" 
 ## Strengths
 
 - Every endpoint is benchmarked for coding-agent use, so you avoid badly served providers.
-- A stable of free models (ten free rows as of 2026-10-29: the Big Pickle stealth model, GLM-5.3-Flash Free, DeepSeek V4.1 Flash Free, Beam Free, Flint 40B Free, MiMo-V2.6-Flash Free, Nemotron 3 Ultra Free, Nemotron 3.5 Lightning Free, Nemotron 3.5 Super VL Free, and Jev 1.13 Free) with documented data caveats.
+- A stable of free models (thirteen free rows as of 2026-11-08, up from ten on 2026-10-29: the Big Pickle and Iceman stealth models, Inkling 2 Small Free, Crouton Alpha Free, GLM-5.3-Flash Free, DeepSeek V4.1 Flash Free, Beam Free, Flint 40B Free, MiMo-V2.6-Flash Free, Nemotron 3 Ultra Free, Nemotron 3.5 Lightning Free, Nemotron 3.5 Super VL Free, and Jev 1.13 Free) with documented data caveats.
 - Markups are claimed to be zero beyond the processing fee on credit purchases (4.6% + $0.31 per transaction as of 2026-10-29, up from 4.4% + $0.30).
 - US- and EU-hosted per the docs as of 2026-10-11, with zero-retention on most models and exceptions listed per model.
 - Same balance backs the Go subscription's overflow, and the key works from any agent.
 
 ## Cautions
 
-- The July 2026 community test measured Zen at more than 4x OpenRouter on Kimi K2.6 and MiniMax M2.7; the gap has since narrowed on some models and widened on others, per model as of 2026-10-29: Zen lists GLM-5.3-Flash at $0.15/$0.50 where OpenRouter's catalog reads $0.0457/$0.0742 (3.3x input, 6.7x output), GLM-5.3 at $1.40/$4.40 against OpenRouter's $0.0699/$1.40, while MiniMax M2.7 has converged to identical $0.30/$1.20 and Kimi K2.6 sits at $0.95/$4.00 against $0.65/$3.41.
+- The July 2026 community test measured Zen at more than 4x OpenRouter on Kimi K2.6 and MiniMax M2.7; per the OpenRouter catalog API as of 2026-11-08: Zen lists GLM-5.3-Flash at $0.15/$0.50 where OpenRouter's catalog reads $0.0335/$0.083 (4.5x input, 6.0x output, the input gap wider than the 3.3x of 2026-10-29), GLM-5.3 at $1.40/$4.40 against OpenRouter's $0.0699/$1.40 (20x input, 3.1x output), while the MiniMax M2.7 prices that had converged to identical $0.30/$1.20 diverged again (OpenRouter now $0.21/$0.84, 1.4x on both) and Kimi K2.6 sits at $0.95/$4.00 against $0.65/$3.41.
 - Auto-recharge buys credits when the balance runs low, last verified at $20 per top-up below a $5 floor; the current console billing page renders client-side and no longer states the amounts in fetchable text.
-- Deprecated models vanish on published dates (DeepSeek V4 Flash deprecated October 26, 2026, per the current table), so configs need migrations, and free stealth models may use your data to improve the model during their free window.
+- Deprecated models vanish on published dates (DeepSeek V4 Flash deprecated October 26, 2026, and Pulse Alpha Free on November 6, 2026, per the current table), so configs need migrations, and free stealth models may use your data to improve the model during their free window.
 
 ## Pricing
 
-Pay-as-you-go per 1M tokens, as of 2026-10-29: GLM-5.3 $1.40/$4.40, GLM-5.3-Flash $0.15/$0.50, Kimi K3 $3/$15, Qwen3.7 Plus $0.40/$1.60, DeepSeek V4.1 Flash $0.30/$1.20, MiniMax M3 $0.30/$1.20.
-Frontier lines: Claude Sonnet 5 $2/$10, Claude Opus 5.5 $4/$20, Claude Fable 5.1 $10/$50, GPT 5.5 $5/$30, GPT 6 Astra $10/$50, GPT 6 Sol $2/$10, GPT 6.1 Sol $2/$10, Gemini 3.8 Flash $1.50/$7.50, Grok 4.7 $2/$6, with long-context surcharge tiers documented per model.
+Pay-as-you-go per 1M tokens, as of 2026-11-08: GLM-5.3 $1.40/$4.40, GLM-5.3-Flash $0.15/$0.50, Kimi K3 $3/$15, Qwen3.6 Plus $0.50/$3.00 (Qwen3.7 Plus left the table since 2026-10-29, Qwen3.6 Plus and Qwen3.5 Plus at $0.20/$1.20 replaced it), DeepSeek V4.1 Flash $0.30/$1.20, DeepSeek V4 Pro $1.74/$3.48, MiniMax M3 $0.30/$1.20.
+Frontier lines: Claude Sonnet 5 $2/$10, Claude Opus 5.5 $4/$20, Claude Fable 5.1 $10/$50, GPT 5.5 $5/$30, GPT 6 Astra $10/$50, GPT 6 Sol $2/$10, GPT 6.1 Sol $2/$10, GPT 5.6 Terra $2/$12, Gemini 3.8 Flash $1.50/$7.50, Grok 4.7 $2/$6, with long-context surcharge tiers documented per model.
 Mistral Large 4 carries a 50%-off promo row ($0.68/$2.09, struck from $1.36/$4.18), Gemini 4 Argon a second one ($2.00/$10.00, struck from $4.00/$20.00, through November 30, 2026), and Jev 1.13 charges $0.042 per input with free output.
-Ten models are free as of 2026-10-29, down from fourteen at the 2026-10-14 read: the Big Pickle stealth model, GLM-5.3-Flash Free and DeepSeek V4.1 Flash Free (both newly free, zero-retention providers), Beam Free, Flint 40B Free, MiMo-V2.6-Flash Free, three Nemotron free rows, and Jev 1.13 Free; Space Bunny and Cat Jam are gone from the catalog.
+Thirteen models are free as of 2026-11-08, up from ten at the 2026-10-29 read: the Big Pickle and Iceman stealth models (Iceman Free newly on the list), Inkling 2 Small Free (a Thinking Machines research-tier model whose provider retains data and may train on it, region-restricted), Crouton Alpha Free (a second stealth model), GLM-5.3-Flash Free, DeepSeek V4.1 Flash Free, Beam Free, Flint 40B Free, MiMo-V2.6-Flash Free, three Nemotron free rows, and Jev 1.13 Free; Space Bunny and Cat Jam are gone from the catalog.
 Credit purchases carry a processing fee of 4.6% + $0.31 per the docs callout (4.4% + $0.30 before), stated as the only charge beyond token rates, and OpenCode itself uses low-cost models to generate session titles on your bill.
 
 ## Price history
@@ -74,6 +74,7 @@ My disagreeable claim: the curation premium is worth paying only when a mis-serv
 - 2026-10-07 - Catalog check: the price table's free rows count thirteen (from twelve recorded 2026-10-04, with Nemotron 3.5 Lightning Free and Muse Spark 1.3 Contributor Free now on the table), Mistral Large 4 gained a 50%-off promo row, and the docs now state US and EU hosting where the note said US-hosted; every per-token rate re-verified unchanged.
 - 2026-10-14 - Catalog check: the free roster moved to fourteen rows with Cat Jam Free joining as a third stealth free model, and Gemini 4 Argon gained a 50%-off promo row (through November 30, 2026) beside Mistral Large 4's; every previously listed per-token rate re-verified unchanged.
 - 2026-10-29 - Rotation re-verification with a product rename and a fee rise: the docs now brand the gateway OpenCode Console (endpoints moved to opencode.ai/inference/... with the zen/ legacy URLs still serving per the Docker integration doc), the credit-purchase processing fee rose from 4.4% + $0.30 to 4.6% + $0.31, the free roster fell from fourteen rows to ten (Space Bunny and Cat Jam gone, GLM-5.3-Flash and DeepSeek V4.1 Flash newly free, Flint 40B and a third Nemotron row in), the GLM-5.3-Flash and GLM-5.3 price-gap caution re-based onto today's OpenRouter catalog reads (the gap widened on GLM while MiniMax M2.7 converged), and DeepSeek V4 Flash's October 26 deprecation joined the table; every cited URL re-fetched live this run except the Reddit thread (documented 403), price history row appended.
+- 2026-11-08 - Rotation re-verification with catalog churn: the free roster grew from ten rows to thirteen (Iceman Free, Inkling 2 Small Free, and Crouton Alpha Free joined, Inkling's provider retaining data and may train on it and region-restricted), Qwen3.7 Plus left the price table with Qwen3.6 Plus ($0.50/$3.00) and Qwen3.5 Plus ($0.20/$1.20) replacing it, the deprecation table gained Pulse Alpha Free (November 6, 2026), and the price-gap caution re-based onto fresh OpenRouter catalog reads (GLM-5.3-Flash input gap widened to 4.5x, MiniMax M2.7 de-converged to 1.4x); the processing fee (4.6% + $0.31), every previously listed per-token rate, and the Console branding re-verified unchanged; every cited URL re-fetched live this run except the Reddit thread (403 again).
 
 ## See also
 
@@ -84,9 +85,10 @@ My disagreeable claim: the curation premium is worth paying only when a mis-serv
 
 ## References
 
-- https://opencode.ai/docs/zen/ - per-model price table, free models, auto-recharge, deprecations, privacy, now branded OpenCode Console (200, last updated 2026-10-10, re-fetched 2026-10-11 and 2026-10-14 with the Gemini 4 Argon promo row and Cat Jam Free present; re-fetched 2026-10-29 reading the Console rename, the 4.6% + $0.31 processing fee, the ten free rows, and the DeepSeek V4 Flash October 26 deprecation).
-- https://docs.docker.com/ai/docker-agent/providers/opencode-zen/ - third-party integration doc, Zen vs Go billing table (200; re-fetched 2026-10-29, still titled OpenCode Zen with the opencode.ai/zen/v1 base URL and the legacy opencode-zen provider id accepted).
-- https://www.reddit.com/r/opencodeCLI/comments/1syog9v/opencode_zen_is_astoundingly_more_expensive_than/ - critical 4x price claim vs OpenRouter (direct fetch 403; content read via search).
-- https://costgoat.com/pricing/openrouter/ - OpenRouter per-model prices used for cross-gateway comparison (200, as of 2026-09-25; re-fetched 2026-10-29, updated October 28, with GLM-5.3-Flash at $0.15/$0.50 against the catalog's current $0.0457/$0.0742, so the catalog API was used for the caution instead).
-- https://opencode.ai/docs/go - shared balance and "Use balance" fallback mechanics (200; re-fetched 2026-10-29).
-- https://www.truefoundry.com/blog/openrouter-pricing - OpenRouter fee structure used as the price counterpoint (200; re-fetched 2026-10-29, its BYOK rows still carrying the retired request-count framing).
+- https://opencode.ai/docs/zen/ - per-model price table, free models, auto-recharge, deprecations, privacy, now branded OpenCode Console (200, last updated 2026-10-10, re-fetched 2026-10-11 and 2026-10-14 with the Gemini 4 Argon promo row and Cat Jam Free present; re-fetched 2026-10-29 reading the Console rename, the 4.6% + $0.31 processing fee, the ten free rows, and the DeepSeek V4 Flash October 26 deprecation; re-fetched 2026-11-08 with thirteen free rows (Iceman Free, Inkling 2 Small Free, Crouton Alpha Free new), Qwen3.6 Plus and Qwen3.5 Plus replacing Qwen3.7 Plus, the Pulse Alpha Free November 6 deprecation, and the fee callout unchanged).
+- https://docs.docker.com/ai/docker-agent/providers/opencode-zen/ - third-party integration doc, Zen vs Go billing table (200; re-fetched 2026-10-29, still titled OpenCode Zen with the opencode.ai/zen/v1 base URL and the legacy opencode-zen provider id accepted; re-fetched 2026-11-08 unchanged in the cited respects, now also documenting the x-opencode-session header Docker Agent sends).
+- https://www.reddit.com/r/opencodeCLI/comments/1syog9v/opencode_zen_is_astoundingly_more_expensive_than/ - critical 4x price claim vs OpenRouter (direct fetch 403 again 2026-11-08; content read via search).
+- https://openrouter.ai/api/v1/models - the OpenRouter catalog API grounding the caution's comparison reads (200, 2026-11-08: z-ai/glm-5.3-flash $0.0335/$0.083, z-ai/glm-5.3 $0.0699/$1.40, minimax/minimax-m2.7 $0.21/$0.84, moonshotai/kimi-k2.6 $0.65/$3.41 per 1M tokens).
+- https://costgoat.com/pricing/openrouter/ - OpenRouter per-model prices used for cross-gateway comparison (200, as of 2026-09-25; re-fetched 2026-10-29, updated October 28, with GLM-5.3-Flash at $0.15/$0.50 against the catalog's current $0.0457/$0.0742, so the catalog API was used for the caution instead; re-fetched 2026-11-08, updated November 6, still reading GLM-5.3-Flash at $0.15/$0.50, so the catalog API remains the caution's source).
+- https://opencode.ai/docs/go - shared balance and "Use balance" fallback mechanics (200; re-fetched 2026-10-29; re-fetched 2026-11-08).
+- https://www.truefoundry.com/blog/openrouter-pricing - OpenRouter fee structure used as the price counterpoint (200; re-fetched 2026-10-29, its BYOK rows still carrying the retired request-count framing; re-fetched 2026-11-08, updated October 15, the same framing).

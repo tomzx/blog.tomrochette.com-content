@@ -1,7 +1,7 @@
 ---
 title: AgentGrid
 created: 2026-10-02
-updated: 2026-11-04
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, canvas, closed-source]
 readability: 3
@@ -25,7 +25,7 @@ A built-in source-control view and an agent review bot put worktree state, pull 
 
 ## Status
 
-Active and fast-moving: the homepage changelog carried v2.9.47 (2026-11-01) as the latest release as of 2026-11-04, on top of near-daily releases through September and October, with mobile apps in beta and a headless standalone CLI added since this note was created.
+Active and fast-moving: the changelog carried v2.9.52 as the latest release as of 2026-11-08, on top of near-daily releases through September, October, and November, with mobile apps in beta and a headless standalone CLI added since this note was created.
 The vendor's pricing page serves the same Free $0 and Pro $16/month tiers it served at creation (billed annually, $192/year).
 **The community footprint is the weakest part of the story: a Show HN thread from 2026-08-25 that sits at 1 point with 0 comments, no public repository, and a "1,000+ AI builders" homepage claim that only the vendor's own site corroborates (the homepage said 5,000+ when this note was created), so the traction numbers stay marketing until an independent source confirms them.**
 
@@ -75,6 +75,7 @@ Not for anyone who requires open source, an auditable supply chain, or pricing t
 - 2026-10-08 - Recorded v2.9.5 (October 7, PR attribution and a get_pr_cost MCP tool) and re-verified the pricing page tiers unchanged.
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (product site, docs, pricing, changelog, the Show HN thread); the vendor pages are client-rendered, so no fresh version or price text is extractable server-side, and the recorded claims keep their as-of dates.
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (product site, docs, pricing, changelog, the Show HN thread); recorded v2.9.47 (2026-11-01) as the changelog's latest, the docs' eleven-harness list adding Hermes and Muse Code, the beta iPhone and Android apps, and the standalone headless CLI, and corrected the vendor community claim to the homepage's current 1,000+ AI builders (it read 5,000+ at creation); pricing tiers unchanged.
+- 2026-11-08 - Re-verified in rotation: all cited sources re-fetched and live (product site, docs, pricing, changelog, the Show HN thread); recorded v2.9.52 as the changelog's latest with entries through 2026-11-08, the changelog's /changelog path moved to /docs/changelog (301, reference updated), and the pricing tiers re-verified unchanged server-side (Pro $16/month or $192/year).
 
 ## See also
 
@@ -88,6 +89,6 @@ Not for anyone who requires open source, an auditable supply chain, or pricing t
 
 - https://agentgrid.sh/ - product positioning, platform support, the harness list, and the vendor's community-size claim
 - https://agentgrid.sh/docs - the canvas, space, pane, master, and worker mental model and MCP delegation tools
-- https://agentgrid.sh/pricing - the Free and Pro tiers, the early-adopter price against the stated regular value, and the BYO-subscription note, fetched 2026-10-02 and re-fetched 2026-10-05 (HTTP 500 on 2026-10-03)
-- https://agentgrid.sh/changelog - the release cadence through v2.9.2 (2026-09-29)
+- https://agentgrid.sh/pricing - the Free and Pro tiers, the early-adopter price against the stated regular value, and the BYO-subscription note, fetched 2026-10-02 and re-fetched 2026-10-05 (HTTP 500 on 2026-10-03); re-fetched 2026-11-08 with tiers unchanged (Pro $16/month or $192/year)
+- https://agentgrid.sh/docs/changelog - the release cadence, now serving at this path (the old /changelog path 301s here), with entries through v2.9.52 (2026-11-08) at re-verification
 - https://news.ycombinator.com/item?id=49436219 - the 2026-08-25 Show HN thread (1 point, 0 comments), evidence of the missing community footprint

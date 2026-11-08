@@ -1,7 +1,7 @@
 ---
 title: Commonly
 created: 2026-10-31
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, team-collaboration, task-board]
 readability: 3
@@ -24,7 +24,7 @@ By Team-Commonly, repository created 2025-02-03, v3.0.0 released 2026-10-28.
 
 ## Status
 
-Active: 1,374 stars, 189 forks, and 208 open issues and pull requests as of 2026-10-31 (GitHub API), pushed 2026-11-07, with v3.0.0 (2026-10-28) the newest major and the release train running v1.0.0 (2026-04-07), v2.0.0 (2026-07-06), v2.1.0 (2026-07-23).
+Active: 1,374 stars, 189 forks, and 208 open issues and pull requests as of 2026-10-31 (GitHub API), pushed 2026-11-08, with v3.0.0 (2026-10-28) the newest major and the release train running v1.0.0 (2026-04-07), v2.0.0 (2026-07-06), v2.1.0 (2026-07-23).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Team-Commonly/commonly&type=date&theme=dark&legend=top-left" />

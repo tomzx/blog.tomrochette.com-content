@@ -1,7 +1,7 @@
 ---
 title: Helmor
 created: 2026-09-27
-updated: 2026-11-03
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, worktrees, local-first, desktop]
 readability: 3
@@ -72,6 +72,7 @@ Not for Linux users, and not for anyone who needs fleet-scale orchestration or a
 - 2026-10-07 - Added the dohooo/helmor star history chart to the Status section.
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repository, releases, site, Hysen Labs mirror, README); no claims changed.
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, releases, site, Hysen Labs page); corrected the dormancy record (the last default-branch commit is 2026-07-24, the 2026-08-22 pushed_at was a side branch), the quiet spell now over three months.
+- 2026-11-08 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, releases with v0.46.0 (2026-07-24) still the latest, site, Hysen Labs page); the Hysen Labs URL moved (the /en prefix dropped, 301, reference updated) and the dormancy record holds.
 
 ## See also
 
@@ -87,4 +88,4 @@ Not for Linux users, and not for anyone who needs fleet-scale orchestration or a
 - https://helmor.ai/ - product positioning, current version, and download platforms
 - https://raw.githubusercontent.com/dohooo/helmor/HEAD/README.md - workspaces, agents, review and ship features, CLI, and MCP server
 - https://github.com/dohooo/helmor/releases - release cadence and v0.46.0 notes
-- https://hysenlabs.com/en/projects/dohooo-helmor - independent summary of the local-first worktree model
+- https://hysenlabs.com/en/projects/dohooo-helmor - independent summary of the local-first worktree model (the /en prefix now 301s to hysenlabs.com/projects/dohooo-helmor, re-followed 2026-11-08)

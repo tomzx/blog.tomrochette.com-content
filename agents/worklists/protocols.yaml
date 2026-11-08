@@ -3,11 +3,11 @@ category: protocols
 generated: 2026-11-08
 mapped_sources:
   - repo: punkpeye/awesome-mcp-servers
-    last_checked: 2026-11-06
+    last_checked: 2026-11-08
   - repo: punkpeye/awesome-mcp-clients
-    last_checked: 2026-11-06
+    last_checked: 2026-11-08
   - repo: insodimension/awesome-agent-protocols
-    last_checked: 2026-11-06
+    last_checked: 2026-11-08
 digest_lines:
   - "- 2026-11-07 | cross-category | agentastic.dev rejects on the thin-record tail: closed product, no public code repository (org holds a 1-star homebrew tap and a 0-star quickstart), an 11-point January Show HN, zero coverage since | resolves the surfaces worker's terminal-family routing report"
   - "- 2026-11-07 | context-engines | the protocols handoff NeuroCode (Arkz-Deepak/neurocode, 0 stars, MIT, created 2026-10-18) rejects on the thin-record tail | context-engine kind confirmed (token-budgeted CPG reachability slicing over MCP) but zero adoption, zero coverage (every HN hit a different same-named project), and self-run benchmarks only; reopen on traction or independent coverage"

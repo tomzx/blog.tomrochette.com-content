@@ -1,7 +1,7 @@
 ---
 title: Foremerge
 created: 2026-09-22
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, coordination, git-worktrees, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The author is Nick Woodhead, who built it as internal tooling at GPTree, a compa
 ## Status
 
 Active, young, and gaining traction fast.
-The repository was created 2026-08-21 and shows 538 stars and 25 forks as of 2026-10-11, pushed 2026-11-06 (GitHub API, as of 2026-11-07).
+The repository was created 2026-08-21 and shows 538 stars and 25 forks as of 2026-10-11, pushed 2026-11-07 (GitHub API, as of 2026-11-08).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=naw103/foremerge&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ My disagreeable claim: this is the missing layer the whole worktree-manager cate
 - 2026-10-07 - Added the naw103/foremerge star history chart to the Status section.
 - 2026-10-25 - Recorded v0.6.0 (2026-10-25) as the latest published release.
 - 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); v0.6.0 stands as the latest published release, with the push date refreshed to 2026-10-29.
+- 2026-11-08 - Rotation re-verification (every cited URL re-fetched live, including the founding post and the 45-point Show HN thread); v0.6.0 stands as the latest published release with the push date refreshed to 2026-11-07, the README status banner still reading 0.6.0 pre-1.0, and the stale release list in References extended to v0.6.0.
 
 ## See also
 
@@ -94,6 +95,6 @@ My disagreeable claim: this is the missing layer the whole worktree-manager cate
 - https://github.com/naw103/foremerge - repository, Apache-2.0, 522 stars, Rust, created 2026-08-21 (GitHub API, as of 2026-10-04)
 - https://raw.githubusercontent.com/naw103/foremerge/HEAD/README.md - protocol, scope vocabulary, status banner, and the deterministic no-LLM design
 - https://foremerge.com - official site: MCP tools, the intent lifecycle, semantic scopes, and the "what it does not claim" section
-- https://github.com/naw103/foremerge/releases - v0.4.3 (2026-09-18), v0.5.0 (2026-09-23), and v0.5.1 (2026-10-03) (GitHub API, fetched 2026-10-03)
+- https://github.com/naw103/foremerge/releases - v0.4.3 (2026-09-18), v0.5.0 (2026-09-23), v0.5.1 (2026-10-03), and v0.6.0 (2026-10-25) the latest (GitHub API, fetched 2026-10-03, re-fetched 2026-11-08)
 - https://naw103.substack.com/p/parallel-coding-agents-without-the - the founding post: the PaymentService failure, leased claims, verification gates, and limitations
 - https://hn.algolia.com/api/v1/items/49789356 - the 45-point Show HN thread (2026-09-21) with the determinism pushback and the author's answers

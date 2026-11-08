@@ -1,7 +1,7 @@
 ---
 title: hcom
 created: 2026-10-07
-updated: 2026-11-03
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, cli, messaging, multi-agent, terminals]
 readability: 3
@@ -68,6 +68,7 @@ Not for teams that need audit trails, review gates, or anything that survives th
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, releases, SECURITY.md, PyPI, HN item); claims hold, v0.7.31 (2026-10-21) still the latest release and push.
+- 2026-11-08 - Re-verified in rotation: all cited sources re-fetched and live (repo and README, SECURITY.md, releases through the GitHub API, PyPI 0.7.31, the 2-point HN thread); claims hold, v0.7.31 still the latest release, and the two stale release-version mentions in References corrected to v0.7.31.
 
 ## See also
 
@@ -79,7 +80,7 @@ Not for teams that need audit trails, review gates, or anything that survives th
 ## References
 
 - https://github.com/aannoo/hcom - the repository, README's CLI list and mechanism, stars, and license.
-- https://pypi.org/project/hcom/ - the PyPI package and its current 0.7.28 version.
+- https://pypi.org/project/hcom/ - the PyPI package and its current 0.7.31 version.
 - https://github.com/aannoo/hcom/blob/main/SECURITY.md - the security model behind the shared auth token.
-- https://github.com/aannoo/hcom/releases - the release list, v0.7.28 (2026-10-06) latest at verification.
+- https://github.com/aannoo/hcom/releases - the release list, v0.7.31 (2026-10-21) latest at verification (re-fetched through the GitHub API 2026-11-08).
 - https://news.ycombinator.com/item?id=47011053 - the 2-point February 2026 thread, the project's whole independent footprint.

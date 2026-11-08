@@ -1,7 +1,7 @@
 ---
 title: LoopTroop
 created: 2026-09-27
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, planning, worktrees, opencode]
 readability: 3
@@ -73,6 +73,7 @@ Not for anyone who needs multi-harness support, parallel tickets, or a mature to
 - 2026-10-07 - Added the looptroop-ai/LoopTroop star history chart to the Status section.
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo, site, docs, HN thread, openorchestrators.org); the commits-through date refreshed to 2026-10-26, v0.6.1 still latest.
 - 2026-11-01 - Recorded v0.6.2 (2026-10-30) as the latest release and pushes through 2026-11-01.
+- 2026-11-08 - Re-verified in rotation: all cited sources re-fetched and live (repo API, site, docs, openorchestrators.org, the Show HN thread at 2 points); claims hold, v0.6.4 (2026-11-06) still the latest release with commits through 2026-11-07 and a push on 2026-11-08.
 
 ## See also
 

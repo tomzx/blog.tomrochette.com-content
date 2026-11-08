@@ -1,7 +1,7 @@
 ---
 title: OpenCode Go
 created: 2026-09-26
-updated: 2026-10-29
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, open-models]
 readability: 3
@@ -15,14 +15,14 @@ OpenCode Go is a subscription from the OpenCode (Anomaly) team that bundles acce
 ## What it is
 
 Go sells model access, not an editor or a harness.
-You subscribe, copy an API key, and point any agent at OpenAI-compatible, Anthropic-compatible, or Responses endpoints under `opencode.ai/zen/go/v1`.
-The lineup is 30 curated coding models on the docs page as of 2026-10-29 (Grok 4.7, the GLM-5.3 and 5.2 lines, Kimi K3.1 Pro/K3/K2.7, Claude Haiku 5.5, Gemini 4 Argon at a 50% launch discount through November 30, the GPT 6 and 5.6 Luna pair, Qwen3.8, the DeepSeek V4 family, MiniMax M3 and M3.1, MiMo, LongCat-2.0, Hy3, Hy4 preview, and Step 5 Preview now paid), matching the product page's "View all 30 models" for the first time since September, with Beam Free and Iceman Contributor Free the current limited-time free models and only one member per workspace holding a personal subscription.
+You subscribe, copy an API key, and point any agent at OpenAI-compatible, Anthropic-compatible, or Responses endpoints under `opencode.ai/inference/go/...` (the docs' current bases, since the Console rename moved paths off `zen/`, with the older `zen/go/v1` URLs still accepted by third-party integrations).
+The lineup is 32 docs-listed models as of 2026-11-08 (Grok 4.7, the GLM-5.3 and 5.2 lines, Kimi K3.1 Pro/K3/K2.7, Claude Haiku 5.5, Gemini 4 Argon at a 50% launch discount through November 30, the GPT 6 and 5.6 Luna pair, Qwen3.8 Max/Flash and Qwen3.7 Plus, the DeepSeek V4 family, MiniMax M3 and M3.1, the MiMo-V2.5 and V2.6 lines, Muse Spark Contributor pairs, LongCat-2.0, Hy3, Hy4 and Hy4 preview, and Step 5 Preview paid) against the product page's "View all 31 models", with Crouton Alpha Free, Beam Free, and Iceman Contributor Free the current limited-time free models and only one member per workspace holding a personal subscription.
 
 ## Status
 
 Active and changing fast.
-The OpenCode repo shows about 208K GitHub stars on the product page footer as of 2026-10-11, and the plan has grown from a three-model Beta in March 2026 to 30 docs-listed models across three plans: Go $10, Go Plus $40, and Go Teams at $20 per member (added by the 2026-10-29 docs read, each member getting their own limits plus $5 more per model, and starting with Extra Usage on).
-Churn is constant: GPT 6 Luna arrived 2026-09-22, Kimi K3.1 Pro and Gemini 4 Argon joined by 2026-10-29, Space Bunny Free and Cat Jam Free have left, and the docs-versus-product-page model-count mismatch that ran since September closed at 30 on 30.
+The OpenCode repo shows about 208K GitHub stars on the product page footer as of 2026-10-11, and the plan has grown from a three-model Beta in March 2026 to 32 docs-listed models across three plans: Go $10, Go Plus $40, and Go Teams at $20 per member (added by the 2026-10-29 docs read, each member getting their own limits plus $5 more per model, and starting with Extra Usage on).
+Churn is constant: GPT 6 Luna arrived 2026-09-22, Kimi K3.1 Pro and Gemini 4 Argon joined by 2026-10-29, Hy4 joined as its own paid row and Crouton Alpha Free as a third stealth free model by 2026-11-08, Space Bunny Free and Cat Jam Free have left, and the docs-versus-product-page model-count mismatch that closed at 30 on 30 on 2026-10-29 reopened at 32 versus 31.
 **Go converts $10 into up to $60 of metered usage per month, Go Plus converts $40 into up to $180, and that ratio is the entire value proposition.**
 
 ## Strengths
@@ -43,12 +43,12 @@ Churn is constant: GPT 6 Luna arrived 2026-09-22, Kimi K3.1 Pro and Gemini 4 Arg
 
 ## Pricing
 
-Go: $10/month, cancel any time, re-verified 2026-10-29.
-Go Plus: $40/month, same models with 2x to 4x the per-model monthly dollar limits (Kimi K3 and K3.1 Pro and GPT 6 Luna $15 to $60, GLM-5.3-Flash and Kimi K2.7 Code $60 to $180, DeepSeek V4.1 Flash $80 to $160).
+Go: $10/month, cancel any time, re-verified 2026-11-08.
+Go Plus: $40/month, same models with 2x to 4x the per-model monthly dollar limits (Kimi K3 and K3.1 Pro and GPT 6 Luna $15 to $60, GLM-5.3-Flash and Kimi K2.7 Code $60 to $180, DeepSeek V4.1 Flash $100 to $200).
 Go Teams: $20 per member per month, every member carrying Go's 5-hour and weekly windows with a monthly limit $5 higher per model (Kimi K3 $20 versus Go's $15), and Extra Usage (overflow into the Zen balance) on by default.
-The catalog moved hard between the 2026-10-14 and 2026-10-29 reads: Kimi K3.1 Pro joined at $2/$10 per 1M tokens under the $15 monthly limit, Gemini 4 Argon joined at a 50% launch discount ($2/$10, struck from $4/$20, through November 30, 2026) with a $30 monthly limit, MiniMax M3.1 Flash, MiMo-V2.6 lines, and Qwen3.7 Plus appeared, Step 5 Preview turned paid at $1.00/$2.70 under a $15 limit, LongCat-2.0 replaced the LongCat 2.5 free preview at $0.30/$1.20, and Space Bunny Free and Cat Jam Free left the roster, taking the docs list from 33 entries to 30 and matching the product page's count for the first time since September.
-The docs also state DeepSeek's zero-retention agreement renews monthly and currently runs through October 31, 2026.
-Each model carries a monthly dollar limit on Go ($15 to $80, mostly $60, $15 for flagships), with windows at 20% per rolling 5 hours (so $12 on a $60 model), 50% weekly ($30), and 100% monthly.
+The catalog moved again between the 2026-10-29 and 2026-11-08 reads: Hy4 joined as its own paid row at $0.834/$2.501 per 1M tokens under a $60 monthly limit on Go ($240 Plus, $65 Teams), launched with a product-page banner, beside the retained Hy4 preview at the same rates under $30, and Crouton Alpha Free joined as a limited-time, region-limited stealth free model, taking the docs list from 30 to 32 entries while the product page reads 31.
+Each model carries a monthly dollar limit on Go ($15 to $100, mostly $60, $15 for flagships, DeepSeek V4.1 Flash the ceiling at $100), with windows at 20% per rolling 5 hours (so $12 on a $60 model), 50% weekly ($30), and 100% monthly.
+The docs also state DeepSeek's zero-retention agreement renews monthly and currently runs through November 30, 2026.
 Exceeded limits fall back to free models, or to your Zen balance if you enable it.
 Top-ups draw on the shared Zen balance, where card fees are passed at cost.
 
@@ -65,6 +65,7 @@ Top-ups draw on the shared Zen balance, where card fees are passed at cost.
 | 2026-10-10 | Catalog | Claude Haiku 5.5 added at $0.10/$0.50 per 1M tokens under 100K context with the $15 monthly limit, and Step 5 Preview Free added as a limited-time free model; docs list at 32 entries while the product page says 31 | https://opencode.ai/docs/go |
 | 2026-10-14 | Catalog | Cat Jam Free, a stealth model, joined as a third limited-time free model (free-period training disclosed per the privacy table); docs list at 33 entries while the product page says 32; $10/$40 tiers and every per-model dollar limit re-verified unchanged | https://opencode.ai/docs/go |
 | 2026-10-29 | Go Teams | Third plan added: $20 per member per month, each member carrying Go's 5-hour and weekly windows with a monthly limit $5 higher per model and Extra Usage on by default; Go and Go Plus prices unchanged | https://opencode.ai/docs/go |
+| 2026-11-08 | Catalog | Hy4 joined as its own paid model at $0.834/$2.501 per 1M tokens under a $60 monthly limit on Go ($240 Plus, $65 Teams) with a product-page launch banner, and Crouton Alpha Free joined as a limited-time, region-limited stealth free model; the docs list moved to 32 entries against the product page's 31, and DeepSeek V4.1 Flash's monthly limit read $100 on Go ($200 Plus) against the $80/$160 recorded 2026-10-29 | https://opencode.ai/docs/go |
 
 ## Compared to
 
@@ -91,6 +92,7 @@ My disagreeable claim: at roughly 50% usage Go is about break-even with direct A
 - 2026-10-11 - Docs re-check (last updated 2026-10-10): the 32-docs-versus-31-product-page mismatch and the $10/$40 tiers hold, Hermes and ZCode joined the validated-clients table, and the docs state DeepSeek's zero-retention agreement renews monthly (currently through October 31, 2026).
 - 2026-10-14 - Catalog check: Cat Jam Free joined as a third limited-time free model, moving the docs list to 33 entries against the product page's 32, with the free-period training disclosure added to the privacy table; the $10/$40 tiers and all per-model dollar windows re-verified unchanged; price history row appended.
 - 2026-10-29 - Rotation re-verification with a plan addition and heavy catalog churn: Go Teams joined at $20 per member per month (own limits plus $5 more per model, Extra Usage on by default), Kimi K3.1 Pro and Gemini 4 Argon (50% off through November 30) joined the catalog while Space Bunny Free and Cat Jam Free left and Step 5 Preview turned paid, the docs list settled at 30 entries matching the product page, and the DeepSeek zero-retention renewal statement still runs through October 31; every cited URL re-fetched live this run (the two Reddit threads stay search-read), price history row appended.
+- 2026-11-08 - Rotation re-verification with catalog churn: Hy4 joined as its own paid row at $0.834/$2.501 under a $60 Go monthly limit with a product-page launch banner, Crouton Alpha Free joined as a third limited-time stealth free model (region-limited, 30-day retention), the docs list moved to 32 entries against the product page's 31 (the 30-on-30 match lasted two weeks), the endpoint bases moved to opencode.ai/inference/go/... on the docs, DeepSeek V4.1 Flash's monthly limit read $100 on Go and $200 on Plus where the note carried $80/$160, and the DeepSeek zero-retention renewal statement moved to November 30, 2026; plan prices ($10/$40/$20 per member) and the 20%/50%/100% windows re-verified unchanged; price history row appended.
 
 ## See also
 
@@ -101,9 +103,9 @@ My disagreeable claim: at roughly 50% usage Go is about break-even with direct A
 
 ## References
 
-- https://opencode.ai/go - product page, two-tier $10/$40 framing, model snapshot, GitHub star count (200, 2026-09-29; re-fetched 2026-10-29 with "View all 30 models", the Kimi K3.1 Pro/Gemini 4 Argon/Claude Haiku 5.5/Beam/Iceman New badges, and the Go $10/Go Plus $40 cards, the FAQ carrying the 20%/50%/100% windows and the DeepSeek October 31 renewal statement).
-- https://opencode.ai/docs/go - full model/limit table for all three tiers, 20%/50%/100% windows, validated clients, header requirements (200, 2026-09-29, last updated 2026-10-10, re-fetched 2026-10-11 and 2026-10-14 with the Cat Jam Free row present; re-fetched 2026-10-29 with the Go Teams plan, the 30-model list, Kimi K3.1 Pro and Gemini 4 Argon rows, and Beam Free/Iceman Contributor Free as the limited-time free models).
-- https://codingplan.org/en/plans/opencode-go - $5 first-month promo removal on 2026-08-24, catalog churn timeline (200; re-fetched 2026-10-29, still showing its 2026-09-24 snapshot of 32 models with Space Bunny Free and no Go Plus, so it lags the official pages by a month).
-- https://help.apiyi.com/en/opencode-go-subscription-worth-it-review-en.html - March 2026 Beta state, dollar-window mechanics, critical take (200; re-fetched 2026-10-29, unchanged Beta-era content, cited as the historical baseline).
-- https://www.reddit.com/r/opencode/comments/1w9pyvq/opencode_go_is_no_longer_general_api_access/ - community reaction to session-header requirement (direct fetch 403; content read via search).
-- https://www.reddit.com/r/opencodeCLI/comments/1tqx9u1/why_opencode_gos_deepseek_v4_pro_is_33_cheaper/ - full-usage price math vs DeepSeek API (content read via search).
+- https://opencode.ai/go - product page, two-tier $10/$40 framing, model snapshot, GitHub star count (200, 2026-09-29; re-fetched 2026-10-29 with "View all 30 models", the Kimi K3.1 Pro/Gemini 4 Argon/Claude Haiku 5.5/Beam/Iceman New badges, and the Go $10/Go Plus $40 cards, the FAQ carrying the 20%/50%/100% windows and the DeepSeek October 31 renewal statement; re-fetched 2026-11-08 with "View all 31 models", a "Hy4 is now available in Go" banner and Hy4 row, the Crouton Alpha Free sample row, and the Go $10/Go Plus $40 cards unchanged).
+- https://opencode.ai/docs/go - full model/limit table for all three tiers, 20%/50%/100% windows, validated clients, header requirements (200, 2026-09-29, last updated 2026-10-10, re-fetched 2026-10-11 and 2026-10-14 with the Cat Jam Free row present; re-fetched 2026-10-29 with the Go Teams plan, the 30-model list, Kimi K3.1 Pro and Gemini 4 Argon rows, and Beam Free/Iceman Contributor Free as the limited-time free models; re-fetched 2026-11-08 with the 32-entry list, the Hy4 and Crouton Alpha Free rows, endpoints under opencode.ai/inference/go/..., DeepSeek V4.1 Flash limits at $100/$200/$105, and the DeepSeek zero-retention renewal through November 30, 2026).
+- https://codingplan.org/en/plans/opencode-go - $5 first-month promo removal on 2026-08-24, catalog churn timeline (200; re-fetched 2026-10-29, still showing its 2026-09-24 snapshot of 32 models with Space Bunny Free and no Go Plus, so it lags the official pages by a month; re-fetched 2026-11-08, snapshot unchanged).
+- https://help.apiyi.com/en/opencode-go-subscription-worth-it-review-en.html - March 2026 Beta state, dollar-window mechanics, critical take (200; re-fetched 2026-10-29, unchanged Beta-era content, cited as the historical baseline; re-fetched 2026-11-08, unchanged).
+- https://www.reddit.com/r/opencode/comments/1w9pyvq/opencode_go_is_no_longer_general_api_access/ - community reaction to session-header requirement (direct fetch 403 again 2026-11-08; content read via search).
+- https://www.reddit.com/r/opencodeCLI/comments/1tqx9u1/why_opencode_gos_deepseek_v4_pro_is_33_cheaper/ - full-usage price math vs DeepSeek API (content read via search; direct fetch 403 again 2026-11-08).

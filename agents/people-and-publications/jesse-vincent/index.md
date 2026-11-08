@@ -1,7 +1,7 @@
 ---
 title: Jesse Vincent
 created: 2026-09-24
-updated: 2026-10-29
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, agentic-engineering, skills, tdd]
 readability: 3
@@ -29,6 +29,7 @@ The newest post, "A quick trip to the uncanny valley" (2026-10-02), opens yet an
 "Today at work" (2026-10-05) continues the Sen thread from the inside, a first-person account of managing AI colleagues after one merged to main a little too quickly against his review advice.
 The anniversary post, "What a year" ([2026-10-09](https://blog.fsck.com/2026/10/09/what-a-year/), the one-year anniversary of his last hand-written line of code), releases Superpowers 7.0 with a rebuilt brainstorming experience, and reports the suite approaching 300,000 GitHub stars (12th most-starred project on GitHub, per that post), the number-one third-party Claude Code plugin with over 1.1 million installs, and 50 million clones every two weeks from 1.95 million unique IPs, all as of that post; his takeaway holds that process management still beats unsupervised models even as harnesses improved.
 The newest post since, "Picks and Shovels" ([2026-10-11](https://blog.fsck.com/2026/10/11/picks-and-shovels/), fetched this run), is the practice as a toy: he gave Claude Opus 5.5 full autonomy to build a browser game about the AI industry for picksandshovels.org from a short prompt he publishes in full, with the result open at obra/picksandshovels.
+The 7.0 line keeps shipping while the blog sits quiet: patch releases v7.0.1 (2026-10-21) and v7.0.2 (2026-11-03) followed on the repo, and nothing newer than "Picks and Shovels" has appeared as of 2026-11-08 (homepage and repo releases fetched this run).
 Third-party pull is visible: HN threads recommend Superpowers as the fix for bad agent experiences, Willison cites it as the reference implementation of TDD-with-agents, OpenAI's Codex announcements were read as bundling it, and orchestration stacks like metaswarm declare it, alongside Yegge's beads, an essential foundation.
 
 ## Strengths
@@ -78,6 +79,7 @@ Not for token-budget-tight users, TDD-averse codebases, or readers who want mini
 - 2026-10-10 - Added his 2026-10-09 anniversary post "What a year" (Superpowers 7.0's rebuilt brainstorming experience, plus the approaching-300k-stars, 1.1M-installs, and 50M-clones-per-fortnight claims) to Status and References (URL and blog homepage fetched this run); blog count refreshed to 545.
 - 2026-10-25 - Added his 2026-10-11 post "Picks and Shovels" (the Claude Opus 5.5 full-autonomy game build for picksandshovels.org) to Status and References (URL fetched this run); blog count refreshed to 546.
 - 2026-10-29 - Homepage check found no post newer than the 2026-10-11 "Picks and Shovels" (fetched this run); added the Pricing section the note format mandates.
+- 2026-11-08 - Rotation re-verification, every cited URL re-fetched (the two GitHub HTML pages return 504 from this environment, both verified live via the GitHub API the same run): no blog post newer than the 2026-10-11 "Picks and Shovels", and the Superpowers 7.0 patch train recorded in Status (v7.0.1 on 2026-10-21, v7.0.2 on 2026-11-03, per the repo's releases fetched this run).
 
 ## See also
 
@@ -97,6 +99,7 @@ Not for token-budget-tight users, TDD-averse codebases, or readers who want mini
 - https://blog.fsck.com/2026/10/09/what-a-year/ - the one-year anniversary post: Superpowers 7.0, the rebuilt brainstorming flow, and the star, install, and clone figures (as of 2026-10-09)
 - https://blog.fsck.com/2026/08/21/i-vibe-coded-a-c-compiler/ - the autonomous C-compiler experiment grounding his long-horizon loop practice
 - https://github.com/obra/superpowers - the repo: MIT license, 295.1k stars and 26.4k forks as of 2026-10-04, 683 commits, 16 documented harness installs, commercial support, and telemetry disclosure
+- https://github.com/obra/superpowers/releases - the release history grounding the 7.0 patch train: v7.0.0 (2026-10-10), v7.0.1 (2026-10-21), v7.0.2 (2026-11-03), verified via the GitHub API this run after the HTML page returned 504 from this environment
 - https://en.wikipedia.org/wiki/Jesse_Vincent - biography: RT, Best Practical, Perl roles, K-9 Mail, Keyboardio, Prime Radiant CEO, and the SKILL.md-before-Anthropic timeline
 - https://hn.algolia.com/api/v1/search?query=jesse%20vincent%20superpowers&hitsPerPage=8 - third-party reception: HN recommendations, the Superpowers 6 thread, metaswarm's reliance on it, and Willison citing it as the TDD reference
 - https://blog.fsck.com/2026/09/29/I-asked-muse-to-tell-me-about-updates-to-its-skills/ - the 2026-09-29 post on exploring the Muse agent and automating daily skill snapshots

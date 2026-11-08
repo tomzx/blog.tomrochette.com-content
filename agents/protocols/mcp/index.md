@@ -1,7 +1,7 @@
 ---
 title: Model Context Protocol (MCP)
 created: 2026-08-24
-updated: 2026-11-06
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, agent-tools]
 readability: 3
@@ -36,6 +36,7 @@ The specification repository shows about 9.4k stars (2026-10-10) and roughly 4,9
 The AAIF announcement claimed more than 10,000 published MCP servers and adoption by Claude, Cursor, Microsoft Copilot, Gemini, VS Code, and ChatGPT.
 In this index, [Claude Code](../../harnesses/claude-code/index.md), [Cursor](../../surfaces/cursor/index.md), [VS Code Copilot](../../surfaces/vscode-copilot/index.md), [Gemini CLI](../../harnesses/gemini-cli/index.md), and [Crush](../../harnesses/crush/index.md) all speak it.
 Governance is now neutral, with AWS, Anthropic, Block, Bloomberg, Cloudflare, Google, Microsoft, and OpenAI as AAIF platinum members.
+The official TypeScript SDK split into a 2.x package line on 2026-10-23 (`@modelcontextprotocol/client`, `server`, and `core` at 2.4.0 on npm, with a codemod for the migration) while the legacy `@modelcontextprotocol/sdk` package stays on the 1.x line (1.32.2), so consumers now choose between the old package and the restructured one.
 
 ## Strengths
 
@@ -77,6 +78,7 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live with no dead sources, and the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft; the commits since 2026-10-24 are docs and working-group housekeeping).
 - 2026-11-04 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the commits since 2026-10-31 are the blog's post-list redesign and dependency bumps.
 - 2026-11-06 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch has no commits since 2026-11-04, with the repository's pushed date moved by a side-branch push.
+- 2026-11-08 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and schema fixes since 2026-11-06 (the authorization guide reworked for the 2026-07-28 revision, the Skills specification links pointed at specification/beta/, a working-group contribution policy); recorded the official TypeScript SDK's 2.x package line (client, server, and core at 2.4.0 on npm since 2026-10-23, legacy `@modelcontextprotocol/sdk` staying at 1.32.2).
 
 ## See also
 
@@ -94,3 +96,5 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 - https://www.anthropic.com/news/model-context-protocol - launch announcement (2024-11-25) and named creators
 - https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/ - Linux Foundation donation, member roster, 10,000+ server claim
 - https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks - the tool poisoning and rug pull critique
+- https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/v2.4.0 - the TypeScript SDK's 2.x package line (client, server, core at 2.4.0) and the migration codemod (fetched 2026-11-08)
+- https://registry.npmjs.org/@modelcontextprotocol/core - the 2.x core package on npm, latest 2.4.0 published 2026-10-23 (fetched 2026-11-08)
