@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -164,6 +164,7 @@ A harness that adopts the open conventions is making a promise about your exit; 
 - 2026-11-04 - Link re-verification: every cited external link re-fetched (sixteen of eighteen fetched 200, Bloomberg and devops.com again 403 to scripted fetches), the DeepSeek Harness line's newest prerelease re-verified unchanged (still dsh-v0.2.2-alpha.3, published 2026-11-03), the Gemini CLI enterprise-docs stamp re-verified unchanged (still 2026-10-26 with the same banner), and the Cursor pricing page re-read with the X-bundle plans unchanged; no fact moved, so the intro's verification date holds at 2026-11-03.
 - 2026-11-05 - Link re-verification: every cited external link re-fetched (sixteen of eighteen fetched 200, Bloomberg and devops.com again 403 to scripted fetches), the DeepSeek Harness line's newest prerelease moved to dsh-v0.2.2-rc.1 (published 2026-11-04, the 0.2.2 train's first release candidate rolling up its alphas), the Gemini CLI enterprise-docs stamp re-verified unchanged (still 2026-10-26 with the same banner), and the Cursor pricing page re-read with the X-bundle plans unchanged; the OpenAI shutoff of Cursor's model access still pending (dated November 12).
 - 2026-11-07 - Link re-verification: every cited external link re-fetched (sixteen of eighteen fetched 200, Bloomberg and devops.com again 403 to scripted fetches, both GitHub topic pages included with no 429s), the DeepSeek Harness line's newest prerelease re-verified unchanged (still dsh-v0.2.2-rc.1, published 2026-11-04), the Gemini CLI enterprise-docs stamp re-verified unchanged (still 2026-10-26 with the same banner), and the Cursor pricing page re-read with the X-bundle plans unchanged and the sold-only-through-X-Subscription-Corp line still on the page; no fact moved, so the intro's verification date holds at 2026-11-05.
+- 2026-11-08 - Link re-verification: every cited external link re-fetched (sixteen of eighteen fetched 200, Bloomberg and devops.com again 403 to scripted fetches), the DeepSeek Harness line's newest prerelease re-verified unchanged through the release API (still dsh-v0.2.2-rc.1, published 2026-11-04, nothing after it), the Gemini CLI enterprise-docs stamp re-verified unchanged (still 2026-10-26 with the same banner), and the Cursor pricing page re-read with the X-bundle plans unchanged and the sold-only-through-X-Subscription-Corp line still on the page; the OpenAI shutoff still pending (dated November 12); no fact moved, so the intro's verification date holds at 2026-11-05.
 
 ## See also
 

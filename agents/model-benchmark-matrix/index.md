@@ -1,7 +1,7 @@
 ---
 title: "Model Benchmark Matrix"
 created: 2026-09-24
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, comparison, benchmarks, evaluation, model-selection]
 readability: 3
@@ -119,6 +119,7 @@ When two boards rank the same models differently, the gap tells you where the mo
 - 2026-11-04 - Link re-verification: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims), Terminal-Bench still at 4.0 on its homepage, and the intro as-of re-dated.
 - 2026-11-05 - Link re-verification: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims), Terminal-Bench still at 4.0 on its homepage, and the intro as-of re-dated.
 - 2026-11-07 - Link re-verification: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims), Terminal-Bench still at 4.0 on its homepage, and the intro as-of left at 2026-11-05 since no fact moved.
+- 2026-11-08 - Link re-verification: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims), Terminal-Bench still at 4.0 on its homepage, and the intro as-of left at 2026-11-05 since no fact moved.
 
 ## See also
 

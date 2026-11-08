@@ -1,7 +1,7 @@
 ---
 title: CodeNomad
 created: 2026-10-11
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, opencode, desktop, session-cockpit, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The CodeNomad Server (`npx @neuralnomads/codenomad`) serves the same workspace f
 
 **Active on a daily train, young, and without independent coverage.**
 2,625 stars, 176 forks, and 15 open issues and pull requests as of 2026-10-16 (GitHub API), created 2025-11-01, pushed 2026-10-27.
-Stable v1.0.0 (2026-10-24) shipped on top of the `v1.0.0-dev` train that began October 20, ending the 0.20.x line: the 1.0 notes headline Missions (OpenCode-native coordinators delegating to specialists through native sessions and subagents, with five approaches including a blind two-model comparison), visual automation (agents inspecting and operating CodeNomad and desktop browser previews to check what they build), native plugins and RPC reaching full-history search and timeline navigation beyond the public API, a new hexagon logo, and signed Tauri updates; stable v1.0.1 (October 29) followed, removing the twenty-missions-per-project limit with storage limits per mission, adding relevance-ranked search across a project's history, and fixing stale transcripts after dropped connections plus Linux AppImage display and F11 problems, with the daily dev train re-tagged v1.0.1-dev above it (builds daily through November 7).
+Stable v1.0.0 (2026-10-24) shipped on top of the `v1.0.0-dev` train that began October 20, ending the 0.20.x line: the 1.0 notes headline Missions (OpenCode-native coordinators delegating to specialists through native sessions and subagents, with five approaches including a blind two-model comparison), visual automation (agents inspecting and operating CodeNomad and desktop browser previews to check what they build), native plugins and RPC reaching full-history search and timeline navigation beyond the public API, a new hexagon logo, and signed Tauri updates; stable v1.0.1 (October 29) followed, removing the twenty-missions-per-project limit with storage limits per mission, adding relevance-ranked search across a project's history, and fixing stale transcripts after dropped connections plus Linux AppImage display and F11 problems, with the daily dev train re-tagged v1.0.1-dev above it (builds daily through November 8).
 The server package drew 881 npm downloads in the month ending 2026-11-07 (dated-range query; the month ending 2026-10-18 read 1,112).
 A Hacker News search returns no story about the project (2026-10-11, re-run 2026-11-07 with the same absence), only substring matches, so the footprint is GitHub-side.
 
@@ -86,6 +86,6 @@ My disagreeable claim: two serious cockpits around one harness is the correct ma
 - https://github.com/NeuralNomadsAI/CodeNomad - repository facts: 2,625 stars, 176 forks, MIT, created 2025-11-01, pushed 2026-10-16 (GitHub API, as of 2026-10-16), re-fetched 2026-11-07 (pushed 2026-11-07, not archived)
 - https://raw.githubusercontent.com/NeuralNomadsAI/CodeNomad/main/README.md - the feature set, OpenCode V2 version contract (2.1.2 minimum, 2.2.1 recommended on the current main), SideCars, remote control, and install paths (fetched 2026-10-11, re-fetched 2026-11-07)
 - https://raw.githubusercontent.com/NeuralNomadsAI/CodeNomad/main/packages/server/README.md - the server mode: remote access, authentication, prerequisites, deployment model
-- https://api.github.com/repos/NeuralNomadsAI/CodeNomad/releases - stable v1.0.1 (2026-10-29, the mission-limit removal, ranked history search, and the Linux fixes) after stable v1.0.0 (2026-10-24, Missions, visual automation, native plugins and RPC, OpenCode 2.1.2 minimum and 2.1.4 recommended at release) after v0.20.1 (2026-10-03), with the daily dev train continuing as v1.0.1-dev-* through November 7 (re-fetched 2026-11-07)
+- https://api.github.com/repos/NeuralNomadsAI/CodeNomad/releases - stable v1.0.1 (2026-10-29, the mission-limit removal, ranked history search, and the Linux fixes) after stable v1.0.0 (2026-10-24, Missions, visual automation, native plugins and RPC, OpenCode 2.1.2 minimum and 2.1.4 recommended at release) after v0.20.1 (2026-10-03), with the daily dev train continuing as v1.0.1-dev-* through November 8 (re-fetched 2026-11-08)
 - https://api.npmjs.org/downloads/point/2026-10-08:2026-11-07/@neuralnomads/codenomad - 881 downloads in the dated month ending 2026-11-07 (the month ending 2026-10-18 read 1,112 and the month ending 2026-10-10 read 1,267)
 - https://hn.algolia.com/api/v1/search?query=CodeNomad&tags=story - the footprint scan finding no dedicated story (2026-10-11, re-fetched 2026-11-07)

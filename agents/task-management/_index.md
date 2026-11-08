@@ -8,7 +8,7 @@ tags: [agents, task-management]
 readability: 3
 ---
 
-Where agent work gets planned and tracked: markdown-native trackers, graph-backed issue databases, event-sourced Git trackers, local-first daemon ledgers, self-hosted team platforms, agent-first cloud boards, knowledge-vault systems, forge-native skills that run the pipeline on GitHub Issues, and the pipelines that turn PRDs into typed tasks.
+Where agent work gets planned and tracked: markdown-native trackers, graph-backed issue databases, event-sourced Git trackers, local-first daemon ledgers, a Rust single-binary board with live sharing, self-hosted team platforms, agent-first cloud boards, knowledge-vault systems, forge-native skills that run the pipeline on GitHub Issues, and the pipelines that turn PRDs into typed tasks.
 
 - [Agent Kanban](agent-kanban/index.md) - the source-available Cloudflare task board whose assignee cannot accept its own review, with claims bound to verified agent sessions.
 - [AgentRQ](agentrq/index.md) - the AGPL self-hosted realtime human-in-the-loop task board agents work over MCP, supervised from phone, web, desktop, and a Chrome extension, about 1.2k stars.
@@ -20,6 +20,7 @@ Where agent work gets planned and tracked: markdown-native trackers, graph-backe
 - [Epiq](epiq/index.md) - the Git-native event-sourced issue tracker whose replayable log turns unattended agent sprints into auditable history, with MCP, a skill file, and per-agent identities.
 - [It's a Plan](its-a-plan/index.md) - the self-hosted AGPL tracker where agents hold assignee slots on the team board, with MCP, schedules, and an external runner for coding CLIs.
 - [kanban-md](kanban-md/index.md) - the single-binary markdown kanban whose expiring claim leases make a file board safe to share between parallel agents.
+- [Kanzo](kanzo/index.md) - the AGPL Rust single-binary whose browser board and ten-tool MCP server share one SQLite store, with live LAN sharing and waits-on dependencies instead of claims.
 - [Kata](kata/index.md) - the local-first Go daemon ledger that answers agent queries in milliseconds, with atomic claims, evidence-based closes, and hooks for 18 harnesses.
 - [Operon](operon/index.md) - the Obsidian plugin that makes the vault the task store, with agent writes landing only through receipted sealed plans.
 - [Ordewell](ordewell/index.md) - the CLI that turns one goal into typed plan artifacts with per-task runners and models, verified by an explicit tool call rather than the model's word.
@@ -49,3 +50,4 @@ Its members are compared on shared rows in the [Task Management Feature Matrix](
 - 2026-10-13 - Added AgentRQ.
 - 2026-10-23 - Added CCPM.
 - 2026-10-28 - Added Automaker.
+- 2026-11-08 - Added Kanzo.

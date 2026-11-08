@@ -1,7 +1,7 @@
 ---
 title: "Context Management Patterns"
 created: 2026-08-24
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash]
 readability: 3
@@ -121,6 +121,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - 2026-11-04 - Link check: all nine cited pages fetched 200, the compaction-survival, skill-cap, idle-compaction, and v2.1.304 claims re-checked against the live context-window page with nothing to correct, and the intro as-of left at 2026-11-03 since no fact moved.
 - 2026-11-05 - Link check: all nine cited pages fetched 200, the compaction-survival, skill-cap, idle-compaction, v2.1.304, and /autocompact claims re-checked against the live context-window page with nothing to correct, and the intro as-of left at 2026-11-03 since no fact moved.
 - 2026-11-07 - Link check: all nine cited pages fetched 200, the compaction-survival, skill-cap, idle-compaction, v2.1.304, and /autocompact claims re-checked against the live context-window page with nothing to correct, and the intro as-of left at 2026-11-03 since no fact moved.
+- 2026-11-08 - Link check: all nine cited pages fetched 200, the compaction-survival, skill-cap, idle-compaction, v2.1.304, and /autocompact claims re-checked against the live context-window page with nothing to correct, and the intro as-of left at 2026-11-03 since no fact moved.
 
 ## See also
 

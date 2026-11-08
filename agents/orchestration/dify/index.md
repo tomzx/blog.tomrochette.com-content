@@ -24,6 +24,7 @@ The repo sits at 158,517 stars with 25,044 forks, created 2023-04-12 (GitHub API
 ## Status
 
 Active: last push 2026-11-08, latest release 1.19.0 on 2026-11-04 after 1.18.0 on 2026-10-23 and four months on 1.17.1 (2026-09-10) before that (GitHub API, as of 2026-11-08).
+1.19.0 ships nested workflow tracing that follows executions into the Workflow Tools they call, Workflow Tools made portable inside `.ifpkg` app packages, batch agent file uploads, and workspace skill management through OpenAPI and the difyctl CLI (1.19.0 release notes, as of 2026-11-08).
 Its 2024 HN launch drew 185 points, and the community has kept growing since.
 The category context is the risk: Flowise's shutdown discussion argued that capable coding agents are eroding the rigid low-code workflow approach, and that argument applies to every member of the genre, Dify included.
 
@@ -78,6 +79,8 @@ Not for coordinating parallel coding agents, and not for multi-tenant SaaS build
 - 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository, pricing page with Professional $590 and Team $1,590 per workspace per year unchanged, docs, modified-Apache LICENSE, releases still topping at 1.17.1, the 185-point launch thread).
 - 2026-10-31 - Re-verified in rotation: all cited sources re-fetched and live (repository pushed 2026-10-31, pricing page still $590 and $1,590 per workspace per year, license, docs, the 1.18.0 release line, the launch thread).
 - 2026-11-04 - Recorded 1.19.0 (2026-11-04) as the latest release, the push date refreshed to 2026-11-04.
+- 2026-11-08 - Fully re-verified out of rotation on the 1.19.0 signal: all cited sources re-fetched and live (repository pushed 2026-11-08, pricing page still $590 and $1,590 per workspace per year annual, license, docs, the 185-point launch thread).
+- 2026-11-08 - Recorded 1.19.0's material capabilities in Status from the release notes: nested workflow tracing, portable Workflow Tools in `.ifpkg` app packages, batch agent file uploads, and skill management through OpenAPI and difyctl.
 
 ## See also
 
@@ -93,5 +96,6 @@ Not for coordinating parallel coding agents, and not for multi-tenant SaaS build
 - https://dify.ai/pricing - pricing page (200): Professional $590 and Team $1590 per workspace per year, annual billing
 - https://docs.dify.ai - official documentation, live (200)
 - https://raw.githubusercontent.com/langgenius/dify/main/LICENSE - license text (200): modified Apache 2.0 with multi-tenant commercial conditions
-- https://api.github.com/repos/langgenius/dify/releases/latest - releases API (200): 1.17.1, published 2026-09-10
+- https://api.github.com/repos/langgenius/dify/releases/latest - releases API (200): 1.19.0, published 2026-11-04
+- https://api.github.com/repos/langgenius/dify/releases/tags/1.19.0 - 1.19.0 release notes (200): nested workflow tracing, portable Workflow Tools (.ifpkg package format v2), batch agent file uploads, six difyctl skill commands
 - https://hn.algolia.com/api/v1/items/40121318 - launch thread (200): 185 points, 38 comments, 2024-04-22

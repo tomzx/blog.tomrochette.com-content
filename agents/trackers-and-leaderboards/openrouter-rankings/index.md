@@ -1,7 +1,7 @@
 ---
 title: OpenRouter Rankings
 created: 2026-09-24
-updated: 2026-10-28
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, usage, market-share, open-data]
 readability: 3
@@ -16,9 +16,9 @@ OpenRouter Rankings ranks models by the tokens actually processed through the Op
 
 ## What it is
 
-A rankings surface inside openrouter.ai, the LLM gateway founded in early 2023 that claims 700T+ monthly tokens (as of 2026-10-28, raised from 500T+), 10M+ users, 80+ providers, and 500+ models.
+A rankings surface inside openrouter.ai, the LLM gateway founded in early 2023 that claims 700T+ monthly tokens (raised from 500T+ in October 2026), 10M+ users, 80+ providers, and 600+ models (as of 2026-11-08; the catalog claim read 500+ at this note's creation).
 The page states plainly what it does not measure: "They do not rank models by accuracy, reasoning ability, or benchmark performance", and it excludes private requests while bucketing usage into daily UTC aggregates per model variant.
-Views include top models (today, week, month), top models by task share of spend, cost per session for coding agents, market share by model author, fastest models, and top apps (Hermes Agent, Claude Code, and Kilo Code led in tokens as of 2026-10-11).
+Views include top models (today, week, month, each with a text summary of the board), top models by task share of spend, cost per session for coding agents, an open-versus-closed weekly token split that excludes stealth models, a benchmarks view keyed to the Artificial Analysis Intelligence Index, market share by model author, fastest models, and top apps (Hermes Agent, Claude Code, and Kilo Code led in tokens as of 2026-10-11).
 Data access is unusually open: rankings are CC BY 4.0 with a required citation format, and the Data API serves `rankings-daily` (top 50 public models per day, history back to 2025-01-01, 30 requests/minute, live-updating) to any inference key.
 
 ## Status
@@ -27,7 +27,8 @@ Fresh and commercially central: the page showed "Usage data through Oct 15, 2026
 The 2026-10-16 snapshot closes the anonymous-demand episode this note has been tracking: Space Bunny Alpha and its unnamed Stealth author have dropped out of the weekly token leaders entirely, leaving DeepSeek V4.1 Flash first at 37.1T weekly tokens (up 51 percent week over week on the 10-11 reading), Step 5 Preview second at 19.5T, GLM 5.3 Flash third at 12.9T, and MiMo-V2.6-Flash fourth at 11.2T.
 The underlying gateway is a top-of-category business: $113M Series B led by CapitalG in May 2026 at a reported $1.3B valuation, then an announced acquisition by Stripe on August 19, 2026 at a reported price above $7B, with the company claiming 10T+ tokens per day.
 Its numbers are routinely quoted as market signal in press and on HN, and OpenRouter itself turned the dataset into research (a 100T-token empirical study that drew 207 points on HN).
-The 2026-10-28 rotation re-fetch found the rankings page again client-rendered with no data-through date readable (the figures above stand as of 2026-10-16), the Stripe-announcement page still promising closure "in the coming weeks" more than two months after the announcement, and the gateway's blog carrying no rankings-relevant news beyond the gateway's own product posts (a CSAM-screening policy post on October 27 and private endpoints on October 14).
+The 2026-11-08 rotation re-fetch found the page rendering server-side, ending the client-shell obstacle that blocked the 2026-10-28 fetch: a readable "Usage data through Nov 7, 2026" stamp (a one-day lag), text summaries of the today, week, and month boards, and a week board led by DeepSeek V4.1 Flash 1017 at 56T weekly tokens (up 17 percent), with DeepSeek V4.1 Flash second at 17.7T, GLM 5.3 Flash third at 13.5T, and Tencent Hy4 fourth at 10.1T (new to the leaders), and the month board led by the same DeepSeek 1017 release at 135T.
+The Stripe acquisition remains an open clock: the announcement page still expects closure "in the coming weeks" nearly three months after the announcement, so the provenance caution below stands, and the about page's catalog claim moved to 600+ models.
 
 ## Strengths
 
@@ -68,6 +69,7 @@ My disagreeable claim: this is the most misused ranking in the category, cited a
 - 2026-10-11 - Recorded the unwind continuing (Space Bunny Alpha from second to fourth on the weekly board at 10.9T tokens, down 70 percent, behind DeepSeek V4.1 Flash at 38.7T, GLM 5.3 Flash at 11.6T, and MiMo-V2.6-Flash at 11.3T, while its author held 10.5 percent of weekly requests) and refreshed the volatile coverage line (data through Oct 10; Kilo Code moved to third among top apps, Codex to sixth).
 - 2026-10-16 - Recorded the unwind completing: Space Bunny Alpha and its unnamed Stealth author are out of the weekly token leaders, with DeepSeek V4.1 Flash first at 37.1T, Step 5 Preview second at 19.5T, GLM 5.3 Flash third at 12.9T, and MiMo-V2.6-Flash fourth at 11.2T (data through Oct 15); the Stealth author's request share was not readable this run because the market-share view renders client-side.
 - 2026-10-28 - Rotation re-verification with every cited URL re-fetched live: the rankings page again rendered client-side with no data-through date readable (figures stand as of 2026-10-16), the about page's monthly-token claim raised to 700T+ (from 500T+), and the Data API docs, the Series B and Stripe-announcement posts (the latter still promising closure in the coming weeks), the TechCrunch report, the free-tier distortion analysis, and all three HN threads re-verified unchanged.
+- 2026-11-08 - Rotation re-verification with every cited URL re-fetched live: the rankings page now renders server-side with a readable "Usage data through Nov 7, 2026" stamp and text summaries of the today, week, and month boards (the client-shell obstacle of the 2026-10-28 fetch is gone), the week board reading DeepSeek V4.1 Flash 1017 first at 56T tokens (up 17 percent), DeepSeek V4.1 Flash second at 17.7T, GLM 5.3 Flash third at 13.5T, and Tencent Hy4 fourth at 10.1T (new to the leaders), the month board led by the same DeepSeek 1017 release at 135T, the about page's catalog claim raised to 600+ models (from 500+) with an open-versus-closed weekly token split and a benchmarks view added to the page, and the Stripe-announcement page still expecting closure "in the coming weeks" nearly three months after the announcement.
 
 ## See also
 
@@ -80,13 +82,13 @@ My disagreeable claim: this is the most misused ranking in the category, cited a
 
 ## References
 
-- https://openrouter.ai/rankings - methodology, caveats, windows, top apps, CC BY 4.0 note, data-through date (fetched 200, 2026-09-24; re-fetched 200, 2026-10-16, data through Oct 15, weekly tokens led by DeepSeek V4.1 Flash at 37.1T, Step 5 Preview 19.5T, GLM 5.3 Flash 12.9T, MiMo-V2.6-Flash 11.2T, Space Bunny Alpha out of the leading names; re-fetched 2026-10-28, client-rendered shell again with no data readable; the market-share figures render client-side and were not readable on either re-fetch)
-- https://openrouter.ai/docs/cookbook/administration/data-api - Data API endpoints, limits, citation format, dataset history from 2025-01-01 (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28, unchanged)
-- https://openrouter.ai/about - company scale claims and founding date (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28, monthly tokens now 700T+)
-- https://openrouter.ai/blog/announcements/series-b/ - $113M Series B and investors, May 2026 (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28, unchanged)
-- https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/ - the Stripe acquisition announcement, August 2026 (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28, unchanged, still expecting closure in the coming weeks)
-- https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/ - the reported price and valuation (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28, live)
-- https://minimaxir.com/2026/05/openrouter-hy3/ - the free-tier distortion analysis behind the Hy3 rank (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28, unchanged)
-- https://news.ycombinator.com/item?id=48317294 - the HN thread questioning free-driven ranks (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28, live)
-- https://news.ycombinator.com/item?id=48330499 - the "market signal" counterpoint (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28, live)
-- https://news.ycombinator.com/item?id=46154022 - the 100T-token study showing the dataset's research use (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28, live)
+- https://openrouter.ai/rankings - methodology, caveats, windows, top apps, CC BY 4.0 note, data-through date (fetched 200, 2026-09-24; re-fetched 200, 2026-10-16, data through Oct 15, weekly tokens led by DeepSeek V4.1 Flash at 37.1T, Step 5 Preview 19.5T, GLM 5.3 Flash 12.9T, MiMo-V2.6-Flash 11.2T, Space Bunny Alpha out of the leading names; re-fetched 2026-10-28, client-rendered shell again with no data readable; re-fetched 200, 2026-11-08, server-rendered with data through Nov 7 and the week board led by DeepSeek V4.1 Flash 1017 at 56T)
+- https://openrouter.ai/docs/cookbook/administration/data-api - Data API endpoints, limits, citation format, dataset history from 2025-01-01 (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28 and 2026-11-08, unchanged)
+- https://openrouter.ai/about - company scale claims and founding date (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28, monthly tokens now 700T+; re-fetched 200, 2026-11-08, model catalog claim now 600+)
+- https://openrouter.ai/blog/announcements/series-b/ - $113M Series B and investors, May 2026 (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28 and 2026-11-08, unchanged)
+- https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/ - the Stripe acquisition announcement, August 2026 (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28; re-fetched 200, 2026-11-08, still expecting closure in the coming weeks)
+- https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/ - the reported price and valuation (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28 and 2026-11-08, live)
+- https://minimaxir.com/2026/05/openrouter-hy3/ - the free-tier distortion analysis behind the Hy3 rank (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28 and 2026-11-08, unchanged)
+- https://news.ycombinator.com/item?id=48317294 - the HN thread questioning free-driven ranks (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28 and 2026-11-08, live)
+- https://news.ycombinator.com/item?id=48330499 - the "market signal" counterpoint (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28 and 2026-11-08, live)
+- https://news.ycombinator.com/item?id=46154022 - the 100T-token study showing the dataset's research use (fetched 200, 2026-09-24; re-fetched 200, 2026-10-28 and 2026-11-08, live)
