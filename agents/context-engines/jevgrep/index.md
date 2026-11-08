@@ -1,7 +1,7 @@
 ---
 title: Jevgrep
 created: 2026-10-07
-updated: 2026-11-05
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, cli, open-source]
 readability: 3
@@ -27,7 +27,7 @@ The MIT-licensed CLI ships from David Zhang (dzhng), the engineer behind deep-re
 ## Status
 
 **Not yet three weeks old and the fastest start in this category, with a thin discussion footprint so far.**
-2,726 stars as of 2026-10-18, 242 forks and 11 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-11-04, counts as of 2026-11-05 (GitHub API).
+2,726 stars as of 2026-10-18, 245 forks and 10 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-11-07, counts as of 2026-11-08 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dzhng/jevgrep&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,8 @@ The MIT-licensed CLI ships from David Zhang (dzhng), the engineer behind deep-re
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=dzhng/jevgrep&type=date&legend=top-left" />
 </picture>
 
-The npm package `@dzhng/jevgrep` sits at v0.8.5 (published 2026-10-18, still latest as of 2026-11-05) across 20 releases, with 22,007 trailing-month downloads summed for 2026-10-06 to 2026-11-05 (nine zero days in the window); the 0.8.1-to-0.8.5 train streamed discovery scoring, made repeated searches reproducible, added a `--no-locations` output flag, fixed quadratic parser paths, treats resource limits as partial success, and shows terminal search progress.
+The npm package `@dzhng/jevgrep` sits at v0.8.5 (published 2026-10-18, still latest as of 2026-11-08) across 20 releases, with 23,041 trailing-month downloads summed for 2026-10-08 to 2026-11-08 (six zero days in the window); the 0.8.1-to-0.8.5 train streamed discovery scoring, made repeated searches reproducible, added a `--no-locations` output flag, fixed quadratic parser paths, treats resource limits as partial success, and shows terminal search progress.
+Main's unreleased 2026-11-07 work is repo-side, not CLI-side: a find-state-machines skill installed with refactor-clean pointed at it and every vendored skill linked into `.claude/skills`.
 Its Show HN (2026-09-28) drew 5 points and zero comments, so adoption is running on the author's reputation and the skill distribution rather than discussion.
 The earlier run that rejected this repository as a harness candidate recorded it three days into its life; the star count and a proper category fit resolved it as a note this run.
 
@@ -79,6 +80,7 @@ My disagreeable claim: every index in this category is a cache standing in front
 - 2026-10-20 - Recorded the train reaching v0.8.5 (20 releases; resource limits as partial success, terminal search progress) and the push date.
 - 2026-10-26 - Full rotation re-verification: every cited URL re-fetched (repo, README, skill, CLI README, npm registry, downloads, releases, the Show HN item, deep-research, and the author profile all intact); trailing-month npm downloads refreshed to 24,293 (2026-09-23 to 2026-10-22), about double the prior figure.
 - 2026-11-05 - Full rotation re-verification: every cited URL re-fetched (repo, README, skill, CLI README, npm registry, downloads, releases, the Show HN item, deep-research, and the author profile all intact); no release since v0.8.5, trailing-month npm downloads refreshed to 22,007 (2026-10-06 to 2026-11-05), activity counts refreshed to 2026-11-05.
+- 2026-11-08 - Recorded main's unreleased 2026-11-07 repo-side skill work (a find-state-machines skill installed with refactor-clean pointed at it, vendored skills linked into `.claude/skills`) and refreshed the volatile numbers (245 forks, 10 open issues and pull requests, pushed 2026-11-07, 23,041 trailing-month npm downloads summed 2026-10-08 to 2026-11-08); npm unchanged at v0.8.5.
 
 ## See also
 
@@ -94,8 +96,8 @@ My disagreeable claim: every index in this category is a cache standing in front
 - https://raw.githubusercontent.com/dzhng/jevgrep/main/README.md - architecture, benchmark tables with per-run caveats, privacy and caching notes
 - https://raw.githubusercontent.com/dzhng/jevgrep/main/skills/jevgrep/SKILL.md - the agent skill surface and the grep-for-exact-symbols division of labor
 - https://raw.githubusercontent.com/dzhng/jevgrep/main/apps/cli/README.md - auth flow, supported providers, `jg doctor`, cache controls
-- https://registry.npmjs.org/@dzhng%2Fjevgrep - the package, v0.8.5 latest, 20 versions since 2026-09-26 (re-fetched 2026-11-05)
-- https://api.npmjs.org/downloads/range/2026-10-06:2026-11-05/@dzhng/jevgrep - 22,007 downloads summed for 2026-10-06 to 2026-11-05, nine zero days in the window (fetched 2026-11-05)
+- https://registry.npmjs.org/@dzhng%2Fjevgrep - the package, v0.8.5 latest, 20 versions since 2026-09-26 (re-fetched 2026-11-08)
+- https://api.npmjs.org/downloads/range/2026-10-08:2026-11-08/@dzhng/jevgrep - 23,041 downloads summed for 2026-10-08 to 2026-11-08, six zero days in the window (fetched 2026-11-08)
 - https://github.com/dzhng/jevgrep/releases - the release train; the newest GitHub release object is v0.8.0 (2026-10-01) while the npm train runs to v0.8.5 (re-fetched 2026-11-05)
 - https://news.ycombinator.com/item?id=49880146 - the Show HN: 5 points, zero comments, 2026-09-28 (verified via the Algolia items API, re-fetched 2026-10-18)
 - https://api.github.com/repos/dzhng/deep-research - the author's track record: 19,764 stars on deep-research as of 2026-10-07

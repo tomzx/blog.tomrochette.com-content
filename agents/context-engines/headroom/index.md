@@ -1,7 +1,7 @@
 ---
 title: Headroom
 created: 2026-10-07
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, token-optimization]
 readability: 3
@@ -23,9 +23,9 @@ The docs' reproducible benchmarks (seeded, generated from MCP output formats, gp
 
 ## Status
 
-Active and compounding fast: created 2026-01-07, 75,468 stars as of 2026-10-18 and 6,173 forks in ten months as of 2026-11-06, PyPI package at 0.43.1 (2026-11-05) across 206 releases, 147,968 npm downloads summed for 2026-10-07 to 2026-11-06 (eight zero days in the window).
+Active and compounding fast: created 2026-01-07, 75,468 stars as of 2026-10-18 and 6,184 forks as of 2026-11-08, PyPI package at 0.43.1 (2026-11-05) across 206 releases, 171,340 npm downloads summed for 2026-10-08 to 2026-11-08 (six zero days in the window).
 Release v0.41.0 (2026-10-14) added a native Google Antigravity IDE integration, OpenCode 2.x plugin-API support, and the headroom-snip Claude Code mod, the proxy gained turn hooks that rewrite OpenAI Responses requests on HTTP and WebSocket (2026-10-17), release v0.42.0 (2026-10-26) shipped those hooks plus per-request saved-token counts on OutcomeSnapshot and the same tool-savings reporting on the gateway /v1/compress endpoint as the proxy path, and the v0.43 pair (both 2026-11-05) ported the MCP servers to SDK 2.x as a breaking change, answered `headroom_retrieve` on streaming chat completions, added a headroom skill plugin for Claude Code, Codex, Copilot and skills.sh, and put model-routing savings into `headroom savings`, with v0.43.1 fixing a CCR order-queue eviction and a memory-schema key.
-Main's unreleased 2026-11-06 to 11-07 fix batch follows: Vertex onboarding failures explained in-band with a `[vertex]` backend extra, doctor matching IPv6 and case-variant loopback URLs, a Hugging Face tokenizer fix for the BatchEncoding return shape that had silently reverted every compression on HF-tokenized models such as DeepSeek, chatgpt-4o tokenizer aliases resolving to o200k_base, hardening of the learn analyzer against malformed LLM JSON, and proxy forwarding that drops response headers named by Connection.
+Main's unreleased 2026-11-08 batch follows: `headroom wrap droid` adding Factory Droid as a sixteenth wrapped agent, a model-router shadow mode (`HEADROOM_MODEL_ROUTER_LOG_ONLY`) and unified multi-upstream routing for Anthropic Cloud and local oMLX, per-request `cost_usd` in `/stats` recent requests, shared Redis store availability in `/health` and `/metrics`, DeepSeek reported as its own provider, cumulative output tokens carried in savings history checkpoints, Bedrock AWS credentials refreshed before expiry, and `max_body_bytes` applied to the chat completions and responses routes, on top of the 2026-11-06 to 11-07 fix batch (Vertex onboarding failures explained in-band, doctor IPv6 and loopback matching, the Hugging Face tokenizer fix that had silently reverted compression on HF-tokenized models, and Connection-named response-header dropping).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=headroomlabs-ai/headroom&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ The HN footprint is modest for the star count (three submissions, the largest at
 
 - The benchmark corpus is generated and seeded rather than production telemetry, and the docs say so; treat the percentages as reproducible upper references, not guarantees for your workload.
 - AST-aware code compression is opt-in and off by default, so the default code path is less aggressive than the headline suggests.
-- 445 open issues and pull requests as of 2026-10-18 had shrunk to 318 by 2026-11-06, but ten months of explosive growth still signals support strain.
+- 445 open issues and pull requests as of 2026-10-18 had shrunk to 262 by 2026-11-08, but ten months of explosive growth still signals support strain.
 - A compression layer in the hot path is one more thing that can be wrong subtly, and the correctness of what survives compression is exactly as good as the statistical heuristics.
 - An anonymous telemetry beacon is on by default; it reports compression ratios, counters, and provider and model IDs, never prompts or code, and turns off with `HEADROOM_BEACON=off`, `HEADROOM_TELEMETRY=off`, `DO_NOT_TRACK=1`, or `HEADROOM_OFFLINE=1`, but default-on phoning home is a fact to weigh before adopting.
 
@@ -75,6 +75,7 @@ Not as a substitute for retrieval quality (compressing bad context makes bad con
 - 2026-10-27 - Recorded release v0.42.0 (2026-10-26: the OpenAI Responses turn hooks released, per-request saved tokens on OutcomeSnapshot, and the gateway /v1/compress endpoint reporting the same tool savings as the proxy path), with the PyPI package at 0.42.0; the stars figure keeps its 2026-10-18 as-of date.
 - 2026-11-06 - Full rotation re-verification: every cited URL re-fetched (repository page and README, docs, PyPI, npm range, the HN thread, and the GitHub API all intact, the compression table and seeded benchmark rows unchanged); recorded the v0.43 pair (both 2026-11-05: the breaking MCP SDK 2.x port, `headroom_retrieve` answered on streaming chat completions, a headroom skill plugin for Claude Code, Codex, Copilot and skills.sh, model-routing savings in `headroom savings`, and two CCR and memory fixes in v0.43.1) with PyPI at 0.43.1 across 206 releases; recorded the README's new output-shaper surface (opt-in verbosity steering on what the model writes back, with counterfactual estimated savings and a holdout-measured mode) and its default-on anonymous telemetry beacon with documented opt-outs; refreshed the volatile numbers (6,173 forks, 318 open issues and pull requests, pushed 2026-11-06, 147,968 npm downloads summed for 2026-10-07 to 2026-11-06, eight zero days in the window); the stars figure keeps its 2026-10-18 as-of date.
 - 2026-11-07 - Recorded main's unreleased 2026-11-06 to 11-07 fix batch (in-band Vertex failure diagnostics plus a `[vertex]` backend extra, doctor IPv6 and case-variant loopback matching, the HF BatchEncoding token-count fix for silently reverted compression on HF-tokenized models, chatgpt-4o tokenizer aliases, learn-analyzer JSON hardening, Connection-named response-header dropping); no release since v0.43.1.
+- 2026-11-08 - Recorded main's unreleased 2026-11-08 batch (`headroom wrap droid` adding Factory Droid as a sixteenth wrapped agent, the model-router shadow mode and unified Anthropic Cloud plus local oMLX routing, per-request `cost_usd` in `/stats`, Redis store health and metrics, DeepSeek as its own provider, cumulative output tokens in savings checkpoints, Bedrock credential refresh, `max_body_bytes` on chat routes) and refreshed the volatile numbers (6,184 forks, 262 open issues and pull requests, pushed 2026-11-08, 171,340 npm downloads summed for 2026-10-08 to 2026-11-08); no release since v0.43.1, so the sixteenth wrap target is unreleased.
 
 ## See also
 
@@ -88,7 +89,7 @@ Not as a substitute for retrieval quality (compressing bad context makes bad con
 - https://github.com/headroomlabs-ai/headroom - repository, Apache-2.0 license, deployment surfaces, the agent wrap list, and the CCR store (fetched 200, 2026-10-18)
 - https://api.github.com/repos/headroomlabs-ai/headroom - stars, forks, open issues, created date, and push date for the as-of status (fetched 200, 2026-10-18)
 - https://docs.headroomlabs.ai/docs - the compression table by content type, the seeded benchmark table with its own caveats, and the framework integrations (fetched 200, 2026-10-18)
-- https://pypi.org/pypi/headroom-ai/json - the published package version 0.43.1 across 206 releases (fetched 200, 2026-11-06)
-- https://api.npmjs.org/downloads/range/2026-10-07:2026-11-06/headroom-ai - 147,968 downloads summed for 2026-10-07 to 2026-11-06, eight zero days in the window (fetched 2026-11-06)
+- https://pypi.org/pypi/headroom-ai/json - the published package version 0.43.1 across 206 releases (fetched 200, re-fetched 2026-11-08)
+- https://api.npmjs.org/downloads/range/2026-10-08:2026-11-08/headroom-ai - 171,340 downloads summed for 2026-10-08 to 2026-11-08, six zero days in the window (fetched 2026-11-08)
 - https://api.github.com/repos/headroomlabs-ai/headroom/releases?per_page=6 - the release train: v0.43.0 and v0.43.1 both published 2026-11-05 (fetched 2026-11-06)
 - https://hn.algolia.com/api/v1/items/48999841 - the largest Headroom thread, 10 points, July 2026, grounding the modest-HN-footprint observation (fetched 200, 2026-10-18)

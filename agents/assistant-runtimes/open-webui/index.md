@@ -1,7 +1,7 @@
 ---
 title: Open WebUI
 created: 2026-09-27
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, self-hosting, rag, licensing]
 readability: 3
@@ -25,7 +25,7 @@ The ecosystem now includes a native desktop app, an Open Terminal sandboxed exec
 
 ## Status
 
-Very active and huge for the category: 155,578 stars and 22,676 forks as of 2026-10-14, created 2023-10-06, 187 open issues with the last push on 2026-11-07 as of 2026-11-07.
+Very active and huge for the category: 155,578 stars and 22,676 forks as of 2026-10-14, created 2023-10-06, 180 open issues with the last push on 2026-11-08 as of 2026-11-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=open-webui/open-webui&type=date&theme=dark&legend=top-left" />

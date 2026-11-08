@@ -1,7 +1,7 @@
 ---
 title: AgentField
 created: 2026-10-13
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, identity, policy-enforcement, receipts, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The governance layer is the differentiator: tag-based access policies (function-
 
 ## Status
 
-Active and funded: 2,611 stars and 430 forks as of 2026-10-13, with 33 open issues and the last push on 2026-11-06 as of 2026-11-07, repository created 2025-11-05 (the company organization in March 2025).
+Active and funded: 2,611 stars and 430 forks as of 2026-10-13, with 30 open issues and the last push on 2026-11-07 as of 2026-11-08, repository created 2025-11-05 (the company organization in March 2025).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Agent-Field/agentfield&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and funded: 2,611 stars and 430 forks as of 2026-10-13, with 33 open issu
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Agent-Field/agentfield&type=date&legend=top-left" />
 </picture>
 
-The release train left release candidates on 2026-10-24: v0.1.143 is the first stable tag and PyPI published agentfield 0.1.143 the same day, after 0.1.142 (2026-10-19) had been its first non-rc upload and every prior tag an rc; it has since tagged v0.1.145 stable (2026-10-27, PyPI in step) and kept the candidate line running through v0.1.146-rc.18 by 2026-11-06 with PyPI holding at 0.1.145.
+The release train left release candidates on 2026-10-24: v0.1.143 is the first stable tag and PyPI published agentfield 0.1.143 the same day, after 0.1.142 (2026-10-19) had been its first non-rc upload and every prior tag an rc; it has since tagged v0.1.145 stable (2026-10-27, PyPI in step) and kept the candidate line running through v0.1.146-rc.20 (2026-11-07, release-commit tags only) with PyPI holding at 0.1.145.
 The founders are Oktay Goktas and Santosh Kumar Radha, the team behind Agnostiq (acquired by DataRobot in 2025) and Covalent, with Panache Ventures, Brightspark Ventures, and Drive Capital listed as partners, so this is a funded company's open-source product rather than a weekend project.
 **The community footprint is thin for the star count: a Hacker News search returns zero relevant threads, and the one independent writeup I found is a single Medium post, so the adoption evidence is the star count, the contributor count, and the vendor's own case studies (a 10,000-branch deep-research fan-out, a 250-agent security audit, both self-reported) rather than public technical debate.**
 

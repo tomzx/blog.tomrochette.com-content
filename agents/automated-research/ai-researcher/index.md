@@ -1,7 +1,7 @@
 ---
 title: AI-Researcher
 created: 2026-10-11
-updated: 2026-10-25
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, paper-generation, hkuds, open-source]
 readability: 3
@@ -66,6 +66,7 @@ Not for anyone needing a runnable, maintained system: the repository is a year d
 
 - 2026-10-11 - Created.
 - 2026-10-25 - Rotation re-verification: confirmed dormancy (last push still 2025-10-16), the missing license file, and the no-threads Hacker News footprint, and sharpened the NeurIPS 2025 result to Spotlight per the README's September 2025 news entry.
+- 2026-11-08 - Rotation re-verification: all six references re-fetched and live, dormancy (last push still 2025-10-16) and the missing license file both confirmed.
 
 ## See also
 

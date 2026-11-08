@@ -1,7 +1,7 @@
 ---
 title: AIDE ML
 created: 2026-10-11
-updated: 2026-10-23
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, machine-learning-engineering, tree-search, open-source]
 readability: 3
@@ -68,6 +68,7 @@ Not for production ML engineering: the README itself routes that to the Weco pro
 - 2026-10-13 - Recorded the repository's October 12 return (a depth-limit debug-parent fix, its first commit since September 3) and refreshed the counts.
 - 2026-10-17 - Recorded the October 16 CVE-driven datasets dependency upgrade and the October 13 configurable-provider-models commit in the status line.
 - 2026-10-23 - Harmonized the cautions line's star figure (1,568 against the status line's 1,576) to the status baseline.
+- 2026-11-08 - Rotation re-verification: all six references re-fetched and live, PyPI still at 0.2.2, and the repository quiet since the October 16 dependency upgrade.
 
 ## See also
 

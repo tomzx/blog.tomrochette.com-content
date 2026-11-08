@@ -1,7 +1,7 @@
 ---
 title: AutoKernel
 created: 2026-10-23
-updated: 2026-10-26
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, gpu, kernel-optimization, autoresearch]
 readability: 3
@@ -24,7 +24,7 @@ Nine kernel types ship as starters (matmul, softmax, layernorm, rmsnorm, flash a
 
 ## Status
 
-Active: 1,603 stars, 163 forks, 16 open issues, created 2026-03-11, last pushed 2026-10-23, as of 2026-10-23.
+Active on a side branch, quiet on main: 1,603 stars, 163 forks, 16 open issues as of 2026-10-23, created 2026-03-11; the default branch has not moved since 2026-03-19, and the recent pushes (October 23, then November 5) landed on the autokernel/blackwell side branch, whose November 5 tip hardens decode_step against truncated streams and labels unproven exact-B results as such, as of 2026-11-08.
 There are no git tags or GitHub releases; the README's own changelog runs v1.0.0 through v1.3.0 (the latest adding AMD ROCm support for MI300X-class GPUs and a batch of correctness fixes).
 The launch thread reached 47 points and 10 comments on Hacker News on 2026-03-11, and the authors' paper (arXiv 2603.21331, March 2026) reports H100 results of 5.29x over PyTorch eager on RMSNorm and 2.82x on softmax, ahead of `torch.compile` max-autotune on most tested configurations, as of 2026-10-23.
 
@@ -73,6 +73,7 @@ Not for production performance work that needs speedups validated against CUTLAS
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light-theme source carried the dark-theme parameter; it now points at the default chart).
+- 2026-11-08 - Rotation re-verification: all seven references re-fetched and live (one API retry passed a rate limit), and the liveness signal corrected per the default-branch rule: the October 23 and November 5 pushes were side-branch commits on autokernel/blackwell (tip November 5, decode_step stream handling), while the default branch has been quiet since 2026-03-19.
 
 ## See also
 

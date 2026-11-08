@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [agents]
 readability: 0
@@ -13,6 +13,11 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 
 ## Scope rulings
 
+- 2026-11-08 | automated-research | the 2026-10-29 InternAgent insertion also transposed the Lean row, shifting Harmonic Aristotle's Yes onto InternAgent, and the 2026-11-07 column fix wrongly recorded that row as unaffected because its two adjacent cells both read as plausible No cells | found by re-checking every non-No cell in the row against member notes; adjacent near-identical cells hide transpositions from both count-based and plausibility-based checks, so the one-distinctive-cell rule needs a distinctive cell per row, not per sampled row
+- 2026-11-08 | automated-research | a third credible autoresearch list appeared (handsome-rich/Awesome-Auto-Research-Tools, 41 projects) and stays unwired pending q26's ruling on the two existing autoresearch lists | microsoft/RD-Agent (15,281 stars, MIT, pushed 2026-10-21) is the head candidate if wired
+- 2026-11-08 | assistant-runtimes | openhuman reads 42,588 stars on 2026-11-08, about +10 in one day (the slowing trend continuing) against OpenClaw's 394,164 | the q13 OpenClaw-class scale trigger stays unfired, openhuman held
+- 2026-11-08 | code-review | the vendor-run kodustech/awesome-ai-code-review list stays unwired as a mapped source; the category stays on broad sources | staleness re-confirmed 2026-11-08 (pushed_at still 2026-06-28, 54 stars) and a dedicated-list search surfaced nothing credible (the nearest by name, joho/awesome-code-review at 5,180 stars, is dormant since 2024-09 and a general resources list rather than AI-specific; the rest are single skills or sub-55-star lists); evidence update for open q21
+- 2026-11-08 | control-planes | a matrix column insertion can drop a cell in one row while every row keeps a matching cell count, so alignment is checked by reading each cell against its column header by position, not by row cell count alone | the Current status row had held Tracekit's cell in TinyAGI's slot and two Vestige cells since the 2026-11-05 Speakeasy Gram insertion, found and fixed this run
 - 2026-11-07 | spec-driven-development | a language attribution read from default-branch language stats re-opens when the project's own release notes contradict it; the CLI source branch outranks the stats-only read | archcore's 10-27 TypeScript correction flipped back to Go on the v0.15.3 release notes ("move the CLI to Go 1.26.10 and Charm v2"), the README Go 1.26+ badge, and the dev-branch tree (328 Go files), main carrying only the plugins and docs
 - 2026-11-07 | task-management | the dedicated-list check found no credible task-management-specific list for the third consecutive run, and its incidental candidates routed out on standing rulings | subsy/ralph-tui (2,461 stars, MIT, active) rejected as Ralph-loop wrapper tooling on the 2026-10-28 ruling, orchestration-kind; Nimbalyst (2,036 stars) report-only to cross-category as a visual multi-agent workspace
 - 2026-11-07 | task-management | q24 evidence refreshed: no independent adoption or third-party coverage surfaced for TomzxCode/agentic (0 forks, 0 open issues, the coverage search returning only the owner's own sites) | the rejection stands, the owner-tools exception question stays open

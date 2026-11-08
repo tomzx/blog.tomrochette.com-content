@@ -1,7 +1,7 @@
 ---
 title: OpenQodex
 created: 2026-10-11
-updated: 2026-11-05
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -35,7 +35,7 @@ v0.16.0 (October 28, 2026, the 19th npm version) links JUnit 4 and JUnit 5 test 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openqodex/openqodex&type=date&legend=top-left" />
 </picture>
 
-npm reports 4,533 downloads in the week of October 6 to 12, 2026, a figure that fell to 1,918 for October 12 to 18 and again to 1,112 for October 16 to 22, then ticked up to 1,158 for October 20 to 26, 1,227 for October 24 to 30, and 1,276 for October 25 to 31 as first read (1,471 after npm's backfill, re-read 2026-11-05), with 8,244 over the trailing month to November 5 (npm API as of 2026-11-05); I lean on the trailing-month window for adoption after the finding that the weekly figure carries zero-day gaps, and the release train shipped four CLI versions in the four days to October 10 plus a benchmark-data release.
+npm reports 4,533 downloads in the week of October 6 to 12, 2026, a figure that fell to 1,918 for October 12 to 18 and again to 1,112 for October 16 to 22, then ticked up to 1,158 for October 20 to 26, 1,227 for October 24 to 30, and 1,276 for October 25 to 31 as first read (1,471 after npm's backfill, re-read 2026-11-05), with 8,281 over the trailing month to November 8 (npm API as of 2026-11-08); I lean on the trailing-month window for adoption after the finding that the weekly figure carries zero-day gaps, and the release train shipped four CLI versions in the four days to October 10 plus a benchmark-data release.
 The first independent coverage arrived on October 11, 2026, and it cut both ways: a Hacker News post (6 points) complains about a new open-source reviewer advertised on X as a CodeRabbit killer, evaluates OpenQodex as that tool, and publishes an open eval harness alongside the results.
 In it, OpenQodex found 31 percent of the known bugs, the lowest recall of the four configurations tested (the poster's own reviewer 36 to 38 percent with 91 to 96 percent of findings judged genuine, Greptile 69 percent at 68 percent), with OpenQodex at 86 percent of its findings judged genuine.
 
@@ -85,6 +85,7 @@ My disagreeable take: the completeness contract is the actual invention here, be
 - 2026-10-30 - Volatile re-verification: recorded openqodex@0.16.0 (October 28, the 19th npm version): JUnit 4 and 5 test-method linking in the Java graph, method references and anonymous and local class bodies followed, and possible issues shown separately and never counted toward the verdict; npm reads 1,227 for October 24 to 30 and 8,685 over the trailing month to October 30, now the adoption window.
 - 2026-11-01 - Volatile re-verification: the push moved to November 1 with openqodex@0.16.0 still the latest release, and the HN search still returns no new OpenQodex story beyond the October 11 eval thread; npm reads 1,276 for October 25 to 31 and 8,890 over the trailing month to November 1, now the adoption window.
 - 2026-11-05 - Volatile re-verification: pushed_at moved to November 5 on side-branch pushes while main's latest commit stays November 1, openqodex@0.16.0 still the latest release; npm's backfill raised the October 25 to 31 week from 1,276 to 1,471 and the trailing month reads 8,244 to November 5, now the adoption window.
+- 2026-11-08 - Volatile re-verification: pushed_at moved to November 8 while main's latest commit stays November 7 (the scrub-list-path merge), openqodex@0.16.0 still the latest release; npm reads 8,281 over the trailing month to November 8, now the adoption window.
 
 ## See also
 
@@ -96,13 +97,13 @@ My disagreeable take: the completeness contract is the actual invention here, be
 
 ## References
 
-- https://github.com/openqodex/openqodex - repo facts: 574 stars, 38 forks, Apache-2.0, created 2026-10-02 (GitHub API, as of 2026-10-11; re-queried 2026-10-22, 2026-10-24, 2026-10-26, 2026-10-27, 2026-10-30, 2026-11-01, and 2026-11-05: pushed_at 2026-11-05, main's latest commit 2026-11-01)
+- https://github.com/openqodex/openqodex - repo facts: 574 stars, 38 forks, Apache-2.0, created 2026-10-02 (GitHub API, as of 2026-10-11; re-queried 2026-10-22, 2026-10-24, 2026-10-26, 2026-10-27, 2026-10-30, 2026-11-01, 2026-11-05, and 2026-11-08: pushed_at 2026-11-08, main's latest commit 2026-11-07)
 - https://raw.githubusercontent.com/openqodex/openqodex/HEAD/README.md - the scanner-then-separate-reviewer mechanism, the completeness contract, the 22 scanners, and the candid limitations list, re-fetched 2026-10-22 (unchanged)
 - https://qodex.ai/openqodex - the product page: the separate-reviewer thesis, the hosted-Qodex split, the no-telemetry and nothing-open-becomes-paid pledges, San Francisco address, fetched 2026-10-11, re-fetched 2026-10-22 (unchanged)
 - https://registry.npmjs.org/openqodex - 19 versions, openqodex@0.16.0 latest (published 2026-10-28), package created 2026-10-02 (npm registry, fetched 2026-10-11, re-fetched 2026-10-22, 2026-10-24, 2026-10-27, and 2026-10-30)
 - https://api.npmjs.org/downloads/point/2026-10-25:2026-10-31/openqodex - the week of 2026-10-25 to 10-31, fetched as an explicit dated window (fetched 2026-11-01 at 1,276, re-fetched 2026-11-05 at 1,471 after npm's backfill; 1,227 for 10-24 to 10-30, 1,158 for 10-20 to 10-26, 1,918 for 10-12 to 10-18, 1,112 for 10-16 to 10-22, and 4,533 for 10-06 to 10-12 on earlier fetches)
-- https://api.npmjs.org/downloads/point/2026-10-06:2026-11-05/openqodex - 8,244 downloads over the trailing month, 2026-10-06 to 11-05, the adoption window (fetched 2026-11-05 as an explicit dated window; 8,890 to 11-01, 8,685 to 10-30, 7,739 to 10-26, and 6,941 to 10-22 on earlier fetches)
-- https://api.github.com/repos/openqodex/openqodex/releases - the release train: v0.9.0 through v0.12.0 in the four days to October 10, plus a benchmark-data release, v0.13.0 on October 15, v0.14.0 on October 23, openqodex@0.15.0 on October 26, and openqodex@0.16.0 on October 28 (fetched 2026-10-11, re-fetched 2026-10-13, 2026-10-16, 2026-10-22, 2026-10-24, 2026-10-27, 2026-10-30, 2026-11-01, and 2026-11-05, openqodex@0.16.0 still latest)
+- https://api.npmjs.org/downloads/point/2026-10-06:2026-11-05/openqodex - 8,244 downloads over the trailing month, 2026-10-06 to 11-05, the adoption window (fetched 2026-11-05 as an explicit dated window; 8,890 to 11-01, 8,685 to 10-30, 7,739 to 10-26, and 6,941 to 10-22 on earlier fetches; re-read 2026-11-08 as an updated window, 2026-10-09 to 11-08, at 8,281)
+- https://api.github.com/repos/openqodex/openqodex/releases - the release train: v0.9.0 through v0.12.0 in the four days to October 10, plus a benchmark-data release, v0.13.0 on October 15, v0.14.0 on October 23, openqodex@0.15.0 on October 26, and openqodex@0.16.0 on October 28 (fetched 2026-10-11, re-fetched 2026-10-13, 2026-10-16, 2026-10-22, 2026-10-24, 2026-10-27, 2026-10-30, 2026-11-01, 2026-11-05, and 2026-11-08, openqodex@0.16.0 still latest)
 - https://hn.algolia.com/api/v1/search?query=openqodex&tags=story - the HN search that first surfaced independent coverage: the October 11 slop-software post naming the tool (queried 2026-10-13, re-queried 2026-10-22 and 2026-11-01, no new OpenQodex story)
 - https://hn.algolia.com/api/v1/items/50043719 - the first independent eval thread, October 11, 2026: OpenQodex at 31 percent recall and 86 percent of findings judged real, last of four configurations (fetched 2026-10-13, re-fetched 2026-10-22, unchanged at 6 points)
 - https://github.com/theonly1me/shadowclone/tree/main/evals/code-review - the poster's public eval harness and results behind the comparison (fetched 2026-10-13, re-fetched 2026-10-22, results page unchanged)

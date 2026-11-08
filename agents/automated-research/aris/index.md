@@ -1,7 +1,7 @@
 ---
 title: ARIS
 created: 2026-10-10
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, agentic-llm, machine-learning, open-source, skills]
 readability: 3
@@ -73,6 +73,7 @@ Not for anyone who needs a machine verifier behind results, a small inspectable 
 - 2026-10-10 - Created.
 - 2026-10-21 - Rotation re-verification: counted the main-branch skill set at 85 (from 82), recorded the October additions (the lean-formalize skill, the Grok and Gemini/Antigravity reviewer bridges, selectable reviewers, citation-crosscheck, bounded fan-out rules), moved the last push to October 20, and noted the report's Hugging Face #1 Paper of the Day badge.
 - 2026-10-25 - Volatile re-verification: recorded the two new community search skills (keenable-search and firecrawl-search, lifting the mainline count from 85 to 87), the October 24 OpenAI model-defaults refresh, and the push-date move to October 24.
+- 2026-11-08 - Rotation re-verification: all eight references re-fetched and live (one API retry passed a rate limit), the skills directory still 91 raw entries (87 carrying SKILL.md by the counting rule), v0.4.28 still the latest release, and no default-branch commit after the November 6 WeChat refresh.
 
 ## See also
 

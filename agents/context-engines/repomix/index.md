@@ -1,7 +1,7 @@
 ---
 title: Repomix
 created: 2026-08-24
-updated: 2026-11-06
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-packing, open-source, developer-tools]
 readability: 3
@@ -28,7 +28,8 @@ It is built by Kazuki Yamada (yamadashy), sponsored by Warp and CodeRabbit.
 ## Status
 
 **Active and quietly massive.**
-28k stars (28,814), 1.6k forks, and 4,649 commits on GitHub (stars and forks as of 2026-10-18, commits as of 2026-10-22), plus 361,723 npm downloads in the trailing month (2026-10-07 to 2026-11-06, summed from the range endpoint, eight zero days in the window, fetched 2026-11-06), with v1.18.1 still the latest release (2026-09-21).
+28k stars (28,814) and 1.6k forks on GitHub (as of 2026-10-18), 4,889 commits as of 2026-11-08, and 392,525 npm downloads in the trailing month (2026-10-09 to 2026-11-08, summed from the range endpoint, six zero days in the window, fetched 2026-11-08).
+Release v1.19.0 (2026-11-08, after 48 days at v1.18.1) moved the MCP server to the TypeScript SDK v2 negotiating the 2026-07-28 protocol, with a clean exit when the client closes stdin and an install roughly halved (171 to 84 packages), added progress notifications and cancellation for long packs (`pack_codebase`, `pack_remote_repository`, and `generate_skill`; sandbox progress messages carry the stage name only, never a host path), and fixed a set of `--compress` accuracy bugs exposed by golden tests for every supported language, alongside a round of first-time-contributor fixes.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=yamadashy/repomix&type=date&theme=dark&legend=top-left" />
@@ -82,6 +83,7 @@ My disagreeable claim: for small and mid repos, a Repomix pack plus a good model
 - 2026-10-07 - Added the yamadashy/repomix star history chart to the Status section.
 - 2026-10-20 - Full rotation re-verification: every cited URL re-fetched and intact; v1.18.1 remains the latest release and the trailing-month npm figure refreshed (397,507).
 - 2026-10-27 - Full rotation re-verification: every cited URL re-fetched and intact; v1.18.1 remains the latest release and the trailing-month npm figure refreshed (318,873 for 2026-09-27 to 2026-10-26, summed from the range endpoint after npm's point/last-month endpoint returned a stale June window, eight zero days in the window).
+- 2026-11-08 - Full rotation re-verification: every cited URL re-fetched and intact (repomix.com, the code-compress and MCP-server guides, the repository, the npm registry and downloads, and the HN thread); recorded release v1.19.0 (2026-11-08, after 48 days at v1.18.1: the MCP server on TypeScript SDK v2 negotiating the 2026-07-28 protocol with a clean stdin exit and a roughly halved dependency install, progress notifications and cancellation for long packs, and per-language golden-test accuracy fixes to `--compress`) and refreshed the volatile numbers (4,889 commits, 392,525 trailing-month npm downloads summed 2026-10-09 to 2026-11-08).
 
 ## See also
 
@@ -94,7 +96,8 @@ My disagreeable claim: for small and mid repos, a Repomix pack plus a good model
 
 - https://repomix.com/ - feature overview, output formats, awards nomination, sponsors
 - https://github.com/yamadashy/repomix - stars, commits, CLI reference including --token-budget, --mcp --sandbox, watch mode
-- https://api.npmjs.org/downloads/range/2026-10-07:2026-11-06/repomix - 361,723 downloads summed for 2026-10-07 to 2026-11-06, eight zero days in the window, fetched 2026-11-06 (dated-range sums per the trailing-month window rule)
+- https://api.npmjs.org/downloads/range/2026-10-09:2026-11-08/repomix - 392,525 downloads summed for 2026-10-09 to 2026-11-08, six zero days in the window, fetched 2026-11-08 (dated-range sums per the trailing-month window rule)
 - https://repomix.com/guide/code-compress - tree-sitter compression semantics and its experimental status
 - https://repomix.com/guide/mcp-server - MCP tools (pack_codebase, grep_repomix_output) and sandbox confinement
+- https://api.github.com/repos/yamadashy/repomix/releases/tags/v1.19.0 - the v1.19.0 release notes: the MCP server on SDK v2 with the 2026-07-28 protocol, progress and cancellation, and the --compress golden-test fixes (fetched 2026-11-08)
 - https://news.ycombinator.com/item?id=42028494 - representative HN footprint: 4 points, zero comments

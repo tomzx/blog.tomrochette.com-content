@@ -1,7 +1,7 @@
 ---
 title: Arbor
 created: 2026-10-12
-updated: 2026-11-05
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, hypothesis-tree, held-out-validation, multi-agent, open-source]
 readability: 3
@@ -44,8 +44,8 @@ The rest of the community footprint is absent: this run's searches found no rele
 ## Cautions
 
 - The 2.5x comparison is the project's own, on its six chosen tasks, with no independent replication surfaced in this run's searches.
-- The release train stopped at v0.1.4 in July and the last push was September 8, so momentum trails the README's energy.
-- 1,106 stars with a month of quiet sits below this category's adopted tools on community mass.
+- The release train stopped at v0.1.4 in July, so the shipping cadence trails the commit activity the November 3 batch resumed.
+- 1,106 stars as of 2026-10-28 sit below this category's adopted tools on community mass.
 - The gate trusts your splits: a leaky dev/test boundary restores the overfitting the gate exists to block, and supplying clean splits is the user's job.
 
 ## Pricing
@@ -68,6 +68,7 @@ Not for anyone needing a maintained release train or independent benchmark evide
 
 - 2026-10-12 - Created.
 - 2026-10-29 - Rotation re-verification: all six references re-fetched; the repository stands paused at v0.1.4 (last push September 8, PyPI still 0.1.4), and the VentureBeat coverage remains unfetchable to bots.
+- 2026-11-08 - Corrected the momentum cautions, which still recorded the September 8 push after the Status had moved to the November 3 batch; today's default-branch check confirms the November 3 tip as current.
 
 ## See also
 

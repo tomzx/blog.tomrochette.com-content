@@ -1,7 +1,7 @@
 ---
 title: Agent Control
 created: 2026-10-05
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, runtime-governance, open-source]
 readability: 3
@@ -73,6 +73,7 @@ Not for local-first or latency-critical enforcement, and not for anyone who need
 - 2026-10-21 - Full rotation re-verification: every cited URL re-fetched and live, and the release train moved to v8.14.0 (2026-10-19) with agent-control-sdk 8.14.0 on PyPI and the npm package moving to 3.4.0 the same day, ending the 3.3.0 hold.
 - 2026-10-25 - Release train moved to v8.15.0 (2026-10-23) with agent-control-sdk 8.15.0 on PyPI and the npm package holding at 3.4.0; the release adds a Galileo Decision Models evaluator.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched and live, the release train holding at v8.15.0 with agent-control-sdk at 8.15.0 on PyPI and npm holding at 3.4.0, and the status counters refreshed (49 open issues, pushed 2026-10-29); no drift beyond the counters.
+- 2026-11-08 - Rotation re-verification: every cited URL re-fetched and live, the release train holding at v8.15.0 with agent-control-sdk at 8.15.0 on PyPI and npm holding at 3.4.0, the default branch's latest push still 2026-11-05 with the repo-level 2026-11-07 push a side branch, and the launch thread still 2 points with zero comments; no drift beyond the counters.
 
 ## See also
 

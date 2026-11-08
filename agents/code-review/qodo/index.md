@@ -1,7 +1,7 @@
 ---
 title: Qodo
 created: 2026-08-30
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -38,6 +38,7 @@ The repo counts 13,339 stars and 1,951 forks as of 2026-10-11, MIT-licensed, wit
 v0.47.0 hardens the tool: Gitea webhooks now fail closed without a configured secret, the GitHub Action fails on swallowed tool errors, GitLab and Bitbucket comment commands require a leading slash, extra_config_url became host-only, and model support added Claude Opus 5.5 and Bedrock Kimi K3.
 v0.48.0 (October 16, 2026) is the first release flagged with breaking changes: `pip install pr-agent` no longer bundles the forge SDKs (they moved to per-provider extras such as `pr-agent[github]` or `pr-agent[all]`), the Docker service images run as a non-root user with mounted secrets and output directories needing matching permissions, and Azure DevOps and Bitbucket Server webhooks now require credentials.
 v0.49.0 (October 25, 2026) extends the same hardening: GitHub polling now needs a host-only repository allowlist (`github.polling_repositories`, empty ignores every notification), `litellm.extra_headers` became host-only, Jira `project_keys` defaults flipped to `["*"]` with an empty list disabling lookups, the default model moved to gpt-6.1-sol, a `pr-agent doctor` command preflights a deployment, and /describe, /review, and /improve gained `--json-output`.
+v0.50.0 (November 7, 2026) keeps tightening and locks the release pipeline: repository `.pr_agent.toml` files can no longer override GitHub pacing and retry settings, `config.num_retries` (now capped at ten), custom-label settings, or `pr_code_suggestions.max_number_of_calls`, `config.ai_timeout` and the suggestion-call count can no longer ride command comments, `config.enable_auto_approval` became host-only with the auto-approval path still disabled, and PyPI releases moved to Trusted Publishing with package attestations and a commit-reachable-from-main gate, while the feature train added a Microsoft Teams output sink, commit messages inside /review and /improve prompts, Claude Sonnet 5.5 and Haiku 5.5 plus Kimi K3 and K3.1 Pro model support, and GitHub Enterprise Cloud data-residency support.
 The company raised $11M in 2023, then $40M in September 2024 ($50M total), by which point TechCrunch already called it "Qodo, the startup previously known as CodiumAI".
 The README states Qodo donated PR-Agent to the community, the project has its first external maintainer, and it is being donated to an open-source foundation.
 The company's badges report 911.2K VS Code and 655.1K JetBrains extension installs plus roughly 13.5K Marketplace installs for the paid app, as of 2026-10-26.
@@ -109,6 +110,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 - 2026-11-05 - Volatile re-verification: the push moved to November 5 with v0.49.0 still the latest release; nothing else changed.
 - 2026-11-05 - Pointed the See-also matrix link at the Code Review Feature Matrix; its line described this note's own category matrix but linked the evaluation-review one.
 - 2026-11-07 - Volatile re-verification recorded a repricing: the pricing page now reads $0.015 per credit with 2,000/4,000/16,000-credit packs (about 14/29/114 reviews), raised from $0.012 with 2,500/5,000/20,000-credit packs last confirmed October 26, while the homepage FAQ still showed the older rate on the same day; the push moved to November 7 with v0.49.0 still the latest release.
+- 2026-11-08 - Volatile re-verification recorded v0.50.0 (November 7): the host-only hardening extended to GitHub pacing and retry settings, custom labels, suggestion-call counts, and auto-approval (still disabled), PyPI releases moved to Trusted Publishing with attestations, and a Microsoft Teams output sink, commit messages in review prompts, and Claude Sonnet 5.5, Haiku 5.5, and Kimi K3/K3.1 Pro model support landed; the push moved to November 7 with the release.
 
 ## See also
 
@@ -120,7 +122,8 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 
 ## References
 
-- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-10-11, re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-30, 2026-11-01, 2026-11-05, and 2026-11-07 (pushed 2026-11-07 as of the last query, v0.49.0 still the latest release).
+- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-10-11, re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-30, 2026-11-01, 2026-11-05, 2026-11-07, and 2026-11-08 (v0.50.0 published November 7, 2026, pushed the same day).
+- https://api.github.com/repos/The-PR-Agent/pr-agent/releases/tags/v0.50.0 - the November 7, 2026 release notes: the host-only expansion, the num_retries cap, auto-approval host-only and still disabled, PyPI Trusted Publishing with attestations and a main-reachability gate, and the Microsoft Teams output sink, Sonnet 5.5 and Haiku 5.5 plus Kimi K3/K3.1 Pro model support, and GitHub Enterprise Cloud data-residency items, fetched 2026-11-08.
 - https://github.com/qodo-ai/pr-agent - README: donation to the community, tools table, platforms, release notes, sponsor status, "legacy project" wording.
 - https://docs.pr-agent.ai/tools/ - the full OSS command surface, including the /help_docs disabling.
 - https://www.qodo.ai/ - positioning, context engine, rules system, self-reported benchmark claim, credit FAQ, install badges, re-fetched 2026-11-07: the homepage FAQ still carried the older $0.012-per-credit rate with 2,500/5,000/20,000-credit packs on the day the pricing page showed $0.015 with 2,000/4,000/16,000 packs.

@@ -1,7 +1,7 @@
 ---
 title: Local Deep Research
 created: 2026-10-07
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, deep-research, local-first]
 readability: 3
@@ -24,7 +24,7 @@ Around the loop sit a journal-quality system scoring 212K-plus indexed sources w
 
 ## Status
 
-Active and heavily developed: 9,192 stars as of 2026-10-15, 890 forks, created 2025-02-09, last pushed 2026-11-06 on the same many-commit daily cadence (the November 5-6 batch points the migration head marker at 0044, waits for the theme save before the persistence reload in the UI tests, and ignores the setuptools CVEs Trivy reports for pip's vendored copy), following the November 2-5 batch's security and cache hardening (the benchmark grader's endpoint key bound to its origin, inbound WebSocket message size capped at the transport, response nonces required for template scripts and styles, the research cache keyed by chunk row identity with FAISS segments verified on every read, a gap-free migration chain enforced by test, and settings-recovery help in the web UI), the October 26-28 batch's DOI resolution to open-access copies before declaring paywall, LaTeX and BibTeX URL userinfo stripping, a shared dark theme default, worker-owned RAG preparation sessions, and stale download-claim recovery, and the October 18 version bump to 2.0.0 on main, the project's first major-version cut, with the release train still published at v1.10.7, 2026-08-28 on GitHub and PyPI, as of 2026-11-07.
+Active and heavily developed: 9,192 stars as of 2026-10-15, 890 forks, created 2025-02-09, last pushed 2026-11-08 on the same many-commit daily cadence (the November 7-8 post-release batch links research notifications to the results page, rejects active challenge pages before citation extraction, validates and retains FAISS segments through in-flight searches, adds a folder picker for collection uploads, and bumps oauthlib for CVE-2026-49272), following the November 5-6 batch's migration-marker and theme-persistence fixes, the November 2-5 batch's security and cache hardening (the benchmark grader's endpoint key bound to its origin, inbound WebSocket message size capped at the transport, response nonces required for template scripts and styles, the research cache keyed by chunk row identity with FAISS segments verified on every read, a gap-free migration chain enforced by test, and settings-recovery help in the web UI), the October 26-28 batch's DOI resolution to open-access copies before declaring paywall, LaTeX and BibTeX URL userinfo stripping, a shared dark theme default, worker-owned RAG preparation sessions, and stale download-claim recovery, and capped by the v2.0.0 release published the evening of November 7 (PyPI 20:01 UTC, GitHub 20:10 UTC), the October 18 version bump come to publication and the project's first major-version cut: the web layer rebuilt on FastAPI and Uvicorn, security hardening across the app, new search engines, a Stop control that interrupts research mid-generation, 1,010 commits over ten weeks from 40 contributors (31 new to the project), and a breaking database migration the release notes warn about, v1.10.7 unable to open upgraded data, as of 2026-11-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=LearningCircuit/local-deep-research&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ Not for anyone who needs machine-verified output or turnkey support: the loop en
 - 2026-10-12 - Refreshed the volatile counts (stars, forks, the October 12 push) and the open-issue count.
 - 2026-10-18 - Recorded the main-branch version bump to 2.0.0, the project's first major-version cut, which had not reached GitHub releases or PyPI as of this run.
 - 2026-11-07 - Rotation re-verification: all cited URLs re-fetched and live, with the benchmark rows (95.7 percent SimpleQA, 77 percent xbench-DeepSearch), the 190-point launch thread, and the v1.10.7 release and PyPI freeze all confirmed unchanged and 2.0.0 still unreleased; recorded the November 5-6 commits, the README's new egress-scope documentation, and the open-issue count moved to 1,385.
+- 2026-11-08 - Recorded the v2.0.0 release, published the evening of November 7 on PyPI and GitHub hours after that morning's verification: the FastAPI and Uvicorn web-layer rebuild, app-wide security hardening, new search engines, mid-generation Stop, 1,010 commits over ten weeks from 40 contributors (31 new), and the breaking database migration that leaves v1.10.7 unable to open upgraded data; the release-freeze line recorded the same morning is closed, and the November 7-8 commits continue post-release fixes.
 
 ## See also
 
@@ -85,7 +86,8 @@ Not for anyone who needs machine-verified output or turnkey support: the loop en
 - https://github.com/LearningCircuit/local-deep-research - repository, description, and MIT license (fetched 200, 2026-11-07)
 - https://raw.githubusercontent.com/LearningCircuit/local-deep-research/main/README.md - the loop, strategies, engines, the egress-scope system, the benchmark table with its own caveats, the journal-quality system, and the MCP server (fetched 200, 2026-11-07)
 - https://api.github.com/repos/LearningCircuit/local-deep-research - stars, forks, created and push dates, open-issue count, and license for the as-of status (fetched 200, 2026-11-07)
-- https://api.github.com/repos/LearningCircuit/local-deep-research/releases?per_page=3 - v1.10.7 (2026-08-28) still the latest published release, and the release cadence (fetched 200, 2026-11-07)
-- https://pypi.org/pypi/local-deep-research/json - the published version still 1.10.7, license metadata, and Python requirement (fetched 200, 2026-11-07)
+- https://api.github.com/repos/LearningCircuit/local-deep-research/releases?per_page=3 - v1.10.7 (2026-08-28) the latest published release at the 2026-11-07 re-fetch; superseded the same evening by v2.0.0 (fetched 200, 2026-11-07)
+- https://api.github.com/repos/LearningCircuit/local-deep-research/releases/tags/v2.0.0 - the v2.0.0 release notes (published 2026-11-07 20:10 UTC): the FastAPI and Uvicorn rebuild, 1,010 commits from 40 contributors, the upgrade and rollback warnings, and the v1.10.7 incompatibility with upgraded databases (fetched 200, 2026-11-08)
+- https://pypi.org/pypi/local-deep-research/json - the published version 1.10.7 at the 2026-11-07 re-fetch and 2.0.0 uploaded 2026-11-07 20:01 UTC, license metadata, and Python requirement (fetched 200, 2026-11-07 and 2026-11-08)
 - https://huggingface.co/datasets/local-deep-research/ldr-benchmarks - the community benchmark dataset behind the SimpleQA and xbench-DeepSearch numbers (fetched 200, 2026-11-07)
 - https://hn.algolia.com/api/v1/items/43330164 - the 190-point, 34-comment launch thread from March 2025 (fetched 200, 2026-11-07)

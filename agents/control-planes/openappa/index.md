@@ -1,7 +1,7 @@
 ---
 title: OpenAPPA
 created: 2026-10-07
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, information-flow-control, policy-enforcement, prompt-injection, rust]
 readability: 3
@@ -20,11 +20,11 @@ Policy is one `appa.toml` describing data sources, audiences, trust levels, and 
 The engine runs in-process or as a sidecar, decides from the event log alone with no network or file calls, and answers a block with a machine-readable remedy plan: sanitizers that redact a payload so it can flow to a wider audience, one-action authorities, or a disposable child branch that absorbs untrusted reads without poisoning the parent trajectory.
 A Claude Code plugin (`appa plugin install claude-code`) is the fastest integration, and the sponsor's Archestra LLM proxy implements the same enforcement for any agent that talks to a model through it, including Claude Code, Claude Desktop, Cursor, Codex, OpenCode, Copilot CLI, and n8n.
 `appa describe --check` and `appa replay` validate policy coverage in CI, so a team can block merges that leave tool paths uncovered.
-Recorders landed on the default branch on 2026-11-06 (not yet in a release): a file-tracker keeps a label on every file, so a secret copied into another file keeps its label in every later session, and each Claude Code Bash call declares its input files, output files, and network hosts and runs inside Claude Code's own sandbox; the runtime preload is pinned to Claude Code 2.1.266, network hosts carry no label effect yet, and the change is breaking (the old file-tracking configuration and MCP tools are removed).
+Recorders shipped in v0.39.0 (2026-11-08, PR 790): a file-tracker keeps a label on every file, so a secret copied into another file keeps its label in every later session, and each Claude Code Bash call declares its input files, output files, and network hosts and runs inside Claude Code's own sandbox; the runtime preload is pinned to Claude Code 2.1.266, network hosts carry no label effect yet, and the change is breaking (the old file-tracking configuration and MCP tools are removed).
 
 ## Status
 
-Active and fast-growing for its age: 1,561 stars and 66 forks as of 2026-10-14 since creation on 2026-08-18, pushed 2026-11-07 with 28 open issues and pull requests as of 2026-11-07, latest release v0.38.1 (2026-11-01), positioned as a preview and an RFC where config and wire surfaces may break without shims.
+Active and fast-growing for its age: 1,561 stars and 66 forks as of 2026-10-14 since creation on 2026-08-18, pushed 2026-11-08 with 29 open issues and pull requests as of 2026-11-08, latest release v0.39.0 (2026-11-08, with a v0.39.1 tag landing the same day without a release page), positioned as a preview and an RFC where config and wire surfaces may break without shims.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=archestra-ai/OpenAPPA&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for teams that need budgets, org models, or fleet approvals, because OpenAPP
 - 2026-10-30 - Rotation re-verification: every reference re-fetched (README, the three site pages, the APPA paper, the HN thread, the repository and releases APIs), with no drift: v0.37.0 still the latest release, the paper and benchmarks unchanged, and the HN thread still 2 points with zero comments; only the push date moved.
 - 2026-11-01 - Release train moved to v0.38.0 (2026-10-31, a breaking change: an external authority reads "required" for a restricted audience as an array of reader entries, not a number) and v0.38.1 (2026-11-01, denial and remedy messages naming the authority, trust, or audience involved, and a running subagent's spawn kept open across a turn end).
 - 2026-11-07 - Added the recorders line to What it is: the breaking engine change merged 2026-11-06 (PR 790) replaces the runtime file ledger with recorders and a file-tracker, so files keep their security label across sessions and Claude Code Bash calls run confined to declared files and hosts, with the preload pinned to Claude Code 2.1.266, network hosts accepted as an unlabeled leak, and OpenCode and Amp support landing in separate pull requests; no release carries it yet.
+- 2026-11-08 - Release train moved to v0.39.0 (2026-11-08, a v0.39.1 tag landing the same day without a release page): the recorders change shipped, making it a breaking release that removes the old file-tracking configuration, the appa_*_file MCP tools, and the file-process backend flag, with build provenance now verified through gh on install.
 
 ## See also
 

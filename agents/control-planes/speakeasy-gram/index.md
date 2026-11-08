@@ -1,7 +1,7 @@
 ---
 title: Speakeasy Gram
 created: 2026-11-05
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, gateway, mcp, policy-enforcement, audit, enterprise]
 readability: 3
@@ -25,7 +25,7 @@ The vendor holds SOC 2 Type II and ISO 27001 certifications and publishes GDPR, 
 
 ## Status
 
-Active and vendor-backed: 277 stars and 36 forks as of 2026-11-05 with 331 open issues as of 2026-11-07, created 2025-08-06, pushed 2026-11-07, with the release train moving across the monorepo packages on 2026-11-06 (hooks@0.3.45, server@2.31.0, @gram-ai/functions@0.20.1) after hooks 0.3.41 to 0.3.43 in the week to 2026-11-04.
+Active and vendor-backed: 277 stars and 36 forks as of 2026-11-05 with 328 open issues as of 2026-11-08, created 2025-08-06, pushed 2026-11-08, with the release train moving across the monorepo packages on 2026-11-06 (hooks@0.3.45, server@2.31.0, @gram-ai/functions@0.20.1) after hooks 0.3.41 to 0.3.43 in the week to 2026-11-04.
 **The gateway shipped as a pivot: Hacker News saw Gram launch on 2025-09-09 as an open-source platform to create, curate, and host MCP servers (20 points, 2 comments), and a third-party governance wiki places the gateway's general availability in March 2026 with the control-plane framing, after Speakeasy concluded building servers was not the hardest problem.**
 MoonPay is the named production customer, with the vendor claiming 60,000 agent sessions governed per week, though the same third-party profile cautions that homepage logos may date from the SDK-generation business rather than the control plane.
 The community footprint is thin in discussion (the launch thread's two comments and a 23-point, zero-comment Show HN for Gram Functions in November 2025) but present in coverage: independent directory profiles from a governance wiki, Toolglade, and FollowAgents exist, and the governance wiki's entry is openly skeptical.

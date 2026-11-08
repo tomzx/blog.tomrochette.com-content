@@ -1,7 +1,7 @@
 ---
 title: Agent Laboratory
 created: 2026-10-11
-updated: 2026-10-26
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, paper-generation, human-in-the-loop, open-source]
 readability: 3
@@ -66,6 +66,7 @@ Not for anyone choosing a maintained tool today: the repository has been dormant
 
 - 2026-10-11 - Created.
 - 2026-10-26 - Rotation re-verification: status unchanged (last push still 2025-08-20, MIT still detected, and the 4-point and 1-point zero-comment Hacker News submissions still the whole footprint); every cited URL re-fetched, all live.
+- 2026-11-08 - Rotation re-verification: status unchanged (dormant since 2025-08-20); every cited URL re-fetched, all live.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: OpenWorker
 created: 2026-10-02
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtime, desktop, security, sandboxing]
 readability: 3
@@ -23,7 +23,7 @@ Every action an agent takes is governed and logged, approvals are configurable, 
 
 ## Status
 
-Early and moving fast: about 18,500 stars in its first thirteen weeks as of 2026-10-17 (created 2026-07-20), with v0.3.1 released 2026-10-05, the last push on 2026-11-07 as of 2026-11-07, and a public beta disclaimer on the README.
+Early and moving fast: about 18,500 stars in its first thirteen weeks as of 2026-10-17 (created 2026-07-20), with v0.3.1 released 2026-10-05, the last push on 2026-11-08 as of 2026-11-08, and a public beta disclaimer on the README.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=andrewyng/openworker&type=date&theme=dark&legend=top-left" />
@@ -32,6 +32,7 @@ Early and moving fast: about 18,500 stars in its first thirteen weeks as of 2026
 </picture>
 
 v0.3.1 publishes the CLI as a container image on ghcr.io, so a coworker runs entirely inside an NVIDIA OpenShell sandbox with one command, and pins the desktop app's OpenShell option to OpenShell 0.1.2.
+On 2026-11-07 a second distribution line opened beside the desktop releases: the skills-v0.1.0-beta.2 prerelease ships the openworker-apps app-building skill as a SKILL.md package ZIP meant for Claude's skill-upload screen, accompanying the @openworkerai/build-with-sdk-skills package, so OpenWorker's task recipes now distribute as plain Agent Skills too.
 **The star count is an audience effect as much as an adoption signal: Andrew Ng's announcement drove the attention, while the independent Hacker News footprint is one 5-point thread plus a pair of 2-point follow-ups, so the tool's actual field usage is unproven.**
 The project says rough edges are being polished; treat it as beta in fact, not just label.
 
@@ -77,6 +78,7 @@ Not for anyone needing a mature, broadly capable assistant today, or Windows-fir
 - 2026-10-23 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the product site, the OpenShell sandbox doc, the approval-guidance doc), v0.3.1 confirmed still the latest release and the OpenShell 0.1.2 pin intact, and the Windows download recorded as marked coming soon on the official site.
 - 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the product site, the OpenShell sandbox doc, the approval-guidance doc), v0.3.1 confirmed still the latest release, the OpenShell 0.1.2 pin and the approval-guidance model intact, and the Windows download still marked coming soon on the official site.
 - 2026-11-04 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, the product site, the OpenShell sandbox doc, the approval-guidance doc), v0.3.1 confirmed still the latest release, the OpenShell 0.1.2 pin and the approval-guidance model intact, and the Windows story updated: the README now links a Windows 10/11 build that is not yet code-signed (signing in progress) while the official site's Windows download stays marked coming soon.
+- 2026-11-08 - Recorded the skills-package distribution line opening beside the desktop releases (skills-v0.1.0-beta.2, published 2026-11-07: the openworker-apps app-building skill shipped as a SKILL.md package ZIP for Claude's skill-upload screen, accompanying the @openworkerai/build-with-sdk-skills package), with v0.3.1 confirmed still the latest desktop release and refreshed adoption numbers.
 
 ## See also
 

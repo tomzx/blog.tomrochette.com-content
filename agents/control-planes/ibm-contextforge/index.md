@@ -1,7 +1,7 @@
 ---
 title: IBM ContextForge
 created: 2026-10-11
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, gateway, mcp, governance, open-source, ibm]
 readability: 3
@@ -24,7 +24,7 @@ IBM announced it as the ContextForge MCP Gateway 1.0.0 Beta on December 15, 2025
 
 ## Status
 
-Active and heavily adopted: 4,623 stars and 924 forks as of 2026-10-18, with 998 open issues and the latest push on 2026-11-06 as of 2026-11-07, created 2025-05-08, with v1.1.0 published 2026-10-20 on GitHub and PyPI in step.
+Active and heavily adopted: 4,623 stars and 924 forks as of 2026-10-18, with 1,001 open issues and the latest push on 2026-11-06 as of 2026-11-08, created 2025-05-08, with v1.1.0 published 2026-10-20 on GitHub and PyPI in step.
 v1.1.0 moves MCP protocol negotiation to the modern protocol by default, ships a redesigned web UI, federated completions, catalog pagination, and MCP Origin/Host transport security enforcement, consolidating 69 pull requests.
 
 <picture>
@@ -34,7 +34,7 @@ v1.1.0 moves MCP protocol negotiation to the modern protocol by default, ships a
 </picture>
 
 **The adoption is unusually organic for this category: 4,623 stars and 924 forks put it third here behind Paperclip and the Microsoft toolkit, and fetched third-party comparisons already treat it as the standing self-hosted MCP gateway rather than a curiosity.**
-The open-issue backlog is the largest of any gateway in this category by an order of magnitude (998 open issues and pull requests as of 2026-11-07, against a next-largest in the dozens), which reads as day-to-day use at scale colliding with limited maintainer triage, not as abandonment.
+The open-issue backlog is the largest of any gateway in this category by an order of magnitude (1,001 open issues and pull requests as of 2026-11-08, against a next-largest in the dozens), which reads as day-to-day use at scale colliding with limited maintainer triage, not as abandonment.
 
 ## Strengths
 

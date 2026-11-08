@@ -1,7 +1,7 @@
 ---
 title: Ellipsis
 created: 2026-08-30
-updated: 2026-11-01
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -26,7 +26,7 @@ Blink (100 stars as of 2026-10-11) was created on September 16, 2026.
 
 **Active and pivoted.**
 The July 28, 2026 post "Introducing the Ellipsis Agent Cloud" says it plainly: Ellipsis "launched in 2023 as one of the first AI Code Review bots", but teams no longer want a product that "just worked", so the company rebuilt itself as agent infrastructure and released the `agent` CLI.
-The homepage, docs, and pricing all describe the agent cloud as of 2026-10-03 (re-verified 2026-11-01, with the hero still leading Software Factories ahead of code review and background agents), and the GitHub org pushed to its CLI repo on 2026-10-31.
+The homepage, docs, and pricing all describe the agent cloud as of 2026-10-03 (re-verified 2026-11-08, with the hero still leading Software Factories ahead of code review and background agents), and the GitHub org pushed to its CLI repo on 2026-11-07.
 Funding is a $2M seed announced June 19, 2024, with YC partners and the Pioneer Fund among the investors; I found no later round on any page I fetched.
 The blog is thin, three original posts since January 2025 and a gap from April 2025 to July 2026, so public cadence evidence is sparse even though the product is clearly alive.
 The community footprint is one strong Show HN from May 9, 2024 (Algolia item 40309719, 121 points, 64 comments) and a quieter February 2024 one (item 39526616, 18 points, 11 comments).
@@ -51,7 +51,7 @@ The community footprint is one strong Show HN from May 9, 2024 (Algolia item 403
 ## Pricing
 
 Tokens are billed at cost with no markup, plus a 10% platform fee, with CPU at $0.142/vCPU-hour and memory at $0.024/GB-hour, as of 2026-10-04 (re-verified unchanged 2026-10-25).
-There are no per-seat fees and no idle charges, and the $100 credit I recorded at launch in September 2026 is now displayed on no surface I can find: the homepage and pricing page omit it, and as of 2026-11-01 the GitHub org profile's description field is empty outright and the YC directory description no longer mentions it, so the credit is best read as gone.
+There are no per-seat fees and no idle charges, and the $100 credit I recorded at launch in September 2026 is now displayed on no surface I can find: the homepage and pricing page omit it, and as of 2026-11-08 the GitHub org profile's restored description (Cloud Agent Platform for Developers) and the YC directory's rewritten agent-cloud pitch (a Managed Agent platform one-liner) both still omit it, so the credit is best read as gone.
 The free-for-individuals on-ramp is gone as of 2026-10-25: the homepage carries no free badge at all (the word free does not appear on the page), and the pricing FAQ now answers only a free-for-open-source question, case by case by email.
 Until 2026-10-17 the homepage led with a FREE FOR INDIVIDUALS badge for people on their own Claude Code or Codex subscription, and that wording had flip-flopped before it ("ChatGPT or Claude" on 2026-09-13, "Claude Code or Codex" by 2026-09-18, back on 2026-09-27, then just FREE FOR INDIVIDUALS by 2026-10-02), with the pricing FAQ naming Claude Code or Codex subscriptions for interactive sessions throughout.
 The same published pricing covers the managed SaaS and a BYOC deployment into your own AWS account.
@@ -98,6 +98,7 @@ I will take the unpopular position that leaving review was the right call: a fix
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, all prices unchanged; the $100 credit is now claimed on the GitHub org profile and the YC directory description while the product's own pages still omit it, and the CLI repo's latest push moved to October 13.
 - 2026-10-25 - Rotation re-verification: recorded the free-for-individuals on-ramp leaving the product's own pages (no free badge anywhere on the homepage, the pricing FAQ now offering only case-by-case open-source support by email) with a price-history row, the hero now leading Software Factories, and the CLI repo's push moved to October 23; every cited URL re-fetched live, all metered prices unchanged.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live; all metered prices unchanged (tokens at cost plus a 10% platform fee, CPU $0.142/vCPU-hour, memory $0.024/GB-hour, support packages $5,000, $10,000, and $15,000), the org still holds five public repos with the CLI pushed October 31, and the blog's newest post is still July 28, 2026; the $100 starting credit is now displayed on no fetched surface (the GitHub org profile's description field is empty and the YC directory omits it), recorded in Pricing.
+- 2026-11-08 - Rotation re-verification: every cited URL re-fetched live; all metered prices unchanged (the 10% platform fee, the compute rates, and the three support packages re-read from the pricing page), the org still holds five public repos with the CLI repo pushed November 7 and the SDK mirror November 8, the org profile's description field is restored (Cloud Agent Platform for Developers) and the YC directory is rewritten to the agent-cloud pitch (a Managed Agent platform one-liner, spawn, manage, and govern cloud agents for Software Factories, custom Code Review, and Background Tasks), the $100 credit still appears on no fetched surface, the blog's newest post is still July 28, 2026, and the Show HN thread is unchanged (121 points, 64 comments); recorded in Status and Pricing.
 
 ## See also
 
@@ -108,12 +109,12 @@ I will take the unpopular position that leaving review was the right call: a fix
 
 ## References
 
-- https://www.ellipsis.dev/ - current product surface: agent cloud framing, SOC 2 status, supported agents, fetched 2026-10-02, re-fetched 2026-10-25 and 2026-11-01 (no $100 credit and no free-for-individuals badge anywhere on the page; the hero still leads Software Factories).
-- https://www.ellipsis.dev/pricing - the token-plus-10% model, compute rates, BYOC terms, and support package tiers, fetched 2026-10-02, re-verified unchanged 2026-10-17 and 2026-11-01 (the fee and compute rates stand, the FAQ's only free path is case-by-case open-source support, and the word credit appears nowhere on the page).
-- https://github.com/ellipsis-dev - the public GitHub org: five repos (TalkFormAI, homebrew-cli, the agent CLI at 3 stars pushed 2026-10-31, the SDK mirror, and blink at 100 stars as of 2026-10-11), fetched 2026-10-17, re-fetched 2026-10-25 and 2026-11-01 (the org profile's name and description fields now empty, so the $100 credit line is gone from it).
-- https://www.ellipsis.dev/docs - docs on environments, sandboxes, sessions, the CLI, and the API, fetched 2026-09-18, re-fetched 2026-10-25 and 2026-11-01.
-- https://www.ellipsis.dev/blog - publishing cadence and post dates, fetched 2026-09-18, re-fetched 2026-10-25 and 2026-11-01 (newest post still July 28, 2026).
-- https://www.ellipsis.dev/blog/the-ellipsis-agent-cloud - the July 28, 2026 pivot announcement by the founder, fetched 2026-09-18, re-fetched 2026-10-25 and unchanged 2026-11-01.
-- https://www.ellipsis.dev/blog/ellipsis-raises-a-2m-seed-round - the $2M seed, investor list, and the 13% faster-merge claim, fetched 2026-09-18, re-fetched unchanged 2026-11-01.
-- https://www.ycombinator.com/companies/ellipsis - YC batch (W24), founding date, founders, team size, and active status, fetched 2026-09-18, re-fetched 2026-10-25; on 2026-11-01 the directory description no longer names the $100 credit.
-- https://hn.algolia.com/api/v1/items/40309719 - the May 9, 2024 Show HN (121 points, 64 comments) with the praise and the blunt criticism that greeted the launch, re-fetched 2026-10-25 and unchanged 2026-11-01.
+- https://www.ellipsis.dev/ - current product surface: agent cloud framing, SOC 2 status, supported agents, fetched 2026-10-02, re-fetched 2026-10-25, 2026-11-01, and 2026-11-08 (no $100 credit and no free-for-individuals badge anywhere on the page; the hero still leads Software Factories).
+- https://www.ellipsis.dev/pricing - the token-plus-10% model, compute rates, BYOC terms, and support package tiers, fetched 2026-10-02, re-verified unchanged 2026-10-17, 2026-11-01, and 2026-11-08 (the fee and compute rates stand, the FAQ's only free path is case-by-case open-source support, and the word credit appears nowhere on the page).
+- https://github.com/ellipsis-dev - the public GitHub org: five repos (TalkFormAI, homebrew-cli, the agent CLI at 3 stars pushed 2026-11-07, the SDK mirror pushed 2026-11-08, and blink at 100 stars as of 2026-10-11), fetched 2026-10-17, re-fetched 2026-10-25, 2026-11-01, and 2026-11-08 (the org profile's description was empty on 2026-11-01 and is restored by 2026-11-08, reading Cloud Agent Platform for Developers, still with no $100 credit line).
+- https://www.ellipsis.dev/docs - docs on environments, sandboxes, sessions, the CLI, and the API, fetched 2026-09-18, re-fetched 2026-10-25, 2026-11-01, and 2026-11-08.
+- https://www.ellipsis.dev/blog - publishing cadence and post dates, fetched 2026-09-18, re-fetched 2026-10-25, 2026-11-01, and 2026-11-08 (newest post still July 28, 2026, confirmed against the sitemap on the last fetch).
+- https://www.ellipsis.dev/blog/the-ellipsis-agent-cloud - the July 28, 2026 pivot announcement by the founder, fetched 2026-09-18, re-fetched 2026-10-25 and unchanged 2026-11-01 and 2026-11-08.
+- https://www.ellipsis.dev/blog/ellipsis-raises-a-2m-seed-round - the $2M seed, investor list, and the 13% faster-merge claim, fetched 2026-09-18, re-fetched unchanged 2026-11-01 and 2026-11-08.
+- https://www.ycombinator.com/companies/ellipsis - YC batch (W24), founding date, founders, team size, and active status, fetched 2026-09-18, re-fetched 2026-10-25; on 2026-11-01 the directory description no longer named the $100 credit, and by 2026-11-08 it is rewritten to the agent-cloud pitch (a Managed Agent platform one-liner and a long description naming Software Factories, custom Code Review, and Background Tasks), still without it.
+- https://hn.algolia.com/api/v1/items/40309719 - the May 9, 2024 Show HN (121 points, 64 comments) with the praise and the blunt criticism that greeted the launch, re-fetched 2026-10-25 and unchanged 2026-11-01 and 2026-11-08.

@@ -1,7 +1,7 @@
 ---
 title: Entroly
 created: 2026-10-12
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, receipts, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Two offline commands are the trust surface: `entroly verify-claims` runs twelve 
 
 ## Status
 
-Young, active, and barely discovered: 476 stars as of 2026-10-18, 74 forks, created 2026-03-07, pushed 2026-11-07 on main, PyPI and npm both at 1.0.88 across 106 releases, as of 2026-11-06 (GitHub, PyPI, and npm APIs).
+Young, active, and barely discovered: 476 stars as of 2026-10-18, 74 forks, created 2026-03-07, pushed 2026-11-08 on main, PyPI and npm both at 1.0.88 across 106 releases, as of 2026-11-06 (GitHub, PyPI, and npm APIs).
 October 2026 development around the 1.0.87 release added a session journal of what a session did, returned on resume, source-bound cross-agent review in the work CLI, opt-in paired Decisions choice trials, and a rustls advisory fix.
 Release 1.0.88 (2026-11-01) shipped the PAC-KV cache-aligned compression (provider page-grid quantization, an economic break-even gate, paged Merkle trees, attention-aware tail compression), the receipt-backed graph memory with hybrid retrieval that main had carried unreleased, and frontier codecs, alongside 62 customer-visible dogfood fixes, an activation report naming a degraded hook's cause, and the scaffold of an opt-in action gate.
 Main's unreleased 2026-11-07 batch follows: cascade policies assessed on held-out data with exact risk tests, STAVE fact-alignment stability, EICV calibration corrections for tied ranks and dependent evidence, Claude Code host fixes (capture outcomes read as the host sends them, uninstall removing the capture hooks, the hook no longer editing shell files), and first-run onboarding fixes from a clean-room install.

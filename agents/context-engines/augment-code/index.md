@@ -1,7 +1,7 @@
 ---
 title: Augment Code
 created: 2026-08-24
-updated: 2026-10-31
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-engines, coding-agents, enterprise-tools]
 readability: 3
@@ -21,7 +21,7 @@ Augment Code is an AI coding platform whose core is the Context Engine, a real-t
 The Context Engine indexes code, dependencies, docs, and commit history, and retrieves "the slice the task touches" before the model spends tokens exploring, with permission-aware access.
 Auggie CLI is the terminal agent; its v2 (2026) is a fork of the open-source Pi harness with the Context Engine plugged in as an extension that registers a single `codebase-retrieval` tool.
 Cosmos (launched June 3, 2026) runs fleets of "Expert" agents on triggers (PR opened, alert fired, cron), with the Prism model router, sandboxed VMs, a self-hosted daemon option, and YAML-as-code review of the whole factory.
-Intent, the newest surface, is a MacOS app for large-scale agent coordination: every task runs in its own isolated workspace, a Coordinator agent writes a living spec per task so all agents in the workspace build from the same plan, and the CLI agents underneath are swappable; since October 2026 the app is distributed as open source from its own intent-hq GitHub organization (an Apache-2.0 monorepo carrying the daemon, the front end, and the iOS client, with a stable release channel and a mobile companion app, product page re-checked 2026-10-17).
+Intent, the newest surface, is a MacOS app for large-scale agent coordination: every task runs in its own isolated workspace, a Coordinator agent writes a living spec per task so all agents in the workspace build from the same plan, and the CLI agents underneath are swappable; since October 2026 the app is distributed as open source from its own intent-hq GitHub organization (an Apache-2.0 monorepo carrying the daemon, the front end, and the iOS client, with a stable release channel and a mobile companion app), and its product page now lives at intentapp.dev, its own domain (augmentcode.com/product/intent redirects there, checked 2026-11-08).
 Everything is closed-source SaaS with SOC 2 Type II, ISO 42001, zero data retention options, and a no-training-on-your-code commitment; enterprise logos include Adobe, MongoDB, and Webflow.
 
 ## Status
@@ -29,7 +29,7 @@ Everything is closed-source SaaS with SOC 2 Type II, ISO 42001, zero data retent
 **Absorbed into Harness: on October 8, 2026 the company announced the sale of Cosmos, Auggie CLI, the Code Context Engine, and related technology to Harness, with the team moving over to continue them there.**
 Blog cadence ran multiple posts per month through September 11, 2026 (Cosmos launch, GPT-5.6 Sol as default in July, the Auggie harness rebuild, further PR-to-merge loop optimization, and a Software Factory buildout post), then went quiet until the October 8 acquisition announcement.
 The October 20, 2025 pricing change triggered a community revolt; the company's own Reddit response admitted 22.5% of users were consuming 20x what they paid, and the HN thread documents broken grandfathering promises.
-The pricing page was still selling the current plans, with no free tier, as of 2026-10-31 (the blog's newest post remains the October 8 acquisition announcement, re-checked 2026-10-31 via the blog index).
+The pricing page was still selling the current plans, with no free tier, as of 2026-11-08 (the blog's newest post remains the October 8 acquisition announcement, re-checked 2026-11-08 via the blog index), and the intent-hq/intent repository stays active (pushed 2026-11-08) while its product surface moved outward: the Cosmos launch-post URL now redirects to the /product/cosmos page, and augmentcode.com/product/intent redirects to intentapp.dev.
 I could not verify funding history from primary sources in this run (the company pages do not state it and Wikipedia has no article), which is itself a signal: the public record for this company is mostly its own marketing.
 
 ## Strengths
@@ -84,6 +84,7 @@ My disagreeable claim: if the Context Engine numbers are even half right, harnes
 - 2026-10-17 - Full rotation re-verification: every cited URL re-fetched; the plan structure, no-free-tier claim, 40 percent service fee, and both benchmark write-ups re-verified unchanged, the blog still ending at the October 8 announcement; recorded Intent's move to open source under its own intent-hq organization (Apache-2.0 monorepo, stable release channel, mobile app).
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched; the plan structure, no-free-tier claim, and 40 percent service fee unchanged, the blog still ending at the October 8 announcement (newest-post claim confirmed through the sitemap), and the intent-hq repository still active.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched; the plan structure, no-free-tier claim, and 40 percent service fee unchanged, the blog still ending at the October 8 announcement, and the intent-hq repository still active (pushed 2026-10-31).
+- 2026-11-08 - Full rotation re-verification: every cited URL re-fetched; the plan structure, no-free-tier claim, and 40 percent service fee unchanged, the blog still ending at the October 8 announcement, and the intent-hq repository active (pushed 2026-11-08); recorded the two surface moves (the Cosmos launch-post URL redirecting to the /product/cosmos page, and augmentcode.com/product/intent redirecting to intentapp.dev, Intent's own domain).
 
 ## See also
 
@@ -98,10 +99,10 @@ My disagreeable claim: if the Context Engine numbers are even half right, harnes
 - https://www.augmentcode.com/blog/auggie-beats-claude-code-on-cost-and-quality - Terminal Bench 2.0 and SWE-bench Pro token/cost tables and methodology
 - https://www.augmentcode.com/blog/auggie-cli-harness-rebuild-53-percent-cheaper - Pi fork, tool-surface narrowing, compaction, per-task cost table
 - https://www.augmentcode.com/pricing - Business $100 flat plan, 40% service fee, usage mechanics
-- https://www.augmentcode.com/blog/cosmos-the-platform-for-ai-native-engineering-teams - Cosmos launch, Experts, Prism, compliance stack
+- https://www.augmentcode.com/blog/cosmos-the-platform-for-ai-native-engineering-teams - Cosmos launch facts, Experts, Prism, compliance stack; the URL now redirects to the /product/cosmos page, which carries the same facts (followed redirect, 2026-11-08)
 - https://docs.augmentcode.com/introduction - current product surfaces (Cosmos, Auggie CLI, IDE extensions)
-- https://www.augmentcode.com/product/intent - the Intent product page: tasks isolated in workspaces, Coordinator-written living specs, swappable CLI agents, and since October 2026 the open-source distribution from the intent-hq organization (re-fetched 2026-10-17)
-- https://api.github.com/repos/intent-hq/intent - the Intent monorepo: Apache-2.0, daemon plus front end plus iOS submodules, stable release channel (fetched 2026-10-17)
-- https://www.augmentcode.com/blog - blog index, grounds the posting-cadence claim (re-fetched 2026-10-17; newest post remains the October 8 announcement)
+- https://intentapp.dev/ - the Intent product site, now on its own domain (augmentcode.com/product/intent redirects here, checked 2026-11-08): large-scale agent coordination, docs, downloads, and source links
+- https://api.github.com/repos/intent-hq/intent - the Intent monorepo: Apache-2.0, daemon plus front end plus iOS submodules, stable release channel (re-fetched 2026-11-08, pushed 2026-11-08)
+- https://www.augmentcode.com/blog - blog index, grounds the posting-cadence claim (re-fetched 2026-11-08; newest post remains the October 8 announcement)
 - https://www.augmentcode.com/blog/augment-code-next-chapter - the October 8, 2026 acquisition announcement: Cosmos, Auggie CLI, and the Context Engine joining Harness with the team
 - https://news.ycombinator.com/item?id=45586110 - October 2025 pricing backlash thread with the 22.5%/20x admission

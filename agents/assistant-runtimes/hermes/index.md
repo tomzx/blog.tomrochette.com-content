@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Execution spans six built-in terminal backends (local, Docker, SSH, Modal, Dayto
 ## Status
 
 Massive and fast-moving.
-253,488 stars and 54,982 forks as of 2026-10-14 since creation on 2025-07-22, MIT, and as of 2026-11-07 pushed that day with 53,457 open issues, a support surface bigger than most projects' users.
+253,488 stars and 54,982 forks as of 2026-10-14 since creation on 2025-07-22, MIT, and as of 2026-11-08 pushed that day with 53,615 open issues, a support surface bigger than most projects' users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) land
 
 ## Cautions
 
-- Roughly 50,000 open issues is triage weather, not a queue; expect to read code when things break.
+- Roughly 54,000 open issues is triage weather, not a queue; expect to read code when things break.
 - The plagiarism-claim edit is a stewardship red flag worth weighing before making it your memory keeper.
 - A self-curating memory compounds errors as efficiently as insights; the loop needs supervision, not just trust.
 - Windows installs bundle a lot of machinery (uv, Node, Git Bash), which is surface area to audit.
