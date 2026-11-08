@@ -1,7 +1,7 @@
 ---
 title: gptme
 created: 2026-10-13
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, cli, terminal, local-first, autonomous-agents]
 readability: 3
@@ -23,10 +23,10 @@ Providers are your choice: Anthropic, OpenAI, Google, Grok, DeepSeek, OpenRouter
 
 ## Status
 
-Active and steadily shipped: 4,448 stars, 451 forks, and 38 open issues as of 2026-10-13, pushed 2026-11-07 (GitHub API, as of 2026-11-07), with weekly dev pre-releases and stable v0.36.0 (November 2, 2026) adding an OpenCode Go DeepSeek provider, Windows Authenticode signing for the installer and sidecar, opt-in project verification discovery, a managed default move to claude-sonnet-5.5 over OpenRouter, and per-finding evidence fields with multi-pass consensus preservation on review findings, on top of stable v0.35.1 (October 15, 2026) on top of v0.35.0 the same day, a 61-feature release adding a memory guard that kills the agent's largest command when system memory runs low, queued prompts that steer the running turn, Ctrl+C tool stops in the TUI, and an IPython kernel-process split (v0.35.1); stable v0.34.0 (September 2026) added cross-harness memory and skills as slash commands.
+Active and steadily shipped: 4,448 stars as of 2026-10-13, 468 forks and 42 open issues, pushed 2026-11-08 (GitHub API, as of 2026-11-08), with weekly dev pre-releases and stable v0.36.0 (November 2, 2026) adding an OpenCode Go DeepSeek provider, Windows Authenticode signing for the installer and sidecar, opt-in project verification discovery, a managed default move to claude-sonnet-5.5 over OpenRouter, and per-finding evidence fields with multi-pass consensus preservation on review findings, on top of stable v0.35.1 (October 15, 2026) on top of v0.35.0 the same day, a 61-feature release adding a memory guard that kills the agent's largest command when system memory runs low, queued prompts that steer the running turn, Ctrl+C tool stops in the TUI, and an IPython kernel-process split (v0.35.1); stable v0.34.0 (September 2026) added cross-harness memory and skills as slash commands.
 Bootstrap-funded by its author, with a managed cloud (gptme.ai, early access) that bills usage-based credits.
-PyPI downloads run about 32,000 per month as of 2026-10-13, modest next to this category's mass-market members.
-**The governance curiosity is the contributor table: the top contributor is TimeToBuildBob, the project's own autonomous agent, at 2,711 contributions against the author's 1,956 as of 2026-10-31.**
+PyPI downloads run about 32,000 per month as of 2026-11-08, modest next to this category's mass-market members.
+**The governance curiosity is the contributor table: the top contributor is TimeToBuildBob, the project's own autonomous agent, at 2,795 contributions against the author's 1,962 as of 2026-11-08.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gptme/gptme&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ Not for teams needing a large independent community, published hosted pricing, o
 - 2026-10-17 - Recorded the stable train reaching v0.35.1 (October 15) on top of the 61-feature v0.35.0 the same day (memory guard, steerable queued prompts, Ctrl+C tool stops, Jupyter kernel-process split), and re-fetched every cited reference in the rotation-adjacent volatile pass.
 - 2026-10-25 - Rotation re-verification, every cited reference live: v0.35.1 still the newest stable, PyPI still at 32,174 downloads in the API's last-month window, and the contributor counts refreshed (TimeToBuildBob 2,626 against the author's 1,949, order unchanged).
 - 2026-10-31 - Rotation re-verification, every cited reference live: v0.35.1 still the newest stable, PyPI unchanged at 32,174 downloads in the last month, and the contributor counts refreshed again (TimeToBuildBob 2,711 against the author's 1,956, order unchanged).
+- 2026-11-08 - Rotation re-verification, every cited reference live: v0.36.0 (November 2) still the newest stable with the dev pre-release train continuing, PyPI still at 32,174 downloads in the last month, and the contributor counts refreshed (TimeToBuildBob 2,795 against the author's 1,962, order unchanged).
 
 ## See also
 

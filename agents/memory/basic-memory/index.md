@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-11-04
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -21,12 +21,12 @@ A Python MCP server from Basic Machines (PyPI basic-memory 1.0.0, Python 3.12+),
 Notes are Obsidian-compatible markdown with observations and wikilinks that compound into a knowledge graph.
 Search is semantic with optional cross-encoder reranking for hybrid and vector results.
 Every tool is tagged with behavior hints (read-only, destructive, idempotent) for progressive tool discovery, so agents pick the right tool without probing.
-The cloud adds cross-device sync, browser and mobile access, and a shared Teams workspace; the local server stays free and air-gapped.
+The cloud adds cross-device sync, browser and mobile access, and shared workspaces; the local server stays free and air-gapped.
 
 ## Status
 
 **Active and mid-scale, with a thin public-discussion footprint.**
-4,237 stars with the repository pushed 2026-11-04, created 2024-12-02, as of 2026-11-04 (GitHub API).
+4,237 stars with the repository pushed 2026-11-07, created 2024-12-02, as of 2026-11-08 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&theme=dark&legend=top-left" />
@@ -39,6 +39,7 @@ The registry-lag record ended: PyPI moved to 0.24.1 on 2026-10-23, in sync with 
 The Hacker News record is a 4-point Show HN in March 2025 (0 comments) and a 2-point third-party story in February 2026, so the 4.1k stars came through the MCP-ecosystem channels (registry listings, Discord) rather than public debate.
 The post-1.0 fix train (2026-11-01 and 02) speeds the file-conflict check with two indexed columns (one query instead of a per-project scan on every write), stops a folder named like the project from colliding with its root note's permalink, refuses note moves onto paths equivalent to another note (case and Unicode twins), and conforms the Hermes Agent memory-provider plugin to Hermes v0.22's provider contract (inline capture on Hermes's worker thread, per-profile provider instances, and a new transcript note per session switch linked by a continues relation).
 The November 4 fixes (pending release) start watching a newly added project right away and embed a caught-up project in the background instead of the watcher loop, rank Postgres prefix queries by the words typed with title scoring, stop recording a note's created_at after its updated_at, write CLI output as UTF-8 on Windows, and let the searching server own the similar-notes floor.
+The November 5-to-7 train (pending release) is performance and fixes: note-resolve answers cached, vector search rows ranked in the database with search-byte counting, each path checked once per storage-event batch, the exact count dropped from search, hybrid legs run concurrently, non-numeric values dropped from numeric metadata filters, frontmatter btree indexes that reject long values removed, semantic search freshness reported to Cloud, local and cloud projects listed together when a project is unknown, and note formatting with format_on_save removed (breaking); PyPI stays at 1.0.0.
 
 ## Strengths
 
@@ -50,7 +51,7 @@ The November 4 fixes (pending release) start watching a newly added project righ
 ## Cautions
 
 - **AGPL-3.0 is the only non-permissive local license in this category**: fine to use, restrictive if you embed the server in a product.
-- **The beta's locked-for-life cloud rate was retired within a day of this note's creation**: the ladder is now per-seat Team and Business tiers, which is exactly the repricing the beta language invited, so treat early rates here as non-binding.
+- **The beta's locked-for-life cloud rate was retired within a day of this note's creation, and the per-seat ladder that replaced it lasted five weeks before the workspace-credit restructure of November 8**, which is exactly the repricing the beta language invited, so treat early rates here as non-binding.
 - PyPI lags the repository by weeks, so current fixes mean installing from source.
 - The knowledge graph is only as good as the agent's linking discipline, the same statistical-adherence problem the file conventions have, with a graph view added.
 - Public scrutiny is thin: two threads totaling 6 points, no independent reviews found.
@@ -58,10 +59,11 @@ The November 4 fixes (pending release) start watching a newly added project righ
 ## Pricing
 
 Local server: free, AGPL-3.0, all data on your disk.
-Team: $15/seat/month (volume pricing $13/seat at 10 or more, $12 at 20 or more), 7-day trial, shared workspaces with roles and member management.
-Business: $30/seat/month, adding SSO, audit logs, admin controls, HIPAA-compliant hosting, and priority support.
-Agent Infrastructure: custom, credit-based pricing for agent fleets with on-premises options, as of 2026-10-11.
-The $15/month locked-for-life beta is gone.
+Cloud: $19/month per workspace (2 members, 1,900 usage credits included, 7-day trial), as of 2026-11-08.
+Pro: $99/month (5 members, 9,900 credits, scoped API keys).
+Business: $249/month (25 members, 24,900 credits, audit logs, granular permissions), with SSO and HIPAA BAA as paid add-ons.
+Usage credits cost $0.01 each and pay for your model calls, the web app, and Basic Memory's agents; members cost nothing extra up to the plan's limit.
+The per-seat Team and Business ladder is gone.
 
 ## Price history
 
@@ -69,6 +71,7 @@ The $15/month locked-for-life beta is gone.
 | ---- | ---- | ------ | ------ |
 | 2026-10-06 | Cloud, Teams | Baseline: local free (AGPL-3.0), Cloud $15/mo beta locked ($12.50/mo yearly), 7-day trial, Teams same per-user price. | [basicmemory.com](https://basicmemory.com) |
 | 2026-10-07 | Team, Business, Agent Infrastructure | The locked-for-life beta retired: Team $15/seat/mo (volume $13/seat at 10+, $12 at 20+), Business $30/seat/mo (SSO, audit, HIPAA hosting), Agent Infrastructure custom credits. | [basicmemory.com/pricing](https://basicmemory.com/pricing) |
+| 2026-11-08 | Cloud, Pro, Business | The per-seat ladder replaced: Cloud $19/mo per workspace (2 members, 1,900 credits), Pro $99/mo (5 members, 9,900 credits, scoped API keys), Business $249/mo (25 members, 24,900 credits, audit logs, granular permissions), usage credits at $0.01 each, SSO and BAA now paid add-ons. | [basicmemory.com/pricing](https://basicmemory.com/pricing) |
 
 ## Compared to
 
@@ -92,6 +95,7 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 - 2026-10-30 - Recorded the v1.0.0 release (October 29, PyPI in sync): the bm_* tool line shipped as prepared, with shared parameter types and refusals for the bm_* tools and a fix refusing note writes whose path leaves the project.
 - 2026-11-03 - Recorded the post-1.0 fix train (November 1 and 2): indexed file-conflict lookups, the folder-named-like-the-project permalink fix, note-move rejections on equivalent paths, and the Hermes plugin conformed to Hermes v0.22's provider contract (inline ordered capture, per-profile providers, session-switch notes); the PyPI figure in the opening moved to 1.0.0 and the push date refreshed to 2026-11-02.
 - 2026-11-04 - Recorded the pending November 4 fixes: newly added projects watched immediately with caught-up projects embedded in the background, Postgres prefix queries ranked by the words typed, created_at no longer recorded after updated_at, UTF-8 CLI output on Windows, and the searching server owning the similar-notes floor; the push date refreshed to 2026-11-04.
+- 2026-11-08 - Recorded the pricing restructure (November 8): the per-seat Team and Business ladder replaced by Cloud $19/mo per workspace (2 members, 1,900 credits), Pro $99/mo (5 members, 9,900 credits, scoped API keys), and Business $249/mo (25 members, 24,900 credits) with metered $0.01 credits and SSO/BAA as paid add-ons (Price history row); recorded the November 5-to-7 pending performance train with its breaking removal of note formatting and format_on_save, PyPI still at 1.0.0; the push date refreshed to 2026-11-07.
 
 ## See also
 

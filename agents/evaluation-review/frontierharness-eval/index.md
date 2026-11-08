@@ -1,7 +1,7 @@
 ---
 title: "FrontierHarness Eval"
 created: 2026-09-05
-updated: 2026-10-16
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, coding-agents]
 readability: 3
@@ -68,6 +68,7 @@ Not as a final ranking, and not for teams whose tasks look nothing like its 30.
 - 2026-10-04 - Added the Scaffold Effect arXiv study to Compared to and References as the independent academic counterpart on harness variance.
 - 2026-10-06 - Added the MLE minimal-harness arXiv study (2609.40303) to Compared to and References as the strongest current version of the harness-matters-little objection.
 - 2026-10-07 - Added the frontier-harness-eval/eval star history chart to the Status section.
+- 2026-11-08 - Rotation re-verification: every cited URL re-fetched and live, the 82-point launch thread re-confirmed, and the repository re-confirmed unchanged (last push 2026-09-08, no license).
 
 ## See also
 

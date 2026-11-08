@@ -1,7 +1,7 @@
 ---
 title: "Exo"
 created: 2026-09-05
-updated: 2026-11-06
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agent, self-improvement, rust]
 readability: 3
@@ -21,7 +21,7 @@ The design philosophy is documented in the repository's RSI.md, "A Systems View 
 
 ## Status
 
-Active: created 2026-05-20, 1,505 stars and 114 forks, pushed 2026-11-03 (GitHub API, as of 2026-11-06).
+Active: created 2026-05-20, 1,505 stars and 114 forks, pushed 2026-11-08 (GitHub API, as of 2026-11-08).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=exoharness/exo&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ Not for production work or anyone who cannot tolerate a harness changing its own
 - 2026-10-17 - Repaired the RSI.md reference in the rotation pass: the repository restructure moved the document from docs/ to examples/self-improving-agent/docs/ (the old URL 404s), and refreshed the push date.
 - 2026-10-25 - Rotation re-verification, every cited reference live (RSI.md at its post-restructure path), and the push date refreshed to 2026-10-23; no releases and no new independent evaluation, so the FrontierHarness figures stand as cited.
 - 2026-10-31 - Rotation re-verification, every cited reference live: pushed date refreshed to 2026-10-31, and the FrontierHarness figures re-read unchanged ($1.05 median, 53.3 percent pass) from the live site.
+- 2026-11-08 - Rotation re-verification, every cited reference live: the push date refreshed to 2026-11-08, still no tagged releases, and the FrontierHarness figures re-read unchanged ($1.05 median, 53.3 percent pass, Claude Code at $18.34) from the live site.
 
 ## See also
 

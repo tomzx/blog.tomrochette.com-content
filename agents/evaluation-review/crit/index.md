@@ -1,7 +1,7 @@
 ---
 title: Crit
 created: 2026-10-12
-updated: 2026-11-05
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Beyond the local loop it syncs both ways with GitHub PRs and GitLab MRs (pull re
 
 ## Status
 
-Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-11-04, with v0.23.2 released 2026-10-31 after v0.23.1 (2026-10-23) and the author claiming a weekly release cadence.
+Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-11-07, with v0.23.2 released 2026-10-31 after v0.23.1 (2026-10-23) and the author claiming a weekly release cadence.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tomasz-tomczyk/crit&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ Not for terminal-only workflows (Hunk), not for CI gating (nothing here exits no
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 - 2026-11-01 - Recorded the v0.23.2 release (2026-10-31, review-page reload-and-toast fixes) and refreshed the activity line and the releases reference.
 - 2026-11-05 - Refreshed the activity line: the default branch moved 2026-11-04 with test-stability and dedup fixes, v0.23.2 still the newest release.
+- 2026-11-08 - Refreshed the activity line: the default branch moved 2026-11-07 with a dev-dependency bump (eslint, PR 1151), v0.23.2 still the newest release.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: claude-obsidian
 created: 2026-10-28
-updated: 2026-11-01
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, pkm, obsidian, knowledge-graph, open-source]
 readability: 3
@@ -74,6 +74,7 @@ Not for product memory (no API to call), for agent-experience memory (it files s
 
 - 2026-10-28 - Created from the cross-category handoff resolution, with six fetched sources and the zero-coverage-at-15.9k-stars-plus-plugin-kind combination recorded as the critical angle.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live (repository API, README, CHANGELOG, install guide, releases API, the Karpathy gist, and the HN Algolia footprint scan), no facts changed: v3.0.1 (2026-10-21) is still the latest release, the repository is still quiet since its 2026-10-25 push, and the footprint scan still finds no Hacker News thread of the plugin's own as of 2026-11-01.
+- 2026-11-08 - Rotation re-verification: every cited URL re-fetched live (repository API, README, CHANGELOG, install guide, releases API, the Karpathy gist, and the HN Algolia footprint scan), no facts changed: v3.0.1 (2026-10-21) is still the latest release and the repository is still quiet since its 2026-10-25 push; the footprint scan now returns two loose matches (Basic Memory's March 2025 Show HN and a March 2026 tax-filing post whose URL slug carries the phrase), neither a thread about the plugin, so the no-thread-of-its-own record stands.
 
 ## See also
 

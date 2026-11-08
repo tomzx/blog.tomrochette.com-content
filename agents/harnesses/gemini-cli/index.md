@@ -1,7 +1,7 @@
 ---
 title: Gemini CLI
 created: 2026-08-22
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, google, developer-tools]
 readability: 3
@@ -25,7 +25,7 @@ It authenticated three ways: **Google OAuth (the famous free tier of 60 requests
 **Superseded for consumers, alive for enterprises.**
 On May 19, 2026, Google announced it was unifying terminal agent work into Google Antigravity, whose Antigravity CLI (written in Go, multi-agent, sharing a harness with the Antigravity 2.0 desktop app) carries over skills, hooks, subagents, and extensions.
 On June 18, 2026, Gemini CLI and the Gemini Code Assist IDE extensions stopped serving requests for Google AI Pro and Ultra subscribers and free individual users.
-Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 107.4k stars as of 2026-10-20, about 6,600 commits as of 2026-11-07, and nightly and preview release channels.
+Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 107.4k stars as of 2026-10-20, about 6,600 commits as of 2026-11-08, nightly and preview release channels with v0.67.0 (November 4, 2026) the latest tagged release.
 Google's own enterprise documentation now opens with a banner saying Gemini CLI is not optimized for the latest Gemini models and pointing to Antigravity CLI, so even the enterprise path is being steered to the successor (docs updated October 16, 2026).
 
 <picture>
@@ -75,6 +75,7 @@ Not for individuals, whatever the 2025 blog posts (several of which I believed a
 - 2026-10-20 - Rotation re-verification: recorded the enterprise docs' "not optimized for the latest Gemini models" banner steering even licensed users to Antigravity CLI, and refreshed the commit count.
 - 2026-10-27 - Rotation re-verification, re-fetching every cited reference (all live) and confirming the enterprise docs still carry the not-optimized banner steering to Antigravity CLI.
 - 2026-11-01 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the commit count to about 6,569 and confirmed the enterprise docs still carry the not-optimized banner steering to Antigravity CLI.
+- 2026-11-08 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the commit count to 6,600 exactly, named v0.67.0 (November 4, 2026) as the latest tagged release, and confirmed the enterprise docs still carry the not-optimized banner steering to Antigravity CLI.
 
 ## See also
 

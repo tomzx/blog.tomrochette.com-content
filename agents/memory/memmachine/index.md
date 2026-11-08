@@ -1,7 +1,7 @@
 ---
 title: MemMachine
 created: 2026-10-11
-updated: 2026-11-04
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -75,6 +75,7 @@ My disagreeable claim: publishing zero numbers in a benchmark-obsessed category 
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 - 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repository API, README, docs, site, PyPI, Hacker News search), no facts changed; both PyPI distributions still 0.4.0, the thin-discussion record unchanged, and the trusted-teams wall the same logos plus three smaller ones.
 - 2026-11-04 - Rotation re-verification: every cited URL re-fetched live (repository API, README, docs, site, PyPI, Hacker News search), no facts changed; both PyPI distributions still 0.4.0, and the pushes since the last verification (2026-10-30 to 11-02) are installer and packaging housekeeping plus the one config change replacing retiring OpenAI model defaults with gpt-6-luna; the push date refreshed to 2026-11-02.
+- 2026-11-08 - The November 5 pushed_at movement resolved to side branches, with the default branch quiet since the November 2 pushes the last verification recorded; no facts changed.
 
 ## See also
 

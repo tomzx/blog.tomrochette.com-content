@@ -1,7 +1,7 @@
 ---
 title: Juggler
 created: 2026-08-30
-updated: 2026-11-06
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, gui, go]
 readability: 3
@@ -37,7 +37,7 @@ The public Show HN on July 12, 2026 drew 280 points and 119 comments ([HN](https
 
 Shipping is steady: v0.7.9 published October 28, 2026, which made usage-limit errors that give a reset time offer to auto-continue, made file paths in replies clickable and opening on the Pinboard, added Compact and Hand off buttons beside the context meter for long conversations, added `/init` drafting an AGENTS.md for projects without one, suggested models.dev providers for custom endpoints, and let Claude Code conversations recover from a lost tool result; before it, v0.7.8 published October 23, 2026, which added automatic retries for dropped connections, cut-off streams, and provider server errors (a retried reply replaces the half-answer the failed attempt showed), a Simplified Chinese translation with a new Language tab in Settings; before it, v0.7.7 published October 17, 2026, which added a mutating `run_code` tool (the write-side pair to `query_code`, completing its code-mode surface), a self-contained HTML conversation export, a `--allow-host` flag for serving Juggler behind a reverse proxy such as tailscale, and a sub-agent run budget settable in Settings with a 1M-token default; before it, v0.7.6 published October 9, 2026, which added tool hooks (deny, hold, or annotate any tool call, from extensions or `~/.juggler/hooks`) plus a batch of selection, undo, and MCP fixes; before that, v0.7.5 (October 6) was a large polish release (a friendlier file-attach flow with text snapshots for non-images, an image viewer with pinch and Ctrl-scroll zoom, CLI detection across nvm, fnm, bun, pnpm, volta, mise, and asdf installs, Ollama models honoring a raised max-output-tokens setting, selectable auto-approve reviewer policies, and a batch of undo, sidebar, and window fixes); before that, v0.7.4 (October 2) added per-provider toggles for Codex and Copilot subscriptions, thinking levels for Ollama models, a file viewer that plays video and audio and opens more image formats, and a fix for slow-starting WSL sessions on Windows; v0.7.3 (September 30) added a "Group" workspace type that organizes conversations without a worktree or copy, usage meters that redden by pace against the window rather than by quota consumed, touch-device fixes, and an LM Studio provider that reads each model's loaded context window.
 One person builds it, which is both the reason it ships fast and the project's single point of failure.
-Re-checked 2026-11-06 with v0.7.9 still the newest release (GitHub API).
+Re-checked 2026-11-08 with v0.7.9 still the newest release (GitHub API).
 
 ## Strengths
 

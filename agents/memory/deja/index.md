@@ -1,7 +1,7 @@
 ---
 title: deja
 created: 2026-10-10
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, transcripts, retrieval, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Beyond search it adds `deja promote` (curated notes with accepted and rejected l
 ## Status
 
 **Young, fast-moving, and single-maintainer, with adoption ahead of any public discussion.**
-1,206 stars and 120 forks as of 2026-10-16 (GitHub API), created 2026-07-14, pushed 2026-11-04, MIT, with 77 open issues and pull requests as of 2026-10-19 (GitHub API).
+1,206 stars and 120 forks as of 2026-10-16 (GitHub API), created 2026-07-14, pushed 2026-11-08, MIT, with 77 open issues and pull requests as of 2026-10-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&theme=dark&legend=top-left" />
@@ -36,6 +36,7 @@ Beyond search it adds `deja promote` (curated notes with accepted and rejected l
 Latest release v0.23.5 (2026-11-03). v0.23.4 (2026-11-01) shipped the tracked post-v0.23.3 train and added reverse commit attribution (`deja origin` traces a commit back to the coding-agent session and user prompt that produced it across all 43 harnesses), shell-layer recall (`deja shell` for agents whose MCP or hook channel is absent or broken), and full CJK recall and decision extraction parity.
 v0.23.5 adds a status-bar extension for VS Code, Cursor, Windsurf, and Antigravity (`vshulcz.deja-status`, a live session-memory counter that runs `deja stats` or `deja install --auto` on click), a Raycast extension with Search and Recent Sessions commands, and a standalone `deja-reflect` end-of-session skill, with recalled user lines and rules sync now requiring confirmation in the Claude Code and Codex plugins.
 A nightly release channel now publishes rolling builds beside the tagged releases (first nightly 2026-11-03), and v0.24.0 (2026-11-05) shipped the pending train with more on top: the hook and MCP hot path drops under 50 ms (session record reads bound to tail windows, transcript scans prefilters by mtime, compressed Codex rollouts streamed without loading), `deja orient` and PreToolUse surface co-change file pairs, symbol decisions, and verified traps with targeted test priority before an edit or command runs, PreCompact captures the modified-file and symbol-decision working set, `deja embed` supports asymmetric NVIDIA NIM and Nemotron models with automatic passage/query input types, a native Antigravity plugin bundle lands, and `deja install opencode-auto` replaces the legacy OpenCode 1.x status plugin with the 2.x server plugin on upgrade.
+The November 7-to-8 commits (pending release) wire hooks into ZCode Desktop 3.17+'s config.json with a doctor fix reading the file that exists, auto-seed repo memory and wire coupled-file awareness, file guards, and error remedies across hooks, calibrate the semantic floor for low-cosine embedding models, and read only winning record offsets in semantic search; the nightly channel keeps publishing rolling builds.
 v0.23.1 halves the cold-build peak again (4.7 GB instead of 9.4 GB on a 40,000-session store), cuts redaction CPU 17x with the same output, and fixes a quadratic slowdown a search over many look-alike sessions hit; it adds MiniMax Code as the forty-third wired harness, project aliases in `~/.config/deja/projects` that name a directory tree as one project so every checkout and worktree under it shares one scope, and `deja search --sort date`.
 v0.23.0 makes big stores cheap to keep current: an update pass appends the records of rewritten sessions instead of rewriting the whole log and reads only what changed, cutting a 20-transcript update from 24 seconds to 1.7 and peak memory from 7 GB to under 1 GB on a 40,000-session store, and a common-word search answers in about a second instead of 24; it treats sub-agents as sessions of their own in every reader that marks one, forks no longer take credit for what they copied, and recalled history can no longer run a command in opencode or end a dsh turn, with the index rebuilt once on upgrade and `DEJA_NO_AUTO_INDEX` plus `DEJA_SEARCH_ONLY` for busy machines.
 v0.22.1 makes session playback show the code each edit changed, line by line, for Claude Code, Codex, and every harness whose transcript holds its edit calls, adds `deja resume <id> --app` to open a Codex session in the ChatGPT desktop app, cuts session start to 0.38 seconds and the per-prompt hook to 0.59 seconds on a 19,000-session index (from 1.46 and 1.65), masks secrets that slipped past redaction, and moves the index version to 70, so the store rebuilds once on the first run after upgrading.
@@ -89,6 +90,7 @@ Not for teams needing multi-user memory, audited third-party evaluation, or reca
 - 2026-11-03 - Recorded v0.23.4 (November 1, shipping the tracked train plus reverse commit attribution via `deja origin` across 43 harnesses, shell-layer recall via `deja shell`, and full CJK recall parity) and v0.23.5 (November 3, a status-bar extension for VS Code, Cursor, Windsurf, and Antigravity, a Raycast extension, and the standalone deja-reflect skill, with recalled user lines and rules sync requiring confirmation); the push date refreshed to 2026-11-03.
 - 2026-11-04 - Recorded the post-v0.23.5 pending train (November 3-4, community pull requests merged): per-harness deletion guides for aider, CodeWhale, Cherry Studio, and JetBrains AI Assistant, shell completion of hook command flags, double-dash positional and empty-output-path fixes, an opencode status slot-overlap fix, and coherent multi-topic and unscoped recall blocks, alongside a nightly release channel now publishing rolling builds; the push date refreshed to 2026-11-04.
 - 2026-11-07 - Recorded v0.24.0 (November 5), which shipped the pending train and added the sub-50 ms hook and MCP hot path, project X-Ray and symbol-decision recall in `deja orient` and the pre-flight hooks, PreCompact working-set capture, asymmetric Nemotron and NVIDIA NIM embeddings, a native Antigravity plugin bundle, and the OpenCode 2.x server-plugin upgrade path.
+- 2026-11-08 - Recorded the pending November 7-to-8 train: ZCode Desktop 3.17+ hooks wiring with the doctor fix, auto-seeded repo memory with coupled-file wiring, file guards, and error remedies across hooks, semantic-floor calibration for low-cosine models, and winning-record offset reads in semantic search; the push date refreshed to 2026-11-08.
 
 ## See also
 

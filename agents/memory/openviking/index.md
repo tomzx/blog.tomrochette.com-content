@@ -1,7 +1,7 @@
 ---
 title: OpenViking
 created: 2026-10-07
-updated: 2026-11-04
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, context-database, file-based, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint even more than this category's usual pattern.**
-40,037 stars as of 2026-10-28 (GitHub API), created 2026-01-05, with the repository pushed 2026-11-04, as of 2026-11-04 (GitHub API).
+40,037 stars as of 2026-10-28 (GitHub API), created 2026-01-05, with the repository pushed 2026-11-08, as of 2026-11-08 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&theme=dark&legend=top-left" />
@@ -36,6 +36,7 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
 
 Latest release v0.5.3 (2026-11-02, ninety-eight commits over the v0.5.2.1 hotfix) alongside python-sdk 0.1.18, per the GitHub releases API: the Rules (Beta) service and its `openviking_rule_search` agent tool ship with bilingual guides and an API reference, transactional SQLite path locks and scoped Redis lease refreshes harden storage, accounts gain self-service API key rotation and batched group-member administration, the standalone gateway runs multi-replica on Redis, Compile hardens target versioning and scheduled updates, and the plugin line gains the CodeBuddy Code CLI adapter, DeepSeek Harness Desktop, a DingTalk connector with OAuth, and post-install onboarding with a history import script, with breaking admin-API and old-session changes the release notes call out; v0.5.2.1 (2026-10-27) before it was a hotfix disabling automatic detection of new sensitive values in sessions, which had misjudged ordinary content as private, replaced it with placeholders, and created invalid privacy records, while matching of registered privacy values and restoration of historical placeholders stay in place.
 The pending train the release notes tracked (2026-10-29 through 11-03) shipped inside v0.5.3, and the post-release default-branch batch (2026-11-04, pending release) adds live context and MCP support, a search module replacing the resource-import UI, query-driven CacheFS caching, LangChain Store-owned client lifecycle management, shared-deployment usage attributed to accounts, storage and vectordb operation metrics, an explicit empty-grants sentinel in ACL persistence, and a prefetch fix honoring prefetch_search_topn above 5.
+The batch continued (November 6-8, pending release): a Studio file-tree view with independently subscribed scope selectors, LangChain Store persistence, authentication, and Unicode query-term fixes, a config compatibility fix for pre-upgrade add-location settings, inline skill Markdown in the Go SDK, and body preservation after empty ATX headings in the parser; a langchain-openviking@0.2.0 package release landed November 6.
 v0.5.0 adds the OpenViking Gateway (beta): a standalone proxy process on port 1935 that any model client with a configurable base URL can point at, injecting profile, memory, and skill context without plugins or prompt changes, supporting the Anthropic Messages, OpenAI Chat Completions, and OpenAI Responses protocols, and replaying injected content byte-for-byte so provider prompt caches and thinking signatures stay valid; v0.5.1 can run that gateway inside the OpenViking server itself and adds field-level privacy references, expanded batch-write options, and multimodal retrieval.
 v0.5.2 turns working memory off by default (sessions still archive raw messages and extract long-term memory, but WM and checkpoint summaries now require an explicit `enable_working_memory=true`), moves the LangChain integration into a separate `langchain-openviking` package, adds session-privacy extraction with privacy-tree MCP tools, and renames the Pi extension's tools from `viking_*` to `openviking_*`.
 Development and writing are both active: the 108-page documentation site and the project blog are current (the latest post, a three-minute evaluation test, dates to 2026-10-03).
@@ -84,6 +85,7 @@ Not for proprietary SaaS embedding, and not for buyers who need published hosted
 - 2026-11-01 - The pending train extended with a Magpie memory integration plugin (October 31 to November 1, mostly fixes otherwise); no release after v0.5.2.1, the push date refreshed to 2026-11-01.
 - 2026-11-03 - The pending train extended through 11-03: distributed watch storage and scheduling, Studio management of scheduled Compile updates, a GLOBAL identity lifecycle with a token-role allowlist in admin, cheaper multi-write metadata IO, and a Windows UTF-8 stdio fix; no release after v0.5.2.1, the push date refreshed to 2026-11-03.
 - 2026-11-04 - Recorded v0.5.3 (November 2, with python-sdk 0.1.18): the tracked October 29 to November 3 pending train shipped (Rules Beta with the rule service and openviking_rule_search, storage and path-lock hardening, self-service API key rotation and batched group-member administration, the multi-replica Redis gateway, Compile hardening, and the CodeBuddy adapter, DSH Desktop, and DingTalk OAuth connector in the plugin line), with breaking admin-API and old-session changes; the November 4 post-release batch recorded as pending (live context and MCP support, the search module, query-driven CacheFS, LangChain client lifecycle, usage attribution, metrics, and the ACL empty-grants sentinel); the integration list gains CodeBuddy, and the push date refreshed to 2026-11-04.
+- 2026-11-08 - The pending batch extended (November 6-8): the Studio file-tree view with scope selectors, LangChain Store persistence, authentication, and Unicode fixes, the config compatibility fix for old add-location settings, inline skill Markdown in the Go SDK, and the empty-ATX-heading parse fix, with langchain-openviking@0.2.0 released November 6; the push date refreshed to 2026-11-08.
 
 ## See also
 

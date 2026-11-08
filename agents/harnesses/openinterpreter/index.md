@@ -1,7 +1,7 @@
 ---
 title: Open Interpreter
 created: 2026-09-27
-updated: 2026-11-04
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, harness-emulation]
 readability: 3
@@ -25,7 +25,7 @@ The fork is documented rather than hidden: FORK_BRANDING.md defines the distribu
 
 ## Status
 
-Active and fast-moving again after roughly nineteen quiet months: 68,554 stars, 5,892 forks, and 14 open issues as of 2026-10-12, with pushes continuing through 2026-11-04 (GitHub API), which tells you issue intake is tightly curated.
+Active and fast-moving again after roughly nineteen quiet months: 68,554 stars, 5,892 forks, and 14 open issues as of 2026-10-12, with pushes continuing through 2026-11-08 (GitHub API), which tells you issue intake is tightly curated.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&theme=dark&legend=top-left" />

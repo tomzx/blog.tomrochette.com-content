@@ -1,7 +1,7 @@
 ---
 title: Aeon
 created: 2026-10-08
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, github-actions, scheduling, autonomous-agents]
 readability: 3
@@ -24,7 +24,7 @@ It is built by Aaron Elijah Mars (Aeon Inc), and deployment is a fork or templat
 ## Status
 
 **Active and single-maintainer.**
-773 stars as of 2026-10-13, 300 forks and 1,546 commits as of 2026-11-07, created 2026-03-04 and pushed 2026-11-05.
+773 stars as of 2026-10-13, 300 forks and 1,547 commits as of 2026-11-08, created 2026-03-04 and pushed 2026-11-08.
 The maintainer wrote about 83% of tracked contributor commits, and there is exactly one tagged release (v0.1.0, 2026-07-09), so development is trunk-based on main.
 A Hacker News search returned no coverage as of 2026-10-27, and the fork count is inflated as an adoption signal because every deployed instance is a fork by design.
 The project's proof-of-work page self-reports 152 vulnerability findings across 113 repositories securing 5.4M stars (counts as of 2026-11-07, page star counts dated October 24, 2026) with a link per fix, substantial evidence that is curated by the project itself.
@@ -75,6 +75,7 @@ Not for teams that need a governed execution layer (gh-aw is the answer there) o
 - 2026-10-27 - Fully re-verified in rotation with every cited URL re-fetched: the docs (nine harnesses, ten gateways, the 86-skill catalog re-confirmed against skills.json), the repo README (the $aeon Bankr button and the footer wallet address still present), the security page (findings moved to 147 across 109 repositories securing 5.3M stars), the founder site, and the still-empty HN footprint all re-confirmed; the blast-radius caution now names the docs' bwrap read-only sandbox and CI parity check, and the counters refreshed (291 forks, 1,499 commits, pushed 2026-10-26).
 - 2026-11-01 - Refreshed the repository counters (294 forks, 1,511 commits, pushed 2026-11-01) and the proof-of-work page counts (150 findings across 112 repositories securing 5.4M stars).
 - 2026-11-07 - Refreshed the repository counters (300 forks, 1,546 commits, pushed 2026-11-05, the default branch's head dated the same day) and the proof-of-work page counts (152 findings across 113 repositories securing 5.4M stars).
+- 2026-11-08 - Refreshed the repository counters (1,546 to 1,547 commits, pushed 2026-11-08) and re-confirmed the proof-of-work page counts unchanged (152 findings across 113 repositories securing 5.4M stars) and the single v0.1.0 release.
 
 ## See also
 
@@ -87,7 +88,7 @@ Not for teams that need a governed execution layer (gh-aw is the answer there) o
 
 - https://github.com/aeonfun/aeon - repository scale, template deployment model, MIT license, single release, founder line, as of 2026-10-08
 - https://www.aeon.fun/docs - architecture, the 86-skill catalog, five-minute scheduler, reactive triggers, chains, harnesses, and gateways (re-fetched 2026-10-27)
-- https://www.aeon.fun/security - the self-reported vulnerability-disclosure record (152 findings, 113 repositories, 5.4M stars, counts re-fetched 2026-11-07)
+- https://www.aeon.fun/security - the self-reported vulnerability-disclosure record (152 findings, 113 repositories, 5.4M stars, counts re-fetched 2026-11-08)
 - https://aaronjmars.com - the founder's own description of Aeon, MiroShark, and Hyperstitions (re-fetched 2026-10-27)
 - https://hn.algolia.com/api/v1/search?query=aeonfun&tags=story - the coverage search that returned no hits on the project, as of 2026-10-27
-- https://api.github.com/repos/aeonfun/aeon - exact counters (created 2026-03-04, 773 stars as of 2026-10-13, 300 forks, 1,546 commits, pushed 2026-11-05; re-verified 2026-11-07) and the single v0.1.0 release (re-verified 2026-10-30)
+- https://api.github.com/repos/aeonfun/aeon - exact counters (created 2026-03-04, 773 stars as of 2026-10-13, 300 forks, 1,547 commits, pushed 2026-11-08; re-verified 2026-11-08) and the single v0.1.0 release (re-verified 2026-11-08)

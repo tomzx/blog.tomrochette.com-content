@@ -1,7 +1,7 @@
 ---
 title: TencentDB Agent Memory
 created: 2026-10-11
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, openclaw, hermes, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Published by Tencent (the repository moved from the Tencent org to TencentCloud)
 ## Status
 
 **Large and fast-rising, with a license detector footnote.**
-29,264 stars and 2,852 forks, created 2026-04-07, pushed 2026-11-04, with the default branch's only movement since the 2026-10-31 verification a Chinese README edit on 2026-11-04, as of 2026-11-07 (GitHub API).
+29,264 stars and 2,852 forks, created 2026-04-07, pushed 2026-11-04, with the default branch's only movement since the 2026-10-31 verification a Chinese README edit on 2026-11-04, as of 2026-11-08 (GitHub API); the default branch now reads `feat/server_team`, a parallel branch mirroring main's release history with a duplicated README edit and no commits on either branch since November 4, a signal pointing at an in-development team-server line (or a branch-management slip), with nothing shipped from it.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/TencentDB-Agent-Memory&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ My disagreeable claim: reversible compression, not recall quality, is the featur
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 - 2026-10-27 - Recorded the v2.0.3 stable release (October 26): session default binding, Wiki rich-document import (Word, Excel, PowerPoint, PDF), the upstream wait default raised from 10 minutes to 1 hour, and DSH, memory-time-format, install-script, and Redis-recovery fixes, on top of the beta.1's default-off decision-service and skill-selection capabilities.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live (all six reachable, no dead sources), no facts changed (v2.0.3 still the latest release, the npm plugin still 1.0.3); the default-branch commits since the last verification are panel and SDK timeout fixes, a CI external-pull-request acknowledgment, and a memory-core fix enforcing agent and task read permissions (list filtering scoped to the authenticated caller with team-membership checks in SQLite and MongoDB).
+- 2026-11-08 - Rotation re-verification: every cited URL re-fetched live (all six reachable, no dead sources), no facts changed on the record (v2.0.3 still the latest release, the npm plugin still 1.0.3, the HN search's two other hits unrelated to the tool); recorded the default branch's change to `feat/server_team`, a parallel branch mirroring main's history with no new commits since November 4, as of 2026-11-08.
 
 ## See also
 

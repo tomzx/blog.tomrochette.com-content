@@ -11,7 +11,7 @@ readability: 3
 Persistent memory for agents: the file conventions, the portable format, the capture plugins, and the hosted and self-hostable services, from graph pipelines to temporal stores.
 
 - [agentmemory](agentmemory/index.md) - the Apache-2.0 keyless session-memory server shared by 20-plus coding agents: BM25 recall first, 54 MCP tools, on a pinned iii engine.
-- [Basic Memory](basic-memory/index.md) - the AGPL-3.0 MCP server that grows a knowledge graph from agent conversations in Obsidian-compatible markdown, with per-seat Team and Business cloud tiers.
+- [Basic Memory](basic-memory/index.md) - the AGPL-3.0 MCP server that grows a knowledge graph from agent conversations in Obsidian-compatible markdown, with a per-workspace credit cloud ladder.
 - [Belief Context Graph](belief-context-graph/index.md) - BIGAI NLCO's MIT belief-graph memory layer: agent trajectories become confidence-scored, evidence-linked belief nodes with typed contradiction edges, local-first with a Codex wrapper.
 - [Cabinet](cabinet/index.md) - the MIT self-hosted knowledge base where every artifact is a markdown file on disk and an onboarded agent team works it on a schedule, quiet since August.
 - [claude-mem](claude-mem/index.md) - the 101.1k-star plugin that captures coding-agent sessions, compresses them with your tokens, and reinjects the context.

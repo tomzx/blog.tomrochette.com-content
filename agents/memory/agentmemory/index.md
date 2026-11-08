@@ -1,7 +1,7 @@
 ---
 title: agentmemory
 created: 2026-10-09
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The design doc extends Karpathy's LLM-wiki pattern with confidence scores, lifec
 ## Status
 
 **Large and active, with adoption that outruns its discussion footprint.**
-29,558 stars, 2,607 forks, and 572 open issues and pull requests as of 2026-10-20 (GitHub API), created 2026-02-25, pushed 2026-11-04, as of 2026-11-04 (GitHub API).
+29,558 stars, 2,607 forks, and 572 open issues and pull requests as of 2026-10-20 (GitHub API), created 2026-02-25, pushed 2026-11-08, as of 2026-11-08 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&theme=dark&legend=top-left" />
@@ -33,9 +33,10 @@ The design doc extends Karpathy's LLM-wiki pattern with confidence scores, lifec
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.9.32 (2026-11-04) with 59,741 trailing-month npm downloads (2026-10-05 to 2026-11-04), as of 2026-11-04; the pending v0.9.31 shipped the iii v0.25.0 runtime upgrade with Worker Compose and the native Pi, Oh My Pi, and DeepSeek Harness integrations, plus a retrieval fix the release grounds in the project's own BM25 development evaluation: correcting prefix-score inflation raised strict recall-all@5 from 65.74 to 84.68 percent (complete-evidence 309 to 398 of 470 answerable), summaries now process only new observations so unchanged sessions make zero extra summarization calls, and optional graph enrichment runs under a 500 ms budget so keyword and vector results return if graph storage stalls.
+Latest release v0.9.32 (2026-11-04) with 72,036 trailing-month npm downloads (2026-10-09 to 2026-11-08), as of 2026-11-08; the pending v0.9.31 shipped the iii v0.25.0 runtime upgrade with Worker Compose and the native Pi, Oh My Pi, and DeepSeek Harness integrations, plus a retrieval fix the release grounds in the project's own BM25 development evaluation: correcting prefix-score inflation raised strict recall-all@5 from 65.74 to 84.68 percent (complete-evidence 309 to 398 of 470 answerable), summaries now process only new observations so unchanged sessions make zero extra summarization calls, and optional graph enrichment runs under a 500 ms budget so keyword and vector results return if graph storage stalls.
 v0.9.32 is a privacy-first breaking release: an API key alone no longer turns on an outside LLM or embedding provider (LLM summaries, compression, consolidation, and reflection need an explicit `AGENTMEMORY_LLM_PROVIDER` plus its key, cloud embeddings need `EMBEDDING_PROVIDER`, unset means BM25 and graph only), hooks refuse to send anything to a remote plain-HTTP server, and PreCompact injects stored memory only with `AGENTMEMORY_INJECT_CONTEXT=true`; it also ships the pending train's recall fixes (CJK recall, scoped smart-search re-ranking, memory types preserved in search responses), MCP tool annotations with a published privacy policy, official OpenAI plugin directory, Hermes catalog, and ClawHub listings, self-installing iii on native Windows, and versioned Docker Hub images.
 The release train runs roughly monthly (v0.9.27 in June, v0.9.28 in July, v0.9.29 in August, v0.9.30 in October, v0.9.31 and v0.9.32 in November).
+The November 8 default-branch batch (pending release) adds session filters by start and end time, drops the three-saved-memories cap per search, removes evicted memories from the search indexes, heals diagnostics facets pointing at deleted targets, gives the Claude Code SessionEnd hook time to finish, sends PreToolUse context inside the hook envelope, stops the MCP shim cutting proxied calls off at 15 seconds, makes the summary deadline configurable, and passes the provider selectors to Docker workers; npm is in sync at 0.9.32.
 I found no dedicated Hacker News thread through 2026-10-09 searches, so the stars came through awesome-list placement and agent registries rather than public debate, the same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and memU.
 
 ## Strengths
@@ -78,6 +79,7 @@ Not for single-harness users (claude-mem is simpler and battle-tested), privacy-
 - 2026-10-30 - Rotation re-verification: every cited URL re-fetched live, no facts changed (npm still in sync at 0.9.31, the README's benchmark table matching the recorded v0.9.31 figures, the leaderboard still in Cycle 2 with no agentmemory among Cycle 1's leaders, the HN search still finding no dedicated thread); the post-release pushes are a Cline MCP settings-path fix, doctor diagnostics, and viewer docs; the push date refreshed to 2026-10-29.
 - 2026-11-04 - Rotation re-verification: every cited URL re-fetched live (repository API, README, license and releases APIs, npm registry, dated-range npm downloads, the HN footprint search, the leaderboard), no facts reversed (npm still in sync at 0.9.31, the leaderboard page still lists no agentmemory, the HN search still finds no dedicated thread); trailing-month npm downloads refreshed to 59,741 (2026-10-05 to 11-04) and the pending post-release train recorded; the push date refreshed to 2026-11-04.
 - 2026-11-07 - Recorded v0.9.32 (November 4), which shipped the pending train and turned key-detected providers off by default: outside LLM and cloud embeddings now need explicit provider environment variables, hooks refuse plain-HTTP remote servers, and PreCompact injection is opt-in, with the recall fixes, MCP tool annotations, a published privacy policy, official Codex/Hermes/OpenClaw plugin listings, native Windows iii self-install, and Docker Hub images riding the same release.
+- 2026-11-08 - Volatile re-verification: the November 8 pending batch recorded (session time filters, the saved-memory cap dropped in search, evicted-memory index cleanup, facet healing, SessionEnd and PreToolUse hook fixes, the MCP shim's 15-second cutoff removed, a configurable summary deadline); npm re-verified in sync at 0.9.32, trailing-month downloads refreshed to 72,036 (2026-10-09 to 11-08), and the push date refreshed to 2026-11-08.
 
 ## See also
 

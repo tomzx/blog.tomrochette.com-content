@@ -1,7 +1,7 @@
 ---
 title: MemOS
 created: 2026-10-06
-updated: 2026-11-04
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -85,6 +85,7 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the engine still at v2.0.34 and the local plugin at v2.0.20, PyPI MemoryOS still 2.0.33, the hosted price table unchanged, and the only post-verification pushes are a certifi security pin).
 - 2026-10-30 - Recorded the pending-release plugin commits (2026-10-29): SQLite 13 prebuilds with Node 22 now required (breaking), Windows DLL isolation, and DSH memory-issue fixes.
 - 2026-11-04 - Corrected the plugin record: the pending work shipped as local-plugin v2.0.21 (September 29), which also exposed Viewer local-model settings and fixed dirty-data recovery, orphan trace writes, and empty-response retries; recorded the v2.0.21-beta.1 npm prerelease (November 4) and the plugin commit supporting validated DSH 0.2 preview APIs; the push date refreshed to 2026-11-04.
+- 2026-11-08 - The November 7 pushed_at movement resolved to side branches, with the default branch's only commit since the last verification the November 4 DSH-preview support already recorded; no facts changed (PyPI MemoryOS still 2.0.33).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Mem0
 created: 2026-08-24
-updated: 2026-10-31
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, developer-tools]
 readability: 3
@@ -91,6 +91,7 @@ I would not choose any memory vendor on benchmark leaderboards, this field's num
 - 2026-10-22 - Added the first independent academic comparison naming Mem0: SWE-ContextBench (arXiv 2602.08316) reports Mem0 weakest of four memory-retrieval frameworks on fail-to-pass coding-task tests (20.24 percent versus Supermemory's 55.95) at the highest per-task cost, on a coding-agent context-reuse benchmark rather than conversational memory.
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched live (all eleven reachable, no dead sources), and the pricing restructure recorded (Starter and Pro no longer sold to new accounts, the free plan rebuilt around BYOK with a 30-day sponsored window, Price history row); the only default-branch push since the last verification is the pricing FAQ page itself.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live (all twelve reachable, no dead sources), no facts changed; the only default-branch commits since the last verification are two update-versus-delete race fixes (a deleted memory is no longer re-created by a racing update) in the Python and TypeScript SDKs, with no release or pricing change.
+- 2026-11-08 - Rotation re-verification: every cited URL re-fetched live (all twelve reachable, no dead sources), no facts changed on the record (the BYOK pricing FAQ unchanged, DolphinBench's harness still dormant since its September 23 push, the launch thread still 201 points); the only default-branch commits since the last verification are security updates (five Vanta-critical Dependabot fixes on November 4, nine high-severity fixes plus the msal-node CVE-2026-109461 upgrade on November 6), with no release after ts-v3.3.1.
 
 ## See also
 

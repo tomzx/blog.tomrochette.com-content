@@ -1,7 +1,7 @@
 ---
 title: EverOS
 created: 2026-10-09
-updated: 2026-11-04
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, markdown, local-first]
 readability: 3
@@ -28,7 +28,7 @@ EverMind also sells EverOS Cloud, a managed deployment of the same engine, and p
 ## Status
 
 **Young, fast-moving, and vendor-led, with the section's familiar thin public footprint.**
-13,444 stars and 941 forks as of 2026-10-28, created 2025-10-28, default branch pushed 2026-11-04 (GitHub API, re-checked 2026-11-04).
+13,444 stars and 941 forks as of 2026-10-28, created 2025-10-28, default branch pushed 2026-11-07 (GitHub API, re-checked 2026-11-08).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/EverOS&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ Not for teams needing published hosted pricing, independent benchmark evidence, 
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched live (the Agent Memory Leaderboard site, which returned 522 at the 2026-10-11 check, now fetches normally and its fetched surface still lists no EverOS result); no release after v1.5.1, PyPI in sync at 1.5.1, no facts changed.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live (all nine reachable, no dead sources); recorded the breaking 1.6.0 landing on main (2026-10-30): the everalgo 2026-10 contract line with exactly pinned algorithm packages, and the target-architecture refactor (one composition root, MemoryService/KnowledgeService/OpsService facades, 14 import-linter contracts), breaking the cascade and OME environment variables into settings, requiring `[llm]`, moving prompt slots to operator YAML and service imports to the facades; still unreleased on GitHub and PyPI (both at v1.5.1/1.5.1) as of this run.
 - 2026-11-04 - The pending 1.6.0 line gained memory deletion endpoints aligned with the Cloud API (November 4), still unreleased on GitHub and PyPI (both at v1.5.1/1.5.1); the push date refreshed to 2026-11-04.
+- 2026-11-08 - The pending line grew again (November 5-6): atomic session writes under contention, a root lock held before shared storage, cascade duplicate-index reporting with tombstone rechecks and claim-reset re-enqueues, reflection counting members that joined mid-run, a Windows markdown read-race retry, and the EverMemOS ACL 2026 paper cited in the docs; still unreleased on GitHub and PyPI (both at v1.5.1/1.5.1), the push date refreshed to 2026-11-07.
 
 ## See also
 

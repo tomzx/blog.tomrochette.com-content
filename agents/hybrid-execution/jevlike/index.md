@@ -1,7 +1,7 @@
 ---
 title: Jevlike
 created: 2026-09-21
-updated: 2026-10-31
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights]
 readability: 3
@@ -76,6 +76,7 @@ I would not route a real decision through this repo today, but I would make ever
 - 2026-10-22 - Rotation re-verification: all five references re-fetched and live, the repository still frozen at 2026-09-16 and the thread still 169 points; forks and open-issue counts refreshed.
 - 2026-10-26 - Rotation re-verification: all five references re-fetched and live, the repository still frozen at 2026-09-16 with forks (121) and open issues (8) unchanged, the thread still 169 points, and trycua/cua's THIRD_PARTY_NOTICES.md still crediting the adapted jevlike primitives; nothing material moved.
 - 2026-10-31 - Rotation re-verification: all five references re-fetched and live, the repository still frozen at 2026-09-16 with forks (121) and open issues (8) unchanged, the thread still 169 points, and trycua/cua's THIRD_PARTY_NOTICES.md still crediting the adapted primitives at commit 94f5fd1; nothing moved.
+- 2026-11-08 - Rotation re-verification: all five references re-fetched and live, the repository still frozen at 2026-09-16 with forks (121) and open issues (8) unchanged, the thread still 169 points, and trycua/cua's THIRD_PARTY_NOTICES.md still crediting the adapted primitives at commit 94f5fd1; nothing moved.
 
 ## See also
 
@@ -87,8 +88,8 @@ I would not route a real decision through this repo today, but I would make ever
 
 ## References
 
-- https://github.com/vinnylarouge/jevlike - repository: MIT, 1,351 stars as of 2026-10-07 (the chart is the live signal), 121 forks, created and last pushed 2026-09-16 (GitHub API, forks and push date as of 2026-10-31)
-- https://raw.githubusercontent.com/vinnylarouge/jevlike/main/README.md - the option-attention architecture, data format, eval design, and the expectations section with the no-equal-quality admission (re-fetched 2026-10-31)
-- https://news.ycombinator.com/item?id=49731282 - the 169-point launch thread (2026-09-16, re-read 2026-10-31), including the satire and panel-disagreement criticisms (fetched via the Algolia items API)
-- https://raw.githubusercontent.com/vinnylarouge/jevlike/main/examples/doom/README.md - the vision variant: 12-option table, DAgger-before-PPO training order, early-checkpoint caveat (re-fetched 200, 2026-10-31)
-- https://huggingface.co/cua-ai/cua-s1-forms - downstream adoption: the checkpoint card and its Cua-S1 docs (the credit now formalized in trycua/cua's libs/cua-s1/THIRD_PARTY_NOTICES.md, adapted material limited to byte-collation and attention-model primitives, pinned to jevlike commit 94f5fd1; both re-fetched 200, 2026-10-31)
+- https://github.com/vinnylarouge/jevlike - repository: MIT, 1,351 stars as of 2026-10-07 (the chart is the live signal), 121 forks, created and last pushed 2026-09-16 (GitHub API, forks and push date as of 2026-11-08)
+- https://raw.githubusercontent.com/vinnylarouge/jevlike/main/README.md - the option-attention architecture, data format, eval design, and the expectations section with the no-equal-quality admission (re-fetched 2026-11-08)
+- https://news.ycombinator.com/item?id=49731282 - the 169-point launch thread (2026-09-16, re-read 2026-11-08), including the satire and panel-disagreement criticisms (fetched via the Algolia items API)
+- https://raw.githubusercontent.com/vinnylarouge/jevlike/main/examples/doom/README.md - the vision variant: 12-option table, DAgger-before-PPO training order, early-checkpoint caveat (re-fetched 200, 2026-11-08)
+- https://huggingface.co/cua-ai/cua-s1-forms - downstream adoption: the checkpoint card and its Cua-S1 docs (the credit now formalized in trycua/cua's libs/cua-s1/THIRD_PARTY_NOTICES.md, adapted material limited to byte-collation and attention-model primitives, pinned to jevlike commit 94f5fd1; both re-fetched 200, 2026-11-08)

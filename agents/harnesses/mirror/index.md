@@ -1,7 +1,7 @@
 ---
 title: "Mirror"
 created: 2026-10-21
-updated: 2026-10-31
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, cli, coding-agent, reflection, open-weights, byok]
 readability: 3
@@ -24,7 +24,7 @@ The code is Apache-2.0 at `reflection-oss/mirror`, and much of the product surfa
 
 ## Status
 
-Early beta and moving: `reflection-oss/mirror` was created on 2026-10-12, stood at 196 stars and 13 forks as of 2026-10-21, and was last pushed on 2026-10-22 (GitHub API, as of 2026-10-25).
+Early beta and moving: `reflection-oss/mirror` was created on 2026-10-12, stood at 196 stars and 13 forks as of 2026-10-21, and was last pushed on 2026-10-22 (GitHub API, as of 2026-11-08).
 The version line is still 0.1.x: one tagged release on GitHub (`mirror-agent-v0.1.8`, 2026-10-19) and the PyPI package `reflection-mirror` at 0.1.1 since 2026-10-22 (0.1.0 shipped 2026-10-16), with Reflection's own docs stating that commands and behavior may change between releases and that the extension API is in early beta.
 
 <picture>
@@ -55,7 +55,7 @@ The version line is still 0.1.x: one tagged release on GitHub (`mirror-agent-v0.
 ## Pricing
 
 The harness is free and open source under Apache-2.0.
-Usage is metered: the default path bills through Reflection's API, which publishes no price list on reflection.ai or in the developer docs as of 2026-10-21, while OpenRouter lists Beam 1.0 at $0.25/$1.00 per million tokens with cache reads at $0.05 as of 2026-10-31.
+Usage is metered: the default path bills through Reflection's API, which publishes no price list on reflection.ai or in the developer docs as of 2026-10-21, while OpenRouter lists Beam 1.0 at $0.30/$1.00 per million tokens with cache reads at $0.04 as of 2026-11-08, back at its October 21 baseline after a late-October dip to $0.25 with $0.05 cache reads.
 The OpenAI, Anthropic, ChatGPT plan, and generic OpenAI-compatible paths bill through those vendors at their own rates, and a local or self-hosted endpoint costs only your hardware.
 Web search and page reading need a separate Firecrawl API key, priced by Firecrawl rather than by Reflection.
 
@@ -65,6 +65,7 @@ Web search and page reading need a separate Firecrawl API key, priced by Firecra
 | ---- | ---- | ------ | ------ |
 | 2026-10-21 | OpenRouter (Beam 1.0) | Baseline: `reflection/beam-1.0-501b-a23b` at $0.30/$1.00 per million tokens, cache reads $0.04; the harness itself free under Apache-2.0, and Reflection's own API price list unpublished. | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 | 2026-10-31 | OpenRouter (Beam 1.0) | Prompt $0.30 -> $0.25 per million tokens and cache reads $0.04 -> $0.05; completion unchanged at $1.00. | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
+| 2026-11-08 | OpenRouter (Beam 1.0) | Prompt back to $0.30 and cache reads back to $0.04 per million tokens, matching the October 21 baseline; completion unchanged at $1.00. | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 
 ## Compared to
 
@@ -84,6 +85,7 @@ Not for teams that need a mature, independently benchmarked agent, native Window
 - 2026-10-21 - Corrected the opening claim: DeepSeek Harness, Kimi Code, Qwen Code, and ZCode are also vendor harnesses whose makers publish open weights, so openness does not distinguish Mirror; the thesis now names the multi-workspace session and the vendor-entrant pattern instead.
 - 2026-10-25 - Recorded the push moving to 2026-10-22 and the PyPI package reaching 0.1.1 (October 22, after 0.1.0 on October 16); the single GitHub tag mirror-agent-v0.1.8 stands.
 - 2026-10-31 - Rotation re-verification, every cited reference live: recorded the OpenRouter reprice (prompt $0.30 to $0.25 per million tokens, cache reads $0.04 to $0.05, completion $1.00 unchanged) with the matching Price history row; the single GitHub tag and the PyPI 0.1.1 package stand.
+- 2026-11-08 - Rotation re-verification, every cited reference live: recorded the OpenRouter price returning to its October 21 baseline (prompt $0.30, cache reads $0.04, completion $1.00) with the matching Price history row; the single GitHub tag, the PyPI 0.1.1 package, and the pushed 2026-10-22 repository state all stand.
 
 ## See also
 
@@ -104,7 +106,7 @@ Not for teams that need a mature, independently benchmarked agent, native Window
 - https://developers.reflection.ai/mirror-cli-reference - every slash command, shortcut, launch option, `mirror exec`, and `mirror acp`
 - https://developers.reflection.ai/coding-agents-quickstart - install path, platform requirements, the Firecrawl web search key, and the Reflection provider settings
 - https://github.com/reflection-oss/mirror - repository, Apache-2.0 license, and the Rust agent plus Python CLI build layout
-- https://pypi.org/project/reflection-mirror/ - package version 0.1.0, published 2026-10-16, Python 3.12 or later
+- https://pypi.org/project/reflection-mirror/ - package version 0.1.1 (published 2026-10-22) after 0.1.0 on 2026-10-16, Python 3.12 or later (re-verified 2026-11-08)
 - https://reflection.ai/blog/beam-is-available - Beam's Apache 2.0 weights release and the Mirror CLI section of the announcement, published 2026-10-16
 - https://news.ycombinator.com/item?id=49969183 - the 556-point Beam launch thread, cited as the model-side footprint while the harness itself has no thread
-- https://openrouter.ai/api/v1/models - the live Beam 1.0 per-token price and cache-read rate, as of 2026-10-21
+- https://openrouter.ai/api/v1/models - the live Beam 1.0 per-token price and cache-read rate, as of 2026-11-08

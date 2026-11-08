@@ -1,7 +1,7 @@
 ---
 title: PLUR
 created: 2026-10-14
-updated: 2026-11-04
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, mcp, local-first, open-source]
 readability: 3
@@ -75,6 +75,7 @@ Not for multi-user products needing server-side per-user isolation, and not for 
 - 2026-10-26 - Corrected the star-history chart markup: the light-theme source carried the dark-theme parameter; it now points at the default chart.
 - 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repository API and README, the engram spec, the benchmark page, plur-bench, npm), npm in sync at 0.22.1, pricing still unpublished, and recorded the spec's v2.1 temporal-validity windows and episode records, the benchmark page's separate answer-accuracy figure (60.5 percent with the reranker stack versus 52.0 full-context and 5.5 none), per-engram actor stamps in provenance.origin, and the size-tiered indexing backends; the push date refreshed to 2026-10-29.
 - 2026-11-01 - Recorded v0.23.0 (October 30), the provenance release: a hash-chained history log with `plur verify` naming each break and fork made outside PLUR (unreadable never reported clean), checkpoints and session manifests, and opt-in experimental Swarm manifest storage with nothing leaving the machine unless enabled; npm re-verified at 0.23.0, and the feature matrix's PLUR audit cell moved to the hash-chained log.
+- 2026-11-08 - The November 8 pushed_at movement resolved to side branches again, with the default branch still quiet since the v0.23.0 train; no facts changed.
 
 ## See also
 

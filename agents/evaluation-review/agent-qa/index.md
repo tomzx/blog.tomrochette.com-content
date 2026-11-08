@@ -1,7 +1,7 @@
 ---
 title: agent-qa
 created: 2026-10-27
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, qa, testing, e2e, mobile]
 readability: 3
@@ -24,7 +24,7 @@ Made by vostride, the project of founder Pranshu Chittora, licensed FSL-1.1-ALv2
 
 ## Status
 
-Young and moving fast: 896 stars, 23 forks, and 6 open issues and PRs as of 2026-10-27, repository created 2026-05-07, with v0.3.2 released 2026-11-07 after v0.3.1 and v0.3.0 (both 2026-11-06, the 0.3.0 line introducing a remote runner and first-party plugin support), after v0.2.6 (2026-11-03), v0.2.5 (2026-11-01), v0.2.4 (2026-10-31), and v0.2.3 (2026-10-24, three releases that day, the first after the npm train had sat on 0.1.21 since June), and the npm package publishing through GitHub Actions OIDC under SLSA provenance, 3,616 downloads over 2026-09-27 to 2026-10-27.
+Young and moving fast: 896 stars, 23 forks, and 6 open issues and PRs as of 2026-10-27, repository created 2026-05-07, with v0.3.3 (2026-11-07, clean refusals and exit codes) after v0.3.2 released 2026-11-07, v0.3.1 and v0.3.0 (both 2026-11-06, the 0.3.0 line introducing a remote runner and first-party plugin support), after v0.2.6 (2026-11-03), v0.2.5 (2026-11-01), v0.2.4 (2026-10-31), and v0.2.3 (2026-10-24, three releases that day, the first after the npm train had sat on 0.1.21 since June), and the npm package publishing through GitHub Actions OIDC under SLSA provenance, 3,616 downloads over 2026-09-27 to 2026-10-27.
 The 50-point launch thread (2026-05-19) is the main independent discussion, and the README sets its own bar: "Early stage. Expect bugs."
 The headline benchmark claims are self-published: 116/116 on AndroidWorld and 99.6% completion on AppControlBench, run on gpt-6-sol with memory and self-improvement off, every task's run published with steps, screenshots, and video, and the site discloses that agent-qa is not an entry on the official AppControlBench leaderboard and that models, judges, and OS versions differ between compared columns.
 
@@ -69,6 +69,7 @@ Not for anyone needing an OSI-approved license today, a proven adoption base, or
 - 2026-11-01 - Recorded the v0.2.4 (2026-10-31, code cleanup and CI improvements) and v0.2.5 (2026-11-01, dependency and Node upgrade) releases, four in the week since the admission baseline, and refreshed the activity line; npm tracks 0.2.5.
 - 2026-11-05 - Recorded the v0.2.6 release (2026-11-03) and refreshed the activity line; npm tracks 0.2.6.
 - 2026-11-07 - Recorded the v0.3.0 release (2026-11-06, remote runner and first-party plugin support) and the v0.3.1 and v0.3.2 releases (2026-11-06 and 2026-11-07, more remote-execution plugins) and refreshed the activity line; npm tracks 0.3.2.
+- 2026-11-08 - Recorded the v0.3.3 release (2026-11-07, clean refusals and exit codes) and refreshed the activity line; npm tracks 0.3.3.
 
 ## See also
 

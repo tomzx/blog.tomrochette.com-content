@@ -1,7 +1,7 @@
 ---
 title: Ollaya
 created: 2026-10-06
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, local-inference, model-hub]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you have read this category's Jev note and know what a fitted temperature is.
 ---
 
-Ollaya is an Apache-2.0 local runtime and model hub, built in the image of Ollama, that serves twenty-nine open decision-model families behind a wire-identical replica of TypeSafe's Jev API.
+Ollaya is an Apache-2.0 local runtime and model hub, built in the image of Ollama, that serves thirty open decision-model families behind a wire-identical replica of TypeSafe's Jev API.
 
 **The decision-model wave just got its Ollama, and its verification discipline is the strongest the open side of this category has shown: every shipped model measured on the released runtime and checked answer by answer against its author's own code, with the raw data published.**
 
@@ -90,6 +90,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 - 2026-10-30 - Volatile re-verification after the 2026-10-26 merges: a community jev-style family (Jev-Style-2B-Decision-v3, non-causal block attention plus a verdict readout) and the vLLM Semantic Router's Decision 2.0 (decision2) joined the repository without yet reaching the site, whose count re-read twenty-nine on the 2026-10-30 fetch, and the README took a new tagline and ring logo; pushed date moved to 2026-10-30.
 - 2026-11-05 - Rotation re-verification, every cited URL re-fetched: decision2 reached the site, moving the count from twenty-nine to thirty (jev-style still unserved), the 2026-11-02 commits are site polish (a quieter home page, looping product demos, two Safari toolbar fixes) with no new release and the train still topping out at v0.18.0 (2026-10-25), and the pushed date moved to 2026-11-02; the HTML releases page returned 504 on the re-fetch while the releases API held.
 - 2026-11-07 - Volatile re-verification after the 2026-11-06 pushes: three unreleased default-branch commits (startup model preloading behind `OLLAYA_PRELOAD`, timing headers on `/v1` responses, the weekly-stats page update), no new release past v0.18.0, the site's count re-read at thirty families with decision2 served and jev-style still unserved; pushed date moved to 2026-11-06.
+- 2026-11-08 - Corrected the definition sentence, which still read twenty-nine families against the thirty the Status has recorded since decision2 reached the site on 2026-11-05; no other claim changed.
 
 ## See also
 

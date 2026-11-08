@@ -1,7 +1,7 @@
 ---
 title: CUA-S1
 created: 2026-09-20
-updated: 2026-11-07
+updated: 2026-11-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, computer-use, system-one-models, open-weights]
 readability: 3
@@ -25,7 +25,7 @@ It lives inside the trycua/cua monorepo (MIT) as a source component, with weight
 
 Early research artifact, days old, and unusually candid about it.
 The component README still describes a source-only release whose checkpoint table reads "weights not distributed", while the main README and the checkpoint metadata point at the `cua-ai/cua-s1-forms` weights created on Hugging Face on 2026-09-18, a documentation wrinkle worth knowing before you cite either.
-The launch Show HN thread (2026-09-19) reached 95 points as of 2026-10-07, and the host repository shows 29,785 stars as of 2026-10-15 (pushes current to 2026-11-07; the cua-s1 component untouched since the 2026-10-20 client security fix, with the 2026-11-05 to 11-07 releases, cua-spaces v0.22.0, the cua-spacesd v0.12.4 and v0.12.5 track, cua-sdk v0.12.1, cua-driver-rs v0.41.1 and v0.41.2, and the lume and cua-driver-rs nightlies, all driver, Spaces, and SDK releases that do not touch it), though nearly all of that is the surrounding Cua computer-use project, created 2025-01-31, not the model.
+The launch Show HN thread (2026-09-19) reached 95 points as of 2026-10-07, and the host repository shows 29,785 stars as of 2026-10-15 (pushes current to 2026-11-08; the cua-s1 component untouched since the 2026-10-20 client security fix, re-verified against the component's commit path on 2026-11-08, with the 2026-11-05 to 11-08 releases (cua-spaces v0.22.0 through v0.22.3, the cua-spacesd v0.12.4 through v0.12.7 track, cua-sdk v0.12.1, cua-driver-rs v0.41.1, v0.41.2, and v0.43.2, and the nightlies) all driver, Spaces, and SDK releases that do not touch it), though nearly all of that is the surrounding Cua computer-use project, created 2025-01-31, not the model.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trycua/cua&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,7 @@ The disagreeable claim I will defend: a 706k-parameter model trained in public o
 - 2026-11-01 - Volatile re-verification after the host's pushes to 2026-11-01: the cua-s1 component remains untouched since the 2026-10-20 client security fix, and the 2026-10-30 cua-spaces releases v0.19.0 through v0.19.2 plus the 2026-11-01 cua-driver-rs nightly are Spaces and driver releases that do not touch it.
 - 2026-11-05 - Volatile re-verification after the host's pushes to 2026-11-05: the cua-s1 component remains untouched since the 2026-10-20 client security fix, and the 2026-11-04 to 11-05 releases (cua-spaces v0.21.0 beta.3 and beta.5, the new cua-spacesd v0.11.0, the lume and cua-driver-rs nightlies) do not touch it.
 - 2026-11-07 - Volatile re-verification after the host's pushes to 2026-11-07: the cua-s1 component remains untouched since the 2026-10-20 client security fix (verified against the component's commit path), and the 2026-11-05 to 11-07 releases (cua-spaces v0.22.0, cua-spacesd v0.12.4 and v0.12.5, cua-sdk v0.12.1, cua-driver-rs v0.41.1 and v0.41.2, plus the nightlies) are driver, Spaces, and SDK releases that do not touch it.
+- 2026-11-08 - Volatile re-verification after the host's pushes to 2026-11-08: the cua-s1 component remains untouched since the 2026-10-20 client security fix (re-verified against the component's commit path), and the 2026-11-07 and 11-08 releases (cua-spaces v0.22.2 and v0.22.3, cua-spacesd v0.12.6 and v0.12.7, cua-driver-rs v0.43.2, plus the nightly) are Spaces and driver releases that do not touch it.
 
 ## See also
 
@@ -94,7 +95,7 @@ The disagreeable claim I will defend: a 706k-parameter model trained in public o
 
 ## References
 
-- https://github.com/trycua/cua - host repository: 29,785 stars, MIT, created 2025-01-31, CUA-S1 announced in the main README (GitHub API, as of 2026-10-15; re-fetched 2026-11-07 with pushes current to 2026-11-07, the cua-s1 component untouched since the 2026-10-20 client security fix, and the 2026-11-05 to 11-07 cua-spaces v0.22.0, cua-spacesd v0.12.4/0.12.5, cua-sdk v0.12.1, and cua-driver-rs v0.41.x releases not touching it)
+- https://github.com/trycua/cua - host repository: 29,785 stars, MIT, created 2025-01-31, CUA-S1 announced in the main README (GitHub API, as of 2026-10-15; re-fetched 2026-11-08 with pushes current to 2026-11-08, the cua-s1 component untouched since the 2026-10-20 client security fix, and the 2026-11-05 to 11-08 cua-spaces v0.22.x, cua-spacesd v0.12.4 through 0.12.7, cua-sdk v0.12.1, and cua-driver-rs v0.41.x/v0.43.2 releases not touching it)
 - https://github.com/trycua/cua/tree/main/libs/cua-s1 - component README: the four-checkpoint family (forms, nano-0.1, 4B-0.1/0.2), pinned licensed revisions, safety boundary, MCP server caveats
 - https://github.com/trycua/cua/blob/main/libs/cua-s1/MODEL_CARD.md - model card: tinyx byte-level encoder, option-attention head, the 29.3 percent out-of-catalogue form result, synthetic-only evaluation, licensing caveat
 - https://huggingface.co/cua-ai/cua-s1-forms - weights: MIT, created 2026-09-18, 706,048 parameters, 116 likes as of 2026-10-07, downloads not tracked, safetensors-only since the pickle checkpoint was removed (trycua/cua#3977; card and removal note re-fetched 2026-10-17)
