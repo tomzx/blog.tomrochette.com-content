@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Execution spans six built-in terminal backends (local, Docker, SSH, Modal, Dayto
 ## Status
 
 Massive and fast-moving.
-253,488 stars and 54,982 forks as of 2026-10-14 since creation on 2025-07-22, MIT, and as of 2026-11-08 pushed that day with 53,615 open issues, a support surface bigger than most projects' users.
+253,488 stars and 54,982 forks as of 2026-10-14 since creation on 2025-07-22, MIT, and as of 2026-11-11 pushed that day with 53,992 open issues, a support surface bigger than most projects' users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Massive and fast-moving.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&legend=top-left" />
 </picture>
 
-Releases shipped as date-stamped tags through v2026.9.24 (2026-09-24), with September alone seeing five tags, and on 2026-10-08 the project cut v0.21.6, the first semver tag and the first release of a new stable release pipeline (one attempt ref, a tested Docker image, and a receipt tag at publish), rolling up about 2,100 pull requests since v0.21.5 with the curated notes deferred to v0.22.0, and v0.21.7 followed on 2026-10-12 as the line's second tag, with v0.22.0, "The Threshold Release", landing 2026-10-14 (about 6,080 merged pull requests since v0.21.0, a guided first-run setup chat on a free trial model) and v0.22.1 and v0.22.2 following the same day and on 2026-10-15, with v0.22.3 and v0.22.4 following on 2026-10-21 and v0.22.5 landing 2026-10-23 (about 81 pull requests since v0.22.4, curated notes again deferred to v0.23.0), and v0.22.6 rolling up about 776 pull requests since v0.22.5 on 2026-11-02, curated notes again deferred to v0.23.0, and v0.22.7 rolling up about 174 pull requests since v0.22.6 on 2026-11-03, curated notes again deferred to v0.23.0, and v0.23.0, "The Hearth Release", landing 2026-11-05 (about 1,950 merged pull requests since v0.22.0 from 666 contributors: the headline a gateway-served Webapp that opens the whole Desktop workspace in a browser tab, with a single gateway owning each session so the CLI, TUI, Desktop, editors, bots, and cron sit on one agent, plugins that keep themselves updated, price tags and spend limits on paid MCP tools, pluggable delegation, and the plugin catalog grown from about 600 to over 1,050 entries), the release that finally delivered the deferred curated notes by rolling up and fully documenting the v0.22.1 through v0.22.7 patches.
+Releases shipped as date-stamped tags through v2026.9.24 (2026-09-24), with September alone seeing five tags, and on 2026-10-08 the project cut v0.21.6, the first semver tag and the first release of a new stable release pipeline (one attempt ref, a tested Docker image, and a receipt tag at publish), rolling up about 2,100 pull requests since v0.21.5 with the curated notes deferred to v0.22.0, and v0.21.7 followed on 2026-10-12 as the line's second tag, with v0.22.0, "The Threshold Release", landing 2026-10-14 (about 6,080 merged pull requests since v0.21.0, a guided first-run setup chat on a free trial model) and v0.22.1 and v0.22.2 following the same day and on 2026-10-15, with v0.22.3 and v0.22.4 following on 2026-10-21 and v0.22.5 landing 2026-10-23 (about 81 pull requests since v0.22.4, curated notes again deferred to v0.23.0), and v0.22.6 rolling up about 776 pull requests since v0.22.5 on 2026-11-02, curated notes again deferred to v0.23.0, and v0.22.7 rolling up about 174 pull requests since v0.22.6 on 2026-11-03, curated notes again deferred to v0.23.0, and v0.23.0, "The Hearth Release", landing 2026-11-05 (about 1,950 merged pull requests since v0.22.0 from 666 contributors: the headline a gateway-served Webapp that opens the whole Desktop workspace in a browser tab, with a single gateway owning each session so the CLI, TUI, Desktop, editors, bots, and cron sit on one agent, plugins that keep themselves updated, price tags and spend limits on paid MCP tools, pluggable delegation, and the plugin catalog grown from about 600 to over 1,050 entries), the release that finally delivered the deferred curated notes by rolling up and fully documenting the v0.22.1 through v0.22.7 patches, and v0.23.1 following on 2026-11-10 (about 618 pull requests since v0.23.0: the plugin catalog's published JSON had outgrown the 2 MiB cap clients accept since the November 9 catalog site deploy, so every install silently fell back to the catalog it shipped with, now fixed), with curated notes again deferred, this time to v0.24.0.
 The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) landed June 2026, and a real tool ecosystem followed (a 28-point Grafana observability integration, a Fleet console for managing Dockerized Hermes agents, XMPP interop with OpenClaw, and a community gadget SDK building ESP32 voice and text devices, 302 stars as of 2026-10-07).
 **The governance record is the caution: a May 2026 thread documents Nous editing a GitHub issue to remove plagiarism claims about Hermes Agent ([issue 10232](https://github.com/NousResearch/hermes-agent/issues/10232)), so origin claims around this project deserve independent reading.**
 
@@ -95,6 +95,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 - 2026-11-03 - Recorded v0.22.6 (2026-11-02, about 776 pull requests since v0.22.5, curated notes again deferred to v0.23.0; the window's gateway-served Webapp, per-skill locks against autonomous writes, and opt-in OS-keychain vault storage disclosed only in the release notes), with refreshed adoption numbers.
 - 2026-11-04 - Recorded v0.22.7 (2026-11-03, about 174 pull requests since v0.22.6, curated notes again deferred to v0.23.0; the window's opt-in Group Chats lead routing, cron jobs posting into group chats, pinned Kanban boards, TeX and mermaid rendering, Telegram team-gateway account linking, an opt-in Slack thread_followup_silence, and a Daybreak switch for catalog-listed ChatGPT subscription models disclosed only in the release notes), with refreshed adoption numbers.
 - 2026-11-07 - Recorded v0.23.0, "The Hearth Release" (2026-11-05, about 1,950 merged pull requests since v0.22.0 from 666 contributors: the gateway-served browser-tab Webapp, a single gateway owning each session across every surface, self-updating plugins, price tags and spend limits on paid MCP tools, pluggable delegation, and the plugin catalog grown to over 1,050 entries), which delivered the curated notes the v0.22.x patches had been deferring, with refreshed adoption numbers.
+- 2026-11-11 - Recorded v0.23.1 (2026-11-10, about 618 pull requests since v0.23.0: the fix for the plugin catalog's published JSON outgrowing the 2 MiB cap clients accept since the November 9 catalog site deploy, which had left every install silently falling back to its shipped catalog), with curated notes again deferred to v0.24.0 and refreshed adoption numbers.
 
 ## See also
 
@@ -107,7 +108,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 
 - https://github.com/NousResearch/hermes-agent - README: learning loop, backends, channels, install
 - https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-10-10
-- https://api.github.com/repos/NousResearch/hermes-agent/releases - the date-stamped tags through v2026.9.24 (2026-09-24), then the semver line: v0.21.6 (2026-10-08, the first tag under the new stable release pipeline) through v0.23.0 (2026-11-05), including v0.22.0, "The Threshold Release", and v0.23.0, "The Hearth Release"
+- https://api.github.com/repos/NousResearch/hermes-agent/releases - the date-stamped tags through v2026.9.24 (2026-09-24), then the semver line: v0.21.6 (2026-10-08, the first tag under the new stable release pipeline) through v0.23.1 (2026-11-10), including v0.22.0, "The Threshold Release", and v0.23.0, "The Hearth Release"
 - https://api.github.com/repos/NousResearch/hermes-agent/releases/tags/v0.21.6 - the v0.21.6 release notes describing the new stable release pipeline (fetched 2026-10-10)
 - https://hermes-agent.nousresearch.com - official site and docs, including the Hermes Free/Plus/Super/Ultra plan tiers
 - https://news.ycombinator.com/item?id=48419000 - the 52-point launch thread

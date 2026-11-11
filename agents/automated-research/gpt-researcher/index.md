@@ -1,7 +1,7 @@
 ---
 title: GPT Researcher
 created: 2026-10-07
-updated: 2026-11-05
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deep-research, open-source]
 readability: 3
@@ -23,7 +23,8 @@ Since v3.7.0 the context filter runs Jev by default with a local keyword-ranking
 
 ## Status
 
-Active: created 2023-05-12, 30,102 stars, release v3.7.0 published 2026-09-26, PyPI package at 0.16.1, as of 2026-11-01.
+Active: created 2023-05-12, 30,102 stars, release v3.8.0 published 2026-11-09, PyPI package at 0.17.0, as of 2026-11-11.
+v3.8.0 is a 53-community-PR release: the frontend rebuilt on a paper-style design with settings in one tabbed modal and the previous UI kept at /classic, detailed reports dropping from 9:11 to 3:27 through parallel section research and a new default writer (SMART_LLM now gpt-6-sol), multi-arch Docker images on GHCR, an optional research lifecycle observer, and a security fix that stops the root .env from being baked into images (the release asks anyone who pushed a locally built image to rotate the keys it carried).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=assafelovic/gpt-researcher&type=date&theme=dark&legend=top-left" />
@@ -45,7 +46,7 @@ Its own Hacker News footprint is small (the 2024 Show HN drew 4 points), so the 
 
 - Output is prose with citations and no machine judge, so the human stays the verifier, the same caveat as every product-tier rival.
 - The 150-paper citation claim is self-compiled; the papers mostly use it as a comparison point, not a validation.
-- pip package versioning (0.16.1) has drifted from GitHub release tagging (v3.7.0), which confuses upgrade paths.
+- pip package versioning (0.17.0) still uses a different numbering scheme than GitHub release tagging (v3.8.0), which confuses upgrade paths, though the two bumped together in November.
 - Search quality still depends on whatever retrievers you configure, and the free search tiers it can fall back to are rate-limited.
 
 ## Pricing
@@ -69,6 +70,7 @@ Not for machine-verified conclusions, and not for anyone who needs a vendor SLA 
 - 2026-10-07 - Created.
 - 2026-10-19 - Full re-verification pass: all six references re-fetched and current, with v3.7.0 still the latest release, PyPI at 0.16.1, the Jev default filter unchanged, and the four-point Show HN thread unchanged.
 - 2026-11-05 - Rotation re-verification: all six references re-fetched and current, with v3.7.0 still the latest release, PyPI at 0.16.1, and the 150-paper docs claim unchanged.
+- 2026-11-11 - Volatile re-verification: recorded the v3.8.0 release (November 9, PyPI 0.17.0): the paper-style UI rewrite with the classic UI kept, detailed reports at 3:27 instead of 9:11 through parallel sections and the gpt-6-sol default writer, 53 community pull requests, multi-arch GHCR images, and the root-.env Docker fix, and moved the version-drift caution's numbers with it.
 
 ## See also
 
@@ -84,5 +86,6 @@ Not for machine-verified conclusions, and not for anyone who needs a vendor SLA 
 - https://api.github.com/repos/assafelovic/gpt-researcher - stars, created date, push date, and license for the as-of status (fetched 200, 2026-10-15)
 - https://docs.gptr.dev - the four-stage loop, deep-research mode, multi-agent teams, MCP sources, the Jev default filter, and the 150-paper citation claim (fetched 200, 2026-10-15)
 - https://pypi.org/pypi/gpt-researcher/json - the published package version 0.16.1 and Python requirement (fetched 200, 2026-10-15)
-- https://api.github.com/repos/assafelovic/gpt-researcher/releases - the v3.7.0 release of 2026-09-26 and the cadence before it (fetched 200, 2026-10-15)
+- https://api.github.com/repos/assafelovic/gpt-researcher/releases - the release train through v3.7.0 (2026-09-26) and the cadence before it (fetched 200, 2026-10-15)
+- https://api.github.com/repos/assafelovic/gpt-researcher/releases/tags/v3.8.0 - the v3.8.0 release notes (November 9): the UI rewrite, the 3:27 detailed-report measurement, the gpt-6-sol default, the 53-PR count, the GHCR images, and the .env rotation advisory (fetched 200, 2026-11-11)
 - https://hn.algolia.com/api/v1/items/41234914 - the August 2024 Show HN thread, 4 points, grounding the small-HN-footprint observation (fetched 200, 2026-10-15)

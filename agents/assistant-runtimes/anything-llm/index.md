@@ -1,7 +1,7 @@
 ---
 title: AnythingLLM
 created: 2026-09-27
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, local-first, rag, desktop-apps]
 readability: 3
@@ -24,7 +24,7 @@ Beta features push it toward an OS-level assistant: AI computer use and live doc
 
 ## Status
 
-Active and steadily shipped: 67,036 stars and 7,489 forks as of 2026-10-14, created 2023-06-04, 360 open issues with the last push on 2026-11-07 as of 2026-11-08.
+Active and steadily shipped: 67,036 stars and 7,489 forks as of 2026-10-14, created 2023-06-04, 340 open issues with the last push on 2026-11-10 as of 2026-11-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ The disagreeable claim I will defend: the layperson focus that made AnythingLLM 
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, docs, the Pro overview, the pricing page, the Show HN thread), v1.18.0 (2026-10-13) confirmed still the latest release and the Cloud tiers (Basic $50, Pro $99, Enterprise custom) unchanged.
 - 2026-10-28 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the docs site and Pro overview, the pricing page, the Show HN thread), and recorded v1.19.0 (2026-10-26, the Docker image gaining the desktop's built-in local LLM through AMD's Lemonade server and llama.cpp), with the Cloud tiers (Basic $50, Pro $99, Enterprise custom) confirmed unchanged.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the docs site and Pro overview, the pricing page, the Show HN thread), v1.19.0 (2026-10-26) confirmed still the latest release and the Cloud tiers (Basic $50, Pro $99, Enterprise custom) unchanged, with refreshed adoption numbers.
+- 2026-11-11 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the docs site and Pro overview, the pricing page, the Show HN thread via Algolia), v1.19.0 (2026-10-26) confirmed still the latest release, the Cloud tiers (Basic $50, Pro $99, Enterprise custom) unchanged, and the launch thread (368 points), the Magic free-tier commitment, and the docs changelog cadence all intact, with refreshed adoption numbers.
 
 ## See also
 

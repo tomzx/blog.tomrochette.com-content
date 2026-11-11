@@ -1,7 +1,7 @@
 ---
 title: Semble
 created: 2026-08-30
-updated: 2026-11-05
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-search, context-engines, local-first, developer-tools]
 readability: 3
@@ -26,7 +26,7 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
 ## Status
 
 **Young, active, and unusually well received for a search tool.**
-6,212 stars and 286 forks since the repo appeared on 2026-04-06, with the last push 2026-11-03 and v0.7.2 released 2026-11-03 (a patch making the generated skill description valid YAML), following v0.7.1 on 2026-10-29 (the `semble` skill option shipping in a release, an opt-in HTTP transport joining stdio on the MCP server, and a clearer Hub model-download error) and v0.7.0 on 2026-10-16 (GitHub API, stars as of 2026-10-17).
+6,212 stars and 289 forks since the repo appeared on 2026-04-06, with the last push 2026-11-08 and v0.7.3 released 2026-11-08 (a fallback to in-process chunking when the worker pool fails), following v0.7.2 on 2026-11-03 (a patch making the generated skill description valid YAML), v0.7.1 on 2026-10-29 (the `semble` skill option shipping in a release, an opt-in HTTP transport joining stdio on the MCP server, and a clearer Hub model-download error) and v0.7.0 on 2026-10-16 (GitHub API, stars as of 2026-10-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MinishLab/semble&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MinishLab/semble&type=date&legend=top-left" />
 </picture>
 
-97,003 PyPI downloads in the trailing month (PyPIstats, re-fetched 2026-10-25, figure unchanged).
+97,003 PyPI downloads in the trailing month (PyPIstats, re-fetched 2026-11-11, figure unchanged).
 The launch Show HN (May 17, 2026) drew 445 points and 151 comments, on top of two quiet warm-up threads in April; a third-party VS Code extension appeared in August, which is the usual early-ecosystem signal.
 
 ## Strengths
@@ -81,6 +81,7 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 - 2026-10-25 - Full rotation re-verification: every cited URL re-fetched and intact; recorded the fourth delivery surface (a `semble` skill installer option added 2026-10-24) and corrected the pre-1.0 API version reference; no-paid-plan and all benchmark claims unchanged.
 - 2026-10-30 - Recorded release v0.7.1 (2026-10-29: the `semble` skill installer option shipping in a release, an opt-in HTTP transport joining stdio on the MCP server, and a clearer model-download error) and refreshed the GitHub numbers (283 forks, pushed 2026-10-29); the no-paid-plan claim unchanged.
 - 2026-11-05 - Recorded release v0.7.2 (2026-11-03: the generated skill description fixed to be valid YAML) and refreshed the GitHub numbers (286 forks, pushed 2026-11-03); the PyPI trailing-month figure held at 97,003 and the no-paid-plan claim is unchanged.
+- 2026-11-11 - Full rotation re-verification: every cited URL re-fetched and intact (the README's four installer surfaces and benchmark framing, the v0.7.1 and v0.7.2 release notes, the 445-point launch thread, the PyPI package page, the PyPIstats trailing-month figure held at 97,003, the Hugging Face model page, and the benchmarks README with its NDCG@10 methodology); recorded release v0.7.3 (2026-11-08: a fallback to in-process chunking when the worker pool fails) and refreshed the GitHub numbers (289 forks, pushed 2026-11-08); the no-paid-plan claim is unchanged.
 
 ## See also
 
@@ -91,11 +92,12 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 
 ## References
 
-- https://github.com/MinishLab/semble - repo, README (architecture, installer with the MCP, instructions, sub-agent, and skill options, CLI, MCP, savings counter), stars and activity as of 2026-11-05
+- https://github.com/MinishLab/semble - repo, README (architecture, installer with the MCP, instructions, sub-agent, and skill options, CLI, MCP, savings counter), stars and activity as of 2026-11-11
+- https://api.github.com/repos/MinishLab/semble/releases/tags/v0.7.3 - the v0.7.3 release notes: the in-process chunking fallback when the worker pool fails (fetched 2026-11-11)
 - https://api.github.com/repos/MinishLab/semble/releases/tags/v0.7.2 - the v0.7.2 release notes: the generated skill description made valid YAML (fetched 2026-11-05)
 - https://api.github.com/repos/MinishLab/semble/releases/tags/v0.7.1 - the v0.7.1 release notes: the skill option, the opt-in MCP HTTP transport, and the Hub-download error fix (fetched 2026-10-30)
 - https://news.ycombinator.com/item?id=48169874 - the 445-point launch thread, including the founders' no-agent-level-claim statement and the baseline criticisms (verified via the Algolia items API)
 - https://pypi.org/project/semble/ - the package surface, version 0.6.2 (fetched 2026-10-06)
-- https://pypistats.org/api/packages/semble/recent - 97,003 downloads in the trailing month as of 2026-10-07
+- https://pypistats.org/api/packages/semble/recent - 97,003 downloads in the trailing month, figure unchanged when re-fetched 2026-11-11
 - https://huggingface.co/minishlab/potion-code-16M-v2 - the embedding model the index runs on
 - https://github.com/MinishLab/semble/blob/main/benchmarks/README.md - benchmark methodology, NDCG@10, and the token-efficiency setup

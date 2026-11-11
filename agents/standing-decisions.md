@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [agents]
 readability: 0
@@ -13,6 +13,13 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 
 ## Scope rulings
 
+- 2026-11-11 | assistant-runtimes | openhuman reads 42,644 stars on 2026-11-11, about +56 in three days (about +19 a day, the slowing trend continuing) against OpenClaw's 394,312 | the q13 OpenClaw-class scale trigger stays unfired, openhuman held
+- 2026-11-11 | automated-research | a merged side branch flips a default-branch liveness verdict, so a quiet-on-main reading is re-checked at every volatile pass, not carried forward: autokernel's blackwell branch merged into main November 8 with a November 9 prefill landing, inverting the 2026-11-08 quiet-on-main record | the autokernel correction
+- 2026-11-11 | cross-category | a dead HN Algolia citation re-grounds on title keywords (query=Robin multi-agent returned both cited Robin threads) and a created_at_i date window with a points floor surfaces threads a loose query silently drops (created_at dates return zero hits; timestamps work) | the futurehouse-robin rotation re-fetch, extending the 2026-10-31 loose-query ruling
+- 2026-11-11 | automated-research | yibie/awesome-autoresearch pushed 2026-11-11 (794 stars), its first push since the 2026-11-08 scan; additions are the cross-category scanner's to resolve and the lists stay unwired pending q26 | the q26 list liveness re-check
+- 2026-11-11 | code-review | the vendor-run kodustech/awesome-ai-code-review list stays unwired as a mapped source; the category stays on broad sources | staleness re-confirmed 2026-11-11 (pushed_at still 2026-06-28, 54 stars) and a dedicated-list search surfaced nothing credible (largest by name 31 stars and a general AI-tools list, the rest 0 to 12 stars); evidence update for open q21
+- 2026-11-11 | context-engines | scmagazine.com article pages 403 to scripted fetches while the domain root resolves under a browser UA, read as the same site-wide bot-wall class, so the citation stands unchanged | the vanna critical-source link check during the category link pass
+- 2026-11-11 | control-planes | the awesome-ai-governance 2026-11-11 additions resolve with six rejections on standing families | recued stays on the thin-record tail at 3 stars with the 2026-11-05 protocols-or-executions routing flag unchanged, centrol is a flight-recorder provenance tracker below the plane on the governs-something ruling at 2 stars, Asqav joins the receipt-format family, ValGuard and Meilynx take the closed tier (ValGuard hosted with no public code, Meilynx a proprietary proxy with only an Apache-2.0 verifier public), and the AI System and Agent Inventory Register is content under the 2026-10-22 ruling
 - 2026-11-08 | executions | agents-cron (fookhsu/agents-cron) admits on the Airut small-maintainer precedent | 3 stars but an active release train (npm 0.16.1, 2026-11-04) and npm install telemetry (4,185 downloads 2026-10-08 to 2026-11-08, dated-range query) are the adoption evidence the octopool ruling names; zero independent coverage stated in the note
 - 2026-11-08 | executions | nyx-builds/agent-scheduler rejects on the thin-record tail | 0 stars, 0 forks, dormant since 2026-08-14, automated-directory-only footprint (Glama marks it inactive), zero-star pattern-factory org, and the README's pip install resolves to takurot's different PyPI project; reopen on traction
 - 2026-11-08 | executions | open-gitagent/gitcron rejects on the thin dormant record | one day of commits (created 2026-03-04, pushed 2026-03-05), npm 0.1.1 stale since publish with 16 trailing-month downloads, gitagent integration PR an open draft for eight months; reopen on revival or the integration landing

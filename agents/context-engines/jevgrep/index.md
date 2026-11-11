@@ -1,7 +1,7 @@
 ---
 title: Jevgrep
 created: 2026-10-07
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, cli, open-source]
 readability: 3
@@ -27,7 +27,7 @@ The MIT-licensed CLI ships from David Zhang (dzhng), the engineer behind deep-re
 ## Status
 
 **Not yet three weeks old and the fastest start in this category, with a thin discussion footprint so far.**
-2,726 stars as of 2026-10-18, 245 forks and 10 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-11-07, counts as of 2026-11-08 (GitHub API).
+2,726 stars as of 2026-10-18, 245 forks and 10 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-11-10, counts as of 2026-11-11 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dzhng/jevgrep&type=date&theme=dark&legend=top-left" />
@@ -35,8 +35,8 @@ The MIT-licensed CLI ships from David Zhang (dzhng), the engineer behind deep-re
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=dzhng/jevgrep&type=date&legend=top-left" />
 </picture>
 
-The npm package `@dzhng/jevgrep` sits at v0.8.5 (published 2026-10-18, still latest as of 2026-11-08) across 20 releases, with 23,041 trailing-month downloads summed for 2026-10-08 to 2026-11-08 (six zero days in the window); the 0.8.1-to-0.8.5 train streamed discovery scoring, made repeated searches reproducible, added a `--no-locations` output flag, fixed quadratic parser paths, treats resource limits as partial success, and shows terminal search progress.
-Main's unreleased 2026-11-07 work is repo-side, not CLI-side: a find-state-machines skill installed with refactor-clean pointed at it and every vendored skill linked into `.claude/skills`.
+The npm package `@dzhng/jevgrep` sits at v0.8.5 (published 2026-10-18, still latest as of 2026-11-11) across 20 releases, with 26,255 trailing-month downloads summed for 2026-10-12 to 2026-11-11 (six zero days in the window); the 0.8.1-to-0.8.5 train streamed discovery scoring, made repeated searches reproducible, added a `--no-locations` output flag, fixed quadratic parser paths, treats resource limits as partial success, and shows terminal search progress.
+Main's unreleased 2026-11-07 work is repo-side, not CLI-side: a find-state-machines skill installed with refactor-clean pointed at it and every vendored skill linked into `.claude/skills`, followed by the 2026-11-08 to 11-10 skill round (find-overengineering installed and refactor-clean pointed at it, refactor-clean renamed to refactor-change, and a refactor-codebase skill installed that runs the specialist hunts, with launch-video defaulting to 2D), still repo-side; npm unchanged at v0.8.5.
 Its Show HN (2026-09-28) drew 5 points and zero comments, so adoption is running on the author's reputation and the skill distribution rather than discussion.
 The earlier run that rejected this repository as a harness candidate recorded it three days into its life; the star count and a proper category fit resolved it as a note this run.
 
@@ -81,6 +81,7 @@ My disagreeable claim: every index in this category is a cache standing in front
 - 2026-10-26 - Full rotation re-verification: every cited URL re-fetched (repo, README, skill, CLI README, npm registry, downloads, releases, the Show HN item, deep-research, and the author profile all intact); trailing-month npm downloads refreshed to 24,293 (2026-09-23 to 2026-10-22), about double the prior figure.
 - 2026-11-05 - Full rotation re-verification: every cited URL re-fetched (repo, README, skill, CLI README, npm registry, downloads, releases, the Show HN item, deep-research, and the author profile all intact); no release since v0.8.5, trailing-month npm downloads refreshed to 22,007 (2026-10-06 to 2026-11-05), activity counts refreshed to 2026-11-05.
 - 2026-11-08 - Recorded main's unreleased 2026-11-07 repo-side skill work (a find-state-machines skill installed with refactor-clean pointed at it, vendored skills linked into `.claude/skills`) and refreshed the volatile numbers (245 forks, 10 open issues and pull requests, pushed 2026-11-07, 23,041 trailing-month npm downloads summed 2026-10-08 to 2026-11-08); npm unchanged at v0.8.5.
+- 2026-11-11 - Recorded main's unreleased 2026-11-08 to 11-10 repo-side skill round (find-overengineering installed, refactor-clean renamed to refactor-change and pointed at find-overengineering, and a refactor-codebase skill installed that runs the specialist hunts, with launch-video defaulting to 2D) and refreshed the volatile numbers (pushed 2026-11-10, 26,255 trailing-month npm downloads summed 2026-10-12 to 2026-11-11); npm unchanged at v0.8.5.
 
 ## See also
 

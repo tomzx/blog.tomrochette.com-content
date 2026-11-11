@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 83,540 stars as of 2026-10-18, 5,499 forks and 1,699 open issues and pull requests combined as of 2026-11-08, created 2026-01-22, pushed 2026-11-07.
+Young and hot: 83,540 stars as of 2026-10-18, 5,519 forks and 1,670 open issues and pull requests combined as of 2026-11-11, created 2026-01-22, pushed 2026-11-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Young and hot: 83,540 stars as of 2026-10-18, 5,499 forks and 1,699 open issues 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&legend=top-left" />
 </picture>
 
-v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02; v0.52.0 went stable on 2026-10-13 and **v1.0.0 shipped the same day**, with v1.0.1 on 2026-10-14 and **v1.1.0 going stable on 2026-10-25** (opt-in fish-script hook wrapping, Angular build-table compaction, and a large correctness fix batch), so the project is no longer pre-1.0; a dev-1.2.0 candidate train is already running (rc.620 as of 2026-11-07).
+v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02; v0.52.0 went stable on 2026-10-13 and **v1.0.0 shipped the same day**, with v1.0.1 on 2026-10-14, **v1.1.0 going stable on 2026-10-25** (opt-in fish-script hook wrapping, Angular build-table compaction, and a large correctness fix batch), and **v1.2.0 going stable on 2026-11-08** (directory-folded `git ls-tree` listings plus a large correctness batch across hooks, gain accounting, and the language runners), so the project is no longer pre-1.0; a dev-1.2.1 candidate train is already running (rc.628 as of 2026-11-10).
 The site claims 18,000+ developers, a marketing figure, and the Show HN thread shows users posting their own measured savings.
 
 ## Strengths
@@ -86,6 +86,7 @@ Not for sessions driven by built-in Read/Grep tools, or anyone whose agents cann
 - 2026-11-05 - Refreshed the volatile numbers (5,477 forks, 1,704 open issues and pull requests, pushed 2026-11-05); stable remains v1.1.0 with the dev-1.2.0 candidate train at rc.615.
 - 2026-11-06 - Refreshed the volatile numbers (5,488 forks, 1,711 open issues and pull requests, pushed 2026-11-06); stable remains v1.1.0 with the dev-1.2.0 candidate train at rc.618.
 - 2026-11-08 - Refreshed the volatile numbers (5,499 forks, 1,699 open issues and pull requests, pushed 2026-11-07); stable remains v1.1.0 with the dev-1.2.0 candidate train at rc.620.
+- 2026-11-11 - Recorded v1.2.0 going stable (2026-11-08: directory-folded `git ls-tree` path listings, static musl Linux binaries, and a large correctness batch across hooks, gain accounting, cargo nextest, dotnet TRX reports, and the SQLFluff and ls filters), concluding the dev-1.2.0 candidate train; recorded the dev-1.2.1 candidate train starting (rc.628 as of 2026-11-10) and refreshed the volatile numbers (5,519 forks, 1,670 open issues and pull requests, pushed 2026-11-11); stable moves from v1.1.0 to v1.2.0.
 
 ## See also
 

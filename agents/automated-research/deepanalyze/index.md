@@ -1,7 +1,7 @@
 ---
 title: DeepAnalyze
 created: 2026-10-10
-updated: 2026-11-05
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, agentic-llm, data-science, open-source]
 readability: 3
@@ -25,7 +25,7 @@ It served as the official agent for the 2026 China Collegiate Computer Design Co
 
 ## Status
 
-Active: 4,714 stars as of 2026-10-15, 746 forks, created 2025-10-11, last push 2026-11-02 (a merged README overhaul: the project promotes DeepAnalyze.net and its sponsors, restores the 1080p 60fps promotional video, and swaps an unavailable CLI video for usage examples), as of 2026-11-05.
+Active: 4,714 stars as of 2026-10-15, 746 forks, created 2025-10-11, last push 2026-11-02 (a merged README overhaul: the project promotes DeepAnalyze.net and its sponsors, restores the 1080p 60fps promotional video, and swaps an unavailable CLI video for usage examples), as of 2026-11-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ruc-datalab/DeepAnalyze&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Active: 4,714 stars as of 2026-10-15, 746 forks, created 2025-10-11, last push 2
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ruc-datalab/DeepAnalyze&type=date&legend=top-left" />
 </picture>
 
-**The usage footprint is far thinner than the star count: the Hugging Face weights show 144 trailing-month downloads and 93 likes as of 2026-10-25 (down from 211 in mid-October as the window rolled), and a Hacker News search returns zero stories, so adoption runs through the Chinese data-science community (PaperWeekly, WeChat, the collegiate contest) rather than the Western harness ecosystem.**
+**The usage footprint is far thinner than the star count: the Hugging Face weights show 239 trailing-month downloads and 93 likes as of 2026-11-11 (211 in mid-October, then 144 in late October, as the window rolled), and a Hacker News search returns zero stories, so adoption runs through the Chinese data-science community (PaperWeekly, WeChat, the collegiate contest) rather than the Western harness ecosystem.**
 
 ## Strengths
 
@@ -47,7 +47,7 @@ Active: 4,714 stars as of 2026-10-15, 746 forks, created 2025-10-11, last push 2
 - The headline claim is self-reported in the paper's own evaluation, and no independent replication surfaced in this run's searches.
 - A single 8B model plans, executes, and judges its own work inside the sandbox, so there is no external verifier anywhere in the loop.
 - The project homepage ships with its template placeholders unfilled, thin for a project of the claimed importance.
-- 4,714 stars against 144 trailing-month model downloads and zero Hacker News stories says the stars measure attention, not usage.
+- 4,714 stars against 239 trailing-month model downloads (as of 2026-11-11) and zero Hacker News stories says the stars measure attention, not usage.
 
 ## Pricing
 
@@ -70,6 +70,7 @@ Not for audit-sensitive analysis: the loop's only judge is the model that wrote 
 - 2026-10-10 - Created.
 - 2026-10-25 - Rotation re-verification: refreshed the Hugging Face usage footprint (144 trailing-month downloads, down from 211, with likes steady at 93), harmonized the star figure in the cautions line with the status baseline, and added SkillAdam to the ecosystem list; every cited URL re-fetched, all live.
 - 2026-10-26 - Corrected the star-history chart markup (the light-theme source carried the dark-theme parameter; it now points at the default chart).
+- 2026-11-11 - Rotation re-verification: refreshed the Hugging Face usage footprint (239 trailing-month downloads with the window rolled, likes steady at 93), re-fetched every cited URL with all live, and re-confirmed the repository quiet since the November 2 README overhaul.
 
 ## See also
 
@@ -84,6 +85,6 @@ Not for audit-sensitive analysis: the loop's only judge is the model that wrote 
 - https://api.github.com/repos/ruc-datalab/DeepAnalyze - stars, forks, created and pushed dates, and the MIT license for the as-of status (fetched 200, 2026-10-25)
 - https://arxiv.org/abs/2510.16872 - the paper: title, authors, October 19 2025 online date, curriculum-based agentic training, and the frontier-workflow-agents comparison claim (fetched 200, 2026-10-25)
 - https://huggingface.co/RUC-DataLab/DeepAnalyze-8B - the open weights page, 144 downloads last month (fetched 200, 2026-10-25)
-- https://huggingface.co/api/models/RUC-DataLab/DeepAnalyze-8B - the 144 trailing-month downloads and 93 likes usage footprint (fetched 200, 2026-10-25)
+- https://huggingface.co/api/models/RUC-DataLab/DeepAnalyze-8B - the trailing-month downloads and likes usage footprint (239 downloads, 93 likes at the 2026-11-11 refresh) (fetched 200, 2026-10-25 and 2026-11-11)
 - https://ruc-deepanalyze.github.io/ - the project homepage, fetched with its template placeholders unfilled (fetched 200, 2026-10-25)
 - https://hn.algolia.com/api/v1/search?query=DeepAnalyze - the zero-story Hacker News footprint (fetched 200, 2026-10-25)

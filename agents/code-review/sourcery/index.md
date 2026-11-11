@@ -1,7 +1,7 @@
 ---
 title: Sourcery
 created: 2026-08-30
-updated: 2026-11-05
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -21,7 +21,7 @@ IDE surfaces cover PyCharm, VS Code, Sublime, and Vim, a wider editor spread tha
 
 ## Status
 
-**Old by category standards (repo since July 2019), active on the product side, and mid-size: 1,875 stars as of 2026-10-11, though the repo itself has quieted, main's latest commit being September 17, 2026, the same day PyPI shipped 1.46.0, while the pushes recorded after that (October 20, October 22, most recently November 5) all landed on side branches and GitHub carries a 1.46.1 beta series (through v1.46.1b7, September 24) that has not shipped to PyPI.**
+**Old by category standards (repo since July 2019), active on the product side, and mid-size: 1,875 stars as of 2026-10-11, though the repo itself has quieted, main's latest commit being September 17, 2026, the same day PyPI shipped 1.46.0, while the pushes recorded after that (October 20, October 22, November 5, most recently November 10) all landed on side branches and GitHub carries a 1.46.1 beta series (through v1.46.1b7, September 24) that has not shipped to PyPI.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sourcery-ai/sourcery&type=date&theme=dark&legend=top-left" />
@@ -83,6 +83,7 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 - 2026-10-17 - Rotation re-verification: every cited URL re-fetched live, all prices and tier contents unchanged, and the repo's latest push moved to October 16.
 - 2026-10-25 - Rotation re-verification: recorded the homepage's new Perfectionist positioning with its finds-more-issues claim and open-source catch wall, auto-approval of low-risk PRs, the SOC 2 Type II compliance statement, and the docs' concrete usage caps (diff-character budget, five automatic re-reviews per PR); every cited URL re-fetched live, prices, tiers, and the release state unchanged (pushed October 22, PyPI at 1.46.0).
 - 2026-11-05 - Rotation re-verification: every cited URL re-fetched live; prices, tiers, the FAQ's usage caps, and the PyPI state all unchanged (1.46.0 still latest, 23 releases); corrected the repo-liveness evidence (main quiet since September 17, the later pushed dates side branches, the 1.46.1 beta series unreleased on PyPI) and recorded the homepage customer strip growing to eight logos with Red Hat and the Linux Foundation beside the Department of Justice.
+- 2026-11-11 - Volatile re-verification: the push moved to November 10, still a side branch with main quiet since September 17 and 1.46.0 still the latest PyPI release; nothing else changed.
 
 ## See also
 
@@ -94,7 +95,7 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 
 ## References
 
-- https://github.com/sourcery-ai/sourcery - repo, 1,875 stars, MIT, pushed_at November 5, 2026 on side branches, main's latest commit September 17, 2026 (GitHub API, as of 2026-10-11; re-checked 2026-10-20, 2026-10-22, 2026-10-25, and 2026-11-05)
+- https://github.com/sourcery-ai/sourcery - repo, 1,875 stars, MIT, pushed_at November 10, 2026 on side branches, main's latest commit September 17, 2026 (GitHub API, as of 2026-10-11; re-checked 2026-10-20, 2026-10-22, 2026-10-25, 2026-11-05, and 2026-11-11)
 - https://sourcery.ai/ - product page, re-fetched 2026-10-17, 2026-10-25, and 2026-11-05 (the Perfectionist positioning, auto-approve, and SOC 2 Type II statement stand; the customer strip grew to eight logos with Red Hat and the Linux Foundation on the later fetch)
 - https://sourcery.ai/pricing/ - tiers as of 2026-10-11, re-fetched unchanged 2026-10-17, 2026-10-25, and 2026-11-05
 - https://docs.sourcery.ai/reference/faq/ - docs FAQ covering plans, security scanning, BYO LLM, self-hosting (the former Product/Plans page redirects here), re-fetched 2026-10-17, 2026-10-25, and 2026-11-05 (the diff-character budget and the five-re-review cap stand)

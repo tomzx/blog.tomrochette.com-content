@@ -1,7 +1,7 @@
 ---
 title: git-lrc
 created: 2026-10-10
-updated: 2026-11-05
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -82,6 +82,7 @@ My disagreeable take: recording review attestations in commit messages is the mo
 - 2026-10-24 - Volatile re-verification: recorded v0.6.16 (October 23), the CSRF fix for the local review server's state-changing actions, and v0.6.17 (October 23), the Go 1.26.10 toolchain bump for GO-2026-6809, with the release count at 55 and a new caution on the local server's attack surface; prices unchanged.
 - 2026-10-30 - Rotation re-verification: every cited URL re-fetched live; prices and the release state unchanged (v0.6.17 still latest, pushed October 23, 55 releases), and the pricing page's Free tier recorded as it now reads: hosted LiveReview AI included with no API key needed beside the BYOK path, a 3-team-member cap, and risk-based auto-approve, with the pricing FAQ stating LiveReview is not SOC 2 Type II certified.
 - 2026-11-05 - Volatile re-verification: pushed_at moved to November 3 on a side-branch push while main stays at October 23; v0.6.17 still the latest release.
+- 2026-11-11 - Rotation re-verification: every cited URL re-fetched live (hexmos.com serves 403 to plain curl with the domain root included, a site-wide wall, while the pricing and product pages still fetch through and are unchanged); prices, tiers, and the release state unchanged (v0.6.17 still latest, 55 releases, pushed November 3, main still October 23), the Free tier's LiveReview-AI-included contents, the not-SOC-2-Type-II FAQ line, and the 9-point Show HN all standing; no factual drift.
 
 ## See also
 
@@ -92,11 +93,11 @@ My disagreeable take: recording review attestations in commit messages is the mo
 
 ## References
 
-- https://github.com/HexmosTech/git-lrc - repo facts: 1,470 stars, 191 forks, created 2026-02-08, pushed 2026-10-11, NOASSERTION license (GitHub API, as of 2026-10-11, push date re-checked 2026-10-18 and 2026-10-30, pushed 2026-10-23)
-- https://raw.githubusercontent.com/HexmosTech/git-lrc/HEAD/README.md - the commit-hook mechanism, agent mode, claude-lrc companion, BYOK connectors (including Atlas Cloud and Anthropic-compatible endpoints), the Issue Navigator and Summary Deck surfaces, and the repository-rules surface, re-fetched 2026-10-30
-- https://hexmos.com/livereview/git-lrc/pricing/ - the LOC pricing bands and tier contents, fetched 2026-10-11, re-fetched 2026-10-18, re-read 2026-10-30 (prices unchanged; the Free tier now lists hosted LiveReview AI with no API key needed, a 3-team-member cap, and risk-based auto-approve; the FAQ states LiveReview is not SOC 2 Type II certified)
-- https://hexmos.com/livereview/git-lrc/ - the product page: install flow, the vouch-skip table, and the LiveReview platform relationship, fetched 2026-10-10, re-fetched 2026-10-18 and 2026-10-30
-- https://api.github.com/repos/HexmosTech/git-lrc/releases - 55 releases, v0.6.16 (CSRF fix) and v0.6.17 (Go toolchain bump) published October 23, 2026 (GitHub API, fetched 2026-10-24; 53 releases with v0.6.15 latest as of 2026-10-11, re-fetched 2026-10-18, unchanged then, re-fetched 2026-10-30 and 2026-11-05 unchanged)
-- https://api.github.com/repos/HexmosTech/git-lrc - repo: pushed_at November 3 on a side branch, main's latest commit October 23 (re-queried 2026-10-24, 2026-10-30, and 2026-11-05; 1,470 stars and 191 forks as of 2026-10-11)
-- https://hn.algolia.com/api/v1/items/48555511 - the Show HN launch, 9 points, June 16, 2026, the thin-footprint signal, re-fetched 2026-10-30
-- https://raw.githubusercontent.com/zhuyansen/agent-skills-hub/main/ops/review-runs/RESULTS.md - the independent end-to-end eval that could not run git-lrc locally because it sends the diff to a LiveReview server, fetched 2026-10-18, re-fetched 2026-10-30 (unchanged)
+- https://github.com/HexmosTech/git-lrc - repo facts: 1,470 stars, 191 forks, created 2026-02-08, pushed 2026-10-11, NOASSERTION license (GitHub API, as of 2026-10-11, push date re-checked 2026-10-18, 2026-10-30, and 2026-11-11, pushed 2026-10-23 then November 3 on a side branch)
+- https://raw.githubusercontent.com/HexmosTech/git-lrc/HEAD/README.md - the commit-hook mechanism, agent mode, claude-lrc companion, BYOK connectors (including Atlas Cloud and Anthropic-compatible endpoints), the Issue Navigator and Summary Deck surfaces, and the repository-rules surface, re-fetched 2026-10-30 and 2026-11-11 (unchanged)
+- https://hexmos.com/livereview/git-lrc/pricing/ - the LOC pricing bands and tier contents, fetched 2026-10-11, re-fetched 2026-10-18, re-read 2026-10-30 (prices unchanged; the Free tier now lists hosted LiveReview AI with no API key needed, a 3-team-member cap, and risk-based auto-approve; the FAQ states LiveReview is not SOC 2 Type II certified), re-fetched 2026-11-11 through the site's curl wall, all unchanged
+- https://hexmos.com/livereview/git-lrc/ - the product page: install flow, the vouch-skip table, and the LiveReview platform relationship, fetched 2026-10-10, re-fetched 2026-10-18, 2026-10-30, and 2026-11-11 (unchanged)
+- https://api.github.com/repos/HexmosTech/git-lrc/releases - 55 releases, v0.6.16 (CSRF fix) and v0.6.17 (Go toolchain bump) published October 23, 2026 (GitHub API, fetched 2026-10-24; 53 releases with v0.6.15 latest as of 2026-10-11, re-fetched 2026-10-18, unchanged then, re-fetched 2026-10-30, 2026-11-05, and 2026-11-11 unchanged)
+- https://api.github.com/repos/HexmosTech/git-lrc - repo: pushed_at November 3 on a side branch, main's latest commit October 23 (re-queried 2026-10-24, 2026-10-30, 2026-11-05, and 2026-11-11; 1,470 stars and 191 forks as of 2026-10-11)
+- https://hn.algolia.com/api/v1/items/48555511 - the Show HN launch, 9 points, June 16, 2026, the thin-footprint signal, re-fetched 2026-10-30 and 2026-11-11
+- https://raw.githubusercontent.com/zhuyansen/agent-skills-hub/main/ops/review-runs/RESULTS.md - the independent end-to-end eval that could not run git-lrc locally because it sends the diff to a LiveReview server, fetched 2026-10-18, re-fetched 2026-10-30 and 2026-11-11 (unchanged)

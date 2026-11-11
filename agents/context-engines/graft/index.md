@@ -1,7 +1,7 @@
 ---
 title: Graft
 created: 2026-09-12
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graphs, claude-code, open-source]
 readability: 3
@@ -18,7 +18,7 @@ Graft is an MIT-licensed CLI from Trail (the company formerly branding itself Na
 ## What it is
 
 **The graph is plain files your agent already reads, and the intelligence in them is opt-in.**
-`graft build` parses 24 languages with tree-sitter (Gleam joined in October 2026, with OCaml and Zig parsing symbols only) into a per-symbol wiring graph, and an optional `--deep` pass (any LLM provider under your own key) writes `graft/*.md` concept nodes with plain-English summaries, crux code excerpts, and typed wikilinks like `depends_on` and `produces`.
+`graft build` parses 28 languages with tree-sitter (the count rose from 24 in November 2026 as Bash, GLSL, Julia, and PowerShell joined, after Gleam in October; OCaml and Zig parse symbols only) into a per-symbol wiring graph, and an optional `--deep` pass (any LLM provider under your own key) writes `graft/*.md` concept nodes with plain-English summaries, crux code excerpts, and typed wikilinks like `depends_on` and `produces`.
 The folder is a gitignored local cache like `node_modules`; what you commit is the wiring `graft init` drops into `.claude/`, `AGENTS.md`, and the MCP config, so teammates regenerate their own graphs.
 Every query re-syncs the structural graph against the working tree first (about 3 ms, free, no model), so answers cover uncommitted edits; the CLI, MCP server, and Claude Code hooks add blast-radius warnings on every edit.
 The npm scope and telemetry endpoint are NanoNets-branded, the product site attributes to Trail (trailhq.com), and Trail Brain, the hosted "company brain", is the upsell.
@@ -26,7 +26,7 @@ In October 2026 the product renamed to Trail-code: the repository moved from tra
 
 ## Status
 
-Young and very hot: created 2026-07-03, 10,084 stars by 2026-10-18, with 991 forks and 270 open issues and pull requests as of 2026-11-08, the repository renamed trailhq/Graft to trailhq/Trail-Code, the npm package `@trailhq/trail-code` at v0.29.0 (published 2026-11-06, no changelog section on main yet) beside the still-published `@nanonets/graft`, which ships every release alongside it and drew 91,926 downloads in the trailing month (2026-10-09 to 2026-11-08, summed from the range endpoint with six zero days in the window, fetched 2026-11-08); main's newest batch (2026-11-07) adds a Claude memory import in `trail init`, learning files written one per session or one per PR, the post-edit blast radius on Windows, statusline wrapper chaining, and a graph-and-search correctness pass (TypeScript barrels and generic supertypes connected, Go calls resolved through interface-typed struct fields, grep symbols indexed by file path), with the 2026-11-06 `share-session` command and the 2026-11-02 memory and sync-crash fixes also unreleased in npm as of 2026-11-08.
+Young and very hot: created 2026-07-03, 10,084 stars by 2026-10-18, with 999 forks and 217 open issues and pull requests as of 2026-11-11, the repository renamed trailhq/Graft to trailhq/Trail-Code, the npm package `@trailhq/trail-code` at v0.29.0 (published 2026-11-06, no changelog section on main yet) beside the still-published `@nanonets/graft`, which ships every release alongside it and drew 91,818 downloads in the trailing month (2026-10-12 to 2026-11-11, summed from the range endpoint with six zero days in the window, fetched 2026-11-11); main's newest batch (2026-11-09, still unreleased in npm as of 2026-11-11) lifts the language count to 28 with Bash indexing, GLSL, Julia, and a README that lists PowerShell, adds `.svelte` and `.astro` indexing through their script blocks, resolves TypeScript calls through named imports, lets `--include-dir` opt into named dot-directories, and lands a fix round (locale-pinned rendered numbers so graft can read its own savings footer, bare-array and truncated-JSON recovery from gateway content, a cross-drive `--dir` treated as outside the repo, PHP type usages in reference edges, LSP enrichment across polyglot repos, and a telemetry recursive-flush fix), on top of the 2026-11-07 batch (a Claude memory import in `trail init`, learning files written one per session or one per PR, the post-edit blast radius on Windows, statusline wrapper chaining, and a graph-and-search correctness pass) and the 2026-11-06 `share-session` command, all also unreleased in npm as of 2026-11-11.
 The 0.25.0 release (2026-10-23) extended the Learnings loop: a repository's skill now ships with its whole folder, a coding agent's use of a repo skill is reported to the workspace, and learning sync takes down learnings deleted at HEAD and syncs each turn.
 npm 0.26.0 (published 2026-10-26) released the 10-26 main work and more: the Claude Code workspace connector (`trail mcp` passing the workspace's tools, skill prompts, and instructions through to Claude Code after pairing, with repo tools winning name clashes and the repo still working when Trail is unreachable), an `always follow` pin (`trail note --always-follow`), `trail init --agents auto` writing repo files for Claude Code, Cursor, Codex, and OpenCode with laptop settings only for the agents installed, first-setup reading of merged PR reviews so real learnings exist on day one, and the four learning kinds regrouped into three display units (learnings, always follow, skills), with the old `/api/v1/mcp` brain tools removed in the connector's favor.
 npm 0.27.0 and 0.28.0 (both published 2026-10-27) then moved the hosted side into the agent: Trail's page copies a prompt with a one-time code and `trail login --code` signs the laptop in, one sign-in arms Claude Code, Codex, and Cursor in every project, teammates pulling `.trail/workspace.json` get a single sign-in offer, setup learns from past Claude Code sessions and merged PRs, learnings arrive just before an edit instead of after, a `trail check` warns before commit, push, or PR creation when a change runs against a learning (warn only, it can flag word matches that are not conflicts), and a laptop can hold several workspaces (`trail workspace`), with a fix so an npx sign-in leaves the agents with working tools.
@@ -104,6 +104,7 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 - 2026-11-05 - Recorded main's unreleased 2026-11-02 fixes (peak memory on big repos, a sync crash) and refreshed the growth numbers (984 forks, 288 open issues and pull requests, pushed 2026-11-05); npm unchanged at v0.28.1.
 - 2026-11-07 - Recorded main's unreleased 2026-11-06 share-session commit (#740, sends a person's whole Claude setup) after the 2026-11-03 README badge repoint; npm unchanged at v0.28.1.
 - 2026-11-08 - Recorded the renamed npm package moving to v0.29.0 (published 2026-11-06, no changelog section on main yet) and main's unreleased 2026-11-07 batch (a Claude memory import in `trail init`, learning files one per session or per PR, the Windows blast radius, statusline wrapper chaining, and a graph-and-search correctness pass) and refreshed the growth numbers (991 forks, 270 open issues and pull requests, 91,926 trailing-month downloads on the old package summed 2026-10-09 to 2026-11-08).
+- 2026-11-11 - Recorded main's unreleased 2026-11-09 batch lifting the language count from 24 to 28 (Bash indexing with the bundled grammar, GLSL, Julia, and PowerShell listed in the README), `.svelte`/`.astro` script-block indexing, TypeScript named-import call resolution, the `--include-dir` dot-directory opt-in, and the fix round (locale-pinned numbers, gateway JSON recovery, the cross-drive `--dir` guard, PHP type usages, polyglot LSP enrichment, the telemetry recursive-flush fix); npm unchanged at v0.29.0, and the 2026-11-11 pushed signal resolved as off-main activity; refreshed the growth numbers (999 forks, 217 open issues and pull requests, 91,818 trailing-month downloads on the old package summed 2026-10-12 to 2026-11-11).
 
 ## See also
 
@@ -113,14 +114,14 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 
 ## References
 
-- https://github.com/trailhq/Trail-Code - canonical repository (trailhq/Graft and NanoNets/Graft redirect here), stats and activity as of 2026-11-08
+- https://github.com/trailhq/Trail-Code - canonical repository (trailhq/Graft and NanoNets/Graft redirect here), stats and activity as of 2026-11-11
 - https://raw.githubusercontent.com/trailhq/Trail-Code/main/README.md - architecture, benchmark tables, SWE-bench Verified numbers, delivery surfaces, and the rename banner ("Trail-code (previously graft)")
 - https://graft.nanonets.ai - product site, Trail attribution, and marketing claims
 - https://trailhq.com/trail-code - the product page carrying the rename and the Learnings framing, fetched 2026-10-16
 - https://raw.githubusercontent.com/trailhq/Trail-Code/main/TELEMETRY.md - the telemetry allowlist contract (the original NanoNets/context-graph-engine path still redirects)
-- https://registry.npmjs.org/@trailhq/trail-code/latest - the renamed package, v0.29.0, described as "Formerly graft" (re-fetched 2026-11-08)
+- https://registry.npmjs.org/@trailhq/trail-code/latest - the renamed package, v0.29.0, described as "Formerly graft" (re-fetched 2026-11-11)
 - https://raw.githubusercontent.com/trailhq/Trail-Code/main/CHANGELOG.md - the 0.27.0 and 0.28.0 changelogs: the one-time-code agent sign-in, learnings before an edit, the pre-commit `trail check`, and multi-workspace laptops (re-fetched 2026-10-30)
-- https://api.npmjs.org/downloads/range/2026-10-09:2026-11-08/@nanonets/graft - 91,926 downloads summed for 2026-10-09 to 2026-11-08 on the old package, six zero days in the window, fetched 2026-11-08
+- https://api.npmjs.org/downloads/range/2026-10-12:2026-11-11/@nanonets/graft - 91,818 downloads summed for 2026-10-12 to 2026-11-11 on the old package, six zero days in the window, fetched 2026-11-11
 - https://hn.algolia.com/api/v1/items/49197687 - the 3-point Show HN and the creator's tree-sitter-only clarification
 - https://hn.algolia.com/api/v1/items/49299985 - the 39-point thread: staleness, README register critique, and the vendor-run Graphify comparison
 - https://trailhq.com/pricing - Trail Brain plans as of 2026-10-06

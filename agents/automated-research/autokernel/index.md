@@ -1,7 +1,7 @@
 ---
 title: AutoKernel
 created: 2026-10-23
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, gpu, kernel-optimization, autoresearch]
 readability: 3
@@ -24,7 +24,7 @@ Nine kernel types ship as starters (matmul, softmax, layernorm, rmsnorm, flash a
 
 ## Status
 
-Active on a side branch, quiet on main: 1,603 stars, 163 forks, 16 open issues as of 2026-10-23, created 2026-03-11; the default branch has not moved since 2026-03-19, and the recent pushes (October 23, then November 5) landed on the autokernel/blackwell side branch, whose November 5 tip hardens decode_step against truncated streams and labels unproven exact-B results as such, as of 2026-11-08.
+Active: 1,603 stars, 163 forks, 16 open issues as of 2026-10-23, created 2026-03-11; the default branch sat quiet from March 19 until November 8, when the autokernel/blackwell side branch (the October work whose November 5 tip hardened decode_step against truncated streams) merged into main, and a November 9 landing added long-context prefill (paged KV cache, calibrated attention percent-of-peak, cold versus warm TTFT), so the loop's development now sits on main, as of 2026-11-11.
 There are no git tags or GitHub releases; the README's own changelog runs v1.0.0 through v1.3.0 (the latest adding AMD ROCm support for MI300X-class GPUs and a batch of correctness fixes).
 The launch thread reached 47 points and 10 comments on Hacker News on 2026-03-11, and the authors' paper (arXiv 2603.21331, March 2026) reports H100 results of 5.29x over PyTorch eager on RMSNorm and 2.82x on softmax, ahead of `torch.compile` max-autotune on most tested configurations, as of 2026-10-23.
 
@@ -74,6 +74,7 @@ Not for production performance work that needs speedups validated against CUTLAS
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light-theme source carried the dark-theme parameter; it now points at the default chart).
 - 2026-11-08 - Rotation re-verification: all seven references re-fetched and live (one API retry passed a rate limit), and the liveness signal corrected per the default-branch rule: the October 23 and November 5 pushes were side-branch commits on autokernel/blackwell (tip November 5, decode_step stream handling), while the default branch has been quiet since 2026-03-19.
+- 2026-11-11 - Volatile re-verification inverted that reading: the blackwell branch merged into main on November 8 and a November 9 landing added long-context prefill (paged KV, calibrated attention percent-of-peak, cold versus warm TTFT), so main is active again; the README changelog still tops at v1.3.0 with no tags or releases.
 
 ## See also
 
@@ -91,3 +92,4 @@ Not for production performance work that needs speedups validated against CUTLAS
 - https://hn.algolia.com/api/v1/items/47332688 - the launch thread's critical comments: the Ansor comparison gap, the CUTLASS 3x GEMM rebuttal, and the AlphaEvolve precedent (fetched 200, 2026-10-23)
 - https://www.rightnowai.co/ - the company: "the kernel lab behind instant AI", YC backing, and the System Zero product line (fetched 200, 2026-10-23)
 - https://www.rightnowai.co/forge - the enterprise offer, now a redirect into the contact funnel with no published prices (fetched 308 to 200, 2026-10-23)
+- https://api.github.com/repos/RightNow-AI/autokernel/commits?per_page=3 - the default branch's November 8 blackwell merge and November 9 long-context prefill landing behind this status correction (fetched 200, 2026-11-11)

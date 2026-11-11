@@ -1,7 +1,7 @@
 ---
 title: Mission Control
 created: 2026-11-01
-updated: 2026-11-05
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, agent-operations, task-dispatch, self-hosted, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Adapters and observation surfaces cover OpenClaw, Claude Code, Codex, CrewAI, La
 
 ## Status
 
-Active alpha and adopted for its age: 6,424 stars, 125 forks, and 59 open issues as of 2026-11-05, created 2026-02-13, pushed 2026-10-28, with v2.3.0 (2026-07-25) the latest tagged release while main keeps moving past it.
+Active alpha and adopted for its age: 6,424 stars as of 2026-11-01, 134 forks, and 60 open issues as of 2026-11-11, created 2026-02-13, pushed 2026-11-09, with v2.3.0 (2026-07-25) the latest tagged release while main keeps moving past it.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=builderz-labs/mission-control&type=date&theme=dark&legend=top-left" />
@@ -50,7 +50,7 @@ The maintainer is nyk (Builderz Labs), and the changelog shows a sustained secur
 - The changelog states plainly that no approval policy engine is included, so governance is task-level review plus RBAC, not tool-call policy; this plane does not gate what an agent does inside a task the way the enforcement gates in this category do.
 - Aegis is an LLM reviewer agent, so gate quality tracks model quality, and the review prompt, verdict parsing, and retry limits are the vendor's own design with no independent measurement.
 - The sandbox flags are opt-in and absent config leaves dispatch unchanged, so the safe path for host CLI execution is deliberate setup, not a default.
-- The tagged release train went quiet after v2.3.0 (2026-07-25) while main kept moving (last push 2026-10-28), so release notes lag the code you clone.
+- The tagged release train went quiet after v2.3.0 (2026-07-25) while main kept moving (last push 2026-11-09), so release notes lag the code you clone.
 
 ## Pricing
 
@@ -77,6 +77,7 @@ Not for tool-call policy enforcement (there is no policy engine), for teams need
 ## Changes
 
 - 2026-11-01 - Created from the task-management worker's routing handoff, profiling the self-hosted operations plane as the category's fourth live plane, with the changelog's no-policy-engine statement as the critical angle.
+- 2026-11-11 - Full rotation re-verification: every cited URL re-fetched and live (the README with the alpha warning and governance row unchanged, the orchestration guide unchanged, the changelog still holding v2.3.0 as the latest tagged release with the no-approval-policy-engine statement intact, the homepage with the Agent OS Setup package unchanged, and the HN search still returning only same-name lookalikes), and the counters refreshed (60 open issues, 134 forks, pushed 2026-11-09); no drift beyond the counters.
 
 ## See also
 

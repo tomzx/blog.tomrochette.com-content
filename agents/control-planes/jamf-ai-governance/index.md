@@ -1,7 +1,7 @@
 ---
 title: Jamf AI Governance
 created: 2026-10-05
-updated: 2026-11-01
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, endpoint, macos, commercial]
 readability: 3
@@ -64,6 +64,7 @@ Not for Linux or Windows fleets, for teams needing per-action runtime authorizat
 - 2026-10-16 - Rotation re-verification: all six references re-fetched, the June 30 GA press release confirming the date, the 78,000-organization and 35-million-device figures, the Claude Code, Claude Desktop, and Codex coverage list, and the Okta integration unchanged; the Business Wire mirror now blocks scripted fetches and its reference records that.
 - 2026-10-25 - Full rotation re-verification: all six references re-fetched, every claim this note traces unchanged (the June 30 GA date, the coverage list, the Okta integration, the 78,000-organization and 35-million-device figures, the after-yes positioning, Cursor and GitHub Copilot still named only as follow-ups), the solutions page additionally listing AI Activity, Model, and Browser Insights as coming-soon roadmap items, the learn.jamf.com documentation path still a client-rendered shell, and the Business Wire mirror again 403 to scripted fetch.
 - 2026-11-01 - Full rotation re-verification: all six references re-fetched, every claim this note traces unchanged, the solutions page's Browser Insights FAQ now naming JNUC 2026 as the announcement venue beside the same coming-soon roadmap items, the learn.jamf.com path still a client-rendered shell, and the Business Wire mirror again 403 to scripted fetch; no drift beyond the FAQ detail.
+- 2026-11-11 - Full rotation re-verification: all six references re-fetched, every claim this note traces unchanged (the June 30 GA date, the coverage list, the Okta integration, the 78,000-organization and 35-million-device figures, the after-yes positioning, and the Browser Insights FAQ still naming JNUC 2026), the learn.jamf.com path still a client-rendered shell, and the Business Wire mirror again 403 to scripted fetch; no drift.
 
 ## See also
 

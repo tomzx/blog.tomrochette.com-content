@@ -1,7 +1,7 @@
 ---
 title: SettleBridge
 created: 2026-09-27
-updated: 2026-11-07
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-settlement, trust, escrow, policy-enforcement, audit]
 readability: 3
@@ -26,7 +26,7 @@ The vendor is Truthsetter LLC.
 ## Status
 
 Early and low-traffic but actively maintained.
-The gateway repository was created 2026-03-08 and sits at 1 star and 0 forks as of 2026-10-18, with 1 open issue, 178 commits on main, and a last push on 2026-11-07 as of 2026-11-07; the A2A-SE standard repository has 2 stars.
+The gateway repository was created 2026-03-08 and sits at 1 star and 0 forks as of 2026-10-18, with 1 open issue, 178 commits on main as of 2026-11-07, and a last push on 2026-11-11 as of 2026-11-11; the A2A-SE standard repository has 2 stars.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2a-settlement/settlebridge-ai&type=date&theme=dark&legend=top-left" />

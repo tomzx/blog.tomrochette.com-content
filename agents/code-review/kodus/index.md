@@ -1,7 +1,7 @@
 ---
 title: Kodus
 created: 2026-08-30
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -29,8 +29,8 @@ BYOK covers OpenAI, Anthropic, Google Gemini, Vertex AI, Novita, and any OpenAI-
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kodustech/kodus-ai&type=date&legend=top-left" />
 </picture>
 
-The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on November 8, 2026, with main's latest commit landing November 7 (the merge of a plain-text reasoning-leak fix).
-Releases keep coming: 2.2.12 (November 5) fixed GitHub App linking by logging the failing step and skipping null installations, the November 3 batch (2.2.11, web-1.2.12, selfhosted-2.2.9, mcp-manager-2.1.6) gave a second OpenAI-compatible endpoint its own BYOK key, made context-needing Kody Rules evaluate on Azure Repos, and carried proactive MCP hints in tool _meta, and the October 29 batch before it (2.2.9, web-1.2.10, selfhosted-2.2.7, mcp-manager-2.1.5) had added conditional PR approval keyed on historical code-area risk, auto-paused ignored and noisy Kody rules, a new finding dedup, and an EE-license clarification of Community self-hosted production rights.
+The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on November 11, 2026, with main's latest commit landing the same day (the merge of a worker event-loop-blocking fix).
+Releases keep coming: the November 9 batch (2.2.13, web-1.2.13, selfhosted-2.2.10, cli-v0.4.22, mcp-manager-2.1.7) taught custom agents to say when they are failing and offer cited files and to read skills and docs from the rules repository, queued sandbox capacity per worker and E2B plan behind a circuit breaker for degraded sandbox infrastructure, landed security-review follow-ups for the 2.2.10 hotfix, and gave the CLI logged-in dashboard commands (token-usage totals with per-day, per-PR, per-developer, per-run, and per-model breakdowns, cockpit productivity metrics, and custom-agent management, behind `kodus auth login`), 2.2.12 (November 5) fixed GitHub App linking by logging the failing step and skipping null installations, the November 3 batch (2.2.11, web-1.2.12, selfhosted-2.2.9, mcp-manager-2.1.6) gave a second OpenAI-compatible endpoint its own BYOK key, made context-needing Kody Rules evaluate on Azure Repos, and carried proactive MCP hints in tool _meta, and the October 29 batch before it (2.2.9, web-1.2.10, selfhosted-2.2.7, mcp-manager-2.1.5) had added conditional PR approval keyed on historical code-area risk, auto-paused ignored and noisy Kody rules, a new finding dedup, and an EE-license clarification of Community self-hosted production rights.
 Funding: I could not verify any funding round from a primary source, so I record none.
 The community footprint is thin, and I state that as a finding: five HN launches between 1 and 5 points, the largest being a 5-point Show HN for the CLI (47248299, March 4, 2026) and a 4-point one for the AGPL/BYOK repositioning (48049508, May 7, 2026).
 A Discord community exists, but I found no independent reviews or benchmarks corroborating the quality claims.
@@ -95,6 +95,7 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 - 2026-11-05 - Volatile re-verification: recorded the November 2 bug-fix batch (2.2.10, web-1.2.11, selfhosted-2.2.8) and the November 3 batch (2.2.11, web-1.2.12, selfhosted-2.2.9, mcp-manager-2.1.6: a second OpenAI-compatible endpoint getting its own BYOK key, Kody Rules evaluating on Azure Repos, proactive MCP hints in tool _meta); the push moved to November 5; prices and benchmark figures unchanged.
 - 2026-11-07 - Volatile re-verification: recorded 2.2.12 (November 5, a fix for GitHub App linking that logs the failing step and skips null installations) and the push moved to November 6; prices and benchmark figures unchanged.
 - 2026-11-08 - Volatile re-verification: the push moved to November 8 while main's latest commit stays November 7, no release after 2.2.12; prices re-fetched unchanged and benchmark figures unchanged.
+- 2026-11-11 - Volatile re-verification: recorded the November 9 release batch (2.2.13, web-1.2.13, selfhosted-2.2.10, cli-v0.4.22, mcp-manager-2.1.7: custom agents reporting their own failures with cited files, skills and docs read from the rules repository, sandbox capacity queuing with a circuit breaker, 2.2.10 hotfix security follow-ups, and CLI dashboard commands for token usage, cockpit metrics, and agent management behind auth login); the push and main's latest commit both moved to November 11; prices and benchmark figures unchanged.
 
 ## See also
 
@@ -106,7 +107,7 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 
 ## References
 
-- https://github.com/kodustech/kodus-ai - repo, 1,461 stars, 172 forks, AGPL-3.0 + EE dual license, pushed November 8, 2026 with main's latest commit November 7 (GitHub API, as of 2026-10-11, push date re-checked 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-30, 2026-10-31, 2026-11-05, 2026-11-07, and 2026-11-08; release ledger through November 5: 2.2.10, web-1.2.11, and selfhosted-2.2.8 on November 2 (routine fixes), 2.2.11, web-1.2.12, selfhosted-2.2.9, and mcp-manager-2.1.6 on November 3, then 2.2.12 on November 5, a GitHub App-linking fix)
+- https://github.com/kodustech/kodus-ai - repo, 1,461 stars, 172 forks, AGPL-3.0 + EE dual license, pushed November 8, 2026 with main's latest commit November 7 (GitHub API, as of 2026-10-11, push date re-checked 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-30, 2026-10-31, 2026-11-05, 2026-11-07, 2026-11-08, and 2026-11-11, pushed November 11 with main active the same day; release ledger through November 9: 2.2.10, web-1.2.11, and selfhosted-2.2.8 on November 2 (routine fixes), 2.2.11, web-1.2.12, selfhosted-2.2.9, and mcp-manager-2.1.6 on November 3, 2.2.12 on November 5, a GitHub App-linking fix, then the November 9 batch: 2.2.13, web-1.2.13, selfhosted-2.2.10, cli-v0.4.22, and mcp-manager-2.1.7)
 - https://kodus.io/ - product page and positioning; the supported-providers FAQ names GitHub, GitLab, Bitbucket, Azure DevOps, and Forgejo/Gitea, fetched 2026-10-20
 - https://kodus.io/pricing/ - Community free, Teams BYOK $10/dev, Enterprise custom, no-markup FAQ, as of 2026-10-02, re-verified unchanged 2026-10-11, 2026-10-20, 2026-10-25, 2026-10-30, 2026-11-07, and 2026-11-08 (the Kody Pilot Program discount banner is new on the 2026-10-25 fetch)
 - https://codereviewbench.com/ - the vendor-run model benchmark: 30 PRs, 95 golden bugs, best recall 44.2 percent, single-harness disclosure, fetched 2026-10-07, re-verified 2026-10-11 and 2026-10-20

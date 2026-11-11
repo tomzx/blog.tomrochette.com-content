@@ -1,7 +1,7 @@
 ---
 title: Octop
 created: 2026-10-07
-updated: 2026-11-07
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, python, self-hosted, open-source]
 readability: 3
@@ -26,7 +26,7 @@ It is published under the TencentCloud GitHub org and built from four focused su
 
 ## Status
 
-Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three months as of 2026-10-14 (created 2026-07-08), 755 open issues with the last push on 2026-11-07 as of 2026-11-07, MIT.
+Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three months as of 2026-10-14 (created 2026-07-08), 756 open issues with the last push on 2026-11-11 as of 2026-11-11, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/Octop&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three m
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TencentCloud/Octop&type=date&legend=top-left" />
 </picture>
 
-The beta line ended the way it should: v1.0.2, the first stable release on GitHub, published 2026-10-18 and uploaded to PyPI the same day, after the v1.0.2b4-through-b9 prerelease run (2026-09-27 through 2026-10-17) that PyPI tracked in parallel, and the v1.0.3 line opened as a beta on 2026-10-25 (v1.0.3b1, on GitHub and PyPI the same day: a default expert created alongside each new user, and permissions split per page tab), with v1.0.3b2 extending that line on 2026-11-02 (TOTP and passkey sign-in beside passwords, a RagFlow knowledge-base connector, and chat and session fixes), v1.0.3b3 on 2026-11-04 (PostgreSQL now storing skill packages and knowledge bases shared across multi-instance deployments, slim Docker images, a Volcano Engine TOS storage backend, LDAP account pre-provisioning, and octop-harness upgraded to 1.0.7), and v1.0.3b4 on 2026-11-06 (a workbench cloud-host page that inspects Tencent Cloud CVM through a resident ops expert after authorization, system notifications for background scheduled reminders, Tencent Cloud authorization moved into the control plane for multi-instance deployments, the default Docker image flipping to the slim variant, and octop-harness upgraded to 1.0.8), the three newest betas each on GitHub and PyPI the same day, and the README carrying a Trendshift trending badge.
+The beta line ended the way it should: v1.0.2, the first stable release on GitHub, published 2026-10-18 and uploaded to PyPI the same day, after the v1.0.2b4-through-b9 prerelease run (2026-09-27 through 2026-10-17) that PyPI tracked in parallel, and the v1.0.3 line opened as a beta on 2026-10-25 (v1.0.3b1, on GitHub and PyPI the same day: a default expert created alongside each new user, and permissions split per page tab), with v1.0.3b2 extending that line on 2026-11-02 (TOTP and passkey sign-in beside passwords, a RagFlow knowledge-base connector, and chat and session fixes), v1.0.3b3 on 2026-11-04 (PostgreSQL now storing skill packages and knowledge bases shared across multi-instance deployments, slim Docker images, a Volcano Engine TOS storage backend, LDAP account pre-provisioning, and octop-harness upgraded to 1.0.7), and v1.0.3b4 on 2026-11-06 (a workbench cloud-host page that inspects Tencent Cloud CVM through a resident ops expert after authorization, system notifications for background scheduled reminders, Tencent Cloud authorization moved into the control plane for multi-instance deployments, the default Docker image flipping to the slim variant, and octop-harness upgraded to 1.0.8), and v1.0.3b5 on 2026-11-11 (the desktop client moving from Wails to an Electron shell with automatic session renewal after login expiry, custom MCP credentials completing OAuth authorization, new `octop migrate openclaw` and `octop migrate hermes` commands importing an existing assistant into one expert, document and folder moves in the knowledge base, conversation sharing on shared experts, curated defaults in the expert market with per-user usage views for admins, and octop-harness upgraded to 1.0.9), the four newest betas each on GitHub and PyPI the same day, and the README carrying a Trendshift trending badge.
 
 **The adoption curve is the fastest first quarter in this category after the 2026 wave, and the scrutiny record is the exact AstrBot profile at a third of the age: one 1-point Hacker News thread, zero English-language technical coverage, so the vetting so far has happened in Chinese-language channels you are probably not reading.**
 
@@ -81,6 +81,7 @@ The disagreeable claim I will defend: multi-user is the assistant category's nex
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live (repo and README, the releases API, the PyPI registry, the octop-harness sub-repo, the HN thread, the Trendshift page), v1.0.3b1 (2026-10-25) confirmed still the newest release with the PyPI stable channel at 1.0.2, and the open issues-and-PRs count refreshed to 789.
 - 2026-11-03 - Recorded v1.0.3b2 (2026-11-02, GitHub and PyPI the same day: TOTP and passkey sign-in beside passwords, a RagFlow knowledge-base connector, and chat and session fixes) extending the v1.0.3 beta line, with refreshed adoption numbers.
 - 2026-11-07 - Recorded v1.0.3b3 (2026-11-04, PostgreSQL-backed skill packages and knowledge bases shared across multi-instance deployments, slim Docker images, a Volcano Engine TOS storage backend, LDAP account pre-provisioning, octop-harness to 1.0.7) and v1.0.3b4 (2026-11-06, the workbench cloud-host page inspecting Tencent Cloud CVM through a resident ops expert, system notifications for background scheduled reminders, Tencent Cloud authorization in the control plane for multi-instance deployments, the default Docker image flipping to the slim variant, octop-harness to 1.0.8), both extending the v1.0.3 beta line on GitHub and PyPI the same day, with refreshed adoption numbers.
+- 2026-11-11 - Recorded v1.0.3b5 (2026-11-11, GitHub and PyPI the same day: the desktop client moving from Wails to an Electron shell with automatic session renewal, custom MCP OAuth credentials, `octop migrate openclaw` and `octop migrate hermes` import commands, knowledge-base item moves and conversation sharing on shared experts, expert-market curated defaults with admin per-user usage views, octop-harness to 1.0.9), with refreshed adoption numbers.
 
 ## See also
 
@@ -93,8 +94,8 @@ The disagreeable claim I will defend: multi-user is the assistant category's nex
 
 - https://github.com/TencentCloud/Octop - repository, license, and adoption numbers as of 2026-10-10
 - https://raw.githubusercontent.com/TencentCloud/Octop/main/README.md - architecture, experts, channels, ACP, roadmap, install paths
-- https://api.github.com/repos/TencentCloud/Octop/releases?per_page=3 - v1.0.3b4 (2026-11-06) and v1.0.3b3 (2026-11-04) extending the v1.0.3 beta line, following v1.0.3b2 (2026-11-02) and the v1.0.2 stable (2026-10-18)
-- https://pypi.org/pypi/octop/json - the PyPI stable channel at 1.0.2 since 2026-10-18, with the v1.0.3 betas uploaded as prereleases on their GitHub release days (b3 2026-11-04, b4 2026-11-06)
+- https://api.github.com/repos/TencentCloud/Octop/releases?per_page=3 - v1.0.3b5 (2026-11-11) extending the v1.0.3 beta line, following v1.0.3b4 (2026-11-06) and v1.0.3b3 (2026-11-04), after v1.0.3b2 (2026-11-02) and the v1.0.2 stable (2026-10-18)
+- https://pypi.org/pypi/octop/json - the PyPI stable channel at 1.0.2 since 2026-10-18, with the v1.0.3 betas uploaded as prereleases on their GitHub release days (b3 2026-11-04, b4 2026-11-06, b5 2026-11-11)
 - https://github.com/TencentCloud/octop-harness - the agent-runtime sub-repo and its 39-star footprint
 - https://hn.algolia.com/api/v1/items/49976872 - the single 1-point Hacker News thread (2026-10-06), the zero-scrutiny evidence
 - https://trendshift.io/repositories/95504 - the Trendshift trending badge the README carries

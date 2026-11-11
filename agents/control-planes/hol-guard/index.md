@@ -1,7 +1,7 @@
 ---
 title: HOL Guard
 created: 2026-10-09
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, guardrails, receipts, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The vendor is HOL, a consortium (its site lists 34 ecosystem partners and 65 pub
 
 ## Status
 
-Active and shipping fast: 879 stars and 153 forks as of 2026-10-18, with 86 open issues and pull requests and the latest push on 2026-11-08 as of 2026-11-08, created 2026-03-28, with v3.59.0 (2026-11-04) the latest version tag, PyPI in step at 3.59.0, and an automated extension-artifacts release train running beside the version tags.
+Active and shipping fast: 879 stars and 153 forks as of 2026-10-18, with 93 open issues and pull requests and the latest push on 2026-11-11 as of 2026-11-11, created 2026-03-28, with v3.59.0 (2026-11-04) still the latest version tag beside the automated extension-artifacts release train, PyPI in step at 3.59.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hashgraph-online/hol-guard&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Active and shipping fast: 879 stars and 153 forks as of 2026-10-18, with 86 open
 
 PyPI downloads are 76,527 over the last month as of 2026-10-09 (pypistats, unchanged when re-fetched 2026-10-10 and again 2026-10-11), and the product page still claims 2M+ Guard PyPI downloads plus "5.4K+ HOL GitHub stars", an org-wide figure across all HOL repositories rather than the Guard repo's own count.
 The 2M+ total sits awkwardly against the measured rate: 76,527 in the month ending 2026-10-09 would need roughly two years at this pace to reach it inside a seven-month-old project, and the tracker figure staying bit-for-bit identical across two re-fetches suggests a lagging source, so treat the headline as self-reported marketing until either number moves.
-The coverage assertions on the site still carry their 2026-09-09 verification with an expiry of 2026-10-09, and a re-fetch on 2026-10-19 found the page and its change history unchanged ten days past that expiry, then asserting version 3.0.1 while the release train sat at v3.49.0, so the project is shipping faster than its own verification contract renews and every published coverage cell was lapsed as of that check; a re-fetch on 2026-10-23 found the page live again and unchanged, still pinned to 3.0.1 while the train reached v3.55.1, and a re-fetch on 2026-10-25 found it unchanged again, still pinned to 3.0.1 while the train reached v3.56.0, so every published coverage cell has now been lapsed for more than two weeks; a re-fetch on 2026-10-28 found the page refusing fetchers, so its renewal state stood as last read 2026-10-25 while the train reached v3.58.0; a re-fetch on 2026-11-01 found the page serving again and unchanged, still pinned to 3.0.1 while the train holds at v3.58.0, now 23 days past the expiry; a re-fetch on 2026-11-05 found it unchanged again, still pinned to 3.0.1 while the train reached v3.59.0, now 27 days past the expiry; and a re-fetch on 2026-11-07 found it unchanged again, still pinned to 3.0.1, now 29 days past the expiry; a re-fetch on 2026-11-08 found it unchanged again, still pinned to 3.0.1, now 30 days past the expiry.
+The coverage assertions on the site still carry their 2026-09-09 verification with an expiry of 2026-10-09, and a re-fetch on 2026-10-19 found the page and its change history unchanged ten days past that expiry, then asserting version 3.0.1 while the release train sat at v3.49.0, so the project is shipping faster than its own verification contract renews and every published coverage cell was lapsed as of that check; a re-fetch on 2026-10-23 found the page live again and unchanged, still pinned to 3.0.1 while the train reached v3.55.1, and a re-fetch on 2026-10-25 found it unchanged again, still pinned to 3.0.1 while the train reached v3.56.0, so every published coverage cell has now been lapsed for more than two weeks; a re-fetch on 2026-10-28 found the page refusing fetchers, so its renewal state stood as last read 2026-10-25 while the train reached v3.58.0; a re-fetch on 2026-11-01 found the page serving again and unchanged, still pinned to 3.0.1 while the train holds at v3.58.0, now 23 days past the expiry; a re-fetch on 2026-11-05 found it unchanged again, still pinned to 3.0.1 while the train reached v3.59.0, now 27 days past the expiry; and a re-fetch on 2026-11-07 found it unchanged again, still pinned to 3.0.1, now 29 days past the expiry; a re-fetch on 2026-11-08 found it unchanged again, still pinned to 3.0.1, now 30 days past the expiry; and a re-fetch on 2026-11-11 found it unchanged again, still pinned to 3.0.1, now 33 days past the expiry.
 A Hacker News search returns no threads about Guard (the single loose query match is an unrelated project), so the adoption evidence is the download count, the release cadence, and Product Hunt testimonials rather than independent technical discussion.
 
 ## Strengths
@@ -47,7 +47,7 @@ A Hacker News search returns no threads about Guard (the single loose query matc
 ## Cautions
 
 - Depth varies by harness and the gaps are the story: Kimi Code, Grok Build, and ZCode fail open, Cursor terminal commands outside agent sessions bypass it, and Claude Code background sessions surface no hook events at all.
-- The published assertions expired on 2026-10-09 and remained unrenewed when last read on 2026-11-08, still pinned to version 3.0.1 against a train that has since reached v3.59.0, so treat any specific coverage cell as lapsed rather than a standing guarantee.
+- The published assertions expired on 2026-10-09 and remained unrenewed when last read on 2026-11-11, still pinned to version 3.0.1 against a train that has since reached v3.59.0, so treat any specific coverage cell as lapsed rather than a standing guarantee.
 - No independent audit or adversarial review exists; a Hacker News footprint of zero six months in means the security claims rest on the project's own evidence links.
 - The freemium ladder (Solo $4.99, Pro $15, Team $30 per month) puts receipt sync and org policy behind payment, and the latest release page still carries an unresolved "attribution for this release is being verified" notice, a small but odd provenance wrinkle for a security product.
 

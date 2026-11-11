@@ -1,7 +1,7 @@
 ---
 title: Veto
 created: 2026-09-27
-updated: 2026-11-05
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-authorization, policy-enforcement, tool-calls, human-in-the-loop, open-source]
 readability: 3
@@ -86,6 +86,7 @@ Beside the plans, the site sells three fixed-price policy packs (MCP Attack + Gu
 - 2026-10-16 - The revival gained its first feature commit (runtime action SDK clients, PR 252) on 2026-10-14, still with no new tag; the caution updated.
 - 2026-10-25 - Full rotation re-verification: every cited URL re-fetched and live, the plan prices and the repository unchanged (still veto-sdk@2.9.3, no push since 2026-10-14), the README's adapter matrix and npm-name caveat confirmed, and the site's new fixed-price policy packs ($750 to $2,000) recorded in Pricing.
 - 2026-11-01 - Full rotation re-verification: every cited URL re-fetched and live, the plan prices and policy packs unchanged, the repository carrying a docs-only commit on 2026-10-30 (a Neon logo and README link, PR 260) with still no new tag past veto-sdk@2.9.3, and the Hosted card's three-button volume selector ($299, $1,499, $3,999) recorded in Pricing and Price history as a first reading.
+- 2026-11-11 - Full rotation re-verification: every cited URL re-fetched and live, the plan prices, policy packs, and the Hosted volume selector unchanged, the repository unchanged (14 stars, 2 forks, 2 open issues, still no push past 2026-11-03 and no new tag past veto-sdk@2.9.3), and the README's adapter matrix and npm-name caveat confirmed; no drift.
 
 ## See also
 

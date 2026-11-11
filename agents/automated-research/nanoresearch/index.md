@@ -1,7 +1,7 @@
 ---
 title: NanoResearch
 created: 2026-10-11
-updated: 2026-10-26
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, paper-generation, slurm, gpu, open-source]
 readability: 3
@@ -23,7 +23,7 @@ The README's core claim: every number, table, and chart in the output paper come
 
 ## Status
 
-Active: 1,340 stars, 92 forks, created 2026-03-17, last pushed 2026-10-09, as of 2026-10-11.
+Active: 1,340 stars as of 2026-10-11, 92 forks, created 2026-03-17, last pushed 2026-10-09, as of 2026-11-11.
 The release history is thin (a single assets release in March 2026) despite the README's v1.0 milestone, and a search for the name returns no Hacker News threads as of 2026-10-11.
 
 <picture>
@@ -66,6 +66,7 @@ Not for anyone needing verified data integrity: the binding-to-logs claim is sel
 
 - 2026-10-11 - Created.
 - 2026-10-26 - Rotation re-verification: status unchanged (last push still 2026-10-09, the single assets release still the whole release train, and the name still carries no Hacker News threads); every cited URL re-fetched, all live.
+- 2026-11-11 - Rotation re-verification: status unchanged (last push still 2026-10-09, the single assets release still the whole release train, and the name still carrying no Hacker News threads about the project); every cited URL re-fetched, all live.
 
 ## See also
 

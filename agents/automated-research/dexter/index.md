@@ -1,7 +1,7 @@
 ---
 title: Dexter
 created: 2026-10-10
-updated: 2026-10-26
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, autonomous-agent, financial-research, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Every run lands in a JSONL scratchpad (`.dexter/scratchpad/`) recording the quer
 
 ## Status
 
-Active: 27,652 stars, 3,410 forks, created 2025-10-14, last push 2026-09-23, latest release v1.1.0 the same day, as of 2026-10-11.
+Active: 27,652 stars as of 2026-10-11, 3,410 forks, created 2025-10-14, last push 2026-09-23, latest release v1.1.0 the same day, as of 2026-11-11.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=virattt/dexter&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Active: 27,652 stars, 3,410 forks, created 2025-10-14, last push 2026-09-23, lat
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=virattt/dexter&type=date&legend=top-left" />
 </picture>
 
-**The discussion footprint is nearly absent for a 27.6k-star repository: a Hacker News search returns two stories at one point each with zero comments as of 2026-10-10, so the stars measure feed attention rather than recorded engineering debate, and the eval accuracy numbers are the project's own LLM-as-judge output.**
+**The discussion footprint is nearly absent for a 27.6k-star repository: a Hacker News search returns two stories at one point each with zero comments as of 2026-11-11, so the stars measure feed attention rather than recorded engineering debate, and the eval accuracy numbers are the project's own LLM-as-judge output.**
 
 ## Strengths
 
@@ -70,6 +70,7 @@ Not for investment decisions, and not for anyone who needs a licensed repository
 
 - 2026-10-10 - Created.
 - 2026-10-26 - Rotation re-verification: status unchanged (last push still 2026-09-23, v1.1.0 still the latest release, the license still undetected, and the two one-point Hacker News stories still the whole discussion footprint); every cited URL re-fetched, all live (the LICENSE file still 404).
+- 2026-11-11 - Rotation re-verification: status unchanged (last push still 2026-09-23, v1.1.0 still the latest release, the license still undetected, and the two one-point Hacker News stories still the whole discussion footprint); every cited URL re-fetched, all live (the LICENSE file still 404).
 
 ## See also
 

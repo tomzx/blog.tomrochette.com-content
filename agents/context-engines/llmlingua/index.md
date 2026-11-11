@@ -1,7 +1,7 @@
 ---
 title: LLMLingua
 created: 2026-10-10
-updated: 2026-11-06
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, prompt-compression, research]
 readability: 3
@@ -24,7 +24,7 @@ MIT-licensed, built by the Microsoft Research group behind the papers (Huiqiang 
 
 ## Status
 
-Research-mature and in maintenance: 6,746 stars and 437 forks since 2023-07-07, pushed 2026-09-10, 124 open issues, as of 2026-10-13 (GitHub API).
+Research-mature and in maintenance: 6,746 stars as of 2026-10-13 and 451 forks and 124 open issues as of 2026-11-11, created 2023-07-07, pushed 2026-11-06 (a GitHub Actions supply-chain pin, the first main commit since 2026-09-10), as of 2026-11-11 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/LLMLingua&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Research-mature and in maintenance: 6,746 stars and 437 forks since 2023-07-07, 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/LLMLingua&type=date&legend=top-left" />
 </picture>
 
-The PyPI package has been frozen at 0.2.2 since 2024-04-09 (14 releases total), and the GitHub release train stopped at the same version, while main keeps receiving pushes that never reach pip users.
+The PyPI package has been frozen at 0.2.2 since 2024-04-09 (14 releases total), and the GitHub release train stopped at the same version, while main keeps receiving pushes that never reach pip users (the newest, 2026-11-06, is a GitHub Actions supply-chain pin).
 The team's news feed has moved to KV-cache infrastructure (SCBench, RetrievalAttention, MInference), the layer underneath a prompt compressor once token pruning is done.
 The launch HN thread (December 2023) drew 149 points and 47 comments, a discussion footprint most of this category's young tools would envy.
 
@@ -73,6 +73,7 @@ My disagreeable claim: the newer compression products in this category are selli
 - 2026-10-20 - Full rotation re-verification: every cited URL re-fetched and intact; the package remains frozen at 0.2.2 and the repository's last push remains 2026-09-10.
 - 2026-10-27 - Full rotation re-verification: every cited URL re-fetched and intact; the package remains frozen at 0.2.2 (14 releases, uploaded 2024-04-09) and the repository's last push remains 2026-09-10.
 - 2026-11-06 - Full rotation re-verification: every cited URL re-fetched and intact (repository API, README, PyPI, all four arXiv pages, the launch thread, and the Microsoft Research project page); the package remains frozen at 0.2.2 (14 releases, uploaded 2024-04-09), the repository's last push remains 2026-09-10, and the independent April 2026 evaluation (now marked accepted at ECIR 2026) reads unchanged.
+- 2026-11-11 - Recorded main's 2026-11-06 push (GitHub Actions pinned to full-length commit SHAs, the first main commit since 2026-09-10) and refreshed the activity counts (451 forks, 124 open issues); the package remains frozen at 0.2.2.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: CodeRabbit
 created: 2026-08-30
-updated: 2026-11-05
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -82,6 +82,7 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 - 2026-10-24 - Rotation re-verification: every cited URL re-fetched live, all prices unchanged (Essentials $24, Team $48, Advanced $72 annual, $0.40 agent minute), homepage claims (17K customers, 6M repositories) still displayed; added the Grok Build Plugin Marketplace and Cursor Origin marketplace distributions from the vendor's October 21 to 22 posts.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live; prices unchanged (Essentials $24, Team $48, Advanced $72 annual, $0.40 agent minute) and the homepage claims (17K customers, 6M repositories) still displayed; no factual drift.
 - 2026-11-05 - Pointed the See-also matrix link at the Code Review Feature Matrix; its line described the category matrix this note joins but linked the evaluation-review one.
+- 2026-11-11 - Rotation re-verification: every cited URL re-fetched live (the Pullflow report now resolves through a www redirect with the analysis intact); all prices unchanged (Essentials $24, Team $48, Advanced $72 annual, $0.40 agent minute, $0.25 per reviewed file) and the homepage claims (17K customers, 6M repositories) still displayed; no factual drift.
 
 ## See also
 
@@ -93,8 +94,8 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 
 ## References
 
-- https://www.coderabbit.ai/ - product surface, 17K customers and 6M repositories as displayed 2026-10-31
-- https://www.coderabbit.ai/pricing - Essentials/Team/Advanced tiers and prices as of 2026-10-31 (re-fetched unchanged); the $0.40 Slack agent minute still displayed
+- https://www.coderabbit.ai/ - product surface, 17K customers and 6M repositories as displayed 2026-10-31, re-fetched 2026-11-11 (unchanged)
+- https://www.coderabbit.ai/pricing - Essentials/Team/Advanced tiers and prices as of 2026-10-31 (re-fetched unchanged); the $0.40 Slack agent minute and the $0.25-per-reviewed-file usage rate still displayed on the 2026-11-11 re-fetch
 - https://www.coderabbit.ai/blog/introducing-agentic-change-management - Series C: $143M at a $1.5B valuation, August 12, 2026, 2M weekly reviews, 17K customers, 150K OSS projects, Triage/Change Stack/Security launch
 - https://www.coderabbit.ai/blog/coderabbit-series-b-60-million-quality-gates-for-code-reviews - Series B: $60M led by Scale Venture Partners with NVentures, September 16, 2025, 2M repos, 13M PRs reviewed
 - https://www.coderabbit.ai/blog/coderabbit-announces-16m-series-a-funding-led-by-crv - Series A: $16M led by CRV, August 13, 2024
@@ -102,8 +103,8 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 - https://www.coderabbit.ai/blog/coderabbit-expands-its-commitment-to-open-source - the $10M+ open source commitment, August 26, 2026
 - https://www.coderabbit.ai/blog/our-response-to-the-january-2025-kudelski-security-vulnerability-disclosure-action-and-continuous-improvement - the vendor's remediation timeline for the exploit
 - https://kudelskisecurity.com/research/how-we-exploited-coderabbit-from-a-simple-pr-to-rce-and-write-access-on-1m-repositories - the Kudelski Security writeup, August 19, 2025
-- https://pullflow.com/state-of-ai-code-review-2025 - the critical 40.3M-PR market-share analysis
-- https://hn.algolia.com/api/v1/items/44953032 - the exploit thread on Hacker News: 687 points, 227 comments, posted August 19, 2025, re-fetched 2026-10-31
-- https://hn.algolia.com/api/v1/items/42451968 - the Greptile thread where its founder positions CodeRabbit as verbose but cheaper, re-fetched 2026-10-31
+- https://pullflow.com/state-of-ai-code-review-2025 - the critical 40.3M-PR market-share analysis, re-fetched 2026-11-11 (now served from the www host by a redirect, the analysis itself unchanged)
+- https://hn.algolia.com/api/v1/items/44953032 - the exploit thread on Hacker News: 687 points, 227 comments, posted August 19, 2025, re-fetched 2026-10-31 and 2026-11-11
+- https://hn.algolia.com/api/v1/items/42451968 - the Greptile thread where its founder positions CodeRabbit as verbose but cheaper, re-fetched 2026-10-31 and 2026-11-11
 - https://www.coderabbit.ai/blog/coderabbit-spacex-super-intelligence-partner-network - the Grok Build Plugin Marketplace listing via the SpaceX Super Intelligence Partner Network, October 22, 2026, fetched 2026-10-24
 - https://www.coderabbit.ai/blog/coderabbit-independent-validation-cursor-origin - the Cursor Origin app-marketplace launch-partner post, October 21, 2026, fetched 2026-10-24
