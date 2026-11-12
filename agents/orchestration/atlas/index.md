@@ -1,7 +1,7 @@
 ---
 title: Atlas
 created: 2026-09-29
-updated: 2026-11-08
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, source-control, rust]
 readability: 3
@@ -27,7 +27,7 @@ It surfaced as an entrant from the owner's GitHub stars.
 
 ## Status
 
-Active and growing fast: 9,601 stars in five months (as of 2026-10-15), last push 2026-11-08, latest release alpha-0.4.1-org-agent on 2026-11-03, after the alpha-0.3.x line that closed with alpha-0.3.4 on 2026-09-27, both 0.4 release bodies empty so the org-agent label is all the tag says (GitHub API, as of 2026-11-08).
+Active and growing fast: 9,601 stars in five months (as of 2026-10-15), last push 2026-11-11, latest release alpha-0.4.1-org-agent on 2026-11-03, after the alpha-0.3.x line that closed with alpha-0.3.4 on 2026-09-27, both 0.4 release bodies empty so the org-agent label is all the tag says (GitHub API, as of 2026-11-12).
 
 **The identity record moved: the repository transferred from pacifio's personal account into the tryatlas organization between the 2026-11-06 verification and this run, the old path a 301 redirect to tryatlas/atlas.**
 

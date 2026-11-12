@@ -1,7 +1,7 @@
 ---
 title: Personal Agent Protocol (Poppy)
 created: 2026-11-07
-updated: 2026-11-08
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, oauth, agentic-commerce]
 readability: 3
@@ -27,9 +27,9 @@ Apache-2.0, hosted at personalagentprotocol.org with feedback through issues on 
 ## Status
 
 **Active, fast-moving, and pre-1.0 by explicit policy: until 1.0, a revision can break compatibility with earlier drafts.**
-The v0.1 the announcement promised for October shipped on schedule as draft 0.1 (2026-10-09), frozen at its own URL; 0.2 published 2026-10-24; 0.3 published and frozen 2026-11-04, the version that removed the protocol-defined `poppy:read` and `poppy:write` scopes in favor of company-defined scopes with reversible and irreversible consequence hints; draft 0.4 is open, mostly additions.
-The path-to-1.0 page, updated 2026-11-04, lists 43 design partners who agreed to be named: three personal agents (Instinct, Meta, OpenAI), 21 companies (Walmart, Bank of America, Target, Rocket, PayPal/Venmo among them), and 19 technology providers (Stripe, Visa, Mastercard, Cloudflare, Okta, Shopify, Sierra among them), with payments, push notifications, signed approvals, attachments, and self-hosted agents declared open topics.
-Repository created 2026-10-14, pushed 2026-11-08, 77 stars, 14 forks, 25 open issues, TypeScript (GitHub API, as of 2026-11-08).
+The v0.1 the announcement promised for October shipped on schedule as draft 0.1 (2026-10-09), frozen at its own URL; 0.2 published 2026-10-24; 0.3 published and frozen 2026-11-04, the version that removed the protocol-defined `poppy:read` and `poppy:write` scopes in favor of company-defined scopes with reversible and irreversible consequence hints; 0.4 published and frozen 2026-11-10 as the 1.0 release candidate (Direct Sign-In is now the preferred sign-in type, and the cross-device sign-in-started-by-someone-else risk is named and accepted with mitigations in section 10.8), with a draft 1.0 now in progress at /docs/spec and the project's stated policy that from the release candidate on, changes before 1.0 are fixes, not new features, and a fix can still break compatibility.
+The path-to-1.0 page, updated 2026-11-11, lists 43 design partners who agreed to be named: three personal agents (Instinct, Meta, OpenAI), 21 companies (Walmart, Bank of America, Target, Rocket, PayPal/Venmo among them), and 19 technology providers (Stripe, Visa, Mastercard, Cloudflare, Okta, Shopify, Sierra among them), with payments, push notifications, signed approvals, attachments, and self-hosted agents declared open topics.
+Repository created 2026-10-14, pushed 2026-11-11, 77 stars, 15 forks, 25 open issues, MDX (GitHub API, as of 2026-11-12).
 The reference implementation Sierra promised on 2026-10-09 for the following month had not appeared on the spec site as of 2026-11-08 (the site's Demos page now says first-party demos are in development, with community demos listed meanwhile).
 Meta named the protocol on its 2026-10-21 earnings call, with its CFO expecting uneven adoption (per the poppy.md coverage inventory).
 The Hacker News footprint is thin for the partner count: one 9-point launch thread (2026-10-06) and a 4-point follow-up (2026-10-22).
@@ -80,6 +80,7 @@ My disagreeable claim: the adoption test that matters is beri.net's bar, whether
 ## Changes
 
 - 2026-11-07 - Created from the coordinator's 2026-11-03 admission handoff, with the published-draft record (0.1 through 0.4) replacing the unshipped-v0.1 fact the handoff carried, the one-of-44-partners deployment scan as the adoption gap, and beri.net's pre-spec comparison as the standing critical source.
+- 2026-11-12 - Draft 0.4 published and frozen 2026-11-10 as the 1.0 release candidate (Direct Sign-In preferred, the someone-else-started-sign-in risk accepted with mitigations), with a draft 1.0 in progress and the stated policy that changes before 1.0 are fixes, not features, and can still break compatibility; the reference implementation the 2026-10-09 post promised for the following month still has not appeared; the design-partner roster holds at 43 with the repository pushed 2026-11-11 (15 forks, 25 open issues); the Status section moved with the release-candidate promotion.
 
 ## See also
 
@@ -92,10 +93,10 @@ My disagreeable claim: the adoption test that matters is beri.net's bar, whether
 
 - https://sierra.ai/blog/introducing-personal-agent-protocol - the 2026-10-06 announcement: the OAuth session design, launch partners, the promised v0.1, workshops, and reference implementation (fetched 2026-11-07)
 - https://sierra.ai/blog/poppy - the 2026-10-09 draft post: the Poppy name, the five building blocks, and the 35 additional design partners including OpenAI (fetched 2026-11-07)
-- https://personalagentprotocol.org/docs/changelog - the version train: 0.1 published 2026-10-09, 0.2 on 2026-10-24, 0.3 frozen 2026-11-04, draft 0.4 in progress with per-change breaking tags (fetched 2026-11-07)
-- https://personalagentprotocol.org/docs/path-to-1 - the status line updated 2026-11-04, the open topics, and the 43 named design partners (fetched 2026-11-07)
+- https://personalagentprotocol.org/docs/changelog - the version train: 0.1 published 2026-10-09, 0.2 on 2026-10-24, 0.3 frozen 2026-11-04, 0.4 published and frozen 2026-11-10 as the 1.0 release candidate, draft 1.0 in progress, each with per-change breaking tags (re-fetched 2026-11-12)
+- https://personalagentprotocol.org/docs/path-to-1 - the status line updated 2026-11-11, the fixes-only-until-1.0 policy, the open topics, and the 43 named design partners (re-fetched 2026-11-12)
 - https://personalagentprotocol.org/docs/introduction - the principles (existing standards, controls not policy, progressive adoption) and the Apache-2.0 license (fetched 2026-11-07)
-- https://api.github.com/repos/personal-agent-protocol/personal-agent-protocol - repository facts: 77 stars, 14 forks, 30 open issues, created 2026-10-14, pushed 2026-11-06, Apache-2.0, TypeScript (GitHub API, as of 2026-11-07)
+- https://api.github.com/repos/personal-agent-protocol/personal-agent-protocol - repository facts: 77 stars, 15 forks, 25 open issues, created 2026-10-14, pushed 2026-11-11, Apache-2.0, MDX (GitHub API, as of 2026-11-12)
 - https://www.beri.net/article/meta-sierra-personal-agent-protocol-oauth-guest-read-write-access-vs-ucp-acp-trusted-agent-protocol-retail-banks - the standing critical source, dated pre-spec (2026-10-07): the four-standard comparison with UCP, ACP, and TAP, the partner-hedging record, the permission-tier advice, and the adoption test
 - https://personalagentbench.com/personal-agent-protocol/ - the independent partner scan (one file among 44 partners on 2026-10-27), the scope-history read (poppy:read and poppy:write removed in 0.3), and the approval-trust gap (fetched 2026-11-07)
 - https://apievangelist.com/2026/10/19/the-first-poppy-files-and-the-one-a-vendor-wrote/ - five valid poppy.json files across 24,577 API providers, none from launch partners, and the vendor-hosted file the 0.2 redirect rule closed (fetched 2026-11-07)

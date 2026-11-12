@@ -1,7 +1,7 @@
 ---
 title: llamafile
 created: 2026-10-07
-updated: 2026-11-07
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, single-file]
 readability: 3
@@ -81,7 +81,7 @@ Not as a daily driver for people who churn models weekly, and not for serving ag
 ## References
 
 - https://github.com/mozilla-ai/llamafile - repository, README, licensing badge, whisperfile, and the 0.10 build-system note (fetched 200, 2026-10-07; re-fetched 2026-10-21; re-fetched 2026-11-03 unchanged)
-- https://api.github.com/repos/mozilla-ai/llamafile - stars, created date, push date, and the NOASSERTION license field (fetched 200, 2026-10-07; re-fetched 2026-10-14 at 26,232 stars, pushed 2026-10-12; re-fetched 2026-10-19, pushed 2026-10-12 and 0.10.6 still latest; re-fetched 2026-10-21, pushed 2026-10-12 unchanged, 0.10.6 still latest; re-fetched 2026-11-03, pushed 2026-10-12 unchanged, 0.10.6 still latest; re-fetched 2026-11-07, pushed 2026-11-05, 0.10.6 still latest).
+- https://api.github.com/repos/mozilla-ai/llamafile - stars, created date, push date, and the NOASSERTION license field (fetched 200, 2026-10-07; re-fetched 2026-10-14 at 26,232 stars, pushed 2026-10-12; re-fetched 2026-10-19, pushed 2026-10-12 and 0.10.6 still latest; re-fetched 2026-10-21, pushed 2026-10-12 unchanged, 0.10.6 still latest; re-fetched 2026-11-03, pushed 2026-10-12 unchanged, 0.10.6 still latest; re-fetched 2026-11-07, pushed 2026-11-05, 0.10.6 still latest; re-fetched 2026-11-12 with pushed_at moved to 2026-11-09 on a side branch while the default branch's latest commit stays the 2026-11-05 decision-models commit (checked 2026-11-12) and 0.10.6 still latest).
 - https://api.github.com/repos/mozilla-ai/llamafile/commits?since=2026-11-04T00:00:00Z - the default-branch pushes behind the 2026-11-05 pushed date: the llama.cpp v0.8.0 sync (2026-11-04), the transcribefile Metal re-enable on transcribe.cpp v0.4.1, the ARM legacy-quant fix, and decision-model support on /v1/systemone in CLI and chat modes (all 2026-11-05) (fetched 200, 2026-11-07).
 - https://hacks.mozilla.org/2023/11/introducing-llamafile/ - Mozilla's launch announcement: the six-OS goal, Justine Tunney's authorship, and the Apache-2.0 plus MIT split (fetched 200, 2026-10-07; re-fetched 2026-10-21; re-fetched 2026-11-03 unchanged)
 - https://docs.mozilla.ai/llamafile - the Mozilla.ai docs hub, pre-built llamafiles, and whisperfile surface (fetched 200, 2026-10-07; re-fetched 2026-10-21; re-fetched 2026-11-03 unchanged)

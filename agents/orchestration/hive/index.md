@@ -1,7 +1,7 @@
 ---
 title: Hive
 created: 2026-10-08
-updated: 2026-11-08
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -76,6 +76,7 @@ My disagreeable claim: **the 11.1k stars measure the colony pitch, not the artif
 - 2026-10-25 - Recorded v1.0.11 (2026-10-19) and v1.0.12 (2026-10-24) on the release train.
 - 2026-10-27 - Recorded v1.0.13 (2026-10-26, queen-to-queen mail and a Claude Code queen on the org chart).
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo, API, releases, docs, the YC page, both HN fetches); v1.0.14 (2026-11-02) confirmed on the default branch itself, and the stalled-train caution retired now that the restarted train has run a month.
+- 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repository, API, releases, docs, the YC page, both HN fetches); no factual drift, the default branch's latest commit still the 2026-11-07 provider-library change, v1.0.14 still the latest release.
 
 ## See also
 

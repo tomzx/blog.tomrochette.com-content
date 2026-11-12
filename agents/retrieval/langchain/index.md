@@ -1,7 +1,7 @@
 ---
 title: LangChain
 created: 2026-08-24
-updated: 2026-11-07
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, agents, frameworks]
 readability: 3
@@ -23,7 +23,7 @@ The commercial side is LangSmith: tracing, evaluation, deployment, sandboxes, an
 ## Status
 
 Active and dominant by footprint.
-The `langchain-ai/langchain` repository shows 147.8k stars (147,789) and 24.8k forks as of 2026-10-13, extending the recovery above the 147.4k recorded 2026-10-09, with 17,153 commits and a push on 2026-11-07 (GitHub, as of 2026-11-07).
+The `langchain-ai/langchain` repository shows 147.8k stars (147,789) and 24.8k forks as of 2026-10-13, extending the recovery above the 147.4k recorded 2026-10-09, with 17,175 commits and a push on 2026-11-12 (GitHub, as of 2026-11-12).
 The next-day recovery supports the reading that the dip was GitHub's periodic removal of bulk-created accounts, not an adoption signal.
 
 <picture>
@@ -95,6 +95,7 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 - 2026-11-04 - Refreshed the repository activity (17,131 commits, pushed 2026-11-04); star and pricing claims untouched since the 2026-10-22 rotation.
 - 2026-11-06 - Refreshed the repository activity (17,151 commits, pushed 2026-11-06) and recorded the repository's latest tagged release at langchain-core 1.7.6 (2026-11-05); star and pricing claims untouched since the 2026-10-22 rotation.
 - 2026-11-07 - Refreshed the repository activity (17,153 commits, pushed 2026-11-07) and re-fetched the latest tagged release (langchain-core 1.7.6 unchanged); star and pricing claims untouched since the 2026-10-22 rotation.
+- 2026-11-12 - Refreshed the repository activity (17,175 commits, pushed 2026-11-12) and recorded the repository's latest tagged release moving to langchain-core 1.8.0 (2026-11-11); star and pricing claims untouched since the 2026-10-22 rotation.
 
 ## See also
 
@@ -105,7 +106,7 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 
 ## References
 
-- https://github.com/langchain-ai/langchain - repository scale (147.8k stars as of 2026-10-13), MIT license, platform positioning, pushed 2026-11-07, 17,153 commits (fetched 2026-11-07; latest tagged release langchain-core==1.7.6, published 2026-11-05, re-verified unchanged)
+- https://github.com/langchain-ai/langchain - repository scale (147.8k stars as of 2026-10-13), MIT license, platform positioning, pushed 2026-11-12, 17,175 commits (fetched 2026-11-12; latest tagged release langchain-core==1.8.0, published 2026-11-11)
 - https://docs.langchain.com/oss/deepagents/code/overview.md - dcode, the terminal coding agent built on Deep Agents (re-verified unchanged 2026-10-22)
 - https://docs.langchain.com/oss/python/langchain/retrieval.md - RAG architectures: 2-step, agentic, hybrid, and the agentic-RAG-first framing (re-verified unchanged 2026-10-22)
 - https://www.langchain.com/pricing - LangSmith tiers and LSU metering, as of 2026-10-22 (re-verified unchanged; previously recorded 2026-10-07, 2026-10-09, 2026-10-11, 2026-10-13, and 2026-10-19)

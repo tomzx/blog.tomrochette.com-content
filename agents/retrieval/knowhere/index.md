@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-11-06
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -34,9 +34,9 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
 </picture>
 
-3,721 stars since 2026-04-30, latest release v1.2.45 on 2026-11-06 (short scanned PDFs without a table of contents now render page images on V2 full ingest instead of an empty whole-document chunk), following v1.2.44 on 2026-11-02 (explicit URL file names preferred over URL basenames, and section titles containing slashes kept as one section), the v1.2.41 and v1.2.43 releases the same day (progressive chunk ingest; DOCX title and introduction paragraphs preserved ahead of the first section heading, with same-document repair via reparse=true; no v1.2.42 was published), pushed 2026-11-06 (GitHub API, as of 2026-11-06).
+3,721 stars since 2026-04-30, latest release v1.2.55 on 2026-11-11 (classic search results stay on one published document version during concurrent progressive refinement), following the v1.2.46-through-v1.2.54 run of 2026-11-09 to 2026-11-11 (a POST /api/v2/retrieval/tools/invoke endpoint that lets host agents call the corpus tools directly without Knowhere's own retrieval agent, TSV ingest billed as spreadsheets, Excel header and caption detection with progressive sheet-group parsing, and OpenSearch release-1 production-connectivity prep), pushed 2026-11-11 with 50 open issues (GitHub API, as of 2026-11-12).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
-The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
+The self-hosted stack repo has 12 stars and its default branch's latest commit is a 2026-10-27 merge, so the self-hosting path still looks far less trafficked than the hosted funnel.
 
 ## Strengths
 
@@ -54,8 +54,8 @@ The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the s
 
 ## Pricing
 
-**The hosted API bills per page: $0.015 per billable page ($1.50 per 100 pages), with rate-limit tiers unlocked by lifetime spend (re-verified unchanged 2026-10-24).**
-The $5 signup credit the site showed on 2026-09-22 no longer appears; the current signup offer is a 14-day free trial (re-verified 2026-09-26).
+**The hosted API bills per page: $0.015 per billable page ($1.50 per 100 pages), bought as prepaid credit packages through Stripe that expire after 365 days (re-verified unchanged 2026-11-12), with rate-limit tiers unlocked by lifetime spend.**
+The $5 signup credit the site showed on 2026-09-22 no longer appears; the current signup offer is a 14-day free trial (re-verified 2026-11-12, still advertised on the marketing site).
 Billable pages count physical PDF pages, slide counts, one page per image, and size-derived units for text and spreadsheets; jobs that fail after billing are refunded.
 The open-source engine and the self-hosted stack are free under Apache-2.0.
 
@@ -98,6 +98,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 - 2026-11-01 - Recorded release v1.2.40 (2026-10-31, isolating paired TOC boundaries recalibrated from the last confirmed physical page) and refreshed the repository activity (pushed 2026-10-31); per-page pricing unchanged.
 - 2026-11-03 - Recorded releases v1.2.41, v1.2.43, and v1.2.44 (all 2026-11-02; progressive chunk ingest and unified asset names, DOCX pre-heading preservation with same-document repair, and explicit URL file names with slash-safe section titles; no v1.2.42 was published) and refreshed the repository activity (pushed 2026-11-02); per-page pricing unchanged.
 - 2026-11-06 - Recorded release v1.2.45 (2026-11-06, short scanned PDFs without a table of contents rendering page images on V2 full ingest instead of an empty whole-document chunk) and refreshed the repository activity (pushed 2026-11-06); per-page pricing unchanged.
+- 2026-11-12 - Rotation re-verification re-fetched every cited URL live (per-page pricing unchanged at $0.015 per billable page with the billing mechanics now documented as prepaid Stripe credit packages expiring after 365 days, the 14-day trial still advertised on the marketing site, product and docs pages up, both Show HNs and the PyPI name-squat unchanged) and recorded the release run v1.2.46 through v1.2.55 (2026-11-09 to 2026-11-11; the retrieval-tools invoke endpoint, TSV ingest, Excel table-header detection with progressive sheet-group parsing, OpenSearch release-1 prep, and v1.2.55's document-version pinning under concurrent refinement) with the repository activity refreshed (pushed 2026-11-11, 50 open issues); the self-hosted stack's default-branch push date moved to 2026-10-27.
 
 ## See also
 
@@ -108,13 +109,13 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,721 stars (as of 2026-10-13), pushed 2026-11-06, 42 open issues (GitHub API, as of 2026-11-06)
-- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.45 on 2026-11-06 (fetched 2026-11-06, with v1.2.44 of 2026-11-02 and v1.2.41 and v1.2.43 the same day behind it)
-- https://knowhereto.ai - hosted product surface, $5 free credit, and the self-reported comparison table
-- https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface
-- https://docs.knowhereto.ai/pricing - per-page pricing, billable-page counting, refund policy, rate-limit tiers (re-verified unchanged 2026-10-24)
-- https://docs.knowhereto.ai/mcp - MCP server tools, permission modes, host configuration
-- https://github.com/Ontos-AI/knowhere-self-hosted - the self-hosted stack, 12 stars as of 2026-09-22
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,721 stars (as of 2026-10-13), pushed 2026-11-11, 50 open issues (GitHub API, as of 2026-11-12)
+- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.55 on 2026-11-11 (fetched 2026-11-12, with the v1.2.46-through-v1.2.54 run of 2026-11-09 to 2026-11-11 behind it)
+- https://knowhereto.ai - hosted product surface, the 14-day free trial still advertised, and the self-reported comparison table (re-verified 2026-11-12)
+- https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface (re-verified 2026-11-12)
+- https://docs.knowhereto.ai/pricing - per-page pricing, billable-page counting, prepaid credit packages expiring after 365 days, refund policy, rate-limit tiers (re-verified 2026-11-12)
+- https://docs.knowhereto.ai/mcp - MCP server tools, permission modes, host configuration (re-verified 2026-11-12)
+- https://github.com/Ontos-AI/knowhere-self-hosted - the self-hosted stack, 12 stars as of 2026-09-22, default branch's latest commit 2026-10-27 (GitHub API, as of 2026-11-12)
 - https://hn.algolia.com/api/v1/items/49738595 - the September 17, 2026 Show HN, 1 point, 0 comments
 - https://hn.algolia.com/api/v1/items/47505117 - the March 24, 2026 Show HN, 1 point, 1 comment
 - https://pypi.org/pypi/knowhere/json - the unrelated PyPI name-squat grounding the caution

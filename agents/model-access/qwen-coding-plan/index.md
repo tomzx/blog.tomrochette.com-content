@@ -1,7 +1,7 @@
 ---
 title: Qwen Coding Plan
 created: 2026-09-26
-updated: 2026-11-04
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, qwen, subscriptions, alibaba]
 readability: 3
@@ -31,7 +31,7 @@ At the 2026-11-04 re-fetch the docs rebuilt the same day: the nav labels the Cod
 ## Strengths
 
 - **The multi-vendor roster is the actual product.** One key routes to Qwen, Kimi-K2.5, GLM-5, MiniMax-M2.5, and on Token Plan DeepSeek-V4-Pro plus the image, audio, and video families.
-- Token Plan entry is the cheapest on-ramp I verified in this category: $6/month limited-time ($8 list) for 11,500 Credits.
+- Token Plan entry is the cheapest on-ramp I verified in this category: $3/month limited-time ($8 list) for 11,500 Credits, the promotional price since the 2026-11-04 halving.
 - $50 Coding Pro bought up to 90,000 requests per month, 6,000 per 5 hours, 45,000 per week, which undercuts pay-as-you-go for anyone spending over $100/month on these APIs.
 - Fixed monthly billing with hard caps: when a window empties, calls pause instead of drawing on your account balance.
 

@@ -1,7 +1,7 @@
 ---
 title: Dify
 created: 2026-09-29
-updated: 2026-11-08
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -23,7 +23,7 @@ The repo sits at 158,517 stars with 25,044 forks, created 2023-04-12 (GitHub API
 
 ## Status
 
-Active: last push 2026-11-08, latest release 1.19.0 on 2026-11-04 after 1.18.0 on 2026-10-23 and four months on 1.17.1 (2026-09-10) before that (GitHub API, as of 2026-11-08).
+Active: last push 2026-11-12, latest release 1.19.0 on 2026-11-04 after 1.18.0 on 2026-10-23 and four months on 1.17.1 (2026-09-10) before that (GitHub API, as of 2026-11-12).
 1.19.0 ships nested workflow tracing that follows executions into the Workflow Tools they call, Workflow Tools made portable inside `.ifpkg` app packages, batch agent file uploads, and workspace skill management through OpenAPI and the difyctl CLI (1.19.0 release notes, as of 2026-11-08).
 Its 2024 HN launch drew 185 points, and the community has kept growing since.
 The category context is the risk: Flowise's shutdown discussion argued that capable coding agents are eroding the rigid low-code workflow approach, and that argument applies to every member of the genre, Dify included.

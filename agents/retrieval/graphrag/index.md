@@ -1,7 +1,7 @@
 ---
 title: GraphRAG
 created: 2026-10-07
-updated: 2026-11-07
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, knowledge-graph, microsoft]
 readability: 3
@@ -25,7 +25,7 @@ Made by Microsoft Research, first released July 2024, optional Azure OpenAI or l
 ## Status
 
 **Active by the commit clock, retired by its own README.**
-36,325 stars (as of 2026-10-13) and 3,858 forks, pushed 2026-11-02, 61 open issues (GitHub API, as of 2026-11-03).
+36,325 stars (as of 2026-10-13) and 3,858 forks, pushed 2026-11-09 at the repository level with the default branch's latest commit still the 2026-11-02 maintenance-workflow action pinning, 64 open issues (GitHub API, as of 2026-11-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/graphrag&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ My disagreeable claim: the maintenance-mode declaration is graph RAG's candid st
 - 2026-10-31 - Refreshed the repository activity (pushed 2026-10-29, 59 open issues); PyPI 3.3.0 and the maintenance-mode declaration unchanged.
 - 2026-11-03 - Refreshed the repository activity (pushed 2026-11-02, 61 open issues; the default branch's latest commit is a maintenance-workflow action-pinning change, inside the declared fix-only scope); PyPI 3.3.0 and the maintenance-mode declaration unchanged.
 - 2026-11-07 - Rotation re-verification re-fetched every cited URL live (the repository API reading the same pushed date and 61 open issues, releases/latest still v3.3.0 of 2026-10-08, the README's maintenance-mode and expensive-indexing warnings word-for-word, PyPI 3.3.0 across 52 releases, the method paper, the Microsoft Research announcement, the docs root, and the Algolia query still returning the cited 282-point launch thread); all claims unchanged.
+- 2026-11-12 - Refreshed the repository activity (pushed 2026-11-09 at the repository level with the default branch's latest commit still the 2026-11-02 workflow-action pinning, 64 open issues); releases/latest still v3.3.0 and the maintenance-mode declaration unchanged.
 
 ## See also
 
@@ -87,8 +88,8 @@ My disagreeable claim: the maintenance-mode declaration is graph RAG's candid st
 
 ## References
 
-- https://api.github.com/repos/microsoft/graphrag - 36,325 stars (as of 2026-10-13), 3,858 forks, MIT, created 2024-03-27, pushed 2026-11-02, 61 open issues (GitHub API, as of 2026-11-07, the same readings recorded 2026-11-03)
-- https://api.github.com/repos/microsoft/graphrag/releases/latest - v3.3.0 published 2026-10-08, the SQLite performance-fix release (still latest, re-verified 2026-11-07)
+- https://api.github.com/repos/microsoft/graphrag - 36,325 stars (as of 2026-10-13), 3,858 forks, MIT, created 2024-03-27, pushed 2026-11-09 at the repository level, the default branch's latest commit dated 2026-11-02, 64 open issues (GitHub API, as of 2026-11-12)
+- https://api.github.com/repos/microsoft/graphrag/releases/latest - v3.3.0 published 2026-10-08, the SQLite performance-fix release (still latest, re-verified 2026-11-12)
 - https://raw.githubusercontent.com/microsoft/graphrag/main/README.md - the maintenance-mode warning, the expensive-indexing warning, the init-between-versions rule (re-verified unchanged 2026-11-07)
 - https://arxiv.org/abs/2404.16130 - the method paper: From Local to Global, graph RAG as query-focused summarization
 - https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/ - the Microsoft Research announcement grounding community summaries and the local/global query split

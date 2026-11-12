@@ -1,7 +1,7 @@
 ---
 title: Agent Client Protocol (ACP)
 created: 2026-08-24
-updated: 2026-11-07
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, editor-integration]
 readability: 3
@@ -33,7 +33,7 @@ The repository shows about 4.4k stars as of 2026-10-13, with roughly 2,400 commi
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentclientprotocol/agent-client-protocol&type=date&legend=top-left" />
 </picture>
 
-The official agents list has grown to 49 entries (re-counted 2026-11-03) and now includes Codex CLI (via the protocol project's adapter), the Claude agent (via Zed's SDK adapter), Gemini CLI, Cursor, OpenCode, Goose, Junie, Kiro CLI, Factory Droid, Cline, Kimi CLI, Qwen Code, and GitHub Copilot in public preview since 2026-01-28.
+The official agents list has grown to 51 entries (re-counted 2026-11-12) and now includes Codex CLI (via the protocol project's adapter), the Claude agent (via Zed's SDK adapter), Gemini CLI, Cursor, OpenCode, Goose, Junie, Kiro CLI, Factory Droid, Cline, Kimi CLI, Qwen Code, OpenHands, Poolside, and GitHub Copilot in public preview since 2026-01-28.
 Clients include Zed, JetBrains IDEs (beta in the 25.3 release candidates, December 2025), Neovim and Emacs plugins, VS Code extensions, and Devin Desktop.
 In this index, [OpenCode](../../harnesses/opencode/index.md) ships `opencode acp`, and [JetBrains](../../surfaces/jetbrains/index.md), [Zed](../../surfaces/zed/index.md), [Junie](../../harnesses/junie/index.md), and [Windsurf's Devin Desktop](../../surfaces/windsurf/index.md) all host agents through it.
 Remote, cloud-hosted agents are explicitly still work in progress.
@@ -89,6 +89,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 - 2026-11-03 - The trains moved without touching the stable protocol: the stable train to v1.15.0 with schema-v1.29.0 (2026-11-01), which added unstable session and proxy methods (session/archive, session/unarchive, session/status, session/set_title, auth/status, proxy/initialize, proxy/successor) and moved the client system prompt RFD to preview, then v1.15.1 with schema-v1.29.1 and the v2 alpha train to schema-v2.0.0-alpha.13 (both 2026-11-02, a spec-text reconcile pass); the Rust crate jumped to a breaking 5.0.0 (2026-11-02), adopting schema 1.15, splitting the API into v1 and v2 surfaces, and removing JSON-RPC batch support, and the TypeScript package moved to 2.3.0 (schema updates) then 2.4.0 (cancellable request waits) the same day; the stable protocol stays at version 1 with the v2 draft open, and the agents list re-counted at 49.
 - 2026-11-06 - Re-verification: the repository pushed 2026-11-04 on docs-only commits (AionUi and Happier added to the clients list and a Remote ACP Bridge connector added), with no new tag since: the trains stay at v1.15.1 with schema-v1.29.1 and schema-v2.0.0-alpha.13, the SDKs at Rust 5.0.0 and TypeScript 2.4.0, and the stable protocol at version 1 with the v2 draft open; the agents list holds at 49.
 - 2026-11-07 - Re-verification: no new tag since (trains stay at v1.15.1 with schema-v1.29.1 and schema-v2.0.0-alpha.13, SDKs still Rust 5.0.0 and TypeScript 2.4.0), with the default branch moving 2026-11-06 to stabilize the client system prompt (#2765), which the 2026-11-03 bullet recorded at preview, unreleased as of this run, and the unstable docs gaining per-item cancels on restricted subagent sessions (#2767); the agents list holds at 49.
+- 2026-11-12 - The trains moved and shipped what the last pass recorded unreleased: v1.16.0 with schema-v1.30.0 and schema-v2.0.0-alpha.14 (2026-11-09, stabilizing the client system prompt, #2765), then v1.17.0 with schema-v1.31.0 and schema-v2.0.0-alpha.15 (2026-11-10, unstable additions of session/options with initial config option values, an AuthAccount description, and session tool-call content with one-shot-subagent clarification, plus an unstable-v2 clarification that session/cancel only cancels foreground work); the SDK figures stand (Rust 5.0.0, TypeScript 2.4.0), the stable protocol stays at version 1 with the v2 draft open, the docs added a page comparing ACP to MCP, A2A, and LSP (#2790), and the agents list re-counted at 51.
 
 ## See also
 
@@ -101,7 +102,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 ## References
 
 - https://agentclientprotocol.com - official introduction: stdio model, MCP type reuse, protocol version 1
-- https://agentclientprotocol.com/get-started/agents - the agent list (49 entries: Codex CLI, Claude agent, Gemini CLI, Cursor, OpenCode, Copilot preview; re-counted 2026-11-03)
+- https://agentclientprotocol.com/get-started/agents - the agent list (51 entries: Codex CLI, Claude agent, Gemini CLI, Cursor, OpenCode, Copilot preview, OpenHands, Poolside; re-counted 2026-11-12)
 - https://agentclientprotocol.com/overview/clients - the client list (Zed, JetBrains, Neovim, Emacs, VS Code, Devin Desktop)
 - https://github.com/agentclientprotocol/agent-client-protocol - Apache-2.0 repository, SDKs, stars as of 2026-10-13
 - https://agentclientprotocol.com/announcements/sdk-1-0-releases - the Rust and TypeScript SDKs at 1.0.0 (June 2026), fetched via the site's markdown mirror

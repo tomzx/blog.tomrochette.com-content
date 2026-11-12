@@ -1,7 +1,7 @@
 ---
 title: cmux
 created: 2026-08-24
-updated: 2026-11-08
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, terminal, parallel-agents, macos]
 readability: 3
@@ -23,7 +23,7 @@ A paid subscription (Pro or Max) adds Cloud VM agents and the iOS app; the CodeR
 ## Status
 
 **Active and remarkably fast.**
-About 28.2k stars and 2.5k forks as of 2026-10-15, created January 28, 2026, with the release train and pushes still landing daily as of 2026-11-08.
+About 28.2k stars and 2.5k forks as of 2026-10-15, created January 28, 2026, with pushes and the commit-hash `cmux-app-ffi` build tags still landing daily as of 2026-11-12 (the stable semver line's newest tag is v0.65.2.2, 2026-10-27, GitHub API, as of 2026-11-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=manaflow-ai/cmux&type=date&theme=dark&legend=top-left" />
@@ -52,6 +52,7 @@ Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contribution
 ## Pricing
 
 Free $0: the full terminal, any CLI agent BYOK, notifications, browser panels, socket API, local history.
+Plus $15/month is the entry cloud tier: one saved VM total including paused machines, 2-8 vCPU, 4-16 GiB RAM, and 16-128 GiB disk, with no monthly hour cap, as of 2026-11-12 (the tier was absent from the recorded plan table through the 2026-11-06 check).
 Pro $50/month: cloud agents on isolated VMs, up to 5 Cloud VMs sharing 20 vCPUs and 40 GB RAM per user, plus unlimited workspaces, the iOS app, and email support, as of 2026-10-06.
 Max $200/month raises the shared pool to 80 vCPUs and 160 GB RAM across up to 5 Cloud VMs, as of 2026-10-06.
 Team $60/user/month gives each user the Pro allowance (5 VMs, 20 vCPUs and 40 GB RAM shared) plus centralized billing and priority support; Enterprise adds self-hosted, even air-gapped, cloud execution, SSO/SAML, audit logs, custom VM limits, and SOC 2 with an SLA, as of 2026-10-06.
@@ -72,6 +73,7 @@ The plan table observed 2026-10-12 also differentiates the tiers by largest sing
 | 2026-10-04 | Pro, Max, Team | Cloud packaging restructured at unchanged dollar tiers: up to 5 Cloud VMs per user with per-VM caps (Pro 4 vCPUs/8 GB, Max 16 vCPUs/32 GB, Team same as Pro) replaced the shared pools of up to 50 VMs (Pro 24 GB RAM/6 vCPUs, Max 64 GB/16 vCPUs). | [cmux.com/pricing](https://cmux.com/pricing) |
 | 2026-10-06 | Pro, Max, Team | Cloud packaging moved again at unchanged dollar tiers: the per-VM caps were replaced by shared pools (Pro and Team: up to 5 Cloud VMs sharing 20 vCPUs and 40 GB RAM; Max: up to 5 Cloud VMs sharing 80 vCPUs and 160 GB RAM). | [cmux.com/pricing](https://cmux.com/pricing) |
 | 2026-10-11 | Pro, Max | Yearly billing returned: Pro $480/yr ($40/mo effective) and Max $1,920/yr ($160/mo effective); monthly rates unchanged at $50 and $200. | [cmux.com/pricing](https://cmux.com/pricing) |
+| 2026-11-12 | Plus | A new entry cloud tier appeared at $15/mo between Free and Pro: one saved VM total including paused machines, 2-8 vCPU, 4-16 GiB RAM, 16-128 GiB disk, no monthly hour cap; the pricing page now also serves from [cmux.dev/pricing](https://cmux.dev/pricing). | [cmux.dev/pricing](https://cmux.dev/pricing) |
 
 ## Compared to
 
@@ -103,6 +105,7 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 - 2026-10-13 - Recorded v0.65.1 (2026-10-12, the window crash-loop and Cloud port regression repair) on the GitHub release line.
 - 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live, the pricing page re-checked unchanged against the recorded tiers, and the release line confirmed at v0.65.2.2 (2026-10-27) with pushes through 2026-10-29.
 - 2026-11-06 - Re-verified in rotation: every cited URL re-fetched and live, the pricing page unchanged at the recorded tiers (Pro $50, Max $200, Team $60/user, yearly options intact), release line still v0.65.2.2 with pushes through 2026-11-06.
+- 2026-11-12 - Recorded the new Plus cloud tier ($15/mo, one saved VM, 2-8 vCPU, 4-16 GiB RAM) between Free and Pro, and the stable semver release line's stop at v0.65.2.2 (2026-10-27) beside the still-daily commit-hash build tags.
 
 ## See also
 
@@ -115,6 +118,7 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 
 - https://github.com/manaflow-ai/cmux - source, license statement, repository scale, as of 2026-10-04
 - https://cmux.com/pricing - tiers, the Max tier, shared-pool cloud VM specs and their churn, the 2026-10-06 shared-pool move (20/40 and 80/160 vCPU/RAM across 5 VMs), CodeRouter removal, re-verified 2026-10-06
+- https://cmux.dev/pricing - the pricing page's new home, the Plus $15/mo tier (one saved VM, 2-8 vCPU, 4-16 GiB RAM, 16-128 GiB disk), and the unchanged Pro, Max, and Team tiers, as of 2026-11-12
 - https://cmux.com/blog/zen-of-cmux - the project's own design philosophy
 - https://news.ycombinator.com/item?id=47079718 - the February 2026 launch thread with author Q&A
 - https://www.bounds.dev/posts/teaching-claude-code-to-drive-cmux/ - third-party account of agents driving cmux programmatically

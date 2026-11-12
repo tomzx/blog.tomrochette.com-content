@@ -1,7 +1,7 @@
 ---
 title: Agent Network Protocol (ANP)
 created: 2026-10-05
-updated: 2026-11-07
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, decentralized-identity, multi-agent]
 readability: 3
@@ -25,7 +25,7 @@ Working code exists around the spec: the `anp` implementation repository, an ope
 ## Status
 
 **Active but unanswered by the market.**
-The main repository (created 2024-10-23) shows 1,448 stars and 106 forks (as of 2026-10-13) with its default branch quiet since 2026-10-22, the 2026-10-30 repository-level push a side-branch one (GitHub API, as of 2026-11-07), with the companion `anp` repo at 352 stars and the spec hub serving ANP 1.2 as of 2026-10-17.
+The main repository (created 2024-10-23) shows 1,448 stars and 106 forks (as of 2026-10-13) with its default branch quiet since 2026-10-22, the 2026-11-09 repository-level push another side-branch one (zero default-branch commits since 2026-10-31, GitHub API, as of 2026-11-12), with the companion `anp` repo at 352 stars and the spec hub serving ANP 1.2 as of 2026-10-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agent-network-protocol/AgentNetworkProtocol&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ My disagreeable claim: if autonomous agents on the open web ever emerge, ANP's D
 - 2026-10-31 - The spec hub recovered after two unreachable runs and still serves ANP 1.2 with 1.0 and 1.1 archived, so the hub watch closes; the release train stays at v1.2 (2026-09-24).
 - 2026-11-03 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec hub still serves ANP 1.2 with 1.0 and 1.1 archived, the footprint scan still finds the same three stories at 2, 1, and 1 points, the release train stays at v1.2 (2026-09-24), and the repository's default branch was pushed 2026-10-30, which the Status now records.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec hub still serves ANP 1.2 with 1.0 and 1.1 archived and the 1.2 white paper live, the release train stays at v1.2 (2026-09-24), the footprint scan still finds the same three stories at 2, 1, and 1 points, and the 2026-10-30 push recorded last run was corrected to a side-branch push, the default branch quiet since 2026-10-22, per the standing pushed_at ruling.
+- 2026-11-12 - Re-verification: the 2026-11-09 pushed_at confirmed another side-branch push (zero default-branch commits since 2026-10-31), so the default branch stays quiet since 2026-10-22; the release train stays at v1.2 (2026-09-24) and nothing else moved.
 
 ## See also
 

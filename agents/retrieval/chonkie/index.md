@@ -1,7 +1,7 @@
 ---
 title: Chonkie
 created: 2026-09-16
-updated: 2026-11-06
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, chunking, rag, retrieval]
 readability: 3
@@ -24,7 +24,7 @@ It also ships refineries, pipelines stored in a local SQLite database, a self-ho
 ## Status
 
 The open source library is active and widely used; the company around it has visibly moved on.
-The repository shows 4,790 stars (as of 2026-10-13) and a push on 2026-11-05 (GitHub API, as of 2026-11-06), and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,255,276 downloads in the last month (the same figure recorded 2026-10-06, re-verified 2026-11-06); the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-10-03.
+The repository shows 4,790 stars (as of 2026-10-13) and a push on 2026-11-05, unchanged on the 2026-11-12 re-check (GitHub API, as of 2026-11-12), and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,255,276 downloads in the last month (the same figure recorded 2026-10-06, re-verified 2026-11-12); the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=feyninc/chonkie&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ My disagreeable claim: Chonkie's actual innovation was packaging, not algorithms
 - 2026-10-27 - Rotation re-verification re-fetched every cited URL live (PyPI 1.7.0 across 62 releases, the 1,255,276 trailing-month downloads, both launch threads and the memchunk post, the docs, the Feyn site, and the YC entry all unchanged; the README still links the dead Cloud domains).
 - 2026-11-01 - Refreshed the repository activity (pushed 2026-10-31) and re-verified the trailing-month downloads unchanged; PyPI 1.7.0 remains latest.
 - 2026-11-06 - Rotation re-verification re-fetched every cited URL live (PyPI 1.7.0 across 62 releases, the 1,255,276 trailing-month downloads, the README still last changed 2026-06-05 with the dead labs.chonkie.ai Cloud link on it, the docs, both launch threads at 199 and 151 points, the memchunk post, the Feyn site, and the YC entry redirecting to /companies/feyn all unchanged) and refreshed the repository activity (pushed 2026-11-05).
+- 2026-11-12 - Rotation re-verification re-fetched every cited URL live (PyPI 1.7.0 across 62 releases, the 1,255,276 trailing-month downloads, the README with the dead labs.chonkie.ai Cloud link still on it, the docs (308 to /common/welcome, final 200), both launch threads at 199 and 151 points, the memchunk post, the Feyn site, the YC entry still redirecting to /companies/feyn, and the Algolia scan all unchanged) and refreshed the repository activity (pushed 2026-11-05 unchanged; the TypeScript port still parked at 2026-10-03).
 
 ## See also
 
@@ -91,11 +92,11 @@ My disagreeable claim: Chonkie's actual innovation was packaging, not algorithms
 
 ## References
 
-- https://github.com/feyninc/chonkie - repository: 4,790 stars (as of 2026-10-13), MIT, created 2025-03-29, pushed 2026-11-05 (GitHub API, as of 2026-11-06)
-- https://raw.githubusercontent.com/feyninc/chonkie/main/README.md - chunker table (11 chunkers), 505KB core, self-hosted API server, stale Cloud link (re-verified unchanged 2026-11-06; the file last changed 2026-06-05)
-- https://pypi.org/pypi/chonkie/json - version 1.7.0 (2026-07-07), 62 releases, Python >=3.10, MIT (re-verified unchanged 2026-11-06)
-- https://pypistats.org/api/packages/chonkie/recent - 1,255,276 downloads last month, unchanged and re-verified 2026-11-06
-- https://docs.chonkie.ai - official docs, Python and JavaScript support, agent skills distribution (re-verified 2026-11-06)
+- https://github.com/feyninc/chonkie - repository: 4,790 stars (as of 2026-10-13), MIT, created 2025-03-29, pushed 2026-11-05, unchanged on the 2026-11-12 re-check (GitHub API, as of 2026-11-12)
+- https://raw.githubusercontent.com/feyninc/chonkie/main/README.md - chunker table (11 chunkers), 505KB core, self-hosted API server, stale Cloud link (re-verified unchanged 2026-11-12)
+- https://pypi.org/pypi/chonkie/json - version 1.7.0 (2026-07-07), 62 releases, Python >=3.10, MIT (re-verified unchanged 2026-11-12)
+- https://pypistats.org/api/packages/chonkie/recent - 1,255,276 downloads last month, unchanged and re-verified 2026-11-12
+- https://docs.chonkie.ai - official docs, Python and JavaScript support, agent skills distribution (re-verified 2026-11-12; serves a 308 to /common/welcome, final 200)
 - https://news.ycombinator.com/item?id=44225930 - Launch HN, 151 points, 2025-06-09: founders, 15MB versus 80-170MB, 33x token chunking claims (vendor tests); the title's batch label has read both X25 (Algolia crawl) and P25 (live page)
 - https://news.ycombinator.com/item?id=42100819 - original Show HN, 199 points, 2024-11-10, under the now-deleted bhavnicksm/chonkie
 - https://news.ycombinator.com/item?id=46501665 - "So, you want to chunk really fast?", 153 points, 2026-01-05

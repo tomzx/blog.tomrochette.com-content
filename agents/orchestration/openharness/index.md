@@ -1,7 +1,7 @@
 ---
 title: OpenHarness
 created: 2026-10-24
-updated: 2026-11-08
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agentic-development-environment, multi-agent, encryption, hardware]
 readability: 3
@@ -26,8 +26,8 @@ An experimental Agent Messages surface lets harnesses in one tab message each ot
 
 ## Status
 
-Active and young: the repository was created 2026-08-04, held 1,358 stars and 125 forks as of 2026-10-24, and was pushed 2026-11-07 (GitHub API, as of 2026-11-07).
-The release train runs two lines: a CLI stable line that stepped from the `v0.4.x` tags (v0.4.97_cli, 2026-10-28) onto `v0.5.x` with v0.5.66_cli on 2026-11-07 (v0.5.60_cli on 2026-11-06, itself after v0.5.38_cli on 2026-11-04 and v0.5.31_cli on 2026-11-03 carrying merge batches plus a Harness OS 0.1.14 build), and a desktop-and-web line that stepped from `v1.3.x` onto `v1.4.x` the same day, v1.4.8_desktop (2026-11-07) following v1.3.89_desktop (2026-11-07), which follows v1.3.59_desktop (2026-11-04), v1.3.44_desktop, and a web line through v1.3.99_web (2026-11-06), after v1.3.83_web (2026-10-30) and the earlier browser builds served from harness.autonomous.ai (GitHub releases, as of 2026-11-08).
+Active and young: the repository was created 2026-08-04, held 1,358 stars and 125 forks as of 2026-10-24, and was pushed 2026-11-12 (GitHub API, as of 2026-11-12).
+The release train runs two lines: a CLI stable line that stepped from the `v0.4.x` tags (v0.4.97_cli, 2026-10-28) onto `v0.5.x` with v0.5.66_cli on 2026-11-07 (v0.5.60_cli on 2026-11-06, itself after v0.5.38_cli on 2026-11-04 and v0.5.31_cli on 2026-11-03 carrying merge batches plus a Harness OS 0.1.14 build), then onto `v0.6.x` on 2026-11-12 with a same-day burst through v0.6.47_cli (v0.6.38 through v0.6.47 all landing 2026-11-12), and a desktop-and-web line that stepped from `v1.3.x` onto `v1.4.x` the same day, v1.4.8_desktop (2026-11-07) following v1.3.89_desktop (2026-11-07), which follows v1.3.59_desktop (2026-11-04), v1.3.44_desktop, and a web line through v1.3.99_web (2026-11-06), after v1.3.83_web (2026-10-30) and the earlier browser builds served from harness.autonomous.ai, with the desktop line then bursting to v1.4.47_desktop on 2026-11-12 (GitHub releases, as of 2026-11-12).
 Autonomous launched it publicly in mid-October 2026, and the launch coverage recorded 213 Product Hunt upvotes about seven hours into launch day and about 3,553 commits at 1,266 stars (Reveneau, 2026-10-16).
 
 <picture>
