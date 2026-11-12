@@ -21,7 +21,7 @@ The design philosophy is documented in the repository's RSI.md, "A Systems View 
 
 ## Status
 
-Active: created 2026-05-20, 1,505 stars and 114 forks, pushed 2026-11-08 (GitHub API, as of 2026-11-08).
+Active: created 2026-05-20, 1,505 stars and 114 forks, pushed 2026-11-10 (GitHub API, as of 2026-11-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=exoharness/exo&type=date&theme=dark&legend=top-left" />

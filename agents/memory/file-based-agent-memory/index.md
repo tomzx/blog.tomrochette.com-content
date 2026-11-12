@@ -1,7 +1,7 @@
 ---
 title: File-based agent memory
 created: 2026-08-24
-updated: 2026-11-01
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, agent-memory, context-engineering]
 readability: 3
@@ -70,6 +70,7 @@ Reach for a memory service only for cross-user or cross-app memory; my disagreea
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live, no facts changed (agents.md still reports 60k open-source projects, the Claude Code auto-memory limits and 4 MiB skip unchanged, the essay thread steady at 392 points, the liao.gg essay fetched via the fetch tool again).
 - 2026-10-29 - Trimmed See also to five items (dropped the OpenCode link) to hold the section's three-to-five range.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live (agents.md, the Claude Code memory docs, Cursor's rules docs, the Anthropic best-practices page, the memU and Operator Memory repositories, the liao.gg essay, and both HN threads), no facts changed: agents.md still reports 60k-plus open-source projects with Agentic AI Foundation stewardship, the Claude Code auto-memory limits (first 200 lines or 25KB, the 4 MiB skip) and "no guarantee of strict compliance" wording unchanged, Cursor's four rule types and nested AGENTS.md support unchanged, and the liao.gg essay thread steady at 392 points.
+- 2026-11-11 - Rotation re-verification: every cited URL re-fetched live (agents.md, the Claude Code memory docs, Cursor's rules docs, the Anthropic best-practices page, the memU and Operator Memory repositories, the liao.gg essay via the fetch tool, and both HN threads), no facts changed: agents.md still reports 60k open-source projects, the Claude Code auto-memory limits unchanged, the essay thread steady at 392 points; the Anthropic best-practices URL now redirects to code.claude.com/docs/en/best-practices and fetches normally.
 
 ## See also
 

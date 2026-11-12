@@ -1,7 +1,7 @@
 ---
 title: Screenpipe
 created: 2026-10-08
-updated: 2026-11-07
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, screen-capture, timeline, mcp, source-available]
 readability: 3
@@ -26,7 +26,7 @@ Pipes are scheduled AI agents defined as markdown files, with YAML frontmatter p
 ## Status
 
 **Active and large, on a YC-backed company.**
-21,954 stars with the repository pushed 2026-11-04, created 2024-06-19, as of 2026-11-04 (GitHub API).
+21,954 stars with the repository pushed 2026-11-11, created 2024-06-19, as of 2026-11-11 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=screenpipe/screenpipe&type=date&theme=dark&legend=top-left" />
@@ -94,6 +94,7 @@ Not for privacy-strict environments, commercial use without a license budget, or
 - 2026-10-30 - Recorded the app train to v2.7.132 (October 28-30): upload-starvation repair during retention, interrupted Windows migration retries recovered, excluded windows kept out of screenshots, and no-training Experiential routing that carries the user's training-consent choice.
 - 2026-11-04 - Recorded the train to app-v2.7.138 with CLI v0.4.56 and v0.4.57 (November 3-4): fresh hybrid-history search and saved opposite-window filter replacement, stuck-app restarts through independent support polling in enterprise, filtered-screenshot recovery, oversized Experiential compaction recovery, and Windows keeping the user's Enterprise installation authoritative; the push date refreshed to 2026-11-04.
 - 2026-11-07 - Recorded app-v2.7.143 and v2.7.145 (November 6): enterprise uploads fail closed when no upload destination pin is deployed, heartbeats report device timezone, fresh histories sync from persistent database sources, silent microphone streams stay running, and Windows uninstall deletes recording data when selected; the push date refreshed to 2026-11-07.
+- 2026-11-11 - Recorded the November 7-to-11 default-branch work: the app bumped to v2.7.146 with the consumer export admission fix, Workflows respecting the app theme with semantic icons and more filter groups, periodic feature-flag refreshes reduced, verified enterprise accounting tags carried through inference, and the Wayland portal work (approval persistence, KDE streams mapped by connector, opaque portal tokens accepted without an invented length cap); the push date refreshed to 2026-11-11.
 
 ## See also
 

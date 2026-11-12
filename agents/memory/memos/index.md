@@ -1,7 +1,7 @@
 ---
 title: MemOS
 created: 2026-10-06
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The plugin line is the distribution strategy: official OpenClaw plugins (cloud a
 ## Status
 
 **Active and mid-scale.**
-11,800 stars with the repository pushed 2026-11-04, created 2025-07-06, as of 2026-11-04 (GitHub API).
+11,800 stars with the repository pushed 2026-11-11, created 2025-07-06, as of 2026-11-11 (GitHub API; the star figure is the 2026-10-11 baseline).
 The one independent common-framework datapoint: the academic Agent Memory Leaderboard's first cycle (August 2026) ranks MemOS second among commercial text-memory systems at 45.89, on that framework's scale, not the vendor table's.
 
 <picture>
@@ -34,7 +34,7 @@ The one independent common-framework datapoint: the academic Agent Memory Leader
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MemTensor/MemOS&type=date&legend=top-left" />
 </picture>
 
-Latest engine release v2.0.34 (2026-09-23) and local-plugin release v2.0.21 (2026-09-29) per the GitHub releases API, with a v2.0.21-beta.1 package prerelease published 2026-11-04 for validation through npm's beta dist-tag; the PyPI package is `MemoryOS` at 2.0.33 (the bare `MemOS` name on PyPI belongs to an unrelated project, arkohut's Pensieve screen recorder).
+Latest engine release v2.0.36 (2026-11-09), the first engine release since September's v2.0.34: it restores the OpenClaw installation and automatic memory hooks, hardens memory evolution and the Hermes installation, adds per-operation provider switches through the LLM facade and configurable per-model Redis GCRA rate limiting, and fixes playground recall across every searched cube; the local-plugin line sits at v2.0.21 (2026-09-29) per the GitHub releases API, with a v2.0.21-beta.1 package prerelease published 2026-11-04 for validation through npm's beta dist-tag; the PyPI package is `MemoryOS` at 2.0.33 (the bare `MemOS` name on PyPI belongs to an unrelated project, arkohut's Pensieve screen recorder), still behind the engine release.
 The plugin's v2.0.21 release shipped the SQLite 13.0.3 Node-API prebuilds and Node 22 floor the main-branch commits had prepared, exposed local model settings (mirror URL, model path, cache directory, offline mode, load timeout) in the Viewer, and fixed dirty-data recovery, orphan trace writes, and empty-response retry stability; a further plugin commit (2026-11-04, pending release) adds support for validated DSH 0.2 preview APIs.
 The benchmark table is the vendor's own: LoCoMo 88.83 and LongMemEval 89.20 via OmniMemEval, the company's self-published evaluation framework spanning 14 commercial memory products.
 The Hacker News footprint is nearly absent: a 2-point story in August 2025, no discussion since.
@@ -86,6 +86,7 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 - 2026-10-30 - Recorded the pending-release plugin commits (2026-10-29): SQLite 13 prebuilds with Node 22 now required (breaking), Windows DLL isolation, and DSH memory-issue fixes.
 - 2026-11-04 - Corrected the plugin record: the pending work shipped as local-plugin v2.0.21 (September 29), which also exposed Viewer local-model settings and fixed dirty-data recovery, orphan trace writes, and empty-response retries; recorded the v2.0.21-beta.1 npm prerelease (November 4) and the plugin commit supporting validated DSH 0.2 preview APIs; the push date refreshed to 2026-11-04.
 - 2026-11-08 - The November 7 pushed_at movement resolved to side branches, with the default branch's only commit since the last verification the November 4 DSH-preview support already recorded; no facts changed (PyPI MemoryOS still 2.0.33).
+- 2026-11-11 - Recorded engine release v2.0.36 (November 9), the first engine release since September: OpenClaw installation and automatic memory hooks restored, memory evolution and Hermes installation hardened, per-operation provider switches and per-model Redis GCRA rate limiting added, and cross-cube playground recall fixed; PyPI MemoryOS stays at 2.0.33 and the push date refreshed to 2026-11-11.
 
 ## See also
 

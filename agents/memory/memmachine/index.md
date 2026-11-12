@@ -1,7 +1,7 @@
 ---
 title: MemMachine
 created: 2026-10-11
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The project was incubated inside MemVerge and is now described as community-driv
 ## Status
 
 **Active and mid-scale, with a corporate backer and no benchmark record.**
-3,072 stars and 220 forks, created 2025-08-15, Apache-2.0, as of 2026-10-28 (GitHub API), with the repository pushed 2026-11-02 as of 2026-11-04 (GitHub API).
+3,072 stars and 220 forks, created 2025-08-15, Apache-2.0, as of 2026-10-28 (GitHub API), with the repository pushed 2026-11-09 from side branches, the default branch quiet since 2026-11-02, as of 2026-11-11 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MemMachine/MemMachine&type=date&theme=dark&legend=top-left" />
@@ -76,6 +76,7 @@ My disagreeable claim: publishing zero numbers in a benchmark-obsessed category 
 - 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repository API, README, docs, site, PyPI, Hacker News search), no facts changed; both PyPI distributions still 0.4.0, the thin-discussion record unchanged, and the trusted-teams wall the same logos plus three smaller ones.
 - 2026-11-04 - Rotation re-verification: every cited URL re-fetched live (repository API, README, docs, site, PyPI, Hacker News search), no facts changed; both PyPI distributions still 0.4.0, and the pushes since the last verification (2026-10-30 to 11-02) are installer and packaging housekeeping plus the one config change replacing retiring OpenAI model defaults with gpt-6-luna; the push date refreshed to 2026-11-02.
 - 2026-11-08 - The November 5 pushed_at movement resolved to side branches, with the default branch quiet since the November 2 pushes the last verification recorded; no facts changed.
+- 2026-11-11 - Volatile re-verification: the 2026-11-09 pushed_at movement again resolved to side branches with the default branch quiet since 2026-11-02; no facts changed.
 
 ## See also
 

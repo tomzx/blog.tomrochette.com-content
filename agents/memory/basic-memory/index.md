@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -26,7 +26,7 @@ The cloud adds cross-device sync, browser and mobile access, and shared workspac
 ## Status
 
 **Active and mid-scale, with a thin public-discussion footprint.**
-4,237 stars with the repository pushed 2026-11-07, created 2024-12-02, as of 2026-11-08 (GitHub API).
+4,237 stars with the repository pushed 2026-11-11, created 2024-12-02, as of 2026-11-11 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&theme=dark&legend=top-left" />
@@ -40,6 +40,7 @@ The Hacker News record is a 4-point Show HN in March 2025 (0 comments) and a 2-p
 The post-1.0 fix train (2026-11-01 and 02) speeds the file-conflict check with two indexed columns (one query instead of a per-project scan on every write), stops a folder named like the project from colliding with its root note's permalink, refuses note moves onto paths equivalent to another note (case and Unicode twins), and conforms the Hermes Agent memory-provider plugin to Hermes v0.22's provider contract (inline capture on Hermes's worker thread, per-profile provider instances, and a new transcript note per session switch linked by a continues relation).
 The November 4 fixes (pending release) start watching a newly added project right away and embed a caught-up project in the background instead of the watcher loop, rank Postgres prefix queries by the words typed with title scoring, stop recording a note's created_at after its updated_at, write CLI output as UTF-8 on Windows, and let the searching server own the similar-notes floor.
 The November 5-to-7 train (pending release) is performance and fixes: note-resolve answers cached, vector search rows ranked in the database with search-byte counting, each path checked once per storage-event batch, the exact count dropped from search, hybrid legs run concurrently, non-numeric values dropped from numeric metadata filters, frontmatter btree indexes that reject long values removed, semantic search freshness reported to Cloud, local and cloud projects listed together when a project is unknown, and note formatting with format_on_save removed (breaking); PyPI stays at 1.0.0.
+The November 11 train (pending release) restructures the MCP surface again: bm_schema and bm_project each split into one tool per operation and the `memory://ai_assistant_guide` resource dropped (all three breaking), bm_move now carries the destructive hint, bm_write's similar-notes probe made informational so a failed probe never fails the write, a memory-start skill added for a new user's first session, and the ChatGPT plugin rebuilt from checked-in configuration with permalink and search-boundary fixes beside it; PyPI stays at 1.0.0.
 
 ## Strengths
 
@@ -82,7 +83,7 @@ The per-seat Team and Business ladder is gone.
 ## Bottom line
 
 **Recommended for solo Claude or Codex users who want durable, Obsidian-editable agent memory without running a graph stack.**
-Not for products embedding a memory engine (AGPL); teams get live shared workspaces with roles, though governance tooling (SSO, audit logs) starts at the $30 Business seat.
+Not for products embedding a memory engine (AGPL); teams get live shared workspaces with roles, though governance tooling (audit logs, granular permissions, and the SSO and BAA add-ons) starts at the $249 Business plan.
 
 ## Changes
 
@@ -96,6 +97,7 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 - 2026-11-03 - Recorded the post-1.0 fix train (November 1 and 2): indexed file-conflict lookups, the folder-named-like-the-project permalink fix, note-move rejections on equivalent paths, and the Hermes plugin conformed to Hermes v0.22's provider contract (inline ordered capture, per-profile providers, session-switch notes); the PyPI figure in the opening moved to 1.0.0 and the push date refreshed to 2026-11-02.
 - 2026-11-04 - Recorded the pending November 4 fixes: newly added projects watched immediately with caught-up projects embedded in the background, Postgres prefix queries ranked by the words typed, created_at no longer recorded after updated_at, UTF-8 CLI output on Windows, and the searching server owning the similar-notes floor; the push date refreshed to 2026-11-04.
 - 2026-11-08 - Recorded the pricing restructure (November 8): the per-seat Team and Business ladder replaced by Cloud $19/mo per workspace (2 members, 1,900 credits), Pro $99/mo (5 members, 9,900 credits, scoped API keys), and Business $249/mo (25 members, 24,900 credits) with metered $0.01 credits and SSO/BAA as paid add-ons (Price history row); recorded the November 5-to-7 pending performance train with its breaking removal of note formatting and format_on_save, PyPI still at 1.0.0; the push date refreshed to 2026-11-07.
+- 2026-11-11 - Recorded the pending November 11 MCP restructure (bm_schema and bm_project split into one tool per operation, the ai_assistant_guide resource dropped, bm_move marked destructive, bm_write's probe made informational, a memory-start skill, and ChatGPT plugin packaging fixes), PyPI still at 1.0.0; corrected the Bottom line's governance-starts-at figure to the $249 Business plan, which the November 8 restructure had left stale at the retired $30 seat; the push date refreshed to 2026-11-11.
 
 ## See also
 

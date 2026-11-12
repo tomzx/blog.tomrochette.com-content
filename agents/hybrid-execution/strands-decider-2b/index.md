@@ -1,7 +1,7 @@
 ---
 title: Strands Decider 2B
 created: 2026-10-12
-updated: 2026-11-07
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights]
 readability: 3
@@ -25,7 +25,7 @@ It comes from strands-labs, the org behind the Strands Agents SDK, an AWS-backed
 
 ## Status
 
-Active and fresh: the repository was created 2026-09-29 and pushed 2026-11-06 (v0.3.0 released 2026-11-05 consolidated the whole serving-and-deployment line since 0.2.0: the slot-head removal made the pointer head the only readout, a torch-free engine runs over a backend that returns hidden states, a `--device-map` splits a model across GPUs, serve-side warm-up covers every request type, an AWS Lambda deploy option joined, inference benchmarks run per environment, the context window is always enforced, an MLX one-worker pin fixed Gemma 4 serving, SageMaker deploy docs and a calling notebook landed, and the customize-decider skill is documented as harness-agnostic; post-release commits added a `--max-concurrency` serve cap, `/ping` and `/health` answering without a worker thread, and a documentation manifest), with 636 stars as of 2026-10-15 and 99 forks as of 2026-10-27, and the Hugging Face checkpoint was published 2026-10-09 with 12 likes, its download counter still not tracking (GitHub and Hugging Face APIs).
+Active and fresh: the repository was created 2026-09-29 and pushed 2026-11-09 (branch activity past the 2026-11-06 documentation manifest; v0.3.0 released 2026-11-05 consolidated the whole serving-and-deployment line since 0.2.0: the slot-head removal made the pointer head the only readout, a torch-free engine runs over a backend that returns hidden states, a `--device-map` splits a model across GPUs, serve-side warm-up covers every request type, an AWS Lambda deploy option joined, inference benchmarks run per environment, the context window is always enforced, an MLX one-worker pin fixed Gemma 4 serving, SageMaker deploy docs and a calling notebook landed, and the customize-decider skill is documented as harness-agnostic; post-release commits added a `--max-concurrency` serve cap, `/ping` and `/health` answering without a worker thread, and a documentation manifest), with 636 stars as of 2026-10-15 and 99 forks as of 2026-10-27, and the Hugging Face checkpoint was published 2026-10-09 with 12 likes, its download counter still not tracking (GitHub and Hugging Face APIs).
 The project's first tagged releases landed 2026-10-19: PyPI 0.2.0 splits inference from training (the training commands leave the CLI), fixes the MPS crash under overlapping requests and per-request option offsets under concurrent serving, makes evaluation prepare the model exactly as serving does, and ships a harness-agnostic customize-decider skill (from a user's decision to a measured, calibrated model) plus SageMaker deploy docs.
 
 <picture>
@@ -84,6 +84,7 @@ The disagreeable claim I will defend: the fair comparison is not with the commun
 - 2026-10-31 - Out-of-rotation board re-fetch at the drift signal, both boards: the Decision Index's 2026-10-29 regeneration (248 configurations) moved the unchanged 20.72 from rank 182 to 199, and JevBench's method-v1.8 board added a ranked Strands row, the v1 line's 26B-A4B sibling at official #84 (60.01, Hugging Face amazon/strands-decider-26B-A4B-gemma4-v1-2610), leaving the 2B itself still unbenched.
 - 2026-11-05 - Volatile re-verification after the 2026-11-03 to 11-04 pushes: the default branch gained four unreleased serving and deployment features (environment-based inference benchmarks, a `--device-map` multi-GPU split, a serve-side warm-up of every request type, an AWS Lambda deploy option), v0.2.0 (2026-10-19) and PyPI 0.2.0 unchanged; pushed date moved to 2026-11-04.
 - 2026-11-07 - Volatile re-verification at the v0.3.0 release: v0.3.0 released 2026-11-05 (PyPI 0.3.0 the same day) consolidating the serving-and-deployment line since 0.2.0 (the pointer head made the only readout, a torch-free hidden-states engine, the `--device-map` GPU split, serve-side warm-up, the AWS Lambda deploy option, per-environment inference benchmarks, the always-enforced context window, an MLX one-worker pin, SageMaker docs plus a calling notebook, the customize-decider skill documented as harness-agnostic), with post-release commits adding the `--max-concurrency` serve cap, workerless `/ping` and `/health`, and a documentation manifest; the checkpoint's likes refreshed to 12; the Decision Index's 2026-11-06 regeneration (275 configurations) crowd-shifted the unchanged 20.72 from rank 199 to 225, and JevBench's 26B-A4B sibling row re-read unchanged at official #84 (60.01); pushed date moved to 2026-11-06.
+- 2026-11-11 - Volatile re-verification after the pushed_at move to 2026-11-09: branch activity, the default branch's newest commit still the 2026-11-06 documentation manifest, and v0.3.0 (2026-11-05) still the latest release.
 
 ## See also
 
@@ -95,7 +96,7 @@ The disagreeable claim I will defend: the fair comparison is not with the commun
 
 ## References
 
-- https://github.com/strands-labs/strands-decider - repository: Apache-2.0, created 2026-09-29, 636 stars as of 2026-10-15, 99 forks, pushed 2026-11-06 (v0.3.0 released 2026-11-05; post-release serve-cap, health-endpoint, and docs-manifest commits), the CLI surfaces and device extras (GitHub API and README, as of 2026-11-07)
+- https://github.com/strands-labs/strands-decider - repository: Apache-2.0, created 2026-09-29, 636 stars as of 2026-10-15, 99 forks, pushed 2026-11-09 (branch activity past the 2026-11-06 documentation manifest; v0.3.0 released 2026-11-05; earlier post-release serve-cap, health-endpoint, and docs-manifest commits), the CLI surfaces and device extras (GitHub API and README, as of 2026-11-11)
 - https://github.com/strands-labs/strands-decider/releases - v0.1.0 and v0.2.0 of 2026-10-19 (the CLI split, the serving fixes, the customize-decider skill) and v0.3.0 of 2026-11-05 (the consolidated serving-and-deployment release) (re-fetched 2026-11-07)
 - https://github.com/strands-labs/strands-decider/tree/main/configs/v1 - the training configs of the five v1 releases, published 2026-10-16 (fetched 2026-10-18)
 - https://strandsagents.com/blog/introducing-strands-decider/ - the launch post: the decision-model positioning, the confidence contract, and the SDK tie-in (fetched 2026-10-12)

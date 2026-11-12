@@ -1,7 +1,7 @@
 ---
 title: Bottleneck
 created: 2026-10-31
-updated: 2026-10-31
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, desktop-app, pull-requests]
 readability: 3
@@ -63,6 +63,7 @@ Not for Linux users, not for anyone who needs support or fixes, and never as the
 ## Changes
 
 - 2026-10-31 - Created from the code-review handoff resolved on the judges-nothing family, profiling the dormant desktop PR client for parallel-agent review queues.
+- 2026-11-11 - Rotation re-verification: every cited URL re-fetched and live, and everything re-confirmed unchanged (still pushed 2025-12-04 with v0.1.19 newest, the Show HN thread still 2 points with zero comments, the maker's site live through a www redirect).
 
 ## See also
 

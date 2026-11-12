@@ -1,7 +1,7 @@
 ---
 title: Instructor
 created: 2026-08-24
-updated: 2026-11-07
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, pydantic, validation]
 readability: 3
@@ -25,7 +25,7 @@ It also streams partial objects, iterates lists, exposes hooks for logging and m
 ## Status
 
 **Active and mainstream.**
-The repository shows about 14.0k stars and 1,672 commits as of 2026-10-15, and PyPI shows release 1.17.0 uploaded September 9, 2026, following 1.16.0 on August 27, in a cadence of monthly-plus releases stretching back to 2023; the pushed date has moved to 2026-11-06, with the default branch's newest commits that day's unreleased 1.18-line work (OpenAI Decisions docs on SDK usage and version availability, Decisions support extended to native OpenAI clients and inputs, and a registry-decorator test isolation fix), still unreleased past 1.17.0 (GitHub API, as of 2026-11-07).
+The repository shows about 14.0k stars and 1,672 commits as of 2026-10-15, and PyPI shows release 1.17.0 uploaded September 9, 2026, following 1.16.0 on August 27, in a cadence of monthly-plus releases stretching back to 2023; the pushed date has moved to 2026-11-06, with the default branch's newest commits that day's unreleased 1.18-line work (OpenAI Decisions docs on SDK usage and version availability, Decisions support extended to native OpenAI clients and inputs, and a registry-decorator test isolation fix), still unreleased past 1.17.0 (GitHub API, as of 2026-11-11, the repository's pushed_at at 2026-11-10 on branch activity with the default branch unchanged).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=567-labs/instructor&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ The repository shows about 14.0k stars and 1,672 commits as of 2026-10-15, and P
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=567-labs/instructor&type=date&legend=top-left" />
 </picture>
 
-The README claims 3M+ monthly downloads and use inside OpenAI, Google, Microsoft, and AWS teams; PyPI counters with roughly 8.5M downloads over the last month as of 2026-11-07 (8,516,567, flat for a sixth consecutive check after a steep September slide from roughly 22M), so the README claim remains conservative but the collapse has paused rather than continued.
+The README claims 3M+ monthly downloads and use inside OpenAI, Google, Microsoft, and AWS teams; PyPI counters with roughly 8.5M downloads over the last month as of 2026-11-11 (8,516,567, flat for a seventh consecutive check after a steep September slide from roughly 22M), so the README claim remains conservative but the collapse has paused rather than continued.
 OpenAI publicly credited Instructor as inspiration for its native SDK structured-output helpers at the August 2024 Structured Outputs launch, and the project's own README now steers agent use cases to PydanticAI, the Pydantic team's agent runtime.
 An unreleased 1.18 consolidating on the main branch since 2026-10-10 adds OpenAI Decisions support under shared provider contracts, extending the validate-and-retry layer to the vendor's bounded-decision endpoint alongside the structured-output surfaces; the 2026-11-03 fixes (Bedrock tool choice, cache envelope restoration, opt-in response logging) and the 2026-11-06 Decisions docs and native-client support joined the same line without a release.
 
@@ -84,6 +84,7 @@ Not for teams that need agents, evals, or hard latency budgets.
 - 2026-11-01 - Rotation re-verification: all five cited URLs re-fetched and live, the repository still pushed 2026-10-26 with no new commit or release, PyPI still at 1.17.0 (September 9, 2026) with 1.16.0 behind it, the docs' PydanticAI steering statement and from_provider interface unchanged, and the native strict-mode guide holding; nothing material moved.
 - 2026-11-05 - Volatile re-verification after the 2026-11-03 push: the default branch gained three fixes on the unreleased 1.18 line (Bedrock caller tool choice preserved in tool modes, raw response logging made opt-in with disk caches ignored, legacy responses restored in the cache for envelope field names), pushed date moved to 2026-11-03, PyPI still at 1.17.0, and monthly downloads re-read at 8,516,567, flat for a fifth consecutive check.
 - 2026-11-07 - Volatile re-verification after the 2026-11-06 push: the default branch gained unreleased 1.18-line work (OpenAI Decisions docs on SDK usage and version availability, Decisions support extended to native OpenAI clients and inputs, a registry-decorator test isolation fix), pushed date moved to 2026-11-06, PyPI still at 1.17.0, and monthly downloads re-read at 8,516,567, flat for a sixth consecutive check.
+- 2026-11-11 - Volatile re-verification after the pushed_at move to 2026-11-10: branch activity, the default branch's newest commits still the 2026-11-06 unreleased 1.18-line work, PyPI still at 1.17.0, and monthly downloads re-read at 8,516,567, flat for a seventh consecutive check.
 
 ## See also
 
@@ -94,8 +95,8 @@ Not for teams that need agents, evals, or hard latency budgets.
 
 ## References
 
-- https://github.com/567-labs/instructor - repo: stars, license, retry and streaming features, PydanticAI positioning (as of 2026-10-15; re-fetched 2026-11-07 with the pushed date moved to 2026-11-06)
+- https://github.com/567-labs/instructor - repo: stars, license, retry and streaming features, PydanticAI positioning (as of 2026-10-15; re-fetched 2026-11-11 with pushed_at 2026-11-10 on branch activity and the default branch's newest commits still the 2026-11-06 unreleased 1.18-line work)
 - https://python.useinstructor.com/ - official docs: from_provider interface, reasking, hooks, provider list (fetched 200, 2026-10-15; re-fetched 2026-11-01, the PydanticAI steering statement unchanged)
-- https://pypi.org/project/instructor/ - release cadence (1.17.0, September 2026, the latest as of 2026-10-15; re-read 2026-11-07, unchanged)
+- https://pypi.org/project/instructor/ - release cadence (1.17.0, September 2026, the latest as of 2026-10-15; re-read 2026-11-11, unchanged)
 - https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent record that OpenAI credited Instructor as inspiration for its SDK helpers (fetched 200, 2026-10-15; re-fetched 2026-11-01)
 - https://platform.openai.com/docs/guides/structured-outputs - the native strict mode that changed Instructor's niche (fetched 200, 2026-10-15; re-fetched 2026-11-01)

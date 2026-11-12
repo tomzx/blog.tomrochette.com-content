@@ -1,7 +1,7 @@
 ---
 title: tool-eval-bench
 created: 2026-10-08
-updated: 2026-11-05
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, tool-calling, benchmarking, structured-outputs, open-source]
 readability: 3
@@ -25,8 +25,8 @@ The decision-model track (`--decision`) measures how accurate a `/v1/systemone` 
 
 ## Status
 
-Active, six months old, and steadily released: created 2026-04-17, v3.0.0 published 2026-10-26 (also on PyPI, where the package now self-describes as Production/Stable), pushed 2026-11-03, with 390 stars as of 2026-10-27 and 55 forks as of 2026-11-01.
-The post-v3.0.0 commits added a toolscale plugin sweeping tool count, similarity, query cue, and filler density with a description-quality axis (#324 and #325, 2026-10-27) and run deletion with same-day card filename-collision protection (#326, 2026-10-28), then two CI-action bumps (#327 and #328, 2026-11-01) and a web UI feature showing each run type's measurements and linking the runs of one session (#329, 2026-11-03), all unreleased since v3.0.0.
+Active, six months old, and steadily released: created 2026-04-17, v3.0.0 published 2026-10-26 (also on PyPI, where the package now self-describes as Production/Stable), pushed 2026-11-09, with 390 stars as of 2026-10-27 and 55 forks as of 2026-11-01.
+The post-v3.0.0 commits added a toolscale plugin sweeping tool count, similarity, query cue, and filler density with a description-quality axis (#324 and #325, 2026-10-27) and run deletion with same-day card filename-collision protection (#326, 2026-10-28), then two CI-action bumps (#327 and #328, 2026-11-01), a web UI feature showing each run type's measurements and linking the runs of one session (#329, 2026-11-03), and a grader fix keeping TC-98 and TC-101 from scoring a warning as an assertion (#330, 2026-11-09), all unreleased since v3.0.0.
 The v3.0.0 major promoted the web UI to a headline feature (the optional local browser UI now launches and streams runs, and a new `tool-eval-bench card` command renders a session into a shareable SVG results card, with the `[web]` and `[card]` extras), added a long-context performance preset sweeping throughput to 128K tokens, corrected two scenario graders (TC-21 grades explicit field and rule IDs, TC-89 distinguishes asserted payment success from negation and future promises, so their scores are not comparable with 2.8 baselines), broadened endpoint compatibility (TandemLLM detection, HTTP retry and URL fixes), and shipped its release-gate at 9,779 tests and 93.79 percent branch-inclusive coverage, with SQLite schema upgraded 4 to 5 on first open and the scenario count unchanged at 69 plus 28 Hard Mode.
 
 <picture>
@@ -81,6 +81,7 @@ The disagreeable claim I will defend: this category spent September learning to 
 - 2026-10-30 - Volatile re-verification after the 2026-10-27/28 pushes (no release since v3.0.0): a toolscale plugin sweep of tool count, similarity, query cue, and filler density with a description-quality axis (#324, #325) and run deletion plus same-day card filename-collision protection (#326); pushed date moved to 2026-10-28.
 - 2026-11-01 - Volatile re-verification after the 2026-11-01 pushes (still no release since v3.0.0): two CI-action bumps (#327 download-artifact, #328 gh-action-pypi-publish); pushed date moved to 2026-11-01 and forks refreshed to 55.
 - 2026-11-05 - Volatile re-verification after the 2026-11-03 push (still no release since v3.0.0): a web UI feature showing each run type's measurements and linking the runs of one session (#329); pushed date moved to 2026-11-03.
+- 2026-11-11 - Volatile re-verification after the 2026-11-09 push (still no release since v3.0.0): the TC-98 and TC-101 graders no longer score a warning as an assertion (#330); pushed date moved to 2026-11-09.
 
 ## See also
 
@@ -92,7 +93,7 @@ The disagreeable claim I will defend: this category spent September learning to 
 
 ## References
 
-- https://github.com/SeraphimSerapis/tool-eval-bench - repository: MIT, created 2026-04-17, 390 stars, 55 forks, pushed 2026-11-03 (GitHub API, as of 2026-11-05)
+- https://github.com/SeraphimSerapis/tool-eval-bench - repository: MIT, created 2026-04-17, 390 stars, 55 forks, pushed 2026-11-09 (GitHub API, as of 2026-11-11)
 - https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/README.md - the 69-plus-28 scenario design, backend list including Strata, TabbyAPI, and TandemLLM, pass/partial/fail scoring, install paths, and the stated limitations (re-fetched 2026-10-27 via PyPI, the v3.0.0 README)
 - https://github.com/SeraphimSerapis/tool-eval-bench/releases/tag/v3.0.0 - the v3.0.0 release notes (2026-10-26): the web UI and card command, the long-context preset, the TC-21 and TC-89 grader corrections with the re-run-baselines warning, the 9,779-test gate at 93.79 percent branch coverage, and the SQLite schema upgrade (fetched 2026-10-27)
 - https://pypi.org/pypi/tool-eval-bench/json - the published package, 3.0.0 since 2026-10-26 (fetched 2026-10-27)

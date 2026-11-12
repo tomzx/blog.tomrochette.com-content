@@ -48,7 +48,7 @@ The polyglot leaderboard (225 Exercism exercises) is still published, but its ne
 - The leaderboard's age now matters; use it for relative history, not current model choice.
 - Install it isolated (pipx or the installer) or its Python dependencies will fight your project's.
 - Community energy has moved to the harness generation; expect fewer of the workflow innovations to arrive here first.
-- **Maintenance is the risk now**: no commits on the default branch since May 22, 2026, and no tagged release since v0.86.0 (August 2025), as of 2026-11-04, so budget for dependency drift and no fixes.
+- **Maintenance is the risk now**: no commits on the default branch since May 22, 2026, and no tagged release since v0.86.0 (August 2025), as of 2026-11-11, so budget for dependency drift and no fixes.
 
 ## Pricing
 
@@ -77,6 +77,7 @@ Not for long autonomous tasks, hands-off refactors, or teams that need an active
 - 2026-10-24 - Rotation re-verification, re-fetching every cited reference (all live) and confirming the stalled status unchanged: no default-branch commits since 2026-05-22 and v0.86.0 still the newest tag.
 - 2026-10-29 - Rotation re-verification, re-fetching every cited reference (all live) and confirming the stalled status unchanged: no default-branch commits since 2026-05-22 and v0.86.0 still the newest tag.
 - 2026-11-04 - Rotation re-verification, re-fetching every cited reference (all live), and corrected the leaderboard freshness claim: its newest results are the DeepSeek v3.2 entries dated October 3, 2025, not August 2025; the stalled status is unchanged (no default-branch commits since 2026-05-22, v0.86.0 still the newest tag).
+- 2026-11-11 - Rotation re-verification, re-fetching every cited reference (all live) and confirming the stalled status unchanged: no default-branch commits since 2026-05-22, v0.86.0 still the newest tag, and the leaderboard's newest results still the October 3, 2025 DeepSeek v3.2 entries.
 
 ## See also
 

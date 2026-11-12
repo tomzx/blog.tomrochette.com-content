@@ -1,7 +1,7 @@
 ---
 title: Atomic Agents
 created: 2026-10-07
-updated: 2026-11-01
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, python-framework]
 readability: 3
@@ -76,6 +76,7 @@ Not for anyone who can stay on one provider's native strict mode, and not for gu
 - 2026-10-25 - Volatile re-verification after the 2026-10-24 pushes (no release since v2.15.0): generic agent subclasses now resolve their schemas (#328), Instructor callbacks pause when agent hooks are disabled (#327), the quickstart defaults to MiniMax M3.1 Flash, and the docs cover generic schema resolution and hook pausing; pushed date moved to 2026-10-24.
 - 2026-10-30 - Volatile re-verification after the 2026-10-27 to 10-29 pushes (no release since v2.15.0): scalar enum and const constraints are preserved in MCP schemas (#300), an agent's mode is derived from its client with a mismatch warning (#293), and the quickstart's retired Anthropic and Groq model IDs were replaced (#331); pushed date moved to 2026-10-29.
 - 2026-11-01 - Rotation re-verification: all five cited URLs re-fetched and live, the repository still pushed 2026-10-29 with no new commit or release, the release train still topping out at v2.15.0 (2026-10-21), PyPI still at 2.15.0, and the documentation site current at 2.15.0 with the OpenTelemetry observability guide live; nothing material moved.
+- 2026-11-11 - Rotation re-verification: all five cited URLs re-fetched and live, the repository still pushed 2026-10-29 with no new commit or release, the release train still topping out at v2.15.0 (2026-10-21), PyPI still at 2.15.0, and the documentation site live; nothing material moved.
 
 ## See also
 
@@ -86,8 +87,8 @@ Not for anyone who can stay on one provider's native strict mode, and not for gu
 
 ## References
 
-- https://github.com/Eigenwise/atomic-agents - repository, MIT license, component model, and the Instructor-plus-Pydantic foundation (fetched 2026-10-22, re-fetched 2026-11-01)
-- https://api.github.com/repos/Eigenwise/atomic-agents - stars, created date, and push date for the as-of status (fetched 2026-10-22, re-fetched 2026-11-01)
-- https://eigenwise.github.io/atomic-agents/ - the framework documentation: schema-bounded components, provider integrations, the Atomic Assembler CLI, and example projects (fetched 200, 2026-10-17; re-fetched 2026-11-01 at 2.15.0)
-- https://pypi.org/pypi/atomic-agents/json - the published package version 2.15.0 (fetched 2026-10-22, re-fetched 2026-11-01)
-- https://api.github.com/repos/Eigenwise/atomic-agents/releases - the v2.12.1 through v2.15.0 releases of 2026-10-19 to 10-21 and the release cadence (fetched 2026-10-22, re-fetched 2026-11-01 with the train still topping out at v2.15.0)
+- https://github.com/Eigenwise/atomic-agents - repository, MIT license, component model, and the Instructor-plus-Pydantic foundation (fetched 2026-10-22, re-fetched 2026-11-11)
+- https://api.github.com/repos/Eigenwise/atomic-agents - stars, created date, and push date for the as-of status (fetched 2026-10-22, re-fetched 2026-11-11)
+- https://eigenwise.github.io/atomic-agents/ - the framework documentation: schema-bounded components, provider integrations, the Atomic Assembler CLI, and example projects (fetched 200, 2026-10-17; re-fetched 2026-11-11)
+- https://pypi.org/pypi/atomic-agents/json - the published package version 2.15.0 (fetched 2026-10-22, re-fetched 2026-11-11)
+- https://api.github.com/repos/Eigenwise/atomic-agents/releases - the v2.12.1 through v2.15.0 releases of 2026-10-19 to 10-21 and the release cadence (fetched 2026-10-22, re-fetched 2026-11-11 with the train still topping out at v2.15.0)

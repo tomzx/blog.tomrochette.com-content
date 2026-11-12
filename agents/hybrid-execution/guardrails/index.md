@@ -1,7 +1,7 @@
 ---
 title: Guardrails
 created: 2026-10-13
-updated: 2026-11-05
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, structured-outputs, validation, guardrails, python]
 readability: 3
@@ -23,7 +23,7 @@ It is made by Guardrails AI, the San Francisco company founded by Shreya Rajpal 
 
 ## Status
 
-Active but in transition: 7,524 stars, pushed 2026-11-05 (branch activity; the default branch's newest commit is still the August hub-retirement merge), release v0.11.0 (2026-08-14) the latest on a train that ran v0.9.x through v0.11.0 across 2026, and 101,253 PyPI downloads of the core package in the last month as of 2026-10-13 (GitHub and PyPI APIs, as of 2026-11-05; the vendor's own claim of 250,000-plus monthly downloads counts the separate validator packages too).
+Active but in transition: 7,524 stars, pushed 2026-11-11 (branch activity; the default branch's newest commit is still the August hub-retirement merge), release v0.11.0 (2026-08-14) the latest on a train that ran v0.9.x through v0.11.0 across 2026, and 101,253 PyPI downloads of the core package in the last month as of 2026-10-13 (re-read unchanged 2026-11-11) (GitHub and PyPI APIs, as of 2026-11-11; the vendor's own claim of 250,000-plus monthly downloads counts the separate validator packages too).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=guardrails-ai/guardrails&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ The disagreeable claim I will defend: the validator-hub kind is the most durable
 - 2026-10-30 - Volatile re-verification after the pushed-date move to 2026-10-29: the release train still tops out at v0.11.0 (2026-08-14) and no default-branch commit has landed since the August hub-retirement merge, so the push is branch activity; pushed date and as-of figures moved to 2026-10-29 and 2026-10-30.
 - 2026-11-01 - Volatile re-verification after the pushed-date move to 2026-10-31: still branch activity, the default branch's newest commit remaining the August hub-retirement merge, with the release train still topping out at v0.11.0 (2026-08-14); pushed date and as-of figures moved to 2026-10-31 and 2026-11-01.
 - 2026-11-05 - Volatile re-verification after the pushed-date move to 2026-11-05: still branch activity, the default branch's newest commit remaining the August hub-retirement merge (2026-08-26), with the release train still topping out at v0.11.0 (2026-08-14); pushed date and as-of figures moved to 2026-11-05.
+- 2026-11-11 - Volatile re-verification after the pushed-date move to 2026-11-11: still branch activity, the default branch's newest commit remaining the August hub-retirement merge (2026-08-26), the release train still topping out at v0.11.0 (2026-08-14), and the core package's monthly PyPI figure re-read unchanged at 101,253; pushed date and as-of figures moved to 2026-11-11.
 
 ## See also
 
@@ -83,7 +84,7 @@ The disagreeable claim I will defend: the validator-hub kind is the most durable
 
 ## References
 
-- https://github.com/guardrails-ai/guardrails - repository: Apache-2.0, created 2023-01-29, 7,524 stars, pushed 2026-11-05, branch activity with the default branch's newest commit still the August hub-retirement merge (GitHub API, as of 2026-11-05)
+- https://github.com/guardrails-ai/guardrails - repository: Apache-2.0, created 2023-01-29, 7,524 stars, pushed 2026-11-11, branch activity with the default branch's newest commit still the August hub-retirement merge (GitHub API, as of 2026-11-11)
 - https://raw.githubusercontent.com/guardrails-ai/guardrails/main/README.md - the two functions, Guard and OnFailAction composition, the for_pydantic generation path, the Guardrails Server, and the July 2026 migration notice
 - https://guardrailsai.com/hub - the Guardrails Hub: 65 validators with risk categories and infrastructure requirements (fetched 2026-10-13)
 - https://www.guardrailsai.com/docs - the documentation introduction: the Input/Output Guards and structured-data functions

@@ -24,7 +24,7 @@ Provider access follows the OpenCode approach: any of 75+ providers through the 
 ## Status
 
 **Active and pre-1.0.**
-The repository was created 2026-06-10 and lists about 13.7k stars and 1.4k forks under MIT as of 2026-10-15, with 1,462 commits and a push on 2026-11-05 (GitHub API, re-checked 2026-11-06).
+The repository was created 2026-06-10 and lists about 13.7k stars and 1.4k forks under MIT as of 2026-10-15, with 1,472 commits and a push on 2026-11-09 (GitHub API, re-checked 2026-11-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=XiaomiMiMo/MiMo-Code&type=date&theme=dark&legend=top-left" />
@@ -92,6 +92,7 @@ My disagreeable claim: the co-evolution story is mostly packaging, since the mat
 - 2026-10-24 - Rotation re-verification, re-fetching every cited reference (all live) and re-verifying the Token Plan and pay-as-you-go prices unchanged: refreshed the push date and noted GitHub's releases/latest marker now returning v0.1.15 while v0.1.14 remains the newest by publication time.
 - 2026-10-27 - Recorded the v0.1.16 release (published October 26), which retires the legacy Compose stack in favor of `/compose-next`, lazy-loads MCP tools, shrinks the npm package to a launcher, removes the experimental Orchestrator mode, and moves Claude imports and agent-CLI skills behind opt-in flags, and refreshed the push date to 2026-10-26.
 - 2026-11-01 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the commit count to 1,462 and the push date to 2026-10-31, confirmed v0.1.16 the newest release, and re-verified the Token Plan and pay-as-you-go prices unchanged.
+- 2026-11-11 - Rotation re-verification, re-fetching every cited reference (all live except thenewstack.io, which began serving a site-wide 403 bot wall covering its domain root even under a browser user agent, so the citation stands with the wall recorded per the 2026-11-08 ruling): refreshed the commit count to 1,472 and the push date to 2026-11-09, confirmed v0.1.16 the newest release, and re-verified the Token Plan tiers and pay-as-you-go prices unchanged.
 
 ## See also
 
@@ -105,8 +106,8 @@ My disagreeable claim: the co-evolution story is mostly packaging, since the mat
 
 - https://mimo.xiaomi.com/mimocode/start - official docs: surfaces, agents, skills, MCP, and the memory layer
 - https://github.com/XiaomiMiMo/MiMo-Code - repository, MIT license, OpenCode fork relationship, and feature README
-- https://api.github.com/repos/XiaomiMiMo/MiMo-Code - 13,629 stars, 1,428 forks, MIT, created 2026-06-10, pushed 2026-10-23, as of 2026-10-24
-- https://api.github.com/repos/XiaomiMiMo/MiMo-Code/releases/latest - returns v0.1.14 (published 2026-09-23), published a day after v0.1.15 (2026-09-22), as of 2026-10-04; the same call returned v0.1.15 on re-check 2026-10-24
+- https://api.github.com/repos/XiaomiMiMo/MiMo-Code - 13,629 stars, 1,428 forks, MIT, created 2026-06-10, pushed 2026-11-09, as of 2026-11-11
+- https://api.github.com/repos/XiaomiMiMo/MiMo-Code/releases/latest - returns v0.1.14 (published 2026-09-23), published a day after v0.1.15 (2026-09-22), as of 2026-10-04; the same call returned v0.1.15 on re-check 2026-10-24 and v0.1.16 (published 2026-10-26) on re-check 2026-11-11
 - https://mimo.xiaomi.com/blog/mimo-code-long-horizon - the design write-up: checkpoints, four-layer memory, `/goal`, Max Mode, and the vendor benchmarks
 - https://mimo.mi.com/docs/en-US/tokenplan/Token%20Plan/subscription - individual Token Plan tiers, Credits, discounts, and the V2.5 retirement and auto-route dates, re-verified 2026-10-11
 - https://mimo.mi.com/docs/en-US/price/pay-as-you-go - international and domestic per-token prices

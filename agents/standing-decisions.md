@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-11
+updated: 2026-11-12
 status: finished
 tags: [agents]
 readability: 0
@@ -253,6 +253,9 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-11-01 | orchestration | the 2026-11-01 topic-page ADE wave admits six members on the standalone-ADE and terminal-family lines with the missing-footprint signal stated per note | agtx, Cezar, Chorus, Happier, nodeterm, and termio admitted from the github.com/topics/ade and topics/parallel-agents sighting; coverage is zero (happier, nodeterm, agtx, termio) or launch-echo (Chorus 3 points, Cezar 15 points)
 - 2026-11-01 | orchestration | single-harness SDKs whose kernel runs its own agent loop with model routing are not multi-agent orchestration regardless of topic-page placement | loushang (zhnt/loushang, 1,939 stars) rejected, no parallel/multi-agent/worktree surface, team workflows a roadmap item
 - 2026-11-01 | orchestration | topic-page candidates below the wave's own zero-coverage floor (termio at 751 stars) reject on the below-band line while the tier question is open | Pane 595, vicoa 523, wmux 440, agentbox 336, mulmoterminal 256, operator-oss 208, rove 181, tlbx 116, agetor 110, and cleancode 108 rejected 2026-11-01; one tier ruling re-resolves the tail in a single pass
+- 2026-11-01 | orchestration | kyrolabs/awesome-ade is a credible dedicated mapped source for the category (25 stars, 18 member entries, actively pushed, curation depth above the admitted varun1505 bar) | wiring and its back-catalog walk are owner calls, queued 2026-11-01
+- 2026-11-01 | spec-driven-development | compressed spec plugins for one harness are SDD kind, but the caveman-family personal-bundle hold applies | cavekit (JuliusBrussee/cavekit, 1,156 stars) routed report-only from orchestration, frozen August 2026, development moved to caveman
+- 2026-11-01 | cross-category | portofcontext/pctx closed out of scope with no claiming category after four kind declin rove 181, tlbx 116, agetor 110, and cleancode 108 rejected 2026-11-01; one tier ruling re-resolves the tail in a single pass
 - 2026-11-01 | orchestration | kyrolabs/awesome-ade is a credible dedicated mapped source for the category (25 stars, 18 member entries, actively pushed, curation depth above the admitted varun1505 bar) | wiring and its back-catalog walk are owner calls, queued 2026-11-01
 - 2026-11-01 | spec-driven-development | compressed spec plugins for one harness are SDD kind, but the caveman-family personal-bundle hold applies | cavekit (JuliusBrussee/cavekit, 1,156 stars) routed report-only from orchestration, frozen August 2026, development moved to caveman
 - 2026-11-01 | cross-category | portofcontext/pctx closed out of scope with no claiming category after four kind declines (sandboxing, protocols, executions, hybrid-execution) | the Code-Mode tool-execution substrate question queued for the owner on the heretic precedent

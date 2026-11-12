@@ -1,7 +1,7 @@
 ---
 title: Valen
 created: 2026-10-13
-updated: 2026-11-05
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, decision-model, open-weights, multimodal]
 readability: 3
@@ -10,20 +10,22 @@ audience_notes: >
   Assumes you know what a Jev-family decision model is and what SFT means.
 ---
 
-Valen is an Apache-2.0 open-weights multimodal decision model in the Jev family: text, images, and video in, candidate probabilities out, shipped as 0.8B, 2B, and 4B checkpoints with the training recipe, general dataset, and evaluation sets published beside them.
+Valen is an Apache-2.0 open-weights multimodal decision model in the Jev family: text, images, and video in, candidate probabilities out, shipped as five sizes in the Valen-Decision-1.5 generation (0.8B, 2B, 4B, 9B, and 27B) after launching at 0.8B, 2B, and 4B, with the training recipe, general dataset, and evaluation sets published beside them.
 
 **Its angle is reproducibility: it is the first Jev-family member that ships the whole pipeline, training code (SFT plus experimental RLCD), a 100k general dataset, the VisualDecisionBench evaluation, and ONNX and GGUF exports, so the decision layer is something you retrain rather than download and trust.**
 
 ## What it is
 
 A training repository plus model family from an independent team, explicitly inspired by the Jev System One model lineage, with vision added: the models read screenshots, documents, and video frames, and emit decision probabilities for routing, gating, and classification calls.
-The Hugging Face org carries the three model cards, the training and evaluation datasets, and a live demo Space; ONNX and GGUF exports landed 2026-10-13, a documentation site with a web chat and a free hosted decision API followed on 2026-10-21, and by 2026-10-25/26 the export story matured into refreshed modular ONNX variants per size with Python, JavaScript, and C++ SDKs over ONNX Runtime (CPU, CUDA, and a browser WebGPU path) plus qualified F32/Q8_0 GGUFs in all three sizes that run on Valen's own custom CPU runtime, with unmodified llama.cpp and Ollama support explicitly not claimed.
+The v0.4.0 release (2026-11-10) opened the second generation, Valen-Decision-1.5, in five sizes: the decision head on Qwen3.5 backends at 0.8B, 2B, 4B, and 9B plus a 27B on Qwen3.8-27B, each with block-bidirectional attention and a bbox grounding head, native weights storing the backbone in BF16 and the decision and grounding heads in FP32, per-size ONNX variants, and per-size F32/Q8_0-plus-vision GGUFs.
+The Hugging Face org carries the model cards, the training and evaluation datasets, and a live demo Space; ONNX and GGUF exports landed 2026-10-13, a documentation site with a web chat and a free hosted decision API followed on 2026-10-21, and by 2026-10-25/26 the export story matured into refreshed modular ONNX variants per size with Python, JavaScript, and C++ SDKs over ONNX Runtime (CPU, CUDA, and a browser WebGPU path) plus qualified F32/Q8_0 GGUFs in all three launch sizes that run on Valen's own custom CPU runtime, with unmodified llama.cpp and Ollama support explicitly not claimed.
 The README reports results on VisualDecisionBench and a game-evaluation set, with the Jev lineage anchor (the typesafe.ai System One post) cited directly.
 
 ## Status
 
-Very young and actively shipping: 777 stars, 85 forks, and 1 open issue as of 2026-10-27, created 2026-09-23, pushed 2026-11-04, with the repository now under the team's own org (it transferred from Liuziyu77/Valen to Valen-Team/Valen in early November) and the weights, datasets, demo, and export builds all public.
+Very young and actively shipping: 777 stars, 85 forks, and 1 open issue as of 2026-10-27, created 2026-09-23, pushed 2026-11-11, with the repository now under the team's own org (it transferred from Liuziyu77/Valen to Valen-Team/Valen in early November) and the weights, datasets, demo, and export builds all public.
 The project tagged its first release on 2026-10-28: v0.3.0 adds a CHANGELOG and a release process, records the valen-sdk 0.2.0 (PyPI) and @valen-team/sdk 0.2.0 (npm) publications, and packages the qualified F32/Q8_0 GGUFs behind the Valen-patched llama.cpp and Ollama builds of a pinned gguf-runtime-v0.1.0 download, with video input available from a source build; the README has since moved to valen-sdk 0.3.0 (2026-10-29) and announced a Valen.llm() LLM comparison and a Valen agent skill, and a Jev-ToM community evaluation joined the documentation on 2026-10-27.
+On 2026-11-10 the v0.4.0 release shipped the Valen-Decision-1.5 generation in five sizes with the gguf-runtime-v0.2.0 prebuilt CPU runtime serving it: block attention, noul-rubric folding, text and image input, and bbox questions on image requests through `/v1/systemone` and `/v1/decisions`, with the 1.5 GGUFs (F32, Q8_0, and the vision file) in per-size `Valen-Decision-1.5-<size>-GGUF` repositories and the runtime 0.1.0 GGUFs of Valen-Decision-1.0 still loading.
 On 2026-10-24 the serving story consolidated into dual inference protocols: the SGLang and vLLM images and plugins expose both `/v1/systemone` and `/v1/decisions` from the same decision head.
 On 2026-10-25 and 10-26 the local-deployment story broadened: refreshed modular ONNX variants for all three sizes with Python (v0.2.0), JavaScript, and C++ SDKs over ONNX Runtime, and qualified F32/Q8_0 GGUFs running on Valen's custom CPU runtime with pinned, verified model downloads, where unmodified llama.cpp and Ollama support is explicitly not claimed.
 On 2026-10-21 the project shipped a documentation site with a web chat and a free hosted decision API requiring no key (api.valen-team.workers.dev, predicate, choice, and score questions; higher quotas by email approval), and on 2026-10-18 it released JevalKit (github.com/Valen-Team/JevalKit, Apache-2.0), an evaluation toolkit for Jev-like decision models with a Hugging Face leaderboard Space.
@@ -42,7 +44,7 @@ The 0-open-issue count reflects age, not maturity.
 
 - Full-pipeline openness: training code, data, benchmarks, and exported weights are all published, which is the preconditions for actually verifying a decision model.
 - The first-party JevalKit toolkit and its leaderboard give the family a reusable measurement harness instead of one-off benchmark scripts.
-- Vision extends the Jev pattern to the cases that need it (screenshots, documents, video frames) at 0.8B to 4B scale.
+- Vision extends the Jev pattern to the cases that need it (screenshots, documents, video frames) at 0.8B to 27B scale.
 - The experimental RLCD stage beyond SFT is published rather than hidden, warts included.
 - Export builds (ONNX, GGUF) make deployment boring at the small end: modular ONNX variants run through the Python, JavaScript, and C++ SDKs (CPU, CUDA, browser WebGPU), and the GGUFs run through the project's own CPU runtime, though the GGUF path is not stock llama.cpp.
 - The first-party Decision Index adapter means its scores on that board's protocol can be reproduced from the repository itself, not just asserted.
@@ -58,7 +60,7 @@ The 0-open-issue count reflects age, not maturity.
 
 ## Pricing
 
-Free to start in every mode: Apache-2.0 code and weights with no API dependency, a free hosted decision API requiring no key (api.valen-team.workers.dev, three question types, higher quotas by email approval), and local serving through vLLM or SGLang images and plugins at your own compute cost, which at 0.8B to 4B is small.
+Free to start in every mode: Apache-2.0 code and weights with no API dependency, a free hosted decision API requiring no key (api.valen-team.workers.dev, three question types, higher quotas by email approval), and local serving through vLLM or SGLang images and plugins at your own compute cost, which is small at 0.8B to 4B and grows with the 9B and 27B sizes.
 No paid tier exists as of 2026-10-24; the hosted endpoint's terms beyond the email-approval quota are unpublished.
 
 ## Compared to
@@ -84,6 +86,7 @@ Not for production routing without independent evaluation, or for anyone needing
 - 2026-10-30 - Volatile re-verification after the 2026-10-28/29 pushes: the project tagged its first release, v0.3.0 (2026-10-28, a CHANGELOG and release process, the valen-sdk 0.2.0 PyPI and 0.2.0 npm publications recorded, the qualified GGUFs packaged behind the Valen-patched llama.cpp and Ollama builds of a pinned gguf-runtime-v0.1.0), the README moved to valen-sdk 0.3.0 and announced a Valen.llm() LLM comparison and a Valen agent skill, and a Jev-ToM community evaluation joined the documentation (2026-10-27); pushed date moved to 2026-10-29.
 - 2026-10-31 - Out-of-rotation re-fetch at the drift signal: the Decision Index's 2026-10-29 regeneration (248 configurations) crowd-shifted the three Valen rows at unchanged scores (4B 132nd to 144th, 2B 177th to 193rd, 0.8B 194th to 212th); fetched and re-cited.
 - 2026-11-05 - Volatile re-verification after the 2026-11-04 push: the repository transferred from Liuziyu77/Valen to Valen-Team/Valen, and the merged #41 added the Valen-Decision-1.5 architecture generation (block-structured full attention and a grounding head as additive configuration options on the existing qwen backend, FSDP2 training, compiler-robustness fixes that skip rejected records and avoid per-length kernel selection and FlexAttention recompiles) with the READMEs renaming the project Valen-Decision; no release past v0.3.0 (2026-10-28); pushed date moved to 2026-11-04 and the star-history chart and citations re-pointed at the new owner.
+- 2026-11-11 - Volatile re-verification at the v0.4.0 release (2026-11-10): the Valen-Decision-1.5 generation shipped in five sizes (the decision head on Qwen3.5 at 0.8B, 2B, 4B, and 9B plus a 27B on Qwen3.8-27B, block-bidirectional attention and a bbox grounding head, native BF16-backbone/FP32-head weights, per-size ONNX variants, and per-size F32/Q8_0-plus-vision GGUFs), with the gguf-runtime-v0.2.0 prebuilt CPU runtime serving 1.5 over `/v1/systemone` and `/v1/decisions` (block attention, noul-rubric folding, text and image input, bbox questions) and the runtime-0.1.0 GGUFs of 1.0 still loading; pushed date moved to 2026-11-11.
 
 ## See also
 
@@ -95,13 +98,14 @@ Not for production routing without independent evaluation, or for anyone needing
 
 ## References
 
-- https://github.com/Valen-Team/Valen - repository (moved from Liuziyu77/Valen in early November 2026), Apache-2.0 license, stars, push activity, and the training-and-eval structure as of 2026-11-05 (pushed 2026-11-04; GitHub API re-fetched 2026-11-05 via the redirect)
-- https://github.com/Valen-Team/Valen/releases - the v0.3.0 release notes (2026-10-28): the CHANGELOG and release process, the SDK publications, and the pinned gguf-runtime-v0.1.0 packaging (re-fetched 2026-11-05, still the latest release)
+- https://github.com/Valen-Team/Valen - repository (moved from Liuziyu77/Valen in early November 2026), Apache-2.0 license, stars, push activity, and the training-and-eval structure as of 2026-11-11 (pushed 2026-11-11; GitHub API re-fetched 2026-11-11)
+- https://github.com/Valen-Team/Valen/releases - the v0.3.0 release notes (2026-10-28): the CHANGELOG and release process, the SDK publications, and the pinned gguf-runtime-v0.1.0 packaging (re-fetched 2026-11-05) and the v0.4.0 release notes (2026-11-10): the Valen-Decision-1.5 generation in five sizes with per-size ONNX and GGUF repositories (re-fetched 2026-11-11, now the latest release)
+- https://github.com/Valen-Team/Valen/releases/tag/gguf-runtime-v0.2.0 - the prebuilt Valen-patched llama-server CPU runtime 0.2.0 (2026-11-10) serving Valen-Decision-1.5 over `/v1/systemone` and `/v1/decisions` with bbox questions and noul-rubric folding (fetched 2026-11-11)
 - https://github.com/Valen-Team/JevalKit - the first-party evaluation toolkit: Apache-2.0, created 2026-10-16, unified model interfaces and prepared evaluation datasets (GitHub API, as of 2026-10-24)
 - https://huggingface.co/spaces/Valen-Team/JevalKit-Leaderboard - the JevalKit leaderboard Space (fetched 2026-10-24)
 - https://valen-team.github.io/ - the documentation site and web chat, with the free-API and quota statements (fetched 2026-10-24)
 - https://github.com/Liuziyu77/Valen/blob/main/evaluation/decision_index/README.md - the Decision Index adapter guide: official kit pinned at f5a6e4f, frozen suite 0.3, suite verification before model load (fetched 2026-10-17)
-- https://huggingface.co/Valen-Team - the Hugging Face org holding the three model cards and datasets
+- https://huggingface.co/Valen-Team - the Hugging Face org holding the model cards, datasets, and the per-size ONNX and GGUF repositories of the Valen-Decision-1.5 line (the fifteen 1.5 repositories fetched 2026-11-11)
 - https://huggingface.co/Valen-Team/Valen-4B - the flagship model card with usage and reported results
 - https://huggingface.co/datasets/Valen-Team/VisualDecisionBench - the published evaluation set behind the benchmark claims
 - https://huggingface.co/spaces/yuhangzang/Valen-Preview-0923 - the live demo Space

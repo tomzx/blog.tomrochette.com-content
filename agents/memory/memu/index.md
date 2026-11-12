@@ -1,7 +1,7 @@
 ---
 title: memU
 created: 2026-10-06
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, file-based, skills]
 readability: 3
@@ -34,7 +34,7 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&legend=top-left" />
 </picture>
 
-14,546 stars with the repository pushed 2026-11-05, created 2025-07-29, as of 2026-11-08 (GitHub API).
+14,546 stars with the repository pushed 2026-11-10, created 2025-07-29, as of 2026-11-11 (GitHub API).
 The Hacker News record is two threads: an 11-point Show HN in January 2026 (4 comments) and a 4-point story in July 2026 (0 comments), so the 14.5k stars rest on trend cycles and word of mouth, not public scrutiny.
 Development is active, with the README's host matrix and skill-extraction flow revised against current releases.
 The same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and Graphify.
@@ -42,6 +42,7 @@ Two retrieval fixes landed on 2026-10-28 pending release: memory hits are return
 A further pending commit (2026-10-29) lets retrieval configure backend-specific score cutoffs.
 Pending work since the last verification (2026-10-30 through 11-04): an OpenRouter API-base fix for SDK embeddings (2026-10-30), a Codex adapter upgrade (2026-11-03) that adds CLI installation and hook removal to the dedicated memu-codex path, and a Claude adapter commit (2026-11-04) adding CLI-managed memory hooks.
 The pending work extended (November 5): memory query quality and retrieval diagnostics improved, the HTTPS proxy compatibility fallback restored with the ambient proxy chosen by endpoint scheme, and SQLite hydration preserving scope fields.
+The pending work extended again (November 9 and 10): an asynchronous memory hooks installer for pi, memory query quality and retrieval diagnostics work, a contribution task catalog added to the community docs, a SQLite fix isolating columns across scope models, and nameless recall files rejected before their commits are acknowledged.
 The license file moved from LICENSE to LICENSE.txt, which the GitHub detector stopped recognizing (it now reads NOASSERTION) while the text stays the standard Apache-2.0 the README still declares.
 
 ## Strengths
@@ -95,6 +96,7 @@ Not for teams needing multi-user memory APIs, contractual hosting terms, or any 
 - 2026-11-03 - Recorded the pending work since the last verification (2026-10-30 through 11-03): the OpenRouter API-base fix for SDK embeddings and the Codex adapter upgrade adding CLI installation and hook removal to the dedicated memu-codex path; the push date refreshed to 2026-11-03.
 - 2026-11-04 - Recorded the pending Claude adapter commit (November 4) adding CLI-managed memory hooks; the push date refreshed to 2026-11-04.
 - 2026-11-08 - Recorded the pending November 5 work (memory query quality and retrieval diagnostics, the HTTPS proxy fallback restored with endpoint-scheme proxy selection, SQLite hydration preserving scope fields) and the license file's rename to LICENSE.txt, which the GitHub detector stopped recognizing while the text stays standard Apache-2.0; the push date refreshed to 2026-11-05.
+- 2026-11-11 - Recorded the pending November 9-10 work (an asynchronous memory hooks installer for pi, a contribution task catalog in the community docs, the SQLite scope-column isolation fix, and nameless recall files rejected before acknowledgment); the push date refreshed to 2026-11-10.
 
 ## See also
 

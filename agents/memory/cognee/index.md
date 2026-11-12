@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-11-07
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-11-06, and v1.6.7 (November 6) the latest stable release with PyPI in sync at 1.6.7.
+About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-11-11 from side branches with the default branch quiet since the v1.6.7 release, and v1.6.7 (November 6) the latest stable release with PyPI in sync at 1.6.7.
 The README now carries a BEAM benchmark table with self-run scores: 0.79 at 100K tokens under fixed hybrid retrieval and 0.67 as an exploratory result at 10M tokens with question-type routing, each with stated methodology, limits, and an acknowledged reproduction gap for the distributed 10M ingestion, which moves the project from comparisons-only to published self-run numbers.
 The same README fronts a Postgres path that runs the whole memory layer on one Postgres instance as a demo feature (the production version is a licensed product).
 
@@ -99,6 +99,7 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 - 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repository, README, v1.6.3 release notes, site, pricing, docs, PyPI, both Show HN threads), pricing unchanged (Free $0, Standard $1.00 per 1M plus $5 per workspace, Enterprise BYOC), and recorded the README's new BEAM self-run benchmark table (0.79 at 100K tokens, 0.67 exploratory at 10M, reproduction gap acknowledged) and the Postgres single-instance demo path; the integration list now includes OpenClaw and Hermes Agent; the push date refreshed to 2026-10-29.
 - 2026-10-30 - Recorded v1.6.6 (October 29, stable cut, PyPI in sync): the durable fact conflict-resolution API and default-on conflict review land in the open engine, with correct choice retirement, re-embedding-free vector copying between stores, and atomic Redis deletions with surfaced permission and KMS errors.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live (repository, README, v1.6.3 release notes, site, pricing, docs, PyPI, both Show HN threads), pricing unchanged (Free $0, Standard $1.00 per 1M plus $5 per workspace, Enterprise BYOC), and recorded v1.6.7 (November 6, PyPI in sync): ingestion refuses raw database connection strings and HTTP server file paths by default (breaking), scoped searches return correct LLM-safe results, and query scoring batches across PGVector, Turso, and LanceDB; the push date refreshed to 2026-11-06.
+- 2026-11-11 - Volatile re-verification: the 2026-11-11 pushed_at movement resolved to side-branch pushes with the default branch quiet since the v1.6.7 release; no facts changed.
 
 ## See also
 

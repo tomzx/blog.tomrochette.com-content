@@ -1,7 +1,7 @@
 ---
 title: HermesGate
 created: 2026-10-16
-updated: 2026-11-07
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, ci, quality-gate, deterministic]
 readability: 3
@@ -72,6 +72,7 @@ Not as a trusted dependency today: with three stars and no independent validatio
 - 2026-10-16 - Created from the awesome-agent-observability scan, admitted as the category's first receipt-bound completion gate.
 - 2026-10-23 - Updated the provenance record: the hermes-labs-ai org repository now redirects to roli-lpci/hermes-gate, collapsing the twin-repository arrangement noted at creation; every cited URL re-fetched in rotation, all live.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched and live, the org redirect and the vendor catalog's continued omission of HermesGate both re-confirmed, and the activity line corrected, which had read the repository-level push date (2026-10-29, a dependabot side-branch bump) as default-branch movement, with the unreleased v0.1.8 preparation recorded.
+- 2026-11-11 - Rotation re-verification: every cited URL re-fetched and live, and everything re-confirmed unchanged (the org path still redirecting to roli-lpci/hermes-gate, PyPI still 0.1.7, the changelog's Unreleased block still holding the prepared v0.1.8 material, the vendor catalog still omitting HermesGate).
 
 ## See also
 

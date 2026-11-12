@@ -1,7 +1,7 @@
 ---
 title: SWE-agent
 created: 2026-10-28
-updated: 2026-11-04
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, swebench, research, terminal]
 readability: 3
@@ -21,7 +21,7 @@ It is built and maintained by researchers from Princeton University and Stanford
 
 ## Status
 
-Maintenance-only by its own declaration, and still the category's most cited ancestor: 20,663 stars on a repository created April 2, 2024, with its default branch last committed July 16, 2026 (the repository-level pushed date moves on side branches, GitHub API, as of 2026-11-04).
+Maintenance-only by its own declaration, and still the category's most cited ancestor: 20,663 stars on a repository created April 2, 2024, with its default branch last committed July 16, 2026 (the repository-level pushed date moves on side branches, 2026-11-09 the latest, GitHub API, as of 2026-11-12).
 The newest tagged release is v1.1.0 (May 22, 2025, a training-trajectories drop), and no release has followed in seventeen months, while the docs site and README now carry a standing banner: most development effort moved to mini-swe-agent, which "has superseded SWE-agent", and "SWE-agent is now in maintenance-only mode".
 The April 2, 2024 launch thread drew 307 points and 143 comments on Hacker News, and the paper's 12.5 percent SWE-bench pass@1 was the open-source state of the art at publication.
 

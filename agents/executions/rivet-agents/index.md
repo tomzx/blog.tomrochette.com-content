@@ -1,7 +1,7 @@
 ---
 title: Rivet Agents
 created: 2026-10-13
-updated: 2026-11-07
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, durable-execution, scheduling, actor-model]
 readability: 3
@@ -24,7 +24,7 @@ It is built by Rivet Gaming, Inc. (YC, a16z Speedrun), the company behind the ri
 ## Status
 
 **Active, young, and moving fast.**
-1,604 stars as of 2026-10-13, 139 forks and 90 open issues and pull requests as of 2026-11-07 (GitHub API), created 2026-01-25 and pushed 2026-11-06 UTC.
+1,604 stars as of 2026-10-13, 141 forks and 93 open issues and pull requests as of 2026-11-11 (GitHub API), created 2026-01-25 and pushed 2026-11-08 UTC.
 The release train reached a stable v0.5.0 only on 2026-10-07 after release candidates that began in March, with v0.5.1 through v0.5.3 following within a week (v0.5.3 on 2026-10-14), v0.5.4 landing 2026-10-27, v0.5.5 landing 2026-11-02, and v0.5.6 landing 2026-11-05 with Pi 1.5 support, stable RivetKit 3, and OpenTelemetry tracing for Pi Durable, while the company homepage now leads with Introducing Rivet 3.0 Preview and pitches the whole platform as the orchestrator for agentic workloads (as of 2026-10-27).
 The community footprint sits under the prior names: the Sandbox Agent SDK Show HN drew 41 points in January 2026, the Gigacode OpenCode-UI experiment 27 points in February, and SQLite for Rivet Actors 45 points, but no dedicated launch thread exists for the Agents product itself as of 2026-10-27, and a product line that has already carried the Sandbox Agent SDK, agentOS, and Actors names, and now a 3.0 banner, carries identity churn a reader should price in.
 
@@ -83,6 +83,7 @@ My disagreeable claim: for the durable-agent use case this is a better fit than 
 - 2026-11-01 - Refreshed the repository counters (137 forks, 87 open issues and pull requests as of 2026-11-01); the push date (2026-10-29 UTC) unchanged.
 - 2026-11-05 - Recorded the v0.5.5 release (2026-11-02, Pi package exports and fixes plus a Sandbox Agent terminal-output fix) and refreshed the repository counters (138 forks, 89 open issues and pull requests, pushed 2026-11-02 UTC).
 - 2026-11-07 - Recorded the v0.5.6 release (2026-11-05, Pi 1.5 support, stable RivetKit 3, and OpenTelemetry tracing for Pi Durable) and refreshed the repository counters (139 forks, 90 open issues and pull requests, pushed 2026-11-06 UTC).
+- 2026-11-11 - Refreshed the repository counters (139 to 141 forks, 90 to 93 open issues and pull requests, pushed 2026-11-08 UTC); v0.5.6 re-confirmed still the newest release.
 
 ## See also
 
@@ -94,7 +95,7 @@ My disagreeable claim: for the durable-agent use case this is a better fit than 
 ## References
 
 - https://github.com/rivet-dev/agents - repository, 1,604 stars, Apache-2.0, monorepo layout, one version line, as of 2026-10-13
-- https://api.github.com/repos/rivet-dev/agents - exact counters (1,604 stars pinned at their 2026-10-13 fetch, 139 forks, 90 open issues and pull requests, pushed 2026-11-06 UTC, created 2026-01-25; re-verified 2026-11-07) and the v0.5.6 release (2026-11-05, re-fetched 2026-11-07)
+- https://api.github.com/repos/rivet-dev/agents - exact counters (1,604 stars pinned at their 2026-10-13 fetch, 141 forks, 93 open issues and pull requests, pushed 2026-11-08 UTC, created 2026-01-25; re-verified 2026-11-11) and the v0.5.6 release (2026-11-05, re-fetched 2026-11-11)
 - https://rivet.dev/agents/docs - the actor-per-agent model, SQLite files, sandbox adapters, harness and model choice, and the company backing (re-fetched 2026-10-27)
 - https://rivet.dev/agents/docs/schedules/ - cron and one-shot scheduling that continues one conversation (re-fetched 2026-10-27)
 - https://rivet.dev/agents/docs/pi/ - Pi Durable beta status and the documented limitations list (critical source, re-fetched 2026-10-27)

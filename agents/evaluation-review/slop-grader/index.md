@@ -1,7 +1,7 @@
 ---
 title: slop-grader
 created: 2026-10-21
-updated: 2026-10-30
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, jev, decision-models, linting, writing-quality]
 readability: 3
@@ -26,7 +26,7 @@ Five built-in rulesets ship (no-ai-slop, article-scores, tech-docs, and English 
 ## Status
 
 New and shipping fast: 35 stars and 2 forks as of 2026-10-21, created 2026-09-20, pushed 2026-10-29, with eighteen GitHub releases in six weeks and npm at 0.5.0 (2026-10-29, which adds standard-input reading with `-`) after sixteen published versions.
-Adoption is early but measurable: 2,727 npm downloads in the first month, 180 in the week of 2026-10-12 to 2026-10-18.
+Adoption is early but measurable: 2,727 npm downloads in the first month, 180 in the week of 2026-10-12 to 2026-10-18, and 650 over the trailing month ending 2026-11-09, a rolling-window figure with no release behind it since 0.5.0.
 **The independent footprint is one Show HN thread (2026-09-21, 3 points, zero comments) and no third-party coverage anywhere, so every performance claim on record comes from the author's own README.**
 
 <picture>
@@ -79,6 +79,7 @@ Not as a validated quality gate yet: one month old, one maintainer, and no indep
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-30 - Recorded the v0.5.0 release (2026-10-29, standard-input reading with `-`) and refreshed the activity line.
+- 2026-11-11 - Rotation re-verification: every cited URL re-fetched and live, the repository re-confirmed unchanged (pushed 2026-10-29, npm still 0.5.0 with sixteen versions, the Show HN thread re-confirmed at 3 points), and the trailing-month npm download figure refreshed with a fresh as-of date.
 
 ## See also
 

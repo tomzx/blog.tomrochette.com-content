@@ -1,7 +1,7 @@
 ---
 title: deepeval
 created: 2026-08-30
-updated: 2026-11-08
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, llm-as-judge, testing, open-source]
 readability: 3
@@ -31,7 +31,7 @@ The volume leader of Python eval frameworks: 18,830 stars, 2,062 forks, 723 open
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=confident-ai/deepeval&type=date&legend=top-left" />
 </picture>
 
-Created 2023-08-10, pushed 2026-11-07 (TypeScript dist-cleanup build fixes merging that day), Python 4.3.3 released 2026-11-04 and still newest on PyPI as of 2026-11-08 (4.3.2 shipped 2026-10-27, 4.3.1 on 2026-10-16, with 4.3.0 on 2026-10-15 and 4.2.9 the same day), about 2.6 million PyPI downloads a month as of 2026-10-26.
+Created 2023-08-10, pushed 2026-11-10 (three merged pull requests: turn API metadata, a voice turn-start-time fix, and a G-Eval rubric cache-key fix), Python 4.3.3 released 2026-11-04 and still newest on PyPI as of 2026-11-11 (4.3.2 shipped 2026-10-27, 4.3.1 on 2026-10-16, with 4.3.0 on 2026-10-15 and 4.2.9 the same day), about 2.6 million PyPI downloads a month as of 2026-10-26.
 **Three years old and commercially backed, it is the most mature column in this category, and the 717-item backlog reads as heavy usage rather than neglect.**
 
 ## Strengths
@@ -85,6 +85,7 @@ Not for teams that cannot tolerate LLM-judge variance, or that need score parity
 - 2026-10-19 - Recorded the Python 4.3.1 release (2026-10-16) and refreshed the activity line.
 - 2026-10-28 - Recorded the Python 4.3.2 release (2026-10-27) and refreshed the activity line.
 - 2026-11-05 - Recorded the Python 4.3.3 release (2026-11-04, published to PyPI ahead of the GitHub release tags, which still name python-v4.2.4 as newest) and refreshed the activity line.
+- 2026-11-11 - Refreshed the activity line: the default branch moved 2026-11-10 with three merged pull requests (turn API metadata, a voice turn-start-time fix, a G-Eval rubric cache-key fix), Python 4.3.3 still newest on PyPI.
 
 ## See also
 

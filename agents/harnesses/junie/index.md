@@ -88,6 +88,7 @@ Not for anyone who needs an open client or a large community ecosystem today.
 - 2026-10-26 - Recorded Junie Lite (announced October 2, 2026) as the named free tier in the Pricing section, replacing the 5-credit free-start wording, with the AI Pro and AI Ultimate prices re-verified unchanged; every cited URL re-fetched in the rotation pass.
 - 2026-10-31 - Rotation re-verification, every cited reference live: the Junie Lite free tier and the AI Pro ($8.33) and AI Ultimate ($25) prices re-verified unchanged on the product pages, and the repository's release train still rolling (builds published October 30-31).
 - 2026-11-07 - Recorded the release train running on: eight installer builds published November 6 alone, through 4040.1, all without release notes attached.
+- 2026-11-11 - Recorded the installer train continuing through 4078.1 (published November 10), again without release notes attached.
 
 ## See also
 

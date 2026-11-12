@@ -1,7 +1,7 @@
 ---
 title: Claude Code routines
 created: 2026-10-06
-updated: 2026-11-05
+updated: 2026-11-11
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, claude-code, scheduling]
 readability: 3
@@ -68,6 +68,7 @@ My disagreeable claim: shipping every account connector into an unattended run b
 - 2026-10-25 - Fully re-verified in rotation with every cited URL re-fetched: recorded the docs' rename to scheduled tasks (routines kept in the URL, CLI alias, and API), added issue events to the GitHub trigger list, re-grounded the autonomy caution on the current auto-mode wording (classifier decisions, prompts on ask rules and repeated blocks), and replaced the stale v2.1.213 trust-model reference, which left the current page, with the version gates it now carries (v2.1.211, v2.1.225, v2.1.227, v2.1.268); the caps, the 72-hour GitHub-disconnect auto-off, the fire-payload wrapping, the optional beta header, and the 720-point launch thread all re-confirmed.
 - 2026-11-01 - Fully re-verified in rotation with every cited URL re-fetched: the scheduled-tasks rename, the three trigger kinds with issue events and filters, the auto-mode autonomy default, the connector default, the caps, the 72-hour auto-off, the fire-payload wrapping, the optional beta header (re-confirmed on the platform's fire reference), the green-status semantics from the independent post-mortem, and the 720-point launch thread all re-confirmed; added Ultra to the plan list (docs and launch announcement both carry it) and dropped the v2.1.211 gate, which left the live docs page.
 - 2026-11-05 - Corrected the three sibling-characterization claims against Copilot automations' new personal-versus-shared types (the creator-private caution, the comparison, and the See also line), re-verified out of rotation on the automations docs signal; the routines-specific claims held from the 2026-11-01 full re-verification.
+- 2026-11-11 - Fully re-verified in rotation with every cited URL re-fetched: the scheduled-tasks rename, the research-preview status, the three trigger kinds with issue events and filters, the auto-mode autonomy default, the all-connectors default with write scopes, the creator-private storage and server-side org toggle, the caps (100 scheduled runs per account-hour, 30 fires per routine-hour, GitHub events dropped past the caps, no overage), the 72-hour GitHub-disconnect auto-off, the hourly floor and the 9:07 late-start advice, the fire-payload wrapping, the optional dated beta header (re-confirmed on the platform fire reference), the green-status semantics from the independent post-mortem, and the 720-point launch thread all re-confirmed unchanged.
 
 ## See also
 
@@ -79,8 +80,8 @@ My disagreeable claim: shipping every account connector into an unattended run b
 
 ## References
 
-- https://code.claude.com/docs/en/routines - triggers, autonomy model, limits, plan availability, and the scheduled-tasks rename (re-fetched 2026-11-01)
-- https://claude.com/resources/articles/introducing-routines-in-claude-code - the April 2026 announcement and launch limits (the former claude.com/blog path now redirects here; re-fetched 2026-11-01)
-- https://news.ycombinator.com/item?id=47768133 - the 720-point launch discussion (re-fetched 2026-11-01)
-- https://platform.claude.com/docs/en/api/claude-code/routines-fire - the /fire endpoint contract, token scoping, and rate limits (re-fetched 2026-11-01; the beta header optional there)
-- https://runbook.scosovan.com/claude-code-routine-reported-success-did-nothing/ - independent post-mortem on silent failures and the connector default (critical source, re-fetched 2026-11-01)
+- https://code.claude.com/docs/en/routines - triggers, autonomy model, limits, plan availability, and the scheduled-tasks rename (re-fetched 2026-11-11)
+- https://claude.com/resources/articles/introducing-routines-in-claude-code - the April 2026 announcement and launch limits (the former claude.com/blog path now redirects here; re-fetched 2026-11-11)
+- https://news.ycombinator.com/item?id=47768133 - the 720-point launch discussion (re-fetched 2026-11-11)
+- https://platform.claude.com/docs/en/api/claude-code/routines-fire - the /fire endpoint contract, token scoping, and rate limits (re-fetched 2026-11-11; the beta header optional there)
+- https://runbook.scosovan.com/claude-code-routine-reported-success-did-nothing/ - independent post-mortem on silent failures and the connector default (critical source, re-fetched 2026-11-11)
