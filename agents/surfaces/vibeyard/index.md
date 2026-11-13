@@ -1,7 +1,7 @@
 ---
 title: Vibeyard
 created: 2026-10-10
-updated: 2026-11-03
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, session-management, open-source]
 readability: 3
@@ -73,6 +73,7 @@ Not for anyone who needs a currently shipping cockpit (OpenChamber's train is mo
 - 2026-10-20 - Rotation re-verification, all cited URLs re-fetched live: the quiet stands (repository pushed 2026-09-03, release train still ending at v0.3.8, the README's coming-soon providers still unshipped, and the Show HN thread still the only footprint at 2 points and 0 comments); the quiet window reads seven weeks.
 - 2026-10-31 - Rotation re-verification, all cited URLs re-fetched live: the quiet stands (repository still pushed 2026-09-03 and not archived, the release train still ending at v0.3.8, the README unchanged with the coming-soon providers still unshipped, and the HN search still returning the one 2-point Show HN); the quiet window reads about eight weeks.
 - 2026-11-03 - Volatile re-verification on the pushed signal, all cited URLs re-fetched live: the quiet broke on the code side, the repository pushed 2026-11-01 with the unreleased vibeyard-ctl external agent-control feature (pull request #169 closing issue #168), while the release train still ends at v0.3.8 (2026-09-03) and the README still lists the coming-soon providers; the status, cautions, and bottom line rewritten around the quiet train and the unshipped work.
+- 2026-11-13 - Rotation re-verification, all cited URLs re-fetched live: the quiet stands, the repository still pushed 2026-11-01 and not archived with no release after v0.3.8 (2026-09-03, about ten weeks), the README unchanged with the coming-soon providers still unshipped and vibeyard-ctl still unreleased, and the HN search still returning the one 2-point Show HN.
 
 ## See also
 

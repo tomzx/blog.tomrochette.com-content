@@ -1,7 +1,7 @@
 ---
 title: AutoDev
 created: 2026-10-13
-updated: 2026-11-06
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, ide-plugin, jetbrains, vscode, kotlin]
 readability: 3
@@ -25,7 +25,7 @@ AutoDev 2.0, the stable predecessor on the autodev2 branch, is the Sketch IDE-ca
 
 Established but slowing: 4,557 stars, 500 forks, and 4 open issues as of 2026-10-13, pushed 2026-09-25, created April 2023.
 The commit record shows a June 2026 train (IDEA plugin 0.4.2 on 2026-06-19) and a single commit on 2026-09-25, and Xiuper's releases are alpha-only (compose-v3.0.0-alpha5, February 2026).
-Distribution traction is small: the Xiuper JetBrains plugin shows 688 downloads and the stable Sketch plugin 4,574 as of 2026-11-06, and the VS Code extension about 5,544 installs (last updated December 2025, as of 2026-11-06).
+Distribution traction is small: the Xiuper JetBrains plugin shows 700 downloads and the stable Sketch plugin 4,613 as of 2026-11-13, and the VS Code extension about 5,547 installs (last updated December 2025, as of 2026-11-13).
 The repository moved from the unit-mesh organization to the author's personal account (the old path redirects), and the docs site still links the old location.
 
 <picture>
@@ -72,6 +72,7 @@ Not for anyone needing a large community, vendor accountability, or a non-alpha 
 - 2026-10-24 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the JetBrains download counters (Xiuper 660, Sketch 4,529) and confirmed the single-2026-09-25 commit cadence and alpha-only release record unchanged.
 - 2026-10-29 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the JetBrains download counters (Xiuper 671, Sketch 4,548), the VS Code install count (about 5,543), and confirmed the single-2026-09-25 commit cadence and alpha-only release record unchanged.
 - 2026-11-06 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the JetBrains download counters (Xiuper 688, Sketch 4,574) and the VS Code install count (about 5,544), and confirmed the single-2026-09-25 commit cadence, the alpha-only release record, the org-to-personal redirect, and the Microsoft-name-collision HN record unchanged.
+- 2026-11-13 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the JetBrains download counters (Xiuper 700, Sketch 4,613) and the VS Code install count (about 5,547), and confirmed the repository metadata, single-2026-09-25 commit cadence, alpha-only release record, org-to-personal redirect, and Microsoft-name-collision HN record unchanged.
 
 ## See also
 
@@ -90,8 +91,8 @@ Not for anyone needing a large community, vendor accountability, or a non-alpha 
 - https://api.github.com/repos/phodal/auto-dev/releases?per_page=6 - the alpha-only Xiuper release record (compose-v3.0.0-alpha5, 2026-02-07)
 - https://ide.unitmesh.cc/ - the project site: AutoDev positioning, AI-friendly architecture, and Unit Mesh community footer
 - https://ide.unitmesh.cc/en/intro - the English docs: supported IDEs, AutoDev 2.0 Sketch, feature overview, and DevIns agent language
-- https://plugins.jetbrains.com/api/plugins/29223 - the Xiuper IDEA plugin record: 688 downloads as of 2026-11-06
-- https://plugins.jetbrains.com/api/plugins/26988 - the stable Sketch IDEA plugin record: 4,574 downloads as of 2026-11-06
-- https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - the VS Code extension record: about 5,544 installs, last updated 2025-12-14 (as of 2026-11-06)
+- https://plugins.jetbrains.com/api/plugins/29223 - the Xiuper IDEA plugin record: 700 downloads as of 2026-11-13
+- https://plugins.jetbrains.com/api/plugins/26988 - the stable Sketch IDEA plugin record: 4,613 downloads as of 2026-11-13
+- https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - the VS Code extension record: about 5,547 installs, last updated 2025-12-14 (as of 2026-11-13)
 - https://api.github.com/repos/phodal/auto-dev/contributors?per_page=5 - the contributor table with phodal at 7,505 of roughly 7,620 contributions
 - https://hn.algolia.com/api/v1/search?query=%22autodev%22&tags=story&hitsPerPage=10 - the name-collision evidence: every AutoDev HN thread concerns Microsoft's framework, none this project

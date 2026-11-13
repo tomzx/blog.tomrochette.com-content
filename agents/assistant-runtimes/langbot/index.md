@@ -1,7 +1,7 @@
 ---
 title: LangBot
 created: 2026-10-30
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, chat-channels, plugins, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Created 2022-12-07, one day before AstrBot, and now maintained under the langbot
 
 ## Status
 
-Active and steady: 18,601 stars and 1,676 forks as of 2026-10-30, created 2022-12-07, 132 open issues with the last push on 2026-11-11 as of 2026-11-11, Apache-2.0.
+Active and steady: 18,601 stars and 1,676 forks as of 2026-10-30, created 2022-12-07, 140 open issues with the last push on 2026-11-13 as of 2026-11-13, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langbot-app/LangBot&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Active and steady: 18,601 stars and 1,676 forks as of 2026-10-30, created 2022-1
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=langbot-app/LangBot&type=date&legend=top-left" />
 </picture>
 
-The v4.11 line is current: v4.11.0 shipped 2026-10-14 after two release candidates, v4.11.1, v4.11.2, and v4.11.3 followed on 2026-10-20, 2026-10-22, and 2026-10-23, v4.11.4 landed 2026-10-29 on GitHub and PyPI the same day, with PyPI classifying the package Production/Stable, and v4.11.5 followed on 2026-11-10 (the Workspace and execution APIs opened to plugins and agents, speech models and cross-platform interactive cards added, and the way Runners receive media reworked).
+The v4.11 line is current: v4.11.0 shipped 2026-10-14 after two release candidates, v4.11.1, v4.11.2, and v4.11.3 followed on 2026-10-20, 2026-10-22, and 2026-10-23, v4.11.4 landed 2026-10-29 on GitHub and PyPI the same day, with PyPI classifying the package Production/Stable, and v4.11.5 followed on 2026-11-10 (the Workspace and execution APIs opened to plugins and agents, speech models and cross-platform interactive cards added, and the way Runners receive media reworked), and v4.11.6 was published and withdrawn on 2026-11-11 (it rejected concurrent token counts on a shared model, failing simultaneous LocalAgent conversations), with v4.11.7 following the same day as the 4.11.x line's final stable release, a fixes-only train that reverts the concurrency regression, fixes Windows plugin and tokenizer handling, and moves knowledge-base ingestion off the event loop.
 **The scrutiny record is the exact AstrBot and Octop profile: an HN search returns only an unrelated 2024 namesake translation demo, so the eighteen thousand stars and the production claims have been vetted in Chinese-language channels and a Discord server you are probably not reading.**
 
 ## Strengths
@@ -72,6 +72,7 @@ Not for a single player who wants a personal assistant, or anyone who needs inde
 - 2026-10-30 - Created from the dedicated-source scan as the category's sixteenth member, recording the Apache-2.0 IM-platform platform with its production-guardrails bet and the zero-English-scrutiny signal.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, the PyPI registry, the docs features page, the Cloud console, the HN footprint search), v4.11.4 (2026-10-29) confirmed still the latest release with the Production/Stable classification current, and the zero-English-scrutiny record intact (only unrelated namesakes on HN); the release narrative corrected to include the skipped v4.11.3 (2026-10-23), with refreshed adoption numbers.
 - 2026-11-11 - Recorded v4.11.5 (2026-11-10: the Workspace and execution APIs opened to plugins and agents, speech models and cross-platform interactive cards, and a rework of how Runners receive media), with refreshed adoption numbers.
+- 2026-11-13 - Recorded v4.11.6 published and withdrawn the same day (concurrent token counts on a shared model rejected, failing simultaneous LocalAgent conversations) and its same-day replacement v4.11.7 (the 4.11.x line's final stable release, fixes only), with refreshed adoption numbers.
 
 ## See also
 
@@ -85,7 +86,7 @@ Not for a single player who wants a personal assistant, or anyone who needs inde
 - https://github.com/langbot-app/LangBot - repository, positioning, platform and integration lists
 - https://raw.githubusercontent.com/langbot-app/LangBot/HEAD/README.md - capabilities, quick-start paths, plugin-market split
 - https://api.github.com/repos/langbot-app/LangBot - stars, forks, issues, license, and dates as of 2026-10-30
-- https://api.github.com/repos/langbot-app/LangBot/releases?per_page=4 - the v4.11 line from v4.11.0 (2026-10-14) through v4.11.4 (2026-10-29) to v4.11.5 (2026-11-10)
+- https://api.github.com/repos/langbot-app/LangBot/releases?per_page=4 - the v4.11 line from v4.11.0 (2026-10-14) through v4.11.4 (2026-10-29) and v4.11.5 (2026-11-10) to the withdrawn v4.11.6 and its replacement v4.11.7 (both 2026-11-11)
 - https://pypi.org/pypi/langbot/json - the Production/Stable classification, the Python floor, and the PyPI release dates
 - https://langbot.app/docs/en/insight/features - the feature documentation entry
 - https://space.langbot.app/cloud - the LangBot Cloud hosted path, no public price in the page markup

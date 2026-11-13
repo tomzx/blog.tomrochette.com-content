@@ -1,7 +1,7 @@
 ---
 title: Parallel Code
 created: 2026-10-23
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, worktrees, desktop, multi-harness, electron]
 readability: 3
@@ -24,7 +24,7 @@ Around that loop it piles on review aids: a built-in diff viewer with inline com
 
 ## Status
 
-Active and solo-led: 1,060 stars, 144 forks, 23 contributors, and 48 open issues and pull requests on a repository created 2026-02-18, pushed 2026-11-11, with v5.1.0 (2026-10-29) the latest release after v5.0.0 (2026-10-25), the first after the v4 line's v4.0.0 (2026-10-10), v5.0.0 carrying task briefs with confidence ratings replacing Steps, a per-project Markdown Kanban board over live tasks and GitHub issues, background verify with a single readiness line, and Android quick replies back behind a button (GitHub API, releases, as of 2026-11-12).
+Active and solo-led: 1,060 stars, 144 forks, 23 contributors, and 48 open issues and pull requests on a repository created 2026-02-18, pushed 2026-11-12, with v5.1.0 (2026-10-29) the latest release after v5.0.0 (2026-10-25), the first after the v4 line's v4.0.0 (2026-10-10), v5.0.0 carrying task briefs with confidence ratings replacing Steps, a per-project Markdown Kanban board over live tasks and GitHub issues, background verify with a single readiness line, and Android quick replies back behind a button (GitHub API, releases, as of 2026-11-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=johannesjo/parallel-code&type=date&theme=dark&legend=top-left" />
@@ -68,12 +68,14 @@ Not for Windows users, not for teams that need multi-maintainer durability, and 
 
 ## Changes
 
+
 - 2026-10-23 - Created after the coordinator handoff flagged the unmatched repository, admitted on the worktree-CLI precedent (gwq, Worktrunk) with the worktree-per-task desktop kind.
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Recorded the v5.0.0 major (2026-10-25), the first release after the v4 line, with task briefs replacing Steps and a per-project Markdown Kanban board.
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 - 2026-11-01 - Recorded v5.1.0 (2026-10-29) as the latest release and the 2026-10-31 push.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-01; v5.1.0 still the latest release.
+- 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); no factual drift, the push date already refreshed to 2026-11-12 in the volatile pass.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Sim
 created: 2026-09-29
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -22,7 +22,7 @@ The repo sits at 29,812 stars with 3,853 forks, Apache-2.0, created 2025-01-05, 
 
 ## Status
 
-Active: last push 2026-11-12, releases v0.9.15 through v0.9.54 (2026-11-12), a train that opened with v0.9.15 through v0.9.25 from 2026-10-08 to 2026-10-16 plus v0.9.26 on 2026-10-17 (library templates and expanded Databricks API coverage), v0.9.27 on 2026-10-19 (a Harvest connection over a customer-owned API credential), v0.9.28 on 2026-10-20 (comparison-guide library entries naming Retool, Dust, and Flowise alternatives), and v0.9.29 through v0.9.31 on 2026-10-20 through 2026-10-22, with v0.9.32 following on 2026-10-23, v0.9.33 on 2026-10-25, and v0.9.34 on 2026-10-27 (expanded Tailscale API operations and a Trigger.dev token-sealing backfill task), with v0.9.35 and v0.9.36 on 2026-10-28 (library guides for drafting social-media posts and customer-onboarding agents) and v0.9.37 through v0.9.39 closing the month, v0.9.40 on 2026-11-01, v0.9.41 and v0.9.42 on 2026-11-03, v0.9.43 on 2026-11-04, v0.9.44 on 2026-11-05, v0.9.45 and v0.9.46 on 2026-11-06, v0.9.47 on 2026-11-07, v0.9.48 on 2026-11-08, then v0.9.49 through v0.9.54 daily through 2026-11-12 alongside near-daily helm-chart tags (GitHub API, as of 2026-11-12), the newest five of the earlier run adding project-files public sharing and cross-owner transfers, scoped note-access authorization, and library guides.
+Active: last push 2026-11-13, releases v0.9.15 through v0.9.56 (2026-11-13), a train that opened with v0.9.15 through v0.9.25 from 2026-10-08 to 2026-10-16 plus v0.9.26 on 2026-10-17 (library templates and expanded Databricks API coverage), v0.9.27 on 2026-10-19 (a Harvest connection over a customer-owned API credential), v0.9.28 on 2026-10-20 (comparison-guide library entries naming Retool, Dust, and Flowise alternatives), and v0.9.29 through v0.9.31 on 2026-10-20 through 2026-10-22, with v0.9.32 following on 2026-10-23, v0.9.33 on 2026-10-25, and v0.9.34 on 2026-10-27 (expanded Tailscale API operations and a Trigger.dev token-sealing backfill task), with v0.9.35 and v0.9.36 on 2026-10-28 (library guides for drafting social-media posts and customer-onboarding agents) and v0.9.37 through v0.9.39 closing the month, v0.9.40 on 2026-11-01, v0.9.41 and v0.9.42 on 2026-11-03, v0.9.43 on 2026-11-04, v0.9.44 on 2026-11-05, v0.9.45 and v0.9.46 on 2026-11-06, v0.9.47 on 2026-11-07, v0.9.48 on 2026-11-08, then v0.9.49 through v0.9.54 daily through 2026-11-12 and v0.9.56 on 2026-11-13 alongside near-daily helm-chart tags (GitHub API, as of 2026-11-13), the newest five of the earlier run adding project-files public sharing and cross-owner transfers, scoped note-access authorization, and library guides.
 v0.9.15 (October 8) added SSO administration and credential-sharing APIs, current frontier models, a Nebius Token Factory provider, and desktop background-executor chats bound to a device registry, and v0.9.16 (October 8) patched a sharp librsvg CVE and an MCP SDK OAuth issuer binding while adding GitHub MCP server library entries.
 v0.9.17 (October 10) added a workspace changelog of releases, workflow tests as a workspace resource, expanded Shopify operations, and a Checkr integration (GitHub releases).
 v0.9.18 (October 11) added library templates for HubSpot lead-enrichment and Pipedrive deal-follow-up agents, moved project membership to the workspace column, and shipped a performance pass (keyset table paging, non-blocking auth timestamp writes, concurrent Lucid page fetches) (GitHub releases).
@@ -94,6 +94,7 @@ Not for coding-agent orchestration, and not for anyone needing long-term API sta
 - 2026-11-01 - Rotation re-verification (every cited URL re-fetched live; the pricing page re-rendered unchanged); recorded v0.9.39 (2026-11-01) on the release train.
 - 2026-11-04 - Recorded v0.9.42 (2026-11-03) as the latest release, the push date refreshed to 2026-11-04.
 - 2026-11-06 - Volatile refresh: Recorded the release train reaching v0.9.44 (2026-11-05).
+- 2026-11-13 - Volatile refresh: Recorded the release train reaching v0.9.56 (2026-11-13), the push date refreshed to 2026-11-13.
 
 ## See also
 

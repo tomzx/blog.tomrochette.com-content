@@ -1,7 +1,7 @@
 ---
 title: Worktrunk
 created: 2026-08-30
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, git-worktrees, cli, open-source]
 readability: 3
@@ -64,6 +64,7 @@ Not for GUI-first workflows, and not for anyone who needs a project to promise s
 
 ## Changes
 
+
 - 2026-08-30 - Created as an Orchestration note with the single-maintainer risk flagged.
 - 2026-09-02 - Recorded the v0.76.0 release with its breaking -x flag change.
 - 2026-09-18 - Recorded v0.78.0 (September 16) and its breaking hook-context-key rename.
@@ -73,6 +74,7 @@ Not for GUI-first workflows, and not for anyone who needs a project to promise s
 - 2026-10-07 - Added the max-sixty/worktrunk star history chart to the Status section.
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo, v0.80.0 release tag, site, hook docs, README, the Claude Squad cross-link); the push date refreshed to 2026-10-26, v0.81.0 still latest.
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo API, site, hook docs, README, the v0.81.0 release tag, the Claude Squad cross-link); the push date refreshed to 2026-11-04 and the release reference moved to the v0.81.0 tag, still latest.
+- 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); no factual drift.
 
 ## See also
 

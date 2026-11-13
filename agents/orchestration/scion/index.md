@@ -1,7 +1,7 @@
 ---
 title: Scion
 created: 2026-10-06
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, containers, isolation, control-plane, google]
 readability: 3
@@ -68,11 +68,13 @@ Not for anyone who needs a supported product with a roadmap commitment, or whose
 
 ## Changes
 
+
 - 2026-10-06 - Created.
 - 2026-10-07 - Added the GoogleCloudPlatform/scion star history chart to the Status section.
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo, overview docs, README, launch HN thread at 230 points, InfoQ piece); the status push date refreshed to 2026-10-26.
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, overview docs, InfoQ piece, HN Algolia); the push date refreshed to 2026-11-03, still no stable release channel.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04.
+- 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); no factual drift.
 
 ## See also
 

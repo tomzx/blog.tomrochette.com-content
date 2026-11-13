@@ -1,7 +1,7 @@
 ---
 title: Nanobot
 created: 2026-08-30
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a chat channel integration and an MCP server are.
 ---
 
-Nanobot is an MIT-licensed, self-hosted personal AI agent runtime in Python that packages a small agent core with a bundled WebUI, terminal UI, eight-plus chat channels, tools, long-term memory, MCP support, scheduled automations, and an OpenAI-compatible API, positioned openly as the lightweight alternative to OpenClaw.
+Nanobot is an MIT-licensed, self-hosted personal AI agent runtime in Python that packages a small agent core with a bundled WebUI, terminal UI, eight-plus chat channels, tools, long-term memory, MCP support, scheduled automations, and an OpenAI-compatible API, launched on Hacker News as the "Ultra-Lightweight Alternative to OpenClaw", a positioning the README itself no longer carries.
 
 **Nanobot is the category's readability bet: an agent core small enough to read in an afternoon, at the price of alpha maturity and a bus factor of essentially one maintainer.**
 
@@ -23,7 +23,7 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 ## Status
 
-One of the fastest adoption curves in the category: 48,998 stars and 8,633 forks as of 2026-10-14, created 2026-02-01, 873 open issues with the last push on 2026-11-11 as of 2026-11-11.
+One of the fastest adoption curves in the category: 48,998 stars and 8,633 forks as of 2026-10-14, created 2026-02-01, 868 open issues with the last push on 2026-11-13 as of 2026-11-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/nanobot&type=date&theme=dark&legend=top-left" />
@@ -31,9 +31,9 @@ One of the fastest adoption curves in the category: 48,998 stars and 8,633 forks
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=HKUDS/nanobot&type=date&legend=top-left" />
 </picture>
 
-Seventeen PyPI releases since February 2026, with v0.3.0 on 2026-07-25 followed by a seven-week quiet stretch that v0.3.5 ended on 2026-09-15, and v0.4.0 shipping 2026-10-28 on GitHub and PyPI the same day (durable SQLite conversation history and browser transcripts with imports of existing conversations, one opt-in Preview update flow with explicit confirmation before install and restart, workbench upgrades from prompt-history navigation to remote instances, and Mermaid diagram viewing in the terminal), and v0.4.1 following on 2026-11-06 on GitHub and PyPI the same day (TLS certificate verification, sandboxed shell execution, and workspace-permission fixes for queued inputs, idle maintenance no longer blocking active work or update checks, retry and recovery improvements with native provider state preserved through compaction, and a file-context graph with file previews and local Markdown links), and the launch HN thread drew 257 points.
+Eighteen PyPI releases since February 2026, with v0.3.0 on 2026-07-25 followed by a seven-week quiet stretch that v0.3.5 ended on 2026-09-15, and v0.4.0 shipping 2026-10-28 on GitHub and PyPI the same day (durable SQLite conversation history and browser transcripts with imports of existing conversations, one opt-in Preview update flow with explicit confirmation before install and restart, workbench upgrades from prompt-history navigation to remote instances, and Mermaid diagram viewing in the terminal), and v0.4.1 following on 2026-11-06 on GitHub and PyPI the same day (TLS certificate verification, sandboxed shell execution, and workspace-permission fixes for queued inputs, idle maintenance no longer blocking active work or update checks, retry and recovery improvements with native provider state preserved through compaction, and a file-context graph with file previews and local Markdown links), and the launch HN thread drew 257 points.
 **PyPI still classifies it Alpha through v0.4.1, and the seven weeks without a release while the repo pushed daily is the fact I would weight against the star count.**
-The README's maintainers table now lists a second name, Yongru Chen beside Xubin Ren, which helps the bus factor on paper more than in the release record.
+The README's maintainers table now lists a second name, Yongru Cheng beside Xubin Ren, which helps the bus factor on paper more than in the release record.
 
 ## Strengths
 
@@ -75,6 +75,7 @@ Not for production assistants unattended on the open internet, or anyone who nee
 - 2026-10-29 - Recorded v0.4.0 (2026-10-28 on GitHub and PyPI the same day: durable SQLite conversation history and browser transcripts, one opt-in Preview update flow with explicit confirmation, workbench prompt-history navigation and remote instances, Mermaid viewing in the terminal), ending the seven-week release hold, with the Alpha classification confirmed current on PyPI and refreshed adoption numbers.
 - 2026-11-03 - Rotation re-verification: every cited URL re-fetched live (repo and README, the PyPI registry, the HN thread, both comparison-baseline repos), v0.4.0 (2026-10-28) confirmed still the latest release with the Alpha classification current, and the two-name maintainers table and the channel table intact, with refreshed adoption numbers.
 - 2026-11-07 - Recorded v0.4.1 (2026-11-06 on GitHub and PyPI the same day: TLS verification, sandboxed-shell and workspace-permission fixes for queued inputs, idle maintenance no longer blocking active work or update checks, retry and recovery improvements, and a file-context graph with previews and local Markdown links), with the Alpha classification confirmed current on PyPI and refreshed adoption numbers.
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched live (repo and README, the PyPI registry, the HN thread, both comparison-baseline repos), v0.4.1 (2026-11-06) confirmed still the latest release with the Alpha classification current, the two-name maintainers table intact with the second maintainer's surname corrected to Cheng per the README, the release count corrected to eighteen per the registry, and the README recorded as no longer carrying the OpenClaw positioning (it now lives in the HN launch title alone), with refreshed adoption numbers.
 
 ## See also
 
@@ -86,8 +87,8 @@ Not for production assistants unattended on the open internet, or anyone who nee
 ## References
 
 - https://github.com/HKUDS/nanobot - repository, features, license, adoption numbers
-- https://raw.githubusercontent.com/HKUDS/nanobot/HEAD/README.md - surfaces, install paths, and the OpenClaw positioning
-- https://pypi.org/project/nanobot-ai/ - the Alpha classification, release cadence, and maintainer record (re-checked 2026-11-07 via the registry API, v0.4.1 still latest)
-- https://news.ycombinator.com/item?id=46897737 - the 257-point launch thread, including the security critique
+- https://raw.githubusercontent.com/HKUDS/nanobot/HEAD/README.md - surfaces, install paths, and the maintainers table (the OpenClaw positioning left the README)
+- https://pypi.org/project/nanobot-ai/ - the Alpha classification, release cadence, and maintainer record (re-checked 2026-11-13 via the registry API, v0.4.1 still latest, eighteen releases listed)
+- https://news.ycombinator.com/item?id=46897737 - the 257-point launch thread whose title carried the OpenClaw positioning, including the security critique
 - https://github.com/openclaw/openclaw - the comparison baseline
 - https://github.com/zeroclaw-labs/zeroclaw - the comparison data

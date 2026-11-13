@@ -1,7 +1,7 @@
 ---
 title: AutoGen
 created: 2026-09-27
-updated: 2026-11-06
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, microsoft]
 readability: 3
@@ -34,7 +34,8 @@ The archive caution now also advises against production use outright, citing una
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/autogen&type=date&legend=top-left" />
 </picture>
 
-AutoGen's own repo was last pushed 2026-10-28, a docs commit that added the archive caution to the documentation landing page after the 2026-10-16 commit that re-labeled the project archived, and its latest release is python-v0.7.5 from 2025-09-30, so the code is stable and now formally abandoned.
+AutoGen's own repo was last pushed 2026-11-12, a docs commit building the stable documentation from the caution docs branch, after the 2026-10-28 commit that added the archive caution to the documentation landing page and the 2026-10-16 commit that re-labeled the project archived, and its latest release is python-v0.7.5 from 2025-09-30, so the code is stable and now formally abandoned.
+The 2026-11-12 push confirms the archive statement stands: the README still carries the red status-archived badge and the caution box as of 2026-11-13.
 Microsoft ships a migration guide on Learn, and the README also still carries the v0.2-to-v0.4 migration path, a reminder that this project already survived one breaking rewrite.
 The successor is production-ready per the README, which calls MAF 1.0 stable with long-term support and A2A plus MCP interoperability.
 

@@ -1,7 +1,7 @@
 ---
 title: bb
 created: 2026-10-11
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -35,6 +35,7 @@ The repository was created 2026-02-24 and shows 4,326 stars and 628 forks as of 
 
 The desktop train: v0.45.0 (October 2), v0.46.0 (October 9), v0.46.1 (October 15), v0.47.0 (October 23), v0.47.1 (October 24), and desktop-v0.48.1 (October 30), all carrying no written release notes, and desktop-v0.49.0 (November 6) as the latest stable, the first in months to carry full written notes on the product site's changelog ("A more reliable bb": stuck turns end on their own, retry pile-ups deduplicate, recurring automations ride out provider outages, the hourly database scan is gone, cold page loads roughly halve), which also rolls up 0.48.1's unnoted fixes; the changelog further documents a mobile front the README stays quiet on, an iOS app in the update path and an Android app in alpha since the 0.45.0 line, plus a rolling nightly.
 An Algolia search of Hacker News found no story about bb as of 2026-10-11, a re-run on 2026-10-25 surfaced the same absence, a re-run on 2026-11-07 surfaced it again, and no third-party review has appeared; the product site's "used by" logo wall is the only social proof and it is unverifiable.
+The ecosystem side has more life than the coverage side: a community-maintained plugin directory (MGrin/awesome-bb-plugins, 65 stars as of 2026-11-13) documents that bb ships 21 official plugins and retired its own remote marketplace rather than running a central one (PR #737), so third-party plugins spread by word of mouth, and counts 25 npm packages carrying the `bb-plugin` keyword as of 2026-08-31; third parties are building on bb's plugin system even though nobody has reviewed the experience.
 
 ## Strengths
 
@@ -74,6 +75,7 @@ Not for Windows or Linux daily drivers, and not for anyone who needs independent
 - 2026-10-25 - Rotation re-verification, all five cited URLs re-fetched live: the repository, the product site, the release list, and the still-empty Hacker News footprint stand; recorded v0.47.0 and v0.47.1 (October 23 and 24) as the new latest stable releases, and added the README's opt-out telemetry disclosure to Cautions.
 - 2026-10-31 - Recorded desktop-v0.48.1 (October 30, no written release notes) as the new latest stable release.
 - 2026-11-07 - Rotation re-verification, all cited URLs re-fetched live: recorded desktop-v0.49.0 (November 6) as the new latest stable, the first release in months carrying full written notes on the product site's changelog (the reliability release, rolling up 0.48.1), and recorded the changelog's mobile front (an iOS app in the update path, an Android app in alpha since 0.45.0); the repository (pushed 2026-11-07), the zero-coverage HN search (re-run, same absence), and the README's four-surface pitch stand; prices unchanged.
+- 2026-11-13 - Volatile re-verification on the pushed signal (release train unchanged at desktop-v0.49.0), and added the community plugin directory (MGrin/awesome-bb-plugins) to Status as ecosystem evidence: 21 official plugins, the retired remote marketplace, and 25 npm bb-plugin packages per the directory's count; the zero-coverage caution stands, the directory documents plugins without reviewing the IDE.
 
 ## See also
 
@@ -89,4 +91,6 @@ Not for Windows or Linux daily drivers, and not for anyone who needs independent
 - https://getbb.app - the product site: the self-building pitch, the plugin list (GitHub integration, agent memory, scheduled jobs, remote access), the four surfaces, platform support, the comparison links, and the 0.47.0 changelog headline (customizable navigation, new and improved ACP support, diff review)
 - https://getbb.app/changelog - the product changelog: the 0.49.0 reliability release notes (stuck turns, retry dedupe, automation survival, the database scan removal, faster page loads, rolling up 0.48.1), the 0.45.0-to-0.49.0 mobile evidence (iOS app in the update path, Android app alpha), and the written notes behind 0.46.0, 0.47.0, and 0.48.0, fetched 2026-11-07
 - https://github.com/get-bb/bb/releases - desktop-v0.49.0 (2026-11-06) as the latest stable, carrying no written notes on GitHub, after desktop-v0.48.1 (2026-10-30) and desktop-v0.48.0 (2026-10-28), desktop-v0.47.1 (2026-10-24) and v0.47.0 (October 23), v0.46.1 (October 15), v0.46.0 (October 9), and v0.45.0 (October 2), with the nightly tag rolling, re-fetched 2026-11-07
+- https://github.com/MGrin/awesome-bb-plugins - the community plugin directory: 21 official plugins with the retired remote marketplace (PR #737), the git and npm install forms, and the 25-package bb-plugin npm count as of 2026-08-31, fetched 2026-11-13
+- https://api.github.com/repos/MGrin/awesome-bb-plugins - the directory repository: 65 stars, pushed 2026-11-03, not archived (GitHub API, as of 2026-11-13)
 - https://hn.algolia.com/api/v1/search?query=%22agent%20IDE%22%20builds%20itself&tags=story - the search that found no story about bb, the missing-footprint evidence, re-fetched 2026-11-07 (still only an unrelated Agentastic.dev hit)

@@ -1,7 +1,7 @@
 ---
 title: PicoClaw
 created: 2026-08-27
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, golang, edge, risc-v, open-source]
 readability: 3
@@ -23,7 +23,7 @@ It reached 20k stars in 17 days from a February 2026 start.
 ## Status
 
 Active on side branches, pre-1.0, and explicit about both.
-30,020 stars and 4,449 forks as of 2026-10-14 since creation on 2026-02-04, 37 open issues and pull requests as of 2026-11-11, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May, with main's last commit on 2026-08-19 while the repo-level pushed-at kept moving on side branches through 2026-11-05.
+30,020 stars and 4,449 forks as of 2026-10-14 since creation on 2026-02-04, 31 open issues and pull requests as of 2026-11-13, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May, with main's last commit on 2026-08-19 while the repo-level pushed-at kept moving on side branches through 2026-11-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sipeed/picoclaw&type=date&theme=dark&legend=top-left" />
@@ -41,7 +41,7 @@ The naming ladder keeps extending below it (SmolClaw microvm, FemtoClaw for ESP3
 - The footprint claim is real enough to change deployment thinking: 10-20MB RAM puts an assistant on hardware nothing else in the family can touch.
 - Hardware vendor stewardship means the software and the board ship as one story, including Android.
 - MCP support and a Web UI at this size is more surface than the memory number suggests.
-- 36 open issues and pull requests at 30k stars is still the tidiest tracker in the category.
+- 31 open issues and pull requests at 30k stars keeps the tracker among the category's tidiest (only PrivateGPT's hand-curated 14 sits lower).
 
 ## Cautions
 
@@ -78,6 +78,7 @@ My disagreeable claim: the size race is now the category's main axis of progress
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched live (repo and README, the releases API, picoclaw.io, docs.picoclaw.io, the Show HN thread via Algolia), v0.3.1 (2026-07-03) confirmed still the latest release, both README banners intact, the official site and docs serving normally, and the site's marketing figures (<10MB RAM, under-1-second boot, 16-plus channels) confirmed live, with refreshed adoption numbers.
 - 2026-10-30 - Rotation re-verification: every cited URL re-fetched live (repo and README, the releases API, picoclaw.io and docs.picoclaw.io with valid TLS, the Show HN thread via Algolia, the NanoBot inspiration repo), v0.3.1 (2026-07-03) confirmed still the latest release, both README banners (the production warning and the scam notice) and the site's <10MB RAM and 1-second-boot figures intact, with refreshed adoption numbers.
 - 2026-11-04 - Out-of-rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, picoclaw.io, docs.picoclaw.io, the Show HN thread via Algolia, the NanoBot inspiration repo), v0.3.1 (2026-07-03) confirmed still the latest release and both README banners (the production warning and the scam notice) intact, and the default branch recorded quiet since 2026-08-19 with pushes moving on side branches through 2026-10-30 and the release line stalled since July, with refreshed adoption numbers.
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, picoclaw.io and docs.picoclaw.io both serving normally with the marketing figures intact, the Show HN thread, the NanoBot inspiration repo), v0.3.1 (2026-07-03) confirmed still the latest release, both README banners (the production warning and the scam notice) intact, and the default branch confirmed still quiet since 2026-08-19 with side-branch pushes through 2026-11-05, with refreshed adoption numbers.
 
 ## See also
 

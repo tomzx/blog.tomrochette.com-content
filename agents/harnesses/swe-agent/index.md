@@ -1,7 +1,7 @@
 ---
 title: SWE-agent
 created: 2026-10-28
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, swebench, research, terminal]
 readability: 3
@@ -66,6 +66,7 @@ Not for daily production coding, where the project itself points you to mini-swe
 
 - 2026-10-28 - Created from the cross-category handoff resolving SWE-agent/SWE-agent into the harnesses category.
 - 2026-11-04 - Rotation re-verification, re-fetching every cited reference (all live), and corrected the liveness reading against the default branch per the pushed-date ruling: the default branch has been quiet since 2026-07-16, the repository-level pushed date having moved on side branches; the supersession banner, maintenance-only notice, and v1.1.0-as-latest-release claims all re-confirmed unchanged.
+- 2026-11-13 - Rotation re-verification, re-fetching every cited reference (all live): the maintenance-only banner, docs pages, both arXiv records, the 307-point launch thread, and v1.1.0-as-latest-release all re-confirmed unchanged, with the default branch quiet since 2026-07-16 and the repository-level pushed date still moving on side branches (2026-11-09 the latest, as of 2026-11-13).
 
 ## See also
 
@@ -76,7 +77,7 @@ Not for daily production coding, where the project itself points you to mini-swe
 
 ## References
 
-- https://api.github.com/repos/SWE-agent/SWE-agent - repository metadata: stars, license, push date, and creation date (as of 2026-11-04)
+- https://api.github.com/repos/SWE-agent/SWE-agent - repository metadata: stars, license, push date, and creation date (as of 2026-11-13)
 - https://github.com/SWE-agent/SWE-agent - README: the supersession banner, feature claims, EnIGMA, and the sibling projects
 - https://swe-agent.com/latest/ - the documentation home: the maintenance-only banner, news, and doc structure
 - https://swe-agent.com/latest/config/models/ - litellm model routing, local models, Claude prompt caching, and key rotation

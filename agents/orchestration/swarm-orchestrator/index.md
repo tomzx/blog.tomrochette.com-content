@@ -1,7 +1,7 @@
 ---
 title: Swarm Orchestrator
 created: 2026-10-24
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, coding-agent, evidence, git-worktrees]
 readability: 3
@@ -71,9 +71,11 @@ Not for teams wanting a GUI or supervision of Claude Code and friends, and not f
 
 ## Changes
 
+
 - 2026-10-24 - Created.
 - 2026-10-31 - Re-verified in rotation: every cited URL re-fetched, one citation repaired (docs/claims.md moved from the v13-main branch to main in the rebuild); recorded v15.0.0 (2026-10-30, the verifier-first rebuild with swarm-verify 2.0.0) on the GitHub release line while npm still serves 14.4.0, and the download month easing to 540.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v15.0.0 still the latest release.
+- 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); no factual drift.
 
 ## See also
 

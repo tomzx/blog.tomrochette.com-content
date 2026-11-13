@@ -16,7 +16,7 @@ The editors and IDEs where agents meet your code, from AI-native platforms and a
 - [Codeg](codeg/index.md) - the Apache-2.0 workspace that aggregates every agent's sessions into one searchable, transferable layer, with a self-hosted server option and native iOS and Android clients.
 - [CodeNomad](codenomad/index.md) - the MIT desktop-and-browser cockpit for OpenCode V2, with worktree sessions, SideCars, voice input, and phone remote control through an OpenTunnel relay.
 - [Continue](continue/index.md) - the open-source Copilot alternative across VS Code, JetBrains, and CLI, acquired by Cursor in June 2026, now read-only.
-- [Cursor](cursor/index.md) - Anysphere's AI-native editor platform, acquired by SpaceX in August 2026, with OpenAI winding down its model access from November 12.
+- [Cursor](cursor/index.md) - Anysphere's AI-native editor platform, acquired by SpaceX in August 2026, with OpenAI's proposed November 12 model shutoff temporarily extended past the date.
 - [Delta](delta/index.md) - Zed Industries' multiplayer agent environment on DeltaDB, thread plus worktree plus in-thread review, in public beta with PRs replaced.
 - [Google Antigravity](antigravity/index.md) - Google's free multi-agent platform (2.0, IDE, CLI, SDK), generous tier, incident-heavy first year.
 - [JetBrains IDEs](jetbrains/index.md) - the analysis-heavy IDEs whose AI layer, AI Assistant plus Junie, is removable and provider-agnostic.

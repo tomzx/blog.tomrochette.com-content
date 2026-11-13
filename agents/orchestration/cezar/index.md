@@ -1,7 +1,7 @@
 ---
 title: Cezar
 created: 2026-11-01
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, worktree, vps, review-gate]
 readability: 3
@@ -25,7 +25,7 @@ By open-mercato, the OpenMercato ERP team, repository created 2026-05-19.
 
 ## Status
 
-Active: 904 stars, 169 forks, and 265 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-12, with 31 releases through v0.19.0 on 2026-11-08 plus a desktop track (desktop-v0.1.11, 2026-10-23).
+Active: 904 stars, 169 forks, and 265 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-13, with 31 releases through v0.19.0 on 2026-11-08 plus a desktop track (desktop-v0.1.11, 2026-10-23).
 The npm package shows 1,544 published versions since July 2026 (near-daily publishes) and 95,851 downloads in October 2026.
 
 <picture>

@@ -1,7 +1,7 @@
 ---
 title: 1Code
 created: 2026-10-06
-updated: 2026-11-06
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, worktrees, dormant]
 readability: 3
@@ -29,7 +29,7 @@ Dead by archive: the owner archived the repository on 2026-07-07 and it is now r
 </picture>
 
 The launch Show HN drew 75 points and 49 comments on 2026-01-15, and the thread's sharpest exchange was about price: commenters called the $20/month hosted web tier expensive for "a web interface and a sandbox", and the founders answered that the paid tier was about signal, not monetization.
-**The product domain now redirects to the GitHub repository, so the hosted surface this note's pricing discussed is gone from the public web, and the archive banner ("archived by the owner on Jul 7, 2026. It is now read-only.") turned the dormancy I first recorded into a formal death notice.**
+**The product domain used to redirect to the GitHub repository, and as of 2026-11-13 it serves 503 errors instead, so the hosted surface this note's pricing discussed is gone from the public web entirely, and the archive banner ("archived by the owner on Jul 7, 2026. It is now read-only.") turned the dormancy I first recorded into a formal death notice.**
 I read the record as an archived open-source client rather than a pivot: no successor product is announced, and the team's other properties continued separately.
 
 ## Strengths
@@ -73,6 +73,7 @@ Not for adoption; if the idea appeals, evaluate Emdash or the maintained closed 
 - 2026-10-15 - Rotation re-verification (every cited URL re-fetched live); refreshed the star and fork counts and clarified that the 45 open items are issues plus pull requests (26 and 19 on the repository page).
 - 2026-10-31 - Rotation re-verification (every cited URL re-fetched live); the archive, the silent March push and release dates, and the domain redirect all stand, with the fork count refreshed to 606.
 - 2026-11-06 - Rotation re-verification (every cited URL re-fetched live); the archive, the silent March push and release dates, and the domain redirect all stand, no factual drift.
+- 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); the archive and the silent March push stand, but the product domain stopped redirecting and now serves 503 errors, recorded in Status and References.
 
 ## See also
 
@@ -85,6 +86,6 @@ Not for adoption; if the idea appeals, evaluate Emdash or the maintained closed 
 
 - https://github.com/21st-dev/1code - repository, feature list, license, stars, and the March 2026 last push (GitHub API, as of 2026-10-06)
 - https://news.ycombinator.com/item?id=46637723 - the 75-point launch thread and the $20/month pricing critique
-- https://1code.dev - the product domain, which now redirects to the GitHub repository (fetched 2026-10-06)
+- https://1code.dev - the product domain, which redirected to the GitHub repository when fetched 2026-10-06 and served 503 errors on the 2026-11-13 re-fetch
 - https://github.com/21st-dev/1code/releases - release history stopping at v0.0.84 (2026-03-06)
 - https://api.github.com/repos/21st-dev/1code - the API record of stars, forks, and the 2026-03-06 push date (as of 2026-10-06)

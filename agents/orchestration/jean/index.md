@@ -1,7 +1,7 @@
 ---
 title: Jean
 created: 2026-10-12
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, worktrees, dev-environment, self-hosted]
 readability: 3
@@ -24,8 +24,8 @@ It comes from coolLabs Solutions Kft., the team behind the 62.9k-star self-hosti
 ## Status
 
 **Active and shipping weekly from an established self-hosting vendor.**
-1,328 stars, 162 forks, 130 open issues, created 2026-01-23, pushed 2026-11-12, latest release v1.0.14 on 2026-11-06 after v1.0.13 (2026-10-28, mid-turn steering for running Claude turns through a detached host and automatic continuation after usage-limit resets), as of 2026-11-12 (GitHub API).
-The release train runs roughly weekly through October (v1.0.6 on September 24, v1.0.7 on September 29, v1.0.9 on October 7, v1.0.10 on October 13, v1.0.11 on October 14, v1.0.12 on October 17, and v1.0.13 on October 28, with v1.0.14 following on November 6).
+1,328 stars, 162 forks, 130 open issues, created 2026-01-23, pushed 2026-11-13, latest release v1.0.15 on 2026-11-12 after v1.0.14 (2026-11-06) and v1.0.13 (2026-10-28, mid-turn steering for running Claude turns through a detached host and automatic continuation after usage-limit resets), as of 2026-11-13 (GitHub API).
+The release train runs roughly weekly through October (v1.0.6 on September 24, v1.0.7 on September 29, v1.0.9 on October 7, v1.0.10 on October 13, v1.0.11 on October 14, v1.0.12 on October 17, and v1.0.13 on October 28, with v1.0.14 following on November 6 and v1.0.15 on November 12).
 I found no Hacker News thread through 2026-10-12 searches, so its early traction rides the Coolify community (jean.build claims a 20,000-plus Discord) rather than independent coverage.
 
 <picture>
@@ -73,6 +73,7 @@ Not for Windows or Linux desktop users who need a proven build today, or for any
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, releases, site, Coolify repo, HN search); the push date refreshed to 2026-11-03, v1.0.13 (2026-10-28) still the latest release.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v1.0.13 still the latest release.
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repository, README, releases, site, Coolify repo, HN search); the push date refreshed to 2026-11-12, v1.0.14 (2026-11-06) still the latest release, the no-HN-footprint record standing.
+- 2026-11-13 - Volatile refresh: Recorded v1.0.15 (2026-11-12) as the latest release, the push date refreshed to 2026-11-13.
 
 ## See also
 

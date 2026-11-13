@@ -1,7 +1,7 @@
 ---
 title: CodeNomad
 created: 2026-10-11
-updated: 2026-11-08
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, opencode, desktop, session-cockpit, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The CodeNomad Server (`npx @neuralnomads/codenomad`) serves the same workspace f
 
 **Active on a daily train, young, and without independent coverage.**
 2,625 stars, 176 forks, and 15 open issues and pull requests as of 2026-10-16 (GitHub API), created 2025-11-01, pushed 2026-10-27.
-Stable v1.0.0 (2026-10-24) shipped on top of the `v1.0.0-dev` train that began October 20, ending the 0.20.x line: the 1.0 notes headline Missions (OpenCode-native coordinators delegating to specialists through native sessions and subagents, with five approaches including a blind two-model comparison), visual automation (agents inspecting and operating CodeNomad and desktop browser previews to check what they build), native plugins and RPC reaching full-history search and timeline navigation beyond the public API, a new hexagon logo, and signed Tauri updates; stable v1.0.1 (October 29) followed, removing the twenty-missions-per-project limit with storage limits per mission, adding relevance-ranked search across a project's history, and fixing stale transcripts after dropped connections plus Linux AppImage display and F11 problems, with the daily dev train re-tagged v1.0.1-dev above it (builds daily through November 8).
+Stable v1.0.0 (2026-10-24) shipped on top of the `v1.0.0-dev` train that began October 20, ending the 0.20.x line: the 1.0 notes headline Missions (OpenCode-native coordinators delegating to specialists through native sessions and subagents, with five approaches including a blind two-model comparison), visual automation (agents inspecting and operating CodeNomad and desktop browser previews to check what they build), native plugins and RPC reaching full-history search and timeline navigation beyond the public API, a new hexagon logo, and signed Tauri updates; stable v1.0.1 (October 29) followed, removing the twenty-missions-per-project limit with storage limits per mission, adding relevance-ranked search across a project's history, and fixing stale transcripts after dropped connections plus Linux AppImage display and F11 problems, with the daily dev train re-tagged v1.1.0-dev above it (first tagged November 10, building daily through November 13, stable still v1.0.1).
 The server package drew 881 npm downloads in the month ending 2026-11-07 (dated-range query; the month ending 2026-10-18 read 1,112).
 A Hacker News search returns no story about the project (2026-10-11, re-run 2026-11-07 with the same absence), only substring matches, so the footprint is GitHub-side.
 
@@ -73,6 +73,7 @@ My disagreeable claim: two serious cockpits around one harness is the correct ma
 - 2026-10-25 - Recorded stable v1.0.0 (October 24) shipping off the dev train: Missions with native multi-agent coordination and a blind two-model comparison, visual automation over the app and browser previews, native plugins and RPC beyond the public API, signed Tauri updates, and the OpenCode contract moving to 2.1.2 minimum and 2.1.4 recommended; the dev train continues above the stable tag.
 - 2026-10-31 - Recorded stable v1.0.1 (October 29, the twenty-mission project limit removed with per-mission storage, relevance-ranked history search, and the stale-transcript and Linux AppImage fixes) as the new latest stable, with the dev train re-tagged v1.0.1-dev above it.
 - 2026-11-07 - Rotation re-verification, all cited URLs re-fetched live: stable still v1.0.1 with the dev train's daily v1.0.1-dev builds running through November 7, the repository pushed 2026-11-07 and not archived, the main and server READMEs standing with the OpenCode contract's recommended version moved from 2.1.4 to 2.2.1 on main (minimum still 2.1.2), the server package reading 881 downloads for the month ending 2026-11-07 (dated-range query), and the HN footprint search returning no dedicated story again.
+- 2026-11-13 - Volatile re-verification on the pushed signal, recorded the dev train's re-tag to v1.1.0-dev (first tagged November 10, building daily through November 13) above stable v1.0.1, unchanged since October 29; the repository stands pushed 2026-11-13 and not archived.
 
 ## See also
 
@@ -86,6 +87,6 @@ My disagreeable claim: two serious cockpits around one harness is the correct ma
 - https://github.com/NeuralNomadsAI/CodeNomad - repository facts: 2,625 stars, 176 forks, MIT, created 2025-11-01, pushed 2026-10-16 (GitHub API, as of 2026-10-16), re-fetched 2026-11-07 (pushed 2026-11-07, not archived)
 - https://raw.githubusercontent.com/NeuralNomadsAI/CodeNomad/main/README.md - the feature set, OpenCode V2 version contract (2.1.2 minimum, 2.2.1 recommended on the current main), SideCars, remote control, and install paths (fetched 2026-10-11, re-fetched 2026-11-07)
 - https://raw.githubusercontent.com/NeuralNomadsAI/CodeNomad/main/packages/server/README.md - the server mode: remote access, authentication, prerequisites, deployment model
-- https://api.github.com/repos/NeuralNomadsAI/CodeNomad/releases - stable v1.0.1 (2026-10-29, the mission-limit removal, ranked history search, and the Linux fixes) after stable v1.0.0 (2026-10-24, Missions, visual automation, native plugins and RPC, OpenCode 2.1.2 minimum and 2.1.4 recommended at release) after v0.20.1 (2026-10-03), with the daily dev train continuing as v1.0.1-dev-* through November 8 (re-fetched 2026-11-08)
+- https://api.github.com/repos/NeuralNomadsAI/CodeNomad/releases - stable v1.0.1 (2026-10-29, the mission-limit removal, ranked history search, and the Linux fixes) after stable v1.0.0 (2026-10-24, Missions, visual automation, native plugins and RPC, OpenCode 2.1.2 minimum and 2.1.4 recommended at release) after v0.20.1 (2026-10-03), with the daily dev train re-tagged v1.1.0-dev and building through November 13 (re-fetched 2026-11-13)
 - https://api.npmjs.org/downloads/point/2026-10-08:2026-11-07/@neuralnomads/codenomad - 881 downloads in the dated month ending 2026-11-07 (the month ending 2026-10-18 read 1,112 and the month ending 2026-10-10 read 1,267)
 - https://hn.algolia.com/api/v1/search?query=CodeNomad&tags=story - the footprint scan finding no dedicated story (2026-10-11, re-fetched 2026-11-07)

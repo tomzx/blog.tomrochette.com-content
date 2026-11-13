@@ -1,7 +1,7 @@
 ---
 title: Raven
 created: 2026-10-06
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, dag-planning, host-agent, self-hosted, benchmarking]
 readability: 3
@@ -66,11 +66,13 @@ Not for anyone who needs a clean provenance story today or stable APIs before 1.
 
 ## Changes
 
+
 - 2026-10-06 - Created.
 - 2026-10-07 - Added the EverMind-AI/Raven star history chart to the Status section.
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo, releases still topping at v0.2.5, docs site, product site, README, HN thread); the status push date refreshed to 2026-10-26.
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, releases, docs site, product site, HN threads and items); the push date refreshed to 2026-11-03, v0.2.6 (2026-10-27) still the latest release.
 - 2026-11-04 - Recorded v0.2.7 (2026-11-03) as the latest release, the push date refreshed to 2026-11-04.
+- 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); no factual drift.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Crush
 created: 2026-08-22
-updated: 2026-11-06
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, terminal, go]
 readability: 3
@@ -25,7 +25,7 @@ It runs on macOS, Linux, Windows, Android, and the BSDs.
 ## Status
 
 **Active.**
-About 28.6k stars and 2.3k forks as of 2026-10-17, and 4,510 commits as of 2026-11-11, launched July 30, 2025, with v0.100.0 (November 5, 2026) the latest release, adding background subagents (a team you can watch, send mid-run follow-ups, stop, or move to a different model), more flexible permissions, and GPG and SSH authentication prompts inside Crush, after v0.99.0 (October 29, 2026), the Catwalk v3 rework: the provider `type` now names the API format a provider speaks (`completions`, `responses`, or `messages`) with config migrated automatically on load, hooks follow the whole run (sessions, turns, permissions, and more) validated against a known-events list, a client/server mode arrived, `--can-reason` became `--thinking always|never|toggleable`, and `--max-attachments` plus friendly reasoning-level names in the picker landed, after v0.98.2 (October 23, 2026) added the built-in `keanu` theme and OpenRouter sticky-routing headers, re-signed-in every OAuth provider on a rejected credential, and fixed a crash when parallel tool calls finish together, after v0.98.1 (October 9) routed newer Copilot models through the Responses API and v0.98.0 the day before.
+About 28.6k stars and 2.3k forks as of 2026-10-17, and 4,510 commits as of 2026-11-11, launched July 30, 2025, with v0.101.0 (November 12, 2026) the latest release, adding skill toggles in the command palette (broken skills marked with a red cross and their failure reason), a live timer on every running tool call, and request compression to Hyper, after v0.100.0 (November 5, 2026), which added background subagents (a team you can watch, send mid-run follow-ups, stop, or move to a different model), more flexible permissions, and GPG and SSH authentication prompts inside Crush, after v0.99.0 (October 29, 2026), the Catwalk v3 rework: the provider `type` now names the API format a provider speaks (`completions`, `responses`, or `messages`) with config migrated automatically on load, hooks follow the whole run (sessions, turns, permissions, and more) validated against a known-events list, a client/server mode arrived, `--can-reason` became `--thinking always|never|toggleable`, and `--max-attachments` plus friendly reasoning-level names in the picker landed, after v0.98.2 (October 23, 2026) added the built-in `keanu` theme and OpenRouter sticky-routing headers, re-signed-in every OAuth provider on a rejected credential, and fixed a crash when parallel tool calls finish together, after v0.98.1 (October 9) routed newer Copilot models through the Responses API and v0.98.0 the day before.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=charmbracelet/crush&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for license-restricted organizations or communities that relitigate 2025.
 - 2026-10-29 - Rotation re-verification, re-fetching every cited reference (all live) and refreshing the commit count to 4,375, with v0.98.2 still the newest release.
 - 2026-10-30 - Recorded the v0.99.0 release (October 29): the Catwalk v3 provider-model rework with automatic config migration, run-wide hooks validated against a known-events list, a client/server mode, and `--thinking` replacing `--can-reason`; commits refreshed to 4,390.
 - 2026-11-06 - Recorded the v0.100.0 release (November 5): background subagents with mid-run follow-ups, stops, and model moves, more flexible permissions, and GPG and SSH authentication inside Crush.
+- 2026-11-13 - Recorded the v0.101.0 release (November 12): skill toggles in the command palette with broken skills marked and explained, live per-tool-call timers, and request compression to Hyper.
 
 ## See also
 

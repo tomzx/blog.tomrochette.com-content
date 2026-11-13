@@ -1,7 +1,7 @@
 ---
 title: LobeHub
 created: 2026-09-27
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, source-available, self-hosted]
 readability: 3
@@ -24,7 +24,7 @@ The vendor is LobeHub LLC, which grew the product from the LobeChat project crea
 
 ## Status
 
-Active and shipping fast: the repo shows 83,237 stars, about 16k forks, and a push on 2026-11-12 (GitHub API, as of 2026-11-12).
+Active and shipping fast: the repo shows 83,237 stars, about 16k forks, and a push on 2026-11-13 (GitHub API, as of 2026-11-13).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and shipping fast: the repo shows 83,237 stars, about 16k forks, and a pu
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=lobehub/lobehub&type=date&legend=top-left" />
 </picture>
 
-The release train is canary-grade desktop builds published several times a day; the v2.2.19 line shipped stable on 2026-10-07, v2.2.20 followed on 2026-10-18 after canaries through 2026-10-17, and v2.3.0 shipped stable on 2026-11-01 with v2.3.1 (2026-11-03) and v2.3.2 (2026-11-06) following (GitHub releases, as of 2026-11-07).
+The release train is canary-grade desktop builds published several times a day; the v2.2.19 line shipped stable on 2026-10-07, v2.2.20 followed on 2026-10-18 after canaries through 2026-10-17, and v2.3.0 shipped stable on 2026-11-01 with v2.3.1 (2026-11-03), v2.3.2 (2026-11-06), and v2.3.3 (2026-11-12) following (GitHub releases, as of 2026-11-13).
 The rebrand from LobeChat is visible in the license text itself, which reads "From 1.0, LobeChat is licensed under the LobeHub Community License".
 Community footprint outside its own channels is thin: the best HN thread about it (as LobeChat) reached 7 points in July 2024, and my HN search for the current name returned nothing above noise.
 A Product Hunt "top post" badge for the multi-agent-work launch and a Trendshift badge suggest its audience lives on Product Hunt and Chinese-language channels, not HN.
@@ -82,6 +82,7 @@ My disagreeable claim: the hire-and-schedule framing will not hold, because the 
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, license, pricing, releases, docs, HN thread and search); the push date refreshed to 2026-10-27, v2.2.20 still the newest stable, and the pricing tiers unchanged on the live page.
 - 2026-11-01 - Recorded v2.3.0 stable (2026-11-01) on the release train.
 - 2026-11-04 - Recorded v2.3.1 stable (2026-11-03) on the release train, the push date refreshed to 2026-11-04.
+- 2026-11-13 - Volatile refresh: Recorded v2.3.3 stable (2026-11-12) on the release train (v2.3.2 having shipped 2026-11-06 inside the last verification window), the push date refreshed to 2026-11-13, plus the rotation re-fetch of every cited URL (all live; the docs root now redirects to the only-ai markdown path).
 
 ## See also
 
@@ -97,6 +98,6 @@ My disagreeable claim: the hire-and-schedule framing will not hold, because the 
 - https://raw.githubusercontent.com/lobehub/lobehub/canary/LICENSE - LobeHub Community License text: Apache 2.0 plus commercial conditions (200) (critical source)
 - https://lobehub.com/pricing - Free/Starter/Premium/Ultimate tiers, credit system, self-host and private-model options (200, 2026-09-27)
 - https://github.com/lobehub/lobehub/releases - releases (200): Desktop Canary v2.2.19-canary.28, published 2026-09-26
-- https://lobehub.com/docs - documentation root (200)
+- https://lobehub.com/docs - documentation root (200; re-fetched 2026-11-13, when the path began redirecting to lobehub.com/only-ai/markdown/docs/en)
 - https://hn.algolia.com/api/v1/items/41070091 - the main LobeChat HN thread (200): 7 points, 2024-07-25, includes the creator's design-engineer answer and a safety question (critical source)
 - https://hn.algolia.com/api/v1/search?query=lobehub&tags=story - search API (200): no LobeHub-named thread above noise, grounding the thin-footprint observation

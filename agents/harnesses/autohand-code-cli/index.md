@@ -1,7 +1,7 @@
 ---
 title: Autohand Code CLI
 created: 2026-10-27
-updated: 2026-11-06
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, typescript, bun, byok, local-models]
 readability: 3
@@ -27,7 +27,7 @@ Auto mode works a task on its own branch in a separate worktree, commits checkpo
 ## Status
 
 **Active, prerelease, and almost without an independent footprint.**
-The repository was created December 12, 2025 and shows 211 stars and 37 forks as of 2026-10-27 (GitHub API), with 3,250 commits as of 2026-10-27 and a push on 2026-11-10 (GitHub API, as of 2026-11-11); GitHub releases reached v0.9.10 (published November 4, 2026), which paints the composer before background MCP connections and repository snapshots finish so startup reads instant, reconnects MCP servers in the background when a saved session resumes, adds Ctrl+S steering of queued input for terminals that cannot distinguish Ctrl+Enter, a browsable `/` slash-command menu, opt-in adaptive skills that load complete pinned instructions when a task needs them with visible loading receipts, translation of supported Claude Code permission rules on import with a dry-run preview, and unattended turns exiting with status 77 at the first missing tool approval, after the first stable v0.9.9 tag (published October 27, 2026, adding Ctrl+Enter steering of queued messages into the running conversation, identity-retaining streamed tool-call continuations, and replies that stay visible while reviews, todos, steering, and peer updates continue), and the npm package `autohand-cli` sits at latest 0.9.10 (published November 4, 2026).
+The repository was created December 12, 2025 and shows 211 stars and 37 forks as of 2026-10-27 (GitHub API), with 3,250 commits as of 2026-10-27 and a push on 2026-11-10 (GitHub API, as of 2026-11-11); GitHub releases reached v0.9.11 (published November 12, 2026), which made delegated agents' request limits configurable through `agent.subagentMaxIterations` (30 requests by default, an exhausted agent returning its partial findings with an explicit completion status), let ACP clients answer follow-up questions through form elicitation, kept per-agent model, reasoning, and research-only scope through Code Mode while forwarding image evidence to the model, continued a required completion review with disclosed session evidence when a large workspace diff exceeds its capture budget, and added Keenable as a `/search` provider, after v0.9.10 (published November 4, 2026), which paints the composer before background MCP connections and repository snapshots finish so startup reads instant, reconnects MCP servers in the background when a saved session resumes, adds Ctrl+S steering of queued input for terminals that cannot distinguish Ctrl+Enter, a browsable `/` slash-command menu, opt-in adaptive skills that load complete pinned instructions when a task needs them with visible loading receipts, translation of supported Claude Code permission rules on import with a dry-run preview, and unattended turns exiting with status 77 at the first missing tool approval, after the first stable v0.9.9 tag (published October 27, 2026, adding Ctrl+Enter steering of queued messages into the running conversation, identity-retaining streamed tool-call continuations, and replies that stay visible while reviews, todos, steering, and peer updates continue), and the npm package `autohand-cli` sits at latest 0.9.11 (published November 12, 2026).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=autohandai/code-cli&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,7 @@ Not for organizations needing an unmodified Apache-2.0 story, and not for anyone
 - 2026-10-29 - Recorded the first stable v0.9.9 release and npm 0.9.9 (both published October 27, 2026) after the 0.9.9-alpha train: Ctrl+Enter steering of queued messages, identity-retaining streamed tool-call continuations, and replies staying visible while reviews, todos, steering, and peer updates continue; refreshed the push date to 2026-10-29.
 - 2026-10-29 - Corrected the star-history chart markup: the light source and fallback image dropped the dark-theme parameter to match the canonical chart block.
 - 2026-11-06 - Rotation re-verification, re-fetching every cited reference (all live): recorded the v0.9.10 release and npm 0.9.10 (both published November 4), refreshed the push date to 2026-11-05, and recorded the Free plan's monthly credit cap dropping from the baseline's 100 to 50 with the matching Price history row (all other plan prices unchanged).
+- 2026-11-13 - Rotation re-verification, re-fetching every cited reference (all live): recorded the v0.9.11 release and npm 0.9.11 (both published November 12), refreshed the push date to 2026-11-12, and re-read the pricing ladder unchanged.
 
 ## See also
 
@@ -95,9 +96,9 @@ Not for organizations needing an unmodified Apache-2.0 story, and not for anyone
 ## References
 
 - https://github.com/autohandai/code-cli - repository and README: feature surface, installer behaviors including the PATH `agent` takeover, provider table, skills and tools (fetched 2026-10-27)
-- https://api.github.com/repos/autohandai/code-cli - created 2025-12-12, 211 stars, 37 forks, Apache-2.0, pushed 2026-11-05 (GitHub API, as of 2026-11-06)
-- https://api.github.com/repos/autohandai/code-cli/releases?per_page=3 - v0.9.10 published 2026-11-04 after the first stable v0.9.9 on 2026-10-27 (GitHub API, as of 2026-11-06)
-- https://registry.npmjs.org/autohand-cli - npm distribution: latest 0.9.10, package created 2025-12-17 (registry API, as of 2026-11-06)
+- https://api.github.com/repos/autohandai/code-cli - created 2025-12-12, 211 stars, 37 forks, Apache-2.0, pushed 2026-11-12 (GitHub API, as of 2026-11-13)
+- https://api.github.com/repos/autohandai/code-cli/releases?per_page=3 - v0.9.11 published 2026-11-12 after the first stable v0.9.9 on 2026-10-27 (GitHub API, as of 2026-11-13)
+- https://registry.npmjs.org/autohand-cli - npm distribution: latest 0.9.11, package created 2025-12-17 (registry API, as of 2026-11-13)
 - https://www.autohand.ai/code/ - product surface, hosted model roster, surfaces, testimonials, and the SOC 2 claim (fetched 2026-10-27)
 - https://autohand.ai/code/pricing/ - the plan ladder, credit mechanics, BYOK exemption, and cloud-sandbox tiers, re-verified 2026-11-06
 - https://raw.githubusercontent.com/autohandai/code-cli/main/COMMERCIAL.md - the commercial-license requirement for organizations over $5M ARR

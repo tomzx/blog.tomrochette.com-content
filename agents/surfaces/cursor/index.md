@@ -1,7 +1,7 @@
 ---
 title: Cursor
 created: 2026-08-23
-updated: 2026-11-08
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, surfaces, ai-editors, anysphere]
 readability: 3
@@ -26,7 +26,7 @@ OpenAI notified Anysphere on August 28, 2026 that it is winding down Cursor's di
 SpaceX completed the acquisition on August 14, 2026, closing a process that started with the SpaceXAI training partnership announced in April 2026, and the June 2026 announcement thread carried a $60 billion price.
 The vendor-announced 2026 record includes a Gartner Magic Quadrant Leader placement (May) and an agent-security certification (August).
 On August 31, 2026 the OpenAI split went public: OpenAI cited terms-of-service confidence after the acquisition, Cursor's CEO put OpenAI models at about 5% of user traffic, and Anthropic publicly committed to keep serving Claude models in Cursor.
-As of 2026-11-08 the November 12, 2026 shutoff stands unrevised: OpenAI's announcement still frames the date as proposed and no later reporting moves it, and the models docs still list the OpenAI models without a removal notice (GPT-5.6 Sol, Luna, and Terra all present), though the promotional-pricing callout that ran through November 21 on the 2026-11-01 verification is no longer on the fetched pages.
+The proposed shutoff date then passed: OpenAI added an update to its announcement on November 12, 2026 stating it had temporarily extended Cursor's access to its models beyond November 12 (the post is behind a site-wide 403 bot wall to automated fetches, so the update is grounded by the fetched captures quoting it), and the models docs on 2026-11-13 still list GPT-5.6 Sol, Luna, and Terra with their full rate-card rows and no removal notice, while the promotional-pricing callout that ran through November 21 on the 2026-11-01 verification is no longer on the fetched pages.
 By 2026-10-13 the consumer plans had been restructured into X's subscription ladder (Plus, Premium, Super, Ultra), with Cursor subscriptions sold only through X Subscription Corp, the deepest merge yet of the editor into the acquirer's stack.
 
 ## Strengths
@@ -84,6 +84,7 @@ Not for anyone who needs an open, auditable toolchain or a predictable bill.
 - 2026-11-01 - Rotation re-verification, all cited URLs re-fetched live: the X-fused pricing ladder and the legacy $20/$60/$200 marking stand, the models docs still list the OpenAI models without a removal notice eleven days before the proposed November 12 shutoff (GPT-5.6 Sol's promotional pricing through November 21 intact), the AGENTS.md rules docs, the acquisition post, the CNBC wind-down report, and both HN threads stand; prices unchanged.
 - 2026-11-08 - Rotation re-verification, all cited URLs re-fetched live: the X-fused pricing ladder, the legacy ladder marking, the AGENTS.md rules docs, the acquisition post, the CNBC wind-down report, and both HN threads stand, and the models docs still list the OpenAI models (Sol, Luna, Terra) without a removal notice three days before the proposed November 12 shutoff; the GPT-5.6 Sol promotional-pricing callout is no longer on the fetched pages.
 - 2026-11-08 - Recorded the closed distribution in Cautions (the public getcursor/cursor repository is an issue tracker pointing at the website, no product source, no license), correcting the matrix's Open source cell, which had carried an Apache-2.0 claim tracing to nothing.
+- 2026-11-13 - Recorded the proposed November 12 shutoff passing: OpenAI's announcement gained a November 12 update temporarily extending Cursor's model access beyond the date, and the models docs on 2026-11-13 still list GPT-5.6 Sol, Luna, and Terra with rate-card rows and no removal notice; the wall on openai.com (403 including the domain root under a browser user agent) is recorded and the citation stands.
 
 ## See also
 
@@ -95,7 +96,8 @@ Not for anyone who needs an open, auditable toolchain or a predictable bill.
 ## References
 
 - https://cursor.com/pricing - the pricing page, restructured by 2026-10-13 into the X-fused ladder (Free, Plus $8, Premium $30, Super $100, Ultra $200, Teams from $30/user, Enterprise custom) with the weekly shared usage pool and the X Subscription Corp seller statement, re-fetched 2026-11-01 unchanged
-- https://cursor.com/docs/models-and-pricing - the legacy plan ladder (Pro $20, Pro+ $60, Ultra $200, Start ₹649, Teams Standard $40 and Premium $120), the per-model rate card, and the Cursor Token Rate, with the OpenAI models still listed without a removal notice as of 2026-11-08, three days before the proposed November 12 shutoff (the GPT-5.6 Sol promotional-pricing callout last seen on the 2026-11-01 fetch is no longer on the page)
+- https://cursor.com/docs/models-and-pricing - the legacy plan ladder (Pro $20, Pro+ $60, Ultra $200, Start ₹649, Teams Standard $40 and Premium $120), the per-model rate card, and the Cursor Token Rate; on 2026-11-13, one day past the proposed shutoff, the page still lists GPT-5.6 Sol, Luna, and Terra with full rate-card rows, no removal notice, and the "frontier models from OpenAI" lead-in
+- https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ - the wind-down announcement, whose November 12, 2026 update line states Cursor's access was temporarily extended beyond November 12; the site serves 403 to plain and browser-UA fetches including the domain root, so the citation stands with the wall recorded and the update grounded by fetched captures quoting it
 - https://cursor.com/docs/rules - the rules system and AGENTS.md support in project root and subdirectories, as of 2026-10-05
 - https://cursor.com/blog/joining-spacex - the August 14, 2026 acquisition completion post
 - https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html - the OpenAI wind-down: the proposed November 12, 2026 shutoff, the terms-of-service rationale, Truell's 5 percent traffic statement, and the $60 billion completion, re-fetched 2026-10-23 (replaces the devops.com writeup, which now sits behind a bot-blocking challenge)

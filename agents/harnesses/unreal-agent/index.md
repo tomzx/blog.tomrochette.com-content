@@ -1,7 +1,7 @@
 ---
 title: Unreal Agent
 created: 2026-09-25
-updated: 2026-11-04
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, coding-agent, go, async]
 readability: 3
@@ -73,6 +73,7 @@ The plain summary is that its one claim, async tool calls cut harness token over
 - 2026-10-20 - Rotation re-verification: corrected the release count (four releases over five tags; v0.3.0 was tagged without a release) and refreshed the push date.
 - 2026-10-28 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the push date to 2026-10-23.
 - 2026-11-04 - Rotation re-verification, re-fetching every cited reference (all live), and corrected the liveness reading against the default branch per the pushed-date ruling: the default branch has been quiet since 2026-10-06, the repository-level pushed date of 2026-11-01 having moved on side branches; the release set (v0.3.1 still newest) and the launch-thread figures re-confirmed unchanged.
+- 2026-11-13 - Rotation re-verification, re-fetching every cited reference (all live): the vendor blog, company site, the cited HarnessTax study, and the launch thread (247 points as of 2026-11-13) all re-confirmed unchanged, with the default branch quiet since 2026-10-06 and v0.3.1 still the newest release.
 
 ## See also
 
@@ -86,6 +87,6 @@ The plain summary is that its one claim, async tool calls cut harness token over
 
 - https://github.com/unreallabsai/unreal-agent - the repo, MIT license, releases, and star and fork counts as of 2026-10-20
 - https://unreallabs.ai/blog/unreal-agent/ - the architecture, async tool-call model, Harbor-linked benchmark tables, and company backing
-- https://news.ycombinator.com/item?id=49805748 - the launch thread (242 points, 122 comments as of 2026-09-25) and the baseline-mismatch critique
+- https://news.ycombinator.com/item?id=49805748 - the launch thread (242 points and 122 comments as of 2026-09-25, re-read at 247 points as of 2026-11-13) and the baseline-mismatch critique
 - https://unreallabs.ai/ - the company positioning and the Sequoia and First Round backing line
 - https://arena.ai/blog/coding-agents-harness-tax - the HarnessTax study the announcement cites as its framing reference

@@ -1,7 +1,7 @@
 ---
 title: Zerostack
 created: 2026-08-30
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, terminal]
 readability: 3
@@ -25,7 +25,7 @@ An ARCHITECTURE.md file complements AGENTS.md with shared core knowledge for age
 
 ## Status
 
-Active: the repository was pushed 2026-11-10 (GitHub API, re-checked 2026-11-11), created May 12, 2026, with the latest release v1.8.5 on October 10, 2026, which deprecated the Ralph Wiggum `/loop` (still available until the next major but dropped from the default compile-time features), switched the lite binary family to shipping default features, added permission-wait status signals over protocol v1.1, added opencode-zen and opencode-go provider recipes, and credited four first-time external contributors.
+Active: the repository was pushed 2026-11-11 (GitHub API, re-checked 2026-11-13), created May 12, 2026, with the latest release v1.8.6 (published November 11, 2026 on GitHub; crates.io still listed 1.8.5 as its max version as of 2026-11-13), which turned `deny_repeated_reads` off by default, fixed its logic along with the TUI's span normalization and ACP session loading, added Pijul commands, documented `$XDG_DATA_HOME` and an API Route custom-provider recipe, refreshed the model catalog from models.dev, and updated the Cargo dependencies, after v1.8.5 on October 10, 2026, which deprecated the Ralph Wiggum `/loop` (still available until the next major but dropped from the default compile-time features), switched the lite binary family to shipping default features, added permission-wait status signals over protocol v1.1, added opencode-zen and opencode-go provider recipes, and credited four first-time external contributors.
 1,708 stars and 140 forks as of 2026-10-15.
 
 <picture>
@@ -37,7 +37,7 @@ Active: the repository was pushed 2026-11-10 (GitHub API, re-checked 2026-11-11)
 The May 16, 2026 launch thread reached 575 points (item 48164287), the highest-signal uncovered harness candidate of this cycle, with follow-up release threads through June and a Show HN in July.
 v1.8.0, "The Great Cleanup", landed September 3, 2026 after a six-week release quiet stretch and credited several external contributors with a large TUI refactoring.
 v1.8.5 followed on October 10 with outside contributors again, so the project has now shipped two community-credited releases since the solo stretch.
-3,783 crate downloads on crates.io (690 recent) as of 2026-11-07.
+3,799 crate downloads on crates.io (643 recent) as of 2026-11-13.
 It is a one-person project with a ko-fi jar and a public call for company sponsors.
 
 ## Strengths
@@ -81,6 +81,7 @@ I think the Rust-rewrite wave confuses a small memory footprint with a good agen
 - 2026-10-24 - Rotation re-verification, re-fetching every cited reference (all live, crates.io via its API's required user agent): refreshed the push date to 2026-10-23 and crates.io counters to 3,722 total (748 recent), with v1.8.5 still the newest release.
 - 2026-10-30 - Rotation re-verification, re-fetching every cited reference (all live, crates.io via its API's required user agent): refreshed crates.io counters to 3,760 total (724 recent), with v1.8.5 still the newest release and the push date unchanged at 2026-10-28.
 - 2026-11-07 - Rotation re-verification, re-fetching every cited reference (all live, crates.io via its API's required user agent): refreshed crates.io counters to 3,783 total (690 recent), v1.8.5 still the newest release, and re-checked the push date unchanged at 2026-11-04.
+- 2026-11-13 - Recorded the v1.8.6 release (published November 11 on GitHub, crates.io still listing 1.8.5): `deny_repeated_reads` off by default, TUI span-normalization and ACP session-loading fixes, Pijul commands, XDG_DATA_HOME and API Route recipe docs, and a models.dev catalog refresh; refreshed crates.io counters to 3,799 total (643 recent) and the push date to 2026-11-11.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: YYLO
 created: 2026-10-21
-updated: 2026-11-04
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflows, git-worktrees, evidence]
 readability: 3
@@ -71,11 +71,13 @@ Not for teams wanting a GUI, and not without tolerance for 0.2.x churn and exact
 
 ## Changes
 
+
 - 2026-10-21 - Created.
 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo API, site, docs, changelog, npm, releases, the Ledger README); npm refreshed to 0.2.13, pushes through 2026-11-03, the exact Ledger 0.4.0 pin and the GitHub train stopping at 0.2.1-rc.14 both unchanged.
+- 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); no factual drift (yylo.dev now canonicalizes to www.yylo.dev), the release train still stopped at 0.2.1-rc.14 (2026-09-02).
 
 ## See also
 

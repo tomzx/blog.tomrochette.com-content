@@ -1,7 +1,7 @@
 ---
 title: Google Antigravity
 created: 2026-08-24
-updated: 2026-11-04
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, google]
 readability: 3
@@ -79,6 +79,7 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 - 2026-10-16 - Rotation re-verification, all cited URLs re-fetched live: recorded Gemini 4 Argon joining the paid tiers (October 13, App, CLI, and IDE extensions, not the Antigravity IDE) and Gemini 3.1 Pro plus the 3.6 to 3.7 Flash pair moving to Enterprise-only in the models docs, and added the vendor's in-thread clarification that the September ToS clause concerns the Antigravity account rather than the whole Google identity; prices unchanged.
 - 2026-10-25 - Rotation re-verification, all eleven cited URLs re-fetched live: the pricing page, the models table (Argon on Pro, Ultra, and Enterprise; the November 2, 2026 removal dates on the Claude 4.6 pair and GPT-OSS-120b), the no-BYOK plans statement, the SDK local-models page, the Gemini CLI transition post, and all four threads (launch 1088, exfiltration 768, bait-and-switch 771, ToS 338) stand; prices unchanged.
 - 2026-11-04 - Rotation re-verification, all eleven cited URLs re-fetched live: the removal dates on the Claude Sonnet 4.6, Opus 4.6, and GPT-OSS-120b free-tier models moved from November 2 to November 18, 2026 in the models docs, and the pricing page, plans page, SDK local-models page, Argon post, Gemini CLI transition post, and all four threads stand; prices unchanged.
+- 2026-11-13 - Rotation re-verification, all cited URLs re-fetched live: the models table stands with the November 18, 2026 removal dates five days out, Argon still on the paid tiers, 3.1 Pro and the 3.6 to 3.7 Flash pair still Enterprise-only, and the pricing page, plans page (no BYOK), SDK local-models page, Argon post, Gemini CLI transition post, and all four threads (1088, 768, 771, and 338 points) unchanged; prices unchanged.
 
 ## See also
 

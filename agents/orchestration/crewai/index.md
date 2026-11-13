@@ -1,7 +1,7 @@
 ---
 title: CrewAI
 created: 2026-09-29
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -23,7 +23,7 @@ The repo sits at 59,709 stars with 8,729 forks, MIT licensed, created 2023-10-27
 
 ## Status
 
-Active and heavily maintained: last push 2026-11-11, latest release 1.15.40 on 2026-11-11 after 1.15.39 (2026-11-09), 1.15.38 (2026-11-08), and 1.15.37 (2026-11-07), and `crewai` 1.15.40 on PyPI (GitHub API, PyPI, as of 2026-11-12), continuing the near-daily patch train after 1.15.33 (2026-10-29), 1.15.32 (2026-10-27), 1.15.28 (2026-10-14), and 1.15.23 (2026-09-28).
+Active and heavily maintained: last push 2026-11-13, latest release 1.15.41 on 2026-11-12 after 1.15.40 (2026-11-11), 1.15.39 (2026-11-09), 1.15.38 (2026-11-08), and 1.15.37 (2026-11-07), and `crewai` 1.15.41 on PyPI (GitHub API, PyPI, as of 2026-11-13), continuing the near-daily patch train after 1.15.33 (2026-10-29), 1.15.32 (2026-10-27), 1.15.28 (2026-10-14), and 1.15.23 (2026-09-28).
 The company raised $18M across seed and Series A in October 2024, led by Insight Partners and boldstart ventures, with Andrew Ng and HubSpot co-founder Dharmesh Shah as angels (SiliconANGLE).
 Company claims include 65 percent of the Fortune 500 using the platform (the pricing page as of 2026-10-11, up from roughly half at the September baseline) and 10 million+ agents executed monthly; I could not independently verify either number.
 
@@ -84,6 +84,7 @@ Not for coordinating parallel coding agents (that is the rest of this category),
 - 2026-11-01 - Removed the Wikipedia reference and the strengths bullet citing it: the article was deleted 2026-10-30 as expired LLM-generated content (WP:LLMPROD), with the deletion log cited in its place and the fact recorded as a caution.
 - 2026-11-04 - Recorded 1.15.35 (2026-11-03) as the latest release on GitHub and PyPI, the push date refreshed to 2026-11-04.
 - 2026-11-06 - Volatile refresh: Recorded 1.15.36 (2026-11-06) as the new latest release, PyPI tracking.
+- 2026-11-13 - Volatile refresh: Recorded 1.15.41 (2026-11-12) as the latest release on GitHub and PyPI, PyPI tracking, the push date refreshed to 2026-11-13.
 
 ## See also
 
@@ -97,8 +98,8 @@ Not for coordinating parallel coding agents (that is the rest of this category),
 - https://api.github.com/repos/crewAIInc/crewAI - GitHub API (200): 59,157 stars, 8,601 forks, MIT, pushed 2026-09-29, created 2023-10-27 (as of 2026-09-29)
 - https://docs.crewai.com/introduction - official documentation, live (200)
 - https://www.crewai.com/pricing - pricing page (200): Basic $0 with 50 workflow executions/month, Enterprise custom
-- https://pypi.org/pypi/crewai/json - PyPI metadata (200): crewai 1.15.23, Python >=3.10,<3.14
-- https://api.github.com/repos/crewAIInc/crewAI/releases/latest - releases API (200): 1.15.23, published 2026-09-28
+- https://pypi.org/pypi/crewai/json - PyPI metadata (200): crewai 1.15.23, Python >=3.10,<3.14 (re-fetched 2026-11-13 reading 1.15.41)
+- https://api.github.com/repos/crewAIInc/crewAI/releases/latest - releases API (200): 1.15.23, published 2026-09-28 (re-fetched 2026-11-13 reading 1.15.41, published 2026-11-12)
 - https://siliconangle.com/2024/10/22/agentic-ai-startup-crewai-closes-18m-funding-round/ - $18M seed and Series A, Insight Partners and boldstart, angels Andrew Ng and Dharmesh Shah (200)
 - https://en.wikipedia.org/w/api.php?action=query&list=logevents&letitle=CrewAI&format=json - the English Wikipedia deletion log (fetched 2026-11-01): the CrewAI article was deleted 2026-10-30 as expired LLM-generated content (WP:LLMPROD)
 - https://hn.algolia.com/api/v1/items/43354219 - largest CrewAI HN thread (200): 26 points, hobby-workflow showcase (critical source: thin independent critique relative to star scale)

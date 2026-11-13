@@ -1,7 +1,7 @@
 ---
 title: Omnara
 created: 2026-08-30
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-control-plane, mobile, self-hosted, yc]
 readability: 3
@@ -27,7 +27,7 @@ It sits in the orchestration layer of this section's taxonomy (control plane and
 
 **Active, well-capitalized by YC standards, and shipping daily.**
 2,917 stars and 237 forks as of 2026-10-15 on a repo created July 9, 2025, with pushes landing within a day of verification (GitHub API).
-The release train runs two product lines recorded 2026-11-12: `omnarad`, the daemon line, at v0.2.21 (2026-11-12, after v0.2.20 on 2026-11-10, v0.2.19 on 2026-11-09, v0.2.17 on 2026-11-04, v0.2.16 on 2026-11-03, v0.2.15 on 2026-10-30, v0.2.14 on October 29 with its canonical daemon binaries, v0.2.13 on October 28, and v0.2.12 on October 27), and `cluster`, a separate line at v0.2.21 the same day (after v0.2.19 on 2026-11-09 and v0.2.18 on 2026-11-09), both lines having moved on from the v0.2.2 tags they shared on 2026-10-10 (GitHub releases), and all postdating the `cli` line's last tag (cli-v1.0.11, 2026-09-12).
+The release train runs two product lines recorded 2026-11-13: `omnarad`, the daemon line, at v0.2.22 (2026-11-13, after v0.2.21 on 2026-11-12, v0.2.20 on 2026-11-10, v0.2.19 on 2026-11-09, v0.2.17 on 2026-11-04, v0.2.16 on 2026-11-03, v0.2.15 on 2026-10-30, v0.2.14 on October 29 with its canonical daemon binaries, v0.2.13 on October 28, and v0.2.12 on October 27), and `cluster`, a separate line at v0.2.22 the same day (after v0.2.21 on 2026-11-12, v0.2.19 on 2026-11-09 and v0.2.18 on 2026-11-09), both lines having moved on from the v0.2.2 tags they shared on 2026-10-10 (GitHub releases), and all postdating the `cli` line's last tag (cli-v1.0.11, 2026-09-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=omnara-ai/omnara&type=date&theme=dark&legend=top-left" />
@@ -88,6 +88,7 @@ I believe every serious agent deployment eventually needs exactly what Omnara is
 - 2026-10-25 - Recorded v0.2.10 and v0.2.11 on both the omnarad and cluster release lines.
 - 2026-11-01 - Rotation re-verification (every cited URL re-fetched live, pricing figures unchanged); recorded omnarad v0.2.15 and cluster v0.2.15 (both 2026-10-30) on the two release lines.
 - 2026-11-06 - Volatile refresh: Recorded `omnarad` v0.2.17 (2026-11-04) as the new latest daemon release.
+- 2026-11-13 - Volatile refresh: Recorded `omnarad` v0.2.22 and `cluster` v0.2.22 (both 2026-11-13) at the head of the two release lines.
 
 ## See also
 

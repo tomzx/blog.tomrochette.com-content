@@ -1,7 +1,7 @@
 ---
 title: Agno
 created: 2026-09-29
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -22,7 +22,8 @@ The repo sits at 42,559 stars with 6,100 forks, Apache-2.0, Python 3.9+ (GitHub 
 
 ## Status
 
-Active: last push 2026-11-11, latest release v3.1.12 on 2026-10-29 (v3.1.11 2026-10-27, v3.1.10 2026-10-23), `agno` 3.1.12 on PyPI, 42,739 stars as of 2026-10-15 (GitHub API, PyPI, as of 2026-11-12).
+Active: last push 2026-11-13, latest release v3.2.0 on 2026-11-12 (v3.1.12 2026-10-29, v3.1.11 2026-10-27, v3.1.10 2026-10-23), `agno` 3.2.0 on PyPI, 42,739 stars as of 2026-10-15 (GitHub API, PyPI, as of 2026-11-13).
+v3.2.0 upgrades AgentOS to the official A2A v1.0 protocol on `a2a-sdk` 1.x, a breaking change that removes the `/v1/message:*` and `/v1/tasks:*` routes and requires upgrading Agno servers and clients together, makes external agents first-class stored components, adds direct tools, Company task-governance expansion, and database-backed AgentOS homepage metrics (release notes).
 v3.1.12 surfaced the harness agents' own permission prompts in the control plane: Claude's and Codex's native approval requests now open in the AgentOS approval UI, pausing the run there until Resolve delivers the decision back to the same native execution without replaying the prompt.
 v3.1.5 gave sandboxed agents repositories (`repository=Repository(url, branch=...)` starts every session inside that checkout) and v3.1.6 let eval `Case`s carry run arguments (`session_id`, `user_id`, `session_state`, `dependencies`, `metadata`, and knowledge filters forwarded into the run). v3.1.4 sandboxed the harness agents: `ClaudeAgent` and `CodexAgent` take a `sandbox=` parameter and run the whole harness process in an isolated per-session container, with session state that survives losing the container, host, or replica that ran the last turn.
 v3.1.3 made ClaudeAgent sessions durable across replicas: the Claude SDK session id is stored on the Agno session and, with a transcript-capable database, every transcript line is mirrored into an `agno_transcripts` table so a later turn on another machine resumes from the database instead of a local file.
@@ -93,6 +94,7 @@ Not for teams allergic to benchmark-driven marketing, or anyone needing a vendor
 - 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live (pricing unchanged at $150 with the $30/$95/$300 add-ons); recorded v3.1.12 (2026-10-29, native approval flows for harness agents) as the latest release on GitHub and PyPI.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v3.1.12 still the latest release on GitHub and PyPI.
 - 2026-11-08 - Re-verified in rotation: every cited URL re-fetched live (repo API, docs, pricing, PyPI, releases API, the GA post, both HN threads); claims hold, v3.1.12 still the latest release on GitHub and PyPI, and the pricing page's tiers unchanged at $150 with the $30/$95/$300 add-ons (the page now headlines "Free Runtime, $150 for the Control Plane"); the two stale creation-date snapshots in References refreshed.
+- 2026-11-13 - Volatile refresh: Recorded v3.2.0 (2026-11-12) as the latest release on GitHub and PyPI, PyPI tracking, with its A2A v1.0 breaking change summarized; the push date refreshed to 2026-11-13.
 
 ## See also
 
@@ -107,7 +109,8 @@ Not for teams allergic to benchmark-driven marketing, or anyone needing a vendor
 - https://docs.agno.com/introduction - official documentation, live (200)
 - https://www.agno.com/pricing - pricing page (200): Free Runtime $0, Control Plane $150/month, add-ons $30/$95/$300; re-fetched 2026-11-08 with the tiers unchanged and the page now headlining "Free Runtime, $150 for the Control Plane"
 - https://pypi.org/pypi/agno/json - PyPI metadata (200): agno 3.1.12, Python >=3.9,<4 (re-fetched 2026-11-08)
-- https://api.github.com/repos/agno-agi/agno/releases/latest - releases API (200): v3.1.12, published 2026-10-29 (re-fetched 2026-11-08)
+- https://api.github.com/repos/agno-agi/agno/releases/latest - releases API (200): v3.1.12, published 2026-10-29 (re-fetched 2026-11-08; re-fetched 2026-11-13 reading v3.2.0, published 2026-11-12)
+- https://api.github.com/repos/agno-agi/agno/releases/tags/v3.2.0 - the v3.2.0 release body: A2A v1.0 upgrade with breaking route removals, external agents as stored components, direct tools, homepage metrics (fetched 2026-11-13)
 - https://www.agno.com/articles/ga - GA announcement (200): Phidata rebrand, 2025-04-01, company claims (critical source: vendor claims)
 - https://hn.algolia.com/api/v1/items/43274435 - "Agno: Agent framework 10,000x faster than LangChain" thread (200): 47 points, claims challenged (critical source)
 - https://hn.algolia.com/api/v1/items/45596272 - Show HN: Agno multi-agent framework, runtime and UI (200): 15 points, 2025-10-15
