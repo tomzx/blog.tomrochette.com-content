@@ -1,7 +1,7 @@
 ---
 title: OKF Agent Memory
 created: 2026-10-17
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, agent-memory, okf, git-native, go, mcp]
 readability: 3
@@ -75,6 +75,7 @@ Not for cross-user or cross-app memory (one repo bundle, no multi-user API), and
 - 2026-10-29 - Recorded v0.7.2 (October 28): the pull-path security hardening from Nick Hodulik's responsible disclosure (remote-derived paths rejected for traversal, absolute, hidden-dotfile, and symlink escapes; staged atomic registry installs; the symlinked-CWD false positive fixed); the push date refreshed to 2026-10-28.
 - 2026-11-04 - Rotation re-verification: every cited URL re-fetched live (repository API and README, the docs site, the upstream OKF spec, the Agent Action Grammar RFC, the releases API, the launch and documentation-over-recall threads, the second implementation's API and its Show HN thread, and the okf-skills toolkit), no facts changed; v0.7.2 remains the latest release and the repository stays quiet since its 2026-10-29 push.
 - 2026-11-07 - Recorded v0.8.0 (November 5): declarative bundle scope isolation via a `scopes` frontmatter list with fail-closed refusal of disabled scopes, two-stage concurrent write protection (cross-process bundle lock plus optimistic-concurrency stale-overwrite rejection), automatic SSoT tool symlinks in bootstrap, distinct conflict-fork paths for multi-writer hub sync, and the breaking removal of the `--scope bundle` alias; the push date refreshed to 2026-11-05.
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched live (the repository API and README, the docs site, the upstream OKF spec, the Agent Action Grammar RFC, the releases API, all three threads, the second implementation, and the okf-skills toolkit), no facts changed (pushed 2026-11-05, v0.8.0 still the latest release, the launch thread at 81 points and the documentation-over-recall thread at 392, mcp-memory still dormant at its 2026-08-30 push).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-11-11 from side branches with the default branch quiet since the v1.6.7 release, and v1.6.7 (November 6) the latest stable release with PyPI in sync at 1.6.7.
+About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-11-13, and v1.6.8 (November 12) the latest stable release with PyPI in sync at 1.6.8.
 The README now carries a BEAM benchmark table with self-run scores: 0.79 at 100K tokens under fixed hybrid retrieval and 0.67 as an exploratory result at 10M tokens with question-type routing, each with stated methodology, limits, and an acknowledged reproduction gap for the distributed 10M ingestion, which moves the project from comparisons-only to published self-run numbers.
 The same README fronts a Postgres path that runs the whole memory layer on one Postgres instance as a demo feature (the production version is a licensed product).
 
@@ -41,6 +41,7 @@ v1.6.5 (October 16) speeds trace processing by persisting traces in fewer, large
 v1.6.6rc1 (October 23, pre-release) added Obsidian, Asana, and OneNote connectors with hardened Drive and Asana sync, and carried breaking changes self-hosters should read before the stable cut: dataset deletes now purge associated search and conversation history, and the run_info metadata no longer embeds the ingested data items.
 v1.6.6 (October 29), the stable cut, centers on contradiction handling: a durable fact conflict-resolution API that records and applies chosen resolutions across sessions, conflict review enabled by default so conflicting facts surface for review instead of slipping through, choices retired correctly on edits, deletes, and rebuilds, vectors copied between stores without re-embedding, and atomic or in-place Redis list and context deletions with permission and KMS errors surfaced instead of ignored.
 v1.6.7 (November 6) hardens the ingestion edge and search correctness: raw database connection strings and server file paths over HTTP are refused by default (breaking, with `ACCEPT_LOCAL_FILE_PATH` now also gating s3:// inputs), ingestion that carries Cognee's own credentials is refused, typed and scoped queries return correct LLM-safe results, feeling-lucky picks ignore disabled data types, query scoring batches and parallelizes across PGVector, Turso, and LanceDB, and DLT column writes record graph anchors so table rows reference back into the graph.
+v1.6.8 (November 12) is the integrations line: a Slack connector plus a @cognee Slack app that can answer and remember directly from Slack, a RabbitMQ-based embedding worker for background embedding generation, hardened Google-family connectors (Drive, Gmail, Calendar) with legacy-format and retry handling, and safer file locking with more correct audit-ledger writes.
 The company is part of the Berkeley Xcelerator and claims 5M+ SDK runs per month (vendor figure).
 The community discussion footprint is thin for the star count: its two Show HN threads drew 9 and 6 points, so third-party scrutiny lags the repository's popularity.
 
@@ -100,6 +101,7 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 - 2026-10-30 - Recorded v1.6.6 (October 29, stable cut, PyPI in sync): the durable fact conflict-resolution API and default-on conflict review land in the open engine, with correct choice retirement, re-embedding-free vector copying between stores, and atomic Redis deletions with surfaced permission and KMS errors.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live (repository, README, v1.6.3 release notes, site, pricing, docs, PyPI, both Show HN threads), pricing unchanged (Free $0, Standard $1.00 per 1M plus $5 per workspace, Enterprise BYOC), and recorded v1.6.7 (November 6, PyPI in sync): ingestion refuses raw database connection strings and HTTP server file paths by default (breaking), scoped searches return correct LLM-safe results, and query scoring batches across PGVector, Turso, and LanceDB; the push date refreshed to 2026-11-06.
 - 2026-11-11 - Volatile re-verification: the 2026-11-11 pushed_at movement resolved to side-branch pushes with the default branch quiet since the v1.6.7 release; no facts changed.
+- 2026-11-13 - Recorded v1.6.8 (November 12, PyPI in sync): the Slack connector and @cognee app, a RabbitMQ embedding-worker engine, hardened Google-family connectors, and the file-locking and audit-ledger reliability fixes; the push date refreshed to 2026-11-13.
 
 ## See also
 

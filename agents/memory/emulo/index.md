@@ -1,7 +1,7 @@
 ---
 title: Emulo
 created: 2026-10-11
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-mining, personalization, mcp, open-source]
 readability: 3
@@ -36,6 +36,7 @@ An HN search finds no thread of its own as of 2026-10-11, only a 2013 product na
 The test record, in full: in the August 2026 study, 60 runs with every prediction written down in advance, the mined profile did not separate from an invented profile on any of 9 comparisons, and the author published it at emulo.vercel.app/placebo, a page whose headline is that his own product lost to a profile he made up.
 The September rerun, run the night Fable 5.1 shipped with a newer July 2026 profile and a new invented placebo, separated on 5 of 9 comparisons on Fable 5.1 and 1 of 9 on Opus 5, with the pre-registration, harness, scorer, and every raw output linked at emulo.vercel.app/fable.
 Both tests measure whether the output changed, not whether it got better, and the README says so rather than claiming otherwise.
+The README also fronts the Emulo Proof v1 methodology, an unexecuted benchmark runbook (a frozen claim boundary, cost and ship approval gates, 48 isolated cell executions) that states no public result exists and its committed example is synthetic and non-comparable.
 
 ## Strengths
 
@@ -77,6 +78,7 @@ My disagreeable claim: the 0-for-9 August result is the most trustworthy artifac
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still last pushed 2026-10-12, PyPI still at 0.6.7, the HN search still surfacing only the unrelated Emulos product, the placebo page's free-for-three service unchanged).
 - 2026-10-30 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still pushed 2026-10-12, PyPI still at 0.6.7 with eight releases, the placebo page still advertising the free-for-three service with none bought, the fable page and support matrix unchanged, the HN search still surfacing only the 2013 Emulos product).
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still pushed 2026-10-12, MIT, PyPI still at 0.6.7 with eight releases, the placebo and fable pages live with the same headline results, the README's maintenance scope unchanged, the HN search still surfacing only the 2013 Emulos products).
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched live, no facts changed in the core record (the repository still pushed 2026-10-12, PyPI still at 0.6.7 with eight releases, the placebo and fable pages live with the same headline results, the HN search still surfacing only the Emulos products), and the README's new Emulo Proof v1 runbook recorded (an unexecuted benchmark methodology with a frozen claim boundary and approval gates, no public result).
 
 ## See also
 
@@ -93,4 +95,5 @@ My disagreeable claim: the 0-for-9 August result is the most trustworthy artifac
 - https://emulo.vercel.app/placebo - the August 2026 placebo page: the 60-run study where the mined profile lost or tied all 9 pre-registered comparisons, published with the method
 - https://emulo.vercel.app/fable - the September 2026 day-one rerun: 5 of 9 on Fable 5.1 and 1 of 9 on Opus 5, with pre-registration, harness, scorer, and raw outputs linked
 - https://pypi.org/pypi/emulo/json - PyPI at 0.6.7 (uploaded 2026-09-25), MIT, first release 0.5.0 on 2026-07-16
+- https://raw.githubusercontent.com/ohad6k/emulo/main/docs/proof/README.md - the Emulo Proof v1 runbook: the unexecuted benchmark methodology, its frozen claim boundary, and the two approval gates (fetched 2026-11-13)
 - https://hn.algolia.com/api/v1/search?query=emulo&tags=story - no thread of its own, only a 2013 "Emulos" analytics product (queried 2026-10-11), the missing-footprint record

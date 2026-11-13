@@ -1,7 +1,7 @@
 ---
 title: Sno Station
 created: 2026-10-28
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, cross-harness, encryption, open-source]
 readability: 3
@@ -28,7 +28,7 @@ Three data modes surround that core: Local First uploads no memory text, Agent N
 ## Status
 
 **Young, fast-rising, and entirely self-evidenced.**
-929 stars and 364 forks on a repository created 2026-09-19 (public since 2026-09-18) and pushed 2026-11-07, Apache-2.0, as of 2026-11-07 (GitHub API).
+929 stars and 364 forks on a repository created 2026-09-19 (public since 2026-09-18) and pushed 2026-11-13, Apache-2.0, as of 2026-11-13 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sno-ai/sno-station&type=date&theme=dark&legend=top-left" />
@@ -87,6 +87,7 @@ Not for privacy-strict environments that cannot accept the default nightly sessi
 - 2026-11-01 - Recorded v1.7.2 (October 31): conversations interrupted by login or usage limits wait instead of failing (Cursor keeps queued conversations, Claude Code and Codex retain them until access returns), and the version-history deletion recurred: v1.7.1, the prior newest release, is itself gone from tags and releases, so tags now jump from v1.3.5 to v1.7.2; the release-history caution updated to the second instance.
 - 2026-11-03 - Recorded v1.7.3 (November 2): one agent can ping another while you type in its window, the ping waits in the recipient's inbox with nothing sent on your behalf, and the same behavior holds in tmux and Orca; v1.7.2 still stands in tags and releases, so the release-history deletion has not recurred a third time.
 - 2026-11-07 - Recorded the 2.0 line: v2.0.0 (November 4) shipped tag-team (`sno reach pair` puts two agents on one task with the argument already had, `sno squad` lays out the squad, tasks survive quota, crash, and closed windows with the outcome reported, approved lessons apply to the next reply, and messages queue inbox-first), and v2.0.1 (November 7) keeps the squad running when automatic checks time out; v1.7.2 and v1.7.3 still stand, so the release-history deletion has not recurred; the push date refreshed to 2026-11-07.
+- 2026-11-13 - Volatile re-verification: the README rework recorded (a what-it-is opening ahead of the install line with four usage ways, a header image, badges moved); v2.0.1 still the newest published release and still standing in tags and releases, and the push date refreshed to 2026-11-13.
 
 ## See also
 

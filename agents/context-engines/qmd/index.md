@@ -1,7 +1,7 @@
 ---
 title: qmd
 created: 2026-08-30
-updated: 2026-11-06
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, retrieval, local-search, open-source]
 readability: 3
@@ -75,6 +75,7 @@ Not for code-symbol search (use grep-class tools), constrained machines, or team
 - 2026-10-20 - Full rotation re-verification: every cited URL re-fetched and intact; v2.8.3 remains the latest release with the unreleased train (metadata filtering and discovery, collection-partitioned vectors) recorded in Status.
 - 2026-10-27 - Full rotation re-verification: every cited URL re-fetched and intact; v2.8.3 remains the latest release with the unreleased train on main unchanged and no push since 2026-10-15.
 - 2026-11-06 - Full rotation re-verification: every cited URL re-fetched and intact (repository page and README, CHANGELOG, GitHub API, and the author's HN thread); v2.8.3 remains the latest release with the unreleased train on main unchanged (metadata filtering and discovery, collection-partitioned vectors) and no push since 2026-10-15.
+- 2026-11-13 - Full rotation re-verification: every cited URL re-fetched and intact (repository page and API, README, CHANGELOG, and the author's HN thread); v2.8.3 remains the latest release, the unreleased train on main unchanged in substance (metadata filtering and discovery, collection-partitioned vectors, community fixes) with two more unreleased fixes since the last look, and no push since 2026-10-15.
 
 ## See also
 

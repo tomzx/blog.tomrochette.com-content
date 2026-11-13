@@ -1,7 +1,7 @@
 ---
 title: Agent Protocol (LangChain)
 created: 2026-10-07
-updated: 2026-11-06
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, agent-serving, rest-apis]
 readability: 3
@@ -26,7 +26,7 @@ MIT licensed, stewarded in the `langchain-ai` GitHub organization (repository cr
 ## Status
 
 **Active and implementation-backed, with a thin independent footprint.**
-The repository shows 687 stars (as of 2026-10-13) and 63 forks with a push on 2026-11-03; the spec stays at OpenAPI 0.1.6 (re-fetched 2026-11-04), all as of 2026-11-04 (GitHub API).
+The repository shows 687 stars (as of 2026-10-13) and 64 forks with a push on 2026-11-05; the spec stays at OpenAPI 0.1.6 (re-fetched 2026-11-13), all as of 2026-11-13 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/agent-protocol&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ My disagreeable claim: this lane matters more than the protocol-sprawl critics a
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the OpenAPI document re-confirmed at 0.1.6 with the repository pushed 2026-10-30 (dependabot tooling merges only since the last pass), the streaming bindings stay at `langchain-protocol` 0.0.20 (uploaded 2026-10-20), the LangGraph Platform pricing URL still redirects to langchain.com/pricing, the README framing and resource list unchanged, and the footprint scans still find no dedicated launch thread for this spec (the name-collision 2023 agentprotocol.ai Show HN unchanged at 6 points); forks re-counted at 63.
 - 2026-11-04 - Re-verification: the OpenAPI document re-confirmed at 0.1.6 with the repository pushed 2026-11-03 (Python-client dependency-security fixes and a Python 3.11 requirement for the client, no release cut); the streaming bindings stay at `langchain-protocol` 0.0.20 (uploaded 2026-10-20).
 - 2026-11-06 - The streaming bindings moved to `langchain-protocol` 0.0.21 (uploaded 2026-11-05), the first PyPI release since 0.0.20 (2026-10-20); the OpenAPI document re-confirmed at 0.1.6.
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the OpenAPI document re-confirmed at 0.1.6 with the repository pushed 2026-11-05 (the streaming bindings' 0.0.21 release day) and forks re-counted at 64, the streaming bindings stay at `langchain-protocol` 0.0.21 (uploaded 2026-11-05), the README framing, resource list, and LangGraph Platform superset claim unchanged, the LangGraph Platform pricing URL still redirects to langchain.com/pricing, and the footprint scans still find no dedicated launch thread for this spec (the name-collision 2023 agentprotocol.ai Show HN unchanged at 6 points).
 
 ## See also
 

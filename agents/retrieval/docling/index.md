@@ -1,7 +1,7 @@
 ---
 title: Docling
 created: 2026-09-27
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, document-parsing, rag]
 readability: 3
@@ -24,7 +24,7 @@ The repository was created 2024-07-09 as IBM's ds4sd/docling and now lives under
 
 ## Status
 
-Very active and very large: 68,825 stars and 5,070 forks as of 2026-10-13, 979 open issues, and a push on 2026-11-12 (GitHub API, as of 2026-11-12).
+Very active and very large: 68,825 stars and 5,070 forks as of 2026-10-13, 992 open issues, and a push on 2026-11-13 (GitHub API, as of 2026-11-13).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=docling-project/docling&type=date&theme=dark&legend=top-left" />
@@ -86,6 +86,7 @@ My disagreeable claim: Docling's dominance owes as much to IBM's distribution an
 - 2026-11-06 - Recorded PyPI 2.147.0 (2026-11-04) and 2.148.0 (2026-11-05, 238 releases total) and refreshed the repository activity (pushed 2026-11-06, 950 open issues); the trailing-month downloads figure re-verified unchanged.
 - 2026-11-08 - Recorded PyPI 2.149.0 (2026-11-08, 239 releases total) and refreshed the repository activity (pushed 2026-11-08, 949 open issues); the trailing-month downloads figure re-verified unchanged.
 - 2026-11-12 - Recorded PyPI 2.150.0 (2026-11-10, 240 releases total) and refreshed the repository activity (pushed 2026-11-12, 979 open issues); the trailing-month downloads figure re-verified unchanged.
+- 2026-11-13 - Refreshed the repository activity (pushed 2026-11-13, 992 open issues); PyPI 2.150.0 remains latest.
 
 ## See also
 
@@ -96,7 +97,7 @@ My disagreeable claim: Docling's dominance owes as much to IBM's distribution an
 
 ## References
 
-- https://api.github.com/repos/docling-project/docling - 68,825 stars and 5,070 forks (as of 2026-10-13), MIT, created 2024-07-09, pushed 2026-11-12, 979 open issues, as of 2026-11-12
+- https://api.github.com/repos/docling-project/docling - 68,825 stars and 5,070 forks (as of 2026-10-13), MIT, created 2024-07-09, pushed 2026-11-13, 992 open issues, as of 2026-11-13
 - https://raw.githubusercontent.com/docling-project/docling/main/README.md - format list, DoclingDocument, exports, integrations, MCP server, docling-serve, LF AI & Data badge
 - https://arxiv.org/abs/2408.09869 - the technical report grounding the DocLayNet layout and TableFormer table models and the MIT, commodity-hardware claims
 - https://docling-project.github.io/docling/getting_started/installation/ - the PyTorch dependency, install extras, and the Python 3.9 cutoff at 2.70.0

@@ -1,7 +1,7 @@
 ---
 title: Tree-sitter code chunking
 created: 2026-08-24
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-retrieval, chunking, rag, llm=glm-5.3-flash]
 readability: 3
@@ -69,6 +69,7 @@ Continue's own guide, written by people who shipped this at scale, effectively a
 - 2026-10-26 - Rotation re-verification re-fetched every cited URL live (all seven returned HTTP 200) and re-checked the two load-bearing claims (Continue's guide still ranks the AST strategy most exact but most complex and recommends starting dumber; LlamaIndex's node-parser reference still documents CodeSplitter and the Chonkie-wrapping Chunker); all claims unchanged.
 - 2026-11-01 - Rotation re-verification re-fetched every cited URL live (tree-sitter's site, Aider's repo map and language docs, LlamaIndex's node-parser reference, Continue's custom code RAG guide, LangChain's code-splitter reference, the Chonkie launch thread at 151 points); all claims unchanged.
 - 2026-11-07 - Rotation re-verification re-fetched every cited URL live (tree-sitter's site, Aider's repo map and language docs, LlamaIndex's node-parser reference, Continue's custom code RAG guide, LangChain's code-splitter reference, the Chonkie launch thread at 151 points); all claims unchanged.
+- 2026-11-13 - Rotation re-verification re-fetched every cited URL live (tree-sitter's site, Aider's repo map and language docs, LlamaIndex's node-parser reference still documenting CodeSplitter and the Chonkie-wrapping Chunker, Continue's custom code RAG guide still ranking truncation and fixed-length above AST, LangChain's code-splitter reference still the package index with no AST chunker class, the Chonkie launch thread at 151 points); all claims unchanged.
 
 ## See also
 

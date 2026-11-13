@@ -1,7 +1,7 @@
 ---
 title: WebMCP
 created: 2026-10-06
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, browser, w3c, agent-tools]
 readability: 3
@@ -13,19 +13,19 @@ audience_notes: >
 
 WebMCP is a W3C Community Group draft specification, edited by Microsoft and Google engineers, that lets a web page expose its features as structured, callable tools through a `document.modelContext` browser API, so the page itself acts like an MCP server implemented in client-side script.
 
-**WebMCP inverts agent actuation the way AGENTS.md inverted repo instructions: the site declares what it can do instead of the agent reverse-engineering the interface, and since August 2026 the supply side went default-on across much of commerce through Shopify and Cloudflare while the demand side is still essentially one browser's agent, which is the bet's actual state.**
+**WebMCP inverts agent actuation the way AGENTS.md inverted repo instructions: the site declares what it can do instead of the agent reverse-engineering the interface, and since August 2026 the supply side went default-on across much of commerce through Shopify and Cloudflare while the demand side stayed Chromium-shaped, Chrome shipping and ChatGPT Desktop, Brave, and Edge committing around it, with WebKit's formal opposition the bet's unresolved edge.**
 
 ## What it is
 
 A Draft Community Group Report (dated 2026-11-11, following the 2026-11-02 revision that added the optional `outputSchema`, the 2026-10-20 revision that added the agent-ecosystem-risks discussion, and the 2026-10-08 revision that removed the declarative form-annotation path from the 2026-10-02 draft) from the W3C Web Machine Learning Community Group, first announced 2026-02-10, with editors from Microsoft and Google.
 The API surface is `document.modelContext` with `registerTool()`, `getTools()`, and `executeTool()`: a tool carries a name, a natural-language description, and a JSON Schema input, and pages register tools imperatively in JavaScript, with the 2026-10-27 revision adding opt-in cross-origin exposure between frames (`exposedTo` on registration, `fromOrigins` on discovery) behind a two-sided opt-in check and the 2026-11-02 revision adding an optional `outputSchema` to tool registration and discovery (a JSON Schema object describing the tool's expected output structure, which agents may reject non-conforming output against), closing the output-schema future-work item.
 **The spec's own framing places it in this index's stack: "Web pages that use WebMCP can be thought of as Model Context Protocol servers that implement tools in client-side script instead of on the backend", with the browser mediating every call under a `tools` Permissions Policy that defaults to same-origin only.**
-Chrome ships it behind a public origin trial (Chrome 149 through 156) plus a local flag, and Angular offers experimental support.
+Chrome ships it behind a public origin trial (Chrome 149 through 156), Edge 150 runs its own origin trial, and both plus Chromium browsers carry a local flag, and Angular offers experimental support.
 
 ## Status
 
 **Active and past the flag stage, with one browser shipping and one agent consuming.**
-The repository shows 4,621 stars (2026-10-13), 137 open issues, and a push on 2026-11-11 (default-branch spec work, the draft's default branch moving again after the 2026-11-02 revision), as of 2026-11-12 (GitHub API).
+The repository shows 4,621 stars (2026-10-13), 128 open issues, and a push on 2026-11-12 (the implementation-status page, not the spec draft), as of 2026-11-13 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ The repository shows 4,621 stars (2026-10-13), 137 open issues, and a push on 20
 
 The Chrome origin trial opened with Chrome 149 (Intent to Experiment filed 2026-05-15), Puppeteer added native WebMCP support in v24.41.0, and Google's Chrome team presented the API alongside its agent browser work at I/O 2026.
 In August 2026 the supply side jumped: Shopify switched WebMCP on for every Liquid storefront (catalog, cart, checkout, and policy tools) and Cloudflare made it available to any Cloudflare-fronted site with no code change.
-The demand side did not move with it: Gemini in Chrome remains the main agent actually calling the tools, Microsoft co-authored the spec but Edge's 147 release notes list no WebMCP support, and Firefox and Safari have given no public signal.
+The demand side is Chromium-shaped and growing past its edge: ChatGPT Desktop supports WebMCP (recorded on the spec repo's implementation-status page since 2026-08-26), Edge 150 runs its own origin trial, Brave moves Leo AI chat from experimental to default-on support with Brave 1.102.2 (expected 2027-01-05, moved on 2026-11-12), and Meta AI on Ray-Ban Display is listed as coming soon, off by default and enabled per device, but the standards-position pages say the cross-browser fight is unresolved: Mozilla's position is neutral (issue filed 2026-05-28) and WebKit's is oppose, citing duplication, internationalization, privacy, security, venue, use-case, portability, API-design, and user-consent concerns.
 
 ## Strengths
 
@@ -46,7 +46,7 @@ The demand side did not move with it: Gemini in Chrome remains the main agent ac
 
 ## Cautions
 
-- **One browser ships it and one agent consumes it: a storefront that enables WebMCP today is writing against Chrome's roadmap, not a standard.**
+- **One engine family ships it and the spec's main skeptic has formally opposed it: a storefront that enables WebMCP today is writing against Chromium's roadmap, with WebKit's oppose position and Mozilla's neutrality on record, not a standard.**
 - The API renamed itself mid-year (`window.agent`, then `navigator.modelContext`, now `document.modelContext`, deprecated in Chromium 150), the spec is a Community Group draft, not a W3C standard-track document, and the 2026-10-08 revision removed the declarative form-annotation API "for now" (issue #338), so a page that adopted the form path has no standard to lean on.
 - The spec's own security section catalogs tool poisoning, output injection, over-parameterization privacy leakage, and same-origin violations as open risks, with mitigations still marked as approaches rather than solved problems.
 - The supply-and-demand mismatch is the practical trap: millions of pages gained tool surfaces in a week, while the population of agents able to call them stayed near one.
@@ -66,7 +66,7 @@ The cost is designing, implementing, and maintaining a tool surface per site, pl
 
 **Recommended for web platforms and commerce sites that want to be agent-actionable before the standard settles, and for agent builders who need a structured alternative to DOM actuation in Chromium.**
 Not for anything requiring a stable, cross-browser API today, and not (yet) for reaching users outside Chrome.
-My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less than it looks, because tool supply without agent demand is inventory nobody buys, and the protocol's fate rides on whether Firefox, Safari, and OpenAI ever join.
+My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less than it looks, because tool supply without agent demand is inventory nobody buys, and while OpenAI and Brave did join the demand side, the protocol's fate now rides on whether Apple's opposition confines it to Chromium.
 
 ## Changes
 
@@ -83,6 +83,7 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 - 2026-11-03 - The draft report moved to its 2026-11-02 revision, which adds an optional `outputSchema` to `ModelContextTool` and `RegisteredTool` (a JSON Schema object describing the tool's expected output structure, serialized alongside the input schema, with agents free to reject non-conforming output), closing the future-work item issue #9; an API surface addition but no change to the browser-mediation or permissions model; open issues hold at 137 and the repository pushed 2026-11-02.
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched live with no dead sources (the two commit URLs verified through the GitHub API after the HTML pages served 504s); the draft stays at its 2026-11-02 revision with no newer report and the default branch quiet since then, the 2026-11-06 pushed_at moved by side-branch work (a generic-tool-calling explainer branch pushed 2026-11-06 and a wait-for-tools-until branch pushed 2026-11-03, neither merged), and open issues refreshed to 141 as of 2026-11-08.
 - 2026-11-12 - The draft report moved to its 2026-11-11 revision, carried by four verified default-branch commits with no new API surface: the `toolactivated` event now fires after the execute callback is invoked (#371), each ModelContext tracks its associated Document in the spec's structs (#380), getTools() gains a stated traversable scope (#382), and a stale native-agents note left the security questionnaire (#269); no commits sat between 11-03 and 11-09, so the four carry the whole 11-02-to-11-11 window; open issues refreshed to 137 as of 2026-11-12.
+- 2026-11-13 - The demand-side record moved past the one-browser-one-agent framing this note carried since creation, re-grounded in the spec repo's implementation-status page: ChatGPT Desktop has supported WebMCP since 2026-08-26, Edge 150 runs its own origin trial, Brave moves Leo AI chat from experimental to default-on with Brave 1.102.2 (expected 2027-01-05, #383), and Meta AI on Ray-Ban Display is listed as coming soon, while the standards-position pages say the cross-browser fight is unresolved (Mozilla neutral since 2026-05-28, WebKit oppose with duplication, privacy, security, venue, and API-design concerns among others); the What-it-is browser sentence, the intro claim, the Status demand-side paragraph, the lead caution, and the Bottom-line claim moved with the record; the draft stays at its 2026-11-11 revision with no spec commits since, and open issues refreshed to 128 as of 2026-11-13.
 
 ## See also
 
@@ -94,6 +95,10 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 ## References
 
 - https://webmachinelearning.github.io/webmcp/ - the Draft Community Group Report (2026-11-11 revision): `document.modelContext` API, the cross-origin `exposedTo`/`fromOrigins` opt-in, permissions policy, and the full security considerations section
+- https://raw.githubusercontent.com/webmachinelearning/webmcp/main/implementation-status.md - the per-browser and per-agent status table: Brave supported in Leo AI chat from 1.102.2 (expected 2027-01-05), ChatGPT Desktop supported, the Chrome 149 and Edge 150 origin trials, Meta Ray-Ban Display coming soon, and the Firefox and Safari standards-position links (fetched 2026-11-13)
+- https://github.com/webmachinelearning/webmcp/commit/56b8e7a7 - the 2026-11-12 commit "Update Leo AI chat WebMCP support from experimental to default (#383)" behind Brave's move (fetched 2026-11-13)
+- https://github.com/mozilla/standards-positions/issues/1412 - Mozilla's WebMCP standards position, labeled neutral (issue created 2026-05-28, fetched 2026-11-13)
+- https://github.com/WebKit/standards-positions/issues/670 - WebKit's WebMCP standards position, labeled oppose with duplication, internationalization, privacy, security, venue, use-case, portability, API-design, and user-consent concerns (issue created 2026-05-28, fetched 2026-11-13)
 - https://github.com/webmachinelearning/webmcp - repository: 4,621 stars, 122 open issues, pushed 2026-10-13 (GitHub API, as of 2026-10-13)
 - https://github.com/webmachinelearning/webmcp/commit/14ae813cc4e9 - the 2026-10-08 commit "Remove declarative API from the spec for now (#338)" behind the revision
 - https://github.com/webmachinelearning/webmcp/commit/6cd745ac8a186122bd3f4aeaeb1d6cfa820251d2 - the 2026-11-02 commit "Add `outputSchema` to `ModelContextTool` and `RegisteredTool` (#254)" behind the 2026-11-02 revision (fetched 2026-11-03)

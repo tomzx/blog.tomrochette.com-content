@@ -1,7 +1,7 @@
 ---
 title: Funes
 created: 2026-10-16
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, local-first, mcp, hugging-face]
 readability: 3
@@ -25,12 +25,12 @@ Beyond the four maintained integrations the surfaces are a read-only MCP server 
 ## Status
 
 **Active, young, and moving fast, with adoption that is still mostly repository stars.**
-569 stars, 51 forks, and 11 open issues and pull requests on a repository created 2026-06-18 and pushed 2026-11-10, Apache-2.0, as of 2026-11-11 (GitHub API).
+569 stars, 51 forks, and 11 open issues and pull requests on a repository created 2026-06-18 and pushed 2026-11-12, Apache-2.0, as of 2026-11-13 (GitHub API).
 The release train runs weekly: v1.7.0 memories compaction (2026-10-07), v1.8.0 multilingual embedder (2026-10-08), v1.9.0 GPU indexing and host binding (2026-10-14), v1.9.1 (2026-10-20) a small maintenance release, v1.10.0 (2026-11-01), v1.11.0 (2026-11-05), and v1.12.0 (2026-11-10), with dacorvo holding 873 of the 927 recorded contributions across twelve contributors.
 v1.10.0 ships the previously pending work and replaces the legacy BGE reranker with GTE modernbert: the reranker now runs whenever the pool is larger than the requested hits, which under the defaults (k 8, candidates 30) means always, and a memory's prompt language is detected at indexing time, stored, and used as a hint for query language on recall, with no reindex needed but a roughly 600 MB reranker download on first recall.
 Post-release fixes (2026-11-01 and 02) align Hub token discovery with hf-hub's rules (including a blank disable value), keep a first push owed when a memory was emptied since, and read remote row counts off the manifest for status.
 v1.11.0 (November 5) sharpens vector search with Lance's index refine, repairs an index refresh that left rows out, and bumps rmcp to 3.8.0 for MCP protocol compliance, Lance to 13.0.0, and hf-hub to 1.0.0.
-v1.12.0 (November 10) changes what a recall reply carries: instead of snippets of the surrounding chunks, it returns the user and assistant prose that starts and ends the matched exchange, which on the project's own funes-recall benchmark puts the answer in the reply for 185 of 242 questions against 145 for the passages alone, at about 6.5k characters (roughly 1.5k tokens) and 0.25 seconds of added median latency; `funes recall --neighbors` is dropped and `--oneline` is added, and the pending post-release work gives each block type an equal share of the recall pool.
+v1.12.0 (November 10) changes what a recall reply carries: instead of snippets of the surrounding chunks, it returns the user and assistant prose that starts and ends the matched exchange, which on the project's own funes-recall benchmark puts the answer in the reply for 185 of 242 questions against 145 for the passages alone, at about 6.5k characters (roughly 1.5k tokens) and 0.25 seconds of added median latency; `funes recall --neighbors` is dropped and `--oneline` is added, and the pending post-release work gives each block type an equal share of the recall pool; the pending work extended on 2026-11-12 with equal-score rank stabilization and the search score column left to the dataset.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=huggingface/funes&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,7 @@ Not for workflows that need memory surfaced without being asked, for users who n
 - 2026-11-03 - Recorded v1.10.0 (November 1): the pending work shipped, the legacy BGE reranker replaced by GTE modernbert (always active under the default k 8 and candidates 30), and prompt language detected at index time and used as a recall hint, no reindex required; the repository snapshot refreshed (pushed 2026-11-03).
 - 2026-11-07 - Recorded v1.11.0 (November 5): vector search sharpened with Lance's index refine, an index-refresh fix for refreshes that left rows out, and rmcp 3.8.0, Lance 13.0.0, and hf-hub 1.0.0 bumps; the push date refreshed to 2026-11-06.
 - 2026-11-11 - Recorded v1.12.0 (November 10): recall replies now carry the bounding exchange prose instead of chunk snippets (185 of 242 benchmark questions answered in the reply versus 145, at about 1.5k tokens and 0.25 seconds added median latency), `--neighbors` dropped and `--oneline` added, and the pending recall-pool equal-share work recorded; the push date refreshed to 2026-11-10.
+- 2026-11-13 - Volatile re-verification: the pending work extended (November 12, equal-score rank stabilization and the review score column left to the dataset); no release after v1.12.0, and the push date refreshed to 2026-11-12.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Agent Host Protocol
 created: 2026-08-30
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.3, protocols, agent-sessions, state-synchronization, microsoft, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT licensed, TypeScript, under the `microsoft` GitHub org, created 2026-03-12.
 
 ## Status
 
-**Active and shipping: 400 stars as of 2026-10-13 and 88 open issues and pull requests as of 2026-11-12, with the latest commits landing 2026-11-12 (host path semantics exposed at initialization, #476) after a merged account-selection branch (#583, an optional account-selection hint on authenticate, clarified across 2026-11-10 and 11-11) and schema action-reference and status-bitset fixes (#582, 2026-11-09), all unreleased past v1.0.0, which remains the latest release (spec, clients, and SDK packages all tagged 1.0.0 on 2026-10-02); the docs site now exposes a 1.1.0 draft in its version switcher alongside 1.0.0, with new guide sections for elicitation, customizations, and MCP servers.**
+**Active and shipping: 400 stars as of 2026-10-13 and 85 open issues and pull requests as of 2026-11-13, with the release train moving for the first time since 1.0: v1.1.0 (dated 2026-11-12, tagged 2026-11-13) shipped the spec plus the Go, Swift, TypeScript, and Rust packages at 1.1.0, carrying the host-path semantics (#476), the account-selection hint (#583), MCP-served skills (SEP-2640), and experimental subscription-negotiated flow control that the November passes had recorded as unreleased, and the default branch already carries PROTOCOL_VERSION 1.2.0 with the docs switcher pairing a 1.2.0 draft against 1.0.0 stable.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-host-protocol&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ MIT licensed, TypeScript, under the `microsoft` GitHub org, created 2026-03-12.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/agent-host-protocol&type=date&legend=top-left" />
 </picture>
 
-Adoption shows in the package counts: the `ahp` crate records 383,327 lifetime downloads and the npm package 697,806 (2026-10-13 to 2026-11-12), both as of 2026-11-12; the npm trailing-month total has oscillated in a roughly 557k-to-700k band since early October 2026 after its September climb.
+Adoption shows in the package counts: the `ahp` crate records 386,999 lifetime downloads and the npm package 704,999 (2026-10-14 to 2026-11-13), both as of 2026-11-13; the npm trailing-month total has oscillated in a roughly 557k-to-700k band since early October 2026 after its September climb.
 A member of the VS Code team stated publicly in June 2026 that the team is rebuilding its agent infrastructure on AHP, and the reference host lives at `src/vs/platform/agentHost/node` in the `microsoft/vscode` repository.
 1.0 shipped on 2026-10-02: the spec, every client, and the SDK packages tagged v1.0.0 the same day, closing the pre-1.0 caveat this note carried since creation.
 
@@ -46,7 +46,7 @@ A member of the VS Code team stated publicly in June 2026 that the team is rebui
 ## Cautions
 
 - Microsoft-controlled: the spec lives in the `microsoft` org with repo-first governance and no foundation, so neutrality is unproven.
-- 1.0 only landed on 2026-10-02, so the wire format's stability record is measured in days; conformance work between the TypeScript and .NET clients was literally in flight in August 2026.
+- 1.0 landed on 2026-10-02 and 1.1.0 followed six weeks later, so the wire format's stability record is measured in weeks; conformance work between the TypeScript and .NET clients was literally in flight in August 2026.
 - The crates.io download figure includes CI rebuilds, so read it as an upper bound (the same skepticism this corpus applies to vendor benchmarks).
 - It is a fifth protocol to track, and the sprawl criticism recorded against ACP applies here too.
 
@@ -88,6 +88,7 @@ The disagreeable part: I think AHP will matter more to daily coding work than A2
 - 2026-11-04 - Re-verification: the release train re-checked unchanged (v1.0.0 remains the latest spec, client, and SDK tag set), open issues and pull requests and the push date refreshed (72 combined, pushed 2026-11-04), and download figures refreshed (crate 355,363 lifetime, npm 556,970 for 2026-10-03 to 2026-11-03, the band figure widened to roughly 557k-to-670k); the main branch merged optional byte-range reads for resourceRead on 2026-11-04 (optional position and length on the read request, size on the result, UTF-8 sequence boundaries respected, no capability negotiation), with the schemas and client models regenerated, a spec addition that remains unreleased past v1.0.0.
 - 2026-11-06 - Re-verification: the release train re-checked unchanged (v1.0.0 remains the latest spec, client, and SDK tag set), open issues and pull requests and the push date refreshed (82 combined, pushed 2026-11-06 on a Rust client cancellation fix), and download figures refreshed (crate 364,831 lifetime, npm 551,713 for 2026-10-05 to 2026-11-05); the main branch merged two more unreleased spec additions on 2026-11-04, MCP-server-served skills in the customization model (the MCP skills extension, SEP-2640) and non-user input through existing chat actions, both with schemas and client models regenerated.
 - 2026-11-12 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the release train re-checked unchanged (v1.0.0 remains the latest spec, client, and SDK tag set), open issues and pull requests and the push date refreshed (88 combined, pushed 2026-11-12 on host path semantics exposed at initialization, #476), the docs site confirmed now serving a 1.1.0 draft in its version switcher with new elicitation, customizations, and MCP-servers guide sections, and download figures refreshed (crate 383,327 lifetime, npm 697,806 for 2026-10-13 to 2026-11-12, the band figure widened to roughly 557k-to-700k).
+- 2026-11-13 - The release train moved for the first time past 1.0: v1.1.0 (dated 2026-11-12) shipped on 2026-11-13 as spec/v1.1.0 plus the Go module, Swift package, npm package, and Rust crate all at 1.1.0, carrying everything the November passes had recorded as unreleased (host path semantics #476, the account-selection hint #583, MCP-served skills SEP-2640, experimental subscription-negotiated flow control #492, an EmptyState snapshot variant, unknown-member preservation on automation patch objects, and an optional authenticate.target scoping MCP-server tokens); the default branch bumped PROTOCOL_VERSION to 1.2.0 for ongoing development, the docs switcher now pairs a 1.2.0 draft with 1.0.0 stable, a protocol naming dictionary joined the docs (#597), and figures refreshed (85 open issues and pull requests, crate 386,999 lifetime downloads, npm 704,999 for 2026-10-14 to 2026-11-13).
 
 ## See also
 
@@ -103,9 +104,10 @@ The disagreeable part: I think AHP will matter more to daily coding work than A2
 - https://microsoft.github.io/agent-host-protocol/ - docs home: problem framing, host broadcast model, optimistic-apply reconciliation
 - https://microsoft.github.io/agent-host-protocol/guide/what-is-ahp - channel abstraction, URI schemes, agent-agnostic stance, planned MCP and LSP relay
 - https://microsoft.github.io/agent-host-protocol/specification/overview - RFC 2119 conventions and the x- extension rule
-- https://registry.npmjs.org/@microsoft%2Fagent-host-protocol - TypeScript client, 11 versions, latest 1.0.0
-- https://api.npmjs.org/downloads/point/2026-10-13:2026-11-12/@microsoft/agent-host-protocol - TypeScript client, 697,806 downloads 2026-10-13 to 2026-11-12, fetched 2026-11-12
-- https://crates.io/api/v1/crates/ahp - Rust client, 383,327 downloads, latest version 1.0.0, and repository pointer as of 2026-11-12
+- https://registry.npmjs.org/@microsoft%2Fagent-host-protocol - TypeScript client, latest 1.1.0 as of 2026-11-13
+- https://api.npmjs.org/downloads/point/2026-10-14:2026-11-13/@microsoft/agent-host-protocol - TypeScript client, 704,999 downloads 2026-10-14 to 2026-11-13, fetched 2026-11-13
+- https://crates.io/api/v1/crates/ahp - Rust client, 386,999 downloads, latest version 1.1.0, and repository pointer as of 2026-11-13
 - https://github.com/microsoft/agent-host-protocol/releases - the v1.0.0 spec, client, and SDK tags of 2026-10-02
+- https://github.com/microsoft/agent-host-protocol/releases/tag/v1.1.0 - the v1.1.0 release notes (dated 2026-11-12, published 2026-11-13), grounded through the API fetch, listing the shipped 1.1.0 additions, changes, fixes, and the security addition (fetched 2026-11-13)
 - https://hn.algolia.com/api/v1/items/48582679 - the Ask HN A2A thread containing the VS Code team's AHP announcement comment (2026-06-18)
 - https://github.com/microsoft/vscode/tree/main/src/vs/platform/agentHost/node - the reference host implementation inside the VS Code tree

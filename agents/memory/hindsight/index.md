@@ -1,7 +1,7 @@
 ---
 title: Hindsight
 created: 2026-10-07
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, benchmarks, open-source]
 readability: 3
@@ -27,7 +27,7 @@ Documented surfaces cover 18 coding-agent CLIs (Claude Code, Codex, OpenCode, Cu
 ## Status
 
 **Active and suddenly large: 50,146 stars rank it third in this category behind claude-mem and mem0, on a repository that is barely a year old.**
-50,146 stars as of 2026-10-28 (GitHub API), created 2025-10-30, with the repository pushed 2026-11-10, as of 2026-11-11 (GitHub API).
+50,146 stars as of 2026-10-28 (GitHub API), created 2025-10-30, with the repository pushed 2026-11-13, as of 2026-11-13 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vectorize-io/hindsight&type=date&theme=dark&legend=top-left" />
@@ -39,6 +39,7 @@ Latest release v1.2.1 (2026-11-10) with PyPI (hindsight-api) in sync at 1.2.1 as
 v0.10.3 treats memory as a past record teams can annotate with their own guidance, adds a TraeCode (TRAE CN) harness adapter, filters non-conversation Codex content, and waits out rate limits during history deepening instead of dropping turns.
 Main-branch work since v1.1.0 (2026-10-26 to 30, shipped by v1.2.0) sharpened determinism and the audit trail: BM25 score ties now break on id so repeated recalls return the same list, an MCP tool call writes one audit row instead of two, the decision-model reranker gained a prune flag while the typesafe reranker provider was deprecated in its favor, retain now stores the 'where' dimension and fails rather than silently dropping an unsplittable chunk, and the 10-28/29 train added every-tool-call response schemas (native tool calling dropped), consolidation built for small models with one answer entry per fact, a hosted decision-model provider with a sign-in command, recall rerank prune and dedup flags, the decision model seeing each memory's date, and a coding-agents v0.8.3 release; the 10-30 batch continued the same lines, the decision model no longer writing observation text itself and every piece of evidence, raw chunks included, carrying its dates the notable ones.
 The November 6-to-7 batch shipped as v1.2.1 (November 10), as recorded above; no release after it, with trailing-month npm client downloads at 195,577 (2026-10-12 to 11-11).
+The pending November 11-to-13 batch: knowledge banks gained better search, faster ingest, multimodal queries, and new benchmarks; retain keeps Gemma 4's facts on vLLM with the refresh loop stopped at the token cap; the admin reembed path tells leftover columns apart by model; and the project blog announced the Hindsight app in OpenBot.
 The paper (arXiv 2512.12818, December 2025, with Virginia Tech's Naren Ramakrishnan among the authors) reports 91.4 percent on LongMemEval and 89.61 on LoCoMo; the live benchmark site claims 94.6 on LongMemEval-S, 92.0 on LoCoMo, and 64.1 on BEAM-10M as of 2026-10-07, and the README says Virginia Tech's Sanghani Center and The Washington Post independently reproduced the Hindsight numbers.
 The discussion footprint is thin for the size: a 4-point Show HN (December 2025), a self-posted 3-point star-milestone thread (April 2026), and a 2-point story (October 2026), so the 46k stars came through benchmark attention and ecosystem listings rather than public debate.
 
@@ -94,6 +95,7 @@ Not for solo coding-agent use, where local files or claude-mem cost nothing, or 
 - 2026-11-04 - Recorded v1.2.0 (November 3, PyPI hindsight-api in sync at 1.2.0): the pending determinism-and-audit line shipped with parser, embeddings, reflect, banks, metrics, and admin fixes, and the hermes (v1.2.4) and coding-agents (v0.8.5) companion releases moved the same day; trailing-month npm client downloads refreshed to 169,253 (2026-10-05 to 11-04), and the push date refreshed to 2026-11-04.
 - 2026-11-08 - Recorded the pending November 6-to-7 batch (document PATCH tag operations, concurrent-retain deduplication, once-per-fact recall token counting, export-archive prefixing, racing-restore refusal, scoped entity search and shared-filter staleness efficiency); no release after v1.2.0, trailing-month npm client downloads refreshed to 189,234 (2026-10-09 to 11-08), and the push date refreshed to 2026-11-07.
 - 2026-11-11 - Recorded v1.2.1 (November 10, PyPI hindsight-api in sync at 1.2.1): the tracked batch shipped in full, with retain and observation tag perf, the Hermes client accepting 1.x companions, and the docs dropping the 0.9 line; trailing-month npm client downloads refreshed to 195,577 (2026-10-12 to 11-11), and the push date refreshed to 2026-11-10.
+- 2026-11-13 - Volatile re-verification: the pending November 11-to-13 batch recorded (knowledge-bank search, ingest, multimodal queries, and benchmark work; the Gemma 4 retain fix on vLLM with the refresh token-cap stop; reembed column disambiguation by model; the Hindsight app in OpenBot announced on the blog); no release after v1.2.1, and the push date refreshed to 2026-11-13.
 
 ## See also
 

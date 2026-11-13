@@ -1,7 +1,7 @@
 ---
 title: Memanto
 created: 2026-10-11
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, memory-agent, typed-memory, mcp, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Made by Moorcheh AI, with the April 2026 paper (arXiv 2604.22085) behind the ret
 ## Status
 
 **Active, young, and vendor-led.**
-2,326 stars and 741 forks, created 2026-03-23, pushed 2026-11-09, MIT, as of 2026-11-11 (GitHub API).
+2,326 stars and 741 forks, created 2026-03-23, pushed 2026-11-13, MIT, as of 2026-11-13 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=moorcheh-ai/memanto&type=date&theme=dark&legend=top-left" />
@@ -35,6 +35,7 @@ Made by Moorcheh AI, with the April 2026 paper (arXiv 2604.22085) behind the ret
 </picture>
 
 PyPI is at 0.2.31 with about 40 releases since spring, and npm is back in sync at 0.2.31 under the scoped @moorcheh-ai/memanto package; v0.2.30 (October 23) made `memanto connect` set up the project's MCP server in Claude Code, Codex, Cursor, and GitHub Copilot with the memory tools pre-approved, and v0.2.31 (October 29) unified caller attribution around `--source` across the CLI, REST, and SDKs (a breaking change: `recall` and `answer` replace `--tool`), fixed `memanto connect` instruction and skill paths and frontmatter across agents, and fixed session-cache and OKF import edge cases.
+The pending work (November 12) adds a Kimi Code agent integration to `memanto connect` and fixes OKF import of unquoted YAML dates; PyPI stays at 0.2.31.
 The Claude Code integration followed on 2026-10-27 (claudecode-memanto v0.1.2): it is MCP-first now, bundling memanto-mcp so the install registers the memanto MCP server in `.mcp.json` or `~/.claude.json` with the memory tools pre-approved, matching `memanto connect`'s `--project-dir` and `--agent-id` flags; the same days added an MCP Dockerfile and llms-install.md for registry listings and connect fixes verifying agent instruction and skill paths.
 The paper claims 89.8 percent on LongMemEval and 87.1 percent on LoCoMo through Moorcheh's Information Theoretic Search engine, with datasets and a harness published on Hugging Face.
 The Hacker News record is modest: a 14-point thread in June 2026 (11 comments) and a 3-point Mem0-migration story in September.
@@ -81,6 +82,7 @@ My disagreeable claim: the management layer, not the store, is where memory prod
 - 2026-10-30 - Recorded v0.2.31 (October 29, PyPI and npm both in sync): caller attribution unified around `--source` (breaking: `--tool` removed from recall and answer), connect instruction and skill path fixes across agents, and session-cache plus OKF import edge-case fixes.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live (repository API and README, docs, arXiv paper, PyPI, the HN search, the entrant source), PyPI still at 0.2.31 with about 44 releases, the HN record unchanged (14-point June 2026 thread, 3-point September migration story), and the post-October default-branch work is minor: Composio custom tools, a filterable agent dropdown in the connect modal, and an MCPB manifest so memanto-mcp installs in Claude Desktop; the push date refreshed to 2026-11-05.
 - 2026-11-11 - Volatile re-verification: the push date refreshed to 2026-11-09 on two default-branch commits (memory formatting deferred until after filtering, and a contributor credit); nothing material.
+- 2026-11-13 - Volatile re-verification: the pending Kimi Code connect integration and the OKF unquoted-YAML-date import fix recorded (November 12); nothing released, PyPI still at 0.2.31, and the push date refreshed to 2026-11-13.
 
 ## See also
 
