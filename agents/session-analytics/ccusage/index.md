@@ -1,7 +1,7 @@
 ---
 title: ccusage
 created: 2026-10-05
-updated: 2026-11-08
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -16,7 +16,7 @@ ccusage is a free, MIT-licensed terminal tool that reads the usage data coding-a
 
 ## What it is
 
-A TypeScript CLI (`npx ccusage@latest`, or bunx, or a global install) that parses the local usage files of eighteen named sources into one unified report: Claude Code, Codex, OpenCode, Amp, Droid, Codebuff, Hermes Agent, pi, Goose, OpenClaw, Kilo, Kimi, Qwen, GitHub Copilot CLI, Gemini CLI, Antigravity, Grok Build CLI, and ZCode.
+A TypeScript CLI (`npx ccusage@latest`, or bunx, or a global install) that parses the local usage files of nineteen named sources into one unified report: Claude Code, Codex, OpenCode, Amp, Droid, Codebuff, Cline, Hermes Agent, pi, Goose, OpenClaw, Kilo, Kimi, Qwen, GitHub Copilot CLI, Gemini CLI, Antigravity, Grok Build CLI, and ZCode (Cline joined in v20.0.49 with its own extension and CLI usage adapter).
 Reports cover daily, weekly, monthly, and session views, plus Claude's 5-hour billing windows (blocks), a beta Claude Code statusline integration, per-model breakdowns, project grouping, JSON output, timezone control, and custom pricing overrides in a ccusage.json file.
 Costs are computed locally against a fetched model-pricing catalog, with an `--offline` mode for pre-cached prices.
 The repository is a monorepo created by ryoppippi (the project moved from his personal account to the ccusage organization), sponsored by Lineman.io, CodeRabbit, and Blacksmith rather than sold.
@@ -24,7 +24,7 @@ The repository is a monorepo created by ryoppippi (the project moved from his pe
 ## Status
 
 **The most-installed tool in this category by an order of magnitude, and until today the only one this section had never profiled.**
-About 19k stars (19,001) as of 2026-11-01 and 911 forks, created 2025-05-29, pushed 2026-11-08 (GitHub API, stars keep their earlier fetch date).
+About 19k stars (19,001) as of 2026-11-01 and 918 forks, created 2025-05-29, pushed 2026-11-12 (GitHub API, stars keep their earlier fetch date).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&theme=dark&legend=top-left" />
@@ -32,14 +32,14 @@ About 19k stars (19,001) as of 2026-11-01 and 911 forks, created 2025-05-29, pus
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&legend=top-left" />
 </picture>
 
-The release line is v20.x with rapid patches: v20.0.48 (2026-11-02, no significant changes) is the latest tagged release and the npm latest, after v20.0.47 (2026-11-01, OpenCode Claude Agent turns counted once in unified reports, sessions keeping their last-active day under --until, and space-form config sections overriding generic ones), v20.0.46 (2026-10-30, unreadable Antigravity conversation databases skipped and Codex Ultrafast requests priced at Ultrafast rates), and v20.0.45 (2026-10-26, gpt-6.1-terra fast and flex multipliers plus Codex repeated first-response snapshots counted once), as of 2026-11-08, with pricing-snapshot updates landing since and the default branch's only substantive unreleased fix being a guard against truncated Codex type fields panicking the parser (2026-11-07).
-The npm package pulled 915,798 downloads in the trailing month (2026-10-09 to 2026-11-08, six zero days inside the window), roughly eight times the claude-mem plugin (109,431 in the same window) and far ahead of every session-analytics peer here.
+The release line is v20.x with rapid patches: v20.0.50 (2026-11-11, real Antigravity model names instead of placeholders for new model IDs) and v20.0.49 (2026-11-10, the Cline extension and CLI usage adapter joining the sources as the nineteenth, 1h cache writes reported in JSON model breakdowns, in-window Claude usage only counted in unified session reports, and the guard against truncated Codex type fields panicking the parser shipped after landing unreleased on 2026-11-07) are the latest tagged releases and the npm latest, after v20.0.48 (2026-11-02, no significant changes), v20.0.47 (2026-11-01, OpenCode Claude Agent turns counted once in unified reports, sessions keeping their last-active day under --until, and space-form config sections overriding generic ones), v20.0.46 (2026-10-30, unreadable Antigravity conversation databases skipped and Codex Ultrafast requests priced at Ultrafast rates), and v20.0.45 (2026-10-26, gpt-6.1-terra fast and flex multipliers plus Codex repeated first-response snapshots counted once), as of 2026-11-12, with pricing-snapshot updates landing since.
+The npm package pulled 765,556 downloads in the trailing month (2026-10-13 to 2026-11-12, six zero days inside the window), roughly six times the claude-mem plugin (119,703 in the same window) and far ahead of every session-analytics peer here.
 Its Show HN launch thread reached 75 points in July 2025, and the README carries an Awesome Claude Code mention badge.
 
 ## Strengths
 
 - Zero-install invocation makes it the first cost answer anyone runs, which is why other tools' docs benchmark against it.
-- Eighteen sources in one unified report is the widest declared coverage of any local tool in this category's notes.
+- Nineteen sources in one unified report; Tokscale's 63 named clients and Token Monitor's 54 named rows lead the category, but ccusage stays the zero-install baseline.
 - The blocks report maps usage onto Claude's 5-hour billing windows, and the statusline beta puts spend into the prompt view, both aimed at subscription-plan users rather than API payers.
 - Offline mode and per-model pricing overrides make the cost numbers auditable instead of magical.
 
@@ -82,6 +82,7 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 - 2026-11-01 - Volatile re-verification: no release after v20.0.46 and npm latest unchanged at 20.0.46, the 2026-11-01 default-branch pushes being the routine pricing-snapshot and dependency updates the Status already describes; trailing-month downloads refreshed (897,533 to 813,384, window 2026-10-03 to 2026-11-01 with ten zero days, claude-mem re-read at 72,879 in the same window so the multiplier moved to roughly eleven times), forks refreshed 901 to 904, and the pushed date moved to 2026-11-01.
 - 2026-11-05 - Recorded v20.0.47 (2026-11-01, OpenCode Claude Agent turns counted once, sessions last-active fix, space-form config override fix) and v20.0.48 (2026-11-02, no significant changes), npm latest moved to 20.0.48; trailing-month downloads refreshed (813,384 to 868,734, window 2026-10-06 to 2026-11-05 with nine zero days, claude-mem re-read at 89,982 so the multiplier moved to roughly ten times), forks refreshed 904 to 910, and the pushed date moved to 2026-11-05.
 - 2026-11-08 - Volatile re-verification: no release after v20.0.48 and npm latest unchanged at 20.0.48, the default branch's only substantive commit since 2026-11-05 being a guard against truncated Codex type fields panicking the parser (2026-11-07, unreleased) beside the routine pricing-snapshot and dependency updates; trailing-month downloads refreshed (868,734 to 915,798, window 2026-10-09 to 2026-11-08 with six zero days, claude-mem re-read at 109,431 so the multiplier moved to roughly eight times), forks refreshed 910 to 911, and the pushed date moved to 2026-11-08.
+- 2026-11-12 - Recorded v20.0.49 (2026-11-10: the Cline extension and CLI usage adapter joining the sources as the nineteenth named source, 1h cache writes in JSON model breakdowns, in-window Claude usage only counted in unified session reports, and the truncated-Codex-type-fields guard shipped) and v20.0.50 (2026-11-11, real Antigravity model names for new model IDs), npm latest moved to 20.0.50; trailing-month downloads refreshed (915,798 to 765,556, window 2026-10-13 to 2026-11-12 with six zero days, claude-mem re-read at 119,703 so the multiplier moved to roughly six times), forks refreshed 911 to 918, and the pushed date moved to 2026-11-12.
 
 ## See also
 
@@ -96,9 +97,9 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 - https://github.com/ccusage/ccusage - repository, 18.9k stars and 864 forks as of 2026-10-05, created 2025-05-29, the ryoppippi origin and ccusage-org move (the ryoppippi/ccusage URL redirects here)
 - https://raw.githubusercontent.com/ccusage/ccusage/main/apps/ccusage/README.md - the eighteen-source table, report types, blocks and statusline features, offline mode, and pricing overrides
 - https://raw.githubusercontent.com/ccusage/ccusage/main/apps/ccusage/LICENSE - the MIT license text, copyright ryoppippi
-- https://api.npmjs.org/downloads/range/2026-10-09:2026-11-08/ccusage - 915,798 trailing-month downloads (six zero days inside the window), fetched 2026-11-08 via the dated-range endpoint per the npm-window ruling
-- https://api.npmjs.org/downloads/range/2026-10-09:2026-11-08/claude-mem - 109,431 downloads in the same window, grounding the roughly-eight-times comparison (fetched 2026-11-08)
-- https://registry.npmjs.org/ccusage - npm latest 20.0.48, matching the v20.0.48 GitHub tag (re-verified 2026-11-05)
-- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.48 (2026-11-02, no significant changes), v20.0.47 (2026-11-01), v20.0.46 (2026-10-30), v20.0.45 (2026-10-26), v20.0.44 and v20.0.43 (2026-10-24), v20.0.42 (2026-10-23), and v20.0.41 (2026-10-22) release dates (re-fetched 2026-11-05)
+- https://api.npmjs.org/downloads/range/2026-10-13:2026-11-12/ccusage - 765,556 trailing-month downloads (six zero days inside the window), fetched 2026-11-12 via the dated-range endpoint per the npm-window ruling
+- https://api.npmjs.org/downloads/range/2026-10-13:2026-11-12/claude-mem - 119,703 downloads in the same window, grounding the roughly-six-times comparison (fetched 2026-11-12)
+- https://registry.npmjs.org/ccusage - npm latest 20.0.50, matching the v20.0.50 GitHub tag (re-verified 2026-11-12)
+- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.50 (2026-11-11), v20.0.49 (2026-11-10), v20.0.48 (2026-11-02), v20.0.47 (2026-11-01), v20.0.46 (2026-10-30), and v20.0.45 (2026-10-26) release dates (re-fetched 2026-11-12)
 - https://news.ycombinator.com/item?id=44610925 - the 75-point launch thread (2025-07-18), carrying the npx-security critique and the estimate-versus-bill debates
 - https://ccusage.com - the docs site, a client-rendered VitePress shell this run, with the title and description verified in the served HTML

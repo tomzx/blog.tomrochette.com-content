@@ -1,7 +1,7 @@
 ---
 title: beads
 created: 2026-08-27
-updated: 2026-11-08
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, issue-tracking, open-source, byok]
 readability: 3
@@ -25,7 +25,7 @@ It lives in the gastownhall organization (renamed from steveyegge, the old name 
 ## Status
 
 Active and moving fast.
-As of 2026-11-08: 27,853 stars (as of 2026-10-14), 1,936 forks, 1,646 open issues, created 2025-10-12, pushed 2026-11-08, latest stable release v1.3.4 on 2026-11-04 after v1.3.3 (2026-11-03, a security and data-loss fix release whose post-release known issue, `.beads/.env`'s `GT_ROOT` key dropped by a new env allowlist, v1.3.4 restored one day later), and 41,399 npm downloads over the trailing month to 2026-11-08.
+As of 2026-11-12: 27,853 stars (as of 2026-10-14), 1,936 forks, 1,738 open issues, created 2025-10-12, pushed 2026-11-12, latest stable release v1.3.4 on 2026-11-04 after v1.3.3 (2026-11-03, a security and data-loss fix release whose post-release known issue, `.beads/.env`'s `GT_ROOT` key dropped by a new env allowlist, v1.3.4 restored one day later), and 42,811 npm downloads over the trailing month to 2026-11-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gastownhall/beads&type=date&theme=dark&legend=top-left" />
@@ -49,7 +49,7 @@ That ecosystem is real: a community Rust port ([beads_rust](https://github.com/D
 - The architecture churned twice in a year, and the beads_rust fork exists precisely because early adopters needed to freeze it.
 - A SQL database inside your repo is a bigger bet than markdown files; schema-version guards and migration steps now exist for a reason.
 - The simplicity camp defected publicly: the top replacement thread ("faster, simpler Markdown-based task tracker", 84 points) is the standing rebuttal.
-- Roughly 1,500 open issues against a fast-moving core means the tracker itself gets triaged by attention, not process.
+- Roughly 1,700 open issues against a fast-moving core means the tracker itself gets triaged by attention, not process.
 
 ## Pricing
 
@@ -87,6 +87,7 @@ The disagreeable claim I will defend: every markdown task file is a beads databa
 - 2026-10-31 - Refreshed counts (1,912 forks, 1,614 open issues, pushed 2026-10-31, 33,156 npm downloads over the trailing month to 2026-10-31); v1.3.2 still the newest release.
 - 2026-11-01 - Refreshed counts (1,914 forks, 1,604 open issues, pushed 2026-11-01, 31,494 npm downloads over the trailing month to 2026-11-01); v1.3.2 still the newest release.
 - 2026-11-07 - Recorded v1.3.3 (2026-11-03: security and data-loss fixes, with the post-release known issue that the new `.beads/.env` allowlist dropped Gas City's `GT_ROOT` key) and v1.3.4 (2026-11-04: the `GT_ROOT` restore) and refreshed counts (1,935 forks, 1,632 open issues, pushed 2026-11-07, 42,520 npm downloads over the trailing month to 2026-11-07).
+- 2026-11-12 - Refreshed counts (1,738 open issues, pushed 2026-11-12, 42,811 npm downloads over the trailing month to 2026-11-12); v1.3.4 still the newest stable release.
 
 ## See also
 
@@ -98,8 +99,8 @@ The disagreeable claim I will defend: every markdown task file is a beads databa
 ## References
 
 - https://github.com/gastownhall/beads - README: commands, Dolt modes, setup, git-free usage
-- https://api.github.com/repos/gastownhall/beads - stars, forks, push dates, MIT license as of 2026-11-08
+- https://api.github.com/repos/gastownhall/beads - stars, forks, push dates, MIT license as of 2026-11-12
 - https://beads.gascity.com/ - official documentation site
 - https://github.com/Dicklesworthstone/beads_rust - the community Rust port freezing classic beads, and the Gas Town evolution note
 - https://news.ycombinator.com/item?id=46487580 - the 84-point replacement thread, the critical source
-- https://api.npmjs.org/downloads/point/2026-10-09:2026-11-08/@beads/bd - 41,399 downloads over the trailing month to 2026-11-08
+- https://api.npmjs.org/downloads/point/2026-10-13:2026-11-12/@beads/bd - 42,811 downloads over the trailing month to 2026-11-12

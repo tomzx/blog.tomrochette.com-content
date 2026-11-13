@@ -1,7 +1,7 @@
 ---
 title: Token Monitor
 created: 2026-10-06
-updated: 2026-11-08
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, desktop, open-source]
 readability: 3
@@ -10,13 +10,13 @@ audience_notes: >
   Assumes you know what a session file, a rate-limit window, and a token count are.
 ---
 
-Token Monitor is an MIT-licensed desktop widget that parses the local session files of 51 named AI coding tools and shows live token usage, provider limits, and cost trends, with optional multi-device sync through a hub you host.
+Token Monitor is an MIT-licensed desktop widget that parses the local session files of 54 named AI coding tools and shows live token usage, provider limits, and cost trends, with optional multi-device sync through a hub you host.
 
-**Token Monitor is this category's first live widget aimed at every tool at once: agents-observe streams one harness's events into a dashboard and CodeBurn puts spend in a menu bar, while Token Monitor reads 51 named sources into one always-on window and keeps the history after the sources prune it.**
+**Token Monitor is this category's first live widget aimed at every tool at once: agents-observe streams one harness's events into a dashboard and CodeBurn puts spend in a menu bar, while Token Monitor reads 54 named sources into one always-on window and keeps the history after the sources prune it.**
 
 ## What it is
 
-A desktop application (Windows 10+, macOS 13+, Linux x64; Homebrew cask) whose source table grades each of 51 named tools separately for token usage, account limits, and session details, following Tokscale's path and environment-variable conventions, including reading Tokscale's Cursor cache for account-level Cursor usage.
+A desktop application (Windows 10+, macOS 13+, Linux x64; Homebrew cask) whose source table grades each of 54 named tools separately for token usage, account limits, and session details, following Tokscale's path and environment-variable conventions, including reading Tokscale's Cursor cache for account-level Cursor usage.
 The widget updates within seconds of each turn, shows a live tok/s rate, and expands to cache hit versus miss breakdowns, per-session token splits, and cost in USD, TWD, HKD, or CNY with daily-updated exchange rates.
 An opt-in retention archive keeps daily tool and model usage locally after sources prune it (Claude Code drops transcripts after 30 days by default), and usage exports to CSV and JSON for spreadsheets, Obsidian, or Grafana.
 Multi-device sync is hub-backed over Server-Sent Events with three self-hosted backends (in-widget hub, Node CLI hub, or Cloudflare Worker) or eventually consistent iCloud Drive, and single-device use needs no server at all.
@@ -25,8 +25,8 @@ Made by Javis603, MIT-licensed.
 
 ## Status
 
-Young and shipping daily: 3,038 stars, 347 forks, 156 open issues, created 2026-05-19, pushed 2026-11-08 (stars keep their earlier fetch date, the other counts are this run's), with v0.87.0 released 2026-11-06 (OpenDesign five-hour and weekly subscription quotas with manual Cookie setup, service-status monitoring widened to OpenCode, Factory Droid, Kimi, Copilot, Zed, Devin, and separate MiniMax China and International status pages, and delta uploads cutting repeated sync traffic), v0.86.0 released 2026-11-04 (a quota-history hover showing the last 14 days of observed daily quota usage and a default-on toggle for the Claude CLI quota fallback), v0.85.0 released 2026-11-03 (a session filter by tool, remote sessions showing their source device's name and icon, and per-device hardware icons), and v0.84.1 and v0.84.0 released 2026-11-01 to 11-02 (Manus credits from a signed-in desktop account or a manually supplied web session, Muse web quota beside Muse Code CLI limits, an Edge Dock that detaches into a draggable floating capsule, and live token rates exposed to plugins), after the late-October line recorded in Changes (v0.83.0's network proxy and Claude Max and Ultra naming, v0.82.0's quota alerts and macOS 13 floor, v0.81.0's experimental desktop plugins, v0.80.0's multiple Claude Web accounts, and v0.79.0 through v0.70.0 before those), as of 2026-11-08; Prime Agent and Jcode usage tracking, Mistral Vibe subscription limits and credit balance, a MiniMax Code split of points and API billing, monthly token and cost presets, a wider service-status list, an OpenAI API credit balance plugin published in the official catalog, native quota modules with manual credentials, and Edge Dock detail-window sizing land unreleased.
-Its source table keeps widening: the README now grades 51 named tools plus a third-party APIs aggregate (the README headline reads 52-plus AI coding tools, counting the aggregate), up from the 43-plus this note recorded at creation, with OpenDesign, Prime Agent, and Jcode the newest rows (Prime Agent and Jcode merged on main pending release) and account-level quota sources (TypeSafe, OpenRouter, Volcengine, Ollama Cloud, Trae CN, Alibaba Cloud, StepFun, Notion AI, Manus) alongside session-file tools.
+Young and shipping daily: 3,038 stars, 355 forks, 149 open issues, created 2026-05-19, pushed 2026-11-12 (stars keep their earlier fetch date, the other counts are this run's), with v0.91.0 released 2026-11-11 (an Edge Dock cache-hit-rate item, session search over titles, tool and model labels, and IDs, and ten more display currencies from AUD to SGD, beside a sync upload limit raised to 2 MiB), v0.90.0 released 2026-11-10 (Hark account quotas with desktop session detection or a manual cookie, Spanish across the app and the macOS widget, WSL scanning now off by default with saved choices preserved, and Thinking Machines' Inkling models named in charts), v0.89.0 released 2026-11-09 (Gemini CLI local session usage, plugin quota modules rendered natively on Home, Edge Dock, Notch Panel, Tray, and Floating Bubble, last-used models shown per session, and lower steady-state memory), and v0.88.0 released 2026-11-08 (Mistral Vibe local session usage, the Prime Agent and Jcode rows shipped after merging pending release, Mistral quota for API and Vibe Code subscriptions, MiniMax Code points split from API billing, native plugin quota modules, the OpenAI API credit-balance plugin available through discovery, and Copilot CLI native session-state usage), after the late-October line recorded in Changes (v0.83.0's network proxy and Claude Max and Ultra naming, v0.82.0's quota alerts and macOS 13 floor, v0.81.0's experimental desktop plugins, v0.80.0's multiple Claude Web accounts, and v0.79.0 through v0.70.0 before those), as of 2026-11-12; no substantive feature remains unreleased, with the previously pending Prime Agent and Jcode rows, the credit-balance plugin, and the native quota modules all shipped.
+Its source table keeps widening: the README now grades 54 named tools plus a third-party APIs aggregate (the README headline reads 54-plus AI coding tools, counting the aggregate), up from the 43-plus this note recorded at creation, with Hark and Gemini CLI the newest released rows beside OpenDesign, Prime Agent, and Jcode, and account-level quota sources (TypeSafe, OpenRouter, Volcengine, Ollama Cloud, Trae CN, Alibaba Cloud, StepFun, Notion AI, Manus, Hark) alongside session-file tools.
 Its fork accounting was externally probed: the September 2026 AgentMeasure audit filed that Pi forks copied prior assistant records into new session files without cross-session dedup (issue 627), closed completed on 2026-09-12.
 
 <picture>
@@ -40,15 +40,15 @@ I found no Hacker News thread for the project; the only search hit for the name 
 
 ## Strengths
 
-- Live multi-tool coverage is a genuine gap: nothing else here renders usage across 51 named tools in one view as turns happen.
+- Live multi-tool coverage is a genuine gap: nothing else here renders usage across 54 named tools in one view as turns happen.
 - The retention archive answers a genuine loss: harnesses prune transcripts (Claude Code at 30 days by default), and the category's archive tools can only index what still exists.
 - Provider-limit detection spans session, daily, weekly, billing, and credits windows across 28-plus providers, including multiple OpenRouter profiles and prepaid balances.
 - The sync story is self-hosted by construction (your widget, Node hub, or Cloudflare Worker), with iOS widgets through the Worker hub.
 
 ## Cautions
 
-- 141 open issues against 3,038 stars and a daily release cadence within six months is a fast, churny project; expect breaking changes in a widget you leave running.
-- Coverage is graded and uneven by design, and several limit sources are account-level cookie reads (Ollama Cloud, Alibaba Cloud console) rather than file parsing, a different trust model than the local reads the rest of this category does.
+- A three-digit open-issue count against 3,038 stars and a daily release cadence within six months is a fast, churny project; expect breaking changes in a widget you leave running.
+- Coverage is graded and uneven by design, and several limit sources are account-level cookie reads (Ollama Cloud, Alibaba Cloud console, Hark) rather than file parsing, a different trust model than the local reads the rest of this category does.
 - Cursor account usage arrives through Tokscale's cache, so Cursor numbers inherit Tokscale's Cursor pipeline.
 - The community footprint is a Discord and a star graph, with no independent discussion, so treat the claims as unverified beyond the README.
 
@@ -87,6 +87,7 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 - 2026-11-01 - Recorded v0.84.0 (2026-11-01): Manus credits from a signed-in desktop account or supplied web session, Muse web quota beside Muse Code CLI limits, an Edge Dock that detaches into a draggable floating capsule, live token rates and measurement coverage exposed to plugins, and Codex empty completions excluded from output rates; the README's coverage claim moved to 48-plus tools (Manus the newest account-level row); repository counts refreshed (forks 330 to 333, open issues 142 to 150) and the pushed date moved to 2026-11-01.
 - 2026-11-07 - Recorded v0.85.0, v0.86.0, and v0.87.0 (2026-11-03 to 11-06): a session filter by tool with remote-device labels and device icons, a 14-day quota-history hover and a Claude CLI fallback toggle, and OpenDesign subscription quotas with wider service-status monitoring and delta sync uploads; the README's coverage claim moved to 51 named tools plus a third-party APIs aggregate, up from 48-plus (OpenDesign the newest released row, Prime Agent and Jcode merged pending release); forks refreshed 333 to 348 and open issues 150 to 163, and the pushed date moved to 2026-11-07.
 - 2026-11-08 - Volatile re-verification: no release after v0.87.0 with unreleased work continuing (an OpenAI API credit balance plugin published in the official catalog, native quota modules with manual credentials, Edge Dock detail-window sizing, and the Prime Agent and Jcode rows still pending release); the README headline reads 52-plus AI coding tools as of 2026-11-08, counting the third-party APIs aggregate beside the 51 named rows; forks refreshed 348 to 347 and open issues 163 to 156, and the pushed date moved to 2026-11-08.
+- 2026-11-12 - Recorded v0.88.0 through v0.91.0 (2026-11-08 to 11-11): Mistral Vibe usage and quota, the Prime Agent and Jcode rows shipped after merging pending release, MiniMax Code points split from API billing, native plugin quota modules, the OpenAI API credit-balance plugin, Copilot CLI native session-state usage, Gemini CLI usage, Hark quotas, Spanish, WSL scanning off by default, session search, an Edge Dock cache-hit-rate item, and ten more display currencies; the README's coverage claim moved to 54 named tools plus a third-party APIs aggregate, up from 51 named (Hark and Gemini CLI the newest released rows); forks refreshed 347 to 355 and open issues 156 to 149, and the pushed date moved to 2026-11-12.
 
 ## See also
 
@@ -98,9 +99,9 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 
 ## References
 
-- https://api.github.com/repos/Javis603/token-monitor - 3,038 stars (the dated baseline, never refreshed), 347 forks, 156 open issues, MIT license, created 2026-05-19, counts as of 2026-11-08
-- https://raw.githubusercontent.com/Javis603/token-monitor/main/README.md - the 51 named-tool source table (headline 52-plus counting the third-party APIs aggregate), live features, retention archive, hub sync options, and export formats (re-fetched 2026-11-08)
-- https://api.github.com/repos/Javis603/token-monitor/releases - v0.87.0 (2026-11-06), v0.86.0 (2026-11-04), v0.85.0 (2026-11-03), v0.84.1 (2026-11-02), v0.84.0 (2026-11-01), and the October line back to v0.68.0 (re-fetched 2026-11-07)
+- https://api.github.com/repos/Javis603/token-monitor - 3,038 stars (the dated baseline, never refreshed), 355 forks, 149 open issues, MIT license, created 2026-05-19, counts as of 2026-11-12
+- https://raw.githubusercontent.com/Javis603/token-monitor/main/README.md - the 54 named-tool source table (headline 54-plus counting the third-party APIs aggregate), live features, retention archive, hub sync options, and export formats (re-fetched 2026-11-12)
+- https://api.github.com/repos/Javis603/token-monitor/releases - v0.91.0 (2026-11-11), v0.90.0 (2026-11-10), v0.89.0 (2026-11-09), v0.88.0 (2026-11-08), v0.87.0 (2026-11-06), and the October line back to v0.68.0 (re-fetched 2026-11-12)
 - https://github.com/Javis603/token-monitor/issues/627 - the external audit's Pi fork dedup finding, closed completed 2026-09-12
 - https://raw.githubusercontent.com/roy-tong/AgentMeasure/main/campaigns/audit-report-2026-09.md - the audit behind the external-probe sentence
 - https://formulae.brew.sh/cask/token-monitor - the Homebrew cask

@@ -1,7 +1,7 @@
 ---
 title: Operon
 created: 2026-10-08
-updated: 2026-11-07
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, obsidian, markdown, local-first, gpl, multi-agent]
 readability: 3
@@ -25,13 +25,14 @@ The hasanyilmaz identity maintains it in ten interface languages.
 ## Status
 
 Active and shipping steadily.
-As of 2026-11-07: 255 stars (as of 2026-10-14), 30 forks, 23 open issues and pull requests, created 2026-05-19, pushed 2026-11-05, latest release 4.5.0 on 2026-11-05, 356 npm downloads over the trailing month to 2026-11-07 for `@stratejya/operon-cli`, GPL-3.0 on both plugin and CLI.
+As of 2026-11-12: 255 stars (as of 2026-10-14), 30 forks, 14 open issues and pull requests, created 2026-05-19, pushed 2026-11-08, latest release 4.6.0 on 2026-11-08, 643 npm downloads over the trailing month to 2026-11-12 for `@stratejya/operon-cli`, GPL-3.0 on both plugin and CLI.
 4.0.0 "Unity" (2026-10-14) brought Obsidian's six highlight colors into task views and editors, Vault Properties in the desktop Task Editor and tables for both file and inline tasks, and inline-task templates with a default-template setting; 4.0.1 landed the same day with calendar time-rounding and custom-key fixes and the removal of the 100-character filename truncation on inline-to-file conversion, after 3.12.0 on 2026-10-06.
 4.1.0 (2026-10-20) added a shared desktop lightbox for web pages, media, and editable Markdown, Bases, and Operon tables, nested previews that keep the prior views and drafts alive, optional source chips naming the file and inline line behind a task, and vault-local ICS calendars as read-only external sources beside URL subscriptions.
 4.2.0 (2026-10-23) made the Task Editor a shared desktop workspace holding native Markdown and task fields at one working level (nested levels stay visible underneath), with left/right placement settings, separate file and inline source-opening preferences, and per-result open behaviors in Task Finder.
 4.3.0 (2026-10-26) added a draggable desktop Status Dock (tracking, break controls, ongoing calendar tasks, the next upcoming task, and duplicate-ID warnings in one dock) and separate after-creation opening preferences for file and inline tasks, moved Excalidraw text-to-task conversion into the side toolbar, and fixed cross-window lightboxes, kanban drag flicker, and startup performance.
 4.4.0 (2026-10-30) added Overdue and Today task lists to the Status Dock, a Task Occurrence Date filter, sort option, and Table column for finding missed recurring tasks, kanban presets that group columns and swimlanes by independent properties including custom vault fields, and a last-session time-tracking card, while large boards began rendering only nearby cells and board layout became preset-specific with floating resize controls.
 4.5.0 (2026-11-05) added Korean as a downloadable interface language, Status Dock sections with independent enable and reorder controls, pinned and recently modified task lists in the Dock, per-session history cards with duration editing, and a task pool in Kanban with shared search, favorites, and pinning.
+4.6.0 (2026-11-08) added opt-in File Task display titles, so a task shows a readable title independent of its filename across task views, search, and the Canvas, Excalidraw, and Kanban task pools, with kebab-case and snake_case filename formats for new File Tasks and keep, ask, or rename-automatically policies for later title edits (existing files never renamed by the setting), and carried title support plus settings-aware task creation into the Runtime and Developer API, so integrations can read, preview, and create titled tasks and discover the vault's task settings instead of guessing them.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hasanyilmaz/operon&type=date&theme=dark&legend=top-left" />
@@ -83,6 +84,7 @@ My disagreeable claim: receipted, previewed writes are a bigger agent-safety adv
 - 2026-10-31 - Recorded 4.4.0 (2026-10-30: Overdue and Today Status Dock task lists, a Task Occurrence Date filter and column, kanban presets grouping by independent properties, a last-session card, nearby-cell rendering for large boards, and preset-specific resizable layout) and refreshed counts (27 forks, 18 open issues and pull requests, pushed 2026-10-30, 259 npm downloads over the trailing month to 2026-10-31).
 - 2026-11-01 - Refreshed counts (28 forks, 17 open issues and pull requests, 245 npm downloads over the trailing month to 2026-11-01); 4.4.0 still the newest release.
 - 2026-11-07 - Recorded 4.5.0 (2026-11-05: Korean as a downloadable interface language, Status Dock sections with enable and reorder controls, pinned and modified task lists, session history cards with duration editing, and a task pool in Kanban with shared search and favorites) and refreshed counts (30 forks, 23 open issues and pull requests, pushed 2026-11-05, 356 npm downloads over the trailing month to 2026-11-07).
+- 2026-11-12 - Recorded 4.6.0 (2026-11-08: opt-in File Task display titles with kebab-case and snake_case naming options and no retroactive renames, plus title support and settings-aware task creation in the Runtime and Developer API) and refreshed counts (14 open issues and pull requests, pushed 2026-11-08, 643 npm downloads over the trailing month to 2026-11-12).
 
 ## See also
 
@@ -94,10 +96,10 @@ My disagreeable claim: receipted, previewed writes are a bigger agent-safety adv
 ## References
 
 - https://github.com/hasanyilmaz/operon - repository: README, surfaces, agent runtime introduction, topics (fetched 2026-10-08)
-- https://api.github.com/repos/hasanyilmaz/operon - stars, forks, dates, license as of 2026-11-07
+- https://api.github.com/repos/hasanyilmaz/operon - stars, forks, dates, license as of 2026-11-12
 - https://raw.githubusercontent.com/hasanyilmaz/operon/main/README.md - inline and file tasks, operonId, the CLI and JSONL sessions, the 133 guides
 - https://operon.cc/docs/docs-118-operon-agent-runtime-overview/ - the sealed preview-and-apply mutation gateway, receipts, Property Catalog, platform support
-- https://api.npmjs.org/downloads/point/2026-10-08:2026-11-07/@stratejya/operon-cli - 356 downloads over the trailing month to 2026-11-07
+- https://api.npmjs.org/downloads/point/2026-10-13:2026-11-12/@stratejya/operon-cli - 643 downloads over the trailing month to 2026-11-12
 - https://api.github.com/repos/hasanyilmaz/operon-cli - the official CLI repository, GPL-3.0
-- https://api.github.com/repos/hasanyilmaz/operon/releases - 4.5.0 (2026-11-05) and the release train
+- https://api.github.com/repos/hasanyilmaz/operon/releases - 4.6.0 (2026-11-08) and the release train
 - https://api.github.com/repos/hasanyilmaz/operon/releases/tags/4.4.0 - the 4.4.0 notes: the Status Dock task lists, the occurrence-date filter, the kanban presets, and the rendering and layout changes

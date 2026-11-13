@@ -1,7 +1,7 @@
 ---
 title: Brood Box
 created: 2026-10-12
-updated: 2026-11-01
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, kvm, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Built by Stacklok, the supply-chain security company behind ToolHive and Minder;
 
 ## Status
 
-Small and steady: 78 stars, 8 contributors including its dependency bot, as of 2026-10-16, created 2026-02-13, pushed 2026-10-30, Apache-2.0.
+Small and steady: 78 stars, 8 contributors including its dependency bot, as of 2026-10-16, created 2026-02-13, pushed 2026-11-11 (branch activity; main's newest commit stays the 2026-10-21 dependency bumps), Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stacklok/brood-box&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ Not for Windows or Intel Macs, for parallel multi-agent fleets (the job Brig doe
 - 2026-10-13 - Recorded commits resuming 2026-10-13 after a month quiet (a ToolHive v0.52.0 dependency bump); v0.0.25 remains the latest release and counts are unchanged.
 - 2026-10-23 - Rotation re-verification: every cited URL re-fetched (repository, release train, ToolHive, the HN story search), all alive; the push advanced to 2026-10-22 on dependency bumps alone, v0.0.25 remains the latest release, the experimental README stands unchanged, and the HN story search still returns zero hits.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched and alive (repository, the release train, ToolHive, the zero-hit HN story search); v0.0.25 remains the latest release, main's newest commit stays the 2026-10-21 dependency bumps with the 2026-10-30 push on branch activity, the experimental README stands unchanged, and the HN story search still returns zero hits.
+- 2026-11-12 - Rotation re-verification: every cited URL re-fetched and alive (repository and its README with the experimental badge intact, the release train still ending at v0.0.25 (2026-09-14), ToolHive, the zero-hit HN story search); main's newest commit stays the 2026-10-21 dependency bumps with the 2026-11-11 push on branch activity, and v0.0.25 remains the latest release.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: SkillOpt
 created: 2026-08-30
-updated: 2026-11-07
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, self-improving-agents, research, microsoft]
 readability: 3
@@ -24,7 +24,7 @@ MIT, from Microsoft Research Asia with university collaborators, Python 3.10+.
 
 ## Status
 
-Research code with unusually strong product trappings: 18.3k stars and 1.7k forks as of 2026-10-13, created 2026-05-08, with 73 open issues and pull requests as of 2026-11-07.
+Research code with unusually strong product trappings: 18.3k stars and 1.7k forks as of 2026-10-13, created 2026-05-08, with 86 open issues and pull requests as of 2026-11-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/SkillOpt&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Research code with unusually strong product trappings: 18.3k stars and 1.7k fork
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/SkillOpt&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-11-07, though main has run 391 commits past it (the 2026-10-29 pushes landed two security fixes: Sleep no longer imports or runs code from the project directory, and the web UI refuses to expose training controls without auth; the 2026-11-04 to 11-07 pushes added provenance tracking on proposed edits, protected-region overlap refusal, Sleep OAuth-replay and legacy-adoption guards, and SearchQA empty-answer handling); the repo's News section (added 2026-11-04) announces NeurIPS 2026 Spotlight acceptance for the paper and a first-place Executive Challenge win at the Microsoft Global Hackathon 2026, while the arXiv paper (2605.23904) itself remains the preprint and all headline results are the authors' own.
+Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-11-12, though main has run 409 commits past it (the 2026-10-29 pushes landed two security fixes: Sleep no longer imports or runs code from the project directory, and the web UI refuses to expose training controls without auth; the 2026-11-04 to 11-07 pushes added provenance tracking on proposed edits, protected-region overlap refusal, Sleep OAuth-replay and legacy-adoption guards, and SearchQA empty-answer handling; the 2026-11-10 batch hardened Sleep harvesting and scoring: cutoffs compared as instants, unreadable transcript lines skipped, api-request-blob records no longer harvested as user prompts, the judge's 0-to-1 score contract enforced before gating, learned items kept intact across apply_edits, self-reported tool calls not credited on a measured tool route, and recall of a held-out task's twin blocked as a leak, alongside OfficeQA and livemath scoring fixes, DocVQA evaluator tests, and an ALFWorld output confinement); the repo's News section (added 2026-11-04) announces NeurIPS 2026 Spotlight acceptance for the paper and a first-place Executive Challenge win at the Microsoft Global Hackathon 2026, while the arXiv paper (2605.23904) itself remains the preprint and all headline results are the authors' own.
 
 ## Strengths
 
@@ -75,6 +75,7 @@ Not for subjective domains without reliable scoring, or anyone expecting trained
 - 2026-10-26 - Volatile refresh: the 2026-10-25 pushes landed six commits (an offline reproducibility checker for saved evaluation artifacts, keyless Parallel search for OfficeQA rollouts, Sleep fixes harvesting pasted briefs and capping re-run hook templates, plus test and import organization), moving main to 378 commits past v0.2.0 with open issues and PRs down to 52; v0.2.0 still the newest release.
 - 2026-10-31 - Volatile refresh: the 2026-10-29 pushes landed two security fixes (Sleep no longer imports or runs code from the project directory, the web UI refuses training controls without auth), moving main to 380 commits past v0.2.0 with open issues and PRs up to 62; v0.2.0 still the newest release.
 - 2026-11-07 - The repo's News section (added 2026-11-04) announces NeurIPS 2026 Spotlight acceptance and a first-place Executive Challenge win at the Microsoft Global Hackathon 2026, the first venue signal the note has recorded for the paper, whose arXiv page remains the preprint; volatile refresh alongside: main pushed 2026-11-07 with provenance tracking on proposed edits, protected-region overlap refusal, Sleep OAuth-replay and legacy-adoption guards, and SearchQA empty-answer handling, moving main to 391 commits past v0.2.0 with open issues and PRs up to 73; v0.2.0 still the newest release.
+- 2026-11-12 - Volatile refresh: the 2026-11-10 batch hardened Sleep harvesting and scoring (cutoffs compared as instants, unreadable transcript lines skipped, api-request-blob records no longer harvested as prompts, the judge's 0-to-1 score contract enforced before gating, learned items kept across apply_edits, self-reported tool calls not credited on a measured route, held-out-twin recall blocked as a leak) alongside OfficeQA and livemath scoring fixes, DocVQA evaluator tests, and an ALFWorld output confinement, moving main to 409 commits past v0.2.0 with open issues and PRs up to 86; v0.2.0 still the newest release.
 
 ## See also
 
@@ -85,7 +86,7 @@ Not for subjective domains without reliable scoring, or anyone expecting trained
 
 ## References
 
-- https://github.com/microsoft/SkillOpt - repository, method, benchmarks, license; News section announcing the NeurIPS 2026 Spotlight acceptance and the Microsoft Global Hackathon 2026 Executive Challenge first place (raw README fetched 2026-11-07); repo state 391 commits past v0.2.0, 73 open issues and PRs, pushed 2026-11-07 (GitHub API, as of 2026-11-07)
+- https://github.com/microsoft/SkillOpt - repository, method, benchmarks, license; News section announcing the NeurIPS 2026 Spotlight acceptance and the Microsoft Global Hackathon 2026 Executive Challenge first place (raw README fetched 2026-11-07); repo state 409 commits past v0.2.0, 86 open issues and PRs, pushed 2026-11-10 (GitHub API, as of 2026-11-12)
 - https://arxiv.org/abs/2605.23904 - the paper behind the method and results
 - https://microsoft.github.io/SkillOpt/ - project page, ablations, and transfer numbers
 - https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/ - the MSR blog on skills as trainable parameters

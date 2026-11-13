@@ -16,7 +16,7 @@ The reusable capability format and its ecosystem: the open skill format spec, th
 - [Anthropic Agent Skills](anthropic-agent-skills/index.md) - Anthropic's SKILL.md folder format for reusable agent capabilities.
 - [EvoSkill](evoskill/index.md) - Sentient Labs' Apache-2.0 toolkit that induces SKILL.md skills from a coding agent's failed benchmark runs, v1 selecting on a held-out Pareto gate and the v2.0.0 release (2026-10-26) moving to a stateful evolver on its own branch.
 - [GEPA](gepa/index.md) - the MIT reflective prompt optimizer from the Databricks research lineage that mechanically evolves prompts, code, and agent skills against any metric, about 7k stars.
-- [Headcount](headcount/index.md) - Chris Brock's 16-department plugin marketplace for Claude Code and ChatGPT, skills owned by write surface and reviewer-class departments that can block.
+- [Headcount](headcount/index.md) - Chris Brock's 16-department plugin marketplace for Claude Code and ChatGPT, skills owned by write surface and reviewer-class departments that can block; dead since 2026-11-08 (the GitHub account was deleted).
 - [OpenCode skills and plugins](opencode-skills-and-plugins/index.md) - OpenCode's two extension mechanisms: skills for the model, plugins for the harness.
 - [Sepia](sepia/index.md) - Nanako0129's research-grounded de-AI writing skill, repairing narrative structure instead of word choice, portable across 77+ agents.
 - [SkillMD](skillmd/index.md) - the verification-first open registry, publishing lint and scanner verdicts per skill, 1,947 of its about 1.13M listed skills safety-reviewed.

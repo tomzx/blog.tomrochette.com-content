@@ -1,7 +1,7 @@
 ---
 title: nono
 created: 2026-10-07
-updated: 2026-11-07
+updated: 2026-11-12
 readability: 3
 audience_notes: >
   Engineers who want an agent fenced at the kernel level and care most about what happens when the agent calls git, gh, curl, or kubectl.
@@ -24,7 +24,7 @@ Apache-2.0, built by the Sigstore team, with an OpenSSF Best Practices badge and
 
 ## Status
 
-Fast-growing with no Hacker News help: 4,519 stars, 300 open issues and PRs, pushed 2026-11-06, created 2026-01-31.
+Fast-growing with no Hacker News help: 4,519 stars, 299 open issues and PRs, pushed 2026-11-11, created 2026-01-31.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Fast-growing with no Hacker News help: 4,519 stars, 300 open issues and PRs, pus
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&legend=top-left" />
 </picture>
 
-The release train is active and pre-1.0: v0.77.0 on 2026-09-11, v0.78.0 on 2026-09-16, v0.79.0 on 2026-09-30, v0.80.0 on 2026-10-13 (SHA-256 executable pinning in command policies, per-command aws_auth, command-level macOS keychain grants, and NEPs for a Windows enforcement backend and for invocation-scoped commands), and v0.81.0 on 2026-10-29, published with three new advisories (apply_seccomp() not working, an io_uring bypass of the af_unix pathname remediation, and a TLS-proxy crash that silently dropped the audit trail), with the README carrying an APIs-are-stabilizing note ahead of a 1.0 and the post-release train continuing through 2026-11-06 on plain-HTTP forward requests (endpoint-rule enforcement and network approval, matching what the CONNECT path already had), `nono login` and `nono logout` commands, NEP 0010 for session terminal capture, and fixes for exact-file directory bypasses and the nono user's home directory in Docker.
+The release train is active and pre-1.0: v0.77.0 on 2026-09-11, v0.78.0 on 2026-09-16, v0.79.0 on 2026-09-30, v0.80.0 on 2026-10-13 (SHA-256 executable pinning in command policies, per-command aws_auth, command-level macOS keychain grants, and NEPs for a Windows enforcement backend and for invocation-scoped commands), and v0.81.0 on 2026-10-29, published with three new advisories (apply_seccomp() not working, an io_uring bypass of the af_unix pathname remediation, and a TLS-proxy crash that silently dropped the audit trail), with the README carrying an APIs-are-stabilizing note ahead of a 1.0 and the post-release train continuing through 2026-11-11 on plain-HTTP forward requests (endpoint-rule enforcement and network approval, matching what the CONNECT path already had), `nono login` and `nono logout` commands, NEP 0010 for session terminal capture, fixes for exact-file directory bypasses and the nono user's home directory in Docker, a breaking CLI change unifying platform commands behind automatic enrollment, credential-capture diagnostics, and allow-domain normalization, with v0.81.0 still the newest release.
 The project's coordinated-disclosure record is now its own evidence base: fifteen advisories published between 2026-05-17 and 2026-10-29, including CVE-2026-47128 (a Linux sandbox escape through the user systemd D-Bus socket via `systemd-run --user`, disclosed in May), four high-severity bypasses (seccomp BPF filters missing legacy x86_64 syscall ABIs, io_uring bypassing the af_unix remediation, endpoint-policy enforcement wrongly authorizing paths, and the tool-sandbox shim falling through to nono's own CLI), and hostname-normalization bypasses of host deny lists.
 **Hacker News never embraced it: four submissions between 2026-02-01 and 2026-02-04 drew 4, 1, and 2 points, an August resubmission drew 3, and the stars grew without a front-page thread, so the evidence base is the repo, the docs, the advisory record, and named enterprise testimonials rather than public debate.**
 
@@ -73,6 +73,7 @@ Not for anyone who needs VM-grade boundaries today or an externally audited 1.0.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched and alive (repository, docs site, the release record, the 4-point Show HN); v0.80.0 still the newest release with the post-release train on proxy fixes (407 for unauthenticated CONNECT, supervised connect ports, audit-path redaction), and open issues and PRs refreshed from 249 to 275.
 - 2026-11-01 - Recorded v0.81.0 (2026-10-29, published with the apply_seccomp(), io_uring af_unix, and TLS-proxy audit-trail advisories) and the project's coordinated-disclosure record (fifteen advisories between 2026-05-17 and 2026-10-29, including the CVE-2026-47128 D-Bus systemd-run sandbox escape and four high-severity bypasses), added to Status and Cautions with the advisory index added to References, and open issues and PRs at 289 with the repository pushed 2026-10-31.
 - 2026-11-07 - The post-release train advanced through 2026-11-06 (endpoint-rule enforcement and network approval on plain-HTTP forward requests, nono login and logout commands, NEP 0010 for session terminal capture, exact-file directory bypass and Docker home-directory fixes), the advisory record re-checked at fifteen with nothing new, open issues and PRs at 300, and the repository pushed 2026-11-06; v0.81.0 remains the newest release.
+- 2026-11-12 - Volatile refresh: the post-release train advanced through 2026-11-11 (a breaking CLI unification with automatic enrollment, credential-capture diagnostics, and allow-domain normalization), the advisory record re-checked at fifteen with nothing new, open issues and PRs at 299, and the repository pushed 2026-11-11; v0.81.0 remains the newest release.
 
 ## See also
 

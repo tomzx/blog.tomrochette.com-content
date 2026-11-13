@@ -1,7 +1,7 @@
 ---
 title: Backlog.md
 created: 2026-08-27
-updated: 2026-11-08
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, kanban, markdown, open-source, byok]
 readability: 3
@@ -24,7 +24,7 @@ It is maintained under the MrLesk identity, with conference talks ([Devoxx Belgi
 ## Status
 
 Active and healthy at mid-scale.
-As of 2026-11-08: 7,024 stars (as of 2026-10-14), 98 open issues and pull requests, pushed 2026-11-04, MIT-licensed, latest release v1.55.3 on 2026-10-23, 117,244 npm downloads over the trailing month to 2026-11-08.
+As of 2026-11-12: 7,024 stars (as of 2026-10-14), 94 open issues and pull requests, pushed 2026-11-11, MIT-licensed, latest release v1.55.3 on 2026-10-23, 124,586 npm downloads over the trailing month to 2026-11-12.
 v1.54.0 is a breaking release: `backlog task complete` and its MCP `task_complete` tool are removed in favor of marking work Done and archiving it, and archive now preserves the task's ID, record, dependencies, and references, with restore and delete alongside; it also changed the default task ordering and made previously accepted malformed edits fail.
 v1.55.0 (2026-10-20) followed as a repair release: versioned JSON output for draft lists, signal forwarding so stopping the npm and Bun launcher stops its native process, unknown YAML frontmatter preserved when unrelated fields are edited, explicit UTC timestamps, and duplicate task IDs repaired through `backlog doctor --fix`.
 v1.55.1 (2026-10-21) and v1.55.2 (2026-10-22) are security hardening releases patching dependencies and native certificate handling; v1.55.2's caveat was that native Git HTTPS proxies were temporarily unsupported while direct HTTPS and HTTP CONNECT proxies kept working.
@@ -82,6 +82,7 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 - 2026-10-25 - Recorded v1.55.3 (2026-10-23: native Git certificate and private HTTPS proxy support restored, closing the v1.55.2 caveat, Nix package task fixes, and a Bun 1.4.4 rebuild of the native executables) and refreshed counts (82 open issues and pull requests, 85,015 npm downloads).
 - 2026-10-28 - Refreshed counts (85 open issues and pull requests, pushed 2026-10-28, 90,282 npm downloads over the trailing month to 2026-10-28); v1.55.3 still the newest release.
 - 2026-10-31 - Refreshed counts (84 open issues and pull requests, pushed 2026-10-29, 95,771 npm downloads over the trailing month to 2026-10-31); v1.55.3 still the newest release.
+- 2026-11-12 - Rotation re-verification with every cited URL re-fetched live (repository, API, README, the v1.54.0 through v1.55.3 release tags, groma.md resolving to its repository, the companion repo, the 254-point launch thread, npm, the talks page) and refreshed counts (94 open issues and pull requests, pushed 2026-11-11, 124,586 npm downloads over the trailing month to 2026-11-12); v1.55.3 still the newest release.
 
 ## See also
 
@@ -93,7 +94,7 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 ## References
 
 - https://github.com/MrLesk/Backlog.md - README: checkpoints, commands, agent integrations, dogfooding claim
-- https://api.github.com/repos/MrLesk/Backlog.md - stars, issues, push date, MIT license as of 2026-11-08
+- https://api.github.com/repos/MrLesk/Backlog.md - stars, issues, push date, MIT license as of 2026-11-12
 - https://raw.githubusercontent.com/MrLesk/Backlog.md/main/README.md - the Backlog.md + Groma.md integration section
 - https://github.com/MrLesk/Backlog.md/releases/tag/v1.54.0 - the v1.54.0 notes: archive replaces complete, restore and delete, the breaking ordering and validation changes
 - https://api.github.com/repos/MrLesk/Backlog.md/releases/tags/v1.55.0 - the v1.55.0 notes: JSON draft lists, launcher signal forwarding, frontmatter preservation, doctor repair
@@ -102,5 +103,5 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 - https://groma.md - the companion product the integration names (resolves to its GitHub repository)
 - https://api.github.com/repos/MrLesk/groma.md - the companion repo: 188 stars, MIT, as of 2026-10-10
 - https://news.ycombinator.com/item?id=44483530 - the 254-point launch thread
-- https://api.npmjs.org/downloads/point/2026-10-09:2026-11-08/backlog.md - 117,244 downloads over the trailing month to 2026-11-08
+- https://api.npmjs.org/downloads/point/2026-10-13:2026-11-12/backlog.md - 124,586 downloads over the trailing month to 2026-11-12
 - https://mrlesk.com/talks - conference talks demonstrating the method

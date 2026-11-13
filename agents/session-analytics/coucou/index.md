@@ -1,7 +1,7 @@
 ---
 title: Coucou
 created: 2026-10-10
-updated: 2026-11-07
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, live-observation, approvals, macos, ios, open-source]
 readability: 3
@@ -22,14 +22,14 @@ Since Mac v0.4.0 (2026-10-15) it is also a windowed Dock app: Flow hold-a-key di
 The mechanism is hook-and-relay: an `nb-hook` script receives Claude Code hook events over a Unix socket, waits for your click on the Allow, Deny, or Always card, then answers the hook, and if Coucou is not running the hook exits immediately so Claude Code is never blocked.
 Coverage beyond Claude Code comes through hooks (Gemini CLI, Antigravity), `--agent` flags (Codex, Copilot CLI, Muse Code, any agent), and plugins installed into OpenCode, Amp, and Hermes config directories; any agent can tag a hook payload `coucou_agent` for its own pill.
 The iPhone app (iOS 18, TestFlight) reads sessions, turns, and service state from a private CloudKit zone in your iCloud with sensitive fields encrypted under your iCloud keys, and writes back decisions the Mac only applies when they match the exact pending request, Face ID required on every Allow; Live Activities update through APNs pushes from a stateless Cloudflare Worker relay that sees only the agent's name and state.
-A companion Android app (Android 11 or later), built by Rhytam Biswas as the project's first outside contribution, pairs over your local network with Coucou 0.4.0 for Windows or Linux, answers approvals with a fingerprint, and the link is off by default with a pairing code that re-pairing replaces.
+A companion Android app (Android 11 or later), built by Rhytam Biswas as the project's first outside contribution, pairs over your local network with Coucou for Windows or Linux and, since Mac v0.6.0 (2026-11-11), with the Mac itself, answers approvals with a fingerprint, and the link is off by default with a pairing code that re-pairing replaces.
 Around that core sit service pills (GitHub, Stripe, Vercel, n8n, Notion, Resend, Cal.com), chat with Claude, Gemini, OpenAI, or local Ollama and LM Studio models, plan-usage pills for Claude and Codex limits, a weekly recap image, and voice control through an "OK Coucou" command.
 It is built by Louis Raillé (the Louis-CFM account), with the project's own contributors table listing Claude Code itself as the second-largest contributor.
 
 ## Status
 
-In its fourth week and shipping hard: created 2026-09-27 with v0.1.0 the same day, with the Mac release line moving to v0.5.8 on 2026-10-31 (community fixes for the approval-behind-a-question flow, waiting questions, Mochi visibility, and duplicate dropped files) after v0.5.7 the same day (Mail in the notch: search across every Apple Mail inbox, an auto-sort section with VIP and banned-word rules and an undo journal, AI chat over your 40 newest messages with a test-first send gate, settings search, and a corner position for Mochi), after v0.5.4, v0.5.5, and v0.5.6 on 2026-10-29 (hook-server reliability and hook-safety fixes; chat answered by your own Claude Code with no API key; chat through the official terminal tools of your own AI subscriptions, Claude, Gemini and Antigravity, Codex, Cursor CLI, and Copilot CLI), after v0.5.3 on 2026-10-22 and v0.5.2 on 2026-10-20 (in-notch update offers verified against the Developer ID signature, a Homebrew cask, Claude Code plan-approval cards offering the terminal's own Auto, Manual, or Change plan choices, and fourteen languages), after v0.5.0 and v0.5.1 on 2026-10-18 (WhatsApp in the notch, behind it a one-click install of the GOWA gateway checked against its published SHA-256), after v0.4.0 on 2026-10-15 (the windowed app with dictation and call recording), Windows and Linux at 0.5.9 since 2026-11-03 (installers still unsigned, a pairing-flow release note with no feature list), and Coucou for Android at 0.4.0 since 2026-11-03 (the same download, pairing-code, and SHA-256 flow), as of 2026-11-07.
-5,119 stars (the dated baseline) and 1,151 forks, 456 open issues, MIT.
+In its seventh week and shipping hard: created 2026-09-27 with v0.1.0 the same day, with the Mac release line moving to v0.6.0 on 2026-11-11 (the pending 0.6 wave shipped: starting a Claude Code session from the notch and dropping a file onto a session, a whole-screen screenshot onto the clipboard, Antigravity command approvals from the notch as an opt-in, the Coucoudoro work-and-rest timer, Flow hands-free on a short press, and Flow running on your own Claude plan, plus the Android phone link now pairing with the Mac, review prompts, and a fix wave), after v0.5.8 on 2026-10-31 (community fixes for the approval-behind-a-question flow, waiting questions, Mochi visibility, and duplicate dropped files) after v0.5.7 the same day (Mail in the notch: search across every Apple Mail inbox, an auto-sort section with VIP and banned-word rules and an undo journal, AI chat over your 40 newest messages with a test-first send gate, settings search, and a corner position for Mochi), after v0.5.4, v0.5.5, and v0.5.6 on 2026-10-29 (hook-server reliability and hook-safety fixes; chat answered by your own Claude Code with no API key; chat through the official terminal tools of your own AI subscriptions, Claude, Gemini and Antigravity, Codex, Cursor CLI, and Copilot CLI), after v0.5.3 on 2026-10-22 and v0.5.2 on 2026-10-20 (in-notch update offers verified against the Developer ID signature, a Homebrew cask, Claude Code plan-approval cards offering the terminal's own Auto, Manual, or Change plan choices, and fourteen languages), after v0.5.0 and v0.5.1 on 2026-10-18 (WhatsApp in the notch, behind it a one-click install of the GOWA gateway checked against its published SHA-256), after v0.4.0 on 2026-10-15 (the windowed app with dictation and call recording), Windows and Linux at 0.5.9 since 2026-11-03 (installers still unsigned, a pairing-flow release note with no feature list), and Coucou for Android at 0.4.0 since 2026-11-03 (the same download, pairing-code, and SHA-256 flow), as of 2026-11-12.
+5,119 stars (the dated baseline) and 1,174 forks, 460 open issues, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Louis-CFM/coucou&type=date&theme=dark&legend=top-left" />
@@ -38,7 +38,7 @@ In its fourth week and shipping hard: created 2026-09-27 with v0.1.0 the same da
 </picture>
 
 **The adoption curve outruns the scrutiny: no Hacker News thread, no third-party review, and no Reddit trace surfaced in this run's searches, so the vetting so far is the README against the commits.**
-Unreleased work since v0.5.8, merged 2026-11-06 as the pending 0.6 wave: Windows and Linux gain starting a Claude Code session from the island and dropping a file onto a session, Antigravity command approvals ported to both platforms, the Mac language list reaching sixteen, a Coucoudoro work-and-rest timer in the notch, wake-word additions in Spanish and Brazilian Portuguese, and Windows taskbar and upload-bar fixes, as of 2026-11-07.
+No substantive feature remains unreleased as of 2026-11-12: the pending 0.6 wave merged 2026-11-06 shipped in v0.6.0, which also carried the Android link to the Mac and outside contributors' timer, hands-free, and plan-flow merges.
 
 ## Strengths
 
@@ -88,6 +88,7 @@ Not for token-cost audits (ccusage and agentsview stay the tools for that), and 
 
 - 2026-11-01 - Volatile re-verification: no release after v0.5.8 with unreleased Windows and Linux merges landing 2026-10-31 (Claude API model discovery with the saved choice kept, and Flow edits and history surviving a failed save, the platform path's first merges from outside contributor lazarevtill) plus iPhone App Store iteration fixes; repository counts refreshed (forks 1,117 to 1,125, open issues 469 to 478).
 - 2026-11-07 - Recorded the Windows and Linux 0.5.9 builds and Coucou for Android 0.4.0 (both 2026-11-03, pairing-flow releases with no feature list), and the pending 0.6 wave merged 2026-11-06 (Windows and Linux session start and file drop from the island, Antigravity approvals ported, sixteen Mac languages, the Coucoudoro timer, and two more wake-word languages); repository counts refreshed (forks 1,125 to 1,151, open issues 478 to 456).
+- 2026-11-12 - Recorded Mac v0.6.0 (2026-11-11), shipping the pending 0.6 wave (session start and file drop from the notch, whole-screen screenshot, opt-in Antigravity command approvals, the Coucoudoro timer, hands-free Flow, Flow on your own Claude plan) and adding the Android phone link to the Mac beside Windows and Linux; repository counts refreshed (forks 1,151 to 1,174, open issues 456 to 460), and the pushed date moved to 2026-11-11.
 
 ## See also
 
@@ -98,9 +99,10 @@ Not for token-cost audits (ccusage and agentsview stay the tools for that), and 
 
 ## References
 
-- https://api.github.com/repos/Louis-CFM/coucou - 5,119 stars (the dated baseline, never refreshed), 1,151 forks, 456 open issues, MIT license, created 2026-09-27, counts as of 2026-11-07
+- https://api.github.com/repos/Louis-CFM/coucou - 5,119 stars (the dated baseline, never refreshed), 1,174 forks, 460 open issues, MIT license, created 2026-09-27, counts as of 2026-11-12
 - https://raw.githubusercontent.com/Louis-CFM/coucou/main/README.md - the agents table, hook and plugin mechanisms, CloudKit sync and relay design, privacy statements, and the versions table
-- https://api.github.com/repos/Louis-CFM/coucou/releases - the Mac line v0.1.0 (2026-09-27) through v0.5.8 (2026-10-31), the Windows/Linux builds through windows-v0.5.9 and linux-v0.5.9 (2026-11-03), and android-v0.1.0 (2026-10-11) through android-v0.4.0 (2026-11-03) (re-fetched 2026-11-07)
+- https://api.github.com/repos/Louis-CFM/coucou/releases - the Mac line v0.1.0 (2026-09-27) through v0.6.0 (2026-11-11), the Windows/Linux builds through windows-v0.5.9 and linux-v0.5.9 (2026-11-03), and android-v0.1.0 (2026-10-11) through android-v0.4.0 (2026-11-03) (re-fetched 2026-11-12)
+- https://api.github.com/repos/Louis-CFM/coucou/releases/tags/v0.6.0 - the Mac 0.6.0 release note: the shipped 0.6 wave, the Android-Mac pairing, and the fix list (fetched 2026-11-12)
 - https://api.github.com/repos/Louis-CFM/coucou/releases/tags/v0.4.0 - the Mac 0.4.0 release note: the Dock window, Flow dictation, Parakeet, and the notetaker
 - https://api.github.com/repos/Louis-CFM/coucou/contributors - the Louis-CFM 192 and claude 156 commit split behind the AI-co-author caution
 - https://louis-cfm.github.io/coucou/ - the homepage grounding the product summary, downloads, and the 0.3 voice announcement

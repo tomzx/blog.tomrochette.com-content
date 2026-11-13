@@ -1,7 +1,7 @@
 ---
 title: Mycelium
 created: 2026-10-16
-updated: 2026-11-07
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, product-discovery, claude-code-plugin]
 readability: 3
@@ -24,8 +24,8 @@ The standing cost is about six thousand tokens of context per session, always on
 
 ## Status
 
-Active and shipping fast: 47 stars, 5 forks, created 2026-04-07, pushed 2026-11-06, as of 2026-11-07 (GitHub API).
-Pre-1.0 by the author's own framing, with schema and skill names moving between minor versions, and the release train runs in hours: v0.334.1 (2026-11-06) is the newest, a docs-only release whose eighth `/mycelium:xai-check` measured the 0.311.0 citation requirement at 284 of 284 `Next:` lines citing a source and ran the first blind-prediction faithfulness audit (a fresh reviewer predicted the proposed action in 8 of 10 lines), following v0.334.0 (2026-11-06) declaring the `scenario_gap` field on an opportunity with `validate_canvas` counting the gaps, and v0.333.0 (2026-11-06) moving scored keys into dated notes with the instrument, purpose-hash, and related checks fixed to read the result, on top of v0.332.0 (2026-10-31) shipping a native Agent Plugins 1.0 manifest so the folder loads as it ships on Mistral Vibe, whose plugin loader binds no hooks a plugin ships, meaning v0.328.3's workaround had loaded the skills while none of the gates ran there, and the discovery, release, and scale-lock gates now run on Vibe for the first time, of a train that ran v0.323 through v0.334 across October 13 to November 6.
+Active and shipping fast: 47 stars, 5 forks, created 2026-04-07, pushed 2026-11-12, as of 2026-11-12 (GitHub API).
+Pre-1.0 by the author's own framing, with schema and skill names moving between minor versions, and the release train runs in hours: v0.335.0 (2026-11-12) is the newest, the first release from a triage of 85 open entries in the maintainer's own upstream-candidates list and the material one for the gate, because the hooks now run on the Python 3.9 a stock Mac ships (31 hook files used 3.11-only forms and seven modules failed to import there, with the fire logs discarding their errors, so on stock macOS the gates silently did not run at all, which a CI test now checks by importing all 68 hook modules under any Python older than 3.10), beside atomic writes for the background session checks that could lose their pending marker and shell-safety rules that read commands instead of quoted text, replayed over 11,134 of the steward's real commands, following v0.334.1 (2026-11-06), a docs-only release whose eighth `/mycelium:xai-check` measured the 0.311.0 citation requirement at 284 of 284 `Next:` lines citing a source and ran the first blind-prediction faithfulness audit (a fresh reviewer predicted the proposed action in 8 of 10 lines), following v0.334.0 (2026-11-06) declaring the `scenario_gap` field on an opportunity with `validate_canvas` counting the gaps, and v0.333.0 (2026-11-06) moving scored keys into dated notes with the instrument, purpose-hash, and related checks fixed to read the result, on top of v0.332.0 (2026-10-31) shipping a native Agent Plugins 1.0 manifest so the folder loads as it ships on Mistral Vibe, whose plugin loader binds no hooks a plugin ships, meaning v0.328.3's workaround had loaded the skills while none of the gates ran there, and the discovery, release, and scale-lock gates now run on Vibe for the first time, of a train that ran v0.323 through v0.335 across October 13 to November 12.
 The adoption record is small and mostly first-hand: three of the steward's own projects, a three-person test cohort in May, and one stranger on record whose Lisp-interpreter canvas is public.
 
 **The independent footprint is empty, and that is this note's critical angle: a Hacker News search returns only the maintainer's own Show HN (2026-07-04, 1 point, 0 comments) plus an earlier post he says missed the Show HN tag, with no third-party coverage anywhere, so at 47 stars this admission rides the HermesGate-at-3-stars precedent rather than any membership floor.**
@@ -75,6 +75,7 @@ Not for teams needing a stable interface (pre-1.0, schema moves between minors),
 - 2026-10-31 - Recorded the v0.331.0 release (2026-10-28: the release and scale-lock gates read each safety skill's own assessment record, so a Privacy, Service Quality, or Explainability pass without every principle judged with evidence refuses the next release).
 - 2026-11-01 - Recorded the v0.332.0 release (2026-10-31: a native Agent Plugins 1.0 manifest, so the Mistral Vibe port loads the plugin as shipped and the gates run there for the first time; Vibe binds no hooks a plugin ships, so the earlier workaround loaded the skills only).
 - 2026-11-07 - Recorded the v0.333.0 through v0.334.1 releases (all 2026-11-06: scored keys moved into dated notes with the reading checks fixed, the `scenario_gap` field declared and counted, and the eighth xai-check measuring 0.311.0's citation requirement at 284 of 284 Next lines alongside the first blind-prediction faithfulness audit).
+- 2026-11-12 - Recorded the v0.335.0 release (2026-11-12: the hooks run on the Python 3.9 a stock Mac ships, where 3.11-only forms had seven modules failing import with the fire logs discarding their errors and the gates silently not running, now checked in CI by importing all 68 hook modules under an older Python, beside atomic session-check writes and shell-safety rules that read commands instead of quoted text).
 
 ## See also
 
@@ -86,11 +87,11 @@ Not for teams needing a stable interface (pre-1.0, schema moves between minors),
 
 ## References
 
-- https://api.github.com/repos/haabe/mycelium - 47 stars, 5 forks, MIT, topics including spec-driven-development, created 2026-04-07 (47 stars as of 2026-10-23), pushed 2026-11-06, as of 2026-11-07
+- https://api.github.com/repos/haabe/mycelium - 47 stars, 5 forks, MIT, topics including spec-driven-development, created 2026-04-07 (47 stars as of 2026-10-23), pushed 2026-11-12, as of 2026-11-12
 - https://raw.githubusercontent.com/haabe/mycelium/main/README.md - the gate design, artifact model, token cost, falsifier, six layers, porting, and when-to-use-something-else routing
 - https://raw.githubusercontent.com/haabe/mycelium/main/docs/get-started.md - install, the four questions, artifact paths, gate behavior, and the skip-ack files
 - https://raw.githubusercontent.com/haabe/mycelium/main/docs/skills/README.md - the 63-skill index, layer model, and theory attributions
-- https://api.github.com/repos/haabe/mycelium/releases - the release train through v0.334.1 (2026-11-06), fetched 2026-11-07
+- https://api.github.com/repos/haabe/mycelium/releases - the release train through v0.335.0 (2026-11-12), fetched 2026-11-12
 - https://github.com/haabe/vibe-rant - the steward's public canvas repository (0 stars, 1 commit)
 - https://raw.githubusercontent.com/haabe/vibe-rant/main/.claude/canvas/purpose.yml - the evidence fields (`validated: false`, `strength: speculation`) in the published artifact
 - https://raw.githubusercontent.com/dagfinndybvig/minilisp/main/.claude/canvas/gist.yml - the one stranger's public canvas, grounding the third-party-use record

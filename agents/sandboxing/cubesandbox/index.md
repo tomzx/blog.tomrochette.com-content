@@ -1,7 +1,7 @@
 ---
 title: CubeSandbox
 created: 2026-09-16
-updated: 2026-11-07
+updated: 2026-11-12
 readability: 3
 audience_notes: >
   Engineers comparing self-hosted alternatives to hosted sandbox APIs, who need to serve untrusted agent code at density on their own fleet.
@@ -29,7 +29,8 @@ Documentation, changelogs, and examples (code execution, browser automation, Ope
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TencentCloud/CubeSandbox&type=date&legend=top-left" />
 </picture>
 
-Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest stable v0.7.3 on 2026-10-12, pushed 2026-11-07, 1,191 forks, 207 open issues and PRs as of 2026-11-07.
+Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest stable v0.7.3 on 2026-10-12, pushed 2026-11-12, 1,191 forks, 219 open issues and PRs as of 2026-11-12.
+A v0.8.0 cycle opened on 2026-11-10: the rc1, rc2 (2026-11-11), and rc3 (2026-11-12) tags carry no release notes, and main's train names the line's work in progress (cubedb tables converting from utf8mb3 to utf8mb4, release-image bumps), with v0.7.3 still the newest stable.
 The post-release commit train continued through 2026-11-07, unreleased past v0.7.3: an E2B-compatible `Sandbox.fork` and a `Sandbox.is_running` check in the Python, Node, and Go SDKs, a node-local sandbox restart policy (Never, OnFailure, Always), template-level sandbox QoS classes, external volume mounts on cold boot, a CubeOps CLI that classifies nodes by host facts, cubelet fixes (restart configuration preserved across pause and resume, orphan TAP policies initialized asynchronously), JuiceFS work (the jfs mount container unprivileged, ext4 eagerly distributed to nodes), cursor pagination for the v2 sandboxes list, fixes across CubeCoW, CubeVS, CubeEgress, and virtiofsd, WebSocket upgrade-header forwarding in CubeEgress, a template alias surfaced in sandbox responses, a Kubernetes operator DNS-resolver opt-in, and published case studies (OUC Online, KakuriZai, OMA).
 The train moved twice on 2026-10-12: v0.7.3-rc1 and rc2 opened the next release cycle in the morning, and v0.7.3 itself shipped the same day, adding E2B-compatible MCP support (an in-sandbox MCP gateway option returned by the Python, Node, and Go SDKs, with a reference implementation under examples/mcp-gateway), faster cross-node restore that lazy-loads instead of copying the disk, an S3lvol hot upgrade cutting upgrade I/O pause from about 40 seconds to about 8, and a roughly 41 percent faster pause, alongside a dated `kernel-release-261012-1` tag shipping dedicated kernel assets for bare-metal and PVM guest and host, so the project now distributes its own guest kernels alongside the sandbox releases.
 The team launched on HN themselves as "a less than 60ms, open-source alternative to E2B using RustVMM and KVM" (7 points), and the same project drew two more submissions from other accounts within four days at 5 and 3 points.
@@ -78,6 +79,7 @@ Not for macOS or workstation use, and not for anyone who needs independently ver
 - 2026-10-23 - Rotation re-verification: every cited URL re-fetched (repository, license, latest release, PyPI, project site, the three HN threads), all alive and unchanged; the push advanced to 2026-10-23 on a post-release commit train (an E2B-compatible Sandbox.fork across the SDKs, a node-local restart policy, cursor pagination), v0.7.3 remains the latest release, and the HN threads hold at 7, 5, and 3 points.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched and alive (repository, license, latest release, PyPI at 0.7.3, project site, the three HN threads holding at 7, 5, and 3 points); v0.7.3 remains the latest release, the post-release train advanced through 2026-11-01 (WebSocket upgrade-header forwarding in CubeEgress, a template alias in sandbox responses, a Kubernetes operator DNS-resolver opt-in), and the open-issue count moved to 239.
 - 2026-11-07 - The post-release train advanced through 2026-11-07 (E2B-compatible Sandbox.is_running across the SDKs, template-level sandbox QoS, external volume mounts on cold boot, the CubeOps node-classification CLI, cubelet restart-config preservation across pause and resume, unprivileged JuiceFS mounts, and OUC Online, KakuriZai, and OMA case studies), with open issues and PRs at 207 and the repository pushed 2026-11-07; v0.7.3 remains the latest release.
+- 2026-11-12 - Recorded the v0.8.0 cycle opening (the rc1, rc2, and rc3 tags of 2026-11-10 through 2026-11-12, which carry no release notes, with main's train showing the cubedb utf8mb4 migration and release-image bumps), with open issues and PRs at 219 and the repository pushed 2026-11-12; v0.7.3 remains the newest stable.
 
 ## See also
 

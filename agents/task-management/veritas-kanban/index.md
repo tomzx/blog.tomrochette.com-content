@@ -1,7 +1,7 @@
 ---
 title: Veritas Kanban
 created: 2026-10-11
-updated: 2026-11-07
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, governance, local-first, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Around the board: subtasks, bidirectional depends_on and blocks dependencies wit
 ## Status
 
 **Active, six versions deep in one year, single-maintainer.**
-840 stars as of 2026-10-14 (GitHub API), 101 forks, and 8 open issues and pull requests with main quiet since the v6.3.0 release day while a 2026-11-02 push landed off main, as of 2026-11-07, created 2026-01-26.
+840 stars as of 2026-10-14 (GitHub API), 101 forks, and 9 open issues and pull requests with main quiet since the v6.3.0 release day while the 2026-11-02 and 2026-11-09 pushes landed off main, as of 2026-11-12, created 2026-01-26.
 The main branch went quiet after the v6.2.1 release commit while side branches carried the work (2026-10-21), then resumed landing on 2026-10-23 with fixes for MCP tools using non-canonical task priorities, unparseable GitHub config JSON output, unbounded API body consumption, and desktop shutdown escalation.
 The newest tagged release is v6.3.0 (2026-10-25), which added optional ChatGPT identity sign-in (a verified OpenAI identity linked to an existing user over a PKCE flow) and an opt-in OrcaRouter profile for Codex CLI, and completed the repository audit backlog; the dependency model landed in v3.3.0, team rosters in v5.2, and the run-scoped tool control plane in v6, all inside the project's first year.
 A Hacker News search returns no story about it (2026-10-11), so adoption evidence is the repository curve plus the docs' own governance records.
@@ -75,6 +75,7 @@ My disagreeable claim: the run-scoped tool catalog belongs at the MCP layer, not
 - 2026-10-27 - Corrected the star-history chart light source (it carried the dark-theme parameter; only the dark source may).
 - 2026-10-28 - Out-of-rotation correction: recorded v6.3.0 (2026-10-25: optional ChatGPT identity sign-in, the opt-in OrcaRouter profile for Codex CLI, and the repository audit backlog completed), which the prior runs had missed, and refreshed counts (7 open issues and pull requests, pushed 2026-10-26); the stale release-train caution rewritten.
 - 2026-11-07 - Rotation re-verification with every cited URL re-fetched live (repository page, README, FEATURES.md, SETUP-PATHS.md, releases, HN search): nothing material changed, with v6.3.0 still the newest tag, README current at 6.3.0, the HN search still at zero story hits, and counts refreshed (101 forks, 8 open issues and pull requests) with the 2026-11-02 push confirmed off main.
+- 2026-11-12 - Refreshed counts (9 open issues and pull requests) with the default branch checked directly: main's latest commit is still the v6.3.0 merge of 2026-10-25, so the 2026-11-02 and 2026-11-09 pushes both landed off main.
 
 ## See also
 
@@ -86,7 +87,7 @@ My disagreeable claim: the run-scoped tool catalog belongs at the MCP layer, not
 
 ## References
 
-- https://github.com/BradGroux/veritas-kanban - repository facts: MIT, created 2026-01-26, and the push record (GitHub API, as of 2026-11-07)
+- https://github.com/BradGroux/veritas-kanban - repository facts: MIT, created 2026-01-26, and the push record (GitHub API, as of 2026-11-12)
 - https://raw.githubusercontent.com/BradGroux/veritas-kanban/main/README.md - the board-first pitch, setup layers, documentation map, provider list, and maintainer background (re-fetched 2026-11-07, current at v6.3.0)
 - https://raw.githubusercontent.com/BradGroux/veritas-kanban/main/docs/FEATURES.md - the feature reference: markdown storage, dependencies with cycle detection, run-scoped tools v6, team rosters, PRD-driven development, release provenance of v3.3.0/v5.2/v6
 - https://raw.githubusercontent.com/BradGroux/veritas-kanban/main/docs/SETUP-PATHS.md - the layered readiness ladder and the board-only quick start

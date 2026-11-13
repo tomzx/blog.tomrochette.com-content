@@ -1,7 +1,7 @@
 ---
 title: Brig
 created: 2026-10-06
-updated: 2026-11-07
+updated: 2026-11-12
 readability: 3
 audience_notes: >
   Engineers who want a maintained microVM around coding agents on their own Apple Silicon or Linux workstation.
@@ -23,7 +23,7 @@ Built by NOFire AI, the team behind urunc, a CNCF Sandbox project; images, boot 
 
 ## Status
 
-Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 2026-08-12, pushed 2026-11-06, Apache-2.0.
+Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 2026-08-12, pushed 2026-11-12, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&theme=dark&legend=top-left" />
@@ -33,6 +33,7 @@ Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 20
 
 v0.2.0 shipped 2026-09-15, v0.3.0 on 2026-09-26, v0.4.0 on 2026-10-06, and v0.4.1 on 2026-10-16, which pins the Linux runtime bundle at rc17 and reopens the remote-and-Kubernetes non-goals in the docs (issues #482 through #485), with the channel-main prerelease train cutting two more builds on 2026-10-16, a channel-experimental 0.4.2 line opening after it (builds on 2026-10-23 and 2026-10-24), and the main channel itself moving onto 0.4.2 builds on 2026-10-25, until v0.5.0 became the newest tagged release on 2026-10-31: a breaking cut that retires the old command spellings and profile keys (a profile still carrying one refuses to parse), introduces the v1alpha1 policy envelope with brokered routes and presets, adds the secret broker and renewer seams, and refreshes the Claude OAuth pair, with channel-main already building 0.5.1 prereleases the same day.
 v0.5.1 shipped 2026-11-03 (an aws route preset, AWS credentials fetched through the host's aws CLI, and a warning when the project's .git changes) and v0.5.2 followed on 2026-11-06 with a gcp route preset that mints and caches Google tokens per sandbox and route from a host gcloud pointer, plus another breaking rename, the herd profile becoming herdr.
+The main channel's 0.5.3 prerelease builds followed on 2026-11-10 and 2026-11-11, sharing one credential CLI runner across the aws and gcp routes, dropping the secret-import hint when no Linux keyring exists, and refusing impersonated Google tokens that tokeninfo cannot name, with v0.5.2 still the newest tagged release.
 The Show HN launch on 2026-09-22 drew 9 points, and the maintainer's introduction is most of the thread's substance, so the community footprint is thin and the documentation is where the evidence lives.
 **A nine-point launch against 228 stars in nine weeks reads as quiet, deliberate adoption rather than a wave, and no independent audit or benchmark exists yet, while v0.4.0's breaking changes show the security defaults are still moving: new sandboxes now get isolated networks by default on hvi and Linux, and the runtime refuses shims that share the host kernel.**
 
@@ -78,6 +79,7 @@ Not for Intel Macs, for vz or qemu users who need enforced egress policy, or for
 - 2026-10-27 - Recorded the main channel moving onto 0.4.2 prerelease builds (2026-10-25), v0.4.1 still the newest tagged release, with the repository pushed 2026-10-26.
 - 2026-11-01 - Recorded v0.5.0 (2026-10-31, the newest tagged release: breaking removals of the retired command spellings and profile keys, the v1alpha1 policy envelope with brokered routes and presets, the secret broker and renewer seams, and the Claude OAuth pair refresh, with channel-main building 0.5.1 prereleases the same day), and the repository pushed 2026-10-31.
 - 2026-11-07 - Recorded v0.5.1 (2026-11-03, the aws route preset, AWS credentials fetched through the host's aws CLI, and the .git-change warning) and v0.5.2 (2026-11-06, the gcp route preset minting and caching Google tokens per sandbox and route from a host gcloud pointer, with the breaking herd-to-herdr profile rename), v0.5.2 now the newest tagged release, and the repository pushed 2026-11-06.
+- 2026-11-12 - Volatile refresh for the post-v0.5.2 train: the main channel's 0.5.3 prerelease builds (2026-11-10 and 2026-11-11) share one credential CLI runner across the aws and gcp routes and fix keyring and token-refusal edges, with v0.5.2 still the newest tagged release and the repository pushed 2026-11-12.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: MCP Probe Kit
 created: 2026-11-01
-updated: 2026-11-07
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, mcp, workflow, open-source]
 readability: 3
@@ -23,8 +23,8 @@ State is local: delegated plans persist progress through `plan_heartbeat` and re
 
 ## Status
 
-Active and shipping, thinly adopted: 41 stars, 5 forks, created 2025-10-25, pushed 2026-11-05, as of 2026-11-07 (GitHub API), MIT, solo steward (mybolide).
-The npm package has 82 published versions in its first year, v4.1.1 (2026-10-13) the newest stable, and 1,096 downloads last month (the 2026-10-08 to 2026-11-06 window, re-read 2026-11-07).
+Active and shipping, thinly adopted: 41 stars, 5 forks, created 2025-10-25, pushed 2026-11-09, as of 2026-11-12 (GitHub API), MIT, solo steward (mybolide).
+The npm package has 82 published versions in its first year, v4.1.1 (2026-10-13) the newest stable, and 1,035 downloads last month (the 2026-10-12 to 2026-11-10 window, re-read 2026-11-12).
 The v4 line (2026-08 through 10) shipped native MCP Apps, resumable plans, evidence convergence, parent-child specs, and a managed GitNexus sidecar.
 
 <picture>
@@ -67,6 +67,7 @@ Not for anyone who needs independent validation, a stable tool API, or a workflo
 ## Changes
 
 - 2026-11-01 - Created from the Engineering4AI awesome-list entrant scan (the MCP Servers entry merged 2026-11-01), resolving mybolide/mcp-probe-kit as the protocol-native workflow column with the zero-coverage record as the critical angle.
+- 2026-11-12 - Rotation re-verification of every cited source (all grounded, the tool surface and convergence gate intact, still zero hits on the footprint check): the npm figure moved to 1,035 downloads last month with the repository pushed 2026-11-09, and the project site mcp-probe-kit.bytezonex.com began serving a 403 bot wall that also covers the domain root under a browser UA, so the citation stands with the wall recorded.
 
 ## See also
 
@@ -80,7 +81,7 @@ Not for anyone who needs independent validation, a stable tool API, or a workflo
 - https://github.com/mybolide/mcp-probe-kit - repository: counts, dates, license (41 stars as of 2026-11-01)
 - https://raw.githubusercontent.com/mybolide/mcp-probe-kit/main/README.md - the tool surface, convergence gate, plan persistence, history session, and MCP Apps
 - https://registry.npmjs.org/mcp-probe-kit - the npm package: v4.1.1 latest, 82 versions, MIT, first published 2025-10-25
-- https://api.npmjs.org/downloads/point/last-month/mcp-probe-kit - 1,096 downloads last month (2026-10-08 to 2026-11-06 window), fetched 2026-11-07
-- https://api.github.com/repos/mybolide/mcp-probe-kit/releases - the release train through v4.1.1 (2026-10-13), fetched 2026-11-07
-- https://mcp-probe-kit.bytezonex.com/ - the project site: the v4 framing and the workbench surfaces
-- https://hn.algolia.com/api/v1/search?query=mcp-probe-kit&hitsPerPage=5 - the footprint check: zero hits, the missing-coverage signal
+- https://api.npmjs.org/downloads/point/last-month/mcp-probe-kit - 1,035 downloads last month (2026-10-12 to 2026-11-10 window), fetched 2026-11-12
+- https://api.github.com/repos/mybolide/mcp-probe-kit/releases - the release train through v4.1.1 (2026-10-13), re-fetched 2026-11-12
+- https://mcp-probe-kit.bytezonex.com/ - the project site: the v4 framing and the workbench surfaces (serving a 403 bot wall to scripted and browser-UA fetches as of 2026-11-12, the domain root wall included)
+- https://hn.algolia.com/api/v1/search?query=mcp-probe-kit&hitsPerPage=5 - the footprint check: zero hits, the missing-coverage signal, re-run 2026-11-12

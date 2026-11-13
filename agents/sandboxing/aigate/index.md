@@ -1,7 +1,7 @@
 ---
 title: aigate
 created: 2026-08-30
-updated: 2026-11-07
+updated: 2026-11-12
 readability: 3
 audience_notes: >
   Engineers who wrap coding agents in OS-level restriction and want to know what a small sandbox tool actually enforces.
@@ -12,19 +12,20 @@ tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sand
 
 aigate is a free, MIT-licensed Go CLI that wraps any AI coding agent in an OS-level sandbox with kernel-enforced file restrictions, command blocking, and network egress allowlists, plus stdout secret masking and a local audit log.
 
-**aigate earns its note despite fourteen stars because the mechanism is real and documented, and the fourteen stars are themselves the finding: a kernel-enforced sandbox with no security process is where bypass bugs would go unreported, so treat it as a reference design, not a boundary.**
+**aigate earns its note despite fourteen stars because the mechanism is real and documented, and the 2026-11-10 release wave proved the caution this note has carried since August: v1.1.2 fixed a macOS ssh-agent leak that let any sandboxed agent reach your ssh keys, exactly the bypass a sandbox with no security process accumulates quietly, so the treat-it-as-a-reference-design verdict stands.**
 
 ## What it is
 
 `aigate run -- <agent>` launches a tool inside a sandbox with deny rules for `.env`, secret directories, and key files, blocked commands (curl, wget, ssh), an egress domain allowlist, `allowed_paths` scoping that hides the rest of `$HOME`, stdout secret masking, and a JSONL audit log with a local dashboard.
 The mechanism layers persistent POSIX ACLs with Linux mount, user, PID, and network namespaces via Bubblewrap, egress filtering through slirp4netns plus iptables, and Apple Seatbelt profiles on macOS, so the agent process cannot negotiate with the policy the way it could with a `.claudeignore`.
 Tool-agnostic by design: one wrapper for Claude Code, Cursor, Copilot, Aider, or plain shell.
+The 2026-11-10 wave added identities (isolated Claude Code and GitHub CLI logins per account, each invisible to the others) and the judge, an optional hook broker whose local rules and Cloudflare Clef or Jev model checks can deny or ask but never allow, with credentials and audit held outside the sandbox.
 Linux-first (amd64, arm64), macOS supported, Windows binary undocumented; requires bubblewrap and slirp4netns plus a one-time `sudo aigate setup`.
 MIT, by a small anonymous GitHub organization.
 
 ## Status
 
-Tiny and quiet, and the numbers are the story: 14 stars, 1 fork, 0 issues as of 2026-10-11, created 2026-02-12, 20 commits total, 2 apparently related contributors.
+Tiny but no longer quiet: 14 stars, 1 fork as of 2026-10-11, created 2026-02-12, pushed 2026-11-10, 51 commits and 2 apparently related contributors (machado144 with 45, murilopmachado with 6), 2 open issues as of 2026-11-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AxeForging/aigate&type=date&theme=dark&legend=top-left" />
@@ -32,8 +33,8 @@ Tiny and quiet, and the numbers are the story: 14 stars, 1 fork, 0 issues as of 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AxeForging/aigate&type=date&legend=top-left" />
 </picture>
 
-v1.0.0 released 2026-07-19 with a few commits since, and no push since 2026-08-04, ninety-five days of quiet as of 2026-11-07.
-**A missing community footprint is itself a signal worth stating: no audits, no advisories, no external users visible, and no SECURITY.md.**
+v1.0.0 released 2026-07-19 and then nothing until 2026-11-10, when three releases cut the same day resumed the train: v1.1.0 (per-session Linux networks with loopback denied by default and a `--port` flag for one dev server, `allow_net` actually enforced under the stricter AppArmor bubblewrap profiles where it had silently not applied, the sandboxed command stripped of the privileges that could flush the firewall or unmount hidden files, plus `aigate init --upgrade` for the new masking presets), v1.1.1 (output streaming again with masking on, error messages that name the folders to allow when scope hides a program, dashboard cleanup), and v1.1.2 (security fixes: the macOS `SSH_AUTH_SOCK` no longer passed into sessions, where an agent could use your ssh keys, `deny_exec` applied under symlinked `/var` paths where blocked tools still ran, and Linux `deny_read` covering files that appear mid-session).
+**A missing community footprint is still the headline, and it sharpened: no audit, no SECURITY.md, no advisory process, and v1.1.2's ssh-agent leak is precisely the kind of bypass that sat unreported here, self-disclosed in release notes rather than through any security channel.**
 
 ## Strengths
 
@@ -44,10 +45,10 @@ v1.0.0 released 2026-07-19 with a few commits since, and no push since 2026-08-0
 
 ## Cautions
 
-- No security audit and no visible security process, fatal for something whose entire value is being the trust boundary.
+- No security audit, no SECURITY.md, and no advisory process; v1.1.2's macOS ssh-agent leak shows the failure mode is not hypothetical, and the fixes travel in release notes, the same channel as features.
 - Known incomplete enforcement by its own docs: resource limits configured but unenforced, macOS subcommand blocks degrade to pre-sandbox checks, running from `$HOME` defeats scope mode, masking is application-layer.
-- macOS path relies on `sandbox-exec`, deprecated by Apple; network filtering silently degrades without slirp4netns.
-- Bus factor of one or two people; abandonment risk is the base rate for this profile.
+- macOS path relies on `sandbox-exec`, deprecated by Apple, and its network stays shared with the Mac (localhost services reachable when `allow_net` is empty); the per-session network isolation of v1.1.0 is Linux-only and needs slirp4netns.
+- Bus factor of two (apparently related); the four-month dormancy right after launch is part of its history even after the resumed train.
 
 ## Pricing
 
@@ -78,6 +79,7 @@ Not for anyone needing a security boundary they did not audit themselves; use [O
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched (repository, README, user guide, the enforcement-matrix site, the v1.0.0 release page, the built-in sandboxing comparison, all alive); the push date holds at 2026-08-04 and the quiet window extends to seventy-six days as of 2026-10-19.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched (repository, README, user guide, the enforcement-matrix site, the v1.0.0 release page, the built-in sandboxing comparison, all alive); the push date holds at 2026-08-04 and the quiet window extends to eighty-eight days as of 2026-10-31.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched (repository, README, user guide, the enforcement-matrix site, the v1.0.0 release page, the built-in sandboxing comparison, all alive); the push date holds at 2026-08-04 and the quiet window extends to ninety-five days as of 2026-11-07.
+- 2026-11-12 - Out-of-rotation re-verification for the 2026-11-10 release wave: every cited URL re-fetched and alive (repository, README, user guide, the enforcement-matrix site, the v1.0.0 release page, the built-in sandboxing comparison), and the dormancy reading replaced by the resumed train (v1.1.0, v1.1.1, and v1.1.2 all released 2026-11-10: per-session Linux networks with loopback denied, allow_net enforced under stricter AppArmor profiles, identities, the judge broker, and the macOS ssh-agent and symlinked-path security fixes), the commit count moving from twenty to fifty-one and open issues from zero to two, with the thesis, What-it-is, Status, and Cautions updated and the no-audit reading kept.
 
 ## See also
 
@@ -93,4 +95,6 @@ Not for anyone needing a security boundary they did not audit themselves; use [O
 - https://raw.githubusercontent.com/AxeForging/aigate/HEAD/docs/user/README.md - the exact mechanism and its own enforcement caveats
 - https://axeforging.github.io/aigate/ - the per-OS enforcement matrix
 - https://github.com/AxeForging/aigate/releases/tag/v1.0.0 - the release history
+- https://github.com/AxeForging/aigate/releases/tag/v1.1.0 - the v1.1.0 release notes: per-session networks, the enforcement fixes, identities, and the judge
+- https://github.com/AxeForging/aigate/releases/tag/v1.1.2 - the v1.1.2 security fixes: the macOS ssh-agent leak, symlinked deny_exec paths, and mid-session deny_read coverage
 - https://learn.chatgpt.com/docs/sandboxing - the built-in sandboxing comparison reference

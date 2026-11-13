@@ -1,7 +1,7 @@
 ---
 title: agentsview
 created: 2026-08-30
-updated: 2026-11-08
+updated: 2026-11-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, token-usage, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop build
 
 ## Status
 
-Young and active: 6,094 stars (the dated baseline), 680 forks, 132 open issues and PRs as of 2026-11-07, created 2026-02-19.
+Young and active: 6,094 stars (the dated baseline), 684 forks, 179 open issues and PRs as of 2026-11-12, created 2026-02-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Young and active: 6,094 stars (the dated baseline), 680 forks, 132 open issues a
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.46.1 on 2026-10-23, a day that shipped two releases: v0.46.0 added opt-in web-chat imports, Claude.ai chats synced through a Chrome extension plus ChatGPT, Codex web, and Codex cloud task chats ingested as searchable sessions, and v0.46.1 repaired Antigravity CLI transcript parsing on read-only mounts; with steady releases since July it is pre-1.0 with fast feature churn, and unreleased main-branch work was still landing after v0.46.1 as of 2026-11-08, headlined by the same `agentsview why` provenance command linking file lines or a commit to the recorded sessions and prompts behind them (merged 2026-11-06, PR 2632), now with settings and palette toggles for search by meaning, a keyword fallback when hybrid meaning search is unavailable, recent Friction Log patterns filed to Kata automatically, and Cursor events appended to usage rollups landing beside it, with xAI billing CSV imports and Claude.ai Sync limited to listed organizations still behind it.
+Latest release v0.47.0 on 2026-11-09, the release that shipped the pending provenance work and more: `agentsview why file.go:120-140` or `agentsview why --commit <sha>` links a line range or commit to the recorded sessions and prompts behind it (with `agentsview session commits <id>` listing a session's recorded commits), the Friction Log gained a review page with Markdown download and CLI and MCP reads, Kata issue filing including hourly auto-filing, and an optional model-written summary, search by meaning turned on from Settings or the palette without restarts, a keyword fallback when hybrid meaning search is unavailable, xAI billing CSV imports (`agentsview usage grok <csv>`), Claude.ai Sync's organization allowlist, Open Interpreter and Command Code v3 session imports, Kiro CLI subagent runs, a `agentsview session diagnose <id>` expensive-session report, and CLI commands grouped under `source`, `report`, `replica`, and `index`; with steady releases since July it is pre-1.0 with fast feature churn, and unreleased main-branch work was still landing after v0.47.0 as of 2026-11-12, headlined by keeping and comparing the cost agents record for their own requests beside the computed numbers and pricing harness-recorded costs only when the catalog cannot.
 
 ## Strengths
 
@@ -43,7 +43,7 @@ Latest release v0.46.1 on 2026-10-23, a day that shipped two releases: v0.46.0 a
 
 ## Cautions
 
-- Pre-1.0 with breaking schema bumps (the docs' token-usage page documents schema version 5 again as of 2026-11-08, after documenting version 6 from 2026-11-07 through the 2026-11-08 fetch, the tenth flip this section has recorded), so scripts consuming its output churn either way.
+- Pre-1.0 with breaking schema bumps (the docs' token-usage page documents schema version 6 again as of 2026-11-12, after documenting version 5 from 2026-11-08 through the 2026-11-12 fetch, the eleventh flip this section has recorded), so scripts consuming its output churn either way.
 - Token coverage is opportunistic: cost rows appear only when a transcript contains both token counts and a priceable model, and the docs admit known undercounts such as Claude WebSearch side-calls.
 - The 84-223x benchmark numbers the docs used to publish were vendor-supplied on vendor hardware, and their removal leaves no performance evidence in either direction.
 - The daemon, serve, DuckDB, and PostgreSQL surface is real operational weight if all you wanted was a cost report.
@@ -91,6 +91,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 - 2026-11-01 - Volatile re-verification: no release after v0.46.1 with the only default-branch commits since 2026-10-31 being a CI dependency-download retry workflow change and a JavaScript dependency bump, so the unreleased-feature list stands; the docs' token-usage JSON contract flipped back to schema version 5 (version 6 was documented from 2026-10-26 through 2026-10-31, the eighth recorded flip), and the schema caution moved with it; repository counts refreshed (forks 671 to 670, open issues and PRs 102 to 124).
 - 2026-11-07 - Volatile re-verification: no release after v0.46.1 with unreleased main-branch work headlined by an `agentsview why` provenance command linking file lines or a commit to the recorded sessions and prompts behind them (PR 2632, merged 2026-11-06), with xAI billing CSV imports and Claude.ai Sync organization limits behind it; the docs' token-usage JSON contract flipped back to schema version 6 (version 5 was documented from 2026-11-01 through 2026-11-06, the ninth recorded flip), and the schema caution moved with it; repository counts refreshed (forks 670 to 680, open issues and PRs 124 to 132).
 - 2026-11-08 - Volatile re-verification: no release after v0.46.1 with unreleased main-branch work continuing beside the pending-release `agentsview why` provenance command (settings and palette toggles for search by meaning, a keyword fallback when hybrid meaning search is unavailable, recent Friction Log patterns filed to Kata, and Cursor events appended to usage rollups); the docs' token-usage JSON contract flipped back to schema version 5 (version 6 was documented on 2026-11-07 and still read version 6 at the day's earlier fetch, the tenth recorded flip), and the schema caution moved with it; forks and open issues and PRs unchanged at 680 and 132.
+- 2026-11-12 - Recorded v0.47.0 (2026-11-09), the release that shipped the pending provenance work (`agentsview why` for line ranges and commits, `session commits`) plus the Friction Log review page with Kata auto-filing and an optional model-written summary, search-by-meaning toggles with a keyword fallback, xAI billing CSV imports, Claude.ai Sync's organization allowlist, Open Interpreter and Command Code v3 imports, Kiro CLI subagents, and session diagnose; the docs' token-usage JSON contract flipped back to schema version 6 (version 5 was documented from 2026-11-08 through the 2026-11-12 fetch, the eleventh recorded flip), and the schema caution moved with it; unreleased main-branch work after v0.47.0 keeps and compares harness-recorded request costs beside computed ones; repository counts refreshed (forks 680 to 684, open issues and PRs 132 to 179).
 
 ## See also
 
@@ -103,8 +104,9 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 
 - https://github.com/kenn-io/agentsview - repository, supported agents, architecture, license
 - https://www.agentsview.io - docs, architecture, install, and the Kenn Software attribution
-- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the usage JSON contract (re-verified 2026-11-08, the page back at version 5 after documenting version 6 from 2026-11-07 through 2026-11-08)
-- https://github.com/kenn-io/agentsview/pull/2632 - the `agentsview why` provenance command merged 2026-11-06 behind the pending-release provenance cell and Status sentence (fetched 2026-11-07)
+- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the usage JSON contract (re-verified 2026-11-12, the page back at version 6 after documenting version 5 from 2026-11-08)
+- https://github.com/kenn-io/agentsview/pull/2632 - the `agentsview why` provenance command merged 2026-11-06 and shipped in v0.47.0 (fetched 2026-11-07)
+- https://api.github.com/repos/kenn-io/agentsview/releases/tags/v0.47.0 - the v0.47.0 release notes: the provenance command, the Friction Log review and Kata auto-filing, search-by-meaning toggles, xAI CSV imports, and the new session imports (fetched 2026-11-12)
 - https://www.agentsview.io/docs/clickhouse-sync/ - the ClickHouse mirror's push, watch, service, and read-only serve surfaces
 - https://www.agentsview.io/docs/changelog/ - the release history, grounding v0.44.0's ClickHouse Sync introduction (2026-09-21) and the v0.46.x line
 - https://github.com/kenn-io/agentsview/releases - release cadence and current version
