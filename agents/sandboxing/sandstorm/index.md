@@ -1,7 +1,7 @@
 ---
 title: Sandstorm
 created: 2026-10-31
-updated: 2026-11-08
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, gvisor, firecracker, sandbox-lifecycle]
 readability: 3
@@ -24,8 +24,9 @@ Apache-2.0, by DeepLethe (whose own site, deeplethe.com, is a Chinese-language c
 
 ## Status
 
-Active and unreleased for five months: 3,270 stars, 293 forks, and 11 open issues and pull requests as of 2026-10-31 (GitHub API), pushed 2026-11-01, while the newest tag is still v0.5.3 from 2026-07-22.
-Main's newest commit (2026-11-01) is a v0.6.0 release-preparation pass that fixes the release packaging itself: the release binary had been built against glibc 2.38 and would not start on Ubuntu 22.04 or Debian 12, the Docker image had quietly stopped building, and the pass moves the binary build to ubuntu-22.04, starts tracking Cargo.lock, and bumps the core and SDKs to 0.6.0, though no v0.6.0 tag is cut yet.
+Active and newly released: 3,270 stars, 293 forks as of 2026-10-31 (GitHub API), 14 open issues and PRs as of 2026-11-13, pushed 2026-11-01, with v0.6.0 (2026-11-01) the newest release after the five-month v0.5.3 stall.
+v0.6.0 shipped hours after the release-preparation pass that fixed the packaging (the release binary had been built against glibc 2.38 and would not start on Ubuntu 22.04 or Debian 12, and the Docker image had quietly stopped building): gVisor becomes the default backend, so a node needs no KVM while Firecracker stays opt-in per node behind `--backend firecracker`, master, node, and web console collapse into the one binary, the control plane runs over mutual TLS in both directions with each sandbox's own token checked at the gateway, host groups add fleet placement, the design is recorded as ADRs, the console was rewritten in TypeScript and React, and the official E2B SDKs work against Sandstorm.
+The README now publishes three rounds of fleet measurements (2026-10-28 through 10-31) with methodology and raw result links, plus a self-run comparison chart against CubeSandbox, microsandbox, Kata, Docker, and bubblewrap.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=deeplethe/sandstorm&type=date&theme=dark&legend=top-left" />
@@ -33,7 +34,7 @@ Main's newest commit (2026-11-01) is a v0.6.0 release-preparation pass that fixe
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=deeplethe/sandstorm&type=date&legend=top-left" />
 </picture>
 
-Zero independent footprint: a Hacker News search returns no story about this project as of 2026-10-31, and the latency chart on the README is self-published and self-measured.
+Zero independent footprint: a Hacker News search returns no story about this project as of 2026-11-13, and every benchmark on the README, including the runtime comparison chart, is self-published and self-measured.
 The name collides with Sandstorm.io, the long-archived self-hosted app platform, which still owns search results for the word.
 
 ## Strengths
@@ -44,8 +45,8 @@ The name collides with Sandstorm.io, the long-archived self-hosted app platform,
 
 ## Cautions
 
-- No release since July 2026 while main pushes daily, so adopters run source builds or pin to a stale tag; the 2026-11-01 release-prep pass shows why that matters, since the stale packaging had broken twice over (a glibc-2.38 binary and a Docker image that no longer built).
-- Every performance number is self-measured, with no third-party benchmark or write-up found anywhere.
+- The five-month release stall ended on 2026-11-01, but v0.6.0 is a breaking cut (the old forkd-controller removed, per-sandbox tokens required, a Node 20 SDK floor), so pre-0.6 adopters face a migration, and the 0.x cadence is one release in five months.
+- Every performance number is self-measured, now published with methodology and raw results but with no third-party benchmark or write-up found anywhere.
 - Single-vendor project with a Chinese-language company presence and no English community channel surfaced, so roadmap visibility and support are thin.
 - The Sandstorm name fight against Sandstorm.io for search and mindshare is a permanent tax.
 
@@ -61,13 +62,14 @@ Does not apply: the platform is open-source and self-hosted, and no hosted tier 
 
 ## Bottom line
 
-Recommended for engineers running self-hosted agent-sandbox fleets on their own machines, who can accept an unreleased main and self-measured numbers. Not for teams wanting a hosted API, a tagged release, or an independently reviewed product.
+Recommended for engineers running self-hosted agent-sandbox fleets on their own machines, who can accept a days-old 0.x major and self-measured numbers. Not for teams wanting a hosted API, a long release record, or an independently reviewed product.
 
 ## Changes
 
 - 2026-10-31 - Created.
 - 2026-11-01 - Volatile refresh: recorded the v0.6.0 release-preparation pass on main (2026-11-01), which repairs the release packaging (a binary built against glibc 2.38 that would not start on Ubuntu 22.04 or Debian 12, and a Docker image that had stopped building), bumps core and SDKs to 0.6.0, and cuts no tag yet, with the repository pushed 2026-11-01.
 - 2026-11-08 - Reworded the CubeSandbox See-also line to drop a banned term (now "closest in kind"); no factual change.
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, OPTIMIZATIONS.md, the releases page, the maker's site, the HN search still returning zero stories), and the release record corrected: v0.6.0 shipped 2026-11-01, hours after the release-preparation pass the note had recorded as tagless, making gVisor the default backend with Firecracker opt-in per node, collapsing master, node, and console into one binary, adding the mutual-TLS control plane with per-sandbox tokens, host groups, ADRs, a TypeScript/React console, three published rounds of fleet measurements, and E2B SDK compatibility, with open issues and PRs at 14 as of 2026-11-13 and the Status, Cautions, and Bottom line updated off the unreleased reading.
 
 ## See also
 

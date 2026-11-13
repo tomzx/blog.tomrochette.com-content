@@ -1,7 +1,7 @@
 ---
 title: Workshop
 created: 2026-08-30
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, debugging, open-source]
 readability: 3
@@ -82,6 +82,7 @@ Not for teams needing CI-gated eval suites today, or Windows-primary shops hedge
 - 2026-10-25 - Recorded two more outside pull requests (opened 2026-10-22, a daemon-reuse feature and a dependency bump) sitting unmerged alongside the still-absent maintainer activity.
 - 2026-10-27 - Corrected the activity line: maintainer shipping resumed with the v0.1.23 release (2026-10-26, dependency updates and the Swift SDK guidance from the closed outside pull request), fully re-verified out of rotation with every cited URL re-fetched and live.
 - 2026-11-07 - Recorded the v0.1.24 release (2026-11-05, third-party dependency updates and security patches: the Express body-parser fix, CI action pinning, and the Socket vulnerability patch), fully re-verified out of rotation with every cited URL re-fetched and live.
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched and live, the claims re-confirmed unchanged (raindrop.ai still pricing Hobby free with 1,000 events a month and Pro at $299 plus overage, the 9-point launch thread and its CI-disconnect criticism re-read, v0.1.24 still the newest release, the repository last pushed 2026-11-05).
 
 ## See also
 

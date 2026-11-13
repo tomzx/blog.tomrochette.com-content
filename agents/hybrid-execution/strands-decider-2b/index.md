@@ -1,7 +1,7 @@
 ---
 title: Strands Decider 2B
 created: 2026-10-12
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 Strands Decider 2B is the Strands Agents team's Apache-2.0 decision model, a 2B LoRA-plus-pointer readout on Qwen3.5 that answers choice, score, and yes/no questions with calibrated confidence in one pass, shipped with a pip CLI and positioned as the decision component for agentic workflows built on the Strands Agents SDK.
 
-**This is the wave's second company-built open checkpoint, and the first from a hyperscaler's agent team, and it arrives with the strongest self-run evaluation culture in the category and the weakest third-party result: the seed tables and calibration contract are published to a standard nobody else matches, while the one independent board that has measured it ranks it 225th of 275.**
+**This is the wave's second company-built open checkpoint, and the first from a hyperscaler's agent team, and it arrives with the strongest self-run evaluation culture in the category and the weakest third-party result: the seed tables and calibration contract are published to a standard nobody else matches, while the one independent board that has measured it ranks it 249th of 301.**
 
 ## What it is
 
@@ -37,7 +37,7 @@ The project's first tagged releases landed 2026-10-19: PyPI 0.2.0 splits inferen
 The launch post (2026-10-07) drew a 285-point Show HN thread, above the bar most of this wave cleared, and the tone was warmer than most decision-model threads: early commenters reported on-device deployments rather than methodology fights, one running it in a browser extension to filter email.
 The self-run evidence is unusually disciplined: evaluation/results.md publishes per-seed tables next to the soup's numbers (JevBench public items 180 of 231 tasks right, Brier 0.280, ECE 0.072, HotpotQA 0.832 never trained on), states that the training-data builders are not yet on `main` so the data cannot be rebuilt from the repository, and dates every measurement.
 The headline reliability claim is a confidence contract: on short classification tasks it has never seen, answers at confidence 0.9 or higher are right about 95 percent of the time, with "confirm or ask a person" below that, which is the deployment logic the calibrated-probability columns all promise.
-The one independent reading so far is adverse: the Decision Index 0.4.1 board (edition 0.4, regenerated 2026-11-06, 275 configurations, the Full score now entirely private) scores strands-decider-2b at 20.72, rank 225, against the vendor's Jev 1.14 at 60.24 (fifty-fifth), while the project's own balanced-skill self-run reads 30.82; JevBench's method-v1.8 board (re-read 2026-11-07) still carries a ranked row for the v1 line's 26B-A4B sibling, official #84 at 60.01, with the 2B itself still unbenched.
+The one independent reading so far is adverse: the Decision Index 0.4.1 board (edition 0.4, regenerated 2026-11-12, 301 configurations, the Full score now entirely private) scores strands-decider-2b at 20.72, rank 249, against the vendor's Jev 1.14 at 60.24 (sixty-seventh), while the project's own balanced-skill self-run reads 30.82; JevBench's method-v1.8 board (re-read 2026-11-07) still carries a ranked row for the v1 line's 26B-A4B sibling, official #84 at 60.01, with the 2B itself still unbenched.
 
 ## Strengths
 
@@ -61,7 +61,7 @@ The cost is your own hardware, and the 2B size keeps that small.
 ## Compared to
 
 - [Jev](../jev/index.md): the closed original whose published numbers this model's self-run tables use as yardsticks; Jev keeps the latency and the SLA, Strands Decider ships inspectable weights with a calibration contract.
-- [Decider](../decider/index.md): the open family with the widest checkpoint range, whose 31B ranks twenty-seventh on the Decision Index where Strands' 2B ranks 199th; choose Decider for measured accuracy across budgets, Strands Decider for the eval discipline and the SDK tie-in.
+- [Decider](../decider/index.md): the open family with the widest checkpoint range, whose 31B ranks forty-fourth on the Decision Index where Strands' 2B ranks 249th; choose Decider for measured accuracy across budgets, Strands Decider for the eval discipline and the SDK tie-in.
 - [H2O-Lightning-4B](../h2o-lightning-4b/index.md): the other company-built open checkpoint, measured first on the board that has not measured this one; the two are the test case for whether vendors or individuals populate this category.
 
 ## Bottom line
@@ -85,6 +85,7 @@ The disagreeable claim I will defend: the fair comparison is not with the commun
 - 2026-11-05 - Volatile re-verification after the 2026-11-03 to 11-04 pushes: the default branch gained four unreleased serving and deployment features (environment-based inference benchmarks, a `--device-map` multi-GPU split, a serve-side warm-up of every request type, an AWS Lambda deploy option), v0.2.0 (2026-10-19) and PyPI 0.2.0 unchanged; pushed date moved to 2026-11-04.
 - 2026-11-07 - Volatile re-verification at the v0.3.0 release: v0.3.0 released 2026-11-05 (PyPI 0.3.0 the same day) consolidating the serving-and-deployment line since 0.2.0 (the pointer head made the only readout, a torch-free hidden-states engine, the `--device-map` GPU split, serve-side warm-up, the AWS Lambda deploy option, per-environment inference benchmarks, the always-enforced context window, an MLX one-worker pin, SageMaker docs plus a calling notebook, the customize-decider skill documented as harness-agnostic), with post-release commits adding the `--max-concurrency` serve cap, workerless `/ping` and `/health`, and a documentation manifest; the checkpoint's likes refreshed to 12; the Decision Index's 2026-11-06 regeneration (275 configurations) crowd-shifted the unchanged 20.72 from rank 199 to 225, and JevBench's 26B-A4B sibling row re-read unchanged at official #84 (60.01); pushed date moved to 2026-11-06.
 - 2026-11-11 - Volatile re-verification after the pushed_at move to 2026-11-09: branch activity, the default branch's newest commit still the 2026-11-06 documentation manifest, and v0.3.0 (2026-11-05) still the latest release.
+- 2026-11-13 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-12 regeneration (301 configurations) crowd-shifted the unchanged 20.72 from rank 225 to 249; the repository, releases, checkpoint, and JevBench sibling row re-read unchanged; fetched and re-cited.
 
 ## See also
 
@@ -103,6 +104,6 @@ The disagreeable claim I will defend: the fair comparison is not with the commun
 - https://raw.githubusercontent.com/strands-labs/strands-decider/main/evaluation/results.md - the seed tables, the soup design, the KL anchor, the data-mix disclosure, the Gemma 4 v1 section, and the not-yet-rebuilt-data statement (re-fetched 2026-10-18)
 - https://huggingface.co/StrandsAgents/strands-decider-2B-qwen3.5-v1-2610 - the checkpoint: Apache-2.0, published 2026-10-09, 12 likes as of 2026-11-07, downloads not tracked, one of five v1 checkpoints in the org (Hugging Face API, as of 2026-11-07)
 - https://news.ycombinator.com/item?id=49987076 - the 285-point launch thread (2026-10-07, fetched via the Algolia items API), its on-device deployment reports the early traction evidence
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 board scoring strands-decider-2b at 20.72, rank 225 of 275 (regenerated 2026-11-06, fetched 2026-11-07)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 board scoring strands-decider-2b at 20.72, rank 249 of 301 (regenerated 2026-11-12, fetched 2026-11-13)
 - https://benchmarkheaven.com/jev-models - JevBench's method-v1.8 board, whose only Strands row is the 26B-A4B sibling at official #84, 60.01, linking amazon/strands-decider-26B-A4B-gemma4-v1-2610 (re-read 2026-11-07)
 - https://pypi.org/project/strands-decider/ - the package, 0.3.0 since 2026-11-05, self-described as an experimental typed classifier (re-fetched 2026-11-07)

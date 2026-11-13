@@ -1,7 +1,7 @@
 ---
 title: BAML
 created: 2026-10-11
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, dsl, validation, agents]
 readability: 3
@@ -25,9 +25,9 @@ Boundary, a Seattle company, also runs Agent Tries BAML, thousands of simulated 
 ## Status
 
 **Large, very active, and mid-pivot: the structured-output library that launched in 2023 is now a language, and the docs churn of that pivot is visible.**
-9,408 stars (recorded 2026-10-15), 515 forks and 364 open issues as of 2026-11-11, created 2023-10-06, pushed 2026-11-11, as of 2026-11-11 (GitHub API).
-The `baml-language` release train reached 0.23.0 (2026-10-26), the first stable since 0.22.2 (2026-10-13), with the 0.22.3 nightlies ending at the 20261024 build and no stable 0.22.3 ever shipping; the 0.23.1 nightly train then ran through the 20261104.a build (published 2026-11-05) before the stable train resumed: 0.24.0 landed 2026-11-05 together with the first `baml-wrapper` release (0.3.0, the baml-in-baml feature going to production), and 0.25.0, 0.25.1 (with wrapper 0.3.1), and 0.25.2 all shipped 2026-11-06, alongside a new `baml-action` GitHub Action, `@trace.redact` for classes and class fields, and `@json` attributes that let a class skip its JSON override (the last two on `canary`, unreleased past 0.25.2); the stable train now holds at 0.25.2 while the 0.25.3 nightly line has run on through the 20261108.a build (published 2026-11-09) and the 20261109.a build (published 2026-11-10), and the project remains pre-1.0 by its own statement.
-The npm runtime moved 1,328,422 downloads in npm's trailing-month window (2026-10-11 to 2026-11-09, the newest window npm serves as of 2026-11-11), still the category's largest distribution after the vendor APIs themselves.
+9,408 stars (recorded 2026-10-15), 518 forks and 383 open issues as of 2026-11-13, created 2023-10-06, pushed 2026-11-13, as of 2026-11-13 (GitHub API).
+The `baml-language` release train reached 0.23.0 (2026-10-26), the first stable since 0.22.2 (2026-10-13), with the 0.22.3 nightlies ending at the 20261024 build and no stable 0.22.3 ever shipping; the 0.23.1 nightly train then ran through the 20261104.a build (published 2026-11-05) before the stable train resumed: 0.24.0 landed 2026-11-05 together with the first `baml-wrapper` release (0.3.0, the baml-in-baml feature going to production), and 0.25.0, 0.25.1 (with wrapper 0.3.1), and 0.25.2 all shipped 2026-11-06, alongside a new `baml-action` GitHub Action, `@trace.redact` for classes and class fields, and `@json` attributes that let a class skip its JSON override (the last two on `canary`, unreleased past 0.25.2); the stable train now holds at 0.25.2 while the 0.25.3 nightly line has run on through the 20261108.a build (published 2026-11-09), the 20261109.a build (published 2026-11-10), and the 20261110.a build (published 2026-11-11), and the project remains pre-1.0 by its own statement.
+The npm runtime moved 1,387,816 downloads in npm's trailing-month window (2026-10-13 to 2026-11-11, the newest window npm serves as of 2026-11-13), still the category's largest distribution after the vendor APIs themselves.
 The community footprint is thinner than the numbers suggest: the 2024 Show HN drew 18 points, a July 2026 thread on the language repositioning drew 8, and the former clients documentation path (docs.boundaryml.com/clients) returns 404 as of 2026-10-11, a casualty of the pivot.
 The default branch moved from `main` to `canary` in the same window, which broke raw-README links pinned to `main` until re-pointed.
 
@@ -85,6 +85,7 @@ My disagreeable claim: BAML is the strongest bet in this category that the struc
 - 2026-11-07 - Volatile re-verification after the 2026-11-06 to 11-07 pushes: the stable train resumed, baml-language 0.24.0 released 2026-11-05 together with the first baml-wrapper release (0.3.0, baml-in-baml to production), then 0.25.0, 0.25.1 (with wrapper 0.3.1), and 0.25.2 all on 2026-11-06, the 0.23.1 nightly train having ended at the 20261104.a build (published 2026-11-05), plus a baml-action GitHub Action, `@trace.redact` for classes and class fields, and `@json` class attributes on `canary` unreleased past 0.25.2; forks re-read at 514 and open issues at 367, the pushed date moved to 2026-11-07, and the npm trailing-month window re-read at 1,309,425 (2026-10-07 to 2026-11-05).
 - 2026-11-08 - Volatile re-verification after the 2026-11-08 push: a fresh 0.25.3 nightly line opened at the 20261106.a build (published 2026-11-07, the first nightly since the stable train resumed), the stable train holding at 0.25.2; forks and open issues re-read unchanged (514 and 367), the pushed date moved to 2026-11-08, and the npm trailing-month window re-read at 1,271,349 (2026-10-09 to 2026-11-07).
 - 2026-11-11 - Volatile re-verification after the 2026-11-11 push: the 0.25.3 nightly train continues through the 20261109.a build (published 2026-11-10), the stable train holding at 0.25.2; forks re-read at 515 and open issues at 364, the pushed date moved to 2026-11-11, and the npm trailing-month window re-read at 1,328,422 (2026-10-11 to 2026-11-09).
+- 2026-11-13 - Volatile re-verification after the 2026-11-13 pushes: the 0.25.3 nightly train continues through the 20261110.a build (published 2026-11-11), the stable train holding at 0.25.2; forks re-read at 518 and open issues at 383, the pushed date moved to 2026-11-13, and the npm trailing-month window re-read at 1,387,816 (2026-10-13 to 2026-11-11).
 
 ## See also
 
@@ -95,10 +96,10 @@ My disagreeable claim: BAML is the strongest bet in this category that the struc
 
 ## References
 
-- https://github.com/BoundaryML/baml - repository facts: 9,408 stars as of 2026-10-15, 515 forks and 364 open issues, Apache-2.0, Rust, created 2023-10-06, pushed 2026-11-11, default branch `canary` (GitHub API, as of 2026-11-11)
+- https://github.com/BoundaryML/baml - repository facts: 9,408 stars as of 2026-10-15, 518 forks and 383 open issues, Apache-2.0, Rust, created 2023-10-06, pushed 2026-11-13, default branch `canary` (GitHub API, as of 2026-11-13)
 - https://raw.githubusercontent.com/BoundaryML/baml/canary/README.md - the positioning, runtime types, toolchain list, and install commands (the README moved to the `canary` default branch; re-fetched there 2026-10-18 after the `main` URL went 404)
 - https://boundaryml.com/explore.md - the language tour: runtime types, typed errors, green threads, LLM calls as functions, the error-correcting parser, testsets and quorums, the supply-chain statement, and the Agent Tries BAML arena
 - https://boundaryml.com/quickstart - the toolchain walkthrough: brew install, baml init, agent skill install for Claude Code and Codex, LSP and playground
-- https://api.github.com/repos/BoundaryML/baml/releases - baml-language 0.21.0 (2026-10-08), 0.22.2 (2026-10-13), the 0.22.3 nightly train ending at the 20261024 build, 0.23.0 (2026-10-26), the 0.23.1 nightly train through the 20261104.a build, 0.24.0 and baml-wrapper 0.3.0 (2026-11-05), 0.25.0, 0.25.1, 0.25.2, and baml-wrapper 0.3.1 (2026-11-06), and the 0.25.3 nightly line running through the 20261106.a (2026-11-07), 20261108.a (2026-11-09), and 20261109.a (2026-11-10) builds (re-fetched 2026-11-11)
-- https://api.npmjs.org/downloads/point/last-month/@boundaryml/baml - 1,328,422 downloads in npm's trailing-month window, 2026-10-11 to 2026-11-09, the newest window npm serves as of 2026-11-11 (re-fetched 2026-11-11)
+- https://api.github.com/repos/BoundaryML/baml/releases - baml-language 0.21.0 (2026-10-08), 0.22.2 (2026-10-13), the 0.22.3 nightly train ending at the 20261024 build, 0.23.0 (2026-10-26), the 0.23.1 nightly train through the 20261104.a build, 0.24.0 and baml-wrapper 0.3.0 (2026-11-05), 0.25.0, 0.25.1, 0.25.2, and baml-wrapper 0.3.1 (2026-11-06), and the 0.25.3 nightly line running through the 20261106.a (2026-11-07), 20261108.a (2026-11-09), 20261109.a (2026-11-10), and 20261110.a (2026-11-11) builds (re-fetched 2026-11-13)
+- https://api.npmjs.org/downloads/point/last-month/@boundaryml/baml - 1,387,816 downloads in npm's trailing-month window, 2026-10-13 to 2026-11-11, the newest window npm serves as of 2026-11-13 (re-fetched 2026-11-13)
 - https://hn.algolia.com/api/v1/search?query=BAML%20boundary&tags=story - the footprint scan: an 18-point 2024 Show HN and an 8-point July 2026 repositioning thread (re-fetched 2026-10-18)

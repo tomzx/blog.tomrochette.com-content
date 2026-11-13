@@ -1,7 +1,7 @@
 ---
 title: Agent Sandbox
 created: 2026-08-30
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, kubernetes, isolation, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Apache-2.0, developed under Kubernetes SIG Apps with Google Cloud backing, built
 
 ## Status
 
-Young but institutionally backed: 4,268 stars, 564 forks, 180 open issues and PRs as of 2026-10-16, created 2025-08-12, pushed 2026-11-07.
+Young but institutionally backed: 4,268 stars, 564 forks, 180 open issues and PRs as of 2026-10-16, created 2025-08-12, pushed 2026-11-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kubernetes-sigs/agent-sandbox&type=date&theme=dark&legend=top-left" />
@@ -36,6 +36,7 @@ v1.0.8 followed on 2026-10-22: MCP `execute_command` output is now bounded to a 
 **The v1.0.0 tag is not API stability: the API is `v1beta1`, v1alpha1 was removed in the same release, and upgrades from older versions require a documented four-step migration.**
 v1.0.9 followed on 2026-10-29: native gRPC proxying in the sandbox-router (including sandboxd's ProcessService), a Helm chart for the router, WebSockets through the router working again (broken since v1.0.7), directory watching in sandboxd, warm-pool adoption and suspend fixes, and streaming command execution in the Python SDK, with an action-required NetworkPolicy change that opens router egress on TCP 9090 across every namespace under the default allow-all authorizer.
 v1.0.10 followed on 2026-11-06: gRPC-Web transcoding in the router for browser clients (same-origin by default, an origin allowlist flag for CORS), sandboxd unary execution limits (`ExecuteWithLimits` with time and output caps enforced once the new daemon flags are set), expanded file operations (directory creation, recursive listing, create-only writes, move, copy, and tar extraction), `ConnectivityRouterPortForward` for Kata and gVisor in the Go SDK, fixed `SandboxClaim` mirroring and warm-pool replica accounting, and new examples for Hyperlight micro-VMs, GKE L4 GPU snapshots, OpenCode, and multi-tenant RL, plus breaking changes: the router's `Options.ProbeAddr` removed for Go users, OLM bundles requiring upstream OLM v0.32.0 or later, and another action-required NetworkPolicy rework.
+v1.0.11 followed on 2026-11-12: browser path-prefix routing in the sandbox router for applications like JupyterLab (with automatic `Set-Cookie` and redirect `Location` rewriting under the prefix by default, an opt-out flag for legacy pass-through), sandboxd authentication through a header token that survives proxies stripping `Authorization`, symlink-safe file deletion and named-pipe rejection in the file endpoints, request-body preservation on dial retries, router-tunnel connection config in the Python SDK, `mkdir`, `move`, `copy`, `append`, and `create_only` file operations across the Python, Go, and TypeScript SDKs, a controller fix that stops terminating pods reporting `Ready=True`, and new examples for AWS Nitro Enclaves on EKS and a scoped-token MCP server, with three breaking changes (the response rewriting, a 5-second Python SDK signal timeout raising `TimeoutError`, and an `operating_mode` label that splits the `agent_sandboxes` metric series for raw PromQL).
 
 ## Strengths
 
@@ -80,6 +81,7 @@ Not for local developer sandboxing, and not for anyone expecting the 1.0 tag to 
 - 2026-10-23 - Recorded v1.0.8 (2026-10-22, MCP command output bounded at a 30,000-character default with new required truncation fields and breaking effect for strict schema validators, opt-in recovery from failed Pods, GKE Pod Snapshot primitives for RL, Go SDK provisioning parity, and the sandbox-router Kustomization move with hardened credentials), the release count moving to twenty-eight.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched and alive (repository, the v1.0.0 release page, the threat model, the Google announcement, and the E2B and Modal comparison docs); recorded v1.0.9 (2026-10-29, native gRPC proxying in the sandbox-router with a router Helm chart, WebSockets through the router working again after the v1.0.7 break, sandboxd directory watching, warm-pool adoption and suspend fixes, streaming Python SDK execution, and the action-required NetworkPolicy opening router egress on TCP 9090 in every namespace), the release count moving to twenty-nine and the repository pushed 2026-10-31.
 - 2026-11-07 - Recorded v1.0.10 (2026-11-06, gRPC-Web transcoding in the router for browser clients, sandboxd unary execution limits with time and output caps, expanded file operations, ConnectivityRouterPortForward for Kata and gVisor in the Go SDK, claim-mirroring and warm-pool accounting fixes, and new Hyperlight, GKE L4 GPU snapshot, OpenCode, and multi-tenant RL examples; breaking removal of the router's Options.ProbeAddr, OLM bundles requiring upstream OLM v0.32.0 or later, and a NetworkPolicy rework that scopes sandbox egress but opens API-server ports to any destination), the release count moving to thirty and the Cautions bullet updated to the v1.0.10 posture, with the repository pushed 2026-11-07.
+- 2026-11-13 - Recorded v1.0.11 (2026-11-12, browser path-prefix routing in the sandbox router with automatic Set-Cookie and redirect-Location rewriting, sandboxd header-token authentication that survives Authorization-stripping proxies, symlink-safe deletion and named-pipe rejection, SDK file-operation expansion with router-tunnel connections, the PodTerminating readiness fix, and AWS Nitro Enclaves and scoped-token MCP server examples, with the response-rewrite, signal-timeout, and metric-label breaking changes), the release count moving to thirty-one, with the repository pushed 2026-11-12.
 
 ## See also
 

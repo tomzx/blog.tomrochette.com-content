@@ -1,7 +1,7 @@
 ---
 title: multi
 created: 2026-10-16
-updated: 2026-11-05
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, multi-model, open-source, developer-tools]
 readability: 3
@@ -32,7 +32,7 @@ It is Shell and Python from szarkans, first published July 5, 2026, with 31 tagg
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=szarkans/multi&type=date&legend=top-left" />
 </picture>
 
-Independent coverage exists but is thin, and I state that as a finding: OpenAgentSkill, a third-party skill registry, published a review of it on August 28, 2026 ("disagreement as signal", conclusion: track it, it is unproven), then removed the post from its blog (the URL 404s as of 2026-10-22), while its audit page remains, flagging the shell and credential surface and now blocking auto-install pending source review, and a Hacker News search re-run on 2026-10-22 still returns zero threads.
+Independent coverage exists but is thin, and I state that as a finding: OpenAgentSkill, a third-party skill registry, published a review of it on August 28, 2026 ("disagreement as signal", conclusion: track it, it is unproven), removed the post from its blog (the URL 404ed from 2026-10-22 through 2026-10-30), then restored it (the URL serves the same August 28 post again as of 2026-11-13, conclusion unchanged), while its audit page remains, flagging the shell and credential surface and blocking auto-install pending source review, and a Hacker News search re-run on 2026-11-13 still returns zero threads.
 The repo was renamed from szarkans/multi-code-review to szarkans/multi (the old URL redirects), so third-party citations under either name resolve to one project.
 The October 22 v1.20.x pair widened the review and closed a leak: v1.20.0 puts the ponytail lens's defect findings through the same code check instead of filing them all under the simplicity section, adds load-scale bugs (check-then-write races, lists that only grow, a query per item) to what reviewers hunt, and makes single-reviewer findings state what stays broken if unfixed, and v1.20.1 gives each reviewer CLI only its own key, where before every reviewer's environment carried every key in providers.env, printable with `env`.
 The November 2 v1.21.x train made the plugin installable beyond Claude Code and Codex (v1.21.0: omp and OpenCode install multi as a native plugin, one skills list driving all four harnesses), fixed harness detection when one CLI starts inside another (v1.21.1), and fixed the agy backend on version-manager installs (v1.21.2), that last one found by a live three-model review of the two prior releases, the tool reviewing its own output.
@@ -51,7 +51,7 @@ The November 2 v1.21.x train made the plugin installable beyond Claude Code and 
 - Reviews take roughly twice as long as a single-model pass (about 19 versus 10 minutes per case in the author's own table) and produce roughly twice the findings to read, which is the cost of the signal.
 - No forge integration: nothing posts to a pull request, so it is a pre-merge instrument you run, not a reviewer your repository hosts.
 - The name is unsearchable ("multi" collides with everything), and third-party citations split across the old multi-code-review name and the new one.
-- 23 stars and zero Hacker News threads mean the community footprint is a registry listing whose review post has since been removed, and the registry's own audit flags the plugin's shell-execution and credential surface and blocks auto-install pending source review.
+- 23 stars and zero Hacker News threads mean the community footprint is a registry listing whose review post was removed for a stretch and then restored, and the registry's own audit flags the plugin's shell-execution and credential surface and blocks auto-install pending source review.
 
 ## Pricing
 
@@ -75,6 +75,7 @@ My disagreeable claim: the corroborated-versus-disagreed split is the correct in
 - 2026-10-22 - Rotation re-verification: recorded v1.18.1 and v1.19.0 (OpenCode 2.0 support and the agy Google Antigravity CLI backend, taking the roster to six backend types and 26 releases), and recorded that OpenAgentSkill removed its August review post while its audit page now blocks auto-install; every cited URL re-fetched, the eval page and zero-HN footprint unchanged.
 - 2026-10-30 - Rotation re-verification: recorded v1.20.0 (ponytail-5 defect findings now checked against the code instead of filed under the simplicity section, load-scale bugs added to the review scope, single-reviewer findings naming what stays broken) and v1.20.1 (per-reviewer key isolation, ending every reviewer's access to all providers.env keys) with the tag count at 28; every cited URL re-fetched, the eval page and zero-HN footprint unchanged, the registry's audit page returning 503 on the day.
 - 2026-11-05 - Volatile re-verification: recorded the November 2 v1.21.0 to v1.21.2 train (omp and OpenCode as native install hosts, the harness-detection fix, and the agy version-manager fix found by a three-model live review of the prior releases), tags at 31 and v1.21.2 latest; the push moved to November 3.
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched live; the release state unchanged (31 tags, v1.21.2 latest, pushed November 3), the eval page unchanged (29-versus-14 standing, last update still September 24), and the registry's removed review post is back (the URL serves the August 28, 2026 review again, its track-don't-adopt conclusion unchanged) while its audit page is live again after the 503 and still blocks auto-install pending source review; the README grew Russian and Chinese translation links.
 
 ## See also
 
@@ -86,13 +87,13 @@ My disagreeable claim: the corroborated-versus-disagreed split is the correct in
 
 ## References
 
-- https://github.com/szarkans/multi - repo facts: 23 stars, 2 forks, MIT, created 2026-07-05, 127 commits, renamed from multi-code-review (GitHub API, as of 2026-10-16, re-queried 2026-10-22, 2026-10-30, and 2026-11-05: pushed 2026-11-03)
-- https://raw.githubusercontent.com/szarkans/multi/main/README.md - the bucketed report, backends, profiles, depth knob, loop mode, refusal to run single-model, and the training-use table, re-fetched 2026-10-30
-- https://raw.githubusercontent.com/szarkans/multi/main/evals/RESULTS.md - the eval protocol: red-green bug corpus, blind majority grading, the fix-revert exam discarded as broken, and the limitations list, re-fetched 2026-10-30 (unchanged, last update still 2026-09-24)
-- https://raw.githubusercontent.com/szarkans/multi/main/config.example.toml - the backend and profile configuration surface, documenting the six backend types including agy (Google Antigravity CLI), re-fetched 2026-10-30
-- https://raw.githubusercontent.com/szarkans/multi/main/INSTALL.md - the non-marketplace install path for other hosts, re-fetched 2026-10-30 (unchanged)
-- https://api.github.com/repos/szarkans/multi/tags - 31 tagged releases, v1.21.2 latest (GitHub API, as of 2026-10-16 with 24 tags, re-fetched 2026-10-22 with 26, 2026-10-30 with 28, and 2026-11-05)
-- https://api.github.com/repos/szarkans/multi/releases?per_page=3 - the release notes behind v1.20.0 (ponytail-5 triage, load-scale review scope, cost-of-not-fixing lines), v1.20.1 (per-reviewer key isolation), and the November 2, 2026 v1.21.x train (native omp and OpenCode install hosts, harness-detection fix, agy version-manager fix), fetched 2026-10-30, re-fetched 2026-11-05
-- https://www.openagentskill.com/blog/introducing-szarkans-multi-code-review - the August 28, 2026 review: disagreement as signal, track-don't-adopt conclusion, fetched 2026-10-16; the post has since been removed from the registry's blog (404, re-checked 2026-10-22 and 2026-10-30)
-- https://www.openagentskill.com/skills/szarkans-multi-code-review - the registry's audit page: shell and credential surface flagged, low-adoption signals stated, fetched 2026-10-16, re-fetched 2026-10-22 (now also blocking auto-install pending source review); the 2026-10-30 re-fetch returned 503
-- https://hn.algolia.com/api/v1/search?query=szarkans%20multi&tags=story - the coverage search that returned zero threads (queried 2026-10-16, re-queried 2026-10-22 and 2026-10-30, still zero)
+- https://github.com/szarkans/multi - repo facts: 23 stars, 2 forks, MIT, created 2026-07-05, 127 commits, renamed from multi-code-review (GitHub API, as of 2026-10-16, re-queried 2026-10-22, 2026-10-30, 2026-11-05, and 2026-11-13: pushed 2026-11-03)
+- https://raw.githubusercontent.com/szarkans/multi/main/README.md - the bucketed report, backends, profiles, depth knob, loop mode, refusal to run single-model, and the training-use table, re-fetched 2026-10-30; re-fetched 2026-11-13 (content unchanged in substance, with Russian and Chinese translation links added at the top)
+- https://raw.githubusercontent.com/szarkans/multi/main/evals/RESULTS.md - the eval protocol: red-green bug corpus, blind majority grading, the fix-revert exam discarded as broken, and the limitations list, re-fetched 2026-10-30 (unchanged, last update still 2026-09-24); re-fetched 2026-11-13, unchanged
+- https://raw.githubusercontent.com/szarkans/multi/main/config.example.toml - the backend and profile configuration surface, documenting the six backend types including agy (Google Antigravity CLI), re-fetched 2026-10-30 and 2026-11-13 (unchanged)
+- https://raw.githubusercontent.com/szarkans/multi/main/INSTALL.md - the non-marketplace install path for other hosts, re-fetched 2026-10-30 (unchanged) and 2026-11-13 (unchanged)
+- https://api.github.com/repos/szarkans/multi/tags - 31 tagged releases, v1.21.2 latest (GitHub API, as of 2026-10-16 with 24 tags, re-fetched 2026-10-22 with 26, 2026-10-30 with 28, 2026-11-05, and 2026-11-13, still 31)
+- https://api.github.com/repos/szarkans/multi/releases?per_page=3 - the release notes behind v1.20.0 (ponytail-5 triage, load-scale review scope, cost-of-not-fixing lines), v1.20.1 (per-reviewer key isolation), and the November 2, 2026 v1.21.x train (native omp and OpenCode install hosts, harness-detection fix, agy version-manager fix), fetched 2026-10-30, re-fetched 2026-11-05 and 2026-11-13
+- https://www.openagentskill.com/blog/introducing-szarkans-multi-code-review - the August 28, 2026 review: disagreement as signal, track-don't-adopt conclusion, fetched 2026-10-16; the post was removed from the registry's blog (404, re-checked 2026-10-22 and 2026-10-30) and restored by 2026-11-13 (the 2026-11-13 re-fetch serves the same August 28, 2026 post with its conclusion unchanged)
+- https://www.openagentskill.com/skills/szarkans-multi-code-review - the registry's audit page: shell and credential surface flagged, low-adoption signals stated, fetched 2026-10-16, re-fetched 2026-10-22 (now also blocking auto-install pending source review); the 2026-10-30 re-fetch returned 503 and the 2026-11-13 re-fetch found the audit live again, still blocking auto-install pending source review
+- https://hn.algolia.com/api/v1/search?query=szarkans%20multi&tags=story - the coverage search that returned zero threads (queried 2026-10-16, re-queried 2026-10-22, 2026-10-30, and 2026-11-13, still zero)

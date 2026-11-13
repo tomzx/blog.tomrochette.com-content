@@ -1,7 +1,7 @@
 ---
 title: Overalls
 created: 2026-10-21
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, firecracker, nixos, self-hosted]
 readability: 3
@@ -23,7 +23,7 @@ Made by Geoffrey Huntley (the Ralph loop author) with support from Antithesis, C
 
 ## Status
 
-Research preview, and it says so itself: the README banner reads "Not for consumption", with the launch moved to 12 November 2026 (the 3 November date the note previously recorded slipped); no release or tag exists yet, and the default branch holds 2,377 commits as of 2026-11-07, up from the 2,243 counted on 2026-11-01, with the launch-prep train continuing across the Mila app clients (Windows, Android, and Apple, whose native builds now run in CI with parity receipts) and release CI.
+Research preview, and it says so itself: the README banner still reads "Not for consumption. Overalls launches on 12 November 2026" as of 2026-11-13, the announced launch date has passed, and no release or tag exists yet (the banner previously slipped from 3 November to 12 November); the default branch holds 2,377 commits as of 2026-11-07, up from 2,243 on 2026-11-01, with the launch-prep train continuing across the Mila app clients (Windows, Android, and Apple, whose native builds now run in CI with parity receipts) and release CI, the repository last pushed 2026-11-09 on a dependency update.
 The repository was created 2025-12-18 as loom, announced 2026-01-17 as The Weaving Loom, "infrastructure for evolutionary software" that he told readers not to use, and renamed to Overalls by mid-October 2026 (the loom URL 301-redirects; the website repository appeared 2026-10-16).
 1,557 stars as of 2026-10-21, MIT.
 
@@ -63,7 +63,7 @@ No paid tier exists as of 2026-10-21.
 
 ## Bottom line
 
-**Recommended for teams with bare metal and NixOS competence who want persistent, key-free agent machines under their own control and can wait for the 12 November launch.**
+**Recommended for teams with bare metal and NixOS competence who want persistent, key-free agent machines under their own control and can tolerate launch dates that slip.**
 Not for laptop-scale users (a wrapper like Fence or Landrun is the lighter answer), and not yet for anyone who requires a released, audited, community-proven platform.
 
 ## Changes
@@ -72,6 +72,7 @@ Not for laptop-scale users (a wrapper like Fence or Landrun is the lighter answe
 - 2026-10-25 - Corrected the commit count (the default branch holds 1,746 commits as of 2026-10-25, not the 30 recorded at creation, which miscounted a single default page), with over 200 commits since 2026-10-21 in the launch-prep train across the Windows, Android, and Apple clients and the README banner still setting launch for 3 November 2026.
 - 2026-11-01 - Volatile refresh for the launch-prep train: the trunk commit count moved from 1,746 (2026-10-25) to 2,243 (2026-11-01) across the Windows, Android, and Apple clients and release CI, and the README banner still sets the research-preview launch for 3 November 2026.
 - 2026-11-07 - Recorded the launch date moving from 3 November to 12 November 2026 (the README banner now reads "Overalls launches on 12 November 2026" over the same Not-for-consumption research-preview banner), the trunk commit count advancing from 2,243 to 2,377, and the train continuing on the Mila app clients' native builds with CI parity receipts; still no release or tag.
+- 2026-11-13 - Out-of-rotation re-verification on the launch date passing: the README banner still reads "Overalls launches on 12 November 2026" as of 2026-11-13 with no release or tag and the repository last pushed 2026-11-09 on a dependency update, so the second announced launch date has also passed without a release, and the Bottom line's wait-for-the-launch phrasing updated.
 
 ## See also
 

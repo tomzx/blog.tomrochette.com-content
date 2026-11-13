@@ -1,7 +1,7 @@
 ---
 title: agents-cron
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, cron, scheduling, self-hosted, local-first]
 readability: 3
@@ -24,11 +24,11 @@ It is a single-maintainer TypeScript project by fookhsu, first published on npm 
 ## Status
 
 **Active and shipping on a weekly release train, with a small but measurable install footprint.**
-3 stars as of 2026-11-08 (GitHub API), 0 forks, 1 open issue, created 2026-09-10 and pushed 2026-11-05, with the default branch's head a same-day PR merge.
-The npm package counts 4,185 downloads from 2026-10-08 to 2026-11-08 (dated-range query), and Pi's official package registry page reports 3,825/mo and 932/wk as of 2026-11-08, at version 0.16.1 published 2026-11-04.
+3 stars as of 2026-11-08 (GitHub API), 0 forks and no open issues as of 2026-11-13, created 2026-09-10 and pushed 2026-11-08, with the default branch's head the 0.18.0 release commit.
+The npm package counts 5,408 downloads from 2026-10-13 to 2026-11-13 (dated-range query), and Pi's official package registry page reports 4,185/mo and 702/wk as of 2026-11-13, at version 0.18.0 published 2026-11-08.
 The store has been migrated twice in a month of releases (`.pi/scheduler/` to `.agents/cron/` at 0.7.0, project files to the global registry at 0.9.0), both migrations are documented and automatic.
-The default branch's latest work adds a "hybrid ask" that hands work over to an agents-pod pod, an early sign of a multi-agent direction.
-The independent footprint is zero: no Hacker News thread as of 2026-11-08 searches (one incidental match in an unrelated Show HN), no blog write-ups, and the third-party listings that exist (omppackages, which marks it untested on omp) are directory automation, not coverage.
+The release train moved three cuts on 2026-11-08 alone (0.16.2, 0.17.0, 0.18.0): 0.17.0 rewrote the CLI's output as a machine-readable contract aimed at agents, and 0.18.0 unified one vocabulary (intervals, timestamps, task and run lines) across every surface.
+The independent footprint is zero: no Hacker News thread as of 2026-11-13 searches (one incidental match in an unrelated Show HN), no blog write-ups, and the third-party listings that exist (omppackages, which marks it untested on omp) are directory automation, not coverage.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fookhsu/agents-cron&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ My disagreeable claim: the borrow-the-runtime pattern here (spawn the CLI you al
 ## Changes
 
 - 2026-11-08 - Created from the dedicated-list check's three-candidate resolution; admitted on the Airut small-maintainer precedent, with npm install telemetry as the adoption evidence the octopool ruling asks for.
+- 2026-11-13 - Fully re-verified in rotation with every cited URL re-fetched: the release train moved to 0.18.0 (three cuts on 2026-11-08, the CLI's output made an agent-facing contract at 0.17.0 and one shared vocabulary at 0.18.0), the npm trailing-month downloads refreshed (4,185 to 5,408, dated-range query 2026-10-13 to 2026-11-13), the Pi page refreshed (0.18.0, 4,185/mo and 702/wk), the open issue closed (1 to 0), and the stale hybrid-ask head note replaced by the current head; the README's design rules, storage layout, adapter layer, and AGPL-3.0 license all re-confirmed, and the coverage footprint re-confirmed still empty.
 
 ## See also
 
@@ -83,13 +84,13 @@ My disagreeable claim: the borrow-the-runtime pattern here (spawn the CLI you al
 
 ## References
 
-- https://api.github.com/repos/fookhsu/agents-cron - counters (3 stars, 0 forks, 1 open issue, created 2026-09-10, pushed 2026-11-05), TypeScript, AGPL-3.0, as of 2026-11-08
-- https://raw.githubusercontent.com/fookhsu/agents-cron/main/README.md - the design rules, adapter layer, cron setup, storage layout, notifications, and rename history
-- https://raw.githubusercontent.com/fookhsu/agents-cron/main/LICENSE - the AGPL-3.0 license text
-- https://api.github.com/repos/fookhsu/agents-cron/commits?per_page=3 - default-branch activity, head at the 2026-11-05 agents-pod handover merge
-- https://api.github.com/repos/fookhsu/agents-cron/tags?per_page=5 - the tag train, v0.16.1 down to v0.13.2
-- https://registry.npmjs.org/agents-cron - the package record: latest 0.16.1, created 2026-10-18, last modified 2026-11-04
-- https://api.npmjs.org/downloads/point/2026-10-08:2026-11-08/agents-cron - 4,185 downloads in the trailing month, dated-range query
-- https://pi.dev/packages/agents-cron - Pi's official package page: version, 3,825/mo and 932/wk downloads as of 2026-11-08, extension and skill types, the rename note
-- https://omppackages.com/packages/agents-cron - third-party directory listing, marked untested on omp
-- https://hn.algolia.com/api/v1/search?query=%22agents-cron%22&tags=story - the coverage search finding no dedicated thread as of 2026-11-08
+- https://api.github.com/repos/fookhsu/agents-cron - counters (3 stars, 0 forks, no open issues, created 2026-09-10, pushed 2026-11-08), TypeScript, AGPL-3.0, as of 2026-11-13
+- https://raw.githubusercontent.com/fookhsu/agents-cron/main/README.md - the design rules, adapter layer, cron setup, storage layout, notifications, and rename history (re-fetched 2026-11-13)
+- https://raw.githubusercontent.com/fookhsu/agents-cron/main/LICENSE - the AGPL-3.0 license text (re-fetched 2026-11-13)
+- https://api.github.com/repos/fookhsu/agents-cron/commits?per_page=3 - default-branch activity, head at the 2026-11-08 0.18.0 release commit (re-fetched 2026-11-13)
+- https://api.github.com/repos/fookhsu/agents-cron/tags?per_page=5 - the tag train, v0.18.0 down to v0.16.0 (re-fetched 2026-11-13)
+- https://registry.npmjs.org/agents-cron - the package record: latest 0.18.0, created 2026-10-18, last modified 2026-11-08 (re-fetched 2026-11-13)
+- https://api.npmjs.org/downloads/point/2026-10-13:2026-11-13/agents-cron - 5,408 downloads in the trailing month, dated-range query (re-fetched 2026-11-13)
+- https://pi.dev/packages/agents-cron - Pi's official package page: version 0.18.0, 4,185/mo and 702/wk downloads as of 2026-11-13, extension and skill types, the rename note
+- https://omppackages.com/packages/agents-cron - third-party directory listing, marked untested on omp (re-fetched 2026-11-13)
+- https://hn.algolia.com/api/v1/search?query=%22agents-cron%22&tags=story - the coverage search finding no dedicated thread as of 2026-11-13 (re-fetched)

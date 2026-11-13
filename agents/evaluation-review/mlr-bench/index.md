@@ -1,7 +1,7 @@
 ---
 title: MLR-Bench
 created: 2026-10-14
-updated: 2026-11-05
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, research-agents, llm-as-judge]
 readability: 3
@@ -25,9 +25,9 @@ The authors are academic (NUS with UCSB and SUTD, Hui Chen, Miao Xiong, Bryan Ho
 
 Published and peer-reviewed, then quiet: v1 landed 2025-05-26, v3 on 2025-10-22 (49 pages), and the NeurIPS 2025 D&B poster record exists on both neurips.cc and OpenReview.
 The repository holds 37 stars and 5 forks as of 2026-10-14, was created 2025-05-14, and was last pushed 2026-09-08, and its one open issue (2026-10-15) is an invitation from a survey team to review MLR-Bench in their AI auto-research collection rather than a bug report.
-Adoption is citation-shaped rather than usage-shaped: the dataset shows 118 downloads over the last month and 2 likes as of 2026-11-05 (a rolling-window figure that swings both ways), an HN search for the exact name returns zero hits as of 2026-11-05, and the citations that exist come from successor benchmarks and surveys rather than from people running it.
+Adoption is citation-shaped rather than usage-shaped: the dataset shows 114 downloads over the last month and 2 likes as of 2026-11-13 (a rolling-window figure that swings both ways), an HN search for the exact name returns zero hits as of 2026-11-13, and the citations that exist come from successor benchmarks and surveys rather than from people running it.
 The most substantial third-party use is the twenty-author 2026 auto-research survey, which repeats the 80 percent fabrication figure as evidence the field has become reliability-limited.
-The OpenReview review thread was unreachable to this run (a browser-verification challenge), so reviewer sentiment beyond the acceptance is unverified.
+The OpenReview review thread was unreachable to this run (a browser-verification challenge), so reviewer sentiment beyond the acceptance is unverified; the venue acceptance itself re-verified through the OpenReview search API this run (the NeurIPS 2025 D&B poster record), while the neurips.cc poster page serves 500s site-wide (poster, search, and domain root all affected when re-fetched 2026-11-13).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=chchenhui/mlrbench&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for anyone shopping a maintained leaderboard or a supported tool: the artifa
 - 2026-10-14 - Created from the 2026-10-13 cross-category flag, shelved in evaluation review on the judges-generated-output kind call (the ReviewBench precedent) rather than trackers, since no continuously refreshed board exists anywhere in the project.
 - 2026-10-21 - Rotation re-verification: every cited URL re-fetched and live (the NeurIPS poster path now redirects within neurips.cc and resolves), the HN search still returns zero hits, and the zero-open-issues claim corrected to one, a survey-collection invitation filed 2026-10-15.
 - 2026-11-05 - Rotation re-verification: every cited URL re-fetched and live, the Hugging Face download figure refreshed with a fresh as-of date (82 to 118 over the last month, a rolling-window swing with no release behind it), and the zero-hit HN search re-confirmed.
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched and live except the NeurIPS poster page, which serves 500s site-wide this run (the search page and domain root too, so the wall is site-wide and the citation stays, the acceptance grounded through the fetched OpenReview API record); the Hugging Face download figure refreshed with a fresh as-of date (118 to 114 over the last month, a rolling-window swing with no release behind it), and the zero-push, one-issue, and zero-hit-HN records all re-confirmed.
 
 ## See also
 

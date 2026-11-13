@@ -1,7 +1,7 @@
 ---
 title: Yolobox
 created: 2026-10-09
-updated: 2026-11-01
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, containers, docker, isolation, open-source]
 readability: 3
@@ -73,6 +73,7 @@ Not for hostile code, by its own docs, and not on hosts where Docker is unavaila
 - 2026-10-20 - Recorded v0.19.9 (2026-10-18, the first-launch OpenCode startup fix for the invisible setup prompt) and v0.19.10 (2026-10-20, image pull and build progress kept off stdout so ACP client protocol streams stay clean), the release train moving from sixty-seven to sixty-nine; stars untouched per the exemption.
 - 2026-10-25 - Recorded v0.19.11 (2026-10-23, reset and uninstall volume handling on the Apple container runtime: reset removes only matching volumes, uninstall preserves the installation when runtime cleanup fails), the release train moving from sixty-nine to seventy, with the repository pushed 2026-10-23; stars untouched per the exemption.
 - 2026-11-01 - Recorded v0.19.12 (2026-10-27, shared SELinux labels fixing concurrent rootless Podman volume loss) and v0.19.13 (2026-10-31, the bundled OpenCode CLI switched to OpenCode v2 with the old package removed by the updater), the release train moving from seventy to seventy-two, with the repository pushed 2026-11-01; stars untouched per the exemption.
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched and alive (repository, the docs site, the Security Model page, the 122-point launch thread holding at 122 points, the release record and the v0.19.9, v0.19.10, and v0.19.11 tag pages); v0.19.13 remains the newest release with the repository pushed 2026-11-01, and the Security Model page gained an npm-package-freshness section (base-image builds pin npm installs to packages at least seven days old, runtime installs unrestricted) that does not change the boundary's stated ceiling.
 
 ## See also
 

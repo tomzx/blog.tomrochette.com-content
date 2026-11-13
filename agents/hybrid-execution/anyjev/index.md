@@ -1,7 +1,7 @@
 ---
 title: AnyJev
 created: 2026-10-07
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, decision-models, training-free]
 readability: 3
@@ -23,7 +23,7 @@ The same team publishes Tacit, a self-distilled 1.7B-to-9B model line on Hugging
 
 ## Status
 
-Active and freshly credible: created 2026-09-21, 1,271 stars as of 2026-10-15, release v0.3.0 published 2026-10-07, pushed 2026-10-21, unchanged on the 2026-11-07 re-fetch, as of 2026-11-07.
+Active and freshly credible: created 2026-09-21, 1,271 stars as of 2026-10-15, release v0.3.0 published 2026-10-07, pushed 2026-10-21, unchanged on the 2026-11-13 re-fetch, as of 2026-11-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nokia-applied-research/AnyJev&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Active and freshly credible: created 2026-09-21, 1,271 stars as of 2026-10-15, r
 
 This note reverses this section's 2026-09-25 rejection of the same project, which then had 506 stars and no independent coverage; the promised re-review trigger, a second implementation, now exists in kind.
 The third-party local-jev-bench benchmark (2026-09-30, updated 2026-10-05) runs AnyJev against Kev, Winnow, Clef, Von, Jeff, Laya, and CLM on Apple Silicon and reports training-free AnyJev level with the trained engines on the six public transfer sources; community builds such as mesa-anyjev and a Tetris-playing AnyJev judge extend it.
-A third-party board reading arrived with the Decision Index's regenerations: an AnyJev L0 readout over Gemma-4-31B held fifth of 149 configurations on the 2026-10-12 builds at 60.22 (61.27 on the first same-day build), above hosted Jev's 60.11, the method's first board rows, and the 2026-10-14 regeneration (166 configurations) held its score at 60.22 while dropping it to ninth as four new entrants passed it, and the 2026-10-16 regeneration (174 configurations, a new StartLux leader) dropped the unchanged 60.22 to fifteenth; the 0.4.1 rebuild of 2026-10-22 (the Full score now entirely private) scores the method's family at three rows, AJev lm6q seventh at 67.57, AnyJev Tacitus 31B eighteenth at 66.47, and the L0 readout twenty-ninth at 63.65, with the vendor's Jev 1.14 forty-first at 60.24, the board's 2026-10-29 regeneration (248 configurations) crowd-shifted those rows to sixteenth, twenty-sixth, and thirty-seventh at unchanged scores, and the 2026-11-06 regeneration (275 configurations, a new REAX 1.3 leader at 73.98) crowd-shifted them again to twenty-first, thirty-first, and forty-third, still at unchanged scores.
+A third-party board reading arrived with the Decision Index's regenerations: an AnyJev L0 readout over Gemma-4-31B held fifth of 149 configurations on the 2026-10-12 builds at 60.22 (61.27 on the first same-day build), above hosted Jev's 60.11, the method's first board rows, and the 2026-10-14 regeneration (166 configurations) held its score at 60.22 while dropping it to ninth as four new entrants passed it, and the 2026-10-16 regeneration (174 configurations, a new StartLux leader) dropped the unchanged 60.22 to fifteenth; the 0.4.1 rebuild of 2026-10-22 (the Full score now entirely private) scores the method's family at three rows, AJev lm6q seventh at 67.57, AnyJev Tacitus 31B eighteenth at 66.47, and the L0 readout twenty-ninth at 63.65, with the vendor's Jev 1.14 forty-first at 60.24, the board's 2026-10-29 regeneration (248 configurations) crowd-shifted those rows to sixteenth, twenty-sixth, and thirty-seventh at unchanged scores, the 2026-11-06 regeneration (275 configurations, a new REAX 1.3 leader at 73.98) crowd-shifted them again to twenty-first, thirty-first, and forty-third, still at unchanged scores, and the 2026-11-12 regeneration (301 configurations) crowd-shifted them once more to thirty-first, forty-second, and fifty-fifth, still at unchanged scores.
 The HN footprint remains thin (mentions inside decision-model threads, no thread of its own), which this note records as the standing signal.
 
 ## Strengths
@@ -78,6 +78,7 @@ Not for single-digit-millisecond budgets, where the trained single-pass models k
 - 2026-10-27 - Out-of-rotation re-fetch at the drift signal: the board's 2026-10-26 regeneration (230 configurations) crowd-shifted the family's three rows one place each at unchanged scores (lm6q seventh to eighth, Tacitus eighteenth to nineteenth, L0 twenty-ninth to thirtieth); fetched and re-cited.
 - 2026-10-31 - Out-of-rotation re-fetch at the drift signal: the board's 2026-10-29 regeneration (248 configurations) crowd-shifted the family's three rows further at unchanged scores (lm6q eighth to sixteenth, Tacitus nineteenth to twenty-sixth, L0 thirtieth to thirty-seventh) as 18 entrants joined above them; fetched and re-cited.
 - 2026-11-07 - Rotation re-verification, every cited URL re-fetched and holding: the repository unchanged (pushed 2026-10-21, v0.3.0 still the newest release), the arXiv report, the Tacit collection, and mesa-anyjev all live (the community builds still at zero stars), the third-party local-jev-bench suite unchanged (the same 2026-10-14 to 16 remeasurement, AnyJev level with the trained engines on the six public transfer sources), and the Decision Index's 2026-11-06 regeneration (275 configurations, a new REAX 1.3 leader) crowd-shifted the family's unchanged scores again (lm6q sixteenth to twenty-first, Tacitus twenty-sixth to thirty-first, L0 thirty-seventh to forty-third).
+- 2026-11-13 - Rotation re-verification, every cited URL re-fetched and holding: the repository unchanged (pushed 2026-10-21, v0.3.0 still the newest release), the arXiv report, the Tacit collection, and mesa-anyjev all live (the community builds still at zero stars; mesa-anyjev pushed 2026-11-08), the third-party local-jev-bench suite unchanged, and the Decision Index's 2026-11-12 regeneration (301 configurations) crowd-shifted the family's unchanged scores again (lm6q twenty-first to thirty-first, Tacitus thirty-first to forty-second, L0 forty-third to fifty-fifth).
 
 ## See also
 
@@ -89,11 +90,11 @@ Not for single-digit-millisecond budgets, where the trained single-pass models k
 
 ## References
 
-- https://github.com/nokia-applied-research/AnyJev - repository, Apache-2.0 license, the readout and correction design, and the Tacit line (fetched 200, 2026-10-07; re-fetched 2026-11-07)
-- https://api.github.com/repos/nokia-applied-research/AnyJev - stars, forks, created date, and push date for the as-of status (re-fetched 2026-11-07; 1,271 stars as of 2026-10-15, pushed 2026-10-21, unchanged)
-- https://arxiv.org/abs/2610.00831 - the technical report: rotation-averaging and prior-division results, the early-exit bounds, and the vLLM serving numbers (re-fetched 2026-11-07)
-- https://api.github.com/repos/nokia-applied-research/AnyJev/releases - the v0.0.2 through v0.3.0 releases, v0.3.0 on 2026-10-07 (re-fetched 2026-11-07, unchanged)
-- https://raw.githubusercontent.com/tak-bro/local-jev-bench/HEAD/README.md - the third-party Apple Silicon benchmark running AnyJev against Kev, Winnow, Clef, Von, Jeff, Laya, and CLM (re-fetched 2026-11-07, the remeasured claims unchanged)
-- https://huggingface.co/collections/morriszjm/tacit-6ac41d0b50af9e5417c5c234 - the Tacit collection: five checkpoints (1.7B to 9B) self-distilled on Qwen bases, one forward pass per decision (re-fetched 2026-11-07, live)
-- https://github.com/idss-mesa/mesa-anyjev - a second implementation of the method, calibrated ontology and schema decisions for the MESA stack, part of the re-review evidence (re-fetched 2026-11-07, zero stars, pushed 2026-10-23)
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 board data behind the family's three rows (AJev lm6q twenty-first, Tacitus 31B thirty-first, L0 forty-third of 275; regenerated 2026-11-06, fetched 2026-11-07)
+- https://github.com/nokia-applied-research/AnyJev - repository, Apache-2.0 license, the readout and correction design, and the Tacit line (fetched 200, 2026-10-07; re-fetched 2026-11-13)
+- https://api.github.com/repos/nokia-applied-research/AnyJev - stars, forks, created date, and push date for the as-of status (re-fetched 2026-11-13; 1,271 stars as of 2026-10-15, pushed 2026-10-21, unchanged)
+- https://arxiv.org/abs/2610.00831 - the technical report: rotation-averaging and prior-division results, the early-exit bounds, and the vLLM serving numbers (re-fetched 2026-11-13)
+- https://api.github.com/repos/nokia-applied-research/AnyJev/releases - the v0.0.2 through v0.3.0 releases, v0.3.0 on 2026-10-07 (re-fetched 2026-11-13, unchanged)
+- https://raw.githubusercontent.com/tak-bro/local-jev-bench/HEAD/README.md - the third-party Apple Silicon benchmark running AnyJev against Kev, Winnow, Clef, Von, Jeff, Laya, and CLM (re-fetched 2026-11-13, the remeasured claims unchanged)
+- https://huggingface.co/collections/morriszjm/tacit-6ac41d0b50af9e5417c5c234 - the Tacit collection: five checkpoints (1.7B to 9B) self-distilled on Qwen bases, one forward pass per decision (re-fetched 2026-11-13, live)
+- https://github.com/idss-mesa/mesa-anyjev - a second implementation of the method, calibrated ontology and schema decisions for the MESA stack, part of the re-review evidence (re-fetched 2026-11-13, zero stars, pushed 2026-11-08)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 board data behind the family's three rows (AJev lm6q thirty-first, Tacitus 31B forty-second, L0 fifty-fifth of 301; regenerated 2026-11-12, fetched 2026-11-13)

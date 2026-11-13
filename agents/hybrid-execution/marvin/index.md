@@ -1,7 +1,7 @@
 ---
 title: Marvin
 created: 2026-10-15
-updated: 2026-11-05
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, pydantic, validation, agents]
 readability: 3
@@ -23,7 +23,7 @@ Under the model layer it is Pydantic AI all the way: the README states Marvin na
 
 ## Status
 
-Active on a resumed train: 6,204 stars as of 2026-10-15, 412 forks and 121 open issues as of 2026-11-05, created 2023-03-10, pushed 2026-11-01 (branch activity; the default branch's newest commit is still the 2026-10-27 Qdrant fix) (GitHub API).
+Active on a resumed train: 6,204 stars as of 2026-10-15, 414 forks and 125 open issues as of 2026-11-13, created 2023-03-10, pushed 2026-11-01 (branch activity; the default branch's newest commit is still the 2026-10-27 Qdrant fix) (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PrefectHQ/marvin&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ The disagreeable claim I will defend: Marvin's four-function API is the correct 
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched and holding (repository still pushed 2026-09-23, README, PyPI at 3.2.7, the release train still ending at v3.2.7 of 2026-03-04, the project site redirecting to /welcome, the archived ControlFlow, both HN threads at 127 and 20 points); nothing changed.
 - 2026-10-30 - Volatile re-verification after the 2026-10-27 push: the release train resumed with three same-day releases (v3.2.8, v3.2.9, v3.2.10, PyPI now 3.2.10) fixing current AI-dependency and Qdrant API drift and repairing stale examples and the API-reference generation (#1408 through #1410), the first release since v3.2.7 of 2026-03-04; the Status, caution, and What-it-is version figure updated, pushed date moved to 2026-10-27.
 - 2026-11-05 - Rotation re-verification: every cited URL re-fetched and holding (repository pushed 2026-11-01 on branch activity with the default branch's newest commit still the 2026-10-27 Qdrant fix, README, PyPI at 3.2.10, the release train still ending at v3.2.10 of 2026-10-27, the project site redirecting to /welcome, the archived ControlFlow, both HN threads at 127 and 20 points); pushed date moved to 2026-11-01.
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched and holding (repository still pushed 2026-11-01 with no new commit or release, README, PyPI at 3.2.10, the release train still ending at v3.2.10 of 2026-10-27, the project site redirecting to /welcome, the archived ControlFlow, both HN threads at 127 and 20 points); forks refreshed to 414 and open issues to 125; nothing else changed.
 
 ## See also
 
@@ -84,11 +85,11 @@ The disagreeable claim I will defend: Marvin's four-function API is the correct 
 
 ## References
 
-- https://github.com/PrefectHQ/marvin - repository: Apache-2.0, created 2023-03-10, 6,204 stars, 412 forks, 121 open issues, pushed 2026-11-01 on branch activity, described as "an ambient intelligence library" (GitHub API, as of 2026-11-05)
-- https://raw.githubusercontent.com/PrefectHQ/marvin/main/README.md - the four structured-output utilities, the task-agent-thread layer, the ControlFlow lineage, and the Pydantic AI model support (re-fetched 2026-11-05)
-- https://pypi.org/pypi/marvin/json - the published package, 3.2.10 (fetched 2026-11-05)
-- https://api.github.com/repos/PrefectHQ/marvin/releases - v3.2.5 through v3.2.7, 2026-01-06 through 2026-03-04, then v3.2.8 through v3.2.10 all published 2026-10-27 (fetched 2026-11-05)
-- https://askmarvin.ai/ - the project site (fetched 200, redirecting to /welcome, 2026-10-22)
-- https://github.com/prefecthq/controlflow - the archived parent of the 3.0 agentic layer: 1,387 stars, archived, last pushed 2025-08-22 (GitHub API, as of 2026-10-22)
-- https://news.ycombinator.com/item?id=35366838 - the 127-point launch thread (2023-03-30, fetched via the Algolia items API, re-read 2026-10-22), the project's largest forum footprint and its critical source
-- https://news.ycombinator.com/item?id=39036670 - the 20-point Marvin 2.0 relaunch thread (2024-01-18, fetched via the Algolia items API, re-read 2026-10-22)
+- https://github.com/PrefectHQ/marvin - repository: Apache-2.0, created 2023-03-10, 6,204 stars, 414 forks, 125 open issues, pushed 2026-11-01 on branch activity, described as "an ambient intelligence library" (GitHub API, as of 2026-11-13)
+- https://raw.githubusercontent.com/PrefectHQ/marvin/main/README.md - the four structured-output utilities, the task-agent-thread layer, the ControlFlow lineage, and the Pydantic AI model support (re-fetched 2026-11-13)
+- https://pypi.org/pypi/marvin/json - the published package, 3.2.10 (fetched 2026-11-13)
+- https://api.github.com/repos/PrefectHQ/marvin/releases - v3.2.5 through v3.2.7, 2026-01-06 through 2026-03-04, then v3.2.8 through v3.2.10 all published 2026-10-27 (fetched 2026-11-13)
+- https://askmarvin.ai/ - the project site (fetched 200, redirecting to /welcome, 2026-11-13)
+- https://github.com/prefecthq/controlflow - the archived parent of the 3.0 agentic layer: 1,387 stars, archived, last pushed 2025-08-22 (GitHub API, as of 2026-11-13)
+- https://news.ycombinator.com/item?id=35366838 - the 127-point launch thread (2023-03-30, fetched via the Algolia items API, re-read 2026-11-13), the project's largest forum footprint and its critical source
+- https://news.ycombinator.com/item?id=39036670 - the 20-point Marvin 2.0 relaunch thread (2024-01-18, fetched via the Algolia items API, re-read 2026-11-13)

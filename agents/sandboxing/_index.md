@@ -31,8 +31,8 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 - [NVX](nvx/index.md) - Microsoft's OpenVMM research sandbox for agentic workloads with Windows hypervisor paths and limits docs that name what the ABI does not do.
 - [OpenSandbox](opensandbox/index.md) - the Apache-2.0 general sandbox platform (SDKs, CLI, MCP, K8s runtimes) that grew on GitHub trend charts, not Hacker News.
 - [OpenShell](openshell/index.md) - NVIDIA's container-and-MicroVM runtime where declarative policy and inference-proxy keys make the boundary credible.
-- [Overalls](overalls/index.md) - Geoffrey Huntley's self-hosted platform of persistent Firecracker microVM dev machines, the renamed Weaving Loom, a research preview whose launch is set for 12 November 2026.
-- [Sandstorm](sandstorm/index.md) - DeepLethe's fleet-scale sandbox lifecycle manager, pausing idle gVisor containers and Firecracker microVMs to disk and restoring them on demand, unreleased since July 2026.
+- [Overalls](overalls/index.md) - Geoffrey Huntley's self-hosted platform of persistent Firecracker microVM dev machines, the renamed Weaving Loom, a research preview whose second announced launch date (12 November 2026) has passed without a release.
+- [Sandstorm](sandstorm/index.md) - DeepLethe's fleet-scale sandbox lifecycle manager, pausing idle gVisor containers and Firecracker microVMs to disk and restoring them on demand, v0.6.0 (November 2026) making gVisor the default backend.
 - [Yolobox](yolobox/index.md) - the container wrapper that gives coding agents full sudo inside while the home directory stays unmounted, accidents fenced and attackers out of scope by its own docs.
 
 Its members are compared on shared rows in the [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md).

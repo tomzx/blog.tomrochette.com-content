@@ -1,7 +1,7 @@
 ---
 title: Microsandbox
 created: 2026-10-07
-updated: 2026-11-12
+updated: 2026-11-13
 readability: 3
 audience_notes: >
   Engineers who want hardware-isolated sandboxes with container-style ergonomics on their own machines, including letting agents spawn VMs themselves.
@@ -25,7 +25,7 @@ The project carries a Y Combinator badge and has moved organizations more than o
 
 ## Status
 
-Large by this category's standards and still shipping weekly: 8,704 stars as of 2026-10-23, 161 open issues and PRs, pushed 2026-11-11, created 2024-10-03.
+Large by this category's standards and still shipping weekly: 8,704 stars as of 2026-10-23, 175 open issues and PRs, pushed 2026-11-12, created 2024-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ Large by this category's standards and still shipping weekly: 8,704 stars as of 
 </picture>
 
 v0.7.5, v0.7.6, and v0.7.7 shipped within a week ending 2026-10-05, a fast pre-1.0 minor-version cadence, v0.7.8 followed on 2026-10-09 (secret substitution scoped to specific header fields, runtime-owned detached jobs, port ranges in published ports, snapshot filesystem-state limits, and a fix that refuses disk restores which would silently drop host mounts), v0.7.9 on 2026-10-22 (adding and removing published ports on running sandboxes, SDK-visible sandbox exit outcomes, JSON network-policy denial output by default, optional exec output backpressure, live label modifications on running sandboxes, restricted-backend configuration, and HTTP CONNECT proxy basic authentication), and v0.7.10 and v0.7.11 inside the same week after it: v0.7.10 on 2026-10-23 (anonymous registry auth in the Go SDK, the project's published smoltcp fork adopted for networking, custom filesystem backends honored, and secret policy writable from the Node and Go SDKs), v0.7.11 on 2026-10-24 (SDK-exposed HTTP CONNECT proxy authentication, a fix for terminal sessions hanging after output, caller config overrides preserved across rebuilds, and recovery of the cleanup left by an interrupted sandbox creation), v0.7.12 closing the week on 2026-10-31 (nested virtualization support, secret modification on cloud sandboxes, and the Windows bind-mount rename and macOS sparse-seek translation fixes), and v0.7.13 following on 2026-11-01 as a Homebrew-repair release for the v0.7.12 install breakage.
-That week's post-release train shipped as v0.7.14 on 2026-11-08 (inbound TCP queuing with admission metrics, the stdin, logs, init, image, and port CLI failure repairs, Windows reparse points skipped in directory listings, legacy sandbox storage recovery, ssh failed-command outcomes preserved, cloud SDK cleanup and CLI onboarding repairs, and the libkrunfw 0.1.45 dependency update), and main's train continues with a v0.7.15 bump (2026-11-11, unreleased, after opt-in candidate installs and publishing on 2026-11-10 and per-file host operations cut on passthrough mounts on 2026-11-09).
+That week's post-release train shipped as v0.7.14 on 2026-11-08 (inbound TCP queuing with admission metrics, the stdin, logs, init, image, and port CLI failure repairs, Windows reparse points skipped in directory listings, legacy sandbox storage recovery, ssh failed-command outcomes preserved, cloud SDK cleanup and CLI onboarding repairs, and the libkrunfw 0.1.45 dependency update), and v0.7.15 shipped on 2026-11-12 as the stable cut of the train that followed it (opt-in candidate installs and publishing, and per-file host operations cut on passthrough mounts).
 **Its Show HN of 2025-05-30 drew 402 points, the largest community thread of any member of this category, while a June 2026 resubmission drew 3 points, so the launch was a 2025 event and the current proof of life is the release train, not public debate.**
 
 ## Strengths
@@ -79,6 +79,7 @@ Not for anyone needing audited claims or a stable 1.0 API, and not for teams tha
 - 2026-11-07 - Recorded v0.7.13 (2026-11-01, the Homebrew repair release for the v0.7.12 install breakage) and the post-release train through 2026-11-07 (the stdin, logs, init, image, and port CLI failure fixes, inbound TCP queuing with admission metrics, disposable Windows WHP integration runners, and Windows reparse points skipped in listings), with the repository pushed 2026-11-07.
 - 2026-11-08 - Volatile refresh: the post-release train advanced through 2026-11-08 (legacy sandbox storage recovery, ssh failed-command outcomes preserved, cloud SDK cleanup and CLI onboarding repairs, and the libkrunfw 0.1.45 dependency update), with open issues and PRs at 161 and the repository pushed 2026-11-08.
 - 2026-11-12 - Recorded v0.7.14 (2026-11-08, the stable cut of the previously recorded post-release train: inbound TCP queuing with admission metrics, the CLI failure repairs, Windows reparse-point skipping, legacy storage recovery, preserved ssh failed-command outcomes, cloud SDK cleanup, and the libkrunfw 0.1.45 update) and the v0.7.15 bump on main (2026-11-11, unreleased), with the repository pushed 2026-11-11.
+- 2026-11-13 - Recorded v0.7.15 (2026-11-12, the stable cut of the opt-in candidate installs and publishing plus the per-file passthrough-mount host-operation cuts), with open issues and PRs at 175 and the repository pushed 2026-11-12.
 
 ## See also
 

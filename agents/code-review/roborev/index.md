@@ -1,7 +1,7 @@
 ---
 title: roborev
 created: 2026-10-06
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -86,6 +86,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 - 2026-11-05 - Volatile re-verification: the push moved to November 5 with v0.74.0 still the latest release; nothing else changed.
 - 2026-11-07 - Volatile re-verification: the push moved to November 7 with v0.74.0 still the latest release; nothing else changed.
 - 2026-11-11 - Volatile re-verification: recorded v0.75.0 (November 9), intent checking against commit messages and PR descriptions, findings carrying kind, topic, confidence, and location with severity, panel-agreement, and confidence ranking (export schema version 3, a regeneration requirement for older export clients), the opt-in exhaustive review type, synthesis instructions with read-only repo access, and the sandboxed CI finding pre-check, taking the release train to 124-plus releases; the push moved to November 11 with main active the same day.
+- 2026-11-13 - Volatile re-verification: the push moved to November 13 with main active the same day (a refine-skill fix); v0.75.0 still the latest release.
 
 ## See also
 
@@ -97,7 +98,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 
 ## References
 
-- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05 (GitHub API, as of 2026-10-11; re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-27, 2026-10-30, 2026-11-01, 2026-11-05, 2026-11-07, and 2026-11-11, pushed 2026-11-11 with main active the same day and v0.75.0 the latest release)
+- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05 (GitHub API, as of 2026-10-11; re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-27, 2026-10-30, 2026-11-01, 2026-11-05, 2026-11-07, 2026-11-11, and 2026-11-13, pushed 2026-11-13 with main active the same day and v0.75.0 the latest release)
 - https://raw.githubusercontent.com/kenn-io/roborev/HEAD/README.md - the two automation layers, the refine skill, and install paths
 - https://roborev.io/docs/ - the ledger model, the agent hook, panels, PostgreSQL sync, and the ACP surface
 - https://roborev.io/docs/agents.md - the eleven supported agents and the auto-detection fallback order

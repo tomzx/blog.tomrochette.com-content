@@ -1,7 +1,7 @@
 ---
 title: Phoenix
 created: 2026-08-30
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, opentelemetry, tracing]
 readability: 3
@@ -32,7 +32,7 @@ Mature and busy: 11,824 stars, 1,201 forks, 1,142 open issues and PRs as of 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Arize-ai/phoenix&type=date&legend=top-left" />
 </picture>
 
-Created 2022-11-09, pushed 2026-11-11, platform release arize-phoenix 21.0.0 on 2026-10-30, the first major bump past the 20.x line (it ships a MIGRATION.md and turns auth on by default, no PHOENIX_SECRET required), after 20.27.0 (2026-10-29) and 20.26.1 (2026-10-25), with the release train since running on the client packages, which jumped major versions on 2026-11-11 (arize-phoenix-otel 3.0.0, @arizeai/phoenix-client 8.0.0, and the CLI 1.22.0, after arize-phoenix-evals 3.10.0 on 2026-11-10) while the platform holds at 21.0.0 (PyPI re-confirmed), about 626,000 PyPI downloads over the trailing 30 days ending 2026-10-11.
+Created 2022-11-09, pushed 2026-11-13, platform release arize-phoenix 21.1.0 on 2026-11-13 (CLI list commands for dataset and prompt versions, cost-tracking hardening, and the removal of the stdio MCP package), ending the platform's two-week hold at 21.0.0 (2026-10-30, the first major bump past the 20.x line, which ships a MIGRATION.md and turns auth on by default), after 20.27.0 (2026-10-29) and 20.26.1 (2026-10-25), with the release train between the majors running on the client packages, which jumped major versions on 2026-11-11 (arize-phoenix-otel 3.0.0, @arizeai/phoenix-client 8.0.0, and the CLI 1.22.0, after arize-phoenix-evals 3.10.0 on 2026-11-10), about 626,000 PyPI downloads over the trailing 30 days ending 2026-10-11.
 **Four years in, it is the oldest and most production-proven column in this category, with near-daily commits and weekly releases.**
 
 ## Strengths
@@ -94,6 +94,7 @@ Not for anyone resampling hosted observability on top of it, or strictly open-so
 - 2026-11-05 - Refreshed the activity line: the default branch moved 2026-11-05 with the arize-phoenix-client 3.7.0 release while the platform holds at 21.0.0 (PyPI re-confirmed).
 - 2026-11-08 - Refreshed the activity line: the client train moved to arize-phoenix-otel 0.17.3 (2026-11-06) and @arizeai/phoenix-client 7.18.2 and the CLI 1.20.1 (both 2026-11-07) while the platform holds at 21.0.0.
 - 2026-11-11 - Refreshed the activity line: the client train jumped major versions on 2026-11-11 (arize-phoenix-otel 3.0.0, @arizeai/phoenix-client 8.0.0, the CLI 1.22.0, after arize-phoenix-evals 3.10.0 on 2026-11-10) while the platform holds at 21.0.0 (PyPI re-confirmed).
+- 2026-11-13 - Recorded the arize-phoenix 21.1.0 release (2026-11-13), ending the platform's hold at 21.0.0, and refreshed the activity line.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Kev
 created: 2026-09-21
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
 readability: 3
@@ -35,7 +35,7 @@ The repository was created 2026-09-17 and pushed 2026-11-10 (branch activity; th
 The family grew a flagship in the same window: Kev-9B v2 shipped 2026-09-30 (a refitted temperature, v1 kept at a Hub tag) and Kev-27B v2 joined it, with a 65,536-token validated context against 8,192 for the small family and README-claimed numbers within three points of Jev, or ahead of it, on 9 of 11 new-source categories while matching Jev's 0.90 MMLU, at the cost of needing an 80 GB GPU.
 The Hacker News thread (2026-09-21) exploded from about 30 points when I first checked to 463 points as of 2026-10-06, clearing the bar this note originally recorded it failing, with the substantive use-case discussion (coding-agent verifiers, spam filtering, knowledge-cutoff concerns) now carrying far more weight than drive-by upvotes.
 A browser demo on Hugging Face Spaces (Kev-4B and Kev-0.8B, no install) and an MLX serving path for Apple Silicon landed in the same window, and kev-4b shows about 18,100 downloads as of 2026-10-07.
-The two independent boards read the family far apart, and both readings are current as of 2026-11-07: on the [Decision Index](../decision-index/index.md) 0.4.1 board (275 configurations after the 2026-11-06 regeneration, the Full score now entirely private) Kev 27B ranks sixty-second at its unchanged 59.56, having slid sixth of 117, then thirteenth, eighteenth, and twenty-fourth of 174 as the 0.3.x regenerations crowded the board before the 0.4 rebuild added more entrants, and it is no longer the highest-ranked checkpoint from this category's notes there apart from Jev itself (the AnyJev family's rows and the Decider 31B now sit above it), while on JevBench the same checkpoint reads mid-table on the re-based method-v1.8 scale (71.26, official #51, re-read 2026-11-07) after compositing at 5.8 on the frozen v1.6.1 snapshot that still scores kev-8b at 10.6 and kev-4b at 6.6, a spread across protocols worth reading before citing either number.
+The two independent boards read the family far apart, and both readings are current as of 2026-11-13: on the [Decision Index](../decision-index/index.md) 0.4.1 board (301 configurations after the 2026-11-12 regeneration, the Full score now entirely private) Kev 27B ranks seventy-fourth at its unchanged 59.56, having slid sixth of 117, then thirteenth, eighteenth, and twenty-fourth of 174 as the 0.3.x regenerations crowded the board before the 0.4 rebuild added more entrants, and it is no longer the highest-ranked checkpoint from this category's notes there apart from Jev itself (the AnyJev family's rows and the Decider 31B now sit above it), while on JevBench the same checkpoint reads mid-table on the re-based method-v1.8 scale (71.26, official #51, re-read 2026-11-07) after compositing at 5.8 on the frozen v1.6.1 snapshot that still scores kev-8b at 10.6 and kev-4b at 6.6, a spread across protocols worth reading before citing either number.
 What still carries the evidentiary weight: the README converts two independent third-party test sets, SemIf's 144 authored decisions and scienthoon's 900-ticket Jev calibration, and scores its models against those projects' own published live-Jev results.
 
 ## Strengths
@@ -90,6 +90,7 @@ The disagreeable claim I will defend: the weights are the second-most valuable a
 - 2026-11-07 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-06 regeneration (275 configurations) crowd-shifted the unchanged 59.56 from fifty-fifth to sixty-second, and JevBench's 2026-11-07 read (page updated 2026-11-03) re-reads the 27B's method-v1.8 composite unchanged at 71.26, official #51 of the 235 ranked open-weights systems.
 - 2026-11-05 - Volatile re-verification after the pushed-date move to 2026-11-03: branch activity, the default branch's newest commits still the 2026-10-22 fine-tune-side fixes, kev-1.0 (2026-10-01) still the latest release, and no new checkpoint; pushed date moved to 2026-11-03.
 - 2026-11-11 - Volatile re-verification after the pushed_at move to 2026-11-10: branch activity, the default branch's newest commits still the 2026-10-22 fine-tune-side fixes, kev-1.0 (2026-10-01) still the latest release, and no new checkpoint; pushed date moved to 2026-11-10.
+- 2026-11-13 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-12 regeneration (301 configurations) crowd-shifted the unchanged 59.56 from sixty-second to seventy-fourth; the repository, releases, and JevBench reading re-read unchanged; fetched and re-cited.
 
 ## See also
 
@@ -111,4 +112,4 @@ The disagreeable claim I will defend: the weights are the second-most valuable a
 - https://github.com/scienthoon/jev-ood-calibration - the independent 900-ticket Jev calibration whose test set appears in kev's external evals
 - https://archerhume.com/posts/jevs-architecture-unmasked - the architecture write-up kev credits for the design
 - https://github.com/jaredpalmer - the author's profile grounding the Turborepo and Cognition standing
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 Full-score data behind the Kev 27B reading (sixty-second of 275 after the 2026-11-06 regeneration, generated 2026-11-06, fetched 2026-11-07)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 Full-score data behind the Kev 27B reading (seventy-fourth of 301 after the 2026-11-12 regeneration, generated 2026-11-12, fetched 2026-11-13)

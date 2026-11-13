@@ -1,7 +1,7 @@
 ---
 title: n8n
 created: 2026-08-24
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, executions, webhooks, workflow-automation]
 readability: 3
@@ -23,7 +23,7 @@ Deployment is self-hosted (free Community Edition) or n8n Cloud; the Webhook nod
 ## Status
 
 **Very active and heavily funded.**
-About 207.3k stars as of 2026-10-13 and 61,450 forks as of 2026-11-11 on GitHub, with 27,000+ commits.
+About 207.3k stars as of 2026-10-13 and 61,494 forks as of 2026-11-13 on GitHub, with 27,000+ commits.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=n8n-io/n8n&type=date&theme=dark&legend=top-left" />
@@ -86,6 +86,7 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 - 2026-10-26 - Fully re-verified in rotation with every cited URL re-fetched: the agents docs (preview status, self-hosted from 2.32.3, knowledge-base sandbox gating, the queue-mode gap, hourly-to-cron schedules, one turn one execution) re-confirmed and their new per-tool human approval for agent tool calls recorded, the webhook auth modes and fail-open conditional, the fair-code Community license page, the Series C post, and both HN threads (728 and 235 points) all re-confirmed unchanged, and the pricing tiers re-verified unchanged (Starter 20 EUR, Pro 50, Business 667); the counters refreshed (61.3k forks, 26,000+ commits, as of 2026-10-26).
 - 2026-11-05 - Fully re-verified in rotation with every cited URL re-fetched: the agents docs (preview status, self-hosted from 2.32.3, knowledge-base sandbox gating, the queue-mode gap, hourly-to-cron schedules, one turn one execution, per-tool approval) re-confirmed with Microsoft Teams added to the documented channel list, the webhook auth modes and fail-open `Only Run If` conditional, the fair-code Community license page (still not open source by the vendor's own statement), the Series C post, and both HN threads (728 and 235 points) all re-confirmed unchanged, and the pricing tiers re-verified unchanged (Starter 20 EUR, Pro 50, Business 667); the counters refreshed (61.4k forks, as of 2026-11-05).
 - 2026-11-11 - Fully re-verified in rotation with every cited URL re-fetched: the agents docs (preview status, self-hosted from 2.32.3, knowledge-base sandbox gating, the queue-mode gap, hourly-to-cron schedules, one turn one execution, per-tool approval, the four channels) re-confirmed unchanged, the fail-open `Only Run If` conditional re-confirmed, and n8n User Auth (OAuth2) recorded as a fourth documented webhook authentication mode; the fair-code Community license page (still not open source by the vendor's own statement), the Series C post, and both HN threads (728 and 235 points) all re-confirmed unchanged, and the pricing tiers re-verified unchanged (Starter 20 EUR, Pro 50, Business 667); the counters refreshed (61,450 forks, 27,000+ commits, as of 2026-11-11).
+- 2026-11-13 - Refreshed the repository counters after the 2026-11-13 push (61,450 to 61,494 forks).
 
 ## See also
 
@@ -96,7 +97,7 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 
 ## References
 
-- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-10-13 (re-fetched 2026-11-11)
+- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-10-13 (re-fetched 2026-11-13)
 - https://docs.n8n.io/build/build-and-manage-agents.md - agents feature: channels, schedules, sub-agents, preview limits, per-tool approval (re-fetched 2026-11-11; all claims unchanged)
 - https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/ - webhook trigger semantics, auth, fail-open conditional (re-fetched 2026-11-11; n8n User Auth (OAuth2) now documented beside basic, header, and JWT)
 - https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-11-11 (tiers re-verified unchanged)

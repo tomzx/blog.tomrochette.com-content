@@ -1,7 +1,7 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
@@ -24,13 +24,14 @@ It is built by GitHub Next with Microsoft Research, MIT-licensed, in public prev
 ## Status
 
 **Active preview with real traction.**
-About 5.4k stars as of 2026-10-13, roughly 19,900 commits and 625 forks as of 2026-11-11 in `github/gh-aw`.
+About 5.4k stars as of 2026-10-13, roughly 19,900 commits and 626 forks as of 2026-11-13 in `github/gh-aw`.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
 The trust story has kept moving: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, a critical security advisory published August 27 forced the pre-emptive retirement of releases 0.83.3 through 0.85.3 (patched in 0.85.4), a notice that still sits in the README while the billing one was cleared, and a high-severity advisory published September 23 added an HTTPS egress allowlist bypass via TLS SNI domain fronting, affecting releases through 0.89.17 and patched in 0.89.17.
 Four more critical advisories landed on 2026-10-14: the worst (CVSS 9.2) lets sandboxed agent code steal the workflow job token through the credential sidecar and exfiltrate it past the egress filter, and three more cover MCP flag injection, an ungated `mcp-inspect` command path, and argv injection into spawned `gh aw` subcommands, all patched in the v0.91.12 to v0.91.13 window with no README notice for this batch as of 2026-10-16.
 A medium advisory published 2026-10-31 (GHSA-fqvc-336c-4fp9, OTLP authentication credentials exposed in eval logs and artifacts, listed as affecting releases below v0.91.3) is the first advisory since that batch, and its own body notes the affected and patched ranges are still being verified.
 Two more advisories landed on 2026-11-05, both patched in the v1.2.0 prerelease published the same day: a high-severity one on a predictable non-exclusive .tmp file write with permissive mode retention in the compile pipeline's `writeMCPCompileProgress`, and a medium one where the Copilot backend of `universal-llm-consumer` engines sets `OPENAI_API_KEY` to the Copilot credential and sends it to api.openai.com (affected and patched ranges as listed in each advisory).
-The release line keeps churning and crossed its first 1.0 mark: v1.0.0 published as a prerelease on 2026-10-26 and v1.0.1 stable-marked on 2026-10-27, with v1.2.2 (2026-11-10, stable-marked) now topping the train above the v1.2.1 (2026-11-06) and v1.2.0 (2026-11-04) prereleases and taking the newest-stable slot from v1.0.1, which shows how quickly this preview will break its users.
+A high-severity advisory published 2026-11-11 (GHSA-4fwp-8v7m-jhhr) covers safe-output patch generation: when `create_pull_request` generates its patch, a `git fetch` it triggers can execute an agent-controlled Git remote helper inside the safe-outputs container with `GITHUB_TOKEN` in its environment (listed as affecting releases through 0.92.0 and patched in 1.2.0).
+The release line keeps churning and crossed its first 1.0 mark: v1.0.0 published as a prerelease on 2026-10-26 and v1.0.1 stable-marked on 2026-10-27, with the v1.2.3 prerelease (2026-11-13) now topping the train above v1.2.2 (2026-11-10, stable-marked, the newest stable) and the v1.2.1 (2026-11-06) and v1.2.0 (2026-11-04) prereleases, which shows how quickly this preview will break its users.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/gh-aw&type=date&theme=dark&legend=top-left" />
@@ -106,6 +107,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - 2026-11-07 - Refreshed the release train to v1.2.1 (2026-11-06, a prerelease) above v1.2.0, with v1.0.1 still the newest stable-marked release, re-confirmed the README advisory notice still live and no advisory published since the 2026-11-05 pair, and refreshed forks to 619.
 - 2026-11-08 - Refreshed forks to 621 and re-confirmed the release train unchanged (v1.2.1 still the newest release above v1.0.1, still the newest stable-marked) and no advisory published since the 2026-11-05 pair.
 - 2026-11-11 - Refreshed the release train to v1.2.2 (2026-11-10, stable-marked) above the v1.2.1 and v1.2.0 prereleases, taking the newest-stable slot from v1.0.1; the README advisory notice re-confirmed live, no advisory published since the 2026-11-05 pair, and the counters refreshed (625 forks, roughly 19,900 commits).
+- 2026-11-13 - Recorded the high-severity advisory published 2026-11-11 (GHSA-4fwp-8v7m-jhhr, safe-output patch generation can execute an agent-controlled Git remote helper with the job token in its environment, affecting through 0.92.0, patched in 1.2.0), and refreshed the release train to the v1.2.3 prerelease (2026-11-13) above v1.2.2, still the newest stable-marked release; the counters refreshed (625 to 626 forks).
 
 ## See also
 
@@ -119,13 +121,14 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - https://github.github.com/gh-aw/ - full reference: engines, guardrails, cost management
 - https://github.github.com/gh-aw/reference/engines/ - the built-in engine list (six, with Agy experimental and Gemini deprecated) and the eight imported samples, as of 2026-10-11 (re-checked 2026-10-24)
 - https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-10-13
-- https://api.github.com/repos/github/gh-aw/releases?per_page=6 - the release train (v1.2.2 stable-marked on 2026-11-10 above the v1.2.1 prerelease on 2026-11-06, the v1.2.0 prerelease on 2026-11-04, and v1.0.1 stable on 2026-10-27, re-fetched 2026-11-11)
+- https://api.github.com/repos/github/gh-aw/releases?per_page=6 - the release train (the v1.2.3 prerelease on 2026-11-13 above v1.2.2 stable-marked on 2026-11-10, the v1.2.1 prerelease on 2026-11-06, the v1.2.0 prerelease on 2026-11-04, and v1.0.1 stable on 2026-10-27, re-fetched 2026-11-13)
 - https://github.com/github/gh-aw/security/advisories/GHSA-8h78-hpm7-29gg - the critical advisory (safe-output artifacts may expose CI trigger tokens) behind the 0.83.3-0.85.3 retirement, patched in 0.85.4
 - https://github.com/github/gh-aw/security/advisories/GHSA-x78f-wrrj-4h24 - the high-severity September 23 advisory (HTTPS egress allowlist bypass via TLS SNI domain fronting), patched in 0.89.17
 - https://github.com/github/gh-aw/security/advisories/GHSA-9jxf-w4wc-5g93 - the 2026-10-14 critical job-token exfiltration advisory (CVSS 9.2, affected below v0.91.13, patched in v0.91.12)
 - https://github.com/github/gh-aw/security/advisories/GHSA-fqvc-336c-4fp9 - the 2026-10-31 medium advisory (OTLP authentication credentials exposed in eval logs and artifacts, listed as affecting below v0.91.3, ranges still unverified per its own body)
 - https://api.github.com/repos/github/gh-aw/security-advisories/GHSA-796w-fvw2-ccmp - the 2026-11-05 high advisory (predictable non-exclusive .tmp write and permissive-mode retention in writeMCPCompileProgress, patched in 1.2.0; the github.com advisory page returned 504s this run, the API record is the fetched source)
 - https://api.github.com/repos/github/gh-aw/security-advisories/GHSA-vc9g-q5h8-x44c - the 2026-11-05 medium advisory (the Copilot backend of universal-llm-consumer engines sends the Copilot credential to api.openai.com, patched in 1.2.0; fetched via the API record this run)
+- https://api.github.com/repos/github/gh-aw/security-advisories/GHSA-4fwp-8v7m-jhhr - the 2026-11-11 high advisory (safe-output patch generation executing an agent-controlled Git remote helper, affected through 0.92.0, patched in 1.2.0; fetched via the API record 2026-11-13)
 - https://news.ycombinator.com/item?id=46934107 - February 2026 launch discussion (302 points) including dogfooding criticism
 - https://github.com/anthropics/claude-code-action - the single-agent alternative on the same platform
 - https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automation-rationale-and-approvals - shared rationale and approvals layer, including its limits
