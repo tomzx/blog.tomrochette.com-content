@@ -1,7 +1,7 @@
 ---
 title: PR Lens
 created: 2026-10-10
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, visualization, pull-requests]
 readability: 3
@@ -24,7 +24,7 @@ The README documents none of that, only the drawing surfaces plus GitLab and Bit
 
 ## Status
 
-New and moving fast: 1,954 stars and 71 forks as of 2026-10-13, created 2026-08-20, pushed 2026-11-08, with v0.15.0 published 2026-11-07 as the newest release, bundling the data-model lens, the CLI hardening that had sat merged-only (redirect refusal on model-provider requests, http(s)-only canvas URLs, PR_LENS_TOKEN scoped to the configured origin, plus a regex-backtracking fix), and GitLab and Bitbucket CI updates, and the npm CLI at 0.15.1 (2026-11-08, shipping renderer 0.6.0 with per-arrow route reporting).
+New and moving fast: 1,954 stars and 71 forks as of 2026-10-13, created 2026-08-20, pushed 2026-11-08 (the default branch's latest commit; the repository-level pushed date moved to 2026-11-13 on side-branch activity), with v0.15.0 published 2026-11-07 as the newest release, bundling the data-model lens, the CLI hardening that had sat merged-only (redirect refusal on model-provider requests, http(s)-only canvas URLs, PR_LENS_TOKEN scoped to the configured origin, plus a regex-backtracking fix), and GitLab and Bitbucket CI updates, and the npm CLI at 0.15.1 (2026-11-08, shipping renderer 0.6.0 with per-arrow route reporting).
 Reaching 1.9k stars in seven weeks is strong adoption for a review tool, though the independent footprint is small: a Hacker News search finds three Show HN threads (6 points on 2026-08-27, 4 points on 2026-10-05, 4 points on 2026-09-17), none above single digits.
 
 <picture>
@@ -45,7 +45,7 @@ Reaching 1.9k stars in seven weeks is strong adoption for a review tool, though 
 - The diagrams are model-generated interpretations: nothing in the fetched material verifies that a drawn call or payload matches the code, so a confident diagram can mislead exactly like a confident summary.
 - The hosted App's review findings are the same class of model output with the stakes raised: bug and security claims, ranked by risk, from a vendor model with no published accuracy measurement, and they exist only in the closed hosted tier, not the MIT repository.
 - The MIT core judges nothing, so its reviewer speed comes with zero defect detection; the hosted App's findings fill that slot only behind the vendor's hosted service.
-- The project is seven weeks old with a v0.x train, so comment format, canvas URLs, and CLI flags should be expected to move.
+- The project is thirteen weeks old with a v0.x train, so comment format, canvas URLs, and CLI flags should be expected to move.
 - The community footprint is single-digit Hacker News threads; the star curve has not yet converted into public discussion of accuracy in practice.
 
 ## Pricing
@@ -74,6 +74,7 @@ Not for defect detection from the open-source core (it renders, not judges), and
 - 2026-10-30 - Recorded the npm CLI at 0.14.0 (2026-10-27, the train that added the data-model lens) and the merged CLI security hardening (redirect refusal on model-provider requests, http(s)-only canvas URLs, PR_LENS_TOKEN scoped to the configured origin, and a regex-backtracking fix); refreshed the activity line.
 - 2026-11-05 - Refreshed the activity line: the default branch moved 2026-11-04 with a merged outside pull request (PR 89), v0.13.1 still the newest release and the npm CLI re-confirmed at 0.14.0.
 - 2026-11-08 - Recorded the v0.15.0 release (2026-11-07, the data-model lens, the CLI hardening that had sat merged-only, and GitLab and Bitbucket CI updates in one release), the npm CLI at 0.15.1 (2026-11-08, renderer 0.6.0 with per-arrow route reporting), and refreshed the activity line.
+- 2026-11-14 - Rotation re-verification: every cited URL re-fetched and live (the repository and its API, the releases list, the product site, the npm registry, and the three-thread HN search), the default branch re-confirmed at its 2026-11-08 commit with the repository-level 2026-11-13 push identified as side-branch activity, the npm CLI re-confirmed at 0.15.1, and the stale seven-week age in Cautions corrected to thirteen weeks.
 
 ## See also
 

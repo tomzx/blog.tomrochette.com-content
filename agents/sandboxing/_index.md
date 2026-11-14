@@ -11,6 +11,7 @@ readability: 3
 Where agent isolation should live: the workstation, the cluster, the wrapper, the framework, or the provisioning layer.
 
 - [Agent Sandbox](agent-sandbox/index.md) - the Kubernetes SIG Apps CRD for declarative sandbox fleets, delegating isolation to gVisor or Kata.
+- [Agent Substrate](agent-substrate/index.md) - Google's donated CNCF Sandbox agent execution runtime that suspends idle actor sessions to full-state snapshots and resumes them on warm worker pools in under 500ms, gVisor or Cloud Hypervisor microVM isolation with gateway-held credentials.
 - [aicontainer](aicontainer/index.md) - the twenty-star devcontainer-spec sandbox, auto-approve CLIs behind a digest-pinned Docker socket proxy with sanitized host config, the footprint carried by its boundary documentation.
 - [aigate](aigate/index.md) - the fourteen-star kernel-enforced wrapper, kept as the reference design for small-scale OS-level agent sandboxing.
 - [ArtifactFS](artifact-fs/index.md) - Cloudflare's FUSE driver that mounts big repos in seconds, the provisioning layer sandboxes need before isolation matters.
@@ -30,7 +31,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 - [nono](nono/index.md) - the Sigstore team's kernel capability sandbox that brokers each delegated tool separately and proxies credentials scoped per endpoint.
 - [NVX](nvx/index.md) - Microsoft's OpenVMM research sandbox for agentic workloads with Windows hypervisor paths and limits docs that name what the ABI does not do.
 - [OpenSandbox](opensandbox/index.md) - the Apache-2.0 general sandbox platform (SDKs, CLI, MCP, K8s runtimes) that grew on GitHub trend charts, not Hacker News.
-- [OpenShell](openshell/index.md) - NVIDIA's container-and-MicroVM runtime where declarative policy and inference-proxy keys make the boundary credible.
+- [OpenShell](openshell/index.md) - NVIDIA's container-and-MicroVM runtime, donated to the CNCF as a Sandbox project, where declarative policy and inference-proxy keys make the boundary credible.
 - [Overalls](overalls/index.md) - Geoffrey Huntley's self-hosted platform of persistent Firecracker microVM dev machines, the renamed Weaving Loom, a research preview whose second announced launch date (12 November 2026) has passed without a release.
 - [Sandstorm](sandstorm/index.md) - DeepLethe's fleet-scale sandbox lifecycle manager, pausing idle gVisor containers and Firecracker microVMs to disk and restoring them on demand, v0.6.0 (November 2026) making gVisor the default backend.
 - [Yolobox](yolobox/index.md) - the container wrapper that gives coding agents full sudo inside while the home directory stays unmounted, accidents fenced and attackers out of scope by its own docs.
@@ -63,3 +64,4 @@ Its members are compared on shared rows in the [Sandboxing Feature Matrix](sandb
 - 2026-10-12 - Added Container Use.
 - 2026-10-21 - Added Overalls.
 - 2026-10-31 - Added Sandstorm.
+- 2026-11-14 - Added Agent Substrate.

@@ -1,7 +1,7 @@
 ---
 title: SemIf
 created: 2026-09-21
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-source, webgpu]
 readability: 3
@@ -87,6 +87,7 @@ I run the browser demo before I believe any latency claim in this category, and 
 - 2026-10-24 - Full re-verification on rotation: all seven references re-fetched and live; repository unchanged (last push 2026-09-23), the launch thread steady, and nothing else changed.
 - 2026-10-31 - Full re-verification on rotation: all seven references re-fetched and live; repository unchanged (last push 2026-09-23), the launch thread steady at 722 points, only the fork count moved (354 to 357), and nothing else changed.
 - 2026-11-08 - Full re-verification on rotation: all seven references re-fetched and live; repository unchanged (last push 2026-09-23), the launch thread steady at 722 points, only the fork count moved (357 to 356), and nothing else changed.
+- 2026-11-14 - Full re-verification on rotation: all seven references re-fetched and live; repository unchanged (last push 2026-09-23), the launch thread steady at 722 points, only the fork count moved (356 to 355), and nothing else changed.
 
 ## See also
 
@@ -98,10 +99,10 @@ I run the browser demo before I believe any latency claim in this category, and 
 
 ## References
 
-- https://github.com/TheoLeeCJ/SemIf-OpenJev - repository: MIT, about 4,800 stars, 356 forks, created 2026-09-16, last push 2026-09-23 (GitHub API, stars as of 2026-10-15, forks as of 2026-11-08; the /SemIf and /openjev URLs redirect here, re-verified 2026-10-17 and re-fetched 2026-11-08 unchanged)
-- https://raw.githubusercontent.com/TheoLeeCJ/SemIf/master/README.md - the rename notice, speed tables, browser model ladder, MLX backend, and the 2026-09-22 PR log (fetched 200, 2026-10-17; re-fetched 2026-11-08)
-- https://openjev.com/ - the project site: WebGPU demo, quality table, and the independence notice (fetched 200, 2026-10-17; re-fetched 2026-11-08)
-- https://news.ycombinator.com/item?id=49752041 - the OpenJev thread (722 points as of 2026-09-26, 2026-09-18): the trademark debate, the hype and failure criticisms (fetched via the Algolia items API, 2026-10-17; re-fetched 2026-11-08)
-- https://raw.githubusercontent.com/TheoLeeCJ/SemIf/master/docs/RESULTS.md - claim boundaries: what was and was not reproduced, TVD numbers, robustness flips (fetched 200, 2026-10-17; re-fetched 2026-11-08)
-- https://github.com/TheoLeeCJ/openjev - the pre-rename URL, verified to redirect to this repository (GitHub API, 2026-10-17; redirect re-verified 2026-11-08)
-- https://raw.githubusercontent.com/fstandhartinger/jevbench/main/RESULTS-v1.2.md - the third-party board that ranked SemIf second at 73.1 against Jev's 74.4 on v1.2; its v1.4 sealed revision moved SemIf to 47.7 (fetched 200, 2026-10-17; re-fetched 2026-11-08)
+- https://github.com/TheoLeeCJ/SemIf-OpenJev - repository: MIT, about 4,800 stars, 355 forks, created 2026-09-16, last push 2026-09-23 (GitHub API, stars as of 2026-10-15, forks as of 2026-11-14; the /SemIf and /openjev URLs redirect here, re-verified 2026-10-17 and re-fetched 2026-11-14 unchanged)
+- https://raw.githubusercontent.com/TheoLeeCJ/SemIf/master/README.md - the rename notice, speed tables, browser model ladder, MLX backend, and the 2026-09-22 PR log (fetched 200, 2026-10-17; re-fetched 2026-11-14)
+- https://openjev.com/ - the project site: WebGPU demo, quality table, and the independence notice (fetched 200, 2026-10-17; re-fetched 2026-11-14)
+- https://news.ycombinator.com/item?id=49752041 - the OpenJev thread (722 points as of 2026-09-26, 2026-09-18): the trademark debate, the hype and failure criticisms (fetched via the Algolia items API, 2026-10-17; re-fetched 2026-11-14)
+- https://raw.githubusercontent.com/TheoLeeCJ/SemIf/master/docs/RESULTS.md - claim boundaries: what was and was not reproduced, TVD numbers, robustness flips (fetched 200, 2026-10-17; re-fetched 2026-11-14)
+- https://github.com/TheoLeeCJ/openjev - the pre-rename URL, verified to redirect to this repository (GitHub API, 2026-10-17; redirect re-verified 2026-11-14)
+- https://raw.githubusercontent.com/fstandhartinger/jevbench/main/RESULTS-v1.2.md - the third-party board that ranked SemIf second at 73.1 against Jev's 74.4 on v1.2; its v1.4 sealed revision moved SemIf to 47.7 (fetched 200, 2026-10-17; re-fetched 2026-11-14)

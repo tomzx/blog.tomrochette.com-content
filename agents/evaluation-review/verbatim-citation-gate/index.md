@@ -1,7 +1,7 @@
 ---
 title: Verbatim Citation Gate
 created: 2026-10-10
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, citations, hallucination, guardrails, rag]
 readability: 3
@@ -24,9 +24,9 @@ The docs page describes the maintainer as the Palo Alto AI Research Lab, a self-
 
 ## Status
 
-Active but barely adopted: 4 stars, 3 forks, and 5 open issues as of 2026-10-13, created 2026-07-24, pushed 2026-11-13, with four releases (v0.3.1 on 2026-10-24, v0.3.0 on 2026-10-16, v0.2.0 on 2026-08-25, v0.1.0 on 2026-08-04) and CI running a tests workflow.
+Active but barely adopted: 4 stars, 3 forks, and 5 open issues as of 2026-10-13, created 2026-07-24, pushed 2026-11-14, with five releases (v0.3.2 on 2026-11-14, v0.3.1 on 2026-10-24, v0.3.0 on 2026-10-16, v0.2.0 on 2026-08-25, v0.1.0 on 2026-08-04) and CI running a tests workflow.
 v0.3.1 (2026-10-24) released the three gate fixes that had sat on main since 2026-10-19 (whole-word quote matching, a balanced-JSON verdict parser, and a pytest source-path fix), and the package is still absent from PyPI as of 2026-11-07.
-Three more gate fixes sat unreleased on main as of 2026-11-13: two committed 2026-11-06 (the normalization now handles signs, comparisons, thousands commas, and leading-dot decimals in numbers, and partial numbers, punctuation-only quotes, and glued ranges no longer count as found), and one committed 2026-11-13 out of a third breaker panel on OpenRouter (five of six models answered, each claim reproduced first: a real quote with an unhashable id now returns misattributed instead of not_found, Unicode line breaks rejoin, and str subclasses stop raising in the verdict cache), alongside a CI image pin that keeps the declared Python 3.9 floor under test.
+v0.3.2 (2026-11-14) released the gate fixes that had sat unreleased on main: two committed 2026-11-06 (the normalization now handles signs, comparisons, thousands commas, and leading-dot decimals in numbers, and partial numbers, punctuation-only quotes, and glued ranges no longer count as found) and the 2026-11-13 set out of a third breaker panel on OpenRouter (five of six models answered, each claim reproduced first: a real quote with an unhashable id now returns misattributed instead of not_found, Unicode line breaks rejoin, and str subclasses stop raising in the verdict cache), with the CI image pin (ubuntu-24.04) that keeps the declared Python 3.9 floor under test shipping in the same release, and one docs commit (a README agent-setup protocol fix) landing after it.
 v0.3.0 adds a `span_gate` that applies the same fail-closed treatment to citations given as character offsets, rejecting unresolvable spans instead of silently clipping them, and it is the project's first outside contribution (PR 12, closing issue 9).
 A Hacker News search returns zero threads as of 2026-10-11, so the adoption signal here is still thin: a solo project with a clean mechanism whose first independent involvement arrived through that October contribution.
 
@@ -76,6 +76,7 @@ Not for paraphrase-tolerant citation systems, and not as a battle-tested depende
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 - 2026-11-07 - Recorded the unreleased post-v0.3.1 gate fixes on main (both committed 2026-11-06): numeric normalization for signs, comparisons, thousands commas, and leading-dot decimals, and partial numbers, punctuation-only quotes, and glued ranges no longer counting as found; the PyPI absence re-verified and the newest release is still v0.3.1.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched and live (the docs page, releases, tags, and the zero-thread HN search all unchanged), v0.3.1 re-confirmed as the newest release and the PyPI absence re-verified, and the third post-v0.3.1 gate fix recorded (committed 2026-11-13 from an OpenRouter breaker panel: unhashable ids, Unicode line breaks, and str subclasses), with the CI Python-3.9-floor pin alongside.
+- 2026-11-14 - Recorded the v0.3.2 release (2026-11-14), which ships the unreleased gate fixes tracked since 2026-11-06 and 2026-11-13 (numbers inside longer numbers stop matching, signs, comparisons, thousands commas, and leading-dot decimals read correctly, unhashable ids and Unicode line breaks stop crashing the gate, and punctuation-only quotes are not found), with the ubuntu-24.04 CI pin in the same release and one README agent-setup docs commit after it.
 
 ## See also
 

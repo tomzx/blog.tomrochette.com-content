@@ -1,7 +1,7 @@
 ---
 title: OpenShell
 created: 2026-08-30
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, nvidia, open-source]
 readability: 3
@@ -19,7 +19,7 @@ OpenShell is NVIDIA's Apache-2.0, Rust-based runtime that runs AI coding agents 
 A Rust CLI plus gateway control plane that runs each agent in its own Docker or Podman container, MicroVM, or Kubernetes pod, with four policy domains: filesystem via Landlock, process via unprivileged identity and seccomp, network via an L7 proxy that can allow GET but deny POST per destination, and inference via an `inference.local` endpoint that intercepts model API traffic so keys stay outside.
 Claude Code, OpenCode, Codex, and Copilot CLI work out of the box, OpenClaw and Hermes through NVIDIA's NemoClaw, plus bring-your-own-container and a community catalog.
 Policies are versioned YAML files you commit, telemetry is anonymous and can be compiled out, and a Python SDK exists.
-Linux, macOS (Apple Silicon), and Windows via WSL 2 (experimental); Apache-2.0, from NVIDIA as part of its Agent Toolkit with security partners including Cisco and CrowdStrike.
+Linux, macOS (Apple Silicon), and Windows via WSL 2 (experimental); Apache-2.0, built by NVIDIA with maintainers from Red Hat, Docker, and Canonical involved since the project's start and contributed to the CNCF as a Sandbox project in November 2026, adopting the CNCF Cedar policy language.
 
 ## Status
 
@@ -36,8 +36,11 @@ v0.1.5 (2026-10-20) added push-mode configuration delivery that reaches sandboxe
 v0.1.6 (2026-10-27) made gateways refuse to start unless an authentication method is configured (OIDC, mTLS user or operator auth, or gateway JWTs, with an explicit opt-out flag for trusted local development), moved the control connection to open from the sandbox toward its supervisor, added suspend and resume commands on drivers that support them, and shipped Python SDK bindings for credential drivers.
 v0.1.7 (2026-11-03) is a breaking telemetry cut: the gateway now emits native OCSF 1.8.0 records only, with the old schema-version settings deprecated and ignored, plus MicroVM sandboxes from registry images running as the image's own sandbox account instead of a fixed UID, the CA-bundle setting moved under the supervisor's network table, and config preflight rejections for supervisor-pool settings that the selected driver cannot use.
 v0.1.8 (2026-11-10) is another breaking-leaning cut: static provider credentials without placement metadata now resolve only in the `Authorization` header unless an explicit `auth_style` declares body, query, or WebSocket slots, REST endpoints return 403 for HTTP upgrade requests while WebSocket traffic needs explicit endpoint rules, OCSF sandbox attribution moved to fields SIEM parsers must remap, filesystem policy paths running through a writable-workspace symlink fail launch, the Python SDK moved to a dedicated ai-openshell/sdk-python publishing home and the old Go SDK module is deprecated in favor of ai-openshell/sdk-go, and the bug batch fixed a gateway memory leak on repeated create-delete cycles, an AWS SigV4 temporary token leaking into supervisor TRACE logs, and Postgres-outage crash-looping.
+On 2026-11-10 at KubeCon North America, NVIDIA contributed OpenShell to the CNCF as a Sandbox project: governance moves to the foundation under vendor-neutral commitments with a public RFC process, the repositories migrate from NVIDIA's GitHub to the neutral ai-openshell organization, and the project adopts Cedar, the CNCF policy-language project, as its policy language, with NVIDIA's engineering continuing and a stated near-term goal of CNCF Incubation.
+The post-v0.1.8 fix train continued through 2026-11-13 (a `sandbox create --timeout` flag, scheduling failures reported in provisioning timeouts, private IP literals now requiring explicit network grants, sandbox-lifecycle conformance tests ported to the testkit, Helm OIDC CA trust scoped to the OIDC client, and HTTP request and response middleware hooks), with the repository pushed 2026-11-14.
 **Late September 2026 NVIDIA folded OpenShell into a branded Open Agent Safety Platform reference design alongside NVIDIA Sentry and BlueField-4 in-silicon enforcement on a dedicated product page, and stars jumped roughly 4,300 in the following three days, a vendor push rather than a Hacker News wave, whose debut threads drew only 2 or 3 points.**
-NVIDIA's own blog still calls it an early preview, and a stable line three point releases deep plus experimental Kubernetes and GPU features say production use is a bet on the vendor staying in.
+NVIDIA's own blog still calls it an early preview, and a stable line three point releases deep plus experimental Kubernetes and GPU features say production use is an early bet.
+The CNCF contribution changes what the bet rides on: the vendor-departure risk that made it a bet on NVIDIA specifically now sits on community governance instead.
 In September 2026 the team also published a formal-methods discussion of encoding the full OpenShell policy as formal logic and proving containment queries with SAT, SMT, and Z3, which reached 40 points on Hacker News.
 
 ## Strengths
@@ -50,9 +53,10 @@ In September 2026 the team also published a formal-methods discussion of encodin
 ## Cautions
 
 - Freshly stable (v0.1.0 on 2026-09-25), with breaking changes the base rate for a runtime this young and the Kubernetes path explicitly experimental.
+- The repository migration from NVIDIA's GitHub to the ai-openshell organization is in progress, so clones, pins, and issue links may need to move with it.
 - Telemetry is on by default in a tool whose pitch is privacy; anonymous, but verify it against your threat model.
 - Effective security equals the YAML policies you write and maintain, which is real ongoing work.
-- 661 open issues and PRs as of 2026-11-13, well above the 536 platform-launch peak as the v0.1.5 through v0.1.8 releases draw new reports faster than the stale-issue closer shuts them, on an eight-month-old codebase.
+- 674 open issues and PRs as of 2026-11-14, well above the 536 platform-launch peak as the v0.1.5 through v0.1.8 releases draw new reports faster than the stale-issue closer shuts them, on an eight-month-old codebase.
 
 ## Pricing
 
@@ -88,6 +92,7 @@ Not for production-critical paths this quarter, or shops that cannot run Docker 
 - 2026-11-01 - Recorded v0.1.6 (2026-10-27, gateways refusing unauthenticated startup unless an auth method is configured, the sandbox-to-supervisor control-connection direction, suspend and resume commands, and Python SDK credential-driver bindings), with the repository pushed 2026-11-01 and open issues and PRs back to 564, above the platform-launch peak.
 - 2026-11-07 - Recorded v0.1.7 (2026-11-03, the breaking native-OCSF-1.8.0-only telemetry cut with the schema-version settings deprecated, MicroVM registry-image sandboxes running as the image's sandbox account, the CA-bundle setting moved to the supervisor network table, and preflight rejections for unusable supervisor-pool settings) and the post-release fix train through 2026-11-06 (bounded procfs work in binary identity resolution, MCP tool selectors in the policy viewer, TRACEPARENT forwarding, Helm priorityClassName and topology spread, bounded Postgres pool waits, and workload-identity invariants on deserialize), with the repository pushed 2026-11-07 and open issues and PRs at 629.
 - 2026-11-13 - Recorded v0.1.8 (2026-11-10, the `auth_style` credential-placement declaration with header-only default resolution, 403 on HTTP upgrade requests with explicit WebSocket endpoint rules, moved OCSF sandbox-attribution fields for SIEM parsers, symlink-in-policy launch failures, the SDK publishing move to the ai-openshell organization, and the gateway memory-leak, SigV4-token-log, and Postgres-outage fixes), open issues and PRs moving from 629 to 661, with the repository pushed 2026-11-13.
+- 2026-11-14 - Recorded the CNCF contribution: NVIDIA donated OpenShell to the CNCF as a Sandbox project, announced at KubeCon North America on 2026-11-10 with the repositories migrating to the neutral ai-openshell organization and Cedar adopted as the policy language, updating the What-it-is, Status, Cautions (including the in-progress migration caution), and References off the bet-on-the-vendor reading; the post-v0.1.8 fix train recorded through 2026-11-13 (create timeout, private-IP-literal network grants, testkit conformance ports, OIDC CA scoping, middleware hooks), with open issues and PRs at 674 and the repository pushed 2026-11-14.
 
 ## See also
 
@@ -99,6 +104,8 @@ Not for production-critical paths this quarter, or shops that cannot run Docker 
 ## References
 
 - https://github.com/NVIDIA/OpenShell - repository, protection layers, supported agents, license, alpha badge
+- https://www.cncf.io/blog/2026/11/10/welcoming-openshell-to-the-cncf-open-governance-to-secure-agentic-ai/ - the CNCF contribution announcement: Sandbox acceptance, the ai-openshell migration, the Cedar adoption
+- https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/ - NVIDIA's announcement: the contribution, the Agent Substrate collaboration, and the adoption claims
 - https://docs.nvidia.com/openshell/about/why-open-shell - the Landlock, seccomp, and threat-model documentation (the former about/overview path, moved in the docs restructuring)
 - https://docs.nvidia.com/openshell/about/architecture - the CLI, gateway, and supervisor architecture (the former how-it-works path, moved in the docs restructuring)
 - https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell/ - NVIDIA's positioning and early-preview status

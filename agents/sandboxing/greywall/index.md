@@ -1,7 +1,7 @@
 ---
 title: Greywall
 created: 2026-10-08
-updated: 2026-11-07
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Attribution is stated in the README: Greywall is a fork of Fence, created by JY 
 
 ## Status
 
-Launched in March 2026 and quiet since: 309 stars, 37 forks, 26 open issues as of 2026-10-13, created 2026-03-04, pushed 2026-08-13, with v0.3.7 (2026-06-01) the last of an April-through-June release train.
+Launched in March 2026 and quiet since: 309 stars as of 2026-10-13, 38 forks and 31 open issues as of 2026-11-14, created 2026-03-04, pushed 2026-08-13, with v0.3.7 (2026-06-01) the last of an April-through-June release train.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=GreyhavenHQ/greywall&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Launched in March 2026 and quiet since: 309 stars, 37 forks, 26 open issues as o
 
 **The launch got no help from Hacker News: a 7-point Show HN on 2026-03-13, a 1-pointer and a 3-point greyscan submission four days later, and one independent review since.**
 Fifty-nine days without a push as of 2026-10-11 leaves a small project with a complete docs site and a stalled train, and the companion greyproxy has been quiet since 2026-06-02.
-At eighty-six days without a commit to main as of 2026-11-07 (last push to main still 2026-08-13, the 2026-10-17 repo-level push pull-request activity) nothing in that reading changes.
+At ninety-three days without a commit to main as of 2026-11-14 (last push to main still 2026-08-13, the 2026-10-17 repo-level push pull-request activity) nothing in that reading changes.
 
 ## Strengths
 
@@ -76,6 +76,7 @@ Not for containing actively malicious code (its own docs say so), and not as the
 - 2026-10-17 - Fixed the star-history picture block, whose light-scheme source and fallback carried the dark theme parameter (the 2026-10-17 activity checked: a pull request and an issue, no commits to main, so the quiet-since-August reading holds).
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched and alive (repository, greyproxy, the security-model, platform-support, and credential-protection docs, the site, the HN search, the independent review); the quiet window extended to seventy-three days without a commit to main (last main-branch push still 2026-08-13, greyproxy still quiet since 2026-06-02), and v0.3.7 remains the newest release.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched and alive (repository, greyproxy, the security-model, platform-support, and credential-protection docs, the site, the HN search, the independent review); the quiet window extended to eighty-six days without a commit to main (last main-branch push still 2026-08-13, the 2026-10-17 repo-level push pull-request activity), v0.3.7 remains the newest release, greyproxy still quiet since 2026-06-02, and the Compared-to Fence claims updated for the parent's quiet train.
+- 2026-11-14 - Rotation re-verification: every cited URL re-fetched and alive (repository, greyproxy, the release record, the security-model, platform-support, and credential-protection docs, the site, the HN search, the independent review); the quiet window extended to ninety-three days without a commit to main (last main-branch push still 2026-08-13), v0.3.7 remains the newest release, greyproxy still quiet since 2026-06-02, and the fork and open-issue counts refreshed (38 forks, 31 open issues, as of 2026-11-14, the star figure untouched per the exemption).
 
 ## See also
 

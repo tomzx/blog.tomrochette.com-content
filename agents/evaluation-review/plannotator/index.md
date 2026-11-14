@@ -1,7 +1,7 @@
 ---
 title: Plannotator
 created: 2026-08-30
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Dual Apache-2.0 or MIT, written almost entirely by one developer (1,166 of 1,447
 
 ## Status
 
-Fast and growing: 9,398 stars, 707 forks, 141 open issues and PRs as of 2026-10-13, created 2025-12-28, pushed 2026-11-13, with v0.28.62 released 2026-11-12 after v0.28.61 (2026-11-10) at the head of a nine-release wave (v0.28.53 through v0.28.61, 2026-11-08 to 2026-11-10) that includes v0.28.52 (2026-11-08, the release that lets the Inbox start Claude Code and Pi sessions, on this computer or a linked one, on by default) after v0.28.51 (2026-11-06), v0.28.50 (2026-11-05), v0.28.49 (2026-11-04), and v0.28.43 through v0.28.48 (2026-11-01 to 2026-11-03), which followed v0.28.42 (2026-10-31) and v0.28.36 through v0.28.40 (2026-10-28 to 2026-10-30).
+Fast and growing: 9,398 stars, 707 forks, 141 open issues and PRs as of 2026-10-13, created 2025-12-28, pushed 2026-11-14 (the default branch moved 2026-11-14 with an Inbox bulk-close feature, a sidebar-tags fix, and an outside inbox thread-id fix, PR 3261), with v0.28.64 released 2026-11-13 after v0.28.62 (2026-11-12) and v0.28.61 (2026-11-10) at the head of a nine-release wave (v0.28.53 through v0.28.61, 2026-11-08 to 2026-11-10) that includes v0.28.52 (2026-11-08, the release that lets the Inbox start Claude Code and Pi sessions, on this computer or a linked one, on by default) after v0.28.51 (2026-11-06), v0.28.50 (2026-11-05), v0.28.49 (2026-11-04), and v0.28.43 through v0.28.48 (2026-11-01 to 2026-11-03), which followed v0.28.42 (2026-10-31) and v0.28.36 through v0.28.40 (2026-10-28 to 2026-10-30).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=backnotprop/plannotator&type=date&theme=dark&legend=top-left" />
@@ -97,6 +97,7 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - 2026-11-08 - Recorded the v0.28.52 release (2026-11-08, the Inbox can start Claude Code and Pi sessions, on this computer or a linked one, on by default) and refreshed the activity line.
 - 2026-11-11 - Recorded the v0.28.53 through v0.28.61 release wave (2026-11-08 to 2026-11-10) and refreshed the activity line.
 - 2026-11-13 - Recorded the v0.28.62 release (2026-11-12) and refreshed the activity line.
+- 2026-11-14 - Recorded the v0.28.64 release (2026-11-13, after v0.28.63's pairing of Grok Bot and other cloud agents) and refreshed the activity line (the default branch moved 2026-11-14 with the Inbox PR bulk-close feature, a sidebar-tags fix, and an outside inbox thread-id fix, PR 3261).
 
 ## See also
 

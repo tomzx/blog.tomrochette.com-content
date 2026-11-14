@@ -1,7 +1,7 @@
 ---
 title: Jevals
 created: 2026-10-06
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, guardrails, jev, decision-models, python]
 readability: 3
@@ -24,7 +24,7 @@ It comes from OpenLayer (the openlayer-ai organization), is alpha, MIT, Python 3
 ## Status
 
 **Twenty-nine days old and already carrying more independent evidence than most month-old tools ever get.**
-105 stars and 11 forks as of 2026-10-19 (repository created 2026-09-20, last push 2026-11-07), PyPI 0.1.4 published 2026-09-20 (still newest as of 2026-11-08), and a 47-point Show HN with 6 comments the same day.
+105 stars and 11 forks as of 2026-10-19 (repository created 2026-09-20, last push 2026-11-07), PyPI 0.1.4 published 2026-09-20 (still newest as of 2026-11-14), and a 47-point Show HN with 6 comments the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openlayer-ai/jevals&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ It comes from OpenLayer (the openlayer-ai organization), is alpha, MIT, Python 3
 </picture>
 
 The self-run bench (September 2026, v0.1.4) measures one request per trace: $0.03 per 1,000 samples on Jev versus $2.60 for Ragas on gpt-4.1-mini, p50 244ms and p95 371ms.
-The independent checks cut both ways: LangChain's experiment found 92x to 913x lower score variance than GPT and Claude judges at $0.00035 per call, while JevBench's independent run puts Jev at small-model accuracy with calibration that varies by task; the JevBench board itself moved to benchmarkheaven.com after the note's first pass, where Jev appears as an unranked reference (capability 77.1 for Jev 1.13.0) beside 235 ranked open-weights systems as of 2026-10-30, with TypeSafe's current Jev 1.14.0 (capability 75.0, available since 2026-10-14) added as a second unranked reference row.
+The independent checks cut both ways: LangChain's experiment found 92x to 913x lower score variance than GPT and Claude judges at $0.00035 per call, while JevBench's independent run puts Jev at small-model accuracy with calibration that varies by task; the JevBench board itself moved to benchmarkheaven.com after the note's first pass, where Jev appears as an unranked reference (capability 77.1 for Jev 1.13.0) beside 261 ranked open-weights systems as of 2026-11-14, with TypeSafe's current Jev 1.14.0 (capability 75.0, available since 2026-10-14) added as a second unranked reference row.
 Red Hat's AI Safety team bench is the sharpest outside check: its October 2026 comparison found decision models like Jev do not reliably outperform an LLM-as-a-judge, a pre-trained predictive model, or open source decision models on speed or accuracy.
 
 ## Strengths
@@ -82,6 +82,7 @@ Not for judgments that need multi-step reasoning or a written critique (keep an 
 - 2026-10-30 - Rotation re-verification: every cited URL re-fetched and live, and the JevBench board refreshed from 196 to 235 ranked open-weights systems, now carrying TypeSafe's Jev 1.14.0 (capability 75.0) as a second unranked reference; PyPI re-confirmed at 0.1.4.
 - 2026-11-05 - Refreshed the activity line: the default branch moved 2026-11-02 with CI hardening (GitHub Actions pinned to commit SHAs, PR 14), PyPI still 0.1.4.
 - 2026-11-08 - Refreshed the activity line: the default branch moved 2026-11-07 with a CI dependency bump (the github-actions group, PR 16), PyPI re-confirmed at 0.1.4.
+- 2026-11-14 - Rotation re-verification: every cited URL re-fetched and live (the repository API, README, PyPI, the Show HN thread, the LangChain experiment, the JevBench board, the JevBench repository, and the Red Hat bench), the repository re-confirmed unchanged (last push 2026-11-07), PyPI re-confirmed at 0.1.4, and the JevBench board refreshed from 235 to 261 ranked open-weights systems with both Jev rows still unranked references.
 
 ## See also
 
@@ -97,6 +98,6 @@ Not for judgments that need multi-step reasoning or a written critique (keep an 
 - https://pypi.org/pypi/jevals/json - PyPI 0.1.4 (published 2026-09-20), MIT, alpha classifier
 - https://hn.algolia.com/api/v1/items/49780849 - the 47-point Show HN thread (2026-09-20) and the author's answers on backends
 - https://www.langchain.com/blog/jev-agent-evals-langsmith - the independent LangChain experiment: 92x to 913x lower variance, $0.00035/call, 100% binary oracle match across 500 repetitions
-- https://benchmarkheaven.com/jev-models - the canonical JevBench board since the jevbench.xyz domain went dark: 235 ranked systems, Jev 1.13.0 and 1.14.0 as unranked reference rows, as of 2026-10-30
+- https://benchmarkheaven.com/jev-models - the canonical JevBench board since the jevbench.xyz domain went dark: 261 ranked systems, Jev 1.13.0 and 1.14.0 as unranked reference rows, as of 2026-11-14
 - https://github.com/fstandhartinger/jevbench - the JevBench repository: methodology, versioned releases, and the canonical-board pointer
 - https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails - the critical Red Hat AI Safety bench: decision models do not reliably outperform LLM-as-a-judge or predictive baselines

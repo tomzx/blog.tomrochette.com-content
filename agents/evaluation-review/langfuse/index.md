@@ -1,7 +1,7 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
 readability: 3
@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-11-13, with v4.79.0 (2026-11-12) after v4.78.0 (2026-11-10) and v4.77.0 (2026-11-09) after v4.76.0 (2026-11-05), v4.75.0 (2026-11-04), v4.74.0 and v4.73.0 (both 2026-11-03), and v4.72.0 (2026-10-29), as of 2026-11-13.
+Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-11-13 (the default branch's latest commit), with v4.80.0 (2026-11-13, ClickHouse query parameters sent in the request body by default and Google AI Studio added as an AI-gateway provider) after v4.79.0 (2026-11-12) and v4.78.0 (2026-11-10) and v4.77.0 (2026-11-09) after v4.76.0 (2026-11-05), v4.75.0 (2026-11-04), v4.74.0 and v4.73.0 (both 2026-11-03), and v4.72.0 (2026-10-29), as of 2026-11-14.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />
@@ -99,6 +99,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 - 2026-11-07 - Recorded the v4.76.0 release (2026-11-05) and refreshed the activity line.
 - 2026-11-11 - Recorded the v4.77.0 (2026-11-09) and v4.78.0 (2026-11-10) releases and refreshed the activity line.
 - 2026-11-13 - Recorded the v4.79.0 release (2026-11-12) and refreshed the activity line.
+- 2026-11-14 - Recorded the v4.80.0 release (2026-11-13, ClickHouse query parameters sent in the request body by default and Google AI Studio added as an AI-gateway provider) and refreshed the activity line (the default branch moved 2026-11-13 with Topics snapshots and on-demand map refresh, the repository-level 2026-11-14 push being side-branch activity).
 
 ## See also
 

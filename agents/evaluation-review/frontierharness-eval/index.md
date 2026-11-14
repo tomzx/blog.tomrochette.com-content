@@ -1,7 +1,7 @@
 ---
 title: "FrontierHarness Eval"
 created: 2026-09-05
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, coding-agents]
 readability: 3
@@ -23,6 +23,7 @@ Task definitions, difficulty metadata, harness versions, and normalized results 
 New and gaining traction: the repository was created 2026-08-31 and pushed 2026-09-08, and the launch drew an 82-point Hacker News thread with substantive methodological discussion.
 **The benchmark is vendor-run: Runta sells an execution layer for AI agents and announced a $20M seed led by a16z, so the neutrality that makes the numbers useful is asserted, not structural.**
 The repository carries no license as of 2026-10-16, which limits reuse of the task definitions themselves.
+The live board has moved past that snapshot: as of 2026-11-14 the site banners "FrontierHarness v1.1 is live" and its metadata describes a live-run board of 21 harnesses, 5 models, and 62 tasks, the harness-by-model matrix expansion the launch article promised, while the public repository (unlicensed) has not moved since 2026-09-08, so the v1.1 artifacts are not public there and the held-constant-model design above describes v1.0, not the current board.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=frontier-harness-eval/eval&type=date&theme=dark&legend=top-left" />
@@ -69,6 +70,7 @@ Not as a final ranking, and not for teams whose tasks look nothing like its 30.
 - 2026-10-06 - Added the MLE minimal-harness arXiv study (2609.40303) to Compared to and References as the strongest current version of the harness-matters-little objection.
 - 2026-10-07 - Added the frontier-harness-eval/eval star history chart to the Status section.
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched and live, the 82-point launch thread re-confirmed, and the repository re-confirmed unchanged (last push 2026-09-08, no license).
+- 2026-11-14 - Rotation re-verification: every cited URL re-fetched and live (the site, both arXiv studies, the launch article, the 82-point thread, and the publisher page), with the v1.1 shift recorded: the live board now advertises FrontierHarness v1.1 over 21 harnesses, 5 models, and 62 tasks as a live run, the promised harness-by-model matrix expansion, while the repository stays untouched since 2026-09-08, so the v1.0 held-constant-model results remain the only public artifacts.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Crit
 created: 2026-10-12
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -23,7 +23,8 @@ Beyond the local loop it syncs both ways with GitHub PRs and GitLab MRs (pull re
 
 ## Status
 
-Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-11-12, with v0.23.2 released 2026-10-31 after v0.23.1 (2026-10-23) and the author claiming a weekly release cadence.
+Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-11-13, with v0.23.3 released 2026-11-13 after v0.23.2 (2026-10-31) and the author claiming a weekly release cadence.
+v0.23.3 syncs viewed files with GitHub PRs in both directions (`crit push --viewed` ticks on GitHub what you marked viewed locally, `crit pull --viewed` brings GitHub's ticks back), with viewed marks saved in the review file so they survive restarts (PR 1150).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tomasz-tomczyk/crit&type=date&theme=dark&legend=top-left" />
@@ -75,6 +76,7 @@ Not for terminal-only workflows (Hunk), not for CI gating (nothing here exits no
 - 2026-11-05 - Refreshed the activity line: the default branch moved 2026-11-04 with test-stability and dedup fixes, v0.23.2 still the newest release.
 - 2026-11-08 - Refreshed the activity line: the default branch moved 2026-11-07 with a dev-dependency bump (eslint, PR 1151), v0.23.2 still the newest release.
 - 2026-11-13 - Refreshed the activity line: the default branch moved 2026-11-12 with pinned-commit UI work (the pinned commit's message card and the receding scope toggle), v0.23.2 still the newest release.
+- 2026-11-14 - Recorded the v0.23.3 release (2026-11-13): two-way GitHub viewed-file sync (`crit push --viewed` and `crit pull --viewed`, viewed marks saved in the review file, PR 1150); pushed date moved to 2026-11-13 and no commits have landed after the release.
 
 ## See also
 

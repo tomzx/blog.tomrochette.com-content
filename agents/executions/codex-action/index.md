@@ -1,7 +1,7 @@
 ---
 title: Codex Action
 created: 2026-10-11
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, github-actions, codex, security]
 readability: 3
@@ -19,13 +19,13 @@ Codex Action is OpenAI's official GitHub Action that installs the Codex CLI and 
 A workflow step (`openai/codex-action@v1`) that installs the Codex CLI, starts a proxy to the Responses API that keeps `OPENAI_API_KEY` out of the agent's process, and runs `codex exec` with your prompt.
 Safety strategies control runner privileges: `drop-sudo` (the default) removes sudo and Docker-socket access and starts Codex under `no_new_privs` with empty capability sets, `unprivileged-user` runs a dedicated account, `read-only` sandboxes filesystem and network, and `unsafe` (the only Windows option) removes all reduction.
 Codex permission profiles (`:workspace`, `:read-only`, or named profiles, beta, CLI 0.138.0 and later) scope filesystem and network access per workflow.
-Write-access checks gate who can trigger a run, with explicit `allow-users` and `allow-bots` lists, and the final Codex message surfaces as a step output you route wherever you want.
+Write-access checks gate who can trigger a run, with explicit `allow-users`, `allow-bots`, and `allow-bot-users` lists, and the final Codex message surfaces as a step output you route wherever you want.
 It is Apache-2.0, built by OpenAI, and tag-versioned (v1.13 the newest) rather than release-published.
 
 ## Status
 
 **Active and current, with a small footprint.**
-1,266 stars as of 2026-10-13, 185 forks and 84 open issues and pull requests as of 2026-11-08 (GitHub API), created 2025-10-01 and pushed 2026-10-31.
+1,266 stars as of 2026-10-13, 188 forks and 84 open issues and pull requests as of 2026-11-14 (GitHub API), created 2025-10-01 and pushed 2026-11-13, with the default branch's latest commit still the 2026-10-30 UTF-8 fix, so the pushed-date move rode side-branch pushes (the pattern the 2026-11-01 ruling names).
 The tag train is at v1.13 with changelog commits through 2026-10-30, so maintenance is steady, but the distribution choice (tags, no GitHub releases) keeps the version history low-visibility.
 Hacker News has no dedicated thread as of 2026-10-30 searches; the README, the security guide, and the Codex permissions docs are the whole record.
 
@@ -74,6 +74,7 @@ My disagreeable claim: OpenAI shipped the security model the other vendors shoul
 - 2026-10-30 - Fully re-verified in rotation with every cited URL re-fetched: the v1.13 tag train (still newest), the README's proxy, safety-strategy, and permission-profile claims (profiles still beta at CLI 0.138.0 and later, still non-composing with the legacy sandbox), the permissions reference still live at its learn.chatgpt.com path, and the still-absent dedicated HN thread (18 loose hits, none dedicated) all re-confirmed; the changelog record extended with the 2026-10-20 workflow-command-escaping commit; the counters re-verified unchanged (181 forks, 82 open issues and pull requests).
 - 2026-11-01 - Refreshed the changelog record with the 2026-10-30 UTF-8 subprocess-output commit (v1.13 still the newest tag) and the counters (182 forks, pushed 2026-10-31).
 - 2026-11-08 - Fully re-verified in rotation with every cited URL re-fetched: the README's proxy, safety-strategy, and permission-profile claims (profiles still beta at CLI 0.138.0 and later, still non-composing with the legacy sandbox), the permissions reference still live at its learn.chatgpt.com path, the v1.13 tag train and the changelog's newest commit still the 2026-10-30 UTF-8 fix, and the still-absent dedicated HN thread (158 unfiltered hits, none dedicated) all re-confirmed; the counters refreshed (182 to 185 forks, 82 to 84 open issues and pull requests).
+- 2026-11-14 - Fully re-verified in rotation with every cited URL re-fetched: the README's proxy, safety-strategy, and permission-profile claims (profiles still beta at CLI 0.138.0 and later, still non-composing with the legacy sandbox), with the new `allow-bot-users` bot allowlist recorded beside `allow-users` and `allow-bots`, the permissions reference still live at its learn.chatgpt.com path, the v1.13 tag train and the changelog's newest commit still the 2026-10-30 UTF-8 fix, and the still-absent dedicated HN thread (158 unfiltered hits, none dedicated) all re-confirmed; the counters refreshed (185 to 188 forks, pushed 2026-11-13 with the default branch's latest commit still 2026-10-30, the side-branch-push pattern the 2026-11-01 ruling names).
 
 ## See also
 
@@ -85,9 +86,9 @@ My disagreeable claim: OpenAI shipped the security model the other vendors shoul
 ## References
 
 - https://github.com/openai/codex-action - repository, 1,266 stars, Apache-2.0 license, as of 2026-10-13
-- https://api.github.com/repos/openai/codex-action - exact counters (1,266 stars as of 2026-10-13, 185 forks, 84 open issues and pull requests, pushed 2026-10-31, created 2025-10-01; re-verified 2026-11-08)
-- https://raw.githubusercontent.com/openai/codex-action/main/README.md - the proxy architecture, safety strategies, permission profiles, trigger allowlists, and Azure setup (re-fetched 2026-11-08)
-- https://api.github.com/repos/openai/codex-action/commits?per_page=3 - the changelog commits (v1.13 on 2026-10-05 and 2026-10-09, the 2026-10-20 workflow-command-escaping commit, and the 2026-10-30 UTF-8 subprocess-output commit, re-fetched 2026-11-08)
-- https://api.github.com/repos/openai/codex-action/tags?per_page=5 - the tag-versioning scheme, v1.13 newest (re-fetched 2026-11-08)
-- https://learn.chatgpt.com/docs/permissions - the permission-profile schema and enforcement this action configures (the former developers.openai.com/codex/permissions path now redirects here; re-fetched 2026-11-08)
-- https://hn.algolia.com/api/v1/search?query=codex-action - the coverage scan finding no dedicated thread (re-checked 2026-11-08: 158 unfiltered hits, none about this action), the missing-footprint record
+- https://api.github.com/repos/openai/codex-action - exact counters (1,266 stars as of 2026-10-13, 188 forks, 84 open issues and pull requests, pushed 2026-11-13, created 2025-10-01; re-verified 2026-11-14)
+- https://raw.githubusercontent.com/openai/codex-action/main/README.md - the proxy architecture, safety strategies, permission profiles, trigger allowlists, and Azure setup (re-fetched 2026-11-14)
+- https://api.github.com/repos/openai/codex-action/commits?per_page=3 - the changelog commits (v1.13 on 2026-10-05 and 2026-10-09, the 2026-10-20 workflow-command-escaping commit, and the 2026-10-30 UTF-8 subprocess-output commit, re-fetched 2026-11-14; the newest default-branch commit unchanged)
+- https://api.github.com/repos/openai/codex-action/tags?per_page=5 - the tag-versioning scheme, v1.13 newest (re-fetched 2026-11-14)
+- https://learn.chatgpt.com/docs/permissions - the permission-profile schema and enforcement this action configures (the former developers.openai.com/codex/permissions path now redirects here; re-fetched 2026-11-14)
+- https://hn.algolia.com/api/v1/search?query=codex-action - the coverage scan finding no dedicated thread (re-checked 2026-11-14: 158 unfiltered hits, none about this action), the missing-footprint record

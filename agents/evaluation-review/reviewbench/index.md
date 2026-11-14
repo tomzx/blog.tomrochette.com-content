@@ -1,7 +1,7 @@
 ---
 title: ReviewBench
 created: 2026-10-07
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, code-review, ai-review-agents]
 readability: 3
@@ -24,8 +24,8 @@ Submission is self-serve: sign in with GitHub, register a container image and yo
 
 ## Status
 
-A research preview launched 2026-10-05: the repository (review-bench/ReviewBench) was created 2026-09-04 and sits at 52 stars as of 2026-10-13 and 6 open issues as of 2026-10-26, last pushed 2026-11-12 with the twenty-third reviewer onboarding (ncoder-sonnet-5-5, PR 113) and the merge saying submitters can pick which configurations the leaderboard shows (PR 112), after the 2026-11-06 onboardings (PRs 103 and 106) and the 2026-11-04 leaderboard-configuration documentation (PR 109).
-The first independent entrants arrived through the self-service portal in the benchmark's first week: five third-party reviewers (Hermes Reviewer on 2026-10-07, then HeyDeer, mesrai, pr-review-agent, and DeepSeek Harness Reviewer on 2026-10-08) merged onboarding registrations, and seventeen more followed (Klaussy and Sourceant on 2026-10-12, block/review and Laude RevEngine on 2026-10-13, intent-review-agent on 2026-10-14, diffox on 2026-10-15, emirtuncer-claude and diffox ultra on 2026-10-16, and opswiki, alma-reviewer, and OhMyBug on 2026-10-19, TraceHound on 2026-10-22, Fletcher on 2026-10-26, OCR and diffox spark on 2026-10-27, and aka-code-reviewer and Zeroshot Code Review on 2026-11-06, and ncoder-sonnet-5-5 on 2026-11-12), so twenty-three have onboarded and the submission pipeline works well beyond GitHub's own pre-ran entries, though none of their leaderboard scores had published as of 2026-10-11.
+A research preview launched 2026-10-05: the repository (review-bench/ReviewBench) was created 2026-09-04 and sits at 52 stars as of 2026-10-13 and 6 open issues as of 2026-10-26, last pushed 2026-11-14 with the twenty-fourth reviewer onboarding (Open Code Review, PR 110) and the twenty-third (ncoder-sonnet-5-5, PR 113) plus the merge saying submitters can pick which configurations the leaderboard shows (PR 112) on 2026-11-12, after the 2026-11-06 onboardings (PRs 103 and 106) and the 2026-11-04 leaderboard-configuration documentation (PR 109).
+The first independent entrants arrived through the self-service portal in the benchmark's first week: five third-party reviewers (Hermes Reviewer on 2026-10-07, then HeyDeer, mesrai, pr-review-agent, and DeepSeek Harness Reviewer on 2026-10-08) merged onboarding registrations, and eighteen more followed (Klaussy and Sourceant on 2026-10-12, block/review and Laude RevEngine on 2026-10-13, intent-review-agent on 2026-10-14, diffox on 2026-10-15, emirtuncer-claude and diffox ultra on 2026-10-16, and opswiki, alma-reviewer, and OhMyBug on 2026-10-19, TraceHound on 2026-10-22, Fletcher on 2026-10-26, OCR and diffox spark on 2026-10-27, and aka-code-reviewer and Zeroshot Code Review on 2026-11-06, and ncoder-sonnet-5-5 on 2026-11-12, and Open Code Review on 2026-11-14), so twenty-four have onboarded and the submission pipeline works well beyond GitHub's own pre-ran entries, though none of their leaderboard scores had published as of 2026-10-11.
 On 2026-10-17 the benchmark also gained a Harbor path: the 219 pull requests ship as a frozen, content-addressed Harbor dataset (review-bench/reviewbench-public@v1) with a separate verifier reusing the same matcher, classifier, and scoring under Claude Opus 5 as judge, runnable through the reviewbench-harbor runtime with no checkout of this repository and, per the merge, no Copilot adapter in the public package.
 The repository documented an offline evaluation path on 2026-10-10: run the reviewer image with try-agent.sh, then judge the findings locally, no registration required, and a 2026-10-13 commit additionally discloses the golden set's composition by producer while registration now documents its per-PR timeout (default 1,800 seconds).
 A 2026-10-20 merge turned that producer disclosure into a scoring control: an `--exclude-producer` flag judges leave-producer-out runs against the golden set.
@@ -87,6 +87,7 @@ Not for CI gating, and not as an unbiased tiebreaker while the publisher's own r
 - 2026-11-05 - Recorded the leaderboard-configuration disclosure merge (PR 109, 2026-11-04, which says which configurations the leaderboard shows) and refreshed the activity line; no new onboardings since the twentieth.
 - 2026-11-08 - Recorded the aka-code-reviewer and Zeroshot Code Review onboardings (PRs 103 and 106, both merged 2026-11-06, twenty-two total), which the running twenty count had missed; no further merged pull requests re-verified this run.
 - 2026-11-13 - Recorded the twenty-third onboarding (ncoder-sonnet-5-5, PR 113, 2026-11-12) and the leaderboard-configuration picker merge (PR 112, 2026-11-12), and refreshed the activity line.
+- 2026-11-14 - Recorded the twenty-fourth onboarding (Open Code Review, PR 110, merged 2026-11-14) and refreshed the activity line.
 
 ## See also
 

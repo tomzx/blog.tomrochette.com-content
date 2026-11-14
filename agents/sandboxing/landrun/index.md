@@ -1,7 +1,7 @@
 ---
 title: Landrun
 created: 2026-10-09
-updated: 2026-11-07
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, landlock, linux, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, by Zouuup (Zoup on Hacker News), with no agent-specific features: it is a g
 
 ## Status
 
-Large footprint, development resumed: 2,316 stars as of 2026-10-13, 3 open issues as of 2026-10-18, created 2025-03-21, with v0.1.17 (2026-07-22, the ABI v9 release) the latest of a long 0.1.x train.
+Large footprint, development resumed: 2,316 stars as of 2026-10-13, 4 open issues as of 2026-11-14, created 2025-03-21, with v0.1.17 (2026-07-22, the ABI v9 release) the latest of a long 0.1.x train.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Zouuup/landrun&type=date&theme=dark&legend=top-left" />
@@ -76,6 +76,7 @@ Not as an agent boundary by itself: no egress policy, no audit trail, no profile
 - 2026-10-18 - Recorded the quiet window ending: a merged community pull request targeting Landlock ABI 10 with UDP network restrictions (committed 2026-10-10), then TCP and UDP port-range flags and a go-landlock v0.10.1 bump (2026-10-16), none released past v0.1.17, with open issues moving from eight to three.
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, the 518-point launch thread, the author's supply-chain post, the release record); v0.1.17 remains the newest release with no commit to the repository since 2026-10-16, so the resumed-train and unreleased-ABI-10 readings stand.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, the 518-point launch thread, the author's supply-chain post, the release record); v0.1.17 remains the newest release with no commit to main since 2026-10-16, the resumed-train and unreleased-ABI-10 readings stand, and the Compared-to Fence entry updated for the parent's quiet train.
+- 2026-11-14 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, the 518-point launch thread, the author's supply-chain post, the release record); v0.1.17 remains the newest release with no commit to the repository since 2026-10-16, the resumed-train and unreleased-ABI-10 readings stand, and open issues moved from three to four.
 
 ## See also
 

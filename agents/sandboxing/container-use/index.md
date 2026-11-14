@@ -1,7 +1,7 @@
 ---
 title: Container Use
 created: 2026-10-12
-updated: 2026-11-08
+updated: 2026-11-14
 readability: 3
 audience_notes: >
   Engineers running several coding agents against one repository who want each agent
@@ -25,7 +25,7 @@ Built by Dagger, the containers-as-CI company; the project carries an experiment
 
 ## Status
 
-Star-heavy and development-light: 4.1k stars and about 36 contributors as of 2026-10-12, created 2025-05-23, pushed 2026-09-21, Apache-2.0.
+Star-heavy and development-light: 4.1k stars and about 36 contributors as of 2026-10-12, created 2025-05-23, pushed 2026-11-14 (branch activity; the default branch's newest commit stays the August 2026 path-traversal fix), Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dagger/container-use&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,7 @@ Star-heavy and development-light: 4.1k stars and about 36 contributors as of 202
 
 The Show HN launch on 2025-06-05 drew 82 points, the category's mid-sized launch.
 The release train stopped at v0.4.2 on 2025-08-19, and no release has followed in the fourteen months since.
-2026 brought three commit days: one in February, one in June, and an August 11-12 burst of seven commits that shipped a path-traversal fix for the environment export path (issue #337), with the last repository push on 2026-09-21.
+2026 brought three commit days: one in February, one in June, and an August 11-12 burst of seven commits that shipped a path-traversal fix for the environment export path (issue #337); repository pushes since then are branch activity only, the newest on 2026-11-14, while the default branch has not moved since August 2026.
 **The boundary works and the docs are live, but an experimental badge, a dead release train, and a handful of 2026 commits read as a slowed project the Dagger team parked, not an actively maintained one.**
 
 ## Strengths
@@ -74,6 +74,7 @@ Not for untrusted-code isolation (the kernel is shared and no egress policy exis
 - 2026-10-19 - Rotation re-verification: every cited URL re-fetched (repository, release record, the four documentation pages, the 82-point launch thread, all alive); no release after v0.4.2 and the push date holds at 2026-09-21, so the stalled-train reading stands.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched (repository, release record, the four documentation pages, the 82-point launch thread, all alive); no release after v0.4.2 and the push date holds at 2026-09-21, so the stalled-train reading stands.
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched and alive (repository data through the GitHub API while github.com's HTML 504s from this run's fetch path, the release record still ending at v0.4.2 (2025-08-19), the four documentation pages, the 82-point launch thread); no release after v0.4.2 and the push date holds at 2026-09-21, so the stalled-train reading stands, and the documented agent-client coverage grew from fifteen to eighteen (OpenCode, Warp, Gemini CLI, JetBrains Junie, and Charm Crush joined the list).
+- 2026-11-14 - Volatile refresh for the 2026-11-14 push: branch activity only, the default branch's newest commit still the August 2026 path-traversal fix, and no release after v0.4.2, so the stalled-train reading stands.
 
 ## See also
 

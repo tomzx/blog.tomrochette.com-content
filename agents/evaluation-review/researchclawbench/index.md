@@ -1,7 +1,7 @@
 ---
 title: ResearchClawBench
 created: 2026-10-28
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, automated-research, ai-for-science]
 readability: 3
@@ -66,6 +66,7 @@ Not for CI gating, and not as a leaderboard to quote at face value while the jud
 
 - 2026-10-28 - Created.
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched and live, the zero-hit HN search re-confirmed, and the repository re-confirmed unchanged (last push 2026-10-28, the paper still at v5).
+- 2026-11-14 - Rotation re-verification: every cited URL re-fetched and live (the repository and its API, the arXiv paper still at v5, the Hugging Face dataset mirror, the leaderboard site, the MIT license, the organization repository list, and the zero-hit HN search), the repository re-confirmed unchanged (last push 2026-10-28, the jiutian-DeepInsight results announcement still the latest commit).
 
 ## See also
 
