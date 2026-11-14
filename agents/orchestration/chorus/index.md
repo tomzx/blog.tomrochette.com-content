@@ -1,7 +1,7 @@
 ---
 title: Chorus
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, kanban, human-in-the-loop]
 readability: 3
@@ -16,7 +16,7 @@ Chorus is an open-source team harness that takes a team of coding agents plus th
 
 ## What it is
 
-A self-hosted web app (TypeScript over Node, embedded PGlite by default, PostgreSQL 17 or Docker Compose for scale) that opens at localhost:8637, plus an npm CLI (`@chorus-aidlc/chorus`, 0.23.0).
+A self-hosted web app (TypeScript over Node, embedded PGlite by default, PostgreSQL 17 or Docker Compose for scale) that opens at localhost:8637, plus an npm CLI (`@chorus-aidlc/chorus`, 0.24.1).
 Work follows the AI-DLC method: a human writes an idea, an agent drafts a proposal with a PRD and a task DAG, agents execute the tasks, and admin actors verify and close.
 Every stage carries a permission matrix (five actions across three actor kinds, granted to humans, agents, or both), so the actor doing a task and the actor verifying it are different grants.
 Remote daemons pick up assigned tasks on your machines and drive Claude Code, Codex, Pi, Kiro, Hermes Agent, and TRAE CLI through plugins and gateways; results and approval requests come back into the project.
@@ -24,8 +24,8 @@ By Chorus-AIDLC, repository created 2026-02-04, an implementation of AWS's AI-DL
 
 ## Status
 
-Active: 1,216 stars, 110 forks, and 19 open issues and pull requests as of 2026-11-01 (GitHub API), with 65-plus releases since June 2026, v0.24.0 on 2026-11-05, and the train running roughly weekly; the default branch's latest commit is the 2026-11-05 release commit that published v0.24.0.
-The npm CLI has 53 published versions (first in June 2026) and 5,293 downloads in October 2026.
+Active: 1,216 stars, 110 forks, and 19 open issues and pull requests as of 2026-11-01 (GitHub API), with 65-plus releases since June 2026, v0.24.1 on 2026-11-14 (its `chorus agents run` now syncing runs to Chorus by default, streaming the live transcript into the agent's conversation) after v0.24.0 (2026-11-05, owner-scoped Agent Teams templates), and the train running roughly weekly; the default branch's latest commit landed 2026-11-14, the day v0.24.1 published.
+The npm CLI has 55 published versions (first in June 2026) and 5,591 downloads in October 2026 (npm APIs, as of 2026-11-14, the dated window backfilled upward from the 5,293 first recorded).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Chorus-AIDLC/Chorus&type=date&theme=dark&legend=top-left" />
@@ -68,6 +68,7 @@ Not for solo terminal speed runs, and not for teams needing inline diff review, 
 - 2026-11-01 - Created.
 - 2026-11-04 - Status refresh: the default-branch record corrected (latest commit 2026-10-22, the 2026-11-01 and 2026-11-04 repository pushes side-branch only) per the pushed-at divergence rule.
 - 2026-11-06 - Volatile refresh: Recorded v0.24.0 (2026-11-05) as the new latest release, the default branch catching up with it.
+- 2026-11-14 - Rotation re-verification: every cited URL re-fetched live; recorded v0.24.1 (2026-11-14, default-on run sync from `chorus agents run`) as the new latest release, the npm CLI count refreshed to 55 versions and October downloads to 5,591.
 
 ## See also
 

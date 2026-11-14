@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [agents]
 readability: 0
@@ -13,6 +13,13 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 
 ## Scope rulings
 
+- 2026-11-14 | cross-category | the q26/q114/q118/q121/q111/q116/q126 evidence refresh reads yibie 795 (pushed 11-14, maintenance commits only) and handsome-rich 1,292 (pushed 11-13, stale-entry refresh) against webfuse-com 2,591 (stale 09-21) and AI4Scientist 188 (pushed 10-28), deep-research largest DavidZWZ 875 (stale 07-23), awesome-system-one 60 pushed 11-12 (+19-entry sweep, Gemini Decisions API entry), awesome-jev head 2,585 pushed 11-14, AnotiaWang 715 pushed 11-13 (Umpirix, OnlyRead), cuihuan gateway 156 and mahmoudsajjadi coding-tools 15 both pushed 11-13, kyrolabs/awesome-ade 27 pushed 11-11 | metadata-only refresh of the owner-call evidence, no wiring or mapping resolved, no content scan of the unwired lists' additions performed
+- 2026-11-14 | assistant-runtimes | openhuman reads 42,691 stars on 2026-11-14, about +16 in one day (the slowing trend continuing) against OpenClaw's 394,413 | the q13 OpenClaw-class scale trigger stays unfired, openhuman held
+- 2026-11-14 | surfaces | OpenBitFun's Cowork-style general-workspace rejection holds on the ninth q#14 re-read (the openBitFun/OpenBitFun README re-fetched 2026-11-14 still pitches a general-purpose agent workspace with four Agent Harness modes, phone-as-remote-controller, and a Mini App marketplace, 4,018 stars, pushed 2026-11-14), the question again reads safe to close | surfaces re-check on the governing question
+- 2026-11-14 | surfaces | no credible surfaces-dedicated source has appeared; the GitHub search re-run returned the known low-star candidates (ohong/awesome-coding-ai 21 dormant since 08-10, rsonnet/awesome-agentic-ides 5, pinion05/awesome-agent-ide 4 pushed 11-10) plus erson/awesome-coding-agent-orchestration 5, orchestration-kind and dormant | the refresh's no-dedicated-source check
+- 2026-11-14 | harnesses | a release recording lands as a Changes bullet in the same run that updates the Status prose; six notes (goose, juggler, onecli, gemini-cli, om-o, opencode) were found carrying prose-only release recordings from earlier runs and repaired this run | recording-a-release without its bullet breaks the append-only audit trail the Changes section exists for
+- 2026-11-14 | harnesses | a cited repository doc that 404s because its content moved is a repoint, not a dead source: locate the content's new home through the repo tree API and cite that path with the move dated (nanocoder's docs/features/scheduler.md to docs/features/skills.md) | the claim it grounded (cron and file.changed daemon subscriptions) still holds at the new path
+- 2026-11-14 | harnesses | a no-commits-since claim cites the commits API on the default branch with a since=<release date> query, never pushed_at or inference; the longhorizon-harness 10-30 and 11-07 bullets claimed no commits since 2026-10-21 while default-branch commits existed on 10-23 and 10-26 | extends the 2026-11-01 default-branch ruling after the claim was corrected this run
 - 2026-11-13 | executions | the rotation re-verifies run-gemini-cli and agents-cron: run-gemini-cli's stalled-repo record holds (push 2026-08-21, eighty-four days, train stopped at v0.1.22), agents-cron's release train moved to 0.18.0 with trailing-month npm downloads up 4,185 to 5,408 and the coverage footprint still empty | both notes fully re-verified with every cited URL re-fetched; agents-cron's adoption evidence strengthened, no ruling change
 - 2026-11-13 | executions | the dedicated-list check finds no credible dedicated executions source; the only search hit (ipanalytics/Awesome-Agent-Ops) is a 1-star dormant personal practices list | the category stays on the broad sources
 - 2026-11-13 | hybrid-execution | the Decision Index's 2026-11-12 regeneration (301 configurations) is a re-scoring regeneration, not only a crowd shift: karpo-decision-31B took first at 73.86 and REAX 1.3's own score re-read from 73.98 to 72.64, so board-citing notes carry both the leader change and the rank shift | v03.json generated_utc 2026-11-12T12:34:44Z, fetched 2026-11-13

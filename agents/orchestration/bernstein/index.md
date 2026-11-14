@@ -1,7 +1,7 @@
 ---
 title: Bernstein
 created: 2026-10-06
-updated: 2026-11-12
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, deterministic-scheduling, policy-as-code, worktrees, audit]
 readability: 3
@@ -21,7 +21,7 @@ It ships as a CLI, TUI, and web UI on PyPI (`bernstein`), drives 50-plus CLI age
 
 ## Status
 
-Active and fast-releasing: 1,249 stars as of 2026-10-15, 30 contributors, and a push on 2026-11-12, created 2026-03-22, with v3.24.1 published 2026-11-05 after v3.23.0 (2026-10-24) (GitHub API, PyPI, as of 2026-11-12).
+Active and fast-releasing: 1,249 stars as of 2026-10-15, 30 contributors, and a push on 2026-11-14, created 2026-03-22, with v3.24.1 published 2026-11-05 after v3.23.0 (2026-10-24) (GitHub API, PyPI, as of 2026-11-14).
 v3.22.0 fixed a recovery-watchdog loop in which a run stopped on purpose could be restarted by its own watchdog, re-queueing retries an earlier process had already made; a quiescent run now stays stopped, which matters for a tool whose pitch is auditable determinism.
 The star count fell from the 1,404 recorded on 2026-10-06 to about 1,200 by 2026-10-10, a roughly 200-star drop in four days that GitHub sometimes produces when it removes bot-starred accounts, and the note records it because a falling count on a governance tool is itself a signal.
 
@@ -71,6 +71,7 @@ Not for teams that want LLM-driven planning, a GUI-first experience, or a projec
 - 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live (PyPI at 3.23.0, README still advertising 50-plus adapters); repaired the HN reference, whose bernstein.run query had stopped matching the two threads, to the query that returns them.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v3.23.0 still the latest release.
 - 2026-11-06 - Volatile refresh: Recorded v3.24.1 (2026-11-05) as the new latest release.
+- 2026-11-14 - Rotation re-verification: every cited URL re-fetched live (PyPI at 3.24.1, the Show HN search returning the August thread); v3.24.1 stands as the latest release and the push date refreshed to 2026-11-14.
 
 ## See also
 

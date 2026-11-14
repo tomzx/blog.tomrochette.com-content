@@ -1,7 +1,7 @@
 ---
 title: Junie
 created: 2026-08-22
-updated: 2026-11-07
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, jetbrains, byok]
 readability: 3
@@ -89,6 +89,7 @@ Not for anyone who needs an open client or a large community ecosystem today.
 - 2026-10-31 - Rotation re-verification, every cited reference live: the Junie Lite free tier and the AI Pro ($8.33) and AI Ultimate ($25) prices re-verified unchanged on the product pages, and the repository's release train still rolling (builds published October 30-31).
 - 2026-11-07 - Recorded the release train running on: eight installer builds published November 6 alone, through 4040.1, all without release notes attached.
 - 2026-11-11 - Recorded the installer train continuing through 4078.1 (published November 10), again without release notes attached.
+- 2026-11-14 - Recorded the installer train continuing through 4131.1 (published November 13), again without release notes attached, with 4129.1 and 4130.1 published the same day.
 
 ## See also
 

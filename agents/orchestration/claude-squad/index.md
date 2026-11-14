@@ -1,7 +1,7 @@
 ---
 title: Claude Squad
 created: 2026-08-24
-updated: 2026-11-06
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, orchestration, git-worktrees, terminal]
 readability: 3
@@ -26,7 +26,7 @@ Prerequisites are just tmux and the GitHub CLI.
 ## Status
 
 Active but slow-burning.
-The repository was created in March 2025, was last pushed to on 2026-08-20, and shows 222 commits, 8,607 stars, and 625 forks as of 2026-10-15.
+The repository was created in March 2025, was last pushed to on 2026-11-13, a single fix commit (removing a failing `gh repo sync` call before push) that broke an eighty-five-day quiet spell since the 2026-08-20 push, and shows 223 commits, 8,607 stars, and 625 forks as of 2026-10-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=smtg-ai/claude-squad&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ The repository was created in March 2025, was last pushed to on 2026-08-20, and 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=smtg-ai/claude-squad&type=date&legend=top-left" />
 </picture>
 
-Homebrew reports 5,117 installs over the last 365 days as of 2026-11-06 (5,142 as of 2026-10-29), modest usage for its star count.
+Homebrew reports 5,110 installs over the last 365 days as of 2026-11-14 (5,142 as of 2026-10-29), modest usage for its star count.
 **Its Hacker News footprint is nearly empty (a 5-point launch thread in April 2025), so adoption spread through GitHub and word of mouth, not press.**
 
 ## Strengths
@@ -76,6 +76,7 @@ For most engineers, Claude Squad plus a small setup script covers 90 percent of 
 - 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository, docs site, Homebrew formula at 1.0.20, the 5-point launch thread); no factual drift, still quiet since the 2026-08-20 push.
 - 2026-10-29 - Re-verified in rotation: all cited sources re-fetched and live; Homebrew install-on-request figure refreshed to 5,142 over 365 days as of 2026-10-29, still quiet since the 2026-08-20 push.
 - 2026-11-06 - Re-verified in rotation: all cited sources re-fetched and live; Homebrew install-on-request figure refreshed to 5,117 over 365 days as of 2026-11-06, still quiet since the 2026-08-20 push.
+- 2026-11-14 - Re-verified in rotation: all cited sources re-fetched and live; Homebrew refreshed to 5,110 over 365 days, and the eighty-five-day quiet spell broken by a single 2026-11-13 fix commit (a failing pre-push `gh repo sync` call removed), recorded in Status.
 
 ## See also
 

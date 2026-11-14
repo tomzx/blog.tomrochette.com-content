@@ -1,7 +1,7 @@
 ---
 title: Frink
 created: 2026-10-21
-updated: 2026-11-06
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflows, desktop, triggers]
 readability: 3
@@ -26,7 +26,7 @@ It is local-first: chats, Flows, and tasks live in SQLite on your machine, no ac
 
 ## Status
 
-Active and very young: 58 stars and 5 forks as of 2026-10-21, repository created 2026-09-26, default-branch pushes through 2026-10-26, and a steady release train (0.2.0 on October 6, 0.3.0 on October 8, 0.4.0 on October 16) (GitHub API and releases, as of 2026-10-27).
+Active and very young: 58 stars and 5 forks as of 2026-10-21, repository created 2026-09-26, default-branch pushes through 2026-11-09 (adding Fable 5.2 to the Claude model picker and bundling Claude Code 2.1.321), and a release train still at 0.4.0 (October 16) after 0.3.0 (October 8) and 0.2.0 (October 6) (GitHub API and releases, as of 2026-11-14).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=benord-labs/frink&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ Not for headless or server-side automation, and not for anyone who needs a track
 - 2026-10-21 - Created.
 - 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live (repository, site, pricing, the 0.4.0 release line, the four user docs); no material change, with pushes still stopping at 2026-10-26.
 - 2026-11-06 - Re-verified in rotation: every cited URL re-fetched live; no material change, pushes still stopping at 2026-10-26 and 0.4.0 still the latest release.
+- 2026-11-14 - Re-verified in rotation: every cited URL re-fetched live; 0.4.0 still the latest release, and the default branch resumed with 2026-11-09 commits (Fable 5.2 in the model picker, bundled Claude Code 2.1.321), recorded in Status.
 
 ## See also
 

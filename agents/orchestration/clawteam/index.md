@@ -1,7 +1,7 @@
 ---
 title: ClawTeam
 created: 2026-10-23
-updated: 2026-11-06
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, swarms, worktrees, tmux, python]
 readability: 3
@@ -73,6 +73,7 @@ Not for production use, and not for anyone needing a maintained tool, because no
 - 2026-10-23 - Created after the coordinator handoff flagged the unmatched repository at 5.5k stars, resolving the prior scan's dormant-since-May record in favor of admission on scale and provenance.
 - 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live (repository, README, releases, PyPI, roadmap, lab profile, results repo); dormancy and the March release train stand, the exact-phrase HN search still returns no story for the project, and the lab-attention sentence now cites DeepCode's 2026-10-31 push.
 - 2026-11-06 - Re-verified in rotation: every cited URL re-fetched live; dormancy and the March release train stand, and the HN search still returns no ClawTeam story (two query matches are false positives, a 2012 forum and an unrelated Show HN that mentions the name in passing).
+- 2026-11-14 - Re-verified in rotation: every cited URL re-fetched live; dormancy stands (still no push since 2026-05-09, PyPI still at 0.2.0), and the HN search still returns no story for the project.
 
 ## See also
 

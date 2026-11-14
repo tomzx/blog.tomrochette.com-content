@@ -1,7 +1,7 @@
 ---
 title: Crystal
 created: 2026-08-24
-updated: 2026-11-06
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, desktop-app]
 readability: 3
@@ -73,6 +73,7 @@ My disagreeable claim: Stravu read the market correctly, because harness CLIs we
 - 2026-10-18 - Re-verified in rotation: all cited sources re-fetched and live (repository still public and not GitHub-archived, Nimbalyst's site, both HN threads); no factual drift in the death record.
 - 2026-10-29 - Re-verified in rotation: all cited sources re-fetched and live (deprecation notice, repository, Nimbalyst site, both HN threads); no factual drift in the death record.
 - 2026-11-06 - Re-verified in rotation: all cited sources re-fetched and live, no drift in the death record itself; the Conductor references updated now that Conductor announced it is joining Meta with a wind-down on 2026-11-04, which the Cautions read as support for the pivot thesis.
+- 2026-11-14 - Re-verified in rotation: all cited sources re-fetched and live (deprecation notice, repository, Nimbalyst site, both HN threads); no drift in the death record.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: PrivateGPT
 created: 2026-09-27
-updated: 2026-11-11
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, self-hosting, api-first, rag]
 readability: 3
@@ -25,7 +25,7 @@ Commercially, Zylon builds the enterprise platform on top: an on-premise, air-ga
 
 ## Status
 
-Alive again after a long quiet stretch: 57,577 stars and 7,619 forks as of 2026-10-14, created 2023-05-02, pushed 2026-11-11 with 14 open issues and pull requests as of 2026-11-11.
+Alive again after a long quiet stretch: 57,577 stars and 7,619 forks as of 2026-10-14, created 2023-05-02, pushed 2026-11-13 with 12 open issues and pull requests as of 2026-11-14.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zylon-ai/private-gpt&type=date&theme=dark&legend=top-left" />
@@ -36,7 +36,7 @@ Alive again after a long quiet stretch: 57,577 stars and 7,619 forks as of 2026-
 The project went viral in May 2023 with a 520-point Hacker News thread as the original offline document chat.
 **Then came the fork gap: the v1.0.0 release notes state the release merges two years of work from a private fork, which is a direct admission that the public repo lagged while Zylon built commercially.**
 v1.0.0 shipped 2026-06-03 with a breaking API change, v1.0.1 followed on 2026-06-18, and no release has shipped since, though main is active.
-Fourteen open issues and pull requests on a project this size is unusually low, which I read as issue hygiene rather than an absence of bugs.
+Twelve open issues and pull requests on a project this size is unusually low, which I read as issue hygiene rather than an absence of bugs.
 The same notes say Zylon closed its private fork and now develops against the open repository, which is the commitment to watch.
 
 ## Strengths
@@ -79,6 +79,7 @@ The disagreeable claim I will defend: the star count is a museum of the 2023 dem
 - 2026-10-28 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the docs site, zylon.ai, the launch thread via Algolia), v1.0.1 (2026-06-18) confirmed still the latest release, and the API-first positioning, the Claude-API compatibility table (skills basic, prompt caching and OAuth missing), and the Zylon enterprise framing all unchanged.
 - 2026-10-31 - Corrected the stale seven-figure open issues-and-PRs count in the Status commentary to the current eighteen, matching the Status line.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the docs site, zylon.ai, the launch thread via Algolia), v1.0.1 (2026-06-18) confirmed still the latest release, and the API-first positioning, the Claude-API compatibility claims, and the Zylon enterprise framing unchanged; the Status commentary's issues-and-PRs count re-matched to the Status line's current figure, with refreshed adoption numbers.
+- 2026-11-14 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, the docs site, zylon.ai, the launch thread via Algolia), v1.0.1 (2026-06-18) confirmed still the latest release, and the API-first positioning (the workbench a demonstrator, the API the product), the Claude-API compatibility table (skills basic, prompt caching and OAuth missing), the brew-tap and uv-tool install paths, the integration list (Claude Code, Claude Desktop and Cowork, Claude for Microsoft 365, OpenCode, n8n, OpenClaw, Hermes Agent), and the Zylon on-premise framing with its unaudited Google, Meta, and J.P. Morgan claims all unchanged; the Status line moved to pushed 2026-11-13 with 12 open issues and pull requests as of 2026-11-14 and the commentary count re-matched, with refreshed adoption numbers.
 
 ## See also
 
@@ -90,7 +91,7 @@ The disagreeable claim I will defend: the star count is a museum of the 2023 dem
 ## References
 
 - https://github.com/zylon-ai/private-gpt - README: architecture, Claude API compatibility, Zylon relationship, history
-- https://api.github.com/repos/zylon-ai/private-gpt - stars, forks, issues, license, and dates as of 2026-10-10
+- https://api.github.com/repos/zylon-ai/private-gpt - stars, forks, issues, license, and dates as of 2026-11-14
 - https://api.github.com/repos/zylon-ai/private-gpt/releases?per_page=4 - v1.0.0 notes (two-year private-fork merge, breaking change, Zylon developing in the open) and v1.0.1
 - https://docs.privategpt.dev/ - the API-first positioning and the Claude API compatibility table
 - https://www.zylon.ai/ - the company, on-premise positioning, and lineage claims, fetched 2026-09-27

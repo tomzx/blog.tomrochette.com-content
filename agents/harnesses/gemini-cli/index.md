@@ -1,7 +1,7 @@
 ---
 title: Gemini CLI
 created: 2026-08-22
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, google, developer-tools]
 readability: 3
@@ -76,6 +76,7 @@ Not for individuals, whatever the 2025 blog posts (several of which I believed a
 - 2026-10-27 - Rotation re-verification, re-fetching every cited reference (all live) and confirming the enterprise docs still carry the not-optimized banner steering to Antigravity CLI.
 - 2026-11-01 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the commit count to about 6,569 and confirmed the enterprise docs still carry the not-optimized banner steering to Antigravity CLI.
 - 2026-11-08 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the commit count to 6,600 exactly, named v0.67.0 (November 4, 2026) as the latest tagged release, and confirmed the enterprise docs still carry the not-optimized banner steering to Antigravity CLI.
+- 2026-11-14 - Recorded the v0.68.0 tagged release (published November 10, 2026), a changelog-rollup cut whose visible fixes bound inline history re-rendering after terminal width changes and preserved literal `$` characters during template placeholder replacement, which the Status prose had already carried, and refreshed the commit count to about 6,611 as of 2026-11-11.
 
 ## See also
 

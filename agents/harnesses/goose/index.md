@@ -1,7 +1,7 @@
 ---
 title: goose
 created: 2026-08-24
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, linux-foundation]
 readability: 3
@@ -25,7 +25,7 @@ It talks to 15+ providers (Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure,
 ## Status
 
 **Active and foundation-governed.**
-The repository (moved from Block's org to `aaif-goose/goose`) shows about 55.3k stars as of 2026-10-15, was last pushed 2026-11-11 (GitHub API, as of 2026-11-11), and ships a steady train: v1.59.0 (November 10, adding minimal deferred MCP tools in ToolExecutionOperation, configurable per-start voice instructions for live voice, a configurable GPT-Live endpoint, model, and key, and ACP session-list filtering by client tags), after v1.58.1 (November 10, rewording the compaction prompt Opus 5.5 refused as distillation and refreshing Databricks OAuth tokens before they expire) and v1.58.0 (November 9, an opt-in context-relevance operation, a context-window report and viewer, and AIHubMix, RouterPlex, and Lemonade declarative providers), after v1.57.0 (October 28, adding an allowlist that requires HTTPS, validates redirects, and blocks on policy failure, caller-supplied Goose session IDs, OpenRouter variant suffixes like `:free` and `:nitro` resolving to the base model, and desktop, scheduler, voice, and custom-prompt fixes).
+The repository (moved from Block's org to `aaif-goose/goose`) shows about 55.3k stars as of 2026-10-15, was last pushed 2026-11-14 (GitHub API, as of 2026-11-14), and ships a steady train: v1.59.1 (November 14, a patch cut whose body says macOS desktop builds and full release notes are coming soon), after v1.59.0 (November 10, adding minimal deferred MCP tools in ToolExecutionOperation, configurable per-start voice instructions for live voice, a configurable GPT-Live endpoint, model, and key, and ACP session-list filtering by client tags), after v1.58.1 (November 10, rewording the compaction prompt Opus 5.5 refused as distillation and refreshing Databricks OAuth tokens before they expire) and v1.58.0 (November 9, an opt-in context-relevance operation, a context-window report and viewer, and AIHubMix, RouterPlex, and Lemonade declarative providers), after v1.57.0 (October 28, adding an allowlist that requires HTTPS, validates redirects, and blocks on policy failure, caller-supplied Goose session IDs, OpenRouter variant suffixes like `:free` and `:nitro` resolving to the base model, and desktop, scheduler, voice, and custom-prompt fixes).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aaif-goose/goose&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ Not for teams that want a coding-specialized harness or a single vendor's suppor
 - 2026-10-24 - Recorded the v1.56.0 release (October 23): automatic thinking-level operation, resumable delegate subagents with view-only session links, the GOOSE_MAX_CONCURRENT_SUBAGENTS cap, OSC 7501 status reporting, an IO Intelligence provider, and Boa replacing PCTX as the code-mode runtime.
 - 2026-10-29 - Recorded the v1.57.0 release (October 28): an allowlist that requires HTTPS, validates redirects, and blocks on policy failure, caller-supplied Goose session IDs, OpenRouter variant suffixes like `:free` and `:nitro` resolving to the base model, and desktop, scheduler, voice, and custom-prompt fixes; refreshed the push date to 2026-10-28.
 - 2026-11-06 - Rotation re-verification, re-fetching every cited reference (all live), with v1.57.0 confirmed the newest release and the push date refreshed to 2026-11-06.
+- 2026-11-14 - Rotation re-verification, re-fetching every cited reference (all live): appended the Changes bullets for the v1.58.0 (November 9), v1.58.1 (November 10), and v1.59.0 (November 10) releases the Status prose had already carried without them, recorded the v1.59.1 patch (November 14, release notes pending), and refreshed the push date to 2026-11-14.
 
 ## See also
 

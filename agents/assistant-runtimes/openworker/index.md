@@ -1,9 +1,9 @@
 ---
 title: OpenWorker
 created: 2026-10-02
-updated: 2026-11-11
+updated: 2026-11-14
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtime, desktop, security, sandboxing]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, desktop, security, sandboxing]
 readability: 3
 audience_notes: >
   Engineers who want a governed desktop AI coworker that finishes whole tasks and are watching the assistant-runtime space.
@@ -16,14 +16,14 @@ OpenWorker is an MIT-licensed, open-source desktop AI coworker from Andrew Ng's 
 
 ## What it is
 
-A desktop app (macOS Apple Silicon, signed and notarized; the official site's Windows download is still marked coming soon while the README now links a Windows 10/11 build that is not yet code-signed) in open beta, self-updating, from the DeepLearning.AI orbit.
+A desktop app (macOS Apple Silicon, signed and notarized; the official site lists only a Mac download while the README now links a Windows 10/11 build that is not yet code-signed) in open beta, self-updating, from the DeepLearning.AI orbit.
 It runs on your machine, takes a bring-your-own key for OpenAI, Anthropic, Google, or an open-weight provider, or runs fully local through Ollama, and ships specialist coworkers whose tools, working style, and check-ins come preconfigured for one job.
 The launch cohort is security work: codebase and dependency review where findings combine deterministic scanners (semgrep) with model reasoning and proposed fixes are re-scanned and diff-reviewed before approval, plus cloud-posture audit and incident triage.
 Every action an agent takes is governed and logged, approvals are configurable, and commands can run inside sandboxes: NVIDIA OpenShell on Linux and Mac, the macOS built-in sandbox with nothing to install, or a Windows hidden local account, each with its own doc in the repo.
 
 ## Status
 
-Early and moving fast: about 18,500 stars in its first thirteen weeks as of 2026-10-17 (created 2026-07-20), with v0.3.1 released 2026-10-05, the last push on 2026-11-11 as of 2026-11-11, and a public beta disclaimer on the README.
+Early and moving fast: about 18,500 stars in its first thirteen weeks as of 2026-10-17 (created 2026-07-20), with v0.3.1 released 2026-10-05, the last push on 2026-11-14 as of 2026-11-14, and a public beta disclaimer on the README.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=andrewyng/openworker&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ The project says rough edges are being polished; treat it as beta in fact, not j
 ## Cautions
 
 - Beta software with root-adjacent powers: an agent that reads your code, cloud config, and inbox deserves more scrutiny than its ten-week age suggests.
-- macOS gets signed builds while the README's Windows build is not yet code-signed and the official site's Windows download still says coming soon, so the cross-platform story is uneven on the security-sensitive edges.
+- macOS gets signed builds while the README's Windows build is not yet code-signed and the official site lists only a Mac download, so the cross-platform story is uneven on the security-sensitive edges.
 - The coworker roster beyond security is mostly roadmap; the launch promise is narrower than the homepage's everyday-work examples.
 - Its governance vocabulary (approvals, logs, sandboxes) overlaps what your OS and IAM already enforce, and the two layers are not integrated.
 - The 18k-star traction has no independent usage record behind it yet.
@@ -79,6 +79,7 @@ Not for anyone needing a mature, broadly capable assistant today, or Windows-fir
 - 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the product site, the OpenShell sandbox doc, the approval-guidance doc), v0.3.1 confirmed still the latest release, the OpenShell 0.1.2 pin and the approval-guidance model intact, and the Windows download still marked coming soon on the official site.
 - 2026-11-04 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, the product site, the OpenShell sandbox doc, the approval-guidance doc), v0.3.1 confirmed still the latest release, the OpenShell 0.1.2 pin and the approval-guidance model intact, and the Windows story updated: the README now links a Windows 10/11 build that is not yet code-signed (signing in progress) while the official site's Windows download stays marked coming soon.
 - 2026-11-08 - Recorded the skills-package distribution line opening beside the desktop releases (skills-v0.1.0-beta.2, published 2026-11-07: the openworker-apps app-building skill shipped as a SKILL.md package ZIP for Claude's skill-upload screen, accompanying the @openworkerai/build-with-sdk-skills package), with v0.3.1 confirmed still the latest desktop release and refreshed adoption numbers.
+- 2026-11-14 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, the product site and its desktop page, the OpenShell sandbox doc, the approval-guidance doc), v0.3.1 confirmed still the latest desktop release with the skills-v0.1.0-beta.2 prerelease still newest, the OpenShell 0.1.2 pin and the approval-guidance model intact, and the Windows story corrected: the official site no longer carries the coming-soon Windows marker and now lists only a Mac download, while the README still links a Windows 10/11 build that is not yet code-signed (signing in progress), with refreshed adoption numbers and the content tag normalized to the category's assistant-runtimes.
 
 ## See also
 
@@ -90,8 +91,8 @@ Not for anyone needing a mature, broadly capable assistant today, or Windows-fir
 
 ## References
 
-- https://github.com/andrewyng/openworker - repository, MIT license, stars, beta disclaimer, use cases, and the governed-by-design section as of 2026-11-04
-- https://openworker.com/ - product positioning, download platforms, and the specialist-coworker framing
-- https://github.com/andrewyng/openworker/releases - the v0.3.0 release (2026-09-30) and v0.3.1 (2026-10-05, still latest as of 2026-11-04), the ghcr.io CLI image and the OpenShell 0.1.2 pin anchoring the version claims
+- https://github.com/andrewyng/openworker - repository, MIT license, stars, beta disclaimer, use cases, and the governed-by-design section as of 2026-11-14
+- https://openworker.com/ - product positioning, download platforms, and the specialist-coworker framing (the site lists only a Mac download as of 2026-11-14)
+- https://github.com/andrewyng/openworker/releases - the v0.3.0 release (2026-09-30) and v0.3.1 (2026-10-05, still latest as of 2026-11-14), the ghcr.io CLI image and the OpenShell 0.1.2 pin anchoring the version claims
 - https://github.com/andrewyng/openworker/blob/main/docs/openshell.md - the NVIDIA OpenShell sandbox integration behind the isolation claims
 - https://github.com/andrewyng/openworker/blob/main/docs/approval-guidance.md - the approval model behind the governance claims

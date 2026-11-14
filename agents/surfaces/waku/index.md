@@ -1,7 +1,7 @@
 ---
 title: Waku
 created: 2026-10-23
-updated: 2026-11-04
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, desktop, open-source, multi-agent]
 readability: 3
@@ -20,12 +20,12 @@ Waku is a GPL-3.0 native desktop app, written in Rust on GPUI, that drives the c
 A desktop application for macOS (a signed, auto-updating `.dmg` via Sparkle), Linux (an install script into `~/.local`, no root), and Windows (a per-user installer plus a portable `.zip`), with a browser client that talks to the same daemon.
 Each agent connects over its strongest native interface, stream-json, JSON-RPC, or live events, normalized into one provider-neutral model, so sessions, transcripts, tool activity, and checkpoints land in one timeline.
 The architecture splits the desktop (an RPC client) from a standalone `waku-daemon` that owns task SQLite data, provider session forks, and all workspace filesystem and Git operations; every prompt checkpoints your working tree under a hidden git ref, so a rewind restores the code and the provider conversation together.
-It is built by EGOIST, a long-standing open-source author (13,600+ GitHub followers, 800+ repositories, the CEO of ChatWise), and the site jokes "Not backed by Y Combinator".
+It is built by EGOIST, a long-standing open-source author (about 14,000 GitHub followers and 843 public repositories as of 2026-11-14, the CEO of ChatWise), and the site jokes "Not backed by Y Combinator".
 
 ## Status
 
 **Active and young.**
-1,586 stars and 159 open issues as of 2026-10-23 (GitHub API), repository created 2026-07-31, last pushed 2026-10-02, with v0.1.20 (2026-10-02) as the latest release in a steady 0.1.x train.
+1,586 stars as of 2026-10-23 and 152 open issues as of 2026-11-14 (GitHub API), repository created 2026-07-31, last pushed 2026-10-02, with v0.1.20 (2026-10-02) as the latest release in a steady 0.1.x train.
 The self-submitted Show HN ("I built a native app for coding agents with Rust and GPUI", August 15, 2026) drew 39 points and 17 comments, a modest footprint for a tool this polished.
 Everything runs on your machine: no account, no telemetry, no Waku cloud, and the daemon stays loopback-only unless you deliberately expose it.
 
@@ -69,6 +69,7 @@ Not for teams that need remote access, mobile surfaces, or a vendor to call, and
 
 - 2026-10-23 - Created from the coordinator handoff (owner-star signal, 2026-07-31), admitted as a surfaces-kind fit: a native multi-CLI session cockpit in the bb and CodeNomad family, with the GPL-3.0 license and the React-framework name collision recorded as cautions.
 - 2026-11-04 - Rotation re-verification, all seven cited URLs re-fetched live: the repository (still dormant since the October 2 push), the README, waku.sh, the v0.1.20 latest release, the Show HN thread (39 points), the author record, and the wakujs/waku name-collision caution all stand.
+- 2026-11-14 - Rotation re-verification, all seven cited URLs re-fetched live: the repository (still dormant since the October 2 push, not archived), the README, waku.sh, the v0.1.20 latest release, the Show HN thread (39 points), and the wakujs/waku name-collision caution all stand; the author record refreshed to about 14,000 followers and 843 public repositories.
 
 ## See also
 
@@ -79,10 +80,10 @@ Not for teams that need remote access, mobile surfaces, or a vendor to call, and
 
 ## References
 
-- https://github.com/egoist/waku - repository facts: 1,586 stars, GPL-3.0, Rust, created 2026-07-31, pushed 2026-10-02, 159 open issues (GitHub API, as of 2026-10-23)
+- https://github.com/egoist/waku - repository facts: 1,586 stars, GPL-3.0, Rust, created 2026-07-31, pushed 2026-10-02, 159 open issues (GitHub API, as of 2026-10-23), re-fetched 2026-11-14 via the API (still pushed 2026-10-02, not archived, 152 open issues)
 - https://raw.githubusercontent.com/egoist/waku/main/README.md - the supported-agent list, the daemon architecture, checkpoints under a hidden git ref, and the install paths (fetched 2026-10-23)
 - https://waku.sh - the product site: the native pitch, GPUI, keyboard-first controls, local-by-architecture, and the "Not backed by Y Combinator" line (fetched 2026-10-23)
 - https://api.github.com/repos/egoist/waku/releases/latest - v0.1.20 (2026-10-02) as the latest release (fetched 2026-10-23)
 - https://hn.algolia.com/api/v1/items/49315709 - the August 15, 2026 Show HN (39 points): the author's Electron-frustration motivation and the skeptical "wrapper over the existing agents" thread (fetched 2026-10-23)
-- https://api.github.com/users/egoist - the author record: 13,638 followers, 833 public repositories, CEO of ChatWise (fetched 2026-10-23)
+- https://api.github.com/users/egoist - the author record: 13,638 followers, 833 public repositories, CEO of ChatWise (fetched 2026-10-23), re-fetched 2026-11-14 (14,000 followers, 843 public repositories)
 - https://github.com/wakujs/waku - the React framework of the same name (6,474 stars) behind the disambiguation caution (GitHub API, as of 2026-10-23)

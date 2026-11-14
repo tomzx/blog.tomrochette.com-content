@@ -1,7 +1,7 @@
 ---
 title: Juggler
 created: 2026-08-30
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, gui, go]
 readability: 3
@@ -85,6 +85,7 @@ I think the harnesses that win the GUI layer will be the ones that treat convers
 - 2026-10-24 - Recorded the v0.7.8 release (October 23): automatic retries for dropped connections, cut-off streams, and provider server errors with the retried reply replacing the half-answer, and a Simplified Chinese translation with a Settings Language tab.
 - 2026-10-29 - Recorded the v0.7.9 release (October 28): usage-limit errors with a reset time offering auto-continue, clickable file paths opening on the Pinboard, Compact and Hand off buttons beside the context meter, `/init` drafting an AGENTS.md, models.dev provider suggestions for custom endpoints, and Claude Code conversation recovery from lost tool results.
 - 2026-11-06 - Rotation re-verification, re-fetching every cited reference (all live), with v0.7.9 confirmed still the newest release.
+- 2026-11-14 - Rotation re-verification, re-fetching every cited reference (all live): recorded the v0.8.0 release (November 8) the Status prose had carried without its Changes bullet, a from-the-ground refactor of the server and network stack to one server per machine managing multiple sessions, stable per-project links, the self-run `! command` (or /shell) bash form with a Stop button on running calls, and a new Slash commands settings pane.
 
 ## See also
 
@@ -99,4 +100,4 @@ I think the harnesses that win the GUI layer will be the ones that treat convers
 - https://juggler.studio/ - product claims, provider list, session model
 - https://raw.githubusercontent.com/juggler-ai/juggler/main/README.md - architecture, licensing map, build model
 - https://news.ycombinator.com/item?id=48883305 - the July 12, 2026 launch thread, 280 points (verified via Algolia API)
-- https://github.com/juggler-ai/juggler/releases - v0.7.9, published 2026-10-28 (verified via GitHub API)
+- https://github.com/juggler-ai/juggler/releases - v0.8.0, published 2026-11-08 (verified via GitHub API, 2026-11-14)

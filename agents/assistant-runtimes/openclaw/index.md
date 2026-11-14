@@ -1,7 +1,7 @@
 ---
 title: OpenClaw
 created: 2026-08-27
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, open-source, self-hosting]
 readability: 3
@@ -24,7 +24,7 @@ Security is pairing-based by default (unknown senders must be approved), and the
 ## Status
 
 The category's giant.
-391,906 stars and 82,418 forks as of 2026-10-14 since creation on 2025-11-24, pushed daily, 8,183 open issues as of 2026-11-11, npm-published.
+391,906 stars and 82,418 forks as of 2026-10-14 since creation on 2025-11-24, pushed daily, 8,188 open issues as of 2026-11-14, npm-published.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openclaw/openclaw&type=date&theme=dark&legend=top-left" />

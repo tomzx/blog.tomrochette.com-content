@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -23,7 +23,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 420 open issues and PRs with the last push on 2026-11-13 as of 2026-11-13.
+Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 425 open issues and PRs with the last push on 2026-11-14 as of 2026-11-14.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />

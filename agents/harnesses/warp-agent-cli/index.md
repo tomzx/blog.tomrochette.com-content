@@ -1,7 +1,7 @@
 ---
 title: Warp Agent CLI
 created: 2026-08-30
-updated: 2026-11-06
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, terminal, model-routing]
 readability: 3
@@ -25,7 +25,7 @@ Warp's Rust codebase is public under AGPL-3.0 at [warpdotdev/warp](https://githu
 
 ## Status
 
-Active and freshly launched: announced August 4, 2026, with docs last updated November 10, 2026.
+Active and freshly launched: announced August 4, 2026, with docs last updated November 11, 2026.
 The launch thread reached 111 points on Hacker News (item 49171766).
 Vendor traction is real: the terminal repository counts about 65.5k stars as of 2026-10-15, and Anthropic published a Warp engineering story on August 26, 2026.
 
@@ -62,7 +62,7 @@ Build starts at $20/month ($18 annual) and now denominates its included usage in
 Max starts at $200/month ($180 annual) with $200 of included agent usage, ten times Build, replacing the 18,000-credit display.
 Business is $45/user/month annual ($50 monthly) with $20 of included usage per seat, SAML SSO, and BYOK.
 Enterprise is custom, adding BYOLLM routing, self-hosted cloud agents, and cross-harness memory (research preview).
-All tiers as of 2026-11-06 (re-verified unchanged against the live pricing page); the dollar-denominated display replaced the credit-count display on the live pricing page.
+All tiers as of 2026-11-06 (re-verified unchanged against the live pricing page, most recently 2026-11-14); the dollar-denominated display replaced the credit-count display on the live pricing page.
 
 ## Price history
 
@@ -95,6 +95,7 @@ I think the CLI exists to follow developers who fled Warp's AI-heavy terminal fo
 - 2026-10-21 - Folded the WarpBench field report (September 2, 2026) into the Factories status line as ecosystem evidence: a 30-task replay benchmark on the Warp Agent harness cut Warp's internal factory cost per PR from about $80 to $30, an unreplicated vendor claim third-party coverage flags as still needing outside proof.
 - 2026-10-29 - Rotation re-verification, re-fetching every cited reference (all live) and re-checking the live pricing page unchanged against the 2026-10-20 reading.
 - 2026-11-06 - Rotation re-verification, re-fetching every cited reference (all live) and re-checking the live pricing page unchanged; the CLI docs' last-updated date moved to November 4, 2026.
+- 2026-11-14 - Rotation re-verification, re-fetching every cited reference (all live) and re-checking the live pricing page unchanged; the CLI docs' last-updated date moved to November 11, 2026.
 
 ## See also
 

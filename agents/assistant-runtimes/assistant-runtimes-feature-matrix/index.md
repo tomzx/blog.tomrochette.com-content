@@ -1,7 +1,7 @@
 ---
 title: "Assistant Runtimes Feature Matrix"
 created: 2026-08-27
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, assistant-runtimes, personal-assistants]
 readability: 3
@@ -32,7 +32,7 @@ Each column links to the full research note; every cell below traces to a source
 | Edge and mobile | ✓ Android app | ✗ server and desktop only | ✗ desktop only | ~ $5 VPS, serverless idle on Modal, Daytona | ✗ server and Cloud only | ~ server deploys (Render) | ✗ Docker host only | ✗ desktop clients, mobile in closed beta | ~ responsive web and PWA | companion apps | ✗ desktop only | ✗ macOS and Windows desktop only | ✓ Android APK, $10 RISC-V boards | ✗ server only | ~ beta Tauri desktop | ~ Raspberry Pi |
 | Credentials | your keys | your keys, providers set in the panel | your keys or cloud credits | per-provider keys or Nous Portal | your keys | your keys on host | ✓ OneCLI Agent Vault | your keys, per-expert providers | your keys | your keys on host | your keys BYO | your keys | your keys in workspace | your keys, local by default | your keys, or none offline | your keys in workspace |
 | Security record | clean so far | silent-drop adapter bug fixed 2026-06, thin English-language scrutiny | GAIA claim corrected, astroturf flag | edited plagiarism-claim issue, 53k open issues | clean so far, zero English-language scrutiny | clean so far, category-skepticism thread | clean so far | clean so far, zero English-language scrutiny | clean so far, license controversy | provider saga, 514-point vuln report, Trail of Bits audit completed (23 confirmed vulnerabilities, all fixed) | HN boundary questions unresolved | open beta, macOS builds signed and notarized while Windows builds are unsigned, thin independent footprint | pre-1.0 banner, scam-token notice, picoclaw.io cert renewed after its 2026-09-10 expiry | clean so far | telemetry auto-accept default | clean so far, thin coverage |
-| Status | active, v1.19.0 | active, v4.29.4, 1,186 open issues and PRs | active, v1.0.7 | active, v0.23.1 on the semver release line, 54k open issues | active, v4.11.7 | active, v0.4.1 | active, v2026.10.0 stable with the v2026.11.0 beta line open, 1.1k open issues | active, v1.0.3b5 in the v1.0.3 beta line, 756 open issues | active, v0.13.3 | active, v2026.11.3 stable, 8.2k open issues | active, v0.18.67 | active, v0.3.1, open beta | active on side branches, main quiet since 2026-08-19, 37 open issues, pre-1.0 | active, v1.0.1, pushed 2026-11-12 | active, v2.3.0, post-rewrite churn | active, v0.9.0, 1.2k open issues |
+| Status | active, v1.19.0 | active, v4.29.4, 1,217 open issues and PRs | active, v1.0.7 | active, v0.23.1 on the semver release line, 53k open issues | active, v4.11.7 | active, v0.4.1 | active, v2026.10.0 stable with the v2026.11.0 beta line at beta.2, 1.1k open issues | active, v1.0.3b5 in the v1.0.3 beta line, 699 open issues | active, v0.13.3 | active, v2026.11.3 stable, 8.2k open issues | active, v0.18.67 | active, v0.3.1, open beta | active on side branches, main quiet since 2026-08-19, 31 open issues, pre-1.0 | active, v1.0.1, pushed 2026-11-13 | active, v2.3.0, post-rewrite churn | active, v0.9.0, 1.2k open issues |
 
 ## Reading the matrix
 
@@ -44,9 +44,9 @@ QwenPaw is the only column with a real offline path through its own trained smal
 
 **The desktop split is the new category line: OpenWork, Eigent, and OpenWorker do not do chat channels at all, which is why their cells go tilde there, and choosing between them and the messaging runtimes is really choosing between an assistant that lives in your chats and one that lives on your desktop.**
 
-**The status row's issue counts are inversely proportional to age, not quality: the root carries 8.2k open issues at scale, and the pre-1.0 PicoClaw carries 37, so read the column against its birthday.**
+**The status row's issue counts are inversely proportional to age, not quality: the root carries 8.2k open issues at scale, and the pre-1.0 PicoClaw carries 31, so read the column against its birthday.**
 
-**Hermes is the column that breaks the -claw pattern: it competes on the learning loop rather than the trust ladder, and its about 253k stars against a 54k-issue backlog is the trade in one row pair.**
+**Hermes is the column that breaks the -claw pattern: it competes on the learning loop rather than the trust ladder, and its about 253k stars against a 53k-issue backlog is the trade in one row pair.**
 
 ## Choosing from the matrix
 
@@ -103,6 +103,7 @@ QwenPaw is the only column with a real offline path through its own trained smal
 - 2026-11-08 - Re-verification: moved cells (AstrBot to 1,176 open issues and PRs, OpenClaw to 7.8k open issues) and matching prose counts, with the stars row left at its 2026-10-14 counts except the LangBot column's 2026-10-30 baseline.
 - 2026-11-11 - Re-verification: moved cells (Hermes to v0.23.1 on the semver line with 54k open issues, LangBot to v4.11.5, NanoClaw to the v2026.11.0 beta line open with 1.1k open issues, Octop to the v1.0.3b5 beta with 756 open issues, Open WebUI to v0.13.3, OpenClaw to v2026.11.3 stable with 8.2k open issues, OpenWork to v0.18.66, QwenPaw's open prerelease line to beta.4, PrivateGPT pushed 2026-11-11, AstrBot to 1,186 open issues and PRs, PicoClaw to 37, ZeroClaw to 1.2k open issues) and matching prose counts, with the stars row left at its 2026-10-14 counts except the LangBot column's 2026-10-30 baseline.
 - 2026-11-13 - Re-verification: moved cells (LangBot status to v4.11.7 after the withdrawn v4.11.6, OpenWork to v0.18.67, QwenPaw to stable v2.3.0, ZeroClaw to v0.9.0 with its isolation cell gaining the v0.9.0 OIDC sign-in accounts, PrivateGPT pushed 2026-11-12) and matching prose counts, with the stars row left at its 2026-10-14 counts except the LangBot column's 2026-10-30 baseline.
+- 2026-11-14 - Re-verification: moved cells (AstrBot to 1,217 open issues and PRs, Hermes to 53k open issues, NanoClaw's beta line to beta.2, Octop to 699 open issues, PicoClaw to 31, PrivateGPT pushed 2026-11-13) and matching prose counts, with the stars row left at its 2026-10-14 counts except the LangBot column's 2026-10-30 baseline.
 
 ## See also
 

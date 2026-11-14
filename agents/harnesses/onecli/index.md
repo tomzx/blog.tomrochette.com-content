@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-11-06
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -58,7 +58,7 @@ Scale is $499/month for 10 users and 20 agents BYOC, or $1,999/month with hosted
 Extra seats are $49/user/month with your own key or $199 with hosted models.
 Enterprise custom, and platform self-hosting (your cloud, VPC, or on-prem) is quoted there.
 The Apache-2.0 core remains self-hostable from source without a commercial license per the README.
-All as of 2026-09-26, re-verified unchanged against the live pricing page on 2026-10-31.
+All as of 2026-09-26, re-verified unchanged against the live pricing page on 2026-10-31 and again on 2026-11-14.
 
 ## Price history
 
@@ -96,6 +96,7 @@ I think the prompt-based permission systems across every other harness in this s
 - 2026-11-01 - Recorded the v2.17.0 release (published October 31, hours after the rotation pass): PostgreSQL through the gateway, Zendesk and HeyReach integrations, and readable approval cards.
 - 2026-11-04 - Recorded the v2.18.0 release (published November 3): Bitbucket Cloud, schedule checks, agents sending files and posting into threads, and Codex logins.
 - 2026-11-06 - Recorded the v2.19.0 release (published November 5): context sizing, Approve similar, honest refusals, read-only home restarts, and faster wakes.
+- 2026-11-14 - Rotation re-verification, re-fetching every cited reference (all live) and all pricing tiers re-verified unchanged against the live page: appended the Changes bullet for the v2.20.0 release (November 9, Settings modal, DM threads, Slack reactions, smooth chat streaming, and browser dialogs) that the Status prose already carried.
 
 ## See also
 
@@ -108,7 +109,7 @@ I think the prompt-based permission systems across every other harness in this s
 ## References
 
 - https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-10-11
-- https://github.com/onecli/onecli/releases - release cadence through v2.17.0 on October 31, 2026
+- https://github.com/onecli/onecli/releases - release cadence through v2.20.0 on November 9, 2026 (verified via the GitHub API, 2026-11-14)
 - https://onecli.sh - product positioning, gateway model, and free tier as of 2026-09-22
 - https://onecli.sh/pricing - tiers, BYOC versus hosted-model pricing, and seat limits as of 2026-09-26 (re-verified unchanged, most recently 2026-10-31)
 - https://onecli.sh/docs - architecture: sandbox, gateway, policy, self-hosting

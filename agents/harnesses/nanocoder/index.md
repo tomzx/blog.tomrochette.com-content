@@ -1,7 +1,7 @@
 ---
 title: Nanocoder
 created: 2026-10-08
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, local-first, community-governance]
 readability: 3
@@ -25,7 +25,7 @@ It is made by the Nano Collective, a self-described home for privacy-first, loca
 ## Status
 
 **Active and healthy for its size, with a footprint that is easy to miss.**
-The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and was pushed on 2026-11-11 (GitHub API, as of 2026-11-11).
+The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and was pushed on 2026-11-14 (GitHub API, as of 2026-11-14).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nano-Collective/nanocoder&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and w
 </picture>
 
 Releases run monthly on the v1.x line: v1.29.0 (July 26, 2026), v1.30.0 (August 26), v1.31.0 (September 26, which added Anthropic prompt caching, auto titles, retry caps, and `.nanocoderignore`), and v1.32.0 (November 4, which taught the ACP agent to honor the `mcpServers` an editor sends on session new, load, and resume with session-scoped stdio and HTTP servers that never touch your own MCP configuration, moved ACP extension requests onto the `_` prefix ACP reserves for custom methods, and reported `mcpCapabilities` from `initialize`).
-The npm package did 7,503 downloads in npm's trailing-month window (October 6 to November 4) as of 2026-11-06 (read through a dated-range query).
+The npm package did 10,391 downloads in npm's trailing-month window (October 15 to November 14) as of 2026-11-14 (read through a dated-range query).
 The Hacker News footprint is near zero: a 1-point Show HN in August 2025 and a 1-point thread for the VS Code sidebar in July 2026, so its growth is word-of-mouth and search, not launch-thread gravity.
 
 ## Strengths
@@ -75,6 +75,7 @@ My disagreeable claim: governance is currently Nanocoder's only hard moat, and a
 - 2026-10-25 - Rotation re-verification, every cited reference live; refreshed the push date to 2026-10-25 and the monthly npm downloads to 9,411 (window September 23 to October 22), with v1.31.0 still the newest release.
 - 2026-11-01 - Rotation re-verification, every cited reference live; refreshed the push date to 2026-11-01 and the monthly npm downloads to 6,649 (window October 3 to November 1), with v1.31.0 still the newest release.
 - 2026-11-06 - Recorded the v1.32.0 release (November 4): session-scoped `mcpServers` handling in the ACP agent, `_`-prefixed custom ACP methods, and `mcpCapabilities` reporting; refreshed the push date to 2026-11-06 and the trailing-month npm figure to 7,503 (window October 6 to November 4), and aligned the Cautions line to it.
+- 2026-11-14 - Rotation re-verification, re-fetching every cited reference: repointed the dead scheduler.md reference to docs/features/skills.md, where the cron and `file.changed` daemon subscriptions now live, refreshed the push date to 2026-11-14 and the trailing-month npm figure to 10,391 (window October 15 to November 14), with v1.32.0 still the newest release.
 
 ## See also
 
@@ -88,13 +89,13 @@ My disagreeable claim: governance is currently Nanocoder's only hard moat, and a
 - https://github.com/Nano-Collective/nanocoder - repository scale (2,508 stars, 355 forks), created 2025-07-30, pushed 2026-10-12, no LICENSE file detected (verified via the GitHub API, as of 2026-10-12)
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/README.md - positioning, install paths, CLI flags, screen modes, and the review command
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/index.md - AGENTS.md via /init, the skills model, lifecycle hooks, and MCP servers
-- https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/scheduler.md - the standalone scheduler's removal in favor of cron and file.changed skill subscriptions through the per-project daemon
+- https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/skills.md - the skills bundle format carrying cron (`schedule.cron`) and `file.changed` event subscriptions through the per-project daemon (repointed 2026-11-14 from the removed docs/features/scheduler.md)
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/acp.md - the ACP server mode for editor hosting
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/vscode-extension.md - the native VS Code sidebar extension over ACP
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/configuration/providers/ollama.md - the local-engine provider documentation pattern (seven local engines listed in the providers index)
-- https://registry.npmjs.org/@nanocollective%2Fnanocoder - latest build 1.31.0 published 2026-09-26 and the MIT license declaration (verified via the registry API)
-- https://api.npmjs.org/downloads/point/2026-10-03:2026-11-01/@nanocollective/nanocoder - 6,649 downloads, window October 3 to November 1, as of 2026-11-01
-- https://github.com/Nano-Collective/nanocoder/releases - v1.29.0, v1.30.0, and v1.31.0 with publication dates (verified via the GitHub API)
+- https://registry.npmjs.org/@nanocollective%2Fnanocoder - latest build 1.32.0 published 2026-11-04 and the MIT license declaration (verified via the registry API, 2026-11-14)
+- https://api.npmjs.org/downloads/point/2026-10-15:2026-11-14/@nanocollective/nanocoder - 10,391 downloads, window October 15 to November 14, as of 2026-11-14
+- https://github.com/Nano-Collective/nanocoder/releases - v1.29.0 through v1.32.0 with publication dates (verified via the GitHub API, 2026-11-14)
 - https://nanocollective.org - the collective's principles, sponsor list, project family, and contributor counts
 - https://hn.algolia.com/api/v1/search?query=nanocoder&tags=story - the near-zero HN footprint (1-point threads of 2025-08-08 and 2026-07-31), cited as the adoption signal
 - https://docs.nanocollective.org/nanocoder/docs - the docs hub (client-rendered shell on direct fetch; content taken from the repository docs)

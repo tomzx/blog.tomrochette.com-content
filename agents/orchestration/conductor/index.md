@@ -1,7 +1,7 @@
 ---
 title: Conductor
 created: 2026-08-24
-updated: 2026-11-06
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, macos]
 readability: 3
@@ -25,7 +25,8 @@ Conductor Cloud (July 2026) runs agents in Vercel sandboxes (8-core, 16GB, us-ea
 ## Status
 
 **Acquired and winding down: on 2026-11-04 Conductor announced it is joining Meta.**
-The announcement closed new sign-ups and app downloads the same day, takes Conductor Cloud read-only on 2026-11-13 and shuts it down with data deletion on 2026-11-20 (active subscribers refunded), and commits to new models and critical fixes for the local app only until early 2027, when it too winds down (changelog 0.93.0 and the announcement page, as of 2026-11-06).
+The announcement closed new sign-ups and app downloads the same day, takes Conductor Cloud read-only on 2026-11-13 and shuts it down with data deletion on 2026-11-20 (active subscribers refunded), and commits to new models and critical fixes for the local app only until early 2027, when it too winds down (changelog 0.93.0 and the announcement page, as of 2026-11-06, re-fetched 2026-11-14).
+The cloud entered its read-only window on schedule on 2026-11-13, and the shutdown with data deletion follows on 2026-11-20.
 0.93.0 is the final release, and it is the wind-down notice itself.
 The history that got it here: a $22M Series A from Spark and Matrix closed on 2026-03-30, with YC and founders of Notion and Linear participating, and the company claimed 10x user growth since January 2026.
 Release cadence is extreme: 0.90.0 (October 2) ships Conductor for iOS, chat with agents and merge PRs from your phone against cloud workspaces, plus a new video player with frame-by-frame stepping and find-in-chat that now searches agents' thinking, leading 0.89.5 (a GPT-6.1 Sol fix for ChatGPT accounts, faster opens for long chats, and the bundled Codex updated to 0.159.3) at the front of the September 29 wave, following 0.89.3 (fixes for chats stuck in progress and model settings locked on older macOS), 0.89.2 (a GitHub Enterprise Server PR-info fix), 0.89.1 (GPT-6.1 Sol), and 0.89.0 (Sign in with ChatGPT) the same day, and 0.87.6 (Claude Sonnet 5.5) on September 28, 0.87.5 (model search) on September 25, 0.87.3 (GPT-6 Sol and Luna models) on September 22, and 0.87.0, which added search across files and OpenCode 2.0 support, on September 18, with dozens of releases since January 2026.
@@ -88,6 +89,7 @@ My disagreeable claim stands, with a postscript: Conductor Cloud, not the local 
 - 2026-10-18 - The gap closed at thirteen days: 0.91.0 shipped October 15, so the quiet spell was the schedule's longest gap, not a stop.
 - 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live; recorded 0.92.0 (October 23, iOS remote control of the Mac's local workspaces), closing the quiet-spell watch.
 - 2026-11-06 - Re-verified in rotation and out of it: on 2026-11-04 Conductor announced it is joining Meta, so the Status moved from active to acquired-and-winding-down (new sign-ups closed, cloud read-only 2026-11-13 and shut down 2026-11-20, local maintained until early 2027, 0.93.0 the final release); Pricing records the plan closures with a Price history row, a wind-down caution added, Bottom line rewritten for the closure, the pricing page URL annotated as no longer listing tiers, and the announcement page added to References.
+- 2026-11-14 - Re-verified in rotation: every cited URL re-fetched and live; the wind-down schedule stands, and the cloud's read-only window arrived on 2026-11-13 ahead of the 2026-11-20 shutdown.
 
 ## See also
 
