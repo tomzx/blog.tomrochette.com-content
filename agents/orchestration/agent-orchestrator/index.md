@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you run at least one CLI coding agent and know what a git worktree is.
 ---
 
-**Agent Orchestrator (AO) is the category's quiet volume leader: a free, Apache-2.0 desktop kanban workspace that supervises 26-plus coding CLIs from one daemon, and it reached 12.8k stars on a 15-point launch thread.**
+**Agent Orchestrator (AO) is the category's quiet volume leader: a free, Apache-2.0 desktop kanban workspace that supervises 35-plus coding CLIs from one daemon, and it reached 12.8k stars on a 15-point launch thread.**
 
 ## What it is
 
@@ -39,7 +39,7 @@ The community footprint is thin for the star count: the Show HN launch drew only
 
 - Free and open source (Apache-2.0) across all three desktop OSes, with the daemon watching agent and git state so the kanban stays live.
 - Per-worker branch and worktree isolation with PR, CI, and review state carried on the session and fed back to the same agent.
-- Broad harness coverage (26+ CLIs) without waiting on the orchestrator to reimplement harness features.
+- Broad harness coverage (35+ CLIs) without waiting on the orchestrator to reimplement harness features.
 
 ## Cautions
 
@@ -76,6 +76,7 @@ Not for anyone who needs a stable identity to standardize on (four renames and c
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v0.14.8 still the latest stable release.
 - 2026-11-06 - Volatile refresh: Recorded v0.14.9 (2026-11-04) as the new latest stable release.
 - 2026-11-07 - Recorded the Orchestrator.inc product name, the branding the awesome-agent-orchestrators listing and the docs site publish under.
+- 2026-11-14 - Coordinator correction from the section-root pass: the supervised-CLI count reads 35-plus on the repository's own description (fetched 2026-11-14, was 26-plus on the note), thesis and harness-coverage bullet updated.
 
 ## See also
 

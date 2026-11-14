@@ -1,7 +1,7 @@
 ---
 title: Cordum
 created: 2026-10-07
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, safety-kernel, approvals, claude-code]
 readability: 3
@@ -24,7 +24,7 @@ Enterprise features (SSO, SCIM, advanced RBAC, SIEM export, legal hold) ship in 
 
 ## Status
 
-Active and young: 509 stars and 34 forks as of 2026-10-10, with 28 open issues and the latest default-branch push on 2026-11-12 as of 2026-11-13 (the 2026-11-13 repo-level push a side branch), created 2026-01-11, latest tagged release v1.3.1 (2026-11-11), with the CAP SDKs versioned separately at 2.17.0 (2026-07-22).
+Active and young: 509 stars and 34 forks as of 2026-10-10, with 16 open issues and the latest default-branch push on 2026-11-13 as of 2026-11-14 (the 2026-11-14 repo-level push a side branch), created 2026-01-11, latest tagged release v1.3.1 (2026-11-11), with the CAP SDKs versioned separately at 2.17.0 (2026-07-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cordum-io/cordum&type=date&theme=dark&legend=top-left" />

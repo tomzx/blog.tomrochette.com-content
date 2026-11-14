@@ -1,7 +1,7 @@
 ---
 title: OpenAPPA
 created: 2026-10-07
-updated: 2026-11-11
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, information-flow-control, policy-enforcement, prompt-injection, rust]
 readability: 3
@@ -24,7 +24,7 @@ Recorders shipped in v0.39.0 (2026-11-08, PR 790): a file-tracker keeps a label 
 
 ## Status
 
-Active and fast-growing for its age: 1,561 stars and 66 forks as of 2026-10-14 since creation on 2026-08-18, pushed 2026-11-11 with 39 open issues and pull requests as of 2026-11-11, latest release v0.42.0 (2026-11-10), positioned as a preview and an RFC where config and wire surfaces may break without shims.
+Active and fast-growing for its age: 1,561 stars and 66 forks as of 2026-10-14 since creation on 2026-08-18, pushed 2026-11-14 with 36 open issues and pull requests as of 2026-11-14, latest release v0.42.0 (2026-11-10), positioned as a preview and an RFC where config and wire surfaces may break without shims.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=archestra-ai/OpenAPPA&type=date&theme=dark&legend=top-left" />

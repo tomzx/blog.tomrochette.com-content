@@ -1,7 +1,7 @@
 ---
 title: Magnitude
 created: 2026-10-06
-updated: 2026-11-12
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, inference-engine]
 readability: 3
@@ -23,7 +23,7 @@ One-click connectors target Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, 
 
 ## Status
 
-Active and young: 6,886 stars, 464 forks (as of 2026-10-24), repo pushed 2026-11-12 (as of 2026-11-12).
+Active and young: 6,886 stars, 464 forks (as of 2026-10-24), repo pushed 2026-11-13 (as of 2026-11-14).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=magnitudedev/magnitude&type=date&theme=dark&legend=top-left" />
@@ -89,7 +89,7 @@ My disagreeable claim: on current evidence the 2x marketing is narrower than the
 
 ## References
 
-- https://api.github.com/repos/magnitudedev/magnitude - 6,474 stars, 442 forks, Rust, Apache-2.0, pushed 2026-10-07, homepage (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 6,717 stars, 464 forks, pushed 2026-10-13; re-fetched 2026-10-17, pushed 2026-10-17; re-fetched 2026-10-19, pushed 2026-10-19; re-fetched 2026-10-21, pushed 2026-10-21; re-fetched 2026-10-23, pushed 2026-10-23; re-fetched 2026-10-24, pushed 2026-10-24; re-fetched 2026-10-25, pushed 2026-10-25; re-fetched 2026-10-26, pushed 2026-10-26; re-fetched 2026-10-28, pushed 2026-10-28; re-fetched 2026-10-29, pushed 2026-10-29; re-fetched 2026-10-31, pushed 2026-10-30; re-fetched 2026-11-04, pushed 2026-11-04; re-fetched 2026-11-07, pushed 2026-11-07; re-fetched 2026-11-08, pushed 2026-11-08; re-fetched 2026-11-12, pushed 2026-11-12).
+- https://api.github.com/repos/magnitudedev/magnitude - 6,474 stars, 442 forks, Rust, Apache-2.0, pushed 2026-10-07, homepage (fetched via the GitHub API, 2026-10-07; re-fetched 2026-10-14 at 6,717 stars, 464 forks, pushed 2026-10-13; re-fetched 2026-10-17, pushed 2026-10-17; re-fetched 2026-10-19, pushed 2026-10-19; re-fetched 2026-10-21, pushed 2026-10-21; re-fetched 2026-10-23, pushed 2026-10-23; re-fetched 2026-10-24, pushed 2026-10-24; re-fetched 2026-10-25, pushed 2026-10-25; re-fetched 2026-10-26, pushed 2026-10-26; re-fetched 2026-10-28, pushed 2026-10-28; re-fetched 2026-10-29, pushed 2026-10-29; re-fetched 2026-10-31, pushed 2026-10-30; re-fetched 2026-11-04, pushed 2026-11-04; re-fetched 2026-11-07, pushed 2026-11-07; re-fetched 2026-11-08, pushed 2026-11-08; re-fetched 2026-11-12, pushed 2026-11-12; re-fetched 2026-11-14, pushed 2026-11-13).
 - https://api.github.com/repos/magnitudedev/magnitude/releases - the `@magnitudedev/cli` train (0.2.9 on 2026-10-15) and the desktop-update-acceptance pre-releases (fetched 200, 2026-10-17; re-fetched 2026-10-19, nothing new past the 2026-10-15 entries; re-fetched 2026-10-21 reading @magnitudedev/cli@0.2.10 of 2026-10-20, a memory-planning patch for unified-memory GPUs; re-fetched 2026-10-23 and again 2026-10-24, nothing new past 0.2.10; re-fetched 2026-10-25 and again 2026-10-26, still nothing new past 0.2.10; re-fetched 2026-10-28 reading @magnitudedev/cli@0.2.11 of 2026-10-26 (custom-GGUF runs), 0.2.12 of 2026-10-27, and 0.2.13 of 2026-10-28; re-fetched 2026-10-29 reading @magnitudedev/cli@0.2.14 of 2026-10-29, the catalog-sort release; re-fetched 2026-10-31 reading @magnitudedev/cli@0.2.15 of 2026-10-30, the Anthropic header-tolerance patch; re-fetched 2026-11-04 reading @magnitudedev/cli@0.2.16 of 2026-11-03, the shared-prefix concurrency fix; re-fetched 2026-11-07, still nothing past 0.2.16; re-fetched 2026-11-08, still nothing past 0.2.16; re-fetched 2026-11-12 reading @magnitudedev/cli@0.2.17 of 2026-11-08, the ARM CPU-kernel release).
 - https://api.github.com/repos/magnitudedev/magnitude/releases/tags/%40magnitudedev%2Fcli%400.2.16 - the 0.2.16 release notes: the concurrent-chats fix and the shared-prefix reuse numbers (fetched 200, 2026-11-04)
 - https://magnitude.dev/ - positioning, benchmark table (Metal 92% faster decode, CUDA 19%), memory and connector claims, FAQ (200, fetched 2026-10-06).

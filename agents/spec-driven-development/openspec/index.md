@@ -1,7 +1,7 @@
 ---
 title: OpenSpec
 created: 2026-08-27
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, specs, open-source]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 OpenSpec is Fission AI's MIT-licensed spec-driven development toolkit for AI coding assistants: a lightweight CLI and slash-command workflow where every change is a delta proposal (proposal, specs, design, tasks) that implements, then archives into a living spec ledger under `openspec/`.
 
-**OpenSpec is the brownfield answer the spec movement was missing: instead of scaffolding a ceremony, it versions the spec itself as change proposals that accumulate, and about 71k stars plus about 4.4 million npm downloads a month say the delta model is what iterative teams actually wanted.**
+**OpenSpec is the brownfield answer the spec movement was missing: instead of scaffolding a ceremony, it versions the spec itself as change proposals that accumulate, and about 71k stars plus about 4.5 million npm downloads a month say the delta model is what iterative teams actually wanted.**
 
 ## What it is
 
@@ -30,7 +30,7 @@ Half of spec-kit's stars in a third of the time.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&legend=top-left" />
 </picture>
 
-As of 2026-10-14: about 71k stars (71,842) and about 4.9k forks since creation on 2025-08-05, MIT; as of 2026-11-13, 205 open issues and pull requests, pushed 2026-11-11 (the default branch; the repository-level pushed date has since moved on side-branch work), release v2.0.0 (2026-11-11) is the newest and its break is distributional, not conceptual (the workflows themselves unchanged): skills install once into a shared `.agents/skills/` folder with links for tools that need them, the `/opsx:*` command files are removed (`/opsx:propose` became `/openspec-propose`), `openspec update` migrates a project and removes the old generated files while keeping the ones you edited, and Amazon Q Developer support is dropped because it cannot load skills, on top of v1.16.1's stricter and more forgiving validation (headings with a closing `#` run read the same as their unclosed forms, and validate fails and archive refuses when a delta spec puts a requirement under an unrecognized section instead of silently dropping it) and v1.15.0's standalone release binaries for macOS, Linux, and Windows, with 4,447,327 npm downloads last month (the 2026-10-13 to 2026-11-11 window, re-read 2026-11-13).
+As of 2026-10-14: about 71k stars (71,842) and about 4.9k forks since creation on 2025-08-05, MIT; as of 2026-11-14, 206 open issues and pull requests, pushed 2026-11-14 (the default branch last committing 2026-11-13), release v2.0.0 (2026-11-11) is the newest and its break is distributional, not conceptual (the workflows themselves unchanged): skills install once into a shared `.agents/skills/` folder with links for tools that need them, the `/opsx:*` command files are removed (`/opsx:propose` became `/openspec-propose`), `openspec update` migrates a project and removes the old generated files while keeping the ones you edited, and Amazon Q Developer support is dropped because it cannot load skills, on top of v1.16.1's stricter and more forgiving validation (headings with a closing `#` run read the same as their unclosed forms, and validate fails and archive refuses when a delta spec puts a requirement under an unrecognized section instead of silently dropping it) and v1.15.0's standalone release binaries for macOS, Linux, and Windows, with 4,522,085 npm downloads last month (the 2026-10-14 to 2026-11-12 window, re-read 2026-11-14).
 **Its Hacker News footprint is effectively empty (no significant thread found this run), so adoption spread through X and Discord, and third-party verification is thinner than the install count implies.**
 The README's own superlative ("the most loved spec framework") is vendor framing, not a measured claim.
 
@@ -93,7 +93,7 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 - https://github.com/Fission-AI/OpenSpec - README: philosophy, opsx workflow, artifact layout
 - https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues, releases through v1.14.1, as of 2026-10-14
 - https://openspec.dev/ - official documentation site
-- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 4,447,327 downloads last month (2026-10-13 to 2026-11-11 window), fetched 2026-11-13
+- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 4,522,085 downloads last month (2026-10-14 to 2026-11-12 window), fetched 2026-11-14
 - https://api.github.com/repos/Fission-AI/OpenSpec/releases/latest - v2.0.0 (2026-11-11), the release that removed the command files, fetched 2026-11-12
 - https://openspec.dev/docs/upgrade-to-2 - the 2.0 upgrade guide: the command-to-skill mapping, what `openspec update` removes and keeps, and the 1.x pin
 - https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md - the rebuilt artifact workflow

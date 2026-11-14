@@ -1,7 +1,7 @@
 ---
 title: Spec Kitty
 created: 2026-10-06
-updated: 2026-11-12
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, governance, worktrees, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Slash commands or skills integrate Claude Code, Codex, Cursor, Gemini, Copilot, 
 ## Status
 
 Active, company-backed, and mid-adoption.
-As of 2026-10-14: 1,681 stars and 180 forks since creation on 2025-10-09, MIT, stable PyPI release 3.2.7 (2026-09-09) and 3,251 PyPI downloads last month (re-read byte-identical on 2026-11-12, tenth identical read); as of 2026-11-12, pushed 2026-11-12 with the 4.x release-candidate line at v4.0.0rc8 (2026-11-09), whose `upgrade` moves charter activation keys from `charter.yaml` and `config.yaml` into `.kittify/charter/activation.yaml` and renames the command skills from `spec-kitty.<command>` to `spec-kitty-<command>` so every Agent Skills harness loads them, following rc7 (2026-10-15), the breaking cut that renamed `doctrine` to `charter` across config, directories, and commands with no alias, whose README says stable launch acceptance remains pending and whose prerelease block still pins the older rc2 as the test install.
+As of 2026-10-14: 1,681 stars and 180 forks since creation on 2025-10-09, MIT, stable PyPI release 3.2.7 (2026-09-09) and 2,758 PyPI downloads last month (the 2026-11-14 re-read, the rolling window moving after ten byte-identical 3,251 reads with no release in between); as of 2026-11-14, pushed 2026-11-14 with the 4.x release-candidate line at v4.0.0rc8 (2026-11-09) still the newest, whose `upgrade` moves charter activation keys from `charter.yaml` and `config.yaml` into `.kittify/charter/activation.yaml` and renames the command skills from `spec-kitty.<command>` to `spec-kitty-<command>` so every Agent Skills harness loads them, following rc7 (2026-10-15), the breaking cut that renamed `doctrine` to `charter` across config, directories, and commands with no alias, whose README says stable launch acceptance remains pending and whose prerelease block still pins the older rc2 as the test install.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ Creator Robert Douglass presented the workflow at FrOSCon 2026 on 2026-08-16.
 
 - The company gravity is structural: the CLI is free, but the hosted Team Kitty layer, the Brain Kitty graphs around it, and the rollout packages are the paid surface, the same pattern Tessl runs at larger scale.
 - The 4.x line is a prerelease and PyPI shows yanked 4.1.5 and 4.2.0a1 uploads (both April 2026), so pin 3.2.7 until the stable launch lands.
-- Adoption sits an order of magnitude under the category leaders, 3.3k PyPI downloads a month against OpenSpec's about 3.9M npm downloads.
+- Adoption sits an order of magnitude under the category leaders, 2.8k PyPI downloads a month against OpenSpec's about 4.5M npm downloads.
 - Independent coverage is one third-party review (Hysenlabs, 2026-09-10) and that 5-point thread, so the claims rest on the project's own documentation and blog.
 - The positioning wanders across its own surfaces (governed software factory, delivery control plane, doctrine-driven delivery, and now decision layer for autonomous software delivery), and the vocabulary churn this category keeps producing is already visible.
 
@@ -94,7 +94,7 @@ The disagreeable claim I will defend: two members reaching delta specs from oppo
 - https://docs.spec-kitty.ai/ - the documentation site
 - https://pypi.org/pypi/spec-kitty-cli/json - stable 3.2.7, MIT, Python 3.11+, release history
 - https://pypi.org/pypi/spec-kitty-cli/4.1.5/json - the yanked 2026-04-15 upload grounding the 4.x caution
-- https://pypistats.org/api/packages/spec-kitty-cli/recent - 3,251 downloads last month as of 2026-10-11, re-read byte-identical on 2026-11-12
+- https://pypistats.org/api/packages/spec-kitty-cli/recent - 2,758 downloads last month as of 2026-11-14 (the rolling window moving after ten byte-identical 3,251 reads)
 - https://www.spec-kitty.ai/blog/spec-kit-alternatives-why-i-built-spec-kitty-instead-of-stopping-at-githubs-toolkit - the founder's Spec Kit comparison, the primary fork-rationale source
 - https://hysenlabs.com/en/projects/spec-kitty-spec-kitty - the third-party review (2026-09-10), the critical source, re-fetched directly on 2026-11-08 (the earlier client-side-render limitation no longer holds)
 - https://hn.algolia.com/api/v1/items/46515942 - the 5-point January 2026 thread, the thin-footprint evidence

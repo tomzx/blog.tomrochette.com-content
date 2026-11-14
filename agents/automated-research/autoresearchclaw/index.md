@@ -1,7 +1,7 @@
 ---
 title: AutoResearchClaw
 created: 2026-10-10
-updated: 2026-10-26
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, agentic-llm, open-source, paper-generation]
 readability: 3
@@ -69,6 +69,7 @@ Not for anyone who needs an actively maintained tool (eight weeks without a comm
 - 2026-10-10 - Created.
 - 2026-10-25 - Rotation re-verification: corrected the paper's author list to the arXiv v2 count of 36, led by Jiaqi Liu and Shi Qiu (the note had named only the first eight), confirmed dormancy (push still 2026-08-19, release still v0.5.0), and re-fetched every cited URL, all live.
 - 2026-10-26 - Corrected the star-history chart markup (the dark-theme source was missing the theme=dark parameter; it now renders dark for dark readers).
+- 2026-11-14 - Rotation re-verification: all seven references re-fetched and live, dormancy confirmed (last push still 2026-08-19, v0.5.0 still the latest release).
 
 ## See also
 

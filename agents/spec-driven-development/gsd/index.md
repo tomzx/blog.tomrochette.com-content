@@ -1,7 +1,7 @@
 ---
 title: GSD
 created: 2026-09-16
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, workflow, open-source]
 readability: 3
@@ -32,7 +32,7 @@ The original gsd-build/get-shit-done is archived at 64,303 stars and 5,431 forks
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&legend=top-left" />
 </picture>
 
-The successor, created 2026-05-22, is actively developed: 10,491 stars and 748 forks as of 2026-10-14, pushed 2026-11-13, release v1.21.0 (2026-11-13) the newest (the Community Capability Registry listing three independently maintained capabilities, Beads Lifecycle syncing plan tasks into Beads issues with a ship gate, musk pricing a subtraction pass from the project's own token usage, and Standing Orders holding project-wide business rules in one ORDERS.yaml, `verify plan-structure --replay` checking that recorded baselines were measured, `/gsd-autonomous` deciding reversible technical choices itself and asking preference questions without a recommendation, and `gsd-tools commit` refusing to write outside the checkout it runs in, on top of v1.20.1's fork-probe cache kept inside the project and out of git and installs into nested worktrees, v1.19.0's Pi-native package with agent-role dispatch and hook and lifecycle parity, and its `git.repo_tagging` mode that routes milestone completion through per-repository release tags), with 68,611 npm downloads last month for @opengsd/gsd-core and 72,761 for the legacy get-shit-done-cc package (the 2026-10-13 to 2026-11-11 window, re-read 2026-11-13).
+The successor, created 2026-05-22, is actively developed: 10,491 stars and 748 forks as of 2026-10-14, pushed 2026-11-14, release v1.21.0 (2026-11-13) the newest (the Community Capability Registry listing three independently maintained capabilities, Beads Lifecycle syncing plan tasks into Beads issues with a ship gate, musk pricing a subtraction pass from the project's own token usage, and Standing Orders holding project-wide business rules in one ORDERS.yaml, `verify plan-structure --replay` checking that recorded baselines were measured, `/gsd-autonomous` deciding reversible technical choices itself and asking preference questions without a recommendation, and `gsd-tools commit` refusing to write outside the checkout it runs in, on top of v1.20.1's fork-probe cache kept inside the project and out of git and installs into nested worktrees, v1.19.0's Pi-native package with agent-role dispatch and hook and lifecycle parity, and its `git.repo_tagging` mode that routes milestone completion through per-repository release tags), with 69,879 npm downloads last month for @opengsd/gsd-core and 73,772 for the legacy get-shit-done-cc package (the 2026-10-14 to 2026-11-12 window, re-read 2026-11-14).
 **The transition was not clean: Blake Watson's widely-linked build story added a 2026-07-31 update telling readers not to install the original, reporting that people say a crypto scam took place around the creator, and naming OpenGSD the consensus successor.**
 Open GSD's own origin page confirms the chapter without specifics, stating trust was damaged, people were hurt, public channels disappeared, and crediting Christopherson with the original idea.
 
@@ -102,5 +102,5 @@ The disagreeable claim I will defend: 64,303 stars is the strongest evidence the
 - https://docs.opengsd.net/ - the documentation: three tools, 65-plus commands
 - https://blakewatson.com/journal/i-used-claude-code-and-gsd-to-build-the-accessibility-tool-ive-always-wanted/ - the firsthand account and its 2026-07-31 do-not-install update, the critical source
 - https://news.ycombinator.com/item?id=47086847 - the largest GSD thread, 24 points, February 2026
-- https://api.npmjs.org/downloads/point/last-month/@opengsd/gsd-core - 68,611 downloads last month (2026-10-13 to 2026-11-11 window), fetched 2026-11-13
-- https://api.npmjs.org/downloads/point/last-month/get-shit-done-cc - the legacy package's install velocity, 72,761 last month as of 2026-11-13
+- https://api.npmjs.org/downloads/point/last-month/@opengsd/gsd-core - 69,879 downloads last month (2026-10-14 to 2026-11-12 window), fetched 2026-11-14
+- https://api.npmjs.org/downloads/point/last-month/get-shit-done-cc - the legacy package's install velocity, 73,772 last month as of 2026-11-14

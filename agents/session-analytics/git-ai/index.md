@@ -1,7 +1,7 @@
 ---
 title: git-ai
 created: 2026-10-11
-updated: 2026-11-05
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, provenance, git, open-source]
 readability: 3
@@ -26,7 +26,7 @@ A vendor product, the Git AI Platform from Next Element, Inc., adds team rollout
 ## Status
 
 Acquired and active: the founders announced Git AI joining OpenAI's Codex team on 2026-09-11, with continued investment in the open-source CLI and the standard.
-2,829 stars, 327 forks, 258 open issues, created 2025-07-02, pushed 2026-11-05 on the default branch, newest tag and GitHub release v1.7.6 (published 2026-11-05, a latest-channel build carrying beta Windows MSI and macOS PKG installers, after a v1.7.6-next prerelease on 2026-11-04 and v1.7.5 on 2026-09-09), with the curl install script still the README's distribution path, as of 2026-11-05.
+2,829 stars, 330 forks, 265 open issues, created 2025-07-02, pushed 2026-11-05 on the default branch (the repository-level 2026-11-13 push landed on side branches), newest tag and GitHub release v1.7.6 (published 2026-11-05, a latest-channel build carrying beta Windows MSI and macOS PKG installers, after a v1.7.6-next prerelease on 2026-11-04 and v1.7.5 on 2026-09-09), with the curl install script still the README's distribution path, as of 2026-11-14.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=git-ai-project/git-ai&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ Not for live observation, cost dashboards, or transcript search, and not for age
 - 2026-10-28 - Rotation re-verification: every cited URL re-fetched and live, and the Status corrected: the repository does carry GitHub releases (v1.7.5 published 2026-09-09, so the no-releases claim recorded since creation was wrong), with the curl install script still the README's distribution path and both the agents and cli docs paths for the background-agent guides resolving; no default-branch commit since 2026-10-20, and repository counts refreshed (forks 320 to 326, open issues 246 to 251).
 - 2026-11-01 - Volatile re-verification: no release after v1.7.5 and no default-branch commit since 2026-10-20, the 2026-10-31 push landing on side branches; forks refreshed 326 to 328 and open issues 251 to 256.
 - 2026-11-05 - Recorded v1.7.6 (2026-11-05, the first tagged release since v1.7.5, a latest-channel build with beta Windows MSI and macOS PKG installers) and the default branch's return to activity (a version-bump commit at 1.7.7 the same morning); forks refreshed 328 to 327 and open issues 256 to 258.
+- 2026-11-14 - Volatile re-verification: no release after v1.7.6 and no default-branch commit since 2026-11-05, the repository-level 2026-11-13 push landing on side branches; forks refreshed 327 to 330 and open issues 258 to 265.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Paperclip
 created: 2026-08-27
-updated: 2026-11-11
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, control-planes, agent-operations, multi-agent, open-source, governance]
 readability: 3
@@ -19,12 +19,13 @@ Paperclip (paperclipai/paperclip) is an MIT-licensed, self-hostable control plan
 Install with a checksummed script from [paperclip.ing](https://paperclip.ing) or `npx paperclipai onboard`; one Node.js process runs the API, a React UI (with a phone-served variant), and an embedded PostgreSQL, no account required.
 **The unit of work is the ticket agents check out from, with actual conflict semantics (a checkout owned by another agent returns 409), and the unit of life is the heartbeat: agents wake on schedules and events (assignment, comments, @-mentions), act, and exit, rather than running continuously.**
 The README's four pillars are the task manager, an org chart for mixed human and agent roles, employee training (Skill Studio, evals, agent performance reviews), and an agentic OS layer with sandboxed cloud execution (e2b, Cloudflare, Daytona, Modal, Novita, self-hosted Kubernetes) plus SSO, RBAC, and cost controls.
+The v2026.1023.0 and v2026.1106.0 releases (October 23 and November 6) moved new Claude, Codex, OpenCode, and Pi agents onto the native Paperclip Runner by default on qualified hosts, added GitHub Copilot as a native harness, import repositories attached to a project as version-pinned skill sources re-checked every five minutes, and brought bring-your-own model gateways beside a model-backed prompt injection check.
 Any agent that can receive a heartbeat is hirable, OpenClaw, Claude Code, Codex, Cursor, plain HTTP, and one deployment can run multiple companies with data isolation.
 
 ## Status
 
 Active at extreme velocity.
-101,570 stars and 17,038 forks as of 2026-10-18 since creation on 2026-03-02, with 6,712 open issues and the latest push on 2026-11-11 as of 2026-11-11, latest release v2026.1106.0 (2026-11-06) two weeks after the private-work release that ended the eleven-day pause, date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
+101,570 stars and 17,038 forks as of 2026-10-18 since creation on 2026-03-02, with 6,643 open issues and the latest push on 2026-11-14 as of 2026-11-14, latest release v2026.1106.0 (2026-11-06) two weeks after the private-work release that ended the eleven-day pause, date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&theme=dark&legend=top-left" />
@@ -90,6 +91,7 @@ The disagreeable claim I will defend: "manage business goals, not pull requests"
 - 2026-11-07 - Release line moved to v2026.1106.0 (2026-11-06), fourteen days after v2026.1023.0; the backlog fell to 6,488 with the push date at 2026-11-07.
 - 2026-11-08 - The backlog regrew again to 6,517 with the push date at 2026-11-08; the release line holding at v2026.1106.0.
 - 2026-11-11 - The backlog regrew again to 6,712 with the push date at 2026-11-11; the release line holding at v2026.1106.0.
+- 2026-11-14 - The backlog fell again to 6,643 with the push date at 2026-11-14 and the homepage now advertising v2026.1106.0; the release line holding. Added the release content the Awesome Multi-Agent Orchestrators 2026-11-13 catch-up names for v2026.1023.0 and v2026.1106.0: the native Runner by default for new agents, the Copilot harness, repositories as pinned skill sources, bring-your-own model gateways, and the model-backed prompt injection check.
 
 ## See also
 
@@ -107,3 +109,4 @@ The disagreeable claim I will defend: "manage business goals, not pull requests"
 - https://api.github.com/repos/paperclipai/paperclip/releases - v2026.1012.0, published 2026-10-12, still the latest as of 2026-10-23
 - https://news.ycombinator.com/item?id=47903549 - the 3-point Show HN, the thin-footprint signal
 - https://api.github.com/repos/openclaw/openclaw - OpenClaw scale for the comparison
+- https://api.github.com/repos/Agent-Analytics/awesome-multi-agent-orchestrators/contents/src/content/news/paperclip-2026-1106-runner-default-private-tasks.md - the Awesome Multi-Agent Orchestrators 2026-11-13 catch-up grounding the Runner-default, Copilot-harness, skill-source, model-gateway, and prompt-injection-check release content

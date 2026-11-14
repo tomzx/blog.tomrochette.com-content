@@ -1,7 +1,7 @@
 ---
 title: SettleBridge
 created: 2026-09-27
-updated: 2026-11-11
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-settlement, trust, escrow, policy-enforcement, audit]
 readability: 3
@@ -26,7 +26,7 @@ The vendor is Truthsetter LLC.
 ## Status
 
 Early and low-traffic but actively maintained.
-The gateway repository was created 2026-03-08 and sits at 1 star and 0 forks as of 2026-10-18, with 1 open issue, 178 commits on main as of 2026-11-07, and a last push on 2026-11-11 as of 2026-11-11; the A2A-SE standard repository has 2 stars.
+The gateway repository was created 2026-03-08 and sits at 1 star and 0 forks as of 2026-10-18, with 2 open issues, 272 commits on main as of 2026-11-14, and a last push on 2026-11-11 as of 2026-11-14; the A2A-SE standard repository has 2 stars.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2a-settlement/settlebridge-ai&type=date&theme=dark&legend=top-left" />
@@ -85,6 +85,7 @@ The Exchange charges 0.25% of each settled transaction as an ATE treasury fee.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched, all facts unchanged (1 star, 0 forks, 1 open issue, 76 commits, last push 2026-09-25), pricing unchanged, HN still zero threads, and the license metadata still unresolved; the A2A-SE standard repository moved on 2026-10-23.
 - 2026-11-05 - Rotation re-verification: every cited URL re-fetched and live, all facts unchanged (1 star, 0 forks, 1 open issue, 76 commits, last push 2026-09-25), pricing unchanged (Community $0, Enterprise $2,500/month, Exchange 0.25 percent), HN still zero threads, the README's MIT badge still linking to a LICENSE path that 404s with GitHub detecting no license, and the A2A-SE standard docs and repository unchanged.
 - 2026-11-07 - Added the private-repo bounty line to What it is: the bounty marketplace now covers private and internal GitHub repositories, exposing a private bounty only to signed-in users whose linked GitHub account has read access on the repo (PR 32, merged 2026-11-07), with security-severity code-scanning alerts opening security-tier bounties there; the commit count moved from 76 to 178 on main with most of the work landing 2026-11-06 and 11-07.
+- 2026-11-14 - The commit count moved from 178 to 272 on main, with the gap filled by a flag-gated fix-verifier wave (verification and warranty tables, payout gates on verified fix receipts with a 20 percent warranty holdback, verifier-bypass bounty submissions, GitHub role separation and solver-kind attribution) landing through 2026-11-11; the counters refreshed (2 open issues, pushed 2026-11-11).
 
 ## See also
 

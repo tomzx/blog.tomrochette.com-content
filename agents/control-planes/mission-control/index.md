@@ -1,7 +1,7 @@
 ---
 title: Mission Control
 created: 2026-11-01
-updated: 2026-11-11
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, agent-operations, task-dispatch, self-hosted, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Adapters and observation surfaces cover OpenClaw, Claude Code, Codex, CrewAI, La
 
 ## Status
 
-Active alpha and adopted for its age: 6,424 stars as of 2026-11-01, 134 forks, and 60 open issues as of 2026-11-11, created 2026-02-13, pushed 2026-11-09, with v2.3.0 (2026-07-25) the latest tagged release while main keeps moving past it.
+Active alpha and adopted for its age: 6,424 stars as of 2026-11-01, 134 forks, and 61 open issues as of 2026-11-14, created 2026-02-13, pushed 2026-11-09, with v2.3.0 (2026-07-25) the latest tagged release while main keeps moving past it.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=builderz-labs/mission-control&type=date&theme=dark&legend=top-left" />

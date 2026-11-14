@@ -1,7 +1,7 @@
 ---
 title: "Model Benchmark Matrix"
 created: 2026-09-24
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, comparison, benchmarks, evaluation, model-selection]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what pass@1, a fail-to-pass test, and an agentic harness are; each row links the benchmark's own site or paper.
 ---
 
-This matrix indexes the model benchmarks an engineer actually meets on model cards, vendor blogs, and leaderboards, as of 2026-11-05, with one or two sentences per benchmark on what it evaluates and a note on how far I trust the reading.
+This matrix indexes the model benchmarks an engineer actually meets on model cards, vendor blogs, and leaderboards, as of 2026-11-14, with one or two sentences per benchmark on what it evaluates and a note on how far I trust the reading.
 It covers thirty-three benchmarks.
 The curation rule: each board has an official site or paper I fetched this run, publishes results someone other than the submitter can check, and appears in recent model comparisons.
 That rule excludes the harness benchmarks ([FrontierHarness Eval](../evaluation-review/frontierharness-eval/index.md) and [HarnessTax](../evaluation-review/harnesstax/index.md)), which hold the model constant and judge the harness instead, and decision-model boards like [JevBench](../hybrid-execution/jevbench/index.md), which live in their own category.
@@ -29,7 +29,7 @@ That rule excludes the harness benchmarks ([FrontierHarness Eval](../evaluation-
 | [SWE-bench Pro](https://labs.scale.com/leaderboard/swe_bench_pro) | The same issue-resolution task on harder, longer-horizon material: 1,865 tasks from 41 repositories, copyleft-licensed to resist contamination, plus a private commercial subset. | Models that top Verified at 70 percent+ scored about 23 percent at launch, the fastest cure for Verified-driven overconfidence. |
 | [SWE-Lancer](https://arxiv.org/abs/2502.12115) | 1,488 real freelance jobs from Upwork (the Expensify codebase) worth $1M in actual payouts, spanning $50 bug fixes to $32,000 features plus managerial proposal selection. | Scores map to dollars, which makes it the board for economic questions, though ICML reviewers flagged the single-repo, single-platform generalization limits. |
 | [SWE-rebench](https://swe-rebench.com/) | A continuously refreshed issue-resolution task stream harvested from new pull requests, built so training-data contamination cannot inflate scores. | The board vendors quote when a static leaderboard would flatter them, apply the never-trust-self-reported-numbers rule doubly. |
-| [Terminal-Bench](https://www.tbench.ai/) | Agentic tasks executed end to end in real terminal and container environments, scored as resolution rate with 95 percent confidence intervals, currently at version 4.0. | Co-hosted by Stanford and the Laude Institute, the board for "which model survives a shell", and the one HarnessTax used to show harness swaps move scores up to 5x. |
+| [Terminal-Bench](https://www.tbench.ai/) | Agentic tasks executed end to end in real terminal and container environments, scored as resolution rate with 95 percent confidence intervals, currently at version 4.1. | Co-hosted by Stanford and the Laude Institute, the board for "which model survives a shell", and the one HarnessTax used to show harness swaps move scores up to 5x. |
 
 ## Function-level code generation
 
@@ -120,6 +120,7 @@ When two boards rank the same models differently, the gap tells you where the mo
 - 2026-11-05 - Link re-verification: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims), Terminal-Bench still at 4.0 on its homepage, and the intro as-of re-dated.
 - 2026-11-07 - Link re-verification: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims), Terminal-Bench still at 4.0 on its homepage, and the intro as-of left at 2026-11-05 since no fact moved.
 - 2026-11-08 - Link re-verification: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims), Terminal-Bench still at 4.0 on its homepage, and the intro as-of left at 2026-11-05 since no fact moved.
+- 2026-11-14 - Link re-verification with one fact move: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims), and Terminal-Bench's homepage now reading Terminal-Bench 4.1, the version cell and the intro as-of moved to today.
 
 ## See also
 

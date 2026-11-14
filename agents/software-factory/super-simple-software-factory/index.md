@@ -1,7 +1,7 @@
 ---
 title: "Super Simple Software Factory"
 created: 2026-08-29
-updated: 2026-11-01
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, agentic-workflows, sdlc]
 readability: 3
@@ -21,7 +21,7 @@ It is built on the `pi` coding agent plus `uv`, and there is a Vue-and-Bun visua
 
 ## Status
 
-Young, deliberately small, and quiet since launch: 971 stars and 255 forks since creation on 2026-08-02, with no push since 2026-08-04, more than twelve weeks before 2026-11-01.
+Young, deliberately small, and quiet since launch: 971 stars and 255 forks since creation on 2026-08-02, with no push since 2026-08-04, more than fourteen weeks before 2026-11-14.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=disler/super-simple-software-factory&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ Not for one-off features, which a single agent prompt handles cheaper, and not f
 - 2026-10-18 - Rotation re-verification: every cited URL re-fetched (the repository, the example branch with its stamped demo and traces, the demo video, the author's site, and the huggingface/tau Python port of pi) and all claims confirmed, including the quiet repository (still a single commit on main, no push since 2026-08-04, no releases); no material change.
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched (the repository via the API, the example branch, the demo video, the author's site, and the huggingface/tau Python port of pi) and all claims confirmed, including the quiet repository (still a single commit on main, no push since 2026-08-04, no releases); no material change.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched (the repository via the API, the example branch's file tree with the .claude skills stamp, the demo video, the author's site, and the huggingface/tau Python port of pi) and all claims confirmed, including the quiet repository (still a single commit on main, no push since 2026-08-04, no releases); no material change.
+- 2026-11-14 - Rotation re-verification: every cited URL re-fetched (the repository via the API, the example branch's .claude/skills tree, the demo video, the author's site, and the huggingface/tau Python port of pi) and all claims confirmed, including the quiet repository (still a single commit on main, no push since 2026-08-04, no releases); no material change.
 
 ## See also
 

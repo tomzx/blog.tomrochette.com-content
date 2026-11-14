@@ -34,6 +34,7 @@ Profiles of the people and websites steering this domain as it evolves, and the 
 - [Mario Zechner](mario-zechner/index.md) - the creator of pi and libgdx, the minimalist contrarian of harness design who argues in long benchmarked posts that most agent features are baggage.
 - [Matt Pocock](matt-pocock/index.md) - the TypeScript educator turned AI-workflow teacher, whose AI Hero posts and skills repo turn agentic coding into an installable, exercise-driven curriculum.
 - [Nathan Lambert](nathan-lambert/index.md) - the inside-the-labs voice on models, post-training, and the open ecosystem.
+- [Navan Chauhan](navan-chauhan/index.md) - the StrongDM AI-team member whose factory essays and thread answers turn the no-human-review dark-factory practice into public build orders.
 - [Owain Lewis](owain-lewis/index.md) - the quiet software-factory builder channel where every video ships with a runnable repo.
 - [Paul Gauthier](paul-gauthier/index.md) - the creator of aider, the pioneering open-source terminal pair programmer whose repo map and polyglot benchmark set the field's template.
 - [Peter Steinberger](peter-steinberger/index.md) - the OpenClaw creator and PSPDFKit founder now at OpenAI, shipping a torrent of agent tooling while his commentary moved from a 2025 blog hot streak to X.
@@ -81,3 +82,4 @@ Its members are compared on shared rows in the [People and Publications Feature 
 - 2026-10-04 - Added Birgitta Böckeler.
 - 2026-10-07 - Added Lars Faye.
 - 2026-10-15 - Added Cole Medin.
+- 2026-11-14 - Added Navan Chauhan.

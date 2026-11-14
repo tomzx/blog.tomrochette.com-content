@@ -1,7 +1,7 @@
 ---
 title: Peter Steinberger
 created: 2026-09-24
-updated: 2026-10-29
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, openclaw, developer-tools]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what OpenClaw, a coding agent subscription, and a menu bar app are.
 ---
 
-Peter Steinberger is the PSPDFKit founder who came out of retirement to create OpenClaw, joined OpenAI in February 2026, and publishes hands-on agent-engineering essays at steipete.me alongside a torrent of open-source agent tooling on GitHub.
+Peter Steinberger is the PSPDFKit founder who came out of retirement to create OpenClaw, joined OpenAI in February 2026, and publishes hands-on agent-engineering essays at steipete.md alongside a torrent of open-source agent tooling on GitHub.
 
 **He is the builder-evangelist of the agent wave: his value is working tools and first-person workflow writing at enormous volume, and his boundary is that he is always selling the future he is personally building.**
 
@@ -24,8 +24,8 @@ The audience is builders: his Claude Code Anonymous meetups spread to at least s
 ## Status
 
 Active, but the venue shifted in 2026.
-The blog published more than thirty posts between June and December 2025, then one in 2026, the 15 February OpenAI announcement, which drew a 1,449-point Hacker News thread with 1,131 comments as of 2026-09-24.
-He had 53.2k GitHub followers as of 2026-10-12, a TED 2026 talk on OpenClaw, and a Pragmatic Engineer feature in his recognition list.
+The blog published more than thirty posts between June and December 2025, then one in 2026, the February 14 OpenAI announcement, which drew a 1,449-point Hacker News thread (1,131 comments as of 2026-09-24, 1,088 as of 2026-11-14 as dead comments fall out), and in 2026 the site moved to the steipete.md domain, with steipete.me now redirecting every page.
+He had 53.6k GitHub followers as of 2026-11-14, a TED 2026 talk on OpenClaw, and a Pragmatic Engineer feature in his recognition list.
 OpenClaw keeps shipping without his daily hand, and the section's note tracks its releases and its 2026 provider-restriction saga.
 
 ## Strengths
@@ -58,10 +58,10 @@ Not for neutral analysis or anyone allergic to hype; his incentives follow his p
 
 ## Top 5 recommended reading
 
-- [Just Talk To It - the no-bs Way of Agentic Engineering](https://steipete.me/posts/just-talk-to-it.md) - His philosophy essay for agentic engineering, the cleanest introduction to how he actually works with agents.
-- [Claude Code Anonymous](https://steipete.me/posts/2025/claude-code-anonymous.md) - The piece that named the practitioner obsession with coding agents and turned it into a meetup format now in six cities.
-- [OpenClaw, OpenAI and the future](https://steipete.me/posts/2026/openclaw.md) - His announcement joining OpenAI and handing OpenClaw to a foundation, the primary source for both facts.
-- [Shipping at Inference-Speed](https://steipete.me/posts/2025/shipping-at-inference-speed.md) - His account of building at model-speed, the clearest statement of his working method.
+- [Just Talk To It - the no-bs Way of Agentic Engineering](https://www.steipete.md/posts/just-talk-to-it.md) - His philosophy essay for agentic engineering, the cleanest introduction to how he actually works with agents.
+- [Claude Code Anonymous](https://www.steipete.md/posts/2025/claude-code-anonymous.md) - The piece that named the practitioner obsession with coding agents and turned it into a meetup format now in six cities.
+- [OpenClaw, OpenAI and the future](https://www.steipete.md/posts/2026/openclaw.md) - His announcement joining OpenAI and handing OpenClaw to a foundation, the primary source for both facts.
+- [Shipping at Inference-Speed](https://www.steipete.md/posts/2025/shipping-at-inference-speed.md) - His account of building at model-speed, the clearest statement of his working method.
 - [CodexBar](https://github.com/steipete/codexbar) - His most-starred solo tool (22.2k stars as of 2026-10-04), usage stats for Codex and Claude Code in the menu bar, the working example of his ship-the-fix habit.
 
 ## Changes
@@ -70,6 +70,7 @@ Not for neutral analysis or anyone allergic to hype; his incentives follow his p
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-10-17 - Rotation re-verification, every cited URL re-fetched and all live: the post archive still shows one 2026 post (the February 15 OpenAI announcement), the announcement thread holds at 1,449 points with 1,131 comments, and CodexBar remains under active development (pushed 2026-10-17).
 - 2026-10-29 - Added the Pricing section the note format mandates; no other claim moved (his current commentary lives on X, which stays unfetchable, and the blog archive shows no new posts).
+- 2026-11-14 - Rotation re-verification: the blog moved its domain to steipete.md (steipete.me now 307-redirects every page), so the definition, Status, Top 5, and References moved to the canonical domain; the 1,449-point announcement thread re-grounded through its direct Algolia item after the loose steipete story query stopped surfacing it; followers refreshed to 53.6k and CodexBar confirmed active (pushed 2026-11-14), all fetched this run.
 
 ## See also
 
@@ -81,10 +82,10 @@ Not for neutral analysis or anyone allergic to hype; his incentives follow his p
 
 ## References
 
-- https://steipete.me/ - site home and identity line
-- https://steipete.me/about.md - OpenClaw creator, OpenAI since February 2026, PSPDFKit exit, San Francisco
-- https://steipete.me/posts.md - the full post archive grounding the 2025 density and the 2026 drop
-- https://steipete.me/posts/2026/openclaw.md - the OpenAI announcement and the OpenClaw foundation handoff
-- https://steipete.me/posts/2025/claude-code-anonymous.md - the meetup format and its culture diagnosis
-- https://github.com/steipete - profile: 53.1k followers, the tool fleet, star counts, TED talk, Pragmatic Engineer feature
-- https://hn.algolia.com/api/v1/search?query=steipete&tags=story&hitsPerPage=10 - the 1,449-point announcement thread, the CodexBar ports, and the critical replies
+- https://www.steipete.md/ - site home and identity line
+- https://www.steipete.md/about.md - OpenClaw creator, OpenAI since February 2026, PSPDFKit exit, San Francisco
+- https://www.steipete.md/posts.md - the full post archive grounding the 2025 density, the 2026 drop, and the February 14 announcement date
+- https://www.steipete.md/posts/2026/openclaw.md - the OpenAI announcement and the OpenClaw foundation handoff
+- https://www.steipete.md/posts/2025/claude-code-anonymous.md - the meetup format and its culture diagnosis
+- https://github.com/steipete - profile: 53.6k followers as of 2026-11-14, the tool fleet, star counts, TED talk, Pragmatic Engineer feature
+- https://hn.algolia.com/api/v1/items/47028013 - the 1,449-point "I'm joining OpenAI" announcement thread, cited directly after the loose steipete story query stopped surfacing it

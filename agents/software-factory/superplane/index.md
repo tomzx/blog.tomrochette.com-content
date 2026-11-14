@@ -1,7 +1,7 @@
 ---
 title: SuperPlane
 created: 2026-10-07
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The core is Apache-2.0 with integrations across source control, CI, cloud, obser
 
 ## Status
 
-Active: 7,709 stars as of 2026-10-14, 707 forks and 238 open issues as of 2026-11-13, pushed 2026-11-13, per the GitHub API.
+Active: 7,709 stars as of 2026-10-14, 707 forks and 240 open issues as of 2026-11-14, pushed 2026-11-14, per the GitHub API.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&theme=dark&legend=top-left" />
@@ -42,7 +42,7 @@ The repository now carries the software-factory topic and the website and docs s
 
 ## Cautions
 
-- **v1.0.0 is still the only stable platform tag seventeen days later**: the first stable platform tag landed 2026-10-27 against daily main pushes (the 2026-11-13 main commit enables per-organization Enterprise features and is unreleased), so tag-tracking self-hosters jump three months of main at once, and the stable train's own track record is one release; the component train holds at runner v0.2.1 and fleet-manager v0.1.7.
+- **v1.0.0 is still the only stable platform tag eighteen days later**: the first stable platform tag landed 2026-10-27 against daily main pushes (the newest main commit, a merge-confidence running check of 2026-11-13, is unreleased), so tag-tracking self-hosters jump three months of main at once, and the stable train's own track record is one release; the component train holds at runner v0.2.1 and fleet-manager v0.1.7.
 - **Open-core split**: the /ee directory sits under a separate Enterprise Edition license, and GitHub cannot classify the result.
 - **Young platform surface**: 463 open issues and a January control-plane-to-factory pivot mean the docs story is still settling.
 - **It is broader than a factory**: workflow automation across observability and incidents puts it in workflow-platform territory too, which dilutes the factory comparison.
@@ -85,6 +85,7 @@ Not for local-first, single-repo loops, and not for anyone who needs a stable re
 - 2026-10-28 - Recorded the v1.0.0 stable release (2026-10-27, the first stable platform tag, after rc8 and rc9 the same morning closed the rc1-through-rc9 train) and its Backlog-Implement-Verify-Done framing from the release notes, ending the stable-tags-lag-main caution; pushed date refreshed.
 - 2026-10-31 - Recorded fleet-manager v0.1.7 (2026-10-28, a container image and chart digest bump with no feature notes) advancing the component train; pushed date refreshed.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched (repository and releases via the API, the site, the docs overview, the LICENSE files, the pricing page, the Show HN thread, and the founder profile) and all claims confirmed except pricing; recorded the repricing (Business $199 per organization per month replaced by Pay-as-you-go $0 plus usage, Starter $20 per organization per month, and Team $50 per user per month, the OSS Projects free tier gone, usage at provider rate plus 10 percent on SuperPlane-provided tokens), with the Price history row appended; pushed and counts refreshed, no release past fleet-manager v0.1.7.
+- 2026-11-14 - Volatile re-verification: pushed date and open-issue count refreshed, the newest main commit now a merge-confidence running check (2026-11-13, unreleased), and no release past fleet-manager v0.1.7; no material change.
 
 ## See also
 

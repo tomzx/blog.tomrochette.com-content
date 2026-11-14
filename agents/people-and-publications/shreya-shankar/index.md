@@ -1,7 +1,7 @@
 ---
 title: Shreya Shankar
 created: 2026-09-24
-updated: 2026-10-29
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, evals, data-systems, llm-practitioner, academic]
 readability: 3
@@ -26,7 +26,7 @@ The newest instruments are Data Agent Bench (DAB), the first benchmark for data 
 Active and ascending, in a transition year.
 Her homepage announces the move to Carnegie Mellon's CSD (and, by courtesy, HCII) in 2027, where she is starting the Full Stack Data Lab.
 The award record is stacking up fast: Best of SIGMOD 2026, a CHI 2026 Best Paper (RAG Without the Lag), and a UIST 2025 Best Paper Honorable Mention, plus two more papers at VLDB 2026.
-DAB appears at EMNLP in October 2026 with over 50 submissions already; the repo leaderboard shows entries dated through 2026-09-26, and the repo sits at 182 stars and 62 forks as of 2026-10-12.
+DAB appears at EMNLP in October 2026 with over 50 submissions already; the repo leaderboard shows entries dated through 2026-11-02, and the repo sits at 207 stars and 73 forks as of 2026-11-14 (last push 2026-11-07).
 The blog is slow, with the latest post on May 21, 2026, but she gave the Weaviate Podcast #135 on data agents in April 2026, covering DocETL, semantic operators, and why context management may be the new data management.
 
 ## Strengths
@@ -72,6 +72,7 @@ Not for someone hunting a daily news feed on coding-agent tools or quick prompt 
 - 2026-09-29 - Added Quail, the Full Stack Data Lab's query-aware AI-SQL inference engine announced 2026-09-24, as the newest instrument alongside DAB.
 - 2026-10-18 - Rotation re-verification: the DAB leaderboard has advanced, entries now dated through 2026-09-26 (was through 2026-09-13); every other cited URL re-fetched live this run.
 - 2026-10-29 - Added the Pricing section the note format mandates; no other claim moved.
+- 2026-11-14 - Rotation re-verification, every cited URL re-fetched and live: the DAB leaderboard advanced to entries dated through 2026-11-02 (was through 2026-09-26) and the repo refreshed to 207 stars and 73 forks with a 2026-11-07 last push; the blog's newest post remains May 21, 2026, and the homepage's CMU 2027 and DocETL 4.1k claims hold.
 
 ## See also
 
@@ -88,7 +89,7 @@ Not for someone hunting a daily news feed on coding-agent tools or quick prompt 
 - https://www.sh-reya.com/blog/ai-engineering-flywheel/ - the data flywheel framework
 - https://www.sh-reya.com/blog/consumption-ai-scale/ - the signal-degradation and verification-erosion essay
 - https://www.docetl.org/ - the DocETL project site and its paper record
-- https://github.com/ucbepic/DataAgentBench - DAB repo, leaderboard entries, and submission activity as of 2026-09-24
+- https://github.com/ucbepic/DataAgentBench - DAB repo, leaderboard entries dated through 2026-11-02, and repo figures as of 2026-11-14
 - https://maven.com/p/945082/beyond-naive-rag-practical-advanced-methods - the free mini-book with Hamel Husain, and her positioning as an applied evals researcher
 - https://hn.algolia.com/api/v1/search?query=%22shreya%20shankar%22&hitsPerPage=8 - HN footprint: the Weaviate Podcast episode on data agents, her 2022 ML engineering essay, and Hamel naming her a frequent collaborator
 - https://fsdatalab.github.io/blog/introducing-quail/ - the Full Stack Data Lab post introducing Quail (2026-09-24), grounding the newest-instrument claim and its 1.84x QUAIL-B result

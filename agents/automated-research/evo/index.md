@@ -1,7 +1,7 @@
 ---
 title: Evo
 created: 2026-10-28
-updated: 2026-10-28
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, autoresearch, tree-search, gates, open-source]
 readability: 3
@@ -70,6 +70,7 @@ Not for anyone needing an independently validated loop or a vendor committed to 
 ## Changes
 
 - 2026-10-28 - Created.
+- 2026-11-14 - Rotation re-verification: all seven references re-fetched and live, with the repository quiet since October 5, v0.8.0 still the latest PyPI release, and the vendor site still fronting RouterPlus.
 
 ## See also
 

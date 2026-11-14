@@ -1,7 +1,7 @@
 ---
 title: "Machinist"
 created: 2026-09-05
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, go]
 readability: 3
@@ -23,7 +23,7 @@ Scripts are deliberately opaque to the controller: no invented child runs, graph
 ## Status
 
 Active and early: created 2026-07-16, 502 stars and 96 forks as of 2026-10-13, releases v0.1.0 through v0.4.0 with v0.4.0 (2026-08-31) still the newest, and the README labeling it early-access software.
-**The 2026-10-15 push is a step change, not routine churn: 179 commits past v0.4.0 as of 2026-11-07 (main's newest commit still 2026-10-29, the 2026-11-02 push a side branch) added a GitHub App onboarding flow, the local web app's standard pipeline (triage, optional spec approval, build, independent review, up to three repair rounds before a human merge), scheduled automations, multi-repository projects, and a gVisor Kubernetes runner target, per the GitHub API and the repository docs as of 2026-11-07.**
+**The 2026-10-15 push is a step change, not routine churn: 179 commits past v0.4.0 as of 2026-11-14 (main's newest commit still 2026-10-29, the 2026-11-02 and 2026-11-09 pushes side branches) added a GitHub App onboarding flow, the local web app's standard pipeline (triage, optional spec approval, build, independent review, up to three repair rounds before a human merge), scheduled automations, multi-repository projects, and a gVisor Kubernetes runner target, per the GitHub API and the repository docs as of 2026-11-14.**
 The repository also ships an evals directory with a deterministic GitHub-issue-lifecycle evaluation, with broader outcome scoring documented as planned rather than shipped.
 
 <picture>
@@ -32,7 +32,7 @@ The repository also ships an evals directory with a deterministic GitHub-issue-l
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&legend=top-left" />
 </picture>
 
-**There is no Hacker News thread or independent coverage as of 2026-11-07, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
+**There is no Hacker News thread or independent coverage as of 2026-11-14, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
 The velocity (five releases in eight weeks) says maintained; the single-author commit history says bus-factor one.
 
 ## Strengths
@@ -74,6 +74,7 @@ Not for teams needing proven scale, resumable pipelines, or a community to escal
 - 2026-10-23 - Rotation re-verification: every cited URL re-fetched (repository README, machinist.sh, configuration.md, the workflows examples, the gVisor Kubernetes doc, the releases API, and the HN search) and all claims confirmed, with the zero-coverage claim holding to 2026-10-23; recorded 176 commits past v0.4.0 (still no release past v0.4.0), the native-agents default run mode with advisory child reviews, the evals directory's deterministic issue-lifecycle evaluation, and the opt-in repository-maintenance auto-merge limited to qualifying documentation PRs.
 - 2026-10-28 - Rotation re-verification: every cited URL re-fetched (repository README, machinist.sh, configuration.md, the workflows examples, the gVisor Kubernetes doc, the releases API, and the HN search) and all claims confirmed, including v0.4.0 still the newest release, 176 commits past v0.4.0 with main's newest commit still 2026-10-21, and the zero-coverage claim holding to 2026-10-28; no material change.
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched (repository via the API, machinist.sh, configuration.md, the workflows examples, the gVisor Kubernetes doc, the releases API, and the HN search) and all claims confirmed, including v0.4.0 still the newest release, 179 commits past v0.4.0 with main's newest commit still 2026-10-29 (the 2026-11-02 push a side branch), and the zero-coverage claim holding to 2026-11-08; no material change.
+- 2026-11-14 - Volatile re-verification: v0.4.0 still the newest release and still 179 commits past it, main's newest commit still 2026-10-29 with the 2026-11-09 push another side branch, and the zero-coverage claim re-run and holding to 2026-11-14; no material change.
 
 ## See also
 

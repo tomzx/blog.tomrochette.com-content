@@ -1,7 +1,7 @@
 ---
 title: Tokscale
 created: 2026-10-06
-updated: 2026-11-12
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by junhoyeo, an independent developer, MIT-licensed.
 
 ## Status
 
-Young and fast: 5,656 stars, 476 forks, 77 open issues, created 2025-12-01, pushed 2026-11-12, as of 2026-11-12 (the star figure keeps its earlier fetch date, everything else refreshed this run).
+Young and fast: 5,656 stars, 475 forks, 71 open issues, created 2025-12-01, pushed 2026-11-13, as of 2026-11-14 (the star figure keeps its earlier fetch date, everything else refreshed this run).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&theme=dark&legend=top-left" />
@@ -32,8 +32,8 @@ Young and fast: 5,656 stars, 476 forks, 77 open issues, created 2025-12-01, push
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&legend=top-left" />
 </picture>
 
-npm shows 123,064 downloads in the trailing month (2026-10-13 to 2026-11-12, six zero days inside the window), second in this category only to ccusage, and the release line is v4.22.0 (2026-11-11, which added BB and Qoder clients, Copilot native session-state event discovery, leaderboard submissions that automatically withhold extreme token spoofers, Antigravity CSRF token discovery with session sync, codebuddy generation and turn duration, and a long fix tail including Codex usage attributed from Magpie evidence and Kimi K3.1 Pro priced at the Moonshot API card) after v4.21.0 (2026-11-02, offline reports with an explicit pricing refresh, UTC-aligned ranking windows, bounded reusable group invitations with atomic redemption, Proma native and mirrored Agent session usage counting, plus a long fix tail including Cursor snapshot dedup and atomic credential writes) and v4.20.1 (2026-10-23) and v4.20.0 (2026-10-17, which added Mistral Vibe and Aside browser clients, Amp server-side thread sync through the amp CLI, custom pricing rates scoped by billing provider, Cursor Auto/API tracks and Grok Bot quotas, and leaderboard group member management).
-The unreleased wave the previous pass recorded shipped in v4.22.0: the spoofer withholding and the Copilot native session-state files are in the release, leaving nothing substantive pending as of 2026-11-12.
+npm shows 125,330 downloads in the trailing month (2026-10-15 to 2026-11-14, five zero days inside the window), second in this category only to ccusage, and the release line is v4.22.1 (2026-11-13, which counted archived OpenClaw SQLite usage without double-counting live transcripts, kept Antigravity quota discovery working across resumed sessions and stale environments, isolated mismatched Cursor refresh grants and redacted OAuth tokens in debug output, and ignored invalid TUI color overrides) after v4.22.0 (2026-11-11, which added BB and Qoder clients, Copilot native session-state event discovery, leaderboard submissions that automatically withhold extreme token spoofers, Antigravity CSRF token discovery with session sync, codebuddy generation and turn duration, and a long fix tail including Codex usage attributed from Magpie evidence and Kimi K3.1 Pro priced at the Moonshot API card) after v4.21.0 (2026-11-02, offline reports with an explicit pricing refresh, UTC-aligned ranking windows, bounded reusable group invitations with atomic redemption, Proma native and mirrored Agent session usage counting, plus a long fix tail including Cursor snapshot dedup and atomic credential writes) and v4.20.1 (2026-10-23) and v4.20.0 (2026-10-17, which added Mistral Vibe and Aside browser clients, Amp server-side thread sync through the amp CLI, custom pricing rates scoped by billing provider, Cursor Auto/API tracks and Grok Bot quotas, and leaderboard group member management).
+The unreleased wave the previous pass recorded shipped in v4.22.0: the spoofer withholding and the Copilot native session-state files are in the release, leaving nothing substantive pending as of 2026-11-14.
 Its parsers have also been externally probed: the September 2026 AgentMeasure audit filed that forked and continued Pi sessions double-counted (issue 1306), fixed the same day via PR 1323.
 Its Show HN reached 2 points and zero comments in December 2025, so the audience arrived without a forum argument.
 **The star and download numbers say adoption, the empty Hacker News footprint says no independent scrutiny yet, and both are true at once.**
@@ -80,6 +80,7 @@ Not for teams needing shared dashboards (agentsview) or spend management (CodeBu
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched and live; no release after v4.20.1 with a wave of twelve unreleased fixes landing 2026-10-30; the source table moved to 61 named clients, up from about 50 (the coverage claim moved through the definition, the Strengths line, and the matrix), trailing-month downloads refreshed (167,077 to 122,835, window 2026-10-03 to 2026-11-01 with ten zero days), forks refreshed 470 to 471 and open issues 100 to 89, and the pushed date moved to 2026-10-30; the downloads reference moved to the dated-range endpoint and the audit-report reference repointed to its Verovo path.
 - 2026-11-07 - Recorded v4.21.0 (2026-11-02: offline reports with an explicit pricing refresh, UTC-aligned ranking windows, bounded reusable group invitations, Proma native and mirrored session usage, Cursor snapshot dedup, atomic credential writes) and the unreleased wave after it (leaderboard spoofer withholding, Copilot native session-state files); the source table moved to 62 named clients, up from 61, trailing-month downloads refreshed (122,835 to 131,512, window 2026-10-09 to 2026-11-07 with six zero days), npm latest moved to 4.21.0, forks refreshed 471 to 478 and open issues 89 to 74, and the pushed date moved to 2026-11-06.
 - 2026-11-12 - Recorded v4.22.0 (2026-11-11: BB and Qoder clients, Copilot native session-state discovery, leaderboard spoofer withholding, Antigravity CSRF token discovery with session sync, codebuddy generation and turn duration, Codex usage attributed from Magpie evidence, Kimi K3.1 Pro priced at the Moonshot API card), shipping the previously unreleased wave; the source table moved to 63 named clients, up from 62, trailing-month downloads refreshed (131,512 to 123,064, window 2026-10-13 to 2026-11-12 with six zero days), npm latest moved to 4.22.0, forks refreshed 478 to 476 and open issues 74 to 77, and the pushed date moved to 2026-11-12.
+- 2026-11-14 - Recorded v4.22.1 (2026-11-13: archived OpenClaw SQLite usage counted without double-counting live transcripts, Antigravity quota discovery kept working across resumed sessions and stale environments, mismatched Cursor refresh grants isolated with OAuth tokens redacted in debug output, invalid TUI color overrides ignored instead of crashing), npm latest moved to 4.22.1; trailing-month downloads refreshed (123,064 to 125,330, window 2026-10-15 to 2026-11-14 with five zero days), forks refreshed 476 to 475 and open issues 77 to 71, and the pushed date moved to 2026-11-13.
 
 ## See also
 
@@ -92,10 +93,10 @@ Not for teams needing shared dashboards (agentsview) or spend management (CodeBu
 ## References
 
 - https://github.com/junhoyeo/tokscale - repository, stars fetched at creation (5,656 as of 2026-10-11), MIT license, created 2025-12-01
-- https://raw.githubusercontent.com/junhoyeo/tokscale/main/README.md - the 63-client data-path table, LiteLLM pricing, sync subcommands, and the submit-to-leaderboard flow (re-fetched 2026-11-12)
-- https://registry.npmjs.org/tokscale - npm latest 4.22.0 (re-verified 2026-11-12)
-- https://api.npmjs.org/downloads/range/2026-10-13:2026-11-12/tokscale - 123,064 trailing-month downloads (six zero days inside the window), fetched 2026-11-12 via the dated-range endpoint per the npm-window ruling
-- https://api.github.com/repos/junhoyeo/tokscale/releases - v4.22.0 (2026-11-11), v4.21.0 (2026-11-02), v4.20.1 (2026-10-23), v4.20.0 (2026-10-17), v4.19.1 (2026-10-15), v4.19.0 (2026-10-14) (re-fetched 2026-11-12)
+- https://raw.githubusercontent.com/junhoyeo/tokscale/main/README.md - the 63-client data-path table, LiteLLM pricing, sync subcommands, and the submit-to-leaderboard flow (re-fetched 2026-11-14)
+- https://registry.npmjs.org/tokscale - npm latest 4.22.1 (re-verified 2026-11-14)
+- https://api.npmjs.org/downloads/range/2026-10-15:2026-11-14/tokscale - 125,330 trailing-month downloads (five zero days inside the window), fetched 2026-11-14 via the dated-range endpoint per the npm-window ruling
+- https://api.github.com/repos/junhoyeo/tokscale/releases - v4.22.1 (2026-11-13), v4.22.0 (2026-11-11), v4.21.0 (2026-11-02), v4.20.1 (2026-10-23), v4.20.0 (2026-10-17), v4.19.1 (2026-10-15), v4.19.0 (2026-10-14) (re-fetched 2026-11-14)
 - https://github.com/junhoyeo/tokscale/issues/1306 - the external audit's Pi fork double-count finding, closed completed via PR 1323 the same day (re-fetched 2026-11-01)
 - https://raw.githubusercontent.com/roy-tong/Verovo/main/campaigns/audit-report-2026-09.md - the audit behind the external-probe sentence (repointed to the Verovo path 2026-11-01 after the project renamed)
 - https://tokscale.ai - the hosted leaderboard and Wrapped pages

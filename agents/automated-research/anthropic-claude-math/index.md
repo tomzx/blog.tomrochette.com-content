@@ -1,7 +1,7 @@
 ---
 title: Anthropic Claude mathematical research
 created: 2026-09-13
-updated: 2026-10-28
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, anthropic, mathematics, formal-verification]
 readability: 3
@@ -83,6 +83,7 @@ Not for anyone expecting to rerun the exact loops, since the models are unreleas
 - 2026-10-11 - Recorded the formal-math repository's October 6 addition of a 3SUM/APSP algorithms-paper formalization and refreshed the star count to 297.
 - 2026-10-12 - Recorded the October 8 UV sky map, the first third-party Claude proofs (Parisi-Zamponi's jamming identity with full transcript, Verhoeff's Lehmer conjecture), and the independent zeta follow-up (Lamzouri's simpler re-derivation).
 - 2026-10-28 - Recorded the formal-math repository's October 27 addition of a Lean 4 formalization of the 2^o(n)-time 3-SAT algorithm paper, the artifact chain's second algorithms result.
+- 2026-11-14 - Rotation re-verification: all thirteen references re-fetched and live (two api.github.com 403s retried through the authenticated API), with the formal-math default branch quiet since the October 27 3-SAT formalization (the November 1 repository-level push was a side branch, per the standing default-branch rule) and every other claim standing.
 
 ## See also
 

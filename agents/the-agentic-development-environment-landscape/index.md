@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Development Environment Landscape"
 created: 2026-07-04
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains]
 readability: 3
@@ -13,7 +13,7 @@ agent_sessions:
 
 The terminal coding agent answered the question of whether an AI can edit a real repository.
 The next problem is harder: how do you run several of them, watch what they are doing, and keep them from colliding on the same files.
-In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-11-05.
+In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-11-14.
 
 ## What an ADE is, and what it is not
 
@@ -155,6 +155,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - 2026-11-05 - Rotation re-verification with an out-of-rotation correction the fetches surfaced: Paradev relicensed from Elastic License 2.0 to MIT (the repository's LICENSE.md now carries the MIT text) and reworded its README pitch from the 100+-agent agentic-IDE line to a desktop-app-for-parallel-agents description with an iPhone and iPad app and scheduled automations on a Pro plan, so the leaderboard paragraph, the top-five mix line, and the license axis moved Paradev into the open-source group; Paseo's Apache-2.0 claim re-verified (its custom LICENSE wrapper names Apache-2.0 for the project's own code, which is why GitHub's API reports NOASSERTION), Agent Orchestrator's supported-agent table re-counted at 36 so the 35-plus claim holds, Air's supported-agent, surface, and cloud-run claims re-verified unchanged against its live page, every one of the 17 URLs fetched 200 this run, and Orca's dated star count left untouched per the stars exemption.
 - 2026-11-07 - Rotation re-verification: every one of the 17 URLs fetched 200 this run (both GitHub topic pages included, no 429s), Air's supported-agent, surface, and cloud-run claims re-verified unchanged against its live page (Claude Agent and ACP-connectable agents, the IDE, web, CLI, and mobile surfaces, the some-customers cloud-run rollout, and Junie folded in all still on the page), Paradev's MIT license re-confirmed through the repository API, Paseo's license wrapper re-confirmed (GitHub's API still reporting NOASSERTION over the custom Apache-2.0 text), and Agent Orchestrator's supported-agent table re-counted at 36 entries so the 35-plus claim holds; no fact moved, so the intro's verification date holds at 2026-11-05.
 - 2026-11-08 - Rotation re-verification: sixteen of the 17 cited URLs fetched 200 this run (the parallel-agents topic page returned gateway 504s on two attempts, recorded here for the next pass), Air's supported-agent, surface, and cloud-run claims re-verified unchanged against its live page (Air Gateway, Junie folded in, the IDE, web, CLI, and mobile surfaces, and the some-customers cloud-run rollout all still stated), the eleven referenced repositories re-verified through the GitHub API (Orca and Paradev still MIT, Paseo still the NOASSERTION Apache-2.0 wrapper, Emdash Apache-2.0, the rest live and unarchived), and Orca's dated star count left untouched per the stars exemption; no fact moved, so the intro's verification date holds at 2026-11-05.
+- 2026-11-14 - Rotation re-verification: every one of the 17 cited URLs fetched 200 this run (the parallel-agents topic page cleared its 2026-11-08 504s), Air's supported-agent, surface, and cloud-run claims re-verified against its live page (Claude Agent, Codex, Junie, Copilot, and OpenCode now all named beside the ACP phrase, the IDE, web, CLI, and mobile surfaces, Air Gateway, and the some-customers cloud-run rollout unchanged, so the body's claims as written hold), Paradev's MIT license and Paseo's NOASSERTION Apache-2.0 wrapper re-confirmed through the repository API, Agent Orchestrator's own repository description now reading 35+ coding agents so the 35-plus claim holds, the eleven referenced repositories live and unarchived, and Orca's dated star count left untouched per the stars exemption.
 
 ## See also
 

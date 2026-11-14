@@ -1,7 +1,7 @@
 ---
 title: Spec-Driven Develop
 created: 2026-10-11
-updated: 2026-11-01
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, github-issues, workflow, open-source]
 readability: 3
@@ -34,7 +34,7 @@ All five GitHub releases landed in July 2026, three of them on July 1, and nothi
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=zhu1090093659/spec_driven_develop&type=date&legend=top-left" />
 </picture>
 
-**No Hacker News thread about it exists (re-checked 2026-10-25), and the only independent coverage found is a Hysen Labs directory review (updated 2026-09-10) that is more skeptical than the star count suggests, so the adoption case rests on stars and the bilingual README's Chinese-language community distribution (a linux.do link sits in the README's friendly-links section).**
+**No Hacker News thread about it exists (re-checked 2026-11-14), and the only independent coverage found is a Hysen Labs directory review (updated 2026-09-10) that is more skeptical than the star count suggests, so the adoption case rests on stars and the bilingual README's Chinese-language community distribution (a linux.do link sits in the README's friendly-links section).**
 
 ## Strengths
 
@@ -70,6 +70,7 @@ Not for small changes, not for repos outside GitHub's tracker model, and not for
 - 2026-10-11 - Created from the task-management scan's cross-category flag, resolving zhu1090093659/spec_driven_develop into this category as the GitHub-native tracker column.
 - 2026-10-26 - Rotation re-verification of every cited source (all alive, the repository still quiet since 2026-07-26 with v1.15.0 the newest of the five July releases, the README's drift thresholds, S.U.P.E.R table, and LLM-Friendly Summary confirmed in place, still no Hacker News thread); no facts changed.
 - 2026-11-01 - Rotation re-verification of every cited source (all alive, the repository still pushed 2026-07-26 with v1.15.0 the newest release, both READMEs intact, the Hysen review reachable, still no Hacker News thread); no facts changed.
+- 2026-11-14 - Rotation re-verification of every cited source (all alive, the repository still pushed 2026-07-26 with v1.15.0 the newest of the five July releases, both READMEs intact with the drift thresholds, S.U.P.E.R table, and LLM-Friendly Summary confirmed in place, the Hysen review live and updated with the same analysis, still no Hacker News thread); no facts changed.
 
 ## See also
 
@@ -86,4 +87,4 @@ Not for small changes, not for repos outside GitHub's tracker model, and not for
 - https://raw.githubusercontent.com/zhu1090093659/spec_driven_develop/main/README.zh-CN.md - the Chinese README grounding the bilingual distribution claim
 - https://github.com/zhu1090093659/spec_driven_develop/releases.atom - the release history: five releases, all July 2026, through v1.15.0 (2026-07-26)
 - https://hysenlabs.com/en/projects/zhu1090093659-spec-driven-develop - the independent directory review (updated 2026-09-10), the critical source
-- https://hn.algolia.com/api/v1/search?query=zhu1090093659&hitsPerPage=5 - the missing Hacker News footprint, re-checked 2026-10-25
+- https://hn.algolia.com/api/v1/search?query=zhu1090093659&hitsPerPage=5 - the missing Hacker News footprint, re-checked 2026-11-14

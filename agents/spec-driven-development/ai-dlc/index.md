@@ -1,7 +1,7 @@
 ---
 title: AI-DLC
 created: 2026-10-06
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, sdlc, multi-agent, workflow, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Amazon's own docs position it as the successor to retrofitting AI onto human pro
 ## Status
 
 Large and fast-moving for an eleven-month-old methodology repo.
-As of 2026-10-14: 5,173 stars and 939 forks, created 2025-11-13; as of 2026-11-13, pushed 2026-11-13 with 306 open issues, stable release v2.11.4 (2026-11-13: one `--harness kiro` now serves Kiro IDE and Kiro CLI on its v3 engine, with Kiro CLI's V2 engine moved to `--harness kiro-v2` and the old `kiro-ide` name still working, breaking for scripts, and on Kiro you approve fewer of AI-DLC's commands, a long request pasted after `/aidlc` reaches the work whole, each team hand-over between people is one question, the three gaps 2.11.3 listed for team Units are closed, Inception reads your team's documents and asks only what they leave open, the knowledge base reads Word, Excel, and PDF files with nothing to install, Copilot CLI on Linux and macOS runs the routine commands without a dialog, plugins can add their own commands and house rules, and `/aidlc-issue-report` gathers what a run left behind with sensitive details removed) on top of v2.11.3 (2026-11-04, the native `aidlc` binary built with Bun 1.4.4 fixing CVE-2026-111497 in the bundled Brotli decoder), MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
+As of 2026-10-14: 5,173 stars and 939 forks, created 2025-11-13; as of 2026-11-14, pushed 2026-11-14 with 320 open issues, stable release v2.11.4 (2026-11-13: one `--harness kiro` now serves Kiro IDE and Kiro CLI on its v3 engine, with Kiro CLI's V2 engine moved to `--harness kiro-v2` and the old `kiro-ide` name still working, breaking for scripts, and on Kiro you approve fewer of AI-DLC's commands, a long request pasted after `/aidlc` reaches the work whole, each team hand-over between people is one question, the three gaps 2.11.3 listed for team Units are closed, Inception reads your team's documents and asks only what they leave open, the knowledge base reads Word, Excel, and PDF files with nothing to install, Copilot CLI on Linux and macOS runs the routine commands without a dialog, plugins can add their own commands and house rules, and `/aidlc-issue-report` gathers what a run left behind with sensitive details removed) on top of v2.11.3 (2026-11-04, the native `aidlc` binary built with Bun 1.4.4 fixing CVE-2026-111497 in the bundled Brotli decoder), MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&theme=dark&legend=top-left" />

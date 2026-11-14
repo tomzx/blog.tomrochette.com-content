@@ -1,7 +1,7 @@
 ---
 title: Sakana AI Scientist
 created: 2026-10-11
-updated: 2026-10-28
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, sakana-ai, paper-generation, open-source]
 readability: 3
@@ -74,6 +74,7 @@ Not for anyone choosing a maintained tool today: v1 and v2 are dormant under a c
 - 2026-10-11 - Created.
 - 2026-10-11 - Added the star history chart.
 - 2026-10-28 - Rotation re-verification found the lineage's continuation: recorded the Nature publication of the v1/v2 methodology paper (March 26, 2026) and the October 11, 2026 opening of AI-Scientist-v3 (The Agentic Scientist), the family's first standard-license, coding-agent-orchestrated loop (arXiv 2610.18933), with v3 added to the star history chart.
+- 2026-11-14 - Rotation re-verification: all ten references re-fetched and live (one api.github.com 403 retried through the authenticated API), with v1 and v2 still dormant since 2025-12-19 and v3 quiet since its October 18 push.
 
 ## See also
 

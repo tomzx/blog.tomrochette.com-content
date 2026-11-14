@@ -1,7 +1,7 @@
 ---
 title: Okto Pulse
 created: 2026-09-27
-updated: 2026-11-11
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, spec-driven-development, governance-gates, coding-agents, mcp, local-first]
 readability: 3
@@ -27,7 +27,7 @@ An embedded knowledge graph keeps decisions, constraints, bugs, and learnings qu
 
 ## Status
 
-Active and young: 52 stars (as of 2026-10-14), 2 forks, and 15 open issues as of 2026-11-11, created 2026-04-22, last pushed 2026-11-10, current PyPI version 0.4.2 (2026-10-28).
+Active and young: 52 stars (as of 2026-10-14), 2 forks, and 17 open issues as of 2026-11-14, created 2026-04-22, last default-branch push 2026-11-10 (the 2026-11-13 repository push a side branch), current PyPI version 0.4.2 (2026-10-28).
 **The star count halved in three days (110 on 2026-10-07 to 52 today) while the repository kept being pushed, the signature of a GitHub star purge rather than a user exodus, so treat every adoption number in this note as unstable.**
 
 <picture>
@@ -81,6 +81,7 @@ The README describes a possible SaaS edition and a core-and-community split, but
 - 2026-10-21 - PyPI moved to 0.4.1 (2026-10-20), a patch above the breaking 0.4.0.
 - 2026-10-30 - Full re-verification: PyPI reached 0.4.2 (2026-10-28, patched Authlib and filelock pins, MCP inventory no longer tied to a fixed count), okto-nexus reached 0.3.2 on PyPI, the product page caught up to v0.4.2 with 280+ MCP tools (the v0.2.6 lag and the 215-versus-285 disagreement recorded earlier are resolved), and the Nexus README defers its tool count to `tools/list`.
 - 2026-11-05 - Recorded the OktoLabsAI/okto-nexus fold under the vendor-sibling ruling (no separate note): the sibling README now documents single-winner work dispatch (handoffs with atomic claim, leases, rejection, cancellation, and opt-in verification and dependency-graph flags), eight harness runtime tools beside memory's three, and an R4 execution status that leaves final G0 to G3 acceptance open; PyPI holds at 0.3.2 while the README's own release table still says 0.3.0, and the sibling repo pushed 2026-11-02.
+- 2026-11-14 - Full rotation re-verification: every cited URL re-fetched and live, no drift (the product page still advertising v0.4.2 with 17 named governance gates and 280+ MCP tools, the Neuron page unchanged at 0.3.1 with byte-range provenance and five MCP tools, the README's platform table still reading 285 tools under its "Current 0.4.0 implementation surface" heading, the docs site serving, and the sibling at PyPI 0.3.2 with its repository pushed 2026-11-10), and the counters refreshed (17 open issues, the 2026-11-13 repository push a side branch with the default branch on 2026-11-10).
 
 ## See also
 

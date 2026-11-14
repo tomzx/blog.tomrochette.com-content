@@ -1,7 +1,7 @@
 ---
 title: CC Safety Net
 created: 2026-10-07
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, guardrails, security, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, single-repo open source, with full documentation at ccsafetynet.com.
 
 ## Status
 
-Actively maintained with no Hacker News help: 1,615 stars, 84 forks, and 5 open issues as of 2026-11-13, created 2025-12-25, pushed 2026-11-12.
+Actively maintained with no Hacker News help: 1,615 stars, 84 forks, and 11 open issues and pull requests as of 2026-11-14, created 2025-12-25, pushed 2026-11-14 with the default branch's latest commit on 2026-11-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&theme=dark&legend=top-left" />

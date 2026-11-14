@@ -1,7 +1,7 @@
 ---
 title: Owain Lewis
 created: 2026-09-24
-updated: 2026-10-29
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, agentic-coding, software-factory, claude-code]
 readability: 3
@@ -23,8 +23,8 @@ Uploads run about weekly, and descriptions read like engineering writeups that s
 
 ## Status
 
-Active and steady at modest scale as of 2026-10-29.
-The channel was created 2014-07-20 and shows 19K subscribers; the latest upload is "How Anthropic Reviews 30,000 Claude Code Changes a Day" (2026-10-26, 12,788 views within three days), a breakdown of the Claude Code team's layered review process that doubles as a demo of his Software Factory plugin, the 19th upload between 2026-05-15 and 2026-10-26, roughly one per week, reconfirmed against the RSS feed, after "My COMPLETE Workflow for Building Production AI Agents" (2026-10-12, about 21,561 views as of 2026-10-29).
+Active and steady at modest scale as of 2026-11-14.
+The channel was created 2014-07-20 and shows 19K subscribers; the latest upload is "Google's NEW Approach to Spec-Driven Development with Claude Code" (2026-11-11, 30,461 views within three days, his strongest launch since the July factory video), a walkthrough of Google's EGM spec-driven-development plugin for Claude Code and Codex, the 21st upload between 2026-05-15 and 2026-11-11, roughly one per week, reconfirmed against the RSS feed, after "Claude Code + Linear = An ENTIRE AI Team" (2026-11-02, 10,789 views) and "How Anthropic Reviews 30,000 Claude Code Changes a Day" (2026-10-26, 18,016 views as of 2026-11-14).
 The 2026-10-05 DevOps-agent upload reached 12,947 views and the 2026-09-28 "JEV Explained" sat at 10,555, while the 2026-09-21 "Inside OpenAI's Agentic Software Factory" climbed to 24,153 (all as of 2026-10-24).
 Reach concentrates in the factory videos: "I Built an Agentic Software Factory" (2026-07-25) is his biggest recent at 82,379 views, while most uploads land between 3,000 and 30,000.
 Trajectory is upward without a breakout, and his roughly 1.2K combined GitHub stars across the pinned repos carry more durable weight than the sub count suggests.
@@ -38,15 +38,15 @@ Trajectory is upward without a breakout, and his roughly 1.2K combined GitHub st
 
 ## Cautions
 
-- The funnel has graduated from email capture to paid membership: descriptions now point at his $67/month Skool community ("work with me"), the newest video carries a Google Cloud sponsorship, and the aiengineer.co email capture persists in older descriptions, so treat the free-skills funnel as the business model it is.
+- The funnel has layered rather than narrowed: the newest descriptions lead with a free "AI developer" Skool community (293 members as of 2026-11-14) ahead of the paid one, the paid AI Engineer community still lists at $67/month (167 members as of 2026-11-14), the newest video carries a Google Cloud sponsorship, and the aiengineer.co email capture persists in older descriptions, so treat the free-skills funnel as the business model it is.
 - The scope is one-person consultancy scale: his factory runs his backlog, not a regulated enterprise codebase, so transplant the patterns rather than the numbers.
 - No critical community filter exists: Hacker News has zero threads on his channel content (searched again 2026-10-24), so his techniques have not been stress-tested in public argument.
 - View counts are modest, so the community surface for catching errors in his techniques is thin.
 
 ## Pricing
 
-The videos are free to watch (as of 2026-10-24).
-The funnel around them is paid: his "AI Engineer" Skool community lists at $67/month (150 members as of 2026-10-24), the aiengineer.co starter resources remain a free email capture, and the newest video adds sponsor revenue (Google Cloud).
+The videos are free to watch (as of 2026-11-14).
+The funnel around them is paid-first but now runs a free tier: his "AI Engineer" Skool community lists at $67/month (167 members as of 2026-11-14), a second free "AI developer" community (293 members as of 2026-11-14) leads the newest descriptions, the aiengineer.co starter resources remain a free email capture, and the newest video adds sponsor revenue (Google Cloud).
 
 ## Price history
 
@@ -81,6 +81,7 @@ Not for someone who wants model-release news, enterprise-scale case studies, or 
 - 2026-10-06 - New upload "I Built A Claude DevOps Agent To Run My Software Factory" (2026-10-05) became the latest, making 17 uploads between May 15 and October 5, 2026; Status and the reference line updated (feed fetched this run).
 - 2026-10-24 - New upload "My COMPLETE Workflow for Building Production AI Agents" (2026-10-12) became the latest, making 18 uploads between May 15 and October 12, 2026; the funnel shift to the $67/month Skool community and the first Google Cloud sponsorship recorded in Cautions, and the Pricing and Price history sections added (Skool page, feeds, and searches fetched this run).
 - 2026-10-29 - New upload "How Anthropic Reviews 30,000 Claude Code Changes a Day" (2026-10-26) became the latest, making 19 uploads between May 15 and October 26, 2026; RSS feed fetched this run.
+- 2026-11-14 - Rotation re-verification, every cited URL re-fetched and live: two new uploads ("Claude Code + Linear = An ENTIRE AI Team", 2026-11-02, and "Google's NEW Approach to Spec-Driven Development with Claude Code", 2026-11-11) make 21 uploads between May 15 and November 11, 2026, and the newest descriptions lead with a free "AI developer" Skool community alongside the paid one; Cautions and Pricing updated, the free community added to References (feed, Skool pages, and video URLs fetched this run).
 
 ## See also
 
@@ -94,6 +95,7 @@ Not for someone who wants model-release news, enterprise-scale case studies, or 
 - https://www.youtube.com/@owainlewis - the channel: identity and 19K subscribers as of 2026-10-04
 - https://www.youtube.com/feeds/videos.xml?channel_id=UC08YjBHjjPFu8T1KbHGomnQ - the RSS feed that grounds cadence, titles, dates, view counts, and the 2014-07-20 channel creation through the 2026-10-12 upload (uploads-tab fetches still render as JavaScript shells)
 - https://www.skool.com/aiengineer/about - the $67/month Skool community the newest descriptions funnel to: pricing, member count, and what the membership includes
+- https://www.skool.com/ai-developer/about - the free "AI developer" community the newest descriptions now lead with: free membership and member count as of 2026-11-14
 - https://github.com/owainlewis - the GitHub profile linking this channel, with bio, location, and pinned repo star counts
 - https://owainlewis.com - the personal site: positioning, newsletter, and community links
 - https://aiengineer.co/start - the free starter pack and email funnel behind the older video descriptions, now sharing description space with the Skool community link

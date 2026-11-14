@@ -1,7 +1,7 @@
 ---
 title: CrowdStrike Falcon Guardian
 created: 2026-10-04
-updated: 2026-11-07
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, governance, security]
 readability: 3
@@ -66,6 +66,7 @@ Not for teams whose agents run outside managed endpoints, and not for anyone who
 - 2026-10-23 - Rotation re-verification: every reference re-fetched, the product page still carrying the 99 percent and sub-100-millisecond internal-benchmark claims with the AI gateway still marked coming soon, the launch blog (September 1) and AIDR solution page unchanged, the docs path still a client-rendered shell, and the Reddit thread still 403 to scripted fetch; no drift found.
 - 2026-10-30 - Rotation re-verification: every reference re-fetched with the same result set, the product page still carrying the internal-benchmark claims with the AI gateway still marked coming soon (the FAQ now naming 200-plus prompt-injection techniques), the launch blog and AIDR solution page unchanged, the docs path still a client-rendered shell, and the Reddit thread still 403 to scripted fetch; no drift found.
 - 2026-11-07 - Full rotation re-verification with drift: the product page and solution page were reworked for the Fal.Con Europe 2026-11-03 announcements, the 99 percent and sub-100-millisecond claims no longer appear on either page, the Falcon AI Gateway is now generally available and included with Guardian, agent-level hooks are available for Claude Code, OpenAI Codex, GitHub Copilot, OpenCode, and Cursor, an AI kill switch shipped at gateway enforcement, cloud coverage and the Claude Cowork integration are pre-beta, and named customers and the SafeMind-with-NVIDIA attribution were added; the launch blog (September 1) unchanged, the docs path still a client-rendered shell, the Reddit thread still 403 to scripted fetch, and the Fal.Con Europe advances blog added as a reference.
+- 2026-11-14 - Full rotation re-verification: every reference re-fetched and live, no drift (the product page still carrying the gateway GA, the five-agent hooks, the live kill switch with per-agent-type gateway enforcement as coming soon, Agent Graph, the SafeMind attribution, and the Cogentrix and TaxSlayer customer stories; the launch blog and the Fal.Con Europe advances blog unchanged; the docs path still a client-rendered shell; the Reddit thread still 403 to scripted fetch).
 
 ## See also
 

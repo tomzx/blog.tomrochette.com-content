@@ -1,7 +1,7 @@
 ---
 title: Agent Barn
 created: 2026-11-05
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, agent-operations, multi-tenant, kubernetes, self-hosted, open-source]
 readability: 3
@@ -27,7 +27,7 @@ Built by AAI Labs, a company in Vilnius, Lithuania.
 
 ## Status
 
-Active and young: 111 stars, 7 forks, and 19 open issues as of 2026-11-05 (18 open issues as of 2026-11-13), created 2026-05-05, with the 2026-11-13 repository push coming from a side branch and the default branch's latest commit on 2026-11-11, and a steady release train (v0.20.0 on 2026-10-21, v0.20.1 on 2026-10-26, v0.21.0 on 2026-10-29, v0.22.0 on 2026-11-11).
+Active and young: 111 stars, 7 forks, and 19 open issues as of 2026-11-14 (18 open issues as of 2026-11-13), created 2026-05-05, with the 2026-11-14 repository push coming from a side branch and the default branch's latest commit on 2026-11-11, and a steady release train (v0.20.0 on 2026-10-21, v0.20.1 on 2026-10-26, v0.21.0 on 2026-10-29, v0.22.0 on 2026-11-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aai-labs/agent-barn&type=date&theme=dark&legend=top-left" />
