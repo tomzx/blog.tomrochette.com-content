@@ -1,7 +1,7 @@
 ---
 title: AI Unified Process
 created: 2026-10-17
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, use-cases, methodology, rup, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Coverage moved into core with the layer model: `/use-case-coverage` judges imple
 
 ## Status
 
-Active and authored: 146 stars, 26 forks, and 4 open issues as of 2026-10-31, Apache-2.0, created 2026-02-28 (star and fork counts unchanged from the 2026-10-17 baseline); as of 2026-11-12, pushed 2026-11-11 with a fifth coordinated release wave on 2026-11-10 to 11 (aiup-core v3.16.0 and v3.16.1: `/test-case` now updates an existing test case, `/architecture-decision` links an ADR to a requirement, the test orchestrators check the specification's status first, the legacy German GR-NNN business-rule prefix is dropped, and the use-case diagram draws each use case in the color of its status, with `run-local.sh` running the Werkstatt on your own machine and patch waves to the layer plugins) on top of the waves that rebuilt the plugin model, deprecated the two combined stack plugins, and shipped contract-first REST construction (2026-10-27 to 28: Vaadin v3.4.0, Spring Boot v3.4.1, Playwright v3.2.1).
+Active and authored: 146 stars, 26 forks, and 4 open issues as of 2026-10-31, Apache-2.0, created 2026-02-28 (star and fork counts unchanged from the 2026-10-17 baseline); as of 2026-11-13, pushed 2026-11-12 with a sixth release wave on 2026-11-12 (aiup-core v3.17.1 and v3.18.0: open questions render one field per line, `/next` names `/stack` right after the entity model, use-case specs write only business-realistic alternative flows, and one session per skill run, with layer-plugin patches beside) following the fifth coordinated wave on 2026-11-10 to 11 (aiup-core v3.16.0 and v3.16.1: `/test-case` now updates an existing test case, `/architecture-decision` links an ADR to a requirement, the test orchestrators check the specification's status first, the legacy German GR-NNN business-rule prefix is dropped, and the use-case diagram draws each use case in the color of its status, with `run-local.sh` running the Werkstatt on your own machine and patch waves to the layer plugins) on top of the waves that rebuilt the plugin model, deprecated the two combined stack plugins, and shipped contract-first REST construction (2026-10-27 to 28: Vaadin v3.4.0, Spring Boot v3.4.1, Playwright v3.2.1).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AI-Unified-Process/marketplace&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ The disagreeable claim I will defend: spec-kit taught the industry to write spec
 - 2026-10-31 - Rotation re-verification of every cited source (all alive, the field report and footprint unchanged, pricing unchanged on the site): recorded the third release wave (2026-10-27 to 28: Vaadin v3.4.0, Spring Boot v3.4.1, Playwright v3.2.1, contract-first REST construction from OpenAPI contracts, mockup-driven UI layouts) and refreshed the repository facts.
 - 2026-11-07 - Recorded the fourth release wave (2026-11-04: aiup-core v3.13.0 with a spec-review warning when a use case changed after its status was set, Vaadin v3.5.0, and patches to the deprecated combined plugins) and refreshed the status date.
 - 2026-11-12 - Recorded the fifth release wave (2026-11-10 to 11: aiup-core v3.16.0 and v3.16.1 with test-case updates, ADR-to-requirement links, status-first checks in the test orchestrators, the German GR-NNN business-rule prefix dropped, status-colored use-case diagrams, and the run-local.sh local Werkstatt runner, with layer-plugin patches beside) and refreshed the status date.
+- 2026-11-13 - Recorded the sixth release wave (2026-11-12: aiup-core v3.17.1 rendering open questions one field per line and v3.18.0 naming /stack right after the entity model, writing only business-realistic alternative flows in use-case specs, and running one session per skill run, with layer-plugin patches beside) and refreshed the status date.
 
 ## See also
 
@@ -96,5 +97,5 @@ The disagreeable claim I will defend: spec-kit taught the industry to write spec
 - https://unifiedprocess.ai/ - the methodology site: positioning, testimonials, pricing, the book, and Studio
 - https://martinelli.ch/spec-driven-development-with-ai-a-new-approach-and-a-journey-into-the-past/ - the steward's origin post grounding the RUP lineage and the requirements-as-source-of-truth thesis
 - https://korhan.org/blog/eine-einfache-fallverwaltung-nach-dem-ai-unified-process/ - the independent field report (2026-10-06), the critical source: coverage findings, the review-time warning, and the spec-gap admissions
-- https://api.github.com/repos/AI-Unified-Process/marketplace/releases - the plugin release waves through the 2026-11-10 round (aiup-core v3.16.1, Vaadin v3.7.1), fetched 2026-11-12
+- https://api.github.com/repos/AI-Unified-Process/marketplace/releases - the plugin release waves through the 2026-11-12 round (aiup-core v3.18.0, vaadin-jooq v2.25.6, angular-jpa v0.12.6), fetched 2026-11-13
 - https://hn.algolia.com/api/v1/search?query=%22AI+Unified+Process%22&hitsPerPage=8 - the footprint check: one independent endorsement comment, no thread of its own, and the aiup.dev name collision

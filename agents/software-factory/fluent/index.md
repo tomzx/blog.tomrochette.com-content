@@ -1,7 +1,7 @@
 ---
 title: "Fluent"
 created: 2026-08-29
-updated: 2026-11-01
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, self-improving, autonomous-agents]
 readability: 3
@@ -20,7 +20,7 @@ Each run of a Work Item is an Attempt that a Writer, parallel Reviewers, a deter
 
 ## Status
 
-Active and shipping: 112 stars and 7 forks since creation on 2026-07-10, v0.6.0 released 2026-10-11 five days after v0.5.0 (2026-10-06), per the GitHub API as of 2026-10-13.
+Active and shipping: 112 stars and 7 forks since creation on 2026-07-10, v0.8.0 released 2026-11-11 with v0.7.0 (2026-11-01) ten days before it, pushed 2026-11-11, per the GitHub API as of 2026-11-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mrinalwadhwa/fluent&type=date&theme=dark&legend=top-left" />
@@ -29,6 +29,8 @@ Active and shipping: 112 stars and 7 forks since creation on 2026-07-10, v0.6.0 
 </picture>
 
 v0.6.0 (2026-10-11) is a source-only release candidate preparing the move from local Work to a shared service: it binds Writer inputs to the exact bytes a provider read, binds Tester, review, and landing evidence to the current candidate and its accepted baseline, and its notes state there is no rehearsed rollback to v0.5.0 once the newer binary writes Work or publication state.
+v0.7.0 (2026-11-01) fixes the two failures that release cycle exposed, a Claude Writer losing its conversation after its first commit (issue #4) and a reviewed change unable to land after a branch change, and gives Writers and Testers access to npm and npx inside the macOS sandbox; once v0.7.0 has written to a Work Item, older binaries refuse to change it.
+v0.8.0 (2026-11-11) expands the dashboard into a place to inspect Work, watch workers, and run supported local actions, keeps navigation responsive during source reads, and adds explicit approval for Tester commands that need access to the macOS process table.
 v0.5.0 tightens the evidence a candidate needs to advance: verification now tracks each required command and its accepted proof through correction, targeted review, and the final Tester, and interrupted Writer and recovery paths preserve their original evidence across retries.
 v0.4.0 had clarified which role owns each required action, and v0.3.0 (2026-08-31) added durable Slack collaboration for planning, approvals, and candidate handoff.
 It is a focused single-author project with a Discord community behind it, and v0.5.0 keeps the verified workflow local-macOS-only, with Fargate execution outside the release's readiness claim.
@@ -76,6 +78,7 @@ Not for the one-off feature, which a simpler pipeline or a single agent handles 
 - 2026-10-21 - Rotation re-verification: every cited URL re-fetched (repository, the five release-notes documents from v0.2.0 through v0.6.0, fluent.computer, the Discord invite via the invite API, and agentskills.io) and all claims confirmed, including v0.6.0 still the newest release, no push since 2026-10-11, and the live Software Factories Discord (30 members); no material change.
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched (repository via the API, the five release-notes documents from v0.2.0 through v0.6.0, fluent.computer, the Discord invite via the invite API, and agentskills.io) and all claims confirmed, including v0.6.0 still the newest release, no push since 2026-10-11, and the live Software Factories Discord (39 members); no material change.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched (repository via the API and README, the five release-notes documents from v0.2.0 through v0.6.0, fluent.computer, the Discord invite via the invite API, and agentskills.io) and all claims confirmed, including v0.6.0 still the newest release, no push since 2026-10-11, and the live Software Factories Discord (invite valid and the guild name confirmed; the invite API no longer reports a member count); no material change.
+- 2026-11-13 - Recorded the v0.7.0 release (2026-11-01, the Claude Writer conversation-resume fix from issue #4, the post-branch-change landing fix, and npm and npx available inside the macOS sandbox) and the v0.8.0 release (2026-11-11, the dashboard expanded to inspect Work, watch workers, and run local actions, plus explicit approval for Tester commands needing the macOS process table); pushed date refreshed.
 
 ## See also
 

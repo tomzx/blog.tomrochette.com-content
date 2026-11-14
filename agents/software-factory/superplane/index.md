@@ -1,7 +1,7 @@
 ---
 title: SuperPlane
 created: 2026-10-07
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The core is Apache-2.0 with integrations across source control, CI, cloud, obser
 
 ## Status
 
-Active: 7,709 stars as of 2026-10-14, 692 forks and 213 open issues as of 2026-11-07, pushed 2026-11-06, per the GitHub API.
+Active: 7,709 stars as of 2026-10-14, 707 forks and 238 open issues as of 2026-11-13, pushed 2026-11-13, per the GitHub API.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&theme=dark&legend=top-left" />
@@ -42,7 +42,7 @@ The repository now carries the software-factory topic and the website and docs s
 
 ## Cautions
 
-- **v1.0.0 is eleven days old**: the first stable platform tag landed 2026-10-27 against daily main pushes, so the gap from v0.30.0 (2026-07-27) means tag-tracking self-hosters jump three months of main at once, and the stable train's own track record is one release; the component train holds at runner v0.2.1 and fleet-manager v0.1.7.
+- **v1.0.0 is still the only stable platform tag seventeen days later**: the first stable platform tag landed 2026-10-27 against daily main pushes (the 2026-11-13 main commit enables per-organization Enterprise features and is unreleased), so tag-tracking self-hosters jump three months of main at once, and the stable train's own track record is one release; the component train holds at runner v0.2.1 and fleet-manager v0.1.7.
 - **Open-core split**: the /ee directory sits under a separate Enterprise Edition license, and GitHub cannot classify the result.
 - **Young platform surface**: 463 open issues and a January control-plane-to-factory pivot mean the docs story is still settling.
 - **It is broader than a factory**: workflow automation across observability and incidents puts it in workflow-platform territory too, which dilutes the factory comparison.
@@ -50,14 +50,16 @@ The repository now carries the software-factory topic and the website and docs s
 ## Pricing
 
 The engine is open source and free to self-host with community support.
-The website published its first plans (as of 2026-10-10, re-verified 2026-10-11): Business at $199 per organization per month with unlimited team members and $50 in shared monthly usage for machines and managed models, OSS Projects free for qualifying open source projects, and Enterprise custom with air-gapped installation and audit logs.
-Beyond the included usage, managed machines bill per minute ($0.00012 to $0.01 by size) and managed model usage bills at provider rate plus 10 percent, deducted from a prepaid balance.
+The website's plans (repriced between 2026-10-10 and 2026-11-13, as fetched 2026-11-13): Pay-as-you-go at $0 per month plus usage with 10 seats and up to 5 tasks in parallel, Starter at $20 per organization per month plus usage with unlimited parallel tasks, Team at $50 per user per month plus usage with up to 50 seats and bring-your-own API keys, and Enterprise custom with enterprise integrations, access controls, and priority support.
+The former Business plan at $199 per organization per month with $50 shared monthly usage and the free OSS Projects tier no longer appear on the page.
+Usage bills through prepaid credits: provider rate plus 10 percent on SuperPlane-provided tokens, with no markup when you connect your own subscriptions or API keys.
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-10-10 | Business | First published pricing: Business $199 per organization per month with $50 shared monthly usage and unlimited team members, OSS Projects free, Enterprise custom. | [superplane.com/pricing](https://superplane.com/pricing/) |
+| 2026-11-13 | All plans | Business $199 per organization per month replaced by Pay-as-you-go ($0 plus usage, 10 seats, 5 parallel tasks), Starter ($20 per organization per month), and Team ($50 per user per month, up to 50 seats, BYO keys); the OSS Projects free tier no longer appears; usage bills at provider rate plus 10 percent on SuperPlane-provided tokens, no markup on your own keys. | [superplane.com/pricing](https://superplane.com/pricing/) |
 
 ## Compared to
 
@@ -82,6 +84,7 @@ Not for local-first, single-repo loops, and not for anyone who needs a stable re
 - 2026-10-25 - Recorded the RC train advancing to v1.0.0-rc6 (2026-10-23) and v1.0.0-rc7 (2026-10-24) and fleet-manager reaching v0.1.6 (2026-10-24); v0.30.0 remains the newest stable platform tag; pushed date refreshed.
 - 2026-10-28 - Recorded the v1.0.0 stable release (2026-10-27, the first stable platform tag, after rc8 and rc9 the same morning closed the rc1-through-rc9 train) and its Backlog-Implement-Verify-Done framing from the release notes, ending the stable-tags-lag-main caution; pushed date refreshed.
 - 2026-10-31 - Recorded fleet-manager v0.1.7 (2026-10-28, a container image and chart digest bump with no feature notes) advancing the component train; pushed date refreshed.
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched (repository and releases via the API, the site, the docs overview, the LICENSE files, the pricing page, the Show HN thread, and the founder profile) and all claims confirmed except pricing; recorded the repricing (Business $199 per organization per month replaced by Pay-as-you-go $0 plus usage, Starter $20 per organization per month, and Team $50 per user per month, the OSS Projects free tier gone, usage at provider rate plus 10 percent on SuperPlane-provided tokens), with the Price history row appended; pushed and counts refreshed, no release past fleet-manager v0.1.7.
 
 ## See also
 

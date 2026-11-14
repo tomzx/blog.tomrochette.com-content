@@ -1,7 +1,7 @@
 ---
 title: Zeroshot
 created: 2026-10-10
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, review-loop, multi-agent]
 readability: 3
@@ -22,8 +22,9 @@ Delivery is a ladder you opt into, from keep-it-local through --push, --pr, and 
 ## Status
 
 Active and shipping: 1,969 stars since creation on 2025-12-25, per the GitHub API as of 2026-10-13.
-Pushed 2026-11-07, with the train at v11.1.0 (2026-11-05, npm in sync), per the GitHub API and the npm registry as of 2026-11-07.
+Pushed 2026-11-12, with the train at v15.0.0 (2026-11-10, npm `latest` in sync at 15.0.0), per the GitHub API and the npm registry as of 2026-11-13.
 **The v11.0.0 major (2026-11-02) broke interface again, splitting delivery evidence out of graph output so a successful native Git delivery no longer depends on the graph echoing a receipt (the Python SDK exposes `RunResult.delivery_receipt`), and v11.1.0 (2026-11-05) added a second built-in template, code-review, whose triage partitions a pull request into units for four per-unit reviewers beside five whole-change specialists without installing dependencies or starting the app, plus local script bindings that let a typed graph step run a plain executable exchanging validated JSON over stdin, a `workspaceCheckpoints` opt-out, and host-chosen commit identity for delivered commits.**
+**The train then ran four majors in two days: v12.0.0 made machine-size identifiers target-owned with a `zeroshot target sizes` catalog command, v13.0.0 stopped sending the shell's GH_TOKEN to named targets unless you opt in (an ambient token silently replaced the target's stored GitHub connection), v14.0.0 published the forge-adapter target-reconciliation contract, v14.1.0 added trusted delivery validation for hosted runs, including independently verified no-change outcomes, and v15.0.0 gave Active Memory independent per-injection limits (16,000 approximate tokens for node guidance, 8,000 for repository hooks) and expanded postmortem authority (all between 2026-11-09 and 2026-11-10, npm in sync).**
 The same release cycle rewrote the README across eleven documentation pull requests, now positioning zeroshot as a multi-agent orchestration framework for autonomous software development with the tagline "Independent, adversarial review with mechanically enforced execution."
 v10.17.0 added Active Memory for local and Docker runs, and v10.18.0 (2026-10-24) rebrands Zeroshot Cloud as Zeroshot Platform across the CLI, docs, and SDKs, its notes stating the old $100 Cloud pricing is no longer stated anywhere.
 
@@ -47,7 +48,7 @@ v8 was a hard interface cutover that replaced a Node.js runtime with the native 
 
 - **Acceptance is LLM judgment, not a deterministic gate**: the README states coverage depends on the requirements, reviewers, tests, and environment you provide, a weaker guarantee than Fluent's final Tester or Ouroboros' mechanical first stage.
 - Local runs edit the current git worktree with no isolation, so isolation means standing up the Docker target.
-- Thin independent evaluation, and the v8 and v11.0.0 cutovers show interface stability is not a promise.
+- Thin independent evaluation, and the v8 and v11.0.0 cutovers show interface stability is not a promise; v12.0.0 through v15.0.0 broke interface four more times in the two days after v11.1.0.
 - Zeroshot Platform (Cloud until the v10.18.0 rebrand) has no published prices, the v10.15.0 README stopped advertising it entirely, and the v10.18.0 notes confirm the old $100 price is no longer stated anywhere.
 
 ## Pricing
@@ -79,6 +80,7 @@ Not for teams that require a deterministic final gate, third-party validation fi
 - 2026-10-28 - Recorded the train to v10.19.1 (2026-10-26, npm in sync): the guided zeroshot-graph-design interview skill and the Platform endpoint move to app.zeroshot.sh in v10.19.0, and Python SDK publishing fixes plus bundled-harness updates in v10.19.1.
 - 2026-10-31 - Recorded the train to v10.24.0 (2026-10-31, npm in sync): host context with Git and checkpoint hardening (v10.20.0), caller-declared model context and output limits (v10.21.0), adapter isolation with contributed OpenCode and Hermes harnesses (v10.22.0, contributors maintain them, Platform admits core only), template-graph terminal trees (v10.23.0), and Active Memory lesson reconciliation extended to hosted runs (v10.24.0); the README now links GitHub Issues and a CONTRIBUTING.md, replacing the declining-contributions claim, and the What-it-is harness roster updated.
 - 2026-11-07 - Recorded the v11.0.0 major (2026-11-02, delivery evidence separated from graph output, the Python SDK's `delivery_receipt`) and v11.1.0 (2026-11-05, npm in sync): the code-review built-in template (four per-unit reviewers beside five whole-change specialists, no dependency install or app start), local script bindings on typed graph steps, a workspaceCheckpoints opt-out, and host-chosen commit identity; the README's eleven-PR rewrite repositions zeroshot as a multi-agent orchestration framework and removes the starred-by badge, and the footprint line corrected to two 2-point June threads.
+- 2026-11-13 - Recorded the train passing v11.1.0 to reach v15.0.0 (2026-11-10, npm `latest` in sync): four majors in two days, v12.0.0's target-owned machine-size identifiers, v13.0.0's opt-in GH_TOKEN forwarding to named targets (closing the ambient-token override), v14.0.0's forge-adapter target-reconciliation contract, v14.1.0's trusted delivery validation with verified no-change outcomes, and v15.0.0's Active Memory per-injection limits and expanded postmortem authority; pushed date refreshed.
 
 ## See also
 
@@ -92,8 +94,8 @@ Not for teams that require a deterministic final gate, third-party validation fi
 - https://github.com/the-open-engine/zeroshot - repository, the built-in workflow, delivery ladder, install methods, and license
 - https://zeroshot.sh/docs/ - the graph, runtime plan, and ledger model, and the three run targets
 - https://cloud.zeroshot.sh/docs - Zeroshot Platform's managed target (Cloud before the v10.18.0 rebrand), the reviewers-never-edit model, and the absence of published prices
-- https://registry.npmjs.org/@the-open-engine-company%2Fzeroshot - the npm package, 11.1.0 latest as of 2026-11-07
-- https://api.github.com/repos/the-open-engine/zeroshot/releases - the release train, v11.1.0 newest as of 2026-11-07, the delivery-evidence split in the v11.0.0 notes, the code-review template, script bindings, checkpoint opt-out, and commit identity in the v11.1.0 notes, the README rewrite and badge removal across the v11.1.0 documentation pull requests, the contributed-harness and adapter-isolation features in the v10.20.0 through v10.24.0 notes, the Pi harness in the v10.14.0 notes, the Cloud de-advertising in the v10.15.0 notes, and the Active Memory and Platform rebrand in the v10.17.0 and v10.18.0 notes
+- https://registry.npmjs.org/@the-open-engine-company%2Fzeroshot - the npm package, 15.0.0 latest as of 2026-11-13
+- https://api.github.com/repos/the-open-engine/zeroshot/releases - the release train, v15.0.0 newest as of 2026-11-13, the delivery-evidence split in the v11.0.0 notes, the code-review template, script bindings, checkpoint opt-out, and commit identity in the v11.1.0 notes, the target-owned machine sizes in the v12.0.0 notes, the opt-in GH_TOKEN forwarding in the v13.0.0 notes, the forge reconciliation contract in the v14.0.0 notes, trusted delivery validation in the v14.1.0 notes, and the Active Memory limits and postmortem authority in the v15.0.0 notes, the README rewrite and badge removal across the v11.1.0 documentation pull requests, the contributed-harness and adapter-isolation features in the v10.20.0 through v10.24.0 notes, the Pi harness in the v10.14.0 notes, the Cloud de-advertising in the v10.15.0 notes, and the Active Memory and Platform rebrand in the v10.17.0 and v10.18.0 notes
 - https://raw.githubusercontent.com/the-open-engine/zeroshot/main/docs/project/harness-adapters.md - the harness registry: four core adapters product-maintained, contributor-maintained OpenCode and Hermes adapters, and Platform's core-only admission
 - https://news.ycombinator.com/item?id=48599820 - the 2-point June 2026 thread, the thin independent footprint this note records
 - https://github.com/varun1505/awesome-software-factories - the third-party curated list that surfaced this note

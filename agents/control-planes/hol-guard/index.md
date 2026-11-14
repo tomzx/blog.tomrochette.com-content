@@ -1,7 +1,7 @@
 ---
 title: HOL Guard
 created: 2026-10-09
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, guardrails, receipts, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The vendor is HOL, a consortium (its site lists 34 ecosystem partners and 65 pub
 
 ## Status
 
-Active and shipping fast: 879 stars and 153 forks as of 2026-10-18, with 93 open issues and pull requests and the latest push on 2026-11-11 as of 2026-11-11, created 2026-03-28, with v3.59.0 (2026-11-04) still the latest version tag beside the automated extension-artifacts release train, PyPI in step at 3.59.0.
+Active and shipping fast: 879 stars and 153 forks as of 2026-10-18, with 82 open issues and pull requests and the latest push on 2026-11-13 as of 2026-11-13, created 2026-03-28, with v3.59.0 (2026-11-04) still the latest version tag beside the automated extension-artifacts release train, PyPI in step at 3.59.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hashgraph-online/hol-guard&type=date&theme=dark&legend=top-left" />

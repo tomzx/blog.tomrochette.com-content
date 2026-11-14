@@ -1,7 +1,7 @@
 ---
 title: CC Safety Net
 created: 2026-10-07
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, guardrails, security, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, single-repo open source, with full documentation at ccsafetynet.com.
 
 ## Status
 
-Actively maintained with no Hacker News help: 1,615 stars, 84 forks, and 3 open issues as of 2026-11-11, created 2025-12-25, pushed 2026-11-11.
+Actively maintained with no Hacker News help: 1,615 stars, 84 forks, and 5 open issues as of 2026-11-13, created 2025-12-25, pushed 2026-11-12.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Actively maintained with no Hacker News help: 1,615 stars, 84 forks, and 3 open 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&legend=top-left" />
 </picture>
 
-The npm package (`cc-safety-net`) is at 2.7.10 as of 2026-11-11, first published 2026-01-03 and last published 2026-11-11, so the release cadence is measured in days.
+The npm package (`cc-safety-net`) is at 2.7.12 as of 2026-11-13, first published 2026-01-03 and last published 2026-11-12, so the release cadence is measured in days.
 **A Hacker News search returns zero threads as of 2026-10-07, so ten months of growth came through npm and GitHub alone, and the missing community footprint means the security claims have no public adversarial review I could find.**
 
 ## Strengths
@@ -84,6 +84,7 @@ Not for org-scale governance, audited enforcement, or anything where a silently 
 - 2026-11-07 - npm train moved to 2.7.4 (published 2026-11-06): PowerShell here-strings with CR line breaks and expansions now parse instead of passing through, and the counters refreshed (pushed 2026-11-06).
 - 2026-11-08 - npm train moved to 2.7.5 (published 2026-11-08, release v2.7.5): shell tools that run their commands on another machine (an adb-shell or ssh-backed plugin tool) can be declared with `--no-cwd-arg` or `cwd: false`, so their commands are analyzed instead of passing unchecked.
 - 2026-11-11 - npm train moved through 2.7.6 (2026-11-08, user and project policy files readable and writable again on Windows across affected Node.js versions), 2.7.7 and 2.7.8 (2026-11-09, standard mode stopped treating an `ssh`, `scp`, or `sftp -i` identity file as a secret read), and 2.7.9 (2026-11-10, Windows backslash paths and colon-attached PowerShell parameters such as `Get-Content -Path:C:\\proj\\.env` now parse, closing unblocked secret reads), to 2.7.10 (2026-11-11, a `.startswith(".env")` literal counts as data instead of secret access, a false-positive fix); the counters refreshed (3 open issues, pushed 2026-11-11).
+- 2026-11-13 - npm train moved to 2.7.11 (2026-11-11, a quoted heredoc passed to a data sink is no longer scanned as shell text when a wrapper or environment assignment precedes the sink, with `CC_SAFETY_NET_PROJECT_TIGHTEN_ONLY` now honoring only wrappers declared in the user's own policy) and 2.7.12 (2026-11-12, PowerShell recursive `Remove-Item` deletes outside the working directory are now judged on `-Recurse` alone instead of requiring `-Force` alongside it); the counters refreshed (5 open issues, pushed 2026-11-12).
 
 ## See also
 

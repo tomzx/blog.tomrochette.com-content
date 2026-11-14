@@ -1,7 +1,7 @@
 ---
 title: Task Master
 created: 2026-08-27
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, task-tracking, mcp]
 readability: 3
@@ -23,7 +23,7 @@ Since the commercialization it is also "Taskmaster", a [Hamster](https://tryhams
 ## Status
 
 Open-source repo quiet, commercial product alive, usage still enormous.
-28,222 stars as of 2026-10-14 and 2,618 forks (the largest raw numbers in this category), but the last push landed 2026-04-28 and the last release (0.43.1) on 2026-03-31, while npm eased to 49,480 downloads over the trailing month to 2026-11-07.
+28,222 stars as of 2026-10-14 and 2,618 forks (the largest raw numbers in this category), but the last push landed 2026-04-28 and the last release (0.43.1) on 2026-03-31, while npm read 54,758 downloads over the trailing month to 2026-11-13.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eyaltoledano/claude-task-master&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,7 @@ For new setups, the choice is beads for multi-agent state or Backlog.md for huma
 - 2026-10-23 - Rotation re-verification with every cited URL re-fetched live (repository, API, releases, LICENSE, both Hamster pages, docs, npm): the repo stays quiet since April 2026, the Commons Clause license and the product page's MIT claim are unchanged, Hamster's tiers are unchanged, and npm eased to 69,470 downloads last month.
 - 2026-10-28 - Rotation re-verification with every cited URL re-fetched live (repository, API, releases, LICENSE, both Hamster pages, docs, npm): all claims confirmed, the repo still quiet since April 2026, Hamster's tiers unchanged (Free 10 briefs, Team $40 per creator per month or $400 per year, Enterprise $200), and npm eased further to 58,553 downloads over the trailing month to 2026-10-28.
 - 2026-11-07 - Rotation re-verification with every cited URL re-fetched live (repository, API, releases, LICENSE, both Hamster pages, docs, npm): all claims confirmed, the repo still quiet since April 2026, 0.43.1 still the newest release, the Commons Clause license unchanged, Hamster's tiers unchanged, the product page's "MIT licensed" claim persisted through its move to the /research/taskmaster path, and npm eased to 49,480 downloads over the trailing month to 2026-11-07.
+- 2026-11-13 - Rotation re-verification with every cited URL re-fetched live (repository API, releases, LICENSE, both Hamster pages, docs, npm): all claims confirmed again, the repo still quiet since April 2026, 0.43.1 still the newest release, the license and the product page's "MIT licensed" claim unchanged, Hamster's tiers unchanged, and npm read 54,758 downloads over the trailing month to 2026-11-13.
 
 ## See also
 
@@ -95,10 +96,10 @@ For new setups, the choice is beads for multi-agent state or Backlog.md for huma
 ## References
 
 - https://github.com/eyaltoledano/claude-task-master - README and the Hamster product links
-- https://api.github.com/repos/eyaltoledano/claude-task-master - stars, forks, quiet push dates as of 2026-11-07
-- https://github.com/eyaltoledano/claude-task-master/releases - v0.43.1, 2026-03-31, the last release
-- https://github.com/eyaltoledano/claude-task-master/blob/main/LICENSE - MIT with Commons Clause Condition v1.0
-- https://tryhamster.com/pricing - Hamster Free and Team tiers as of 2026-09-18, re-verified unchanged 2026-10-07 and 2026-10-11
-- https://tryhamster.com/research/taskmaster - the product page (moved from /product/taskmaster) claiming "Taskmaster is MIT licensed" and "always" forkable, the license-gap grounding
-- https://docs.task-master.dev/ - the documentation, still live
-- https://api.npmjs.org/downloads/point/2026-10-08:2026-11-07/task-master-ai - 49,480 downloads over the trailing month to 2026-11-07
+- https://api.github.com/repos/eyaltoledano/claude-task-master - stars, forks, quiet push dates as of 2026-11-13
+- https://github.com/eyaltoledano/claude-task-master/releases - v0.43.1, 2026-03-31, the last release, re-confirmed 2026-11-13
+- https://github.com/eyaltoledano/claude-task-master/blob/main/LICENSE - MIT with Commons Clause Condition v1.0, re-fetched 2026-11-13
+- https://tryhamster.com/pricing - Hamster Free and Team tiers as of 2026-09-18, re-verified unchanged 2026-10-07 and 2026-11-13
+- https://tryhamster.com/research/taskmaster - the product page (moved from /product/taskmaster) claiming "Taskmaster is MIT licensed" and "always" forkable, the license-gap grounding, re-fetched 2026-11-13
+- https://docs.task-master.dev/ - the documentation, still live, re-fetched 2026-11-13
+- https://api.npmjs.org/downloads/point/2026-10-14:2026-11-13/task-master-ai - 54,758 downloads over the trailing month to 2026-11-13

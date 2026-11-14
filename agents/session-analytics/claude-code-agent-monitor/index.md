@@ -1,7 +1,7 @@
 ---
 title: Claude Code Agent Monitor
 created: 2026-10-10
-updated: 2026-11-08
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, claude-code, codex, cursor, open-source]
 readability: 3
@@ -25,8 +25,7 @@ Made by hoangsonww under MIT, listed under Session Monitors in the awesome-claud
 
 ## Status
 
-Young and active: 1,061 stars (the dated baseline), 261 forks, 43 open issues, created 2026-03-05, pushed 2026-11-08, latest release v2.4.5 on 2026-10-23 (a release-tooling version bump with no feature changes) after v2.4.4 on 2026-10-22 (patch releases that count events_today from local midnight and repair the release tooling), v2.4.0 on 2026-10-20, and v2.3.0 on 2026-10-10, as of 2026-11-08.
-Unreleased default-branch fixes have been landing since 2026-11-03: Cursor resumed-session cost and title reconciliation (PR 399) and a Claude config-directory fix (PR 394) merged 2026-11-06, with hook hardening before them (verified installer commands, stale Codex installation checks, hook discovery scoped by Claude home) and tooltip placement fixes.
+Young and active: 1,061 stars (the dated baseline), 266 forks, 44 open issues, created 2026-03-05, pushed 2026-11-12, latest release v2.4.6 on 2026-11-12, which shipped the pending Cursor and Claude config fixes plus more: session ownership preserved across local and remote history scans, complete remote history retained during interrupted transfers, statistics refreshed after imports, dashboard reads and session probes moved off the main thread, Codex reasoning counted within output with estimate coverage shown, exact totals maintained for growing event histories, `CLAUDE_CONFIG_DIR` honored with synced Claude setups protected, and compact Cursor snapshots with session-provider filtering, after v2.4.5 on 2026-10-23 (a release-tooling version bump with no feature changes), v2.4.4 on 2026-10-22, v2.4.0 on 2026-10-20, and v2.3.0 on 2026-10-10, as of 2026-11-13; nothing substantive remains unreleased after v2.4.6.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hoangsonww/Claude-Code-Agent-Monitor&type=date&theme=dark&legend=top-left" />
@@ -63,7 +62,7 @@ No paid tiers are published, and nothing in the default path requires a hosted s
 
 - [agents-observe](../agents-observe/index.md): the lighter plugin path for Claude Code and Codex live observation; CCAM adds Cursor, history import, and agent control at the price of a much larger surface.
 - [claude-devtools](../claude-devtools/index.md): the deepest retrospective reconstruction of one Claude Code session; CCAM trades that per-turn depth for breadth and a live view.
-- [Token Monitor](../token-monitor/index.md): the always-on usage and limits widget across 51 named tools; CCAM watches fewer tools but reads their conversations and can drive them.
+- [Token Monitor](../token-monitor/index.md): the always-on usage and limits widget across 53 named tools; CCAM watches fewer tools but reads their conversations and can drive them.
 
 ## Bottom line
 
@@ -78,6 +77,7 @@ Not for minimal-footprint audit tooling (ccusage and AgentTrace stay far smaller
 - 2026-10-25 - Recorded v2.4.5 (2026-10-23), a release-tooling version bump with no feature changes; repository counts refreshed (forks 253 to 261) and the pushed date moved to 2026-10-23.
 - 2026-10-31 - Volatile re-verification: no release after v2.4.5 and no default-branch commit since 2026-10-25, the 2026-10-29 and 10-31 pushes landing on side branches; open issues refreshed to 50.
 - 2026-11-08 - Volatile re-verification: no release after v2.4.5 with unreleased default-branch fixes landing 2026-11-03 through 11-06 (Cursor resumed-session cost and title reconciliation, a Claude config-directory fix, hook hardening over verified installer commands and stale Codex installation checks, and tooltip placement); open issues refreshed 50 to 43, and the pushed date moved to 2026-11-08; the Compared-to Token Monitor line's stale 47-plus tool count moved to the current 51 named tools.
+- 2026-11-13 - Recorded v2.4.6 (2026-11-12), which shipped the pending Cursor resumed-session, Claude config-directory, and hook-hardening fixes alongside import, sync, cost, and count repairs (session ownership across local and remote history scans, complete remote history during interrupted transfers, Codex reasoning counted within output, exact totals for growing event histories, `CLAUDE_CONFIG_DIR` honored, compact Cursor snapshots), leaving nothing substantive unreleased; open issues refreshed 43 to 44, forks refreshed 261 to 266, and the pushed date moved to 2026-11-12; the Compared-to Token Monitor line moved to the widget's current 53 named tools.
 
 ## See also
 
@@ -91,7 +91,7 @@ Not for minimal-footprint audit tooling (ccusage and AgentTrace stay far smaller
 - https://raw.githubusercontent.com/hoangsonww/Claude-Code-Agent-Monitor/master/README.md - the product summary, deployment options, extension counts, and local-first security statements
 - https://raw.githubusercontent.com/hoangsonww/Claude-Code-Agent-Monitor/master/README-EN.md - the full feature reference: hooks and Cursor live events, history import, cost tracking, the MCP server, alerts, desktop apps, and the Run Claude controls
 - https://api.github.com/repos/hoangsonww/Claude-Code-Agent-Monitor - 1,058 stars, 245 forks, MIT license, created 2026-03-05, pushed 2026-10-10, as of 2026-10-10
-- https://api.github.com/repos/hoangsonww/Claude-Code-Agent-Monitor/releases - v2.4.5 (2026-10-23), v2.4.4 (2026-10-22), v2.4.3 (2026-10-21), v2.3.0 (2026-10-10), v2.2.6 and v2.2.5 (2026-10-04) (re-fetched 2026-10-25)
+- https://api.github.com/repos/hoangsonww/Claude-Code-Agent-Monitor/releases - v2.4.6 (2026-11-12, the Cursor and Claude config fixes plus import, sync, cost, and count repairs), v2.4.5 (2026-10-23), v2.4.4 (2026-10-22), v2.4.3 (2026-10-21), v2.3.0 (2026-10-10), v2.2.6 and v2.2.5 (2026-10-04) (re-fetched 2026-11-13)
 - https://api.github.com/repos/hoangsonww/Claude-Code-Agent-Monitor/contributors - the maintainer concentration behind the single-maintainer caution
 - https://hn.algolia.com/api/v1/search?query=Claude-Code-Agent-Monitor - the one 1-point thread behind the empty-community-footprint claim
 - https://raw.githubusercontent.com/hesreallyhim/awesome-claude-code/HEAD/README.md - the Session Monitors listing that grounds the distribution claim

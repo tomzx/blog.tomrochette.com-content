@@ -1,7 +1,7 @@
 ---
 title: CodeBurn
 created: 2026-10-05
-updated: 2026-11-08
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by AgentSeal (the repository moved from the AgentSeal org to getagentseal, 
 
 ## Status
 
-Young and fast: 11,377 stars (the dated baseline), 908 forks, 26 open issues and PRs, created 2026-04-13, pushed 2026-11-08 (GitHub API).
+Young and fast: 11,377 stars (the dated baseline), 908 forks, 26 open issues and PRs, created 2026-04-13, pushed 2026-11-09 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&theme=dark&legend=top-left" />
@@ -38,7 +38,7 @@ The current release line is desktop/CLI v0.9.28 (2026-11-08, tagged separately p
 v0.9.26 (2026-10-10) added Amp and Command Code as providers, the VS Code extension, a pull-request view with per-review cost, `--why` explanations for Claude Code sessions, Cursor usage synced from cursor.com with an app login, a tilde prefix on every estimated dollar, a long list of money-accuracy fixes, and removed Roo Code as an archived project.
 v0.9.27 added one-click updates across the CLI, menu bar, and desktop app.
 The repository description still says 37 tools where the README says 42, a drift to read as the README being newer.
-Post-release commits on 2026-11-08 pin the Flathub manifest to the published 0.9.28 deb hash, release VS Code extension 1.0.3 against CLI 0.9.28, and keep a bundled price list from repricing when upstream only reshuffles ids, with nothing substantive left unreleased as of 2026-11-08.
+Post-release commits on 2026-11-08 pin the Flathub manifest to the published 0.9.28 deb hash, release VS Code extension 1.0.3 against CLI 0.9.28, and keep a bundled price list from repricing when upstream only reshuffles ids; two quota fixes then landed unreleased on 2026-11-09 (a Cursor safe-storage token unwrap for Grok Bot quota, and Retry or a new Claude login clearing a stored rate-limit block), with no release after v0.9.28 as of 2026-11-13.
 Its token accounting has been externally probed: the September 2026 AgentMeasure audit of about 110 usage tools filed a Codex token_count dedup finding against it, the fix merged as PR 1264 on 2026-09-16, and the audit's own methodology note records that a 53-rollout corpus check vindicated CodeBurn's re-emission behavior against the auditor's first assertion.
 Its Show HN launch reached 112 points and 15 top-level comments on 2026-04-13, and it also launched on Product Hunt.
 
@@ -83,6 +83,7 @@ Not for anyone who wants plain unclassified numbers (ccusage is the simpler inst
 - 2026-10-28 - Volatile re-verification: no release after v0.9.27 and npm still at 0.9.27, with unreleased fixes continuing (Warp conversations priced from the billed total, exact Today session counts with the Overview estimate-marker crash fixed, provider totals kept through the background refresh, and every parallel tool call of a streamed message captured); the pushed date moved to 2026-10-27 and forks refreshed 892 to 893.
 - 2026-11-01 - Volatile re-verification: no release after v0.9.27 and npm still at 0.9.27, with unreleased work continuing (Cursor 3.27 safe-storage sessions unwrapped, the PowerShell tool counted as a shell tool, a saved Capacity Dock provider kept across quota refreshes, and Antigravity userMessage attribution, plus dependency bumps); the pushed date moved to 2026-10-31 with a further 2026-11-01 push on side branches, and forks refreshed 893 to 901.
 - 2026-11-08 - Recorded the v0.9.28 release family (2026-11-08, tagged per platform): the macOS menu-bar quota-window forecast with a 70, 80, or 90 percent alert picker, guard loop-stops for repeated identical tool calls and repeated failing shell commands with configurable limits and per-session `guard allow`, three new optimize findings pricing unused one-hour cache writes, fast-mode subagent calls, and long-context-tier prompts, a shared-formula cache-hit-rate column in every session view, `costBasis` labels on exported dollars, `codeburn web` reverse-proxy flags, and the shipping of the Claude Code plugin and official MCP Registry listing recorded as unreleased on 2026-10-21; npm latest moved to 0.9.28, trailing-month downloads refreshed (26,823 to 27,684, window 2026-10-09 to 2026-11-07), forks refreshed 901 to 908, and the pushed date moved to 2026-11-08; post-release commits leave nothing substantive unreleased.
+- 2026-11-13 - Volatile re-verification: no release after v0.9.28 with two quota fixes landing unreleased 2026-11-09 (a Cursor safe-storage token unwrap for Grok Bot quota, and Retry or a new Claude login clearing a stored rate-limit block); the pushed date moved to 2026-11-09.
 
 ## See also
 

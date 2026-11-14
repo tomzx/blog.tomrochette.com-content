@@ -1,7 +1,7 @@
 ---
 title: Ouroboros
 created: 2026-08-30
-updated: 2026-11-07
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, verification, self-improving-agents, open-source]
 readability: 3
@@ -18,13 +18,13 @@ Ouroboros is an MIT-licensed Python "Agent OS" that turns a vague brief into ver
 
 A local-first workflow layer around existing coding agents: Interview produces a Seed (an immutable spec with an ambiguity gate at 0.2 or lower before any code is written), Execute decomposes work through a Double Diamond process, Evaluate runs the gate, and Evolve refines specs and accumulates reusable assets across generations within a budgeted loop (30-generation cap, stagnation detection, a three-tier cost router).
 The verification gate runs outside the worker: mechanical checks first (lint, build, tests, coverage at a 70 percent default, no LLM), then a semantic LLM judge against acceptance criteria at a 0.8 threshold, then multi-model consensus voting triggered only by six conditions such as seed modification or drift above 0.3.
-It drives 14 runtimes including Claude Code, Codex CLI, Copilot CLI, OpenCode, Gemini, Goose, Kiro, Pi, OMP, and Antigravity, installs as `ouroboros-ai` on PyPI or a Claude Code plugin, and ships an MCP server.
+It drives 15 runtimes including Claude Code, Codex CLI, Copilot CLI, OpenCode, Gemini, Goose, Kiro, Pi, OMP, and Antigravity, installs as `ouroboros-ai` on PyPI or a Claude Code plugin, and ships an MCP server.
 The README now frames a three-repo Agent OS stack around this core: Ouro-labs/ourocode (a terminal shell, 22 stars) and Ouro-labs/ouroboros-plugins (a plugin contract, MIT, 16 stars), per the PyPI page and the GitHub API as of 2026-10-11.
 MIT, by Ouro Labs (Q00), solo-maintained with around 80 contributors.
 
 ## Status
 
-Very young, very active: 6,214 stars as of 2026-10-13, 640 forks and 161 open issues as of 2026-11-07, created 2026-01-14, pushed 2026-11-07 (main active through 2026-11-05).
+Very young, very active: 6,214 stars as of 2026-10-13, 640 forks and 76 open issues as of 2026-11-13, created 2026-01-14, pushed 2026-11-13 (main active through 2026-11-13).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&theme=dark&legend=top-left" />
@@ -32,9 +32,9 @@ Very young, very active: 6,214 stars as of 2026-10-13, 640 forks and 161 open is
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.59.9 on 2026-10-25 (routine verification, provider, and updater fixes), after the v0.59.8 patch of 2026-10-23 (artifact-store path safety, interview, and MCP fixes), the v0.59.4 through v0.59.7 patches of 2026-10-21 to 2026-10-23 (each keeping only sourced Seed content in the worker prompt and tightening context-pack manifest reporting), the v0.59.0 minor of 2026-10-19 (the self-answer investigates the repository and binds only checked evidence), the v0.58.0 minor of 2026-10-17 (only confirmed content binds the Seed, and the verify gate needs a signal), and the v0.57.x and v0.56.x lines before them; PyPI self-labels it Beta and carries 0.59.9 as well.
+Latest release v0.60.0 on 2026-11-13 (GitHub and PyPI), the console release: a browser console (`ouroboros gui`) that the installer opens by itself, with interview, Auto, and Ask chat modes, a shared-MCP option, five languages, 26 measured hot-path fixes (the 3,000-session activity snapshot fell from 47 seconds to 107 milliseconds), and docs-drift checks that fail the PR that causes them; before it, the v0.59.9 patch of 2026-10-25 (routine verification, provider, and updater fixes), the v0.59.8 patch of 2026-10-23 (artifact-store path safety, interview, and MCP fixes), the v0.59.4 through v0.59.7 patches of 2026-10-21 to 2026-10-23 (each keeping only sourced Seed content in the worker prompt and tightening context-pack manifest reporting), the v0.59.0 minor of 2026-10-19 (the self-answer investigates the repository and binds only checked evidence), the v0.58.0 minor of 2026-10-17 (only confirmed content binds the Seed, and the verify gate needs a signal), and the v0.57.x and v0.56.x lines before them; PyPI self-labels it Beta and carries 0.60.0 as well.
 **Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-10-31.**
-An unrelated arXiv paper shares the name (a self-developing coding agent, arXiv 2608.08311), which muddies coverage searches for this project.
+An unrelated arXiv paper shares the name (a self-developing coding agent, arXiv 2608.08311), which muddies coverage searches for this project; the PyPI page now carries a naming note disclaiming that project (razzant/ouroboros) and any token.
 
 ## Strengths
 
@@ -63,7 +63,7 @@ Enterprise offerings and a marketplace are marked conditional in the roadmap; no
 
 ## Bottom line
 
-**Recommended for engineers who already trust one of the 14 runtimes and want spec-freeze plus hidden grading on top, in projects where verification failures cost more than evaluation tokens.**
+**Recommended for engineers who already trust one of the 15 runtimes and want spec-freeze plus hidden grading on top, in projects where verification failures cost more than evaluation tokens.**
 Not for quick edits, for teams needing proven evaluation rigor, or for anyone who cannot tolerate beta-grade install friction.
 
 ## Changes
@@ -85,6 +85,7 @@ Not for quick edits, for teams needing proven evaluation rigor, or for anyone wh
 - 2026-10-23 - Recorded the v0.59.4 through v0.59.7 patches (2026-10-21 to 2026-10-23, GitHub and PyPI, sourcing-gated Seed content in the worker prompt and context-pack manifest reporting); pushed date refreshed.
 - 2026-10-25 - Recorded the v0.59.8 and v0.59.9 patches (2026-10-23 and 2026-10-25, GitHub and PyPI, routine fixes with no design change); pushed date refreshed.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched (repository via the API, the evaluate and roadmap docs, the docs home, the PyPI project page, the same-named arXiv paper, and the HN search) and all claims confirmed, including the README's 14-runtime roster, v0.59.9 still the newest release on GitHub and PyPI, the three-stage gate's thresholds, the conditional enterprise and marketplace horizons, and the single-digit self-submitted threads; pushed date refreshed, no material change.
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched (repository via the API and README, the evaluate and roadmap docs, the docs home, the PyPI project page, the same-named arXiv paper, and the HN search) and all claims confirmed; recorded the v0.60.0 console release (GitHub and PyPI, the `ouroboros gui` browser console, a shared-MCP option, measured hot-path fixes, and docs-drift CI checks), the runtime roster's growth to 15 (Zcode, GJC, Grok Build CLI, and DeepSeek Harness joined), and the PyPI naming note disclaiming the same-named razzant/ouroboros project and any token.
 
 ## See also
 
@@ -102,4 +103,5 @@ Not for quick edits, for teams needing proven evaluation rigor, or for anyone wh
 - https://ouroboros.page/roadmap/ - claim-status policy and the conditional enterprise plans
 - https://ouroboros.page/ - official docs and Ouro Labs attribution
 - https://arxiv.org/abs/2608.08311 - the unrelated same-named coding-agent paper that complicates coverage searches
+- https://github.com/Q00/ouroboros/releases/tag/v0.60.0 - the v0.60.0 console release notes: the `ouroboros gui` browser console, the shared-MCP option, the measured hot-path fixes, and the docs-drift checks
 - https://hn.algolia.com/api/v1/search?query=Q00%2Fouroboros&tags=story - the thin independent-discussion footprint this note records

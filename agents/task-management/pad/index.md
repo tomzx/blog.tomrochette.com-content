@@ -1,7 +1,7 @@
 ---
 title: Pad
 created: 2026-10-11
-updated: 2026-11-12
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, project-management, local-first, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Perpetual Software LLC maintains it; every change is versioned per item with the
 ## Status
 
 Active and pre-1.0.
-As of 2026-11-12: 193 stars (as of 2026-10-14), 26 forks, created 2026-03-26, pushed 2026-11-12, on a roughly weekly release cadence with v0.20.0 (2026-11-11) the newest stable tag after v0.19.2 (2026-11-08), and the changelog delegated to signed GitHub Releases carrying SBOMs and SLSA provenance.
+As of 2026-11-13: 193 stars (as of 2026-10-14), 26 forks, created 2026-03-26, pushed 2026-11-13, on a roughly weekly release cadence with v0.20.0 (2026-11-11) the newest stable tag after v0.19.2 (2026-11-08), and the changelog delegated to signed GitHub Releases carrying SBOMs and SLSA provenance.
 v0.18.1 is a three-fix patch: the Stripe billing portal reachable again, account exports stopping at their deadline instead of running past it, and refused MCP calls naming their cause on both the stdio and HTTP transports.
 The v0.18.0 stable ship is the largest single release so far: `pad item patch` edits part of an item body with the change landing live in anyone's open editor plus an undo, conventions and playbooks track their library upstream with a diff-and-update review, the Claude Code plugin gained a `/pad-pane` side panel, collections can be marked reference instead of work, and agent writes gained idempotency keys and version checking.
 The v0.19.0 release-candidate train began on 2026-10-29 (rc.1, rc.2 the next day, rc.3 on 2026-10-31 pinning account settings to the signed-in account after a race let a settings action's result, including a 2FA setup secret, recovery codes, or a new token's secret, surface under the wrong account) with a breaking token rule, a workspace-pinned API token refused outside its workspace and on account-wide routes, alongside security updates (Go toolchain 1.26.10, x/net 0.62.0, and the user read path no longer decrypting the TOTP secret), in-app attachment previews including a sandboxed PDF viewer, a read-only `pad project catch-up` CLI and MCP action, an `awaits_human` collection setting, the cross-workspace needs-you inbox with importance and simplicity scoring, and chat and push-notification features landing across the CLI, MCP, and web surfaces.
@@ -83,6 +83,7 @@ My disagreeable claim: conventions-as-items is a bigger idea than the task board
 - 2026-11-01 - Recorded v0.19.0-rc.3 (2026-10-31: account settings pinned to the signed-in account, closing a race where a settings action's result, including a 2FA setup secret, recovery codes, or a new token's secret, could surface under the wrong account) and refreshed counts (pushed 2026-11-01); v0.18.1 still the newest stable tag.
 - 2026-11-08 - Recorded the release-candidate train shipping stable (v0.19.1 on 2026-11-07 with the v0.19.0 tag cut but unpublished for a broken release build, so the workspace-pinned-token rule and the Go, x/net, and TOTP security updates are now live in every install, then v0.19.2 on 2026-11-08 with refs resolving only through their own collection prefix) and refreshed counts (pushed 2026-11-08).
 - 2026-11-12 - Recorded v0.20.0 (2026-11-11: the Agenda day view, calendar views for date-field collections, pad remind as a top-level scheduling command with hard deadlines and renegotiation, and agent-side scheduling through new pad_item MCP actions) and refreshed counts (10 open issues and pull requests, pushed 2026-11-12).
+- 2026-11-13 - Refreshed counts (20 open issues and pull requests, pushed 2026-11-13); v0.20.0 still the newest release.
 
 ## See also
 
@@ -96,6 +97,6 @@ My disagreeable claim: conventions-as-items is a bigger idea than the task board
 - https://github.com/PerpetualSoftware/pad - README: architecture, CLI, MCP catalog, claims and leases, session pushes, upgrade model (fetched 2026-10-11)
 - https://getpad.dev - the site: the three-surface pitch, conventions and playbooks, the dogfooded workspace figures, Pad Cloud tiers
 - https://getpad.dev/changelog - the changelog policy: signed GitHub Releases as the source of truth
-- https://api.github.com/repos/PerpetualSoftware/pad - stars, forks, dates, Apache-2.0 as of 2026-11-12
-- https://api.github.com/repos/PerpetualSoftware/pad/releases - v0.20.0 (2026-11-11) and v0.19.2 (2026-11-08) stable after the v0.19.0-rc.1 (2026-10-29), rc.2 (2026-10-30), and rc.3 (2026-10-31) notes, with v0.18.1 (2026-10-18) and the v0.18.0 stable of 2026-10-17 before them
+- https://api.github.com/repos/PerpetualSoftware/pad - stars, forks, dates, Apache-2.0 as of 2026-11-13
+- https://api.github.com/repos/PerpetualSoftware/pad/releases - v0.20.0 (2026-11-11) and v0.19.2 (2026-11-08) stable after the v0.19.0-rc.1 (2026-10-29), rc.2 (2026-10-30), and rc.3 (2026-10-31) notes, with v0.18.1 (2026-10-18) and the v0.18.0 stable of 2026-10-17 before them, re-fetched 2026-11-13
 - https://hn.algolia.com/api/v1/search?query=%22pad%22%20%22getpad%22&tags=story - zero story hits as of 2026-10-14, the missing HN footprint

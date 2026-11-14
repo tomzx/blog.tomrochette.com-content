@@ -1,7 +1,7 @@
 ---
 title: Agent Kanban
 created: 2026-10-11
-updated: 2026-11-08
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, multi-agent, source-available, cloudflare]
 readability: 3
@@ -24,7 +24,8 @@ The saltbo identity maintains it under FSL-1.1 (each release converts to Apache-
 ## Status
 
 Active at small scale, with a release gap.
-As of 2026-11-08: 492 stars (as of 2026-10-14), 42 forks, created 2026-03-20, pushed 2026-10-02, but the newest tagged GitHub release is v1.13.4 from 2026-05-19, so nearly six months of commits have shipped without a tagged release, apparently deployed continuously through Wrangler.
+As of 2026-11-13: 492 stars (as of 2026-10-14), 42 forks, 14 open issues, created 2026-03-20, pushed 2026-11-13, but the newest tagged GitHub release is v1.13.4 from 2026-05-19, so nearly six months of commits have shipped without a tagged release, apparently deployed continuously through Wrangler.
+The 2026-11-13 pushed date is one dependency bump (a hono version bump merged onto main on 2026-11-12); main's newest substantive commit is 2026-09-13 (the ak-maintainer skill), so the quiet stretch at the substance level runs two months.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=saltbo/agent-kanban&type=date&theme=dark&legend=top-left" />
@@ -46,7 +47,7 @@ The product site returned an empty body on two fetch attempts this run (2026-10-
 
 - It is not self-contained: identity, runtime, and execution come from Realmroot and Enbor, so adopting the board means adopting an ecosystem, a deeper coupling than any other member of this category carries.
 - FSL-1.1 is source-available, not open source, and each release stays proprietary to competing use for two years before its Apache-2.0 conversion.
-- Nearly five months without a tagged release at 492 stars is a thin public scorecard for a system of record; the commit stream is the only liveness evidence.
+- Nearly six months without a tagged release and two months without a substantive commit at 492 stars is a thin public scorecard for a system of record; the commit stream is the only liveness evidence.
 - The name collides with an older VS Code Agent Kanban whose launch thread outranks it in every search, so discoverability is a standing tax.
 
 ## Pricing
@@ -74,6 +75,7 @@ My disagreeable claim: making the assignee unable to close its own task is the m
 - 2026-10-27 - Rotation re-verification with every cited URL re-fetched live (repository page, task-lifecycle doc, API, releases, HN search): nothing material changed, the release gap now nearly six months, and v1.13.4 still the newest tag.
 - 2026-10-31 - Rotation re-verification with every cited URL re-fetched live (repository page, task-lifecycle doc, API, releases, HN search): nothing material changed, with v1.13.4 still the newest tag and the last push still 2026-10-02.
 - 2026-11-08 - Rotation re-verification with every cited URL re-fetched live (repository README, task-lifecycle doc, API, releases, HN search): nothing material changed, with v1.13.4 still the newest tag, the last push still 2026-10-02, and the fork count corrected to 42.
+- 2026-11-13 - Recorded the push resumption on main (2026-11-12: a hono dependency bump, one commit) with the newest substantive commit now 2026-09-13, and refreshed counts (14 open issues); v1.13.4 still the newest tag, the release gap now nearly six months.
 
 ## See also
 
@@ -86,6 +88,6 @@ My disagreeable claim: making the assignee unable to close its own task is the m
 
 - https://github.com/saltbo/agent-kanban - README: architecture, the Realmroot and Enbor boundaries, lifecycle, skills, FSL license (fetched 2026-10-11)
 - https://raw.githubusercontent.com/saltbo/agent-kanban/main/docs/architecture/task-lifecycle.md - the task lifecycle: compare-and-swap patches, claim provenance from verified bindings, the review gate, dependency rules
-- https://api.github.com/repos/saltbo/agent-kanban - stars, forks, dates, push date as of 2026-11-08
-- https://api.github.com/repos/saltbo/agent-kanban/releases - v1.13.4 (2026-05-19), the tagged-release gap re-confirmed 2026-11-08
+- https://api.github.com/repos/saltbo/agent-kanban - stars, forks, dates, push date as of 2026-11-13
+- https://api.github.com/repos/saltbo/agent-kanban/releases - v1.13.4 (2026-05-19), the tagged-release gap re-confirmed 2026-11-13
 - https://hn.algolia.com/api/v1/search?query=%22agent-kanban%22&tags=story - the search dominated by gbro3n's 99-point VS Code Agent Kanban thread, the name collision

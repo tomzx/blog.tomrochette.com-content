@@ -1,12 +1,12 @@
 ---
 title: Agent Barn
 created: 2026-11-05
-updated: 2026-11-11
+updated: 2026-11-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, agent-operations, multi-tenant, kubernetes, self-hosted, open-source]
 readability: 3
 audience_notes: >
-  Platform engineers who want AI agents as chat coworkers (Slack, Teams, Telegram, Discord) running inside their own Kubernetes cluster, with per-agent cost attribution and access roles, and who accept a 0.21.x product.
+  Platform engineers who want AI agents as chat coworkers (Slack, Teams, Telegram, Discord) running inside their own Kubernetes cluster, with per-agent cost attribution and access roles, and who accept a 0.22.x product.
   Assumes you know what a Helm release and a virtual LLM API key are.
 ---
 
@@ -27,7 +27,7 @@ Built by AAI Labs, a company in Vilnius, Lithuania.
 
 ## Status
 
-Active and young: 111 stars, 7 forks, and 19 open issues as of 2026-11-05 (18 open issues as of 2026-11-11), created 2026-05-05, with the repository push dates of 2026-11-07 and 2026-11-10 coming from side branches and the default branch's latest commit still on 2026-10-29, and a steady release train (v0.20.0 on 2026-10-21, v0.20.1 on 2026-10-26, v0.21.0 on 2026-10-29).
+Active and young: 111 stars, 7 forks, and 19 open issues as of 2026-11-05 (18 open issues as of 2026-11-13), created 2026-05-05, with the 2026-11-13 repository push coming from a side branch and the default branch's latest commit on 2026-11-11, and a steady release train (v0.20.0 on 2026-10-21, v0.20.1 on 2026-10-26, v0.21.0 on 2026-10-29, v0.22.0 on 2026-11-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aai-labs/agent-barn&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ The traction call this note rests on: six months to 111 stars is thin next to th
 
 ## Cautions
 
-- It is 0.21.x: expect wire and schema churn, and pin deliberately.
+- It is 0.22.x: expect wire and schema churn, and pin deliberately.
 - The default runtime's command approval is always automatic, so the per-agent approval mode that actually gates shell commands exists only on the Hermes runtime today; an OpenClaw fleet on this plane runs with auto-approved commands.
 - Telemetry to the vendor's PostHog project is on by default (pseudonymous, EU-hosted, documented opt-out), which is a default worth knowing before any sensitive deployment.
 - Zero Hacker News footprint and no independent security review; the multi-tenancy and audit claims are the vendor's own plus a descriptive catalogue entry.
@@ -66,12 +66,13 @@ AAI Labs operates its own hosted deployments, but no hosted price is published, 
 
 ## Bottom line
 
-**Recommended for platform teams that want AI agents as chat coworkers inside their own cluster with per-agent cost attribution, credential-gated skills, and audit trails, and who accept a young 0.21.x product with defaults they must review.**
+**Recommended for platform teams that want AI agents as chat coworkers inside their own cluster with per-agent cost attribution, credential-gated skills, and audit trails, and who accept a young 0.22.x product with defaults they must review.**
 Not for teams that need per-command approval on the default runtime today, a stable 1.0, or a large community to escalate to.
 
 ## Changes
 
 - 2026-11-05 - Created from the coordinator's cross-category handoff: admitted at 111 stars on the control-plane kind (per-agent costs, access roles, and audit trails governing an agent fleet on your own cluster), with the borderline-traction call recorded in Status and the zero-thread footprint stated as the missing signal.
+- 2026-11-13 - Rotation re-verification: every cited URL re-fetched and live (README, repo API, releases, product site, the Kubernetes deployment guide, the OECD.AI catalogue entry, the zero-thread HN check), the release train moved to v0.22.0 (2026-11-11), the default branch's latest commit moved to 2026-11-11 with the 2026-11-13 repository push a side branch, and the version references in the note brought from 0.21.x to 0.22.x.
 
 ## See also
 
