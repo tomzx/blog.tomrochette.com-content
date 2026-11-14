@@ -1,7 +1,7 @@
 ---
 title: Entroly
 created: 2026-10-12
-updated: 2026-11-11
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, receipts, open-source]
 readability: 3
@@ -25,10 +25,10 @@ Two offline commands are the trust surface: `entroly verify-claims` runs twelve 
 
 ## Status
 
-Young, active, and barely discovered: 476 stars as of 2026-10-18, 74 forks, created 2026-03-07, pushed 2026-11-09 on main, PyPI and npm both at 1.0.88 across 106 releases, as of 2026-11-06 (GitHub, PyPI, and npm APIs).
+Young, active, and barely discovered: 476 stars as of 2026-10-18, 74 forks, created 2026-03-07, pushed 2026-11-13 on main, PyPI and npm both at 1.0.88 across 106 releases (registries re-checked 2026-11-14, GitHub figures as of 2026-11-06).
 October 2026 development around the 1.0.87 release added a session journal of what a session did, returned on resume, source-bound cross-agent review in the work CLI, opt-in paired Decisions choice trials, and a rustls advisory fix.
 Release 1.0.88 (2026-11-01) shipped the PAC-KV cache-aligned compression (provider page-grid quantization, an economic break-even gate, paged Merkle trees, attention-aware tail compression), the receipt-backed graph memory with hybrid retrieval that main had carried unreleased, and frontier codecs, alongside 62 customer-visible dogfood fixes, an activation report naming a degraded hook's cause, and the scaffold of an opt-in action gate.
-Main's unreleased 2026-11-07 batch follows: cascade policies assessed on held-out data with exact risk tests, STAVE fact-alignment stability, EICV calibration corrections for tied ranks and dependent evidence, Claude Code host fixes (capture outcomes read as the host sends them, uninstall removing the capture hooks, the hook no longer editing shell files), and first-run onboarding fixes from a clean-room install, with the 2026-11-09 round after it (nested rename evidence prioritized in context pages, empty unsaved editor overlays preserved, and dependency bumps).
+Main's unreleased 2026-11-07 batch follows: cascade policies assessed on held-out data with exact risk tests, STAVE fact-alignment stability, EICV calibration corrections for tied ranks and dependent evidence, Claude Code host fixes (capture outcomes read as the host sends them, uninstall removing the capture hooks, the hook no longer editing shell files), and first-run onboarding fixes from a clean-room install, with the 2026-11-09 round after it (nested rename evidence prioritized in context pages, empty unsaved editor overlays preserved, and dependency bumps), and the 2026-11-13 batch after that (signed, offline-verifiable proof bundles through new export-proof and verify-proof commands, opt-in proxy forwarding of operator-named client headers, a pricing-catalog hardening fix isolating malformed catalogs and nonfinite token limits, and dogfood evidence documents recorded per report).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=juyterman1000/entroly&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ My disagreeable claim: this category's arms race measures the wrong thing, and a
 - 2026-11-06 - Recorded main's unreleased post-1.0.88 fixes (2026-11-02: the proxy now passes provider request ids, rate-limit headers, and error bodies through and reports requests it enlarged in `entroly value` and `X-Entroly-Outcome`; the npm MCP server answers newline-delimited JSON so official MCP clients connect; rename previews follow Python re-exports and are rejected when the repository changed after the preview); the 2026-11-04 push resolved as non-default-branch activity.
 - 2026-11-07 - Recorded main's unreleased 2026-11-07 batch (held-out cascade-policy risk tests, STAVE fact-alignment stability, EICV calibration corrections, Claude Code host fixes including an uninstall that removes the capture hooks, first-run onboarding fixes); PyPI and npm unchanged at 1.0.88.
 - 2026-11-11 - Recorded main's unreleased 2026-11-09 round (nested rename evidence prioritized in context pages, empty unsaved editor overlays preserved, dependency bumps); PyPI and npm unchanged at 1.0.88, push date refreshed.
+- 2026-11-14 - Recorded main's unreleased 2026-11-13 batch (merged pull requests #589 through #591: signed, offline-verifiable proof bundles via new export-proof and verify-proof commands, opt-in proxy forwarding of operator-named client headers, a malformed-pricing-catalog and nonfinite-token-limit hardening fix, and dogfood evidence documents recorded per report); PyPI and npm re-checked unchanged at 1.0.88, push date refreshed.
 
 ## See also
 
@@ -99,4 +100,4 @@ My disagreeable claim: this category's arms race measures the wrong thing, and a
 - https://pypistats.org/api/packages/entroly/recent - 1,455 downloads in the trailing month, unchanged when re-fetched 2026-11-01
 - https://hn.algolia.com/api/v1/search?query=entroly&hitsPerPage=5 - the footprint check: no story about the product, all hits unrelated (re-fetched 2026-11-01)
 - https://marketplace.visualstudio.com/items?itemName=entroly.entroly-vscode - the VS Code extension surface (re-fetched 200, 2026-11-01)
-- https://github.com/Meirtz/Awesome-Context-Engineering - the entrant source: Entroly listed under Context Optimization Engines (repository and README fetched via the GitHub API, 2026-10-12; source re-scanned 2026-11-01, no commits since 2026-10-31, so the scan carried over)
+- https://github.com/Meirtz/Awesome-Context-Engineering - the entrant source: Entroly listed under Context Optimization Engines (repository and README fetched via the GitHub API, 2026-10-12; source re-scanned 2026-11-14, no commits on main since 2026-05-28 per the commits feed, so the scan carried over)

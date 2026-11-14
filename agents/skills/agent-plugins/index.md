@@ -1,7 +1,7 @@
 ---
 title: Agent Plugins
 created: 2026-10-06
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, plugins, open-standards, packaging]
 readability: 3
@@ -24,8 +24,9 @@ Vercel initiated the proposal and refined it with AWS, Anysphere (Cursor), GitHu
 ## Status
 
 **Active and vendor-backed, and still under a year old.**
-The specification repository (agentplugins/agent-plugins-spec) shows 1,382 stars and 76 forks as of 2026-10-13, created 2026-04-03, main quiet since the 2026-11-06 draft push (the repo's pushed date has since moved to 2026-11-13 on side branches), with the spec, JSON schemas, conformance suite, example plugin, and site in five public repos under one organization.
+The specification repository (agentplugins/agent-plugins-spec) shows 1,382 stars and 76 forks as of 2026-10-13, created 2026-04-03, main pushed 2026-11-14 (the draft activity below), with the spec, JSON schemas, conformance suite, example plugin, and site in five public repos under one organization.
 The 2026-11-06 push landed the first work toward a second version: the repo's spec directory now carries a v1.1.0 Working Draft alongside v1.0.0, adding a `displayName` manifest field, a portable `assets/` directory with icon discovery rules, optional per-server extension data inside `mcp.json` entries, and simplified manifest-validation language, while the published spec site still serves v1.0.0 and v1.0.0 remains the only git tag.
+The draft kept moving: on 2026-11-13 the TSC merged the portable-hooks proposal (PR #89), which adds hook handlers to the draft's component model as a third portable component type discovered from `hooks.json`, with `command` containment rules and a confirmation policy for hook approvals, and on 2026-11-14 main landed regex-portable plugin-name validation plus MCP `cwd` containment-pattern fixes (PRs #79 and #80).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentplugins/agent-plugins-spec&type=date&theme=dark&legend=top-left" />
@@ -75,6 +76,7 @@ My disagreeable claim: the interesting question is no longer whether skills and 
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched live, all claims held again (spec still v1.0.0 with the ten-field closed manifest, report-and-ignore rule, and PLUGIN_ROOT/PLUGIN_DATA contract unchanged, the TSC and launch-client lists unchanged, the repo still pushed 2026-09-28); no cells or figures moved.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live, all claims held a third time (spec still v1.0.0 published with the ten-field closed manifest, the report-and-ignore rule for unknown fields, and the PLUGIN_ROOT/PLUGIN_DATA contract unchanged, the TSC and launch-client lists unchanged, the repo still pushed 2026-09-28); no cells or figures moved.
 - 2026-11-07 - Volatile re-verification on the repo's first push since 2026-09-28: main landed a v1.1.0 Working Draft on 2026-11-06 (a `displayName` manifest field, a portable `assets/` directory with icon discovery, optional per-server extension data in `mcp.json` entries, simplified manifest-validation language) while the published site still serves v1.0.0 and v1.0.0 stays the only tag, so the Status gained the draft fact and the pushed date moved.
+- 2026-11-14 - Rotation re-verification plus volatile update: every cited URL re-fetched live and all v1.0.0 claims held (published spec, launch post, and critical guide unchanged), and the draft activity resolved: main moved past the 11-06 push with the portable-hooks proposal merged 2026-11-13 (PR #89, hook handlers as a third portable component type discovered from `hooks.json`, with `command` containment and a hook-approval confirmation policy) and regex-portable plugin-name validation plus MCP `cwd` containment fixes on 2026-11-14 (PRs #79 and #80), while the published site still serves v1.0.0 and v1.0.0 stays the only tag.
 
 ## See also
 
@@ -86,9 +88,9 @@ My disagreeable claim: the interesting question is no longer whether skills and 
 
 ## References
 
-- https://agent-plugins.org/ - the spec site: package model, component types, open governance, and the five-vendor TSC (re-fetched 2026-11-01, unchanged)
-- https://agent-plugins.org/specification - the normative v1.0.0 spec: the closed ten-field manifest, required `$schema` and `name`, report-and-ignore for unknown fields, MCP transports, and the `PLUGIN_ROOT`/`PLUGIN_DATA` environment contract (re-fetched 2026-11-07, unchanged; the site does not yet carry the v1.1.0 draft)
-- https://vercel.com/blog/introducing-agent-plugins - the launch announcement (2026-08-06): Vercel initiated, refined with AWS, Anysphere, GitHub, Microsoft, and OpenAI, and the launch client list (re-fetched 2026-11-01, unchanged)
-- https://api.github.com/repos/agentplugins/agent-plugins-spec - the specification repo: 1,382 stars, 76 forks, created 2026-04-03, pushed 2026-09-28 through the 2026-11-01 re-fetch, pushed 2026-11-06 as of 2026-11-07, pushed_at reading 2026-11-13 on side branches with main still at 2026-11-06 (GitHub API, as of 2026-10-13; re-fetched 2026-11-07 and 2026-11-13)
-- https://raw.githubusercontent.com/agentplugins/agent-plugins-spec/main/spec/1.1.0.md - the v1.1.0 Working Draft landed on main 2026-11-06: `displayName`, the portable `assets/` icon directory, per-server MCP extension data, and the simplified validation language, marked Status: Working Draft (fetched 2026-11-07)
-- https://agenticskills.io/learn/what-are-agent-plugins - the critical reading: the `plugin.json` naming collision, the absent Anthropic and Google, the CLI-versus-native-support distinction, and what remains unsolved (re-fetched 2026-11-01, unchanged)
+- https://agent-plugins.org/ - the spec site: package model, component types, open governance, and the five-vendor TSC (re-fetched 2026-11-14, unchanged)
+- https://agent-plugins.org/specification - the normative v1.0.0 spec: the closed ten-field manifest, required `$schema` and `name`, report-and-ignore for unknown fields, MCP transports, and the `PLUGIN_ROOT`/`PLUGIN_DATA` environment contract (re-fetched 2026-11-14, unchanged; the site does not yet carry the v1.1.0 draft)
+- https://vercel.com/blog/introducing-agent-plugins - the launch announcement (2026-08-06): Vercel initiated, refined with AWS, Anysphere, GitHub, Microsoft, and OpenAI, and the launch client list (re-fetched 2026-11-14, unchanged)
+- https://api.github.com/repos/agentplugins/agent-plugins-spec - the specification repo: 1,382 stars, 76 forks, created 2026-04-03, pushed 2026-09-28 through the 2026-11-01 re-fetch, pushed 2026-11-06 as of 2026-11-07, pushed_at reading 2026-11-13 on side branches with main still at 2026-11-06, then main itself pushed 2026-11-14 with the portable-hooks merge and validation fixes (GitHub API, as of 2026-10-13; re-fetched 2026-11-07, 2026-11-13, and 2026-11-14)
+- https://raw.githubusercontent.com/agentplugins/agent-plugins-spec/main/spec/1.1.0.md - the v1.1.0 Working Draft landed on main 2026-11-06: `displayName`, the portable `assets/` icon directory, per-server MCP extension data, and the simplified validation language, marked Status: Working Draft (fetched 2026-11-07, re-fetched 2026-11-14; the draft now also carries hook handlers as a third portable component type with `hooks.json` discovery and hook `command` containment)
+- https://agenticskills.io/learn/what-are-agent-plugins - the critical reading: the `plugin.json` naming collision, the absent Anthropic and Google, the CLI-versus-native-support distinction, and what remains unsolved (re-fetched 2026-11-14, unchanged)

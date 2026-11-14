@@ -1,7 +1,7 @@
 ---
 title: R2R
 created: 2026-10-11
-updated: 2026-11-08
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, knowledge-graph]
 readability: 3
@@ -74,6 +74,7 @@ My disagreeable claim: R2R's silence is the market's verdict that a REST-wrapped
 - 2026-10-31 - Rotation re-verification re-fetched every cited URL live: the docs domain still 404s, sciphi.ai still unreachable, PyPI still at 3.6.6 (225 releases), the launch footprint unchanged, the awesome-rag-production dormancy warning still on the entry, and the repository still pushed 2025-11-07 with open issues drifting from 131 to 132.
 - 2026-11-04 - Rotation re-verification re-fetched every cited URL live: the repository still pushed 2025-11-07 with 132 open issues, PyPI still at 3.6.6 (225 releases), the docs domain still 404s on root and quickstart, sciphi.ai still unreachable, the launch footprint unchanged (167, 251, and 1 points), and the awesome-rag-production dormancy warning still on the entry.
 - 2026-11-08 - Rotation re-verification re-fetched every cited URL live: the repository still pushed 2025-11-07 with 132 open issues, PyPI still at 3.6.6 (225 releases), the docs domain still 404s on root and quickstart, sciphi.ai still unreachable, the launch footprint unchanged (167, 251, and 1 points), and the awesome-rag-production dormancy warning still on the entry.
+- 2026-11-14 - Rotation re-verification re-fetched every cited URL live: the repository still pushed 2025-11-07 with 132 open issues, PyPI still at 3.6.6 (225 releases), the docs domain still 404s on root and quickstart, sciphi.ai still unreachable, the launch footprint unchanged (167, 251, and 1 points), and the awesome-rag-production dormancy warning still on the entry.
 
 ## See also
 
@@ -84,10 +85,10 @@ My disagreeable claim: R2R's silence is the market's verdict that a REST-wrapped
 
 ## References
 
-- https://api.github.com/repos/SciPhi-AI/R2R - 8,015 stars (as of 2026-10-31), MIT, created 2024-02-12, pushed 2025-11-07, 132 open issues (GitHub API, as of 2026-11-08)
-- https://raw.githubusercontent.com/SciPhi-AI/R2R/main/py/README.md - the engine positioning, feature list, install paths, and SDKs (the root README is a one-line pointer to this file; re-verified unchanged 2026-11-08, still linking the dead docs domain)
-- https://pypi.org/pypi/r2r/json - version 3.6.6 (2025-08-17), 225 releases (re-verified unchanged 2026-11-08)
-- https://hn.algolia.com/api/v1/search?query=R2R%20SciPhi&tags=story - the launch footprint: V1 at 167 points (2024-02-26), V2 at 251 points (2024-06-26), V3 at 1 point (2024-12-04) (re-verified unchanged 2026-11-08)
-- https://r2r-docs.sciphi.ai/ - 404 on the root and quickstart paths (fetched 2026-10-11, re-verified 2026-11-08)
-- https://sciphi.ai - transport error, with www.sciphi.ai also unreachable (fetched 2026-10-11, re-verified 2026-11-08)
-- https://raw.githubusercontent.com/Yigtwxx/awesome-rag-production/main/README.md - the entrant source, whose R2R entry carries the dormancy warning quoted in the Status section (re-verified 2026-11-08)
+- https://api.github.com/repos/SciPhi-AI/R2R - 8,015 stars (as of 2026-10-31), MIT, created 2024-02-12, pushed 2025-11-07, 132 open issues (GitHub API, as of 2026-11-14)
+- https://raw.githubusercontent.com/SciPhi-AI/R2R/main/py/README.md - the engine positioning, feature list, install paths, and SDKs (the root README is a one-line pointer to this file; re-verified unchanged 2026-11-14, still linking the dead docs domain)
+- https://pypi.org/pypi/r2r/json - version 3.6.6 (2025-08-17), 225 releases (re-verified unchanged 2026-11-14)
+- https://hn.algolia.com/api/v1/search?query=R2R%20SciPhi&tags=story - the launch footprint: V1 at 167 points (2024-02-26), V2 at 251 points (2024-06-26), V3 at 1 point (2024-12-04) (re-verified unchanged 2026-11-14)
+- https://r2r-docs.sciphi.ai/ - 404 on the root and quickstart paths (fetched 2026-10-11, re-verified 2026-11-14)
+- https://sciphi.ai - transport error, with www.sciphi.ai also unreachable (fetched 2026-10-11, re-verified 2026-11-14)
+- https://raw.githubusercontent.com/Yigtwxx/awesome-rag-production/main/README.md - the entrant source, whose R2R entry carries the dormancy warning quoted in the Status section (re-verified 2026-11-14)

@@ -1,7 +1,7 @@
 ---
 title: Unified Harness Protocol (UHP)
 created: 2026-10-08
-updated: 2026-11-12
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, agent-serving, harnesses]
 readability: 3
@@ -24,9 +24,10 @@ Apache-2.0, maintained in the HarnessRouter repository under a maintainer-led, p
 
 ## Status
 
-**Active and shipping fast: 2,994 stars (2026-10-13), 442 forks, created 2026-08-09, pushed 2026-11-12, as of 2026-11-12 (GitHub API).**
+**Active and shipping fast: 2,994 stars (2026-10-13), 442 forks, created 2026-08-09, pushed 2026-11-14, as of 2026-11-14 (GitHub API).**
 
 The spec is at version 2026-10-19, its fifth version in roughly ten weeks (2026-08-11, 2026-09-12, 2026-09-28, 2026-10-04, 2026-10-19), and the conformance suite at the implementing product's latest tag is 2026.10.19.post6, whose B-01 through B-06 cover the fifth version's new session_branching capability (spec-matching, re-fetched 2026-11-12).
+The fifth version's changelog has kept growing since: its newest entry adds conditional updates, where a harness read may carry an `ETag` and its update an `If-Match` so a stale client write is refused 412 precondition_failed, the sixth capability added within the same version without a version bump (fetched 2026-11-14).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HarnessRouter/harnessrouter&type=date&theme=dark&legend=top-left" />
@@ -89,6 +90,7 @@ My disagreeable claim: the Responses API already owns this lane by gravity, so t
 - 2026-11-06 - The release train moved to v0.38.1 (2026-11-04, a security fix that ends group-root reach in session file reads and writes, and a task that cannot start now says so at once) and v0.38.2 (2026-11-04, a licensing correction that removes an LGPL image library from the shipped console image and corrects NOTICE), while the spec stays at its 2026-10-19 fifth version and the conformance suite's newest entry stays 2026.10.19.post5 (2026-11-03); the repository pushed 2026-11-06 on runner hardening (a turn answers only the session that started it, and a turn's idempotency key dedupes within its own session only).
 - 2026-11-08 - The release train moved through v0.38.3 (2026-11-07, the MCP-server connection probe now joins an event's `data:` lines before reading them, answers capped at 4 MiB and 30 seconds, and Pi and Oh My Pi take custom Responses-format connections) and v0.38.4 (2026-11-07, on deployments shared by several organizations the model broker's per-organization connections are address-checked the way MCP server addresses already were) to v0.38.5 (2026-11-08, first-start harness installs pinned to exact versions with committed digests, connection-level request headers for AI gateways such as Cloudflare's, and optional per-step workspace checkpointing), while the spec stays at its 2026-10-19 fifth version and the conformance suite at 2026.10.19.post5; the repository pushed 2026-11-08.
 - 2026-11-12 - The release train moved through v0.38.6 and v0.38.7 (both 2026-11-08, bug and dependency security fixes in the harnesses' own dependencies) to v0.39.0 (2026-11-09, a session can branch from an earlier response, matching the spec's new session_branching capability, and Roder joins as an opt-in harness), v0.40.0 through v0.40.3 (2026-11-09, memories by default for new agents, prompts off the command line and onto stdin, runner hardening with its tests in CI), and v0.41.0 through v0.41.13 (2026-11-09 to 11-12, memories polish and first-start installs that run nothing they downloaded as root), while the spec stays at its 2026-10-19 fifth version and the conformance suite moved to 2026.10.19.post6 (2026-11-04, B-01 through B-06 covering session_branching, the fifth version's newest capability addition, #477); the repository pushed 2026-11-12.
+- 2026-11-14 - The release train moved from v0.41.13 through v0.41.14 and v0.41.15 (both 2026-11-13, session processes starting through setpriv with a scrubbed environment and stored MCP secrets bound to the server they were saved for) to v0.41.16 (2026-11-14, a console rail rename), and the spec changelog gained a sixth capability addition within the 2026-10-19 fifth version (a harness read may carry an ETag and its update an If-Match, with a stale version refused 412 precondition_failed) while the suite stays at 2026.10.19.post6; the spec remains at its fifth version; the repository pushed 2026-11-14.
 
 ## See also
 

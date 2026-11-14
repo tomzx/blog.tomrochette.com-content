@@ -1,7 +1,7 @@
 ---
 title: Zep
 created: 2026-08-24
-updated: 2026-11-07
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, knowledge-graphs]
 readability: 3
@@ -24,7 +24,7 @@ A Memory MCP Server and plugins for Claude Code, Codex, and Cursor push Zep memo
 ## Status
 
 **Active, enterprise-focused, post-open-core.**
-Graphiti shows about 31.8k stars as of 2026-10-16 (1,054 commits as of 2026-11-01); its Show HN drew 142 points.
+Graphiti shows about 31.8k stars as of 2026-10-16 (1,061 commits as of 2026-11-14); its Show HN drew 142 points.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getzep/zep&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,7 @@ Not for solo builders or small budgets, and my disagreeable claim is that Mem0's
 - 2026-10-28 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the pricing page still shows the $125/$375 monthly figures and the 10,000/50,000/200,000 credit quotas in the fetched text), and Graphiti stays active on the default branch with documentation commits on 2026-10-27.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live (product site, pricing page, Graphiti and Zep repositories, the paper, both blog posts), the pricing ladder re-verified unchanged on the fetched text (Flex $104 annual / $125 monthly, Flex Plus $312/$375, overage $25 per 10,000 and $75 per 40,000 credits, free tier 10,000 credits), the Community Edition deprecation and Mem0 rebuttal posts unchanged, and Graphiti's commit count refreshed to 1,054 as of 2026-11-01 while the star figure stays at its 2026-10-16 baseline.
 - 2026-11-07 - Recorded the repository's 2026-11-04 turn: the legacy Community Edition code and its README section were removed outright, so the discontinued self-hostable server no longer exists even as code, and the repository's remaining surface is Agent Skills benchmark harnesses and examples across seven frameworks, a Context Lake description, and the removal of the zep-mcp-server example and Discord links.
+- 2026-11-14 - Rotation re-verification: every cited URL re-fetched live (the pricing page and both blog posts through their redirects), the pricing ladder re-verified unchanged on the fetched text (monthly $125/$375 leading behind the Save-17-percent annual toggle, overage top-ups $25 per 10,000 Flex and $75 per 40,000 Flex Plus credits, the free tier's no-rollover); the zep repository's default branch sits quiet since the November 4 removals (the November 13 push a side branch), and Graphiti's commit count refreshed to 1,061 as of 2026-11-14 with CLA-bot commits since the October 28 dependency upgrades.
 
 ## See also
 

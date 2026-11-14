@@ -1,7 +1,7 @@
 ---
 title: A2UI
 created: 2026-10-06
-updated: 2026-11-12
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, generative-ui, frontend, google]
 readability: 3
@@ -16,7 +16,7 @@ A2UI is Google's open, Apache-2.0 declarative format that lets agents describe r
 
 ## What it is
 
-A versioned specification suite published at a2ui.org (v1.0 current since 2026-11-06, with v0.9.1 and v0.9 previous and v0.8 deprecated) plus renderer libraries for Lit, Angular, Flutter, Markdown, SwiftUI, and Jetpack Compose, with community renderers (Lynx, Svelte, Vue, Compose Multiplatform, Go) listed on the docs ecosystem page.
+A versioned specification suite published at a2ui.org (v1.0 current since 2026-11-06, with v0.9.1 and v0.9 previous and v0.8 deprecated) plus renderer libraries for Lit, Angular, React, Flutter, Markdown, SwiftUI, and Jetpack Compose, with community renderers (Lynx, Svelte, Vue, Compose Multiplatform, Go) listed on the docs ecosystem page.
 An agent emits a flat, streaming list of JSON component descriptions with ID references, and the client maps each component to its own native widget, so the same payload renders on web, mobile, or desktop.
 **The security model is the design's core: the client maintains a catalog of pre-approved components and the agent can only request components from that catalog, which the project summarizes as "safe like data, but expressive like code".**
 Google created it and opened it on 2025-12-15, and the repository now lives in its own `a2ui-project` GitHub organization with contributions from the CopilotKit team.
@@ -88,6 +88,7 @@ My disagreeable claim: A2UI will matter more to what end users see than AG-UI do
 - 2026-11-06 - The spec hub promoted v1.0 to the current protocol version, ending the release-candidate period the note recorded since creation: the table now reads v1.0 Current (client-to-server RPC action responses and action IDs, the `theme` to `surfaceProperties` rename, previously designated as v0.10), v0.9.1 and v0.9 Previous, and v0.8 Deprecated; the same wave added an a2ui agent skill and docs llms.txt, merged the first SwiftUI renderer work, and redesigned the landing page, while the tagged release train stays at the 2026-11-02 Python wave; the What-it-is suite list, the Status section, and the churn caution moved with the promotion.
 - 2026-11-08 - Re-verification: the repository pushed 2026-11-08 on docs-site work (a Macros concept guide, the roadmap page rewritten as a gen-UI lifecycle loop, per-PR docs preview deployments and link checking) with the tagged release train unchanged (the 2026-11-02 Python wave still the newest set) and the spec hub's version table re-confirmed (v1.0 current, v0.9.1 previous).
 - 2026-11-12 - The tagged release train moved past the 2026-11-02 Python wave twice: the 2026-11-10 Python wave (a2ui-core v0.6.0, agent SDK v0.11.0, a2ui-adk and a2ui-a2a v0.3.0) and the 2026-11-11 Dart wave (a2ui_core 0.7.0, a2ui_agent, a2ui_flutter, and a2ui_cli at 0.3.0) with a breaking `@`-prefixed v1.0 component-envelope-key change emitted across the spec and SDKs; the docs added an official Jetpack Compose SDK on Google Maven, listed SwiftUI among official renderers, and added a Built with A2UI page naming Alation, ByteDance's Lynx, Atlassian's Jira, Gemini Notebook, and Gemini Enterprise as production adopters; Google's own 2026-11-11 A2UI 1.0 launch post names Bloomberg alongside them and says v1.0 adds bidirectional function calls, accessibility support, and extensions; the What-it-is renderer list and the Status section moved with the train and the adoption record.
+- 2026-11-14 - Re-verification: the repository pushed 2026-11-12 through 11-14 on renderer and docs-site work (an Angular universal-element hook, a web_core surface-action fix, a TypeScript named-export refactor, Swift catalog styles, a WeChat MiniProgram renderer joining the ecosystem docs, and landing-page edits) with the tagged release train unchanged (the 2026-11-10 Python wave and the 2026-11-11 Dart wave still the newest sets), the spec hub's version table re-confirmed (v1.0 current, v0.9.1 previous), and the docs' official SDK list now including React (`@a2ui/react`); the What-it-is renderer list moved with the SDK addition.
 
 ## See also
 

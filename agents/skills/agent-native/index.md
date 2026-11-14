@@ -1,7 +1,7 @@
 ---
 title: Agent-Native
 created: 2026-09-13
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, agent-extensions, builder-io, app-frameworks]
 readability: 3
@@ -33,9 +33,9 @@ The catalog stands at 4,571 stars and 232 forks, the framework at 7,143 stars an
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=BuilderIO/agent-native&type=date&legend=top-left" />
 </picture>
 
-The npm package was created 2026-06-10, sits at 0.4.6 (published 2026-11-12, the nightlies on the 0.4.7 train), and read 4,963 downloads over the pinned window 2026-11-07 to 11-13 (fetched 2026-11-13), a figure I trust over the API's rolling windows, which regressed in past runs to serving stale June windows (the 2026-10-27 trailing-month query returned 34,751 for a 2026-06-02 to 07-01 window), so any npm adoption claim from this API needs a pinned date-range query.
-The catalog holds 25 skill directories (re-counted 2026-11-12, the pack's 11-11 push being another routine exported-skills sync that added none), up from the fifteen recorded at this note's creation, with the growth concentrated in the factory family and orchestration helpers (efficient-fable, efficient-frontier, efficient-orchestrator, quick-recap, turn-into-app, visual-edit); the 10-28 push added efficient-orchestrator and converted efficient-frontier and efficient-fable to explicit-only aliases (no implicit invocation).
-The framework's pushes through 11-13 on main remain monorepo app development (Dispatch app chat fixes for mounted workspace apps, AgentKit chat parts and Subagent steps, pasted-image limits, email-change failure handling, Mail setup rules during Gmail cooldown, Design intake and signed-out screens, CLI child-process signal exit codes), with two patch release-package trains on 11-12, and the catalog held at 25 skills with no pushes since the 2026-11-11 re-count.
+The npm package was created 2026-06-10, sits at 0.4.7 (published 2026-11-13, the nightlies on the 0.4.8 train), and read 4,315 downloads over the pinned window 2026-11-08 to 11-14 (fetched 2026-11-14), a figure I trust over the API's rolling windows, which regressed in past runs to serving stale June windows (the 2026-10-27 trailing-month query returned 34,751 for a 2026-06-02 to 07-01 window), so any npm adoption claim from this API needs a pinned date-range query.
+The catalog holds 25 skill directories (re-counted 2026-11-14, the pack's 11-13 push being another routine exported-skills sync that added none), up from the fifteen recorded at this note's creation, with the growth concentrated in the factory family and orchestration helpers (efficient-fable, efficient-frontier, efficient-orchestrator, quick-recap, turn-into-app, visual-edit); the 10-28 push added efficient-orchestrator and converted efficient-frontier and efficient-fable to explicit-only aliases (no implicit invocation).
+The framework's pushes through 11-14 on main remain monorepo app development (Mail saving forwarded and reopened drafts that carry Gmail attachments, duplicate-tab Content resend fixes, analytics panel descriptions collapsed to compact expandable subtext, dispatch first-run hydration on startup, the Clips Settings Labs tab), with two patch release-package trains on 11-12.
 No Hacker News threads and no independent coverage surfaced in this run's searches, so the audience so far is GitHub and npm.
 
 ## Strengths
@@ -92,6 +92,7 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 - 2026-11-07 - Volatile refresh: the npm stable crossed the 0.3.x train to 0.4.3 (published 2026-11-06, the first minor-line move recorded here) with the nightlies on 0.4.4 and pinned-window downloads at 6,052 (2026-10-31 to 11-06); the pack held at 25 skills, its 11-02 push being a frontmatter-validation fix (reject plain scalars starting with a YAML indicator) that added none; and the framework pushes (11-01 to 11-07) remain monorepo app development (Content row panels, search typo forgiveness, parallel convergence groups, agent screenshot moments from a session link, Forms database-latency reporting, Slides oracle gating).
 - 2026-11-12 - Volatile refresh: the npm stable crossed to 0.4.4 with pinned-window downloads at 5,279 (2026-11-06 to 11-12); the pack held at 25 skills, its 11-11 push being another routine exported-skills sync; and the framework's pushes (through 11-11 on main, the 11-12 pushed-date move landing on a side branch) remain monorepo app development (admin skill tiers, MCP credential-destination enforcement, standardized sharing controls).
 - 2026-11-13 - Volatile refresh: the npm stable crossed to 0.4.6 (published 2026-11-12) with the nightlies on the 0.4.7 train and pinned-window downloads at 4,963 (2026-11-07 to 11-13); the pack held at 25 skills (no pushes since the 2026-11-11 re-count); and the framework's pushes (11-12 to 11-13 on main) remain monorepo app development (Dispatch app chat fixes, AgentKit chat parts and Subagent steps, pasted-image limits, email-change failure handling) with two patch release-package trains.
+- 2026-11-14 - Volatile refresh: the npm stable crossed to 0.4.7 (published 2026-11-13) with the nightlies on the 0.4.8 train and pinned-window downloads at 4,315 (2026-11-08 to 11-14); the pack re-counted at 25 skills, its 11-13 push being another routine exported-skills sync; and the framework's pushes (through 11-14 on main) remain monorepo app development (Mail Gmail-attachment drafts, Content duplicate-tab resend fixes, analytics compact panel descriptions, dispatch first-run hydration).
 
 ## See also
 
@@ -106,8 +107,8 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 - https://github.com/BuilderIO/skills - the catalog repo: 24 skills, installer options, marketplace packaging, root MIT LICENSE file, 4,571 stars as of 2026-10-13
 - https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, root MIT LICENSE file with package.json and GitHub detection agreeing as of 2026-10-20, 7,143 stars as of 2026-10-13
 - https://www.agent-native.com/ - the framework landing
-- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.4.6, published from the monorepo, as of 2026-11-13 (re-fetched 2026-11-13)
-- https://api.npmjs.org/downloads/point/2026-11-07:2026-11-13/@agent-native/skills - 4,963 downloads over the pinned window 2026-11-07 to 11-13, the figure the Status quotes (fetched 2026-11-13; the prior 5,279 window read 2026-11-06 to 11-12, fetched 2026-11-12)
+- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.4.7, published from the monorepo, as of 2026-11-14 (re-fetched 2026-11-14)
+- https://api.npmjs.org/downloads/point/2026-11-08:2026-11-14/@agent-native/skills - 4,315 downloads over the pinned window 2026-11-08 to 11-14, the figure the Status quotes (fetched 2026-11-14; the prior 4,963 window read 2026-11-07 to 11-13, fetched 2026-11-13)
 - https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - the rolling window, regressed in past runs to serving stale 2026-06 windows (34,751 for 2026-06-02 to 07-01 on the 2026-10-27 trailing-month query), while on 2026-11-08 it served the same 11-01 to 11-07 window as the pinned query and agreed (re-fetched 2026-11-08)
 - https://registry.npmjs.org/@agent-native/scheduling/latest - the flagged sub-package release: 0.2.45, MIT, provenance-published from the monorepo's scheduling package (fetched 2026-10-25)
 - https://hn.algolia.com/api/v1/search?query=%22builder.io%22%20skills&tags=story - the zero-hit search behind the missing-footprint statement (re-run 2026-10-25, still zero hits)

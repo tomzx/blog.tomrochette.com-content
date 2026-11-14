@@ -3,7 +3,7 @@ category: context-engines
 generated: 2026-11-14
 mapped_sources:
   - repo: Meirtz/Awesome-Context-Engineering
-    last_checked: 2026-11-13
+    last_checked: 2026-11-14
 digest_lines:
   - "- 2026-11-13 | cross-category | a domain serving 500s on the cited page, its sibling pages, and the root is server-side trouble, not a dead source, so keep the citation, ground the fact through an alternate fetched endpoint, and record the wall in the run's record (neurips.cc class, extending the 2026-11-08 bot-wall and 2026-11-01 unfetchable-page lines) | the MLR-Bench rotation re-fetch hit 500s on the poster page, the search page, and the domain root while the OpenReview API returned the same NeurIPS 2025 D&B poster record"
   - "- 2026-11-13 | context-engines | default-branch docs-only commits and patch releases of packages the note does not cover are non-material and leave the note's dated as-of claims standing | the context7 2026-11-12 to 11-13 wave (on-prem SSO docs, upgrade-guide gaps, Google Drive and Confluence docs, @upstash/context7-tools-ai-sdk@1.0.4), extending the 2026-10-25 non-default-branch ruling to quiet default branches"

@@ -1,7 +1,7 @@
 ---
 title: Agent Network Protocol (ANP)
 created: 2026-10-05
-updated: 2026-11-12
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, decentralized-identity, multi-agent]
 readability: 3
@@ -78,6 +78,7 @@ My disagreeable claim: if autonomous agents on the open web ever emerge, ANP's D
 - 2026-11-03 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec hub still serves ANP 1.2 with 1.0 and 1.1 archived, the footprint scan still finds the same three stories at 2, 1, and 1 points, the release train stays at v1.2 (2026-09-24), and the repository's default branch was pushed 2026-10-30, which the Status now records.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec hub still serves ANP 1.2 with 1.0 and 1.1 archived and the 1.2 white paper live, the release train stays at v1.2 (2026-09-24), the footprint scan still finds the same three stories at 2, 1, and 1 points, and the 2026-10-30 push recorded last run was corrected to a side-branch push, the default branch quiet since 2026-10-22, per the standing pushed_at ruling.
 - 2026-11-12 - Re-verification: the 2026-11-09 pushed_at confirmed another side-branch push (zero default-branch commits since 2026-10-31), so the default branch stays quiet since 2026-10-22; the release train stays at v1.2 (2026-09-24) and nothing else moved.
+- 2026-11-14 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec hub still serves ANP 1.2 with 1.0 and 1.1 archived and the meta-protocol and payment drafts open, the footprint scan still finds the same three stories at 2, 1, and 1 points, the OSSA survey stands unchanged, the default branch carries zero commits since 2026-10-31 (the 2026-11-09 pushed_at still a side-branch push), and the companion `anp` implementation was pushed 2026-11-13 on maintenance work.
 
 ## See also
 

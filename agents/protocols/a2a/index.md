@@ -1,7 +1,7 @@
 ---
 title: Agent2Agent Protocol (A2A)
 created: 2026-08-24
-updated: 2026-11-12
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, multi-agent]
 readability: 3
@@ -81,6 +81,7 @@ The disagreeable part: I expect A2A to stay an enterprise convention, and if aut
 - 2026-11-01 - Re-verification: the repository pushed 2026-11-01 on docs-only commits since the last pass (a broken-link removal, a partner-link fix, and an antitrust policy page), the spec stays at v1.0.1, and the official CLI's release train still ends at v0.3.1 (2026-10-16).
 - 2026-11-06 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the spec stays at v1.0.1 (v1.0.1 still the newest release tag) with the repository pushed 2026-11-05 on a docs-only commit (the a2a-cli OAuth Client ID Metadata Document the CLI now serves from the site root), the official CLI's release train moved to v0.4.0 (2026-11-04: a custom CA flag, unix-socket transport with credential helpers, an interactive chat command, an install script, and TLS by default for built-in gRPC), the Ask HN usage thread re-confirmed live, and both pypistats windows stand unchanged (the as-of 2026-10-07 figures).
 - 2026-11-12 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the spec stays at v1.0.1 (v1.0.1 still the newest release tag) with the repository pushed 2026-11-11 on docs-only commits (a custom 404 page and a spec-site main-page revamp with dark mode and a restructured home page), the official CLI's release train still ends at v0.4.0 (2026-11-04) with the default branch carrying 2026-11-06 fixes (an a2a-go v2.8.0 bump, the gRPC agent-card listener bound to --host, and file-URL escaping for local card paths) plus a 2026-11-11 Homebrew formula chore, the Ask HN thread re-counted at the same 45 comments, and both pypistats windows still reading their as-of 2026-10-07 figures unchanged.
+- 2026-11-14 - Re-verification: the repository pushed 2026-11-13 on docs-only partner-list additions (Raven and A2A Market), the spec stays at v1.0.1 (v1.0.1 still the newest release tag), and the official CLI's release train still ends at v0.4.0 (2026-11-04) with the default branch carrying 2026-11-12 to 11-13 work beyond the recorded Homebrew chore (SSE keep-alives resetting the --stream inactivity timeout, query strings dropped from agent-URL error messages, and --agent-card resolution from AI Catalogs).
 
 ## See also
 

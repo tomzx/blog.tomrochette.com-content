@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -34,7 +34,7 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
 </picture>
 
-3,721 stars since 2026-04-30, latest release v1.2.55 on 2026-11-11 (classic search results stay on one published document version during concurrent progressive refinement), following the v1.2.46-through-v1.2.54 run of 2026-11-09 to 2026-11-11 (a POST /api/v2/retrieval/tools/invoke endpoint that lets host agents call the corpus tools directly without Knowhere's own retrieval agent, TSV ingest billed as spreadsheets, Excel header and caption detection with progressive sheet-group parsing, and OpenSearch release-1 production-connectivity prep), pushed 2026-11-13 with 50 open issues, v1.2.55 still latest on the 2026-11-13 re-check (GitHub API, as of 2026-11-13).
+3,721 stars since 2026-04-30, latest release v1.2.56 on 2026-11-13 (atlas drawing-sheet skills for TOC calibration and Fine tagging, speech, audio, and video parsing with duration billing and time-range citations, and a restored Alembic revision for the upload-parse migration), following the v1.2.46-through-v1.2.55 run of 2026-11-09 to 2026-11-11 (a POST /api/v2/retrieval/tools/invoke endpoint that lets host agents call the corpus tools directly without Knowhere's own retrieval agent, TSV ingest billed as spreadsheets, Excel header and caption detection with progressive sheet-group parsing, OpenSearch release-1 production-connectivity prep, and v1.2.55's document-version pinning under concurrent refinement), pushed 2026-11-14 with 51 open issues (GitHub API, as of 2026-11-14).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and its default branch's latest commit is a 2026-10-27 merge, so the self-hosting path still looks far less trafficked than the hosted funnel.
 
@@ -100,6 +100,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 - 2026-11-06 - Recorded release v1.2.45 (2026-11-06, short scanned PDFs without a table of contents rendering page images on V2 full ingest instead of an empty whole-document chunk) and refreshed the repository activity (pushed 2026-11-06); per-page pricing unchanged.
 - 2026-11-12 - Rotation re-verification re-fetched every cited URL live (per-page pricing unchanged at $0.015 per billable page with the billing mechanics now documented as prepaid Stripe credit packages expiring after 365 days, the 14-day trial still advertised on the marketing site, product and docs pages up, both Show HNs and the PyPI name-squat unchanged) and recorded the release run v1.2.46 through v1.2.55 (2026-11-09 to 2026-11-11; the retrieval-tools invoke endpoint, TSV ingest, Excel table-header detection with progressive sheet-group parsing, OpenSearch release-1 prep, and v1.2.55's document-version pinning under concurrent refinement) with the repository activity refreshed (pushed 2026-11-11, 50 open issues); the self-hosted stack's default-branch push date moved to 2026-10-27.
 - 2026-11-13 - Refreshed the repository activity (pushed 2026-11-13, 50 open issues unchanged); v1.2.55 remains latest.
+- 2026-11-14 - Recorded release v1.2.56 (2026-11-13, atlas drawing-sheet skills, speech and audio and video parsing with duration billing and time-range citations, and the restored upload-parse Alembic revision) and refreshed the repository activity (pushed 2026-11-14, 51 open issues); per-page pricing unchanged.
 
 ## See also
 
@@ -110,8 +111,8 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,721 stars (as of 2026-10-13), pushed 2026-11-13, 50 open issues (GitHub API, as of 2026-11-13)
-- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.55 on 2026-11-11 still latest (fetched 2026-11-12, re-verified 2026-11-13, with the v1.2.46-through-v1.2.54 run of 2026-11-09 to 2026-11-11 behind it)
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,721 stars (as of 2026-10-13), pushed 2026-11-14, 51 open issues (GitHub API, as of 2026-11-14)
+- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.56 on 2026-11-13 the latest (fetched 2026-11-14, with the v1.2.46-through-v1.2.55 run of 2026-11-09 to 2026-11-11 behind it)
 - https://knowhereto.ai - hosted product surface, the 14-day free trial still advertised, and the self-reported comparison table (re-verified 2026-11-12)
 - https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface (re-verified 2026-11-12)
 - https://docs.knowhereto.ai/pricing - per-page pricing, billable-page counting, prepaid credit packages expiring after 365 days, refund policy, rate-limit tiers (re-verified 2026-11-12)

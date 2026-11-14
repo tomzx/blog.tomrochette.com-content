@@ -1,7 +1,7 @@
 ---
 title: memU
 created: 2026-10-06
-updated: 2026-11-13
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, file-based, skills]
 readability: 3
@@ -44,6 +44,7 @@ Pending work since the last verification (2026-10-30 through 11-04): an OpenRout
 The pending work extended (November 5): memory query quality and retrieval diagnostics improved, the HTTPS proxy compatibility fallback restored with the ambient proxy chosen by endpoint scheme, and SQLite hydration preserving scope fields.
 The pending work extended again (November 9 and 10): an asynchronous memory hooks installer for pi, memory query quality and retrieval diagnostics work, a contribution task catalog added to the community docs, a SQLite fix isolating columns across scope models, and nameless recall files rejected before their commits are acknowledged.
 The pending work extended (November 13): Hermes Agent memory plugin hooks with an installer, recall metadata preserved when frontmatter ends in dashes, and a retrieval-skill ownership check before direct removal.
+The pending work extended (November 14): local memory commits made atomic under concurrent writers.
 The license file moved from LICENSE to LICENSE.txt, which the GitHub detector stopped recognizing (it now reads NOASSERTION) while the text stays the standard Apache-2.0 the README still declares.
 
 ## Strengths
@@ -99,6 +100,7 @@ Not for teams needing multi-user memory APIs, contractual hosting terms, or any 
 - 2026-11-08 - Recorded the pending November 5 work (memory query quality and retrieval diagnostics, the HTTPS proxy fallback restored with endpoint-scheme proxy selection, SQLite hydration preserving scope fields) and the license file's rename to LICENSE.txt, which the GitHub detector stopped recognizing while the text stays standard Apache-2.0; the push date refreshed to 2026-11-05.
 - 2026-11-11 - Recorded the pending November 9-10 work (an asynchronous memory hooks installer for pi, a contribution task catalog in the community docs, the SQLite scope-column isolation fix, and nameless recall files rejected before acknowledgment); the push date refreshed to 2026-11-10.
 - 2026-11-13 - Volatile re-verification: the pending November 13 work recorded (Hermes Agent memory plugin hooks with an installer, the frontmatter-dash recall metadata fix, the retrieval-skill ownership check); the push date refreshed to 2026-11-13.
+- 2026-11-14 - Recorded the pending November 14 work (local memory commits made atomic under concurrency); the push date refreshed to 2026-11-14.
 
 ## See also
 

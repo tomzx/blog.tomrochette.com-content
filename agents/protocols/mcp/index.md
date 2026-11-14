@@ -1,7 +1,7 @@
 ---
 title: Model Context Protocol (MCP)
 created: 2026-08-24
-updated: 2026-11-12
+updated: 2026-11-14
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, agent-tools]
 readability: 3
@@ -80,6 +80,7 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 - 2026-11-06 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch has no commits since 2026-11-04, with the repository's pushed date moved by a side-branch push.
 - 2026-11-08 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and schema fixes since 2026-11-06 (the authorization guide reworked for the 2026-07-28 revision, the Skills specification links pointed at specification/beta/, a working-group contribution policy); recorded the official TypeScript SDK's 2.x package line (client, server, and core at 2.4.0 on npm since 2026-10-23, legacy `@modelcontextprotocol/sdk` staying at 1.32.2).
 - 2026-11-12 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries community-governance and docs work since 2026-11-08 (a working-groups overview page, working and interest group list reconciliation, the SEP proposal-state automation slimmed, and blog posts announcing the MCP release cycle and the file uploads and downloads extension, with MCP Inspector's Apps support marked partial).
+- 2026-11-14 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and CI work since 2026-11-12 (EU Cyber Resilience Act stewardship guidance, registry docs pulled from v1.8.9, a working-group-sponsored SEP process, the Core Primitives Working Group listed on the working-groups overview, SEP dead-link fixes, and website-content CI).
 
 ## See also
 
