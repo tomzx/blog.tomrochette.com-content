@@ -1,7 +1,7 @@
 ---
 title: SuperPlane
 created: 2026-10-07
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The core is Apache-2.0 with integrations across source control, CI, cloud, obser
 
 ## Status
 
-Active: 7,709 stars as of 2026-10-14, 707 forks and 240 open issues as of 2026-11-14, pushed 2026-11-14, per the GitHub API.
+Active: 7,709 stars as of 2026-10-14, 708 forks and 242 open issues as of 2026-11-15, pushed 2026-11-15 while main's newest commit stays the 2026-11-13 merge-confidence check, per the GitHub API.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&theme=dark&legend=top-left" />
@@ -42,7 +42,7 @@ The repository now carries the software-factory topic and the website and docs s
 
 ## Cautions
 
-- **v1.0.0 is still the only stable platform tag eighteen days later**: the first stable platform tag landed 2026-10-27 against daily main pushes (the newest main commit, a merge-confidence running check of 2026-11-13, is unreleased), so tag-tracking self-hosters jump three months of main at once, and the stable train's own track record is one release; the component train holds at runner v0.2.1 and fleet-manager v0.1.7.
+- **v1.0.0 is still the only stable platform tag nineteen days later**: the first stable platform tag landed 2026-10-27 against daily main pushes (the newest main commit, a merge-confidence running check of 2026-11-13, is unreleased), so tag-tracking self-hosters jump three months of main at once, and the stable train's own track record is one release; the component train holds at runner v0.2.1 and fleet-manager v0.1.7.
 - **Open-core split**: the /ee directory sits under a separate Enterprise Edition license, and GitHub cannot classify the result.
 - **Young platform surface**: 463 open issues and a January control-plane-to-factory pivot mean the docs story is still settling.
 - **It is broader than a factory**: workflow automation across observability and incidents puts it in workflow-platform territory too, which dilutes the factory comparison.

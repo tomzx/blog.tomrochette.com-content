@@ -3,7 +3,7 @@ category: session-analytics
 generated: 2026-11-15
 mapped_sources:
   - repo: anhermon/awesome-agent-observability
-    last_checked: 2026-11-14
+    last_checked: 2026-11-15
 digest_lines:
   - "- 2026-11-14 | cross-category | a release list flooded by nightly and per-commit builds hides stable tags past the pagination window, so a stable-tag claim grounds through the releases/tags endpoint | langchain-ai/open-swe's 100 most recent releases were all prerelease desktop builds while desktop-v0.3.15 and desktop-v0.3.16 (2026-11-08, 2026-11-09) sat outside the list, extending the 2026-11-08 API-grounding line"
   - "- 2026-11-14 | session-analytics | Agent Analytics's open-source-quieter-than-cloud framing retired: the server repo landed its first commits since 2026-10-09 on 2026-11-13/14 (read-only POST /sql with property group-by, synchronous subject erasure) and the npm CLI moved 0.5.37 to 0.5.42, while the LICENSE file stays absent and the HN footprint stays zero | rotation re-verification found the wake-up; the note's cautions now rest on the missing license and thin footprint, not on repository silence"

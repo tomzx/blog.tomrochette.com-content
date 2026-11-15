@@ -1,7 +1,7 @@
 ---
 title: Agent Control
 created: 2026-10-05
-updated: 2026-11-13
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, runtime-governance, open-source]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a decorator, a policy server, and an evaluator are.
 ---
 
-Agent Control (agentcontrol/agent-control) is Galileo Technologies' Apache-2.0 control plane that turns any Python or TypeScript function into a governed decision point with a `@control()` decorator, evaluating the call against centrally managed policy on a server and returning deny, steer, warn, log, or allow before the action runs.
+Agent Control (agentcontrol/agent-control) is Galileo Technologies' Apache-2.0 control plane, carried into Cisco and Splunk by Cisco's completed 2026-05-22 acquisition of Galileo, that turns any Python or TypeScript function into a governed decision point with a `@control()` decorator, evaluating the call against centrally managed policy on a server and returning deny, steer, warn, log, or allow before the action runs.
 
 **Its thesis is that guardrails hardcoded in agent code rot one repository at a time, so the decorators mark where decisions happen while the policy lives on a server, letting a compliance team change what every agent enforces without a single redeploy.**
 
@@ -21,10 +21,11 @@ A deny raises a `ControlViolationError` before the unsafe action proceeds.
 Built-in evaluators cover regex, list, JSON, and SQL checks, and the architecture is deliberately pluggable: one policy can mix Galileo's Luna, NVIDIA NeMo guardrails, AWS Bedrock checks, Cisco AI Defense guardrails, and custom evaluators.
 Framework support covers LangChain, CrewAI, Google ADK, and AWS Strands, with an OpenClaw plugin in the same organization.
 The launch blog (March 11, 2026) frames the product against Forrester's agent control plane market evaluation, with launch partners including Cisco, CrewAI, AWS Strands, Glean, Rubrik, and ServiceNow.
+The vendor changed hands mid-train: Cisco announced its intent to acquire Galileo on April 9, 2026 and completed it on May 22, 2026, folding Galileo's commercial platform into Splunk Agent Observability, and one of the launch partners ended up the owner; the open-source control plane kept shipping under the agentcontrol organization after the acquisition, and the project site still names Galileo Technologies, Inc.
 
 ## Status
 
-Active and young: 327 stars, 55 forks, and 20 contributors as of 2026-10-14, with 51 open issues as of 2026-11-13, created 2026-01-30, and a fast release train (v8.8.0 on 2026-09-22, v8.9.0 and v8.10.0 on 2026-10-01, v8.11.0 on 2026-10-02, v8.12.0 on 2026-10-09, v8.13.0 on 2026-10-13, v8.14.0 on 2026-10-19, v8.15.0 on 2026-10-23, mirrored by agent-control-sdk 8.15.0 on PyPI and the npm agent-control package holding at 3.4.0); the train holds at v8.15.0, and the default branch's latest push is 2026-11-05, two post-release fixes (a galileo-core span alias and Orbit binding-list validation), with the 2026-11-09 repo-level push a side branch.
+Active and young: 327 stars, 55 forks, and 20 contributors as of 2026-10-14, with 51 open issues as of 2026-11-15, created 2026-01-30, and a fast release train (v8.8.0 on 2026-09-22, v8.9.0 and v8.10.0 on 2026-10-01, v8.11.0 on 2026-10-02, v8.12.0 on 2026-10-09, v8.13.0 on 2026-10-13, v8.14.0 on 2026-10-19, v8.15.0 on 2026-10-23, mirrored by agent-control-sdk 8.15.0 on PyPI and the npm agent-control package holding at 3.4.0); the train holds at v8.15.0, and the default branch's latest push is 2026-11-05, two post-release fixes (a galileo-core span alias and Orbit binding-list validation), with the 2026-11-09 repo-level push a side branch. The ownership moved to Cisco and Splunk after the May 2026 Galileo acquisition, and the launch post's galileo.ai URL now redirects to the Splunk Agent Observability product page (a 403 to a browser user agent this run, 200 to a plain fetch).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentcontrol/agent-control&type=date&theme=dark&legend=top-left" />
@@ -47,12 +48,12 @@ A version line already at v8 eight months in says the API moves; the README's ow
 - Enforcement quality equals evaluator quality: a regex list blocks what it anticipates, exactly the failure mode the launch anecdote describes, and nothing here substitutes for tool-level design.
 - Every governed call crosses a network hop to the policy server unless a local cache is configured, which adds latency and a new failure point to the agent's critical path.
 - The quickstart's own insecure-by-default warning means the first-run experience trains the wrong habits; read the API key configuration before exposing anything.
-- Galileo maintains the project while selling a commercial platform upstream, so the open-source roadmap will always answer to the funnel; the HN silence means nobody independent has stress-tested the enforcement claims yet.
+- Cisco and Splunk maintain the project while selling the commercial Agent Observability platform upstream (Galileo folded in), so the open-source roadmap will always answer to the acquirer's funnel; the HN silence means nobody independent has stress-tested the enforcement claims yet.
 
 ## Pricing
 
 The control plane is Apache-2.0 and free, self-hosted via Docker Compose with PostgreSQL.
-Galileo's commercial evaluation and observability platform integrates with it and is priced separately; no dollar prices are published on the pages cited here, so there is nothing to track.
+Galileo's commercial evaluation and observability platform, now Splunk Agent Observability under Cisco, integrates with it and is priced separately; no dollar prices are published on the pages cited here, so there is nothing to track.
 
 ## Compared to
 
@@ -74,6 +75,7 @@ Not for local-first or latency-critical enforcement, and not for anyone who need
 - 2026-10-25 - Release train moved to v8.15.0 (2026-10-23) with agent-control-sdk 8.15.0 on PyPI and the npm package holding at 3.4.0; the release adds a Galileo Decision Models evaluator.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched and live, the release train holding at v8.15.0 with agent-control-sdk at 8.15.0 on PyPI and npm holding at 3.4.0, and the status counters refreshed (49 open issues, pushed 2026-10-29); no drift beyond the counters.
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched and live, the release train holding at v8.15.0 with agent-control-sdk at 8.15.0 on PyPI and npm holding at 3.4.0, the default branch's latest push still 2026-11-05 with the repo-level 2026-11-07 push a side branch, and the launch thread still 2 points with zero comments; no drift beyond the counters.
+- 2026-11-15 - Rotation re-verification with drift: Cisco completed its acquisition of Galileo Technologies on 2026-05-22 (announced 2026-04-09), folding the commercial platform into Splunk Agent Observability, and the launch post's galileo.ai URL now redirects to the Splunk Agent Observability product page, so the vendor framing moved from Galileo to Cisco and Splunk while the Apache-2.0 project continues under the agentcontrol organization; the launch-post citation stands through the redirect (403 to a browser user agent, 200 plain) and the The New Stack coverage stands behind a site-wide bot wall (its domain root 403s a browser user agent too); the release train holding at v8.15.0 with agent-control-sdk at 8.15.0 on PyPI and npm holding at 3.4.0, the default branch's latest push still 2026-11-05 with the 2026-11-09 repo-level push a side branch, and the launch thread still 2 points with zero comments.
 
 ## See also
 
@@ -86,7 +88,10 @@ Not for local-first or latency-critical enforcement, and not for anyone who need
 ## References
 
 - https://github.com/agentcontrol/agent-control - README: quickstart, SDKs, evaluator model, framework support, and the insecure-defaults warning
-- https://galileo.ai/blog/announcing-agent-control - launch post: the @control() design, deny/steer/warn/log/allow decisions, launch partners, and the Forrester framing
+- https://galileo.ai/blog/announcing-agent-control - launch post: the @control() design, deny/steer/warn/log/allow decisions, launch partners, and the Forrester framing (the domain now redirects to Splunk's Agent Observability page after Cisco's 2026-05-22 Galileo acquisition; fetched this run through the redirect)
+- https://www.cisco.com/site/us/en/about/corporate-development/acquisitions/galileo/index.html - the acquisition completion page: May 22, 2026, Splunk Observability Cloud integration
+- https://www.splunk.com/en_us/about-splunk/acquisitions/galileo.html - the Splunk acquisition page: Galileo now Splunk Agent Observability
+- https://www.splunk.com/en_us/products/agent-observability.html - the Agent Observability product page the galileo.ai domain now serves
 - https://agentcontrol.dev/ - project site: Control Store, audit logs, and the Galileo maintenance commitment
 - https://api.github.com/repos/agentcontrol/agent-control - stars, forks, issues, contributors, creation and push dates as of 2026-10-10
 - https://api.github.com/repos/agentcontrol/agent-control/releases - the v8.8.0 through v8.12.0 release train

@@ -1,7 +1,7 @@
 ---
 title: Zeroshot
 created: 2026-10-10
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, review-loop, multi-agent]
 readability: 3
@@ -22,7 +22,7 @@ Delivery is a ladder you opt into, from keep-it-local through --push, --pr, and 
 ## Status
 
 Active and shipping: 1,969 stars since creation on 2025-12-25, per the GitHub API as of 2026-10-13.
-Pushed 2026-11-14, with the train at v16.0.0 (2026-11-13, npm `latest` in sync at 16.0.0), per the GitHub API and the npm registry as of 2026-11-14.
+Pushed 2026-11-15, with the train at v16.0.0 (2026-11-13, npm `latest` in sync at 16.0.0), per the GitHub API and the npm registry as of 2026-11-15.
 **The v11.0.0 major (2026-11-02) broke interface again, splitting delivery evidence out of graph output so a successful native Git delivery no longer depends on the graph echoing a receipt (the Python SDK exposes `RunResult.delivery_receipt`), and v11.1.0 (2026-11-05) added a second built-in template, code-review, whose triage partitions a pull request into units for four per-unit reviewers beside five whole-change specialists without installing dependencies or starting the app, plus local script bindings that let a typed graph step run a plain executable exchanging validated JSON over stdin, a `workspaceCheckpoints` opt-out, and host-chosen commit identity for delivered commits.**
 **The train then ran four majors in two days: v12.0.0 made machine-size identifiers target-owned with a `zeroshot target sizes` catalog command, v13.0.0 stopped sending the shell's GH_TOKEN to named targets unless you opt in (an ambient token silently replaced the target's stored GitHub connection), v14.0.0 published the forge-adapter target-reconciliation contract, v14.1.0 added trusted delivery validation for hosted runs, including independently verified no-change outcomes, and v15.0.0 gave Active Memory independent per-injection limits (16,000 approximate tokens for node guidance, 8,000 for repository hooks) and expanded postmortem authority (all between 2026-11-09 and 2026-11-10, npm in sync); v16.0.0 (2026-11-13) then made in-place delivery the documented breaking default, committing and pushing local deliveries on the checked-out branch with managed worktree isolation opt-in through `--worktree`, while surfaced tool-permission denials gained run-log reporting.**
 The same release cycle rewrote the README across eleven documentation pull requests, now positioning zeroshot as a multi-agent orchestration framework for autonomous software development with the tagline "Independent, adversarial review with mechanically enforced execution."

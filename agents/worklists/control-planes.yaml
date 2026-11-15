@@ -3,7 +3,7 @@ category: control-planes
 generated: 2026-11-15
 mapped_sources:
   - repo: agentrust-io/awesome-ai-governance
-    last_checked: 2026-11-14
+    last_checked: 2026-11-15
 digest_lines:
   - "- 2026-11-14 | cross-category | a release list flooded by nightly and per-commit builds hides stable tags past the pagination window, so a stable-tag claim grounds through the releases/tags endpoint | langchain-ai/open-swe's 100 most recent releases were all prerelease desktop builds while desktop-v0.3.15 and desktop-v0.3.16 (2026-11-08, 2026-11-09) sat outside the list, extending the 2026-11-08 API-grounding line"
   - "- 2026-11-14 | control-planes | a candidate whose only traction signal is stars on a repo whose maintainer curates the lists and star-ranked stores that promote it reads as self-driven traction, so it holds below the bar on the coverage-quality reading and reopens on an independent sighting or coverage | ybk (01men/ybkkasi, 104 stars, MIT, one month old) from the awesome-ai-governance 2026-11-12 additions; the maintainer's public footprint is a network of self-curated awesome and dsh plugin-store repositories"

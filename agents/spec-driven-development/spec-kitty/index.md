@@ -1,7 +1,7 @@
 ---
 title: Spec Kitty
 created: 2026-10-06
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, governance, worktrees, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Slash commands or skills integrate Claude Code, Codex, Cursor, Gemini, Copilot, 
 ## Status
 
 Active, company-backed, and mid-adoption.
-As of 2026-10-14: 1,681 stars and 180 forks since creation on 2025-10-09, MIT, stable PyPI release 3.2.7 (2026-09-09) and 2,758 PyPI downloads last month (the 2026-11-14 re-read, the rolling window moving after ten byte-identical 3,251 reads with no release in between); as of 2026-11-14, pushed 2026-11-14 with the 4.x release-candidate line at v4.0.0rc8 (2026-11-09) still the newest, whose `upgrade` moves charter activation keys from `charter.yaml` and `config.yaml` into `.kittify/charter/activation.yaml` and renames the command skills from `spec-kitty.<command>` to `spec-kitty-<command>` so every Agent Skills harness loads them, following rc7 (2026-10-15), the breaking cut that renamed `doctrine` to `charter` across config, directories, and commands with no alias, whose README says stable launch acceptance remains pending and whose prerelease block still pins the older rc2 as the test install.
+As of 2026-10-14: 1,681 stars and 180 forks since creation on 2025-10-09, MIT, stable PyPI release 3.2.7 (2026-09-09) and 2,758 PyPI downloads last month (the 2026-11-14 re-read, the rolling window moving after ten byte-identical 3,251 reads with no release in between); as of 2026-11-15, pushed 2026-11-15 with the 4.x release-candidate line at v4.0.0rc8 (2026-11-09) still the newest, whose `upgrade` moves charter activation keys from `charter.yaml` and `config.yaml` into `.kittify/charter/activation.yaml` and renames the command skills from `spec-kitty.<command>` to `spec-kitty-<command>` so every Agent Skills harness loads them, following rc7 (2026-10-15), the breaking cut that renamed `doctrine` to `charter` across config, directories, and commands with no alias, whose README says stable launch acceptance remains pending and whose prerelease block still pins the older rc2 as the test install.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&theme=dark&legend=top-left" />

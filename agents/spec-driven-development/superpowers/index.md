@@ -1,7 +1,7 @@
 ---
 title: Superpowers
 created: 2026-10-09
-updated: 2026-11-07
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, methodology, agent-skills, worktrees, open-source]
 readability: 3
@@ -83,6 +83,7 @@ The disagreeable claim I will defend: 297k stars for a mandatory methodology is 
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 - 2026-11-07 - Rotation re-verification of every cited source (all alive, the harness table still at 16 documented installs, the 435-point launch thread and the 6.4 faster-and-cheaper concession unchanged, the eval lab now branded Quorum with the same scope): recorded the v7.0.2 release (2026-11-03: fewer, better brainstorming questions with the why asked first and choices returned as options with a recommendation, bootstrap fixes on six harnesses, and the SDD and executing-plans helpers refusing to act outside the current repository).
+- 2026-11-15 - Rotation re-verification of every cited source (all alive): the release train stands at v7.0.2, the harness table still documents 16 installs, and the 435-point launch thread and the anniversary post's 300k-star and 1.1M-install claims stand as recorded; meaning otherwise unchanged.
 
 ## See also
 

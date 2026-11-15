@@ -1,7 +1,7 @@
 ---
 title: Speakeasy Gram
 created: 2026-11-05
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, gateway, mcp, policy-enforcement, audit, enterprise]
 readability: 3
@@ -25,7 +25,7 @@ The vendor holds SOC 2 Type II and ISO 27001 certifications and publishes GDPR, 
 
 ## Status
 
-Active and vendor-backed: 277 stars and 36 forks as of 2026-11-05 with 283 open issues as of 2026-11-14, created 2025-08-06, pushed 2026-11-14, with the release train moving on 2026-11-11 to 11-14 (hooks@0.3.50 through 0.3.52, admin@0.13.0, server@2.33.0 on 2026-11-13, and server@2.34.0 with dashboard@0.148.0 on 2026-11-14) after hooks@0.3.45 and server@2.31.0 on 2026-11-06 and server@2.32.0 on 2026-11-10.
+Active and vendor-backed: 277 stars and 36 forks as of 2026-11-05 with 280 open issues as of 2026-11-15, created 2025-08-06, pushed 2026-11-14, with the release train moving on 2026-11-11 to 11-14 (hooks@0.3.50 through 0.3.52, admin@0.13.0, server@2.33.0 on 2026-11-13, and server@2.34.0 with dashboard@0.148.0 on 2026-11-14) after hooks@0.3.45 and server@2.31.0 on 2026-11-06 and server@2.32.0 on 2026-11-10.
 Two governance-material changes landed in that train: connecting to an MCP server now requires an explicit `mcp:connect` grant, directly or through a role, so `mcp:read` and `mcp:write` no longer imply tool access (existing grants were backfilled first), and Anthropic inference hooks now enforce security policies on tool call frames, which previously passed unscanned and were only caught on the next prompt after running.
 **The gateway shipped as a pivot: Hacker News saw Gram launch on 2025-09-09 as an open-source platform to create, curate, and host MCP servers (20 points, 2 comments), and a third-party governance wiki places the gateway's general availability in March 2026 with the control-plane framing, after Speakeasy concluded building servers was not the hardest problem.**
 MoonPay is the named production customer, with the vendor claiming 60,000 agent sessions governed per week, though the same third-party profile cautions that homepage logos may date from the SDK-generation business rather than the control plane.

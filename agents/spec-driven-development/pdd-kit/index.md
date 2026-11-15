@@ -1,7 +1,7 @@
 ---
 title: PDD Kit
 created: 2026-10-23
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, product-model, agent-skills, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Itai Gendler, who dogfoods it: the repository's own `product-model/` des
 
 ## Status
 
-Active and young: 80 stars, 9 forks, repository created 2026-07-26, default branch last committing 2026-11-06 (the v0.40.0 release commit) while the repository-level pushed_at reads 2026-11-14 from side-branch pushes, as of 2026-11-14 (GitHub API), MIT, solo steward.
+Active and young: 80 stars, 9 forks, repository created 2026-07-26, default branch last committing 2026-11-06 (the v0.40.0 release commit) while the repository-level pushed_at reads 2026-11-15 from side-branch pushes, as of 2026-11-15 (GitHub API), MIT, solo steward.
 The npm package (published 2026-10-13) has nine releases to v0.40.0 (2026-11-06, install and update support for Gemini in Android Studio's agent mode with Android Studio project detection, on top of v0.39.0's view report showing what changed in the Product Model against any git ref with per-resource Changes tabs) and 2,134 downloads last month (the 2026-10-14 to 2026-11-12 window, re-read 2026-11-14), so adoption still rides the star count.
 It ships a complete docs site (pdd-kit.dev) with a reasoned blog, and the steward's SDD critique (2026-10-06) names OpenSpec, spec-kit, and Kiro directly, arguing their specs describe the change while the product stays scattered.
 It entered this category's scan as the Engineering4AI awesome list's Development Frameworks entry, listed there as BusinessLens until the 2026-10-21 rename to pdd-kit; a 2026-10-13 sweep had rejected the repository under its old name below the bar, and the rebrand, the shipped site, and continued daily development re-listed it.

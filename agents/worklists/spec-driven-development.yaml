@@ -3,7 +3,7 @@ category: spec-driven-development
 generated: 2026-11-15
 mapped_sources:
   - repo: Engineering4AI/awesome-spec-driven-development
-    last_checked: 2026-11-14
+    last_checked: 2026-11-15
 digest_lines:
   - "- 2026-11-14 | cross-category | a release list flooded by nightly and per-commit builds hides stable tags past the pagination window, so a stable-tag claim grounds through the releases/tags endpoint | langchain-ai/open-swe's 100 most recent releases were all prerelease desktop builds while desktop-v0.3.15 and desktop-v0.3.16 (2026-11-08, 2026-11-09) sat outside the list, extending the 2026-11-08 API-grounding line"
   - "- 2026-11-14 | spec-driven-development | pypistats recent last-month figures are rolling windows that swing both ways, so a moved figure after a run of identical reads carries a fresh as-of date and no trend read | spec-kitty-cli read 3,251 for ten consecutive runs through 2026-11-12, then 2,758 on 2026-11-14 with no release in between, extending the 2026-10-26 Hugging Face line"

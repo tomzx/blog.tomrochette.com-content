@@ -1,7 +1,7 @@
 ---
 title: AgentTrace
 created: 2026-09-27
-updated: 2026-11-07
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, tui, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by an independent developer (luoyuctl) under MIT.
 
 ## Status
 
-Young and active: 143 stars (the dated baseline), 8 forks, 6 open issues, created 2026-05-01, last pushed 2026-11-03 on side branches, latest release v0.10.1 on 2026-10-05 after v0.10.0 and v0.9.1 on 2026-10-04, as of 2026-11-07; three default-branch commits from 2026-10-05 and 10-06 (a parser cache-count clamp, install.ps1 AGENTTRACE_VERSION pinning fixes, and a ureq 3 dependency migration) are still unreleased.
+Young and active: 143 stars (the dated baseline), 9 forks, 5 open issues, created 2026-05-01, last pushed 2026-11-03 on side branches, latest release v0.10.1 on 2026-10-05 after v0.10.0 and v0.9.1 on 2026-10-04, as of 2026-11-15; three default-branch commits from 2026-10-05 and 10-06 (a parser cache-count clamp, install.ps1 AGENTTRACE_VERSION pinning fixes, and a ureq 3 dependency migration) are still unreleased.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=luoyuctl/agenttrace&type=date&theme=dark&legend=top-left" />
@@ -82,6 +82,7 @@ Not for live observation, transcript search, or line-level provenance.
 - 2026-10-25 - Rotation re-verification: every cited URL re-fetched and live; no release after v0.10.1 with the three 2026-10-05/06 default-branch commits (a parser cache-count clamp, install pinning fixes, a ureq 3 migration) still unreleased, npm still at 0.10.1, the empty Hacker News footprint unchanged, and repository counts refreshed (forks 9 to 8).
 - 2026-10-28 - Volatile re-verification: no release after v0.10.1 and no default-branch commit since 2026-10-06, the 2026-10-26 push landing on side branches; open issues refreshed 6 to 7.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched and live; no release after v0.10.1, no default-branch commit since 2026-10-06 (the 2026-11-03 push landing on side branches per the pushed-at ruling), npm still 0.10.1, and the empty Hacker News footprint unchanged; open issues refreshed 7 to 6.
+- 2026-11-15 - Rotation re-verification: every cited URL re-fetched and live; no release after v0.10.1, no default-branch commit since 2026-10-06, npm still 0.10.1, and the empty Hacker News footprint unchanged; forks refreshed 8 to 9 and open issues 6 to 5.
 
 ## See also
 
@@ -92,11 +93,11 @@ Not for live observation, transcript search, or line-level provenance.
 
 ## References
 
-- https://github.com/luoyuctl/agenttrace - the repository, MIT license, description, and topics (re-fetched 2026-11-07)
-- https://raw.githubusercontent.com/luoyuctl/agenttrace/master/README.md - the coverage list, governance flags, install paths, privacy posture, and report formats (re-fetched 2026-11-07)
-- https://raw.githubusercontent.com/luoyuctl/agenttrace/master/docs/guides/ci-integration.md - the CI gate flags, exit code 2, and report artifacts (re-fetched 2026-11-07)
-- https://raw.githubusercontent.com/luoyuctl/agenttrace/master/docs/ROADMAP.md - the local-first scope and explicit non-goals (moved from the repository root) (re-fetched 2026-11-07)
-- https://api.github.com/repos/luoyuctl/agenttrace - 143 stars (the dated baseline), 8 forks, 6 open issues, counts as of 2026-11-07 (re-fetched in the 2026-11-07 rotation)
-- https://api.github.com/repos/luoyuctl/agenttrace/releases - the v0.9.0 release date, v0.9.1 and v0.10.0 on 2026-10-04, and v0.10.1 on 2026-10-05 (re-fetched 2026-11-07)
-- https://registry.npmjs.org/@zack78/agenttrace - the npm package, latest 0.10.1 (re-verified 2026-11-07)
-- https://hn.algolia.com/api/v1/search?query=luoyuctl - the empty Hacker News footprint behind the thin-community claim (re-fetched 2026-11-07)
+- https://github.com/luoyuctl/agenttrace - the repository, MIT license, description, and topics (re-fetched 2026-11-15)
+- https://raw.githubusercontent.com/luoyuctl/agenttrace/master/README.md - the coverage list, governance flags, install paths, privacy statements, and report formats (re-fetched 2026-11-15)
+- https://raw.githubusercontent.com/luoyuctl/agenttrace/master/docs/guides/ci-integration.md - the CI gate flags, exit code 2, and report artifacts (re-fetched 2026-11-15)
+- https://raw.githubusercontent.com/luoyuctl/agenttrace/master/docs/ROADMAP.md - the local-first scope and explicit non-goals (moved from the repository root) (re-fetched 2026-11-15)
+- https://api.github.com/repos/luoyuctl/agenttrace - 143 stars (the dated baseline), 9 forks, 5 open issues, counts as of 2026-11-15 (re-fetched in the 2026-11-15 rotation)
+- https://api.github.com/repos/luoyuctl/agenttrace/releases - the v0.9.0 release date, v0.9.1 and v0.10.0 on 2026-10-04, and v0.10.1 on 2026-10-05 (re-fetched 2026-11-15)
+- https://registry.npmjs.org/@zack78/agenttrace - the npm package, latest 0.10.1 (re-verified 2026-11-15)
+- https://hn.algolia.com/api/v1/search?query=luoyuctl - the empty Hacker News footprint behind the thin-community claim (re-fetched 2026-11-15)

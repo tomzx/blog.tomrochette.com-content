@@ -1,7 +1,7 @@
 ---
 title: beads
 created: 2026-08-27
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, issue-tracking, open-source, byok]
 readability: 3
@@ -25,7 +25,7 @@ It lives in the gastownhall organization (renamed from steveyegge, the old name 
 ## Status
 
 Active and moving fast.
-As of 2026-11-14: 27,853 stars (as of 2026-10-14), 1,944 forks, 1,791 open issues, created 2025-10-12, pushed 2026-11-14, latest stable release v1.3.4 on 2026-11-04 after v1.3.3 (2026-11-03, a security and data-loss fix release whose post-release known issue, `.beads/.env`'s `GT_ROOT` key dropped by a new env allowlist, v1.3.4 restored one day later), a v1.4.0 release-candidate train begun after it (rc.1 2026-11-12, rc.2 2026-11-13), and 44,074 npm downloads over the trailing month to 2026-11-14.
+As of 2026-11-15: 27,853 stars (as of 2026-10-14), 1,942 forks, 1,801 open issues, created 2025-10-12, pushed 2026-11-15, latest stable release v1.3.4 on 2026-11-04 after v1.3.3 (2026-11-03, a security and data-loss fix release whose post-release known issue, `.beads/.env`'s `GT_ROOT` key dropped by a new env allowlist, v1.3.4 restored one day later), a v1.4.0 release-candidate train begun after it (rc.1 2026-11-12, rc.2 2026-11-13), and 46,275 npm downloads over the trailing month to 2026-11-15.
 The v1.4.0 candidates carry a one-way schema migration (store moved to schema v74; bd 1.3.x and older refuse the database afterwards, so the release notes say to back up first), require Dolt server and CLI 2.6.0 or newer, and rc.2 fixes a 1.4.0 regression where `bd github sync` clobbered local label edits alongside a fix for server-mode pulls writing the remote URL, token included, into merge commits.
 
 <picture>
@@ -91,6 +91,7 @@ The disagreeable claim I will defend: every markdown task file is a beads databa
 - 2026-11-12 - Refreshed counts (1,738 open issues, pushed 2026-11-12, 42,811 npm downloads over the trailing month to 2026-11-12); v1.3.4 still the newest stable release.
 - 2026-11-13 - Recorded the v1.4.0 release-candidate train (rc.1 2026-11-12 and rc.2 2026-11-13: the one-way schema-v74 migration with bd 1.3.x refusing the database afterwards, the Dolt 2.6.0 floor, and the rc.2 fixes for the github-sync label regression and the token leak into server-mode merge commits) and refreshed counts (1,945 forks, 1,764 open issues, pushed 2026-11-13, 42,562 npm downloads over the trailing month to 2026-11-13); v1.3.4 still the newest stable release.
 - 2026-11-14 - Refreshed counts (1,944 forks, 1,791 open issues, pushed 2026-11-14, 44,074 npm downloads over the trailing month to 2026-11-14); v1.3.4 still the newest stable release and rc.2 still the newest candidate.
+- 2026-11-15 - Refreshed counts (1,942 forks, 1,801 open issues, pushed 2026-11-15, 46,275 npm downloads over the trailing month to 2026-11-15); v1.3.4 still the newest stable release and rc.2 still the newest candidate.
 
 ## See also
 
@@ -102,8 +103,8 @@ The disagreeable claim I will defend: every markdown task file is a beads databa
 ## References
 
 - https://github.com/gastownhall/beads - README: commands, Dolt modes, setup, git-free usage
-- https://api.github.com/repos/gastownhall/beads - stars, forks, push dates, MIT license as of 2026-11-14
+- https://api.github.com/repos/gastownhall/beads - stars, forks, push dates, MIT license as of 2026-11-15
 - https://beads.gascity.com/ - official documentation site
 - https://github.com/Dicklesworthstone/beads_rust - the community Rust port freezing classic beads, and the Gas Town evolution note
 - https://news.ycombinator.com/item?id=46487580 - the 84-point replacement thread, the critical source
-- https://api.npmjs.org/downloads/point/2026-10-15:2026-11-14/@beads/bd - 44,074 downloads over the trailing month to 2026-11-14
+- https://api.npmjs.org/downloads/point/2026-10-16:2026-11-15/@beads/bd - 46,275 downloads over the trailing month to 2026-11-15

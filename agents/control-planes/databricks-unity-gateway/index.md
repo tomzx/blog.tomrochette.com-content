@@ -1,7 +1,7 @@
 ---
 title: Databricks Unity Gateway
 created: 2026-10-02
-updated: 2026-11-08
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-plane, governance, mcp, enterprise]
 readability: 3
@@ -65,6 +65,7 @@ Not for multi-cloud agent fleets, for batch-inference-heavy workloads that need 
 - 2026-10-23 - Rotation re-verification: all seven references re-fetched live, the Unity Gateway naming on the announcement and all three clouds' docs unchanged, the vendor-forum page again serving a browser user agent and still confirming the ai_query rate-limit gap, and the third-party guide live; no drift found.
 - 2026-10-31 - Rotation re-verification: all seven prior references re-fetched live and every claim confirmed, the general-availability milestone added (August 4, 2026, with service policies, Smart Routing, and agent services still beta) from the GA announcement, and the ai_query rate-limit gap re-confirmed on the vendor forum; no other drift.
 - 2026-11-08 - Rotation re-verification: all eight references re-fetched live, the GA and beta claims unchanged (the docs, last updated October 27 and November 6, still mark service policies Beta), the ai_query rate-limit gap re-confirmed on the vendor forum (browser user agent again), and the third-party guide's URL found redirecting to datapao.com/blog/databricks-unity-ai-gateway with its content unchanged, so the reference points at the new address; no other drift.
+- 2026-11-15 - Rotation re-verification: all eight references re-fetched live (the announcement and the GA post unchanged with the August 4, 2026 general-availability date still on the GA page, the docs hub and setup and rate-limit guides serving, the Azure mirror live, the vendor forum again serving a browser user agent and still confirming the ai_query rate-limit gap, and the third-party guide live at its 2026-11-08 address); no drift.
 
 ## See also
 

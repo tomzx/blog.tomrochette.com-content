@@ -1,7 +1,7 @@
 ---
 title: Kanzo
 created: 2026-11-08
-updated: 2026-11-12
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, mcp, rust, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Emanuele Micheletti (the emanuele-em identity) maintains it, with GitHub-signed 
 ## Status
 
 Active and two weeks old at record speed.
-As of 2026-11-12: 1,105 stars (fetched 2026-11-08), 95 forks, 9 open issues, created 2026-10-25, pushed 2026-11-11, and v0.4.2 (2026-11-11) the newest of a near-daily release train that began with v0.2.1 on 2026-10-27.
+As of 2026-11-15: 1,105 stars (fetched 2026-11-08), 99 forks, 13 open issues, created 2026-10-25, pushed 2026-11-11, and v0.4.2 (2026-11-11) the newest of a near-daily release train that began with v0.2.1 on 2026-10-27.
 v0.3.0 (2026-11-01) added the live board sharing, a native Windows build, and the Human handoff, where an agent marks a task Human over MCP and leaves it alone; v0.4.0 (2026-11-06) added waits-on dependencies (`next_task` skips a card until its blockers are `done`, a card in `review` still blocks), multi-select and a list view on the board, and a Chinese UI; v0.4.1 (2026-11-07) lets agents switch to a new Kanzo version at their next call without reconnecting and restarts the board on update within seconds.
 v0.4.2 (2026-11-11) was the first community-contribution release: three outside contributors fixed the Windows updater always failing, agent tools going silent after an update when a call had been cancelled or the client never sent `initialize` (MCP 2026-07-28 clients), `kanzo export` quietly writing its own old board on a computer joined to another board, and the board shrinking under a browser extension's empty element.
 
@@ -35,7 +35,7 @@ v0.4.2 (2026-11-11) was the first community-contribution release: three outside 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=emanuele-em/kanzo&type=date&legend=top-left" />
 </picture>
 
-An HN search returns zero story hits as of 2026-11-12 (the hits are fuzzy matches on unrelated Kano and Kanboard projects), and the crates.io package shows 241 total downloads, so adoption evidence is the repository curve alone: 1,105 stars in a fortnight is the fastest start this category has recorded, and it is entirely unaudited by independent discussion.
+An HN search returns zero story hits as of 2026-11-15 (the hits are fuzzy matches on unrelated Kano and Kanboard projects), and the crates.io package shows 262 total downloads, so adoption evidence is the repository curve alone: 1,105 stars in a fortnight is the fastest start this category has recorded, and it is entirely unaudited by independent discussion.
 
 ## Strengths
 
@@ -72,6 +72,7 @@ My disagreeable claim: the shared visual board is the underused primitive here, 
 
 - 2026-11-08 - Created, completing the admission the 2026-11-03 cross-category routing resolved for this category (the andyrewlee listing, 921 stars then), with the ten-tool MCP surface, the handout-by-move coordination model, live sharing, and the missing independent footprint recorded.
 - 2026-11-12 - Recorded v0.4.2 (2026-11-11: the first community-contribution release, three outside contributors fixing the Windows updater, agent tools silent after cancelled calls or initialize-less MCP 2026-07-28 clients, export on a joined computer, and the board-layout shrink) and refreshed counts (95 forks, 9 open issues, pushed 2026-11-11, 241 crates downloads).
+- 2026-11-15 - Rotation re-verification with every cited URL re-fetched live (README, API, releases, changelog, the ten-tool MCP surface still intact in src/mcp.rs, crates, the HN search still at zero story hits): nothing material changed, with v0.4.2 still the newest release and the four-day quiet stretch since it, and counts refreshed (99 forks, 13 open issues, 262 crates downloads).
 
 ## See also
 
@@ -83,9 +84,9 @@ My disagreeable claim: the shared visual board is the underused primitive here, 
 ## References
 
 - https://raw.githubusercontent.com/emanuele-em/kanzo/main/README.md - the surfaces, sharing and sync models, waits-on rules, performance table, and license (fetched 2026-11-08)
-- https://api.github.com/repos/emanuele-em/kanzo - stars, forks, dates, AGPL-3.0 as of 2026-11-12
+- https://api.github.com/repos/emanuele-em/kanzo - stars, forks, dates, AGPL-3.0 as of 2026-11-15
 - https://api.github.com/repos/emanuele-em/kanzo/releases - the v0.2.1 (2026-10-27) through v0.4.1 (2026-11-07) release train, with the v0.3.0 and v0.4.0 feature notes
 - https://raw.githubusercontent.com/emanuele-em/kanzo/main/CHANGELOG.md - the v0.4.1 notes: agent self-update, the board restart, markdown tables
 - https://raw.githubusercontent.com/emanuele-em/kanzo/main/src/mcp.rs - the ten-tool MCP surface, the next_task handout-by-move, and comment authorship defaults
-- https://crates.io/api/v1/crates/kanzo - the cargo package: 241 total downloads, nine versions, created 2026-10-26 as of 2026-11-12
-- https://hn.algolia.com/api/v1/search?query=kanzo&tags=story - zero story hits as of 2026-11-12, the missing independent footprint
+- https://crates.io/api/v1/crates/kanzo - the cargo package: 262 total downloads, nine versions, created 2026-10-26 as of 2026-11-15
+- https://hn.algolia.com/api/v1/search?query=kanzo&tags=story - zero story hits as of 2026-11-15, the missing independent footprint

@@ -1,7 +1,7 @@
 ---
 title: Fusion
 created: 2026-10-11
-updated: 2026-11-08
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, kanban, multi-agent, worktrees, open-source]
 readability: 3
@@ -17,17 +17,18 @@ Fusion is an MIT software factory run from a kanban board: a triage agent turns 
 ## What it is
 
 A TypeScript application installed from npm (`npx runfusion.ai`, Homebrew, or an install script), with native iOS, Android, macOS, Windows, and Linux apps, a web dashboard, and Docker or headless deployment, early preview, shipping daily.
-The agent runtime stands on Pi (the minimal extensible coding-agent CLI), with Hermes, Paperclip, Droid, and Cursor as first-class provider plugins, an experimental OpenClaw runtime plugin, and an ACP runtime that drives Gemini CLI, Claude, or any ACP agent; a model router with cheap-tier routing and fallback spans Anthropic, OpenAI, Gemini, Z.ai, and Ollama, with five model lanes (executor, planner, validator, title, workflow) overridable per task.
+The agent runtime stands on Pi (the minimal extensible coding-agent CLI), with Hermes, Paperclip, Droid, and Cursor as first-class provider plugins, an experimental OpenClaw runtime plugin, and an ACP runtime that drives Gemini CLI, Claude, or any ACP agent; a model router with cheap-tier routing and fallback spans Anthropic, OpenAI, Gemini, Z.ai, and Ollama, with model lanes overridable per task (the site sells five, executor, planner, validator, title, and workflow, while the README's lane table adds a merger lane).
+Workflows became a selectable, authorable surface: a built-in catalog (coding, quick fix, review heavy, stepwise, compound engineering, PR lifecycle) is inspectable and duplicable in a visual Workflow Editor, with policy like model lanes, review and approval settings, and oversight levels living in workflow settings.
 Runtime metadata now lives in zero-config embedded PostgreSQL by default, with legacy SQLite files as one-time migration inputs and a shared external database for multi-node setups, per the README's storage note as of 2026-10-25.
-Around the loop it adds missions (Mission, Milestone, Slice, Feature, Task, with autopilot), inter-agent mailbox chat, qmd markdown memory, Paperclip-format agent-company import, cron automations, plugins (every Pi extension works), and a Command Center of eleven analytics views (tokens, USD cost, autonomy ratio, per-agent output, model mix) with CSV and OpenTelemetry export.
+Around the loop it adds missions (Mission, Milestone, Slice, Feature, Task, with autopilot), inter-agent mailbox chat, qmd markdown memory, agent-company import in one command through the companies.sh standard (440+ agents across 16 prebuilt companies), cron automations, plugins (every Pi extension works), and a Command Center of eleven analytics views (tokens, USD cost, autonomy ratio, per-agent output, model mix) with CSV and OpenTelemetry export.
 The dashboard is built on dustinbyrne/kb; the docs are in-repo and unusually complete, down to an evidence gate that blocks a goals feature until actual usage pain is documented.
 
 ## Status
 
 **Active and heavily pushed, but early preview, and the stable npm channel lags the repository.**
-1,270 stars, 175 forks, and 106 open issues and pull requests as of 2026-11-07, created 2026-04-13, pushed_at 2026-11-08 while main's newest commit is 2026-10-26, the pushes since then landing on pull-request branches (GitHub API, 2026-11-08).
-The newest GitHub release and npm beta is v0.78.0-beta.9 (2026-10-23, still the only beta since September 25, its notes pinning every Pi runtime package to an exact version after an npm install breakage); npm `latest` is still 0.77.0 (2026-09-02), so the stable channel has run more than nine weeks behind a repository whose pull-request queue still moves daily while main has not merged since 2026-10-26 and npm has not published since 2026-10-23 (as of 2026-11-08).
-The package drew 1,843 npm downloads in the trailing month ending 2026-11-07, and a Hacker News search still returns no story about it (2026-11-07).
+1,270 stars, 178 forks, and 108 open issues and pull requests as of 2026-11-15, created 2026-04-13, pushed_at 2026-11-08 while main's newest commit is still the 2026-10-26 dependabot bump, the pushes since then landing on pull-request branches (GitHub API, 2026-11-15).
+The newest GitHub release and npm beta is v0.78.0-beta.9 (2026-10-23, still the only beta since September 25, its notes pinning every Pi runtime package to an exact version after an npm install breakage); npm `latest` is still 0.77.0 (2026-09-02), so the stable channel has run more than ten weeks behind a repository whose pull-request queue still moves daily while main has not merged since 2026-10-26 and npm has not published since 2026-10-23 (as of 2026-11-15).
+The package drew 1,940 npm downloads in the trailing month ending 2026-11-14, and a Hacker News search still returns no story about it (2026-11-15).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Runfusion/Fusion&type=date&theme=dark&legend=top-left" />
@@ -74,6 +75,7 @@ My disagreeable claim: auto-merge on green gates is where this category is going
 - 2026-10-26 - Corrected the star-history chart's light source, which wrongly carried the dark-theme parameter.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched (repository via the API, README and docs map, product site, releases, npm registry and trailing-month downloads, HN search) and all claims confirmed; forks and open-issue counts refreshed, the stable channel's lag moved to more than nine weeks with npm `latest` still 0.77.0, downloads re-baselined at 1,843 for the month ending 2026-11-07, and the product site's badge changed from shipping weekly to shipping daily; no other material change.
 - 2026-11-08 - Recorded the merge stall behind the repo-level push activity: main has not merged since 2026-10-26 (a dependabot bump), npm has not published since v0.78.0-beta.9 on 2026-10-23, and the daily movement is pull-request branches (numbers #3725 through #3734 opened in nine days, none merged); the What-it-is line corrected from shipping weekly to the site's shipping-daily badge.
+- 2026-11-15 - Rotation re-verification: every cited URL re-fetched (repository via the API, README and docs map, product site, releases, npm registry and trailing-month downloads, HN search) and all claims confirmed, including the merge stall holding (main newest 2026-10-26, npm `latest` still 0.77.0, beta.9 still the newest release), downloads re-baselined at 1,940 for the month ending 2026-11-14, and the stable channel's lag moved to more than ten weeks; the What-it-is line recorded the README's merger model lane beside the site's five, the visual Workflow Editor surface, and the companies.sh agent-company import (440+ agents across 16 prebuilt companies); no other material change.
 
 ## See also
 
@@ -85,11 +87,11 @@ My disagreeable claim: auto-merge on green gates is where this category is going
 
 ## References
 
-- https://github.com/Runfusion/Fusion - repository facts: 1,270 stars, 162 forks, MIT, created 2026-04-13, pushed 2026-10-13 (GitHub API, as of 2026-10-13)
-- https://raw.githubusercontent.com/Runfusion/Fusion/main/README.md - the loop description, PROMPT.md planning, worktree flow, install paths, and the dustinbyrne/kb credit
-- https://raw.githubusercontent.com/Runfusion/Fusion/main/docs/README.md - the documentation map: oversight levels, workflow steps, missions, storage, mesh protocol, sandbox backends, plugins
+- https://github.com/Runfusion/Fusion - repository facts: MIT, created 2026-04-13, pushed 2026-11-08 with main's newest commit 2026-10-26 (GitHub API, as of 2026-11-15)
+- https://raw.githubusercontent.com/Runfusion/Fusion/main/README.md - the loop description, PROMPT.md planning, worktree flow, model-lane table, workflow editor, companies.sh import, and the dustinbyrne/kb credit
+- https://raw.githubusercontent.com/Runfusion/Fusion/main/docs/README.md - the documentation map: oversight levels, workflow steps, missions, storage, ACP runtime contract, mesh protocol, sandbox backends, plugins
 - https://runfusion.ai - the product site: board and Command Center tours, model lanes, mesh nodes, mobile apps, Paperclip compatibility, and the autonomy claims recorded as cautions
 - https://api.github.com/repos/Runfusion/Fusion/releases - v0.78.0-beta.9 (2026-10-23) newest release, the first beta since v0.78.0-beta.7 (2026-09-25)
 - https://registry.npmjs.org/@runfusion/fusion - dist-tags: latest 0.77.0 (2026-09-02), beta 0.78.0-beta.9
-- https://api.npmjs.org/downloads/point/last-month/@runfusion/fusion - 1,843 downloads in the trailing month ending 2026-11-07 (dated-range sum, 2026-10-08 through 2026-11-07)
-- https://hn.algolia.com/api/v1/search?query=runfusion&tags=story - the footprint scan finding no story (2026-11-07)
+- https://api.npmjs.org/downloads/point/last-month/@runfusion/fusion - 1,940 downloads in the trailing month ending 2026-11-14 (point window, 2026-10-16 through 2026-11-14)
+- https://hn.algolia.com/api/v1/search?query=runfusion&tags=story - the footprint scan finding no story (2026-11-15)

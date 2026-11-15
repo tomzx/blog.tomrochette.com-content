@@ -1,7 +1,7 @@
 ---
 title: Archcore
 created: 2026-10-21
-updated: 2026-11-08
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, decision-records, open-source]
 readability: 3
@@ -77,6 +77,7 @@ The disagreeable claim I will defend: naming the guilty side (code-wrong or spec
 - 2026-10-27 - Corrected the implementation language from Go to TypeScript, per the repository's own language stats (TypeScript and Shell, no Go); meaning otherwise unchanged.
 - 2026-11-07 - Out-of-rotation re-verification triggered by the v0.15.3 release signal (every cited source re-fetched, all alive): corrected the implementation language back to Go, because the project's own v0.15.3 release moved the CLI to Go 1.26.10 with Charm v2, the README carries a Go 1.26+ badge, and the dev-branch source tree holds 328 Go files, while the default branch the 10-27 correction read carries only the plugins and docs; recorded the v0.15.0 through v0.15.3 release train (2026-11-02 to 06: global sources as a read policy with per-call project targets, hung-plan cleanup on review, plans for five new host integrations, and the Go 1.26.10 toolchain move).
 - 2026-11-08 - Recorded the v0.15.4 and v0.15.5 releases (both 2026-11-07: hardened CLI write paths with the Copilot and Codex agent copies synced to the list_relations wording, and the search_documents for_path limit fix).
+- 2026-11-15 - Rotation re-verification of every cited source (all alive): the release train stands at v0.15.5 with the repository pushed 2026-11-07, and the HN footprint still holds only unrelated ARM hits; meaning otherwise unchanged.
 
 ## See also
 

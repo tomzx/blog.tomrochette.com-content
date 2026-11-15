@@ -15,7 +15,7 @@ End-to-end agent factories: stamped pipelines, learning loops, fleet harnesses, 
 - [Fusion](fusion/index.md) - the MIT board-first factory built on Pi that runs every task through plan, review, execute, review steps in worktrees, with multi-node mesh, phone control, and auto-merge on green gates.
 - [HAR](har/index.md) - the open harness that isolates a fleet of coding agents in worktrees with deterministic verification and an evidence trail.
 - [Loki Mode](loki-mode/index.md) - Autonomi's source-available local factory that derives a delivery contract from a brief and closes with a signed, offline-checkable Evidence Receipt.
-- [Machinist](machinist/index.md) - the Go control plane whose named-command entrypoint is the category's strictest agent boundary, early access, zero independent coverage.
+- [Machinist](machinist/index.md) - the Go control plane that never starts agents, with dial-in runners, stage-gated jobs, and merge-by-automation only, early access, zero independent coverage.
 - [Open SWE](open-swe/index.md) - LangChain's async coding agent, rebranded Robin, that takes Slack threads, Linear issues, and PR conversations through sandboxed investigation, implementation, and validation to delivered pull requests, with review and CI in the loop and one deployment per trust boundary.
 - [Open-Inspect](open-inspect/index.md) - the community's open replica of Ramp's Inspect: a single-tenant, self-hosted background agent that takes sessions from web, Slack, GitHub, and Linear to attributed pull requests, with per-session scoped sandbox credentials and no release train.
 - [Ouroboros](ouroboros/index.md) - the Agent OS that freezes a spec from an interview and verifies with the grading hidden from the worker, 14 runtimes.

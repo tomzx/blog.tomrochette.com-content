@@ -1,7 +1,7 @@
 ---
 title: Ordewell
 created: 2026-09-16
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, planner, multi-agent, open-source]
 readability: 3
@@ -25,7 +25,8 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 ## Status
 
 Active, young, and small.
-As of 2026-11-14: 202 stars (as of 2026-10-14), 20 forks, 39 open issues and pull requests, created 2026-07-31, pushed 2026-11-13, latest release v0.13.1 on 2026-11-07, and about 9,000 npm downloads over the trailing month to 2026-11-13 across the `ordewell` and `@ordewell/cli` package names.
+As of 2026-11-15: 202 stars (as of 2026-10-14), 20 forks, 39 open issues and pull requests, created 2026-07-31, pushed 2026-11-14, latest release v0.13.2 on 2026-11-14, and about 9,400 npm downloads over the trailing month to 2026-11-15 across the `ordewell` and `@ordewell/cli` package names.
+v0.13.2 (2026-11-14) flagged an AI task whose attempt runs well past what the plan's finished AI tasks took (never under 30 minutes) or whose runner compacts its context on its own, advice the supervisor wakes on, with the runner re-receiving its brief after a compaction, retired the plan map from a task's first message in favor of briefs that name their own boundary and shared decisions, capped the planner's own reads per turn at ten calls or 60 KB by default with delegation asked for the rest, told runners to stop once their brief's done criterion holds, renamed `/handoff` to `/merge`, moved the daemon to contract 3 with a restart offer for older daemons, and added retries for transient provider errors (a 5xx, a 429, or a dropped connection).
 v0.13.1 followed the desktop announcement with per-window project switching and fixed the loop's AI check so its reported status is the verdict, failed when it confirms a problem and done only when it confirms none, closing the case where a review that found problems but reported done passed the loop and skipped the fix.
 v0.10.11 and v0.10.12 (both 2026-10-22) consolidated run and planner settings into one /settings surface with the one-value slash commands gone from the TUI and VS Code (the headless CLI keeps them), held a task_complete report until its turn closes so the tool reply reaches the runner before the verdict stops it, and kept a completion through a forced message and a message_undelivered exit so the runner's success is not discarded.
 v0.11.0 (2026-10-27) let a plan hold more than coding-agent tasks: script tasks, check-and-fix loops, and research tasks joined the runner, every task hands over a structured handoff, read-only tasks run in sealed throwaway worktrees and land nothing, new installations default to Guarded autonomy where a blank settings file used to mean Full, run settings apply per open session, the API planner compacts its own context, and the surface shows coding agents' account limits; v0.11.1 (2026-10-27) changed the VS Code listing text only, with no runtime code.
@@ -108,6 +109,7 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - 2026-11-08 - Recorded v0.13.1 (2026-11-07: per-window project switching in the desktop app, and the loop's AI check told that its reported status is the verdict, so a review that found problems but said done no longer passes the loop) and refreshed counts (pushed 2026-11-08, about 10,100 npm downloads over the trailing month to 2026-11-08).
 - 2026-11-12 - Refreshed counts (39 open issues and pull requests, pushed 2026-11-11, about 9,000 npm downloads over the trailing month to 2026-11-12); v0.13.1 still the newest release.
 - 2026-11-14 - Refreshed counts (39 open issues and pull requests, pushed 2026-11-13, about 9,000 npm downloads over the trailing month to 2026-11-13); v0.13.1 still the newest release.
+- 2026-11-15 - Recorded v0.13.2 (2026-11-14: long-running AI tasks flagged with supervisor wake and post-compaction brief re-sends, the plan map retired from first messages for boundary-naming briefs, the planner's per-turn reads capped at ten calls or 60 KB by default, runners told to stop at the done criterion, /handoff renamed /merge, daemon contract 3 with a restart offer, and transient provider-error retries) and refreshed counts (pushed 2026-11-14, about 9,400 npm downloads over the trailing month to 2026-11-15); v0.13.2 now the newest release.
 
 ## See also
 
@@ -120,8 +122,8 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 ## References
 
 - https://github.com/ordewell/ordewell - README: plan artifact, runners, marker verification, plugin manifests
-- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-11-14
-- https://api.github.com/repos/ordewell/ordewell/releases - v0.13.1 (2026-11-07, the AI-check verdict fix and desktop project switching), v0.13.0 (2026-11-06, the source-only desktop app announcement and the chat-centre layout), v0.12.6 (2026-11-05, Cursor as a fourth runner), and v0.12.4 and v0.12.5 (2026-11-04, the Windows line), with the v0.12.0 and v0.11.x notes before them
+- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-11-15
+- https://api.github.com/repos/ordewell/ordewell/releases - v0.13.2 (2026-11-14, the long-task flag, the planner read cap, and the daemon contract bump), v0.13.1 (2026-11-07, the AI-check verdict fix and desktop project switching), v0.13.0 (2026-11-06, the source-only desktop app announcement and the chat-centre layout), v0.12.6 (2026-11-05, Cursor as a fourth runner), and v0.12.4 and v0.12.5 (2026-11-04, the Windows line), with the v0.12.0 and v0.11.x notes before them
 - https://github.com/ordewell/ordewell/blob/main/CHANGELOG.md - the v0.7.0 entry: `task_complete` and `checkpoint` tools, tool-based planning, the marker fallback scope
 - https://raw.githubusercontent.com/ordewell/ordewell/main/CHANGELOG.md - the v0.8.0, v0.8.1, v0.9.0, and v0.9.1 entries: the removals, unified skills, the escape closures, the one-envelope planner research, and the repository-config security release
 - https://ordewell.ai - the product site: surfaces, the plan-execute-verify loop, marker wording
@@ -129,4 +131,4 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0002-planner-as-conversation-loop.md - the conversation-loop decision and the session wipe
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0008-planner-exploration-envelope.md - the auto/ask/refuse tiers and path confinement
 - https://news.ycombinator.com/item?id=49712276 - the launch thread: the AI-written exchange, the absorption objection, 56 points and 30 comments
-- https://api.npmjs.org/downloads/point/2026-10-14:2026-11-13/@ordewell/cli - 4,732 downloads and the unscoped package 4,262 over the trailing month to 2026-11-13
+- https://api.npmjs.org/downloads/point/2026-10-16:2026-11-15/@ordewell/cli - 4,950 downloads and the unscoped package 4,441 over the trailing month to 2026-11-15

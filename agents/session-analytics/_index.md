@@ -30,7 +30,7 @@ Tools that turn what coding agents already record into searchable history, cost 
 - [Memex](memex/index.md) - the Rust CLI that indexes multi-harness session transcripts locally with BM25 or embeddings, redacts secrets at index time and on egress, and resumes the session you find.
 - [NovaFabric](novafabric/index.md) - the Apache-2.0 run-capture CLI that wraps any command into a portable, secret-scanned Run Capsule for five-mode replay, structural diff, lineage, and signed evidence export.
 - [Token Monitor](token-monitor/index.md) - the live desktop usage widget across 54 named AI coding tools, with provider-limit tracking, retention archiving, and self-hosted multi-device sync.
-- [Tokscale](tokscale/index.md) - the terminal CLI and TUI that reads 63 named agents' local usage stores into one token and cost report, with an opt-in public leaderboard.
+- [Tokscale](tokscale/index.md) - the terminal CLI and TUI that reads 64 named agents' local usage stores into one token and cost report, with an opt-in public leaderboard.
 
 Its members are compared on shared rows in the [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md).
 

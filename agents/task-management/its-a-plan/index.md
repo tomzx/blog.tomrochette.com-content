@@ -1,7 +1,7 @@
 ---
 title: It's a Plan
 created: 2026-10-07
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, self-hosted, multi-agent, agpl]
 readability: 3
@@ -24,7 +24,8 @@ Andrii Poluosmak (the croffasia identity) maintains it under AGPL-3.0, except th
 ## Status
 
 Young, active, and climbing fast for its age.
-As of 2026-11-14: 963 stars (as of 2026-10-14), 308 forks, 74 open issues and pull requests, 39 contributors, created 2026-07-14, pushed 2026-11-14, 30 releases on a steady train, and 1,752 npm downloads over the trailing month to 2026-11-14 for @itsaplan/runner.
+As of 2026-11-15: 963 stars (as of 2026-10-14), 309 forks, 72 open issues and pull requests, 39 contributors, created 2026-07-14, pushed 2026-11-14, 31 releases on a steady train, and 1,999 npm downloads over the trailing month to 2026-11-15 for @itsaplan/runner.
+v1.11.0 (2026-11-14) added Pro Jira import (a Jira Cloud or Data Center project lands with its issues, comments, work logs, files, sprints, and custom fields, the hierarchy becoming initiatives and nested subtasks) and Pro HTTP tools for agents (team-created tools that call a service through a team credential, with fixed parameter values the agent never sees), while the Community edition gained calendar day and week modes with quick add, subtasks to eight levels that move with their parent, in-browser file previews for PDF, Word, Excel, PowerPoint, CSV, markdown, and text attachments, optional Web Push notifications, expiring public read-only links for documents, editable email templates, and background-job settings in God mode, fixed the medium advisory GHSA-4338-79jw-gf2w (a member with a weaker custom role could grant the default role to anyone, a second account included), and gave Pro workflow agent steps three outcomes: done, no result, or send back to an earlier agent.
 v1.10.0 (2026-11-05) added agent workflow canvases: in a project's AI Team Autopilot you draw a chain of agents on a canvas, an issue event, a cron, a person, or a webhook request starts the chain, a step can send the work back to an earlier agent for another pass, and MCP clients create and run workflows too; beside it came workspace project templates with a public gallery, per-project, per-team, and per-workspace agent run queues with instance-level run limits, system roles managed by the instance owner, private views with personal tab ordering, and expiring share links.
 v1.9.0 (2026-10-27) added a Pro help desk: public forms that create issues from a script tag on a trusted site, a per-workspace requests portal where senders sign in with an email code and reply onto their issues, Trello import beside the Linear and Plane paths, all-project search behind the command palette and a `search_issues_all_projects` MCP tool, inline property editing in the Table and Timeline, and Docs mentions that can address an agent and get its answer.
 v1.8.0 (2026-10-23) launched the paid Pro edition and fixed three high security advisories, two of them agent-permission holes: an internal agent run in one project could read and change issues in the agent's other projects, and a member who shared one project with an agent could regenerate its key and act as the agent in every project it had.
@@ -97,6 +98,7 @@ My disagreeable claim: an assignee slot is a sharper agent interface than an MCP
 - 2026-11-12 - Refreshed counts (74 open issues and pull requests, pushed 2026-11-12, 1,786 runner npm downloads over the trailing month to 2026-11-12); v1.10.0 still the newest release.
 - 2026-11-13 - Refreshed counts (306 forks, pushed 2026-11-13, 1,675 runner npm downloads over the trailing month to 2026-11-13); v1.10.0 still the newest release.
 - 2026-11-14 - Refreshed counts (308 forks, pushed 2026-11-14, 1,752 runner npm downloads over the trailing month to 2026-11-14); v1.10.0 still the newest release.
+- 2026-11-15 - Recorded v1.11.0 (2026-11-14: Pro Jira import and Pro HTTP tools for agents backed by team credentials with agent-invisible fixed values, calendar day and week modes with quick add, subtasks to eight levels moving with their parent, in-browser file previews, Web Push notifications, expiring public document links, editable email templates, God-mode background-job settings, the GHSA-4338-79jw-gf2w fix where a weaker custom role could grant the default role, and Pro workflow steps ending in done, no result, or send back) and refreshed counts (309 forks, 72 open issues and pull requests, 31 releases, pushed 2026-11-14, 1,999 runner npm downloads over the trailing month to 2026-11-15); v1.11.0 now the newest release.
 
 ## See also
 
@@ -110,13 +112,13 @@ My disagreeable claim: an assignee slot is a sharper agent interface than an MCP
 
 - https://itsaplan.dev - the product site: agents as teammates, views, deployment paths, the Product Hunt badge
 - https://github.com/croffasia/itsaplan - README: features, stack, license split, deployment options, the breaking-changes warning
-- https://api.github.com/repos/croffasia/itsaplan - stars, forks, contributors, dates, AGPL-3.0 as of 2026-11-14
-- https://api.github.com/repos/croffasia/itsaplan/releases - v1.10.0 (2026-11-05) and the release train, re-fetched 2026-11-14
+- https://api.github.com/repos/croffasia/itsaplan - stars, forks, contributors, dates, AGPL-3.0 as of 2026-11-15
+- https://api.github.com/repos/croffasia/itsaplan/releases - v1.11.0 (2026-11-14) and the release train, re-fetched 2026-11-15
 - https://itsaplan.dev/pro - the Pro edition: $24/month or $240/year per instance, unlimited seats, the Pro feature list, and the Community-at-$0 comparison (fetched 2026-10-25)
 - https://api.github.com/repos/croffasia/itsaplan/releases/tags/v1.8.0 - the v1.8.0 notes: the Pro launch, the three high advisories with the two agent-permission holes, and the breaking changes
 - https://itsaplan.dev/changelog - the release train: v1.0.0 2026-09-15 through v1.8.0 2026-10-23, Plane import, Linear import, OIDC and SCIM
 - https://github.com/croffasia/itsaplan/releases/tag/v1.5.0 - the v1.5.0 notes: usage accounting, account deactivation, the subpath deployment mode, the better-auth security fix
 - https://api.github.com/repos/croffasia/itsaplan/releases/tags/v1.6.0 - the v1.6.0 notes: the agent invocation URL, expiring invites, allowed email domains, Microsoft 365 OAuth mail, the MCP client-visibility surface, and the breaking changes
 - https://news.ycombinator.com/item?id=49971516 - the 1-point, comment-free throwaway thread, the missing-community-footprint signal
-- https://api.npmjs.org/downloads/point/2026-10-15:2026-11-14/@itsaplan/runner - 1,752 downloads over the trailing month to 2026-11-14 for the external-runner package
+- https://api.npmjs.org/downloads/point/2026-10-16:2026-11-15/@itsaplan/runner - 1,999 downloads over the trailing month to 2026-11-15 for the external-runner package
 - https://registry.npmjs.org/@itsaplan/runner/latest - the runner package at 0.7.0
