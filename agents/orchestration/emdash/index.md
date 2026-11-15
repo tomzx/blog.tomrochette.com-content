@@ -1,7 +1,7 @@
 ---
 title: Emdash
 created: 2026-08-24
-updated: 2026-11-07
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, open-source, desktop-app]
 readability: 3
@@ -83,6 +83,7 @@ My disagreeable claim: Emdash's SSH support matters more than any feature matrix
 - 2026-10-25 - Recorded v1.2.9 (2026-10-23) on the release train.
 - 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); recorded v1.2.10 (2026-10-30) on the release train.
 - 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (site, cloud page, repository, the Show HN thread, the Cloudflare post); recorded v1.2.11 (2026-11-06) as the newest release.
+- 2026-11-15 - Re-verified in rotation: every cited URL re-fetched live (site, cloud page, repository, the Show HN thread, the Cloudflare post); v1.2.11 still the newest release, no factual drift.
 
 ## See also
 

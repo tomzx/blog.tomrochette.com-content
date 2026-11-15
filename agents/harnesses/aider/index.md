@@ -1,7 +1,7 @@
 ---
 title: aider
 created: 2026-08-22
-updated: 2026-11-04
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, pair-programming, open-source]
 readability: 3
@@ -78,6 +78,7 @@ Not for long autonomous tasks, hands-off refactors, or teams that need an active
 - 2026-10-29 - Rotation re-verification, re-fetching every cited reference (all live) and confirming the stalled status unchanged: no default-branch commits since 2026-05-22 and v0.86.0 still the newest tag.
 - 2026-11-04 - Rotation re-verification, re-fetching every cited reference (all live), and corrected the leaderboard freshness claim: its newest results are the DeepSeek v3.2 entries dated October 3, 2025, not August 2025; the stalled status is unchanged (no default-branch commits since 2026-05-22, v0.86.0 still the newest tag).
 - 2026-11-11 - Rotation re-verification, re-fetching every cited reference (all live) and confirming the stalled status unchanged: no default-branch commits since 2026-05-22, v0.86.0 still the newest tag, and the leaderboard's newest results still the October 3, 2025 DeepSeek v3.2 entries.
+- 2026-11-15 - Corrected the leaderboard reference annotation, which still said results were dated August 2025 after the 2026-11-04 prose correction; re-fetched the leaderboard page, whose newest results remain the October 3, 2025 DeepSeek v3.2 entries.
 
 ## See also
 
@@ -90,6 +91,6 @@ Not for long autonomous tasks, hands-off refactors, or teams that need an active
 
 - https://aider.chat/ - features, install stats, model recommendations
 - https://github.com/Aider-AI/aider - repository scale and license, as of 2026-10-29 (default branch still unpushed since 2026-05-22)
-- https://aider.chat/docs/leaderboards/ - the polyglot benchmark, results dated August 2025
+- https://aider.chat/docs/leaderboards/ - the polyglot benchmark, newest results the DeepSeek v3.2 entries dated October 3, 2025 (re-fetched 2026-11-15)
 - https://news.ycombinator.com/item?id=39995725 - launch-era discussion of strengths and failure modes
 - https://news.ycombinator.com/item?id=43672712 - critical thread on aider's wasted inference spend against agentic rivals

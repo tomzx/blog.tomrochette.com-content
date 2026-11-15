@@ -1,7 +1,7 @@
 ---
 title: Open Swarm
 created: 2026-09-27
-updated: 2026-11-06
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, mission-control, human-in-the-loop, worktrees]
 readability: 3
@@ -81,6 +81,7 @@ The note stays as the category's second pivot record, after Flowise's archive, a
 - 2026-10-12 - Recorded the pivot: the repository is now a proprietary signed-builds shell (single commit dated 2026-10-03, v1.8.0 build 2026-10-11), development moved to Open Swarm Inc.'s waitlist-gated consumer assistant with a 2026-10-03 privacy policy, and the Status, Cautions, Pricing, Compared to, and Bottom line sections were rewritten around the pivot.
 - 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live; the pivot state is unchanged (proprietary signed-builds shell, single 2026-10-03 commit, v1.8.0 the last build), no factual drift.
 - 2026-11-06 - Re-verified in rotation: every cited URL re-fetched and live (the privacy policy URL now redirects to www.openswarm.com/privacy/); the pivot state is unchanged, no factual drift.
+- 2026-11-15 - Re-verified in rotation: every cited URL re-fetched and live (repo, README, privacy policy, releases, HN thread, the directory entry); the pivot state is unchanged, the repo's 2026-11-12 push touched no default-branch commit, no factual drift.
 
 ## See also
 

@@ -70,6 +70,7 @@ My disagreeable claim: **the framework family's next differentiator is not anoth
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, license, both arXiv papers, HN search); no claims changed, the 2026-10-22 maintenance return still the newest activity, and the category index one-liner corrected to match.
 - 2026-11-01 - Recorded the maintenance return continuing with pushes through 2026-10-31; the release train still stops at v0.1.4.
 - 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (repository API, README, license, both arXiv papers, the HN search); no factual drift, the repository still quiet since the 2026-10-31 push.
+- 2026-11-15 - Re-verified in rotation: every cited URL re-fetched live (repository API, README, license, both arXiv papers, the HN search); no factual drift, still no push since 2026-10-31 and v0.1.4 still the last release.
 
 ## See also
 

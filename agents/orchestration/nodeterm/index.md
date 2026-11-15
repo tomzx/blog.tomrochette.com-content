@@ -1,7 +1,7 @@
 ---
 title: nodeterm
 created: 2026-11-01
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal, canvas, kanban]
 readability: 3
@@ -24,8 +24,8 @@ By Enes Kirca as an indie project, repository created 2026-06-15, BUSL-1.1 licen
 
 ## Status
 
-Active: 2,287 stars, 264 forks, and 55 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-13, with releases through v0.5.1 (2026-11-06) and a Trendshift listing on the README.
-The installer download badge reads 16.7k across all releases as of 2026-11-01.
+Active: 2,287 stars, 264 forks, and 55 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-14, with releases through v0.5.1 (2026-11-06) and a Trendshift listing on the README.
+The installer download badge reads 18.8k across all releases as of 2026-11-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eneskirca/nodeterm&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ Not for teams needing PR-centric review surfaces, and not for anyone requiring a
 - 2026-11-01 - Created.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-02; v0.4.5 still the latest release.
 - 2026-11-06 - Volatile refresh: Recorded v0.5.0 (2026-11-04) as the new latest release.
+- 2026-11-15 - Re-verified in rotation: all cited sources re-fetched and live (site, docs, README, license, downloads badge, repo, releases, HN search); the push date refreshed to 2026-11-14 and the installer-download badge to 18.8k (2026-11-15), v0.5.1 still the latest release.
 
 ## See also
 
@@ -88,7 +89,7 @@ Not for teams needing PR-centric review surfaces, and not for anyone requiring a
 - https://raw.githubusercontent.com/eneskirca/nodeterm/HEAD/README.md - the canvas model, node kinds, Server Edition, sponsor tier, and license terms
 - https://raw.githubusercontent.com/eneskirca/nodeterm/HEAD/LICENSE - the BUSL-1.1 terms and the four-year MIT conversion
 - https://api.github.com/repos/eneskirca/nodeterm/releases?per_page=100 - the 70-release train through v0.4.5 (2026-10-24)
-- https://raw.githubusercontent.com/eneskirca/nodeterm/badges/downloads.json - the 16.7k installer-download badge as of 2026-11-01
+- https://raw.githubusercontent.com/eneskirca/nodeterm/badges/downloads.json - the 18.8k installer-download badge as of 2026-11-15
 - https://nodeterm.dev/ - the product site
 - https://nodeterm.dev/docs - the documentation home
 - https://hn.algolia.com/api/v1/search?query=%22nodeterm%22&tags=(story,show_hn)&hitsPerPage=5 - the zero-story Hacker News footprint as of 2026-11-01

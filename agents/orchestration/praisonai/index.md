@@ -1,7 +1,7 @@
 ---
 title: PraisonAI
 created: 2026-10-07
-updated: 2026-11-12
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, low-code]
 readability: 3
@@ -21,7 +21,7 @@ It sits in this category's low-code family beside Dify and Sim, closer to the co
 
 ## Status
 
-Active and heavily maintained: 9,238 stars as of 2026-10-15, a push on 2026-11-12, release v4.7.24 on 2026-11-05 after v4.7.23 (2026-11-03), v4.7.21 (2026-10-27), v4.7.20, v4.7.19 (2026-10-26), and v4.7.17 (2026-10-23) (GitHub API, as of 2026-11-12), with `praisonaiagents` 1.7.20 on PyPI (PyPI, as of 2026-11-01), on a repository created 2024-03-19.
+Active and heavily maintained: 9,238 stars as of 2026-10-15, a push on 2026-11-14, release v4.7.25 on 2026-11-14 after v4.7.24 (2026-11-05), v4.7.23 (2026-11-03), v4.7.21 (2026-10-27), v4.7.20, v4.7.19 (2026-10-26), and v4.7.17 (2026-10-23) (GitHub API, as of 2026-11-15), with `praisonaiagents` 1.7.23 on PyPI (PyPI, as of 2026-11-15), on a repository created 2024-03-19.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MervinPraison/PraisonAI&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for security-sensitive deployments that need a vendor's incident track recor
 - 2026-10-27 - Recorded v4.7.18 and v4.7.19 (both 2026-10-26, unannotated patch releases) and refreshed `praisonaiagents` on PyPI to 1.7.17.
 - 2026-11-01 - Recorded v4.7.22 (2026-10-30) as the latest release and praisonaiagents 1.7.20 on PyPI.
 - 2026-11-06 - Volatile refresh: Recorded v4.7.24 (2026-11-05) as the new latest release.
+- 2026-11-15 - Re-verified in rotation: every cited URL re-fetched live (docs, site, PyPI, the security advisory, the HN thread, repo, releases); recorded v4.7.25 (2026-11-14) as the new latest release and `praisonaiagents` 1.7.23 on PyPI.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Orkas
 created: 2026-10-12
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, desktop, commander, byok]
 readability: 3
@@ -79,6 +79,7 @@ Not for engineering teams whose loop is worktree, review, and PR discipline, or 
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, releases, site, pricing, HN Algolia); the push date refreshed to 2026-11-03, v2026.10.27 (2026-10-27) still the latest release.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v2026.10.27 still the latest release.
 - 2026-11-06 - Volatile refresh: Recorded v2026.11.4 (2026-11-04), the train crossing into November.
+- 2026-11-15 - Re-verified in rotation: all cited sources re-fetched and live (repo, site, pricing, releases API, HN search); pushed 2026-11-14, v2026.11.4 still the latest release, no coverage change.
 
 ## See also
 

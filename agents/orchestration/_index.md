@@ -68,7 +68,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [LangGraph](langgraph/index.md) - LangChain's MIT graph runtime for stateful agents, 3.8M npm downloads a week, durable execution and interrupts with LangSmith as the separate commercial layer.
 - [LobeHub](lobehub/index.md) - LobeChat's pivot into a Chief Agent Operator that hires, schedules, and reports on agents around the clock.
 - [LoopTroop](looptroop/index.md) - the MIT local GUI orchestrator using multi-model council planning, atomic beads, and fresh-context Ralph loops over OpenCode.
-- [Mastra](mastra/index.md) - the TypeScript agent framework from the Gatsby team, 8.3M npm downloads a month and $35M raised, scarred by a June 2026 npm supply-chain attack.
+- [Mastra](mastra/index.md) - the TypeScript agent framework from the Gatsby team, 12.1M npm downloads a month and $35M raised, scarred by a June 2026 npm supply-chain attack.
 - [MetaGPT](metagpt/index.md) - FoundationAgents' software-company-as-multi-agent framework, quiet since v0.8.2 with the energy moved to OpenManus.
 - [Multica](multica/index.md) - the source-available, self-hostable workspace that assigns issues to coding agents as teammates, 52.9k stars as of 2026-10-15.
 - [nodeterm](nodeterm/index.md) - the BUSL-1.1 Electron canvas turning terminals and agent sessions into draggable nodes, with a Trello-style board of live sessions and an iOS companion.

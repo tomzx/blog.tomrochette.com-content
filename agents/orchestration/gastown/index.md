@@ -1,7 +1,7 @@
 ---
 title: Gas Town
 created: 2026-08-27
-updated: 2026-11-12
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, multi-agent, git-worktrees, open-source, tmux]
 readability: 3
@@ -26,6 +26,7 @@ Claude Code is the default runtime with Codex, Copilot, Gemini, and Cursor confi
 **Shut down: Yegge killed the project in September 2026 and admitted he never successfully built anything with it, so the category's most famous experiment is now a death record that stays because deaths are information.**
 Per [Latent Space's AINews roundup](https://www.latent.space/p/ainews-reality-checks-on-ai-news) (2026-09-17), citing Dan Luu's 2026-09-15 post on X, Yegge shut Gas Town down despite spending many thousands a month on coding agent subscriptions.
 As of 2026-10-11: 18,323 stars, 1,686 forks, 507 open issues, created 2025-12-16, latest release v1.2.1 on 2026-06-06.
+The repository is not entirely frozen: security-fix commits for a Go toolchain CVE and a git CVE landed on the default branch on 2026-11-12 (GitHub API), with the release line unmoved since v1.2.1, so the repo is a maintained archive rather than an abandoned one.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gastownhall/gastown&type=date&theme=dark&legend=top-left" />
@@ -78,6 +79,7 @@ The disagreeable claim I will defend: strip the metaphors away and what remains 
 - 2026-10-27 - Corrected the post-shutdown record: dependency-security maintenance continued through 2026-10-25 (advisory bumps, a config fix, Dolt pinned and required at 2.6.0), not just the 2026-10-20 build fix.
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo, API, Appleton's analysis, the AINews issue, the announcement thread, the credits issue, releases); the default branch's latest commit is still the 2026-10-28 dependency bump, v1.2.1 still the last release, and no revival signal.
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repo, API, Appleton's analysis, the AINews issue, the announcement thread steady at 354 points, the credits controversy steady at 253, releases); the death record stands with the maintenance-push line extended to the 2026-11-10 dependency fix (klauspost/compress, undici), v1.2.1 still the last release.
+- 2026-11-15 - Extended the post-shutdown maintenance line: security-fix commits for a Go toolchain CVE (GO-2026-6859) and a git CVE landed on the default branch 2026-11-12, release line unmoved at v1.2.1.
 
 ## See also
 

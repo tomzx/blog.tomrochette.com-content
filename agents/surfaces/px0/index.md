@@ -1,7 +1,7 @@
 ---
 title: px0
 created: 2026-10-11
-updated: 2026-11-07
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, code-review, browser-ide, go, open-source]
 readability: 3
@@ -10,13 +10,14 @@ audience_notes: >
   Assumes you know what a merge-base diff and a language server are.
 ---
 
-px0 is Arpit Bhayani's MIT-licensed browser IDE for reviewing AI-generated code: one static Go binary serving read-first browsing, instant search, GitHub pull request review, and handoff to local coding harnesses over plain HTTP.
+px0 is Arpit Bhayani's MIT-licensed review workbench and speed-first IDE for AI-generated code: one static Go binary serving instant browsing and search, GitHub pull request review, quick in-place edits, and handoff to local coding harnesses over plain HTTP.
 
-**Its bet is the inverted IDE: authoring happens in the terminal harness, so the editor's remaining job is reading, diffing, and approving, done at sub-millisecond start and a fraction of the heavyweight suite's memory.**
+**Its bet is still the inverted IDE: the heavy authoring happens in the terminal harness, so the browser's remaining job is reading, diffing, approving, and now quick fixes, done at sub-millisecond start and a fraction of the heavyweight suite's memory.**
 
 ## What it is
 
 A single Go binary with the web UI embedded (`go:embed`, no Electron, no Node, no CGO), installed by a curl script or built from source, that renders your working tree, any directory, or a pull request from GitHub, GitLab, Gitea or Forgejo, or Bitbucket Cloud in the browser.
+Bare `px0` now opens a review workbench first: a launchpad across projects whose unsubmitted review drafts survive across sessions, with unpushed-commit review beside it, and in-place quick edits (Cmd/Ctrl+E, save with Cmd/Ctrl+S, unsaved-change protection when an agent prompt is overkill) are documented features rather than a workaround.
 The review loop is the product: `px0 <pr-url>` opens scoped merge-base diffs in an ephemeral worktree, inline comments draft from the gutter, formal approvals submit to GitHub, and AI-generated commit messages and pushes go back to PR branches without a terminal.
 Agent integration works through handoff rather than hosting: edits dispatch to Claude Code, Cursor Agent, Antigravity, OpenCode, Codex, Aider, or Goose per the README (the site headline counts four: Claude Code, Cursor Agent, Antigravity, and OpenCode), with multi-turn agent threads anchored to code ranges, live tool-step streams over SSE, and queued batch inline edits with overlap protection.
 Navigation targets the reading case: fuzzy file and symbol search, workspace regex, about 280 languages tokenized through Chroma, virtual rows that open 400,000-line files, optional zero-config LSP, and a remote-first mode (`px0 -host 0.0.0.0`) that serves any VM, container, or CI runner with path-traversal and DNS-rebinding guards, refusing agent edits through public tunnel hostnames.
@@ -39,12 +40,12 @@ The Show HN thread (2026-09-13, submitted by the author) drew 7 points and 0 com
 - **Review is the product, not a panel: PR URLs open scoped merge-base diffs in milliseconds, comments draft inline, and fixes dispatch to your own harness with live reload, closing the loop without opening an IDE.**
 - The performance discipline is measured, not vibed: benchmark scripts ship in the repo, and the memory accounting separates the 20 to 30 MB Go daemon from the browser tab's 80 to 150 MB, with idle memory returned to the kernel after 15 seconds.
 - Remote-first without remote daemons: one static binary over HTTP on any box, sandboxed by architecture (traversal guards, origin checks, tunnel-hostname edit refusal).
-- MIT end to end, read-first by default, no telemetry: the trust surface is auditable in an afternoon.
+- MIT end to end, review-first by default, no telemetry: the trust surface is auditable in an afternoon.
 
 ## Cautions
 
 - **Independent validation is absent: one 7-point Show HN with no comments, no third-party review found this run, and self-run benchmark scripts as the only performance evidence.**
-- v0.1.x at several releases per week is churn as the maintenance plan, and the editing model is deliberately constrained: read-first with agent-mediated writes, not a general editor.
+- v0.1.x at several releases per week is churn as the maintenance plan, and the editing model stays review-centered: in-place quick edits arrived with v0.1.17, but sustained authoring still belongs to the harness you dispatch to, not this editor.
 - MCP and AGENTS.md support are undocumented anywhere this run could find, so harness-adjacent conventions stay outside the tool.
 - The handoff list splits across sources (seven harnesses in the README, four on the site), and Codex is absent from the site's supported list, a gap for Codex-centric teams.
 - One maintainer carries the whole stack, server, web UI, and the in-repo internals docs.
@@ -64,7 +65,7 @@ The design-partner program is a sales motion, not a price list, so no price hist
 
 **Recommended for engineers whose day is reviewing agent output across many repositories and remote boxes, who want it in a browser tab at trivial cost, and can accept v0.1.x with self-run benchmarks as the entire evidence file.**
 Not for general-purpose editing, and not for teams that need independent validation before a review gate becomes habit.
-My disagreeable claim: the read-only IDE is the correct end state for the agent era, and px0's existence argues the editor wars were always review wars wearing an editor costume.
+My disagreeable claim: review, not authoring, is the editor's remaining job in the agent era, and px0's whole existence argues the editor wars were always review wars wearing an editor costume.
 
 ## Changes
 
@@ -74,6 +75,7 @@ My disagreeable claim: the read-only IDE is the correct end state for the agent 
 - 2026-10-22 - Recorded v0.1.19 (October 20) and v0.1.20 (October 21), patch releases whose notes carry no written changelog, as the new latest releases.
 - 2026-11-01 - Rotation re-verification, all cited URLs re-fetched live: corrected the handoff list to the README's current seven harnesses (Claude Code, Cursor Agent, Antigravity, OpenCode, Codex, Aider, Goose), where the note carried eight including Gemini CLI, recorded the README's pull-request review expanding past GitHub to GitLab, Gitea/Forgejo, and Bitbucket Cloud, corrected the v0.1.19 and v0.1.20 release notes, which the API shows carrying written sections (the review-bar relocation and one-click Rebase with AI, and single-hunk staging in the diff viewer) where the note said changelog links only, and recorded the train paused at v0.1.20 despite pushes through October 29; the Show HN thread still reads 7 points and 0 comments.
 - 2026-11-07 - Volatile re-verification on the released signal, recorded v0.1.21 (November 6, the release entry carrying only a compare link, no written changelog) resuming the train above v0.1.19 and v0.1.20 after the pause.
+- 2026-11-15 - Rotation re-verification, all five cited URLs re-fetched live: the repository (pushed November 6, not archived), v0.1.21 as latest release, and the 7-point zero-comment Show HN stand; recorded the site-wide repositioning from read-only IDE to review workbench and speed-first IDE, with quick in-place edits (v0.1.17's in-browser editing) now first-class, the review workbench launchpad and unpushed-commit review in the README, and Codeberg listed in the PR usage examples.
 
 ## See also
 
@@ -85,8 +87,8 @@ My disagreeable claim: the read-only IDE is the correct end state for the agent 
 
 ## References
 
-- https://github.com/px0-ai/px0 - repository, MIT, Go, 1,869 stars, created 2026-06-24, pushed 2026-10-08 (GitHub API, as of 2026-10-16); re-fetched 2026-11-01 with the push date at October 29, 2026 and the repository not archived
-- https://raw.githubusercontent.com/px0-ai/px0/HEAD/README.md - the feature set: PR review, harness handoff list, virtual rendering, remote mode, sandboxing, and the memory accounting; re-fetched 2026-11-01 with the handoff list at seven harnesses and pull-request review spanning GitHub, GitLab, Gitea/Forgejo, and Bitbucket Cloud
-- https://px0.ai/ - the product site: the performance claims, the four-harness headline, the logo wall, and the design-partner program, re-fetched 2026-11-01 unchanged
-- https://api.github.com/repos/px0-ai/px0/releases - the release train v0.1.11 through v0.1.16 (2026-09-28 to 2026-10-03), v0.1.17 (2026-10-18, LSP lifecycle hardening and the committed-changes diff view), v0.1.18 (2026-10-19, the intra-line diff highlighting pull request), v0.1.19 and v0.1.20 (2026-10-20 and 2026-10-21), and v0.1.21 (2026-11-06, a compare link but no written changelog) as the latest, re-fetched 2026-11-07
-- https://hn.algolia.com/api/v1/items/49683668 - the Show HN thread: 7 points, 0 comments, 2026-09-13, the thin-footprint record
+- https://github.com/px0-ai/px0 - repository, MIT, Go, 1,869 stars, created 2026-06-24, pushed 2026-10-08 (GitHub API, as of 2026-10-16); re-fetched 2026-11-15 with the push date at November 6, 2026 and the repository not archived
+- https://raw.githubusercontent.com/px0-ai/px0/HEAD/README.md - the feature set: PR review, harness handoff list, virtual rendering, remote mode, sandboxing, and the memory accounting; re-fetched 2026-11-15 with the review-workbench launchpad, unpushed-commit review, in-place quick edits, and Codeberg in the usage examples added
+- https://px0.ai/ - the product site: the performance claims, the four-harness headline, the logo wall, and the design-partner program, re-fetched 2026-11-15 with the headline now reading review workbench and speed-first IDE and quick edits in the tagline
+- https://api.github.com/repos/px0-ai/px0/releases - the release train v0.1.11 through v0.1.16 (2026-09-28 to 2026-10-03), v0.1.17 (2026-10-18, LSP lifecycle hardening and the committed-changes diff view), v0.1.18 (2026-10-19, the intra-line diff highlighting pull request), v0.1.19 and v0.1.20 (2026-10-20 and 2026-10-21), and v0.1.21 (2026-11-06, a compare link but no written changelog) as the latest, re-fetched 2026-11-15 with v0.1.21 still latest
+- https://hn.algolia.com/api/v1/items/49683668 - the Show HN thread: 7 points, 0 comments, 2026-09-13, the thin-footprint record, re-fetched 2026-11-15 unchanged

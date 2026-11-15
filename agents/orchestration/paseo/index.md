@@ -1,7 +1,7 @@
 ---
 title: Paseo
 created: 2026-08-30
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, mobile, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: about 20.9k stars (20,928) as of 2026-10-15, 2.5k forks, and 1,291 open issues and PRs, created 2025-10-13, with more than 6,100 commits on main (GitHub API, as of 2026-11-14, pushed 2026-11-14).
+Young and fast: about 20.9k stars (20,928) as of 2026-10-15, 2.5k forks, and 1,291 open issues and PRs, created 2025-10-13, with more than 6,100 commits on main (GitHub API, as of 2026-11-15, pushed 2026-11-15).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getpaseo/paseo&type=date&theme=dark&legend=top-left" />
@@ -99,6 +99,7 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 - 2026-11-01 - Recorded v0.14.0 (2026-10-29) stable and the v0.15.0-beta.1 prerelease (2026-11-01).
 - 2026-11-03 - Recorded v0.15.0 stable (2026-11-03): daemon restarts keep terminal programs with agent recovery for interrupted agents, and mobile terminals render natively.
 - 2026-11-06 - Volatile refresh: Recorded v0.15.2 (2026-11-05) on the release train after v0.15.0 stable.
+- 2026-11-15 - Re-verified in rotation: every cited URL re-fetched and live (site, hub docs, hosted-hub docs, supported providers, HN thread, repo, chart); the push date refreshed to 2026-11-15, no other drift.
 
 ## See also
 

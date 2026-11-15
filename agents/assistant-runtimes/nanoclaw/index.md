@@ -1,7 +1,7 @@
 ---
 title: NanoClaw
 created: 2026-08-27
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, containers, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 ## Status
 
 Active and independently credible.
-30,940 stars and 12,759 forks as of 2026-10-14 since creation on 2026-01-31, pushed 2026-11-13 with 1,065 open issues as of 2026-11-14.
+30,940 stars and 12,759 forks as of 2026-10-14 since creation on 2026-01-31, pushed 2026-11-14 with 1,056 open issues as of 2026-11-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nanocoai/nanoclaw&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Active and independently credible.
 </picture>
 
 The [533-point launch thread](https://news.ycombinator.com/item?id=46850205) pitched it as "Clawdbot in 500 lines of TS with Apple container isolation", followed by a 169-point thread on the move from Apple Containers to Docker and a 112-point thread on adopting the OneCLI Agent Vault.
-The versioning moved to calendar dates: v2.4.0 (2026-09-23) was the last of the 2.x line, 2026.10.0 published on 2026-10-09 after two release candidates (rc.1 on 2026-10-04, rc.2 on 2026-10-05), the next line opened as v2026.10.1-rc.1 on 2026-10-20 with rc.2 following on 2026-10-22, and on 2026-11-09 v2026.11.0-beta.1 opened the November line that takes 2026.10.1's place (that line never publishes stable, its two release candidates stay published with everything they brought folded into the beta), with v2026.11.0-beta.2 following on 2026-11-12, the beta channel tracking v2026.11.0 and stable staying on 2026.10.0 until it publishes, and `/update-nanoclaw` following published releases instead of the tip of main.
+The versioning moved to calendar dates: v2.4.0 (2026-09-23) was the last of the 2.x line, 2026.10.0 published on 2026-10-09 after two release candidates (rc.1 on 2026-10-04, rc.2 on 2026-10-05), the next line opened as v2026.10.1-rc.1 on 2026-10-20 with rc.2 following on 2026-10-22, and on 2026-11-09 v2026.11.0-beta.1 opened the November line that takes 2026.10.1's place (that line never publishes stable, its two release candidates stay published with everything they brought folded into the beta), with v2026.11.0-beta.2 following on 2026-11-12 and v2026.11.0-beta.3 following on 2026-11-14, the beta channel tracking v2026.11.0 and stable staying on 2026.10.0 until it publishes, and `/update-nanoclaw` following published releases instead of the tip of main.
 The family is real: microclaw (734 stars) describes itself as inspired by NanoClaw, and the prompt-security clawsec suite explicitly covers it.
 
 ## Strengths
@@ -78,6 +78,7 @@ My disagreeable claim: the container wall matters more than every permission sys
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, docs.nanoclaw.dev, both HN threads, clawsec), v2026.10.0 (2026-10-09) confirmed still the latest stable with the v2026.10.1 line still at rc.2, the four provider skills and the channel table intact, and the credential sentence corrected to the README's current framing (a pickable credential gateway, setup-installed as OneCLI's Agent Vault behind a provider seam), with refreshed adoption numbers.
 - 2026-11-11 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, docs.nanoclaw.dev, both HN threads via Algolia, clawsec), recorded the v2026.11.0 line opening at beta.1 (2026-11-09) in place of v2026.10.1, which never publishes stable, and the four provider skills, the credential-gateway sentence, the channel table, the docs site, and clawsec (1,135 stars) all intact, with refreshed adoption numbers.
 - 2026-11-13 - Recorded the November beta line advancing to v2026.11.0-beta.2 (2026-11-12), with refreshed adoption numbers.
+- 2026-11-15 - Recorded the November beta line advancing to v2026.11.0-beta.3 (2026-11-14), with refreshed adoption numbers.
 
 ## See also
 

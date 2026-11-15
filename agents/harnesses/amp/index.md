@@ -1,7 +1,7 @@
 ---
 title: Amp
 created: 2026-08-22
-updated: 2026-11-07
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, remote-execution, developer-tools]
 readability: 3
@@ -18,7 +18,8 @@ Amp is the coding agent from Amp Frontier Corporation ([spun out of Sourcegraph 
 ## What it is
 
 The `amp` CLI runs the agent loop locally; threads can be handed to **orbs, remote machines that keep executing after you disconnect**, and picked up from any device.
-Four modes (low, medium, high, ultra) trade speed against reasoning, with the oracle as a second-opinion model, the librarian for cross-repository GitHub search, subagents, schedules the agent sets itself, and a plugin system that can gate tool calls.
+A per-thread model selector replaced the Dial's four modes on November 12, 2026: you pick the model and its effort per thread, can switch both mid-thread, and each row shows who bills you (your Claude or ChatGPT subscription, your key, or Amp credits), with Staff Pick (Claude Opus 5.5 as of the switch) starting new threads by default.
+The oracle remains the second-opinion model, the librarian the cross-repository GitHub search, with subagents, schedules the agent sets itself, and spaces as a coordinating layer where one agent spawns and organizes the rest, plus a plugin system that can gate tool calls.
 AGENTS.md is the guidance convention, and a linked ChatGPT subscription can supply GPT-5.6 usage.
 
 ## Status
@@ -28,7 +29,7 @@ Amp was built inside Sourcegraph, was made free in October 2025, launched subscr
 Shipping cadence in August and September 2026 is weekly (voice control via Puck and an iOS and macOS app in late August, a desktop orb client and Fable 5.1 powering ultra in early September, a customizable Dial and sooner steering on September 8-10, runners that serve many directories on September 17, runner-created worktrees and workspace-shared runners on September 22-24, and the Mac app acting as a runner on September 24, as of 2026-09-26).
 On September 13, 2026 the [Free Agent announcement](https://ampcode.com/news/free-agent) made Amp free to use with your own compute, subscriptions, or keys, removed BYOK token fees for everyone outside Enterprise, and opened early access to nine more BYOK providers (OpenRouter, Bedrock, Google Cloud Agent Platform, Azure Foundry, Vercel AI Gateway, Cloudflare AI Gateway, Ollama Cloud, OpenCode Go, custom endpoints).
 The cadence ran through September's end and into October: Opus 5.5 took over the medium setting on September 28, Plaid Speed claimed 6x faster inference for GPT-6 Astra on September 29, multiple separate Puck conversations arrived on October 6, and on October 10 the [Use Your Claude Plan announcement](https://ampcode.com/news/use-your-claude-plan) made Claude Pro and Max plans usable in Amp for everyone at no extra cost, a mode that runs the Claude Agent SDK under the hood rather than Amp's own agent ([news index](https://ampcode.com/news)), the newest items as of 2026-10-10, with the pricing page re-verified unchanged on 2026-10-11.
-October's train has kept running since: Amp now follows up on your GitHub pull requests and orders files intelligently for faster reviews (both October 12), Puck works in other agents via MCP (October 13), a runner's macOS desktop is visible and usable from your session (October 16), issues can be mentioned or assigned to Amp in Linear and it works them in a thread (October 19), and the featured October 22 [Self-Hosted Orbs announcement](https://ampcode.com/news/self-hosted-orbs) opened running orbs on your own infrastructure through an `amp orb provider` dispatch program (free for individuals and teams, with Enterprise billing at standard orb pricing starting October 29), and the train ran on through late October: an Android app carrying threads, orbs, and Puck (October 27), personal self-hosted orb providers that any individual can attach without a workspace admin (October 28), charts, timelines, and mockups rendered in the thread (Visualize This, October 29), and [macOS Satellites](https://ampcode.com/news/macos-satellites) that attach a cloud Mac to a Linux orb for Xcode builds and simulator runs (October 29, beta with a waitlist), and November opened with a [Spaces](https://ampcode.com/news/spaces) launch (November 6): a space is a conversation with one agent whose job is to spawn and coordinate other agents, with teammates commenting in the space and artifacts kept there, which Amp itself calls a higher-level way to work with many agents, after the train of thread Artifacts (November 2), team Service Accounts (November 3), a GitLab integration (November 5), and Close the Loop visual point-and-change for your website (November 6), the newest items as of 2026-11-07, with the tier page re-verified unchanged on 2026-11-07.
+October's train has kept running since: Amp now follows up on your GitHub pull requests and orders files intelligently for faster reviews (both October 12), Puck works in other agents via MCP (October 13), a runner's macOS desktop is visible and usable from your session (October 16), issues can be mentioned or assigned to Amp in Linear and it works them in a thread (October 19), and the featured October 22 [Self-Hosted Orbs announcement](https://ampcode.com/news/self-hosted-orbs) opened running orbs on your own infrastructure through an `amp orb provider` dispatch program (free for individuals and teams, with Enterprise billing at standard orb pricing starting October 29), and the train ran on through late October: an Android app carrying threads, orbs, and Puck (October 27), personal self-hosted orb providers that any individual can attach without a workspace admin (October 28), charts, timelines, and mockups rendered in the thread (Visualize This, October 29), and [macOS Satellites](https://ampcode.com/news/macos-satellites) that attach a cloud Mac to a Linux orb for Xcode builds and simulator runs (October 29, beta with a waitlist), and November opened with a [Spaces](https://ampcode.com/news/spaces) launch (November 6): a space is a conversation with one agent whose job is to spawn and coordinate other agents, with teammates commenting in the space and artifacts kept there, which Amp itself calls a higher-level way to work with many agents, after the train of thread Artifacts (November 2), team Service Accounts (November 3), a GitLab integration (November 5), and Close the Loop visual point-and-change for your website (November 6), and November's second week kept the pace: portals opened on your own runner via the macOS app or `amp --no-tui --remote-control-portals` (November 9), [Boxes](https://ampcode.com/news/boxes) arrived (November 10) as always-on small VMs for deploying what you build with Amp (each box runs its own runner so agents can operate the deployed apps, from `b1.tiny` at $18 per always-on 30 days to `b1.large` at $100), and the [Bye Bye, Dial announcement](https://ampcode.com/news/bye-bye-dial) retired the Dial and its four modes (November 12) for a per-thread model selector with mid-thread switching and visible billing per model, the newest items as of 2026-11-15, with the tier page re-verified unchanged on 2026-11-15.
 
 ## Strengths
 
@@ -50,8 +51,8 @@ Hobby: free tier with all product features, pay-as-you-go orb time or your own r
 Individual $20/month: 45,000 orb minutes (750 hours) of Megawatt orb time, with a Gigawatt step-up behind the same toggle; a linked ChatGPT subscription still powers the low, medium, and high Dial settings instead of Amp credits.
 Teams cost nothing extra beyond members' tiers and pool credits with SAML/OIDC SSO; Enterprise is custom, pooled credits only.
 Since the September 13, 2026 Free Agent change there is no monthly fee to use Amp at all on your own compute, runners, subscriptions, or keys (you can still buy inference through Amp with no markup), and the zero and minimal data retention policy is now contractually extended to every tier.
-All tiers re-verified unchanged on 2026-11-07.
-The one new metered product is macOS Satellites (October 29 beta): satellite time bills at mac.medium $2/hour or mac.large $4/hour, drawn from included orb time first and then Amp credits.
+All tiers re-verified unchanged on 2026-11-15.
+The metered add-ons are macOS Satellites (October 29 beta): satellite time bills at mac.medium $2/hour or mac.large $4/hour, drawn from included orb time first and then Amp credits; and Boxes (November 10): always-on deployment VMs billed by the minute from b1.tiny $0.025/hour ($18 per always-on 30 days, $11.25 on a 6am-to-9pm schedule) through b1.large $0.139/hour ($100 per always-on 30 days).
 
 ## Price history
 
@@ -61,6 +62,7 @@ The one new metered product is macOS Satellites (October 29 beta): satellite tim
 | 2026-09-13 | All tiers | Free Agent change: no monthly fee to use Amp on your own compute, runners, subscriptions, or keys; Amp-sold inference stays at no markup, zero and minimal retention extended to every tier. | [ampcode.com/pricing](https://ampcode.com/pricing/) |
 | 2026-10-22 | Self-hosted orbs | Introduced free for individuals and teams; Enterprise workspaces move to standard orb pricing starting October 29, 2026, free for every workspace until then. | [Self-Hosted Orbs announcement](https://ampcode.com/news/self-hosted-orbs) |
 | 2026-10-29 | macOS Satellites | Introduced in beta at mac.medium $2/hour (6 CPU, 14 GB) and mac.large $4/hour (12 CPU, 28 GB), drawn from included orb time first, then Amp credits. | [macOS Satellites announcement](https://ampcode.com/news/macos-satellites) |
+| 2026-11-10 | Boxes | Introduced at b1.tiny $0.025/hour ($18 per always-on 30 days), b1.small $0.042/hour ($30), b1.medium $0.069/hour ($50), and b1.large $0.139/hour ($100), billed by the minute with scheduled on-off windows at a discount. | [Boxes announcement](https://ampcode.com/news/boxes) |
 
 ## Compared to
 
@@ -93,6 +95,7 @@ Not for open-source-only teams or anyone metering their own tokens.
 - 2026-10-25 - Rotation re-verification, every cited reference live; recorded the October 19 Linear issue assignment and the October 22 Self-Hosted Orbs announcement (free for individuals and teams, Enterprise orb pricing from October 29) with its Price history row, re-verified the tier page unchanged, and noted the custom portal domains now advertised on Individual and Teams.
 - 2026-10-30 - Rotation re-verification, every cited reference live except the Use Your Claude Plan announcement, whose URL now serves the pricing page: recorded the October 27-29 news (Amp on Android, personal self-hosted orb providers, thread visualization, and macOS Satellites in beta) with the satellites' Price history row, and re-verified the tier page unchanged.
 - 2026-11-07 - Rotation re-verification, re-fetching every cited reference (all live, the Claude Plan URL still serving the pricing page): recorded the November train through Spaces (November 6, one coordinating agent spawning and organizing the rest, with teammates and artifacts in the space) after Artifacts, Service Accounts, and the GitLab integration, and re-verified the tier page unchanged.
+- 2026-11-15 - Rotation re-verification, re-fetching every cited reference (all live, the manual now serving the docs): recorded the November 9-12 train (portals on your own runner, Boxes as always-on deployment VMs from $18 per always-on 30 days, and the Dial retired for a per-thread model selector with mid-thread switching and per-model billing visibility), rewrote the What-it-is modes line, added the Boxes Price history row, and re-verified the tier page unchanged.
 
 ## See also
 
@@ -103,8 +106,11 @@ Not for open-source-only teams or anyone metering their own tokens.
 
 ## References
 
-- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-11-07
-- https://ampcode.com/pricing/ - Hobby, Megawatt, Gigawatt, teams, enterprise, linked subscriptions, as of 2026-11-07 (re-verified unchanged)
+- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-11-15
+- https://ampcode.com/pricing/ - Hobby, Megawatt, Gigawatt, teams, enterprise, linked subscriptions, as of 2026-11-15 (re-verified unchanged)
+- https://ampcode.com/news/bye-bye-dial - the November 12, 2026 announcement retiring the Dial for a per-thread model selector with mid-thread switching and billing visibility
+- https://ampcode.com/news/boxes - the November 10, 2026 Boxes announcement with the b1.tiny through b1.large rates
+- https://ampcode.com/news/runner-portals - the November 9, 2026 announcement opening portals on local runners
 - https://ampcode.com/news/macos-satellites - the October 29, 2026 announcement attaching cloud Macs to orbs, with the mac.medium and mac.large rates
 - https://ampcode.com/news/spaces - the November 6, 2026 Spaces announcement: one coordinating agent spawning and organizing threads, with teammates and artifacts in the space
 - https://ampcode.com/news/self-hosted-orbs - the October 22, 2026 announcement opening orb self-hosting

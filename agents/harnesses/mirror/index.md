@@ -1,7 +1,7 @@
 ---
 title: "Mirror"
 created: 2026-10-21
-updated: 2026-11-08
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, cli, coding-agent, reflection, open-weights, byok]
 readability: 3
@@ -16,7 +16,7 @@ Like DeepSeek Harness, Kimi Code, Qwen Code, and ZCode, it pairs an open harness
 ## What it is
 
 Mirror is a terminal coding agent that reads code, edits files, and runs commands, installed with `uv tool install reflection-mirror` and started with `mirror`.
-The CLI is Python (3.12 or later) and drives a native Rust agent plus ripgrep that ship inside the release wheels, on macOS 15 or later for Apple Silicon and on Linux with glibc 2.28 or later; native Windows is not supported.
+The CLI is Python (3.12 or later) and drives a native Rust agent plus ripgrep that ship inside the release wheels, on macOS 14 or later for Apple Silicon and on Linux with glibc 2.28 or later; native Windows is not supported.
 It defaults to Reflection's API and `Beam-1.0-501B-A23B`, and can be pointed at OpenRouter, the OpenAI and Anthropic APIs, a ChatGPT plan sign-in, any OpenAI-compatible Chat Completions endpoint, or a local server.
 One session holds several workspaces, each with its own directory, conversation, model, reasoning effort, and approval mode, and switching workspaces never pauses the agent you left.
 `/worktree <name>` creates a checkout under `~/.mirror/worktrees` on a `mirror/<name>` branch, `/sandbox` creates one whose file and shell tools run in a microVM, and `/folder` opens a directory you already have; Jujutsu repositories are supported alongside Git.
@@ -49,7 +49,7 @@ The version line is still 0.1.x: one tagged release on GitHub (`mirror-agent-v0.
 - Approval mode decides what you review, not what the agent can reach: the docs say plainly that approved commands, extensions, and local MCP servers run with your account's full permissions, and only `/sandbox` workspaces get a microVM, which needs Apple Silicon or access to `/dev/kvm`.
 - `/rewind` rewinds the conversation only, so files the agent edited after that turn stay edited; undoing those is your version-control problem.
 - There is no independent evaluation: no FrontierHarness, SWE-bench, or other third-party pass-rate and cost run exists for the harness as of 2026-10-21, and the vendor's own default provider publishes no price list.
-- The platform floor is narrow: macOS 15 on Apple Silicon or Linux on glibc 2.28 or later, with no native Windows support.
+- The platform floor is narrow: macOS 14 on Apple Silicon or Linux on glibc 2.28 or later, with no native Windows support.
 - Memory is off by default, but `/memory import` pulls in what Claude Code and Codex keep on the same machine, so enabling it concentrates transcripts from several tools into one store.
 
 ## Pricing
@@ -57,7 +57,7 @@ The version line is still 0.1.x: one tagged release on GitHub (`mirror-agent-v0.
 The harness is free and open source under Apache-2.0.
 Usage is metered: the default path bills through Reflection's API, which publishes no price list on reflection.ai or in the developer docs as of 2026-10-21, while OpenRouter lists Beam 1.0 at $0.30/$1.00 per million tokens with cache reads at $0.04 as of 2026-11-08, back at its October 21 baseline after a late-October dip to $0.25 with $0.05 cache reads.
 The OpenAI, Anthropic, ChatGPT plan, and generic OpenAI-compatible paths bill through those vendors at their own rates, and a local or self-hosted endpoint costs only your hardware.
-Web search and page reading need a separate Firecrawl API key, priced by Firecrawl rather than by Reflection.
+Web search and page reading need a separate web-provider API key (You.com by default, with Tavily and Firecrawl selectable through `/web-provider`), priced by that provider rather than by Reflection.
 
 ## Price history
 
@@ -86,6 +86,7 @@ Not for teams that need a mature, independently benchmarked agent, native Window
 - 2026-10-25 - Recorded the push moving to 2026-10-22 and the PyPI package reaching 0.1.1 (October 22, after 0.1.0 on October 16); the single GitHub tag mirror-agent-v0.1.8 stands.
 - 2026-10-31 - Rotation re-verification, every cited reference live: recorded the OpenRouter reprice (prompt $0.30 to $0.25 per million tokens, cache reads $0.04 to $0.05, completion $1.00 unchanged) with the matching Price history row; the single GitHub tag and the PyPI 0.1.1 package stand.
 - 2026-11-08 - Rotation re-verification, every cited reference live: recorded the OpenRouter price returning to its October 21 baseline (prompt $0.30, cache reads $0.04, completion $1.00) with the matching Price history row; the single GitHub tag, the PyPI 0.1.1 package, and the pushed 2026-10-22 repository state all stand.
+- 2026-11-15 - Rotation re-verification, re-fetching every cited reference (all live), with two corrections: the quickstart now states macOS 14 or later on Apple Silicon (the note had recorded macOS 15), and web search now defaults to You.com with Tavily and Firecrawl selectable through `/web-provider` (the note had recorded Firecrawl only); the single tag, the PyPI 0.1.1 package, and the OpenRouter baseline price all stand.
 
 ## See also
 
@@ -106,7 +107,7 @@ Not for teams that need a mature, independently benchmarked agent, native Window
 - https://developers.reflection.ai/mirror-cli-reference - every slash command, shortcut, launch option, `mirror exec`, and `mirror acp`
 - https://developers.reflection.ai/coding-agents-quickstart - install path, platform requirements, the Firecrawl web search key, and the Reflection provider settings
 - https://github.com/reflection-oss/mirror - repository, Apache-2.0 license, and the Rust agent plus Python CLI build layout
-- https://pypi.org/project/reflection-mirror/ - package version 0.1.1 (published 2026-10-22) after 0.1.0 on 2026-10-16, Python 3.12 or later (re-verified 2026-11-08)
+- https://pypi.org/project/reflection-mirror/ - package version 0.1.1 (published 2026-10-22) after 0.1.0 on 2026-10-16, Python 3.12 or later (re-verified 2026-11-15)
 - https://reflection.ai/blog/beam-is-available - Beam's Apache 2.0 weights release and the Mirror CLI section of the announcement, published 2026-10-16
 - https://news.ycombinator.com/item?id=49969183 - the 556-point Beam launch thread, cited as the model-side footprint while the harness itself has no thread
-- https://openrouter.ai/api/v1/models - the live Beam 1.0 per-token price and cache-read rate, as of 2026-11-08
+- https://openrouter.ai/api/v1/models - the live Beam 1.0 per-token price and cache-read rate, as of 2026-11-15

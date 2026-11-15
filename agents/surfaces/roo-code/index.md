@@ -1,7 +1,7 @@
 ---
 title: Roo Code
 created: 2026-08-26
-updated: 2026-11-06
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source, byok]
 readability: 3
@@ -25,7 +25,7 @@ MCP servers were supported throughout, with [dedicated docs](https://roocodeinc.
 
 Dead, sunset on a published schedule.
 The [announcement](http://web.archive.org/web/20260508092828/https://roocode.com/blog/sunsetting-roo-code-extension-cloud-and-router) (2026-04-20, the live URL now serves the pivot product) committed to supporting everything through May 15, shutting down Roo Code Cloud and Router with refunds, and archiving the extension repo.
-The evidence matches: the last release (v3.54.0) and the last push both landed 2026-05-15, the repository now carries GitHub's archived flag, and the repo shows 24,275 stars as of 2026-10-16 with 551 open issues and 480 open pull requests as of 2026-11-06 (the combined count the earlier readings tracked as 1,031).
+The evidence matches: the last release (v3.54.0) and the last push both landed 2026-05-15, the repository now carries GitHub's archived flag, and the repo shows 24,275 stars as of 2026-10-16 with 548 open issues and 480 open pull requests as of 2026-11-15 (the combined count the earlier readings tracked as 1,031).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=RooCodeInc/Roo-Code&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ The evidence matches: the last release (v3.54.0) and the last push both landed 2
 </picture>
 
 The announcement claimed "past 3m extension downloads" and pointed users to Cline, which "incorporated much of what we built".
-**The team's new product is [roomote.dev](https://roomote.dev/), a cloud coding agent, and roocode.com now sells that instead.**
+**The team's new product is [roomote.dev](https://roomote.dev/), a cloud coding agent now pitched as self-hosted, source-available, and model-agnostic on infrastructure you control, and roocode.com now sells that instead.**
 
 ## Strengths
 
@@ -45,7 +45,7 @@ The announcement claimed "past 3m extension downloads" and pointed users to Clin
 
 ## Cautions
 
-- Unmaintained by decision, with 551 open issues and 480 open pull requests accumulating since May.
+- Unmaintained by decision, with 548 open issues and 480 open pull requests accumulating since May.
 - The recommended successor is Cline, its own upstream; forks of Roo (Kilo Code, the community's ZooCode, and others) carry the code on but split the community further.
 - Roomote is a different product category, so this is an exit, not a migration path.
 - The [28-point HN thread](https://news.ycombinator.com/item?id=47851734) on the shutdown read it as fork economics: forking an actively maintained repo for commercial purposes means competing with your upstream where moats are weak.
@@ -76,6 +76,7 @@ The disagreeable claim I will defend: Roo's death was not failure, its team corr
 - 2026-10-19 - Rotation re-verification, all eleven cited URLs re-fetched live: the archived repository, the final v3.54.0 release, the sunset post, and the fork-economics thread stand; aligned the open-issue count to 1,030 in Cautions, where it read 1,033 against Status and the API, and refreshed the marketplace counter to 2,087,879 installs.
 - 2026-10-27 - Rotation re-verification, all cited URLs re-fetched live: the archived repository, the final v3.54.0 release, the sunset post, the fork-economics thread, the pivot coverage, and roomote.dev stand; the marketplace counter refreshed to 2,107,585 installs and the open-issue count to 1,031.
 - 2026-11-06 - Rotation re-verification, all cited URLs re-fetched live: the archived repository (pushed May 15, 2026, not unarchived), the final v3.54.0 release, the sunset post, the fork-economics thread (28 points), the pivot coverage, and roomote.dev stand; the marketplace listing now returns 404, the extension removed from the marketplace, so the install counter has nowhere left to tick, and the open-work split reads 551 issues and 480 pull requests.
+- 2026-11-15 - Rotation re-verification, all cited URLs re-fetched live: the archived repository (pushed May 15, 2026, not unarchived), the final v3.54.0 release, the sunset post, the fork-economics thread (28 points), and roomote.dev stand; the open-work split ticked down to 548 issues and 480 pull requests, roomote.dev's pitch now leads with self-hosted, source-available, and model-agnostic, and the thenewstack.io pivot article serves a 403 bot wall to curl while webfetch reads it in full, so the citation stands with the wall recorded.
 
 ## See also
 
@@ -86,11 +87,11 @@ The disagreeable claim I will defend: Roo's death was not failure, its team corr
 
 ## References
 
-- http://web.archive.org/web/20260508092828/https://roocode.com/blog/sunsetting-roo-code-extension-cloud-and-router - the sunset announcement, archived (live URL repurposed), re-fetched 2026-10-16
-- https://github.com/RooCodeInc/Roo-Code - repository state, license, re-verified 2026-10-16
-- https://api.github.com/repos/RooCodeInc/Roo-Code - last push 2026-05-15, archived flag, stars, forks, issues as of 2026-10-16
-- https://github.com/RooCodeInc/Roo-Code/releases - v3.54.0, 2026-05-15, the final release, re-verified 2026-10-16
-- https://news.ycombinator.com/item?id=47851734 - the shutdown thread with the fork-economics critique, re-verified 2026-10-16
-- https://thenewstack.io/roo-code-cloud-ides-ai-coding/ - press coverage of the pivot, re-fetched 2026-10-16
-- https://roomote.dev/ - where the team went, re-fetched 2026-10-16
+- http://web.archive.org/web/20260508092828/https://roocode.com/blog/sunsetting-roo-code-extension-cloud-and-router - the sunset announcement, archived (live URL repurposed), re-fetched 2026-11-15
+- https://github.com/RooCodeInc/Roo-Code - repository state, license, re-verified 2026-11-15
+- https://api.github.com/repos/RooCodeInc/Roo-Code - last push 2026-05-15, archived flag, stars, forks, issues as of 2026-10-16; re-fetched 2026-11-15 (still archived, still pushed May 15)
+- https://github.com/RooCodeInc/Roo-Code/releases - v3.54.0, 2026-05-15, the final release, re-verified 2026-11-15 through the releases API
+- https://news.ycombinator.com/item?id=47851734 - the shutdown thread with the fork-economics critique, re-verified 2026-11-15 (28 points)
+- https://thenewstack.io/roo-code-cloud-ides-ai-coding/ - press coverage of the pivot, re-fetched 2026-11-15 (the article serves a 403 bot wall to curl while webfetch reads it in full)
+- https://roomote.dev/ - where the team went, re-fetched 2026-11-15 (the pitch now leads with self-hosted, source-available, single-tenant, model-agnostic)
 - https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline - install count and rating, as of 2026-10-27 (2,107,585 installs; 4.7 average rating; the listing still carried the shutdown notice pointing to ZooCode and Cline); the listing now returns 404 as of 2026-11-06, the extension removed from the marketplace

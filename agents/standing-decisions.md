@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [agents]
 readability: 0
@@ -13,6 +13,14 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 
 ## Scope rulings
 
+- 2026-11-15 | harnesses | a prose correction sweeps the note's References annotations in the same run, because the 2026-11-04 leaderboard-freshness correction left aider's citation line saying August 2025 until this run | extends the 2026-11-14 prose-only-release-repair line from Status prose to citation annotations
+- 2026-11-15 | orchestration | the 2026-11-14 release-recording ruling applies section-wide: the orchestration worker recorded twelve releases in Status prose with Changes bullets on one, and the coordinator repair appended the missing eleven note bullets and the matrix bullet | found by the coordinator updated-bump audit
+- 2026-11-15 | surfaces | OpenBitFun's Cowork-style general-workspace rejection holds on the tenth q#14 re-read (the openBitFun/OpenBitFun README re-fetched 2026-11-15 still pitches a general-purpose agent workspace with four Agent Harness modes, phone-as-remote-controller, and a Mini App marketplace, 4,027 stars, pushed 2026-11-14), the question again reads safe to close | surfaces re-check on the governing question
+- 2026-11-15 | surfaces | no credible surfaces-dedicated source has appeared; the GitHub search re-run returned other-category lists (bradAGI/awesome-cli-coding-agents 1,482 harnesses-kind, shaftoe/awesome-pi-coding-agent 182 single-agent ecosystem, iSEngLab/Awesome-Self-Evolving-Coding-Agents 153 research-loop kind) and below-band IDE lists (jsiwa/awesome-ai-ides 10 dormant since January, ishandutta2007/Awesome-AI-IDE 2) | the refresh's no-dedicated-source check
+- 2026-11-15 | surfaces | a matrix cell that traces to nothing in its member note is corrected against the primary source in the same run, and a reading line built on the stale cell retires with it (the JetBrains IDEs AGENTS.md cell read ✗ guidelines.md while the member note never mentioned rule conventions and the Junie docs now state AGENTS.md is the guidelines format, so the cell reads ✓ and the lone-vendor-holdout reading line is retired) | the per-column content-alignment check, extending the 2026-11-08 cell-correction ruling to reading paragraphs
+- 2026-11-15 | cross-category | an article-level 403 with the domain root serving 200 is a per-page bot wall, not a dead source, when an alternate fetcher reads the page in full, so the citation stands with the wall and the working fetch path recorded | the roo-code rotation re-fetch of thenewstack.io (curl 403, webfetch full text), extending the 2026-11-08 site-wall and 2026-11-13 server-trouble lines
+- 2026-11-15 | assistant-runtimes | openhuman reads 42,704 stars on 2026-11-15, about +13 in one day (the slowing trend continuing) against OpenClaw's 394,483 | the q13 OpenClaw-class scale trigger stays unfired, openhuman held
+- 2026-11-15 | cross-category | the AMO 2026-11-13 to 11-15 additions resolve with no admissions | Althar (AltharIDE/althar, 15 stars as of 2026-11-15, Apache-2.0, two months old, weekly release train to v0.8.0, zero independent coverage) rejects on the thin-record tail with an orchestration kind flag beside the Orca, Gas Town, and Helmor cohort, reopen on traction or independent coverage
 - 2026-11-14 | automated-research | a volatile refresh's post-release-commit reading expires when the next release ships: the commits the 2026-11-11 openresearch refresh described as post-v0.2.26 work shipped inside v0.2.27 two days later, so a refresh describing post-release work re-checks the newest release's notes the same pass | the openresearch v0.2.27 correction
 - 2026-11-14 | section-root | Terminal-Bench's version is read from its homepage on each benchmark-matrix link pass and the row moves the same run | the homepage read 4.0 through 2026-11-08 and 4.1 on 2026-11-14
 - 2026-11-14 | section-root | opencode.ai/docs/providers claims ground on the models.dev registry that now backs /connect, not on a docs page naming vendors | the providers page restructured between the 2026-11-08 and 2026-11-14 fetches and no longer names any provider

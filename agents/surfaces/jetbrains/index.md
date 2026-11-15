@@ -1,7 +1,7 @@
 ---
 title: JetBrains IDEs
 created: 2026-08-23
-updated: 2026-11-08
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, jetbrains]
 readability: 3
@@ -19,6 +19,7 @@ JetBrains IDEs are the analysis-heavy editors for Java, Kotlin, Python, and frie
 The IDEs are proprietary (Community editions excepted) and built on the IntelliJ platform's inspection and refactoring engine.
 **The AI stack has two layers: AI Assistant for chat and completion, and Junie, the plan-first agent that ships in the IDEs, in CI, and as an LLM-agnostic CLI.**
 ACP-speaking harnesses (OpenCode among them) can host inside JetBrains IDEs, so the editor works with rival agents.
+Junie reads project instructions from AGENTS.md at the project root (or `.junie/AGENTS.md`), with the legacy `.junie/guidelines.md` format still supported, as of 2026-11-15.
 Pricing runs through JetBrains AI Pro and AI Ultimate subscriptions metered in AI credits, with Junie BYOK at provider rates as the escape hatch.
 
 ## Status
@@ -84,6 +85,7 @@ Not for anyone who needs an open editor or a large community ecosystem.
 - 2026-10-22 - Rotation re-verification, all cited URLs re-fetched live: the $8.33 and $25.00 ladder with 10 and 35 AI Credits and Junie Lite stands re-observed on junie.jetbrains.com, the AI family entry page now presents itself as JetBrains Air, and the Air announcement, the 2025 statutory-results coverage, and all three threads stand; prices unchanged.
 - 2026-11-01 - Rotation re-verification, all cited URLs re-fetched live: recorded Air Governance's general availability (October 22, the organization layer of Air with credit limits, centralized BYOK, company-level MCP, and spend analytics across ACP-compatible agents) and its $20/user/month Business plan (Price history row); the statutory-results thread has grown to 596 points; the junie.jetbrains.com fetch rendered its marketing shell without the plan figures again, so the AI Pro and AI Ultimate ladder stands dated 2026-10-22.
 - 2026-11-08 - Rotation re-verification, all cited URLs re-fetched live: the junie.jetbrains.com page exposed both plan figures again ($8.33 and $25.00, 10 and 35 AI Credits, Junie Lite), the ladder re-observed unchanged; helgilibrary.com now serves a site-wide 403 bot wall (the root included) to non-browser fetches, so the statutory-figures citation stands with the wall recorded, and the 596-point thread and the Air posts stand unchanged.
+- 2026-11-15 - Out-of-rotation re-verification after the matrix alignment check found the AGENTS.md cell tracing to nothing in this note: recorded Junie's AGENTS.md support (project-root AGENTS.md or `.junie/AGENTS.md`, the legacy `.junie/guidelines.md` still read, global `~/.junie/AGENTS.md` supported), verified against the Junie docs and the AI Assistant help page fetched this run, grounding the matrix cell.
 
 ## See also
 
@@ -97,6 +99,8 @@ Not for anyone who needs an open editor or a large community ecosystem.
 - https://www.jetbrains.com/ai/ - the AI product family entry point
 - https://junie.jetbrains.com/ - plans, credits, and BYOK through 2026-09-27; hidden on the redesigned page from 2026-10-04; both figures exposed again as of 2026-10-09 ($8.33 and $25.00 per user/month, 10 and 35 AI Credits per 30 days, Junie Lite as the free start, BYOK at provider rates with zero markup); a static fetch on 2026-10-11 rendered a client shell, one on 2026-10-12 rendered both figures again, one on 2026-11-01 rendered the marketing shell without the figures again, and one on 2026-11-08 rendered both figures again unchanged, so the ladder stands re-observed 2026-11-08
 - https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/ - the Air announcement: Air in IDEs, Air Teams, Air Governance (formerly JetBrains Central), and the ACP Registry
+- https://junie.jetbrains.com/docs/guidelines-and-memory.html - Junie's guidelines discovery order: AGENTS.md at the project root (or `.junie/AGENTS.md`) is the current format, `.junie/guidelines.md` the legacy format still supported, global `~/.junie/AGENTS.md` supported, fetched 2026-11-15
+- https://www.jetbrains.com/help/ai-assistant/junie-agent.html - the AI Assistant help page stating Junie reads instructions from the AGENTS.md file in the root project directory, fetched 2026-11-15
 - https://www.helgilibrary.com/companies/jetbrains - the 2025 Czech statutory figures (revenue CZK 16,008 million, up 6.3%, net loss CZK 315 million), read from the business register and updated October 6, 2026; the page's data timestamp read October 23, 2026 on the 2026-11-01 re-fetch; the domain serves a site-wide 403 bot wall to non-browser fetches as of 2026-11-08 (the root included), citation kept with the wall recorded
 - https://news.ycombinator.com/item?id=49977072 - the October 6, 2026 thread on the 2025 results, 596 points as of 2026-11-01
 - https://blog.jetbrains.com/blog/2026/10/22/air-governance-manage-ai-agents-access-and-spend-throughout-your-organization/ - the October 22, 2026 Air Governance general availability: the organization layer of Air, agent and provider access management with credit limits, centralized BYOK, company-level MCP servers, spend and outcome analytics across Claude Agent, Codex, Gemini CLI, Junie, and other ACP-compatible agents, and the $20/user/month Business plan, fetched 2026-11-01
