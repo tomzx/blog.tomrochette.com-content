@@ -1,7 +1,7 @@
 ---
 title: File-based agent memory
 created: 2026-08-24
-updated: 2026-11-11
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, agent-memory, context-engineering]
 readability: 3
@@ -20,7 +20,7 @@ There is no vendor; it is a stack of converging conventions.
 Claude Code reads a CLAUDE.md hierarchy (managed, user, project, local) plus path-scoped `.claude/rules/`, and separately maintains auto memory: a `MEMORY.md` index with typed topic files (user, feedback, project, reference) that Claude writes itself, capped at the first 200 lines or 25KB.
 AGENTS.md is the cross-tool standard, adopted by Codex, Cursor, Amp, Jules, Gemini CLI (via config), opencode, Zed, Junie, and the GitHub Copilot coding agent, and now stewarded by the Agentic AI Foundation under the Linux Foundation.
 Cursor supports both `.cursor/rules` (frontmattered `.mdc` files) and plain AGENTS.md, including nested files per directory.
-**Interop is by bridge, not standard: Claude Code reads CLAUDE.md and not AGENTS.md, so teams symlink or `@import` one into the other, and `/init` ingests rivals' rule files.**
+**Interop started as bridge, not standard, and the bridge is now built in on one side: Claude Code reads AGENTS.md directly since v2.1.277 (by default only when no CLAUDE.md exists, with a Project instructions setting for reading both), so the symlink and `@import` bridges now matter for older versions and both-file setups, and `/init` still ingests rivals' rule files.**
 Products are forming around the convention, notably [memU](../memu/index.md) (14.5k stars as of 2026-10-16), which stores memory as a wiki of markdown files the agent distills itself, shared across Codex, Claude Code, and Cursor.
 
 ## Status
@@ -71,6 +71,7 @@ Reach for a memory service only for cross-user or cross-app memory; my disagreea
 - 2026-10-29 - Trimmed See also to five items (dropped the OpenCode link) to hold the section's three-to-five range.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live (agents.md, the Claude Code memory docs, Cursor's rules docs, the Anthropic best-practices page, the memU and Operator Memory repositories, the liao.gg essay, and both HN threads), no facts changed: agents.md still reports 60k-plus open-source projects with Agentic AI Foundation stewardship, the Claude Code auto-memory limits (first 200 lines or 25KB, the 4 MiB skip) and "no guarantee of strict compliance" wording unchanged, Cursor's four rule types and nested AGENTS.md support unchanged, and the liao.gg essay thread steady at 392 points.
 - 2026-11-11 - Rotation re-verification: every cited URL re-fetched live (agents.md, the Claude Code memory docs, Cursor's rules docs, the Anthropic best-practices page, the memU and Operator Memory repositories, the liao.gg essay via the fetch tool, and both HN threads), no facts changed: agents.md still reports 60k open-source projects, the Claude Code auto-memory limits unchanged, the essay thread steady at 392 points; the Anthropic best-practices URL now redirects to code.claude.com/docs/en/best-practices and fetches normally.
+- 2026-11-15 - Rotation re-verification: every cited URL re-fetched live (agents.md, the Claude Code memory docs, Cursor's rules docs, the best-practices page, the memU and Operator Memory repositories, the liao.gg essay, and both HN threads); one fact changed: Claude Code now reads AGENTS.md directly (v2.1.277 and later, by default when no CLAUDE.md exists, with a Project instructions setting for reading both), so the interop-by-bridge claim was rewritten with the bridges demoted to older-version and both-file setups; agents.md still reports 60k open-source projects, the auto-memory limits and 4 MiB skip unchanged, and the essay thread steady at 392 points.
 
 ## See also
 

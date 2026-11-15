@@ -1,7 +1,7 @@
 ---
 title: Sno Station
 created: 2026-10-28
-updated: 2026-11-13
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, cross-harness, encryption, open-source]
 readability: 3
@@ -28,7 +28,7 @@ Three data modes surround that core: Local First uploads no memory text, Agent N
 ## Status
 
 **Young, fast-rising, and entirely self-evidenced.**
-929 stars and 364 forks on a repository created 2026-09-19 (public since 2026-09-18) and pushed 2026-11-13, Apache-2.0, as of 2026-11-13 (GitHub API).
+929 stars and 364 forks on a repository created 2026-09-19 (public since 2026-09-18) and pushed 2026-11-15, Apache-2.0, as of 2026-11-15 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sno-ai/sno-station&type=date&theme=dark&legend=top-left" />
@@ -39,6 +39,7 @@ Three data modes surround that core: Local First uploads no memory text, Agent N
 The newest published release is v2.0.1 (2026-11-07): v2.0.0 (2026-11-04) shipped the tag-team line the README markets as New in 2.0, with `sno reach pair` putting two agents on one task (one builds, one challenges, and the work reaches you already argued over, with an explicit notice when only one vendor account is signed in), a `2 need you` status-line prompt and a `sno squad` overview of who needs you, who is working, and what is finished, tasks that survive quota exhaustion, crashes, and closed windows with the outcome (resumed, rebuilt, or lost) reported truthfully, approved lessons applying to the agent's next reply rather than its next session, and messages landing in an inbox first so typing and compaction never lose one; v2.0.1 (2026-11-07) keeps the squad running when automatic checks time out (Codex returns control when an automatic memory request times out, work passed between agents stays with its current owner).
 The version line itself is unreliable, and the pattern repeated: the v1.7.1 release this note recorded as newest on 2026-10-29 is now itself gone from tags and releases two days later, and GitHub tags jump from v1.3.5 to v1.7.2, so release history has been deleted or rewritten again; v1.7.2 and v1.7.3 still stand in tags and releases as of 2026-11-07, so the deletion has not recurred a third time.
 The what-runs-today table marks the five-harness shared memory, the mailbox, and Self Learning as released and proven end to end on clean machines.
+The reach line widened into peer messaging on the default branch (November 13 to 15, pending release): agents message each other through user workflows (an Instant Messenger and Agent Email, with translated guidance), peer messaging and threaded calls connect over a pinned iroh transport with a Codex wake client, native and portable terminal wake, and Orca composer drafts read when waking an agent, and network peers authenticate with bound message senders; dependency fixes (a standalone sanitizer update and vulnerable runtime versions removed) landed beside it, and v2.0.1 remains the newest published release.
 The published evidence is the project's own: dated screenshots in `docs/evidence` show a quota watch handing a long build to another agent at 2 percent remaining, Self Learning catching a repeated mistake and putting a rule into the live skills by morning, and a next-day check measuring whether its own skill changes helped, with an `evals/` directory (LoCoMo, Memora, r-at-5, and its own bench) behind the memory claims.
 I found no Hacker News thread and no independent writeup through 2026-10-28 searches, so 929 stars in five weeks rest on trending placements and promotional posts, the category's stars-ahead-of-discussion pattern at its youngest.
 
@@ -88,6 +89,7 @@ Not for privacy-strict environments that cannot accept the default nightly sessi
 - 2026-11-03 - Recorded v1.7.3 (November 2): one agent can ping another while you type in its window, the ping waits in the recipient's inbox with nothing sent on your behalf, and the same behavior holds in tmux and Orca; v1.7.2 still stands in tags and releases, so the release-history deletion has not recurred a third time.
 - 2026-11-07 - Recorded the 2.0 line: v2.0.0 (November 4) shipped tag-team (`sno reach pair` puts two agents on one task with the argument already had, `sno squad` lays out the squad, tasks survive quota, crash, and closed windows with the outcome reported, approved lessons apply to the next reply, and messages queue inbox-first), and v2.0.1 (November 7) keeps the squad running when automatic checks time out; v1.7.2 and v1.7.3 still stand, so the release-history deletion has not recurred; the push date refreshed to 2026-11-07.
 - 2026-11-13 - Volatile re-verification: the README rework recorded (a what-it-is opening ahead of the install line with four usage ways, a header image, badges moved); v2.0.1 still the newest published release and still standing in tags and releases, and the push date refreshed to 2026-11-13.
+- 2026-11-15 - Recorded the pending peer-messaging wave on the reach line (November 13 to 15): agent messaging through user workflows (Instant Messenger and Agent Email with translated guidance), peer messaging and threaded calls over a pinned iroh transport with a Codex wake client, native and portable terminal wake, Orca composer drafts read on wake, peer authentication with bound senders, and the sanitizer and vulnerable-dependency fixes; v2.0.1 still the newest published release, and the push date refreshed to 2026-11-15.
 
 ## See also
 

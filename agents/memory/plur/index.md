@@ -1,7 +1,7 @@
 ---
 title: PLUR
 created: 2026-10-14
-updated: 2026-11-11
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, mcp, local-first, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Sync is git over your own remotes, with scope-filtered pushes (shared remotes ne
 ## Status
 
 **Active and shipping, young, with self-published benchmarks and no independent coverage yet.**
-304 stars as of 2026-10-19, 37 forks, created 2026-03-19, pushed 2026-11-09 from further side branches with the default branch quiet since the v0.23.0 train, Apache-2.0, as of 2026-11-11 (GitHub API).
+304 stars as of 2026-10-19, 37 forks, created 2026-03-19, pushed 2026-11-14 from further side branches with the default branch quiet since the v0.23.0 train, Apache-2.0, as of 2026-11-15 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=plur-ai/plur&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ Not for multi-user products needing server-side per-user isolation, and not for 
 - 2026-11-01 - Recorded v0.23.0 (October 30), the provenance release: a hash-chained history log with `plur verify` naming each break and fork made outside PLUR (unreadable never reported clean), checkpoints and session manifests, and opt-in experimental Swarm manifest storage with nothing leaving the machine unless enabled; npm re-verified at 0.23.0, and the feature matrix's PLUR audit cell moved to the hash-chained log.
 - 2026-11-08 - The November 8 pushed_at movement resolved to side branches again, with the default branch still quiet since the v0.23.0 train; no facts changed.
 - 2026-11-11 - Volatile re-verification: the 2026-11-09 pushed_at movement resolved to further side branches with the default branch still quiet since the v0.23.0 train; no facts changed.
+- 2026-11-15 - Volatile re-verification: the 2026-11-14 pushed_at movement resolved to further side branches with the default branch still quiet since the v0.23.0 train; no facts changed.
 
 ## See also
 

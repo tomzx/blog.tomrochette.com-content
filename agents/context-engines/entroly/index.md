@@ -1,7 +1,7 @@
 ---
 title: Entroly
 created: 2026-10-12
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, receipts, open-source]
 readability: 3
@@ -25,10 +25,11 @@ Two offline commands are the trust surface: `entroly verify-claims` runs twelve 
 
 ## Status
 
-Young, active, and barely discovered: 476 stars as of 2026-10-18, 74 forks, created 2026-03-07, pushed 2026-11-13 on main, PyPI and npm both at 1.0.88 across 106 releases (registries re-checked 2026-11-14, GitHub figures as of 2026-11-06).
+Young, active, and barely discovered: 476 stars as of 2026-10-18, 74 forks, created 2026-03-07, pushed 2026-11-15 on main, PyPI and npm both at 1.0.90 across 107 releases (registries re-checked 2026-11-15, GitHub figures as of 2026-11-06).
 October 2026 development around the 1.0.87 release added a session journal of what a session did, returned on resume, source-bound cross-agent review in the work CLI, opt-in paired Decisions choice trials, and a rustls advisory fix.
 Release 1.0.88 (2026-11-01) shipped the PAC-KV cache-aligned compression (provider page-grid quantization, an economic break-even gate, paged Merkle trees, attention-aware tail compression), the receipt-backed graph memory with hybrid retrieval that main had carried unreleased, and frontier codecs, alongside 62 customer-visible dogfood fixes, an activation report naming a degraded hook's cause, and the scaffold of an opt-in action gate.
-Main's unreleased 2026-11-07 batch follows: cascade policies assessed on held-out data with exact risk tests, STAVE fact-alignment stability, EICV calibration corrections for tied ranks and dependent evidence, Claude Code host fixes (capture outcomes read as the host sends them, uninstall removing the capture hooks, the hook no longer editing shell files), and first-run onboarding fixes from a clean-room install, with the 2026-11-09 round after it (nested rename evidence prioritized in context pages, empty unsaved editor overlays preserved, and dependency bumps), and the 2026-11-13 batch after that (signed, offline-verifiable proof bundles through new export-proof and verify-proof commands, opt-in proxy forwarding of operator-named client headers, a pricing-catalog hardening fix isolating malformed catalogs and nonfinite token limits, and dogfood evidence documents recorded per report).
+Releases 1.0.89 and 1.0.90 (both 2026-11-14) shipped the previously unreleased 2026-11-07, 11-09, and 11-13 batches (held-out cascade-policy risk tests, STAVE and EICV calibration fixes, Claude Code host fixes, clean-room onboarding fixes, nested rename evidence, signed export-proof and verify-proof bundles, opt-in proxy header forwarding, and the pricing-catalog hardening) plus new work in the same window: the proxy keeps file reads intact and selects once per question with a usage-ledger over-claim fix, the dollars view leads with conservative net saving and prices OpenAI and Gemini, and a dogfood research round added native source retention, a 25-turn proxy replay, and usage-ledger hardening.
+Main's unreleased work since the release is the 2026-11-14 batch: an agent pilot running against actual commits, with strict invoice reconciliation and safety gates.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=juyterman1000/entroly&type=date&theme=dark&legend=top-left" />
@@ -81,6 +82,7 @@ My disagreeable claim: this category's arms race measures the wrong thing, and a
 - 2026-11-07 - Recorded main's unreleased 2026-11-07 batch (held-out cascade-policy risk tests, STAVE fact-alignment stability, EICV calibration corrections, Claude Code host fixes including an uninstall that removes the capture hooks, first-run onboarding fixes); PyPI and npm unchanged at 1.0.88.
 - 2026-11-11 - Recorded main's unreleased 2026-11-09 round (nested rename evidence prioritized in context pages, empty unsaved editor overlays preserved, dependency bumps); PyPI and npm unchanged at 1.0.88, push date refreshed.
 - 2026-11-14 - Recorded main's unreleased 2026-11-13 batch (merged pull requests #589 through #591: signed, offline-verifiable proof bundles via new export-proof and verify-proof commands, opt-in proxy forwarding of operator-named client headers, a malformed-pricing-catalog and nonfinite-token-limit hardening fix, and dogfood evidence documents recorded per report); PyPI and npm re-checked unchanged at 1.0.88, push date refreshed.
+- 2026-11-15 - Recorded releases 1.0.89 and 1.0.90 (both 2026-11-14) shipping the previously unreleased 2026-11-07 through 11-13 batches plus new work in the release window (proxy file-read preservation with once-per-question selection and a usage-ledger over-claim fix, conservative-net-saving dollars with OpenAI and Gemini pricing, and dogfood research adding native source retention, a 25-turn proxy replay, and usage-ledger hardening); PyPI and npm re-checked at 1.0.90 across 107 releases, and main's unreleased 2026-11-14 batch (an agent pilot running against actual commits, strict invoice reconciliation, safety gates) recorded.
 
 ## See also
 
@@ -94,8 +96,8 @@ My disagreeable claim: this category's arms race measures the wrong thing, and a
 - https://api.github.com/repos/juyterman1000/entroly - stars, forks, created and pushed dates, Apache-2.0 license, and topics as of 2026-11-01
 - https://raw.githubusercontent.com/juyterman1000/entroly/main/README.md - mechanism, install surfaces, receipt and recovery model, the README benchmark table with the disclosed SQuAD regression, and the activation-status honesty notes (re-fetched 200, 2026-11-01)
 - https://raw.githubusercontent.com/juyterman1000/entroly/main/docs/BENCHMARKS.md - full benchmark protocols, sample sizes, the 24/24 versus 18/24 model-recovery holdout, and the WITNESS hallucination-detection numbers (re-fetched 200, 2026-11-01)
-- https://pypi.org/pypi/entroly/json - version 1.0.88 and the 106-release train (re-fetched 2026-11-01)
-- https://registry.npmjs.org/entroly - the npm distribution at 1.0.88 (re-fetched 2026-11-01)
+- https://pypi.org/pypi/entroly/json - version 1.0.90 across 107 releases (re-fetched 2026-11-15)
+- https://registry.npmjs.org/entroly - the npm distribution at 1.0.90 (re-fetched 2026-11-15)
 - https://api.npmjs.org/downloads/range/2026-10-02:2026-10-31/entroly - 652 downloads summed for 2026-10-02 to 2026-10-31, nine zero days in the window (fetched 2026-11-01)
 - https://pypistats.org/api/packages/entroly/recent - 1,455 downloads in the trailing month, unchanged when re-fetched 2026-11-01
 - https://hn.algolia.com/api/v1/search?query=entroly&hitsPerPage=5 - the footprint check: no story about the product, all hits unrelated (re-fetched 2026-11-01)

@@ -11,7 +11,7 @@ readability: 3
 Feeding agents the right slices of large corpora: chunking libraries, parsing pipelines, search-engine libraries, full RAG engines, the two big frameworks, graph-RAG systems, a vectorless reasoning engine, code knowledge-graph retrieval, and the patterns built on them.
 
 - [Chonkie](chonkie/index.md) - the MIT chunking library (token, semantic, and neural chunkers) for RAG pipelines, its commercial arm dead and its maker pivoted to Feyn Labs.
-- [Code-Graph-RAG](code-graph-rag/index.md) - the MIT monorepo code-RAG system storing tree-sitter plus compiler facts in a Memgraph graph queried by an agent writing Cypher.
+- [Code-Graph-RAG](code-graph-rag/index.md) - the MIT monorepo code-RAG system storing tree-sitter plus compiler facts in a knowledge graph (embedded SQLite by default, Memgraph and Neo4j opt-in) queried by an agent writing Cypher.
 - [Docling](docling/index.md) - IBM-origin document parser turning PDF, Office, audio, and video into structured DoclingDocuments for RAG and agent pipelines.
 - [GraphRAG](graphrag/index.md) - Microsoft Research's entity-graph RAG pipeline with community summaries, now declared largely in maintenance mode by its own README.
 - [Knowhere](knowhere/index.md) - Ontos AI's structure-preserving document parsing and retrieval pipeline, hosted per page or self-hosted, its self-reported benchmark and near-empty HN footprint attached.

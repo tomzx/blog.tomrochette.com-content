@@ -1,7 +1,7 @@
 ---
 title: WebMCP
 created: 2026-10-06
-updated: 2026-11-13
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, browser, w3c, agent-tools]
 readability: 3
@@ -17,7 +17,7 @@ WebMCP is a W3C Community Group draft specification, edited by Microsoft and Goo
 
 ## What it is
 
-A Draft Community Group Report (dated 2026-11-11, following the 2026-11-02 revision that added the optional `outputSchema`, the 2026-10-20 revision that added the agent-ecosystem-risks discussion, and the 2026-10-08 revision that removed the declarative form-annotation path from the 2026-10-02 draft) from the W3C Web Machine Learning Community Group, first announced 2026-02-10, with editors from Microsoft and Google.
+A Draft Community Group Report (report page stamped 2026-11-13 on an explainer-only commit, with the newest spec-text revision the 2026-11-11 one, following the 2026-11-02 revision that added the optional `outputSchema`, the 2026-10-20 revision that added the agent-ecosystem-risks discussion, and the 2026-10-08 revision that removed the declarative form-annotation path from the 2026-10-02 draft) from the W3C Web Machine Learning Community Group, first announced 2026-02-10, with editors from Microsoft and Google.
 The API surface is `document.modelContext` with `registerTool()`, `getTools()`, and `executeTool()`: a tool carries a name, a natural-language description, and a JSON Schema input, and pages register tools imperatively in JavaScript, with the 2026-10-27 revision adding opt-in cross-origin exposure between frames (`exposedTo` on registration, `fromOrigins` on discovery) behind a two-sided opt-in check and the 2026-11-02 revision adding an optional `outputSchema` to tool registration and discovery (a JSON Schema object describing the tool's expected output structure, which agents may reject non-conforming output against), closing the output-schema future-work item.
 **The spec's own framing places it in this index's stack: "Web pages that use WebMCP can be thought of as Model Context Protocol servers that implement tools in client-side script instead of on the backend", with the browser mediating every call under a `tools` Permissions Policy that defaults to same-origin only.**
 Chrome ships it behind a public origin trial (Chrome 149 through 156), Edge 150 runs its own origin trial, and both plus Chromium browsers carry a local flag, and Angular offers experimental support.
@@ -25,7 +25,7 @@ Chrome ships it behind a public origin trial (Chrome 149 through 156), Edge 150 
 ## Status
 
 **Active and past the flag stage, with one browser shipping and one agent consuming.**
-The repository shows 4,621 stars (2026-10-13), 128 open issues, and a push on 2026-11-12 (the implementation-status page, not the spec draft), as of 2026-11-13 (GitHub API).
+The repository shows 4,621 stars (2026-10-13), 138 open issues, and a push on 2026-11-13 (the continuations explainer, not the spec draft), as of 2026-11-15 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,7 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched live with no dead sources (the two commit URLs verified through the GitHub API after the HTML pages served 504s); the draft stays at its 2026-11-02 revision with no newer report and the default branch quiet since then, the 2026-11-06 pushed_at moved by side-branch work (a generic-tool-calling explainer branch pushed 2026-11-06 and a wait-for-tools-until branch pushed 2026-11-03, neither merged), and open issues refreshed to 141 as of 2026-11-08.
 - 2026-11-12 - The draft report moved to its 2026-11-11 revision, carried by four verified default-branch commits with no new API surface: the `toolactivated` event now fires after the execute callback is invoked (#371), each ModelContext tracks its associated Document in the spec's structs (#380), getTools() gains a stated traversable scope (#382), and a stale native-agents note left the security questionnaire (#269); no commits sat between 11-03 and 11-09, so the four carry the whole 11-02-to-11-11 window; open issues refreshed to 137 as of 2026-11-12.
 - 2026-11-13 - The demand-side record moved past the one-browser-one-agent framing this note carried since creation, re-grounded in the spec repo's implementation-status page: ChatGPT Desktop has supported WebMCP since 2026-08-26, Edge 150 runs its own origin trial, Brave moves Leo AI chat from experimental to default-on with Brave 1.102.2 (expected 2027-01-05, #383), and Meta AI on Ray-Ban Display is listed as coming soon, while the standards-position pages say the cross-browser fight is unresolved (Mozilla neutral since 2026-05-28, WebKit oppose with duplication, privacy, security, venue, and API-design concerns among others); the What-it-is browser sentence, the intro claim, the Status demand-side paragraph, the lead caution, and the Bottom-line claim moved with the record; the draft stays at its 2026-11-11 revision with no spec commits since, and open issues refreshed to 128 as of 2026-11-13.
+- 2026-11-15 - Rotation re-verification: every cited URL re-fetched live with no dead sources (the commit URLs through the GitHub API); the report page's date stamp moved to 2026-11-13 behind the only default-branch commit since the recorded 2026-11-11 revision (#381, the continuations explainer aligned with the Blink implementation, +113/-68, no spec-source commit behind the stamp), the implementation-status table re-confirmed (Brave default-on from 1.102.2 expected January 5, 2027, ChatGPT Desktop supported, the Chrome 149 origin trial live), the Mozilla neutral and WebKit oppose positions re-confirmed through the issues API (both issues closed with their position labels), and open issues refreshed to 138 as of 2026-11-15.
 
 ## See also
 
@@ -94,8 +95,8 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 
 ## References
 
-- https://webmachinelearning.github.io/webmcp/ - the Draft Community Group Report (2026-11-11 revision): `document.modelContext` API, the cross-origin `exposedTo`/`fromOrigins` opt-in, permissions policy, and the full security considerations section
-- https://raw.githubusercontent.com/webmachinelearning/webmcp/main/implementation-status.md - the per-browser and per-agent status table: Brave supported in Leo AI chat from 1.102.2 (expected 2027-01-05), ChatGPT Desktop supported, the Chrome 149 and Edge 150 origin trials, Meta Ray-Ban Display coming soon, and the Firefox and Safari standards-position links (fetched 2026-11-13)
+- https://webmachinelearning.github.io/webmcp/ - the Draft Community Group Report (report page stamped 2026-11-13 behind an explainer-only commit, newest spec-text revision 2026-11-11): `document.modelContext` API, the cross-origin `exposedTo`/`fromOrigins` opt-in, permissions policy, and the full security considerations section (re-fetched 2026-11-15)
+- https://raw.githubusercontent.com/webmachinelearning/webmcp/main/implementation-status.md - the per-browser and per-agent status table: Brave supported in Leo AI chat from 1.102.2 (expected 2027-01-05), ChatGPT Desktop supported, the Chrome 149 and Edge 150 origin trials, Meta Ray-Ban Display coming soon, and the Firefox and Safari standards-position links (fetched 2026-11-13, re-fetched 2026-11-15)
 - https://github.com/webmachinelearning/webmcp/commit/56b8e7a7 - the 2026-11-12 commit "Update Leo AI chat WebMCP support from experimental to default (#383)" behind Brave's move (fetched 2026-11-13)
 - https://github.com/mozilla/standards-positions/issues/1412 - Mozilla's WebMCP standards position, labeled neutral (issue created 2026-05-28, fetched 2026-11-13)
 - https://github.com/WebKit/standards-positions/issues/670 - WebKit's WebMCP standards position, labeled oppose with duplication, internationalization, privacy, security, venue, use-case, portability, API-design, and user-consent concerns (issue created 2026-05-28, fetched 2026-11-13)

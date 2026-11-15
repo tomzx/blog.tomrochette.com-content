@@ -1,7 +1,7 @@
 ---
 title: LongMemory
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, temporal, sqlite, self-hosted, mcp]
 readability: 3
@@ -76,6 +76,7 @@ Not for anyone needing a hosted tier, a proven-at-scale engine, or a Python SDK 
 - 2026-10-29 - Rotation re-verification: every cited URL re-fetched live (repository API and page, README, license, npm, the PyPI simple index, the Show HN thread), no facts reversed; the contributor count moved to 51 by API (the README carries a contributors table again), the README's documented surface grew (multilingual recall, the answer_from_evidence adapter, governed assets, new integrations and deployment targets) while the npm train stays frozen at 1.3.3, the PyPI SDK 404 re-confirmed 2026-10-29, and the quiet record now reads as no push since 2026-10-18.
 - 2026-11-04 - Rotation re-verification: every cited URL re-fetched live (repository API, README, license, npm, the PyPI simple index, the Show HN thread), no facts changed; the npm train stays frozen at 1.3.3, the PyPI SDK 404 re-confirmed 2026-11-04, and the repository stays quiet with no push since 2026-10-18.
 - 2026-11-11 - Rotation re-verification: every cited URL re-fetched live (repository API and page, README, license, npm, the PyPI simple index, the Show HN thread), one fact changed: the push drought broke again with the community claims fix merged 2026-11-09/10 (claims now kept on every line of a note) and the contributor README refresh, while npm stays frozen at 1.3.3 and the PyPI SDK 404 re-confirms on 2026-11-11.
+- 2026-11-15 - Rotation re-verification: every cited URL re-fetched live (repository API, README, license, npm, the PyPI simple index, the Show HN thread), no facts changed: npm stays frozen at 1.3.3 (modified 2026-08-31), the PyPI SDK 404 re-confirms on 2026-11-15, and the repository stays quiet with no push since 2026-11-10.
 
 ## See also
 
