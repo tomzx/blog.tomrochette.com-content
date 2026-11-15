@@ -1,7 +1,7 @@
 ---
 title: Instructor
 created: 2026-08-24
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, pydantic, validation]
 readability: 3
@@ -25,7 +25,7 @@ It also streams partial objects, iterates lists, exposes hooks for logging and m
 ## Status
 
 **Active and mainstream.**
-The repository shows about 14.0k stars and 1,672 commits as of 2026-10-15, and PyPI shows release 1.17.0 uploaded September 9, 2026, following 1.16.0 on August 27, in a cadence of monthly-plus releases stretching back to 2023; the pushed date has moved to 2026-11-14, where the default branch's newest commits are the unreleased 1.18 line's 2026-11-14 OpenAI performance work (a strict-schema copying speedup and sync partials yielded as chunks arrive) stacked past that line's 2026-11-06 Decisions batch, still unreleased past 1.17.0 (GitHub API, as of 2026-11-14).
+The repository shows about 14.0k stars and 1,672 commits as of 2026-10-15, and PyPI shows release 1.17.0 uploaded September 9, 2026, following 1.16.0 on August 27, in a cadence of monthly-plus releases stretching back to 2023; the pushed date has moved to 2026-11-15, where the default branch's newest commit is the unreleased 1.18 line's 2026-11-15 community batch (CLI, batch, token limits, provider, and DSL fixes, #3056) stacked past that line's 2026-11-14 OpenAI performance work, still unreleased past 1.17.0 (GitHub API, as of 2026-11-15).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=567-labs/instructor&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ The repository shows about 14.0k stars and 1,672 commits as of 2026-10-15, and P
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=567-labs/instructor&type=date&legend=top-left" />
 </picture>
 
-The README claims 3M+ monthly downloads and use inside OpenAI, Google, Microsoft, and AWS teams; PyPI counters with roughly 9.8M downloads over the last month as of 2026-11-14 (9,829,816, the rolling window up again from the 8,516,567 that held flat for seven consecutive checks after the steep September slide from roughly 22M, a window swing with no release in between), so the README claim remains conservative and the collapse stays paused.
+The README claims 3M+ monthly downloads and use inside OpenAI, Google, Microsoft, and AWS teams; PyPI counters with roughly 9.7M downloads over the last month as of 2026-11-15 (9,726,757, the rolling window easing from the 9,829,816 of 2026-11-14 with no release in between, no trend read; the window had risen from the 8,516,567 that held flat for seven consecutive checks after the steep September slide from roughly 22M), so the README claim remains conservative.
 OpenAI publicly credited Instructor as inspiration for its native SDK structured-output helpers at the August 2024 Structured Outputs launch, and the project's own README now steers agent use cases to PydanticAI, the Pydantic team's agent runtime.
 An unreleased 1.18 consolidating on the main branch since 2026-10-10 adds OpenAI Decisions support under shared provider contracts, extending the validate-and-retry layer to the vendor's bounded-decision endpoint alongside the structured-output surfaces; the 2026-11-03 fixes (Bedrock tool choice, cache envelope restoration, opt-in response logging) and the 2026-11-06 Decisions docs and native-client support joined the same line without a release.
 
@@ -87,6 +87,7 @@ Not for teams that need agents, evals, or hard latency budgets.
 - 2026-11-11 - Volatile re-verification after the pushed_at move to 2026-11-10: branch activity, the default branch's newest commits still the 2026-11-06 unreleased 1.18-line work, PyPI still at 1.17.0, and monthly downloads re-read at 8,516,567, flat for a seventh consecutive check.
 - 2026-11-13 - Volatile re-verification after the pushed_at move to 2026-11-12: branch activity, the default branch's newest commits still the 2026-11-06 unreleased 1.18-line work, PyPI still at 1.17.0, and monthly downloads re-read at 9,807,511, the rolling window up from the 8,516,567 that had held flat for seven checks (no release in between, no trend read).
 - 2026-11-14 - Volatile re-verification after the pushed_at move to 2026-11-14: the default branch gained two unreleased 1.18-line OpenAI performance commits (a strict-schema copying speedup and sync partials yielded as chunks arrive), PyPI still at 1.17.0, and monthly downloads re-read at 9,829,816, the second consecutive rise with no release in between (no trend read).
+- 2026-11-15 - Volatile re-verification after the pushed_at move to 2026-11-15: the default branch gained the unreleased 1.18 line's community batch (CLI, batch, token limits, provider, and DSL fixes, #3056), PyPI still at 1.17.0, and monthly downloads re-read at 9,726,757 (fetched 2026-11-15, the rolling window easing from 9,829,816 with no release in between, no trend read).
 
 ## See also
 
@@ -97,9 +98,9 @@ Not for teams that need agents, evals, or hard latency budgets.
 
 ## References
 
-- https://github.com/567-labs/instructor - repo: stars, license, retry and streaming features, PydanticAI positioning (as of 2026-10-15; re-fetched 2026-11-14 with pushed_at 2026-11-14 and the default branch's newest commits the unreleased 1.18 line's 2026-11-14 OpenAI performance work)
+- https://github.com/567-labs/instructor - repo: stars, license, retry and streaming features, PydanticAI positioning (as of 2026-10-15; re-fetched 2026-11-15 with pushed_at 2026-11-15 and the default branch's newest commit the unreleased 1.18 line's 2026-11-15 community batch)
 - https://python.useinstructor.com/ - official docs: from_provider interface, reasking, hooks, provider list (fetched 200, 2026-10-15; re-fetched 2026-11-01, the PydanticAI steering statement unchanged)
 - https://pypi.org/project/instructor/ - release cadence (1.17.0, September 2026, the latest as of 2026-10-15; re-read 2026-11-13, unchanged)
-- https://pypistats.org/api/packages/instructor/recent - the monthly download figure (9,829,816 as of 2026-11-14, up from the 8,516,567 that held flat for seven checks; fetched 2026-11-14)
+- https://pypistats.org/api/packages/instructor/recent - the monthly download figure (9,726,757 as of 2026-11-15, easing from the 9,829,816 of 11-14 after the 8,516,567 flat stretch; fetched 2026-11-15)
 - https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent record that OpenAI credited Instructor as inspiration for its SDK helpers (fetched 200, 2026-10-15; re-fetched 2026-11-01)
 - https://platform.openai.com/docs/guides/structured-outputs - the native strict mode that changed Instructor's niche (fetched 200, 2026-10-15; re-fetched 2026-11-01)

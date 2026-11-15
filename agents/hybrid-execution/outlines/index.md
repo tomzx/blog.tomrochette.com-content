@@ -1,7 +1,7 @@
 ---
 title: Outlines
 created: 2026-08-24
-updated: 2026-11-11
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, structured-outputs, constrained-decoding, open-source, llm=glm-5.3-flash]
 readability: 3
@@ -76,6 +76,7 @@ Not for teams that only ever call OpenAI or Anthropic and never serve their own 
 - 2026-10-30 - Rotation re-verification: all seven references re-fetched and live, repository unchanged (last pushed 2026-09-21), and the vLLM docs re-confirmed unchanged (xgrammar and guidance the named backends, the guided_* removal note intact, Outlines mentioned only for Rust-style regex compatibility); nothing else changed.
 - 2026-11-05 - Rotation re-verification: all seven references re-fetched and live (the vLLM docs URL now 302-redirects to its extensionless path, 200, with xgrammar and guidance still the named backends and the guided_* removal note intact), repository unchanged (last pushed 2026-09-21); nothing else changed.
 - 2026-11-11 - Rotation re-verification: all seven references re-fetched and live (the vLLM docs URL now lands directly on its extensionless path, 200, with xgrammar and guidance still the named backends and the guided_* removal note intact, Outlines still named only for Rust-style regex compatibility), repository unchanged (last pushed 2026-09-21); nothing else changed.
+- 2026-11-15 - Rotation re-verification: all seven references re-fetched and live (the repository still pushed 2026-09-21, the backends feature doc still naming outlines-core, llguidance, and xgrammar, the vLLM docs unchanged on its extensionless path, the XGrammar repository active with the May 2026 XGrammar-2 release record intact); nothing else changed.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Greptile
 created: 2026-08-24
-updated: 2026-11-08
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, code-review, code-retrieval, developer-tools]
 readability: 3
@@ -30,7 +30,7 @@ Behind it is Tabnam, Inc., a YC W24 company founded in 2023 by three Georgia Tec
 The homepage claims 22,000+ teams and names Nvidia, Brex, Substack, PostHog, Zapier, and Retool as users (vendor claim as of 2026-10-24).
 Funding: $4M seed led by Initialized Capital (June 2024), a $25M Series A led by Benchmark Capital (September 23, 2025) alongside YC and Initialized, then a $50M Series B led by Menlo Ventures announced October 19, 2026, valuing the company at $750M ($79M total raised), with Jump Trading, Wing, Operator Collective, Benchmark, YC, Browder Capital, and Initialized participating and Menlo's Deedy Das joining the board; the announcement claims Greptile now reviews and tests more than 1 percent of all pull requests opened on GitHub daily, with Nvidia, Coinbase, Decagon, and Vanta named as users.
 The YC directory lists a team of about 35.
-Release cadence is real: v3 rewrite (September 2025), TREX (June 2026), v5 (August 5, 2026), with the Series A post citing 500M+ lines reviewed that September month.
+The release cadence is steady: v3 rewrite (September 2025), TREX (June 2026), v5 (August 5, 2026), with the Series A post citing 500M+ lines reviewed that September month, and on November 9, 2026 it launched a PR inbox that brings merge checks (CI status, conflicts, required approvals, and the Greptile review in one place), a code tour over grouped edits, per-PR chat, and bulk approve and merge, moving the vendor from review comments into the review workflow itself.
 
 ## Strengths
 
@@ -84,6 +84,7 @@ My disagreeable claim: the graph index everyone credits Greptile for is the leas
 - 2026-10-24 - Rotation re-verification: recorded the $50M Series B led by Menlo Ventures (announced October 19, 2026, $750M valuation, Deedy Das joining the board) in Status, and the Pro restructure from $30/seat to $1-per-credit with no seat fees and a 500-credits startup program in Pricing with a Price history row; every cited URL re-fetched live.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live; all prices unchanged (Starter free, Pro $1 per credit with no seat fees, Base 1, Plus 3, Apex 10, the 500-credit startup program), the 22,000-plus-teams homepage claim still displayed, and the Series B, Plus-and-Apex, and Series A posts unchanged; the Enterprise row now also names GitLab Self-Managed, Bitbucket Data Center, Gitea, and Perforce P4 beside GitHub, recorded in What it is.
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched live; all prices unchanged (Starter free for one developer with 50 credits, Pro $1 per credit with no seat fees, Base 1, Plus 3, Apex 10, the startup program's 500 free credits a month), the 22,000-plus-teams homepage claim and the Enterprise forge row (GitLab Self-Managed, Bitbucket Data Center, Gitea, Perforce P4) still displayed, the YC directory still listing a team of 35 and Active status, and both HN threads unchanged (253 and 17 points); no factual drift.
+- 2026-11-15 - Rotation re-verification: every cited URL re-fetched live; all prices unchanged (Starter free, Pro $1 per credit with no seat fees, Base 1, Plus 3, Apex 10, the 500-credit startup program), the 22,000-plus-teams homepage claim and the Enterprise forge row still displayed, the YC directory still listing a team of 35 and Active status, both HN threads unchanged (253 and 17 points), and the November 9, 2026 PR-inbox launch (merge checks, code tour, per-PR chat, bulk approve and merge) recorded in Status.
 
 ## See also
 
@@ -95,12 +96,13 @@ My disagreeable claim: the graph index everyone credits Greptile for is the leas
 
 ## References
 
-- https://greptile.com/ - product surface, customer list, team count, and pricing FAQ as claimed by the vendor, re-fetched 2026-10-24, 2026-11-01, and 2026-11-08 (22,000+ teams still displayed)
-- https://www.greptile.com/pricing - the plan table and the Base (1), Plus (3), Apex (10) credit FAQ, re-fetched 2026-10-24, 2026-11-01, and 2026-11-08: Pro still $1 per credit with no seat fees, the $30/seat price gone, the startup program's 500 free credits standing, and the Enterprise row naming GitHub Enterprise Server and Cloud, GitLab Self-Managed, Bitbucket Data Center, Gitea, and Perforce P4
-- https://www.greptile.com/blog/series-b - the October 19, 2026 Series B post: $50M led by Menlo Ventures, $750M valuation, participant list, Deedy Das joining the board, the 1-percent-of-GitHub-PRs claim and the Coinbase, Decagon, and Vanta customer names, fetched 2026-10-24, re-fetched unchanged 2026-11-01 and 2026-11-08
-- https://www.greptile.com/blog/introducing-plus-and-apex - the September 25, 2026 review-depth-tier launch post, re-fetched 2026-10-24 and unchanged 2026-11-01 and 2026-11-08
-- https://www.greptile.com/blog/series-a - $25M Series A led by Benchmark, v3 claims, 500M+ lines reviewed, re-fetched unchanged 2026-11-01 and 2026-11-08
-- https://www.ycombinator.com/companies/greptile - YC W24 batch, founding year, founders, team size (35 employees, Active), re-fetched 2026-11-01 and 2026-11-08
-- https://techcrunch.com/2024/06/06/greptile-raises-4m-to-build-an-ai-code-base-expert/ - $4M seed, API-first origin, customer counts at seed, re-fetched 2026-11-01 and 2026-11-08
-- https://news.ycombinator.com/item?id=39604961 - launch thread: AST parsing, docstring embeddings, agentic search, and early criticism, re-fetched 2026-11-01 and 2026-11-08 (253 points)
-- https://news.ycombinator.com/item?id=47966075 - the critical "predatory pricing" thread and OSS-billing allegations, re-fetched 2026-11-01 and 2026-11-08 (17 points, April 30, 2026)
+- https://greptile.com/ - product surface, customer list, team count, and pricing FAQ as claimed by the vendor, re-fetched 2026-10-24, 2026-11-01, 2026-11-08, and 2026-11-15 (22,000+ teams still displayed)
+- https://www.greptile.com/pricing - the plan table and the Base (1), Plus (3), Apex (10) credit FAQ, re-fetched 2026-10-24, 2026-11-01, 2026-11-08, and 2026-11-15: Pro still $1 per credit with no seat fees, the $30/seat price gone, the startup program's 500 free credits standing, and the Enterprise row naming GitHub Enterprise Server and Cloud, GitLab Self-Managed, Bitbucket Data Center, Gitea, and Perforce P4
+- https://www.greptile.com/blog/series-b - the October 19, 2026 Series B post: $50M led by Menlo Ventures, $750M valuation, participant list, Deedy Das joining the board, the 1-percent-of-GitHub-PRs claim and the Coinbase, Decagon, and Vanta customer names, fetched 2026-10-24, re-fetched unchanged 2026-11-01, 2026-11-08, and 2026-11-15
+- https://www.greptile.com/blog/code-review-is-evolving - the November 9, 2026 PR-inbox launch post: merge checks (CI status, conflicts, required approvals, and the Greptile review in one place), the code tour, per-PR chat, and bulk approve and merge, fetched 2026-11-15
+- https://www.greptile.com/blog/introducing-plus-and-apex - the September 25, 2026 review-depth-tier launch post, re-fetched 2026-10-24 and unchanged 2026-11-01, 2026-11-08, and 2026-11-15
+- https://www.greptile.com/blog/series-a - $25M Series A led by Benchmark, v3 claims, 500M+ lines reviewed, re-fetched unchanged 2026-11-01, 2026-11-08, and 2026-11-15
+- https://www.ycombinator.com/companies/greptile - YC W24 batch, founding year, founders, team size (35 employees, Active), re-fetched 2026-11-01, 2026-11-08, and 2026-11-15
+- https://techcrunch.com/2024/06/06/greptile-raises-4m-to-build-an-ai-code-base-expert/ - $4M seed, API-first origin, customer counts at seed, re-fetched 2026-11-01, 2026-11-08, and 2026-11-15
+- https://news.ycombinator.com/item?id=39604961 - launch thread: AST parsing, docstring embeddings, agentic search, and early criticism, re-fetched 2026-11-01, 2026-11-08, and 2026-11-15 (253 points)
+- https://news.ycombinator.com/item?id=47966075 - the critical "predatory pricing" thread and OSS-billing allegations, re-fetched 2026-11-01, 2026-11-08, and 2026-11-15 (17 points, April 30, 2026)

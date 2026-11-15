@@ -1,7 +1,7 @@
 ---
 title: OpenSandbox
 created: 2026-09-16
-updated: 2026-11-13
+updated: 2026-11-15
 readability: 3
 audience_notes: >
   Engineers choosing a self-hosted sandbox platform for AI agent workloads such as code execution, GUI agents, or agent evaluations.
@@ -22,7 +22,7 @@ An ingress gateway with per-sandbox egress controls handles network policy, a Cr
 ## Status
 
 **Very active and exceptionally fast-growing for a nine-month-old repo, with traction that is vendor-driven rather than organic Hacker News adoption.**
-15,883 stars and 1,472 forks as of 2026-10-16, repo created 2025-12-17, pushed 2026-11-13, on a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM, with latest stable release 1.2.1 on 2026-11-13, the patch-line umbrella cut shipping server, CLI, charts, images, and all five SDK packages together after release-1.2.1-rc.1 (2026-11-04) and release-1.2.1-rc.2 (2026-11-11).
+15,883 stars and 1,472 forks as of 2026-10-16, repo created 2025-12-17, pushed 2026-11-15, on a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM, with latest stable release 1.2.1 on 2026-11-13, the patch-line umbrella cut shipping server, CLI, charts, images, and all five SDK packages together after release-1.2.1-rc.1 (2026-11-04) and release-1.2.1-rc.2 (2026-11-11).
 The 1.1.1 cut fixes the broken 1.1.0 opensandbox-server wheel (the committed FastPath gRPC stubs now ship in the package, and PyPI is immutable so the fix lives on this line) and adds identity-bound filesystem operations across all five SDKs, multi-tenant isolation in a shared Kubernetes namespace, a typed upstream-proxy egress configuration, and pause/resume bridged to the kubernetes-sigs/agent-sandbox CRD's operating mode.
 The 1.2.0 line opened with release-1.2.0-rc.1 on 2026-10-15, carrying OSEP-0024 auto-pause and wake-on-access for fast sandboxes end to end (the opt-in lifecycle.idlePolicy field, the server-side idle sweeper, and the SDK wake-retry contract), an opt-in experimental egress-sidecar revision with live credential-bound Vault admission, an SDK fix that stops capping file transfers at the 30-second request timeout, and a first optional web console slice; SDK and CLI packages publish only at the stable bump.
 Release-1.2.0-rc.2 followed on 2026-10-21 with the Credential Vault (OSEP-0022) landed end to end for fast sandboxes: the egress sidecar holds the vault with durable per-subject persistence and sealed snapshot transfer across pause and resume, the server exposes a user-reachable vault API whose reads never return credential values, and a pool-pinned MITM CA terminates the inspected traffic, while the classic profile gains port-scoped NetworkRules that fast sandboxes reject fail-closed until their enforcement path ships.
@@ -84,6 +84,7 @@ Not for anyone who needs hardened isolation by default, an independently audited
 - 2026-11-07 - Recorded release-1.2.1-rc.1 (2026-11-04, the first patch-line candidate cut from 1.2.0: OSEP-0025 Credential Vault Exchange with the pluggable per-request header resolver fail-closed across egress, server, and all five SDKs, execd atomic uploads, digest-validated rootfs snapshots, Kubernetes create-timeout diagnostics, and informer-cache scoping, images published but packages held for the stable bump), with the repository pushed 2026-11-07.
 - 2026-11-08 - Volatile refresh for the post-rc train (OSEP-0023 fast-sandbox subject-snapshot mutations, port-scoped egress rules enforced per subject in the fast-sandbox profile, and the PATCH policy-merge fixes keeping untouched same-scope rules), with release-1.2.1-rc.1 still the newest release and the repository pushed 2026-11-08.
 - 2026-11-13 - Recorded the stable 1.2.1 release of 2026-11-13 (the umbrella cut publishing server, CLI, charts, images, and all five SDK packages at 1.2.1: OSEP-0025 exchange credentials and OSEP-0026 resource-aware oversubscription stable with a Kotlin and C# recompile requirement, multi-version managed Firecracker bundles with exact-recorded-version restores, staged uploads and controller-restart pod recovery, the server-proxied data path in maintenance mode, unknown-field rejection, Docker writable-layer disk quotas, SHA-256-pinned OCI template artifacts, and a browser PTY console shell), with the repository pushed 2026-11-13.
+- 2026-11-15 - Volatile refresh: release-1.2.1 still the newest release, with the post-1.2.1 fix batch landing on main on 2026-11-15 (linear-time legacy SSE normalization in the Python SDK, host-mapped sandbox ports dialed at docker.publish_host, C# endpoint-cache invalidation scoped to the in-flight key, signed port segments rejected in ingress routes, pool capacities rejected when bufferMin exceeds bufferMax, execd verifying file identity before using birth time, and the CLI showing the parser error for a bad vault payload), and the repository pushed 2026-11-15.
 
 ## See also
 

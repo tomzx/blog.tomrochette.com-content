@@ -1,7 +1,7 @@
 ---
 title: OpenAI Structured Outputs
 created: 2026-08-24
-updated: 2026-11-11
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, openai, json-schema]
 readability: 3
@@ -81,6 +81,7 @@ Not for schemas that genuinely need numeric ranges, pervasive optional keys, or 
 - 2026-10-27 - Rotation re-verification: all six references re-fetched and live, the guide still leading with gpt-6-astra and carrying the Ruby Sorbet helper, the pricing example re-read unchanged at $0.10/$0.50 standard with Batch at half price; no claims changed.
 - 2026-11-01 - Rotation re-verification: all six references re-fetched and live, the guide still leading with gpt-6-astra and carrying the Ruby Sorbet helper, the pricing page re-read with gpt-6-luna unchanged at $0.10/$0.50 standard and $0.05/$0.25 Batch, and the DevDay report and Willison post holding; no claims changed.
 - 2026-11-11 - Rotation re-verification: all six references re-fetched and live, the guide still leading with gpt-6-astra and carrying the Ruby Sorbet helper, the pricing example re-read unchanged at $0.10/$0.50 standard and $0.05/$0.25 Batch, and the DevDay report and Willison post holding; the cookbook and pricing references canonicalized after their hosts moved (cookbook.openai.com now 301-redirects to developers.openai.com/cookbook, platform.openai.com/docs/pricing to developers.openai.com/api/docs/pricing, both landing on the same content).
+- 2026-11-15 - Rotation re-verification: all six references re-fetched and live, the guide still leading with gpt-6-astra and carrying the Ruby Sorbet helper, the pricing page re-read with gpt-6-luna unchanged at $0.10/$0.50 standard (Batch at half price; the table now also carries Fast and Ultrafast tier rows for the same model), and the cookbook, DevDay report, and Willison post holding; no claims changed.
 
 ## See also
 

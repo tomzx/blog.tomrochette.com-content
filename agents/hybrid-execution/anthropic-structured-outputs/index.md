@@ -1,7 +1,7 @@
 ---
 title: Anthropic structured outputs
 created: 2026-08-24
-updated: 2026-11-08
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, anthropic, tool-calling]
 readability: 3
@@ -26,7 +26,7 @@ Before the native feature, the documented workaround was forcing a tool via `too
 
 **Active, GA since February 4, 2026.**
 The beta (header `structured-outputs-2025-11-13`) launched November 14, 2025 on Sonnet 4.5 and Opus 4.1, Haiku 4.5 followed on December 4, 2025, and GA brought Sonnet 4.5, Opus 4.5, and Haiku 4.5 to the platform and Bedrock with support for more complex schemas.
-Current docs lead their examples with Opus 5.5 and list the feature across the fable-5, mythos-5, and opus-5 families (5.1 variants plus a Mythos Preview tier included) plus their 4.5- through 4.8-generation predecessors, with Haiku 5.5 the newest addition alongside Sonnet 5.5, Opus 5.5, Opus 4.6, Sonnet 5, Sonnet 4.6, and Sonnet 4.5, on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry (the list re-verified unchanged on 2026-10-24, holding since Haiku 5.5 joined after 2026-09-29), and the earlier note limiting Foundry to Anthropic-hosted deployments is gone from the docs.
+Current docs lead their examples with Opus 5.5 and list the feature across nineteen models as of 2026-11-15: the fable-5 and mythos-5 families including the 5.2 point releases that joined the list between the 2026-11-08 and 2026-11-15 reads (the first movement since Haiku 5.5 on 2026-10-08), the 5.1 variants, the Mythos Preview tier, Opus 4.5 through 5.5, Sonnet 4.5 through 5.5, and Haiku 4.5 and 5.5, on the Claude API, Amazon Bedrock, AWS, Google Cloud (the docs' platform metadata now splitting it into Anthropic-managed and Google-managed entries), and Microsoft Foundry, and the earlier note limiting Foundry to Anthropic-hosted deployments is gone from the docs.
 Independent tooling tracked it immediately: Simon Willison's llm-anthropic plugin added support within a day of the beta and kept the tool-call workaround for older models.
 
 ## Strengths
@@ -76,6 +76,7 @@ Not for schemas that lean on numeric constraints, recursion, or dozens of option
 - 2026-10-30 - Rotation re-verification: all five cited URLs re-fetched and live, the supported-model list unchanged on both docs pages (the same seventeen models across Claude API, Bedrock, Google Cloud, and Foundry), the launch blog and Willison post holding, and the tool-use token table still reading 286 tokens for Opus 5 and 5.5 and 675 for Opus 4.7 with auto; nothing else changed.
 - 2026-11-01 - Rotation re-verification: all five cited URLs re-fetched and live, both docs pages carrying the same seventeen-model supported list across Claude API, Bedrock, Google Cloud, and Foundry, the strict-tool-use page unchanged (computer and browser toolsets still rejecting strict: true, the PHI caching caveat intact), the launch blog and Willison post holding, and the token table still 286 for Opus 5 and 5.5 and 675 for Opus 4.7 with auto; nothing else changed.
 - 2026-11-08 - Rotation re-verification: all five cited URLs re-fetched and live, the structured-outputs page still carrying the supported list with Haiku 5.5 the newest addition, the strict-tool-use page unchanged, the launch blog and Willison post holding, and the tool-use token table still reading 286 for Opus 5 and 5.5 and 675 for Opus 4.7 with auto; nothing else changed.
+- 2026-11-15 - Rotation re-verification: all five cited URLs re-fetched and live, and the supported-model list grew from seventeen to nineteen with the fable-5-2 and mythos-5-2 point releases joining (the first movement since Haiku 5.5 on 2026-10-08); the docs' platform metadata now lists Claude Platform on AWS and splits Google Cloud into Anthropic-managed and Google-managed entries; the schema subset, complexity limits, enum-capitalization caveat, and the tool-use token table (286 for Opus 5 and 5.5, 675 for Opus 4.7, auto) all unchanged.
 
 ## See also
 

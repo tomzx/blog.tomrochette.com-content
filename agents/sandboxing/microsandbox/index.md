@@ -1,7 +1,7 @@
 ---
 title: Microsandbox
 created: 2026-10-07
-updated: 2026-11-14
+updated: 2026-11-15
 readability: 3
 audience_notes: >
   Engineers who want hardware-isolated sandboxes with container-style ergonomics on their own machines, including letting agents spawn VMs themselves.
@@ -25,7 +25,7 @@ The project carries a Y Combinator badge and has moved organizations more than o
 
 ## Status
 
-Large by this category's standards and still shipping weekly: 8,704 stars as of 2026-10-23, 183 open issues and PRs, pushed 2026-11-14, created 2024-10-03.
+Large by this category's standards and still shipping weekly: 8,704 stars as of 2026-10-23, 189 open issues and PRs as of 2026-11-15, pushed 2026-11-15 (branch activity; main's newest commit is the 2026-11-12 Ubuntu package-mirror fallback), created 2024-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for anyone needing audited claims or a stable 1.0 API, and not for teams tha
 - 2026-11-12 - Recorded v0.7.14 (2026-11-08, the stable cut of the previously recorded post-release train: inbound TCP queuing with admission metrics, the CLI failure repairs, Windows reparse-point skipping, legacy storage recovery, preserved ssh failed-command outcomes, cloud SDK cleanup, and the libkrunfw 0.1.45 update) and the v0.7.15 bump on main (2026-11-11, unreleased), with the repository pushed 2026-11-11.
 - 2026-11-13 - Recorded v0.7.15 (2026-11-12, the stable cut of the opt-in candidate installs and publishing plus the per-file passthrough-mount host-operation cuts), with open issues and PRs at 175 and the repository pushed 2026-11-12.
 - 2026-11-14 - Volatile refresh: the post-v0.7.15 train continues on main unreleased, with open issues and PRs moving from 175 to 183 and the repository pushed 2026-11-14.
+- 2026-11-15 - Volatile refresh: v0.7.15 still the newest release, main's newest commit staying the 2026-11-12 Ubuntu package-mirror fallback while the repository-level push moved to 2026-11-15 on branch activity, and open issues and PRs moving from 183 to 189.
 
 ## See also
 

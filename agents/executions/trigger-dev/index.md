@@ -1,7 +1,7 @@
 ---
 title: Trigger.dev
 created: 2026-10-10
-updated: 2026-11-13
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, scheduling, durable-execution, workflow-automation]
 readability: 3
@@ -87,6 +87,7 @@ My disagreeable claim: calling Trigger.dev open source and self-hostable is only
 - 2026-11-07 - Refreshed the repository counters (1,526 forks as of 2026-11-07); v4.8.3 (2026-10-30) is still the newest release and the push still 2026-11-03.
 - 2026-11-11 - Recorded the v4.8.4 release (2026-11-10), moving the current-version claim from v4.8.3 (October 30), and refreshed the repository counters (1,526 to 1,527 forks, pushed 2026-11-10).
 - 2026-11-13 - Recorded the v4.8.5 release (2026-11-12), moving the current-version claim from v4.8.4 (November 10), and refreshed the repository counters (1,527 to 1,535 forks, pushed 2026-11-12).
+- 2026-11-15 - Fully re-verified in rotation with every cited URL re-fetched: the pricing tiers (Free $0, Hobby $10, Pro $50, Enterprise custom, per-second compute from $0.0000169 to $0.00068 plus $0.000025 per run) re-verified unchanged with no new price-history row, the self-hosted cloud-only feature table (checkpoints, warm starts, auto-scaling) and the v3 end-of-life cliff re-confirmed, the trigger surface (batches to 1,000, delays, TTLs, idempotency keys, debounce) and the cron timezone and window behavior with the free-plan hourly floor re-confirmed, the public-beta webhooks launch page (2026-10-26, 40+ providers, Standard Webhooks and Svix, up to 25 agents per event) re-confirmed, and the three HN launch threads (162, 745, and 172 points) re-confirmed; the counters re-verified unchanged (1,535 forks, pushed 2026-11-13, v4.8.5 still the newest release).
 
 ## See also
 
@@ -98,14 +99,14 @@ My disagreeable claim: calling Trigger.dev open source and self-hostable is only
 ## References
 
 - https://github.com/triggerdotdev/trigger.dev - repository scale, Apache-2.0 license, deployment model, as of 2026-10-13 (counters verified via the GitHub API the same run)
-- https://api.github.com/repos/triggerdotdev/trigger.dev - exact counters (16,532 stars pinned at their 2026-10-13 fetch, 1,535 forks, pushed 2026-11-12, created 2022-11-30; re-verified 2026-11-13) and the Apache-2.0 license
-- https://api.github.com/repos/triggerdotdev/trigger.dev/releases?per_page=5 - the v4.8.5 release (2026-11-12, re-fetched 2026-11-13) following v4.8.4 (2026-11-10) and v4.8.3 (2026-10-30) and v4.8.0 and v4.8.1 (both 2026-10-23)
-- https://trigger.dev/ - product surface, the agents pitch, the Apache-2.0 and self-hosting statements, and the Webhooks beta changelog banner (re-fetched 2026-10-30; the API Hero Ltd company footer last confirmed 2026-10-11)
-- https://trigger.dev/pricing - plan tiers, per-second machine rates, and the per-run invocation fee, as of 2026-10-11 (tiers re-verified unchanged 2026-10-30)
-- https://trigger.dev/docs/triggering - trigger functions, batches, delays, TTLs, idempotency keys, and debounce (re-fetched 2026-10-30)
-- https://trigger.dev/docs/tasks/scheduled - cron schedules, IANA timezones, load-spreading windows, and the free-plan hourly floor (re-fetched 2026-10-30)
-- https://trigger.dev/docs/self-hosting/overview - the self-hosted feature gap (no checkpoints, warm starts, or auto-scaling) and v3 end of life, the vendor's own table (critical source, re-fetched 2026-10-30)
-- https://trigger.dev/changelog/webhooks-beta - the public-beta inbound-webhooks launch (2026-10-26): 40+ named providers, Standard Webhooks and Svix support, signature verification, dedup, and routing to up to 25 agents per event
+- https://api.github.com/repos/triggerdotdev/trigger.dev - exact counters (16,532 stars pinned at their 2026-10-13 fetch, 1,535 forks, pushed 2026-11-13, created 2022-11-30; re-verified 2026-11-15) and the Apache-2.0 license
+- https://api.github.com/repos/triggerdotdev/trigger.dev/releases?per_page=5 - the v4.8.5 release (2026-11-12, re-fetched 2026-11-15) following v4.8.4 (2026-11-10) and v4.8.3 (2026-10-30) and v4.8.0 and v4.8.1 (both 2026-10-23)
+- https://trigger.dev/ - product surface, the agents pitch, the Apache-2.0 and self-hosting statements, and the Webhooks beta changelog banner (re-fetched 2026-11-15; the API Hero Ltd company footer last confirmed 2026-10-11)
+- https://trigger.dev/pricing - plan tiers, per-second machine rates, and the per-run invocation fee, as of 2026-10-11 (tiers re-verified unchanged 2026-11-15)
+- https://trigger.dev/docs/triggering - trigger functions, batches, delays, TTLs, idempotency keys, and debounce (re-fetched 2026-11-15)
+- https://trigger.dev/docs/tasks/scheduled - cron schedules, IANA timezones, load-spreading windows, and the free-plan hourly floor (re-fetched 2026-11-15)
+- https://trigger.dev/docs/self-hosting/overview - the self-hosted feature gap (no checkpoints, warm starts, or auto-scaling) and v3 end of life, the vendor's own table (critical source, re-fetched 2026-11-15)
+- https://trigger.dev/changelog/webhooks-beta - the public-beta inbound-webhooks launch (2026-10-26): 40+ named providers, Standard Webhooks and Svix support, signature verification, dedup, and routing to up to 25 agents per event (re-fetched 2026-11-15)
 - https://news.ycombinator.com/item?id=45250720 - the September 2025 Launch HN (162 points): YC W23, CRIU checkpointing, cloud-first direction
 - https://news.ycombinator.com/item?id=34610686 - the February 2023 v1 Show HN (745 points)
 - https://news.ycombinator.com/item?id=37750763 - the October 2023 V2 relaunch as a Temporal alternative (172 points)

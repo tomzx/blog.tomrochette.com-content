@@ -1,7 +1,7 @@
 ---
 title: Drop
 created: 2026-09-29
-updated: 2026-11-12
+updated: 2026-11-15
 readability: 3
 audience_notes: >
   Engineers on Linux who want OS-enforced isolation around coding agents and third-party programs without containers or virtual machines.
@@ -25,7 +25,7 @@ Install is a curl of a release binary for amd64 or arm64 plus the passt/pasta pa
 
 ## Status
 
-Young tool, older project, one strong launch: 385 stars as of 2026-10-13, 13 forks and 5 open issues as of 2026-10-18, created 2025-07-25, pushed 2026-11-10, latest release v0.3.2 on 2026-11-05.
+Young tool, older project, one strong launch: 385 stars as of 2026-10-13, 15 forks and 4 open issues as of 2026-11-15, created 2025-07-25, pushed 2026-11-10, latest release v0.3.2 on 2026-11-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=wrr/drop&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for macOS, and not as a hardened boundary for hostile code until the solo-ma
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched and alive (project site, README, sandbox-overview docs, the v0.3.1 release record, the 193-point launch thread); v0.3.1 remains the latest release, the commit train advanced through 2026-10-30 with the firewall gaining a RuleSet built from TOML inline rules plus denied-domain handling, and the repository pushed 2026-10-30.
 - 2026-11-07 - Recorded v0.3.2 (2026-11-05, the security fix for tilde-handled DROP_HOME and XDG_CONFIG_HOME settings that let a read-write sandbox rewrite Drop's config for a broader next-run grant, credited to reporter Aditya Sai, plus the ssh_config.d exclusion in the generated base.toml), v0.3.2 now the latest release, with the post-release firewall terminal-dialog train through 2026-11-06 and the repository pushed 2026-11-06.
 - 2026-11-12 - Volatile refresh for the post-release train: the firewall prompt work advanced through 2026-11-10 (DNS timeouts during interactive prompts fixed, terminal redraw signals when a prompt closes, multi-byte keys discarded), with v0.3.2 still the latest release and the repository pushed 2026-11-10.
+- 2026-11-15 - Rotation re-verification: every cited URL re-fetched and alive (project site, sandbox-overview docs, README, both release records, the 193-point launch thread); v0.3.2 (2026-11-05) still the latest release with the push holding at 2026-11-10, and forks and open issues refreshed to 15 and 4 as of 2026-11-15.
 
 ## See also
 
