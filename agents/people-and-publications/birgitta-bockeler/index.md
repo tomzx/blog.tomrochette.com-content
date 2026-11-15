@@ -1,7 +1,7 @@
 ---
 title: Birgitta Böckeler
 created: 2026-10-04
-updated: 2026-10-31
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, consulting, agentic-engineering, tdd, harness-engineering, spec-driven-development]
 readability: 3
@@ -10,13 +10,14 @@ audience_notes: >
   Assumes you know what TDD, spec-driven development, and a coding-agent harness are.
 ---
 
-Birgitta Böckeler is a Distinguished Engineer for AI-assisted delivery at Thoughtworks whose "Exploring Generative AI" memo series on martinfowler.com is the longest-running practitioner evaluation record in this field, running since July 2023.
+Birgitta Böckeler is the AI-assisted-delivery specialist who spent two decades consulting at Thoughtworks, most recently as a Distinguished Engineer, before joining the context-engineering startup Unblocked in October 2026, and whose "Exploring Generative AI" memo series on martinfowler.com is the longest-running practitioner evaluation record in this field, running since July 2023.
 
-**She is the methodical evaluator of the agentic-coding wave: a consultant who runs small, self-skeptical experiments on her own craft's sacred cows, published under the most durable byline in software, with the boundary that her sample sizes are small and her employer sells the transformation she studies.**
+**She is the methodical evaluator of the agentic-coding wave: a career consultant turned vendor engineer who runs small, self-skeptical experiments on her own craft's sacred cows, published under the most durable byline in software, with the boundary that her sample sizes are small and her employers sell the transformation she studies.**
 
 ## What it is
 
 A memo series, a set of long-form articles, and a constant talk circuit, backed by more than 20 years as a developer, architect, and technical leader.
+In October 2026 she left Thoughtworks for Unblocked, a startup whose context engine wires a codebase's code, chat, and decision history into AI tools, and she opened her tenure there with a first-person write-up of her own AI-enabled onboarding.
 The memo series has run on martinfowler.com since the first memo, "The toolchain" (2023-07-26), and holds 33 memos as of 2026-10-22, most authored by her and the rest by Thoughtworks colleagues under the same franchise.
 Her 2026 solo pieces are the substantive layer: "Context Engineering for Coding Agents" (2026-02-05), "Harness engineering for coding agent users" (2026-04-02), "Maintainability sensors for coding agents" (2026-05-27), the local-models pair (2026-07-07 and 2026-07-08), and "TDD inside the agent loop - theater or actual value?" (2026-08-10).
 She iterates a "State of Play: AI Coding" talk at QCon London, AI DevCon London, and other stages, and reached practitioners through a June 2025 guest post on The Pragmatic Engineer and interviews including Software Engineering Radio 730 (July 2026).
@@ -24,8 +25,9 @@ Her own site, birgitta.info, indexes all of it by topic.
 
 ## Status
 
-Active and current as of 2026-10-22.
-Her newest piece is the TDD evaluation (2026-08-10), and the series continued with colleagues' memos after it, the latest being "Are Harnesses Worth the Cost?" (Naresh Jain, 2026-10-13) on whether a behavioral harness improves cost-optimized coding models.
+Active and current as of 2026-11-15.
+Her newest piece is her own: "Onboarding to Unblocked, with Unblocked" (2026-10-20, on her new employer's blog), the first-person record of her first coding task after joining Unblocked, which she credits with letting her contribute almost autonomously from day one, with stated caveats about noise and misread context.
+On martinfowler.com, her newest solo piece is still the TDD evaluation (2026-08-10), and the series continued with colleagues' memos after it, the latest being "Are Harnesses Worth the Cost?" (Naresh Jain, 2026-10-13), the count holding at 33 memos as of this run.
 The TDD evaluation is her most consequential claim: across five batches of paired TDD and non-TDD runs judged blind by Opus 4.8, TDD showed no discernible quality benefit and cost roughly 3 to 8.5 times the tokens, and she states she has stopped telling her coding agents to write tests first.
 Community reception is uneven: her spec-driven-development comparison drew a 128-point Hacker News thread with 32 comments (October 2025), while the TDD evaluation drew a 4-point thread (August 2026), and her conference talks, not her links, carry most of her reach.
 
@@ -33,13 +35,13 @@ Community reception is uneven: her spec-driven-development comparison drew a 128
 
 - She tests her own assumptions and publishes unfavorable results: the TDD piece concludes against the practice her audience (and her employer's heritage) is most attached to, with mutation scores and token multipliers in an appendix.
 - The martinfowler.com venue makes her arc citable: from "coding assistants do not replace pair programming" (2023) to harness engineering and agent-loop evaluations (2026) in one place.
-- **The vantage is the one this category was missing: she coaches teams inside large non-AI companies, so her examples are brownfield constraints and team habits, not frontier-lab budgets.**
+- **The vantage filled a gap this category had: two decades of consulting inside large non-AI companies made her examples brownfield constraints and team habits rather than frontier-lab budgets, and the October 2026 move to a vendor adds a buyer-turned-builder angle.**
 - She coins and then operationalizes her vocabulary: harness engineering for users got a follow-up article on maintainability sensors, and the spec-driven-development memo became the field's reference comparison of Kiro, spec-kit, and Tessl.
 
 ## Cautions
 
 - The experiments are small by her own wording: "far from a comprehensive and structured eval result", greenfield Python tasks, judgment delegated to Opus, so her anti-TDD conclusion is a hypothesis, not a benchmark.
-- Thoughtworks sells AI-transformation consulting, and her "state of play" franchise doubles as the firm's positioning, so discount the framing rather than the data.
+- Her employers sell what she studies: Thoughtworks sold AI-transformation consulting through her 2026 departure, and since October she works at Unblocked, whose context engine her own posts now demonstrate, so discount the framing rather than the data.
 - The memo series is partly a shared byline: some entries are colleagues' memos, so "she published" needs checking against the author line.
 - Her reach runs through talks and podcasts more than through linkable discussion threads, which makes her claims harder to audit in public argument than Willison's or Zechner's.
 
@@ -72,6 +74,7 @@ Not for release tracking, model news, or anyone who needs large-sample benchmark
 - 2026-10-04 - Created, filling the enterprise non-AI-company practitioner slot the matrix named as its empty scaffold.
 - 2026-10-22 - Full re-verification, rotation: all cited URLs refetched and live; the series count moved to 33 with the colleague memo "Are Harnesses Worth the Cost?" (Naresh Jain, 2026-10-13), and the sensors article's date corrected from 2026-05-07 to 2026-05-27 per the article's own revision log.
 - 2026-10-31 - Rotation re-verification, every cited URL re-fetched and live: the series index still holds 33 memos with "Are Harnesses Worth the Cost?" (2026-10-13) the newest and the TDD evaluation still her newest solo piece; fixed the References line that still carried the sensors article's pre-correction date (2026-05-07 to 2026-05-27).
+- 2026-11-15 - Rotation re-verification, every cited URL re-fetched and live: recorded her October 2026 move from Thoughtworks to the context-engineering startup Unblocked (per her own 2026-10-20 onboarding post on the Unblocked blog, fetched this run), rewrote the opening, thesis, strengths, and cautions to match, and confirmed the series still holds 33 memos with the 2026-10-13 colleague memo newest and the TDD evaluation still her newest solo martinfowler.com piece.
 
 ## See also
 
@@ -88,7 +91,8 @@ Not for release tracking, model news, or anyone who needs large-sample benchmark
 - https://martinfowler.com/articles/harness-engineering.html - the harness-engineering framing article for coding agent users (2026-04-02)
 - https://martinfowler.com/articles/sensors-for-coding-agents.html - the maintainability-sensors follow-up (2026-05-27)
 - https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html - the Kiro, spec-kit, and Tessl comparison (2025-10-15)
-- https://birgitta.info - her own index of memos, articles, talks, and interviews, grounding the role and the record
+- https://birgitta.info - her own index of memos, articles, talks, and interviews, grounding the role and the record, including the October 2026 Unblocked post listed as her latest
+- https://getunblocked.com/blog/onboarding-with-unblocked - her 2026-10-20 onboarding write-up on her new employer's blog, grounding the move from Thoughtworks to Unblocked
 - https://newsletter.pragmaticengineer.com/p/two-years-of-using-ai - her June 2025 Pragmatic Engineer guest post
 - https://news.ycombinator.com/item?id=45610996 - the 128-point Hacker News discussion of the SDD comparison, including the skeptical comments on markdown specs (as of 2026-10-04)
 - https://github.com/birgitta410/tdd-comparisons - the TDD evaluation's session transcripts and analysis artifacts

@@ -3,7 +3,7 @@ category: model-access
 generated: 2026-11-15
 mapped_sources:
   - repo: rafska/awesome-local-llm
-    last_checked: 2026-11-14
+    last_checked: 2026-11-15
 digest_lines:
   - "- 2026-11-14 | model-access | the kimi-k3 host-floor reading tracks the standard (non-priority) endpoint rows as the floor and records priority/fast rows beside them, so a cheaper priority row does not displace the floor line | the 2026-11-07 reading already preferred Relace's $0.1719 standard row over Wafer's $0.171 priority row, re-applied on the 2026-11-14 twenty-second move (Wafer priority $0.153 recorded as cheapest visible input, Relace $0.1824 as the floor)"
   - "- 2026-11-14 | cross-category | a release list flooded by nightly and per-commit builds hides stable tags past the pagination window, so a stable-tag claim grounds through the releases/tags endpoint | langchain-ai/open-swe's 100 most recent releases were all prerelease desktop builds while desktop-v0.3.15 and desktop-v0.3.16 (2026-11-08, 2026-11-09) sat outside the list, extending the 2026-11-08 API-grounding line"

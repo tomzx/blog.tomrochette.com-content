@@ -25,7 +25,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 - [The Agentic Development Environment Landscape](the-agentic-development-environment-landscape/index.md) - the July 2026 snapshot of the ADE control-room category: the top five, the six differentiating axes, and the OpenCode-native bet, moved into the section and published 2026-09-27.
 - [The Tells Are Structural](the-tells-are-structural/index.md) - why word-swap humanizers fail (detection lives at the narrative-structure layer) and what a structural revision pass does instead, grounded in StoryScope.
-- [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, link-checked 2026-11-08.
+- [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, link-checked 2026-11-15.
 - [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-11-14.
 - [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-11-14.
 

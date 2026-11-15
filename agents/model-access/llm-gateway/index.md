@@ -1,7 +1,7 @@
 ---
 title: LLM Gateway
 created: 2026-10-04
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, coding-subscription]
 readability: 3
@@ -22,7 +22,7 @@ The company reports SOC 2 Type II, a 30-day enterprise pilot with a 99.9% SLA, a
 
 ## Status
 
-Active and young: the repo was created 2025-04-12 and shows 1,687 stars and 193 forks as of 2026-10-16, pushed 2026-11-14 with v1.25.0 (2026-11-09) the latest release, as of 2026-11-14.
+Active and young: the repo was created 2025-04-12 and shows 1,687 stars and 193 forks as of 2026-10-16, pushed 2026-11-15 with v1.25.0 (2026-11-09) the latest release and default-branch model-catalog additions (Gemini 3.8 Flash TTS models) plus an Airside latency-attribution fix landing, as of 2026-11-15.
 v1.25.0 is a gateway and admin release (provider-key round robin, a per-key safety-identifier toggle, virtual latest model aliases, model price-change alerts, organization projects, and billing fixes from a November security audit) with no plan-price or fee changes; v1.24.0's model-catalog additions (GPT-6.1 Terra, jev 1.14, qwen3.8-omni-flash, Gemini Omni 1.1 Flash, KLING v3.0 Pro, Airside decision-model listings) stand behind it.
 
 <picture>

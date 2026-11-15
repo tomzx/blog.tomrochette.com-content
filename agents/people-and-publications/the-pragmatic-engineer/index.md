@@ -1,7 +1,7 @@
 ---
 title: The Pragmatic Engineer
 created: 2026-08-29
-updated: 2026-10-29
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, newsletter, engineering-org]
 readability: 3
@@ -22,11 +22,12 @@ It consistently runs the data-gathering (AI tooling surveys) that individual too
 
 ## Status
 
-Active and heavily subscribed, with more than 1,100,000 subscribers as of 2026-09-22.
+Active and heavily subscribed, with the site still displaying over 1,100,000 subscribers as of 2026-11-15 (the figure has held above 1,100,000 since the 2026-09-22 verification).
 As of 2026-10-10 it runs the AI tooling-for-2026 surveys and current agent-adoption coverage: The Pulse on the Ruby-on-Rails creator sparking a new "death of coding by hand" debate (2026-09-24), How will AI change operating systems? Part 2: Windows, on making the OS AI-agent-friendly (2026-09-22), AI Skills with Matt Pocock (2026-09-17), Inside OpenAI's agentic software factory (2026-09-15), Building Codex with Tibo Sottiaux (2026-09-09), and What is happening with code reviews? (2026-09-08).
 Issues since then sat outside the agent beat (Why has Shopify dropped React Native?, 2026-09-29, Distributed databases with Peter Mattis, 2026-09-30, and The Pulse on Firebase's global outage, 2026-10-01) until The Pulse returned to it on [2026-10-08](https://newsletter.pragmaticengineer.com/p/the-pulse-new-trend-of-building-internal) (paid): the new trend of "internal vibe-coding apps" at mid-sized companies, with Ramp and Stripe building platforms that let non-engineers build internal websites and tools with agents, and his prediction that more companies will follow.
-The AI beat has run through October since: "Building resilient AI-powered software" (2026-10-13), "Uber's AI infra, from the inside" ([2026-10-14](https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside)), the paid "What's the ROI of software engineers' spending on AI?" ([2026-10-20](https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers), AI spend against shipping velocity and PR output across 27 companies), The Pulse asking whether software security needs rethinking because of AI ([2026-10-22](https://newsletter.pragmaticengineer.com/p/the-pulse-do-we-need-to-rethink-software)), and the newest, "AI SRE: what is it, how could it change on-call - and does it work?" (2026-10-27, grounded by the RSS feed fetched this run).
+The AI beat has run through October since: "Building resilient AI-powered software" (2026-10-13), "Uber's AI infra, from the inside" ([2026-10-14](https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside)), the paid "What's the ROI of software engineers' spending on AI?" ([2026-10-20](https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers), AI spend against shipping velocity and PR output across 27 companies), The Pulse asking whether software security needs rethinking because of AI ([2026-10-22](https://newsletter.pragmaticengineer.com/p/the-pulse-do-we-need-to-rethink-software)), and an "AI SRE: what is it, how could it change on-call - and does it work?" deep dive (2026-10-27).
 A large share of AI-specific content sits behind the paid tier, which funds the survey and interview work.
+The beat has run through November since: The Pulse on Anthropic killing its coding interview ([2026-10-30](https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding), paid, with incident.io's AI spend down from $4,500 to $1,600 per dev per month and Amazon folding AI use into SDE expectations), "How software engineering is changing: a tale of two eras" ([2026-11-03](https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing), free, the essay-challenge winner's data-backed account of 11x PR output and agent-only code review at an AI-native startup), and the newest, The Pulse on the Railway hack postmortem ([2026-11-12](https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-114), paid, the attacker likely using "abliterated" AI models, plus Carta selling a coding harness), grounded by the RSS feed and issue pages fetched this run.
 
 ## Strengths
 
@@ -76,6 +77,7 @@ Not for someone chasing pure hands-on tool detail who resents a paywall.
 - 2026-10-10 - Added The Pulse (2026-10-08, paid) on internal vibe-coding apps at Ramp and Stripe to Status, the first agent-beat issue since October 1 (URL and feed fetched this run).
 - 2026-10-25 - Added October's AI-beat issues to Status and References (URLs fetched this run): Uber's AI infra (2026-10-14), the paid ROI-of-AI-spending analysis across 27 companies (2026-10-20), and The Pulse on AI-driven software security rethinking (2026-10-22), with the resilient-AI-software issue (2026-10-13) named.
 - 2026-10-29 - Added the newest AI-beat issue, "AI SRE: what is it, how could it change on-call, and does it work?" (2026-10-27), to Status (per the RSS feed fetched this run).
+- 2026-11-15 - Rotation re-verification, every cited URL re-fetched and live: Status extended with the three agent-beat items since the 2026-10-27 AI SRE issue (the 2026-10-30 Pulse on Anthropic killing its coding interview, the free 2026-11-03 essay-challenge winner on two eras of shipping, and the 2026-11-12 Pulse on the Railway hack), and the subscriber figure recorded as holding above 1,100,000 (per the site fetched this run).
 
 ## See also
 
@@ -92,6 +94,9 @@ Not for someone chasing pure hands-on tool detail who resents a paywall.
 - https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside - the 2026-10-14 deep dive into Uber's AI infrastructure
 - https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers - the 2026-10-20 paid analysis of AI spending against shipping velocity and PR output across 27 companies
 - https://newsletter.pragmaticengineer.com/p/the-pulse-do-we-need-to-rethink-software - The Pulse (2026-10-22): whether AI should make software security be rethought
+- https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding - The Pulse (2026-10-30, paid): Anthropic removes the coding interview from its loop, with incident.io's AI-spend details
+- https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing - the free 2026-11-03 essay-challenge winner on two eras of shipping (11x PRs, agent-only review)
+- https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-114 - The Pulse (2026-11-12, paid): the Railway hack postmortem, abliterated AI models, and Carta selling a coding harness
 - https://newsletter.pragmaticengineer.com/p/ai-tooling-2026 - the annual AI tooling survey for software engineers
 - https://newsletter.pragmaticengineer.com/p/steve-yegge-on-ai-agents-and-the - his interview with Steve Yegge on AI agents
 - https://newsletter.pragmaticengineer.com/p/the-ai-engineering-stack - his framing of the AI engineering stack

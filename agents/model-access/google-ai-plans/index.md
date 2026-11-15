@@ -1,7 +1,7 @@
 ---
 title: Google AI plans
 created: 2026-09-26
-updated: 2026-10-31
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, google, subscriptions, gemini]
 readability: 3
@@ -18,16 +18,17 @@ Google AI plans are Google's consumer subscription ladder, Google AI Plus, Googl
 
 Three consumer tiers sold through Google One: Plus (2x Gemini access versus non-subscribers, 400 GB storage), Pro (4x, 5 TB, $10 in monthly Google Cloud credits), and Ultra in 5x (5x Pro, 20 TB, $40 credits) and 20x (20x Pro, 30 TB, $100 credits) versions, as of 2026-09-26.
 The plans carry the Gemini app, Google Flow, Gemini Notebook, AI Studio, Android Studio, Chrome auto browse, and expanded Antigravity and Jules limits, with Flow credits of 200 to 25,000 per month across the ladder.
-By the 2026-10-16 fetch the comparison table also rows access to Gemini 4 Argon, Google's frontier model, on every tier and an expanded token context window of one million tokens on Pro and Ultra.
+By the 2026-10-16 fetch the comparison table also rows access to Gemini 4 Argon, Google's frontier model, on every tier and an expanded token context window of one million tokens on Pro and Ultra; by the 2026-11-15 fetch the table carries separate Carbon, Argon, and Hydrogen access rows with Carbon named Google's strongest model and the Ultra headline ("Access to our Pro models" reads "includes access to Argon and Carbon" on Ultra).
 Personal Google Accounts only: Workspace customers are pushed to Gemini add-ons, and organizations to Google Cloud terms with consumption-based API pricing.
 The FAQ confirms the ladder's churn: the old Google AI Premium plan was renamed Google AI Plus.
 
 ## Status
 
-Active and restructured repeatedly, with the tiers, multipliers, and storage allotments verified from Google's own pages on 2026-09-26 and re-verified unchanged on 2026-10-06, 2026-10-11, 2026-10-16, and 2026-10-31, the dollar prices still rendering client-side.
+Active and restructured repeatedly, with the tiers, multipliers, and storage allotments verified from Google's own pages on 2026-09-26 and re-verified unchanged on 2026-10-06, 2026-10-11, 2026-10-16, 2026-10-31, and 2026-11-15, the ladder's dollar prices still rendering client-side.
 Plus is available in over 160 countries, Pro and Ultra in over 150.
 The 2026 record shows a rename (AI Premium to Plus) and an Ultra split into 5x and 20x columns, both visible on the current comparison table.
 **Prices are the weak point of the product surface: the marketing pages render the dollar figure client-side per region, so my US and Canada fetches returned the ladder with the price stripped, and third-party guides are the only place the US numbers appear in text.**
+One exception surfaced on the 2026-11-15 US fetch: the page's savings calculator now prints Pro at $19.99/month and Ultra 5x at $99.99/month (Ultra billed monthly only) in the page text.
 
 ## Strengths
 
@@ -50,7 +51,7 @@ The 2026 record shows a rename (AI Premium to Plus) and an Ultra split into 5x a
 Canadian storefront, fetched 2026-09-26: Google AI Plus CA$13.99/month, Google AI Pro CA$26.99/month, Ultra not listed on that page.
 US dollar list prices did not render in my fetched HTML; a third-party comparison table lists Plus around $8/month as the cheapest paid path and Ultra 20x at $200/month as the top individual tier (429 again on 2026-10-16, see references).
 Organizations: Google Cloud terms with consumption-based API pricing, included in select Gemini Enterprise subscriptions.
-Credits bill at standard Gemini Enterprise consumption rates, anchored by the Gemini API price list: Gemini 3.8 Flash at $0.75/$3.75 per million tokens through December 31, 2026, doubling in 2027, and Gemini 3.1 Pro at $2.00/$12.00.
+Credits bill at standard Gemini Enterprise consumption rates, anchored by the Gemini API price list as of 2026-11-15: Gemini 3.8 Flash at $0.75/$3.75 per million tokens through December 31, 2026, doubling to $1.50/$7.50 in 2027; Gemini 3.1 Pro Preview at $2.00/$12.00 for prompts up to 200k tokens, $4.00/$18.00 above; and the Gemini 4 lines now anchoring the page's top (Carbon and Argon $2.00/$10.00 through November 30, 2026, then $4.00/$20.00; Hydrogen $1.50/$7.50).
 
 ## Price history
 
@@ -77,6 +78,7 @@ My disagreeable claim: Ultra is priced for video generation more than for coding
 - 2026-09-26 - Created when the owner asked for any remaining subscription providers.
 - 2026-10-16 - Rotation re-verification: ladder, multipliers, storage, and country counts unchanged with prices still stripped client-side; the comparison table now rows Gemini 4 Argon access on every tier and a one-million-token context window on Pro and Ultra, both folded into What it is; the Antigravity pricing and plans-docs pages returned client-rendered shells this run, their claims carried as dated.
 - 2026-10-31 - Rotation re-verification: ladder, multipliers, storage (including the 400 GB-or-2 TB Plus cell), Argon access, cloud credits, Flow credits, and country counts unchanged with dollar prices still stripped client-side; the Canadian storefront still CA$13.99 Plus and CA$26.99 Pro with no Ultra listed; the Antigravity pages reachable again (200) this run, the Gemini API promotional rates and the 2027 doubling unchanged, and the third-party pricing table still 429.
+- 2026-11-15 - Rotation re-verification: every cited source re-fetched live with the ladder, multipliers, storage (400 GB-or-2 TB Plus cell), cloud credits, Flow credits, and country counts unchanged and the Canadian storefront still CA$13.99 Plus and CA$26.99 Pro with no Ultra; the comparison table now carries separate Carbon, Argon, and Hydrogen access rows with Carbon the Ultra headline; the US page's savings calculator now prints Pro $19.99/month and Ultra 5x $99.99/month in page text; the Antigravity plans docs' quota mechanics unchanged with Gemini 4 Hydrogen added to the baseline model list; the Gemini API anchor extended (3.1 Pro Preview's >200k-prompt surcharge $4/$18, Carbon and Argon $2/$10 through November 30 then $4/$20, Hydrogen $1.50/$7.50); the HN thread still 771 points; the third-party pricing table still 429.
 
 ## See also
 
@@ -87,11 +89,11 @@ My disagreeable claim: Ultra is priced for video generation more than for coding
 
 ## References
 
-- https://one.google.com/about/google-ai-plans - the plan ladder, comparison table (multipliers, Flow credit quotas, Antigravity and Jules rows), AI Premium rename, country counts (fetched 200, 2026-09-26, re-fetched 2026-10-11, 2026-10-16, and 2026-10-31 with prices still stripped client-side)
-- https://one.google.com/intl/en_us/about/google-ai-plans/ - US variant: $10/$40/$100 monthly Google Cloud credits by tier, Home Premium bundle values, Ultra 5x and 20x storage tiers (fetched 200, 2026-09-26; 200 again on 2026-10-31)
-- https://one.google.com/about/plans - Canadian storefront prices, CA$13.99 Plus and CA$26.99 Pro, no Ultra listed (fetched 200, 2026-09-26; re-fetched 2026-10-16 with both figures unchanged; re-fetched 2026-10-31 with both figures unchanged)
-- https://antigravity.google/pricing - the $0 individual tier, Pro/Ultra as the paid paths adding rate limits and the AI credit pool, Google Cloud consumption terms for organizations (fetched 200, 2026-09-26; the 2026-10-16 fetch returned a client-rendered shell, claims carried as dated; 200 again on 2026-10-31)
-- https://antigravity.google/docs/plans - quota mechanics: five-hour Ultra refresh, weekly free quota, credits billed at standard Gemini Enterprise consumption pricing, Never/Always overages, no BYOK (fetched 200, 2026-09-26; the 2026-10-16 fetch returned a client-rendered shell, claims carried as dated; 200 again on 2026-10-31)
-- https://ai.google.dev/gemini-api/docs/pricing - the consumption-rate anchor: 3.8 Flash $0.75/$3.75 per million tokens until 2026-12-31 then doubled, 3.1 Pro $2.00/$12.00 (fetched 200, 2026-09-26; re-fetched 2026-10-16 with the promotional rates and the 2027 doubling unchanged; re-fetched 2026-10-31 unchanged)
-- https://news.ycombinator.com/item?id=48222529 - critical source: the May 2026 "Antigravity bait and switch" thread, 771 points, on tiers changing under existing users (fetched 200, 2026-09-26; re-checked 2026-10-16 at 771 points unchanged; 200 again on 2026-10-31)
-- https://codeagentswarm.com/en/guides/grok-build-pricing - third-party table naming Plus around $8/month and Ultra 20x at $200/month; 429 again 2026-10-16 and again 2026-10-31, figures carried from the 2026-08-25 verification, hold loosely
+- https://one.google.com/about/google-ai-plans - the plan ladder, comparison table (multipliers, Flow credit quotas, Antigravity and Jules rows, now separate Carbon/Argon/Hydrogen access rows with Carbon the Ultra headline), AI Premium rename, country counts (fetched 200, 2026-09-26, re-fetched 2026-10-11, 2026-10-16, 2026-10-31, and 2026-11-15 with ladder prices still stripped client-side)
+- https://one.google.com/intl/en_us/about/google-ai-plans/ - US variant: $10/$40/$100 monthly Google Cloud credits by tier, Home Premium bundle values, Ultra 5x and 20x storage tiers, and (2026-11-15) a savings calculator printing Pro $19.99/month and Ultra 5x $99.99/month (monthly billing only) in page text (fetched 200, 2026-09-26; 200 again on 2026-10-31; re-fetched 2026-11-15 with the calculator figures visible)
+- https://one.google.com/about/plans - Canadian storefront prices, CA$13.99 Plus and CA$26.99 Pro, no Ultra listed (fetched 200, 2026-09-26; re-fetched 2026-10-16 with both figures unchanged; re-fetched 2026-10-31 with both figures unchanged; re-fetched 2026-11-15 with both figures unchanged)
+- https://antigravity.google/pricing - the $0 individual tier, Pro/Ultra as the paid paths adding rate limits and the AI credit pool, Google Cloud consumption terms for organizations (fetched 200, 2026-09-26; the 2026-10-16 fetch returned a client-rendered shell, claims carried as dated; 200 again on 2026-10-31; 200 again on 2026-11-15)
+- https://antigravity.google/docs/plans - quota mechanics: five-hour Ultra refresh, weekly free quota, credits billed at standard Gemini Enterprise consumption pricing, Never/Always overages, no BYOK (fetched 200, 2026-09-26; the 2026-10-16 fetch returned a client-rendered shell, claims carried as dated; 200 again on 2026-10-31; re-fetched 2026-11-15 with the mechanics unchanged and Gemini 4 Hydrogen added to the baseline model list)
+- https://ai.google.dev/gemini-api/docs/pricing - the consumption-rate anchor: 3.8 Flash $0.75/$3.75 per million tokens until 2026-12-31 then $1.50/$7.50, 3.1 Pro Preview $2.00/$12.00 up to 200k prompts ($4.00/$18.00 above), Carbon and Argon $2.00/$10.00 through 2026-11-30 then $4.00/$20.00, Hydrogen $1.50/$7.50 (fetched 200, 2026-09-26; re-fetched 2026-10-16 with the promotional rates and the 2027 doubling unchanged; re-fetched 2026-10-31 unchanged; re-fetched 2026-11-15 with the anchor state above)
+- https://news.ycombinator.com/item?id=48222529 - critical source: the May 2026 "Antigravity bait and switch" thread, 771 points, on tiers changing under existing users (fetched 200, 2026-09-26; re-checked 2026-10-16 at 771 points unchanged; 200 again on 2026-10-31; re-checked 2026-11-15 at 771 points unchanged)
+- https://codeagentswarm.com/en/guides/grok-build-pricing - third-party table naming Plus around $8/month and Ultra 20x at $200/month; 429 again 2026-10-16, again 2026-10-31, and again 2026-11-15, figures carried from the 2026-08-25 verification, hold loosely

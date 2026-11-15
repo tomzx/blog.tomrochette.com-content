@@ -1,7 +1,7 @@
 ---
 title: InternAgent
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, multi-agent, scientific-discovery, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Its solution-optimization subsystem ships separately as [MLEvolve](https://githu
 
 ## Status
 
-Active at the lab, quiet at the repository: 1,459 stars, 136 forks, created 2025-05-16, last push 2026-07-29 on main, as of 2026-10-29.
+Active at the lab, quiet at the repository: 1,459 stars as of 2026-10-29, 137 forks, created 2025-05-16, last push 2026-07-29 on main, as of 2026-11-15.
 The subsystem line carries the current momentum: MLEvolve pushed 2026-10-16 and MLExpert released 2026-10-15, both under the same org.
 The subsystem's headline is leaderboard-anchored: MLEvolve's 2026-02-14 submission sits on OpenAI's official MLE-Bench leaderboard at 61.33 percent any-medal (All) over 75 tasks at a 12-hour budget, fourth overall and first among the submissions that publish source code, though the leaderboard has taken no new submissions since April 24, 2026 while its maintainers rework the fairness process.
 **The community footprint is absent: a Hacker News search returns no stories for InternAgent, its former NovelSeek name, or MLEvolve as of 2026-10-29, so the 1,459 stars measure a Chinese-language and academic audience, the channel pattern DeepAnalyze and ARIS show.**
@@ -71,6 +71,7 @@ Not for anyone needing independently verified wet-lab or reasoning-benchmark cla
 ## Changes
 
 - 2026-10-29 - Created as an entrant from the InternScience org scan, with the MLEvolve subsystem folded in and its leaderboard row verified against OpenAI's table.
+- 2026-11-15 - Rotation re-verification: all eleven references re-fetched and live, no drift; the main repository stays quiet since July 29, the MLE-Bench leaderboard rows and the closed-submissions notice are unchanged, the LICENSE remains Apache 2.0 text with the team copyright header (GitHub reports no SPDX assertion), and the zero-story Hacker News footprint re-checked.
 
 ## See also
 
@@ -84,7 +85,7 @@ Not for anyone needing independently verified wet-lab or reasoning-benchmark cla
 
 - https://github.com/InternScience/InternAgent - repository, README, news timeline, and Apache-2.0 license (fetched 200, 2026-10-29)
 - https://raw.githubusercontent.com/InternScience/InternAgent/main/README.md - the 1.0 and 1.5 feature sets, the NovelSeek rename, run instructions, and the scphub access note (fetched 200, 2026-10-29)
-- https://api.github.com/repos/InternScience/InternAgent - stars, forks, created and pushed dates, and license metadata for the as-of status (fetched 200 via the API, 2026-10-29)
+- https://api.github.com/repos/InternScience/InternAgent - stars, forks, created and pushed dates, and license metadata for the as-of status (fetched 200 via the API, 2026-10-29 and 2026-11-15)
 - https://arxiv.org/abs/2505.16938 - the 1.0 paper "InternAgent: When Agent Becomes the Scientist" (fetched 200 via the arXiv API, 2026-10-29)
 - https://huggingface.co/papers/2602.08990 - the 1.5 technical report page: the three subsystems, the GAIA/GPQA/HLE/FrontierScience claims, and the wet-lab scope (fetched 200, 2026-10-29)
 - https://discovery.intern-ai.org.cn - the project website (fetched 200, 2026-10-29)

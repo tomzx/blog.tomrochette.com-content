@@ -1,7 +1,7 @@
 ---
 title: EvoMap AutoResearch
 created: 2026-10-12
-updated: 2026-10-29
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, multi-agent, blind-review, open-source]
 readability: 3
@@ -16,7 +16,7 @@ EvoMap AutoResearch is the Infinite Evolution Lab's Apache-2.0 two-stage workflo
 
 ## What it is
 
-A Python workflow (github.com/EvoMap/AutoResearch, Apache-2.0, open-sourced September 1, 2026) by Yiming Ren, Xiang Liu, Qumeng Sun, Xiao Zhang, Jiahao Li, and project leaders Haoyang Zhang and Junjie Wang, described in the paper "AutoResearch: Insight In, Hallucination Out" (arXiv 2608.17906, revised to v4 on 2026-09-17).
+A Python workflow (github.com/EvoMap/AutoResearch, Apache-2.0, open-sourced September 1, 2026) by the Infinite Evolution Lab at EvoMap, described in the paper "AutoResearch: Insight In, Hallucination Out" (arXiv 2608.17906, revised to v4 on 2026-09-17; the v4 byline lists Xiang Liu, Qumeng Sun, Bruno, Xiao Zhang, and Jiahao Li, with Haoyang Zhang the project leader).
 Idea Generation intersects external research signals with a local domain knowledge base and uses multi-model generation and cross-review to produce grounded, testable plans, with an optional GPT Researcher draft for knowledge directions.
 Idea Execution decomposes a selected plan into experiments, implements and diagnoses them iteratively, and runs independent evaluation, preserving negative results instead of forcing every experiment into a success story.
 The workflow is stateful and recoverable: plans, code, logs, metrics, failure causes, critic reports, and blind reviews land on disk, so a run can be inspected, taken over, or stopped at any point.
@@ -68,6 +68,7 @@ Not for production use: seven commits, no releases, and an unresolved attributio
 
 - 2026-10-12 - Created.
 - 2026-10-29 - Rotation re-verification: all six references re-fetched, no drift; the repository stands quiet since September 16 and the Karpathy-attribution challenge issue remains closed.
+- 2026-11-15 - Rotation re-verification: all six references re-fetched and live, and the paper byline corrected to the arXiv v4 header (Xiang Liu, Qumeng Sun, Bruno, Xiao Zhang, and Jiahao Li, with Haoyang Zhang the project leader); the previously recorded Yiming Ren and Junjie Wang names are not on the paper. The repository stands quiet since September 16 and the challenge issue remains closed.
 
 ## See also
 
@@ -78,9 +79,9 @@ Not for production use: seven commits, no releases, and an unresolved attributio
 
 ## References
 
-- https://github.com/EvoMap/AutoResearch - repository, Apache-2.0, 3,016 stars, seven commits, last push 2026-09-16 (as of 2026-10-28)
-- https://raw.githubusercontent.com/EvoMap/AutoResearch/main/README.md - the two stages, critic reports, blind reviews, negative-result support, and the GPT Researcher integration (fetched 200, 2026-10-28)
-- https://arxiv.org/abs/2608.17906 - the paper "Insight In, Hallucination Out": the two-stage design and the v4 revision of 2026-09-17 (fetched 200, 2026-10-28)
-- https://news.ycombinator.com/item?id=49697367 - the critical thread: 3,278 stars in a week, the unsigned Karpathy-attributed commit, and the skeptical replies (fetched via the Algolia API, 2026-10-28)
-- https://github.com/EvoMap/AutoResearch/issues/8 - the September 12 challenge issue and the maintainer exchange (fetched 200 via the API, 2026-10-28)
-- https://www.prnewswire.com/news-releases/evomap-open-sources-autoresearch-giving-ai-agents-a-way-to-test-their-own-research-ideas-302863058.html - the September 1 open-source announcement (fetched 200, 2026-10-28)
+- https://github.com/EvoMap/AutoResearch - repository, Apache-2.0, quiet since 2026-09-16 (as of 2026-11-15)
+- https://raw.githubusercontent.com/EvoMap/AutoResearch/main/README.md - the two stages, critic reports, blind reviews, negative-result support, and the GPT Researcher integration (fetched 200, 2026-10-28 and 2026-11-15)
+- https://arxiv.org/abs/2608.17906 - the paper "Insight In, Hallucination Out": the two-stage design and the v4 revision of 2026-09-17 (fetched 200, 2026-10-28 and 2026-11-15)
+- https://news.ycombinator.com/item?id=49697367 - the critical thread: 3,278 stars in a week, the unsigned Karpathy-attributed commit, and the skeptical replies (fetched via the Algolia API, 2026-10-28 and 2026-11-15)
+- https://github.com/EvoMap/AutoResearch/issues/8 - the September 12 challenge issue and the maintainer exchange (fetched 200 via the API, 2026-10-28 and 2026-11-15)
+- https://www.prnewswire.com/news-releases/evomap-open-sources-autoresearch-giving-ai-agents-a-way-to-test-their-own-research-ideas-302863058.html - the September 1 open-source announcement (fetched 200, 2026-10-28 and 2026-11-15)

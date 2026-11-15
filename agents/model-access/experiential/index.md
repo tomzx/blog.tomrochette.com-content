@@ -1,7 +1,7 @@
 ---
 title: Experiential
 created: 2026-09-27
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted, model-routing]
 readability: 3
@@ -36,7 +36,7 @@ The Show HN launch ("We built open OpenRouter that turns usage into a better mod
 PyPI shows 236 releases since first upload on 2026-08-20, latest 0.7.234, requiring Python 3.12+ (as of 2026-11-07).
 One hundred forty-three open issues, a Discord, and YC backing as of 2026-10-07.
 On 2026-10-10 the GitHub repository and the experientiallabs org both return 404 on the API and the web while the product site, its pricing page, and the PyPI package stay live (the package README still links the dead repo paths), so the repository is private, renamed, or removed as of this date; the 404 state persisted through the 2026-10-12, 2026-10-14, and 2026-10-16 re-checks with the site and package still live; the star count above stands at its last verification, and the site's own badge reads 9.9k.
-By 2026-10-24 the repository and org were live again on both the API and the web, with the repo pushed that day and the pricing page's GitHub badge linking it again, so the removal or privacy spell ended and the 404 stretch ran from 2026-10-10 through at least 2026-10-16; the repo stayed in active push through 2026-11-08, with the v0.7.226 GitHub release published 2026-11-01, v0.7.228 on 2026-11-03, and v0.7.233 (2026-11-06) and v0.7.234 (2026-11-07) gateway-fix releases, the 11-08 push carrying no release past v0.7.234; on 2026-11-11 and 11-12 a new exp-code component line shipped its first releases (0.1.0 to 0.1.2), an open-source coding and cowork agent under agent/ whose releases attach a self-contained sandbox-runner file with its sha256, and the repo pushed 2026-11-12; the exp-code line then shipped 0.1.3 through 0.1.7 across 2026-11-13, PyPI advanced to 0.7.242 at 247 releases with the 2026-11-14 release-bump commit on main (0.7.242, native 0.3.189) unreleased on GitHub past v0.7.234, and the repo pushed 2026-11-14 (as of 2026-11-14).
+By 2026-10-24 the repository and org were live again on both the API and the web, with the repo pushed that day and the pricing page's GitHub badge linking it again, so the removal or privacy spell ended and the 404 stretch ran from 2026-10-10 through at least 2026-10-16; the repo stayed in active push through 2026-11-08, with the v0.7.226 GitHub release published 2026-11-01, v0.7.228 on 2026-11-03, and v0.7.233 (2026-11-06) and v0.7.234 (2026-11-07) gateway-fix releases, the 11-08 push carrying no release past v0.7.234; on 2026-11-11 and 11-12 a new exp-code component line shipped its first releases (0.1.0 to 0.1.2), an open-source coding and cowork agent under agent/ whose releases attach a self-contained sandbox-runner file with its sha256, and the repo pushed 2026-11-12; the exp-code line then shipped 0.1.3 through 0.1.7 across 2026-11-13, PyPI advanced to 0.7.243 and 0.7.244 across 2026-11-14 at 249 releases with the gateway line still unreleased on GitHub past v0.7.234, and the repo pushed 2026-11-15 with a Gemini gateway review follow-up landing on the default branch (as of 2026-11-15).
 
 ## Strengths
 

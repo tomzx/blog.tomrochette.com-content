@@ -1,7 +1,7 @@
 ---
 title: LocalAI
 created: 2026-10-10
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The team also publishes its own native C/C++ engines (parakeet.cpp, vllm.cpp, mo
 
 ## Status
 
-Active and shipping monthly: v4.9.0 (2026-08-20), v4.10.0 (2026-09-17), v4.11.0 (2026-10-02), v4.12.0 (2026-10-22), and security-only patch v4.12.1 (2026-10-23), pushed 2026-11-14 with default-branch work since the 11-08 studio fixes: an add-ons feature letting paired clients call add-ons and use inference, gallery checksum bumps, and UI fixes continuing through a 2026-11-14 Explore-page change (v4.12.1 still the latest release, as of 2026-11-14).
+Active and shipping monthly: v4.9.0 (2026-08-20), v4.10.0 (2026-09-17), v4.11.0 (2026-10-02), v4.12.0 (2026-10-22), and security-only patch v4.12.1 (2026-10-23), pushed 2026-11-15 with default-branch work since the 11-08 studio fixes: an add-ons feature letting paired clients call add-ons and use inference, model search across every installed source by default, a distributed-inference fix keeping healthy replicas when one fails, and UI fixes continuing through a 2026-11-14 Explore-page change (v4.12.1 still the latest release, as of 2026-11-15).
 The v4.12.0 notes named add-on support as the next release's preparation, and the README now documents the add-ons catalog (Studio, Talk, Voice, Face, Simple Office, Sandbox installing from a signed catalog beside the server) with the paired-client feature still unreleased on the default branch.
 v4.12.0 redesigned the web UI and added streaming voice responses, native decision routing, image upscaling, and persistent Qdrant stores; its release notes count top-level gallery entries at 1,896 while the site's own gallery counter still reads 1,255 (checked 2026-10-23, counter still 1,255 on 2026-11-03).
 v4.12.1 hardens the external URL policy for user-supplied URLs against SSRF, validating redirect targets on every hop and treating non-public address ranges as blocked.

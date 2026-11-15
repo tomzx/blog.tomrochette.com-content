@@ -1,7 +1,7 @@
 ---
 title: NanoGPT
 created: 2026-09-26
-updated: 2026-11-01
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, model-gateway, open-weights, privacy]
 readability: 3
@@ -22,9 +22,9 @@ An independent operator runs it, and the pages I fetched name no corporate paren
 
 ## Status
 
-Active: the blog published through October 15, 2026 (re-verified 2026-10-18), ships monthly crypto-payment statistics (Monero led September deposits at 44.02%), and added zero-data-retention routing on September 3, 2026.
+Active: the blog published through November 2, 2026 (re-verified 2026-11-15), ships monthly crypto-payment statistics (Monero led September deposits at 44.02%), and added zero-data-retention routing on September 3, 2026.
 Wayback captures of its subscription page span September 2025 through October 2026, and its own HN stories reach back to late 2024, so the service has operated continuously for at least two years.
-Its own Hacker News footprint is nearly nil: two stories in late 2024 with zero comments, while the NanoGPT name on HN belongs to Karpathy's training repo (a 1,532-point story).
+Its own Hacker News footprint is nearly nil: two stories in late 2024 with zero comments, a third surfaced November 3, 2026 (3 points, 0 comments), while the NanoGPT name on HN belongs to Karpathy's training repo (a 1,532-point story).
 
 ## Strengths
 
@@ -41,7 +41,7 @@ Its own Hacker News footprint is nearly nil: two stories in late 2024 with zero 
 
 ## Pricing
 
-Pro is $12/month as of 2026-11-01, including 60M input tokens per week, the 5% paid-text-model discount, and web plus API access.
+Pro is $12/month as of 2026-11-15, including 60M input tokens per week, the 5% paid-text-model discount, and web plus API access.
 Pay-as-you-go needs no subscription: a free tier with one web-only model, list-price API billing, and $0.10 crypto or $1 card deposit minimums.
 In September 2025, Pro was $8/month with unlimited personal open-weight usage capped at 60,000 generations per month and 2,000 per day.
 
@@ -70,6 +70,7 @@ I will claim something arguable: at $12 with open weights included, this beats a
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 - 2026-10-18 - Rotation re-verification: every cited source re-fetched live and unchanged (the $12/60M-token-week Pro tier on the pricing page, the September 2025 $8 Wayback capture, the blog through October 15 with the Monero-led September stats, and both HN searches); every price stands.
 - 2026-11-01 - Rotation re-verification: every cited source re-fetched live and unchanged (the $12/60M-token-week Pro tier on the pricing page, the September 2025 $8 Wayback capture, the blog with the newest post still October 15, and both HN searches); every price stands.
+- 2026-11-15 - Rotation re-verification: every cited source re-fetched live with the $12/60M-input-tokens-per-week Pro tier, the PAYG minimums, and the September 2025 $8 Wayback capture unchanged; the blog's newest post moved from October 15 to November 2, and a third service-named HN story surfaced (2026-11-03, 3 points, 0 comments), so the thin-footprint line gains a dated update; every price stands.
 
 ## See also
 
@@ -80,8 +81,8 @@ I will claim something arguable: at $12 with open weights included, this beats a
 
 ## References
 
-- https://nano-gpt.com/pricing - current Pro pricing ($12/month, 60M input tokens/week), PAYG minimums, 5% BYOK and pinning fees, as of 2026-10-11 and re-fetched 2026-10-14, 2026-10-17, and 2026-10-18 unchanged; re-fetched 2026-11-01 unchanged (full-content fetch).
-- http://web.archive.org/web/20250901063827/https://nano-gpt.com/subscription - September 2025 capture showing $8/month with unlimited personal open-weight usage (re-fetched 2026-10-18 unchanged; re-fetched 2026-11-01 unchanged).
-- https://nano-gpt.com/blog - activity evidence: September 2026 posts, ZDR routing, monthly crypto-payment statistics (re-fetched 2026-10-18 with the newest post still October 15; re-fetched 2026-11-01 unchanged, newest post still October 15).
-- https://hn.algolia.com/api/v1/search?query=nano-gpt.com&restrictSearchableAttributes=url&tags=story&hitsPerPage=10 - the service's thin HN footprint (two 0-comment stories, 2024; re-queried 2026-10-18 unchanged; re-queried 2026-11-01 unchanged).
-- https://hn.algolia.com/api/v1/search?query=NanoGPT&tags=story&hitsPerPage=10 - the name collision with Karpathy's repo dominating HN results (re-queried 2026-10-18 unchanged; re-queried 2026-11-01 unchanged, the 1,532-point repo story still on top).
+- https://nano-gpt.com/pricing - current Pro pricing ($12/month, 60M input tokens/week), PAYG minimums, 5% BYOK and pinning fees, as of 2026-10-11 and re-fetched 2026-10-14, 2026-10-17, and 2026-10-18 unchanged; re-fetched 2026-11-01 unchanged (full-content fetch); re-fetched 2026-11-15 with the $12/month and 60M-input-tokens figures unchanged.
+- http://web.archive.org/web/20250901063827/https://nano-gpt.com/subscription - September 2025 capture showing $8/month with unlimited personal open-weight usage (re-fetched 2026-10-18 unchanged; re-fetched 2026-11-01 unchanged; re-fetched 2026-11-15 at 200 unchanged).
+- https://nano-gpt.com/blog - activity evidence: September 2026 posts, ZDR routing, monthly crypto-payment statistics (re-fetched 2026-10-18 with the newest post still October 15; re-fetched 2026-11-01 unchanged, newest post still October 15; re-fetched 2026-11-15 with the newest post now November 2).
+- https://hn.algolia.com/api/v1/search?query=nano-gpt.com&restrictSearchableAttributes=url&tags=story&hitsPerPage=10 - the service's thin HN footprint (two 0-comment stories, 2024; re-queried 2026-10-18 unchanged; re-queried 2026-11-01 unchanged; re-queried 2026-11-15 with a third story present, 2026-11-03, 3 points, 0 comments).
+- https://hn.algolia.com/api/v1/search?query=NanoGPT&tags=story&hitsPerPage=10 - the name collision with Karpathy's repo dominating HN results (re-queried 2026-10-18 unchanged; re-queried 2026-11-01 unchanged, the 1,532-point repo story still on top; re-queried 2026-11-15 with the 1,532-point repo story still on top).

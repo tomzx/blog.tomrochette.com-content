@@ -1,7 +1,7 @@
 ---
 title: ARIS
 created: 2026-10-10
-updated: 2026-11-11
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, agentic-llm, machine-learning, open-source, skills]
 readability: 3
@@ -25,7 +25,7 @@ Beyond the skills, the project ships a standalone Rust CLI (ARIS-Code, v0.4.28 o
 
 ## Status
 
-Active: 17,367 stars as of 2026-10-21, 1,498 forks, created 2026-03-10, last pushed 2026-11-11 (a fix for SSH experiment sync that reuses validated environments), following November 8's SuperARIS introduction, November 3's News entry featuring the Absent Author pattern, November 1-2's bilingual News announcement of the model worker with a Goal Pulse reminder, a Claude Code Goal Pulse activation route, and session recovery connected to the HERO handoff skill, and October 31's optional model-worker MCP server that offloads file authoring and writing skills, as of 2026-11-11.
+Active: 17,367 stars as of 2026-10-21, 1,498 forks, created 2026-03-10, last pushed 2026-11-14 (install-script fixes: Windows symlink creation in bash environments, confirmation defaults matched with warnings on Windows copies, and prompt documentation), following November 11's SSH experiment-sync fix reusing validated environments, November 8's SuperARIS introduction, November 3's News entry featuring the Absent Author pattern, November 1-2's bilingual News announcement of the model worker with a Goal Pulse reminder, a Claude Code Goal Pulse activation route, and session recovery connected to the HERO handoff skill, and October 31's optional model-worker MCP server that offloads file authoring and writing skills, as of 2026-11-15.
 October 2026 widened the loop three ways: a `/lean-formalize` skill that drives a mathematical statement to a checked Lean proof (October 7), Grok and Gemini/Antigravity MCP reviewer bridges that route reviews through existing CLI logins (October 5), and, on October 19, selectable reviewers inside the complete Claude Code and Codex skill packs, a `/citation-crosscheck` skill that diffs local BibTeX entries against freshly fetched records, and shared bounded fan-out rules capping parallel worker batches.
 Late October added two community search skills, `/keenable-search` (keyless web search and page fetch, October 23) and `/firecrawl-search` (October 24), lifting the mainline count from 85 to 87, plus a refresh of the OpenAI model defaults and llm-chat request compatibility (October 24).
 The technical report carries Hugging Face's #1 Paper of the Day badge on the repository's README, the only independent-attention signal in its footprint beside the PaperWeekly feature.
@@ -76,6 +76,7 @@ Not for anyone who needs a machine verifier behind results, a small inspectable 
 - 2026-10-25 - Volatile re-verification: recorded the two new community search skills (keenable-search and firecrawl-search, lifting the mainline count from 85 to 87), the October 24 OpenAI model-defaults refresh, and the push-date move to October 24.
 - 2026-11-08 - Rotation re-verification: all eight references re-fetched and live (one API retry passed a rate limit), the skills directory still 91 raw entries (87 carrying SKILL.md by the counting rule), v0.4.28 still the latest release, and no default-branch commit after the November 6 WeChat refresh.
 - 2026-11-11 - Volatile re-verification: recorded the November 8 SuperARIS introduction (the sibling team-of-agents project with its own repository) and the November 11 SSH experiment-sync fix, with the push date moved and v0.4.28 still the latest release.
+- 2026-11-15 - Volatile re-verification: recorded the November 13-14 install-script fix batch (Windows symlink handling, confirmation defaults matched with warnings on Windows copies, install-script prompt docs), the push date moved to November 14, v0.4.28 still the latest release.
 
 ## See also
 
@@ -91,8 +92,9 @@ Not for anyone who needs a machine verifier behind results, a small inspectable 
 - https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/main/README.md - the README source: skills, adapter list, ARIS-Code v0.4.28 details, the codex-cli 0.154 bridge note, the October what's-new entries, and the SuperARIS family section (fetched 200, 2026-10-25 and 2026-11-11)
 - https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/contents/skills - the skills directory listing grounding the 87-skill count (91 entries minus the shared-references docs and the three Codex mirrors) (fetched 200, 2026-10-25)
 - https://arxiv.org/abs/2605.03042 - the technical report: cross-model adversarial collaboration, the plausible-unsupported-success failure mode, and the three-layer architecture (fetched 200, 2026-10-21)
-- https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/releases?per_page=5 - the release train through v0.4.28 (2026-09-28), still the latest (fetched 200, 2026-10-25)
+- https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/releases?per_page=5 - the release train through v0.4.28 (2026-09-28), still the latest (fetched 200, 2026-11-15)
 - https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/commits?since=2026-11-03T00:00:00Z&per_page=20 - the November 6 WeChat-group QR refresh behind that push-date move (documentation only), following the November 1-3 News commits (fetched 200, 2026-11-07)
-- https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/commits?since=2026-11-08T00:00:00Z&per_page=10 - the November 8 SuperARIS promotion and the November 11 SSH experiment-sync fix behind this push-date move (fetched 200, 2026-11-11)
+- https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/commits?since=2026-11-08T00:00:00Z&per_page=10 - the November 8 SuperARIS promotion and the November 11 SSH experiment-sync fix behind that push-date move (fetched 200, 2026-11-11)
+- https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/commits?since=2026-11-11T00:00:00Z&per_page=10 - the November 13-14 install-fix commits behind this push-date move (fetched 200, 2026-11-15)
 - https://api.github.com/repos/wanshuiyin/SuperARIS - the sibling project: created 2026-11-08, MIT, 77 stars as of 2026-11-11 (fetched 200, 2026-11-11)
 - https://hn.algolia.com/api/v1/search?query=claude-code-research-in-sleep - the zero-story Hacker News footprint (fetched 200, 2026-10-21)

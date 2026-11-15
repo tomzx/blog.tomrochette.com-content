@@ -1,7 +1,7 @@
 ---
 title: Bifrost
 created: 2026-10-07
-updated: 2026-11-14
+updated: 2026-11-15
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, gateway, self-hosted]
 readability: 3
@@ -23,7 +23,7 @@ The enterprise tier adds clustering with gossip-based sync, RBAC with Okta and E
 
 ## Status
 
-Active and fast-releasing: created 2025-03-19, 8,842 stars as of 2026-10-16, component-tagged releases shipping through the 2026-11-10 patch train (transports v2.5.1 plus telemetry v1.9.7, semanticcache v1.7.7, routing v1.3.2, prompts v1.1.17, and otel v1.6.7 patches, following the 2026-11-06 transports v2.5.0 MCP-gateway feature wave on core v1.15.1), repo pushed 2026-11-14, as of 2026-11-14.
+Active and fast-releasing: created 2025-03-19, 8,842 stars as of 2026-10-16, component-tagged releases shipping through the 2026-11-10 patch train (transports v2.5.1 plus telemetry v1.9.7, semanticcache v1.7.7, routing v1.3.2, prompts v1.1.17, and otel v1.6.7 patches, following the 2026-11-06 transports v2.5.0 MCP-gateway feature wave on core v1.15.1), repo pushed 2026-11-15 with default-branch log-rendering and prompt-cache fixes, as of 2026-11-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=maximhq/bifrost&type=date&theme=dark&legend=top-left" />
