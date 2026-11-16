@@ -1,7 +1,7 @@
 ---
 title: The Perfect Orchestrator
 created: 2026-09-27
-updated: 2026-11-07
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, tmux, verification, claude-code]
 readability: 3
@@ -76,6 +76,7 @@ Not for anyone who needs a maintained tool, multiple harnesses, worktree isolati
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repository, realrun docs tree, demo site, openorchestrators.org, README); no claims changed.
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, recorded-run tree, demo site); claims hold, the last commit still 2026-06-30 and v0.2.0 still the latest release.
 - 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (repository, README, demo site, the June realrun docs, openorchestrators.org); no factual drift, still dormant since the 2026-06-30 push.
+- 2026-11-16 - Re-verified in rotation: every cited URL re-fetched live (repository, README, demo site, the June realrun docs, openorchestrators.org); no factual drift, still dormant since the 2026-06-30 push, and the directory reference annotated, the entry still gone after the 2026-10-05 removal.
 
 ## See also
 
@@ -91,4 +92,4 @@ Not for anyone who needs a maintained tool, multiple harnesses, worktree isolati
 - https://raw.githubusercontent.com/daman8271/the-perfect-orchestrator/HEAD/README.md - the lead-and-worker design, the adversarial verification rule, and the FAQ
 - https://the-perfect-orchestrator.vercel.app - the site the README says its own fleet built and QA'd
 - https://github.com/daman8271/the-perfect-orchestrator/tree/main/docs/realrun-2026-06-06 - the recorded fleet run referenced as evidence
-- https://openorchestrators.org/ - the curated directory's the-perfect-orchestrator entry
+- https://openorchestrators.org/ - the curated directory (the the-perfect-orchestrator entry was removed 2026-10-05, the removal recorded above; re-fetched 2026-11-16, the page live with the entry gone)

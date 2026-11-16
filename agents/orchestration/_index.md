@@ -96,7 +96,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [termio](termio/index.md) - the MIT macOS terminal-first ADE whose termiod daemon keeps sessions alive across restarts, with SSH remote machines and an iPhone companion.
 - [The Perfect Orchestrator](the-perfect-orchestrator/index.md) - the MIT bash and tmux harness where one lead Claude Code session adversarially verifies N worker sessions.
 - [tuios](tuios/index.md) - Gaurav Gosain's MIT Go terminal window manager with per-pane agent state for 24 CLIs, one Inbox, agent mail, and worktree fan-out, 6.2k stars.
-- [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown, community commits resumed in September 2026 but only a v0.1.45 tag, npm still at 0.1.44.
+- [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown, community commits resumed in September 2026 and the first post-shutdown stable, v0.1.46, shipped 2026-11-15.
 - [Worktrunk](worktrunk/index.md) - the Rust `wt` CLI making worktrees as easy as branches, with lifecycle hooks and a one-command merge.
 - [Yao](yao/index.md) - Infinite Wisdom Software's cross-device agent workspace on the five-year Yao Engine, 8.1k stars mostly inherited from its 2021 low-code era.
 - [YYLO](yylo/index.md) - the MIT CLI coordinating coding agents through bounded tasks with per-task worktrees, evidence receipts, protected merges, and a Git-native ledger.

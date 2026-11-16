@@ -19,13 +19,13 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Avante.nvim](avante-nvim/index.md) - the Apache-2.0 Neovim plugin running a Cursor-style agentic loop in the editor with bring-your-own providers, 18.2k stars and a 300-point launch thread behind it.
 - [Bullet](bullet/index.md) - TryBullet's closed-source YC S26 latency bet, free today, with a published 479-of-500 SWE-bench run.
 - [Claude Code](claude-code/index.md) - Anthropic's everywhere-at-once harness, the platform benchmark and the token-cost cautionary tale.
-- [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.7 million installs deep.
+- [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.9 million installs deep.
 - [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
 - [Command Code](command-code/index.md) - the ex-Langbase closed harness whose taste-1 model learns your conventions, credit plans from $1 a month built on open models.
 - [Copilot CLI](copilot-cli/index.md) - GitHub's proprietary terminal agent included in every Copilot plan, first-party GitHub.com reach, preview sandboxes, multi-model credits.
 - [Crush](crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
 - [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 250.0k stars as of 2026-10-15, MIT, prerelease-only with dsh-v0.2.2-rc.3 the newest tag after the 0.2.2 alpha opened.
-- [Exo](exo/index.md) - the MIT self-modification bet, a harness the agent can rewrite at runtime, cheapest measured harness at $1.05 per task.
+- [Exo](exo/index.md) - the MIT runtime that pivoted from a self-rewriting harness to hosting markdown-defined agents on Codex, Claude Code, and Pi, cheapest measured harness at $1.05 per task.
 - [fx](fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
 - [goose](goose/index.md) - Block's Rust agent turned Linux Foundation project, the field's first foundation-governed harness.
@@ -38,7 +38,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Kimi Code](kimi-code/index.md) - Moonshot AI's terminal agent tuned for its own challenger-priced models, subagents through ACP in one Node.js CLI.
 - [LongHorizon-Harness](longhorizon-harness/index.md) - Alibaba DreamX's MIT audited computer-use loop wrapping Claude Code, Codex, OpenCode, and DeepSeek Harness as backends, revived by v0.1.8 on October 21 after an eight-week silence.
 - [MiMo Code](mimo-code/index.md) - Xiaomi's MIT OpenCode fork, a terminal agent built around checkpointed memory and goal-verified long-horizon runs, priced on cheap MiMo tokens.
-- [Mini-SWE-agent](mini-swe-agent/index.md) - the SWE-bench team's roughly-100-line Python baseline harness, 11.6 million PyPI downloads a month, the project its own parent repository now supersedes SWE-agent with.
+- [Mini-SWE-agent](mini-swe-agent/index.md) - the SWE-bench team's roughly-100-line Python baseline harness, 14.3 million PyPI downloads a month, the project its own parent repository now supersedes SWE-agent with.
 - [Mirror](mirror/index.md) - Reflection's early-beta terminal agent over its own open-weights Beam, per-workspace models and approval modes, worktree and microVM workspaces, Python extensions as the product surface.
 - [Nanocoder](nanocoder/index.md) - the Nano Collective's community-built local-first agent, MIT via npm with the widest documented local-engine list, funded by sponsors instead of a company.
 - [Oh My Pi](oh-my-pi/index.md) - Stencil Labs' batteries-included Pi fork with LSP and a real debugger wired into the loop, 35.5k stars past its frozen-core parent.

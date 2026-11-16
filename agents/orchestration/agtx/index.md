@@ -1,7 +1,7 @@
 ---
 title: agtx
 created: 2026-11-01
-updated: 2026-11-08
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal, worktree, blackboard]
 readability: 3
@@ -67,6 +67,7 @@ Not for GUI-first users, and not for remote or VPS workflows, which it does not 
 - 2026-11-01 - Created.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-03; the release line still ends at v1.0.6 (2026-09-16).
 - 2026-11-08 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, all 27 releases with v1.0.6 (2026-09-16) still the newest, the Trendshift listing, and the HN search still returning no agtx story); claims hold.
+- 2026-11-16 - Re-verified in rotation: all cited sources re-fetched (repo API, README, releases with v1.0.6 still the newest, the HN search still only fuzzy noise); the Trendshift page serves a 403 bot wall to both fetch clients while its domain root serves 200, the wall recorded on the reference.
 
 ## See also
 
@@ -81,4 +82,4 @@ Not for GUI-first users, and not for remote or VPS workflows, which it does not 
 - https://raw.githubusercontent.com/fynnfluegge/agtx/HEAD/README.md - the blackboard model, phases, worktrees, mobile app, and oneshot skill
 - https://api.github.com/repos/fynnfluegge/agtx/releases?per_page=100 - the 27-release train through v1.0.6 (2026-09-16)
 - https://hn.algolia.com/api/v1/search?query=agtx&tags=story&hitsPerPage=5 - the zero-story Hacker News footprint as of 2026-11-08 (the query returns only fuzzy non-agent noise, re-checked 2026-11-08)
-- https://trendshift.io/repositories/23889 - the Trendshift listing linked from the README
+- https://trendshift.io/repositories/23889 - the Trendshift listing linked from the README (the page serves a 403 bot wall to both fetch clients as of 2026-11-16 while the domain root serves 200; the citation stands through the README link)

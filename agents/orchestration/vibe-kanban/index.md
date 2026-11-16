@@ -1,7 +1,7 @@
 ---
 title: Vibe Kanban
 created: 2026-08-24
-updated: 2026-11-12
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, kanban, git-worktrees, open-source]
 readability: 3
@@ -17,7 +17,7 @@ Vibe Kanban is an Apache-2.0 kanban board for managing parallel coding agents in
 
 ## What it is
 
-A Rust backend with a web UI that you start with `npx vibe-kanban`; the last published version is 0.1.44.
+A Rust backend with a web UI that you start with `npx vibe-kanban`; the community's first post-shutdown stable release, 0.1.46, published 2026-11-15.
 The workflow is plan on a kanban board, dispatch a card to a workspace (a git worktree with its own branch, terminal, and dev server), then review diffs with inline comments, preview the app in a built-in browser, and open a PR.
 It supports 10+ agents including Claude Code, Codex, Gemini CLI, Copilot, Amp, Cursor, OpenCode, Droid, CCR, Qwen Code, and Aider.
 Self-hosting via Docker was documented for teams.
@@ -28,7 +28,8 @@ Company dead, project alive.
 Bloop shut down on 2026-04-10, with CEO Louis Knight-Webb writing that "the vast majority are free users and we couldn't find a business model".
 Remote services (kanban issues, comments, projects, organisations) were removed 30 days after the announcement; refunds were issued and subscriptions terminated.
 **Local workspaces keep working, and the unpaid community has kept moving: as of 2026-11-12 the default branch shows twenty-one community commits since the shutdown, the first a 2026-09-15 Copilot version bump by a former Bloop maintainer, then nine more between 2026-09-16 and 2026-09-19 with substantive fixes (server startup routing, session-replay performance, swapped stream labels, an IME Enter fix, pnpm audit fixes, and a SECURITY.md), two on 2026-10-26 (a local CI script that runs GitHub workflow checks without Actions), one on 2026-10-28 after a thirty-seven-day silence, one on 2026-11-03 (a Cargo.lock version update for the relay-tunnel and remote crates, merged through PR #3490), and six more between 2026-11-09 and 2026-11-12, the project's first post-shutdown feature work rather than fixes: installing and running agents from the ACP registry, setting model, reasoning, mode, and permissions over ACP, a Copilot package pulled from the registry, and Copilot sign-in restored, most of it from a second active contributor.
-On 2026-09-19 the community committed a version bump to 0.1.45 and published a prerelease GitHub release named v0.1.45 from the timestamped tag v0.1.45-20260919085201; that prerelease release is no longer listed on GitHub as of 2026-09-30 (the release URL returns 404 and the release list stops at 0.1.44), though the timestamped tag remains, no plain v0.1.45 tag exists, no stable release has shipped beyond 0.1.44, npm still serves 0.1.44 as latest as of 2026-11-12, while the tracker stands at 544 open issues and pull requests.**
+On 2026-09-19 the community committed a version bump to 0.1.45 and published a prerelease GitHub release named v0.1.45 from the timestamped tag v0.1.45-20260919085201; that prerelease release is no longer listed on GitHub as of 2026-09-30 (the release URL returns 404 and the release list stopped at 0.1.44), and no plain v0.1.45 tag exists.
+**The stalemate ended 2026-11-15: the community published v0.1.46, the project's first post-shutdown stable release, from the timestamped tag v0.1.46.1794744340, bundling the ACP-registry agent installs, the model-reasoning-mode-permission controls over ACP, the restored Copilot sign-in, and the session-replay and IME fixes, with three first-time contributors in the batch, and npm now serves 0.1.46 as latest (GitHub releases, npm registry, as of 2026-11-16), while the tracker stands at 544 open issues and pull requests.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=BloopAI/vibe-kanban&type=date&theme=dark&legend=top-left" />
@@ -45,7 +46,7 @@ On 2026-09-19 the community committed a version bump to 0.1.45 and published a p
 
 ## Cautions
 
-- Nobody is paid to fix your bug anymore, and although commits landed daily through 2026-09-19, the v0.1.45 prerelease recorded on 2026-09-24 is no longer on the GitHub release list, npm still serves 0.1.44 as latest, and nothing stable has shipped since the shutdown.
+- Nobody is paid to fix your bug anymore, and although the community shipped its first post-shutdown stable on 2026-11-15, the train still ran on a handful of volunteers' evenings, so a regression you hit lands on their spare time.
 - At launch, telemetry defaulted to on and collected emails and GitHub usernames, switched to opt-in only after HN criticism (the fix shipped within hours, but the default tells you about the growth incentives).
 - The team features (shared issues, orgs) are exactly the part that died, which is the part companies would pay for.
 - GitHub integration historically asked for broad permissions, a recurring complaint across this whole category.
@@ -84,6 +85,7 @@ My disagreeable claim: bloop's failure is evidence that this orchestration layer
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, site, shutdown post, npm registry, HN items); claims hold, npm still 0.1.44 latest, the release list still stops at 0.1.44, and the default branch is unchanged since the 2026-10-28 community commit.
 - 2026-11-07 - Recorded the 2026-11-03 community commit (relay-tunnel and remote Cargo.lock update through PR #3490), the first since 2026-10-28, and dropped the only-activity-in-the-month claim it supersedes.
 - 2026-11-12 - Recorded the community train accelerating: six commits between 2026-11-09 and 2026-11-12 carrying the orphaned project's first post-shutdown feature work (ACP-registry agent installs, model and permissions over ACP, Copilot sign-in), the count refreshed to twenty-one, npm still 0.1.44.
+- 2026-11-16 - Recorded v0.1.46 (2026-11-15) as the project's first post-shutdown stable release, published from the timestamped tag with the ACP feature work bundled and three first-time contributors, npm's latest moved to 0.1.46; the definition line, the nobody-is-paid caution, and the npm reference updated with it.
 
 ## See also
 
@@ -98,4 +100,4 @@ My disagreeable claim: bloop's failure is evidence that this orchestration layer
 - https://www.vibekanban.com/blog/shutdown - shutdown announcement, service removal details, refunds
 - https://www.vibekanban.com/ - product overview, 30,000 active users claim, sunset banner
 - https://news.ycombinator.com/item?id=44533004 - launch thread with the telemetry and permissions critique
-- https://registry.npmjs.org/vibe-kanban/latest - version 0.1.44 metadata and maintainers
+- https://registry.npmjs.org/vibe-kanban - npm registry version history: 0.1.44 the last company publish, 0.1.45 the community bump, 0.1.46 the first post-shutdown stable (dist-tags latest as of 2026-11-16)

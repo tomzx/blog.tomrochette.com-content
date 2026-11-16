@@ -1,7 +1,7 @@
 ---
 title: Continue
 created: 2026-08-26
-updated: 2026-11-14
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source, byok]
 readability: 3
@@ -16,7 +16,7 @@ Continue was an Apache-2.0 open-source coding agent shipped as a VS Code extensi
 
 ## What it is
 
-**One config-driven agent across three surfaces**: the VS Code extension (4,556,963 marketplace installs as of 2026-11-14), a JetBrains plugin, and a CLI, all configured through YAML with rules, MCP servers, and any model provider you point it at.
+**One config-driven agent across three surfaces**: the VS Code extension (4,566,614 marketplace installs as of 2026-11-16), a JetBrains plugin, and a CLI, all configured through YAML with rules, MCP servers, and any model provider you point it at.
 Local models were a first-class path, with official guides for [Ollama](https://docs.continue.dev/guides/ollama-guide) and for running fully offline.
 The final 2.x releases (2.0.0 and 2.1.0, both tagged 2026-06-19) removed anonymous telemetry and pulled out authentication entirely, leaving a self-hostable codebase with no account anywhere.
 
@@ -25,7 +25,8 @@ The final 2.x releases (2.0.0 and 2.1.0, both tagged 2026-06-19) removed anonymo
 Dead as an independent, by acquisition.
 The [homepage](https://www.continue.dev/) reads "Continue was acquired by Cursor", announced 2026-06-15 (the [HN thread](https://news.ycombinator.com/item?id=48548758) dates it).
 The README states the repository "is no longer actively maintained and is read-only for all users", a notice that still stands even though the repo API recorded metadata pushes as recently as November 2026.
-As of 2026-10-16 the repo shows about 36.2k stars (36,230) and 5.5k forks (5,479), the docs remain online, and the marketplace extension still installs at a 3.2 average rating (as of 2026-10-27).
+As of 2026-10-16 the repo shows about 36.2k stars (36,230) and 5.5k forks (5,479), the docs remain online, and the marketplace extension still installs at a 3.2 average rating (as of 2026-10-27) with the install counter at 4,566,614 as of 2026-11-16.
+The frozen docs' feature list is the as-they-were surface record: Agent, Chat, Edit, and Autocomplete modes plus the Continue CLI, with rules managed in `.continue/rules`, no AGENTS.md support documented, and no cloud-agent, session-grid, scheduled-work, or mobile-remote surface anywhere in them.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=continuedev/continue&type=date&theme=dark&legend=top-left" />
@@ -77,6 +78,7 @@ For the workflow it pioneered, use Cline or an ACP-speaking host.
 - 2026-10-27 - Rotation re-verification, all cited URLs re-fetched live: the acquisition notice, the read-only README, the Ollama guide, and both funeral threads stand; the marketplace counter refreshed to 4,435,025 installs with the 3.2 average rating confirmed as the live reading (the 2026-10-12 dating is gone).
 - 2026-11-06 - Rotation re-verification, all cited URLs re-fetched live: the acquisition notice, the read-only README (the repository not archived, metadata pushes continuing into November), the repo API, the Ollama guide, and both funeral threads (13 points and 4 points) stand; the marketplace counter refreshed to 4,506,952 installs, with the average-rating figure not re-readable in this run's fetch, so the 3.2 reading stands dated 2026-10-27.
 - 2026-11-14 - Rotation re-verification, all cited URLs re-fetched live: the acquisition notice, the read-only README (Apache-2.0 through 2026, repository not archived, metadata pushes continuing November 13), the repo API, the Ollama guide, and both funeral threads (13 points and 4 points) stand; the marketplace counter refreshed to 4,556,963 installs, with the average rating again not re-readable in the fetch, so the 3.2 reading stands dated 2026-10-27.
+- 2026-11-16 - Out-of-rotation re-verification after the matrix alignment check found the Continue column carrying cells the note did not support: grounded the as-they-were surface record against the frozen docs index and rules page fetched this run (Agent, Chat, Edit, Autocomplete, CLI; rules in `.continue/rules`; no cloud, session-grid, scheduled-work, or mobile-remote surface documented), and refreshed the marketplace counter to 4,566,614 installs (rating not re-readable in the fetch, the 3.2 reading stands dated 2026-10-27).
 
 ## See also
 
@@ -93,4 +95,6 @@ For the workflow it pioneered, use Cline or an ACP-speaking host.
 - https://news.ycombinator.com/item?id=48548758 - the June 15, 2026 acquisition thread, re-verified 2026-10-16
 - https://news.ycombinator.com/item?id=49398366 - the August 2026 "dead, alternatives?" thread, re-verified 2026-10-16
 - https://docs.continue.dev/guides/ollama-guide - the local-model path, still live, re-verified 2026-10-16
-- https://marketplace.visualstudio.com/items?itemName=Continue.continue - install count and rating, as of 2026-11-14 (4,556,963 installs; the 3.2 average rating stands dated 2026-10-27)
+- https://docs.continue.dev/ - the frozen docs index: the as-they-were surface record (Agent, Chat, Edit, Autocomplete modes, the Continue CLI), fetched 2026-11-16
+- https://docs.continue.dev/customize/rules - the rules system: rules managed in `.continue/rules`, with no AGENTS.md support documented, fetched 2026-11-16
+- https://marketplace.visualstudio.com/items?itemName=Continue.continue - install count and rating, as of 2026-11-16 (4,566,614 installs; the 3.2 average rating stands dated 2026-10-27)

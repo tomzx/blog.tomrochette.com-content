@@ -1,7 +1,7 @@
 ---
 title: Lanes
 created: 2026-09-27
-updated: 2026-11-07
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, macos, worktrees, issue-board]
 readability: 3
@@ -24,8 +24,8 @@ The app runs agents locally, never proxies model calls, and points sessions at w
 
 ## Status
 
-Active and iterating: version v0.50.0 shipped 2026-10-31, the first release after the v0.49 line that opened 2026-09-08 and closed with v0.49.6 on 2026-10-06, the macOS app is on Homebrew, and the changelog runs through October 2026.
-The public source repository, lanes-sh/app, shows about 273 stars as of 2026-10-07, created 2026-03-22, last pushed 2026-10-31; the product also spans the Apache-2.0 lanes-sh/link endpoint and the hosted Lanes Forms and Compute services.
+Active and iterating: version v0.50.0 shipped 2026-10-31, the first release after the v0.49 line that opened 2026-09-08 and closed with v0.49.6 on 2026-10-06, then v0.50.1 and v0.50.2 landing together on 2026-11-15 (update-failure diagnostics that keep the log that proves a failed update, and a model picker that leads with aliases so it stops going stale), the macOS app is on Homebrew, and the changelog runs through November 2026.
+The public source repository, lanes-sh/app, shows about 273 stars as of 2026-10-07, created 2026-03-22, last pushed 2026-11-15; the product also spans the Apache-2.0 lanes-sh/link endpoint and the hosted Lanes Forms and Compute services.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lanes-sh/app&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,8 @@ Not for Windows or Linux shops, and not for anyone who needs a verifiably open l
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (product site, docs, pricing, llms.txt, the app repository, the runany.dev walkthrough); no claims changed, v0.49.6 (2026-10-06) still the newest release and the repository quiet since.
 - 2026-11-01 - Recorded v0.50.0 (2026-10-31) as the latest release.
 - 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (lanes.sh site, docs, pricing, llms.txt, repository, the runany.dev writeup); no factual drift, pushes still stopped at the 2026-10-31 date the note records.
+- 2026-11-16 - Recorded v0.50.1 and v0.50.2 (both 2026-11-15, update-failure diagnostics and alias-first model picker), the push date refreshed to 2026-11-15.
+- 2026-11-16 - Re-verified in rotation: every cited URL re-fetched live (lanes.sh site, docs, pricing, llms.txt, repository, the runany.dev walkthrough); no further drift, the pricing tiers still Free $0, Pro $19, Enterprise on request.
 
 ## See also
 

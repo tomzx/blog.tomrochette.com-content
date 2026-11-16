@@ -1,7 +1,7 @@
 ---
 title: qmd
 created: 2026-08-30
-updated: 2026-11-13
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, retrieval, local-search, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, by Tobias Lütke (Shopify CEO), who authored about three quarters of the co
 
 ## Status
 
-Young with unusual traction: 30,421 stars, 1,914 forks, 227 open issues and PRs as of 2026-10-18, created 2025-12-08.
+Young with unusual traction: 30,421 stars as of 2026-10-18, 1,953 forks and 258 open issues and PRs as of 2026-11-16, created 2025-12-08.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tobi/qmd&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Young with unusual traction: 30,421 stars, 1,914 forks, 227 open issues and PRs 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tobi/qmd&type=date&legend=top-left" />
 </picture>
 
-Latest release v2.8.3 on 2026-08-16, pushed 2026-10-15, with a large unreleased train accumulating on main: document metadata with a shared recursive filter AST across every search surface, metadata discovery, a collection-partitioned vector index, and a stream of community performance fixes, none of it released yet as of 2026-10-20.
+Latest release v2.8.3 on 2026-08-16, pushed 2026-11-15, with a large unreleased train accumulating on main: document metadata with a shared recursive filter AST across every search surface, metadata discovery, a collection-partitioned vector index, a stream of community performance fixes, and, since the 2026-11-15 contributions wave, an OpenAI embeddings processor, a System One rerank integration, and collection processors with processor approval retained in the config digest, none of it released yet as of 2026-11-16.
 **The maintainer concentration is the story: one high-profile author shipping v1 through v2.8 in nine months, with community PRs around the edge.**
 
 ## Strengths
@@ -76,6 +76,7 @@ Not for code-symbol search (use grep-class tools), constrained machines, or team
 - 2026-10-27 - Full rotation re-verification: every cited URL re-fetched and intact; v2.8.3 remains the latest release with the unreleased train on main unchanged and no push since 2026-10-15.
 - 2026-11-06 - Full rotation re-verification: every cited URL re-fetched and intact (repository page and README, CHANGELOG, GitHub API, and the author's HN thread); v2.8.3 remains the latest release with the unreleased train on main unchanged (metadata filtering and discovery, collection-partitioned vectors) and no push since 2026-10-15.
 - 2026-11-13 - Full rotation re-verification: every cited URL re-fetched and intact (repository page and API, README, CHANGELOG, and the author's HN thread); v2.8.3 remains the latest release, the unreleased train on main unchanged in substance (metadata filtering and discovery, collection-partitioned vectors, community fixes) with two more unreleased fixes since the last look, and no push since 2026-10-15.
+- 2026-11-16 - Recorded the 2026-11-15 contributions wave joining the unreleased train (an OpenAI embeddings processor, a System One rerank integration, collection processors, and a fix keeping processor approval in the config digest) and refreshed the counts (1,953 forks, 258 open issues and PRs, pushed 2026-11-15); v2.8.3 remains the latest release.
 
 ## See also
 

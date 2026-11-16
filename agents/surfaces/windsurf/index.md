@@ -1,7 +1,7 @@
 ---
 title: Windsurf
 created: 2026-08-23
-updated: 2026-11-08
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, cognition, devin]
 readability: 3
@@ -84,6 +84,7 @@ Not for new adoption: picking a brand mid-retirement means betting on one compan
 - 2026-10-22 - Rotation re-verification, all cited URLs re-fetched live: both Cognition posts, the Devin Desktop docs, the redirect chain (windsurf.com still landing on devin.ai/desktop, which 404ed to this fetcher the way its pricing route has before, and docs.windsurf.com still funneling into docs.devin.ai), the funding report, and all three threads stand; the devin.ai/pricing route 404ed again, so the 2026-10-12 ladder stands dated.
 - 2026-11-01 - Rotation re-verification, all cited URLs re-fetched live: the redirect chain re-confirmed by header (windsurf.com 308 to devin.ai/desktop, docs.windsurf.com 308 to docs.devin.ai/desktop/getting-started), the Devin Desktop docs and both Cognition posts live, the funding report and all three threads stand, and the devin.ai/pricing route served 200 with the tier ladder unchanged (Free $0, Pro $20, Max $200, Team $80 plus $40 per full dev seat, SWE-2 still the latest model), so the ladder stands re-observed 2026-11-01.
 - 2026-11-08 - Rotation re-verification, all cited URLs re-fetched live: the redirect chain re-confirmed by header, the Devin Desktop docs, both Cognition posts, the funding report, and all three threads stand, and the devin.ai/pricing route served 200 with the tier ladder unchanged (Free $0, Pro $20, Max $200, Team $80 plus $40 per full dev seat, SWE-2 still advertised), so the ladder stands re-observed 2026-11-08.
+- 2026-11-16 - Rotation re-verification, all cited URLs re-fetched live: the redirect chain re-confirmed by header (windsurf.com 308 to devin.ai/desktop, docs.windsurf.com 308 through /windsurf/getting-started), the Devin Desktop docs and both Cognition posts live, the funding report and all three threads (1,055, 672, and 667 points) stand, and the devin.ai/pricing route served 200 with the tier ladder unchanged (Free $0, Pro $20, Max $200, Team $80 plus $40 per full dev seat, SWE-2 still the latest model), so the ladder stands re-observed 2026-11-16.
 
 ## See also
 
@@ -95,8 +96,8 @@ Not for new adoption: picking a brand mid-retirement means betting on one compan
 
 - https://cognition.com/blog/windsurf - the July 14, 2025 acquisition agreement, ARR, and customer counts
 - https://cognition.com/blog/introducing-devin-desktop - the June 2, 2026 rebrand announcement
-- https://docs.devin.ai/desktop/getting-started - current product docs as Devin Desktop (package, harness, ACP, Cascade docs), now also the redirect target of docs.windsurf.com (308 through /windsurf/getting-started), as of 2026-09-27
-- https://devin.ai/pricing - the Devin tier prices re-observed on 2026-11-08, unchanged from the 2026-09-20 baseline; the page also advertises SWE-2 as the latest model and Pro naming frontier models from OpenAI, Claude, Gemini, and SpaceXAI; markdown fetches 404ed on 2026-10-10, 2026-10-11, and 2026-10-22, and served 200 with the same ladder on 2026-10-12, 2026-11-01, and 2026-11-08
+- https://docs.devin.ai/desktop/getting-started - current product docs as Devin Desktop (package, harness, ACP, Cascade docs), now also the redirect target of docs.windsurf.com (308 through /windsurf/getting-started), re-fetched 2026-11-16
+- https://devin.ai/pricing - the Devin tier prices re-observed on 2026-11-16, unchanged from the 2026-09-20 baseline; the page also advertises SWE-2 as the latest model and Pro naming frontier models from OpenAI, Claude, Gemini, and SpaceXAI; markdown fetches 404ed on 2026-10-10, 2026-10-11, and 2026-10-22, and served 200 with the same ladder on 2026-10-12, 2026-11-01, 2026-11-08, and 2026-11-16
 - https://theedgemalaysia.com/node/816527 - Bloomberg's report via The Edge Malaysia, the $1 billion round at a $47 billion valuation, September 2, 2026
 - https://news.ycombinator.com/item?id=44536988 - the July 2025 deal-collapse and CEO-to-Google thread
 - https://news.ycombinator.com/item?id=44673296 - the early-employee equity dispute thread

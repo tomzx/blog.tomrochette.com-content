@@ -1,7 +1,7 @@
 ---
 title: MetaGPT
 created: 2026-09-27
-updated: 2026-11-07
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, software-engineering]
 readability: 3
@@ -76,6 +76,7 @@ My disagreeable claim: OpenManus, not MetaGPT, is the real continuation of this 
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo, org repo list, releases still topping at v0.8.2 from 2025-03-09, docs, arXiv paper, MGX site, README, HN threads); no claims changed.
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, releases, README, docs, MGX, arXiv, HN Algolia, OpenManus repo); dormancy holds (last push still 2026-01-21), the OpenManus push date refreshed to 2026-11-02.
 - 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (repository API, README, releases, the paper, docs, the FoundationAgents org, the HN thread and search, mgx.dev); no factual drift, the repository still dormant on its 2026-01-21 push.
+- 2026-11-16 - Re-verified in rotation: every cited URL re-fetched live (repository API, README, releases, the paper, docs, the FoundationAgents org, the HN thread and search, mgx.dev); no factual drift, v0.8.2 (2025-03-09) still the latest release and the repository still dormant on its 2026-01-21 push.
 
 ## See also
 

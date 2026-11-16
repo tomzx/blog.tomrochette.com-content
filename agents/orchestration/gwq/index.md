@@ -1,7 +1,7 @@
 ---
 title: gwq
 created: 2026-10-21
-updated: 2026-11-07
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, git-worktrees, cli, tmux]
 readability: 3
@@ -75,6 +75,7 @@ Not for anyone expecting review, PR, or session management from the same tool.
 - 2026-10-26 - Corrected the star-history chart markup (the light source carried the dark-theme parameter; the theme parameter now sits only on the dark source).
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, releases, release notes, the shunk031.me workflow post); claims hold, quiet since the 2026-10-02 push with v0.1.2 still the latest release.
 - 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (repository API, README, releases, the v0.1.2 notes, the shunk031.me post, the HN thread); no factual drift, still quiet since the 2026-10-02 push.
+- 2026-11-16 - Re-verified in rotation: every cited URL re-fetched live (repository API, README, releases, the v0.1.2 notes, the shunk031.me post, the HN thread); no factual drift, v0.1.2 (2026-10-02) still the latest release with the push still stopped at the same date.
 
 ## See also
 

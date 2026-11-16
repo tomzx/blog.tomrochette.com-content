@@ -1,7 +1,7 @@
 ---
 title: jcode
 created: 2026-08-30
-updated: 2026-11-08
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, yc, memory, multi-agent]
 readability: 3
@@ -26,7 +26,7 @@ Its three distinctive systems are an embedding-based memory graph with passive r
 
 **Active and rising fast, with a bus factor of one.**
 Created January 5, 2026, it shows 20,823 stars and 2,418 forks as of 2026-10-29 with pushes landing the day of this check (GitHub API, re-checked 2026-10-30), and a release cadence that ran near-daily until v0.84.0 on September 7, 2026, followed by a twelve-day pause that v0.85.0 ended on September 19, 2026, v0.86.0 a day later on September 20, the v0.87 pair starting September 22 (v0.87.0, which added Claude Opus 5.5 with independent Anthropic model discovery and Claude Code 2.1.280 OAuth compatibility, with v0.87.1 following within hours), v0.88.0 on September 23, which made Claude Opus 5.5 the default Anthropic model and added multi-browser support and banked resets for exhausted OpenAI usage, and a near-daily train still running as of 2026-10-22 (v0.89.0 on September 28 added voice input and agent applets, v0.90.0 on October 1 moved web search to the provider's own server-side search with a config opt-out, v0.91.0 on October 6 added a Google Calendar tool, guided OAuth app setup, Alt-based speed-tier cycling, and a /desktop handoff to Jcode Desktop, v0.92.0 on October 7 added opt-in codemode over an embedded QuickJS sandbox, v0.93.0 on October 9 cut first-frame startup to about 20 ms and added the post_tool_feedback hook, v0.94.0 on October 10 added queued commands, an Alt+G git-commit-log view, and mid-turn message observation and cancellation for API clients, and v0.95.0 on October 12 routed OpenCode Go models including grok-4.7 and gpt-6-luna over the Responses API, exposed turn-end token usage to hooks, and added per-session worker model overrides in /agents plus a stalled-worker watchdog for swarms, the train ran on through v0.96.0 and v0.97.0 on October 14 to v0.98.1 on October 15 and v0.99.0 on October 18, which added account failover that retries a turn on the next pool account when one hits a usage limit, session hibernation that frees memory from idle sessions, and much faster reload of large sessions by showing the local transcript immediately and sending only new history, and v0.99.1 on October 22 fixed OpenAI models failing every turn on a rejected tool schema, made the TUI recover from a vanished or unresponsive server instead of retrying forever, and added native Muse subscription login plus Venice AI as a provider).
-The stable train has sat at v0.99.1 since October 22 while an opt-in v1 preview line publishes experimental builds (v1.0.0-preview.24 and v1.0.0-preview.30, both October 28, the preview line running on through v1.0.0-preview.394 by November 10), with pushes continuing as of 2026-11-11 (GitHub API).
+The stable train has sat at v0.99.1 since October 22 while an opt-in v1 preview line publishes experimental builds (v1.0.0-preview.24 and v1.0.0-preview.30, both October 28, the preview line running on through v1.0.0-preview.424 by November 12), with pushes continuing as of 2026-11-16 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=1jehuang/jcode&type=date&theme=dark&legend=top-left" />
@@ -63,7 +63,7 @@ The independent footprint is thin so far: two Hacker News threads at 3 and 5 poi
 
 The software is free under MIT with no feature gates.
 Hosted inference starts at $10/month for $20 of credit (the first $20 effectively half provider price), on a plan ladder from $10 to $1,000 where every plan grants double its price in credit plus 50 Jcode Cloud machine hours per $10 of plan; after the credit, usage bills at provider API prices under an extra-usage limit that now defaults to $0 per month and is raised by the user in account settings, replacing the automatic 10x-the-plan cap this note recorded through October ([pricing](https://jcode.sh/pricing), re-verified 2026-11-11).
-justrust remote Rust builds now ride plans from $20 up at 2,500 builds per $10 of plan each month (then $0.10 per paid extra build), with the first month of the $20 plan free including 5,000 builds; the $10 plan no longer includes builds.
+justrust remote Rust builds now ride plans from $20 up at 2,500 builds per $10 of plan each month (then $0.10 per paid extra build), with a 7-day free trial of the $20 plan carrying up to 500 builds, whichever ends first; the $10 plan no longer includes builds.
 Enterprise is custom.
 
 ## Price history
@@ -73,6 +73,7 @@ Enterprise is custom.
 | 2026-09 | Hosted inference | Baseline: software free (MIT); hosted $10/mo for $20 of credit, then usage at 10% off provider API prices, hard-capped by default at $100/mo; Enterprise custom. | [jcode.sh/pricing](https://jcode.sh/pricing) |
 | 2026-10-04 | Hosted inference | The page now lists plans from $10 to $1,000 per month, every plan granting double its price in credit plus 50 Jcode Cloud machine hours per $10 of plan; post-credit usage is billed at provider API prices (the earlier 10%-off description no longer appears), capped at 10x the plan. | [jcode.sh/pricing](https://jcode.sh/pricing) |
 | 2026-10-30 | Hosted inference | The automatic 10x-the-plan extra-usage cap became a default-$0 monthly limit the user raises in account settings; justrust builds moved from 500 per $10 of plan to 2,500 per $10 on plans from $20 (the $10 plan no longer includes builds), with a free first month of the $20 plan carrying 5,000 builds. | [jcode.sh/pricing](https://jcode.sh/pricing) |
+| 2026-11-16 | justrust free trial | The $20-plan free trial tightened from the first month with 5,000 builds to 7 days with up to 500 builds, whichever ends first; paid-plan build allotments unchanged. | [jcode.sh/pricing](https://jcode.sh/pricing) |
 
 ## Compared to
 
@@ -113,6 +114,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 - 2026-10-30 - Rotation re-verification, re-fetching every cited reference (all live): recorded the pricing-page rework (the automatic 10x-the-plan usage cap replaced by a default-$0 extra-usage limit the user raises, justrust builds at 2,500 per $10 of plan from the $20 tier with a free first month, appended to Price history), the live prompt counter reading 248 tokens, and refreshed the benchmark measurement pin and push as-of.
 - 2026-11-01 - Recorded the opt-in v1 preview line (v1.0.0-preview.24 and v1.0.0-preview.30, both published October 28, experimental binaries directing production use to the stable channel) running behind the stable train parked at v0.99.1 since October 22, and refreshed pushes to 2026-11-01.
 - 2026-11-11 - Rotation re-verification, re-fetching every cited reference (all live): the preview line reached v1.0.0-preview.394 (November 10) behind the stable train parked at v0.99.1, pushes refreshed to 2026-11-11, and the pricing page's visible terms re-verified unchanged (credit doubling, the default-$0 extra-usage limit, and justrust builds at 2,500 per $10 of plan).
+- 2026-11-16 - Rotation re-verification, re-fetching every cited reference (all live): the preview line reached v1.0.0-preview.424 (November 12) behind the stable train parked at v0.99.1, pushes refreshed to 2026-11-16, and the justrust free trial tightened to 7 days with up to 500 builds (from the first month with 5,000), appended to Price history.
 
 ## See also
 
@@ -127,7 +129,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 - https://jcode.sh/ - mission, RAM and startup benchmarks, memory, swarm, self-dev, prompt-size study, changelog
 - https://jcode.sh/docs - AGENTS.md loading, hooks, skills, stdio-only MCP, remote daemon, ambient config
 - https://jcode.sh/about - Solo Systems, Jeremy Huang, solo founder, YC S26
-- https://jcode.sh/pricing - hosted inference plans, credit doubling, Jcode Cloud hours, justrust remote-build allotment (2,500 per $10 of plan from the $20 tier), and enterprise terms, re-verified 2026-11-11
+- https://jcode.sh/pricing - hosted inference plans, credit doubling, Jcode Cloud hours, justrust remote-build allotment (2,500 per $10 of plan from the $20 tier), the 7-day trial, and enterprise terms, re-verified 2026-11-16
 - https://grigio.org/jcode-the-coding-agent-that-raises-the-skill-ceiling-vs-opencode-and-pi/ - independent three-way comparison and the ambient-mode caveat
 - https://news.ycombinator.com/item?id=49249151 - the August 10, 2026 thread, 5 points, zero comments
 - https://news.ycombinator.com/item?id=47961940 - the April 30, 2026 Show HN, 3 points, zero comments

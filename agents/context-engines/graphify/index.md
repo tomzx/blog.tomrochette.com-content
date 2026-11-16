@@ -1,7 +1,7 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-11-15
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
@@ -25,7 +25,8 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 
 ## Status
 
-Growing absurdly fast for its age: 126,981 stars as of 2026-10-16, latest release v0.9.109 on 2026-11-14, 3,048 commits in about six months since 2026-04-03, and 14,191 forks and 1,633 open issues and pull requests as of 2026-11-15 (391 contributors as of 2026-11-15).
+Growing absurdly fast for its age: 126,981 stars as of 2026-10-16, latest release v0.9.111 on 2026-11-15, 3,065 commits in about six months since 2026-04-03, and 14,260 forks and 1,638 open issues and pull requests as of 2026-11-16 (420 contributors as of 2026-11-16).
+Releases v0.9.110 and v0.9.111 (both 2026-11-15) fixed Python aliased-import call linking (`from mod import foo as bar; bar()` now links from method bodies and decorated definitions) and shipped a maintenance-and-security release raising the minimum Python to 3.11, pulling in patched optional and transitive dependencies after 3.10's October 2026 end of life.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Graphify-Labs/graphify&type=date&theme=dark&legend=top-left" />
@@ -112,6 +113,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - 2026-11-11 - Recorded the v0.9.105 and v0.9.106 pair (2026-11-09 and 11-10: a watch-tree fix pruning ignored directories so large projects stop exhausting inotify watches, C++ member-call resolution through field-typed receivers, type aliases, and forward declarations, TS/JS barrel and ESM-namespace import resolution, a uv/pip Python-version cap so fresh installs stop failing on interpreter builds, a query fix making BFS order hash-independent so edge-line output stops varying with `PYTHONHASHSEED`, a `--no-doc-demotion` query flag for docs-first corpora, and the AST cache schema bumped to 43 so warm caches re-run the affected Python and C++ extractions) and refreshed the volatile numbers (2,988 commits, 13,963 forks, 1,629 open issues and PRs); PyPI tracks 0.9.106, hosted plans re-verified unchanged against the live pricing page.
 - 2026-11-13 - Recorded the v0.9.107 and v0.9.108 pair (2026-11-11 and 11-12: v0.9.107 kept case-only and underscore-prefixed member twins apart in node ids across Java, PHP, and module-level declarations, stopped the PHP route-path scan at the closure's own argument, kept LLM slice timeouts partial so failed docs re-queue, and sized the AST worker pool by uncached work while the read path stopped loading every language extractor, and v0.9.108 fixed the graph-reload single-flight race so a reload stops stalling every MCP request, accepted Oracle `[NON]EDITIONABLE` in routine and trigger recovery, let `context_filter` reach heritage edges without a context, fixed unparsed derived-table aliases and comma joins and dblink suffixes in SQL routine bodies, typed Java calls through class-qualified static fields, bound C# calls on keyword-typed receivers, and shipped a local Gemini CLI extension from the repo root) and refreshed the volatile numbers (3,027 commits, 389 contributors, 14,089 forks, 1,639 open issues and PRs); PyPI tracks 0.9.108, hosted plans re-verified unchanged against the live pricing page.
 - 2026-11-15 - Recorded release v0.9.109 (2026-11-14: node-id collision fixes keeping `_name`/`name` and case-only member twins apart across C++, Swift, Kotlin, and Dart, C# explicit interface implementations kept out of overload binding with leftover overloads paired against ordinary members and non-UTF-8 files decoded before directive blanking, LLM graph-fragment validation rejecting ambiguous fragments before caching while accepting a single-element array wrapper, last good AST records preserved on source failure, and the `/graphify` skill's B3.5 coverage step reading the scan root from `.graphify_root`) and refreshed the volatile numbers (3,048 commits, 391 contributors, 14,191 forks, 1,633 open issues and PRs); PyPI tracks 0.9.109, hosted plans re-verified unchanged against the live pricing page.
+- 2026-11-16 - Recorded the v0.9.110 and v0.9.111 pair (both 2026-11-15: Python aliased-import call linking from method bodies and decorated definitions, and a maintenance-and-security release raising the minimum Python from 3.10 to 3.11 for the patched dependency line) and refreshed the volatile numbers (3,065 commits, 420 contributors, 14,260 forks, 1,638 open issues and PRs); PyPI tracks 0.9.111.
 
 ## See also
 
@@ -127,7 +129,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - https://graphify.com/ - positioning and the no-embeddings claim
 - https://graphify.com/pricing - the four hosted plans above the free core, re-verified unchanged 2026-10-07, 2026-11-13, and 2026-11-15
 - https://graphify.com/llms-full.txt - the full plan table grounding the pricing section (monthly and annual billing), fetched 2026-10-07
-- https://pypi.org/project/graphifyy/ - the distribution and current version (0.9.109, re-fetched 2026-11-15)
+- https://pypi.org/project/graphifyy/ - the distribution and current version (0.9.111, re-fetched 2026-11-16)
 - https://www.ycombinator.com/companies/graphify-labs - the maker, batch, and self-reported adoption claims
 - https://github.com/zachsaw/graphify-csharp - the third-party C# port, 73 stars as of 2026-10-10
 - https://news.ycombinator.com/item?id=49667188 - the port's Show HN thread, 46 points and 21 comments, verified via the Algolia API

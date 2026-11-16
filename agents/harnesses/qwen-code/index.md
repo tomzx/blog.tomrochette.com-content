@@ -1,7 +1,7 @@
 ---
 title: Qwen Code
 created: 2026-08-24
-updated: 2026-11-15
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, alibaba]
 readability: 3
@@ -26,7 +26,7 @@ It speaks OpenAI, Anthropic, Gemini, and Qwen APIs plus local models via Ollama 
 ## Status
 
 **Active and self-hosting in an unusual sense: the README states the project uses its own agent to file issues, submit PRs, review code, and run tests.**
-The repository shows about 28.5k stars as of 2026-10-15 and was pushed 2026-11-15 (GitHub API, as of 2026-11-15).
+The repository shows about 28.5k stars as of 2026-10-15 and was pushed 2026-11-16 (GitHub API, as of 2026-11-16).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=QwenLM/qwen-code&type=date&theme=dark&legend=top-left" />
@@ -89,6 +89,7 @@ Not for workflows where model behavior provenance or data residency is tightly g
 - 2026-11-07 - Recorded v0.26.9 as the latest stable (published November 6), a skill-management release: bulk skill activation over a new daemon API (`PUT /skills/activation` and `setUserSkillsActivation`, 1-100 user Skills per request with saved preferences and propagation status) and disk-based ZIP handling with recovery-backup protection for larger skill archives.
 - 2026-11-13 - Recorded v0.27.3 as the latest stable (published November 13: Web Shell composer chips for unfinished background work, Chinese localization for GitHub channel event prompts, and a 32-live-selection managed MCP cap), the v1.0.0-preview.1 cut (November 12), and the sdk-typescript-v0.1.33 and desktop-v0.27.3 tags; refreshed the push date to 2026-11-13.
 - 2026-11-15 - Recorded v0.27.4 as the latest stable (published November 15): the Managed Web Terminal, fixed-interval `/loop` schedules for Managed Sessions, Feishu custom bot webhook delivery, per-turn hook execution records, a workspace memory import SDK API, security dependency fixes, and the unified agent loop completing its rollout across core, OpenTUI, Ink, ACP, and speculation; refreshed the push date to 2026-11-15.
+- 2026-11-16 - Recorded the sdk-typescript-v0.1.34 tag (published November 15) as the SDK companion of the v0.27.4 stable the previous bullet recorded, bundling CLI 0.27.4; refreshed the push date to 2026-11-16.
 
 ## See also
 

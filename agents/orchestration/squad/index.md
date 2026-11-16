@@ -1,7 +1,7 @@
 ---
 title: Squad
 created: 2026-09-29
-updated: 2026-11-12
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, copilot]
 readability: 3
@@ -23,10 +23,10 @@ It entered this pile from the Awesome Multi-Agent Orchestrators directory's new 
 
 ## Status
 
-Active: last push 2026-11-11, latest stable v1.1.0 on 2026-10-20, a dev-to-main promotion riding the release train, after v1.0.1 (2026-10-04, a release-packaging fix for the Homebrew and WinGet publish credentials, one day after v1.0.0 promoted the dev line to main), with a v2.0.0 preview line opened 2026-10-24 and running through v2.0.0-preview.3 (2026-11-01, all prereleases) (GitHub API, as of 2026-11-12).
+Active: last push 2026-11-16, latest stable v1.1.0 on 2026-10-20, a dev-to-main promotion riding the release train, after v1.0.1 (2026-10-04, a release-packaging fix for the Homebrew and WinGet publish credentials, one day after v1.0.0 promoted the dev line to main), with a v2.0.0 preview line opened 2026-10-24 and running through v2.0.0-preview.4 (2026-11-09, all prereleases) (GitHub API, as of 2026-11-16).
 **The identity record moved: the repository transferred from bradygaster's account into the github organization between the 2026-11-03 verification and 2026-11-07, the old path a 301 redirect, the same organization churn this section recorded on Agent Orchestrator and Ruflo.**
 The 1.0.0 wave caps the alpha period: the README no longer carries the alpha badge that earlier releases warned about, though the project is still a solo-maintainer CLI and the API caveats deserve re-reading before you script against it.
-Traction is concentrated: npm recorded 13,000 downloads of `@bradygaster/squad-cli` in the month ending 2026-10-26, down slightly from 14,360 in the window ending 2026-10-09, with 1,118 in the week ending the same day.
+Traction is concentrated: npm recorded 11,413 downloads of `@bradygaster/squad-cli` in the month ending 2026-11-15 (npm downloads API, fetched 2026-11-16), down from 13,000 in the window ending 2026-10-26 and 14,360 in the window ending 2026-10-09, with 3,020 in the week ending 2026-11-15.
 Independent discussion is nearly absent: the largest HN thread I found has 2 points, so the footprint is GitHub plus npm alone, which is itself a signal.
 
 <picture>
@@ -74,6 +74,7 @@ Not for teams on other agent runtimes, or anyone who needs a stable, community-v
 - 2026-10-26 - Re-verified in rotation: all cited sources re-fetched and live (repo, releases, npm registry and downloads, HN thread); push refreshed to 2026-10-26 and npm traction refreshed to 13,000 downloads in the month ending 2026-10-26, down from 14,360 ending 2026-10-09.
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, releases, npm registry and download points, HN item); the push date refreshed to 2026-11-02, v1.1.0 (2026-10-20) still the latest release.
 - 2026-11-07 - Recorded the repository's transfer from bradygaster's account into the github organization (old path a 301), moved the star-history chart and repository references to the canonical github/squad paths, and refreshed the push date to 2026-11-06.
+- 2026-11-16 - Re-verified in rotation: every cited URL re-fetched live (repository API, README, releases, npm registry and download points, the HN thread); the v2 preview line advanced to v2.0.0-preview.4 (2026-11-09), npm traction refreshed to 11,413 in the month ending 2026-11-15, the push date refreshed to 2026-11-16.
 
 ## See also
 

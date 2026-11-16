@@ -1,7 +1,7 @@
 ---
 title: Sourcegraph code context platform
 created: 2026-08-24
-updated: 2026-11-11
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-search, code-retrieval, enterprise-tools, mcp, llm=glm-5.3-flash]
 readability: 3
@@ -30,7 +30,7 @@ Deployment is single-tenant cloud or self-hosted, SOC 2 Type II and ISO 27001, s
 Sourcegraph and Amp split into two companies on December 2, 2025, with founders Quinn Slack and Beyang Liu leaving for Amp Inc. (both stay on Sourcegraph's board) and investors Sequoia, a16z, Redpoint, Craft, and Goldcrest on both cap tables.
 Version 7.0 (February 25, 2026) declared the "intelligence layer for AI coding agents" positioning and removed Cody Web and Search Notebooks, and the November 9, 2026 sunset announcement puts the remaining Cody product on end-of-life for January 31, 2027, closing the Cody chapter.
 SCIP moved to a community-driven open source project in March 2026, and Cloud ships weekly.
-The September 2026 blog run added the Agentic Batch Changes GA and its outcome-based pricing (September 14 and 16, 2026) and a "autonomous codebase" essay (September 21, 2026), and the blog's newest posts as of 2026-11-11 are the Cody sunset announcement (November 9, 2026: Cody reaches end of life on January 31, 2027, closing the assistant chapter the 7.0 release had already wound down) and a PR-approval-bot use-case piece (November 10, 2026).
+The September 2026 blog run added the Agentic Batch Changes GA and its outcome-based pricing (September 14 and 16, 2026) and a "autonomous codebase" essay (September 21, 2026), and the blog's newest posts as of 2026-11-16 are the Cody sunset announcement (November 9, 2026: Cody reaches end of life on January 31, 2027, closing the assistant chapter the 7.0 release had already wound down) and a PR-approval-bot use-case piece (November 10, 2026).
 I found little independent 2026 community discussion of the post-split platform; the HN thread on the split (90 points) is mostly about Amp, so the audience for its claims is buyers, not discourse.
 
 ## Strengths
@@ -81,6 +81,7 @@ My disagreeable claim: below roughly 400K LOC, buying Sourcegraph for your agent
 - 2026-10-25 - Full rotation re-verification: every cited URL re-fetched and intact; the $16K Enterprise floor and credits model unchanged; refreshed the newest-blog-post claim for the October 19 and 21, 2026 use-case posts.
 - 2026-11-01 - Full rotation re-verification: every cited URL re-fetched and intact (the platform surfaces, the pricing page with the $16K Enterprise floor and credits model, the split announcement, the 7.0 positioning post, both Code Finder changelog entries, the 400K LOC analysis, the outcome-based pricing post, the Stripe minions post, and the split's HN thread); the blog index confirms the October 19 and 21 use-case posts are still the newest; no claim changed.
 - 2026-11-11 - Full rotation re-verification: every cited URL re-fetched and intact (the pricing page with the $16K Enterprise floor, the split announcement, the 7.0 post, both Code Finder changelog entries, the 400K LOC analysis, the outcome-based pricing post, the Stripe minions post, and the split's HN thread); recorded the blog's newest posts as of this run, the Cody sunset announcement (2026-11-09, end of life January 31, 2027, the platform news closing the assistant chapter) and a PR-approval-bot use-case piece (2026-11-10), with the sunset post added to the references.
+- 2026-11-16 - Full rotation re-verification: every cited URL re-fetched and intact (the platform site, the pricing page with the $16K Enterprise floor and the pooled-credits model unchanged, the split announcement, the 7.0 post, both Code Finder changelog entries, the 400K LOC analysis, the outcome-based pricing post, the Stripe minions post, the blog index still ending at the November 10 PR-approval piece above the November 9 Cody sunset, and the split's HN thread at 90 points); no claim changed.
 
 ## See also
 

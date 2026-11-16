@@ -1,7 +1,7 @@
 ---
 title: AgentGrid
 created: 2026-10-02
-updated: 2026-11-08
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, canvas, closed-source]
 readability: 3
@@ -25,8 +25,8 @@ A built-in source-control view and an agent review bot put worktree state, pull 
 
 ## Status
 
-Active and fast-moving: the changelog carried v2.9.52 as the latest release as of 2026-11-08, on top of near-daily releases through September, October, and November, with mobile apps in beta and a headless standalone CLI added since this note was created.
-The vendor's pricing page serves the same Free $0 and Pro $16/month tiers it served at creation (billed annually, $192/year).
+Active and fast-moving: the changelog carried v2.9.64 as the latest release as of 2026-11-16, on top of near-daily releases through September, October, and November, with mobile apps in beta and a headless standalone CLI added since this note was created.
+The vendor's pricing page still serves Free $0, while Pro gained a $20/month monthly line beside the unchanged $192/year annual (the annual toggle badged Early bird, reading $16/month in its default view), and a Team tier at $20 per seat per month is announced as coming soon (as of 2026-11-16); the stated regular value of $600/year the page carried at creation is gone.
 **The community footprint is the weakest part of the story: a Show HN thread from 2026-08-25 that sits at 1 point with 0 comments, no public repository, and a "1,000+ AI builders" homepage claim that only the vendor's own site corroborates (the homepage said 5,000+ when this note was created), so the traction numbers stay marketing until an independent source confirms them.**
 
 ## Strengths
@@ -41,14 +41,14 @@ The vendor's pricing page serves the same Free $0 and Pro $16/month tiers it ser
 
 - Closed source with no public repository, so there is nothing to audit and nothing to fork if the two-person team stops shipping.
 - Near-zero independent footprint: one 1-point Show HN thread and vendor-claimed community size.
-- The pricing is early-adopter churn waiting to happen: Pro is $16/month billed annually as an "early-adopter price" against a stated regular value of $600/year.
+- The pricing is early-adopter churn waiting to happen: the annual line is badged Early bird at $192/year ($16/month), the monthly line sits at $20/month, and the stated regular value of $600/year the page carried at creation is gone (as of 2026-11-16).
 - Delegation runs on the vendor's MCP tool surface, so workflows built on it are AgentGrid-specific by construction.
 - Pane-per-agent on an infinite canvas invites clutter faster than a board or queue UI; the product leans on your own discipline.
 
 ## Pricing
 
 Free tier: $0, 3 projects, up to 10 parallel agents per project, local agents on your own machine.
-Pro: $16/month billed annually ($192/year, early-adopter price, stated regular value $600/year) with unlimited canvases, cloud sync across machines, and local plus cloud agents.
+Pro: $20/month billed monthly or $192/year billed annually (the annual toggle badged Early bird, reading $16/month in its default view) with unlimited canvases, cloud sync across machines, and local plus cloud agents; a Team plan at $20 per seat per month, same as Pro, is announced as coming soon (as of 2026-11-16).
 AI subscriptions and API usage are paid separately to your providers.
 
 ## Price history
@@ -56,6 +56,7 @@ AI subscriptions and API usage are paid separately to your providers.
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-10-02 | Free, Pro | Free $0 (3 projects, 10 parallel agents each) and Pro $16/mo billed annually ($192/yr early-adopter, regular value $600/yr) observed | https://agentgrid.sh/pricing |
+| 2026-11-16 | Pro, Team | Monthly billing now $20/month (annual unchanged at $192/yr, badged Early bird, $16/mo); the stated $600/yr regular value removed; a Team tier announced at $20/seat/mo, coming soon | https://agentgrid.sh/pricing |
 
 ## Compared to
 
@@ -76,6 +77,7 @@ Not for anyone who requires open source, an auditable supply chain, or pricing t
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (product site, docs, pricing, changelog, the Show HN thread); the vendor pages are client-rendered, so no fresh version or price text is extractable server-side, and the recorded claims keep their as-of dates.
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (product site, docs, pricing, changelog, the Show HN thread); recorded v2.9.47 (2026-11-01) as the changelog's latest, the docs' eleven-harness list adding Hermes and Muse Code, the beta iPhone and Android apps, and the standalone headless CLI, and corrected the vendor community claim to the homepage's current 1,000+ AI builders (it read 5,000+ at creation); pricing tiers unchanged.
 - 2026-11-08 - Re-verified in rotation: all cited sources re-fetched and live (product site, docs, pricing, changelog, the Show HN thread); recorded v2.9.52 as the changelog's latest with entries through 2026-11-08, the changelog's /changelog path moved to /docs/changelog (301, reference updated), and the pricing tiers re-verified unchanged server-side (Pro $16/month or $192/year).
+- 2026-11-16 - Re-verified in rotation: all cited sources re-fetched and live (product site, docs, pricing, changelog, the Show HN thread); recorded v2.9.64 as the changelog's latest and the Pro pricing change (a $20/month monthly line, the $600/yr regular value removed, Early bird badging on the annual toggle, a coming-soon Team tier), with a Price history row.
 
 ## See also
 
@@ -90,5 +92,5 @@ Not for anyone who requires open source, an auditable supply chain, or pricing t
 - https://agentgrid.sh/ - product positioning, platform support, the harness list, and the vendor's community-size claim
 - https://agentgrid.sh/docs - the canvas, space, pane, master, and worker mental model and MCP delegation tools
 - https://agentgrid.sh/pricing - the Free and Pro tiers, the early-adopter price against the stated regular value, and the BYO-subscription note, fetched 2026-10-02 and re-fetched 2026-10-05 (HTTP 500 on 2026-10-03); re-fetched 2026-11-08 with tiers unchanged (Pro $16/month or $192/year)
-- https://agentgrid.sh/docs/changelog - the release cadence, now serving at this path (the old /changelog path 301s here), with entries through v2.9.52 (2026-11-08) at re-verification
+- https://agentgrid.sh/docs/changelog - the release cadence, now serving at this path (the old /changelog path 301s here), with entries through v2.9.64 (2026-11-16) at re-verification
 - https://news.ycombinator.com/item?id=49436219 - the 2026-08-25 Show HN thread (1 point, 0 comments), evidence of the missing community footprint

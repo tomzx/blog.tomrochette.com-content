@@ -1,7 +1,7 @@
 ---
 title: Mini-SWE-agent
 created: 2026-10-10
-updated: 2026-11-04
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, research, swe-bench, minimalism]
 readability: 3
@@ -21,10 +21,10 @@ This is version 2, a rewrite documented in a migration guide from the v1 that fi
 
 ## Status
 
-Active and heavily used, mostly out of sight: 8,907 stars, its default branch last committed 2026-09-03 while the repository-level pushed date moves on side branches, on a repository created 2025-06-28 (GitHub API, as of 2026-11-11), with v2.4.6 (2026-07-23) still the latest release (verified 2026-11-11).
-PyPI counted 11,605,679 downloads in the last month as of 2026-11-11, which is batch-evaluation traffic, not desktop installs.
+Active and heavily used, mostly out of sight: 8,907 stars, its default branch last committed 2026-09-03 while the repository-level pushed date moves on side branches, on a repository created 2025-06-28 (GitHub API, as of 2026-11-16), with v2.4.6 (2026-07-23) still the latest release (verified 2026-11-16).
+PyPI counted 14,259,768 downloads in the last month as of 2026-11-16, which is batch-evaluation traffic, not desktop installs.
 The parent `SWE-agent` repository (20,663 stars, last release v1.1.0 in May 2025, default branch last committed 2026-07-16, its own pushed date likewise riding side branches) carries a README notice saying most development effort has moved to mini-swe-agent and recommending it going forward, so the lineage has formally superseded its ancestor even though the maintenance-only label understates how quiet the default branch has gone since July.
-The project's news page also claims mini-swe-agent now powers Ramp's SWE-bench harness, which would make it the named harness behind a third-party company's benchmark offering.
+The project's news page also claims mini-swe-agent now powers Ramp's SWE-bench harness, which would make it the named harness behind a third-party company's benchmark offering, and that it beats Claude Code and Codex on DeepSWE per Datacurve's evaluation blog.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=SWE-agent/mini-swe-agent&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ Not for daily driving, and not for anyone who needs subagents, MCP, or editor in
 - 2026-10-28 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the repository and download counters (8,907 stars, pushed 2026-10-26, the parent at 20,663 stars with its maintenance-only pushes continuing) and pointed the Compared-to SWE-agent line at its new note in this category.
 - 2026-11-04 - Rotation re-verification, re-fetching every cited reference (all live), and corrected the liveness reading against the default branch per the pushed-date ruling: mini's own default branch has been quiet since 2026-09-03 and the parent's since 2026-07-16, both repository-level pushed dates having moved on side branches; the release, download, and supersession claims all re-confirmed unchanged.
 - 2026-11-11 - Rotation re-verification, re-fetching every cited reference (all live): the default branch confirmed quiet since 2026-09-03 with the repository-level push (2026-11-09) riding side branches per the pushed-date ruling, v2.4.6 still the newest release, and the monthly PyPI figure re-read at the same 11,605,679.
+- 2026-11-16 - Rotation re-verification, re-fetching every cited reference (all live): v2.4.6 still the newest release with the default branch quiet since 2026-09-03, the monthly PyPI figure refreshed to 14,259,768 (from 11,605,679), the parent supersession notice and the 190-line v2 core re-confirmed, and the news page's DeepSWE claim added beside the Ramp one.
 
 ## See also
 
@@ -88,5 +89,5 @@ Not for daily driving, and not for anyone who needs subagents, MCP, or editor in
 - https://api.github.com/repos/SWE-agent/mini-swe-agent/contents/src/minisweagent/agents/default.py - the v2 core agent file at 190 lines, grounding the pitch-drift caution
 - https://api.github.com/repos/SWE-agent/SWE-agent - the ancestor's 20,663 stars and v1.1.0 last release (as of 2026-10-28)
 - https://api.github.com/repos/SWE-agent/SWE-agent/readme - the supersession notice pointing development effort to mini-swe-agent
-- https://pypistats.org/api/packages/mini-swe-agent/recent - 11,605,679 downloads in the last month as of 2026-11-04
+- https://pypistats.org/api/packages/mini-swe-agent/recent - the monthly download figure (14,259,768 as of 2026-11-16, up from the 11,605,679 read on 2026-11-11)
 - https://hn.algolia.com/api/v1/items/44682897 - the 7-point Show HN, cited as the thin independent-footprint signal

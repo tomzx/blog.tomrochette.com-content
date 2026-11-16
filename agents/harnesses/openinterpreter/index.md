@@ -1,7 +1,7 @@
 ---
 title: Open Interpreter
 created: 2026-09-27
-updated: 2026-11-08
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, harness-emulation]
 readability: 3
@@ -25,7 +25,7 @@ The fork is documented rather than hidden: FORK_BRANDING.md defines the distribu
 
 ## Status
 
-Active and fast-moving again after roughly nineteen quiet months: 68,554 stars, 5,892 forks, and 14 open issues as of 2026-10-12, with pushes continuing through 2026-11-11 (GitHub API), which tells you issue intake is tightly curated.
+Active and fast-moving again after roughly nineteen quiet months: 68,554 stars, 5,892 forks, and 14 open issues as of 2026-10-12, with pushes continuing through 2026-11-15 (GitHub API), which tells you issue intake is tightly curated.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&theme=dark&legend=top-left" />
@@ -82,6 +82,7 @@ My disagreeable claim: harness emulation is a configuration layer rather than ne
 - 2026-11-01 - Rotation re-verification, re-fetching every cited reference (all live): recorded the rust-v0.0.57 release (October 31), which validated the maintained Codex 0.159.0 compatibility profile for model discovery and request admission, and refreshed push activity to 2026-11-01.
 - 2026-11-04 - Recorded the rust-v0.0.59 (November 4, an owner-bound read-only background-terminal status with bounded metrics and fail-closed thread ownership, no catalog changes) and rust-v0.0.58 (November 1, the Codex 0.159.0 profile re-validated, legacy feedback delivery preserved alongside optional signed attachment uploads) releases, and refreshed push activity to 2026-11-04.
 - 2026-11-11 - Recorded the rust-v0.0.61 (November 11, Linux archive attestation with checksum manifest and provenance verification, no catalog changes) and rust-v0.0.60 (November 9, the canonical file-backed managed-Goal creation contract with durable creation IDs) releases, refreshed push activity to 2026-11-11, and re-fetched every cited reference live in the rotation pass.
+- 2026-11-16 - Rotation re-verification, re-fetching every cited reference (all live): rust-v0.0.61 remains the newest release, the README's low-cost-models headline and Kimi K3 callout are unchanged, the legacy PyPI line still ends at 0.4.3 (2024-10-26), and pushes refreshed to 2026-11-15.
 
 ## See also
 

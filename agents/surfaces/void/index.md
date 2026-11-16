@@ -1,7 +1,7 @@
 ---
 title: Void
 created: 2026-08-24
-updated: 2026-11-08
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -67,6 +67,7 @@ Not for anyone who wants the project's best days ahead of it.
 - 2026-10-20 - Rotation re-verification, all cited URLs re-fetched live: the archived flag (last push June 2, 2026), the v1.3.4 release freeze of April 2025, the live product page still offering the beta download, and both threads (the 948-point May 2025 breakout, the 2-point "after Void slowed down" follow-up) stand.
 - 2026-10-31 - Rotation re-verification, all cited URLs re-fetched live: the archived flag, the June 2, 2026 last push, the v1.3.4 April 2025 release freeze, the product page still offering the beta download, and both threads stand unchanged.
 - 2026-11-08 - Rotation re-verification, all cited URLs re-fetched live: the archived flag, the June 2, 2026 last push, the v1.3.4 April 2025 release freeze, the product page still offering the beta download, and both threads stand unchanged.
+- 2026-11-16 - Rotation re-verification, all cited URLs re-fetched live: the archived flag, the June 2, 2026 last push, the v1.3.4 (April 15, 2025) release freeze, the product page still offering the beta download, and both threads (948 points, 2 points) stand unchanged.
 
 ## See also
 
@@ -77,7 +78,7 @@ Not for anyone who wants the project's best days ahead of it.
 ## References
 
 - https://voideditor.com/ - product page and download
-- https://github.com/voideditor/void - source, about 28.8k stars, Apache-2.0, archived as of 2026-10-20
-- https://github.com/voideditor/void/releases - release history ending at v1.3.4, April 2025
+- https://github.com/voideditor/void - source, about 28.8k stars (as of 2026-10-16), Apache-2.0, archived flag re-fetched 2026-11-16 (still archived, not unarchived)
+- https://github.com/voideditor/void/releases - release history ending at v1.3.4 (2025-04-15), re-fetched 2026-11-16
 - https://news.ycombinator.com/item?id=43927926 - the 948-point breakout thread, May 2025
 - https://news.ycombinator.com/item?id=46274927 - the "after Void slowed down" thread, December 2025

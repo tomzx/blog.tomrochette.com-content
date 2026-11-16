@@ -1,27 +1,30 @@
 ---
 title: "Exo"
 created: 2026-09-05
-updated: 2026-11-08
+updated: 2026-11-16
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agent, self-improvement, rust]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agent, self-improvement, agent-hosting, rust]
 readability: 3
 audience_notes: >
   Engineers curious about self-modifying agent harnesses and the recursive self-improvement idea, and cost-sensitive practitioners looking at the cheapest measured harness.
   Assumes you know what an agent harness, Docker, and an API key are.
 ---
 
-**Exo is an agent harness built so the agent can edit the harness itself, prompts, memory, tooling, and policy included, with an append-only event log as the brake.**
+**Exo is an open-source (MIT) runtime that hosts markdown-defined agents behind an API on the coding harness you pick, Codex, Claude Code, and Pi included; its first-year product, a self-modifying agent harness, is archived as Earlier Exo.**
+
+**Exo traded its original bet for an infrastructure one: the recursive self-improvement harness this note first profiled now lives in the repository's archive, and the live project positions itself as the open, self-hostable alternative to Claude Managed Agents and OpenAI's Agents API.**
 
 ## What it is
 
-A Rust-and-TypeScript agent harness from Exo Labs (exoharness.ai, MIT) whose stated design goal is recursive self improvement: it has full visibility into its own code and runtime logs, so it can incrementally improve every aspect of itself, clone itself, and manage a lineage of clones.
-The only thing the agent cannot rewrite is the event log, the canonical history that exists to keep self-modification from looping.
-It runs standard agent tasks (computer use, research, coding) and needs an OpenAI or OpenRouter API key, plus git and Docker; a setup script installs pinned toolchains via mise.
-The design philosophy is documented in the repository's RSI.md, "A Systems View of Recursive Self Improvement".
+A Rust-and-TypeScript runtime from Exo Labs (exoharness.ai, MIT) where an agent is a markdown file (`harness:` front matter picks Codex, Claude Code, or Pi, plus model and credential) and `exo run` hosts it behind an API with durable conversations, resumable tasks, per-user credential vaults, Firecracker sandboxes, and network egress policies.
+Slack and custom adapters reach the hosted agents, and the architecture doc's stated bet is harness agnosticism: the harness's semantics stay with the harness you chose, while Exo owns the infrastructure layer, so you can switch harnesses or models without rewriting the application.
+The first-year product, the self-modifying harness with an append-only event log as its brake, is preserved under `examples/self-improving-agent/` with its RSI.md design document, and the docs' "Earlier Exo" archive section names it as a previous iteration.
 
 ## Status
 
-Active: created 2026-05-20, 1,505 stars and 114 forks, pushed 2026-11-10 (GitHub API, as of 2026-11-11).
+**Pivoted: the self-modifying harness the note first profiled is archived as "Earlier Exo", and the active project is a harness-agnostic agent hosting runtime.**
+The docs' archive section records the self-evolution harness as a previous iteration, and the commit stream since the pivot is infrastructure work: Firecracker snapshot budgets and the 1.18.0 bump, typed sandbox failures, opt-in egress redirect policies, a configurable process-bridge stdin, and shared OAuth refresh for provider vaults (GitHub API, as of 2026-11-16, on a repo created 2026-05-20, pushed 2026-11-13, with 1,505 stars at the 2026-10-15 baseline and 132 forks).
+Still no tagged releases as of 2026-11-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=exoharness/exo&type=date&theme=dark&legend=top-left" />
@@ -29,36 +32,39 @@ Active: created 2026-05-20, 1,505 stars and 114 forks, pushed 2026-11-10 (GitHub
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=exoharness/exo&type=date&legend=top-left" />
 </picture>
 
-**The independent FrontierHarness Eval scores it near the bottom of nine harnesses on pass rate but first on cost: 53.3 percent pass at a $1.05 median cost per task, against Claude Code's $18.34 on the same model and tasks.**
+**The independent FrontierHarness Eval measured the archived self-modification harness near the bottom of nine harnesses on pass rate but first on cost: 53.3 percent pass at a $1.05 median cost per task, against Claude Code's $18.34 on the same model and tasks; the board's v1.1 layout re-read unchanged on 2026-11-16 (the August 22 run, scored on Kimi K3).**
 The community footprint is thin, a 3-point and a 2-point Hacker News thread, so the eval and the repository are nearly the whole evidence base as of 2026-10-04.
 
 ## Strengths
 
-- The self-modification architecture is real, documented, and unusually specific: lineage management and an immutable event log are design decisions, not marketing.
-- Cheapest measured harness in the FrontierHarness run, which makes it the reference point for the cost axis.
+- The hosting runtime is the pragmatic product: markdown agent definitions, durable conversations, per-user credential vaults, and egress policies wrapped around harnesses you already run.
+- The dropped self-modification bet is preserved rather than erased: RSI.md and the examples tree document the architecture, which is rare for a retired thesis.
+- Harness substitution without application rewrites is the specific gap it fills against Claude Managed Agents and OpenAI's Agents API.
 - MIT licensed with CI and integration-test badges visible in the repository.
 
 ## Cautions
 
-- **The claims are grand and independently unreplicated**: "fully recursive, safely edit all aspects of itself" is the project's own framing, and no third party has audited the safety of a harness whose selling point is editing itself.
-- Requires Docker and a toolchain bootstrap, so the footprint is heavier than the typical single-binary CLI agent.
-- A harness that rewrites its own policy is a security reviewer's hardest problem, and there is no published security process as of 2026-09-18.
+- **The pivot retires the thesis the note was written for**: the self-rewriting harness no longer has a maintainer's ambition behind it, and its safety question ended unanswered.
+- No tagged releases as of 2026-11-16, so adoption means pinning commits, and the docs carry an under-construction banner with installation instructions still being written.
+- The runtime holds credentials (vaults) and enforces network policy, a security reviewer's problem of its own.
+- Docker or Firecracker and a toolchain bootstrap keep the footprint heavier than a single-binary CLI agent.
 
 ## Pricing
 
 Free and open source under MIT.
-You pay model tokens directly to OpenAI or OpenRouter; the FrontierHarness run measured the lowest median token cost per completed task in the field on Kimi K3 pricing (the figure lives in Status above, where the benchmark that produced it is cited).
+You pay model tokens to the provider behind whichever harness an agent runs on; the FrontierHarness run measured the archived harness at the lowest median token cost per completed task in the field on Kimi K3 pricing (the figure lives in Status above, where the benchmark that produced it is cited).
 
 ## Compared to
 
-- [Pi](../pi/index.md): the other minimal, self-extensible harness; Pi extends through human-written TypeScript packages, while Exo wants the agent to do the extending.
-- [Hermes](../../assistant-runtimes/hermes/index.md): the self-improvement incumbent by scale; Hermes learns through skills and memory within a fixed harness, a conservative version of Exo's bet.
-- [DeepSeek Harness](../deepseek-harness/index.md): the other "architecture is the product" entrant, plugin-oriented where Exo is self-rewrite-oriented.
+- [Omnigent](../omnigent/index.md): the docs' own nearest analog, the same harness-agnostic hosting bet with policies and sandboxes behind one API; Exo is the smaller, self-hostable counterpart.
+- [Pi](../pi/index.md): Pi keeps a minimal core you extend with human-written TypeScript packages, while Exo delegates the whole loop to a harness you bring.
+- [Hermes](../../assistant-runtimes/hermes/index.md): the self-improvement incumbent by scale; Hermes learns within a fixed harness, a conservative version of the bet Exo dropped.
 
 ## Bottom line
 
-Recommended for researchers and experimenters who want to watch a self-modifying harness work and who accept that the safety story is unproven.
-Not for production work or anyone who cannot tolerate a harness changing its own behavior between sessions.
+Recommended for engineers who want to self-host agents on the harness they already trust, with credentials and network policy handled by the runtime.
+Not for anyone chasing the recursive self-improvement thesis, which the project itself has archived, or for production use without pinning a commit.
+I read the pivot as the market's verdict on self-modifying harnesses: the infrastructure around the harness sold, the harness that rewrote itself did not.
 
 ## Changes
 
@@ -73,6 +79,7 @@ Not for production work or anyone who cannot tolerate a harness changing its own
 - 2026-10-25 - Rotation re-verification, every cited reference live (RSI.md at its post-restructure path), and the push date refreshed to 2026-10-23; no releases and no new independent evaluation, so the FrontierHarness figures stand as cited.
 - 2026-10-31 - Rotation re-verification, every cited reference live: pushed date refreshed to 2026-10-31, and the FrontierHarness figures re-read unchanged ($1.05 median, 53.3 percent pass) from the live site.
 - 2026-11-08 - Rotation re-verification, every cited reference live: the push date refreshed to 2026-11-08, still no tagged releases, and the FrontierHarness figures re-read unchanged ($1.05 median, 53.3 percent pass, Claude Code at $18.34) from the live site.
+- 2026-11-16 - Rotation re-verification surfaced the pivot: the docs now archive the self-modifying harness as "Earlier Exo" and pitch Exo as a harness-agnostic agent hosting runtime (markdown-defined agents, durable conversations, Firecracker sandboxes, vaults, and egress policies over Codex, Claude Code, and Pi); rewrote the definition, What it is, Status, Strengths, Cautions, Compared to, and Bottom line to the pivoted product, reframed the FrontierHarness figures as measuring the archived iteration (re-read unchanged on the v1.1 board), and refreshed the push date to 2026-11-13.
 
 ## See also
 
@@ -84,7 +91,8 @@ Not for production work or anyone who cannot tolerate a harness changing its own
 ## References
 
 - https://github.com/exoharness/exo - repository, license, architecture, and setup requirements
-- https://exoharness.ai/docs - official documentation
-- https://github.com/exoharness/exo/blob/main/examples/self-improving-agent/docs/RSI.md - the recursive self improvement design document (moved from docs/ in the repository restructure)
+- https://exoharness.ai/docs - the docs pitching the hosting runtime, the markdown agent model, the Omnigent comparison, and the "Earlier Exo" archive section naming the self-evolution harness a previous iteration (fetched 2026-11-16)
+- https://github.com/exoharness/exo/blob/main/examples/self-improving-agent/docs/RSI.md - the recursive self improvement design document of the archived iteration (moved from docs/ in the repository restructure)
 - https://frontierharness.org - the independent cost and pass-rate measurements
+- https://frontierharness.org/leaderboard/eval-data.json - the v1.1 board data re-read 2026-11-16: exo at 53.3 percent pass and $1.05 effective cost per pass, first of the field, against Claude Code's $18.34 (the 2026-08-22 run, Kimi K3, nine harnesses)
 - https://hn.algolia.com/api/v1/items/49430143 - the larger of the two HN threads, cited as the thin-footprint signal
