@@ -1,7 +1,7 @@
 ---
 title: Unified Harness Protocol (UHP)
 created: 2026-10-08
-updated: 2026-11-14
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, agent-serving, harnesses]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, maintained in the HarnessRouter repository under a maintainer-led, p
 
 ## Status
 
-**Active and shipping fast: 2,994 stars (2026-10-13), 442 forks, created 2026-08-09, pushed 2026-11-14, as of 2026-11-14 (GitHub API).**
+**Active and shipping fast: 2,994 stars (2026-10-13), 486 forks, created 2026-08-09, pushed 2026-11-16, as of 2026-11-16 (GitHub API).**
 
 The spec is at version 2026-10-19, its fifth version in roughly ten weeks (2026-08-11, 2026-09-12, 2026-09-28, 2026-10-04, 2026-10-19), and the conformance suite at the implementing product's latest tag is 2026.10.19.post6, whose B-01 through B-06 cover the fifth version's new session_branching capability (spec-matching, re-fetched 2026-11-12).
 The fifth version's changelog has kept growing since: its newest entry adds conditional updates, where a harness read may carry an `ETag` and its update an `If-Match` so a stale client write is refused 412 precondition_failed, the sixth capability added within the same version without a version bump (fetched 2026-11-14).

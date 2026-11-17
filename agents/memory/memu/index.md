@@ -1,7 +1,7 @@
 ---
 title: memU
 created: 2026-10-06
-updated: 2026-11-14
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, file-based, skills]
 readability: 3
@@ -21,7 +21,7 @@ A lightweight system from NevaMind with a core of about 500 lines, installable t
 Each supported host gets an adapter binary that binds two seams: record (a scheduled bridging task slices new session logs into self-contained jobs) and inject (a standing instruction in the host's instruction file tells the agent to retrieve before answering).
 The judgment stays inside the agent: it reads related existing pages, then chooses to do nothing, patch a page, or create one, and the service only stores, embeds, and retrieves the markdown.
 Automatic skill extraction turns useful history into named markdown skills with workflows, branches, and pitfalls, which any connected agent can retrieve later.
-The README's support matrix covers ChatGPT (Work mode), Claude Code, Codex, Cursor, OpenClaw, Hermes Agent, WorkBuddy, Cola, and pi across macOS, Windows, and Linux, with a generic `memu-agent` adapter that detects any other agent's JSONL session dialect and instruction file; Codex has its own `memu-codex` adapter (2026-10-27) that mines `~/.codex/sessions/**/*.jsonl` and patches `~/.codex/AGENTS.md`.
+The README's support matrix covers ChatGPT (Work mode), Claude Code, Codex, Cursor, OpenClaw, Hermes Agent, WorkBuddy, and pi across macOS, Windows, and Linux; Codex has its own `memu-codex` adapter (2026-10-27) that mines `~/.codex/sessions/**/*.jsonl` and patches `~/.codex/AGENTS.md`, and the earlier Cola adapter and the generic `memu-agent` JSONL-dialect detector were removed upstream (November 16, with an "Upgrading from Cola or generic" section left in the README).
 Deployment is a free hosted service (API key from memu.so, cross-device) or a self-hosted mode (private, single-device, your own embedding key).
 
 ## Status
@@ -34,7 +34,7 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&legend=top-left" />
 </picture>
 
-14,546 stars with the repository pushed 2026-11-13, created 2025-07-29, as of 2026-11-13 (GitHub API).
+14,546 stars with the repository pushed 2026-11-16, created 2025-07-29, as of 2026-11-16 (GitHub API).
 The Hacker News record is two threads: an 11-point Show HN in January 2026 (4 comments) and a 4-point story in July 2026 (0 comments), so the 14.5k stars rest on trend cycles and word of mouth, not public scrutiny.
 Development is active, with the README's host matrix and skill-extraction flow revised against current releases.
 The same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and Graphify.
@@ -45,6 +45,7 @@ The pending work extended (November 5): memory query quality and retrieval diagn
 The pending work extended again (November 9 and 10): an asynchronous memory hooks installer for pi, memory query quality and retrieval diagnostics work, a contribution task catalog added to the community docs, a SQLite fix isolating columns across scope models, and nameless recall files rejected before their commits are acknowledged.
 The pending work extended (November 13): Hermes Agent memory plugin hooks with an installer, recall metadata preserved when frontmatter ends in dashes, and a retrieval-skill ownership check before direct removal.
 The pending work extended (November 14): local memory commits made atomic under concurrent writers.
+The pending work extended (November 16): Codex retrievals write one JSON trace per retrieval, host retrieval artifacts are cleaned using installation ownership, and the Cola and generic host adapters were removed from the README's matrix.
 The license file moved from LICENSE to LICENSE.txt, which the GitHub detector stopped recognizing (it now reads NOASSERTION) while the text stays the standard Apache-2.0 the README still declares.
 
 ## Strengths
@@ -101,6 +102,7 @@ Not for teams needing multi-user memory APIs, contractual hosting terms, or any 
 - 2026-11-11 - Recorded the pending November 9-10 work (an asynchronous memory hooks installer for pi, a contribution task catalog in the community docs, the SQLite scope-column isolation fix, and nameless recall files rejected before acknowledgment); the push date refreshed to 2026-11-10.
 - 2026-11-13 - Volatile re-verification: the pending November 13 work recorded (Hermes Agent memory plugin hooks with an installer, the frontmatter-dash recall metadata fix, the retrieval-skill ownership check); the push date refreshed to 2026-11-13.
 - 2026-11-14 - Recorded the pending November 14 work (local memory commits made atomic under concurrency); the push date refreshed to 2026-11-14.
+- 2026-11-16 - The host matrix shrank: the Cola adapter and the generic `memu-agent` JSONL-dialect detector were removed upstream (November 16 commits, pending release, with an upgrade path left in the README), so What it is now lists ChatGPT, Claude Code, Codex, Cursor, OpenClaw, Hermes, WorkBuddy, and pi; the pending Codex JSON retrieval trace and the installation-ownership artifact cleanup recorded, and the push date refreshed to 2026-11-16.
 
 ## See also
 

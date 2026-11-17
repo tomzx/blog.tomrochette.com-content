@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-15
+updated: 2026-11-17
 status: finished
 tags: [agents]
 readability: 0
@@ -16,6 +16,9 @@ Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (
 - 2026-11-16 | surfaces | OpenBitFun's Cowork-style general-workspace rejection holds on the eleventh q#14 re-read (the openBitFun/OpenBitFun README re-fetched 2026-11-16 still pitches a general-purpose agent workspace with four Agent Harness modes, cross-device remote control, and a Mini App marketplace, 4,032 stars, pushed 2026-11-16), the question again reads safe to close | surfaces re-check on the governing question
 - 2026-11-16 | surfaces | no credible surfaces-dedicated source has appeared; the GitHub search re-run returned member-ecosystem lists (ZhangYu-zjut/awesome-Antigravity 158 dormant since January, MichaelZelbel/awesome-antigravity 41, MGrin/awesome-bb-plugins 67), one broad ecosystem list (0xWelt/Awesome-Agent-Ecosystem 124), and a price-sorted broad AI-coding list (dalisoft/awesome-ai-coding 47, pushed 2026-11-14), none a category list | the refresh's no-dedicated-source check
 - 2026-11-16 | orchestration | Docker Hub's last_updated stamps can move without a new push (agentsmesh read "around October 2026" on 2026-11-06, reads 2026-09-23 today with the same six images), so a Docker Hub freshness claim carries the fetch date and expects discontinuity like the pypistats line | the agentsmesh rotation re-check
+- 2026-11-16 | protocols | a note's What-it-is endpoint summary can lag the cited OpenAPI document it quotes, so a rotation re-fetch reads the cited artifact's full content and not just its version stamp, and a description gap corrects the matrix cell and the category one-liner the same run | the agent-protocol rotation found the store and thread-scoped streaming endpoints (merged 2026-04-28, #72) missing from a What-it-is written 2026-10-07 against the same unchanged 0.1.6
+- 2026-11-16 | skills | the VoltAgent/awesome-agent-skills 2026-11-14 and 11-15 wave resolves with no admissions | about 25 additions take the standing single-skill, pack, and vendor in-product exclusion; the ru-marketplace-mcp name examined and it is a shopping-domain skill pack, not a skills marketplace, and wrg32786/aigent-os is a Claude Code context-capsule extension (member-extension ecosystem evidence, 26 stars) flagged to harnesses below-band
+- 2026-11-16 | skills | ComposioHQ/awesome-claude-skills stays mapped but dormant | no content addition since 2026-05-22 (July commits README touches only), reachable, the kodustech dormant-mapped-source precedent applies, re-check at the next source refresh
 
 - 2026-11-15 | executions | the dedicated-list re-check again finds no credible dedicated executions source; the only new hit (StefanYasin/awesome-agent-ops) is a 0-star generic list and ipanalytics/Awesome-Agent-Ops remains 1-star dormant | extends the 2026-11-13 and 2026-11-14 rulings; the category stays on the broad sources
 - 2026-11-15 | hybrid-execution | a cited page's in-place rebuild can take its historical counters with it, so a "kept as the historical record" claim re-verifies on rotation like any other and the replacement's aggregates get cited with the fetch date | the ollaya rotation re-fetch found the 0.8.0-era counters (31 models, 73,720 answers, 41,352 parity checks) gone from ollaya.dev/results, replaced by 75 tags, 419,040 answers, and 152,474 parity questions

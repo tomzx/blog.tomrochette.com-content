@@ -1,7 +1,7 @@
 ---
 title: Supermemory
 created: 2026-10-04
-updated: 2026-11-14
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, context-engine, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The company describes itself as a research lab; the repository began under found
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint.**
-About 31.2k stars as of 2026-10-09 (GitHub API), with the repository pushed 2026-11-13, the default branch's movement since the November 2 fixes dependency maintenance (vite, vitest, Python SDK security advisories patched with a 1.0.11 release, mintlify), a ChatGPT MCP fix saving to the default space when an account has no spaces, and the Pipecat voice-agent integration migrated to the v5 namespace API (November 13), created 2024-02-27, MIT, as of 2026-11-13 (GitHub API).
+About 31.2k stars as of 2026-10-09 (GitHub API), with the repository pushed 2026-11-16, the default branch's movement since the November 2 fixes dependency maintenance (vite, vitest, Python SDK security advisories patched with a 1.0.11 release, mintlify), a ChatGPT MCP fix saving to the default space when an account has no spaces, the Pipecat voice-agent integration migrated to the v5 namespace API (November 13), and a docs commit linking the repository's Convex component (November 16), created 2024-02-27, MIT, as of 2026-11-16 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&theme=dark&legend=top-left" />

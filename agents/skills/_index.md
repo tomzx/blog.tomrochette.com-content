@@ -12,14 +12,14 @@ The reusable capability format and its ecosystem: the open skill format spec, th
 
 - [Agent Plugins](agent-plugins/index.md) - the vendor-neutral packaging standard bundling Agent Skills and MCP servers into one portable plugin.json folder, from a Vercel-proposed five-vendor TSC.
 - [Agent Skills open standard](agent-skills-open-standard/index.md) - the agentskills.io spec for SKILL.md capability directories.
-- [Agent-Native](agent-native/index.md) - Builder.io's curated pack of 25 skills plus the app framework they bridge to, the discipline skills portable to any harness.
+- [Agent-Native](agent-native/index.md) - Builder.io's curated pack of 26 skills plus the app framework they bridge to, the discipline skills portable to any harness.
 - [Anthropic Agent Skills](anthropic-agent-skills/index.md) - Anthropic's SKILL.md folder format for reusable agent capabilities.
 - [EvoSkill](evoskill/index.md) - Sentient Labs' Apache-2.0 toolkit that induces SKILL.md skills from a coding agent's failed benchmark runs, v1 selecting on a held-out Pareto gate and the v2.0.0 release (2026-10-26) moving to a stateful evolver on its own branch.
 - [GEPA](gepa/index.md) - the MIT reflective prompt optimizer from the Databricks research lineage that mechanically evolves prompts, code, and agent skills against any metric, about 7k stars.
 - [Headcount](headcount/index.md) - Chris Brock's 16-department plugin marketplace for Claude Code and ChatGPT, skills owned by write surface and reviewer-class departments that can block; dead since 2026-11-08 (the GitHub account was deleted).
 - [OpenCode skills and plugins](opencode-skills-and-plugins/index.md) - OpenCode's two extension mechanisms: skills for the model, plugins for the harness.
 - [Sepia](sepia/index.md) - Nanako0129's research-grounded de-AI writing skill, repairing narrative structure instead of word choice, portable across 77+ agents.
-- [SkillMD](skillmd/index.md) - the verification-first open registry, publishing lint and scanner verdicts per skill, 2,204 of its about 1.15M listed skills safety-reviewed as of 2026-11-12.
+- [SkillMD](skillmd/index.md) - the verification-first open registry, publishing lint and scanner verdicts per skill, 2,229 of its about 1.22M listed skills safety-reviewed as of 2026-11-16.
 - [SkillOpt](skillopt/index.md) - Microsoft Research's optimizer that trains skill markdown against held-out validation, skills as trainable parameters.
 - [skills.md](skills-md/index.md) - Hasna's hosted-execution marketplace, skills that run server-side with quoted per-run credits and a $12-per-month Pro plan.
 - [skills.sh](skills-sh/index.md) - Vercel's directory and leaderboard for the open skills ecosystem.

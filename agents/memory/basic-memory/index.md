@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-11-15
+updated: 2026-11-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -26,7 +26,7 @@ The cloud adds cross-device sync, browser and mobile access, and shared workspac
 ## Status
 
 **Active and mid-scale, with a thin public-discussion footprint.**
-4,237 stars with the repository pushed 2026-11-15, created 2024-12-02, as of 2026-11-15 (GitHub API).
+4,237 stars with the repository pushed 2026-11-16, created 2024-12-02, as of 2026-11-16 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&theme=dark&legend=top-left" />
@@ -42,7 +42,8 @@ The November 4 fixes (pending release) start watching a newly added project righ
 The November 5-to-7 train (pending release) is performance and fixes: note-resolve answers cached, vector search rows ranked in the database with search-byte counting, each path checked once per storage-event batch, the exact count dropped from search, hybrid legs run concurrently, non-numeric values dropped from numeric metadata filters, frontmatter btree indexes that reject long values removed, semantic search freshness reported to Cloud, local and cloud projects listed together when a project is unknown, and note formatting with format_on_save removed (breaking); PyPI stays at 1.0.0.
 The November 11 train (pending release) restructures the MCP surface again: bm_schema and bm_project each split into one tool per operation and the `memory://ai_assistant_guide` resource dropped (all three breaking), bm_move now carries the destructive hint, bm_write's similar-notes probe made informational so a failed probe never fails the write, a memory-start skill added for a new user's first session, and the ChatGPT plugin rebuilt from checked-in configuration with permalink and search-boundary fixes beside it; PyPI stays at 1.0.0.
 The November 12-to-13 train (still pending) keeps the fix cadence: cloud discovery connects shortened with fixed timeout messages, tool errors given structured content that fits the output schema, cloud-sync project names matched in any spelling, the Hermes integration running the bm and uv that PATH names and no longer orphaning a restarted bm mcp at shutdown, SessionStart hook environments compiled with a 45-second budget, the asyncpg import dropped from SQLite startup, and the ChatGPT upload built in portable format; PyPI stays at 1.0.0.
-The November 14-to-15 pending train is API-side: each project's change journal is exposed at /v2/projects/{id}/changes, the directory tree carries file checksums, and scoped search's post-search reads run on one session with Server-Timing headers; PyPI stays at 1.0.0.
+The November 14-to-15 pending train is API-side: each project's change journal is exposed at /v2/projects/{id}/changes, the directory tree carries file checksums, and scoped search's post-search reads run on one session with Server-Timing headers.
+The pending train extended (November 15 to 16): folder deletes now journal every note they remove, note changes arriving through the storage layer are journaled too, the MCP tool stack stays out of the SessionStart brief, one-word Postgres text searches run through the indexed operand path, and each step of an accepted note write is timed in its own span; PyPI stays at 1.0.0.
 
 ## Strengths
 
@@ -102,6 +103,7 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 - 2026-11-11 - Recorded the pending November 11 MCP restructure (bm_schema and bm_project split into one tool per operation, the ai_assistant_guide resource dropped, bm_move marked destructive, bm_write's probe made informational, a memory-start skill, and ChatGPT plugin packaging fixes), PyPI still at 1.0.0; corrected the Bottom line's governance-starts-at figure to the $249 Business plan, which the November 8 restructure had left stale at the retired $30 seat; the push date refreshed to 2026-11-11.
 - 2026-11-13 - Volatile re-verification: the pending November 12-to-13 train recorded (Hermes PATH and shutdown fixes, structured MCP tool errors, cloud-sync project-name case matching, the asyncpg startup-import removal, the portable-format ChatGPT upload, and the setup man page), PyPI still at 1.0.0, and the push date refreshed to 2026-11-13.
 - 2026-11-15 - Volatile re-verification: the pending November 14-to-15 API train recorded (each project's change journal at /v2/projects/{id}/changes, file checksums in the directory tree, and scoped search's post-search reads on one session with Server-Timing), PyPI re-verified at 1.0.0, and the push date refreshed to 2026-11-15.
+- 2026-11-16 - Recorded the pending train's extension (November 15-16): folder deletes journal every removed note, storage-arriving note changes are journaled, the SessionStart brief drops the MCP tool stack, one-word Postgres searches use the indexed operand path, and note-write steps get per-step timing spans; PyPI still at 1.0.0, and the push date refreshed to 2026-11-16.
 
 ## See also
 
