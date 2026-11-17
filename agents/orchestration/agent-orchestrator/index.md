@@ -1,7 +1,7 @@
 ---
 title: Agent Orchestrator
 created: 2026-10-06
-updated: 2026-11-16
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, kanban, worktrees, multi-harness, desktop]
 readability: 3
@@ -23,7 +23,7 @@ The product is branded Orchestrator.inc, the name its docs site docs.orchestrato
 ## Status
 
 Active and shipping daily: 13,193 stars as of 2026-10-15 (1,788 forks, 821 open issues and pull requests, and 30 contributors as of 2026-10-11), created 2026-02-13 (GitHub API, as of 2026-10-15).
-Stable releases ride the nightly train, v0.15.2 (2026-11-15, a stable hotfix rotating the desktop and daemon DSNs) the latest stable after v0.15.1 (2026-11-14) after v0.15.0 (2026-11-13) and v0.14.10 (2026-11-06), v0.14.9 (2026-11-04), v0.14.8 (2026-10-30), and v0.14.7 (2026-10-28), v0.14.6 (2026-10-24), v0.14.5 (2026-10-22), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-11-15 (GitHub API, as of 2026-11-16).
+Stable releases ride the nightly train, v0.15.3 (2026-11-16, PR details, actions, comments, and activity in the session inspector, plus a title bar on every pane to drag and unsplit) the latest stable after v0.15.2 (2026-11-15, a stable hotfix rotating the desktop and daemon DSNs) after v0.15.1 (2026-11-14) after v0.15.0 (2026-11-13) and v0.14.10 (2026-11-06), v0.14.9 (2026-11-04), v0.14.8 (2026-10-30), and v0.14.7 (2026-10-28), v0.14.6 (2026-10-24), v0.14.5 (2026-10-22), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-11-17 (GitHub API, as of 2026-11-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Stable releases ride the nightly train, v0.15.2 (2026-11-15, a stable hotfix rot
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&legend=top-left" />
 </picture>
 
-The stable line has moved to v0.15.x, with v0.15.2 (2026-11-15) the newest stable promoted from the nightly train, which publishes most days (GitHub releases API).
+The stable line has moved to v0.15.x, with v0.15.3 (2026-11-16) the newest stable promoted from the nightly train, which publishes most days (GitHub releases API).
 **The identity record is the caution: the repository has lived under four organizations in eight months (ComposioHQ, AgentWrapper, Untrivial-ai, and now OrchestratorInc), each old URL a 301 today, which is the same rename churn this section flagged on Ruflo but repeated.**
 The community footprint is thin for the star count: the Show HN launch drew only 15 points on 2026-03-29 (a text post with no external link, HN Algolia), so the 12.8k stars spread through GitHub, X, and Discord rather than press, and the only third-party coverage I found is a competitor's roundup (Tembo, June 2026) and one technical review (Starlog, July 2026, at 8.6k stars).
 
@@ -79,6 +79,7 @@ Not for anyone who needs a stable identity to standardize on (four renames and c
 - 2026-11-14 - Coordinator correction from the section-root pass: the supervised-CLI count reads 35-plus on the repository's own description (fetched 2026-11-14, was 26-plus on the note), thesis and harness-coverage bullet updated.
 - 2026-11-15 - Volatile refresh: Recorded v0.15.1 (2026-11-14) as the latest stable release.
 - 2026-11-16 - Recorded v0.15.2 (2026-11-15, a stable hotfix rotating the desktop and daemon DSNs) and corrected the stable-line sentence, which had lagged at v0.14.x.
+- 2026-11-17 - Recorded v0.15.3 (2026-11-16, session-inspector PR details and actions, pane title bars) as the latest stable, the push date refreshed to 2026-11-17.
 
 ## See also
 

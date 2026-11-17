@@ -1,7 +1,7 @@
 ---
 title: DeepSeek Harness
 created: 2026-08-30
-updated: 2026-11-13
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, plugins, open-source]
 readability: 3
@@ -98,6 +98,7 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 - 2026-11-04 - Recorded the dsh-v0.2.2-alpha.3 release (November 3): unified right-click and keyboard menus, a persistent file-preview directory tree, the experimental change-requests-and-worktrees review entry, and mobile, trajectory, and image-over-limit fixes.
 - 2026-11-11 - Rotation re-verification, re-fetching every cited reference (all live): recorded dsh-v0.2.2-rc.1 (published November 4) taking the newest-tag spot as the 0.2.2 train's first release candidate, aggregating the changes since v0.2.1-rc.5; the project remains prerelease-only.
 - 2026-11-13 - Recorded dsh-v0.2.2-rc.2 (published November 11: worktree review by branch, commit, and file type with direct GitHub review handling, named multi-layer SubAgent collaboration with a per-session AgentTeam, and a desktop update-channel switch) and dsh-v0.2.2-rc.3 (published November 13: an experimental DeepSeek chat import plugin and a Windows in-app update fix) taking the newest-tag spot; the project remains prerelease-only.
+- 2026-11-17 - Rotation re-verification, re-fetching every cited reference (all live), with dsh-v0.2.2-rc.3 confirmed the newest tag and the default branch quiet since it; the project remains prerelease-only.
 
 ## See also
 

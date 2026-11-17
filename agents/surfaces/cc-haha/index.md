@@ -1,16 +1,16 @@
 ---
 title: cc-haha
 created: 2026-10-11
-updated: 2026-11-13
+updated: 2026-11-17
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source, claude-code]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, source-available, claude-code]
 readability: 3
 audience_notes: >
   Engineers who live in Claude Code and want the whole agent surface, sessions, approvals, MCP, subagents, and skills, in one desktop GUI.
   Assumes you know what Claude Code, MCP, and a git worktree are.
 ---
 
-cc-haha is an MIT-licensed open-source desktop workbench for Claude Code and other agents, packing sessions, worktree launches, diff review, MCP and subagent management, a skills marketplace, and scheduled tasks into one macOS, Windows, and Linux app.
+cc-haha is a source-available desktop workbench for Claude Code and other agents, packing sessions, worktree launches, diff review, MCP and subagent management, a skills marketplace, and scheduled tasks into one macOS, Windows, and Linux app, under the cc-haha Community Source License 1.0 since October 2026.
 
 **cc-haha is the broadest Claude Code GUI in this category, and its 8,609 forks against 15,023 stars say its audience lives in an ecosystem this section's other evidence channels barely reach.**
 
@@ -18,13 +18,14 @@ cc-haha is an MIT-licensed open-source desktop workbench for Claude Code and oth
 
 A local-first workbench that wraps Claude Code in a GUI: multi-session management with global search, branch and worktree launches, diff review, a built-in browser preview, graphical permission approvals, and model selection across Claude, ChatGPT, Grok, presets, and local endpoints.
 The agent layer is managed visually too: MCP servers and subagents get their own management screens, Agent Teams gives multi-agent collaboration a workbench, and dynamic workflow orchestration sits above the sessions.
-The long tail is unusually wide: model request tracing, image generation, a skills marketplace, Computer Use (on macOS it drives other apps without occupying your mouse and keyboard), desktop pets, H5 remote access, IM access over WeChat, Feishu, DingTalk, Telegram, and WhatsApp, and scheduled tasks.
+The long tail is unusually wide: model request tracing, image generation, a skills marketplace, Computer Use (on macOS it drives other apps without occupying your mouse and keyboard), desktop pets, H5 remote access, IM access over WeChat, Feishu, DingTalk, Telegram, WhatsApp, WeCom, QQ, and Slack, and scheduled tasks.
 It is built by NanmiCoder in TypeScript, documented first in Chinese with an English README, and distributed as desktop builds through its releases.
 
 ## Status
 
 **Active and growing fast outside the English-language channels.**
 The repository was created 2026-03-31 and shows 15,023 stars and 8,609 forks as of 2026-10-16, with commits landing the same week.
+The license changed under the release train: commits on 2026-10-15 adopted the cc-haha Community Source License 1.0, a source-available license permitting noncommercial personal use, education, research, and internal business use while requiring a written license for commercial monetization and visible attribution on redistribution, and the same commits removed the root MIT file so the repository no longer reads as MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NanmiCoder/cc-haha&type=date&theme=dark&legend=top-left" />
@@ -38,20 +39,23 @@ An Algolia search of Hacker News returned zero stories for the project as of 202
 ## Strengths
 
 - **It is the only member that puts the whole Claude Code control plane in a GUI: permission approvals, MCP servers, subagents, and skills all get visual management instead of config files.**
-- The IM integrations turn WeChat, Feishu, DingTalk, Telegram, or WhatsApp into remote controls for local agents, a wider channel list than any other member documents.
+- The IM integrations turn WeChat, Feishu, DingTalk, Telegram, WhatsApp, WeCom, QQ, or Slack into remote controls for local agents, a wider channel list than any other member documents.
 - Computer Use that operates other applications without taking over the mouse and keyboard is a capability no other member ships.
 - Local endpoints sit beside the hosted models in the model picker, so on-device or self-hosted models are a documented path.
 
 ## Cautions
 
 - **The missing independent footprint is the caution: zero Hacker News stories and no English third-party coverage found this run, so every capability claim rests on the project's own README.**
+- **The license is no longer MIT: the Community Source License 1.0 adopted 2026-10-15 is source-available, not open source by the OSI reading, and it bars commercial monetization without a written license**, so building a paid product on cc-haha is a licensing conversation, not a fork-and-ship.
 - The project is pre-1.0 (v0.7.0), and a client this broad, Computer Use and IM control included, has a blast radius that a young codebase has not had time to prove safe.
 - The documentation is Chinese-first; the English README exists but the deeper guides are not translated, which narrows the audience this section writes for.
 - The marketing site (cchaha.ai) rendered only its title to this run's fetch, so the docs site grounds nothing by itself.
 
 ## Pricing
 
-Free and open source under MIT; no paid tier exists.
+Free to use: noncommercial personal use, education, research, and internal business use need no license, under the cc-haha Community Source License 1.0 adopted 2026-10-15.
+Commercial monetization (paid client work, products containing cc-haha, paid hosting or services, paid customization) requires a written license from the maintainer (relakkes@gmail.com), and redistribution must carry visible source attribution.
+Code distributed before the transition keeps its MIT grant, and the bundled agent-desktop code stays Apache-2.0.
 
 ## Compared to
 
@@ -75,6 +79,7 @@ Not for teams that need an English-first project, a 1.0 stability guarantee, or 
 - 2026-10-31 - Rotation re-verification with every cited URL re-fetched live, and recorded v0.7.6 (October 31, native Android and iPhone apps pairing over Cloudflare with the mobile UI Chinese-only, sleep prevention, scheduled-task management in chat, edit-and-resend, an OpenRouter preset, and per-provider proxies) as the new latest release; the zero-English-coverage reading stands (the HN search re-run returned zero stories).
 - 2026-11-06 - Volatile re-verification on the released signal, recorded v0.7.7 (November 5, background mobile reminders without a self-hosted push server, phone and tablet browsers on the mobile app's interface, input suggestions, session archiving, MCP servers shared to multiple projects, local-model voice input with AI correction, and native Computer Use components on Windows and Linux) as the new latest release.
 - 2026-11-13 - Volatile re-verification on the released signal, recorded v0.7.8 (November 10, away-mode phone-connection hardening with a keep-awake switch, tunnel-address persistence with automatic phone recovery, P2P direct connection from packaged builds, mid-turn permission-mode switching, the Claude Fable 5.2 entry, and WeChat media delivery) as the new latest release.
+- 2026-11-17 - Rotation re-verification, all cited URLs re-fetched live, and corrected the license record the earlier passes had missed: commits on 2026-10-15 adopted the cc-haha Community Source License 1.0 (source-available, noncommercial personal and internal business use permitted, commercial monetization requiring a written license, visible attribution required, historical MIT grants preserved) and removed the root MIT file, so the note's MIT and open-source claims are withdrawn across definition, pricing, and cautions; also recorded the README's IM channel list widening to eight (WeCom, QQ, and Slack joining the original five), the release train unchanged at v0.7.8 (the repo pushed 2026-11-17), and the zero-story HN search standing.
 
 ## See also
 
@@ -85,8 +90,9 @@ Not for teams that need an English-first project, a 1.0 stability guarantee, or 
 
 ## References
 
-- https://github.com/NanmiCoder/cc-haha - repository, README feature list (sessions, worktrees, diff review, MCP and subagent management, Agent Teams, Computer Use, skills marketplace, IM access, scheduled tasks), MIT license, 15,023 stars and 8,609 forks as of 2026-10-16
-- https://api.github.com/repos/NanmiCoder/cc-haha - creation date 2026-03-31, language TypeScript, push date 2026-10-15, stars and forks as of 2026-10-16
+- https://github.com/NanmiCoder/cc-haha - repository, README feature list (sessions, worktrees, diff review, MCP and subagent management, Agent Teams, Computer Use, skills marketplace, IM access over eight channels, scheduled tasks), 15,023 stars and 8,609 forks as of 2026-10-16; re-fetched 2026-11-17 with the license badge reading Community Source and the README's own license section stating the source-available terms
+- https://api.github.com/repos/NanmiCoder/cc-haha - creation date 2026-03-31, language TypeScript, push date 2026-10-15, stars and forks as of 2026-10-16; re-fetched 2026-11-17 (pushed 2026-11-17, license field NOASSERTION, not archived)
+- https://raw.githubusercontent.com/NanmiCoder/cc-haha/main/LICENSE - the cc-haha Community Source License 1.0 text: noncommercial personal, education, research, and internal business use permitted, commercial monetization requiring a written license (relakkes@gmail.com), visible source attribution required on redistribution, historical MIT grants preserved, fetched 2026-11-17
 - https://github.com/NanmiCoder/cc-haha/releases - v0.7.5 (2026-10-20) as the latest release, after v0.7.4 (October 16), v0.7.3 and v0.7.2 (both October 15), v0.7.1 (October 11), v0.7.0 (October 8), and v0.6.8 (October 1), re-verified 2026-10-20
 - https://api.github.com/repos/NanmiCoder/cc-haha/releases/tags/v0.7.5 - the October 20 release notes: cross-session model delegation, the token-usage page redesign, the lean Agent profile, workspace document annotations, and the Gemini-on-OpenCode-Go, macOS fullscreen, and cache-hit fixes, fetched 2026-10-20
 - https://api.github.com/repos/NanmiCoder/cc-haha/releases/tags/v0.7.6 - the October 31 release notes: the native Android and iPhone apps with QR pairing over Cloudflare (mobile UI Chinese-only), sleep prevention while tasks run, scheduled-task management in chat, edit-and-resend, the OpenRouter preset, per-provider proxies, and the Agent Teams finalization fixes, fetched 2026-10-31

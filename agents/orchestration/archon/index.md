@@ -1,7 +1,7 @@
 ---
 title: Archon
 created: 2026-10-07
-updated: 2026-11-13
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflow-engine, worktrees]
 readability: 3
@@ -23,7 +23,7 @@ Setup runs through Claude Code itself (the guided wizard is a Claude Code sessio
 
 ## Status
 
-Active: created 2025-02-07, 23,687 stars as of 2026-10-15, pushed 2026-11-13 on the dev branch, and the release line woke on 2026-10-17 with v0.12.0 and v0.12.1 after three weeks on v0.11.1, then moved to v0.13.0 on 2026-10-28 (Slack demoted to a plugin, pre-run validation of declared MCP servers, completed runs cleaning up their own worktrees, a faster SDLC merge queue), to v0.13.1 and v0.13.2 on 2026-10-29 (v0.13.1 broke the provider plugin protocol to version 3 with exact-name workflow matching, and v0.13.2 shipped the same day to repair the 0.13.0 upgrade path that break refused), and to v0.14.0 on 2026-11-07 (Archon CLI v0.14.0, breaking: the bundled SDLC pack reaches GitHub only through the forge plugin, and `archon metrics` measures the factory) (GitHub API, as of 2026-11-13).
+Active: created 2025-02-07, 23,687 stars as of 2026-10-15, pushed 2026-11-17 on the dev branch, and the release line woke on 2026-10-17 with v0.12.0 and v0.12.1 after three weeks on v0.11.1, then moved to v0.13.0 on 2026-10-28 (Slack demoted to a plugin, pre-run validation of declared MCP servers, completed runs cleaning up their own worktrees, a faster SDLC merge queue), to v0.13.1 and v0.13.2 on 2026-10-29 (v0.13.1 broke the provider plugin protocol to version 3 with exact-name workflow matching, and v0.13.2 shipped the same day to repair the 0.13.0 upgrade path that break refused), and to v0.14.0 on 2026-11-07 (Archon CLI v0.14.0, breaking: the bundled SDLC pack reaches GitHub only through the forge plugin, and `archon metrics` measures the factory) (GitHub API, as of 2026-11-17).
 The v0.12.0 release notes name providers becoming separate installs for release binaries, SDLC-pack intake, build, and merge queues, runs that wait out usage and rate limits, and workflows that run without a database while keeping durable state.
 
 <picture>
@@ -72,6 +72,7 @@ Not for teams outside the Claude Code ecosystem today, and not for anyone who ne
 - 2026-10-31 - Re-verified in rotation (all cited URLs re-fetched live); recorded v0.13.1 and v0.13.2 (both 2026-10-29), the provider-plugin protocol 3 break and its same-day repair.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-03; v0.13.0 still the latest release.
 - 2026-11-08 - Re-verified in rotation (every cited URL re-fetched live); recorded v0.14.0 (2026-11-07, the breaking forge-plugin-only SDLC delivery plus `archon metrics`) as the latest release, with the dev-branch push refreshed to 2026-11-07.
+- 2026-11-17 - Re-verified in rotation (every cited URL re-fetched live: repository, repo API, docs, releases, README); claims hold, v0.14.0 still the latest release, the dev-branch push refreshed to 2026-11-17 (an item-scoped run-context change).
 
 ## See also
 

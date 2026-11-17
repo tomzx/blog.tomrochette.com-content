@@ -1,7 +1,7 @@
 ---
 title: cmux
 created: 2026-08-24
-updated: 2026-11-12
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, terminal, parallel-agents, macos]
 readability: 3
@@ -23,7 +23,7 @@ A paid subscription (Pro or Max) adds Cloud VM agents and the iOS app; the CodeR
 ## Status
 
 **Active and remarkably fast.**
-About 28.2k stars and 2.5k forks as of 2026-10-15, created January 28, 2026, with pushes and the commit-hash `cmux-app-ffi` build tags still landing daily as of 2026-11-12 (the stable semver line's newest tag is v0.65.2.2, 2026-10-27, GitHub API, as of 2026-11-12).
+About 28.2k stars and 2.5k forks as of 2026-10-15, created January 28, 2026, with pushes and the commit-hash `cmux-app-ffi` build tags still landing daily as of 2026-11-17, joined since 2026-11-16 by a new `cmux-rd` prerelease line (a GPL-3.0-or-later remote-desktop binary, v0.2.6 on 2026-11-17) (the stable semver line's newest tag is v0.65.2.2, 2026-10-27, GitHub API, as of 2026-11-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=manaflow-ai/cmux&type=date&theme=dark&legend=top-left" />
@@ -106,6 +106,7 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 - 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live, the pricing page re-checked unchanged against the recorded tiers, and the release line confirmed at v0.65.2.2 (2026-10-27) with pushes through 2026-10-29.
 - 2026-11-06 - Re-verified in rotation: every cited URL re-fetched and live, the pricing page unchanged at the recorded tiers (Pro $50, Max $200, Team $60/user, yearly options intact), release line still v0.65.2.2 with pushes through 2026-11-06.
 - 2026-11-12 - Recorded the new Plus cloud tier ($15/mo, one saved VM, 2-8 vCPU, 4-16 GiB RAM) between Free and Pro, and the stable semver release line's stop at v0.65.2.2 (2026-10-27) beside the still-daily commit-hash build tags.
+- 2026-11-17 - Rotation re-verification (every cited URL re-fetched live: repo, both pricing pages with cmux.dev/pricing now 301ing to cmux.com/pricing at the unchanged tiers, the zen post, the launch thread, the bounds.dev account, the SSH-freeze thread, the other cmux); recorded the new `cmux-rd` prerelease line (2026-11-16 onward) and the stable line still stopped at v0.65.2.2.
 
 ## See also
 
@@ -118,7 +119,7 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 
 - https://github.com/manaflow-ai/cmux - source, license statement, repository scale, as of 2026-10-04
 - https://cmux.com/pricing - tiers, the Max tier, shared-pool cloud VM specs and their churn, the 2026-10-06 shared-pool move (20/40 and 80/160 vCPU/RAM across 5 VMs), CodeRouter removal, re-verified 2026-10-06
-- https://cmux.dev/pricing - the pricing page's new home, the Plus $15/mo tier (one saved VM, 2-8 vCPU, 4-16 GiB RAM, 16-128 GiB disk), and the unchanged Pro, Max, and Team tiers, as of 2026-11-12
+- https://cmux.dev/pricing - the pricing page's new home, the Plus $15/mo tier (one saved VM, 2-8 vCPU, 4-16 GiB RAM, 16-128 GiB disk), and the unchanged Pro, Max, and Team tiers, as of 2026-11-12 (now a 301 to cmux.com/pricing, where the same tiers sit, re-followed 2026-11-17)
 - https://cmux.com/blog/zen-of-cmux - the project's own design philosophy
 - https://news.ycombinator.com/item?id=47079718 - the February 2026 launch thread with author Q&A
 - https://www.bounds.dev/posts/teaching-claude-code-to-drive-cmux/ - third-party account of agents driving cmux programmatically

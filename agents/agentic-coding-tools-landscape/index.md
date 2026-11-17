@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-11-14
+updated: 2026-11-17
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-11-14.
+Everything here was verified against live sources on 2026-11-17.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -33,7 +33,7 @@ Underneath all four sit the conventions that make the parts interchangeable: MCP
 **The harness, not the model, is the product you actually operate every day, and the big four have become platforms rather than tools.**
 [Claude Code](../harnesses/claude-code/index.md) runs in the terminal, in VS Code and JetBrains, as a desktop app, and on the web, with sessions that move between surfaces, subagents, skills, hooks, an Agent SDK, and scheduled cloud routines, at about 150.7k GitHub stars.
 [Codex](../harnesses/codex/index.md) covers the same spread, with a CLI, an IDE extension, desktop, web, and cloud forms, and it configures itself through AGENTS.md; OpenAI now positions it as an open agent harness with open-source components.
-[Gemini CLI](../harnesses/gemini-cli/index.md) was the open-source outlier from a major lab (Apache-2.0, about 107.3k GitHub stars), but Google moved individual users to Antigravity CLI on June 18, 2026, so its famous free tier is now limited to enterprise licenses and paid API keys, and even the enterprise docs now open with a banner calling Gemini CLI not optimized for the latest Gemini models and pointing licensed users to Antigravity CLI ([enterprise docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli), last updated November 10, 2026).
+[Gemini CLI](../harnesses/gemini-cli/index.md) was the open-source outlier from a major lab (Apache-2.0, about 107.3k GitHub stars), but Google moved individual users to Antigravity CLI on June 18, 2026, so its famous free tier is now limited to enterprise licenses and paid API keys, and even the enterprise docs now open with a banner calling Gemini CLI not optimized for the latest Gemini models and pointing licensed users to Antigravity CLI ([enterprise docs](https://docs.cloud.google.com/gemini/docs/codeassist/gemini-cli), last updated November 10, 2026 on the page's former host, the banner re-verified on the new home).
 [OpenCode](../harnesses/opencode/index.md) is the vendor-neutral entry: open source, any provider, with a TUI, an IDE extension, a desktop app, and a web view built off one codebase, at about 213.2k GitHub stars the most-starred vendor-neutral harness in the field.
 
 The independent tail matters more than its market share suggests.
@@ -166,6 +166,7 @@ A harness that adopts the open conventions is making a promise about your exit; 
 - 2026-11-07 - Link re-verification: every cited external link re-fetched (sixteen of eighteen fetched 200, Bloomberg and devops.com again 403 to scripted fetches, both GitHub topic pages included with no 429s), the DeepSeek Harness line's newest prerelease re-verified unchanged (still dsh-v0.2.2-rc.1, published 2026-11-04), the Gemini CLI enterprise-docs stamp re-verified unchanged (still 2026-10-26 with the same banner), and the Cursor pricing page re-read with the X-bundle plans unchanged and the sold-only-through-X-Subscription-Corp line still on the page; no fact moved, so the intro's verification date holds at 2026-11-05.
 - 2026-11-08 - Link re-verification: every cited external link re-fetched (sixteen of eighteen fetched 200, Bloomberg and devops.com again 403 to scripted fetches), the DeepSeek Harness line's newest prerelease re-verified unchanged through the release API (still dsh-v0.2.2-rc.1, published 2026-11-04, nothing after it), the Gemini CLI enterprise-docs stamp re-verified unchanged (still 2026-10-26 with the same banner), and the Cursor pricing page re-read with the X-bundle plans unchanged and the sold-only-through-X-Subscription-Corp line still on the page; the OpenAI shutoff still pending (dated November 12); no fact moved, so the intro's verification date holds at 2026-11-05.
 - 2026-11-14 - Link re-verification with the Cursor shutoff correction and three moved facts: the OpenAI column paragraph now records the proposed November 12 shutoff passing with OpenAI's temporary extension (the announcement behind its 403 bot wall, so the reading grounds on Cursor's models docs, which still list GPT-5.6 Sol, Luna, and Terra with rate-card rows and no removal notice, and CNBC replaces the devops.com citation that sits behind a bot challenge), the Cursor pricing re-check re-dated with the X-bundle plans unchanged, the DeepSeek Harness line's newest prerelease moved to dsh-v0.2.2-rc.3 (published November 13) through the release API, the Gemini CLI enterprise-docs stamp re-dated to its current last-updated date of 2026-11-10 with the same banner, and Cline's install count folded to about 5.9 million per the marketplace; every cited external link re-fetched (sixteen of eighteen fetched 200, Bloomberg and devops.com again 403 to scripted fetches).
+- 2026-11-17 - Link re-verification with two repoints and no fact moves: every cited external link re-fetched (Bloomberg again 403 to the scripted fetch, everything else 200), the Gemini CLI enterprise-docs citation repointed to the page's new docs.cloud.google.com home after developers.google.com began redirecting (the banner re-verified unchanged on the new host, the last-updated stamp unreadable in the new render and left at 2026-11-10), and the Codex reference repointed to learn.chatgpt.com after developers.openai.com began redirecting there; the DeepSeek Harness release API re-read with the newest prerelease still dsh-v0.2.2-rc.3 (published November 13), the Cursor models docs re-read with the GPT-5.6 trio still listed at rate-card rows and no removal notice, the Cursor pricing page re-read with the X-bundle plans and the sold-only-through-X-Subscription-Corp line unchanged, and the Gemini CLI enterprise-docs banner re-verified; the intro's verification date re-dated to this run's fetch.
 
 ## See also
 
@@ -178,7 +179,7 @@ A harness that adopts the open conventions is making a promise about your exit; 
 ## References
 
 - [Claude Code documentation](https://code.claude.com/docs/en/overview) - the multi-surface harness pattern in one product
-- [Codex documentation](https://developers.openai.com/codex/) - surfaces, AGENTS.md configuration, and the open-harness positioning
+- [Codex documentation](https://learn.chatgpt.com/docs) - surfaces, AGENTS.md configuration, and the open-harness positioning (the developers.openai.com URL began redirecting to learn.chatgpt.com by the 2026-11-17 fetch and the reference was repointed)
 - [OpenCode documentation](https://opencode.ai/docs/) - the provider-agnostic open-source harness, with [ACP support](https://opencode.ai/docs/acp/) documented separately
 - [Agent Client Protocol](https://agentclientprotocol.com/) - the editor-agent interop standard from JetBrains and Zed
 - [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) - the maintained map of the orchestration long tail

@@ -12,7 +12,7 @@ The editors and IDEs where agents meet your code, from AI-native platforms and a
 
 - [bb](bb/index.md) - the MIT agent IDE that builds itself, where threads in worktrees are driven from a desktop app, web app, CLI, and HTTP API by the provider CLIs you already run.
 - [Cate](cate/index.md) - the MIT infinite-canvas desktop workspace where agent terminals become colored worktree territories reporting working, waiting, or finished.
-- [cc-haha](cc-haha/index.md) - the MIT Claude Code desktop workbench packing sessions, worktrees, diff review, MCP and subagent management, a skills marketplace, IM remote access, and native mobile apps into one app.
+- [cc-haha](cc-haha/index.md) - the Claude Code desktop workbench (source-available under the Community Source License since October 2026) packing sessions, worktrees, diff review, MCP and subagent management, a skills marketplace, IM remote access, and native mobile apps into one app.
 - [Codeg](codeg/index.md) - the Apache-2.0 workspace that aggregates every agent's sessions into one searchable, transferable layer, with a self-hosted server option and native iOS and Android clients.
 - [CodeNomad](codenomad/index.md) - the MIT desktop-and-browser cockpit for OpenCode V2, with worktree sessions, SideCars, voice input, and phone remote control through an OpenTunnel relay.
 - [Continue](continue/index.md) - the open-source Copilot alternative across VS Code, JetBrains, and CLI, acquired by Cursor in June 2026, now read-only.
@@ -65,3 +65,4 @@ Its members are compared on shared rows in the [Surface Feature Matrix](surface-
 - 2026-10-11 - Added px0.
 - 2026-10-23 - Added Waku.
 - 2026-10-27 - Added puppyone.
+- 2026-11-17 - cc-haha's one-liner corrected to source-available after the member note's license correction (the Community Source License 1.0 adopted 2026-10-15); no membership change.

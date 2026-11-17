@@ -1,7 +1,7 @@
 ---
 title: ChatDev
 created: 2026-10-28
-updated: 2026-11-12
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, openbmb]
 readability: 3
@@ -61,6 +61,7 @@ Not for teams wanting a maintained software-company pipeline, because that produ
 - 2026-10-28 - Created.
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo, arXiv, the DevAll user guide, PyPI, HN, the critical review); the main push date refreshed to 2026-10-30, v2.2.0 still the newest tag, and the HN record unchanged (24-point 2023 Show HN, 2-point 2.0 thread).
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repository, arXiv, the DevAll user guide, PyPI, HN, the critical review); no factual drift, main still pushed 2026-10-30 with later repository pushes on side branches, v2.2.0 still the newest tag.
+- 2026-11-17 - Rotation re-verification (every cited URL re-fetched live: repository, arXiv, the DevAll user guide, PyPI at 0.1.0, the HN record still the 24-point 2023 Show HN and 2-point 2.0 thread, the critical review); no factual drift.
 
 ## See also
 

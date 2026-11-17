@@ -1,7 +1,7 @@
 ---
 title: WrenAI
 created: 2026-10-10
-updated: 2026-11-15
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, semantic-layer, text-to-sql, genbi]
 readability: 3
@@ -23,7 +23,7 @@ Everything Wren writes is plain YAML and Markdown in a repo you own, and Git Syn
 
 ## Status
 
-Established and active: 17,877 stars as of 2026-10-18, 2,106 forks and 249 open issues as of 2026-11-15, created 2024-03-13, pushed 2026-11-13, with wren-v0.18.0 published 2026-11-10 and PyPI (wrenai) tracking 0.18.0, following wren-v0.17.1 on 2026-10-30.
+Established and active: 17,877 stars as of 2026-10-18, 2,115 forks and 251 open issues as of 2026-11-17, created 2024-03-13, pushed 2026-11-17 (a wren-core fix requiring every primary-key column in TO_MANY partial models, unreleased above wren-v0.18.0), with wren-v0.18.0 published 2026-11-10 and PyPI (wrenai) tracking 0.18.0 (re-checked 2026-11-17), following wren-v0.17.1 on 2026-10-30.
 Release 0.18.0 serves a project-bound agent and governed MCP through a shared context layer (the follow-up commit addressing the deferred review findings landed the same week), alongside fixes that keep result columns sharing a name in JSON output, preserve physical-column renames across Ossie export/import, respect CTE visibility when expanding semantic models, and scope flag grouping to its select.
 Release 0.17.0 shipped the Apache Ossie work recorded here on 10-24 (the `wren context import` and `export` ossie commands joining dbt and OpenMetadata, plus importing a Wren project from an OpenMetadata catalog) alongside ClickHouse dialect-translation fixes, JSON output that keeps dates and integers intact, an MCP SDK major-version pin, and wren-core-py 0.8.2 (2026-10-23) with the DISTINCT ON column fix in the bindings, with the wren-v0.17.1 patch (2026-10-30) carrying the DuckDB 2.0 `to_arrow_table` compatibility fix between it and 0.18.0.
 The docs page claims SOC 2 Type II certification and now quotes 17.8k GitHub stars against the live count; its old 17-plus data-source figure is gone (the README stays at 22-plus), closing the discrepancy flagged on 2026-10-11.
@@ -102,12 +102,12 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 ## References
 
 - https://github.com/Canner/WrenAI - repository: README, architecture, open-core split, license badge
-- https://api.github.com/repos/Canner/WrenAI - forks, open issues, creation and push dates as of 2026-11-15 (stars kept at the 2026-10-18 baseline)
+- https://api.github.com/repos/Canner/WrenAI - forks, open issues, creation and push dates as of 2026-11-17 (stars kept at the 2026-10-18 baseline)
 - https://api.github.com/repos/Canner/WrenAI/releases - wren-v0.18.0 published 2026-11-10 (the served project-bound agent and governed MCP context layer) after wren-v0.17.1 on 2026-10-30, plus the component release train (re-fetched 2026-11-15)
 - https://api.github.com/repos/Canner/WrenAI/pulls/2821 - the Ossie import/export merge: Apache Ossie joining dbt and OpenMetadata under one `wren context import` command (fetched 2026-10-24; re-fetched intact 2026-11-15)
 - https://www.getwren.ai/pricing - the credit tiers, quotas, and Enterprise feature gates (re-fetched 2026-11-15: the free tier gone, MCP server in Essential, card-required trial)
 - https://docs.getwren.ai/cp/guide/account/billing - the billing docs confirming the card-required 7-day trial, the 20 free monthly credits as a paid-plan perk, and the unlimited users-and-projects line (fetched 2026-11-15)
 - https://docs.getwren.ai/ - the docs portal: editions, SOC 2 claim, and the 15k-plus star line (re-fetched 2026-11-15)
-- https://pypi.org/pypi/wrenai/json - CLI and SDK version 0.18.0 (re-fetched 2026-11-15)
+- https://pypi.org/pypi/wrenai/json - CLI and SDK version 0.18.0 (re-fetched 2026-11-17)
 - https://raw.githubusercontent.com/Canner/WrenAI/main/README.md - the full README: mechanism, comparison table, Git Sync, open-core terms
 - https://hn.algolia.com/api/v1/search?query=WrenAI&tags=story&hitsPerPage=8 - the lopsided community-footprint check as of 2026-10-10

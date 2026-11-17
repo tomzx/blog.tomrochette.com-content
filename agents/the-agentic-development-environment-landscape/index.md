@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Development Environment Landscape"
 created: 2026-07-04
-updated: 2026-11-14
+updated: 2026-11-17
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains]
 readability: 3
@@ -13,7 +13,7 @@ agent_sessions:
 
 The terminal coding agent answered the question of whether an AI can edit a real repository.
 The next problem is harder: how do you run several of them, watch what they are doing, and keep them from colliding on the same files.
-In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-11-14.
+In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-11-17.
 
 ## What an ADE is, and what it is not
 
@@ -77,7 +77,7 @@ It rounds out a top five that now spans open source (Orca, Paseo, Emdash, and Pa
 Agent orchestrators built as CLIs and TUIs make up a large share, because the cheapest way to ship an ADE is to not build a GUI at all.
 [Agent Orchestrator](../orchestration/agent-orchestrator/index.md) is a Go-daemon desktop kanban that supervises 35-plus coding CLIs (its About line said 26-plus when the snapshot was written), one worktree and one session per worker with CI and review feedback routed back into the same agent, and it has the reach of a leader without the surface area of one, though it has lived under four organizations in eight months.
 [Kandev](https://github.com/kdlbs/kandev) frames the same idea as an AI Kanban plus development environment, multi-provider and self-hostable with no telemetry, a framing that maps cleanly onto a team workflow.
-[Pane](https://github.com/greenfield-inc/Pane), [lanes](https://github.com/lanes-sh/app), [Frame](https://github.com/kaanozhan/Frame), [genie](https://github.com/automagik-dev/genie), and workstreams each take a slightly different cut of the same problem: terminal-first, mobile-first, spec-driven, or PR-out-the-door.
+[Pane](https://github.com/greenfield-inc/Pane), [lanes](https://github.com/lanes-sh/app), [Frame](https://github.com/kaanozhan/Frame), [genie](https://github.com/automagik-si/genie), and workstreams each take a slightly different cut of the same problem: terminal-first, mobile-first, spec-driven, or PR-out-the-door.
 
 The long tail is mostly Tauri and Rust experiments (Termote, AKA, codemux, BLXCode), which trade on being lightweight and locally owned, and a handful of IntelliJ-style control surfaces like Athena.
 None of these is a leader today, but the category is young enough that any one of them could break out if it found the right wedge, and the two curated lists, [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) and awesome-multi-agent-orchestrators, are the best place to watch for movement.
@@ -156,6 +156,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - 2026-11-07 - Rotation re-verification: every one of the 17 URLs fetched 200 this run (both GitHub topic pages included, no 429s), Air's supported-agent, surface, and cloud-run claims re-verified unchanged against its live page (Claude Agent and ACP-connectable agents, the IDE, web, CLI, and mobile surfaces, the some-customers cloud-run rollout, and Junie folded in all still on the page), Paradev's MIT license re-confirmed through the repository API, Paseo's license wrapper re-confirmed (GitHub's API still reporting NOASSERTION over the custom Apache-2.0 text), and Agent Orchestrator's supported-agent table re-counted at 36 entries so the 35-plus claim holds; no fact moved, so the intro's verification date holds at 2026-11-05.
 - 2026-11-08 - Rotation re-verification: sixteen of the 17 cited URLs fetched 200 this run (the parallel-agents topic page returned gateway 504s on two attempts, recorded here for the next pass), Air's supported-agent, surface, and cloud-run claims re-verified unchanged against its live page (Air Gateway, Junie folded in, the IDE, web, CLI, and mobile surfaces, and the some-customers cloud-run rollout all still stated), the eleven referenced repositories re-verified through the GitHub API (Orca and Paradev still MIT, Paseo still the NOASSERTION Apache-2.0 wrapper, Emdash Apache-2.0, the rest live and unarchived), and Orca's dated star count left untouched per the stars exemption; no fact moved, so the intro's verification date holds at 2026-11-05.
 - 2026-11-14 - Rotation re-verification: every one of the 17 cited URLs fetched 200 this run (the parallel-agents topic page cleared its 2026-11-08 504s), Air's supported-agent, surface, and cloud-run claims re-verified against its live page (Claude Agent, Codex, Junie, Copilot, and OpenCode now all named beside the ACP phrase, the IDE, web, CLI, and mobile surfaces, Air Gateway, and the some-customers cloud-run rollout unchanged, so the body's claims as written hold), Paradev's MIT license and Paseo's NOASSERTION Apache-2.0 wrapper re-confirmed through the repository API, Agent Orchestrator's own repository description now reading 35+ coding agents so the 35-plus claim holds, the eleven referenced repositories live and unarchived, and Orca's dated star count left untouched per the stars exemption.
+- 2026-11-17 - Rotation re-verification with one repository transfer: every one of the 17 cited URLs fetched 200 this run, and genie's repository moved from the automagik-dev org to automagik-si (the body link and the reference repointed to the new home); Air's supported-agent, surface, gateway, Junie, and some-customers cloud-run claims re-verified unchanged against its live page, Paradev's MIT license, Orca's MIT, Paseo's NOASSERTION Apache-2.0 wrapper, and Emdash's Apache-2.0 re-confirmed through the repository API, Agent Orchestrator's description still reading 35-plus supported agents (now with desktop and iPhone-and-Android app lines beside it), the eleven referenced repositories live and unarchived, and Orca's dated star count left untouched per the stars exemption; the intro's re-verification date re-dated to this run's fetch.
 
 ## See also
 
@@ -179,7 +180,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - [kdlbs/kandev](https://github.com/kdlbs/kandev) - AI Kanban plus development environment, self-hostable, no telemetry
 - [greenfield-inc/Pane](https://github.com/greenfield-inc/Pane) - terminal-first agent manager with remote phone access (moved from the dcouple org)
 - [kaanozhan/Frame](https://github.com/kaanozhan/Frame) - spec-driven ADE
-- [automagik-dev/genie](https://github.com/automagik-dev/genie) - CLI agent that dispatches parallel worktrees and reviews
+- [automagik-si/genie](https://github.com/automagik-si/genie) - CLI agent that dispatches parallel worktrees and reviews (moved from the automagik-dev org, link repointed 2026-11-17)
 - [lanes-sh/app](https://github.com/lanes-sh/app) - mission control for parallel agents
 - [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) - curated list for tracking the long tail
 - [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (fetched 200, 2026-11-01)

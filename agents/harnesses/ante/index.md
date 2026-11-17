@@ -1,7 +1,7 @@
 ---
 title: Ante
 created: 2026-08-30
-updated: 2026-11-13
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, single-binary, local-models]
 readability: 3
@@ -106,6 +106,7 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 - 2026-11-03 - Recorded the v0.3.2 release (November 1): `ante usage` quota reporting without opening a session, the `max_request_images` catalog cap replacing over-cap request images with a text marker, trimmed built-in model lists, and tool-returned images and files staying attached to their producing calls.
 - 2026-11-06 - Recorded the v0.3.3 release (published November 6): the Antix catalog moving to Grok 4.7, GPT-6.1 Terra, and GPT-6 Luna with Gemini 3.5 Flash Lite, GLM-5.3 FlashX Legal, and Qwen 3.8 Flash added, `ante usage` quota-bar alignment, an inline signed-in notice after browser sign-in, a compacted session header, tmux `allow-passthrough` no longer touched, and published-build telemetry routed through the Ante gateway.
 - 2026-11-13 - Recorded the v0.3.5 release (published November 12), which cached Anthropic requests' tool definitions and shared system prompt separately from the conversation, moved environment and memory-index details to turn start, moved the Antix catalog to Claude Fable 5.2, and fixed empty-reply turn ends, resume permission modes, and crash-safe rewinds.
+- 2026-11-17 - Rotation re-verification, re-fetching every cited reference (all live): v0.3.5 still the newest release, with the only default-branch commit since it an adapter-sync chore and no pricing or claim changes found.
 
 ## See also
 

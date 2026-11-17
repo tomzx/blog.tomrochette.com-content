@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-11-16
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 83,540 stars as of 2026-10-18, 5,561 forks and 1,659 open issues and pull requests combined as of 2026-11-16, created 2026-01-22, pushed 2026-11-16.
+Young and hot: 83,540 stars as of 2026-10-18, 5,575 forks and 1,668 open issues and pull requests combined as of 2026-11-17, created 2026-01-22, pushed 2026-11-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Young and hot: 83,540 stars as of 2026-10-18, 5,561 forks and 1,659 open issues 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&legend=top-left" />
 </picture>
 
-v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02; v0.52.0 went stable on 2026-10-13 and **v1.0.0 shipped the same day**, with v1.0.1 on 2026-10-14, **v1.1.0 going stable on 2026-10-25** (opt-in fish-script hook wrapping, Angular build-table compaction, and a large correctness fix batch), and **v1.2.0 going stable on 2026-11-08** (directory-folded `git ls-tree` listings plus a large correctness batch across hooks, gain accounting, and the language runners), so the project is no longer pre-1.0; a dev-1.2.1 candidate train is already running (rc.640 as of 2026-11-16) with unreleased main fixes for OpenCode shell path resolution and quoted hook-path matching riding it.
+v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02; v0.52.0 went stable on 2026-10-13 and **v1.0.0 shipped the same day**, with v1.0.1 on 2026-10-14, **v1.1.0 going stable on 2026-10-25** (opt-in fish-script hook wrapping, Angular build-table compaction, and a large correctness fix batch), and **v1.2.0 going stable on 2026-11-08** (directory-folded `git ls-tree` listings plus a large correctness batch across hooks, gain accounting, and the language runners), so the project is no longer pre-1.0; a dev-1.2.1 candidate train is already running (rc.640 as of 2026-11-17) with unreleased fixes for OpenCode shell path resolution, quoted hook-path matching, and cargo toolchain filtering riding it.
 The site claims 18,000+ developers, a marketing figure, and the Show HN thread shows users posting their own measured savings.
 
 ## Strengths

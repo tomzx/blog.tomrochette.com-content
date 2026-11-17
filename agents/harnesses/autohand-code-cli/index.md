@@ -1,7 +1,7 @@
 ---
 title: Autohand Code CLI
 created: 2026-10-27
-updated: 2026-11-13
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, typescript, bun, byok, local-models]
 readability: 3
@@ -85,6 +85,7 @@ Not for organizations needing an unmodified Apache-2.0 story, and not for anyone
 - 2026-10-29 - Corrected the star-history chart markup: the light source and fallback image dropped the dark-theme parameter to match the canonical chart block.
 - 2026-11-06 - Rotation re-verification, re-fetching every cited reference (all live): recorded the v0.9.10 release and npm 0.9.10 (both published November 4), refreshed the push date to 2026-11-05, and recorded the Free plan's monthly credit cap dropping from the baseline's 100 to 50 with the matching Price history row (all other plan prices unchanged).
 - 2026-11-13 - Rotation re-verification, re-fetching every cited reference (all live): recorded the v0.9.11 release and npm 0.9.11 (both published November 12), refreshed the push date to 2026-11-12, and re-read the pricing ladder unchanged.
+- 2026-11-17 - Rotation re-verification, re-fetching every cited reference (all live): v0.9.11 still the newest release and npm latest with the push date unchanged (2026-11-12), and the pricing page re-fetched live.
 
 ## See also
 

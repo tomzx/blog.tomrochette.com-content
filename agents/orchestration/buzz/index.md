@@ -1,7 +1,7 @@
 ---
 title: Buzz
 created: 2026-10-02
-updated: 2026-11-14
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, communication, nostr, self-hosted]
 readability: 3
@@ -23,7 +23,7 @@ Block positions it as infrastructure, the event store and delivery pipe, not the
 
 ## Status
 
-Active and heavily starred: about 35,981 stars since 2026-03-06 as of 2026-10-15, pushed 2026-11-14, with desktop releases at v0.5.30 (2026-11-14) ending a five-week desktop gap after v0.5.28 (2026-10-09), which had followed v0.5.27 (2026-10-06) three days apart (GitHub API, as of 2026-11-14).
+Active and heavily starred: about 35,981 stars since 2026-03-06 as of 2026-10-15, pushed 2026-11-17, with desktop releases at v0.5.30 (2026-11-14) ending a five-week desktop gap after v0.5.28 (2026-10-09), which had followed v0.5.27 (2026-10-06) three days apart (GitHub API, as of 2026-11-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=block/buzz&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,8 @@ Not for anyone who needs Slack-world integrations, federated availability, or a 
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo, architecture and vision docs, releases, the Nostr reference); the push date refreshed to 2026-10-27, desktop v0.5.28 still the latest release.
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo, architecture and vision docs, releases, the Nostr reference); the push date refreshed to 2026-11-04, desktop v0.5.28 still the latest release.
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repository, ARCHITECTURE.md, VISION.md, releases, the Nostr reference); the push date refreshed to 2026-11-12, desktop v0.5.28 still the latest release.
+- 2026-11-17 - Appended the Changes bullet for desktop v0.5.30 (2026-11-14), which the Status prose had carried since 2026-11-14 without its bullet.
+- 2026-11-17 - Rotation re-verification (every cited URL re-fetched live: repository, ARCHITECTURE.md, VISION.md, releases, the Nostr reference); claims hold, desktop v0.5.30 (2026-11-14) still the latest release, the push date refreshed to 2026-11-17.
 
 ## See also
 

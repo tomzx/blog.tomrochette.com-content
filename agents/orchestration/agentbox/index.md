@@ -1,7 +1,7 @@
 ---
 title: AgentBox
 created: 2026-10-10
-updated: 2026-11-08
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, sandboxing, docker, cloud, checkpoints]
 readability: 3
@@ -23,7 +23,7 @@ MIT, solo-maintained by Marco D'Alia, distributed as the npm package @madarco/ag
 
 ## Status
 
-Active and early: 538 stars and 51 forks as of 2026-10-15 on a repository created 2026-05-12, last push 2026-10-07, npm latest 0.33.0, and the tray app at 0.4.3 (2026-09-21).
+Active and early: 538 stars and 51 forks as of 2026-10-15 on a repository created 2026-05-12, repository-level pushes through 2026-11-11 on side branches while the default branch sits at its 2026-09-23 docs commit, npm latest 0.33.0, and the tray app at 0.4.3 (2026-09-21).
 The Show HN thread from 2026-09-16, posted by the author, drew 4 points and one comment, so the independent footprint outside GitHub and npm is close to zero; the docs site at agent-box.sh, which returned 503 on both fetch attempts during the creation check, served again as of 2026-10-27.
 
 <picture>
@@ -69,6 +69,7 @@ My disagreeable claim: **if warm checkpoints work as advertised, the worktree is
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, releases, npm, HN); the repo still quiet since 2026-10-07, npm still 0.33.0, and the docs site at agent-box.sh serving again after the 503s at creation.
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, releases, npm, both HN fetches, the docs site); the repo still quiet since 2026-10-07 and npm still 0.33.0, with the Show HN record and the name collisions unchanged.
 - 2026-11-08 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, releases with tray-latest still 2026-09-21, npm still 0.33.0, the HN search with the same-name collisions, and the 4-point Show HN thread); claims hold, the repo still quiet since 2026-10-07.
+- 2026-11-17 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, releases, npm, the HN search with the same-name collisions, the 4-point Show HN thread, and the agent-box.sh docs site); claims hold, tray-latest still 2026-09-21 and npm still 0.33.0, the repository's pushed date reading 2026-11-11 on side branches while the default branch stays at its 2026-09-23 docs commit.
 
 ## See also
 

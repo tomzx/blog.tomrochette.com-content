@@ -1,7 +1,7 @@
 ---
 title: termio
 created: 2026-11-01
-updated: 2026-11-15
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal, tmux-alternative, ssh]
 readability: 3
@@ -25,7 +25,7 @@ By the termio-sh org, repository created 2026-05-23, MIT licensed, site at termi
 
 ## Status
 
-Active and fast: 751 stars, 63 forks, and 37 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-15, with 100-plus releases and v0.74.0 out on 2026-11-15 (after v0.72.0 on 2026-11-11, v0.71.1 the same day, after v0.71.0 on 2026-11-02 and v0.70.0 and v0.70.1 the same day) after v0.69.0 (2026-10-31), which had matched the Homebrew cask the same day.
+Active and fast: 751 stars, 63 forks, and 37 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-17, with 100-plus releases and v0.75.0 out on 2026-11-16 (panes opening as cards) after v0.74.0 on 2026-11-15, which followed v0.72.0 on 2026-11-11 and v0.71.1 the same day, after v0.71.0 on 2026-11-02 and v0.70.0 and v0.70.1 the same day, after v0.69.0 (2026-10-31), which had matched the Homebrew cask the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=termio-sh/termio&type=date&theme=dark&legend=top-left" />
@@ -68,6 +68,7 @@ Not for Windows or Linux desktop users, and not for anyone needing diff review s
 - 2026-11-01 - Created.
 - 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (repository API, README, releases, Homebrew cask, download server, HN search); no factual drift, still quiet since the 2026-11-02 push, HN still returns nothing.
 - 2026-11-15 - Volatile refresh: Recorded v0.74.0 (2026-11-15) as the latest release, the push date refreshed to 2026-11-15.
+- 2026-11-17 - Recorded v0.75.0 (2026-11-16, panes opening as cards) as the latest release, the push date refreshed to 2026-11-17.
 
 ## See also
 

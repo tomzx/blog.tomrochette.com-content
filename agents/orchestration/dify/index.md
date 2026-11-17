@@ -1,7 +1,7 @@
 ---
 title: Dify
 created: 2026-09-29
-updated: 2026-11-12
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -23,7 +23,7 @@ The repo sits at 158,517 stars with 25,044 forks, created 2023-04-12 (GitHub API
 
 ## Status
 
-Active: last push 2026-11-12, latest release 1.19.0 on 2026-11-04 after 1.18.0 on 2026-10-23 and four months on 1.17.1 (2026-09-10) before that (GitHub API, as of 2026-11-12).
+Active: last push 2026-11-17, latest release 1.19.0 on 2026-11-04 after 1.18.0 on 2026-10-23 and four months on 1.17.1 (2026-09-10) before that (GitHub API, as of 2026-11-17).
 1.19.0 ships nested workflow tracing that follows executions into the Workflow Tools they call, Workflow Tools made portable inside `.ifpkg` app packages, batch agent file uploads, and workspace skill management through OpenAPI and the difyctl CLI (1.19.0 release notes, as of 2026-11-08).
 Its 2024 HN launch drew 185 points, and the community has kept growing since.
 The category context is the risk: Flowise's shutdown discussion argued that capable coding agents are eroding the rigid low-code workflow approach, and that argument applies to every member of the genre, Dify included.
@@ -81,6 +81,7 @@ Not for coordinating parallel coding agents, and not for multi-tenant SaaS build
 - 2026-11-04 - Recorded 1.19.0 (2026-11-04) as the latest release, the push date refreshed to 2026-11-04.
 - 2026-11-08 - Fully re-verified out of rotation on the 1.19.0 signal: all cited sources re-fetched and live (repository pushed 2026-11-08, pricing page still $590 and $1,590 per workspace per year annual, license, docs, the 185-point launch thread).
 - 2026-11-08 - Recorded 1.19.0's material capabilities in Status from the release notes: nested workflow tracing, portable Workflow Tools in `.ifpkg` app packages, batch agent file uploads, and skill management through OpenAPI and difyctl.
+- 2026-11-17 - Re-verified in rotation (every cited URL re-fetched live: repo API, site, pricing page still $590 and $1,590 per workspace per year annual, docs (now 308-redirecting to docs.dify.ai/en/home), the modified-Apache LICENSE, releases still topping at 1.19.0, and the 185-point launch thread); the push date refreshed to 2026-11-17, claims hold.
 
 ## See also
 

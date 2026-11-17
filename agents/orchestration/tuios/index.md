@@ -1,7 +1,7 @@
 ---
 title: tuios
 created: 2026-10-28
-updated: 2026-11-16
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal, go, worktrees]
 readability: 3
@@ -22,7 +22,7 @@ Gaurav Gosain maintains it as a solo project with 5,500-plus commits.
 
 ## Status
 
-Active and fast: 6,175 stars on a repository created 2025-09-06, pushed 2026-11-15, with v0.13.2 (2026-11-15, agents-view polish for running many agents at once: wrapped and one-key-copyable code blocks in the thread, click-to-quick-look file paths, and an answer jumping to the next agent that needs you, with a live `tuios daemon upgrade`) the latest release after v0.13.1 (2026-11-15) after v0.12.1 (2026-10-31) and v0.12.0 (2026-10-30) and v0.11.1 (2026-10-26, three reported security advisories fixed plus worktree keys and a new theme) (GitHub API, releases, as of 2026-11-16).
+Active and fast: 6,175 stars on a repository created 2025-09-06, pushed 2026-11-17, with v0.13.3 (2026-11-16, a security and fix release closing four privately reported issues and the v0.13.2 focus-keys regression) the latest release after v0.13.2 (2026-11-15, agents-view polish for running many agents at once: wrapped and one-key-copyable code blocks in the thread, click-to-quick-look file paths, and an answer jumping to the next agent that needs you, with a live `tuios daemon upgrade`), after v0.13.1 (2026-11-15) after v0.12.1 (2026-10-31) and v0.12.0 (2026-10-30) and v0.11.1 (2026-10-26, three reported security advisories fixed plus worktree keys and a new theme) (GitHub API, releases, as of 2026-11-17).
 Install paths cover Homebrew, AUR, Nix (including nixpkgs), an install script, and Docker, and the docs site ships an in-browser WebAssembly tour.
 **The adoption-scrutiny gap is the caution: the only HN thread is 5 points from 2025-10-20, so 6.2k stars arrived without a public debate record, and the only third-party echo is a directory's Tool of the Week badge.**
 
@@ -67,6 +67,7 @@ Not for GUI-first teams, and not for anyone whose threat model needs sandboxed i
 - 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); no factual drift, the push date already refreshed to 2026-11-13 in the volatile pass.
 - 2026-11-15 - Volatile refresh: Recorded v0.13.1 (2026-11-15) as the latest release, the push date refreshed to 2026-11-15.
 - 2026-11-16 - Recorded v0.13.2 (2026-11-15, agents-view polish for many-agent runs, with a live daemon upgrade) as the latest release.
+- 2026-11-17 - Recorded v0.13.3 (2026-11-16, four privately reported security issues closed and the focus-keys regression fixed) as the latest release, the push date refreshed to 2026-11-17.
 
 ## See also
 

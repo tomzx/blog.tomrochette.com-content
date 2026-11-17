@@ -1,7 +1,7 @@
 ---
 title: bb
 created: 2026-10-11
-updated: 2026-11-13
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -76,6 +76,7 @@ Not for Windows or Linux daily drivers, and not for anyone who needs independent
 - 2026-10-31 - Recorded desktop-v0.48.1 (October 30, no written release notes) as the new latest stable release.
 - 2026-11-07 - Rotation re-verification, all cited URLs re-fetched live: recorded desktop-v0.49.0 (November 6) as the new latest stable, the first release in months carrying full written notes on the product site's changelog (the reliability release, rolling up 0.48.1), and recorded the changelog's mobile front (an iOS app in the update path, an Android app in alpha since 0.45.0); the repository (pushed 2026-11-07), the zero-coverage HN search (re-run, same absence), and the README's four-surface pitch stand; prices unchanged.
 - 2026-11-13 - Volatile re-verification on the pushed signal (release train unchanged at desktop-v0.49.0), and added the community plugin directory (MGrin/awesome-bb-plugins) to Status as ecosystem evidence: 21 official plugins, the retired remote marketplace, and 25 npm bb-plugin packages per the directory's count; the zero-coverage caution stands, the directory documents plugins without reviewing the IDE.
+- 2026-11-17 - Rotation re-verification, all cited URLs re-fetched live: the repository (pushed 2026-11-17, MIT, not archived), the README (same self-building pitch, telemetry section unchanged), the product site, and the changelog (still ending at the 0.49.0 reliability release, no 0.49.1 stable after it) stand, desktop-v0.49.0 confirmed as the latest stable through the releases API, the plugin directory stands unchanged with the recorded facts intact, and the HN search re-run returns the same lone unrelated Agentastic.dev hit; prices unchanged.
 
 ## See also
 

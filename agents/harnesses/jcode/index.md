@@ -1,7 +1,7 @@
 ---
 title: jcode
 created: 2026-08-30
-updated: 2026-11-16
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, yc, memory, multi-agent]
 readability: 3
@@ -26,7 +26,7 @@ Its three distinctive systems are an embedding-based memory graph with passive r
 
 **Active and rising fast, with a bus factor of one.**
 Created January 5, 2026, it shows 20,823 stars and 2,418 forks as of 2026-10-29 with pushes landing the day of this check (GitHub API, re-checked 2026-10-30), and a release cadence that ran near-daily until v0.84.0 on September 7, 2026, followed by a twelve-day pause that v0.85.0 ended on September 19, 2026, v0.86.0 a day later on September 20, the v0.87 pair starting September 22 (v0.87.0, which added Claude Opus 5.5 with independent Anthropic model discovery and Claude Code 2.1.280 OAuth compatibility, with v0.87.1 following within hours), v0.88.0 on September 23, which made Claude Opus 5.5 the default Anthropic model and added multi-browser support and banked resets for exhausted OpenAI usage, and a near-daily train still running as of 2026-10-22 (v0.89.0 on September 28 added voice input and agent applets, v0.90.0 on October 1 moved web search to the provider's own server-side search with a config opt-out, v0.91.0 on October 6 added a Google Calendar tool, guided OAuth app setup, Alt-based speed-tier cycling, and a /desktop handoff to Jcode Desktop, v0.92.0 on October 7 added opt-in codemode over an embedded QuickJS sandbox, v0.93.0 on October 9 cut first-frame startup to about 20 ms and added the post_tool_feedback hook, v0.94.0 on October 10 added queued commands, an Alt+G git-commit-log view, and mid-turn message observation and cancellation for API clients, and v0.95.0 on October 12 routed OpenCode Go models including grok-4.7 and gpt-6-luna over the Responses API, exposed turn-end token usage to hooks, and added per-session worker model overrides in /agents plus a stalled-worker watchdog for swarms, the train ran on through v0.96.0 and v0.97.0 on October 14 to v0.98.1 on October 15 and v0.99.0 on October 18, which added account failover that retries a turn on the next pool account when one hits a usage limit, session hibernation that frees memory from idle sessions, and much faster reload of large sessions by showing the local transcript immediately and sending only new history, and v0.99.1 on October 22 fixed OpenAI models failing every turn on a rejected tool schema, made the TUI recover from a vanished or unresponsive server instead of retrying forever, and added native Muse subscription login plus Venice AI as a provider).
-The stable train has sat at v0.99.1 since October 22 while an opt-in v1 preview line publishes experimental builds (v1.0.0-preview.24 and v1.0.0-preview.30, both October 28, the preview line running on through v1.0.0-preview.424 by November 12), with pushes continuing as of 2026-11-16 (GitHub API).
+The stable train graduated to v1.0.0 on November 17, ending the v0.99.1 park that began October 22 (the opt-in v1 preview line it ran beside had reached v1.0.0-preview.424 by November 12), with the 1.0.0 release reworking swarms to plan jobs in phases and parallel lanes whose workers start as dependencies finish under one pinned team-progress view, launching jcode Cloud (`/cloud` moves a session or coordinated swarm to a VM and keeps it running after you disconnect, `/local` brings the conversation and repository back), and lightening the terminal (25 percent less CPU in the profiled client, idle wakeups down from 2.68 to 1.51 per second, rendered-span memory in a large conversation from 20.4 MB to 14.6 MB), with pushes continuing as of 2026-11-17 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=1jehuang/jcode&type=date&theme=dark&legend=top-left" />
@@ -54,7 +54,7 @@ The independent footprint is thin so far: two Hacker News threads at 3 and 5 poi
 
 - **Every number is self-published**: benchmarks run on the author's machine with author-chosen versions, and the comparison table now publishes both embedding states (about 10.4 MB per added session on, 9.9 MB off), all still self-measured.
 - Self-dev mode hands the agent its own source and the README itself warns that weaker models make subtle, breaking changes; treating your harness as mutable is a supply-chain decision.
-- Solo founder, v0.x line, near-daily releases; churn is a real cost, and the site carries its own "under construction" flag.
+- Solo founder, near-daily releases through the just-landed v1.0.0; churn is a genuine cost, and the site carries its own "under construction" flag.
 - MCP is stdio-only; HTTP and SSE servers are recognized and skipped ([docs](https://jcode.sh/docs)).
 - Ambient mode and the iOS app are announced but were not shipped as of the independent August 1, 2026 review ([grigio.org](https://grigio.org/jcode-the-coding-agent-that-raises-the-skill-ceiling-vs-opencode-and-pi/)).
 - Community scrutiny is thin; most third-party material so far echoes the README.
@@ -83,7 +83,7 @@ Enterprise is custom.
 
 ## Bottom line
 
-Recommended for engineers running many parallel agents on one machine who want memory and multi-agent coordination built in, and who accept self-published numbers and v0.x churn.
+Recommended for engineers running many parallel agents on one machine who want memory and multi-agent coordination built in, and who accept self-published numbers and release churn.
 Not for teams needing IDE integration, HTTP MCP, or independent benchmarking today.
 
 ## Changes
@@ -115,6 +115,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 - 2026-11-01 - Recorded the opt-in v1 preview line (v1.0.0-preview.24 and v1.0.0-preview.30, both published October 28, experimental binaries directing production use to the stable channel) running behind the stable train parked at v0.99.1 since October 22, and refreshed pushes to 2026-11-01.
 - 2026-11-11 - Rotation re-verification, re-fetching every cited reference (all live): the preview line reached v1.0.0-preview.394 (November 10) behind the stable train parked at v0.99.1, pushes refreshed to 2026-11-11, and the pricing page's visible terms re-verified unchanged (credit doubling, the default-$0 extra-usage limit, and justrust builds at 2,500 per $10 of plan).
 - 2026-11-16 - Rotation re-verification, re-fetching every cited reference (all live): the preview line reached v1.0.0-preview.424 (November 12) behind the stable train parked at v0.99.1, pushes refreshed to 2026-11-16, and the justrust free trial tightened to 7 days with up to 500 builds (from the first month with 5,000), appended to Price history.
+- 2026-11-17 - Recorded the stable train graduating to v1.0.0 (published November 17), ending the v0.99.1 park that began October 22: swarms plan jobs in phases and parallel lanes with workers starting as dependencies finish under one pinned team-progress view, jcode Cloud launched (`/cloud` moves a session or coordinated swarm to a VM and keeps it after disconnect, `/local` brings the conversation and repository back), and the profiled client measured 25 percent less CPU, idle wakeups down from 2.68 to 1.51 per second, and rendered-span memory in a large conversation down from 20.4 MB to 14.6 MB.
 
 ## See also
 

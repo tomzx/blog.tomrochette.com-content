@@ -1,7 +1,7 @@
 ---
 title: Atlas
 created: 2026-09-29
-updated: 2026-11-12
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, source-control, rust]
 readability: 3
@@ -27,7 +27,7 @@ It surfaced as an entrant from the owner's GitHub stars.
 
 ## Status
 
-Active and growing fast: 9,601 stars in five months (as of 2026-10-15), last push 2026-11-11, latest release alpha-0.4.1-org-agent on 2026-11-03, after the alpha-0.3.x line that closed with alpha-0.3.4 on 2026-09-27, both 0.4 release bodies empty so the org-agent label is all the tag says (GitHub API, as of 2026-11-12).
+Active and growing fast: 9,601 stars in five months (as of 2026-10-15), last push 2026-11-16, latest release alpha-0.4.1-org-agent on 2026-11-03, after the alpha-0.3.x line that closed with alpha-0.3.4 on 2026-09-27, both 0.4 release bodies empty so the org-agent label is all the tag says (GitHub API, as of 2026-11-17).
 
 **The identity record moved: the repository transferred from pacifio's personal account into the tryatlas organization between the 2026-11-06 verification and this run, the old path a 301 redirect to tryatlas/atlas.**
 
@@ -40,7 +40,7 @@ Active and growing fast: 9,601 stars in five months (as of 2026-10-15), last pus
 Official installers now ship for all three platforms: signed macOS .dmg, Windows .msi, and Linux .deb, .rpm, Arch package, AppImage, and tar.gz for x86-64 with WebKitGTK 4.1 (install docs).
 The alpha-0.4.1 release (2026-10-19) carried the Linux set on GitHub, but the newest tag's assets list only macOS and Windows files, so the website download is the steady Linux channel today; on Linux the app notifies about updates without installing them (releases API, install docs, as of 2026-11-08).
 The README carries Trendshift badges for Rust, and releases are tags on main with squash-merged conventional-commit pull requests, a sign of release discipline inside alpha.
-I re-searched HN this run and still found no launch thread and no third-party coverage: the community footprint as of 2026-11-08 is GitHub stars alone, which is itself a signal.
+I re-searched HN this run and still found no launch thread and no third-party coverage: the community footprint as of 2026-11-17 is GitHub stars alone, which is itself a signal.
 
 ## Strengths
 
@@ -92,6 +92,7 @@ Not for teams needing a stable 1.0 or a tool with independent community validati
 - 2026-11-08 - Folded the vendor sibling Atlas CLI (tryatlas/cli, Apache-2.0, headless session capture and shared memory for the agents you already run) into What it is as prose per the vendor-sibling ruling; no separate note.
 - 2026-11-08 - Re-verified in rotation: every cited URL re-fetched; stack description moved to Tauri v2 with a React 19 TypeScript frontend over a Rust backend (GitHub's top language is now TypeScript), the Remote Runs tier fact moved to Team and Business with a price-history row at unchanged prices, and no HN or third-party coverage found.
 - 2026-11-08 - Recorded the chat layer's session-to-worktree binding (a session starts in and stays bound to a project worktree, each worktree acting on its own branch) from the product chat docs, and the feature matrix's Atlas worktree-isolation cell moved with it.
+- 2026-11-17 - Re-verified in rotation (every cited URL re-fetched live: repo API, both release endpoints, README, architecture doc, install docs, site with pricing unchanged, explorer and chat docs, the CLI sibling, and the HN search still without a product story); claims hold, alpha-0.4.1-org-agent still the latest release, the push date refreshed to 2026-11-16.
 
 ## See also
 

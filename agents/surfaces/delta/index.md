@@ -1,7 +1,7 @@
 ---
 title: Delta
 created: 2026-10-04
-updated: 2026-11-13
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, agentic-development-environments, version-control, code-review, multiplayer]
 readability: 3
@@ -76,6 +76,7 @@ The disagreeable claim I will defend: the durable idea here is not replacing Git
 - 2026-10-25 - Rotation re-verification, all nine cited URLs re-fetched live: the beta announcement, both DeltaDB posts, the core-concepts and data-storage docs, the beta thread (still 154 points, 102 comments), and the pricing ladder (Personal $0, Pro $10 with $5 of tokens) all stand, and the blog index still ends at the October 15 post.
 - 2026-11-04 - Rotation re-verification, all nine cited URLs re-fetched live, plus the blog index: recorded Claude Code is now multiplayer (October 27, the Delta CLI beta whose Claude Code plugin shares a session's conversation and unfinished changes as a thread joinable from either the app or the terminal, with docs sections for the plugin) and the second DeltaDB deep-dive (October 29, Antonio Scandurra, Rust and Cloudflare Durable Objects causal graph); the pricing ladder (Personal $0, Pro $10 with $5 of tokens) and the beta thread (154 points, 102 comments) stand.
 - 2026-11-13 - Rotation re-verification, all cited URLs re-fetched live, plus the five new posts: recorded the November run of the blog (The Diff: October 2026 on November 5, Building a thread UI on hard mode on November 9, Conductor conversation imports on November 10, Cloud Runners shipped on November 11 as Zed-hosted E2B sandboxes with .agents/setup, your own keys, and up to six runners free on Zed plans, and Claude Agent in Delta on November 12 as the first external agent through an ACP v2 adapter over the Claude Agent SDK with subscription sign-in, local-only for now); the pricing ladder (Personal $0, Pro $10 with $5 of tokens) and the beta thread (154 points) stand, and DeltaDB still has no public release.
+- 2026-11-17 - Rotation re-verification, all eleven cited URLs re-fetched live: the product site, the pricing ladder (Personal $0, Pro $10 with $5 of tokens), the blog index (still ending at the November 12 Claude Agent post), the core-concepts and data-storage docs (email-only deletion and the Delete Locally caveat intact), both DeltaDB deep-dives, the Cloud Runners and Claude Agent posts, and the beta thread (154 points, 102 comments) all stand; DeltaDB still has no public release, and the Conductor import post's framing now reads Conductor is winding down.
 
 ## See also
 

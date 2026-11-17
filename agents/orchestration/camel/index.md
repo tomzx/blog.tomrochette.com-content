@@ -1,7 +1,7 @@
 ---
 title: CAMEL
 created: 2026-10-07
-updated: 2026-11-12
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, research, role-playing]
 readability: 3
@@ -22,7 +22,7 @@ This is the fourth member of the 2023 conversational and role-play family this s
 
 ## Status
 
-Active and researched: 17,885 stars, a push on 2026-11-09, and continuous PyPI releases with `camel-ai` at 0.2.90 as of 2026-10-15 (GitHub API, PyPI, as of 2026-11-12), on a repository created 2023-03-17.
+Active and researched: 17,885 stars, a push on 2026-11-16, and continuous PyPI releases with `camel-ai` at 0.2.90 as of 2026-10-15 (GitHub API, PyPI, as of 2026-11-17), on a repository created 2023-03-17.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=camel-ai/camel&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for engineers who need a session orchestrator around external coding CLIs; e
 - 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); no factual drift, PyPI still at 0.2.90 and the push date unchanged since 2026-10-27.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-02; camel-ai 0.2.90 still current on PyPI.
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repository, paper, community site, docs, PyPI, GitHub's top-ten list); the push date refreshed to 2026-11-09, camel-ai 0.2.90 still current on PyPI.
+- 2026-11-17 - Rotation re-verification (every cited URL re-fetched live: repository, paper, community site, docs, PyPI still at 0.2.90, GitHub's top-ten list); the push date refreshed to 2026-11-16, claims hold.
 
 ## See also
 
