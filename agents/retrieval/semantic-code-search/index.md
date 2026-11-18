@@ -1,7 +1,7 @@
 ---
 title: Semantic code search in coding tools
 created: 2026-08-24
-updated: 2026-11-13
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, code-retrieval, embeddings, rag, llm=glm-5.3-flash]
 readability: 3
@@ -28,7 +28,7 @@ Devin Desktop (the former Windsurf) documents a RAG context engine that indexes 
 **Active as a capability, demoted as a default.**
 Cursor is the sharpest case: as of 2026-10-05 its retrieval docs document no semantic codebase index at all, only the local Instant Grep index and the Explore subagent.
 Continue deprecated `@Codebase` in favor of agent file-exploration tools, rules files, and MCP servers, keeping code RAG only as an advanced build-your-own path.
-VS Code states that when no semantic index is ready, the other tools "still provide great results".
+VS Code's tool table (page dated 2026-11-16) marks semantic search (`#codebase`) as requiring a workspace index and grep as working without one, dropping the earlier sentence that said the other tools "still provide great results" when no semantic index is ready.
 Aider never shipped embeddings at all, ranking tree-sitter symbols by graph references instead.
 
 ## Strengths
@@ -73,6 +73,7 @@ The Devin and VS Code platform bets are the counterargument, and they may well w
 - 2026-11-01 - Rotation re-verification re-fetched every cited URL live (Cursor's Search docs, VS Code's workspace-context page now dated 2026-10-28, Continue's deprecated-provider and replacement guides, Devin's RAG context engine, Aider's repo map); all claims unchanged.
 - 2026-11-06 - Rotation re-verification re-fetched every cited URL live (Cursor's Search docs still stating no stored codebase embeddings, VS Code's workspace-context page now dated 2026-11-03, Continue's deprecated-provider and replacement guides, Devin's RAG context engine, Aider's repo map); all claims unchanged.
 - 2026-11-13 - Rotation re-verification re-fetched every cited URL live (Cursor's Search docs still stating no stored codebase embeddings, VS Code's workspace-context page now dated 2026-11-11, Continue's deprecated-provider and replacement guides, Devin's RAG context engine, Aider's repo map); all claims unchanged.
+- 2026-11-17 - Rotation re-verification re-fetched every cited URL live (Cursor's Search docs still stating no stored codebase embeddings and leading with Instant Grep, Continue's deprecated-provider and replacement guides, Devin's RAG context engine, Aider's repo map all unchanged) and replaced the VS Code quote the re-fetch found dropped: the workspace-context page (now dated 2026-11-16) marks semantic search as requiring a workspace index and grep as working without one, and no longer says the other tools "still provide great results".
 
 ## See also
 
@@ -85,7 +86,7 @@ The Devin and VS Code platform bets are the counterargument, and they may well w
 ## References
 
 - https://cursor.com/docs/agent/tools/search - the retrieval docs (the former codebase-indexing path redirects here): Instant Grep, the Explore subagent, and the statement that Cursor does not store codebase embeddings for search (re-verified unchanged 2026-11-06; the old path 301s to this one)
-- https://code.visualstudio.com/docs/agents/reference/workspace-context - Copilot's search tool set, the GitHub, Azure DevOps, and local index sources, and the no-index fallback (page updated 2026-11-11, claims re-verified unchanged 2026-11-13)
+- https://code.visualstudio.com/docs/agents/reference/workspace-context - Copilot's search tool set, the GitHub, Azure DevOps, and local index sources; the page (dated 2026-11-16) now marks semantic search as requiring a workspace index and grep as working without one, and the former "still provide great results" sentence no longer appears (fetched 2026-11-17)
 - https://docs.continue.dev/reference/deprecated-codebase - the deprecated local embeddings pipeline (transformers.js, hybrid retrieval, LLM reranking), re-verified unchanged 2026-11-06
 - https://docs.continue.dev/guides/codebase-documentation-awareness - the replacement model: agent tools, rules, and MCP servers (re-verified unchanged 2026-11-06)
 - https://docs.devin.ai/desktop/context-awareness/windsurf-overview - the RAG context engine and plan-gated indexing in Devin Desktop (re-verified unchanged 2026-11-06)

@@ -1,7 +1,7 @@
 ---
 title: Agent Client Protocol (ACP)
 created: 2026-08-24
-updated: 2026-11-15
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, editor-integration]
 readability: 3
@@ -92,6 +92,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 - 2026-11-12 - The trains moved and shipped what the last pass recorded unreleased: v1.16.0 with schema-v1.30.0 and schema-v2.0.0-alpha.14 (2026-11-09, stabilizing the client system prompt, #2765), then v1.17.0 with schema-v1.31.0 and schema-v2.0.0-alpha.15 (2026-11-10, unstable additions of session/options with initial config option values, an AuthAccount description, and session tool-call content with one-shot-subagent clarification, plus an unstable-v2 clarification that session/cancel only cancels foreground work); the SDK figures stand (Rust 5.0.0, TypeScript 2.4.0), the stable protocol stays at version 1 with the v2 draft open, the docs added a page comparing ACP to MCP, A2A, and LSP (#2790), and the agents list re-counted at 51.
 - 2026-11-14 - Re-verification: no new tag since (the trains stay at v1.17.0 with schema-v1.31.0 and schema-v2.0.0-alpha.15, SDKs at Rust 5.0.0 and TypeScript 2.4.0), with the default branch carrying 2026-11-13 to 11-14 unstable-train work (v2 subagents moving out from behind unstable_subagents, a replay_complete session update, a speed session-config option, markdown plans replacing the file plan type, and RFD docs for v2 idempotency keys and the replay-complete signal) plus client-registry docs commits, and the agents list re-counted at 51.
 - 2026-11-15 - The trains moved on 2026-11-14, shipping what the last pass recorded unreleased: v1.18.0 with schema-v1.32.0 (unstable additions of a prompt-suggestions session update and client capability, markdown plans carrying a path in place of the file plan type, the speed session-config option category, and initial config options accepted on session/fork with notification clarifications, plus subagent message-view clarifications) and the v2 alpha train to schema-v2.0.0-alpha.16; the SDK figures stand (Rust 5.0.0, TypeScript 2.4.0), the stable protocol stays at version 1 with the v2 draft open, and the agents list re-counted at 51, unchanged.
+- 2026-11-17 - Re-verification: the repository pushed 2026-11-16 on client-registry docs (Varin added to the desktop and web clients, Mobaide added to the mobile clients, Capsule's entry updated for Windows plus a website, and the acp-connector description improved), a session-cursors RFD added to the v2 draft docs, and dependency bumps, with no new tag since: the trains stay at v1.18.0 with schema-v1.32.0 and schema-v2.0.0-alpha.16, the SDKs at Rust 5.0.0 and TypeScript 2.4.0, the stable protocol at version 1 with the v2 draft open, and the agents list holds at 51.
 
 ## See also
 

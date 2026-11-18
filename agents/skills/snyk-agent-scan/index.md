@@ -1,7 +1,7 @@
 ---
 title: Snyk Agent Scan
 created: 2026-10-20
-updated: 2026-11-14
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, security, supply-chain]
 readability: 3
@@ -21,10 +21,11 @@ A Python 3.10+ CLI (`uvx snyk-agent-scan`, or a GPG-signed standalone binary wit
 Analysis runs two ways: local checks, and Snyk's analysis API, to which skill contents, agent applications, tool names, and descriptions are shared under Snyk's Agent Scan terms.
 Version 0.6 (August 2026) moved from issue-code output to scored risk indicators against a 2026-07-10 analysis API, and the 0.5.x line is planned for deprecation.
 Snyk also ships it as the experimental `snyk agent-scan` command inside the main Snyk CLI (v1.1308.0), and an enterprise background mode (MDM-managed) reports results to the Snyk Evo platform.
+The repo's README now documents a daily usage limit for free-tier SNYK_TOKEN users (a docs commit on 2026-11-16), worth knowing before scripted scans on the Free plan.
 
 ## Status
 
-Active and vendor-backed: 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24), 802 commits on a repository created 2025-04-07, latest release v0.6.11 (2026-11-06, on PyPI the same day; its GitHub body is empty, the content reading from the surrounding commits: discovery of Antigravity's current skill paths, supported-platform docs for the standalone binaries, hook-script version stamping at release time instead of install time, and removal of no-op agentic-fix parameters), with the default branch pushed 2026-11-13 (retry hooks on transient errors and a certificate-error fix).
+Active and vendor-backed: 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24, 298 as of 2026-11-17), 802 commits on a repository created 2025-04-07, latest release v0.6.11 (2026-11-06, on PyPI the same day; its GitHub body is empty, the content reading from the surrounding commits: discovery of Antigravity's current skill paths, supported-platform docs for the standalone binaries, hook-script version stamping at release time instead of install time, and removal of no-op agentic-fix parameters), with the default branch pushed 2026-11-16 (a docs note on the free tier's daily usage limit, following the 11-13 retry-hooks and certificate-error fixes).
 Skills scanning arrived with v0.4, published together with a technical report on the agent skill ecosystem: of 3,984 skills analyzed from the clawhub.ai hub, 13.4% carried at least one critical-level issue and 36.8% at least one other-severity issue, while 9% of the top legitimate skills.sh skills showed exploitable patterns such as insecure credential handling or third-party content processing.
 Snyk Labs runs a companion Skill Inspector web experiment for scanning a single skill.
 
@@ -88,6 +89,7 @@ My disagreeable claim: the audit direction is the more valuable half of this mar
 - 2026-11-07 - The release train moved to v0.6.11 (published 2026-11-06, on PyPI the same day, with an empty GitHub body and the content read from the surrounding commits: Antigravity current-skill-path discovery, standalone-binary platform docs, hook-script version stamping at release time, and no-op agentic-fix parameter removal); the default branch pushed 2026-11-06, and Snyk's pricing page redesign moved the pricing section and price history to the credit-based enterprise model (figures no longer verifiable in a static fetch).
 - 2026-11-12 - Volatile refresh: the default branch pushed 2026-11-09 (guard e2e install coverage for Copilot and guard-uninstall tests for all clients); v0.6.11 still the newest release.
 - 2026-11-14 - Volatile refresh: the default branch pushed 2026-11-13 (retry hooks on transient errors, a certificate-error fix); v0.6.11 still the newest release.
+- 2026-11-17 - Volatile refresh: the default branch pushed 2026-11-16 with a docs commit noting the daily usage limit for free-tier SNYK_TOKEN users (PR #541), the fact recorded in the What-it-is section; v0.6.11 still the newest release.
 
 ## See also
 
@@ -99,7 +101,7 @@ My disagreeable claim: the audit direction is the more valuable half of this mar
 
 ## References
 
-- https://github.com/snyk/agent-scan - repository, Apache-2.0, 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24), created 2025-04-07, default branch pushed 2026-11-13 (GitHub API, as of 2026-11-14)
+- https://github.com/snyk/agent-scan - repository, Apache-2.0, 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24), created 2025-04-07, default branch pushed 2026-11-16 (GitHub API, as of 2026-11-17)
 - https://raw.githubusercontent.com/snyk/agent-scan/main/README.md - discovery matrix (14 agents, four scopes including the extension/plugin scope VS Code gained in v0.6.9), the two modes, the MCP consent flow and sandbox warning, and the API-sharing disclosure (fetched 2026-10-22)
 - https://pypi.org/pypi/snyk-agent-scan/json - snyk-agent-scan 0.6.11, Python 3.10+, Apache-2.0 (fetched 2026-11-07)
 - https://api.github.com/repos/snyk/agent-scan/releases/latest - v0.6.11 published 2026-11-06 (empty body; the surrounding commits name Antigravity current-skill-path discovery, standalone-binary platform docs, hook-script version stamping at release time, and no-op agentic-fix parameter removal), the newest release as of 2026-11-07 (fetched 2026-11-07)

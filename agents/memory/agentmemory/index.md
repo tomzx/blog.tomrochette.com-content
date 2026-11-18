@@ -1,7 +1,7 @@
 ---
 title: agentmemory
 created: 2026-10-09
-updated: 2026-11-16
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The design doc extends Karpathy's LLM-wiki pattern with confidence scores, lifec
 ## Status
 
 **Large and active, with adoption that outruns its discussion footprint.**
-29,558 stars, 2,607 forks, and 572 open issues and pull requests as of 2026-10-20 (GitHub API), created 2026-02-25, pushed 2026-11-16, as of 2026-11-16 (GitHub API).
+29,558 stars, 2,607 forks, and 572 open issues and pull requests as of 2026-10-20 (GitHub API), created 2026-02-25, pushed 2026-11-17, as of 2026-11-17 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&theme=dark&legend=top-left" />
@@ -33,10 +33,11 @@ The design doc extends Karpathy's LLM-wiki pattern with confidence scores, lifec
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.9.33 (2026-11-09) with 90,807 trailing-month npm downloads (2026-10-17 to 2026-11-16), as of 2026-11-16; the pending v0.9.31 shipped the iii v0.25.0 runtime upgrade with Worker Compose and the native Pi, Oh My Pi, and DeepSeek Harness integrations, plus a retrieval fix the release grounds in the project's own BM25 development evaluation: correcting prefix-score inflation raised strict recall-all@5 from 65.74 to 84.68 percent (complete-evidence 309 to 398 of 470 answerable), summaries now process only new observations so unchanged sessions make zero extra summarization calls, and optional graph enrichment runs under a 500 ms budget so keyword and vector results return if graph storage stalls.
+Latest release v0.9.33 (2026-11-09) with 89,240 trailing-month npm downloads (2026-10-18 to 2026-11-17), as of 2026-11-17; the pending v0.9.31 shipped the iii v0.25.0 runtime upgrade with Worker Compose and the native Pi, Oh My Pi, and DeepSeek Harness integrations, plus a retrieval fix the release grounds in the project's own BM25 development evaluation: correcting prefix-score inflation raised strict recall-all@5 from 65.74 to 84.68 percent (complete-evidence 309 to 398 of 470 answerable), summaries now process only new observations so unchanged sessions make zero extra summarization calls, and optional graph enrichment runs under a 500 ms budget so keyword and vector results return if graph storage stalls.
 v0.9.32 is a privacy-first breaking release: an API key alone no longer turns on an outside LLM or embedding provider (LLM summaries, compression, consolidation, and reflection need an explicit `AGENTMEMORY_LLM_PROVIDER` plus its key, cloud embeddings need `EMBEDDING_PROVIDER`, unset means BM25 and graph only), hooks refuse to send anything to a remote plain-HTTP server, and PreCompact injects stored memory only with `AGENTMEMORY_INJECT_CONTEXT=true`; it also ships the pending train's recall fixes (CJK recall, scoped smart-search re-ranking, memory types preserved in search responses), MCP tool annotations with a published privacy policy, official OpenAI plugin directory, Hermes catalog, and ClawHub listings, self-installing iii on native Windows, and versioned Docker Hub images.
 The release train runs roughly monthly (v0.9.27 in June, v0.9.28 in July, v0.9.29 in August, v0.9.30 in October, and v0.9.31 through v0.9.33 in November).
 The November 8 default-branch batch shipped as v0.9.33 on top of those items: a drop-in upgrade to iii 0.25.1, whole-scope reads above 64 MiB now page with the transport cap raised to match, a configurable `AGENTMEMORY_SUMMARY_TIMEOUT_MS` for slow or local LLMs, redaction moved before truncation, CLIP text-to-image search using the text tower, vector-index gap detection at boot, and the install path retrying transient engine downloads; the pending November 11 commit unindexes superseded and wiped memories so deleted entries stop answering, and the pending November 12 batch adds delete-path locking, session-cap eviction of the lowest-value observations instead of refused writes, background retries for failed keyword-index sessions, and Hermes plugin-doctor and graphify-truncation fixes.
+The pending November 16 batch adds replayed-capture-event deduplication, scoped-recall read skips when the index carries the memory type, recall filters applied before the candidate limit, unnecessary session reads skipped for scoped recall, optional vision preserved through provider wrappers, compression opt-in honored during summary recovery, no compression for empty observations, snapshot reads failing closed, bounded query matches retained on byte exhaustion, env-file values no longer duplicated into Compose YAML, and one probe allowed through the half-open circuit breaker, and the November 17 docs commit adds architecture, pipeline, and stack diagrams kept current by docs-sync.
 I found no dedicated Hacker News thread through 2026-10-09 searches, so the stars came through awesome-list placement and agent registries rather than public debate, the same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and memU.
 
 ## Strengths
@@ -83,6 +84,7 @@ Not for single-harness users (claude-mem is simpler and battle-tested), privacy-
 - 2026-11-11 - Recorded v0.9.33 (November 9), which shipped the tracked November 8 batch and added the iii 0.25.1 upgrade, 64 MiB whole-scope read paging, the configurable summary timeout, redaction before truncation, CLIP text-tower search, vector-index gap detection, and install-retry handling; npm re-verified in sync at 0.9.33, trailing-month downloads refreshed to 78,999 (2026-10-12 to 11-11), the push date refreshed to 2026-11-11, and the pending November 11 unindexing commit recorded.
 - 2026-11-13 - Volatile re-verification: the pending November 12 batch recorded (delete-path locking, session-cap eviction instead of refused writes, background keyword-index retries, Hermes and graphify fixes), trailing-month downloads refreshed to 86,955 (2026-10-13 to 11-12), and the push date refreshed to 2026-11-13.
 - 2026-11-16 - Rotation re-verification: every cited URL re-fetched live (repository API, README, license and releases APIs, npm registry, dated-range npm downloads, the HN footprint search, the leaderboard), no facts changed (npm still in sync at 0.9.33, the README's 54-tool and BM25-evaluation claims intact, the HN search still finding no dedicated thread, the leaderboard page fetching normally with no agentmemory among its published leaders); trailing-month downloads refreshed to 90,807 (2026-10-17 to 11-16), the repo-level push date refreshed to 2026-11-16 with the default branch quiet since the November 12 batch.
+- 2026-11-17 - Volatile re-verification: the pending November 16 batch recorded (replayed-capture deduplication, scoped-recall read and recall-filter skips, vision preserved through provider wrappers, compression opt-in honored in summary recovery, empty observations skipped, snapshot reads failing closed, bounded query matches kept under byte exhaustion, Compose env-file dedup, and the half-open circuit-breaker probe) plus the November 17 docs commit adding docs-sync-maintained architecture, pipeline, and stack diagrams; npm re-verified in sync at 0.9.33, trailing-month downloads refreshed to 89,240 (2026-10-18 to 11-17), and the push date refreshed to 2026-11-17.
 
 ## See also
 

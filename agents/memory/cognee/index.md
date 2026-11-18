@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-11-16
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-11-16, and v1.6.8 (November 12) the latest stable release with PyPI in sync at 1.6.8.
+About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-11-17, and v1.6.8 (November 12) the latest stable release with PyPI in sync at 1.6.8.
 The README now carries a BEAM benchmark table with self-run scores: 0.79 at 100K tokens under fixed hybrid retrieval and 0.67 as an exploratory result at 10M tokens with question-type routing, each with stated methodology, limits, and an acknowledged reproduction gap for the distributed 10M ingestion, which moves the project from comparisons-only to published self-run numbers.
 The same README fronts a Postgres path that runs the whole memory layer on one Postgres instance as a demo feature (the production version is a licensed product).
 
@@ -42,6 +42,7 @@ v1.6.6rc1 (October 23, pre-release) added Obsidian, Asana, and OneNote connector
 v1.6.6 (October 29), the stable cut, centers on contradiction handling: a durable fact conflict-resolution API that records and applies chosen resolutions across sessions, conflict review enabled by default so conflicting facts surface for review instead of slipping through, choices retired correctly on edits, deletes, and rebuilds, vectors copied between stores without re-embedding, and atomic or in-place Redis list and context deletions with permission and KMS errors surfaced instead of ignored.
 v1.6.7 (November 6) hardens the ingestion edge and search correctness: raw database connection strings and server file paths over HTTP are refused by default (breaking, with `ACCEPT_LOCAL_FILE_PATH` now also gating s3:// inputs), ingestion that carries Cognee's own credentials is refused, typed and scoped queries return correct LLM-safe results, feeling-lucky picks ignore disabled data types, query scoring batches and parallelizes across PGVector, Turso, and LanceDB, and DLT column writes record graph anchors so table rows reference back into the graph.
 v1.6.8 (November 12) is the integrations line: a Slack connector plus a @cognee Slack app that can answer and remember directly from Slack, a RabbitMQ-based embedding worker for background embedding generation, hardened Google-family connectors (Drive, Gmail, Calendar) with legacy-format and retry handling, and safer file locking with more correct audit-ledger writes.
+The default branch's post-release movement is small: the Hermes plugin moved out of core into the separate cognee-integrations/ package (November 16, pending release), with nightly CI now reporting to Slack.
 The company is part of the Berkeley Xcelerator and claims 5M+ SDK runs per month (vendor figure).
 The community discussion footprint is thin for the star count: its two Show HN threads drew 9 and 6 points, so third-party scrutiny lags the repository's popularity.
 
@@ -103,6 +104,7 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 - 2026-11-11 - Volatile re-verification: the 2026-11-11 pushed_at movement resolved to side-branch pushes with the default branch quiet since the v1.6.7 release; no facts changed.
 - 2026-11-13 - Recorded v1.6.8 (November 12, PyPI in sync): the Slack connector and @cognee app, a RabbitMQ embedding-worker engine, hardened Google-family connectors, and the file-locking and audit-ledger reliability fixes; the push date refreshed to 2026-11-13.
 - 2026-11-15 - Volatile re-verification: the pushed_at movement resolved to a maintenance-only dependency-lock commit with the release train quiet since v1.6.8; no facts changed, and the push date refreshed to 2026-11-14.
+- 2026-11-17 - Volatile re-verification: the post-release default-branch movement recorded (the Hermes plugin moved into the separate cognee-integrations/ package on November 16, pending release, with nightly CI reporting to Slack); PyPI re-verified in sync at 1.6.8, and the push date refreshed to 2026-11-17.
 
 ## See also
 

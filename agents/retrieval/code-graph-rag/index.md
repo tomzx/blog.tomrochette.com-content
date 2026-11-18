@@ -27,7 +27,7 @@ Made by an independent developer, with an enterprise support and services badge 
 ## Status
 
 **Actively shipping and early: 5.2k stars in sixteen months with almost no independent discussion.**
-5,252 stars and 702 forks as of 2026-10-14, pushed 2026-11-16 at the repository level with the default branch's latest commit the version bump to 0.6.62 (dated 2026-11-15), with 440 open issues (GitHub API, as of 2026-11-16).
+5,252 stars and 702 forks as of 2026-10-14, pushed 2026-11-17 at the repository level with the default branch's latest commit the version bump to 0.6.81 (dated 2026-11-16), with 424 open issues (GitHub API, as of 2026-11-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vitali87/code-graph-rag&type=date&theme=dark&legend=top-left" />
@@ -88,6 +88,7 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 - 2026-11-12 - Recorded the PyPI train jumping to 0.6.30 (2026-11-09, 40 releases; the 0.5 line never published past 0.5.0 and the 0.6 line went 0.6.0 on 2026-11-08 then straight to 0.6.30, with the main branch's version bumps running ahead at 0.6.39 by 2026-11-12) and refreshed the repository activity (pushed 2026-11-12, 456 open issues).
 - 2026-11-15 - Rotation re-verification re-fetched every cited URL live (repository API, README, NEWS.md, PyPI, and the footprint scan all fetched) and corrected the storage description the README had moved: the graph defaults to an embedded SQLite file with no server and no Docker, Memgraph and Neo4j becoming opt-in backends, with the definition, What-it-is, Cautions, and Compared-to lines aligned; recorded Julia joining the fully-supported list with eight structural-support languages named on the ast-grep tier, recorded the README's release-cadence note (PyPI carries every 50th version plus security fixes, breaking changes, and release-now merges, so main tags run ahead by tens of patch versions), recorded the 0.6-line NEWS block growing four entries past the 0.6.30 headlines with PyPI 0.6.30 still latest across 40 releases, and refreshed the repository activity (pushed 2026-11-14 with the main branch's version bump to 0.6.45, 445 open issues).
 - 2026-11-16 - Recorded the PyPI train publishing 0.6.62 (2026-11-15, 41 releases; the 32-version jump rendered the four grown NEWS entries together with five new headlines, catching the installable release up to the main branch's bump train on release day) and refreshed the repository activity (pushed 2026-11-16 at the repository level with the default branch's latest commit the 0.6.62 bump, 440 open issues).
+- 2026-11-17 - Refreshed the repository activity (pushed 2026-11-17 with the main branch's version bump train running on to 0.6.81, 424 open issues); PyPI 0.6.62 remains latest across 41 releases.
 
 ## See also
 
@@ -98,8 +99,8 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 
 ## References
 
-- https://api.github.com/repos/vitali87/code-graph-rag - 5,252 stars (as of 2026-10-14), 702 forks, MIT, created 2025-06-16, pushed 2026-11-16, 440 open issues (GitHub API, as of 2026-11-16)
+- https://api.github.com/repos/vitali87/code-graph-rag - 5,252 stars (as of 2026-10-14), 702 forks, MIT, created 2025-06-16, pushed 2026-11-17, 424 open issues (GitHub API, as of 2026-11-17)
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/README.md - the two-component architecture, compiler frontends, runtime tracing, language support, the embedded SQLite default with Memgraph and Neo4j opt-in, the release-cadence table, and the enterprise services section (re-fetched 2026-11-15)
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/NEWS.md - the feature-news ledger behind the active-maintenance claim; the four grown entries rendered into the 0.6.62 publish together with five new headlines (CommonJS renamed-property import resolution, class-field-type-retaining incremental syncs, receiver-scoped Python property reads, rejected cross-language internal import targets, and constructor attribute-field initializer handling), re-fetched 2026-11-16
-- https://pypi.org/pypi/code-graph-rag/json - version 0.6.62 (2026-11-15), 41 releases (re-fetched 2026-11-16, latest; the 0.5 line never published past 0.5.0 of 2026-11-03, the 0.6 line opened at 0.6.0 on 2026-11-08, and the 0.2, 0.3, and 0.4 lines ended at 0.2.24 (2026-10-23), 0.3.13 (2026-10-25), and 0.4.19 (2026-11-02))
+- https://pypi.org/pypi/code-graph-rag/json - version 0.6.62 (2026-11-15), 41 releases (re-fetched 2026-11-17, latest; the 0.5 line never published past 0.5.0 of 2026-11-03, the 0.6 line opened at 0.6.0 on 2026-11-08, and the 0.2, 0.3, and 0.4 lines ended at 0.2.24 (2026-10-23), 0.3.13 (2026-10-25), and 0.4.19 (2026-11-02))
 - https://hn.algolia.com/api/v1/search?query=Code-Graph-RAG%20knowledge%20graph&tags=story - the footprint scan: the cited Show HNs at 1 point each (re-fetched 2026-11-15, the query still returns the March 2026 Code-Graph-RAG Show HN at 1 point)

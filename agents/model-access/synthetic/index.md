@@ -1,7 +1,7 @@
 ---
 title: Synthetic
 created: 2026-09-26
-updated: 2026-11-01
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, open-weight-models, llm-subscription, coding-agents]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 Synthetic (synthetic.new) sells flat monthly subscriptions and pay-per-token billing for open-weight LLMs served on its own US and EU infrastructure, aimed squarely at coding-agent users.
 
-**It is the closest thing to Claude Pro for open-weight models: Go $9, Standard $30, and Big $90 per month now buy weekly-regenerating credit quotas spent as tokens at discounted model rates (as of 2026-10-19), across models like DeepSeek-V4.1-Flash, GLM-5.3-Flash, and Kimi-K3, with prompts never stored longer than 14 days.**
+**It is the closest thing to Claude Pro for open-weight models: Go $9, Standard $30, and Big $90 per month now buy weekly-regenerating credit quotas spent as tokens at discounted model rates (as of 2026-10-19), across models like DeepSeek-V4.1-Flash-1017, GLM-5.3-Flash, and Kimi-K3.1-Pro (the always-on lineup as of 2026-11-17), with prompts never stored longer than 14 days.**
 
 ## What it is
 
@@ -25,6 +25,7 @@ Any OpenAI-compatible tool works against api.synthetic.new/v1 (Anthropic-compati
 - By September 2025 third parties described it as 19 always-on models for $20-60/month; through mid-October 2026 the site marketed a single $30/month pack at 500 requests per 5 hours.
 - On 2026-10-19 the pricing page renders a three-tier lineup (Go $9, Standard $30, Big $90 per month) on weekly-regenerating credit quotas, replacing the per-5-hours request framing, and adds Fast and Infinite modes plus a Big-plan-only background path.
 - Distribution is broad, with OpenCode, Kilo Code, Crush, Claude Code, GitHub Copilot, and OpenClaw all listed in its docs, and its marketing has also gotten visible enough to attract pushback, including one 2026 Reddit thread warning users away and another accusing its community of astroturfing.
+- The always-on lineup rotated again by the 2026-11-17 re-read: Kimi-K3 left and Kimi-K3.1-Pro (512k context) took its slot and the syn:large:vision alias, GLM-5.3 joined in Beta at 512k, GLM-4.7-Flash became the syn:small:text target beside DeepSeek-V4.1-Flash-1017 on syn:large:text, Qwen3.8-27B and gpt-oss-120b round out the table, and free embeddings (nomic-embed-text-v1.5, outside the rate limit) are documented, with the model-rotation warning and the syn: alias recommendation unchanged.
 
 ## Strengths
 
@@ -74,6 +75,7 @@ My most contestable claim: the "3x Claude limits" line is the weakest reason to 
 - 2026-10-06 - Repaired the Compared-to Requesty link, which was double-wrapped and rendered its file path as the link text; pricing page re-verified unchanged.
 - 2026-10-19 - Pricing overhaul recorded: the single $30 pack (500 requests per 5 hours, 3x-Claude framing) became a Go $9 / Standard $30 / Big $90 lineup on weekly-regenerating credit quotas with Fast and Infinite modes, and the pricing page fetched with content for the first time since 2026-10-06; headline, Status, Cautions, Pricing, and price history moved with it.
 - 2026-11-01 - Rotation re-verification: every cited source re-fetched live and unchanged (the Go $9 / Standard $30 / Big $90 tiers, weekly credits, Fast and Infinite modes, and the 1-reset-per-month row on the pricing page, the October 2025 $20/$60 Wayback capture, the Show HN thread at 31 points, the model list with the syn: alias recommendation, the OpenCode native-provider guide, and Kilo's no-training and 14-day auto-delete claims); the pricing page's rows again render only in the full-page fetch, so the JS-render caveat stands; every price stands.
+- 2026-11-17 - Rotation re-verification: every cited source re-fetched live with the three tiers, weekly credits, Fast and Infinite modes, and the 1-reset-per-month row unchanged and the pricing page again readable only in the full-page fetch; the always-on lineup rotated (Kimi-K3 out, Kimi-K3.1-Pro in at 512k carrying the syn:large:vision alias, GLM-5.3 in Beta, GLM-4.7-Flash the small-text alias target, free embeddings documented), recorded in Status with the headline lineup re-dated.
 
 ## See also
 
@@ -83,10 +85,10 @@ My most contestable claim: the "3x Claude limits" line is the weakest reason to 
 
 ## References
 
-- https://synthetic.new/pricing - the 2026-10-19 lineup: Go $9, Standard $30, Big $90 per month, weekly-regenerating credit quotas at discounted model rates, Fast and Infinite modes, 1 usage reset per month (fetched 200 with full text on 2026-10-19; the JS-rendered page had fetched empty on 2026-10-11, 2026-10-12, and 2026-10-14, so the previous $30-pack figures stood dated 2026-10-06; re-fetched 2026-11-01 with the three tiers, the weekly-credit framing, and both modes unchanged, again readable only in the full-page fetch)
-- https://web.archive.org/web/20251008095830id_/https://synthetic.new/pricing - October 2025 pricing: Standard $20/135 messages per 5h, Pro $60/1,350 (re-fetched 2026-11-01 unchanged)
-- https://hn.algolia.com/api/v1/items/45055763 - Show HN launch thread; founder on request counting, 14-day retention, and GLM-4.5 as flagship (2025-08-28; re-fetched 2026-11-01 unchanged at 31 points)
-- https://dev.synthetic.new/docs/api/models - current always-on model list, syn: aliases, model-rotation warning (as of 2026-09-26; re-fetched 2026-10-19 with GLM-5.3-Flash, DeepSeek-V4.1-Flash, and Kimi-K3 still listed and the syn: alias recommendation unchanged; re-fetched 2026-11-01 unchanged)
-- https://dev.synthetic.new/docs/guides/opencode - native OpenCode provider setup (re-fetched 2026-11-01 unchanged)
-- https://kilo.ai/docs/ai-providers/synthetic - Kilo integration, no-training and 14-day auto-delete privacy claims (re-fetched 2026-11-01 unchanged)
+- https://synthetic.new/pricing - the 2026-10-19 lineup: Go $9, Standard $30, Big $90 per month, weekly-regenerating credit quotas at discounted model rates, Fast and Infinite modes, 1 usage reset per month (fetched 200 with full text on 2026-10-19; the JS-rendered page had fetched empty on 2026-10-11, 2026-10-12, and 2026-10-14, so the previous $30-pack figures stood dated 2026-10-06; re-fetched 2026-11-01 with the three tiers, the weekly-credit framing, and both modes unchanged, again readable only in the full-page fetch; re-fetched 2026-11-17 with the tiers and modes unchanged and the always-on discount table now led by Kimi-K3.1-Pro)
+- https://web.archive.org/web/20251008095830id_/https://synthetic.new/pricing - October 2025 pricing: Standard $20/135 messages per 5h, Pro $60/1,350 (re-fetched 2026-11-01 unchanged; re-fetched 2026-11-17 unchanged)
+- https://hn.algolia.com/api/v1/items/45055763 - Show HN launch thread; founder on request counting, 14-day retention, and GLM-4.5 as flagship (2025-08-28; re-fetched 2026-11-01 unchanged at 31 points; re-fetched 2026-11-17 unchanged at 31 points)
+- https://dev.synthetic.new/docs/api/models - current always-on model list, syn: aliases, model-rotation warning (as of 2026-09-26; re-fetched 2026-10-19 with GLM-5.3-Flash, DeepSeek-V4.1-Flash, and Kimi-K3 still listed and the syn: alias recommendation unchanged; re-fetched 2026-11-01 unchanged; re-fetched 2026-11-17 with Kimi-K3 out, Kimi-K3.1-Pro in at 512k and on syn:large:vision, GLM-5.3 in Beta, GLM-4.7-Flash the small-text alias, Qwen3.8-27B and gpt-oss-120b listed, free embeddings documented, and the rotation warning intact)
+- https://dev.synthetic.new/docs/guides/opencode - native OpenCode provider setup (re-fetched 2026-11-01 unchanged; re-fetched 2026-11-17 unchanged)
+- https://kilo.ai/docs/ai-providers/synthetic - Kilo integration, no-training and 14-day auto-delete privacy claims (re-fetched 2026-11-01 unchanged; re-fetched 2026-11-17 unchanged)
 - https://www.reddit.com/r/opencodeCLI/comments/1rfdadw/stay_away_from_syntheticnew/ - critical user report on practical limits; direct fetch returned 403, content recovered via search-result extraction

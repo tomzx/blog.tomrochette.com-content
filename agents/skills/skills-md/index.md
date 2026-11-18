@@ -1,7 +1,7 @@
 ---
 title: skills.md
 created: 2026-10-06
-updated: 2026-11-12
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, registries, marketplaces, hosted-execution]
 readability: 3
@@ -16,7 +16,7 @@ skills.md is Hasna's hosted-execution skills marketplace: an agent finds a skill
 
 ## What it is
 
-The client is an open-source Apache-2.0 CLI and SDK (`@hasna/skills` on npm, latest 0.10.94 with 212 published versions since 2026-02-14) that signs in through a browser flow and registers a stdio MCP server with the agent, documented for claude, codex, cursor, opencode, pi, and windsurf, with any MCP host supported by manual registration.
+The client is an open-source Apache-2.0 CLI and SDK (`@hasna/skills` on npm, latest 0.10.97 with 215 published versions since 2026-02-14) that signs in through a browser flow and registers a stdio MCP server with the agent, documented for claude, codex, cursor, opencode, pi, and windsurf, with any MCP host supported by manual registration.
 The catalog is curated rather than crawled: the marketplace page listed 250 entries before it moved behind sign-in (the homepage says 300 plus curated skills), across generation-style tasks like logo design, brand kits, pitch decks, and market research reports, each returning downloadable artifacts.
 Authors publish with `skills push`, where every push is a version, and companies can self-host, since the CLI, SDK, MCP server, and service code are public in the hasna/skills repository, made public on 2026-09-26.
 
@@ -92,6 +92,7 @@ My disagreeable claim: this is the first skills product that could actually sust
 - 2026-10-31 - Routine volatile refresh: the 2026-10-28 to 10-30 pushes are further skill-execution fixes (Codex 0.165.0 admission with capped hook context, session-lock refusals no longer blocking prompts, reviewed bundled-skill and Claude plugin options, Claude configuration-root preservation in pinned launchers, response-body timeout classification) and the npm CLI is unchanged at 0.10.83 (205 versions); pricing re-verified unchanged at the repriced levels (Pro $12 per month with 1,500 bundled credits, Free $0 plus per-run credits), and the homepage still claims 300-plus curated skills.
 - 2026-11-07 - Volatile refresh: the npm CLI crossed to 0.10.94 (212 versions) on a train of execution fixes (Claude discovery and Codex v8 admissions, ACL errno fix, optional @hasna/secrets split, Codex MCP reconcile, cached-profile lock snapshot) with the repo pushed 2026-11-07 and stars and forks still at their dated zero reading; pricing re-verified unchanged at the repriced levels (Pro $12 per month with 1,500 bundled credits, Free $0 plus per-run credits), and the homepage still claims 300-plus curated skills.
 - 2026-11-12 - Volatile refresh: the npm CLI crossed to 0.10.97 (215 versions), the 11-09 pushes being a Claude root-alias acceptance fix, the reviewed Cua driver native skill admitted (0.10.96), and Claude 2.1.317-319 user-scope writer measurement, with the repo pushed 2026-11-11; pricing re-verified unchanged at the repriced levels (Pro $12 per month with 1,500 bundled credits, Free $0 plus per-run credits), and the homepage still claims 300-plus curated skills.
+- 2026-11-17 - Rotation re-verification: every cited URL re-fetched live and all claims held (pricing unchanged at the repriced levels, the marketplace page still serving the 200 sign-in redirect notice, npm still 0.10.97 with 215 versions, the repo still pushed 2026-11-11 with its dated zero-star reading standing, the HN search re-run with only filename-convention items); the What-it-is npm figure corrected from the stale 0.10.94/212 reading to the recorded 0.10.97/215.
 
 ## See also
 
@@ -102,8 +103,8 @@ My disagreeable claim: this is the first skills product that could actually sust
 
 ## References
 
-- https://skills.md/ - the product surface: CLI and MCP flows, the plans (Free $0 plus per-run credits, Pro $12 per month with 1,500 bundled credits, credit packs $1-$100), 300-plus curated skills, Apache-2.0, Hasna, Inc. (re-fetched 2026-11-12, pricing unchanged at the repriced levels)
-- https://skills.md/marketplace - the catalog page: 250 of 250 entries with every hosting status labeled unverified when fetched 2026-10-06; since 2026-10-09 it keeps signed-out visits away from the catalog (HTTP redirect, then a 200 redirect notice on 2026-10-11, then an explicit closure notice on 2026-10-16)
-- https://registry.npmjs.org/@hasna/skills - the CLI package: created 2026-02-14, latest 0.10.97, 215 versions (re-fetched 2026-11-12)
-- https://api.github.com/repos/hasna/skills - the Apache-2.0 CLI, SDK, MCP, and service repo: made public 2026-09-26, pushed 2026-11-11 (GitHub API, as of 2026-11-12)
-- https://hn.algolia.com/api/v1/search?query=%22skills.md%22&tags=story - the footprint scan: no marketplace coverage, the nearest hits are items about the filename convention (fetched 2026-10-06, re-run 2026-10-11 with the same result)
+- https://skills.md/ - the product surface: CLI and MCP flows, the plans (Free $0 plus per-run credits, Pro $12 per month with 1,500 bundled credits, credit packs $1-$100), 300-plus curated skills, Apache-2.0, Hasna, Inc. (re-fetched 2026-11-12, pricing unchanged at the repriced levels; re-fetched 2026-11-17, unchanged)
+- https://skills.md/marketplace - the catalog page: 250 of 250 entries with every hosting status labeled unverified when fetched 2026-10-06; since 2026-10-09 it keeps signed-out visits away from the catalog (HTTP redirect, then a 200 redirect notice on 2026-10-11, then an explicit closure notice on 2026-10-16; the 200 redirect notice still served 2026-11-17)
+- https://registry.npmjs.org/@hasna/skills - the CLI package: created 2026-02-14, latest 0.10.97, 215 versions (re-fetched 2026-11-12; re-fetched 2026-11-17, unchanged)
+- https://api.github.com/repos/hasna/skills - the Apache-2.0 CLI, SDK, MCP, and service repo: made public 2026-09-26, pushed 2026-11-11 (GitHub API, as of 2026-11-12; re-fetched 2026-11-17, unchanged)
+- https://hn.algolia.com/api/v1/search?query=%22skills.md%22&tags=story - the footprint scan: no marketplace coverage, the nearest hits are items about the filename convention (fetched 2026-10-06, re-run 2026-10-11 and 2026-11-17 with the same result)

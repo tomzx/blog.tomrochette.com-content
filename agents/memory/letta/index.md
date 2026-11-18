@@ -1,7 +1,7 @@
 ---
 title: Letta
 created: 2026-08-24
-updated: 2026-11-13
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, agent-frameworks]
 readability: 3
@@ -32,7 +32,7 @@ The `letta-ai/letta` repository (25.2k stars as of 2026-10-16) is now a landing 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=letta-ai/letta&type=date&legend=top-left" />
 </picture>
 
-Development moved to `letta-ai/letta-code` (3.6k stars as of 2026-10-16, 3,780 commits as of 2026-10-16, latest tagged release v0.34.59 on 2026-11-13).
+Development moved to `letta-ai/letta-code` (3.6k stars as of 2026-10-16, 3,780 commits as of 2026-10-16, latest tagged release v0.34.63 on 2026-11-15).
 The company raised a $10M seed led by Felicis at a $70M post-money valuation in September 2024.
 Letta Code launched December 2025 claiming the #1 model-agnostic OSS harness on TerminalBench; its HN thread drew 83 points and 37 comments, respect, not adoption-scale buzz.
 
@@ -87,6 +87,7 @@ Not for teams wanting stable infrastructure: the V1 server burial proves the roa
 - 2026-10-30 - Rotation re-verification: every cited URL re-fetched live and the pricing ladder re-verified unchanged (Free 3 stateful agents, Pro $20/mo with up to 20 stateful agents); letta-code's latest tagged release refreshed to v0.34.33 (2026-10-30), with the landing-page repository still quiet since 2026-10-18.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live and the pricing ladder re-verified unchanged (Free BYOK plus 3 stateful agents, Pro $20/mo, the $0.10 per active agent and $0.00015 per tool-execution second API rates from the 2026-09-18 baseline); letta-code's latest tagged release refreshed to v0.34.44 (2026-11-07) with development active through 2026-11-07, and the landing-page repository still quiet since 2026-10-18.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched live (letta.com, the launch post through its redirect, both repositories, the pricing page, the MemGPT paper, the TechCrunch piece, the launch thread), the landing-page repository still quiet since 2026-10-18, and letta-code's latest tagged release refreshed to v0.34.59 (2026-11-13); recorded the pricing restructure (the API plan and per-agent metering gone from the page, dollar-denominated credits replace them, Pro now includes $20 monthly credits, Price history row).
+- 2026-11-17 - Rotation re-verification: every cited URL re-fetched live (letta.com, the launch post, both repositories, the pricing page, the MemGPT paper, the TechCrunch piece, the launch thread), the pricing ladder re-verified unchanged (Free with 3 stateful agents, Pro $20/mo including $20 monthly credits, Teams Pro $20/seat/mo, the $0.00015/sec tool CPU rate, no API-plan metering on the page), the landing-page repository still quiet since 2026-10-18, and letta-code's latest tagged release refreshed to v0.34.63 (2026-11-15) with development active through 2026-11-17.
 
 ## See also
 

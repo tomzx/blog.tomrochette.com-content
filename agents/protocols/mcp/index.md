@@ -1,7 +1,7 @@
 ---
 title: Model Context Protocol (MCP)
 created: 2026-08-24
-updated: 2026-11-15
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, agent-tools]
 readability: 3
@@ -82,6 +82,7 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 - 2026-11-12 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries community-governance and docs work since 2026-11-08 (a working-groups overview page, working and interest group list reconciliation, the SEP proposal-state automation slimmed, and blog posts announcing the MCP release cycle and the file uploads and downloads extension, with MCP Inspector's Apps support marked partial).
 - 2026-11-14 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and CI work since 2026-11-12 (EU Cyber Resilience Act stewardship guidance, registry docs pulled from v1.8.9, a working-group-sponsored SEP process, the Core Primitives Working Group listed on the working-groups overview, SEP dead-link fixes, and website-content CI).
 - 2026-11-15 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries one CI commit since the last pass (build and validate website content, #3509, 2026-11-14), with the 2026-11-15 pushed_at moved by a side-branch push.
+- 2026-11-17 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and blog work since the last pass (deprecated features no longer presented as current on the spec overview pages, an accuracy pass over the 2026-07-28 and draft content, blog quote blocks for named people, per-post share cards, and a header search dialog).
 
 ## See also
 

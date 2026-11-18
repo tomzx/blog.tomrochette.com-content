@@ -1,7 +1,7 @@
 ---
 title: RAGFlow
 created: 2026-10-06
-updated: 2026-11-13
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, document-parsing, agents]
 readability: 3
@@ -23,7 +23,7 @@ Made by InfiniFlow, with v1.0.0-rc1 (2026-09-29) rewriting the service layer in 
 
 ## Status
 
-Very active and very large: 92,158 stars and 10,979 forks as of 2026-10-13, pushed 2026-11-13 with 1,285 open issues (GitHub API, as of 2026-11-13), with 3.9M Docker pulls (ragflow-stats badge, re-verified 2026-10-16).
+Very active and very large: 92,158 stars and 10,979 forks as of 2026-10-13, pushed 2026-11-17 with 1,311 open issues (GitHub API, as of 2026-11-17), with 4.1M Docker pulls (ragflow-stats badge, re-verified 2026-11-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=infiniflow/ragflow&type=date&theme=dark&legend=top-left" />
@@ -90,6 +90,7 @@ My disagreeable claim: what RAGFlow actually sells is trust, and the star count 
 - 2026-11-07 - Recorded v1.0.0 (2026-11-06), the general-availability cut of the Go rewrite following rc3, refreshed the repository activity (pushed 2026-11-06, 1,333 open issues), and noted the repository description's repositioning to "an agent-native database"; the advisory record was not re-fetched this run, last checked 2026-11-03 at eight advisories.
 - 2026-11-12 - Refreshed the repository activity (pushed 2026-11-12, 1,304 open issues) and re-verified the repository description word-for-word; v1.0.0 still latest and the advisory record untouched since the 2026-11-03 check at eight advisories.
 - 2026-11-13 - Refreshed the repository activity (pushed 2026-11-13, 1,285 open issues), re-verified the repository description word-for-word and v1.0.0 still latest, and re-checked the advisory record unchanged at eight.
+- 2026-11-17 - Rotation re-verification re-fetched every cited URL live (the README and release notes claims unchanged word-for-word, including the Go rewrite, the NATS and Kvrocks services, and the irreversible v0.27.2 upgrade warning; the repository description's agent-native-database repositioning re-confirmed; cloud tiers unchanged at Free $0, Starter $29 from $59, Pro $129 from $259; the ZeroPath article live with the global-database advisory still 404; the repository's advisory record re-checked unchanged at eight with the same three 2026 criticals unpatched; the launch thread still at 230 points with the comment-footprint endpoint still showing a single 2026 comment in its newest hundred; cloud.ragflow.io and the docs root serving 200) and refreshed the repository activity (pushed 2026-11-17, 1,311 open issues) and the Docker-pulls figure from 3.9M to 4.1M.
 
 ## See also
 
@@ -100,17 +101,17 @@ My disagreeable claim: what RAGFlow actually sells is trust, and the star count 
 
 ## References
 
-- https://api.github.com/repos/infiniflow/ragflow - 92,158 stars and 10,979 forks (as of 2026-10-13), Apache-2.0, Go, created 2023-12-12, pushed 2026-11-13, 1,285 open issues, description repositioned to "an agent-native database" (GitHub API, as of 2026-11-13)
-- https://raw.githubusercontent.com/infiniflow/ragflow/main/README.md - DeepDoc, template-based chunking, knowledge compilation, agentic retrieval modes, Go-native architecture, deployment requirements (re-verified unchanged 2026-10-16)
-- https://raw.githubusercontent.com/infiniflow/ragflow/main/docs/release_notes.md - the v1.0.0-rc1 Go rewrite, NATS and Kvrocks migration, irreversible v0.27.2 upgrade, known issues (re-verified unchanged 2026-10-16)
-- https://api.github.com/repos/infiniflow/ragflow/releases/latest - v1.0.0 published 2026-11-06, the general-availability cut of the Go rewrite (fetched 2026-11-07, still latest on re-fetch 2026-11-12; rc3 of 2026-10-30 was the third and final release candidate, bringing the evidence-sufficiency decision model, the Categorize component, the Agentic chat mode from rc2, and rc1 data compatibility)
-- https://ragflow.io/ - the pricing section: Free $0, Starter $29 (from $59), Pro $129 (from $259), Enterprise custom (re-verified unchanged 2026-10-16)
+- https://api.github.com/repos/infiniflow/ragflow - 92,158 stars and 10,979 forks (as of 2026-10-13), Apache-2.0, Go, created 2023-12-12, pushed 2026-11-17, 1,311 open issues, description repositioned to "an agent-native database" (GitHub API, as of 2026-11-17)
+- https://raw.githubusercontent.com/infiniflow/ragflow/main/README.md - DeepDoc, template-based chunking, knowledge compilation, agentic retrieval modes, Go-native architecture, deployment requirements (re-verified unchanged 2026-11-17)
+- https://raw.githubusercontent.com/infiniflow/ragflow/main/docs/release_notes.md - the v1.0.0-rc1 Go rewrite, NATS and Kvrocks migration, irreversible v0.27.2 upgrade, known issues (re-verified unchanged 2026-11-17)
+- https://api.github.com/repos/infiniflow/ragflow/releases/latest - v1.0.0 published 2026-11-06, the general-availability cut of the Go rewrite (fetched 2026-11-07, still latest on re-fetches 2026-11-12 and 2026-11-17; rc3 of 2026-10-30 was the third and final release candidate, bringing the evidence-sufficiency decision model, the Categorize component, the Agentic chat mode from rc2, and rc1 data compatibility)
+- https://ragflow.io/ - the pricing section: Free $0, Starter $29 (from $59), Pro $129 (from $259), Enterprise custom (re-verified unchanged 2026-11-17; the tiers read from the page's embedded price fields)
 - https://ragflow.io/docs/ - official docs root, HTTP 200 on 2026-10-16 (server-rendered; the /docs/dev/ path meta-refreshes here)
 - https://zeropath.com/blog/ragflow-rce-unpatched-vulnerability - the April 2026 post-auth RCE disclosure (GHSA-vw46-rrp3-c99v, Shodan-exposed instances), the critical source (re-verified live and unchanged 2026-10-16)
-- https://api.github.com/advisories/GHSA-vw46-rrp3-c99v - 404 on 2026-10-06, 2026-10-16, and again 2026-10-22: the advisory was never published to GitHub's global database
-- https://api.github.com/repos/infiniflow/ragflow/security-advisories - the repository's published advisory list: eight advisories as of 2026-11-01, including CVE-2026-28797 (SSTI RCE, v0.24.0, 2026-04-01), CVE-2026-24770 (Zip Slip RCE, 0.23.1, 2026-01-27), and CVE-2026-45312 (prompt-generator SSTI, critical, 2026-05-09) with no patched version listed, plus the GHSA-c6q8-23rp-32cv private-agent access bypass (high, 2026-10-05) (fetched 2026-10-22, 2026-10-24, 2026-10-26, 2026-10-31, 2026-11-01, and 2026-11-03, re-verified unchanged 2026-11-13)
+- https://api.github.com/advisories/GHSA-vw46-rrp3-c99v - 404 on 2026-10-06, 2026-10-16, 2026-10-22, and again 2026-11-17: the advisory was never published to GitHub's global database
+- https://api.github.com/repos/infiniflow/ragflow/security-advisories - the repository's published advisory list: eight advisories as of 2026-11-01, including CVE-2026-28797 (SSTI RCE, v0.24.0, 2026-04-01), CVE-2026-24770 (Zip Slip RCE, 0.23.1, 2026-01-27), and CVE-2026-45312 (prompt-generator SSTI, critical, 2026-05-09) with no patched version listed, plus the GHSA-c6q8-23rp-32cv private-agent access bypass (high, 2026-10-05) (fetched 2026-10-22, 2026-10-24, 2026-10-26, 2026-10-31, 2026-11-01, and 2026-11-03, re-verified unchanged 2026-11-13 and 2026-11-17)
 - https://hn.algolia.com/api/v1/items/39896923 - the 230-point launch thread, 2024-04-01
 - https://hn.algolia.com/api/v1/search?query=ragflow&tags=story - the story-footprint scan behind the launch-thread claims
 - https://hn.algolia.com/api/v1/search?query=ragflow&tags=comment - the comment-footprint scans behind the 294-since-2025 and 2-in-2026 claims
-- https://raw.githubusercontent.com/infiniflow/ragflow-stats/main/badges/docker-pulls.json - 3.9M Docker pulls (re-verified 2026-10-16)
+- https://raw.githubusercontent.com/infiniflow/ragflow-stats/main/badges/docker-pulls.json - 4.1M Docker pulls (re-verified 2026-11-17, up from the 3.9M recorded 2026-10-16)
 - https://cloud.ragflow.io/ - the cloud app, HTTP 200 on 2026-10-16 (a client-rendered JS shell; tiers read from the marketing page instead)

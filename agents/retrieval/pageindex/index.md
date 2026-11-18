@@ -1,7 +1,7 @@
 ---
 title: PageIndex
 created: 2026-10-07
-updated: 2026-11-14
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, document-parsing]
 readability: 3
@@ -25,8 +25,8 @@ The maker pitches it at financial reports, legal documents, filings, and technic
 ## Status
 
 **Actively developed and heavily starred for a two-year-old research bet.**
-39,111 stars and 3,408 forks as of 2026-10-13, pushed 2026-11-14, 171 open issues (GitHub API, as of 2026-11-14).
-PyPI shows the `pageindex` SDK at 0.6.0 released 2026-11-14 across 58 releases, following 0.5.3 (2026-11-05) and 0.5.2 (2026-11-04), so the SDK train tracks the repository closely.
+39,111 stars and 3,408 forks as of 2026-10-13, pushed 2026-11-17, 175 open issues (GitHub API, as of 2026-11-17).
+PyPI shows the `pageindex` SDK at 0.7.0 released 2026-11-15 across 59 releases, following 0.6.0 (2026-11-14) and 0.5.3 (2026-11-05), so the SDK train tracks the repository closely.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=VectifyAI/PageIndex&type=date&theme=dark&legend=top-left" />
@@ -86,6 +86,7 @@ My disagreeable claim: PageIndex is less a retrieval system than a claim that re
 - 2026-11-12 - Refreshed the repository activity (pushed 2026-11-12, 172 open issues); the SDK train remains paused at 0.5.3.
 - 2026-11-13 - Refreshed the repository activity (pushed 2026-11-13, 172 open issues unchanged); the SDK train remains paused at 0.5.3.
 - 2026-11-14 - Recorded the SDK train moving to 0.6.0 (2026-11-14, 58 releases total) and refreshed the repository activity (pushed 2026-11-14, 171 open issues).
+- 2026-11-17 - Recorded the SDK train moving to 0.7.0 (2026-11-15, 59 releases total) and refreshed the repository activity (pushed 2026-11-17, 175 open issues).
 
 ## See also
 
@@ -96,8 +97,8 @@ My disagreeable claim: PageIndex is less a retrieval system than a claim that re
 
 ## References
 
-- https://api.github.com/repos/VectifyAI/PageIndex - 39,111 stars (as of 2026-10-13), 3,408 forks, MIT, created 2025-04-01, pushed 2026-11-14, 171 open issues (GitHub API, as of 2026-11-14)
-- https://pypi.org/pypi/pageindex/json - the SDK at version 0.6.0 (2026-11-14), 58 releases, following 0.5.3 (2026-11-05) and 0.5.2 (2026-11-04) (fetched 2026-11-14)
+- https://api.github.com/repos/VectifyAI/PageIndex - 39,111 stars (as of 2026-10-13), 3,408 forks, MIT, created 2025-04-01, pushed 2026-11-17, 175 open issues (GitHub API, as of 2026-11-17)
+- https://pypi.org/pypi/pageindex/json - the SDK at version 0.7.0 (2026-11-15), 59 releases, following 0.6.0 (2026-11-14) and 0.5.3 (2026-11-05) (fetched 2026-11-17)
 - https://raw.githubusercontent.com/VectifyAI/PageIndex/main/README.md - the tree-index method, local and cloud modes, Flash indexing, benchmark tables and cost curves (re-verified unchanged 2026-10-11)
 - https://docs.pageindex.ai/ - developer docs: SDK client, documents, agent integrations, MCP tools
 - https://vectify.ai/blog/Mafin2.5 - the vendor's FinanceBench claim (98.7 percent, February 2025 blog)

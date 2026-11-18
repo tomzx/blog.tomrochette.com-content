@@ -1,7 +1,7 @@
 ---
 title: Anthropic Agent Skills
 created: 2026-08-24
-updated: 2026-11-15
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, skills, anthropic, agent-extensions]
 readability: 3
@@ -25,7 +25,7 @@ The `anthropics/skills` repository ships the spec, a template, and example skill
 
 **Active and expanding.**
 Launched 2025-10-16; on 2025-12-18 Anthropic published the format as the open Agent Skills standard (agentskills.io), added organization-wide skill management, and opened a partner directory.
-The example repository shows 180.9k stars and 21.4k forks as of 2026-10-16 but only 63 commits as of 2026-11-15 (the newest, 2026-11-14, PR #2217, updated the four document skills' scripts and validators, a 3,900-line pass over the docx, pdf, pptx, and xlsx tooling, the fourth content commit after the 10-09 claude-api, 10-28 mcp-builder, and 11-06 license commits), which tells me it is a distribution artifact, not where the product is built.
+The example repository shows 180.9k stars and 21.4k forks as of 2026-10-16 but only 64 commits as of 2026-11-17 (the newest, 2026-11-16, PR #2221, updated the docx, pptx, and xlsx skills again, a zipfile-unpack, zip -y, and validate.py and soffice.py fixes pass, the fifth content commit after the 10-09 claude-api, 10-28 mcp-builder, 11-06 license, and 11-14 doc-skills commits), which tells me it is a distribution artifact, not where the product is built.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/skills&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ The claim I will defend: for most teams skills matter more than plugins or MCP s
 - 2026-11-07 - The license split resolved: commit 62 (2026-11-06, PR #2146) moved the document skills (docx, pdf, pptx, xlsx) to Apache-2.0 LICENSE.txt files and the README now calls them open source, so the source-available caution was replaced with the missing-root-license-file observation and the What-it-is and Pricing lines updated.
 - 2026-11-12 - Rotation re-verification: every cited URL re-fetched live and all claims held (the launch blog with its 2025-12-18 open-standard update, the engineering post's untrusted-skill guidance, the Claude Code skills docs with the same extension frontmatter surface, the Skills API guide's container and code-execution framing, and agentskills.io), and the repo state re-verified unchanged (still 62 commits, pushed 2026-11-06); no figures moved.
 - 2026-11-15 - Volatile refresh on the repo's first push since 2026-11-06: commit 63 (2026-11-14, PR #2217) updated the four document skills' scripts and validators in one 3,900-line pass (pptx chart and slide helpers, docx redlining and document validators, soffice and validate changes, pdf form and reference edits), the fourth content commit after the 10-09 claude-api, 10-28 mcp-builder, and 11-06 license commits.
+- 2026-11-17 - Volatile refresh on the repo's next push: commit 64 (2026-11-16, PR #2221) updated the docx, pptx, and xlsx skills again (zipfile unpack, zip -y, and validate.py and soffice.py fixes), the fifth content commit in the recorded lineage.
 
 ## See also
 
@@ -90,6 +91,6 @@ The claim I will defend: for most teams skills matter more than plugins or MCP s
 - https://claude.com/blog/skills - launch announcement (2025-10-16) and the 2025-12-18 open-standard update
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - progressive disclosure architecture, code execution, security guidance
 - https://code.claude.com/docs/en/skills - Claude Code surfaces: locations, bundled skills, spec versus extension frontmatter
-- https://github.com/anthropics/skills - example repo scale and license split, 180,927 stars as of 2026-10-13 (re-fetched 2026-11-12; re-fetched 2026-11-15, now 63 commits with last push 2026-11-14, PR #2217 updating the four document skills)
+- https://github.com/anthropics/skills - example repo scale and license split, 180,927 stars as of 2026-10-13 (re-fetched 2026-11-12; re-fetched 2026-11-15, then 63 commits with last push 2026-11-14, PR #2217 updating the four document skills; re-fetched 2026-11-17, now 64 commits with last push 2026-11-16, PR #2221 updating the docx, pptx, and xlsx skills again)
 - https://docs.claude.com/en/api/skills-guide - Skills API: container parameter, 20 skills per request, code execution requirement
 - https://agentskills.io/ - the extracted open standard and its client showcase

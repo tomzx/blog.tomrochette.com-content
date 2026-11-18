@@ -1,7 +1,7 @@
 ---
 title: Screenpipe
 created: 2026-10-08
-updated: 2026-11-16
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, screen-capture, timeline, mcp, source-available]
 readability: 3
@@ -26,7 +26,7 @@ Pipes are scheduled AI agents defined as markdown files, with YAML frontmatter p
 ## Status
 
 **Active and large, on a YC-backed company.**
-21,954 stars with the repository pushed 2026-11-15, created 2024-06-19, as of 2026-11-15 (GitHub API).
+21,954 stars with the repository pushed 2026-11-17, created 2024-06-19, as of 2026-11-17 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=screenpipe/screenpipe&type=date&theme=dark&legend=top-left" />
@@ -41,6 +41,7 @@ The train continued to app-v2.7.138 (2026-11-03) with the CLI shipping v0.4.56 a
 App-v2.7.143 and v2.7.145 (2026-11-06) keep the same maintenance character: enterprise uploads fail closed when no upload destination pin is deployed, enterprise heartbeats report the device timezone, fresh histories sync from persistent database sources, silent microphone streams stay running, macOS browser click URLs populate across URL schemes, and Windows uninstall now deletes recording data when selected.
 The default-branch train continued (November 12-13, pending release): the app bumped to v2.7.147 with display text restricted to the focused window's native ownership, an enterprise simplified UI mode, simplified overlay localization extraction, and enterprise honoring local upload pins while keeping recovery available.
 The pending train continued again (November 13-14, through app v2.7.150, unreleased): configurable screenshot sampling with a 2 fps default, enterprise device policies applied without a webview and required upload pins scoped to explicit MDM overrides, a macOS fix capturing the display before applying screenshot redaction, a Windows SQLite WAL-stall fix, and Claude login isolated from external ACP sessions; app v2.7.151 (November 15) keeps macOS whole-display recording independent of scene changes so a scene transition no longer interrupts it.
+The pending train extended again (November 16 to 17): Windows audio stops re-probing endpoint formats every 30 seconds, pipes stop disabled jobs and hide Windows children, onboarding no longer shows a false stuck state during database initialization, storage preserves startup disk-reserve failures with recovery evidence, and a Workflows sidebar card points self-serve users to the enterprise product.
 
 ## Strengths
 
@@ -100,6 +101,7 @@ Not for privacy-strict environments, commercial use without a license budget, or
 - 2026-11-13 - Volatile re-verification: the pending November 12-13 batch recorded (app v2.7.147: focused-window display text ownership, the enterprise simplified UI mode, and upload pins honored with recovery kept); no new release tag, and the push date refreshed to 2026-11-13.
 - 2026-11-14 - Recorded the pending November 13-14 batch (app v2.7.148 through v2.7.150, unreleased: configurable screenshot sampling with a 2 fps default, enterprise device policies without a webview with upload pins scoped to explicit MDM overrides, the macOS redaction capture-order fix, a Windows SQLite WAL-stall fix, and Claude login isolation); the push date refreshed to 2026-11-14.
 - 2026-11-16 - Recorded app v2.7.151 (November 15, unreleased): macOS whole-display recording kept independent of scene changes; the push date refreshed to 2026-11-15.
+- 2026-11-17 - Volatile re-verification: the pending train extended again (November 16 to 17): Windows audio endpoint re-probing stopped, pipes stop disabled jobs and hide Windows children, the onboarding false stuck state during database initialization removed, storage preserving startup disk-reserve failures with recovery evidence, and the Workflows sidebar card pointing self-serve users to the enterprise product; no release after app-v2.7.145, and the push date refreshed to 2026-11-17.
 
 ## See also
 

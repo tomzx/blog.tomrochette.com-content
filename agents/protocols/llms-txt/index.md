@@ -1,7 +1,7 @@
 ---
 title: llms.txt
 created: 2026-10-07
-updated: 2026-11-13
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, conventions, context-files, web]
 readability: 3
@@ -73,6 +73,7 @@ My disagreeable claim: llms.txt succeeded by failing at its original goal, becau
 - 2026-11-03 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec site still serves v2 (modified 2026-08-10), the served reality re-confirmed (Anthropic's file now 924 lines), and the footprint scan re-confirmed (launch thread 206 points and 175 comments, directory thread 106 points).
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec site still serves v2, the served reality re-confirmed (Anthropic's file now 964 lines), and the footprint scan re-confirmed (launch thread 206 points and 175 comments, directory thread 106 points).
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec site still serves v2 (modified 2026-08-10), the served reality re-confirmed (Anthropic's file now 994 lines), and the footprint scan re-confirmed (launch thread 206 points and 175 comments, directory thread 106 points).
+- 2026-11-17 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec site still serves v2 (modified 2026-08-10), the served reality re-confirmed (Anthropic's file still 994 lines), and the footprint scan re-confirmed (launch thread 206 points and 175 comments, directory thread 106 points).
 
 ## See also
 

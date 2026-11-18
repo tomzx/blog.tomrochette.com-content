@@ -1,7 +1,7 @@
 ---
 title: Agent Host Protocol
 created: 2026-08-30
-updated: 2026-11-16
+updated: 2026-11-17
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.3, protocols, agent-sessions, state-synchronization, microsoft, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT licensed, TypeScript, under the `microsoft` GitHub org, created 2026-03-12.
 
 ## Status
 
-**Active and shipping: 400 stars as of 2026-10-13 and 88 open issues and pull requests as of 2026-11-16, with the release train's first post-1.0 stop still its newest release: v1.1.0 (dated 2026-11-12, tagged 2026-11-13) shipped the spec plus the Go, Swift, TypeScript, and Rust packages at 1.1.0, carrying the host-path semantics (#476), the account-selection hint (#583), MCP-served skills (SEP-2640), and experimental subscription-negotiated flow control, while the default branch develops 1.2.0 with a one-time scheduled-chat automations addition merged 2026-11-13 (#603) and the docs switcher now listing 1.2.0 draft, 1.1.0, and 1.0.0.**
+**Active and shipping: 400 stars as of 2026-10-13 and 86 open issues and pull requests as of 2026-11-17, with the release train's first post-1.0 stop still its newest release: v1.1.0 (dated 2026-11-12, tagged 2026-11-13) shipped the spec plus the Go, Swift, TypeScript, and Rust packages at 1.1.0, carrying the host-path semantics (#476), the account-selection hint (#583), MCP-served skills (SEP-2640), and experimental subscription-negotiated flow control, while the default branch develops 1.2.0 with a one-time scheduled-chat automations addition merged 2026-11-13 (#603) and an automations chat-run target merged 2026-11-16 (#604, a `{ kind: 'chat', session, chat }` target with a presence capability and explicit previous-session semantics), and the docs switcher now listing 1.2.0 draft, 1.1.0, and 1.0.0.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-host-protocol&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ MIT licensed, TypeScript, under the `microsoft` GitHub org, created 2026-03-12.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/agent-host-protocol&type=date&legend=top-left" />
 </picture>
 
-Adoption shows in the package counts: the `ahp` crate records 391,226 lifetime downloads and the npm package 722,277 (2026-10-17 to 2026-11-16), both as of 2026-11-16; the npm trailing-month total has oscillated in a roughly 557k-to-700k band since early October 2026 after its September climb.
+Adoption shows in the package counts: the `ahp` crate records 394,352 lifetime downloads and the npm package 705,828 (2026-10-18 to 2026-11-17), both as of 2026-11-17; the npm trailing-month total has oscillated in a roughly 557k-to-700k band since early October 2026 after its September climb.
 A member of the VS Code team stated publicly in June 2026 that the team is rebuilding its agent infrastructure on AHP, and the reference host lives at `src/vs/platform/agentHost/node` in the `microsoft/vscode` repository.
 1.0 shipped on 2026-10-02: the spec, every client, and the SDK packages tagged v1.0.0 the same day, closing the pre-1.0 caveat this note carried since creation.
 
@@ -90,6 +90,7 @@ The disagreeable part: I think AHP will matter more to daily coding work than A2
 - 2026-11-12 - Rotation re-verification: every cited URL re-fetched live with no dead sources, the release train re-checked unchanged (v1.0.0 remains the latest spec, client, and SDK tag set), open issues and pull requests and the push date refreshed (88 combined, pushed 2026-11-12 on host path semantics exposed at initialization, #476), the docs site confirmed now serving a 1.1.0 draft in its version switcher with new elicitation, customizations, and MCP-servers guide sections, and download figures refreshed (crate 383,327 lifetime, npm 697,806 for 2026-10-13 to 2026-11-12, the band figure widened to roughly 557k-to-700k).
 - 2026-11-13 - The release train moved for the first time past 1.0: v1.1.0 (dated 2026-11-12) shipped on 2026-11-13 as spec/v1.1.0 plus the Go module, Swift package, npm package, and Rust crate all at 1.1.0, carrying everything the November passes had recorded as unreleased (host path semantics #476, the account-selection hint #583, MCP-served skills SEP-2640, experimental subscription-negotiated flow control #492, an EmptyState snapshot variant, unknown-member preservation on automation patch objects, and an optional authenticate.target scoping MCP-server tokens); the default branch bumped PROTOCOL_VERSION to 1.2.0 for ongoing development, the docs switcher now pairs a 1.2.0 draft with 1.0.0 stable, a protocol naming dictionary joined the docs (#597), and figures refreshed (85 open issues and pull requests, crate 386,999 lifetime downloads, npm 704,999 for 2026-10-14 to 2026-11-13).
 - 2026-11-16 - Rotation re-verification: every cited URL re-fetched live with no dead sources, and the default branch merged a one-time scheduled-chat automations addition on 2026-11-13 hours after the 1.1.0 release (#603: the automation catalogue and automation run channels, one-time triggers with per-client catalogue negotiation, schemas and regenerated clients across all five SDK languages, with updating `runAt` moving the one-time occurrence), an unreleased 1.2.0-draft addition the docs home and the specification overview now promote in their own sections; the release train stays at v1.1.0 (npm and crates both latest 1.1.0), figures refreshed (88 open issues and pull requests, crate 391,226 lifetime downloads, npm 722,277 for 2026-10-17 to 2026-11-16).
+- 2026-11-17 - Re-verification: the default branch merged a second unreleased 1.2.0-draft automations addition on 2026-11-16 (#604, an automations chat-run target with a `{ kind: 'chat', session, chat }` target object, a presence capability replacing the targets key list, and explicit previous-session semantics, schemas and clients regenerated) plus a dependabot bump; the release train stays at v1.1.0 (npm and crates both latest 1.1.0), and figures refreshed (86 open issues and pull requests, crate 394,352 lifetime downloads, npm 705,828 for 2026-10-18 to 2026-11-17).
 
 ## See also
 
