@@ -1,7 +1,7 @@
 ---
 title: Vestige
 created: 2026-10-17
-updated: 2026-11-15
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, memory, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The single-maintainer paid tier, Vestige Operator, is a closed archive sold once
 
 ## Status
 
-Active and fast-moving: 651 stars and 72 forks as of 2026-10-18, with 235 open issues and pull requests and the latest push on 2026-11-15 as of 2026-11-15, created 2026-01-25, with v6.2.2 (2026-11-12) the latest tagged release.
+Active and fast-moving: 651 stars and 72 forks as of 2026-10-18, with 9 open issues and pull requests as of 2026-11-18 after the maintainer mass-closed its own wave-tracking issues that day (235 as of 2026-11-15), created 2026-01-25, with v6.2.2 (2026-11-12) the latest tagged release and the latest push on 2026-11-18.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=samvallad33/vestige&type=date&theme=dark&legend=top-left" />
@@ -85,6 +85,7 @@ Not for org-scale governance (that is a control plane, not a workstation gate), 
 - 2026-11-05 - Release train moved to v6.2.0 (2026-11-03, no v6.1.0 tag published): the public MCP surface fixed at six tools (session, remember, recall, causal_walk, curate, precedent), with typed-id recall resolution, a typed-entity session hook, and suppress demoted to a curate action; the counters refreshed (115 open issues and pull requests, pushed 2026-11-03).
 - 2026-11-11 - Release train moved to v6.2.1 (2026-11-10): the Total-Recall deterministic retrieval engine lands in vestige-core, written in Rust under blind execution and wired to the memory server's recall and search_unified surfaces; the counters refreshed (186 open issues and pull requests, pushed 2026-11-11).
 - 2026-11-14 - Release train moved to v6.2.2 (2026-11-12): the Forensic-8 zero-vector recall engine, which runs recall with zero embeddings, zero vectors, and zero cloud model calls while keeping exact handles exact and causal edges backward-only, with self-measured recall figures published on RULER QA1/QA2, LoCoMo-10, and LongMemEval-S; the counters refreshed (234 open issues and pull requests, pushed 2026-11-14).
+- 2026-11-18 - The open-issue and pull-request count collapsed from 235 to 9 because the maintainer closed its own wave-tracking issues in bulk (2026-11-18, issues numbered in the 600s and 700s), a housekeeping move recorded so the swing is not read as community activity; no new release past v6.2.2 (2026-11-12) with the default branch pushed 2026-11-18.
 
 ## See also
 

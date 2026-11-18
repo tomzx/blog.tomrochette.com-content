@@ -1,7 +1,7 @@
 ---
 title: Better Harness
 created: 2026-10-13
-updated: 2026-11-13
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, harness-engineering, workflow-quality]
 readability: 3
@@ -23,7 +23,7 @@ Ten hosts are documented, including Claude Code, Codex, Cursor, Copilot CLI, Qwe
 
 ## Status
 
-Active, early, and vendor-backed: 2,374 stars, 192 forks, and 12 open issues as of 2026-10-13, created 2026-07-21 and pushed 2026-11-07, with npm at 0.6.6 (2026-08-31, eleven versions) as the newest stable and two alphas after it (0.7.0-alpha1, 2026-09-03, on npm; 0.7.0-alpha2, 2026-09-12, GitHub-only, never npm-published).
+Active, early, and vendor-backed: 2,374 stars, 192 forks, and 12 open issues as of 2026-10-13, created 2026-07-21 and pushed 2026-11-11, with npm at 0.6.6 (2026-08-31, eleven versions) as the newest stable and two alphas after it (0.7.0-alpha1, 2026-09-03, on npm; 0.7.0-alpha2, 2026-09-12, GitHub-only, never npm-published).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=QoderAI/better-harness&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ Not for anyone needing an independent referee (the vendor grades its own categor
 - 2026-10-30 - Rotation re-verification: every cited URL re-fetched and live (the npm package page still 403s to curl, verified through the registry API), npm re-confirmed at 0.6.6 with eleven versions, and the near-daily-push claim corrected, the repository having last pushed 2026-10-20 with no default-branch commit since.
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched and live (the npm package page again through the registry API, npm still 0.6.6 with eleven versions), the quiet-since-2026-10-20 claim corrected, the default branch having resumed 2026-10-24 to 10-26 with analysis fixes and merged its first outside contribution on 2026-11-07 (PR 213, host-discovery evidence coverage), and the no-thread-of-its-own HN search re-confirmed.
 - 2026-11-13 - Recorded the PR 215 merge (2026-11-11, a Qoder-session-detection analysis fix) and refreshed the activity line.
+- 2026-11-18 - Rotation re-verification: every cited URL re-fetched and live (the repository, both docs pages, the npm registry still at 0.6.6 with eleven versions, and the Fowler harness-engineering article), the repository quiet since the PR 215 merge with no default-branch commit after 2026-11-11, and the Status header's pushed date corrected from 2026-11-07 to 2026-11-11, which the PR 215 merge had moved.
 
 ## See also
 

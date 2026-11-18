@@ -1,7 +1,7 @@
 ---
 title: PR Lens
 created: 2026-10-10
-updated: 2026-11-14
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, visualization, pull-requests]
 readability: 3
@@ -24,7 +24,7 @@ The README documents none of that, only the drawing surfaces plus GitLab and Bit
 
 ## Status
 
-New and moving fast: 1,954 stars and 71 forks as of 2026-10-13, created 2026-08-20, pushed 2026-11-08 (the default branch's latest commit; the repository-level pushed date moved to 2026-11-13 on side-branch activity), with v0.15.0 published 2026-11-07 as the newest release, bundling the data-model lens, the CLI hardening that had sat merged-only (redirect refusal on model-provider requests, http(s)-only canvas URLs, PR_LENS_TOKEN scoped to the configured origin, plus a regex-backtracking fix), and GitLab and Bitbucket CI updates, and the npm CLI at 0.15.1 (2026-11-08, shipping renderer 0.6.0 with per-arrow route reporting).
+New and moving fast: 1,954 stars and 71 forks as of 2026-10-13, created 2026-08-20, pushed 2026-11-17 (the default branch's latest commit, a Unicode-filename fix in the analysis diff), with v0.15.0 published 2026-11-07 as the newest GitHub release, bundling the data-model lens, the CLI hardening that had sat merged-only (redirect refusal on model-provider requests, http(s)-only canvas URLs, PR_LENS_TOKEN scoped to the configured origin, plus a regex-backtracking fix), and GitLab and Bitbucket CI updates, and the npm CLI at 0.15.2 (2026-11-16, shipping renderer 0.6.3 whose walkthrough embed loops and holds its last step between runs).
 Reaching 1.9k stars in seven weeks is strong adoption for a review tool, though the independent footprint is small: a Hacker News search finds three Show HN threads (6 points on 2026-08-27, 4 points on 2026-10-05, 4 points on 2026-09-17), none above single digits.
 
 <picture>
@@ -75,6 +75,7 @@ Not for defect detection from the open-source core (it renders, not judges), and
 - 2026-11-05 - Refreshed the activity line: the default branch moved 2026-11-04 with a merged outside pull request (PR 89), v0.13.1 still the newest release and the npm CLI re-confirmed at 0.14.0.
 - 2026-11-08 - Recorded the v0.15.0 release (2026-11-07, the data-model lens, the CLI hardening that had sat merged-only, and GitLab and Bitbucket CI updates in one release), the npm CLI at 0.15.1 (2026-11-08, renderer 0.6.0 with per-arrow route reporting), and refreshed the activity line.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched and live (the repository and its API, the releases list, the product site, the npm registry, and the three-thread HN search), the default branch re-confirmed at its 2026-11-08 commit with the repository-level 2026-11-13 push identified as side-branch activity, the npm CLI re-confirmed at 0.15.1, and the stale seven-week age in Cautions corrected to thirteen weeks.
+- 2026-11-18 - Recorded the npm CLI at 0.15.2 (2026-11-16, shipping renderer 0.6.3 with the looping walkthrough embed that holds its last step between runs), the merged Unicode-filename fix (2026-11-17), and the refreshed activity line.
 
 ## See also
 
@@ -89,5 +90,5 @@ Not for defect detection from the open-source core (it renders, not judges), and
 - https://api.github.com/repos/coldteadotai/pr-lens - stars, forks, issues, creation and push dates as of 2026-10-11
 - https://api.github.com/repos/coldteadotai/pr-lens/releases - v0.15.0 published 2026-11-07 and the release train
 - https://prlens.dev - product site: the worked example, the canvas, and the hosted App's diagrams-plus-code-review setup flow (as of 2026-10-25)
-- https://registry.npmjs.org/@coldtea/pr-lens-cli - CLI version 0.15.1 published 2026-11-08 and its own-model-key description
+- https://registry.npmjs.org/@coldtea/pr-lens-cli - CLI version 0.15.2 published 2026-11-16 (0.15.1 on 2026-11-08) and its own-model-key description
 - https://hn.algolia.com/api/v1/search?query=prlens&hitsPerPage=5 - the three Show HN threads and their point counts, as of 2026-10-11

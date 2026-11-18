@@ -1,7 +1,7 @@
 ---
 title: Crit
 created: 2026-10-12
-updated: 2026-11-14
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Beyond the local loop it syncs both ways with GitHub PRs and GitLab MRs (pull re
 
 ## Status
 
-Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-11-13, with v0.23.3 released 2026-11-13 after v0.23.2 (2026-10-31) and the author claiming a weekly release cadence.
+Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-11-17 (the default branch moving 11-16 and 11-17 with a CSP fix that blocks remote images in the review UI behind click-to-load, CLI branch inference so `crit pr` and `crit mr` read the current branch, and comment-anchoring and blockquote rendering fixes), with v0.23.3 released 2026-11-13 after v0.23.2 (2026-10-31) and the author claiming a weekly release cadence.
 v0.23.3 syncs viewed files with GitHub PRs in both directions (`crit push --viewed` ticks on GitHub what you marked viewed locally, `crit pull --viewed` brings GitHub's ticks back), with viewed marks saved in the review file so they survive restarts (PR 1150).
 
 <picture>

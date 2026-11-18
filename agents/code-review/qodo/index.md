@@ -1,7 +1,7 @@
 ---
 title: Qodo
 created: 2026-08-30
-updated: 2026-11-15
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -114,6 +114,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 - 2026-11-11 - Volatile re-verification: the push moved to November 11 with v0.50.0 still the latest release; nothing else changed.
 - 2026-11-13 - Volatile re-verification: the push moved to November 12 with v0.50.0 still the latest release; nothing else changed.
 - 2026-11-15 - Volatile re-verification: the push moved to November 15 with main's latest commit November 14 and v0.50.0 still the latest release; nothing else changed.
+- 2026-11-18 - Volatile re-verification: the push and main's latest commit both moved to November 18 (a composite-action risk-check flag and a loguru 0.8.0 bump) with v0.50.0 still the latest release; nothing else changed.
 
 ## See also
 
@@ -125,7 +126,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 
 ## References
 
-- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-10-11, re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-30, 2026-11-01, 2026-11-05, 2026-11-07, 2026-11-08, 2026-11-11, 2026-11-13, and 2026-11-15 (v0.50.0 published November 7, 2026, pushed the same day; the November 15 re-query found the push moved to November 15 with main's latest commit November 14 and v0.50.0 still latest).
+- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-10-11, re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-30, 2026-11-01, 2026-11-05, 2026-11-07, 2026-11-08, 2026-11-11, 2026-11-13, 2026-11-15, and 2026-11-18 (v0.50.0 published November 7, 2026; the November 18 re-query found the push and main's latest commit moved to November 18 with v0.50.0 still latest).
 - https://api.github.com/repos/The-PR-Agent/pr-agent/releases/tags/v0.50.0 - the November 7, 2026 release notes: the host-only expansion, the num_retries cap, auto-approval host-only and still disabled, PyPI Trusted Publishing with attestations and a main-reachability gate, and the Microsoft Teams output sink, Sonnet 5.5 and Haiku 5.5 plus Kimi K3/K3.1 Pro model support, and GitHub Enterprise Cloud data-residency items, fetched 2026-11-08.
 - https://github.com/qodo-ai/pr-agent - README: donation to the community, tools table, platforms, release notes, sponsor status, "legacy project" wording.
 - https://docs.pr-agent.ai/tools/ - the full OSS command surface, including the /help_docs disabling.

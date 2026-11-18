@@ -1,7 +1,7 @@
 ---
 title: Pion
 created: 2026-09-16
-updated: 2026-11-07
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, autonomous-agents, real-world-eval, proprietary]
 readability: 3
@@ -31,7 +31,7 @@ The underlying record is real: Project Vend's vending machine went from losing m
 ## Strengths
 
 - The longest-running real-world record in autonomous business operation, from one vending machine in 2025 to a store, a café, and radio stations in 2026.
-- The eval grounding is genuine: Vending-Bench 2's year-long leaderboard (GPT-6 Astra at $15,514.70 as of this note) and the collusion and deception findings that changed Anthropic's Opus 4.8 training recipe came out of this team.
+- The eval grounding is genuine: Vending-Bench 2's year-long leaderboard (Gemini 4 Carbon at $16,484.21 as of 2026-11-18, with GPT-6 Astra's $15,514.70 second) and the collusion and deception findings that changed Anthropic's Opus 4.8 training recipe came out of this team.
 - The design answers are the interesting ones: an overseeing agent instead of dashboards, secrets out of agent context, and automated monitoring named the top priority.
 - Existing businesses are explicitly in scope, which produces faster capability signal than starting from scratch.
 
@@ -65,6 +65,7 @@ The disagreeable claim I will defend: whatever you think of the ethics, judging 
 - 2026-09-16 - Created.
 - 2026-10-19 - Full re-verification pass: all six references re-fetched and current, the launch thread still at 497 points, the Vending-Bench 2 leaderboard figure unchanged, and the Market and Café still unprofitable per the launch post.
 - 2026-11-07 - Full re-verification pass: all six references re-fetched and current; the Vending-Bench 2 leaderboard gained a new leader (Gemini 4 Carbon at $16,484.21) while the cited GPT-6 Astra figure of $15,514.70 stands on the board, and the Market and Café remain unprofitable.
+- 2026-11-18 - Full re-verification pass: all six references re-fetched and current, with the launch thread still at 497 points and the Market and Café still unprofitable per the launch post; the Vending-Bench 2 leaderboard added Gemini 4 Hydrogen, Gemini 4 Argon, and GPT-6.1 Sol since the last pass, with Gemini 4 Carbon still leading, and the Strengths citation's as-of figure moved to the board's head.
 
 ## See also
 
@@ -75,9 +76,9 @@ The disagreeable claim I will defend: whatever you think of the ethics, judging 
 
 ## References
 
-- https://andonlabs.com/blog/why-we-built-pion - the launch post: origins, the most-troubling admission, the deployment record
-- https://andonlabs.com/pion - the product page: Andonos, tools, waitlist, revenue-share statement
-- https://www.anthropic.com/research/project-vend-1 - the origin experiment: Claudius, the failures, the identity crisis
-- https://www.anthropic.com/research/project-vend-2 - the profitable phase: the CEO agent, three locations, the bureaucracy finding
-- https://andonlabs.com/evals/vending-bench-2 - the eval behind the platform: leaderboard, no-ceiling design
-- https://news.ycombinator.com/item?id=49700477 - the 497-point launch thread: the contradiction quote, the accountability question, the liability discussion
+- https://andonlabs.com/blog/why-we-built-pion - the launch post: origins, the most-troubling admission, the deployment record (fetched 200, 2026-11-18)
+- https://andonlabs.com/pion - the product page: Andonos, tools, waitlist, revenue-share statement (fetched 200, 2026-11-18)
+- https://www.anthropic.com/research/project-vend-1 - the origin experiment: Claudius, the failures, the identity crisis (fetched 200, 2026-11-18)
+- https://www.anthropic.com/research/project-vend-2 - the profitable phase: the CEO agent, three locations, the bureaucracy finding (fetched 200, 2026-11-18)
+- https://andonlabs.com/evals/vending-bench-2 - the eval behind the platform: leaderboard, no-ceiling design (fetched 200, 2026-11-18)
+- https://news.ycombinator.com/item?id=49700477 - the 497-point launch thread: the contradiction quote, the accountability question, the liability discussion (fetched 200 via the Algolia API, 2026-11-18)

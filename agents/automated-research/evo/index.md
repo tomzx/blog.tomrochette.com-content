@@ -1,7 +1,7 @@
 ---
 title: Evo
 created: 2026-10-28
-updated: 2026-11-14
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, autoresearch, tree-search, gates, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Experiments run in local worktrees or on SSH hosts, Modal, E2B, Daytona, AWS, or
 
 ## Status
 
-Young and shipping: 1,487 stars, 115 forks, 38 open issues and pull requests, created 2026-04-05, last pushed 2026-10-05, v0.8.0 the latest tag and PyPI release, as of 2026-10-28.
+Young and shipping: 1,487 stars, 115 forks, 38 open issues and pull requests, created 2026-04-05, last pushed 2026-11-17 (the Daytona SDK pinned below 1.0 so that execution backend keeps working, issue 114, the main branch's first commit since October 5), v0.8.0 the latest tag and PyPI release with the fix unreleased there, as of 2026-11-18.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=evo-hq/evo&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for anyone needing an independently validated loop or a vendor committed to 
 
 - 2026-10-28 - Created.
 - 2026-11-14 - Rotation re-verification: all seven references re-fetched and live, with the repository quiet since October 5, v0.8.0 still the latest PyPI release, and the vendor site still fronting RouterPlus.
+- 2026-11-18 - Volatile re-verification: recorded the November 17 Daytona SDK cap fix (issue 114), the main branch's first commit since October 5, with v0.8.0 still the latest tag and PyPI release and the fix unreleased there.
 
 ## See also
 
@@ -83,7 +84,8 @@ Not for anyone needing an independently validated loop or a vendor committed to 
 ## References
 
 - https://github.com/evo-hq/evo - repository and README: the two commands, tree search, frontier strategies, gates, backends, hosts, telemetry, and the CITATION.cff attribution (fetched via the API, 2026-10-28)
-- https://api.github.com/repos/evo-hq/evo - repository metadata: Apache-2.0, 1,487 stars, 115 forks, created 2026-04-05, last push 2026-10-05, v0.8.0 the newest tag (fetched 200, 2026-10-28)
+- https://api.github.com/repos/evo-hq/evo - repository metadata: Apache-2.0, 1,487 stars, 115 forks, created 2026-04-05, last push 2026-10-05, v0.8.0 the newest tag (fetched 200, 2026-10-28; re-fetched 2026-11-18 with the push date moved)
+- https://api.github.com/repos/evo-hq/evo/commits?per_page=6 - the default branch's November 17 Daytona SDK cap fix behind this refresh, the first main commit since October 5 (fetched 200, 2026-11-18)
 - https://pypi.org/pypi/evo-hq-cli/json - package version 0.8.0, Apache-2.0 license, Python 3.10-plus requirement (fetched 200, 2026-10-28)
 - https://news.ycombinator.com/item?id=47780457 - the lone launch thread: 2 points, zero comments, April 15, 2026 (fetched via the Algolia API, 2026-10-28)
 - https://evo-hq.com - the company site, now fronting RouterPlus, an LLM-inference-routing product (fetched 200, 2026-10-28)

@@ -1,7 +1,7 @@
 ---
 title: Eigent
 created: 2026-08-30
-updated: 2026-11-14
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, multi-agent, open-source]
 readability: 3
@@ -24,7 +24,7 @@ By Eigent AI (EIGENT UK LTD), founded by Guohao Li, who also founded CAMEL-AI; f
 
 ## Status
 
-Active and maturing: 15,523 stars and 1,855 forks as of 2026-10-14, created 2025-07-29, 248 open issues with the last push on 2026-11-13 as of 2026-11-14, v1.0.7 (2026-10-30) the latest release.
+Active and maturing: 15,523 stars and 1,855 forks as of 2026-10-14, created 2025-07-29, 248 open issues with the last push on 2026-11-17 as of 2026-11-18, v1.0.8 (2026-11-17) the latest release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eigent-ai/eigent&type=date&theme=dark&legend=top-left" />
@@ -32,6 +32,7 @@ Active and maturing: 15,523 stars and 1,855 forks as of 2026-10-14, created 2025
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=eigent-ai/eigent&type=date&legend=top-left" />
 </picture>
 
+v1.0.8 rebuilt the app's navigation around a slim left rail with Home, pinned Spaces, Settings, and the account, made Home the list of every Space and its Sessions with search across everything, and made the new conversation timeline the default, the agent's work presented as a readable task log, alongside a batch of community-reported bug fixes.
 **The smallest community of the Cowork trio, and the launch thread matters: the "ranked top 1 on GAIA benchmark" claim referred to the predecessor project OWL, the founder acknowledged it, and 1-karma accounts posted praise.**
 
 ## Strengths
@@ -50,7 +51,7 @@ Active and maturing: 15,523 stars and 1,855 forks as of 2026-10-14, created 2025
 
 ## Pricing
 
-Free: BYOK and local models; the notice that free credits for new accounts were temporarily paused left the pricing page by 2026-11-11, and the Free card no longer states the 1,000 registration credits in the page text.
+Free: BYOK and local models, with the Free card stating the new-user bonus of 1,000 registration credits again in the page text as of 2026-11-18 (the 2026-11-11 fetch had found the card without it, and the paused-credits notice has not returned).
 Plus $19.99/month (2,000 task credits) and Pro $99.99/month (10,000 credits), each after a 7-day free trial shown on the pricing page, with annual billing options now shown (Plus $199.90/year, Pro $999.90/year, both marked 2 months free), Teams coming soon, Enterprise custom with local deployment.
 Ten percent of subscriptions is pledged to CAMEL-AI.org.
 
@@ -62,6 +63,7 @@ Ten percent of subscriptions is pledged to CAMEL-AI.org.
 | 2026-10-16 | Plus, Pro | Annual billing options appeared on the pricing page (Plus $199.90/year, Pro $999.90/year, both marked 2 months free); the monthly prices, the 7-day trial, and the Teams-coming-soon state unchanged. | [eigent.ai/pricing](https://www.eigent.ai/pricing) |
 | 2026-10-25 | Free | Free registration credits temporarily paused for new accounts while the team addresses recent misuse; the paid tiers, trials, and annual options confirmed unchanged in the page source. | [eigent.ai/pricing](https://www.eigent.ai/pricing) |
 | 2026-11-11 | Free | The free-credits-paused notice left the pricing page, and the Free card no longer states the 1,000 registration credits in the page text; the paid tiers (Plus $19.99, Pro $99.99), the 7-day trials, the annual options, and the Teams-coming-soon state confirmed unchanged. | [eigent.ai/pricing](https://www.eigent.ai/pricing) |
+| 2026-11-18 | Free | The Free card states the new-user bonus of 1,000 registration credits again, reversing its 2026-11-11 removal; the paid tiers (Plus $19.99, Pro $99.99), the 7-day trials, the annual options, and the Teams-coming-soon state confirmed unchanged in the same fetch. | [eigent.ai/pricing](https://www.eigent.ai/pricing) |
 
 ## Compared to
 
@@ -89,6 +91,7 @@ Not for buyers who need vendor accountability history, and not for the quick-sta
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live (repo and README, the pricing page, the about page, the launch thread, both Claude Cowork pages), recorded v1.0.7 (2026-10-30) as the latest release, and the free-credits-paused notice, the tiers, the GAIA-correction thread, and the Claude-just-Claude comparison baseline all intact.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, the pricing page, the about page, the launch thread via Algolia, both Claude Cowork pages), v1.0.7 (2026-10-30) confirmed still the latest release, the tiers (Free BYOK, Plus $19.99, Pro $99.99, Teams coming soon, Enterprise custom), the annual options (the Monthly/Yearly toggle still marked 2 months free), and the free-credits-paused notice all unchanged, with refreshed adoption numbers.
 - 2026-11-11 - Recorded the pricing page's free-credits-paused notice leaving the page and the Free card no longer stating the 1,000 registration credits in the page text (Price history row), with the paid tiers, trials, annual options, and Teams-coming-soon state unchanged in the same fetch, and refreshed adoption numbers.
+- 2026-11-18 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, the pricing page, the about page, the launch thread via Algolia, both Claude Cowork pages), recorded v1.0.8 (2026-11-17, the Home rail, a spaces-and-sessions Home with search across everything, and the conversation timeline made the default as a readable task log), and the Free card's 1,000-registration-credits line returned to the pricing page (Price history row) while the paid tiers (Plus $19.99, Pro $99.99), the 7-day trials, the annual options, and the Teams-coming-soon state stayed unchanged, and the GAIA-correction thread and the Claude-just-Claude comparison baseline intact, with refreshed adoption numbers.
 
 ## See also
 
@@ -99,7 +102,7 @@ Not for buyers who need vendor accountability history, and not for the quick-sta
 
 ## References
 
-- https://github.com/eigent-ai/eigent - repository, stack, license, adoption numbers (re-checked 2026-10-16 via the repo API)
+- https://github.com/eigent-ai/eigent - repository, stack, license, adoption numbers (re-checked 2026-11-18 via the repo API)
 - https://raw.githubusercontent.com/eigent-ai/eigent/HEAD/README.md - features and deployment paths
 - https://www.eigent.ai/pricing - the tiers and credits for the pricing rows
 - https://www.eigent.ai/about - the company and CAMEL-AI relationship

@@ -1,7 +1,7 @@
 ---
 title: Tracekit
 created: 2026-10-21
-updated: 2026-11-15
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, audit, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The project is five weeks old (repository created 2026-09-26) from Cygnux Labs, 
 
 ## Status
 
-Active and very young: 138 stars and 9 forks as of 2026-10-28, with 65 open issues and pull requests and the latest push on 2026-11-15 as of 2026-11-15, created 2026-09-26, with the PyPI package tracekit-ai at 1.6.0 (2026-11-09) and eleven releases between 2026-10-16 and 2026-11-09.
+Active and very young: 138 stars and 9 forks as of 2026-10-28, with 66 open issues and pull requests and the latest push on 2026-11-18 as of 2026-11-18, created 2026-09-26, with the PyPI package tracekit-ai at 1.7.2 (2026-11-18).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Cygnux-Labs/Tracekit&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for anyone who needs an independently reviewed gate today, and not for debug
 - 2026-11-01 - Release train moved through v1.5.1 (2026-10-30) to v1.5.2 (2026-10-31, PyPI in step), both point releases without release notes; the counters refreshed (30 open issues and pull requests, pushed 2026-11-01).
 - 2026-11-05 - Release train moved to v1.5.3 (2026-11-03, PyPI in step), another point release without notes; the counters refreshed (57 open issues and pull requests, pushed 2026-11-05).
 - 2026-11-11 - Release train moved to v1.6.0 (2026-11-09, PyPI in step), another release without notes; the counters refreshed (72 open issues and pull requests, pushed 2026-11-11).
+- 2026-11-18 - Full rotation re-verification: every cited URL re-fetched and live (the README, the repository and releases APIs, PyPI, the arXiv paper, the witnesses wiki, the awesome-ai-governance source, and the HN search still returning only the unrelated 2011 JavaScript library and a same-named 2026 tool), the release train moved to v1.7.2 (2026-11-18, PyPI in step the same day) with the intermediate v1.7.x tags shipping without release notes, and the counters refreshed (66 open issues and pull requests, pushed 2026-11-18).
 
 ## See also
 

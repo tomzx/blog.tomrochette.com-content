@@ -1,7 +1,7 @@
 ---
 title: OpenAI Deep Research
 created: 2026-09-13
-updated: 2026-11-07
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, openai, research-agent]
 readability: 3
@@ -73,6 +73,7 @@ Not as a source of established fact: treat every report as a hypothesis list wit
 - 2026-10-02 - Pointed the Wikipedia references at the article's canonical title (ChatGPT Deep Research) after the page was renamed; plan and quota facts re-verified unchanged against the article's Usage limit section.
 - 2026-10-19 - Full re-verification pass: all five references re-fetched and current, with plan gating, quota history, the GPT-5.2 rebase, and the 26.6 percent launch benchmark unchanged.
 - 2026-11-07 - Full re-verification pass: all five references re-fetched and current, with the plan-gated access, the June 2025 quota table, the GPT-5.4 error-reduction claim, and Tao's Erdős #124 research-tool test all standing.
+- 2026-11-18 - Full re-verification pass: all five references re-fetched and current, with the same facts standing; the Wikipedia article is now nominated for merging into the ChatGPT article (November 2026), a source-stability watch item, with no fact in this note affected.
 
 ## See also
 
@@ -83,8 +84,8 @@ Not as a source of established fact: treat every report as a hypothesis list wit
 
 ## References
 
-- https://en.wikipedia.org/wiki/ChatGPT_Deep_Research - launch history, model lineage, benchmarks, quotas, and the documented hallucination caveats
-- https://www.theguardian.com/technology/2025/feb/03/openai-deep-research-agent-chatgpt-deepseek - launch coverage and the skeptical verification-cost analysis
-- https://www.windowscentral.com/software-apps/openai-deep-research-blows-chatgpt-o3-mini-and-deepseek-out-of-the-water - the Humanity's Last Exam numbers and the web-search caveat
-- https://en.wikipedia.org/wiki/GPT-5.4 - the March 2026 model generation and its deep-research improvements
-- https://www.erdosproblems.com/forum/thread/124 - Tao's hands-on test of research tools finding no new literature
+- https://en.wikipedia.org/wiki/ChatGPT_Deep_Research - launch history, model lineage, benchmarks, quotas, and the documented hallucination caveats; nominated for merging into the ChatGPT article as of 2026-11 (fetched 200, 2026-11-18)
+- https://www.theguardian.com/technology/2025/feb/03/openai-deep-research-agent-chatgpt-deepseek - launch coverage and the skeptical verification-cost analysis (fetched 200, 2026-11-18)
+- https://www.windowscentral.com/software-apps/openai-deep-research-blows-chatgpt-o3-mini-and-deepseek-out-of-the-water - the Humanity's Last Exam numbers and the web-search caveat (fetched 200, 2026-11-18)
+- https://en.wikipedia.org/wiki/GPT-5.4 - the March 2026 model generation and its deep-research improvements (fetched 200, 2026-11-18)
+- https://www.erdosproblems.com/forum/thread/124 - Tao's hands-on test of research tools finding no new literature (fetched 200, 2026-11-18)

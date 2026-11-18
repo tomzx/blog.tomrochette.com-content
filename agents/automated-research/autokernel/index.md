@@ -1,7 +1,7 @@
 ---
 title: AutoKernel
 created: 2026-10-23
-updated: 2026-11-11
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, gpu, kernel-optimization, autoresearch]
 readability: 3
@@ -24,7 +24,7 @@ Nine kernel types ship as starters (matmul, softmax, layernorm, rmsnorm, flash a
 
 ## Status
 
-Active: 1,603 stars, 163 forks, 16 open issues as of 2026-10-23, created 2026-03-11; the default branch sat quiet from March 19 until November 8, when the autokernel/blackwell side branch (the October work whose November 5 tip hardened decode_step against truncated streams) merged into main, and a November 9 landing added long-context prefill (paged KV cache, calibrated attention percent-of-peak, cold versus warm TTFT), so the loop's development now sits on main, as of 2026-11-11.
+Active: 1,603 stars, 163 forks, 16 open issues as of 2026-10-23, created 2026-03-11; the default branch sat quiet from March 19 until November 8, when the autokernel/blackwell side branch (the October work whose November 5 tip hardened decode_step against truncated streams) merged into main, and a November 9 landing added long-context prefill (paged KV cache, calibrated attention percent-of-peak, cold versus warm TTFT), so the loop's development now sits on main, and a November 18 docs commit dropped the retired Forge enterprise link from the README, as of 2026-11-18.
 There are no git tags or GitHub releases; the README's own changelog runs v1.0.0 through v1.3.0 (the latest adding AMD ROCm support for MI300X-class GPUs and a batch of correctness fixes).
 The launch thread reached 47 points and 10 comments on Hacker News on 2026-03-11, and the authors' paper (arXiv 2603.21331, March 2026) reports H100 results of 5.29x over PyTorch eager on RMSNorm and 2.82x on softmax, ahead of `torch.compile` max-autotune on most tested configurations, as of 2026-10-23.
 
@@ -46,7 +46,7 @@ The launch thread reached 47 points and 10 comments on Hacker News on 2026-03-11
 ## Cautions
 
 - The headline speedups are the authors' own, measured against PyTorch eager and `torch.compile`, not against CUTLASS or Ansor-class autotuners, and the launch thread's CUTLASS rebuttal has no README answer.
-- RightNow AI is a vendor: the repository serves its kernel-lab story, enterprise optimization funnels through a contact form, and the bench defaults favor the hardware classes (H100, A100, RTX 4090) the company targets.
+- RightNow AI is a vendor: the repository serves its kernel-lab story, the company site now fronts a pay-as-you-go model API and a decision model, and the bench defaults favor the hardware classes (H100, A100, RTX 4090) the company targets.
 - The loop assumes an NVIDIA GPU (AMD ROCm since v1.3.0) plus a coding-agent subscription, so the entry cost is a hardware bill, not an API bill.
 - Version traffic lives only in a README changelog with no tags or releases, so pinning a version means pinning a commit.
 
@@ -54,7 +54,7 @@ The launch thread reached 47 points and 10 comments on Hacker News on 2026-03-11
 
 Free and open source under MIT; there is no paid tier, so pricing does not apply.
 Costs are your own GPU time and your coding-agent subscription (Claude Code, Codex, or an equivalent).
-RightNow AI sells enterprise kernel optimization through a contact form with no published prices, and its System Zero and RunInfra products are separate.
+The Forge enterprise offer was retired: the README dropped its link on 2026-11-18 and the URL now serves a generic contact page, while rightnowai.co fronts pay-as-you-go API access to open models and a decision model, so nothing is priced for autokernel itself anywhere.
 
 ## Compared to
 
@@ -75,6 +75,7 @@ Not for production performance work that needs speedups validated against CUTLAS
 - 2026-10-26 - Corrected the star-history chart markup (the light-theme source carried the dark-theme parameter; it now points at the default chart).
 - 2026-11-08 - Rotation re-verification: all seven references re-fetched and live (one API retry passed a rate limit), and the liveness signal corrected per the default-branch rule: the October 23 and November 5 pushes were side-branch commits on autokernel/blackwell (tip November 5, decode_step stream handling), while the default branch has been quiet since 2026-03-19.
 - 2026-11-11 - Volatile re-verification inverted that reading: the blackwell branch merged into main on November 8 and a November 9 landing added long-context prefill (paged KV, calibrated attention percent-of-peak, cold versus warm TTFT), so main is active again; the README changelog still tops at v1.3.0 with no tags or releases.
+- 2026-11-18 - Volatile re-verification: recorded the November 18 docs commit dropping the retired Forge enterprise link from the README, its URL now serving a generic contact page and the company site fronting a pay-as-you-go model API, with the pricing and vendor-caution lines moved and no tags or releases still true.
 
 ## See also
 
@@ -91,5 +92,5 @@ Not for production performance work that needs speedups validated against CUTLAS
 - https://hn.algolia.com/api/v1/search?query=autokernel&tags=story - the 47-point, 10-comment launch thread of 2026-03-11 and the small May paper listing (fetched 200, 2026-10-23)
 - https://hn.algolia.com/api/v1/items/47332688 - the launch thread's critical comments: the Ansor comparison gap, the CUTLASS 3x GEMM rebuttal, and the AlphaEvolve precedent (fetched 200, 2026-10-23)
 - https://www.rightnowai.co/ - the company: "the kernel lab behind instant AI", YC backing, and the System Zero product line (fetched 200, 2026-10-23)
-- https://www.rightnowai.co/forge - the enterprise offer, now a redirect into the contact funnel with no published prices (fetched 308 to 200, 2026-10-23)
-- https://api.github.com/repos/RightNow-AI/autokernel/commits?per_page=3 - the default branch's November 8 blackwell merge and November 9 long-context prefill landing behind this status correction (fetched 200, 2026-11-11)
+- https://www.rightnowai.co/forge - the enterprise offer, a redirect into the contact funnel with no published prices at the 2026-10-23 fetch; re-fetched 2026-11-18 reading as a generic Contact Us page after the README dropped the retired link (fetched 308 to 200, 2026-10-23 and 2026-11-18)
+- https://api.github.com/repos/RightNow-AI/autokernel/commits?per_page=3 - the default branch's November 8 blackwell merge and November 9 long-context prefill landing behind the last correction, and the November 18 docs commit dropping the retired Forge link behind this refresh (fetched 200, 2026-11-11 and 2026-11-18)

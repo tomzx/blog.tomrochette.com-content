@@ -16,6 +16,7 @@ Where quality control lives in the agent workflow: CI gates, dashboards, machine
 - [Crit](crit/index.md) - Tomasz Tomczyk's MIT local-first browser surface where agent plans, diffs, running apps, and static HTML get line comments that flow back through a review file any agent can read.
 - [deepeval](deepeval/index.md) - the pytest-style eval framework with roughly fifty judge metrics that gates merges in CI.
 - [FrontierHarness Eval](frontierharness-eval/index.md) - the public benchmark that held the model constant and varied nine harnesses in twelve configurations, cost spread 17.5x, vendor-run caveat attached.
+- [Harbor](harbor/index.md) - the Terminal-Bench creators' Apache-2.0 runner that executes any agent on containerized benchmark datasets, locally or across thousands of cloud sandboxes, judging nothing itself.
 - [HarnessTax](harnesstax/index.md) - the UC Berkeley study that held seven models constant across three harnesses on SWE-bench Lite and Terminal-Bench, finding harness swaps cost up to 5x while success barely moves.
 - [HermesGate](hermes-gate/index.md) - Hermes Labs' Apache-2.0 receipt-bound gate that runs a repository's own checks and reuses a PASS only while the checked bytes still match, judging completion claims rather than code.
 - [Hunk](hunk/index.md) - Modem's MIT review-first terminal diff viewer, one annotated stream for the whole agent changeset, judging nothing itself.
@@ -30,8 +31,10 @@ Where quality control lives in the agent workflow: CI gates, dashboards, machine
 - [ResearchClawBench](researchclawbench/index.md) - the Shanghai AI Laboratory benchmark scoring whether agents can re-discover published science from raw data, expert rubrics judged by a configurable multimodal LLM in two modes, MIT with an arXiv paper and a live leaderboard.
 - [ReviewBench](reviewbench/index.md) - GitHub's open AI-code-review benchmark: 219 public PRs, a multi-source golden set, Claude Sonnet 5 as judge, and a leaderboard whose scores publish only on maintainer approval.
 - [slop-grader](slop-grader/index.md) - the MIT CLI that grades documents and diffs line by line against Markdown rulesets with Jev decision models, exhaustive by construction and priced in thousandths of a cent per question.
+- [SWE-bench](swe-bench/index.md) - the Princeton NLP benchmark scoring whether a generated patch resolves a real GitHub issue under the repository's own held-out tests, the field's default yardstick with its leakage and contamination critiques documented.
 - [Verbatim Citation Gate](verbatim-citation-gate/index.md) - the MIT two-stage citation auditor: a zero-token deterministic gate for fabricated quotes, then a skeptical judge that fails closed.
 - [Workshop](workshop/index.md) - Raindrop's local debugger where the coding agent reads traces, writes evals, and fixes what fails.
+- [τ²-bench](tau2-bench/index.md) - Sierra's dual-control benchmark scoring tool-using customer-service agents on the simulated database's end state while an LLM-simulated user works their own tools, deterministic reward, text and full-duplex voice in six languages.
 
 Its members are compared on shared rows in the [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md).
 
@@ -59,3 +62,6 @@ Its members are compared on shared rows in the [Evaluation and Review Feature Ma
 - 2026-10-27 - Added agent-qa.
 - 2026-10-28 - Added ResearchClawBench.
 - 2026-10-31 - Added Bottleneck.
+- 2026-11-18 - Added Harbor.
+- 2026-11-18 - Added SWE-bench.
+- 2026-11-18 - Added τ²-bench.

@@ -1,7 +1,7 @@
 ---
 title: CodeRabbit
 created: 2026-08-30
-updated: 2026-11-11
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -24,7 +24,7 @@ It is proprietary SaaS from CodeRabbit, Inc., founded by Harjot Gill and Gur Sin
 
 **Very active, well-funded, and mid-pivot from reviewer to platform.**
 Funding: $16M Series A led by CRV (August 13, 2024), then $60M Series B led by Scale Venture Partners with NVIDIA's NVentures (September 16, 2025, $550M valuation, $88M total raised), then $143M Series C at a $1.5B valuation co-led by Atomico and Smash Capital on August 12, 2026, with revenue up more than 5x year over year per that announcement.
-Scale as of 2026-10-11: 17,000+ customers, 6M repositories, and more than 2M reviews per week, versus 2M repos installed and 13M cumulative PR reviews at the Series B a year earlier.
+Scale as of 2026-10-11: 17,000+ customers, 6M repositories, and more than 2M reviews per week, versus 2M repos installed and 13M cumulative PR reviews at the Series B a year earlier; the homepage claims moved to 20K customers and 8.5M repositories as of 2026-11-18.
 
 ## Strengths
 
@@ -83,6 +83,7 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live; prices unchanged (Essentials $24, Team $48, Advanced $72 annual, $0.40 agent minute) and the homepage claims (17K customers, 6M repositories) still displayed; no factual drift.
 - 2026-11-05 - Pointed the See-also matrix link at the Code Review Feature Matrix; its line described the category matrix this note joins but linked the evaluation-review one.
 - 2026-11-11 - Rotation re-verification: every cited URL re-fetched live (the Pullflow report now resolves through a www redirect with the analysis intact); all prices unchanged (Essentials $24, Team $48, Advanced $72 annual, $0.40 agent minute, $0.25 per reviewed file) and the homepage claims (17K customers, 6M repositories) still displayed; no factual drift.
+- 2026-11-18 - Rotation re-verification: every cited URL re-fetched live, all prices unchanged (Essentials $24, Team $48, Advanced $72 annual, $0.40 agent minute, $0.25 per reviewed file), and the homepage scale claims moved from 17K customers and 6M repositories to 20K and 8.5M; the funding, exploit, benchmark, and market-share facts all stood unchanged.
 
 ## See also
 
@@ -94,8 +95,8 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 
 ## References
 
-- https://www.coderabbit.ai/ - product surface, 17K customers and 6M repositories as displayed 2026-10-31, re-fetched 2026-11-11 (unchanged)
-- https://www.coderabbit.ai/pricing - Essentials/Team/Advanced tiers and prices as of 2026-10-31 (re-fetched unchanged); the $0.40 Slack agent minute and the $0.25-per-reviewed-file usage rate still displayed on the 2026-11-11 re-fetch
+- https://www.coderabbit.ai/ - product surface, 17K customers and 6M repositories as displayed 2026-10-31, re-fetched 2026-11-11 (unchanged), re-fetched 2026-11-18 (the scale claims moved to 20K customers and 8.5M repositories)
+- https://www.coderabbit.ai/pricing - Essentials/Team/Advanced tiers and prices as of 2026-10-31 (re-fetched unchanged); the $0.40 Slack agent minute and the $0.25-per-reviewed-file usage rate still displayed on the 2026-11-11 re-fetch; re-fetched 2026-11-18 (prices, tiers, review-velocity caps, and usage rates all unchanged)
 - https://www.coderabbit.ai/blog/introducing-agentic-change-management - Series C: $143M at a $1.5B valuation, August 12, 2026, 2M weekly reviews, 17K customers, 150K OSS projects, Triage/Change Stack/Security launch
 - https://www.coderabbit.ai/blog/coderabbit-series-b-60-million-quality-gates-for-code-reviews - Series B: $60M led by Scale Venture Partners with NVentures, September 16, 2025, 2M repos, 13M PRs reviewed
 - https://www.coderabbit.ai/blog/coderabbit-announces-16m-series-a-funding-led-by-crv - Series A: $16M led by CRV, August 13, 2024

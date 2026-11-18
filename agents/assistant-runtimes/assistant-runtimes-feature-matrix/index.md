@@ -1,7 +1,7 @@
 ---
 title: "Assistant Runtimes Feature Matrix"
 created: 2026-08-27
-updated: 2026-11-15
+updated: 2026-11-18
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, assistant-runtimes, personal-assistants]
 readability: 3
@@ -32,7 +32,7 @@ Each column links to the full research note; every cell below traces to a source
 | Edge and mobile | ✓ Android app | ✗ server and desktop only | ✗ desktop only | ~ $5 VPS, serverless idle on Modal, Daytona | ✗ server and Cloud only | ~ server deploys (Render) | ✗ Docker host only | ✗ desktop clients, mobile in closed beta | ~ responsive web and PWA | companion apps | ✗ desktop only | ✗ macOS and Windows desktop only | ✓ Android APK, $10 RISC-V boards | ✗ server only | ~ beta Tauri desktop | ~ Raspberry Pi |
 | Credentials | your keys | your keys, providers set in the panel | your keys or cloud credits | per-provider keys or Nous Portal | your keys | your keys on host | ✓ OneCLI Agent Vault | your keys, per-expert providers | your keys | your keys on host | your keys BYO | your keys | your keys in workspace | your keys, local by default | your keys, or none offline | your keys in workspace |
 | Security record | clean so far | silent-drop adapter bug fixed 2026-06, thin English-language scrutiny | GAIA claim corrected, astroturf flag | edited plagiarism-claim issue, 53k open issues | clean so far, zero English-language scrutiny | clean so far, category-skepticism thread | clean so far | clean so far, zero English-language scrutiny | clean so far, license controversy | provider saga, 514-point vuln report, Trail of Bits audit completed (23 confirmed vulnerabilities, all fixed) | HN boundary questions unresolved | open beta, macOS builds signed and notarized while Windows builds are unsigned, thin independent footprint | pre-1.0 banner, scam-token notice, picoclaw.io cert renewed after its 2026-09-10 expiry | clean so far | telemetry auto-accept default | clean so far, thin coverage |
-| Status | active, v1.19.0 | active, v4.29.4, 1,228 open issues and PRs | active, v1.0.7 | active, v0.23.1 on the semver release line, 53k open issues | active, v4.11.8 | active, v0.4.1 | active, v2026.10.0 stable with the v2026.11.0 beta line at beta.3, 1.1k open issues | active, v1.0.3b5 in the v1.0.3 beta line, 687 open issues | active, v0.13.3 | active, v2026.11.3 stable, 8.5k open issues | active, v0.18.67 | active, v0.3.1, open beta | active on side branches, main quiet since 2026-08-19, 31 open issues, pre-1.0 | active, v1.0.1, pushed 2026-11-13 | active, v2.3.0, post-rewrite churn | active, v0.9.0, 1.2k open issues |
+| Status | active, v1.20.0 | active, v4.29.4 stable with the v4.30.0 beta line open, 1,248 open issues and PRs | active, v1.0.8 | active, v0.23.2 on the semver release line, 54k open issues | active, v4.11.8 | active, v0.4.1 | active, v2026.10.0 stable with the v2026.11.0 line at rc.1, 1.1k open issues | active, v1.0.3b7 in the v1.0.3 beta line, 680 open issues | active, v0.13.4 | active, v2026.11.5 stable, 8.3k open issues | active, v0.18.68 | active, v0.3.1, open beta | active on side branches, main quiet since 2026-08-19, 31 open issues, pre-1.0 | active, v1.0.1, pushed 2026-11-18 | active, v2.3.0, post-rewrite churn | active, v0.9.0, 1.3k open issues |
 
 ## Reading the matrix
 
@@ -105,6 +105,7 @@ QwenPaw is the only column with a real offline path through its own trained smal
 - 2026-11-13 - Re-verification: moved cells (LangBot status to v4.11.7 after the withdrawn v4.11.6, OpenWork to v0.18.67, QwenPaw to stable v2.3.0, ZeroClaw to v0.9.0 with its isolation cell gaining the v0.9.0 OIDC sign-in accounts, PrivateGPT pushed 2026-11-12) and matching prose counts, with the stars row left at its 2026-10-14 counts except the LangBot column's 2026-10-30 baseline.
 - 2026-11-14 - Re-verification: moved cells (AstrBot to 1,217 open issues and PRs, Hermes to 53k open issues, NanoClaw's beta line to beta.2, Octop to 699 open issues, PicoClaw to 31, PrivateGPT pushed 2026-11-13) and matching prose counts, with the stars row left at its 2026-10-14 counts except the LangBot column's 2026-10-30 baseline.
 - 2026-11-15 - Re-verification: moved cells (LangBot status to v4.11.8, AstrBot to 1,228 open issues and PRs, NanoClaw's beta line to beta.3, Octop to 687, OpenClaw to 8.5k) and matching prose counts, with the stars row left at its 2026-10-14 counts except the LangBot column's 2026-10-30 baseline.
+- 2026-11-18 - Re-verification: moved cells (AnythingLLM status to v1.20.0, AstrBot to 1,248 open issues and PRs with the v4.30.0 beta line open, Eigent to v1.0.8, Hermes to v0.23.2 on the semver line with 54k open issues, NanoClaw to the v2026.11.0 line at rc.1, Octop to the v1.0.3b7 beta with 680 open issues, Open WebUI to v0.13.4, OpenClaw to v2026.11.5 stable with 8.3k open issues, OpenWork to v0.18.68, PrivateGPT pushed 2026-11-18, ZeroClaw to 1.3k open issues) and matching prose counts, with the stars row left at its 2026-10-14 counts except the LangBot column's 2026-10-30 baseline.
 
 ## See also
 

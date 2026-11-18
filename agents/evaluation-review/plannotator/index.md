@@ -1,7 +1,7 @@
 ---
 title: Plannotator
 created: 2026-08-30
-updated: 2026-11-15
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Dual Apache-2.0 or MIT, written almost entirely by one developer (1,166 of 1,447
 
 ## Status
 
-Fast and growing: 9,398 stars, 707 forks, 141 open issues and PRs as of 2026-10-13, created 2025-12-28, pushed 2026-11-15 (the default branch moving that day with linked-machine file-read guards, Codex-in-T3 fixes, and inbox file references that open in a viewer), with v0.28.65 released 2026-11-15 (replies your agent has not received yet can be taken back, Tailscale sessions opening only for your own account, thread tags shared across linked machines, T3 Code threads joining the Inbox with no setup) after v0.28.64 released 2026-11-13 after v0.28.62 (2026-11-12) and v0.28.61 (2026-11-10) at the head of a nine-release wave (v0.28.53 through v0.28.61, 2026-11-08 to 2026-11-10) that includes v0.28.52 (2026-11-08, the release that lets the Inbox start Claude Code and Pi sessions, on this computer or a linked one, on by default) after v0.28.51 (2026-11-06), v0.28.50 (2026-11-05), v0.28.49 (2026-11-04), and v0.28.43 through v0.28.48 (2026-11-01 to 2026-11-03), which followed v0.28.42 (2026-10-31) and v0.28.36 through v0.28.40 (2026-10-28 to 2026-10-30).
+Fast and growing: 9,398 stars, 707 forks, 141 open issues and PRs as of 2026-10-13, created 2025-12-28, pushed 2026-11-18 (the default branch moving that day with the semantic-diffs merge and the arrow-parsing header fixes), with v0.29.0 released 2026-11-18 (a redesigned two-pane code review window with a faster file tree, image diffs, and a minimap; semantic diffs drawing moved, renamed, and reformatted code as what it is in eleven languages; review comments that talk the change through with your agent through the Inbox) after v0.28.67 (2026-11-17, drag threads to Priority, Archive, or Quiet or onto another thread to combine them, thread mentions, Linear hover cards) and v0.28.66 (2026-11-16, multi-select archive and snooze, thread combining, filter and search by tag) after v0.28.65 released 2026-11-15 (replies your agent has not received yet can be taken back, Tailscale sessions opening only for your own account, thread tags shared across linked machines, T3 Code threads joining the Inbox with no setup) at the head of a nine-release wave (v0.28.53 through v0.28.61, 2026-11-08 to 2026-11-10) that includes v0.28.52 (2026-11-08, the release that lets the Inbox start Claude Code and Pi sessions, on this computer or a linked one, on by default) after v0.28.51 (2026-11-06), v0.28.50 (2026-11-05), v0.28.49 (2026-11-04), and v0.28.43 through v0.28.48 (2026-11-01 to 2026-11-03), which followed v0.28.42 (2026-10-31) and v0.28.36 through v0.28.40 (2026-10-28 to 2026-10-30).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=backnotprop/plannotator&type=date&theme=dark&legend=top-left" />
@@ -99,6 +99,7 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - 2026-11-13 - Recorded the v0.28.62 release (2026-11-12) and refreshed the activity line.
 - 2026-11-14 - Recorded the v0.28.64 release (2026-11-13, after v0.28.63's pairing of Grok Bot and other cloud agents) and refreshed the activity line (the default branch moved 2026-11-14 with the Inbox PR bulk-close feature, a sidebar-tags fix, and an outside inbox thread-id fix, PR 3261).
 - 2026-11-15 - Recorded the v0.28.65 release (2026-11-15, reply take-back before delivery, Tailscale sessions locked to your own account, thread tags shared across linked machines, T3 Code threads in the Inbox with no setup) and refreshed the activity line (the default branch moved 2026-11-15 with linked-machine file-read guards and inbox viewer and tag fixes).
+- 2026-11-18 - Recorded the v0.28.66 (2026-11-16, multi-select archive and snooze, thread combining, tag filters) and v0.28.67 (2026-11-17, drag-to-prioritize and thread combination, thread mentions, Linear hover cards) releases and then the v0.29.0 release (2026-11-18, the redesigned two-pane code review window, semantic diffs in eleven languages, and review comments that talk the change through with the agent through the Inbox), and refreshed the activity line.
 
 ## See also
 

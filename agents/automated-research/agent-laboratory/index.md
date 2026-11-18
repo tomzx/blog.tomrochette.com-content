@@ -1,7 +1,7 @@
 ---
 title: Agent Laboratory
 created: 2026-10-11
-updated: 2026-11-08
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, paper-generation, human-in-the-loop, open-source]
 readability: 3
@@ -67,6 +67,7 @@ Not for anyone choosing a maintained tool today: the repository has been dormant
 - 2026-10-11 - Created.
 - 2026-10-26 - Rotation re-verification: status unchanged (last push still 2025-08-20, MIT still detected, and the 4-point and 1-point zero-comment Hacker News submissions still the whole footprint); every cited URL re-fetched, all live.
 - 2026-11-08 - Rotation re-verification: status unchanged (dormant since 2025-08-20); every cited URL re-fetched, all live.
+- 2026-11-18 - Rotation re-verification: status unchanged (dormant since 2025-08-20); every cited URL re-fetched and live, with the reviewer scores, the co-pilot gains, the AgentRxiv numbers, the per-backend costs, and the thin Hacker News footprint all standing.
 
 ## See also
 
@@ -77,9 +78,9 @@ Not for anyone choosing a maintained tool today: the repository has been dormant
 
 ## References
 
-- https://github.com/SamuelSchmidgall/AgentLaboratory - repository, MIT license, 5,900 stars, last push 2025-08-20 (as of 2026-10-11)
-- https://raw.githubusercontent.com/SamuelSchmidgall/AgentLaboratory/main/README.md - the human-assist positioning, phase structure, and the March 2025 AgentRxiv announcement (fetched 200, 2026-10-11)
-- https://arxiv.org/abs/2501.04227 - the paper: authors, three stages, human feedback at each phase (fetched 200 via the arXiv API, 2026-10-11)
-- https://agentlaboratory.github.io/ - mle-solver REPLACE/EDIT mechanics, MLE-Bench medal comparison, PhD-reviewer scores against the 5.9 accepted average, co-pilot gains, per-backend costs (fetched 200, 2026-10-11)
-- https://agentrxiv.github.io/ - the AgentRxiv results: 70.2 to 78.2 percent on MATH-500, the no-access plateau, parallel-run gains, per-paper cost (fetched 200, 2026-10-11)
-- https://hn.algolia.com/api/v1/search?query=AgentLaboratory - the thin Hacker News footprint (fetched 200, 2026-10-11)
+- https://github.com/SamuelSchmidgall/AgentLaboratory - repository, MIT license, 5,900 stars, last push 2025-08-20 (as of 2026-10-11); re-fetched 2026-11-18 unchanged (fetched 200 via the API, 2026-11-18)
+- https://raw.githubusercontent.com/SamuelSchmidgall/AgentLaboratory/main/README.md - the human-assist positioning, phase structure, and the March 2025 AgentRxiv announcement (fetched 200, 2026-10-11 and 2026-11-18)
+- https://arxiv.org/abs/2501.04227 - the paper: authors, three stages, human feedback at each phase (fetched 200 via the arXiv API, 2026-10-11 and 2026-11-18)
+- https://agentlaboratory.github.io/ - mle-solver REPLACE/EDIT mechanics, MLE-Bench medal comparison, PhD-reviewer scores against the 5.9 accepted average, co-pilot gains, per-backend costs (fetched 200, 2026-10-11 and 2026-11-18)
+- https://agentrxiv.github.io/ - the AgentRxiv results: 70.2 to 78.2 percent on MATH-500, the no-access plateau, parallel-run gains, per-paper cost (fetched 200, 2026-10-11 and 2026-11-18)
+- https://hn.algolia.com/api/v1/search?query=AgentLaboratory - the thin Hacker News footprint (fetched 200, 2026-10-11 and 2026-11-18)

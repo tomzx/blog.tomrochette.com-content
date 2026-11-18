@@ -1,7 +1,7 @@
 ---
 title: Hunk
 created: 2026-10-06
-updated: 2026-11-14
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, terminal, diff, human-in-the-loop]
 readability: 3
@@ -24,7 +24,7 @@ The maker is Modem (modem.dev), the company credited in hunk.dev's footer.
 
 ## Status
 
-Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026-03-17, pushed 2026-11-13 (the default branch moved 2026-11-13 with an extension-directory listing, PR 1273), with v0.25.0 released 2026-11-11 ending the 0.24 line (741 merged pull requests by the v0.23.0 it succeeds, 2026-09-30), its headliners the removal of the deprecated `--fast` flag and the publication of the generated 0.25 release pages alongside the 0.24.1 changelog and a hunk-workspace extension-directory listing.
+Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026-03-17, pushed 2026-11-17 (the default branch moving 11-16 and 11-17 through an unreleased web review-UI feature stream: a review bar with progress and key hints, a changeset summary above the stream, review state in the files sidebar, file headers with state chips, note threads drawn as one card each, a quieter minimap, and a one-row toolbar), with v0.25.0 released 2026-11-11 ending the 0.24 line (741 merged pull requests by the v0.23.0 it succeeds, 2026-09-30), its headliners the removal of the deprecated `--fast` flag and the publication of the generated 0.25 release pages alongside the 0.24.1 changelog and a hunk-workspace extension-directory listing.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=modem-dev/hunk&type=date&theme=dark&legend=top-left" />
