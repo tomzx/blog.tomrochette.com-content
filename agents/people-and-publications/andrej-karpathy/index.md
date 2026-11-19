@@ -1,7 +1,7 @@
 ---
 title: Andrej Karpathy
 created: 2026-08-29
-updated: 2026-11-01
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, model-researcher]
 readability: 3
@@ -77,6 +77,7 @@ Not for people who need a current-events feed or want vendor-neutral, non-fronti
 - 2026-10-06 - The Bear blog serves again (third state change in four days: dark 2026-10-03, up 2026-10-04, dark 2026-10-05, up 2026-10-06), so the Sequoia Ascent and Verifiability links point at the live URLs again, with both Internet Archive snapshots kept in References and both fetched this run; the restored post list still ends at the Sequoia Ascent essay (2026-04-30) and GitHub still shows nothing new.
 - 2026-10-24 - The Bear blog's intermittent 404s identified as client-dependent serving (browser user-agents fetch every page, plain scripted clients get 404s), the post list still ends at the Sequoia Ascent essay (2026-04-30), and his latest GitHub push remains nanochat (2026-09-07).
 - 2026-11-01 - Rotation re-verification, every cited URL re-fetched: the live Medium Software 2.0 page began returning 403 to automated fetches, so its reference now points at the 2026-10-06 Internet Archive snapshot; the blog's post list moved with his new "HackerTube" essay (2026-10-31) and GitHub still ends at nanochat (2026-09-07).
+- 2026-11-18 - Rotation re-verification, every cited URL re-fetched and live (the Bear blog served under a browser user-agent, its 404s still client-dependent): the post list still ends at "HackerTube" (2026-10-31), the nanochat repo's latest push remains 2026-09-07 (per the GitHub API), and no new output surfaced in the window.
 
 ## See also
 

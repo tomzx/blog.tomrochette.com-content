@@ -1,7 +1,7 @@
 ---
 title: ax
 created: 2026-10-23
-updated: 2026-11-08
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, memory, local-first, cost-tracking]
 readability: 3
@@ -24,7 +24,7 @@ Made by Necmettin Karakaya (Necmttn) under AGPL-3.0, with a paid commercial lice
 
 ## Status
 
-Young and shipping in public: 121 stars (the dated baseline), 14 forks, 42 open issues, created 2026-05-08, pushed 2026-10-28 with no default-branch commit since, v0.44.4 the latest version (the announced release list runs through v0.44.3 on 2026-09-14, and the changelog's generated section now also carries v0.44.4 dated 2026-10-02), as of 2026-11-08.
+Young and shipping in public: 121 stars (the dated baseline), 16 forks, 43 open issues, created 2026-05-08, pushed 2026-10-28 with no default-branch commit since, v0.44.4 the latest version (the announced release list runs through v0.44.3 on 2026-09-14, and the changelog's generated section now also carries v0.44.4 dated 2026-10-02), as of 2026-11-18.
 The release history is unusually transparent for a 0.x project: v0.40.0 (2026-08-20) rebuilt storage from SurrealDB to embedded DuckDB at a claimed 21 times faster ingest, and v0.40.1 (2026-08-21) closed 19 of the 24 bugs a five-lane audit found in it, mixed-model session costs and silent duplicate-row drops included.
 An independent RepoGrade scan of the repository (its scan data from mid-2026) graded it C at 76/100, top 36% of 5,156 graded repositories as of 2026-11-08 (the percentile moved from the 38% an earlier fetch recorded as the grader re-ranked): documentation 96, project health 92, engineering 58, with no linter configuration found and thin test coverage, while median issue response ran 3 hours and the median PR merged in under an hour.
 
@@ -80,6 +80,7 @@ Not for teams needing hosted multi-user analytics today, for AGPL-incompatible e
 - 2026-10-23 - Created from the coordinator's entrant handoff, admitted on six fetched sources with the $20 per seat founding-cohort pricing recorded and the independent RepoGrade grade as the skeptical source.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched and live (README, docs hub, changelog, teams page, RepoGrade report, repository); the release line unchanged at v0.44.4 with the changelog still announcing through v0.44.3, the teams page unchanged at $20 per seat with one of five founding spots claimed and per-seat receipts marked live today, and the RepoGrade grade unchanged at C 76/100; the Pricing section's commercial-license contact moved to the project's Discord per the README, and repository counts refreshed (pushed 2026-10-07 to 2026-10-28, forks 15 to 14, open issues 40 to 42).
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched and live; the repository quiet since 2026-10-28 with no default-branch commit since, the release line unchanged at v0.44.4 with the changelog's generated section now also carrying v0.44.4 dated 2026-10-02, the teams page unchanged at $20 per seat with one spot claimed and four open, and the RepoGrade grade unchanged at C 76/100 with its percentile and documentation score refreshed (top 38% to 36% of the same 5,156 graded repositories, documentation 94 to 96) as the grader re-ranked.
+- 2026-11-18 - Rotation re-verification: every cited URL re-fetched and live; the repository quiet since 2026-10-28 with the default branch's latest commit still 2026-10-07, the release line unchanged at v0.44.4 with the changelog still announcing through v0.44.3, the teams page unchanged at $20 per seat with one spot claimed and four open, and the RepoGrade grade unchanged at C 76/100, top 36% of 5,156 with documentation 96 and engineering 58; forks refreshed 14 to 16 and open issues 42 to 43.
 
 ## See also
 
@@ -90,9 +91,9 @@ Not for teams needing hosted multi-user analytics today, for AGPL-incompatible e
 
 ## References
 
-- https://api.github.com/repos/Necmttn/ax - the repository, 121 stars (the dated baseline), AGPL-3.0, created 2026-05-08, pushed 2026-10-28 (as of 2026-11-08)
-- https://raw.githubusercontent.com/Necmttn/ax/main/README.md - the graph model, six-harness ingest, recall, costs, routing, hooks SDK, MCP server, and privacy rules (re-fetched 2026-11-08)
-- https://ax.necmttn.com/docs - the docs hub at v0.44.4, the guide set, and the MCP server's ten read-only queries (re-fetched 2026-11-08)
-- https://ax.necmttn.com/changelog - the release history from v0.1.0 (2026-05-09) through v0.44.3 (2026-09-14), the generated v0.44.4 entry (2026-10-02), the DuckDB rebuild in v0.40.0, and the 19-bug fix wave in v0.40.1 (re-fetched 2026-11-08)
-- https://ax.necmttn.com/teams - the $20 per seat founding-cohort team rollup, the redacted-aggregate privacy model, and the five-team cap (re-fetched 2026-11-08, one spot claimed and four open)
-- https://www.repo-grade.com/report/necmttn/ax - the independent C grade (76/100), the engineering hygiene findings, and the 3-hour median issue response (re-fetched 2026-11-08, top 36% and documentation 96)
+- https://api.github.com/repos/Necmttn/ax - the repository, 121 stars (the dated baseline), AGPL-3.0, created 2026-05-08, pushed 2026-10-28 (as of 2026-11-18)
+- https://raw.githubusercontent.com/Necmttn/ax/main/README.md - the graph model, six-harness ingest, recall, costs, routing, hooks SDK, MCP server, and privacy rules (re-fetched 2026-11-18)
+- https://ax.necmttn.com/docs - the docs hub at v0.44.4, the guide set, and the MCP server's ten read-only queries (re-fetched 2026-11-18)
+- https://ax.necmttn.com/changelog - the release history from v0.1.0 (2026-05-09) through v0.44.3 (2026-09-14), the generated v0.44.4 entry (2026-10-02), the DuckDB rebuild in v0.40.0, and the 19-bug fix wave in v0.40.1 (re-fetched 2026-11-18)
+- https://ax.necmttn.com/teams - the $20 per seat founding-cohort team rollup, the redacted-aggregate privacy model, and the five-team cap (re-fetched 2026-11-18, one spot claimed and four open)
+- https://www.repo-grade.com/report/necmttn/ax - the independent C grade (76/100), the engineering hygiene findings, and the 3-hour median issue response (re-fetched 2026-11-18, top 36% and documentation 96)

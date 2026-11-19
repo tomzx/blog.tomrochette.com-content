@@ -1,7 +1,7 @@
 ---
 title: ccusage
 created: 2026-10-05
-updated: 2026-11-15
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The repository is a monorepo created by ryoppippi (the project moved from his pe
 ## Status
 
 **The most-installed tool in this category by an order of magnitude, and until today the only one this section had never profiled.**
-About 19k stars (19,001) as of 2026-11-01 and 926 forks, created 2025-05-29, pushed 2026-11-15 (GitHub API, stars keep their earlier fetch date).
+About 19k stars (19,001) as of 2026-11-01 and 930 forks, created 2025-05-29, pushed 2026-11-18 (GitHub API, stars keep their earlier fetch date).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&theme=dark&legend=top-left" />
@@ -32,14 +32,14 @@ About 19k stars (19,001) as of 2026-11-01 and 926 forks, created 2025-05-29, pus
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&legend=top-left" />
 </picture>
 
-The release line is v20.x with rapid patches: v20.0.51 (2026-11-14, the nix Linux dev shell restored after the Rust 1.100 bump), v20.0.50 (2026-11-11, actual Antigravity model names instead of placeholders for new model IDs) and v20.0.49 (2026-11-10, the Cline extension and CLI usage adapter joining the sources as the nineteenth, 1h cache writes reported in JSON model breakdowns, in-window Claude usage only counted in unified session reports, and the guard against truncated Codex type fields panicking the parser shipped after landing unreleased on 2026-11-07) are the latest tagged releases and the npm latest, after v20.0.48 (2026-11-02, no significant changes), v20.0.47 (2026-11-01, OpenCode Claude Agent turns counted once in unified reports, sessions keeping their last-active day under --until, and space-form config sections overriding generic ones), v20.0.46 (2026-10-30, unreadable Antigravity conversation databases skipped and Codex Ultrafast requests priced at Ultrafast rates), and v20.0.45 (2026-10-26, gpt-6.1-terra fast and flex multipliers plus Codex repeated first-response snapshots counted once), as of 2026-11-15, with only the routine pricing-snapshot and dependency updates landing since.
-The npm package pulled 996,944 downloads in the trailing month (2026-10-16 to 2026-11-15, three zero days inside the window), roughly five times the claude-mem plugin (197,535 in the same window) and far ahead of every session-analytics peer here.
+The release line is v20.x with rapid patches: v20.0.51 (2026-11-14, the nix Linux dev shell restored after the Rust 1.100 bump), v20.0.50 (2026-11-11, actual Antigravity model names instead of placeholders for new model IDs) and v20.0.49 (2026-11-10, the Cline extension and CLI usage adapter joining the sources as the nineteenth, 1h cache writes reported in JSON model breakdowns, in-window Claude usage only counted in unified session reports, and the guard against truncated Codex type fields panicking the parser shipped after landing unreleased on 2026-11-07) are the latest tagged releases and the npm latest, after v20.0.48 (2026-11-02, no significant changes), v20.0.47 (2026-11-01, OpenCode Claude Agent turns counted once in unified reports, sessions keeping their last-active day under --until, and space-form config sections overriding generic ones), v20.0.46 (2026-10-30, unreadable Antigravity conversation databases skipped and Codex Ultrafast requests priced at Ultrafast rates), and v20.0.45 (2026-10-26, gpt-6.1-terra fast and flex multipliers plus Codex repeated first-response snapshots counted once), as of 2026-11-18, with the 2026-11-16 default-branch work landing unreleased: a twentieth source adapter (DeepSeek Harness, DSH token usage and cost tracking, #2112), workflow-run logs attributed to their parent session, Copilot auto mode priced from the credits Copilot recorded, Qwen sessions archived to chats/archive counted, and Claude cache writes counted from every advisor-turn message iteration; a Junie adapter was added and reverted the same day.
+The npm package pulled 1,021,378 downloads in the trailing month (2026-10-19 to 2026-11-18, four zero days inside the window), roughly four times the claude-mem plugin (231,904 in the same window) and far ahead of every session-analytics peer here.
 Its Show HN launch thread reached 75 points in July 2025, and the README carries an Awesome Claude Code mention badge.
 
 ## Strengths
 
 - Zero-install invocation makes it the first cost answer anyone runs, which is why other tools' docs benchmark against it.
-- Nineteen sources in one unified report; Tokscale's 63 named clients and Token Monitor's 54 named rows lead the category, but ccusage stays the zero-install baseline.
+- Nineteen sources in one unified report; Tokscale's 64 named clients and Token Monitor's 54 named rows lead the category, but ccusage stays the zero-install baseline.
 - The blocks report maps usage onto Claude's 5-hour billing windows, and the statusline beta puts spend into the prompt view, both aimed at subscription-plan users rather than API payers.
 - Offline mode and per-model pricing overrides make the cost numbers auditable instead of magical.
 
@@ -86,6 +86,7 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 - 2026-11-13 - Volatile re-verification: no release after v20.0.50 and npm latest unchanged at 20.0.50, the 2026-11-12 and 11-13 default-branch pushes being the routine pricing-snapshot (models.dev and LiteLLM) and dependency updates the Status already describes; trailing-month downloads refreshed (765,556 to 771,196, window 2026-10-14 to 2026-11-13 with six zero days, claude-mem re-read at 133,437 so the multiplier stands at roughly six times), forks refreshed 918 to 919, and the pushed date moved to 2026-11-13.
 - 2026-11-14 - Volatile re-verification: no release after v20.0.50 and npm latest unchanged at 20.0.50, the 2026-11-13 and 11-14 default-branch pushes being the routine pricing-snapshot (models.dev and LiteLLM), dependency, and Rust-1.100 build updates the Status already describes; trailing-month downloads refreshed (771,196 to 858,786, window 2026-10-15 to 2026-11-14 with five zero days, claude-mem re-read at 159,572 so the multiplier moved to roughly five times), forks refreshed 919 to 922, and the pushed date moved to 2026-11-14.
 - 2026-11-15 - Recorded v20.0.51 (2026-11-14, the nix Linux dev shell restored after the Rust 1.100 bump, a build housekeeping release), npm latest moved to 20.0.51; trailing-month downloads refreshed (858,786 to 996,944, window 2026-10-16 to 2026-11-15 with three zero days, claude-mem re-read at 197,535 so the multiplier stands at roughly five times), forks refreshed 922 to 926, and the pushed date moved to 2026-11-15.
+- 2026-11-18 - Volatile re-verification: no release after v20.0.51, with the 2026-11-16 default-branch pushes landing unreleased beyond the routine pricing-snapshot updates: a twentieth source adapter (DeepSeek Harness token usage and cost, #2112), workflow-run logs attributed to their parent session, Copilot auto mode priced from recorded credits, Qwen archived-chat sessions counted, and Claude advisor-turn cache writes counted per iteration, with a Junie adapter added and reverted the same day; trailing-month downloads refreshed (996,944 to 1,021,378, window 2026-10-19 to 2026-11-18 with four zero days, claude-mem re-read at 231,904 so the multiplier moved to roughly four times), forks refreshed 926 to 930, the Strengths line's Tokscale count corrected from 63 to the 64 named clients its own note records since v4.23.0, and the pushed date moved to 2026-11-18.
 
 ## See also
 
@@ -100,9 +101,9 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 - https://github.com/ccusage/ccusage - repository, 18.9k stars and 864 forks as of 2026-10-05, created 2025-05-29, the ryoppippi origin and ccusage-org move (the ryoppippi/ccusage URL redirects here)
 - https://raw.githubusercontent.com/ccusage/ccusage/main/apps/ccusage/README.md - the eighteen-source table, report types, blocks and statusline features, offline mode, and pricing overrides
 - https://raw.githubusercontent.com/ccusage/ccusage/main/apps/ccusage/LICENSE - the MIT license text, copyright ryoppippi
-- https://api.npmjs.org/downloads/range/2026-10-16:2026-11-15/ccusage - 996,944 trailing-month downloads (three zero days inside the window), fetched 2026-11-15 via the dated-range endpoint per the npm-window ruling
-- https://api.npmjs.org/downloads/range/2026-10-16:2026-11-15/claude-mem - 197,535 downloads in the same window, grounding the roughly-five-times comparison (fetched 2026-11-15)
-- https://registry.npmjs.org/ccusage - npm latest 20.0.51, matching the v20.0.51 GitHub tag (re-verified 2026-11-15)
-- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.51 (2026-11-14), v20.0.50 (2026-11-11), v20.0.49 (2026-11-10), v20.0.48 (2026-11-02), v20.0.47 (2026-11-01), v20.0.46 (2026-10-30), and v20.0.45 (2026-10-26) release dates (re-fetched 2026-11-15)
+- https://api.npmjs.org/downloads/range/2026-10-19:2026-11-18/ccusage - 1,021,378 trailing-month downloads (four zero days inside the window), fetched 2026-11-18 via the dated-range endpoint per the npm-window ruling
+- https://api.npmjs.org/downloads/range/2026-10-19:2026-11-18/claude-mem - 231,904 downloads in the same window, grounding the roughly-four-times comparison (fetched 2026-11-18)
+- https://registry.npmjs.org/ccusage - npm latest 20.0.51, matching the v20.0.51 GitHub tag (re-verified 2026-11-15; no release since)
+- https://api.github.com/repos/ccusage/ccusage/releases - the v20.0.51 (2026-11-14), v20.0.50 (2026-11-11), v20.0.49 (2026-11-10), v20.0.48 (2026-11-02), v20.0.47 (2026-11-01), v20.0.46 (2026-10-30), and v20.0.45 (2026-10-26) release dates (re-fetched 2026-11-18)
 - https://news.ycombinator.com/item?id=44610925 - the 75-point launch thread (2025-07-18), carrying the npx-security critique and the estimate-versus-bill debates
 - https://ccusage.com - the docs site, a client-rendered VitePress shell this run, with the title and description verified in the served HTML

@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-17
+updated: 2026-11-18
 status: finished
 tags: [agents]
 readability: 0
@@ -12,6 +12,7 @@ The log under `agents/logs/` stays the audit trail; this digest never contradict
 Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (date = last confirmation).
 
 ## Scope rulings
+- 2026-11-18 | people-and-publications | surface-shell claims are client-dependent: YouTube channel surfaces that returned only JavaScript shells to scripted fetches on 2026-10-04 and 2026-11-01 rendered subscriber-class counts (136 videos, 11,832,349 views) to a browser user-agent fetch on 2026-11-18, so unrendered-surface claims re-attempt with a browser UA before an as-of date is kept | the caleb-writes-code rotation, extending the karpathy Bear-blog client-dependent 404 line to YouTube surfaces
 - 2026-11-18 | assistant-runtimes | openhuman reads 42,743 stars on 2026-11-18, about +39 in three days (about +13 a day, the slowing trend continuing) against OpenClaw's 394,702 | the q13 OpenClaw-class scale trigger stays unfired, openhuman held
 - 2026-11-18 | assistant-runtimes | trendshift.io serves a site-wide 403 to scripted fetches (curl and webfetch both blocked), so a Trendshift-badge claim cites the README's own badge markup with the wall recorded | the octop rotation re-fetch, extending the 2026-11-08 helgilibrary and 2026-11-13 openai.com site-wall rulings
 - 2026-11-18 | automated-research | a refresh describing post-release work expires when the release ships the same day after the fetch, not only when pushed_at equals the verification date: the 2026-11-15 local-deep-research refresh read v2.0.1 preparation in the morning and the release published 19:42 UTC that evening, so the same-day rule keys on intraday timing | the local-deep-research v2.0.1 correction

@@ -1,7 +1,7 @@
 ---
 title: CUA-S1
 created: 2026-09-20
-updated: 2026-11-15
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, computer-use, system-one-models, open-weights]
 readability: 3
@@ -25,7 +25,7 @@ It lives inside the trycua/cua monorepo (MIT) as a source component, with weight
 
 Early research artifact, days old, and unusually candid about it.
 The component README still describes a source-only release whose checkpoint table reads "weights not distributed", while the main README and the checkpoint metadata point at the `cua-ai/cua-s1-forms` weights created on Hugging Face on 2026-09-18, a documentation wrinkle worth knowing before you cite either.
-The launch Show HN thread (2026-09-19) reached 95 points as of 2026-10-07, and the host repository shows 29,785 stars as of 2026-10-15 (pushes current to 2026-11-15; the cua-s1 component's only change since the 2026-10-20 client security fix is a 2026-11-13 dependency security bump (pillow 13.0.0 and soupsieve 4.1, three CVE fixes) with no scoring change recorded, re-verified against the component's commit path on 2026-11-15, with the 2026-11-14 to 11-15 release wave around it (cua-spaces v0.36.13 through v0.36.18, cua-driver-rs v0.49.10 and v0.49.11 plus the v0.51.0 through v0.51.4 line, cua-sdk v0.27.5, bench v0.4.5 through v0.4.7, and nightlies) all Spaces, driver, SDK, and bench releases), though nearly all of that is the surrounding Cua computer-use project, created 2025-01-31, not the model.
+The launch Show HN thread (2026-09-19) reached 95 points as of 2026-10-07, and the host repository shows 29,785 stars as of 2026-10-15 (pushes current to 2026-11-18; the cua-s1 component's only change since the 2026-10-20 client security fix is a 2026-11-13 dependency security bump (pillow 13.0.0 and soupsieve 4.1, three CVE fixes) with no scoring change recorded, re-verified against the component's commit path on 2026-11-18, with the 2026-11-16 to 11-18 release wave around it (cua-spaces v0.36.20 through v0.36.27 and the v0.37.0-v0.38.8 line, cua-sdk v0.28.0 through v0.28.2, cua-driver-rs v0.52.3 through v0.53.0 plus a nightly, and bench v0.4.10) all Spaces, driver, SDK, and bench releases), though nearly all of that is the surrounding Cua computer-use project, created 2025-01-31, not the model.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trycua/cua&type=date&theme=dark&legend=top-left" />
@@ -89,6 +89,7 @@ The disagreeable claim I will defend: a 706k-parameter model trained in public o
 - 2026-11-13 - Volatile re-verification after the host's pushes to 2026-11-13: the cua-s1 component remains untouched since the 2026-10-20 client security fix (re-verified against the component's commit path), and the 2026-11-12 to 11-13 release wave (cua-spaces v0.34.0 through v0.36.5, cua-spacesd v0.15.3 through v0.16.1, cua-sdk v0.25.2 through v0.27.2, cua-driver-rs v0.47.17 through v0.49.1, bench v0.4.2 and v0.4.3, lume v0.7.1 and v0.7.2, and a sandbox v0.10.2) is Spaces, daemon, SDK, driver, bench, VM, and sandbox releases that do not touch it.
 - 2026-11-14 - Volatile re-verification after the host's pushes to 2026-11-14: the cua-s1 component's first change since the 2026-10-20 client security fix landed 2026-11-13, a dependency security bump (pillow 13.0.0 and soupsieve 4.1, three CVE fixes, no scoring change recorded), and the 2026-11-13 to 11-14 release wave (cua-spaces v0.36.4 through v0.36.12, cua-spacesd v0.16.1, cua-sdk v0.27.4, cua-driver-rs v0.49.8 and v0.49.9 prereleases, plus a nightly) is Spaces, daemon, SDK, and driver releases that do not otherwise touch it.
 - 2026-11-15 - Volatile re-verification after the host's pushes to 2026-11-15: the cua-s1 component remains untouched since the 2026-11-13 dependency security bump (re-verified against the component's commit path), and the 2026-11-14 to 11-15 release wave (cua-spaces v0.36.13 through v0.36.18, cua-driver-rs v0.49.10 and v0.49.11 plus the v0.51.0 through v0.51.4 line, cua-sdk v0.27.5, bench v0.4.5 through v0.4.7, and nightlies) is Spaces, driver, SDK, and bench releases that do not touch it.
+- 2026-11-18 - Volatile re-verification after the host's pushes to 2026-11-18: the cua-s1 component remains untouched since the 2026-11-13 dependency security bump (re-verified against the component's commit path), and the 2026-11-16 to 11-18 release wave (cua-spaces v0.36.20 through v0.36.27 and the v0.37.0-v0.38.8 line, cua-sdk v0.28.0 through v0.28.2, cua-driver-rs v0.52.3 through v0.53.0 plus a nightly, and bench v0.4.10) is Spaces, driver, SDK, and bench releases that do not touch it.
 
 ## See also
 
@@ -99,7 +100,7 @@ The disagreeable claim I will defend: a 706k-parameter model trained in public o
 
 ## References
 
-- https://github.com/trycua/cua - host repository: 29,785 stars, MIT, created 2025-01-31, CUA-S1 announced in the main README (GitHub API, as of 2026-10-15; re-fetched 2026-11-15 with pushes current to 2026-11-15, the cua-s1 component's only change since the 2026-10-20 client security fix being the 2026-11-13 pillow and soupsieve CVE bump, and the 2026-11-14 to 11-15 cua-spaces v0.36.13-v0.36.18, cua-driver-rs, cua-sdk v0.27.5, and bench releases not otherwise touching it)
+- https://github.com/trycua/cua - host repository: 29,785 stars, MIT, created 2025-01-31, CUA-S1 announced in the main README (GitHub API, as of 2026-10-15; re-fetched 2026-11-18 with pushes current to 2026-11-18, the cua-s1 component's only change since the 2026-10-20 client security fix being the 2026-11-13 pillow and soupsieve CVE bump, and the 2026-11-16 to 11-18 cua-spaces v0.36.20-v0.38.8, cua-sdk v0.28.x, cua-driver-rs, and bench releases not otherwise touching it)
 - https://github.com/trycua/cua/tree/main/libs/cua-s1 - component README: the four-checkpoint family (forms, nano-0.1, 4B-0.1/0.2), pinned licensed revisions, safety boundary, MCP server caveats
 - https://github.com/trycua/cua/blob/main/libs/cua-s1/MODEL_CARD.md - model card: tinyx byte-level encoder, option-attention head, the 29.3 percent out-of-catalogue form result, synthetic-only evaluation, licensing caveat
 - https://huggingface.co/cua-ai/cua-s1-forms - weights: MIT, created 2026-09-18, 706,048 parameters, 116 likes as of 2026-10-07, downloads not tracked, safetensors-only since the pickle checkpoint was removed (trycua/cua#3977; card and removal note re-fetched 2026-10-17)

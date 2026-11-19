@@ -1,7 +1,7 @@
 ---
 title: Caleb Writes Code
 created: 2026-08-29
-updated: 2026-11-01
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, ai-news, model-releases, explainer]
 readability: 3
@@ -23,9 +23,10 @@ He is active on X as calebfoundry, on LinkedIn, and runs a Patreon.
 
 ## Status
 
-Active and fast-growing as of 2026-11-01.
-The channel reports 120K subscribers and 124 videos as of 2026-10-04 (the channel surfaces return only a JavaScript shell, so those counts keep their dates), the third-party analytics FAQ now reads 125K subscribers and 11M total views as of 2026-11-01, and uploads run about twice a week, with the latest on 2026-10-30 ("CUDA is hard..", about 52,000 views within two days per the feed), after "Kimi K3.1 Pro explained in 6min.." (2026-10-27, same-week coverage of Moonshot's Fable-5.1-class open-weights update), "PHP security crisis explained.." (2026-10-23, the PHP2Shell CVE story with a Bluehost read), "Reinforcement Learning is hard.." (2026-10-22), "MiMo V2.6 explained in 12min.." (2026-10-17, Xiaomi's RL-environment release), and "AI is solving math faster than human verification.." (2026-10-13), six uploads in the October 13 to 30 window.
-All of that scale was reached in under 18 months from the 2025-03-16 start.
+Active and fast-growing as of 2026-11-18.
+The channel's about page fetched with a browser user-agent reads 136 videos and 11,832,349 total views as of 2026-11-18 (joined 2025-03-16 confirmed), while no subscriber figure served in that fetch, so the subscriber count keeps its third-party reading: the analytics FAQ now reads 128K subscribers and 12M total views as of 2026-11-18, with its prose body still carrying the stale 84K, 93-video, two-years-inactive record.
+Uploads run about twice a week: eleven uploads in the October 13 to November 17 window, the latest "Jensen leaves NVIDIA for good..?" (2026-11-17), after "JEPA is hard.." (2026-11-13), "why Fable 5.2 is the next frontier.." (2026-11-11), "AI stocks are crashing.." (2026-11-07), and "Weight-Space Programming explained in 10min.." (2026-11-04), on top of the six October 13 to 30 uploads the last verification recorded.
+That scale was reached in under two years from the 2025-03-16 start.
 
 ## Strengths
 
@@ -36,7 +37,7 @@ All of that scale was reached in under 18 months from the 2025-03-16 start.
 
 ## Cautions
 
-- The channel is sponsor-dense: 12 of the last 15 upload descriptions carried a sponsor read or affiliate link as of 2026-10-28, so treat the cuts-through-the-noise pitch as marketing and every sponsored segment as an ad first.
+- The channel is sponsor-dense: 12 of the last 15 upload descriptions carried a sponsor read or affiliate link as of 2026-11-18 (recounted from the feed), so treat the cuts-through-the-noise pitch as marketing and every sponsored segment as an ad first.
 - Explainers compress to fit the format, so verify specifics against primary sources before acting on them.
 - I found no Hacker News threads and no substantive Reddit discussions of the channel, so there is no critical community filter on its claims.
 - Third-party analytics disagree with themselves: one analytics site's prose claims two years of inactivity while its own FAQ and the channel feed show uploads days ago, so quote its numbers with care.
@@ -78,6 +79,7 @@ Not for someone who wants tool-tested practice, reference-grade depth, or an ad-
 - 2026-10-10 - Latest upload moved to 2026-10-08 ("Haiku 5.5 explained in 7min..", 32k views already), making three uploads in the week of October 2 to 8; Status and the feed reference line updated (feed fetched this run).
 - 2026-10-28 - Latest upload moved to 2026-10-27 ("Kimi K3.1 Pro explained in 6min..") with four uploads between October 13 and 23 before it; sponsor ratio recounted at 12 of the last 15; the third-party analytics FAQ now reads 124K subscribers and 11M views while its prose still shows the stale record; direct channel counts keep their 2026-10-04 as-of because the channel surfaces return only a JavaScript shell today (feed and both surfaces fetched this run).
 - 2026-11-01 - Rotation re-verification, every cited URL re-fetched and live: the newest upload moved to "CUDA is hard.." (2026-10-30, about 52,000 views within two days per the feed), making six uploads in the October 13 to 30 window, and the third-party FAQ moved to 125K subscribers while its prose body still carries the stale record; direct channel counts keep their 2026-10-04 as-of (the surfaces still return only a JavaScript shell).
+- 2026-11-18 - Rotation re-verification, every cited URL re-fetched and live: five uploads since "CUDA is hard.." lift the window to eleven between October 13 and November 17, the newest "Jensen leaves NVIDIA for good..?" (2026-11-17); the channel's about page rendered to a browser user-agent this run and reads 136 videos and 11,832,349 views, the third-party FAQ moved to 128K subscribers and 12M views with its prose body still stale, and the sponsor ratio held at 12 of the last 15 (recounted from the feed).
 
 ## See also
 
@@ -89,7 +91,7 @@ Not for someone who wants tool-tested practice, reference-grade depth, or an ad-
 ## References
 
 - https://www.youtube.com/@calebwritescode - the channel: identity, description, 120K subscribers, 124 videos
-- https://www.youtube.com/@calebwritescode/about - join date 2025-03-16, 9,290,137 total views as of 2026-10-02, and the LinkedIn, X, and Patreon links
+- https://www.youtube.com/@calebwritescode/about - join date 2025-03-16, 11,832,349 total views and 136 videos as of 2026-11-18 (rendered to a browser user-agent fetch this run), plus the LinkedIn, X, and Patreon links
 - https://www.youtube.com/@calebwritescode/videos - the uploads tab (a direct fetch on 2026-10-04 returned only a JavaScript shell, so the RSS feed grounds the cadence)
-- https://www.youtube.com/feeds/videos.xml?channel_id=UCuU9jE4MHHEIyYMbDfUPSew - the RSS feed grounding cadence, topics, and the newest entry ("CUDA is hard..", published 2026-10-30); it 404ed briefly on 2026-10-04 and serves again as of 2026-11-01
-- https://app.thoughtleaders.io/youtube/caleb-writes-code - third-party read on the AI niche and brand safety; its FAQ now reads 125K subscribers and 11M views (2026-11-01) while its prose body still claims the stale 84K-subscriber, 93-video, two-years-inactive record
+- https://www.youtube.com/feeds/videos.xml?channel_id=UCuU9jE4MHHEIyYMbDfUPSew - the RSS feed grounding cadence, topics, and the newest entry ("Jensen leaves NVIDIA for good..?", published 2026-11-17); it 404ed briefly on 2026-10-04 and serves again as of 2026-11-18
+- https://app.thoughtleaders.io/youtube/caleb-writes-code - third-party read on the AI niche and brand safety; its FAQ now reads 128K subscribers and 12M views (2026-11-18) while its prose body still claims the stale 84K-subscriber, 93-video, two-years-inactive record

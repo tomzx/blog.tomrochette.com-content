@@ -1,7 +1,7 @@
 ---
 title: Airut
 created: 2026-10-11
-updated: 2026-11-13
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, email, slack, claude-code, self-hosted]
 readability: 3
@@ -25,8 +25,8 @@ A companion `airut-sandbox` CLI and `airutorg/sandbox-action` extend the same co
 ## Status
 
 **Young, active, and nearly invisible.**
-84 stars as of 2026-11-05, 3 forks and 1 open issue as of 2026-11-13 (GitHub API), created 2026-02-03 and pushed 2026-11-12, with the default branch's latest commit dated the same day (a dependency bump).
-PyPI carries 0.27.1, with 287 downloads in the trailing month (as of 2026-11-07).
+84 stars as of 2026-11-05, 3 forks and 1 open issue as of 2026-11-18 (GitHub API), created 2026-02-03 and pushed 2026-11-17, with the default branch's latest commit dated the same day (a worker-pool refactor).
+PyPI carries 0.28.0 (published 2026-11-12), the first release since 0.27.1 and a security-focused one (a symlink-planting attachment fix, RFC 8601 Authentication-Results parsing, DKIM verification required by default, channel-recipient and From-header hardening, and fixes for secrets reaching the proxy log and podman's command line), with 378 downloads in the trailing month (as of 2026-11-18).
 The community footprint is three self-posted Show HN threads (2, 1, and 2 points, zero comments, February through March 2026), so there is no independent coverage or adoption evidence, and that absence is itself the signal for a project with this much documentation depth.
 
 <picture>
@@ -48,7 +48,7 @@ The community footprint is three self-posted Show HN threads (2, 1, and 2 points
 - **One maintainer and no visible adoption**: 84 stars as of 2026-11-05, single-digit forks, and a self-reported community footprint of three zero-comment Show HN threads as of 2026-11-07.
 - Self-hosting is the only mode, and the prerequisites (Linux, rootless Podman, a dedicated IMAP/SMTP account or Slack app per repository) put the operations burden on you.
 - Claude Code only, and the autonomy pitch (a full-permission agent inside the container) presumes the boundary holds; the security-model documentation is the audit artifact you must read yourself.
-- The email channel inherits email's failure modes: DMARC-verified senders plus per-repo authorization are all that stands between a stranger and an agent task on your code.
+- The email channel inherits email's failure modes: DMARC-verified senders plus per-repo authorization are all that stands between a stranger and an agent task on your code, though v0.28.0 hardened the surface (DKIM verification required by default, stricter header parsing, and fixes for secret leaks into logs).
 
 ## Pricing
 
@@ -78,6 +78,7 @@ My disagreeable claim: at 84 stars this is the least proven member of the catego
 - 2026-11-08 - Refreshed the repository counters after the 2026-11-08 push (2 to 3 open issues, pushed 2026-11-08 with the default branch's head dated the same day); the release line re-confirmed unchanged (v0.27.1 still the newest tag and still what PyPI carries).
 - 2026-11-11 - Refreshed the repository counters after the 2026-11-10 push (3 open issues to 1, pushed 2026-11-10 with the default branch's head dated the same day); the tag train re-confirmed unchanged (v0.27.1 still the newest tag).
 - 2026-11-13 - Refreshed the repository counters after the 2026-11-12 push (pushed 2026-11-12 with the default branch's head a dependency bump dated the same day); the counters otherwise re-confirmed unchanged (3 forks, 1 open issue, v0.27.1 still the newest tag).
+- 2026-11-18 - Fully re-verified in rotation with every cited URL re-fetched: recorded the v0.28.0 release (2026-11-12, the first since 0.27.1), a security-focused cut whose release notes name a symlink-planting attachment fix, RFC 8601 Authentication-Results parsing, DKIM verification required by default, channel-recipient and From-header hardening, and secret-leak fixes (the proxy's presigned-URL logging and podman command-line environment), with the caution's email line extended to match; the PyPI package moved to 0.28.0, trailing-month downloads refreshed (287 to 378), the counters refreshed (pushed 2026-11-17 with the default branch's head a worker-pool refactor dated the same day), and the README architecture claims (rootless Podman, allowlist proxy, surrogate credentials, scheduled tasks, dashboard, CI sandbox action, dogfooding), the airut.org site, and the three-thread community footprint (2, 1, and 2 points, zero comments) all re-confirmed unchanged.
 
 ## See also
 
@@ -89,10 +90,11 @@ My disagreeable claim: at 84 stars this is the least proven member of the catego
 ## References
 
 - https://github.com/airutorg/airut - repository, 84 stars as of 2026-10-11, MIT license, description, as of 2026-10-11 (re-fetched 2026-11-07)
-- https://api.github.com/repos/airutorg/airut - exact counters (84 stars as of 2026-11-05, 3 forks, 1 open issue, pushed 2026-11-12, created 2026-02-03; re-verified 2026-11-13)
-- https://raw.githubusercontent.com/airutorg/airut/main/README.md - the channel model, sandbox architecture, scheduled tasks, dashboard, CI sandbox action, and the dogfooding claim (re-fetched 2026-11-07)
-- https://pypi.org/pypi/airut/json - the PyPI package at 0.27.1, "Sandboxed Claude Code over email and Slack" (re-fetched 2026-11-08)
-- https://pypistats.org/api/packages/airut/recent - 287 trailing-month downloads (as of 2026-11-07)
-- https://airut.org - the project site: the message-to-deploy pitch and the surrogate-credential walkthrough (re-fetched 2026-11-07)
-- https://hn.algolia.com/api/v1/search?query=airut&tags=story - the three self-posted Show HN threads (2, 1, and 2 points, zero comments), the footprint record as of 2026-11-07
-- https://news.ycombinator.com/item?id=46947714 - the first Show HN thread, "Sandboxed Claude Code sessions over email" (2026-02-09, 2 points, zero comments, re-fetched 2026-11-07)
+- https://api.github.com/repos/airutorg/airut - exact counters (84 stars as of 2026-11-05, 3 forks, 1 open issue, pushed 2026-11-17, created 2026-02-03; re-verified 2026-11-18)
+- https://api.github.com/repos/airutorg/airut/releases?per_page=2 - the release train: v0.28.0 (2026-11-12, the security-focused cut described in its release notes) above v0.27.1 (2026-10-24), as of 2026-11-18
+- https://raw.githubusercontent.com/airutorg/airut/main/README.md - the channel model, sandbox architecture, scheduled tasks, dashboard, CI sandbox action, and the dogfooding claim (re-fetched 2026-11-18)
+- https://pypi.org/pypi/airut/json - the PyPI package at 0.28.0, "Sandboxed Claude Code over email and Slack" (re-fetched 2026-11-18)
+- https://pypistats.org/api/packages/airut/recent - 378 trailing-month downloads (as of 2026-11-18)
+- https://airut.org - the project site: the message-to-deploy pitch and the surrogate-credential walkthrough (re-fetched 2026-11-18)
+- https://hn.algolia.com/api/v1/search?query=airut&tags=story - the three self-posted Show HN threads (2, 1, and 2 points, zero comments), the footprint record as of 2026-11-18 (re-fetched)
+- https://news.ycombinator.com/item?id=46947714 - the first Show HN thread, "Sandboxed Claude Code sessions over email" (2026-02-09, 2 points, zero comments, re-fetched 2026-11-18)

@@ -1,7 +1,7 @@
 ---
 title: Memex
 created: 2026-09-20
-updated: 2026-11-12
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by an independent developer, MIT-licensed, with no cloud service in the def
 
 ## Status
 
-Active and quietly growing: created 2026-01-01, 259 stars (the dated baseline), 43 forks, 2 open issues, pushed 2026-11-10, as of 2026-11-12.
+Active and quietly growing: created 2026-01-01, 259 stars (the dated baseline), 43 forks, 3 open issues, pushed 2026-11-10, as of 2026-11-18.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nicosuave/memex&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,7 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 - 2026-10-28 - Volatile re-verification: no release after v0.31.1 with one unreleased fix merged 2026-10-28 (CPU embeddings kept off CoreML and read-triggered refreshes bounded); the pushed date moved to 2026-10-28.
 - 2026-11-07 - Rotation re-verification with every cited URL re-fetched and live, plus the volatile pass: recorded v0.32.0 (2026-11-02, released without notes, contents taken from its commits: secret redaction at index time and on egress for built-in credential formats, child-session hits rolled up to the root conversation, most-specific query windows in snippets, injected context indexed as system text for Claude Code and Codex, Copilot user messages as context, unparseable transcripts isolated, Codex and pi fork reparsing) and v0.33.0 (2026-11-06, repeatable --session-id); What it is gained the redaction sentence and the projects-and-tags and Rex-module surfaces, the engine count corrected to nineteen in What it is and the caution (the 10-23 Goose addition had left them at eighteen); forks refreshed 40 to 43, open issues to 2, and the pushed date moved to 2026-11-06.
 - 2026-11-12 - Volatile re-verification: recorded v0.33.1 (2026-11-09, Codex rollouts compressed to .jsonl.zst indexed) and v0.34.0 (2026-11-10, search ranking improved across machines, transcript copies, and wordy queries, fixed overhead removed from federation, indexing, and session lists, a desktop startup crash fixed, and opt-in dreaming consolidated from agent history), both released without notes and described by their commits; the pushed date moved to 2026-11-10 with forks and open issues unchanged.
+- 2026-11-18 - Volatile re-verification: no release after v0.34.0 and no default-branch commit since the 2026-11-10 release day, the 2026-11-16 push landing on side branches; open issues refreshed 2 to 3 with forks unchanged at 43.
 
 ## See also
 
@@ -95,7 +96,7 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 ## References
 
 - https://github.com/nicosuave/memex - repository, description, engine support table, surfaces (re-fetched 2026-11-07)
-- https://api.github.com/repos/nicosuave/memex - 259 stars (the dated baseline), 43 forks, 2 open issues, MIT license, counts as of 2026-11-07
+- https://api.github.com/repos/nicosuave/memex - 259 stars (the dated baseline), 43 forks, 3 open issues, MIT license, counts as of 2026-11-18
 - https://raw.githubusercontent.com/nicosuave/memex/main/README.md - features, engine matrix, install, MCP server, herdr plugin, and the remote-embeddings warning that transcript text and memory documents are sent to the configured API (re-fetched 2026-11-07)
 - https://github.com/nicosuave/memex/releases - v0.34.0 (2026-11-10, no notes), v0.33.1 (2026-11-09, no notes), v0.33.0 (2026-11-06, no notes), v0.32.0 (2026-11-02, no notes), v0.31.1 (2026-10-24, no notes), v0.31.0 (2026-10-22, no notes), and the earlier line back to v0.25.0 (re-fetched 2026-11-12)
 - https://github.com/nicosuave/memex/commit/fea94b8756b9cd96cd13b26d4f42cf4640c8e736 - the secret-redaction commit behind the v0.32.0 redaction facts (index-time and egress redaction, source transcripts never rewritten) (fetched 2026-11-07)

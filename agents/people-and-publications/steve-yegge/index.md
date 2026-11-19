@@ -1,7 +1,7 @@
 ---
 title: Steve Yegge
 created: 2026-08-29
-updated: 2026-10-31
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, agent-pragmatist]
 readability: 3
@@ -23,11 +23,11 @@ His best-known build is the [Gas Town](../../orchestration/gastown/index.md) wor
 ## Status
 
 Active, with his writing centralized on his own site, a material reversal on his flagship build, and a publishing restart after the shutdown lull.
-As of 2026-10-31 the yegge.ai atlas reads 170 essays at roughly 725,000 words (about 4,300 per essay), up from 165 and about 699,000 on 2026-09-22, and the newest essay, [The Counting House](https://yegge.ai/essays/the-counting-house/) (2026-10-27), returns to agentic architecture: it argues for stateless model pools with no credentials and no memory as the guardrail pattern for high-volume AI workloads, against his software-factory model of long-lived agent seats.
-The site itself has not caught up with the shutdown: the homepage still presents Gas Town as "current work", a dark-factory orchestration system, and pitches AI-transformation consulting, keynotes, and workshops.
+As of 2026-11-18 the yegge.ai atlas still reads 170 essays at roughly 725,000 words (about 4,300 per essay, unchanged from 2026-10-31), and the site feed lists no essay newer than [The Counting House](https://yegge.ai/essays/the-counting-house/) (2026-10-27), which returns to agentic architecture: it argues for stateless model pools with no credentials and no memory as the guardrail pattern for high-volume AI workloads, against his software-factory model of long-lived agent seats.
+The site has now caught up with the shutdown: the Gas Town page is retitled around "What it was" and describes the project as retired, "a proof it could be done", the homepage card reads "The first software factory - a proof it could be done", and the site still pitches his AI-native-transformation advisory work.
 It includes the "Future of Coding Agents" series, and he appears on The Pragmatic Engineer and other podcasts.
 Per Latent Space's AINews roundup (2026-09-17), citing Dan Luu's 2026-09-15 post on X, Yegge shut Gas Town down and admitted he never successfully built anything with it, despite spending many thousands a month on coding agent subscriptions.
-The gastownhall/gastown repository remains public (18.1k stars as of 2026-09-18, the star baseline this section never refreshes) and still shows commit activity, most recently a push on 2026-10-28, so the code survives and the repo still moves even though its author disowned the project in September.
+The gastownhall/gastown repository remains public (18.1k stars as of 2026-09-18, the star baseline this section never refreshes) and still shows commit activity, most recently a push on 2026-11-14, so the code survives and the repo still moves even though its author disowned the project in September.
 His Substack still exists and its about page reports hundreds of subscribers, but its sitemap listed no published posts as of 2026-09-13, so the essays live on yegge.ai rather than the newsletter.
 He also released the book Vibe Coding with Gene Kim (IT Revolution, 2025), a Gold Medal winner at the 2026 Axiom Book Awards.
 
@@ -79,6 +79,7 @@ Not for readers who prefer neutral synthesis or who object to the chaotic, credi
 - 2026-10-22 - Full re-verification, rotation: all cited URLs refetched and live, no material change (catalog still 165 essays and about 699,000 words, homepage still presents Gas Town as current work with no shutdown mention, repo still public).
 - 2026-10-22 - Reverted an out-of-policy star-figure refresh (the 2026-10-12 18.3k reading carried no Changes bullet and broke the stars-never-refreshed rule); the prose figure is restored to the 18.1k as of 2026-09-18 baseline that the References line already carried.
 - 2026-10-31 - Rotation re-verification moved the writing record: the atlas now reads 170 essays at roughly 725,000 words (from 165 and about 699,000 on 2026-09-22) and the newest essay, "The Counting House" (2026-10-27), is a return to agentic architecture after the shutdown lull; the Gas Town repo shows commit activity through 2026-10-28 while the homepage still presents it as current work.
+- 2026-11-18 - Rotation re-verification, every cited URL re-fetched and live: the site has caught up with the shutdown, the Gas Town page now framed as retired ("What it was", "a proof it could be done"), the atlas unchanged at 170 essays and roughly 725,000 words with the feed still ending at "The Counting House" (2026-10-27), and the Gas Town repo still moving (latest push 2026-11-14, per the GitHub API).
 
 ## See also
 
@@ -93,6 +94,8 @@ Not for readers who prefer neutral synthesis or who object to the chaotic, credi
 - https://yegge.ai/ - his essay catalog, including "The Future of Coding Agents"
 - https://yegge.ai/atlas.html - the catalog numbers (170 essays, about 725,000 words as of 2026-10-31) and the Vibe Coding book award
 - https://yegge.ai/essays/the-counting-house/ - the newest essay (2026-10-27), the stateless-clerk-pool architecture argument grounding the publishing-restart claim
+- https://yegge.ai/feed.xml - the site feed, which still lists "The Counting House" as the newest essay as of 2026-11-18
+- https://yegge.ai/gastown.html - the Gas Town page's retired framing ("What it was", "Now retired: a proof it could be done"), grounding the site-caught-up claim
 - https://steve-yegge.blogspot.com/ - the long-running blog with the canonical essays
 - https://github.com/gastownhall/gastown - the Gas Town workspace manager he builds (the repo moved to the gastownhall org; the old steveyegge URL redirects), still public with 18.1k stars as of 2026-09-18 after the shutdown
 - https://www.latent.space/p/ainews-reality-checks-on-ai-news - the AINews issue (2026-09-17) reporting the Gas Town shutdown and the Dan Luu exchange

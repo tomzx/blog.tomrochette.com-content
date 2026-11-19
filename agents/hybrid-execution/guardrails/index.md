@@ -1,7 +1,7 @@
 ---
 title: Guardrails
 created: 2026-10-13
-updated: 2026-11-11
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, structured-outputs, validation, guardrails, python]
 readability: 3
@@ -17,13 +17,13 @@ Guardrails is an Apache-2.0 Python framework from Guardrails AI that wraps LLM c
 ## What it is
 
 A `pip install guardrails-ai` framework, created 2023-01-29, whose two functions are risk guarding and structured generation: a `Guard` composes validators with per-validator `OnFailAction`s (exception, fix, reask, filter), and `Guard.for_pydantic(...)` turns a Pydantic class into a typed call served either by function calling or by a schema-in-prompt fallback.
-It reaches 100-plus LLMs through a LiteLLM integration (OpenAI, Anthropic, Azure, Gemini, Bedrock, and custom wrappers for anything else), and a Flask-based Guardrails Server exposes composed guards over REST and an OpenAI-compatible path for callers who want the checks outside their process.
+It reaches other providers through a LiteLLM integration that remains a core dependency of the package (OpenAI, Anthropic, Azure, Gemini, Bedrock, and custom wrappers for anything else), though the documentation that listed the provider count was retired in November 2026 and the README no longer names the integration, so the breadth claim now rests on the codebase rather than a published page; a Flask-based Guardrails Server exposes composed guards over REST and an OpenAI-compatible path for callers who want the checks outside their process.
 The validators are separate PyPI packages under the `guardrails-ai-*` name, installed directly since the July 2026 migration (the old `guardrails hub install` CLI and the hosted remote-inferencing service were retired with an August 25, 2026 cutoff).
 It is made by Guardrails AI, the San Francisco company founded by Shreya Rajpal and Zayd Simjee, which Harvey announced it was acquiring on 2026-09-08.
 
 ## Status
 
-Active but in transition: 7,524 stars, pushed 2026-11-11 (branch activity; the default branch's newest commit is still the August hub-retirement merge), release v0.11.0 (2026-08-14) the latest on a train that ran v0.9.x through v0.11.0 across 2026, and 101,253 PyPI downloads of the core package in the last month as of 2026-10-13 (re-read unchanged 2026-11-11) (GitHub and PyPI APIs, as of 2026-11-11; the vendor's own claim of 250,000-plus monthly downloads counts the separate validator packages too).
+Active but in transition: 7,524 stars, pushed 2026-11-18 (branch activity; the default branch's newest commit is still the August hub-retirement merge), release v0.11.0 (2026-08-14) the latest on a train that ran v0.9.x through v0.11.0 across 2026, and 118,908 PyPI downloads of the core package in the last month as of 2026-11-18 (re-read up from the 101,253 that had held through 2026-11-11, no release in between) (GitHub and PyPI APIs, as of 2026-11-18; the vendor's own claim of 250,000-plus monthly downloads counts the separate validator packages too).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=guardrails-ai/guardrails&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active but in transition: 7,524 stars, pushed 2026-11-11 (branch activity; the d
 </picture>
 
 The project's own sunset issue is the cautionary record: the hub-install pattern it promoted since 2024 was replaced by plain PyPI packages and the hosted inference service was cut off on 2026-08-25, a migration each downstream user had to perform.
-The acquisition announcement (2026-09-08) moves co-founders and team into Harvey's product and engineering organization, with the framework's know-how pointed at Harvey's agent reliability work, and the company's product surface now fronts Snowglobe, its chatbot-simulation product, whose docs shell the Guardrails documentation is served from (the docs' own llms.txt pointer 404s as of 2026-10-13).
+The acquisition announcement (2026-09-08) moves co-founders and team into Harvey's product and engineering organization, with the framework's know-how pointed at Harvey's agent reliability work, and the company's product surface now fronts Snowglobe, its chatbot-simulation product; as of the 2026-11-18 re-fetch the framework's documentation is gone from the web entirely (www.guardrailsai.com/docs redirects to a 404, docs.guardrailsai.com serves a Snowglobe-and-blog marketing site, and the old how-to-guides paths 404, while the README's own Docs badge still points at the dead URL), so the README and the hub page are the only published surfaces left.
 The community footprint is thin for the framework's age: a 15-point 2024 TechCrunch story and a 2-point 2026 hub link on Hacker News, with no Show HN thread of its own that I could find, so adoption evidence is the PyPI and star record, not forum debate.
 
 ## Strengths
@@ -40,7 +40,7 @@ The community footprint is thin for the framework's age: a 15-point 2024 TechCru
 - **The validator hub is the category's only installable checking ecosystem: 65 validators (PII via Microsoft Presidio, jailbreak and prompt-injection detectors, toxicity, NLI provenance and hallucination checks, SQL, HTML, URL, and format rules) composed into guards with per-validator on-fail behavior, as of 2026-10-13.**
 - Many validators are deterministic or small-ML checks that run locally, so the common case adds no token bill beyond the reask loops you trigger.
 - The OpenAI-compatible server mode puts the validation boundary in your infrastructure rather than your code, which neither Instructor nor BAML offers.
-- LiteLLM-based breadth (100-plus providers) keeps the guard layer portable across vendors, the same surface Instructor sells.
+- LiteLLM keeps the guard layer's provider reach a code-level property (the package depends on it and ships an integration test), though the published provider list retired with the docs, so read the breadth as inherited plumbing rather than a documented surface.
 
 ## Cautions
 
@@ -74,6 +74,7 @@ The disagreeable claim I will defend: the validator-hub kind is the most durable
 - 2026-11-01 - Volatile re-verification after the pushed-date move to 2026-10-31: still branch activity, the default branch's newest commit remaining the August hub-retirement merge, with the release train still topping out at v0.11.0 (2026-08-14); pushed date and as-of figures moved to 2026-10-31 and 2026-11-01.
 - 2026-11-05 - Volatile re-verification after the pushed-date move to 2026-11-05: still branch activity, the default branch's newest commit remaining the August hub-retirement merge (2026-08-26), with the release train still topping out at v0.11.0 (2026-08-14); pushed date and as-of figures moved to 2026-11-05.
 - 2026-11-11 - Volatile re-verification after the pushed-date move to 2026-11-11: still branch activity, the default branch's newest commit remaining the August hub-retirement merge (2026-08-26), the release train still topping out at v0.11.0 (2026-08-14), and the core package's monthly PyPI figure re-read unchanged at 101,253; pushed date and as-of figures moved to 2026-11-11.
+- 2026-11-18 - Rotation re-verification, every cited URL re-fetched: the repository still pushed 2026-10-05's merge on the default branch (2026-11-18 movement is branch activity) with v0.11.0 (2026-08-14) still the latest release, the hub, sunset issue 1560 (still open), the Harvey announcement, and Snowglobe all live, the Algolia footprint unchanged (the 15-point and 2-point hits), and the core package's monthly PyPI figure re-read at 118,908 (up from the 101,253 that had held, no release in between); the material finding is that the framework's documentation has been removed from the web entirely (www.guardrailsai.com/docs redirects to a 404, docs.guardrailsai.com now serves a Snowglobe-and-blog marketing site, the how-to-guides paths 404, and the README's Docs badge points at the dead URL), so the 100-plus-LiteLLM-provider claim, whose only published grounding was the retired docs page, is re-based on the codebase (litellm remains a core dependency with a shipped integration test) and the README no longer names it; pushed date and as-of figures moved to 2026-11-18.
 
 ## See also
 
@@ -84,16 +85,16 @@ The disagreeable claim I will defend: the validator-hub kind is the most durable
 
 ## References
 
-- https://github.com/guardrails-ai/guardrails - repository: Apache-2.0, created 2023-01-29, 7,524 stars, pushed 2026-11-11, branch activity with the default branch's newest commit still the August hub-retirement merge (GitHub API, as of 2026-11-11)
-- https://raw.githubusercontent.com/guardrails-ai/guardrails/main/README.md - the two functions, Guard and OnFailAction composition, the for_pydantic generation path, the Guardrails Server, and the July 2026 migration notice
-- https://guardrailsai.com/hub - the Guardrails Hub: 65 validators with risk categories and infrastructure requirements (fetched 2026-10-13)
-- https://www.guardrailsai.com/docs - the documentation introduction: the Input/Output Guards and structured-data functions
-- https://guardrailsai.com/guardrails/docs/how-to-guides/using_llms - the LiteLLM integration: 100-plus supported LLMs and the custom-wrapper path
-- https://pypi.org/pypi/guardrails-ai/json - the published package, 0.11.0 (fetched 2026-10-13)
-- https://pypistats.org/api/packages/guardrails-ai/recent - 101,253 downloads of the core package in the last month (fetched 2026-10-13)
-- https://github.com/guardrails-ai/guardrails/releases - the 2026 release train, v0.9.x through v0.11.0 (2026-08-14 latest) (fetched via the releases API)
-- https://github.com/guardrails-ai/guardrails/issues/1560 - the project's own sunset notice: hub install retired, hosted remote inference cut off 2026-08-25, the critical source
-- https://guardrailsai.com/blog/guardrails-ai-joins-harvey - the acquisition announcement (2026-09-08): co-founders joining Harvey, the 250,000-plus monthly-download claim, investor list
-- https://snowglobe.so - the company's product surface after the pivot: Snowglobe chatbot simulation, the docs domain the Guardrails documentation is served from (redirecting to guardrailsai.com/snowglobe as of the 2026-10-25 fetch)
-- https://hn.algolia.com/api/v1/search?query=%22guardrails-ai%22 - the thin-footprint record: no Show HN thread of its own found, a 2-point hub link (2026-07-31) the strongest direct hit (fetched 2026-10-13)
+- https://github.com/guardrails-ai/guardrails - repository: Apache-2.0, created 2023-01-29, 7,524 stars, pushed 2026-11-18, branch activity with the default branch's newest commit still the August hub-retirement merge (GitHub API, as of 2026-11-18)
+- https://raw.githubusercontent.com/guardrails-ai/guardrails/main/README.md - the two functions, Guard and OnFailAction composition, the for_pydantic generation path, the Guardrails Server, and the July 2026 migration notice (re-fetched 2026-11-18; the README no longer names the LiteLLM integration and its Docs badge points at the retired docs URL)
+- https://guardrailsai.com/hub - the Guardrails Hub: 65 validators with risk categories and infrastructure requirements (fetched 2026-10-13; re-fetched 200 on 2026-11-18)
+- https://www.guardrailsai.com/docs - formerly the documentation introduction; as of the 2026-11-18 re-fetch it redirects to a 404 and docs.guardrailsai.com serves a Snowglobe-and-blog marketing site, the framework's documentation having been removed from the web (the dead-source record for the docs citations this note retired)
+- https://raw.githubusercontent.com/guardrails-ai/guardrails/main/pyproject.toml - the LiteLLM breadth's surviving grounding: `litellm>=1.82.5,<2.0.0` as a core dependency (fetched 2026-11-18), with the integration test at tests/integration_tests/test_litellm.py
+- https://pypi.org/pypi/guardrails-ai/json - the published package, 0.11.0 (fetched 2026-10-13; re-fetched 2026-11-18, unchanged)
+- https://pypistats.org/api/packages/guardrails-ai/recent - 118,908 downloads of the core package in the last month (fetched 2026-11-18, up from the 101,253 that had held through 2026-11-11)
+- https://github.com/guardrails-ai/guardrails/releases - the 2026 release train, v0.9.x through v0.11.0 (2026-08-14 latest) (re-fetched via the releases API, 2026-11-18, unchanged)
+- https://github.com/guardrails-ai/guardrails/issues/1560 - the project's own sunset notice: hub install retired, hosted remote inference cut off 2026-08-25, the critical source (re-fetched 2026-11-18, still open)
+- https://guardrailsai.com/blog/guardrails-ai-joins-harvey - the acquisition announcement (2026-09-08): co-founders joining Harvey, the 250,000-plus monthly-download claim, investor list (re-fetched 2026-11-18)
+- https://snowglobe.so - the company's product surface after the pivot: Snowglobe chatbot simulation (re-fetched 2026-11-18)
+- https://hn.algolia.com/api/v1/search?query=%22guardrails-ai%22 - the thin-footprint record: no Show HN thread of its own found, a 2-point hub link (2026-07-31) the strongest direct hit (fetched 2026-10-13, re-fetched 2026-11-18 with the same 15-point and 2-point hits leading)
 - https://techcrunch.com/2024/02/15/guardrails-ai-builds-hub-for-genai-model-mitigations/ - the 15-point 2024 press story behind the framework's largest forum footprint (fetched 2026-10-13 via the Algolia search API)

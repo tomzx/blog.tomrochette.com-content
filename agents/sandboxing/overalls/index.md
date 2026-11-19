@@ -1,7 +1,7 @@
 ---
 title: Overalls
 created: 2026-10-21
-updated: 2026-11-13
+updated: 2026-11-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, firecracker, nixos, self-hosted]
 readability: 3
@@ -73,6 +73,7 @@ Not for laptop-scale users (a wrapper like Fence or Landrun is the lighter answe
 - 2026-11-01 - Volatile refresh for the launch-prep train: the trunk commit count moved from 1,746 (2026-10-25) to 2,243 (2026-11-01) across the Windows, Android, and Apple clients and release CI, and the README banner still sets the research-preview launch for 3 November 2026.
 - 2026-11-07 - Recorded the launch date moving from 3 November to 12 November 2026 (the README banner now reads "Overalls launches on 12 November 2026" over the same Not-for-consumption research-preview banner), the trunk commit count advancing from 2,243 to 2,377, and the train continuing on the Mila app clients' native builds with CI parity receipts; still no release or tag.
 - 2026-11-13 - Out-of-rotation re-verification on the launch date passing: the README banner still reads "Overalls launches on 12 November 2026" as of 2026-11-13 with no release or tag and the repository last pushed 2026-11-09 on a dependency update, so the second announced launch date has also passed without a release, and the Bottom line's wait-for-the-launch phrasing updated.
+- 2026-11-18 - Rotation re-verification: every cited URL re-fetched and alive (the repository README banner still reading "Overalls launches on 12 November 2026" over the research-preview notice, the platform site, the architecture and security pages, the loop announcement, the 2-point loom-era thread holding at 2 points, the redirecting loom URL, and the website repository); still no release or tag, with the trunk's newest commit the 2026-11-16 devenv dependency update.
 
 ## See also
 
