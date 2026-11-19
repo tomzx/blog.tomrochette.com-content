@@ -1,7 +1,7 @@
 ---
 title: memU
 created: 2026-10-06
-updated: 2026-11-16
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, file-based, skills]
 readability: 3
@@ -34,7 +34,7 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&legend=top-left" />
 </picture>
 
-14,546 stars with the repository pushed 2026-11-16, created 2025-07-29, as of 2026-11-16 (GitHub API).
+14,546 stars with the repository pushed 2026-11-19, created 2025-07-29, as of 2026-11-19 (GitHub API).
 The Hacker News record is two threads: an 11-point Show HN in January 2026 (4 comments) and a 4-point story in July 2026 (0 comments), so the 14.5k stars rest on trend cycles and word of mouth, not public scrutiny.
 Development is active, with the README's host matrix and skill-extraction flow revised against current releases.
 The same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and Graphify.
@@ -103,6 +103,7 @@ Not for teams needing multi-user memory APIs, contractual hosting terms, or any 
 - 2026-11-13 - Volatile re-verification: the pending November 13 work recorded (Hermes Agent memory plugin hooks with an installer, the frontmatter-dash recall metadata fix, the retrieval-skill ownership check); the push date refreshed to 2026-11-13.
 - 2026-11-14 - Recorded the pending November 14 work (local memory commits made atomic under concurrency); the push date refreshed to 2026-11-14.
 - 2026-11-16 - The host matrix shrank: the Cola adapter and the generic `memu-agent` JSONL-dialect detector were removed upstream (November 16 commits, pending release, with an upgrade path left in the README), so What it is now lists ChatGPT, Claude Code, Codex, Cursor, OpenClaw, Hermes, WorkBuddy, and pi; the pending Codex JSON retrieval trace and the installation-ownership artifact cleanup recorded, and the push date refreshed to 2026-11-16.
+- 2026-11-19 - Volatile re-verification: the pending November 18-to-19 fixes recorded (unhashable Claude block types ignored, Doubao multimodal embedding responses parsed, non-finite embeddings skipped in cosine search, and the retry spool bounded); the push date refreshed to 2026-11-19.
 
 ## See also
 

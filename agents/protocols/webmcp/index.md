@@ -1,7 +1,7 @@
 ---
 title: WebMCP
 created: 2026-10-06
-updated: 2026-11-15
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, browser, w3c, agent-tools]
 readability: 3
@@ -25,7 +25,7 @@ Chrome ships it behind a public origin trial (Chrome 149 through 156), Edge 150 
 ## Status
 
 **Active and past the flag stage, with one browser shipping and one agent consuming.**
-The repository shows 4,621 stars (2026-10-13), 138 open issues, and a push on 2026-11-13 (the continuations explainer, not the spec draft), as of 2026-11-15 (GitHub API).
+The repository shows 4,621 stars (2026-10-13), 141 open issues, and a push on 2026-11-19 (side-branch work, no default-branch commit since the continuations explainer), as of 2026-11-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&theme=dark&legend=top-left" />
@@ -85,6 +85,7 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 - 2026-11-12 - The draft report moved to its 2026-11-11 revision, carried by four verified default-branch commits with no new API surface: the `toolactivated` event now fires after the execute callback is invoked (#371), each ModelContext tracks its associated Document in the spec's structs (#380), getTools() gains a stated traversable scope (#382), and a stale native-agents note left the security questionnaire (#269); no commits sat between 11-03 and 11-09, so the four carry the whole 11-02-to-11-11 window; open issues refreshed to 137 as of 2026-11-12.
 - 2026-11-13 - The demand-side record moved past the one-browser-one-agent framing this note carried since creation, re-grounded in the spec repo's implementation-status page: ChatGPT Desktop has supported WebMCP since 2026-08-26, Edge 150 runs its own origin trial, Brave moves Leo AI chat from experimental to default-on with Brave 1.102.2 (expected 2027-01-05, #383), and Meta AI on Ray-Ban Display is listed as coming soon, while the standards-position pages say the cross-browser fight is unresolved (Mozilla neutral since 2026-05-28, WebKit oppose with duplication, privacy, security, venue, and API-design concerns among others); the What-it-is browser sentence, the intro claim, the Status demand-side paragraph, the lead caution, and the Bottom-line claim moved with the record; the draft stays at its 2026-11-11 revision with no spec commits since, and open issues refreshed to 128 as of 2026-11-13.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched live with no dead sources (the commit URLs through the GitHub API); the report page's date stamp moved to 2026-11-13 behind the only default-branch commit since the recorded 2026-11-11 revision (#381, the continuations explainer aligned with the Blink implementation, +113/-68, no spec-source commit behind the stamp), the implementation-status table re-confirmed (Brave default-on from 1.102.2 expected January 5, 2027, ChatGPT Desktop supported, the Chrome 149 origin trial live), the Mozilla neutral and WebKit oppose positions re-confirmed through the issues API (both issues closed with their position labels), and open issues refreshed to 138 as of 2026-11-15.
+- 2026-11-19 - Rotation re-verification: every cited URL re-fetched live with no dead sources (the report page, the implementation-status table, the Chrome developer docs, the nohacks and zylos and InfoQ practitioner records, and the three cited commit SHAs plus both standards-position issues through the GitHub API); the report page stamp holds at 2026-11-13 with zero default-branch commits since the recorded 2026-11-11 revision (the 2026-11-19 pushed_at moved by side-branch work), the implementation-status table re-confirmed unchanged (Brave default-on from 1.102.2 expected January 5, 2027, ChatGPT Desktop supported, the Chrome 149 and Edge 150 origin trials live, Meta Ray-Ban Display coming soon), the Mozilla neutral and WebKit oppose positions re-confirmed, and open issues refreshed to 141 as of 2026-11-19.
 
 ## See also
 

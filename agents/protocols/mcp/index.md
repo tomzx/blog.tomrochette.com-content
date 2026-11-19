@@ -1,7 +1,7 @@
 ---
 title: Model Context Protocol (MCP)
 created: 2026-08-24
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, agent-tools]
 readability: 3
@@ -83,6 +83,7 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 - 2026-11-14 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and CI work since 2026-11-12 (EU Cyber Resilience Act stewardship guidance, registry docs pulled from v1.8.9, a working-group-sponsored SEP process, the Core Primitives Working Group listed on the working-groups overview, SEP dead-link fixes, and website-content CI).
 - 2026-11-15 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries one CI commit since the last pass (build and validate website content, #3509, 2026-11-14), with the 2026-11-15 pushed_at moved by a side-branch push.
 - 2026-11-17 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and blog work since the last pass (deprecated features no longer presented as current on the spec overview pages, an accuracy pass over the 2026-07-28 and draft content, blog quote blocks for named people, per-post share cards, and a header search dialog).
+- 2026-11-19 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and dependency work since the last pass (MCP Inspector load-testing and Active Sessions docs #3503, an extensions-overview alignment with SEP-3392 #3565, an accuracy pass fixing links and typos across the 2026-07-28 and draft docs #3556, and blog quote blocks #3563); the aaif.io press reference moved to the news address the old press URL now redirects to.
 
 ## See also
 
@@ -98,7 +99,7 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 - https://modelcontextprotocol.io/specification/latest - current spec revision 2026-07-28, JSON-RPC core, extensions
 - https://github.com/modelcontextprotocol/modelcontextprotocol - spec repository, MIT license, stars and commits as of 2026-10-10
 - https://www.anthropic.com/news/model-context-protocol - launch announcement (2024-11-25) and named creators
-- https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/ - Linux Foundation donation, member roster, 10,000+ server claim
+- https://aaif.io/news/linux-foundation-announces-formation-of-aaif - Linux Foundation donation, member roster, 10,000+ server claim (the original aaif.io/press/... address redirects here)
 - https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks - the tool poisoning and rug pull critique
 - https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/v2.4.0 - the TypeScript SDK's 2.x package line (client, server, core at 2.4.0) and the migration codemod (fetched 2026-11-08)
 - https://registry.npmjs.org/@modelcontextprotocol/core - the 2.x core package on npm, latest 2.4.0 published 2026-10-23 (fetched 2026-11-08)

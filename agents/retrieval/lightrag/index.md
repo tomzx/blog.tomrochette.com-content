@@ -1,7 +1,7 @@
 ---
 title: LightRAG
 created: 2026-10-07
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, knowledge-graph]
 readability: 3
@@ -25,7 +25,7 @@ Made by HKUDS, the lab that also ships RAG-Anything, VideoRAG, and MiniRAG.
 ## Status
 
 **Actively maintained with a large, fast-moving community.**
-40,119 stars and 5,705 forks as of 2026-10-13, pushed 2026-11-17, with 319 open issues (GitHub API, as of 2026-11-17).
+40,119 stars and 5,705 forks as of 2026-10-13, pushed 2026-11-18, with 295 open issues (GitHub API, as of 2026-11-19).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/LightRAG&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ The launch thread drew 82 points in July 2024 and little HN activity since, so t
 
 ## Cautions
 
-- **The lab's breadth is the roadmap risk: RAG-Anything, VideoRAG, and MiniRAG share one maintainership, and 319 open issues say the core absorbs more than it resolves.**
+- **The lab's breadth is the roadmap risk: RAG-Anything, VideoRAG, and MiniRAG share one maintainership, and 295 open issues say the core absorbs more than it resolves.**
 - The accuracy story is self-run; I found no independent benchmark replicating the paper's numbers on a different corpus.
 - The feature surface churns (chunking strategies, merged multimodal parsing, role-specific models), so pin versions and re-test on upgrades.
 - Setup is a stack: an embedding model, an LLM, a graph or unified store, and optionally parsing services.
@@ -65,7 +65,7 @@ The costs are your own model bills for extraction and querying plus the storage 
 
 **Recommended as the default graph-RAG framework when the graph layer genuinely earns its indexing cost, which for most corpora means theme and multi-hop questions, not lookup.**
 Not for teams that need a frozen dependency or independent accuracy evidence, because it offers neither.
-My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appeal, not adoption depth, and the 319 open issues are the truer count of how much work the pattern still demands.
+My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appeal, not adoption depth, and the 295 open issues are the truer count of how much work the pattern still demands.
 
 ## Changes
 
@@ -82,6 +82,7 @@ My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appea
 - 2026-11-14 - Refreshed the repository activity (pushed 2026-11-14, 399 open issues, aligned across sections); PyPI 1.5.7 remains latest.
 - 2026-11-15 - Refreshed the repository activity (pushed 2026-11-15, 398 open issues, aligned across sections); PyPI 1.5.7 remains latest.
 - 2026-11-17 - Refreshed the repository activity (pushed 2026-11-17, 319 open issues, aligned across sections) and recorded PyPI's 1.5.8rc1 prerelease (2026-11-15) landing after 1.5.7, which remains the latest stable across 95 releases.
+- 2026-11-19 - Refreshed the repository activity (pushed 2026-11-18, 295 open issues, aligned across sections); PyPI 1.5.7 remains the latest stable with 1.5.8rc1 the only newer cut.
 
 ## See also
 
@@ -92,7 +93,7 @@ My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appea
 
 ## References
 
-- https://api.github.com/repos/HKUDS/LightRAG - 40,119 stars, 5,705 forks, MIT, created 2024-10-02, pushed 2026-11-17, 319 open issues (GitHub API, as of 2026-11-17)
+- https://api.github.com/repos/HKUDS/LightRAG - 40,119 stars, 5,705 forks, MIT, created 2024-10-02, pushed 2026-11-18, 295 open issues (GitHub API, as of 2026-11-19)
 - https://raw.githubusercontent.com/HKUDS/LightRAG/main/README.md - dual-level retrieval, storage backends, chunking strategies, the RAG-Anything merge, the news timeline (re-verified unchanged 2026-11-03)
 - https://arxiv.org/abs/2410.05779 - the EMNLP 2025 paper: LightRAG, simple and fast retrieval-augmented generation (re-verified live 2026-11-03)
 - https://pypi.org/pypi/lightrag-hku/json - version 1.5.7 (2026-09-02), 95 releases with the 1.5.8rc1 prerelease of 2026-11-15, MIT (1.5.7 still the latest stable, re-verified 2026-11-17)

@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -34,7 +34,7 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left" />
 </picture>
 
-3,721 stars since 2026-04-30, latest release v1.2.59 on 2026-11-17 (PPTX embedded video and audio split out before PDF normalization, transcribed with timestamps and billed as media, and retrieved with the page that embeds them, evidence rendering each media item as marker, signed link, and transcript), following v1.2.58 (2026-11-15, a configurable production OpenSearch open-index limit and an operator command releasing stopped shadow backfills while PostgreSQL serves), after the v1.2.46-through-v1.2.57 run of 2026-11-09 to 2026-11-14 (a POST /api/v2/retrieval/tools/invoke endpoint that lets host agents call the corpus tools directly without Knowhere's own retrieval agent, TSV ingest billed as spreadsheets, Excel header and caption detection with progressive sheet-group parsing, OpenSearch release-1 production-connectivity prep, v1.2.55's document-version pinning under concurrent refinement, v1.2.56's drawing-sheet skills for TOC calibration plus speech, audio, and video parsing with duration billing and time-range citations, and v1.2.57's guarded file uploads verified against their exact size and SHA-256 with unacknowledged upload dispatches recovered and v2 retrieval cancelled when the client disconnects), pushed 2026-11-17 with 50 open issues (GitHub API, as of 2026-11-17).
+3,721 stars since 2026-04-30, latest release v1.2.63 on 2026-11-19 (PDF profiling screens page images before TOC extraction and nests the PDF's TOCs in a tree, with appendix TOCs grafted under their appendix instead of the document root), following the v1.2.60-through-v1.2.62 run of 2026-11-17 to 2026-11-19 (v1.2.60 takes slide-deck structure from page images and rejects over-limit page-memory documents at admission before billing, v1.2.61 installs CJK fonts so LibreOffice-rendered previews show Chinese text, v1.2.62 lists the Official Library's shared demo documents under stored categories), after the v1.2.46-through-v1.2.59 run of 2026-11-09 to 2026-11-17 (a POST /api/v2/retrieval/tools/invoke endpoint that lets host agents call the corpus tools directly without Knowhere's own retrieval agent, TSV ingest billed as spreadsheets, Excel header and caption detection with progressive sheet-group parsing, OpenSearch release-1 production-connectivity prep, v1.2.55's document-version pinning under concurrent refinement, v1.2.56's drawing-sheet skills for TOC calibration plus speech, audio, and video parsing with duration billing and time-range citations, v1.2.57's guarded file uploads verified against their exact size and SHA-256 with unacknowledged upload dispatches recovered and v2 retrieval cancelled when the client disconnects, v1.2.58's configurable production OpenSearch open-index limit, and v1.2.59's PPTX embedded video and audio transcribed and retrieved with their embedding page), pushed 2026-11-19 with 49 open issues (GitHub API, as of 2026-11-19).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and its default branch's latest commit is a 2026-10-27 merge, so the self-hosting path still looks far less trafficked than the hosted funnel.
 
@@ -103,6 +103,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 - 2026-11-14 - Recorded release v1.2.56 (2026-11-13, atlas drawing-sheet skills, speech and audio and video parsing with duration billing and time-range citations, and the restored upload-parse Alembic revision) and refreshed the repository activity (pushed 2026-11-14, 51 open issues); per-page pricing unchanged.
 - 2026-11-15 - Recorded release v1.2.57 (2026-11-14, uploads verified against exact size and SHA-256 with unacknowledged dispatch recovery, v2 retrieval cancelled on client disconnect, and OpenSearch cutover prep) and refreshed the repository activity (pushed 2026-11-14, 49 open issues); per-page pricing unchanged.
 - 2026-11-17 - Recorded releases v1.2.58 (2026-11-15, a configurable production OpenSearch open-index limit and an operator command releasing stopped shadow backfills) and v1.2.59 (2026-11-17, PPTX embedded video and audio transcribed and retrieved with their embedding page) and refreshed the repository activity (pushed 2026-11-17, 50 open issues); per-page pricing unchanged.
+- 2026-11-19 - Recorded the release run v1.2.60 through v1.2.63 (2026-11-17 to 2026-11-19; slide-deck structure from page images with pre-billing page-memory rejection, CJK fonts for LibreOffice-rendered previews, the categorized Official Library demo listing, and page-image PDF profiling with tree-nested TOCs) and refreshed the repository activity (pushed 2026-11-19, 49 open issues); pricing claims untouched since the 2026-11-12 re-verification.
 
 ## See also
 
@@ -113,8 +114,8 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,721 stars (as of 2026-10-13), pushed 2026-11-17, 50 open issues (GitHub API, as of 2026-11-17)
-- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.59 on 2026-11-17 the latest (fetched 2026-11-17, with v1.2.58 of 2026-11-15 and the v1.2.46-through-v1.2.57 run of 2026-11-09 to 2026-11-14 behind it)
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,721 stars (as of 2026-10-13), pushed 2026-11-19, 49 open issues (GitHub API, as of 2026-11-19)
+- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.63 on 2026-11-19 the latest (fetched 2026-11-19, with the v1.2.60-through-v1.2.62 run of 2026-11-17 to 2026-11-19 behind it)
 - https://knowhereto.ai - hosted product surface, the 14-day free trial still advertised, and the self-reported comparison table (re-verified 2026-11-12)
 - https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface (re-verified 2026-11-12)
 - https://docs.knowhereto.ai/pricing - per-page pricing, billable-page counting, prepaid credit packages expiring after 365 days, refund policy, rate-limit tiers (re-verified 2026-11-12)

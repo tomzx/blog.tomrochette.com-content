@@ -3,11 +3,11 @@ category: protocols
 generated: 2026-11-19
 mapped_sources:
   - repo: punkpeye/awesome-mcp-servers
-    last_checked: 2026-11-16
+    last_checked: 2026-11-19
   - repo: punkpeye/awesome-mcp-clients
-    last_checked: 2026-11-16
+    last_checked: 2026-11-19
   - repo: insodimension/awesome-agent-protocols
-    last_checked: 2026-11-16
+    last_checked: 2026-11-19
 digest_lines:
   - "- 2026-11-18 | evaluation-review | MCPMark rejects on the dormant-below-500 family | 475 stars and pushed 2026-06-12, reopen on activity or independent coverage, with the routing flag to protocols recorded"
   - "- 2026-11-16 | protocols | a note's What-it-is endpoint summary can lag the cited OpenAPI document it quotes, so a rotation re-fetch reads the cited artifact's full content and not just its version stamp, and a description gap corrects the matrix cell and the category one-liner the same run | the agent-protocol rotation found the store and thread-scoped streaming endpoints (merged 2026-04-28, #72) missing from a What-it-is written 2026-10-07 against the same unchanged 0.1.6"

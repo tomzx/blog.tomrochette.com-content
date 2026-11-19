@@ -1,7 +1,7 @@
 ---
 title: LlamaIndex
 created: 2026-08-24
-updated: 2026-11-14
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, retrieval, frameworks]
 readability: 3
@@ -25,7 +25,7 @@ In February 2026 the same team also open-sourced [LiteParse](https://github.com/
 ## Status
 
 Active and heavily used.
-The `run-llama/llama_index` repository shows 52.5k stars and 8.3k forks as of 2026-10-13, pushed 2026-11-14 with 1,403 open issues counting pull requests (GitHub API, as of 2026-11-14), with 7,956 commits as of 2026-10-10, and the repository's latest tagged release is v0.14.26 (2026-11-13), the first tagged release since v0.14.25 in September.
+The `run-llama/llama_index` repository shows 52.5k stars and 8.3k forks as of 2026-10-13, pushed 2026-11-14 with 1,492 open issues counting pull requests (GitHub API, as of 2026-11-19; the default branch's latest commit is still dated 2026-11-14), with 7,956 commits as of 2026-10-10, and the repository's latest tagged release is v0.14.26 (2026-11-13), the first tagged release since v0.14.25 in September.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&theme=dark&legend=top-left" />
@@ -52,7 +52,8 @@ The `run-llama/llama_index` repository shows 52.5k stars and 8.3k forks as of 20
 ## Pricing
 
 Framework: free, MIT.
-LlamaParse as of 2026-10-13: Free at 10k credits/month, Starter $50/month with 40k credits, Pro $500/month with 400k credits plus a limited-time one-time bonus of 800k credits listed at $1,000 for business-email domains, Enterprise custom, with 1,000 credits = $1.25 and pay-as-you-go above plan inclusion.
+LlamaParse as of 2026-11-19: Pay-as-you-go $0/month with 10,000 credits/month and $1.50 per 1,000 credits beyond, Pro $500/month with 400,000 credits then $1.25 per 1,000 plus a limited-time one-time bonus of 800k credits listed at $1,000 for business-email domains, Enterprise custom with volume discounts and single-tenant deployment.
+The Starter tier ($50/month with 40,000 credits) that this note tracked since September no longer appears on the pricing page, and the $1.25 per 1,000 rate that used to be the blanket pay-as-you-go price is now the Pro plan's overage rate.
 **You can use the OSS framework forever without LlamaParse; you just stop receiving the maintained parsing and managed index parts.**
 
 ## Price history
@@ -60,6 +61,7 @@ LlamaParse as of 2026-10-13: Free at 10k credits/month, Starter $50/month with 4
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09-18 | LlamaParse | Baseline: framework free (MIT); LlamaParse Free (10k credits/mo), Starter $50/mo (40k), Pro $500/mo (400k), Enterprise custom, credits at $1.25 per 1,000. | [llamaindex.ai/pricing](https://www.llamaindex.ai/pricing) |
+| 2026-11-19 | LlamaParse | Starter ($50/mo, 40k credits) removed from the pricing page; Free renamed Pay-as-you-go with a $1.50-per-1,000-credits overage (the $1.25 per 1,000 rate now belongs to the Pro plan's overage); Pro $500/mo unchanged with the limited-time 800k-credit bonus still listed. | [llamaindex.ai/pricing](https://www.llamaindex.ai/pricing) |
 
 ## Compared to
 
@@ -93,6 +95,8 @@ That claim is arguable, which is the point.
 - 2026-11-07 - Refreshed the repository activity (pushed 2026-11-06, 1,307 open issues counting pull requests); all claims untouched since the 2026-11-03 rotation.
 - 2026-11-12 - Refreshed the repository activity (pushed 2026-11-11, 1,364 open issues counting pull requests); all claims untouched since the 2026-11-03 rotation.
 - 2026-11-14 - Refreshed the repository activity (pushed 2026-11-14, 1,403 open issues counting pull requests) and recorded the repository's latest tagged release moving to v0.14.26 (2026-11-13); all other claims untouched since the 2026-11-03 rotation.
+- 2026-11-19 - Rotation re-verification re-fetched every cited URL live (the README's parsing-engine NOTE block, the docs root still carrying the LlamaCloud-is-now-LlamaParse rename banner and the LiteParse, ParseBench, and ExtractBench listings, LiteParse, the CodeSplitter and Chonkie-wrapping Chunker node-parser pages, the Octomind thread at 480 points, and the Chonkie launch thread at 151 points all unchanged; the repository re-read at pushed 2026-11-14 with 1,492 open issues counting pull requests, v0.14.26 still the latest tagged release, and the default branch's latest commit still dated 2026-11-14 per the pushed-equals-verified digest ruling) and the pricing re-fetch found the page changed, recorded separately below.
+- 2026-11-19 - Recorded the LlamaParse pricing page's restructure: the Starter tier ($50/mo, 40k credits) no longer appears, the Free plan is renamed Pay-as-you-go with a $1.50-per-1,000-credits overage, and the $1.25 per 1,000 rate now belongs to the Pro plan's overage while Pro $500/mo and the limited-time 800k-credit bonus stay listed; appended the price history row and rewrote the Pricing section.
 
 ## See also
 
@@ -103,10 +107,10 @@ That claim is arguable, which is the point.
 
 ## References
 
-- https://github.com/run-llama/llama_index - repository scale (52.5k stars), MIT license, the README's parsing-engine focus note and ParseBench and ExtractBench benchmarks, pushed 2026-11-14, latest tagged release v0.14.26 (2026-11-13) (GitHub API, as of 2026-11-14; README re-verified unchanged 2026-11-03)
-- https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,824 stars (as of 2026-10-11), Apache-2.0, pushed 2026-11-02 (GitHub API, as of 2026-11-03)
-- https://docs.llamaindex.ai/en/stable/ - framework documentation structure: RAG pipeline, agents, workflows, LlamaCloud (re-verified live 2026-11-03; the docs root now carries the LlamaCloud-is-now-LlamaParse rename banner)
-- https://developers.llamaindex.ai/python/framework/module_guides/loading/node_parsers/modules/ - CodeSplitter (tree-sitter) and Chunker (Chonkie) node parsers (re-verified unchanged 2026-11-03)
-- https://www.llamaindex.ai/pricing - LlamaParse tiers, credit pricing, the Pro plan's limited-time one-time 800k-credit bonus, VPC and compliance options, as of 2026-10-13 (tier prices unchanged on re-fetch 2026-11-03)
+- https://github.com/run-llama/llama_index - repository scale (52.5k stars), MIT license, the README's parsing-engine focus note and ParseBench and ExtractBench benchmarks (re-verified unchanged 2026-11-19), pushed 2026-11-14, latest tagged release v0.14.26 (2026-11-13) (GitHub API, as of 2026-11-19)
+- https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,824 stars (as of 2026-10-11), Apache-2.0, pushed 2026-11-17 (GitHub API, as of 2026-11-19)
+- https://docs.llamaindex.ai/en/stable/ - framework documentation structure: RAG pipeline, agents, workflows, LlamaParse (re-verified live 2026-11-19; the docs root still carries the LlamaCloud-is-now-LlamaParse rename banner)
+- https://developers.llamaindex.ai/python/framework/module_guides/loading/node_parsers/modules/ - CodeSplitter (tree-sitter) and Chunker (Chonkie) node parsers (re-verified unchanged 2026-11-19)
+- https://www.llamaindex.ai/pricing - LlamaParse tiers as of 2026-11-19: Pay-as-you-go $0 (10k credits/mo, then $1.50 per 1,000), Pro $500/mo (400k credits, then $1.25 per 1,000, limited-time 800k-credit bonus), Enterprise custom, Starter no longer listed (previously recorded 2026-09-18, 2026-10-13, and 2026-11-03 with the Starter tier present)
 - https://news.ycombinator.com/item?id=40739982 - critical framework-RAG discussion naming LlamaIndex, with the LangChain CEO response
 - https://news.ycombinator.com/item?id=44225930 - Chonkie launch with benchmark claims against LlamaIndex and LangChain chunking

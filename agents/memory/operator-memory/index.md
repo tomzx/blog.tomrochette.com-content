@@ -1,7 +1,7 @@
 ---
 title: Operator Memory
 created: 2026-10-17
-updated: 2026-11-13
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, agent-memory, documentation, markdown, context-engineering]
 readability: 3
@@ -75,6 +75,7 @@ Not for teams needing measured retrieval quality (none exists here), enterprise 
 - 2026-11-04 - Recorded the coordinated release batch (November 4): helper@v1.10.0 and v1.11.0 through a new coordinated package-publishing script, codex@v0.4.0 with improved plugin UX and marketplace updates, and the machine-stable versioned preamble rollout in core, following the November 3 removal of redundant repair commands; the push date refreshed to 2026-11-04.
 - 2026-11-07 - Recorded the November 5 releases: helper@v1.12.0 and codex@v0.4.1 (codex skill titles now lead with Operator); the push date refreshed to 2026-11-05.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched live (the repository API and docs, the npm registry, the essay, the thread, the benchmark-exchange comment); the npm release count and the What-it-is parenthetical corrected to 23 releases through 1.12.0 with the Codex adapter at 0.4.1 (Status had moved on, the opening had not), and the liao.gg essay now serves a site-wide 403 bot wall to non-browser fetches (domain root included, browser UA included), citation kept per the bot-wall ruling.
+- 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (the repository API, README, architecture and comparison docs, LICENSE, the npm registry, the essay thread, the benchmark-exchange comment), no facts changed (the repository still pushed 2026-11-05, BSD-3-Clause, the helper still at 1.12.0 with twenty-three npm releases, the thread steady at 392 points, the benchmark-exchange comment intact); the liao.gg essay still serves its site-wide 403 bot wall to non-browser fetches, citation kept per the bot-wall ruling.
 
 ## See also
 

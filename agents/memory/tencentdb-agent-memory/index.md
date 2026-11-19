@@ -1,7 +1,7 @@
 ---
 title: TencentDB Agent Memory
 created: 2026-10-11
-updated: 2026-11-11
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, openclaw, hermes, open-source]
 readability: 3
@@ -79,6 +79,7 @@ My disagreeable claim: reversible compression, not recall quality, is the featur
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live (all six reachable, no dead sources), no facts changed (v2.0.3 still the latest release, the npm plugin still 1.0.3); the default-branch commits since the last verification are panel and SDK timeout fixes, a CI external-pull-request acknowledgment, and a memory-core fix enforcing agent and task read permissions (list filtering scoped to the authenticated caller with team-membership checks in SQLite and MongoDB).
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched live (all six reachable, no dead sources), no facts changed on the record (v2.0.3 still the latest release, the npm plugin still 1.0.3, the HN search's two other hits unrelated to the tool); recorded the default branch's change to `feat/server_team`, a parallel branch mirroring main's history with no new commits since November 4, as of 2026-11-08.
 - 2026-11-11 - Volatile re-verification: the `feat/server_team` default branch moved again with a README pair and a panel fix stopping polling of failed CodeGraphs (November 9-10); nothing shipped, the push date refreshed to 2026-11-10.
+- 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (the repository API, README, LICENSE, the npm registry, the HN search, the entrant source), no facts changed (v2.0.3 still the latest release, the npm plugin still 1.0.3 from 2026-09-22, the `feat/server_team` default branch quiet since the November 10 panel fix, the HN search's one 2-point thread unchanged, the LICENSE still MIT terms under the Tencent notice).
 
 ## See also
 

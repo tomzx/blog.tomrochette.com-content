@@ -1,7 +1,7 @@
 ---
 title: OpenViking
 created: 2026-10-07
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, context-database, file-based, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The research lineage is real: the VikingMem paper (accepted at VLDB 26) defines 
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint even more than this category's usual pattern.**
-40,037 stars as of 2026-10-28 (GitHub API), created 2026-01-05, with the repository pushed 2026-11-17, as of 2026-11-17 (GitHub API).
+40,037 stars as of 2026-10-28 (GitHub API), created 2026-01-05, with the repository pushed 2026-11-19, as of 2026-11-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=volcengine/OpenViking&type=date&theme=dark&legend=top-left" />
@@ -93,6 +93,7 @@ Not for proprietary SaaS embedding, and not for buyers who need published hosted
 - 2026-11-15 - Recorded the pending post-v0.5.5 train (November 14 to 15): the react Console's HITL flow (extensible form fields, built-in validation with step navigation, VikingBot HITL forms), a controlled context picker, shared scoped queries, Toast error feedback with copyable notifications, opt-in frontend monitoring and typed component and block analytics, isolated Markdown compile workers, VikingBot's simple compile mode, and @openviking/react 0.1.12 stable preparation; no release after v0.5.5, and the push date refreshed to 2026-11-15.
 - 2026-11-16 - Recorded @openviking/react 0.1.12 shipped (November 14, the Console HITL line: question parsing with ordered answers, per-question validators and custom cards, draft preservation) and the SuperAgent 0.5.3-preview release (November 15); the pending train extended on the default branch (November 16) with Antigravity (app and agy CLI) added as a host adapter, the memory schema-field retention fix, the compile refactor separating configurations, scheduled runs, and snapshots, and the cross-runtime logging and audit policy docs; the integration list gains Antigravity, and the push date refreshed to 2026-11-16.
 - 2026-11-17 - Volatile re-verification: the pending train extended again (November 16 to 17): @openviking/react 0.1.13 shipped, the skills line gained ownership and change-history tracking, same-session memory URI conflicts reconcile with partial writes preserved, compile rollback-lock retries are bounded with stale target-tag lease recovery, and the react editor shows read-only Wiki conflict metadata; no release after v0.5.5, and the push date refreshed to 2026-11-17.
+- 2026-11-19 - Volatile re-verification: @openviking/react 0.1.14 (November 18, AgentConnect's isEnterprise language choice for installer onboarding) and 0.2.0 (November 19, FileBrowser hosts loading experience metrics and overriding dashboard sections) shipped, and the pending train extended (worker tool results preserved complete through compile, socks5 proxies in the ov HTTP client, empty-message tool failures kept in captured memory, and oversized image evidence normalized); no engine release after v0.5.5, and the push date refreshed to 2026-11-19.
 
 ## See also
 

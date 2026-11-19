@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-11-16
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -26,7 +26,7 @@ The cloud adds cross-device sync, browser and mobile access, and shared workspac
 ## Status
 
 **Active and mid-scale, with a thin public-discussion footprint.**
-4,237 stars with the repository pushed 2026-11-16, created 2024-12-02, as of 2026-11-16 (GitHub API).
+4,237 stars with the repository pushed 2026-11-18, created 2024-12-02, as of 2026-11-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&theme=dark&legend=top-left" />
@@ -104,6 +104,7 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 - 2026-11-13 - Volatile re-verification: the pending November 12-to-13 train recorded (Hermes PATH and shutdown fixes, structured MCP tool errors, cloud-sync project-name case matching, the asyncpg startup-import removal, the portable-format ChatGPT upload, and the setup man page), PyPI still at 1.0.0, and the push date refreshed to 2026-11-13.
 - 2026-11-15 - Volatile re-verification: the pending November 14-to-15 API train recorded (each project's change journal at /v2/projects/{id}/changes, file checksums in the directory tree, and scoped search's post-search reads on one session with Server-Timing), PyPI re-verified at 1.0.0, and the push date refreshed to 2026-11-15.
 - 2026-11-16 - Recorded the pending train's extension (November 15-16): folder deletes journal every removed note, storage-arriving note changes are journaled, the SessionStart brief drops the MCP tool stack, one-word Postgres searches use the indexed operand path, and note-write steps get per-step timing spans; PyPI still at 1.0.0, and the push date refreshed to 2026-11-16.
+- 2026-11-19 - Volatile re-verification: the pending train's November 17-to-18 commits recorded (a stored file can replace a projector note that never reached storage, X.ai.md resolves by its path instead of its sibling X.md, and the storage-rename journal test is content-neutral on Windows); PyPI re-verified at 1.0.0, and the push date refreshed to 2026-11-18.
 
 ## See also
 

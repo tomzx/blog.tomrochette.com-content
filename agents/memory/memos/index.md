@@ -1,7 +1,7 @@
 ---
 title: MemOS
 created: 2026-10-06
-updated: 2026-11-15
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The plugin line is the distribution strategy: official OpenClaw plugins (cloud a
 ## Status
 
 **Active and mid-scale.**
-11,800 stars with the repository pushed 2026-11-11, created 2025-07-06, as of 2026-11-11 (GitHub API; the star figure is the 2026-10-11 baseline).
+11,800 stars with the repository pushed 2026-11-19, created 2025-07-06, as of 2026-11-19 (GitHub API; the star figure is the 2026-10-11 baseline).
 The one independent common-framework datapoint: the academic Agent Memory Leaderboard's first cycle (August 2026) ranks MemOS second among commercial text-memory systems at 45.89, on that framework's scale, not the vendor table's.
 
 <picture>
@@ -88,6 +88,7 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 - 2026-11-08 - The November 7 pushed_at movement resolved to side branches, with the default branch's only commit since the last verification the November 4 DSH-preview support already recorded; no facts changed (PyPI MemoryOS still 2.0.33).
 - 2026-11-11 - Recorded engine release v2.0.36 (November 9), the first engine release since September: OpenClaw installation and automatic memory hooks restored, memory evolution and Hermes installation hardened, per-operation provider switches and per-model Redis GCRA rate limiting added, and cross-cube playground recall fixed; PyPI MemoryOS stays at 2.0.33 and the push date refreshed to 2026-11-11.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched live (repository API, README, docs root, the paper, PyPI, the hosted landing page, the HN item), no facts changed: the engine still at v2.0.36 with no newer release, PyPI MemoryOS still 2.0.33, the hosted price table unchanged (Starter $19 and Pro $286 still flagged Free Now), and the push date confirmed at 2026-11-11.
+- 2026-11-19 - Volatile re-verification: the 2026-11-19 pushed_at movement resolved to side branches with the default branch quiet since the November 9 v2.0.36 release; no facts changed, and the push date refreshed to 2026-11-19.
 
 ## See also
 

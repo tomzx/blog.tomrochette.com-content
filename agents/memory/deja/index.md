@@ -1,7 +1,7 @@
 ---
 title: deja
 created: 2026-10-10
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, transcripts, retrieval, mcp, open-source]
 readability: 3
@@ -13,19 +13,19 @@ audience_notes: >
 
 deja (published as the deja-vu repository) is an MIT-licensed local memory tool for coding agents: a single Go binary that indexes the session transcripts your agents already write to disk, strips credentials on the way in, and serves recall back to any of them over one MCP tool, hooks, and a search skill.
 
-**Its bet is that the capture step is the mistake: forty-three harnesses already save complete session records to disk, so memory can start full, months back, the moment you install it.**
+**Its bet is that the capture step is the mistake: forty-nine harnesses already save complete session records to disk, so memory can start full, months back, the moment you install it.**
 
 ## What it is
 
-A Go CLI from Vladislav Shulcz (curl script, Homebrew, Scoop, winget, npm, or go install) that parses each harness's own store in place (Claude Code JSONL, Codex sessions, Cursor's SQLite, and 46 more per its format registry) and builds a local inverted index under ~/.cache/deja with incremental per-file state.
+A Go CLI from Vladislav Shulcz (curl script, Homebrew, Scoop, winget, npm, or go install) that parses each harness's own store in place (Claude Code JSONL, Codex sessions, Cursor's SQLite, and 48 more per its format registry) and builds a local inverted index under ~/.cache/deja with incremental per-file state.
 Recall is lexical by default with no model and no network; an optional semantic sidecar points at any local Ollama or OpenAI-compatible embedding endpoint.
-The MCP server exposes a single tool (the README counts its definitions at 477 tokens per turn) covering recall, blame, fix, how, orient, remember, and handoff modes, and `deja install` wires recall hooks and guidance blocks into the 47 supported harnesses.
+The MCP server exposes a single tool (the README counts its definitions at 477 tokens per turn) covering recall, blame, fix, how, orient, remember, and handoff modes, and `deja install` wires recall hooks and guidance blocks into the 49 supported harnesses.
 Beyond search it adds `deja promote` (curated notes with accepted and rejected lifecycle states that outrank raw hits), credential redaction with a scrub command, ssh sync between your own machines, and a docs site carrying per-harness memory guides.
 
 ## Status
 
 **Young, fast-moving, and single-maintainer, with adoption ahead of any public discussion.**
-1,206 stars and 120 forks as of 2026-10-16 (GitHub API), created 2026-07-14, pushed 2026-11-17, MIT, with 77 open issues and pull requests as of 2026-10-19 (GitHub API).
+1,206 stars and 120 forks as of 2026-10-16 (GitHub API), created 2026-07-14, pushed 2026-11-19, MIT, with 77 open issues and pull requests as of 2026-10-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vshulcz/deja-vu&type=date&theme=dark&legend=top-left" />
@@ -41,6 +41,7 @@ The pending post-v0.24.1 train (November 9 to 11) adds a native Neovim runtime p
 The pending train shipped as v0.24.2 (November 12) with more on top: turn-0 file localization with verified target guardrails (standing, repo decision, reverted approach, prior decision, past breakage), dead-end reversal and root-cause FixPair recall across 200-plus-message marathon episodes, `deja bench live` and `deja audit` (audit reports transcript counts, retention-deletion risk, and recoverable edit paths per detected agent store), ephemeral npx launcher staging for installs, native IntelliJ Platform, Neovim, CodeCompanion, and tmux TPM extensions, and Zoo Code task discovery under RooRoots.
 The pending post-v0.24.2 train (November 14 to 15) adds the MiMo-Code, Omnigent, Orca, and Claw Code stores (with orca and codewhale extensions, harness guides, and the agent count synced), indexes Claude Code's auto-memory notes beside a faster store audit, triggers proactive recall and handles dead launchers, guards hooks on non-repo roots with edit and traceback recovery, adds `deja stats --no-index` for zero-write scans, and publishes an unscoped `deja-vu` npm wrapper, and the README now counts 47 coding agents everywhere, the four new stores carrying the count from 43; the nightly channel keeps publishing rolling builds (latest 2026-11-14).
 The pending train extended again (November 15 to 17): CodeArts Desktop joined as the forty-eighth wired store, with the README and all twelve docs locales, guides, and extension docs moved to 48-harness parity, cold code guards decoupled from hooks and search with recall and localization improved, Hermes profile SOUL.md files synced by the rules command, live_rules.jsonl kept group-writable in shared indexes, and the macOS e2e CI lane sequenced after the test shards with main-red auto-close; the README's count stands at 48 and the nightly channel's latest rolling build is 2026-11-16.
+The pending train extended again (November 18 to 19): Qoder CLI joined as the forty-ninth wired store, with the README and its tables moved to 49-store parity, `deja audit` gained a credential scan over raw transcripts that runs without building an index, and two index fixes batch remine work one session at a time and split a new-file batch so no session crosses the halves; no release after v0.24.2, the nightly channel's latest rolling build is 2026-11-17, and the push date refreshed to 2026-11-19.
 v0.23.1 halves the cold-build peak again (4.7 GB instead of 9.4 GB on a 40,000-session store), cuts redaction CPU 17x with the same output, and fixes a quadratic slowdown a search over many look-alike sessions hit; it adds MiniMax Code as the forty-third wired harness, project aliases in `~/.config/deja/projects` that name a directory tree as one project so every checkout and worktree under it shares one scope, and `deja search --sort date`.
 v0.23.0 makes big stores cheap to keep current: an update pass appends the records of rewritten sessions instead of rewriting the whole log and reads only what changed, cutting a 20-transcript update from 24 seconds to 1.7 and peak memory from 7 GB to under 1 GB on a 40,000-session store, and a common-word search answers in about a second instead of 24; it treats sub-agents as sessions of their own in every reader that marks one, forks no longer take credit for what they copied, and recalled history can no longer run a command in opencode or end a dsh turn, with the index rebuilt once on upgrade and `DEJA_NO_AUTO_INDEX` plus `DEJA_SEARCH_ONLY` for busy machines.
 v0.22.1 makes session playback show the code each edit changed, line by line, for Claude Code, Codex, and every harness whose transcript holds its edit calls, adds `deja resume <id> --app` to open a Codex session in the ChatGPT desktop app, cuts session start to 0.38 seconds and the per-prompt hook to 0.59 seconds on a 19,000-session index (from 1.46 and 1.65), masks secrets that slipped past redaction, and moves the index version to 70, so the store rebuilds once on the first run after upgrading.
@@ -60,7 +61,7 @@ I found no Hacker News thread for the tool through 2026-10-10 searches (the name
 
 - **The headline numbers are self-run on the author's own harness**: the committed artifacts report LongMemEval-S 88.1 percent hit@1 on the cleaned 470-question set and 70.5 percent retrieval-only hit@1 on LoCoMo, while the README's headline table quotes 97.2 percent R@5 against named rivals (MemPalace 96.6, agentmemory 95.2) without an independent run behind either.
 - Lexical retrieval loses where it says it loses: preference questions sit at 43.3 percent hit@1 and a whole-corpus search over 19,195 sessions lands near 19 percent, so the good numbers assume project scoping is doing its work.
-- Parsing 47 supported harnesses' private store formats is a permanent maintenance treadmill; TRAE IDE's store is encrypted and only wired rather than read, and any harness that changes its session schema breaks its parser until the next release.
+- Parsing 49 supported harnesses' private store formats is a permanent maintenance treadmill; TRAE IDE's store is encrypted and only wired rather than read, and any harness that changes its session schema breaks its parser until the next release.
 - Bus factor of one, three months old, and no independent evaluation or public discussion footprint yet.
 
 ## Pricing
@@ -99,6 +100,7 @@ Not for teams needing multi-user memory, audited third-party evaluation, or reca
 - 2026-11-13 - Recorded v0.24.2 (November 12), which shipped the tracked pending train and added turn-0 file localization with verified target guardrails, dead-end reversal and root-cause FixPair recall, `deja bench live` and `deja audit`, the ephemeral npx launcher staging, native IntelliJ Platform, Neovim, CodeCompanion, and tmux TPM extensions, and Zoo Code task discovery; the README still counts 43 harnesses; the push date refreshed to 2026-11-13.
 - 2026-11-15 - Recorded the pending post-v0.24.2 train (November 14 to 15): the MiMo-Code, Omnigent, Orca, and Claw Code stores with orca and codewhale extensions and harness guides, Claude Code auto-memory note indexing with a faster store audit, proactive recall and dead-launcher handling, `deja stats --no-index`, non-repo-root hook guards with edit and traceback recovery, and an unscoped `deja-vu` npm wrapper; the README and parser registry now count 47 harnesses (43 plus the four new stores), so the count moved throughout the note and the matrix; the push date refreshed to 2026-11-15.
 - 2026-11-17 - Volatile re-verification: the pending train extended again (November 15 to 17): CodeArts Desktop joined as the forty-eighth wired store with the README and all twelve docs locales, guides, and extension docs moved to 48-harness parity, cold code guards decoupled from hooks and search, Hermes profile SOUL.md files synced by the rules command, live_rules.jsonl kept group-writable in shared indexes, and the macOS e2e CI lane sequenced after the test shards; no release after v0.24.2, the README count stands at 48 in the note and the matrix, the nightly channel's latest rolling build is 2026-11-16, and the push date refreshed to 2026-11-17.
+- 2026-11-19 - Volatile re-verification: the pending train extended again (November 18 to 19): Qoder CLI joined as the forty-ninth wired store (the README and its tables now count 49), `deja audit` gained a raw-transcript credential scan that runs without building an index, and two index fixes batch remine work one session at a time and split new-file batches at session boundaries; no release after v0.24.2, the nightly channel's latest rolling build is 2026-11-17, and the push date refreshed to 2026-11-19. The count repair rode the same pass: the 2026-11-17 update had recorded 48 while the What-it-is, registry, and Cautions counts and the matrix cells still read 47, so all moved to the live 49 in one pass.
 
 ## See also
 

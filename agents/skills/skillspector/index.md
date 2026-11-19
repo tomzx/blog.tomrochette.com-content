@@ -1,7 +1,7 @@
 ---
 title: SkillSpector
 created: 2026-10-12
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, security, supply-chain]
 readability: 3
@@ -25,7 +25,7 @@ It is the security tier inside NVIDIA's SkillEvaluator and part of the Verified 
 
 ## Status
 
-Active and large: 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24, 2,359 as of 2026-11-17), 157 open issues as of 2026-11-17, created 2026-03-21, main's last commit 2026-11-16 (README documentation links, CLI import deferral for help and registry commands, an MCP-registry UTF-8 BOM fix), v2.13.6 the newest release.
+Active and large: 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24, 2,359 as of 2026-11-17), 163 open issues as of 2026-11-19, created 2026-03-21, main's last commit 2026-11-19 (parser-boundary and command-matching fixes: command boundaries and printf braces, reconstructed Python operands now requiring viable options, runtime command bindings, PRs #1151 through #1154), v2.13.6 the newest release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/SkillSpector&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ Not for runtime policy enforcement (that is the harness or a control plane), for
 - 2026-11-13 - Volatile refresh: main pushed again to 2026-11-13 (one fix keeping npm link slots from borrowing ancestor pins) and open issues moved down to 150; v2.13.4 still the newest release.
 - 2026-11-14 - Volatile refresh: main pushed to 2026-11-14 with five merged PRs since the 11-13 reading (bare JSON wrapper-name completion, MiniMax regional support with M3.1 Flash defaults, ignore-list code fences in Markdown treated as ignore-file entries, perseus-ctx and mimir-mcp removed from the popular-PyPI package list, the nv_build default model switched to z-ai/glm-5.3-flash), and open issues moved down to 145; v2.13.4 still the newest release.
 - 2026-11-17 - Volatile refresh: the release train moved twice on 2026-11-16, v2.13.5 (improved bounded parsing and inspection of large skills and structured data with explicit exhausted-limit diagnostics, preserving the 2.13.4 provider defaults and output-file protections) and v2.13.6 hours later (complete JSON metadata with bare wrapper names like `{"name":"nice"}` no longer trips false static_parse_limit or command_word_boundary diagnostics, plus documentation updates on --min-coverage thresholds, JSON archive-member provenance, and least-privilege remediation guidance); main pushed again to 2026-11-16 (README documentation links, CLI import deferral for help and registry commands, an MCP-registry UTF-8 BOM fix), and open issues moved up to 157.
+- 2026-11-19 - Volatile refresh: main pushed to 2026-11-19 with the parser-boundary batch (command boundaries and printf braces, reconstructed Python operands requiring viable options, runtime command bindings, PRs #1151 through #1154) and open issues moved up to 163; v2.13.6 still the newest release.
 
 ## See also
 
@@ -91,7 +92,7 @@ Not for runtime policy enforcement (that is the harness or a control plane), for
 
 ## References
 
-- https://api.github.com/repos/NVIDIA/SkillSpector - 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24), 171 open issues as of 2026-11-07, 158 as of 2026-11-12, 150 as of 2026-11-13, 145 as of 2026-11-14, and 157 as of 2026-11-17, Apache-2.0, created 2026-03-21, main's last commit 2026-11-16, docs homepage (fetched 2026-11-07, re-fetched 2026-11-12, 2026-11-13, 2026-11-14, and 2026-11-17)
+- https://api.github.com/repos/NVIDIA/SkillSpector - 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24), 171 open issues as of 2026-11-07, 158 as of 2026-11-12, 150 as of 2026-11-13, 145 as of 2026-11-14, 157 as of 2026-11-17, and 163 as of 2026-11-19, Apache-2.0, created 2026-03-21, main's last commit 2026-11-19, docs homepage (fetched 2026-11-07, re-fetched 2026-11-12, 2026-11-13, 2026-11-14, 2026-11-17, and 2026-11-19)
 - https://raw.githubusercontent.com/NVIDIA/SkillSpector/main/README.md - the 71-pattern taxonomy, two-stage pipeline, MCP mode, install paths, risk scoring, and the 31,132-skill research numbers (fetched 2026-10-22, the 71 count and the OpenCode 1.18.33 pin unchanged)
 - https://docs.nvidia.com/skills/scanning-agent-skills - the hosted guide with its 68-pattern count, the triage policy, and the SkillEvaluator security-tier framing (fetched 2026-10-12)
 - https://api.github.com/repos/NVIDIA/SkillSpector/releases/latest - v2.13.6 published 2026-11-16 (JSON-metadata bare-wrapper-name false-diagnostic fix plus documentation updates, wheel and source distribution, no PyPI publish), following v2.13.5 published 2026-11-16 (bounded-parsing and inspection improvements preserving the 2.13.4 provider defaults), v2.13.4 published 2026-11-04 (GPT-6.1 Sol and Claude Opus 5.5 provider compatibility, bounded parsing, no-execution inspection, bounded TAR/GZIP), and v2.13.3 published 2026-11-02 (P0 security and scan-integrity fixes, four dependency updates, the 18-minute workflow deadline), and v2.13.0 published 2026-10-16, a security-hardening backport of 55 selected PRs onto v2.12.0 (sha256-digested assets, Codex-prepared notes, published 2026-09-23) (fetched 2026-11-07, re-fetched 2026-11-17)

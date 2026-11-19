@@ -1,7 +1,7 @@
 ---
 title: Snyk Agent Scan
 created: 2026-10-20
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, security, supply-chain]
 readability: 3
@@ -20,12 +20,13 @@ Snyk Agent Scan is Apache-2.0 security tooling from Snyk that discovers every ag
 A Python 3.10+ CLI (`uvx snyk-agent-scan`, or a GPG-signed standalone binary with SBOM and checksums; no npm package) that auto-discovers agent configurations across Claude Code and Claude Desktop, Cursor, VS Code, GitHub Copilot, Gemini CLI, Windsurf, OpenCode, Codex, Amp, Kiro, Antigravity, Amazon Q, and OpenClaw, at system, user, project, and extension scopes.
 Analysis runs two ways: local checks, and Snyk's analysis API, to which skill contents, agent applications, tool names, and descriptions are shared under Snyk's Agent Scan terms.
 Version 0.6 (August 2026) moved from issue-code output to scored risk indicators against a 2026-07-10 analysis API, and the 0.5.x line is planned for deprecation.
+Version 0.7.0 (2026-11-18) shipped the remote-discovery rollout: discovery can run off, shadow (backend-discovered components recorded with shadow-parity metadata but not scanned), or on, a coding-agent-discovery client feeds Snyk's backend the inventory, `discover_local_only` covers sources the backend cannot read, and a lost remote discovery session restarts from init, alongside optional machine-serial propagation from the guard hooks through scan metadata.
 Snyk also ships it as the experimental `snyk agent-scan` command inside the main Snyk CLI (v1.1308.0), and an enterprise background mode (MDM-managed) reports results to the Snyk Evo platform.
 The repo's README now documents a daily usage limit for free-tier SNYK_TOKEN users (a docs commit on 2026-11-16), worth knowing before scripted scans on the Free plan.
 
 ## Status
 
-Active and vendor-backed: 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24, 298 as of 2026-11-17), 802 commits on a repository created 2025-04-07, latest release v0.6.11 (2026-11-06, on PyPI the same day; its GitHub body is empty, the content reading from the surrounding commits: discovery of Antigravity's current skill paths, supported-platform docs for the standalone binaries, hook-script version stamping at release time instead of install time, and removal of no-op agentic-fix parameters), with the default branch pushed 2026-11-16 (a docs note on the free tier's daily usage limit, following the 11-13 retry-hooks and certificate-error fixes).
+Active and vendor-backed: 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24, 298 as of 2026-11-17), 802 commits on a repository created 2025-04-07, latest release v0.7.0 (2026-11-18, on PyPI the same day; its GitHub body is empty, the content reading from the surrounding commits: the remote-discovery rollout with off/shadow/on modes and shadow-parity metadata, backend-driven discovery through a coding-agent-discovery client, discover_local_only for sources the backend cannot read, a typed config model, transient-failure retries, session restart from init, and machine-serial propagation), with the default branch pushed 2026-11-19 (scan-side machine-serial propagation and the discovery-restart fix, following the 11-16 docs note on the free tier's daily usage limit).
 Skills scanning arrived with v0.4, published together with a technical report on the agent skill ecosystem: of 3,984 skills analyzed from the clawhub.ai hub, 13.4% carried at least one critical-level issue and 36.8% at least one other-severity issue, while 9% of the top legitimate skills.sh skills showed exploitable patterns such as insecure credential handling or third-party content processing.
 Snyk Labs runs a companion Skill Inspector web experiment for scanning a single skill.
 
@@ -90,6 +91,7 @@ My disagreeable claim: the audit direction is the more valuable half of this mar
 - 2026-11-12 - Volatile refresh: the default branch pushed 2026-11-09 (guard e2e install coverage for Copilot and guard-uninstall tests for all clients); v0.6.11 still the newest release.
 - 2026-11-14 - Volatile refresh: the default branch pushed 2026-11-13 (retry hooks on transient errors, a certificate-error fix); v0.6.11 still the newest release.
 - 2026-11-17 - Volatile refresh: the default branch pushed 2026-11-16 with a docs commit noting the daily usage limit for free-tier SNYK_TOKEN users (PR #541), the fact recorded in the What-it-is section; v0.6.11 still the newest release.
+- 2026-11-19 - The release train moved to v0.7.0 (published 2026-11-18, on PyPI the same day, with an empty GitHub body and the content read from the surrounding commits: the remote-discovery rollout with off/shadow/on modes and shadow-parity metadata, backend-driven discovery through a coding-agent-discovery client, discover_local_only, a typed config model, transient-failure retries, and machine-serial propagation); the default branch pushed 2026-11-19 (scan-side machine-serial propagation, the discovery-restart fix), and the What-it-is section gained the 0.7 line.
 
 ## See also
 
@@ -101,10 +103,10 @@ My disagreeable claim: the audit direction is the more valuable half of this mar
 
 ## References
 
-- https://github.com/snyk/agent-scan - repository, Apache-2.0, 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24), created 2025-04-07, default branch pushed 2026-11-16 (GitHub API, as of 2026-11-17)
+- https://github.com/snyk/agent-scan - repository, Apache-2.0, 3,154 stars and 292 forks as of 2026-10-20 (293 forks as of 2026-10-24), created 2025-04-07, default branch pushed 2026-11-19 (GitHub API, as of 2026-11-19)
 - https://raw.githubusercontent.com/snyk/agent-scan/main/README.md - discovery matrix (14 agents, four scopes including the extension/plugin scope VS Code gained in v0.6.9), the two modes, the MCP consent flow and sandbox warning, and the API-sharing disclosure (fetched 2026-10-22)
-- https://pypi.org/pypi/snyk-agent-scan/json - snyk-agent-scan 0.6.11, Python 3.10+, Apache-2.0 (fetched 2026-11-07)
-- https://api.github.com/repos/snyk/agent-scan/releases/latest - v0.6.11 published 2026-11-06 (empty body; the surrounding commits name Antigravity current-skill-path discovery, standalone-binary platform docs, hook-script version stamping at release time, and no-op agentic-fix parameter removal), the newest release as of 2026-11-07 (fetched 2026-11-07)
+- https://pypi.org/pypi/snyk-agent-scan/json - snyk-agent-scan 0.7.0, Python 3.10+, Apache-2.0 (fetched 2026-11-19; 0.6.11 read there 2026-11-07)
+- https://api.github.com/repos/snyk/agent-scan/releases/latest - v0.7.0 published 2026-11-18 (empty body; the surrounding commits name the remote-discovery rollout with off/shadow/on modes and shadow-parity metadata, backend-driven discovery through a coding-agent-discovery client, discover_local_only, the typed config model, transient-failure retries, session restart from init, and machine-serial propagation), the newest release as of 2026-11-19 (fetched 2026-11-19; v0.6.11 read there 2026-11-07)
 - https://raw.githubusercontent.com/snyk/agent-scan/main/.github/reports/skills-report.pdf - the skills-ecosystem threat report: 3,984 clawhub.ai skills, 13.4% with a critical issue, 36.8% with another-severity issues, the false-positive profile, and the clawhub/skills.sh comparison (fetched 2026-10-20)
 - https://labs.snyk.io/experiments/skill-scan/ - the Snyk Labs Skill Inspector companion experiment (fetched 2026-10-20)
 - https://docs.snyk.io/agent-security - the agent-security documentation home (fetched 2026-10-20)

@@ -1,7 +1,7 @@
 ---
 title: Funes
 created: 2026-10-16
-updated: 2026-11-13
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, local-first, mcp, hugging-face]
 readability: 3
@@ -25,12 +25,13 @@ Beyond the four maintained integrations the surfaces are a read-only MCP server 
 ## Status
 
 **Active, young, and moving fast, with adoption that is still mostly repository stars.**
-569 stars, 51 forks, and 11 open issues and pull requests on a repository created 2026-06-18 and pushed 2026-11-12, Apache-2.0, as of 2026-11-13 (GitHub API).
-The release train runs weekly: v1.7.0 memories compaction (2026-10-07), v1.8.0 multilingual embedder (2026-10-08), v1.9.0 GPU indexing and host binding (2026-10-14), v1.9.1 (2026-10-20) a small maintenance release, v1.10.0 (2026-11-01), v1.11.0 (2026-11-05), and v1.12.0 (2026-11-10), with dacorvo holding 873 of the 927 recorded contributions across twelve contributors.
+569 stars, 55 forks, and 5 open issues and pull requests on a repository created 2026-06-18 and pushed 2026-11-13, Apache-2.0, as of 2026-11-19 (GitHub API; the star figure keeps its dated baseline, and the repo-level 2026-11-18 pushed_at movement was a side branch).
+The release train runs weekly: v1.7.0 memories compaction (2026-10-07), v1.8.0 multilingual embedder (2026-10-08), v1.9.0 GPU indexing and host binding (2026-10-14), v1.9.1 (2026-10-20) a small maintenance release, v1.10.0 (2026-11-01), v1.11.0 (2026-11-05), and v1.12.0 (2026-11-10), with dacorvo holding 948 of the 1,007 recorded contributions across thirteen contributors.
 v1.10.0 ships the previously pending work and replaces the legacy BGE reranker with GTE modernbert: the reranker now runs whenever the pool is larger than the requested hits, which under the defaults (k 8, candidates 30) means always, and a memory's prompt language is detected at indexing time, stored, and used as a hint for query language on recall, with no reindex needed but a roughly 600 MB reranker download on first recall.
 Post-release fixes (2026-11-01 and 02) align Hub token discovery with hf-hub's rules (including a blank disable value), keep a first push owed when a memory was emptied since, and read remote row counts off the manifest for status.
 v1.11.0 (November 5) sharpens vector search with Lance's index refine, repairs an index refresh that left rows out, and bumps rmcp to 3.8.0 for MCP protocol compliance, Lance to 13.0.0, and hf-hub to 1.0.0.
 v1.12.0 (November 10) changes what a recall reply carries: instead of snippets of the surrounding chunks, it returns the user and assistant prose that starts and ends the matched exchange, which on the project's own funes-recall benchmark puts the answer in the reply for 185 of 242 questions against 145 for the passages alone, at about 6.5k characters (roughly 1.5k tokens) and 0.25 seconds of added median latency; `funes recall --neighbors` is dropped and `--oneline` is added, and the pending post-release work gives each block type an equal share of the recall pool; the pending work extended on 2026-11-12 with equal-score rank stabilization and the search score column left to the dataset.
+The pending work extended on 2026-11-13: a stored block keeps the pieces it was first stored with, and a block's tool name is redacted along with its text.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=huggingface/funes&type=date&theme=dark&legend=top-left" />
@@ -38,7 +39,7 @@ v1.12.0 (November 10) changes what a recall reply carries: instead of snippets o
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=huggingface/funes&type=date&legend=top-left" />
 </picture>
 
-The September 3 announcement drew two small Hacker News threads (11 and 6 points, one comment each) and little else, and as of 2026-10-16 the category's own Awesome-Agent-Memory list does not carry it, so the footprint is the repository, the published demo dataset (71,648 chunks, 865 downloads last month), and one adversarial measurement.
+The September 3 announcement drew two small Hacker News threads (11 and 6 points, one comment each) and little else, and as of 2026-10-16 the category's own Awesome-Agent-Memory list does not carry it, so the footprint is the repository, the published demo dataset (102,407 chunks, 1,370 downloads last month, updated 2026-11-16), and one adversarial measurement.
 The sharpest critical material is partly the project's own: RATIONALE.md reports that a batch of recall-quality enhancements (abstention thresholds, MMR diversity, near-duplicate collapse, semantic expansion, deeper pools) moved recall not at all against its labeled anchor, and that the shipped cross-encoder scored no better than the fused order at seconds per recall.
 The README discloses that every Hub request carries an anonymous install id (opt out with `DO_NOT_TRACK=1` or `FUNES_NO_TELEMETRY=1`), and the installer's checksum shares the bucket it verifies, so it does not authenticate the source.
 In the announcement comments, deja's author measured funes 1.3.0 on 19,195 sessions: hit@1 9 of 100 with defaults at 6.3 seconds per query after a 2h03m index, against plain-BM25 deja at 18 of 100 in 24 milliseconds, and the maintainer's reply concedes BM25 matches on lookup-style corpora, arguing funes pays off when the answer is hard to find.
@@ -85,6 +86,7 @@ Not for workflows that need memory surfaced without being asked, for users who n
 - 2026-11-07 - Recorded v1.11.0 (November 5): vector search sharpened with Lance's index refine, an index-refresh fix for refreshes that left rows out, and rmcp 3.8.0, Lance 13.0.0, and hf-hub 1.0.0 bumps; the push date refreshed to 2026-11-06.
 - 2026-11-11 - Recorded v1.12.0 (November 10): recall replies now carry the bounding exchange prose instead of chunk snippets (185 of 242 benchmark questions answered in the reply versus 145, at about 1.5k tokens and 0.25 seconds added median latency), `--neighbors` dropped and `--oneline` added, and the pending recall-pool equal-share work recorded; the push date refreshed to 2026-11-10.
 - 2026-11-13 - Volatile re-verification: the pending work extended (November 12, equal-score rank stabilization and the review score column left to the dataset); no release after v1.12.0, and the push date refreshed to 2026-11-12.
+- 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (all twelve reachable, the HF pages through the fetch tool), no facts reversed; the pending work extended on 2026-11-13 (stored blocks keep the pieces they were first stored with, and block tool names redacted along with their text), the repository snapshot refreshed (default branch pushed 2026-11-13 with the 2026-11-18 pushed_at movement a side branch, 55 forks, 5 open issues and PRs), the contribution snapshot refreshed to dacorvo's 948 of 1,007 recorded contributions across thirteen contributors, and the demo dataset refreshed (102,407 chunks, 1,370 downloads last month, updated 2026-11-16).
 
 ## See also
 

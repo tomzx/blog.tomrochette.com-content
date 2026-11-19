@@ -1,7 +1,7 @@
 ---
 title: Emulo
 created: 2026-10-11
-updated: 2026-11-13
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-mining, personalization, mcp, open-source]
 readability: 3
@@ -79,6 +79,7 @@ My disagreeable claim: the 0-for-9 August result is the most trustworthy artifac
 - 2026-10-30 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still pushed 2026-10-12, PyPI still at 0.6.7 with eight releases, the placebo page still advertising the free-for-three service with none bought, the fable page and support matrix unchanged, the HN search still surfacing only the 2013 Emulos product).
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still pushed 2026-10-12, MIT, PyPI still at 0.6.7 with eight releases, the placebo and fable pages live with the same headline results, the README's maintenance scope unchanged, the HN search still surfacing only the 2013 Emulos products).
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched live, no facts changed in the core record (the repository still pushed 2026-10-12, PyPI still at 0.6.7 with eight releases, the placebo and fable pages live with the same headline results, the HN search still surfacing only the Emulos products), and the README's new Emulo Proof v1 runbook recorded (an unexecuted benchmark methodology with a frozen claim boundary and approval gates, no public result).
+- 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (the repository API, README, PyPI, both placebo and fable pages, the proof runbook, the HN search), no facts changed (the repository still pushed 2026-10-12, PyPI still at 0.6.7 with eight releases, the placebo and fable pages live with the same headline results, the proof runbook live, the HN search still surfacing only the Emulos products).
 
 ## See also
 

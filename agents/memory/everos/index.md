@@ -1,7 +1,7 @@
 ---
 title: EverOS
 created: 2026-10-09
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, markdown, local-first]
 readability: 3
@@ -28,7 +28,7 @@ EverMind also sells EverOS Cloud, a managed deployment of the same engine, and p
 ## Status
 
 **Young, fast-moving, and vendor-led, with the section's familiar thin public footprint.**
-13,444 stars and 941 forks as of 2026-10-28, created 2025-10-28, default branch pushed 2026-11-16 (GitHub API, re-checked 2026-11-17).
+13,444 stars and 941 forks as of 2026-10-28, created 2025-10-28, default branch pushed 2026-11-19 (GitHub API, re-checked 2026-11-19).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/EverOS&type=date&theme=dark&legend=top-left" />
@@ -39,6 +39,7 @@ EverMind also sells EverOS Cloud, a managed deployment of the same engine, and p
 Latest release v1.7.0 (2026-11-13) with PyPI in sync at 1.7.0, a 1.x line that reached 1.7 within a year of creation: the pending 1.6.0 contract-and-refactor line shipped (the everalgo pinned algorithm packages, the MemoryService, KnowledgeService, and OpsService composition-root refactor, and the breaking settings changes recorded on 2026-10-31) alongside the Cloud-aligned memory deletion endpoints (deletion by `user_id`/`agent_id`, by session, or one owner's session, answering with the matched filters and a count, refusing with `SESSION_BUSY` while a session is still being memorized, and everos-mcp's `forget_session` now working against a self-hosted server), recovery improvements when writes, background tasks, and file updates overlap, safeguards for large search workloads, and unused vectors kept out of query results; v1.5.0 (October 21) had added async ingestion (an `/add` with `async_mode` answers in milliseconds and extracts on a durable background queue, matching the cloud API's contract), configurable embedding dimensions, and startup validation that refuses an index the configured model cannot have produced, and v1.5.1 (October 22) raised the default query-embedding concurrency from 4 to 16, lifting sustained hybrid search from about 9 to a held 10 requests a second.
 The tracked 1.7.0 line shipped on November 13: the pending line's breaking everalgo 2026-11 contract with per-task LLM and profile building from episodes (every profile item cites the conversation it comes from) plus the online purge API (`POST /api/v2/memory/purge` with a confirm step and a job-status endpoint, clearing a whole memory root, one app, or one project while the server keeps serving).
 The pending line grew again (November 16, breaking): one EpisodeExtracted record per memcell with episode summaries built offline, still unreleased on GitHub and PyPI (both at v1.7.0/1.7.0).
+The pending line grew again (November 18 to 19, breaking): search rebuilt as three-lane hybrid ranking with agentic facts capped, then body-vector agentic search with bounded recall pools; GitHub and PyPI re-verified at v1.7.0/1.7.0.
 The vendor's site claims SOTA numbers (LoCoMo 93.05, LongMemEval 83.00, HaluMem 93.04) from its own reproducible benchmark harness, and the system does not appear among the published commercial leaders of the independent Agent Memory Leaderboard's first cycle (August 2026).
 I found no Hacker News thread through 2026-10-09 searches, so the 13k stars rest on the vendor's channels and plugin ecosystems, the same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and memU.
 
@@ -87,6 +88,7 @@ Not for teams needing published hosted pricing, independent benchmark evidence, 
 - 2026-11-13 - Volatile re-verification: the pending 1.7.0 line recorded (November 12-13, breaking: the everalgo 2026-11 contract with per-task LLM and episode-derived profiles, plus online purge of a memory root, app, or project); GitHub and PyPI still at v1.6.0/1.6.0, and the push date refreshed to 2026-11-13.
 - 2026-11-14 - Recorded v1.7.0 (November 13, PyPI in sync at 1.7.0): the tracked pending line shipped (the breaking everalgo 2026-11 contract with per-task LLM, profile items citing their source conversation, and the online purge API with a confirm step and job-status endpoint).
 - 2026-11-17 - Volatile re-verification: the pending line grew again (November 16, breaking): one EpisodeExtracted record per memcell with episode summaries built offline; GitHub and PyPI re-verified at v1.7.0/1.7.0, and the push date refreshed to 2026-11-16.
+- 2026-11-19 - Volatile re-verification: the pending line grew again (November 18 to 19, breaking): search rebuilt as three-lane hybrid ranking with agentic facts capped, then body-vector agentic search with bounded recall pools; GitHub and PyPI re-verified at v1.7.0/1.7.0, and the push date refreshed to 2026-11-19.
 
 ## See also
 
