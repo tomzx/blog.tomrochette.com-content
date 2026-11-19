@@ -1,7 +1,7 @@
 ---
 title: PandaCode
 created: 2026-11-07
-updated: 2026-11-16
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, coding-agents, desktop-app, tauri, model-routing]
 readability: 3
@@ -26,7 +26,7 @@ Data stays local in SQLite, provider keys live in a user-readable 0600 file rath
 
 **Active and very young: three weeks old, shipping daily, growing fast, and carrying no independent measurement yet.**
 The repository was created 2026-10-18 and stood at 1,109 stars with 204 forks and 85 open issues as of 2026-11-07, up from the 400 stars the cnblogs walkthrough counted on 2026-10-22, four days in.
-The release train runs daily: eleven releases between v0.3.91 (2026-11-02) and v0.3.102 (2026-11-08), then nine more through v0.3.111 (2026-11-11), then nine more through v0.3.123 (2026-11-13), then v0.3.125 and v0.3.126 on 2026-11-14 (v0.3.125 bringing Cursor CLI into the agent lineup through the Agent Client Protocol), then v0.3.128 appearing and being withdrawn, and v0.3.129 on 2026-11-16 carrying 0.3.126's code under a higher number (the project never updates to a lower version, so copies that installed the withdrawn 0.3.128 can move off it; 0.3.128's warm-spare and idle-CPU changes are pulled until a later release), the npm installer has published 89 versions since 2026-10-22 (npm, as of 2026-11-12), and the default branch was pushed 2026-11-16.
+The release train runs daily: eleven releases between v0.3.91 (2026-11-02) and v0.3.102 (2026-11-08), then nine more through v0.3.111 (2026-11-11), then nine more through v0.3.123 (2026-11-13), then v0.3.125 and v0.3.126 on 2026-11-14 (v0.3.125 bringing Cursor CLI into the agent lineup through the Agent Client Protocol), then v0.3.128 appearing and being withdrawn, and v0.3.129 on 2026-11-16 carrying 0.3.126's code under a higher number (the project never updates to a lower version, so copies that installed the withdrawn 0.3.128 can move off it; 0.3.128's warm-spare and idle-CPU changes are pulled until a later release), and v0.3.130 on 2026-11-18 (embedded model cards for Claude Fable 5.2, GPT-6.2 Sol and Astra, and Gemini 4 Carbon and Hydrogen, with automatic worker routing able to select models an installed harness advertises, the cards' capability scores self-described as routing estimates rather than verified benchmarks), the npm installer has published 89 versions since 2026-10-22 (npm, as of 2026-11-12), and the default branch was pushed 2026-11-19.
 The owner accounts for 460 of the top ten contributors' commits against 38 for the next contributor, and Hacker News carries no story on the project at all.
 The coverage footprint is two third-party writeups plus directory listings: MindStudio's editorial review of 2026-10-21 and wflynn's technical cnblogs walkthrough of 2026-10-22, an EveryDev.ai tools listing, and the creator's own launch video, with Chinese GitHub-trending coverage in the cnblogs piece's own series.
 
@@ -78,6 +78,7 @@ Not for teams that need an OSI license to build a derivative product, a signed a
 - 2026-11-14 - Recorded v0.3.125 (2026-11-14) adding Cursor CLI to the supported-agent lineup over the Agent Client Protocol.
 - 2026-11-15 - Volatile refresh: Recorded v0.3.126 (2026-11-14) as the latest release, the push date refreshed to 2026-11-15.
 - 2026-11-16 - Recorded the withdrawn v0.3.128 and the v0.3.129 republish (2026-11-16, 0.3.126's code under a higher number because installs never step down), the push date refreshed to 2026-11-16.
+- 2026-11-19 - Volatile refresh: recorded v0.3.130 (2026-11-18, harness-advertised model cards with automatic worker routing over them) on the release train, the push date refreshed to 2026-11-19.
 
 ## See also
 

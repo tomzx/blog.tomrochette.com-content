@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-18
+updated: 2026-11-19
 status: finished
 tags: [agents]
 readability: 0
@@ -12,6 +12,8 @@ The log under `agents/logs/` stays the audit trail; this digest never contradict
 Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (date = last confirmation).
 
 ## Scope rulings
+- 2026-11-19 | surfaces | OpenBitFun's Cowork-style general-workspace rejection holds on the thirteenth q#14 re-read (the openBitFun/OpenBitFun README re-fetched 2026-11-19 still pitches a general-purpose agent workspace with four Agent Harness modes, phone-as-remote-controller, and a Mini App marketplace, 4,076 stars, pushed 2026-11-19, with a 1.0.0 data-migration note for legacy 0.2.x users), the question again reads safe to close | surfaces re-check on the governing question
+- 2026-11-19 | surfaces | no credible surfaces-dedicated source has appeared; the GitHub search re-run returned the known low-star IDE and client lists (pinion05/awesome-agent-ide 4, ahmadyan/awesome-agentic-ides 0, 1shiharat/awesome-agent-clients 17 pushed 11-17, dctongsheng/Awesome-Agent-Client 1), one broad ecosystem list (0xWelt/Awesome-Agent-Ecosystem 124), and broad tool lists (QAInsights/awesome-ai-tools 34), none a category list | the refresh's no-dedicated-source check
 - 2026-11-18 | people-and-publications | surface-shell claims are client-dependent: YouTube channel surfaces that returned only JavaScript shells to scripted fetches on 2026-10-04 and 2026-11-01 rendered subscriber-class counts (136 videos, 11,832,349 views) to a browser user-agent fetch on 2026-11-18, so unrendered-surface claims re-attempt with a browser UA before an as-of date is kept | the caleb-writes-code rotation, extending the karpathy Bear-blog client-dependent 404 line to YouTube surfaces
 - 2026-11-18 | assistant-runtimes | openhuman reads 42,743 stars on 2026-11-18, about +39 in three days (about +13 a day, the slowing trend continuing) against OpenClaw's 394,702 | the q13 OpenClaw-class scale trigger stays unfired, openhuman held
 - 2026-11-18 | assistant-runtimes | trendshift.io serves a site-wide 403 to scripted fetches (curl and webfetch both blocked), so a Trendshift-badge claim cites the README's own badge markup with the wall recorded | the octop rotation re-fetch, extending the 2026-11-08 helgilibrary and 2026-11-13 openai.com site-wall rulings

@@ -1,7 +1,7 @@
 ---
 title: Serena
 created: 2026-10-04
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, lsp, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Distributed as `serena-agent` on PyPI; the application is GPL-3.0-or-later and t
 ## Status
 
 **Active and very large.**
-About 30.3k stars as of 2026-10-16 and 2,145 forks as of 2026-11-17, created 2025-03-23, pushed 2026-11-15 (a fix batch: process-group signaling treated as clean exit, activation-command subprocess handling, symbol caches saved at most every 30 seconds after tool calls, a Retina-sharp tray icon, plus CI and changelog-guidance chores), latest release v2.1.0 on 2026-10-19 (Claude Desktop chat-mode compatibility restored, the TypeScript language server pinned to Serena's own install in untrusted projects, VB.NET and native TypeScript 7 language-server support, a dashboard welcome pane for the auto-open preference), following v2.0.0 on 2026-10-13, the release that added the Serena REPL, a new agent interface reducing the tool set to a minimum and running all Serena operations from a general code-execution environment (GitHub API and release notes), with the PyPI package at 2.1.0 across 17 releases and 157,485 downloads in the trailing month (re-fetched 2026-11-17; earlier fetches read 156,451 on 11-16, 166,661 on 11-13, and a flat 147,731 on 11-07, rolling-window swings).
+About 30.3k stars as of 2026-10-16 and 2,147 forks as of 2026-11-19, created 2025-03-23, pushed 2026-11-18 (the 2026-11-15 fix batch recorded below, then project file reads using the documented encoding fallback and HTML-based banner support with a local-server test switch, both unreleased), latest release v2.1.0 on 2026-10-19 (Claude Desktop chat-mode compatibility restored, the TypeScript language server pinned to Serena's own install in untrusted projects, VB.NET and native TypeScript 7 language-server support, a dashboard welcome pane for the auto-open preference), following v2.0.0 on 2026-10-13, the release that added the Serena REPL, a new agent interface reducing the tool set to a minimum and running all Serena operations from a general code-execution environment (GitHub API and release notes), with the PyPI package at 2.1.0 across 17 releases and 157,485 downloads in the trailing month (re-fetched 2026-11-17; earlier fetches read 156,451 on 11-16, 166,661 on 11-13, and a flat 147,731 on 11-07, rolling-window swings).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=oraios/serena&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ My disagreeable claim: Serena's growth proves the embedding-index era of code co
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched and intact (the README's claims hold, over 40 languages, the marketplace-installs warning, the self-run agent evaluation now also carrying GLM 5.1 and Junie result pages, the per-component license, the docs hub, PyPI still at 2.1.0 across 17 releases with no release since v2.1.0); forks, JetBrains installs (about 20.2k), and the trailing-month download as-of refreshed; no claim changed.
 - 2026-11-13 - Full rotation re-verification: every cited URL re-fetched and intact (the README's claims hold, over 40 languages, the marketplace-installs warning, the self-run agent evaluation, the per-component license, the docs hub, the comment-level HN footprint, PyPI still at 2.1.0 across 17 releases with no release since v2.1.0); forks, JetBrains installs (about 20.4k), and the trailing-month download figure refreshed (166,661, up from the flat 147,731 recorded 2026-11-07); no claim changed.
 - 2026-11-17 - Full rotation re-verification: every cited URL re-fetched and intact (the README's claims hold, over 40 languages, the marketplace-installs warning, the self-run agent evaluation, the per-component license, the docs hub, the comment-level HN footprint, PyPI still at 2.1.0 across 17 releases with no release since v2.1.0, the marketplace API at 20,435 installs); the 2026-11-15 pushed batch stands as recorded 2026-11-16 with nothing newer on main; forks re-checked unchanged at 2,145 and the trailing-month download figure refreshed (157,485 as of 2026-11-17, earlier fetches read 156,451 on 11-16, 166,661 on 11-13, and a flat 147,731 on 11-07); no claim changed.
+- 2026-11-19 - Recorded main's unreleased 2026-11-18 batch (project file reads using the documented encoding fallback, HTML-based banner support with a local-server test switch); PyPI re-checked unchanged at 2.1.0 across 17 releases; forks refreshed (2,147).
 
 ## See also
 

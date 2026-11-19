@@ -1,7 +1,7 @@
 ---
 title: Paseo
 created: 2026-08-30
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, mobile, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: about 20.9k stars (20,928) as of 2026-10-15, 2.5k forks, and 1,291 open issues and PRs, created 2025-10-13, with more than 6,100 commits on main (GitHub API, as of 2026-11-17, pushed 2026-11-17).
+Young and fast: about 20.9k stars (20,928) as of 2026-10-15, 2.5k forks, and 1,291 open issues and PRs, created 2025-10-13, with more than 6,100 commits on main (GitHub API, as of 2026-11-19, pushed 2026-11-19).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getpaseo/paseo&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Young and fast: about 20.9k stars (20,928) as of 2026-10-15, 2.5k forks, and 1,2
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=getpaseo/paseo&type=date&legend=top-left" />
 </picture>
 
-The v0.10 line went stable on 2026-09-28 with v0.10.0 and v0.10.1 shipping the same day, v0.10.2 (OpenCode v2 header-timeout, context-meter, and question-card fixes) followed on 2026-09-30, v0.10.3 (October 2) added a confirmation before a pairing link connects to a new or changed host, a supply-chain-style hardening for the relay, and the v0.11 line went stable on 2026-10-07 with v0.11.1 after beta.5, then v0.11.2 (October 9), v0.11.3 (October 15, the Hoplite ACP provider and a searchable provider catalog), and v0.11.4 (October 15, a Hoplite settings fix), with the v0.12 beta line that opened on 2026-10-16 going stable as v0.12.0 on 2026-10-19, v0.13.0 following on 2026-10-24 (foldable-phone layouts, agents delegating work to other machines through `paseo host add`, plugin file panels and translations), and v0.13.1 with v0.13.2 on 2026-10-26 (a startup-crash fix with Show background and eight or more workspaces, then Android animation fixes), v0.14.0 following on 2026-10-29 with a v0.15.0-beta.1 prerelease on 2026-11-01 and v0.15.0 going stable on 2026-11-03 (daemon restarts now keep terminal programs running, interrupted agents resume in their existing conversations under agent recovery, and mobile terminals render natively with draggable text selection), then v0.15.2 on 2026-11-05, v0.15.3 on 2026-11-06, and v0.15.4 on 2026-11-10, with the v0.16.0 feature minor following on 2026-11-16 (background tasks visible and stoppable above the composer for Claude Code, Codex, and OpenCode v2, a built-in plugin gallery with in-app install and settings, command-center tabs, and plugins gaining sidebar views and composer controls) and v0.16.1 on 2026-11-17 (Claude Bypass no longer approving actions a `permissions.ask` rule or an ask-returning hook required a permission card for), after v0.9.2 (2026-09-24), v0.9.0 going stable with v0.9.1 the same day (September 22), the v0.9.0 betas of September 17-18, and v0.8.0 (2026-09-10, plugin header buttons, custom providers, and richer chat components), alongside 165 contributors and an active subreddit and Discord.
+The v0.10 line went stable on 2026-09-28 with v0.10.0 and v0.10.1 shipping the same day, v0.10.2 (OpenCode v2 header-timeout, context-meter, and question-card fixes) followed on 2026-09-30, v0.10.3 (October 2) added a confirmation before a pairing link connects to a new or changed host, a supply-chain-style hardening for the relay, and the v0.11 line went stable on 2026-10-07 with v0.11.1 after beta.5, then v0.11.2 (October 9), v0.11.3 (October 15, the Hoplite ACP provider and a searchable provider catalog), and v0.11.4 (October 15, a Hoplite settings fix), with the v0.12 beta line that opened on 2026-10-16 going stable as v0.12.0 on 2026-10-19, v0.13.0 following on 2026-10-24 (foldable-phone layouts, agents delegating work to other machines through `paseo host add`, plugin file panels and translations), and v0.13.1 with v0.13.2 on 2026-10-26 (a startup-crash fix with Show background and eight or more workspaces, then Android animation fixes), v0.14.0 following on 2026-10-29 with a v0.15.0-beta.1 prerelease on 2026-11-01 and v0.15.0 going stable on 2026-11-03 (daemon restarts now keep terminal programs running, interrupted agents resume in their existing conversations under agent recovery, and mobile terminals render natively with draggable text selection), then v0.15.2 on 2026-11-05, v0.15.3 on 2026-11-06, and v0.15.4 on 2026-11-10, with the v0.16.0 feature minor following on 2026-11-16 (background tasks visible and stoppable above the composer for Claude Code, Codex, and OpenCode v2, a built-in plugin gallery with in-app install and settings, command-center tabs, and plugins gaining sidebar views and composer controls), v0.16.1 on 2026-11-17 (Claude Bypass no longer approving actions a `permissions.ask` rule or an ask-returning hook required a permission card for), and v0.16.2 on 2026-11-18 (Collapse turns no longer hiding a finished reply behind a background-task notification, detached-worktree commits kept on workspace archive, and desktop updates no longer leaving an older daemon running), after v0.9.2 (2026-09-24), v0.9.0 going stable with v0.9.1 the same day (September 22), the v0.9.0 betas of September 17-18, and v0.8.0 (2026-09-10, plugin header buttons, custom providers, and richer chat components), alongside 165 contributors and an active subreddit and Discord.
 **The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at $15 per seat per month.**
 
 ## Strengths
@@ -102,6 +102,7 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 - 2026-11-15 - Re-verified in rotation: every cited URL re-fetched and live (site, hub docs, hosted-hub docs, supported providers, HN thread, repo, chart); the push date refreshed to 2026-11-15, no other drift.
 - 2026-11-16 - Recorded v0.16.0 (2026-11-16, the feature minor: background tasks above the composer, a built-in plugin gallery, command-center tabs, plugin sidebar and composer controls) on the release train.
 - 2026-11-17 - Recorded v0.16.1 (2026-11-17, the Claude Bypass permission-card fix) on the release train, the push date refreshed to 2026-11-17.
+- 2026-11-19 - Volatile refresh: recorded v0.16.2 (2026-11-18, the Collapse-turns reply fix, detached-worktree commits kept on archive, and the stale-daemon update fix) on the release train, the push date refreshed to 2026-11-19.
 
 ## See also
 

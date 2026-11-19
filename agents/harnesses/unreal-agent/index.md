@@ -1,7 +1,7 @@
 ---
 title: Unreal Agent
 created: 2026-09-25
-updated: 2026-11-13
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, coding-agent, go, async]
 readability: 3
@@ -22,7 +22,7 @@ Unreal Labs says it was founded by engineers from CERN, Meta, Snap, Bloomberg, a
 ## Status
 
 Active and five weeks old.
-The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 247 points as of 2026-10-18 (122 comments as of 2026-09-25), and the repo stood at 2,187 stars and 125 forks with its default branch last committed 2026-10-06 (the repository-level pushed date moved to 2026-11-01 on side branches, GitHub, as of 2026-11-04).
+The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 247 points as of 2026-10-18 (122 comments as of 2026-09-25), and the repo stood at 2,187 stars and 125 forks with its default branch last committed 2026-10-06 (the repository-level pushed date last moved to 2026-11-01 on side branches, GitHub, as of 2026-11-19).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=unreallabsai/unreal-agent&type=date&theme=dark&legend=top-left" />
@@ -74,6 +74,7 @@ The plain summary is that its one claim, async tool calls cut harness token over
 - 2026-10-28 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the push date to 2026-10-23.
 - 2026-11-04 - Rotation re-verification, re-fetching every cited reference (all live), and corrected the liveness reading against the default branch per the pushed-date ruling: the default branch has been quiet since 2026-10-06, the repository-level pushed date of 2026-11-01 having moved on side branches; the release set (v0.3.1 still newest) and the launch-thread figures re-confirmed unchanged.
 - 2026-11-13 - Rotation re-verification, re-fetching every cited reference (all live): the vendor blog, company site, the cited HarnessTax study, and the launch thread (247 points as of 2026-11-13) all re-confirmed unchanged, with the default branch quiet since 2026-10-06 and v0.3.1 still the newest release.
+- 2026-11-19 - Rotation re-verification, re-fetching every cited reference (all live): the vendor blog, company site, the cited HarnessTax study, and the launch thread re-confirmed unchanged, with the default branch quiet since 2026-10-06 and v0.3.1 still the newest release.
 
 ## See also
 

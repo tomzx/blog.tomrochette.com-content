@@ -1,7 +1,7 @@
 ---
 title: "Context Management Patterns"
 created: 2026-08-24
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a token budget is and have watched an agent degrade after its window filled.
 ---
 
-This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files; verified against harness documentation as of 2026-11-17.
+This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files; verified against harness documentation as of 2026-11-19.
 
 **Every working pattern does one thing, it keeps the window small and fresh, and in 2026 the harness-native features (compaction, subagents, memory files) deliver more of that value than any retrieval pipeline you can buy.**
 My disagreeable claim: below a few hundred thousand lines of code, a short memory file plus automatic compaction beats a bespoke RAG stack, and teams buying context engines before learning their harness's `/compact` are paying money to avoid learning a skill.
@@ -124,6 +124,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - 2026-11-08 - Link check: all nine cited pages fetched 200, the compaction-survival, skill-cap, idle-compaction, v2.1.304, and /autocompact claims re-checked against the live context-window page with nothing to correct, and the intro as-of left at 2026-11-03 since no fact moved.
 - 2026-11-14 - Link check: all nine cited pages fetched 200, the compaction-survival, skill-cap (5,000 per skill and 25,000 total, oldest dropped first), idle-compaction, v2.1.304 skill-description rebuild, /autocompact, and summary-contents claims re-checked against the live context-window and how-claude-code-works pages with nothing to correct, and the intro as-of left at 2026-11-03 since no fact moved.
 - 2026-11-17 - Link check with one repoint: all nine cited pages fetched 200, the Anthropic engineering post's URL began redirecting from /engineering/ to /research/ and the reference was repointed, and the compaction-survival enumeration re-checked against the live context-window page with nothing to correct (up to five of the session's read-or-edited files re-read by recency, invoked-skill bodies capped at 5,000 per skill and 25,000 in total with the oldest dropped first, skill descriptions rebuilt since v2.1.304, idle compaction named, /autocompact with a token count); the intro as-of re-dated to this run's full re-fetch.
+- 2026-11-19 - Link check with one repoint: all nine cited pages fetched 200 (the OpenCode TUI page repointed to docs/cli/tui/ after its old path began redirecting), the compaction-survival enumeration, skill caps (5,000 per skill and 25,000 in total, oldest dropped first), v2.1.304 skill-description rebuild, /autocompact, and idle-compaction claims re-checked against the live context-window page with nothing to correct, and the intro as-of re-dated to this run's full re-fetch.
 
 ## See also
 
@@ -141,6 +142,6 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - https://code.claude.com/docs/en/context-window - the compaction-survival documentation: summary contents, up to five of the session's read-or-edited files re-read by recency, invoked-skill bodies re-injected with the 5,000 and 25,000 token caps and oldest-dropped-first, skill descriptions rebuilt and re-injected since v2.1.304, and the named idle-compaction behavior (fetched 2026-10-23, 2026-10-31, and again 2026-11-03, the page now organizing survival per mechanism and naming idle compaction)
 - https://code.claude.com/docs/en/how-claude-code-works - the when-context-fills-up section whose summary claim (requests and key code snippets kept, detailed early instructions may be lost) the compaction paragraph now cites (fetched 2026-10-31)
 - https://learn.chatgpt.com/docs/reference/slash-commands - Codex /compact, /status context usage, and /side (the developers.openai.com URL redirects here)
-- https://opencode.ai/docs/tui - OpenCode /compact (alias /summarize), /new (alias /clear), and @ file references
+- https://opencode.ai/docs/cli/tui/ - OpenCode /compact (alias /summarize), /new (alias /clear), and @ file references
 - https://raw.githubusercontent.com/google-gemini/gemini-cli/main/docs/cli/auto-memory.md - Gemini CLI Auto Memory: review-gated extraction of memory patches and skills from past sessions
 - https://arxiv.org/abs/2307.03172 - Lost in the Middle: recall degrades for information in the middle of long contexts

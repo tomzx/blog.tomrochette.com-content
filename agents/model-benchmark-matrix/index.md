@@ -1,7 +1,7 @@
 ---
 title: "Model Benchmark Matrix"
 created: 2026-09-24
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, comparison, benchmarks, evaluation, model-selection]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what pass@1, a fail-to-pass test, and an agentic harness are; each row links the benchmark's own site or paper.
 ---
 
-This matrix indexes the model benchmarks an engineer actually meets on model cards, vendor blogs, and leaderboards, as of 2026-11-17, with one or two sentences per benchmark on what it evaluates and a note on how far I trust the reading.
+This matrix indexes the model benchmarks an engineer actually meets on model cards, vendor blogs, and leaderboards, as of 2026-11-19, with one or two sentences per benchmark on what it evaluates and a note on how far I trust the reading.
 It covers thirty-three benchmarks.
 The curation rule: each board has an official site or paper I fetched this run, publishes results someone other than the submitter can check, and appears in recent model comparisons.
 That rule excludes the harness benchmarks ([FrontierHarness Eval](../evaluation-review/frontierharness-eval/index.md) and [HarnessTax](../evaluation-review/harnesstax/index.md)), which hold the model constant and judge the harness instead, and decision-model boards like [JevBench](../hybrid-execution/jevbench/index.md), which live in their own category.
@@ -122,6 +122,7 @@ When two boards rank the same models differently, the gap tells you where the mo
 - 2026-11-08 - Link re-verification: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims), Terminal-Bench still at 4.0 on its homepage, and the intro as-of left at 2026-11-05 since no fact moved.
 - 2026-11-14 - Link re-verification with one fact move: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims), and Terminal-Bench's homepage now reading Terminal-Bench 4.1, the version cell and the intro as-of moved to today.
 - 2026-11-17 - Link re-verification: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims) and the-agent-company.com's one 503 that cleared on retry; the arcprize and FrontierMath trailing-slash URLs began 308- and 301-redirecting to their no-slash canonical forms, the four table and reference links repointed; Terminal-Bench still at 4.1 on its homepage, and the intro as-of re-dated to this run's full re-fetch.
+- 2026-11-19 - Link re-verification: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims), Terminal-Bench still at 4.1 on its homepage, and the intro as-of re-dated to this run's full re-fetch.
 
 ## See also
 

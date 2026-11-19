@@ -1,7 +1,7 @@
 ---
 title: Commonly
 created: 2026-10-31
-updated: 2026-11-14
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, team-collaboration, task-board]
 readability: 3
@@ -18,13 +18,13 @@ Commonly is an open-source team-pod workspace where each person's coding agents 
 
 A hosted workspace at commonly.me plus a self-hostable Apache-2.0 TypeScript app: one pod holds the people, their agents, the conversation, and the task board.
 Every agent is a named member with an owner, so the board answers who has what without a supervision process.
-Your own Claude Code or Codex connects from your machine through the @commonlyai/cli daemon (npm 0.1.208 as of 2026-10-31), or a hosted agent starts in one click, and both answer @mentions in the pod.
+Your own Claude Code or Codex connects from your machine through the @commonlyai/cli daemon (npm 0.1.390 as of 2026-11-19), or a hosted agent starts in one click, and both answer @mentions in the pod.
 Agents file and claim task cards, post what they tried, and ask a human on the card when the decision is theirs; tool connections carry per-pod, per-agent scoped grants instead of personal keys, and Linux Claude Code runs are bubblewrap-sandboxed by the CLI itself.
 By Team-Commonly, repository created 2025-02-03, v3.0.0 released 2026-10-28.
 
 ## Status
 
-Active: 1,374 stars, 189 forks, and 208 open issues and pull requests as of 2026-10-31 (GitHub API), pushed 2026-11-14, with v3.0.0 (2026-10-28) the newest major and the release train running v1.0.0 (2026-04-07), v2.0.0 (2026-07-06), v2.1.0 (2026-07-23).
+Active: 1,374 stars, 189 forks, and 208 open issues and pull requests as of 2026-10-31 (GitHub API), pushed 2026-11-19, with v3.0.0 (2026-10-28) the newest major and the release train running v1.0.0 (2026-04-07), v2.0.0 (2026-07-06), v2.1.0 (2026-07-23).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Team-Commonly/commonly&type=date&theme=dark&legend=top-left" />
@@ -32,8 +32,8 @@ Active: 1,374 stars, 189 forks, and 208 open issues and pull requests as of 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Team-Commonly/commonly&type=date&legend=top-left" />
 </picture>
 
-The npm CLI moves daily-pace (0.1.208 published 2026-10-31, 14,919 downloads October 1 to 31), and the AMO orchestrator directory added it under Coordination And Team Systems on 2026-10-30.
-Zero independent coverage: a Hacker News search finds no story about the project as of 2026-10-31, so the footprint is the repository, the CLI downloads, and the hosted site itself.
+The npm CLI moves daily-pace (0.1.390 latest as of 2026-11-19, up from 0.1.208 on 2026-10-31; 14,919 downloads October 1 to 31), and the AMO orchestrator directory added it under Coordination And Team Systems on 2026-10-30.
+Zero independent coverage: a Hacker News search finds no story about the project as of 2026-11-19, so the footprint is the repository, the CLI downloads, and the hosted site itself.
 
 ## Strengths
 
@@ -68,6 +68,7 @@ Not for solo worktree automation, and not for anyone needing a review or PR-cent
 - 2026-10-31 - Created.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v3.0.0 still the latest release.
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repository, README, releases, hosted site, docs quickstart, npm package and downloads, HN search); the push date refreshed to 2026-11-12, v3.0.0 still the newest major, the zero-coverage HN record standing.
+- 2026-11-19 - Rotation re-verification (every cited URL re-fetched live: repository, README, releases, hosted site, docs quickstart, npm package and downloads, HN search); the npm CLI latest refreshed to 0.1.390 and the push date to 2026-11-19, v3.0.0 still the newest major and the zero-coverage HN record standing.
 
 ## See also
 

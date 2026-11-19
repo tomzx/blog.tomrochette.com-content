@@ -1,7 +1,7 @@
 ---
 title: Vibeyard
 created: 2026-10-10
-updated: 2026-11-14
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, session-management, open-source]
 readability: 3
@@ -77,6 +77,7 @@ Not for anyone who needs a cockpit whose release notes explain what shipped (Ope
 - 2026-11-03 - Volatile re-verification on the pushed signal, all cited URLs re-fetched live: the quiet broke on the code side, the repository pushed 2026-11-01 with the unreleased vibeyard-ctl external agent-control feature (pull request #169 closing issue #168), while the release train still ends at v0.3.8 (2026-09-03) and the README still lists the coming-soon providers; the status, cautions, and bottom line rewritten around the quiet train and the unshipped work.
 - 2026-11-13 - Rotation re-verification, all cited URLs re-fetched live: the quiet stands, the repository still pushed 2026-11-01 and not archived with no release after v0.3.8 (2026-09-03, about ten weeks), the README unchanged with the coming-soon providers still unshipped and vibeyard-ctl still unreleased, and the HN search still returning the one 2-point Show HN.
 - 2026-11-14 - Volatile re-verification on the released signal (full note re-verified the same run), all cited URLs re-fetched live: the ten-week quiet broke on 2026-11-13 with v0.3.9 (no written notes) and v0.3.10 (a release-pipeline fix only, per its notes) as the new latest releases, the README now documents vibeyard-ctl as an opt-in tab-control server for agents with the not-a-security-boundary token caveat and shows Windows installers beside the macOS and Linux builds, while the coming-soon providers remain unshipped and the HN footprint still reads one 2-point Show HN; the status, cautions, and bottom line rewritten around the resumed-but-unexplained train.
+- 2026-11-19 - Rotation re-verification, all cited URLs re-fetched live: the repository (pushed 2026-11-13, MIT, not archived), the README with the vibeyard-ctl section and the coming-soon providers still unshipped, the release train at v0.3.10 and v0.3.9 (November 13) above v0.3.8, the HN search still returning the lone 2-point Show HN among vineyard noise, and the Show HN thread all stand.
 
 ## See also
 

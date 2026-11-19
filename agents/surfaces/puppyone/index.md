@@ -1,7 +1,7 @@
 ---
 title: puppyone
 created: 2026-10-27
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source, agent-context]
 readability: 3
@@ -81,6 +81,7 @@ Not for anyone needing a session grid, scheduled work, or a product with an inde
 - 2026-11-06 - Rotation re-verification, all cited URLs re-fetched live: the zero-footprint HN search, the Context File System docs, and the cloud pricing ladder (Free, Developer $19, Team $99) all stand; recorded the desktop release train reaching v0.4.2 (November 5, signed and notarized builds carrying no written changelog), the README and site now pitching the local and cloud folder with the cloud side self-hostable through a separate repository, and the agent table widened with Hermes locally and five consumer agents cloud-only.
 - 2026-11-13 - Volatile re-verification on the released signal, recorded v0.4.3 and v0.4.4 (both November 11, signed and notarized builds whose notes still carry build and mirror metadata only) as the new latest desktop releases.
 - 2026-11-17 - Volatile re-verification on the pushed signal, release train unchanged at v0.4.4, and corrected the release-notes reading: v0.4.4's entry does carry written content, naming a Whiteboard feature with native login networking and proxy-aware sign-in through two PR titles, where the November 13 pass recorded the 0.4.x notes as build and mirror metadata only.
+- 2026-11-19 - Volatile re-verification on the pushed signal resolved per the default-branch ruling: pushed_at reads 2026-11-19 on side branches while the default branch's latest commit sits at 2026-11-11 (the v0.4.4 upload recovery), release train unchanged at v0.4.4.
 
 ## See also
 

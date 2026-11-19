@@ -1,7 +1,7 @@
 ---
 title: herdr
 created: 2026-10-10
-updated: 2026-11-12
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal-multiplexer, rust, agent-automation, session-persistence]
 readability: 3
@@ -74,6 +74,7 @@ My disagreeable claim: **herdr is the first column in this category whose produc
 - 2026-10-31 - Recorded the ecosystem pair from the broad-source scan: the vendor's herdr-core engine repository (193 stars as of 2026-10-31) and the derived 10-star herduck terminal app.
 - 2026-11-04 - Status refresh: the default-branch record corrected (latest commit 2026-10-29, the 2026-11-03 repository push side-branch only) per the pushed-at divergence rule; v0.9.5 still the latest stable.
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repo API, README, releases, both docs pages, both blog posts, HN search, herdr-core, herduck); no factual drift, the default branch's latest commit still 2026-10-29 with later repository pushes on side branches, v0.9.5 still the latest stable.
+- 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (repo API, README, releases, both docs pages, both blog posts, the HN search and thread, herdr-core, herduck); no drift, v0.9.5 (2026-10-14) still the latest release and the default branch quiet since 2026-10-29.
 
 ## See also
 

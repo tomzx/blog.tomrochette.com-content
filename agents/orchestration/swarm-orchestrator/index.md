@@ -1,7 +1,7 @@
 ---
 title: Swarm Orchestrator
 created: 2026-10-24
-updated: 2026-11-13
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, coding-agent, evidence, git-worktrees]
 readability: 3
@@ -27,7 +27,7 @@ The package name has carried four products: Copilot CLI session orchestration, t
 ## Status
 
 Active and fast-moving under one maintainer: the repository was created 2026-01-22, held 112 stars, 5 forks, and 5 open issues as of 2026-10-24, was pushed 2026-11-06 (GitHub API, as of 2026-11-07), and its 1,586 commits all belong to one contributor.
-The GitHub release line moved to v15.0.0 on 2026-10-30, the verifier-first rebuild (ADR 0014) that supersedes the unreleased 14.5.0 work and turns `swarm run` into a single-bash-tool loop through the chokepoint, with the standalone verifier rebuilt as swarm-verify 2.0.0 alongside it, while npm still serves 14.4.0 (2026-10-10) as latest and the README still says 13.1.9; the package drew 540 downloads in the month ending 2026-10-29 (npm registry and downloads API, as of 2026-10-31).
+The GitHub release line moved to v15.0.0 on 2026-10-30, the verifier-first rebuild (ADR 0014) that supersedes the unreleased 14.5.0 work and turns `swarm run` into a single-bash-tool loop through the chokepoint, with the standalone verifier rebuilt as swarm-verify 2.0.0 alongside it, while the npm train has moved past the release page to 16.0.4 (22 published versions, latest as of 2026-11-19) and the README still says 13.1.9; the package drew 1,204 downloads in the trailing month to 2026-11-17 (npm registry and downloads API, as of 2026-11-19, after 540 in the month ending 2026-10-29).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=moonrunnerkc/swarm-orchestrator&type=date&theme=dark&legend=top-left" />
@@ -76,6 +76,7 @@ Not for teams wanting a GUI or supervision of Claude Code and friends, and not f
 - 2026-10-31 - Re-verified in rotation: every cited URL re-fetched, one citation repaired (docs/claims.md moved from the v13-main branch to main in the rebuild); recorded v15.0.0 (2026-10-30, the verifier-first rebuild with swarm-verify 2.0.0) on the GitHub release line while npm still serves 14.4.0, and the download month easing to 540.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v15.0.0 still the latest release.
 - 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); no factual drift.
+- 2026-11-19 - Rotation re-verification (every cited URL re-fetched live: repo API, README, the claims doc, npm registry and downloads, releases, contributors, HN search); recorded the npm train moving past the release page to 16.0.4 with trailing-month downloads of 1,204 to 2026-11-17, the GitHub release line still topping at v15.0.0.
 
 ## See also
 

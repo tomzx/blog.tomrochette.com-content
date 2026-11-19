@@ -1,7 +1,7 @@
 ---
 title: Google Antigravity
 created: 2026-08-24
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, google]
 readability: 3
@@ -28,8 +28,8 @@ Enterprise access went live through Google Cloud and Gemini Enterprise subscript
 
 ## Strengths
 
-- **The free individual tier is not a teaser**: unlimited tab completions and command requests with weekly rate limits, now carrying Gemini 3.8 Flash beside Claude Sonnet 4.6 and Opus 4.6 (thinking) and GPT-OSS 120B, the last three one day from their November 18, 2026 removal, while Gemini 3.1 Pro and the 3.6 to 3.7 Flash pair stay Enterprise-only in the models docs (re-verified 2026-11-17).
-- Paid tiers pulled further ahead of the free list: Gemini 4 Argon (October 13), Gemini 4 Carbon (Ultra and Enterprise, shipped with /swarm), Gemini 4 Hydrogen (Pro and Ultra, with the xhigh thinking tier), the Orchestrator planner-plus-Hydrogen pairs (Orchestrator (Carbon) Ultra-only, Orchestrator (Argon) Ultra and paid Pro), and Claude Sonnet 5.5 and Opus 5.5 (thinking) are Pro and Ultra models, with the Claude pair on non-trial Pro only.
+- **The free individual tier is not a teaser**: unlimited tab completions and command requests with weekly rate limits, still carrying Gemini 3.8 Flash beside Claude Sonnet 4.6, Opus 4.6 (thinking), and GPT-OSS 120B, whose November 18, 2026 removal footnote stands unchanged in the models docs one day past the date (re-fetched 2026-11-19), while 3.1 Pro and the 3.6 to 3.7 Flash pair stay Enterprise-only.
+- Paid tiers pulled further ahead of the free list: Gemini 4 Argon (October 13), Gemini 4 Carbon (Ultra and Enterprise, shipped with /swarm), Gemini 4 Hydrogen (Pro and Ultra, with the xhigh thinking tier), Gemini 4 Neon (announced November 18, 2026: the new default reasoning model on paid Pro, Ultra, and Enterprise with a 512K context window and Low-to-Extra thinking levels including Extra High, 32% lower cost per task than Carbon at default High per the announcement, and Orchestrator (Neon) pairing Neon planning with Hydrogen execution on Ultra and paid Pro), the Orchestrator planner-plus-Hydrogen pairs (Orchestrator (Carbon) Ultra-only, Orchestrator (Argon) Ultra and paid Pro), and Claude Sonnet 5.5 and Opus 5.5 (thinking) are Pro and Ultra models, with the Claude pair on non-trial Pro only.
 - The SDK runs agents on local models with no API key: on-device through LiteRT (Gemma 4 26B) or against OpenAI-compatible local servers such as Ollama, LM Studio, and vLLM.
 - Multi-agent parallel management in the 2.0 desktop app matches what Cursor and OpenChamber charge for.
 - The SDK makes the harness a platform primitive, not just a product.
@@ -81,6 +81,7 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 - 2026-11-04 - Rotation re-verification, all eleven cited URLs re-fetched live: the removal dates on the Claude Sonnet 4.6, Opus 4.6, and GPT-OSS-120b free-tier models moved from November 2 to November 18, 2026 in the models docs, and the pricing page, plans page, SDK local-models page, Argon post, Gemini CLI transition post, and all four threads stand; prices unchanged.
 - 2026-11-13 - Rotation re-verification, all cited URLs re-fetched live: the models table stands with the November 18, 2026 removal dates five days out, Argon still on the paid tiers, 3.1 Pro and the 3.6 to 3.7 Flash pair still Enterprise-only, and the pricing page, plans page (no BYOK), SDK local-models page, Argon post, Gemini CLI transition post, and all four threads (1088, 768, 771, and 338 points) unchanged; prices unchanged.
 - 2026-11-17 - Rotation re-verification, all cited URLs re-fetched live: recorded Gemini 4 Hydrogen and the Orchestrator pairs joining the paid tiers per the November 10 Carbon-and-/swarm post and the November 12 Hydrogen-and-Orchestrator post (Hydrogen on Pro and Ultra with the xhigh tier, Orchestrator (Carbon) Ultra-only, Orchestrator (Argon) Ultra and paid Pro), and the models table now carrying all three Gemini 4 entries; the November 18, 2026 removal date on the free Claude Sonnet 4.6, Opus 4.6, and GPT-OSS-120b rows stands one day out, 3.1 Pro and the 3.6 to 3.7 Flash pair stay Enterprise-only, the no-BYOK plans statement and the SDK local-models page stand, and all four threads (1088, 768, 771, 338 points) are unchanged; prices unchanged.
+- 2026-11-19 - Out-of-rotation re-verification on the passed removal date: the models docs re-fetched 2026-11-19 still list the free Claude Sonnet 4.6, Opus 4.6 (thinking), and GPT-OSS 120B rows with the unchanged November 18, 2026 removal footnote one day past the date, and recorded Gemini 4 Neon joining the paid tiers (announced November 18, default reasoning model with a 512K window and the Extra thinking level, beside Orchestrator (Neon) pairing Neon planning with Hydrogen execution).
 
 ## See also
 
@@ -93,7 +94,8 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 
 - https://antigravity.google/ - product family, 2.0 command center, IDE, CLI, SDK, re-verified 2026-10-25
 - https://antigravity.google/pricing - tiers, model lists, weekly limits, enterprise terms, re-verified 2026-10-25 (unchanged from the 2026-10-06 reading)
-- https://antigravity.google/docs/models - the model availability table: Gemini 4 Carbon, Gemini 4 Argon, Gemini 4 Hydrogen, and the Orchestrator (Carbon) and Orchestrator (Argon) pairs on the paid columns, 3.8 Flash and the Claude 4.6 pair and GPT-OSS 120B on the free columns with the November 18, 2026 removal dates, and 3.1 Pro plus 3.6/3.7 Flash Enterprise-only, re-verified 2026-11-17
+- https://antigravity.google/docs/models - the model availability table: Gemini 4 Carbon, Gemini 4 Argon, Gemini 4 Hydrogen, Gemini 4 Neon, and the Orchestrator (Carbon), Orchestrator (Argon), and Orchestrator (Neon) pairs on the paid columns, 3.8 Flash and the Claude 4.6 pair and GPT-OSS 120B on the free columns with the November 18, 2026 removal dates, and 3.1 Pro plus 3.6/3.7 Flash Enterprise-only, re-verified 2026-11-19
+- https://antigravity.google/blog/gemini-4-neon-in-google-antigravity - the November 18, 2026 post: Gemini 4 Neon as the new default reasoning model on paid Pro, Ultra, and Enterprise with a 512K context window and Low-to-Extra thinking levels including Extra High, 32% lower cost per task than Carbon at default High, and Orchestrator (Neon) pairing Neon planning with Hydrogen execution on Ultra and paid Pro, fetched 2026-11-19
 - https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity - the November 12, 2026 post: Hydrogen rolling out to paid Pro and Ultra with the xhigh thinking tier, Orchestrator (Carbon) Ultra-only and Orchestrator (Argon) Ultra and paid Pro, and the Terminal-Bench 4.1 Orchestrator results (near-Carbon success at 24% less quota and 19% faster), fetched 2026-11-17
 - https://antigravity.google/blog/gemini-4-argon-in-google-antigravity - the October 13, 2026 Argon rollout post: Pro and Ultra subscribers, desktop app and CLI first, Gemini Enterprise and API for business, re-verified 2026-10-25
 - https://antigravity.google/docs/plans/ - the free tier's weekly quota, the five-hour refresh on paid tiers, and the explicit no-BYOK statement, re-verified 2026-10-25 (unchanged)

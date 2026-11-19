@@ -1,7 +1,7 @@
 ---
 title: cc-haha
 created: 2026-10-11
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, source-available, claude-code]
 readability: 3
@@ -80,6 +80,7 @@ Not for teams that need an English-first project, a 1.0 stability guarantee, or 
 - 2026-11-06 - Volatile re-verification on the released signal, recorded v0.7.7 (November 5, background mobile reminders without a self-hosted push server, phone and tablet browsers on the mobile app's interface, input suggestions, session archiving, MCP servers shared to multiple projects, local-model voice input with AI correction, and native Computer Use components on Windows and Linux) as the new latest release.
 - 2026-11-13 - Volatile re-verification on the released signal, recorded v0.7.8 (November 10, away-mode phone-connection hardening with a keep-awake switch, tunnel-address persistence with automatic phone recovery, P2P direct connection from packaged builds, mid-turn permission-mode switching, the Claude Fable 5.2 entry, and WeChat media delivery) as the new latest release.
 - 2026-11-17 - Rotation re-verification, all cited URLs re-fetched live, and corrected the license record the earlier passes had missed: commits on 2026-10-15 adopted the cc-haha Community Source License 1.0 (source-available, noncommercial personal and internal business use permitted, commercial monetization requiring a written license, visible attribution required, historical MIT grants preserved) and removed the root MIT file, so the note's MIT and open-source claims are withdrawn across definition, pricing, and cautions; also recorded the README's IM channel list widening to eight (WeCom, QQ, and Slack joining the original five), the release train unchanged at v0.7.8 (the repo pushed 2026-11-17), and the zero-story HN search standing.
+- 2026-11-19 - Volatile re-verification on the pushed signal, release train unchanged at v0.7.8 with post-release fixes landing November 18 (bounded Codex streaming retries, the ChatGPT context-window fix, the packaged-app startup fix, and pending and unread session counts on the app icon).
 
 ## See also
 
@@ -91,7 +92,7 @@ Not for teams that need an English-first project, a 1.0 stability guarantee, or 
 ## References
 
 - https://github.com/NanmiCoder/cc-haha - repository, README feature list (sessions, worktrees, diff review, MCP and subagent management, Agent Teams, Computer Use, skills marketplace, IM access over eight channels, scheduled tasks), 15,023 stars and 8,609 forks as of 2026-10-16; re-fetched 2026-11-17 with the license badge reading Community Source and the README's own license section stating the source-available terms
-- https://api.github.com/repos/NanmiCoder/cc-haha - creation date 2026-03-31, language TypeScript, push date 2026-10-15, stars and forks as of 2026-10-16; re-fetched 2026-11-17 (pushed 2026-11-17, license field NOASSERTION, not archived)
+- https://api.github.com/repos/NanmiCoder/cc-haha - creation date 2026-03-31, language TypeScript, push date 2026-10-15, stars and forks as of 2026-10-16; re-fetched 2026-11-17 (pushed 2026-11-17, license field NOASSERTION, not archived), re-fetched again 2026-11-19 (pushed 2026-11-18, not archived)
 - https://raw.githubusercontent.com/NanmiCoder/cc-haha/main/LICENSE - the cc-haha Community Source License 1.0 text: noncommercial personal, education, research, and internal business use permitted, commercial monetization requiring a written license (relakkes@gmail.com), visible source attribution required on redistribution, historical MIT grants preserved, fetched 2026-11-17
 - https://github.com/NanmiCoder/cc-haha/releases - v0.7.5 (2026-10-20) as the latest release, after v0.7.4 (October 16), v0.7.3 and v0.7.2 (both October 15), v0.7.1 (October 11), v0.7.0 (October 8), and v0.6.8 (October 1), re-verified 2026-10-20
 - https://api.github.com/repos/NanmiCoder/cc-haha/releases/tags/v0.7.5 - the October 20 release notes: cross-session model delegation, the token-usage page redesign, the lean Agent profile, workspace document annotations, and the Gemini-on-OpenCode-Go, macOS fullscreen, and cache-hit fixes, fetched 2026-10-20

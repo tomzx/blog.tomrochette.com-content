@@ -1,7 +1,7 @@
 ---
 title: 1Code
 created: 2026-10-06
-updated: 2026-11-13
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, worktrees, dormant]
 readability: 3
@@ -74,6 +74,7 @@ Not for adoption; if the idea appeals, evaluate Emdash or the maintained closed 
 - 2026-10-31 - Rotation re-verification (every cited URL re-fetched live); the archive, the silent March push and release dates, and the domain redirect all stand, with the fork count refreshed to 606.
 - 2026-11-06 - Rotation re-verification (every cited URL re-fetched live); the archive, the silent March push and release dates, and the domain redirect all stand, no factual drift.
 - 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); the archive and the silent March push stand, but the product domain stopped redirecting and now serves 503 errors, recorded in Status and References.
+- 2026-11-19 - Rotation re-verification: repository, releases, API, and the launch thread re-fetched live; the archived-and-dead record unchanged, 1code.dev serving 503 again this run (citation kept per the server-trouble ruling).
 
 ## See also
 

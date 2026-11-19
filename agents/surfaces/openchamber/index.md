@@ -1,7 +1,7 @@
 ---
 title: OpenChamber
 created: 2026-08-24
-updated: 2026-11-15
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, agentic-development-environments, opencode, open-source]
 readability: 3
@@ -90,6 +90,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 - 2026-11-08 - Recorded v2.7.0 (November 8, the /new-extension builder whose agent-written extensions draw in chat, answer questions, act on sessions, and add actions, Office documents in the file viewer with editable formula tables beside read-only SQLite, Parquet, zip, and Jupyter viewers, run buttons on shell blocks in replies, the Session Totals cache card, and gt CLI Gitea sign-in) as the new latest release.
 - 2026-11-13 - Volatile re-verification on the released signal, recorded v2.7.1 (November 12, extensions working on the phone, unified conversation search across sidebar, Archive, and command palette, and the Memory organize pass with rule moves into AGENTS.md or a skill) as the new latest release.
 - 2026-11-15 - Volatile re-verification on the released signal, recorded v2.7.2 (November 15, share pages with link and PIN answers returning into the session, agent timer waits up to 24 hours, person-like browser control including embedded frames, Android home screen widgets, the folder-trust leak fix, and bundled OpenCode 2.3.0) as the new latest release.
+- 2026-11-19 - Volatile re-verification on the pushed signal, release train unchanged at v2.7.2 (November 15) with post-release fixes landing November 18 on the default branch (the retired bundled-OpenCode-CLI check narrowed and applied in VS Code, share-page shims on Windows builds, and session-lifecycle test hardening).
 
 ## See also
 

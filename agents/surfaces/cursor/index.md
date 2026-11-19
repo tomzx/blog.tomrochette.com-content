@@ -1,7 +1,7 @@
 ---
 title: Cursor
 created: 2026-08-23
-updated: 2026-11-14
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, surfaces, ai-editors, anysphere]
 readability: 3
@@ -86,6 +86,7 @@ Not for anyone who needs an open, auditable toolchain or a predictable bill.
 - 2026-11-08 - Recorded the closed distribution in Cautions (the public getcursor/cursor repository is an issue tracker pointing at the website, no product source, no license), correcting the matrix's Open source cell, which had carried an Apache-2.0 claim tracing to nothing.
 - 2026-11-13 - Recorded the proposed November 12 shutoff passing: OpenAI's announcement gained a November 12 update temporarily extending Cursor's model access beyond the date, and the models docs on 2026-11-13 still list GPT-5.6 Sol, Luna, and Terra with rate-card rows and no removal notice; the wall on openai.com (403 including the domain root under a browser user agent) is recorded and the citation stands.
 - 2026-11-14 - Coordinator correction from the section-root pass: the GPT-5.6 Sol promotional-pricing callout (through November 21) is back on the fetched models-and-pricing pages after the 2026-11-08 pass had recorded it gone; the Status line carries both readings dated.
+- 2026-11-19 - Rotation re-verification, all cited URLs re-fetched live: the X-fused pricing ladder stands unchanged, the models docs still list GPT-5.6 Sol, Luna, and Terra with no removal notice (the promotional-pricing callout not re-readable in this fetch, so the 2026-11-14 back-on reading stands dated), the openai.com 403 wall stands, the AGENTS.md rules docs, the acquisition post, the CNBC wind-down report, the docs index, both HN threads, and the getcursor/cursor issue-tracker repository all stand.
 
 ## See also
 
@@ -96,8 +97,8 @@ Not for anyone who needs an open, auditable toolchain or a predictable bill.
 
 ## References
 
-- https://cursor.com/pricing - the pricing page, restructured by 2026-10-13 into the X-fused ladder (Free, Plus $8, Premium $30, Super $100, Ultra $200, Teams from $30/user, Enterprise custom) with the weekly shared usage pool and the X Subscription Corp seller statement, re-fetched 2026-11-01 unchanged
-- https://cursor.com/docs/models-and-pricing - the legacy plan ladder (Pro $20, Pro+ $60, Ultra $200, Start ₹649, Teams Standard $40 and Premium $120), the per-model rate card, and the Cursor Token Rate; on 2026-11-13, one day past the proposed shutoff, the page still lists GPT-5.6 Sol, Luna, and Terra with full rate-card rows, no removal notice, and the "frontier models from OpenAI" lead-in
+- https://cursor.com/pricing - the pricing page, restructured by 2026-10-13 into the X-fused ladder (Free, Plus $8, Premium $30, Super $100, Ultra $200, Teams from $30/user, Enterprise custom) with the weekly shared usage pool and the X Subscription Corp seller statement, re-fetched 2026-11-01 unchanged, re-fetched 2026-11-19 unchanged
+- https://cursor.com/docs/models-and-pricing - the legacy plan ladder (Pro $20, Pro+ $60, Ultra $200, Start ₹649, Teams Standard $40 and Premium $120), the per-model rate card, and the Cursor Token Rate; on 2026-11-13, one day past the proposed shutoff, the page still lists GPT-5.6 Sol, Luna, and Terra with full rate-card rows, no removal notice, and the "frontier models from OpenAI" lead-in; re-fetched 2026-11-19 (the OpenAI rows still listed with no removal notice, the promotional-pricing callout not re-readable in this fetch, so the 2026-11-14 back-on reading stands dated)
 - https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ - the wind-down announcement, whose November 12, 2026 update line states Cursor's access was temporarily extended beyond November 12; the site serves 403 to plain and browser-UA fetches including the domain root, so the citation stands with the wall recorded and the update grounded by fetched captures quoting it
 - https://cursor.com/docs/rules - the rules system and AGENTS.md support in project root and subdirectories, as of 2026-10-05
 - https://cursor.com/blog/joining-spacex - the August 14, 2026 acquisition completion post

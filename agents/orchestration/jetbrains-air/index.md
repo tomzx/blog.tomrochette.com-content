@@ -1,7 +1,7 @@
 ---
 title: JetBrains Air
 created: 2026-09-12
-updated: 2026-11-13
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, jetbrains, agentic-development-environment]
 readability: 3
@@ -30,6 +30,7 @@ The last verifiable release remains 262.834.41 (2026-09-11), on a roughly monthl
 Re-fetched 2026-10-08, the redirect stands with no new verifiable release, and the homepage has grown the repositioning into named surfaces: Air Teams early access, the Air Gateway CLI, Air Context semantic indexing, and a mobile client marked coming soon, with cloud runs described as already available for some customers in IDEs and the browser ahead of a gradual rollout.
 Re-fetched 2026-10-12, the redirect still stands with no changelog and no new verifiable release, and the homepage's supported-agent roster has widened past the launch four: Claude Agent, Codex, Junie, Copilot, and OpenCode are now named beside "any you can connect via ACP", still under the same subscription bundle (homepage, as of 2026-10-12).
 Re-fetched 2026-10-27, the redirect still stands with no changelog and no new verifiable release, so 262.834.41 (2026-09-11) remains the last.
+Re-fetched 2026-11-19, the redirect and the help-site changelog both stand with no new verifiable release, so 262.834.41 (2026-09-11) remains the last.
 Re-fetched 2026-11-13, the standalone air.dev domain itself now redirects to www.jetbrains.com/air/, and the changelog resurfaced on the help site (www.jetbrains.com/help/air/changelog.html) repurposed as a weekly Air Governance console changelog through the week of November 8, 2026 with no desktop version numbers, so it does not re-ground the release line and 262.834.41 (2026-09-11) still stands as the last verifiable desktop release; the run-environments help page now redirects to air-teams-editor.html, moving the isolation model into the Air Teams editor documentation.
 Milestones: Codex support January 19, Gemini CLI and Junie with the Agent Review chain March 5, public preview March 9, Linux June 2, Windows June 29, ACP agents and Java/Kotlin intelligence July 15.
 Cloud execution, called tech preview at launch, has since shipped as documented cloud tasks, automations, and the org web version, governed through JetBrains Central Console, though the marketing homepage still files cloud and automations under "what's coming" as of 2026-09-18, so org-only availability runs ahead of the public pitch.
@@ -80,6 +81,7 @@ My disagreeable claim: the isolation-plus-oversight bundle Air sells is now tabl
 - 2026-10-27 - Re-verified in rotation: all cited sources re-fetched and live (air.dev, the changelog URL still redirected to the repositioned homepage, four help pages, the launch post, HN); 262.834.41 (2026-09-11) still the last verifiable release.
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live; three help pages renamed upstream (execution-environments to run-environments, cloud-tasks to tasks, set-up to set-up-air-teams) and the reference list moved to the new canonical paths; the changelog still redirects and 262.834.41 (2026-09-11) remains the last verifiable release.
 - 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); air.dev itself began redirecting to www.jetbrains.com/air/, the changelog resurfaced on the help site repurposed as a weekly Air Governance console changelog with no desktop version numbers, and the run-environments page moved to air-teams-editor.html, all recorded in Status and References, with 262.834.41 (2026-09-11) still the last verifiable desktop release.
+- 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (air.dev and its redirect to jetbrains.com/air, the help-site changelog and four help pages, the launch post, the HN search and thread); no new verifiable release, 262.834.41 (2026-09-11) remains the last.
 
 ## See also
 

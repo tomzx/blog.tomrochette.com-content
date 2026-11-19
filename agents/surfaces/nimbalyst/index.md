@@ -1,7 +1,7 @@
 ---
 title: Nimbalyst
 created: 2026-10-11
-updated: 2026-11-16
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -78,6 +78,7 @@ Not for terminal-first developers, and not for teams that need an independently 
 - 2026-11-04 - Recorded the v0.82.5 through v0.82.7 wave (November 3 to 4, GPT-6.1 Terra in the OpenAI Codex model picker, colored text and highlight colors in Markdown from a seven-color picker, and a fixes batch restoring tracker local numbers and making session-load failures explain themselves) atop the v0.82 pre-release train.
 - 2026-11-13 - Rotation re-verification, all cited URLs re-fetched live, and recorded the pre-release train graduating back to the stable tag: v0.82.8 (November 9, the roll-up of everything since v0.81.7 with multi-project window moves, the seven-color picker, and the opt-in Claude in Chrome integration) and stable v0.83.0 (November 10, Claude Fable 5.2 in the model picker, queued messages delivered in one turn with author labels, and login-shell PATH priority on macOS and Linux) as the new latest stable; the repository (pushed 2026-11-13, not archived), the product site, docs, and the eleven-thread footprint reading (peak 29 points, still no third-party coverage) all stand.
 - 2026-11-16 - Volatile re-verification on the pushed signal, recorded the new v0.84 pre-release train above stable v0.83.0: v0.84.0 (November 14, Git-panel branch switching, Workstreams grouping peer sessions, `nim wiki publish` with a Commenter role, folder-named commit proposals, worktrees from the remote default branch) and v0.84.1 (November 15, collapse-all and expand-all in the session list, the Codex picker listing bundled-CLI-reported models, queued messages carrying queue time and sender).
+- 2026-11-19 - Volatile re-verification on the pushed signal, recorded v0.84.2 (November 18, the Run Manager alpha starting, stopping, and restarting a project's dev servers from named commands in `.nimbalyst/run.json` with agents able to drive the same targets, one-time migration prompts for oversized databases, the auto-migration ceiling raised to 3 GiB, and extension terminal commands and gutter status badges) atop the v0.84 pre-release train above stable v0.83.0.
 
 ## See also
 
@@ -91,6 +92,6 @@ Not for terminal-first developers, and not for teams that need an independently 
 - https://github.com/nimbalyst/nimbalyst - repository, README (visual editors, per-block diffs, session kanban with worktree isolation, task tracking, MCP widgets, extension SDK, iOS companion), MIT license, 1,908 stars and 304 forks as of 2026-10-16
 - https://api.github.com/repos/nimbalyst/nimbalyst - creation date 2025-10-30, language TypeScript, push date 2026-10-16, stars and forks as of 2026-10-16
 - https://nimbalyst.com/ - the product site: the editor list, the extension-system description (agent-registered providers), Teams free during beta, and the platform list
-- https://api.github.com/repos/nimbalyst/nimbalyst/releases - stable v0.83.0 (2026-11-10, Claude Fable 5.2, queued-message batching with author labels, login-shell PATH priority) above stable v0.82.8 (November 9, the roll-up with multi-project window moves and Claude in Chrome), with the v0.84 pre-release train running above it (v0.84.0 November 14, v0.84.1 November 15, re-fetched 2026-11-16)
+- https://api.github.com/repos/nimbalyst/nimbalyst/releases - stable v0.83.0 (2026-11-10, Claude Fable 5.2, queued-message batching with author labels, login-shell PATH priority) above stable v0.82.8 (November 9, the roll-up with multi-project window moves and Claude in Chrome), with the v0.84 pre-release train running above it (v0.84.0 November 14, v0.84.1 November 15, v0.84.2 November 18, re-fetched 2026-11-19)
 - https://hn.algolia.com/api/v1/search?query=nimbalyst&tags=story - the six self-submitted threads (best: 29 points December 2025; the 2026-04-30 open-source launch at 8 points), the empty-footprint evidence, fetched 2026-10-11
 - https://docs.nimbalyst.com/ - the documentation index: the three modes (Files, Agent, Task), the MCP setup page, agent teams, worktrees, automations, and the Teams collaboration architecture (Cloudflare sync, per-team isolation), fetched 2026-10-11

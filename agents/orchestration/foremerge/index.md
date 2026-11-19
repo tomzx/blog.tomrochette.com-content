@@ -1,7 +1,7 @@
 ---
 title: Foremerge
 created: 2026-09-22
-updated: 2026-11-13
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, coordination, git-worktrees, open-source]
 readability: 3
@@ -83,6 +83,7 @@ My disagreeable claim: this is the missing layer the whole worktree-manager cate
 - 2026-11-01 - Rotation re-verification (every cited URL re-fetched live); v0.6.0 stands as the latest published release, with the push date refreshed to 2026-10-29.
 - 2026-11-08 - Rotation re-verification (every cited URL re-fetched live, including the founding post and the 45-point Show HN thread); v0.6.0 stands as the latest published release with the push date refreshed to 2026-11-07, the README status banner still reading 0.6.0 pre-1.0, and the stale release list in References extended to v0.6.0.
 - 2026-11-13 - Volatile refresh: Recorded v0.7.0 (2026-11-12) as the latest published release, the push date refreshed to 2026-11-13.
+- 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (repo, README, site, releases, the substack essay, the HN thread); no drift, the default branch still pushed 2026-11-13.
 
 ## See also
 

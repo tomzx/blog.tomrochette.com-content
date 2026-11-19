@@ -1,7 +1,7 @@
 ---
 title: Junie
 created: 2026-08-22
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, jetbrains, byok]
 readability: 3
@@ -91,6 +91,7 @@ Not for anyone who needs an open client or a large community ecosystem today.
 - 2026-11-11 - Recorded the installer train continuing through 4078.1 (published November 10), again without release notes attached.
 - 2026-11-14 - Recorded the installer train continuing through 4131.1 (published November 13), again without release notes attached, with 4129.1 and 4130.1 published the same day.
 - 2026-11-17 - Recorded the installer train continuing through 4139.1 (published November 17), again without release notes attached, with 4136.1 through 4138.1 published November 16.
+- 2026-11-19 - Recorded the installer train continuing through 4169.1 (published November 18), again without release notes attached, with 4162.1 through 4168.1 published the same day.
 
 ## See also
 

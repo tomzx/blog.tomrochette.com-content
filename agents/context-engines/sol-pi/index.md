@@ -1,7 +1,7 @@
 ---
 title: SoL-Pi
 created: 2026-10-13
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, context-compression, harness-efficiency]
 readability: 3
@@ -22,9 +22,9 @@ The project page reports the efficiency results from the paper's auto-research b
 
 ## Status
 
-Young and active: 3,479 stars as of 2026-10-18, 303 forks and 92 open issues as of 2026-11-17, created 2026-09-02 and pushed 2026-11-17 (the push again landed off main, quiet since 2026-10-18), MIT licensed, with work continuing toward a Pi v1 baseline.
+Young and active: 3,479 stars as of 2026-10-18, 303 forks and 91 open issues as of 2026-11-19, created 2026-09-02 and pushed 2026-11-19 (the push again landed off main, quiet since 2026-10-18), MIT licensed, with work continuing toward a Pi v1 baseline.
 On 2026-10-14 the repository gained an official SoL-Pi skill packaging a Claude Code and Codex hand-off, with a News section of visual examples; it hands the ideas to other agents' sessions rather than porting the mechanisms off Pi.
-**The attention record is thin for the star count: three small Hacker News posts between September and October 2026 (3, 2, and 2 points), so the stars ride the NV Labs name and the awesome-list circuit rather than debate.**
+**The attention record is thin for the star count: four small Hacker News posts between September and October 2026 (3, 2, 2, and 1 points), so the stars ride the NV Labs name and the awesome-list circuit rather than debate.**
 It extends unmodified Pi rather than forking it, which distinguishes it from the rejected third-Pi-derivative family in the harnesses category.
 
 <picture>
@@ -45,7 +45,7 @@ It extends unmodified Pi rather than forking it, which distinguishes it from the
 
 - Pi-only: every mechanism is implemented against one harness, so teams elsewhere get ideas, not code.
 - Young (created 2026-09-02) with 91 open issues already as of 2026-11-13, so the extension surface is still settling.
-- The efficiency claims come from the authors' own auto-research benchmarks, reproduced by nobody independent yet, and the HN footprint is three small posts.
+- The efficiency claims come from the authors' own auto-research benchmarks, reproduced by nobody independent yet, and the HN footprint is four small posts.
 - Compaction and paging change what the model sees, so behavior differences are possible even when token counts improve.
 - The paper's loops are research workflows; ordinary feature work may never hit the loop lengths where the wins appear.
 
@@ -73,6 +73,7 @@ Not for other harnesses (port the ideas instead), or for teams needing independe
 - 2026-10-26 - Full rotation re-verification: every cited URL re-fetched (repository, paper abstract, NVIDIA project page, the Pi harness repo, and the HN footprint search all intact, the four-mechanism structure and EdgeBench claims unchanged); pushes since 2026-10-18 resolved as non-default-branch activity, so the note stands.
 - 2026-11-05 - Full rotation re-verification: every cited URL re-fetched (repository, paper abstract, NVIDIA project page, the Pi harness repo, and the HN footprint search all intact, the four-mechanism structure and benchmark claims unchanged); the 2026-11-05 push resolved as non-default-branch activity with main quiet since 2026-10-18, so the note stands; activity counts refreshed to 2026-11-05.
 - 2026-11-13 - Full rotation re-verification: every cited URL re-fetched and intact (repository, paper abstract, NVIDIA project page, the Pi harness repo, and the HN footprint search, the three small SoL-Pi posts unchanged and the four-mechanism structure and benchmark claims unchanged); the 2026-11-13 push again resolved as non-default-branch activity with main quiet since 2026-10-18, so the note stands; activity counts refreshed to 2026-11-13.
+- 2026-11-19 - Full rotation re-verification: every cited URL re-fetched and intact (repository, paper abstract, NVIDIA project page, the Pi harness repo, and the HN footprint search, the four-mechanism structure and benchmark claims unchanged); the 2026-11-19 push again resolved as non-default-branch activity with main quiet since 2026-10-18; the HN footprint grew to four small posts (3, 2, 2, and 1 points); forks and open issues refreshed (303 and 91).
 
 ## See also
 

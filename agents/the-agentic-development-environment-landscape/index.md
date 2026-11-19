@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Development Environment Landscape"
 created: 2026-07-04
-updated: 2026-11-17
+updated: 2026-11-19
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains]
 readability: 3
@@ -13,7 +13,7 @@ agent_sessions:
 
 The terminal coding agent answered the question of whether an AI can edit a real repository.
 The next problem is harder: how do you run several of them, watch what they are doing, and keep them from colliding on the same files.
-In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-11-17.
+In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-11-19.
 
 ## What an ADE is, and what it is not
 
@@ -108,7 +108,7 @@ Every ADE picks one or two of these as primary, and the choice constrains everyt
 
 The fifth axis is protocol.
 ACP is the only credible interop standard, and a tool built on it can claim vendor-neutrality with a straight face; a tool that talks to each agent through its own SDK can be equally capable but has to maintain N integrations and inherits N sets of breakage.
-The question this piece originally asked, whether OpenCode would gain an ACP adapter, resolved: OpenCode ships one ([`opencode acp`](https://opencode.ai/docs/acp/)), so an ACP-speaking control room hosts it next to Claude Code and Codex unchanged.
+The question this piece originally asked, whether OpenCode would gain an ACP adapter, resolved: OpenCode ships one ([`opencode acp`](https://opencode.ai/docs/cli/acp/)), so an ACP-speaking control room hosts it next to Claude Code and Codex unchanged.
 
 The sixth axis is code intelligence depth, and it is where Air's IDE lineage shows.
 Symbol-aware task scoping (reference a class, not a file path) and whole-codebase review are real productivity gains, and most of the open-source ADEs offer only diff review today.
@@ -157,6 +157,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - 2026-11-08 - Rotation re-verification: sixteen of the 17 cited URLs fetched 200 this run (the parallel-agents topic page returned gateway 504s on two attempts, recorded here for the next pass), Air's supported-agent, surface, and cloud-run claims re-verified unchanged against its live page (Air Gateway, Junie folded in, the IDE, web, CLI, and mobile surfaces, and the some-customers cloud-run rollout all still stated), the eleven referenced repositories re-verified through the GitHub API (Orca and Paradev still MIT, Paseo still the NOASSERTION Apache-2.0 wrapper, Emdash Apache-2.0, the rest live and unarchived), and Orca's dated star count left untouched per the stars exemption; no fact moved, so the intro's verification date holds at 2026-11-05.
 - 2026-11-14 - Rotation re-verification: every one of the 17 cited URLs fetched 200 this run (the parallel-agents topic page cleared its 2026-11-08 504s), Air's supported-agent, surface, and cloud-run claims re-verified against its live page (Claude Agent, Codex, Junie, Copilot, and OpenCode now all named beside the ACP phrase, the IDE, web, CLI, and mobile surfaces, Air Gateway, and the some-customers cloud-run rollout unchanged, so the body's claims as written hold), Paradev's MIT license and Paseo's NOASSERTION Apache-2.0 wrapper re-confirmed through the repository API, Agent Orchestrator's own repository description now reading 35+ coding agents so the 35-plus claim holds, the eleven referenced repositories live and unarchived, and Orca's dated star count left untouched per the stars exemption.
 - 2026-11-17 - Rotation re-verification with one repository transfer: every one of the 17 cited URLs fetched 200 this run, and genie's repository moved from the automagik-dev org to automagik-si (the body link and the reference repointed to the new home); Air's supported-agent, surface, gateway, Junie, and some-customers cloud-run claims re-verified unchanged against its live page, Paradev's MIT license, Orca's MIT, Paseo's NOASSERTION Apache-2.0 wrapper, and Emdash's Apache-2.0 re-confirmed through the repository API, Agent Orchestrator's description still reading 35-plus supported agents (now with desktop and iPhone-and-Android app lines beside it), the eleven referenced repositories live and unarchived, and Orca's dated star count left untouched per the stars exemption; the intro's re-verification date re-dated to this run's fetch.
+- 2026-11-19 - Rotation re-verification: fifteen of the 17 cited URLs fetched 200 this run, with both GitHub topic pages 429 to the scripted fetch on repeated attempts (recorded for the next pass) and the OpenCode ACP citation repointed to docs/cli/acp/ after its old path began redirecting; Air's page re-fetched 200 with its supported-agent, surface, gateway, and cloud-run claims as written, the eleven referenced repositories re-confirmed live and unarchived through the repository API with Paradev's MIT, Orca's MIT, Paseo's NOASSERTION Apache-2.0 wrapper, and Emdash's Apache-2.0 standing, Agent Orchestrator's description still reading 35-plus supported agents beside the desktop and mobile app lines, and Orca's dated star count left untouched per the stars exemption; the intro's re-verification date re-dated to this run's fetch.
 
 ## See also
 
@@ -185,4 +186,4 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) - curated list for tracking the long tail
 - [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (fetched 200, 2026-11-01)
 - [GitHub topic: parallel-agents](https://github.com/topics/parallel-agents) - the broader orchestration topic (fetched 200, 2026-11-01)
-- [OpenCode ACP documentation](https://opencode.ai/docs/acp/) - the shipped adapter that resolved the protocol-axis question (fetched 200, 2026-11-01)
+- [OpenCode ACP documentation](https://opencode.ai/docs/cli/acp/) - the shipped adapter that resolved the protocol-axis question (fetched 200, 2026-11-01, repointed 2026-11-19)

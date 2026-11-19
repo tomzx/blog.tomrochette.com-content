@@ -1,7 +1,7 @@
 ---
 title: Happier
 created: 2026-11-01
-updated: 2026-11-12
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, mobile, end-to-end-encryption]
 readability: 3
@@ -24,8 +24,8 @@ By the happier-dev org, repository created 2025-12-16, MIT licensed, docs at doc
 
 ## Status
 
-Active: 2,102 stars, 209 forks, and 212 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-12, with 100-plus releases on parallel dev tracks (ui-web, server, cli) and the train pushing daily.
-The `@happier-dev/cli` npm package (first version 2026-02-21) is at latest 0.2.20 (npm, as of 2026-11-12), with 3,624 downloads in October 2026.
+Active: 2,102 stars, 209 forks, and 212 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-19, with the v0.2.22 line shipping across the ui-web, ui-mobile, and ui-desktop tracks on 2026-11-17 (stack at v0.2.21 the same day), 100-plus releases on parallel dev tracks and the train pushing daily.
+The `@happier-dev/cli` npm package (first version 2026-02-21) is at latest 0.2.21 (npm, as of 2026-11-19, up from 0.2.20 on 2026-11-12), with 3,624 downloads in October 2026.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=happier-dev/happier&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ The `@happier-dev/cli` npm package (first version 2026-02-21) is at latest 0.2.2
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=happier-dev/happier&type=date&legend=top-left" />
 </picture>
 
-Zero independent coverage found: a Hacker News story search returns no thread about the project as of 2026-11-01, so the footprint is the repository, the CLI downloads, and the docs site itself.
+Zero independent coverage found: a Hacker News story search returns no thread about the project as of 2026-11-19, so the footprint is the repository, the CLI downloads, and the docs site itself.
 
 ## Strengths
 
@@ -43,7 +43,7 @@ Zero independent coverage found: a Hacker News story search returns no thread ab
 
 ## Cautions
 
-- No independent coverage at all as of 2026-11-01; adoption evidence is the star count and CLI downloads, both young.
+- No independent coverage at all as of 2026-11-19; adoption evidence is the star count and CLI downloads, both young.
 - The CLI sits at 0.2.x on a daily dev train, so expect churn and occasional breaking moves.
 - The "teams of 100+ agents" scale claim has no published third-party benchmark behind it.
 
@@ -68,6 +68,7 @@ Not for board-and-worktree workflows, which it does not model, and not for anyon
 - 2026-11-01 - Created.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04 and the npm CLI latest to 0.2.20.
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repo API, README, releases, npm package and downloads, site, releases docs, HN search); the push date refreshed to 2026-11-12, the npm CLI still 0.2.20, and the zero-coverage HN record standing.
+- 2026-11-19 - Rotation re-verification (every cited URL re-fetched live: repo API, README, releases, npm package and downloads, site, releases docs, HN search); recorded the v0.2.22 UI line (2026-11-17) across the ui-web, ui-mobile, and ui-desktop tracks with stack at v0.2.21, the npm CLI at 0.2.21, the push date refreshed to 2026-11-19, the zero-coverage HN record standing.
 
 ## See also
 
@@ -81,7 +82,7 @@ Not for board-and-worktree workflows, which it does not model, and not for anyon
 - https://api.github.com/repos/happier-dev/happier - stars, license, activity, and creation date as of 2026-11-01
 - https://raw.githubusercontent.com/happier-dev/happier/HEAD/README.md - the control-room model, supported agents, encryption, and install paths
 - https://api.github.com/repos/happier-dev/happier/releases?per_page=100 - the 100-release dev train
-- https://registry.npmjs.org/@happier-dev/cli - the CLI package, 45 versions, latest 0.2.17
+- https://registry.npmjs.org/@happier-dev/cli - the CLI package, 50 versions, latest 0.2.21 (as of 2026-11-19)
 - https://api.npmjs.org/downloads/point/2026-10-01:2026-10-31/@happier-dev/cli - October 2026 downloads (3,624)
 - https://happier.dev/ - the product site
 - https://docs.happier.dev/releases - the release channels documentation

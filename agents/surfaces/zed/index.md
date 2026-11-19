@@ -1,7 +1,7 @@
 ---
 title: Zed
 created: 2026-08-23
-updated: 2026-11-15
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, surfaces, ai-editors, zed-industries]
 readability: 3
@@ -80,6 +80,7 @@ Not for teams needing enterprise identity plumbing or a turnkey agentic platform
 - 2026-10-27 - Rotation re-verification, all cited URLs re-fetched live: the pricing page (Personal $0, Pro $10, Business $30, list plus 10% hosting, SSO, SAML, and SCIM still planned), the LLM providers docs, and both HN threads stand; prices unchanged, no release tracked at note level.
 - 2026-11-07 - Rotation re-verification, all cited URLs re-fetched live: the pricing page (Personal $0, Pro $10, Business $30, list plus 10% hosting, SSO, SAML, and SCIM still planned, the Pro trial still naming GPT-6 Luna as its hosted model), the repository (pushed 2026-11-07, not archived), and both HN threads (239 and 317 points) stand; the LLM providers docs page now routes provider setup through model-access paths (Zed-hosted, API access, existing subscription, gateway, local model) with the provider list still grounded by the pricing FAQ; prices unchanged, no release tracked at note level.
 - 2026-11-15 - Rotation re-verification, all cited URLs re-fetched live: the pricing page (Personal $0, Pro $10, Business $30, list plus 10% hosting, SSO, SAML, and SCIM still planned, the Pro trial still naming GPT-6 Luna), the repository (pushed 2026-11-15, not archived), the model-access docs, and both HN threads (239 and 317 points) stand; prices unchanged, no release tracked at note level.
+- 2026-11-19 - Volatile re-verification on the pushed and released signals: the repository pushed 2026-11-19 (not archived), the weekly train shipped v1.29.1 and v1.29.2 (both November 18) with v1.30.0-pre and v1.30.1-pre above, no release tracked at note level per this note's convention, and prices re-verified unchanged on the pricing page (Personal $0, Pro $10, Business $30, SSO, SAML, and SCIM still planned, the Pro trial still naming GPT-6 Luna).
 
 ## See also
 
@@ -91,8 +92,8 @@ Not for teams needing enterprise identity plumbing or a turnkey agentic platform
 
 ## References
 
-- https://zed.dev/pricing - tiers, list+10% hosting, SSO status, re-verified 2026-11-15 (SSO, SAML, and SCIM still planned; prices unchanged since 2026-09-18; the Pro trial names GPT-6 Luna as its hosted model)
-- https://github.com/zed-industries/zed - repository scale and license, as of 2026-10-16, re-fetched 2026-11-15 (pushed 2026-11-15, not archived)
+- https://zed.dev/pricing - tiers, list+10% hosting, SSO status, re-verified 2026-11-19 (SSO, SAML, and SCIM still planned; prices unchanged since 2026-09-18; the Pro trial names GPT-6 Luna as its hosted model)
+- https://github.com/zed-industries/zed - repository scale and license, as of 2026-10-16, re-fetched 2026-11-19 (pushed 2026-11-19, not archived)
 - https://zed.dev/docs/ai/llm-providers - the BYOK provider list; the page routes provider setup through model-access paths (Zed-hosted models, API access, existing subscription, gateway, local model), re-verified 2026-11-15
 - https://news.ycombinator.com/item?id=40902826 - the 2024 auto-download consent thread
 - https://news.ycombinator.com/item?id=47002825 - the 2026 graphics-stack switch thread

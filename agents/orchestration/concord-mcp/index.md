@@ -1,7 +1,7 @@
 ---
 title: Concord MCP
 created: 2026-11-06
-updated: 2026-11-14
+updated: 2026-11-19
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, coordination, mcp, messaging, multi-agent]
 readability: 3
@@ -29,8 +29,8 @@ The project states explicitly that it is not an orchestrator, code reviewer, hos
 **Active and fast-moving, pre-1.0.**
 The repository was created 2026-07-14 and surfaced on Show HN on 2026-08-27, where it stood at 9 points and 4 comments as of 2026-11-06.
 It reached 978 stars as of 2026-11-06.
-The latest release, v0.22.0, shipped 2026-11-11, after v0.21.0 (2026-11-09) and v0.21.1 (2026-11-11), and FollowAgents counted thirteen releases between its review snapshot of 2026-10-04 and its writing.
-The npm package (@concord-ai/concord-mcp, 35 published versions, latest 0.22.0) drew 4,131 downloads in the trailing month (2026-10-14 to 2026-11-13), down from the 5,184 the 2026-11-06 verification recorded and up from the 3,618 of the prior window.
+The latest release, v0.23.0, shipped 2026-11-17, after v0.22.0 (2026-11-11), v0.21.1 (2026-11-11), and v0.21.0 (2026-11-09), and FollowAgents counted thirteen releases between its review snapshot of 2026-10-04 and its writing.
+The npm package (@concord-ai/concord-mcp, 36 published versions, latest 0.23.0) drew 4,366 downloads in the trailing month (2026-10-20 to 2026-11-19), against the 5,184 the 2026-11-06 verification recorded, the 4,131 of the prior window, and the 3,618 before that.
 Independent coverage exists: Hlido's public-surface review scored it 70/100 on 2026-09-11 and FollowAgents' source review scored it 67/100 on 2026-10-04.
 The hosted cloud tier Hlido recorded as unshipped in September reached early access by 2026-11-06.
 
@@ -85,6 +85,7 @@ Not for single-agent workflows, for teams needing enforced isolation rather than
 
 - 2026-11-06 - Created.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched and live; v0.22.0 stands as the latest release, the npm trailing-month downloads refreshed to 4,131 (2026-10-14 to 2026-11-13).
+- 2026-11-19 - Volatile refresh: recorded v0.23.0 (2026-11-17) as the latest release, npm at 0.23.0 with 36 versions and trailing-month downloads of 4,366 (2026-10-20 to 2026-11-19).
 
 ## See also
 
