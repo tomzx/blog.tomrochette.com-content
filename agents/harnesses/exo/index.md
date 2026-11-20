@@ -1,7 +1,7 @@
 ---
 title: "Exo"
 created: 2026-09-05
-updated: 2026-11-16
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agent, self-improvement, agent-hosting, rust]
 readability: 3
@@ -23,8 +23,8 @@ The first-year product, the self-modifying harness with an append-only event log
 ## Status
 
 **Pivoted: the self-modifying harness the note first profiled is archived as "Earlier Exo", and the active project is a harness-agnostic agent hosting runtime.**
-The docs' archive section records the self-evolution harness as a previous iteration, and the commit stream since the pivot is infrastructure work: Firecracker snapshot budgets and the 1.18.0 bump, typed sandbox failures, opt-in egress redirect policies, a configurable process-bridge stdin, and shared OAuth refresh for provider vaults (GitHub API, as of 2026-11-16, on a repo created 2026-05-20, pushed 2026-11-13, with 1,505 stars at the 2026-10-15 baseline and 132 forks).
-Still no tagged releases as of 2026-11-16.
+The docs' archive section records the self-evolution harness as a previous iteration, and the commit stream since the pivot is infrastructure work: Firecracker snapshot budgets and the 1.18.0 bump, typed sandbox failures, opt-in egress redirect policies, a configurable process-bridge stdin, shared OAuth refresh for provider vaults, a unified Firecracker memory-overhead policy, sandbox definitions separated from network permissions, a pinned Firecracker bundle, and CLI cancellation preserved across turn setup (GitHub API, as of 2026-11-20, on a repo created 2026-05-20, pushed 2026-11-18 on the default branch, with 1,505 stars at the 2026-10-15 baseline and 132 forks).
+Still no tagged releases as of 2026-11-20.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=exoharness/exo&type=date&theme=dark&legend=top-left" />

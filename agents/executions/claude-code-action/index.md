@@ -1,7 +1,7 @@
 ---
 title: Claude Code Action
 created: 2026-10-11
-updated: 2026-11-14
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, github-actions, claude-code, scheduling]
 readability: 3
@@ -24,8 +24,8 @@ It is MIT-licensed, built by Anthropic, and versioned through a dense v1.0.x rel
 ## Status
 
 **Active, official, and large.**
-9,497 stars as of 2026-10-13, 2,274 forks and 906 open issues and pull requests as of 2026-11-14 (GitHub API), created 2025-05-19 and pushed 2026-11-13.
-The release train is the opposite of stalled: the repo publishes a v1.0.x release per merge (v1.0.276 on 2026-11-13), while the Latest badge stays pinned to the v1.0 announcement release of 2025-08-26, so a `/releases/latest` check reads this action as frozen when it ships almost daily.
+9,497 stars as of 2026-10-13, 2,284 forks and 964 open issues and pull requests as of 2026-11-20 (GitHub API), created 2025-05-19 and pushed 2026-11-19.
+The release train is the opposite of stalled: the repo publishes a v1.0.x release per merge (v1.0.284 on 2026-11-19), while the Latest badge stays pinned to the v1.0 announcement release of 2025-08-26, so a `/releases/latest` check reads this action as frozen when it ships almost daily.
 Hacker News has no dedicated launch thread; the most substantive coverage is a February 2026 security writeup that chained an external prompt injection through a PR-title race condition (TOCTOU) into remote code execution inside the privileged workflow, rated CVSS 7.7 (high) by Anthropic and fixed only in January 2026 after a months-long remediation, and beside it a July 2025 post describing an accidental prompt injection through the action (8 points, zero comments); both are the representative failure modes for every mention-triggered agent.
 
 <picture>
@@ -46,7 +46,7 @@ Hacker News has no dedicated launch thread; the most substantive coverage is a F
 - **The security docs flag their own sharp edges in capitals**: `allowed_non_write_users` is marked RISKY, and `allowed_bots: '*'` on a public repository lets any external GitHub App trigger the action with a prompt it controls.
 - Prompt injection through untrusted issue and comment content stays the documented residual risk; secret scrubbing and optional bubblewrap PID-namespace isolation "reduces but does not eliminate" it, in the docs' own words, so workflow permissions must be minimized by hand. A February 2026 writeup made the risk concrete: an external attacker raced a legitimate PR title into an injection payload after a maintainer triggered the run, got Claude to overwrite the `bun` executable, and reached RCE inside the workflow (CVSS 7.7, fixed January 2026).
 - Claude Code only: no engine choice and no safe-outputs compilation, which is the gap GitHub Agentic Workflows sells against.
-- 906 open issues and pull requests is a heavy backlog for an official action at this scale (as of 2026-11-13).
+- 964 open issues and pull requests is a heavy backlog for an official action at this scale (as of 2026-11-20).
 
 ## Pricing
 
@@ -79,6 +79,7 @@ My disagreeable claim: the mention workflow is the best default in this category
 - 2026-11-11 - Refreshed the release train to v1.0.271 (2026-11-10, following v1.0.270 on 2026-11-09) and the counters (2,254 to 2,270 forks, 858 to 879 open issues and pull requests); the Latest badge still sits on the v1.0 announcement release (re-checked via /releases/latest).
 - 2026-11-13 - Refreshed the release train to v1.0.275 (2026-11-12, following v1.0.274 and v1.0.273 the same day) and the counters (2,270 to 2,275 forks, 879 to 906 open issues and pull requests, pushed 2026-11-13); the Latest badge still sits on the v1.0 announcement release.
 - 2026-11-14 - Fully re-verified out of rotation after the coverage scan surfaced a critical source the note missed: added the February 2026 Stawinski writeup (an external prompt injection raced into a PR title reaching workflow RCE by overwriting the `bun` executable, CVSS 7.7 rated by Anthropic, reported August 2025, fixed January 2026), recorded it as the most substantive coverage beside the July 2025 accidental-injection post (8 points, zero comments, re-confirmed); the release train moved to v1.0.276 (2026-11-13), the Latest badge still sits on the v1.0 announcement release, the README, security, usage, and official-docs claims all re-confirmed unchanged, and the counters refreshed (2,275 to 2,274 forks, 906 open issues and pull requests unchanged).
+- 2026-11-20 - Refreshed the release train to v1.0.284 (2026-11-19) and the counters (2,274 to 2,284 forks, 906 to 964 open issues and pull requests, pushed 2026-11-19); the Latest badge still sits on the v1.0 announcement release.
 
 ## See also
 
@@ -90,12 +91,12 @@ My disagreeable claim: the mention workflow is the best default in this category
 ## References
 
 - https://github.com/anthropics/claude-code-action - repository, 9,497 stars, MIT license, as of 2026-10-13
-- https://api.github.com/repos/anthropics/claude-code-action - exact counters (9,497 stars pinned at their 2026-10-13 fetch, 2,274 forks, 906 open issues and pull requests, pushed 2026-11-13, created 2025-05-19; re-verified 2026-11-14)
+- https://api.github.com/repos/anthropics/claude-code-action - exact counters (9,497 stars pinned at their 2026-10-13 fetch, 2,284 forks, 964 open issues and pull requests, pushed 2026-11-19, created 2025-05-19; re-verified 2026-11-20)
 - https://raw.githubusercontent.com/anthropics/claude-code-action/main/README.md - trigger detection, provider paths, v1.0 migration note, solutions catalog (re-fetched 2026-11-14)
 - https://raw.githubusercontent.com/anthropics/claude-code-action/main/docs/security.md - the RISKY flags, secret scrubbing, bubblewrap PID-namespace isolation, and bot-allowlist warnings (re-fetched 2026-11-14)
 - https://raw.githubusercontent.com/anthropics/claude-code-action/main/docs/usage.md - label and phrase triggers, automation prompts, plugin inputs (re-fetched 2026-11-14)
 - https://code.claude.com/docs/en/github-actions - official docs: interactive and automation modes, write-access checks, schedule runs, CLAUDE.md standards (re-fetched 2026-11-14)
-- https://api.github.com/repos/anthropics/claude-code-action/releases?per_page=100 - the v1.0.x release train (v1.0.276 on 2026-11-13, re-fetched 2026-11-14) and the v1.0 announcement release still carrying the Latest badge (2025-08-26, re-verified via /releases/latest 2026-11-14)
+- https://api.github.com/repos/anthropics/claude-code-action/releases?per_page=100 - the v1.0.x release train (v1.0.284 on 2026-11-19, re-fetched 2026-11-20) and the v1.0 announcement release still carrying the Latest badge (2025-08-26, re-verified via the releases list 2026-11-20)
 - https://hn.algolia.com/api/v1/search?query=claude%20code%20github%20actions&tags=story - the coverage scan finding no dedicated launch thread (2026-10-11, re-checked 2026-11-14)
 - https://news.ycombinator.com/item?id=44527916 - the July 2025 accidental prompt-injection report (8 points, zero comments, re-fetched 2026-11-14)
 - https://johnstawinski.com/2026/02/05/trusting-claude-with-a-knife-unauthorized-prompt-injection-to-rce-in-anthropics-claude-code-action/ - the February 2026 critical writeup: external prompt injection via a PR-title TOCTOU race reaching RCE through the `bun` executable, CVSS 7.7 rated by Anthropic, the August 2025-to-January 2026 remediation timeline (fetched 2026-11-14)

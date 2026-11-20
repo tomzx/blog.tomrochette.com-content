@@ -1,7 +1,7 @@
 ---
 title: aider
 created: 2026-08-22
-updated: 2026-11-15
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, pair-programming, open-source]
 readability: 3
@@ -48,7 +48,7 @@ The polyglot leaderboard (225 Exercism exercises) is still published, but its ne
 - The leaderboard's age now matters; use it for relative history, not current model choice.
 - Install it isolated (pipx or the installer) or its Python dependencies will fight your project's.
 - Community energy has moved to the harness generation; expect fewer of the workflow innovations to arrive here first.
-- **Maintenance is the risk now**: no commits on the default branch since May 22, 2026, and no tagged release since v0.86.0 (August 2025), as of 2026-11-11, so budget for dependency drift and no fixes.
+- **Maintenance is the risk now**: no commits on the default branch after May 22, 2026, and no tagged release since v0.86.0 (August 2025), as of 2026-11-20, so budget for dependency drift and no fixes.
 
 ## Pricing
 
@@ -79,6 +79,7 @@ Not for long autonomous tasks, hands-off refactors, or teams that need an active
 - 2026-11-04 - Rotation re-verification, re-fetching every cited reference (all live), and corrected the leaderboard freshness claim: its newest results are the DeepSeek v3.2 entries dated October 3, 2025, not August 2025; the stalled status is unchanged (no default-branch commits since 2026-05-22, v0.86.0 still the newest tag).
 - 2026-11-11 - Rotation re-verification, re-fetching every cited reference (all live) and confirming the stalled status unchanged: no default-branch commits since 2026-05-22, v0.86.0 still the newest tag, and the leaderboard's newest results still the October 3, 2025 DeepSeek v3.2 entries.
 - 2026-11-15 - Corrected the leaderboard reference annotation, which still said results were dated August 2025 after the 2026-11-04 prose correction; re-fetched the leaderboard page, whose newest results remain the October 3, 2025 DeepSeek v3.2 entries.
+- 2026-11-20 - Rotation re-verification, re-fetching every cited reference (all live) and confirming the stalled status unchanged: no default-branch commits after 2026-05-22 (the commits API with a since query returns only the three same-day May 22 commits), v0.86.0 still the newest tag, the leaderboard's newest results still the October 3, 2025 DeepSeek v3.2 entries, and the site's "works best with" copy still naming the Claude 3.7 Sonnet-era roster.
 
 ## See also
 
@@ -90,7 +91,7 @@ Not for long autonomous tasks, hands-off refactors, or teams that need an active
 ## References
 
 - https://aider.chat/ - features, install stats, model recommendations
-- https://github.com/Aider-AI/aider - repository scale and license, as of 2026-10-29 (default branch still unpushed since 2026-05-22)
-- https://aider.chat/docs/leaderboards/ - the polyglot benchmark, newest results the DeepSeek v3.2 entries dated October 3, 2025 (re-fetched 2026-11-15)
+- https://github.com/Aider-AI/aider - repository scale and license, re-checked 2026-11-20 (default branch still unpushed after 2026-05-22)
+- https://aider.chat/docs/leaderboards/ - the polyglot benchmark, newest results the DeepSeek v3.2 entries dated October 3, 2025 (re-fetched 2026-11-20)
 - https://news.ycombinator.com/item?id=39995725 - launch-era discussion of strengths and failure modes
 - https://news.ycombinator.com/item?id=43672712 - critical thread on aider's wasted inference spend against agentic rivals

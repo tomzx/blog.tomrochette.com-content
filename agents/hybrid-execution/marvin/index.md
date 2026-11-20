@@ -1,7 +1,7 @@
 ---
 title: Marvin
 created: 2026-10-15
-updated: 2026-11-13
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, pydantic, validation, agents]
 readability: 3
@@ -16,14 +16,14 @@ Marvin is Prefect's Apache-2.0 Python framework for producing structured outputs
 
 ## What it is
 
-A pip-installable Python framework by Prefect (the workflow-orchestration company), MIT of workflow tools rather than an AI vendor, Apache-2.0 licensed, currently at PyPI 3.2.10.
+A pip-installable Python framework by Prefect (the workflow-orchestration company), MIT of workflow tools rather than an AI vendor, Apache-2.0 licensed, currently at PyPI 3.3.0 (2026-11-20).
 The structured-output half is the 2.x API kept at the package's top level: `marvin.extract` pulls native types from text, `marvin.cast` converts input into a TypedDict or Pydantic model, `marvin.classify` picks an enum label, and `marvin.generate` produces n typed objects from a description.
 The agentic half arrived with 3.0, ported from ControlFlow, Prefect's separate agent framework whose repository is now archived: discrete `Task` objects describe objectives, `Agent`s (one per specialty) are assigned to them, and `Thread`s compose tasks into larger flows.
 Under the model layer it is Pydantic AI all the way: the README states Marvin natively supports every model Pydantic AI supports, so the provider surface is that library's, OpenAI by default.
 
 ## Status
 
-Active on a resumed train: 6,204 stars as of 2026-10-15, 414 forks and 125 open issues as of 2026-11-13, created 2023-03-10, pushed 2026-11-01 (branch activity; the default branch's newest commit is still the 2026-10-27 Qdrant fix) (GitHub API).
+Active on a resumed train: 6,204 stars as of 2026-10-15, 418 forks and 133 open issues as of 2026-11-20, created 2023-03-10, pushed 2026-11-20 (the v3.3.0 release day) (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PrefectHQ/marvin&type=date&theme=dark&legend=top-left" />
@@ -32,6 +32,7 @@ Active on a resumed train: 6,204 stars as of 2026-10-15, 414 forks and 125 open 
 </picture>
 
 The release train ran v3.2.5 through v3.2.7 between January 6 and March 4, 2026, went quiet for nearly eight months, and resumed on 2026-10-27 with three same-day releases (v3.2.8, v3.2.9, v3.2.10, PyPI at 3.2.10): the underlying commits support current AI dependencies without upper bounds, the current Qdrant memory APIs, and repair stale examples and the API-reference generation (#1408 through #1410), so the train's return is dependency and docs catch-up rather than new features.
+v3.3.0 (2026-11-20) then made the resumed train's first platform release: Pydantic AI 2 is required (`pydantic-ai>=2.71`, the 1.x code paths removed), Python 3.11 or newer, the MCP surface moved to Pydantic AI 2's `MCPToolset` and FastMCP types with sanitized environments for stdio servers, and the locked dependencies refreshed (Prefect 3.9, fastmcp 4.2, mcp 2.3), with the release notes directing projects that cannot meet the requirements to stay on 3.2.10.
 The project has twice rebuilt its identity: v1 launched on 2023-03-30 as "AI functions that use an LLM as a runtime" (a 127-point Show HN thread, still the project's largest forum footprint), v2.0 relaunched it as a multi-modal AI toolkit in January 2024 (a 20-point thread), and the 2024 ControlFlow spin-off was merged back in as the 3.0 agentic layer, with the repository description now reading "an ambient intelligence library".
 I read the star count (6,204, the validate-and-retry family's second after Instructor) against that thin forum record (127 points is the ceiling across three launches) as a quietly used library rather than a debated one, and the March-to-October release gap, now closed by a one-day catch-up train, as the signal to keep watching.
 
@@ -47,7 +48,7 @@ I read the star count (6,204, the validate-and-retry family's second after Instr
 - **The guarantee is post-hoc, the same class as Instructor: a failed validation triggers a repair or a re-ask after you have paid for the call, and nothing constrains sampling, which native strict mode makes unnecessary on single-vendor stacks.**
 - The library has twice rebuilt itself (2.0's toolkit rewrite, then the 3.0 ControlFlow merge), so code and tutorials from one era do not describe the next, and the current drift toward "ambient intelligence" positioning says the identity is not settled.
 - The agentic layer duplicates what dedicated runtimes do better: the Instructor note's own advice points at Pydantic AI for agents, and Marvin sits on Pydantic AI anyway, so the middleman needs a justification per project.
-- The release train's resumption is catch-up, not momentum: three same-day patch releases on 2026-10-27 fixing dependency drift and stale docs after a near-eight-month gap, with no new features, so the maintenance question is answered at the survival level only, and the forum footprint (127 points across three launches) gives no community pressure forcing either a faster train or a declared deprecation.
+- The release train's resumption was catch-up first (three same-day patch releases on 2026-10-27 after a near-eight-month gap) and is platform maintenance now (v3.3.0 on 2026-11-20 moves to Pydantic AI 2 with a Python 3.11 floor), not new capability, so the maintenance question is answered at the survival level only, and the forum footprint (127 points across three launches) gives no community pressure forcing either a faster train or a declared deprecation.
 
 ## Pricing
 
@@ -74,6 +75,7 @@ The disagreeable claim I will defend: Marvin's four-function API is the correct 
 - 2026-10-30 - Volatile re-verification after the 2026-10-27 push: the release train resumed with three same-day releases (v3.2.8, v3.2.9, v3.2.10, PyPI now 3.2.10) fixing current AI-dependency and Qdrant API drift and repairing stale examples and the API-reference generation (#1408 through #1410), the first release since v3.2.7 of 2026-03-04; the Status, caution, and What-it-is version figure updated, pushed date moved to 2026-10-27.
 - 2026-11-05 - Rotation re-verification: every cited URL re-fetched and holding (repository pushed 2026-11-01 on branch activity with the default branch's newest commit still the 2026-10-27 Qdrant fix, README, PyPI at 3.2.10, the release train still ending at v3.2.10 of 2026-10-27, the project site redirecting to /welcome, the archived ControlFlow, both HN threads at 127 and 20 points); pushed date moved to 2026-11-01.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched and holding (repository still pushed 2026-11-01 with no new commit or release, README, PyPI at 3.2.10, the release train still ending at v3.2.10 of 2026-10-27, the project site redirecting to /welcome, the archived ControlFlow, both HN threads at 127 and 20 points); forks refreshed to 414 and open issues to 125; nothing else changed.
+- 2026-11-20 - Volatile re-verification at the v3.3.0 release (2026-11-20, PyPI the same day): the resumed train's first platform release moves to Pydantic AI 2 (`pydantic-ai>=2.71`, the 1.x code paths removed) with a Python 3.11 floor, the MCP surface on `MCPToolset` and FastMCP types with sanitized stdio environments, and a locked-dependency refresh; forks re-read at 418 and open issues at 133, and the pushed date moved to 2026-11-20.
 
 ## See also
 
@@ -85,10 +87,10 @@ The disagreeable claim I will defend: Marvin's four-function API is the correct 
 
 ## References
 
-- https://github.com/PrefectHQ/marvin - repository: Apache-2.0, created 2023-03-10, 6,204 stars, 414 forks, 125 open issues, pushed 2026-11-01 on branch activity, described as "an ambient intelligence library" (GitHub API, as of 2026-11-13)
+- https://github.com/PrefectHQ/marvin - repository: Apache-2.0, created 2023-03-10, 6,204 stars, 418 forks, 133 open issues, pushed 2026-11-20 on the v3.3.0 release day, described as "an ambient intelligence library" (GitHub API, as of 2026-11-20)
 - https://raw.githubusercontent.com/PrefectHQ/marvin/main/README.md - the four structured-output utilities, the task-agent-thread layer, the ControlFlow lineage, and the Pydantic AI model support (re-fetched 2026-11-13)
-- https://pypi.org/pypi/marvin/json - the published package, 3.2.10 (fetched 2026-11-13)
-- https://api.github.com/repos/PrefectHQ/marvin/releases - v3.2.5 through v3.2.7, 2026-01-06 through 2026-03-04, then v3.2.8 through v3.2.10 all published 2026-10-27 (fetched 2026-11-13)
+- https://pypi.org/pypi/marvin/json - the published package, 3.3.0 (fetched 2026-11-20)
+- https://api.github.com/repos/PrefectHQ/marvin/releases - v3.2.5 through v3.2.7, 2026-01-06 through 2026-03-04, then v3.2.8 through v3.2.10 all published 2026-10-27, and v3.3.0 published 2026-11-20 (fetched 2026-11-20)
 - https://askmarvin.ai/ - the project site (fetched 200, redirecting to /welcome, 2026-11-13)
 - https://github.com/prefecthq/controlflow - the archived parent of the 3.0 agentic layer: 1,387 stars, archived, last pushed 2025-08-22 (GitHub API, as of 2026-11-13)
 - https://news.ycombinator.com/item?id=35366838 - the 127-point launch thread (2023-03-30, fetched via the Algolia items API, re-read 2026-11-13), the project's largest forum footprint and its critical source

@@ -1,7 +1,7 @@
 ---
 title: Warp Agent CLI
 created: 2026-08-30
-updated: 2026-11-14
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, terminal, model-routing]
 readability: 3
@@ -25,7 +25,7 @@ Warp's Rust codebase is public under AGPL-3.0 at [warpdotdev/warp](https://githu
 
 ## Status
 
-Active and freshly launched: announced August 4, 2026, with docs last updated November 11, 2026.
+Active and freshly launched: announced August 4, 2026, with docs last updated November 19, 2026.
 The launch thread reached 111 points on Hacker News (item 49171766).
 Vendor traction is real: the terminal repository counts about 65.5k stars as of 2026-10-15, and Anthropic published a Warp engineering story on August 26, 2026.
 
@@ -96,6 +96,7 @@ I think the CLI exists to follow developers who fled Warp's AI-heavy terminal fo
 - 2026-10-29 - Rotation re-verification, re-fetching every cited reference (all live) and re-checking the live pricing page unchanged against the 2026-10-20 reading.
 - 2026-11-06 - Rotation re-verification, re-fetching every cited reference (all live) and re-checking the live pricing page unchanged; the CLI docs' last-updated date moved to November 4, 2026.
 - 2026-11-14 - Rotation re-verification, re-fetching every cited reference (all live) and re-checking the live pricing page unchanged; the CLI docs' last-updated date moved to November 11, 2026.
+- 2026-11-20 - Rotation re-verification, re-fetching every cited reference (all live) and re-checking the live pricing page unchanged (Free $0, Build $20/$18, Max $200/$180 with $200 included, Business $45 annual and $50 monthly per seat with $20 included); the CLI docs' last-updated date moved to November 19, 2026.
 
 ## See also
 
@@ -108,7 +109,7 @@ I think the CLI exists to follow developers who fled Warp's AI-heavy terminal fo
 ## References
 
 - https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent - launch post: scope, model routing, session muxing, cloud agents
-- https://www.warp.dev/pricing - tiers, credits, and enterprise features, re-verified 2026-11-06
+- https://www.warp.dev/pricing - tiers, credits, and enterprise features, re-checked 2026-11-20
 - https://docs.warp.dev/agents/cli - CLI overview and documentation structure
 - https://docs.warp.dev/agents/cli/quickstart.md - install methods, account requirement, self-update behavior
 - https://github.com/warpdotdev/warp - codebase state, AGPL-3.0 license, stars as of 2026-10-11

@@ -1,7 +1,7 @@
 ---
 title: OKF Agent Memory
 created: 2026-10-17
-updated: 2026-11-15
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, agent-memory, okf, git-native, go, mcp]
 readability: 3
@@ -50,6 +50,7 @@ The launch thread's engagement is measurable but shallow per comment (81 points,
 - The ripgrep-equivalence objection stands unanswered: an agent that reads markdown and greps it, plus an index it maintains, reproduces much of this design with no new tool, so the delta over [File-based agent memory](../file-based-agent-memory/index.md) is the format and the tooling, not the capability.
 - Adherence is the open risk the thread named: a third-party store competes with harness-native memory features (Codex's Astra, Claude Code's auto memory) that the model may prefer, and nothing published measures which one the agent actually uses.
 - Young org (created 2026-09-05) with the OKF ecosystem still nascent: the two sibling implementations (mcp-memory, dormant since 2026-08-30 at 218 stars; Kage, 3-to-4-point threads) show the format has traction and no second healthy implementation, and the first delivery-side adoption is authoring tooling, not memory (scaccogatto/okf-skills, 417 stars as of 2026-10-17, the OKF toolkit that authors, validates, and visualizes bundles as Claude Code skills).
+- The first engine-side adoption landed 2026-11-20 from outside this category: Hindsight's Observation Tree (v1.2.2) exports a bank's observations as an Open Knowledge Format bundle of markdown files, making Vectorize's memory engine an OKF producer rather than a rival store.
 
 ## Pricing
 
@@ -77,6 +78,7 @@ Not for cross-user or cross-app memory (one repo bundle, no multi-user API), and
 - 2026-11-07 - Recorded v0.8.0 (November 5): declarative bundle scope isolation via a `scopes` frontmatter list with fail-closed refusal of disabled scopes, two-stage concurrent write protection (cross-process bundle lock plus optimistic-concurrency stale-overwrite rejection), automatic SSoT tool symlinks in bootstrap, distinct conflict-fork paths for multi-writer hub sync, and the breaking removal of the `--scope bundle` alias; the push date refreshed to 2026-11-05.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched live (the repository API and README, the docs site, the upstream OKF spec, the Agent Action Grammar RFC, the releases API, all three threads, the second implementation, and the okf-skills toolkit), no facts changed (pushed 2026-11-05, v0.8.0 still the latest release, the launch thread at 81 points and the documentation-over-recall thread at 392, mcp-memory still dormant at its 2026-08-30 push).
 - 2026-11-15 - Volatile re-verification: the 2026-11-14 pushed_at movement resolved to a README badge removal with the release train quiet since v0.8.0; no facts changed, and the push date refreshed to 2026-11-14.
+- 2026-11-20 - Added Hindsight's Observation Tree (v1.2.2, 2026-11-19) to the ecosystem caution as the format's first engine-side adoption: Vectorize's Hindsight memory engine now exports a bank's observations as an OKF bundle of markdown files; sighted through the Hindsight volatile pass, sourced from its v1.2.2 release notes.
 
 ## See also
 

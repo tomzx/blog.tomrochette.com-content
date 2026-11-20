@@ -1,7 +1,7 @@
 ---
 title: PLUR
 created: 2026-10-14
-updated: 2026-11-19
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, mcp, local-first, open-source]
 readability: 3
@@ -34,7 +34,7 @@ Sync is git over your own remotes, with scope-filtered pushes (shared remotes ne
 </picture>
 
 @plur-ai/core is at 0.23.0, published 2026-10-30 (first publish 2026-03-22, npm registry); v0.23.0 ships an experimental provenance release: the history log is hash-chained (each event carries its own hash and its predecessor's, `plur verify` reports edits made outside PLUR, exit 0 clean and 1 broken with each break and fork named, 2 unreadable and never reported clean), and session manifests can be stored on Swarm through an opt-in gateway, with nothing leaving the machine unless you turn Swarm storage on and every manifest upload and check carrying the experimental notice; v0.22.0 (October 22) shipped the enterprise first-install path (`plur-enterprise init` in a new @plur-ai/plur-enterprise package: device sign-in, tool configuration, and a kept hello-memory proof through the installed MCP connection), and the project was listed in awesome-claude-code on 2026-10-13.
-v0.23.1 (November 18) shipped as a tag without a GitHub release and without an npm publish yet (all three public packages still at 0.23.0): the source-review security fixes carry a security section in the changelog, and their rules and repair entries are registered in the spec's guarantees.
+v0.23.1 (November 18 as a tag, published as a GitHub release and on npm on November 19, with @plur-ai/core in sync at 0.23.1): the source-review security fixes carry a security section in the changelog, and their rules and repair entries are registered in the spec's guarantees.
 Its headline benchmark claims (full LongMemEval-S recall at 97.6 percent with a reranker, and Haiku with PLUR beating Opus without it at roughly ten times less cost) are self-published, with the harness public at plur-ai/plur-bench, a pinned corpus, and reproduction explicitly invited, but I found no independent reproduction or coverage of the project as of 2026-10-14.
 The README has since broadened in three directions worth knowing before adopting: the benchmark page now reports answer accuracy separately from retrieval (60.5 percent end to end with the reranker stack, 52.0 for dumping full context, 5.5 with no memory, LLM-judged, still self-run), every engram carries an actor stamp in `provenance.origin` so a shared store shows who wrote each record, and indexing tiers by store size (plain YAML under 5,000 engrams, embedded Postgres from 5,000, a Postgres server beyond), with the caveat that the Postgres tier holds no embeddings, so semantic recall there scores in memory.
 The engram specification is at v2.1 (March 2026) and now defines optional temporal validity windows (`valid_from`, `valid_until`) for time-scoped queries and expiration, typed entity references, episodic emotional weight, usage hit/miss tracking, and append-only episode records beside the engrams.
@@ -80,6 +80,7 @@ Not for multi-user products needing server-side per-user isolation, and not for 
 - 2026-11-11 - Volatile re-verification: the 2026-11-09 pushed_at movement resolved to further side branches with the default branch still quiet since the v0.23.0 train; no facts changed.
 - 2026-11-15 - Volatile re-verification: the 2026-11-14 pushed_at movement resolved to further side branches with the default branch still quiet since the v0.23.0 train; no facts changed.
 - 2026-11-19 - Recorded v0.23.1 (November 18): the source-review security fixes, shipped as a tag without a GitHub release and without an npm publish yet (all three public packages still at 0.23.0), with a security section in the changelog and the fixes' rules and repair entries registered in the spec's guarantees; the push date refreshed to 2026-11-18.
+- 2026-11-20 - The v0.23.1 publication gap closed after the prior record: the tag now has its GitHub release object (published November 19) and npm carried the publish with @plur-ai/core in sync at 0.23.1.
 
 ## See also
 

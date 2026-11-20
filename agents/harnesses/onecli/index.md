@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-11-14
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -48,23 +48,23 @@ In its vault era it was adopted by NanoClaw, per the NanoClaw note in this secti
 - The coding-harness layer inside is deliberately thin; if you want a tunable local agent, this manages who may do what, not how well code gets written.
 - The platform is six months old and the API moved from vault to team harness inside that window, so integration code will churn.
 - 178 open issues and pull requests as of 2026-10-04.
-- Pricing jumps from $0 (3 seats, 500 calls/month) to $149/month, and BYOC starts only at the paid tiers.
+- The pricing model moved twice inside the product's first year: the seats-and-BYOC ladder (Team $149, Scale $499) that the 2026-11-14 re-verification still read was replaced by request-credit tiers with seats free on every plan, so any integration keyed to the old plan fields needs re-checking.
 
 ## Pricing
 
-Free at $0 with $5 AI credits, 500 calls/month, 3 seats, and 3 agents.
-Team is $149/month for 5 users and 10 agents when you bring your own model keys (BYOC), or $499/month with hosted models included.
-Scale is $499/month for 10 users and 20 agents BYOC, or $1,999/month with hosted models.
-Extra seats are $49/user/month with your own key or $199 with hosted models.
-Enterprise custom, and platform self-hosting (your cloud, VPC, or on-prem) is quoted there.
-The Apache-2.0 core remains self-hostable from source without a commercial license per the README.
-All as of 2026-09-26, re-verified unchanged against the live pricing page on 2026-10-31 and again on 2026-11-14.
+Free at $0 with 5,000 request credits a month (requests stop at the limit, blocked requests free, seats free on every plan).
+Developer is $20/month with 50,000 credits, then $3 per 5,000.
+Pro is $90/month with 500,000 credits, then $2 per 5,000.
+Enterprise is custom, with volume pricing, SSO, and a contract.
+Self-hosting from source remains free and open source (the Apache-2.0 core), per the pricing page's own-hosts section.
+All as of 2026-11-20, when the live pricing page replaced the earlier seats-and-BYOC ladder (Free $0 with $5 AI credits and 500 calls/month, Team $149 BYOC or $499 hosted, Scale $499/$1,999, extra seats $49/$199, recorded through the 2026-11-14 re-verification) with the request-credit ladder above; the BYOC and hosted-model surcharges no longer appear on the page.
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09-13 | All tiers | Baseline: Free $0 ($5 AI credits, 500 calls/mo, 3 seats), Team $149/mo BYOC or $499 with hosted models, Scale $499/$1,999, extra seats $49/$199 per user/mo, Enterprise custom. | [onecli.sh/pricing](https://onecli.sh/pricing) |
+| 2026-11-20 | All tiers | The pricing page replaced the seats-and-BYOC ladder with request-credit tiers: Free $0 (5,000 credits/month), Developer $20 (50,000, then $3 per 5,000), Pro $90 (500,000, then $2 per 5,000), Enterprise custom, with seats and blocked requests free on every plan and the BYOC and hosted-model surcharges gone. | [onecli.sh/pricing](https://onecli.sh/pricing) |
 
 ## Compared to
 
@@ -97,6 +97,7 @@ I think the prompt-based permission systems across every other harness in this s
 - 2026-11-04 - Recorded the v2.18.0 release (published November 3): Bitbucket Cloud, schedule checks, agents sending files and posting into threads, and Codex logins.
 - 2026-11-06 - Recorded the v2.19.0 release (published November 5): context sizing, Approve similar, honest refusals, read-only home restarts, and faster wakes.
 - 2026-11-14 - Rotation re-verification, re-fetching every cited reference (all live) and all pricing tiers re-verified unchanged against the live page: appended the Changes bullet for the v2.20.0 release (November 9, Settings modal, DM threads, Slack reactions, smooth chat streaming, and browser dialogs) that the Status prose already carried.
+- 2026-11-20 - Rotation re-verification, re-fetching every cited reference (all live, the three HN thread points unchanged at 88, 161, and 110): caught the pricing restructure that landed between the 2026-11-14 re-verification and this fetch, the live page replacing the seats-and-BYOC ladder with request-credit tiers (Free $0 with 5,000 credits, Developer $20 with 50,000, Pro $90 with 500,000, Enterprise custom, seats and blocked requests free on every plan); Pricing rewritten, the pricing caution updated, and the matching Price history row appended, against the live pricing page.
 
 ## See also
 
@@ -109,9 +110,9 @@ I think the prompt-based permission systems across every other harness in this s
 ## References
 
 - https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-10-11
-- https://github.com/onecli/onecli/releases - release cadence through v2.20.0 on November 9, 2026 (verified via the GitHub API, 2026-11-14)
+- https://github.com/onecli/onecli/releases - release cadence through v2.20.0 on November 9, 2026 (verified via the GitHub API, re-checked 2026-11-20)
 - https://onecli.sh - product positioning, gateway model, and free tier as of 2026-09-22
-- https://onecli.sh/pricing - tiers, BYOC versus hosted-model pricing, and seat limits as of 2026-09-26 (re-verified unchanged, most recently 2026-10-31)
+- https://onecli.sh/pricing - the request-credit ladder (Free $0/5,000, Developer $20/50,000, Pro $90/500,000, Enterprise custom, seats and blocked requests free) as of 2026-11-20, replacing the seats-and-BYOC ladder recorded through 2026-11-14
 - https://onecli.sh/docs - architecture: sandbox, gateway, policy, self-hosting
 - https://www.ycombinator.com/companies/onecli - YC S26 batch, founders, and launch description
 - https://news.ycombinator.com/item?id=49363710 - 88-point Launch HN, August 19, 2026

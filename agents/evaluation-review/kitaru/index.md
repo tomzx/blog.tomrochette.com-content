@@ -1,7 +1,7 @@
 ---
 title: Kitaru
 created: 2026-10-14
-updated: 2026-11-18
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, replay-evals, regression-testing]
 readability: 3
@@ -23,7 +23,7 @@ Evaluations start from you: an investigation has your coding assistant interview
 
 ## Status
 
-Active and vendor-backed: 308 stars, 26 forks as of 2026-10-14, last push 2026-11-12 (the kitaru session analyze command and stale-docs fixes merged on the default branch; the repository-level 2026-11-17 push is side-branch activity), after the 2026-11-10 push that prepared the 0.27.7 release and the installer Python-selection fixes on the develop branch, with the repository created 2026-03-05.
+Active and vendor-backed: 308 stars, 26 forks as of 2026-10-14, last push 2026-11-19 (the new kitaru feedback command, suggested when the CLI hits a likely bug, merged on the develop default branch), after the 2026-11-12 session analyze command and stale-docs fixes on the default branch and the repository-level 2026-11-17 side-branch push, after the 2026-11-10 push that prepared the 0.27.7 release and the installer Python-selection fixes, with the repository created 2026-03-05.
 The release train is fast and coordinated: PyPI 0.27.7 (2026-11-10) is the newest, following the four-day wave of TypeScript SDK 0.8.0 (2026-11-02), 0.27.4 and 0.27.5 plus adapter-package releases, and 0.27.6 (2026-11-04), with the adapter packages versioned in step, and roughly 9,900 PyPI downloads in the last month (pypistats, as of 2026-10-31), the one adoption receipt here that is not self-reported.
 It has already pivoted once: launched March 2026 as open-source infrastructure for async agents, carried a durable-runtime framing through July, and relaunched on 2026-08-18 around replay-based evals with Workers replacing the old Stacks concept, and parts of the docs still describe the older flows-and-checkpoints framing.
 The standalone kitaru.ai site folded into zenml.io in October 2026: the pricing page is now a Kitaru workspace tab on zenml.io/pricing, the relaunch post moved to the ZenML blog, and the pricing FAQ says one subscription covers both products on one bill.

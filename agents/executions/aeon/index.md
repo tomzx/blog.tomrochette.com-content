@@ -1,7 +1,7 @@
 ---
 title: Aeon
 created: 2026-10-08
-updated: 2026-11-15
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, github-actions, scheduling, autonomous-agents]
 readability: 3
@@ -24,10 +24,10 @@ It is built by Aaron Elijah Mars (Aeon Inc), and deployment is a fork or templat
 ## Status
 
 **Active and single-maintainer.**
-773 stars as of 2026-10-13, 308 forks and 1,565 commits as of 2026-11-15, created 2026-03-04 and pushed 2026-11-14, with the default branch's head dated the same day.
+773 stars as of 2026-10-13, 309 forks and 1,572 commits as of 2026-11-20, created 2026-03-04 and pushed 2026-11-20, with the default branch's head dated the same day.
 The maintainer wrote about 83% of tracked contributor commits, and there is exactly one tagged release (v0.1.0, 2026-07-09), so development is trunk-based on main.
 A Hacker News search returned no coverage as of 2026-10-27, and the fork count is inflated as an adoption signal because every deployed instance is a fork by design.
-The project's proof-of-work page self-reports 152 vulnerability findings across 113 repositories securing 5.6M stars (counts re-fetched unchanged 2026-11-15, page star counts dated November 9, 2026) with a link per fix, substantial evidence that is curated by the project itself.
+The project's proof-of-work page self-reports 156 vulnerability findings across 116 repositories securing 5.7M stars (counts re-fetched 2026-11-20, page star counts dated November 18, 2026) with a link per fix, substantial evidence that is curated by the project itself.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aeonfun/aeon&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ Not for teams that need a governed execution layer (gh-aw is the answer there) o
 - 2026-11-11 - Refreshed the repository counters (300 to 306 forks, 1,547 to 1,552 commits, pushed 2026-11-10 with the default branch's head dated the same day) and the proof-of-work page counts (5.4M to 5.6M stars secured, findings steady at 152 across 113 repositories).
 - 2026-11-13 - Refreshed the repository counters (306 to 308 forks, 1,552 to 1,560 commits, pushed 2026-11-13 with the default branch's head dated 2026-11-12) after the 2026-11-11 verification; the proof-of-work page re-confirmed unchanged (152 findings across 113 repositories securing 5.6M stars).
 - 2026-11-15 - Refreshed the repository counters (1,560 to 1,565 commits, pushed 2026-11-14 with the default branch's head dated the same day); the proof-of-work page re-confirmed unchanged (152 findings across 113 repositories securing 5.6M stars) and the single v0.1.0 release.
+- 2026-11-20 - Refreshed the repository counters after the 2026-11-20 push (308 to 309 forks, 1,565 to 1,572 commits, the default branch's head dated the same day) and the proof-of-work page counts (152 to 156 findings across 113 to 116 repositories securing 5.6M to 5.7M stars, page star counts dated November 18, 2026).
 
 ## See also
 
@@ -91,7 +92,7 @@ Not for teams that need a governed execution layer (gh-aw is the answer there) o
 
 - https://github.com/aeonfun/aeon - repository scale, template deployment model, MIT license, single release, founder line, as of 2026-10-08
 - https://www.aeon.fun/docs - architecture, the 86-skill catalog, five-minute scheduler, reactive triggers, chains, harnesses, and gateways (re-fetched 2026-10-27)
-- https://www.aeon.fun/security - the self-reported vulnerability-disclosure record (152 findings, 113 repositories, 5.6M stars, counts re-fetched unchanged 2026-11-15)
+- https://www.aeon.fun/security - the self-reported vulnerability-disclosure record (156 findings, 116 repositories, 5.7M stars, counts re-fetched 2026-11-20, page star counts dated November 18, 2026)
 - https://aaronjmars.com - the founder's own description of Aeon, MiroShark, and Hyperstitions (re-fetched 2026-10-27)
 - https://hn.algolia.com/api/v1/search?query=aeonfun&tags=story - the coverage search that returned no hits on the project, as of 2026-10-27
-- https://api.github.com/repos/aeonfun/aeon - exact counters (created 2026-03-04, 773 stars as of 2026-10-13, 308 forks, 1,565 commits, pushed 2026-11-14; re-verified 2026-11-15) and the single v0.1.0 release (re-verified 2026-11-08)
+- https://api.github.com/repos/aeonfun/aeon - exact counters (created 2026-03-04, 773 stars as of 2026-10-13, 309 forks, 1,572 commits, pushed 2026-11-20; re-verified 2026-11-20) and the single v0.1.0 release (re-verified 2026-11-08)

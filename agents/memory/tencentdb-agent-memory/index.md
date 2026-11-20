@@ -1,7 +1,7 @@
 ---
 title: TencentDB Agent Memory
 created: 2026-10-11
-updated: 2026-11-19
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, openclaw, hermes, open-source]
 readability: 3
@@ -37,6 +37,7 @@ Published by Tencent (the repository moved from the Tencent org to TencentCloud)
 The LICENSE wraps standard MIT terms in a Tencent notice, which is why GitHub's detector marks it unclassifiable; the 2026-10-07 entrant rejection (missing license) reversed once the file was read this run.
 The Hacker News footprint is one 2-point thread (August 2026), so a 29.3k-star rise in six months ran on Trendshift placement and awesome-list channels, the category's familiar stars-ahead-of-discussion pattern at Tencent scale.
 The v2.0.3 stable release (2026-10-26, release notes in Chinese) built on the beta.1's pluggable decision service with session default binding (a saved Team, Agent, and Task combination auto-applies to new sessions until unlocked), Wiki rich-document import and extraction for Word, Excel, PowerPoint, and PDF, and a default upstream wait raised from 10 minutes to 1 hour, plus fixes to the DeepSeek Harness auxiliary interface, memory time formats, the install script, and self-recovery after a Redis interruption.
+v2.0.4 (dated 2026-11-18, published 2026-11-19, release notes in Chinese) adds skill-archive batch import (select or drag multiple skill packages in the panel, each holding its own SKILL.md, with successes, skips, and failures listed separately and one failure not blocking the rest), a replacement mode for custom memory prompts (custom L1/L2/L3 prompts may replace the corresponding built-in system-prompt sections rather than only append, with output format, length caps, and tool scope still system-enforced and overly long or constraint-rewriting content refused at save, the mode fixed once chosen), steadier memory consolidation, better handling of long-running upstream requests, online session records, and troubleshooting logs, plus stability and permission fixes.
 
 ## Strengths
 
@@ -80,6 +81,7 @@ My disagreeable claim: reversible compression, not recall quality, is the featur
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched live (all six reachable, no dead sources), no facts changed on the record (v2.0.3 still the latest release, the npm plugin still 1.0.3, the HN search's two other hits unrelated to the tool); recorded the default branch's change to `feat/server_team`, a parallel branch mirroring main's history with no new commits since November 4, as of 2026-11-08.
 - 2026-11-11 - Volatile re-verification: the `feat/server_team` default branch moved again with a README pair and a panel fix stopping polling of failed CodeGraphs (November 9-10); nothing shipped, the push date refreshed to 2026-11-10.
 - 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (the repository API, README, LICENSE, the npm registry, the HN search, the entrant source), no facts changed (v2.0.3 still the latest release, the npm plugin still 1.0.3 from 2026-09-22, the `feat/server_team` default branch quiet since the November 10 panel fix, the HN search's one 2-point thread unchanged, the LICENSE still MIT terms under the Tencent notice).
+- 2026-11-20 - Recorded v2.0.4 (dated 2026-11-18, published 2026-11-19): skill-archive batch import with per-package SKILL.md and separated outcomes, a replacement mode for custom L1/L2/L3 memory prompts with system-enforced constraints and a fixed-once-chosen mode, steadier memory consolidation, long-running upstream request handling, online session records, and troubleshooting logs.
 
 ## See also
 

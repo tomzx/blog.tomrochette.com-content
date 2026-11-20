@@ -1,7 +1,7 @@
 ---
 title: tool-eval-bench
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, tool-calling, benchmarking, structured-outputs, open-source]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a tool call and a deterministic mock are.
 ---
 
-tool-eval-bench is an MIT benchmark harness that audits how well an LLM serving stack actually calls tools, running 69 deterministic multi-turn scenarios plus 28 opt-in Hard Mode ones (97 total) against any OpenAI-compatible endpoint, with a second track that scores Jev-class decision-model probabilities over the same `/v1/systemone` surface the rest of this category speaks.
+tool-eval-bench is an MIT benchmark harness that audits how well an LLM serving stack actually calls tools, running 69 deterministic multi-turn scenarios plus 35 opt-in Hard Mode ones (104 total) against any OpenAI-compatible endpoint, with a second track that scores Jev-class decision-model probabilities over the same `/v1/systemone` surface the rest of this category speaks.
 
 **It is the first member aimed at the tool-calling half of this category's contract rather than the decision half, and its distinguishing property is determinism: mock tools with seeded payload noise, a fixed in-prompt date, and a full conversation trace per scenario, so a failing scenario is a bug report you can replay rather than a vibe.**
 
@@ -25,8 +25,8 @@ The decision-model track (`--decision`) measures how accurate a `/v1/systemone` 
 
 ## Status
 
-Active, six months old, and steadily released: created 2026-04-17, v3.0.0 published 2026-10-26 (also on PyPI, where the package now self-describes as Production/Stable), pushed 2026-11-09, with 390 stars as of 2026-10-27 and 55 forks as of 2026-11-01.
-The post-v3.0.0 commits added a toolscale plugin sweeping tool count, similarity, query cue, and filler density with a description-quality axis (#324 and #325, 2026-10-27) and run deletion with same-day card filename-collision protection (#326, 2026-10-28), then two CI-action bumps (#327 and #328, 2026-11-01), a web UI feature showing each run type's measurements and linking the runs of one session (#329, 2026-11-03), and a grader fix keeping TC-98 and TC-101 from scoring a warning as an assertion (#330, 2026-11-09), all unreleased since v3.0.0.
+Active, seven months old, and steadily released: created 2026-04-17, v3.1.0 published 2026-11-19 (also on PyPI), pushed 2026-11-19 (the release day), with 390 stars as of 2026-10-27 and 56 forks as of 2026-11-20.
+The unreleased work since v3.0.0 (the toolscale sweep #324 and #325, run deletion #326, two CI-action bumps #327 and #328, a web UI feature showing each run type's measurements #329, and the TC-98/TC-101 grader fix #330) shipped in v3.1.0 (2026-11-19): the toolscale sweep became a `--toolscale` plugin measuring tool selection across a 272-tool catalog (17 domains, near-duplicate families, description-quality degradation) with Wilson intervals and paired effect reporting, locale runs landed (`--locale de|es|zh|ja`, 26 language-neutral scenarios from checked-in translation packs that form their own leaderboard cohort), `compare` gained paired bootstrap confidence intervals, a sign test, and a discordant-scenario re-test path (`--retest-diffs`, `--scenarios-from-diff`), seven new Hard Mode scenarios (TC-98 to TC-104, a two-hop prompt injection, saga rollback, a partially failed batch, signed-policy conflicts, an endpoint migration, cart reconciliation, and a user-side fix handover) took Hard Mode from 28 to 35 and the total to 104, the web UI labels performance and needle runs with their own figures, failing runs gain unparsed-tool-call diagnostics with a `probe --check-tools` preflight and the per-server fix flags, leaderboard cohorts stop ignoring evaluation-relevant operational flags, and a long grader-hardening pass tightened TC-22 through TC-104 (two-sentence disclosure scoring, attachment-name matching, structured-output-only prompts on TC-65 to TC-69).
 The v3.0.0 major promoted the web UI to a headline feature (the optional local browser UI now launches and streams runs, and a new `tool-eval-bench card` command renders a session into a shareable SVG results card, with the `[web]` and `[card]` extras), added a long-context performance preset sweeping throughput to 128K tokens, corrected two scenario graders (TC-21 grades explicit field and rule IDs, TC-89 distinguishes asserted payment success from negation and future promises, so their scores are not comparable with 2.8 baselines), broadened endpoint compatibility (TandemLLM detection, HTTP retry and URL fixes), and shipped its release-gate at 9,779 tests and 93.79 percent branch-inclusive coverage, with SQLite schema upgraded 4 to 5 on first open and the scenario count unchanged at 69 plus 28 Hard Mode.
 
 <picture>
@@ -50,7 +50,7 @@ The engineering inside is unusually disciplined for that footprint: the reposito
 - **The README states its own limits: difficulty tiers are author estimates, not calibrated rankings, localization coverage is German-focused, and it measures single-assistant conversations, not independent agents, delegation, or handoffs.**
 - There is no standing leaderboard: results are per-run artifacts, so it audits your stack rather than ranking the field, and nothing here lets you compare hosted vendors without running them yourself.
 - Self-graded end to end: the evaluators are the author's deterministic functions, and the thin community footprint means the scenario design has had no public stress-testing.
-- Coverage breadth costs depth per backend: 69 scenarios is small next to BFCL's 1,700-plus tests, a trade the related-work table owns.
+- Coverage breadth costs depth per backend: 104 scenarios (69 standard plus 35 Hard Mode) is small next to BFCL's 1,700-plus tests, a trade the related-work table owns.
 
 ## Pricing
 
@@ -82,6 +82,7 @@ The disagreeable claim I will defend: this category spent September learning to 
 - 2026-11-01 - Volatile re-verification after the 2026-11-01 pushes (still no release since v3.0.0): two CI-action bumps (#327 download-artifact, #328 gh-action-pypi-publish); pushed date moved to 2026-11-01 and forks refreshed to 55.
 - 2026-11-05 - Volatile re-verification after the 2026-11-03 push (still no release since v3.0.0): a web UI feature showing each run type's measurements and linking the runs of one session (#329); pushed date moved to 2026-11-03.
 - 2026-11-11 - Volatile re-verification after the 2026-11-09 push (still no release since v3.0.0): the TC-98 and TC-101 graders no longer score a warning as an assertion (#330); pushed date moved to 2026-11-09.
+- 2026-11-20 - Rotation re-verification at the v3.1.0 release (2026-11-19, also on PyPI), every cited URL re-fetched and live: the toolscale sweep shipped as a `--toolscale` plugin over a 272-tool catalog, locale runs landed (`--locale de|es|zh|ja`, 26 language-neutral scenarios), `compare` gained paired bootstrap intervals and discordant-scenario re-tests, seven new Hard Mode scenarios (TC-98 to TC-104) took Hard Mode from 28 to 35 and the total from 97 to 104, failing runs gain unparsed-tool-call diagnostics with a `probe --check-tools` preflight, and a grader-hardening pass tightened TC-22 through TC-104; the definition, Status, caution, and references updated, forks refreshed to 56, the docs set (methodology, decision-models, quality-review, related-work, backends) re-fetched unchanged, a new docs/locales.md joining, and the HN search re-run still finding no story and the same two comment mentions.
 
 ## See also
 
@@ -93,14 +94,16 @@ The disagreeable claim I will defend: this category spent September learning to 
 
 ## References
 
-- https://github.com/SeraphimSerapis/tool-eval-bench - repository: MIT, created 2026-04-17, 390 stars, 55 forks, pushed 2026-11-09 (GitHub API, as of 2026-11-11)
-- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/README.md - the 69-plus-28 scenario design, backend list including Strata, TabbyAPI, and TandemLLM, pass/partial/fail scoring, install paths, and the stated limitations (re-fetched 2026-10-27 via PyPI, the v3.0.0 README)
-- https://github.com/SeraphimSerapis/tool-eval-bench/releases/tag/v3.0.0 - the v3.0.0 release notes (2026-10-26): the web UI and card command, the long-context preset, the TC-21 and TC-89 grader corrections with the re-run-baselines warning, the 9,779-test gate at 93.79 percent branch coverage, and the SQLite schema upgrade (fetched 2026-10-27)
-- https://pypi.org/pypi/tool-eval-bench/json - the published package, 3.0.0 since 2026-10-26 (fetched 2026-10-27)
-- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/methodology.md - the 3-tier scoring rationale, the 12 and 52-tool sets, the 8-turn loop, and deterministic noise
-- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/decision-models.md - the `/v1/systemone` decision-model track and its missing-surface abort behavior
-- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/quality-review-2026-08.md - the author's August 2026 quality review: test counts, coverage gate, and the approachability finding (the critical source)
-- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/related-work.md - the BFCL, ToolBench, API-Bank, ToolCall-15, and PinchBench comparison table grounding the lineage claims
-- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/backends.md - the served-stack adapter coverage (fetched 200, 2026-10-08)
-- https://api.github.com/repos/SeraphimSerapis/tool-eval-bench/releases - v2.5.0 through v3.0.0, 2026-08-05 to 2026-10-26 (fetched 2026-10-27)
-- https://hn.algolia.com/api/v1/search?query=%22tool-eval-bench%22 - the thin-footprint record: no story, two comment mentions (fetched 2026-10-08)
+- https://github.com/SeraphimSerapis/tool-eval-bench - repository: MIT, created 2026-04-17, 390 stars, 56 forks, pushed 2026-11-19 (the v3.1.0 release day) (GitHub API, as of 2026-11-20)
+- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/README.md - the 69-plus-35 scenario design, backend list including Strata, TabbyAPI, and TandemLLM, pass/partial/fail scoring, install paths, and the stated limitations (re-fetched 2026-11-20, the v3.1.0 README)
+- https://github.com/SeraphimSerapis/tool-eval-bench/releases/tag/v3.1.0 - the v3.1.0 release notes (2026-11-19): the toolscale plugin, locale runs, the paired compare statistics, the seven new Hard Mode scenarios, the unparsed-tool-call diagnostics, and the grader-hardening pass (fetched 2026-11-20)
+- https://github.com/SeraphimSerapis/tool-eval-bench/releases/tag/v3.0.0 - the v3.0.0 release notes (2026-10-26): the web UI and card command, the long-context preset, the TC-21 and TC-89 grader corrections with the re-run-baselines warning, the 9,779-test gate at 93.79 percent branch coverage, and the SQLite schema upgrade (fetched 2026-10-27; re-fetched live 2026-11-20)
+- https://pypi.org/pypi/tool-eval-bench/json - the published package, 3.1.0 since 2026-11-19 (fetched 2026-11-20)
+- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/methodology.md - the 3-tier scoring rationale, the 12 and 52-tool sets, the 8-turn loop, and deterministic noise (re-fetched live 2026-11-20)
+- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/decision-models.md - the `/v1/systemone` decision-model track and its missing-surface abort behavior (re-fetched live 2026-11-20)
+- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/quality-review-2026-08.md - the author's August 2026 quality review: test counts, coverage gate, and the approachability finding (the critical source; re-fetched live 2026-11-20)
+- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/related-work.md - the BFCL, ToolBench, API-Bank, ToolCall-15, and PinchBench comparison table grounding the lineage claims (re-fetched live 2026-11-20)
+- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/backends.md - the served-stack adapter coverage (fetched 200, 2026-10-08; re-fetched live 2026-11-20)
+- https://raw.githubusercontent.com/SeraphimSerapis/tool-eval-bench/main/docs/locales.md - the locale-run design behind v3.1.0's `--locale` flag (fetched 2026-11-20)
+- https://api.github.com/repos/SeraphimSerapis/tool-eval-bench/releases - v2.5.0 through v3.1.0, 2026-08-05 to 2026-11-19 (fetched 2026-11-20)
+- https://hn.algolia.com/api/v1/search?query=%22tool-eval-bench%22 - the thin-footprint record: no story, two comment mentions (fetched 2026-10-08; re-run 2026-11-20, unchanged)

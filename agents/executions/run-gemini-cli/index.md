@@ -1,7 +1,7 @@
 ---
 title: Run Gemini CLI
 created: 2026-10-11
-updated: 2026-11-13
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, github-actions, gemini, scheduling]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 Run Gemini CLI is Google's official GitHub Action that runs Gemini CLI inside repository workflows, shipped with a copyable suite of dispatch, issue-triage, pull-request-review, and assistant workflows triggered by mentions, repository events, and schedules.
 
-**It is the batteries-included one of the three official vendor Actions, and also the neglected one: the workflow suite is the product, while the action repository has been quiet since August and its release train stopped in April.**
+**It is the batteries-included one of the three official vendor Actions, and also the neglected one: the workflow suite is the product, while the action repository's release train stopped in April and its default branch went quiet from August until one security fix landed in November.**
 
 ## What it is
 
@@ -25,9 +25,9 @@ It is Apache-2.0, published by the google-github-actions organization, and set u
 ## Status
 
 **Shipped and widely starred, with a stalled action repo and a fast product behind it.**
-2,105 stars as of 2026-10-13, 292 forks and 88 open issues and pull requests as of 2026-11-13 (GitHub API), created 2025-07-11, but the last push was 2026-08-21, eighty-four days before this check.
-The release train stopped at v0.1.22 (2026-04-24), nearly seven months before this check, after monthly releases through the winter.
-The wrapped product, google-gemini/gemini-cli, is enormous and active (about 107.3k stars as of 2026-10-13, pushed 2026-11-13 UTC), so the CLI keeps moving while the action layer it powers on GitHub has gone quiet, and no dedicated Hacker News thread exists as of 2026-11-13 searches.
+2,105 stars as of 2026-10-13, 293 forks and 88 open issues and pull requests as of 2026-11-20 (GitHub API), created 2025-07-11.
+The release train stopped at v0.1.22 (2026-04-24), nearly seven months before this check, after monthly releases through the winter, and the default branch went quiet from 2026-08-21 until a single security fix landed on 2026-11-19 (binding `/approve` plan execution to a verified comment and pruning excess MCP tools), the first default-branch commit in ninety days and unaccompanied by a release.
+The wrapped product, google-gemini/gemini-cli, is enormous and active (about 107.3k stars as of 2026-10-13, pushed 2026-11-20 UTC), so the CLI keeps moving while the action layer it powers on GitHub moves at about one commit per quarter, and no dedicated Hacker News thread exists as of 2026-11-20 searches.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=google-github-actions/run-gemini-cli&type=date&theme=dark&legend=top-left" />
@@ -44,7 +44,7 @@ The wrapped product, google-gemini/gemini-cli, is enormous and active (about 107
 
 ## Cautions
 
-- **The action layer is going stale in public**: last push 2026-08-21, no release since v0.1.22 on 2026-04-24, as of 2026-11-13.
+- **The action layer is going stale in public**: no release since v0.1.22 on 2026-04-24, and the default branch carried exactly one commit between 2026-08-21 and 2026-11-19, a security fix, as of 2026-11-20.
 - There is no runtime sandbox; the workflow token's declared permissions are the boundary, and the best-practices doc leans on version pinning, branch protection, and restricted approvers.
 - Google's own agentic-workflows product (GitHub Agentic Workflows) deprecated its built-in Gemini engine in favor of its Agy engine, so Google's bet inside the compiler layer has moved off the CLI this action runs.
 - The settings JSON, extensions, and CLI-version inputs inherit Gemini CLI's fast churn, and a stalled action repo is a slow responder to that churn.
@@ -75,6 +75,7 @@ My disagreeable claim: this is the README I would copy from among the three offi
 - 2026-10-31 - Fully re-verified in rotation with every cited URL re-fetched: the stalled-repo status (last push still 2026-08-21, the release train still stopping at v0.1.22), the README claims (the workflow suite, @gemini-cli commands, GEMINI.md, the four auth paths, OpenTelemetry observability), the wrapped CLI's continued activity, and the still-missing dedicated HN thread all re-confirmed; the counters refreshed (289 forks, 86 open issues and pull requests) and the stale durations re-dated.
 - 2026-11-07 - Fully re-verified in rotation with every cited URL re-fetched: the stalled-repo status (last push still 2026-08-21, the release train still stopping at v0.1.22), the README claims (the workflow suite, @gemini-cli commands, GEMINI.md, the four auth paths, OpenTelemetry observability), the wrapped CLI's continued activity, and the still-missing dedicated HN thread all re-confirmed; the counters refreshed (292 forks, 88 open issues and pull requests) and the stale durations re-dated.
 - 2026-11-13 - Fully re-verified in rotation with every cited URL re-fetched: the stalled-repo status (last push still 2026-08-21, eighty-four days before this check, the release train still stopping at v0.1.22), the README claims (the workflow suite with dispatch, triage, review, and assistant workflows, @gemini-cli commands, GEMINI.md, the four auth paths, OpenTelemetry observability), the wrapped CLI's continued activity (pushed 2026-11-13 UTC), and the still-missing dedicated HN thread (one unrelated hit) all re-confirmed; the counters re-verified unchanged (292 forks, 88 open issues and pull requests) and the stale durations re-dated.
+- 2026-11-20 - Fully re-verified in rotation with every cited URL re-fetched, and the stalled-repo record broke: a security fix landed on the default branch 2026-11-19 after ninety days of silence (binding `/approve` plan execution to a verified comment and pruning excess MCP tools, unaccompanied by a release), so the intro, Status, and stale-layer caution were rewritten around the quieter-but-not-dead record; the release train still stops at v0.1.22 (2026-04-24), the README claims (the workflow suite, @gemini-cli commands, GEMINI.md, the four auth paths, observability) re-confirmed, the wrapped CLI's activity re-confirmed (pushed 2026-11-20 UTC), the counters refreshed (292 to 293 forks), and the still-missing dedicated HN thread re-confirmed.
 
 ## See also
 
@@ -85,9 +86,10 @@ My disagreeable claim: this is the README I would copy from among the three offi
 
 ## References
 
-- https://github.com/google-github-actions/run-gemini-cli - repository, 2,105 stars as of 2026-10-13, Apache-2.0 license, as of 2026-10-13 (re-fetched 2026-11-13)
-- https://api.github.com/repos/google-github-actions/run-gemini-cli - exact counters (2,105 stars as of 2026-10-13, 292 forks, 88 open issues and pull requests, pushed 2026-08-21, created 2025-07-11; re-verified 2026-11-13)
-- https://raw.githubusercontent.com/google-github-actions/run-gemini-cli/main/README.md - the workflow suite, mention commands, GEMINI.md context, auth options, and observability (re-fetched 2026-11-13)
-- https://api.github.com/repos/google-github-actions/run-gemini-cli/releases?per_page=5 - the release train stopping at v0.1.22 (2026-04-24, re-verified 2026-11-13)
-- https://api.github.com/repos/google-gemini/gemini-cli - the wrapped product's scale and activity (about 107.3k stars as of 2026-10-13, pushed 2026-11-13 UTC)
-- https://hn.algolia.com/api/v1/search?query=run-gemini-cli - the coverage scan finding no dedicated thread (2026-11-13), the missing-footprint record
+- https://github.com/google-github-actions/run-gemini-cli - repository, 2,105 stars as of 2026-10-13, Apache-2.0 license, as of 2026-10-13 (re-fetched 2026-11-20)
+- https://api.github.com/repos/google-github-actions/run-gemini-cli - exact counters (2,105 stars as of 2026-10-13, 293 forks, 88 open issues and pull requests, pushed 2026-11-19, created 2025-07-11; re-verified 2026-11-20)
+- https://api.github.com/repos/google-github-actions/run-gemini-cli/commits?per_page=5 - the default branch's quiet stretch (2026-08-21 to 2026-11-19) and the security fix that broke it (#541, verified-comment gating and MCP-tool pruning, fetched 2026-11-20)
+- https://raw.githubusercontent.com/google-github-actions/run-gemini-cli/main/README.md - the workflow suite, mention commands, GEMINI.md context, auth options, and observability (re-fetched 2026-11-20)
+- https://api.github.com/repos/google-github-actions/run-gemini-cli/releases?per_page=5 - the release train stopping at v0.1.22 (2026-04-24, re-verified 2026-11-20)
+- https://api.github.com/repos/google-gemini/gemini-cli - the wrapped product's scale and activity (about 107.3k stars as of 2026-10-13, pushed 2026-11-20 UTC)
+- https://hn.algolia.com/api/v1/search?query=run-gemini-cli - the coverage scan finding no dedicated thread (re-checked 2026-11-20: eight loose hits, none about this action), the missing-footprint record

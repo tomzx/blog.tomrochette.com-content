@@ -1,7 +1,7 @@
 ---
 title: Harbor
 created: 2026-11-18
-updated: 2026-11-18
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, harness]
 readability: 3
@@ -22,7 +22,7 @@ It is the official harness for Terminal-Bench 2.0, whose dataset repository now 
 
 ## Status
 
-Young and fast: 7,186 stars, Apache-2.0, created 2025-08-04, pushed 2026-11-18, on a monthly release train at v0.26.0 (2026-11-13) after v0.25.0 (2026-10-25), as of 2026-11-18.
+Young and fast: 7,186 stars, Apache-2.0, created 2025-08-04, pushed 2026-11-20 (the default branch moving 2026-11-19 with an OpenClaw agent fix for google/* model names and shared Gemini env aliases), on a monthly release train at v0.26.0 (2026-11-13) after v0.25.0 (2026-10-25), as of 2026-11-20.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=harbor-framework/harbor&type=date&theme=dark&legend=top-left" />

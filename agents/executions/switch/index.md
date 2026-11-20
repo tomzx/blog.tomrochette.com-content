@@ -1,7 +1,7 @@
 ---
 title: Switch
 created: 2026-11-19
-updated: 2026-11-19
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, chat-bridge, self-hosted]
 readability: 3
@@ -24,7 +24,7 @@ It is built by SandboxAQ (the license copyright reads SB Technology, Inc. dba Sa
 ## Status
 
 **Active, institutionally backed, and the largest chat-bridge in this category by stars, with an independent footprint of one thread.**
-4,587 stars, 358 forks, and 719 open issues and pull requests as of 2026-11-19 (GitHub API), repository created 2026-07-16 and pushed 2026-11-19.
+4,587 stars, 364 forks, and 718 open issues and pull requests as of 2026-11-20 (GitHub API), repository created 2026-07-16 and pushed 2026-11-20.
 The release train is dense for a project this age: switch-core 0.32.1 and Switch Console 0.41.1 (both published 2026-11-18) top the stable line, with a canary cut (Console 0.42.0-canary.1, 2026-11-18) and dev builds of main publishing daily.
 The README carries a #1 Product of the Day Product Hunt badge, and the vendor's case study names Mount Sinai West's physician-led MSW Lab as a design partner, in alpha and built around the Trust product line rather than Rooms.
 The community footprint on Hacker News is one self-submitted thread (2026-08-27, 1 point, zero comments) linking the repository, so the stars carry no visible independent discussion anywhere.
@@ -71,6 +71,7 @@ My disagreeable claim: Switch is Centaur's mass-market mirror image, the same ch
 ## Changes
 
 - 2026-11-19 - Created from the 2026-11-19 cross-category scan admission, routed to executions on the centaur/airut chat-bridge line.
+- 2026-11-20 - Refreshed the repository counters after the 2026-11-20 push (358 to 364 forks, 719 to 718 open issues and pull requests); the release record re-confirmed (the stable line still switch-core 0.32.1 and Switch Console 0.41.1 of 2026-11-18, dev builds of main publishing daily).
 
 ## See also
 
@@ -81,7 +82,7 @@ My disagreeable claim: Switch is Centaur's mass-market mirror image, the same ch
 
 ## References
 
-- https://api.github.com/repos/sandbox-quantum/switch - counters (4,587 stars as of 2026-11-19, the creation baseline; 358 forks, 719 open issues and pull requests, created 2026-07-16, pushed 2026-11-19; a re-fetch later the same day read 4,589 stars)
+- https://api.github.com/repos/sandbox-quantum/switch - counters (4,587 stars as of 2026-11-19, the creation baseline; 364 forks, 718 open issues and pull requests, created 2026-07-16, pushed 2026-11-20; re-verified 2026-11-20)
 - https://raw.githubusercontent.com/sandbox-quantum/switch/main/README.md - the rooms model, the five chat platforms, the any-agent claim, Console and switch-buddy onboarding, connectors, the telemetry disclosure, and the Product Hunt badge (fetched 2026-11-19)
 - https://raw.githubusercontent.com/sandbox-quantum/switch/main/LICENSE - Apache-2.0 as limited by the Commons Clause, extended to derivatives, copyright SB Technology, Inc. dba SandboxAQ (fetched 2026-11-19)
 - https://api.github.com/repos/sandbox-quantum/switch/releases?per_page=5 - the release train: switch-core 0.32.1 and Switch Console 0.41.1 (both 2026-11-18), canary 0.42.0-canary.1 (2026-11-18), dev builds of main daily (fetched 2026-11-19)

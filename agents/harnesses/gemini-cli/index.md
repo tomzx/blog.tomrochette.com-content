@@ -1,7 +1,7 @@
 ---
 title: Gemini CLI
 created: 2026-08-22
-updated: 2026-11-19
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, google, developer-tools]
 readability: 3
@@ -25,7 +25,7 @@ It authenticated three ways: **Google OAuth (the famous free tier of 60 requests
 **Superseded for consumers, alive for enterprises.**
 On May 19, 2026, Google announced it was unifying terminal agent work into Google Antigravity, whose Antigravity CLI (written in Go, multi-agent, sharing a harness with the Antigravity 2.0 desktop app) carries over skills, hooks, subagents, and extensions.
 On June 18, 2026, Gemini CLI and the Gemini Code Assist IDE extensions stopped serving requests for Google AI Pro and Ultra subscribers and free individual users.
-Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 107.4k stars as of 2026-10-20, about 6,631 commits as of 2026-11-19, nightly and preview release channels with v0.69.0 (November 19, 2026) the latest tagged release, a changelog-rollup cut whose visible fixes stop silent multi-minute loading hangs on network failures, cap multi-hour quota retries with ACP clients notified, add a /stats heatmap subcommand for daily token usage, standalone theme.json custom themes, and an overridable API headers timeout (model.requestTimeoutMs), after v0.68.0 (November 10, 2026).
+Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 107.4k stars as of 2026-10-20, about 6,631 commits as of 2026-11-19, nightly and preview release channels with v0.70.0 (November 19, 2026) the latest tagged release, a changelog-rollup cut whose visible fixes preserve Unicode prompts and strip ANSI fragments in session previews, keep the selected worktree across authentication restarts, preserve interrupted placeholders after empty model responses to tool turns, apply `${VAR:-default}` defaults when the variable is set but empty, scale undici body timeouts when a request exceeds the 300-second default, report accurate output token limits in the models list, restore workspace directories only after resumeChat succeeds, skip system MCP servers with insecure command permissions, disclose canonical link paths with consent defaulting to no, detect a local git clone from the CLI path instead of the working directory, and keep ASK_USER for shell commands with unresolved expansions, after v0.69.0 (November 19, 2026), a changelog-rollup cut whose visible fixes stop silent multi-minute loading hangs on network failures, cap multi-hour quota retries with ACP clients notified, add a /stats heatmap subcommand for daily token usage, standalone theme.json custom themes, and an overridable API headers timeout (model.requestTimeoutMs), after v0.68.0 (November 10, 2026).
 Google's own enterprise documentation now opens with a banner saying Gemini CLI is not optimized for the latest Gemini models and pointing to Antigravity CLI, so even the enterprise path is being steered to the successor (docs updated October 16, 2026).
 
 <picture>
@@ -78,6 +78,7 @@ Not for individuals, whatever the 2025 blog posts (several of which I believed a
 - 2026-11-08 - Rotation re-verification, re-fetching every cited reference (all live): refreshed the commit count to 6,600 exactly, named v0.67.0 (November 4, 2026) as the latest tagged release, and confirmed the enterprise docs still carry the not-optimized banner steering to Antigravity CLI.
 - 2026-11-14 - Recorded the v0.68.0 tagged release (published November 10, 2026), a changelog-rollup cut whose visible fixes bound inline history re-rendering after terminal width changes and preserved literal `$` characters during template placeholder replacement, which the Status prose had already carried, and refreshed the commit count to about 6,611 as of 2026-11-11.
 - 2026-11-19 - Recorded the v0.69.0 tagged release (published November 19, 2026), a changelog-rollup cut whose visible fixes prevent silent multi-minute loading hangs on network failures and multi-hour quota retries (ACP clients notified on retry), with the /stats heatmap subcommand, standalone theme.json custom themes, and the overridable API headers timeout added, and refreshed the commit count to about 6,631 as of 2026-11-19.
+- 2026-11-20 - Recorded the v0.70.0 tagged release (published November 19, 2026), a changelog-rollup cut whose visible fixes preserve Unicode prompts and the selected worktree across authentication restarts, keep interrupted placeholders after empty model responses, apply `${VAR:-default}` on empty-set variables, scale undici body timeouts past the 300-second default, report accurate output token limits, skip system MCP servers with insecure command permissions, default link-consent to no, and keep ASK_USER for unresolved shell expansions, against the GitHub releases API.
 
 ## See also
 

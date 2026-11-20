@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code"
 created: 2026-09-05
-updated: 2026-11-19
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, moonshot, byok]
 readability: 3
@@ -22,7 +22,8 @@ The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2
 ## Status
 
 Active and big-vendor backed, about 19.3k combined stars as of 2026-10-15: `kimi-code` at 7,873 stars, `kimi-cli` at 11,423 stars, with the older repository now archived by Moonshot (its last push was 2026-09-22).
-The npm train's newest stable is @moonshot-ai/kimi-code@2.6.3 (published November 17, 2026), a patch cut fixing duplicated foreground shell output, the Windows WebBridge daemon failing to update, external Stop hooks not firing after a turn, and background notifications side-effecting sessions.
+The npm train's newest stable is @moonshot-ai/kimi-code@2.7.1 (published November 20, 2026), a patch cut keeping queued prompts pending until background notification turns finish, fixing turn-specific fork failures after restoring sessions with in-turn steering, draft thinking-effort selections reverting to the model default after sending, and the web composer disappearing over insecure HTTP, after 2.7.0 (published November 19, 2026), which added Amazon Bedrock providers (`type = "bedrock"` with `AWS_REGION`), experimental next-prompt predictions in the TUI behind `KIMI_CODE_EXPERIMENTAL_PROMPT_PREDICTION=1` (Tab or Right Arrow accepts), a Follow-up behavior setting making Enter steer the running turn instead of queueing, /tasks views of running foreground agents, HTTP-driven KAP automation (`kimi web --json`, an interactions endpoint, `:wait`, and `kap.md`), a browserless `kimi server`, resuming sessions open in another client, and `KIMI_CODE_SESSION_ID`/`KIMI_CODE_WORKSPACE_ID` exposed to Bash children, with the v2 session and MCP API routes removed for the `/api/v1` surface and a compaction fix keeping requests inside Claude Opus 5 and Haiku 5 output limits, after 2.6.3 (published November 17, 2026) fixed duplicated foreground shell output, the Windows WebBridge daemon failing to update, external Stop hooks not firing after a turn, and background notifications side-effecting sessions.
+Since November 19 the repository's releases feed also carries a kimi-code-desktop line beside the npm train: 1.4.0 (published November 19, 2026) lets external agents such as Claude Code, Codex, and Cursor connect to the desktop app to hand off sessions, review history, and collaborate across turns, and 1.4.1 (published November 20, 2026) followed it.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MoonshotAI/kimi-code&type=date&theme=dark&legend=top-left" />
@@ -144,6 +145,7 @@ Not for teams that need local models, or anyone who needs more than one independ
 - 2026-11-12 - Recorded the twenty-second OpenRouter reading: the main listing held at $0.192/$16.00 (cache reads $0.182) while the main list dropped its host-variant rows, so the roster reads through the endpoints API at 27 endpoints with the input floor at a new low of $0.1530/$16.00 on Wafer and the output floor held at Chutes $1.85/$9.50, and kimi-k3.1-pro's main listing moved to the Relace endpoint price ($0.2375/$8.4085, Moonshot's official endpoint holding $2/$10); appended the matching Price history row and refreshed the usage sentence.
 - 2026-11-14 - Mirrored the model-access pass's twenty-second endpoint move: the roster reads through the endpoints API at 29 after Decart and Morph left, Relace's fp4 repricing lifted the standard input floor to $0.1824/$11.0055 with Wafer's priority fast row at $0.153/$16.00 the cheapest visible input, the main listing and the Chutes output floor held, and Moonshot's official endpoint rows held $2/$10.
 - 2026-11-19 - Recorded the npm train reaching @moonshot-ai/kimi-code@2.6.3 (published November 17): duplicated foreground shell output, the Windows WebBridge daemon update failure, Stop hooks skipped after a turn, and background-notification session side effects.
+- 2026-11-20 - Recorded the npm train reaching @moonshot-ai/kimi-code@2.7.1 (published November 20), after 2.7.0 (November 19) added Amazon Bedrock providers, experimental next-prompt predictions behind `KIMI_CODE_EXPERIMENTAL_PROMPT_PREDICTION=1`, a Follow-up setting making Enter steer, /tasks views of running foreground agents, HTTP-driven KAP automation endpoints, a browserless `kimi server`, and `/api/v1` API consolidation removing the v2 routes, and recorded the repository's releases feed carrying a kimi-code-desktop line since November 19 (1.4.0 connecting external agents such as Claude Code, Codex, and Cursor for session handoff, 1.4.1 following November 20), against the GitHub releases API and npm registry.
 - 2026-11-19 - Mirrored the model-access pass's kimi-k3.1-pro move: the main listing rose to $0.2530/$8.80 (cache reads $0.18) from $0.2375/$8.4085, with kimi-k3's main row, the 29-endpoint roster, the Wafer input floor, and the Chutes output floor unchanged; appended the matching Price history row.
 
 ## See also

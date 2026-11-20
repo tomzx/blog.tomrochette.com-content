@@ -1,7 +1,7 @@
 ---
 title: Nimble
 created: 2026-09-21
-updated: 2026-11-15
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, data-curation, model-evaluation]
 readability: 3
@@ -88,6 +88,7 @@ The disagreeable claim I will defend: this note's most valuable artifact is not 
 - 2026-11-07 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-06 regeneration (275 configurations) carries a new Bespoke Nimble v4.1 Max (27B) row at 70.03, eighth of 275, while v3 (51.06) crowd-shifts ninety-first to 105th and v2 (42.06) 127th to 144th, and JevBench's 2026-11-07 read (page updated 2026-11-03) re-reads the family unchanged (open-weights v4-max twenty-sixth at 73.76, 9B v3 sixtieth at 70.04, the original 9B 104th; API v4-max eighth at 74.82, v4 twenty-eighth).
 - 2026-11-11 - Volatile re-verification at the v4.1 release: Nimble-v4.1 (27B) shipped 2026-11-05 (tied for second on the Decision Index at release, 70.0 overall and 72.74 on the public suite in the company's own run, on the API as `nimble-v4.1-max` with zero data retention and `nimble-latest` re-pointed, its weights the `v4.1` git tag of the Nimble-v4-max Hugging Face repository under CC BY-NC 4.0 like v3), with the 2026-11-09 default-branch commits adding it to the README timeline and the agent skill; the pushed date moved to 2026-11-09.
 - 2026-11-13 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-12 regeneration (301 configurations) crowd-shifted the family's unchanged scores (v4.1 Max eighth to fifteenth, v3 105th to 124th, v2 144th to 165th); the repository, README, and JevBench readings re-read unchanged; fetched and re-cited.
+- 2026-11-20 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-19 regeneration (327 configurations) crowd-shifted the family's unchanged scores again (v4.1 Max still fifteenth, v3 124th to 132nd, v2 165th to 178th); fetched and re-cited.
 - 2026-11-15 - Volatile re-verification at the pushed_at move to 2026-11-14: branch activity, the default branch's newest commits still the 2026-11-09 v4.1 additions; fetched and re-cited.
 
 ## See also
@@ -108,5 +109,5 @@ The disagreeable claim I will defend: this note's most valuable artifact is not 
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/RESULTS-v1.2.md - the third-party board that ranks Bespoke-Nimble-9B 60.5 against Jev's 74.4
 - https://sanand0.github.io/llmevals/jev/ - the prior independent Jev measurement (77 BANKING77 requests) the suite names as its only predecessor
 - https://news.ycombinator.com/item?id=49757009 - the 7-point, zero-comment submission grounding the missing-footprint claim
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 rows for the Bespoke family: Nimble v4.1 Max fifteenth at 70.03, 9B v3 124th at 51.06, 9B v2 165th at 42.06 (regenerated 2026-11-12, fetched 2026-11-13)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 rows for the Bespoke family: Nimble v4.1 Max fifteenth at 70.03, 9B v3 132nd at 51.06, 9B v2 178th at 42.06 (regenerated 2026-11-19, fetched 2026-11-20)
 - https://bespokelabs.ai - the lab behind the project

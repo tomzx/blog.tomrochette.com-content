@@ -1,7 +1,7 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-11-18
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
 readability: 3
@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-11-18 (the default branch's latest commit), with v4.82.0 (2026-11-17, audit logs read from ClickHouse, API-key presets renamed, an SSRF fix in GitHub Enterprise SSO, and evals pausing an LLM connection on provider 429s instead of retrying in-call) and v4.81.0 (2026-11-16, Google Vertex AI added as an AI-gateway provider, Gemini decision models in evaluators, dataset items filterable by status, and Topics snapshots with on-demand map refresh) after v4.80.0 (2026-11-13) and v4.79.0 (2026-11-12) and v4.78.0 (2026-11-10) and v4.77.0 (2026-11-09) after v4.76.0 (2026-11-05), v4.75.0 (2026-11-04), v4.74.0 and v4.73.0 (both 2026-11-03), and v4.72.0 (2026-10-29), as of 2026-11-18.
+Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-11-20 (the default branch's latest commit), with v4.83.0 (2026-11-19, a Topics scatter view replacing the list, per-key spend limits and per-user budgets in the AI gateway, IAM role auth for Bedrock connections, and the MCP server moving to the 2026-07-28 protocol revision with a batchCreateScores tool) and v4.82.0 (2026-11-17, audit logs read from ClickHouse, API-key presets renamed, an SSRF fix in GitHub Enterprise SSO, and evals pausing an LLM connection on provider 429s instead of retrying in-call) and v4.81.0 (2026-11-16, Google Vertex AI added as an AI-gateway provider, Gemini decision models in evaluators, dataset items filterable by status, and Topics snapshots with on-demand map refresh) after v4.80.0 (2026-11-13) and v4.79.0 (2026-11-12) and v4.78.0 (2026-11-10) and v4.77.0 (2026-11-09) after v4.76.0 (2026-11-05), v4.75.0 (2026-11-04), v4.74.0 and v4.73.0 (both 2026-11-03), and v4.72.0 (2026-10-29), as of 2026-11-20.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />

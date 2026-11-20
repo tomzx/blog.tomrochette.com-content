@@ -1,7 +1,7 @@
 ---
 title: Cabinet
 created: 2026-10-02
-updated: 2026-11-14
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, knowledge-base, file-based, self-hosted]
 readability: 3
@@ -87,6 +87,7 @@ Not for Linux-first teams, or anyone who needs an actively shipping dependency, 
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live (all five reachable, no dead sources), no facts changed (the repository still quiet since 2026-08-25 with v0.6.0 the last release, the pricing page still showing the $20/$49 tiers with the $10 Cabinet AI add-on, create-cabinet still 0.5.0 on npm).
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched live (all five reachable, no dead sources), no facts changed (the repository still quiet since 2026-08-25 with v0.6.0 the last release, the pricing page still showing the $20/$49 tiers with the $10 Cabinet AI add-on, create-cabinet still 0.5.0 on npm, the founder's Show HN still 16 points).
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched live (all five reachable, no dead sources), no facts changed (the repository still quiet since 2026-08-25 with v0.6.0 the last release, the pricing page still showing the $20/$49 waitlist tiers with the $10 Cabinet AI add-on, create-cabinet still 0.5.0 on npm, the founder's Show HN reachable).
+- 2026-11-20 - Rotation re-verification: the repository, site, pricing page, and Show HN re-fetched live with no facts changed (the repository still quiet since 2026-08-25 with v0.6.0 the last release, the pricing page still showing the $20/$49 waitlist tiers with the $10 Cabinet AI add-on); npmjs.com served its bot wall this run, so create-cabinet's still-0.5.0 state grounded through registry.npmjs.org per the standing npm wall ruling.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Memanto
 created: 2026-10-11
-updated: 2026-11-19
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, memory-agent, typed-memory, mcp, open-source]
 readability: 3
@@ -26,7 +26,7 @@ Made by Moorcheh AI, with the April 2026 paper (arXiv 2604.22085) behind the ret
 ## Status
 
 **Active, young, and vendor-led.**
-2,326 stars and 741 forks, created 2026-03-23, pushed 2026-11-18, MIT, as of 2026-11-19 (GitHub API).
+2,326 stars and 741 forks, created 2026-03-23, pushed 2026-11-20, MIT, as of 2026-11-20 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=moorcheh-ai/memanto&type=date&theme=dark&legend=top-left" />
@@ -36,6 +36,7 @@ Made by Moorcheh AI, with the April 2026 paper (arXiv 2604.22085) behind the ret
 
 PyPI is at 0.2.32 with about 41 releases since spring, and npm is in sync at 0.2.32 under the scoped @moorcheh-ai/memanto package; v0.2.30 (October 23) made `memanto connect` set up the project's MCP server in Claude Code, Codex, Cursor, and GitHub Copilot with the memory tools pre-approved, and v0.2.31 (October 29) unified caller attribution around `--source` across the CLI, REST, and SDKs (a breaking change: `recall` and `answer` replace `--tool`), fixed `memanto connect` instruction and skill paths and frontmatter across agents, and fixed session-cache and OKF import edge cases.
 v0.2.32 (November 18) shipped the pending work as the release: Kimi Code became a supported coding agent across memanto connect, MCP setup, client attribution, and the Web UI (the README's connect table names fifteen coding CLIs, with the standalone kimicode wrapper riding beside it), Memanto custom tools shipped for Composio in the TypeScript SDK, memanto-mcp installs in Claude Desktop through an MCPB bundle, the eve integration was updated for eve 1.0, and OKF imports keep their original dates; it is a breaking release on recall defaults, without an explicit setting recall now returns up to 50 results (was 10) and drops matches scoring below 0.1 similarity (was unfiltered).
+v0.3.0 (November 20, PyPI and npm both in sync at 0.3.0) is the hosted turn: Memanto Cloud joins as a first-class backend with browser sign-in (`memanto login`, or an `mk_` key for CI), a one-command move of local memories up to the cloud (`memanto migrate to-cloud`, expired memories included on request), and `memanto use cloud | moorcheh | on-prem` replacing `memanto config backend`, with every tool following the selected backend through one shared client factory; the same release ships a desktop widget, an interactive `memanto connect`, per-project tags, per-tool writer attribution recorded by Cloud, and a catch-up at each new session, breaking session handling by replacing auto-renew and auto-recreate with one auto-activate switch that defaults off (with it off, sessions end at their six-hour expiry and long-running CrewAI and Pydantic AI apps need the switch on).
 The Claude Code integration followed on 2026-10-27 (claudecode-memanto v0.1.2): it is MCP-first now, bundling memanto-mcp so the install registers the memanto MCP server in `.mcp.json` or `~/.claude.json` with the memory tools pre-approved, matching `memanto connect`'s `--project-dir` and `--agent-id` flags; the same days added an MCP Dockerfile and llms-install.md for registry listings and connect fixes verifying agent instruction and skill paths.
 The paper claims 89.8 percent on LongMemEval and 87.1 percent on LoCoMo through Moorcheh's Information Theoretic Search engine, with datasets and a harness published on Hugging Face.
 The Hacker News record is modest: a 14-point thread in June 2026 (11 comments) and a 3-point Mem0-migration story in September.
@@ -85,6 +86,7 @@ My disagreeable claim: the management layer, not the store, is where memory prod
 - 2026-11-13 - Volatile re-verification: the pending Kimi Code connect integration and the OKF unquoted-YAML-date import fix recorded (November 12); nothing released, PyPI still at 0.2.31, and the push date refreshed to 2026-11-13.
 - 2026-11-17 - Volatile re-verification: the Kimi Code connect integration shipped as integrations/kimicode/v0.1.0 (2026-11-13, published after the prior run's fetch), the README's connect table now names fifteen coding CLIs, and the pending November 16 eve fix recorded (recall using supported eve 1.0 events); nothing else released, PyPI re-verified at 0.2.31, and the push date refreshed to 2026-11-16.
 - 2026-11-19 - Recorded v0.2.32 (November 18, PyPI and npm both in sync): Kimi Code across connect, MCP setup, attribution, and the Web UI, Composio custom tools in the TypeScript SDK, the Claude Desktop MCPB bundle, the eve 1.0 update, OKF date preservation, and the breaking recall defaults (limit 50, similarity floor 0.1); the push date refreshed to 2026-11-18.
+- 2026-11-20 - Recorded v0.3.0 (November 20, PyPI and npm both in sync): Memanto Cloud as a first-class hosted backend with browser sign-in and one-command local-to-cloud moves, `memanto use` replacing `memanto config backend` (breaking), a desktop widget, interactive connect, per-project tags, per-tool writer attribution in Cloud, and the session catch-up, with session auto-renew and auto-recreate replaced by the off-by-default auto-activate switch (breaking); the push date refreshed to 2026-11-20.
 
 ## See also
 

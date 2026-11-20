@@ -1,7 +1,7 @@
 ---
 title: Jeff
 created: 2026-09-29
-updated: 2026-11-13
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
 readability: 3
@@ -85,6 +85,7 @@ The disagreeable claim I will defend: the v1.3 table matching Jev's published ov
 - 2026-11-07 - Volatile re-verification that surfaced a repositioning and recorded it: the repository's first default-branch movement since 2026-10-07 (eight jeff-dev sync commits on 2026-11-05 and 11-06) rewrote the README into a platform framing, Jeff as a library of decision functions ("a new software primitive") with a 34-adapter namespaced catalogue, a v1.4 Apache-2.0 base released 2026-11-05 (v1.3 and its adapters retired unpublished per the repo's bases.yaml), five SDKs none of which is published yet, a hosted API at api.jeffhub.ai, escalation on low confidence, decision graphs, and MCP tools, while the `/v1/systemone` Jev-format surface survives in the server code; the README's benchmark table is gone and the hub's comparison page now carries a dated 2026-10-17 head-to-head (Jeff 0.8B adapters 91.1 percent against Jev 1.14's 81.8 and OpenAI Decisions' 72.6 on 4,500 rows, ECE 0.016 against 0.085 and 0.115, measured on the adapters published at the time), so the thesis and cautions were rewritten; the Decision Index's 2026-11-06 regeneration added a jeff-uncapped row (6.21, rank 268 of 275) whose owner the board does not state, the JevBench jgeuter rows re-read unchanged, forks refreshed to 83 with no open issues, and the pushed date moved to 2026-11-06.
 - 2026-11-08 - Out-of-rotation correction at the registry signal: the Python and Node SDKs are published after all, jeff-sdk 1.4.1 on PyPI (uploaded 2026-11-06T09:51Z) and npm (09:53Z), both missed by the 11-07 verification, and the rewritten README's quickstart installs from the registries (`pip install jeff-sdk`, with Apple silicon behind a `jeff-runtime[mac]` extra and no MLX mention left), while Rust, C#, and Java still carry no registry commands; the repository is unchanged (pushed 2026-11-06).
 - 2026-11-13 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-12 regeneration (301 configurations) crowd-shifted the unattributed jeff-uncapped row's unchanged 6.21 from rank 268 to 294 of 301; the JevBench jgeuter rows, the repository, and the SDK registries re-read unchanged; fetched and re-cited.
+- 2026-11-20 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-19 regeneration (327 configurations) crowd-shifted the unattributed jeff-uncapped row's unchanged 6.21 from rank 294 to 320 of 327; fetched and re-cited.
 
 ## See also
 

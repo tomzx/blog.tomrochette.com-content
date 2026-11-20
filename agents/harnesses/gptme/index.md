@@ -1,7 +1,7 @@
 ---
 title: gptme
 created: 2026-10-13
-updated: 2026-11-16
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, cli, terminal, local-first, autonomous-agents]
 readability: 3
@@ -23,9 +23,9 @@ Providers are your choice: Anthropic, OpenAI, Google, Grok, DeepSeek, OpenRouter
 
 ## Status
 
-Active and steadily shipped: 4,448 stars as of 2026-10-13, 478 forks and 6 open issues, pushed 2026-11-16 (GitHub API, as of 2026-11-16), with weekly dev pre-releases and stable v0.37.0 (November 15, 2026), a 30-feature release that hardens the hooks seam (a pre-execution deny that can reject tool calls, enforced secret-path reads, and warnings before externally enforced session deadlines), adds local peer discovery that wakes conversations for peer messages, subagent work (cache-aware usage breakdowns, a retained-worktree GC path, a cross-restart writer lease, and a yield operation that checkpoints and ends an attempt as blocked_external), a TUI work-overview screen for child agents and monitors, and OSC 7501 lifecycle reporting, on top of stable v0.36.0 (November 2, 2026) adding an OpenCode Go DeepSeek provider, Windows Authenticode signing for the installer and sidecar, opt-in project verification discovery, a managed default move to claude-sonnet-5.5 over OpenRouter, and per-finding evidence fields with multi-pass consensus preservation on review findings, on top of stable v0.35.1 (October 15, 2026) on top of v0.35.0 the same day, a 61-feature release adding a memory guard that kills the agent's largest command when system memory runs low, queued prompts that steer the running turn, Ctrl+C tool stops in the TUI, and an IPython kernel-process split (v0.35.1); stable v0.34.0 (September 2026) added cross-harness memory and skills as slash commands.
+Active and steadily shipped: 4,448 stars as of 2026-10-13, 478 forks and 6 open issues, pushed 2026-11-20 (GitHub API, as of 2026-11-20), with weekly dev pre-releases and stable v0.37.0 (November 15, 2026), a 30-feature release that hardens the hooks seam (a pre-execution deny that can reject tool calls, enforced secret-path reads, and warnings before externally enforced session deadlines), adds local peer discovery that wakes conversations for peer messages, subagent work (cache-aware usage breakdowns, a retained-worktree GC path, a cross-restart writer lease, and a yield operation that checkpoints and ends an attempt as blocked_external), a TUI work-overview screen for child agents and monitors, and OSC 7501 lifecycle reporting, on top of stable v0.36.0 (November 2, 2026) adding an OpenCode Go DeepSeek provider, Windows Authenticode signing for the installer and sidecar, opt-in project verification discovery, a managed default move to claude-sonnet-5.5 over OpenRouter, and per-finding evidence fields with multi-pass consensus preservation on review findings, on top of stable v0.35.1 (October 15, 2026) on top of v0.35.0 the same day, a 61-feature release adding a memory guard that kills the agent's largest command when system memory runs low, queued prompts that steer the running turn, Ctrl+C tool stops in the TUI, and an IPython kernel-process split (v0.35.1); stable v0.34.0 (September 2026) added cross-harness memory and skills as slash commands.
 Bootstrap-funded by its author, with a managed cloud (gptme.ai, early access) that bills usage-based credits.
-PyPI downloads run about 23,000 per month as of 2026-11-16 (23,018 in the API's last-month window, down from the 32,174 read on 2026-10-13), modest next to this category's mass-market members.
+PyPI downloads run about 23,000 per month as of 2026-11-20 (22,807 in the API's last-month window, down from the 32,174 read on 2026-10-13), modest next to this category's mass-market members.
 **The governance curiosity is the contributor table: the top contributor is TimeToBuildBob, the project's own autonomous agent, at 2,887 contributions against the author's 1,969 as of 2026-11-16.**
 
 <picture>
