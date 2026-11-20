@@ -1,7 +1,7 @@
 ---
 title: CodeAlive
 created: 2026-10-05
-updated: 2026-11-15
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, code-graphs, mcp, saas]
 readability: 3
@@ -77,6 +77,7 @@ My disagreeable claim: CodeAlive's pricing model, the engine unbundled from the 
 - 2026-11-01 - Full rotation re-verification: every cited URL re-fetched and intact (the homepage tier table and per-action rates, the self-hosted page still carrying the no-SOC-2 statement by its own text, the MCP v3 docs with the eleven tools and the migration guide, the 3.0 announcement, the installer package still at 1.0.8 since February, and the pricing URL still redirecting to the homepage); the zero-HN-story footprint re-confirmed (all hits unrelated); no claim changed.
 - 2026-11-11 - Full rotation re-verification: every cited URL re-fetched and intact (the homepage tier table and per-action rates unchanged, the self-hosted page, the MCP v3 docs, the 3.0 announcement, the installer package still at 1.0.8, and the pricing URL still redirecting to the homepage); the zero-HN-story footprint re-confirmed (the top hits remain unrelated "keep your code alive" and Codealike titles); no claim changed.
 - 2026-11-15 - Full rotation re-verification: every cited URL re-fetched and intact (the homepage tier table and per-action rates unchanged, the self-hosted page still carrying the no-SOC-2 statement by its own text, the pricing URL still redirecting to the homepage, the quickstart, the MCP v3 docs with the eleven tools and the migration guide, the 3.0 announcement, the installer package still at 1.0.8 since February, and the HN search); the zero-HN-story footprint re-confirmed (all top hits unrelated); no claim changed.
+- 2026-11-20 - Full rotation re-verification: every cited URL re-fetched and intact (the homepage tier table and per-action rates unchanged, the self-hosted page, the pricing URL still redirecting to the homepage's pricing section, the quickstart, the MCP v3 docs, the 3.0 announcement, the installer package still at 1.0.8 since February, and the HN search still returning only unrelated stories); no claim changed.
 
 ## See also
 

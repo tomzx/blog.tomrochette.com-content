@@ -1,7 +1,7 @@
 ---
 title: data-to-paper
 created: 2026-10-15
-updated: 2026-11-01
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, research-agent, traceability, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Rule-based agents hold the pipeline's structure while LLM agents write the code 
 
 ## Status
 
-Dormant but installable: 829 stars, created 2023-06-17, last push 2025-07-19, which is also the day PyPI took v1.1.22, the package's thirteenth release, as of 2026-11-01.
+Dormant but installable: 829 stars, created 2023-06-17, last push 2025-07-19, which is also the day PyPI took v1.1.22, the package's thirteenth release, as of 2026-11-20.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Technion-Kishony-lab/data-to-paper&type=date&theme=dark&legend=top-left" />
@@ -67,6 +67,7 @@ Not for novelty-seeking discovery runs, which the authors themselves score as th
 
 - 2026-10-15 - Created.
 - 2026-11-05 - Rotation re-verification: all references re-fetched and current (PyPI still at v1.1.22 with thirteen releases, the Show HN thread still at 139 points, the NEJM AI DOI still behind its Cloudflare wall), and reworded the self-grading sentence (banned-term cleanup).
+- 2026-11-20 - Rotation re-verification: all references re-fetched and current (PyPI still at v1.1.22 with thirteen releases, the Show HN thread still at 139 points), and the NEJM AI DOI's recorded 403 wall lifted, the endpoint returning 200 with the citation metadata.
 
 ## See also
 
@@ -78,9 +79,9 @@ Not for novelty-seeking discovery runs, which the authors themselves score as th
 ## References
 
 - https://github.com/Technion-Kishony-lab/data-to-paper - repository, MIT license, features, example datasets, and the NEJM AI citation (fetched 200, 2026-10-15)
-- https://api.github.com/repos/Technion-Kishony-lab/data-to-paper - 829 stars, created 2023-06-17, last push 2025-07-19, MIT, for the as-of status (fetched 200, 2026-10-15)
-- https://raw.githubusercontent.com/Technion-Kishony-lab/data-to-paper/main/README.md - the data-chaining description, autopilot and copilot modes, coding guardrails, and the example manuscripts (fetched 200, 2026-10-15)
-- https://pypi.org/pypi/data-to-paper/json - package version 1.1.22 uploaded 2025-07-19, thirteen releases in the train (fetched 200, 2026-10-15)
-- https://arxiv.org/abs/2404.17605 - the preprint abstract: the 80 to 90 percent recapitulation figure, the limited-novelty admission, and the co-piloting caveat (fetched 200, 2026-10-15)
-- https://doi.org/10.1056/AIoa2400555 - the NEJM AI paper of record (Ifargan, Hafner, Kern, Alcalay, Kishony); the page returned 403 to this run's fetch (Cloudflare), so publication facts are grounded in the repository's citation and the preprint (recorded 403, 2026-10-15)
-- https://hn.algolia.com/api/v1/items/40331850 - the 139-point Show HN thread: the p-hacking critique, the paper-mill concern, and the authors' responsibility disclaimer (fetched 200, 2026-10-15)
+- https://api.github.com/repos/Technion-Kishony-lab/data-to-paper - 829 stars, created 2023-06-17, last push 2025-07-19, MIT, for the as-of status (fetched 200, 2026-10-15 and 2026-11-20)
+- https://raw.githubusercontent.com/Technion-Kishony-lab/data-to-paper/main/README.md - the data-chaining description, autopilot and copilot modes, coding guardrails, and the example manuscripts (fetched 200, 2026-10-15 and 2026-11-20)
+- https://pypi.org/pypi/data-to-paper/json - package version 1.1.22 uploaded 2025-07-19, thirteen releases in the train (fetched 200, 2026-10-15 and 2026-11-20)
+- https://arxiv.org/abs/2404.17605 - the preprint abstract: the 80 to 90 percent recapitulation figure, the limited-novelty admission, and the co-piloting caveat (fetched 200, 2026-10-15 and 2026-11-20)
+- https://doi.org/10.1056/AIoa2400555 - the NEJM AI paper of record (Ifargan, Hafner, Kern, Alcalay, Kishony); the creation fetch hit its Cloudflare wall (recorded 403, 2026-10-15), lifted on 2026-11-20 when the endpoint returned 200 with the citation metadata, grounding the publication facts beside the repository's citation and the preprint (fetched 200, 2026-11-20)
+- https://hn.algolia.com/api/v1/items/40331850 - the 139-point Show HN thread: the p-hacking critique, the paper-mill concern, and the authors' responsibility disclaimer (fetched 200, 2026-10-15 and 2026-11-20)

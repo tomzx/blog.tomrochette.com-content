@@ -1,7 +1,7 @@
 ---
 title: Nanobot
 created: 2026-08-30
-updated: 2026-11-18
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -16,14 +16,14 @@ Nanobot is an MIT-licensed, self-hosted personal AI agent runtime in Python that
 
 ## What it is
 
-A Python 3.11+ package (`pip install nanobot-ai`) with one agent loop over an OpenAI-compatible provider abstraction: WebUI on localhost, terminal TUI, one-shot CLI, background gateway, and chat channels for Telegram, Discord, Slack, WeChat or Feishu, Email, Mattermost, Teams, and Linear.
+A Python 3.11+ package (`pip install nanobot-ai`) with one agent loop over an OpenAI-compatible provider abstraction: WebUI on localhost, terminal TUI, one-shot CLI, background gateway, and 15-plus chat apps per the README's current count (Telegram, Discord, Slack, WeChat or Feishu, Email, WhatsApp, Mattermost, Teams, and Linear among them).
 Tools cover files, shell, web search, images, and MCP; memory includes a long-horizon "Dream" mechanism; v0.3.0 added inline subagents and automation scheduling.
 Model routing spans any OpenAI-compatible API, Ollama, and vLLM with per-session presets and fallback chains, and an OpenAI-compatible HTTP API plus Python SDK support embedding.
 Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the Data Intelligence Lab at HKU), MIT-licensed, Docker and Render deploy paths.
 
 ## Status
 
-One of the fastest adoption curves in the category: 48,998 stars and 8,633 forks as of 2026-10-14, created 2026-02-01, 871 open issues with the last push on 2026-11-18 as of 2026-11-18.
+One of the fastest adoption curves in the category: 48,998 stars and 8,633 forks as of 2026-10-14, created 2026-02-01, 874 open issues with the last push on 2026-11-20 as of 2026-11-20.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/nanobot&type=date&theme=dark&legend=top-left" />
@@ -38,7 +38,7 @@ The README's maintainers table now lists a second name, Yongru Cheng beside Xubi
 ## Strengths
 
 - The irreducible core: HN's technical commenters read it as the minimum viable agent, roughly a 99 percent codebase reduction against OpenClaw by omitting heavyweight orchestration.
-- Full surface out of the box: WebUI in the wheel, eight-plus channels, API, SDK, Docker.
+- Full surface out of the box: WebUI in the wheel, 15-plus chat apps, API, SDK, Docker.
 - Provider freedom including fully local models, with per-session routing and fallbacks.
 - Permissive MIT at a moment when the category's root project carries a custom license.
 
@@ -76,6 +76,7 @@ Not for production assistants unattended on the open internet, or anyone who nee
 - 2026-11-03 - Rotation re-verification: every cited URL re-fetched live (repo and README, the PyPI registry, the HN thread, both comparison-baseline repos), v0.4.0 (2026-10-28) confirmed still the latest release with the Alpha classification current, and the two-name maintainers table and the channel table intact, with refreshed adoption numbers.
 - 2026-11-07 - Recorded v0.4.1 (2026-11-06 on GitHub and PyPI the same day: TLS verification, sandboxed-shell and workspace-permission fixes for queued inputs, idle maintenance no longer blocking active work or update checks, retry and recovery improvements, and a file-context graph with previews and local Markdown links), with the Alpha classification confirmed current on PyPI and refreshed adoption numbers.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched live (repo and README, the PyPI registry, the HN thread, both comparison-baseline repos), v0.4.1 (2026-11-06) confirmed still the latest release with the Alpha classification current, the two-name maintainers table intact with the second maintainer's surname corrected to Cheng per the README, the release count corrected to eighteen per the registry, and the README recorded as no longer carrying the OpenClaw positioning (it now lives in the HN launch title alone), with refreshed adoption numbers.
+- 2026-11-20 - Rotation re-verification: every cited URL re-fetched live (repo and README, the PyPI registry, the HN thread via Algolia, both comparison-baseline repos), v0.4.1 (2026-11-06) confirmed still the latest release with the Alpha classification current and eighteen releases listed, the two-name maintainers table and the README's OpenClaw-positioning removal intact, and the README's channel claim recorded as grown to 15-plus chat apps, with refreshed adoption numbers.
 
 ## See also
 
@@ -88,7 +89,7 @@ Not for production assistants unattended on the open internet, or anyone who nee
 
 - https://github.com/HKUDS/nanobot - repository, features, license, adoption numbers
 - https://raw.githubusercontent.com/HKUDS/nanobot/HEAD/README.md - surfaces, install paths, and the maintainers table (the OpenClaw positioning left the README)
-- https://pypi.org/project/nanobot-ai/ - the Alpha classification, release cadence, and maintainer record (re-checked 2026-11-13 via the registry API, v0.4.1 still latest, eighteen releases listed)
+- https://pypi.org/project/nanobot-ai/ - the Alpha classification, release cadence, and maintainer record (re-checked 2026-11-20 via the registry API, v0.4.1 still latest, eighteen releases listed)
 - https://news.ycombinator.com/item?id=46897737 - the 257-point launch thread whose title carried the OpenClaw positioning, including the security critique
 - https://github.com/openclaw/openclaw - the comparison baseline
 - https://github.com/zeroclaw-labs/zeroclaw - the comparison data

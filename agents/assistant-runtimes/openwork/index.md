@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-11-18
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -23,7 +23,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 430 open issues and PRs with the last push on 2026-11-18 as of 2026-11-18.
+Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 409 open issues and PRs with the last push on 2026-11-20 as of 2026-11-20.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&legend=top-left" />
 </picture>
 
-v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause, v0.18.57 on 2026-10-07, v0.18.58 on 2026-10-13, v0.18.59 on 2026-10-20, v0.18.60 on 2026-10-22, v0.18.61 and v0.18.62 on 2026-10-23 (pop-out computer view and floating browser windows, then OneDrive and SharePoint file support), and v0.18.63 on 2026-10-26 (importing Claude chats and Claude Code sessions into a workspace from Settings, connected files on OpenCode v2 with Google Drive, OneDrive, and SharePoint saving edits back and Gmail draft attachments, and computer use on Windows), and v0.18.64 on 2026-11-03 (public, Cloud, and enterprise Electron builds split onto separate artifact names and updater manifests, with Windows installers now signed using Microsoft Artifact Signing), and v0.18.65 on 2026-11-05 (the same build split continuing: public artifacts on the openwork-* convention, Cloud artifacts requiring sign-in without enterprise activation, and separate updater manifests per build type), and v0.18.66 on 2026-11-10 (the split formalized: enterprise artifacts named openwork-enterprise-* beside the public and Cloud conventions, each build type on its own updater manifest, and Windows installers signed using Microsoft Artifact Signing), and v0.18.67 landing 2026-11-13 (the AI Gateway rollout completing: Auth and Security, config import and export, gateway API keys for other tools, custom OpenAI-compatible providers, and Smart Routers now available to every organization including self-hosted deployments, TrueFoundry joining the provider picker directly, and organizations that had not enabled Auth and Security gaining 30-day session limits plus admin identity re-confirmation after 15 minutes for sensitive actions), and v0.18.68 landing 2026-11-18 carrying the same build-split conventions (public artifacts on the openwork-* naming convention, Cloud artifacts on openwork-cloud-* requiring sign-in without enterprise activation, enterprise artifacts on openwork-enterprise-*, separate updater manifests per build type, and Windows installers signed using Microsoft Artifact Signing).
+v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause, v0.18.57 on 2026-10-07, v0.18.58 on 2026-10-13, v0.18.59 on 2026-10-20, v0.18.60 on 2026-10-22, v0.18.61 and v0.18.62 on 2026-10-23 (pop-out computer view and floating browser windows, then OneDrive and SharePoint file support), and v0.18.63 on 2026-10-26 (importing Claude chats and Claude Code sessions into a workspace from Settings, connected files on OpenCode v2 with Google Drive, OneDrive, and SharePoint saving edits back and Gmail draft attachments, and computer use on Windows), and v0.18.64 on 2026-11-03 (public, Cloud, and enterprise Electron builds split onto separate artifact names and updater manifests, with Windows installers now signed using Microsoft Artifact Signing), and v0.18.65 on 2026-11-05 (the same build split continuing: public artifacts on the openwork-* convention, Cloud artifacts requiring sign-in without enterprise activation, and separate updater manifests per build type), and v0.18.66 on 2026-11-10 (the split formalized: enterprise artifacts named openwork-enterprise-* beside the public and Cloud conventions, each build type on its own updater manifest, and Windows installers signed using Microsoft Artifact Signing), and v0.18.67 landing 2026-11-13 (the AI Gateway rollout completing: Auth and Security, config import and export, gateway API keys for other tools, custom OpenAI-compatible providers, and Smart Routers now available to every organization including self-hosted deployments, TrueFoundry joining the provider picker directly, and organizations that had not enabled Auth and Security gaining 30-day session limits plus admin identity re-confirmation after 15 minutes for sensitive actions), and v0.18.68 landing 2026-11-18 carrying the same build-split conventions (public artifacts on the openwork-* naming convention, Cloud artifacts on openwork-cloud-* requiring sign-in without enterprise activation, enterprise artifacts on openwork-enterprise-*, separate updater manifests per build type, and Windows installers signed using Microsoft Artifact Signing) and v0.18.69 and v0.18.71 landing 2026-11-19 carrying the same build-split conventions (v0.18.70 has no published release).
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 
 ## Strengths
@@ -59,6 +59,7 @@ It churned a nineteenth time by 2026-11-04: the two add-ons left the page again 
 It churned a twentieth time by 2026-11-07: the two add-ons returned to the page and the grandfather clause left again, reversing the nineteenth churn and restoring the eighteenth-churn state, with the three main prices and the annual Enterprise tier with its 60-day opt-out unchanged.
 It churned a twenty-first time by 2026-11-11: the two add-ons left the page again and the grandfather clause returned, reversing the twentieth churn and restoring the nineteenth-churn state, with the three main prices unchanged.
 It churned a twenty-second time by 2026-11-18: the two add-ons returned to the page and the grandfather clause left again, reversing the twenty-first churn and restoring the twentieth-churn state, with the three main prices and the annual Enterprise tier with its 60-day opt-out unchanged.
+It churned a twenty-third time by 2026-11-20: the two add-ons left the page again and the grandfather clause returned, reversing the twenty-second churn and restoring the twenty-first-churn state, with the three main prices and the annual Enterprise tier with its 60-day opt-out unchanged.
 
 ## Price history
 
@@ -86,6 +87,7 @@ It churned a twenty-second time by 2026-11-18: the two add-ons returned to the p
 | 2026-11-07 | All tiers, add-ons | Twentieth churn: the two add-ons returned to the page again (Cloud Computer $50 per member per month, OpenWork models $10 per user per month, both marked available on Team and Enterprise) and the grandfather clause left again, reversing the nineteenth churn; Free $0, Team $10 per user per month, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
 | 2026-11-11 | All tiers, add-ons | Twenty-first churn: the two add-ons left the page again and the grandfather clause returned, reversing the twentieth churn and restoring the nineteenth-churn state; Free $0 (framed as a free OpenWork Cloud plan for up to 5 users), Team $10 per user per month, Enterprise custom unchanged | https://openworklabs.com/pricing |
 | 2026-11-18 | All tiers, add-ons | Twenty-second churn: the two add-ons returned to the page again (Cloud Computer $50 per member per month, OpenWork models $10 per user per month, both marked available on Team and Enterprise) and the grandfather clause left again, reversing the twenty-first churn; Free $0, Team $10 per user per month, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
+| 2026-11-20 | All tiers, add-ons | Twenty-third churn: the two add-ons left the page again and the grandfather clause returned, reversing the twenty-second churn and restoring the twenty-first-churn state; Free $0, Team $10 per user per month, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
 
 ## Compared to
 
@@ -139,6 +141,8 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - 2026-11-13 - Recorded v0.18.67 (2026-11-13, the AI Gateway rollout completing for every organization including self-hosted deployments), with pricing re-checked unchanged (the twenty-first-churn state holds) and refreshed adoption numbers.
 - 2026-11-18 - Recorded v0.18.68 (2026-11-18, the build-split conventions carried onto the release: public, Cloud, and enterprise artifact names, separate updater manifests, signed Windows installers), with refreshed adoption numbers.
 - 2026-11-18 - Pricing churned a twenty-second time: the two add-ons returned to the page and the grandfather clause left again, reversing the twenty-first churn and restoring the twentieth-churn state, with the three main prices and the annual Enterprise tier unchanged (Price history row).
+- 2026-11-20 - Recorded v0.18.69 and v0.18.71 (both 2026-11-19, the build-split boilerplate carried; v0.18.70 has no published release), with refreshed adoption numbers.
+- 2026-11-20 - Pricing churned a twenty-third time: the two add-ons left the page again and the grandfather clause returned, reversing the twenty-second churn and restoring the twenty-first-churn state, with the three main prices unchanged (Price history row).
 
 ## See also
 
@@ -153,7 +157,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - https://raw.githubusercontent.com/different-ai/openwork/HEAD/README.md - the directory-split licensing terms and gateway
 - https://openworklabs.com - product scope and the built-on-OpenCode positioning
 - https://openworklabs.com/pricing - the tiers for the pricing rows
-- https://api.github.com/repos/different-ai/openwork/releases - the release tags through v0.18.68 (2026-11-18, still latest as of 2026-11-18)
+- https://api.github.com/repos/different-ai/openwork/releases - the release tags through v0.18.71 (2026-11-19, still latest as of 2026-11-20; v0.18.70 has no published release)
 - https://github.com/different-ai/openwork/releases/tag/v0.18.42 - release cadence and installer signing
 - https://news.ycombinator.com/item?id=46612494 - the launch thread with the security-boundary questions
 - https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork - Anthropic's help center stating Claude Cowork is now just Claude

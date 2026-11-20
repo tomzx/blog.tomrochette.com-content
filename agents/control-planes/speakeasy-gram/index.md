@@ -1,7 +1,7 @@
 ---
 title: Speakeasy Gram
 created: 2026-11-05
-updated: 2026-11-18
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, gateway, mcp, policy-enforcement, audit, enterprise]
 readability: 3
@@ -25,8 +25,9 @@ The vendor holds SOC 2 Type II and ISO 27001 certifications and publishes GDPR, 
 
 ## Status
 
-Active and vendor-backed: 277 stars and 36 forks as of 2026-11-05 with 259 open issues as of 2026-11-18, created 2025-08-06, pushed 2026-11-18, with the release train moving on 2026-11-16 to 11-18 (hooks@0.3.53 through 0.3.55, admin@0.13.1, server@2.35.0 with dashboard@0.149.0 on 2026-11-17, and server@2.36.0 with dashboard@0.150.0 on 2026-11-18) after server@2.34.0 on 2026-11-14.
+Active and vendor-backed: 277 stars and 36 forks as of 2026-11-05 with 282 open issues as of 2026-11-20, created 2025-08-06, pushed 2026-11-20, with the release train moving on 2026-11-19 to 11-20 (server@2.37.0 on 2026-11-19, and server@2.38.0 with dashboard@0.152.0 on 2026-11-20) after server@2.36.0 on 2026-11-18.
 Three governance-material changes landed in that train: hosted MCP servers are now reached only through their endpoints, with legacy toolset-alias addresses turned off and access tokens scoped to the server they were issued for (server@2.35.0); the processes that handle OAuth credentials refuse to start without organization encryption enabled outside local and test environments (server@2.35.0); and new organizations start with upstream auth enforcement on, so their MCP servers use the typed auth client chosen for each server from the start (server@2.36.0).
+Four more landed in the 2.38 train: staff pin the hooks plugin rollout platform-wide with per-organization overrides, operators can register an MCP client against a user session issuer with the secret shown once and stored hashed and both actions audit-logged, roles and agents can be limited to particular upstream credentials with a block that wins over any tick, and revoking an MCP sign-in session now stops its access token within seconds.
 **The gateway shipped as a pivot: Hacker News saw Gram launch on 2025-09-09 as an open-source platform to create, curate, and host MCP servers (20 points, 2 comments), and a third-party governance wiki places the gateway's general availability in March 2026 with the control-plane framing, after Speakeasy concluded building servers was not the hardest problem.**
 MoonPay is the named production customer, with the vendor claiming 60,000 agent sessions governed per week, though the same third-party profile cautions that homepage logos may date from the SDK-generation business rather than the control plane.
 The community footprint is thin in discussion (the launch thread's two comments and a 23-point, zero-comment Show HN for Gram Functions in November 2025) but present in coverage: independent directory profiles from a governance wiki, Toolglade, and FollowAgents exist, and the governance wiki's entry is openly skeptical.
@@ -82,6 +83,7 @@ Not for teams that need an OSI-approved license, a lightweight local gate on one
 - 2026-11-11 - The release train moved to server@2.32.0 on 2026-11-10 (staff admin MCP write tools now apply changes directly instead of through stored proposals and browser approval) with hooks@0.3.47 to 0.3.49 the same day; the counters refreshed (270 open issues, pushed 2026-11-11).
 - 2026-11-14 - The release train moved through hooks@0.3.50 to 0.3.52 (2026-11-11 to 11-12) and server@2.33.0 (2026-11-13) to server@2.34.0 (2026-11-14); server@2.33.0 carries two governance-material changes recorded in Status that run (the explicit `mcp:connect` grant decoupled from `mcp:read` and `mcp:write` so reads and writes no longer imply tool access, and tool call frames now policy-scanned on Anthropic inference hooks); the counters refreshed (283 open issues, pushed 2026-11-14).
 - 2026-11-18 - The release train moved through hooks@0.3.53 to 0.3.55 (2026-11-16 to 11-18), admin@0.13.1, and server@2.35.0 (2026-11-17) to server@2.36.0 with dashboard@0.150.0 (2026-11-18); server@2.35.0 turns off legacy toolset-alias addresses so hosted MCP servers serve only through their endpoints with tokens scoped per server, refuses to start OAuth-credential-handling processes without organization encryption outside local and test environments, and makes blocking a principal's view of an MCP server also remove its manage access, while server@2.36.0 starts new organizations with upstream auth enforcement on by default; the counters refreshed (259 open issues, pushed 2026-11-18).
+- 2026-11-20 - The release train moved through server@2.37.0 (2026-11-19) to server@2.38.0 with dashboard@0.152.0 (2026-11-20): hooks rollout pins platform-wide with per-organization overrides, operator-registered MCP clients against session issuers with hashed secrets and audit records, credential-level restrictions on roles and agents, and sign-in revocation stopping tokens within seconds; the counters refreshed (282 open issues, pushed 2026-11-20).
 
 ## See also
 

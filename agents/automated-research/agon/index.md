@@ -1,7 +1,7 @@
 ---
 title: Agon
 created: 2026-09-27
-updated: 2026-11-05
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, automated-research, multi-agent, autonomous-research, claude-code]
 readability: 3
@@ -24,7 +24,7 @@ It runs from a separate data workspace (commonly `agon-artifacts`) through the c
 
 ## Status
 
-Active and small: 54 stars as of 2026-10-11, 5 forks, 2 open issues, 76 commits, created 2026-06-18, last push 2026-10-06, as of 2026-10-31.
+Active and small: 54 stars as of 2026-10-11, 5 forks, 2 open issues, 76 commits, created 2026-06-18, last push 2026-10-06, as of 2026-11-20.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AutoResearch-Factory/Agon&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active and small: 54 stars as of 2026-10-11, 5 forks, 2 open issues, 76 commits,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AutoResearch-Factory/Agon&type=date&legend=top-left" />
 </picture>
 
-The companion arXiv paper ([2606.24177](https://arxiv.org/abs/2606.24177)) was submitted 2026-06-23 and reports 444 iterations of Prompt Economy loops across more than ten scientific domains, thousands of scientist-coder-auditor iterations over three months, and a longest uninterrupted run the project page puts at 30 days.
+The companion arXiv paper ([2606.24177](https://arxiv.org/abs/2606.24177)) was submitted 2026-06-23 and revised as v2 on November 10, and v2 reports hundreds of Prompt Economy loop iterations across more than ten scientific domains, thousands of scientist-coder-auditor iterations over three months (v1 carried the specific 444-iteration figure), and a longest uninterrupted run the project page puts at 30 days; v2's code link points at the repository's lite branch.
 **That adoption record is self-reported by the authors with no independent replication, and the public community footprint is essentially absent: an HN Algolia search for Agon autonomous research returns zero hits as of 2026-10-02.**
 The AutoResearch-Factory org ships three more instruments beside Agon, surfaced by the AI4Scientist list: the AutoSR symbolic-regression plugin and the AgonAlpha alpha-mining loop on WorldQuant BRAIN fold here as vendor siblings (4 and 10 stars as of 2026-11-05), while the SciPIvot benchmark of principal-investigator judgment calls (14 stars) is benchmark-kind, not a research loop.
 
@@ -75,6 +75,7 @@ Not for anyone who needs a supported product, formal guarantees, or verified ben
 - 2026-10-07 - Added the AutoResearch-Factory/Agon star history chart to the Status section.
 - 2026-10-13 - Harmonized the cautions' star count with the Status line (54, as of 2026-10-11).
 - 2026-11-05 - Rotation re-verification: all seven references re-fetched and current, with no push since October 6 and the HN footprint still at zero hits; folded the AutoResearch-Factory siblings AutoSR and AgonAlpha into the note as ecosystem evidence (SciPIvot routed as benchmark-kind).
+- 2026-11-20 - Rotation re-verification: all references re-fetched and live, with no push since October 6 and the HN footprint still at zero; recorded the paper's v2 revision (November 10), which reads "hundreds of iterations" where v1 carried the 444 figure, with the prompt-surface table and the 22-entry taxonomy unchanged.
 
 ## See also
 
@@ -86,10 +87,11 @@ Not for anyone who needs a supported product, formal guarantees, or verified ben
 
 ## References
 
-- https://github.com/AutoResearch-Factory/Agon - repository, plugin layout, commands, license, and install requirements
-- https://raw.githubusercontent.com/AutoResearch-Factory/Agon/HEAD/README.md - the factory workflow, mandated Claude Code settings, and the multi-model wrapper
-- https://arxiv.org/abs/2606.24177 - abstract, authors, submission date, and the 444-iteration and taxonomy summary
+- https://github.com/AutoResearch-Factory/Agon - repository, plugin layout, commands, license, and install requirements (fetched 200, 2026-11-20)
+- https://raw.githubusercontent.com/AutoResearch-Factory/Agon/HEAD/README.md - the factory workflow, mandated Claude Code settings, and the multi-model wrapper (fetched 200, 2026-11-20)
+- https://arxiv.org/abs/2606.24177 - abstract, authors, submission date, and the 444-iteration and taxonomy summary (fetched 200, 2026-11-20)
 - https://arxiv.org/html/2606.24177v1 - design principles, architecture, prompt-surface comparison, and the failure-mode taxonomy
-- https://haizhaoyang.github.io/research/autoresearch.html - project-page framing, the six principles, and the 30-day unattended run
-- https://api.github.com/repos/AutoResearch-Factory/Agon - stars, forks, creation and push dates, and MIT license for the as-of status
-- https://hn.algolia.com/api/v1/search?query=%22Agon%22%20autonomous%20research - the absent community footprint as of 2026-10-02
+- https://arxiv.org/html/2606.24177v2 - the v2 revision: the hundreds-of-iterations adoption record replacing v1's 444 figure, the prompt-surface table and 22-entry taxonomy unchanged, and the code link pointing at the repository's lite branch (fetched 200, 2026-11-20)
+- https://haizhaoyang.github.io/research/autoresearch.html - project-page framing, the six principles, and the 30-day unattended run (fetched 200, 2026-11-20)
+- https://api.github.com/repos/AutoResearch-Factory/Agon - stars, forks, creation and push dates, and MIT license for the as-of status (fetched 200, 2026-11-20)
+- https://hn.algolia.com/api/v1/search?query=%22Agon%22%20autonomous%20research - the absent community footprint as of 2026-10-02 (fetched 200, 2026-11-20)

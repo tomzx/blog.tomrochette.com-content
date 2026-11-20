@@ -1,7 +1,7 @@
 ---
 title: Graphite Diamond
 created: 2026-08-30
-updated: 2026-11-13
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -74,6 +74,7 @@ My disagreeable take: independent reviewers were always borrowing the code host'
 - 2026-10-26 - Rotation re-verification: every cited URL re-fetched live; prices unchanged (Hobby free, Starter $20, Team $40), the Cursor Cloud Agents banner, the legacy Diamond copy, and the sub-5-percent claim all still stand, the Agents docs section persists, and the three HN threads are unchanged (276, 167, and 5 points); no factual drift.
 - 2026-11-05 - Rotation re-verification: re-fetched the live surfaces (AI Reviews page, pricing, docs, both TechCrunch posts, all three HN threads unchanged) and found the vendor's own posts removed: the Series B and Diamond launch post and the joins-Cursor announcement now return 404 on graphite.com, recorded in Cautions and References with an archived copy of the joins-Cursor post cited.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched live; prices unchanged (Hobby free, Starter $20, Team $40, Enterprise custom), the Cursor Cloud Agents banner, the legacy Diamond copy, the sub-5-percent claim, and the docs Agents section all standing, both vendor announcement posts still 404, the archived joins-Cursor capture live, and the three HN threads unchanged (276, 167, and 5 points); no factual drift.
+- 2026-11-20 - Rotation re-verification: every cited URL re-fetched live; prices unchanged (Hobby free, Starter $20, Team $40, Enterprise custom), the Cursor Cloud Agents banner, the legacy Diamond copy, and the sub-5-percent claim all standing, the docs Agents section persisting, both vendor announcement posts still 404 with the archived joins-Cursor capture live, and the three HN threads unchanged (276 points with 253 comments, 167 points, 5 points); no factual drift.
 
 ## See also
 
@@ -89,10 +90,10 @@ My disagreeable take: independent reviewers were always borrowing the code host'
 - https://techcrunch.com/2025/03/18/anthropic-backed-ai-powered-code-review-platform-graphite-raises-cash/ - Series B investors, roughly $81M total, Diamond as a standalone spinout, re-fetched 2026-10-18, live 2026-11-05 and 2026-11-13
 - https://techcrunch.com/2025/12/19/cursor-continues-acquisition-spree-with-graphite-deal/ - the acquisition and Axios's "way over" $290M valuation report, re-fetched 2026-10-18, live 2026-11-05 and 2026-11-13
 - https://graphite.com/blog/graphite-joins-cursor - the company's own announcement, December 19, 2025; 404 on graphite.com as of 2026-11-05 (re-confirmed 2026-11-13), with the archived copy below carrying the full text
-- https://web.archive.org/web/20261025095730/https://graphite.com/blog/graphite-joins-cursor - the archived copy of the joins-Cursor announcement (capture October 25, 2026, fetched 2026-11-05: "Graphite has signed a definitive agreement to join Cursor", December 19, 2025, re-fetched live 2026-11-13)
-- https://graphite.com/features/ai-reviews - the current AI Reviews surface with legacy Diamond copy, re-fetched 2026-10-18, 2026-10-26, 2026-11-05, and 2026-11-13 (copy unchanged each time)
-- https://graphite.com/pricing - Hobby free, Starter $20, Team $40, Enterprise custom, as of 2026-10-18 (re-fetched unchanged); re-fetched unchanged again 2026-10-26, 2026-11-05, and 2026-11-13
-- https://graphite.com/docs - documentation hub, re-fetched 2026-10-18, 2026-10-26, 2026-11-05, and 2026-11-13 (the Agents section sits beside AI Reviews each time)
-- https://hn.algolia.com/api/v1/items/46327206 - acquisition thread, 276 points, 253 comments as of 2026-10-11, December 19, 2025, re-fetched 2026-10-18, 2026-11-05, and 2026-11-13 (276 points unchanged)
-- https://hn.algolia.com/api/v1/items/46327325 - second acquisition thread, 167 points, December 19, 2025, re-fetched 2026-10-18, 2026-11-05, and 2026-11-13 (unchanged)
-- https://hn.algolia.com/api/v1/items/43402826 - the original $52M and Diamond launch, 5 points, March 18, 2025, re-fetched 2026-10-18, 2026-11-05, and 2026-11-13 (unchanged)
+- https://web.archive.org/web/20261025095730/https://graphite.com/blog/graphite-joins-cursor - the archived copy of the joins-Cursor announcement (capture October 25, 2026, fetched 2026-11-05: "Graphite has signed a definitive agreement to join Cursor", December 19, 2025, re-fetched live 2026-11-13 and 2026-11-20)
+- https://graphite.com/features/ai-reviews - the current AI Reviews surface with legacy Diamond copy, re-fetched 2026-10-18, 2026-10-26, 2026-11-05, 2026-11-13, and 2026-11-20 (copy unchanged each time)
+- https://graphite.com/pricing - Hobby free, Starter $20, Team $40, Enterprise custom, as of 2026-10-18 (re-fetched unchanged); re-fetched unchanged again 2026-10-26, 2026-11-05, 2026-11-13, and 2026-11-20
+- https://graphite.com/docs - documentation hub, re-fetched 2026-10-18, 2026-10-26, 2026-11-05, 2026-11-13, and 2026-11-20 (the Agents section sits beside AI Reviews each time)
+- https://hn.algolia.com/api/v1/items/46327206 - acquisition thread, 276 points, 253 comments as of 2026-10-11, December 19, 2025, re-fetched 2026-10-18, 2026-11-05, 2026-11-13, and 2026-11-20 (276 points unchanged)
+- https://hn.algolia.com/api/v1/items/46327325 - second acquisition thread, 167 points, December 19, 2025, re-fetched 2026-10-18, 2026-11-05, 2026-11-13, and 2026-11-20 (unchanged)
+- https://hn.algolia.com/api/v1/items/43402826 - the original $52M and Diamond launch, 5 points, March 18, 2025, re-fetched 2026-10-18, 2026-11-05, 2026-11-13, and 2026-11-20 (unchanged)

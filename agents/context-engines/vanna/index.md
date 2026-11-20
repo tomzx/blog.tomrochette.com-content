@@ -1,7 +1,7 @@
 ---
 title: Vanna
 created: 2026-10-11
-updated: 2026-11-14
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, text-to-sql, rag]
 readability: 3
@@ -21,7 +21,7 @@ The context mechanism is Tool Memory: every successful interaction is saved, and
 
 ## Status
 
-Archived upstream, alive commercially: the repository banner reads "This repository was archived by the owner on Mar 29, 2026. It is now read-only", and the API reports archived true with 23,823 stars as of 2026-10-13, 2,550 forks and 289 open issues as of 2026-11-07, last pushed 2026-02-02.
+Archived upstream, alive commercially: the repository banner reads "This repository was archived by the owner on Mar 29, 2026. It is now read-only", and the API reports archived true with 23,823 stars as of 2026-10-13, 2,547 forks and 289 open issues as of 2026-11-20, last pushed 2026-02-02.
 The last PyPI release is 2.0.2 on 2026-02-02 (2.0.0 shipped 2025-11-20; 78 releases total), and issues and discussions are frozen, so bug reports route through the docs and support channels.
 The company side is active: vanna.ai, the docs portal, and a three-tier pricing page all fetched unchanged again on 2026-11-14, selling hosted admin features (access control, hosted vector memory, observability, audit logs) on top of the frozen core.
 The community footprint is dated but large: a 547-point launch thread on 2024-01-14 and 232 comments made it the reference text-to-SQL-RAG project, and nothing since.
@@ -78,6 +78,7 @@ The archive is the information: the framework that defined text-to-SQL RAG is no
 - 2026-10-30 - Rotation re-verification: every cited URL re-fetched and intact (the archive banner still on the repository page, the slimmed README, PyPI at 2.0.2 across 78 releases, the docs portal and commercial site, the three pricing tiers unchanged, the 547-point launch thread, the CVE-2024-5565 coverage); forks refreshed; no claim changed.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched and intact (the archive banner still on the repository page, the slimmed README with no Tool Memory mention, PyPI still at 2.0.2 across 78 releases with 2026-02-02 the last upload, the docs portal still documenting Tool Memory, the commercial site, the three pricing tiers unchanged, the 547-point launch thread, the CVE-2024-5565 coverage); forks refreshed; no claim changed.
 - 2026-11-14 - Rotation re-verification: every reachable cited URL re-fetched and intact (the archive banner still on the repository page, the slimmed README, PyPI still at 2.0.2 across 78 releases with 2026-02-02 the last upload, the docs portal, the commercial site, the three pricing tiers unchanged, the 547-point launch thread); the scmagazine CVE coverage stands on the site-wide bot-wall ruling, and the stats API endpoint stayed rate-limited this run, so the forks and issues figures keep their 2026-11-07 as-of date; no claim changed.
+- 2026-11-20 - Rotation re-verification: every reachable cited URL re-fetched and intact (the archive banner still on the repository page, the slimmed README, PyPI still at 2.0.2 across 78 releases with 2026-02-02 the last upload, the docs portal still carrying Tool Memory, the commercial site, the three pricing tiers unchanged with Explorer $50 and Team $500 on the live page, the 547-point launch thread); the scmagazine CVE URL now 301-redirects to the rebranded scworld.com, which serves the same 403 bot wall, so the citation stands with the redirect recorded; forks refreshed to 2,547 with issues at 289 as of 2026-11-20; no claim changed.
 
 ## See also
 
@@ -96,4 +97,4 @@ The archive is the information: the framework that defined text-to-SQL RAG is no
 - https://vanna.ai - the commercial site: Cloud and self-host, hosted admin features
 - https://vanna.ai/pricing - Explorer $50, Team $500, Enterprise custom, re-verified unchanged 2026-11-14
 - https://hn.algolia.com/api/v1/items/38992601 - the 547-point launch thread of 2024-01-14, the community footprint's peak
-- https://www.scmagazine.com/news/vanna-ai-prompt-injection-vulnerability-enables-rce - CVE-2024-5565 prompt-injection RCE coverage, the record's critical source
+- https://www.scmagazine.com/news/vanna-ai-prompt-injection-vulnerability-enables-rce - CVE-2024-5565 prompt-injection RCE coverage, the record's critical source (the URL 301-redirects to scworld.com since the domain's rebrand; scworld serves the same scripted-fetch 403 wall, re-checked 2026-11-20)

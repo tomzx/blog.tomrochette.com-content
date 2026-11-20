@@ -1,7 +1,7 @@
 ---
 title: SoL-Pi
 created: 2026-10-13
-updated: 2026-11-19
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, context-compression, harness-efficiency]
 readability: 3
@@ -22,7 +22,8 @@ The project page reports the efficiency results from the paper's auto-research b
 
 ## Status
 
-Young and active: 3,479 stars as of 2026-10-18, 303 forks and 91 open issues as of 2026-11-19, created 2026-09-02 and pushed 2026-11-19 (the push again landed off main, quiet since 2026-10-18), MIT licensed, with work continuing toward a Pi v1 baseline.
+Young and active: 3,479 stars as of 2026-10-18, 303 forks and 91 open issues as of 2026-11-20, created 2026-09-02 and pushed 2026-11-20, MIT licensed, with work continuing toward a Pi v1 baseline.
+On 2026-11-20 the README news announced **SoL-Pi v2 in development on the `sol-pi-v2-exp` branch**: more robust than v1, fully supporting Codex and Claude Code, and adding Ultra, an agent-swarm mode; nothing of v2 is released yet and the branch is experimental.
 On 2026-10-14 the repository gained an official SoL-Pi skill packaging a Claude Code and Codex hand-off, with a News section of visual examples; it hands the ideas to other agents' sessions rather than porting the mechanisms off Pi.
 **The attention record is thin for the star count: four small Hacker News posts between September and October 2026 (3, 2, 2, and 1 points), so the stars ride the NV Labs name and the awesome-list circuit rather than debate.**
 It extends unmodified Pi rather than forking it, which distinguishes it from the rejected third-Pi-derivative family in the harnesses category.
@@ -43,7 +44,7 @@ It extends unmodified Pi rather than forking it, which distinguishes it from the
 
 ## Cautions
 
-- Pi-only: every mechanism is implemented against one harness, so teams elsewhere get ideas, not code.
+- Pi-only for now: every shipped mechanism is implemented against one harness, so teams elsewhere get ideas, not code; the v2 announcement names full Codex and Claude Code support, but that is unreleased branch work.
 - Young (created 2026-09-02) with 91 open issues already as of 2026-11-13, so the extension surface is still settling.
 - The efficiency claims come from the authors' own auto-research benchmarks, reproduced by nobody independent yet, and the HN footprint is four small posts.
 - Compaction and paging change what the model sees, so behavior differences are possible even when token counts improve.
@@ -74,6 +75,7 @@ Not for other harnesses (port the ideas instead), or for teams needing independe
 - 2026-11-05 - Full rotation re-verification: every cited URL re-fetched (repository, paper abstract, NVIDIA project page, the Pi harness repo, and the HN footprint search all intact, the four-mechanism structure and benchmark claims unchanged); the 2026-11-05 push resolved as non-default-branch activity with main quiet since 2026-10-18, so the note stands; activity counts refreshed to 2026-11-05.
 - 2026-11-13 - Full rotation re-verification: every cited URL re-fetched and intact (repository, paper abstract, NVIDIA project page, the Pi harness repo, and the HN footprint search, the three small SoL-Pi posts unchanged and the four-mechanism structure and benchmark claims unchanged); the 2026-11-13 push again resolved as non-default-branch activity with main quiet since 2026-10-18, so the note stands; activity counts refreshed to 2026-11-13.
 - 2026-11-19 - Full rotation re-verification: every cited URL re-fetched and intact (repository, paper abstract, NVIDIA project page, the Pi harness repo, and the HN footprint search, the four-mechanism structure and benchmark claims unchanged); the 2026-11-19 push again resolved as non-default-branch activity with main quiet since 2026-10-18; the HN footprint grew to four small posts (3, 2, 2, and 1 points); forks and open issues refreshed (303 and 91).
+- 2026-11-20 - Recorded the README news announcing SoL-Pi v2 in development on the sol-pi-v2-exp branch (more robust than v1, full Codex and Claude Code support, the Ultra agent-swarm mode; branch verified to exist), the first main-branch commit since 2026-10-18; the Pi-only caution softened to name the announced v2 support as unreleased branch work; the activity date refreshed to the 2026-11-20 push.
 
 ## See also
 
@@ -86,6 +88,7 @@ Not for other harnesses (port the ideas instead), or for teams needing independe
 ## References
 
 - https://github.com/NVlabs/SoL-Pi - repository, MIT license, stars, forks, push activity, and the four-mechanism structure as of 2026-11-17
+- https://raw.githubusercontent.com/NVlabs/SoL-Pi/main/README.md - the README news carrying the 2026-11-20 SoL-Pi v2 announcement (v2 on the sol-pi-v2-exp branch, Codex and Claude Code support, Ultra) and the four-mechanism table
 - https://arxiv.org/abs/2609.20519 - the paper grounding the four mechanisms and the auto-research benchmark claims
 - https://nvlabs.github.io/SoL-Pi/ - the NVIDIA project page with the reported efficiency results
 - https://github.com/earendil-works/pi - the Pi harness SoL-Pi extends without forking

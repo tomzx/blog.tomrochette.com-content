@@ -1,7 +1,7 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-11-19
+updated: 2026-11-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
@@ -25,9 +25,10 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 
 ## Status
 
-Growing absurdly fast for its age: 126,981 stars as of 2026-10-16, latest release v0.9.112 on 2026-11-17, 3,098 commits in about six months since 2026-04-03, and 14,454 forks and 1,686 open issues and pull requests as of 2026-11-19 (425 contributors as of 2026-11-19).
+Growing absurdly fast for its age: 126,981 stars as of 2026-10-16, latest release v0.9.113 on 2026-11-19, 3,128 commits in about six months since 2026-04-03, and 14,508 forks and 1,679 open issues and pull requests as of 2026-11-20 (426 contributors as of 2026-11-20).
 Releases v0.9.110 and v0.9.111 (both 2026-11-15) fixed Python aliased-import call linking (`from mod import foo as bar; bar()` now links from method bodies and decorated definitions) and shipped a maintenance-and-security release raising the minimum Python to 3.11, pulling in patched optional and transitive dependencies after 3.10's October 2026 end of life.
 Release v0.9.112 (2026-11-17) shipped the Delphi/Pascal cluster (a form linked to the unit that implements it, calls resolved through global object variables, base classes resolved to their declarations, and units the grammar cannot parse recovered end to end) alongside Java overloaded methods keyed by arity and erased signature, Go bare-receiver resolution to its own package's type, Rust `crate::` imports resolving inside their own crate, C directory-qualified angle includes, a dedup fix keeping prefix-derived words apart from their base words, and an install fix where `graphify claude install` writes its section to the file Claude Code actually reads (an existing CLAUDE.md wins over AGENTS.md), with uninstall symmetric.
+Release v0.9.113 (2026-11-19) raised the packaging floor again: the minimum Python is now 3.11.5 with soupsieve pinned to 4.1.1, clearing the ReDoS advisories reachable through beautifulsoup4 in the optional `svg`/`all`/`pdf` extras (installs on Python 3.11.0 to 3.11.4 keep resolving to 0.9.112), and it kept underscore/case member twins apart in node ids across Ruby, Lua, Scala, and Elixir while a Rust fix reads a prelude trait's generic argument as a reference instead of a wrong `implements`/`inherits` edge.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Graphify-Labs/graphify&type=date&theme=dark&legend=top-left" />
@@ -116,6 +117,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - 2026-11-15 - Recorded release v0.9.109 (2026-11-14: node-id collision fixes keeping `_name`/`name` and case-only member twins apart across C++, Swift, Kotlin, and Dart, C# explicit interface implementations kept out of overload binding with leftover overloads paired against ordinary members and non-UTF-8 files decoded before directive blanking, LLM graph-fragment validation rejecting ambiguous fragments before caching while accepting a single-element array wrapper, last good AST records preserved on source failure, and the `/graphify` skill's B3.5 coverage step reading the scan root from `.graphify_root`) and refreshed the volatile numbers (3,048 commits, 391 contributors, 14,191 forks, 1,633 open issues and PRs); PyPI tracks 0.9.109, hosted plans re-verified unchanged against the live pricing page.
 - 2026-11-16 - Recorded the v0.9.110 and v0.9.111 pair (both 2026-11-15: Python aliased-import call linking from method bodies and decorated definitions, and a maintenance-and-security release raising the minimum Python from 3.10 to 3.11 for the patched dependency line) and refreshed the volatile numbers (3,065 commits, 420 contributors, 14,260 forks, 1,638 open issues and PRs); PyPI tracks 0.9.111.
 - 2026-11-19 - Recorded release v0.9.112 (2026-11-17: the Delphi/Pascal cluster, Java overload nodes keyed by arity and erased signature, Go bare-receiver and Rust crate-scoped resolution, the prefix-word dedup fix, and the claude-install CLAUDE.md-precedence fix) and refreshed the volatile numbers (3,098 commits, 425 contributors, 14,454 forks, 1,686 open issues and PRs); PyPI tracks 0.9.112.
+- 2026-11-20 - Recorded release v0.9.113 (2026-11-19: the Python floor raised to 3.11.5 with soupsieve pinned at 4.1.1 to clear the transitive ReDoS advisories, node-id twin fixes across Ruby, Lua, Scala, and Elixir, and a Rust prelude-generics fix) and refreshed the volatile numbers (3,128 commits, 426 contributors, 14,508 forks, 1,679 open issues and PRs); PyPI tracks 0.9.113.
 
 ## See also
 
@@ -131,7 +133,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - https://graphify.com/ - positioning and the no-embeddings claim
 - https://graphify.com/pricing - the four hosted plans above the free core, re-verified unchanged 2026-10-07, 2026-11-13, and 2026-11-15
 - https://graphify.com/llms-full.txt - the full plan table grounding the pricing section (monthly and annual billing), fetched 2026-10-07
-- https://pypi.org/project/graphifyy/ - the distribution and current version (0.9.112, re-fetched 2026-11-19)
+- https://pypi.org/project/graphifyy/ - the distribution and current version (0.9.113, re-fetched 2026-11-20)
 - https://www.ycombinator.com/companies/graphify-labs - the maker, batch, and self-reported adoption claims
 - https://github.com/zachsaw/graphify-csharp - the third-party C# port, 73 stars as of 2026-10-10
 - https://news.ycombinator.com/item?id=49667188 - the port's Show HN thread, 46 points and 21 comments, verified via the Algolia API
