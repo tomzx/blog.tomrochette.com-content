@@ -1,7 +1,7 @@
 ---
 title: Memoryfields
 created: 2026-09-04
-updated: 2026-11-15
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, file-format]
 readability: 3
@@ -79,6 +79,7 @@ My disagreeable claim: the tooling does not matter yet, and adopting it now buys
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live (the essay, the spec, all three repository APIs, the launch thread, and the Karpathy gist), no facts changed: the spec still self-labels version 0.3 (2026-09), the tool repository is still quiet since its 2026-10-15 push with no release since the two August 2026 tags, and the spec repository since 2026-09-17.
 - 2026-11-11 - Rotation re-verification: every cited URL re-fetched live, one fact changed: the tool repository pushed again on 2026-11-08 (a guard against installing pysqlite3-binary on Windows and macOS), with the release record unchanged (still the two August 2026 tags) and the spec still version 0.3, the launch thread still 191 points, and the skill and spec repositories quiet.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched live (the essay, the spec, all three repository APIs and the tool's releases, the launch thread, and the Karpathy gist), no facts changed: the spec still self-labels version 0.3 (2026-09), the launch thread still 191 points, the tool repository quiet since its 2026-11-08 push with still only the v0.0.1 and v0.5.0 tags, and the spec and skill repositories quiet since September.
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched live (the essay, the spec, all three repository APIs and the tool's releases, the launch thread, and the Karpathy gist), no facts changed: the spec still self-labels version 0.3 (2026-09), the launch thread still 191 points, the tool repository quiet since its 2026-11-08 push with still only the v0.0.1 and v0.5.0 tags, the spec repository quiet since 2026-09-17, and the skill repository quiet since August.
 
 ## See also
 

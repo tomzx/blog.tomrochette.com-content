@@ -1,7 +1,7 @@
 ---
 title: GitHub Copilot automations
 created: 2026-08-24
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, executions, github-copilot, scheduling, llm=glm-5.3-flash]
 readability: 3
@@ -16,7 +16,7 @@ Copilot automations run GitHub's Copilot cloud agent automatically, on a schedul
 
 ## What it is
 
-You create an automation (from a repository's Agents tab, the GitHub Copilot app, VS Code's Agents window, or the REST API) by naming it, choosing a **personal** or **shared** type, writing a prompt, picking triggers, a model, and the tools it may use, with optional search-query and files-changed filters narrowing the event triggers and optional per-run, daily, weekly, and monthly AI-credit limits bounding its spend.
+You create an automation (from a repository's Agents tab, the GitHub Copilot app, VS Code's Agents window, or the REST API) by naming it, choosing a **personal** or **shared** type, writing a prompt, picking triggers, a model, and the tools it may use (GitHub tools plus tools from repository-configured MCP servers, the latter not limited to the automation's one repository), with optional search-query and files-changed filters narrowing the event triggers and optional per-run, daily, weekly, and monthly AI-credit limits bounding its spend.
 The type is permanent: it cannot be changed after creation.
 Automations can join groups that share context and propose improvements to their own or each other's tools, triggers, and prompts, with every proposal held for a person to accept or dismiss.
 Event triggers can also scope the run's writes to the triggering issue or pull request rather than the whole repository, and can exclude events triggered by Copilot in the cloud (including other automations) from firing the run.
@@ -76,6 +76,7 @@ My disagreeable claim: shared automations fix the visibility hole on paper, but 
 - 2026-11-05 - Fully re-verified in rotation with every cited URL re-fetched: recorded the personal-versus-shared automation types (chosen at creation, permanent, shared team-visible and editable with Copilot identity and owner billing beside the creator-private personal type), the API trigger with optional context, VS Code and REST creation surfaces, optional per-run and daily, weekly, and monthly AI-credit limits (per-run minimum 30), and the billing split (personal AI credits to the creator, shared to the repository owner, Actions minutes to the repository owner); the private-or-internal availability, the write-access creation and untrusted-event defaults, the not-committed-to-git storage, the public-preview rationale layer with the Cautious default, the verbatim approvals caveat, and the 59-minute cap all re-confirmed.
 - 2026-11-08 - Fully re-verified in rotation with every cited URL re-fetched: the personal-versus-shared type model, the API trigger and credit limits (per-run minimum 30), the not-committed-to-git storage, the public-preview rationale layer with the Cautious default and the verbatim approvals caveat, the automations risk section, and the 59-minute cap all re-confirmed unchanged; recorded the automation groups with self-proposed improvements (each proposal person-approved), the per-run write-scope option (Only this issue versus Anything in this repository), the Copilot-event trigger filter, and per-automation revision history.
 - 2026-11-14 - Fully re-verified in rotation with every cited URL re-fetched: the personal-versus-shared type model (permanent at creation, shared definitions team-visible and editable, runs visible to anyone with read access either way), the API trigger and credit limits (per-run minimum 30), the not-committed-to-git storage, the public-preview rationale layer with the Cautious default and the verbatim approvals caveat, the automations risk section, and the 59-minute Actions session cap all re-confirmed unchanged; the docs' new Copilot in the cloud experience (2026-10-28) leaves every automations claim untouched.
+- 2026-11-21 - Fully re-verified in rotation with every cited URL re-fetched: the personal-versus-shared type model (permanent at creation, shared definitions team-visible and editable, runs visible to anyone with read access either way), the API trigger and credit limits (per-run minimum 30), the not-committed-to-git storage, the public-preview rationale layer with the Cautious default and the verbatim approvals caveat, the automations risk section, and the 59-minute Actions session cap all re-confirmed unchanged; recorded that automation tools now include tools from repository-configured MCP servers beside GitHub tools, with the docs' own caveat that MCP-server tools are not limited to the automation's one repository.
 
 ## See also
 
@@ -86,8 +87,8 @@ My disagreeable claim: shared automations fix the visibility hole on paper, but 
 
 ## References
 
-- https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations - triggers, availability, visibility, personal and shared types, API trigger, automation groups and proposed improvements, security model (re-fetched 2026-11-14)
-- https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/create-automations - creation flow, personal/shared choice, write-scope and Copilot-event trigger options, Run now testing, AI-credit limits, prompt warning (re-fetched 2026-11-14)
-- https://docs.github.com/en/copilot/concepts/security-governance-and-network-settings/risks-and-mitigations - the automations section of GitHub's risk model (re-fetched 2026-11-14)
-- https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automation-rationale-and-approvals - confidence levels and the approvals caveat (re-fetched 2026-11-14)
-- https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github - Actions-powered sessions, 59-minute cap, minutes and credits billing (re-fetched 2026-11-14)
+- https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations - triggers, availability, visibility, personal and shared types, API trigger, automation groups and proposed improvements, GitHub and MCP-server tools, security model (re-fetched 2026-11-21)
+- https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/create-automations - creation flow, personal/shared choice, write-scope and Copilot-event trigger options, Run now testing, AI-credit limits, prompt warning (re-fetched 2026-11-21)
+- https://docs.github.com/en/copilot/concepts/security-governance-and-network-settings/risks-and-mitigations - the automations section of GitHub's risk model (re-fetched 2026-11-21)
+- https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automation-rationale-and-approvals - confidence levels and the approvals caveat (re-fetched 2026-11-21)
+- https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github - Actions-powered sessions, 59-minute cap, minutes and credits billing (re-fetched 2026-11-21)

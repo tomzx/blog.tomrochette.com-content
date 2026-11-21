@@ -1,7 +1,7 @@
 ---
 title: fx
 created: 2026-08-29
-updated: 2026-11-20
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zig, vercel, embedding]
 readability: 3
@@ -16,7 +16,7 @@ fx is Vercel Labs' coding agent harness and CLI written in Zig, built to be embe
 
 ## What it is
 
-A single Zig binary (6.17 MiB per the [site](https://fx.sh/)) that does no unnecessary I/O before accepting input (the v0.0.8 release notes measure CLI startup at about 0.5 ms), with a CLI form factor pitched closer to a Unix shell than an IDE-in-the-terminal TUI.
+A single Zig binary (6.33 MiB per the [site](https://fx.sh/), as of 2026-11-21) that does no unnecessary I/O before accepting input (the v0.0.8 release notes measure CLI startup at about 0.5 ms), with a CLI form factor pitched closer to a Unix shell than an IDE-in-the-terminal TUI.
 It is open source (Apache-2.0), model-agnostic, and compiles to WebAssembly, which is how the site runs the whole agent in a browser demo.
 Feature surface: native [AGENTS.md](https://fx.sh/docs/configure-fx/project-instructions) loading (global, workspace, and per-directory), [MCP](https://fx.sh/docs/capabilities/mcp), Claude-format skills directories (.claude/skills/ and peers), [subagents](https://fx.sh/docs/capabilities/subagents) as persistent child sessions with durable message queues, web search, vision, and an [`fx acp`](https://fx.sh/docs/using-fx/acp) server so ACP-speaking editors can host it.
 
@@ -84,6 +84,7 @@ Not for anyone who needs local models, provider-key BYOK, or a stable release li
 - 2026-10-30 - Recorded the v0.0.16 release (October 29): the vendor-paired 41-percent uncached-token reduction and 87.5-percent fewer broken prompt prefixes, the 2.8-percent-smaller macOS CLI, the 60-percent-lighter libfx install (platform-native addon with a WebAssembly fallback), 16 MiB file edits, invoke-time skill instruction sends, and stored edit diffs.
 - 2026-11-07 - Rotation re-verification, re-fetching every cited reference (all live): v0.0.16 remains the newest release with pushes landing through November 7, and the custom-model-connections docs page dropped its preview banner while the OpenAI-Chat-Completions-only limitation stands, so the caution was rewritten.
 - 2026-11-15 - Recorded the v0.0.17 release (November 14): subagents working alongside the main agent (agent list on Down or Ctrl+X for switching, watching, and messaging, two-level nesting, per-agent profiles, `/launch` multi-instance windows, `fx sessions --live`), Vercel Token Pass as a first-class credential, the consolidated `toolbox` tool cutting built-in tool definitions 48.0 percent and lifting prompt-cache reads from 61.3 to 82.0 percent of later input, `fx mcp call`, `fx config`, shell completions, and retry hardening; refreshed the push date to 2026-11-15.
+- 2026-11-21 - Rotation re-verification, re-fetching every cited reference (all live): v0.0.17 remains the newest release with pushes landing through November 21, the site's binary-size claim moved from 6.17 to 6.33 MiB (What-it-is updated), and the three-credential authentication docs still ground the cautions as written.
 
 ## See also
 
@@ -95,7 +96,7 @@ Not for anyone who needs local models, provider-key BYOK, or a stable release li
 ## References
 
 - https://github.com/vercel-labs/fx - repository, Apache-2.0, scale and releases, as of 2026-10-17
-- https://fx.sh/ - product claims, 6.17 MiB binary size, Wasm demo
+- https://fx.sh/ - product claims, 6.33 MiB binary size, Wasm demo, as of 2026-11-21
 - https://fx.sh/docs/getting-started/authentication - the three-credential provider model and local token storage
 - https://fx.sh/docs/configure-fx/project-instructions - native AGENTS.md loading
 - https://fx.sh/docs/capabilities/subagents - the persistent-child subagent system

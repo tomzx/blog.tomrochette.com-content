@@ -1,7 +1,7 @@
 ---
 title: Jevlike
 created: 2026-09-21
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights]
 readability: 3
@@ -24,8 +24,8 @@ A vision variant reuses the same head to score controller buttons from image pat
 
 ## Status
 
-Dormant since launch day by every number I can check, as of 2026-10-31.
-Created and last pushed 2026-09-16, 1,351 stars as of 2026-10-07, 121 forks and eight open issues as of 2026-10-22, a single contributor, and no tags or releases to pin.
+Dormant since launch day by every number I can check, as of 2026-11-21.
+Created and last pushed 2026-09-16, 1,351 stars as of 2026-10-07, 122 forks and seven open issues as of 2026-11-21, a single contributor, and no tags or releases to pin.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vinnylarouge/jevlike&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ I would not route a real decision through this repo today, but I would make ever
 - 2026-10-31 - Rotation re-verification: all five references re-fetched and live, the repository still frozen at 2026-09-16 with forks (121) and open issues (8) unchanged, the thread still 169 points, and trycua/cua's THIRD_PARTY_NOTICES.md still crediting the adapted primitives at commit 94f5fd1; nothing moved.
 - 2026-11-08 - Rotation re-verification: all five references re-fetched and live, the repository still frozen at 2026-09-16 with forks (121) and open issues (8) unchanged, the thread still 169 points, and trycua/cua's THIRD_PARTY_NOTICES.md still crediting the adapted primitives at commit 94f5fd1; nothing moved.
 - 2026-11-14 - Rotation re-verification: all five references re-fetched and live, the repository still frozen at 2026-09-16 with forks (121) and open issues (8) unchanged, the thread still 169 points, and trycua/cua's THIRD_PARTY_NOTICES.md still crediting the adapted primitives at commit 94f5fd1; nothing moved.
+- 2026-11-21 - Rotation re-verification: all five references re-fetched and live, the repository still frozen at 2026-09-16 with forks at 122 and open issues down to seven, the thread still 169 points, and trycua/cua's THIRD_PARTY_NOTICES.md still crediting the adapted primitives at commit 94f5fd1; nothing else moved.
 
 ## See also
 
@@ -89,8 +90,8 @@ I would not route a real decision through this repo today, but I would make ever
 
 ## References
 
-- https://github.com/vinnylarouge/jevlike - repository: MIT, 1,351 stars as of 2026-10-07 (the chart is the live signal), 121 forks, created and last pushed 2026-09-16 (GitHub API, forks and push date as of 2026-11-08)
-- https://raw.githubusercontent.com/vinnylarouge/jevlike/main/README.md - the option-attention architecture, data format, eval design, and the expectations section with the no-equal-quality admission (re-fetched 2026-11-08)
-- https://news.ycombinator.com/item?id=49731282 - the 169-point launch thread (2026-09-16, re-read 2026-11-08), including the satire and panel-disagreement criticisms (fetched via the Algolia items API)
-- https://raw.githubusercontent.com/vinnylarouge/jevlike/main/examples/doom/README.md - the vision variant: 12-option table, DAgger-before-PPO training order, early-checkpoint caveat (re-fetched 200, 2026-11-08)
-- https://huggingface.co/cua-ai/cua-s1-forms - downstream adoption: the checkpoint card and its Cua-S1 docs (the credit now formalized in trycua/cua's libs/cua-s1/THIRD_PARTY_NOTICES.md, adapted material limited to byte-collation and attention-model primitives, pinned to jevlike commit 94f5fd1; both re-fetched 200, 2026-11-08)
+- https://github.com/vinnylarouge/jevlike - repository: MIT, 1,351 stars as of 2026-10-07 (the chart is the live signal), 122 forks, created and last pushed 2026-09-16 (GitHub API, forks and push date as of 2026-11-21)
+- https://raw.githubusercontent.com/vinnylarouge/jevlike/main/README.md - the option-attention architecture, data format, eval design, and the expectations section with the no-equal-quality admission (re-fetched 2026-11-21)
+- https://news.ycombinator.com/item?id=49731282 - the 169-point launch thread (2026-09-16, re-read 2026-11-21), including the satire and panel-disagreement criticisms (fetched via the Algolia items API)
+- https://raw.githubusercontent.com/vinnylarouge/jevlike/main/examples/doom/README.md - the vision variant: 12-option table, DAgger-before-PPO training order, early-checkpoint caveat (re-fetched 200, 2026-11-21)
+- https://huggingface.co/cua-ai/cua-s1-forms - downstream adoption: the checkpoint card and its Cua-S1 docs (the credit now formalized in trycua/cua's libs/cua-s1/THIRD_PARTY_NOTICES.md, adapted material limited to byte-collation and attention-model primitives, pinned to jevlike commit 94f5fd1; both re-fetched 200, 2026-11-21)

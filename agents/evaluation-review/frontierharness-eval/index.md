@@ -1,7 +1,7 @@
 ---
 title: "FrontierHarness Eval"
 created: 2026-09-05
-updated: 2026-11-18
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, coding-agents]
 readability: 3
@@ -14,16 +14,18 @@ audience_notes: >
 
 ## What it is
 
-A multi-harness benchmark from Runta: the same Kimi K3 model ran through nine coding-agent harnesses in twelve configurations over the same 30 software-engineering tasks, 360 runs total, with identical cold starts.
-The public results table puts Codex first on quality (66.7 percent pass, $3.47 median per pass), Claude Code second on quality (63.3 percent) at $18.34, still the most expensive cell, Exo Harness first on cost ($1.05), and DSH Minimal first on speed (5m 41s).
-Task definitions, difficulty metadata, harness versions, and normalized results are public in the repository, and an agent-neutral skill lets third parties re-run the evaluation.
+A multi-harness benchmark from Runta, now in its second version.
+The v1.0 launch study ran the same Kimi K3 model through nine coding-agent harnesses in twelve configurations over the same 30 software-engineering tasks, 360 runs total, with identical cold starts, and its public results table put Codex first on quality (66.7 percent pass, $3.47 median per pass), Claude Code second on quality (63.3 percent) at $18.34, still the most expensive cell, Exo Harness first on cost ($1.05), and DSH Minimal first on speed (5m 41s); those v1.0 artifacts have since been removed from the public repository.
+The repository now carries the v1.1 evaluation as Harbor artifacts: a Harbor dataset manifest, the Baseten suite as a plain Harbor job config, a small per-model launcher, and a pinned uv environment, advertising 22 harness configurations at their published versions, 5 models on Baseten, 62 tasks, and 27,280 trials, with the interactive report on the site.
+The npx runner and the agent-neutral re-run skill that shipped with v1.0 are gone, so third-party re-runs now go through Harbor instead.
 
 ## Status
 
-New and gaining traction: the repository was created 2026-08-31 and pushed 2026-09-08, and the launch drew an 82-point Hacker News thread with substantive methodological discussion.
+New and gaining traction: the repository was created 2026-08-31 and pushed 2026-11-20, and the launch drew an 82-point Hacker News thread with substantive methodological discussion.
 **The benchmark is vendor-run: Runta sells an execution layer for AI agents and announced a $20M seed led by a16z, so the neutrality that makes the numbers useful is asserted, not structural.**
-The repository carries no license as of 2026-10-16, which limits reuse of the task definitions themselves.
-The live board has moved past that snapshot: as of 2026-11-14 the site banners "FrontierHarness v1.1 is live" and its metadata describes a live-run board of 21 harnesses, 5 models, and 62 tasks, the harness-by-model matrix expansion the launch article promised, while the public repository (unlicensed) has not moved on its default branch since 2026-09-08 (the 2026-11-17 repository-level push is side-branch activity), so the v1.1 artifacts are not public there and the held-constant-model design above describes v1.0, not the current board.
+The repository carries no license as of 2026-11-21 (no LICENSE file in the rewritten tree), which limits reuse of the task definitions themselves.
+On 2026-11-17 the author replaced the repository's v1.0 content (tasks, results, metadata, assets, the npx CLI, the re-run skill, and their scripts and tests) with the v1.1 evaluation, merged 2026-11-20 (PR 40), so the only public artifacts today are the v1.1 Harbor files named above and the v1.0 study survives in the launch article, the HN thread, and the site's archived leaderboard.
+The live board has moved past the launch snapshot: as of 2026-11-21 the site's metadata describes 21 harnesses, 5 models, and 62 tasks while the repository advertises 22 published configurations, the harness-by-model matrix expansion the launch article promised, and the held-constant-model design above describes v1.0, not the current board.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=frontier-harness-eval/eval&type=date&theme=dark&legend=top-left" />
@@ -71,6 +73,7 @@ Not as a final ranking, and not for teams whose tasks look nothing like its 30.
 - 2026-10-07 - Added the frontier-harness-eval/eval star history chart to the Status section.
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched and live, the 82-point launch thread re-confirmed, and the repository re-confirmed unchanged (last push 2026-09-08, no license).
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched and live (the site, both arXiv studies, the launch article, the 82-point thread, and the publisher page), with the v1.1 shift recorded: the live board now advertises FrontierHarness v1.1 over 21 harnesses, 5 models, and 62 tasks as a live run, the promised harness-by-model matrix expansion, while the repository stays untouched since 2026-09-08, so the v1.0 held-constant-model results remain the only public artifacts.
+- 2026-11-21 - Full re-verification out of rotation (the repository's 2026-11-20 merge falsified the untouched-since-2026-09-08 line): every cited URL re-fetched and live (the site and its v1.1 leaderboard, both arXiv studies, the launch article, the 82-point thread, the publisher page, and the repository), and the repository rewrite recorded: PR 40 (merged 2026-11-20) removed the v1.0 tasks, results, metadata, npx CLI, and re-run skill and replaced them with the v1.1 evaluation as Harbor artifacts (dataset manifest, Baseten suite job config, per-model launcher, pinned uv environment; 22 configurations, 5 models, 62 tasks, 27,280 trials), What it is and Status rewritten for the two-version structure, and the unlicensed caveat re-confirmed against the rewritten tree.
 
 ## See also
 
@@ -82,7 +85,7 @@ Not as a final ranking, and not for teams whose tasks look nothing like its 30.
 ## References
 
 - https://frontierharness.org - the live results and interactive report
-- https://github.com/frontier-harness-eval/eval - public tasks, metadata, results, and the evaluation skill
+- https://github.com/frontier-harness-eval/eval - the v1.1 Harbor artifacts: dataset manifest, Baseten suite, launcher, pinned environment; the v1.0 tasks, results, npx CLI, and skill were removed 2026-11-20 (PR 40)
 - https://arxiv.org/abs/2607.22585 - the independent academic harness-variance study (Vats and Golev, submitted 2026-06-08, under review at the DL4C Workshop at ICML 2026), fetched 2026-10-04
 - https://arxiv.org/abs/2609.40303 - the MLE minimal-harness study (Brilliantov, Hernandez-Cano, and Abbe, submitted 2026-09-30), fetched 2026-10-06
 - https://runta.com/blog/introducing-frontierharness-eval/ - the launch article and evaluation design

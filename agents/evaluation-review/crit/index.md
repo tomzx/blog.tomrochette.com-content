@@ -1,7 +1,7 @@
 ---
 title: Crit
 created: 2026-10-12
-updated: 2026-11-20
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -16,14 +16,15 @@ Crit is a local-first browser review surface for coding-agent output: a single G
 
 ## What it is
 
-An MIT tool from Tomasz Tomczyk, a solo staff engineer, distributed as one Go binary through Homebrew core, go install, Nix, and Windows releases, with an optional hosted sharing service (crit.md) and a self-hostable server (crit-web).
+An MIT tool from Tomasz Tomczyk, a solo staff engineer, distributed as one Go binary through Homebrew core, go install, Nix, an Arch AUR package, and Windows releases, with an optional hosted sharing service (crit.md) and a self-hostable server (crit-web).
 Five review modes: plans and docs render markdown with per-line comments, code mode auto-detects git, jj, or sapling changes into syntax-highlighted diffs with a round-to-round view, story mode adds an LLM-authored chaptered overview of a branch, PR, or range, live mode proxies a running dev server behind a comment layer you can pin to DOM elements, and preview mode renders static HTML in an iframe.
+v0.24.0 joined a sixth rendering surface: Excalidraw scenes (`excalidraw` fences, `*.excalidraw` and `*.excalidraw.json` files) render as drawings in Excalidraw's own style on a pannable canvas, with comments pinned to individual shapes and carried into shares.
 The protocol is a file: reviews live under ~/.crit/reviews/ isolated per branch, and any agent that can read a file and run a command can consume them, which `crit install` wires for fourteen named agents (Claude Code, Cursor, GitHub Copilot, Codex, OpenCode, Gemini, Qwen, Hermes, Pi, Grok, Amp, Windsurf, Cline, and Aider), with OMO and omp listed in the README besides.
 Beyond the local loop it syncs both ways with GitHub PRs and GitLab MRs (pull replies and discussion state, push comments and approve or request-changes outcomes), supports experimental send-to-agent live threads through a global-only agent_cmd, and shares reviews as public or organization-scoped URLs.
 
 ## Status
 
-Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-11-18 (the default branch moving 11-16 to 11-18 with a CSP fix that blocks remote images in the review UI behind click-to-load, CLI branch inference so `crit pr` and `crit mr` read the current branch, comment-anchoring and blockquote rendering fixes, and template files now highlighted by the language under their suffix), with v0.23.3 released 2026-11-13 after v0.23.2 (2026-10-31) and the author claiming a weekly release cadence.
+Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-11-20, with v0.24.0 released 2026-11-20 (the Excalidraw renderer with canvas preview and shareable canvas, an outside contribution from ashi-2107, plus release-audit fixes, language hints carried into shares, and prompt-validation fixes) after v0.23.3 (2026-11-13) and v0.23.2 (2026-10-31), and the author claiming a weekly release cadence.
 v0.23.3 syncs viewed files with GitHub PRs in both directions (`crit push --viewed` ticks on GitHub what you marked viewed locally, `crit pull --viewed` brings GitHub's ticks back), with viewed marks saved in the review file so they survive restarts (PR 1150).
 
 <picture>
@@ -77,6 +78,7 @@ Not for terminal-only workflows (Hunk), not for CI gating (nothing here exits no
 - 2026-11-08 - Refreshed the activity line: the default branch moved 2026-11-07 with a dev-dependency bump (eslint, PR 1151), v0.23.2 still the newest release.
 - 2026-11-13 - Refreshed the activity line: the default branch moved 2026-11-12 with pinned-commit UI work (the pinned commit's message card and the receding scope toggle), v0.23.2 still the newest release.
 - 2026-11-14 - Recorded the v0.23.3 release (2026-11-13): two-way GitHub viewed-file sync (`crit push --viewed` and `crit pull --viewed`, viewed marks saved in the review file, PR 1150); pushed date moved to 2026-11-13 and no commits have landed after the release.
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched and live (repository, README, API state, release line, product site, and the zero-thread HN search), recorded the v0.24.0 release (2026-11-20): the Excalidraw renderer with comment-pinned canvas preview and shareable canvas (an outside contribution), added the Arch AUR package to the distribution list and the sixth rendering surface to What it is.
 
 ## See also
 
@@ -90,6 +92,6 @@ Not for terminal-only workflows (Hunk), not for CI gating (nothing here exits no
 - https://github.com/tomasz-tomczyk/crit - repository: license, stars, forks, and dates as of 2026-10-12
 - https://raw.githubusercontent.com/tomasz-tomczyk/crit/main/README.md - the five modes, integrations, forge sync, agent_cmd trust boundary, and the story-mode cost estimate
 - https://api.github.com/repos/tomasz-tomczyk/crit - stars, forks, issues, creation and push dates as of 2026-10-12
-- https://api.github.com/repos/tomasz-tomczyk/crit/releases - the release line and cadence, v0.23.2 published 2026-10-31
+- https://api.github.com/repos/tomasz-tomczyk/crit/releases - the release line and cadence, v0.24.0 published 2026-11-20
 - https://crit.md - the five-mode product surface, founder context, the weekly-release claim, and crit-web self-hosting
 - https://hn.algolia.com/api/v1/search?query=crit.md&hitsPerPage=5 - the footprint scan: no dedicated thread, the author's Ask HN comments, and the 2026-09-26 plan-mode skepticism

@@ -1,7 +1,7 @@
 ---
 title: Cline
 created: 2026-08-24
-updated: 2026-11-16
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, byok]
 readability: 3
@@ -13,7 +13,7 @@ audience_notes: >
 
 Cline is an open-source (Apache-2.0) coding agent from Cline Bot Inc. that began as a VS Code extension and now ships a CLI, a JetBrains plugin, a web-based kanban board, and an SDK off one runtime.
 
-**Cline is proof that the IDE-extension generation grew up into a full harness: about 5.7 million installs on the strength of one extension, and the closest thing to a vendor-neutral default inside VS Code.**
+**Cline is proof that the IDE-extension generation grew up into a full harness: about 6 million installs on the strength of one extension, and the closest thing to a vendor-neutral default inside VS Code.**
 
 ## What it is
 
@@ -35,10 +35,11 @@ The repository shows about 70.3k stars and 7.7k forks as of 2026-10-15, with 250
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=cline/cline&type=date&legend=top-left" />
 </picture>
 
-The VS Code Marketplace page shows 5,948,389 installs as of 2026-11-16 and a 4.1/5 average rating as of 2026-09-22; the product site claims 11M+ installs across the marketplace and Open VSX.
+The VS Code Marketplace page shows 6,000,523 installs as of 2026-11-21, having crossed six million, and a 4.1/5 average rating as of 2026-09-22; the product site claims 11M+ installs across the marketplace and Open VSX.
 The project started as the "Claude Dev" extension in late 2024 and has been renamed and corporatized since.
 v4.1.25 (October 16, 2026) began rolling out Cline Cloud sessions: a task runs in a hosted sandbox on a GitHub repo and branch you pick, shows up in Recent and History with its status, notifies you when it finishes, and keeps running after you close your editor ([release notes](https://github.com/cline/cline/releases), rolling out gradually).
 v4.1.26 (October 26, 2026) deepened the cloud side with a Local/Cloud model toggle for new cloud tasks (the hosted model saved separately from local ones) and a progress card for sandbox starts, and refreshed the provider catalog: ClinePass now defaults to Kimi K3.1 Pro, the free list swaps in Reflection Beam, Nemotron 3.5 Lightning, and Laguna S 2.1, and GPT-6 models get `max_completion_tokens` on OpenAI-compatible endpoints while Gemini free-tier keys stop failing on native Google Search; the component tags moved the same day (cli-v3.0.74, desktop-v0.0.49, and sdk v0.2.0).
+v4.1.27 (November 21, 2026) kept the polish train running: an LM Studio API-key field for servers that require authentication, read-only badges on MCP tools whose server declares them, a Privacy settings link into the web app's data-use preferences, the Cline provider starting on the first free model when no model is saved, a reasoning-effort dropdown that shows the effort a new task will actually use with a Default entry, provider model lists refreshing after a key or base URL save, and `read_files` results no longer cut to 8k characters on the way to the model, with the component tags moving the same day (cli-v3.0.75, desktop-v0.0.50, and sdk v0.2.1).
 Beyond the open harness, the vendor now sells Cline Spec Driven, an enterprise agent platform built with LG CNS that runs a specialized-agent pipeline over a licensed, self-hostable deployment, listed on the product site as of 2026-10-06.
 
 ## Strengths
@@ -96,6 +97,7 @@ Not for teams that require every client binary open or a coding-agnostic automat
 - 2026-10-31 - Rotation re-verification, every cited reference live: v4.1.26 (October 26) remains the newest release with its component tags, ClinePass re-verified at a flat $9.99/month with the same open-weight labs, and the marketplace install count refreshed to 5,792,154.
 - 2026-11-08 - Rotation re-verification, every cited reference live: v4.1.26 (October 26) remains the newest release, ClinePass re-verified at a flat $9.99/month with the same six open-weight labs, the 11M+ vendor install claim re-confirmed on the site, and the marketplace install count refreshed to 5,870,736.
 - 2026-11-16 - Rotation re-verification, every cited reference live: v4.1.26 (October 26) remains the newest release, ClinePass re-verified at $9.99/month with 2-5x standard-API usage on the docs' ClinePass page, the 11M+ vendor install claim re-confirmed on the site, and the marketplace install count refreshed to 5,948,389.
+- 2026-11-21 - Rotation re-verification, every cited reference live: recorded the v4.1.27 release (published November 21, the LM Studio API-key field, MCP read-only badges, the Privacy settings link, first-free-model defaulting, the reasoning-effort dropdown's actual-effort display, provider model-list refreshes, and the `read_files` 8k cut removed, with cli-v3.0.75, desktop-v0.0.50, and sdk v0.2.1 the same day), re-verified ClinePass at $9.99/month on both pricing pages, and refreshed the marketplace install count to 6,000,523, past six million.
 
 ## See also
 
@@ -111,6 +113,6 @@ Not for teams that require every client binary open or a coding-agnostic automat
 - https://cline.bot/pricing - free core, usage billing, enterprise tiers
 - https://cline.bot/cline-pass - the open-weights subscription and its labs
 - https://docs.cline.bot/ - agent overview and configuration documentation
-- https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev - verifiable install count, 5,948,389 as of 2026-11-16, and ratings
+- https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev - verifiable install count, 6,000,523 as of 2026-11-21, and ratings
 - https://news.ycombinator.com/item?id=43360564 - early community thread on Cline as an autonomous VS Code agent
 - https://news.ycombinator.com/item?id=48525711 - Ask HN thread on reducing Cline's token usage

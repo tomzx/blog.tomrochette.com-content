@@ -1,7 +1,7 @@
 ---
 title: "τ²-bench"
 created: 2026-11-18
-updated: 2026-11-18
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, tool-agents, voice]
 readability: 3
@@ -23,7 +23,7 @@ A live leaderboard sits at taubench.com, and the design is the paper's (arXiv 25
 
 ## Status
 
-Active and adopted: 2,473 stars, MIT, created 2025-06-09, pushed 2026-11-10, as of 2026-11-18, on a release train that ran v0.2.0 (2025-10-06, the web leaderboard), v1.0.0 (2026-03-18, voice, banking_knowledge, self-named τ³), and v2.0.0 (2026-10-20, multilingual and voice).
+Active and adopted: 2,473 stars, MIT, created 2025-06-09, pushed 2026-11-21 (the default branch moving with community leaderboard submission merges, including a voice-config resubmission and a pipeline fix), as of 2026-11-21, on a release train that ran v0.2.0 (2025-10-06, the web leaderboard), v1.0.0 (2026-03-18, voice, banking_knowledge, self-named τ³), and v2.0.0 (2026-10-20, multilingual and voice).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sierra-research/tau2-bench&type=date&theme=dark&legend=top-left" />
@@ -65,6 +65,7 @@ Not for coding-agent evaluation, and never without the simulator and prompt-vari
 ## Changes
 
 - 2026-11-18 - Created from the awesome-agent-observability 2026-11-15 evals-expansion scan, admitted as the category's dual-control service-agent benchmark.
+- 2026-11-21 - Refreshed the activity line: pushed date moved to 2026-11-21 with community leaderboard submission merges landing on the default branch (a voice-config resubmission and a pipeline fix); v2.0.0 still the newest release.
 
 ## See also
 

@@ -3,7 +3,7 @@ category: memory
 generated: 2026-11-21
 mapped_sources:
   - repo: TeleAI-UAGI/Awesome-Agent-Memory
-    last_checked: 2026-11-20
+    last_checked: 2026-11-21
 digest_lines:
   - "- 2026-11-20 | memory | the TeleAI source's 2026-11-19 evening additions resolve with no admissions | the NeurIPS 2026 PALM workshop and the SEED paper (arXiv 2611.06084, with a project page) are workshop-list and paper-section entries, the standing paper-entry family applies without re-derivation"
   - "- 2026-11-20 | memory | a member's export adopting the OKF format is ecosystem evidence folded into the okf-agent-memory note, not an entrant | Hindsight's Observation Tree (v1.2.2) exports bank observations as an OKF bundle, extending the OKF-implementation family's fold-in ruling from sibling implementations to engine-side producers"

@@ -1,7 +1,7 @@
 ---
 title: Phoenix
 created: 2026-08-30
-updated: 2026-11-20
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, opentelemetry, tracing]
 readability: 3
@@ -32,7 +32,7 @@ Mature and busy: 11,824 stars, 1,201 forks, 1,142 open issues and PRs as of 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Arize-ai/phoenix&type=date&legend=top-left" />
 </picture>
 
-Created 2022-11-09, pushed 2026-11-20, platform release arize-phoenix 22.0.0 on 2026-11-20, the second major bump of the fall (cost-tracking extended to decision and embedding spans with generative-model types carried through the cost manifest and GraphQL, plus a v21-to-v22 migration guide in MIGRATION.md), after 21.3.0 the same day (CLI dataset label assignment commands and refreshed built-in model prices) and 21.2.1 (2026-11-19), after 21.2.0 (2026-11-18, a CLI prompt tag command, LLM evaluators fixed to run on Anthropic prompts with extended thinking, and retention traces deleted in batches that skip locked rows), after 21.1.0 (2026-11-13, CLI list commands for dataset and prompt versions, cost-tracking hardening, and the removal of the stdio MCP package), with the 21.0.0 major (2026-10-30, the first bump past the 20.x line, which shipped a MIGRATION.md and turned auth on by default) holding two weeks before the 21.x train ran, after 20.27.0 (2026-10-29) and 20.26.1 (2026-10-25), with the release train between the majors running on the client packages, which jumped major versions on 2026-11-11 (arize-phoenix-otel 3.0.0, @arizeai/phoenix-client 8.0.0, and the CLI 1.22.0, after arize-phoenix-evals 3.10.0 on 2026-11-10), about 626,000 PyPI downloads over the trailing 30 days ending 2026-10-11.
+Created 2022-11-09, pushed 2026-11-21, platform release arize-phoenix 22.0.0 on 2026-11-20 (PyPI re-confirmed 2026-11-21), the second major bump of the fall (cost-tracking extended to decision and embedding spans with generative-model types carried through the cost manifest and GraphQL, plus a v21-to-v22 migration guide in MIGRATION.md), after 21.3.0 the same day (CLI dataset label assignment commands and refreshed built-in model prices) and 21.2.1 (2026-11-19), after 21.2.0 (2026-11-18, a CLI prompt tag command, LLM evaluators fixed to run on Anthropic prompts with extended thinking, and retention traces deleted in batches that skip locked rows), after 21.1.0 (2026-11-13, CLI list commands for dataset and prompt versions, cost-tracking hardening, and the removal of the stdio MCP package), with the 21.0.0 major (2026-10-30, the first bump past the 20.x line, which shipped a MIGRATION.md and turned auth on by default) holding two weeks before the 21.x train ran, after 20.27.0 (2026-10-29) and 20.26.1 (2026-10-25), with the release train between the majors running on the client packages, which jumped major versions on 2026-11-11 (arize-phoenix-otel 3.0.0, @arizeai/phoenix-client 8.0.0, and the CLI 1.22.0, after arize-phoenix-evals 3.10.0 on 2026-11-10), about 626,000 PyPI downloads over the trailing 30 days ending 2026-10-11.
 **Four years in, it is the oldest and most production-proven column in this category, with near-daily commits and weekly releases.**
 
 ## Strengths
@@ -96,6 +96,8 @@ Not for anyone resampling hosted observability on top of it, or strictly open-so
 - 2026-11-11 - Refreshed the activity line: the client train jumped major versions on 2026-11-11 (arize-phoenix-otel 3.0.0, @arizeai/phoenix-client 8.0.0, the CLI 1.22.0, after arize-phoenix-evals 3.10.0 on 2026-11-10) while the platform holds at 21.0.0 (PyPI re-confirmed).
 - 2026-11-13 - Recorded the arize-phoenix 21.1.0 release (2026-11-13), ending the platform's hold at 21.0.0, and refreshed the activity line.
 - 2026-11-18 - Recorded the arize-phoenix 21.2.0 release (2026-11-18, the CLI prompt tag command, the extended-thinking Anthropic evaluator fix, and batched retention-trace deletion) and refreshed the activity line.
+- 2026-11-20 - Recorded the arize-phoenix 21.2.1 (2026-11-19), 21.3.0 (2026-11-20, CLI dataset label assignment commands and refreshed built-in model prices), and 22.0.0 (2026-11-20, the second major bump of the fall: cost-tracking extended to decision and embedding spans with generative-model types carried through the cost manifest and GraphQL, plus a v21-to-v22 migration guide) releases and refreshed the activity line.
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched and live (repository, docs, the Phoenix-versus-AX FAQ, AX pricing, PyPI with 22.0.0 still newest and the Elastic-2.0 license, and the ELv2 community issue, still closed), pushed date moved to 2026-11-21.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Claude Code routines
 created: 2026-10-06
-updated: 2026-11-15
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, claude-code, scheduling]
 readability: 3
@@ -18,7 +18,7 @@ Claude Code routines are saved prompt, repository, and connector configurations 
 
 A routine packages a prompt, one or more GitHub repositories, and a set of MCP connectors, then runs as a full Claude Code session on Anthropic-managed cloud infrastructure (or a routed self-hosted environment), so nothing depends on your laptop being open.
 One routine can combine three trigger types: a schedule (hourly minimum, presets, custom cron, and one-offs), an API endpoint that fires on an authenticated POST, and GitHub repository events (pull request, release, and now issue events, with author, label, branch, draft, and regex filters).
-It shipped in research preview on 2026-04-14, is available on Pro, Max, Ultra, Team, and Enterprise plans, and is managed at claude.ai/code/routines, from the Desktop app's Code tab, or conversationally from the CLI with `/schedule` (the CLI path creates the scheduled kind; API and GitHub triggers are added from the web).
+It shipped in research preview on 2026-04-14, is available on Pro, Max, Ultra, Team, and Enterprise plans, and is managed at claude.ai/code/routines, from the Desktop app's Code tab, or conversationally from the CLI with `/schedule` (the CLI path creates the scheduled kind; API triggers are added from the web, and GitHub triggers are added from the web or the CLI at v2.1.225 or later).
 
 ## Status
 
@@ -39,7 +39,7 @@ Anthropic published free routine templates around it and third parties already s
 
 - **There is no permission-mode picker**: a routine starts in auto mode, where a classifier model allows or blocks each action and a prompt appears only on ask rules or after repeated blocks, and all of your account's connectors are included by default, write scopes included.
 - A run is creator-private (Copilot automations now offer a shared type beside this): routines belong to the individual claude.ai account, teammates cannot see them, and admins get only the on/off toggle.
-- Green run status means the session started and exited without an infrastructure error, not that the task succeeded, and independent practitioners document silent-failure modes (unreadable sources rendered as empty results, delayed fires, dropped GitHub events at the caps).
+- Green run status means the session started and exited without an infrastructure error, not that the task succeeded (the docs now carry the same caveat in their run-history section: an outcome records how the session ended, not whether the work was done), and independent practitioners document silent-failure modes (unreadable sources rendered as empty results, delayed fires, dropped GitHub events at the caps).
 - Caps are hard: 100 scheduled runs per account-hour, 30 fires per routine-hour shared with Run now, GitHub events beyond the caps dropped until the window resets, and no overage without usage credits. A stale GitHub connection is a hard stop too: runs skip for up to 72 hours and then the routine switches itself off.
 - Scheduled intervals bottom out at one hour, and an exactly-on-the-hour start can slip several minutes late (Anthropic suggests 9:07 over 9:00).
 
@@ -70,6 +70,7 @@ My disagreeable claim: shipping every account connector into an unattended run b
 - 2026-11-05 - Corrected the three sibling-characterization claims against Copilot automations' new personal-versus-shared types (the creator-private caution, the comparison, and the See also line), re-verified out of rotation on the automations docs signal; the routines-specific claims held from the 2026-11-01 full re-verification.
 - 2026-11-11 - Fully re-verified in rotation with every cited URL re-fetched: the scheduled-tasks rename, the research-preview status, the three trigger kinds with issue events and filters, the auto-mode autonomy default, the all-connectors default with write scopes, the creator-private storage and server-side org toggle, the caps (100 scheduled runs per account-hour, 30 fires per routine-hour, GitHub events dropped past the caps, no overage), the 72-hour GitHub-disconnect auto-off, the hourly floor and the 9:07 late-start advice, the fire-payload wrapping, the optional dated beta header (re-confirmed on the platform fire reference), the green-status semantics from the independent post-mortem, and the 720-point launch thread all re-confirmed unchanged.
 - 2026-11-15 - Fully re-verified in rotation with every cited URL re-fetched: the scheduled-tasks rename, the research-preview status, the three trigger kinds with issue events and filters, the auto-mode autonomy default, the all-connectors default with write scopes, the creator-private storage and server-side org toggle, the caps (100 scheduled runs per account-hour, 30 fires per routine-hour shared with Run now and one-shot re-arms, GitHub events dropped past the caps, no overage), the 72-hour GitHub-disconnect auto-off, the hourly floor and the 9:07 late-start advice, the fire-payload wrapping, the optional dated beta header (re-confirmed on the platform fire reference), the green-status semantics from the independent post-mortem, and the 720-point launch thread (720 points, 413 comments) all re-confirmed unchanged.
+- 2026-11-21 - Fully re-verified in rotation with every cited URL re-fetched: the scheduled-tasks rename, the research-preview status, the three trigger kinds with issue events and filters, the auto-mode autonomy default, the all-connectors default with write scopes, the creator-private storage and server-side org toggle, the caps, the 72-hour GitHub-disconnect auto-off, the hourly floor and the 9:07 late-start advice, the fire-payload wrapping, the optional dated beta header (the platform fire reference states the endpoint accepts requests with and without it), the green-status semantics (the docs' run-history section now states the same beside the post-mortem), and the 720-point launch thread all re-confirmed; corrected the trigger-management claim (API triggers are web-only, GitHub triggers are added from the web or the CLI at v2.1.225 or later).
 
 ## See also
 
@@ -81,8 +82,8 @@ My disagreeable claim: shipping every account connector into an unattended run b
 
 ## References
 
-- https://code.claude.com/docs/en/routines - triggers, autonomy model, limits, plan availability, and the scheduled-tasks rename (re-fetched 2026-11-15)
-- https://claude.com/resources/articles/introducing-routines-in-claude-code - the April 2026 announcement and launch limits (the former claude.com/blog path now redirects here; re-fetched 2026-11-15)
-- https://news.ycombinator.com/item?id=47768133 - the 720-point launch discussion (re-fetched 2026-11-15)
-- https://platform.claude.com/docs/en/api/claude-code/routines-fire - the /fire endpoint contract, token scoping, and rate limits (re-fetched 2026-11-15; the beta header optional there)
-- https://runbook.scosovan.com/claude-code-routine-reported-success-did-nothing/ - independent post-mortem on silent failures and the connector default (critical source, re-fetched 2026-11-15)
+- https://code.claude.com/docs/en/routines - triggers, autonomy model, limits, plan availability, and the scheduled-tasks rename (re-fetched 2026-11-21)
+- https://claude.com/resources/articles/introducing-routines-in-claude-code - the April 2026 announcement and launch limits (the former claude.com/blog path now redirects here; re-fetched 2026-11-21)
+- https://news.ycombinator.com/item?id=47768133 - the 720-point launch discussion (re-fetched 2026-11-21)
+- https://platform.claude.com/docs/en/api/claude-code/routines-fire - the /fire endpoint contract, token scoping, and rate limits (re-fetched 2026-11-21; the beta header optional there)
+- https://runbook.scosovan.com/claude-code-routine-reported-success-did-nothing/ - independent post-mortem on silent failures and the connector default (critical source, re-fetched 2026-11-21)

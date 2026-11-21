@@ -1,7 +1,7 @@
 ---
 title: MetaClaw
 created: 2026-10-02
-updated: 2026-11-16
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, meta-learning, skill-evolution, assistant-runtime]
 readability: 3
@@ -75,6 +75,7 @@ Not for production assistants (the project is dormant and unaudited), or anyone 
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live (repository API, arXiv report and HTML, the Hugging Face papers page, releases API, README), no facts changed; the dormancy record holds (no push since 2026-06-07, v0.4.1 from 2026-04-11 still the latest release, and the README still carries the ranked-No.-1 Hugging Face Daily Papers claim).
 - 2026-11-11 - Rotation re-verification: every cited URL re-fetched live (repository API, arXiv abstract, the Hugging Face papers page, releases API, README), no facts changed; the dormancy record extends to about five months (no push since 2026-06-07, v0.4.1 still the latest release).
 - 2026-11-16 - Rotation re-verification: every cited URL re-fetched live (repository API, arXiv abstract, the Hugging Face papers page, releases API, README), no facts changed; the dormancy record extends past five months (no push since 2026-06-07, v0.4.1 from 2026-04-11 still the latest release, the README's mode sections unchanged).
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched live (repository API, arXiv abstract, the Hugging Face papers page, releases API, README), no facts changed; the dormancy record extends past five months (no push since 2026-06-07, v0.4.1 from 2026-04-11 still the latest release, the README's mode sections unchanged).
 
 ## See also
 

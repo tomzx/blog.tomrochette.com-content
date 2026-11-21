@@ -1,7 +1,7 @@
 ---
 title: Harbor
 created: 2026-11-18
-updated: 2026-11-20
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, harness]
 readability: 3
@@ -22,7 +22,7 @@ It is the official harness for Terminal-Bench 2.0, whose dataset repository now 
 
 ## Status
 
-Young and fast: 7,186 stars, Apache-2.0, created 2025-08-04, pushed 2026-11-20 (the default branch moving 2026-11-19 with an OpenClaw agent fix for google/* model names and shared Gemini env aliases), on a monthly release train at v0.26.0 (2026-11-13) after v0.25.0 (2026-10-25), as of 2026-11-20.
+Young and fast: 7,186 stars, Apache-2.0, created 2025-08-04, pushed 2026-11-21 (the default branch moving with the release), on a quickening release train: v0.25.0 (2026-10-25), v0.26.0 (2026-11-13), and v0.27.0 (2026-11-21, eight days later, exposing max-output-token and context-window controls for custom Pi endpoints, recording interrupted trials as cancelled, fixing the Antigravity SDK runner invocation, and announcing Harbor Server on the docs news page), as of 2026-11-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=harbor-framework/harbor&type=date&theme=dark&legend=top-left" />
@@ -41,7 +41,7 @@ Young and fast: 7,186 stars, Apache-2.0, created 2025-08-04, pushed 2026-11-20 (
 
 ## Cautions
 
-- Pre-1.0 with monthly releases: the interface has moved five minor versions in four months, so run scripts should expect churn.
+- Pre-1.0 with a quickening release train: the interface moved five minor versions in four months and v0.27.0 followed v0.26.0 by eight days, so run scripts should expect churn.
 - Harbor guarantees the execution, not the measurement: a weak task test still passes a bad patch (the SWE-Bench+ critique applies to every test-script-scored dataset it runs), and registry breadth means most tasks are vetted only by their authors.
 - Public score quotes inherit harness and configuration effects, exactly the finding HarnessTax priced, so "92.8 on Terminal-Bench" names a pairing, not a model.
 - One of its listed sandbox providers is Runta, the publisher behind FrontierHarness Eval, worth remembering when a FrontierHarness number is read as independent.
@@ -64,6 +64,8 @@ Not for judging your own application's outputs (that is deepeval or agent-qa ter
 ## Changes
 
 - 2026-11-18 - Created from the awesome-agent-observability 2026-11-15 evals-expansion scan, admitted as the category's benchmark runner beside its benchmark studies.
+- 2026-11-20 - Recorded the default branch's 2026-11-19 move (an OpenClaw agent fix for google/* model names and shared Gemini env aliases); v0.26.0 still the newest release.
+- 2026-11-21 - Recorded the v0.27.0 release (2026-11-21): max-output-token and context-window controls for custom Pi endpoints, interrupted trials recorded as cancelled, Antigravity SDK-runner fixes, and the Harbor Server announcement on the docs news page; the release-train wording moved from monthly to quickening (eight days between v0.26.0 and v0.27.0).
 
 ## See also
 
@@ -79,5 +81,5 @@ Not for judging your own application's outputs (that is deepeval or agent-qa ter
 - https://github.com/laude-institute/terminal-bench-2 - the Terminal-Bench 2.0 dataset, now under the harbor-framework organization through this redirecting path
 - https://www.tbench.ai - the Terminal-Bench site naming the creators' lineage
 - https://github.com/harbor-framework/harbor-cookbook - the end-to-end examples and guides
-- https://api.github.com/repos/harbor-framework/harbor/releases - the monthly release train to v0.26.0 (2026-11-13)
+- https://api.github.com/repos/harbor-framework/harbor/releases - the release train to v0.27.0 (2026-11-21)
 - https://hn.algolia.com/api/v1/search?query=terminal-bench&tags=story&hitsPerPage=5 - the score-reporting footprint: the 393-point independent-agent thread and the vendor score reports

@@ -1,7 +1,7 @@
 ---
 title: agent-qa
 created: 2026-10-27
-updated: 2026-11-20
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, qa, testing, e2e, mobile]
 readability: 3
@@ -73,6 +73,7 @@ Not for anyone needing an OSI-approved license today, a proven adoption base, or
 - 2026-11-11 - Recorded the v0.3.4 release (2026-11-10, a new init experience plus a new MCP and skills structure) and refreshed the activity line; npm tracks 0.3.4.
 - 2026-11-13 - Recorded the v0.3.5 release (2026-11-11, Sentry error reporting integrated) and refreshed the activity line; npm tracks 0.3.5.
 - 2026-11-15 - Rotation re-verification: recorded the v0.3.7, v0.3.8 (an Appium v4 beta 7 startup fix), and v0.3.9 (a live auth mounting fix and test runner experience improvements) releases, all 2026-11-14 with npm skipping a 0.3.6 publish, and refreshed the activity line; every cited URL re-fetched and live; npm tracks 0.3.9.
+- 2026-11-20 - Recorded the v0.3.10 release (2026-11-19, UI translation support and an improved init experience); the default branch's newest commit is the release commit, with the repository-level 2026-11-20 push side-branch activity.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: ReviewBench
 created: 2026-10-07
-updated: 2026-11-20
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, code-review, ai-review-agents]
 readability: 3
@@ -25,7 +25,7 @@ Submission is self-serve: sign in with GitHub, register a container image and yo
 ## Status
 
 A research preview launched 2026-10-05: the repository (review-bench/ReviewBench) was created 2026-09-04 and sits at 52 stars as of 2026-10-13 and 6 open issues as of 2026-10-26, last pushed 2026-11-19 with a judge-side robustness fix that reads JavaScript-style escapes in judge JSON answers (PR 117), after the 2026-11-16 culls (the Open Code Review registration removed again, PR 115, and 83 same-file duplicate golden findings across 47 corpus PRs culled under the existing deduplication policy, PR 107), which followed the twenty-fourth reviewer onboarding (Open Code Review, PR 110) and the twenty-third (ncoder-sonnet-5-5, PR 113) plus the merge saying submitters can pick which configurations the leaderboard shows (PR 112) on 2026-11-12.
-The first independent entrants arrived through the self-service portal in the benchmark's first week: five third-party reviewers (Hermes Reviewer on 2026-10-07, then HeyDeer, mesrai, pr-review-agent, and DeepSeek Harness Reviewer on 2026-10-08) merged onboarding registrations, and eighteen more followed (Klaussy and Sourceant on 2026-10-12, block/review and Laude RevEngine on 2026-10-13, intent-review-agent on 2026-10-14, diffox on 2026-10-15, emirtuncer-claude and diffox ultra on 2026-10-16, and opswiki, alma-reviewer, and OhMyBug on 2026-10-19, TraceHound on 2026-10-22, Fletcher on 2026-10-26, OCR and diffox spark on 2026-10-27, and aka-code-reviewer and Zeroshot Code Review on 2026-11-06, and ncoder-sonnet-5-5 on 2026-11-12, and Open Code Review on 2026-11-14, whose registration was then removed on 2026-11-16), so twenty-four have onboarded in total and twenty-three registrations stand, and the submission pipeline works well beyond GitHub's own pre-ran entries, though none of their leaderboard scores had published as of 2026-10-11.
+The first independent entrants arrived through the self-service portal in the benchmark's first week: five third-party reviewers (Hermes Reviewer on 2026-10-07, then HeyDeer, mesrai, pr-review-agent, and DeepSeek Harness Reviewer on 2026-10-08) merged onboarding registrations, and eighteen more followed (Klaussy and Sourceant on 2026-10-12, block/review and Laude RevEngine on 2026-10-13, intent-review-agent on 2026-10-14, diffox on 2026-10-15, emirtuncer-claude and diffox ultra on 2026-10-16, and opswiki, alma-reviewer, and OhMyBug on 2026-10-19, TraceHound on 2026-10-22, Fletcher on 2026-10-26, OCR and diffox spark on 2026-10-27, and aka-code-reviewer and Zeroshot Code Review on 2026-11-06, and ncoder-sonnet-5-5 on 2026-11-12, and Open Code Review on 2026-11-14, whose registration was then removed on 2026-11-16), so twenty-four have onboarded in total and twenty-three registrations stand, and the submission pipeline works well beyond GitHub's own pre-ran entries, with third-party scores now published on the board (OhMyBug tops it and intent-review-agent holds #2 and #3 as of 2026-11-21), though none had published as of 2026-10-11.
 On 2026-10-17 the benchmark also gained a Harbor path: the 219 pull requests ship as a frozen, content-addressed Harbor dataset (review-bench/reviewbench-public@v1) with a separate verifier reusing the same matcher, classifier, and scoring under Claude Opus 5 as judge, runnable through the reviewbench-harbor runtime with no checkout of this repository and, per the merge, no Copilot adapter in the public package.
 The repository documented an offline evaluation path on 2026-10-10: run the reviewer image with try-agent.sh, then judge the findings locally, no registration required, and a 2026-10-13 commit additionally discloses the golden set's composition by producer while registration now documents its per-PR timeout (default 1,800 seconds).
 A 2026-10-20 merge turned that producer disclosure into a scoring control: an `--exclude-producer` flag judges leave-producer-out runs against the golden set.
@@ -38,7 +38,9 @@ Its guide discloses the answer-leakage test behind the container boundary: golde
 </picture>
 
 Validation is the strongest published number: senior engineers who did not build the dataset re-labeled every ground-truth finding and agreed with it 96.6 percent of the time, with 47 findings manually corrected, and GitHub reports the benchmark's offline movement has anticipated production A/B directions for Copilot code review (the lite-tier ensemble experiment: addressed rate up 8.0 percent, recall up 13.6 percent, cost per review down 8.0 percent).
-**The inaugural leaderboard's top entry is GitHub's own Copilot code review at 40.1 grounded F1 in its Balanced configuration as of 2026-10-06, and the Hacker News footprint is a 4-point, zero-comment thread from launch day, so the benchmark's reach so far is press and vendor channels, not community debate.**
+**The inaugural leaderboard's top entry was GitHub's own Copilot code review at 40.1 grounded F1 in its Balanced configuration as of 2026-10-06, and the Hacker News footprint is a 4-point, zero-comment thread from launch day, so the benchmark's reach so far is press and vendor channels, not community debate.**
+The live leaderboard page, a client-rendered shell to fetchers at every earlier check, returned a full ranked table on 2026-11-21: third-party OhMyBug tops it at 83.0 grounded F1 (92.0 precision, 75.6 recall, run dated 2026-10-25), intent-review-agent sits second at 82.2, and GitHub's own Copilot entries have slipped to #4 (Max, 75.7) and #6 (Balanced, 72.7), so the publisher's reviewer no longer holds the top it launched with.
+The board's scale sits far above the launch figures, which the reworked golden set behind the 2026-11-16 duplicate cull plausibly rebased; the site states no re-scoring, so that reading is inference from the two scales, and the ratchet-up publication gate still applies to every entry.
 
 ## Strengths
 
@@ -69,7 +71,7 @@ The benchmark datasets are MIT-licensed.
 ## Bottom line
 
 **Recommended for teams comparing AI code reviewers who want a reproducible, fully inspectable yardstick and will read the methodology caveats with the leaderboard.**
-Not for CI gating, and not as an unbiased tiebreaker while the publisher's own reviewer holds the top entry under a publication gate only GitHub controls.
+Not for CI gating, and not as an unbiased tiebreaker while the publisher runs the leaderboard and its publication gate still controls what the public board may show, with its own reviewer now sitting in the top six behind independent entries.
 
 ## Changes
 
@@ -89,6 +91,8 @@ Not for CI gating, and not as an unbiased tiebreaker while the publisher's own r
 - 2026-11-13 - Recorded the twenty-third onboarding (ncoder-sonnet-5-5, PR 113, 2026-11-12) and the leaderboard-configuration picker merge (PR 112, 2026-11-12), and refreshed the activity line.
 - 2026-11-14 - Recorded the twenty-fourth onboarding (Open Code Review, PR 110, merged 2026-11-14) and refreshed the activity line.
 - 2026-11-18 - Recorded the Open Code Review registration's removal (PR 115, merged 2026-11-16, leaving twenty-three registrations standing) and the golden-set cull (PR 107, merged 2026-11-16: 83 same-file duplicate golden findings across 47 corpus PRs removed under the existing deduplication policy, 58 of them true positives and 25 false), and refreshed the activity line.
+- 2026-11-20 - Refreshed the activity line: the default branch moved 2026-11-19 with a judge-side robustness fix that reads JavaScript-style escapes in judge JSON answers (PR 117); no new merged pull requests or onboardings after it.
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched and live (announcement, repository, README, offline-eval guide, the Harbor-path merge, the closed-PR list with no merge after PR 117, the 4-point zero-comment HN thread, and The New Stack critical read), and the live leaderboard's shift recorded: the page now returns a full ranked table topped by third-party OhMyBug at 83.0 grounded F1 (run dated 2026-10-25) with GitHub's Copilot entries at #4 and #6, replacing the client-rendered-shell reading and the inaugural-board framing in the Bottom line.
 
 ## See also
 
@@ -106,6 +110,6 @@ Not for CI gating, and not as an unbiased tiebreaker while the publisher's own r
 - https://raw.githubusercontent.com/review-bench/ReviewBench/main/docs/OFFLINE_EVAL.md - the offline-evaluation guide and its answer-leakage limits section
 - https://github.com/review-bench/ReviewBench/pull/51 - the Harbor runner merge: the frozen public dataset, the separate Claude Opus 5 verifier, and the no-Copilot-adapter note
 - https://api.github.com/repos/review-bench/ReviewBench/pulls?state=closed&per_page=100 - the merged pull-request list behind the onboarding count: twenty third-party entries between 2026-10-07 and 2026-10-27, alongside GitHub's own test and pre-ran registrations (as of 2026-10-28)
-- https://review-bench.ai/ - the leaderboard site (a client-rendered shell to fetchers, so its content is grounded in the announcement and press coverage rather than quoted)
+- https://review-bench.ai/ - the leaderboard site, now returning a full ranked table to fetchers (OhMyBug 83.0 grounded F1 on top as of 2026-11-21)
 - https://thenewstack.io/github-reviewbench-code-review - the critical read: GitHub pre-ran the rival entries, test dates differ, and Copilot's 40.1 grounded F1 leads
 - https://hn.algolia.com/api/v1/items/49967574 - the 4-point, zero-comment launch-day thread, the thin-footprint signal
