@@ -1,7 +1,7 @@
 ---
 title: dmux
 created: 2026-08-24
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, terminal, open-source]
 readability: 3
@@ -79,6 +79,7 @@ My disagreeable claim: multi-agent fan-out is mostly a gimmick, and dmux's genui
 - 2026-10-31 - Re-verified in rotation: all cited sources re-fetched and live; the quiet stretch reached seventy-six days and npm installs eased to 970 for the month ending 2026-10-29, so the watch-list status stands with a weaker trickle.
 - 2026-11-06 - Re-verified in rotation: all cited sources re-fetched and live; the quiet stretch reached eighty-two days and npm installs eased to 791 for the month ending 2026-11-06 (dated-range query per the stale-point-window ruling), so the watch-list status stands.
 - 2026-11-14 - Re-verified in rotation: all cited sources re-fetched and live; the quiet stretch reached ninety days and npm installs read 861 for the month ending 2026-11-13 (dated-range query), a small rebound inside a still-quiet repo, so the watch-list status stands.
+- 2026-11-21 - Rotation re-verification (every cited URL re-fetched live: repository, site, the launch thread, and the npm dated window re-queried at the same 861); claims hold, still no push since 2026-08-16 and v5.11.1 still the latest release.
 
 ## See also
 

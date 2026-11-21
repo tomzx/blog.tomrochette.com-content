@@ -1,7 +1,7 @@
 ---
 title: AG2
 created: 2026-10-07
-updated: 2026-11-16
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, fork, autogen]
 readability: 3
@@ -21,7 +21,7 @@ For this category it fills the successor slot on the community side of the AutoG
 
 ## Status
 
-Active and shipping: 4,996 stars, a push on 2026-11-14, and release v1.3.2 on 2026-11-15 (one decision agent answering several questions in a single request, the `response_schema` allowed as a flat class whose fields share the input) after v.1.3.1 on 2026-11-10 after v1.3.0 (2026-11-04) and v1.2.2 (2026-10-27, six days after v1.2.1 (2026-10-21, itself a week after v1.2.0 (2026-10-11))); `ag2` on PyPI tracks the GitHub line again at 1.3.2 (GitHub API, PyPI, as of 2026-11-16), on a repository created 2024-11-11.
+Active and shipping: 4,996 stars, a push on 2026-11-14, and release v1.3.3 on 2026-11-19 (uncapping the `google-genai` dependency below 4.0 so a fresh `ag2[gemini]` install gets the current 3.x SDK, the generation API unchanged) after v1.3.2 on 2026-11-15 (one decision agent answering several questions in a single request, the `response_schema` allowed as a flat class whose fields share the input) after v.1.3.1 on 2026-11-10 after v1.3.0 (2026-11-04) and v1.2.2 (2026-10-27, six days after v1.2.1 (2026-10-21, itself a week after v1.2.0 (2026-10-11))); `ag2` on PyPI tracks the GitHub line again at 1.3.3 (GitHub API, PyPI, as of 2026-11-21), on a repository created 2024-11-11.
 v1.2.0 added OpenAI Decisions API support (an `OpenAIDecisionsConfig` with shared decision schemas on a `Question` marker), multi-replica A2A servers with cacheable agent cards and push-notification URL validation, Anthropic cache diagnostics, and a breaking change to toolkit composition (`left | right` now yields an independent collection whose tools no longer inherit either side's middleware).
 
 <picture>
@@ -73,6 +73,7 @@ Not for greenfield projects that can pick a single supported path from day one.
 - 2026-11-06 - Volatile refresh: Recorded v1.3.0 (2026-11-04) as the new latest release, PyPI tracking at 1.3.0.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched live; the release line and the PyPI tracking claim stand at v.1.3.1/1.3.1, the push date refreshed to 2026-11-14.
 - 2026-11-16 - Recorded v1.3.2 (2026-11-15, one decision agent answering several questions in a single request through a flat response schema), PyPI tracking at 1.3.2.
+- 2026-11-21 - Volatile refresh: Recorded v1.3.3 (2026-11-19, the `google-genai` cap lifted to `<4` so Gemini users install the current 3.x SDK), PyPI tracking at 1.3.3.
 
 ## See also
 

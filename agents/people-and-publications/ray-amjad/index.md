@@ -1,7 +1,7 @@
 ---
 title: Ray Amjad
 created: 2026-09-24
-updated: 2026-11-01
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, claude-code, agentic-coding, verification]
 readability: 3
@@ -19,15 +19,15 @@ Ray Amjad is an engineer-educator (ex-YC technical founder, Cambridge physics) w
 A YouTube channel (50K subscribers as of 2026-10-04) run by Ray Amjad, who builds agent-first software under his holding company 21 Dreams (AgentStack, Impello AI, and the open-source HyperWhisper).
 Coverage is Claude Code centric: hooks, forked and nested subagents, output styles, dynamic workflows, and the monitor tool, each explained with a working demo within days of release, plus concept videos on loop engineering and verification.
 Every description states that he has never accepted a sponsor and that his own products keep the channel running.
-The funnel is agenticcoding.school: a two-week cohort (the newest video descriptions title it "My Agent-Era Engineer Cohort", the September run's name; the October run page titled it "The Software Factory Engineer" with 190 lessons for the 2026-10-26 to 2026-11-06 dates, and the September run carried 237 lessons), evergreen Claude Code and Codex classes, company training, and consulting.
+The funnel is agenticcoding.school: a two-week cohort (the cohort page now sells the December run of "The Software Factory Engineer", 185 lessons, 2026-12-07 to 2026-12-18, with the price rising after 2026-12-04; the October run carried 190 lessons and the September run 237), evergreen Claude Code and Codex classes, company training, and consulting.
 
 ## Status
 
-Active and growing as of 2026-10-29.
-The channel was created 2019-08-09 and shows 50K subscribers; the RSS feed (refetched 2026-10-29) shows 19 uploads between 2026-04-09 and 2026-10-26, still two to three per month with bursts around Anthropic releases.
-The newest upload is "Anthropic's New Subagent Rules Will Change How You Build" (2026-10-26, on Anthropic's guidance for when to fold subagents back into the main loop), after "Karpathy Is Right: Your Attention Is the New Bottleneck" (2026-10-20), "Your Prompts Are Too SMALL for Claude Code" (2026-10-18), and "The S TIER Claude Code Mods" (2026-10-12).
-Reach is concentrated and rising: "How to Use Jev + Claude Code" (2026-09-18, retitled from "Jev + Claude Code = The Cheapest Agentic Coding Loop Yet") passed 150,259 views within a week and 172,522 as of 2026-10-29, the Opus 5 output-styles video passed 102,888, and typical uploads run 10,000 to 46,000.
-His cohort page claims 4,000+ engineers taught and 5,000+ hours in Claude Code and Codex, self-reported figures I found nowhere else.
+Active and growing as of 2026-11-21.
+The channel was created 2019-08-09 and shows 50K subscribers (the page rendered no count to either fetch mode on 2026-11-21, so the figure keeps its 2026-10-04 as-of); the RSS feed (refetched 2026-11-21) shows 21 uploads between 2026-04-09 and 2026-11-16, still two to three per month with bursts around Anthropic releases.
+The newest upload is "Code Mode Makes Claude Code Smarter & Cheaper" (2026-11-16), after "OpenAI and Anthropic Agree on What Comes After Loops" (2026-11-04) and "Anthropic's New Subagent Rules Will Change How You Build" (2026-10-26, on Anthropic's guidance for when to fold subagents back into the main loop).
+Reach is concentrated and rising: the newest "Code Mode Makes Claude Code Smarter & Cheaper" counted 221,495 views by 2026-11-21, his biggest video inside a week of upload, taking the record from the Jev video ("How to Use Jev + Claude Code", 2026-09-18, retitled from "Jev + Claude Code = The Cheapest Agentic Coding Loop Yet", 172,522 as of 2026-10-29), and the four newest uploads count 30,975 to 221,495 views per the feed's counters.
+His cohort page claims 5,000+ engineers taught (up from 4,000+ earlier in the fall), self-reported figures I found nowhere else.
 
 ## Strengths
 
@@ -60,7 +60,7 @@ Not for someone who wants vendor-agnostic coverage, or who minds that the demos 
 
 ## Top 5 recommended reading
 
-- [How to Use Jev + Claude Code](https://www.youtube.com/watch?v=ScvXFi4MUSc) - His biggest video (171,845 views as of 2026-10-22, retitled from "Jev + Claude Code = The Cheapest Agentic Coding Loop Yet") and the best single tour of his current thinking: skill selection, feedback loops, adversarial testing, and code review on the newest cheap model.
+- [How to Use Jev + Claude Code](https://www.youtube.com/watch?v=ScvXFi4MUSc) - His breakout video (172,522 views as of 2026-10-29, retitled from "Jev + Claude Code = The Cheapest Agentic Coding Loop Yet", his biggest until the November Code Mode video passed it) and the best single tour of his current thinking: skill selection, feedback loops, adversarial testing, and code review on the newest cheap model.
 - [Anthropic Just Dropped the Biggest Claude Code Update Yet](https://www.youtube.com/watch?v=B-YQANvDOq0) - The hooks release explained with the undocumented enable flag, a secret redactor, and deploy gating, the video to copy settings from.
 - [Claude Code Just Made Subagents Feel Obsolete](https://www.youtube.com/watch?v=oqp6D-ugtX4) - His argument against in-process subagents, using cmux peer sessions and stacked pull requests as the alternative architecture.
 - [Loop Engineering: The Future of AI Coding?](https://www.youtube.com/watch?v=2-0lxK2wgJ8) - The concept video that frames inner and outer loops and Slack as a memory layer, his vocabulary at its most useful.
@@ -73,6 +73,7 @@ Not for someone who wants vendor-agnostic coverage, or who minds that the demos 
 - 2026-10-22 - Full re-verification, rotation: all cited URLs refetched and live; the RSS feed shows three new uploads (2026-10-12, 2026-10-18, 2026-10-20) with "Karpathy Is Right: Your Attention Is the New Bottleneck" now newest, the Jev video retitled to "How to Use Jev + Claude Code", and the cohort renamed to "The Software Factory Engineer" (190 lessons, 2026-10-26 to 2026-11-06 run); Status, What-it-is, Top 5, and References updated to match.
 - 2026-10-29 - A fourth upload since the rotation: "Anthropic's New Subagent Rules Will Change How You Build" (2026-10-26) is now newest, making 19 uploads between April 9 and October 26; the Jev video passed 172,522 views and the newest video descriptions are back to the "My Agent-Era Engineer Cohort" title; RSS feed fetched this run; added the Pricing section the note format mandates.
 - 2026-11-01 - Moved the Pricing section to its mandated position between Cautions and Compared to; no content change.
+- 2026-11-21 - Rotation re-verification, every cited URL re-fetched and live: two new uploads ("OpenAI and Anthropic Agree on What Comes After Loops" 2026-11-04 and "Code Mode Makes Claude Code Smarter & Cheaper" 2026-11-16, now 21 uploads between April 9 and November 16), the Code Mode video at 221,495 views became his biggest, the cohort page moved to the December run (185 lessons, 2026-12-07 to 12-18, price rises after 12-04) and now claims 5,000+ engineers taught, and the channel page rendered no subscriber count to either fetch mode so the 50K figure keeps its 2026-10-04 as-of; Status, What-it-is, Top 5, and References updated.
 
 ## See also
 
@@ -84,7 +85,7 @@ Not for someone who wants vendor-agnostic coverage, or who minds that the demos 
 ## References
 
 - https://www.youtube.com/@RAmjad - the channel: identity and 50K subscribers as of 2026-10-04
-- https://www.youtube.com/feeds/videos.xml?channel_id=UCLA7cJBnqr0nLF2bQBD9uUg - the RSS feed that grounds cadence, titles, dates, view counts, the no-sponsor statement, and the 2019-08-09 channel creation (it 404ed on 2026-10-04, serves again since 2026-10-05, and was refetched 2026-10-22, where it showed three new uploads through 2026-10-20)
+- https://www.youtube.com/feeds/videos.xml?channel_id=UCLA7cJBnqr0nLF2bQBD9uUg - the RSS feed that grounds cadence, titles, dates, view counts, the no-sponsor statement, and the 2019-08-09 channel creation (it 404ed on 2026-10-04 and serves again since 2026-10-05; refetched 2026-11-21 showing 21 uploads through 2026-11-16)
 - https://www.rayamjad.com/ - the personal site: 21 Dreams studio, consulting, and company registration
 - https://github.com/ray-amjad - the GitHub profile (Tokyo) whose pinned repos match the video-description links, closing the identity loop
 - https://www.agenticcoding.school/cohort - the cohort page: positioning claims, syllabus, products, and the commercial model

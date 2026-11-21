@@ -1,7 +1,7 @@
 ---
 title: AutoGen
 created: 2026-09-27
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python, microsoft]
 readability: 3
@@ -25,7 +25,7 @@ Its research lineage is real: the framework came out of Microsoft Research and P
 ## Status
 
 Archived, by its own declaration: on 2026-10-16 the README moved from the orange maintenance-mode badge to a red status-archived badge and a caution box stating "Project archived and no longer maintained", that "Microsoft is not providing bug fixes, security fixes, new features, or support", and that the repository remains available for historical and reference purposes only (the repo is not GitHub-formally archived, so issues and pulls stay open).
-New users are pointed to Microsoft Agent Framework (MAF), the enterprise successor that merged the AutoGen and Semantic Kernel lines; MAF shows 14,066 stars as of 2026-10-12, MIT, with a push on 2026-11-14 (GitHub API, as of 2026-11-14).
+New users are pointed to Microsoft Agent Framework (MAF), the enterprise successor that merged the AutoGen and Semantic Kernel lines; MAF showed 14,066 stars as of 2026-10-12, MIT, with a push on 2026-11-14, and on 2026-11-21 the microsoft/agent-framework repository started returning 404 with no redirect, on the API and the web alike, while the satellite repositories remain live (the Go port pushed 2026-11-20, still naming the vanished path as upstream) and the Learn documentation serves 200, so the successor's canonical home is unresolvable as of this run (GitHub API, as of 2026-11-21).
 The archive caution now also advises against production use outright, citing unaddressed vulnerabilities in archived projects.
 
 <picture>
@@ -79,6 +79,7 @@ My disagreeable claim: conversation-first multi-agent programming, the pattern A
 - 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live; a 2026-10-28 docs commit added the archive caution to the documentation landing page, recorded in Status.
 - 2026-11-06 - Re-verified in rotation: every cited URL re-fetched and live; the archive caution gained an explicit advisory against production use, recorded in Status.
 - 2026-11-14 - Re-verified in rotation: every cited URL re-fetched and live; the archive declaration stands unchanged (README badge and caution re-fetched), the successor MAF's push date refreshed to 2026-11-14.
+- 2026-11-21 - Rotation re-verification (every cited URL re-fetched: the archived README, releases, docs, PyPI at 0.7.5 MIT, the migration guide, and all three HN threads); the archive declaration stands, and the successor microsoft/agent-framework repository went 404 with no redirect (satellite repos live, the Go port still naming it upstream, Learn docs serving 200), recorded in Status.
 
 ## See also
 
@@ -95,7 +96,7 @@ My disagreeable claim: conversation-first multi-agent programming, the pattern A
 - https://microsoft.github.io/autogen/stable/ - official documentation, live (200)
 - https://pypi.org/pypi/autogen-agentchat/json - PyPI metadata (200): autogen-agentchat 0.7.5, MIT, Python 3.10+
 - https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-autogen/ - Microsoft's AutoGen to MAF migration guide (200)
-- https://api.github.com/repos/microsoft/agent-framework - successor repo (200): 13,816 stars, MIT, pushed 2026-09-25 (as of 2026-09-27)
+- https://api.github.com/repos/microsoft/agent-framework - successor repo (200): 13,816 stars, MIT, pushed 2026-09-25 (as of 2026-09-27); 404 with no redirect on the API and the web on re-fetch 2026-11-21 (critical signal)
 - https://hn.algolia.com/api/v1/items/37926741 - launch thread (200): 163 points, 54 comments, 2023-10-18
 - https://hn.algolia.com/api/v1/items/38398775 - plagiarism-accusation thread (200): 8 points, 2023-11-23 (critical source)
 - https://hn.algolia.com/api/v1/items/46377537 - Microsoft Agent Framework thread (200): 58 points, 27 comments, 2025-12-24

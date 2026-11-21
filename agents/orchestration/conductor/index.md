@@ -1,7 +1,7 @@
 ---
 title: Conductor
 created: 2026-08-24
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, macos]
 readability: 3
@@ -24,10 +24,10 @@ Conductor Cloud (July 2026) runs agents in Vercel sandboxes (8-core, 16GB, us-ea
 
 ## Status
 
-**Acquired and winding down: on 2026-11-04 Conductor announced it is joining Meta.**
-The announcement closed new sign-ups and app downloads the same day, takes Conductor Cloud read-only on 2026-11-13 and shuts it down with data deletion on 2026-11-20 (active subscribers refunded), and commits to new models and critical fixes for the local app only until early 2027, when it too winds down (changelog 0.93.0 and the announcement page, as of 2026-11-06, re-fetched 2026-11-14).
-The cloud entered its read-only window on schedule on 2026-11-13, and the shutdown with data deletion follows on 2026-11-20.
-0.93.0 is the final release, and it is the wind-down notice itself.
+**Acquired, then reprieved: on 2026-11-04 Conductor announced it is joining Meta.**
+The announcement as first published closed new sign-ups and app downloads the same day, put Conductor Cloud read-only on 2026-11-13 with shutdown and data deletion on 2026-11-20 (active subscribers refunded), and committed to new models and critical fixes for the local app only until early 2027, with 0.93.0 as the last release (changelog and announcement page, as of 2026-11-06, re-fetched 2026-11-14).
+**The announcement re-fetched 2026-11-21 tells a different story: "Plans have changed! We'll still be developing Conductor."** The dated schedule is gone from the page, the cloud now "will shut down over the next few weeks" with no date, the FAQ answers "Nope!" to whether users must stop using Conductor, and the homepage again carries a Download button, so the sign-up and download closure can no longer be confirmed either (announcement page, as of 2026-11-21).
+The release train never stopped after the "final" 0.93.0 (2026-11-04): 0.94.0 (November 9), 0.94.2 (November 13), 0.95.0 and 0.95.1 (November 16-17), 0.96.0 (November 18), 0.97.0 (November 19), and 0.98.0 (November 20, a Usage page showing per-model cost and tokens across local workspaces, themes out of experimental, and background-task surfaces) (changelog, as of 2026-11-21).
 The history that got it here: a $22M Series A from Spark and Matrix closed on 2026-03-30, with YC and founders of Notion and Linear participating, and the company claimed 10x user growth since January 2026.
 Release cadence is extreme: 0.90.0 (October 2) ships Conductor for iOS, chat with agents and merge PRs from your phone against cloud workspaces, plus a new video player with frame-by-frame stepping and find-in-chat that now searches agents' thinking, leading 0.89.5 (a GPT-6.1 Sol fix for ChatGPT accounts, faster opens for long chats, and the bundled Codex updated to 0.159.3) at the front of the September 29 wave, following 0.89.3 (fixes for chats stuck in progress and model settings locked on older macOS), 0.89.2 (a GitHub Enterprise Server PR-info fix), 0.89.1 (GPT-6.1 Sol), and 0.89.0 (Sign in with ChatGPT) the same day, and 0.87.6 (Claude Sonnet 5.5) on September 28, 0.87.5 (model search) on September 25, 0.87.3 (GPT-6 Sol and Luna models) on September 22, and 0.87.0, which added search across files and OpenCode 2.0 support, on September 18, with dozens of releases since January 2026.
 The gap closed at thirteen days: 0.91.0 shipped on 2026-10-15, a release the changelog lists as "A (mostly) boring update", so the quiet spell was the schedule's longest gap rather than a stop (changelog, as of 2026-10-18), and 0.92.0 followed on October 23 with iOS remote control of the Mac's local workspaces (browse and create workspaces, read chats, send messages, pick models, and stop agents from the phone, behind an experimental setting).
@@ -46,12 +46,12 @@ The team behind cmd joined in April 2026.
 - Cloud sessions are stored on Conductor's servers, a materially different trust model from local.
 - Local use is Mac-only, so Linux and Windows engineers are second-class or on the cloud product.
 - The app is closed source, and third-party Claude subscription billing terms remain a platform risk the company does not control (their June 2026 post on delayed Anthropic changes acknowledges it).
-- **The product ends in early 2027**: the local app stops receiving new models and critical fixes then, and the team is building a successor inside Meta, so the only migration path is exporting your data.
+- **Meta now owns the product and its cloud is ending**: the announcement's "plans have changed" line keeps development alive in the near term, but the cloud shuts down over the coming weeks and the closed app's continuity past that is Meta's call, so exporting your data remains the only portable path.
 
 ## Pricing
 
-Closed to new purchases since 2026-11-04: new users cannot sign up or download the app, existing free users cannot upgrade, and existing Pro subscribers keep Pro features at no charge until the wind-down ends, with refunds paid to active subscribers as the cloud closes.
-Conductor Cloud becomes read-only on 2026-11-13 and shuts down on 2026-11-20.
+Closed to new purchases on the announcement's first text (2026-11-04): new users could not sign up or download the app, existing free users could not upgrade, and existing Pro subscribers kept Pro features at no charge through the wind-down, with refunds paid to active subscribers as the cloud closes; the homepage re-fetched 2026-11-21 again carries a Download button, so the closure of downloads can no longer be confirmed.
+The announcement now says Conductor Cloud "will shut down over the next few weeks" with no date; the earlier text's read-only 2026-11-13 and shutdown 2026-11-20 dates are gone from the page.
 Before the announcement: local free and unlimited with your own keys and subscriptions; Pro at $50/month added cloud workspace hours, multiplayer, and the API; Teams at $60/user/month added admin and billing; Enterprise was custom; usage-based cloud pricing was planned but never charged as of 2026-10-04.
 
 ## Price history
@@ -69,8 +69,8 @@ Before the announcement: local free and unlimited with your own keys and subscri
 
 ## Bottom line
 
-**Existing users can keep the local app working with new models until early 2027, but the product is closed to new adoption and its cloud half shuts down on 2026-11-20.**
-Not for new projects, which cannot even download it; the Mac worktree-dashboard slot it leaves behind goes to the funded survivors and the open-source peers.
+**Existing users can keep the local app working, and Meta says development continues, but the cloud half is still shutting down over the coming weeks and everything is now one company's decision.**
+The Mac worktree-dashboard slot it leaves behind goes to the funded survivors and the open-source peers.
 My disagreeable claim stands, with a postscript: Conductor Cloud, not the local worktree manager, was the product that mattered, and Meta bought exactly that review-and-orchestration surface rather than letting anyone else hold it.
 
 ## Changes
@@ -90,6 +90,7 @@ My disagreeable claim stands, with a postscript: Conductor Cloud, not the local 
 - 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live; recorded 0.92.0 (October 23, iOS remote control of the Mac's local workspaces), closing the quiet-spell watch.
 - 2026-11-06 - Re-verified in rotation and out of it: on 2026-11-04 Conductor announced it is joining Meta, so the Status moved from active to acquired-and-winding-down (new sign-ups closed, cloud read-only 2026-11-13 and shut down 2026-11-20, local maintained until early 2027, 0.93.0 the final release); Pricing records the plan closures with a Price history row, a wind-down caution added, Bottom line rewritten for the closure, the pricing page URL annotated as no longer listing tiers, and the announcement page added to References.
 - 2026-11-14 - Re-verified in rotation: every cited URL re-fetched and live; the wind-down schedule stands, and the cloud's read-only window arrived on 2026-11-13 ahead of the 2026-11-20 shutdown.
+- 2026-11-21 - Rotation re-verification corrected the wind-down record: the announcement re-fetched live now reads "Plans have changed! We'll still be developing Conductor", the dated schedule (read-only 11-13, shutdown 11-20, early-2027 end) is gone from the page, the FAQ says Conductor keeps working, the homepage again carries a Download button, and the changelog shows the train never stopped past "final" 0.93.0, running through 0.98.0 (2026-11-20); Status, Cautions, Pricing, and Bottom line rewritten to the changed plan.
 
 ## See also
 
@@ -105,7 +106,7 @@ My disagreeable claim stands, with a postscript: Conductor Cloud, not the local 
 - https://conductor.build/docs - workspace, workflow, and parallel-agent model
 - https://conductor.build/pricing/ - tiers, cloud sandbox specs, local vs cloud privacy terms (since the 2026-11-04 announcement the page no longer lists tiers)
 - https://conductor.build/blog/series-a - $22M Series A and growth claims
-- https://conductor.build/changelog - release cadence through 0.87.6; 0.93.0 (2026-11-04) is the wind-down notice
-- https://conductor.build/announcement - the joining-Meta announcement with the wind-down timeline and refund terms
+- https://conductor.build/changelog - release cadence through 0.87.6, and past the "final" 0.93.0 (2026-11-04) through 0.98.0 (2026-11-20) (re-fetched 2026-11-21)
+- https://conductor.build/announcement - the joining-Meta announcement; the wind-down timeline and refund terms were recorded 2026-11-06, the page re-fetched 2026-11-21 now reads "Plans have changed! We'll still be developing Conductor" with no dates
 - https://news.ycombinator.com/item?id=44594584 - launch thread including OAuth and sandbox discussion
 - https://news.ycombinator.com/item?id=47256614 - the sandbox-escape report under Conductor defaults

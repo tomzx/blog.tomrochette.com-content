@@ -1,7 +1,7 @@
 ---
 title: Agent User Interaction Protocol (AG-UI)
 created: 2026-09-16
-updated: 2026-11-19
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, frontend, event-streaming]
 readability: 3
@@ -98,6 +98,7 @@ My disagreeable claim: AG-UI is the most adopted protocol in this index that nob
 - 2026-11-15 - The repository pushed 2026-11-14 through 11-15 on Go SDK fixes (JSON decoding of event types, null custom-event values, the token-usage cache write, and pending tool calls after a run finishes, #3179, #3184, #3185, #3186) plus a README trending badge (#3399), while the release train stays at release/2026-11-13 and the first-party TypeScript packages stay at 1.0.4; download figures refreshed from the dated range (core 19,085,336, client 8,085,372 in the month ending 2026-11-15, about 27.2M combined).
 - 2026-11-17 - Re-verification: the repository pushed 2026-11-16 on a README overhaul for 1.0, OpenBot added to the docs sidebar, a client-enforcement fix that rejects missing or non-string union discriminators (#3401), and CodeRabbit review configuration, while the release train stays at release/2026-11-13 and the first-party TypeScript packages stay at 1.0.4; download figures refreshed from the dated range (core 19,201,794, client 7,961,716 in the month ending 2026-11-17, about 27.2M combined).
 - 2026-11-19 - The release train moved to release/2026-11-17 (2026-11-17), which published the first Cloudflare Agents integration package (@ag-ui/cloudflare-agents 0.1.0, the integration the docs marked in progress) and moved the first-party TypeScript packages (core, client, encoder, proto) to 1.0.5 (a fix release carrying the #3401 enforcement rejection and a large-threads fix, #3332); the README's integration tables now list Cloudflare Agents, OpenAI Agents, IBM watsonx Orchestrate, Spring AI, Omnara, and Genkit for Go among the community integrations, with the OpenAI Agent SDK's package already shipped on 2026-11-06; download figures refreshed from the dated range (core 21,151,488, client 8,604,915 in the month ending 2026-11-19, about 29.8M combined); the Status section moved with the train, the packages, and the integration record.
+- 2026-11-21 - Re-verification: the repository pushed 2026-11-20 on client fixes (the reducer's state kept per subscription, an error-flush coalescing merge #3416, and a LangGraph cancelled-tool-calls fix #2929) plus the late 2026-11-19 mastra-adapter version commits the last pass's fetch preceded, while the release train stays at release/2026-11-17 and the first-party TypeScript packages stay at 1.0.5.
 
 ## See also
 

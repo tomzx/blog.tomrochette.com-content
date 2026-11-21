@@ -1,7 +1,7 @@
 ---
 title: Agent Protocol (LangChain)
 created: 2026-10-07
-updated: 2026-11-16
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, agent-serving, rest-apis]
 readability: 3
@@ -19,14 +19,14 @@ The Agent Protocol is LangChain's open, MIT-licensed REST/OpenAPI specification 
 ## What it is
 
 The OpenAPI document (v0.1.6, re-fetched 2026-11-16) defines endpoints for run execution with search, stream, wait, and cancel, thread CRUD plus history and copy, agent listing and schemas, a Store key-value surface for long-term memory, and thread-scoped streaming over SSE, WebSocket, and an HTTP command sidecar, so any conforming server exposes the same serving surface.
-A companion streaming specification adds primitives with a CDDL schema and generated Python and TypeScript bindings for live agent execution, the Python side published to PyPI as `langchain-protocol` (0.0.21 as of 2026-11-05).
+A companion streaming specification adds primitives with a CDDL schema and generated Python and TypeScript bindings for live agent execution, the Python side published to PyPI as `langchain-protocol` (0.0.22 as of 2026-11-19).
 The repository ships a Python server stub generated from the spec (FastAPI and Pydantic v2), an open-source LangGraph.js implementation using in-memory storage, and self-hosted async-subagent server examples in the deepagents projects.
 MIT licensed, stewarded in the `langchain-ai` GitHub organization (repository created 2024-11-12, not a fork), with the README framing it as framework-agnostic: any agent can sit behind the API.
 
 ## Status
 
 **Active and implementation-backed, with a thin independent footprint.**
-The repository shows 687 stars (as of 2026-10-13) and 65 forks with a push on 2026-11-05; the spec stays at OpenAPI 0.1.6 (re-fetched 2026-11-16), all as of 2026-11-16 (GitHub API).
+The repository shows 687 stars (as of 2026-10-13), 64 forks, and a push on 2026-11-19; the spec stays at OpenAPI 0.1.6 (re-fetched 2026-11-21), all as of 2026-11-21 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/agent-protocol&type=date&theme=dark&legend=top-left" />
@@ -35,7 +35,8 @@ The repository shows 687 stars (as of 2026-10-13) and 65 forks with a push on 20
 </picture>
 
 The spec is exercised by shipping software: LangGraph Platform implements a superset of it commercially, and the open-source LangGraph.js API and deepagents example servers implement it directly.
-The community footprint is the weak signal: an Algolia scan found no dedicated Hacker News launch thread for this spec (2026-10-07), and its 687 stars sit far below every wire protocol in this index.
+The second implementation is no longer hypothetical: Aegra (github.com/aegra/aegra, 1,329 stars, Apache-2.0, as of 2026-11-21) is an independent open-source Agent Protocol server, self-hosted on your own Postgres behind the same LangGraph SDK, with four named production users per its site (Mercanis, tmarket, ROQ Markets, Diag n'Grow).
+The community footprint is the weak signal: an Algolia scan found no dedicated Hacker News launch thread for this spec (re-run 2026-11-21), and its 687 stars sit far below every wire protocol in this index.
 The name is a collision hazard: a different "Agent Protocol" (agentprotocol.ai, from the 2023 e2b and AI Engineer Foundation effort, Show HN July 2023) standardized CLI agent invocation and shows up in the same search results.
 
 ## Strengths
@@ -48,9 +49,9 @@ The name is a collision hazard: a different "Agent Protocol" (agentprotocol.ai, 
 ## Cautions
 
 - **Steward and commercial winner are the same company**: LangChain both stewards the spec and sells LangGraph Platform as a superset implementation, and there is no foundation or third-party governance.
-- The community footprint is missing as of 2026-10-07: no dedicated launch discussion on Hacker News and adoption evidence confined to LangChain's own ecosystem, which is itself a signal about reach.
+- The community footprint is thin as of 2026-11-21: no dedicated launch discussion on Hacker News, and adoption evidence confined to the LangGraph ecosystem, the reference implementations, and the young Aegra server.
 - The spec is at 0.1.6, pre-1.0, so endpoint stability is unproven.
-- Its lane overlaps A2A's remote-invocation story and every cloud provider's agent-serving API, so the second independent implementation everyone waits for has not arrived.
+- Its lane overlaps A2A's remote-invocation story and every cloud provider's agent-serving API; Aegra is now the second independent implementation, young and community-run, so the wait is over but independent production adoption at scale is not proven yet.
 
 ## Pricing
 
@@ -80,6 +81,7 @@ My disagreeable claim: this lane matters more than the protocol-sprawl critics a
 - 2026-11-06 - The streaming bindings moved to `langchain-protocol` 0.0.21 (uploaded 2026-11-05), the first PyPI release since 0.0.20 (2026-10-20); the OpenAPI document re-confirmed at 0.1.6.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the OpenAPI document re-confirmed at 0.1.6 with the repository pushed 2026-11-05 (the streaming bindings' 0.0.21 release day) and forks re-counted at 64, the streaming bindings stay at `langchain-protocol` 0.0.21 (uploaded 2026-11-05), the README framing, resource list, and LangGraph Platform superset claim unchanged, the LangGraph Platform pricing URL still redirects to langchain.com/pricing, and the footprint scans still find no dedicated launch thread for this spec (the name-collision 2023 agentprotocol.ai Show HN unchanged at 6 points).
 - 2026-11-16 - Rotation re-verification: every cited URL re-fetched live with no dead sources, and the What-it-is and Status descriptions corrected to include the Store long-term-memory endpoints and the thread-scoped streaming surface (SSE, WebSocket, and an HTTP command sidecar) that the 0.1.6 document has carried since April 2026 (the streaming endpoints merged 2026-04-28, #72, and the document last changed 2026-04-30); the spec stays at OpenAPI 0.1.6, the repository pushed 2026-11-05 unchanged with forks re-counted at 65, the streaming bindings stay at `langchain-protocol` 0.0.21, the README framing and LangGraph Platform superset claim unchanged, the pricing URL still redirects to langchain.com/pricing (now rendering the LangSmith plans page with Agent Server as the superset's product name), and the footprint scans still find no dedicated launch thread for this spec.
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched live with no dead sources, and the second-implementation caution corrected: Aegra (github.com/aegra/aegra, 1,329 stars, Apache-2.0, as of 2026-11-21) is an independent open-source Agent Protocol server, self-hosted on your own Postgres behind the same LangGraph SDK with four named production users, surfaced by the footprint scan this run; the streaming protocol gained finish-reason fields on message-finish (#111, merged 2026-11-19) with the Python bindings published the same day as `langchain-protocol` 0.0.22 (uploaded 2026-11-19); the spec stays at OpenAPI 0.1.6 (re-fetched 2026-11-21), the repository pushed 2026-11-19 with forks re-counted at 64, the pricing URL still redirects to langchain.com/pricing, the README framing and superset claim unchanged, and the footprint scans still find no dedicated launch thread for this spec.
 
 ## See also
 
@@ -90,11 +92,13 @@ My disagreeable claim: this lane matters more than the protocol-sprawl critics a
 
 ## References
 
-- https://github.com/langchain-ai/agent-protocol - repository: 687 stars, 65 forks, MIT, created 2024-11-12, pushed 2026-10-13 (GitHub API, as of 2026-10-13)
-- https://raw.githubusercontent.com/langchain-ai/agent-protocol/main/README.md - purpose, endpoint rationale, streaming spec, server stubs, implementations, and the LangGraph Platform superset claim
-- https://langchain-ai.github.io/agent-protocol/openapi.json - the OpenAPI document: title Agent Protocol, version 0.1.6, agents, threads, and runs endpoints as of 2026-10-17
-- https://langchain-ai.github.io/agent-protocol/api.html - the docs home the repository lists as its homepage
-- https://www.langchain.com/pricing-langgraph-platform - the commercial LangGraph Platform page (now a 301 redirect to https://www.langchain.com/pricing, which renders client-side), the superset implementation
-- https://hn.algolia.com/api/v1/search?query=langchain%20agent%20protocol&hitsPerPage=6 - the footprint scan: no dedicated launch thread for the LangChain spec, found 2026-10-07, re-fetched 2026-10-20
-- https://hn.algolia.com/api/v1/search?query=%22agent%20protocol%22&tags=story - the name-collision record: Show HN Agent Protocol (2023-07-24) and related stories for the older agentprotocol.ai spec
-- https://pypi.org/pypi/langchain-protocol/json - the streaming bindings' PyPI distribution: 0.0.21 latest, uploaded 2026-11-05, as of 2026-11-06
+- https://github.com/langchain-ai/agent-protocol - repository: 687 stars (as of 2026-10-13), 64 forks, MIT, created 2024-11-12, pushed 2026-11-19 (GitHub API, re-fetched 2026-11-21)
+- https://raw.githubusercontent.com/langchain-ai/agent-protocol/main/README.md - purpose, endpoint rationale, streaming spec, server stubs, implementations, and the LangGraph Platform superset claim (re-fetched 2026-11-21)
+- https://langchain-ai.github.io/agent-protocol/openapi.json - the OpenAPI document: title Agent Protocol, version 0.1.6, agents, threads, runs, streaming, and store endpoints (re-fetched 2026-11-21, still 0.1.6)
+- https://langchain-ai.github.io/agent-protocol/api.html - the docs home the repository lists as its homepage (re-fetched 2026-11-21)
+- https://www.langchain.com/pricing-langgraph-platform - the commercial LangGraph Platform page (now a 301 redirect to https://www.langchain.com/pricing, which renders client-side), the superset implementation (re-fetched 2026-11-21)
+- https://hn.algolia.com/api/v1/search?query=langchain%20agent%20protocol&hitsPerPage=6 - the footprint scan: no dedicated launch thread for the LangChain spec, found 2026-10-07, re-fetched 2026-11-21
+- https://hn.algolia.com/api/v1/search?query=%22agent%20protocol%22&tags=story - the name-collision record: Show HN Agent Protocol (2023-07-24) and related stories for the older agentprotocol.ai spec (re-fetched 2026-11-21)
+- https://pypi.org/pypi/langchain-protocol/json - the streaming bindings' PyPI distribution: 0.0.22 latest, uploaded 2026-11-19 (re-fetched 2026-11-21)
+- https://www.aegra.dev/ - the independent implementation's site: an open-source Agent Protocol server on your own Postgres behind the same LangGraph SDK, Apache-2.0, 1,329 GitHub stars, production users Mercanis, tmarket, ROQ Markets, and Diag n'Grow (fetched 2026-11-21)
+- https://github.com/aegra/aegra - the Aegra repository: 1,329 stars, 288 forks, Apache-2.0, Python, created 2025-07-20, pushed 2026-11-19, self-described open-source alternative to LangGraph Platform (GitHub API, fetched 2026-11-21)

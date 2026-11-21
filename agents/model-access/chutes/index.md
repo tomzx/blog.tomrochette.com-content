@@ -1,7 +1,7 @@
 ---
 title: Chutes
 created: 2026-09-26
-updated: 2026-11-07
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, inference, pay-as-you-go, bittensor]
 readability: 3
@@ -41,7 +41,7 @@ I could not verify funding or traffic figures.
 
 ## Pricing
 
-PAYG is the only path as of 2026-10-29 (re-verified 2026-11-07): GLM-5.2 $1.25 in / $3.95 out per 1M, Kimi-K3 $1.85/$9.50, DeepSeek-V3.2 $1.00/$1.00, Qwen3.8-27B $0.039/$1.25, with a cached-input rate listed for every featured model (GLM-5.2 $0.125, Kimi-K3 $0.185) on the featured table, which grew from ten to 18 models by the 2026-11-07 read (GLM-5.3 newly listed at $1.225 in / $3.85 out with a $0.245 cached rate, beside Kimi K2.6 and K2.7-Code, DeepSeek-V4 variants, and Qwen3.8-Max).
+PAYG is the only path as of 2026-11-21 (rotation re-verification): GLM-5.2 $1.25 in / $3.95 out per 1M, Kimi-K3 $1.85/$9.50, DeepSeek-V3.2 $1.00/$1.00, Qwen3.8-27B $0.039/$1.25, with a cached-input rate listed for every featured model (GLM-5.2 $0.125, Kimi-K3 $0.185) on the featured table, which grew from ten to 18 models by the 2026-11-07 read and to 19 by 2026-11-21 with GLM-5.2-Fast newly listed at $2.45/$7.70; GLM-5.3, listed at $1.225/$3.85 (cached $0.245) on the 2026-11-07 read, carried a cut to $0.80/$2.50 (cached $0.16) by the 2026-11-21 read, beside Kimi K2.6 and K2.7-Code, DeepSeek-V4 variants, and Qwen3.8-Max.
 The Plus $10 and Pro $20 monthly plans are no longer sold: the pricing page carries no plan cards, and the FAQ states that existing plans stay active to the end of the current billing period and then do not renew, with usage billing PAYG from the account balance after that.
 There is no free tier and no free trial per the FAQ.
 Private chutes run on an RTX Pro 6000 at $2.25/hour plus a $6.75 one-time deployment fee (3x the hourly rate), up from $1.80/hour and $5.40 at the 2026-10-14 read.
@@ -58,6 +58,7 @@ Private chutes run on an RTX Pro 6000 at $2.25/hour plus a $6.75 one-time deploy
 | 2026-10-14 | PAYG (Kimi-K3) | Kimi-K3 listed at $1.85/$9.50 per 1M tokens, down from the $3.00/$15.00 read of 2026-10-11; GLM-5.2, Qwen3-235B, and DeepSeek-V3.2 rates, Plus $10, Pro $20, and private GPU pricing unchanged | https://chutes.ai/pricing |
 | 2026-10-29 (observed) | Private chutes | Self-serve TEE GPU rate rose to $2.25/hour with a $6.75 deployment fee (from $1.80/hour and $5.40), keeping the 3x deploy-fee multiple | https://chutes.ai/pricing |
 | 2026-10-29 (observed) | All subscriptions | Monthly plans withdrawn from sale: the pricing page carries only PAYG and private chutes, and the FAQ states existing plans run to the end of their billing period without renewal, ending the Plus/Pro quota-and-discount structure for new users | https://chutes.ai/pricing |
+| 2026-11-21 (observed) | PAYG (GLM-5.3) | GLM-5.3 listed at $0.80 in / $2.50 out per 1M tokens (cached $0.16), down from the $1.225/$3.85 (cached $0.245) read of 2026-11-07; GLM-5.2, Kimi-K3, DeepSeek-V3.2, and Qwen3.8-27B rates held, the private GPU rate held at $2.25/hour with the $6.75 fee, and the featured table grew to 19 models with GLM-5.2-Fast newly listed at $2.45/$7.70 | https://chutes.ai/pricing |
 
 ## Compared to
 
@@ -77,6 +78,7 @@ Claim to disagree with: after the 5x cap, Plus and Pro make little sense for cod
 - 2026-10-14 - PAYG re-check: Kimi-K3 moved to $1.85/$9.50 per 1M tokens from $3.00/$15.00, with the subscription tiers and the other verified PAYG rates unchanged; price history row appended.
 - 2026-10-29 - Rotation re-verification with a subscription retirement on the page: the Plus/Pro monthly plans are no longer sold (the pricing page carries PAYG and private chutes only, existing plans run out their billing period without renewal per the FAQ), the self-serve TEE GPU rate rose to $2.25/hour with a $6.75 deployment fee (from $1.80/$5.40), the featured model table now carries cached-input rates with Kimi-K3 PAYG holding at $1.85/$9.50, and the FAQ adds no free tier and no free trial; every cited URL re-fetched live this run, price history rows appended.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live (the pricing page, the three news posts, the deploy docs, and the InfoWorld review) with the plan-free PAYG page state, the $2.25/hour GPU rate and $6.75 fee, every cited PAYG rate (GLM-5.2, Kimi-K3, DeepSeek-V3.2, Qwen3.8-27B), and the historical posts all unchanged; the featured table grew from ten to 18 models with GLM-5.3 newly listed at $1.225/$3.85, and the FAQ's plan and free-trial questions are still present (the answers render client-side and did not re-read this run, so the 2026-10-29 answer text stands).
+- 2026-11-21 - Rotation re-verification with a PAYG cut: every cited URL re-fetched live (the pricing page, the three news posts, the deploy docs, and the InfoWorld review) with the plan-free PAYG page state, the $2.25/hour GPU rate and $6.75 fee, and every held PAYG rate (GLM-5.2, Kimi-K3, DeepSeek-V3.2, Qwen3.8-27B) unchanged, while GLM-5.3's listing fell from the 2026-11-07 read's $1.225/$3.85 (cached $0.245) to $0.80/$2.50 (cached $0.16) and the featured table grew to 19 models with GLM-5.2-Fast newly listed at $2.45/$7.70; price history row appended; the FAQ questions still render client-side, so the 2026-10-29 answers stand.
 
 ## See also
 
@@ -87,7 +89,7 @@ Claim to disagree with: after the 5x cap, Plus and Pro make little sense for cod
 
 ## References
 
-- https://chutes.ai/pricing - current PAYG model rates with cached-input columns, private GPU pricing at $2.25/hour and a $6.75 deploy fee, and the FAQ stating monthly plans are no longer sold (fetched, HTTP 200, re-verified unchanged 2026-10-11; re-fetched 2026-10-14 with the Kimi-K3 rate at $1.85/$9.50; re-fetched 2026-10-29 with the plans withdrawn from sale, the GPU rate at $2.25/hour, and the no-free-tier FAQ statement; re-fetched 2026-11-07 with the PAYG-only state, the GPU rate, and every cited model rate unchanged, the featured table grown to 18 models with GLM-5.3 newly listed, and the FAQ answers rendering client-side).
+- https://chutes.ai/pricing - current PAYG model rates with cached-input columns, private GPU pricing at $2.25/hour and a $6.75 deploy fee, and the FAQ stating monthly plans are no longer sold (fetched, HTTP 200, re-verified unchanged 2026-10-11; re-fetched 2026-10-14 with the Kimi-K3 rate at $1.85/$9.50; re-fetched 2026-10-29 with the plans withdrawn from sale, the GPU rate at $2.25/hour, and the no-free-tier FAQ statement; re-fetched 2026-11-07 with the PAYG-only state, the GPU rate, and every cited model rate unchanged, the featured table grown to 18 models with GLM-5.3 newly listed, and the FAQ answers rendering client-side; re-fetched 2026-11-21 with the PAYG-only state, the GPU rate, and the held model rates unchanged, GLM-5.3 cut to $0.80/$2.50 (cached $0.16), the featured table grown to 19 models with GLM-5.2-Fast newly listed, and the FAQ answers again client-side).
 - https://chutes.ai/news/community-announcement-february - February 27, 2026 changes: Early Access retirement, 5x subscription cap, Base tier model removals, abuse tables (fetched, HTTP 200; re-fetched 2026-11-07 unchanged).
 - https://chutes.ai/news/from-volume-to-value-building-a-sustainable-ai-inference-platform-2 - March 20, 2026 economics: tokens down 45%, revenue per token up 37.7%, free-tier costs (fetched, HTTP 200; re-fetched 2026-11-07 unchanged).
 - https://chutes.ai/news/coming-soon - July 31, 2025 post announcing the first pricing tiers (fetched, HTTP 200; re-fetched 2026-11-07 unchanged).

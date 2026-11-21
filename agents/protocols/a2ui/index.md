@@ -1,7 +1,7 @@
 ---
 title: A2UI
 created: 2026-10-06
-updated: 2026-11-19
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, generative-ui, frontend, google]
 readability: 3
@@ -91,6 +91,7 @@ My disagreeable claim: A2UI will matter more to what end users see than AG-UI do
 - 2026-11-14 - Re-verification: the repository pushed 2026-11-12 through 11-14 on renderer and docs-site work (an Angular universal-element hook, a web_core surface-action fix, a TypeScript named-export refactor, Swift catalog styles, a WeChat MiniProgram renderer joining the ecosystem docs, and landing-page edits) with the tagged release train unchanged (the 2026-11-10 Python wave and the 2026-11-11 Dart wave still the newest sets), the spec hub's version table re-confirmed (v1.0 current, v0.9.1 previous), and the docs' official SDK list now including React (`@a2ui/react`); the What-it-is renderer list moved with the SDK addition.
 - 2026-11-17 - Re-verification: the repository pushed 2026-11-16 on maintenance and docs work (function-catalog validation enforced across the TypeScript, Dart, Python, and Swift cores, a Kotlin bundled-catalog refactor decoupling catalog IDs from repository paths, Angular multi-spec-run test fixes, blueprint syncs, and a CODEOWNERS file for the specification directory) with the tagged release train unchanged (the 2026-11-10 Python wave and cli-v0.3.0 still the newest sets), the spec hub's version table re-confirmed (v1.0 current, v0.9.1 previous), and the ecosystem docs gaining BinaryTape's a2ui-kmp community renderer (a Compose Multiplatform port serving Android, desktop JVM, and iOS at v0.9.x); the What-it-is community-renderer list moved with the addition.
 - 2026-11-19 - The release train moved again on 2026-11-17: a2ui-core v0.7.0, agent SDK v0.12.0, and a2ui-a2a v0.4.0 on the Python side, the first tagged Swift release (v0.11.0+swift, breaking schema-constraint enforcement), and a breaking cli-v0.4.0 (requires `a2ui_core` ^0.8.0, `@`-envelope-key filtering and `@checks` detection in the catalog analyzer); the spec hub's version table re-confirmed (v1.0 current, v0.9.1 previous) with default-branch work through 2026-11-19 (npm release bumps, Dart 3.13 alignment, and a spec evolution-guide note recording a v1.0 Text.variant heading removal); the Status section moved with the train.
+- 2026-11-21 - Re-verification: the repository pushed 2026-11-20 on implementation work (a React fix importing `@a2ui/react` without a DOM #3197, a Dart core fix reporting unknown envelope keys at their paths #4197, a core feature letting a MessageProcessor take a catalog after it is built #3304, a Flutter slider-label fix #3411, and an agent-side rejection of out-of-range numbers in Direct JSON in TypeScript and Python #3847) with the tagged release train unchanged (the 2026-11-17 wave still the newest sets) and the spec hub's version table re-confirmed (v1.0 current, v0.9.1 previous).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: AutoGPT
 created: 2026-09-27
-updated: 2026-11-16
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, workflows, source-available]
 readability: 3
@@ -24,7 +24,7 @@ It positions itself as "AI agents that finish the work", with file-aware agents,
 
 ## Status
 
-Active and shipping: the repo shows 187,580 stars, was pushed 2026-11-14, and carries the platform beta at v0.11.3 (2026-11-15, several privately reported security fixes, advisories to follow once the fixes reach production) after v0.11.2 (2026-11-11) after v0.11.1 (2026-11-06), v0.11.0 (2026-11-04), v0.9.0 (2026-10-23), and v0.8.4 (2026-10-14) (GitHub API, releases, as of 2026-11-16).
+Active and shipping: the repo shows 187,580 stars, was pushed 2026-11-14, and carries the platform beta at v0.12.0 (2026-11-19, a breaking change dropping the frontend's `TRUST_X_FORWARDED_FOR` read in favor of the `TRUSTED_PROXIES` list for sign-in IP logging, IP blocks, and per-visitor store search) after v0.11.3 (2026-11-15, several privately reported security fixes, advisories to follow once the fixes reach production), v0.11.2 (2026-11-11), v0.11.1 (2026-11-06), v0.11.0 (2026-11-04), v0.9.0 (2026-10-23), and v0.8.4 (2026-10-14) (GitHub API, releases, as of 2026-11-21).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&theme=dark&legend=top-left" />
@@ -89,6 +89,7 @@ My disagreeable claim: the 187k stars are a liability now, because they attract 
 - 2026-11-06 - Volatile refresh: Recorded the platform beta advancing to v0.11.1 (2026-11-06).
 - 2026-11-14 - Re-verified in rotation: every cited URL re-fetched and live (repo API, README, license, releases, pricing, docs, blog post, both HN threads); v0.11.2 still the newest tag, the hosted pricing tiers re-fetched unchanged at $50 and $320 monthly, the push date refreshed to 2026-11-14.
 - 2026-11-16 - Recorded the platform beta advancing to v0.11.3 (2026-11-15, privately reported security fixes with advisories pending).
+- 2026-11-21 - Volatile refresh: Recorded the platform beta advancing to v0.12.0 (2026-11-19, breaking `TRUST_X_FORWARDED_FOR` removal in favor of `TRUSTED_PROXIES`).
 
 ## See also
 

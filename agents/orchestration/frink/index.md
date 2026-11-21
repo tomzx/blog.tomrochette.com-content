@@ -1,7 +1,7 @@
 ---
 title: Frink
 created: 2026-10-21
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflows, desktop, triggers]
 readability: 3
@@ -26,7 +26,8 @@ It is local-first: chats, Flows, and tasks live in SQLite on your machine, no ac
 
 ## Status
 
-Active and very young: 58 stars and 5 forks as of 2026-10-21, repository created 2026-09-26, default-branch pushes through 2026-11-09 (adding Fable 5.2 to the Claude model picker and bundling Claude Code 2.1.321), and a release train still at 0.4.0 (October 16) after 0.3.0 (October 8) and 0.2.0 (October 6) (GitHub API and releases, as of 2026-11-14).
+Active and very young: 58 stars and 5 forks as of 2026-10-21, repository created 2026-09-26, default-branch pushes through 2026-11-20 (a tab bar switching between Chats, Flows, and Queue, paused Flow runs an agent can continue or cancel, streamed-text smooth scrolling, and fixes stopping skill copies leaking into Cursor's folder), and a release train still at 0.4.0 (October 16) after 0.3.0 (October 8) and 0.2.0 (October 6) (GitHub API and releases, as of 2026-11-21).
+**The product site went down: frink.dev and its pricing page serve Vercel's 402 "Payment required" with a DEPLOYMENT_DISABLED error as of 2026-11-21**, while the repository and its committed user docs stay live, so the desktop app's own page is dark while development continues on GitHub.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=benord-labs/frink&type=date&theme=dark&legend=top-left" />
@@ -48,6 +49,7 @@ No independent coverage exists as of 2026-10-21: searching the name surfaces the
 ## Cautions
 
 - Four weeks old, 58 stars, one organization, zero independent coverage: bus factor and longevity are unknowns.
+- The product site's deployment was disabled on Vercel as of 2026-11-21 while the repository stays active, a split signal on a project this young.
 - Flows run only on Claude or OpenAI accounts; a project on OpenCode, GitHub Copilot, or Cursor cannot run Flows yet (docs, as of 2026-10-21).
 - Everything runs on your computer while Frink is open, so this is a desktop scheduler, not a server; nothing executes unattended with the app closed.
 - Windows is announced on the pricing page but not shipped.
@@ -55,7 +57,7 @@ No independent coverage exists as of 2026-10-21: searching the name surfaces the
 
 ## Pricing
 
-Free: every feature, no account, no card (frink.dev/pricing, as of 2026-10-21).
+Free: every feature, no account, no card (frink.dev/pricing, as of 2026-10-21; the pricing page serves a Vercel DEPLOYMENT_DISABLED 402 on re-fetch 2026-11-21, so the recorded terms are the last fetched ones).
 You bring your own agent subscriptions or API keys; a pasted API key is stored encrypted on your machine.
 
 ## Compared to
@@ -75,6 +77,7 @@ Not for headless or server-side automation, and not for anyone who needs a track
 - 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live (repository, site, pricing, the 0.4.0 release line, the four user docs); no material change, with pushes still stopping at 2026-10-26.
 - 2026-11-06 - Re-verified in rotation: every cited URL re-fetched live; no material change, pushes still stopping at 2026-10-26 and 0.4.0 still the latest release.
 - 2026-11-14 - Re-verified in rotation: every cited URL re-fetched live; 0.4.0 still the latest release, and the default branch resumed with 2026-11-09 commits (Fable 5.2 in the model picker, bundled Claude Code 2.1.321), recorded in Status.
+- 2026-11-21 - Rotation re-verification with a site finding: frink.dev and its pricing page serve a Vercel DEPLOYMENT_DISABLED 402 while the repository stays active (pushes through 2026-11-20, 0.4.0 still the latest release), recorded in Status, Cautions, and Pricing with the dead-site wall on the two frink.dev references.
 
 ## See also
 
@@ -87,8 +90,8 @@ Not for headless or server-side automation, and not for anyone who needs a track
 ## References
 
 - https://github.com/benord-labs/frink - repository, feature table, supported agents, license, and install builds
-- https://frink.dev/ - product page, download surfaces, and the no-account positioning
-- https://frink.dev/pricing - free, every feature, no account, no card (as of 2026-10-21)
+- https://frink.dev/ - product page, download surfaces, and the no-account positioning (as of 2026-10-21); Vercel 402 DEPLOYMENT_DISABLED on re-fetch 2026-11-21
+- https://frink.dev/pricing - free, every feature, no account, no card (as of 2026-10-21); Vercel 402 DEPLOYMENT_DISABLED on re-fetch 2026-11-21
 - https://api.github.com/repos/benord-labs/frink - stars, forks, dates, license, and language (as of 2026-10-21)
 - https://api.github.com/repos/benord-labs/frink/releases - the 0.2.0, 0.3.0, and 0.4.0 release train
 - https://raw.githubusercontent.com/benord-labs/frink/main/user-docs/flows.md - flow anatomy, the one-trigger rule, and the Claude/OpenAI limitation

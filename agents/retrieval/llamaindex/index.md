@@ -1,7 +1,7 @@
 ---
 title: LlamaIndex
 created: 2026-08-24
-updated: 2026-11-19
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, retrieval, frameworks]
 readability: 3
@@ -25,7 +25,7 @@ In February 2026 the same team also open-sourced [LiteParse](https://github.com/
 ## Status
 
 Active and heavily used.
-The `run-llama/llama_index` repository shows 52.5k stars and 8.3k forks as of 2026-10-13, pushed 2026-11-14 with 1,492 open issues counting pull requests (GitHub API, as of 2026-11-19; the default branch's latest commit is still dated 2026-11-14), with 7,956 commits as of 2026-10-10, and the repository's latest tagged release is v0.14.26 (2026-11-13), the first tagged release since v0.14.25 in September.
+The `run-llama/llama_index` repository shows 52.5k stars and 8.3k forks as of 2026-10-13, pushed 2026-11-20 at the repository level with 1,512 open issues counting pull requests (GitHub API, as of 2026-11-21; the default branch's latest commit is still dated 2026-11-14), with 7,956 commits as of 2026-10-10, and the repository's latest tagged release is v0.14.26 (2026-11-13), the first tagged release since v0.14.25 in September.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&theme=dark&legend=top-left" />
@@ -97,6 +97,7 @@ That claim is arguable, which is the point.
 - 2026-11-14 - Refreshed the repository activity (pushed 2026-11-14, 1,403 open issues counting pull requests) and recorded the repository's latest tagged release moving to v0.14.26 (2026-11-13); all other claims untouched since the 2026-11-03 rotation.
 - 2026-11-19 - Rotation re-verification re-fetched every cited URL live (the README's parsing-engine NOTE block, the docs root still carrying the LlamaCloud-is-now-LlamaParse rename banner and the LiteParse, ParseBench, and ExtractBench listings, LiteParse, the CodeSplitter and Chonkie-wrapping Chunker node-parser pages, the Octomind thread at 480 points, and the Chonkie launch thread at 151 points all unchanged; the repository re-read at pushed 2026-11-14 with 1,492 open issues counting pull requests, v0.14.26 still the latest tagged release, and the default branch's latest commit still dated 2026-11-14 per the pushed-equals-verified digest ruling) and the pricing re-fetch found the page changed, recorded separately below.
 - 2026-11-19 - Recorded the LlamaParse pricing page's restructure: the Starter tier ($50/mo, 40k credits) no longer appears, the Free plan is renamed Pay-as-you-go with a $1.50-per-1,000-credits overage, and the $1.25 per 1,000 rate now belongs to the Pro plan's overage while Pro $500/mo and the limited-time 800k-credit bonus stay listed; appended the price history row and rewrote the Pricing section.
+- 2026-11-21 - Refreshed the repository activity (pushed 2026-11-20 at the repository level with the default branch's latest commit still dated 2026-11-14, 1,512 open issues counting pull requests); v0.14.26 remains the latest tagged release and all other claims untouched since the 2026-11-19 rotation.
 
 ## See also
 
@@ -107,7 +108,7 @@ That claim is arguable, which is the point.
 
 ## References
 
-- https://github.com/run-llama/llama_index - repository scale (52.5k stars), MIT license, the README's parsing-engine focus note and ParseBench and ExtractBench benchmarks (re-verified unchanged 2026-11-19), pushed 2026-11-14, latest tagged release v0.14.26 (2026-11-13) (GitHub API, as of 2026-11-19)
+- https://github.com/run-llama/llama_index - repository scale (52.5k stars), MIT license, the README's parsing-engine focus note and ParseBench and ExtractBench benchmarks (re-verified unchanged 2026-11-19), pushed 2026-11-20 at the repository level with the default branch's latest commit still dated 2026-11-14, latest tagged release v0.14.26 (2026-11-13) (GitHub API, as of 2026-11-21)
 - https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,824 stars (as of 2026-10-11), Apache-2.0, pushed 2026-11-17 (GitHub API, as of 2026-11-19)
 - https://docs.llamaindex.ai/en/stable/ - framework documentation structure: RAG pipeline, agents, workflows, LlamaParse (re-verified live 2026-11-19; the docs root still carries the LlamaCloud-is-now-LlamaParse rename banner)
 - https://developers.llamaindex.ai/python/framework/module_guides/loading/node_parsers/modules/ - CodeSplitter (tree-sitter) and Chunker (Chonkie) node parsers (re-verified unchanged 2026-11-19)

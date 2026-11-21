@@ -1,7 +1,7 @@
 ---
 title: Agent Teams
 created: 2026-10-07
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, kanban, multi-cli, agpl]
 readability: 3
@@ -21,7 +21,7 @@ It connects Claude Code, Codex, OpenCode, Cursor, SuperGrok, GitHub Copilot, Z.A
 
 ## Status
 
-Active and young: 2,254 stars, a push on 2026-11-14, and release v2.18.7 on 2026-11-11 after v2.18.6 (2026-11-05) as of 2026-11-14 (GitHub API), a v2.18 line that followed v2.17.10 (2026-10-09, nine releases after v2.17.1 (2026-09-28)), on a repository created 2026-02-21.
+Active and young: 2,254 stars, a push on 2026-11-20, and release v2.18.7 on 2026-11-11 after v2.18.6 (2026-11-05) as of 2026-11-21 (GitHub API), a v2.18 line that followed v2.17.10 (2026-10-09, nine releases after v2.17.1 (2026-09-28)), on a repository created 2026-02-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=777genius/agent-teams-ai&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ Not for teams that need vendor accountability or a permissive license.
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v2.18.4 still the latest release.
 - 2026-11-06 - Volatile refresh: Recorded v2.18.6 (2026-11-05) as the new latest release.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched live; v2.18.7 stands as the latest release and the push date refreshed to 2026-11-14.
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched live (site, docs, repository, releases, README); claims hold, v2.18.7 still the latest release, the push date refreshed to 2026-11-20.
 
 ## See also
 

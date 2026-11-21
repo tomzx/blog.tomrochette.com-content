@@ -1,7 +1,7 @@
 ---
 title: Claude Squad
 created: 2026-08-24
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, orchestration, git-worktrees, terminal]
 readability: 3
@@ -77,6 +77,7 @@ For most engineers, Claude Squad plus a small setup script covers 90 percent of 
 - 2026-10-29 - Re-verified in rotation: all cited sources re-fetched and live; Homebrew install-on-request figure refreshed to 5,142 over 365 days as of 2026-10-29, still quiet since the 2026-08-20 push.
 - 2026-11-06 - Re-verified in rotation: all cited sources re-fetched and live; Homebrew install-on-request figure refreshed to 5,117 over 365 days as of 2026-11-06, still quiet since the 2026-08-20 push.
 - 2026-11-14 - Re-verified in rotation: all cited sources re-fetched and live; Homebrew refreshed to 5,110 over 365 days, and the eighty-five-day quiet spell broken by a single 2026-11-13 fix commit (a failing pre-push `gh repo sync` call removed), recorded in Status.
+- 2026-11-21 - Rotation re-verification (every cited URL re-fetched live: repository, Homebrew formula, docs site, the launch thread); claims hold, v1.0.20 still the latest release and the push date still 2026-11-13.
 
 ## See also
 

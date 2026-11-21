@@ -1,7 +1,7 @@
 ---
 title: Latent Space
 created: 2026-08-29
-updated: 2026-11-01
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, newsletter, podcast, community]
 readability: 3
@@ -24,7 +24,7 @@ It is also, critically, the place where the tools profiled in this section get t
 
 Active and expanding.
 As of 2026-10-13 the announcement month ran "The State of Latent Space" for 2026, adding shows, hosts, and more interview formats; the AI Engineer conference network grew to events in New York, San Francisco, Paris, and Europe.
-The newest issues are "Agents Prompt People: Using Agents for Long-Horizon Financial Work" ([2026-10-31](https://latent.space/p/arca/)), after the Elorian visual-reasoning test piece "Can Frontier Models See Past a Decoy?" (2026-10-29) and "Why Agents Love Supabase" (2026-10-28), which follow the 2026-10-27 trio: "How Anthropic ships Claude with Claude: Separating the Brain from the Hands" (the Opus 5.5 piece with Anthropic's Katelyn Lesse and Angela Jiang), its 107-minute podcast twin "How Anthropic ships the #1 LLM in the World safely", and "Coding From the Himalayas With an Offline AI Agent", after "Claude Mods: Flipping the Harness Inside Out" (2026-10-21), the Moshi team interview "You are the Team" and the Modal CEO piece "Why AI Compute Comes in Rectangles" (both 2026-10-22), and "AI Is Getting Good at Math. Here's Why." (2026-10-23), with the near-daily AINews roundups running through 2026-10-31 (the Google AI-Mode-hurts-Search-revenue read, after the AIE CODE conference and Gemini 4 Carbon items), and the publication's front page still fronts a wiki of 705 sourced person and organization profiles plus 281 grounded writeups (figures as of 2026-10-28, re-checked this run).
+The newest issues are "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification" ([2026-11-20](https://latent.space/p/formal-verification/)), after the Linear GTM interview "Scaling Linear's GTM to $100M ARR" (2026-11-19), "Cloudflare Joins the Jevolution and Labels Itself a Neolab" (2026-11-17), and "Agents Prompt People: Using Agents for Long-Horizon Financial Work" ([2026-10-31](https://latent.space/p/arca/)), which follow the late-October window: the 2026-10-27 trio ("How Anthropic ships Claude with Claude: Separating the Brain from the Hands", its 107-minute podcast twin "How Anthropic ships the #1 LLM in the World safely", and "Coding From the Himalayas With an Offline AI Agent"), "Claude Mods: Flipping the Harness Inside Out" (2026-10-21), the Moshi team interview "You are the Team" and the Modal CEO piece "Why AI Compute Comes in Rectangles" (both 2026-10-22), "AI Is Getting Good at Math. Here's Why." (2026-10-23), and the Elorian visual-reasoning test piece and "Why Agents Love Supabase" (2026-10-28 to 10-29), with the near-daily AINews roundups running through 2026-11-21 (the Riemann-Hypothesis double-proof read, after the Anthropic-IPO and Gemini 4 Neon reads mid-month), and the publication's front page still fronts a wiki of 705 sourced person and organization profiles plus 281 grounded writeups (figures as of 2026-10-28, re-checked this run) and still displays no subscriber count.
 Between those interviews sits the DevDay episode "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week" ([2026-09-30](https://www.latent.space/p/devday-2026)), the first pod on the DevDay lineup, where OpenAI's Ari Weinstein argues computer use is "180 degrees different" and Nikunj Handa walks through the Jev-inspired Decisions API.
 The podcast regularly lands the people behind the harnesses this section tracks, and swyx's own notes continue to set trends (memory, filesystems, agent-eats-agent).
 
@@ -83,6 +83,7 @@ Not for people who want only hands-on tool notes and who will not filter past th
 - 2026-10-15 - Latest-issue pointer refreshed: the two AI Engineer New York pieces posted 2026-10-15 (the financial-agents autonomy piece and the Leash Bio interview) now lead, after the Dyna-2 pod and the Meta Muse Wonder AINews (October 13), with AINews running through October 14; subscriber count held at over 203,000; archive fetched this run.
 - 2026-10-28 - Rotation re-verification: latest-issue pointer moved to the 2026-10-27 Anthropic Opus 5.5 pair and the offline-coding piece, with "Claude Mods" (October 21) and the Moshi and Modal pods (October 22) in between and AINews running through October 27 (Anthropic S-1 filing); the front page's new wiki (705 profiles, 281 writeups) recorded; every cited URL re-fetched live, the subscriber figure keeps its 2026-10-15 as-of date because the page no longer displays a count (feed, home, AINews section, and archive URLs fetched this run).
 - 2026-11-01 - Rotation re-verification, every cited URL re-fetched and live (the www host now redirects to the bare domain and the AINews section path moved to /news/, so the Top 5 and References links now point at the new path): the newest issue moved to "Agents Prompt People" (2026-10-31) with the Elorian (October 29) and Supabase (October 28) issues behind it and AINews running through October 31, and the front page still shows no subscriber count and the same wiki figures.
+- 2026-11-21 - Rotation re-verification, every cited URL re-fetched and live: the newest issue moved to the formal-verification piece (2026-11-20), after the Linear GTM interview (11-19), the Cloudflare Jevolution piece (11-17), and the Agents Prompt People issue (10-31), with AINews running through 2026-11-21; the front page still displays no subscriber count and the same wiki figures (705 profiles, 281 writeups); Status and References updated.
 
 ## See also
 
@@ -95,7 +96,8 @@ Not for people who want only hands-on tool notes and who will not filter past th
 
 - https://www.latent.space/ - the Substack home, newsletter and podcast archive
 - https://www.latent.space/feed - the RSS feed grounding the latest issues and their dates (the page no longer displays a subscriber count, so the over-203,000 figure keeps its 2026-10-15 as-of)
-- https://latent.space/p/arca/ - the 2026-10-31 "Agents Prompt People" issue, the newest, on long-horizon financial work run by agents
+- https://latent.space/p/arca/ - the 2026-10-31 "Agents Prompt People" issue, on long-horizon financial work run by agents
+- https://latent.space/p/formal-verification/ - the 2026-11-20 "The War Against Slop" issue, the newest, on formal verification as the emerging anti-slop weapon
 - https://latent.space/p/supabase/ - the 2026-10-28 "Why Agents Love Supabase" issue
 - https://latent.space/p/elorian/ - the 2026-10-29 Elorian visual-reasoning test issue
 - https://www.latent.space/p/ai-engineer - the founding essay that named the AI Engineer role

@@ -1,7 +1,7 @@
 ---
 title: Unified Harness Protocol (UHP)
 created: 2026-10-08
-updated: 2026-11-19
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, agent-serving, harnesses]
 readability: 3
@@ -93,6 +93,7 @@ My disagreeable claim: the Responses API already owns this lane by gravity, so t
 - 2026-11-14 - The release train moved from v0.41.13 through v0.41.14 and v0.41.15 (both 2026-11-13, session processes starting through setpriv with a scrubbed environment and stored MCP secrets bound to the server they were saved for) to v0.41.16 (2026-11-14, a console rail rename), and the spec changelog gained a sixth capability addition within the 2026-10-19 fifth version (a harness read may carry an ETag and its update an If-Match, with a stale version refused 412 precondition_failed) while the suite stays at 2026.10.19.post6; the spec remains at its fifth version; the repository pushed 2026-11-14.
 - 2026-11-17 - Re-verification: the release train moved to v0.41.17 and v0.41.18 (both 2026-11-16: memories owned by the API keys that minted them #700, Gemini thinking tokens billed as output #691, harness-model menus naming a key the harness can use #697, harness exports leaving out the instance's self-served tools #702, and the Graphiti revise-or-forget deletion found by the suite's ME-05 and ME-06 with `hr_`-prefixed schema names reserved #701, plus a release-gate fix #705), the conformance suite moved to 2026.10.19.post9 per the v0.41.17 notes (the EN-07 environment-read checks riding along) while the protocol changelog page's newest suite entry stays post6, the spec changelog's newest addition stays the ETag/If-Match one, and the spec remains at its 2026-10-19 fifth version; the repository pushed 2026-11-16.
 - 2026-11-19 - The release train moved through v0.41.19 to v0.41.23 (2026-11-17 to 11-19): v0.41.19 shipped the spec's newest within-version addition, an interrupted turn that can be resumed (capability `resume`, #673, with the workspace kept, checkpoint, or lost and `effects_may_repeat`, and a single-use `resume` item refused 409 `resume_not_pending` once consumed), with the conformance suite moving to 2026.10.19.post11 (T-15 resume checks); v0.41.20 kept a first turn cut by a restart its workspace, v0.41.21 added the GPT-6.2 Astra and Sol models and fixed OpenHands follow-ups reaching their MCP servers, and v0.41.22 and v0.41.23 fixed the Graphiti ME-12 conformance failure plus a username trim; the spec remains at its 2026-10-19 fifth version; the Status section moved with the addition, the suite, and the train.
+- 2026-11-21 - Re-verification: the release train moved to v0.41.24 (2026-11-20, a console fix keeping an organization switch made while a session refresh is in flight #724, and the OpenRouter gateway dropping the retired grok-build-0.1 model #729) with the spec unchanged at its 2026-10-19 fifth version and the conformance suite at 2026.10.19.post11; the repository pushed 2026-11-20.
 
 ## See also
 

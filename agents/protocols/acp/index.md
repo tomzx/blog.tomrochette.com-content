@@ -1,7 +1,7 @@
 ---
 title: Agent Client Protocol (ACP)
 created: 2026-08-24
-updated: 2026-11-19
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, editor-integration]
 readability: 3
@@ -20,7 +20,7 @@ ACP is an open protocol that standardizes communication between code editors and
 Agents run as editor subprocesses speaking JSON-RPC over stdio, with message types for the coding UX that matters (session lifecycle, permission requests, diffs).
 The protocol reuses MCP's JSON representations where it can and keeps user-readable text in Markdown.
 **Zed originated it, JetBrains co-developed it after merging its own internal Junie protocol effort, and the repository now lives under the vendor-neutral `agentclientprotocol` organization, Apache-2.0.**
-The current stable protocol version is 1, with a v2 draft and a migration guide already published, and official Kotlin, Java, Python, Rust, and TypeScript SDKs: both flagship SDKs crossed 1.0.0 in June 2026 and have kept moving, with the Rust crate at 5.4.0 and the TypeScript package at 2.8.0 (both 2026-11-18, tracking the schema releases) as of 2026-11-19; the Rust 5.0.0 major (2026-11-02) adopted schema 1.15, split its API into v1 and v2 surfaces, and dropped JSON-RPC batch support.
+The current stable protocol version is 1, with v2 now in Preview (moved from Draft on 2026-11-20, after 17 alpha releases of the v2 schema and a beta.1 schema tag), a migration guide already published, and official Kotlin, Java, Python, Rust, and TypeScript SDKs: both flagship SDKs crossed 1.0.0 in June 2026 and have kept moving, with the Rust crate at 5.4.0 and the TypeScript package at 2.8.0 (both 2026-11-18, tracking the schema releases) as of 2026-11-19; the Rust 5.0.0 major (2026-11-02) adopted schema 1.15, split its API into v1 and v2 surfaces, and dropped JSON-RPC batch support.
 
 ## Status
 
@@ -94,6 +94,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 - 2026-11-15 - The trains moved on 2026-11-14, shipping what the last pass recorded unreleased: v1.18.0 with schema-v1.32.0 (unstable additions of a prompt-suggestions session update and client capability, markdown plans carrying a path in place of the file plan type, the speed session-config option category, and initial config options accepted on session/fork with notification clarifications, plus subagent message-view clarifications) and the v2 alpha train to schema-v2.0.0-alpha.16; the SDK figures stand (Rust 5.0.0, TypeScript 2.4.0), the stable protocol stays at version 1 with the v2 draft open, and the agents list re-counted at 51, unchanged.
 - 2026-11-17 - Re-verification: the repository pushed 2026-11-16 on client-registry docs (Varin added to the desktop and web clients, Mobaide added to the mobile clients, Capsule's entry updated for Windows plus a website, and the acp-connector description improved), a session-cursors RFD added to the v2 draft docs, and dependency bumps, with no new tag since: the trains stay at v1.18.0 with schema-v1.32.0 and schema-v2.0.0-alpha.16, the SDKs at Rust 5.0.0 and TypeScript 2.4.0, the stable protocol at version 1 with the v2 draft open, and the agents list holds at 51.
 - 2026-11-19 - The trains moved on 2026-11-18: the stable train to v1.19.0 with schema-v1.33.0 (shipping what the last pass recorded unreleased, unstable session cursors with a cursorId on session/fork #2843, plus method-aware payload dispatch #2846) and the v2 alpha train to schema-v2.0.0-alpha.17 (an idempotencyKey on session/prompt #2847, elicitation string properties losing their pattern, a diff required to carry at least one change, and agent cancellation rules); the SDK trains moved with the schemas, the Rust crate through 5.1.0 to 5.4.0 and the TypeScript package through 2.5.0, 2.6.0, and 2.7.0 to 2.8.0 (all non-breaking schema-tracking releases, a train the last two passes had missed), the stable protocol stays at version 1 with the v2 draft open, and the agents list re-counted at 51 as of 2026-11-19; the clients reference moved to the docs page's new get-started address and the SDK references moved with the trains.
+- 2026-11-21 - Out-of-rotation re-verification on the release signal: ACP v2 moved from Draft to Preview on 2026-11-20 (announcement 2026-11-20, after 17 alpha schema releases since the July Draft, with the v2 schema train graduating to schema-v2.0.0-beta.1, wire-envelope validation by method and direction, and the docs carrying a full v2 protocol section plus a migration guide), the stable train moved to v1.20.0 with schema-v1.34.0 (stabilizing subagent sessions #2939 and plan operations #2898, the last two of the eight features stabilized in both v1 and v2 since July), the Claude and Codex adapters serve v2 next to v1 per the announcement, and the docs commits moved ACP v2 to Preview and backfilled the stabilization announcements; the stable protocol stays at version 1 with v2 not frozen (remote transports and prompt steering still outside the Preview), the SDK figures stand (Rust 5.4.0, TypeScript 2.8.0), and the agents list re-counted at 51; the What-it-is sentence moved with the Preview promotion.
 
 ## See also
 
@@ -110,6 +111,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 - https://agentclientprotocol.com/get-started/clients - the client list (Zed, JetBrains, Neovim, Emacs, VS Code, Devin Desktop; the former overview/clients address redirects here)
 - https://github.com/agentclientprotocol/agent-client-protocol - Apache-2.0 repository, SDKs, stars as of 2026-10-13
 - https://agentclientprotocol.com/announcements/sdk-1-0-releases - the Rust and TypeScript SDKs at 1.0.0 (June 2026), fetched via the site's markdown mirror
+- https://agentclientprotocol.com/announcements/acp-v2-preview.md - the v2 Preview announcement (2026-11-20): Draft to Preview, the 17 alpha releases behind it, background work and subagents in the v2 baseline, the eight features stabilized in both v1 and v2, remote transports still outside, and the Claude and Codex adapters serving v2 next to v1 (fetched 2026-11-21)
 - https://crates.io/api/v1/crates/agent-client-protocol - the Rust SDK: latest 5.4.0, published 2026-11-18, as of 2026-11-19
 - https://registry.npmjs.org/@agentclientprotocol/sdk - the TypeScript SDK: latest 2.8.0, published 2026-11-18, as of 2026-11-19
 - https://github.com/agentclientprotocol/rust-sdk/releases/tag/v5.0.0 - the Rust SDK 5.0.0 release notes: the schema 1.15 adoption, the v1/v2 API split, and the batch-support removal (fetched 2026-11-03)

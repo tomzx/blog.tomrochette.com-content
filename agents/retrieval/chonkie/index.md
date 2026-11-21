@@ -1,7 +1,7 @@
 ---
 title: Chonkie
 created: 2026-09-16
-updated: 2026-11-19
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, chunking, rag, retrieval]
 readability: 3
@@ -24,7 +24,7 @@ It also ships refineries, pipelines stored in a local SQLite database, a self-ho
 ## Status
 
 The open source library is active and widely used; the company around it has visibly moved on.
-The repository shows 4,790 stars (as of 2026-10-13) and a push on 2026-11-18 (GitHub API, as of 2026-11-19), and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,479,752 downloads in the last month as of 2026-11-19 (against the 1,430,371 reading of 2026-11-17; the 2026-11-14 reading of 1,500,669 had ended the frozen 1,255,276 figure the endpoint had served unchanged from 2026-10-06 through 2026-11-12); the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-10-03.
+The repository shows 4,790 stars (as of 2026-10-13) and a push on 2026-11-19 (GitHub API, as of 2026-11-21), and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,429,687 downloads in the last month as of 2026-11-21 (against the 1,479,752 reading of 2026-11-19; the 2026-11-14 reading of 1,500,669 had ended the frozen 1,255,276 figure the endpoint had served unchanged from 2026-10-06 through 2026-11-12); the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=feyninc/chonkie&type=date&theme=dark&legend=top-left" />
@@ -85,6 +85,7 @@ My disagreeable claim: Chonkie's actual innovation was packaging, not algorithms
 - 2026-11-14 - Refreshed the repository activity (pushed 2026-11-13) and re-read the trailing-month downloads at 1,500,669, ending the frozen 1,255,276 window the endpoint had served since 2026-10-06; PyPI 1.7.0 remains latest.
 - 2026-11-17 - Refreshed the repository activity (pushed 2026-11-17) and re-read the trailing-month downloads at 1,430,371 against the 1,500,669 reading of 2026-11-14; PyPI 1.7.0 remains latest.
 - 2026-11-19 - Refreshed the repository activity (pushed 2026-11-18) and re-read the trailing-month downloads at 1,479,752 against the 1,430,371 reading of 2026-11-17; PyPI 1.7.0 remains latest.
+- 2026-11-21 - Refreshed the repository activity (pushed 2026-11-19, a late-day push after the prior run's morning fetch) and re-read the trailing-month downloads at 1,429,687 against the 1,479,752 reading of 2026-11-19; PyPI 1.7.0 remains latest.
 
 ## See also
 
@@ -95,10 +96,10 @@ My disagreeable claim: Chonkie's actual innovation was packaging, not algorithms
 
 ## References
 
-- https://github.com/feyninc/chonkie - repository: 4,790 stars (as of 2026-10-13), MIT, created 2025-03-29, pushed 2026-11-18 (GitHub API, as of 2026-11-19)
+- https://github.com/feyninc/chonkie - repository: 4,790 stars (as of 2026-10-13), MIT, created 2025-03-29, pushed 2026-11-19 (GitHub API, as of 2026-11-21)
 - https://raw.githubusercontent.com/feyninc/chonkie/main/README.md - chunker table (11 chunkers), 505KB core, self-hosted API server, stale Cloud link (re-verified unchanged 2026-11-12)
 - https://pypi.org/pypi/chonkie/json - version 1.7.0 (2026-07-07), 62 releases, Python >=3.10, MIT (re-verified unchanged 2026-11-14)
-- https://pypistats.org/api/packages/chonkie/recent - 1,479,752 downloads last month as of 2026-11-19; the 2026-11-17 reading of 1,430,371 and the 2026-11-14 reading of 1,500,669 bracket the end of the frozen 1,255,276 window served unchanged 2026-10-06 through 2026-11-12
+- https://pypistats.org/api/packages/chonkie/recent - 1,429,687 downloads last month as of 2026-11-21, against the 1,479,752 reading of 2026-11-19; the 2026-11-17 reading of 1,430,371 and the 2026-11-14 reading of 1,500,669 bracket the end of the frozen 1,255,276 window served unchanged 2026-10-06 through 2026-11-12
 - https://docs.chonkie.ai - official docs, Python and JavaScript support, agent skills distribution (re-verified 2026-11-12; serves a 308 to /common/welcome, final 200)
 - https://news.ycombinator.com/item?id=44225930 - Launch HN, 151 points, 2025-06-09: founders, 15MB versus 80-170MB, 33x token chunking claims (vendor tests); the title's batch label has read both X25 (Algolia crawl) and P25 (live page)
 - https://news.ycombinator.com/item?id=42100819 - original Show HN, 199 points, 2024-11-10, under the now-deleted bhavnicksm/chonkie

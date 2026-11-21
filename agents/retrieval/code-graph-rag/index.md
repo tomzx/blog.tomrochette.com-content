@@ -1,7 +1,7 @@
 ---
 title: Code-Graph-RAG
 created: 2026-10-07
-updated: 2026-11-19
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, knowledge-graph, rag]
 readability: 3
@@ -27,7 +27,7 @@ Made by an independent developer, with an enterprise support and services badge 
 ## Status
 
 **Actively shipping and early: 5.2k stars in sixteen months with almost no independent discussion.**
-5,252 stars and 702 forks as of 2026-10-14, pushed 2026-11-19 at the repository level with the default branch's latest commit a prompt-audit PR merge (dated 2026-11-19), with 370 open issues (GitHub API, as of 2026-11-19).
+5,252 stars and 702 forks as of 2026-10-14, pushed 2026-11-21 at the repository level with the default branch's latest commit a C++ lambda-creation-reference PR merge (dated 2026-11-21), with 304 open issues (GitHub API, as of 2026-11-21).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vitali87/code-graph-rag&type=date&theme=dark&legend=top-left" />
@@ -90,6 +90,7 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 - 2026-11-16 - Recorded the PyPI train publishing 0.6.62 (2026-11-15, 41 releases; the 32-version jump rendered the four grown NEWS entries together with five new headlines, catching the installable release up to the main branch's bump train on release day) and refreshed the repository activity (pushed 2026-11-16 at the repository level with the default branch's latest commit the 0.6.62 bump, 440 open issues).
 - 2026-11-17 - Refreshed the repository activity (pushed 2026-11-17 with the main branch's version bump train running on to 0.6.81, 424 open issues); PyPI 0.6.62 remains latest across 41 releases.
 - 2026-11-19 - Recorded the PyPI train opening the 0.7 line at 0.7.1 (2026-11-17, 42 releases total, no 0.7.0 published) and refreshed the repository activity (pushed 2026-11-19 with the default branch's latest commit a prompt-audit PR merge, 370 open issues).
+- 2026-11-21 - Refreshed the repository activity (pushed 2026-11-21 with the default branch's latest commit a C++ lambda-creation-reference PR merge, 304 open issues); PyPI 0.7.1 remains latest across 42 releases.
 
 ## See also
 
@@ -100,7 +101,7 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 
 ## References
 
-- https://api.github.com/repos/vitali87/code-graph-rag - 5,252 stars (as of 2026-10-14), 702 forks, MIT, created 2025-06-16, pushed 2026-11-19, 370 open issues (GitHub API, as of 2026-11-19)
+- https://api.github.com/repos/vitali87/code-graph-rag - 5,252 stars (as of 2026-10-14), 702 forks, MIT, created 2025-06-16, pushed 2026-11-21, 304 open issues (GitHub API, as of 2026-11-21)
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/README.md - the two-component architecture, compiler frontends, runtime tracing, language support, the embedded SQLite default with Memgraph and Neo4j opt-in, the release-cadence table, and the enterprise services section (re-fetched 2026-11-15)
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/NEWS.md - the feature-news ledger behind the active-maintenance claim; the four grown entries rendered into the 0.6.62 publish together with five new headlines (CommonJS renamed-property import resolution, class-field-type-retaining incremental syncs, receiver-scoped Python property reads, rejected cross-language internal import targets, and constructor attribute-field initializer handling), re-fetched 2026-11-16
 - https://pypi.org/pypi/code-graph-rag/json - version 0.7.1 (2026-11-17), 42 releases (re-fetched 2026-11-19, latest; the 0.6 line ended at 0.6.62 (2026-11-15) with no 0.7.0 published, and the 0.5 line never published past 0.5.0 of 2026-11-03)

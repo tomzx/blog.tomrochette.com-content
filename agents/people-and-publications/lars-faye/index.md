@@ -1,7 +1,7 @@
 ---
 title: Lars Faye
 created: 2026-10-07
-updated: 2026-10-28
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, skill-formation, debugging, skepticism]
 readability: 3
@@ -80,6 +80,7 @@ Not for tool selection, release tracking, or anyone looking for the case for age
 - 2026-10-07 - Created after this run's new-voice scan surfaced him through the Hacker News record; he fills the category's skill-formation skeptic slot.
 - 2026-10-28 - Rotation re-verification: every cited URL re-fetched and live, the RSS feed still shows the same four 2026 essays with nothing after July 22, and the course page still lists $199 with the $100 early-bird before a Q4 2026 enrollment; no claim moved.
 - 2026-11-01 - Rotation re-verification, every cited URL re-fetched and live: the feed still ends at the July 22 essay with nothing since, and the course page still lists $199 with the $100 early-bird; no claim moved.
+- 2026-11-21 - Rotation re-verification, every cited URL re-fetched and live: the feed still ends at the July 22 essay with nothing since (four 2026 essays), and the course page still lists $199 with the $100 early-bird waitlist; no claim moved.
 
 ## See also
 

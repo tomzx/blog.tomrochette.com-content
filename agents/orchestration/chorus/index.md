@@ -1,7 +1,7 @@
 ---
 title: Chorus
 created: 2026-11-01
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, kanban, human-in-the-loop]
 readability: 3
@@ -69,6 +69,7 @@ Not for solo terminal speed runs, and not for teams needing inline diff review, 
 - 2026-11-04 - Status refresh: the default-branch record corrected (latest commit 2026-10-22, the 2026-11-01 and 2026-11-04 repository pushes side-branch only) per the pushed-at divergence rule.
 - 2026-11-06 - Volatile refresh: Recorded v0.24.0 (2026-11-05) as the new latest release, the default branch catching up with it.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched live; recorded v0.24.1 (2026-11-14, default-on run sync from `chorus agents run`) as the new latest release, the npm CLI count refreshed to 55 versions and October downloads to 5,591.
+- 2026-11-21 - Rotation re-verification (every cited URL re-fetched live: site, docs, the v0.23.0 release post, the AWS AI-DLC post, README, npm registry and October downloads, the HN search, and the repo API through the authenticated client); claims hold, v0.24.1 still the latest release and npm latest at 0.24.1.
 
 ## See also
 

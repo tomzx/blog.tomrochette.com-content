@@ -32,7 +32,7 @@ Editors and harnesses live in their own categories; this is where the token bill
 - [OpenCode Zen](opencode-zen/index.md) - the OpenCode team's curated pay-per-use gateway over benchmarked endpoints, renamed OpenCode Console on the docs in late October 2026.
 - [OpenRouter](openrouter/index.md) - the largest model gateway, passthrough tokens plus a 5.5% credit fee, now joining Stripe.
 - [Plano](plano/index.md) - the Envoy-based self-hosted LLM gateway and agent data plane behind the Arch-Router routers, acquired by DigitalOcean in April 2026.
-- [Qwen Coding Plan](qwen-coding-plan/index.md) - Alibaba Cloud's flat quota for the Qwen line plus bundled rivals, now labeled legacy in the docs while the Token Plan (Lite $3, Essential $5) sells the credits.
+- [Qwen Coding Plan](qwen-coding-plan/index.md) - Alibaba Cloud's flat quota for the Qwen line plus bundled rivals, now labeled legacy in the docs while the Token Plan (Lite $6, Essential $10) sells the credits.
 - [Requesty](requesty/index.md) - EU-residency gateway charging a flat 5% markup on upstream spend.
 - [SuperGrok](supergrok/index.md) - xAI's subscription ladder, rebuilt in mid-October 2026 from the $30-to-$300 SuperGrok tiers into Plus $8 to Ultra $200 with X Premium and Cursor bundled and one shared weekly pool that API usage left on 2026-10-29.
 - [Synthetic](synthetic/index.md) - open-weight coding-model subscriptions (Go $9, Standard $30, Big $90) on weekly-regenerating credit quotas, aimed at agent users.

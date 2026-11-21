@@ -1,7 +1,7 @@
 ---
 title: Model Context Protocol (MCP)
 created: 2026-08-24
-updated: 2026-11-19
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, agent-tools]
 readability: 3
@@ -20,7 +20,7 @@ MCP is an open protocol that standardizes how AI applications connect to externa
 The protocol defines JSON-RPC messages between hosts (LLM applications), clients (connectors inside the host), and servers that expose tools, resources, and prompts, with per-request capability negotiation.
 It openly borrows its playbook from the Language Server Protocol, which solved the same N-times-M integration problem for editors and languages.
 Anthropic created it (David Soria Parra and Justin Spahr-Summers), open-sourced it on 2024-11-25, and donated it to the Linux Foundation's Agentic AI Foundation (AAIF) on 2025-12-09.
-**The spec and schema are MIT-licensed, and the current specification revision is 2026-07-28, grown through opt-in extensions (Tasks, Skills over MCP, MCP Apps).**
+**The spec and schema are MIT-licensed, and the current specification revision is 2026-07-28, grown through opt-in extensions (Tasks, Skills over MCP, MCP Apps, and Events, the SEP-3415 subscription-and-delivery extension registered in the docs on 2026-11-20 with its spec final and the extension in beta).**
 
 ## Status
 
@@ -84,6 +84,7 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 - 2026-11-15 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries one CI commit since the last pass (build and validate website content, #3509, 2026-11-14), with the 2026-11-15 pushed_at moved by a side-branch push.
 - 2026-11-17 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and blog work since the last pass (deprecated features no longer presented as current on the spec overview pages, an accuracy pass over the 2026-07-28 and draft content, blog quote blocks for named people, per-post share cards, and a header search dialog).
 - 2026-11-19 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and dependency work since the last pass (MCP Inspector load-testing and Active Sessions docs #3503, an extensions-overview alignment with SEP-3392 #3565, an accuracy pass fixing links and typos across the 2026-07-28 and draft docs #3556, and blog quote blocks #3563); the aaif.io press reference moved to the news address the old press URL now redirects to.
+- 2026-11-21 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch merged the Events extension, SEP-3415 (spec proposal 2026-11-19, docs registration 2026-11-20, a tasks-and-events working-group page following on 2026-11-21): clients subscribe to upstream events by name with arguments and resume from opaque cursors, delivered by poll, long-lived push, or signed webhook, with the full specification in the separate modelcontextprotocol/ext-events repository and the extension in beta; the What-it-is extension list moved with the registration.
 
 ## See also
 
@@ -103,3 +104,4 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 - https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks - the tool poisoning and rug pull critique
 - https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/v2.4.0 - the TypeScript SDK's 2.x package line (client, server, core at 2.4.0) and the migration codemod (fetched 2026-11-08)
 - https://registry.npmjs.org/@modelcontextprotocol/core - the 2.x core package on npm, latest 2.4.0 published 2026-10-23 (fetched 2026-11-08)
+- https://raw.githubusercontent.com/modelcontextprotocol/modelcontextprotocol/main/docs/extensions/events/overview.mdx - the Events extension's docs page: SEP-3415 final and the extension in beta, the three delivery modes (poll, push, signed webhook), cursor resumption, the ext-events specification repository, and the 2026-07-28-or-later revision requirement (fetched 2026-11-21)

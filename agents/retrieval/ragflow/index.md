@@ -1,7 +1,7 @@
 ---
 title: RAGFlow
 created: 2026-10-06
-updated: 2026-11-19
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, document-parsing, agents]
 readability: 3
@@ -23,7 +23,7 @@ Made by InfiniFlow, with v1.0.0-rc1 (2026-09-29) rewriting the service layer in 
 
 ## Status
 
-Very active and very large: 92,158 stars and 10,979 forks as of 2026-10-13, pushed 2026-11-19 with 1,281 open issues (GitHub API, as of 2026-11-19), with 4.1M Docker pulls (ragflow-stats badge, re-verified 2026-11-17).
+Very active and very large: 92,158 stars and 10,979 forks as of 2026-10-13, pushed 2026-11-20 with 1,297 open issues (GitHub API, as of 2026-11-21), with 4.1M Docker pulls (ragflow-stats badge, re-verified 2026-11-17).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=infiniflow/ragflow&type=date&theme=dark&legend=top-left" />
@@ -92,6 +92,7 @@ My disagreeable claim: what RAGFlow actually sells is trust, and the star count 
 - 2026-11-13 - Refreshed the repository activity (pushed 2026-11-13, 1,285 open issues), re-verified the repository description word-for-word and v1.0.0 still latest, and re-checked the advisory record unchanged at eight.
 - 2026-11-17 - Rotation re-verification re-fetched every cited URL live (the README and release notes claims unchanged word-for-word, including the Go rewrite, the NATS and Kvrocks services, and the irreversible v0.27.2 upgrade warning; the repository description's agent-native-database repositioning re-confirmed; cloud tiers unchanged at Free $0, Starter $29 from $59, Pro $129 from $259; the ZeroPath article live with the global-database advisory still 404; the repository's advisory record re-checked unchanged at eight with the same three 2026 criticals unpatched; the launch thread still at 230 points with the comment-footprint endpoint still showing a single 2026 comment in its newest hundred; cloud.ragflow.io and the docs root serving 200) and refreshed the repository activity (pushed 2026-11-17, 1,311 open issues) and the Docker-pulls figure from 3.9M to 4.1M.
 - 2026-11-19 - Refreshed the repository activity (pushed 2026-11-19, 1,281 open issues); v1.0.0 re-confirmed still latest and the advisory record untouched since the 2026-11-17 rotation.
+- 2026-11-21 - Refreshed the repository activity (pushed 2026-11-20, 1,297 open issues); v1.0.0 re-confirmed still latest and the repository description's agent-native-database wording unchanged.
 
 ## See also
 
@@ -102,7 +103,7 @@ My disagreeable claim: what RAGFlow actually sells is trust, and the star count 
 
 ## References
 
-- https://api.github.com/repos/infiniflow/ragflow - 92,158 stars and 10,979 forks (as of 2026-10-13), Apache-2.0, Go, created 2023-12-12, pushed 2026-11-19, 1,281 open issues, description repositioned to "an agent-native database" (GitHub API, as of 2026-11-19)
+- https://api.github.com/repos/infiniflow/ragflow - 92,158 stars and 10,979 forks (as of 2026-10-13), Apache-2.0, Go, created 2023-12-12, pushed 2026-11-20, 1,297 open issues, description repositioned to "an agent-native database" (GitHub API, as of 2026-11-21)
 - https://raw.githubusercontent.com/infiniflow/ragflow/main/README.md - DeepDoc, template-based chunking, knowledge compilation, agentic retrieval modes, Go-native architecture, deployment requirements (re-verified unchanged 2026-11-17)
 - https://raw.githubusercontent.com/infiniflow/ragflow/main/docs/release_notes.md - the v1.0.0-rc1 Go rewrite, NATS and Kvrocks migration, irreversible v0.27.2 upgrade, known issues (re-verified unchanged 2026-11-17)
 - https://api.github.com/repos/infiniflow/ragflow/releases/latest - v1.0.0 published 2026-11-06, the general-availability cut of the Go rewrite (fetched 2026-11-07, still latest on re-fetches 2026-11-12 and 2026-11-17; rc3 of 2026-10-30 was the third and final release candidate, bringing the evidence-sufficiency decision model, the Categorize component, the Agentic chat mode from rc2, and rc1 data compatibility)

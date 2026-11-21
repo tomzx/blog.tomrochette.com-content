@@ -1,7 +1,7 @@
 ---
 title: T3 Code
 created: 2026-10-07
-updated: 2026-11-17
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, mobile-client, control-surface]
 readability: 3
@@ -23,7 +23,7 @@ Install is a curl script or brew cask, with nightly releases (v0.0.46-nightly li
 
 ## Status
 
-Active and shipping daily: created 2026-02-08, 27,671 stars in eight months, nightly releases with v0.1.10 (2026-11-17, reply-to-response threading and custom theme colors among 1,924 changes from 360 contributors) the newest stable, after v0.1.9 (2026-11-11), v0.1.8 (2026-11-09) and v0.1.7 (2026-11-04, subagent transcript updates kept off the shell stream, pinned patched package versions, and a documented GitCafe mirror), then v0.1.2 (2026-10-22) and v0.1.1 (2026-10-21), with v0.1.0 (2026-10-15) having opened Orchestrator V2's stable line, and the nightlies moved onto a v0.1.11-preview line by 2026-11-17 (issue tracking across GitHub, GitLab, Azure DevOps, Forgejo, and Linear among its changes), pushed 2026-11-17, as of 2026-11-17 (GitHub API).
+Active and shipping daily: created 2026-02-08, 27,671 stars in eight months, nightly releases with v0.1.10 (2026-11-17, reply-to-response threading and custom theme colors among 1,924 changes from 360 contributors) the newest stable, after v0.1.9 (2026-11-11), v0.1.8 (2026-11-09) and v0.1.7 (2026-11-04, subagent transcript updates kept off the shell stream, pinned patched package versions, and a documented GitCafe mirror), then v0.1.2 (2026-10-22) and v0.1.1 (2026-10-21), with v0.1.0 (2026-10-15) having opened Orchestrator V2's stable line, and the nightlies moved onto a v0.1.11-preview line by 2026-11-17 (issue tracking across GitHub, GitLab, Azure DevOps, Forgejo, and Linear among its changes) and onto `v0.1.12-nightly` tags by 2026-11-21, pushed 2026-11-17, as of 2026-11-21 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=pingdotgg/t3code&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for teams needing audited remote access today, and not for anyone who wants 
 - 2026-11-04 - Recorded v0.1.7 (2026-11-04) as the newest stable on the nightly line, the push date refreshed to 2026-11-04.
 - 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); no factual drift, the push date already refreshed to 2026-11-13 in the volatile pass.
 - 2026-11-17 - Recorded v0.1.10 (2026-11-17, response replies and theme customization) as the newest stable, the nightlies moved onto the v0.1.11-preview line, the push date refreshed to 2026-11-17.
+- 2026-11-21 - Volatile refresh: the nightly train's tags moved onto `v0.1.12-nightly`, v0.1.10 still the newest stable.
 
 ## See also
 
