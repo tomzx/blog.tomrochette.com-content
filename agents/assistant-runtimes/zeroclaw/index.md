@@ -1,7 +1,7 @@
 ---
 title: ZeroClaw
 created: 2026-08-27
-updated: 2026-11-20
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, rust, open-source]
 readability: 3
@@ -23,7 +23,7 @@ An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android),
 ## Status
 
 Active and large, but quietly so.
-32,977 stars and 4,976 forks as of 2026-10-14 since creation on 2026-02-13, pushed 2026-11-20 with 1,340 open issues as of 2026-11-20, Apache-2.0/MIT dual licensed.
+32,977 stars and 4,976 forks as of 2026-10-14 since creation on 2026-02-13, pushed 2026-11-21 with 1,350 open issues as of 2026-11-21, Apache-2.0/MIT dual licensed.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ v0.9.0 landed 2026-11-12 (117 commits, 22 contributors), the first release where
 
 - Thin independent coverage: almost no third-party writing or discussion to check claims against.
 - Hardware tools are a foot-gun by design; the trust question moves from the codebase to the tool grant.
-- 1,340 open issues against a labs team you cannot size from outside.
+- 1,350 open issues against a labs team you cannot size from outside.
 - The security suite ecosystem (clawsec) names OpenClaw, PicoClaw, and NanoClaw but not ZeroClaw, so the audit tooling has not caught up.
 
 ## Pricing
@@ -79,6 +79,7 @@ The disagreeable claim I will defend: an assistant you cannot read is safer as a
 - 2026-11-03 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, the docs book, the archived Android port, the HN thread), v0.8.7 (2026-10-27) confirmed still the latest release, the ownership motto, the provider, channel, and tool counts, and the four-opinion philosophy intact, and the Android port confirmed still archived, with refreshed adoption numbers.
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, the docs book, the archived Android port, the HN thread), v0.8.7 (2026-10-27) confirmed still the latest release, the ownership motto and the provider, channel, and tool counts intact, the Android port confirmed still archived at 307 stars, and the Cautions open-issue figure corrected from a stale 1,060 to the current count, with refreshed adoption numbers.
 - 2026-11-13 - Recorded v0.9.0 (2026-11-12, 117 commits from 22 contributors, the first release with non-operator sign-in: OIDC dashboard accounts, permission-scoped non-admin chat, a ZeroRelay-served dashboard, a CLI-only server build, and config schema version 4 with breaking changes), with refreshed adoption numbers.
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, the docs book, the archived Android port at 306 stars, the HN thread via Algolia), v0.9.0 (2026-11-12) confirmed still the latest release, the ownership motto and the provider, channel, and tool counts intact, the README's config schema still version 4, and the Android port confirmed still archived, with refreshed adoption numbers.
 
 ## See also
 

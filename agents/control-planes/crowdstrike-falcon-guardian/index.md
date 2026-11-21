@@ -1,7 +1,7 @@
 ---
 title: CrowdStrike Falcon Guardian
 created: 2026-10-04
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, governance, security]
 readability: 3
@@ -24,6 +24,7 @@ There is no public repo, no version number, and no public price; distribution is
 ## Status
 
 New and vendor-controlled: announced at Fal.Con 2026 (September 2026), expanded at Fal.Con Europe 2026-11-03 with the AI gateway, agent-level hooks, and the kill switch live per the vendor's announcement blog.
+The vendor kept building the layer after Europe: a dedicated Falcon AI Gateway explainer (2026-11-13) and an announced Fiddler acquisition (2026-11-03) meant to deliver Falcon Observe for AI agent observability, both vendor-supplied.
 The 99 percent prompt-attack efficacy and sub-100-millisecond latency claims that carried the launch page no longer appear on it as of 2026-11-07 (the page was reworked around the Europe announcements); no independent test of any efficacy figure has appeared.
 The product page now carries named customers (Cogentrix, TaxSlayer), and detection is attributed to SafeMind models built with NVIDIA, all vendor-supplied.
 Community response started skeptical: the r/crowdstrike thread asks what happens to agents that do not run on managed endpoints and reads the product as sensor-bound, which is the objection this category's endpoint-anchored entrants always face.
@@ -39,6 +40,7 @@ Community response started skeptical: the r/crowdstrike thread asks what happens
 
 - The anchor is the endpoint: agents running in containers, CI, cloud shells, or unmanaged machines are outside the sensor's sight, which is exactly where much agentic coding work happens.
   The agent-level hooks answer part of this for five coding agents, and the cloud coverage that answers the rest is pre-beta.
+  The vendor's own gateway explainer draws the same line from the gateway side: it acts on traffic routed through it and cannot stop local processes.
 - Every performance figure is self-reported, and the product is three months old, so nothing has an independent record yet.
 - Closed and quote-priced: no repo, no version, no public per-agent price, and procurement goes through the Falcon platform relationship.
 - The AI gateway is now generally available and included with Guardian per the vendor's blog, but every capability description still comes from the vendor, so verify its scope in a pilot.
@@ -67,6 +69,7 @@ Not for teams whose agents run outside managed endpoints, and not for anyone who
 - 2026-10-30 - Rotation re-verification: every reference re-fetched with the same result set, the product page still carrying the internal-benchmark claims with the AI gateway still marked coming soon (the FAQ now naming 200-plus prompt-injection techniques), the launch blog and AIDR solution page unchanged, the docs path still a client-rendered shell, and the Reddit thread still 403 to scripted fetch; no drift found.
 - 2026-11-07 - Full rotation re-verification with drift: the product page and solution page were reworked for the Fal.Con Europe 2026-11-03 announcements, the 99 percent and sub-100-millisecond claims no longer appear on either page, the Falcon AI Gateway is now generally available and included with Guardian, agent-level hooks are available for Claude Code, OpenAI Codex, GitHub Copilot, OpenCode, and Cursor, an AI kill switch shipped at gateway enforcement, cloud coverage and the Claude Cowork integration are pre-beta, and named customers and the SafeMind-with-NVIDIA attribution were added; the launch blog (September 1) unchanged, the docs path still a client-rendered shell, the Reddit thread still 403 to scripted fetch, and the Fal.Con Europe advances blog added as a reference.
 - 2026-11-14 - Full rotation re-verification: every reference re-fetched and live, no drift (the product page still carrying the gateway GA, the five-agent hooks, the live kill switch with per-agent-type gateway enforcement as coming soon, Agent Graph, the SafeMind attribution, and the Cogentrix and TaxSlayer customer stories; the launch blog and the Fal.Con Europe advances blog unchanged; the docs path still a client-rendered shell; the Reddit thread still 403 to scripted fetch).
+- 2026-11-21 - Full rotation re-verification: every reference re-fetched and live with the recorded claims re-grounded (the Reddit thread still 403 to scripted fetch, the docs path still a client-rendered shell), and two vendor posts surfaced in the re-fetch and added as references: the Fiddler acquisition announcement (2026-11-03, Falcon Observe for AI agent observability) and the Falcon AI Gateway explainer (2026-11-13), whose statement that the gateway acts only on routed traffic and cannot stop local processes is now a caution.
 
 ## See also
 
@@ -83,3 +86,5 @@ Not for teams whose agents run outside managed endpoints, and not for anyone who
 - https://docs.crowdstrike.com/help/falcon-guardian - official documentation path (200, client-rendered application shell; content not extractable by script this run).
 - https://www.reddit.com/r/crowdstrike/comments/1w5ovkv/crowdstrike_falcon_guardian_secure_ai_agents/ - the skeptical community thread on endpoint-bounded coverage (403 to scripted fetch; content read via search this run).
 - https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/ - the Fal.Con Europe 2026-11-03 announcement grounding the gateway GA, the agent hooks, the AI kill switch, the pre-beta cloud coverage, and the SafeMind attribution.
+- https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/ - the 2026-11-13 gateway explainer grounding the GA and inclusion-with-Guardian claim and stating the gateway acts only on routed traffic, not local processes.
+- https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/ - the 2026-11-03 Fiddler acquisition announcement grounding the Falcon Observe AI-agent-observability direction.

@@ -1,7 +1,7 @@
 ---
 title: Semble
 created: 2026-08-30
-updated: 2026-11-16
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-search, context-engines, local-first, developer-tools]
 readability: 3
@@ -26,7 +26,7 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
 ## Status
 
 **Young, active, and unusually well received for a search tool.**
-6,212 stars and 291 forks since the repo appeared on 2026-04-06, with the last push 2026-11-08 and v0.7.3 released 2026-11-08 (a fallback to in-process chunking when the worker pool fails), following v0.7.2 on 2026-11-03 (a patch making the generated skill description valid YAML), v0.7.1 on 2026-10-29 (the `semble` skill option shipping in a release, an opt-in HTTP transport joining stdio on the MCP server, and a clearer Hub model-download error) and v0.7.0 on 2026-10-16 (GitHub API, stars as of 2026-10-17, forks as of 2026-11-16).
+6,212 stars as of 2026-10-17 and 295 forks as of 2026-11-21 since the repo appeared on 2026-04-06, with the last push 2026-11-08 and v0.7.3 released 2026-11-08 (a fallback to in-process chunking when the worker pool fails), following v0.7.2 on 2026-11-03 (a patch making the generated skill description valid YAML), v0.7.1 on 2026-10-29 (the `semble` skill option shipping in a release, an opt-in HTTP transport joining stdio on the MCP server, and a clearer Hub model-download error) and v0.7.0 on 2026-10-16 (GitHub API, stars as of 2026-10-17, forks as of 2026-11-21).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MinishLab/semble&type=date&theme=dark&legend=top-left" />
@@ -34,7 +34,7 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MinishLab/semble&type=date&legend=top-left" />
 </picture>
 
-105,728 PyPI downloads in the trailing month (PyPIstats, re-fetched 2026-11-16; the figure had held at 97,003 from 2026-11-05 through 2026-11-11 before arriving as a jump, the endpoint's freeze-then-jump pattern).
+113,859 PyPI downloads in the trailing month (PyPIstats, re-fetched 2026-11-21; the prior reading was 105,728 on 2026-11-16, which had itself arrived as a jump from 97,003 held from 2026-11-05 through 2026-11-11, the endpoint's freeze-then-jump pattern).
 The launch Show HN (May 17, 2026) drew 445 points and 151 comments, on top of two quiet warm-up threads in April; a third-party VS Code extension appeared in August, which is the usual early-ecosystem signal.
 
 ## Strengths
@@ -83,6 +83,7 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 - 2026-11-05 - Recorded release v0.7.2 (2026-11-03: the generated skill description fixed to be valid YAML) and refreshed the GitHub numbers (286 forks, pushed 2026-11-03); the PyPI trailing-month figure held at 97,003 and the no-paid-plan claim is unchanged.
 - 2026-11-11 - Full rotation re-verification: every cited URL re-fetched and intact (the README's four installer surfaces and benchmark framing, the v0.7.1 and v0.7.2 release notes, the 445-point launch thread, the PyPI package page, the PyPIstats trailing-month figure held at 97,003, the Hugging Face model page, and the benchmarks README with its NDCG@10 methodology); recorded release v0.7.3 (2026-11-08: a fallback to in-process chunking when the worker pool fails) and refreshed the GitHub numbers (289 forks, pushed 2026-11-08); the no-paid-plan claim is unchanged.
 - 2026-11-16 - Full rotation re-verification: every cited URL re-fetched and intact (the repository and README, the v0.7.1 through v0.7.3 release tags, the 445-point launch thread, the PyPI package page, PyPIstats, the Hugging Face model page, and the benchmarks README with its NDCG@10 methodology); no release since v0.7.3 and no push since 2026-11-08; refreshed the trailing-month PyPI figure (105,728, was 97,003 held from 2026-11-05 through 2026-11-11 before arriving as a jump) and the fork count (291); the no-paid-plan claim is unchanged.
+- 2026-11-21 - Full rotation re-verification: every cited URL re-fetched and intact (the repository and README, the v0.7.1 through v0.7.3 release tags, the 445-point launch thread, the PyPI package page, PyPIstats, the Hugging Face model page, and the benchmarks README with its NDCG@10 methodology); no release since v0.7.3 and no push since 2026-11-08; refreshed the trailing-month PyPI figure (113,859) and the fork count (295); the no-paid-plan claim is unchanged.
 
 ## See also
 
@@ -99,6 +100,6 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 - https://api.github.com/repos/MinishLab/semble/releases/tags/v0.7.1 - the v0.7.1 release notes: the skill option, the opt-in MCP HTTP transport, and the Hub-download error fix (fetched 2026-10-30)
 - https://news.ycombinator.com/item?id=48169874 - the 445-point launch thread, including the founders' no-agent-level-claim statement and the baseline criticisms (verified via the Algolia items API)
 - https://pypi.org/project/semble/ - the package surface, version 0.6.2 (fetched 2026-10-06)
-- https://pypistats.org/api/packages/semble/recent - 105,728 downloads in the trailing month as of 2026-11-16 (97,003 held from 2026-11-05 through 2026-11-11 before arriving as a jump)
+- https://pypistats.org/api/packages/semble/recent - 113,859 downloads in the trailing month as of 2026-11-21 (105,728 on 2026-11-16, 97,003 held from 2026-11-05 through 2026-11-11 before that)
 - https://huggingface.co/minishlab/potion-code-16M-v2 - the embedding model the index runs on
 - https://github.com/MinishLab/semble/blob/main/benchmarks/README.md - benchmark methodology, NDCG@10, and the token-efficiency setup

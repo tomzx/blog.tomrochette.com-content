@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-11-20
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 83,540 stars as of 2026-10-18, 5,611 forks and 1,692 open issues and pull requests combined as of 2026-11-20, created 2026-01-22, pushed 2026-11-20.
+Young and hot: 83,540 stars as of 2026-10-18, 5,610 forks and 1,689 open issues and pull requests combined as of 2026-11-21, created 2026-01-22, pushed 2026-11-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Young and hot: 83,540 stars as of 2026-10-18, 5,611 forks and 1,692 open issues 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&legend=top-left" />
 </picture>
 
-v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02; v0.52.0 went stable on 2026-10-13 and **v1.0.0 shipped the same day**, with v1.0.1 on 2026-10-14, **v1.1.0 going stable on 2026-10-25** (opt-in fish-script hook wrapping, Angular build-table compaction, and a large correctness fix batch), and **v1.2.0 going stable on 2026-11-08** (directory-folded `git ls-tree` listings plus a large correctness batch across hooks, gain accounting, and the language runners), so the project is no longer pre-1.0; **v1.2.1 went stable on 2026-11-19**, hours after the previous day's verification fetch, with a large filter-correctness and proxy-stability batch (cargo toolchain and global-prefix filtering with narrowed prefix routing and exclusions, the repository's Copilot hook running without rtk installed, OpenCode binary resolution for GUI launches and PATH before RTK_BIN, bounded upstream requests with a Windows dead-proxy relaunch, the hook integrity check and compound user hook entries preserved, hex sha2 digests, versioned db schema migrations, and dotnet distinct test-project counting), and the candidate trains now read dev-1.3.0 (rc.646 through rc.648 on 2026-11-19) and dev-1.2.2 (rc.654 through rc.656, 2026-11-19 to 11-20), carrying the find exit-status baseline and combined-filters TOML fixes on top of the earlier golangci tokenizer-reuse, schema-enum, proxy-rule savings, and hook-ownership fixes.
+v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02; v0.52.0 went stable on 2026-10-13 and **v1.0.0 shipped the same day**, with v1.0.1 on 2026-10-14, **v1.1.0 going stable on 2026-10-25** (opt-in fish-script hook wrapping, Angular build-table compaction, and a large correctness fix batch), and **v1.2.0 going stable on 2026-11-08** (directory-folded `git ls-tree` listings plus a large correctness batch across hooks, gain accounting, and the language runners), so the project is no longer pre-1.0; **v1.2.1 went stable on 2026-11-19**, hours after the previous day's verification fetch, with a large filter-correctness and proxy-stability batch (cargo toolchain and global-prefix filtering with narrowed prefix routing and exclusions, the repository's Copilot hook running without rtk installed, OpenCode binary resolution for GUI launches and PATH before RTK_BIN, bounded upstream requests with a Windows dead-proxy relaunch, the hook integrity check and compound user hook entries preserved, hex sha2 digests, versioned db schema migrations, and dotnet distinct test-project counting), and the candidate trains now read dev-1.3.0 (rc.646 through rc.648 on 2026-11-19) and dev-1.2.2 (rc.657 through rc.662, 2026-11-20 to 11-21), carrying the find exit-status baseline and combined-filters TOML fixes plus the newer telemetry-marker ordering fix and the Windows git-help browser fix on top of the earlier golangci tokenizer-reuse, schema-enum, proxy-rule savings, and hook-ownership fixes.
 The site claims 18,000+ developers, a marketing figure, and the Show HN thread shows users posting their own measured savings.
 
 ## Strengths
@@ -90,6 +90,7 @@ Not for sessions driven by built-in Read/Grep tools, or anyone whose agents cann
 - 2026-11-15 - Refreshed the volatile numbers (5,552 forks, 1,707 open issues and pull requests, pushed 2026-11-14); stable remains v1.2.0 with the dev-1.2.1 candidate train at rc.637.
 - 2026-11-19 - Recorded the candidate train graduating to dev-1.3.0 (rc.641 through rc.645, 2026-11-17 to 11-18) carrying the new fix batch (golangci discover tokenizer reuse, schema-version enum, proxy-rule savings, hook-command ownership); stable remains v1.2.0; forks and open issues and pull requests refreshed (5,597 and 1,687).
 - 2026-11-20 - Recorded v1.2.1 going stable (2026-11-19 17:49 UTC, after the 2026-11-19 run's fetch had recorded stable as v1.2.0: the cargo toolchain/global-prefix batch, the Copilot hook running without rtk installed, OpenCode binary resolution, bounded upstream requests with the Windows dead-proxy relaunch, hook integrity and compound-entry fixes, hex sha2 digests, versioned db migrations, dotnet test-project counting), the candidate trains splitting to dev-1.3.0 (rc.646 through rc.648) and dev-1.2.2 (rc.654 through rc.656), and refreshed the volatile numbers (5,611 forks, 1,692 open issues and pull requests, pushed 2026-11-20); stable moves from v1.2.0 to v1.2.1.
+- 2026-11-21 - Recorded the dev-1.2.2 candidate train advancing to rc.657 through rc.662 (2026-11-20 to 11-21) carrying the post-v1.2.1 fixes (the telemetry marker written before the claimed ping, #4706, and the Windows git-help browser fuzz fix, #4784); stable remains v1.2.1; forks and open issues and pull requests refreshed (5,610 and 1,689).
 
 ## See also
 

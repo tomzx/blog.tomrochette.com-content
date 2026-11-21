@@ -1,7 +1,7 @@
 ---
 title: Gito
 created: 2026-10-24
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -25,7 +25,7 @@ It is Python (3.11+) from Nayjest, a solo maintainer, MIT licensed, and built on
 ## Status
 
 **Active but quiet: shipping steadily since April 2025, with a community footprint close to zero.**
-The repo (Nayjest/Gito) shows 452 stars, 42 forks, and 61 open issues and pull requests as of 2026-10-24, pushed October 1, 2026.
+The repo (Nayjest/Gito) shows 452 stars as of 2026-10-24, the chart above being the live signal, with 46 forks and 61 open issues and pull requests as of 2026-11-21, pushed October 1, 2026.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nayjest/Gito&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ My disagreeable take: a stateless reviewer with no server and no telemetry is th
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched live; the release state unchanged (v4.5.0 still latest, 40 PyPI releases, pushed October 1) and the Show HN thread unchanged; no factual drift.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live; the release state unchanged (v4.5.0 still latest, 40 PyPI releases, still pushed October 1, 61 open issues and pull requests), the README and setup guide unchanged, and the Show HN thread unchanged; no factual drift.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched live; the release state unchanged (v4.5.0 still latest, 40 PyPI releases, still pushed October 1), the README and setup guide unchanged, the homepage live and unchanged in substance, the demo pull request still closed, and the Show HN thread still 2 points with zero comments; no factual drift.
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched live; the release state unchanged (v4.5.0 still latest, 40 PyPI releases, still pushed October 1), the README and setup guide unchanged, the homepage live, the demo pull request still closed, the Show HN thread still 2 points with zero comments, and the fork count moved from 42 to 46 with open issues and pull requests steady at 61; the fork refresh recorded in Status.
 
 ## See also
 
@@ -84,11 +85,11 @@ My disagreeable take: a stateless reviewer with no server and no telemetry is th
 
 ## References
 
-- https://github.com/Nayjest/Gito - repo facts: 452 stars, 42 forks, 61 open issues and PRs, MIT, created 2025-04-30, pushed 2026-10-01, homepage gito.bot (GitHub API, as of 2026-10-24; re-queried 2026-11-07 and 2026-11-14, unchanged: pushed 2026-10-01, MIT, v4.5.0 latest)
-- https://raw.githubusercontent.com/Nayjest/Gito/HEAD/README.md - the platform and provider tables, the stateless zero-retention pitch, the GitHub Action quickstart, the two-layer configuration model, and the Jira/Linear integrations, fetched 2026-10-24, re-fetched 2026-11-07 and 2026-11-14 (unchanged)
+- https://github.com/Nayjest/Gito - repo facts: 452 stars, MIT, created 2025-04-30, pushed 2026-10-01, homepage gito.bot (GitHub API, as of 2026-10-24; re-queried 2026-11-07, 2026-11-14, and 2026-11-21, unchanged: pushed 2026-10-01, MIT, v4.5.0 latest; the 2026-11-21 query read 46 forks and 61 open issues and pull requests)
+- https://raw.githubusercontent.com/Nayjest/Gito/HEAD/README.md - the platform and provider tables, the stateless zero-retention pitch, the GitHub Action quickstart, the two-layer configuration model, and the Jira/Linear integrations, fetched 2026-10-24, re-fetched 2026-11-07, 2026-11-14, and 2026-11-21 (unchanged)
 - https://api.github.com/repos/Nayjest/Gito/releases - v4.5.0 (2026-09-05) latest (fetched 2026-10-24, re-fetched unchanged 2026-10-31, 2026-11-07, and 2026-11-14)
-- https://pypi.org/pypi/gito.bot/json - 40 PyPI releases since 1.0.1, MIT license, Python 3.11+ (fetched 2026-10-24, re-fetched unchanged 2026-11-07 and 2026-11-14)
-- https://raw.githubusercontent.com/Nayjest/Gito/HEAD/documentation/github_setup.md - the GitHub setup guide: provider key as a repository secret, workflow-file setup paths, fetched 2026-10-24, re-fetched 2026-11-07 and 2026-11-14 (unchanged)
-- https://api.github.com/repos/Nayjest/Gito/pulls/99 - the vendor-produced demo pull request behind the README's see-it-in-action link, closed, created 2025-06-24 (fetched 2026-10-24, re-fetched unchanged 2026-11-07 and 2026-11-14)
-- https://hn.algolia.com/api/v1/items/48415164 - the Show HN for v4.1.0, June 5, 2026, 2 points, zero comments, the thin-footprint signal (fetched 2026-10-24, re-fetched unchanged 2026-10-31, 2026-11-07, and 2026-11-14)
-- http://gito.bot/ - the project homepage (fetched 2026-10-24, re-fetched 2026-11-07 and 2026-11-14, live and unchanged in substance)
+- https://pypi.org/pypi/gito.bot/json - 40 PyPI releases since 1.0.1, MIT license, Python 3.11+ (fetched 2026-10-24, re-fetched unchanged 2026-11-07, 2026-11-14, and 2026-11-21)
+- https://raw.githubusercontent.com/Nayjest/Gito/HEAD/documentation/github_setup.md - the GitHub setup guide: provider key as a repository secret, workflow-file setup paths, fetched 2026-10-24, re-fetched 2026-11-07, 2026-11-14, and 2026-11-21 (unchanged)
+- https://api.github.com/repos/Nayjest/Gito/pulls/99 - the vendor-produced demo pull request behind the README's see-it-in-action link, closed, created 2025-06-24 (fetched 2026-10-24, re-fetched unchanged 2026-11-07, 2026-11-14, and 2026-11-21)
+- https://hn.algolia.com/api/v1/items/48415164 - the Show HN for v4.1.0, June 5, 2026, 2 points, zero comments, the thin-footprint signal (fetched 2026-10-24, re-fetched unchanged 2026-10-31, 2026-11-07, 2026-11-14, and 2026-11-21)
+- http://gito.bot/ - the project homepage (fetched 2026-10-24, re-fetched 2026-11-07, 2026-11-14, and 2026-11-21, live and unchanged in substance)

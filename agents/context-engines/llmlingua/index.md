@@ -1,7 +1,7 @@
 ---
 title: LLMLingua
 created: 2026-10-10
-updated: 2026-11-16
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, prompt-compression, research]
 readability: 3
@@ -24,7 +24,7 @@ MIT-licensed, built by the Microsoft Research group behind the papers (Huiqiang 
 
 ## Status
 
-Research-mature and in maintenance: 6,746 stars as of 2026-10-13 and 454 forks and 124 open issues as of 2026-11-16, created 2023-07-07, pushed 2026-11-06 (a GitHub Actions supply-chain pin, the first main commit since 2026-09-10; the repository-level pushed date later moved to 2026-11-09 on a push of the same state), as of 2026-11-16 (GitHub API).
+Research-mature and in maintenance: 6,746 stars as of 2026-10-13 and 456 forks and 124 open issues as of 2026-11-21, created 2023-07-07, pushed 2026-11-06 (a GitHub Actions supply-chain pin, the first main commit since 2026-09-10; the repository-level pushed date later moved to 2026-11-09 on a push of the same state), as of 2026-11-21 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/LLMLingua&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ My disagreeable claim: the newer compression products in this category are selli
 - 2026-11-06 - Full rotation re-verification: every cited URL re-fetched and intact (repository API, README, PyPI, all four arXiv pages, the launch thread, and the Microsoft Research project page); the package remains frozen at 0.2.2 (14 releases, uploaded 2024-04-09), the repository's last push remains 2026-09-10, and the independent April 2026 evaluation (now marked accepted at ECIR 2026) reads unchanged.
 - 2026-11-11 - Recorded main's 2026-11-06 push (GitHub Actions pinned to full-length commit SHAs, the first main commit since 2026-09-10) and refreshed the activity counts (451 forks, 124 open issues); the package remains frozen at 0.2.2.
 - 2026-11-16 - Full rotation re-verification: every cited URL re-fetched and intact (repository API, README with the method family and CLA unchanged, PyPI, all four arXiv pages, the launch thread at 149 points, and the Microsoft Research project page); the package remains frozen at 0.2.2 (14 releases, uploaded 2024-04-09), the default branch's newest commit remains the 2026-11-06 actions pin with the 2026-11-09 pushed movement read as a later push of the same state, and the ECIR 2026 evaluation stands unchanged; forks refreshed (454).
+- 2026-11-21 - Full rotation re-verification: every cited URL re-fetched and intact (repository API, README with the method family unchanged, PyPI, all four arXiv pages, the launch thread at 149 points, and the Microsoft Research project page); the package remains frozen at 0.2.2 (14 releases, uploaded 2024-04-09), the default branch's newest commit remains the 2026-11-06 actions pin with pushed 2026-11-09 unchanged, and the ECIR 2026 evaluation stands unchanged; forks refreshed (456).
 
 ## See also
 

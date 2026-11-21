@@ -1,7 +1,7 @@
 ---
 title: Repomix
 created: 2026-08-24
-updated: 2026-11-17
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-packing, open-source, developer-tools]
 readability: 3
@@ -30,7 +30,7 @@ It is built by Kazuki Yamada (yamadashy), sponsored by Warp and CodeRabbit.
 **Active and quietly massive.**
 28k stars (28,814) and 1.6k forks on GitHub (as of 2026-10-18), 4,907 commits as of 2026-11-14, and 425,001 npm downloads in the trailing month (2026-10-14 to 2026-11-13, summed from the range endpoint, five zero days in the window, fetched 2026-11-14).
 Release v1.19.0 (2026-11-08, after 48 days at v1.18.1) moved the MCP server to the TypeScript SDK v2 negotiating the 2026-07-28 protocol, with a clean exit when the client closes stdin and an install roughly halved (171 to 84 packages), added progress notifications and cancellation for long packs (`pack_codebase`, `pack_remote_repository`, and `generate_skill`; sandbox progress messages carry the stage name only, never a host path), and fixed a set of `--compress` accuracy bugs exposed by golden tests for every supported language, alongside a round of first-time-contributor fixes.
-Main's commits since v1.19.0 are dependency maintenance plus one perf fix capping the tree-sitter worker count on Bun when compressing (merged 2026-11-14).
+Main's commits since v1.19.0 are dependency maintenance plus three fixes: the tree-sitter worker count capped on Bun when compressing (merged 2026-11-14), the security check moved to a scaled worker pool with early returns on Bun (merged 2026-11-20), and the handlebars dependency removed in a packaging refactor (merged 2026-11-20).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=yamadashy/repomix&type=date&theme=dark&legend=top-left" />
@@ -87,6 +87,7 @@ My disagreeable claim: for small and mid repos, a Repomix pack plus a good model
 - 2026-11-08 - Full rotation re-verification: every cited URL re-fetched and intact (repomix.com, the code-compress and MCP-server guides, the repository, the npm registry and downloads, and the HN thread); recorded release v1.19.0 (2026-11-08, after 48 days at v1.18.1: the MCP server on TypeScript SDK v2 negotiating the 2026-07-28 protocol with a clean stdin exit and a roughly halved dependency install, progress notifications and cancellation for long packs, and per-language golden-test accuracy fixes to `--compress`) and refreshed the volatile numbers (4,889 commits, 392,525 trailing-month npm downloads summed 2026-10-09 to 2026-11-08).
 - 2026-11-14 - Full rotation re-verification: every cited URL re-fetched and intact (repomix.com, the code-compress and MCP-server guides, the repository page, the npm registry and trailing-month downloads, the release feed still listing v1.19.0 as newest, and the HN thread); refreshed the volatile numbers (4,907 commits, 425,001 trailing-month npm downloads summed 2026-10-14 to 2026-11-13, five zero days); main's commits since v1.19.0 read as dependency-maintenance only at the time (renovate and dependabot bumps, including a hono security bump), so the note's claims stand.
 - 2026-11-17 - Corrected the post-v1.19.0 main summary: one perf fix capping the tree-sitter worker count on Bun when compressing had merged 2026-11-14 alongside the dependency bumps, not dependency maintenance only; the 2026-11-15 pushed signal resolved as off-main activity with main newest-committed 2026-11-14, no release since v1.19.0, so the note's claims stand.
+- 2026-11-21 - Corrected the post-v1.19.0 main summary again: two more commits merged 2026-11-20 (the security check moved to a scaled worker pool with early returns on Bun, and the handlebars dependency removed in a packaging refactor); the releases feed confirms no release since v1.19.0, so the note's claims stand.
 
 ## See also
 

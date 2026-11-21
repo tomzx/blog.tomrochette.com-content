@@ -11,6 +11,7 @@ readability: 3
 Where machines judge pull requests: the review bots, the open-source reviewers, and the one that pivoted into agent infrastructure.
 
 - [CodeRabbit](coderabbit/index.md) - the commercial anchor, $143M Series C at a $1.5B valuation, free forever on public repos, with a disclosed RCE history in its file.
+- [cubic](cubic/index.md) - the closed-source whole-codebase reviewer Cohere acquired on November 13, 2026, with auto-approve, merge-confidence scores, and nightly scans, the Martian leaderboard's March 2026 F1 leader.
 - [Ellipsis](ellipsis/index.md) - the 2024 review bot that pivoted to managed agent infrastructure in July 2026, review now one configurable use case.
 - [git-lrc](git-lrc/index.md) - Hexmos's commit-time review hook that records review, vouch, or skip attestations in the git log, free with BYOK and $32 per 100k LOC paid, source-available rather than open source.
 - [Gito](gito/index.md) - the solo MIT Python reviewer that runs on any provider, including local model servers and Claude Code or Gemini CLI as the review runtime, stateless and GitHub-first.
@@ -43,3 +44,4 @@ Its members are compared on shared rows in the [Code Review Feature Matrix](code
 - 2026-10-11 - Added OpenReview.
 - 2026-10-16 - Added multi.
 - 2026-10-24 - Added Gito.
+- 2026-11-21 - Added cubic.

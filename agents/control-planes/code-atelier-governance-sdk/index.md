@@ -1,7 +1,7 @@
 ---
 title: Code Atelier Governance SDK
 created: 2026-09-27
-updated: 2026-11-15
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-governance, policy-enforcement, audit-trail, postgres, human-in-the-loop]
 readability: 3
@@ -78,6 +78,7 @@ A hosted platform exists through an opt-in bridge that dual-writes audit events 
 - 2026-11-01 - Full rotation re-verification: every cited URL re-fetched and live, the repository and PyPI unchanged again (0 stars, 0 forks, 0 open issues, v0.7.3 of 2026-06-02, dormant since 2026-07-23), and the site's overview and quickstart pages carrying the same Article 12 countdown banner still frozen at its June setting; no drift.
 - 2026-11-08 - Full rotation re-verification: every cited URL re-fetched and live, the repository and PyPI unchanged again (0 stars, 0 forks, 0 open issues, v0.7.3 of 2026-06-02 with 11 releases, dormant since 2026-07-23), and the site's overview and quickstart pages carrying the same Article 12 countdown banner still frozen at its June setting; no drift.
 - 2026-11-15 - Full rotation re-verification: every cited URL re-fetched and live, the repository and PyPI unchanged again (0 stars, 0 forks, 0 open issues, v0.7.3 with 11 releases, dormant since 2026-07-23 with the default branch's last commit still 2026-07-23), the changelog still holding the AGT recipe scaffolder notes, and the site's overview and quickstart pages serving with the Article 12 framing intact; no drift.
+- 2026-11-21 - Full rotation re-verification: every cited URL re-fetched and live, the repository and PyPI unchanged again (0 stars, 0 forks, 0 open issues, v0.7.3 with 11 releases, dormant since 2026-07-23), the production-branch changelog still holding its unreleased halt-path and chain-verification notes, and the overview page's Article 12 banner still frozen at its June reading (62 days to a bind date now past); no drift.
 
 ## See also
 
