@@ -1,7 +1,7 @@
 ---
 title: Kanzo
 created: 2026-11-08
-updated: 2026-11-15
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, mcp, rust, open-source]
 readability: 3
@@ -25,9 +25,10 @@ Emanuele Micheletti (the emanuele-em identity) maintains it, with GitHub-signed 
 ## Status
 
 Active and two weeks old at record speed.
-As of 2026-11-15: 1,105 stars (fetched 2026-11-08), 99 forks, 13 open issues, created 2026-10-25, pushed 2026-11-11, and v0.4.2 (2026-11-11) the newest of a near-daily release train that began with v0.2.1 on 2026-10-27.
+As of 2026-11-21: 1,105 stars (fetched 2026-11-08), 112 forks, 16 open issues, created 2026-10-25, pushed 2026-11-20, and v0.4.2 (2026-11-11) the newest of a release train that began with v0.2.1 on 2026-10-27.
 v0.3.0 (2026-11-01) added the live board sharing, a native Windows build, and the Human handoff, where an agent marks a task Human over MCP and leaves it alone; v0.4.0 (2026-11-06) added waits-on dependencies (`next_task` skips a card until its blockers are `done`, a card in `review` still blocks), multi-select and a list view on the board, and a Chinese UI; v0.4.1 (2026-11-07) lets agents switch to a new Kanzo version at their next call without reconnecting and restarts the board on update within seconds.
 v0.4.2 (2026-11-11) was the first community-contribution release: three outside contributors fixed the Windows updater always failing, agent tools going silent after an update when a call had been cancelled or the client never sent `initialize` (MCP 2026-07-28 clients), `kanzo export` quietly writing its own old board on a computer joined to another board, and the board shrinking under a browser extension's empty element.
+The train has paused since v0.4.2 while main carries unreleased community work: a sandbox-friendly build merged from an outside contributor, MCP moves of a task or a whole project to another project, an x86-64 baseline SQLite fix, and a shared-boards sidebar showing joined boards beside the local one.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=emanuele-em/kanzo&type=date&theme=dark&legend=top-left" />
@@ -73,6 +74,7 @@ My disagreeable claim: the shared visual board is the underused primitive here, 
 - 2026-11-08 - Created, completing the admission the 2026-11-03 cross-category routing resolved for this category (the andyrewlee listing, 921 stars then), with the ten-tool MCP surface, the handout-by-move coordination model, live sharing, and the missing independent footprint recorded.
 - 2026-11-12 - Recorded v0.4.2 (2026-11-11: the first community-contribution release, three outside contributors fixing the Windows updater, agent tools silent after cancelled calls or initialize-less MCP 2026-07-28 clients, export on a joined computer, and the board-layout shrink) and refreshed counts (95 forks, 9 open issues, pushed 2026-11-11, 241 crates downloads).
 - 2026-11-15 - Rotation re-verification with every cited URL re-fetched live (README, API, releases, changelog, the ten-tool MCP surface still intact in src/mcp.rs, crates, the HN search still at zero story hits): nothing material changed, with v0.4.2 still the newest release and the four-day quiet stretch since it, and counts refreshed (99 forks, 13 open issues, 262 crates downloads).
+- 2026-11-21 - Recorded main's community work since v0.4.2 (a sandbox-friendly build, MCP task and project moves, an x86-64 SQLite baseline fix, and the shared-boards sidebar, all unreleased) and refreshed counts (112 forks, 16 open issues, pushed 2026-11-20); v0.4.2 still the newest release nine days on.
 
 ## See also
 

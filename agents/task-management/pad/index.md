@@ -1,7 +1,7 @@
 ---
 title: Pad
 created: 2026-10-11
-updated: 2026-11-15
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, project-management, local-first, mcp, open-source]
 readability: 3
@@ -25,12 +25,13 @@ Perpetual Software LLC maintains it; every change is versioned per item with the
 ## Status
 
 Active and pre-1.0.
-As of 2026-11-15: 193 stars (as of 2026-10-14), 26 forks, created 2026-03-26, pushed 2026-11-15, on a roughly weekly release cadence with v0.20.0 (2026-11-11) the newest stable tag after v0.19.2 (2026-11-08), and the changelog delegated to signed GitHub Releases carrying SBOMs and SLSA provenance.
+As of 2026-11-21: 193 stars (as of 2026-10-14), 26 forks, created 2026-03-26, pushed 2026-11-21, on a roughly weekly release cadence with v0.21.1 (2026-11-18) the newest stable tag after v0.20.0 (2026-11-11), and the changelog delegated to signed GitHub Releases carrying SBOMs and SLSA provenance.
 v0.18.1 is a three-fix patch: the Stripe billing portal reachable again, account exports stopping at their deadline instead of running past it, and refused MCP calls naming their cause on both the stdio and HTTP transports.
 The v0.18.0 stable ship is the largest single release so far: `pad item patch` edits part of an item body with the change landing live in anyone's open editor plus an undo, conventions and playbooks track their library upstream with a diff-and-update review, the Claude Code plugin gained a `/pad-pane` side panel, collections can be marked reference instead of work, and agent writes gained idempotency keys and version checking.
 The v0.19.0 release-candidate train began on 2026-10-29 (rc.1, rc.2 the next day, rc.3 on 2026-10-31 pinning account settings to the signed-in account after a race let a settings action's result, including a 2FA setup secret, recovery codes, or a new token's secret, surface under the wrong account) with a breaking token rule, a workspace-pinned API token refused outside its workspace and on account-wide routes, alongside security updates (Go toolchain 1.26.10, x/net 0.62.0, and the user read path no longer decrypting the TOTP secret), in-app attachment previews including a sandboxed PDF viewer, a read-only `pad project catch-up` CLI and MCP action, an `awaits_human` collection setting, the cross-workspace needs-you inbox with importance and simplicity scoring, and chat and push-notification features landing across the CLI, MCP, and web surfaces.
 v0.19.1 shipped that train as stable, moving the pinned-token rule and the security updates onto every install, and v0.19.2 added one fix with a behavior change: a task ref resolves only through its own collection prefix or an item's move history, so a stale or mistyped ref such as a wiki link can no longer fall through to an unrelated item.
 v0.20.0 (2026-11-11) added scheduling and calendar surfaces: an Agenda day view of today's scheduled occurrences and dated items across workspaces with done, skip, snooze, and move controls, calendar views rendering any collection with a date field on a month grid, `pad remind` promoted to a top-level command for schedules and deadlines (`--every`, a hard `--deadline` that must not be missed, renegotiate, snooze, move), and the same scheduling handed to agents as new `pad_item` MCP actions (schedule, schedule-edit, schedule-delete, schedule-resolve, schedule-renegotiate, agenda).
+v0.21.0 (2026-11-18) grew the Agenda into week and month views with a this-week-and-outstanding rail, added undo for the latest resolution, an acknowledge that silences a fired occurrence's alerts, private ICS calendar feed URLs, commitments on the item page, time links and gates tying one item's dates to another's with a move preview past a bound, and hand-set forecast markers, and v0.21.1 the same day was a security fix for the OAuth endpoints: form bodies capped at 64 KiB and JWT client assertions refused before parsing, closing an unauthenticated crash reachable on any network-exposed instance.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PerpetualSoftware/pad&type=date&theme=dark&legend=top-left" />
@@ -86,6 +87,7 @@ My disagreeable claim: conventions-as-items is a bigger idea than the task board
 - 2026-11-13 - Refreshed counts (20 open issues and pull requests, pushed 2026-11-13); v0.20.0 still the newest release.
 - 2026-11-14 - Refreshed counts (22 open issues and pull requests, pushed 2026-11-14); v0.20.0 still the newest release.
 - 2026-11-15 - Refreshed counts (22 open issues and pull requests, pushed 2026-11-15); v0.20.0 still the newest release.
+- 2026-11-21 - Recorded v0.21.0 (2026-11-18: Agenda week and month views with the outstanding rail, resolution undo, occurrence acknowledge, private ICS calendar feeds, item-page commitments, linked time gates with a move preview, and forecast markers) and v0.21.1 (the OAuth form-body cap and the JWT client-assertion refusal, an unauthenticated crash fix) and refreshed counts (18 open issues and pull requests, pushed 2026-11-21); v0.21.1 now the newest release.
 
 ## See also
 

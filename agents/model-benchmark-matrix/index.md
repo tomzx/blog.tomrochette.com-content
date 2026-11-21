@@ -1,7 +1,7 @@
 ---
 title: "Model Benchmark Matrix"
 created: 2026-09-24
-updated: 2026-11-19
+updated: 2026-11-21
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, comparison, benchmarks, evaluation, model-selection]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what pass@1, a fail-to-pass test, and an agentic harness are; each row links the benchmark's own site or paper.
 ---
 
-This matrix indexes the model benchmarks an engineer actually meets on model cards, vendor blogs, and leaderboards, as of 2026-11-19, with one or two sentences per benchmark on what it evaluates and a note on how far I trust the reading.
+This matrix indexes the model benchmarks an engineer actually meets on model cards, vendor blogs, and leaderboards, as of 2026-11-21, with one or two sentences per benchmark on what it evaluates and a note on how far I trust the reading.
 It covers thirty-three benchmarks.
 The curation rule: each board has an official site or paper I fetched this run, publishes results someone other than the submitter can check, and appears in recent model comparisons.
 That rule excludes the harness benchmarks ([FrontierHarness Eval](../evaluation-review/frontierharness-eval/index.md) and [HarnessTax](../evaluation-review/harnesstax/index.md)), which hold the model constant and judge the harness instead, and decision-model boards like [JevBench](../hybrid-execution/jevbench/index.md), which live in their own category.
@@ -123,6 +123,7 @@ When two boards rank the same models differently, the gap tells you where the mo
 - 2026-11-14 - Link re-verification with one fact move: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims), and Terminal-Bench's homepage now reading Terminal-Bench 4.1, the version cell and the intro as-of moved to today.
 - 2026-11-17 - Link re-verification: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims) and the-agent-company.com's one 503 that cleared on retry; the arcprize and FrontierMath trailing-slash URLs began 308- and 301-redirecting to their no-slash canonical forms, the four table and reference links repointed; Terminal-Bench still at 4.1 on its homepage, and the intro as-of re-dated to this run's full re-fetch.
 - 2026-11-19 - Link re-verification: every cited URL re-fetched, all fetched 200 except the OpenAI PaperBench page again 403 to the scripted fetch (its annotation unchanged, the table's arXiv link carries those claims), Terminal-Bench still at 4.1 on its homepage, and the intro as-of re-dated to this run's full re-fetch.
+- 2026-11-21 - Link re-verification with the PaperBench page readable again: every cited URL re-fetched and all 35 fetched 200, the OpenAI PaperBench page returning 200 for the first time since 2026-10-11 with its claims (20 ICML 2024 papers, 8,316 rubric tasks, the 21.0 percent best agent, the human baseline) re-read on the page itself instead of the arXiv proxy, and Terminal-Bench still at 4.1 on its homepage; the intro as-of re-dated to this run's full re-fetch.
 
 ## See also
 
@@ -139,7 +140,7 @@ When two boards rank the same models differently, the gap tells you where the mo
 - https://github.com/multi-swe-bench/multi-swe-bench - Multi-SWE-bench's seven languages, 1,632 instances, 68 annotators, Apache-2.0 license, NeurIPS 2025 acceptance (fetched 2026-09-24)
 - https://programbench.com/ - ProgramBench's binary-plus-docs task design, 200 tasks, 248,000 behavioral tests, 4.5 percent top resolution (fetched 2026-09-24)
 - https://arxiv.org/abs/2502.12115 - SWE-Lancer's 1,488 Upwork tasks, $1M payout mapping, IC and managerial splits, Diamond public split (fetched 2026-09-24)
-- https://openai.com/index/paperbench/ - PaperBench's 20 ICML 2024 papers, 8,316 rubric tasks, 21.0 percent best agent score, human baseline (fetched 2026-09-24 via search snapshot, direct page blocks fetches; 403 to the scripted and fetch-tool attempts on 2026-10-11, 2026-10-13, and again 2026-10-19, and at every link re-verification through 2026-11-07, so the table's arXiv link carries the claims)
+- https://openai.com/index/paperbench/ - PaperBench's 20 ICML 2024 papers, 8,316 rubric tasks, 21.0 percent best agent score, human baseline (fetched 2026-09-24 via search snapshot, direct page blocks fetches; 403 to the scripted and fetch-tool attempts on 2026-10-11, 2026-10-13, and again 2026-10-19, and at every link re-verification through 2026-11-07, so the table's arXiv link carries the claims; re-fetched 200 on 2026-11-21 with all four claims re-read on the page itself)
 - https://swe-rebench.com/ - the SWE-rebench task stream (fetched 2026-09-24, page returned an oversize body, existence confirmed)
 - https://www.tbench.ai/ - Terminal-Bench 4.1, resolution rate with 95 percent confidence intervals, Stanford and Laude Institute hosting (fetched 2026-09-24 at 4.0; the homepage re-read at 4.1 on 2026-11-14 and again 2026-11-17)
 - https://aider.chat/docs/leaderboards/ - the polyglot benchmark's 225 Exercism exercises across six languages, edit-format scoring, frozen 2025 leaderboard (fetched 2026-09-24)

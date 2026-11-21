@@ -1,7 +1,7 @@
 ---
 title: px0
 created: 2026-10-11
-updated: 2026-11-15
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, code-review, browser-ide, go, open-source]
 readability: 3
@@ -76,6 +76,7 @@ My disagreeable claim: review, not authoring, is the editor's remaining job in t
 - 2026-11-01 - Rotation re-verification, all cited URLs re-fetched live: corrected the handoff list to the README's current seven harnesses (Claude Code, Cursor Agent, Antigravity, OpenCode, Codex, Aider, Goose), where the note carried eight including Gemini CLI, recorded the README's pull-request review expanding past GitHub to GitLab, Gitea/Forgejo, and Bitbucket Cloud, corrected the v0.1.19 and v0.1.20 release notes, which the API shows carrying written sections (the review-bar relocation and one-click Rebase with AI, and single-hunk staging in the diff viewer) where the note said changelog links only, and recorded the train paused at v0.1.20 despite pushes through October 29; the Show HN thread still reads 7 points and 0 comments.
 - 2026-11-07 - Volatile re-verification on the released signal, recorded v0.1.21 (November 6, the release entry carrying only a compare link, no written changelog) resuming the train above v0.1.19 and v0.1.20 after the pause.
 - 2026-11-15 - Rotation re-verification, all five cited URLs re-fetched live: the repository (pushed November 6, not archived), v0.1.21 as latest release, and the 7-point zero-comment Show HN stand; recorded the site-wide repositioning from read-only IDE to review workbench and speed-first IDE, with quick in-place edits (v0.1.17's in-browser editing) now first-class, the review workbench launchpad and unpushed-commit review in the README, and Codeberg listed in the PR usage examples.
+- 2026-11-21 - Rotation re-verification, all five cited URLs re-fetched live: the repository (pushed November 6, not archived), v0.1.21 still the latest release with the train paused seventeen days, the seven-harness dispatch list and the review-workbench launchpad standing in the README, the site still pitching the review workbench and speed-first IDE (its GitHub badge now displaying 1.7k), and the Show HN thread at 7 points and 0 comments.
 
 ## See also
 
@@ -87,8 +88,8 @@ My disagreeable claim: review, not authoring, is the editor's remaining job in t
 
 ## References
 
-- https://github.com/px0-ai/px0 - repository, MIT, Go, 1,869 stars, created 2026-06-24, pushed 2026-10-08 (GitHub API, as of 2026-10-16); re-fetched 2026-11-15 with the push date at November 6, 2026 and the repository not archived
-- https://raw.githubusercontent.com/px0-ai/px0/HEAD/README.md - the feature set: PR review, harness handoff list, virtual rendering, remote mode, sandboxing, and the memory accounting; re-fetched 2026-11-15 with the review-workbench launchpad, unpushed-commit review, in-place quick edits, and Codeberg in the usage examples added
-- https://px0.ai/ - the product site: the performance claims, the four-harness headline, the logo wall, and the design-partner program, re-fetched 2026-11-15 with the headline now reading review workbench and speed-first IDE and quick edits in the tagline
-- https://api.github.com/repos/px0-ai/px0/releases - the release train v0.1.11 through v0.1.16 (2026-09-28 to 2026-10-03), v0.1.17 (2026-10-18, LSP lifecycle hardening and the committed-changes diff view), v0.1.18 (2026-10-19, the intra-line diff highlighting pull request), v0.1.19 and v0.1.20 (2026-10-20 and 2026-10-21), and v0.1.21 (2026-11-06, a compare link but no written changelog) as the latest, re-fetched 2026-11-15 with v0.1.21 still latest
-- https://hn.algolia.com/api/v1/items/49683668 - the Show HN thread: 7 points, 0 comments, 2026-09-13, the thin-footprint record, re-fetched 2026-11-15 unchanged
+- https://github.com/px0-ai/px0 - repository, MIT, Go, 1,869 stars, created 2026-06-24, pushed 2026-10-08 (GitHub API, as of 2026-10-16); re-fetched 2026-11-15 with the push date at November 6, 2026 and the repository not archived, re-fetched again 2026-11-21 (still pushed November 6, not archived)
+- https://raw.githubusercontent.com/px0-ai/px0/HEAD/README.md - the feature set: PR review, harness handoff list, virtual rendering, remote mode, sandboxing, and the memory accounting; re-fetched 2026-11-15 with the review-workbench launchpad, unpushed-commit review, in-place quick edits, and Codeberg in the usage examples added, re-fetched again 2026-11-21 unchanged
+- https://px0.ai/ - the product site: the performance claims, the four-harness headline, the logo wall, and the design-partner program, re-fetched 2026-11-15 with the headline now reading review workbench and speed-first IDE and quick edits in the tagline, re-fetched again 2026-11-21 unchanged (a Slack community link and a docs, blog, and changelog set joining the footer)
+- https://api.github.com/repos/px0-ai/px0/releases - the release train v0.1.11 through v0.1.16 (2026-09-28 to 2026-10-03), v0.1.17 (2026-10-18, LSP lifecycle hardening and the committed-changes diff view), v0.1.18 (2026-10-19, the intra-line diff highlighting pull request), v0.1.19 and v0.1.20 (2026-10-20 and 2026-10-21), and v0.1.21 (2026-11-06, a compare link but no written changelog) as the latest, re-fetched 2026-11-15 with v0.1.21 still latest, re-fetched again 2026-11-21 unchanged
+- https://hn.algolia.com/api/v1/items/49683668 - the Show HN thread: 7 points, 0 comments, 2026-09-13, the thin-footprint record, re-fetched 2026-11-15 unchanged, re-fetched again 2026-11-21 unchanged

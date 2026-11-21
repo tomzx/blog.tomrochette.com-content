@@ -1,7 +1,7 @@
 ---
 title: CCPM
 created: 2026-10-23
-updated: 2026-11-13
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, github-issues, worktrees, multi-agent, spec-driven, open-source]
 readability: 3
@@ -23,7 +23,7 @@ It came out of Automaze, Ran Aroussi's CTO-as-a-service consultancy, as the open
 ## Status
 
 Active and used in the vendor's own practice, mid-scale for this category.
-As of 2026-11-13: 8,414 stars (as of 2026-10-23), 838 forks, 1 open issue, created 2025-08-18, pushed 2026-11-04, MIT-licensed, with no tagged releases, development moving on branches (main, v1, rc).
+As of 2026-11-21: 8,414 stars (as of 2026-10-23), 839 forks, 1 open issue, created 2025-08-18, pushed 2026-11-04, MIT-licensed, with no tagged releases, development moving on branches (main, v1, rc).
 The 2026-11-04 push ended the quiet stretch that ran from 2026-10-19: a fix syncing issue bodies, dependency checks, task globs, and validate exit codes (#1031), beside README updates adding a Neon database guide and its `neon-branch.sh` helper script; no push has landed since.
 
 <picture>
@@ -83,6 +83,7 @@ My disagreeable claim: GitHub Issues is the most underrated agent task store in 
 - 2026-11-01 - Rotation re-verification with every cited URL re-fetched live (repository, API, README, SKILL.md, the launch thread and its comment tree, the September subagent comment, the BigGo critical piece, automaze.io): nothing material changed, with no tagged releases and no push since 2026-10-19, and the fork count refreshed to 843.
 - 2026-11-07 - Recorded the activity resumption on main (2026-11-04: the #1031 fix syncing issue bodies, dependency checks, task globs, and validate exit codes, beside README updates adding a Neon database guide), still with no tagged releases.
 - 2026-11-13 - Rotation re-verification with every cited URL re-fetched live (repository API, README, SKILL.md, the launch thread, its Algolia comment tree, the BigGo critical piece, automaze.io, the September subagent comment): all claims confirmed, pushed still 2026-11-04 with no tagged releases, the script count corrected to the README's fifteen (the Neon helper joined on 2026-11-04), the fork count corrected to 838, and open issues down to 1.
+- 2026-11-21 - Rotation re-verification with every cited URL re-fetched live (repository page, README, SKILL.md, the launch thread and its comment tree, the BigGo critical piece, automaze.io, the September subagent comment): all claims confirmed, pushed still 2026-11-04 with no tagged releases, and the fork count refreshed to 839.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "The Tells Are Structural"
 created: 2026-09-02
-updated: 2026-11-19
+updated: 2026-11-21
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, ai, llm, writing, evaluation]
 readability: 3
@@ -93,6 +93,7 @@ If you review other people's writing, read structure rather than vocabulary; a d
 - 2026-11-14 - Re-fetched all eight cited sources, every one 200, with the StoryScope, human-detector, LAMP, and slop-study figures unchanged and the no-ai-slop ruleset's six structural rule ids (binary_contrast, throat_clearing, faux_insight, dramatic_fragmentation, fake_profound_kicker, summary_recap) intact; the star figures left untouched per the stars exemption, and the intro's re-verification date holds at 2026-11-03 since no fact moved.
 - 2026-11-17 - Re-fetched all eight cited sources, every one 200, with the StoryScope, human-detector, LAMP, and slop-study figures unchanged and the no-ai-slop ruleset's six structural rule ids intact with further structural rules beside them; the star figures left untouched per the stars exemption, and the intro's re-verification date re-dated to this run's fetch.
 - 2026-11-19 - Re-fetched all eight cited sources, every one 200, with the StoryScope, human-detector, LAMP, and slop-study figures unchanged and the no-ai-slop ruleset's six structural rule ids (binary_contrast, throat_clearing, faux_insight, dramatic_fragmentation, fake_profound_kicker, summary_recap) intact with further structural rules beside them; the star figures left untouched per the stars exemption, and the intro's re-verification date re-dated to this run's fetch.
+- 2026-11-21 - Re-fetched all eight cited sources, every one 200, with the StoryScope, human-detector, LAMP, and slop-study figures unchanged and the no-ai-slop ruleset's six structural rule ids (binary_contrast, throat_clearing, faux_insight, dramatic_fragmentation, fake_profound_kicker, summary_recap) intact with further structural rules beside them; the star figures left untouched per the stars exemption, and the intro's re-verification date holds at 2026-11-19 since no fact moved.
 
 ## See also
 

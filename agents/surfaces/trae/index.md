@@ -1,7 +1,7 @@
 ---
 title: Trae
 created: 2026-08-24
-updated: 2026-11-15
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, bytedance]
 readability: 3
@@ -83,6 +83,7 @@ Not for proprietary or regulated codebases, full stop.
 - 2026-10-31 - Rotation re-verification, all cited URLs re-fetched live: the pricing page re-fetched with the ladder, the 5,000 free completions, the 2 free cloud tasks, and the BytePlus enterprise path all standing unchanged, the trae-agent repository still stalled at its February 5, 2026 push with no tagged release, and both HN threads live.
 - 2026-11-07 - Rotation re-verification, all cited URLs re-fetched live: the pricing page re-fetched with the $20/$60/$200 ladder, the 5,000 free completions, the 2 free cloud tasks, and the BytePlus enterprise path all standing unchanged, the trae-agent repository still stalled at its February 5, 2026 push with no tagged release (12.2k stars displayed, the note's baseline untouched), and both HN threads live (954 points and 85 points).
 - 2026-11-15 - Rotation re-verification, all cited URLs re-fetched live: the pricing page re-fetched with the $20/$60/$200 ladder, the 5,000 free completions, the 2 free cloud tasks, and the BytePlus enterprise path all standing unchanged, the trae-agent repository still stalled at its February 5, 2026 push with no tagged release, and both HN threads live (954 points and 85 points).
+- 2026-11-21 - Rotation re-verification, all cited URLs re-fetched live: the pricing page re-fetched with the $20/$60/$200 ladder, the 5,000 free completions, the 2 free cloud tasks, and the BytePlus enterprise path all standing unchanged, the trae-agent repository still stalled at its February 5, 2026 push with no tagged release ever published, and both HN threads live (954 points and 85 points).
 
 ## See also
 
@@ -92,8 +93,8 @@ Not for proprietary or regulated codebases, full stop.
 
 ## References
 
-- https://www.trae.ai/ - product and download entry point, re-fetched 2026-11-15
-- https://www.trae.ai/pricing - tiers, usage dollars, cloud task concurrency, as of 2026-10-11, re-verified 2026-11-15 unchanged
-- https://github.com/bytedance/trae-agent - the MIT-licensed agent framework, last commit February 5, 2026, 12,143 stars as of 2026-10-16, re-fetched 2026-11-15 (still stalled, no tagged release)
-- https://news.ycombinator.com/item?id=44703164 - the independent performance and telemetry analysis
-- https://news.ycombinator.com/item?id=42811502 - the January 2025 launch thread
+- https://www.trae.ai/ - product and download entry point, re-fetched 2026-11-15, re-fetched again 2026-11-21 (the page now also surfaces TRAE Web)
+- https://www.trae.ai/pricing - tiers, usage dollars, cloud task concurrency, as of 2026-10-11, re-verified 2026-11-15 unchanged, re-verified again 2026-11-21 unchanged
+- https://github.com/bytedance/trae-agent - the MIT-licensed agent framework, last commit February 5, 2026, 12,143 stars as of 2026-10-16, re-fetched 2026-11-15 (still stalled, no tagged release), re-fetched again 2026-11-21 unchanged
+- https://news.ycombinator.com/item?id=44703164 - the independent performance and telemetry analysis, re-fetched 2026-11-21 (954 points)
+- https://news.ycombinator.com/item?id=42811502 - the January 2025 launch thread, re-fetched 2026-11-21 (85 points)

@@ -1,7 +1,7 @@
 ---
 title: Operon
 created: 2026-10-08
-updated: 2026-11-13
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, obsidian, markdown, local-first, gpl, multi-agent]
 readability: 3
@@ -25,7 +25,7 @@ The hasanyilmaz identity maintains it in ten interface languages.
 ## Status
 
 Active and shipping steadily.
-As of 2026-11-13: 255 stars (as of 2026-10-14), 30 forks, 14 open issues and pull requests, created 2026-05-19, pushed 2026-11-12, latest release 4.7.0 on 2026-11-12, 828 npm downloads over the trailing month to 2026-11-13 for `@stratejya/operon-cli`, GPL-3.0 on both plugin and CLI.
+As of 2026-11-21: 255 stars (as of 2026-10-14), 30 forks, 14 open issues and pull requests, created 2026-05-19, pushed 2026-11-18, latest release 4.8.0 on 2026-11-18, 1,095 npm downloads over the trailing month to 2026-11-21 for `@stratejya/operon-cli`, GPL-3.0 on both plugin and CLI.
 4.0.0 "Unity" (2026-10-14) brought Obsidian's six highlight colors into task views and editors, Vault Properties in the desktop Task Editor and tables for both file and inline tasks, and inline-task templates with a default-template setting; 4.0.1 landed the same day with calendar time-rounding and custom-key fixes and the removal of the 100-character filename truncation on inline-to-file conversion, after 3.12.0 on 2026-10-06.
 4.1.0 (2026-10-20) added a shared desktop lightbox for web pages, media, and editable Markdown, Bases, and Operon tables, nested previews that keep the prior views and drafts alive, optional source chips naming the file and inline line behind a task, and vault-local ICS calendars as read-only external sources beside URL subscriptions.
 4.2.0 (2026-10-23) made the Task Editor a shared desktop workspace holding native Markdown and task fields at one working level (nested levels stay visible underneath), with left/right placement settings, separate file and inline source-opening preferences, and per-result open behaviors in Task Finder.
@@ -34,6 +34,7 @@ As of 2026-11-13: 255 stars (as of 2026-10-14), 30 forks, 14 open issues and pul
 4.5.0 (2026-11-05) added Korean as a downloadable interface language, Status Dock sections with independent enable and reorder controls, pinned and recently modified task lists in the Dock, per-session history cards with duration editing, and a task pool in Kanban with shared search, favorites, and pinning.
 4.6.0 (2026-11-08) added opt-in File Task display titles, so a task shows a readable title independent of its filename across task views, search, and the Canvas, Excalidraw, and Kanban task pools, with kebab-case and snake_case filename formats for new File Tasks and keep, ask, or rename-automatically policies for later title edits (existing files never renamed by the setting), and carried title support plus settings-aware task creation into the Runtime and Developer API, so integrations can read, preview, and create titled tasks and discover the vault's task settings instead of guessing them.
 4.7.0 (2026-11-12) opened the Property Editor for regular Markdown notes from the Lightbox (edit properties in file order with Operon's pickers, autosave preserving unrelated edits and reporting conflicts), added an optional Time Tracker dial to the Status Dock with a shared FlowTime target and TrackTime/FlowTime switching from the dock timer, grouped the Lightbox behaviors under a new Settings section, and fixed stale-context errors between consecutive Runtime writes by letting each write's pending index updates finish before success is reported.
+4.8.0 (2026-11-18) added embedded filter dates (a `dateCompleted:`-style line under a saved filter's `filterId` overrides that field's condition per embedding note, the saved filter itself unchanged), a Start and stop timer command in the palette that records unassigned FlowTime or TrackTime sessions, a mini calendar sidebar with continuous weeks and desktop click behaviors opening the source file or the editors in a Lightbox, a shared section layout for the Task and Property Editors, and a settings-refresh fix that preserves section names.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hasanyilmaz/operon&type=date&theme=dark&legend=top-left" />
@@ -87,6 +88,7 @@ My disagreeable claim: receipted, previewed writes are a bigger agent-safety adv
 - 2026-11-07 - Recorded 4.5.0 (2026-11-05: Korean as a downloadable interface language, Status Dock sections with enable and reorder controls, pinned and modified task lists, session history cards with duration editing, and a task pool in Kanban with shared search and favorites) and refreshed counts (30 forks, 23 open issues and pull requests, pushed 2026-11-05, 356 npm downloads over the trailing month to 2026-11-07).
 - 2026-11-12 - Recorded 4.6.0 (2026-11-08: opt-in File Task display titles with kebab-case and snake_case naming options and no retroactive renames, plus title support and settings-aware task creation in the Runtime and Developer API) and refreshed counts (14 open issues and pull requests, pushed 2026-11-08, 643 npm downloads over the trailing month to 2026-11-12).
 - 2026-11-13 - Recorded 4.7.0 (2026-11-12: the Property Editor opened to regular Markdown notes from the Lightbox, the optional Status Dock Time Tracker dial with the shared FlowTime target, the Lightbox settings section, and the stale-context fix letting consecutive Runtime writes finish their index updates) and refreshed counts (pushed 2026-11-12, 828 npm downloads over the trailing month to 2026-11-13).
+- 2026-11-21 - Rotation re-verification with every cited URL re-fetched live (repository page, README, API, the operon.cc runtime overview, npm, the CLI repository, releases including the 4.4.0 notes) and recorded 4.8.0 (2026-11-18: embedded filter dates in daily notes, the palette Start and stop timer command, the mini calendar sidebar, the shared Task and Property Editor section layout, and the settings section-name fix) with counts refreshed (pushed 2026-11-18, 1,095 npm downloads over the trailing month to 2026-11-21); 4.8.0 now the newest release.
 
 ## See also
 

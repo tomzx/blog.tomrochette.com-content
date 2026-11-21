@@ -1,7 +1,7 @@
 ---
 title: Agent Kanban
 created: 2026-10-11
-updated: 2026-11-13
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, multi-agent, source-available, cloudflare]
 readability: 3
@@ -24,7 +24,7 @@ The saltbo identity maintains it under FSL-1.1 (each release converts to Apache-
 ## Status
 
 Active at small scale, with a release gap.
-As of 2026-11-13: 492 stars (as of 2026-10-14), 42 forks, 14 open issues, created 2026-03-20, pushed 2026-11-13, but the newest tagged GitHub release is v1.13.4 from 2026-05-19, so nearly six months of commits have shipped without a tagged release, apparently deployed continuously through Wrangler.
+As of 2026-11-21: 492 stars (as of 2026-10-14), 42 forks, 14 open issues, created 2026-03-20, pushed 2026-11-13, but the newest tagged GitHub release is v1.13.4 from 2026-05-19, so nearly six months of commits have shipped without a tagged release, apparently deployed continuously through Wrangler.
 The 2026-11-13 pushed date is one dependency bump (a hono version bump merged onto main on 2026-11-12); main's newest substantive commit is 2026-09-13 (the ak-maintainer skill), so the quiet stretch at the substance level runs two months.
 
 <picture>
@@ -76,6 +76,7 @@ My disagreeable claim: making the assignee unable to close its own task is the m
 - 2026-10-31 - Rotation re-verification with every cited URL re-fetched live (repository page, task-lifecycle doc, API, releases, HN search): nothing material changed, with v1.13.4 still the newest tag and the last push still 2026-10-02.
 - 2026-11-08 - Rotation re-verification with every cited URL re-fetched live (repository README, task-lifecycle doc, API, releases, HN search): nothing material changed, with v1.13.4 still the newest tag, the last push still 2026-10-02, and the fork count corrected to 42.
 - 2026-11-13 - Recorded the push resumption on main (2026-11-12: a hono dependency bump, one commit) with the newest substantive commit now 2026-09-13, and refreshed counts (14 open issues); v1.13.4 still the newest tag, the release gap now nearly six months.
+- 2026-11-21 - Rotation re-verification with every cited URL re-fetched live (repository page, task-lifecycle doc, API, releases, HN search): nothing material changed, with v1.13.4 still the newest tag, the last push still 2026-11-13, and counts unchanged (42 forks, 14 open issues).
 
 ## See also
 

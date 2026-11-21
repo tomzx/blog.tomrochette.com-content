@@ -1,7 +1,7 @@
 ---
 title: "Context Management Patterns"
 created: 2026-08-24
-updated: 2026-11-19
+updated: 2026-11-21
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash]
 readability: 3
@@ -125,6 +125,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - 2026-11-14 - Link check: all nine cited pages fetched 200, the compaction-survival, skill-cap (5,000 per skill and 25,000 total, oldest dropped first), idle-compaction, v2.1.304 skill-description rebuild, /autocompact, and summary-contents claims re-checked against the live context-window and how-claude-code-works pages with nothing to correct, and the intro as-of left at 2026-11-03 since no fact moved.
 - 2026-11-17 - Link check with one repoint: all nine cited pages fetched 200, the Anthropic engineering post's URL began redirecting from /engineering/ to /research/ and the reference was repointed, and the compaction-survival enumeration re-checked against the live context-window page with nothing to correct (up to five of the session's read-or-edited files re-read by recency, invoked-skill bodies capped at 5,000 per skill and 25,000 in total with the oldest dropped first, skill descriptions rebuilt since v2.1.304, idle compaction named, /autocompact with a token count); the intro as-of re-dated to this run's full re-fetch.
 - 2026-11-19 - Link check with one repoint: all nine cited pages fetched 200 (the OpenCode TUI page repointed to docs/cli/tui/ after its old path began redirecting), the compaction-survival enumeration, skill caps (5,000 per skill and 25,000 in total, oldest dropped first), v2.1.304 skill-description rebuild, /autocompact, and idle-compaction claims re-checked against the live context-window page with nothing to correct, and the intro as-of re-dated to this run's full re-fetch.
+- 2026-11-21 - Link check: all nine cited pages fetched 200, the compaction-survival enumeration, skill caps (5,000 per skill and 25,000 in total, oldest dropped first), v2.1.304 skill-description rebuild, /autocompact, and idle-compaction claims re-checked against the live context-window page with nothing to correct, and the intro as-of left at 2026-11-19 since no fact moved.
 
 ## See also
 
