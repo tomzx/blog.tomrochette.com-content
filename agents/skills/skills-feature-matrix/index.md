@@ -1,7 +1,7 @@
 ---
 title: "Skills Feature Matrix"
 created: 2026-08-24
-updated: 2026-11-19
+updated: 2026-11-21
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, skills, agent-extensions]
 readability: 3
@@ -55,7 +55,7 @@ The permissions row tells the story: SkillMD's published verdicts stopped advert
 The standard needs no registry at all, skills.sh won the distribution slot by wrapping git and symlinking into 79 harnesses, its leaderboard counts opt-out CLI telemetry rather than ratings, one company controls the ranking surface of a nominally open ecosystem, which is the cell I would watch, and skills.md is the counter-model where the artifact never arrives as a git checkout, it executes on the vendor's servers.
 
 **The Agent-Native column is the first pack in the matrix, and it reads differently from the nine infrastructure columns and from the two content columns that joined after it: it consumes the spec's portable core, adds no enforcement of its own, and its pull is toward Builder.io's own stack, the hosted Dispatch MCP endpoint and the hosted plans app its flagship skills default to.**
-The cell to watch is stewardship: the pack has grown to 26 skills (the 11-15 remix addition, after the 10-28 efficient-orchestrator addition with two helpers converted to explicit-only aliases) with an experimental factory family, the catalog ships an MIT LICENSE file and the framework's license signal healed on 2026-10-20 (root LICENSE file restored, package.json back to MIT, GitHub detection agreeing, catalog 4.6k and framework 7.1k stars, npm now 0.4.10), and there is still no independent coverage as of 2026-11-19, so the pack is one company's opinion on a multiple-releases-a-day cadence.
+The cell to watch is stewardship: the pack has grown to 26 skills (the 11-15 remix addition, after the 10-28 efficient-orchestrator addition with two helpers converted to explicit-only aliases) with an experimental factory family, the catalog ships an MIT LICENSE file and the framework's license signal healed on 2026-10-20 (root LICENSE file restored, package.json back to MIT, GitHub detection agreeing, catalog 4.6k and framework 7.1k stars, npm now 0.4.10), and there is still no independent coverage as of 2026-11-21, so the pack is one company's opinion on a multiple-releases-a-day cadence.
 
 **Fourteen of the fifteen columns cost nothing outright, and the missing row is still versioning.**
 skills.md is the first paid column (Pro $12 per month with 1,500 credits bundled, repriced from $10 on 2026-10-17, plus per-run credits), Snyk's scanner is free on a Snyk account with the enterprise Evo fleet reporting paid, the spec has no version or dependency story, OpenCode has none, Anthropic versions only through its Skills API, and pinning is left to git discipline or third parties like Skilleton.
@@ -112,6 +112,7 @@ skills.md is the first paid column (Pro $12 per month with 1,500 credits bundled
 - 2026-11-16 - The SkillMD review-coverage figure moved to 2,229 of about 1.22M as of 2026-11-16 in the permissions cell and reading prose (the reviewed count's third movement, up from the 2,204 recorded on 2026-11-12), and the reading prose's Agent-Native pack figure moved to 26 skills (the 11-15 remix addition) with its no-coverage date re-run to 2026-11-16; no cells moved.
 - 2026-11-17 - The SkillMD review-coverage figure moved to 2,233 of about 1.24M as of 2026-11-17 in the permissions cell and reading prose (the reviewed count's fourth movement, up from the 2,229 recorded on 2026-11-16), and the reading prose's Agent-Native npm figure moved to 0.4.8 (the 11-16 named release-package train); no cells moved.
 - 2026-11-19 - The SkillMD permissions cell and reading prose now record the registry's display change (the reviewed count retired with the last reading 2,233 of about 1.24M on 2026-11-17, the hero labeling all 1,335,850 indexed skills safety-reviewed), the Snyk versioning cell moved to v0.7.0 (published 2026-11-18, the remote-discovery rollout), and the reading prose's Agent-Native npm figure moved to 0.4.10 with its no-coverage date re-run to 2026-11-19.
+- 2026-11-21 - The reading prose's Agent-Native no-coverage date re-run to 2026-11-21 (the 11-19 pack push added an Anthropic-plugin packaging of turn-into-app, not a skill, so the pack figure held at 26 and the npm figure held at 0.4.10); no cells moved.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: claude-replay
 created: 2026-10-07
-updated: 2026-11-13
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, replay, shareable-artifacts]
 readability: 3
@@ -23,7 +23,7 @@ A built-in web editor lets you exclude turns, add bookmarks, and edit prompts be
 
 ## Status
 
-Active with a quiet recent month: created 2026-03-02, 844 stars, 69 forks, the default branch's last commit 2026-11-13 landing on side branches (the default branch's own last commit is the 2026-10-31 GitHub Actions dependency bump, the only commits since 2026-09-18 being actions bumps on 10-16 and 10-31), as of 2026-11-13.
+Active but quiet since mid-September: created 2026-03-02, 844 stars, 69 forks, nothing pushed since 2026-11-13 (that push landed on side branches; the default branch's own last commit is the 2026-10-31 GitHub Actions dependency bump, the only commits since 2026-09-18 being actions bumps on 10-16 and 10-31), as of 2026-11-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=es617/claude-replay&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Active with a quiet recent month: created 2026-03-02, 844 stars, 69 forks, the d
 </picture>
 
 The project carries an explicit endorsement listing in the awesome-claude-code directory, which calls the output "fantastic".
-Its own traction numbers are modest but growing: 5,481 npm downloads in the trailing month to 2026-11-13 (up from 2,500 to 2026-10-29) and no Hacker News thread of its own, so adoption evidence is the star curve and the directory listing, not download volume.
+Its own traction numbers are modest but growing: 8,102 npm downloads in the trailing month to 2026-11-21 (up from 5,481 to 2026-11-13) and no Hacker News thread of its own, so adoption evidence is the star curve and the directory listing, not download volume.
 
 ## Strengths
 
@@ -71,6 +71,7 @@ Not for cost auditing, search, or analytics, and not for teams needing many acti
 - 2026-10-25 - Converted the adoption claim to the trailing-month window per the 2026-10-22 npm ruling (1,698 downloads in the month to 2026-10-22), with the reference moved to the range endpoint.
 - 2026-10-31 - Volatile re-verification: the 2026-10-31 push is a second GitHub Actions dependency bump (docker/login-action), so the quiet-since-2026-09-18 caution stands with two actions bumps as the only commits since; trailing-month downloads refreshed (1,698 to 2,500, window 2026-09-30 to 2026-10-29); repository counts unchanged.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched and live (the repository page and API record, the es617.dev converter page unchanged across its seven harnesses and six themes, the trailing-month npm range, and the awesome-claude-code endorsement listing still naming the output fantastic); the release line unchanged at v0.11.0, the default branch quiet since the 2026-10-31 actions bump with the 2026-11-13 push landing on side branches, and trailing-month downloads refreshed (2,500 to 5,481, window 2026-10-14 to 2026-11-13); repository counts unchanged (forks 69).
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched and live (the repository page and API record, the es617.dev converter page, the npm range endpoint, and the awesome-claude-code endorsement listing still naming the output fantastic); the release line unchanged at v0.11.0 and npm latest still 0.11.0, the default branch still quiet since the 2026-10-31 actions bump with nothing pushed since 2026-11-13, and trailing-month downloads refreshed (5,481 to 8,102, window 2026-10-22 to 2026-11-21); repository counts unchanged (forks 69).
 
 ## See also
 
@@ -81,8 +82,8 @@ Not for cost auditing, search, or analytics, and not for teams needing many acti
 
 ## References
 
-- https://github.com/es617/claude-replay - repository, MIT license, the seven-harness table with transcript locations, and the feature list (re-fetched 2026-11-13)
-- https://api.github.com/repos/es617/claude-replay - stars, forks, created date, and push date for the as-of status (re-fetched 2026-11-13)
-- https://es617.dev/claude-replay/ - the web conversion surface, themes, export options, redaction, and Docker mode (re-fetched 2026-11-13)
-- https://api.npmjs.org/downloads/range/2026-10-14:2026-11-13/claude-replay - trailing-month download volume for the adoption claim (5,481 to 2026-11-13, fetched 2026-11-13), per the trailing-month window ruling
-- https://raw.githubusercontent.com/hesreallyhim/awesome-claude-code/HEAD/README.md - the directory endorsement grounding the community-recognition claim (re-fetched 2026-11-13)
+- https://github.com/es617/claude-replay - repository, MIT license, the seven-harness table with transcript locations, and the feature list (re-fetched 2026-11-21)
+- https://api.github.com/repos/es617/claude-replay - stars, forks, created date, and push date for the as-of status (re-fetched 2026-11-21)
+- https://es617.dev/claude-replay/ - the web conversion surface, themes, export options, redaction, and Docker mode (re-fetched 2026-11-21)
+- https://api.npmjs.org/downloads/range/2026-10-22:2026-11-21/claude-replay - trailing-month download volume for the adoption claim (8,102 to 2026-11-21, fetched 2026-11-21), per the trailing-month window ruling
+- https://raw.githubusercontent.com/hesreallyhim/awesome-claude-code/HEAD/README.md - the directory endorsement grounding the community-recognition claim (re-fetched 2026-11-21)

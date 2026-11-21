@@ -1,7 +1,7 @@
 ---
 title: CubeSandbox
 created: 2026-09-16
-updated: 2026-11-13
+updated: 2026-11-21
 readability: 3
 audience_notes: >
   Engineers comparing self-hosted alternatives to hosted sandbox APIs, who need to serve untrusted agent code at density on their own fleet.
@@ -29,7 +29,8 @@ Documentation, changelogs, and examples (code execution, browser automation, Ope
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TencentCloud/CubeSandbox&type=date&legend=top-left" />
 </picture>
 
-Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest stable v0.8.0 on 2026-11-12, pushed 2026-11-13, 1,191 forks, 221 open issues and PRs as of 2026-11-13.
+Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest stable v0.8.0 on 2026-11-12, pushed 2026-11-21, 1,241 forks, 241 open issues and PRs as of 2026-11-21.
+The post-v0.8.0 train continues unreleased through 2026-11-21: an NFS volume plugin, E2B-compatibility improvements to the sandbox list and get responses, exec process exit-code preservation in the CLI, a shared lock for snapshot-create reservations, a Traditional Chinese locale, a cubelet fix detaching host-directory mounts whose FUSE source was deleted, and a docs restructure (storage split into volume usage and plugin development, tracing and observability guides, E2B and CubeSandbox quickstarts split into tabs).
 The v0.8.0 cycle that opened on 2026-11-10 shipped as stable v0.8.0 on 2026-11-12 after rc4, a 128-PR cut from 46 contributors: a JuiceFS COW storage backend (preview) that shares templates across nodes and resumes or cold-boots a sandbox on a different node, filesystem-only snapshots to cut storage cost, sandbox restart policies that revive a sandbox when the service inside crashes, a scheduler plugin system driven by CEL expressions or external gRPC plugins plus a scheduling-quality simulation framework, E2B SDK 2.51.0-or-later compatibility through the `/v2/sandboxes` endpoints with no adapter layer, sandbox metrics and log collection with default Prometheus and Grafana dashboards, sandbox-to-sandbox TCP access through host port mapping, and a vsock throughput jump from about 5.7 to about 9.3 Gbps by enabling `VIRTIO_RING_F_EVENT_IDX`.
 The post-release commit train continued through 2026-11-07, unreleased past v0.7.3: an E2B-compatible `Sandbox.fork` and a `Sandbox.is_running` check in the Python, Node, and Go SDKs, a node-local sandbox restart policy (Never, OnFailure, Always), template-level sandbox QoS classes, external volume mounts on cold boot, a CubeOps CLI that classifies nodes by host facts, cubelet fixes (restart configuration preserved across pause and resume, orphan TAP policies initialized asynchronously), JuiceFS work (the jfs mount container unprivileged, ext4 eagerly distributed to nodes), cursor pagination for the v2 sandboxes list, fixes across CubeCoW, CubeVS, CubeEgress, and virtiofsd, WebSocket upgrade-header forwarding in CubeEgress, a template alias surfaced in sandbox responses, a Kubernetes operator DNS-resolver opt-in, and published case studies (OUC Online, KakuriZai, OMA).
 The train moved twice on 2026-10-12: v0.7.3-rc1 and rc2 opened the next release cycle in the morning, and v0.7.3 itself shipped the same day, adding E2B-compatible MCP support (an in-sandbox MCP gateway option returned by the Python, Node, and Go SDKs, with a reference implementation under examples/mcp-gateway), faster cross-node restore that lazy-loads instead of copying the disk, an S3lvol hot upgrade cutting upgrade I/O pause from about 40 seconds to about 8, and a roughly 41 percent faster pause, alongside a dated `kernel-release-261012-1` tag shipping dedicated kernel assets for bare-metal and PVM guest and host, so the project now distributes its own guest kernels alongside the sandbox releases.
@@ -81,6 +82,7 @@ Not for macOS or workstation use, and not for anyone who needs independently ver
 - 2026-11-07 - The post-release train advanced through 2026-11-07 (E2B-compatible Sandbox.is_running across the SDKs, template-level sandbox QoS, external volume mounts on cold boot, the CubeOps node-classification CLI, cubelet restart-config preservation across pause and resume, unprivileged JuiceFS mounts, and OUC Online, KakuriZai, and OMA case studies), with open issues and PRs at 207 and the repository pushed 2026-11-07; v0.7.3 remains the latest release.
 - 2026-11-12 - Recorded the v0.8.0 cycle opening (the rc1, rc2, and rc3 tags of 2026-11-10 through 2026-11-12, which carry no release notes, with main's train showing the cubedb utf8mb4 migration and release-image bumps), with open issues and PRs at 219 and the repository pushed 2026-11-12; v0.7.3 remains the newest stable.
 - 2026-11-13 - Recorded the stable v0.8.0 release of 2026-11-12 (the JuiceFS COW backend with cross-node template sharing and resume, filesystem-only snapshots, sandbox restart policies, the scheduler plugin system and scheduling-quality framework, E2B SDK 2.51.0+ compatibility over the /v2/sandboxes endpoints, metrics and log collection with Prometheus and Grafana dashboards, and the vsock throughput jump from about 5.7 to about 9.3 Gbps), absorbing the previously recorded post-release train, with open issues and PRs at 221 and the repository pushed 2026-11-13.
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched and alive (repository data, the license record, the latest-release record, PyPI now at 0.8.0, the project site, and the three HN threads holding at 7, 5, and 3 points), the post-v0.8.0 train recorded through 2026-11-21 (the NFS volume plugin, E2B-compat sandbox-info improvements, exec exit-code preservation, the snapshot-reservation lock, and the docs restructure), v0.8.0 still the newest release, with counts refreshed (1,241 forks, 241 open issues and PRs) and the repository pushed 2026-11-21.
 
 ## See also
 
@@ -96,7 +98,7 @@ Not for macOS or workstation use, and not for anyone who needs independently ver
 - https://api.github.com/repos/TencentCloud/CubeSandbox - stars, forks, license detection, creation and push dates as of 2026-09-21
 - https://api.github.com/repos/TencentCloud/CubeSandbox/license - the LICENSE text: Apache-2.0 plus the listed third-party component licenses
 - https://api.github.com/repos/TencentCloud/CubeSandbox/releases/latest - the v0.7.2 release of 2026-09-24
-- https://pypi.org/pypi/cubesandbox/json - the Python SDK on PyPI (0.7.3 as of 2026-10-20)
+- https://pypi.org/pypi/cubesandbox/json - the Python SDK on PyPI (0.8.0 as of 2026-11-21)
 - https://cubesandbox.com - the live project site
 - https://hn.algolia.com/api/v1/items/47863430 - the team's 7-point Show HN launch and the confirming team comment
 - https://hn.algolia.com/api/v1/items/47879216 - the 5-point second submission one day later

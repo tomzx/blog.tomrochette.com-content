@@ -15,6 +15,7 @@ End-to-end agent factories: stamped pipelines, learning loops, fleet harnesses, 
 - [Fusion](fusion/index.md) - the MIT board-first factory built on Pi that runs every task through plan, review, execute, review steps in worktrees, with multi-node mesh, phone control, and auto-merge on green gates.
 - [HAR](har/index.md) - the open harness that isolates a fleet of coding agents in worktrees with deterministic verification and an evidence trail.
 - [Loki Mode](loki-mode/index.md) - Autonomi's source-available local factory that derives a delivery contract from a brief and closes with a signed, offline-checkable Evidence Receipt.
+- [LoopForge](loopforge/index.md) - Tencent's MIT self-hosted delivery platform whose chat Main Bot hands a proven workflow to a stored SOP of agent, script, human-gate, and sub-SOP nodes in Docker sandboxes.
 - [Machinist](machinist/index.md) - the Go control plane that never starts agents, with dial-in runners, stage-gated jobs, and merge-by-automation only, early access, zero independent coverage.
 - [Open SWE](open-swe/index.md) - LangChain's async coding agent, rebranded Robin, that takes Slack threads, Linear issues, and PR conversations through sandboxed investigation, implementation, and validation to delivered pull requests, with review and CI in the loop and one deployment per trust boundary.
 - [Open-Inspect](open-inspect/index.md) - the community's open replica of Ramp's Inspect: a single-tenant, self-hosted background agent that takes sessions from web, Slack, GitHub, and Linear to attributed pull requests, with per-session scoped sandbox credentials and no release train.
@@ -39,3 +40,4 @@ Its members are compared on shared rows in the [Software Factory Feature Matrix]
 - 2026-10-11 - Added Fusion.
 - 2026-11-07 - Added Open SWE.
 - 2026-11-07 - Added Open-Inspect.
+- 2026-11-21 - Added LoopForge.

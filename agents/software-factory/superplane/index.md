@@ -1,7 +1,7 @@
 ---
 title: SuperPlane
 created: 2026-10-07
-updated: 2026-11-15
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, self-hosted]
 readability: 3
@@ -21,7 +21,7 @@ The core is Apache-2.0 with integrations across source control, CI, cloud, obser
 
 ## Status
 
-Active: 7,709 stars as of 2026-10-14, 708 forks and 242 open issues as of 2026-11-15, pushed 2026-11-15 while main's newest commit stays the 2026-11-13 merge-confidence check, per the GitHub API.
+Active: 7,709 stars as of 2026-10-14, 712 forks and 296 open issues as of 2026-11-21, pushed 2026-11-21 while main's newest commit is the 2026-11-20 subscription-models fix for custom automations, per the GitHub API.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&theme=dark&legend=top-left" />
@@ -42,7 +42,7 @@ The repository now carries the software-factory topic and the website and docs s
 
 ## Cautions
 
-- **v1.0.0 is still the only stable platform tag nineteen days later**: the first stable platform tag landed 2026-10-27 against daily main pushes (the newest main commit, a merge-confidence running check of 2026-11-13, is unreleased), so tag-tracking self-hosters jump three months of main at once, and the stable train's own track record is one release; the component train holds at runner v0.2.1 and fleet-manager v0.1.7.
+- **v1.0.0 is still the only stable platform tag twenty-five days later**: the first stable platform tag landed 2026-10-27 against daily main pushes (the newest main commit, a subscription-models fix of 2026-11-20, is unreleased), so tag-tracking self-hosters jump three months of main at once, and the stable train's own track record is one release; the component train holds at runner v0.2.1 and fleet-manager v0.1.7.
 - **Open-core split**: the /ee directory sits under a separate Enterprise Edition license, and GitHub cannot classify the result.
 - **Young platform surface**: 463 open issues and a January control-plane-to-factory pivot mean the docs story is still settling.
 - **It is broader than a factory**: workflow automation across observability and incidents puts it in workflow-platform territory too, which dilutes the factory comparison.
@@ -86,6 +86,7 @@ Not for local-first, single-repo loops, and not for anyone who needs a stable re
 - 2026-10-31 - Recorded fleet-manager v0.1.7 (2026-10-28, a container image and chart digest bump with no feature notes) advancing the component train; pushed date refreshed.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched (repository and releases via the API, the site, the docs overview, the LICENSE files, the pricing page, the Show HN thread, and the founder profile) and all claims confirmed except pricing; recorded the repricing (Business $199 per organization per month replaced by Pay-as-you-go $0 plus usage, Starter $20 per organization per month, and Team $50 per user per month, the OSS Projects free tier gone, usage at provider rate plus 10 percent on SuperPlane-provided tokens), with the Price history row appended; pushed and counts refreshed, no release past fleet-manager v0.1.7.
 - 2026-11-14 - Volatile re-verification: pushed date and open-issue count refreshed, the newest main commit now a merge-confidence running check (2026-11-13, unreleased), and no release past fleet-manager v0.1.7; no material change.
+- 2026-11-21 - Volatile re-verification: pushed date and counts refreshed (712 forks, 296 open issues), the newest main commit now the 2026-11-20 subscription-models fix for custom automations (unreleased), no release past fleet-manager v0.1.7, and the pricing page re-fetched unchanged (Pay-as-you-go, Starter $20, Team $50, Enterprise custom); no material change.
 
 ## See also
 
@@ -102,5 +103,5 @@ Not for local-first, single-repo loops, and not for anyone who needs a stable re
 - https://docs.superplane.com/get-started/overview - the factory docs overview
 - https://github.com/superplanehq/superplane/blob/main/LICENSE - Apache-2.0 core with the /ee Enterprise Edition license
 - https://news.ycombinator.com/item?id=46793814 - the January 2026 Show HN as an open source DevOps control plane, 21 points
-- https://api.github.com/repos/superplanehq/superplane/releases - the release train: v1.0.0 (2026-10-27) the first stable platform tag, fleet-manager v0.1.7 (2026-10-28) the newest component tag, after the rc1-through-rc9 train and the v0.30.0 July tag (as of 2026-11-01)
+- https://api.github.com/repos/superplanehq/superplane/releases - the release train: v1.0.0 (2026-10-27) the first stable platform tag, fleet-manager v0.1.7 (2026-10-28) the newest component tag, after the rc1-through-rc9 train and the v0.30.0 July tag (as of 2026-11-21)
 - https://github.com/markoa - Marko Anastasov, SuperPlaneHQ and Semaphore cofounder

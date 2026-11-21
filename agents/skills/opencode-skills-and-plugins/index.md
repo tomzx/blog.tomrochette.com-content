@@ -1,7 +1,7 @@
 ---
 title: OpenCode skills and plugins
 created: 2026-08-24
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, skills, plugins, opencode, agent-extensions]
 readability: 3
@@ -23,9 +23,9 @@ Plugins are JS/TS modules from `.opencode/plugins` or npm (installed via Bun at 
 
 ## Status
 
-**Active; the skills and plugins docs are maintained closely, both re-fetched unchanged in substance on 2026-11-14.**
-The host project (anomalyco/opencode) shows about 213.3k stars under MIT as of 2026-10-13, and the v2 line is now the shipping release train: v2.2.0 through v2.3.0 published 2026-10-27 to 11-13 (v2.2.6 on 11-06, v2.2.7 on 11-10, v2.3.0 on 11-13), with the 1.x line quiet beside it since v1.19.5 (2026-10-28), after the v2 redesign had lived only in its own docs tree.
-The ecosystem page lists 31 community plugins, 10 projects, and 2 agent collections under separate section headers (recounted 2026-11-14; the page states no count itself), the same 43 rows the 10-24 reading counted as "43 plugins" before the page was re-sectioned.
+**Active; the skills and plugins docs are maintained closely, both re-fetched unchanged in substance on 2026-11-21.**
+The host project (anomalyco/opencode) shows about 213.3k stars under MIT as of 2026-10-13, and the v2 line is now the shipping release train: v2.2.0 through v2.3.2 published 2026-10-27 to 11-18 (v2.2.6 on 11-06, v2.2.7 on 11-10, v2.3.0 on 11-13, v2.3.1 on 11-17, v2.3.2 on 11-18), with the 1.x line's quiet stretch since v1.19.5 (2026-10-28) ended by v1.19.6 (2026-11-17), after the v2 redesign had lived only in its own docs tree.
+The ecosystem page lists 31 community plugins, 10 projects, and 2 agent collections under separate section headers (recounted 2026-11-21; the page states no count itself), the same 43 rows the 10-24 reading counted as "43 plugins" before the page was re-sectioned.
 There is no first-party skill marketplace; distribution rides plain git or third parties like skills.sh.
 
 ## Strengths
@@ -69,6 +69,7 @@ My disagreeable claim: plugins, not skills, are OpenCode's actual differentiator
 - 2026-10-31 - The v2 line became the shipping release train: v2.2.0 through v2.2.5 published 2026-10-27 to 10-30 (the 1.x line still releasing v1.19.5 on 10-28), so the v2 redesign is no longer docs-only; the same rotation pass corrected the 10-24 ecosystem reading, finding the page re-sectioned into Plugins, Projects, and Agents, with 31 plugin rows plus 10 project and 2 agent entries (the same 43 rows previously counted as "43 plugins"); every cited URL re-fetched live and all other claims held.
 - 2026-11-07 - Out-of-rotation correction on a moving source: the unified skills docs page no longer carries the "OpenCode 1 uses no metadata keys" disclaimer and now documents the v2 catalog surface directly (HTTP catalogs in opencode.json, `opencode/autoinvoke` and `disable-model-invocation` opt-outs, `@skill-id` loads, ID precedence, "all frontmatter is optional at runtime"); the What-it-is and caution lines re-grounded on today's fetch, conclusion unchanged, and every other cited URL re-fetched live with claims held.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched live; the release train moved to v2.3.0 (published 2026-11-13) via v2.2.6 and v2.2.7 with the 1.x line quiet since v1.19.5, the skills docs pages re-fetched unchanged in substance with the What-it-is frontmatter clause corrected to all-optional at runtime, the plugins docs reorganized config-first with a `plugin` CLI (claims held), the ecosystem counts held (31 plugins, 10 projects, 2 agents, recounted 11-14), and the Vercel CLI compatibility matrix still shows no `context: fork` or hooks support in OpenCode.
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched live; the release train moved to v2.3.2 (published 2026-11-18) via v2.3.1 (11-17) and the 1.x line's quiet stretch ended with v1.19.6 (published 2026-11-17), both grounded through the tags endpoint; the skills docs (unified and v2, still identical) and the plugins docs re-fetched unchanged in substance; the ecosystem counts held (31 plugins, 10 projects, 2 agents, recounted 11-21); and the Vercel CLI compatibility matrix still shows no `context: fork` or hooks support in OpenCode, while the agentskills.io client showcase dropped out of the static fetch (client-side rendering), so its listing claim keeps its dated last reading per the display-change ruling.
 
 ## See also
 
@@ -80,10 +81,10 @@ My disagreeable claim: plugins, not skills, are OpenCode's actual differentiator
 
 ## References
 
-- https://opencode.ai/docs/skills/ - skill paths, frontmatter, permissions, the skill tool; the unified page as of 2026-11-14 documents the v2 catalog surface directly (HTTP catalogs, the autoinvoke and disable-model-invocation opt-outs, `@skill-id` loads) with no OpenCode-1 metadata disclaimer, and states all frontmatter is optional at runtime (re-fetched 2026-11-14, claims held)
-- https://opencode.ai/v2/docs/skills/ - the v2 skills docs: HTTP catalogs, single-file skills, ID precedence, the autoinvoke/disable-model-invocation opt-outs, and explicit `@skill-id` loading (fetched 2026-10-24, re-fetched 2026-10-31 and 2026-11-14, identical content to the unified page)
-- https://opencode.ai/docs/plugins/ - plugin model, event hooks, npm installation, custom tools (re-fetched 2026-11-14, claims held; the page is now organized around the `opencode.json` plugins array and a `plugin` add/list/check/update/remove CLI with version pinning)
-- https://opencode.ai/docs/ecosystem/ - community inventory under Plugins, Projects, and Agents section headers: 31 plugin rows, 10 projects, 2 agent collections recounted 2026-11-14 (the page states no count)
-- https://github.com/anomalyco/opencode - host project scale and MIT license as of 2026-10-24; release trains re-verified 2026-11-14 (v2.2.6 on 11-06, v2.2.7 on 11-10, v2.3.0 on 11-13, the 1.x line quiet since v1.19.5 on 10-28)
-- https://agentskills.io/ - lists OpenCode among the standard's clients
-- https://github.com/vercel-labs/skills - compatibility matrix (`context: fork` and hooks unsupported in OpenCode, re-fetched 2026-11-14, unchanged)
+- https://opencode.ai/docs/skills/ - skill paths, frontmatter, permissions, the skill tool; the unified page as of 2026-11-21 documents the v2 catalog surface directly (HTTP catalogs, the autoinvoke and disable-model-invocation opt-outs, `@skill-id` loads) with no OpenCode-1 metadata disclaimer, and states all frontmatter is optional at runtime (re-fetched 2026-11-21, claims held)
+- https://opencode.ai/v2/docs/skills/ - the v2 skills docs: HTTP catalogs, single-file skills, ID precedence, the autoinvoke/disable-model-invocation opt-outs, and explicit `@skill-id` loading (fetched 2026-10-24, re-fetched 2026-10-31, 2026-11-14, and 2026-11-21, identical content to the unified page)
+- https://opencode.ai/docs/plugins/ - plugin model, event hooks, npm installation, custom tools (re-fetched 2026-11-21, claims held; the page is now organized around the `opencode.json` plugins array and a `plugin` add/list/check/update/remove CLI with version pinning)
+- https://opencode.ai/docs/ecosystem/ - community inventory under Plugins, Projects, and Agents section headers: 31 plugin rows, 10 projects, 2 agent collections recounted 2026-11-21 (the page states no count)
+- https://github.com/anomalyco/opencode - host project scale and MIT license as of 2026-10-24; release trains re-verified 2026-11-21 through the tags endpoint (v2.3.1 on 11-17, v2.3.2 on 11-18, the 1.x line's v1.19.6 on 11-17 after the v1.19.5 quiet stretch)
+- https://agentskills.io/ - lists OpenCode among the standard's clients (the client showcase list dropped out of the 2026-11-21 static fetch behind client-side rendering; the listing's last verified reading is 2026-11-14)
+- https://github.com/vercel-labs/skills - compatibility matrix (`context: fork` and hooks unsupported in OpenCode, re-fetched 2026-11-21, unchanged)

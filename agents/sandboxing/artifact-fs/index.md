@@ -1,7 +1,7 @@
 ---
 title: ArtifactFS
 created: 2026-08-30
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, workspace-provisioning, git, cloudflare, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, Go 1.26+, source build only, no packaged releases.
 
 ## Status
 
-Early beta: 1,190 stars as of 2026-10-16, 56 forks and 10 open issues as of 2026-11-14, created 2026-03-29, last push 2026-11-13 (branch activity; the main branch has been quiet since 2026-08-12).
+Early beta: 1,190 stars as of 2026-10-16, 57 forks and 15 open issues as of 2026-11-21, created 2026-03-29, last push 2026-11-13 (branch activity; the main branch has been quiet since 2026-08-12).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cloudflare/artifact-fs&type=date&theme=dark&legend=top-left" />
@@ -52,8 +52,8 @@ Tags run `1.0.0-rc.1` through `rc.10` with no GitHub Releases; 57 commits concen
 ## Pricing
 
 The driver is free, Apache-2.0.
-The Cloudflare Artifacts service it complements is usage-based on Workers Paid: 10,000 operations and 1 GB-month included, then $0.15 per additional 1,000 operations and $0.50 per GB-month, still in closed beta.
-The pricing page (updated 2026-10-28, re-fetched 2026-11-14) still states billing for Artifacts operations and storage begins on 2026-11-12, a start date now past, after the previously stated 2026-10-14 passed without billing, at the baseline rates below, unchanged.
+The Cloudflare Artifacts service it complements is usage-based on Workers Paid: 10,000 operations and 1 GB-month included, then $0.15 per additional 1,000 operations and $0.50 per GB-month, with reads of repo content billed at a 100:1 ratio and token operations at 5:1.
+The pricing page (updated 2026-11-19, re-fetched 2026-11-21) states billing for Artifacts operations and storage begins on 2026-11-19, after the previously stated 2026-11-12 start, at the baseline rates below, unchanged; a repository-count tier (first 100,000 repositories per month included, then $0.01 per repository) is announced as coming soon, explicitly excluded from the November 19 start.
 
 ## Price history
 
@@ -62,6 +62,8 @@ The pricing page (updated 2026-10-28, re-fetched 2026-11-14) still states billin
 | 2026-09 | Cloudflare Artifacts | Baseline: driver free (Apache-2.0); Artifacts usage-based on Workers Paid with 10,000 operations and 1 GB-month included, then $0.15 per additional 1,000 operations and $0.50 per GB-month, closed beta. | [Cloudflare Artifacts pricing](https://developers.cloudflare.com/artifacts/platform/pricing/) |
 | 2026-10-14 | Cloudflare Artifacts | Billing for Artifacts operations and storage begins on this date, at the baseline rates (first 10,000 operations and 1 GB-month included on Workers Paid). | [Cloudflare Artifacts pricing](https://developers.cloudflare.com/artifacts/platform/pricing/) |
 | 2026-10-28 | Cloudflare Artifacts | Billing start moved from 2026-10-14 (passed without billing) to 2026-11-12; rates unchanged. | [Cloudflare Artifacts pricing](https://developers.cloudflare.com/artifacts/platform/pricing/) |
+| 2026-11-21 | Cloudflare Artifacts | Billing start moved from 2026-11-12 to 2026-11-19; operation and storage rates unchanged, with read operations (100:1) and token operations (5:1) ratios documented. | [Cloudflare Artifacts pricing](https://developers.cloudflare.com/artifacts/platform/pricing/) |
+| 2026-11-21 | Cloudflare Artifacts | Repository-count tier announced as coming soon: first 100,000 repositories per month included on Workers Paid, then $0.01 per repository, not part of the 2026-11-19 billing start. | [Cloudflare Artifacts pricing](https://developers.cloudflare.com/artifacts/platform/pricing/) |
 
 ## Compared to
 
@@ -85,6 +87,7 @@ Not for small or medium repos, Windows or locked-down CI environments, or anyone
 - 2026-11-01 - Volatile refresh: the push advanced to 2026-11-01 on feature and dependency branches with main still quiet since 2026-08-12, and the Artifacts pricing page re-checked unchanged at the baseline rates.
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched and alive (repository data through the GitHub API, the launch post, the usage guide, the pricing page, the 217-point thread, the README); the main branch still quiet since 2026-08-12 with the push holding at 2026-11-01 and the rc.1-through-rc.10 tag list re-confirmed, the fork and open-issue counts refreshed (55 forks, 10 open issues, as of 2026-11-08, the star figure untouched per the exemption), and the pricing page's billing start moved to 2026-11-12 with the rates unchanged (recorded in Price history).
 - 2026-11-14 - Volatile refresh: the push advanced to 2026-11-13 on branch activity with main still quiet since 2026-08-12, the fork count moved to 56 as of 2026-11-14, and the Artifacts pricing page re-checked unchanged at the baseline rates, still naming the 2026-11-12 billing start that has now passed.
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched and alive (repository data through the GitHub API, the launch post, the usage guide, the pricing page, the 217-point thread, the README), the main branch re-confirmed quiet since 2026-08-12 with the push holding at 2026-11-13, and the fork and open-issue counts refreshed to 57 and 15 as of 2026-11-21; the pricing change recorded: the Artifacts billing start moved from 2026-11-12 to 2026-11-19 at unchanged rates, and a repository-count tier (first 100,000 per month included, then $0.01 per repository) announced as coming soon outside that start.
 
 ## See also
 

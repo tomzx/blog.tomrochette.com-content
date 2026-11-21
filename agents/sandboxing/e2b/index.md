@@ -1,7 +1,7 @@
 ---
 title: E2B
 created: 2026-10-06
-updated: 2026-11-14
+updated: 2026-11-21
 readability: 3
 audience_notes: >
   Engineers choosing where agent code execution runs, comparing the hosted sandbox API against the self-hosted platforms.
@@ -23,7 +23,7 @@ The cloud is SOC 2 Type II compliant with US, EU, and APAC regions; enterprise t
 
 ## Status
 
-Active and well funded: the SDK repo stands at 14,378 stars and the runtime repo at 1,725 stars as of 2026-10-16, the SDK repo created 2023-03-04 and pushed 2026-11-14 (the runtime repo pushed 2026-10-24), with the e2b package on PyPI at 2.63.0 (as of 2026-11-12) after the 2.56.0 release of 2026-10-13 opened the next train.
+Active and well funded: the SDK repo stands at 14,378 stars and the runtime repo at 1,725 stars as of 2026-10-16, the SDK repo created 2023-03-04 and pushed 2026-11-21 (the runtime repo pushed 2026-10-24), with the e2b package on PyPI at 2.64.0 (as of 2026-11-21, matching the npm latest tag) after the 2.56.0 release of 2026-10-13 opened the next train.
 The 2.56.0 cut is a breaking one for JavaScript users: Node.js 22 is now the minimum, the SDK depends on undici 8 only, and the SDK-level in-flight request caps and their environment variables are removed in favor of undici's connection pools.
 2.57.0 and 2.58.0 followed on 2026-10-20 (a tls option for the egress proxy connection, and streaming stdin and PTY input handles), and 2.59.0 on 2026-10-22 added per-sandbox DNS server allowlists inside the egress firewall while deprecating the apiUrl and sandboxUrl connection options and their environment variables ahead of removal in the next major.
 2.60.0 and 2.61.0 both shipped on 2026-10-26: 2.60.0 reworked retry handling around the server's `Should-Retry` header (dropping the method and replayable-operation allowlists and no longer retrying post-send network errors) and bumped undici to 8.12.2 to fix CVE-2026-109869 (high, a denial of service via unhandled error on excessive content-encodings), while 2.61.0 added an `idempotencyKey` option to `Sandbox.create` so a retried creation request cannot mint duplicate sandboxes.

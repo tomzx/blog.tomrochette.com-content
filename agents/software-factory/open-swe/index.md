@@ -1,7 +1,7 @@
 ---
 title: Open SWE
 created: 2026-11-07
-updated: 2026-11-15
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, async-coding-agent, langchain, multi-agent]
 readability: 3
@@ -22,7 +22,7 @@ It is built by LangChain, and the README states plainly that it is under active 
 
 ## Status
 
-Active and heavily pushed: 11,177 stars since creation on 2025-05-21, pushed 2026-11-15, MIT, per the GitHub API as of 2026-11-15.
+Active and heavily pushed: 11,177 stars since creation on 2025-05-21, pushed 2026-11-21, MIT, per the GitHub API as of 2026-11-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/open-swe&type=date&theme=dark&legend=top-left" />
@@ -30,7 +30,7 @@ Active and heavily pushed: 11,177 stars since creation on 2025-05-21, pushed 202
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=langchain-ai/open-swe&type=date&legend=top-left" />
 </picture>
 
-**The arc runs from framework to product: the March 2026 launch post sold Open SWE as an open-source framework capturing the internal-agent patterns of Stripe's Minions, Ramp's Inspect, and Coinbase's Cloudbot, and by November 2026 the README sells Robin, a software factory, with the rebrand carried through desktop releases (Robin Desktop v0.3.17 of 2026-11-15 the newest stable desktop tag, a nightly train above it), docs, and the CLI.**
+**The arc runs from framework to product: the March 2026 launch post sold Open SWE as an open-source framework capturing the internal-agent patterns of Stripe's Minions, Ramp's Inspect, and Coinbase's Cloudbot, and by November 2026 the README sells Robin, a software factory, with the rebrand carried through desktop releases (Robin Desktop v0.3.19 of 2026-11-17 the newest stable desktop tag, a nightly train above it), docs, and the CLI.**
 The HN footprint is one launch-day story at 111 points (2025-08-08, submitted by a LangChain member) with light discussion, about five top-level comments, so the star count runs far ahead of the debate.
 
 ## Strengths
@@ -71,6 +71,7 @@ My disagreeable claim: the closed-contribution model is the right call for a fac
 - 2026-11-07 - Created from the 2026-11-06 cross-category admission ruling (routed here on the SuperPlane intake-to-PR precedent), with the Robin rebrand, the installation-wide credential trust model, and the thin-discussion footprint recorded.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched (the Robin README and the installation guide on raw content, the launch post, the releases API, the HN thread, and the Managed Deep Agents overview) and all claims confirmed; the pushed date refreshed to 2026-11-14 and the newest stable desktop tag moved to Robin Desktop v0.3.16 (2026-11-09), which the releases list buries under its nightly train (the stable tag grounds through the by-tag endpoint).
 - 2026-11-15 - Volatile re-verification: pushed date refreshed to 2026-11-15 and the newest stable desktop tag moved to Robin Desktop v0.3.17 (2026-11-15), grounded through the by-tag releases endpoint while the releases list stays a nightly wall; no other material change.
+- 2026-11-21 - Volatile re-verification: pushed date refreshed to 2026-11-21 and the newest stable desktop tag moved to Robin Desktop v0.3.19 (2026-11-17), grounded through the by-tag releases endpoint while the releases list stays a nightly wall; no other material change.
 
 ## See also
 
@@ -84,7 +85,7 @@ My disagreeable claim: the closed-contribution model is the right call for a fac
 - https://github.com/langchain-ai/open-swe - the Robin README: the loop, deployment model, Deep Agents and LangGraph attribution, and the contribution policy
 - https://www.langchain.com/blog/open-swe-an-open-source-framework-for-internal-coding-agents - the March 2026 launch post: the Stripe, Ramp, and Coinbase pattern table, pluggable sandboxes, and the middleware design
 - https://github.com/langchain-ai/open-swe/blob/main/docs/INSTALLATION.md - the deployment guide: one-origin architecture, the Robin rebrand mechanics, and the repository trust model
-- https://api.github.com/repos/langchain-ai/open-swe/releases - the release train: Robin Desktop v0.3.17 (2026-11-15, by-tag) and the nightly desktop tags
-- https://api.github.com/repos/langchain-ai/open-swe/releases/tags/desktop-v0.3.17 - the stable desktop tag the releases list buries, published 2026-11-15
+- https://api.github.com/repos/langchain-ai/open-swe/releases - the release train: Robin Desktop v0.3.19 (2026-11-17, by-tag) and the nightly desktop tags
+- https://api.github.com/repos/langchain-ai/open-swe/releases/tags/desktop-v0.3.19 - the stable desktop tag the releases list buries, published 2026-11-17
 - https://news.ycombinator.com/item?id=44838733 - the 111-point launch-day thread and its light discussion
 - https://docs.langchain.com/langsmith/python/managed-deep-agents-overview - the Managed Deep Agents runtime the README names as the deployment requirement, beta as of 2026-11-07

@@ -1,7 +1,7 @@
 ---
 title: "HAR"
 created: 2026-08-29
-updated: 2026-11-14
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, harness, multi-agent, worktrees]
 readability: 3
@@ -21,7 +21,7 @@ It is harness-agnostic and works with Claude Code, Cursor, Codex, or any MCP-cap
 
 ## Status
 
-Active and shipping: 122 stars and 14 forks since creation on 2026-06-28, v1.25.1 released 2026-11-13 (v1.0.0 landed 2026-08-28, ten releases in the first week of September alone), and the last main push on 2026-11-13 per the GitHub API as of 2026-11-14.
+Active and shipping: 122 stars and 14 forks since creation on 2026-06-28, the train at v1.30.0 (2026-11-20) after v1.25.1 (2026-11-13) and v1.0.0 (2026-08-28, ten releases in the first week of September alone), and the last main push on 2026-11-20 per the GitHub API as of 2026-11-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=os-factory/har&type=date&theme=dark&legend=top-left" />
@@ -33,6 +33,7 @@ v1.16.0 adds a Cypress plugin, the first release since v1.15.1 on 2026-09-28.
 v1.16.1 (2026-11-03) pins Playwright at 1.64.1 for browser tests, a one-fix patch that ended the four-week release gap.
 **The v1.16.2-through-v1.25.1 burst of 2026-11-09 to 2026-11-13 shipped twelve releases in five days, and its theme is slot-level telemetry and HQ integration: Claude usage is harvested per slot through Mission Control attribution (v1.20.0), cost comes from Claude Code's native metrics via hook spans (v1.21.0), LLM usage is attributed to slots per request through an evidence timeline (v1.22.0, ADR 0003), and that attribution then flows to the portal, with one org connection held at a time (v1.23.0), the evidence-timeline attribution shared with the portal (v1.24.0), Mission Control's attributed usage shipped to the portal (v1.25.0), and v1.25.1 claiming slot evidence that arrives before its slot while pricing Claude Opus 5.5 through genai-prices 0.2.3; beside it, agents get guidance for triaging occupied slots (v1.17.0), the harness reads AGENTS.md directly instead of scaffolding CLAUDE.md (v1.19.0), and the HQ portal moves onto Kerno's portal endpoints (v1.16.2, v1.18.0).**
 It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime code tester for coding agents), which is a steadier footprint than the category's usual single-commit repo.
+The v1.25.2-through-v1.30.0 run (nine releases, 2026-11-15 to 2026-11-20) continues the same telemetry line and hands control to the slot: usage invariants with a check-usage sync gate and a usage-integrity line (v1.26.0 to v1.27.3, with otel-hook bumped 0.5.0 then 0.6.0 and Cursor usage carrying tokens), binding or changing a running slot's work unit (v1.28.0), a telemetry level chosen at onboarding that shows what HQ receives (v1.29.0), and a personal worktree on/off setting honoring HARNESS_USE_WORKTREE (v1.30.0).
 
 ## Strengths
 
@@ -89,6 +90,7 @@ Not for a solo developer doing one agent at a time, where the harness alone is s
 - 2026-11-07 - Recorded the v1.16.1 release (2026-11-03, Playwright pinned at 1.64.1 for browser tests) and the rotation re-verification: repository, releases, the docs site (marketplace still listing seven plugins), the demo video, the Kerno sponsorship, and HAR HQ pricing (Team $400 with $100 monthly cloud credits, Enterprise custom, unchanged) all re-fetched; no other material change.
 - 2026-11-13 - Recorded the v1.16.2-through-v1.22.0 burst (eight releases, 2026-11-09 to 2026-11-13): per-slot Claude usage and cost telemetry through Mission Control attribution, native-metric hook spans, and a per-request evidence timeline (v1.20.0 to v1.22.0, ADR 0003), occupied-slot triage guidance (v1.17.0), AGENTS.md read directly instead of scaffolding CLAUDE.md (v1.19.0), and the HQ portal's move onto Kerno's endpoints (v1.16.2, v1.18.0); HAR HQ pricing re-verified unchanged.
 - 2026-11-14 - Recorded the burst reaching v1.25.1 (twelve releases, 2026-11-09 to 2026-11-13): the attribution line extended to the portal, with one org connection at a time (v1.23.0), evidence-timeline attribution shared with the portal (v1.24.0), Mission Control's attributed usage shipped to the portal (v1.25.0), and the out-of-order slot-evidence claim fix plus Claude Opus 5.5 pricing through genai-prices 0.2.3 (v1.25.1); HAR HQ pricing re-verified unchanged.
+- 2026-11-21 - Recorded the v1.25.2-through-v1.30.0 run (nine releases, 2026-11-15 to 2026-11-20): usage invariants with a check-usage sync gate and usage-integrity line (v1.27.0, otel-hook 0.5.0 and 0.6.0), work-unit binding or change on a running slot (v1.28.0), an onboarding telemetry-level choice showing what HQ receives (v1.29.0), and a personal worktree on/off setting honoring HARNESS_USE_WORKTREE (v1.30.0); pushed date refreshed and HAR HQ pricing re-verified unchanged (Team $400 with $100 monthly cloud credits, Enterprise custom).
 
 ## See also
 
@@ -103,6 +105,6 @@ Not for a solo developer doing one agent at a time, where the harness alone is s
 - https://github.com/os-factory/har - the repo, the `.har/` contract, and the verify-and-evidence model
 - https://harproject.dev - the documentation covering concepts, verification, MCP tools, and Mission Control
 - https://youtu.be/XKl4ZzWy7mQ - the introductory demo of the harness
-- https://github.com/os-factory/har/releases - the release cadence, v1.0.0 through v1.25.1
+- https://github.com/os-factory/har/releases - the release cadence, v1.0.0 through v1.30.0
 - https://kerno.io - the sponsor that tests runtime code for coding agents, grounding the verification emphasis
-- https://harhq.com - the HAR HQ site, grounding the Team $400 per month and Enterprise custom tiers as of 2026-09-18
+- https://harhq.com - the HAR HQ site, grounding the Team $400 per month and Enterprise custom tiers as of 2026-09-18 (re-verified unchanged 2026-11-21)

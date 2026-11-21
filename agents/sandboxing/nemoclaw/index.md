@@ -1,7 +1,7 @@
 ---
 title: NemoClaw
 created: 2026-10-07
-updated: 2026-11-15
+updated: 2026-11-21
 readability: 3
 audience_notes: >
   Engineers who want to run an always-on assistant (OpenClaw, Hermes, or LangChain Deep Agents) inside an OpenShell sandbox without assembling the integration themselves.
@@ -24,7 +24,7 @@ Apache-2.0, from NVIDIA, which describes the project as alpha with best-effort m
 
 ## Status
 
-Large and fast for an alpha: 22,754 stars, 3,142 forks as of 2026-10-16, 876 open issues and PRs as of 2026-11-15, created 2026-03-15, pushed 2026-11-15 (branch activity; main's newest commit is the 2026-11-13 train below).
+Large and fast for an alpha: 22,754 stars, 3,142 forks as of 2026-10-16, 876 open issues and PRs as of 2026-11-15, created 2026-03-15, pushed 2026-11-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />
@@ -36,6 +36,8 @@ The launch carried it: a 385-point, 261-comment Hacker News thread on 2026-03-18
 **The release story is thinner than the star count: the repository has published exactly one release, the `ci-native-podman-e2e-2026-10-01` prerelease, and the README still says alpha, so the seven months of growth measure attention, not a shipped 1.0.**
 The git tag list is no counter-evidence: it holds 138 tags, but most belong to a `v0.0.x` line whose commits are orphaned by the repository's May 2026 history rewrite (a `backup/v0.0.49-original-20260522032905` tag marks it), so none of them carries release notes, and a reader checking releases rather than tags sees the single prerelease.
 The fix train continues daily through 2026-11-13 (the e2e suite recognizing reviewed OpenShell 0.1.7 provenance, sandbox startup waiting through cold OpenClaw boots, pinned NVIDIA-compatible provider onboarding and replacement, native GPU inference route verification, WSL nvidia-smi detection in host assessment, Hermes providers bound through OpenShell via Switchyard, uninstall messaging that shows why OpenShell refused sandbox cleanup, v0.0.143 documentation prep, workflow upgrade checkpoints with affected-contract recovery, OpenClaw native TUI pairing qualification, MCP timeout validation before destructive operations, installer preparation of the OpenShell destination before gateway retirement, and QuickJS diagnostics preserved in Deep Code WAL backups), advancing on 2026-11-13 to v0.0.144 documentation prep, an inference-probe status fix that drops the route assumption, the disabled auto-approval capability applied to Deep Code's startup mode, and messaging channel-readiness diagnostics.
+The train continued through 2026-11-21: v0.0.145 documentation prep, the e2e suite and MCP provenance recognizing OpenShell 0.1.9's native runtime, config export emitting the current v1 format, the in-sandbox gateway kept running through tunnel stops, OpenClaw TUI pairing grants qualified for retention, and MCP state recovered from stopped Docker sandboxes.
+The backlog collapsed in the same week: a bulk closure wave closed 781 issues and PRs between 2026-11-15 and 2026-11-21, most without a completion reason, dropping the open count from 876 to 318 (179 issues and 139 PRs as of 2026-11-21), a triage move rather than a wave of fixes.
 
 ## Strengths
 
@@ -49,7 +51,7 @@ The fix train continues daily through 2026-11-13 (the e2e suite recognizing revi
 - Self-declared alpha with best-effort support, and one published release as of 2026-10-12, so treat the API and blueprint format as moving.
 - Choosing NemoClaw means choosing OpenShell: the blueprint is bound to one boundary, and the docs route custom images or non-reference workloads back to OpenShell alone.
 - The primary install is `curl | bash`, and the headline onboarding flow asks a coding agent to drive system changes, a supply-chain-sensitive pattern whose digest pinning covers only the credential helper and form, not the installer.
-- 876 open issues and PRs on an eight-month-old repository as of 2026-11-15, a support load NVIDIA reviews on a best-effort basis.
+- 876 open issues and PRs on an eight-month-old repository as of 2026-11-15, a support load NVIDIA reviews on a best-effort basis; the 2026-11-21 bulk closure wave cut that to 318, which lightens the queue display but not the best-effort support reality.
 
 ## Pricing
 
@@ -78,6 +80,7 @@ Not for production-critical assistants while the project declares alpha, or for 
 - 2026-11-12 - Volatile refresh: the fix train advanced through 2026-11-11 (Hermes Switchyard providers bound through OpenShell, uninstall cleanup-refusal messaging, and v0.0.143 documentation prep), the exactly-one-prerelease release story re-confirmed, open issues and PRs moved from 835 to 889, and the repository pushed 2026-11-12.
 - 2026-11-14 - Volatile refresh: the fix train advanced through 2026-11-13 (v0.0.144 documentation prep, an inference-probe status fix dropping the route assumption, the disabled auto-approval capability applied to Deep Code's startup mode, and messaging channel-readiness diagnostics), the exactly-one-prerelease release story re-confirmed, open issues and PRs moved from 891 to 869, and the repository pushed 2026-11-14.
 - 2026-11-15 - Volatile refresh: the exactly-one-prerelease release story re-confirmed, main quiet since the 2026-11-13 train while the repository-level push moved to 2026-11-15 on branch activity, and open issues and PRs moved from 869 to 876.
+- 2026-11-21 - Volatile refresh: the fix train advanced through 2026-11-21 (v0.0.145 documentation prep, OpenShell 0.1.9 native-runtime recognition in e2e and MCP provenance, the v1-format config export, gateway survival through tunnel stops, TUI pairing-grant qualification, and MCP state recovery from stopped Docker sandboxes), the exactly-one-prerelease release story re-confirmed, and the open count moved from 876 to 318 behind a bulk closure wave of 781 issues and PRs closed between 2026-11-15 and 2026-11-21, most without a completion reason, with the repository pushed 2026-11-21.
 
 ## See also
 

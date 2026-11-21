@@ -1,7 +1,7 @@
 ---
 title: aicontainer
 created: 2026-10-12
-updated: 2026-11-18
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, devcontainer, containers, isolation, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Solo author (Stefano Ginella), first published 2026-05-22, positioned by its own
 
 ## Status
 
-The thinnest footprint in the category's admitted set after aigate: 21 stars as of 2026-10-16, solo author, created 2026-05-22, pushed 2026-11-17, MIT.
+The thinnest footprint in the category's admitted set after aigate: 21 stars as of 2026-10-16, solo author, created 2026-05-22, pushed 2026-11-20, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stefanoginella/aicontainer&type=date&theme=dark&legend=top-left" />
@@ -32,11 +32,12 @@ The thinnest footprint in the category's admitted set after aigate: 21 stars as 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=stefanoginella/aicontainer&type=date&legend=top-left" />
 </picture>
 
-npm carries 0.14.2 (2026-11-16) after the October 0.12 pair that ended six weeks at 0.9.1, with 717 downloads in the trailing month (2026-10-19 to 2026-11-18, fetched 2026-11-18), and I found no Hacker News thread for the project.
+npm carries 0.14.3 (2026-11-20) after the October 0.12 pair that ended six weeks at 0.9.1, with 713 downloads in the trailing month (2026-10-22 to 2026-11-21, fetched 2026-11-21), and I found no Hacker News thread for the project.
 The 0.12 pair hardens the boundary further (root processes inside the container no longer search agent-writable PATH directories or write history to the shared volume) and fixes the agent-status relay behind the firewall.
 0.13.0 swaps the image's default Node to 26 LTS, updates the bundled tools and the `@devcontainers/cli` dependency to ^0.90, and fixes Claude Code's Cmd+C and Cmd+V keys in the VS Code terminal.
 The 0.14 trio followed on 2026-11-15 and 2026-11-16: 0.14.0 moves the devcontainer image build into `aic` itself instead of the Dev Containers CLI (a breaking change), and 0.14.1 and 0.14.2 repair the CLI's command-output reading and the firewall's output matching under `pipefail`.
-Development is shipping again: main's newest commits are the 0.14.2 release and its bump, ending the stretch where only renovate dependency branches moved.
+0.14.3 ships the agent-setup user guide inside the npm package so any agent on the host can set the project up from the docs of its installed version, and removes the Claude Code plugin in favor of that page.
+Development is shipping again: main's newest commits are the 0.14.3 release and its bump, ending the stretch where only renovate dependency branches moved.
 The commit messages up to the release document threat-model reasoning (a probe that fails closed against Node-manager shims, an npm 12 packaging fix) in unusual detail.
 **Twenty-one stars is a missing-community-footprint signal by the category's own standard, carried here by boundary documentation that reads like an audit candidate rather than by adoption.**
 
@@ -49,7 +50,7 @@ The commit messages up to the release document threat-model reasoning (a probe t
 
 ## Cautions
 
-- Twenty-one stars and 717 npm downloads a month: no community review has happened, and the solo maintainer is a bus factor of one.
+- Twenty-one stars and 713 npm downloads a month: no community review has happened, and the solo maintainer is a bus factor of one.
 - Outbound network is mostly open by default; the allowlist that restricts it is opt-in, which the README itself flags as the row most worth your attention.
 - The `.env` block is a tool-layer hook, defense-in-depth rather than a filesystem guarantee, and a bypass-mode CLI that ignores hooks defeats it.
 - The container boundary shares the host kernel, with no audit and no independent discussion of the claims.
@@ -81,6 +82,7 @@ Not for anyone needing a kernel or VM boundary, an audited isolation claim, or a
 - 2026-11-12 - Volatile refresh for the release train resuming: npm 0.13.0 (2026-11-11, the image's default Node moved to 26 LTS, `@devcontainers/cli` bumped to ^0.90 with refreshed bundled tools, and the Claude Code Cmd+C/Cmd+V fix in the VS Code terminal), trailing-month downloads moved from 475 to 378 (2026-10-13 to 2026-11-12 window, dated-range query, Cautions corrected to match), and main's newest commit is now the 0.13.0 release itself, ending the renovate-only stretch.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched and alive (repository and Trail of Bits devcontainer through the GitHub API, the npm registry and downloads endpoints, containers.dev, the HN story search); npm 0.13.0 still the latest with the push holding at 2026-11-11, and trailing-month downloads moved from 378 to 402 (2026-10-16 to 2026-11-15 window, dated-range query, fetched 2026-11-15, Cautions corrected to match).
 - 2026-11-18 - Volatile refresh for the release train: npm 0.14.2 (2026-11-16) with 0.14.0 (2026-11-15) moving the devcontainer image build into aic itself (breaking) and 0.14.1 and 0.14.2 repairing command-output reading and firewall output matching under pipefail, trailing-month downloads moved from 402 to 717 (2026-10-19 to 2026-11-18 window, dated-range query, fetched 2026-11-18, Cautions corrected to match), and the repository pushed 2026-11-17.
+- 2026-11-21 - Recorded 0.14.3 (2026-11-20, the npm package now shipping the agent-setup user guide so any host agent can follow its installed version's docs, and the Claude Code plugin removed in favor of that page), trailing-month downloads moved from 717 to 713 (2026-10-22 to 2026-11-21 window, dated-range query, fetched 2026-11-21, Cautions corrected to match), with the repository pushed 2026-11-20.
 
 ## See also
 
@@ -92,8 +94,8 @@ Not for anyone needing a kernel or VM boundary, an audited isolation claim, or a
 ## References
 
 - https://github.com/stefanoginella/aicontainer - repository, README boundary table, threat model references, Docker-access modes, 20 stars, dates, license, as of 2026-10-12
-- https://registry.npmjs.org/aicontainer - the npm package record, latest 0.13.0 (2026-11-11)
-- https://api.npmjs.org/downloads/point/2026-10-16:2026-11-15/aicontainer - 402 trailing-month downloads (2026-10-16 to 2026-11-15, dated-range query, fetched 2026-11-15)
+- https://registry.npmjs.org/aicontainer - the npm package record, latest 0.14.3 (2026-11-20)
+- https://api.npmjs.org/downloads/point/2026-10-22:2026-11-21/aicontainer - 713 trailing-month downloads (2026-10-22 to 2026-11-21, dated-range query, fetched 2026-11-21)
 - https://containers.dev/ - the devcontainer specification the project implements
 - https://github.com/trailofbits/claude-code-devcontainer - the Trail of Bits devcontainer the README names as adjacent work, 951 stars
 - https://hn.algolia.com/api/v1/search?query=aicontainer&tags=story - no dedicated thread (2026-10-12), the footprint record

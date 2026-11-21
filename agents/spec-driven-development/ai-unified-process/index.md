@@ -1,7 +1,7 @@
 ---
 title: AI Unified Process
 created: 2026-10-17
-updated: 2026-11-15
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, use-cases, methodology, rup, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Coverage moved into core with the layer model: `/use-case-coverage` judges imple
 
 ## Status
 
-Active and authored: 146 stars, 26 forks, and 4 open issues as of 2026-10-31, Apache-2.0, created 2026-02-28 (star and fork counts unchanged from the 2026-10-17 baseline); as of 2026-11-15, pushed 2026-11-14 with a seventh release wave on 2026-11-14 (aiup-core v3.19.0: /use-case-coverage and /test-case-coverage save the audit as an HTML page) following the sixth release wave on 2026-11-12 (aiup-core v3.17.1 and v3.18.0: open questions render one field per line, `/next` names `/stack` right after the entity model, use-case specs write only business-realistic alternative flows, and one session per skill run, with layer-plugin patches beside) following the fifth coordinated wave on 2026-11-10 to 11 (aiup-core v3.16.0 and v3.16.1: `/test-case` now updates an existing test case, `/architecture-decision` links an ADR to a requirement, the test orchestrators check the specification's status first, the legacy German GR-NNN business-rule prefix is dropped, and the use-case diagram draws each use case in the color of its status, with `run-local.sh` running the Werkstatt on your own machine and patch waves to the layer plugins) on top of the waves that rebuilt the plugin model, deprecated the two combined stack plugins, and shipped contract-first REST construction (2026-10-27 to 28: Vaadin v3.4.0, Spring Boot v3.4.1, Playwright v3.2.1).
+Active and authored: 146 stars, 26 forks, and 4 open issues as of 2026-10-31, Apache-2.0, created 2026-02-28 (star and fork counts unchanged from the 2026-10-17 baseline); as of 2026-11-21, pushed 2026-11-19 with an eighth release wave on 2026-11-16 to 17 (aiup-core v3.19.1 matching actors whose name carries a note in parentheses during spec review, v3.20.0 warning when a use case's diagram color no longer matches its status, and v3.20.1 ignoring deeper relative links after a move into a module folder, with the default branch carrying unreleased work on open-questions answered by several contributors and spec review reading PlantUML-linked diagrams) following the seventh release wave on 2026-11-14 (aiup-core v3.19.0: /use-case-coverage and /test-case-coverage save the audit as an HTML page) following the sixth release wave on 2026-11-12 (aiup-core v3.17.1 and v3.18.0: open questions render one field per line, `/next` names `/stack` right after the entity model, use-case specs write only business-realistic alternative flows, and one session per skill run, with layer-plugin patches beside) following the fifth coordinated wave on 2026-11-10 to 11 (aiup-core v3.16.0 and v3.16.1: `/test-case` now updates an existing test case, `/architecture-decision` links an ADR to a requirement, the test orchestrators check the specification's status first, the legacy German GR-NNN business-rule prefix is dropped, and the use-case diagram draws each use case in the color of its status, with `run-local.sh` running the Werkstatt on your own machine and patch waves to the layer plugins) on top of the waves that rebuilt the plugin model, deprecated the two combined stack plugins, and shipped contract-first REST construction (2026-10-27 to 28: Vaadin v3.4.0, Spring Boot v3.4.1, Playwright v3.2.1).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AI-Unified-Process/marketplace&type=date&theme=dark&legend=top-left" />
@@ -83,6 +83,7 @@ The disagreeable claim I will defend: spec-kit taught the industry to write spec
 - 2026-11-12 - Recorded the fifth release wave (2026-11-10 to 11: aiup-core v3.16.0 and v3.16.1 with test-case updates, ADR-to-requirement links, status-first checks in the test orchestrators, the German GR-NNN business-rule prefix dropped, status-colored use-case diagrams, and the run-local.sh local Werkstatt runner, with layer-plugin patches beside) and refreshed the status date.
 - 2026-11-13 - Recorded the sixth release wave (2026-11-12: aiup-core v3.17.1 rendering open questions one field per line and v3.18.0 naming /stack right after the entity model, writing only business-realistic alternative flows in use-case specs, and running one session per skill run, with layer-plugin patches beside) and refreshed the status date.
 - 2026-11-15 - Recorded the seventh release wave (2026-11-14: aiup-core v3.19.0 saving the /use-case-coverage and /test-case-coverage audits as an HTML page) and refreshed the status date.
+- 2026-11-21 - Recorded the eighth release wave (2026-11-16 to 17: aiup-core v3.19.1 matching parenthesized actor names, v3.20.0 warning on use-case diagram colors that no longer match their status, and v3.20.1 ignoring deeper relative links after a module-folder move) with the default branch's unreleased open-questions and PlantUML-diagram work beside, and refreshed the status date.
 
 ## See also
 

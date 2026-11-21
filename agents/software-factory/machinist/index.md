@@ -1,7 +1,7 @@
 ---
 title: "Machinist"
 created: 2026-09-05
-updated: 2026-11-15
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, go]
 readability: 3
@@ -18,12 +18,12 @@ A MIT-licensed Go control plane for coding-agent work on machines you own: the c
 A job is a list of stages, an agent, another agent, or a script, and a script stage is a gate an agent cannot skip; an agent is a folder of plain files (a playbook, a model, and the subagents and skills it can use) that runs on Claude Code or Codex, with a runner offering only the harnesses it holds credentials for.
 Work arrives by mentioning the bot on a GitHub issue, typing it into the web UI's one assignment box, or sending it from a coding session over MCP; the agent works on its own branch, opens one pull request, a fresh reviewer comments, and change requests or CI failures continue the same job on the same pull request, with the agent asking and waiting when it needs a decision.
 Defaults stay explicit: `max_turns_without_human` caps agent runs since a person last said something at five, `run_timeout` defaults to sixty minutes, and the merge rule is that Machinist never merges unless an automation using an allowed agent does it (repository maintenance remains the opt-in exception that auto-merges only qualifying, independently reviewed Machinist documentation PRs under enforced branch protections).
-The 2026-11-14 redesign replaced the vocabulary this note previously recorded from the 2026-10-15 app release (named commands over named repositories, a native-agents default run mode, a Codex-only gVisor runner target); the docs map now carries runners, credentials, factory files, and a redesign design document, while machinist.sh still served the pre-redesign app description as of 2026-11-15.
+The 2026-11-14 redesign replaced the vocabulary this note previously recorded from the 2026-10-15 app release (named commands over named repositories, a native-agents default run mode, a Codex-only gVisor runner target); the docs map now carries runners, credentials, factory files, and a redesign design document, while machinist.sh still served the pre-redesign app description as of 2026-11-21.
 
 ## Status
 
 Active and early: created 2026-07-16, 502 stars and 96 forks as of 2026-10-13, releases v0.1.0 through v0.4.0 with v0.4.0 (2026-08-31) still the newest, and the README labeling it early-access software, per the GitHub API as of 2026-11-15.
-**The 2026-11-14 redesign is the second step change: main, quiet since 2026-10-29 with the 2026-11-02 and 2026-11-09 pushes on side branches, took the tickets-runners-jobs merge (PR #585, a new UI among them) on 2026-11-14 and an agent-runner setup-check fix (PR #589) on 2026-11-15, reaching 201 commits past v0.4.0 with still no release past v0.4.0; the README and docs now describe a control plane that never starts agents, dial-in runner daemons, and jobs of agent and script stages, while machinist.sh still served the pre-redesign app description as of 2026-11-15.**
+**The 2026-11-14 redesign is the second step change: main, quiet since 2026-10-29 with the 2026-11-02 and 2026-11-09 pushes on side branches, took the tickets-runners-jobs merge (PR #585, a new UI among them) on 2026-11-14, an agent-runner setup-check fix (PR #589) on 2026-11-15, and a PR-tracking merge (PR #614, stale results ignored and tracker reports reset on rerun) on 2026-11-21, reaching 290 commits past v0.4.0 with still no release past v0.4.0; the README and docs now describe a control plane that never starts agents, dial-in runner daemons, and jobs of agent and script stages, while machinist.sh still served the pre-redesign app description as of 2026-11-21.**
 The repository also ships an evals directory with a deterministic GitHub-issue-lifecycle evaluation, with broader outcome scoring documented as planned rather than shipped.
 
 <picture>
@@ -32,7 +32,7 @@ The repository also ships an evals directory with a deterministic GitHub-issue-l
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&legend=top-left" />
 </picture>
 
-**There is no Hacker News thread or independent coverage as of 2026-11-15, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
+**There is no Hacker News thread or independent coverage as of 2026-11-21, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
 The velocity (five releases in eight weeks) says maintained; the single-author commit history says bus-factor one.
 
 ## Strengths
@@ -45,7 +45,7 @@ The velocity (five releases in eight weeks) says maintained; the single-author c
 
 - Solo-maintainer risk on an early-access product, with no independent evaluation of the execution model yet.
 - **Isolation rides the runners**: Kubernetes runners start one gVisor Job per run behind a gvisor RuntimeClass and NetworkPolicy CNI with an egress allowlist, local runners give each run a private home and an allowlisted environment, and the run's Job reads its GitHub and harness credentials from a Secret (the docs site still carries the older GitHub-publication-outside-Pods wording).
-- **The redesign is one day old in the docs**: the README, docs map, and configuration guide describe the new model, while machinist.sh still sells the pre-redesign app (standard pipeline, executors TOML), so the two surfaces disagree until the site catches up.
+- **The redesign is a week old in the docs**: the README, docs map, and configuration guide describe the new model, while machinist.sh still sells the pre-redesign app (standard pipeline, executors TOML), so the two surfaces disagree until the site catches up.
 - The missing HN footprint cuts both ways: no drama, but also no second opinion.
 
 ## Pricing
@@ -77,6 +77,7 @@ Not for teams needing proven scale, resumable pipelines, or a community to escal
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched (repository via the API, machinist.sh, configuration.md, the workflows examples, the gVisor Kubernetes doc, the releases API, and the HN search) and all claims confirmed, including v0.4.0 still the newest release, 179 commits past v0.4.0 with main's newest commit still 2026-10-29 (the 2026-11-02 push a side branch), and the zero-coverage claim holding to 2026-11-08; no material change.
 - 2026-11-14 - Volatile re-verification: v0.4.0 still the newest release and still 179 commits past it, main's newest commit still 2026-10-29 with the 2026-11-09 push another side branch, and the zero-coverage claim re-run and holding to 2026-11-14; no material change.
 - 2026-11-15 - Out-of-rotation re-verification on the redesign signal: recorded the 2026-11-14 tickets-runners-jobs redesign (PR #585) and the 2026-11-15 agent-runner setup-check fix (PR #589), main at 201 commits past v0.4.0 with v0.4.0 still the newest release; the What-it-is and Status rewritten to the redesign model (a control plane that never starts agents, dial-in runners on Macs, VMs, or Kubernetes, jobs of agent and script stages, bot-mention, web-box, and MCP intake, same-job-same-pull-request repair, the `max_turns_without_human` cap and `run_timeout` default, merge only through automations using an allowed agent); the isolation caution moved to the gVisor Job-per-run model with the run's Secret-held credentials and the docs-site disagreement added as a caution; two dead source paths replaced (the gVisor doc moved to docs/runners.md, the workflows examples removed by the redesign) and the redesigned README, runners doc, configuration doc, and commit-range compare added to references; the zero-coverage claim re-run and holding to 2026-11-15.
+- 2026-11-21 - Volatile re-verification: recorded the PR-tracking merge (PR #614) reaching 290 commits past v0.4.0 with v0.4.0 still the newest release, machinist.sh re-fetched and still serving the pre-redesign app description, and the zero-coverage claim re-run and holding to 2026-11-21; no material change.
 
 ## See also
 
@@ -91,7 +92,7 @@ Not for teams needing proven scale, resumable pipelines, or a community to escal
 - https://raw.githubusercontent.com/owainlewis/machinist/main/README.md - the redesigned README: the control plane that never starts agents, runner daemons, jobs and stages, the intake surfaces, and the merge rule
 - https://raw.githubusercontent.com/owainlewis/machinist/main/docs/runners.md - local and Kubernetes runners, the gVisor Job-per-run model with its RuntimeClass, NetworkPolicy, and egress allowlist, run leases, and credential Secrets
 - https://raw.githubusercontent.com/owainlewis/machinist/main/docs/configuration.md - control plane and runner settings: the ticket database, `max_turns_without_human`, and `run_timeout`
-- https://machinist.sh - the docs site, still serving the pre-redesign app description (standard pipeline, executors TOML) as of 2026-11-15
-- https://api.github.com/repos/owainlewis/machinist/releases - the release list, v0.4.0 (2026-08-31) still the newest as of 2026-11-15
-- https://api.github.com/repos/owainlewis/machinist/compare/v0.4.0...main - 201 commits past v0.4.0 as of 2026-11-15, the redesign merge and the setup-check fix newest
-- https://hn.algolia.com/api/v1/search?query=machinist&tags=story - the footprint scan finding no story about the repository (2026-11-15)
+- https://machinist.sh - the docs site, still serving the pre-redesign app description (standard pipeline, executors TOML) as of 2026-11-21
+- https://api.github.com/repos/owainlewis/machinist/releases - the release list, v0.4.0 (2026-08-31) still the newest as of 2026-11-21
+- https://api.github.com/repos/owainlewis/machinist/compare/v0.4.0...main - 290 commits past v0.4.0 as of 2026-11-21, the PR-tracking merge newest
+- https://hn.algolia.com/api/v1/search?query=machinist&tags=story - the footprint scan finding no story about the repository (2026-11-21)

@@ -1,7 +1,7 @@
 ---
 title: CodeBurn
 created: 2026-10-05
-updated: 2026-11-13
+updated: 2026-11-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by AgentSeal (the repository moved from the AgentSeal org to getagentseal, 
 
 ## Status
 
-Young and fast: 11,377 stars (the dated baseline), 908 forks, 26 open issues and PRs, created 2026-04-13, pushed 2026-11-09 (GitHub API).
+Young and fast: 11,377 stars (the dated baseline), 912 forks, 34 open issues and PRs, created 2026-04-13, pushed 2026-11-20 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&theme=dark&legend=top-left" />
@@ -33,12 +33,12 @@ Young and fast: 11,377 stars (the dated baseline), 908 forks, 26 open issues and
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&legend=top-left" />
 </picture>
 
-The npm package pulled 27,684 downloads in the trailing month (2026-10-09 to 2026-11-07), up from the 26,823 the 2026-10-26 window recorded.
+The npm package pulled 36,573 downloads in the trailing month (2026-10-22 to 2026-11-21), up from the 27,684 the 2026-11-08 window recorded.
 The current release line is desktop/CLI v0.9.28 (2026-11-08, tagged separately per platform): a macOS menu-bar forecast of when a quota window runs out (pace-based, five-hour windows covered, the alert threshold now a 70, 80, or 90 percent picker), guard loop-stops that warn after four identical tool calls and deny the eighth and after three failed runs of a shell command and deny the fifth (limits configurable, `codeburn guard status` prints them, `guard allow` lifts them for a session), three new optimize findings pricing premium spend (unused one-hour cache writes, fast mode on subagent calls, prompts crossing a long-context tier), a cache-hit-rate column across every session view with one shared formula, `costBasis` labels on every exported dollar (recorded, calculated, estimated, included, or unpriced), the Claude Code plugin recorded as unreleased on 2026-10-21 shipped (`/plugin install codeburn`, the get_usage and get_savings MCP server, a `/codeburn:cost` skill, and the official MCP Registry listing), and `codeburn web` gaining `--host` and `--allowed-host` flags for authenticating reverse proxies.
 v0.9.26 (2026-10-10) added Amp and Command Code as providers, the VS Code extension, a pull-request view with per-review cost, `--why` explanations for Claude Code sessions, Cursor usage synced from cursor.com with an app login, a tilde prefix on every estimated dollar, a long list of money-accuracy fixes, and removed Roo Code as an archived project.
 v0.9.27 added one-click updates across the CLI, menu bar, and desktop app.
 The repository description still says 37 tools where the README says 42, a drift to read as the README being newer.
-Post-release commits on 2026-11-08 pin the Flathub manifest to the published 0.9.28 deb hash, release VS Code extension 1.0.3 against CLI 0.9.28, and keep a bundled price list from repricing when upstream only reshuffles ids; two quota fixes then landed unreleased on 2026-11-09 (a Cursor safe-storage token unwrap for Grok Bot quota, and Retry or a new Claude login clearing a stored rate-limit block), with no release after v0.9.28 as of 2026-11-13.
+Post-release commits on 2026-11-08 pin the Flathub manifest to the published 0.9.28 deb hash, release VS Code extension 1.0.3 against CLI 0.9.28, and keep a bundled price list from repricing when upstream only reshuffles ids; two quota fixes then landed unreleased on 2026-11-09 (a Cursor safe-storage token unwrap for Grok Bot quota, and Retry or a new Claude login clearing a stored rate-limit block), followed by a Cursor Keychain reader that stops after a macOS Deny instead of retrying (2026-11-18) and Kimi Code sessions counted in managed workspaces (2026-11-20), with no release after v0.9.28 as of 2026-11-21.
 Its token accounting has been externally probed: the September 2026 AgentMeasure audit of about 110 usage tools filed a Codex token_count dedup finding against it, the fix merged as PR 1264 on 2026-09-16, and the audit's own methodology note records that a 53-rollout corpus check vindicated CodeBurn's re-emission behavior against the auditor's first assertion.
 Its Show HN launch reached 112 points and 15 top-level comments on 2026-04-13, and it also launched on Product Hunt.
 
@@ -84,6 +84,7 @@ Not for anyone who wants plain unclassified numbers (ccusage is the simpler inst
 - 2026-11-01 - Volatile re-verification: no release after v0.9.27 and npm still at 0.9.27, with unreleased work continuing (Cursor 3.27 safe-storage sessions unwrapped, the PowerShell tool counted as a shell tool, a saved Capacity Dock provider kept across quota refreshes, and Antigravity userMessage attribution, plus dependency bumps); the pushed date moved to 2026-10-31 with a further 2026-11-01 push on side branches, and forks refreshed 893 to 901.
 - 2026-11-08 - Recorded the v0.9.28 release family (2026-11-08, tagged per platform): the macOS menu-bar quota-window forecast with a 70, 80, or 90 percent alert picker, guard loop-stops for repeated identical tool calls and repeated failing shell commands with configurable limits and per-session `guard allow`, three new optimize findings pricing unused one-hour cache writes, fast-mode subagent calls, and long-context-tier prompts, a shared-formula cache-hit-rate column in every session view, `costBasis` labels on exported dollars, `codeburn web` reverse-proxy flags, and the shipping of the Claude Code plugin and official MCP Registry listing recorded as unreleased on 2026-10-21; npm latest moved to 0.9.28, trailing-month downloads refreshed (26,823 to 27,684, window 2026-10-09 to 2026-11-07), forks refreshed 901 to 908, and the pushed date moved to 2026-11-08; post-release commits leave nothing substantive unreleased.
 - 2026-11-13 - Volatile re-verification: no release after v0.9.28 with two quota fixes landing unreleased 2026-11-09 (a Cursor safe-storage token unwrap for Grok Bot quota, and Retry or a new Claude login clearing a stored rate-limit block); the pushed date moved to 2026-11-09.
+- 2026-11-21 - Rotation re-verification: every cited URL re-fetched and live (the repository and release pages, the README with its 42-integration claim intact, the npm registry and downloads endpoints, the AgentMeasure audit report, the merged dedup fix, and the launch thread); no release after v0.9.28 with three fixes landing unreleased 2026-11-18 through 11-20 (the Cursor Keychain reader stopping after a Deny, and Kimi Code sessions counted in managed workspaces); trailing-month downloads refreshed (27,684 to 36,573, window 2026-10-22 to 2026-11-21), forks refreshed 908 to 912, open issues and PRs refreshed 26 to 34, and the pushed date moved to 2026-11-20.
 
 ## See also
 
@@ -96,10 +97,10 @@ Not for anyone who wants plain unclassified numbers (ccusage is the simpler inst
 
 - https://github.com/getagentseal/codeburn - repository, 11,377 stars and 879 forks as of 2026-10-11, MIT license, created 2026-04-13 (the AgentSeal/codeburn URL redirects here)
 - https://raw.githubusercontent.com/getagentseal/codeburn/main/README.md - surfaces, the four spend cuts, optimize/quota/guard behavior, the MCP server, the 42-tool claim, and the desktop install matrix
-- https://api.npmjs.org/downloads/point/last-month/codeburn - 27,684 trailing-month downloads (2026-10-09 to 2026-11-07), fetched 2026-11-08
-- https://raw.githubusercontent.com/roy-tong/AgentMeasure/main/campaigns/audit-report-2026-09.md - the external audit that filed the Codex dedup finding and documents the 53-rollout correction of its own first assertion
-- https://github.com/getagentseal/codeburn/pull/1264 - the merged token_count dedup fix (2026-09-16) behind the external-probe sentence
-- https://registry.npmjs.org/codeburn - npm latest 0.9.28 (published 2026-11-08)
-- https://api.github.com/repos/getagentseal/codeburn/releases - the v0.9.28, windows-v0.9.28, mac-v0.9.28, and desktop-v0.9.28 tags of 2026-11-08, the v0.9.27 family of 2026-10-11, and v0.9.26 of 2026-10-10 (re-fetched 2026-11-08)
-- https://api.github.com/repos/getagentseal/codeburn/releases/tags/v0.9.28 - the v0.9.28 release notes: the quota forecast, guard loop-stops, new optimize findings, cache-hit column, costBasis exports, the Claude Code plugin, and the reverse-proxy flags (fetched 2026-11-08)
-- https://hn.algolia.com/api/v1/items/47759035 - the 112-point launch thread: the API-equivalent-cost fight, the Cursor Agent CLI gap, and the author's answers
+- https://api.npmjs.org/downloads/range/2026-10-22:2026-11-21/codeburn - 36,573 trailing-month downloads, fetched 2026-11-21 via the dated-range endpoint per the npm-window ruling
+- https://raw.githubusercontent.com/roy-tong/AgentMeasure/main/campaigns/audit-report-2026-09.md - the external audit that filed the Codex dedup finding and documents the 53-rollout correction of its own first assertion (re-fetched 2026-11-21)
+- https://github.com/getagentseal/codeburn/pull/1264 - the merged token_count dedup fix (2026-09-16) behind the external-probe sentence (re-fetched 2026-11-21)
+- https://registry.npmjs.org/codeburn - npm latest 0.9.28 (published 2026-11-08, re-verified 2026-11-21)
+- https://api.github.com/repos/getagentseal/codeburn/releases - the v0.9.28, windows-v0.9.28, mac-v0.9.28, and desktop-v0.9.28 tags of 2026-11-08, the v0.9.27 family of 2026-10-11, and v0.9.26 of 2026-10-10 (re-fetched 2026-11-21)
+- https://api.github.com/repos/getagentseal/codeburn/releases/tags/v0.9.28 - the v0.9.28 release notes: the quota forecast, guard loop-stops, new optimize findings, cache-hit column, costBasis exports, the Claude Code plugin, and the reverse-proxy flags (re-fetched 2026-11-21)
+- https://hn.algolia.com/api/v1/items/47759035 - the 112-point launch thread: the API-equivalent-cost fight, the Cursor Agent CLI gap, and the author's answers (re-fetched 2026-11-21)

@@ -1,7 +1,7 @@
 ---
 title: Drop
 created: 2026-09-29
-updated: 2026-11-15
+updated: 2026-11-21
 readability: 3
 audience_notes: >
   Engineers on Linux who want OS-enforced isolation around coding agents and third-party programs without containers or virtual machines.
@@ -25,7 +25,7 @@ Install is a curl of a release binary for amd64 or arm64 plus the passt/pasta pa
 
 ## Status
 
-Young tool, older project, one strong launch: 385 stars as of 2026-10-13, 15 forks and 4 open issues as of 2026-11-15, created 2025-07-25, pushed 2026-11-10, latest release v0.3.2 on 2026-11-05.
+Young tool, older project, one strong launch: 385 stars as of 2026-10-13, 15 forks and 4 open issues as of 2026-11-15, created 2025-07-25, pushed 2026-11-20, latest release v0.3.2 on 2026-11-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=wrr/drop&type=date&theme=dark&legend=top-left" />
@@ -38,6 +38,7 @@ v0.3.0 added a `drop edit` command for the TOML config, a reorganized documentat
 v0.3.1 (2026-10-09) fixed the shell hanging after the sandboxed process ended, a false update-available report, and the opaque Ubuntu AppArmor error, which now names the missing capability instead of printing `permission denied`.
 v0.3.2 (2026-11-05) is a security fix credited to reporter Aditya Sai: a literal tilde in a `DROP_HOME` or `XDG_CONFIG_HOME` setting made Drop store its config under a `./~/` directory inside the working directory, so a sandbox with read-write access to that directory could rewrite Drop's own config and grant itself more host access on the next run; `DROP_HOME` must now be absolute and relative `XDG_*` paths are ignored, and the generated `base.toml` also stops including root-owned `/etc/ssh/ssh_config.d` snippets that broke ssh in the rootless sandbox.
 Commits continued after that release through 2026-11-10: a new firewall TOML config format, the removal of the unjailed network mode, a built-in DNS server for the firewall (large-reply handling, rejection of non-IN query classes), a supervisor process that now spawns in its own user namespace to control the sandbox, a firewall RuleSet built from TOML inline rules with a default action and denied-domain handling, and terminal-dialog firewall prompt work (concurrent prompts, synchronized rule access, DNS timeouts during interactive prompts fixed, terminal redraw signals when a prompt closes, multi-byte keys such as arrows discarded), which reads as work toward a next release.
+The train advanced again through 2026-11-20, still unreleased past v0.3.2: saved always-allow and always-deny firewall rules persisted to a rules file that Drop loads at start (failing to start when the file cannot be created), firewall rules now enforced at connection time with destination parsing of outgoing IPv4 and IPv6 packets, sandbox loopback traffic exempted from the firewall check, port and protocol dropped from domain rules, and the `auto` host-port support removed.
 **The repository sat for fourteen months before the launch found it its audience, so the traction is one good Hacker News day, not a community, and the maintainer list is one person.**
 
 ## Strengths
@@ -82,6 +83,7 @@ Not for macOS, and not as a hardened boundary for hostile code until the solo-ma
 - 2026-11-07 - Recorded v0.3.2 (2026-11-05, the security fix for tilde-handled DROP_HOME and XDG_CONFIG_HOME settings that let a read-write sandbox rewrite Drop's config for a broader next-run grant, credited to reporter Aditya Sai, plus the ssh_config.d exclusion in the generated base.toml), v0.3.2 now the latest release, with the post-release firewall terminal-dialog train through 2026-11-06 and the repository pushed 2026-11-06.
 - 2026-11-12 - Volatile refresh for the post-release train: the firewall prompt work advanced through 2026-11-10 (DNS timeouts during interactive prompts fixed, terminal redraw signals when a prompt closes, multi-byte keys discarded), with v0.3.2 still the latest release and the repository pushed 2026-11-10.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched and alive (project site, sandbox-overview docs, README, both release records, the 193-point launch thread); v0.3.2 (2026-11-05) still the latest release with the push holding at 2026-11-10, and forks and open issues refreshed to 15 and 4 as of 2026-11-15.
+- 2026-11-21 - Volatile refresh for the post-release train: the firewall work advanced through 2026-11-20 (saved always-allow and always-deny rules persisted and loaded at start, connection-time rule enforcement with outgoing-packet destination parsing, loopback exempted from the firewall check, port and protocol dropped from domain rules, and auto host-port support removed), v0.3.2 still the latest release, with the repository pushed 2026-11-20.
 
 ## See also
 

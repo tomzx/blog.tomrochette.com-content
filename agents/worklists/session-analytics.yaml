@@ -3,7 +3,7 @@ category: session-analytics
 generated: 2026-11-21
 mapped_sources:
   - repo: anhermon/awesome-agent-observability
-    last_checked: 2026-11-16
+    last_checked: 2026-11-21
 digest_lines:
   - "- 2026-11-20 | evaluation-review | the anhermon 2026-11-18 to 11-19 changes resolve with one rejection | ranwhat (MatijaMiki/ranwhat, 8 stars, 0 forks, MIT, pushed 2026-11-18, 0.10.0 on PyPI) reads recorded coding-agent session histories and reports risky actions and leaked secrets, deterministic post-hoc slicing that is session-analytics kind per the 2026-10-27 line, and rejects on the zero-adoption floor (439 PyPI downloads/month, one self-submitted 3-point Show HN), reopen on traction or independent coverage; the source's 11-19 site and release-process commits carry no content additions, and the ctxlens removal is a list-side drop of a never-resolved entry"
   - "- 2026-11-19 | cross-category | the 2026-11-19 stars scan resolves one rejection | boyter/scc (8,887 stars, starred 2026-11-18T06:13:34Z) is a SLOC and complexity counter with no agent surface, the no-agent-story line; checkpoint advanced to 2026-11-18T06:13:34Z"
