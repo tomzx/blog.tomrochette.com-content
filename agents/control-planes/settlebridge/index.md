@@ -1,7 +1,7 @@
 ---
 title: SettleBridge
 created: 2026-09-27
-updated: 2026-11-18
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-settlement, trust, escrow, policy-enforcement, audit]
 readability: 3
@@ -26,7 +26,7 @@ The vendor is Truthsetter LLC.
 ## Status
 
 Early and low-traffic but actively maintained.
-The gateway repository was created 2026-03-08 and sits at 1 star and 0 forks as of 2026-10-18, with 2 open issues, 314 commits on main as of 2026-11-18, and a last push on 2026-11-18 as of 2026-11-18; the A2A-SE standard repository has 2 stars.
+The gateway repository was created 2026-03-08 and sits at 1 star and 0 forks as of 2026-10-18, with 1 open issue, 325 commits on main as of 2026-11-22, and a last push on 2026-11-21 as of 2026-11-22; the A2A-SE standard repository has 2 stars and was pushed 2026-11-18.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2a-settlement/settlebridge-ai&type=date&theme=dark&legend=top-left" />
@@ -88,6 +88,7 @@ The Exchange charges 0.25% of each settled transaction as an ATE treasury fee.
 - 2026-11-14 - The commit count moved from 178 to 272 on main, with the gap filled by a flag-gated fix-verifier wave (verification and warranty tables, payout gates on verified fix receipts with a 20 percent warranty holdback, verifier-bypass bounty submissions, GitHub role separation and solver-kind attribution) landing through 2026-11-11; the counters refreshed (2 open issues, pushed 2026-11-11).
 - 2026-11-15 - The commit count moved from 272 to 278 on main with a smaller wave through 2026-11-15: challenge reports now support AWS KMS ECC_NIST_P256 signing (PR 51), bot agents are managed through exchange ownership instead of the dashboard key, and three deploy-pin documentation commits landed; the counters refreshed (2 open issues, pushed 2026-11-15).
 - 2026-11-18 - The commit count moved from 278 to 314 on main with another hardening wave through 2026-11-18: each kind of mediator call now signs with its own secret (per-purpose secrets, PR 58), the verdict rule moved into the private verifier (PR 57), operational runbooks moved out of the repository (PR 56), and flaky repo-visibility tests were fixed (PR 59); the counters refreshed (2 open issues, pushed 2026-11-18).
+- 2026-11-22 - Full rotation re-verification: every cited URL re-fetched and live (the site, the pricing page with Community free forever, Enterprise $2,500 per month, and the 0.25 percent treasury fee unchanged, the gateway and standard repositories and their APIs, the A2A-SE docs, and the Awesome Multi-Agent Orchestrators README still flagging the license inconsistency), and the HN search still returning zero threads; the license metadata still unresolved (the README badge says MIT, the LICENSE path still 404s, GitHub still detects no license); the commit count moved from 314 to 325 on main with the latest commit (2026-11-21) hiding the Cyber Lab verifier agents behind a flag, and the counters refreshed (1 open issue, pushed 2026-11-21).
 
 ## See also
 

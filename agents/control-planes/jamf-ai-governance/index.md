@@ -1,7 +1,7 @@
 ---
 title: Jamf AI Governance
 created: 2026-10-05
-updated: 2026-11-18
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, endpoint, macos, commercial]
 readability: 3
@@ -66,6 +66,7 @@ Not for Linux or Windows fleets, for teams needing per-action runtime authorizat
 - 2026-11-01 - Full rotation re-verification: all six references re-fetched, every claim this note traces unchanged, the solutions page's Browser Insights FAQ now naming JNUC 2026 as the announcement venue beside the same coming-soon roadmap items, the learn.jamf.com path still a client-rendered shell, and the Business Wire mirror again 403 to scripted fetch; no drift beyond the FAQ detail.
 - 2026-11-11 - Full rotation re-verification: all six references re-fetched, every claim this note traces unchanged (the June 30 GA date, the coverage list, the Okta integration, the 78,000-organization and 35-million-device figures, the after-yes positioning, and the Browser Insights FAQ still naming JNUC 2026), the learn.jamf.com path still a client-rendered shell, and the Business Wire mirror again 403 to scripted fetch; no drift.
 - 2026-11-18 - Full rotation re-verification: all six references re-fetched, five serving and the Business Wire mirror 403 again as recorded, and every claim this note traces unchanged (the June 30, 2026 GA date on the press release, the Claude Code, Claude Desktop, and Codex coverage list, the Okta registration, the 78,000-organization and 35-million-device figures, the Anthropic and AWS validation, and the Browser Insights FAQ still naming JNUC 2026); no drift.
+- 2026-11-22 - Full rotation re-verification: all six references re-fetched, five serving and grounding their claims (the June 30, 2026 GA date, the coverage list, the Okta integration, the 78,000-organization and 35-million-device figures, the Anthropic and AWS validation, and the JNUC 2026 coming-soon roadmap line re-grounded on the solutions page), while the Business Wire mirror failed at the connection level this run (an HTTP/2 stream error, its recorded 403 state carrying); no drift.
 
 ## See also
 

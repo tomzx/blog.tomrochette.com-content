@@ -1,7 +1,7 @@
 ---
 title: Mission Control
 created: 2026-11-01
-updated: 2026-11-18
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, agent-operations, task-dispatch, self-hosted, open-source]
 readability: 3
@@ -79,6 +79,7 @@ Not for tool-call policy enforcement (there is no policy engine), for teams need
 - 2026-11-01 - Created from the task-management worker's routing handoff, profiling the self-hosted operations plane as the category's fourth live plane, with the changelog's no-policy-engine statement as the critical angle.
 - 2026-11-11 - Full rotation re-verification: every cited URL re-fetched and live (the README with the alpha warning and governance row unchanged, the orchestration guide unchanged, the changelog still holding v2.3.0 as the latest tagged release with the no-approval-policy-engine statement intact, the homepage with the Agent OS Setup package unchanged, and the HN search still returning only same-name lookalikes), and the counters refreshed (60 open issues, 134 forks, pushed 2026-11-09); no drift beyond the counters.
 - 2026-11-18 - Full rotation re-verification with a push-fact correction: every cited URL re-fetched and live (the README with the alpha warning and governance row unchanged, the orchestration guide unchanged, the changelog still holding v2.3.0 as the latest tagged release with the no-approval-policy-engine statement intact, the homepage with the Agent OS Setup package unchanged, and the HN search still returning only same-name lookalikes), the default branch's latest commit corrected to 2026-10-28 with the 2026-11-09 and 2026-11-17 repo-level pushes side branches under the standing ruling, and the counters refreshed (62 open issues, pushed 2026-11-17).
+- 2026-11-22 - Full rotation re-verification: every cited URL re-fetched and live (the README unchanged, the orchestration guide's Aegis flow unchanged, the changelog still holding v2.3.0 as the latest tagged release with the no-approval-policy-engine statement intact, the homepage serving, and the HN search still returning only same-name lookalikes), and the counters unchanged (62 open issues, pushed 2026-11-17); no drift.
 
 ## See also
 

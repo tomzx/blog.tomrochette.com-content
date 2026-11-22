@@ -1,7 +1,7 @@
 ---
 title: Agent Control
 created: 2026-10-05
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, runtime-governance, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The vendor changed hands mid-train: Cisco announced its intent to acquire Galile
 
 ## Status
 
-Active and young: 327 stars, 55 forks, and 20 contributors as of 2026-10-14, with 50 open issues as of 2026-11-20, created 2026-01-30, and a fast release train (v8.12.0 on 2026-10-09, v8.13.0 on 2026-10-13, v8.14.0 on 2026-10-19, v8.15.0 on 2026-10-23, v8.16.0 on 2026-11-20, mirrored by agent-control-sdk 8.15.0 on PyPI and the npm agent-control package moving to 3.5.0); the default branch's latest push is the 2026-11-20 release commit, with the 2026-11-05 pre-release fixes behind it and the 2026-11-09 repo-level push a side branch. The ownership moved to Cisco and Splunk after the May 2026 Galileo acquisition, and the launch post's galileo.ai URL now redirects to the Splunk Agent Observability product page (a 403 to a browser user agent this run, 200 to a plain fetch).
+Active and young: 327 stars, 55 forks, and 20 contributors as of 2026-10-14, with 50 open issues as of 2026-11-22, created 2026-01-30, and a fast release train (v8.12.0 on 2026-10-09, v8.13.0 on 2026-10-13, v8.14.0 on 2026-10-19, v8.15.0 on 2026-10-23, v8.16.0 on 2026-11-20, v8.17.0 on 2026-11-20, mirrored by agent-control-sdk 8.15.0 on PyPI and the npm agent-control package moving to 3.6.0); the default branch's latest push is the 2026-11-20 v8.17.0 release commit, with the 2026-11-05 pre-release fixes behind it and the 2026-11-09 and 11-21 repo-level pushes side branches. The ownership moved to Cisco and Splunk after the May 2026 Galileo acquisition, and the launch post's galileo.ai URL now redirects to the Splunk Agent Observability product page (a 403 to a browser user agent this run, 200 to a plain fetch).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentcontrol/agent-control&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ Not for local-first or latency-critical enforcement, and not for anyone who need
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched and live, the release train holding at v8.15.0 with agent-control-sdk at 8.15.0 on PyPI and npm holding at 3.4.0, the default branch's latest push still 2026-11-05 with the repo-level 2026-11-07 push a side branch, and the launch thread still 2 points with zero comments; no drift beyond the counters.
 - 2026-11-15 - Rotation re-verification with drift: Cisco completed its acquisition of Galileo Technologies on 2026-05-22 (announced 2026-04-09), folding the commercial platform into Splunk Agent Observability, and the launch post's galileo.ai URL now redirects to the Splunk Agent Observability product page, so the vendor framing moved from Galileo to Cisco and Splunk while the Apache-2.0 project continues under the agentcontrol organization; the launch-post citation stands through the redirect (403 to a browser user agent, 200 plain) and the The New Stack coverage stands behind a site-wide bot wall (its domain root 403s a browser user agent too); the release train holding at v8.15.0 with agent-control-sdk at 8.15.0 on PyPI and npm holding at 3.4.0, the default branch's latest push still 2026-11-05 with the 2026-11-09 repo-level push a side branch, and the launch thread still 2 points with zero comments.
 - 2026-11-20 - Release train moved to v8.16.0 (2026-11-20): Orbit binding-list targets are validated locally and before binding authorization (SAO-20817), plus evaluator runtime URL updates; the npm agent-control package moved from 3.4.0 to 3.5.0 alongside the ts-sdk-v3.5.0 tag, ending the 3.4.0 hold; the counters refreshed (50 open issues).
+- 2026-11-22 - Release train moved to v8.17.0 (published 2026-11-20): an evaluator runtime-URL revert (#306) beside the release chore that moves the npm agent-control package from 3.5.0 to 3.6.0 with the ts-sdk-v3.6.0 tag; the counters holding (50 open issues).
 
 ## See also
 

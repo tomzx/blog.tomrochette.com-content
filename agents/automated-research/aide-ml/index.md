@@ -1,7 +1,7 @@
 ---
 title: AIDE ML
 created: 2026-10-11
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, machine-learning-engineering, tree-search, open-source]
 readability: 3
@@ -18,12 +18,12 @@ AIDE ML is Weco AI's open-source reference build of the AIDE algorithm, an LLM a
 
 A Python package (aideml on PyPI, v0.2.2, MIT) from the February 2025 paper "AIDE: AI-Driven Exploration in the Space of Code" (arXiv 2502.13138) by Zhengyao Jiang, Dominik Schmidt, Dhruv Srikanth, Dixing Xu, Ian Kaplan, Deniss Jacenko, and Yuxiang Wu.
 You point it at a dataset and state a goal and a metric; the agent runs trial-and-error as tree search in the space of solutions, strategically reusing and refining promising nodes.
-The README positions three layers: the AIDE algorithm (the paper), this repository (the lean research build), and the Weco product (weco.ai), the commercial platform the company built out from it.
+The README positions two layers since its November 21 cleanup removed the product pointer: the AIDE algorithm (the paper) and this repository (the lean research build); the Weco product (weco.ai) remains the company's commercial platform, but the README no longer routes to it.
 The repository description notes AIDE is referenced in OpenAI's MLE-bench.
 
 ## Status
 
-Active-adjacent and widely forked: 1,576 stars, 241 forks, created 2024-04-03, last pushed 2026-10-16 (a CVE-driven datasets dependency upgrade, following the October 13 configurable-provider-models commit), as of 2026-10-17.
+Active-adjacent and widely forked: 1,576 stars as of 2026-10-17, 241 forks, created 2024-04-03, last pushed 2026-11-21 (a README cleanup removing the outdated Weco product pointer), following the October 16 CVE-driven datasets dependency upgrade and the October 13 configurable-provider-models commit, as of 2026-11-22.
 The Hacker News footprint is nearly absent: the April 2024 launch thread drew 1 point and zero comments, as of 2026-10-11.
 
 <picture>
@@ -41,7 +41,7 @@ The Hacker News footprint is nearly absent: the April 2024 launch thread drew 1 
 
 ## Cautions
 
-- The repository is a reference build, not a product: the README routes production use to the Weco platform, so expect to outgrow the open package.
+- The repository is a reference build, not a product, and since the November 21 README cleanup it no longer points at the company's commercial tier, so the route from open package to supported product now runs through weco.ai alone.
 - One commit landed in the six weeks to October 12 and the package sits at 0.2.2, so development is slow while the MLE-agent space moves.
 - Its headline evaluations are the paper's own runs; the independent medal count comes from a competitor's comparison on 10 challenges with o1-preview, a thin slice.
 - Zero traction on Hacker News despite 1,576 stars, an unusually developer-silent footprint for a package this forked.
@@ -60,7 +60,7 @@ Costs are your own LLM API calls and compute; the commercial Weco product is pri
 ## Bottom line
 
 **Recommended for agent-architecture researchers who want the tree-search MLE mechanism in its published, hackable form, and as the citation anchor for where metric-judged code search began.**
-Not for production ML engineering: the README itself routes that to the Weco product, and the open package moves slowly.
+Not for production ML engineering: the open package moves slowly, and since November 21 its README no longer says where production use should go.
 
 ## Changes
 
@@ -70,6 +70,7 @@ Not for production ML engineering: the README itself routes that to the Weco pro
 - 2026-10-23 - Harmonized the cautions line's star figure (1,568 against the status line's 1,576) to the status baseline.
 - 2026-11-08 - Rotation re-verification: all six references re-fetched and live, PyPI still at 0.2.2, and the repository quiet since the October 16 dependency upgrade.
 - 2026-11-21 - Rotation re-verification: all six references re-fetched and live, PyPI still at 0.2.2, and the repository still quiet since the October 16 dependency upgrade.
+- 2026-11-22 - Out-of-rotation re-verification caught the November 21 21:59 UTC README cleanup (commit #102, landing hours after that day's rotation fetch): the layer table now lists the algorithm and this repository only, the "outdated Weco product pointer" row is gone, and the two claims that read production routing out of the README (the caution and the bottom line) were rewritten; the commercial Weco product itself is unchanged.
 
 ## See also
 
@@ -81,7 +82,7 @@ Not for production ML engineering: the README itself routes that to the Weco pro
 ## References
 
 - https://github.com/WecoAI/aideml - repository, MIT license, 1,576 stars, last push 2026-10-16, MLE-bench reference (as of 2026-10-17)
-- https://raw.githubusercontent.com/WecoAI/aideml/main/README.md - the three-layer split (algorithm, reference build, Weco product) and the tree-search description (fetched 200, 2026-10-11)
+- https://raw.githubusercontent.com/WecoAI/aideml/main/README.md - the two-layer split since the November 21 cleanup removed the Weco product row (algorithm, reference build) and the tree-search description; the three-layer split with the product pointer at the earlier fetches (fetched 200, 2026-10-11 and 2026-11-22)
 - https://arxiv.org/abs/2502.13138 - the AIDE paper: authors and the tree-search formulation (fetched 200 via the arXiv API, 2026-10-11)
 - https://pypi.org/pypi/aideml/json - the aideml package at version 0.2.2 (fetched 200, 2026-10-11)
 - https://agentlaboratory.github.io/ - the independent MLE-Bench medal comparison scoring AIDE at two medals on ten challenges (fetched 200, 2026-10-11)

@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -23,7 +23,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 409 open issues and PRs with the last push on 2026-11-20 as of 2026-11-20.
+Alive and shipping hard: 24,080 stars and 2,434 forks as of 2026-10-14, created 2026-01-14, 401 open issues and PRs with the last push on 2026-11-21 as of 2026-11-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=different-ai/openwork&type=date&theme=dark&legend=top-left" />
@@ -60,6 +60,7 @@ It churned a twentieth time by 2026-11-07: the two add-ons returned to the page 
 It churned a twenty-first time by 2026-11-11: the two add-ons left the page again and the grandfather clause returned, reversing the twentieth churn and restoring the nineteenth-churn state, with the three main prices unchanged.
 It churned a twenty-second time by 2026-11-18: the two add-ons returned to the page and the grandfather clause left again, reversing the twenty-first churn and restoring the twentieth-churn state, with the three main prices and the annual Enterprise tier with its 60-day opt-out unchanged.
 It churned a twenty-third time by 2026-11-20: the two add-ons left the page again and the grandfather clause returned, reversing the twenty-second churn and restoring the twenty-first-churn state, with the three main prices and the annual Enterprise tier with its 60-day opt-out unchanged.
+It churned a twenty-fourth time by 2026-11-22: the two add-ons returned to the page and the grandfather clause left again, reversing the twenty-third churn and restoring the twenty-second-churn state, with the three main prices and the annual Enterprise tier with its 60-day opt-out unchanged.
 
 ## Price history
 
@@ -88,6 +89,7 @@ It churned a twenty-third time by 2026-11-20: the two add-ons left the page agai
 | 2026-11-11 | All tiers, add-ons | Twenty-first churn: the two add-ons left the page again and the grandfather clause returned, reversing the twentieth churn and restoring the nineteenth-churn state; Free $0 (framed as a free OpenWork Cloud plan for up to 5 users), Team $10 per user per month, Enterprise custom unchanged | https://openworklabs.com/pricing |
 | 2026-11-18 | All tiers, add-ons | Twenty-second churn: the two add-ons returned to the page again (Cloud Computer $50 per member per month, OpenWork models $10 per user per month, both marked available on Team and Enterprise) and the grandfather clause left again, reversing the twenty-first churn; Free $0, Team $10 per user per month, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
 | 2026-11-20 | All tiers, add-ons | Twenty-third churn: the two add-ons left the page again and the grandfather clause returned, reversing the twenty-second churn and restoring the twenty-first-churn state; Free $0, Team $10 per user per month, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
+| 2026-11-22 | All tiers, add-ons | Twenty-fourth churn: the two add-ons returned to the page again (Cloud Computer $50 per member per month, OpenWork models $10 per user per month, both marked available on Team and Enterprise) and the grandfather clause left again, reversing the twenty-third churn; Free $0, Team $10 per user per month, Enterprise custom annual with 60-day opt-out unchanged | https://openworklabs.com/pricing |
 
 ## Compared to
 
@@ -143,6 +145,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - 2026-11-18 - Pricing churned a twenty-second time: the two add-ons returned to the page and the grandfather clause left again, reversing the twenty-first churn and restoring the twentieth-churn state, with the three main prices and the annual Enterprise tier unchanged (Price history row).
 - 2026-11-20 - Recorded v0.18.69 and v0.18.71 (both 2026-11-19, the build-split boilerplate carried; v0.18.70 has no published release), with refreshed adoption numbers.
 - 2026-11-20 - Pricing churned a twenty-third time: the two add-ons left the page again and the grandfather clause returned, reversing the twenty-second churn and restoring the twenty-first-churn state, with the three main prices unchanged (Price history row).
+- 2026-11-22 - Pricing churned a twenty-fourth time: the two add-ons returned to the page and the grandfather clause left again, reversing the twenty-third churn and restoring the twenty-second-churn state, with the three main prices and the annual Enterprise tier unchanged (Price history row); refreshed adoption numbers.
 
 ## See also
 

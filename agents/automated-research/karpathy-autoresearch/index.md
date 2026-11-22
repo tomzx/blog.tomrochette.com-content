@@ -1,7 +1,7 @@
 ---
 title: Karpathy Autoresearch
 created: 2026-10-10
-updated: 2026-11-11
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, autoresearch, machine-learning, open-source]
 readability: 3
@@ -72,6 +72,8 @@ Not for anyone who needs a maintained tool, a license that permits reuse, or res
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart markup (the light-theme source carried the dark-theme parameter; it now points at the default chart).
 - 2026-11-11 - Rotation re-verification: status unchanged (last push still 2026-03-26, no releases, no LICENSE file with the README's MIT declaration intact); every cited URL re-fetched, all live.
+
+- 2026-11-22 - Rotation re-verification: status unchanged (last push still 2026-03-26, no releases, no LICENSE file with the README's MIT declaration intact); every cited URL re-fetched, all live.
 
 ## See also
 

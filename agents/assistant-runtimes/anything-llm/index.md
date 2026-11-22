@@ -1,7 +1,7 @@
 ---
 title: AnythingLLM
 created: 2026-09-27
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, local-first, rag, desktop-apps]
 readability: 3
@@ -24,7 +24,7 @@ Beta features push it toward an OS-level assistant: AI computer use and live doc
 
 ## Status
 
-Active and steadily shipped: 67,036 stars and 7,489 forks as of 2026-10-14, created 2023-06-04, 332 open issues with the last push on 2026-11-21 as of 2026-11-21.
+Active and steadily shipped: 67,036 stars and 7,489 forks as of 2026-10-14, created 2023-06-04, 337 open issues with the last push on 2026-11-21 as of 2026-11-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,7 @@ The disagreeable claim I will defend: the layperson focus that made AnythingLLM 
 - 2026-11-11 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the docs site and Pro overview, the pricing page, the Show HN thread via Algolia), v1.19.0 (2026-10-26) confirmed still the latest release, the Cloud tiers (Basic $50, Pro $99, Enterprise custom) unchanged, and the launch thread (368 points), the Magic free-tier commitment, and the docs changelog cadence all intact, with refreshed adoption numbers.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the docs site and Pro overview, the pricing page, the Show HN thread via Algolia), v1.19.0 (2026-10-26) confirmed still the latest release, the Cloud tiers (Basic $50, Pro $99, Enterprise custom) unchanged, and the launch thread (368 points), the Magic free-tier commitment, and the docs changelog cadence all intact, with refreshed adoption numbers.
 - 2026-11-18 - Recorded v1.20.0 (2026-11-17, the browser extension rebuilt into a full sidebar chat with right-click add-context for text and images), with refreshed adoption numbers.
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the docs site and Pro overview, the pricing page, the Show HN thread via the Algolia items API), v1.20.0 (2026-11-17) confirmed still the latest release, the Cloud tiers (Basic $50, Pro $99, Enterprise custom) unchanged, and the launch thread (368 points), the Magic free-tier commitment, the citation and sandbox critiques, and the docs changelog cadence back through v1.6.0 all intact, with refreshed adoption numbers.
 
 ## See also
 

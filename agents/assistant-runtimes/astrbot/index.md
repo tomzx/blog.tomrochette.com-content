@@ -1,7 +1,7 @@
 ---
 title: AstrBot
 created: 2026-10-06
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, chat-channels, plugins, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The agent layer has sub-agents, tool calls, workflow orchestration, context comp
 
 ## Status
 
-Active and long-lived: 41,837 stars and 3,058 forks as of 2026-10-14, created 2022-12-08, 1,285 open issues and pull requests with the last push on 2026-11-19 as of 2026-11-21, AGPL-3.0.
+Active and long-lived: 41,837 stars and 3,058 forks as of 2026-10-14, created 2022-12-08, 1,298 open issues and pull requests with the last push on 2026-11-22 as of 2026-11-22, AGPL-3.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for anyone who needs permissive licensing for a hosted offering, or who cann
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, astrbot.app, the English docs, the QQ-adapter issue 8131, the HN footprint search), v4.29.4 (2026-10-31) confirmed still the latest release, and the openclaw-alternative repo description, the platform table with the 1,000-plus-plugin marketplace, the Agent Sandbox, the referral-link provider table, and the zero-English-footprint record (only astroturfing typo-matches on HN) all intact, with refreshed adoption numbers.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, astrbot.app, the English docs, the QQ-adapter issue 8131, the HN footprint search), v4.29.4 (2026-10-31) confirmed still the latest release, and the openclaw-alternative repo description, the platform table with the 1,000-plus-plugin marketplace, the Agent Sandbox, the referral-link provider table, and the zero-English-footprint record (only astroturfing typo-matches on HN) all intact, with refreshed adoption numbers.
 - 2026-11-18 - Recorded the v4.30.0 line opening (v4.30.0-alpha.1 on 2026-11-15, v4.30.0-beta.1 on 2026-11-18: steering additions move pending tool calls to background tasks and QQ-adapter streaming fixes, over a migration of the conversation database, agent configuration, and session settings with a backup-first upgrade warning), with refreshed adoption numbers.
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched live (repo and releases APIs, the README, astrbot.app, the English docs, the QQ-adapter issue 8131, the HN footprint search), v4.30.0-beta.1 (2026-11-18) confirmed still the newest release, and the openclaw-alternative repo description, the 14-official-platform table, the 1,000-plus-plugin marketplace badge, the Agent Sandbox, the referral-link provider table, and the zero-English-footprint record (only astroturfing typo-matches on HN) all intact, with refreshed adoption numbers.
 
 ## See also
 

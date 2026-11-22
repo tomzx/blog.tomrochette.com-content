@@ -1,7 +1,7 @@
 ---
 title: IBM ContextForge
 created: 2026-10-11
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, gateway, mcp, governance, open-source, ibm]
 readability: 3
@@ -24,7 +24,7 @@ IBM announced it as the ContextForge MCP Gateway 1.0.0 Beta on December 15, 2025
 
 ## Status
 
-Active and heavily adopted: 4,623 stars and 924 forks as of 2026-10-18, with 996 open issues and pull requests as of 2026-11-20 and the latest push on 2026-11-19 (unreleased A2A work fetching and storing the authenticated extended Agent Card, and forwarded-header trust restricted to configured proxies), created 2025-05-08, with v1.1.1 published 2026-11-10 on GitHub and PyPI in step, following v1.1.0 (2026-10-20).
+Active and heavily adopted: 4,623 stars and 924 forks as of 2026-10-18, with 988 open issues and pull requests as of 2026-11-22 and unreleased default-branch work on a security-hardening commit (2026-11-20) with the 2026-11-21 repo-level push beside it, created 2025-05-08, with v1.1.1 published 2026-11-10 on GitHub and PyPI in step, following v1.1.0 (2026-10-20).
 v1.1.0 moves MCP protocol negotiation to the modern protocol by default, ships a redesigned web UI, federated completions, catalog pagination, and MCP Origin/Host transport security enforcement, consolidating 69 pull requests; v1.1.1 adds token exchange delegation with Admin UI support, CEL tool validation policies, A2A /v1 task and agent card routes, and upstream progress plus security hardening.
 
 <picture>
@@ -77,6 +77,7 @@ Not for model-cost governance, not for built-in policy verdicts without plugin w
 - 2026-11-11 - Release train moved to v1.1.1 (2026-11-10, PyPI in step): token exchange delegation with Admin UI support, CEL tool validation policies, A2A /v1 task and agent card routes, and upstream progress plus security hardening; the counters refreshed (991 open issues, pushed 2026-11-10).
 - 2026-11-18 - Full rotation re-verification: every cited URL re-fetched and live (the README, the docs site, the launch post, and the TrueFoundry comparison), no release since v1.1.1 with PyPI in step at 1.1.1, unreleased default-branch work on OAuth token and audience validation for A2A agents (2026-11-17), and the counters refreshed (994 open issues and pull requests, default-branch push 2026-11-17).
 - 2026-11-20 - Unreleased default-branch work on fetching and storing the A2A authenticated extended Agent Card and on trusting forwarded headers only from configured proxies; the counters refreshed (996 open issues and pull requests, pushed 2026-11-19).
+- 2026-11-22 - Unreleased default-branch work moved to a security-hardening commit (2026-11-20, #7633) with the 2026-11-21 repo-level push beside it; the counters refreshed (988 open issues and pull requests).
 
 ## See also
 

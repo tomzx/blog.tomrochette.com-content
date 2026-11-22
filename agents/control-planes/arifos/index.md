@@ -1,7 +1,7 @@
 ---
 title: arifOS
 created: 2026-10-16
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, governance-kernel, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The maintainer positions it as the layer between "agent wants to act" and "actio
 
 ## Status
 
-Active and early: 54 stars and 9 forks as of 2026-10-18, with 5 open issues and the latest push on 2026-11-20 as of 2026-11-20, created 2025-11-17, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
+Active and early: 54 stars and 9 forks as of 2026-10-18, with 4 open issues and the latest push on 2026-11-22 as of 2026-11-22, created 2025-11-17, with the public kernel endpoint answering healthy when I checked on 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ariffazil/arifOS&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Active and early: 54 stars and 9 forks as of 2026-10-18, with 5 open issues and 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ariffazil/arifOS&type=date&legend=top-left" />
 </picture>
 
-**The most striking artifact is the README's own verified-state block, machine-stamped by the project's probe scripts and reading like an adversarial audit the project ran on itself: the current self-measurement (stamped 2026-11-18) reads the kernel degraded with 12 of 13 floors measured pass, none failing, vault999 healthy again, and the drift flag reading aligned (source, build, and deployment on one commit), while the pinned independent audit of 2026-10-11 still reads 2 pass, 4 fail (F2, F11, F12, F13), and 7 unmeasured, and the block itself warns that these are two different witness objects, with verified actor identity, receipt fidelity on the invocation-telemetry surface, and independent reconstruction all still failing in the audit line.**
+**The most striking artifact is the README's own verified-state block, machine-stamped by the project's probe scripts and reading like an adversarial audit the project ran on itself: the current self-measurement (stamped 2026-11-22) reads the kernel degraded with 11 of 13 floors measured pass, F3 and F6 failing, vault999 stale again, and the deployed build's drift flag reading aligned (source, build, and deployment on one commit) while the repo tree runs ahead with deploy pending, against the pinned independent audit of 2026-10-11 still reading 2 pass, 4 fail (F2, F11, F12, F13), and 7 unmeasured, and the block itself warns that these are two different witness objects, with verified actor identity, receipt fidelity on the invocation-telemetry surface, and independent reconstruction all still failing in the audit line.**
 That same block admits an earlier 13-of-13 floors reading was a false pass caused by a threshold defect, and states plainly that there are no customers, no pilots, no independent benchmark, no external security audit, and zero revenue.
 A Hacker News search returns no threads about arifOS, so an eleven-month-old kernel has zero community footprint, and the awesome-ai-governance directory listing (added 2026-10-16) is the only third-party surface I found.
 
@@ -80,6 +80,7 @@ Not for anyone who needs verified actor identity, measured floors, or a communit
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched and live, every signal fact unchanged (self-measurement still stamped 2026-10-29 at 12 of 13 floors measured pass with F6 unmeasured and none failing, kernel degraded, the drift line still repo_live_divergence with deploy pending, the independent audit line unchanged, PyPI still trailing at 1!2026.10.17, the health endpoint answering ok, the HN search still returning no arifOS thread among its 17 loose hits), and the counters refreshed (20 open issues, default-branch push 2026-11-09).
 - 2026-11-14 - The self-measurement stamp moved to 2026-11-14 (10 of 13 floors measured pass, 3 unmeasured, none failing, kernel still degraded, vault999 flagged stale, drift aligned on the deployed build) against the unchanged 2026-10-11 independent audit; PyPI caught up at 1!2026.11.13.post1 (uploaded 2026-11-13) after holding at 1!2026.10.17 for a month, and repository tags reached v2026.11.14; the counters refreshed (6 open issues, pushed 2026-11-14).
 - 2026-11-20 - The self-measurement stamp moved to 2026-11-18 (12 of 13 floors measured pass, none failing, kernel still degraded, vault999 healthy again after the 11-14 stale flag, drift aligned) against the unchanged 2026-10-11 independent audit; PyPI caught up at 1!2026.11.18, and the counters refreshed (5 open issues, pushed 2026-11-20).
+- 2026-11-22 - The self-measurement stamp moved to 2026-11-22 and regressed to 11 of 13 floors measured pass with F3 and F6 failing and vault999 stale again, the deployed build's drift flag aligned while the repo tree runs ahead with deploy pending, against the unchanged 2026-10-11 independent audit; PyPI trails again at 1!2026.11.18 while the default branch carries the 2026-11-22 package-surface alignment work, and the counters refreshed (4 open issues, pushed 2026-11-22).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [agents]
 readability: 0
@@ -12,6 +12,13 @@ The log under `agents/logs/` stays the audit trail; this digest never contradict
 Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (date = last confirmation).
 
 ## Scope rulings
+- 2026-11-22 | assistant-runtimes | openhuman reads 42,801 stars on 2026-11-22, about +18 in one day (the slowing trend continuing) against OpenClaw's 395,010 | the q13 OpenClaw-class scale trigger stays unfired, openhuman held
+- 2026-11-22 | assistant-runtimes | a standalone OpenAI-compatible API server can retire with a minor patch release and no replacement (nanobot's v0.4.2 dropped `nanobot serve`, `/v1`, and the `nanobot-api` Compose service while PyPI stayed Alpha), so embedding against a runtime's API surface is a stability risk the note now records | the nanobot v0.4.2 recording
+- 2026-11-22 | automated-research | q26 evidence refreshed: yibie 793 (pushed 11-22, the daily evidence-sweep ticker only) and handsome-rich 1,300 (pushed 11-16, weekly ticker only) stay active against webfuse-com 2,602 (stale 09-21) and AI4Scientist 193 (quiet since 11-16), and WecoAI 1,078 woke, pushed 11-21 21:51-21:53 UTC with its first content since 07-30 (PRs #19/#20/#21 merged, landing the AutoSR, AgonAlpha, SciΠvot, STEER, and eigh kernel entries authored 08-08 through 10-23, plus Thoth added to Implementations & Forks and accuracy numbers on the STEER CIFAR entry) | metadata-only refresh, no wiring resolved; the Thoth addition is the cross-category scanner's to resolve, the other four names already resolved or known; lists stay unwired pending q26
+- 2026-11-22 | automated-research | a rotation re-verification landing the same day as an evening commit re-checks the default branch on the next run: the aide-ml note's 11-21 rotation fetched before the 21:59 UTC README cleanup landed, the work list's empty signal carrying date granularity only, so the out-of-rotation re-verification keyed on this run's pushed_at comparison caught the removed Weco product layer | the aide-ml README decoupling, extending the 2026-11-15 same-day ruling from releases to intraday commits
+- 2026-11-22 | code-review | the vendor-run kodustech/awesome-ai-code-review list stays unwired as a mapped source; the category stays on broad sources | staleness re-confirmed 2026-11-22 (pushed_at still 2026-06-28, 54 stars) and the dedicated-list search again surfaced nothing credible (largest alternatives 2 stars); evidence update for open q21
+- 2026-11-22 | context-engines | a release body is itself a source for capability claims the commits-feed scans never surfaced, because PRs merged before the scan window ship unnamed inside batch summaries | the headroom v0.45.0 tray icon (#4726, merged before the recorded batches) recorded from the release notes, not the commits feed
+- 2026-11-22 | control-planes | the awesome-ai-governance source carries over unchanged | newest content commit 2026-11-20 (Trina AX, resolved 2026-11-20) predates the 2026-11-21 last-checked date, no content additions to scan
 - 2026-11-21 | cross-category | ai-for-developers, hesreallyhim, e2b-dev, slavakurilyak, and AMO carry over | commit histories since the 11-18/11-19 scans show no content additions (AMO and hesreallyhim ticker-only)
 - 2026-11-21 | cross-category | the 2026-11-21 stars scan resolves one rejection | abhinavxd/libredesk (3,187 stars, starred 2026-11-21T04:48:22Z) is a customer support desk with no agent surface, the no-agent-story line; checkpoint advance to 2026-11-21T04:48:22Z
 - 2026-11-21 | cross-category | the yibie handoff's two additions resolve with two rejections | ResearchForge (12 stars, 0 forks, PyPI 943/month) takes the thin-record tail with an automated-research kind flag and maker-authored-only footprint, SciΠvot (15 stars, 1 fork, dormant since 10-19, arXiv 2610.21082) takes the zero-adoption floor with the evaluation-review benchmark routing and the member-Agon org-sibling relationship recorded; both reopen on traction or independent coverage

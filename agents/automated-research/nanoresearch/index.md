@@ -1,7 +1,7 @@
 ---
 title: NanoResearch
 created: 2026-10-11
-updated: 2026-11-11
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, paper-generation, slurm, gpu, open-source]
 readability: 3
@@ -67,6 +67,7 @@ Not for anyone needing verified data integrity: the binding-to-logs claim is sel
 - 2026-10-11 - Created.
 - 2026-10-26 - Rotation re-verification: status unchanged (last push still 2026-10-09, the single assets release still the whole release train, and the name still carries no Hacker News threads); every cited URL re-fetched, all live.
 - 2026-11-11 - Rotation re-verification: status unchanged (last push still 2026-10-09, the single assets release still the whole release train, and the name still carrying no Hacker News threads about the project); every cited URL re-fetched, all live.
+- 2026-11-22 - Rotation re-verification: status unchanged (last push still 2026-10-09, the single assets release still the whole release train, and the name's HN search still carrying only one dead 2012 record about the project); every cited URL re-fetched, all live.
 
 ## See also
 

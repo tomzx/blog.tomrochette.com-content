@@ -1,7 +1,7 @@
 ---
 title: Mole
 created: 2026-10-12
-updated: 2026-11-11
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deep-research, budget-enforcement, open-source]
 readability: 3
@@ -72,6 +72,7 @@ Not for anyone needing a mature, independently evaluated tool: the project is on
 - 2026-10-29 - Volatile re-verification: recorded the unreleased verifier rework on main (contradictions judged from the quote with same-quantity-first ordering, and competing estimates of one quantity counted as contradictions) and moved the push date to October 28.
 - 2026-11-05 - Recorded the November 1 doctor test-hygiene PR and reworded the README weak-spots table reference (banned-term cleanup).
 - 2026-11-11 - Volatile re-verification: recorded the November 6-8 unreleased batch (an optional report role with its own provider, OpenAI API support with gpt-6.1-sol priced, --print-prompt and --body-file for writers outside mole, and the receipt fix checking quotes against the stored source text), with the push date moved; v0.2.1 remains the latest release.
+- 2026-11-22 - Rotation re-verification: status unchanged (last push still 2026-11-08, v0.2.1 still the latest release); every cited URL re-fetched, all live.
 
 ## See also
 

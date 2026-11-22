@@ -1,7 +1,7 @@
 ---
 title: code-review-graph
 created: 2026-10-11
-updated: 2026-11-17
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graph, mcp, static-analysis]
 readability: 3
@@ -23,7 +23,7 @@ A composite GitHub Action posts risk-scored PR comments updated in place, with a
 
 ## Status
 
-Active and unusually fast-growing: 32,179 stars as of 2026-10-18, 2,985 forks and 62 open issues as of 2026-11-17, created 2026-02-26, pushed 2026-11-12, so five figures of stars arrived in under eight months.
+Active and unusually fast-growing: 32,179 stars as of 2026-10-18, 2,994 forks and 66 open issues as of 2026-11-22, created 2026-02-26, pushed 2026-11-12, so five figures of stars arrived in under eight months.
 PyPI carries 2.4.0 across 38 releases on a roughly monthly cadence, and the repo runs a documented staging to testing to main promotion flow, with a person reviewing every promotion since the automatic daily job was removed on 2026-11-06; v2.4.0 shipped the staged train main merged on 2026-11-10 (the release commit landed 2026-11-09: corpus baselines re-recorded for 2.4.0, a fresh-clone setup fix, the determinism check reordering the file list again, the lifecycle suite updated to expect 18 platforms, and maintainer-local agent rules and tracker files kept out of git) with the GitHub release published 2026-11-11 and PyPI uploading 2.4.0 the same day, and main's unreleased 2026-11-12 fixes above it sort ambiguous call targets, teach the upgrade check to skip same-schema releases, and make `eval --report` read only each repo's newest run of each benchmark.
 The community footprint is lopsided: a Hacker News search returns three story hits, the largest a 12-point launch thread with two comments (one an install failure), so the star count arrived without front-page discussion, the Trendshift-badge pattern this section has seen before.
 Every number below is the author's own; no independent benchmark exists.
@@ -73,6 +73,7 @@ Pricing does not apply.
 - 2026-11-11 - Recorded main's staged v2.4.0 release train merged 2026-11-10 (release commit 2026-11-09: corpus baselines re-recorded, a fresh-clone setup fix, the determinism check reordered, the lifecycle suite at 18 platforms, maintainer-local agent rules and tracker files kept out of git) with PyPI still at 2.3.9 across 37 releases; forks, open issues, and push date refreshed.
 - 2026-11-13 - Recorded v2.4.0 shipping: the GitHub release published 2026-11-11 and PyPI carrying 2.4.0 across 38 releases, and main's unreleased 2026-11-12 fixes (ambiguous call targets sorted, the upgrade check skipping same-schema releases, `eval --report` reading only each repo's newest benchmark run); forks, open issues, and push date refreshed.
 - 2026-11-17 - Full rotation re-verification: every cited URL re-fetched and intact (the README's benchmark tables and their disclaimers, the FAQ's few-hundred-files threshold and no-telemetry statement, PyPI still at 2.4.0 across 38 releases, the release feed still listing v2.4.0 as newest, the 12-point launch thread, the three-story HN footprint with the largest at 12 points, the third-party write-up still quoting the 6.8x and 49x figures the README no longer claims, and the website); the 2026-11-16 pushed signal resolved as non-default-branch activity with staging and main both newest-committed 2026-11-12 and no release since v2.4.0; forks and open issues refreshed (2,985 and 62).
+- 2026-11-22 - Full rotation re-verification: every cited URL re-fetched and intact (the README's benchmark tables and disclaimers, the FAQ's size thresholds and no-telemetry statement, PyPI still at 2.4.0 across 38 releases, the release feed still listing v2.4.0 as newest, the 12-point launch thread, the three-story HN footprint with the largest at 12 points, the third-party write-up still quoting the 6.8x and 49x figures the README no longer claims, and the website); the 2026-11-16 pushed signal again resolved as non-default-branch activity with main newest-committed 2026-11-12 and no release since v2.4.0; forks and open issues refreshed (2,994 and 66); no claim changed.
 
 ## See also
 
@@ -84,7 +85,7 @@ Pricing does not apply.
 
 ## References
 
-- https://api.github.com/repos/tirth8205/code-review-graph - forks, issues, license, creation and push dates as of 2026-11-17 (stars kept at the 2026-10-18 baseline)
+- https://api.github.com/repos/tirth8205/code-review-graph - forks, issues, license, creation and push dates as of 2026-11-22 (stars kept at the 2026-10-18 baseline)
 - https://raw.githubusercontent.com/tirth8205/code-review-graph/main/README.md - mechanism, installer surfaces, benchmark tables, and the limitations list (re-fetched 2026-11-17)
 - https://raw.githubusercontent.com/tirth8205/code-review-graph/main/docs/FAQ.md - the when-not-to-use size thresholds, the no-telemetry statement, and the Serena and Repomix comparison (re-fetched 2026-11-17)
 - https://pypi.org/pypi/code-review-graph/json - version 2.4.0 and the 38-release train (re-fetched 2026-11-17)

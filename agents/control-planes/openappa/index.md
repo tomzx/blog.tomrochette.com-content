@@ -1,7 +1,7 @@
 ---
 title: OpenAPPA
 created: 2026-10-07
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, information-flow-control, policy-enforcement, prompt-injection, rust]
 readability: 3
@@ -24,7 +24,7 @@ Recorders shipped in v0.39.0 (2026-11-08, PR 790): a file-tracker keeps a label 
 
 ## Status
 
-Active and fast-growing for its age: 1,561 stars and 66 forks as of 2026-10-14 since creation on 2026-08-18, pushed 2026-11-20 with 39 open issues and pull requests as of 2026-11-20, v0.44.0 (2026-11-18: the sponsor proxy's tuner tools now ruled by policy, and a stop decision holds while a call the gate did not answer is still running) after v0.43.1 (2026-11-16, a dependency-only patch), positioned as a preview and an RFC where config and wire surfaces may break without shims.
+Active and fast-growing for its age: 1,561 stars and 66 forks as of 2026-10-14 since creation on 2026-08-18, pushed 2026-11-21 with 38 open issues and pull requests as of 2026-11-22, the release train moving through v0.45.0 and v0.46.0 (both 2026-11-20) to v0.46.1 (2026-11-21) after v0.44.0 (2026-11-18), with the v0.47.0 tag landed and its release page pending at re-check, positioned as a preview and an RFC where config and wire surfaces may break without shims.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=archestra-ai/OpenAPPA&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ Not for teams that need budgets, org models, or fleet approvals, because OpenAPP
 - 2026-11-15 - Release train moved to v0.43.0 (tagged 2026-11-15, release page pending at re-check): OpenCode background subagents with checked delivery and collection, selector patterns that list alternatives with `|`, typed review scopes, authority `except_tags` with stock approve plans applied and recorded at the block, LLM-sanitizer benchmarking through the production consult path, event-log reads now verifying stored policy bytes, and breaking runtime changes (a RemedyRefusal `Unanswered` variant when an annotator gives no answer, and `RemedyAttempt` declarations for embedded remedies); the release also matures the kagent integration (charts, plugin package, docs) and attests each release image's SBOMs; the counters refreshed (35 open issues and pull requests, pushed 2026-11-15).
 - 2026-11-18 - The v0.43.0 release page published and v0.43.1 (2026-11-16) landed as a dependency-only patch (a CI action bump) with no engine changes; the counters refreshed (43 open issues and pull requests, pushed 2026-11-18).
 - 2026-11-20 - Release train moved to v0.44.0 (published 2026-11-18): the sponsor proxy's tuner tools are ruled by policy, the runtime holds a stop while a call the gate did not answer is still running, annotators evaluate complete shell commands, and SQLite log snapshots are reused for faster cold starts; the counters refreshed (39 open issues and pull requests, pushed 2026-11-20 with unreleased MCP-server-rules work).
+- 2026-11-22 - Release train moved through v0.45.0 (2026-11-20: an Amp orb's shell, files, and egress confined through APPA, the appa-guide newcomer setup flow, the sponsor proxy's MCP server rules tools ruled by policy, a subagent's return deferred to the parent's decision at its stop, and the OpenCode plugin with a sandboxed appa_safebash), v0.46.0 (2026-11-20, breaking: a RemedyRefusal ApprovalPending variant, and a block's offers pinned as data in the offer-line contract), and v0.46.1 (2026-11-21: a non-root demo-tools image and the release publisher's fixed malware scan), with the v0.47.0 tag landed and its release page pending at re-check; the counters refreshed (38 open issues and pull requests, pushed 2026-11-21).
 
 ## See also
 

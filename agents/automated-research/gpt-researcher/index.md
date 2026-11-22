@@ -1,7 +1,7 @@
 ---
 title: GPT Researcher
 created: 2026-10-07
-updated: 2026-11-11
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deep-research, open-source]
 readability: 3
@@ -71,6 +71,7 @@ Not for machine-verified conclusions, and not for anyone who needs a vendor SLA 
 - 2026-10-19 - Full re-verification pass: all six references re-fetched and current, with v3.7.0 still the latest release, PyPI at 0.16.1, the Jev default filter unchanged, and the four-point Show HN thread unchanged.
 - 2026-11-05 - Rotation re-verification: all six references re-fetched and current, with v3.7.0 still the latest release, PyPI at 0.16.1, and the 150-paper docs claim unchanged.
 - 2026-11-11 - Volatile re-verification: recorded the v3.8.0 release (November 9, PyPI 0.17.0): the paper-style UI rewrite with the classic UI kept, detailed reports at 3:27 instead of 9:11 through parallel sections and the gpt-6-sol default writer, 53 community pull requests, multi-arch GHCR images, and the root-.env Docker fix, and moved the version-drift caution's numbers with it.
+- 2026-11-22 - Rotation re-verification: status unchanged (v3.8.0 still the latest release, PyPI still at 0.17.0, the docs' 150-paper claim and the four-point Show HN thread unchanged); every cited URL re-fetched, all live, with the repository's November 12 pushed_at movement traced to a non-default-branch push (the default branch's latest commit is the November 9 CI workflow cleanup that shipped with v3.8.0).
 
 ## See also
 
