@@ -1,7 +1,7 @@
 ---
 title: cc-haha
 created: 2026-10-11
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, source-available, claude-code]
 readability: 3
@@ -82,6 +82,7 @@ Not for teams that need an English-first project, a 1.0 stability guarantee, or 
 - 2026-11-17 - Rotation re-verification, all cited URLs re-fetched live, and corrected the license record the earlier passes had missed: commits on 2026-10-15 adopted the cc-haha Community Source License 1.0 (source-available, noncommercial personal and internal business use permitted, commercial monetization requiring a written license, visible attribution required, historical MIT grants preserved) and removed the root MIT file, so the note's MIT and open-source claims are withdrawn across definition, pricing, and cautions; also recorded the README's IM channel list widening to eight (WeCom, QQ, and Slack joining the original five), the release train unchanged at v0.7.8 (the repo pushed 2026-11-17), and the zero-story HN search standing.
 - 2026-11-19 - Volatile re-verification on the pushed signal, release train unchanged at v0.7.8 with post-release fixes landing November 18 (bounded Codex streaming retries, the ChatGPT context-window fix, the packaged-app startup fix, and pending and unread session counts on the app icon).
 - 2026-11-21 - Volatile re-verification on the released signal, recorded v0.7.9 (November 20, Agent Teams pause and resume with member-model switching while paused and retryable team resume, the Claude subscription usage display, the app-icon badge, session Markdown export, the neutral dark theme and resizable workspace preview, output-token escalation, image compression, and mobile app 0.1.5) as the new latest release.
+- 2026-11-22 - Volatile re-verification on the pushed signal, release train unchanged at v0.7.9 with feature commits landing November 21 to 22 on the default branch (local Antigravity ACP sessions in the desktop app, Grok Official context-window alignment with per-model overrides, and turn-change cards preserved through reconnect).
 
 ## See also
 

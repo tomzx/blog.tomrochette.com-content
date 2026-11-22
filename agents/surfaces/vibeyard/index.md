@@ -1,7 +1,7 @@
 ---
 title: Vibeyard
 created: 2026-10-10
-updated: 2026-11-19
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, session-management, open-source]
 readability: 3
@@ -27,7 +27,7 @@ It is an independent one-maintainer project by elirantutia, distributed through 
 
 ## Status
 
-Quiet, then stirring: 1,387 stars and 173 forks as of 2026-10-16, created 2026-03-19, released v0.3.4 (2026-07-22) through v0.3.8 (2026-09-03), and the release train sat still for ten weeks until it resumed on 2026-11-13 with v0.3.9 (no written notes) and v0.3.10 (whose notes say "No user-facing changes; this release only fixes the release pipeline"), the first releases after the repository woke on 2026-11-01 with the vibeyard-ctl tab-control feature, now documented in the README as an opt-in agent-drives-the-app mechanism.
+Quiet, then stirring: 1,387 stars and 173 forks as of 2026-10-16, created 2026-03-19, released v0.3.4 (2026-07-22) through v0.3.8 (2026-09-03), and the release train sat still for ten weeks until it resumed on 2026-11-13 with v0.3.9 (no written notes) and v0.3.10 (whose notes say "No user-facing changes; this release only fixes the release pipeline"), the first releases after the repository woke on 2026-11-01 with the vibeyard-ctl tab-control feature, now documented in the README as an opt-in agent-drives-the-app mechanism, and continued on 2026-11-21 with v0.3.11 (current-project scope in global session search, hooks and status-line fixes for machines missing /usr/bin/python3, and improved session state for Claude Code hooks with plan usage limits shown), the train's first release with written feature notes since the pause.
 The only public launch trace is a self-submitted Show HN thread from 2026-04-23 that drew 2 points and zero comments (re-checked 2026-11-14, still the only thread), and no third-party coverage surfaced in this run's search.
 MIT throughout.
 
@@ -47,7 +47,7 @@ MIT throughout.
 
 ## Cautions
 
-- **The train resumed but its notes did not: the first releases in ten weeks (v0.3.9 and v0.3.10, November 13) carry no user-facing notes, one maintainer, no community, and no stated roadmap, so you cannot tell from a release what changed and vibeyard-ctl's arrival is visible only in the README.**
+- **The resumed train's notes are thin: the first releases in ten weeks (v0.3.9 and v0.3.10, November 13) carried no user-facing notes, and v0.3.11 (November 21) restored only short written notes, from a one-maintainer project with no community and no stated roadmap, so a release still tells you little beyond its bullet list.**
 - vibeyard-ctl is opt-in and, per the README's own words, its per-tab token "is not a security boundary", since every process the tab starts inherits it; agents you run can drive the app.
 - The community footprint is nearly empty, so nothing independent has exercised the feature claims (the P2P share path and profile isolation especially).
 - It wraps three CLIs and inherits whatever they change; the README itself says more providers are "coming soon", unshipped as of 2026-10-10.
@@ -66,8 +66,8 @@ Free and open source under MIT; no paid tier exists.
 
 ## Bottom line
 
-**Recommended for engineers running Claude Code, Codex CLI, or Gemini CLI who want a task board and a cost view above their terminals, and who accept a single-maintainer app whose November releases resumed with unexplained notes.**
-Not for anyone who needs a cockpit whose release notes explain what shipped (OpenChamber's train is moving and its notes do), MCP or rules management in the surface, or any cloud and mobile reach.
+**Recommended for engineers running Claude Code, Codex CLI, or Gemini CLI who want a task board and a cost view above their terminals, and who accept a single-maintainer app whose November train resumed with thin release notes.**
+Not for anyone who needs a cockpit whose release notes explain what shipped in full (OpenChamber's train is moving and its notes do), MCP or rules management in the surface, or any cloud and mobile reach.
 
 ## Changes
 
@@ -78,6 +78,7 @@ Not for anyone who needs a cockpit whose release notes explain what shipped (Ope
 - 2026-11-13 - Rotation re-verification, all cited URLs re-fetched live: the quiet stands, the repository still pushed 2026-11-01 and not archived with no release after v0.3.8 (2026-09-03, about ten weeks), the README unchanged with the coming-soon providers still unshipped and vibeyard-ctl still unreleased, and the HN search still returning the one 2-point Show HN.
 - 2026-11-14 - Volatile re-verification on the released signal (full note re-verified the same run), all cited URLs re-fetched live: the ten-week quiet broke on 2026-11-13 with v0.3.9 (no written notes) and v0.3.10 (a release-pipeline fix only, per its notes) as the new latest releases, the README now documents vibeyard-ctl as an opt-in tab-control server for agents with the not-a-security-boundary token caveat and shows Windows installers beside the macOS and Linux builds, while the coming-soon providers remain unshipped and the HN footprint still reads one 2-point Show HN; the status, cautions, and bottom line rewritten around the resumed-but-unexplained train.
 - 2026-11-19 - Rotation re-verification, all cited URLs re-fetched live: the repository (pushed 2026-11-13, MIT, not archived), the README with the vibeyard-ctl section and the coming-soon providers still unshipped, the release train at v0.3.10 and v0.3.9 (November 13) above v0.3.8, the HN search still returning the lone 2-point Show HN among vineyard noise, and the Show HN thread all stand.
+- 2026-11-22 - Volatile re-verification on the released signal, recorded v0.3.11 (November 21, current-project scope in global session search, the missing-/usr/bin/python3 hooks and status-line fixes, and improved Claude Code hook session state with plan usage limits) as the new latest release, the train's first written feature notes since the ten-week pause; the coming-soon providers remain unshipped.
 
 ## See also
 
@@ -90,6 +91,6 @@ Not for anyone who needs a cockpit whose release notes explain what shipped (Ope
 
 - https://api.github.com/repos/elirantutia/vibeyard - 1,387 stars, 173 forks, MIT license, created 2026-03-19, pushed 2026-09-03, as of 2026-10-16 (stars and forks), re-fetched 2026-10-20 (still pushed 2026-09-03, not archived), re-fetched 2026-11-14 (pushed 2026-11-13, not archived)
 - https://raw.githubusercontent.com/elirantutia/vibeyard/main/README.md - the feature set (kanban-to-session loop, swarm grid, isolated Claude profiles, WebRTC sharing, inspector, embedded browser), install paths, and the not-affiliated notice; re-fetched 2026-11-14 with the vibeyard-ctl tab-control section, its not-a-security-boundary token caveat, and Windows installers added
-- https://api.github.com/repos/elirantutia/vibeyard/releases - the v0.3.4 (2026-07-22) through v0.3.8 (2026-09-03) release train, re-fetched 2026-11-14 with v0.3.9 (2026-11-13, no written notes) and v0.3.10 (2026-11-13, "No user-facing changes; this release only fixes the release pipeline") above it
+- https://api.github.com/repos/elirantutia/vibeyard/releases - the v0.3.4 (2026-07-22) through v0.3.8 (2026-09-03) release train, re-fetched 2026-11-14 with v0.3.9 (2026-11-13, no written notes) and v0.3.10 (2026-11-13, "No user-facing changes; this release only fixes the release pipeline") above it, and again 2026-11-22 with v0.3.11 (2026-11-21, written notes: current-project session search scope, the python3 hooks and status-line fixes, Claude Code hook session state with plan usage limits) on top
 - https://hn.algolia.com/api/v1/search?query=vibeyard&tags=story - the search that found exactly one relevant thread, re-fetched 2026-11-14 (still only the Show HN among the vineyard noise)
 - https://hn.algolia.com/api/v1/items/47872787 - the self-submitted Show HN thread (2 points, 0 comments, 2026-04-23), the empty-footprint evidence, re-fetched 2026-11-14

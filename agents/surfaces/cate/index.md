@@ -1,7 +1,7 @@
 ---
 title: Cate
 created: 2026-10-08
-updated: 2026-11-19
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source, canvas]
 readability: 3
@@ -20,14 +20,14 @@ Cate is an MIT-licensed open-source desktop workspace (Electron) that lays edito
 Agent chats run through an embedded T3 Code integration (Codex, Claude Code, Cursor, Grok, OpenCode, and Antigravity in one chat panel), while plain terminals gain agent-awareness from the CLIs' own hook events: turn start, turn end, and permission prompts become running, waiting, or finished states with notifications.
 One click spins up a git worktree on its own branch, off a local branch, a remote branch, or an open PR, drawn as a colored territory on the canvas, and sessions survive restarts, reattaching each agent with its resume command.
 The `cate` CLI closes the loop by letting an agent drive the app back: open a browser panel, read another terminal, manage panels.
-SSH and WSL targets run terminals, git, and search remotely while the canvas, editors, and browser stay local.
+SSH and WSL targets run terminals, git, and search remotely while the canvas, editors, and browser stay local, and since stable 2.1 (November 2026) shared workspace runtimes keep sessions alive across restarts while an iPhone companion pairs to them for chats, terminals, editors, browsers, and reviews, with terminal-based agents (supported CLIs including Pi) started alongside the T3 Code chats.
 It is built by the 0-AI-UG organization, with the v1.0 launch shared on Hacker News under the BlueBerry2001 handle.
 
 ## Status
 
 **Active and young: a six-month-old project with a steady release train.**
 The repository was created 2026-03-29, and v1.0 landed May 25, 2026 behind a 65-point Show HN thread (66 comments), preceded by a smaller spatial-workspace thread in May.
-The v2 line carries it now: v2.0.5 (2026-09-30, T3 Connect startup fixes in packaged builds, false agent-ready notification fixes during automatic approval, a hooks-settings rework) is the latest release after v2.0.4 and v2.0.3 in the two weeks before it, a v2.1.0-beta.1 pre-release (October 23, browser locators, pairing-by-key remote sessions, and an agent usage overview) runs above it with the beta train since reaching v2.1.0-beta.15 (November 13, canvas panning that keeps the wallpaper and grid cached with reduced macOS display-scheduling waits after idle, and the changes overlay shown only on agent execution panels) after beta.14 (November 12, native agent conversation tracking in shared workspace runtimes and the runtime support for Cate Mobile 0.1.2) after beta.11 through beta.13 (November 9 and 10, canvas rendering and panel-memory reductions with terminal and agent startup improvements, page and review state preserved across resource reclaim, and first-pan-after-idle fixes) and beta.7 through beta.10 (November 2 to 5, shared terminal agent history with Codex transcript-binding fixes, a protocol compatibility version that decouples the desktop, iOS, CLI, and runtime handshake from release numbers, iOS browser passwords over the shared runtime, canvas wallpapers and simplified workspace navigation), and the repository was pushed 2026-11-18 on side branches while the default branch's latest commit sits at 2026-11-15 (terminal TUI input-mode reset, lazy runtime modules, bulk worktree deletion).
+The v2 line carries it now: stable v2.1.1 (2026-11-20, workspace-stability fixes for Git exit races and client disconnects, canvas pan and zoom remembered per workspace on the client device, and related-panel agent context shared automatically) above stable v2.1.0 (2026-11-20, the beta train graduating to the stable channel: shared workspace runtimes that keep terminals, agents, and files available across app restarts, encrypted device pairing over the local network or Cate Connect, remote machines on SSH hosts and WSL with runtime installation handled by Cate, an iPhone companion that follows agent chats and runs terminals, editors, browsers, and reviews on paired workspaces, terminal-based agents starting supported CLIs including Pi, and browser automation without taking focus), after the beta train's v2.1.0-beta.15 (November 13, canvas panning that keeps the wallpaper and grid cached with reduced macOS display-scheduling waits after idle, and the changes overlay shown only on agent execution panels) and beta.14 (November 12, native agent conversation tracking in shared workspace runtimes and the runtime support for Cate Mobile 0.1.2), with the default branch's latest commit at 2026-11-21 (browser login and signup credential handling, panel-specific tab listing, terminal theme matching).
 About 2.2k stars (2,187) and 141 forks as of 2026-10-16.
 Installs go through prebuilt DMG, NSIS, AppImage, DEB, and tar archives plus a Homebrew cask, and the README tells daily users not to build from source.
 
@@ -76,6 +76,7 @@ Not for keyboard-first minimalists, and not for anyone whose window manager alre
 - 2026-11-13 - Volatile re-verification on the pushed signal, recorded the beta train reaching v2.1.0-beta.14 (November 12, native agent conversation tracking in shared workspace runtimes, runtime support for Cate Mobile 0.1.2) after beta.11 through beta.13 (November 9 and 10, canvas rendering and panel-memory reductions, state preservation, pan fixes); the repository stands pushed 2026-11-12 with stable still v2.0.5.
 - 2026-11-16 - Volatile re-verification on the pushed signal, recorded the beta train reaching v2.1.0-beta.15 (November 13, cached wallpaper and grid while panning with reduced macOS display-scheduling waits after idle, and the changes overlay restricted to agent execution panels); stable still v2.0.5.
 - 2026-11-19 - Volatile re-verification on the pushed signal, release train unchanged (stable v2.0.5, beta train still at v2.1.0-beta.15 of November 13); pushed_at reads 2026-11-18 on side branches with the default branch's latest commit at 2026-11-15.
+- 2026-11-22 - Volatile re-verification on the released signal, recorded the beta train graduating to stable: v2.1.0 (November 20, shared workspace runtimes surviving restarts, encrypted device pairing over the local network or Cate Connect, SSH and WSL remote machines, an iPhone companion for chats, terminals, editors, browsers, and reviews on paired workspaces, terminal-based agents including Pi, and focus-free browser automation) and v2.1.1 (November 20, workspace-stability and canvas pan/zoom persistence fixes with related-panel agent context sharing) as the new latest stable releases, the first stable mobile surface; the default branch's latest commit sits at 2026-11-21.
 
 ## See also
 
@@ -87,7 +88,9 @@ Not for keyboard-first minimalists, and not for anyone whose window manager alre
 ## References
 
 - https://github.com/0-AI-UG/cate - repository and README (T3 Code chats, agent-aware terminals, worktree territories, the cate CLI, SSH and WSL), MIT license, 2,187 stars and 141 forks as of 2026-10-16
-- https://github.com/0-AI-UG/cate/releases - v2.0.5 (2026-09-30) as the latest release on the v2 train, after v2.0.4 and v2.0.3; the beta train above it reached v2.1.0-beta.15 (2026-11-13), re-fetched 2026-11-16 and again 2026-11-19 (train unchanged, stable still v2.0.5)
+- https://github.com/0-AI-UG/cate/releases - v2.1.1 (2026-11-20, workspace stability, canvas pan/zoom persistence, related-panel agent context) above v2.1.0 (2026-11-20, the beta train's stable graduation: shared runtimes, device pairing and Cate Connect, SSH and WSL remote machines, the iPhone companion, terminal-based agents including Pi, browser automation), fetched 2026-11-22
+- https://api.github.com/repos/0-AI-UG/cate/releases/tags/v2.1.0 - the November 20 stable release notes: shared workspaces, remote access and pairing, the iPhone companion, terminal agents, browser automation, wallpapers, and the one-time stable-upgrade import, fetched 2026-11-22
+- https://api.github.com/repos/0-AI-UG/cate/releases/tags/v2.1.1 - the November 20 patch notes: the Git-exit race and disconnect fixes, per-workspace canvas pan and zoom persistence, and related-panel agent context sharing, fetched 2026-11-22
 - https://api.github.com/repos/0-AI-UG/cate/releases/tags/v2.1.0-beta.15 - the November 13 beta notes: wallpaper and grid cached while panning with reduced macOS display-scheduling waits after idle, grid alignment preserved at fractional zoom, and the changes overlay shown only on agent execution panels, fetched 2026-11-16
 - https://cate.cero-ai.com - the product homepage, a client-rendered shell this run (title only, no server-rendered content)
 - https://news.ycombinator.com/item?id=48265470 - the 65-point v1.0 Show HN thread (66 comments): the window-manager, cognitive-overload, Electron, and Haystack-editor critiques

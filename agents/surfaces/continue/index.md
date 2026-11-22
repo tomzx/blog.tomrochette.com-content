@@ -1,7 +1,7 @@
 ---
 title: Continue
 created: 2026-08-26
-updated: 2026-11-19
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source, byok]
 readability: 3
@@ -80,6 +80,7 @@ For the workflow it pioneered, use Cline or an ACP-speaking host.
 - 2026-11-14 - Rotation re-verification, all cited URLs re-fetched live: the acquisition notice, the read-only README (Apache-2.0 through 2026, repository not archived, metadata pushes continuing November 13), the repo API, the Ollama guide, and both funeral threads (13 points and 4 points) stand; the marketplace counter refreshed to 4,556,963 installs, with the average rating again not re-readable in the fetch, so the 3.2 reading stands dated 2026-10-27.
 - 2026-11-16 - Out-of-rotation re-verification after the matrix alignment check found the Continue column carrying cells the note did not support: grounded the as-they-were surface record against the frozen docs index and rules page fetched this run (Agent, Chat, Edit, Autocomplete, CLI; rules in `.continue/rules`; no cloud, session-grid, scheduled-work, or mobile-remote surface documented), and refreshed the marketplace counter to 4,566,614 installs (rating not re-readable in the fetch, the 3.2 reading stands dated 2026-10-27).
 - 2026-11-19 - Volatile re-verification on the pushed signal, metadata-only: the repository pushed November 18 with the read-only notice and Apache-2.0 license field standing, no product movement.
+- 2026-11-22 - Volatile re-verification on the pushed signal, metadata-only: pushed_at reads 2026-11-20 while the default branch's latest commit sits at 2026-07-21, so the read-only notice and Apache-2.0 field stand with no product movement.
 
 ## See also
 

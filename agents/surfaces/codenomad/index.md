@@ -1,7 +1,7 @@
 ---
 title: CodeNomad
 created: 2026-10-11
-updated: 2026-11-19
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, opencode, desktop, session-cockpit, open-source]
 readability: 3
@@ -76,6 +76,7 @@ My disagreeable claim: two serious cockpits around one harness is the correct ma
 - 2026-11-13 - Volatile re-verification on the pushed signal, recorded the dev train's re-tag to v1.1.0-dev (first tagged November 10, building daily through November 13) above stable v1.0.1, unchanged since October 29; the repository stands pushed 2026-11-13 and not archived.
 - 2026-11-16 - Volatile re-verification on the pushed signal, the v1.1.0-dev daily train confirmed building through November 16 above stable v1.0.1; the repository stands pushed 2026-11-16 and not archived.
 - 2026-11-19 - Volatile re-verification on the pushed signal, recorded stable v1.1.0 (November 18, the Design image workspace, opt-in Memory, event-driven Missions on schedules and repository activity, and the OpenCode contract moving to 2.3.0 minimum and recommended) as the new latest stable above v1.0.1, the v1.1.0-dev daily train continuing above it.
+- 2026-11-22 - Volatile re-verification on the pushed signal, stable v1.1.0 unchanged with the v1.1.0-dev daily train building through November 22 (window-owned tab fixtures, workspace-record cleanup on window close, pending-badge seeding through native events); the repository stands pushed 2026-11-22 and not archived.
 
 ## See also
 

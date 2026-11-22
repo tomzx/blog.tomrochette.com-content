@@ -1,7 +1,7 @@
 ---
 title: Whiteboard
 created: 2026-10-04
-updated: 2026-11-19
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surface, review, open-source]
 readability: 3
@@ -88,6 +88,7 @@ Not for teams that need a supported, priced, categorized tool, and not for anyon
 - 2026-11-13 - Volatile re-verification on the released signal, recorded v0.5.2 (November 9, animation tours over code-carrying frames, streaming paint-in, the clip block with markers, scene cards with forms and colors, and the stuck-toast fix) as the new latest desktop release; the repository stands pushed 2026-11-13 and the open-work queue reads eleven issues and twenty-seven pull requests.
 - 2026-11-16 - Volatile re-verification on the pushed signal: no release after v0.5.2 (the diffr tag family unchanged), the repository stands pushed 2026-11-16, and the open-work queue reads twelve issues and twenty-nine pull requests.
 - 2026-11-19 - Volatile re-verification on the pushed signal: no release after v0.5.2 (the diffr tag family unchanged), the repository stands pushed 2026-11-19, and the open-work queue reads thirteen issues and thirty-two pull requests.
+- 2026-11-22 - Volatile re-verification on the pushed signal: no desktop release after v0.5.2, the diffr tag family released 0.1.24 (November 22), the repository stands pushed 2026-11-22, and the open-work queue reads eleven issues and twenty-nine pull requests; the repository description's new "open-source canvas for thoughtful software design" tagline keeps the README's humans-and-agents pitch as the lead, so no repositioning is recorded.
 
 ## See also
 

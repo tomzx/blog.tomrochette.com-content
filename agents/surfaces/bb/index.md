@@ -1,7 +1,7 @@
 ---
 title: bb
 created: 2026-10-11
-updated: 2026-11-19
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -78,6 +78,7 @@ Not for Windows or Linux daily drivers, and not for anyone who needs independent
 - 2026-11-13 - Volatile re-verification on the pushed signal (release train unchanged at desktop-v0.49.0), and added the community plugin directory (MGrin/awesome-bb-plugins) to Status as ecosystem evidence: 21 official plugins, the retired remote marketplace, and 25 npm bb-plugin packages per the directory's count; the zero-coverage caution stands, the directory documents plugins without reviewing the IDE.
 - 2026-11-17 - Rotation re-verification, all cited URLs re-fetched live: the repository (pushed 2026-11-17, MIT, not archived), the README (same self-building pitch, telemetry section unchanged), the product site, and the changelog (still ending at the 0.49.0 reliability release, no 0.49.1 stable after it) stand, desktop-v0.49.0 confirmed as the latest stable through the releases API, the plugin directory stands unchanged with the recorded facts intact, and the HN search re-run returns the same lone unrelated Agentastic.dev hit; prices unchanged.
 - 2026-11-19 - Volatile re-verification on the pushed and released signals, recorded desktop-v0.50.1 (November 18) as the new latest stable with the changelog's 0.50.0 notes entry (automatic updates once idle, end-of-turn message delivery, restart-surviving turns, server-stall removals, lighter timeline updates, and the OpenCode 2 permission and Cursor session-scoped-approval security fixes); the zero-coverage HN search re-run returns the same lone unrelated Agentastic.dev hit.
+- 2026-11-22 - Volatile re-verification on the pushed signal, release train unchanged at desktop-v0.50.1 with feature work landing November 21 to 22 on the default branch (agent-writable folders decided per session with each thread granted only its own storage, an Android text-selection fix in the timeline, and split-pane keyboard-focus handling).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: beads
 created: 2026-08-27
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, issue-tracking, open-source, byok]
 readability: 3
@@ -25,7 +25,7 @@ It lives in the gastownhall organization (renamed from steveyegge, the old name 
 ## Status
 
 Active and moving fast.
-As of 2026-11-21: 27,853 stars (as of 2026-10-14), 1,949 forks, 1,781 open issues, created 2025-10-12, pushed 2026-11-21, latest stable release v1.3.4 on 2026-11-04 after v1.3.3 (2026-11-03, a security and data-loss fix release whose post-release known issue, `.beads/.env`'s `GT_ROOT` key dropped by a new env allowlist, v1.3.4 restored one day later), a v1.4.0 release-candidate train begun after it (rc.1 2026-11-12 through rc.4 2026-11-20, binary swaps after rc.1 with no new migration), and 51,856 npm downloads over the trailing month to 2026-11-21.
+As of 2026-11-22: 27,853 stars (as of 2026-10-14), 1,951 forks, 1,788 open issues, created 2025-10-12, pushed 2026-11-22, latest stable release v1.3.4 on 2026-11-04 after v1.3.3 (2026-11-03, a security and data-loss fix release whose post-release known issue, `.beads/.env`'s `GT_ROOT` key dropped by a new env allowlist, v1.3.4 restored one day later), a v1.4.0 release-candidate train begun after it (rc.1 2026-11-12 through rc.4 2026-11-20, binary swaps after rc.1 with no new migration), and 50,983 npm downloads over the trailing month to 2026-11-22.
 The v1.4.0 candidates carry a one-way schema migration (store moved to schema v74; bd 1.3.x and older refuse the database afterwards, so the release notes say to back up first), require Dolt server and CLI 2.6.0 or newer, and rc.2 fixes a 1.4.0 regression where `bd github sync` clobbered local label edits alongside a fix for server-mode pulls writing the remote URL, token included, into merge commits.
 
 <picture>
@@ -93,6 +93,7 @@ The disagreeable claim I will defend: every markdown task file is a beads databa
 - 2026-11-14 - Refreshed counts (1,944 forks, 1,791 open issues, pushed 2026-11-14, 44,074 npm downloads over the trailing month to 2026-11-14); v1.3.4 still the newest stable release and rc.2 still the newest candidate.
 - 2026-11-15 - Refreshed counts (1,942 forks, 1,801 open issues, pushed 2026-11-15, 46,275 npm downloads over the trailing month to 2026-11-15); v1.3.4 still the newest stable release and rc.2 still the newest candidate.
 - 2026-11-21 - Recorded the v1.4.0-rc train advancing to rc.3 (2026-11-18) and rc.4 (2026-11-20), both binary swaps adding no migration beyond rc.1's schema-v74 move, and refreshed counts (1,949 forks, 1,781 open issues, pushed 2026-11-21, 51,856 npm downloads over the trailing month to 2026-11-21); v1.3.4 still the newest stable release and rc.4 still the newest candidate.
+- 2026-11-22 - Refreshed counts (1,951 forks, 1,788 open issues, pushed 2026-11-22, 50,983 npm downloads over the trailing month to 2026-11-22); v1.3.4 still the newest stable release and rc.4 still the newest candidate.
 
 ## See also
 

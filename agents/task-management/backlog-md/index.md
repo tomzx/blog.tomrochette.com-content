@@ -1,7 +1,7 @@
 ---
 title: Backlog.md
 created: 2026-08-27
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, kanban, markdown, open-source, byok]
 readability: 3
@@ -24,11 +24,12 @@ It is maintained under the MrLesk identity, with conference talks ([Devoxx Belgi
 ## Status
 
 Active and healthy at mid-scale.
-As of 2026-11-21: 7,024 stars (as of 2026-10-14), 109 open issues and pull requests, pushed 2026-11-21, MIT-licensed, latest release v1.55.3 on 2026-10-23, 161,829 npm downloads over the trailing month to 2026-11-21.
+As of 2026-11-22: 7,024 stars (as of 2026-10-14), 107 open issues and pull requests, pushed 2026-11-21, MIT-licensed, latest release v1.57.2 on 2026-11-21, 160,990 npm downloads over the trailing month to 2026-11-22.
 v1.54.0 is a breaking release: `backlog task complete` and its MCP `task_complete` tool are removed in favor of marking work Done and archiving it, and archive now preserves the task's ID, record, dependencies, and references, with restore and delete alongside; it also changed the default task ordering and made previously accepted malformed edits fail.
 v1.55.0 (2026-10-20) followed as a repair release: versioned JSON output for draft lists, signal forwarding so stopping the npm and Bun launcher stops its native process, unknown YAML frontmatter preserved when unrelated fields are edited, explicit UTC timestamps, and duplicate task IDs repaired through `backlog doctor --fix`.
 v1.55.1 (2026-10-21) and v1.55.2 (2026-10-22) are security hardening releases patching dependencies and native certificate handling; v1.55.2's caveat was that native Git HTTPS proxies were temporarily unsupported while direct HTTPS and HTTP CONNECT proxies kept working.
 v1.55.3 (2026-10-23) closed that caveat by restoring native Git certificate and proxy settings, including private HTTPS proxies, fixed task reads and writes in Nix packages, and rebuilt the native executables and Nix packages with Bun 1.4.4 for the upstream Brotli decoder and certificate trust fixes.
+Four releases then landed in one day, 2026-11-21: v1.56.0 made task filenames follow title edits (a rename keeps the task's ID and links, with branches reconciled by creation time to the second) and made decisions first-class records the CLI writes and reads (--context, --decision, --alternatives, --consequences, supersession links, `backlog decision view`), required YAML-only markdown metadata with second-precision UTC timestamps, and applied a custom workflow's final column consistently across statistics, milestones, and board completion marks; v1.57.0 added a read-only static browser export (`backlog browser export`) publishing the board, task list, documents, decisions, and milestones to any static host with search and links working; v1.57.1 rejected document and decision IDs carrying folder separators before any write, a path-traversal guard, stopped standalone builds auto-loading bunfig.toml and .env, and added a security policy; and v1.57.2 locked document and decision IDs before lookup so an edit racing a rename reports record-busy instead of document-not-found, across edits, archive, restore, delete, and MCP document updates.
 The repo's quiet stretch since 2026-09-28 ended on 2026-10-07 with README commits adding a Backlog.md + Groma.md integration section, Groma.md being the same author's separate MIT architecture-map tool (188 stars as of 2026-10-10).
 
 <picture>
@@ -85,6 +86,7 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 - 2026-11-12 - Rotation re-verification with every cited URL re-fetched live (repository, API, README, the v1.54.0 through v1.55.3 release tags, groma.md resolving to its repository, the companion repo, the 254-point launch thread, npm, the talks page) and refreshed counts (94 open issues and pull requests, pushed 2026-11-11, 124,586 npm downloads over the trailing month to 2026-11-12); v1.55.3 still the newest release.
 - 2026-11-15 - Rotation re-verification with every cited URL re-fetched live (repository, API, README, the v1.54.0 through v1.55.3 release tags, groma.md still resolving to its repository, the companion repo, the 254-point launch thread, npm, the talks page) and refreshed counts (102 open issues and pull requests, 143,042 npm downloads over the trailing month to 2026-11-15); v1.55.3 still the newest release.
 - 2026-11-21 - Refreshed counts (109 open issues and pull requests, pushed 2026-11-21, 161,829 npm downloads over the trailing month to 2026-11-21); v1.55.3 still the newest release, with main carrying unreleased work since (task-file renames when a title changes, custom workflow statuses in milestones and board views, and a memory bound for the terminal board).
+- 2026-11-22 - Recorded the four releases of 2026-11-21 (v1.56.0: task filenames follow title edits, decisions as first-class CLI records, YAML-only metadata with second-precision UTC times, final-column consistency for custom workflows; v1.57.0: the read-only static browser export; v1.57.1: the folder-separator ID guard, standalone bunfig and .env loading skipped, a security policy; v1.57.2: the rename race closed with ID locking and record-busy retries across edits, archive, restore, delete, and MCP document updates) and refreshed counts (107 open issues and pull requests, 160,990 npm downloads over the trailing month to 2026-11-22); v1.57.2 now the newest release.
 
 ## See also
 
@@ -102,6 +104,7 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 - https://api.github.com/repos/MrLesk/Backlog.md/releases/tags/v1.55.0 - the v1.55.0 notes: JSON draft lists, launcher signal forwarding, frontmatter preservation, doctor repair
 - https://api.github.com/repos/MrLesk/Backlog.md/releases/tags/v1.55.2 - the v1.55.2 notes: certificate-authority hardening and the native Git HTTPS proxy caveat
 - https://api.github.com/repos/MrLesk/Backlog.md/releases/tags/v1.55.3 - the v1.55.3 notes: native Git certificate and private HTTPS proxy support restored, Nix fixes, the Bun 1.4.4 rebuild
+- https://api.github.com/repos/MrLesk/Backlog.md/releases - the four 2026-11-21 releases v1.56.0 through v1.57.2: filenames following renames, decision records, the static export, the ID guards, and the rename-race locking
 - https://groma.md - the companion product the integration names (resolves to its GitHub repository)
 - https://api.github.com/repos/MrLesk/groma.md - the companion repo: 188 stars, MIT, as of 2026-10-10
 - https://news.ycombinator.com/item?id=44483530 - the 254-point launch thread

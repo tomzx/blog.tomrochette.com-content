@@ -31,6 +31,7 @@ Where quality control lives in the agent workflow: CI gates, dashboards, machine
 - [ResearchClawBench](researchclawbench/index.md) - the Shanghai AI Laboratory benchmark scoring whether agents can re-discover published science from raw data, expert rubrics judged by a configurable multimodal LLM in two modes, MIT with an arXiv paper and a live leaderboard.
 - [ReviewBench](reviewbench/index.md) - GitHub's open AI-code-review benchmark: 219 public PRs, a multi-source golden set, Claude Sonnet 5 as judge, and a leaderboard whose scores publish only on maintainer approval.
 - [slop-grader](slop-grader/index.md) - the MIT CLI that grades documents and diffs line by line against Markdown rulesets with Jev decision models, exhaustive by construction and priced in thousandths of a cent per question.
+- [SlopCodeBench](slopcodebench/index.md) - the UW-Madison-led MIT benchmark that scores coding agents across 196 checkpoints of extending their own code as the specification grows, pricing the structural erosion and verbosity single-shot benchmarks never charge for; 324 stars as of 2026-11-22 with HumanLayer's public model shootouts as the loudest adoption.
 - [SWE-bench](swe-bench/index.md) - the Princeton NLP benchmark scoring whether a generated patch resolves a real GitHub issue under the repository's own held-out tests, the field's default yardstick with its leakage and contamination critiques documented.
 - [Verbatim Citation Gate](verbatim-citation-gate/index.md) - the MIT two-stage citation auditor: a zero-token deterministic gate for fabricated quotes, then a skeptical judge that fails closed.
 - [Workshop](workshop/index.md) - Raindrop's local debugger where the coding agent reads traces, writes evals, and fixes what fails.
@@ -65,3 +66,4 @@ Its members are compared on shared rows in the [Evaluation and Review Feature Ma
 - 2026-11-18 - Added Harbor.
 - 2026-11-18 - Added SWE-bench.
 - 2026-11-18 - Added τ²-bench.
+- 2026-11-22 - Added SlopCodeBench.

@@ -1,7 +1,7 @@
 ---
 title: Void
 created: 2026-08-24
-updated: 2026-11-16
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -68,6 +68,7 @@ Not for anyone who wants the project's best days ahead of it.
 - 2026-10-31 - Rotation re-verification, all cited URLs re-fetched live: the archived flag, the June 2, 2026 last push, the v1.3.4 April 2025 release freeze, the product page still offering the beta download, and both threads stand unchanged.
 - 2026-11-08 - Rotation re-verification, all cited URLs re-fetched live: the archived flag, the June 2, 2026 last push, the v1.3.4 April 2025 release freeze, the product page still offering the beta download, and both threads stand unchanged.
 - 2026-11-16 - Rotation re-verification, all cited URLs re-fetched live: the archived flag, the June 2, 2026 last push, the v1.3.4 (April 15, 2025) release freeze, the product page still offering the beta download, and both threads (948 points, 2 points) stand unchanged.
+- 2026-11-22 - Rotation re-verification, all cited URLs re-fetched live: the archived flag, the June 2, 2026 last push, the v1.3.4 (2025-04-15) release freeze, the product page still offering the download, and both threads (948 points, 2 points) stand unchanged.
 
 ## See also
 
@@ -78,7 +79,7 @@ Not for anyone who wants the project's best days ahead of it.
 ## References
 
 - https://voideditor.com/ - product page and download
-- https://github.com/voideditor/void - source, about 28.8k stars (as of 2026-10-16), Apache-2.0, archived flag re-fetched 2026-11-16 (still archived, not unarchived)
-- https://github.com/voideditor/void/releases - release history ending at v1.3.4 (2025-04-15), re-fetched 2026-11-16
+- https://github.com/voideditor/void - source, about 28.8k stars (as of 2026-10-16), Apache-2.0, archived flag re-fetched 2026-11-22 (still archived, not unarchived, last push 2026-06-02)
+- https://github.com/voideditor/void/releases - release history ending at v1.3.4 (2025-04-15), re-fetched 2026-11-22
 - https://news.ycombinator.com/item?id=43927926 - the 948-point breakout thread, May 2025
 - https://news.ycombinator.com/item?id=46274927 - the "after Void slowed down" thread, December 2025

@@ -1,7 +1,7 @@
 ---
 title: Task Master
 created: 2026-08-27
-updated: 2026-11-13
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, task-tracking, mcp]
 readability: 3
@@ -23,7 +23,7 @@ Since the commercialization it is also "Taskmaster", a [Hamster](https://tryhams
 ## Status
 
 Open-source repo quiet, commercial product alive, usage still enormous.
-28,222 stars as of 2026-10-14 and 2,618 forks (the largest raw numbers in this category), but the last push landed 2026-04-28 and the last release (0.43.1) on 2026-03-31, while npm read 54,758 downloads over the trailing month to 2026-11-13.
+28,222 stars as of 2026-10-14 and 2,631 forks as of 2026-11-22 (the largest raw numbers in this category), but the last push landed 2026-04-28 and the last release (0.43.1) on 2026-03-31, while npm read 62,912 downloads over the trailing month to 2026-11-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eyaltoledano/claude-task-master&type=date&theme=dark&legend=top-left" />
@@ -85,6 +85,7 @@ For new setups, the choice is beads for multi-agent state or Backlog.md for huma
 - 2026-10-28 - Rotation re-verification with every cited URL re-fetched live (repository, API, releases, LICENSE, both Hamster pages, docs, npm): all claims confirmed, the repo still quiet since April 2026, Hamster's tiers unchanged (Free 10 briefs, Team $40 per creator per month or $400 per year, Enterprise $200), and npm eased further to 58,553 downloads over the trailing month to 2026-10-28.
 - 2026-11-07 - Rotation re-verification with every cited URL re-fetched live (repository, API, releases, LICENSE, both Hamster pages, docs, npm): all claims confirmed, the repo still quiet since April 2026, 0.43.1 still the newest release, the Commons Clause license unchanged, Hamster's tiers unchanged, the product page's "MIT licensed" claim persisted through its move to the /research/taskmaster path, and npm eased to 49,480 downloads over the trailing month to 2026-11-07.
 - 2026-11-13 - Rotation re-verification with every cited URL re-fetched live (repository API, releases, LICENSE, both Hamster pages, docs, npm): all claims confirmed again, the repo still quiet since April 2026, 0.43.1 still the newest release, the license and the product page's "MIT licensed" claim unchanged, Hamster's tiers unchanged, and npm read 54,758 downloads over the trailing month to 2026-11-13.
+- 2026-11-22 - Rotation re-verification with every cited URL re-fetched live (repository, API, releases, LICENSE, both Hamster pages, docs, npm): all claims confirmed again, the repo still quiet since April 2026, 0.43.1 still the newest release, the Commons Clause license and the product page's "Open source. MIT licensed. fork it." claims unchanged, Hamster's tiers unchanged (Free 10 briefs, Team $40 per creator per month, Enterprise $200), and npm read 62,912 downloads over the trailing month to 2026-11-22.
 
 ## See also
 

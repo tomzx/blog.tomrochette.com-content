@@ -1,7 +1,7 @@
 ---
 title: Windsurf
 created: 2026-08-23
-updated: 2026-11-16
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, cognition, devin]
 readability: 3
@@ -48,13 +48,15 @@ On September 2, 2026, Bloomberg reported that Cognition is closing a round of ab
 
 **The classic Windsurf consumer plans are gone with the rebrand; Devin Desktop authenticates with a Devin account and meters usage as credits.**
 Enterprise relationships carry over through Cognition sales.
-The Devin pricing page, which 429ed automated fetches on 2026-09-16 and 404ed on 2026-09-18, now serves and exposes the Devin ladder: Free $0/month, Pro $20/month, Max $200/month, Team $80/month plus $40/month per full dev seat, and Enterprise by sales contact, as of 2026-10-06 (re-fetched, same ladder); the route 404ed to the markdown fetcher again on 2026-10-10 and 2026-10-11, then served 200 with the ladder unchanged on 2026-10-12, 404ed again on 2026-10-22, served 200 with the ladder unchanged again on 2026-11-01, and served 200 with the ladder unchanged again on 2026-11-08, so the ladder stands re-observed 2026-11-08.
+The Devin pricing page, which 429ed automated fetches on 2026-09-16 and 404ed on 2026-09-18, now serves and exposes the Devin ladder: Free $0/month, Pro $20/month, Max $200/month, Team $80/month, and Enterprise by sales contact, with the headline prices unchanged since 2026-09-20.
+The Teams plan's stated terms changed on the 2026-11-22 reading: the $40/month per-full-dev-seat add-on the page stated from September through November 16 is no longer anywhere on it, and the plan now reads $80/month covering up to 100 users with centralized billing and three usage tiers; SWE-2 is still advertised as the latest model.
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09-20 | Free / Pro / Max / Team / Enterprise | Baseline observed: $0, $20/month, $200/month, $80/month + $40/month per full dev seat, sales contact | https://devin.ai/pricing |
+| 2026-11-22 | Teams | The $40/month per-full-dev-seat add-on no longer stated on the pricing page; the plan reads $80/month with up to 100 users, centralized billing, and three usage tiers (headline tier prices unchanged) | https://devin.ai/pricing |
 
 ## Compared to
 
@@ -85,6 +87,7 @@ Not for new adoption: picking a brand mid-retirement means betting on one compan
 - 2026-11-01 - Rotation re-verification, all cited URLs re-fetched live: the redirect chain re-confirmed by header (windsurf.com 308 to devin.ai/desktop, docs.windsurf.com 308 to docs.devin.ai/desktop/getting-started), the Devin Desktop docs and both Cognition posts live, the funding report and all three threads stand, and the devin.ai/pricing route served 200 with the tier ladder unchanged (Free $0, Pro $20, Max $200, Team $80 plus $40 per full dev seat, SWE-2 still the latest model), so the ladder stands re-observed 2026-11-01.
 - 2026-11-08 - Rotation re-verification, all cited URLs re-fetched live: the redirect chain re-confirmed by header, the Devin Desktop docs, both Cognition posts, the funding report, and all three threads stand, and the devin.ai/pricing route served 200 with the tier ladder unchanged (Free $0, Pro $20, Max $200, Team $80 plus $40 per full dev seat, SWE-2 still advertised), so the ladder stands re-observed 2026-11-08.
 - 2026-11-16 - Rotation re-verification, all cited URLs re-fetched live: the redirect chain re-confirmed by header (windsurf.com 308 to devin.ai/desktop, docs.windsurf.com 308 through /windsurf/getting-started), the Devin Desktop docs and both Cognition posts live, the funding report and all three threads (1,055, 672, and 667 points) stand, and the devin.ai/pricing route served 200 with the tier ladder unchanged (Free $0, Pro $20, Max $200, Team $80 plus $40 per full dev seat, SWE-2 still the latest model), so the ladder stands re-observed 2026-11-16.
+- 2026-11-22 - Rotation re-verification, all cited URLs re-fetched live: the redirect chain re-confirmed by header (windsurf.com 308 to devin.ai/desktop, docs.windsurf.com landing on docs.devin.ai/desktop/getting-started at 200), the Devin Desktop docs, both Cognition posts, the funding report, and all three threads (1,055, 672, and 667 points) stand; the devin.ai/pricing route served 200 with the four headline tier prices unchanged (Free $0, Pro $20, Max $200, Team $80, SWE-2 still advertised) but the Teams plan's $40/month per-full-dev-seat add-on no longer stated anywhere on the page, the plan now reading $80/month with up to 100 users and centralized billing, recorded in Pricing and Price history.
 
 ## See also
 
@@ -96,8 +99,8 @@ Not for new adoption: picking a brand mid-retirement means betting on one compan
 
 - https://cognition.com/blog/windsurf - the July 14, 2025 acquisition agreement, ARR, and customer counts
 - https://cognition.com/blog/introducing-devin-desktop - the June 2, 2026 rebrand announcement
-- https://docs.devin.ai/desktop/getting-started - current product docs as Devin Desktop (package, harness, ACP, Cascade docs), now also the redirect target of docs.windsurf.com (308 through /windsurf/getting-started), re-fetched 2026-11-16
-- https://devin.ai/pricing - the Devin tier prices re-observed on 2026-11-16, unchanged from the 2026-09-20 baseline; the page also advertises SWE-2 as the latest model and Pro naming frontier models from OpenAI, Claude, Gemini, and SpaceXAI; markdown fetches 404ed on 2026-10-10, 2026-10-11, and 2026-10-22, and served 200 with the same ladder on 2026-10-12, 2026-11-01, 2026-11-08, and 2026-11-16
+- https://docs.devin.ai/desktop/getting-started - current product docs as Devin Desktop (package, harness, ACP, Cascade docs), now also the redirect target of docs.windsurf.com (308 through /windsurf/getting-started), re-fetched 2026-11-22
+- https://devin.ai/pricing - the Devin tier prices re-observed on 2026-11-22: the four headline prices unchanged from the 2026-09-20 baseline ($0, $20, $200, $80/month), the Teams plan's $40/month per-full-dev-seat line no longer stated (up to 100 users and centralized billing in its place), and SWE-2 still advertised as the latest model; the page also advertises Pro naming frontier models from OpenAI, Claude, Gemini, and SpaceXAI; markdown fetches 404ed on 2026-10-10, 2026-10-11, and 2026-10-22, and served 200 with the same ladder on 2026-10-12, 2026-11-01, 2026-11-08, 2026-11-16, and 2026-11-22
 - https://theedgemalaysia.com/node/816527 - Bloomberg's report via The Edge Malaysia, the $1 billion round at a $47 billion valuation, September 2, 2026
 - https://news.ycombinator.com/item?id=44536988 - the July 2025 deal-collapse and CEO-to-Google thread
 - https://news.ycombinator.com/item?id=44673296 - the early-employee equity dispute thread

@@ -1,7 +1,7 @@
 ---
 title: AgentRQ
 created: 2026-10-13
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, mcp, human-in-the-loop, self-hosted]
 readability: 3
@@ -22,7 +22,7 @@ A companion Chrome extension carries the board into the browser; the README carr
 
 ## Status
 
-Active and modest: 1,152 stars as of 2026-10-14, 85 forks, and 3 open issues and pull requests as of 2026-11-21, created 2026-03-24, pushed 2026-11-21, with a dual licence since v0.13.0: the repository stays AGPL-3.0-only with a binary-only commercial licence from Contextual, Inc., while the agentrqd server daemon, its installers, and the agentrq-ws CLI are published under Apache-2.0.
+Active and modest: 1,152 stars as of 2026-10-14, 85 forks, and 2 open issues and pull requests as of 2026-11-22, created 2026-03-24, pushed 2026-11-22, with a dual licence since v0.13.0: the repository stays AGPL-3.0-only with a binary-only commercial licence from Contextual, Inc., while the agentrqd server daemon, its installers, and the agentrq-ws CLI are published under Apache-2.0.
 The v0.11.1 to v0.11.3 train (2026-10-15 and 2026-10-16) added a native-ACP reasoning-level picker and refactored the ACP link layer into a protocol-neutral agentlink package, v0.12.0 (2026-10-17) fixed SQL-injection and tool-spoofing holes in the ACP tool-call path, made the acp-gateway speak only native ACP v1, and added health and readiness probes with S3-shared TLS certificates, v0.12.1 (2026-10-18) landed the per-task plan rows pinned above the chat plus native-ACP notices, resource-link file handoffs, and Claude plugin manifest fixes, and v0.13.0 (2026-10-18) shipped the server as one binary with the web app built in and made the supervisor workspace clear context by default.
 v0.13.1 (2026-10-21) shipped the MCP text attachments and pointed the task tool at the agentrq-ws CLI for them alongside dependency security patches, and v0.13.2 (2026-10-23) added a per-user MCP connections and machines-online view for the operator and quieted native and web-push notifications for agent thoughts, plans, and usage.
 v0.13.3 and v0.13.4 (both 2026-10-24) rebuilt the README around animated scenes in place of screenshots, added a Task Timeline feature row and Machine Info tiles with a CPU meter, made enrollment start serving so setup drops the serve step, fixed one-line task titles and the phone title model, and patched dependency advisories in dompurify, vitest, and electron.
@@ -31,6 +31,7 @@ v0.14.2 (2026-10-30) sealed desktop secrets with a key file instead of the OS ke
 v0.15.2 (2026-10-31) served the agentrq skill over the MCP Skills extension as files of 2,000 characters or fewer, made `agentrqd serve` run in the background by default with a stop command, listed a task's Pano docs in its links, kept the pano tool's description within Claude Code's 2 KB limit, and showed the Chrome extension's WebMCP sharing strip on first page load.
 The train then moved to a daily cadence: v0.15.3 (2026-11-02) stopped agentrqd trusting a dead daemon's status report and marked each workspace by its tasks in the sidebar, v0.15.4 (2026-11-04) bumped the Chrome extension to 1.1.2, documented that site-tool detection needs WebMCP turned on, and offered a read-only supervisor grant on the consent page, and v0.15.6 and v0.15.7 (both 2026-11-05) lined forks up with their neighbours with a leaner detailed card, restyled the account menu, and put the workspace's skills in the composer's / menu.
 The v0.16 train kept the pace: v0.16.0 (2026-11-15) added hooks, a WebAssembly-sandboxed hook runtime with built-in generic and GitHub hooks, hook URLs that turn inbound requests into events, and a server DDoS guard with rate limiting, v0.16.2 (2026-11-16) added optional Sentry error reporting and Prometheus metrics at /metrics, v0.16.3 (2026-11-16) scoped skill imports to the current workspace and sent only Sentry exceptions, v0.16.4 (2026-11-16) added SMTP welcome emails at sign-up and named telemetry counts on Prometheus, and v0.16.5 (2026-11-19) added workspace presets invoked with #name in the composer, a JSON toggle and copy button on the trajectory payload, and SQLite write serialization.
+v0.17.0 (2026-11-21) broke the concurrency model: per-workspace agent concurrency was removed so an agent runs one task at a time, and the server now caps how many agents one account runs on a machine, alongside failed native agent tool calls keeping and showing their error, a contributor licence agreement with an enforcing check, dependency-licence CI checks with per-release dependency lists, and the IP indemnity capped with the rest of the licensor's liability; v0.17.1 (2026-11-21) let agents read a Pano doc shared with their team by its id.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentrq/agentrq&type=date&theme=dark&legend=top-left" />
@@ -40,7 +41,7 @@ The v0.16 train kept the pace: v0.16.0 (2026-11-15) added hooks, a WebAssembly-s
 
 **The independent record exists but is small: a 6-point Show HN from April 2026, a 2-point follow-up discussion, and little third-party coverage since, so the realtime claim rests on the README's own captures rather than field reports.**
 Nine open issues and pull requests against an active branch suggests either a quiet user base or fast triage; the README does not say which.
-The count stood at two as of 2026-11-01, three as of 2026-11-12, four as of 2026-11-13, and three as of 2026-11-14.
+The count stood at two as of 2026-11-01, three as of 2026-11-12, four as of 2026-11-13, three as of 2026-11-14, three as of 2026-11-21, and two as of 2026-11-22.
 
 ## Strengths
 
@@ -95,6 +96,7 @@ Not for AGPL-constrained teams, or anyone needing repository-native task storage
 - 2026-11-14 - Refreshed counts (3 open issues and pull requests, pushed 2026-11-14); v0.15.7 still the newest release.
 - 2026-11-15 - Refreshed counts (3 open issues and pull requests, pushed 2026-11-15); v0.15.7 still the newest release.
 - 2026-11-21 - Recorded the v0.16.0 through v0.16.5 train (2026-11-15 to 2026-11-19: WebAssembly-sandboxed hooks with built-in generic and GitHub hooks and hook URLs that turn requests into events, the server DDoS guard and rate limiter, optional Sentry and Prometheus metrics, workspace presets in the composer, and SQLite write serialization) and refreshed counts (85 forks, 3 open issues and pull requests, pushed 2026-11-21); v0.16.5 now the newest release.
+- 2026-11-22 - Recorded v0.17.0 and v0.17.1 (both 2026-11-21: per-workspace agent concurrency removed so an agent runs one task at a time, a server cap on the agents one account runs on a machine, failed native tool calls keeping their error, a contributor licence agreement, and team-shared Pano docs readable by agents by id) and refreshed counts (2 open issues and pull requests, pushed 2026-11-22); v0.17.1 now the newest release.
 
 ## See also
 
@@ -110,5 +112,5 @@ Not for AGPL-constrained teams, or anyone needing repository-native task storage
 - https://agentrq.com/ - the product site and self-hosted positioning
 - https://github.com/agentrq/agentrq/blob/main/README.md - the feature set, realtime capture claims, the harness support statement, and the dual-licence section (licence re-fetched 2026-10-21)
 - https://chromewebstore.google.com/detail/agentrq/iadkenmjgjoilnioldgchgjpdnbaghbj - the published Chrome extension backing the browser surface
-- https://api.github.com/repos/agentrq/agentrq/releases - the release train from v0.11.1 (2026-10-15) through v0.16.5 (2026-11-19): the security fixes, the feature releases, the Tauri migration, and the v0.16 hooks and observability train
+- https://api.github.com/repos/agentrq/agentrq/releases - the release train from v0.11.1 (2026-10-15) through v0.17.1 (2026-11-21): the security fixes, the feature releases, the Tauri migration, the v0.16 hooks and observability train, and the v0.17 concurrency-cap releases
 - https://news.ycombinator.com/item?id=47958608 - the April 2026 Show HN (6 points), the project's main independent footprint

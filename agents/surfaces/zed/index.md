@@ -1,7 +1,7 @@
 ---
 title: Zed
 created: 2026-08-23
-updated: 2026-11-19
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, surfaces, ai-editors, zed-industries]
 readability: 3
@@ -17,7 +17,7 @@ Zed is the Rust-native editor from Zed Industries whose pitch is performance fir
 ## What it is
 
 A Rust editor with multiplayer collaboration built in, edit predictions, a large extension system, and weekly releases.
-The AI stack supports Zed-hosted models, BYOK across Anthropic, OpenAI, Google, Bedrock, Copilot, Deepseek, LM Studio, Mistral, Ollama, OpenRouter, and others, and external agents like Claude Agent and Codex CLI as documented residents.
+The AI stack supports Zed-hosted models, BYOK across Anthropic, OpenAI, Google, Bedrock, Copilot, Deepseek, LM Studio, Mistral, Ollama, OpenRouter, and others, external agents like Claude Agent and Codex CLI as documented residents, and MCP context servers (the Tools and Prompts features per the MCP docs).
 **Turning AI off entirely is a documented setting, not a workaround.**
 
 ## Status
@@ -81,6 +81,8 @@ Not for teams needing enterprise identity plumbing or a turnkey agentic platform
 - 2026-11-07 - Rotation re-verification, all cited URLs re-fetched live: the pricing page (Personal $0, Pro $10, Business $30, list plus 10% hosting, SSO, SAML, and SCIM still planned, the Pro trial still naming GPT-6 Luna as its hosted model), the repository (pushed 2026-11-07, not archived), and both HN threads (239 and 317 points) stand; the LLM providers docs page now routes provider setup through model-access paths (Zed-hosted, API access, existing subscription, gateway, local model) with the provider list still grounded by the pricing FAQ; prices unchanged, no release tracked at note level.
 - 2026-11-15 - Rotation re-verification, all cited URLs re-fetched live: the pricing page (Personal $0, Pro $10, Business $30, list plus 10% hosting, SSO, SAML, and SCIM still planned, the Pro trial still naming GPT-6 Luna), the repository (pushed 2026-11-15, not archived), the model-access docs, and both HN threads (239 and 317 points) stand; prices unchanged, no release tracked at note level.
 - 2026-11-19 - Volatile re-verification on the pushed and released signals: the repository pushed 2026-11-19 (not archived), the weekly train shipped v1.29.1 and v1.29.2 (both November 18) with v1.30.0-pre and v1.30.1-pre above, no release tracked at note level per this note's convention, and prices re-verified unchanged on the pricing page (Personal $0, Pro $10, Business $30, SSO, SAML, and SCIM still planned, the Pro trial still naming GPT-6 Luna).
+- 2026-11-22 - Volatile re-verification on the pushed and released signals: the repository pushed 2026-11-22 (not archived), the weekly train added v1.29.3 (November 20) above v1.29.2 with the v1.30.0-pre and v1.30.1-pre prereleases still on top, no release tracked at note level per this note's convention, and prices re-verified unchanged on the pricing page (Personal $0, Pro $10, Business $30; the page's other $5 figure is the Pro token-credit overage text, not a plan price).
+- 2026-11-22 - Added the MCP fact the feature matrix's MCP cell carried without a note trace: the MCP docs page (fetched this run) states Zed uses the Model Context Protocol to reach context servers with the Tools and Prompts features supported, so What it is now names MCP support and the docs page joins the references.
 
 ## See also
 
@@ -95,5 +97,6 @@ Not for teams needing enterprise identity plumbing or a turnkey agentic platform
 - https://zed.dev/pricing - tiers, list+10% hosting, SSO status, re-verified 2026-11-19 (SSO, SAML, and SCIM still planned; prices unchanged since 2026-09-18; the Pro trial names GPT-6 Luna as its hosted model)
 - https://github.com/zed-industries/zed - repository scale and license, as of 2026-10-16, re-fetched 2026-11-19 (pushed 2026-11-19, not archived)
 - https://zed.dev/docs/ai/llm-providers - the BYOK provider list; the page routes provider setup through model-access paths (Zed-hosted models, API access, existing subscription, gateway, local model), re-verified 2026-11-15
+- https://zed.dev/docs/ai/mcp - MCP support for the Zed agent: Zed uses the Model Context Protocol to interact with context servers, Tools and Prompts supported, fetched 2026-11-22
 - https://news.ycombinator.com/item?id=40902826 - the 2024 auto-download consent thread
 - https://news.ycombinator.com/item?id=47002825 - the 2026 graphics-stack switch thread
