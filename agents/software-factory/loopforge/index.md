@@ -1,7 +1,7 @@
 ---
 title: LoopForge
 created: 2026-11-21
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, sop, workflow-engine, self-hosted, docker]
 readability: 3
@@ -17,13 +17,13 @@ LoopForge is Tencent's MIT-licensed, self-hosted delivery platform for coding ag
 
 **The product's bet is that a factory's process should be a stored, editable SOP, not a per-task prompt: chat explores, the SOP repeats.**
 A deployment is a Go server you start with Docker Compose (a pinned ghcr.io image, port 8090), with MySQL state, per-run Docker sandboxes that check out your repositories, and a web console.
-Ten coding-agent CLIs serve as executors: CodeBuddy, Codex, Claude Code, OpenCode, Cursor CLI, Antigravity, Kimi Code, Pi, DeepSeek Harness, and ZCode, with CodeBuddy and Codex bundled in the image and the rest installed on first use.
+Ten coding-agent CLIs serve as executors: CodeBuddy, Codex, Claude Code, OpenCode, Cursor CLI, Antigravity, Kimi Code, Pi, DeepSeek Harness, and ZCode, with CodeBuddy, Codex, and DeepSeek Harness bundled in the production image (CodeBuddy optional on source builds) and the rest installed on first use.
 Roles (planner, implementer, reviewer, tester) carry their own prompt, executor, model, rules, Skills, and MCP tools, built-in blueprint SOPs cover backend, frontend, product proposal, and bug fix, and a visual SOP designer edits the graph with rework edges back to earlier steps.
 Around the engine it adds a LoopForge Local edition (`npx loopforge-cli`) that runs the delivery workflows inside Claude Code, Codex, CodeBuddy, or Cursor, optional GitHub OAuth (SSH keys work for GitLab, Gitea, or Gogs), token and cost reporting per requirement, an OpenAPI-described HTTP API with MCP exposure, scheduled AI tasks, and WeCom notifications.
 
 ## Status
 
-Active and trending: 5,352 stars, 738 forks, and 277 open issues since creation on 2026-07-28, pushed 2026-11-21, MIT (a Tencent LICENSE file that grants MIT beside a third-party-components list, which GitHub's classifier reads as no standard license), per the GitHub API as of 2026-11-21.
+Active and trending: 5,352 stars as of 2026-11-21, 776 forks and 300 open issues as of 2026-11-22, since creation on 2026-07-28, pushed 2026-11-22, MIT (a Tencent LICENSE file that grants MIT beside a third-party-components list, which GitHub's classifier reads as no standard license), per the GitHub API.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Tencent/LoopForge&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Active and trending: 5,352 stars, 738 forks, and 277 open issues since creation 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Tencent/LoopForge&type=date&legend=top-left" />
 </picture>
 
-**The train moves weekly (v0.3.6 on 2026-11-11, v0.3.8, v0.4.0 on 2026-11-17, v0.4.1-rc.1 on 2026-11-20), 16 contributors commit to it, and the launch drew third-party writeups, though no Hacker News story exists about it (the search's hits name the unrelated LoongForge, 2026-11-21).**
+**The train moves weekly (v0.3.6 on 2026-11-11, v0.3.8, v0.4.0 on 2026-11-17, v0.4.1-rc.1 on 2026-11-20), 16 contributors commit to it, and the launch drew third-party writeups, though no Hacker News story exists about it (the search's hits name the unrelated LoongForge, 2026-11-22).**
 The breakout was mid-November 2026: roughly 700 stars with 174 gained in one day around 2026-11-14 per the GitHub counters third-party coverage cites, and the repository's trendshift badge now sits in the README.
 Independent coverage is young and thin: a podcast walkthrough of the Compose install, a directory listing, and one substantive third-party review, whose critical read is the closest thing to evaluation the platform has.
 
@@ -45,7 +45,7 @@ Independent coverage is young and thin: a podcast walkthrough of the Compose ins
 ## Cautions
 
 - **The sandbox is the host's Docker socket**, which third-party coverage rightly calls root-equivalent trust on the host: new installs listen on all interfaces on port 8090, the first registered account becomes administrator, and open signup is a default you must turn off.
-- **Tencent's own CodeBuddy gets the gravity**: requirement clarification, notification summaries, and scheduled assistant tasks pin their model pickers to CodeBuddy and reject other CLIs rather than silently swapping, so a team standardizing on Claude Code meets the edge in three subsystems.
+- **CodeBuddy keeps the default gravity**: built-in templates and newly created roles and static previews still default to CodeBuddy, legacy bare model IDs remain CodeBuddy IDs, and the production image bundles it, though the 2026-11-21 update made every model picker accept the other CLIs' models through CLI-prefixed IDs, scheduled prompts use the schedule's own CLI, and the platform can run without a CodeBuddy installation or key once its workflows use other CLIs.
 - The built-in SOPs are read-only templates, not drop-in production paths, and SOP export from the platform to LoopForge Local is documented as planned, not shipped.
 - No Hacker News discussion and no independent evaluation exist as of 2026-11-21; the validation record the repository links (one four-role CodeBuddy run, three passing tests, a human gate) is the maker's own.
 
@@ -69,6 +69,7 @@ Not for a solo developer inside one harness, not for multi-tenant exposure, and 
 ## Changes
 
 - 2026-11-21 - Created from the varun1505 2026-11-14-through-11-19 sweep resolution (the list's Tencent/LoopForge entry, 5,352 stars as of 2026-11-21), admitted on the SuperPlane platform line with the stored-SOP loop as the differentiator and the zero-HN footprint recorded.
+- 2026-11-22 - Volatile re-verification: pushed date and counts refreshed (776 forks, 300 open issues), the release train unchanged (v0.4.1-rc.1, 2026-11-20, still the newest tag), the zero-HN search re-run and holding; recorded the 2026-11-21 CodeBuddy optionalization the README and deployment doc now carry (every model picker accepts the supported CLIs' models through CLI-prefixed IDs with CodeBuddy still the fallback default, scheduled prompts use the schedule's CLI, the platform runs without a CodeBuddy install or key once its workflows use others, and the production image bundles Codex, DeepSeek Harness, and by default CodeBuddy, optional on source builds), with the What-it-is roster line and the CodeBuddy caution rewritten.
 
 ## See also
 
@@ -79,12 +80,12 @@ Not for a solo developer inside one harness, not for multi-tenant exposure, and 
 
 ## References
 
-- https://github.com/Tencent/LoopForge - repository, the chat-plus-SOP model, executor roster, and license (GitHub API, as of 2026-11-21)
-- https://raw.githubusercontent.com/Tencent/LoopForge/main/README.md - the SOP node kinds, built-in blueprints, LoopForge Local, FAQ positioning against Dify and n8n, and the trendshift badge
+- https://github.com/Tencent/LoopForge - repository, the chat-plus-SOP model, executor roster, and license (GitHub API, as of 2026-11-22)
+- https://raw.githubusercontent.com/Tencent/LoopForge/main/README.md - the SOP node kinds, built-in blueprints, the executor pickers' CLI-prefixed model IDs, LoopForge Local, FAQ positioning against Dify and n8n, and the trendshift badge
 - https://raw.githubusercontent.com/Tencent/LoopForge/main/LICENSE - the MIT grant with the third-party-components preamble
-- https://raw.githubusercontent.com/Tencent/LoopForge/main/docs/deployment.md - the deployment runbook: pinned image, first-use CLI installs, the managed updater's SRI checks, and the CodeBuddy defaults
-- https://api.github.com/repos/Tencent/LoopForge/releases - the release train, v0.4.1-rc.1 (2026-11-20) newest as of 2026-11-21
+- https://raw.githubusercontent.com/Tencent/LoopForge/main/docs/deployment.md - the deployment runbook: pinned image, first-use CLI installs, the managed updater's SRI checks, the bundled-CLI list, and the Choosing-an-executor section's CodeBuddy defaults
+- https://api.github.com/repos/Tencent/LoopForge/releases - the release train, v0.4.1-rc.1 (2026-11-20) newest as of 2026-11-22
 - https://loopforge.cn - the product site: MIT, self-deployable, cloud sandboxes, shared sessions, gated SOPs
-- https://explainx.ai/blog/tencent-loopforge-self-hosted-sop-coding-agents-claude-codex-2026 - the third-party critical read: the Docker-socket trust call, the 0.0.0.0:8090 and first-admin defaults, the CodeBuddy-pinned subsystems, and the planned-not-shipped SOP export
-- https://hn.algolia.com/api/v1/search?query=loopforge&tags=story - the footprint scan finding no story about the platform (the hits name the unrelated LoongForge, 2026-11-21)
+- https://explainx.ai/blog/tencent-loopforge-self-hosted-sop-coding-agents-claude-codex-2026 - the third-party critical read: the Docker-socket trust call, the 0.0.0.0:8090 and first-admin defaults, the CodeBuddy-pinned subsystems it found in November, and the planned-not-shipped SOP export
+- https://hn.algolia.com/api/v1/search?query=loopforge&tags=story - the footprint scan finding no story about the platform (the hits name the unrelated LoongForge, 2026-11-22)
 - https://github.com/varun1505/awesome-software-factories - the third-party curated list that surfaced this note

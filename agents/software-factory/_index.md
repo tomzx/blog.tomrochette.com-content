@@ -16,10 +16,10 @@ End-to-end agent factories: stamped pipelines, learning loops, fleet harnesses, 
 - [HAR](har/index.md) - the open harness that isolates a fleet of coding agents in worktrees with deterministic verification and an evidence trail.
 - [Loki Mode](loki-mode/index.md) - Autonomi's source-available local factory that derives a delivery contract from a brief and closes with a signed, offline-checkable Evidence Receipt.
 - [LoopForge](loopforge/index.md) - Tencent's MIT self-hosted delivery platform whose chat Main Bot hands a proven workflow to a stored SOP of agent, script, human-gate, and sub-SOP nodes in Docker sandboxes.
-- [Machinist](machinist/index.md) - the Go control plane that never starts agents, with dial-in runners, stage-gated jobs, and merge-by-automation only, early access, zero independent coverage.
+- [Machinist](machinist/index.md) - the Go control plane that never starts agents, with dial-in runners, preset-gated jobs, and a code-owned merge step (auto-merge on by default, opt-outable), early access, zero independent coverage.
 - [Open SWE](open-swe/index.md) - LangChain's async coding agent, rebranded Robin, that takes Slack threads, Linear issues, and PR conversations through sandboxed investigation, implementation, and validation to delivered pull requests, with review and CI in the loop and one deployment per trust boundary.
 - [Open-Inspect](open-inspect/index.md) - the community's open replica of Ramp's Inspect: a single-tenant, self-hosted background agent that takes sessions from web, Slack, GitHub, and Linear to attributed pull requests, with per-session scoped sandbox credentials and no release train.
-- [Ouroboros](ouroboros/index.md) - the Agent OS that freezes a spec from an interview and verifies with the grading hidden from the worker, 14 runtimes.
+- [Ouroboros](ouroboros/index.md) - the Agent OS that freezes a spec from an interview and verifies with the grading hidden from the worker, 15 runtimes.
 - [Super Simple Software Factory](super-simple-software-factory/index.md) - a repeatable agents-plus-code pipeline stamped into any repo as a skill, where Python owns the loop and each agent owns one bounded phase.
 - [SuperPlane](superplane/index.md) - a self-hosted platform that turns confidence-gated backlog issues into review-ready pull requests with durable run records.
 - [Zeroshot](zeroshot/index.md) - the MIT graph runner whose built-in loop makes two independent reviewers accept before delivery, so the implementing agent never approves its own work.

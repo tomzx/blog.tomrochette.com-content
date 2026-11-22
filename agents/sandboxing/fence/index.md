@@ -1,7 +1,7 @@
 ---
 title: Fence
 created: 2026-10-07
-updated: 2026-11-15
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Built by Tusk, the AI testing-agents company; the repository moved from Use-Tusk
 
 ## Status
 
-Quiet on main since September after a long steady run: 41 open issues as of 2026-11-15, main's newest commit 2026-09-10, the repo-level pushes through 2026-11-10 dependency PRs and branch activity rather than maintainer commits, created 2025-12-18, with v0.1.67 (2026-09-01) still the newest of thirty releases and 992 stars as of 2026-10-16.
+Quiet on main since September after a long steady run: 41 open issues as of 2026-11-15, main's newest commit 2026-09-10, the repo-level pushes through 2026-11-17 dependency PRs and branch activity rather than maintainer commits, created 2025-12-18, with v0.1.67 (2026-09-01) still the newest of thirty releases and 992 stars as of 2026-10-16.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fencesandbox/fence&type=date&theme=dark&legend=top-left" />
@@ -73,6 +73,7 @@ Not for containing actively malicious processes, and not on hosts where deprecat
 - 2026-11-07 - Out-of-rotation re-verification correcting the activity reading: the earlier main-last-moved-2026-10-14 claim had read the repo-level push instead of the default branch, whose newest commit is 2026-09-10, so the train has been quiet for eight weeks with the 2026-10-14 and 2026-11-03 pushes being dependency PRs (closed unmerged) and community PRs, v0.1.67 (2026-09-01) still the newest of thirty releases, and every cited URL re-fetched and alive (repository, docs site, the API records, the Show HN thread); the maintainer remains active on issues, and the Status reading moved from actively maintained to quiet-on-main watch.
 - 2026-11-12 - Volatile refresh: the 2026-11-10 repo-level push checked and still branch activity (main's newest commit stays 2026-09-10), so the quiet-on-main watch reading holds with v0.1.67 (2026-09-01) still the newest release.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched and alive (repository through the GitHub API, the docs introduction, the API records, the 78-point Show HN thread with the maintainer's reads-allow-by-default answers); the quiet-on-main watch reading holds with main's newest commit staying 2026-09-10 and v0.1.67 (2026-09-01) still the newest of thirty releases, and open issues moved from 40 to 41 as of 2026-11-15.
+- 2026-11-22 - Volatile refresh: the 2026-11-17 repo-level push checked and still branch activity (main's newest commit stays 2026-09-10), so the quiet-on-main watch reading holds with v0.1.67 (2026-09-01) still the newest release.
 
 ## See also
 

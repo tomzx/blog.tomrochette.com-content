@@ -1,7 +1,7 @@
 ---
 title: Spec Kitty
 created: 2026-10-06
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, governance, worktrees, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Slash commands or skills integrate Claude Code, Codex, Cursor, Gemini, Copilot, 
 ## Status
 
 Active, company-backed, and mid-adoption.
-As of 2026-10-14: 1,681 stars and 180 forks since creation on 2025-10-09, MIT, stable PyPI release 3.2.7 (2026-09-09) and 2,576 PyPI downloads last month (re-read 2026-11-21, the rolling window moving again); as of 2026-11-21, pushed 2026-11-21 (the default branch carrying unreleased stale-lane sibling-recovery work) with the 4.x release-candidate line at v4.0.0rc8 (2026-11-09) still the newest, whose `upgrade` moves charter activation keys from `charter.yaml` and `config.yaml` into `.kittify/charter/activation.yaml` and renames the command skills from `spec-kitty.<command>` to `spec-kitty-<command>` so every Agent Skills harness loads them, following rc7 (2026-10-15), the breaking cut that renamed `doctrine` to `charter` across config, directories, and commands with no alias, whose README says stable launch acceptance remains pending and whose prerelease block now explains that a plain install gets the latest stable 3.x while the `--pre` flags install the latest 4.x candidate (the block that pinned rc2 as the test install until this run's re-read is gone).
+As of 2026-10-14: 1,681 stars and 180 forks since creation on 2025-10-09, MIT, stable PyPI release 3.2.7 (2026-09-09) and 2,540 PyPI downloads last month (re-read 2026-11-22, the rolling window moving again); as of 2026-11-22, pushed 2026-11-22 (the default branch carrying unreleased stale-lane sibling-recovery work) with the 4.x release-candidate line at v4.0.0rc8 (2026-11-09) still the newest, whose `upgrade` moves charter activation keys from `charter.yaml` and `config.yaml` into `.kittify/charter/activation.yaml` and renames the command skills from `spec-kitty.<command>` to `spec-kitty-<command>` so every Agent Skills harness loads them, following rc7 (2026-10-15), the breaking cut that renamed `doctrine` to `charter` across config, directories, and commands with no alias, whose README says stable launch acceptance remains pending and whose prerelease block now explains that a plain install gets the latest stable 3.x while the `--pre` flags install the latest 4.x candidate (the block that pinned rc2 as the test install until this run's re-read is gone).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&theme=dark&legend=top-left" />
@@ -95,7 +95,7 @@ The disagreeable claim I will defend: two members reaching delta specs from oppo
 - https://docs.spec-kitty.ai/ - the documentation site
 - https://pypi.org/pypi/spec-kitty-cli/json - stable 3.2.7, MIT, Python 3.11+, release history
 - https://pypi.org/pypi/spec-kitty-cli/4.1.5/json - the yanked 2026-04-15 upload grounding the 4.x caution
-- https://pypistats.org/api/packages/spec-kitty-cli/recent - 2,576 downloads last month, fetched 2026-11-21 (the rolling window moving again after the 2026-11-14 move)
+- https://pypistats.org/api/packages/spec-kitty-cli/recent - 2,540 downloads last month, fetched 2026-11-22 (the rolling window moving again)
 - https://www.spec-kitty.ai/blog/spec-kit-alternatives-why-i-built-spec-kitty-instead-of-stopping-at-githubs-toolkit - the founder's Spec Kit comparison, the primary fork-rationale source
 - https://hysenlabs.com/en/projects/spec-kitty-spec-kitty - the third-party review (2026-09-10), the critical source, re-fetched directly on 2026-11-08 (the earlier client-side-render limitation no longer holds)
 - https://hn.algolia.com/api/v1/items/46515942 - the 5-point January 2026 thread, the thin-footprint evidence

@@ -1,7 +1,7 @@
 ---
 title: EvoSkill
 created: 2026-10-13
-updated: 2026-11-15
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, skill-discovery, evolution, optimization]
 readability: 3
@@ -78,6 +78,7 @@ Not for production skill maintenance (the loop is offline over a fixed dataset a
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched live, all claims held (v2.0.0 still the latest release with main staying v1 and its last commit still 2026-07-06, the release body's adaptor, solver, and stateful-evolver claims matching both the release page and the tech report's v2 abstract with the 40.4/+7.7, 51.6/+5.4, and 28.0-to-49.5 figures, the macOS-plus-Daytona requirements unchanged, the v1 paper still v1-only, the Sentient post unchanged, the HN search still returning only fuzzy non-matches); one addition recorded in Status: the v2 branch's citation block now gives the v1 paper a venue, the First Workshop on Agent Skills (Agent Skills '26) at ACM CAIS 2026.
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched live, all claims held again (v2.0.0 still the newest release with the repo pushed 2026-10-26 and 21 open issues, main's last commit still 2026-07-06 and the v2 branch's still 2026-10-20, the v1 paper still v1-only, the v2 report and the Sentient post serving 200, the HN search still returning only fuzzy non-matches); the github.com HTML pages served transient 504s on the first tries, so the branch and release claims re-grounded through the API endpoints, which served 200 throughout.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched live, all claims held a fourth time (v2.0.0 still the newest release with the repo pushed 2026-10-26 and 21 open issues, main's last commit still 2026-07-06 and the v2 branch head still the 2026-10-20 commit, the v1 paper still v1-only with its OfficeQA, SealQA, and transfer figures unchanged, the v2 report still v2 revised 2026-10-23 with the 7.7-point, 5.4-point, and 21.5-point figures, the release page serving 200 with the same body and macOS-plus-Daytona requirements, the Sentient post unchanged, the HN search still returning only fuzzy non-matches); no claims moved.
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched live, all claims held a fifth time (v2.0.0 still the newest release with the repo pushed 2026-10-26 and 21 open issues, main's last commit still 2026-07-06, the v2 branch head still 331ac10a of 2026-10-20 with its citation block recording the Agent Skills '26 acceptance, the v1 paper still v1-only, the v2 report still v2 revised 2026-10-23, the release page and the Sentient post serving 200, the HN search still returning only fuzzy non-matches); no claims moved.
 
 ## See also
 

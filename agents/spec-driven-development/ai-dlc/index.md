@@ -1,7 +1,7 @@
 ---
 title: AI-DLC
 created: 2026-10-06
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, sdlc, multi-agent, workflow, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Amazon's own docs position it as the successor to retrofitting AI onto human pro
 ## Status
 
 Large and fast-moving for an eleven-month-old methodology repo.
-As of 2026-10-14: 5,173 stars and 939 forks, created 2025-11-13; as of 2026-11-21, pushed 2026-11-21 with 355 open issues and the default branch carrying unreleased work (traceability settling a criterion handed to another Unit only when that Unit builds it, and live journey-test runs against AI-DLC's own tool), stable release v2.11.4 (2026-11-13: one `--harness kiro` now serves Kiro IDE and Kiro CLI on its v3 engine, with Kiro CLI's V2 engine moved to `--harness kiro-v2` and the old `kiro-ide` name still working, breaking for scripts, and on Kiro you approve fewer of AI-DLC's commands, a long request pasted after `/aidlc` reaches the work whole, each team hand-over between people is one question, the three gaps 2.11.3 listed for team Units are closed, Inception reads your team's documents and asks only what they leave open, the knowledge base reads Word, Excel, and PDF files with nothing to install, Copilot CLI on Linux and macOS runs the routine commands without a dialog, plugins can add their own commands and house rules, and `/aidlc-issue-report` gathers what a run left behind with sensitive details removed) still the newest, on top of v2.11.3 (2026-11-04, the native `aidlc` binary built with Bun 1.4.4 fixing CVE-2026-111497 in the bundled Brotli decoder), MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
+As of 2026-10-14: 5,173 stars and 939 forks, created 2025-11-13; as of 2026-11-22, pushed 2026-11-22 with 356 open issues and the default branch carrying unreleased work (traceability settling a criterion handed to another Unit only when that Unit builds it, live journey-test runs against AI-DLC's own tool, and the fixes the nightly previews carry since: a stage review no longer re-asks to allow a mkdir, a clone's first chat receives the team's and the project's rules before its first step, and a gate that opens on a failing check names the file holding the findings), stable release v2.11.4 (2026-11-13: one `--harness kiro` now serves Kiro IDE and Kiro CLI on its v3 engine, with Kiro CLI's V2 engine moved to `--harness kiro-v2` and the old `kiro-ide` name still working, breaking for scripts, and on Kiro you approve fewer of AI-DLC's commands, a long request pasted after `/aidlc` reaches the work whole, each team hand-over between people is one question, the three gaps 2.11.3 listed for team Units are closed, Inception reads your team's documents and asks only what they leave open, the knowledge base reads Word, Excel, and PDF files with nothing to install, Copilot CLI on Linux and macOS runs the routine commands without a dialog, plugins can add their own commands and house rules, and `/aidlc-issue-report` gathers what a run left behind with sensitive details removed) still the newest, on top of v2.11.3 (2026-11-04, the native `aidlc` binary built with Bun 1.4.4 fixing CVE-2026-111497 in the bundled Brotli decoder), MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&theme=dark&legend=top-left" />
@@ -89,5 +89,5 @@ Not for solo work, and not for anyone who wants a process layer with no vendor's
 - https://awslabs.github.io/aidlc-workflows/ - the documentation site: guides, stage reference, agent deep dives
 - https://aws.amazon.com/blogs/devops/ai-driven-development-life-cycle/ - the methodology announcement by Raja SP, July 31, 2025
 - https://wakamoleguy.com/p/ai-dlc-solves-wrong-bottleneck - the critical essay on where the bottleneck actually sits, fetched 2026-10-06
-- https://api.github.com/repos/awslabs/aidlc-workflows/releases - the release train: stable v2.11.4 (2026-11-13) with its Kiro unification and script-breaking compatibility notes, fetched 2026-11-13
+- https://api.github.com/repos/awslabs/aidlc-workflows/releases - the release train: stable v2.11.4 (2026-11-13) with its Kiro unification and script-breaking compatibility notes, re-fetched 2026-11-22 (nightly v2.11.5 previews after it carry the default branch's unreleased work)
 - https://hn.algolia.com/api/v1/search?query=AI-DLC&tags=story - the thin HN footprint, largest thread 29 points and 22 comments (2026-10-15)

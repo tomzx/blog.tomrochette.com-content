@@ -3,7 +3,7 @@ category: session-analytics
 generated: 2026-11-22
 mapped_sources:
   - repo: anhermon/awesome-agent-observability
-    last_checked: 2026-11-21
+    last_checked: 2026-11-22
 digest_lines:
   - "- 2026-11-21 | cross-category | ai-for-developers, hesreallyhim, e2b-dev, slavakurilyak, and AMO carry over | commit histories since the 11-18/11-19 scans show no content additions (AMO and hesreallyhim ticker-only)"
   - "- 2026-11-21 | cross-category | the 2026-11-21 stars scan resolves one rejection | abhinavxd/libredesk (3,187 stars, starred 2026-11-21T04:48:22Z) is a customer support desk with no agent surface, the no-agent-story line; checkpoint advance to 2026-11-21T04:48:22Z"

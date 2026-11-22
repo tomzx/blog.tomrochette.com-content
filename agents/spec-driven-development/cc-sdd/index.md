@@ -1,7 +1,7 @@
 ---
 title: cc-sdd
 created: 2026-10-06
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, agent-skills, multi-agent, open-source]
 readability: 3
@@ -16,7 +16,7 @@ cc-sdd is a solo-maintained, MIT-licensed npm installer that sets up a 17-skill 
 
 ## What it is
 
-An npm package (`npx cc-sdd@latest`, MIT, 14 UI languages) that installs the same 17 skills into Claude Code, Codex, Cursor, Copilot, Devin, OpenCode, Gemini CLI, and Antigravity (the first two stable, the rest beta), using each host's native subagents when available and inline review otherwise.
+An npm package (`npx cc-sdd@latest`, MIT, 14 UI languages) that installs the same 17 skills into Claude Code, Codex, Cursor, Copilot, Devin Local / CLI, OpenCode, Gemini CLI, and Antigravity (the first two stable, the rest beta), with the older Windsurf / Cascade integration deprecated and kept only as a migration path to the Devin adapter, using each host's native subagents when available and inline review otherwise.
 The workflow opens with `/kiro-discovery`, which routes new work to extending a spec, implementing with no spec, one new spec, or a multi-spec decomposition (`/kiro-spec-batch` writes specs by dependency wave with cross-spec review), so ceremony is a routing outcome rather than a fixed ritual.
 Specs are boundary-first: `design.md` carries a File Structure Plan, tasks carry `_Boundary:_` and `_Depends:_` annotations, and review checks boundary violations rather than style.
 `/kiro-impl` then runs one task per iteration, each behind a fresh implementer doing TDD, an independent reviewer running `git diff` and the test suite, and an auto-debug pass bounded to two rounds; `/kiro-validate-impl` closes with a GO, NO-GO, or MANUAL_VERIFY_REQUIRED verdict.
@@ -25,7 +25,7 @@ Made by Gota (gotalab), an agentic-AI engineer in Japan; the project is Kiro-ins
 ## Status
 
 Established and mid-scale, with adoption that bypassed Hacker News entirely.
-As of 2026-10-14: 3,711 stars and 288 forks since creation on 2025-07-17; as of 2026-11-21, pushed 2026-10-22 with development continuing past the last tagged release, v3.1.0 (2026-09-23), 75,683 npm downloads last month (the 2026-10-21 to 2026-11-19 window, re-read 2026-11-21), MIT.
+As of 2026-10-14: 3,711 stars and 288 forks since creation on 2025-07-17; as of 2026-11-22, pushed 2026-10-22 with development continuing past the last tagged release, v3.1.0 (2026-09-23), 75,678 npm downloads last month (the 2026-10-23 to 2026-11-21 window, re-read 2026-11-22), MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gotalab/cc-sdd&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ The disagreeable claim I will defend: a fresh-context reviewer per task is a str
 - 2026-10-26 - Rotation re-verification of every cited source (all alive, the npm figure and release train unchanged, the when-not-to-use list confirmed verbatim, still no Hacker News thread); no facts changed.
 - 2026-11-01 - Rotation re-verification of every cited source (all alive, the release train unchanged at v3.1.0 with the repository still pushed 2026-10-22, the when-not-to-use list and skill reference intact, still no Hacker News thread); the npm figure moved to 33,427 downloads last month.
 - 2026-11-12 - Rotation re-verification of every cited source (all alive, the release train unchanged at v3.1.0 with the repository still pushed 2026-10-22, the when-not-to-use list confirmed verbatim, and the only story hit under the name an unrelated web-agent post); no facts changed except the npm figure moving to 54,120 downloads last month.
+- 2026-11-22 - Rotation re-verification of every cited source (all alive, the release train unchanged at v3.1.0 with the repository still pushed 2026-10-22, the when-not-to-use list and the 17-skill reference confirmed in place, still no thread of its own on Hacker News): recorded the Windsurf / Cascade integration deprecated in favor of the Devin adapter, whose scope is now Devin Local / CLI with Devin Cloud outside it, and the npm figure at 75,678 downloads last month.
 
 ## See also
 
@@ -89,6 +90,6 @@ The disagreeable claim I will defend: a fresh-context reviewer per task is a str
 - https://raw.githubusercontent.com/gotalab/cc-sdd/main/README.md - the v3.0 skills-mode scope and install surface
 - https://raw.githubusercontent.com/gotalab/cc-sdd/main/docs/guides/why-cc-sdd.md - the spec-as-contract philosophy and the when-not-to-use list
 - https://raw.githubusercontent.com/gotalab/cc-sdd/main/docs/guides/skill-reference.md - the 17-skill surface and the /kiro-impl dispatch internals
-- https://api.npmjs.org/downloads/point/last-month/cc-sdd - 75,683 downloads last month (2026-10-21 to 2026-11-19 window), fetched 2026-11-21
+- https://api.npmjs.org/downloads/point/last-month/cc-sdd - 75,678 downloads last month (2026-10-23 to 2026-11-21 window), fetched 2026-11-22
 - https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html - the category-level critique, the critical source
 - https://hn.algolia.com/api/v1/search?query=cc-sdd&tags=story - the missing HN footprint, re-checked 2026-11-12 (the one story hit is an unrelated web-agent post)

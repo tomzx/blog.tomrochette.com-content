@@ -1,7 +1,7 @@
 ---
 title: CodexMonitor
 created: 2026-10-23
-updated: 2026-11-14
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, codex, desktop]
 readability: 3
@@ -24,7 +24,7 @@ Made by Thomas Ricouard (Dimillian), an independent developer, under MIT; the si
 
 ## Status
 
-Dormant: 4,348 stars, 418 forks, 95 open issues, created 2026-01-11, last commit 2026-03-26, latest release v0.7.67 on 2026-03-24 (a 0.7.68 version bump landed in the repository the same day and was never released), as of 2026-11-14.
+Dormant: 4,348 stars, 421 forks, 94 open issues, created 2026-01-11, last commit 2026-03-26, latest release v0.7.67 on 2026-03-24 (a 0.7.68 version bump landed in the repository the same day and was never released), as of 2026-11-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Dimillian/CodexMonitor&type=date&theme=dark&legend=top-left" />
@@ -45,7 +45,7 @@ When OpenAI's own Codex desktop app appeared, Hacker News commenters called the 
 
 ## Cautions
 
-- Nearly eight months dormant as of 2026-11-14, while the Codex CLI and the app-server protocol it drives keep moving, so expect drift between the app and the harness.
+- Nearly eight months dormant as of 2026-11-22, while the Codex CLI and the app-server protocol it drives keep moving, so expect drift between the app and the harness.
 - OpenAI's desktop app now covers the same ground with vendor support, which weakens the case for adopting an unmaintained alternative.
 - iOS support is unfinished (terminal and dictation unavailable on mobile builds), and building from source needs a Rust toolchain plus CMake and, on Windows, LLVM.
 - It meters the account but does not analyze history: no transcript search, no cross-session archive, and no cost reports over past sessions.
@@ -71,6 +71,7 @@ Its dormancy is the data point: vendor surfaces absorb third-party command cente
 - 2026-10-23 - Created from the coordinator's entrant handoff, admitted as the category's first dormant member, the monitor kind beside ccusage and tokscale, with the official-app comparison from its Hacker News thread recorded.
 - 2026-10-31 - Rotation re-verification: every cited URL re-fetched and live, and the Status corrected: the release line runs through v0.7.67 (2026-03-24), not v0.7.64 (2026-03-22) as recorded since creation, with the never-released 0.7.68 version bump landing the same day as v0.7.67 rather than three days later; dormancy unchanged (last commit 2026-03-26, the near-twin HN thread and beta disclaimer unchanged), and forks refreshed 415 to 417.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched and live; dormancy unchanged (last commit 2026-03-26, releases still ending at v0.7.67 with the 0.7.68 bump unreleased, the near-twin HN thread and beta disclaimer unchanged) and now stretching to nearly eight months, with the thesis and caution moved with it; forks refreshed 417 to 418 and open issues 94 to 95.
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched and live (repository and release APIs, the commits endpoint, README, site, and the near-twin HN thread); dormancy unchanged (last commit still 2026-03-26, releases still ending at v0.7.67 with the 0.7.68 bump unreleased, the near-twin HN thread and beta disclaimer unchanged); forks refreshed 418 to 421 and open issues 95 to 94.
 
 ## See also
 
@@ -81,9 +82,9 @@ Its dormancy is the data point: vendor surfaces absorb third-party command cente
 
 ## References
 
-- https://api.github.com/repos/dimillian/codexmonitor - the repository, 4,348 stars, MIT, created 2026-01-11, last pushed 2026-03-26 (as of 2026-10-31)
-- https://raw.githubusercontent.com/Dimillian/CodexMonitor/main/README.md - the feature set: workspaces, threads, composer, git and GitHub panels, daemon and iOS paths
-- https://www.codexmonitor.app - the positioning ("monitor your Codex situation"), the testimonials, and the beta disclaimer
-- https://api.github.com/repos/Dimillian/CodexMonitor/releases - the release line through v0.7.67 (2026-03-24), the signed installers, and the updater feed (re-fetched 2026-10-31)
-- https://api.github.com/repos/Dimillian/CodexMonitor/commits?per_page=5 - the last commits, ending 2026-03-26 (re-fetched 2026-10-31)
-- https://news.ycombinator.com/item?id=46859808 - the thread calling CodexMonitor and the official Codex app near-indistinguishable twins (re-fetched live 2026-10-31)
+- https://api.github.com/repos/dimillian/codexmonitor - the repository, 4,348 stars, MIT, created 2026-01-11, last pushed 2026-03-26 (as of 2026-11-22)
+- https://raw.githubusercontent.com/Dimillian/CodexMonitor/main/README.md - the feature set: workspaces, threads, composer, git and GitHub panels, daemon and iOS paths (re-fetched 2026-11-22)
+- https://www.codexmonitor.app - the positioning ("monitor your Codex situation"), the testimonials, and the beta disclaimer (re-fetched 2026-11-22)
+- https://api.github.com/repos/Dimillian/CodexMonitor/releases - the release line through v0.7.67 (2026-03-24), the signed installers, and the updater feed (re-fetched 2026-11-22)
+- https://api.github.com/repos/Dimillian/CodexMonitor/commits?per_page=5 - the last commits, ending 2026-03-26 (re-fetched 2026-11-22)
+- https://news.ycombinator.com/item?id=46859808 - the thread calling CodexMonitor and the official Codex app near-indistinguishable twins (re-fetched live 2026-11-22)

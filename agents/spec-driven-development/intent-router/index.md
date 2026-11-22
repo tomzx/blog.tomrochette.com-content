@@ -1,7 +1,7 @@
 ---
 title: Intent-Router
 created: 2026-10-10
-updated: 2026-11-12
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, intent-specs, clarification, skills]
 readability: 3
@@ -23,9 +23,9 @@ The README positions it against plan modes (which prefer looking up over verifyi
 
 ## Status
 
-Oscillating under apparent engagement purges: 89 stars and 17 forks as of 2026-11-01 (GitHub API), created 2026-09-22, pushed 2026-11-08 with release v1.4.1 (2026-11-08) the newest of eleven published release entries (the rotation re-fetch found the v0.x entries published retroactively); v1.4.1 fixed the eval transcript splitter that cut a turn in half whenever a test runner echoed the command it had just run (the persisted transcript carrying the spec was silently dropped; splits now happen only at a command line immediately followed by its exit line, and unparseable transcripts fail with their file name instead of crashing), and made `--check-docs` verify the install command across the four independently edited surfaces it is written to, following v1.4.0 (2026-10-16), which trimmed the skill description to fit a 500-character harness cap whose truncation was dropping the negative predicates that keep auto-invocation off unnecessary work, and added a DeepSeek Harness eval channel plus a cross-session contract test case.
-**The GitHub API read 1,017 stars and 124 forks on 2026-10-11, 158 and 46 on 2026-10-13, 239 and 51 on 2026-10-14, and 89 and 17 on 2026-11-01: a collapse fork counts cannot take organically, a one-day climb the same kind of engagement produces, and now a second fall, which reads as repeated purges of inauthentic stars with refills in between, and the nineteen-day adoption-curve claim this note published stays retracted.**
-The refill did not hold, so the social signal now reads as an engagement war the steward keeps losing, and the independent footprint is still empty: a Hacker News search returns no thread about it as of 2026-11-12 (the eight hits are unrelated projects sharing the words).
+Oscillating under apparent engagement purges: 108 stars and 21 forks as of 2026-11-22 (GitHub API), created 2026-09-22, pushed 2026-11-08 with release v1.4.1 (2026-11-08) the newest of eleven published release entries (the rotation re-fetch found the v0.x entries published retroactively); v1.4.1 fixed the eval transcript splitter that cut a turn in half whenever a test runner echoed the command it had just run (the persisted transcript carrying the spec was silently dropped; splits now happen only at a command line immediately followed by its exit line, and unparseable transcripts fail with their file name instead of crashing), and made `--check-docs` verify the install command across the four independently edited surfaces it is written to, following v1.4.0 (2026-10-16), which trimmed the skill description to fit a 500-character harness cap whose truncation was dropping the negative predicates that keep auto-invocation off unnecessary work, and added a DeepSeek Harness eval channel plus a cross-session contract test case.
+**The GitHub API read 1,017 stars and 124 forks on 2026-10-11, 158 and 46 on 2026-10-13, 239 and 51 on 2026-10-14, 89 and 17 on 2026-11-01, and 108 and 21 on 2026-11-22: a collapse fork counts cannot take organically, a one-day climb the same kind of engagement produces, a second fall, and now a climb spread over three weeks rather than the earlier one-day refills, which reads as repeated purges of inauthentic stars with refills in between, and the nineteen-day adoption-curve claim this note published stays retracted.**
+The refills do not hold, so the social signal still reads as an engagement war the steward keeps losing, and the independent footprint is still empty: a Hacker News search returns no thread about it as of 2026-11-22 (the eight hits are unrelated projects sharing the words).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=angel291592/Intent-Router&type=date&theme=dark&legend=top-left" />
@@ -44,7 +44,7 @@ The refill did not hold, so the social signal now reads as an engagement war the
 
 - The evidence is self-published and small: the delivery report of 2026-09-24 compares 5 bare runs against 3 skill runs (mean 5.0 versus 6.0 of 6) in one harness on one model, and the report discloses that the bare arm needed the skill explicitly denied because an installer test had left a copy in user-level skills.
 - Three weeks old with a solo maintainer: the IntentSpec format and the four-state model can still move under you.
-- The star story inverted twice: the 1,017 stars of 2026-10-11 fell to 158 by 2026-10-13, climbed back to 239 by 2026-10-14, and fell again to 89 by 2026-11-01, in what now reads as repeated purge-and-refill cycles of inauthentic engagement, so the social signal is now evidence against the project, and there is no independent replication of the delivery numbers.
+- The star story inverted twice: the 1,017 stars of 2026-10-11 fell to 158 by 2026-10-13, climbed back to 239 by 2026-10-14, and fell again to 89 by 2026-11-01, in what now reads as repeated purge-and-refill cycles of inauthentic engagement, with the count back at 108 by 2026-11-22 through a three-week climb, so the social signal is now evidence against the project, and there is no independent replication of the delivery numbers.
 - It is upstream of typed decision models (Jev, Laya), so teams already running those need to decide which layer owns the clarification step.
 
 ## Pricing
@@ -73,6 +73,7 @@ Not for teams needing enforced process (that is Superpowers), and not for anyone
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 - 2026-11-01 - Rotation re-verification of every cited source (all alive, the delivery report's numbers intact): recorded the second deflation (239 and 51 on 2026-10-14 to 89 and 17 on 2026-11-01), the release list grown to ten published entries with v1.4.0 still newest, and the footprint check re-run empty.
 - 2026-11-12 - Rotation re-verification of every cited source (all alive, the delivery report's numbers intact, the footprint check re-run with all eight hits unrelated projects sharing the words): recorded the v1.4.1 release (2026-11-08: the eval transcript splitter no longer cuts a turn when a test runner echoes its command, `--check-docs` verifies the install command across its four surfaces, and unparseable transcripts fail with their file name).
+- 2026-11-22 - Rotation re-verification of every cited source (all alive, the delivery report's numbers intact, the footprint check re-run with the same eight unrelated hits): recorded the count climbing back to 108 stars and 21 forks on 2026-11-22, a three-week pace unlike the earlier one-day refills.
 
 ## See also
 
@@ -84,8 +85,8 @@ Not for teams needing enforced process (that is Superpowers), and not for anyone
 ## References
 
 - https://github.com/angel291592/Intent-Router - repository: README, pipeline, comparison table, license
-- https://api.github.com/repos/angel291592/Intent-Router - stars, forks, issues, creation and push dates, the 1,017-to-158-to-239-to-89 readings, as of 2026-11-01
+- https://api.github.com/repos/angel291592/Intent-Router - stars, forks, issues, creation and push dates, the 1,017-to-158-to-239-to-89-to-108 readings, as of 2026-11-22
 - https://api.github.com/repos/angel291592/Intent-Router/releases - the release train through v1.4.1 (2026-11-08), fetched 2026-11-12
 - https://raw.githubusercontent.com/angel291592/Intent-Router/main/README.md - the convergence design, artifact model, and prior-art comparison
 - https://raw.githubusercontent.com/angel291592/Intent-Router/main/evals/reports/2026-09-24-delivery-opencode.md - the self-published delivery report behind the numbers and the contamination check
-- https://hn.algolia.com/api/v1/search?query=Intent-Router&hitsPerPage=5 - the no-thread community-footprint check, re-run 2026-11-12
+- https://hn.algolia.com/api/v1/search?query=Intent-Router&hitsPerPage=5 - the no-thread community-footprint check, re-run 2026-11-22

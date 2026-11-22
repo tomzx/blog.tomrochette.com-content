@@ -1,7 +1,7 @@
 ---
 title: Agent Analytics
 created: 2026-09-27
-updated: 2026-11-14
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, session-analytics, analytics, mcp, open-source]
 readability: 3
@@ -21,11 +21,11 @@ Analytics are exposed to agents rather than humans: an operating skill and an au
 The self-hosted server runs on Cloudflare Workers plus D1, on Docker or Kubernetes with SQLite, or as a plain Node process you point the CLI at.
 Documented integrations cover Claude Code, Claude Desktop and Cowork, Codex, ChatGPT (through the hosted MCP server in OpenAI developer mode, with local plugin testing only and no public plugins-directory listing yet), Cursor, OpenClaw, Paperclip, Hermes, Instinct, and OpenWork.
 Made by Agent Analytics, the same maintainer behind the Awesome Multi-Agent Orchestrators directory.
-The README claims MIT, but I could not find a LICENSE file on the default branch.
+The README claims MIT, and the MIT LICENSE file landed on the default branch on 2026-11-20 (PR 6), closing the gap this note carried since creation.
 
 ## Status
 
-The hosted product has moved faster than the open-source server, though the server woke up in November: the main repository (17 stars as of 2026-10-11, created 2026-02-06) went five months quiet before a single 2026-10-09 commit ("Update Core to 0.2.3 and CLI release examples"), then landed its next two commits on 2026-11-13 and 2026-11-14 (a read-only POST /sql endpoint with property group-by, and synchronous subject erasure for the self-hosted server), while the CLI moved from 0.5.37 (published 2026-10-09) to 0.5.42 (published 2026-11-14, after five releases on 2026-11-12 and 11-14) and sibling repos in the org were pushed through September 2026, as of 2026-11-14.
+The hosted product has moved faster than the open-source server, though the server woke up in November: the main repository (17 stars as of 2026-10-11, created 2026-02-06) went five months quiet before a single 2026-10-09 commit ("Update Core to 0.2.3 and CLI release examples"), then landed its next two commits on 2026-11-13 and 2026-11-14 (a read-only POST /sql endpoint with property group-by, and synchronous subject erasure for the self-hosted server) and an MIT LICENSE file on 2026-11-20, while the CLI moved from 0.5.37 (published 2026-10-09) to 0.5.43 (published 2026-11-14, after six releases on 2026-11-12 and 11-14) and sibling repos in the org were pushed through September 2026, as of 2026-11-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Agent-Analytics/agent-analytics&type=date&theme=dark&legend=top-left" />
@@ -34,8 +34,8 @@ The hosted product has moved faster than the open-source server, though the serv
 </picture>
 
 Community signal is thin and concentrated in the org's own plugins, the most prominent being the Hermes dashboard plugin at 27 stars and the Paperclip live analytics plugin at 14 stars, as of 2026-09-27; I found no Hacker News thread for the site.
-The README claims MIT and links a LICENSE file that is absent from the default branch, which returned 404 when I fetched it.
-**A young hosted product whose open-source server already looks quieter than its cloud, with the open-source claim itself unfinished at the repository level.**
+The README claims MIT and now links a LICENSE file that sits on the default branch (added 2026-11-20), resolving the 404 this note recorded through 2026-11-14.
+**A young hosted product whose open-source server is waking up from a five-month quiet stretch, its license claim now substantiated at the repository level and its independent footprint still empty.**
 
 ## Strengths
 
@@ -48,7 +48,7 @@ The README claims MIT and links a LICENSE file that is absent from the default b
 ## Cautions
 
 - Category fit is loose: this measures your product's web traffic, not your coding agents' sessions or token cost, so it answers how the product is doing rather than what the agents did.
-- The open-source server repository has been quieter than the hosted cloud (one commit between May and October 2026, a dependency bump), and the MIT LICENSE file the README links is missing from the default branch, so self-hosters rely on a claim the repository does not yet substantiate.
+- The open-source server repository ran five months quiet before its November 2026 wake-up (one commit between May and October 2026), so its maintenance pace still lags the hosted cloud, even though the MIT LICENSE file landed on 2026-11-20 and the license claim is now substantiated.
 - Hosted use moves event data, and optionally session replay, onto the vendor's infrastructure; only the self-hosted route keeps it on yours.
 - Per-event metering means a bot-heavy or high-traffic site can consume the free allowance faster than a 90-day retention window suggests.
 - The identity-stitching and portfolio model is more product machinery than most small teams need, and the agent-native API is the part that earns its keep.
@@ -86,6 +86,7 @@ Not for observing coding-agent sessions, token cost, or provenance, despite livi
 - 2026-10-28 - Rotation re-verification: every cited URL re-fetched and live; repository state (last push 2026-10-09), the missing LICENSE file, npm CLI (0.5.37), docs, OpenAPI spec, and the zero-hit Hacker News footprint all unchanged.
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched and live; repository state (last push 2026-10-09, the LICENSE file the README links still absent from the default branch per the API license field), the npm CLI (0.5.37, modified 2026-10-09), docs, OpenAPI spec, and the zero-hit Hacker News footprint all unchanged.
 - 2026-11-14 - Rotation re-verification with a status correction: every cited URL re-fetched and live, and the quiet stretch recorded since 2026-10-09 ended (default-branch commits on 2026-11-13 and 11-14: a read-only POST /sql endpoint with property group-by, and synchronous subject erasure for the self-hosted server; the npm CLI moved 0.5.37 to 0.5.42 across 2026-11-12 to 11-14); the LICENSE file the README links is still absent from the default branch (404 again, API license field none), the docs, OpenAPI spec, and site pricing shell are unchanged, and the Hacker News footprint still zero hits.
+- 2026-11-22 - Rotation re-verification with the license gap closed: every cited URL re-fetched and live, the MIT LICENSE file landed on the default branch 2026-11-20 (PR 6, the API license field now MIT, the raw file serving the MIT text), and the npm CLI moved 0.5.42 to 0.5.43 (published 2026-11-14); the docs, OpenAPI spec, and site pricing shell are unchanged and the Hacker News footprint still zero hits, so the Caution now rests on the maintenance pace, not on the missing license.
 
 ## See also
 
@@ -102,7 +103,8 @@ Not for observing coding-agent sessions, token cost, or provenance, despite livi
 - https://docs.agentanalytics.sh/ - the docs home, the product-system model, and the list of access surfaces and integrations
 - https://docs.agentanalytics.sh/openapi.yaml - the OpenAPI 3.1 spec and the agent-session and API-key auth model
 - https://raw.githubusercontent.com/Agent-Analytics/agent-analytics-cli/main/README.md - the CLI command surface for analytics, funnels, and experiments
-- https://api.github.com/repos/Agent-Analytics/agent-analytics - stars, creation and last-push dates, and the absent license (re-fetched 2026-11-14: pushed 2026-11-14, license field none)
-- https://api.github.com/repos/Agent-Analytics/agent-analytics/commits - the push history behind the five-month-quiet claim (2026-10-09) and the November wake-up (2026-11-13 and 11-14)
-- https://registry.npmjs.org/@agent-analytics/cli - the npm CLI package, latest 0.5.42, modified 2026-11-14
+- https://api.github.com/repos/Agent-Analytics/agent-analytics - stars, creation and last-push dates, and the license (re-fetched 2026-11-22: pushed 2026-11-20, license field MIT)
+- https://raw.githubusercontent.com/Agent-Analytics/agent-analytics/main/LICENSE - the MIT license text on the default branch (fetched 2026-11-22)
+- https://api.github.com/repos/Agent-Analytics/agent-analytics/commits - the push history behind the five-month-quiet claim (2026-10-09), the November wake-up (2026-11-13 and 11-14), and the MIT LICENSE commit (2026-11-20)
+- https://registry.npmjs.org/@agent-analytics/cli - the npm CLI package, latest 0.5.43, published 2026-11-14
 - https://hn.algolia.com/api/v1/search?query=agentanalytics.sh - the empty Hacker News footprint behind the thin-community claim

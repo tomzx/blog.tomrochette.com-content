@@ -1,7 +1,7 @@
 ---
 title: SkillOpt
 created: 2026-08-30
-updated: 2026-11-17
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, self-improving-agents, research, microsoft]
 readability: 3
@@ -24,7 +24,7 @@ MIT, from Microsoft Research Asia with university collaborators, Python 3.10+.
 
 ## Status
 
-Research code with unusually strong product trappings: 18.3k stars and 1.7k forks as of 2026-10-13, created 2026-05-08, with 93 open issues and pull requests as of 2026-11-17.
+Research code with unusually strong product trappings: 18.3k stars and 1.7k forks as of 2026-10-13, created 2026-05-08, with 80 open issues and pull requests as of 2026-11-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/SkillOpt&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Research code with unusually strong product trappings: 18.3k stars and 1.7k fork
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/SkillOpt&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-11-12, though main has run 409 commits past it (the 2026-10-29 pushes landed two security fixes: Sleep no longer imports or runs code from the project directory, and the web UI refuses to expose training controls without auth; the 2026-11-04 to 11-07 pushes added provenance tracking on proposed edits, protected-region overlap refusal, Sleep OAuth-replay and legacy-adoption guards, and SearchQA empty-answer handling; the 2026-11-10 batch hardened Sleep harvesting and scoring: cutoffs compared as instants, unreadable transcript lines skipped, api-request-blob records no longer harvested as user prompts, the judge's 0-to-1 score contract enforced before gating, learned items kept intact across apply_edits, self-reported tool calls not credited on a measured tool route, and recall of a held-out task's twin blocked as a leak, alongside OfficeQA and livemath scoring fixes, DocVQA evaluator tests, and an ALFWorld output confinement); the repo's News section (added 2026-11-04) announces NeurIPS 2026 Spotlight acceptance for the paper and a first-place Executive Challenge win at the Microsoft Global Hackathon 2026, while the arXiv paper (2605.23904) itself remains the preprint and all headline results are the authors' own.
+Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-11-22, though main has run 429 commits past it (the 2026-10-29 pushes landed two security fixes: Sleep no longer imports or runs code from the project directory, and the web UI refuses to expose training controls without auth; the 2026-11-04 to 11-07 pushes added provenance tracking on proposed edits, protected-region overlap refusal, Sleep OAuth-replay and legacy-adoption guards, and SearchQA empty-answer handling; the 2026-11-10 batch hardened Sleep harvesting and scoring: cutoffs compared as instants, unreadable transcript lines skipped, api-request-blob records no longer harvested as user prompts, the judge's 0-to-1 score contract enforced before gating, learned items kept intact across apply_edits, self-reported tool calls not credited on a measured tool route, and recall of a held-out task's twin blocked as a leak, alongside OfficeQA and livemath scoring fixes, DocVQA evaluator tests, and an ALFWorld output confinement; the 2026-11-17 batch added an opt-in leave-one-out edit ablation for accepted gate trials, a force-written slow-update skill re-measure, a dsh host peer-dependency declaration, Sleep scope-forwarding and Windows scheduled-task and Claude/Codex home-expansion fixes, and eval-loader fixes for OfficeQA numeric-zero, DocVQA stray-tag, and SearchQA single-string gold answers; the 2026-11-21 batch kept a decided night through an edit-ablation replay failure, documented Standard Compute as an openai_compatible provider example, added hard-selection-accuracy reporting to run summaries, taught the env loader to ignore a pre-answer <answer> tag, and taught Sleep to detect refusals written with a curly apostrophe), the repo's News section (added 2026-11-04) announces NeurIPS 2026 Spotlight acceptance for the paper and a first-place Executive Challenge win at the Microsoft Global Hackathon 2026, while the arXiv paper (2605.23904) itself remains the preprint and all headline results are the authors' own.
 
 ## Strengths
 
@@ -77,6 +77,7 @@ Not for subjective domains without reliable scoring, or anyone expecting trained
 - 2026-11-07 - The repo's News section (added 2026-11-04) announces NeurIPS 2026 Spotlight acceptance and a first-place Executive Challenge win at the Microsoft Global Hackathon 2026, the first venue signal the note has recorded for the paper, whose arXiv page remains the preprint; volatile refresh alongside: main pushed 2026-11-07 with provenance tracking on proposed edits, protected-region overlap refusal, Sleep OAuth-replay and legacy-adoption guards, and SearchQA empty-answer handling, moving main to 391 commits past v0.2.0 with open issues and PRs up to 73; v0.2.0 still the newest release.
 - 2026-11-12 - Volatile refresh: the 2026-11-10 batch hardened Sleep harvesting and scoring (cutoffs compared as instants, unreadable transcript lines skipped, api-request-blob records no longer harvested as prompts, the judge's 0-to-1 score contract enforced before gating, learned items kept across apply_edits, self-reported tool calls not credited on a measured route, held-out-twin recall blocked as a leak) alongside OfficeQA and livemath scoring fixes, DocVQA evaluator tests, and an ALFWorld output confinement, moving main to 409 commits past v0.2.0 with open issues and PRs up to 86; v0.2.0 still the newest release.
 - 2026-11-17 - Rotation re-verification: every cited URL re-fetched live and all claims held (the arXiv paper still the preprint at v2, the project page serving 200 and now carrying the NeurIPS Spotlight badge plus a companion-project link to SkillLens, the MSR blog unchanged, v0.2.0 still the newest release, The Decoder piece unchanged, VentureBeat answering 429 again through both fetch clients with its last live fetch 2026-10-18), the default branch unchanged since 2026-11-10 with main still 409 commits past v0.2.0, and open issues and PRs moved up to 93; no claims moved.
+- 2026-11-22 - Volatile refresh: the 2026-11-17 batch (opt-in leave-one-out edit ablation for accepted gate trials, force-written slow-update skill re-measure, dsh host peer-dependency declaration, Sleep scope-forwarding and Windows scheduled-task and Claude/Codex home-expansion fixes, OfficeQA numeric-zero, DocVQA stray-tag, and SearchQA single-string gold loader fixes) and the 2026-11-21 batch (decided nights kept through edit-ablation replay failures, Standard Compute documented as an openai_compatible provider example, hard-selection-accuracy run reporting, pre-answer `<answer>` tags ignored, curly-apostrophe refusal detection) moved main to 429 commits past v0.2.0 with open issues and PRs down to 80; v0.2.0 still the newest release.
 
 ## See also
 
@@ -87,10 +88,10 @@ Not for subjective domains without reliable scoring, or anyone expecting trained
 
 ## References
 
-- https://github.com/microsoft/SkillOpt - repository, method, benchmarks, license; News section announcing the NeurIPS 2026 Spotlight acceptance and the Microsoft Global Hackathon 2026 Executive Challenge first place (raw README fetched 2026-11-07); repo state 409 commits past v0.2.0, pushed 2026-11-10 unchanged, 93 open issues and PRs (GitHub API and compare endpoint, as of 2026-11-17)
+- https://github.com/microsoft/SkillOpt - repository, method, benchmarks, license; News section announcing the NeurIPS 2026 Spotlight acceptance and the Microsoft Global Hackathon 2026 Executive Challenge first place (raw README fetched 2026-11-07); repo state 429 commits past v0.2.0, pushed 2026-11-21, 80 open issues and PRs (GitHub API and compare endpoint, as of 2026-11-22)
 - https://arxiv.org/abs/2605.23904 - the paper behind the method and results (re-fetched 2026-11-17, still the v2 preprint)
 - https://microsoft.github.io/SkillOpt/ - project page, ablations, and transfer numbers (re-fetched 2026-11-17, now carrying the NeurIPS Spotlight badge and linking the companion SkillLens project page)
 - https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/ - the MSR blog on skills as trainable parameters (re-fetched 2026-11-17, unchanged)
-- https://github.com/microsoft/SkillOpt/releases/tag/v0.2.0 - release status and harness integrations (re-fetched 2026-11-17 through the releases endpoint, still the newest release)
+- https://github.com/microsoft/SkillOpt/releases/tag/v0.2.0 - release status and harness integrations (re-fetched 2026-11-17 and 2026-11-22 through the releases endpoint, still the newest release)
 - https://venturebeat.com/orchestration/microsofts-open-source-skillopt-automatically-upgrades-ai-agent-skills-without-touching-model-weights - the interview with cost figures and the scorer caveat (429 again 2026-11-17 through both fetch clients, after the same wall on 2026-10-20; last live fetch 2026-10-18)
 - https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/ - coverage noting the acknowledged limitations (re-fetched 2026-11-17, unchanged)

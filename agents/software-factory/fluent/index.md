@@ -1,7 +1,7 @@
 ---
 title: "Fluent"
 created: 2026-08-29
-updated: 2026-11-15
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, self-improving, autonomous-agents]
 readability: 3
@@ -80,6 +80,7 @@ Not for the one-off feature, which a simpler pipeline or a single agent handles 
 - 2026-11-01 - Rotation re-verification: every cited URL re-fetched (repository via the API and README, the five release-notes documents from v0.2.0 through v0.6.0, fluent.computer, the Discord invite via the invite API, and agentskills.io) and all claims confirmed, including v0.6.0 still the newest release, no push since 2026-10-11, and the live Software Factories Discord (invite valid and the guild name confirmed; the invite API no longer reports a member count); no material change.
 - 2026-11-13 - Recorded the v0.7.0 release (2026-11-01, the Claude Writer conversation-resume fix from issue #4, the post-branch-change landing fix, and npm and npx available inside the macOS sandbox) and the v0.8.0 release (2026-11-11, the dashboard expanded to inspect Work, watch workers, and run local actions, plus explicit approval for Tester commands needing the macOS process table); pushed date refreshed.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched (the repository via the API, the five release-notes documents from v0.2.0 through v0.6.0, fluent.computer, the Discord invite via the invite API, and agentskills.io) and all claims confirmed, including v0.8.0 still the newest release with no push since 2026-11-11, the live Software Factories Discord (42 members), and fluent.computer still redirecting to the repository; the v0.7.0 and v0.8.0 release-notes documents added to references; no material change.
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched (the repository via the API, the five release-notes documents from v0.2.0 through v0.6.0, fluent.computer, the Discord invite via the invite API, and agentskills.io) and all claims confirmed, including v0.8.0 still the newest release with no push since 2026-11-11, fluent.computer still redirecting to the repository, the live Software Factories Discord (invite valid, guild name confirmed, the invite API again reporting no member count), and agentskills.io now 308-redirecting to its /home page while still serving the skill standard; no material change.
 
 ## See also
 

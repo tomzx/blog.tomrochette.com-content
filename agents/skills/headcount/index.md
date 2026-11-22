@@ -1,7 +1,7 @@
 ---
 title: Headcount
 created: 2026-09-27
-updated: 2026-11-15
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, claude-code, agent-organization, plugin-marketplace]
 readability: 3
@@ -81,6 +81,7 @@ My disagreeable claim: the sixteen-department metaphor is mostly packaging, the 
 - 2026-11-02 - Rotation re-verification: every cited URL re-fetched live (the README still claiming 16 departments and 172 skills with the generated source catalog still 184 sources and 125 of them quotable, the repo still pushed 2026-10-18, the Zentor review and org chart page up, the Enterprise DNA writeup resolving on its redirect, the HN search still returning only unrelated layoff stories); no figures moved.
 - 2026-11-08 - Rotation re-verification found the project dead: the GitHub API returns 404 for the repository and for the whole cbrock84 account (queried twice against an API serving other calls fine in the same window), the raw README serves nothing, and the cbrock84.github.io org-chart page 404s, the account-deletion signature (renames redirect), so the Status moved from active to dead with the last verified reading kept; the Zentor review and the Enterprise DNA writeup remain live.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched, all claims held (the repo, the cbrock84 account, the raw README, and the org-chart page all still 404, so the death state stands, the Zentor review still live with its page stamp now reading updated 2026-10-21 and its critical readings unchanged, the Enterprise DNA writeup still 200 on its trailing-slash redirect, the HN search re-run with only unrelated layoff stories); no claims moved.
+- 2026-11-22 - Rotation re-verification: the death state re-confirmed a third time (the repo, the cbrock84 account, the raw README, and the org-chart page all still 404), the Zentor review still live, the Enterprise DNA writeup still 200 on its trailing-slash redirect, and the HN search re-run with only unrelated stories; no claims moved.
 
 ## See also
 

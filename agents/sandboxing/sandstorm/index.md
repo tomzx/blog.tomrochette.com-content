@@ -1,7 +1,7 @@
 ---
 title: Sandstorm
 created: 2026-10-31
-updated: 2026-11-18
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, gvisor, firecracker, sandbox-lifecycle]
 readability: 3
@@ -24,10 +24,10 @@ Apache-2.0, by DeepLethe (whose own site, deeplethe.com, is a Chinese-language c
 
 ## Status
 
-Active and newly released: 3,270 stars, 293 forks as of 2026-10-31 (GitHub API), 11 open issues and PRs as of 2026-11-18, pushed 2026-11-18, with v0.6.0 (2026-11-01) the newest release after the five-month v0.5.3 stall.
+Active and newly released: 3,270 stars, 293 forks as of 2026-10-31 (GitHub API), 11 open issues and PRs as of 2026-11-18, pushed 2026-11-20, with v0.6.0 (2026-11-01) the newest release after the five-month v0.5.3 stall.
 v0.6.0 shipped hours after the release-preparation pass that fixed the packaging (the release binary had been built against glibc 2.38 and would not start on Ubuntu 22.04 or Debian 12, and the Docker image had quietly stopped building): gVisor becomes the default backend, so a node needs no KVM while Firecracker stays opt-in per node behind `--backend firecracker`, master, node, and web console collapse into the one binary, the control plane runs over mutual TLS in both directions with each sandbox's own token checked at the gateway, host groups add fleet placement, the design is recorded as ADRs, the console was rewritten in TypeScript and React, and the official E2B SDKs work against Sandstorm.
 The README now publishes three rounds of fleet measurements (2026-10-28 through 10-31) with methodology and raw result links, plus a self-run comparison chart against CubeSandbox, microsandbox, Kata, Docker, and bubblewrap.
-The post-v0.6.0 fix train continued through 2026-11-18 (gateway-activity retries after failed node reports, output isolation between concurrent runsc calls, snapshot-tag encoding in the Python SDK, admission enforcement for pinned placement, and revoked-node rejection after long-poll wakes).
+The post-v0.6.0 fix train continued through 2026-11-20 (gateway-activity retries after failed node reports, output isolation between concurrent runsc calls, snapshot-tag encoding in the Python SDK, admission enforcement for pinned placement, revoked-node rejection after long-poll wakes, detached archives preserved across failed starts, MCP progress markers found outside the log excerpt, and stale console refreshes kept from overwriting fleet state).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=deeplethe/sandstorm&type=date&theme=dark&legend=top-left" />
@@ -72,6 +72,7 @@ Recommended for engineers running self-hosted agent-sandbox fleets on their own 
 - 2026-11-08 - Reworded the CubeSandbox See-also line to drop a banned term (now "closest in kind"); no factual change.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, OPTIMIZATIONS.md, the releases page, the maker's site, the HN search still returning zero stories), and the release record corrected: v0.6.0 shipped 2026-11-01, hours after the release-preparation pass the note had recorded as tagless, making gVisor the default backend with Firecracker opt-in per node, collapsing master, node, and console into one binary, adding the mutual-TLS control plane with per-sandbox tokens, host groups, ADRs, a TypeScript/React console, three published rounds of fleet measurements, and E2B SDK compatibility, with open issues and PRs at 14 as of 2026-11-13 and the Status, Cautions, and Bottom line updated off the unreleased reading.
 - 2026-11-18 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, OPTIMIZATIONS.md, the releases page, the maker's site, the HN search still returning zero stories); the post-v0.6.0 fix train recorded through 2026-11-18 (gateway-activity retries, runsc output isolation, snapshot-tag encoding, admission enforcement, revoked-node rejection), with open issues and PRs moving from 14 to 11 and the repository pushed 2026-11-18.
+- 2026-11-22 - Volatile refresh: the fix train advanced through 2026-11-20 (detached archives preserved across failed starts, MCP progress markers found outside the log excerpt, and stale console refreshes kept from overwriting fleet state), with the repository pushed 2026-11-20.
 
 ## See also
 

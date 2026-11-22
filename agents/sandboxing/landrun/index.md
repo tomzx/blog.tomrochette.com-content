@@ -1,7 +1,7 @@
 ---
 title: Landrun
 created: 2026-10-09
-updated: 2026-11-14
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, landlock, linux, open-source]
 readability: 3
@@ -16,15 +16,15 @@ Landrun is a MIT-licensed Go CLI that sandboxes any Linux command with the kerne
 
 ## What it is
 
-`landrun --rox /usr --rw . -- <command>` starts the command inside a Landlock domain with everything denied except what the flags grant: `--ro`, `--rox`, `--rw`, and `--rwx` paths, `--bind-tcp` and `--connect-tcp` ports, and, on the newest ABI, IPC scoping for abstract UNIX sockets and signals plus per-path UNIX socket grants.
+`landrun --rox /usr --rw . -- <command>` starts the command inside a Landlock domain with everything denied except what the flags grant: `--ro`, `--rox`, `--rw`, and `--rwx` paths, `--bind-tcp` and `--connect-tcp` ports (TCP restrictions since ABI v4), `--bind-udp` and `--connect-udp` ports (ABI v10), and, on the newest ABI, IPC scoping for abstract UNIX sockets and signals plus per-path UNIX socket grants.
 With no rules given it applies maximum restrictions, and no environment variable crosses unless `--env` names it, so secret-bearing variables stay behind the boundary by default.
-The released v0.1.17 targets Landlock ABI v9 (filesystem, TCP since ABI v4 on kernel 6.7+, IPC scoping since v6, denial audit logging since v7), with `--best-effort` degrading gracefully on older kernels, and the main branch now targets ABI v10, adding UDP bind and connect restrictions with port ranges on kernels 7.2+, none of it released yet.
+The released v0.2.0 targets Landlock ABI v11 and runs on every kernel from ABI v1 onward: it ships the ABI v10 UDP bind and connect restrictions with port ranges, a strict mode that checks each option against the kernel's ABI before running, a stderr warning listing every restriction the kernel cannot enforce, and statically linked release binaries with a SHA256SUMS file and build-provenance attestations, with `--best-effort` still degrading gracefully on older kernels.
 Installation is go install, and the project is packaged in the Arch AUR, Slackware, Ubuntu 26.04, and Debian forky.
 MIT, by Zouuup (Zoup on Hacker News), with no agent-specific features: it is a general-purpose command sandbox.
 
 ## Status
 
-Large footprint, development resumed: 2,316 stars as of 2026-10-13, 4 open issues as of 2026-11-14, created 2025-03-21, with v0.1.17 (2026-07-22, the ABI v9 release) the latest of a long 0.1.x train.
+Large footprint, development resumed: 2,316 stars as of 2026-10-13, 0 open issues as of 2026-11-22, created 2025-03-21, with v0.2.0 (2026-11-21, the ABI v10 UDP release) the newest after the long 0.1.x train.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Zouuup/landrun&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Large footprint, development resumed: 2,316 stars as of 2026-10-13, 4 open issue
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Zouuup/landrun&type=date&legend=top-left" />
 </picture>
 The Show HN of 2025-03-22, submitted by the author, drew 518 points, the largest community thread of any wrapper-class member of this category, and the same author publishes the project's sharpest caution himself.
-**After eighty-five quiet days the train resumed: a merged community pull request targeting Landlock ABI 10 with UDP network restrictions committed 2026-10-10, followed by TCP and UDP port-range flags and a go-landlock v0.10.1 bump on 2026-10-16, none of it released past v0.1.17.**
+**After eighty-five quiet days the train resumed, and its work shipped: the ABI 10 UDP pull request committed 2026-10-10 and the port-range flags of 2026-10-16 became v0.2.0 on 2026-11-21, a breaking cut that restricts UDP by default (DNS resolvers typically need `--connect-udp 53`), validates port flags that v0.1.17 silently wrapped (an out-of-range 70000 bind landed on port 4464), and reports every restriction the kernel cannot enforce instead of degrading silently.**
 The quiet stretch read as a stable utility rather than a stalled project, and the resumed work supports that reading, but the wrapper slot around it stays crowded with maintained, agent-specific members, so the footprint remains a 2025 event the repo is only now following up.
 
 ## Strengths
@@ -48,7 +48,7 @@ The quiet stretch read as a stable utility rather than a stalled project, and th
 - No namespaces and no user separation: the sandboxed process runs as the invoking user against the same kernel, so a kernel exploit is out of scope, the same ceiling Fence and nono carry.
 - The author's own post states binaries are not trustworthy and frames the tool as the answer to supply-chain authority; no independent audit or adversarial review exists.
 - Flag-only policy with no config file, no agent profiles, and no audit trail of its own beyond Landlock's denial logs, so adopting it for agents means hand-writing every invocation.
-- The latest release still dates to July 2026 while main already targets ABI 10, and the top launch reply's question, why not bubblewrap and mount namespaces, remains the comparison Landrun still has to answer.
+- v0.2.0 is a breaking cut: UDP is restricted wherever the kernel supports it, so name resolution and other UDP speakers need explicit ports, and kernels older than ABI v10 print an unenforced-restriction warning on most runs; the top launch reply's question, why not bubblewrap and mount namespaces, remains the comparison Landrun still has to answer.
 
 ## Pricing
 
@@ -77,6 +77,7 @@ Not as an agent boundary by itself: no egress policy, no audit trail, no profile
 - 2026-10-27 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, the 518-point launch thread, the author's supply-chain post, the release record); v0.1.17 remains the newest release with no commit to the repository since 2026-10-16, so the resumed-train and unreleased-ABI-10 readings stand.
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, the 518-point launch thread, the author's supply-chain post, the release record); v0.1.17 remains the newest release with no commit to main since 2026-10-16, the resumed-train and unreleased-ABI-10 readings stand, and the Compared-to Fence entry updated for the parent's quiet train.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, the 518-point launch thread, the author's supply-chain post, the release record); v0.1.17 remains the newest release with no commit to the repository since 2026-10-16, the resumed-train and unreleased-ABI-10 readings stand, and open issues moved from three to four.
+- 2026-11-22 - Out-of-rotation re-verification recording v0.2.0 (2026-11-21, the newest release: the Landlock ABI v11 target carrying the ABI v10 UDP bind and connect restrictions and port ranges as a breaking UDP default, strict mode checking each option against the kernel ABI, stderr reporting of every unenforced restriction, port-flag validation fixing v0.1.17's silent wrapping, and statically linked binaries with SHA256SUMS and provenance attestations), every cited URL re-fetched and alive (repository, README, the launch thread, the supply-chain post, the release record), with open issues at zero and the repository pushed 2026-11-21.
 
 ## See also
 
@@ -92,4 +93,4 @@ Not as an agent boundary by itself: no egress policy, no audit trail, no profile
 - https://raw.githubusercontent.com/Zouuup/landrun/HEAD/README.md - the flag reference, default-deny env behavior, and kernel requirements
 - https://hn.algolia.com/api/v1/items/43445662 - the 518-point Show HN launch and the bubblewrap comparison in the top reply
 - https://zoup.org/landrun-binaries-are-not-trustworthy/ - the author's own supply-chain authority argument, the critical source
-- https://api.github.com/repos/Zouuup/landrun/releases/latest - the v0.1.17 Landlock ABI v9 release record
+- https://api.github.com/repos/Zouuup/landrun/releases/tags/v0.2.0 - the v0.2.0 release notes: the breaking UDP default, strict-mode ABI checks, the port-validation fix, and the static, attested binaries

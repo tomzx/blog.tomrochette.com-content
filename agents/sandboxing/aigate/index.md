@@ -1,7 +1,7 @@
 ---
 title: aigate
 created: 2026-08-30
-updated: 2026-11-15
+updated: 2026-11-22
 readability: 3
 audience_notes: >
   Engineers who wrap coding agents in OS-level restriction and want to know what a small sandbox tool actually enforces.
@@ -81,6 +81,7 @@ Not for anyone needing a security boundary they did not audit themselves; use [O
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched (repository, README, user guide, the enforcement-matrix site, the v1.0.0 release page, the built-in sandboxing comparison, all alive); the push date holds at 2026-08-04 and the quiet window extends to ninety-five days as of 2026-11-07.
 - 2026-11-12 - Out-of-rotation re-verification for the 2026-11-10 release wave: every cited URL re-fetched and alive (repository, README, user guide, the enforcement-matrix site, the v1.0.0 release page, the built-in sandboxing comparison), and the dormancy reading replaced by the resumed train (v1.1.0, v1.1.1, and v1.1.2 all released 2026-11-10: per-session Linux networks with loopback denied, allow_net enforced under stricter AppArmor profiles, identities, the judge broker, and the macOS ssh-agent and symlinked-path security fixes), the commit count moving from twenty to fifty-one and open issues from zero to two, with the thesis, What-it-is, Status, and Cautions updated and the no-audit reading kept.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, user guide, the enforcement-matrix site, the v1.0.0, v1.1.0, and v1.1.2 release pages, the built-in sandboxing comparison); the resumed-train reading holds with the push staying 2026-11-10, v1.1.2 still the newest release, and two open issues unchanged.
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched and alive (repository, README, user guide, the enforcement-matrix site, the v1.0.0, v1.1.0, and v1.1.2 release records, the built-in sandboxing comparison); the resumed-train reading holds with the push staying 2026-11-10, v1.1.2 still the newest release, and two open issues unchanged.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: NemoClaw
 created: 2026-10-07
-updated: 2026-11-21
+updated: 2026-11-22
 readability: 3
 audience_notes: >
   Engineers who want to run an always-on assistant (OpenClaw, Hermes, or LangChain Deep Agents) inside an OpenShell sandbox without assembling the integration themselves.
@@ -24,7 +24,7 @@ Apache-2.0, from NVIDIA, which describes the project as alpha with best-effort m
 
 ## Status
 
-Large and fast for an alpha: 22,754 stars, 3,142 forks as of 2026-10-16, 876 open issues and PRs as of 2026-11-15, created 2026-03-15, pushed 2026-11-21.
+Large and fast for an alpha: 22,754 stars, 3,142 forks as of 2026-10-16, 318 open issues and PRs as of 2026-11-21, created 2026-03-15, pushed 2026-11-22.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for production-critical assistants while the project declares alpha, or for 
 - 2026-11-14 - Volatile refresh: the fix train advanced through 2026-11-13 (v0.0.144 documentation prep, an inference-probe status fix dropping the route assumption, the disabled auto-approval capability applied to Deep Code's startup mode, and messaging channel-readiness diagnostics), the exactly-one-prerelease release story re-confirmed, open issues and PRs moved from 891 to 869, and the repository pushed 2026-11-14.
 - 2026-11-15 - Volatile refresh: the exactly-one-prerelease release story re-confirmed, main quiet since the 2026-11-13 train while the repository-level push moved to 2026-11-15 on branch activity, and open issues and PRs moved from 869 to 876.
 - 2026-11-21 - Volatile refresh: the fix train advanced through 2026-11-21 (v0.0.145 documentation prep, OpenShell 0.1.9 native-runtime recognition in e2e and MCP provenance, the v1-format config export, gateway survival through tunnel stops, TUI pairing-grant qualification, and MCP state recovery from stopped Docker sandboxes), the exactly-one-prerelease release story re-confirmed, and the open count moved from 876 to 318 behind a bulk closure wave of 781 issues and PRs closed between 2026-11-15 and 2026-11-21, most without a completion reason, with the repository pushed 2026-11-21.
+- 2026-11-22 - Volatile refresh: the fix train advanced through 2026-11-21 evening (the inference proxy reporting Ollama unhealthy when Ollama is down), the exactly-one-prerelease release story re-confirmed, with the repository pushed 2026-11-22.
 
 ## See also
 
