@@ -1,7 +1,7 @@
 ---
 title: Ollaya
 created: 2026-10-06
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, local-inference, model-hub]
 readability: 3
@@ -24,7 +24,7 @@ It runs on ONNX Runtime over the CPU or an NVIDIA GPU (CUDA 13 or 12, Vulkan), w
 ## Status
 
 **Forty-five days old, beta, and already the wave's default front door.**
-The repository was created 2026-09-23 and shows 1,313 stars as of 2026-10-15, 93 forks as of 2026-11-20, pushed 2026-11-19; the default branch's newest commits are the 2026-11-19 batch (presets holding state templates and requires with Decima's guard tags as decima:guard 1.2, Gemma 4 audio input on `/api/decide` with per-media calibration and an `ollaya calibrate` command, and queued work skipped once its client deadline passes), with no new release past v0.18.0.
+The repository was created 2026-09-23 and shows 1,313 stars as of 2026-10-15, 93 forks as of 2026-11-20, pushed 2026-11-21; the default branch's newest commit is the 2026-11-21 `OLLAYA_READ_ONLY` mode (refusing model-store changes over HTTP with 403 READ_ONLY, #178), past the 2026-11-19 batch (presets holding state templates and requires with Decima's guard tags as decima:guard 1.2, Gemma 4 audio input on `/api/decide` with per-media calibration and an `ollaya calibrate` command, and queued work skipped once its client deadline passes), with no new release past v0.18.0.
 Two more families merged on 2026-10-26, a community jev-style line (Jev-Style-2B-Decision-v3, non-causal block attention plus a verdict readout) and the vLLM Semantic Router's Decision 2.0 as decision2; decision2 reached the site by the 2026-11-05 re-fetch, moving the count to thirty, while jev-style remains unserved.
 The release train moved fast after the launch measurements: v0.9.0 (2026-10-02) packaged Cloudflare's Clef and a CPU fallback for GGUF models, v0.10.0 (2026-10-05) added Hugging Face mirror pulls and a DGX Spark CUDA pack, v0.11.0 (2026-10-06) added Decima's three small multilingual models and image reading for Winnow 12B, v0.12.0 (2026-10-06) shipped Vulkan-on-Windows GGUF support, v0.12.1 (2026-10-09) added a new Credence family (a MiCA refinement of Winnow-E4B), and v0.13.0 (2026-10-13) added Liquid AI's d1 family (a 3B LFM2.5-VL decision model with a vision variant and the library's first revenue-threshold license, the LFM Open License v1.0), moved Decima's agent tag to 2.2, added digest-pinned pulls, and fixed the CUDA idle-pause crash that hit ONNX decoder models, at which point the site's family count read twenty-one.
 
@@ -94,6 +94,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 - 2026-11-11 - Volatile re-verification after the pushed_at move to 2026-11-10: branch activity, the default branch's newest commits still the three unreleased serving and site features, no new release past v0.18.0, and the site's family count re-read at thirty; forks refreshed to 91.
 - 2026-11-15 - Rotation re-verification, all eleven cited URLs re-fetched: the superseded ollaya.dev/results page was rebuilt since the 2026-10-12 read, its 0.8.0-era counters gone and replaced by aggregates (75 model tags measured, 419,040 benchmark answers scored, 152,474 parity questions checked, 5,551 requests timed, newest measurement 2026-10-26) with the measurement software labeled Ollaya 0.19.0 past the v0.18.0 release train (no matching tag or release, so the no-new-release reading holds), a third disclosed desktop machine (RTX 4090, i9-13900K) and three contributor benches joining; the site's family count re-read at thirty with decision2 served and jev-style unserved, the releases HTML pages serving 200 again after the 2026-11-05 504s, and forks refreshed to 92.
 - 2026-11-20 - Volatile re-verification after the 2026-11-19 pushes: three new default-branch commits (presets with state templates and requires and Decima's guard tags as decima:guard 1.2, Gemma 4 audio input on `/api/decide` with per-media calibration and an `ollaya calibrate` command, and queued work skipped past its client deadline), no new release past v0.18.0, and the site's family count re-read at thirty; forks refreshed to 93.
+- 2026-11-22 - Volatile re-verification after the 2026-11-21 push: one new default-branch commit, an `OLLAYA_READ_ONLY` mode that refuses model-store changes over HTTP with 403 READ_ONLY (#178), no new release past v0.18.0; pushed date moved to 2026-11-21.
 
 ## See also
 
@@ -107,7 +108,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 
 - https://ollaya.dev/ - product surface: endpoints, 30 model families, platforms, the Ollama 0.40.6 comparison table, Apache-2.0 licensing (re-fetched 2026-11-15)
 - https://ollaya.dev/search - the library enumeration: 30 families with per-model accuracy, latency, and sizes, including the first-party coba and sura lines and the d1-omni, gliclass-v4, and d3 families (re-fetched 2026-11-15, decision2 served and jev-style still unserved at the same thirty)
-- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,313 stars as of 2026-10-15, 93 forks, pushed 2026-11-19 (the presets, Gemma 4 audio, and deadline-skip commits; the default branch's earlier unreleased serving and site commits stand), releases v0.9.0 through v0.18.0 (GitHub API, as of 2026-11-20)
+- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,313 stars as of 2026-10-15, 93 forks, pushed 2026-11-21 (the OLLAYA_READ_ONLY mode; past the presets, Gemma 4 audio, and deadline-skip commits; the default branch's earlier unreleased serving and site commits stand), releases v0.9.0 through v0.18.0 (GitHub API, as of 2026-11-22)
 - https://github.com/ollaya-dev/ollaya/releases - the v0.15.0 (Largha, the typed-decisions scoreboard additions, the Libraries section), v0.16.0 (ROCm/HIP on Linux, the ROCm pack, install.sh --uninstall), and v0.17.0 (run-output alignment, Ubuntu 24.04 build base, parity_llama goldens guard) release notes (fetched 2026-10-24; re-fetched 2026-11-15 with the HTML page serving 200 again and the train still topping out at v0.18.0)
 - https://github.com/ollaya-dev/ollaya/releases/tag/v0.18.0 - the v0.18.0 release notes: the d1-omni, gliclass-v4, and d3 families, jeeves:9b on Jeeves v2, the decider tags on Mapika's 2026-10-20 update, the MLX phases (DeBERTa, Qwen3, Decision 1.0, kev), parity smoke tiers K1-K3, the desktop app and site redesign, and the coba report draft (fetched 2026-10-26)
 - https://github.com/ollaya-dev/ollaya/releases/tag/v0.14.0 - the v0.14.0 release notes: fp16 decoder tags, the model lifecycle, and the strands-decider, nimble:9b-v3, and pplx-decider:flash side-by-side against Ollama 0.40.6 (fetched 2026-10-20)

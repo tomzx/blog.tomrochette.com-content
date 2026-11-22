@@ -1,7 +1,7 @@
 ---
 title: CLM
 created: 2026-10-11
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, contrastive-learning, open-weights]
 readability: 3
@@ -31,7 +31,7 @@ The repository was created 2026-09-23 and pushed 2026-10-05 (unchanged on the 20
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Contrastive-LM/CLM&type=date&legend=top-left" />
 </picture>
 
-The two independent scoreboards rank it last or nearly last: JevBench's composite scores CLM-8B at 0.0 (intelligence axis 0.1, measured 2026-10-02 on the runner's protocol; the live method-v1.8 board, page updated 2026-11-03 and re-fetched 2026-11-20, still reads the same 0.00 at the floor of the composite table, last among the ranked open-weights rows), and the Decision Index 0.4.1 board (edition 0.4, regenerated 2026-11-19, 327 configurations, the Full score now entirely private) scores CLM-v0.1-8B at 6.49, rank 319 of 327, against Jev 1.14's 60.24.
+The two independent scoreboards rank it last or nearly last: JevBench's composite scores CLM-8B at 0.0 (intelligence axis 0.1, measured 2026-10-02 on the runner's protocol; the live method-v1.8 board, page updated 2026-11-03 and re-fetched 2026-11-20, still reads the same 0.00 at the floor of the composite table, last among the ranked open-weights rows), and the Decision Index 0.4.1 board (edition 0.4, regenerated 2026-11-21, 346 configurations, the Full score now entirely private) scores CLM-v0.1-8B at its unchanged 6.49, rank 338 of 346, against Jev 1.14's 60.24.
 The third-party local-jev-bench suite calls it one of the two least accurate engines it runs, and Ollaya's own table scores clm:8b at 0.357 on typed decisions.
 I read the gap between the GitHub traction and the scoreboard readings as the note's central fact: the architecture argument is winning attention while the measured decisions are not winning comparisons.
 
@@ -43,7 +43,7 @@ I read the gap between the GitHub traction and the scoreboard readings as the no
 
 ## Cautions
 
-- **The scoreboard evidence is uniformly negative so far: JevBench 0.0, Decision Index 6.49 (rank 319 of 327), and last-place local-jev-bench accuracy are the only third-party readings, and none of the README's parity or verifier claims has been independently reproduced.**
+- **The scoreboard evidence is uniformly negative so far: JevBench 0.0, Decision Index 6.49 (rank 338 of 346), and last-place local-jev-bench accuracy are the only third-party readings, and none of the README's parity or verifier claims has been independently reproduced.**
 - The default 2,048-token state limit is the shortest in the category against Jev's advertised 32k-plus, and raising it means raising the encoder's vLLM memory too.
 - The training data recipe (Nemotron pairs, synthetic hard negatives, agentic trajectories) is described but not released, so the parity claims cannot be audited.
 - The 760-like checkpoint shows a community watching rather than a community shipping: I found no downstream integrations beyond Ollaya's packaging.
@@ -78,6 +78,7 @@ The disagreeable claim I will defend: CLM's traction is a lesson about this cate
 - 2026-11-07 - Rotation re-verification, every cited URL re-fetched and holding: the repository unchanged (pushed 2026-10-05), the README's contrastive recipe and verifier claims unchanged, the checkpoint counts refreshed to 1,523 downloads and 791 likes (Hugging Face's rolling window swinging down from 4,913), the JevBench frozen v1.6.1 aggregate re-fetched with the CLM row unchanged (composite 0.0, intelligence axis 0.1), the live method-v1.8 board (page updated 2026-11-03) still reading the same 0.00 at the composite floor (last among the 235 ranked open-weights rows), the Decision Index's 2026-11-06 regeneration (275 configurations) moving the unchanged 6.49 to rank 267, local-jev-bench's measured rows unchanged (39, 41, and 20 percent on its three scored sets), and Ollaya's clm:8b row unchanged at 0.357.
 - 2026-11-13 - Rotation re-verification, every cited URL re-fetched and holding: the repository unchanged (pushed 2026-10-05), the checkpoint counts refreshed to 1,092 downloads and 794 likes (window drift both ways, no trend read), the JevBench frozen v1.6.1 aggregate re-fetched with the CLM row unchanged, the live method-v1.8 board still reading the same 0.00 at the composite floor, the Decision Index's 2026-11-12 regeneration (301 configurations) moving the unchanged 6.49 to rank 293, local-jev-bench's measured rows unchanged, and Ollaya's clm:8b row unchanged at 0.357.
 - 2026-11-20 - Rotation re-verification, every cited URL re-fetched and holding: the repository unchanged (pushed 2026-10-05), the checkpoint counts refreshed to 986 downloads and 795 likes (window drift both ways, no trend read), the JevBench frozen v1.6.1 aggregate re-fetched with the CLM row unchanged (composite at the floor, intelligence axis 0.1), the live method-v1.8 board still reading the same 0.00 at the composite floor, the Decision Index's 2026-11-19 regeneration (327 configurations) moving the unchanged 6.49 to rank 319, local-jev-bench's measured rows unchanged, and Ollaya's clm:8b row unchanged at 0.357.
+- 2026-11-22 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-21 regeneration (346 configurations) moved the unchanged 6.49 from rank 319 to 338; fetched and re-cited.
 
 ## See also
 
@@ -91,7 +92,7 @@ The disagreeable claim I will defend: CLM's traction is a lesson about this cate
 
 - https://github.com/Contrastive-LM/CLM - repository: Apache-2.0, the contrastive recipe, the vLLM-plus-head architecture, the Terminal-Bench 2.1 and DeepSWE claims (GitHub API and README, as of 2026-10-11; re-fetched 2026-11-20 with the pushed date 2026-10-05 unchanged)
 - https://huggingface.co/Contrastive-LM/CLM-v0.1-8B - the checkpoint: Apache-2.0, created 2026-09-21, 986 downloads and 795 likes (Hugging Face API, as of 2026-11-20, the rolling-window download count swung down from 1,092)
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 board scoring CLM-v0.1-8B at 6.49, rank 319 of 327, against Jev 1.14's 60.24 (regenerated 2026-11-19, fetched 2026-11-20)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 board scoring CLM-v0.1-8B at 6.49, rank 338 of 346, against Jev 1.14's 60.24 (regenerated 2026-11-21, fetched 2026-11-22)
 - https://benchmarkheaven.com/api/jevbench/v1.6.1 - the JevBench aggregate scoring CLM-8B at 0.0 composite, intelligence axis 0.1, measured 2026-10-02 (re-fetched 2026-11-20, the served snapshot and the CLM row unchanged; the live method-v1.8 board, page updated 2026-11-03, reads the same 0.00 at the composite floor)
 - https://raw.githubusercontent.com/tak-bro/local-jev-bench/HEAD/README.md - the third-party Apple Silicon suite calling CLM one of its two least accurate engines (re-fetched 2026-11-20, the accuracy rows unchanged)
 - https://ollaya.dev/ - Ollaya's packaged clm:8b at 0.357 on typed decisions, the runtime's least flattering row for the model (site and /search enumeration re-fetched 2026-11-20, the row unchanged)

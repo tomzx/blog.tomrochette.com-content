@@ -1,7 +1,7 @@
 ---
 title: Zep
 created: 2026-08-24
-updated: 2026-11-19
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, knowledge-graphs]
 readability: 3
@@ -54,8 +54,9 @@ I found no announced venture funding, which is itself a signal: it is bootstrapp
 ## Pricing
 
 Free: 10,000 credits per month, no rollover.
-Flex $104/month billed annually ($125 monthly) with 50,000 credits; Flex Plus $312/month annually ($375 monthly) with 200,000; Enterprise custom, as of 2026-10-16 (the pricing page now leads with monthly billing behind a Save-17-percent annual toggle).
+Flex $104/month billed annually ($125 monthly) with 50,000 credits; Flex Plus $312/month annually ($375 monthly) with 200,000; Enterprise custom, as of 2026-11-22 (the pricing page leads with monthly billing behind a Save-17-percent annual toggle).
 A credit covers one episode up to 350 bytes; retrieval, storage, and users are unmetered.
+Zep Agent Skills, the skill library the repository's examples serve, is free on every plan until January 4, 2027, after which it becomes a plan feature.
 
 ## Price history
 
@@ -86,6 +87,7 @@ Not for solo builders or small budgets, and my disagreeable claim is that Mem0's
 - 2026-11-07 - Recorded the repository's 2026-11-04 turn: the legacy Community Edition code and its README section were removed outright, so the discontinued self-hostable server no longer exists even as code, and the repository's remaining surface is Agent Skills benchmark harnesses and examples across seven frameworks, a Context Lake description, and the removal of the zep-mcp-server example and Discord links.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched live (the pricing page and both blog posts through their redirects), the pricing ladder re-verified unchanged on the fetched text (monthly $125/$375 leading behind the Save-17-percent annual toggle, overage top-ups $25 per 10,000 Flex and $75 per 40,000 Flex Plus credits, the free tier's no-rollover); the zep repository's default branch sits quiet since the November 4 removals (the November 13 push a side branch), and Graphiti's commit count refreshed to 1,061 as of 2026-11-14 with CLA-bot commits since the October 28 dependency upgrades.
 - 2026-11-19 - Volatile re-verification: the default branch's 2026-11-17 movement is the zep-ingest JSONL line-split fix, shipped with the zep-ingest-v0.4.1 release the same day (Go and certifi updated to distrust the eMudhra intermediates, and a PydanticAI banking Agent Skills example added); Graphiti stays active on its default branch with a 2026-11-17 release-job commit.
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched live (the product site, the pricing page through its trailing-slash redirect, Graphiti and Zep repositories, the paper, both blog posts through their blog.getzep.com to www.getzep.com/blog redirects), the pricing ladder re-verified unchanged on the fetched text (Flex $125 monthly with the Save-17-percent annual toggle matching the recorded $104, Flex Plus $375, overage $25 per 10,000 and $75 per 40,000 credits, free tier 10,000 credits with no rollover), and the pricing page's Agent Skills fact recorded (free on every plan until January 4, 2027); Graphiti stays active (pushed 2026-11-20) with the star figure at its 2026-10-16 baseline.
 
 ## See also
 

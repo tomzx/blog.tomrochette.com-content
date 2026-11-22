@@ -1,7 +1,7 @@
 ---
 title: Nanocoder
 created: 2026-10-08
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, local-first, community-governance]
 readability: 3
@@ -25,7 +25,7 @@ It is made by the Nano Collective, a self-described home for privacy-first, loca
 ## Status
 
 **Active and healthy for its size, with a footprint that is easy to miss.**
-The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and was pushed on 2026-11-20 (GitHub API, as of 2026-11-20).
+The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and was pushed on 2026-11-22 (GitHub API, as of 2026-11-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nano-Collective/nanocoder&type=date&theme=dark&legend=top-left" />
@@ -87,7 +87,7 @@ My disagreeable claim: governance is currently Nanocoder's only hard moat, and a
 
 ## References
 
-- https://github.com/Nano-Collective/nanocoder - repository scale (2,508 stars, 355 forks), created 2025-07-30, pushed 2026-11-20, no LICENSE file detected (verified via the GitHub API; push date as of 2026-11-20)
+- https://github.com/Nano-Collective/nanocoder - repository scale (2,508 stars, 355 forks), created 2025-07-30, pushed 2026-11-22, no LICENSE file detected (verified via the GitHub API; push date as of 2026-11-22)
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/README.md - positioning, install paths, CLI flags, screen modes, and the review command
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/index.md - AGENTS.md via /init, the skills model, lifecycle hooks, and MCP servers
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/skills.md - the skills bundle format carrying cron (`schedule.cron`) and `file.changed` event subscriptions through the per-project daemon (repointed 2026-11-14 from the removed docs/features/scheduler.md)

@@ -1,7 +1,7 @@
 ---
 title: Engrim
 created: 2026-09-10
-updated: 2026-11-19
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, sqlite, local-first]
 readability: 3
@@ -87,6 +87,7 @@ My disagreeable claim: the provenance tracking, not the local-first storage, is 
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live, no facts changed (the repository still pushed 2026-09-26, MIT, releases/latest still v1.4.11 from 2026-09-22, PyPI still at 1.4.11 with 26 releases, the README unchanged, the Show HN thread steady at 93 points).
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched live (the repository API, license, releases, README, PyPI, the Show HN thread), no facts changed (pushed 2026-09-26, MIT, releases and PyPI still at v1.4.11 from 2026-09-22 with 26 releases, the seven-CLI banner unchanged, the thread steady at 93 points).
 - 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (the repository API, license, releases, README, PyPI, the Show HN thread), no facts changed (pushed 2026-09-26, MIT, releases and PyPI still at v1.4.11 from 2026-09-22 with 26 releases, the seven-CLI banner and the 105-session case study unchanged, the thread steady at 93 points).
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched live (the repository API, license, releases, README, PyPI, the Show HN thread page and its Algolia record), no facts changed (still pushed 2026-09-26, v1.4.11 the latest release on both PyPI and the releases endpoint with 26 releases, the thread steady at 93 points).
 
 ## See also
 

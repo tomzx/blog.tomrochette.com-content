@@ -1,7 +1,7 @@
 ---
 title: MiMo Code
 created: 2026-09-27
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, harnesses, coding-agents, open-source, xiaomi, long-horizon]
 readability: 3
@@ -24,7 +24,7 @@ Provider access follows the OpenCode approach: any of 75+ providers through the 
 ## Status
 
 **Active and pre-1.0.**
-The repository was created 2026-06-10 and lists about 13.7k stars and 1.4k forks under MIT as of 2026-10-15, with 1,495 commits and a push on 2026-11-20 (GitHub API, re-checked 2026-11-20).
+The repository was created 2026-06-10 and lists about 13.7k stars and 1.4k forks under MIT as of 2026-10-15, with 1,495 commits and a push on 2026-11-21 (GitHub API, re-checked 2026-11-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=XiaomiMiMo/MiMo-Code&type=date&theme=dark&legend=top-left" />
@@ -108,7 +108,7 @@ My disagreeable claim: the co-evolution story is mostly packaging, since the mat
 
 - https://mimo.xiaomi.com/mimocode/start - official docs: surfaces, agents, skills, MCP, and the memory layer
 - https://github.com/XiaomiMiMo/MiMo-Code - repository, MIT license, OpenCode fork relationship, and feature README
-- https://api.github.com/repos/XiaomiMiMo/MiMo-Code - 13,629 stars, 1,428 forks, MIT, created 2026-06-10, pushed 2026-11-20, as of 2026-11-20
+- https://api.github.com/repos/XiaomiMiMo/MiMo-Code - 13,629 stars, 1,428 forks, MIT, created 2026-06-10, pushed 2026-11-21, as of 2026-11-22
 - https://api.github.com/repos/XiaomiMiMo/MiMo-Code/releases/latest - returns v0.1.14 (published 2026-09-23), published a day after v0.1.15 (2026-09-22), as of 2026-10-04; the same call returned v0.1.15 on re-check 2026-10-24, v0.1.16 (published 2026-10-26) on re-check 2026-11-11, v0.1.17 (published 2026-11-13) on re-check 2026-11-14, and v0.1.17 again on re-check 2026-11-20
 - https://mimo.xiaomi.com/blog/mimo-code-long-horizon - the design write-up: checkpoints, four-layer memory, `/goal`, Max Mode, and the vendor benchmarks
 - https://mimo.mi.com/docs/en-US/tokenplan/Token%20Plan/subscription - individual Token Plan tiers, Credits, discounts, and the V2.5 retirement (completed, IDs invalid), re-verified 2026-10-11 and 2026-11-20

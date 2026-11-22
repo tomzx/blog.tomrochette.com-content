@@ -1,7 +1,7 @@
 ---
 title: Hunk
 created: 2026-10-06
-updated: 2026-11-18
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, terminal, diff, human-in-the-loop]
 readability: 3
@@ -24,7 +24,7 @@ The maker is Modem (modem.dev), the company credited in hunk.dev's footer.
 
 ## Status
 
-Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026-03-17, pushed 2026-11-17 (the default branch moving 11-16 and 11-17 through an unreleased web review-UI feature stream: a review bar with progress and key hints, a changeset summary above the stream, review state in the files sidebar, file headers with state chips, note threads drawn as one card each, a quieter minimap, and a one-row toolbar), with v0.25.0 released 2026-11-11 ending the 0.24 line (741 merged pull requests by the v0.23.0 it succeeds, 2026-09-30), its headliners the removal of the deprecated `--fast` flag and the publication of the generated 0.25 release pages alongside the 0.24.1 changelog and a hunk-workspace extension-directory listing.
+Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026-03-17, pushed 2026-11-21 (the default branch moving 11-16 and 11-17 through an unreleased web review-UI feature stream: a review bar with progress and key hints, a changeset summary above the stream, review state in the files sidebar, file headers with state chips, note threads drawn as one card each, a quieter minimap, and a one-row toolbar, then 11-21 adding a copy-selected-hunk command, unchanged-lines row rendering, a pager fix for short plain text, and four extension-directory listings), with v0.25.0 released 2026-11-11 ending the 0.24 line (741 merged pull requests by the v0.23.0 it succeeds, 2026-09-30), its headliners the removal of the deprecated `--fast` flag and the publication of the generated 0.25 release pages alongside the 0.24.1 changelog and a hunk-workspace extension-directory listing.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=modem-dev/hunk&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ Not for CI gating and not for anyone expecting a machine verdict; Hunk deliberat
 - 2026-11-08 - Refreshed the activity line: the default branch moved 2026-11-07 with a keypad-navigation fix and three extension-marketplace additions, v0.24.1 still the newest release.
 - 2026-11-11 - Refreshed the activity line: the default branch moved 2026-11-10 with a v0.25.0 release preparation (plus agent-skill version guidance and a GitHub Actions group bump), v0.24.1 still the newest published release.
 - 2026-11-14 - Recorded the v0.25.0 stable release (2026-11-11), which ends the 0.24 line and removes the deprecated `--fast` flag while publishing the generated 0.25 release pages and listing hunk-workspace in the extension directory, and refreshed the activity line (the default branch moved 2026-11-13 with the hunk-goodies extension-directory listing, PR 1273).
+- 2026-11-22 - Refreshed the activity line: pushed date moved to 2026-11-21 with the hunk.review.copySelectedHunk copy command, unchanged-lines row rendering in the web diff, a pager fix letting short plain text exit the fallback less pager, and four extension-directory listings (hunk-review-comments-extension, hunk-review-sidebar, hunk-stage, hunk-markdown-preview); v0.25.0 still the newest release.
 
 ## See also
 

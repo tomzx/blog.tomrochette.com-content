@@ -1,7 +1,7 @@
 ---
 title: Rivet Agents
 created: 2026-10-13
-updated: 2026-11-15
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, durable-execution, scheduling, actor-model]
 readability: 3
@@ -19,14 +19,14 @@ Rivet Agents is the Apache-2.0 runtime from Rivet that runs a coding agent as on
 You define the agent once in your backend with rivetkit, and every key you call it with gets its own Actor, conversations, and files.
 File tools work on the Actor's SQLite database with no sandbox; add one (Rivet agentOS, E2B, Daytona, Freestyle, or Docker through the sandbox adapter) and shell tools run there, with provider keys staying in your backend and never entering the sandbox.
 The agent harness is Pi (Earendil's Pi Durable package, beta), with your own model, your own keys, or your users' own subscriptions.
-It is built by Rivet Gaming, Inc. (YC, a16z Speedrun), the company behind the rivet-dev/rivet control plane, and the repository is a monorepo renamed from sandbox-agent that carries Rivet Agents plus the Sandbox Agent HTTP control layer on one version line, v0.5.6 newest (2026-11-05) with v0.5.7 release candidates on the train (as of 2026-11-18).
+It is built by Rivet Gaming, Inc. (YC, a16z Speedrun), the company behind the rivet-dev/rivet control plane, and the repository is a monorepo renamed from sandbox-agent that carries Rivet Agents plus the Sandbox Agent HTTP control layer on one version line, v0.5.7 newest (2026-11-20).
 
 ## Status
 
 **Active, young, and moving fast.**
-1,604 stars as of 2026-10-13, 142 forks and 101 open issues and pull requests as of 2026-11-18 (GitHub API), created 2026-01-25 and pushed 2026-11-17 UTC.
-The release train reached a stable v0.5.0 only on 2026-10-07 after release candidates that began in March, with v0.5.1 through v0.5.3 following within a week (v0.5.3 on 2026-10-14), v0.5.4 landing 2026-10-27, v0.5.5 landing 2026-11-02, and v0.5.6 landing 2026-11-05 with Pi 1.5 support, stable RivetKit 3, and OpenTelemetry tracing for Pi Durable; v0.5.7 release candidates (both 2026-11-16) now run above it, and the company surface moved again: the homepage leads with Run and scale agents and carries new vendor figures (4.99 ms cold starts, 72 KB per Actor, 10.4x cheaper storage), the Rivet 3.0 Preview banner is gone (the latest-update banner names OpenOrange), and the docs reorganized so the agents documentation is now the Pi Durable ecosystem page, scheduling moved into a guide, and new coding-agent guides (Claude Code, Codex, OpenCode, Amp) ride the Sandbox Agent HTTP layer (all as of 2026-11-18).
-The community footprint sits under the prior names: the Sandbox Agent SDK Show HN drew 41 points in January 2026, the Gigacode OpenCode-UI experiment 27 points in February, and SQLite for Rivet Actors 45 points; a platform-level Launch HN (Scale and Orchestrate Agents on S3) drew 123 points and 59 comments on 2026-11-05, but no dedicated launch thread exists for the Agents product itself (as of 2026-11-18), and a product line that has already carried the Sandbox Agent SDK, agentOS, and Actors names carries identity churn a reader should price in.
+1,604 stars as of 2026-10-13, 143 forks and 102 open issues and pull requests as of 2026-11-22 (GitHub API), created 2026-01-25 and pushed 2026-11-20 UTC (the v0.5.7 release commit).
+The release train reached a stable v0.5.0 only on 2026-10-07 after release candidates that began in March, with v0.5.1 through v0.5.3 following within a week (v0.5.3 on 2026-10-14), v0.5.4 landing 2026-10-27, v0.5.5 landing 2026-11-02, and v0.5.6 landing 2026-11-05 with Pi 1.5 support, stable RivetKit 3, and OpenTelemetry tracing for Pi Durable; v0.5.7 (2026-11-20) has since landed above its two release candidates (both 2026-11-16), and the company surface moved again: the homepage leads with Run and scale agents and carries new vendor figures (4.99 ms cold starts, 72 KB per Actor, 10.4x cheaper storage), the Rivet 3.0 Preview banner is gone (the latest-update banner names OpenOrange), and the docs reorganized so the agents documentation is now the Pi Durable ecosystem page, scheduling moved into a guide, and new coding-agent guides (Claude Code, Codex, OpenCode, Amp) ride the Sandbox Agent HTTP layer (all as of 2026-11-18, re-confirmed 2026-11-22).
+The community footprint sits under the prior names: the Sandbox Agent SDK Show HN drew 41 points in January 2026, the Gigacode OpenCode-UI experiment 27 points in February, and SQLite for Rivet Actors 45 points; a platform-level Launch HN (Scale and Orchestrate Agents on S3) drew 123 points and 60 comments on 2026-11-05, but no dedicated launch thread exists for the Agents product itself (as of 2026-11-22), and a product line that has already carried the Sandbox Agent SDK, agentOS, and Actors names carries identity churn a reader should price in.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rivet-dev/agents&type=date&theme=dark&legend=top-left" />
@@ -44,7 +44,7 @@ The community footprint sits under the prior names: the Sandbox Agent SDK Show H
 ## Cautions
 
 - **The Pi Durable harness underneath is beta, and the docs' own limitations list is long**: no built-in approval flow, no automatic AGENTS.md or skill discovery, plain tool calls not rerun after a crash (only phased tasks are), waits capped at ten minutes, and roll-forward-only upgrades.
-- The homepage figures (4.99 ms cold starts, 72 KB per Actor, 10.4x cheaper storage) are the vendor's own measurements (as of 2026-11-18); no independent benchmark or third-party evaluation exists as of 2026-10-13.
+- The homepage figures (4.99 ms cold starts, 72 KB per Actor, 10.4x cheaper storage) are the vendor's own measurements (as of 2026-11-22); no independent benchmark or third-party evaluation exists as of 2026-10-13.
 - The rename from sandbox-agent, the one-version-line monorepo covering Agents, Sandbox Agent, agentOS, and Dynamic Apps, and the banner churn (a Rivet 3.0 Preview banner replaced by an OpenOrange launch banner inside three weeks) mean the surface you adopt can move under you.
 - Agent state lives in the Actor's SQLite database and the rivetkit model, so adopting it is a commitment deeper than a workflow file, and no export story is documented.
 
@@ -88,6 +88,7 @@ My disagreeable claim: for the durable-agent use case this is a better fit than 
 - 2026-11-13 - Refreshed the repository counters after the 2026-11-12 UTC push (141 to 140 forks, 93 to 94 open issues and pull requests); v0.5.6 re-confirmed still the newest release.
 - 2026-11-15 - Refreshed the repository counters after the 2026-11-14 UTC push (94 to 96 open issues and pull requests, forks steady at 140); v0.5.6 re-confirmed still the newest release.
 - 2026-11-18 - Volatile re-verification: v0.5.7 release candidates (both 2026-11-16) recorded on the train with v0.5.6 stable above them, counters refreshed (140 to 142 forks, 96 to 101 open issues and pull requests, pushed 2026-11-17 UTC), the company surface churned (the Rivet 3.0 Preview banner replaced by an OpenOrange launch banner, vendor figures moved to 4.99 ms cold starts, 72 KB per Actor, 10.4x cheaper storage), a platform-level Launch HN recorded (123 points, 59 comments, 2026-11-05), and Cloud repriced a second time inside a month (Hobby $10 -> $18, Team $120 -> $156, Enterprise $900 -> $740, the Free plan's Actor Node included at no charge, a YC-and-Speedrun 50-percent-off deal, Actor Nodes $18 R-5 to $327 R-160), with the pricing row appended.
+- 2026-11-22 - Fully re-verified in rotation with every cited URL re-fetched: recorded the v0.5.7 stable release (2026-11-20) landing above its two release candidates (2026-11-16) and moving the current-version claim from v0.5.6 (November 5); the docs (the Pi Durable ecosystem page with the actor-per-agent model and SQLite files, the schedules guide's cron and one-shot wakes with the sandbox suspended while sleeping, the beta limitations list including the missing approval flow and the ten-minute wait cap, the sandbox adapter list agentOS, E2B, Daytona, Freestyle, and Docker), the pricing page (every tier and Actor Node size unchanged since the 2026-11-18 rebuild), the homepage (the OpenOrange banner and the vendor figures unchanged), and the under-prior-names HN footprint all re-confirmed (the platform Launch HN now at 123 points and 60 comments), and the counters refreshed (142 to 143 forks, 101 to 102 open issues and pull requests, pushed 2026-11-20 UTC with the default branch's head the release commit).
 
 ## See also
 
@@ -99,11 +100,11 @@ My disagreeable claim: for the durable-agent use case this is a better fit than 
 ## References
 
 - https://github.com/rivet-dev/agents - repository, 1,604 stars, Apache-2.0, monorepo layout, one version line, as of 2026-10-13
-- https://api.github.com/repos/rivet-dev/agents - exact counters (1,604 stars pinned at their 2026-10-13 fetch, 142 forks, 101 open issues and pull requests, pushed 2026-11-17 UTC, created 2026-01-25; re-verified 2026-11-18) and the release train with v0.5.7 release candidates (both 2026-11-16) above stable v0.5.6 (2026-11-05, re-confirmed 2026-11-18)
-- https://rivet.dev/agents/docs - the actor-per-agent model, SQLite files, sandbox adapters, harness and model choice, and the company backing (re-fetched 2026-10-27)
-- https://rivet.dev/agents/docs/schedules/ - cron and one-shot scheduling that continues one conversation (re-fetched 2026-10-27)
-- https://rivet.dev/agents/docs/pi/ - Pi Durable beta status and the documented limitations list (critical source, re-fetched 2026-10-27)
-- https://rivet.dev/pricing/ - the control-plane plans and per-month Actor Node pricing after the second rebuild (Hobby $18, Team $156, Enterprise $740, Actor Nodes $18 to $327), as of 2026-11-18
-- https://rivet.dev - the company pitch, the OpenOrange launch banner that replaced the Rivet 3.0 Preview banner, and the self-measured performance figures (4.99 ms cold starts, 72 KB per Actor, 10.4x cheaper storage; critical source, re-fetched 2026-11-18)
-- https://hn.algolia.com/api/v1/search?query=rivet%20agents&tags=story - the footprint record: coverage under the Sandbox Agent SDK, Gigacode, and SQLite-for-Actors names plus the platform-level Launch HN (123 points, 2026-11-05), none dedicated to Agents itself, as of 2026-11-18
-- https://news.ycombinator.com/item?id=46795584 - the January 2026 Sandbox Agent SDK Show HN (41 points), the predecessor's launch under the old name
+- https://api.github.com/repos/rivet-dev/agents - exact counters (1,604 stars pinned at their 2026-10-13 fetch, 143 forks, 102 open issues and pull requests, pushed 2026-11-20 UTC, created 2026-01-25; re-verified 2026-11-22) and the release train with v0.5.7 stable (2026-11-20) above its two release candidates (both 2026-11-16) and stable v0.5.6 (2026-11-05, re-confirmed 2026-11-22)
+- https://rivet.dev/agents/docs - the actor-per-agent model, SQLite files, sandbox adapters, harness and model choice, and the company backing (re-fetched 2026-11-22)
+- https://rivet.dev/agents/docs/schedules/ - cron and one-shot scheduling that continues one conversation (re-fetched 2026-11-22)
+- https://rivet.dev/agents/docs/pi/ - Pi Durable beta status and the documented limitations list (critical source, re-fetched 2026-11-22)
+- https://rivet.dev/pricing/ - the control-plane plans and per-month Actor Node pricing after the second rebuild (Hobby $18, Team $156, Enterprise $740, Actor Nodes $18 to $327), as of 2026-11-18 (re-fetched 2026-11-22, unchanged)
+- https://rivet.dev - the company pitch, the OpenOrange launch banner that replaced the Rivet 3.0 Preview banner, and the self-measured performance figures (4.99 ms cold starts, 72 KB per Actor, 10.4x cheaper storage; critical source, re-fetched 2026-11-22)
+- https://hn.algolia.com/api/v1/search?query=rivet%20agents&tags=story - the footprint record: coverage under the Sandbox Agent SDK, Gigacode, and SQLite-for-Actors names plus the platform-level Launch HN (123 points, 2026-11-05), none dedicated to Agents itself, as of 2026-11-22
+- https://news.ycombinator.com/item?id=46795584 - the January 2026 Sandbox Agent SDK Show HN (41 points, re-fetched 2026-11-22), the predecessor's launch under the old name

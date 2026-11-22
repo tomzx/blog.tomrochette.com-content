@@ -1,7 +1,7 @@
 ---
 title: Laya
 created: 2026-09-21
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, multilingual]
 readability: 3
@@ -112,6 +112,7 @@ The disagreeable claim I will defend: the priority fight is the least interestin
 - 2026-11-15 - Volatile re-verification after the 2026-11-14 push: 0.4.32 released 2026-11-14 (the calibration fit's record validation, threshold selection, and binning vectorized, the hooks' rename probe that rendered the original question dropped, LayaToolSelector gated on a per-bucket min_confidence map, and Router.predict_batch gained interleaved-schema, chunking, and length-sort test coverage); PyPI now at 0.4.32; pushed date moved to 2026-11-14.
 - 2026-11-20 - Recorded the 0.5.0 repositioning (2026-11-19): vega, the author's vegaml particle-valley engine over a frozen reader (73,728-token context, image, audio, and video inputs, abstain and unbound flags, a laya.Learner that learns from confirmed answers on your own machine), became the package's default engine with the classic three-checkpoint family kept as opt-in, the README gained self-run learning-curve tables against Jev 1.14 and the project's first preprint (doi 10.20944/preprints202611.0781.v1), and the author's company began selling Studio seats at $20 a month ($200 a year) per engine with the Price history table seeded; the 0.4.33-to-0.4.38 November train (README and Studio pointers, TypeScript HTTP routing snapshots, the Learner) recorded; pushed date moved to 2026-11-20.
 - 2026-11-21 - Volatile re-verification after the 2026-11-21 push: 0.5.1 released (questions.json required in a policy's manifest, the laya-onnx runtime can skip its ONNX Runtime download), pushed date moved to 2026-11-21; JevBench's open-weights board now carries the first vega rows (Vega 0.8B rank 225 by capability at 32.995, Vega 4B rank 221 at 36.579, both tagged new, with Vega-U frozen-reader variants beside them, read 2026-11-21).
+- 2026-11-22 - Volatile re-verification: 0.5.2 released 2026-11-21T19:24 UTC (a learning-side step: `laya.Escalator` and `laya.vllm_teacher`, a teacher served through vLLM for what the Learner is unsure of, #1518), PyPI now at 0.5.2, the repository's pushed date holding at 2026-11-21.
 
 ## See also
 
@@ -129,7 +130,7 @@ The disagreeable claim I will defend: the priority fight is the least interestin
 - https://studio.embedding.in - the author company's Studio product: $20 a month or $200 a year per decision engine, weights on your own machines (fetched 2026-11-20)
 - https://laya.convaiinnovations.com/ - the launch site: 33 ms single-pass and 7.2 ms batched claims, benchmark framing
 - https://news.ycombinator.com/item?id=49765348 - the launch thread (1,363 points as of 2026-10-11, 2026-09-19): context-limit, novelty, and GLiNER criticisms
-- https://pypi.org/project/laya/ - the package: 0.5.1 as of 2026-11-21 (0.5.1 published 2026-11-21, 0.5.0 and 0.4.38 published 2026-11-19, 0.4.36 and 0.4.37 on 11-18, 0.4.35 on 11-16, 0.4.33 and 0.4.34 on 11-15; re-fetched 2026-11-21; the 0.4.32-and-earlier release history stands as recorded in the note's earlier entries)
+- https://pypi.org/project/laya/ - the package: 0.5.2 as of 2026-11-22 (0.5.2 published 2026-11-21, 0.5.1 published 2026-11-21, 0.5.0 and 0.4.38 published 2026-11-19, 0.4.36 and 0.4.37 on 11-18, 0.4.35 on 11-16, 0.4.33 and 0.4.34 on 11-15; re-fetched 2026-11-22; the 0.4.32-and-earlier release history stands as recorded in the note's earlier entries)
 - https://benchmarkheaven.com/jev-models - the JevBench open-weights board, read 2026-11-21 for the first vega rows (Vega 0.8B rank 225 by capability at 32.995, Vega 4B rank 221 at 36.579, both tagged new)
 - https://huggingface.co/convaiinnovations/laya - the primary checkpoint (ModernBERT-large, 421M parameters, 5,504 likes as of 2026-10-12)
 - https://github.com/mizorewww/laya-mlx - the MLX runtime: 7-14 ms on M3 Max, about 6,900 stars as of 2026-10-10

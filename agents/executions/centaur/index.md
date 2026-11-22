@@ -1,7 +1,7 @@
 ---
 title: Centaur
 created: 2026-11-06
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, slack, self-hosted, durable-execution]
 readability: 3
@@ -27,9 +27,9 @@ It is built by Paradigm with Tempo, open-sourced on 2026-05-21 after running in 
 ## Status
 
 **Active and institutionally backed, on a fast release line.**
-1,422 stars as of 2026-11-06, 296 forks and 120 open issues and pull requests as of 2026-11-20 (GitHub API), created 2026-05-18 and pushed 2026-11-20.
+1,422 stars as of 2026-11-06, 297 forks and 121 open issues and pull requests as of 2026-11-22 (GitHub API), created 2026-05-18 and pushed 2026-11-22.
 The 2.0 rewrite landed on 2026-08-10: a smaller Rust control plane exposing four operations, permissions derived from the conversation's context (a direct message uses your connected accounts, a shared channel gets the team's grants), MCP support so local agents can call Centaur's tools, and Slack, Granola, Google Drive, Google Calendar, Linear, and Attio as indexed context sources.
-The release train is dense (several Helm-chart cuts per day into the third week of November) and the calendar-versioning experiments did not stick: neither the v2026.11.6 cut recorded on 2026-11-06 nor the second calendar cut v2026.11.13 (2026-11-13) holds the top anymore, centaur-0.1.x is back on top at 0.1.221 (2026-11-19, four cuts that day) above 0.1.220, 0.1.219, and 0.1.218, Paradigm is hiring engineers to work on it full time, and both backers run it in production.
+The release train is dense (several Helm-chart cuts per day into the third week of November) and the calendar-versioning experiments did not stick: neither the v2026.11.6 cut recorded on 2026-11-06 nor the second calendar cut v2026.11.13 (2026-11-13) holds the top anymore, and a third calendar cut v2026.11.20 (2026-11-20) also sits below the centaur-0.1.x line, now at 0.1.224 (2026-11-21) above 0.1.223 (the same day), 0.1.222 (2026-11-20), and 0.1.221 (2026-11-19), Paradigm is hiring engineers to work on it full time, and both backers run it in production.
 The independent footprint is two self-posted, zero-comment Show HN threads (1 and 2 points) as of 2026-11-07, no launch discussion, no third-party deployment write-ups, and the vendor figures (more than 80% of sessions in shared channels, over 99% of daily sessions completing) are Paradigm's own.
 
 <picture>
@@ -79,6 +79,7 @@ My disagreeable claim: Centaur and Airut are this category's two architecture-fi
 - 2026-11-14 - Recorded the calendar-versioning cut's return: v2026.11.13 (2026-11-13) now tops the train above centaur-0.1.214 (2026-11-13), a second calendar cut after the 2026-11-06 one that did not stick; the counters refreshed (291 to 292 forks, 119 to 121 open issues and pull requests).
 - 2026-11-15 - Refreshed the repository counters after the 2026-11-15 push (292 to 293 forks, 121 to 123 open issues and pull requests); the release train re-confirmed unchanged (v2026.11.13 above centaur-0.1.214, both still 2026-11-13).
 - 2026-11-20 - Refreshed the release-train record: both calendar-versioning cuts have fallen off the top, and centaur-0.1.x is back at centaur-0.1.221 (2026-11-19, four cuts that day) above 0.1.220, 0.1.219, and 0.1.218; the counters refreshed after the 2026-11-20 push (293 to 296 forks, 123 to 120 open issues and pull requests).
+- 2026-11-22 - Refreshed the release train after a third calendar cut: v2026.11.20 (2026-11-20) also failed to hold the top, and centaur-0.1.x is at 0.1.224 (2026-11-21) above 0.1.223 (the same day), 0.1.222, and 0.1.221; the counters refreshed after the 2026-11-22 push (296 to 297 forks, 120 to 121 open issues and pull requests, the default branch's head dated the same day).
 
 ## See also
 
@@ -90,13 +91,13 @@ My disagreeable claim: Centaur and Airut are this category's two architecture-fi
 
 ## References
 
-- https://api.github.com/repos/paradigmxyz/centaur - counters (1,422 stars as of 2026-11-06, 296 forks, 120 open issues and pull requests, created 2026-05-18, pushed 2026-11-20), Rust, as of 2026-11-20
+- https://api.github.com/repos/paradigmxyz/centaur - counters (1,422 stars as of 2026-11-06, 297 forks, 121 open issues and pull requests, created 2026-05-18, pushed 2026-11-22), Rust, as of 2026-11-22
 - https://raw.githubusercontent.com/paradigmxyz/centaur/main/README.md - the Slack-to-sandbox model, sandbox stack, harness list, tools and workflows, the optional Teams ingress, and the security summary (fetched 2026-11-06, re-fetched 2026-11-07)
 - https://raw.githubusercontent.com/paradigmxyz/centaur/main/LICENSE - the dual Apache-2.0/MIT license text (fetched 2026-11-06, re-fetched 2026-11-07)
 - https://centaur.run - the positioning, the Paradigm and Tempo backing, and the architecture pitch (fetched 2026-11-06, re-fetched 2026-11-07)
 - https://centaur.run/security - the threat model, default-deny NetworkPolicy, iron-proxy placeholder credentials, and the docs' own caveats on the open egress default and shared secret store (critical source, fetched 2026-11-06, re-fetched 2026-11-07)
 - https://www.paradigm.xyz/writing/open-sourcing-centaur-multiplayer-self-hosted-secure-agents - the 2026-05-21 open-sourcing announcement: architecture, Absurd-inspired durable workflows, production use at Paradigm and Tempo since January 2026 (fetched 2026-11-06, re-fetched 2026-11-07)
 - https://www.paradigm.xyz/writing/centaur-2-0-permissions-context-and-mcp - the 2026-08-10 2.0 announcement: the Rust api-rs rewrite, context-derived permissions, MCP, the contributed Linear, GitHub, Discord, and Teams integrations, and the vendor session figures (fetched 2026-11-06, re-fetched 2026-11-07)
-- https://api.github.com/repos/paradigmxyz/centaur/releases?per_page=5 - the release train: centaur-0.1.x cuts through 0.1.205 (2026-11-05), the one-off calendar cut v2026.11.6 (2026-11-06), back to centaur-0.1.x through 0.1.213 (2026-11-11), the calendar cut v2026.11.13 (2026-11-13) briefly topping the train, then centaur-0.1.x back on top at 0.1.221 (2026-11-19) above 0.1.220, 0.1.219, and 0.1.218 newest (fetched 2026-11-06, re-fetched 2026-11-11, 2026-11-14, 2026-11-15, and 2026-11-20)
+- https://api.github.com/repos/paradigmxyz/centaur/releases?per_page=5 - the release train: centaur-0.1.x cuts through 0.1.205 (2026-11-05), the one-off calendar cut v2026.11.6 (2026-11-06), back to centaur-0.1.x through 0.1.213 (2026-11-11), the calendar cut v2026.11.13 (2026-11-13) briefly topping the train, centaur-0.1.x back on top at 0.1.221 (2026-11-19), and a third calendar cut v2026.11.20 (2026-11-20) also passed by centaur-0.1.224 (2026-11-21) above 0.1.223, 0.1.222, and 0.1.221 newest (fetched 2026-11-06, re-fetched 2026-11-11, 2026-11-14, 2026-11-15, 2026-11-20, and 2026-11-22)
 - https://hn.algolia.com/api/v1/search?query=paradigm%20centaur&tags=story - the coverage search finding one self-posted 1-point link to Paradigm's own 2.0 post and no dedicated thread (fetched 2026-11-06, re-fetched 2026-11-07)
 - https://hn.algolia.com/api/v1/search?query=centaur.run&tags=story - the second coverage query finding the self-posted 2-point site thread, completing the footprint record (fetched 2026-11-06, re-fetched 2026-11-07)

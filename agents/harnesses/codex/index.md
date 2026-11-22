@@ -1,7 +1,7 @@
 ---
 title: Codex
 created: 2026-08-22
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, openai, developer-tools]
 readability: 3
@@ -97,6 +97,7 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - 2026-11-14 - Recorded rust-v0.169.0 as the latest stable (published later on November 13): multi-tab side chats in the opt-in terminal workspace with saved local side chats reopening after restart, agent-command-center task search by name, prompt preview, or working directory, collapsible turn details in the full-screen transcript, custom model provider creation from the terminal with device-code gateway onboarding, an offline diagnostic-ZIP save, and Cloud connection image sends, model choice, and conversation archive and restore from the terminal.
 - 2026-11-19 - Rotation re-verification, re-fetching every cited reference (all live): recorded rust-v0.170.0 as the latest stable (published November 18): WebRTC negotiation for realtime voice calls in the TUI, auto-refreshed OTel exporter auth headers, experimental same-named MCP servers across environments, oversized WebSocket fallback to HTTP, MCP OAuth credential-race fixes, and Cloud reconnection improvements, after the rust-v0.169.1 patch (November 17) that carried no release highlights.
 - 2026-11-20 - Recorded rust-v0.171.0 as the latest stable (published November 20): GPT-6.2 Sol and Astra in the catalogs with Sol default, the TUI workspace on by default with document, image, and subagent-transcript previews, composer undo and redo with attachment restoration, `codex exec --remote` against an existing app server, `/rc` and `/remote` device pairing, and custom MCP status lines through `/statusline`, with draft-preservation and approval-race fixes, against the GitHub releases API.
+- 2026-11-22 - Recorded the v0.173.0 alpha train running (four alphas published November 20 through 21) behind the unchanged rust-v0.171.0 stable, against the repository's releases feed.
 
 ## See also
 

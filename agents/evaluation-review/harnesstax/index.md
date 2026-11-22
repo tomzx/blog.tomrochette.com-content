@@ -80,6 +80,7 @@ Not as a harness shopping leaderboard, since three harnesses and two contaminati
 - 2026-11-11 - Recorded three more AgentBRANE dashboard-build republications (two on 2026-11-09, one on 2026-11-10) and refreshed the activity line; the profiling traces remain unpublished.
 - 2026-11-13 - Recorded two more AgentBRANE dashboard-build republications (2026-11-12) and refreshed the activity line; the profiling traces remain unpublished.
 - 2026-11-18 - Rotation re-verification: every cited URL re-fetched and live (the study site, its repository, both harness-variance arXiv studies, Terminal-Bench, the SWE-bench Lite page, and the launch thread, which still holds 233 points), and two more AgentBRANE dashboard-build republications recorded (2026-11-13, after the 11-12 pair); the profiling traces remain unpublished and Harness-Bench stays at v2.
+- 2026-11-20 - Recorded the 2026-11-19 dashboard-build republication (01:33 UTC, from AgentBRANE build f8e0500d4, after the 11-18 evening four-republication burst) in the activity line; the profiling traces remain unpublished.
 
 ## See also
 

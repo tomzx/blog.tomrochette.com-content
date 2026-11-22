@@ -1,7 +1,7 @@
 ---
 title: n8n
 created: 2026-08-24
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, executions, webhooks, workflow-automation]
 readability: 3
@@ -23,7 +23,7 @@ Deployment is self-hosted (free Community Edition) or n8n Cloud; the Webhook nod
 ## Status
 
 **Very active and heavily funded.**
-About 207.3k stars as of 2026-10-13 and 61,605 forks as of 2026-11-20 on GitHub, with 27,000+ commits.
+About 207.3k stars as of 2026-10-13 and 61,614 forks as of 2026-11-22 on GitHub, with 27,000+ commits.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=n8n-io/n8n&type=date&theme=dark&legend=top-left" />
@@ -89,6 +89,7 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 - 2026-11-13 - Refreshed the repository counters after the 2026-11-13 push (61,450 to 61,494 forks).
 - 2026-11-15 - Refreshed the repository counters after the 2026-11-15 push (61,498 to 61,527 forks).
 - 2026-11-20 - Refreshed the repository counters after the 2026-11-20 push (61,527 to 61,605 forks); the release train's new cuts (2.48.6 on November 19, 2.48.7 on November 20) are routine bug fixes touching no note claim.
+- 2026-11-22 - Refreshed the repository counters after the 2026-11-22 push (61,605 to 61,614 forks); the stable release train re-confirmed unchanged (n8n@2.48.7 of 2026-11-20 still the newest stable cut, with an n8n@2.49.3 prerelease on the train).
 
 ## See also
 
@@ -99,7 +100,7 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 
 ## References
 
-- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-10-13 (re-fetched 2026-11-20)
+- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-10-13 (counters re-verified 2026-11-22)
 - https://docs.n8n.io/build/build-and-manage-agents.md - agents feature: channels, schedules, sub-agents, preview limits, per-tool approval (re-fetched 2026-11-11; all claims unchanged)
 - https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/ - webhook trigger semantics, auth, fail-open conditional (re-fetched 2026-11-11; n8n User Auth (OAuth2) now documented beside basic, header, and JWT)
 - https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-11-11 (tiers re-verified unchanged)

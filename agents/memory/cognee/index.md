@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-11-19
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-11-18, and v1.6.10 (November 18) the latest stable release with PyPI in sync at 1.6.10.
+About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-11-20, and v1.6.10 (November 18) the latest stable release with PyPI in sync at 1.6.10.
 The README now carries a BEAM benchmark table with self-run scores: 0.79 at 100K tokens under fixed hybrid retrieval and 0.67 as an exploratory result at 10M tokens with question-type routing, each with stated methodology, limits, and an acknowledged reproduction gap for the distributed 10M ingestion, which moves the project from comparisons-only to published self-run numbers.
 The same README fronts a Postgres path that runs the whole memory layer on one Postgres instance as a demo feature (the production version is a licensed product).
 
@@ -63,7 +63,7 @@ The community discussion footprint is thin for the star count: its two Show HN t
 ## Pricing
 
 Open source: free, Apache-2.0.
-Cloud: Free $0 (one workspace, 1M tokens included, unlimited users), Standard $1.00 per 1M tokens processed plus $5 per additional workspace per month, Enterprise custom with BYO cloud and SLAs, as of 2026-10-02.
+Cloud: Standard $0 per month with 100M tokens included and one workspace (extra workspaces $5 each per month, unlimited users and API calls), then $0.10 per 1M tokens processed; Premium $99 per month plus token usage at the Standard rate, adding auto-ontology, the ontology editor, and priority support; Enterprise a fixed-scope BYOC engagement (bi-temporal memory, provenance, SLAs), as of 2026-11-22.
 
 ## Price history
 
@@ -71,6 +71,7 @@ Cloud: Free $0 (one workspace, 1M tokens included, unlimited users), Standard $1
 | ---- | ---- | ------ | ------ |
 | 2026-09-09 | Cloud Standard | Standard rate cut to $1.00 per 1M tokens processed. | [cognee.ai/pricing](https://www.cognee.ai/pricing) |
 | 2026-09-18 | All tiers | Re-verified: Cloud Free $0 (one workspace, 1M tokens), Standard $1.00 per 1M plus $5 per additional workspace/mo, Enterprise custom; OSS free (Apache-2.0). | [cognee.ai/pricing](https://www.cognee.ai/pricing) |
+| 2026-11-22 | Cloud Standard and Premium | Standard restructured: $0/mo with 100M included tokens and one workspace, then $0.10 per 1M processed (from $1.00 per 1M), extra workspaces still $5/mo; Premium introduced at $99/mo plus Standard-rate usage (auto-ontology, ontology editor, priority support); Enterprise unchanged as a BYOC engagement. | [cognee.ai/pricing](https://www.cognee.ai/pricing) |
 
 ## Compared to
 
@@ -106,6 +107,7 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 - 2026-11-15 - Volatile re-verification: the pushed_at movement resolved to a maintenance-only dependency-lock commit with the release train quiet since v1.6.8; no facts changed, and the push date refreshed to 2026-11-14.
 - 2026-11-17 - Volatile re-verification: the post-release default-branch movement recorded (the Hermes plugin moved into the separate cognee-integrations/ package on November 16, pending release, with nightly CI reporting to Slack); PyPI re-verified in sync at 1.6.8, and the push date refreshed to 2026-11-17.
 - 2026-11-19 - Recorded v1.6.9 (November 18, the connector line: the Slack rework that retires the old history-import pathway, Dropbox, Vercel, Telegram, and Evernote connectors, and the packaged hermes-agent integration) and v1.6.10 (November 18, the tightened Postgres per-dataset pools with their breaking default change, nested LLM-call capture with caller metadata, and the chunking hardening); PyPI re-verified in sync at 1.6.10, and the push date refreshed to 2026-11-18.
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched live (repository API and v1.6.3 tag page, cognee.ai, the pricing page, docs, PyPI, both Show HN threads steady at 9 and 6 points), no release or activity change since v1.6.10 (the only default-branch movement a LoCoMo technical-report revision, push date refreshed to 2026-11-20), and the repricing recorded: Standard is now $0 per month with 100M included tokens and one workspace at $0.10 per 1M processed (from $1.00 per 1M), Premium introduced at $99 per month plus Standard-rate usage, Enterprise unchanged as a BYOC engagement; the Pricing section moved and the Price history gained the row.
 
 ## See also
 

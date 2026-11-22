@@ -1,7 +1,7 @@
 ---
 title: Harbor
 created: 2026-11-18
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, harness]
 readability: 3
@@ -26,8 +26,8 @@ Young and fast: 7,186 stars, Apache-2.0, created 2025-08-04, pushed 2026-11-21 (
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=harbor-framework/harbor&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=harbor-framework/harbor&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=harbor-framework/harbor&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=harbor-framework/harbor&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=harbor-framework/harbor&type=date&legend=top-left" />
 </picture>
 
 **The score-reporting ecosystem runs through it: Terminal-Bench threads show independent agents topping the board (a 393-point Show HN on 2026-04-27) and vendors reporting headline numbers through its lineage (Cognition's 92.8 on Terminal-Bench 2.1, a 69-point thread), so a Harbor number is what reaches the mainstream discussion.**
@@ -66,6 +66,7 @@ Not for judging your own application's outputs (that is deepeval or agent-qa ter
 - 2026-11-18 - Created from the awesome-agent-observability 2026-11-15 evals-expansion scan, admitted as the category's benchmark runner beside its benchmark studies.
 - 2026-11-20 - Recorded the default branch's 2026-11-19 move (an OpenClaw agent fix for google/* model names and shared Gemini env aliases); v0.26.0 still the newest release.
 - 2026-11-21 - Recorded the v0.27.0 release (2026-11-21): max-output-token and context-window controls for custom Pi endpoints, interrupted trials recorded as cancelled, Antigravity SDK-runner fixes, and the Harbor Server announcement on the docs news page; the release-train wording moved from monthly to quickening (eight days between v0.26.0 and v0.27.0).
+- 2026-11-22 - Corrected the star-history chart markup: the light source and the img fallback carried the dark-theme parameter again; both now point at the default chart, per the coordinator's re-flag.
 
 ## See also
 

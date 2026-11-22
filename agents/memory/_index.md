@@ -17,7 +17,7 @@ Persistent memory for agents: the file conventions, the portable format, the cap
 - [claude-mem](claude-mem/index.md) - the 101.1k-star plugin that captures coding-agent sessions, compresses them with your tokens, and reinjects the context.
 - [claude-obsidian](claude-obsidian/index.md) - the MIT Claude Code plugin that turns a source inbox into a self-organizing Obsidian-vault knowledge graph with per-claim provenance and transactional writes, 15.9k stars with no independent coverage yet.
 - [Cognee](cognee/index.md) - the Apache-2.0 graph-memory pipeline with the whole engine self-hostable and a flat per-token cloud.
-- [deja](deja/index.md) - the MIT one-binary transcript index: recall of what 49 coding agents already wrote to disk, no capture step, no LLM, self-run benchmarks committed as artifacts.
+- [deja](deja/index.md) - the MIT one-binary transcript index: recall of what 52 coding agents already wrote to disk, no capture step, no LLM, self-run benchmarks committed as artifacts.
 - [Emulo](emulo/index.md) - the MIT session miner that compiles the messages you typed into a you.md working profile with dated verbatim receipts, carrying a published 0-for-9 placebo result.
 - [Engrim](engrim/index.md) - the local-first SQLite episodic memory engine for multiple AI CLIs on one machine, provenance-first.
 - [EverOS](everos/index.md) - EverMind's Apache-2.0 local-first runtime where markdown files stay the source of truth with SQLite and LanceDB indexes beside them, separate user and agent tracks, and an unpublished-price managed cloud.
@@ -35,7 +35,7 @@ Persistent memory for agents: the file conventions, the portable format, the cap
 - [memU](memu/index.md) - the Apache-2.0 memory wiki that turns agent history into markdown skills shared across ChatGPT, Claude Code, Codex, Cursor, and OpenClaw, hosted free with a single-device self-host.
 - [Memvid](memvid/index.md) - Memvid's Apache-2.0 single-file memory engine: documents, embeddings, and indexes packed into one portable .mv2 file, the QR-in-video v1 now deprecated.
 - [MetaClaw](metaclaw/index.md) - the MIT meta-learning layer that evolves OpenClaw-family agents' skills and memory from conversations, dormant since June.
-- [OKF Agent Memory](okf-agent-memory/index.md) - the MIT Go implementation of Google's OKF v0.2: a git-native knowledge bundle with in-memory BM25 search, progressive disclosure, trust tiers, and a built-in MCP server, admitted when its re-review trigger fired.
+- [OKF Agent Memory](okf-agent-memory/index.md) - the MIT Go implementation of Google's OKF (v0.3-conformant since v0.9.0): a git-native knowledge bundle with in-memory BM25 search, progressive disclosure, trust tiers, and a built-in MCP server, admitted when its re-review trigger fired.
 - [OpenViking](openviking/index.md) - ByteDance's AGPL context database that unifies knowledge, memory, and skills as a viking:// filesystem with layered summaries, 40.0k stars.
 - [Operator Memory](operator-memory/index.md) - the BSD-3-Clause harness-agnostic documentation brain: the working agent consults and rewrites markdown specs, decisions, and indexes in three git-tracked partitions as structural phases of every task.
 - [PLUR](plur/index.md) - the Apache-2.0 local-first engine giving every wired harness one shared store of plain-text YAML engrams, with auto-injection adapters for eight coding agents.

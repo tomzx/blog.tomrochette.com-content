@@ -1,7 +1,7 @@
 ---
 title: "Exo"
 created: 2026-09-05
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agent, self-improvement, agent-hosting, rust]
 readability: 3
@@ -80,6 +80,7 @@ I read the pivot as the market's verdict on self-modifying harnesses: the infras
 - 2026-10-31 - Rotation re-verification, every cited reference live: pushed date refreshed to 2026-10-31, and the FrontierHarness figures re-read unchanged ($1.05 median, 53.3 percent pass) from the live site.
 - 2026-11-08 - Rotation re-verification, every cited reference live: the push date refreshed to 2026-11-08, still no tagged releases, and the FrontierHarness figures re-read unchanged ($1.05 median, 53.3 percent pass, Claude Code at $18.34) from the live site.
 - 2026-11-16 - Rotation re-verification surfaced the pivot: the docs now archive the self-modifying harness as "Earlier Exo" and pitch Exo as a harness-agnostic agent hosting runtime (markdown-defined agents, durable conversations, Firecracker sandboxes, vaults, and egress policies over Codex, Claude Code, and Pi); rewrote the definition, What it is, Status, Strengths, Cautions, Compared to, and Bottom line to the pivoted product, reframed the FrontierHarness figures as measuring the archived iteration (re-read unchanged on the v1.1 board), and refreshed the push date to 2026-11-13.
+- 2026-11-22 - Rotation re-verification, re-fetching every cited reference (all live): the default branch's latest commit still 2026-11-18 (the repository-level pushed date moving to 2026-11-19 on side work), still no tagged releases, the docs' Earlier Exo archive and hosting-runtime pitch unchanged, and the FrontierHarness v1.1 board re-read unchanged (53.3 percent pass, $1.05 effective cost per pass, Claude Code at $18.34, board generated 2026-08-22).
 
 ## See also
 

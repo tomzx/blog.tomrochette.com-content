@@ -1,7 +1,7 @@
 ---
 title: "τ²-bench"
 created: 2026-11-18
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, tool-agents, voice]
 readability: 3
@@ -27,8 +27,8 @@ Active and adopted: 2,473 stars, MIT, created 2025-06-09, pushed 2026-11-21 (the
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sierra-research/tau2-bench&type=date&theme=dark&legend=top-left" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=sierra-research/tau2-bench&type=date&theme=dark&legend=top-left" />
-  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=sierra-research/tau2-bench&type=date&theme=dark&legend=top-left" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=sierra-research/tau2-bench&type=date&legend=top-left" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=sierra-research/tau2-bench&type=date&legend=top-left" />
 </picture>
 
 **The footprint is practitioner-grade: a 197-point Hacker News thread measured a prompt rewrite moving GPT-5-mini by 22 percent on the benchmark, and vendor score reports cite its voice leaderboards, so its numbers are quoted and argued with rather than ignored.**
@@ -66,6 +66,7 @@ Not for coding-agent evaluation, and never without the simulator and prompt-vari
 
 - 2026-11-18 - Created from the awesome-agent-observability 2026-11-15 evals-expansion scan, admitted as the category's dual-control service-agent benchmark.
 - 2026-11-21 - Refreshed the activity line: pushed date moved to 2026-11-21 with community leaderboard submission merges landing on the default branch (a voice-config resubmission and a pipeline fix); v2.0.0 still the newest release.
+- 2026-11-22 - Corrected the star-history chart markup: the light source and the img fallback carried the dark-theme parameter again; both now point at the default chart, per the coordinator's re-flag.
 
 ## See also
 

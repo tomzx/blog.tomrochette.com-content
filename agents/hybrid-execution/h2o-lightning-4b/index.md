@@ -1,7 +1,7 @@
 ---
 title: H2O-Lightning-4B
 created: 2026-10-11
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, multimodal]
 readability: 3
@@ -28,7 +28,7 @@ The lead is now gone: on the 2026-10-27 read of board revision v1.7.48 under met
 The card no longer carries the claim either: the 2026-10-27 card rewrite retired the number-one claim and its October 7-20 claim window entirely, and the card's 2026-11-01 rewrite now documents **v1.4.2** (`main`, pinnable by tag alongside v1.4.1, v1.3.x, v1.2.3, and v1.1, the board's revision), weights that continue the fine-tune, read 2026-10-26 on v1.4.1's serving, served two-way on one engine of the vendor's own per-request-attention vLLM build, with stock vLLM as the one-way fallback.
 The card's own measurements (all self-run, on one L40S): JevBench's 231 public items at 206 correct (89.2 percent) through the benchmark's own CLI, the Decision Index 0.3 public suite at text 63.16 and vision 69.42 for v1.4.1 with v1.4.2's profile run at text 63.64, and calibration error 0.0705 on the text rows, against v1.4.0's 62.38, 69.03, and 0.0640; the same rewrite added a benchmark panel on the board's new ImageJevBench (edition v0.3.0, measured 2026-10-28 on the v1.4.1 weights), where the checkpoint is the #1 of 46 open-weight Jev-class composites at 68.51 (capability 71.84, second of 46, behind its own 31B sibling), the #1 open-weight computer-use composite, and the #1 Box capability on the Box track preview, second of 55 Jev-class composites including API systems.
 Distribution widened along the way with GGUF and community MLX builds, a Nemotron-Nano-base text-only variant, and a Hugging Face Spaces demo.
-The Decision Index board still does not carry the 4B at all (its 2026-11-19 regeneration at 327 configurations carries three larger-sibling rows, the 31B v1.3.0 sixteenth at 69.92, a Bolt 74B eighty-ninth at 58.42, and an E4B 148th at 47.99), so the 4B's second-board reading still does not exist.
+The Decision Index board still does not carry the 4B at all (its 2026-11-21 regeneration at 346 configurations carries three larger-sibling rows, the 31B v1.3.0 nineteenth at its unchanged 69.92, a Bolt 74B ninety-eighth at 58.42, and an E4B 161st at 47.99), so the 4B's second-board reading still does not exist.
 
 ## Strengths
 
@@ -73,6 +73,7 @@ The disagreeable claim I will defend: a company checkpoint taking the open lead 
 - 2026-11-07 - Rotation re-verification, every cited URL re-fetched, with three changes the current sources forced: the card's 2026-11-01 rewrite documents v1.4.2 (`main`, pinnable by tag; v1.4.1's Decision Index text profile 63.16 standing beside v1.4.2's 63.64) and adds an ImageJevBench panel (edition v0.3.0, measured 2026-10-28 on the v1.4.1 weights: #1 of 46 open-weight composites at 68.51, #1 open-weight computer-use composite, #1 Box capability on the preview track), the live board's 2026-11-07 read (page updated 2026-11-03) holds the v1.1 row at official composite #2 (77.94 unchanged) while wald-26b-a4b takes the third spot and the v1.1 capability rank slides from 39th to 41st, and the Decision Index's 2026-11-06 regeneration (275 configurations) now carries three H2O sibling rows (the 31B v1.3.0 ninth at 69.92, a Bolt 74B, an E4B) with the 4B still absent; refreshed the checkpoint to 10,793 downloads and 105 likes, and the benchmark's add-request is closed.
 - 2026-11-13 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-12 regeneration (301 configurations) crowd-shifted the three sibling rows' unchanged scores (the 31B v1.3.0 to sixteenth, the Bolt 74B to eighty-sixth, the E4B to 138th) with the 4B still absent; the card and the JevBench standing re-read unchanged; fetched and re-cited.
 - 2026-11-20 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-19 regeneration (327 configurations) crowd-shifted the three sibling rows' unchanged scores again (the 31B v1.3.0 still sixteenth, the Bolt 74B to eighty-ninth, the E4B to 148th) with the 4B still absent; fetched and re-cited.
+- 2026-11-22 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-21 regeneration (346 configurations) crowd-shifted the three sibling rows' unchanged scores again (the 31B v1.3.0 sixteenth to nineteenth, the Bolt 74B eighty-ninth to ninety-eighth, the E4B 148th to 161st) with the 4B still absent; fetched and re-cited.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: deepeval
 created: 2026-08-30
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, llm-as-judge, testing, open-source]
 readability: 3
@@ -31,7 +31,7 @@ The volume leader of Python eval frameworks: 18,830 stars, 2,062 forks, 723 open
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=confident-ai/deepeval&type=date&legend=top-left" />
 </picture>
 
-Created 2023-08-10, pushed 2026-11-19 (the default branch moving 11-16 to 11-19 with voice duplex-turn fixes and their revert, numpy-based audio-glitch analysis, a TypeSafeModel question-translation mirror in OpenAIDecisionModel, and an eval-modes docs build fix), Python 4.3.4 released 2026-11-11 and still newest on PyPI as of 2026-11-20 (4.3.3 shipped 2026-11-04, 4.3.2 on 2026-10-27, 4.3.1 on 2026-10-16, with 4.3.0 on 2026-10-15 and 4.2.9 the same day), about 2.6 million PyPI downloads a month as of 2026-10-26.
+Created 2023-08-10, pushed 2026-11-22 (the default branch moving 11-19 night through 11-22 with simulated callers pressing keypad DTMF digits and the caller's reply deciding the presses, a voice interrupt on the turn schedule, and docs work: a community meetups page, a production-build fix on the eval-modes page, and hero polish), Python 4.3.4 released 2026-11-11 and still newest on PyPI as of 2026-11-22 (4.3.3 shipped 2026-11-04, 4.3.2 on 2026-10-27, 4.3.1 on 2026-10-16, with 4.3.0 on 2026-10-15 and 4.2.9 the same day), about 3.3 million PyPI downloads a month as of 2026-11-22 (the rolling figure read about 2.6 million on 2026-10-26).
 **Three years old and commercially backed, it is the most mature column in this category, and the 717-item backlog reads as heavy usage rather than neglect.**
 
 ## Strengths
@@ -87,6 +87,7 @@ Not for teams that cannot tolerate LLM-judge variance, or that need score parity
 - 2026-11-05 - Recorded the Python 4.3.3 release (2026-11-04, published to PyPI ahead of the GitHub release tags, which still name python-v4.2.4 as newest) and refreshed the activity line.
 - 2026-11-11 - Refreshed the activity line: the default branch moved 2026-11-10 with three merged pull requests (turn API metadata, a voice turn-start-time fix, a G-Eval rubric cache-key fix), Python 4.3.3 still newest on PyPI.
 - 2026-11-13 - Recorded the Python 4.3.4 release (2026-11-11, PyPI-verified) and refreshed the activity line (the default branch moved 2026-11-12 with the ConversationalGEval parameter fix).
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched and live (repository, docs, the Confident AI pricing page, the TypeScript beta post, the launch thread, and the pypistats and PyPI JSON endpoints), and the activity line refreshed (the default branch moved 11-19 night through 11-22 with simulated-callers keypad DTMF work and the docs community page); Python 4.3.4 still newest on PyPI and the trailing-month download figure refreshed to about 3.3 million as of 2026-11-22.
 
 ## See also
 

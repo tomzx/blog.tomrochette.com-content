@@ -1,7 +1,7 @@
 ---
 title: Sno Station
 created: 2026-10-28
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, cross-harness, encryption, open-source]
 readability: 3
@@ -28,7 +28,7 @@ Three data modes surround that core: Local First uploads no memory text, Agent N
 ## Status
 
 **Young, fast-rising, and entirely self-evidenced.**
-929 stars and 364 forks on a repository created 2026-09-19 (public since 2026-09-18) and pushed 2026-11-20, Apache-2.0, as of 2026-11-20 (GitHub API).
+929 stars and 364 forks on a repository created 2026-09-19 (public since 2026-09-18) and pushed 2026-11-21, Apache-2.0, as of 2026-11-20 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sno-ai/sno-station&type=date&theme=dark&legend=top-left" />
@@ -40,6 +40,7 @@ The newest published release is v2.0.2 (2026-11-16): timed tasks arrive ("check 
 The 2.1 line (November 17 to 18) carried the shared-memory work: v2.1.0 made a spoken rule deduplicate (say it again in other words and it is kept once), retire its old version on rewording, and tidy nightly, with new sessions opening on a short list of the rules that matter; v2.1.1 made each task's handoff note rewrite as the work moves and let a spoken cancel remove a timed task; v2.1.2 made "remember this" said to one agent land in the others' sessions the same day; and v2.1.3 taught agents to read their own task mail: an agent that finishes picks up its waiting tasks unbidden, one of several claimants takes a broadcast task, an untouched task gets a nudge, a dead holder's task restarts from where it left off, and `sno reach sent` shows what you sent and who answered.
 v2.2.0 (November 19) turned the status line into the who-is-waiting view: each waiting agent gets its own line naming the agent, the project, and the question it ended on, an approval counts once and clears with its session, and `sno squad` opens in about a second with the waiting list at the top.
 v2.2.5 (November 20) makes task limits stay with their task: hand an agent "touch only these two files" or "spend ten minutes on this" and the limit no longer returns as a standing rule in the next session or in another agent, while a rule meant for good still sticks when said so, with the task's worked-out facts and pitfalls kept; the tags skip v2.2.1 through v2.2.4 entirely, the version line jumping again after its two recorded deletions, though this time nothing was deleted.
+v2.3.0 (November 21) scopes memory to the repository that set it: a working habit told to one agent in one repository (which branch, what commit message, which test command) reaches only that repository's agents unless you say it applies everywhere, a statement Sno cannot scope stays in the project where you said it, and a correction about you stops reaching agents in other projects the same day in more cases instead of after the nightly run.
 The version line itself is unreliable, and the pattern repeated: the v1.7.1 release this note recorded as newest on 2026-10-29 is now itself gone from tags and releases two days later, and GitHub tags jump from v1.3.5 to v1.7.2, so release history has been deleted or rewritten again; v1.7.2 and v1.7.3 still stand in tags and releases as of 2026-11-07, so the deletion has not recurred a third time.
 The what-runs-today table marks the five-harness shared memory, the mailbox, and Self Learning as released and proven end to end on clean machines.
 The reach line widened into peer messaging on the default branch (November 13 to 15, pending release): agents message each other through user workflows (an Instant Messenger and Agent Email, with translated guidance), peer messaging and threaded calls connect over a pinned iroh transport with a Codex wake client, native and portable terminal wake, and Orca composer drafts read when waking an agent, and network peers authenticate with bound message senders; dependency fixes (a standalone sanitizer update and vulnerable runtime versions removed) landed beside it, and the cross-computer messaging half shipped in v2.0.2.
@@ -96,6 +97,7 @@ Not for privacy-strict environments that cannot accept the default nightly sessi
 - 2026-11-16 - Recorded v2.0.2 (November 16): timed tasks (an agent starts at a said time with the conversation open or closed, `sno heartbeat --due` shows the schedule, failed starts stay listed with their reason), agents messaging each other across computers on the same network or over Tailscale, and cut-off agents picking up their waiting messages; the cross-computer messaging half of the recorded peer-messaging wave shipped, and the push date refreshed to 2026-11-16.
 - 2026-11-19 - Recorded the 2.1 line and v2.2.0 (November 17 to 19): rule dedup and nightly tidying with a short important-rules brief on new sessions (v2.1.0), rewriting handoff notes and spoken timed-task cancels (v2.1.1), same-day cross-agent remember (v2.1.2), agents reading their own task mail with claimants, nudges, and dead-holder recovery (v2.1.3), and the who-is-waiting status line naming the agent, the project, and the question ended on (v2.2.0); the push date refreshed to 2026-11-19.
 - 2026-11-20 - Recorded v2.2.5 (November 20): task-scoped limits stay with their task instead of becoming standing rules in later sessions or other agents, with deliberate rules and task facts kept, and the tag sequence skipping v2.2.1 through v2.2.4 entirely (a jump, not the earlier deletions); the push date refreshed to 2026-11-20.
+- 2026-11-22 - Rotation re-verification with every cited URL re-fetched live (repository API and README, the security doc, sno.ai and its pricing page, the evals directory, the v1.7.1 tag still 404ing as recorded, and the footprint scan still finding no thread), then recorded v2.3.0 (November 21): memory scoping by repository, so a working habit told in one repository reaches only that repository's agents unless said to apply everywhere, unscopeable statements stay in their project, and corrections propagate across projects faster than the nightly run; the push date refreshed to 2026-11-21.
 
 ## See also
 

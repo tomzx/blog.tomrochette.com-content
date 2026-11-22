@@ -1,7 +1,7 @@
 ---
 title: Kiln
 created: 2026-10-10
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, evals, fine-tuning, desktop-app]
 readability: 3
@@ -79,6 +79,7 @@ Not for CI gating (deepeval's job), production observability (Langfuse's and Pho
 - 2026-11-05 - Rotation re-verification: every cited URL re-fetched and live, the activity line refreshed to the 2026-11-02 default-branch merge (PR 1992) after the repository-level pushed date had moved again, and v1.2.0 re-confirmed as the newest release on both GitHub and PyPI.
 - 2026-11-11 - Recorded the v1.2.1 release (2026-11-11, published to GitHub and PyPI the same day after a version-bump commit and an env-rename merge) ending the v1.2.0 line's two-month hold, and refreshed the activity line.
 - 2026-11-13 - Refreshed the activity line: the default branch moved 2026-11-12 and 11-13 (a model-deprecation sweep and release-check tooling merges), v1.2.1 still the newest release on both GitHub and PyPI.
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched and live (the repository and its API, the release line, the evaluations docs, the pricing page with the tiers and the free Individual tier unchanged, PyPI still 1.2.1, faircode.io, and the four-thread HN search), the default branch quiet since 2026-11-18 with the repository-level 2026-11-22 push side-branch activity, and v1.2.1 re-confirmed as the newest release on both GitHub and PyPI.
 
 ## See also
 

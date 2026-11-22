@@ -1,7 +1,7 @@
 ---
 title: gptme
 created: 2026-10-13
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, cli, terminal, local-first, autonomous-agents]
 readability: 3
@@ -23,10 +23,10 @@ Providers are your choice: Anthropic, OpenAI, Google, Grok, DeepSeek, OpenRouter
 
 ## Status
 
-Active and steadily shipped: 4,448 stars as of 2026-10-13, 478 forks and 6 open issues, pushed 2026-11-20 (GitHub API, as of 2026-11-20), with weekly dev pre-releases and stable v0.37.0 (November 15, 2026), a 30-feature release that hardens the hooks seam (a pre-execution deny that can reject tool calls, enforced secret-path reads, and warnings before externally enforced session deadlines), adds local peer discovery that wakes conversations for peer messages, subagent work (cache-aware usage breakdowns, a retained-worktree GC path, a cross-restart writer lease, and a yield operation that checkpoints and ends an attempt as blocked_external), a TUI work-overview screen for child agents and monitors, and OSC 7501 lifecycle reporting, on top of stable v0.36.0 (November 2, 2026) adding an OpenCode Go DeepSeek provider, Windows Authenticode signing for the installer and sidecar, opt-in project verification discovery, a managed default move to claude-sonnet-5.5 over OpenRouter, and per-finding evidence fields with multi-pass consensus preservation on review findings, on top of stable v0.35.1 (October 15, 2026) on top of v0.35.0 the same day, a 61-feature release adding a memory guard that kills the agent's largest command when system memory runs low, queued prompts that steer the running turn, Ctrl+C tool stops in the TUI, and an IPython kernel-process split (v0.35.1); stable v0.34.0 (September 2026) added cross-harness memory and skills as slash commands.
+Active and steadily shipped: 4,448 stars as of 2026-10-13, 478 forks and 6 open issues, pushed 2026-11-22 (GitHub API, as of 2026-11-22), with weekly dev pre-releases and stable v0.37.0 (November 15, 2026), a 30-feature release that hardens the hooks seam (a pre-execution deny that can reject tool calls, enforced secret-path reads, and warnings before externally enforced session deadlines), adds local peer discovery that wakes conversations for peer messages, subagent work (cache-aware usage breakdowns, a retained-worktree GC path, a cross-restart writer lease, and a yield operation that checkpoints and ends an attempt as blocked_external), a TUI work-overview screen for child agents and monitors, and OSC 7501 lifecycle reporting, on top of stable v0.36.0 (November 2, 2026) adding an OpenCode Go DeepSeek provider, Windows Authenticode signing for the installer and sidecar, opt-in project verification discovery, a managed default move to claude-sonnet-5.5 over OpenRouter, and per-finding evidence fields with multi-pass consensus preservation on review findings, on top of stable v0.35.1 (October 15, 2026) on top of v0.35.0 the same day, a 61-feature release adding a memory guard that kills the agent's largest command when system memory runs low, queued prompts that steer the running turn, Ctrl+C tool stops in the TUI, and an IPython kernel-process split (v0.35.1); stable v0.34.0 (September 2026) added cross-harness memory and skills as slash commands.
 Bootstrap-funded by its author, with a managed cloud (gptme.ai, early access) that bills usage-based credits.
-PyPI downloads run about 23,000 per month as of 2026-11-20 (22,807 in the API's last-month window, down from the 32,174 read on 2026-10-13), modest next to this category's mass-market members.
-**The governance curiosity is the contributor table: the top contributor is TimeToBuildBob, the project's own autonomous agent, at 2,887 contributions against the author's 1,969 as of 2026-11-16.**
+PyPI downloads run about 21,000 per month as of 2026-11-22 (21,498 in the API's last-month window, down from the 32,174 read on 2026-10-13), modest next to this category's mass-market members.
+**The governance curiosity is the contributor table: the top contributor is TimeToBuildBob, the project's own autonomous agent, at 2,969 contributions against the author's 1,977 as of 2026-11-22.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gptme/gptme&type=date&theme=dark&legend=top-left" />
@@ -44,7 +44,7 @@ PyPI downloads run about 23,000 per month as of 2026-11-20 (22,807 in the API's 
 
 ## Cautions
 
-- The independent-discussion record is thin for a four-year-old project: its Show HN threads sit at 5, 5, and 1 points, and adoption (about 23k PyPI downloads a month as of 2026-11-16) trails every category peer with comparable maturity.
+- The independent-discussion record is thin for a four-year-old project: its Show HN threads sit at 5, 5, and 1 points, and adoption (about 21k PyPI downloads a month as of 2026-11-22) trails every category peer with comparable maturity.
 - The README cites an August 2024 Show HN thread that no longer resolves in the Hacker News index, so part of the advertised launch history is unverifiable.
 - Solo-maintainer concentration: the human bus factor is one, and the top contributor being an agent is as much a governance question as a feature.
 - Running shell, Python, and desktop tools on your host (rather than in a sandbox) keeps the Anthropic-style security question open, though v0.33.0 added optional Docker and Wasmtime sandboxing.
@@ -75,6 +75,7 @@ Not for teams needing a large independent community, published hosted pricing, o
 - 2026-10-31 - Rotation re-verification, every cited reference live: v0.35.1 still the newest stable, PyPI unchanged at 32,174 downloads in the last month, and the contributor counts refreshed again (TimeToBuildBob 2,711 against the author's 1,956, order unchanged).
 - 2026-11-08 - Rotation re-verification, every cited reference live: v0.36.0 (November 2) still the newest stable with the dev pre-release train continuing, PyPI still at 32,174 downloads in the last month, and the contributor counts refreshed (TimeToBuildBob 2,795 against the author's 1,962, order unchanged).
 - 2026-11-16 - Rotation re-verification, re-fetching every cited reference (all live): recorded the stable v0.37.0 (November 15), a 30-feature release hardening the hooks deny seam, adding local peer discovery with conversation wake, subagent durability work, and OSC 7501 lifecycle reporting; refreshed the push date to 2026-11-16, the PyPI last-month figure to 23,018 (down from 32,174), and the contributor counts (TimeToBuildBob 2,887 against the author's 1,969, order unchanged).
+- 2026-11-22 - Rotation re-verification, re-fetching every cited reference (all live): v0.37.0 still the newest stable with the dev pre-release train continuing, the push date refreshed to 2026-11-22, the PyPI last-month figure to 21,498 (down from 23,018), the contributor counts to TimeToBuildBob 2,969 against the author's 1,977 (order unchanged), and the three docs pages and the 5/5/1-point Show HN record re-confirmed.
 
 ## See also
 
@@ -92,6 +93,6 @@ Not for teams needing a large independent community, published hosted pricing, o
 - https://gptme.org/docs/arewetiny.html - the small-by-design policy with startup-time and lines-of-code benchmarks
 - https://gptme.org/docs/cloud.html - the gptme.ai managed service: early access, usage-based credits, GitHub integration
 - https://api.github.com/repos/gptme/gptme/releases?per_page=5 - the weekly dev pre-release train and the stable v0.37.0 stamp (November 15, 2026)
-- https://pypistats.org/api/packages/gptme/recent - the last-month download figure (23,018 as of 2026-11-16, down from the 32,174 read on 2026-10-13)
-- https://api.github.com/repos/gptme/gptme/contributors?per_page=5 - the contributor table with TimeToBuildBob (the autonomous agent) first at 2,626 (as of 2026-10-25, re-verified 2026-11-16 at 2,887)
+- https://pypistats.org/api/packages/gptme/recent - the last-month download figure (21,498 as of 2026-11-22, down from the 32,174 read on 2026-10-13)
+- https://api.github.com/repos/gptme/gptme/contributors?per_page=5 - the contributor table with TimeToBuildBob (the autonomous agent) first at 2,626 (as of 2026-10-25, re-verified 2026-11-22 at 2,969)
 - https://hn.algolia.com/api/v1/search?query=gptme&tags=story - the thin independent-discussion record: Show HN threads at 5 (2023), 5 (2024), and 1 (2025) points

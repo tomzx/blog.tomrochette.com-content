@@ -1,7 +1,7 @@
 ---
 title: Operator Memory
 created: 2026-10-17
-updated: 2026-11-19
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, agent-memory, documentation, markdown, context-engineering]
 readability: 3
@@ -17,7 +17,7 @@ Operator Memory is a BSD-3-Clause, harness-agnostic documentation brain for codi
 
 ## What it is
 
-A TypeScript system installed through the @aerovato/operator-helper npm package (23 releases from 1.0.0 on 2026-08-16 to 1.12.0 on 2026-11-05, shipped through a coordinated batch publisher alongside its adapter plugins, the Codex adapter at 0.4.1), with adapter plugins for Claude Code, Codex, OpenCode (V2 the default install since 2026-10-20, V1 kept as legacy), Pi, DeepSeek Harness, and Kiro.
+A TypeScript system installed through the @aerovato/operator-helper npm package (24 releases from 1.0.0 on 2026-08-16 to 1.13.0 on 2026-11-21, shipped through a coordinated batch publisher alongside its adapter plugins, the Codex adapter at 0.5.0), with adapter plugins for Claude Code, Codex, OpenCode (V2 the default install since 2026-10-20, V1 kept as legacy), Pi, DeepSeek Harness, and Kiro.
 Knowledge lives in three markdown partitions: ~/.operator/user/ for personal rules across projects, .operator/ for private project knowledge, and .operator-shared/ for knowledge published with the repository, with conflicts resolving private over user over shared.
 Every session starts from a deterministic preamble: fixed framework rules, each partition's operator.md, a catalog mapping each Brain document, and a project index whose entries carry read_if conditions, so the agent deliberately opens deeper material instead of receiving similarity-ranked injections.
 There is no vector database, no embedding model, no background maintenance agent, and no retrieval step; the author's comparison doc argues every capture-replay memory plugin shares one broken architecture.
@@ -35,7 +35,7 @@ It came out of the author's August 2025 internal/ folder convention and ships wi
 </picture>
 
 The liao.gg essay (2026-10-03, updated 2026-10-05) reached 392 points and 312 comments on Hacker News, and the repository is the essay's grounded implementation, so the adoption and the argument share one author.
-Development is active: the helper passed 20 npm releases in two and a half months (now at 1.12.0, with the core's machine-stable versioned preamble rollout landed), and the roadmap names an observation engine, reliable brain updates, and cache-aware preamble rendering as unfinished work.
+Development is active: the helper passed 24 npm releases in three months (now at 1.13.0, with the core's machine-stable versioned preamble rollout landed), and the roadmap names an observation engine, reliable brain updates, and cache-aware preamble rendering as unfinished work.
 
 ## Strengths
 
@@ -76,7 +76,7 @@ Not for teams needing measured retrieval quality (none exists here), enterprise 
 - 2026-11-07 - Recorded the November 5 releases: helper@v1.12.0 and codex@v0.4.1 (codex skill titles now lead with Operator); the push date refreshed to 2026-11-05.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched live (the repository API and docs, the npm registry, the essay, the thread, the benchmark-exchange comment); the npm release count and the What-it-is parenthetical corrected to 23 releases through 1.12.0 with the Codex adapter at 0.4.1 (Status had moved on, the opening had not), and the liao.gg essay now serves a site-wide 403 bot wall to non-browser fetches (domain root included, browser UA included), citation kept per the bot-wall ruling.
 - 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (the repository API, README, architecture and comparison docs, LICENSE, the npm registry, the essay thread, the benchmark-exchange comment), no facts changed (the repository still pushed 2026-11-05, BSD-3-Clause, the helper still at 1.12.0 with twenty-three npm releases, the thread steady at 392 points, the benchmark-exchange comment intact); the liao.gg essay still serves its site-wide 403 bot wall to non-browser fetches, citation kept per the bot-wall ruling.
-
+- 2026-11-22 - Recorded the coordinated package batch (November 21): pi@v1.3.0 (Project Init streamlined and the standalone index command retired), opencode-v2@v2.4.0, and helper@v1.13.0, with the npm parenthetical moved to 24 releases through 1.13.0 and the Codex adapter at 0.5.0; the push date refreshed to 2026-11-21.
 ## See also
 
 - [File-based agent memory](../file-based-agent-memory/index.md) - the convention this productizes, and the thesis's cheapest form
@@ -91,7 +91,7 @@ Not for teams needing measured retrieval quality (none exists here), enterprise 
 - https://raw.githubusercontent.com/aerovato/operator-memory/main/docs/architecture.md - the deterministic preamble, catalogs and read_if indexes, the no-RAG argument, and the partition authority order
 - https://raw.githubusercontent.com/aerovato/operator-memory/main/docs/comparison.md - the anti-replay comparison and the five failure modes of capture-based memory
 - https://raw.githubusercontent.com/aerovato/operator-memory/main/LICENSE - the BSD-3-Clause license text
-- https://registry.npmjs.org/@aerovato%2Foperator-helper - publish history: 23 releases, 1.0.0 (2026-08-16) to 1.12.0 (2026-11-05)
+- https://registry.npmjs.org/@aerovato%2Foperator-helper - publish history: 24 releases, 1.0.0 (2026-08-16) to 1.13.0 (2026-11-21)
 - https://liao.gg/blog/agents-dont-need-memory - the author's essay (2026-10-03, updated 2026-10-05), the project's public argument (the site serves a site-wide 403 bot wall to non-browser fetches as of 2026-11-13, recorded per the bot-wall ruling)
 - https://news.ycombinator.com/item?id=49945933 - the essay's thread (392 points, 312 comments, 2026-10-03), the critical engagement with the documentation-over-recall position
 - https://api.github.com/repos/aerovato/operator-memory/issues/comments/5979061413 - the benchmark exchange in issue #48: the counterparty's position that current memory benchmarks test RAG wrappers, not memory systems

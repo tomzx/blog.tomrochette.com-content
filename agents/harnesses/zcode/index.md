@@ -1,7 +1,7 @@
 ---
 title: ZCode
 created: 2026-09-21
-updated: 2026-11-16
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zai, desktop, open-source, security]
 readability: 3
@@ -88,6 +88,7 @@ I would watch whether the open repository becomes a real project or stays a pres
 - 2026-11-06 - Recorded the v3.17.2 desktop release publishing on GitHub releases (November 4, with SHA256SUMS attached), the release of the source the November 3 push synced.
 - 2026-11-14 - Rotation re-verification, re-fetching every cited reference (all live), with v3.17.2 confirmed the newest desktop release and the push date refreshed to 2026-11-13.
 - 2026-11-16 - Recorded the desktop release train reaching v3.18.2 (published November 16, a build-stamp release with SHA256SUMS and no changelog body, with no v3.18.0 or v3.18.1 on the releases feed since v3.17.2); refreshed the push date to 2026-11-16.
+- 2026-11-22 - Rotation re-verification, re-fetching every cited reference (all live): v3.18.2 still the newest desktop release with the push date holding at 2026-11-16, the site's installers and GLM Coding Plan prices re-read unchanged (Lite $12.6, Pro $56, Max $117.6), and the disclosure-thread point counts re-verified unchanged.
 
 ## See also
 

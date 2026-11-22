@@ -1,7 +1,7 @@
 ---
 title: Belief Context Graph
 created: 2026-10-16
-updated: 2026-11-19
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, belief, open-source]
 readability: 3
@@ -76,6 +76,7 @@ Not for production teams needing releases, support, or independently validated b
 - 2026-11-11 - Volatile re-verification: the 2026-11-10 pushed_at movement resolved to further side-branch pushes with the default branch still quiet since 2026-10-15; no facts changed.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched live (all six reachable, no dead sources; the Fern docs through its redirect), no facts changed (still zero tagged releases, no default-branch commits since 2026-10-15, the pushed_at movement again side-branch only, both BrowseComp figures and the gpt-5.6-luna record intact on the project site).
 - 2026-11-19 - Volatile re-verification: the 2026-11-18 pushed_at movement resolved to further side-branch pushes with the default branch still quiet since 2026-10-15; no facts changed.
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched live (the repository API, README, project site, Fern docs, LICENSE, and the TeleAI source list), no facts changed (the repository still pushed 2026-11-19, MIT, the docs domain serving its 307 redirect to /overview before a 200).
 
 ## See also
 

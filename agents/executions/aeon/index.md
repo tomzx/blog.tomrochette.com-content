@@ -1,7 +1,7 @@
 ---
 title: Aeon
 created: 2026-10-08
-updated: 2026-11-20
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, github-actions, scheduling, autonomous-agents]
 readability: 3
@@ -16,18 +16,18 @@ Aeon is an MIT-licensed framework that turns a GitHub repository plus Actions in
 
 ## What it is
 
-An instance is a template copy of the aeon repo: skills (one SKILL.md prompt file each, 86 bundled), memory as committed Markdown, and an aeon.yml holding cron schedules.
-A scheduler workflow ticks every five minutes and dispatches due skills to GitHub Actions, where they run through a harness adapter (Claude Code by default, plus Grok, Codex, Pi, Vibe, Kimi, fx, Cursor, and Hermes) against ten model gateways including a Claude subscription token.
+An instance is a template copy of the aeon repo: skills (one SKILL.md prompt file each, 93 bundled), memory as committed Markdown, and an aeon.yml holding cron schedules.
+The scheduler workflow ticks every 30 minutes by default (off-peak minutes 11 and 41, tunable in scheduler.yml) and dispatches due skills to GitHub Actions, where they run through a harness adapter (Claude Code by default, plus Grok, Codex, Pi, Vibe, Kimi, fx, Cursor, and Hermes) against ten model gateways including a Claude subscription token.
 Every run gets a Haiku quality score, failures file structured issues in the repo, and three consecutive failures auto-open a repair PR, which is the self-healing loop.
 It is built by Aaron Elijah Mars (Aeon Inc), and deployment is a fork or template copy, so your repo is the runtime and your secrets stay in your repo's encrypted store.
 
 ## Status
 
 **Active and single-maintainer.**
-773 stars as of 2026-10-13, 309 forks and 1,572 commits as of 2026-11-20, created 2026-03-04 and pushed 2026-11-20, with the default branch's head dated the same day.
+773 stars as of 2026-10-13, 310 forks and 1,578 commits as of 2026-11-22, created 2026-03-04 and pushed 2026-11-21, with the default branch's head dated the same day.
 The maintainer wrote about 83% of tracked contributor commits, and there is exactly one tagged release (v0.1.0, 2026-07-09), so development is trunk-based on main.
-A Hacker News search returned no coverage as of 2026-10-27, and the fork count is inflated as an adoption signal because every deployed instance is a fork by design.
-The project's proof-of-work page self-reports 156 vulnerability findings across 116 repositories securing 5.7M stars (counts re-fetched 2026-11-20, page star counts dated November 18, 2026) with a link per fix, substantial evidence that is curated by the project itself.
+A Hacker News search returned no coverage as of 2026-11-22, and the fork count is inflated as an adoption signal because every deployed instance is a fork by design.
+The project's proof-of-work page self-reports 156 vulnerability findings across 116 repositories securing 5.7M stars (counts re-fetched 2026-11-22, page star counts dated November 18, 2026) with a link per fix, substantial evidence that is curated by the project itself.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aeonfun/aeon&type=date&theme=dark&legend=top-left" />
@@ -37,7 +37,7 @@ The project's proof-of-work page self-reports 156 vulnerability findings across 
 
 ## Strengths
 
-- **The trigger surface is the category's deepest outside the vendors**: five-minute cron, reactive triggers on run metrics (consecutive failures, success rate, last status), skill chains with parallel steps and score-gated routing, and Telegram inbound with slash commands plus an instant webhook mode.
+- **The trigger surface is the category's deepest outside the vendors**: a 30-minute cron tick by default (tunable per repo), reactive triggers on run metrics (consecutive failures, success rate, last status), skill chains with parallel steps and score-gated routing, and chat inbound over Telegram, Discord, and Slack, with Telegram slash commands plus an instant webhook mode.
 - Git is the database: memory, run state, config, and the failure tracker are committed files, so the whole agent is inspectable and revertible with git alone.
 - Nine harnesses behind one run contract and ten gateways mean a skill written once fires on any CLI, with a Claude subscription token as one of the credential options.
 - The self-healing loop (score every run, file issues, auto-repair after three failures) is the most complete automated-maintenance story in this category.
@@ -80,6 +80,7 @@ Not for teams that need a governed execution layer (gh-aw is the answer there) o
 - 2026-11-13 - Refreshed the repository counters (306 to 308 forks, 1,552 to 1,560 commits, pushed 2026-11-13 with the default branch's head dated 2026-11-12) after the 2026-11-11 verification; the proof-of-work page re-confirmed unchanged (152 findings across 113 repositories securing 5.6M stars).
 - 2026-11-15 - Refreshed the repository counters (1,560 to 1,565 commits, pushed 2026-11-14 with the default branch's head dated the same day); the proof-of-work page re-confirmed unchanged (152 findings across 113 repositories securing 5.6M stars) and the single v0.1.0 release.
 - 2026-11-20 - Refreshed the repository counters after the 2026-11-20 push (308 to 309 forks, 1,565 to 1,572 commits, the default branch's head dated the same day) and the proof-of-work page counts (152 to 156 findings across 113 to 116 repositories securing 5.6M to 5.7M stars, page star counts dated November 18, 2026).
+- 2026-11-22 - Fully re-verified in rotation with every cited URL re-fetched, and the scheduler record corrected: the shipped `.github/workflows/scheduler.yml` defaults to a 30-minute off-peak tick (11,41 * * * *) against the docs' own stale five-minute file-table line, so the What-it-is line and the trigger strength were re-worded and both matrix cells re-dated; recorded the bundled-skill catalog at 93 skills (86 before) against `catalog/skills.json` and the README hero, and the docs' newly documented Discord and Slack inbound channels beside Telegram; the docs (nine harnesses, ten gateways), the security page (156 findings across 116 repositories securing 5.7M stars, re-fetched unchanged), the README (the $aeon token and wallet links still present, now at `.github/README.md` since the 2026-07-03 consolidation), the founder site, and the still-empty HN footprint all re-confirmed, and the counters refreshed (309 to 310 forks, 1,572 to 1,578 commits, pushed 2026-11-21 with the default branch's head dated the same day).
 
 ## See also
 
@@ -90,9 +91,9 @@ Not for teams that need a governed execution layer (gh-aw is the answer there) o
 
 ## References
 
-- https://github.com/aeonfun/aeon - repository scale, template deployment model, MIT license, single release, founder line, as of 2026-10-08
-- https://www.aeon.fun/docs - architecture, the 86-skill catalog, five-minute scheduler, reactive triggers, chains, harnesses, and gateways (re-fetched 2026-10-27)
-- https://www.aeon.fun/security - the self-reported vulnerability-disclosure record (156 findings, 116 repositories, 5.7M stars, counts re-fetched 2026-11-20, page star counts dated November 18, 2026)
-- https://aaronjmars.com - the founder's own description of Aeon, MiroShark, and Hyperstitions (re-fetched 2026-10-27)
-- https://hn.algolia.com/api/v1/search?query=aeonfun&tags=story - the coverage search that returned no hits on the project, as of 2026-10-27
-- https://api.github.com/repos/aeonfun/aeon - exact counters (created 2026-03-04, 773 stars as of 2026-10-13, 309 forks, 1,572 commits, pushed 2026-11-20; re-verified 2026-11-20) and the single v0.1.0 release (re-verified 2026-11-08)
+- https://github.com/aeonfun/aeon - repository scale, template deployment model, MIT license, single release, founder line, as of 2026-10-08 (counters re-verified 2026-11-22)
+- https://www.aeon.fun/docs - architecture, the 93-skill catalog, the 30-minute default scheduler tick, reactive triggers, chains, harnesses, and gateways (re-fetched 2026-11-22)
+- https://www.aeon.fun/security - the self-reported vulnerability-disclosure record (156 findings, 116 repositories, 5.7M stars, counts re-fetched 2026-11-22, page star counts dated November 18, 2026)
+- https://aaronjmars.com - the founder's own description of Aeon, MiroShark, and Hyperstitions (re-fetched 2026-11-22)
+- https://hn.algolia.com/api/v1/search?query=aeonfun&tags=story - the coverage search that returned no hits on the project, as of 2026-11-22
+- https://api.github.com/repos/aeonfun/aeon - exact counters (created 2026-03-04, 773 stars as of 2026-10-13, 310 forks, 1,578 commits, pushed 2026-11-21; re-verified 2026-11-22) and the single v0.1.0 release (re-verified 2026-11-22)
